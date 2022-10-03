@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 297eb1c4-ee9f-4bb3-a412-18f23c74b0eb
 ---
-# Update an existing object from an Outlook email
+# Update an existing object from an [!DNL Outlook] email
 
-You can update an existing project, task, or issue with information from an Outlook email.
+You can update an existing project, task, or issue with information from an [!DNL Outlook] email.
 
 ## Access requirements
 
@@ -20,12 +20,12 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Work, Plan</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
+   <td> <p>[!UICONTROL Work], [!UICONTROL Plan]</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -36,43 +36,43 @@ You must have the following access to perform the steps in this article:
 
 Your [!DNL Workfront] administrator must enable [!DNL Outlook for Office] with [!DNL Workfront] before you can use this integration.
 
-## Update an existing object from an Outlook email
+## Update an existing object from an [!DNL Outlook] email
 
 1. In [!DNL Outlook], select the email that contains the information that you want to include in an [!DNL Adobe Workfront&nbsp;update].&nbsp;
-1. Click the&nbsp;**[!DNL Workfront]**&nbsp;icon in the upper-right corner of the email message to ndisplay the Workfront add-in.\
+1. Click the&nbsp;**[!DNL Workfront]**&nbsp;icon in the upper-right corner of the email message to display the Workfront add-in.\
    You might need to click the down-pointing arrow in the upper right of your email to access the [!DNL Workfront] icon.
 
-1. Click the **Menu** icon to display the list of available [!DNL Workfront] options.\
+1. Click the **[!UICONTROL Menu]** icon to display the list of available [!DNL Workfront] options.\
    ![o365_addin_menu_icon.png](assets/o365-addin-menu-icon.png)
 
 1. Click **[!UICONTROL Update] in Workfront**.\
    ![outlook_Update_in_workfront_menu.png](assets/outlook-update-in-workfront-menu-253x345.png)\
    You can update the following information from the email before it is saved as a task:
 
-   * **Type**: Select the type of object you are updating. You can select **Project**, **Task**, or **Issue**. The object you select determines the results that display in the **Name** field below. If you are unsure of the type of object, select **All** to search for projects, tasks, and issues simultaneously.
+   * **[!UICONTROL Type]**: Select the type of object you are updating. You can select **[!UICONTROL Project]**, **[!UICONTROL Task]**, or **[!UICONTROL Issue]**. The object you select determines the results that display in the **[!UICONTROL Name]** field below. If you are unsure of the type of object, select **[!UICONTROL All]** to search for projects, tasks, and issues simultaneously.
 
-   * **Name**: Begin&nbsp;typing the name of the project, task, or issue that you want to update. Click the name when it appears in the drop-down list.
-   * **Update**: By default, the update is the same as the email Body. You can modify the update as desired.\
+   * **[!UICONTROL Name]**: Begin&nbsp;typing the name of the project, task, or issue that you want to update. Click the name when it appears in the drop-down list.
+   * **[!UICONTROL Update]**: By default, the update is the same as the email Body. You can modify the update as desired.\
 
       This [!UICONTROL update] is displayed as the update status in Workfront.
 
-   * **Attachments**: Any email attachments are saved to the [!UICONTROL Documents] area of the task. You can delete any attachments before submitting the update.
+   * **[!UICONTROL Attachments]**: Any email attachments are saved to the [!UICONTROL Documents] area of the task. You can delete any attachments before submitting the update.
 
-1. (Optional) Click&nbsp;**Include Others**, begin typing the name of users who you want to include in the update, then click the name when it appears in the drop-down list.\
+1. (Optional) Click&nbsp;**[!UICONTROL Include Others]**, begin typing the name of users who you want to include in the update, then click the name when it appears in the drop-down list.\
    Repeat this process to include additional users, then click **[!UICONTROL Done]**.\
    By default, the user you are replying to receives a notification regardless of whether you include them.\
    ![o365_addin_includeothers.png](assets/o365-addin-includeothers.png)
 
 1. (Optional)&nbsp;Click the **[!UICONTROL Lock]** icon to restrict this update to users within your company. When the update is locked, users outside your company cannot see the update.
 
-   * **Unlocked:** Any user with access to the project, task, or issue where the update resides can view the update.\
+   * **[!UICONTROL Unlocked]:** Any user with access to the project, task, or issue where the update resides can view the update.\
 
       By default, the update is unlocked.\
       ![o365_addin_unlock.png](assets/o365-addin-unlock.png)
 
-   * **Locked:** Only users within your company can view the update.\
+   * **[!UICONTROL Locked]:** Only users within your company can view the update.\
 
       ![o365_addin_lock.png](assets/o365-addin-lock.png)
 
-1. Click **Update**.
-1. (Optional) Click **[!UICONTROL View in Workfront]** to view the updated item with the [!DNL Workfront] integration within Outlook.
+1. Click **[!UICONTROL Update]**.
+1. (Optional) Click **[!UICONTROL View in Workfront]** to view the updated item with the [!DNL Workfront] integration within [!UICONTROL Outlook].
