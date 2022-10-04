@@ -42,6 +42,11 @@ You must have the following access to perform the steps in this article:
 
 ## Install the Workfront for Adobe Photoshop plugin
 
+>[!TIP]
+>
+>If you are an Adobe Admin Console administrator, you can include the plugin in Creative Cloud deployment packages. For more information, see [Including plugins in your package](https://helpx.adobe.com/in/enterprise/using/manage-extensions.html).
+
+
 1. Open the Adobe Creative Cloud app.
 1. Click the **Marketplace** tab near the top of the window.
 1. In the **Search All Plugins** box, type *Workfront*, then press **Enter**.

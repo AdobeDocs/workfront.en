@@ -46,7 +46,7 @@ You must have the following access to perform the steps in this article:
 
 ## Prerequisites
 
-* You must install the Adobe Workfront for Creative Cloud plugin before you can upload proofs from InDesign.
+* You must install the Adobe Workfront for Creative Cloud plugin before you can upload documents from InDesign.
 
   For instructions, see [Install Workfront for Creative Cloud](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-install-cc.md).
 
@@ -61,11 +61,6 @@ You must have the following access to perform the steps in this article:
 
 1. Click **New File** near the bottom of the plugin.
 1. Choose the **Asset Type** from the drop-down menu.
-
-   >[!NOTE]
-   >
-   >If you add an approver, the image uploads to Workfront as a simple Proof.
-
 1. (Optional) Type a comment in the **Updates** area. 
 1. Click **Upload**, then configure any desired export options based on the asset type chosen above. 
    The document appears in the Documents area in the plugin and the desktop app.
