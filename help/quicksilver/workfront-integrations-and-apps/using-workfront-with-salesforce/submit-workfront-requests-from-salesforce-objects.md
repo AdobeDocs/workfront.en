@@ -11,7 +11,7 @@ exl-id: 84f8cb15-4840-4fe1-bf60-93bc4283b564
 
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span>
 
-After installing [!DNL Adobe Workfront] for [!DNL Salesforce], you can submit [!DNL Workfront] requests from [!DNL Salesforce] Opportunities and Accounts. This functionality exists in both the Classic and Lightning Experience frameworks.
+After installing [!DNL Adobe Workfront for Salesforce], you can submit [!DNL Workfront] requests from [!DNL Salesforce] Opportunities and Accounts. This functionality exists in both the [!DNL Classic] and [!DNL Lightning Experience] frameworks.
 
 ## Access requirements
 
@@ -27,7 +27,7 @@ You must have the following access to use the functionality described in this ar
   </tr> 
   <tr> 
    <td role="rowheader"><p>[!DNL Adobe Workfront] license*</p></td> 
-   <td> <p>Plan</p> </td> 
+   <td> <p>[!UICONTROL Plan]</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -38,11 +38,11 @@ You must have the following access to use the functionality described in this ar
 
 To submit a [!DNL Workfront] request from a [!DNL Salesforce] Opportunity or Account ensure that you have the following in your environment:
 
-* Your [!DNL Workfront] administrator has installed [!DNL Workfront] for Salesforce.\
-   For more information about installing Workfront for Salesforce, see [Install Adobe Workfront for Salesforce](../../workfront-integrations-and-apps/using-workfront-with-salesforce/install-workfront-for-salesforce.md)
+* Your [!DNL Workfront] administrator has installed [!DNL Workfront for Salesforce].\
+   For more information about installing [!DNL Workfront for Salesforce], see [Install [!DNL Adobe Workfront for Salesforce]](../../workfront-integrations-and-apps/using-workfront-with-salesforce/install-workfront-for-salesforce.md)
 
-* Your [!DNL Workfront] administrator has added the Workfront section to your Opportunity and Account page layouts.\
-   For more information about adding the Workfront section to a page layout, see [Configure the Adobe Workfront section for Salesforce users](../../workfront-integrations-and-apps/using-workfront-with-salesforce/configure-wf-section-for-salesforce-users.md).
+* Your [!DNL Workfront] administrator has added the [!DNL Workfront] section to your [!UICONTROL Opportunity] and [!UICONTROL Account] page layouts.\
+   For more information about adding the [!DNL Workfront] section to a page layout, see [Configure the [!DNL Adobe Workfront] section for [!DNL Salesforce] users](../../workfront-integrations-and-apps/using-workfront-with-salesforce/configure-wf-section-for-salesforce-users.md).
 
 * You have a [!DNL Workfront] account and you can log in to it from the [!DNL Workfront] section inside your Opportunity or Account.\
    Once you log in, you can see the [!UICONTROL New Requests] tab where you can start entering requests.
@@ -65,11 +65,11 @@ To submit a [!DNL Workfront] request from a [!DNL Salesforce] Opportunity or Acc
 
    Continue to follow the steps described in [Create and submit [!DNL Adobe Workfront] requests](../../manage-work/requests/create-requests/create-submit-requests.md).
 
-1. Click **Submit**.
+1. Click **[!UICONTROL Submit]**.
 
 ## View [!DNL Workfront] requests
 
-1. Go to an Opportunity or Account in Salesforce.
+1. Go to an Opportunity or Account in [!DNL Salesforce].
 1. Go to the **[!DNL Workfront]** section.
 
    >[!NOTE]
@@ -78,7 +78,7 @@ To submit a [!DNL Workfront] request from a [!DNL Salesforce] Opportunity or Acc
 
 1. Select the **[!UICONTROL Submitted Requests]** tab.
 
-   You can view all the requests that you or others have submitted from this Opportunity or Account in this tab.Requests that are submitted to this request queue in the web application do not display in this list in Salesforce.
+   You can view all the requests that you or others have submitted from this Opportunity or Account in this tab.Requests that are submitted to this request queue in the web application do not display in this list in [!DNL Salesforce].
 
    >[!NOTE]
    >
@@ -98,9 +98,9 @@ To submit a [!DNL Workfront] request from a [!DNL Salesforce] Opportunity or Acc
 
       When this information is updated in [!DNL Workfront], it is also updated in this list.
 
-1. (Optional) Click the name of the request to open it in Workfront.
+1. (Optional) Click the name of the request to open it in [!DNL Workfront].
 
-1. (Optional) Click **[!UICONTROL Go to Salesforce]** to access the Opportunity or Account where the issue originated from the following areas of Workfront:
+1. (Optional) Click **[!UICONTROL Go to [!DNL Salesforce]]** to access the Opportunity or Account where the issue originated from the following areas of Workfront:
 
    * In the [!UICONTROL Details] section of the issue
    * In the Summary panel  when selecting the issue in a list, after clicking [!UICONTROL Open Summary] ![](assets/summary-panel-icon.png) in the list's toolbar.
