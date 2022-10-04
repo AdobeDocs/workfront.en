@@ -9,9 +9,9 @@ exl-id: 4bf62192-66fe-42a7-b8c0-23b7bdef45e8
 ---
 # Access your favorites and recent items from [!DNL Slack]
 
-After you have installed and configured [!DNL Adobe Workfront] for Slack, you can view your Workfront Favorites and Recent Items and access items from either list from Slack.
+After you have installed and configured [!DNL Adobe Workfront for Slack], you can view your [!UICONTROL Workfront] Favorites and Recent Items and access items from either list from [!DNL Slack].
 
-For more information about configuring Workfront with Slack, see [Configure Adobe Workfront for Slack](../../workfront-integrations-and-apps/using-workfront-with-slack/configure-workfront-for-slack.md).
+For more information about configuring [!DNL Workfront with Slack], see [Configure [!DNL Adobe Workfront for Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/configure-workfront-for-slack.md).
 
 ## Access requirements
 
@@ -34,13 +34,13 @@ You must have the following:
 
 Before you can access your favorites and recent items from [!DNL Slack], you must
 
-* Configure [!DNL Workfront] for Slack\
-   For instructions on configuring Workfront for Slack, see [Configure Adobe Workfront for Slack](../../workfront-integrations-and-apps/using-workfront-with-slack/configure-workfront-for-slack.md).
+* Configure [!DNL Workfront for Slack]\
+   For instructions on configuring [!DNL Workfront for Slack], see [Configure [!DNL Adobe Workfront for Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/configure-workfront-for-slack.md).
 
-## Access your Favorites list from [!DNL Slack]
+## Access your [!UICONTROL Favorites] list from [!DNL Slack]
 
-1. Log in to your Slack instance and log in to [!DNL Workfront] from Slack.\
-   For more information about logging in to Workfront from Slack, see the "Logging In to Workfront from Slack" section in [Access Adobe Workfront from Slack](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md).
+1. Log in to your [!DNL Slack] instance and log in to [!DNL Workfront] from [!DNL Slack].\
+   For more information about logging in to [!DNL Workfront] from [!DNL Slack], see the "Logging In to [!DNL Workfront] from [!DNL Slack]" section in [Access [!DNL Adobe Workfront] from [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md).
 
 1. From any channel, start typing the following command in the [!UICONTROL message] field: `/workfront favorites`
 
@@ -57,8 +57,8 @@ Before you can access your favorites and recent items from [!DNL Slack], you mus
 
 ## Access your recent items list from [!DNL Slack]
 
-1. Log in to your Slack instance and log in to [!DNL Workfront] from Slack.\
-   For more information about logging in to Workfront from Slack, see the "Logging In to Workfront from Slack" section in [Access Adobe Workfront from Slack](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md).
+1. Log in to your [!DNL Slack] instance and log in to [!DNL Workfront] from Slack.\
+   For more information about logging in to [!DNL Workfront] from [!DNL Slack], see the "Logging In to [!DNL Workfront] from [!DNL Slack]" section in [Access [!DNL Adobe Workfront] from [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md).
 
 1. From any channel, start typing the following command in the [!UICONTROL message] field: `/workfront recent`
 
