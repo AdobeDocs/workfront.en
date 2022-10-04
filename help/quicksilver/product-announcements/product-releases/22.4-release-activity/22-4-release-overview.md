@@ -693,6 +693,10 @@ The following features will be removed with the 22.4 release to Production:
 
 * Resource Scheduler
 
+>[!NOTE]
+>
+>The deprecation of Resource Scheduler has been postponed until soon after the 22.4 release.
+  
   The Workload Balancer is replacing the Resource Scheduler. For more information about the deprecation and how you can prepare to use the Workload Balancer, see the following resources:
   * [Deprecation of Resource Scheduling tools in Adobe Workfront](/help/quicksilver/resource-mgmt/resource-mgmt-overview/deprecate-resource-scheduling.md)
 
