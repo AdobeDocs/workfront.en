@@ -90,6 +90,7 @@ feature-set: Workfront
       * [21.1 Other enhancements](product-announcements/product-releases/21.1-release-activity/21-1-other-enhancements.md)
     * Adobe Workfront Fusion release activity {#fusion-release}
       * [Adobe Workfront Fusion release activity](product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)
+      * [Workfront Fusion release activity: Week of September 26, 2022](product-announcements/product-releases/fusion-release-activity/fusion-sept-26-22.md)
       * [Workfront Fusion release activity: Week of September 19, 2022](product-announcements/product-releases/fusion-release-activity/fusion-sept-19-22.md)
       * [Workfront Fusion release activity: Week of July 11, 2022](product-announcements/product-releases/fusion-release-activity/fusion-july-11-22.md)
       * [Workfront Fusion release activity: Week of June 27, 2022](product-announcements/product-releases/fusion-release-activity/fusion-jun-27-22.md)
@@ -990,6 +991,12 @@ feature-set: Workfront
       * [Send a Document to Experience Manager Assets or Assets Essentials](documents/adobe-workfront-for-experience-manager-assets-essentials/send-to-aem.md)
       * [Proof a linked asset for Experience Manager Assets or Asset Essentials](documents/adobe-workfront-for-experience-manager-assets-essentials/proof-linked-asset-aem.md)
       * [Create a folder linked with Experience Manager Assets or Assets Essentials](documents/adobe-workfront-for-experience-manager-assets-essentials/create-linked-folder.md)
+  * Migrate from the legacy or enhanced connectors {#migrate-from-legacy-enhanced-connectors}
+    * [Migrate from the legacy or enhanced connectors](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/migrate-from-legacy-enhanced-connectors.md)
+    * [Migrate from the legacy or enhanced connector to Workfront for Adobe Experience Mangaer as a Cloud Service integration](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/migrate-to-workfont-integration.md)
+    * [Uninstall the Workfront with Adobe Experience Manager legacy connector](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/uninstall-legacy-connector.md)
+    * [Uninstall the Workfront with Adobe Experience Manager enhanced connector](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/uninstall-enhanced-connector.md)
+    * [Migrate linked folders and documents](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/workfront-document-link-updates.md)
 * Manage Work {#manage-work}
   * [Manage work](manage-work/manage-work.md)
   * Projects {#projects}
@@ -1996,6 +2003,7 @@ feature-set: Workfront
     * [Frame.io modules](workfront-fusion/apps-and-their-modules/frame-io-modules.md)
     * [FTP modules](workfront-fusion/apps-and-their-modules/ftp-modules.md)
     * [GitHub modules](workfront-fusion/apps-and-their-modules/github.md)
+    * [GitLab modules](workfront-fusion/apps-and-their-modules/gitlab-modules.md)
     * [Gmail modules](workfront-fusion/apps-and-their-modules/gmail-modules.md)
     * [Google Calendar modules](workfront-fusion/apps-and-their-modules/google-calendar-modules.md)
     * [Google Docs modules](workfront-fusion/apps-and-their-modules/google-docs-modules.md)
