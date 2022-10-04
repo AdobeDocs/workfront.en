@@ -693,7 +693,7 @@ The following features will be removed with the 22.4 release to Production:
 
 * Resource Scheduler
 
-  >[!NOTE]
+>[!NOTE]
 >
 >The deprecation of Resource Scheduler has been postponed until soon after the 22.4 release.
   
