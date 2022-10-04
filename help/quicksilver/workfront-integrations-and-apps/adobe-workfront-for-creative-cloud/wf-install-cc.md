@@ -14,8 +14,7 @@ You can install the Adobe Workfront for Creative Cloud plugin from the Adobe Mar
 
 >[!NOTE]
 >
->There are separate installation instructions for Photoshop and XD. For more information, see [Install Workfront for Adobe Photoshop](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-ps.md) and [Install Workfront for Adobe XD
-](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-install.md).
+>There are separate installation instructions for Photoshop and XD. For more information, see [Install Workfront for Adobe Photoshop](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-ps.md) and [Install Workfront for Adobe XD](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-install.md).
 
 
 ## Access requirements
