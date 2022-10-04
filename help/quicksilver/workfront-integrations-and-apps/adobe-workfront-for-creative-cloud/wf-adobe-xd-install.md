@@ -9,8 +9,17 @@ exl-id: d4971977-b5bd-4bb4-a1c2-44829a67d32d
 ---
 # Install Adobe Workfront for Adobe XD
 
-You can install the Adobe Workfront for Adobe XD plugin from the Adobe Marketplace.
+You can install the Adobe Workfront for Adobe XD plugin from the Adobe Marketplace. The plugin supports the following languages:
 
+* English
+* French
+* German
+* Italian
+* Spanish
+* Portuguese
+* Japanese
+* Simplified Chinese
+* Traditional Chinese
 
 ## Access requirements
 

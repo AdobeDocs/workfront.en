@@ -9,7 +9,17 @@ exl-id: f5e9f121-a711-4b75-8564-54f29c5cfa48
 ---
 # Install Adobe Workfront for Photoshop
 
-You can install the Adobe Workfront for Adobe Photoshop plugin from the Adobe Marketplace.
+You can install the Adobe Workfront for Adobe Photoshop plugin from the Adobe Marketplace. The plugin supports the following languages:
+
+* English
+* French
+* German
+* Italian
+* Spanish
+* Portuguese
+* Japanese
+* Simplified Chinese
+* Traditional Chinese
 
 ## Access requirements
 
