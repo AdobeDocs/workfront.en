@@ -10,7 +10,7 @@ exl-id: 04b09d8f-71bf-4c5b-b2f3-09c714740969
 
 This page provides information about functionality that is included in the 22.4 release.
 
-These enhancements are currently available in the Preview environment and will be made available in the Production environment with the 22.4 release later this year. As the 22.4 release nears its planned Production release, this page will be updated with all functionality included with 22.4.
+These enhancements are currently available in the Preview environment and will be made available in the Production environment with the 22.4 release the week of October 3, 2022. As the 22.4 release nears its planned Production release, this page will be updated with all functionality included with 22.4.
 
 For specific release dates and times for each cluster, see the [Adobe Workfront status page](https://status.adobe.com/en/products/5943) on [status.adobe.com](http://status.adobe.com/). You must log in to see specific release times.
 
@@ -46,7 +46,7 @@ For specific release dates and times for each cluster, see the [Adobe Workfront 
                 </tr>            
 <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Use unlocked statuses in an approval processes
-</a><span style="color: #ff0000;"> Coming soon to Production!</span></p> <p>This feature was removed from the 22.3 Production release. This feature is planned to release to Production at a future time.</p> 
+</a></p> <p>This feature was removed from the 22.3 Production release. This feature is planned to release to Production at a future time.</p> 
 <p>To give you more control over the approval processes and statuses in your system, we've made it possible to create an approval process based on an unlocked system status. Moreover, you can now unlock any status that is already used in an approval process. Previously, a system status used in an approval process had to be locked. This made it available for all groups—without the possibility of removing or renaming it—so group administrators couldn't streamline their group's list of statuses to fit their specific needs.</p>   
    </td> 
     <td> <p><b>Available on these dates:</b> </p> 
@@ -67,7 +67,7 @@ For specific release dates and times for each cluster, see the [Adobe Workfront 
                                 <p>Preview release: N/A<br /></p>
                             </li>
                             <li>
-                                <p>Production release: With the 22.4 release</p>
+                                <p>Production release: With the 22.4 release <span style="color: #ff0000;">This migration has been postponed to mid to late-October. Any affected customers will be notified at that time. </span></p>
                             </li>
                         </ul>
                     </td>
@@ -533,7 +533,7 @@ Note: This functionality is not currently available in the Workload Balancer in 
                         <p>The following enhancements have been added to the Workload Balancer, in preparation for the deprecation of the Scheduling tools:</p>
                         <ul>
                             <li>
-                                <p>Work-license users can now adjust allocations<br /></p>
+                                <p>Work-license users can now adjust allocations when using the Workload Balancer of a project<br /></p>
                             </li>
                             <li>
                                 <p>Issues display in the Unassigned Work area when enabling the "Include hours from issues" setting.</p>
