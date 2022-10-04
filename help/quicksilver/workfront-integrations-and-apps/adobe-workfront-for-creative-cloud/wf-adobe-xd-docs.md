@@ -77,20 +77,20 @@ You must have the following access to perform the steps in this article:
       <td colspan="2" role="rowheader">Export Format</td>
      </tr>
      <tr>
-      <td role="rowheader">.png</td>
-      <td>The art board upoads as a .png to the work item's Documents tab in WorkfrontWork. </td>
+      <td role="rowheader">PNG</td>
+      <td>The art board upoads as a PNG to the work item's Documents tab in WorkfrontWork. </td>
      </tr>
      <tr>
-      <td role="rowheader">.jpg</td>
-      <td>The art board uploads as a .jpg to the work item's Documents tab in Workfront. <br></td>
+      <td role="rowheader">JPG</td>
+      <td>The art board uploads as a JPG to the work item's Documents tab in Workfront. <br></td>
      </tr>
      <tr>
-      <td role="rowheader">.svg</td>
-      <td>The art board uploads as a .svg to the work item's Documents tab in Workfront. </td>
+      <td role="rowheader">SVG</td>
+      <td>The art board uploads as an SVG to the work item's Documents tab in Workfront. </td>
      </tr>
      <tr>
-      <td role="rowheader">.pdf</td>
-      <td>The art board uploads as a .pdf to the work item's Documents tab in Workfront.</td>
+      <td role="rowheader">PDF</td>
+      <td>The art board uploads as a PDF to the work item's Documents tab in Workfront.</td>
      </tr>
     </tbody>
    </table>
@@ -118,7 +118,7 @@ You must have the following access to perform the steps in this article:
 
    >[!NOTE]
    >
-   >If you want to upload a new version of an svg, png, or jpg, you can upload only one art board.
+   >If you want to upload a new version of an SVG, PNG, or JPG, you can upload only one art board.
 
 1. Choose the **Asset Type** from the drop-down menu:  
 
@@ -130,20 +130,20 @@ You must have the following access to perform the steps in this article:
       <td colspan="2" role="rowheader">Export Format</td>
      </tr>
      <tr>
-      <td role="rowheader">png</td>
-      <td>The art board upoads as a png to the work item's Documents tab in WorkfrontWork. </td>
+      <td role="rowheader">PNG</td>
+      <td>The art board upoads as a PNG to the work item's Documents tab in WorkfrontWork. </td>
      </tr>
      <tr>
-      <td role="rowheader">jpg</td>
-      <td>The art board uploads as a jpg to the work item's Documents tab in Workfront. <br></td>
+      <td role="rowheader">JPG</td>
+      <td>The art board uploads as a JPG to the work item's Documents tab in Workfront. <br></td>
      </tr>
      <tr>
-      <td role="rowheader">svg</td>
-      <td>The art board uploads as a svg to the work item's Documents tab in Workfront. </td>
+      <td role="rowheader">SVG</td>
+      <td>The art board uploads as a SVG to the work item's Documents tab in Workfront. </td>
      </tr>
      <tr>
-      <td role="rowheader">pdf</td>
-      <td>The art board uploads as a pdf to the work item's Documents tab in Workfront.</td>
+      <td role="rowheader">PDF</td>
+      <td>The art board uploads as a PDF to the work item's Documents tab in Workfront.</td>
      </tr>
     </tbody>
    </table>

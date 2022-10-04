@@ -81,7 +81,7 @@ You must have the following access to perform the steps in this article:
       <td role="rowheader">Basic: </td> 
       <td> <p>Basic approval processes are ad-hoc and can include different reviewers as needed: </p> 
        <ul> 
-        <li> <p>(Optional) Add <strong>Approvers</strong>in the box.</p> </li> 
+        <li> <p>(Optional) Add <strong>Approvers</strong> in the box.</p> </li> 
        </ul> </td> 
      </tr> 
      <tr> 
@@ -94,7 +94,7 @@ You must have the following access to perform the steps in this article:
     </tbody> 
    </table>
 
-1. (Optional) Type a comment in the **Updates**area.
+1. (Optional) Type a comment in the **Updates** area.
 
    ![](assets/proof-approvals-xd-350x396.png)
 
@@ -152,7 +152,7 @@ You can create an interactive proof for your art boards with the Workfront for A
       <td role="rowheader">Basic: </td> 
       <td> <p>Basic approval processes are ad-hoc and can include different reviewers as needed: </p> 
        <ul> 
-        <li> <p>(Optional) Add <strong>Approvers</strong>in the box.</p> </li> 
+        <li> <p>(Optional) Add <strong>Approvers</strong> in the box.</p> </li> 
        </ul> </td> 
      </tr> 
      <tr> 
@@ -165,7 +165,7 @@ You can create an interactive proof for your art boards with the Workfront for A
     </tbody> 
    </table>
 
-1. (Optional) Type a comment in the **Updates**area.
+1. (Optional) Type a comment in the **Updates** area.
 
    ![](assets/proof-approvals-xd-350x396.png)
 
@@ -210,7 +210,7 @@ You can upload a new version of a proof. The plugin remembers the proofing workf
       <td role="rowheader">Basic: </td> 
       <td> <p>Basic approval processes are ad-hoc and can include different reviewers as needed: </p> 
        <ul> 
-        <li> <p>(Optional) Add <strong>Approvers</strong>in the box.</p> </li> 
+        <li> <p>(Optional) Add <strong>Approvers</strong> in the box.</p> </li> 
        </ul> </td> 
      </tr> 
      <tr> 
@@ -223,7 +223,7 @@ You can upload a new version of a proof. The plugin remembers the proofing workf
     </tbody> 
    </table>
 
-1. (Optional) Type a comment in the **Updates**area.
+1. (Optional) Type a comment in the **Updates** area.
 
    ![](assets/proof-approvals-xd-350x396.png)
 

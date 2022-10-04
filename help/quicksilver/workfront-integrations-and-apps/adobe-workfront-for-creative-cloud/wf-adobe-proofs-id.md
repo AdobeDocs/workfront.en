@@ -122,9 +122,9 @@ You can upload a new version of a proof. The plugin remembers the proofing workf
 
    ![](assets/plugin-create-proof-350x182.png)
 
-1. In the **Proof approvals** section, choose **Basic**or **Automated**.
+1. In the **Proof approvals** section, choose **Basic** or **Automated**.
 
-1. Add **Reviewers**or a **Workflow template** based on the approval type you selected in step 7.
+1. Add **Reviewers** or a **Workflow template** based on the approval type you selected in step 7.
 
 1. (Optional) Type a comment in the **Updates** area.
 1. Click **Upload**, then configure any desired export options based on the asset type chosen above. 
