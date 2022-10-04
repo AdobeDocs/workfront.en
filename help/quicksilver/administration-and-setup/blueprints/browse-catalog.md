@@ -44,7 +44,7 @@ The catalog displays all of the blueprints that are available for your organizat
    * Use case (such as Human Resources or Marketing)
    * Maturity level (managed or integrated)
    * Installation status (installed or not installed)
-   * Blueprint type (Custom Form, Organizational Structure, Project Template, Dashboard, Request Queue, Setup Feature)
+   * Blueprint type (<!--Custom Form, -->Dashboard, Organizational Structure, Project Template<!--, Request Queue, Setup Feature-->)
 
 1. (Optional) Click **Details** on a blueprint to learn how it works.
 

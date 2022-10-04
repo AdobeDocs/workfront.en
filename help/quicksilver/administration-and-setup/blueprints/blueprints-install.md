@@ -81,4 +81,4 @@ You can install your package in any of the following environments:
 
    When the installation is complete, a message displays a list of the specific objects (such as roles, teams, or groups) that were successfully installed with the blueprint and any objects that failed to install.
 
-After installing the blueprint, some additional actions are needed to fully deploy it. For information, see [Actions to take after installing a blueprint](../../administration-and-setup/blueprints/best-next-actions-after-install.md).
+After installing the blueprint, some additional actions might be needed to fully deploy it. For information, see [Actions to take after installing a blueprint](../../administration-and-setup/blueprints/best-next-actions-after-install.md).
