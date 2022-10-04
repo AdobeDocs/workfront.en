@@ -2,7 +2,7 @@
 content-type: reference
 product-area: workfront-integrations
 navigation-topic: workfront-integrations-navigation-topic
-title: Adobe Workfront plugin for Creative Cloud Applications
+title: Upload documents and proofs with the Adobe Workfront plugin for Creative Cloud Applications
 description: Adobe Workfront plugin for Creative Cloud Applications
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
