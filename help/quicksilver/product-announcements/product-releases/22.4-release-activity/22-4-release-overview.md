@@ -12,7 +12,7 @@ This page provides information about functionality that is included in the 22.4 
 
 These enhancements are currently available in the Preview environment and will be made available in the Production environment with the 22.4 release the week of October 3, 2022. As the 22.4 release nears its planned Production release, this page will be updated with all functionality included with 22.4.
 
-For specific release dates and times for each cluster, see the [Adobe Workfront status page](https://status.adobe.com/en/products/5943) on [status.adobe.com](http://status.adobe.com/). You must log in to see specific release times.
+For specific release dates and times for each cluster, see the [Adobe Workfront status page](https://status.adobe.com/products/503490) on [status.adobe.com](http://status.adobe.com/). You must log in to see specific release times.
 
 ## Adobe Workfront enhancements
 
@@ -446,7 +446,7 @@ Note: This functionality is not currently available in the Workload Balancer in 
                 <tr>
                     <td>
                         <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Estimation field added to cards</a> </p>
-                        <p>A new Estimation field on both ad hoc and connected cards allows you to enter the estimated number of hours for the card to be completed. This is a manual entry, not a calculated value, and the value can't be more than 99. The estimate is displayed on the card on the board as well as in the card details.</p>
+                        <p>A new Estimation field on both ad hoc and connected cards allows you to enter the estimated number of hours for the card to be completed. This is a manual entry, not a calculated value, and the value can't be more than 99. The estimate is displayed on the card on the board and in the card details.</p>
                     </td>
                     <td>
                         <p><b>Available on these dates:</b>
@@ -503,7 +503,7 @@ Note: This functionality is not currently available in the Workload Balancer in 
                 <tr>
                     <td>
                         <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-resource-management-enhancements.md" class="MCXref xref" xrefformat="{para}">Show all users with a selected job role in the Workload Balancer when assigning work in bulk</a></p>
-                        <p>To make it easier to find the right person when replacing job roles with users in the Workload Balancer in bulk, we have improved the way the list of available users populates. Now, you can view all users in the system that can fulfil the selected role in two separate areas in the same list of users:</p>
+                        <p>To make it easier to find the right person when replacing job roles with users in the Workload Balancer in bulk, we have improved the way the list of available users populates. Now, you can view all users in the system that can fulfill the selected role in two separate areas in the same list of users:</p>
                         <ul>
                             <li>
                                 <p>The first area (Suggested Assignments) displays users identified by the Smart Assignments logic.<br /></p>
