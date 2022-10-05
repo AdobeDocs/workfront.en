@@ -130,16 +130,15 @@ When users create a linked folder on a project, the associated project, portfoli
 1. Click **Save** or move on to the [Project metadata sync](#project-metadata-sync) section in this article.
 
 
-### Project metadata sync
+### Object metadata sync
 
-An Experience Manager fields that is mapped to Workfront project fields update automatically when the field is changed in Workfront.
+An Experience Manager fields that is mapped to Workfront portfilio, program, project, task, and issue fields update automatically when the field is changed in Workfront.
 
 >[!IMPORTANT]
 >
->Users must have write access in Experience Manager for assets living in the project in order for the metadata to sync when it's updated.
+>Users must have write access in Experience Manager for assets living in the object in order for the metadata to sync when it's updated.
 
-1. Enable the **Sync project metadata** field.
-![sync project metadata toggle](assets/sync-project-metadata.png)
+1. Enable the **Sync object metadata** field.
 1. Click Save or move on to the [Set up linked folders (Optional)](#set-up-linked-folders-optional) section in this article.
 
 ## Set up linked folders (Optional)
