@@ -9,8 +9,6 @@ exl-id: b38c91ae-342b-4002-a947-7a0ab1aaca93
 ---
 # Create [!DNL Adobe Workfront] projects from [!DNL Salesforce] objects
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span>
-
 After installing [!DNL Adobe Workfront] for Salesforce, you can define triggers that create [!DNL Workfront] projects when certain criteria are met on [!DNL Salesforce] [!UICONTROL Opportunities] and [!UICONTROL Accounts].
 
 ## Access requirements
@@ -224,8 +222,8 @@ To view projects created from an [!UICONTROL Opportunity] or Account
       When this information is updated in [!DNL Workfront], you can see the fields updated in this list. 
 
 1. (Optional) Click the name of a project to open it in Workfront.
-1. (Optional) Click [!UICONTROL **[!UICONTROL Go to Salesforce]**] in the [!UICONTROL Project Details] area <span class="preview">or the project header</span> to access the [!UICONTROL Opportunity] or the Account
- where the project originated. <span class="preview">Your system or group administrator must add the [!UICONTROL Integrations] field to your layout template to find it in the project header.</span>
+1. (Optional) Click [!UICONTROL **[!UICONTROL Go to Salesforce]**] in the [!UICONTROL Project Details] area or the project header to access the [!UICONTROL Opportunity] or the Account
+ where the project originated. Your system or group administrator must add the [!UICONTROL Integrations] field to your layout template to find it in the project header.
 
    >[!NOTE]
    >
