@@ -65,7 +65,7 @@ As a [!DNL Workfront] administrator, you can define triggers that can automatica
 After you have completed the configuration of [!DNL Workfront] for Jira, when an item is either created or updated in [!DNL Workfront] to match your triggers, a new item is automatically created in [!DNL Jira].\
 Workfront users that create and update Workfront items do not need a [!DNL Jira] license to trigger the creation of items in [!DNL Jira].
 
-For more information about defining triggers for creating Jira issues automatically, see&nbsp; [Configure [!DNL Adobe Workfront] for Jira](../../workfront-integrations-and-apps/use-workfront-with-jira/configure-workfront-for-jira.md).
+For more information about defining triggers for creating Jira issues automatically, see  [Configure [!DNL Adobe Workfront] for Jira](../../workfront-integrations-and-apps/use-workfront-with-jira/configure-workfront-for-jira.md).
 
 >[!NOTE]
 >
@@ -152,7 +152,7 @@ To manually link [!DNL Jira] issues to [!DNL Workfront] items:
 
    The following [!DNL Workfront] fields are visible in [!DNL Jira], by default, in the [!DNL Workfront] right panel:
 
-   * The **[!UICONTROL Name]** of the item: You can access the [!DNL Workfront] item by clicking the name in the panel.&nbsp;
+   * The **[!UICONTROL Name]** of the item: You can access the [!DNL Workfront] item by clicking the name in the panel. 
    * **[!UICONTROL Project Name]**
    * The **[!UICONTROL Status]** of the item
    * The **[!UICONTROL Priority]** of the item
@@ -167,18 +167,18 @@ For more information about enabling additional fields to display in the right pa
 ## Unlink items between [!DNL Jira] and [!DNL Workfront]
 
 Linked items between [!DNL Jira] and [!DNL Workfront] can be manually unlinked from [!DNL Jira].\
-You cannot unlink a [!DNL Workfront] item from their [!DNL Jira] counterpart in [!DNL Workfront].&nbsp;
+You cannot unlink a [!DNL Workfront] item from their [!DNL Jira] counterpart in [!DNL Workfront]. 
 
 You need the following access to unlink manually linked item:
 
 * You are the user who manually linked the items
 * You are the [!DNL Jira] system administrator
 
-Only a [!DNL Workfront] administrator can unlink items that were automatically linked.&nbsp;
+Only a [!DNL Workfront] administrator can unlink items that were automatically linked. 
 
 To unlink a [!DNL Jira] issue from a [!DNL Workfront] item:
 
 1. In [!DNL Jira], navigate to an issue which is linked to a [!DNL Workfront] task or issue.
 1. Go to the [!DNL Workfront] right panel, and click the **[!UICONTROL Unlink]** icon, then click **[!UICONTROL Unlink]**.\
    ![Jira_WF_unlink_icon.png](assets/jira-wf-unlink-icon-350x222.png)\
-   The previously linked [!DNL Jira] and [!DNL Workfront] items are now unlinked. Any fields, comments, or documents that might be updated on them individually in the future are not updated on their previous counterpart in the other application.&nbsp;
+   The previously linked [!DNL Jira] and [!DNL Workfront] items are now unlinked. Any fields, comments, or documents that might be updated on them individually in the future are not updated on their previous counterpart in the other application. 

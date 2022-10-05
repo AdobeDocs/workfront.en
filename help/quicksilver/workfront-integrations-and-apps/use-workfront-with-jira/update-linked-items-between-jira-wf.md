@@ -9,7 +9,7 @@ exl-id: 79ac6ff1-2f7d-4abc-8735-398f6aac5191
 ---
 # Update linked items between [!DNL Jira] and [!DNL Adobe Workfront]
 
-When you link [!DNL Jira] issues to [!DNL Adobe Workfront] tasks or issues, your users can update items in one application and the counterpart of that item also updates for the users working in the second application.&nbsp;
+When you link [!DNL Jira] issues to [!DNL Adobe Workfront] tasks or issues, your users can update items in one application and the counterpart of that item also updates for the users working in the second application. 
 
 For more information about linking items between [!DNL Workfront] and [!DNL Jira], see [Link items between Adobe Workfront and Jira](../../workfront-integrations-and-apps/use-workfront-with-jira/link-items-between-wf-jira.md).
 
@@ -66,11 +66,11 @@ Before you can link items between [!DNL Workfront] and [!DNL Jira], you must
 
 ## Update linked items in [!DNL Workfront]
 
-If you work primarily in [!DNL Workfront], you can update your work items in [!DNL Workfront] and their counterparts in [!DNL Jira] also update. This update happens through the integration of [!DNL Workfront] for [!DNL Jira] which does not require you to have a [!DNL Jira] license.&nbsp;
+If you work primarily in [!DNL Workfront], you can update your work items in [!DNL Workfront] and their counterparts in [!DNL Jira] also update. This update happens through the integration of [!DNL Workfront] for [!DNL Jira] which does not require you to have a [!DNL Jira] license. 
 
 As long as your [!DNL Workfront] administrator has configured [!DNL Workfront for Jira] to synchronize the fields between linked items, certain fields that you update in [!DNL Workfront] also update for the linked [!DNL Jira] issue. For more information about updating items in [!DNL Workfront], see [Edit issues](../../manage-work/issues/manage-issues/edit-issues.md) and [Edit tasks](../../manage-work/tasks/manage-tasks/edit-tasks.md).
 
-The following list shows which [!DNL Workfront] fields synchronize with [!DNL Jira] fields on linked items:&nbsp;
+The following list shows which [!DNL Workfront] fields synchronize with [!DNL Jira] fields on linked items: 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -119,11 +119,11 @@ The following list shows which [!DNL Workfront] fields synchronize with [!DNL Ji
 
 ## Update linked items in [!DNL Jira]
 
-If you work primarily in [!DNL Jira], you can update your work items in [!DNL Jira] and their counterparts in [!DNL Workfront] also update. You do not have to have a [!DNL Workfront] license for the [!DNL Workfront] items linked to your [!DNL Jira] issues to receive the updates you are making in [!DNL Jira].&nbsp;
+If you work primarily in [!DNL Jira], you can update your work items in [!DNL Jira] and their counterparts in [!DNL Workfront] also update. You do not have to have a [!DNL Workfront] license for the [!DNL Workfront] items linked to your [!DNL Jira] issues to receive the updates you are making in [!DNL Jira]. 
 
-On condition that your [!DNL Workfront] administrator has configured [!DNL Workfront] for [!DNL Jira] to synchronize the fields between linked items, certain fields which you update in [!DNL Jira] also update for the linked [!DNL Workfront] item.&nbsp;
+On condition that your [!DNL Workfront] administrator has configured [!DNL Workfront] for [!DNL Jira] to synchronize the fields between linked items, certain fields which you update in [!DNL Jira] also update for the linked [!DNL Workfront] item. 
 
-The following list shows which [!DNL Jira] fields synchronize with [!DNL Workfront] fields on linked items:&nbsp;
+The following list shows which [!DNL Jira] fields synchronize with [!DNL Workfront] fields on linked items: 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -169,23 +169,23 @@ The following list shows which [!DNL Jira] fields synchronize with [!DNL Workfro
 
 ## Log time from linked [!DNL Jira] issues
 
-The time that you record for a [!DNL Jira] item in [!DNL Jira] will also transfer to the linked [!DNL Workfront]&nbsp;item, regardless of where in [!DNL Jira] you log the time.\
+The time that you record for a [!DNL Jira] item in [!DNL Jira] will also transfer to the linked [!DNL Workfront] item, regardless of where in [!DNL Jira] you log the time.\
 When you log time in Jira in the [!DNL Workfront] panel, the time is recorded only in [!DNL Workfront].\
-The time you record in [!DNL Workfront] does not affect the time of the linked issue in [!DNL Jira].&nbsp;
+The time you record in [!DNL Workfront] does not affect the time of the linked issue in [!DNL Jira]. 
 
 >[!NOTE]
 >
 >If the time is added to a [!DNL Jira] item linked to a [!DNL Workfront] task, the [!UICONTROL Hour Type] for the time in [!DNL Workfront] is [!UICONTROL Task Time]. If the time is added to a [!DNL Jira] item linked to a [!DNL Workfront] issue, the [!UICONTROL Hour Type] for the time in [!DNL Workfront] is [!UICONTROL Issue Time].
 
 A comment is added to the **[!DNL Workfront]** tab in [!DNL Jira] and to the **[!UICONTROL Updates]** tab of the item in [!DNL Workfront] to record logging the time.\
-The time is also displayed in the **[!UICONTROL Hours]** tab of the [!DNL Workfront] item.&nbsp;
+The time is also displayed in the **[!UICONTROL Hours]** tab of the [!DNL Workfront] item. 
 
-* [Log time for Linked [!DNL Jira] and [!DNL Workfront] items](#log-time-for-linked-dnl-jira-and-dnl-workfront-items-log-time-for-linked-jira-and-workfront-items)&nbsp;
+* [Log time for Linked [!DNL Jira] and [!DNL Workfront] items](#log-time-for-linked-dnl-jira-and-dnl-workfront-items-log-time-for-linked-jira-and-workfront-items) 
 * [Log time from [!DNL Jira] to a [!DNL Workfront] item](#log-time-from-dnl-jira-to-a-dnl-workfront-item-log-time-from-jira-to-a-workfront-item)
 
 ### Log time for Linked [!DNL Jira] and [!DNL Workfront] items {#log-time-for-linked-jira-and-workfront-items}
 
-You can log time from a [!DNL Jira] issue linked to a [!DNL Workfront] item, and the time is recorded both on the [!DNL Jira] issue as well as the [!DNL Workfront] item.&nbsp;
+You can log time from a [!DNL Jira] issue linked to a [!DNL Workfront] item, and the time is recorded both on the [!DNL Jira] issue as well as the [!DNL Workfront] item. 
 
 >[!IMPORTANT]
 >
@@ -206,11 +206,11 @@ To log time for an item in [!DNL Jira] and have it recorded both in [!DNL Jira] 
 
 1. Continue adding information to your time entry, including a **[!UICONTROL Work Description]**, then click **[!UICONTROL Log]**.\
    The time is added to the **[!UICONTROL Work log]** tab of the [!DNL Jira] item, as well as to the [!DNL Workfront] item linked to it.\
-   The work description of the time entry is recorded as a note on the hour entry in [!DNL Workfront].&nbsp;
+   The work description of the time entry is recorded as a note on the hour entry in [!DNL Workfront]. 
 
 ### Log time from [!DNL Jira] to a [!DNL Workfront] item {#log-time-from-jira-to-a-workfront-item}
 
-You can log time just to the linked [!DNL Workfront] item from the [!DNL Jira] issue without recording this time to the [!DNL Jira] issue.&nbsp;
+You can log time just to the linked [!DNL Workfront] item from the [!DNL Jira] issue without recording this time to the [!DNL Jira] issue. 
 
 1. Log into [!DNL Jira].
 1. Navigate to a [!DNL Jira] issue which is linked to a [!DNL Workfront] item.
@@ -227,11 +227,11 @@ You can log time just to the linked [!DNL Workfront] item from the [!DNL Jira] i
 
    The time is added to the [!DNL Workfront] item.
 
-   This time is not added to the [!UICONTROL Work Log] tab of the [!DNL Jira] issue.&nbsp;
+   This time is not added to the [!UICONTROL Work Log] tab of the [!DNL Jira] issue. 
 
 ## Comment from a linked [!DNL Jira] issue {#comment-from-a-linked-jira-issue}
 
-When you comment on a [!DNL Jira] item from the [!DNL Workfront] right panel in [!DNL Jira], the comment is also added to the [!UICONTROL Updates] tab of the linked item in Workfront.&nbsp;
+When you comment on a [!DNL Jira] item from the [!DNL Workfront] right panel in [!DNL Jira], the comment is also added to the [!UICONTROL Updates] tab of the linked item in Workfront. 
 
 To comment from [!DNL Jira] to a [!DNL Workfront] item:
 

@@ -9,7 +9,7 @@ exl-id: 85821f21-d4fd-4f28-bd7a-0c109a4433a8
 ---
 # Search for [!DNL Adobe Workfront] items from [!DNL Slack]
 
-You can search for [!DNL Adobe Workfront] items from [!DNL Slack], if your instance of [!DNL Slack] has had the [!DNL Workfront] app installed.&nbsp;
+You can search for [!DNL Adobe Workfront] items from [!DNL Slack], if your instance of [!DNL Slack] has had the [!DNL Workfront] app installed. 
 
 For more information about configuring [!DNL Workfront] with [!DNL Slack], see [Configure [!DNL Adobe Workfront] for [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/configure-workfront-for-slack.md).
 
@@ -44,7 +44,7 @@ Before you can search for [!DNL Workfront] items from [!DNL Slack], you must
 1. Log in to your [!DNL Slack] instance and log in to [!DNL Workfront] from [!DNL Slack].\
    For more information about logging in to [!DNL Workfront] from [!DNL Slack], see the "Logging In to [!DNL Workfront] from [!DNL Slack]" section in [Access [!DNL Adobe Workfront] from [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md).
 
-1. From any channel, start typing either of the following commands in the message field:&nbsp;
+1. From any channel, start typing either of the following commands in the message field: 
 
    `/workfront search <keyword>`
 
@@ -54,7 +54,7 @@ Before you can search for [!DNL Workfront] items from [!DNL Slack], you must
 
    >[!NOTE]
    >
-   >Commands are case sensitive.&nbsp;The keyword is not case sensitive and it must be entered without brackets or quotation marks.\
+   >Commands are case sensitive. The keyword is not case sensitive and it must be entered without brackets or quotation marks.\
    >![slack_search_result_select_object_box.png](assets/slack-search-result-select-object-box-350x30.png)   >
 
 1. In the field that appears, select an object type from the following:

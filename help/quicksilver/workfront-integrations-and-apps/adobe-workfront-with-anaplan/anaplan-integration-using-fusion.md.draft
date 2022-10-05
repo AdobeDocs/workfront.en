@@ -106,15 +106,15 @@ Line Items
 
 | Line item name |Format |Formula |Summary |Notes |
 |---|---|---|---|---|
-| Campaign Name  |Text |&nbsp; |None  |&nbsp; |
+| Campaign Name  |Text |  |None  |  |
 | Brand + Campaign Name  |Text |'Sub Region M4'.Display Name[LOOKUP: 'Sub-Region'] & ": " & Campaign Name  |None |In the demo model there are duplicate campaigns for different regions so we concatenate the name to make them easier to compare in Workfront. |
-| ITEM: Campaigns  |Campaigns  |ITEM('Campaigns')  |None |&nbsp; |
-| NAME: Campaigns  |Text |NAME('ITEM: Campaigns')  |None  |&nbsp; |
-| Create Code Staging  |Text |RIGHT('NAME: Campaigns', LENGTH('NAME: Campaigns') - 1)  |None  |&nbsp; |
+| ITEM: Campaigns  |Campaigns  |ITEM('Campaigns')  |None |  |
+| NAME: Campaigns  |Text |NAME('ITEM: Campaigns')  |None  |  |
+| Create Code Staging  |Text |RIGHT('NAME: Campaigns', LENGTH('NAME: Campaigns') - 1)  |None  |  |
 | Campaign Code  |Text  |C & RIGHT("000000" & 'Create Code Staging', 6)  |None  |This is an example of creating a code using the numbered list number  |
 | Send to Adobe Workfront?  |Boolean |Submit Budget Request? AND CMO Approved? = 'Approve/Reject'.APPROVED AND Regional Review Complete? = 'Approve/Reject'.APPROVED AND NOT Already Sent to Adobe?  |ANY  |Use the approval criteria that is necessary for your business to send projects to Workfront |
-| Already Sent to Adobe Workfront?  |Boolean  |&nbsp; |None  |&nbsp; |
-| Workfront GUID  |Text |&nbsp; |None |&nbsp; |
+| Already Sent to Adobe Workfront?  |Boolean  |  |None  |  |
+| Workfront GUID  |Text |  |None |  |
 
 {style="table-layout:auto"}
 
@@ -200,11 +200,11 @@ Line items
 
 | Line item name |Format |Formula |Summary |Notes |
 |---|---|---|---|---|
-| Hours |Number |&nbsp; |None |&nbsp; |
+| Hours |Number |  |None |  |
 
 {style="table-layout:auto"}
 
-&nbsp;
+ 
 
 #### Workfront integration: Campaign expense data
 
@@ -220,14 +220,14 @@ Line items
 
 | Line item name |Format |Formula |Summary |Notes |
 |---|---|---|---|---|
-| Workfront Project GUID  |Text  |Code(item(Campaign expenses)  |None  |&nbsp; |
-| Description  |Text  |&nbsp; |None  |Data Load  |
-| Expense Type  |Text  |&nbsp; |None  |Data Load  |
-| Planned Date  |Date  |&nbsp; |None  |Data Load  |
-| Effective Date  |Date  |&nbsp; |None  |Data Load  |
-| Project Name  |Text  |&nbsp; |None  |Data Load  |
-| Planned Amount  |Number  |&nbsp; |Sum |Data Load  |
-| Actual Amount  |Number  |&nbsp; |Sum |Data Load  |
+| Workfront Project GUID  |Text  |Code(item(Campaign expenses)  |None  |  |
+| Description  |Text  |  |None  |Data Load  |
+| Expense Type  |Text  |  |None  |Data Load  |
+| Planned Date  |Date  |  |None  |Data Load  |
+| Effective Date  |Date  |  |None  |Data Load  |
+| Project Name  |Text  |  |None  |Data Load  |
+| Planned Amount  |Number  |  |Sum |Data Load  |
+| Actual Amount  |Number  |  |Sum |Data Load  |
 | MONTH: Effective Date  |Month  |Period(Effective Date)  |None  |Used to sum amount to a monthly module view  |
 | MONTH: Planned Date  |Month  |Period(Planned Date)  |None  |Used to sum amount to a monthly module view  |
 
@@ -247,19 +247,19 @@ Line items
 
 | Line Item Name  |Format  |Formula  |Summary  |Notes  |
 |---|---|---|---|---|
-| [!DNL Anaplan] ID  |Text  |Code(item(Campaigns)  |None  |&nbsp; |
-| Workfront - Name  |Text  |&nbsp; |None  |Data Load  |
-| Workfront - ownerID  |Text  |&nbsp; |None  |Data Load  |
-| Workfront - ProjectID  |Text  |&nbsp; |None  |Data Load  |
-| Percent Complete  |Number  |&nbsp; |Sum |Data Load  |
-| Planned Start Date  |Date  |&nbsp; |None  |Data Load  |
-| Planned Completion Date  |Number  |&nbsp; |Sum  |Data Load  |
-| Planned Hours  |Number  |&nbsp; |Sum  |Data Load  |
-| Planned Cost  |Number  |&nbsp; |Sum  |Data Load  |
-| Planned Expense Cost  |Number  |&nbsp; |Sum  |Data Load  |
-| Actual Labor Cost  |Number  |&nbsp; |Sum  |Data Load  |
-| Planned Labor Cost  |Number  |&nbsp; |Sum  |Data Load  |
-| Status  |Text |&nbsp; |&nbsp; |Data Load  |
+| [!DNL Anaplan] ID  |Text  |Code(item(Campaigns)  |None  |  |
+| Workfront - Name  |Text  |  |None  |Data Load  |
+| Workfront - ownerID  |Text  |  |None  |Data Load  |
+| Workfront - ProjectID  |Text  |  |None  |Data Load  |
+| Percent Complete  |Number  |  |Sum |Data Load  |
+| Planned Start Date  |Date  |  |None  |Data Load  |
+| Planned Completion Date  |Number  |  |Sum  |Data Load  |
+| Planned Hours  |Number  |  |Sum  |Data Load  |
+| Planned Cost  |Number  |  |Sum  |Data Load  |
+| Planned Expense Cost  |Number  |  |Sum  |Data Load  |
+| Actual Labor Cost  |Number  |  |Sum  |Data Load  |
+| Planned Labor Cost  |Number  |  |Sum  |Data Load  |
+| Status  |Text |  |  |Data Load  |
 
 {style="table-layout:auto"}
 

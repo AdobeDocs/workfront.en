@@ -70,4 +70,4 @@ Before you can access your favorites and recent items from [!DNL Slack], you mus
    ![slack_recent_items.png](assets/slack-recent-items-350x249.png)
 
 1. (Optional) Click **[!UICONTROL Show more]** to list more Recent Items.
-1. (Optional)&nbsp;Click the name of an item you have recently accessed to open it in [!DNL Workfront] in a new browser tab.
+1. (Optional) Click the name of an item you have recently accessed to open it in [!DNL Workfront] in a new browser tab.

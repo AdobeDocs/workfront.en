@@ -11,7 +11,7 @@ exl-id: 7771a7d7-7e20-4b3d-95e7-1050aeb3af67
 
 You can receive notifications from [!DNL Adobe Workfront] about items you need to approve, assignments you've been given, or comments and changes to items you're associated with.
 
-These notifications contain [!DNL Workfront] actions that you can take within [!DNL Microsoft Teams] without navigating away from [!DNL Microsoft Teams] to accomplish them.&nbsp;
+These notifications contain [!DNL Workfront] actions that you can take within [!DNL Microsoft Teams] without navigating away from [!DNL Microsoft Teams] to accomplish them. 
 
 >[!NOTE]
 >
@@ -89,9 +89,9 @@ To manage the [!DNL Workfront] notifications that you can receive in [!DNL Micro
 1. Log in to [!DNL Workfront] from [!DNL Microsoft Teams].\
    For information about logging in to [!DNL Workfront], see [Install [!DNL Adobe Workfront for Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md).
 
-1. Go to the **[!UICONTROL Chat]** area and click the&nbsp;**[!DNL Workfront]** bot&nbsp;channel.\
-   This channel is for your personal chat with the [!DNL Workfront] bot. All [!DNL Workfront] notifications display here.&nbsp;
-1. Depending on what type of notification you receive, proceed&nbsp;to the relevant section:
+1. Go to the **[!UICONTROL Chat]** area and click the **[!DNL Workfront]** bot channel.\
+   This channel is for your personal chat with the [!DNL Workfront] bot. All [!DNL Workfront] notifications display here. 
+1. Depending on what type of notification you receive, proceed to the relevant section:
 
     * [Approval notifications](#approval-notifications-approval-notifications)
     * [Assignment notifications](#assignment-notifications-assignment-notifications)
@@ -105,7 +105,7 @@ You receive approval notifications when you are asked to approve an object, such
 
 * **[!UICONTROL Approve]**: Click to approve the item.
 * **[!UICONTROL Change]**: Click to approve the item with changes.
-* **[!UICONTROL Reject]**: Click to reject the item.&nbsp;
+* **[!UICONTROL Reject]**: Click to reject the item. 
 * **[!UICONTROL Comment]**: Click to make a comment. Your comment also appears in [!DNL Workfront] as an update to the object that the notification is about.
 * **[!UICONTROL Go to Proof]**: Click to open the proof. You can then make a decision directly in the proof. For more information, see [Make a decision on a proof in the proofing viewer](../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md).
 
@@ -246,7 +246,7 @@ You receive assignment notifications when you, or a team you are on, are assigne
 
 * **[!UICONTROL Work on it]**: Select to commit to work on the item. A notification displays briefly to confirm that a new item was added to your work list.
 * **[!UICONTROL View in [!DNL Workfront]]**: Select to view the assigned issue or task in Workfront, which opens a new tab.
-* **[!UICONTROL Start]**: Click to start work on the item. A&nbsp;notification displays briefly to confirm that a new item was added to your work list.&nbsp;
+* **[!UICONTROL Start]**: Click to start work on the item. A notification displays briefly to confirm that a new item was added to your work list. 
 * **[!UICONTROL Comment]**: Click to make a comment on the item. Your comment also appears in the item's update stream in Workfront.
 * **[!UICONTROL Status]**: Click, then select the new status for the work item from the drop-down menu.
 

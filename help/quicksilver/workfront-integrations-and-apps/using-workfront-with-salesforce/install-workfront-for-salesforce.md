@@ -49,7 +49,7 @@ You must have the following access to use the functionality described in this ar
 
 ## Installing [!DNL Workfrontfor Salesforce]  {#installing-workfront-for-salesforce}
 
-You must be a [!DNL Salesforce] and a [!DNL Workfront] system administrator to install and configure [!DNL Workfront for Salesforce].&nbsp;
+You must be a [!DNL Salesforce] and a [!DNL Workfront] system administrator to install and configure [!DNL Workfront for Salesforce]. 
 
 The following subsections describe how to install [!DNL Workfront] for your [!DNL Salesforce] Production environment. You can follow the same steps to install [!DNL Workfront] for your [!DNL Salesforce] Sandbox environment.
 
@@ -106,14 +106,14 @@ To install the app before it's available:
 1. In the **Search AppExchange Apps** box, type **Workfront**.
 
 1. Click the app when you find it, then click **Get It Now**.
-1. Click **[!UICONTROL Install in Production]** to install the [!DNL Workfront] app in your [!DNL Salesforce] Production environment.&nbsp;(recommended)
+1. Click **[!UICONTROL Install in Production]** to install the [!DNL Workfront] app in your [!DNL Salesforce] Production environment. (recommended)
 1. Select the **[!UICONTROL I have read and agree to the terms and conditions]** field after you have read and agreed with the terms and conditions.
 1. Click **[!UICONTROL Confirm and Install]**.
-1. Select **[!UICONTROL Install for All Users]** (recommended), then click **[!UICONTROL Install]**.&nbsp;
+1. Select **[!UICONTROL Install for All Users]** (recommended), then click **[!UICONTROL Install]**. 
 
-1. (Conditional) If asked if you want to approve a third party access, you must select&nbsp;**[!UICONTROL Yes, grant access to these third-party web sites]**, then click **[!UICONTROL Continue]**.&nbsp;
+1. (Conditional) If asked if you want to approve a third party access, you must select **[!UICONTROL Yes, grant access to these third-party web sites]**, then click **[!UICONTROL Continue]**. 
 
-1. Click **[!UICONTROL Done]** when the installation completes.&nbsp;
+1. Click **[!UICONTROL Done]** when the installation completes. 
 
    The [!DNL Workfront] app is listed under **[!UICONTROL Installed Packages]**.
 
@@ -124,7 +124,7 @@ To install the app before it's available:
    ![salesforce_remote_site_edit.png](assets/salesforce-remote-site-edit-350x176.png)
 
 1. Specify the **[!UICONTROL Remote Site Name]**.\
-   For example,&nbsp;*[!DNL Workfront]*.
+   For example, *[!DNL Workfront]*.
 
 1. Specify the **[!UICONTROL Remote Site URL]**.\
    For example, *yourDomain.my.workfront.com*.
@@ -137,7 +137,7 @@ To install the app before it's available:
 ### Installing [!DNL Workfront for Salesforce] in the [!DNL Salesforce Lightning Experience] Framework  
 
 1. Log in to [!DNL Salesforce] as a system administrator.
-1. Click the&nbsp;**[!UICONTROL Setup] icon**, then click **[!UICONTROL Setup]**.
+1. Click the **[!UICONTROL Setup] icon**, then click **[!UICONTROL Setup]**.
 
 1. In the **[!UICONTROL PLATFORM TOOLS]** section, expand **[!UICONTROL Apps].**
 
@@ -149,19 +149,19 @@ To install the app before it's available:
    You must sign in with your [!DNL Workfront] administrator account for [!DNL Salesforce].
 
 1. Click **[!UICONTROL Allow]**.
-1. In the **[!UICONTROL Install in This Org]** box, click **[!UICONTROL Install Here]** to install [!DNL Workfront] in your [!DNL Salesforce] Production environment.&nbsp;(recommended)
+1. In the **[!UICONTROL Install in This Org]** box, click **[!UICONTROL Install Here]** to install [!DNL Workfront] in your [!DNL Salesforce] Production environment. (recommended)
 
 1. Select the **[!UICONTROL I have read and agree to the terms and conditions]** field after you have read and agreed with the terms and conditions.
 1. Click **[!UICONTROL Confirm and Install]**.
-1. Select **[!UICONTROL Install for All Users]** (recommended), then click **[!UICONTROL Install]**.&nbsp;
+1. Select **[!UICONTROL Install for All Users]** (recommended), then click **[!UICONTROL Install]**. 
 
 1. (Conditional) If asked if you want to approve a third party access, you must select **[!UICONTROL Yes, grant access to these third-party web sites]**, then click **[!UICONTROL Continue]**.
 
-1. Click **[!UICONTROL Done]** when the installation completes.&nbsp;
+1. Click **[!UICONTROL Done]** when the installation completes. 
 
    The [!DNL Workfront] app is listed under **[!UICONTROL Installed Packages]**.
 
-   &nbsp; ![salesforce_lightning_Installed_packages.png](assets/salesforce-lightning-installed-packages-350x171.png)
+     ![salesforce_lightning_Installed_packages.png](assets/salesforce-lightning-installed-packages-350x171.png)
 
 1. Navigate to **[!UICONTROL Setup].**
 1. In the **[!UICONTROL SETTINGS]** section, expand&#x200B;**[!UICONTROL Security].**
@@ -173,7 +173,7 @@ To install the app before it's available:
 
 1. Specify the **[!UICONTROL Remote Site Name]**.
 
-   For example,&nbsp;*[!DNL Workfront]*.
+   For example, *[!DNL Workfront]*.
 
 1. Specify the **[!UICONTROL Remote Site URL]**.
 
@@ -184,4 +184,4 @@ To install the app before it's available:
    The [!DNL Workfront] app is now installed on your [!DNL Salesforce] instance, and the **[!DNL Workfront]** component is now added to your environment.
 
    [!UICONTROL Salesforce] users can use the [!DNL Workfront] app once you add the [!DNL Workfront] section to their [!UICONTROL Opportunity] or [!UICONTROL Account] page layouts.\
-   For information about configuring the [!DNL Workfront] section for users, see [Configure the [!DNL Adobe Workfront] section for [!DNL Salesforce] users](../../workfront-integrations-and-apps/using-workfront-with-salesforce/configure-wf-section-for-salesforce-users.md).&nbsp;
+   For information about configuring the [!DNL Workfront] section for users, see [Configure the [!DNL Adobe Workfront] section for [!DNL Salesforce] users](../../workfront-integrations-and-apps/using-workfront-with-salesforce/configure-wf-section-for-salesforce-users.md). 

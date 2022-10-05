@@ -11,7 +11,7 @@ exl-id: 4ecfe632-5f2e-4dc2-8c88-6a8229887f53
 
 You can create a [!DNL Adobe Workfront] request from an email in Outlook.
 
-When you create a [!DNL Workfront] request based on an email, the&nbsp;content of the email (including the subject and body) are included in the request by default.
+When you create a [!DNL Workfront] request based on an email, the content of the email (including the subject and body) are included in the request by default.
 
 >[!NOTE]
 >
@@ -46,8 +46,8 @@ Your [!DNL Workfront] administrator must enable [!DNL Outlook for Office] with [
 
 To create a [!DNL Workfront] Request from [!DNL Outlook]:
 
-1. Select the email that contains the information you want to include in&nbsp;a [!DNL Workfront] request.&nbsp;
-1. Click the&nbsp;**[!DNL Workfront]**&nbsp;icon in the upper-right corner of the email message to display the Workfront add-in.\
+1. Select the email that contains the information you want to include in a [!DNL Workfront] request. 
+1. Click the **[!DNL Workfront]** icon in the upper-right corner of the email message to display the Workfront add-in.\
    You might need to click the down-pointing arrow in the upper right of your email to access the [!DNL Workfront] icon.
 
 1. Click the **[!UICONTROL Menu]** icon to display the list of available [!DNL Workfront] options.
@@ -69,7 +69,7 @@ To create a [!DNL Workfront] Request from [!DNL Outlook]:
       By default, any documents attached to the email are included in the request.
 
 1. Click **[!UICONTROL Submit Request]**.\
-   The Request is submitted to [!DNL Workfront], in the specified request queue.&nbsp;
+   The Request is submitted to [!DNL Workfront], in the specified request queue. 
 
 1. (Optional) Navigate back to [!DNL Outlook], and select the original email.\
    At the top of the [!DNL Workfront] add-in panel, notice the confirmation with a link that the email was added to Workfront as a request. The link includes the date on which it was converted.\

@@ -137,7 +137,7 @@ You must have the following in [!DNL Anaplan] to use this scenario:
 
    <!-- [Copy](javascript:void(0);) -->
    <pre><code>"Workfront Expense GUID","Workfront Project GUID","Planned Amount","Description","Expense Type","Planned Date","Campaign Name","Anaplan List Item ID"<br>"622aead400423eb2e4479fece9a72987","6218062a000d0442903fcfa21e11f556","1234","Expense 1","Entertainment","2022-03-08","New Project 6","202000001030"</code></pre>
-   &nbsp;
+    
 
 * A **[!UICONTROL Project Update Import]** process prepared to execute the import of data delivered in a file upload.
 

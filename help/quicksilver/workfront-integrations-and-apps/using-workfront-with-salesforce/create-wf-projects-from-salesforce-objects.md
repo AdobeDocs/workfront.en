@@ -61,24 +61,24 @@ As the [!DNL Salesforce] system administrator, you can define triggers that can 
 
 * The [!UICONTROL Stage] of an [!UICONTROL Opportunity] is updated.
 * The [!UICONTROL Type] of an Account
- is updated.&nbsp;&nbsp;
+ is updated.  
 
-Triggers can be configured only after you have installed [!DNL Workfront for Salesforce].&nbsp;&nbsp;\
+Triggers can be configured only after you have installed [!DNL Workfront for Salesforce].  \
 For information about installing [!DNL Workfront for Salesforce], see [Install [!DNL Adobe Workfront for Salesforce]](../../workfront-integrations-and-apps/using-workfront-with-salesforce/install-workfront-for-salesforce.md).
 
 Consider the following when configuring triggers to automatically create [!DNL Workfront] projects when [!DNL Salesforce] items are created or updated:
 
-* You must be a [!DNL Salesforce] and a [!DNL Workfront] system administrator to configure triggers.&nbsp;
+* You must be a [!DNL Salesforce] and a [!DNL Workfront] system administrator to configure triggers. 
 * After you configure the triggers, anyone who updates the [!UICONTROL Stage] of an [!UICONTROL Opportunity] or the [!UICONTROL Type] of an Account
- can trigger the creation of a [!DNL Workfront] project. This includes [!DNL Salesforce] users who do not have a [!DNL Workfront] account.&nbsp;
+ can trigger the creation of a [!DNL Workfront] project. This includes [!DNL Salesforce] users who do not have a [!DNL Workfront] account. 
 * There is no limit to how many triggers you can have.
 * You cannot create multiple triggers based on the same conditions. Triggers are unique by default.
 * Once the project is created it is automatically linked to the opportunity or the account where it was generated. Once established, this link cannot be broken.
 * One opportunity or account can be linked to multiple projects in [!DNL Workfront] when a triggered condition has been met multiple times in the life of the opportunity or the account.
 
-   For example, if you define more then one [!UICONTROL Stage] for an [!UICONTROL Opportunity] to trigger a Project, a project is created for every defined stage that the opportunity reaches, for the life of that opportunity. Also, if you update the [!UICONTROL Stage] of an [!UICONTROL Opportunity] from one defined stage to another, and then update it back to the defined stage, a second project is created for the second time you update the [!UICONTROL Stage] field to the same defined stage.&nbsp;
+   For example, if you define more then one [!UICONTROL Stage] for an [!UICONTROL Opportunity] to trigger a Project, a project is created for every defined stage that the opportunity reaches, for the life of that opportunity. Also, if you update the [!UICONTROL Stage] of an [!UICONTROL Opportunity] from one defined stage to another, and then update it back to the defined stage, a second project is created for the second time you update the [!UICONTROL Stage] field to the same defined stage. 
 
-* One project in [!DNL Workfront] can be linked only to one opportunity or one account in [!DNL Salesforce] at any given time, but not to both at the same time.&nbsp;
+* One project in [!DNL Workfront] can be linked only to one opportunity or one account in [!DNL Salesforce] at any given time, but not to both at the same time. 
 
 ### Configuring Triggers {#configuring-triggers}
 
@@ -86,7 +86,7 @@ Once you configure the triggers, the process of creating [!DNL Workfront] projec
 
 To configure triggers in [!UICONTROL Salesforce]:
 
-1. Log in to [!DNL Salesforce] as the system administrator.&nbsp;
+1. Log in to [!DNL Salesforce] as the system administrator. 
 1. (Conditional) In [!DNL Salesforce Classic], click **[!UICONTROL Setup]**, and under the **[!UICONTROL Build]** section, expand **[!UICONTROL Lightning Bolt]**.
 
    Or
@@ -105,14 +105,14 @@ To configure triggers in [!UICONTROL Salesforce]:
 
    ![salesforce_triggers_page_empty.png](assets/salesforce-triggers-page-empty-350x134.png)
 
-1. Click **[!UICONTROL New Trigger]**.&nbsp;
+1. Click **[!UICONTROL New Trigger]**. 
 1. From the **[!UICONTROL [!DNL Salesforce] Object]** drop-down menu, select **[!UICONTROL Opportunity]**.
 
    This is a required field.
 
 1. (Conditional) Specify the following:
 
-   1. From the **[!UICONTROL Stage]** drop-down menu, select a&nbsp;**[!UICONTROL Stage]**.\
+   1. From the **[!UICONTROL Stage]** drop-down menu, select a **[!UICONTROL Stage]**.\
 
       When an opportunity reaches the [!UICONTROL Stage] specified here, a project is created in [!DNL Workfront]. This is a required field.
 
@@ -122,19 +122,19 @@ To configure triggers in [!UICONTROL Salesforce]:
 
    1. Start typing the name of a Template that you want to associate with the new [!DNL Workfront] project, then select it when it appears in the list.\
 
-      This is a required field.&nbsp;
+      This is a required field. 
 
 
       >[!NOTE]
       >
       >If you have specified a Template Owner on the template that you are planning to use for this integration, that becomes the Project Owner of the new project. The new projects appear under the [!UICONTROL Projects I Own] list of the user who is the owner of the new project, according to the template.
 
-   1. (Optional) Select the **[!UICONTROL Create a new project for each sold product type] field**, if you want to create a new project for every type of product that is sold under any one opportunity.&nbsp;
+   1. (Optional) Select the **[!UICONTROL Create a new project for each sold product type] field**, if you want to create a new project for every type of product that is sold under any one opportunity. 
    1. (Conditional) Select a **[!UICONTROL Product]** in the **[!UICONTROL Product]** drop-down menu.
 
       This is a required field.
 
-   1. (Conditional)&nbsp;Start typing the name of a **[!UICONTROL Template]** that you want to associate with the new [!DNL Workfront] project if the specified Product is on the [!UICONTROL Opportunity]. Select it when it appears in the list.
+   1. (Conditional) Start typing the name of a **[!UICONTROL Template]** that you want to associate with the new [!DNL Workfront] project if the specified Product is on the [!UICONTROL Opportunity]. Select it when it appears in the list.
 
       This is a required field.
 
@@ -144,27 +144,27 @@ To configure triggers in [!UICONTROL Salesforce]:
       >
       >The project is created only when the Stage is updated on the [!UICONTROL Opportunity]. A unique project is created for each product specified when the Stage field is updated, and not as the products are added to [!UICONTROL Opportunities].
 
-1. (Optional) Click **[!UICONTROL New Trigger]**.&nbsp;
-1. (Optional)&nbsp;From the **[!UICONTROL [!DNL Salesforce] Object]** drop-down menu, select **Account
+1. (Optional) Click **[!UICONTROL New Trigger]**. 
+1. (Optional) From the **[!UICONTROL [!DNL Salesforce] Object]** drop-down menu, select **Account
 **.
 
-   This is a required field.&nbsp;
-1. (Conditional) Specify the following:&nbsp;
+   This is a required field. 
+1. (Conditional) Specify the following: 
 
    1. Select a **[!UICONTROL Type]** from the **[!UICONTROL Type]** drop-down menu.
 
       When any **Account
 ** is designated as the **[!UICONTROL Type]** specified here in [!DNL Salesforce], a **[!UICONTROL Project]** is created in [!DNL Workfront].
 
-      This is a required field.&nbsp;
+      This is a required field. 
 
    1. (Optional) Start typing the name of a **[!UICONTROL Portfolio]** or **[!UICONTROL Program]** where you want the project to be placed in [!DNL Workfront] in the **[!UICONTROL Portfolio or Program]** field, then select it when it appears in the list.
 
-      If you do not specify a Portfolio or a Program, the new project is created and added to the **[!UICONTROL Projects I Own]** list of the user logged in to [!DNL Workfront] from [!DNL Salesforce]. The user is also the Project Owner for the new project.&nbsp;
+      If you do not specify a Portfolio or a Program, the new project is created and added to the **[!UICONTROL Projects I Own]** list of the user logged in to [!DNL Workfront] from [!DNL Salesforce]. The user is also the Project Owner for the new project. 
 
    1. Start typing the name of a **[!UICONTROL Template]** that you want to associate with the new [!DNL Workfront] project, then select it when it appears in the list.
 
-      This is a required field.&nbsp;
+      This is a required field. 
 
       >[!NOTE]
       >
@@ -193,7 +193,7 @@ For more information about adding the [!DNL Workfront] section to the page layou
 You must have a [!DNL Workfront] account and be logged in to [!DNL Workfront] to view the [!UICONTROL Projects] tab.
 
 To view projects created from an [!UICONTROL Opportunity] or Account
-:&nbsp;
+: 
 
 1. Go to an [!UICONTROL Opportunity] or Account
 .
@@ -212,7 +212,7 @@ To view projects created from an [!UICONTROL Opportunity] or Account
 
    You can view the following information about the projects created by the integration:
 
-   * Project Name&nbsp;
+   * Project Name 
    * Reference Number
    * Entry Date
    * Name of the Owner
@@ -221,7 +221,7 @@ To view projects created from an [!UICONTROL Opportunity] or Account
    * Planned Completion Date
    * Percent Complete
 
-      When this information is updated in [!DNL Workfront], you can see the fields updated in this list.&nbsp;
+      When this information is updated in [!DNL Workfront], you can see the fields updated in this list. 
 
 1. (Optional) Click the name of a project to open it in Workfront.
 1. (Optional) Click [!UICONTROL **[!UICONTROL Go to Salesforce]**] in the [!UICONTROL Project Details] area <span class="preview">or the project header</span> to access the [!UICONTROL Opportunity] or the Account

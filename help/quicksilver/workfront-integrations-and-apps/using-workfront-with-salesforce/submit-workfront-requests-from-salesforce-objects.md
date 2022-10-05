@@ -53,7 +53,7 @@ To submit a [!DNL Workfront] request from a [!DNL Salesforce] Opportunity or Acc
 1. Go to the [!DNL Workfront] section.
 1. In the **[!UICONTROL New Requests]** tab, select a request type in the **[!UICONTROL Select a Request Type]** drop-down menu.
 
-   You can see the same request queues that you have access to see in Workfront.&nbsp;
+   You can see the same request queues that you have access to see in Workfront. 
 
 1. Start filling out the available fields for your request.
 

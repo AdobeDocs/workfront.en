@@ -19,7 +19,7 @@ For information about installing [!DNL Workfront for Slack], see [Configure [!DN
 You can enable a select number of [!UICONTROL notifications] that appear in the notifications bubble in the [!DNL Workfront] interface, to also be delivered in [!DNL Slack].
 
 Email notifications work independently from [!DNL Workfront] interface notifications. You or your [!DNL Workfront] administrator can disable email notifications, whereas interface notifications cannot be disabled in [!DNL Workfront].\
-You can, however, disable [!DNL Workfront] notifications that you might receive in [!DNL Slack], if you want to focus on those notifications only inside the [!DNL Workfront] interface.&nbsp;
+You can, however, disable [!DNL Workfront] notifications that you might receive in [!DNL Slack], if you want to focus on those notifications only inside the [!DNL Workfront] interface. 
 
 ## Access requirements
 
@@ -52,7 +52,7 @@ Before you can receive [!DNL Workfront] notifications in [!DNL Slack], you must
 1. (Conditional) After [!DNL Workfront] has been added to your [!DNL Slack] instance, log into [!DNL Workfront] from [!DNL Slack].\
    For information about logging into [!DNL Workfront] from [!DNL Slack], see [Access [!DNL Adobe Workfront] from [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md).
 
-1. From any channel, start typing one of the following commands in the message field:&nbsp;
+1. From any channel, start typing one of the following commands in the message field: 
 
    `/workfront settings`
 
@@ -63,7 +63,7 @@ Before you can receive [!DNL Workfront] notifications in [!DNL Slack], you must
    <img src="assets/slack-configuring-settings-350x302.png" style="width: 350;height: 302;">
 
 1. All notifications are enabled, by default.\
-   Disable any of the following notifications:&nbsp;
+   Disable any of the following notifications: 
 
    * [!UICONTROL I'm assigned to a new task or issue]
    * [!UICONTROL My team is assigned to a new task or issue]
@@ -75,19 +75,19 @@ Before you can receive [!DNL Workfront] notifications in [!DNL Slack], you must
    * [!UICONTROL Someone comments on my help request]
 
    The changes you make to the [!UICONTROL notifications] options take effect immediately.\
-   The notifications you have enabled are delivered in the [!DNL Workfront] [!DNL Slack] channel. When you disable notifications here, they are only disabled for [!DNL Slack], and not for the [!DNL Workfront] interface. You continue to receive them in the [!DNL Workfront] notifications bubble in the upper right of the interface.&nbsp;
+   The notifications you have enabled are delivered in the [!DNL Workfront] [!DNL Slack] channel. When you disable notifications here, they are only disabled for [!DNL Slack], and not for the [!DNL Workfront] interface. You continue to receive them in the [!DNL Workfront] notifications bubble in the upper right of the interface. 
 
 ## Manage [!DNL Workfront] notifications from [!DNL Slack]
 
-You can receive and respond to [!DNL Workfront] notifications from [!DNL Slack].&nbsp;
+You can receive and respond to [!DNL Workfront] notifications from [!DNL Slack]. 
 
 You can disable email notifications for notifications that you enable in [!DNL Slack], to ensure that you do not receive duplicate notifications.\
 For information about configuring your email notifications, see [Activate or deactivate your own event notifications](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 Enabling or disabling [!DNL Workfront] notifications in [!DNL Slack] does not affect the notifications you receive inside the [!DNL Workfront] interface.\
-Notifications inside the [!DNL Workfront] interface cannot be disabled.&nbsp;
+Notifications inside the [!DNL Workfront] interface cannot be disabled. 
 
-To manage your [!DNL Workfront] notifications for [!DNL Slack]:&nbsp;
+To manage your [!DNL Workfront] notifications for [!DNL Slack]: 
 
 1. Log in to [!UICONTROL Slack].
 1. Log in to [!DNL Workfront] from [!DNL Slack].\
@@ -96,8 +96,8 @@ To manage your [!DNL Workfront] notifications for [!DNL Slack]:&nbsp;
 1. Ensure that your [!DNL Workfront] notifications for [!DNL Slack] are enabled.\
    For more information about which [!DNL Workfront] notifications can be configured to also be sent to [!DNL Slack], see [Configure [!DNL Workfront] notifications for [!DNL Slack]](#configure-dnl-workfront-notifications-for-dnl-slack-configure-workfront-notifications-for-slack).
 
-1. Go to the **[!DNL Workfront]** channel to find your [!DNL Workfront] notifications.&nbsp;
-1. (Conditional and optional) Do any of the following:&nbsp;
+1. Go to the **[!DNL Workfront]** channel to find your [!DNL Workfront] notifications. 
+1. (Conditional and optional) Do any of the following: 
 
    * Click **[!UICONTROL Work on it]** to accept to work on a task.
 
@@ -117,9 +117,9 @@ To manage your [!DNL Workfront] notifications for [!DNL Slack]:&nbsp;
 
       ![slack_approve_a_document.png](assets/slack-approve-a-document-350x362.png)\
       You can also mouse over the thumbnail of the document and click the magnifying glass icon to view a larger preview of the document, before you approve it.\
-      Only the approved Slack [file types](https://api.slack.com/types/file) can be previewed.&nbsp;
+      Only the approved Slack [file types](https://api.slack.com/types/file) can be previewed. 
 
    * (Conditional and optional) Click **[!UICONTROL Grant]** or **[!UICONTROL Ignore]** to grant or ignore the request for more access from another user.\
 
       ![](assets/slack-access-approvals-list-350x213.png)\
-      You receive a confirmation that your action has been completed in [!DNL Workfront], for every decision you make within your notifications.&nbsp;&nbsp;
+      You receive a confirmation that your action has been completed in [!DNL Workfront], for every decision you make within your notifications.  

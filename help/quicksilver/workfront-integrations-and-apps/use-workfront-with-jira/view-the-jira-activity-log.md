@@ -9,7 +9,7 @@ exl-id: 3e66c8e3-94b7-4153-abbb-32b872b9402b
 ---
 # View the [!UICONTROL [!DNL Jira] Activity Log]
 
-As a [!DNL Jira] administrator, you can view the exceptions and errors that occur during the synchronization or creation of the tickets between [!DNL Adobe Workfront] and [!DNL Jira] in an [!UICONTROL Activity Log].&nbsp;
+As a [!DNL Jira] administrator, you can view the exceptions and errors that occur during the synchronization or creation of the tickets between [!DNL Adobe Workfront] and [!DNL Jira] in an [!UICONTROL Activity Log]. 
 
 You can see up to 500 items in the Activity Log, and they are listed starting with the most recent ones.
 
@@ -52,7 +52,7 @@ Before you can link items between [!DNL Workfront] and [!DNL Jira], you must
 
    For instructions on installing [!DNL Workfront for Jira], see [Install [!DNL Adobe Workfront for Jira]](../../workfront-integrations-and-apps/use-workfront-with-jira/install-workfront-for-jira.md).
 
-## Access the [!UICONTROL [!DNL Jira] Activity Log]:&nbsp;
+## Access the [!UICONTROL [!DNL Jira] Activity Log]: 
 
 1. Log into Jira as a system administrator.
 1. Click **[!UICONTROL Settings]** in the main [!DNL Jira] menu.
@@ -61,9 +61,9 @@ Before you can link items between [!DNL Workfront] and [!DNL Jira], you must
 1. Expand the **[!DNL Workfront]** add-on.
 1. Click **[!UICONTROL Configure]**.
 1. Log in to [!DNL Workfront] as a system administrator.
-1. Select the **[!UICONTROL Activity Log]**&nbsp;tab.
+1. Select the **[!UICONTROL Activity Log]** tab.
 
-   View information about exceptions and errors that occurred during the creation of items or&nbsp;synchronization of fields between the two applications.
+   View information about exceptions and errors that occurred during the creation of items or synchronization of fields between the two applications.
 
    The log includes the following fields:
 

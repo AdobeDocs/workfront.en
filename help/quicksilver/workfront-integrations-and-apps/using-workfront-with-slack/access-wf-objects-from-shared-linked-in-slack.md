@@ -13,9 +13,9 @@ When links to [!DNL Adobe Workfront] objects are shared with you in a [!DNL Slac
 
 For more information about configuring [!DNL Workfront for Slack], see [Configure [!DNL Adobe Workfront for Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/configure-workfront-for-slack.md).
 
-You must be logged in to [!DNL Workfront] in a separate browser tab to open the link or to perform additional actions on those objects from [!DNL Slack].&nbsp;
+You must be logged in to [!DNL Workfront] in a separate browser tab to open the link or to perform additional actions on those objects from [!DNL Slack]. 
 
-When a user is sharing a link to an object in [!DNL Workfront] with you, additional information about the object might also be displayed along with the link. The user sending the link must have at least [!UICONTROL View] permissions to the object in order for the additional information to display in [!DNL Slack].&nbsp;
+When a user is sharing a link to an object in [!DNL Workfront] with you, additional information about the object might also be displayed along with the link. The user sending the link must have at least [!UICONTROL View] permissions to the object in order for the additional information to display in [!DNL Slack]. 
 
 ## Access requirements
 
@@ -59,8 +59,8 @@ Before you can access your favorites and recent items from [!DNL Slack], you mus
 
    ![slack_project_details.png](assets/slack-project-details-350x199.png)
 
-1. (Optional) Click the name of the project to open it in [!DNL Workfront] in a new browser tab.&nbsp;
-1. Consider reviewing the&nbsp;following additional information about the project:&nbsp;
+1. (Optional) Click the name of the project to open it in [!DNL Workfront] in a new browser tab. 
+1. Consider reviewing the following additional information about the project: 
 
    * **[!UICONTROL Status]:** For more information about project status, see [Access the list of system project statuses](../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/project-statuses.md).
 
@@ -90,8 +90,8 @@ Before you can access your favorites and recent items from [!DNL Slack], you mus
    >
    >The user who is sharing the link must have at least [!UICONTROL View] permissions to the task in order for you to see additional information about it.
 
-1. (Optional) Click the name of the task to open it in [!DNL Workfront] in a new browser tab.&nbsp;
-1. Consider reviewing the&nbsp;following additional information about the task:
+1. (Optional) Click the name of the task to open it in [!DNL Workfront] in a new browser tab. 
+1. Consider reviewing the following additional information about the task:
 
    * **[!UICONTROL Status]**
 
@@ -112,7 +112,7 @@ Before you can access your favorites and recent items from [!DNL Slack], you mus
 1. (Optional) Click **[!UICONTROL Assign to user]** to assign the task to a user.
 1. (Conditional) Start typing the name of a user, if you have clicked **[!UICONTROL Assign to user]**.
 
-   You cannot assign a task to a job role or a team&nbsp;from [!DNL Slack].
+   You cannot assign a task to a job role or a team from [!DNL Slack].
 
 ## Access issues from [!DNL Slack]
 
@@ -126,8 +126,8 @@ Before you can access your favorites and recent items from [!DNL Slack], you mus
    >
    >The user who is sharing the link must have at least [!UICONTROL View] permissions to the issue in order for you to see additional information about it.
 
-1. (Optional) Click the name of the issue to open it in [!DNL Workfront] in a new browser tab.&nbsp;
-1. Consider reviewing the&nbsp;following additional information about the task:
+1. (Optional) Click the name of the issue to open it in [!DNL Workfront] in a new browser tab. 
+1. Consider reviewing the following additional information about the task:
 
    * **[!UICONTROL Status]**: For more information about issue statuses, see [Access the list of system issue statuses](../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/issue-statuses.md).
 
@@ -143,7 +143,7 @@ Before you can access your favorites and recent items from [!DNL Slack], you mus
 1. (Optional) Click **[!UICONTROL Assign to user]** to assign the issue to a user.
 1. (Conditional) Start typing the name of a user, if you have clicked **[!UICONTROL Assign to user]**.
 
-   You cannot assign an issue to a job role or a team&nbsp;from [!DNL Slack].
+   You cannot assign an issue to a job role or a team from [!DNL Slack].
 
 ## Access portfolios from [!DNL Slack]
 
@@ -157,8 +157,8 @@ Before you can access your favorites and recent items from [!DNL Slack], you mus
    >
    >The user who is sharing the link must have at least [!UICONTROL View] permissions to the portfolio in order for you to see additional information about it.
 
-1. (Optional) Click the name of the portfolio to open it in [!DNL Workfront] in a new browser tab.&nbsp;
-1. Consider reviewing the&nbsp;following additional information about the portfolio:
+1. (Optional) Click the name of the portfolio to open it in [!DNL Workfront] in a new browser tab. 
+1. Consider reviewing the following additional information about the portfolio:
 
    * **[!UICONTROL Portfolio Manager Name]**
    * **[!UICONTROL On Time]**
@@ -180,10 +180,10 @@ Before you can access your favorites and recent items from [!DNL Slack], you mus
 
    >[!NOTE]
    >
-   >&nbsp;The user who is sharing the link must have at least [!UICONTROL View] permissions to the program in order for you to see additional information about it.
+   > The user who is sharing the link must have at least [!UICONTROL View] permissions to the program in order for you to see additional information about it.
 
-1. (Optional) Click the name of the program to open it in [!DNL Workfront] in a new browser tab.&nbsp;
-1. Consider reviewing the&nbsp;following additional information about the program:
+1. (Optional) Click the name of the program to open it in [!DNL Workfront] in a new browser tab. 
+1. Consider reviewing the following additional information about the program:
 
    * **[!UICONTROL Description]**
    * **[!UICONTROL Portfolio Name]**
@@ -203,4 +203,4 @@ Before you can access your favorites and recent items from [!DNL Slack], you mus
    >
    >The user who is sharing the link must have at least [!UICONTROL View] permissions to the report in order for you to see additional information about it.
 
-1. (Optional) Click the name of the report to open it in [!DNL Workfront] in a new browser tab.&nbsp;
+1. (Optional) Click the name of the report to open it in [!DNL Workfront] in a new browser tab. 

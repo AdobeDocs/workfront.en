@@ -37,9 +37,9 @@ After you have installed [!DNL Workfront for Microsoft Teams], you can do the fo
 Consider the following when working with [!DNL Workfront] for [!DNL Microsoft Teams]:
 
 * You do not need to be a [!DNL Workfront] Administrator to install [!DNL Workfront for Microsoft Teams].\
-   The app is free and you can add it to your team if you are also a team owner in [!DNL Microsoft Teams].&nbsp;
-* Any user in the [!DNL Microsoft Team] can use the app if it has been installed by a team owner and if they have a [!DNL Workfront] account.&nbsp;
-* If more than one team needs to have access to [!DNL Workfront] from [!DNL Microsoft Teams], you must install the app for each team.&nbsp;
-* You can view some information about the [!DNL Workfront] items in [!DNL Microsoft Teams]. For example, the name, status, priority, assignee, Planned Completion Date of a [!DNL Workfront] item.&nbsp;This information cannot be customized.
+   The app is free and you can add it to your team if you are also a team owner in [!DNL Microsoft Teams]. 
+* Any user in the [!DNL Microsoft Team] can use the app if it has been installed by a team owner and if they have a [!DNL Workfront] account. 
+* If more than one team needs to have access to [!DNL Workfront] from [!DNL Microsoft Teams], you must install the app for each team. 
+* You can view some information about the [!DNL Workfront] items in [!DNL Microsoft Teams]. For example, the name, status, priority, assignee, Planned Completion Date of a [!DNL Workfront] item. This information cannot be customized.
 * You can directly go to the [!DNL Workfront] items and documents from [!DNL Microsoft Teams].
 * [!DNL Microsoft Teams] no longer supports [!DNL Internet Explorer]. To use the [!DNL Adobe Workfront for Microsoft Teams] integration, you must use a web browser other than [!DNL Internet Explorer].

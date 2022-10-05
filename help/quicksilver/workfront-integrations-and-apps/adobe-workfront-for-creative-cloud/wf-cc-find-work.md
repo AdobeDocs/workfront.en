@@ -71,7 +71,7 @@ Use the [!UICONTROL Sort by] option to group similar items in the Work List. You
 
 Use the Filter to narrow your focus to specific work items. There are a couple of ways to use the filter:
 
-&nbsp;
+ 
 
 <table style="table-layout:auto"> 
  <col> 

@@ -51,11 +51,11 @@ For information about installing [!DNL Workfront for Microsoft Teams] and loggin
 
 1. To open a **[!UICONTROL New task]** card:
 
-   * If you are in the [!DNL Workfront] bot chat channel, type **[!UICONTROL New task]** in the [!UICONTROL conversation] field to create a new task.&nbsp;
+   * If you are in the [!DNL Workfront] bot chat channel, type **[!UICONTROL New task]** in the [!UICONTROL conversation] field to create a new task. 
    * If you are in a chat channel other than the [!DNL Workfront] bot chat channel:
 
       * Start typing **[!DNL @workfront]** in the [!UICONTROL conversation] field, then select the [!DNL Workfront] bot channel you want.
-      * Continue typing&nbsp;**[!UICONTROL New task]** in the [!UICONTROL conversation] field to create a new task.
+      * Continue typing **[!UICONTROL New task]** in the [!UICONTROL conversation] field to create a new task.
 
          The [!UICONTROL New task] card displays in the [!DNL Workfront] bot channel.
 
@@ -67,11 +67,11 @@ For information about installing [!DNL Workfront for Microsoft Teams] and loggin
    * Task description in the **[!UICONTROL Write the tasks's description]** field.
    * The date the task must be completed by, in the **[!UICONTROL Due Date]** field.
 
-1. Click **[!UICONTROL Save].**&nbsp;
+1. Click **[!UICONTROL Save].** 
 
    The new personal task is created in [!DNL Workfront]. A [!UICONTROL Reference Number] is assigned to it and visible on the [!UICONTROL new task] card.
 
    For information about reference numbers, see the [[!UICONTROL Reference Numbers] of objects](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#understanding-reference-numbers-of-objects) section in the [Understand objects in [!DNL Adobe Workfront]](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md) article.
 
 1. (Optional) Click **[!UICONTROL Edit]** to edit the task information further.
-1. (Optional) Click **[!UICONTROL View in [!DNL Workfront]]** to open the task in a new tab in [!DNL Workfront] and edit the task further, move it to a project, or assign it to someone else.&nbsp;
+1. (Optional) Click **[!UICONTROL View in [!DNL Workfront]]** to open the task in a new tab in [!DNL Workfront] and edit the task further, move it to a project, or assign it to someone else. 

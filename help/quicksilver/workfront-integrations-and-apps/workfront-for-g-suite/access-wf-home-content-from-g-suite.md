@@ -43,7 +43,7 @@ Before you can access [!UICONTROL Home] content from [!DNL G Suite], you must
 ## Access [!DNL Workfront] [!UICONTROL Home] from [!DNL G Suite]
 
 1. Make sure you are logged in to [!DNL Workfront].
-1. If the [!UICONTROL Workfront for G Suite] panel is not displayed, click the&nbsp;[!DNL Workfront] icon ![](assets/wf-lion-icon.png) in the [!DNL G Suite] add-ons sidebar at the far-right of the page.
+1. If the [!UICONTROL Workfront for G Suite] panel is not displayed, click the [!DNL Workfront] icon ![](assets/wf-lion-icon.png) in the [!DNL G Suite] add-ons sidebar at the far-right of the page.
 1. If you see a left arrow at the top of [!DNL Workfront] for [!DNL G Suite], click the arrow to go to the [!UICONTROL Home] area.
 
    ![](assets/left-arrow-to-home.png)

@@ -38,8 +38,8 @@ Your [!DNL Workfront] administrator must enable [!DNL Outlook for Office] with [
 
 ## Reply to a comment from [!DNL Outlook]
 
-1. Select the [!DNL Workfront] email notification that contains the comment you want to reply to.&nbsp;
-1. Click the&nbsp;**[!DNL Workfront]**&nbsp;icon in the upper-right corner of the email message to display the Workfront add-in.\
+1. Select the [!DNL Workfront] email notification that contains the comment you want to reply to. 
+1. Click the **[!DNL Workfront]** icon in the upper-right corner of the email message to display the Workfront add-in.\
    You might need to click the down-pointing arrow in the upper right of your email to access the [!DNL Workfront] icon.
 
 1. Click the **[!UICONTROL Menu]** icon to display the list of available [!DNL Workfront] options.\
@@ -47,7 +47,7 @@ Your [!DNL Workfront] administrator must enable [!DNL Outlook for Office] with [
 
 1. Click **[!UICONTROL Reply to Comment]**.
 1. Specify your comment in the provided field.
-1. (Optional) Click&nbsp;**[!UICONTROL Include Others]**, begin typing the name of users who you want to include in the update, then click the name when it appears in the drop-down list.\
+1. (Optional) Click **[!UICONTROL Include Others]**, begin typing the name of users who you want to include in the update, then click the name when it appears in the drop-down list.\
    Repeat this process to include additional users, then click **[!UICONTROL Done]**.\
    By default, the user you are replying to receives a notification regardless of whether you include them.\
    ![o365_addin_includeothers.png](assets/o365-addin-includeothers.png)

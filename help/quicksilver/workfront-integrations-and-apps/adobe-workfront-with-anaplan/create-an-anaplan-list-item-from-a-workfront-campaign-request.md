@@ -62,9 +62,9 @@ You must have the following in [!DNL Workfront] to use this scenario:
 
    | Field Name | Field Type |
    |---|---|
-   | [!UICONTROL Total Requested Funds] | &nbsp; |
-   | [!UICONTROL Requested Labor Funds] | &nbsp; |
-   | [!UICONTROL Requested Expense Funds] | &nbsp; |
+   | [!UICONTROL Total Requested Funds] |   |
+   | [!UICONTROL Requested Labor Funds] |   |
+   | [!UICONTROL Requested Expense Funds] |   |
    | [!UICONTROL Sent to [!DNL Anaplan]] | Checkbox |
 
    The following optional fields may be present on the form. This scenario maps only the above fields, but any additional fields on the campaign brief may be mapped.

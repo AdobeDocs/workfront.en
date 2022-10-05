@@ -9,7 +9,7 @@ exl-id: 71d83723-daea-4b7b-8e5b-cfcf414611fe
 ---
 # Search for and share [!DNL Adobe Workfront] items in [!DNL Microsoft Teams]
 
-You can search for [!DNL Workfront] items in any [!DNL Adobe WorkfrontWorkfront] channel in [!DNL Microsoft Teams] and share these items with members of your teams.&nbsp;
+You can search for [!DNL Workfront] items in any [!DNL Adobe WorkfrontWorkfront] channel in [!DNL Microsoft Teams] and share these items with members of your teams. 
 
 * [Prerequisites for sharing [!DNL Workfront] items in [!DNL Microsoft Teams]](#prerequisites-for-sharing-dnl-workfront-items-in-dnl-microsoft-teams-prerequisites-for-sharing-workfront-items-in-microsoft-teams)
 * [Search for and share [!DNL Workfront] items in [!DNL Microsoft Teams]](#search-for-and-share-dnl-adobe-workfront-items-in-dnl-microsoft-teams)
@@ -58,15 +58,15 @@ You can search for the following [!DNL Workfront] items from a [!DNL Microsoft T
 
    >[!NOTE]
    >
-   >You cannot search for personal tasks.&nbsp;
+   >You cannot search for personal tasks. 
 
 * Issues
 
-After you have found the items you searched for you can share them with other users in [!DNL Microsoft Teams].&nbsp;
+After you have found the items you searched for you can share them with other users in [!DNL Microsoft Teams]. 
 
 To search for a [!DNL Workfront] item from [!DNL Microsoft Teams] and share it with others:
 
-1. In [!DNL Microsoft Teams], go to any chat channel and click&nbsp;the **[!DNL Workfront]** icon.
+1. In [!DNL Microsoft Teams], go to any chat channel and click the **[!DNL Workfront]** icon.
 1. Search for the [!DNL Workfront] item by doing one of the following:
 
    * Click the [!DNL Workfront] icon under the conversation field.\
@@ -76,7 +76,7 @@ To search for a [!DNL Workfront] item from [!DNL Microsoft Teams] and share it w
       ![more_icon.png](assets/more-icon-52x34.png)\
       The **[!UICONTROL Search]** box appears by default.
 
-   * Type *@[!DNL Workfront]*&nbsp;from any channel, select Workfront and then select **[!UICONTROL Search].**
+   * Type *@[!DNL Workfront]* from any channel, select Workfront and then select **[!UICONTROL Search].**
 
       ![ms_teams_search_from_command.png](assets/ms-teams-search-from-command-350x74.png)
 
@@ -84,9 +84,9 @@ To search for a [!DNL Workfront] item from [!DNL Microsoft Teams] and share it w
    ![ms_teams_searching_for_items.png](assets/ms-teams-searching-for-items-350x359.png)\
    This adds a card with the [!DNL Workfront] item in the chat field. Some information about the item is included on the card, including the name of the item, the parent object, status, priority, percent complete.
 
-1. (Optional) Add a comment underneath the [!DNL Workfront] card, then click&nbsp;**[!UICONTROL Send]**&nbsp;or press Enter.\
+1. (Optional) Add a comment underneath the [!DNL Workfront] card, then click **[!UICONTROL Send]** or press Enter.\
    This sends the message including the [!DNL Workfront] item to your channel.\
    All members of the channel can see this message, including the information on the [!DNL Workfront] card.
 
 1. Click **[!UICONTROL View in Workfront]** to view the item in Workfront.\
-   Only users who have a [!DNL Workfront] license can view an item in Workfront.&nbsp;
+   Only users who have a [!DNL Workfront] license can view an item in Workfront. 

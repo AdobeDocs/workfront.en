@@ -84,4 +84,4 @@ To install the [!DNL Workfront for Adobe XD] plugin:
 
 1. Click **[!UICONTROL Allow Access]** to finish logging in, and go back to [!DNL Adobe XD] to see your work.
 
-&nbsp;
+ 

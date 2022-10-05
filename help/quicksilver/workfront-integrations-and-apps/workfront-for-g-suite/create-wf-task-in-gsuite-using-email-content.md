@@ -46,7 +46,7 @@ Before you can create a [!DNL Workfront] task in [!DNL G Suite], you must
 
 ## Create a [!DNL Adobe Workfront] task in [!DNL G Suite] using email content
 
-1. If the [!UICONTROL Workfront for G Suite] panel is not displayed, click the&nbsp;[!DNL Workfront] icon ![](assets/wf-lion-icon.png) in the [!DNL G Suite] add-ons sidebar at the far-right of the page.
+1. If the [!UICONTROL Workfront for G Suite] panel is not displayed, click the [!DNL Workfront] icon ![](assets/wf-lion-icon.png) in the [!DNL G Suite] add-ons sidebar at the far-right of the page.
 1. With the email message open in [!DNL G Suite], click an option in [!DNL Workfront for G Suite] to convert the email to a new [!DNL Workfront] task.
 
    ![](assets/convert-email-task-issue-update.png)
@@ -110,7 +110,7 @@ Before you can create a [!DNL Workfront] task in [!DNL G Suite], you must
 
    * To reply to an update on the **[!UICONTROL Updates]** tab, click **[!UICONTROL Reply]** and type your reply.
 
-      For both of the above actions, you can notify particular users about your comment. Click&nbsp;**[!UICONTROL Notify]**, begin typing the name of a user, then click the name when it appears in the drop-down list. Repeat this process for other users you want to notify, then click **[!UICONTROL Post]**.
+      For both of the above actions, you can notify particular users about your comment. Click **[!UICONTROL Notify]**, begin typing the name of a user, then click the name when it appears in the drop-down list. Repeat this process for other users you want to notify, then click **[!UICONTROL Post]**.
 
    * Click the **[!UICONTROL Documents]** tab to see any documents saved with the task.
 

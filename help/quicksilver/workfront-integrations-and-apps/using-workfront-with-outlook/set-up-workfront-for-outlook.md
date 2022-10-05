@@ -9,7 +9,7 @@ exl-id: 57f0560b-68c2-4654-863e-bd728e76da29
 ---
 # Set up [!DNL Adobe Workfront for Outlook]
 
-The [!DNL Adobe Workfront] [!DNL Outlook] add-in lets you do the following key&nbsp;[!DNL Workfront] tasks directly from Outlook:
+The [!DNL Adobe Workfront] [!DNL Outlook] add-in lets you do the following key [!DNL Workfront] tasks directly from Outlook:
 
 * Update an existing project, task, or issue with information from an email. For more information, see [Update an existing object from an [!DNL Outlook] email](../../workfront-integrations-and-apps/using-workfront-with-outlook/update-an-existing-object-from-an-outlook-email.md).
 * Create a [!DNL Workfront] request based on an email within [!DNL Outlook]. For more information, see [Create an Adobe Workfront request from an [!DNL Outlook] email](../../workfront-integrations-and-apps/using-workfront-with-outlook/create-a-wf-request-from-an-outlook-email.md).
@@ -17,7 +17,7 @@ The [!DNL Adobe Workfront] [!DNL Outlook] add-in lets you do the following key&n
 * Reply to comments via the [!DNL Workfront] add-in for [!DNL Outlook]. For information about replying to comments from Workfront for [!DNL Outlook], see [Reply to a comment from [!DNL Outlook]](../../workfront-integrations-and-apps/using-workfront-with-outlook/reply-to-a-comment-from-outlook.md).
 * Create tasks and issues from scratch, or create them from existing emails (using drag-and-drop functionality). For more information , see [Add an [!DNL Outlook] email to a project as a task or an issue](../../workfront-integrations-and-apps/using-workfront-with-outlook/add-outlook-email-to-project-as-task-or-issue.md).
 
-You must add the [!DNL Workfront] add-in to your [!DNL Outlook] account before you can&nbsp;use [!DNL Workfront for Outlook].
+You must add the [!DNL Workfront] add-in to your [!DNL Outlook] account before you can use [!DNL Workfront for Outlook].
 
 If you are unable to install the [!DNL Workfront] add-in with your [!DNL Outlook] account, contact your [!DNL Workfront] administrator to ensure that [!DNL Outlook] add-ins are enabled for your organization.
 
@@ -50,9 +50,9 @@ Your [!DNL Workfront] administrator must enable [!DNL Outlook for Office] with [
 
 ## System requirements
 
-The following applications are available:&nbsp;
+The following applications are available: 
 
-* **[!DNL Outlook] on the Web:** The [!DNL Workfront] add-in is available when using [!DNL Outlook] from a&nbsp;web browser either on a desktop or mobile device. This functionality is also available when using the [!DNL Outlook] Web App.
+* **[!DNL Outlook] on the Web:** The [!DNL Workfront] add-in is available when using [!DNL Outlook] from a web browser either on a desktop or mobile device. This functionality is also available when using the [!DNL Outlook] Web App.
 * **[!DNL Outlook] Desktop Application:** The [!DNL Workfront] add-in is available when using the [!DNL Windows] and [!DNL Mac] desktop versions of [!DNL Outlook] included with the [!DNL Office] package.
 
 The [!DNL Workfront] add-in for [!DNL Outlook] is supported in environments that meet the following requirements:
@@ -62,7 +62,7 @@ The [!DNL Workfront] add-in for [!DNL Outlook] is supported in environments that
 
 ### Client requirements {#client-requirements}
 
-We support the following versions of [!DNL Outlook]:&nbsp;
+We support the following versions of [!DNL Outlook]: 
 
 * [!DNL Outlook 2013] or later on [!DNL Windows]
 *[!DNL  Outlook 2016] or later on [!DNL Windows]
@@ -82,13 +82,13 @@ When configuring the client, the user must select one of the following account t
 
 The mail server requirements are met by default when you connect to [!DNL Office 365] or [!DNL Outlook.com]. However, if you are connected to an on-premise installation of [!DNL Exchange Server], the following requirements apply:
 
-* We support [!DNL Exchange 2016 On-Premise]&nbsp;
-* [!DNL Exchange Web Services] (EWS) must be enabled and must be exposed to the internet.&nbsp;
+* We support [!DNL Exchange 2016 On-Premise] 
+* [!DNL Exchange Web Services] (EWS) must be enabled and must be exposed to the internet. 
 * The server must have a valid authentication certificate in order for the server to issue valid identity tokens. New installations of [!DNL Exchange Server] include a default authentication certificate.
 
    For more information, see [Digital certificates and encryption in [!DNL Exchange 2016]](https://technet.microsoft.com/en-us/library/dd351044(v=exchg.160).aspx) and [Set-AuthConfig](https://technet.microsoft.com/en-us/library/jj215766(v=exchg.160).aspx).
 
-* In order to access the [!DNL Workfront] add-in from the [[!DNL Office] Store](https://store.office.com/), your client access servers must be able to communicate with&nbsp; [https://store.office.com](https://store.office.com/).
+* In order to access the [!DNL Workfront] add-in from the [[!DNL Office] Store](https://store.office.com/), your client access servers must be able to communicate with  [https://store.office.com](https://store.office.com/).
 
 For more detailed information about supported environments, see the [[!DNL Microsoft Office 365] home page](https://products.office.com/en-us/office-365-home).
 
@@ -104,7 +104,7 @@ For more information about setting up the [!DNL Workfront] add-in for [!DNL Outl
 
 1. In [!DNL Outlook 365], click the **[!UICONTROL Browse Add-ins]** icon ![](assets/outlook-add-in-26x26.png)at the top of the Office 365 interface, then click **[!UICONTROL Manage add-ins]**.
 
-1. In the **[!UICONTROL Search add-ins]** box, search for **[!DNL Workfront]** then press [!UICONTROL Enter].&nbsp;
+1. In the **[!UICONTROL Search add-ins]** box, search for **[!DNL Workfront]** then press [!UICONTROL Enter]. 
 
 1. Click **[!UICONTROL Add]**.
 

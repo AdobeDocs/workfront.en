@@ -38,7 +38,7 @@ Your [!DNL Workfront] administrator must enable [!DNL Outlook for Office] with [
 
 ## View additional information about [!DNL Adobe Workfront for Outlook] and log out
 
-1. Select an email in [!DNL Outlook].&nbsp;
+1. Select an email in [!DNL Outlook]. 
 1. Click **[!DNL Workfront]** icon to display the Workfront add-in.
 1. Click the drop-down arrow next to your user name.
 
@@ -51,4 +51,4 @@ Your [!DNL Workfront] administrator must enable [!DNL Outlook for Office] with [
    * **Submit Feedback:** Submit feedback to [!DNL Workfront] regarding the Workfront Add-In.
    * **[!UICONTROL Logout]:** Log out of the [!DNL Workfront] add-in.
 
-     This option&nbsp;does not log you out of&nbsp;[!DNL Outlook].
+     This option does not log you out of [!DNL Outlook].

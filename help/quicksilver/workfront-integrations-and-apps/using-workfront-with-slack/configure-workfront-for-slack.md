@@ -16,9 +16,9 @@ Integrating [!DNL Adobe Workfront] with [!DNL Slack] allows you to do the follow
 * Create tasks and issues from [!DNL Slack].
 * Receive some [!DNL Workfront] notifications in [!DNL Slack].
 
-Depending on how your [!DNL Slack] environment is configured, you can install and configure [!DNL Workfront for Slack] yourself, or your [!DNL Workfront] administrator must install and configure it first before you can configure it for yourself.&nbsp;
+Depending on how your [!DNL Slack] environment is configured, you can install and configure [!DNL Workfront for Slack] yourself, or your [!DNL Workfront] administrator must install and configure it first before you can configure it for yourself. 
 
-When you integrate your [!DNL Slack] instance with [!DNL Workfront] users can use [!DNL Workfront] while collaborating within their [!DNL Slack] channels. The integration can be used from any [!DNL Slack] environment, including the [!DNL Slack] mobile app.&nbsp;
+When you integrate your [!DNL Slack] instance with [!DNL Workfront] users can use [!DNL Workfront] while collaborating within their [!DNL Slack] channels. The integration can be used from any [!DNL Slack] environment, including the [!DNL Slack] mobile app. 
 
 ## Access requirements
 
@@ -41,7 +41,7 @@ You must have the following:
 
 ## Prerequisites for using [!DNL Workfront] with [!DNL Slack]
 
-* You must have a [!DNL Slack] instance.&nbsp;
+* You must have a [!DNL Slack] instance. 
 * Your [!DNL Slack] system administrator must allow all [!DNL Slack] users to install [!DNL Workfront for Slack].
 * You must have a [!DNL Workfront] license to be able to use the integrated features in [!DNL Workfront].
 
@@ -62,11 +62,11 @@ You can install the app in the following ways:
 
 ### Install the [!DNL Workfront] app outside [!DNL Slack] {#install-the-workfront-app-outside-slack}
 
-Follow the steps below to run the installation process and authorize [!DNL Workfront for Slack] on your [!DNL Slack] instance.&nbsp;
+Follow the steps below to run the installation process and authorize [!DNL Workfront for Slack] on your [!DNL Slack] instance. 
 
 >[!IMPORTANT]
 >
->When a new version of [!DNL Workfront] for Slack is released, you must re-authorize the app in order to continue using it.&nbsp;
+>When a new version of [!DNL Workfront] for Slack is released, you must re-authorize the app in order to continue using it. 
 
 1. Click the following button to begin the installation process.
 
@@ -104,5 +104,5 @@ You can install the [!DNL Workfront] app directly from the [!DNL Slack] applicat
 
 1. Click **[!UICONTROL Visit App Site]**.
 1. Click **[!UICONTROL Add to [!DNL Slack]]**.
-1. Follow the steps to finish the installation.&nbsp;
+1. Follow the steps to finish the installation. 
 1. When the installation completes, you can access [!DNL Workfront] from [!DNL Slack], as described in the [[!UICONTROL Access [!DNL Workfront] from [!DNL Slack]]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md#viewing-all-available-commands) section in [Access [!DNL Adobe Workfront] from [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md).

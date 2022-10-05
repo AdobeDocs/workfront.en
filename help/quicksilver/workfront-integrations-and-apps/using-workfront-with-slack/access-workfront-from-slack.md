@@ -32,7 +32,7 @@ For a list of all the commands you can run from Slack for [!DNL Workfront], see 
 ## Log in to [!DNL Workfront] from [!DNL Slack] {#log-in-to-workfront-from-slack}
 
 When you type any command in the message field in Slack, you will be asked to log in to [!DNL Workfront] first.\
-For a complete list of [!DNL Workfront] commands from [!DNL Slack], see&nbsp;the [Access [!DNL Workfront] from a slash command in [!DNL Slack]](#access-dnl-workfront-from-a-slash-command-in-dnl-slack-access-workfront-from-a-slash-command-in-slack) section in this article.&nbsp;
+For a complete list of [!DNL Workfront] commands from [!DNL Slack], see the [Access [!DNL Workfront] from a slash command in [!DNL Slack]](#access-dnl-workfront-from-a-slash-command-in-dnl-slack-access-workfront-from-a-slash-command-in-slack) section in this article. 
 
 To log in to [!DNL Workfront] from [!DNL Slack]:
 
@@ -63,7 +63,7 @@ To log in to [!DNL Workfront] from [!DNL Slack]:
 
 1. Navigate back to your [!DNL Slack] channel.
 
-   You are logged in to [!DNL Workfront] from your [!DNL Slack] instance.&nbsp;
+   You are logged in to [!DNL Workfront] from your [!DNL Slack] instance. 
 
 ## Access [!DNL Workfront] from [!DNL Slack]
 
@@ -75,7 +75,7 @@ To log in to [!DNL Workfront] from [!DNL Slack]:
 1. Log in to your [!DNL Slack] instance and log in to [!DNL Workfront] from [!DNL Slack].\
    For more information about logging in to [!DNL Workfront] from [!DNL Slack], see [Log in to [!DNL Workfront] from [!DNL Slack]](#log-in-to-dnl-workfront-from-dnl-slack-log-in-to-workfront-from-slack)
 
-1. From any channel, start typing the following command in the message field:&nbsp;
+1. From any channel, start typing the following command in the message field: 
 
    `/workfront help`
 
@@ -83,7 +83,7 @@ To log in to [!DNL Workfront] from [!DNL Slack]:
 
    `/wf help`
 
-1. Select from the following commands:&nbsp;
+1. Select from the following commands: 
 
    * `/wf home`
 
@@ -144,7 +144,7 @@ To log in to [!DNL Workfront] from [!DNL Slack]:
       Search for a specific keyword. You can search for the following types objects:
 
       * Project
-      * Task&nbsp;
+      * Task 
       * Issue
       * Report
       * People
@@ -154,16 +154,16 @@ To log in to [!DNL Workfront] from [!DNL Slack]:
       * Program
       * Dashboard
       * Company
-      * Note &nbsp;\
+      * Note  \
 
          For more information about searching in [!DNL Slack], see [Search for [!DNL Adobe Workfront] items from Slack](../../workfront-integrations-and-apps/using-workfront-with-slack/search-for-wf-items-from-slack.md).
    * `/wf log in`
 
-      Logs you in to [!DNL Workfront] from [!DNL Slack].&nbsp;
+      Logs you in to [!DNL Workfront] from [!DNL Slack]. 
 
    * `/wf log out `
 
-      Logs you out of [!DNL Workfront] from [!DNL Slack]. You remain logged in to [!DNL Workfront] if you have a separate [!DNL Workfront] instance open in another browser tab on in another application.&nbsp;
+      Logs you out of [!DNL Workfront] from [!DNL Slack]. You remain logged in to [!DNL Workfront] if you have a separate [!DNL Workfront] instance open in another browser tab on in another application. 
    * `/wf settings`
 
       Gives you access to configuring your [!DNL Workfront] settings in [!DNL Slack].
@@ -171,19 +171,19 @@ To log in to [!DNL Workfront] from [!DNL Slack]:
       For information about configuring [!DNL Workfront] settings in Slack, see [Configure settings](#configure-settings-configure-settings).
 
    * `/wf help`
-Displays a complete list of commands for [!DNL Workfront].&nbsp;
+Displays a complete list of commands for [!DNL Workfront]. 
 
 
-   * `Visit Workfront Help`: Opens the [!UICONTROL Slack] section on the [!DNL Workfront] Help Site in a new browser tab.&nbsp;
+   * `Visit Workfront Help`: Opens the [!UICONTROL Slack] section on the [!DNL Workfront] Help Site in a new browser tab. 
 
 
 1. (Optional) To delete the message of any command, mouse over the upper-right corner of the Slack message containing the command and click&#x200B;**[!UICONTROL Show message actions]**, then click **[!UICONTROL Delete message]**.
 
-1. (Optional and conditional) Click **[!UICONTROL Delete]** to confirm you want to delete this message.&nbsp;
+1. (Optional and conditional) Click **[!UICONTROL Delete]** to confirm you want to delete this message. 
 
 ### Access [!DNL Workfront] from a shared link in [!DNL Slack] {#access-workfront-from-a-shared-link-in-slack}
 
-You can access [!DNL Workfront] objects from a link to those objects that is shared with you in [!DNL Slack].&nbsp;
+You can access [!DNL Workfront] objects from a link to those objects that is shared with you in [!DNL Slack]. 
 
 For more information about accessing [!DNL Workfront] from a shared link, see [Access [!DNL Adobe Workfront] objects from a shared link in [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-wf-objects-from-shared-linked-in-slack.md).
 
@@ -215,4 +215,4 @@ For more information about accessing [!DNL Workfront] from a shared link, see [A
    `/workfront log out` Or\
    `/wf log out`\
    You receive a confirmation that you have been logged out of [!DNL Workfront].\
-   You remain logged in to [!DNL Workfront] if you have a separate [!DNL Workfront] instance open in another browser tab on in another application.&nbsp;
+   You remain logged in to [!DNL Workfront] if you have a separate [!DNL Workfront] instance open in another browser tab on in another application. 

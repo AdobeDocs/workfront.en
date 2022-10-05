@@ -62,7 +62,7 @@ Consider the following when working with [!DNL Workfront] for [!DNL Salesforce]:
 
    This information cannot be customized.
 
-   For a list of [!DNL Workfront] fields that you can view from [!DNL Salesforce], see  [Submit [!DNL Adobe Workfront] requests from [!DNL Salesforce] objects](../../workfront-integrations-and-apps/using-workfront-with-salesforce/submit-workfront-requests-from-salesforce-objects.md)&nbsp; and [Create [!DNL Adobe Workfront] projects from [!DNL Salesforce] objects](../../workfront-integrations-and-apps/using-workfront-with-salesforce/create-wf-projects-from-salesforce-objects.md).
+   For a list of [!DNL Workfront] fields that you can view from [!DNL Salesforce], see  [Submit [!DNL Adobe Workfront] requests from [!DNL Salesforce] objects](../../workfront-integrations-and-apps/using-workfront-with-salesforce/submit-workfront-requests-from-salesforce-objects.md)  and [Create [!DNL Adobe Workfront] projects from [!DNL Salesforce] objects](../../workfront-integrations-and-apps/using-workfront-with-salesforce/create-wf-projects-from-salesforce-objects.md).
 
 * You can directly access items linked to [!DNL Salesforce] by clicking the **[!UICONTROL Go to Salesforce]** link from Workfront.
 
