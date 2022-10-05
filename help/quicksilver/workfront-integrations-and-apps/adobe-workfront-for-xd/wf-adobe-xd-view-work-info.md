@@ -1,15 +1,15 @@
 ---
 product-area: workfront-integrations;setup
-navigation-topic: adobe-workfront-for-creative-cloud
-title: View work item information in Adobe Photoshop
-description: You can see information about projects, tasks, issues, and documents from Adobe Photoshop.
+navigation-topic: adobe-workfront-for-xd
+title: View work item information in Adobe XD
+description: You can see information about projects, tasks, issues, and documents from Adobe XD.
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
-exl-id: a53a716f-4faf-4ea7-a4fc-ad8d87634267
+exl-id: c6836ad0-573a-4ac7-ae62-96391bfbce00
 ---
-# View work item information in [!DNL Adobe Photoshop]
+# View work item information in [!DNL Adobe XD]
 
-You can see information about projects, tasks, issues, and documents from [!DNL Adobe Photoshop].
+You can see information about projects, tasks, issues, and documents from [!DNL Adobe XD].
 
 ## Access requirements
 
@@ -26,7 +26,7 @@ You must have the following access to perform the steps in this article:
    <td> <p>[!UICONTROL Pro] or higher</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
+   <td role="rowheader">[!UICONTROL Adobe Workfront] license*</td> 
    <td> <p>Work or Plan</p> </td> 
   </tr> 
   <tr> 
@@ -48,15 +48,15 @@ You must have the following access to perform the steps in this article:
 
 ## Prerequisites
 
-* You must install the [!DNL Workfront for Adobe Photoshop] plugin before you can mark work items complete in Adobe Photoshop.
+* You must install the [!DNL Workfront for Adobe XD] plugin before you can view work item information in Adobe XD.
 
-   For instructions, see [Install [!DNL Workfront for Adobe Photoshop]](../../workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install.md).
+   For instructions, see [Install [!DNL Workfront for Adobe XD]](../../workfront-integrations-and-apps/adobe-workfront-for-xd/wf-adobe-xd-install.md).
 
 ## View details and custom form data
 
 1. Click the **[!UICONTROL Menu]** icon in the top-right corner, then select **[!UICONTROL Work List]**. You can also use the menu to navigate to parent objects.
 
-   ![](assets/go-back-to-work-list-350x314.png)
+   ![](assets/menu-350x440.png)
 
 1. Select the work item you want to view.
 
@@ -66,18 +66,20 @@ You must have the following access to perform the steps in this article:
 
 1. Click the **[!UICONTROL Details]** icon ![](assets/details.png) in the navigation bar to view:
 
-   * Description
-   * Planned Completion Date
-   * Status
-   * Assigned to
+   * [!UICONTROL Description]
+   * [!UICONTROL Planned Completion Date]
+   * [!UICONTROL Status]
+   * [!UICONTROL Assigned to]
    * Project Owner (Projects only)
-   * Custom form data
+   * Custom f[!UICONTROL ]orm data
+
+   ![](assets/custom-form-data-350x472.png)
 
 ## View Document Details
 
 1. Click the **[!UICONTROL Menu]** icon in the top-right corner, then select **[!UICONTROL Work List]**. You can also use the menu to navigate to parent objects.
 
-   ![](assets/go-back-to-work-list-350x314.png)
+   ![](assets/menu-350x440.png)
 
 1. Select the work item you want to view.
 
@@ -98,7 +100,7 @@ You must have the following access to perform the steps in this article:
 
 1. Click the **[!UICONTROL Menu]** icon in the top-right corner, then select **[!UICONTROL Work List]**. You can also use the menu to navigate to parent objects.
 
-   ![](assets/go-back-to-work-list-350x314.png)
+   ![](assets/menu-350x440.png)
 
 1. Select the work item you want to view.
 
@@ -110,7 +112,9 @@ You must have the following access to perform the steps in this article:
 
 1. Select the task or issue, then click the **[!UICONTROL Details]** icon ![](assets/details.png) in the navigation bar to view:
 
-   * Planned Completion Date
-   * Status
-   * Assigned to
+   * [!UICONTROL Planned Completion Date]
+   * [!UICONTROL Status]
+   * [!UICONTROL Assigned to]
    * Custom Form data
+
+   ![](assets/custom-form-data-350x472.png)

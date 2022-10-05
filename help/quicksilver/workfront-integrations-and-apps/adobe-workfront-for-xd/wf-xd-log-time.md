@@ -1,15 +1,15 @@
 ---
+filename: wf-xd-log-time
 product-area: workfront-integrations;setup
-navigation-topic: adobe-workfront-for-creative-cloud
-title: Log time in Adobe Photoshop
-description: You can log time for projects, tasks, and issues you're working on directly in Photoshop. The [!DNL Workfront] administrator determines which project-specific hour types are available as described in Manage hour types.
+navigation-topic: adobe-workfront-for-xd
+title: Log time in Adobe XD
+description: You can log time for projects, tasks, and issues you're working on directly in Adobe XD. The [!DNL Workfront] administrator determines which project-specific hour types are available as described in Manage hour types.
 author: Courtney
-feature: Workfront Integrations and Apps, Digital Content and Documents
-exl-id: 4c5bd7ca-18f2-4a47-9e79-c39d5852aab5
+exl-id: 5b334184-86e9-4f81-9a56-59ce8f83480f
 ---
-# Log time in [!DNL Adobe Photoshop]
+# Log time in [!DNL Adobe XD]
 
-You can log time for projects, tasks, and issues you're working on directly in Photoshop. The [!DNL Workfront] administrator determines which project-specific hour types are available as described in [Manage hour types](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/hour-types.md).
+You can log time for projects, tasks, and issues you're working on directly in [!DNL Adobe XD]. The [!DNL Workfront] administrator determines which project-specific hour types are available as described in [Manage hour types](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/hour-types.md).
 
 ## Access requirements
 
@@ -17,7 +17,9 @@ You must have the following access to perform the steps in this article:
 
 <table style="table-layout:auto"> 
  <col> 
+ </col> 
  <col> 
+ </col> 
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
@@ -46,24 +48,18 @@ You must have the following access to perform the steps in this article:
 
 ## Prerequisites
 
-* You must install the [!DNL Workfront for Adobe Photoshop] plugin before you can log time in Adobe Photoshop.
+* You must install the [!DNL Workfront for Adobe XD] plugin before you can log time in Adobe XD.
 
-   For instructions, see [Install [!DNL Workfront for Adobe Photoshop]](../../workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install.md).
+   For instructions, see [Install [!DNL Workfront for Adobe XD]](../../workfront-integrations-and-apps/adobe-workfront-for-xd/wf-adobe-xd-install.md).
 
-## Log time in [!DNL Adobe Photoshop]
+## Log time in Adobe XD
 
-1. Click the **[!UICONTROL Menu]** icon in the top-right corner, then select *[!UICONTROL *Work List]**. You can also use the menu to navigate to parent objects.
+1. Click the **[!UICONTROL Menu]** icon in the top-right corner, then select **[!UICONTROL Work List]**. You can also use the menu to navigate to parent objects.
 
-   ![](assets/go-back-to-work-list-350x314.png)
+   ![](assets/menu-350x440.png)
 
 1. From the **[!UICONTROL Work List]**, select the work item you need to log time to.
 1. Click **[!UICONTROL Time]** in the navigation bar.
-
-   ![](assets/log-time-350x337.png)
-
 1. (Optional) Choose the **[!UICONTROL Hour Type]** from the drop-down menu.
 1. Enter the time in hours for the day you need.
-
-   ![](assets/copy-of-log-hours-350x236.png)
-
 1. Click **[!UICONTROL Submit]**.

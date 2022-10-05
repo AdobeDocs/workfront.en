@@ -1,13 +1,13 @@
 ---
 product-area: workfront-integrations;setup
-navigation-topic: adobe-workfront-for-creative-cloud
-title: Update your work in Adobe Photoshop
+navigation-topic: adobe-workfront-for-xd
+title: Update your work in Adobe XD
 description: You can update your work in the following areas - EDIT ME.
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
-exl-id: 865beaa8-a585-4bdd-9d04-b5fbdf40748c
+exl-id: 033c55bb-0324-4644-bf07-7a7827efb672
 ---
-# Update your work in [!DNL Adobe Photoshop]
+# Update your work in [!DNL Adobe XD]
 
 You can update your work in the following areas:
 
@@ -18,14 +18,14 @@ You can update your work in the following areas:
   <tr> 
    <td> 
     <ul> 
-     <li>[!UICONTROL Projects]</li> 
-     <li>[!UICONTROL Tasks]</li> 
-     <li>[!UICONTROL Subtasks]</li> 
+     <li>Projects</li> 
+     <li>Tasks</li> 
+     <li>Subtasks</li> 
     </ul> </td> 
    <td> 
     <ul> 
-     <li>[!UICONTROL Issues]</li> 
-     <li>[!UICONTROL Documents]</li> 
+     <li>Issues</li> 
+     <li>Documents</li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -64,19 +64,19 @@ You must have the following access to perform the steps in this article:
 
 ## Prerequisites
 
-* You must install the [!DNL Workfront for Adobe Photoshop] plugin before you can mark work items complete in Adobe Photoshop.
+* You must install the [!DNL Workfront for Adobe XD] plugin before you can update your work in Adobe XD.
 
-   For instructions, see [Install [!DNL Workfront for Adobe Photoshop]](../../workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install.md).
+   For instructions, see [Install Workfront for Adobe XD](../../workfront-integrations-and-apps/adobe-workfront-for-xd/wf-adobe-xd-install.md).
 
 ## Post an update
 
 1. Click the **[!UICONTROL Menu]** icon in the top-right corner, then select **[!UICONTROL Work List]**. You can also use the menu to navigate to parent objects.
 
-   ![](assets/go-back-to-work-list-350x314.png)
+   ![](assets/menu-350x440.png)
 
 1. From the **[!UICONTROL Work List]**, select the work item you need to post an update to.
-1. Click **[!UICONTROL Update]** in the navigation bar.\
-   ![](assets/photoshop-update-350x295.png)
+1. Click the **[!UICONTROL Update]** icon in the navigation bar.\
+   ![](assets/update-icon---xd-350x476.png)
 
 1. Click **[!UICONTROL New Update]**.
 1. Type your update.
