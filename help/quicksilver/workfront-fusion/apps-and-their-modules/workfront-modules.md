@@ -122,7 +122,7 @@ The module returns any standard fields associated with the record, along with an
      </tr> 
      <tr> 
       <td>State</td> 
-      <td>Select whether you want to watch the old state or the new state.<ul><li><p><b>New state</b></p><p>Trigger a scenario when the record changes <b>to</b> a given value.</p><p>For example, if the state is set to New State and the filter is set to Status Equals In Progress, the webhook triggers a scenario when the Status changes to In Progress, regardless of what the status was before. </p></li><li><p><b>Old state</b></p><p>Trigger a scenario when the record changes <b>from</b> a given value.</p><p>For example, if the state is set to Old State and the filter is set to Status Equals In Progress, the webhook triggers a scenario when a Status that is currently In Progress changes to another status. </p></li</ul></td> 
+      <td>Select whether you want to watch the old state or the new state.<ul><li><p><b>New state</b></p><p>Trigger a scenario when the record changes <b>to</b> a given value.</p><p>For example, if the state is set to New State and the filter is set to Status Equals In Progress, the webhook triggers a scenario when the Status changes to In Progress, regardless of what the status was before. </p></li><li><p><b>Old state</b></p><p>Trigger a scenario when the record changes <b>from</b> a given value.</p><p>For example, if the state is set to Old State and the filter is set to Status Equals In Progress, the webhook triggers a scenario when a Status that is currently In Progress changes to another status. </p></li></ul></td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td> <p>Events filters</p> </td> 
