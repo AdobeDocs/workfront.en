@@ -2068,6 +2068,12 @@ feature-set: Workfront
     * [BECKY REMOVE THIS LINE WF for PS](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/workfront-for-photoshop.md)
     * [BECKY REMOVE THIS LINE WF XD](workfront-integrations-and-apps/adobe-workfront-for-xd/wf-adobe-xd.md)
     * [BECKY REMOVE THIS LINE CC install](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install.md)
+    * [BECKY REMOVE THIS LINE CC install XD](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-install.md)
+    * [BECKY REMOVE THIS LINE CC install cc](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-install-cc.md)
+    * [BECKY REMOVE THIS LINE CC xd proofs](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-proofs.md)
+    * [BECKY REMOVE THIS LINE CC manage toc](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-manage-work-toc.md)
+    * [BECKY REMOVE THIS LINE CC WF for XD](workfront-integrations-and-apps/adobe-workfront-for-xd/)
+
     * Install the Adobe Workfront plugin for Creative Cloud Applications {#install-wf-cc}
       * [Install Adobe Workfront for Creative Cloud Applications](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-toc.md)
       * [Install Adobe Workfront for Photoshop](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-ps.md)
