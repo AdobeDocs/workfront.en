@@ -2065,6 +2065,9 @@ feature-set: Workfront
   * [Adobe Workfront integration methods](workfront-integrations-and-apps/built-in-vs-api-vs-fusion.md)
   * Adobe Workfront for Creative Cloud {#workfront-for-creative-cloud}
     * [Adobe Workfront for Creative Cloud](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-cc.md)
+    * [BECKY REMOVE THIS LINE WF for PS](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/workfront-for-photoshop.md)
+    * [BECKY REMOVE THIS LINE WF XD](workfront-integrations-and-apps/adobe-workfront-for-xd/wf-adobe-xd.md)
+    * [BECKY REMOVE THIS LINE CC install](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install.md)
     * Install the Adobe Workfront plugin for Creative Cloud Applications {#install-wf-cc}
       * [Install Adobe Workfront for Creative Cloud Applications](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-toc.md)
       * [Install Adobe Workfront for Photoshop](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-ps.md)
