@@ -177,7 +177,7 @@ The Configuration area allows you to:
 * Access Help content
 * Log out
 
-![Configuration area](assets/mobile-settings-ios-adobe-350x601.png)
+![Configuration area](assets/ios-configuration-area.png)
 
 ## Virtual Assistant
 

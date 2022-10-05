@@ -177,7 +177,7 @@ The Configuration area allows you to:
 * Access Help content
 * Log out
 
-![Configuration area](assets/android-configuration-350x622.png)
+![Configuration area](assets/android-configuration-area.png)
 
 ## Virtual Assistant
 
