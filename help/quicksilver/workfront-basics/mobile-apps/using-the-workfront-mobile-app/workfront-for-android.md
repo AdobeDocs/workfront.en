@@ -73,30 +73,30 @@ The Projects area allows you to interact with and manage projects you own and pr
  </tbody> 
 </table>
 
-![Projects area](assets/mobile-projects-adobe-346x615.png)
+![Projects area](assets/mobile-projects-area.png)
 
 ## Approvals
 
 The Approvals area allows you to view and approve approvals assigned or delegated to you. From the approvals area, you can approve:
 
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td> 
-    <ul> 
-     <li>Work (Tasks and Issues)</li> 
-     <li>Documents</li> 
-     <li>Proofs </li> 
-    </ul> </td> 
-   <td> 
-    <ul> 
-     <li>Timesheets</li> 
-     <li>Access Requests</li> 
-    </ul> </td> 
-  </tr> 
- </tbody> 
+<table style="table-layout:auto">
+ <col>
+ <col>
+ <tbody>
+  <tr>
+   <td>
+    <ul>
+     <li>Work (Tasks and Issues)</li>
+     <li>Documents</li>
+     <li>Proofs </li>
+    </ul> </td>
+   <td>
+    <ul>
+     <li>Timesheets</li>
+     <li>Access Requests</li>
+    </ul> </td>
+  </tr>
+ </tbody>
 </table>
 
 For more information on approvals, see [Approvals in the Adobe Workfront mobile app](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/approvals-in-mobile-app.md).
@@ -112,35 +112,35 @@ The Notifications area allows you to view and respond to in-app notifications fo
 >[!NOTE]
 >Hyperlinks are not available in the update notifications unless the entire content of a note is a hyperlink without display text.
 
-![Notifications area](assets/mobile-notifications-adobe-350x601.png)
+![Notifications area](assets/mobile-notifications-area.png)
 
 ## Requests
 
 The Requests area allows you to view details about requests. From the Requests area of the app, you can:
 
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td> 
-    <ul> 
-     <li>Reassign the request</li> 
-     <li>Update the status</li> 
-     <li>Adjust the priority</li> 
-    </ul> </td> 
-   <td> 
-    <ul> 
-     <li>Post in the Updates area</li> 
-     <li>View documents</li> 
-     <li>Attach photos</li> 
-     <li>Save a request as a draft</li> 
-    </ul> </td> 
-  </tr> 
- </tbody> 
+<table style="table-layout:auto">
+ <col>
+ <col>
+ <tbody>
+  <tr>
+   <td>
+    <ul>
+     <li>Reassign the request</li>
+     <li>Update the status</li>
+     <li>Adjust the priority</li>
+    </ul> </td>
+   <td>
+    <ul>
+     <li>Post in the Updates area</li>
+     <li>View documents</li>
+     <li>Attach photos</li>
+     <li>Save a request as a draft</li>
+    </ul> </td>
+  </tr>
+ </tbody>
 </table>
 
-![Requests area](assets/mobile-requests-adobe-344x611.png)
+![Requests area](assets/mobile-requests-area.png)
 
 ## Timesheets
 
@@ -152,13 +152,13 @@ The timesheets area allows you to view details about your timesheets. In the Tim
 * Enter comments on your timesheet
 * Close your timesheet
 
-![Timesheets area](assets/mobile-timesheets-adobe-350x604.png)
+![Timesheets area](assets/mobile-timesheets-area.png)
 
 ## Favorites
 
 You can access existing items from the Favorites menu and add new items to the Favorites menu.
 
-![Favorites area](assets/mobile-favorites-adobe-324x576.png)
+![Favorites area](assets/mobile-favorites-area.png)
 
 ## Contacts
 
