@@ -44,7 +44,7 @@ The Home area allows you to work directly on tasks, issues, and approvals assign
 
 For more information, see [Home area widgets](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/home-area-widgets-mobile.md) and [My Work section in the mobile app](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/my-work-section-mobile.md).
 
-![](assets/mobile-home-area-338x1039.png)
+![Home area](assets/mobile-home-area-not-boards.png)
 
 ## Projects
 
@@ -73,7 +73,7 @@ The Projects area allows you to interact with and manage projects you own and pr
  </tbody> 
 </table>
 
-![](assets/mobile-projects-adobe-350x601.png)
+![Projects area](assets/mobile-projects-adobe-350x601.png)
 
 ## Approvals
 
@@ -112,7 +112,7 @@ The Notifications area allows you to view and respond to in-app notifications fo
 >[!NOTE]
 >Hyperlinks are not available in the update notifications unless the entire content of a note is a hyperlink without display text.
 
-![](assets/mobile-notifications-adobe-350x601.png)
+![Notifications area](assets/mobile-notifications-adobe-350x601.png)
 
 ## Requests
 
@@ -140,7 +140,7 @@ The Requests area allows you to view details about requests. From the Requests a
  </tbody> 
 </table>
 
-![](assets/mobile-requests-adobe-350x602.png)
+![Requests area](assets/mobile-requests-adobe-350x602.png)
 
 ## Timesheets
 
@@ -152,19 +152,19 @@ The timesheets area allows you to view details about your timesheets. In the Tim
 * Enter comments on your timesheet
 * Close your timesheet
 
-![](assets/mobile-timesheets-adobe-350x604.png)
+![Timesheets area](assets/mobile-timesheets-adobe-350x604.png)
 
 ## Favorites
 
 You can access existing items from the Favorites menu and add new items to the Favorites menu.
 
-![](assets/mobile-favorites-adobe-350x602.png)
+![Favorites area](assets/mobile-favorites-adobe-350x602.png)
 
 ## Contacts
 
 The Contacts area allows you to view the contact information for all users in your company.
 
-![](assets/mobile-contacts-adobe-350x603.png)
+![Contacts area](assets/mobile-contacts-area.png)
 
 ## Configuration
 
@@ -177,7 +177,7 @@ The Configuration area allows you to:
 * Access Help content
 * Log out
 
-![](assets/mobile-settings-ios-adobe-350x601.png)
+![Configuration area](assets/mobile-settings-ios-adobe-350x601.png)
 
 ## Virtual Assistant
 
@@ -193,6 +193,6 @@ For more information on the Virtual assistant, see [Adobe Workfront mobile app v
 ## Pin
 
 The Pin area allows you to access saved virtual assistant commands as well as pins from your web browser. 
-![](assets/pin-and-save-query-adobe-350x285.png)
+![Pin and save query](assets/pin-and-save-query-adobe-350x285.png)
 
 For more information on the Virtual assistant, see [Adobe Workfront mobile app virtual assistant](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mobile-virtual-assistant.md).
