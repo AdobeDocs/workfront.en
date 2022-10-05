@@ -7,9 +7,9 @@ author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: 4abb3257-5f6a-45f6-933b-f3bfb3728f1c
 ---
-# Find your work using the Adobe Workfront plugin
+# Find your work using the [!DNL Adobe Workfront] plugin
 
-Find the work assigned to you in Adobe Workfront without leaving the following Adobe Creative Cloud applications:
+Find the work assigned to you in [!DNL Adobe Workfront] without leaving the following [!DNL Adobe Creative Cloud] applications:
 
 {{cc-app-list}}
 
@@ -22,33 +22,33 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>Pro or higher</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
+   <td> <p>[!UICONTROL Pro] or higher</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Work or Plan</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
+   <td> <p>[!UICONTROL Work] or [!UICONTROL Plan]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>You must have an Adobe Creative Cloud license in addition to a Workfront license.</td> 
+   <td>You must have an [!DNL Adobe Creative Cloud] license in addition to a [!DNL Workfront] license.</td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+&#42;To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
 
 ## Prerequisites
 
 {{cc-install-prereq}}
 
-## Use the Work List to access important information
+## Use the [!UICONTROL Work List] to access important information
 
-The Work List allows you to view all of the tasks and issues assigned to you in one place. You can use the Sort by option to group items together and then use the Filter to focus in on work that needs to be completed.
+The [!UICONTROL Work List] allows you to view all of the tasks and issues assigned to you in one place. You can use the [!UICONTROL Sort by] option to group items together and then use the [!UICONTROL Filter] to focus in on work that needs to be completed.
 
-### Group similar work items together with the Sort By option
+### Group similar work items together with the [!DNL Sort By] option
 
-Use the Sort by option to group similar items in the Work List. You can sort by:
+Use the [!UICONTROL Sort by] option to group similar items in the [!UICONTROL Work List]. You can sort by:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -57,10 +57,10 @@ Use the Sort by option to group similar items in the Work List. You can sort by:
   <tr> 
    <td> 
     <ul> 
-     <li>Due Date</li> 
-     <li>Name</li> 
-     <li>Project Name</li> 
-     <li>My Priority</li> 
+     <li>[!UICONTROL Due Date]</li> 
+     <li>[!UICONTROL Name]</li> 
+     <li>[!UICONTROL Project Name]</li> 
+     <li>[!UICONTROL My Priority]</li> 
     </ul> </td> 
    <td> <img src="assets/copy-of-sort-by-350x606.png" style="width: 350;height: 606;"> </td> 
   </tr> 
@@ -69,7 +69,7 @@ Use the Sort by option to group similar items in the Work List. You can sort by:
 
 ### Narrow your focus with filters
 
-Use the Filter to narrow your focus to specific work items. There are a couple of ways to use the filter:
+Use the [!UICONTROL Filter] to narrow your focus to specific work items. There are a couple of ways to use the filter:
 
 &nbsp;
 
@@ -81,8 +81,8 @@ Use the Filter to narrow your focus to specific work items. There are a couple o
    <td> <p>The first is filtering based solely on work item type or attributes:</p> 
     <ul> 
      <li><strong>Work item</strong>: Tasks, Subtasks, Issues, or Personal tasks</li> 
-     <li><strong>Work item state</strong>: Working On, Ready to Start, or Not Ready</li> 
-    </ul> <p>The second is filtering using work item and work item state together. For example, you can select Tasks and Ready to Start to find all of the tasks in your work list that are ready for work.</p> <p>You can also use Field Match to search for a specific item within your filter set. </p> </td> 
+     <li><strong>Work item state</strong>: [!UICONTROL Working On], [!UICONTROL Ready to Start], or [!UICONTROL Not Ready]</li> 
+    </ul> <p>The second is filtering using work item and work item state together. For example, you can select Tasks and [!UICONTROL Ready to Start] to find all of the tasks in your work list that are ready for work.</p> <p>You can also use [!UICONTROL Field Match] to search for a specific item within your filter set. </p> </td> 
    <td> <img src="assets/copy-of-filter-p-350x603.png" style="width: 350;height: 603;"> </td> 
   </tr> 
  </tbody> 
@@ -90,7 +90,7 @@ Use the Filter to narrow your focus to specific work items. There are a couple o
 
 ## Search for your work
 
-Use the Search bar to locate projects, tasks, issues, and documents you need. 
+Use the [!UICONTROL Search] bar to locate projects, tasks, issues, and documents you need. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -108,8 +108,8 @@ Use the Search bar to locate projects, tasks, issues, and documents you need.
  </tbody> 
 </table>
 
-## Use the Menu to navigate projects
+## Use the [!UICONTROL Menu] to navigate projects
 
-You can use the Menu icon to navigate to parent items in a project.
+You can use the [!UICONTROL Menu] icon to navigate to parent items in a project.
 
 ![](assets/go-back-to-work-list-350x314.png)

@@ -7,9 +7,9 @@ author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: a53a716f-4faf-4ea7-a4fc-ad8d87634267
 ---
-# View work item information using the Adobe Workfront plugin
+# View work item information using the [!DNL Adobe Workfront] plugin
 
-You can see information about projects, tasks, issues, and documents from the following Adobe Creative Cloud applications:
+You can see information about projects, tasks, issues, and documents from the following [!DNL Adobe Creative Cloud] applications:
 
 {{cc-app-list}}
 
@@ -24,20 +24,20 @@ You must have the following access to perform the steps in this article:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>Pro or higher</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
+   <td> <p>[!UICONTROL Pro] or higher</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Work or Plan</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
+   <td> <p>[!UICONTROL Work] or [!UICONTROL Plan]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>You must have an Adobe Creative Cloud license in addition to a Workfront license.</td> 
+   <td>You must have an [!DNL Adobe Creative Cloud] license in addition to a [!DNL Workfront] license.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>View access to Projects, Tasks, or Issues</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>[!UICONTROL View] access to Projects, Tasks, or Issues</p> <p>Note: If you still don't have access, ask your [!DNL Workfront] administrator if they set additional restrictions in your access level. For information on how a [!DNL Workfront] administrator can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -46,7 +46,7 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+&#42;To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
 
 ## Prerequisites
 
@@ -54,7 +54,7 @@ You must have the following access to perform the steps in this article:
 
 ## View details and custom form data
 
-1. Click the **Menu** icon in the top-right corner, then select **Work List**. You can also use the menu to navigate to parent objects.
+1. Click the **[!UICONTROL Menu]** icon in the top-right corner, then select **[!UICONTROL Work List]**. You can also use the menu to navigate to parent objects.
 
    ![](assets/go-back-to-work-list-350x314.png)
 
@@ -62,20 +62,20 @@ You must have the following access to perform the steps in this article:
 
    >[!TIP]
    >
-   >Use the **Menu** icon to go to the parent objects of the work item.
+   >Use the **[!UICONTROL Menu]** icon to go to the parent objects of the work item.
 
-1. Click the **Details** icon ![](assets/details.png) in the navigation bar to view:
+1. Click the **[!UICONTROL Details]** icon ![](assets/details.png) in the navigation bar to view:
 
-   * Description
-   * Planned Completion Date
-   * Status 
-   * Assigned to
-   * Project Owner (Projects only)
+   * [!UICONTROL Description]
+   * [!UICONTROL Planned Completion Date]
+   * [!UICONTROL Status] 
+   * [!UICONTROL Assigned to]
+   * [!UICONTROL Project Owner] (Projects only)
    * Custom form data
 
 ## View Document Details
 
-1. Click the **Menu** icon in the top-right corner, then select **Work List**. You can also use the menu to navigate to parent objects.
+1. Click the **[!UICONTROL Menu]** icon in the top-right corner, then select **[!UICONTROL Work List]**. You can also use the menu to navigate to parent objects.
 
    ![](assets/go-back-to-work-list-350x314.png)
 
@@ -83,20 +83,20 @@ You must have the following access to perform the steps in this article:
 
    >[!TIP]
    >
-   >Use the **Menu** icon to go to the parent objects of the work item.
+   >Use the **[!UICONTROL Menu]** icon to go to the parent objects of the work item.
 
-1. Click the **Document** icon ![](assets/documents.png) in the navigation bar, then double-click on a document to view:
+1. Click the **[!UICONTROL Document]** icon ![](assets/documents.png) in the navigation bar, then double-click on a document to view:
 
-   * Description
-   * File Type
-   * Proof Status (only available for proofs)
-   * Version
-   * Size
+   * [!UICONTROL Description]
+   * [!UICONTROL File Type]
+   * [!UICONTROL Proof Status] (only available for proofs)
+   * [!UICONTROL Version]
+   * [!UICONTROL Size]
    * Custom Form data
 
 ## View subtasks and issues
 
-1. Click the **Menu** icon in the top-right corner, then select **Work List**. You can also use the menu to navigate to parent objects.
+1. Click the **[!UICONTROL Menu]** icon in the top-right corner, then select **[!UICONTROL Work List]**. You can also use the menu to navigate to parent objects.
 
    ![](assets/go-back-to-work-list-350x314.png)
 
@@ -104,13 +104,13 @@ You must have the following access to perform the steps in this article:
 
    >[!TIP]
    >
-   >Use the **Menu** icon to go to the parent objects of the work item.
+   >Use the **[!UICONTROL Menu]** icon to go to the parent objects of the work item.
 
-1. Click the **Issue** icon ![](assets/issues.png) or **Subtask** icon ![](assets/subtasks.png). 
+1. Click the **[!UICONTROL Issue]** icon ![](assets/issues.png) or **Subtask** icon ![](assets/subtasks.png). 
 
-1. Select the task or issue, then click the **Details** icon ![](assets/details.png) in the navigation bar to view:
+1. Select the task or issue, then click the **[!UICONTROL Details]** icon ![](assets/details.png) in the navigation bar to view:
 
-   * Planned Completion Date
-   * Status 
-   * Assigned to
+   * [!UICONTROL Planned Completion Date]
+   * [!UICONTROL Status] 
+   * [!UICONTROL Assigned to]
    * Custom Form data
