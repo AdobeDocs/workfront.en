@@ -8,9 +8,9 @@ author: Becky
 feature: Workfront Integrations and Apps
 exl-id: eb11d62d-86ed-49fc-8bbc-6f04eb30865d
 ---
-# Install [!DNL Adobe Workfront] for G Suite
+# Install [!DNL Adobe Workfront for G Suite]
 
-You can install the [!DNL Adobe Workfront] for G Suite add-on from the G Suite Marketplace.
+You can install the [!DNL Adobe Workfront for G Suite] add-on from the [!DNL G Suite] Marketplace.
 
 ## Access requirements
 
@@ -27,32 +27,13 @@ You must have the following access to perform the steps in this article:
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
    <td> <p>[!UICONTROL Work], [!UICONTROL Plan]</p> </td> 
-  </tr> <!--
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td role="rowheader">Access level configurations*</td> 
-    <td> <p>[Insert any access level configurations needed]
-       <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-        Example: Edit access to Documents
-       </MadCap:conditionalText>
-      </p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> 
-      <p data-mc-conditions="QuicksilverOrClassic.Draft mode"> You must be a Workfront administrator. For information on Workfront administrators, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>.</p>
-      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a group administrator. For more information on group administrators, see <a href="../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Group administrators</a>.</p>
-     </td> 
-   </tr>
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td role="rowheader">Object permissions</td> 
-    <td> <p>[Insert permissions needed and specify the object]
-       <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-        Example: View access or higher on Documents
-       </MadCap:conditionalText>
-      </p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
-   </tr>
-  --> </tbody> 
+  </tr>
+   </tbody> 
 </table>
 
 &#42;To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
 
-## Install [!DNL Workfront] for G Suite
+## Install [!DNL Workfront for G Suite]
 
 1. Click the following link:
 
@@ -60,9 +41,9 @@ You must have the following access to perform the steps in this article:
 
    Or
 
-   Click the plus sign icon in the G Suite add-ons sidebar at the far-right of a G Suite app (Gmail, Google Calendar, or Google Drive). Search for *[!UICONTROL Workfront] for G Suite*, then click the [!UICONTROL Workfront for G Suite] app item that appears.
+   Click the plus sign icon in the [!DNL G Suite] add-ons sidebar at the far-right of a [!DNL G Suite] app ([!DNL Gmail], [!DNL Google Calendar], or [!DNL Google Drive]). Search for *[!DNL Workfront for G Suite]*, then click the [!DNL Workfront for G Suite] app item that appears.
 
 1. Click **[!UICONTROL Install]**, then follow the prompts that appear.
-1. (Conditional) In your G&nbsp;Suite app, if you don't see the [!DNL Workfront] icon ![](assets/wf-lion-icon.png) in the G Suite add-ons sidebar at the far-right of the page, refresh the page.
+1. (Conditional) In your [!DNL G Suite] app, if you don't see the [!DNL Workfront] icon ![](assets/wf-lion-icon.png) in the [!DNL G Suite] add-ons sidebar at the far-right of the page, refresh the page.
 
-For information about logging in, see [Log in and out of Adobe Workfront for G Suite](../../workfront-integrations-and-apps/workfront-for-g-suite/log-in-and-out-wf-for-gsuite.md).
+For information about logging in, see [Log in and out of [!DNL Adobe Workfront for G Suite]](../../workfront-integrations-and-apps/workfront-for-g-suite/log-in-and-out-wf-for-gsuite.md).

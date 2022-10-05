@@ -8,9 +8,9 @@ author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 8e3edfb6-6822-4970-aa59-5fe5ee97d3b2
 ---
-# Update an [!DNL Adobe Workfront] object from G Suite
+# Update an [!DNL Adobe Workfront] object from [!DNL G Suite]
 
-Without leaving G Suite, you can post a new update or a reply to an existing update on a [!DNL Adobe Workfront] object.
+Without leaving [!DNL G Suite], you can post a new update or a reply to an existing update on a [!DNL Adobe Workfront] object.
 
 ## Access requirements
 
@@ -34,14 +34,14 @@ You must have the following access to perform the steps in this article:
 
 ## Prerequisites
 
-Before you can update a [!DNL Workfront] object in G Suite, you must
+Before you can update a [!DNL Workfront] object in [!DNL G Suite], you must
 
-* Install [!DNL Workfront] for G suite\
-   For instructions, see [Install Adobe Workfront for G Suite](../../workfront-integrations-and-apps/workfront-for-g-suite/install-workfront-for-gsuite.md).
+* Install [!DNL Workfront for G suite]\
+   For instructions, see [Install [!DNL Adobe Workfront for G Suite]](../../workfront-integrations-and-apps/workfront-for-g-suite/install-workfront-for-gsuite.md).
 
-## Update a [!DNL Workfront] object in G Suite
+## Update a [!DNL Workfront] object in [!DNL G Suite]
 
-1. View the object in G Suite as described in [View and manage [!DNL Adobe Workfront] object details from G Suite](../../workfront-integrations-and-apps/workfront-for-g-suite/view-manage-work-item-details-in-gsuite.md).
+1. View the object in [!DNL G Suite] as described in [View and manage [!DNL Adobe Workfront] object details from [!DNL G Suite]](../../workfront-integrations-and-apps/workfront-for-g-suite/view-manage-work-item-details-in-gsuite.md).
 
 1. Click the **[!UICONTROL Updates]** tab if you are posting a new update.
 1. Click **[!UICONTROL Start a new update]**, then type a new update.
@@ -54,9 +54,9 @@ Before you can update a [!DNL Workfront] object in G Suite, you must
 
 1. (Optional) To tag users or teams:
 
-   1. Click **Notify**.
+   1. Click **[!UICONTROL Notify]**.
    1. Click **[!UICONTROL Search for a user or team]**, type the name of the user or team, then click the name when you see it in the list that appears below.
-   1. Click **Save**.
+   1. Click **[!UICONTROL Save]**.
    1. Repeat these three steps for any other users or teams you want to notify.
 
-1. Click **Post**.
+1. Click **[!UICONTROL Post]**.
