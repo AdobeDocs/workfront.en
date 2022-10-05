@@ -38,9 +38,11 @@ We have improved the way users display when you add them to the following projec
 
 * Resource Manager 
 
-Now, when you add a user to any of these fields in the Edit or Details areas, in addition to their name and avatar, we also display their Primary Role and their email. This helps distinguish between multiple users with similar or identical names.    
+Now, when you add a user to any of these fields in the Edit or Details areas, in addition to their name and avatar, their Primary Role and their email also display. This helps distinguish between multiple users with similar or identical names.    
 
 For more information, see [Edit Projects](/help/quicksilver/manage-work/projects/manage-projects/edit-projects.md).
+
+NOTE: Additional user fields for projects, tasks, and issues will be updated with this functionality in future releases as patches. For information about these patch updates, see [Maintenance Updates.](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=en){target=_blank}
 
 [View a video demonstration of this feature.](https://vimeo.com/743166837){target=_blank}
 

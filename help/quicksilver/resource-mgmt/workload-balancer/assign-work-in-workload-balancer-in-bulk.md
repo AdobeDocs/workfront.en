@@ -9,10 +9,6 @@ exl-id: fb0f80d3-7da4-4f5f-857d-3fb518ba12e2
 ---
 # Assign work in bulk using the Workload Balancer
 
-<!--remove production and preview preferences at release-->
-
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> 
-
 You can manually assign work items to users using the Adobe Workfront Workload Balancer.
 
 For general information about assigning work to users using the Workload Balancer, see [Overview of assigning work in the Workload Balancer](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
@@ -31,8 +27,9 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Plan, when using the Workload Balancer in all areas in the Production environment</p>
-   <p><span class="preview">Work, when using the Workload Balancer of a project, in the Preview environment</span> </p>
+   <td> <p>Plan, when using the Workload Balancer for a team or in the Resourcing area </p>
+   <p>Work, when using the Workload Balancer of a project </p>
+
  </td> 
   </tr> 
   <tr> 
@@ -144,7 +141,7 @@ To assign a user to work items previously assigned to job roles:
    Select users from the following areas:
 
    * **Suggested Assignments**: Users who can fulfill the selected role and who match the criteria for Smart Assignments. For more information, see [Smart assignments overview](../../manage-work/tasks/assign-tasks/smart-assignments.md).
-   * <span class="preview">**Other Assignments**: All users in the system who can fulfill the selected role.</span> 
+   * **Other Assignments**: All users in the system who can fulfill the selected role. 
    
       >[!TIP]
       >

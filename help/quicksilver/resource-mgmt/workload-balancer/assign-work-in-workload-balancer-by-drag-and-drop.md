@@ -11,8 +11,6 @@ exl-id: caffcde8-3953-44a4-b945-76f2de84f4c6
 
 <!--remove production and preview preferences at release-->
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> 
-
 You can assign work items using the Adobe Workfront Workload Balancer by dragging and dropping work items to the correct users.
 
 For general information about assigning work to users using the Workload Balancer, see [Overview of assigning work in the Workload Balancer](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
@@ -31,13 +29,13 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Plan, when using the Workload Balancer in all areas in the Production environment</p>
-   <p><span class="preview">Work, when using the Workload Balancer of a project, in the Preview environment</span> </p>
+   <td> <p>Plan, when using the Workload Balancer for a team or in the Resourcing area </p>
+   <p>Work, when using the Workload Balancer of a project </p>
  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level*</td> 
-   <td> <p>Edit access to&nbsp;the following:</p> 
+   <td> <p>Edit access to the following:</p> 
     <ul> 
      <li> <p>Resource Management</p> </li> 
      <li> <p>Projects</p> </li> 
@@ -64,25 +62,25 @@ You can assign an item from the Unassigned Work area to a user, or you can reass
 
    You can assign work to users using the Workload Balancer in the Resourcing area, at the project, or at the team level. For more information about where the Workload Balancer is located in Workfront, see [Locate the Workload Balancer](../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
 
-1. (Optional) Go to the **Unassigned Work** area and apply a filter to view tasks <span class="preview">and issues</span> that are not assigned to users
+1. (Optional) Go to the **Unassigned Work** area and apply a filter to view tasks and issues that are not assigned to users
 
    Or
 
    Go to the **Assigned Work** area and expand the name of a user to view the work items assigned to them, if you want to reassign their items.
 
-1. <span class="preview">(Conditional) In the Workload Balancer of a project, click the **Show all users** icon ![](assets/show-all-users-icon-project-workload-balancer.png) to display all Workfront users.</span>
+1. (Conditional) In the Workload Balancer of a project, click the **Show all users** icon ![](assets/show-all-users-icon-project-workload-balancer.png) to display all Workfront users.
 
-   <span class="preview">This displays all users that you have access to view.</span> 
+   This displays all users that you have access to view.
 
-   <span class="preview">The users who are also part of the project team and are already assigned to items on the project have the project icon to the right of their name in the Assigned Work area.</span>
+   The users who are also part of the project team and are already assigned to items on the project have the project icon to the right of their name in the Assigned Work area.
 
-   <span class="preview">![](assets/user-on-the-project-indicator-highlighted-project-workload-balancer.png)</span>
+   ![](assets/user-on-the-project-indicator-highlighted-project-workload-balancer.png)
 
          
    >[!TIP]
    >
-   >* <span class="preview">The Show all users option is only available in the Workload Balancer of a project.</span> 
-   >* <span class="preview">Use filters to display only the  users that are important to you. For example, use the filter to display only users from your teams or groups.</span>
+   >* The Show all users option is available only in the Workload Balancer of a project. 
+   >* Use filters to display only the  users that are important to you. For example, use a filter to display only users from your teams or groups.
 
 
 
@@ -108,7 +106,7 @@ You can assign an item from the Unassigned Work area to a user, or you can reass
    >     The item displays according to the Workload Balancer criteria for sorting work items. For more information, see [Navigate the Workload Balancer](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
    >
    >
-   >* <span class="preview">If you enabled Show all users in the Workload Balancer of a project and assigned items to users who were not previously assigned to items on the project, the users are added to the Project Team. For more information, see [Manage project team](../../manage-work/projects/planning-a-project/manage-project-team.md).</span>
+   >* If you enabled Show all users in the Workload Balancer of a project and assigned items to users who were not previously assigned to items on the project, the users are added to the Project Team. For more information, see [Manage project team](../../manage-work/projects/planning-a-project/manage-project-team.md).
 
 
 1. (Optional) Click the bar of a work item under the name of a user in the Assigned Work area and drag it then drop it over the Unassigned Work area to unassign it. The item is unassigned from the user, but it might still be assigned to a job role in which case it displays in the Unassigned Work area. If the item is assigned to another user, it remains in the Assigned Work area under the name of the user who is still assigned. 
