@@ -132,7 +132,7 @@ When users create a linked folder on a project, the associated project, portfoli
 
 ### Object metadata sync
 
-An Experience Manager fields that is mapped to Workfront portfilio, program, project, task, and issue fields update automatically when the field is changed in Workfront.
+An Experience Manager fields that is mapped to Workfront portfilio, program, project, task, issue, and document fields update automatically when the field is changed in Workfront.
 
 >[!IMPORTANT]
 >
