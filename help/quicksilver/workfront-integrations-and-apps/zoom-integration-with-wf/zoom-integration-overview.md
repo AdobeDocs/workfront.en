@@ -3,7 +3,7 @@ content-type: overview
 product-area: workfront-integrations
 navigation-topic: zoom-integration-in-workfront
 title: Zoom integration overview
-description: If your Adobe Workfront administrator has enabled the Zoom integration, you can start a Zoom meeting with collaborators by inserting a Zoom link into an Update comment or a reply.
+description: If your [!DNL Adobe Workfront] administrator has enabled the Zoom integration, you can start a Zoom meeting with collaborators by inserting a Zoom link into an Update comment or a reply.
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: b74c3559-4b62-40b1-bbcc-27dfabe31534
@@ -14,11 +14,11 @@ exl-id: b74c3559-4b62-40b1-bbcc-27dfabe31534
 >
 >The Zoom integration will be deprecated with the 22.4 release (September 2022).
 
-If your Adobe Workfront administrator has enabled the Zoom integration, you can start a Zoom meeting with collaborators by inserting a Zoom link into an Update comment or a reply.
+If your [!DNL Adobe Workfront] administrator has enabled the Zoom integration, you can start a Zoom meeting with collaborators by inserting a Zoom link into an Update comment or a reply.
 
 ![](assets/zoom-updates-area-350x175.png)
 
-Anyone tagged in the comment or reply receives an instant notification containing the link, depending on their notification settings. They can click to join the meeting directly from the notification or from the Updates area.
+Anyone tagged in the comment or reply receives an instant notification containing the link, depending on their notification settings. They can click to join the meeting directly from the notification or from the [!UICONTROL Updates] area.
 
 For more information about using the Updates area, see the section [Add an update to a work item](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md#add) in the article [Update work](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
