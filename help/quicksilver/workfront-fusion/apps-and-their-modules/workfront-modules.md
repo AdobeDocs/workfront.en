@@ -120,6 +120,10 @@ The module returns any standard fields associated with the record, along with an
       <td>Record Type</td> 
       <td>Select the type of Workfront record that you want the module to watch.</td> 
      </tr> 
+     <tr> 
+      <td>State</td> 
+      <td>Select whether you want to watch the old state or the new state.<ul><li><p><b>New state</b></p><p>Trigger a scenario when the record changes <b>to</b> a given value.</p><p>For example, if the state is set to New State and the filter is set to Status Equals In Progress, the webhook triggers a scenario when the Status changes to In Progress, regardless of what the status was before. </p></li><li><p><b>Old state</b></p><p>Trigger a scenario when the record changes <b>from</b> a given value.</p><p>For example, if the state is set to Old State and the filter is set to Status Equals In Progress, the webhook triggers a scenario when a Status that is currently In Progress changes to another status. </p></li</ul></td> 
+     </tr> 
      <tr data-mc-conditions=""> 
       <td> <p>Events filters</p> </td> 
       <td> <p>You can set filters to watch for only records that meet criteria you select.</p> <p>For each filter, enter the field you want the filter to evaluate, the operator, and the value that you want the filter to allow. You can use more than one filter by adding AND rules.</p> <p>Note: You cannot edit filters in existing Workfront webhooks. To set up different filters for Workfront event subscriptions, remove the current webhook and create a new one.</p> <p>For more information on event filters, see <a href="#event-subscription-filters-in-the-workfront-watch-events-modules" class="MCXref xref">Event subscription filters in the Workfront &gt; Watch Events modules</a> in this article.</p> </td> 
@@ -406,11 +410,11 @@ When you are configuring this module, the following fields display.
   </tr> 
   <tr> 
    <td role="rowheader">Headers</td> 
-   <td> <p>Add the headers of the request in the form of a standard JSON object. This determines the content type of the request.</p> <p>For example,<code> {“Content-type”:“application/json”}</code></p> <p>Note: If you're getting errors and it's difficult to determine their origin, consider modifying headers based on the Workfront documentation. If your Custom API Call returns a 422 HTTP Request Error, try using a “Content-Type”:“text/plain” header.</p> </td> 
+   <td> <p>Add the headers of the request in the form of a standard JSON object. This determines the content type of the request.</p> <p>For example,<code> {"Content-type":"application/json"}</code></p> <p>Note: If you're getting errors and it's difficult to determine their origin, consider modifying headers based on the Workfront documentation. If your Custom API Call returns a 422 HTTP Request Error, try using a "Content-Type":"text/plain" header.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Query String</td> 
-   <td> <p>Add the query for the API call in the form of a standard JSON object.</p> <p>For example: <code>{“name”:“something-urgent”}</code></p> <p>Tip: We recommend that you send information through the JSON body rather than as query parameters.</p> </td> 
+   <td> <p>Add the query for the API call in the form of a standard JSON object.</p> <p>For example: <code>{"name":"something-urgent"}</code></p> <p>Tip: We recommend that you send information through the JSON body rather than as query parameters.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Body</td> 
