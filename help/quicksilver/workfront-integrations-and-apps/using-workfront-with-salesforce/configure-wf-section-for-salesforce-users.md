@@ -131,8 +131,7 @@ You can add the [!DNL Workfront] section to the layout of a [!DNL Salesforce] [!
 
    Click **[!UICONTROL New]** to create a new page layout.
 
-1. Continue with [Configure the [!DNL Workfront] Section at the Opportunity or Account
- level](#configure-the-dnl-workfront-section-at-the-opportunity-or-account-level-configure-the-workfront-section-at-the-opportunity-or-account-level) below.
+1. Continue with [Configure the [!DNL Workfront] Section at the Opportunity or Account level](#configure-the-dnl-workfront-section-at-the-opportunity-or-account-level-configure-the-workfront-section-at-the-opportunity-or-account-level) below.
 
 ### Configure the [!DNL Workfront] Section at the Opportunity or Account level {#configure-the-workfront-section-at-the-opportunity-or-account-level}
 

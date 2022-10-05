@@ -35,9 +35,7 @@ You must have the following access to perform the steps in this article:
 
 ## Install [!DNL Workfront for G Suite]
 
-1. Click the following link:
-
-   https://gsuite.google.com/marketplace/app/workfront_for_g_suite/1076371296461
+1. Click the following link: [[!DNL Workfront for G Suite]](https://gsuite.google.com/marketplace/app/workfront_for_g_suite/1076371296461)
 
    Or
 

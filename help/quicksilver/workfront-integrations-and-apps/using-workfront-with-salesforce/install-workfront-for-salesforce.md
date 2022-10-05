@@ -9,7 +9,7 @@ exl-id: 4fea9d8f-7729-4fee-86d3-1a986be29f74
 ---
 # Install [!DNL Adobe Workfront for Salesforce]
 
-To install the app before it becomes available in the [!DNL Salesforce AppExchange], see [Installing [!DNL Workfront for !DNL Salesforce] before It Becomes Available in the [!DNL AppExchange] Marketplace](#installing-dnl-workfront-for-salesforce-before-it-becomes-available-in-the-dnl-appexchange-marketplace-installing-workfront-for-salesforce-before-it-becomes-available-in-the-appexchange-marketplace).
+To install the app before it becomes available in the [!DNL Salesforce AppExchange], see [Installing [!DNL Workfront for Salesforce] before It Becomes Available in the [!DNL AppExchange] Marketplace](#installing-dnl-workfront-for-salesforce-before-it-becomes-available-in-the-dnl-appexchange-marketplace-installing-workfront-for-salesforce-before-it-becomes-available-in-the-appexchange-marketplace).
 
 As a [!DNL Salesforce] and [!DNL Adobe Workfront] administrator, you can install [!DNL Workfront for Salesforce] to allow your [!DNL Salesforce] users to submit [!DNL Workfront] requests and automatically create projects without ever leaving Salesforce.
 
