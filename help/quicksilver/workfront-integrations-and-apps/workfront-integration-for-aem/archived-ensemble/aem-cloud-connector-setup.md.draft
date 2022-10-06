@@ -27,14 +27,14 @@ Before the Workfront Connector can be included as a Maven dependency in the 'sam
 
 #### If a repository file is not provided and/or you're building the source code
 
-1. In the root directory of the 'sample-site' AEM project, {sample-site-root}, create a folder called 'repository'.&nbsp;
+1. In the root directory of the 'sample-site' AEM project, {sample-site-root}, create a folder called 'repository'. 
 1. In the terminal, enter the command below. Be sure to replace **{connector-root}** & **{sample-site-root}** with the correct file paths for your installation:
 
    <pre>mvn org.apache.maven.plugins:maven-install-plugin:2.5.2:install-file -Dfile=<strong>{connector-root}</strong>/all/target/workfront-aem- connector.all-1.9.0-SNAPSHOT.zip -DgroupId=com.workfront -DartifactId=workfront-aem-connector.all -Dversion=1.9.0-SNAPSHOT -Dpackaging=zip -DlocalRepositoryPath=<strong>{sample-site-root}</strong>/repository</pre>
 
-1. Continue to the following section: Update the project's POM&nbsp;files.
+1. Continue to the following section: Update the project's POM files.
 
-### Update the project's POM&nbsp;files {#update-the-project-s-pom-files}
+### Update the project's POM files {#update-the-project-s-pom-files}
 
 The next step for including the Workfront Connector as a Maven dependency is to update the project POM files for the 'sample-site' AEM project. The steps below outline which POM files need to be updated and what information needs to be included.
 
@@ -78,9 +78,9 @@ In order for the Workfront Connector to connect to a Workfront environment, it m
    1. **workfront.folder.path**: The assets path where Workfront files are stored. This path must be within /content/dam. If changed, the new path must already exist..
    1. **workfront.api.key**: Retrieved from Customer Info section of the Workfront setup screen. This must be a Workfront admin user's API Key.
    1. **workfront.url workfront.url**: The URL of the Workfront instance being linked to. Example: https://[account].my.workfront.com
-   1. The following keys and tokens can be created using the following URL to generate a unique guid for each: [UUID Generator](https://www.uuidgenerator.net/).&nbsp;
+   1. The following keys and tokens can be created using the following URL to generate a unique guid for each: [UUID Generator](https://www.uuidgenerator.net/). 
 
-      1. **webhooks.api.key**:&nbsp;REQUIRED This will act as the AEM API key stored in the Workfront Custom configuration for the Workfront Connector.&nbsp;
+      1. **webhooks.api.key**: REQUIRED This will act as the AEM API key stored in the Workfront Custom configuration for the Workfront Connector. 
       1. **document.sync.auth.token**: This auth token will create a webhook within the Workfront environment that will enable users to automatically create new proof versions of a document in Workfront when the file content is updated in AEM. If left empty, this feature will be disabled.
       1. **comment.sync.auth.token**: This auth token will create a webhook within the Workfront environment that will enable users to synchronize comments on a linked document. If left empty, this feature will be disabled.
       1. **metadata.sync.auth.token**: This auth token will create a webhook within the Workfront environment that will enable users to synchronize metadata on a linked document. If left empty, this feature will be disabled.
@@ -128,7 +128,7 @@ A package that contains these nodes is also available should you need it to add 
 
 ## Section 5: Integrate Workfront with AEM
 
-After you add the connector to your existing project structure and configure the connector in AEM as described in sections 1 and 2 in this document, you must configure Workfront to link documents between&nbsp;Workfront and AEM.
+After you add the connector to your existing project structure and configure the connector in AEM as described in sections 1 and 2 in this document, you must configure Workfront to link documents between Workfront and AEM.
 
 1. Log in to Workfront as a Workfront administrator.
 
@@ -138,20 +138,20 @@ After you add the connector to your existing project structure and configure the
 
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
 
-1. Click&nbsp;**Documents**>&nbsp;**Custom Integration.**
+1. Click **Documents**> **Custom Integration.**
 
 1. Click **Add Custom Integration**.
-1. In the&nbsp;**Name** box, specify the name of the custom integration.
+1. In the **Name** box, specify the name of the custom integration.
 
-   This is the name users see when using the integration within Workfront; for example, you could enter *"AEM Assets"* for the name.&nbsp;
+   This is the name users see when using the integration within Workfront; for example, you could enter *"AEM Assets"* for the name. 
 
-1. In the&nbsp;**Base API URL** box, specify the URL for your AEM instance.
+1. In the **Base API URL** box, specify the URL for your AEM instance.
 
    The base API URL consists of the URL for your AEM instance followed by the path: /bin/webhooks/api/
 
    ![mceclip3.png](assets/mceclip3-350x130.png)
 
-1. In the&nbsp;**Authentication Type** drop-down menu,&nbsp;select **ApiKey.**
+1. In the **Authentication Type** drop-down menu, select **ApiKey.**
 
 1. In the**API Key** box, paste the AEM API Key you copied when you configured AEM Assets.
 1. Click **Save**.
@@ -160,7 +160,7 @@ After you add the connector to your existing project structure and configure the
 
    Workfront is now configured to work with AEM Assets.
 
-   In order to access assets in AEM, each Workfront user who needs to use the connector must be set up as a user in AEM. For information on creating users, see&nbsp; [Set up the AEM cloud connector](#Setting).
+   In order to access assets in AEM, each Workfront user who needs to use the connector must be set up as a user in AEM. For information on creating users, see  [Set up the AEM cloud connector](#Setting).
 
 ## Section 6: Map metadata
 
