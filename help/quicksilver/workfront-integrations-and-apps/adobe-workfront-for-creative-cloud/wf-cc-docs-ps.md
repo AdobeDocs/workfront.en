@@ -7,7 +7,7 @@ author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: d26850d8-9594-4848-b263-6f71e6c52e9b
 ---
-# Upload documents from [!DNL Adobe Photoshop]
+# Upload documents from [!DNL Photoshop]
 
 You can upload your projects as documents for a quick review and approval or simply to store in [!DNL Adobe Workfront].
 
@@ -25,7 +25,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
-   <td> <p>Work or Plan</p> </td> 
+   <td> <p>[!UICONTROL Work] or [!UICONTROL Plan]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
@@ -33,11 +33,11 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Documents</p> <p>Note: If you still don't have access, ask your [!DNL Workfront] administrator if they set additional restrictions in your access level. For information on how a [!DNL Workfront] administrator can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>[!UICONTROL Edit] access to [!UICONTROL Documents]</p> <p>Note: If you still don't have access, ask your [!DNL Workfront] administrator if they set additional restrictions in your access level. For information on how a [!DNL Workfront] administrator can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>View access or higher to the object where you want to upload a document.</p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+   <td> <p>[!UICONTROL View] access or higher to the object where you want to upload a document.</p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -46,9 +46,9 @@ You must have the following access to perform the steps in this article:
 
 ## Prerequisites
 
-* You must install the [!DNL Workfront for Adobe Photoshop] plugin before you can upload [!DNL Adobe Photoshop] projects to Workfront.
+* You must install the [!DNL Workfront for Adobe Photoshop] plugin before you can upload [!DNL Adobe Photoshop] projects to [!DNL Workfront].
 
-   For instructions, see [Install [!DNL Workfront for Adobe Photoshop]](../../workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install.md).
+  For instructions, see [Install Workfront for Adobe Photoshop](../../workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-ps.md).
 
 ## Upload documents to [!DNL Adobe Photoshop]
 
@@ -56,8 +56,8 @@ You must have the following access to perform the steps in this article:
 
    ![](assets/go-back-to-work-list-350x314.png)
 
-1. Go to the work item where you want to upload a document.
-1. Click the **[!UICONTROL Document]** icon ![](assets/documents.png) in the navigation bar.
+1. Go to the work item where you want to upload a document. 
+1. Click the **[!UICONTROL Document]** icon ![](assets/documents.png) in the navigation bar. 
 
 1. Click **[!UICONTROL New File]** near the bottom of the plugin.
 1. Choose the **[!UICONTROL Asset Type]** from the drop-down menu.
@@ -66,6 +66,6 @@ You must have the following access to perform the steps in this article:
    >
    >If you add an approver, the image uploads to [!DNL Workfront] as a simple Proof.
 
-1. (Optional) Type a comment in the **[!UICONTROL Updates]** area.
-1. Click **[!UICONTROL Upload]**.\
+1. (Optional) Type a comment in the **[!UICONTROL Updates]** area. 
+1. Click **[!UICONTROL Upload]**.  
    The document appears in the [!UICONTROL Documents] area in the plugin and the desktop app.

@@ -7,29 +7,12 @@ author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: 865beaa8-a585-4bdd-9d04-b5fbdf40748c
 ---
-# Update your work in [!DNL Adobe Photoshop]
+# Update your work using the [!DNL Adobe Workfront] plugin
 
-You can update your work in the following areas:
+You can update your work from any of the following [!DNL Adobe Creative Cloud] applications:
 
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td> 
-    <ul> 
-     <li>[!UICONTROL Projects]</li> 
-     <li>[!UICONTROL Tasks]</li> 
-     <li>[!UICONTROL Subtasks]</li> 
-    </ul> </td> 
-   <td> 
-    <ul> 
-     <li>[!UICONTROL Issues]</li> 
-     <li>[!UICONTROL Documents]</li> 
-    </ul> </td> 
-  </tr> 
- </tbody> 
-</table>
+{{cc-app-list}}
+
 
 ## Access requirements
 
@@ -47,7 +30,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
-   <td> <p>Work or Plan</p> </td> 
+   <td> <p>[!UICONTROL Work] or [!UICONTROL Plan]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
@@ -55,7 +38,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>View access to the object you want to update. </p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+   <td> <p>[!UICONTROL View] access to the object you want to update. </p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -64,21 +47,43 @@ You must have the following access to perform the steps in this article:
 
 ## Prerequisites
 
-* You must install the [!DNL Workfront for Adobe Photoshop] plugin before you can mark work items complete in Adobe Photoshop.
-
-   For instructions, see [Install [!DNL Workfront for Adobe Photoshop]](../../workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install.md).
+{{cc-install-prereq}}
 
 ## Post an update
+
+You can update your work from any of the following areas in the plugin:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td> 
+    <ul> 
+     <li>Projects</li> 
+     <li>Tasks</li> 
+     <li>Subtasks</li> 
+    </ul> </td> 
+   <td> 
+    <ul> 
+     <li>Issues</li> 
+     <li>Documents</li> 
+    </ul> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+To post an update:
 
 1. Click the **[!UICONTROL Menu]** icon in the top-right corner, then select **[!UICONTROL Work List]**. You can also use the menu to navigate to parent objects.
 
    ![](assets/go-back-to-work-list-350x314.png)
 
 1. From the **[!UICONTROL Work List]**, select the work item you need to post an update to.
-1. Click **[!UICONTROL Update]** in the navigation bar.\
+1. Click **[!UICONTROL Update]** in the navigation bar.  
    ![](assets/photoshop-update-350x295.png)
 
 1. Click **[!UICONTROL New Update]**.
 1. Type your update.
 1. (Optional) To tag a user, type the @ symbol and the user's name, then choose their name from the drop-down menu.
-1. Click **[!UICONTROL Submit]**. Updates are synced with the [!DNL Adobe Workfront] web application in real time.
+1. Click **[!UICONTROL Submit]**. Updates are synced with the Adobe Workfront web application in real time.

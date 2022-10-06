@@ -9,10 +9,6 @@ exl-id: 1c37f361-e866-4ac6-b672-408848a80ed6
 ---
 # Link items between [!DNL Adobe Workfront] and [!DNL Jira]
 
-<!--remove production and preview preferences at release-->
-
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span>
-
 You can link [!DNL Jira] issues to [!DNL Adobe Workfront] tasks or issues either automatically or manually.
 
 Only one item in [!DNL Workfront] can be linked to one item in [!DNL Jira]. You can never link one [!DNL Workfront] item to multiple [!DNL Jira] issues, nor one [!DNL Jira] issue to multiple [!DNL Workfront] items.
@@ -35,11 +31,15 @@ You must have the following:
   </tr> 
   <tr> 
    <td role="rowheader">Jira access</td> 
-   <td> <p>System administrator access</p> <p>Important:  We recommend that you create separate system administrator accounts in [!DNL Jira] and [!DNL Workfront] to dedicate to this integration, rather than using existing ones that might be attached to users.</p> </td> 
+   <td> <p>System administrator access</p> <p><b>IMPORTANT</b>  
+   
+   We recommend that you create separate system administrator accounts in [!DNL Jira] and [!DNL Workfront] to dedicate to this integration, rather than using existing ones that might be attached to users.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>You must be a [!DNL Workfront] administrator. For information on [!DNL Workfront] administrators, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>.</p> <p>Note: If you still don't have access, ask your [!DNL Workfront] administrator if they set additional restrictions in your access level. For information on how a [!DNL Workfront] administrator can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>You must be a [!DNL Workfront] administrator. For information on [!DNL Workfront] administrators, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>.</p> <p><b>NOTE</b>
+   
+   If you still don't have access, ask your [!DNL Workfront] administrator if they set additional restrictions in your access level. For information on how a [!DNL Workfront] administrator can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -102,9 +102,9 @@ To automatically link a [!DNL Workfront] task to a [!DNL Jira] issue:
 
    Or
 
-   Click the **[!UICONTROL Go to Jira]** link in the **[!UICONTROL Integrations]** area of the **[!UICONTROL Details]** section <span class="preview">or the task or issue header</span>, to open the [!DNL Jira] issue.
+   Click the **[!UICONTROL Go to Jira]** link in the **[!UICONTROL Integrations]** area of the **[!UICONTROL Details]** section or the task or issue header, to open the [!DNL Jira] issue.
 
-   <span class="preview">Your system or group administrator must add the [!UICONTROL Integrations] field to your layout template to display it in the task or issue header. For information, see [Customize object headers using a layout template](../../administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).</span>
+   Your system or group administrator must add the [!UICONTROL Integrations] field to your layout template to display it in the task or issue header. For information, see [Customize object headers using a layout template](../../administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).
 
    Any [!DNL Jira] user can immediately start working on items automatically created from [!DNL Workfront] and their updates will transfer to [!DNL Workfront] without needing a license for [!DNL Workfront] to do so.
 
