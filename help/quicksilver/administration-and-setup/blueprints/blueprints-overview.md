@@ -32,10 +32,12 @@ The following types of blueprints are available:
 
 * Project templates: Includes standard objects associated with a project template (tasks, issues, roles, and teams), and some preferences related to those objects. For more information, see [Configure a blueprint](../../administration-and-setup/blueprints/configure-template-package.md).
 * Organizational structures: Includes objects associated with the structure of an organization (companies, groups, roles, and teams). For more information, see [Configure a blueprint](../../administration-and-setup/blueprints/configure-template-package.md).
-* Custom forms: Includes custom forms attached to another object type, such as a project or portfolio.
 * Dashboards: Includes one or more dashboards for a specific use case, such as implementation services.
+<!--
 * Request queues: Includes one or more projects configured as request queues.
+* Custom forms: Includes custom forms attached to another object type, such as a project or portfolio.
 * Setup features: Includes one or more elements that are configured in the Setup area of Workfront, such as layout templates.
+-->
 
 ### View details
 
