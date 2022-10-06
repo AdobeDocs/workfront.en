@@ -96,8 +96,7 @@ You must have the following access to perform the steps in this article:
       <td role="rowheader"><strong>Assignees</strong></td>
       <td><p>To assign more people or a team to the card, start typing a name in the search field, then select it when it displays in the list. You can add both individuals and teams. Only one team assignment is allowed on a connected card.</p>
       <p>Assignees must be members on the board or they will not appear in the selection list. When a team is a member on the board, then the individual team members can be assigned to the card.</p>
-      <p>Any assignees you select are also assigned to the task or issue in Workfront.</p>
-      <p>Adding a team is available only via the early feature opt-in. For details, see <a href="/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md">Early feature opt-in for Adobe Workfront Boards</a>.</p></td>
+      <p>Any assignees you select are also assigned to the task or issue in Workfront.</p></td>
      </tr>
      <tr>
       <td role="rowheader"><strong>Column</strong></td>
@@ -115,7 +114,7 @@ You must have the following access to perform the steps in this article:
      </tr>
       <tr>
       <td role="rowheader"><strong>Estimation</strong></td>
-      <td><p>Type the estimated number of hours for the card to be completed. This is a manual entry only and cannot be more than 99.</p> <p>This field is available only via the early feature opt-in. For details, see <a href="/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md">Early feature opt-in for Adobe Workfront Boards</a>.</p></td>
+      <td><p>Type the estimated number of hours for the card to be completed. This is a manual entry only and cannot be more than 99.</p></td>
      </tr>
      <tr>
       <td role="rowheader"><strong>Tags</strong></td>

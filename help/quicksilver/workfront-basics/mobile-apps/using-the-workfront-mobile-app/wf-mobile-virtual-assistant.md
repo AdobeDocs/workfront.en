@@ -241,7 +241,7 @@ Use the delete command to delete the following object types:
 
 Use the help command to view a list of available commands directly in the mobile app.
 
-![](assets/help-with-va-350x725.png)
+![Help command](assets/help-with-va-350x725.png)
 
 ## Pin commands
 
@@ -255,7 +255,7 @@ To pin a command:
 
 1. State your command, then tap the **Pin** icon on the Results page.
 
-![](assets/pin-and-save-query--350x285.png)
+![Pin and save query](assets/pin-and-save-query-adobe-350x285.png)
 
 ### Web browser {#web-browser}
 

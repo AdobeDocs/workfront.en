@@ -9,8 +9,6 @@ exl-id: 4bef734c-de86-4c58-a0e8-fbb3c5785f4c
 ---
 # Create a team
 
-{{highlighted-preview}}
-
 When you create a team you become the Team Owner, by default.
 
 You can view Team Owners for all the teams when you create a report for Teams and include the Owner Name field in your report. (For more information about creating a report, see [Create a custom report](../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).)
@@ -75,6 +73,6 @@ You must have the following access to perform the steps in this article:
      
      >[!NOTE]
      >
-     ><span class="preview">If the description is long, you can click it to display the full description in a pop-up. If you have access to edit the team settings, you can also edit the description directly in the pop-up.</span>
+     >If the description is long, you can click it to display the full description in a pop-up. If you have access to edit the team settings, you can also edit the description directly in the pop-up.
 
 1. Click **Create**.
