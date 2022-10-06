@@ -134,14 +134,17 @@ You can use both built-in Workfront fields and custom fields that you already cr
    > 
    >* Hover over an expression in your calculation to see a description, an example showing how it can be used, and a "Learn More" link to more information in the article [Calculated data expressions](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
    >  ![](assets/hover-expression-help-text.jpg)
+   
    >* Use the color coding to identify the components you have added. Expressions display in blue and fields display in green.
    >  ![](assets/colors-fields-expressions.jpg)
+
    >* Find calculation errors, highlighted in pink, as you go. You can hover over a highlighted error to display a brief description of its cause.
    >  ![](assets/error-help.png) 
-   >  **NOTE**: This functionality is currently unavailable.
+
    >* In the area below your calculation, preview the results on an existing Workfront object.
    ><!--or by providing test values (NOT READY YET; CHANGE THIS SCREENSHOT WHEN IT IS)-->
    >  ![](assets/preview-calc.jpg)
+
    >* Reference expressions in a long calculation using the line numbers that display on the left.
 
 1. Click **Minimize** when you are finished creating the calculation for the calculated custom field.
@@ -289,4 +292,4 @@ Calculated custom fields on an object recalculate automatically when the followi
 
    >[!NOTE]
    >
-   ><div class="preview">In a custom form attached to an object, date and time statements in calculated custom fields are calculated and saved by Coordinated Universal Time (UTC), not by the time zone configurations set for your organization's instance and your user profile. Calculations in a custom form generate based on each users' individual time zones.</div>
+   ><div>In a custom form attached to an object, date and time statements in calculated custom fields are calculated and saved by Coordinated Universal Time (UTC), not by the time zone configurations set for your organization's instance and your user profile. Calculations in a custom form generate based on each users' individual time zones.</div>
