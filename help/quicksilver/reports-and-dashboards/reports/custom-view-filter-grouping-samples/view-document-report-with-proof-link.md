@@ -10,10 +10,6 @@ exl-id: a38c5e86-9789-41ca-a832-2ee5eb0a570b
 ---
 # View: document report with link to a proof
 
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this is tagged for QS only >> not possible in classic) </p>
--->
-
 In this document view, you can insert a link to a proof of the current version of the document.
 
 ![](assets/view-document-with-proof-link-350x92.png)
@@ -61,21 +57,13 @@ To apply this view:
 
    ```
    displayname=Proof Link
-   ```
 
-   ```
    shortview=true
-   ```
 
-   ```
    textmode=true
-   ```
 
-   ```
    valueexpression=CONCAT("https://Your domain.my.workfront.com/document/",{currentVersion}.{ID},"/proof/",{currentVersion}.{proofID},"/view")
-   ```
 
-   ```
    valueformat=HTML
    ```
 
@@ -83,16 +71,13 @@ To apply this view:
    >
    >Replace "Your domain" with your actual Workfront domain. For example, if your company's Workfront url is *Company.my.workfront.com*, your domain is "Company."
 
-1. Click&nbsp;**Save**, then&nbsp;**Save View**.
+1. Click **Save**, then **Save View**.
 1. Type a name for the view, then click **Save View**.
 1. (Optional) To ensure you display only documents with proofs, add a filter by doing the following:
 
    1. Click the **Filter** drop-down menu, then click **New Filter**.
-   1. Click **Add a Filter Rule** and start typing Current Version, then select **Current Version Proof ID** when it displays in the list.
+   1. Click **Add a Filter Rule** and start typing Proof Owner, then select **Proof Owner ID** when it displays in the list.
    1. Select **Is Not Blank** for the filter modifier.
-
-      ![](assets/filter-current-version-proof-id-not-blank-350x67.png)
-
-   1. Click **Save Filter**, type the name of the filter, then click&nbsp;**Save Filter**.
+   1. Click **Save Filter**, type the name of the filter, then click **Save Filter**.
 
 1. Click the link in the Proof Link column to access the proof of the last version of the document.

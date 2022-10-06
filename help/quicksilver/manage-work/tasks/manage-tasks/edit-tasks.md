@@ -17,9 +17,6 @@ exl-id: 572c6008-3a67-47ae-8f5d-6b871ef1f37b
 </div>
 -->
 
-<!--take preview and production references out at release-->
-
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> 
 
 You can edit information on tasks that you have created, or that you have Contribute or Manage permissions to.
 
@@ -592,12 +589,12 @@ You can define default custom forms to be automatically attached to tasks when t
 
 You can edit a limited amount of information in the task header.
 
-<span class="preview">Your system or group administrator can customize the fields you see in the task header. For more information, see [Customize object headers using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).</span>
+Your system or group administrator can customize the fields you see in the task header. For more information, see [Customize object headers using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).
 
 
 ![](assets/qs-task-header-without-approvals-and-with-dependecies-350x17.png)
 
-<span class="preview">The following fields are included in the project header, by default:</span>
+The following fields are included in the project header, by default:
 
 * Task name
 * Percent complete

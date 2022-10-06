@@ -38,7 +38,7 @@ For information about assigning work in bulk using the Workload Balancer, see [A
 
 The following enhancements have been added to the Workload Balancer, in preparation for the deprecation of the Scheduling tools:  
 
-* Work-license users can now adjust allocations  
+* Work-license users can now adjust allocations when using the Workload Balancer of a project  
 
 * Issues display in the Unassigned Work area when enabling the "Include hours from issues" setting 
 

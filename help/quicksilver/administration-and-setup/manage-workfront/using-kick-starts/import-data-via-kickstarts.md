@@ -438,9 +438,10 @@ The Kick-Start import supports the following file types:
 * Legacy Excel (&#42;.xls)
 * Zipped (&#42;ZIP) xlsx or xls file
 
-  A zipped file is necessary only when importing an Excel spreadsheet that references documents, avatars, or view, filter, or grouping property files.
+   >[!NOTE]
+   >
+   >You must use a ZIP file when importing Excel spreadsheets that reference reports; documents; avatars; or view, filter, or grouping property files. When using a zipped import file, the &#42;ZIP file must have the same name as the &#42;.xlsx or &#42;.xls file, and all contents must be at the same file structure level (no folders).
 
-  When using a zipped import file, the &#42;ZIP file must have the same name as the &#42;.xlsx or &#42;.xls file, and all contents must be at the same file structure level (no folders).
 
 To import the template spreadsheet data into Workfront:
 

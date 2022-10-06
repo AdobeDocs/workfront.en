@@ -9,8 +9,6 @@ exl-id: 1449374a-ab0d-4c98-83cd-4e511467633a
 ---
 # Edit issues
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span>
-
 You can edit information on issues that you have created, or that other users have created if they shared the issues with you.
 
 You can edit a single issue or you can edit issues in a list. For information about editing issues in a list, see [Edit issues in a list](../../../manage-work/issues/manage-issues/edit-issues-in-a-list.md).
@@ -33,7 +31,9 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Access level*</td> 
-   <td> <p>Edit access to Issues</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information about access to issues in your Access Level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md" class="MCXref xref">Grant access to issues</a>. For information on how a Workfront administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>. </p> </td> 
+   <td> <p>Edit access to Issues</p> <p><b>NOTE</b> 
+   
+   If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information about access to issues in your Access Level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md" class="MCXref xref">Grant access to issues</a>. For information on how a Workfront administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>. </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -211,8 +211,30 @@ You can edit an issue using the Edit Issue or Issue Details areas. The following
      </tr> 
      <tr> 
       <td role="rowheader">Resolved By</td> 
-      <td> <p>This shows whether the issue is resolved by another object. You can select whether this issue is resolved by a task, a project, or another issue from the drop-down menu, then start typing the name of the task, project, or issue that will resolve the issue. Select it when it appears in the list.<br></p> <p>Note:  When you select an object to resolve an issue, the issue status is linked to the status of the resolving object and cannot be changed on the issue. For more information about resolving objects, see <a href="../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md" class="MCXref xref">Overview of Resolving and Resolvable Objects </a>.</p> </td> 
+      <td> <p>This shows whether the issue is resolved by another object. You can select whether this issue is resolved by a task, a project, or another issue from the drop-down menu, then start typing the name of the task, project, or issue that will resolve the issue. Select it when it appears in the list.</p> 
+      
+      <b>NOTE</b>
+          
+      When you select an object to resolve an issue, the issue status is linked to the status of the resolving object and cannot be changed on the issue. For more information about resolving objects, see <a href="../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md" class="MCXref xref">Overview of Resolving and Resolvable Objects </a>. 
+      
+      <b>TIP</b>
+
+      When your system or group administrator adds the "Resolved By" field to an issue custom header, the field changes to "Resolving Issue", "Resolving Task", or "Resolving Project" when there is a resolving object associated with the issue.
+
+      You cannot edit this field when it displays in the issue header. For more information about customizing issue headers, see <a href="../../../administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md">Customize object headers using a layout template </a>
+      </td> 
+     </tr>
+
+     <tr> 
+      <td role="rowheader">Resolving Issue, Resolving Task, or Resolving Project</td> 
+      <td>The linked name of the issue, task, or issue that resolves the issue.  </td> 
      </tr> 
+      <tr> 
+      <td role="rowheader">This Resolves</td> 
+      <td>The linked name of the issue which completes when the issue you are accessing is resolved.  </td> 
+     </tr> 
+
+
     </tbody> 
    </table>
 
@@ -331,11 +353,11 @@ You can edit an issue using the Edit Issue or Issue Details areas. The following
 
 You can edit a limited amount of information in the issue header. 
 
-<span class="preview">Your system or group administrator can customize the fields you see in the issue header. For information, see [Customize object headers using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).</span>
+Your system or group administrator can customize the fields you see in the issue header. For information, see [Customize object headers using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).
 
 ![](assets/issue-header-350x19.png)
 
-<span class="preview">The following fields are included in the issue header, by default:</span>
+The following fields are included in the issue header, by default:
 
 * Issue name
 * Percent complete

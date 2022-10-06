@@ -21,8 +21,6 @@ exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
 </div>
 -->
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> 
-
 You can edit a project in Adobe Workfront as often as needed. We recommend that you edit projects minimally after they become Current, to avoid confusion by sending out notifications about the changes to the entire project team. You should ideally edit a project when the project is in Planning status. For information about the Project Team, see [Project Team overview](../../../manage-work/projects/planning-a-project/project-team-overview.md).
 
 ## Access requirements
@@ -255,7 +253,7 @@ Some settings mentioned in this article might be modified from their default sta
 
    >[!TIP]
    >
-   >   <span class="preview">When updating the Project Owner, Project Sponsor, and Resource Manager fields, notice the avatar, the user's Primary Role, or their email address to distinguish between users with identical names. Users must be associated with at least one job role to view it as you add them.</span>
+   >   When updating the Project Owner, Project Sponsor, and Resource Manager fields, notice the avatar, the user's Primary Role, or their email address to distinguish between users with identical names. Users must be associated with at least one job role to view it as you add them.
 
 1. (Optional) Continue editing the following sections, depending on the information you want to modify. 
 
