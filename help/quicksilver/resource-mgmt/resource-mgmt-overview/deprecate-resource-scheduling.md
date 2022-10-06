@@ -11,8 +11,6 @@ exl-id: 7fa644cd-cf6a-40f8-ae28-bf222bb45d3f
 ---
 # Deprecation of Resource Scheduling tools in Adobe Workfront
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> 
-
 We are currently in the process of deprecating all Scheduling tools from Adobe Workfront and replacing them with the Workload Balancer.
 
 >[!IMPORTANT]
@@ -73,8 +71,8 @@ The following is a tentative timeline for the deprecation process of Resource Sc
 
 ### 2022.4 release (October 2022) 
 
-* No defects will be prioritized for a fix during the 2022.4 release
-* All Scheduling areas are removed from Workfront after the 2022.4 release 
+* No defects will be prioritized for a fix during or after the 2022.4 release
+* All Scheduling areas are removed from Workfront shortly after the 2022.4 release 
 * The Workload Balancer is the only resource scheduling tool available in Workfront
 
 ## Feature availability {#feature-availability}
@@ -206,16 +204,16 @@ In addition to existing features, the Workload Balancer has or will have new fun
    <td>&nbsp;</td> 
   </tr> 
   <tr>
-   <td><span class="preview">Work-license users can adjust user allocations</span> </td> 
+   <td>Work-license users can adjust user allocations when accessing the Workload Balancer from a project </td> 
    <td>✓</td> 
-   <td><span class="preview">✓</span></td> 
+   <td>✓</td> 
    <td></td> 
    <td></td> 
   </tr> 
   <tr> 
-   <td><span class="preview">Display issues in the Unassigned Work area</span></td> 
+   <td>Display issues in the Unassigned Work area</td> 
    <td>✓</td> 
-   <td><span class="preview">✓</span></td> 
+   <td>✓</td> 
    <td></td> 
    <td></td> 
   </tr> 
