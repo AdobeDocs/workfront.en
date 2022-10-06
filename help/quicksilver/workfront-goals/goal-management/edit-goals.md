@@ -9,6 +9,8 @@ exl-id: 74db534c-6897-40c2-bea9-a9d30a40f61c
 ---
 # Edit goals in Adobe Workfront Goals
 
+<!--edits drafted for the new design in this document:https://docs.google.com/document/d/1mRjC95sBSrpxa2X97UtitcSTDT3-Msi5gp0S8-PvLNQ/edit# -->
+
 You can edit existing goals from any time period and in any status.
 
 ## Access requirements
@@ -33,7 +35,9 @@ You must have the following:
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Goals or higher</p> <p>Note:  <p>If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see:</p> 
+   <td> <p>Edit access to Goals or higher</p> <p><b>NOTE</b>
+   
+   <p>If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see:</p> 
      <ul> 
       <li> <p><a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a> </p> </li> 
       <li> <p><span href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md"><a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md" class="MCXref xref">Grant access to Adobe Workfront Goals</a></span> </p> </li> 
@@ -50,7 +54,7 @@ You must have the following:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+*To find out what plan, license type, or access you have, contact your Workfront administrator.
 
 ## Prerequisites
 
@@ -111,7 +115,7 @@ You must have the following before you can start:
 
    >[!TIP]
    >
-   >We recommend that everyone in your organization selects the same time frames for similar goals or goals that are aligned. This provides better alignment between goals and ensures that everyone's work supports your over-arching strategy.
+   >We recommend that everyone in your organization selects the same time frames for similar goals or goals that are aligned. This provides better alignment between goals and ensures that everyone's work supports your larger organization-wide strategy.
 
 1. Click the **Owner** field and select a new owner for the goal, if you want to indicate someone else as the owner of the goal. 
 1. (Conditional)&nbsp;Start typing the name of a user, team, group, or the name of your organization in the **Owner** field, then select it when it displays in the list. You can have only one owner for a goal. 

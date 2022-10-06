@@ -52,10 +52,6 @@ You must have the following access to perform the steps in this article:
 
 1. Click ![Details icon](assets/checklist-chevron.png) to open the Checklist Item Details box.
 
-   >[!NOTE]
-   >
-   >Checklist item details are available only via the early feature opt-in. For details, see [Early feature opt-in for Adobe Workfront Boards](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md).
-
    ![Checklist Item Details box](assets/checklist-item-details.png)
 
 1. (Optional) Add a description, assignees, due date, and estimation hours for the checklist item.
@@ -66,11 +62,8 @@ You must have the following access to perform the steps in this article:
 
    The assignees and due date appear on the item.
 
-1. To copy an item (only available with the early feature opt-in), click the **More** menu ![More menu](assets/more-icon-spectrum.png) on the item and select **Copy**.
-1. To delete a checklist item:
-
-   * When the early feature opt-in is not used, click the **Delete** icon ![Delete icon](assets/delete.png).
-   * When the early feature opt-in is in use, click the **More** menu ![More menu](assets/more-icon-spectrum.png) on the item and select **Delete**.
+1. To copy an item, click the **More** menu ![More menu](assets/more-icon-spectrum.png) on the item and select **Copy**.
+1. To delete a checklist item, click the **More** menu ![More menu](assets/more-icon-spectrum.png) on the item and select **Delete**.
 
 ## Complete checklist items
 
@@ -87,10 +80,6 @@ You must have the following access to perform the steps in this article:
 
    You can clear the check box if you need to add the item back to the list.
 
-   Sample image when the early feature opt-in is not used:
-   ![Completed checklist item](assets/boards-completedchecklistitem-350x192.png)
-
-   Sample image when the early feature opt-in is in use:
    ![Completed checklist item](assets/checklist-items-with-chevron.png)
 
 1. Click **Close** to return to the board.

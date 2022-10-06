@@ -43,7 +43,9 @@ You must have the following:
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Goals</p> <p>Note:  <p>If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see:</p> 
+   <td> <p>Edit access to Goals</p> <p><b>NOTE</b> 
+   
+   <p>If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see:</p> 
      <ul> 
       <li> <p><a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a> </p> </li> 
       <li> <p><span href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md"><a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md" class="MCXref xref">Grant access to Adobe Workfront Goals</a></span> </p> </li> 
@@ -60,7 +62,7 @@ You must have the following:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+*To find out what plan, license type, or access you have, contact your Workfront administrator.
 
 ## Prerequisites
 
@@ -72,7 +74,7 @@ You must have the following before you can start:
 >
 >A goal cannot have more than a total of 50 activities, results, or aligned goals.
 
-## Align two goals to one another
+## Align two goals by connecting them to one another
 
 1. Create two goals that you want to align. For information about creating goals, see [Create goals in Adobe Workfront Goals](../../workfront-goals/goal-management/create-goals.md).
 1. (Optional)&nbsp;Activate the goals that you want to align.&nbsp;You can align goals that have a Draft, Active, or Inactive status. For information about activating goals, see [Activate goals in Adobe Workfront Goals](../../workfront-goals/goal-management/activate-goals.md).
@@ -92,7 +94,7 @@ You must have the following before you can start:
 
    ![](assets/goal-1-and-2-aligned-cards-350x427.png)
 
-1. (Optional) To view the goals in the Goal Alignment section, do one of the following:&nbsp;
+1. (Optional) To view the goals in the Goal Alignment section, do one of the following:
 
    * Click the Goal Alignment section in the left panel and find the goals by applying the correct filter. For information about filtering information in&nbsp;Workfront Goals, see [Filter information in Adobe Workfront Goals](../../workfront-goals/goal-management/filter-information-wf-goals.md).
    * Click the Goal List, Check-in, or Pulse sections in the left panel and find one of the goals, then click the **Alignment icon** ![](assets/align-icon.png) next to the goal name to go directly to the goal in the Goal Alignment section.

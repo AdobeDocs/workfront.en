@@ -9,10 +9,6 @@ exl-id: e4293d4a-afb8-48ef-8a8e-6fad2ef82a25
 ---
 # Unassign work in the Workload Balancer
 
-<!--remove production and preview preferences at release-->
-
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> 
-
 You can unassign users from work items in the Assigned Work area of the Adobe Workfront Workload Balancer, or reassign them to other users, roles, or teams.
 
 You can unassign users from work items manually, by dragging and dropping, or in bulk. This article describes how to unassign users manually.
@@ -35,12 +31,14 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Plan, in the Production environment</p>
-   <p><span class="preview">Work, in the Preview environment</span> </p> </td> 
+   <td> <p>Plan, when using the Workload Balancer for a team or in the Resourcing area </p>
+   <p>Work, when using the Workload Balancer of a project </p>
+
+ </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to&nbsp;the following:</p> 
+   <td> <p>Edit access to the following:</p> 
     <ul> 
      <li> <p>Resource Management</p> </li> 
      <li> <p>Projects</p> </li> 

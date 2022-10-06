@@ -23,7 +23,7 @@ The Workfront extension is supported for the 2017 versions (and newer) of the fo
 
   >[!NOTE]
   >
-  >We recommend using the new [Adobe Workfront for Photoshop](../../workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/workfront-for-photoshop.md) plugin.
+  >We recommend using the new [Adobe Workfront for Photoshop](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-ps.md) plugin.
 
 The extension is supported for both Adobe Cloud and desktop applications.
 

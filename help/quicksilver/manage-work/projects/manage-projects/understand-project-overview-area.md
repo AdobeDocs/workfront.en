@@ -14,8 +14,6 @@ exl-id: 6113bc62-18f2-4558-bc2f-986b1e7d1a83
 <p>(NOTE: some information in here is duplicated in Edit projects. If you need to update one of the fields in this area, do it in both places.)</p>
 -->
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> 
-
 You can view or edit the information of a project by accessing the Overview area of the Project Details section. There is a limited number of fields that you can view or edit in this area. For information about editing all information for a project see [Edit projects](../../../manage-work/projects/manage-projects/edit-projects.md).
 
 ## Access requirements
@@ -150,7 +148,7 @@ You must have the following access to perform the steps in this article:
 
    >[!TIP]
    >
-   ><span class="preview">When updating the Project Owner, Project Sponsor, and Resource Manager fields, notice the avatar, the user's Primary Role, or their email address to distinguish between users with identical names. Users must be associated with at least one job role to view it as you add them.</span>
+   >When updating the Project Owner, Project Sponsor, and Resource Manager fields, notice the avatar, the user's Primary Role, or their email address to distinguish between users with identical names. Users must be associated with at least one job role to view it as you add them.
 
 
 1. Review the following fields in the Overview section.&nbsp;You cannot edit the following fields: 
