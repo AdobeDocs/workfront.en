@@ -10,9 +10,9 @@ exl-id: 04b09d8f-71bf-4c5b-b2f3-09c714740969
 
 This page provides information about functionality that is included in the 22.4 release.
 
-These enhancements are currently available in the Preview environment and will be made available in the Production environment with the 22.4 release later this year. As the 22.4 release nears its planned Production release, this page will be updated with all functionality included with 22.4.
+These enhancements are currently available in the Preview environment and will be made available in the Production environment with the 22.4 release the week of October 3, 2022. As the 22.4 release nears its planned Production release, this page will be updated with all functionality included with 22.4.
 
-For specific release dates and times for each cluster, see the [Adobe Workfront status page](https://status.adobe.com/en/products/5943) on [status.adobe.com](http://status.adobe.com/). You must log in to see specific release times.
+For specific release dates and times for each cluster, see the [Adobe Workfront status page](https://status.adobe.com/products/503490) on [status.adobe.com](http://status.adobe.com/). You must log in to see specific release times.
 
 ## Adobe Workfront enhancements
 
@@ -46,7 +46,7 @@ For specific release dates and times for each cluster, see the [Adobe Workfront 
                 </tr>            
 <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Use unlocked statuses in an approval processes
-</a><span style="color: #ff0000;"> Coming soon to Production!</span></p> <p>This feature was removed from the 22.3 Production release. This feature is planned to release to Production at a future time.</p> 
+</a></p> <p>This feature was removed from the 22.3 Production release. This feature is planned to release to Production at a future time.</p> 
 <p>To give you more control over the approval processes and statuses in your system, we've made it possible to create an approval process based on an unlocked system status. Moreover, you can now unlock any status that is already used in an approval process. Previously, a system status used in an approval process had to be locked. This made it available for all groups—without the possibility of removing or renaming it—so group administrators couldn't streamline their group's list of statuses to fit their specific needs.</p>   
    </td> 
     <td> <p><b>Available on these dates:</b> </p> 
@@ -67,7 +67,7 @@ For specific release dates and times for each cluster, see the [Adobe Workfront 
                                 <p>Preview release: N/A<br /></p>
                             </li>
                             <li>
-                                <p>Production release: With the 22.4 release</p>
+                                <p>Production release: With the 22.4 release <span style="color: #ff0000;">This migration has been postponed to mid to late-October. Any affected customers will be notified at that time. </span></p>
                             </li>
                         </ul>
                     </td>
@@ -206,7 +206,8 @@ Note: This functionality is not currently available in the Workload Balancer in 
                     <td>
                         <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Smart user selection for project roles in the Edit and Details areas</a> </p>
                         <p>We have improved the way users display when you add them to the Project Owner, Project Sponsor, and Resource Manager project fields from the Edit box and the Details section of the project.</p>
-                        <p>Now, when you add a user to any of these fields in the Edit or Details areas, in addition to their name and avatar, we also display their Primary Role and their email. This helps distinguish between multiple users with similar or identical names.</p>
+                        <p>Now, when you add a user to any of these fields in the Edit or Details areas, in addition to their name and avatar, their Primary Role and their email also display. This helps distinguish between multiple users with similar or identical names.</p>
+                        <p><b>NOTE:</b> Additional user fields for projects, tasks, and issues will be updated with this functionality in future releases as patches. For information about these patch updates, see <a href="https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=en" class="MCXref xref" xrefformat="{para}">Maintenance Updates</a>.</p>
                     </td>
                     <td><b>Available on these dates:</b>
                         <ul>
@@ -446,7 +447,7 @@ Note: This functionality is not currently available in the Workload Balancer in 
                 <tr>
                     <td>
                         <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Estimation field added to cards</a> </p>
-                        <p>A new Estimation field on both ad hoc and connected cards allows you to enter the estimated number of hours for the card to be completed. This is a manual entry, not a calculated value, and the value can't be more than 99. The estimate is displayed on the card on the board as well as in the card details.</p>
+                        <p>A new Estimation field on both ad hoc and connected cards allows you to enter the estimated number of hours for the card to be completed. This is a manual entry, not a calculated value, and the value can't be more than 99. The estimate is displayed on the card on the board and in the card details.</p>
                     </td>
                     <td>
                         <p><b>Available on these dates:</b>
@@ -485,7 +486,7 @@ Note: This functionality is not currently available in the Workload Balancer in 
                 <tr>
                     <td>
                         <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-resource-management-enhancements.md" class="MCXref xref" xrefformat="{para}">Show all users for the Workload Balancer of a project</a></p>
-                        <p>To allow you to have visibility into all users in the system and their capacity without leaving the Workload Balancer of a project, we have added a “Show all users” option. When enabled, the project's Workload Balancer displays all the users in the system in the Assigned Work area. With this enhancement, you can easily identify who needs to be assigned to work listed in the Unassigned Work area.</p>
+                        <p>To allow you to have visibility into all users in the system and their capacity without leaving the Workload Balancer of a project, we have added a "Show all users" option. When enabled, the project's Workload Balancer displays all the users in the system in the Assigned Work area. With this enhancement, you can easily identify who needs to be assigned to work listed in the Unassigned Work area.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
                      <p>
@@ -503,7 +504,7 @@ Note: This functionality is not currently available in the Workload Balancer in 
                 <tr>
                     <td>
                         <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-resource-management-enhancements.md" class="MCXref xref" xrefformat="{para}">Show all users with a selected job role in the Workload Balancer when assigning work in bulk</a></p>
-                        <p>To make it easier to find the right person when replacing job roles with users in the Workload Balancer in bulk, we have improved the way the list of available users populates. Now, you can view all users in the system that can fulfil the selected role in two separate areas in the same list of users:</p>
+                        <p>To make it easier to find the right person when replacing job roles with users in the Workload Balancer in bulk, we have improved the way the list of available users populates. Now, you can view all users in the system that can fulfill the selected role in two separate areas in the same list of users:</p>
                         <ul>
                             <li>
                                 <p>The first area (Suggested Assignments) displays users identified by the Smart Assignments logic.<br /></p>
@@ -533,7 +534,7 @@ Note: This functionality is not currently available in the Workload Balancer in 
                         <p>The following enhancements have been added to the Workload Balancer, in preparation for the deprecation of the Scheduling tools:</p>
                         <ul>
                             <li>
-                                <p>Work-license users can now adjust allocations<br /></p>
+                                <p>Work-license users can now adjust allocations when using the Workload Balancer of a project<br /></p>
                             </li>
                             <li>
                                 <p>Issues display in the Unassigned Work area when enabling the "Include hours from issues" setting.</p>
@@ -589,6 +590,22 @@ Note: This functionality is not currently available in the Workload Balancer in 
                         </ul>
                     </td>
                 </tr>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Adobe Workfront for InDesign</a> <span style="color: #ff0000;"> New in Production!</span> </p>
+                        <p>This plugin is now available to install in InDesign. It allows you to access work item details, collaborate with coworkers in the Updates area, and submit proofs for review–all without leaving XD. Head over to the Adobe Creative Cloud marketplace to download the plugin today. </p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                        <ul>
+                            <li>
+                                <p>Preview release: N/A<br /></p>
+                            </li>
+                            <li>
+                                <p>Production release: October 6, 2022</p>
+                            </li>
+                        </ul>
+                    </td>
                 </tr>
                 <tr>
                     <td>
@@ -693,10 +710,15 @@ The following features will be removed with the 22.4 release to Production:
 
 * Resource Scheduler
 
-  The Workload Balancer is replacing the Resource Scheduler. For more information about the deprecation and how you can prepare to use the Workload Balancer, see the following resources:
-  * [Deprecation of Resource Scheduling tools in Adobe Workfront](/help/quicksilver/resource-mgmt/resource-mgmt-overview/deprecate-resource-scheduling.md)
+>[!NOTE]
+>
+>The deprecation of Resource Scheduler has been postponed until soon after the 22.4 release.
+  
+The Workload Balancer is replacing the Resource Scheduler. For more information about the deprecation and how you can prepare to use the Workload Balancer, see the following resources:
+  
+* [Deprecation of Resource Scheduling tools in Adobe Workfront](/help/quicksilver/resource-mgmt/resource-mgmt-overview/deprecate-resource-scheduling.md)
 
-  * [Migrate from Resource Scheduling to the Workload Balancer](/help/quicksilver/resource-mgmt/resource-mgmt-overview/migrate-resource-scheduling-to-workload-balancer.md)
+* [Migrate from Resource Scheduling to the Workload Balancer](/help/quicksilver/resource-mgmt/resource-mgmt-overview/migrate-resource-scheduling-to-workload-balancer.md)
 
 * Zoom integration
 

@@ -14,29 +14,6 @@ The Tasks in flight visualization shows how many tasks (within the applied filte
 
 ![](assets/tasks-in-flight-possible-replacement-350x104.png)
 
-The Tasks in flight plan visualization shows the following task details:
-
-* **Planned task duration**: The length of a task bar indicates the planned duration, which is based on the task's start date and completion date.
-
-  ![](assets/tasks-in-flight-duration-350x80.png)
-
-* **Work effort completed**: The dark blue color within a task bar indicates the amount of work completed for a task. This completion percentage displays to the right of the task bar.
-
-  ![](assets/tasks-in-flight-dark-blue-350x35.png)
-
-* **Work effort remaining**: The light blue color within a task bar indicates the amount of work that needs to be completed for a task.
-
-  ![](assets/tasks-in-flight-light-blue-350x35.png)
-
-This information can help you determine:
-
-* Where work effort has been focused.
-* Which tasks could be putting a project at risk.
-* How close a task is to completion.
-* Who you need to talk to about a specific task.
-
-To learn how to get the best data for this visualization, see [Enhanced analytics overview](../enhanced-analytics/enhanced-analytics-overview.md).
-
 ## Access requirements
 
 You must have the following:
@@ -68,7 +45,32 @@ You must have the following:
 
 ## Prerequisites
 
-For prerequisites to using Enhanced Analytics, see [Prerequisites](../enhanced-analytics/enhanced-analytics-overview.md#prerequi) in [Enhanced analytics overview](../enhanced-analytics/enhanced-analytics-overview.md).
+For prerequisites to using Enhanced Analytics, see the "Prerequisites" section in [Enhanced analytics overview](../enhanced-analytics/enhanced-analytics-overview.md).
+
+## Understand the Tasks in flight visualization
+
+The Tasks in flight plan visualization shows the following task details:
+
+* **Planned task duration**: The length of a task bar indicates the planned duration, which is based on the task's start date and completion date.
+
+  ![](assets/tasks-in-flight-duration-350x80.png)
+
+* **Work effort completed**: The dark blue color within a task bar indicates the amount of work completed for a task. This completion percentage displays to the right of the task bar.
+
+  ![](assets/tasks-in-flight-dark-blue-350x35.png)
+
+* **Work effort remaining**: The light blue color within a task bar indicates the amount of work that needs to be completed for a task.
+
+  ![](assets/tasks-in-flight-light-blue-350x35.png)
+
+This information can help you determine:
+
+* Where work effort has been focused.
+* Which tasks could be putting a project at risk.
+* How close a task is to completion.
+* Who you need to talk to about a specific task.
+
+To learn how to get the best data for this visualization, see [Enhanced analytics overview](../enhanced-analytics/enhanced-analytics-overview.md).
 
 ## View the Tasks in flight visualization
 

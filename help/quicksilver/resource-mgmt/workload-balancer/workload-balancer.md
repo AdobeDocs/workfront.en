@@ -41,4 +41,4 @@ For information about what the Workload Balancer is, how to navigate it, and how
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../resource-mgmt/workload-balancer/what-if-scenarios-balancer.md" class="MCXref xref" xrefformat="{para}">Perform 'what-if' scenarios in the Workload Balancer</a> </li>
   -->
 
-* [Update work items in the Workload Balancer using the Summary in the new Adobe Workfront experience](../../resource-mgmt/workload-balancer/update-items-in-summary-panel-in-workload-balancer.md)
+* [Update work items in the Workload Balancer using the Summary](../../resource-mgmt/workload-balancer/update-items-in-summary-panel-in-workload-balancer.md)

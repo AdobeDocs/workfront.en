@@ -10,7 +10,6 @@ exl-id: 88029c9d-b588-4d33-801a-04f49b12a6e8
 ---
 # Locate the Workload Balancer
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> 
 
 You can use the Workload Balancer to schedule resources for work or review their availability and current allocations.
 
@@ -47,7 +46,9 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Plan </p> </td> 
+   <td> <p>Plan, when using the Workload Balancer for a team or in the Resourcing area </p>
+   <p>Work, when using the Workload Balancer of a project </p>
+ </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level*</td> 
@@ -83,8 +84,8 @@ The following sections illustrate where you can access the Workload Balancer wit
 
     The Workload Balancer displays the following by information in the Resourcing area, by default:
 
-    * In the Unassigned Work area: No unassigned work items. 
-    * In the Assigned Work area: All active users in the system.  
+    * **Unassigned Work**: No unassigned work items. 
+    * **Assigned Work**: All active users in the system.  
 
       We recommend using filters when displaying users in the Assigned Work area. For more information, see [Filter information in the Workload Balancer](../workload-balancer/filter-information-workload-balancer.md). 
 
@@ -99,8 +100,8 @@ The following sections illustrate where you can access the Workload Balancer wit
 
     The Workload Balancer of a team displays the following information, by default:
 
-    * In the Unassigned Work area: Items assigned to the team and not assigned to users. 
-    * In the Assigned Work area: All members of the team with all their assignments. 
+    * **Unassigned Work**: Items assigned to the team and not assigned to users. 
+    * **Assigned Work**: All members of the team with all their assignments. 
     
       >[!TIP]
       >
@@ -120,12 +121,12 @@ The following sections illustrate where you can access the Workload Balancer wit
 
     The Workload Balancer of a project displays the following by information, by default:
 
-    * In the Unassigned Work area: Items from the project that are assigned to job roles or teams and are not assigned to users.  
-    * In the Assigned Work area: Users assigned to items on the project. 
+    * **Unassigned Work**: Items from the project that are assigned to job roles or teams and are not assigned to users.  
+    * **Assigned Work**: Users assigned to items on the project. 
 
       >[!TIP]
       >
-      ><span class="preview">You can display all users in the system instead of only the ones on the project (in the Assigned Work area) by enabling the Show all users option. For information, see [Navigate the Workload Balancer](../workload-balancer/navigate-the-workload-balancer.md)</span>.
+      >You can display all users in the system instead of only the ones on the project (in the Assigned Work area) by enabling the Show all users option. For information, see [Navigate the Workload Balancer](../workload-balancer/navigate-the-workload-balancer.md).
 
 
 ## Add the Workload Balancer to a custom section
@@ -147,7 +148,7 @@ Most customizations that you have already applied to the Workload Balancer are p
       (NOTE: ensure this stays correct)
       -->
 
-1. Create a custom tab as described in [Create custom tabs or sections](../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md) to place the dashboard on the custom tab.
+1. Create a custom section as described in [Create custom tabs or sections](../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md) to place the dashboard on the custom tab.
 
    When accessing the Workload Balancer from the custom section, you can view it as if you were accessing it directly from one of its original areas listed in Step 1. 
 

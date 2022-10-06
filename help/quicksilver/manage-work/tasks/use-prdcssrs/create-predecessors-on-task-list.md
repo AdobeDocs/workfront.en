@@ -9,8 +9,6 @@ exl-id: a84d88ac-8dd4-4952-b83f-02fafa61e68b
 ---
 # Create a predecessor relationship on the task list
 
-{{highlighted-preview}}
-
 You can use predecessor tasks (or just predecessors) to link tasks that depend on other tasks to start or complete. For example, you would not want to host a party (dependent task) before you send out the invitations (predecessor task).
 
 This article shows you how to create predecessors on the task list.
@@ -68,13 +66,11 @@ You must have the following access to perform the steps in this article:
 
    For more information about the relationship types available in the Predecessors column, see [Overview of task predecessors](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md) in [Overview of task predecessors](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md).
 
-## View predecessor details (available only in the Preview environment)
+## View predecessor details
 
-<span class="preview">You can quickly view details about the predecessor from the task list.</span>
+You can quickly view details about the predecessor from the task list.
 
-1. <span class="preview">On the task list, hover over the predecessor number in the **Predecessors** column.</span>
-
-   <div class="preview">
+1. On the task list, hover over the predecessor number in the **Predecessors** column.
 
    A box with the details of the predecessor displays.
 
@@ -95,5 +91,3 @@ You must have the following access to perform the steps in this article:
    **Number of predecessors:** The number of predecessors for the predecessor being referenced. In the above example, the predecessor being referenced has 1 predecessor.
 
    **Number of successors:** The number of successor (or dependent) tasks for the predecessor being referenced. In the above example, the predecessor being referenced has 1 successor.
-
-   </div>

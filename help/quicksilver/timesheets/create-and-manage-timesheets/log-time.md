@@ -126,9 +126,10 @@ You can log general hours or project-specific hours on a timesheet.
 
    The item is removed from the timesheet after you refresh the page.
   
-1. (Conditional) If your Workfront administrator has enabled the **Assign job roles to hour entries manually** setting, select a job role from the drop-down menu. The role specified when you are assigned to the work item displays by default. If you are not assigned a role on the object, your Primary Role displays as the default. For more information on this setting, see the article [Configure timesheet and hour preferences](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+1. (Conditional) If your Workfront or group administrator has enabled the **Assign job roles to hour entries manually** setting, select a job role from the drop-down menu. The role specified when you are assigned to the work item displays by default. If you are not assigned a role on the object, your Primary Role displays as the default. For more information on this setting, see the article [Configure timesheet and hour preferences](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
    ![Log time for multiple roles in timesheet](assets/job-role-plus-sign-and-boxes-in-redesigned-timesheet.png)
+
 
 1. Click the **delete** icon  ![](assets/delete.png) next to the job role to remove it. Any time logged for the role is also removed. 
 
@@ -145,6 +146,12 @@ You can log general hours or project-specific hours on a timesheet.
    ![Log time box in timesheet](assets/log-time-with-blue-hightlight-redesigned-timesheet.png)
 
    You log time in either hours or days. This setting is configured by users with a Plan license or the system administrator, as described in [Configure whether time is logged in hours or days](../../timesheets/config-timesheet-prefs/config-time-logged-hrs-days.md).
+
+   >[!IMPORTANT]
+   >
+   >If a job role for which you logged time has changed and the **Assign job roles to hour entries manually** setting has been disabled, you must manually save your time entries. The timesheet will again save your time automatically only when there is no longer any time logged for the job role that has changed. 
+   >
+   >If the role has changed and the **Assign job roles to hour entries manually** setting is enabled, you can log time or update the role and your changes are saved automatically. 
 
 1. (Optional) Specify the amount of overtime in the Overtime field in the timesheet's header. 
 
@@ -212,7 +219,7 @@ To log time on a work item from the Home area:
 
 1. In the **Enter Hours** drop-down menu, select the appropriate hour type.  
    Hour types are available depending on what has been defined at the system, project, and user levels, as described in [Define hour types and availability for timesheets](../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md).
-1. (Conditional) If your Workfront administrator has enabled the **Assign job roles to hour entries manually** setting, select a job role from the drop-down menu. The role specified when you are assigned to the work item displays by default. If you are not assigned a role on the object, your Primary Role displays as the default. For more information on this setting, see the article [Configure timesheet and hour preferences](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+1. (Conditional) If your Workfront or group administrator has enabled the **Assign job roles to hour entries manually** setting, select a job role from the drop-down menu. The role specified when you are assigned to the work item displays by default. If you are not assigned a role on the object, your Primary Role displays as the default. For more information on this setting, see the article [Configure timesheet and hour preferences](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 1. Specify the time you want to log, then click **Log Time**.
 
 ### Project, task, or issue {#project-task-or-issue}
@@ -267,7 +274,7 @@ To log time on a project, task, or issue:
 
      Depending on what hour types are configured in your system, the options here might vary. For more information about configuring hour types, see [Define hour types and availability for timesheets](../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md).
 
-   * **Job Role**: (Conditional) If your Workfront administrator has enabled the **Assign job roles to hour entries manually** setting, select a **Job Role** from the drop-down menu. The Role specified when you are assigned to the object displays by default. If you are not assigned a Role on the object, your Primary Role displays as the default. For more information on this setting, see the article [Configure timesheet and hour preferences](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+   * **Job Role**: (Conditional) If your Workfront or group administrator has enabled the **Assign job roles to hour entries manually** setting, select a **Job Role** from the drop-down menu. The Role specified when you are assigned to the object displays by default. If you are not assigned a Role on the object, your Primary Role displays as the default. For more information on this setting, see the article [Configure timesheet and hour preferences](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
      ![Screen_Shot_2017-05-03_at_10.16.52_AM.png](assets/screen-shot-2017-05-03-at-10.16.52-am-350x346.png)
 
