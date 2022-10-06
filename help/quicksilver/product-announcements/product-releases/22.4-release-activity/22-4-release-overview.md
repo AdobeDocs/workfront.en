@@ -593,6 +593,58 @@ Note: This functionality is not currently available in the Workload Balancer in 
                 </tr>
                 <tr>
                     <td>
+                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Adobe Workfront for InDesign</a> <span style="color: #ff0000;"> New in Production!</span> </p>
+                        <p>This plugin is now available to install in InDesign. It allows you to access work item details, collaborate with coworkers in the Updates area, and submit proofs for review–all without leaving XD. Head over to the Adobe Creative Cloud marketplace to download the plugin today. </p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                        <ul>
+                            <li>
+                                <p>Preview release: N/A<br /></p>
+                            </li>
+                            <li>
+                                <p>Production release: October 6, 2022</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                <tr>
+                    <td>
+                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Sync object metadata with the native Experience Manager Assets integration</a> <span style="color: #ff0000;"> New in Preview!</span> </p>
+                        <p>Now, Workfront portfolio, program, project, task, issue, and document fields update automatically when the field is changed in Workfront.</p>
+                        <p>To allow object metadata to sync automatically, you must enable the Sync object metadata toggle for your integrations in Setup > Experience Manager integrations.</p>
+                        <p>Previously, only project fields updated automatically.</p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                        <ul>
+                            <li>
+                                <p>Preview release: October 6, 2022<br /></p>
+                            </li>
+                            <li>
+                                <p>Production release: TBD</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Metadata pushes for program and portfolio parent objects</a> <span style="color: #ff0000;"> New in Preview!</span> </p>
+                        <p>Now, when an asset is first sent to Experience Manager Assets or Assets Essentials, any metadata configured to map for program and portfolio parent objects is sent as well.</p>
+                        <p>Previously, only parent project data was sent.</p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                        <ul>
+                            <li>
+                                <p>Preview release: October 6, 2022<br /></p>
+                            </li>
+                            <li>
+                                <p>Production release: TBD</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
                         <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Workfront Campaigns (Beta)</a> </p>
                         <p>We are introducing a new object to Adobe Workfront that has the potential to change the way you manage work. </p>
                         <p>Workfront Campaigns enables you to organize projects from different portfolios and programs in a new work container.
