@@ -107,6 +107,10 @@ To create a connection for your Adobe Target modules:
         </td>
       </tr>
       <tr>
+        <td role="rowheader">Meta Scopes</td>
+        <td>Enter <code>ent_marketing_sdk</code>       </td>
+      </tr>
+      <tr>
         <td role="rowheader">Private key</td>
         <td>
           <p>Enter the private key that was generated when your credentials were created in the Adobe Developer Console. </p>

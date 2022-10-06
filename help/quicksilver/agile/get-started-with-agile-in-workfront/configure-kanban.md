@@ -93,7 +93,7 @@ To define the statuses that are available for the story board associated with th
 
 >[!NOTE]
 >
->This setting is temporarily unavailable in the new Workfront Experience while in beta.
+>This setting is temporarily unavailable while in beta.
 
 When you add fields to story cards, fields are view-only and display-only when the field is populated.
 

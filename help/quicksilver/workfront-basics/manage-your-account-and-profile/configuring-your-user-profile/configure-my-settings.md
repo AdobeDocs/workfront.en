@@ -343,7 +343,7 @@ You can change any of the following in this sub-section:
   </tr> 
   <tr> 
    <td role="rowheader"><strong>(Conditional) Automatically generate proofs when uploading documents</strong></td> 
-   <td>Select this field to start generating a proof immediately after the document is loaded into Workfront. This field is disabled by default.<br>This field is available only if your company has purchased the Workfront Proof component for Workfront and if you are enabled as a proof user. For more information about Workfront Proof, see <a href="../../../review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proofs-in-wf.md" class="MCXref xref">Manage proofs within Adobe Workfront</a>.</td> 
+   <td>Select this field to start generating a proof immediately after the document is loaded into Workfront. This field is disabled by default and can be updated only by a Workfront administrator.<br>This field is available only if your company has purchased the Workfront Proof component for Workfront and if you are enabled as a proof user. For more information about Workfront Proof, see <a href="../../../review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proofs-in-wf.md" class="MCXref xref">Manage proofs within Adobe Workfront</a>.</td> 
   </tr> 
  </tbody> 
 </table>
@@ -387,7 +387,7 @@ You can change any of the following in this sub-section:
   --> 
   <tr> 
    <td role="rowheader"><strong>(Conditional) User can generate proofs (... out of ... proof licenses left)</strong></td> 
-   <td>This field is available only if your company uses a legacy Workfront plan and has purchased the Workfront Proof component. When it is selected, you are enabled as a proofing user. It also displays the number of proof licenses used in your system out of the total number of proof licenses purchased. This field is visible and editable&nbsp;only to users who are also Workfront administrators. For more information about the plan options for proofing in Workfront, see .</td> 
+   <td>This field is available only if your company uses a legacy Workfront plan and has purchased the Workfront Proof component. When it is selected, you are enabled as a proofing user. It also displays the number of proof licenses used in your system out of the total number of proof licenses purchased. This field is visible and editable only to users who are also Workfront administrators. For more information about the plan options for proofing in Workfront, see <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md">Access to proofing functionality in Workfront</a>.</td>
   </tr> 
   <tr> 
    <td role="rowheader"><strong>(Conditional) Permission Profile</strong></td> 

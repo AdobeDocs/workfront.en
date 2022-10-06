@@ -1,15 +1,13 @@
 ---
 product-area: resource-management
 navigation-topic: the-workload-balancer
-title: Manage filters in the Workload Balancer
+title: Filter information in the Workload Balancer
 description: 'NOTE: when they add custom fields to filtering, add the caveat you added for the Resource Planner : only field NAMES and not LABELS are to be found in the drop-down &gt;&gt; ADD THIS IN THE STEP BELOW WHEN ADDING A FILTER)'
 author: Alina
 feature: Resource Management
 exl-id: f8ffb40e-4e71-45fe-bcae-801d45d75a21
 ---
-# Manage filters in the Workload Balancer
-
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> 
+# Filter information in the Workload Balancer
 
 <!--
 (when they add custom fields to fitlering, add the caveat you added for the Resource Planner : only field NAMES and not LABELS are to be found in the drop-down >> ADD THIS IN THE STEP BELOW WHEN ADDING A FILTER)
@@ -20,7 +18,12 @@ As a resource manager, you can use the Workload Balancer to view and manage the 
 * [Overview of the Workload Balancer](../../resource-mgmt/workload-balancer/overview-workload-balancer.md) 
 * [Navigate the Workload Balancer](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md)
 
-To efficiently find work items and to focus on the users you manage, we strongly recommend that you use filters in the Workload Balancer. This allows you to display the correct information before you start managing the assignments of your resources.
+>[!IMPORTANT]
+>
+>To efficiently find work items and to focus on the users or items you manage, we strongly recommend that you use filters in the Workload Balancer. This allows you to display the correct information before you start managing the assignments of your resources.
+>
+>When you save and apply a new filter then navigate away from the Workload Balancer, the filter is preserved even after you log off and log back on. 
+
 
 This article contains information about filters in the Workload Balancer. For information about filters in Workfront, see [Filters overview in Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
@@ -40,7 +43,9 @@ You must have the following:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Plan or higher</p> </td> 
+   <td> <p>Plan, when using the Workload Balancer for a team or in the Resourcing area </p>
+   <p>Work, when using the Workload Balancer of a project </p>
+ </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level*</td> 
@@ -73,7 +78,6 @@ Consider the following when working with filters in the Workload Balancer:
 * When you apply a filter without saving it, you can revert to the original lists by refreshing your page. 
 * You can view filters you created or filters that other users created and shared with you. 
 * When you delete or edit a shared filter, the filter is also deleted or edited for everyone with whom it is shared. 
-* When you save and apply a new filter then navigate away from the Workload Balancer, the filter is preserved even after you log off and log back on. 
 * When you create filters in the Workload Balancer in one area, they are not available in other areas. 
 
   For example, filters created in the Resourcing area are not available in the Workload Balancer of a project or a team.
@@ -122,7 +126,7 @@ Depending on where you access the Workload Balancer from, the Unassigned and Ass
    <td> <p>Unassigned work items or items assigned to teams or job roles in the selected project display in this area.</p> </td> 
    <td> <p>Users that are assigned to at least one work item on the selected project and their work items on the selected project or on other projects that match the timeline selected on the screen.</p> 
    <b>NOTE</b>
-   <p class="preview">You can enable the Show all users option in the Workload Balancer of a project to display all users in the system. For more information, see <a href="../workload-balancer/navigate-the-workload-balancer.md" class="MCXref xref">Navigate the Workload Balancer</a></p> 
+   <p>You can enable the Show all users option in the Workload Balancer of a project to display all users in the system. For more information, see <a href="../workload-balancer/navigate-the-workload-balancer.md" class="MCXref xref">Navigate the Workload Balancer</a></p> 
    
    </td> 
   </tr> 

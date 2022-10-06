@@ -3,7 +3,7 @@ product-area: reporting
 navigation-topic: reporting-elements
 title: 'Reporting elements: filters, views, and groupings'
 description: The main elements that every list and report must have in Workfront are a filter, a view, and a grouping. Each element provides different information within any report.
-author: Nolan
+author: Lisa
 feature: Reports and Dashboards
 exl-id: 5697905e-42c0-403b-85d4-798a1a3a2e7f
 ---
