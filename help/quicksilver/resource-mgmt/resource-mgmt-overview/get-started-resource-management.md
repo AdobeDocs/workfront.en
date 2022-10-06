@@ -18,10 +18,6 @@ exl-id: b10ef503-60ea-4450-b63e-b2918e9bcc11
 -->
 
 
-<!--remove production and preview preferences at release-->
-
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> 
-
 Resource Management allows you to configure your system to accurately forecast the use of your resources based on their availability so that the work that must be done is completed on time and on budget.
 
 ## Overview of Resource Management in Adobe Workfront
@@ -135,17 +131,17 @@ The following users have access to the Resource Management tools in Workfront:
 You must be one of the following users and have the following access and permissions to access resource management tools:
 
 * The system administrator.
-* A user with a Plan license, in the Production environment.  
+* A user with a Plan license.  
   
-  <span class="preview">A user with a Work license</span>, in the Preview environment. (Work-license users cannot access the Utilization report.)
+  A user with a Work license can use the Workload Balancer of a project and manage assignments and allocations.
 
-  In addition to having a <span class="preview">Work</span> or higher license, you must have the following to use specific resource management tools:
+  In addition to having a Work or higher license, you must have the following to use specific resource management tools:
 
-   * Edit access to Resource Management <span class="preview">(not needed for making assignments in the Workload Balancer)</span>
+   * Edit access to Resource Management (not needed for making assignments in the Workload Balancer)
    * Edit access to Financial Data to display Cost information in the Resource Planner
    * View access to Financial Data to view Cost and Revenue information in the Utilization Report (only users with a Plan license)
 
-* <span class="preview">Contribute or higher</span> permissions that includes Make Assignments on the projects you want to manage resources for.  
+* Contribute or higher permissions that includes Make Assignments on the projects you want to manage resources for.  
 * Designated as a Resource Manager for projects to use the Scheduling tool (the Scheduling tool is deprecated).
 
   >[!TIP]

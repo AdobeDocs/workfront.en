@@ -60,34 +60,38 @@ The following table outlines major features of boards along with their current r
   </tr>
   <tr>
    <td>Add Work in Progress limits to columns</td>
-   <td>Partially released</td>
+   <td>Released</td>
   </tr>
   <tr>
    <td>Add manual estimations on cards</td>
-   <td>Partially released</td>
+   <td>Released</td>
   </tr>
   <tr>
    <td>Add a team to a board or a card</td>
-   <td>Partially released</td>
+   <td>Released</td>
   </tr>
   <tr>
    <td>Add checklist item details</td>
-   <td>Partially released</td>
+   <td>Released</td>
   </tr>
   <tr>
    <td>Updated filters</td>
-   <td>Partially released</td>
+   <td>Released</td>
   </tr>
   <tr>
    <td>Add an intake column</td>
-   <td>Partially released</td>
+   <td>Released</td>
   </tr>
   <tr>
    <td>Group cards on a board</td>
-   <td>Planned for 22.4 release; not part of the early feature opt-in</td>
+   <td>Released</td>
   </tr>
   <tr>
    <td>Filter connected cards by project</td>
+   <td>Planned</td>
+  </tr>
+  <tr>
+   <td>Define card falloff</td>
    <td>Planned</td>
   </tr>
  </tbody> 

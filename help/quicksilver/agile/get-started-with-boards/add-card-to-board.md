@@ -61,7 +61,7 @@ An ad hoc card is not connected to a work item in Adobe Workfront.
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Assignees</strong> </td> 
-      <td> <p>To assign the card, start typing a name in the search field, then select it when it displays in the list. You can add both individuals and teams, and you can assign more than one person or team to a card.</p> <p>Assignees must be members on the board or they will not appear in the selection list. When a team is a member on the board, then the individual team members can be assigned to the card.</p> <p>Adding a team is available only via the early feature opt-in. For details, see <a href="/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md">Early feature opt-in for Adobe Workfront Boards</a>.</p> </td>
+      <td> <p>To assign the card, start typing a name in the search field, then select it when it displays in the list. You can add both individuals and teams, and you can assign more than one person or team to a card.</p> <p>Assignees must be members on the board or they will not appear in the selection list. When a team is a member on the board, then the individual team members can be assigned to the card.</p></td>
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Column</strong> </td> 
@@ -73,7 +73,7 @@ An ad hoc card is not connected to a work item in Adobe Workfront.
      </tr>
      <tr> 
       <td role="rowheader"><strong>Estimation</strong></td> 
-      <td><p>Type the estimated number of hours for the card to be completed. This is a manual entry only and cannot be more than 99.</p> <p>This field is available only via the early feature opt-in. For details, see <a href="/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md">Early feature opt-in for Adobe Workfront Boards</a>.</p></td>
+      <td><p>Type the estimated number of hours for the card to be completed. This is a manual entry only and cannot be more than 99.</p></td>
      </tr>
      <tr> 
       <td role="rowheader"><strong>Due date</strong></td> 
@@ -81,7 +81,7 @@ An ad hoc card is not connected to a work item in Adobe Workfront.
      </tr>
      <tr> 
       <td role="rowheader"><strong>Tags</strong></td> 
-      <td>Search for and select tags for the card.<br>For information on creating new tags, see <a href="../../agile/get-started-with-boards/add-tags.md" class="MCXref xref">Add tags</a>.</td> 
+      <td>Search for and select tags for the card. For information on creating new tags, see <a href="../../agile/get-started-with-boards/add-tags.md" class="MCXref xref">Add tags</a>.</td> 
      </tr>  
      <tr> 
       <td role="rowheader"><strong>Checklist Items</strong> </td> 

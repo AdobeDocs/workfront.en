@@ -10,6 +10,7 @@ exl-id: 88029c9d-b588-4d33-801a-04f49b12a6e8
 ---
 # Locate the Workload Balancer
 
+
 You can use the Workload Balancer to schedule resources for work or review their availability and current allocations.
 
 You can access the Workload Balancer in the following ways:
@@ -17,9 +18,11 @@ You can access the Workload Balancer in the following ways:
 * From several areas predefined by Adobe Workfront 
 * By adding it to a custom  section
 
+This article describes the areas where you can access the Workload Balancer. 
+
 >[!NOTE]
 >
->Regardless of the method you use to access the Workload Balancer, navigating it and managing resources is identical. 
+>Regardless of the method you use to access the Workload Balancer, navigating it, and managing resources is identical. 
 >
 >For information about the Workload Balancer and how to use it for managing and scheduling your resources for work, see the following articles: 
 >
@@ -43,7 +46,9 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Plan </p> </td> 
+   <td> <p>Plan, when using the Workload Balancer for a team or in the Resourcing area </p>
+   <p>Work, when using the Workload Balancer of a project </p>
+ </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level*</td> 
@@ -53,7 +58,9 @@ You must have the following access to perform the steps in this article:
      <li> <p>Projects</p> </li> 
      <li> <p>Tasks</p> </li> 
      <li> <p>Issues</p> </li> 
-    </ul> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+    </ul> <p><b> NOTE</b> 
+    
+  If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -62,45 +69,67 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+*To find out what plan, license type, or access you have, contact your Workfront administrator.
 
-## Locate the Workload Balancer in predefined areas
+## Access the Workload Balancer in predefined areas
 
-The following sections illustrate where you can access the Workload Balancer within Workfront, as well as the functionality available in each area.
+The following sections illustrate where you can access the Workload Balancer within Workfront.
 
-You can manage resources in the following predefined areas in Workfront:
+### Access the Workload Balancer for multiple projects in the Resourcing area
 
-For multiple projects:
+1. Click the **Main menu** icon ![](assets/main-menu-icon.png), then click **Resourcing**. 
+1. Click **Workload Balancer** in the left panel. 
+  
+    ![](assets/nwe-balancer-global-350x154.png)
 
-* In the Workload Balancer section the Resourcing area. The Workload Balancer is the default setting.
+    The Workload Balancer displays the following by information in the Resourcing area, by default:
 
-  You can make resourcing assignments and adjust allocations across multiple projects that you have permissions to edit.
+    * **Unassigned Work**: No unassigned work items. 
+    * **Assigned Work**: All active users in the system.  
 
-  ![](assets/nwe-balancer-global-350x154.png)
+      We recommend using filters when displaying users in the Assigned Work area. For more information, see [Filter information in the Workload Balancer](../workload-balancer/filter-information-workload-balancer.md). 
 
-For a team:
+### Access the Workload Balancer for a team
 
-* From the Workload Balancer section of a team.
+1. Click the **Main menu** icon ![](assets/main-menu-icon.png), then click Teams. 
+  Your Home Team's page displays. 
+  
+    The Workload Balancer for the team displays by default.
 
-  You can adjust allocations and review or assign work from multiple projects to individual team members.
+    ![](assets/nwe-balancer-team-350x172.png)
 
-  ![](assets/nwe-balancer-team-350x172.png)
+    The Workload Balancer of a team displays the following information, by default:
 
-For a project:
+    * **Unassigned Work**: Items assigned to the team and not assigned to users. 
+    * **Assigned Work**: All members of the team with all their assignments. 
+    
+      >[!TIP]
+      >
+      >Team members might be assigned to work also assigned to the team or to work assigned to other teams or roles.  
 
-* In the Workload Balancer section of a project. The Workload Balancer is the default setting.
 
-  You can do the following when you use the&nbsp;Workload Balancer within a project:
 
-   * Assign work on the project to users already assigned other work on the project.
-   * Assign work to any user that might not be on the project.
+### Access the Workload Balancer for a project
+  
+1. Click the **Main menu** icon ![](assets/main-menu-icon.png), then click **Projects**.
+1. Click the name of a project to open the project page. 
+1. Click **Workload Balancer** in the left panel. You might have to click **Show More**, then **Workload Balancer**. 
 
-   * View additional work that users are assigned to on other projects.
-   * Adjust user allocations to work items.
+    The Workload Balancer for the project displays.
 
-  ![](assets/nwe-balancer-project-350x152.png)
+    ![](assets/nwe-balancer-project-350x152.png) 
 
-## Add the&nbsp;Workload Balancer to a custom section
+    The Workload Balancer of a project displays the following by information, by default:
+
+    * **Unassigned Work**: Items from the project that are assigned to job roles or teams and are not assigned to users.  
+    * **Assigned Work**: Users assigned to items on the project. 
+
+      >[!TIP]
+      >
+      >You can display all users in the system instead of only the ones on the project (in the Assigned Work area) by enabling the Show all users option. For information, see [Navigate the Workload Balancer](../workload-balancer/navigate-the-workload-balancer.md).
+
+
+## Add the Workload Balancer to a custom section
 
 You can add the Workload Balancer to any custom  section.
 
@@ -108,7 +137,7 @@ Most customizations that you have already applied to the Workload Balancer are p
 
 1. Access the Workload Balancer by going to any of the following areas:
 
-   * The  Resourcing area
+   * The Resourcing area
    * A team 
    * A project
 
@@ -119,12 +148,30 @@ Most customizations that you have already applied to the Workload Balancer are p
       (NOTE: ensure this stays correct)
       -->
 
-1. Create a custom tab as described in [Create custom tabs or sections](../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md) to place the dashboard on the custom tab.
+1. Create a custom section as described in [Create custom tabs or sections](../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md) to place the dashboard on the custom tab.
 
-   When accessing the Workload Balancer from the custom tab, you can view it as if you were accessing it directly from one of its original areas listed in Step 1. 
+   When accessing the Workload Balancer from the custom section, you can view it as if you were accessing it directly from one of its original areas listed in Step 1. 
 
    <!--
       (NOTE: ensure this stays correct)
      -->
 
 1. (Optional) Share the custom tab in a Layout Template as described in  [Customize the left panel using a layout template](../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md) .
+
+
+<!--
+For a team:
+
+* From the Workload Balancer section of a team.
+
+  You can adjust allocations and review or assign work from multiple projects to individual team members.
+
+For a project:
+
+  You can do the following when you use the Workload Balancer within a project:
+
+   * Assign work on the project to users already assigned other work on the project.
+   * Assign work to any user that might not be on the project.
+
+   * View additional work that users are assigned to on other projects.
+   * Adjust user allocations to work items.-->
