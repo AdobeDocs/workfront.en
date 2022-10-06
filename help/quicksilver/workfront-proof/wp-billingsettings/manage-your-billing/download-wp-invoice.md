@@ -2,28 +2,28 @@
 product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: manage-your-billing-workfront-proof
-title: Downloading Your Workfront Proof Invoice
+title: Downloading Your [!DNL Workfront] Proof Invoice
 description: On the first day of a new billing period, your subscription invoice is sent to the main Billing contact on your account and to the Billing CC email address, if you have one defined.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 6bfb82b8-f127-4dac-a1cf-7c7962a86e48
 ---
-# Downloading Your Workfront Proof Invoice
+# Downloading Your [!DNL Workfront] Proof Invoice
 
 >[!IMPORTANT]
 >
->This article refers to functionality in the standalone product Workfront Proof. For information on proofing inside Adobe Workfront, see [Proofing](../../../review-and-approve-work/proofing/proofing.md).
+>This article refers to functionality in the standalone product [!DNL Workfront] Proof. For information on proofing inside [!DNL Adobe Workfront], see [Proofing](../../../review-and-approve-work/proofing/proofing.md).
 
 On the first&nbsp;day of a new billing period, your subscription invoice is sent to the main Billing contact on your account and to the Billing CC email address, if you have one defined.
 
-The invoice also appears in the Billing section of your Workfront Proof account, available for download. See [The Workfront Proof Billing Page](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md) if you need more information.
+The invoice also appears in the [!UICONTROL Billing] section of your [!DNL Workfront] Proof account, available for download. See [The [!DNL Workfront] Proof Billing Page](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md) if you need more information.
 
 You will find the following information on your invoice:
 
 * Company name and address
 * Date of the invoice
 * Payment terms & due date
-* The details of your Workfront Proof plan (proof, user and storage limits)
+* The details of your [!DNL Workfront] Proof plan (proof, user and storage limits)
 * PO number (if provided)
 * Ship to address (if provided)
 * Price of the plan
@@ -38,20 +38,20 @@ You will find the following information on your invoice:
 
 We issue all our automatic invoices for the subscriptions in USD by default, but for all UK organizations we include the Value-Added Tax (VAT) amount (in both USD and sterling) in the documents. If you want to receive your subscription invoices entirely in GBP, please contact our Finance team at [finance@proofhq.com](mailto:finance@proofhq.com).
 
-* [Downloading Your Invoice](#downloading-your-invoice) 
+* [Downloading Your Invoice](#downloading-your-invoice)
 * [Useful Links](#useful-links)
 
 ## Downloading Your Invoice {#downloading-your-invoice}
 
 1. Click **Settings** > **Billing**.
 
-1. In the **Billing History** section of the Billing page that appears, click the dropdown menu at the right of the invoice, then select **Download PDF Invoice**.  
+1. In the **Billing History** section of the Billing page that appears, click the dropdown menu at the right of the invoice, then select **Download PDF Invoice**.
 
 1. Services invoices (for example, for your Success Start program, Custom landing pages) are currently not available on your Billing page. If you need copies of these documents, please contact our Finance team at finance@proofhq.com.
 
 ## Useful Links {#useful-links}
 
-To change the billing information on your account, go to the Billing contact and address section of the Billing page.&nbsp;See [The Workfront Proof Billing Page](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)
+To change the billing information on your account, go to the Billing contact and address section of the Billing page.&nbsp;See [The [!DNL Workfront] Proof Billing Page](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)
 
 For information on how to change the credit card details on your account, see [Choosing Your Payment Method in Workfront Proof](../../../workfront-proof/wp-billingsettings/manage-your-billing/choose-payment-method-in-wp.md).
 

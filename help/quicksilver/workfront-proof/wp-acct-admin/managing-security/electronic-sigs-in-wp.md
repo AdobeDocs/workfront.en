@@ -3,17 +3,17 @@ content-type: overview
 product-previous: workfront-proof
 product-area: documents;system-administration;user-
 navigation-topic: manage-security-workfront-proof
-title: Understanding electronic signatures in Workfront Proof
+title: Understanding electronic signatures in [!DNL Workfront] Proof
 description: Electronic signatures allow you to enhance security on your proofs and comply with industry standards such as ISO.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: caff2a03-cccc-4779-9dcc-3362c527dcb9
 ---
-# Understanding electronic signatures in Workfront Proof
+# Understanding electronic signatures in [!DNL Workfront] Proof
 
 >[!IMPORTANT]
 >
->This article refers to functionality in the standalone product Workfront Proof. For information on proofing inside Adobe Workfront, see [Proofing](../../../review-and-approve-work/proofing/proofing.md).
+>This article refers to functionality in the standalone product [!DNL Workfront] Proof. For information on proofing inside [!DNL Adobe Workfront], see [Proofing](../../../review-and-approve-work/proofing/proofing.md).
 
 Electronic signatures allow you to enhance security on your proofs and comply with industry standards such as ISO.
 
@@ -37,9 +37,9 @@ The Electronic Signature pop up will show up in the proofing viewer and also on 
 
 ![Electronic_Signature_-_Proof_Details_2.png](assets/electronic-signature---proof-details-2-350x148.png)
 
-If the Single Sign-On option is enabled on the proof, the email and password details will not be displayed in the Electronic Signature pop up when making a decision.
+If the [!UICONTROL Single Sign-On] option is enabled on the proof, the email and password details will not be displayed in the Electronic Signature pop up when making a decision.
 
-Instead, after clicking the Confirm (4) button on this pop up the reviewer will be redirected to the Single Sign-On page.
+Instead, after clicking the [!UICONTROL Confirm] (4) button on this pop up the reviewer will be redirected to the Single Sign-On page.
 
 After entering their SSO credentials the reviewer will automatically be re-directed back to the Proof details page (or back to the Proof Viewer&nbsp;if the decision is made from there).
 
@@ -47,8 +47,8 @@ After entering their SSO credentials the reviewer will automatically be re-direc
 
 >[!NOTE]
 >
->&nbsp;If the decision is electronically signed, the **signature icon** (5) appears next to the decision in the Workflow section on the Proof details page. If the decision is changed not by the reviewer but by another person who has edit rights on the proof, that person will not be asked to electronically sign the decision and there will be no signature icon next to the decision (6).
+>&nbsp;If the decision is electronically signed, the **signature icon** (5) appears next to the decision in the [!UICONTROL Workflow] section on the [!UICONTROL Proof details] page. If the decision is changed not by the reviewer but by another person who has edit rights on the proof, that person will not be asked to electronically sign the decision and there will be no signature icon next to the decision (6).
 
 ![Electronic_Signature_icon.png](assets/electronic-signature-icon-350x52.png)For information single sign-on, see [Single Sign-On in Workfront Proof](../../../workfront-proof/wp-acct-admin/managing-security/single-sign-on-overview.md).
 
-For information about the Proof details page, see [Manage Proof Details in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md).&nbsp;
+For information about the Proof details page, see [Manage Proof Details in [!DNL Workfront] Proof](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md).&nbsp;

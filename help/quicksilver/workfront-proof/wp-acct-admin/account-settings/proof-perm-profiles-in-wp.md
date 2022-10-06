@@ -290,17 +290,17 @@ Administrators and Billing Administrators can edit the permission profiles of al
 
 1. To find the user to edit, do one of the following:&nbsp;
 
-   * Navigate to&nbsp;**Account Settings,**then click the&nbsp;**Users**tab.
+   * Navigate to&nbsp;**Account Settings,**&#x200B;then click the&nbsp;**Users**&#x200B;tab.
    
-   * Go to the&nbsp;**Contacts**page.
+   * Go to the&nbsp;**Contacts**&#x200B;page.
 
-1. Click the user's name whose permissions you want to edit.**** ![](assets/screenshot-2018-03-30-14-16-05a-350x69.png)
+1. Click the user's name whose permissions you want to edit.**&#x200B;** ![](assets/screenshot-2018-03-30-14-16-05a-350x69.png)
 
-1. Click the&nbsp;**Permissions profile**drop-down menu and select a new permission profile. :
+1. Click the&nbsp;**Permissions profile**&#x200B;drop-down menu and select a new permission profile. :
 
    ![Screenshot_2018-03-30_14-18-03.png](assets/screenshot-2018-03-30-14-18-03a.png)
 
-   Permission profiles are&nbsp;Administrator, Supervisor, Manager,&nbsp;and Observer.&nbsp;****
+   Permission profiles are&nbsp;Administrator, Supervisor, Manager,&nbsp;and Observer.&nbsp;**&#x200B;**
 
 1. Click anywhere outside of the menu to save.&nbsp;
 
