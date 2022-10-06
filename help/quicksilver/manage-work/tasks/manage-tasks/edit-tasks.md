@@ -17,9 +17,6 @@ exl-id: 572c6008-3a67-47ae-8f5d-6b871ef1f37b
 </div>
 -->
 
-<!--take preview and production references out at release-->
-
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> 
 
 You can edit information on tasks that you have created, or that you have Contribute or Manage permissions to.
 
@@ -322,11 +319,9 @@ You can edit a task using the Edit Task or Task Details areas. The following ste
    >
    >If the user's name contains a special character, you must include the special character in the search field.
 
-   You can assign multiple users or job roles to a task. You can assign only one team to a task.
-
    >[!TIP]
    >
-   >You can assign multiple users or job roles, and you can assign only one team. You can assign only active users, job roles, and teams.
+   >You can assign multiple users, job roles, or teams. You can assign only active users, job roles, and teams.
    >
    >If a user, job role, or a team was assigned before they were deactivated, they remain assigned to the work item. In this case, we recommend the following: 
    >
@@ -594,12 +589,12 @@ You can define default custom forms to be automatically attached to tasks when t
 
 You can edit a limited amount of information in the task header.
 
-<span class="preview">Your system or group administrator can customize the fields you see in the task header. For more information, see [Customize object headers using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).</span>
+Your system or group administrator can customize the fields you see in the task header. For more information, see [Customize object headers using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).
 
 
 ![](assets/qs-task-header-without-approvals-and-with-dependecies-350x17.png)
 
-<span class="preview">The following fields are included in the project header, by default:</span>
+The following fields are included in the project header, by default:
 
 * Task name
 * Percent complete

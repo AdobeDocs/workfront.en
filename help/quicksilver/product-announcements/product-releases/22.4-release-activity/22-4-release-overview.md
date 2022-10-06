@@ -486,7 +486,7 @@ Note: This functionality is not currently available in the Workload Balancer in 
                 <tr>
                     <td>
                         <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-resource-management-enhancements.md" class="MCXref xref" xrefformat="{para}">Show all users for the Workload Balancer of a project</a></p>
-                        <p>To allow you to have visibility into all users in the system and their capacity without leaving the Workload Balancer of a project, we have added a “Show all users” option. When enabled, the project's Workload Balancer displays all the users in the system in the Assigned Work area. With this enhancement, you can easily identify who needs to be assigned to work listed in the Unassigned Work area.</p>
+                        <p>To allow you to have visibility into all users in the system and their capacity without leaving the Workload Balancer of a project, we have added a "Show all users" option. When enabled, the project's Workload Balancer displays all the users in the system in the Assigned Work area. With this enhancement, you can easily identify who needs to be assigned to work listed in the Unassigned Work area.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
                      <p>
@@ -590,6 +590,22 @@ Note: This functionality is not currently available in the Workload Balancer in 
                         </ul>
                     </td>
                 </tr>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Adobe Workfront for InDesign</a> <span style="color: #ff0000;"> New in Production!</span> </p>
+                        <p>This plugin is now available to install in InDesign. It allows you to access work item details, collaborate with coworkers in the Updates area, and submit proofs for review–all without leaving XD. Head over to the Adobe Creative Cloud marketplace to download the plugin today. </p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                        <ul>
+                            <li>
+                                <p>Preview release: N/A<br /></p>
+                            </li>
+                            <li>
+                                <p>Production release: October 6, 2022</p>
+                            </li>
+                        </ul>
+                    </td>
                 </tr>
                 <tr>
                     <td>
@@ -698,10 +714,11 @@ The following features will be removed with the 22.4 release to Production:
 >
 >The deprecation of Resource Scheduler has been postponed until soon after the 22.4 release.
   
-  The Workload Balancer is replacing the Resource Scheduler. For more information about the deprecation and how you can prepare to use the Workload Balancer, see the following resources:
-  * [Deprecation of Resource Scheduling tools in Adobe Workfront](/help/quicksilver/resource-mgmt/resource-mgmt-overview/deprecate-resource-scheduling.md)
+The Workload Balancer is replacing the Resource Scheduler. For more information about the deprecation and how you can prepare to use the Workload Balancer, see the following resources:
+  
+* [Deprecation of Resource Scheduling tools in Adobe Workfront](/help/quicksilver/resource-mgmt/resource-mgmt-overview/deprecate-resource-scheduling.md)
 
-  * [Migrate from Resource Scheduling to the Workload Balancer](/help/quicksilver/resource-mgmt/resource-mgmt-overview/migrate-resource-scheduling-to-workload-balancer.md)
+* [Migrate from Resource Scheduling to the Workload Balancer](/help/quicksilver/resource-mgmt/resource-mgmt-overview/migrate-resource-scheduling-to-workload-balancer.md)
 
 * Zoom integration
 
