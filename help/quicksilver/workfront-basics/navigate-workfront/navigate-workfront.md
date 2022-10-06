@@ -20,7 +20,7 @@ This section contains the following subsections:
 * [Left navigation in Adobe Workfront](../../workfront-basics/the-new-workfront-experience/simplified-left-navigation.md)
 * [Summary overview](../../workfront-basics/the-new-workfront-experience/summary-overview.md) 
 * [Breadcrumbs overview](../../workfront-basics/the-new-workfront-experience/breadcrumb-overview.md) 
-* [New object headers overview](../../workfront-basics/the-new-workfront-experience/new-object-headers.md) 
+* [Object headers overview](../../workfront-basics/the-new-workfront-experience/new-object-headers.md) 
 * [Pin pages to customize your workspace](../../workfront-basics/the-new-workfront-experience/pin-pages.md) 
 * [Lists in Adobe Workfront](../../workfront-basics/navigate-workfront/use-lists/lists.md) 
 * [Access Adobe Workfront help](../../workfront-basics/navigate-workfront/workfront-navigation/access-workfront-help.md) 
