@@ -593,6 +593,22 @@ Note: This functionality is not currently available in the Workload Balancer in 
                 </tr>
                 <tr>
                     <td>
+                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Adobe Workfront for InDesign</a> <span style="color: #ff0000;"> New in Production!</span> </p>
+                        <p>This plugin is now available to install in InDesign. It allows you to access work item details, collaborate with coworkers in the Updates area, and submit proofs for review–all without leaving XD. Head over to the Adobe Creative Cloud marketplace to download the plugin today. </p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                        <ul>
+                            <li>
+                                <p>Preview release: N/A<br /></p>
+                            </li>
+                            <li>
+                                <p>Production release: October 6, 2022</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
                         <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Workfront Campaigns (Beta)</a> </p>
                         <p>We are introducing a new object to Adobe Workfront that has the potential to change the way you manage work. </p>
                         <p>Workfront Campaigns enables you to organize projects from different portfolios and programs in a new work container.
