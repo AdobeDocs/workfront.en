@@ -18,7 +18,9 @@ This plugin is now available to install in InDesign. It allows you to access wor
 
 For more information about the plugin, see [[!DNL Adobe Workfront] plugin for [!DNL Creative Cloud] Applications](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-cc.md)
 
-[Download Adobe Workfront for InDesign in the marketplace today](https://exchange.adobe.com/apps/cc/108938/adobe-workfront-for-indesign).
+[Download Adobe Workfront for InDesign in the marketplace today](https://exchange.adobe.com/apps/cc/108938/adobe-workfront-for-indesign). 
+
+Administrators can also [create a package with the plugins](https://helpx.adobe.com/in/enterprise/using/manage-extensions.html) from the Admin Console and deploy to users either in a managed or self-managed manner.
 
 ## Expanded team description
 
