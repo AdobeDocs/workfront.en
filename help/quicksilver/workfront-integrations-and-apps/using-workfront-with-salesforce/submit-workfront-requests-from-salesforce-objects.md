@@ -9,8 +9,6 @@ exl-id: 84f8cb15-4840-4fe1-bf60-93bc4283b564
 ---
 # Submit [!DNL Adobe Workfront] requests from [!DNL Salesforce] objects
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span>
-
 After installing [!DNL Adobe Workfront for Salesforce], you can submit [!DNL Workfront] requests from [!DNL Salesforce] Opportunities and Accounts. This functionality exists in both the [!DNL Classic] and [!DNL Lightning Experience] frameworks.
 
 ## Access requirements
@@ -104,7 +102,7 @@ To submit a [!DNL Workfront] request from a [!DNL Salesforce] Opportunity or Acc
 
    * In the [!UICONTROL Details] section of the issue
    * In the Summary panel  when selecting the issue in a list, after clicking [!UICONTROL Open Summary] ![](assets/summary-panel-icon.png) in the list's toolbar.
-   * <span class="preview">In the issue header, when the [!UICONTROL Integrations] field is available. Your system or group administrator must add the [!UICONTROL Integrations] field to your Layout Template to view the Go to Salesforce link in the issue header. For more information, see [Customize object headers using a layout template](../../administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).</span>
+   * In the issue header, when the [!UICONTROL Integrations] field is available. Your system or group administrator must add the [!UICONTROL Integrations] field to your Layout Template to view the Go to Salesforce link in the issue header. For more information, see [Customize object headers using a layout template](../../administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).
 
    >[!NOTE]
    >

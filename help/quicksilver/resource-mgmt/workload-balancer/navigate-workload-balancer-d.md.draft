@@ -1,6 +1,3 @@
-<!-- Yay, no errors, warnings, or alerts! -->
-
-
 # Navigate the Workload Balancer
 
 Use the Workload Balancer in Adobe Workfront to assign work to your users based on their availability. This article describes how you can use settings and options to navigate the Workload Balancer and display the information that is relevant to you. Additional articles listed here describe how you can use the Workload Balancer to manage your resources and their allocation to work. 
@@ -31,8 +28,9 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Plan, in the Production environment</p>
-   <p><span class="preview">Work, in the Preview environment</span> </p> </td> 
+   <td> <p>Plan, when using the Workload Balancer for a team or in the Resourcing area </p>
+   <p>Work, when using the Workload Balancer of a project </p>
+ </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
