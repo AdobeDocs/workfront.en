@@ -2024,7 +2024,7 @@ The following table is a list of commonly used terms in Adobe Workfront:
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Ad hoc"> 
    <td>Team</td> 
-   <td> <p>A collection of users working toward similar goals or business objectives. These users can be collectively assigned to a work item by assigning the team to the work item. You cannot assign more than one team to a work item.</p> <p>For more information on Teams, see <a href="../../../people-teams-and-groups/create-and-manage-teams/teams-overview.md" class="MCXref xref">Teams overview</a>.</p> <p>Projects can have a Project Team, which contains all the users or roles associated with the work on the project.</p> <p>For more information about Project Teams, see <a href="../../../manage-work/projects/planning-a-project/project-team-overview.md" class="MCXref xref">Project Team overview</a></p> </td> 
+   <td> <p>A collection of users working toward similar goals or business objectives. These users can be collectively assigned to a work item by assigning the team to the work item.</p> <p>For more information on Teams, see <a href="../../../people-teams-and-groups/create-and-manage-teams/teams-overview.md" class="MCXref xref">Teams overview</a>.</p> <p>Projects can have a Project Team, which contains all the users or roles associated with the work on the project.</p> <p>For more information about Project Teams, see <a href="../../../manage-work/projects/planning-a-project/project-team-overview.md" class="MCXref xref">Project Team overview</a></p> </td> 
   </tr> <!--
    <tr data-mc-conditions="QuicksilverOrClassic.Draft mode,SnippetConitions_MaturityModel.Ad hoc"> 
     <td>Team Goals</td> 
