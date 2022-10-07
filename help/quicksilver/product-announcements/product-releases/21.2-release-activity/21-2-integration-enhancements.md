@@ -16,7 +16,7 @@ This page describes all Integration enhancements made with the 21.2 release to t
 
 We're excited to announce the launch of our new plugin: Workfront for Adobe XD. This plugin allows you to access work item details, collaborate with coworkers in the Updates area, and submit proofs for review--all without leaving XD. Head over to the Adobe XD marketplace to download the plugin today.
 
-To learn more about what you can do with Workfront for Adobe XD, see [Adobe Workfront for XD](../../../workfront-integrations-and-apps/adobe-workfront-for-xd/wf-adobe-xd.md).
+To learn more about what you can do with Workfront for Adobe XD, see [Manage work with the Adobe Workfront plugin for Creative Cloud Applications](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-manage-work-toc.md).
 
 
 [Watch a video demonstration of this feature.](https://vimeo.com/542233908/c5a5ab87a7)

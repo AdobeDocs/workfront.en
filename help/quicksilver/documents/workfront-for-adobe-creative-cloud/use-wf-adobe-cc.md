@@ -19,7 +19,7 @@ The Workfront&nbsp;Extension is supported for Adobe Creative Cloud 2017 and newe
 
   >[!NOTE]
   >
-  >We recommend using the new [Adobe Workfront for Photoshop](../../workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/workfront-for-photoshop.md) plugin.
+  >We recommend using the new [Adobe Workfront for Photoshop](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-ps.md) plugin.
 
 The following sections describe how to use the Workfront Extension after you have installed it. For information about how to install the extension, see [Install the Workfront Extension for Illustrator and InDesign](../../documents/workfront-for-adobe-creative-cloud/installl-wf-adobe-cc.md).
 

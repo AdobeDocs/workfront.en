@@ -180,9 +180,9 @@ The following table is a list of commonly used terms in Adobe Workfront:
     </ul> <p>For more information, see <a href="../../../workfront-basics/updating-work-items-and-viewing-updates/work-on-it-and-done-buttons-accept-complete-work.md" class="MCXref xref">Work On It and Done button overview</a>. </p> </td> 
   </tr> 
   <tr> 
-   <td><span class="preview">Assignment Teams</span></td> 
+   <td>Assignment Teams</td> 
    <td>
-   <p class="preview">In a task or issue report, this field displays information about the teams assigned to the tasks or issues. The field displays Primary Owners, as well as other teams assigned to tasks or issues. </p></td> 
+   <p>In a task or issue report, this field displays information about the teams assigned to the tasks or issues. The field displays Primary Owners, as well as other teams assigned to tasks or issues. </p></td> 
   </tr> 
   <tr> 
    <td>Assignment Users</td> 
@@ -2024,7 +2024,7 @@ The following table is a list of commonly used terms in Adobe Workfront:
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Ad hoc"> 
    <td>Team</td> 
-   <td> <p>A collection of users working toward similar goals or business objectives. These users can be collectively assigned to a work item by assigning the team to the work item. You cannot assign more than one team to a work item.</p> <p>For more information on Teams, see <a href="../../../people-teams-and-groups/create-and-manage-teams/teams-overview.md" class="MCXref xref">Teams overview</a>.</p> <p>Projects can have a Project Team, which contains all the users or roles associated with the work on the project.</p> <p>For more information about Project Teams, see <a href="../../../manage-work/projects/planning-a-project/project-team-overview.md" class="MCXref xref">Project Team overview</a></p> </td> 
+   <td> <p>A collection of users working toward similar goals or business objectives. These users can be collectively assigned to a work item by assigning the team to the work item.</p> <p>For more information on Teams, see <a href="../../../people-teams-and-groups/create-and-manage-teams/teams-overview.md" class="MCXref xref">Teams overview</a>.</p> <p>Projects can have a Project Team, which contains all the users or roles associated with the work on the project.</p> <p>For more information about Project Teams, see <a href="../../../manage-work/projects/planning-a-project/project-team-overview.md" class="MCXref xref">Project Team overview</a></p> </td> 
   </tr> <!--
    <tr data-mc-conditions="QuicksilverOrClassic.Draft mode,SnippetConitions_MaturityModel.Ad hoc"> 
     <td>Team Goals</td> 
