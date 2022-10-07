@@ -55,7 +55,9 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Projects and Tasks</p> <p>View or higher access to Users</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>Edit access to Projects and Tasks</p> <p>View or higher access to Users</p> <p><b>NOTE</b>
+   
+   If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -64,7 +66,7 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+*To find out what plan, license type, or access you have, contact your Workfront administrator.
 
 ## Considerations for multiple assignments to job roles, teams, and users
 
@@ -73,11 +75,12 @@ Consider the following when assigning multiple resources to a work item:
 * Users can have more than one job role associated with their profile. For information about associating users with job roles, see [Edit a user's profile](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
 * If you assign more than one user to a task or issue, the first one user you select is designated automatically as the owner of the task or issue.
-  For instructions on changing this, see the information about the Make Primary button in the article [Create advanced assignments](create-advanced-assignments.md).
+  For instructions on changing this, see the information about the Make Primary option in the article [Create advanced assignments](create-advanced-assignments.md).
 
-* If a task or an issue is assigned to a team and you also assign a user, the task or issue remains assigned to both the team and the user.
+* A team cannot be a Primary assignee on a task or issue. Only a user or a job role can be designated as a Primary on a task or issue. 
 
-<!-- If a task is assigned to multiple teams, the primary team sees the Work On It button. waiting on team to verify if this is ture -->
+<!-- If a task is assigned to multiple teams, the primary team sees the Work On It button. waiting on team to verify if this is true. (Courtney)
+You cannot make a team be a Primary on a task/ issue. (Alina) -->
 
 * Tasks and issues on a project might be assigned first to one or more teams or job roles. When the project is ready to start, they might need to also be assigned to users:
 
@@ -212,9 +215,6 @@ To assign tasks in a list:
    >[!IMPORTANT]
    >
    >If any of the tasks is already assigned, the resources you indicate here are added to the tasks instead of replacing the existing resources on the tasks. 
-   >
-   >
-   >You can only assign one team to a task. If a team is already assigned to one of the selected tasks and you assign another team to all tasks, the existing team will be replaced.
 
 1. (Optional) Select the radio button in the **Task Owner** column to indicate which resource is the primary assignee or the Owner of the task, when you assign more than one resource to the task. This is not available for teams. 
 1. (Conditional) Specify the **Allocation %** for each resource assigned to the task if all the tasks you selected have a Duration Type of Effort Driven or Calculated Assignment. This indicates how much of their time these resources should spend on completing the task. This is only available for users and job roles.
@@ -254,4 +254,3 @@ To assign tasks in a list:
 -->
 
 
-<a href='mailto:DocumentationTeam@workfront.com?subject=FEEDBACK: Assign tasks'>Send feedback on this help article</a>

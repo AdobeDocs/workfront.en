@@ -16,7 +16,7 @@ You can assign issues to or unassign issues from users, teams, or job roles. You
 >
 >You can assign multiple users, job roles, or teams. You can assign only active users, job roles, and teams.
 >
->If a user, job role, or a team was assigned before they were deactivated, they remain assigned to the work item. In this case, we recommend the following: 
+>If a user, job role, or team was assigned before they were deactivated, they remain assigned to the work item. In this case, we recommend the following: 
 >
 >* Reassign the work item to active resources. 
 >* Associate the users in a deactivated team with an active team and reassign the work item to the active team. 
@@ -33,8 +33,8 @@ Some information in this article also applies to assignments to tasks. For more 
 
 You might want to modify the user assignments for multiple issues for a variety of&nbsp;reasons, including the following:
 
-* Users join or leave&nbsp;your team
-* A user takes a vacation that extends beyond the issue&nbsp;due dates
+* Users join or leave your team
+* A user takes a vacation that extends beyond the issue due dates
 * A specific role or user is set as the assignee for multiple issues and you want to quickly modify all items to be assigned to a different user or role
 
 ## Considerations about removing assignments from issues
@@ -48,4 +48,3 @@ Consider the following when removing assignments from issues:
 * When you unassign a user from an issue, the issue remains assigned to the job role that the user fulfilled on the issue.
 * When you unassign a job role or a team from an issue, the issue remains unassigned if it is not assigned to any other resources.
 
-&nbsp;
