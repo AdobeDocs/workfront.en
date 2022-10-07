@@ -16,7 +16,7 @@ When managing task and issues assignments, you can use smart assignments to iden
 >
 >Smart assignments do not take into account the availability of the user. However, their availability according to their schedules affects the Planned and Projected Dates of tasks and issues when they are assigned. For information about schedules, see the article [Create a schedule](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
 
-This article contains general information about smart assignments.&nbsp;For information about using smart assignments to assign tasks and issues to users, see [Make smart assignments](../../../manage-work/tasks/assign-tasks/make-smart-assignments.md).
+This article contains general information about smart assignments. For information about using smart assignments to assign tasks and issues to users, see [Make smart assignments](../../../manage-work/tasks/assign-tasks/make-smart-assignments.md).
 
 ## Smart assignments overview
 
@@ -79,7 +79,7 @@ Users are recommended in the smart assignments drop-down list based on a combina
      >* If <!--you're not part of any team and --> there is no role or team assigned on the task or issue, Workfront displays all the users assigned for the last 30 days, up to 50 users.
      >* If you have not made any assignments in the past 30 days, only users that belong to either the assigned team or have the role assigned to the work item display in the smart assignments list. 
 
-<!--the commented out piece in the tip above was there but I am not totally sure that smart assignments look at your team. I think they look JUST at the team/ role assigned to the work item; see this help site request for more info: https://experience.adobe.com/#/@adobeinternalworkfront/so:hub-Hub/workfront/issue/62fd222200037eb87572c5b6ad6bf53e/overview -->
+<!--the commented out piece in the tip above was live before but I am not totally sure that smart assignments look at your team. I think they look JUST at the team/ role assigned to the work item; see this help site request for more info: https://experience.adobe.com/#/@adobeinternalworkfront/so:hub-Hub/workfront/issue/62fd222200037eb87572c5b6ad6bf53e/overview -->
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <div>

@@ -9,7 +9,7 @@ exl-id: e2dce29e-7370-4580-8326-99c4437998bf
 ---
 # Assign issues
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.</span>
+<!--drafted for unique identifiers: <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.</span>-->
 
 You can assign issues to users, roles, and teams to indicate who is responsible for completing the issues. For general information about assigning issues, see [Modify issue assignments overview](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md).
 
@@ -17,7 +17,7 @@ You can assign issues to users, roles, and teams to indicate who is responsible 
 >
 >You can assign multiple users, job roles, or teams. You can assign only active users, job roles, and teams.
 >
->If a user, job role, or a team was assigned before they were deactivated, they remain assigned to the work item. In this case, we recommend the following:
+>If a user, job role, or team was assigned before they were deactivated, they remain assigned to the work item. In this case, we recommend the following:
 >
 >* Reassign the work item to active resources.
 >* Associate the users in a deactivated team with an active team and reassign the work item to the active team.
@@ -65,7 +65,7 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+*To find out what plan, license type, or access you have, contact your Workfront administrator.
 
 ## Considerations for multiple assignments to job roles, teams, and users
 
@@ -73,13 +73,13 @@ Consider the following when assigning multiple resources to a work item:
 
 * Users can have more than one job role associated with their profile. For information about associating users with job roles, see [Edit a user's profile](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
-* Tasks or issues are usually first assigned to one or multiple job roles or to a team. When projects are ready to start, they might need to also be assigned to users.   
+* Tasks or issues are usually first assigned to one or multiple job roles or teams. When projects are ready to start, they might need to also be assigned to users.   
   
-  If a task or an issue is assigned to one or multiple roles and then you also assign a user, Adobe Workfront decides which job role to associate with the additional user (if any)&nbsp;according to the following rules:
+  If a task or an issue is assigned to one or multiple roles and then you also assign a user, Adobe Workfront decides which job role to associate with the additional user (if any) according to the following rules:
 
-   * If there is only one job role assigned and it matches the user's Primary Role, then the task or issue is assigned only to the user fulfilling their&nbsp;Primary Role. 
+   * If there is only one job role assigned and it matches the user's Primary Role, then the task or issue is assigned only to the user fulfilling their Primary Role. 
    * If there are multiple roles assigned and at least one of the roles matches the user's secondary roles, then the task or issue is assigned to the user fulfilling one of their Other Roles — which Workfront selects at random if there are multiple matches — as well as any additional roles that are assigned.
-   * If there is one or more job roles assigned and there are no matches to the user's roles, then the task or issue is assigned to both&nbsp;the role or roles as well as to the user.
+   * If there is one or more job roles assigned and there are no matches to the user's roles, then the task or issue is assigned to both the role or roles as well as to the user.
 
 * If a task or an issue is assigned to a team and you also assign a user, the task or issue remains assigned to both the team and the user.
 
@@ -132,11 +132,11 @@ You can assign issues in a list or a report when any of the assignments fields a
 
 Depending on which field is visible in the view you can assign the following entities to the issue: 
 
-| Option |Assignment  |
+| Option |Entities assigned  |
 |---|---|
 | **Assign To** |Assign one user  |
 | **Assigned** |Assign one user |
-| **Assignments** |Assign users, job roles, or a team.  |
+| **Assignments** |Assign users, job roles, or teams.  |
 
 To assign issues in a list:
 
@@ -174,10 +174,7 @@ To assign issues in a list:
    >[!IMPORTANT]
    >
    >If any of the issues is already assigned, the resources you indicate here are added to the issues instead of replacing the existing resources on the issues. 
-   >
-   >
-   >You can only assign one team to an issue. If a team is already assigned to one of the selected issues and you assign another team to all issues, the existing team will be replaced.
-
+   
 1. (Optional) Select the radio button in the **Issue Owner** column to indicate which resource is the primary assignee or the Owner of the issue, when you assign more than one resource to the issue. This is not available for teams. 
 1. (Optional) Select a role that the user should fulfill on the issue from the **Pick a role** drop-down menu in the **Assignee's Role** column when you assign users to issues. If you do not select a role, Workfront automatically selects the user's Primary&nbsp;Role. 
 
