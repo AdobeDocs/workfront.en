@@ -9,15 +9,15 @@ author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: d1aa69e5-f7e5-46d5-814e-e11a999e36db
 ---
-# FAQ: Workfront Proof - US to EMEA migration
+# FAQ: [!UICONTROL Workfront Proof] - US to EMEA migration
 
 >[!IMPORTANT]
 >
->This article refers to functionality in the standalone product [!DNL Workfront] Proof. For information on proofing inside [!DNL Adobe Workfront], see [Proofing](../../../review-and-approve-work/proofing/proofing.md).
+>This article refers to functionality in the standalone product [!DNL Workfront Proof]. For information on proofing inside [!DNL Adobe Workfront], see [Proofing](../../../review-and-approve-work/proofing/proofing.md).
 
 ## How do I know if this change affects my organization?
 
-Workfront is directly contacting all organizations affected by the Workfront Proof US to EMEA migration.
+[!DNL Workfront] is directly contacting all organizations affected by the [!DNL Workfront Proof] US to EMEA migration.
 
 ## Is there anything I need to do to prepare for the migration?
 
@@ -27,13 +27,13 @@ Yes. Before the migration, make sure you add the following to your organization'
 
 ## How long will it take to migrate my account?
 
-For a small period of time, up to two hours, your account will not be accessible while we migrate it to its new location on the EMEA data center. You can find details about the timing of the migration on our [[!DNL Workfront] Status site](http://status.workfront.com/).&nbsp;
+For a small period of time, up to two hours, your account will not be accessible while we migrate it to its new location on the EMEA data center. You can find details about the timing of the migration on our [[!DNL Workfront] Status site](http://status.workfront.com/). 
 
-After the account migration has completed, we will start moving all your files from our US data center to the EMEA data center. While the files are being moved, they will still be accessible on the US data center.&nbsp;This process will take place in the background and will not impact you and your users.
+After the account migration has completed, we will start moving all your files from our US data center to the EMEA data center. While the files are being moved, they will still be accessible on the US data center. This process will take place in the background and will not impact you and your users.
 
-After the migration is complete, you and your users will be able to access files and proofs only from the EMEA data center.&nbsp;
+After the migration is complete, you and your users will be able to access files and proofs only from the EMEA data center. 
 
-## What will happen to the URL I use to access [!DNL Workfront] Proof?
+## What will happen to the URL I use to access [!DNL Workfront Proof]?
 
 This URL will remain unchanged. You will be able to access the [!DNL Workfront] system exactly the way you have done so in the past.
 

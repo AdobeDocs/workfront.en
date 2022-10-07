@@ -2,21 +2,21 @@
 product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: manage-your-billing-workfront-proof
-title: Downloading Your [!DNL Workfront] Proof Invoice
+title: Downloading Your [!DNL Workfront Proof] Invoice
 description: On the first day of a new billing period, your subscription invoice is sent to the main Billing contact on your account and to the Billing CC email address, if you have one defined.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 6bfb82b8-f127-4dac-a1cf-7c7962a86e48
 ---
-# Downloading Your [!DNL Workfront] Proof Invoice
+# Downloading Your [!DNL Workfront Proof] Invoice
 
 >[!IMPORTANT]
 >
->This article refers to functionality in the standalone product [!DNL Workfront] Proof. For information on proofing inside [!DNL Adobe Workfront], see [Proofing](../../../review-and-approve-work/proofing/proofing.md).
+>This article refers to functionality in the standalone product [!DNL Workfront Proof]. For information on proofing inside [!DNL Adobe Workfront], see [Proofing](../../../review-and-approve-work/proofing/proofing.md).
 
-On the first&nbsp;day of a new billing period, your subscription invoice is sent to the main Billing contact on your account and to the Billing CC email address, if you have one defined.
+On the first day of a new billing period, your subscription invoice is sent to the main Billing contact on your account and to the [!UICONTROL Billing CC] email address, if you have one defined.
 
-The invoice also appears in the [!UICONTROL Billing] section of your [!DNL Workfront] Proof account, available for download. See [The [!DNL Workfront] Proof Billing Page](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md) if you need more information.
+The invoice also appears in the [!UICONTROL Billing] section of your [!DNL Workfront Proof] account, available for download. See [The [!DNL Workfront Proof] Billing Page](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md) if you need more information.
 
 You will find the following information on your invoice:
 
@@ -29,12 +29,12 @@ You will find the following information on your invoice:
 * Price of the plan
 * Vat amount (please also see FAQs)
 * Total amount due
-* Workfront Proof bank details
-* Workfront Proof address, company registration number and VAT ID
+* [!DNL Workfront Proof] bank details
+* [!DNL Workfront Proof] address, company registration number and VAT ID
 
 >[!NOTE]
 >
->&nbsp;If the payment for that invoice has already been received (for example, for automated credit card payments), the payment terms and due date will show as paid and a reference number for the payment will appear in the description.
+> If the payment for that invoice has already been received (for example, for automated credit card payments), the payment terms and due date will show as paid and a reference number for the payment will appear in the description.
 
 We issue all our automatic invoices for the subscriptions in USD by default, but for all UK organizations we include the Value-Added Tax (VAT) amount (in both USD and sterling) in the documents. If you want to receive your subscription invoices entirely in GBP, please contact our Finance team at [finance@proofhq.com](mailto:finance@proofhq.com).
 
@@ -43,16 +43,16 @@ We issue all our automatic invoices for the subscriptions in USD by default, but
 
 ## Downloading Your Invoice {#downloading-your-invoice}
 
-1. Click **Settings** > **Billing**.
+1. Click **[!UICONTROL Settings]** > **[!UICONTROL Billing]**.
 
-1. In the **Billing History** section of the Billing page that appears, click the dropdown menu at the right of the invoice, then select **Download PDF Invoice**.
+1. In the **[!UICONTROL Billing History]** section of the Billing page that appears, click the dropdown menu at the right of the invoice, then select **[!UICONTROL Download PDF Invoice]**.
 
-1. Services invoices (for example, for your Success Start program, Custom landing pages) are currently not available on your Billing page. If you need copies of these documents, please contact our Finance team at finance@proofhq.com.
+1. Services invoices (for example, for your [!UICONTROL Success Start] program, Custom landing pages) are currently not available on your Billing page. If you need copies of these documents, please contact our Finance team at finance@proofhq.com.
 
 ## Useful Links {#useful-links}
 
-To change the billing information on your account, go to the Billing contact and address section of the Billing page.&nbsp;See [The [!DNL Workfront] Proof Billing Page](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)
+To change the billing information on your account, go to the Billing contact and address section of the Billing page. See [The [!DNL Workfront] Proof Billing Page](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)
 
 For information on how to change the credit card details on your account, see [Choosing Your Payment Method in Workfront Proof](../../../workfront-proof/wp-billingsettings/manage-your-billing/choose-payment-method-in-wp.md).
 
-<!--For the detailed information on payments and invoicing, see [Account Payment in Workfront Proof](../../../workfront-proof/wp-billingsettings/manage-your-billing/acct-payment-in-wp.md).&nbsp;-->
+<!--For the detailed information on payments and invoicing, see [Account Payment in Workfront Proof](../../../workfront-proof/wp-billingsettings/manage-your-billing/acct-payment-in-wp.md). -->
