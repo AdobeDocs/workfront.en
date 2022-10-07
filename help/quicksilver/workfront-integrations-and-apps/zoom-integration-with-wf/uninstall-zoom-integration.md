@@ -11,7 +11,7 @@ exl-id: ec53153d-0a4c-4310-9d54-f4cf815e2660
 
 >[!IMPORTANT]
 >
->The Zoom integration will be deprecated with the 22.4 release (September 2022).
+>The Zoom integration was deprecated with the 22.4 release (September 2022). This article will be removed November 2022.
 
 As a regular user, you can uninstall the Zoom integration in your own personal instance of Adobe Workfront.
 

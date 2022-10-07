@@ -12,7 +12,7 @@ exl-id: b74c3559-4b62-40b1-bbcc-27dfabe31534
 
 >[!IMPORTANT]
 >
->The Zoom integration will be deprecated with the 22.4 release (September 2022).
+>The Zoom integration was deprecated with the 22.4 release (September 2022). This article will be removed November 2022.
 
 If your Adobe Workfront administrator has enabled the Zoom integration, you can start a Zoom meeting with collaborators by inserting a Zoom link into an Update comment or a reply.
 
