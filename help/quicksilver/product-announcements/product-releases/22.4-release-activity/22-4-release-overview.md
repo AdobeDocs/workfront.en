@@ -10,9 +10,7 @@ exl-id: 04b09d8f-71bf-4c5b-b2f3-09c714740969
 
 This page provides information about functionality that is included in the 22.4 release.
 
-These enhancements were made available in the Production environment with the 22.4 release the week of October 3, 2022.
-
-For specific release dates and times for each cluster, see the [Adobe Workfront status page](https://status.adobe.com/products/503490) on [status.adobe.com](http://status.adobe.com/). You must log in to see specific release times.
+These enhancements were made available in the Production environment with the 22.4 release on October 6 and 7, 2022.
 
 ## Adobe Workfront enhancements
 
