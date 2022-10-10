@@ -2,7 +2,7 @@
 product-area: documents;workfront-integrations
 navigation-topic: adobe-workfront-for-experince-manager-asset-essentials
 title: Migrate from the legacy connector to the enhanced connector
-description: 
+description: The following process outlines the best practices for moving off the Adobe Experience Manager legacy connector to the enhanced connector for integrating Adobe Workfront with AEM Assets. 
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 ---
