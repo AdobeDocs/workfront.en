@@ -10,7 +10,7 @@ exl-id: 11a110c9-5496-4f99-a024-bbb0f58f6b25
 
 >[!IMPORTANT]
 >
->The Zoom integration will be deprecated with the 22.4 release (September 2022).
+>The Zoom integration was deprecated with the 22.4 release (September 2022). This article will be removed November 2022.
 
 After your [!DNL Adobe Workfront] administrator enables the [!DNL Zoom] integration, you need to authorize the connection between [!DNL Workfront] and your [!DNL Zoom] account. This is necessary for each [!DNL Workfront] user.
 
