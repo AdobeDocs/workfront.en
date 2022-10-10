@@ -84,9 +84,7 @@ Before using the Admin Console for Workfront, you should receive a receive an em
 1.  In the list that displays, with the Product Profiles tab selected, click the name of the Workfront Fusion Product Profile link.
     
     ![Workfront Fusion Product Profile](../../administration-and-setup/add-users/create-and-manage-users/assets/prod-profile-1.png)
-    
-    This list includes all users that are already assigned to your This organization in Workfront Fusion.
-    
+     
     >[!IMPORTANT]
     >
     > Do not make any changes to the Product Profile itself.
@@ -99,9 +97,11 @@ Before using the Admin Console for Workfront, you should receive a receive an em
     
     The user is created in Workfront Fusion.
     
+    <!--
     >[!IMPORTANT]
     >
     > Do not make any changes to the Product Profile itself.
+    -->
 
 1. (Optional) Continue to [Change a user's access level in Workfront Fusion](#change-a-users-access-level-in-workfront-fusion)
 
