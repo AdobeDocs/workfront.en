@@ -12,7 +12,7 @@ exl-id: fc15f105-ea8c-4b11-90f2-d736703a2241
 
 >[!IMPORTANT]
 >
->The Zoom integration will be deprecated with the 22.4 release (September 2022).
+>The Zoom integration was deprecated with the 22.4 release (September 2022). This article will be removed November 2022.
 
 This section contains the following articles:
 

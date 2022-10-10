@@ -243,7 +243,7 @@ You can edit an issue using the Edit Issue or Issue Details areas. The following
 #### Assignments {#assignments}
 
 1. Begin editing the issue as described above.
-1. Click&nbsp;**Assignments** in the left panel.
+1. Click **Assignments** in the left panel.
 
    ![](assets/assignments-section-edit-issue-box-nwe-350x230.png)
 
@@ -257,14 +257,12 @@ You can edit an issue using the Edit Issue or Issue Details areas. The following
    >
    >If the user's name contains a special character, you must include the special character in the search field.
 
-   You can assign multiple users or job roles to a task. You can assign only one team to a task.
-
    >[!TIP]
    >
-   >You can assign multiple users or job roles, and you can assign only one team. You can assign only active users, job roles, and teams.
+   >You can assign multiple users, job roles, or teams. You can assign only active users, job roles, and teams.
    >
    >
-   >If a user, job role, or a team was assigned before they were deactivated, they remain assigned to the work item. In this case, we recommend the following: 
+   >If a user, job role, or team was assigned before they were deactivated, they remain assigned to the work item. In this case, we recommend the following: 
    >
    >* Reassign the work item to active resources. 
    >* Associate the users in a deactivated team with an active team and reassign the work item to the active team. 
@@ -284,7 +282,9 @@ You can edit an issue using the Edit Issue or Issue Details areas. The following
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">Assignee's Role</td> 
-      <td> <p>Select a role from the <strong>Assignee's Role</strong> drop-down menu when you selected a person as an assignee. This is the role that the assignee can fulfill on this issue. </p> <p>Tip: Only the job roles associated with each assignee in their profile appear in the drop-down menu.</p> </td> 
+      <td> <p>Select a role from the <strong>Assignee's Role</strong> drop-down menu when you selected a person as an assignee. This is the role that the assignee can fulfill on this issue. </p> <p><b>TIP</b>
+      
+      Only the job roles associated with each assignee in their profile appear in the drop-down menu.</p> </td> 
      </tr> 
     </tbody> 
    </table>

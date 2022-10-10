@@ -39,7 +39,9 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Tasks and Projects</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>Edit access to Tasks and Projects</p> <p><b>NOTE</b> 
+   
+   If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -80,13 +82,15 @@ You can quickly view details about the predecessor from the task list.
 
    **Predecessor name:** The name of the predecessor that is being referenced. The task number of the predecessor is included. Click the task name to open it. In the above example, the predecessor is Production/Execution/Delivery.
 
-   **Project name:** The name of the project where the predecessor resides. The project is identified as the current project or a cross project. In the above example, the project name is Digital Asset Production (Integrated) - Project.
+   **Project name:** The name of the project where the predecessor resides. The project is identified as the current project if the predecessor belongs to the same projects as the task, or as a cross project, if the predecessor belongs to a different project. In the above example, the project name is Digital Asset Production (Integrated) - Project. For more information about cross-project predecessors, see [Create cross-project predecessors](../../tasks/use-prdcssrs/cross-project-predecessors.md). 
 
    You can expand the project details to see the project's planned start and end dates, condition, status, percent complete, and owner. For a cross project, you can then click **See Project** to open the project.
 
-   **Planned Start:** The planned start date of the predecessor task.
+   **ID:** The Reference number of the project where the predecessor is located. 
 
-   **Planned End:** The planned completion date of the predecessor task.
+   **Planned Start:** The Planned Start Date of the predecessor task.
+
+   **Planned End:** The Planned Completion Date of the predecessor task.
 
    **Number of predecessors:** The number of predecessors for the predecessor being referenced. In the above example, the predecessor being referenced has 1 predecessor.
 

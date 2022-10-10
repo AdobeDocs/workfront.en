@@ -10,9 +10,7 @@ exl-id: 04b09d8f-71bf-4c5b-b2f3-09c714740969
 
 This page provides information about functionality that is included in the 22.4 release.
 
-These enhancements are currently available in the Preview environment and will be made available in the Production environment with the 22.4 release the week of October 3, 2022. As the 22.4 release nears its planned Production release, this page will be updated with all functionality included with 22.4.
-
-For specific release dates and times for each cluster, see the [Adobe Workfront status page](https://status.adobe.com/products/503490) on [status.adobe.com](http://status.adobe.com/). You must log in to see specific release times.
+These enhancements were made available in the Production environment with the 22.4 release on October 6 and 7, 2022.
 
 ## Adobe Workfront enhancements
 
@@ -339,7 +337,7 @@ Note: This functionality is not currently available in the Workload Balancer in 
                         <p>Only one intake column is permitted on a board.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
-                     <p><span style="color: #ff0000;">This feature is available only through the early feature opt-in for Workfront Boards.</span>
+                     <p>
                         </p>
                         <ul>
                             <li>
@@ -347,6 +345,7 @@ Note: This functionality is not currently available in the Workload Balancer in 
                             </li>
                             <li>
                                 <p>Production release: September 15, 2022</p>
+                                <p>Production release for all customers: With the 22.4 release</p>
                             </li>
                         </ul>
                     </td>
@@ -358,7 +357,7 @@ Note: This functionality is not currently available in the Workload Balancer in 
                         <p>Previously, the filters were displayed in a drop-down on the right side of the board.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
-                     <p><span style="color: #ff0000;">This feature is available only through the early feature opt-in for Workfront Boards.</span>
+                     <p>
                         </p>
                         <ul>
                             <li>
@@ -366,6 +365,7 @@ Note: This functionality is not currently available in the Workload Balancer in 
                             </li>
                             <li>
                                 <p>Production release: September 15, 2022</p>
+                                <p>Production release for all customers: With the 22.4 release</p>
                             </li>
                         </ul>
                     </td>
@@ -394,7 +394,7 @@ Note: This functionality is not currently available in the Workload Balancer in 
                         <p>Opening a checklist item on a card now allows you to add more detailed information about the item, including a description, due date, assignees, and estimation. You can also copy a checklist item, which was not available previously.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
-                     <p><span style="color: #ff0000;">This feature is available only through the early feature opt-in for Workfront Boards.</span>
+                     <p>
                         </p>
                         <ul>
                             <li>
@@ -402,6 +402,7 @@ Note: This functionality is not currently available in the Workload Balancer in 
                             </li>
                             <li>
                                 <p>Production release: August 25, 2022</p>
+                                <p>Production release for all customers: With the 22.4 release</p>
                             </li>
                         </ul>
                     </td>
@@ -414,7 +415,7 @@ Note: This functionality is not currently available in the Workload Balancer in 
                         </p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
-                     <p><span style="color: #ff0000;">This feature is available only through the early feature opt-in for Workfront Boards.</span>
+                     <p>
                         </p>
                         <ul>
                             <li>
@@ -422,6 +423,7 @@ Note: This functionality is not currently available in the Workload Balancer in 
                             </li>
                             <li>
                                 <p>Production release: August 11, 2022</p>
+                                <p>Production release for all customers: With the 22.4 release</p>
                             </li>
                         </ul>
                     </td>
@@ -432,7 +434,7 @@ Note: This functionality is not currently available in the Workload Balancer in 
                         <p>You can now set a Work In Progress (WIP) limit for any column on a board. When you enable a WIP limit, a counter appears on the column with the current number of cards and the limit. The counter turns red if the column contains more cards than the limit. This is simply a visual warning and you are not stopped from adding more cards than the limit.</p>
                     </td>
                     <td><b>Available on these dates:</b>
-                        <p><span style="color: #ff0000;">This feature is available only through the early feature opt-in for Workfront Boards.</span>
+                        <p>
                         </p>
                         <ul>
                             <li>
@@ -440,6 +442,7 @@ Note: This functionality is not currently available in the Workload Balancer in 
                             </li>
                             <li>
                                 <p>Production release:&#160;July 28, 2022</p>
+                                <p>Production release for all customers: With the 22.4 release</p>
                             </li>
                         </ul>
                     </td>
@@ -451,7 +454,7 @@ Note: This functionality is not currently available in the Workload Balancer in 
                     </td>
                     <td>
                         <p><b>Available on these dates:</b>
-                        <p><span style="color: #ff0000;">This feature is available only through the early feature opt-in for Workfront Boards.</span>
+                        <p>
   </p>
                         </p>
                         <ul>
@@ -459,7 +462,8 @@ Note: This functionality is not currently available in the Workload Balancer in 
                                 <p>Preview release: July 22, 2022 <br /></p>
                             </li>
                             <li>
-                                <p>Production release:&#160;July 28, 2022</p>
+                                <p>Production release for early opt-in:&#160;July 28, 2022</p>
+                                <p>Production release for all customers: With the 22.4 release</p>
                             </li>
                         </ul>
                     </td>
@@ -603,6 +607,42 @@ Note: This functionality is not currently available in the Workload Balancer in 
                             </li>
                             <li>
                                 <p>Production release: October 6, 2022</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                <tr>
+                    <td>
+                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Sync object metadata with the native Experience Manager Assets integration</a> <span style="color: #ff0000;"> New in Preview!</span> </p>
+                        <p>Now, Workfront portfolio, program, project, task, issue, and document fields update automatically when the field is changed in Workfront.</p>
+                        <p>To allow object metadata to sync automatically, you must enable the Sync object metadata toggle for your integrations in Setup > Experience Manager integrations.</p>
+                        <p>Previously, only project fields updated automatically.</p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                        <ul>
+                            <li>
+                                <p>Preview release: October 6, 2022<br /></p>
+                            </li>
+                            <li>
+                                <p>Production release: TBD</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Metadata pushes for program and portfolio parent objects</a> <span style="color: #ff0000;"> New in Preview!</span> </p>
+                        <p>Now, when an asset is first sent to Experience Manager Assets or Assets Essentials, any metadata configured to map for program and portfolio parent objects is sent as well.</p>
+                        <p>Previously, only parent project data was sent.</p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                        <ul>
+                            <li>
+                                <p>Preview release: October 6, 2022<br /></p>
+                            </li>
+                            <li>
+                                <p>Production release: TBD</p>
                             </li>
                         </ul>
                     </td>
