@@ -48,8 +48,8 @@ By creating Satellite accounts for your clients.
 | **Feature** | **Benefit**  |
 |---|---|
 |  Managed by you from within your "[!UICONTROL Hub]" account |  Conveniently manage multiple Satellite accounts from one place  |
-|  Personal login for each user in the Satellite account |  Provides additional security on proofs (proofs can be password protected. For more information, see  [Proof security in [!DNL Workfront] Proof](../../../workfront-proof/wp-acct-admin/managing-security/proof-security-in-workfront-proof.md)). |
-|  Personalized branding for your client |  You can control the branding experience that the client has in [!DNL Workfront] Proof |
+|  Personal login for each user in the Satellite account |  Provides additional security on proofs (proofs can be password protected. For more information, see  [Proof security in [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/managing-security/proof-security-in-workfront-proof.md)). |
+|  Personalized branding for your client |  You can control the branding experience that the client has in [!DNL Workfront Proof] |
 |  Enhanced workflow for your client |  You can tailor the proofing process to meet the needs of the specific client  |
 |  Your client can upload proofs from the Satellite account and share these with you |  Your client can initiate their own proofs |
 |  Any proofs that have previously been shared with your client will automatically show in their account |  No need to re-share previous proofs  |

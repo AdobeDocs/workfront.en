@@ -49,7 +49,7 @@ After you have set up the Satellite account as described in [Creating a Satellit
 
 1. In the **[!UICONTROL Your accounts]** drop-down menu at the top of the page (1), choose the relevant Satellite account.
 
-   The !UICONTROL billing page for the Satellite account appears, and the billing contact details from your account are automatically replicated.
+   The billing page for the Satellite account appears, and the billing contact details from your account are automatically replicated.
 
    ![Satellite_Account_Change_Plan.png](assets/satellite-account-change-plan-350x156.png)
 
