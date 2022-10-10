@@ -77,46 +77,56 @@ Before using the Admin Console for Workfront, you should receive a receive an em
     
     ![Fusion in Admin Console](assets/fusion-product-admin-console.png)
     
-1.  In the list that displays, select the link at the top.
-    
-    This is your Production instance where your users work.
+1.  In the list that displays, select the organization where you want to add a user.
     
     ![Fusion instance in Admin Console](assets/fusion-instances-admin-console.png)
     
-    >[!TIP]
-    > 
-    > Your Preview instance, the second link in the list, is a testing environment that replicates your live Production environment. For more information, see The Adobe Workfront Preview Sandbox Environment.
-    >    
-    > You might also see links to sandbox environments in the list. For more information, see The Adobe Workfront Preview Sandbox Environment.
-    
-1.  In the list that displays, with the Product Profiles tab selected, click the name of the Workfront Product Profile link.
+1.  In the list that displays, with the Product Profiles tab selected, click the name of the Workfront Fusion Product Profile link.
     
     ![Workfront Fusion Product Profile](../../administration-and-setup/add-users/create-and-manage-users/assets/prod-profile-1.png)
     
-    This list includes all users that are already assigned to your Production instance of Workfront.
+    This list includes all users that are already assigned to your This organization in Workfront Fusion.
     
     >[!IMPORTANT]
     >
     > Do not make any changes to the Product Profile itself.
     
-1.  Go to the user and admin area in the Admin Console, as described in [Add users to Adobe Workfront Fusion through the Adobe Admin Console](#add-users-to-adobe-workfront-fusion-through-the-adobe-admin-console) in this article.
-1.  With the Users tab selected above the list, select **Add User**.
+1.  With the **Users** tab selected above the list, click **Add User**.
     
-1.  In the **Add users to this product profile** box, enter the email address or name of a user you want to add, then select **Save**.
-    
-    The user is created in Workfront with the Requestor access level.
-    
-    >[!IMPORTANT]
-    >
-    > Do not make any changes to the Product Profile itself.
-    
-1.  In Workfront, change the user's access level.
-    
-    For instructions on how a Workfront administrator can change the user's access level, see Edit a user's profile.
-    
-1.  Repeat steps 6 and 7 to add more users.
-    
+1.  In the **Add users to this product profile** box, enter the email address or name of a user you want to add, then select the user in the list that appears.
 
+1. Click **Save**.
+    
+    The user is created in Workfront Fusion.
+    
+    >[!IMPORTANT]
+    >
+    > Do not make any changes to the Product Profile itself.
+
+1. (Optional) Continue to [Change a user's access level in Workfront Fusion](#change-a-users-access-level-in-workfront-fusion)
+
+## Change a user's access level in Workfront Fusion
+
+### Change a user's role to Admin
+
+Giving a user an Admin role must be done in the Adobe Admin Console. 
+
+1. On the Workfront Fusion Product Profile page where you added the user, select the **Admins** tab.
+
+1. Click Add Admin.
+
+1.  In the **Add product profile administrators** box, enter the email address or name of a user you want to add, then select the user in the list that appears.
+
+1. Click **Save**.
+
+   This user is now an Administrator in Workfront Fusion.
+
+### Change a user's role to Member, Accountant, or App Developer.
+    
+Member, Accountant, and App Developer roles are handled inside Workfront Fusion. 
+
+For instructions, see [View or edit user roles](../organizations/manage-fusion-users.md#view-or-edit-user-roles) in the article [Manage Adobe Workfront Fusion users in your organization](../organizations/manage-fusion-users.md)
+    
 ## Assign an existing user in the Adobe Admin Console to Workfront Fusion
 
 1.  Begin editing the user as described in the "Edit user details" section of the article [Manage users individually](https://helpx.adobe.com/enterprise/using/manage-users-individually.html) in the Adobe Admin Console documentation.
