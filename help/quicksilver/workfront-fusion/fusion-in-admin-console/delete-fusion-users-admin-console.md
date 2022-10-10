@@ -11,7 +11,7 @@ exl-id: 0d989134-46c0-4637-b465-6fbe04258b8a
 hidefromtoc: true
 
 ---
-# Delete users in  through the Adobe Admin Console
+# Delete users through the Adobe Admin Console
 
 >[!IMPORTANT]
 >
