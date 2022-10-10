@@ -2,21 +2,21 @@
 product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: account-settings-workfront-proof
-title: Configure custom profiles in [!DNL Workfront] Proof
-description: As a [!DNL Workfront] Proof Billing Administrator or [!DNL Workfront] Proof Administrator, you can configure custom profiles for other users.
+title: Configure custom profiles in [!DNL Workfront Proof]
+description: As a [!DNL Workfront] Proof Billing Administrator or [!DNL Workfront Proof] Administrator, you can configure custom profiles for other users.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: a2bd8d41-896a-436e-b160-018081db1c95
 ---
-# Configure custom profiles in [!DNL Workfront] Proof
+# Configure custom profiles in [!DNL Workfront Proof]
 
 >[!IMPORTANT]
 >
 >This article refers to functionality in the standalone product [!DNL Workfront] Proof. For information on proofing inside [!DNL Adobe Workfront], see [Proofing](../../../review-and-approve-work/proofing/proofing.md).
 
-As a [!DNL Workfront] Proof Billing Administrator or [!DNL Workfront] Proof Administrator, you can configure custom profiles for other users.
+As a [!DNL Workfront Proof] Billing Administrator or [!DNL Workfront Proof] Administrator, you can configure custom profiles for other users.
 
-Custom profiles allow you to assign granular permissions to users in your account and define the level of access and rights they have over the items in your account. For more information about custom profiles, see [Create and Manage Custom Profiles using Workfront Proof](../../../workfront-proof/wp-mnguserscontacts/users/create-and-manage-custom-profiles.md).
+Custom profiles allow you to assign granular permissions to users in your account and define the level of access and rights they have over the items in your account. For more information about custom profiles, see [Create and Manage Custom Profiles using [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/users/create-and-manage-custom-profiles.md).
 
 You can adjust the layout of the page to view only the information relevant to you:
 
@@ -38,15 +38,15 @@ The [!UICONTROL Profiles] tab lets you conveniently add and manage custom profil
 * Copy a profile (6)
 * Disable a profile (7)
 
-For additional information on how to customize the Profiles tab, see [Create and Manage Custom Profiles using Workfront Proof](../../../workfront-proof/wp-mnguserscontacts/users/create-and-manage-custom-profiles.md).
+For additional information on how to customize the Profiles tab, see [Create and Manage Custom Profiles using [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/users/create-and-manage-custom-profiles.md).
 
 ![Profiles_tab_1.png](assets/profiles-tab-1-350x190.png)
 
 ## Profile Details
 
-The Profile Details page allows you to modify the permissions enabled for your custom profile, copy the profile, delete&nbsp;the profile, and view the list of users to whom the profile is assigned.
+The Profile Details page allows you to modify the permissions enabled for your custom profile, copy the profile, delete the profile, and view the list of users to whom the profile is assigned.
 
-For more information on the actions you can perform on this page, see " [Create and Manage Custom Profiles using Workfront Proof](../../../workfront-proof/wp-mnguserscontacts/users/create-and-manage-custom-profiles.md).&nbsp;
+For more information on the actions you can perform on this page, see "[Create and Manage Custom Profiles using [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/users/create-and-manage-custom-profiles.md).
 
 * [Accessing the Profile Details Page](#accessing-the-profile-details-page)
 * [Viewing the List of Users with a Profile Assigned](#viewing-the-list-of-users-with-a-profile-assigned)

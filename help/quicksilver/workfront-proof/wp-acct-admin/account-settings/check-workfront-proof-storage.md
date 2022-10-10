@@ -25,7 +25,7 @@ Your account plan comes with a fixed amount of storage. Plan storage does not re
 1. Click **[!UICONTROL Settings]** > **[!UICONTROL Account settings]**.
 
 1. Open the **[!UICONTROL History]** tab.
-1. View your current storage mount under **[!UICONTROL Usage stats]**.\
+1. View your current storage mount under **[!UICONTROL Usage stats]**.
    The Billing Administrators of your account will receive a warning email if the storage usage on your account reaches 75%.
 
 ## Getting More Storage
