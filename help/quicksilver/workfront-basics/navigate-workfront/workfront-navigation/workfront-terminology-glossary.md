@@ -39,7 +39,7 @@ The following table is a list of commonly used terms in Adobe Workfront:
    <td>In Workfront Goals, an activity is a progress indicator for a goal. It can be a progress bar that you update manually, or a project that is associated with the goal. You cannot display activities in a report and you cannot access them through the Workfront API. For information about activities, see <a href="../../../workfront-goals/results-and-activities/get-started-with-results-and-activities.md" class="MCXref xref">Get started with results and activities in Adobe Workfront Goals</a>.</td> 
   </tr> 
   <tr> 
-   <td>Actual Cost</td> 
+   <td>Actual Costs</td> 
    <td> <p>For tasks and issues, this is the cost associated with the actual hours logged in relation to the Cost per hour rate of the resource assigned to the task or issue. For projects, this is a total of all Actual Costs from tasks and issues on the project. For information, see <a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">Track costs</a>.</p> </td> 
   </tr> 
   <tr> 
