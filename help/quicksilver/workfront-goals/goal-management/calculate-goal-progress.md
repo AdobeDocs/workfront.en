@@ -29,13 +29,15 @@ You must have the following before you can start:
 
 ## Overview of goal progress and threshold
 
-After you activate a goal, Workfront Goals starts calculating its progress and displays the following progress indicators: 
+After you activate a goal, Workfront Goals starts calculating its progress and displays the following indicators for the Progress field: 
 
-|Progress indicator|Progress indicator description|
+|Indicator|Indicator description|
 |---|---|
 | Actual percent complete |How much of the goal has actually been completed so far. Workfront Goals calculates this value by averaging the percent complete of all progress indicators associated with the goal.  |
 | Expected percent complete |How much of the goal should be completed so far in order for the goal to complete on time. Workfront Goals calculates this value by looking at the Duration of the goal and the current moment in time. The goal should display this value at the current time, if it were to complete on time.  |
 | Progress  |A label that indicates whether the goal is on target to be completed on time, or if it is at risk or in trouble of not completing.  |
+
+![](assets/in-trouble-goal-progress-expanded.png)
 
 * [Actual percent complete](#actual-percent-complete) 
 * [Expected percent complete](#expected-percent-complete) 
@@ -43,7 +45,7 @@ After you activate a goal, Workfront Goals starts calculating its progress and d
 
 ### Actual percent complete {#actual-percent-complete}
 
-Workfront Goals automatically calculates the actual percent complete of a goal based on the percent complete average of the goal progress indicators.&nbsp;
+Workfront Goals automatically calculates the actual percent complete of a goal based on the percent complete average of the goal progress indicators.
 
 The following items are considered progress indicators for goals:
 
