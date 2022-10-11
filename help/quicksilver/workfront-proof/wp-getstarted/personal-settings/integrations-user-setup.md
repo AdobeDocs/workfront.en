@@ -13,7 +13,7 @@ exl-id: 43ecf257-44ea-4d2c-ac55-21192e7c2a45
 
 >[!IMPORTANT]
 >
->This article refers to functionality in the standalone product Workfront Proof. For information on proofing inside Adobe Workfront, see [Proofing](../../../review-and-approve-work/proofing/proofing.md).
+>This article refers to functionality in the standalone product [!DNL Workfront] Proof. For information on proofing inside [!DNL Adobe Workfront], see [Proofing](../../../review-and-approve-work/proofing/proofing.md).
 
 This section shows you the options you have for setting up pre-built integration links with third-party applications.
 

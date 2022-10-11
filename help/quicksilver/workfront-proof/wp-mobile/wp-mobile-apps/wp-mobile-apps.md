@@ -12,9 +12,9 @@ exl-id: 8a868212-cf8e-4752-8aa6-ed74f10f5cea
 
 >[!IMPORTANT]
 >
->This article refers to functionality in the standalone product Workfront Proof. For information on proofing inside Adobe Workfront, see [Proofing](../../../review-and-approve-work/proofing/proofing.md).
+>This article refers to functionality in the standalone product [!DNL Workfront] Proof. For information on proofing inside [!DNL Adobe Workfront], see [Proofing](../../../review-and-approve-work/proofing/proofing.md).
 
 This section contains the following articles:
 
-* [Workfront Proof mobile app](../../../workfront-proof/wp-mobile/wp-mobile-apps/wp-mobile-app-phones.md) 
-* [Workfront Proof mobile app for tablets](../../../workfront-proof/wp-mobile/wp-mobile-apps/wp-mobile-app-tablet.md)
+* [[!DNL Workfront] Proof mobile app](../../../workfront-proof/wp-mobile/wp-mobile-apps/wp-mobile-app-phones.md)
+* [[!DNL Workfront] Proof mobile app for tablets](../../../workfront-proof/wp-mobile/wp-mobile-apps/wp-mobile-app-tablet.md)

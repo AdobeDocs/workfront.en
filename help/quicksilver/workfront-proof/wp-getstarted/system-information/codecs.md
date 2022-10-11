@@ -3,17 +3,17 @@ content-type: reference
 product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: system-information
-title: Codecs in Workfront Proof
-description: Codecs in Workfront Proof
+title: Codecs in [!DNL Workfront] Proof
+description: Codecs in [!DNL Workfront] Proof
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: f760dbaf-edbb-49ec-a329-54727372bdc6
 ---
-# Codecs in Workfront Proof
+# Codecs in [!DNL Workfront] Proof
 
 >[!IMPORTANT]
 >
->This article refers to functionality in the standalone product Workfront Proof. For information on proofing inside Adobe Workfront, see [Proofing](../../../review-and-approve-work/proofing/proofing.md).
+>This article refers to functionality in the standalone product [!DNL Workfront] Proof. For information on proofing inside [!DNL Adobe Workfront], see [Proofing](../../../review-and-approve-work/proofing/proofing.md).
 
 ## Supported Codecs
 
@@ -133,7 +133,7 @@ exl-id: f760dbaf-edbb-49ec-a329-54727372bdc6
 * RealVideo 3.0
 * RealVideo 4.0
 * RL2 video
-* Schrödinger (Schroedinger), Dirac
+* Schrödinger (Schroedinger), [!DNL Dirac]
 * Sierra VMD video
 * sif1 alpha4
 * Smacker video
