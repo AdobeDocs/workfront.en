@@ -60,7 +60,7 @@ You must have the following access to perform the actions described in this arti
 
 You must have the following before you can start:
 
-* A Layout Template that includes the Goals area in the Main&nbsp;Menu.
+* A Layout Template that includes the Goals area in the Main Menu.
 
 ## Locate the Comments area
 
@@ -78,7 +78,7 @@ Although the process for adding comments to goals is similar in these areas, the
 
 ## Add comments to goals in the Goal Details panel
 
-You can add comments to goals in the Goal&nbsp;Details panel, as part of updating an individual goal.
+You can add comments to goals in the Goal Details panel, as part of updating an individual goal.
 
 You can edit or delete a comment that you entered in this area, or you can like comments.
 
@@ -89,18 +89,18 @@ You can edit or delete a comment that you entered in this area, or you can like 
 
    This opens the Workfront Goals area. 
 
-1. Locate the goal you want to add comments to, then click its name to open the Goal&nbsp;Details panel to the right. 
+1. Locate the goal you want to add comments to, then click its name to open the Goal Details panel to the right. 
 1. Click the **Updates** tab.
 1. Type your comment in the **Comment here** field, then click **Post**. 
 1. (Optional and conditional) Select the **Comments** option at the top of the list to view your comment at the top of the list. It is enabled by default and comments display here with the most recent comment first. 
-1. (Optional) Click&nbsp;**Edit** to edit your comment, then click&nbsp;**Save** to save your changes, or **Cancel** to revert to the original update.
+1. (Optional) Click **Edit** to edit your comment, then click **Save** to save your changes, or **Cancel** to revert to the original update.
 
    >[!TIP]
    >
    >* You can only edit comments you entered. 
    >* There is no time limit for how long after you enter a comment you are allowed to edit it.
 
-1. (Optional)&nbsp;Click&nbsp;**Delete** to delete your comment, then click&nbsp;**Yes, Delete** to confirm.
+1. (Optional) Click **Delete** to delete your comment, then click **Yes, Delete** to confirm.
 
    >[!TIP]
    >
@@ -109,7 +109,7 @@ You can edit or delete a comment that you entered in this area, or you can like 
 
 1. (Optional) Click the **Like icon** ![](assets/like-icon.png) to like a comment that someone else added. The icon updates with the number of likes. 
 
-1. (Optional)&nbsp;Click the number of likes next to a comment and a list with the names of the users who liked the comment displays in the right panel.
+1. (Optional) Click the number of likes next to a comment and a list with the names of the users who liked the comment displays in the right panel.
 
    <!--
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this functionality might change)</p>
@@ -117,7 +117,7 @@ You can edit or delete a comment that you entered in this area, or you can like 
 
    ![](assets/list-of-likes-users-350x121.png)
 
-1. (Conditional)&nbsp;Click **Back to Updates** to return to the Updates tab of the Goal Details panel, or click the **X icon** in the upper-right corner to close the right panel.
+1. (Conditional) Click **Back to Updates** to return to the Updates tab of the Goal Details panel, or click the **X icon** in the upper-right corner to close the right panel.
 
 ## Add comments to goals in the Check-in section
 
@@ -125,7 +125,7 @@ You can edit or delete a comment that you entered in this area, or you can like 
 >
 >You must have access to Edit Goals in your access level to view the Check-in section.
 
-You can add comments to goals in the Check-in section of Workfront Goals, as part of updating your list of goals. For information about updating goals by checking in on them, see [Check in on goals in Adobe Workfront Goals](../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md).
+You can add comments to goals in the Check-in section of Workfront Goals, as part of updating your list of goals. For information about updating goals, see [Check in on goals in Adobe Workfront Goals](../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md).
 
 You can also like goal comments that other users have added to mark your approval of them in the Check-in section.
 
@@ -150,11 +150,11 @@ You can also like goal comments that other users have added to mark your approva
 1. Click **Show all comments** to display all comments on a goal. A number of total comments for the goal also displays. Comments display in the order they were entered, with the most recent first. 
 1. (Optional) Click the **Like icon** ![](assets/like-icon.png) to like a comment. The icon updates with the number of likes. 
 
-1. (Optional)&nbsp;Click the number of likes next to a comment and a list with the names of the users who liked the comment displays in the right panel.
+1. (Optional) Click the number of likes next to a comment and a list with the names of the users who liked the comment displays in the right panel.
 
    ![](assets/list-of-likes-users-350x121.png)
 
-1. (Conditional)&nbsp;Click **Back to Updates** to return to the Updates tab of the Goal Details panel, or click the **X icon** in the upper-right corner to close the right panel.
+1. (Conditional) Click **Back to Updates** to return to the Updates tab of the Goal Details panel, or click the **X icon** in the upper-right corner to close the right panel.
 
 ## Add comments to goals in the Pulse section
 
