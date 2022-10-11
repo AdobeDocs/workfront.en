@@ -13,7 +13,7 @@ exl-id: 028a1a01-40fa-4b09-912a-b9f522c49df9
 
 >[!IMPORTANT]
 >
->This article refers to functionality in the standalone product [!DNL Workfront] Proof. For information on proofing inside [!DNL Adobe Workfront], see [Proofing](../../review-and-approve-work/proofing/proofing.md).
+>This article refers to functionality in the standalone product [!DNL Workfront Proof]. For information on proofing inside [!DNL Adobe Workfront], see [Proofing](../../review-and-approve-work/proofing/proofing.md).
 
 This section contains the following subsections:
 

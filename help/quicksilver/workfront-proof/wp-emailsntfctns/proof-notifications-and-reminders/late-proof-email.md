@@ -13,13 +13,13 @@ exl-id: 23eb75a7-d7b7-4043-afba-cf45c86ab1ae
 
 >[!IMPORTANT]
 >
->This article refers to functionality in the standalone product [!DNL Workfront] Proof. For information on proofing inside [!DNL Adobe Workfront], see [Proofing](../../../review-and-approve-work/proofing/proofing.md).
+>This article refers to functionality in the standalone product [!DNL Workfront Proof]. For information on proofing inside [!DNL Adobe Workfront], see [Proofing](../../../review-and-approve-work/proofing/proofing.md).
 
 The Late Proof email is sent to recipients when a proof is close to deadline or reaching deadline. These types of emails are not possible to disable on a proof level, but are configurable on account and user personal settings level.
 
 * Late proof emails are automatically sent to reviewers when a proof reaches its deadline and not all reviews or decisions have been made.
 
-   These emails are enabled by default and cannot be adjusted&nbsp;for the whole accounts, but users can disable them in&nbsp;their Proofing defaults.
+   These emails are enabled by default and cannot be adjusted for the whole accounts, but users can disable them in their Proofing defaults.
 
 * At risk emails are sent to reviewers when a proof is close to deadline. They are disabled by default and can be enabled in the Account Settings. Once enabled they can also be adjusted in the Proofing defaults.
 
@@ -28,11 +28,11 @@ These notifications cannot be customized.
 The people who will be notified are:
 
 * The Owner, only when [!UICONTROL Email] alert when proofs are late is enabled checked in the Owner's Proofing defaults.
-* Any approvers who have not yet made their decision&nbsp;on the proof. For information about decisions, see [Make a decision on a proof in the proofing viewer](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md)
+* Any approvers who have not yet made their decision on the proof. For information about decisions, see [Make a decision on a proof in the proofing viewer](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md)
 
 >[!NOTE]
 >
->If the email notifications are disabled as a default in the [!UICONTROL Account settings],&nbsp;no Late proof emails will be sent even if the reviewers and approvers have not yet submitted their comments and decisions. You can also disable Late proof emails in the Proofing defaults.&nbsp;
+>If the email notifications are disabled as a default in the [!UICONTROL Account settings], no Late proof emails will be sent even if the reviewers and approvers have not yet submitted their comments and decisions. You can also disable Late proof emails in the Proofing defaults. 
 
 Consider the following about proof notifications:
 
@@ -43,4 +43,4 @@ Consider the following about proof notifications:
    >
    >The Creator of the proofs receives a separate Proof made email for each of the proofs created. For more information, see [The Proof Made email](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/proof-made-email.md).
 
-* If you or your reviewers don't receive an expected email notification, see&nbsp; [Configure [!DNL Workfront] Proof emails to avoid spam filters](../../../workfront-proof/wp-emailsntfctns/avoiding-spam-filters/configure-wp-emails-avoid-spam-filters.md).
+* If you or your reviewers don't receive an expected email notification, see  [Configure [!DNL Workfront Proof] emails to avoid spam filters](../../../workfront-proof/wp-emailsntfctns/avoiding-spam-filters/configure-wp-emails-avoid-spam-filters.md).

@@ -13,7 +13,7 @@ exl-id: d879b1c6-e862-4653-aa93-90ad92170951
 
 >[!IMPORTANT]
 >
->This article refers to functionality in the standalone product [!DNL Workfront] Proof. For information on proofing inside [!DNL Adobe Workfront], see [Proofing](../../../review-and-approve-work/proofing/proofing.md).
+>This article refers to functionality in the standalone product [!DNL Workfront Proof]. For information on proofing inside [!DNL Adobe Workfront], see [Proofing](../../../review-and-approve-work/proofing/proofing.md).
 
 <!--
 <p style="color: #000000;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Make this article work better for PiW.</p>
@@ -22,7 +22,7 @@ exl-id: d879b1c6-e862-4653-aa93-90ad92170951
 When you are creating a new proof or a new version of a proof, adding new people to a proof, or adding a workflow to a proof, you can decide if you want to email the reviewers, as explained in these articles:
 
 * [Create an advanced proof with an Automated workflow](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-automated-proof-workflow.md)
-* [Generate Proofs in [!DNL Workfront] Proof](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md)
+* [Generate Proofs in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md)
 
 The email your recipients receive is called the New Proof email. Only the proof creator and users authorized to add reviewers to a proof can control this email. Recipients cannot disable it.
 
@@ -49,18 +49,18 @@ The New proof email contains:
 
       If you don't want this link to appear on your recipient's email, you can disable the Public Sharing settings on the proof
 
-      (Download original file and Public URL). See [Manage Proof Details in [!DNL Workfront] Proof](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md) for more information.
+      (Download original file and Public URL). See [Manage Proof Details in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md) for more information.
 
 ## The Activity Log
 
-Sending a New Proof email to a reviewer is logged in the [!UICONTROL Activity] section of Proof details page. See&nbsp; [Manage Proof Details in [!DNL Workfront] Proof](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md)&nbsp;for more information. You can check if the New Proof email was enabled at the time of creating a proof.
+Sending a New Proof email to a reviewer is logged in the [!UICONTROL Activity] section of Proof details page. See  [Manage Proof Details in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md) for more information. You can check if the New Proof email was enabled at the time of creating a proof.
 
 ![New_Verison_email_-_acitivity_log.png](assets/new-verison-email---acitivity-log-350x44.png)
 
 >[!NOTE]
 >
 >* If the Creator or Owner of the proof has Proof Made emails disabled by default (in their personal settings), they won't receive any Proof made or New proof emails even if the [!UICONTROL Notify people by email] box is checked on the New proof page. For more information, see .
->* If the email notifications are disabled as a default in the Account settings&nbsp;the Creator / Owner of the proof won't receive any Proof made or New proof emails even if this is enabled in their personal settings and the [!UICONTROL Notify] people by email box is checked on the New proof page.&nbsp;For more information, [The Proof Made email](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/proof-made-email.md) and see .
+>* If the email notifications are disabled as a default in the Account settings the Creator / Owner of the proof won't receive any Proof made or New proof emails even if this is enabled in their personal settings and the [!UICONTROL Notify] people by email box is checked on the New proof page. For more information, [The Proof Made email](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/proof-made-email.md) and see .
 >
 
 
