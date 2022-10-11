@@ -103,7 +103,7 @@ You can Sort Groups by Group name, privacy status, and description.
 
    1. Use the drop-down menus to change a member's&nbsp;**Role**&#x200B;or&nbsp;**Email alerts.**&#x200B;For more information, see&nbsp; [Manage Proof Roles in [!DNL Workfront] Proof](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md)&nbsp;and&nbsp; [Configure email notification settings in [!DNL Workfront] Proof](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md).
 
-   1. Use the&nbsp;**[!UICONTROLEnter a contact name] or [!UICONTROL email address]**&#x200B;field to add additional contacts to the group.
+   1. Use the&nbsp;**[!UICONTROL Enter a contact name] or [!UICONTROL email address]**&#x200B;field to add additional contacts to the group.
 
 1. In the&nbsp;**[!UICONTROL Groups]**&#x200B;section, select the group to which you want to add the contact or contacts.
 1. Click&nbsp;**[!UICONTROL Add to group.]**
