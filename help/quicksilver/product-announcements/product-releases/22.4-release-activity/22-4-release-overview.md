@@ -344,7 +344,7 @@ Note: This functionality is not currently available in the Workload Balancer in 
                                 <p>Preview release: September 8, 2022<br /></p>
                             </li>
                             <li>
-                                <p>Production release: September 15, 2022</p>
+                                <p>Production release for early opt-in: September 15, 2022</p>
                                 <p>Production release for all customers: With the 22.4 release</p>
                             </li>
                         </ul>
@@ -364,7 +364,7 @@ Note: This functionality is not currently available in the Workload Balancer in 
                                 <p>Preview release: September 8, 2022<br /></p>
                             </li>
                             <li>
-                                <p>Production release: September 15, 2022</p>
+                                <p>Production release for early opt-in: September 15, 2022</p>
                                 <p>Production release for all customers: With the 22.4 release</p>
                             </li>
                         </ul>
@@ -401,7 +401,7 @@ Note: This functionality is not currently available in the Workload Balancer in 
                                 <p>Preview release: August 17, 2022<br /></p>
                             </li>
                             <li>
-                                <p>Production release: August 25, 2022</p>
+                                <p>Production release for early opt-in: August 25, 2022</p>
                                 <p>Production release for all customers: With the 22.4 release</p>
                             </li>
                         </ul>
@@ -422,7 +422,7 @@ Note: This functionality is not currently available in the Workload Balancer in 
                                 <p>Preview release: August 4, 2022<br /></p>
                             </li>
                             <li>
-                                <p>Production release: August 11, 2022</p>
+                                <p>Production release for early opt-in: August 11, 2022</p>
                                 <p>Production release for all customers: With the 22.4 release</p>
                             </li>
                         </ul>
@@ -441,7 +441,7 @@ Note: This functionality is not currently available in the Workload Balancer in 
                                 <p>Preview release: July 22, 2022 <br /></p>
                             </li>
                             <li>
-                                <p>Production release:&#160;July 28, 2022</p>
+                                <p>Production release for early opt-in:&#160;July 28, 2022</p>
                                 <p>Production release for all customers: With the 22.4 release</p>
                             </li>
                         </ul>

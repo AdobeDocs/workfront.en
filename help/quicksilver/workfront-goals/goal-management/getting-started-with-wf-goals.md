@@ -8,15 +8,17 @@ exl-id: 9daa074e-94ce-4825-a058-722e53dbce51
 ---
 # Get started with Adobe Workfront Goals
 
-Your organization must have the following to use the functionality described in this article:
-
-* A Pro or higher [Adobe Workfront plan](https://www.workfront.com/plans). 
-* An Adobe Workfront Goals license in addition to a Workfront license.
-
-  Contact your Workfront account manager to learn about a Workfront Goals license.
-
+>[!NOTE]
+>
+>Your organization must have the following to use the functionality described in this article:
+>
+>* A Pro or higher [Adobe Workfront plan](https://www.workfront.com/plans). 
+>* An Adobe Workfront Goals license in addition to a Workfront license.
+>
+>Contact your Workfront account manager to learn about a Workfront Goals license.
 
 For additional information about access to Workfront Goals, see [Requirements to use Workfront Goals](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+
 Every organization needs to set and communicate clear goals to keep their teams productive, focused, and engaged. Truly knowing how work is aligned to strategy is key to success. Yet, without a system of record that connects your strategy and goals with the work in the organization, attaining alignment can be really difficult.
 
 Workfront Goals helps you define, communicate, and achieve strategic outcomes by connecting strategy to work execution and delivery. You can focus everyone's efforts on what truly matters, make progress measurable, and enable teams to accomplish amazing results. People can do their best work knowing their contributions have a meaningful impact.
@@ -116,11 +118,6 @@ Follow these guidelines to ensure that you are properly configured to get starte
 * Identify the teams and team members who will ultimately be responsible for executing the work required to deliver these desired results.
 * Based on these findings, determine who needs access to Workfront Goals.
 
-  <!--
-  <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-  <span style="color: #ff0000;">(this will change to the following after access levels:&nbsp;Based on findings, determine who needs full manage or edit access, view only access, and no access at all</span>
-  </MadCap:conditionalText>
-  -->
 
 >[!NOTE]
 >
@@ -138,15 +135,13 @@ Workfront Goals uses the following main objects:
 |---|---|
 | Goal |The overall outcome you wish to achieve. You can create multiple goals for a defined period of time. Each goal has an owner, typically an individual or team (although you can also assign a goal to a group.) |
 | Result |A metric indicator of goal success. Each goal can have one or more results and their progress indicate the progress of the goal. |
-| Activity |A primary action that needs to take place to gain a result. You can add one or more activities to a goal in order to indicate what work has been planned to achieve that goal. Activities are also important, as this is how you align work objects (i.e. projects) from Workfront to goals.|
+| Activity |A primary action that needs to take place to gain a result. You can add one or more activities to a goal in order to indicate what work has been planned to achieve that goal. Activities are also important, as this is how you align Workfront projects to goals.|
 
 <!--
-(NOTE: edit when more objects will come)
+(edit the above bullet when more objects will come)
 -->
 
 For information about goals, results, and activities, see:
 
 * [Adobe Workfront Goals overview](../../workfront-goals/goal-management/wf-goals-overview.md) 
 * [Get started with results and activities in Adobe Workfront Goals](../../workfront-goals/results-and-activities/get-started-with-results-and-activities.md)
-
-&nbsp;
