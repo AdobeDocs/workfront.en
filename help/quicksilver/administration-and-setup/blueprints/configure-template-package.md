@@ -11,7 +11,7 @@ exl-id: df10bc8f-b980-4c61-ae6d-bcea03103738
 ---
 # Configure a blueprint
 
-You can configure details of the project template or organizational structure before you install the blueprint.
+You can configure details of a blueprint before you install it. Project template and organizational structure blueprint types usually require some preferences to be set and some properties to be mapped. Other blueprint types may not require configuration and you will install them as-is. For more information about installation, see [Install a blueprint](/help/quicksilver/administration-and-setup/blueprints/blueprints-install.md).
 
 ## Access requirements
 

@@ -94,6 +94,42 @@ You must have the following access to perform the steps in this article:
    * [!UICONTROL Size]
    * Custom Form data
 
+## View Proof Details
+
+1. Click the **[!UICONTROL Menu]** icon in the top-right corner, then select **[!UICONTROL Work List]**. You can also use the menu to navigate to parent objects.
+
+   ![](assets/go-back-to-work-list-350x314.png)
+
+1. Select the work item you want to view.
+
+   >[!TIP]
+   >
+   >Use the **[!UICONTROL Menu]** icon to go to the parent objects of the work item.
+
+1. Click the **[!UICONTROL Document]** icon ![](assets/documents.png) in the navigation bar, then double-click on a proof.
+
+1. Click the arrow icon in the top-right corner of the thumbnail to open the proof details in [!DNL Workfront].
+
+![open the proof details page in Workfront.](assets/go-to-proof-details.png)
+
+## View a proof's status
+
+1. Click the **[!UICONTROL Menu]** icon in the top-right corner, then select **[!UICONTROL Work List]**. You can also use the menu to navigate to parent objects.
+
+   ![](assets/go-back-to-work-list-350x314.png)
+
+1. Select the work item you want to view.
+
+   >[!TIP]
+   >
+   >Use the **[!UICONTROL Menu]** icon to go to the parent objects of the work item.
+
+1. Click the **[!UICONTROL Document]** icon ![](assets/documents.png) in the navigation bar, then double-click on a proof.
+
+1. Scroll to the bottom to view the proof's current status. For more information about Sent, Opened, Comment, Decision (SOCD) details, see [Document Details overview](/help/quicksilver/documents/managing-documents/document-details-overview.md).
+
+![](assets/proof-status.png)
+
 ## View subtasks and issues
 
 1. Click the **[!UICONTROL Menu]** icon in the top-right corner, then select **[!UICONTROL Work List]**. You can also use the menu to navigate to parent objects.

@@ -42,7 +42,7 @@ Now, when you add a user to any of these fields in the Edit or Details areas, in
 
 For more information, see [Edit Projects](/help/quicksilver/manage-work/projects/manage-projects/edit-projects.md).
 
-NOTE: Additional user fields for projects, tasks, and issues will be updated with this functionality in future releases as patches. For information about these patch updates, see [Maintenance Updates.](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=en){target=_blank}
+NOTE: Additional user fields for projects, tasks, and issues will be updated with this functionality in future releases.
 
 [View a video demonstration of this feature.](https://vimeo.com/743166837){target=_blank}
 
@@ -54,7 +54,7 @@ All calculations are now calculated and saved by one standard— Coordinated Uni
 
 Previously, time settings in calculations caused confusion when they varied in these situations:
 
-* If someone recalculated a calculated field expression using “Update previous calculations" on the form builder, date function results were determined by UTC time zone of your organization.
+* If someone recalculated a calculated field expression using "Update previous calculations" on the form builder, date function results were determined by UTC time zone of your organization.
 
 * If someone edited the object and that caused the calculated field expression to recalculate, date function results were determined by the user's local time zone. Calculated date field results in this scenario will also be calculated based on the UTC.
 

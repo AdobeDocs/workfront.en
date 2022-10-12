@@ -20,10 +20,10 @@ A Workfront Team differs from a project team. Workfront teams include individual
 
 ## Team creation
 
-Teams are typically created by a Workfront administrator, but a user with appropriate access can create teams as well.&nbsp;Once a team is created, the Project Manager can assign an entire team to a task instead of deciding on an individual or job role.
+Teams are typically created by a Workfront administrator, but a user with appropriate access can create teams as well. Once a team is created, the Project Manager can assign an entire team to a task instead of deciding on an individual or job role.
 
 ## Team assignments
 
-A Project Manager does not always know which individual will complete an assignment-simply that a particular work unit or team&nbsp;completes work of that specific nature.
+A Project Manager does not always know which individual will complete an assignment--simply that a particular work unit or team completes work of that specific nature.
 
 Members of an assigned team can also go to the Teams > Team Requests area and see the tasks assigned to their team. They can assess the impact of a task and volunteer to work on it.

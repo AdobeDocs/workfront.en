@@ -719,7 +719,7 @@ feature-set: Workfront
     * [Left navigation in Adobe Workfront](workfront-basics/the-new-workfront-experience/simplified-left-navigation.md)
     * [Summary overview](workfront-basics/the-new-workfront-experience/summary-overview.md)
     * [Breadcrumbs overview](workfront-basics/the-new-workfront-experience/breadcrumb-overview.md)
-    * [New object headers overview](workfront-basics/the-new-workfront-experience/new-object-headers.md)
+    * [Object headers overview](workfront-basics/the-new-workfront-experience/new-object-headers.md)
     * [Pin pages to customize your workspace](workfront-basics/the-new-workfront-experience/pin-pages.md)
     * [Access Adobe Workfront help](workfront-basics/navigate-workfront/workfront-navigation/access-workfront-help.md)
     * [Understand objects in Adobe Workfront](workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)
@@ -994,6 +994,7 @@ feature-set: Workfront
   * Migrate from the legacy or enhanced connectors {#migrate-from-legacy-enhanced-connectors}
     * [Migrate from the legacy or enhanced connectors](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/migrate-from-legacy-enhanced-connectors.md)
     * [Migrate from the legacy or enhanced connector to Workfront for Adobe Experience Mangaer as a Cloud Service integration](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/migrate-to-workfont-integration.md)
+    * [Migrate from the legacy connector to the enhanced connector](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/migrate-from-legacy-to-enhanced.md)
     * [Uninstall the Workfront with Adobe Experience Manager legacy connector](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/uninstall-legacy-connector.md)
     * [Uninstall the Workfront with Adobe Experience Manager enhanced connector](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/uninstall-enhanced-connector.md)
     * [Migrate linked folders and documents](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/workfront-document-link-updates.md)

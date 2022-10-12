@@ -61,7 +61,7 @@ Goals can have one of the following statuses in Workfront Goals:
 
 * This is the default status for a newly created goal. For information about creating goals, see [Create goals in Adobe Workfront Goals](../../workfront-goals/goal-management/create-goals.md). 
 * Workfront Goals does not record progress on a drafted goal. 
-* You cannot check in on a drafted goal. 
+* You cannot update the progress of a drafted goal. 
 * You cannot close or deactivate drafted goals because they lack progress information.
 * Drafted goals do not contribute to the progress calculation of other goals, and they are not taken into account in graphs. 
 * Drafted goals display in the following areas of Workfront Goals:
@@ -99,7 +99,7 @@ Goals can have one of the following statuses in Workfront Goals:
 * You cannot deactivate a drafted or closed goal. 
 * You can reactivate an inactive goal and continue to work on it. 
 * Workfront Goals does not calculate progress on inactive goals. 
-* You cannot check in on an inactive goal. 
+* You cannot update the progress of an inactive goal. 
 * Inactive goals do not contribute to the progress calculation of other goals, and they are not taken into account in graphs. 
 * Inactive goals have a progress history because they were once active, unlike drafted goals. 
 * Inactive goals display in the following areas of Workfront Goals:
@@ -119,7 +119,7 @@ Goals can have one of the following statuses in Workfront Goals:
 * You cannot close goals that have never been activated, like drafted goals. 
 * You can reopen a closed goal and continue working on it. 
 * Workfront Goals stops recording progress on closed goals.
-* You cannot check in on closed goals. 
+* You cannot update the progress of a closed goal. 
 * Closed goals display in the following area of Workfront Goals:
 
    * Goal List

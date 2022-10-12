@@ -84,11 +84,7 @@ This section contains the following articles:
 * [Frame.io modules](../../workfront-fusion/apps-and-their-modules/frame-io-modules.md)
 * [FTP modules](../../workfront-fusion/apps-and-their-modules/ftp-modules.md)
 * [GitHub modules](../../workfront-fusion/apps-and-their-modules/github.md)
-
-  <!--
-  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../workfront-fusion/apps-and-their-modules/gitlab-modules.md" class="MCXref xref" xrefformat="{para}">GitLab modules</a> </li>
-  -->
-
+* [GitLab modules](../../workfront-fusion/apps-and-their-modules/gitlab-modules.md)
 * [Gmail modules](../../workfront-fusion/apps-and-their-modules/gmail-modules.md) 
 * [Google Calendar modules](../../workfront-fusion/apps-and-their-modules/google-calendar-modules.md) 
 * [Google Docs modules](../../workfront-fusion/apps-and-their-modules/google-docs-modules.md) 

@@ -138,7 +138,6 @@ You can use both built-in Workfront fields and custom fields that you already cr
    >  ![](assets/colors-fields-expressions.jpg)
    >* Find calculation errors, highlighted in pink, as you go. You can hover over a highlighted error to display a brief description of its cause.
    >  ![](assets/error-help.png) 
-   >  **NOTE**: This functionality is currently unavailable.
    >* In the area below your calculation, preview the results on an existing Workfront object.
    ><!--or by providing test values (NOT READY YET; CHANGE THIS SCREENSHOT WHEN IT IS)-->
    >  ![](assets/preview-calc.jpg)
@@ -289,4 +288,4 @@ Calculated custom fields on an object recalculate automatically when the followi
 
    >[!NOTE]
    >
-   ><div class="preview">In a custom form attached to an object, date and time statements in calculated custom fields are calculated and saved by Coordinated Universal Time (UTC), not by the time zone configurations set for your organization's instance and your user profile. Calculations in a custom form generate based on each users' individual time zones.</div>
+   ><div>In a custom form attached to an object, date and time statements in calculated custom fields are calculated and saved by Coordinated Universal Time (UTC), not by the time zone configurations set for your organization's instance and your user profile. Calculations in a custom form generate based on each users' individual time zones.</div>

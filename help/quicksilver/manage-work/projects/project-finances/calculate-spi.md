@@ -3,7 +3,7 @@ content-type: overview;how-to-procedural
 product-area: projects
 navigation-topic: financials
 title: Calculate Schedule Performance Index (SPI)
-description: Calculate Schedule Performance Index (SPI)
+description: The Schedule Performance Index (SPI) describes the relationship between the planned schedule and actual schedule.
 author: Alina
 feature: Work Management
 exl-id: 38259774-f22b-4b69-9e22-5b541118a7de
@@ -14,7 +14,7 @@ exl-id: 38259774-f22b-4b69-9e22-5b541118a7de
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Linked to the product. Do not change link.)</p>
 -->
 
-The Schedule Performance Index (SPI) describes the relationship between the planned schedule and actual schedule.&nbsp;Adobe Workfront calculates SPI&nbsp;at the project and task levels. Project managers review this metric to identify whether tasks or projects are currently tracking ahead of or behind schedule. &nbsp;
+The Schedule Performance Index (SPI) describes the relationship between the planned schedule and actual schedule. Adobe Workfront calculates SPI at the project and task levels. Project managers review this metric to identify whether tasks or projects are currently tracking ahead of or behind schedule.
 
 ## Access requirements
 

@@ -58,6 +58,8 @@ You must have the following to perform the steps in this article:
    * Custom fields not included in a display logic statement show on a custom form, by default. 
    * You can create multi-field display logic statements.
 
+* When editing objects in bulk, all custom fields display in the Edit objects box, including the fields that are skipped or hidden.    
+
 ## Create a sample custom form that has display and skip logic
 
 The best way to learn how to add display and skip logic to a custom form is through the practical example explained in the two following sections:
