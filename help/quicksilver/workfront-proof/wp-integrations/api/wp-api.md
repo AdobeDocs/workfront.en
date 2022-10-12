@@ -13,8 +13,8 @@ exl-id: d503847c-9a59-4099-8cd7-8ffae48f96ed
 
 >[!IMPORTANT]
 >
->This article refers to functionality in the standalone product [!DNL Workfront] Proof. For information on proofing inside [!DNL Adobe Workfront], see [Proofing](../../../review-and-approve-work/proofing/proofing.md).
+>This article refers to functionality in the standalone product [!DNL Workfront Proof]. For information on proofing inside [!DNL Adobe Workfront], see [Proofing](../../../review-and-approve-work/proofing/proofing.md).
 
 This section contains the following articles:
 
-* [The [!DNL Workfront] Proof API](../../../workfront-proof/wp-integrations/api/workfront-proof-api.md)
+* [The [!DNL Workfront Proof] API](../../../workfront-proof/wp-integrations/api/workfront-proof-api.md)
