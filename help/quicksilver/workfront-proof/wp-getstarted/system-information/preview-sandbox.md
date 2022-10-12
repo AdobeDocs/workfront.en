@@ -30,7 +30,7 @@ The Preview Sandbox contains your actual production data. Data flows from Produc
 By default, as a system administrator, you have access to the Preview Sandbox environment. If you cannot access the Preview Sandbox environment as described in this section, contact your [!DNL Workfront] administrator or our Support team.
 
 * [Accessing the Preview Sandbox as a Stand-Alone [!DNL Workfront Proof] Customer](#accessing-the-preview-sandbox-as-a-stand-alone-workfront-proof-customer)
-* [Accessing the Preview Sandbox as a Workfront+Workfront Proof Customer](#accessing-the-preview-sandbox-as-a-workfront-workfront-proof-customer)
+* [Accessing the Preview Sandbox as a [!DNL Workfront]+[!DNL Workfront Proof] Customer](#accessing-the-preview-sandbox-as-a-workfront-workfront-proof-customer)
 
 ### Accessing the Preview Sandbox as a Stand-Alone [!DNL Workfront Proof] Customer {#accessing-the-preview-sandbox-as-a-stand-alone-workfront-proof-customer}
 
@@ -46,9 +46,9 @@ To access the [!DNL Workfront Proof] Preview Sandbox:
 
 1. Log in to your [!DNL Workfront] environment.
 1. Click **[!UICONTROL Setup]** in the Global Navigation bar.
-1. Click&#x200B;**System** >**Preferences**.
+1. Click **[!UICONTROL System]** >**[!UICONTROL Preferences]**.
 
-1. In the **Test Environments** section, click **Sandbox Preview**.
+1. In the **[!UICONTROL Test Environments]** section, click **[!UICONTROL Sandbox Preview]**.
 
 1. Log in with your Preview credentials.\
    Your Preview credentials should be the same as your Production credential unless you changed them in Production after the Preview refresh happened. The logins are synchronized only when a refresh occurs. They do not synchronize automatically.

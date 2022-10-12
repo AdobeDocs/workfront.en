@@ -19,7 +19,7 @@ As a [!DNL Workfront Proof] administrator, you can choose the language to be use
 
 ## Languages Supported in [!DNL Workfront Proof]
 
-Workfront Proof is available in the following languages:
+[!DNL Workfront Proof] is available in the following languages:
 
 * English (US / UK)
 * Brazilian (Portuguese)
@@ -32,27 +32,27 @@ Workfront Proof is available in the following languages:
 * Spanish
 * Swedish
 
-## Change the Default Language in Account Settings
+## Change the Default Language in [!UICONTROL Account Settings]
 
 To change your account's default language, follow the steps below.
 
-1. Go to the **[!UICONTROL Details]** tab in **Account settings** in Workfront Proof.
+1. Go to the **[!UICONTROL Details]** tab in **[!UICONTROL Account settings]** in [!DNL Workfront Proof].
 
-1. In **Account details** section, click **Edit**&#x200B;for the **Default language**&#x200B;settings.
+1. In **[!UICONTROL Account details]** section, click **[!UICONTROL Edit]** for the **[!UICONTROL Default language]** settings.
 
 1. In the drop-down menu select your default language.\
    ![account_language_setting.png](assets/account-language-setting-350x230.png)
 
-1. Click **Save.**
+1. Click **[!UICONTROL Save].**
 
-## Changing the Default Language in Personal Settings
+## Changing the Default Language in [!UICONTROL Personal Settings]
 
-Individual Workfront Proof users can specify a language different to the one used by default in their account. To change your personal default language, follow the steps below.
+Individual [!DNL Workfront Proof] users can specify a language different to the one used by default in their account. To change your personal default language, follow the steps below.
 
-1. Go to the **Personal details** tab in your **Personal settings** in Workfront Proof.\
-   For more information, see [Manage Workfront Proof users](../../../workfront-proof/wp-acct-admin/account-settings/manage-wp-users.md).
+1. Go to the **[!UICONTROL Personal details]** tab in your **[!UICONTROL Personal settings]** in [!DNL Workfront Proof].\
+   For more information, see [Manage [!DNL Workfront Proof] users](../../../workfront-proof/wp-acct-admin/account-settings/manage-wp-users.md).
 
-1. Click on the language visible in the&#x200B;**Language**&#x200B;setting.
+1. Click on the language visible in the **[!UICONTROL Language]** setting.
 1. In the drop-down menu select your preferred language. Your selection will be saved automatically.\
    ![personal_language_setting.png](assets/personal-language-setting-350x197.png)
 
@@ -75,9 +75,9 @@ You can choose from the following alphabets:
 
 The ability to adjust language in the proofing viewer depends on whether the person accessing a proof is a user or a guest.
 
-For [!DNL Workfront Proof] users, the Proof Viewer displays content in the default language set in their Personal settings.
+For [!DNL Workfront Proof] users, the Proof Viewer displays content in the default language set in their [!UICONTROL Personal settings].
 
-For guests, the proofing viewer displays content in the language the proof owner's has set in the Personal settings.
+For guests, the proofing viewer displays content in the language the proof owner's has set in the [!UICONTROL Personal settings].
 
 >[!NOTE]
 >
