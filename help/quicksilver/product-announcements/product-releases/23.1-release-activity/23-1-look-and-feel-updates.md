@@ -40,3 +40,35 @@ The lists shown here now offer the beta filter experience in addition to the sta
 * Project Tasks
 
 * Project People
+
+* Task Hours
+
+* Templates
+
+* Template Tasks
+
+* Project Billing Records
+
+* Project Billing Records Billable Hours
+
+* Project Expenses
+
+* Template Expenses
+
+* Template Task Expenses
+
+* Task Expenses
+
+* Issue Hours
+
+* Group Projects
+
+* Group Members
+
+* Group Subgroups
+
+* Group Templates
+
+* Group Companies
+
+* Group Teams
