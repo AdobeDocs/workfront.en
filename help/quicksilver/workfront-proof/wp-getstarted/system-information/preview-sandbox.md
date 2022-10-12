@@ -29,16 +29,16 @@ The Preview Sandbox contains your actual production data. Data flows from Produc
 
 By default, as a system administrator, you have access to the Preview Sandbox environment. If you cannot access the Preview Sandbox environment as described in this section, contact your [!DNL Workfront] administrator or our Support team.
 
-* [Accessing the Preview Sandbox as a Stand-Alone [!DNL Workfront Proof] Customer](#accessing-the-preview-sandbox-as-a-stand-alone-workfront-proof-customer)
-* [Accessing the Preview Sandbox as a [!DNL Workfront]+[!DNL Workfront Proof] Customer](#accessing-the-preview-sandbox-as-a-workfront-workfront-proof-customer)
+* [Accessing the Preview Sandbox as a Stand-Alone [!DNL Workfront Proof] Customer](#accessing-the-preview-sandbox-as-a-stand-alone-dnl-workfront-proof-customer)
+* [Accessing the Preview Sandbox as a [!DNL Workfront]+[!DNL Workfront Proof] Customer](#accessing-the-preview-sandbox-as-a-dnl-workfrontworkfront-proof-customer)
 
-### Accessing the Preview Sandbox as a Stand-Alone [!DNL Workfront Proof] Customer {#accessing-the-preview-sandbox-as-a-stand-alone-workfront-proof-customer}
+### Accessing the Preview Sandbox as a Stand-Alone [!DNL Workfront Proof] Customer 
 
 1. Navigate to this URL:  `https://preview.proofhq.com`.
 1. Log in using your Preview credentials.\
    Your Preview credentials should be the same as your Production credentials unless you changed them in Production after the Preview refresh happened. The logins are synchronized only when a refresh occurs, which takes place every weekend. They do not synchronize automatically.
 
-### Accessing the Preview Sandbox as a [!DNL Workfront+Workfront] Proof Customer {#accessing-the-preview-sandbox-as-a-workfront-workfront-proof-customer}
+### Accessing the Preview Sandbox as a [!DNL Workfront+Workfront] Proof Customer 
 
 As a system administrator, you can access the [!DNL Workfront Proof] Preview Sandbox via the [!DNL Workfront] interface. 
 

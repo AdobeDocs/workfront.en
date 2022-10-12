@@ -50,8 +50,4 @@ When it is not necessary for the designer to be involved in the [!DNL Workfront 
 1. The project manager lets the designer know about the change requests using [!UICONTROL Print comments]. For more information, see [Print and Export Comments in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/print-and-export-comments.md).
 1. If necessary, the designer amends the file and uploads it to [!DNL Workfront Proof], where the project manager can create a new version for another round of proofing.
 
-   <!--
-   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-   For more information, see .
-   </MadCap:conditionalText>
-   -->
+

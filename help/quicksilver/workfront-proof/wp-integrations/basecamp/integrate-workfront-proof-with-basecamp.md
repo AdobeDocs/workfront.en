@@ -38,7 +38,7 @@ When integrated with [!DNL Workfront Proof], [!DNL Basecamp] has the following p
 
 The integration of [!DNL Workfront Proof] with [!DNL Basecamp] must be set up on two levels:
 
-* Configure [!DNL Basecamp] in [Account settings:](https://support.workfront.com/hc/en-us/sections/115000912147-Account-settings) This enables the Basecamp integration for your whole organization. For more information, see [Enabling the Basecamp Integration with [!DNL Workfront Proof]](#enabling-the-basecamp-integration-with-workfront-proof).
+* Configure [!DNL Basecamp] in [Account settings:](https://support.workfront.com/hc/en-us/sections/115000912147-Account-settings) This enables the Basecamp integration for your whole organization. For more information, see [Enabling the Basecamp Integration with [!DNL Workfront Proof]](#enabling-the-dnl-basecamp-integration-with-dnl-workfront-proof).
 
 * Configure [!DNL Basecamp] in [Personal settings](https://support.workfront.com/hc/en-us/sections/115000921168-Personal-settings): This enables proof creators and owners to connect to their personal Basecamp account and to authorize [!DNL Workfront Proof] access. For more information, see [Configuring Personal Settings](#configuring-personal-settings).
 
@@ -46,7 +46,7 @@ You can integrate [!DNL Workfront] with either [!DNL Basecamp] or [!DNL Basecamp
 
 For information on configuring [!DNL Basecamp Classic], see [Integrating [!DNL Workfront Proof] with [!DNL Basecamp Classic].](https://support.workfront.com/knowledge/articles/115004234707/en-us?brand_id=662728&return_to=%2Fhc%2Fen-us%2Farticles%2F115004234707)
 
-## Enabling the [!DNL Basecamp] Integration with [!DNL Workfront Proof] {#enabling-the-basecamp-integration-with-workfront-proof}
+## Enabling the [!DNL Basecamp] Integration with [!DNL Workfront Proof]
 
 As a [Proof Permissions Profiles in [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md) or [Proof Permissions Profiles in [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md), you can set up the [!DNL Basecamp] integration for the whole account in your [Account settings](https://support.workfront.com/hc/en-us/sections/115000912147-Account-settings).
 
@@ -77,7 +77,7 @@ As a [Proof Permissions Profiles in [!DNL Workfront Proof]](../../../workfront-p
 1.  If you cannot enable [!DNL Basecamp] integration, your [!DNL Workfront Proof] account ID might not be the same as the account ID you use in [!DNL Basecamp].
 1. Once you integrate [!DNL Workfront Proof] with [!DNL Basecamp], your users can configure their personal settings. For information on setting up personal settings, see [Configuring Personal Settings](#configuring-personal-settings).
 
-## Configuring Personal Settings {#configuring-personal-settings}
+## Configuring Personal Settings
 
 After you set up [Account settings](https://support.workfront.com/hc/en-us/sections/115000912147-Account-settings) for your Organization, each one of your authors that creates/submits proofs should set their  [personal settings.](https://support.workfront.com/hc/en-us/sections/115000921168-Personal-settings)
 
