@@ -10,10 +10,6 @@ exl-id: b2020a50-0921-4ed2-8a34-1a0411992b99
 ---
 # Overview of task predecessors
 
-<!--
-<p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">CONTEXT SENSITIVE HELP article. DO NOT CHANGE THE NAME OF THE ARTICLE/ DO NOT MOVE OR DELETE!</p>
--->
-
 A predecessor is the task another task (called a successor or dependent task) depends on. Adobe Workfront supports five types of predecessor dependencies. To understand predecessor dependencies, see [Overview of task dependency types](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md).
 
 ## Predecessors overview
