@@ -17,7 +17,7 @@ exl-id: 48afedba-b58a-42db-b0fe-befb09ba8acb
 
 This section contains the following articles:
 
-* [Late proof email](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/late-proof-email.md)
-* [New proof email](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/new-proof-email.md)
-* [The New Version email](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/new-version-email.md)
-* [The Proof Made email](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/proof-made-email.md)
+* [[!UICONTROL Late proof] email](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/late-proof-email.md)
+* [[!UICONTROL New proof] email](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/new-proof-email.md)
+* [The [!UICONTROL New Version] email](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/new-version-email.md)
+* [The [!UICONTROL Proof Made] email](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/proof-made-email.md)
