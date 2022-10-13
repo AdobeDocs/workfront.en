@@ -9,8 +9,6 @@ exl-id: 1449374a-ab0d-4c98-83cd-4e511467633a
 ---
 # Edit issues
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span>
-
 You can edit information on issues that you have created, or that other users have created if they shared the issues with you.
 
 You can edit a single issue or you can edit issues in a list. For information about editing issues in a list, see [Edit issues in a list](../../../manage-work/issues/manage-issues/edit-issues-in-a-list.md).
@@ -33,7 +31,9 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Access level*</td> 
-   <td> <p>Edit access to Issues</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information about access to issues in your Access Level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md" class="MCXref xref">Grant access to issues</a>. For information on how a Workfront administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>. </p> </td> 
+   <td> <p>Edit access to Issues</p> <p><b>NOTE</b> 
+   
+   If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information about access to issues in your Access Level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md" class="MCXref xref">Grant access to issues</a>. For information on how a Workfront administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>. </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -219,9 +219,9 @@ You can edit an issue using the Edit Issue or Issue Details areas. The following
       
       <b>TIP</b>
 
-      <span class="preview">When your system or group administrator adds the "Resolved By" field to an issue custom header, the field changes to "Resolving Issue", "Resolving Task", or "Resolving Project" when there is a resolving object associated with the issue. </span>
+      When your system or group administrator adds the "Resolved By" field to an issue custom header, the field changes to "Resolving Issue", "Resolving Task", or "Resolving Project" when there is a resolving object associated with the issue.
 
-      <span class="preview">You cannot edit this field when it displays in the issue header. For more information about customizing issue headers, see <a href="../../../administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md">Customize object headers using a layout template </a></span>
+      You cannot edit this field when it displays in the issue header. For more information about customizing issue headers, see <a href="../../../administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md">Customize object headers using a layout template </a>
       </td> 
      </tr>
 
@@ -243,7 +243,7 @@ You can edit an issue using the Edit Issue or Issue Details areas. The following
 #### Assignments {#assignments}
 
 1. Begin editing the issue as described above.
-1. Click&nbsp;**Assignments** in the left panel.
+1. Click **Assignments** in the left panel.
 
    ![](assets/assignments-section-edit-issue-box-nwe-350x230.png)
 
@@ -257,14 +257,12 @@ You can edit an issue using the Edit Issue or Issue Details areas. The following
    >
    >If the user's name contains a special character, you must include the special character in the search field.
 
-   You can assign multiple users or job roles to a task. You can assign only one team to a task.
-
    >[!TIP]
    >
-   >You can assign multiple users or job roles, and you can assign only one team. You can assign only active users, job roles, and teams.
+   >You can assign multiple users, job roles, or teams. You can assign only active users, job roles, and teams.
    >
    >
-   >If a user, job role, or a team was assigned before they were deactivated, they remain assigned to the work item. In this case, we recommend the following: 
+   >If a user, job role, or team was assigned before they were deactivated, they remain assigned to the work item. In this case, we recommend the following: 
    >
    >* Reassign the work item to active resources. 
    >* Associate the users in a deactivated team with an active team and reassign the work item to the active team. 
@@ -284,7 +282,9 @@ You can edit an issue using the Edit Issue or Issue Details areas. The following
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">Assignee's Role</td> 
-      <td> <p>Select a role from the <strong>Assignee's Role</strong> drop-down menu when you selected a person as an assignee. This is the role that the assignee can fulfill on this issue. </p> <p>Tip: Only the job roles associated with each assignee in their profile appear in the drop-down menu.</p> </td> 
+      <td> <p>Select a role from the <strong>Assignee's Role</strong> drop-down menu when you selected a person as an assignee. This is the role that the assignee can fulfill on this issue. </p> <p><b>TIP</b>
+      
+      Only the job roles associated with each assignee in their profile appear in the drop-down menu.</p> </td> 
      </tr> 
     </tbody> 
    </table>
@@ -355,11 +355,11 @@ You can edit an issue using the Edit Issue or Issue Details areas. The following
 
 You can edit a limited amount of information in the issue header. 
 
-<span class="preview">Your system or group administrator can customize the fields you see in the issue header. For information, see [Customize object headers using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).</span>
+Your system or group administrator can customize the fields you see in the issue header. For information, see [Customize object headers using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).
 
 ![](assets/issue-header-350x19.png)
 
-<span class="preview">The following fields are included in the issue header, by default:</span>
+The following fields are included in the issue header, by default:
 
 * Issue name
 * Percent complete

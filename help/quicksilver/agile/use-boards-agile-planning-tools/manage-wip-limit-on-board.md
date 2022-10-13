@@ -14,10 +14,6 @@ You can configure a Work In Progress (WIP) limit for each column on a board.
 
 The WIP limit is simply a visual warning and does not restrict you from having more items in each column than the limit you set.
 
->[!NOTE]
->
->WIP limits are available only via the early feature opt-in. For details, see [Early feature opt-in for Adobe Workfront Boards](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md).
-
 ## Access requirements
 
 You must have the following access to perform the steps in this article:

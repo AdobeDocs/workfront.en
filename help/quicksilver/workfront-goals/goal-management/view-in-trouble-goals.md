@@ -2,7 +2,7 @@
 product-previous: workfront-goals
 navigation-topic: goal-management
 title: Review in-trouble goals in Adobe Workfront Goals
-description: Review in-trouble goals in Adobe Workfront Goalsred" used to be called At Risk. Now, it is "in trouble")"
+description: oals with a Progress of In Trouble are in danger of not being achieved and are represented by a red progress bar in Adobe Workfront Goals. You should review your goals often and understand why the progress is lagging.
 author: Alina
 feature: Workfront Goals
 exl-id: df2cdc12-9102-4759-9daa-1f8ae68f110b
@@ -10,7 +10,7 @@ exl-id: df2cdc12-9102-4759-9daa-1f8ae68f110b
 # Review in-trouble goals in&nbsp;Adobe Workfront Goals
 
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: the status of goals in "red" used to be called At Risk. Now, it is "in trouble") </p>
+<p>(NOTE: the status of goals in "red" used to be called At Risk. Now, it is "in trouble") </p>
 -->
 
 Goals with a Progress of In Trouble are in danger of not being achieved and are represented by a red progress bar in Adobe Workfront Goals. You should review your goals often and understand why the progress is lagging. For information about goal progress, see [Calculate goal progress in Adobe Workfront Goals](../../workfront-goals/goal-management/calculate-goal-progress.md).
@@ -110,7 +110,7 @@ This article describes how to review goals in the Goal List.
 
    In-trouble goals for the selected users display in the goal list. 
 
-1. Click Expand goals to view additional information about the goals and their contributing items. 
+1. Click the down-pointing arrow to the left of the goal name in the list to view additional information about the goals and their contributing items. 
 1. A list of results, activities, and aligned goals displays under each goal. Now, you can view which contributing item delays the progress of your goal.
 
    ![](assets/expanded-goal-w-contributing-items-attached-350x105.png)

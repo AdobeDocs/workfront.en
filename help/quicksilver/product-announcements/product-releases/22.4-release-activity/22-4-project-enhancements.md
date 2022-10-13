@@ -38,9 +38,11 @@ We have improved the way users display when you add them to the following projec
 
 * Resource Manager 
 
-Now, when you add a user to any of these fields in the Edit or Details areas, in addition to their name and avatar, we also display their Primary Role and their email. This helps distinguish between multiple users with similar or identical names.    
+Now, when you add a user to any of these fields in the Edit or Details areas, in addition to their name and avatar, their Primary Role and their email also display. This helps distinguish between multiple users with similar or identical names.    
 
 For more information, see [Edit Projects](/help/quicksilver/manage-work/projects/manage-projects/edit-projects.md).
+
+NOTE: Additional user fields for projects, tasks, and issues will be updated with this functionality in future releases.
 
 [View a video demonstration of this feature.](https://vimeo.com/743166837){target=_blank}
 
@@ -52,7 +54,7 @@ All calculations are now calculated and saved by one standard— Coordinated Uni
 
 Previously, time settings in calculations caused confusion when they varied in these situations:
 
-* If someone recalculated a calculated field expression using “Update previous calculations" on the form builder, date function results were determined by UTC time zone of your organization.
+* If someone recalculated a calculated field expression using "Update previous calculations" on the form builder, date function results were determined by UTC time zone of your organization.
 
 * If someone edited the object and that caused the calculated field expression to recalculate, date function results were determined by the user's local time zone. Calculated date field results in this scenario will also be calculated based on the UTC.
 

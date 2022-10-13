@@ -62,7 +62,7 @@ The following table displays the areas where you can locate and use the Summary 
 
 This article describes how to access and use the Summary panel for tasks and issues in lists.
 
-For information about accessing the Summary in the Workload Balancer, see [Update work items in the Workload Balancer using the Summary in the new Adobe Workfront experience](../../resource-mgmt/workload-balancer/update-items-in-summary-panel-in-workload-balancer.md).
+For information about accessing the Summary in the Workload Balancer, see [Update work items in the Workload Balancer using the Summary](../../resource-mgmt/workload-balancer/update-items-in-summary-panel-in-workload-balancer.md).
 
 For information about accessing the Summary for documents, see [Summary for documents overview](../../documents/managing-documents/summary-for-documents.md).
 
