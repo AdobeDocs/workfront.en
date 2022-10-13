@@ -108,7 +108,7 @@ You must have the following access to perform the steps in this article:
 
          >[!TIP]
          >
-         >You can assign multiple users or job roles, and you can assign only one team. You can assign only active users, job roles, and teams.
+         >You can assign multiple users, job roles, or teams. You can assign only active users, job roles, and teams.
          >
          >If a user, job role, or a team was assigned before they were deactivated, they remain assigned to the work item. In this case, we recommend the following:
          >

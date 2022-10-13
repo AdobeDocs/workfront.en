@@ -90,6 +90,7 @@ feature-set: Workfront
       * [21.1 Other enhancements](product-announcements/product-releases/21.1-release-activity/21-1-other-enhancements.md)
     * Adobe Workfront Fusion release activity {#fusion-release}
       * [Adobe Workfront Fusion release activity](product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)
+      * [Workfront Fusion release activity: Week of September 26, 2022](product-announcements/product-releases/fusion-release-activity/fusion-sept-26-22.md)
       * [Workfront Fusion release activity: Week of September 19, 2022](product-announcements/product-releases/fusion-release-activity/fusion-sept-19-22.md)
       * [Workfront Fusion release activity: Week of July 11, 2022](product-announcements/product-releases/fusion-release-activity/fusion-july-11-22.md)
       * [Workfront Fusion release activity: Week of June 27, 2022](product-announcements/product-releases/fusion-release-activity/fusion-jun-27-22.md)
@@ -718,7 +719,7 @@ feature-set: Workfront
     * [Left navigation in Adobe Workfront](workfront-basics/the-new-workfront-experience/simplified-left-navigation.md)
     * [Summary overview](workfront-basics/the-new-workfront-experience/summary-overview.md)
     * [Breadcrumbs overview](workfront-basics/the-new-workfront-experience/breadcrumb-overview.md)
-    * [New object headers overview](workfront-basics/the-new-workfront-experience/new-object-headers.md)
+    * [Object headers overview](workfront-basics/the-new-workfront-experience/new-object-headers.md)
     * [Pin pages to customize your workspace](workfront-basics/the-new-workfront-experience/pin-pages.md)
     * [Access Adobe Workfront help](workfront-basics/navigate-workfront/workfront-navigation/access-workfront-help.md)
     * [Understand objects in Adobe Workfront](workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)
@@ -990,6 +991,13 @@ feature-set: Workfront
       * [Send a Document to Experience Manager Assets or Assets Essentials](documents/adobe-workfront-for-experience-manager-assets-essentials/send-to-aem.md)
       * [Proof a linked asset for Experience Manager Assets or Asset Essentials](documents/adobe-workfront-for-experience-manager-assets-essentials/proof-linked-asset-aem.md)
       * [Create a folder linked with Experience Manager Assets or Assets Essentials](documents/adobe-workfront-for-experience-manager-assets-essentials/create-linked-folder.md)
+  * Migrate from the legacy or enhanced connectors {#migrate-from-legacy-enhanced-connectors}
+    * [Migrate from the legacy or enhanced connectors](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/migrate-from-legacy-enhanced-connectors.md)
+    * [Migrate from the legacy or enhanced connector to Workfront for Adobe Experience Mangaer as a Cloud Service integration](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/migrate-to-workfont-integration.md)
+    * [Migrate from the legacy connector to the enhanced connector](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/migrate-from-legacy-to-enhanced.md)
+    * [Uninstall the Workfront with Adobe Experience Manager legacy connector](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/uninstall-legacy-connector.md)
+    * [Uninstall the Workfront with Adobe Experience Manager enhanced connector](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/uninstall-enhanced-connector.md)
+    * [Migrate linked folders and documents](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/workfront-document-link-updates.md)
 * Manage Work {#manage-work}
   * [Manage work](manage-work/manage-work.md)
   * Projects {#projects}
@@ -1313,6 +1321,9 @@ feature-set: Workfront
     * [Delegate work](manage-work/delegate-work/delegate-work.md)
     * [Delegate tasks and issues overview](manage-work/delegate-work/delegate-work-overview.md)
     * [Manage task and issue delegation](manage-work/delegate-work/how-to-delegate-work.md)
+* Operating models {#operating-models}
+  * [Operating models overview](operating-models/operating-models-overview.md)
+  * [Design flexible operating models in Adobe Workfront](operating-models/create-work-objects-records-operating-models-alpha-document.md)  
 * Teams and groups {#teams-groups}
   * [Teams and groups](people-teams-and-groups/people-teams-and-groups.md)
   * Create and manage teams {#create-manage-teams}
@@ -1993,6 +2004,7 @@ feature-set: Workfront
     * [Frame.io modules](workfront-fusion/apps-and-their-modules/frame-io-modules.md)
     * [FTP modules](workfront-fusion/apps-and-their-modules/ftp-modules.md)
     * [GitHub modules](workfront-fusion/apps-and-their-modules/github.md)
+    * [GitLab modules](workfront-fusion/apps-and-their-modules/gitlab-modules.md)
     * [Gmail modules](workfront-fusion/apps-and-their-modules/gmail-modules.md)
     * [Google Calendar modules](workfront-fusion/apps-and-their-modules/google-calendar-modules.md)
     * [Google Docs modules](workfront-fusion/apps-and-their-modules/google-docs-modules.md)
@@ -2054,26 +2066,26 @@ feature-set: Workfront
   * [Adobe Workfront integration methods](workfront-integrations-and-apps/built-in-vs-api-vs-fusion.md)
   * Adobe Workfront for Creative Cloud {#workfront-for-creative-cloud}
     * [Adobe Workfront for Creative Cloud](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-cc.md)
-    * Adobe Workfront for Photoshop {#workfront-for-photoshop}
-      * [Adobe Workfront for Photoshop](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/workfront-for-photoshop.md)
-      * [Install Workfront for Adobe Photoshop](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install.md)
-      * [Find your work in Adobe Photoshop](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-find-work.md)
-      * [View work item information in Adobe Photoshop](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-view-work-info.md)
-      * [Update your work in Adobe Photoshop](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-update.md)
-      * [Upload proofs from Adobe Photoshop](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-proofs.md)
-      * [Upload documents from Adobe Photoshop](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-docs.md)
-      * [Mark work items complete in Adobe Photoshop](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-complete.md)
-      * [Log time in Adobe Photoshop](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-log-time.md)
-    * Adobe Workfront for XD {#workfront-for-xd}
-      * [Adobe Workfront for XD](workfront-integrations-and-apps/adobe-workfront-for-xd/wf-adobe-xd.md)
-      * [Install Workfront for Adobe XD](workfront-integrations-and-apps/adobe-workfront-for-xd/wf-adobe-xd-install.md)
-      * [Find your work in Adobe XD](workfront-integrations-and-apps/adobe-workfront-for-xd/wf-adobe-xd-find-work.md)
-      * [View work item information in Adobe XD](workfront-integrations-and-apps/adobe-workfront-for-xd/wf-adobe-xd-view-work-info.md)
-      * [Upload XD art boards as proofs to Workfront](workfront-integrations-and-apps/adobe-workfront-for-xd/wf-adobe-xd-proofs.md)
-      * [Upload XD art boards as documents to Workfront](workfront-integrations-and-apps/adobe-workfront-for-xd/wf-adobe-xd-docs.md)
-      * [Update your work in Adobe XD](workfront-integrations-and-apps/adobe-workfront-for-xd/wf-adobe-xd-update.md)
-      * [Mark work items complete in Adobe XD](workfront-integrations-and-apps/adobe-workfront-for-xd/wf-adobe-xd-complete.md)
-      * [Log time in Adobe XD](workfront-integrations-and-apps/adobe-workfront-for-xd/wf-xd-log-time.md)
+    * Install the Adobe Workfront plugin for Creative Cloud Applications {#install-wf-cc}
+      * [Install Adobe Workfront for Creative Cloud Applications](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-toc.md)
+      * [Install Adobe Workfront for Photoshop](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-ps.md)
+      * [Install Adobe Workfront for XD](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-install.md)
+      * [Install Adobe Workfront for InDesign](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-install-cc.md)
+    * Manage work with the Adobe Workfront plugin for Creative Cloud Applications {#manage-wf-cc}
+      * [Manage work with the Adobe Workfront plugin for Creative Cloud Applications](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-manage-work-toc.md)
+      * [Find your work using the Adobe Workfront plugin](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-find-work.md)
+      * [View work item information using the Adobe Workfront plugin](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-view-work-info.md)
+      * [Update your work using the Adobe Workfront plugin](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-update.md)
+      * [Mark work items complete using the Adobe Workfront plugin](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-complete.md)
+      * [Log time using the Adobe Workfront plugin](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-log-time.md)
+    * Upload documents and proofs with the Adobe Workfront plugin for Creative Cloud Applications {#upload-docs-proofs-wf-cc}
+      * [Upload documents and proofs with the Adobe Workfront plugin for Creative Cloud Applications](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-docs-proofs-toc.md)
+      * [Upload proofs from Photoshop](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-proofs-ps.md)
+      * [Upload documents from Photoshop](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-docs-ps.md)
+      * [Upload XD art boards as proofs to Workfront](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-proofs.md)
+      * [Upload XD art boards as documents to Workfront](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-docs.md)
+      * [Upload proofs from InDesign](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-proofs-id.md)
+      * [Upload documents from InDesign](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-docs-id.md)
     * Workfront Extension for Illustrator and InDesign {#workfront-for-illustrator-indesign}
       * [Workfront Extension for Illustrator and InDesign](documents/workfront-for-adobe-creative-cloud/workfront-for-adobe-creative-loud.md)
       * [Install the Workfront Extension for Illustrator and InDesign](documents/workfront-for-adobe-creative-cloud/installl-wf-adobe-cc.md)

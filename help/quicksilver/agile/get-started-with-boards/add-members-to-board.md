@@ -41,13 +41,7 @@ You must have the following access to perform the steps in this article:
 1. Click the **Add member** icon ![Add members](assets/boards-addmember-spectrum-25x25.png).
 1. In the **Add members** box, start typing a name, then select it when it displays in the list.
 
-   You can select an individual member or a team. If you choose a team, everyone on the team is added to the board individually.
-
-   >[!NOTE]
-   >
-   >If your organization participates in early features and you choose a team, the team itself is added to the board. Individual team members are then available to assign to a card.
-   >
-   >The option to add the team itself is available only via the early feature opt-in. For details, see [Early feature opt-in for Adobe Workfront Boards](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md).
+   You can select an individual member or a team. If you choose a team, the team itself is added to the board. Individual team members are then available to assign to a card.
 
    >[!NOTE]
    >

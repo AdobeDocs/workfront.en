@@ -9,11 +9,6 @@ exl-id: 9649e482-af24-4516-9a69-ef12b2f1d579
 ---
 # Manage user allocations in the Workload Balancer
 
-<!--drafted note for 22.4 release: remove all production/ preview references at Prod release-->
-
-
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> 
-
 As a Resource Manager, you can assign work to users and manage their daily, weekly, or monthly allocations from the Workload Balancer to ensure they are allocated an amount of hours that fits in their available schedules.
 
 ## Access requirements {#access-requirements}
@@ -30,8 +25,9 @@ You must have the following:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Plan, in the Production environment</p>
-   <p><span class="preview">Work,  in the Preview environment </p> </td> 
+   <td> <p>Plan, when using the Workload Balancer for a team or in the Resourcing area </p>
+   <p>Work, when using the Workload Balancer of a project </p>
+ </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configuration*</td> 

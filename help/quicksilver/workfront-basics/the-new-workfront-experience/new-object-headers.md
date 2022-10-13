@@ -1,16 +1,12 @@
 ---
 content-type: overview
 navigation-topic: the-new-workfront-experience
-title: New object headers overview
+title: Object headers overview
 description: You can view information at a glance about objects in Adobe Workfront when you review their header. The information in a header can include the owner of the object, the status, or the percent complete.
 feature: Get Started with Workfront
 exl-id: 76e21df0-9272-4bfb-8a97-c16ae5f4b5dc
 ---
-# New object headers overview
-
-<!--remove production and preview preferences at release-->
-
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> 
+# Object headers overview
 
 You can view information at a glance about objects in Adobe Workfront when you review their header. The information in a header can include the owner of the object, the status, or the percent complete.
 
@@ -34,7 +30,7 @@ The following headers are available in Home:
 
 ## Customizable headers
 
-Your Workfront  or group administrator  can customize the header of projects, <span class="preview">tasks, and issues</span> by using a layout template.
+Your Workfront  or group administrator  can customize the header of projects, tasks, and issues by using a layout template.
 
 This article describes the default headers for all objects, including projects and tasks and issues.
 
@@ -46,7 +42,7 @@ For information about customizing information on the header of an object, see [C
 
 ![](assets/project-header-350x18.png)
 
-The project header displays the following information:
+The project header displays the following information, by default:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -88,10 +84,10 @@ The project header displays the following information:
   </tr> 
   <tr> 
    <td role="rowheader">Planned Completion Date </td> 
-   <td> <p>You can edit the project Planned Completion Date <span>and time</span> in the header if the project is scheduled from Completion Date. If the project is scheduled from Start Date, this information is updated from the tasks in the project.</p> </td> 
+   <td> <p>You can edit the project Planned Completion Date and time in the header if the project is scheduled from Completion Date. If the project is scheduled from Start Date, this information is updated from the tasks in the project.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><span>Condition</span> </td> 
+   <td role="rowheader">Condition </td> 
    <td> <p>When you set the Condition Type of the project to Manual, you can update the project Condition in the header.</p></td> 
   </tr> 
   <tr> 
@@ -109,7 +105,7 @@ The project header displays the following information:
 
 ![](assets/task-header-350x18.png)
 
-The task header includes the following information:
+The task header includes the following information, by default:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -172,7 +168,7 @@ The task header includes the following information:
 
 ![](assets/issue-header-350x19.png)
 
-The issue header includes the following information:
+The issue header includes the following information, by default:
 
 <table style="table-layout:auto"> 
  <col> 
