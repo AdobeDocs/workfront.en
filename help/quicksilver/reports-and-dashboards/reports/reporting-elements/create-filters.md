@@ -84,6 +84,7 @@ You can create filters using the types of filter builders described in the table
 <li> <span class="preview"><p>Programs</p></span> </li>
 <li> <span class="preview"><p>Users</p></span> </li>
 <li> <span class="preview"><p>Templates</p></span> </li>
+<li> <span class="preview"><p>Groups</p></span> </li>
 </ul>
 </td>
 <td>
