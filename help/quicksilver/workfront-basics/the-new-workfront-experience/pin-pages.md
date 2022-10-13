@@ -10,9 +10,9 @@ exl-id: c391dabc-8dc4-4c4b-b0fc-7ccc4244cb8a
 
 {{highlighted-preview}}
 
-You can pin your most important work in Adobe Workfront for increased visibility, better organization, and quicker access. Pinned pages are always accessible from the top of any page in the new Adobe Workfront experience.
+You can pin your most important work in Adobe Workfront for increased visibility, better organization, and quicker access. Pinned pages are always accessible from the top of any page in Workfront.
 
-You might be assigned to a Layout Template that has pages already pinned (as described in [Customize pinned pages using a layout template](../../administration-and-setup/customize-workfront/use-layout-templates/customize-pinned-pages.md)). Any pages you pin display to the right of any existing pins.
+You might be assigned to a layout template that has pages already pinned (as described in [Customize pinned pages using a layout template](../../administration-and-setup/customize-workfront/use-layout-templates/customize-pinned-pages.md)). Any pages you pin display to the right of any existing pins.
 
 ## Access requirements
 
