@@ -10,6 +10,12 @@ exl-id: e073cf10-2333-4095-b932-73d105f0c5a4
 ---
 # Goal alignment overview in Adobe Workfront Goals
 
+<!-- remove Prod and Preview references at release-->
+
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> 
+-->
+
 >[!NOTE]
 >
 >Your organization must have the following to use the functionality described in this article:
@@ -32,12 +38,14 @@ For more information about best practices when aligning goals, see [Get started 
 
   >[!TIP]
   >
-  >Remember to keep this structure as simple as possible.
+  >We recommend to keep this structure as simple as possible.
 
 * As an individual contributor, we recommend that you contribute to your own goals which should be aligned to team, group, and company-level goals. Updating your own goals should update the progress on all other parent goals. 
 * As a CEO or business manager, we recommend that you contribute to your goals, as well as update those assigned to teams, groups, and the company.
 
 ## Types of goal alignment
+
+<!--drafted for goal redesign: not sure which one is possible in the redesign - update below accordinly-->
 
 There are two approaches for aligning goals:
 
@@ -62,14 +70,27 @@ Consider the following when working with children and parent goals:
 
 ## Locate aligned goals
 
-After aligning goals they are part of the same hierarchy and are visible in various areas of Workfront:&nbsp;
+After aligning goals they are part of the same hierarchy and are visible in various areas of Workfront Goals.
 
-* You can view children and parent goals in the following areas of Workfront Goals:
+<!--drafted for the goal redesign:
+* In the Production enviroment: (and then indent the ones below further)-->
 
-   * The Goal&nbsp;Details panel
+* You can view children and parent goals in the following areas:
+
+   * The Goal Details panel
    * Goal List
    * Goal Alignment section
    * Check-in section
    * Pulse section
 
 * You can view all the parent goals of a goal in the Goal Hierarchy field of a Project or Goal report.
+
+<!--
+<Div class="preview">
+* In the Preview environment, you can view children and parent goals inn the following areas: 
+
+  * The Progress Indicators section on a goal's page, under the Type:Goal grouping. 
+  * Goal Alignment section of the Goals page. 
+</div>
+  -->
+  
