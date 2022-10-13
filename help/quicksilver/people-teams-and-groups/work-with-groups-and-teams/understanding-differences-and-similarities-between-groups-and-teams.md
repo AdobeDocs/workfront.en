@@ -40,7 +40,7 @@ The following table illustrates differences and similarities between groups and 
 |---|---|---|
 | A Planner can create |&nbsp; |✓ |
 | Only a Workfront administrator can create |✓ |&nbsp; |
-| Share objects&nbsp; |✓ |✓ |
+| Share objects |✓ |✓ |
 | Assign a task |&nbsp; |✓ |
 | Assign an issue |&nbsp; |✓ |
 | Associate with a project |✓ |&nbsp; |
@@ -49,7 +49,9 @@ The following table illustrates differences and similarities between groups and 
 | Tag in a comment&nbsp;&nbsp; |&nbsp; |✓ |
 | View in the People or Teams area |&nbsp; |✓ |
 | View Working On List |&nbsp; |✓ |
-| Filter users in the Resource Planner |&nbsp; |✓ |
+| Filter users in the Resource Planner |✓ |✓ |
+| Filter users in the Workload Balancer |✓ |✓ |
+| Filter users in the Utilization report |✓ |✓ |
 | Visibility of Milestone Paths for a Project or Template |✓ |&nbsp; |
 | Visibility of Custom Forms&nbsp; |✓&nbsp; |&nbsp; |
 | Visibility of Schedules |✓ |&nbsp; |
