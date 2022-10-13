@@ -35,7 +35,7 @@ The enhancements on this page are available in the Preview environment. This pag
                 </tr>
                 <tr>
                     <td>
-                        <a href="../../../product-announcements/product-releases/23.1-release-activity/23-1-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Copy a direct link to a document folder</a><span style="color: #ff0000;"> New in Preview!</span></p>
+                        <a href="../../../product-announcements/product-releases/23.1-release-activity/23-1-oct-10.md" class="MCXref xref" xrefformat="{para}">Copy a direct link to a document folder</a><span style="color: #ff0000;"> New in Preview!</span></p>
                         <p>You can now copy and share document folder links to provide quick access to the folder. Users must have at least View access to the object to view the folder.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
@@ -129,7 +129,7 @@ The enhancements on this page are available in the Preview environment. This pag
                 </tr>
                 <tr>
                     <td>
-                        <a href="../../../product-announcements/product-releases/23.1-release-activity/23-1-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Rename pins and a new experience when deleting pins</a> <span style="color: #ff0000;"> New in Preview!</span> </p>
+                        <a href="../../../product-announcements/product-releases/23.1-release-activity/23-1-oct-10.md" class="MCXref xref" xrefformat="{para}">Rename pins and a new experience when deleting pins</a> <span style="color: #ff0000;"> New in Preview!</span> </p>
                         <p>The following updates are now available for pins:</p>
                         <ul>
                         <li>Rename existing pins</li>
