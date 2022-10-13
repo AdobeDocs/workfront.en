@@ -166,7 +166,7 @@ With this upgrade, the Desktop Proofing Viewer will support Chrome version 98 fo
 
 ### Workfront Fusion enhancements
 
-New features in Workfront Fusion are available in Production at a cadence outside of the 22.4 release schedule. For more information about the latest features, see [Adobe Workfront Fusion release activity](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+New features in Workfront Fusion are available in Production at a cadence outside of the 23.1 release schedule. For more information about the latest features, see [Adobe Workfront Fusion release activity](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
 ### WorkfrontScenario Planner enhancements
 
@@ -180,11 +180,11 @@ There are no Workfront Proof updates at this point in the release. This area wil
 
 There are no Workfront Goals updates at this point in the release. This area will be updated when updates are available.
 
-### API version 14
+### API version 15
 
-For API version 14, we've modified some resources and endpoints. Some of the changes support new functionality, and others make it easier for you to use the information available through the API.
+For API version 15, we've modified some resources and endpoints. Some of the changes support new functionality, and others make it easier for you to use the information available through the API.
 
-For information on what's new and updated, see [What's new in API version 14](/help/quicksilver/wf-api/api/new-api-version-14.md).
+For information on what's new and updated, see [What's new in API version 15](/help/quicksilver/wf-api/api/new-api-version-15.md).
 
 For information on API versions, see [API versioning and support schedule](/help/quicksilver/wf-api/api/api-version-support-schedule.md).
 
@@ -192,23 +192,27 @@ For information on API versions, see [API versioning and support schedule](/help
 
 For information about the maintenance updates made during the 22.3 release, see [Workfront Maintenance Updates](https://one.workfront.com/s/article/Workfront-Maintenance-Updates-1882317350).
 
-### 22.4 Release Webinar
+### 23.1 Release Webinar
 
+The 23.1 release webinar is not yet scheduled. This page will be updated with registration information when it is available.
+
+<!-- 
 The 22.4 release webinar will be held on Thursday, September 22, 2022 at 9:00 AM PDT. You can [register for the webinar here](https://event.on24.com/wcc/r/3915365/9E496D02A98ECB8C86B1D2D09DDAA443?partnerref=prodmgt).
+-->
 
 ### Training updates
 
 Explore the latest updates made to learning programs, learning paths, videos, and guides for each Adobe Workfront product release. For more information, see the [Training release updates page](https://one.workfront.com/s/training-release-updates).
 
-### Functionality being removed with the 22.4 release
+### Functionality soon to be removed from Workfront
 
-The following features will be removed with the 22.4 release to Production:
+The following soon to be removed from Workfront:
 
 * List Controls (from the Interface area in Setup)
 
 >[!NOTE]
 >
->The deprecation of List Controls has been postponed until after the 22.4 release. The deprecation date will be announced in future communications.
+>The deprecation date will be announced in future communications.
 
 
 * Resource Scheduler
@@ -223,13 +227,9 @@ The Workload Balancer is replacing the Resource Scheduler. For more information 
 
 * [Migrate from Resource Scheduling to the Workload Balancer](/help/quicksilver/resource-mgmt/resource-mgmt-overview/migrate-resource-scheduling-to-workload-balancer.md)
 
-* Zoom integration
-
-### Functionality being removed after the 22.4 release
-
-The following feature will be removed in November 2022:
-
 * The SHARE event type in the Event Subscriptions API. 
+  
+  This feature will be removed in November 2022.
   
   This event type allowed customers to watch when permissions for objects were updated.
 
