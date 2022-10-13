@@ -3,7 +3,7 @@ content-type: overview;how-to-procedural
 product-area: projects
 navigation-topic: financials
 title: Calculate Cost Schedule Performance Index (CSI)
-description: Calculate Cost Schedule Performance Index (CSI)
+description: The Cost Schedule Performance Index (CSI) is an automatic calculation which combines the Cost Performance Index (CPI) and Schedule Performance Index (SPI) into one general metric that balances cost and schedule.
 author: Alina
 feature: Work Management
 exl-id: 38a8c5e0-b812-499d-8fe7-a71ddccb3aad
@@ -16,7 +16,7 @@ exl-id: 38a8c5e0-b812-499d-8fe7-a71ddccb3aad
 
 ## Overview of the Cost Schedule Performance Index (CSI)
 
-The Cost Schedule Performance Index (CSI) is an automatic calculation which combines the Cost Performance Index (CPI) and Schedule Performance Index (SPI) into one general metric that balances cost and schedule. &nbsp;By multiplying these values together, a single metric can account for a protracted schedule at a lower budget or vice versa. &nbsp;Project managers may use this to determine general project or task health when cost is sacrificed to drive schedule mid-project.
+The Cost Schedule Performance Index (CSI) is an automatic calculation which combines the Cost Performance Index (CPI) and Schedule Performance Index (SPI) into one general metric that balances cost and schedule. By multiplying these values together, a single metric can account for a protracted schedule at a lower budget or vice versa. Project managers may use this to determine general project or task health when cost is sacrificed to drive schedule mid-project.
 
 >[!TIP]
 >
@@ -25,7 +25,7 @@ The Cost Schedule Performance Index (CSI) is an automatic calculation which comb
 You can benefit from the information provided by this metric only if the following exist in your organization:
 
 * Your users are logging time for the work they complete.  
-  This calculates CSI based on Hours.&nbsp;
+  This calculates CSI based on Hours.
 * Your users or job roles have Cost per Hour rates associated with them.&nbsp;
 
   This calculates CSI based on Costs.

@@ -10,9 +10,7 @@ exl-id: 04b09d8f-71bf-4c5b-b2f3-09c714740969
 
 This page provides information about functionality that is included in the 22.4 release.
 
-These enhancements are currently available in the Preview environment and will be made available in the Production environment with the 22.4 release the week of October 3, 2022. As the 22.4 release nears its planned Production release, this page will be updated with all functionality included with 22.4.
-
-For specific release dates and times for each cluster, see the [Adobe Workfront status page](https://status.adobe.com/products/503490) on [status.adobe.com](http://status.adobe.com/). You must log in to see specific release times.
+These enhancements were made available in the Production environment with the 22.4 release on October 6 and 7, 2022.
 
 ## Adobe Workfront enhancements
 
@@ -207,7 +205,7 @@ Note: This functionality is not currently available in the Workload Balancer in 
                         <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Smart user selection for project roles in the Edit and Details areas</a> </p>
                         <p>We have improved the way users display when you add them to the Project Owner, Project Sponsor, and Resource Manager project fields from the Edit box and the Details section of the project.</p>
                         <p>Now, when you add a user to any of these fields in the Edit or Details areas, in addition to their name and avatar, their Primary Role and their email also display. This helps distinguish between multiple users with similar or identical names.</p>
-                        <p><b>NOTE:</b> Additional user fields for projects, tasks, and issues will be updated with this functionality in future releases as patches. For information about these patch updates, see <a href="https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=en" class="MCXref xref" xrefformat="{para}">Maintenance Updates</a>.</p>
+                        <p><b>NOTE:</b> Additional user fields for projects, tasks, and issues will be updated with this functionality in future releases.</p>
                     </td>
                     <td><b>Available on these dates:</b>
                         <ul>
@@ -339,14 +337,15 @@ Note: This functionality is not currently available in the Workload Balancer in 
                         <p>Only one intake column is permitted on a board.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
-                     <p><span style="color: #ff0000;">This feature is available only through the early feature opt-in for Workfront Boards.</span>
+                     <p>
                         </p>
                         <ul>
                             <li>
                                 <p>Preview release: September 8, 2022<br /></p>
                             </li>
                             <li>
-                                <p>Production release: September 15, 2022</p>
+                                <p>Production release for early opt-in: September 15, 2022</p>
+                                <p>Production release for all customers: With the 22.4 release</p>
                             </li>
                         </ul>
                     </td>
@@ -358,14 +357,15 @@ Note: This functionality is not currently available in the Workload Balancer in 
                         <p>Previously, the filters were displayed in a drop-down on the right side of the board.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
-                     <p><span style="color: #ff0000;">This feature is available only through the early feature opt-in for Workfront Boards.</span>
+                     <p>
                         </p>
                         <ul>
                             <li>
                                 <p>Preview release: September 8, 2022<br /></p>
                             </li>
                             <li>
-                                <p>Production release: September 15, 2022</p>
+                                <p>Production release for early opt-in: September 15, 2022</p>
+                                <p>Production release for all customers: With the 22.4 release</p>
                             </li>
                         </ul>
                     </td>
@@ -394,14 +394,15 @@ Note: This functionality is not currently available in the Workload Balancer in 
                         <p>Opening a checklist item on a card now allows you to add more detailed information about the item, including a description, due date, assignees, and estimation. You can also copy a checklist item, which was not available previously.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
-                     <p><span style="color: #ff0000;">This feature is available only through the early feature opt-in for Workfront Boards.</span>
+                     <p>
                         </p>
                         <ul>
                             <li>
                                 <p>Preview release: August 17, 2022<br /></p>
                             </li>
                             <li>
-                                <p>Production release: August 25, 2022</p>
+                                <p>Production release for early opt-in: August 25, 2022</p>
+                                <p>Production release for all customers: With the 22.4 release</p>
                             </li>
                         </ul>
                     </td>
@@ -414,14 +415,15 @@ Note: This functionality is not currently available in the Workload Balancer in 
                         </p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
-                     <p><span style="color: #ff0000;">This feature is available only through the early feature opt-in for Workfront Boards.</span>
+                     <p>
                         </p>
                         <ul>
                             <li>
                                 <p>Preview release: August 4, 2022<br /></p>
                             </li>
                             <li>
-                                <p>Production release: August 11, 2022</p>
+                                <p>Production release for early opt-in: August 11, 2022</p>
+                                <p>Production release for all customers: With the 22.4 release</p>
                             </li>
                         </ul>
                     </td>
@@ -432,14 +434,15 @@ Note: This functionality is not currently available in the Workload Balancer in 
                         <p>You can now set a Work In Progress (WIP) limit for any column on a board. When you enable a WIP limit, a counter appears on the column with the current number of cards and the limit. The counter turns red if the column contains more cards than the limit. This is simply a visual warning and you are not stopped from adding more cards than the limit.</p>
                     </td>
                     <td><b>Available on these dates:</b>
-                        <p><span style="color: #ff0000;">This feature is available only through the early feature opt-in for Workfront Boards.</span>
+                        <p>
                         </p>
                         <ul>
                             <li>
                                 <p>Preview release: July 22, 2022 <br /></p>
                             </li>
                             <li>
-                                <p>Production release:&#160;July 28, 2022</p>
+                                <p>Production release for early opt-in:&#160;July 28, 2022</p>
+                                <p>Production release for all customers: With the 22.4 release</p>
                             </li>
                         </ul>
                     </td>
@@ -451,7 +454,7 @@ Note: This functionality is not currently available in the Workload Balancer in 
                     </td>
                     <td>
                         <p><b>Available on these dates:</b>
-                        <p><span style="color: #ff0000;">This feature is available only through the early feature opt-in for Workfront Boards.</span>
+                        <p>
   </p>
                         </p>
                         <ul>
@@ -459,7 +462,8 @@ Note: This functionality is not currently available in the Workload Balancer in 
                                 <p>Preview release: July 22, 2022 <br /></p>
                             </li>
                             <li>
-                                <p>Production release:&#160;July 28, 2022</p>
+                                <p>Production release for early opt-in:&#160;July 28, 2022</p>
+                                <p>Production release for all customers: With the 22.4 release</p>
                             </li>
                         </ul>
                     </td>

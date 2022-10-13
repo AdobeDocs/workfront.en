@@ -7,9 +7,13 @@ author: Alina
 feature: Workfront Goals
 exl-id: e9df0d98-05a1-4977-b7f1-426b8f5b3eae
 ---
-# Update goals in the Goal Details panel in&nbsp;Adobe Workfront Goals
+# Update goals in the Goal Details panel in Adobe Workfront Goals
 
 You can update information for individual goals by accessing the Goal Details panel.
+
+<!--drafted for the goal redesign. After the release to Prod, this article will need to be deleted: 
+
+The Goal Details panel has been removed from the Preview environment. To update goal information in the Preview environment, see [Edit goals in Adobe Workfront Goals](../goal-management/edit-goals.md). -->
 
 ## Access requirements
 

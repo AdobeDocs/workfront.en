@@ -40,12 +40,12 @@ The following functionality is currently included with Workfront Goals:
 
   For information about creating goals, see [Create goals in Adobe Workfront Goals](../../workfront-goals/goal-management/create-goals.md).
 
-* Shared user, team, and group management of strategic goals with the Workfront core platform.
+* Manage strategic goals for a user, a team, a group, or for an entire organization within the Workfront core platform.
 * Create results and activities for goals to indicate goal progress.
 
   For information about results and activities, see [Get started with results and activities in Adobe Workfront Goals](../../workfront-goals/results-and-activities/get-started-with-results-and-activities.md).
 
-* Associate existing projects with goals to align your goals with your actual work.
+* Associate existing projects with goals to align your goals with your actual work. As the project progresses, so does your goal. 
 
   The following project information is available at the goal level:
 
@@ -56,11 +56,11 @@ The following functionality is currently included with Workfront Goals:
 
   For information about associating projects with goals, see [Overview of connecting projects to goals in Adobe Workfront Goals](../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md).
 
-* Update goals, results, and activities by checking in on goals.
+* Update goals, results, and activities to update the progress of goals.
 
-  For information about checking in on goals, see [Check in on goals in Adobe Workfront Goals](../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md).
+  For information about updating goal progress, see [Check in on goals in Adobe Workfront Goals](../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md).
 
-* Align goals to one another to clearly define your organization's strategy to make every goal count.
+* Align goals to one another to clearly define your organization's strategy and make every goal count.
 
   For information about aligning goals, see [Goal alignment overview in Adobe Workfront Goals](../../workfront-goals/goal-alignment/goal-alignment-overview.md).
 
@@ -78,8 +78,4 @@ The following functionality is currently included with Workfront Goals:
 
 * Build goal reports and display goal information in project reports for projects that are associated to goals. For information about locating goal information on projects, see [Overview of connecting projects to goals in Adobe Workfront Goals](../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md).
 
-&nbsp;
 
-&nbsp;
-
-&nbsp;
