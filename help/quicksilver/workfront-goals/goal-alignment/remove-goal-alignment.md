@@ -38,7 +38,9 @@ You must have the following:
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Goals or higher</p> <p>Note:   <p>If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see:</p> 
+   <td> <p>Edit access to Goals or higher</p> <p><b>NOTE</b>
+   
+   <p>If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see:</p> 
      <ul> 
       <li> <p><a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a> </p> </li> 
       <li> <p><span href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md"><a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md" class="MCXref xref">Grant access to Adobe Workfront Goals</a></span> </p> </li> 
@@ -55,13 +57,14 @@ You must have the following:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+*To find out what plan, license type, or access you have, contact your Workfront administrator.
 
 ## Prerequisites
 
 You must have the following before you can start:
 
-* A Layout Template that includes the Goals area in the Main&nbsp;Menu.
+* A Layout Template that includes the Goals area in the Main Menu.
+* A parent goal that has at least one child goal associated with it. Children goals are the goal's progress indicators.
 
 ## Considerations about removing goal alignment
 
@@ -75,14 +78,14 @@ Consider the following when removing alignment between two goals:
 
 1. Go to a child goal aligned to a parent goal. 
 1. Click the goal name to open the **Goal Details** panel. 
-1. Click the **gear icon** ![](assets/gear-icon-settings.png) next to the parent goal.
+1. Click the **gear icon** ![](assets/gear-icon-settings.png) next to the parent goal, then click **Remove alignment**.
 
    ![](assets/edit-remove-alignment-350x88.png)
 
    The goal becomes a standalone goal and its progress no longer influences the progress of the original parent goal. 
 
 1. (Optional) Click **Undo** in the lower-left corner of the screen if you want to revert this change and keep the goals aligned. 
-1. (Optional)&nbsp;Add activities and results to either goals to indicate their progress. For information about adding activities and results, see the following articles:
+1. (Optional) Add activities and results to either goals to indicate their progress. For information about adding activities and results, see the following articles:
 
    * [Add activities to goals in Adobe Workfront Goals](../../workfront-goals/results-and-activities/add-activities-to-goals.md) 
    * [Add results to goals in Adobe Workfront Goals](../../workfront-goals/results-and-activities/add-results-to-goals.md)
