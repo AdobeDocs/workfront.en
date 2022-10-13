@@ -12,25 +12,17 @@ This page provides information about functionality that is included in the 23.1 
 The enhancements on this page are available in the Preview environment. This page will be updated with additional enhancements as the 23.1 release nears its planned Production release, which is scheduled for early 2023.
 
 ## Adobe Workfront enhancements
-
-*   [Administrator enhancements](#administrator-enhancements)
     
 *   [Project enhancements](#project-enhancements)
 
-*   [Agile enhancements](#agile-enhancements)
-
-*   [Resource Management enhancements](#resource-management-enhancements)
-
 *   [Other enhancements](#other-enhancements)
     
+### Project enhancements
 
-### Administrator enhancements
-
- <table>
+<table>
             <col style="width: 50%;" />
             <col style="width: 50%;" />
             <tbody>
-</tr>
                 <tr>
                     <td>
                         <p><span class="bold">Feature</span>
@@ -40,124 +32,29 @@ The enhancements on this page are available in the Preview environment. This pag
                         <p><span class="bold">Release dates</span>
                         </p>
                     </td>
-                </tr>            
-<tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Use unlocked statuses in an approval processes
-</a></p> <p>This feature was removed from the 22.3 Production release. This feature is planned to release to Production at a future time.</p> 
-<p>To give you more control over the approval processes and statuses in your system, we've made it possible to create an approval process based on an unlocked system status. Moreover, you can now unlock any status that is already used in an approval process. Previously, a system status used in an approval process had to be locked. This made it available for all groups—without the possibility of removing or renaming it—so group administrators couldn't streamline their group's list of statuses to fit their specific needs.</p>   
-   </td> 
-    <td> <p><b>Available on these dates:</b> </p> 
-    <ul> 
-     <li> <p>Preview release: June 2, 2022<br></p> </li> 
-     <li> <p>Production release: September 15, 2022</p> </li> 
-    </ul>  </td>
+                </tr>
                 <tr>
                     <td>
-                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Migration to Adobe Unified Experience</a> </p>
-                        <p>If your organization has been onboarded to the Adobe Admin Console, your Workfront instance will be migrated to the Adobe Unified Experience with the 22.4 release.</p>
+                        <a href="../../../product-announcements/product-releases/23.1-release-activity/23-1-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Copy a direct link to a document folder</a><span style="color: #ff0000;"> New in Preview!</span></p>
+                        <p>You can now copy and share document folder links to provide quick access to the folder. Users must have at least View access to the object to view the folder.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
                      <p>
                         </p>
                         <ul>
                             <li>
-                                <p>Preview release: N/A<br /></p>
+                                <p>Preview release: October 13, 2022<br /></p>
                             </li>
                             <li>
-                                <p>Production release: With the 22.4 release <span style="color: #ff0000;">This migration has been postponed to mid to late-October. Any affected customers will be notified at that time. </span></p>
+                                <p>Production release: With the 23.1 release</p>
                             </li>
                         </ul>
                     </td>
                 </tr>
-                <tr>
-                    <td>
-                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Blueprints icon on the Main Menu now controlled through layout templates</a></p>
-                        <p>System administrators can now add or remove the Blueprints icon on the Main Menu through layout template configuration. This provides greater control of who can browse the Blueprints catalog.</p>
-                    </td>
-                    <td><p><b>Available on these dates:</b></p>
-                     <p>
-                        </p>
-                        <ul>
-                            <li>
-                                <p>Preview release: August 25, 2022<br /></p>
-                            </li>
-                            <li>
-                                <p>Production release: With the 22.4 release</p>
-                            </li>
-                        </ul>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Issue header customization</a></p>
-                        <p>As a Workfront or group administrator, you can now customize the fields that display in the header of an issue when you use a Layout Template. This update includes several enhancements, including the ability to remove or rearrange existing fields from the issue header and add new, non-editable Issue Overview fields.</p>
-                    </td>
-                    <td><p><b>Available on these dates:</b></p>
-                     <p>
-                        </p>
-                        <ul>
-                            <li>
-                                <p>Preview release: September 8, 2022<br /></p>
-                            </li>
-                            <li>
-                                <p>Production release: With the 22.4 release</p>
-                            </li>
-                        </ul>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Task header customization</a></p>
-                        <p>As a Workfront or group administrator, you can now customize the fields that display in the header of a task when you use a Layout Template. This update includes several enhancements, including the ability to remove or rearrange existing fields from the task header and add new, non-editable Task Overview fields.</p>
-                    </td>
-                    <td><p><b>Available on these dates:</b></p>
-                     <p>
-                        </p>
-                        <ul>
-                            <li>
-                                <p>Preview release: August 25, 2022<br /></p>
-                            </li>
-                            <li>
-                                <p>Production release: With the 22.4 release</p>
-                            </li>
-                        </ul>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Early feature opt-in for the latest features on boards</a> </p>
-                        <p>We are excited to open new boards features for early feature opt-in. This optional tool is available to all organizations.</p>
-                        <p>Only a Workfront administrator can opt in to the early features. When the administrator opts in to early features, all users in the organization are opted in, and the additional features are enabled in your production Workfront environment.</p>
-                    </td>
-                    <td><b>Available on these dates:</b>
-                        <ul>
-                            <li>
-                                <p>Preview release: July 22, 2022 <br /></p>
-                            </li>
-                            <li>
-                                <p>Production release:&#160;July 28, 2022</p>
-                            </li>
-                        </ul>
-                    </td>
-                </tr>
-                <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Custom form field calculation editor displays error information
-</a></p></p> <p>Editing calculations for custom fields is now easier with helpful error information indicated directly in the calculation. While you are creating a calculated field in a custom form, errors are highlighted in pink. When you hover over the highlighted portion, a tooltip displays to describe what the problem is.</p>
-</td>
-    <td><b>Available on these dates:</b>
-                        <ul>
-                            <li>
-                                <p>Preview release: During the 22.3 release time frame <br /></p>
-                            </li>
-                            <li>
-                                <p>Production release: With the 22.4 release</p>
-                            </li>
-                        </ul>
-                    </td> 
-  </tr>
             </tbody>
         </table>
 
+<!--
 ### Agile enhancements
 
 <table>
@@ -195,6 +92,7 @@ The enhancements on this page are available in the Preview environment. This pag
                 </tr>
             </tbody>
         </table>
+-->
 
 ### Other enhancements
 
@@ -214,7 +112,7 @@ The enhancements on this page are available in the Preview environment. This pag
                 </tr>
                 <tr>
                     <td>
-                        <a href="../../../product-announcements/product-releases/23.1-release-activity/23-1-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">Look-and-feel updates during the 23.1 release timeframe</a> </p>
+                        <a href="../../../product-announcements/product-releases/23.1-release-activity/23-1-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">Look-and-feel updates during the 23.1 release timeframe</a> <span style="color: #ff0000;"> New in Preview!</span></p>
                         <p>Minor updates to the look and feel of various areas of the Adobe Workfront application are being made within the 23.1 release timeframe. These enhancements will be made available in the Production environment a minimum of 2 weeks after releasing to Preview. </p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
