@@ -11,6 +11,10 @@ feature-set: Workfront
   * Product releases {#product-releases}
     * [Product releases overview](product-announcements/product-releases/product-releases.md)
     * [Adobe Workfront release schedule and process](product-announcements/product-releases/workfront-release-schedule.md)
+    * 23.1 Release {#release-23-1}
+      * [23.1 Release overview](product-announcements/product-releases/23.1-release-activity/23-1-release-overview.md)
+      * [23.1 release activity: Week of October 10, 2022](product-announcements/product-releases/23.1-release-activity/23-1-oct-10.md)
+      * [Look-and-feel updates during the 23.1 release time frame](product-announcements/product-releases/23.1-release-activity/23-1-look-and-feel-updates.md)
     * 22.4 Release {#release-22-4}
       * [22.4 Release overview](product-announcements/product-releases/22.4-release-activity/22-4-release-overview.md)
       * [22.4 Administrator enhancements](product-announcements/product-releases/22.4-release-activity/22-4-administrator-enhancements.md)
@@ -954,6 +958,7 @@ feature-set: Workfront
     * [Document approvals and proofing](documents/managing-documents/document-approvals-and-proofing.md)
     * [Add an update to a document](documents/managing-documents/add-update-documents.md)
     * [Add or edit a custom form to a document](documents/managing-documents/add-custom-form-documents.md)
+    * [Copy and share a link to a document folder](documents/managing-documents/copy-a-doc-folder-url.md)
     * [Upload a new version of a document](documents/managing-documents/upload-new-document-version.md)
     * [Manage document versions](documents/managing-documents/manage-document-versions.md)
     * [Check out documents](documents/managing-documents/check-out-documents.md)
