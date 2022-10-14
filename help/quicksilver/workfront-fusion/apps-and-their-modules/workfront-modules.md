@@ -87,7 +87,7 @@ If you see the map button above a field or function, you can use it to set varia
 * [Actions](#actions) 
 * [Searches](#searches)
 
-### Triggers {#triggers}
+### Triggers 
 
 <!--
 * [Watch Events](#watch-events) 
@@ -146,7 +146,7 @@ After the webhook is created, you can view the address of the endpoint that even
 
 For more information, see the section [Examples of Event Payloads](../../wf-api/general/event-subs-api.md#examples-of-event-payloads) in the Workfront Help article [Event Subscription API](../../wf-api/general/event-subs-api.md).
 
-See a list of the Workfront objects types for which you can use this module in [Object types available for each Workfront trigger module](#object-types-available-for-each-workfront-trigger-module).
+See a list of the Workfront object types for which you can use this module in [Workfront object types available for each Workfront module](#workfront-object-types-available-for-each-workfront-module).
 
 +++
 
@@ -183,7 +183,7 @@ When you are configuring this module, the following fields display.
  </tbody> 
 </table>
 
-See a list of the Workfront objects types for which you can use this module in [Object types available for each Workfront trigger module](#object-types-available-for-each-workfront-trigger-module).
+See a list of the Workfront object types for which you can use this module in [Workfront object types available for each Workfront module](#workfront-object-types-available-for-each-workfront-module).
 
 +++
 
@@ -226,11 +226,12 @@ When you are configuring this module, the following fields display.
  </tbody> 
 </table>
 
-See a list of the Workfront objects types for which you can use this module in [Object types available for each Workfront trigger module](#object-types-available-for-each-workfront-trigger-module).
+See a list of the Workfront object types for which you can use this module in [Workfront object types available for each Workfront module](#workfront-object-types-available-for-each-workfront-module).
 
 +++
 
-### Actions {#actions}
+
+### Actions
 
 <!--
 * [Convert object](#convert-object) 
@@ -329,7 +330,7 @@ Make sure you provide the minimum number of input fields. For example, if you wa
  </tbody> 
 </table>
 
-See a list of the Workfront objects types for which you can use this module in [Object types available for each Workfront action module](#object-types-available-for-each-workfront-action-module).
+See a list of the Workfront object types for which you can use this module in [Workfront object types available for each Workfront module](#workfront-object-types-available-for-each-workfront-module).
 
 >[!NOTE]
 >
@@ -376,7 +377,7 @@ Make sure you provide the minimum number of input fields. For example, if you wa
  </tbody> 
 </table>
 
-See a list of the Workfront objects types for which you can use this module in [Object types available for each Workfront action module](#object-types-available-for-each-workfront-action-module).
+See a list of the Workfront object types for which you can use this module in [Workfront object types available for each Workfront module](#workfront-object-types-available-for-each-workfront-module).
 
 >[!NOTE]
 >
@@ -443,7 +444,7 @@ When you are configuring this module, the following fields display.
  </tbody> 
 </table>
 
-See a list of the Workfront objects types for which you can use this module in [Object types available for each Workfront action module](#object-types-available-for-each-workfront-action-module).
+See a list of the Workfront object types for which you can use this module in [Workfront object types available for each Workfront module](#workfront-object-types-available-for-each-workfront-module).
 
 +++
 
@@ -482,7 +483,7 @@ When you are configuring this module, the following fields display.
  </tbody> 
 </table>
 
-See a list of the Workfront objects types for which you can use this module in [Object types available for each Workfront action module](#object-types-available-for-each-workfront-action-module).
+See a list of the Workfront object types for which you can use this module in [Workfront object types available for each Workfront module](#workfront-object-types-available-for-each-workfront-module).
 
 +++
 
@@ -511,7 +512,7 @@ When you are configuring this module, the following fields display.
  </tbody> 
 </table>
 
-See a list of the Workfront objects types for which you can use this module in [Object types available for each Workfront action module](#object-types-available-for-each-workfront-action-module).
+See a list of the Workfront object types for which you can use this module in [Workfront object types available for each Workfront module](#workfront-object-types-available-for-each-workfront-module).
 
 +++
 
@@ -556,7 +557,7 @@ When you are configuring this module, the following fields display.
  </tbody> 
 </table>
 
-See a list of the Workfront objects types for which you can use this module in [Object types available for each Workfront action module](#object-types-available-for-each-workfront-action-module).
+See a list of the Workfront object types for which you can use this module in [Workfront object types available for each Workfront module](#workfront-object-types-available-for-each-workfront-module).
 
 +++
 
@@ -606,7 +607,7 @@ When you are configuring this module, the following fields display.
  </tbody> 
 </table>
 
-See a list of the Workfront objects types for which you can use this module in [Object types available for each Workfront action module](#object-types-available-for-each-workfront-action-module).
+See a list of the Workfront object types for which you can use this module in [Workfront object types available for each Workfront module](#workfront-object-types-available-for-each-workfront-module).
 
 +++
 
@@ -645,7 +646,7 @@ When you are configuring this module, the following fields display.
  </tbody> 
 </table>
 
-See a list of the Workfront objects types for which you can use this module in [Object types available for each Workfront action module](#object-types-available-for-each-workfront-action-module).
+See a list of the Workfront object types for which you can use this module in [Workfront object types available for each Workfront module](#workfront-object-types-available-for-each-workfront-module).
 
 >[!NOTE]
 >
@@ -690,11 +691,11 @@ When you are configuring this module, the following fields display.
  </tbody> 
 </table>
 
-See a list of the Workfront objects types for which you can use this module in [Object types available for each Workfront action module](#object-types-available-for-each-workfront-action-module).
+See a list of the Workfront object types for which you can use this module in [Workfront object types available for each Workfront module](#workfront-object-types-available-for-each-workfront-module).
 
 +++
 
-### Searches {#searches}
+### Searches
 
 <!--
 * [Read Related Records](#read-related-records) 
@@ -719,7 +720,7 @@ When you are configuring this module, the following fields display.
   </tr> 
   <tr data-mc-conditions=""> 
    <td>Record Type</td> 
-   <td> <p>Select the type of the parent record (Workfront object) whose associated records you want to read.</p> <p>See a list of the Workfront objects types for which you can use this module in <a href="#object-types-available-for-each-workfront-search-module" class="MCXref xref">Object types available for each Workfront search module</a> in this article.</p> </td> 
+   <td> <p>Select the type of the parent record (Workfront object) whose associated records you want to read.</p> <p>See a list of the Workfront object types for which you can use this module in <a href="#object-types-available-for-each-workfront-search-module" class="MCXref xref">Workfront object types available for each Workfront module</a> in this article.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>Parent Record ID</td> 
@@ -785,17 +786,17 @@ When you are configuring this module, the following fields display.
  </tbody> 
 </table>
 
-See a list of the Workfront objects types for which you can use this module in [Object types available for each Workfront search module](#object-types-available-for-each-workfront-search-module).
+See a list of the Workfront object types for which you can use this module in [Workfront object types available for each Workfront module](#workfront-object-types-available-for-each-workfront-module).
 
 +++
 
 ## Workfront object types available for each Workfront module
 
-* [Object types available for each Workfront trigger module](#object-types-available-for-each-workfront-trigger-module) 
+<!-- [Object types available for each Workfront trigger module](#object-types-available-for-each-workfront-trigger-module) 
 * [Object types available for each Workfront action module](#object-types-available-for-each-workfront-action-module) 
-* [Object types available for each Workfront search module](#object-types-available-for-each-workfront-search-module)
+* [Object types available for each Workfront search module](#object-types-available-for-each-workfront-search-module)-->
 
-### Object types available for each Workfront trigger module {#object-types-available-for-each-workfront-trigger-module}
++++**Object types available for each Workfront trigger module**
 
 <table style="table-layout:auto"> 
  <col> 
@@ -1054,7 +1055,9 @@ See a list of the Workfront objects types for which you can use this module in [
  </tbody> 
 </table>
 
-### Object types available for each Workfront action module {#object-types-available-for-each-workfront-action-module}
++++
+
++++**Object types available for each Workfront action module**
 
 >[!NOTE]
 >
@@ -1445,7 +1448,9 @@ See a list of the Workfront objects types for which you can use this module in [
  </tbody> 
 </table>
 
-### Object types available for each Workfront search module {#object-types-available-for-each-workfront-search-module}
++++
+
++++**Object types available for each Workfront search module**
 
 <table style="table-layout:auto"> 
  <col> 
@@ -1643,6 +1648,8 @@ See a list of the Workfront objects types for which you can use this module in [
 </table>
 
 &#42; We recommend that you double check to ensure this works the way you would expect it to.
+
++++
 
 ## Event subscription filters in the Workfront > Watch Events modules {#event-subscription-filters-in-the-workfront-watch-events-modules}
 
