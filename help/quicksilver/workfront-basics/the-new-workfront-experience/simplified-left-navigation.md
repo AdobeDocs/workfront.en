@@ -208,7 +208,7 @@ The following sections display in the left panel for the **Goals** area:
     </tr>
     <tr>
         <td><strong>Check-in</strong></td>
-        <td>Displays a quick overview of your active goals and their progress. For more information, see <a href="../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md">Check in on goals in Adobe Workfront Goals</a>.</td>
+        <td>Displays a quick overview of your active goals and their progress. For more information, see <a href="../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md">Update goals by using Check-in in Adobe Workfront Goals</a>.</td>
     </tr>
 </table>
 

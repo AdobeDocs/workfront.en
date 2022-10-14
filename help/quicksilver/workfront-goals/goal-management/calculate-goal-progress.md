@@ -117,7 +117,7 @@ The table below lists the goal progress labels and the goal progress percentages
   </tr> 
   <tr> 
    <td>New</td> 
-   <td> <p>The goal is newly created and it is not recording progress yet. A goal progress displays as New until someone checks in on it for the first time. </p> <p>For information about checking a goal in, see <a href="../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md" class="MCXref xref">Check in on goals in Adobe Workfront Goals</a>.</p> </td> 
+   <td> <p>The goal is newly created and it is not recording progress yet. A goal progress displays as New until someone checks in on it for the first time. </p> <p>For information about checking a goal in, see <a href="../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md" class="MCXref xref">Update goals by using Check-in in Adobe Workfront Goals</a>.</p> </td> 
    <td>No percentage</td> 
    <td>No bar</td> 
   </tr> 
