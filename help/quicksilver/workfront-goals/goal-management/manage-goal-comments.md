@@ -125,7 +125,7 @@ You can edit or delete a comment that you entered in this area, or you can like 
 >
 >You must have access to Edit Goals in your access level to view the Check-in section.
 
-You can add comments to goals in the Check-in section of Workfront Goals, as part of updating your list of goals. For information about updating goals, see [Check in on goals in Adobe Workfront Goals](../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md).
+You can add comments to goals in the Check-in section of Workfront Goals, as part of updating your list of goals. For information about updating goals, see [Update goals by using Check-in in Adobe Workfront Goals](../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md).
 
 You can also like goal comments that other users have added to mark your approval of them in the Check-in section.
 

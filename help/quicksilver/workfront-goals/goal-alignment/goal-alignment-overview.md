@@ -66,7 +66,7 @@ Consider the following when working with children and parent goals:
 * The progress of the children goals indicated by their results and activities influences the progress of the parent goal. Other activities or results associated with the parent goal also influence the progress of the parent goal. 
 * You cannot update the progress of a child goal at the parent goal's level. You must check in on the child goal, update its activities and results, and this automatically updates the progress of the child as well as that of the parent goal.
 
-  For information about checking in on goals, see [Check in on goals in Adobe Workfront Goals](../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md).
+  For information about checking in on goals, see [Update goals by using Check-in in Adobe Workfront Goals](../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md).
 
 ## Locate aligned goals
 
