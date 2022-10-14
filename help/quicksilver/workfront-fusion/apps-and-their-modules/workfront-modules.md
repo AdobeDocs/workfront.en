@@ -146,7 +146,7 @@ After the webhook is created, you can view the address of the endpoint that even
 
 For more information, see the section [Examples of Event Payloads](../../wf-api/general/event-subs-api.md#examples-of-event-payloads) in the Workfront Help article [Event Subscription API](../../wf-api/general/event-subs-api.md).
 
-See a list of the Workfront object types for which you can use this module in [Workfront object types available for each Workfront module](#object-types-available-for-each-workfront-trigger-module).
+See a list of the Workfront object types for which you can use this module in [Workfront object types available for each Workfront module](#workfront-object-types-available-for-each-workfront-module).
 
 +++
 
@@ -183,7 +183,7 @@ When you are configuring this module, the following fields display.
  </tbody> 
 </table>
 
-See a list of the Workfront object types for which you can use this module in [Workfront object types available for each Workfront module](#object-types-available-for-each-workfront-trigger-module).
+See a list of the Workfront object types for which you can use this module in [Workfront object types available for each Workfront module](#workfront-object-types-available-for-each-workfront-module).
 
 +++
 
@@ -226,11 +226,12 @@ When you are configuring this module, the following fields display.
  </tbody> 
 </table>
 
-See a list of the Workfront object types for which you can use this module in [Workfront object types available for each Workfront module](#object-types-available-for-each-workfront-trigger-module).
+See a list of the Workfront object types for which you can use this module in [Workfront object types available for each Workfront module](#workfront-object-types-available-for-each-workfront-module).
 
 +++
 
 ### Actions
+
 <!--
 * [Convert object](#convert-object) 
 * [Create a record (attaching custom forms)](#create-a-record-attaching-custom-forms) 
@@ -328,7 +329,7 @@ Make sure you provide the minimum number of input fields. For example, if you wa
  </tbody> 
 </table>
 
-See a list of the Workfront object types for which you can use this module in [Workfront object types available for each Workfront module](#object-types-available-for-each-workfront-action-module).
+See a list of the Workfront object types for which you can use this module in [Workfront object types available for each Workfront module](#workfront-object-types-available-for-each-workfront-module).
 
 >[!NOTE]
 >
@@ -375,7 +376,7 @@ Make sure you provide the minimum number of input fields. For example, if you wa
  </tbody> 
 </table>
 
-See a list of the Workfront object types for which you can use this module in [Workfront object types available for each Workfront module](#object-types-available-for-each-workfront-action-module).
+See a list of the Workfront object types for which you can use this module in [Workfront object types available for each Workfront module](#workfront-object-types-available-for-each-workfront-module).
 
 >[!NOTE]
 >
@@ -442,7 +443,7 @@ When you are configuring this module, the following fields display.
  </tbody> 
 </table>
 
-See a list of the Workfront object types for which you can use this module in [Workfront object types available for each Workfront module](#object-types-available-for-each-workfront-action-module).
+See a list of the Workfront object types for which you can use this module in [Workfront object types available for each Workfront module](#workfront-object-types-available-for-each-workfront-module).
 
 +++
 
@@ -481,7 +482,7 @@ When you are configuring this module, the following fields display.
  </tbody> 
 </table>
 
-See a list of the Workfront object types for which you can use this module in [Workfront object types available for each Workfront module](#object-types-available-for-each-workfront-action-module).
+See a list of the Workfront object types for which you can use this module in [Workfront object types available for each Workfront module](#workfront-object-types-available-for-each-workfront-module).
 
 +++
 
@@ -510,7 +511,7 @@ When you are configuring this module, the following fields display.
  </tbody> 
 </table>
 
-See a list of the Workfront object types for which you can use this module in [Workfront object types available for each Workfront module](#object-types-available-for-each-workfront-action-module).
+See a list of the Workfront object types for which you can use this module in [Workfront object types available for each Workfront module](#workfront-object-types-available-for-each-workfront-module).
 
 +++
 
@@ -555,7 +556,7 @@ When you are configuring this module, the following fields display.
  </tbody> 
 </table>
 
-See a list of the Workfront object types for which you can use this module in [Workfront object types available for each Workfront module](#object-types-available-for-each-workfront-action-module).
+See a list of the Workfront object types for which you can use this module in [Workfront object types available for each Workfront module](#workfront-object-types-available-for-each-workfront-module).
 
 +++
 
@@ -605,7 +606,7 @@ When you are configuring this module, the following fields display.
  </tbody> 
 </table>
 
-See a list of the Workfront object types for which you can use this module in [Workfront object types available for each Workfront module](#object-types-available-for-each-workfront-action-module).
+See a list of the Workfront object types for which you can use this module in [Workfront object types available for each Workfront module](#workfront-object-types-available-for-each-workfront-module).
 
 +++
 
@@ -644,7 +645,7 @@ When you are configuring this module, the following fields display.
  </tbody> 
 </table>
 
-See a list of the Workfront object types for which you can use this module in [Workfront object types available for each Workfront module](#object-types-available-for-each-workfront-action-module).
+See a list of the Workfront object types for which you can use this module in [Workfront object types available for each Workfront module](#workfront-object-types-available-for-each-workfront-module).
 
 >[!NOTE]
 >
@@ -689,7 +690,7 @@ When you are configuring this module, the following fields display.
  </tbody> 
 </table>
 
-See a list of the Workfront object types for which you can use this module in [Workfront object types available for each Workfront module](#object-types-available-for-each-workfront-action-module).
+See a list of the Workfront object types for which you can use this module in [Workfront object types available for each Workfront module](#workfront-object-types-available-for-each-workfront-module).
 
 +++
 
@@ -784,7 +785,7 @@ When you are configuring this module, the following fields display.
  </tbody> 
 </table>
 
-See a list of the Workfront object types for which you can use this module in [Workfront object types available for each Workfront module](#object-types-available-for-each-workfront-search-module).
+See a list of the Workfront object types for which you can use this module in [Workfront object types available for each Workfront module](#workfront-object-types-available-for-each-workfront-module).
 
 +++
 
