@@ -52,7 +52,7 @@ Your organization's instance of Workfront Fusion must be onboarded to the Adobe 
 
 ## Access Workfront Fusion
 
-Once you are logged in to Adobe Experience Cloud, you can view all of the Workfront Fusion organizations and environments that you have access to by clicking the organization switcher in the top navigation area. Select the Workfront Fusion organization or environment that you want to work in. Environments could include Preview and Sandbox if your organization uses them.
+Once you are logged in to Adobe Experience Cloud, you can view all of the Workfront Fusion organizations and environments that you have access to by clicking the organization switcher in the top navigation area. Select the Workfront Fusion organization or environment that you want to work in. 
 
 ![View Workfront organizations and environments](assets/aec-view-all-orgs.png)
 
