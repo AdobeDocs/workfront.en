@@ -9,7 +9,7 @@ exl-id: c55e53b5-5559-4b6a-a8d7-5028be6af30f
 ---
 # Use the Milestone view
 
-<span class="preview">The highlighted information in this article is available only in the Preview environment when you participate in the [!UICONTROL Campaigns] beta program. The functionality described here might not be fully available yet. For more information about current available features and how to enroll, see  [Campaigns beta](../../product-announcements/betas/campaign-object-beta.md).</span>
+<span class="preview">The highlighted information in this article is available only in the Preview environment when you participate in the [!UICONTROL Campaigns] beta program. The functionality described here might not be fully available yet. For more information about current available features and how to enroll, see  [Campaigns beta](../../../product-announcements/betas/campaign-object-beta.md).</span>
 
 The Milestone view is available when viewing a project list or project report.
 
