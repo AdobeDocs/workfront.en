@@ -139,6 +139,8 @@ If you see the map button above a field or function, you can use it to set varia
 
 ### Actions
 
+#### Create a new PSD
+
 #### Custom API Call
 
 #### Edit text layers
@@ -147,5 +149,7 @@ If you see the map button above a field or function, you can use it to set varia
 
 #### Execute Photoshop Actions
 
-#### Execure Product Crop
+#### Execute Product Crop
+
+#### Get layer info
 
