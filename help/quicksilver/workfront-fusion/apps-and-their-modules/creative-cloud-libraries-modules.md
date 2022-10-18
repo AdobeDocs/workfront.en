@@ -215,7 +215,7 @@ This action module retrieves a list of elements in a library.
 
 #### Upload an Element
 
-This action module uploads a small file asset to an existing library. Maximum file size is 5 MB.
+This action module uploads a small file asset to an existing library. Maximum file size is 1 GB.
 
 <table style="table-layout:auto"> 
   <col/>
@@ -267,6 +267,25 @@ This action module uploads a small file asset to an existing library. Maximum fi
 #### Watch New Element in Library
 
 This trigger module starts a scenario when an element is added to a library.
+
+<table style="table-layout:auto"> 
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">Connection</td>
+      <td>For instructions about connecting your Adobe Creative Cloud account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Adobe Workfront Fusion - Basic instructions.</td>
+    </tr>
+    <tr>
+      <td role="rowheader">Library ID</td>
+      <td >Select the library that you want to watch for updated elements.</td>
+    </tr>
+    <tr>
+      <td class="TableStyle-TableStyle-List-options-in-steps-BodyB-Column1-LightGray" role="rowheader">Limit</td>
+      <td class="TableStyle-TableStyle-List-options-in-steps-BodyA-Column2-LightGray">Enter or map the maximum number of records you want the module to return during each scenario execution cycle.</td>
+    </tr>
+  </tbody>
+</table>
 
 
 #### Watch Updated Elements
@@ -381,7 +400,7 @@ This module makes a custom API call to the Adobe Creative Cloud Libraries API.
       <td role="rowheader">Query String</td>
       <td>
         <p>Add the query for the API call in the form of a standard JSON object.</p>
-        <p>For example: <code>{“name”:“something-urgent”}</code></p>
+        <p>For example: <code>{"name":"something-urgent"}</code></p>
       </td>
     </tr>
     <tr>
