@@ -3,13 +3,13 @@ product-previous: workfront-fusion
 content-type: release-notes
 product-area: workfront-integrations
 navigation-topic: fusion-release-activity
-title: 'Workfront Fusion release activity: Week of October 10, 2022'
-description: This page describes all enhancements made in Adobe Workfront Fusion the week of October 10, 2022.
+title: 'Workfront Fusion release activity: Week of October 17, 2022'
+description: This page describes all enhancements made in Adobe Workfront Fusion the week of October 17, 2022.
 author: Luke
 feature: Product Announcements, Workfront Fusion
 hidefromtoc: yes
 ---
-# Workfront Fusion release activity: Week of October 10, 2022
+# Workfront Fusion release activity: Week of October 17, 2022
 
 ## Adobe Creative Cloud Libraries > Upload assets module now allows larger files
 

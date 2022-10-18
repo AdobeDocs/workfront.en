@@ -59,6 +59,8 @@ You must have the following access to perform the steps in this article:
 
 When you add users to the project team, they gain permissions on the project and the tasks, issues, and documents of the project. For more information, see the article [Project Team overview](../../../manage-work/projects/planning-a-project/project-team-overview.md).
 
+<!--drafted for Add users story: <span class="preview">In the Preview environment, users on the Project Team are not automatically added to the resource management tools for the project.</span>-->
+
 You can add users to the project team in the following ways:
 
 * [Automatically add users to a Project Team](#automatically-add-users-to-a-project-team) 
@@ -85,7 +87,7 @@ If users that don't fulfill any role on the project want to be notified about ce
 
 >[!IMPORTANT]
 >
->You can add to the Project Team only users that belong to the Group associated with the project. You cannot add users that belong to the Subgroups of the project's group. They must belong to the group of the project. 
+>You can add to the Project Team only users that belong to the Group associated with the project. You cannot add users that belong to the Subgroups of the project's group. 
 
 <!--drafted for Add Users button: Add this at the beginning of the first line below: In the Production environment, go--> 
 
