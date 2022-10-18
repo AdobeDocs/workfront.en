@@ -47,6 +47,7 @@ You must have the following access to use the functionality in this article:
  </tbody> 
 </table>
 
+
 &#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
 &#42;&#42;For information on Adobe Workfront Fusion licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
@@ -86,13 +87,15 @@ If you see the map button above a field or function, you can use it to set varia
 * [Actions](#actions) 
 * [Searches](#searches)
 
-### Triggers {#triggers}
+### Triggers 
 
+<!--
 * [Watch Events](#watch-events) 
 * [Watch Record](#watch-record) 
 * [Watch Field](#watch-field)
+-->
 
-#### Watch Events {#watch-events}
++++ **Watch Events**
 
 This trigger module executes a scenario in real time when objects of a specific type are added, updated, or deleted in Workfront
 
@@ -143,9 +146,11 @@ After the webhook is created, you can view the address of the endpoint that even
 
 For more information, see the section [Examples of Event Payloads](../../wf-api/general/event-subs-api.md#examples-of-event-payloads) in the Workfront Help article [Event Subscription API](../../wf-api/general/event-subs-api.md).
 
-See a list of the Workfront objects types for which you can use this module in [Object types available for each Workfront trigger module](#object-types-available-for-each-workfront-trigger-module).
+See a list of the Workfront object types for which you can use this module in [Workfront object types available for each Workfront module](#workfront-object-types-available-for-each-workfront-module).
 
-#### Watch Field {#watch-field}
++++
+
++++ **Watch Field**
 
 This trigger module executes a scenario when a field that you specify is updated. The module returns both the old and the new value of the field you specify. You can map this information in subsequent modules in the scenario.
 
@@ -178,9 +183,11 @@ When you are configuring this module, the following fields display.
  </tbody> 
 </table>
 
-See a list of the Workfront objects types for which you can use this module in [Object types available for each Workfront trigger module](#object-types-available-for-each-workfront-trigger-module).
+See a list of the Workfront object types for which you can use this module in [Workfront object types available for each Workfront module](#workfront-object-types-available-for-each-workfront-module).
 
-#### Watch Record {#watch-record}
++++
+
++++ **Watch Record**
 
 This trigger module executes a scenario when objects of a specific type are added, updated, or both. The module returns all standard fields associated with the record or records, along with any custom fields and values that the connection accesses. You can map this information in subsequent modules in the scenario. In the output, the module indicates whether each record is new or updated.
 
@@ -219,10 +226,14 @@ When you are configuring this module, the following fields display.
  </tbody> 
 </table>
 
-See a list of the Workfront objects types for which you can use this module in [Object types available for each Workfront trigger module](#object-types-available-for-each-workfront-trigger-module).
+See a list of the Workfront object types for which you can use this module in [Workfront object types available for each Workfront module](#workfront-object-types-available-for-each-workfront-module).
 
-### Actions {#actions}
++++
 
+
+### Actions
+
+<!--
 * [Convert object](#convert-object) 
 * [Create a record (attaching custom forms)](#create-a-record-attaching-custom-forms) 
 * [Create a record](#create-a-record) 
@@ -233,8 +244,9 @@ See a list of the Workfront objects types for which you can use this module in [
 * [Read a Record](#read-a-record) 
 * [Update Record](#update-record) 
 * [Upload Document](#upload-document)
+-->
 
-#### Convert object {#convert-object}
++++ **Convert object**
 
 This action module makes one of the following conversions:
 
@@ -277,7 +289,9 @@ This action module makes one of the following conversions:
  </tbody> 
 </table>
 
-#### Create a record (attaching custom forms) {#create-a-record-attaching-custom-forms}
++++
+
++++ **Create a record (attaching custom forms)** 
 
 This action module creates an object, such as a project, task, or issue in Workfront, and allows you to add a custom form to the new object. The module allows you to select which of the object's fields are available in the module.
 
@@ -316,7 +330,7 @@ Make sure you provide the minimum number of input fields. For example, if you wa
  </tbody> 
 </table>
 
-See a list of the Workfront objects types for which you can use this module in [Object types available for each Workfront action module](#object-types-available-for-each-workfront-action-module).
+See a list of the Workfront object types for which you can use this module in [Workfront object types available for each Workfront module](#workfront-object-types-available-for-each-workfront-module).
 
 >[!NOTE]
 >
@@ -326,7 +340,9 @@ See a list of the Workfront objects types for which you can use this module in [
 >  For more information on rich text in updates, see [Add an update to a work item](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md#add) in [Update work](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 >
 
-#### Create Record {#create-a-record}
++++
+
++++ **Create Record**
 
 This action module creates an object, such as a project, task, or issue in Workfront. The module allows you to select which of the object's fields are available in the module.
 
@@ -361,7 +377,7 @@ Make sure you provide the minimum number of input fields. For example, if you wa
  </tbody> 
 </table>
 
-See a list of the Workfront objects types for which you can use this module in [Object types available for each Workfront action module](#object-types-available-for-each-workfront-action-module).
+See a list of the Workfront object types for which you can use this module in [Workfront object types available for each Workfront module](#workfront-object-types-available-for-each-workfront-module).
 
 >[!NOTE]
 >
@@ -371,7 +387,9 @@ See a list of the Workfront objects types for which you can use this module in [
 >  For more information on rich text in updates, see [Add an update to a work item](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md#add) in [Update work](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 >
 
-#### Custom API Call {#custom-api-call}
++++
+
++++ **Custom API Call**
 
 This action module lets you make a custom authenticated call to the Workfront API. This way, you can create a data flow automation that can't be accomplished by the other Workfront modules.
 
@@ -426,9 +444,11 @@ When you are configuring this module, the following fields display.
  </tbody> 
 </table>
 
-See a list of the Workfront objects types for which you can use this module in [Object types available for each Workfront action module](#object-types-available-for-each-workfront-action-module).
+See a list of the Workfront object types for which you can use this module in [Workfront object types available for each Workfront module](#workfront-object-types-available-for-each-workfront-module).
 
-#### Delete Record {#delete-record}
++++
+
++++ **Delete Record**
 
 This action module deletes an object, such as a project, task, or issue in Workfront.
 
@@ -463,9 +483,11 @@ When you are configuring this module, the following fields display.
  </tbody> 
 </table>
 
-See a list of the Workfront objects types for which you can use this module in [Object types available for each Workfront action module](#object-types-available-for-each-workfront-action-module).
+See a list of the Workfront object types for which you can use this module in [Workfront object types available for each Workfront module](#workfront-object-types-available-for-each-workfront-module).
 
-#### Download Document {#download-document}
++++
+
++++ **Download Document**
 
 This action module downloads a document from Workfront.
 
@@ -490,9 +512,11 @@ When you are configuring this module, the following fields display.
  </tbody> 
 </table>
 
-See a list of the Workfront objects types for which you can use this module in [Object types available for each Workfront action module](#object-types-available-for-each-workfront-action-module).
+See a list of the Workfront object types for which you can use this module in [Workfront object types available for each Workfront module](#workfront-object-types-available-for-each-workfront-module).
 
-#### Misc Action {#misc-action}
++++
+
++++ **Misc Action**
 
 This action module lets you perform actions against the API.
 
@@ -533,9 +557,11 @@ When you are configuring this module, the following fields display.
  </tbody> 
 </table>
 
-See a list of the Workfront objects types for which you can use this module in [Object types available for each Workfront action module](#object-types-available-for-each-workfront-action-module).
+See a list of the Workfront object types for which you can use this module in [Workfront object types available for each Workfront module](#workfront-object-types-available-for-each-workfront-module).
 
-#### Read a Record {#read-a-record}
++++
+
++++ **Read a Record**
 
 This action module retrieves data from a single record.
 
@@ -581,9 +607,11 @@ When you are configuring this module, the following fields display.
  </tbody> 
 </table>
 
-See a list of the Workfront objects types for which you can use this module in [Object types available for each Workfront action module](#object-types-available-for-each-workfront-action-module).
+See a list of the Workfront object types for which you can use this module in [Workfront object types available for each Workfront module](#workfront-object-types-available-for-each-workfront-module).
 
-#### Update Record {#update-record}
++++
+
++++ **Update Record**
 
 This action module updates an object, such as a project, task, or issue. The module allows you to select which of the object's fields are available in the module.
 
@@ -618,7 +646,7 @@ When you are configuring this module, the following fields display.
  </tbody> 
 </table>
 
-See a list of the Workfront objects types for which you can use this module in [Object types available for each Workfront action module](#object-types-available-for-each-workfront-action-module).
+See a list of the Workfront object types for which you can use this module in [Workfront object types available for each Workfront module](#workfront-object-types-available-for-each-workfront-module).
 
 >[!NOTE]
 >
@@ -628,7 +656,9 @@ See a list of the Workfront objects types for which you can use this module in [
 >  For more information on rich text in updates, see [Add an update to a work item](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md#add) in [Update work](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 >
 
-#### Upload Document {#upload-document}
++++
+
++++ **Upload Document**
 
 This action module uploads a document to a Workfront object, such as a project, task, or issue.
 
@@ -661,14 +691,18 @@ When you are configuring this module, the following fields display.
  </tbody> 
 </table>
 
-See a list of the Workfront objects types for which you can use this module in [Object types available for each Workfront action module](#object-types-available-for-each-workfront-action-module).
+See a list of the Workfront object types for which you can use this module in [Workfront object types available for each Workfront module](#workfront-object-types-available-for-each-workfront-module).
 
-### Searches {#searches}
++++
 
+### Searches
+
+<!--
 * [Read Related Records](#read-related-records) 
 * [Search](#search)
+-->
 
-#### Read Related Records {#read-related-records}
++++ **Read Related Records**
 
 This search module reads records that match the search query you specify, in a particular parent object.
 
@@ -686,7 +720,7 @@ When you are configuring this module, the following fields display.
   </tr> 
   <tr data-mc-conditions=""> 
    <td>Record Type</td> 
-   <td> <p>Select the type of the parent record (Workfront object) whose associated records you want to read.</p> <p>See a list of the Workfront objects types for which you can use this module in <a href="#object-types-available-for-each-workfront-search-module" class="MCXref xref">Object types available for each Workfront search module</a> in this article.</p> </td> 
+   <td> <p>Select the type of the parent record (Workfront object) whose associated records you want to read.</p> <p>See a list of the Workfront object types for which you can use this module in <a href="#object-types-available-for-each-workfront-search-module" class="MCXref xref">Workfront object types available for each Workfront module</a> in this article.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>Parent Record ID</td> 
@@ -703,7 +737,9 @@ When you are configuring this module, the following fields display.
  </tbody> 
 </table>
 
-#### Search {#search}
++++
+
++++ **Search**
 
 This search module looks for records in an object in Workfront that match the search query you specify.
 
@@ -750,15 +786,17 @@ When you are configuring this module, the following fields display.
  </tbody> 
 </table>
 
-See a list of the Workfront objects types for which you can use this module in [Object types available for each Workfront search module](#object-types-available-for-each-workfront-search-module).
+See a list of the Workfront object types for which you can use this module in [Workfront object types available for each Workfront module](#workfront-object-types-available-for-each-workfront-module).
+
++++
 
 ## Workfront object types available for each Workfront module
 
-* [Object types available for each Workfront trigger module](#object-types-available-for-each-workfront-trigger-module) 
+<!-- [Object types available for each Workfront trigger module](#object-types-available-for-each-workfront-trigger-module) 
 * [Object types available for each Workfront action module](#object-types-available-for-each-workfront-action-module) 
-* [Object types available for each Workfront search module](#object-types-available-for-each-workfront-search-module)
+* [Object types available for each Workfront search module](#object-types-available-for-each-workfront-search-module)-->
 
-### Object types available for each Workfront trigger module {#object-types-available-for-each-workfront-trigger-module}
++++**Object types available for each Workfront trigger module**
 
 <table style="table-layout:auto"> 
  <col> 
@@ -1017,7 +1055,9 @@ See a list of the Workfront objects types for which you can use this module in [
  </tbody> 
 </table>
 
-### Object types available for each Workfront action module {#object-types-available-for-each-workfront-action-module}
++++
+
++++**Object types available for each Workfront action module**
 
 >[!NOTE]
 >
@@ -1408,7 +1448,9 @@ See a list of the Workfront objects types for which you can use this module in [
  </tbody> 
 </table>
 
-### Object types available for each Workfront search module {#object-types-available-for-each-workfront-search-module}
++++
+
++++**Object types available for each Workfront search module**
 
 <table style="table-layout:auto"> 
  <col> 
@@ -1606,6 +1648,8 @@ See a list of the Workfront objects types for which you can use this module in [
 </table>
 
 &#42; We recommend that you double check to ensure this works the way you would expect it to.
+
++++
 
 ## Event subscription filters in the Workfront > Watch Events modules {#event-subscription-filters-in-the-workfront-watch-events-modules}
 

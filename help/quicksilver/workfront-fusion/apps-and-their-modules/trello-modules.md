@@ -75,6 +75,7 @@ If you see the map button above a field or function, you can use it to set varia
 
 ### Boards {#boards}
 
+<!--
 * [Watch Boards](#watch-boards) 
 * [Create a Board](#create-a-board) 
 * [Edit a Board](#edit-a-board) 
@@ -83,8 +84,9 @@ If you see the map button above a field or function, you can use it to set varia
 * [Archive or Unarchive a Board](#archive-or-unarchive-a-board) 
 * [Assign a Member to a Board](#assign-a-member-to-a-board) 
 * [Unassign a Member from a Board](#unassign-a-member-from-a-board)
+-->
 
-#### Watch Boards {#watch-boards}
++++ **Watch Boards**
 
 This trigger module begins a scenario when a new board is added.
 
@@ -103,7 +105,9 @@ This trigger module begins a scenario when a new board is added.
  </tbody> 
 </table>
 
-#### Create a Board {#create-a-board}
++++
+
++++ **Create a Board**
 
 This action module creates a new board with the selected settings.
 
@@ -186,7 +190,9 @@ This action module creates a new board with the selected settings.
  </tbody> 
 </table>
 
-#### Edit a Board {#edit-a-board}
++++
+
++++ **Edit a Board**
 
 This action module edits the settings of an existing board.
 
@@ -281,7 +287,9 @@ This action module edits the settings of an existing board.
  </tbody> 
 </table>
 
-#### Get a Board {#get-a-board}
++++
+
++++ **Get a Board**
 
 This action module retrieves a board's details.
 
@@ -300,7 +308,9 @@ This action module retrieves a board's details.
  </tbody> 
 </table>
 
-#### Search for Boards {#search-for-boards}
++++
+
++++ **Search for Boards**
 
 This search module retrieves information about a board that you specify .
 
@@ -322,7 +332,7 @@ This search module retrieves information about a board that you specify .
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Partial </p> </td> 
-   <td> <p>By default, this module searches member content for exact matches of each word in your query. When Partial is enabled, the module looks for content that starts with any word in your query.</p> <p> For example If you are using the word “development” to look for a board titled "My Development Status Report," by default you would need to search for the entire word. If you have Partial enabled, you would be able to search for "dev" but not "velopment."</p> </td> 
+   <td> <p>By default, this module searches member content for exact matches of each word in your query. When Partial is enabled, the module looks for content that starts with any word in your query.</p> <p> For example If you are using the word "development" to look for a board titled "My Development Status Report," by default you would need to search for the entire word. If you have Partial enabled, you would be able to search for "dev" but not "velopment."</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Boards </td> 
@@ -331,7 +341,9 @@ This search module retrieves information about a board that you specify .
  </tbody> 
 </table>
 
-#### Archive or Unarchive a Board {#archive-or-unarchive-a-board}
++++
+
++++ **Archive or Unarchive a Board**
 
 This action module closes or re-opens a board that you specify .
 
@@ -354,7 +366,9 @@ This action module closes or re-opens a board that you specify .
  </tbody> 
 </table>
 
-#### Assign a Member to a Board {#assign-a-member-to-a-board}
++++
+
++++ **Assign a Member to a Board**
 
 This action module assigns a member to a board that you specify .
 
@@ -390,7 +404,9 @@ This action module assigns a member to a board that you specify .
  </tbody> 
 </table>
 
-#### Unassign a Member from a Board {#unassign-a-member-from-a-board}
++++
+
++++ **Unassign a Member from a Board** 
 
 This action module removes a member from a board.
 
@@ -413,14 +429,18 @@ This action module removes a member from a board.
  </tbody> 
 </table>
 
++++
+
 ### Lists {#lists}
 
+<!--
 * [Watch cards moved to a list](#watch-cards-moved-to-a-list) 
 * [Create a List](#create-a-list) 
 * [Edit a List](#edit-a-list) 
 * [Get a List](#get-a-list)
+-->
 
-#### Watch cards moved to a list {#watch-cards-moved-to-a-list}
++++ **Watch cards moved to a list** 
 
 This trigger module activates when a card is moved to a specific list.
 
@@ -447,7 +467,9 @@ This trigger module activates when a card is moved to a specific list.
  </tbody> 
 </table>
 
-#### Create a List {#create-a-list}
++++
+
++++ **Create a List**
 
 This action module creates a list on a board that you specify .
 
@@ -482,7 +504,9 @@ This action module creates a list on a board that you specify .
  </tbody> 
 </table>
 
-#### Edit a List {#edit-a-list}
++++
+
++++ **Edit a List**
 
 This action module edits an existing list.
 
@@ -517,7 +541,9 @@ This action module edits an existing list.
  </tbody> 
 </table>
 
-#### Get a List {#get-a-list}
++++
+
++++ **Get a List**
 
 This action module retrieves details about a specific list.
 
@@ -536,8 +562,11 @@ This action module retrieves details about a specific list.
  </tbody> 
 </table>
 
++++
+
 ### Cards {#cards}
 
+<!--
 * [Watch cards](#watch-cards) 
 * [Create a card](#create-a-card) 
 * [Edit a Card](#edit-a-card) 
@@ -545,8 +574,9 @@ This action module retrieves details about a specific list.
 * [Search for Cards](#search-for-cards) 
 * [Archive or Unarchive a Card](#archive-or-unarchive-a-card) 
 * [Add an Attachment](#add-an-attachment)
+-->
 
-#### Watch cards {#watch-cards}
++++ **Watch cards**
 
 This trigger module activated when a new card is added.
 
@@ -574,7 +604,9 @@ This trigger module activated when a new card is added.
  </tbody> 
 </table>
 
-#### Create a card {#create-a-card}
++++
+
++++ **Create a card**
 
 This action module creates a card in a selected list.
 
@@ -645,7 +677,9 @@ This action module creates a card in a selected list.
  </tbody> 
 </table>
 
-#### Edit a Card {#edit-a-card}
++++
+
++++ **Edit a Card**
 
 This action module edits an existing card.
 
@@ -712,7 +746,9 @@ This action module edits an existing card.
  </tbody> 
 </table>
 
-#### Get a Card {#get-a-card}
++++
+
++++ **Get a Card**
 
 This action module retrieves a selected card's details.
 
@@ -739,7 +775,9 @@ This action module retrieves a selected card's details.
  </tbody> 
 </table>
 
-#### Search for Cards {#search-for-cards}
++++
+
++++ **Search for Cards**
 
 This action module returns cards that match the search query.
 
@@ -759,16 +797,16 @@ This action module returns cards that match the search query.
    <td role="rowheader"> <p>Query</p> </td> 
    <td> <p>Enter the search query. You can refine your search using the following search operators:</p> 
     <ul> 
-     <li><code><strong>-operator</strong></code> <p>You can add “-” to any operator to do a negative search, such as <code>-has:members</code> to search for cards without any members assigned.</p> </li> 
+     <li><code><strong>-operator</strong></code> <p>You can add "-" to any operator to do a negative search, such as <code>-has:members</code> to search for cards without any members assigned.</p> </li> 
      <li><code><strong>@name</strong></code> <p>Returns cards assigned to a member. You can also use <code>member:</code>. Use <code>@me</code> to include only your cards.</p> </li> 
-     <li><code><strong>#label</strong></code> <p>Returns labeled cards. You can also use <code>label:</code>. For example, <code>label:"FIX IT"</code> will return cards with the label named “FIX IT”.</p> </li> 
+     <li><code><strong>#label</strong></code> <p>Returns labeled cards. You can also use <code>label:</code>. For example, <code>label:"FIX IT"</code> will return cards with the label named "FIX IT".</p> </li> 
      <li><code><strong>board:id</strong></code> <p>Returns cards within a specific board. For example, <code>board:Trello</code> will return cards on boards with Trello in the board name.</p> </li> 
-     <li><code><strong>list:name</strong></code> <p>Returns cards within the list named “name”.</p> </li> 
+     <li><code><strong>list:name</strong></code> <p>Returns cards within the list named "name".</p> </li> 
      <li><code><strong>has:attachments</strong></code> <p>Returns cards with attachments. The <code>has</code>: operator can also be used with other attributes, such as <code>has:description</code>, <code>has:cover</code>, <code>has:members</code>, or <code>has:stickers</code>.</p> </li> 
      <li><code><strong>due:day</strong></code> <p>Returns cards due within 24 hours. The <code>due:</code> operator can also be used with other timeframes, such as <code>due:week</code>, <code>due:month</code>, or <code>due:overdue</code>. You can also search for a specific day range. For example, adding <code>due:14</code> to search includes cards due in the next 14 days.</p> </li> 
      <li><code><strong>created:day</strong></code> <p>Returns cards created in the last 24 hours. The<code> created:</code> operator can also be used with other timeframes such as <code>created:week</code> or <code>created:month</code>. You can also search for a specific day range. For example, adding <code>created:14</code> to the search includes cards created in the last 14 days.</p> </li> 
      <li><code><strong>edited:day</strong></code> <p>Returns cards edited in the last 24 hours. The <code>edited:</code> operator can also be used with other timeframes, such as <code>edited:week</code> or <code>edited:month</code>. You can also search for a specific day range. For example, adding <code>edited:21</code> to the search includes cards edited in the last 21 days.</p> </li> 
-     <li><code><strong>description:</strong>, <strong>checklist:</strong>, <strong>comment:</strong>, and <strong>name:</strong></code> <p>Returns cards matching the text of card descriptions, checklists, comments, or names. For example, comment:"FIX IT" will return cards with “FIX IT” in a comment.</p> </li> 
+     <li><code><strong>description:</strong>, <strong>checklist:</strong>, <strong>comment:</strong>, and <strong>name:</strong></code> <p>Returns cards matching the text of card descriptions, checklists, comments, or names. For example, comment:"FIX IT" will return cards with "FIX IT" in a comment.</p> </li> 
      <li><code><strong>is:open</strong> and <strong>is:archived</strong></code> <p>Returns cards that are open or archived. If neither is specified, Trello returns both types.</p> </li> 
      <li><code><strong>is:starred</strong> </code> <p>Only includes cards on starred boards.</p> </li> 
     </ul> </td> 
@@ -779,7 +817,7 @@ This action module returns cards that match the search query.
   </tr> 
   <tr> 
    <td role="rowheader">Partial </td> 
-   <td> <p>By default, this module searches member content for exact matches of each word in your query. When Partial is enabled, the module looks for content that starts with any word in your query.</p> <p> For example If you are using the word “development” to look for a board titled "My Development Status Report," by default you would need to search for the entire word. If you have Partial enabled, you would be able to search for "dev" but not "velopment."</p> </td> 
+   <td> <p>By default, this module searches member content for exact matches of each word in your query. When Partial is enabled, the module looks for content that starts with any word in your query.</p> <p> For example If you are using the word "development" to look for a board titled "My Development Status Report," by default you would need to search for the entire word. If you have Partial enabled, you would be able to search for "dev" but not "velopment."</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Cards </td> 
@@ -788,7 +826,9 @@ This action module returns cards that match the search query.
  </tbody> 
 </table>
 
-#### Archive or Unarchive a Card {#archive-or-unarchive-a-card}
++++
+
++++ **Archive or Unarchive a Card**
 
 This action module archives or sends a card back to the board.
 
@@ -811,7 +851,9 @@ This action module archives or sends a card back to the board.
  </tbody> 
 </table>
 
-#### Add an Attachment {#add-an-attachment}
++++
+
++++ **Add an Attachment**
 
 This action module adds an attachment to the selected card.
 
@@ -842,22 +884,29 @@ This action module adds an attachment to the selected card.
  </tbody> 
 </table>
 
++++
+
 ### Members {#members}
 
-* [Assign a Member to a Board](#assign-a-member-to-a-board) 
+<!-- [Assign a Member to a Board](#assign-a-member-to-a-board) 
 * [Unassign a Member from a Board](#unassign-a-member-from-a-board) 
 * [Add a Member to a Card](#add-a-member-to-a-card) 
 * [Search for Members](#search-for-members)
+-->
 
-#### Assign a Member to a Board {#assign-a-member-to-a-board-1}
++++ **Assign a Member to a Board**
 
-See [Assign a Member to a Board](#assign-a-member-to-a-board) in this article.
+See "Assign a Member to a Board" under [Boards](#boards).
 
-#### Unassign a Member from a Board {#unassign-a-member-from-a-board-1}
++++
 
-See [Unassign a Member from a Board](#unassign-a-member-from-a-board) in this article.
++++ **Unassign a Member from a Board**
 
-#### Add a Member to a Card {#add-a-member-to-a-card}
+See "Unassign a Member from a Board" under [Boards](#boards).
+
++++
+
++++ **Add a Member to a Card**
 
 This action module adds the specified member to the specified card.
 
@@ -880,7 +929,9 @@ This action module adds the specified member to the specified card.
  </tbody> 
 </table>
 
-#### Search for Members {#search-for-members}
++++
+
++++ **Search for Members**
 
 This action module retrieves information about Trello members.
 
@@ -898,7 +949,7 @@ This action module retrieves information about Trello members.
   </tr> 
   <tr> 
    <td role="rowheader">Partial </td> 
-   <td> <p>By default, this module searches member content for exact matches of each word in your query. When Partial is enabled, the module looks for content that starts with any word in your query.</p> <p> For example If you are using the word “development” to look for a board titled "My Development Status Report," by default you would need to search for the entire word. If you have Partial enabled, you would be able to search for "dev" but not "velopment."</p> </td> 
+   <td> <p>By default, this module searches member content for exact matches of each word in your query. When Partial is enabled, the module looks for content that starts with any word in your query.</p> <p> For example If you are using the word "development" to look for a board titled "My Development Status Report," by default you would need to search for the entire word. If you have Partial enabled, you would be able to search for "dev" but not "velopment."</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Maximum number of returned members</td> 
@@ -907,13 +958,17 @@ This action module retrieves information about Trello members.
  </tbody> 
 </table>
 
++++
+
 ### Checklists {#checklists}
 
+<!--
 * [Create a Checklist](#create-a-checklist) 
 * [Create a Checklist Item](#create-a-checklist-item) 
 * [Edit a Checklist Item](#edit-a-checklist-item)
+-->
 
-#### Create a Checklist {#create-a-checklist}
++++ **Create a Checklist**
 
 This action module creates a checklist on the selected card.
 
@@ -948,7 +1003,9 @@ This action module creates a checklist on the selected card.
  </tbody> 
 </table>
 
-#### Create a Checklist Item {#create-a-checklist-item}
++++
+
++++ **Create a Checklist Item**
 
 This action module adds an item to a specific checklist.
 
@@ -983,7 +1040,9 @@ This action module adds an item to a specific checklist.
  </tbody> 
 </table>
 
-#### Edit a Checklist Item {#edit-a-checklist-item}
++++
+
++++ **Edit a Checklist Item**
 
 This action module edits an existing checklist.
 
@@ -1022,9 +1081,11 @@ This action module edits an existing checklist.
  </tbody> 
 </table>
 
++++
+
 ### Labels {#labels}
 
-#### Add a Label to a Card
++++ **Add a Label to a Card**
 
 This action module adds a label to a selected card.
 
@@ -1047,13 +1108,17 @@ This action module adds a label to a selected card.
  </tbody> 
 </table>
 
++++
+
 ### Comments {#comments}
 
+<!--
 * [Watch Comments](#watch-comments) 
 * [Create a Comment in a Card](#create-a-comment-in-a-card) 
 * [List Comments in a Card](#list-comments-in-a-card)
+-->
 
-#### Watch Comments {#watch-comments}
++++ **Watch Comments**
 
 Retrieves comment details when there is a new comment in a specified location.
 
@@ -1083,7 +1148,9 @@ Retrieves comment details when there is a new comment in a specified location.
  </tbody> 
 </table>
 
-#### Create a Comment in a Card {#create-a-comment-in-a-card}
++++
+
++++ **Create a Comment in a Card**
 
 This action module adds a comment to a selected card.
 
@@ -1110,7 +1177,9 @@ This action module adds a comment to a selected card.
  </tbody> 
 </table>
 
-#### List Comments in a Card {#list-comments-in-a-card}
++++
+
++++ **List Comments in a Card**
 
 <table style="table-layout:auto"> 
  <col> 
@@ -1142,6 +1211,8 @@ This action module adds a comment to a selected card.
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## Trello Object IDs
 

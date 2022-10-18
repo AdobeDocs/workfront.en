@@ -58,7 +58,7 @@ The following functionality is currently included with Workfront Goals:
 
 * Update goals, results, and activities to update the progress of goals.
 
-  For information about updating goal progress, see [Check in on goals in Adobe Workfront Goals](../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md).
+  For information about updating goal progress, see [Update goals by using Check-in in Adobe Workfront Goals](../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md).
 
 * Align goals to one another to clearly define your organization's strategy and make every goal count.
 

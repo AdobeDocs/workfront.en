@@ -51,13 +51,13 @@ To configure how stories are estimated for your agile team:
 1. Click the **More** menu, then select **Edit**.
 
    Only team members with either a Plan or Work license see this option.  
-   ![](assets/edit-team-settings-350x205.png)
+   ![Edit team](assets/edit-team-settings-350x205.png)
 
-1. In the **Agile**&nbsp;section, in the **Estimate Stories** in area, select whether you want to use points or hours for estimating the size (work load) of stories. If you select Points, specify how many hours are equal to 1 point. (The default is 1 point = 8 hours.) This is the number of Planned Hours that are added to the story.
+1. In the **Agile** section, in the **Estimate Stories in** area, select whether you want to use points or hours for estimating the size (work load) of stories. If you select Points, specify how many hours are equal to 1 point. (The default is 1 point = 8 hours.) This is the number of Planned Hours that are added to the story.
 
    **Example:** If you have selected to estimate stories in points and 1 point equals 8 hours, and a story is estimated at 3 points, 24 Planned Hours are added to the story.
 
-1. Click **Save Changes**.
+1. Click **Save changes**.
 
 ## Configure status columns on the agile story board
 
@@ -81,14 +81,14 @@ To define the statuses that are available for the story board associated with th
 
    Only team members with either a Plan or Work license see this option.
 
-   ![](assets/edit-team-settings-350x205.png)
+   ![Edit team](assets/edit-team-settings-350x205.png)
 
 1. In the **Agile** section, locate the **Story Board** area.
 
 1. (Optional) Click **Add Column** to add an additional status column to the story board.
 1. (Optional) Drag any status column using the drag-and-drop indicator to reorder the status columns on the story board. The first column can't be moved, and you cannot drag another column in front of the first column.
 
-   ![](assets/agile-story-card-drag-and-drop.png)
+   ![Drag and drop](assets/agile-story-card-drag-and-drop.png)
 
 1. Select both task and issue statuses. Task statuses are displayed as the column title for each column on the story board. The issue statuses you select map to the task statuses. This means that when you move an issue to another column of the story board, the issue status changes to the issue statuses shown here, and not to the name of the column on the story board (which reflects the task status).
 
@@ -102,17 +102,13 @@ To define the statuses that are available for the story board associated with th
    >
    >When selecting issue statuses, the third column always defaults to Closed. If you have more than three columns, ensure that you manually update the columns to reflect the proper statuses.
 
-1. Click **Save Changes**.
+1. Click **Save changes**.
 
 ### Configure status columns for projects {#configure-status-columns-for-projects}
 
 For information about how to configure status columns for a project, see the section [Create or customize an Agile view](../../reports-and-dashboards/reports/reporting-elements/create-edit-views.md#customizing-an-agile-view) in the article [Create or edit views in Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/create-edit-views.md).
 
 ## Configure additional fields to display on story cards on the agile story board
-
->[!NOTE]
->
->This setting is temporarily unavailable while in beta.
 
 When you add fields to story cards, fields are view-only and display-only when the field is populated.
 
@@ -128,6 +124,10 @@ By default, the following types of data is displayed on the story card for tasks
 
 You can display additional data (including custom data) on story cards. You might want to display additional fields on story cards for any number of reasons. For example, you might want to display the Customer ID if you are working on stories for multiple customers within the iteration, or you might want to display the Project Start Date or Project Completion Date.
 
+>[!NOTE]
+>
+>If you use a custom field on a story card, it cannot contain a period/dot in the name.
+
 To configure story cards that are assigned to the agile team to display additional fields:
 
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Workfront, then click **Teams**.
@@ -138,15 +138,15 @@ To configure story cards that are assigned to the agile team to display addition
 1. Click the **More** menu, then select **Edit**.  
    Only team members with either a Plan or Work license see this option.
 
-   ![](assets/edit-team-settings-350x205.png)
+   ![Edit team](assets/edit-team-settings-350x205.png)
 
-1. In the **Agile** section, click **Add Field**.
+1. In the **Agile** section, type a field name to locate it.
+
+   ![Additional fields](assets/agile-additional-fields-scrum.png)
 
 1. Select the name of the field you'd like to add.
-
-   ![](assets/additional-fields-350x239.png)
-
-1. Click **Save Changes**.
+1. Type the **Display name** for the field to show on the story or issue card.
+1. Click **Save changes**.
 
 ## Configure how color indicators are used for stories on the agile story board
 
@@ -163,7 +163,7 @@ To change the behavior of how colors are assigned to stories for an agile team:
 
    Only team members with either a Plan or Work license see this option.
 
-   ![](assets/edit-team-settings-350x205.png)
+   ![Edit team](assets/edit-team-settings-350x205.png)
 
 1. In the Agile section, in the Associate Card Color to area, select from the following options:
 
@@ -178,7 +178,7 @@ To change the behavior of how colors are assigned to stories for an agile team:
 
    * **Task Owner**: All stories with the same primary assignee are the same color. The primary assignee is the user who was first assigned to the task.
 
-1. Click **Save Changes**.
+1. Click **Save changes**.
 
 ## Configure how dates are applied when adding work items to an iteration
 
@@ -198,4 +198,4 @@ By default, when you add a work item to a Scrum iteration, the Planned Start Dat
 
    These options can affect dates when teams assign work items to each others' iterations. For example, team A modifies work item dates to the iteration dates and team B does not modify work item dates. If team B assigns a work item to team A's iteration, the work item dates will be changed. However, if team A assigns a work item to team B's iteration, the dates will not change.
 
-1. Click **Save Changes**.
+1. Click **Save changes**.

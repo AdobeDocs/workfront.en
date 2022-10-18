@@ -80,7 +80,7 @@ Remember the following when deactivating goals:
 * Workfront stops calculating the progress of deactivated goals. 
 * Inactive goals no longer display on or are taken into account in the following areas of Workfront Goals:
 
-   * The Check-in section. For information about the Check-in page, see [Check in on goals in Adobe Workfront Goals](../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md). 
+   * The Check-in section. For information about the Check-in page, see [Update goals by using Check-in in Adobe Workfront Goals](../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md). 
    * The Graphs section. For information about Workfront Goals graphs, see [Review graphs to understand goal progress trends in Adobe Workfront Goals](../../workfront-goals/goal-review-and-workfront-goals-sections/review-goal-graphs.md).
 
 * You can no longer make updates on deactivated goals. 

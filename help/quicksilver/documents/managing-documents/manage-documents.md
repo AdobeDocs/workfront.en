@@ -21,6 +21,7 @@ This section contains the following articles:​
 * [Document approvals and proofing](../../documents/managing-documents/document-approvals-and-proofing.md) 
 * [Add an update to a document](../../documents/managing-documents/add-update-documents.md) 
 * [Add or edit a custom form to a document](../../documents/managing-documents/add-custom-form-documents.md) 
+* [Copy and share a link to a document folder](/help/quicksilver/documents/managing-documents/copy-a-doc-folder-url.md)
 * [Upload a new version of a document](../../documents/managing-documents/upload-new-document-version.md) 
 * [Manage document versions](../../documents/managing-documents/manage-document-versions.md) 
 * [Check out documents](../../documents/managing-documents/check-out-documents.md) 
