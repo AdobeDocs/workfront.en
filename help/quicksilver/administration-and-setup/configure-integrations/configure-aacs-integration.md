@@ -148,7 +148,7 @@ To map metadata for folders:
 
 An Experience Manager fields that is mapped to Workfront project fields update automatically when the field is changed in Workfront.
 
-<span class="preview">In the Preview environment, an Experience Manager fields that is mapped to Workfront portfilio, program, project, task, issue, and document fields update automatically when the field is changed in Workfront.</span>
+<span class="preview">In the Preview environment, an Experience Manager fields that is mapped to Workfront portfolio, program, project, task, issue, and document fields update automatically when the field is changed in Workfront.</span>
 
 >[!IMPORTANT]
 >
