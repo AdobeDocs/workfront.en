@@ -10,8 +10,17 @@ exl-id: ed6f1db9-917d-4a19-9fd4-1ed5d2ca95fb
 ---
 # Overview of the Scheduling areas
 
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: broken off the main article, retitle, relink, reformat)</p>
+<!-- drafted for res scheduling deprecation blurb for preview release - Oct 2022 - AND REMOVE THE CAUTION BELOW AT THAT TIME:  
+
+>[!CAUTION] 
+> 
+> 
+> <span class="preview">The information in this article refers to the Adobe Workfront's Scheduling tools. The Scheduling areas have been removed from the Preview environment and will be removed from the Production environment on **November 10, 2022**. </span> 
+> <span class="preview"> Instead, you can schedule your resources in the Workload Balancer. </span> 
+> 
+>* <span class="preview"> For information about scheduling resources using the Workload Balancer, see the section [The Workload Balancer](../../resource-mgmt/workload-balancer/workload-balancer.md).</span> 
+> 
+>* <span class="preview"> For more information about the deprecation and removal of the Scheduling tools, see [Deprecation of Resource Scheduling tools in Adobe Workfront](../../resource-mgmt/resource-mgmt-overview/deprecate-resource-scheduling.md).</span> 
 -->
 
 >[!CAUTION]
@@ -28,14 +37,14 @@ The following sections describe where you can access the scheduling area within 
 
 You can schedule resources in the following areas in Workfront:
 
-* **For any projects for which you are the resource manager (from the Scheduling** **area****)** 
+* **For any projects for which you are the resource manager** (from the **Scheduling** area)
   The Scheduling area in Workfront enables resource managers to make resourcing assignments across multiple projects.  
 
-* **For an individual project when you are a member of the project team** (from the Staffing area of a project):
+* **For an individual project when you are a member of the project team** (from the **Scheduling** area of a project):
 
   The Scheduling area within a project enables members of the project team to assign work from the project to users on the project team.
 
-* **For an individual team you are a member of (from the Working On tab in the team)** 
+* **For an individual team you are a member of** (from the **Schedule** section of the team) 
   The Scheduling section in a team enables team members to assign work already assigned to the team from multiple projects to individual team members.
 
 ## Functionality available in the Scheduling area
