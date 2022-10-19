@@ -11,15 +11,17 @@ exl-id: 7fa644cd-cf6a-40f8-ae28-bf222bb45d3f
 ---
 # Deprecation of Resource Scheduling tools in Adobe Workfront
 
+<!--drafted for scheduling deprecation and HIGHLIGHT THE ADD USERS OPTIONS FOR PREVIEW RELEASE IN YELLOW - IN THE TABLE: <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> -->
+
 We are currently in the process of deprecating all Scheduling tools from Adobe Workfront and replacing them with the Workload Balancer.
 
 >[!IMPORTANT]
 >
->The deprecation of the Scheduling tools means that as of now, we are no longer implementing new feature functionality for the current Scheduling solution and we no longer consider nor prioritize defects for a fix in this area of Adobe Workfront.
+>We are no longer implementing new feature functionality for the current Scheduling solution and we no longer consider nor prioritize defects for a fix in this area of Adobe Workfront.
 
-This article describes a tentative timeline for this deprecation and it compares the functionality of the Scheduling tools and that of the Workload Balancer. 
+This article describes the timeline for this deprecation and it compares the functionality of the Scheduling tools and that of the Workload Balancer to indicate which Scheduling capabilities are already supported in the Workload Balancer. 
 
-A more exact timeline will be announced through the Announcement Center and this article will be updated as this process continues during the following months.
+We have been announcing a more exact timeline through the Announcement Center at key milestones during the deprecation process and this article have been updated as this process continues.
 
 >[!NOTE]
 >
@@ -37,22 +39,22 @@ Most of the functionality previously available in the Scheduling areas is now av
 
 ![The global Workload Balancer area](assets/workload-balancer-pti-350x111.png)
 
-Over time, you can continue using the Workload Balancer for all your scheduling needs, as more capabilities become available in the near future.
+You can use the Workload Balancer for all your scheduling needs, as most capabilities that were previously available only in the Scheduling areas have already been released. 
 
 ## Information that will not transfer to the Workload Balancer
 
 The following information will not transfer from the Scheduling tools to the Workload Balancer:
 
-* **Daily allocations for users**: You should not use both Scheduling and the Workload Balancer at the same time to adjust the same user allocations. If you have managed user allocations in the Scheduling tools, the adjusted daily allocations do not transfer to the Workload Balancer. Similarly, if you have adjusted user allocations in the Workload Balancer, they do not transfer to the Scheduling tools. We strongly encourage you to ensure that the daily allocations are accurate in the Workload Balancer to prepare for this transition.
-* **Filters**: If you have saved filters in the Scheduling areas, they do not transfer to the Workload Balancer. You must recreate the filters in the Workload Balancer.
+* **Daily allocations for users**: You should not use both Scheduling and the Workload Balancer at the same time to adjust the same user allocations. If you have managed user allocations in the Scheduling tools, the adjusted daily allocations do not transfer to the Workload Balancer. Similarly, if you have adjusted user allocations in the Workload Balancer, they do not transfer to the Scheduling tools. We strongly encourage you to ensure that the daily allocations are accurate in the Workload Balancer to prepare for this transition. For information, see [Manage user allocations in the Workload Balancer](../workload-balancer/manage-user-allocations-workload-balancer.md).
+* **Filters**: If you have saved filters in the Scheduling areas, they do not transfer to the Workload Balancer. You must recreate the filters in the Workload Balancer. For information, see [Filter information in the Workload Balancer](../workload-balancer/filter-information-workload-balancer.md). 
 
 ## Deprecation timeline highlights
 
 >[!IMPORTANT]
 >
->Please use this article to understand the latest timeline for deprecating the Scheduling tools. Any updates to this timeline will be communicated in this article and in Announcement Center messages.
+>Use this article to understand the latest timeline for deprecating the Scheduling tools. Any updates to this timeline will be communicated in this article and in Announcement Center messages.
 
-The following is a tentative timeline for the deprecation process of Resource Scheduling tools:
+The following is a timeline for the deprecation process of Resource Scheduling tools:
 
 * [2020.4 release (November 2020)](#2020-4-release-november-2020) 
 * [2021.4 release (October 2021)](#2021-4-release-october-2021) 
@@ -89,14 +91,14 @@ In addition to existing features, the Workload Balancer has or will have new fun
  <col> 
  <tbody> 
   <tr> 
-   <td rowspan="2"><span style="font-weight: normal;">Features</span> </td> 
-   <td rowspan="2"> Resource Scheduling tools feature availability</td> 
-   <td colspan="3">Workload Balancer feature availability</td> 
+   <td rowspan="2"><span style="font-weight: normal;"><b>Features</b></span> </td> 
+   <td rowspan="2"> <b>Resource Scheduling tools feature availability</b></td> 
+   <td colspan="3"><b>Workload Balancer feature availability</b></td> 
   </tr> 
   <tr> 
-   <td>Available now</td> 
-   <td>Available soon</td> 
-   <td>Not planned</td> 
+   <td><b>Available now</b></td> 
+   <td><b>Available soon</b></td> 
+   <td><b>Not planned</b></td> 
   </tr> 
   <tr> 
    <td> <p>Access tool from the Resourcing area</p> </td> 

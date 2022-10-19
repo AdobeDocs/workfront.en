@@ -7,9 +7,15 @@ author: Alina
 feature: Workfront Goals
 exl-id: 5092f508-e52c-4934-a8c1-d0be04ecce13
 ---
-# Check in on goals in Adobe Workfront Goals
+# Update goals by using Check-in in Adobe Workfront Goals
 
-You must review your goals periodically and update their progress to ensure that they are not falling behind or become in danger of not being achieved. You update the progress of your goals by providing a check-in for them.
+<!--drafted for goal redesign: when this releases to Prod, change the title of the article to "Update goal progress in Adobe Workfront Goals"-->
+
+<!-- drafted content for goal redesign: <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span>-->
+
+<!--take out Prod and Preview references-->
+
+You must review your goals periodically and update their progress to ensure that they are not falling behind or become in danger of not being achieved. When you use the Check-in functionality you can update the progress of your goals. 
 
 ## Access requirements
 
@@ -50,23 +56,24 @@ You must have the following:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+*To find out what plan, license type, or access you have, contact your Workfront administrator.
 
 ## Prerequisites
 
 You must have the following before you can start:
 
 * A Layout Template that includes the Goals area in the Main Menu.
+* An active goal. You cannot update progress on goals that are drafts, inactive, or closed. 
 
-## Considerations for checking in on goals
+## Considerations for updating goals using Check-in
 
-Consider the following when checking in on your goals:
+Consider the following when updating progress on goals:
 
 * Workfront Goals automatically calculates the progress of a goal when you manually update the progress of the results and activities of the goal.
 
   >[!TIP]
   >
-  >You cannot update progress directly on a goal. You must update the progress of activities and results which in turn update the progress of the goal.
+  >You cannot update progress directly on a goal. You must update the progress of the goal's progress indicators (activities, results, connected projects) which in turn update the progress of the goal.
 
   See also the following articles:
 
@@ -74,20 +81,22 @@ Consider the following when checking in on your goals:
    * For information about adding results to goals, see [Add results to goals in Adobe Workfront Goals](../../workfront-goals/results-and-activities/add-results-to-goals.md). 
    * For information about how Workfront Goals calculates the progress on a goal, see [Calculate goal progress in Adobe Workfront Goals](../../workfront-goals/goal-management/calculate-goal-progress.md).
 
-* You must create goals and activate them before you can check in on them.
+* You must create goals and activate them before you can update their progress. 
 
-  See also the following articles:&nbsp;
+  See also the following articles:
 
    * For information about creating goals, see [Create goals in Adobe Workfront Goals](../../workfront-goals/goal-management/create-goals.md).
    * For information about activating goals, see the [Activate goals in Adobe Workfront Goals](../../workfront-goals/goal-management/activate-goals.md).
 
   >[!IMPORTANT]
   >
-  >You cannot check in on goals that are drafted, closed, or inactive.
+  >You cannot update the progress of goals that are drafted, closed, or inactive.
 
 * The first time you or someone else updates the progress of a result or activity on a goal, the goal Progress changes from New and Workfront Goals starts recording progress and progress status updates on the goal.
 
-## Check in on goals
+## Update goal progress by using Check-in 
+
+<!--drafted content for goal redesign: <span class="preview"> IMPORTANT: The Check-in functionality has been removed from the Preview environment and will be removed from Workfront Goals with the 23.1 release. See the "Update goal progress in the Prreview environment" section in this article to update goal progress in Preview. </span> -->
 
 You can check in on goals at the individual goal level, or you can check in on multiple goals from the Check-in section of Workfront Goals.
 

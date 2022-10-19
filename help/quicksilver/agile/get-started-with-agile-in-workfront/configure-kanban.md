@@ -47,13 +47,13 @@ To configure how stories are estimated for your agile team:
 1. Click the **More** menu, then select **Edit**.
 
    Only team members with either a Plan or Work license see this option.  
-   ![](assets/edit-team-settings-350x205.png)
+   ![Edit team](assets/edit-team-settings-350x205.png)
 
-1. In the **Agile** section, in the **Estimate Stories** in area, select whether you want to use points or hours for estimating the size (work load) of stories. If you select Points, specify how many hours are equal to 1 point. (The default is 1 point = 8 hours.) This is the number of Planned Hours that are added to the story.
+1. In the **Agile** section, in the **Estimate Stories in** area, select whether you want to use points or hours for estimating the size (work load) of stories. If you select Points, specify how many hours are equal to 1 point. (The default is 1 point = 8 hours.) This is the number of Planned Hours that are added to the story.
 
    **Example:** If you have selected to estimate stories in points and 1 point equals 8 hours, and a story is estimated at 3 points, 24 Planned Hours are added to the story.
 
-1. Click&nbsp;**Save Changes**.
+1. Click **Save changes**.
 
 ## Configure status columns on the agile story board
 
@@ -70,14 +70,14 @@ To define the statuses that are available for the story board associated with th
 
    Only team members with either a Plan or Work license see this option.
 
-   ![](assets/edit-team-settings-350x205.png)
+   ![Edit team](assets/edit-team-settings-350x205.png)
 
 1. In the **Agile** section, locate the **Story Board** area.
 
 1. (Optional) Click **Add Column** to add an additional status column to the story board.
 1. (Optional) Drag any status column using the drag-and-drop indicator to reorder the status columns on the story board. The first column can't be moved, and you cannot drag another column in front of the first column.
 
-   ![](assets/agile-story-card-drag-and-drop.png)
+   ![Drag and drop](assets/agile-story-card-drag-and-drop.png)
 
 1. Select task statuses.
 
@@ -87,13 +87,9 @@ To define the statuses that are available for the story board associated with th
 
    You can add custom statuses if your Workfront administrator has configured them; custom statuses can be configured as described in [Create or edit a status](../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
 
-1. Click **Save Changes**.
+1. Click **Save changes**.
 
 ## Configure additional fields to display on story cards on the agile story board
-
->[!NOTE]
->
->This setting is temporarily unavailable while in beta.
 
 When you add fields to story cards, fields are view-only and display-only when the field is populated.
 
@@ -109,6 +105,10 @@ By default, the following types of data is displayed on the story card for tasks
 
 You can display additional data (including custom data) on story cards. You might want to display additional fields on story cards for any number of reasons. For example, you might want to display the Customer ID if you are working on stories for multiple customers within the iteration, or you might want to display the Project Start Date or Project Completion Date.
 
+>[!NOTE]
+>
+>If you use a custom field on a story card, it cannot contain a period/dot in the name.
+
 To configure story cards that are assigned to the agile team to display additional fields:
 
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Workfront, then click **Teams**.
@@ -119,15 +119,15 @@ To configure story cards that are assigned to the agile team to display addition
 1. Click the **More** menu, then select **Edit**.  
    Only team members with either a Plan or Work license see this option.
 
-   ![](assets/edit-team-settings-350x205.png)
+   ![Edit team](assets/edit-team-settings-350x205.png)
 
-1. In the **Agile** section, click **Add Field**.
+1. In the **Agile** section, type a field name to locate it.
+
+   ![Additional fields](assets/agile-additional-fields-kanban.png)
 
 1. Select the name of the field you'd like to add.
-
-   ![](assets/additional-fields-350x239.png)
-
-1. Click **Save Changes**.
+1. Type the **Display name** for the field to show on the story or issue card.
+1. Click **Save changes**.
 
 ## Configure the work in progress (WIP) limit
 
@@ -146,7 +146,7 @@ To limit WIP for your Kanban team:
 
    Only team members with either a Plan or Work license see this option.
 
-   ![](assets/edit-team-settings-350x205.png)
+   ![Edit team](assets/edit-team-settings-350x205.png)
 
 1. In the **Agile** section, in the **Methodology** section, ensure Kanban is selected.
 
@@ -154,9 +154,9 @@ To limit WIP for your Kanban team:
    When set, the WIP limit displays a warning message on the Kanban agile story board any time the limit is exceeded for any column on the story board. This warning message is displayed only the first time the WIP limit is exceeded. This warning message is not displayed on any columns that have a status that equates with Complete.  
    The WIP limit is simply a visual warning and does not restrict your team from having more items in a single column than the limit you set.  
   
-   ![](assets/wip-limit-350x193.png)
+   ![WIP limit](assets/wip-limit-350x193.png)
 
-1. Click **Save Changes**.
+1. Click **Save changes**.
 
 ## Configure stories to be automatically added from the backlog
 
@@ -171,13 +171,13 @@ You can configure stories from the backlog to be automatically added to the firs
 
    Only team members with either a Plan or Work license see this option.
 
-   ![](assets/edit-team-settings-350x205.png)
+   ![Edit team](assets/edit-team-settings-350x205.png)
 
-1. Select&nbsp;**Automatically add next story from backlog**&nbsp;to configure stories to be automatically added from the backlog to the first column on the Kanban story board.
+1. Select **Automatically add next story from backlog**&nbsp;to configure stories to be automatically added from the backlog to the first column on the Kanban story board.
 
    This occurs any time a story is moved into a column on the story board that represents a Complete status (a status that equates with Complete). When added from the backlog, the story with the highest priority is added to the story board.select this option to configure the next item from the backlog to be automatically added to the **In Progress** column when an item is moved out of the **In Progress** column.
 
-1. Click **Save Changes**.
+1. Click **Save changes**.
 
 ## Configure how long cards stay on the Kanban board
 
@@ -191,7 +191,7 @@ You can choose how long completed cards stay on the Kanban board. Tasks that fal
 
    Only team members with either a Plan or Work license see this option.
 
-   ![](assets/edit-team-settings-350x205.png)
+   ![Edit team](assets/edit-team-settings-350x205.png)
 
 1. In the **Number of days Completed cards stay on the Kanban board** drop-down menu, select a value.
-1. Click **Save Changes**.
+1. Click **Save changes**.

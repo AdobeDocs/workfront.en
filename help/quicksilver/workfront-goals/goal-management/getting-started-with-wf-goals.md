@@ -1,6 +1,6 @@
 ---
 title: Get started with Adobe Workfront Goals
-description: Get started with Adobe Workfront Goals
+description: Workfront Goals helps you define, communicate, and achieve strategic outcomes by connecting strategy to work execution and delivery. 
 author: Alina
 draft: Probably
 feature: Workfront Goals
@@ -108,7 +108,7 @@ For information about activating, adding activities, and checking in on your goa
 
 * [Activate goals in Adobe Workfront Goals](../../workfront-goals/goal-management/activate-goals.md) 
 * [Add activities to goals in Adobe Workfront Goals](../../workfront-goals/results-and-activities/add-activities-to-goals.md) 
-* [Check in on goals in Adobe Workfront Goals](../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md)
+* [CUpdate goals by using Check-in in Adobe Workfront Goals](../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md)
 
 ## Guidelines for setting up Workfront Goals
 

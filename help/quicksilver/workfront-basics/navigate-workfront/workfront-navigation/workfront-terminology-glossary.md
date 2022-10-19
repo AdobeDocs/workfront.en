@@ -1713,17 +1713,17 @@ The following table is a list of commonly used terms in Adobe Workfront:
    <td>Resource Grid</td> 
    <td>A visual table showing the allocation of resources.</td> 
   </tr> 
-  <tr data-mc-conditions="SnippetConitions_MaturityModel.Integrated"> 
+  <tr> 
    <td>Resource Management</td> 
-   <td> <p>Resource Management is an enterprise set of tool that allows you to accurately forecast the use of your resources based on their availability so that the work that must be done is completed on time and on budget.&nbsp;</p> <p>With Resource Management tools you can plan long term capacity and short term scheduling needs for your resources. </p> <p>For information about Resource Management in&nbsp;Workfront, see <a href="../../../resource-mgmt/resource-mgmt-overview/get-started-resource-management.md">Get started with Resource Management</a>.</p> </td> 
+   <td> <p>Resource Management is an enterprise set of tool that allows you to accurately forecast the use of your resources based on their availability so that the work that must be done is completed on time and on budget.&nbsp;</p> <p>With Resource Management tools you can plan long term capacity and short term scheduling needs for your resources. </p> <p>For information about Resource Management in Workfront, see <a href="../../../resource-mgmt/resource-mgmt-overview/get-started-resource-management.md">Get started with Resource Management</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>Resource Manager IDs</td> 
-   <td><p>In a project report, you can use this option when creating a filter to find a specific resource manager. </p> <p>Resource Managers can perform resource scheduling actions on a project.</p> <p>For more information, see <a href="../../../manage-work/projects/planning-a-project/designate-resource-managers-for-projects-and-templates.md">Designate Resource Managers for a project or template </a>.</p> </td> 
+   <td><p>In a project report, you can use this option when creating a filter to find a specific resource manager. </p></td> 
   </tr> 
   <tr> 
    <td>Resource Managers</td> 
-   <td> <p>In a project report or list view, this is a field that displays the active users who can perform resource scheduling actions for the project. They utilize the enterprise resource management tools in Workfront to review capacity, monitor utilization, and assign project tasks. The field also displays in the Edit Project box or the Project Details area. </p> <p>Being designated as a Resource Manager on a project is a prerequisite to using the scheduling tools  in Workfront. For information about resource scheduling, see <a href="../../../resource-mgmt/resource-scheduling/get-started-resource-scheduling.md">Get started with Resource Scheduling</a>. </p> <p>When you use "Resource Managers" in a report, a list of resource managers is displayed, with each resource manager on the project separated by a comma (there can be up to 10 resource managers on a given project).</p> <p>For more information, see the article <a href="../../../manage-work/projects/planning-a-project/designate-resource-managers-for-projects-and-templates.md">Designate Resource Managers for a project or template </a>.</p> </td> 
+   <td> <p>In a project report or list view, this is an informational field that displays users designated to perform resource management activities on the project.  When you use "Resource Managers" in a report, a list of resource managers is displayed, with each resource manager on the project separated by a comma. You can designate up to 30 resource managers on a given project.</p> <p>For more information, see the article <a href="../../../manage-work/projects/planning-a-project/designate-resource-managers-for-projects-and-templates.md">Designate Resource Managers for a project or template </a>.</p> </td> 
   </tr>
   <tr> 
    <td>Resource Planner Budgeted Hours </td> 
@@ -1836,7 +1836,7 @@ The following table is a list of commonly used terms in Adobe Workfront:
   </tr> 
   <tr> 
    <td>Scheduled Report</td> 
-   <td> <p>When you build a report of reports, you can display&nbsp;information about the schedules of the report, if the report is scheduled for delivery using the Scheduled Report field. This field shows multiple values, one for each schedule of each report, in a bulleted list. For more information about scheduling reports, see the article <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md" class="MCXref xref">Report delivery overview</a>.</p> <p>Because this field shows multiple values, it cannot be used in a grouping. You can access it only in a filter or a view.&nbsp;</p> </td> 
+   <td> <p>When you build a report of reports, you can display information about the schedules of the report, if the report is scheduled for delivery using the Scheduled Report field. This field shows multiple values, one for each schedule of each report, in a bulleted list. For more information about scheduling reports, see the article <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md" class="MCXref xref">Report delivery overview</a>.</p> <p>Because this field shows multiple values, it cannot be used in a grouping. You can access it only in a filter or a view.&nbsp;</p> </td> 
   </tr> 
   <tr> 
    <td>Scope Change</td> 
