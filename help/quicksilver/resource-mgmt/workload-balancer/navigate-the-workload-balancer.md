@@ -431,11 +431,11 @@ The page of your Home Team displays by default.
     
     For example, you might consider displaying only users that belong to your teams or groups. For more information, see [Filter information in the Workload Balancer](../workload-balancer/filter-information-workload-balancer.md). 
 
-1. (Optional) Click the **Filter** icon ![](assets/filter-icon.png) in the Assigned Work area and select the **This project's work items** option from the **Suggested** area of the filter area. 
+1. (Optional) Click the **Filter** icon ![](assets/filter-icon.png) in the Assigned Work area and select the **This project's work items** option from the **Suggested** area of the filter area. This filter is deselected by default.
 
     When this option is selected, only the items assigned to users on the selected project display. 
     
-    When the option is unselected, all the items assigned to the users on the project display, regardless of what projects the items belong to.
+    When the option is deselected, all the items assigned to the users on the project display, regardless of what projects the items belong to.
 
 1. (Optional and recommended) Apply a filter in the Assigned Work area to display users that are important to you but might not be assigned to items on the project, then click the **Show all users** icon ![](assets/show-all-users-icon-project-workload-balancer.png). 
 

@@ -9,6 +9,17 @@ exl-id: 4bc08d5f-99c7-40e2-85d6-1de0b585aef8
 ---
 # Migrate from Resource [!UICONTROL Scheduling] to the [!UICONTROL Workload Balancer]
 
+
+<!-- drafted for res scheduling deprecation blurb for PREVIEW eview release - Oct 2022 - CHANGE THIS BLURB TO SOMETHING ELSE AT PRODUCTION:   
+>[!CAUTION]  
+>  
+>  
+> <span class="preview">The Scheduling areas have been removed from the Preview environment and will be removed from the Production environment on **November 10, 2022**. </span>  
+> <span class="preview"> After November 10, 2022, you must schedule your resources in the Workload Balancer. </span>  
+>  
+>* <span class="preview"> For information about scheduling resources using the Workload Balancer, see the section [The Workload Balancer](../../resource-mgmt/workload-balancer/workload-balancer.md).</span>  
+--> 
+
 >[!IMPORTANT]
 >
 >The information in this article applies to you only if you have managed the scheduling of your resources in the Resource [!UICONTROL Scheduling] areas of Adobe Workfront. Workfront started the deprecation of the [!UICONTROL Scheduling] tools in November 2020 and plans to replace them with the [!UICONTROL Workload Balancer].   
@@ -24,7 +35,7 @@ You and your teams may be using some of the Resource [!UICONTROL Scheduling] too
 * The [!UICONTROL Scheduling] section of a project
 * The [!UICONTROL Schedule] section of a team
 
-With this deprecation, the [!UICONTROL Workload Balancer] replaces all the  [!UICONTROL Resource Scheduling] tools in all areas.
+With this deprecation, the [!UICONTROL Workload Balancer] replaces all the  [!UICONTROL Resource Scheduling] tools in all areas listed above.
 
 ## Step 1: Get your teams trained
 
@@ -43,7 +54,11 @@ Follow the steps below to determine when the best time to migrate is for you:
 
    If the features you need are not available yet, you might want to wait to migrate (see Step 3a in the following section in this article).
 
-1. Determine whether your team manages user allocations on assignments. Adjusting or modifying user allocations means modifying the planned hours per day for each user across the duration of a work item. By default, the system equally distributes the total Planned Hours of a work item across the entire duration of the item. For information about managing allocations in the Resource Scheduler, see the "Modify user allocations" section of the article [Manage user allocations in the Scheduling areas](../../resource-mgmt/resource-scheduling/manage-allocations-scheduling-areas.md).
+1. Determine whether your team manages user allocations on assignments. Adjusting or modifying user allocations means modifying the planned hours per day for each user across the duration of a work item. 
+
+   Allocations edited in the Scheduling tools do not transfer to the Workload Balancer. By default, the system equally distributes the total Planned Hours of a work item across the entire duration of the item.
+   
+   You must manually manage allocations in the Workload Balancer to ensure the allocations match those you have in the Scheduling tools. For information, see [Manage user allocations in the Workload Balancer](../workload-balancer/manage-user-allocations-workload-balancer.md).
 
 1. Any saved filters in the Scheduling area will not automatically transfer to the Workload Balancer. Make time to create any filters you might need in the Workload Balancer. For information about creating filters in the Workload Balancer, see [Filter information in the Workload Balancer](../workload-balancer/filter-information-workload-balancer.md).
 
@@ -70,7 +85,7 @@ Do the following:
 
   >[!TIP]
   >
-  >Give your team 2-4 weeks to get through the training prior to the transition date. For information about training see the section [Migrate from Resource Scheduling to the Workload Balancer](#migrate-from-resource-uicontrol-scheduling-to-the-uicontrol-workload-balancer) in this article. 
+  >Give your team some time to get through the training about using the Workload Balancer prior to the transition date. For information about training see the section [Migrate from Resource Scheduling to the Workload Balancer](#migrate-from-resource-uicontrol-scheduling-to-the-uicontrol-workload-balancer) in this article. 
 
 * Follow these guidelines to assist your teams:
 
@@ -84,7 +99,7 @@ If your workflow matches this scenario, you should be more strategic in your tra
 
 Consider the following when making the transition to the [!UICONTROL Workload Balancer] when you use this [!UICONTROL Scheduling] functionality:
 
-* Decide whether it is possible to put a hold on managing allocations for 1-2 weeks as your resource managers make the switch. To do this:
+* Put on hold the managing of allocations in the [!UICONTROL Scheduling] tools as your resource managers make the switch. To do this:
 
    * Find out the average duration of tasks in your current projects and take that into consideration when determining how long you need to put a hold on managing the user allocations.
 
@@ -98,13 +113,18 @@ Consider the following when making the transition to the [!UICONTROL Workload Ba
    
    * Analyze your task report. For example, if your average task duration is 3 days, then a one week transition might be best. Have the team stop managing user allocations for a week. The following week, transition the team to the [!UICONTROL Workload Balancer] and begin managing user allocations that following week.
 
+    >[!NOTE]
+    >
+    >This suggestion might not work if the average task duration is longer than the time remaining until the removal of the Scheduling tools. 
+
+
      ![](assets/timeline-stop-using-resource-scheduler-callouts-350x178.png)
 
      >[!TIP]
      >
      >You can continue to make task and issue assignments during the transition period. Assignments made will be reflected in both the Resource Scheduler and [!UICONTROL Workload Balancer].
 
-* If you are a larger organization with teams managing resources for hundreds of projects, you may consider transitioning from the [!UICONTROL Resource Scheduler] to the [!UICONTROL Workload Balancer] one portfolio at a time. Consider a phased roll-out by creating customized filters in the [!UICONTROL Workload Balancer] to look at one specific portfolio at a time.
+* If you are a larger organization with teams managing resources for hundreds of projects, you may consider transitioning from the [!UICONTROL Scheduling] tools to the [!UICONTROL Workload Balancer] one portfolio at a time. Consider a phased roll-out by creating customized filters in the [!UICONTROL Workload Balancer] to look at one specific portfolio at a time.
 
 * Allow your resource managers to team up: have one person review assignments made in the  [!UICONTROL Resource Scheduling] tools and one making appropriate adjustments in the [!UICONTROL Workload Balancer]. Once that team of two reconciles both tools, have them shift their workflows to the [!UICONTROL Workload Balancer].
 
