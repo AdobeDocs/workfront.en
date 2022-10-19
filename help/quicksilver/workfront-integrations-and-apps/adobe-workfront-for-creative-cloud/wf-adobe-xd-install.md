@@ -20,6 +20,7 @@ You can install the [!DNL Adobe Workfront for Adobe XD] plugin from the Adobe Ma
 * Japanese
 * Simplified Chinese
 * Traditional Chinese
+* Korean
 
 ## Access requirements
 
