@@ -2,17 +2,17 @@
 product-previous: workfront-proof
 product-area: documents;system-administration;user-management
 navigation-topic: groups-workfront-proof
-title: Make Groups Private using [!DNL Workfront] Proof
+title: Make Groups Private using [!DNL Workfront Proof]
 description: Making your group private means that only you will be able to view, use, edit or delete the group. If the group is not private, then all users in your account can see and use the group.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 6bd637b1-1c5f-4bab-85b8-c3852233a306
 ---
-# Make Groups Private using [!DNL Workfront] Proof
+# Make Groups Private using [!DNL Workfront Proof]
 
 >[!IMPORTANT]
 >
->This article refers to functionality in the standalone product [!DNL Workfront] Proof. For information on proofing inside [!DNL Adobe Workfront], see [Proofing](../../../review-and-approve-work/proofing/proofing.md).
+>This article refers to functionality in the standalone product [!DNL Workfront Proof]. For information on proofing inside [!DNL Adobe Workfront], see [Proofing](../../../review-and-approve-work/proofing/proofing.md).
 
 Making your group private means that only you will be able to view, use, edit or delete the group. If the group is not private, then all users in your account can see and use the group.
 

@@ -13,24 +13,24 @@ exl-id: f2402830-3263-4204-ba8a-9028ef937577
 
 >[!IMPORTANT]
 >
->This article refers to functionality in the standalone product [!DNL Workfront] Proof. For information on proofing inside [!DNL Adobe Workfront], see [Proofing](../../../review-and-approve-work/proofing/proofing.md).
+>This article refers to functionality in the standalone product [!DNL Workfront Proof]. For information on proofing inside [!DNL Adobe Workfront], see [Proofing](../../../review-and-approve-work/proofing/proofing.md).
 
-## Problem:&nbsp;
+## Problem:
 
-When bulk editing I attempted to add a single Other Groups to numerous users.\
-After Saving Changes, all the existing Other Groups were removed and only the new Other Group remained.&nbsp;
+When bulk editing I attempted to add a single Other Groups to numerous users.
+After Saving Changes, all the existing Other Groups were removed and only the new Other Group remained.
 
 ## Answer:
 
-The resulting behavior depends&nbsp;on the current group membership of the selected users:
+The resulting behavior depends on the current group membership of the selected users:
 
-* If all of the selected users Other Groups memberships match exactly...\
-   After you select the users and select [!UICONTROL edit], the [!UICONTROL Other Groups] field will show the full listing\
-   of all of the groups these users belong to.&nbsp;
+* If all of the selected users Other Groups memberships match exactly...
+   After you select the users and select [!UICONTROL edit], the [!UICONTROL Other Groups] field will show the full listing
+   of all of the groups these users belong to.
 
-* If the selected users have different Other Group memberships...\
+* If the selected users have different Other Group memberships...
    After you select the users and click [!UICONTROL Edit], the [!UICONTROL Other Groups] field will be blank.
 
 When you click **[!UICONTROL Save Changes]**, whatever is showing in the Other Groups field is saved.
 
-The previous contents of the field are overwritten.&nbsp;
+The previous contents of the field are overwritten.
