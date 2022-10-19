@@ -2076,7 +2076,7 @@ feature-set: Workfront
       * [Install Adobe Workfront for Creative Cloud Applications](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-toc.md)
       * [Install Adobe Workfront for Photoshop](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-ps.md)
       * [Install Adobe Workfront for XD](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-install.md)
-      * [Install Adobe Workfront for InDesign](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-install-cc.md)
+      * [Install Adobe Workfront for design and video](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-install-cc.md)
     * Manage work with the Adobe Workfront plugin for Creative Cloud Applications {#manage-wf-cc}
       * [Manage work with the Adobe Workfront plugin for Creative Cloud Applications](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-manage-work-toc.md)
       * [Find your work using the Adobe Workfront plugin](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-find-work.md)

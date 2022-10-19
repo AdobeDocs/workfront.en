@@ -109,17 +109,23 @@ To set up linked folders:
 You must install the correct plugin for the Adobe Creative Cloud application you’re using:
 * For Photoshop, see [Install Adobe Workfront for Photoshop](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-ps.md)
 * For XD, see [Install Adobe Workfront for XD](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-install.md)
-* For InDesign, see [Install Adobe Workfront for InDesign](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-install-cc.md)
+* For InDesign, Illustrator, Premiere Pro, and After Effects see [Install Adobe Workfront for design and video](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-install-cc.md)
 
 ## CC Applications list {#cc-app-list}
 
 * Photoshop
 * XD 
 * InDesign
+* Illustrator
+* Premiere Pro
+* After Effects
 
 ## WF for CC application list {#cc-plugin-app-list} 
 
 * InDesign
+* Illustrator
+* Premiere Pro
+* After Effects
 
 
 <!-- Log Time -->
