@@ -127,6 +127,9 @@ You must install the correct plugin for the Adobe Creative Cloud application you
 * Premiere Pro
 * After Effects
 
+## Adjust automated proof settings {#adjust-proof-settings}
+
+add content here
 
 <!-- Log Time -->
 
