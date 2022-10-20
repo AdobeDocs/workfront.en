@@ -9,21 +9,21 @@ exl-id: 4bc08d5f-99c7-40e2-85d6-1de0b585aef8
 ---
 # Migrate from Resource [!UICONTROL Scheduling] to the [!UICONTROL Workload Balancer]
 
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> 
 
-<!-- drafted for res scheduling deprecation blurb for PREVIEW eview release - Oct 2022 - CHANGE THIS BLURB TO SOMETHING ELSE AT PRODUCTION:   
+<!-- drafted for res scheduling deprecation blurb for PREVIEW eview release - Oct 2022 - CHANGE THIS BLURB TO SOMETHING ELSE AT PRODUCTION:-->  
+
 >[!CAUTION]  
 >  
 >  
 > <span class="preview">The Scheduling areas have been removed from the Preview environment and will be removed from the Production environment on **November 10, 2022**. </span>  
 > <span class="preview"> After November 10, 2022, you must schedule your resources in the Workload Balancer. </span>  
 >  
->* <span class="preview"> For information about scheduling resources using the Workload Balancer, see the section [The Workload Balancer](../../resource-mgmt/workload-balancer/workload-balancer.md).</span>  
---> 
+><span class="preview"> For information about scheduling resources using the Workload Balancer, see the section [The Workload Balancer](../../resource-mgmt/workload-balancer/workload-balancer.md).</span>  
 
->[!IMPORTANT]
->
->The information in this article applies to you only if you have managed the scheduling of your resources in the Resource [!UICONTROL Scheduling] areas of Adobe Workfront. Workfront started the deprecation of the [!UICONTROL Scheduling] tools in November 2020 and plans to replace them with the [!UICONTROL Workload Balancer].   
->For information about the deprecation plan for the [!UICONTROL Resource Scheduling] tools and the timeline for their replacement with the [!UICONTROL Workload Balancer], see [Deprecation of Resource Scheduling tools in Adobe Workfront](../../resource-mgmt/resource-mgmt-overview/deprecate-resource-scheduling.md).
+The information in this article applies to you only if you have managed the scheduling of your resources in the Resource [!UICONTROL Scheduling] areas of Adobe Workfront. Workfront started the deprecation of the [!UICONTROL Scheduling] tools in November 2020 and has replaced them with the [!UICONTROL Workload Balancer].   
+
+For information about the deprecation plan for the [!UICONTROL Resource Scheduling] tools and the timeline for their replacement with the [!UICONTROL Workload Balancer], see [Deprecation of Resource Scheduling tools in Adobe Workfront](../../resource-mgmt/resource-mgmt-overview/deprecate-resource-scheduling.md).
 
 We want you to experience as little work disruption as possible by helping you design a migration plan. The steps below will help you get your team trained and determine the best time for you to switch to the [!UICONTROL Workload Balancer].
 
@@ -41,9 +41,6 @@ With this deprecation, the [!UICONTROL Workload Balancer] replaces all the  [!UI
 
 Take the training [Resource Management Program for the new Adobe Workfront experience](https://one.workfront.com/s/resource-management-program-nwe) (75 minutes) on Workfront One.
 
-<!--If you use Adobe Workfront Classic, take the training [Resource Manager Training Program](https://customer-sso.workfront.com/training?SAMLRequest=fVJdb9swDPwrftOT448ZqyPEAYIEAwJ0Q5B2fdjLwMh0K1SWNJFes38%2FKW22DOjyJIA8nu6OXBCMxsvVxE92jz8mJM5WRBhYO7t2lqYRwx2Gn1rh1%2F1tJ56YPcmiUBOxi738xYXnITjLs0PQ%2FSOC9zPlxgIiZZHYCwXGHEA9i2wT6bWFxP0OE5Gb%2FWVLHBxAW20fRbbddOK76ufz9jBv83YYPuYN1nU%2B76HJq1q10H6o2rq%2FiVCiCbeWGCx3oi7rMq%2BqvGzu60qWN7JpvonsAQOdRNSzUmTH0ViSSWsnpmClA9IkLYxIkpW8W32%2BlREo4RzM5Yi%2FPuODY6ecEctFQsuTurBM5qP3fyJbFJeIxetmvkTG7WbnjFa%2FspUx7mUdEBg7wWFCkX1yYQS%2BriFVdJ8PJ6j0yTsxWhbF%2BZe31WN%2FOoS4d8YjZ2s3egiaUlB4BMVnE5eotYmx7HFYXk1OSZVwsbyLT9xyv4vBoIpf3gew5F3gN%2F%2Fvkr%2F2%2FiP0T%2FfyjJe%2FAQ%3D%3D) (120 minutes) in Workfront Ascent. You must sign in to Workfront Ascent to access the course.
--->
-
 If you experience difficulty logging in or accessing the course, contact Customer Support. For information, see [Contact Customer Support](../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).
 
 ## Step 2: Determine the best time to migrate {#step-2-determine-the-best-time-to-migrate}
@@ -52,7 +49,9 @@ Follow the steps below to determine when the best time to migrate is for you:
 
 1. Determine which features in the Resource [!UICONTROL Scheduling] tools your team uses most and make sure those features are available in the [!UICONTROL Workload Balancer]. For information about which features are currently available in the [!UICONTROL Workload Balancer], see the "Feature availability" section in the article [Deprecation of Resource Scheduling tools in Adobe Workfront](../../resource-mgmt/resource-mgmt-overview/deprecate-resource-scheduling.md).
 
-   If the features you need are not available yet, you might want to wait to migrate (see Step 3a in the following section in this article).
+   >[!IMPORTANT]
+   >
+   >Nearly all capabilities of the Scheduling tools are now in the Workload Balancer.
 
 1. Determine whether your team manages user allocations on assignments. Adjusting or modifying user allocations means modifying the planned hours per day for each user across the duration of a work item. 
 
@@ -96,6 +95,11 @@ Do the following:
 ### Step 3b: You or your teams manage user allocations in the [!UICONTROL Scheduling] tools
 
 If your workflow matches this scenario, you should be more strategic in your transition plan. The daily allocations that display in the [!UICONTROL Scheduling] tools are stored in a different database than the daily allocations that display in the [!UICONTROL Workload Balancer]. This means that the adjustments of daily allocations that you do in the Resource [!UICONTROL Scheduling] tools do not transfer to the daily allocations in the [!UICONTROL Workload Balancer].
+
+   >[!CAUTION]
+   >
+   >You have until **November 10, 2022** to ensure that your user allocation from the Scheduling areas matches that in the Workload Balancer in your Production environment. At that time, we are removing the Scheduling tools from the Production environment. You must manually adjust the allocations in the Workload Balancer to match those in the Scheduling tools. <span class="preview">The Scheduling tools have already been remvoved from the Preview environment.</span>
+
 
 Consider the following when making the transition to the [!UICONTROL Workload Balancer] when you use this [!UICONTROL Scheduling] functionality:
 
