@@ -190,9 +190,9 @@ You must have the following access to perform the steps in this article:
    >
    >The last 3 items in the **Customize what users see** drop-down list (Lists, Home and Summary, and Branding) are for configuring areas other than the left panel. For information about them, see these articles:
    >   
-   >   * [Customize Filters, Views, and Groupings using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md) 
-   >   * [Customize Home and Summary using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md) 
-   >   * [Brand Adobe Workfront using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/brand-wf-using-a-layout-template.md) 
+   >* [Customize Filters, Views, and Groupings using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md) 
+   >* [Customize Home and Summary using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md) 
+   >* [Brand Adobe Workfront using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/brand-wf-using-a-layout-template.md) 
 
 1. (Optional) If you want to add a left panel item that links to one of your organization's dashboards, click **Add custom section**, type a **Custom section title** for the item, then add the dashboard.
 
