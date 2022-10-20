@@ -11,7 +11,7 @@ exl-id: 7fa644cd-cf6a-40f8-ae28-bf222bb45d3f
 ---
 # Deprecation of Resource Scheduling tools in Adobe Workfront
 
-<!--drafted for scheduling deprecation and HIGHLIGHT THE ADD USERS OPTIONS FOR PREVIEW RELEASE IN YELLOW - IN THE TABLE: <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> -->
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span>
 
 We are currently in the process of deprecating all Scheduling tools from Adobe Workfront and replacing them with the Workload Balancer.
 
@@ -21,7 +21,7 @@ We are currently in the process of deprecating all Scheduling tools from Adobe W
 
 This article describes the timeline for this deprecation and it compares the functionality of the Scheduling tools and that of the Workload Balancer to indicate which Scheduling capabilities are already supported in the Workload Balancer. 
 
-We have been announcing a more exact timeline through the Announcement Center at key milestones during the deprecation process and this article have been updated as this process continues.
+We have been announcing a more exact timeline through the Announcement Center at key milestones during the deprecation process and this article has been updated as this process continues.
 
 >[!NOTE]
 >
@@ -31,15 +31,13 @@ We have been announcing a more exact timeline through the Announcement Center at
 
 For detailed information about how you should prepare for the transition between Scheduling and the Workload Balancer, see [Migrate from Resource Scheduling to the Workload Balancer](../../resource-mgmt/resource-mgmt-overview/migrate-resource-scheduling-to-workload-balancer.md).
 
-If you currently use Scheduling tools we recommend that you consider discontinuing them and start using the Workload Balancer. 
+If you currently use Scheduling tools we recommend that you discontinue them and start using the Workload Balancer. 
 
 ![The global Resource Scheduling area](assets/resource-scheduler-global-350x127.png)
 
-Most of the functionality previously available in the Scheduling areas is now available in the Workload Balancer. For information, see the section [Feature availability](#feature-availability) in this article.
+Nearly all capabilities previously available in the Scheduling areas are now available in the Workload Balancer. For information, see the section [Feature availability](#feature-availability) in this article. You can continue scheduling your resources for work exclusively in the Workload Balancer. 
 
 ![The global Workload Balancer area](assets/workload-balancer-pti-350x111.png)
-
-You can use the Workload Balancer for all your scheduling needs, as most capabilities that were previously available only in the Scheduling areas have already been released. 
 
 ## Information that will not transfer to the Workload Balancer
 
@@ -71,11 +69,12 @@ The following is a timeline for the deprecation process of Resource Scheduling t
 * Workload Balancer is set as default for any first-time user of Workfront
 * Enhanced filters that can be shared and include additional fields
 
-### 2022.4 release (October 2022) 
+### 2022.4 release (October - November 2022) 
 
 * No defects will be prioritized for a fix during or after the 2022.4 release
-* All Scheduling areas are removed from Workfront shortly after the 2022.4 release 
-* The Workload Balancer is the only resource scheduling tool available in Workfront
+* <span class="preview"> All Scheduling areas are removed from the Preview environment </span> (**October 20, 2022**)
+* All Scheduling areas are removed from the Production environment (**November 10, 2022**)
+* The Workload Balancer is the only resource scheduling tool available in Workfront(**after November 10, 2022**)
 
 ## Feature availability {#feature-availability}
 
@@ -333,10 +332,10 @@ In addition to existing features, the Workload Balancer has or will have new fun
    <td>&nbsp;</td> 
     
    <tr> 
-   <td><span>Add users to the project team</span> </td> 
+   <td><span>Add users to the project team <span class="preview">(relocated to the <b>People</b> tab of the project)</span></span> </td> 
    <td>✓</td> 
-   <td> </td> 
-   <td><span>✓</span></td> 
+   <td><span class="preview">✓</span> </td> 
+   <td></td> 
    <td>&nbsp;</td> 
 
   </tr>

@@ -16,6 +16,8 @@ A project team is a group of users associated with a project. Users listed under
 
 You can assign users to a project team either manually or automatically. For more information see the section "Add users to a Project Team" in the article [Manage the Project Team](../../../manage-work/projects/planning-a-project/manage-project-team.md).
 
+When you add users to the Project Team manually, they receivew View permissions to the project as well as the tasks, issues, and documents of the project. 
+
 ## Notifications to Project Team members
 
 Depending on what email notifications your Adobe Workfront administrator enables, users on a project team are notified of various actions on a project. For more information about enabling email notifications, see [Configure event notifications for everyone in the system](../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
