@@ -11,6 +11,9 @@ This page provides information about functionality that is included in the 23.1 
 
 The enhancements on this page are available in the Preview environment. This page will be updated with additional enhancements as the 23.1 release nears its planned Production release, which is scheduled for early 2023.
 
+<span class="preview">Off-cycle features (those releasing to Production prior to the 23.1 release date) are highlighted in yellow.</span>
+
+
 ## Adobe Workfront enhancements
     
 *   [Project enhancements](#project-enhancements)
@@ -47,7 +50,7 @@ The enhancements on this page are available in the Preview environment. This pag
                                 <p>Preview release: October 20, 2022<br /></p>
                             </li>
                             <li>
-                                <p>Production release: October 27, 2022</p>
+                                <p><span class="preview">Production release: October 27, 2022 (off-cycle)</span></p>
                             </li>
                         </ul>
                     </td>
@@ -140,7 +143,7 @@ The enhancements on this page are available in the Preview environment. This pag
                                 <p>Preview release:&#160;Throughout the 23.1 release timeframe<br /></p>
                             </li>
                             <li>
-                                <p>Production release:&#160;A minimum of 2 weeks after releasing to Preview (unless otherwise specified)</p>
+                                <p><span class="preview">Production release:&#160;A minimum of 2 weeks after releasing to Preview (unless otherwise specified)</span></p>
                             </li>
                         </ul>
                     </td>
@@ -162,7 +165,7 @@ The enhancements on this page are available in the Preview environment. This pag
                                 <p>Preview release: October 13, 2022<br /></p>
                             </li>
                             <li>
-                                <p>Production release: October 27, 2022</p>
+                                <p><span class="preview">Production release: October 27, 2022 (off-cycle)</span></p>
                             </li>
                         </ul>
                     </td>
