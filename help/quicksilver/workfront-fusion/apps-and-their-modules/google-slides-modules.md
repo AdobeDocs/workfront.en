@@ -5,16 +5,16 @@ product-area: workfront-integrations;documents
 keywords: connector
 navigation-topic: apps-and-their-modules
 title: Google Slides modules
-description: The [!DNL Adobe Workfront] Fusion [!DNL Google Slides] modules allow you to create, update, list, and/or delete presentations and upload images to presentations in your [!DNL Google Slides] account.
+description: The Adobe Workfront Fusion Google Slides modules allow you to create, update, list, and/or delete presentations and upload images to presentations in your Google Slides account.
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 680a5328-1d50-4434-beda-7a4670a6e458
 ---
 # Google Slides modules
 
-The [!DNL Adobe Workfront] Fusion [!DNL Google Slides] modules allow you to create, update, list, and/or delete presentations and upload images to presentations in your [!DNL Google Slides] account.
+The Adobe Workfront Fusion Google Slides modules allow you to create, update, list, and/or delete presentations and upload images to presentations in your Google Slides account.
 
-In order to use Google Slides with [!DNL Workfront Fusion], it is necessary to have a Google account. If you don't have a Google account yet, you can create one at the Google Account help page.
+In order to use Google Slides with Workfront Fusion, it is necessary to have a Google account. If you don't have a Google account yet, you can create one at the Google Account help page.
 
 You also need Google Slides in your Google Drive.
 
@@ -40,12 +40,12 @@ You must have the following access to use the functionality in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>Your organization must purchase [!DNL Adobe Workfront Fusion] as well as [!DNL Adobe Workfront] to use functionality described in this article.</td> 
+   <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
+&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
 &#42;&#42;For information on Adobe Workfront Fusion licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
@@ -55,24 +55,24 @@ To use Google Slides modules, you must have a Google account.
 
 ## Google Slides modules and their fields
 
-When you configure Google Slides modules, [!DNL Workfront Fusion] displays the fields listed below. Along with these, additional Google Slides fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
+When you configure Google Slides modules, Workfront Fusion displays the fields listed below. Along with these, additional Google Slides fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
 
 If you see the map button above a field or function, you can use it to set variables and functions for that field. For more information, see [Map information from one module to another in Adobe Workfront Fusion](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 ![](assets/map-toggle-350x74.png)
 
-* [Presentation](#presentation)
+* [Presentation](#presentation) 
 * [Other](#other)
 
 ### Presentation {#presentation}
 
-* [Watch Presentations](#watch-presentations)
-* [List Presentations](#list-presentations)
-* [Get a Presentation](#get-a-presentation)
-* [Get a Page/Thumbnail](#get-a-page-thumbnail)
-* [[!UICONTROL Create a Presentation From a Template]](#create-a-presentation-from-a-template)
-* [[!UICONTROL Upload] an Image To a Presentation](#upload-an-image-to-a-presentation)
-* [Refresh a Chart](#refresh-a-chart)
+* [Watch Presentations](#watch-presentations) 
+* [List Presentations](#list-presentations) 
+* [Get a Presentation](#get-a-presentation) 
+* [Get a Page/Thumbnail](#get-a-page-thumbnail) 
+* [Create a Presentation From a Template](#create-a-presentation-from-a-template) 
+* [Upload an Image To a Presentation](#upload-an-image-to-a-presentation) 
+* [Refresh a Chart](#refresh-a-chart) 
 * [Add/Delete a Slide](#add-delete-a-slide)
 
 #### Watch Presentations {#watch-presentations}
@@ -97,7 +97,7 @@ Triggers when a new presentation is created or updated.
   </tr> 
   <tr> 
    <td role="rowheader">Limit</td> 
-   <td> <p>The maximum number of presentations [!DNL Workfront Fusion] should return during one scenario execution cycle.</p> </td> 
+   <td> <p>The maximum number of presentations Workfront Fusion should return during one scenario execution cycle.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -129,7 +129,7 @@ Retrieves a list of all presentations.
   </tr> 
   <tr> 
    <td role="rowheader">Limit</td> 
-   <td> <p>The maximum number of presentations [!DNL Workfront Fusion] should return during one scenario execution cycle.</p> </td> 
+   <td> <p>The maximum number of presentations Workfront Fusion should return during one scenario execution cycle.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -176,7 +176,7 @@ Gets the latest version of the specified page or of the thumbnail of a page in t
   </tr> 
   <tr> 
    <td role="rowheader">Presentation ID</td> 
-   <td> <p> Select the [!UICONTROL Presentation ID] that you want to retrieve.</p> </td> 
+   <td> <p> Select the Presentation ID that you want to retrieve.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Page Object ID</td> 
@@ -234,8 +234,8 @@ Creates a new presentation by replacing all tags like `{{Name}}`, `{{Email}}` in
    <td role="rowheader">Values </td> 
    <td> <p>Add the values:</p> 
     <ul> 
-     <li><strong>Tag</strong>: Enter the tag you want to replace in the presentation. For example, <code>{{Name}}</code></li> 
-     <li><strong>[!UICONTROL Replaced] Value</strong>: Enter the value with which the existing tag is to be replaced. For example, if a string <code>{{Name}}/code> in the presentation and the replaced value is Sample, then the <code>{{Name}}</code> will be replaced by <code>Sample</code>.</li> 
+     <li><strong>Tag</strong>: Enter the tag you want to replace in the presentation. For example, <code>&#123;&#123;Name&#125;&#125;</code></li> 
+     <li><strong>Replaced Value</strong>: Enter the value with which the existing tag is to be replaced. For example, if a string <code>&#123;&#123;Name&#125;&#125;/code> in the presentation and the replaced value is Sample, then the <code>&#123;&#123;Name}}</code> will be replaced by <code>Sample</code>.</li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -257,7 +257,7 @@ Creates a new presentation by replacing all tags like `{{Name}}`, `{{Email}}` in
   </tr> 
   <tr> 
    <td role="rowheader">Sharing with Other's Email Address</td> 
-   <td> <p> Enter the email address with whom you want to share the presentation. If you are not entering an email address and selecting [!UICONTROL only shared field], the presentation is shareable to anyone.</p> </td> 
+   <td> <p> Enter the email address with whom you want to share the presentation. If you are not entering an email address and selecting only shared field, the presentation is shareable to anyone.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -293,7 +293,7 @@ Uploads an image with provided data.
   </tr> 
   <tr> 
    <td role="rowheader">Presentation ID</td> 
-   <td> <p> Select the [!UICONTROL Presentation ID] of the presentation that you are uploading an image to.</p> </td> 
+   <td> <p> Select the Presentation ID of the presentation that you are uploading an image to.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Values</td> 
@@ -329,7 +329,7 @@ Refreshes the chart data stored in a presentation specified by ID.
   </tr> 
   <tr> 
    <td role="rowheader">Presentation ID</td> 
-   <td> <p>Select the [!UICONTROL Presentation ID] of the presentation that includes chart you want to refresh.</p> </td> 
+   <td> <p>Select the Presentation ID of the presentation that includes chart you want to refresh.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Chart Object ID</td> 
@@ -356,7 +356,7 @@ Creates an empty slide or deletes an existing slide on the specified presentatio
   </tr> 
   <tr> 
    <td role="rowheader">Presentation ID</td> 
-   <td> <p>Select the [!UICONTROL Presentation ID] of the presentation for which you want to add or delete a slide.</p> </td> 
+   <td> <p>Select the Presentation ID of the presentation for which you want to add or delete a slide.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Predefined layout type</td> 
@@ -380,7 +380,7 @@ Creates an empty slide or deletes an existing slide on the specified presentatio
 
 ### Other {#other}
 
-* [Make an API Call](#make-an-api-call)
+* [Make an API Call](#make-an-api-call) 
 * [Insert Links in a Presentation](#insert-links-in-a-presentation)
 
 #### Make an API Call {#make-an-api-call}
@@ -397,7 +397,7 @@ Performs an arbitrary authorized API call.
   </tr> 
   <tr> 
    <td role="rowheader">URL</td> 
-   <td> <p>Enter a path relative to https://developers.google.com/slides/. E.g. Presentation.</p> <p>For the list of available endpoints, refer to the <a href="https://developers.google.com/slides/reference/rest">[!DNL Google Slides] API Documentation</a>.</p> </td> 
+   <td> <p>Enter a path relative to https://developers.google.com/slides/. E.g. Presentation.</p> <p>For the list of available endpoints, refer to the <a href="https://developers.google.com/slides/reference/rest">Google Slides API Documentation</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Method</td> 
@@ -413,7 +413,7 @@ Performs an arbitrary authorized API call.
   </tr> 
   <tr> 
    <td role="rowheader">Body</td> 
-   <td> <p>Add the body content for the API call in the form of a standard [!DNL JSON] object.</p> <p>Note:  <p>When using conditional statements such as <code>if</code> in your JSON, put the quotation marks outside of the conditional statement.</p> 
+   <td> <p>Add the body content for the API call in the form of a standard JSON object.</p> <p>Note:  <p>When using conditional statements such as <code>if</code> in your JSON, put the quotation marks outside of the conditional statement.</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td> 

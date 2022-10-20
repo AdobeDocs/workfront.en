@@ -8,7 +8,7 @@ exl-id: e0a5736b-dbdb-43c6-83ff-e88a5625a5bf
 ---
 # Adobe PDF&nbsp;Services
 
-With the [!DNL Adobe Workfront] Fusion Adobe PDF Services, you can extract data from a PDF file, or generate a new PDF file from data you supply. In addition, you can convert a variety of file types to PDFs, or PDFs to other file types. PDF&nbsp;Services also allow you to combine, compress, or read metadata for a PDF&nbsp;file, as well as control password protection on the file.
+With the Adobe Workfront Fusion Adobe PDF Services, you can extract data from a PDF file, or generate a new PDF file from data you supply. In addition, you can convert a variety of file types to PDFs, or PDFs to other file types. PDF&nbsp;Services also allow you to combine, compress, or read metadata for a PDF&nbsp;file, as well as control password protection on the file.
 
 If you need instructions on creating a scenario, see [Create a scenario in Adobe Workfront Fusion](../../workfront-fusion/scenarios/create-a-scenario.md).
 
@@ -18,18 +18,18 @@ For information on the API used for PDF Services, see [Adobe Document Generation
 
 ## Considerations when using Adobe PDF Services
 
-* [You do not need an Adobe account](#you-do-not-need-an-adobe-account)
-* [[!DNL Workfront Fusion] does not store your files](#workfront-fusion-does-not-store-your-files)
+* [You do not need an Adobe account](#you-do-not-need-an-adobe-account) 
+* [Workfront Fusion does not store your files](#workfront-fusion-does-not-store-your-files)
 
 ### You do not need an Adobe account {#you-do-not-need-an-adobe-account}
 
-Because [!DNL Workfront Fusion] is part of the Adobe product suite, you don't need a separate Adobe account to use these tools. Each tool accesses Adobe PDF&nbsp;functionality without using a connection.
+Because Workfront Fusion is part of the Adobe product suite, you don't need a separate Adobe account to use these tools. Each tool accesses Adobe PDF&nbsp;functionality without using a connection.
 
-Although [!DNL Workfront Fusion] does not require an Adobe account to use the PDF Services, the modules do require a connection. There are no credentials involved in this connection, and you provide only a name for the connection itself.
+Although Workfront Fusion does not require an Adobe account to use the PDF Services, the modules do require a connection. There are no credentials involved in this connection, and you provide only a name for the connection itself.
 
 ### Workfront Fusion does not store your files {#workfront-fusion-does-not-store-your-files}
 
-The [!DNL Adobe] PDF Services can read, convert, or modify your files, but neither Adobe nor [!DNL Workfront Fusion] store your files or data. This means that :
+The Adobe PDF Services can read, convert, or modify your files, but neither Adobe nor Workfront Fusion store your files or data. This means that :
 
 * You maintain control over your files, including their security
 * You do not need to have an Adobe storage or cloud storage account to use the PDF&nbsp;Services.
@@ -56,46 +56,46 @@ You must have the following access to use the functionality in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>Your organization must purchase [!DNL Adobe Workfront Fusion] as well as [!DNL Adobe Workfront] to use functionality described in this article.</td> 
+   <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
+&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
 &#42;&#42;For information on Adobe Workfront Fusion licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
 ## Adobe PDF Services modules and their fields
 
-When you configure PDF&nbsp;Services, [!DNL Workfront Fusion] displays the fields listed below. Along with these, additional fields might display, depending on factors such as your access level in the app or service. A bold title in a module indicates a required field.
+When you configure PDF&nbsp;Services, Workfront Fusion displays the fields listed below. Along with these, additional fields might display, depending on factors such as your access level in the app or service. A bold title in a module indicates a required field.
 
 If you see the map button above a field or function, you can use it to set variables and functions for that field. For more information, see [Map information from one module to another in Adobe Workfront Fusion](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 ![](assets/map-toggle-350x74.png)
 
-* [Generate document](#generate-document)
-* [Extract Text / Table](#extract-text-table)
-* [Combine PDF files](#combine-pdf-files)
-* [Compress PDF files](#compress-pdf-files)
-* [Convert document to PDF file](#convert-document-to-pdf-file)
-* [Convert HTML to PDF file](#convert-html-to-pdf-file)
-* [Convert image to PDF file](#convert-image-to-pdf-file)
-* [Convert PDF to document](#convert-pdf-to-document)
-* [Convert PDF to image](#convert-pdf-to-image)
-* [Linearize a PDF file](#linearize-a-pdf-file)
-* [OCR for PDF file](#ocr-for-pdf-file)
-* [PDF page manipulation](#PDF%C2%A0page)
-* [PDF file properties](#PDF%C2%A0file)
-* [Protect PDF file](#protect-pdf-file)
+* [Generate document](#generate-document) 
+* [Extract Text / Table](#extract-text-table) 
+* [Combine PDF files](#combine-pdf-files) 
+* [Compress PDF files](#compress-pdf-files) 
+* [Convert document to PDF file](#convert-document-to-pdf-file) 
+* [Convert HTML to PDF file](#convert-html-to-pdf-file) 
+* [Convert image to PDF file](#convert-image-to-pdf-file) 
+* [Convert PDF to document](#convert-pdf-to-document) 
+* [Convert PDF to image](#convert-pdf-to-image) 
+* [Linearize a PDF file](#linearize-a-pdf-file) 
+* [OCR for PDF file](#ocr-for-pdf-file) 
+* [PDF page manipulation](#PDF%C2%A0page) 
+* [PDF file properties](#PDF%C2%A0file) 
+* [Protect PDF file](#protect-pdf-file) 
 * [Remove protection of a PDF file](#remove-protection-of-a-pdf-file)
 
 ### Generate document {#generate-document}
 
-The Generate document module is a powerful way to create a PDF that contains data you select. You can format it by using a [!DNL Microsoft Word] template, or by providing data in JSON format.
+The Generate document module is a powerful way to create a PDF that contains data you select. You can format it by using a Microsoft Word template, or by providing data in JSON format.
 
 For more information on the Adobe PDF&nbsp;Services Generate document functionality, see the [Overview of Document Generation](https://www.adobe.io/apis/documentcloud/dcsdk/docs.html) in the Adobe Document Services documentation.
 
-* [Use the Generate document module with a Microsoft Word template](#use-the-generate-document-module-with-a-microsoft-word-template)
+* [Use the Generate document module with a Microsoft Word template](#use-the-generate-document-module-with-a-microsoft-word-template) 
 * [Use the Generate document module with JSON](#use-the-generate-document-module-with-json)
 
 #### Use the Generate document module with a Microsoft Word template {#use-the-generate-document-module-with-a-microsoft-word-template}
@@ -108,7 +108,7 @@ For more information on the Adobe PDF&nbsp;Services Generate document functional
 >You do not need to use Microsoft Word template modules to use a Microsoft Word template with the PDF&nbsp;Services Generate document module.
 -->
 
-To use the Generate document module with a [!DNL Microsoft Word] template, you must first create the template. For instructions, search for "Create a template" in the Microsoft Office documentation.
+To use the Generate document module with a Microsoft Word template, you must first create the template. For instructions, search for "Create a template" in the Microsoft Office documentation.
 
 Fill in the Generate document module fields as follows:
 
@@ -118,11 +118,11 @@ Fill in the Generate document module fields as follows:
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>Select the connection to use for this module.</p> <p>You do not need an Adobe account to create a PDF Services connection. For more information, see <a href="#you-do-not-need-an-adobe-account" class="MCXref xref">You do not need an Adobe account</a> in this article.</p> </td> 
+   <td> <p>Select the connection to use for this module.</p> <p>You do not need an Adobe account to create a PDF&nbsp;Services connection. For more information, see <a href="#you-do-not-need-an-adobe-account" class="MCXref xref">You do not need an Adobe account</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Source File</td> 
-   <td> <p>Select a source file from a previous module, or map the source file's name and data.</p> <p>This source file is the [!DNL Microsoft Word] template that the module uses to generate the new PDF.</p> <p>We recommend creating a project in [!DNL Workfront] for the Microsoft Word templates that you use in [!UICONTROL Workfront] Fusion. You can then use the Workfront >[!UICONTROL Download document] module to pull the appropriate template into your scenario.</p> </td> 
+   <td> <p>Select a source file from a previous module, or map the source file's name and data.</p> <p>This source file is the Microsoft Word template that the module uses to generate the new PDF.</p> <p>We recommend creating a project in Workfront for the Microsoft Word templates that you use in Workfront Fusion. You can then use the Workfront &gt; Download document module to pull the appropriate template into your scenario.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Output Format</td> 
@@ -136,8 +136,8 @@ Fill in the Generate document module fields as follows:
    <td role="rowheader">Data for merge</td> 
    <td> <p>For each value tag in your template that you want to replace with text, fill in the following:</p> 
     <ul> 
-     <li> <p>Key</p> <p>Enter a key. In the template, the key is the text shown in the value tag. For example, if you want to place text in the value tag <code>{{name}}</code>, enter <code>name </code>in the key field.</p> </li> 
-     <li> <p>Value Type</p> <p>Select whether the data in the [!UICONTROL value] field is a value, an object, or an array of objects.</p> </li> 
+     <li> <p>Key</p> <p>Enter a key. In the template, the key is the text shown in the value tag. For example, if you want to place text in the value tag <code>&#123;&#123;name&#125;&#125;</code>, enter <code>name </code>in the key field.</p> </li> 
+     <li> <p>Value Type</p> <p>Select whether the data in the value field is a value, an object, or an array of objects.</p> </li> 
      <li> <p>Value</p> <p>Enter or map the text that you want to appear in the generated document in place of the value tag.</p> </li> 
     </ul> <p> <img src="assets/generate-with-template-350x241.png" style="width: 350;height: 241;"> </p> </td> 
   </tr> 
@@ -154,11 +154,11 @@ To use the Generate document module with JSON, fill in the fields as follows:
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>Select the connection to use for this module.</p> <p>You do not need an Adobe account to create a PDF Services connection. For more information, see <a href="#you-do-not-need-an-adobe-account" class="MCXref xref">You do not need an Adobe account</a> in this article.</p> </td> 
+   <td> <p>Select the connection to use for this module.</p> <p>You do not need an Adobe account to create a PDF&nbsp;Services connection. For more information, see <a href="#you-do-not-need-an-adobe-account" class="MCXref xref">You do not need an Adobe account</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Source File</td> 
-   <td> <p>This source file is the [!DNL Microsoft Word] template that the module uses to generate the new PDF.</p> <p>We recommend creating a project in [!DNL Workfront] for the Microsoft Word templates that you use in [!UICONTROL Workfront] Fusion. You can then use the Workfront >[!UICONTROL Download document] module to pull the appropriate template into your scenario.</p> </td> 
+   <td> <p>This source file is the Microsoft Word template that the module uses to generate the new PDF.</p> <p>We recommend creating a project in Workfront for the Microsoft Word templates that you use in Workfront Fusion. You can then use the Workfront &gt; Download document module to pull the appropriate template into your scenario.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Output Format</td> 
@@ -170,7 +170,7 @@ To use the Generate document module with JSON, fill in the fields as follows:
   </tr> 
   <tr> 
    <td role="rowheader">Data for merge</td> 
-   <td> <p>To use JSON in this module, you must enable mapping on this field.</p> <p>Enter or map the JSON to generate the document from. </p> <p>You can type JSON directly into this field, or map JSON output from a JSON module.</p> </td> 
+   <td> <p>To use JSON in this module, you must enable mapping on this field.</p> <p>Enter or map the JSON to generate the document from. </p> <p>You can type JSON&nbsp;directly into this field, or map JSON output from a JSON module.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -185,7 +185,7 @@ This action module allows you to extract data from a PDF file. The module output
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>Select the connection to use for this module.</p> <p>You do not need an Adobe account to create a PDF Services connection. For more information, see <a href="#you-do-not-need-an-adobe-account" class="MCXref xref">You do not need an Adobe account</a> in this article.</p> </td> 
+   <td> <p>Select the connection to use for this module.</p> <p>You do not need an Adobe account to create a PDF&nbsp;Services connection. For more information, see <a href="#you-do-not-need-an-adobe-account" class="MCXref xref">You do not need an Adobe account</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Source file</td> 
@@ -212,7 +212,7 @@ This action module allows you to extract data from a PDF file. The module output
 
 ### Combine PDF&nbsp;files {#combine-pdf-files}
 
-This action module takes multiple PDF&nbsp;files and combines them into a single PDF&nbsp;file. For example, this module could combine all of the documents in a [!DNL Workfront] project into a single PDF upon completion of the project.
+This action module takes multiple PDF&nbsp;files and combines them into a single PDF&nbsp;file. For example, this module could combine all of the documents in a Workfront project into a single PDF upon completion of the project.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -220,15 +220,15 @@ This action module takes multiple PDF&nbsp;files and combines them into a single
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>Select the connection to use for this module.</p> <p>You do not need an Adobe account to create a PDF Services connection. For more information, see <a href="#you-do-not-need-an-adobe-account" class="MCXref xref">You do not need an Adobe account</a> in this article.</p> </td> 
+   <td> <p>Select the connection to use for this module.</p> <p>You do not need an Adobe account to create a PDF&nbsp;Services connection. For more information, see <a href="#you-do-not-need-an-adobe-account" class="MCXref xref">You do not need an Adobe account</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Documents</td> 
-   <td> <p>You can use an aggregator module to gather documents to combine into a PDF, or you can add the documents manually. </p> <p>We recommend using an Array Aggregator module to aggregate output from a previous module. By using an aggregator, you do not need to know the names, locations, or numbers of files to combine. Using an aggregator is therefore much more flexible and scalable than manually entering the documents to be combined.</p> <p>To use the [!UICONTROL Combine PDF files] module with an aggregator, you must enable mapping on the [!UICONTROL Documents] field. </p> <p>In this example, the [!UICONTROL Read Related Records] module identifies documents associated with a project, and the [!UICONTROL Download Documents] module downloads each one. All of the PDFs are aggregated into an array, which is passed into the [!UICONTROL Combine PDF files] module.</p> <p> <img src="assets/combine-example-350x104.png" style="width: 350;height: 104;"> </p> <p>You can also enter documents manually.</p> <p>For each document to include in the combined PDF:</p> 
+   <td> <p>You can use an aggregator module to gather documents to combine into a PDF, or you can add the documents manually. </p> <p>We recommend using an Array Aggregator module to aggregate output from a previous module. By using an aggregator, you do not need to know the names, locations, or numbers of files to combine. Using an aggregator is therefore much more flexible and scalable than manually entering the documents to be combined.</p> <p>To use the Combine PDF files module with an aggregator, you must enable mapping on the Documents field. </p> <p>In this example, the Read Related Records module identifies documents associated with a project, and the Download Documents module downloads each one. All of the PDFs are aggregated into an array, which is passed into the Combine PDF files module.</p> <p> <img src="assets/combine-example-350x104.png" style="width: 350;height: 104;"> </p> <p>You can also enter documents manually.</p> <p>For each document to include in the combined PDF:</p> 
     <ol> 
-     <li value="1"> <p>Click [!UICONTROL Add a Document]</p> </li> 
-     <li value="2"> <p>In the [!UICONTROL Source file] field, select the module that outputs the document you want to include, or map the source file's name and data. </p> </li> 
-     <li value="3"> <p>(Optional) If you want to include only certain pages from the source file, for each page range that you want to add, click <strong>Add item</strong> in the [!UICONTROL Pages] field, then enter the first and last pages of the page range to include, and click <strong>Add</strong>. You can include more than one page range from a single document.</p> </li> 
+     <li value="1"> <p>Click Add a Document</p> </li> 
+     <li value="2"> <p>In the Source file field, select the module that outputs the document you want to include, or map the source file's name and data. </p> </li> 
+     <li value="3"> <p>(Optional) If you want to include only certain pages from the source file, for each page range that you want to add, click <strong>Add item</strong> in the Pages field, then enter the first and last pages of the page range to include, and click <strong>Add</strong>. You can include more than one page range from a single document.</p> </li> 
      <li value="4"> <p>Click <strong>Add</strong>. </p> </li> 
     </ol> </td> 
   </tr> 
@@ -247,11 +247,11 @@ This action module takes a PDF&nbsp;file and compresses it. This can be useful f
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>Select the connection to use for this module.</p> <p>You do not need an Adobe account to create a PDF Services connection. For more information, see <a href="#you-do-not-need-an-adobe-account" class="MCXref xref">You do not need an Adobe account</a> in this article.</p> </td> 
+   <td> <p>Select the connection to use for this module.</p> <p>You do not need an Adobe account to create a PDF&nbsp;Services connection. For more information, see <a href="#you-do-not-need-an-adobe-account" class="MCXref xref">You do not need an Adobe account</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Source file</td> 
-   <td> <p>Select a source file from a previous module, or map the source file's name and data.</p> <p>The source file must be in PDF format. </p> </td> 
+   <td> <p>Select a source file from a previous module, or map the source file's name and data.</p> <p>The source file must be in PDF&nbsp;format. </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Compression level</td> 
@@ -278,7 +278,7 @@ This tool converts a document to a PDF file. The source file must be one of the 
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>Select the connection to use for this module.</p> <p>You do not need an Adobe account to create a PDF Services connection. For more information, see <a href="#you-do-not-need-an-adobe-account" class="MCXref xref">You do not need an Adobe account</a> in this article.</p> </td> 
+   <td> <p>Select the connection to use for this module.</p> <p>You do not need an Adobe account to create a PDF&nbsp;Services connection. For more information, see <a href="#you-do-not-need-an-adobe-account" class="MCXref xref">You do not need an Adobe account</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Source file</td> 
@@ -337,7 +337,7 @@ This tool converts a document to a PDF file. The source file must be one of the 
 
 ### Convert HTML to PDF file {#convert-html-to-pdf-file}
 
-This tool converts an HTML&nbsp;file to a PDF file.
+This tool converts an HTML&nbsp;file to a PDF file. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -347,7 +347,7 @@ This tool converts an HTML&nbsp;file to a PDF file.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>Select the connection to use for this module.</p> <p>You do not need an Adobe account to create a PDF Services connection. For more information, see <a href="#you-do-not-need-an-adobe-account" class="MCXref xref">You do not need an Adobe account</a> in this article.</p> </td> 
+   <td> <p>Select the connection to use for this module.</p> <p>You do not need an Adobe account to create a PDF&nbsp;Services connection. For more information, see <a href="#you-do-not-need-an-adobe-account" class="MCXref xref">You do not need an Adobe account</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Source file</td> 
@@ -355,15 +355,15 @@ This tool converts an HTML&nbsp;file to a PDF file.
   </tr> 
   <tr> 
    <td role="rowheader">JSON</td> 
-   <td> <p>If your HTML references JavaScript variables, you can include those variables here. </p> <p>For each variable, click <strong>[!UICONTROL Add item]</strong> and include the variable's key and value.</p> <p>Note:   
+   <td> <p>If your HTML references JavaScript variables, you can include those variables here. </p> <p>For each variable, click <strong>Add item</strong> and include the variable's key and value.</p> <p>Note:   
      <ul> 
-      <li> <p>When creating a PDF from a ZIP file, the source collateral must include a script element such as: &lt;script src='./json.js' type='text/javascript'>&lt;/script> </p> </li> 
+      <li> <p>When creating a PDF from a ZIP file, the source collateral must include a script element such as: &lt;script src='./json.js' type='text/javascript'&gt;&lt;/script&gt; </p> </li> 
       <li> <p>When creating a PDF from a URL, the content of this JSON object is injected into the browser VM before the page is rendered. </p> </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Include header and footer</td> 
-   <td> <p>Enable this option to create headers and footers for the PDF document.</p> 
+   <td> <p>Enable this option to create headers and footers for the PDF&nbsp;document.</p> 
     <ul> 
      <li> <p>The header includes a date and the document title.</p> </li> 
      <li> <p>The footer includes the file name and a page number.</p> </li> 
@@ -371,18 +371,18 @@ This tool converts an HTML&nbsp;file to a PDF file.
   </tr> 
   <tr> 
    <td role="rowheader">Page width</td> 
-   <td>Enter the width of the paper, in inches. The module uses this information to format the pages in the created PDF file.</td> 
+   <td>Enter the width of the paper, in inches. The module uses this information to format the pages in the created PDF&nbsp;file.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Page height</td> 
-   <td>Enter the height of the paper, in inches. The module uses this information to format the pages in the created PDF file.</td> 
+   <td>Enter the height of the paper, in inches. The module uses this information to format the pages in the created PDF&nbsp;file.</td> 
   </tr> 
  </tbody> 
 </table>
 
 ### Convert image to PDF file {#convert-image-to-pdf-file}
 
-This tool converts an image to a PDF file.
+This tool converts an image to a PDF file. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -392,7 +392,7 @@ This tool converts an image to a PDF file.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>Select the connection to use for this module.</p> <p>You do not need an Adobe account to create a PDF Services connection. For more information, see <a href="#you-do-not-need-an-adobe-account" class="MCXref xref">You do not need an Adobe account</a> in this article.</p> </td> 
+   <td> <p>Select the connection to use for this module.</p> <p>You do not need an Adobe account to create a PDF&nbsp;Services connection. For more information, see <a href="#you-do-not-need-an-adobe-account" class="MCXref xref">You do not need an Adobe account</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Source file</td> 
@@ -419,11 +419,11 @@ This tool converts a PDF file to a document. You can select one of the following
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>Select the connection to use for this module.</p> <p>You do not need an Adobe account to create a PDF Services connection. For more information, see <a href="#you-do-not-need-an-adobe-account" class="MCXref xref">You do not need an Adobe account</a> in this article.</p> </td> 
+   <td> <p>Select the connection to use for this module.</p> <p>You do not need an Adobe account to create a PDF&nbsp;Services connection. For more information, see <a href="#you-do-not-need-an-adobe-account" class="MCXref xref">You do not need an Adobe account</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Source file</td> 
-   <td> <p>Select a source file from a previous module, or map the source file's name and data.</p> <p>The source file must be in PDF format. </p> </td> 
+   <td> <p>Select a source file from a previous module, or map the source file's name and data.</p> <p>The source file must be in PDF&nbsp;format. </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Output Files Format</td> 
@@ -453,11 +453,11 @@ For example, a file called "TestFile" with 8 pages would produce 8 images, named
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>Select the connection to use for this module.</p> <p>You do not need an Adobe account to create a PDF Services connection. For more information, see <a href="#you-do-not-need-an-adobe-account" class="MCXref xref">You do not need an Adobe account</a> in this article.</p> </td> 
+   <td> <p>Select the connection to use for this module.</p> <p>You do not need an Adobe account to create a PDF&nbsp;Services connection. For more information, see <a href="#you-do-not-need-an-adobe-account" class="MCXref xref">You do not need an Adobe account</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Source file</td> 
-   <td> <p>Select a source file from a previous module, or map the source file's name and data.</p> <p>The source file must be in PDF format. </p> </td> 
+   <td> <p>Select a source file from a previous module, or map the source file's name and data.</p> <p>The source file must be in PDF&nbsp;format. </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Output Files Format</td> 
@@ -482,7 +482,7 @@ This tool linearizes a PDF document to create a web-optimized PDF document. A li
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>Select the connection to use for this module.</p> <p>You do not need an Adobe account to create a PDF Services connection. For more information, see <a href="#you-do-not-need-an-adobe-account" class="MCXref xref">You do not need an Adobe account</a> in this article.</p> </td> 
+   <td> <p>Select the connection to use for this module.</p> <p>You do not need an Adobe account to create a PDF&nbsp;Services connection. For more information, see <a href="#you-do-not-need-an-adobe-account" class="MCXref xref">You do not need an Adobe account</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Source file</td> 
@@ -493,7 +493,7 @@ This tool linearizes a PDF document to create a web-optimized PDF document. A li
 
 ### OCR for PDF file {#ocr-for-pdf-file}
 
-This tool performs Optical Character Recognition (OCR) on a file and produces a PDF.
+This tool performs Optical Character Recognition (OCR) on a file and produces a PDF. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -503,7 +503,7 @@ This tool performs Optical Character Recognition (OCR) on a file and produces a 
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>Select the connection to use for this module.</p> <p>You do not need an Adobe account to create a PDF Services connection. For more information, see <a href="#you-do-not-need-an-adobe-account" class="MCXref xref">You do not need an Adobe account</a> in this article.</p> </td> 
+   <td> <p>Select the connection to use for this module.</p> <p>You do not need an Adobe account to create a PDF&nbsp;Services connection. For more information, see <a href="#you-do-not-need-an-adobe-account" class="MCXref xref">You do not need an Adobe account</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Source file</td> 
@@ -536,7 +536,7 @@ This module allows you to selectively rotate or delete pages in a PDF document. 
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>Select the connection to use for this module.</p> <p>You do not need an Adobe account to create a PDF Services connection. For more information, see <a href="#you-do-not-need-an-adobe-account" class="MCXref xref">You do not need an Adobe account</a> in this article.</p> </td> 
+   <td> <p>Select the connection to use for this module.</p> <p>You do not need an Adobe account to create a PDF&nbsp;Services connection. For more information, see <a href="#you-do-not-need-an-adobe-account" class="MCXref xref">You do not need an Adobe account</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Source file</td> 
@@ -583,7 +583,7 @@ This tool extracts basic information about the document, such as:
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>Select the connection to use for this module.</p> <p>You do not need an Adobe account to create a PDF Services connection. For more information, see <a href="#you-do-not-need-an-adobe-account" class="MCXref xref">You do not need an Adobe account</a> in this article.</p> </td> 
+   <td> <p>Select the connection to use for this module.</p> <p>You do not need an Adobe account to create a PDF&nbsp;Services connection. For more information, see <a href="#you-do-not-need-an-adobe-account" class="MCXref xref">You do not need an Adobe account</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Source file</td> 
@@ -604,15 +604,15 @@ This tool secures a PDF document with a user or owner password. It also sets res
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>Select the connection to use for this module.</p> <p>You do not need an Adobe account to create a PDF Services connection. For more information, see <a href="#you-do-not-need-an-adobe-account" class="MCXref xref">You do not need an Adobe account</a> in this article.</p> </td> 
+   <td> <p>Select the connection to use for this module.</p> <p>You do not need an Adobe account to create a PDF&nbsp;Services connection. For more information, see <a href="#you-do-not-need-an-adobe-account" class="MCXref xref">You do not need an Adobe account</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For information on creating a PDF Services connection, see <a href="#you-do-not-need-an-adobe-account" class="MCXref xref">You do not need an Adobe account</a> in this article.</p> </td> 
+   <td> <p>For information on creating a PDF&nbsp;Services connection, see <a href="#you-do-not-need-an-adobe-account" class="MCXref xref">You do not need an Adobe account</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Source file</td> 
-   <td> <p>Select a source file from a previous module, or map the source file's name and data.</p> <p>The source file must be in PDF format. </p> </td> 
+   <td> <p>Select a source file from a previous module, or map the source file's name and data.</p> <p>The source file must be in PDF&nbsp;format. </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Password Protection Type</td> 
@@ -660,7 +660,7 @@ This tool removes security (password protection) from a PDF document.
  <tbody> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Connection</td> 
-   <td> <p>Select the connection to use for this module.</p> <p>You do not need an Adobe account to create a PDF Services connection. For more information, see <a href="#you-do-not-need-an-adobe-account" class="MCXref xref">You do not need an Adobe account</a> in this article.</p> </td> 
+   <td> <p>Select the connection to use for this module.</p> <p>You do not need an Adobe account to create a PDF&nbsp;Services connection. For more information, see <a href="#you-do-not-need-an-adobe-account" class="MCXref xref">You do not need an Adobe account</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Source file</td> 
