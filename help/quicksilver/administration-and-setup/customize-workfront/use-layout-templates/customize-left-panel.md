@@ -138,17 +138,17 @@ You must have the following access to perform the steps in this article:
      <tr> 
       <td>Scrum Team</td> 
       <td>The name of a Scrum team</td> 
-      <td><p>Iterations, Current iteration, Backlog, Schedule, Updates, Team Settings</p> <p><strong>NOTE:</strong> The <strong>Current iteration</strong> item only displays in the left panel when there is at least one task or issue on the iteration.</p></td> 
+      <td><p>Iterations, Current iteration, Backlog, Schedule*, Updates, Team Settings</p> <p><strong>NOTE:</strong> The <strong>Current iteration</strong> item only displays in the left panel when there is at least one task or issue on the iteration.</p></td> 
      </tr> 
      <tr> 
       <td>Kanban Team</td> 
       <td>The name of a Kanban team</td> 
-      <td>Schedule, Kanban board, Backlog, Updates, Team Settings</td> 
+      <td>Schedule*, Kanban board, Backlog, Updates, Team Settings</td> 
      </tr> 
      <tr> 
       <td>Waterfall Team</td> 
       <td>The name of a Waterfall team</td> 
-      <td>Schedule, Updates, Team Requests, Team Settings</td> 
+      <td>Schedule*, Updates, Team Requests, Team Settings</td> 
      </tr> 
      <tr> 
       <td>Iteration</td> 
@@ -185,7 +185,7 @@ You must have the following access to perform the steps in this article:
      --> 
     </tbody> 
    </table>
-
+*Adding the Schedule option to a team's page displays the Workload Balancer for the team. 
    >[!NOTE]
    >
    >The last 3 items in the **Customize what users see** drop-down list (Lists, Home and Summary, and Branding) are for configuring areas other than the left panel. For information about them, see these articles:

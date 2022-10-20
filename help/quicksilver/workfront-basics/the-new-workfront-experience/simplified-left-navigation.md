@@ -127,8 +127,9 @@ The following sections display in the left panel for the **Resourcing** area:
    <td>Displays the Resource Planner. Use this area to plan your resources across multiple projects. For information about using the Resource Planner, see <a href="../../resource-mgmt/resource-planning/get-started-resource-planning.md" class="MCXref xref">Get started with Resource Planning</a>.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Scheduling</strong></td> 
-   <td>Displays the Resource Scheduler. Use this area to assign actual work to your resources. You must be designated as a Resource Manager for at least one project to display information in this area.<br>For information about using scheduling resources, see <a href="../../resource-mgmt/resource-scheduling/get-started-resource-scheduling.md" class="MCXref xref">Get started with Resource Scheduling</a>.</td> 
+   <td role="rowheader"><strong>Workload Balancer</strong></td> 
+   <td>Displays the Workload Balancer. Use this area to assign actual work to your resources. <br>
+   For information about using scheduling resources, see <a href="../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md" class="MCXref xref">Overview of assigning work in the Workload Balancer</a>.</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Utilization</strong></td> 
@@ -140,6 +141,7 @@ The following sections display in the left panel for the **Resourcing** area:
   </tr> 
  </tbody> 
 </table>
+
 
 To learn how to use the left panel in the Resourcing area, see the section [Use the left navigation panel](#use-the-left-navigation-panel) in this article.
 
