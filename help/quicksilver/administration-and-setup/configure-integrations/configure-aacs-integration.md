@@ -2,7 +2,7 @@
 product-area: documents;workfront-integrations
 navigation-topic: adobe-workfront-for-experince-manager-asset-essentials
 title: Adobe Experience Manager Assets integrations
-description: You can connect your work with the following Adobe Experience Manager Assets Integrations - EDIT ME.
+description: You can connect your work with the following Adobe Experience Manager Assets Integrations.
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: bc58cc77-a177-417f-a5a4-eec51e305219
 ---
@@ -101,7 +101,13 @@ You can map Workfront object data to asset media fields in Experience Manager As
 
 ### Assets
 
-Metadata maps when an asset is pushed from Workfront for the first time. Documents with the built-in or custom fields automatically map to the specified fields the first time an asset is sent to Experience Manager Assets.
+Metadata maps when an asset is pushed from Workfront for the first time. Documents with the built-in or custom fields automatically map to the specified fields the first time an asset is sent to Experience Manager Assets. 
+
+>[!NOTE]
+>
+>This integration does not support custom metadata from Adobe Experience Manager.
+
+To map metadata for assets: 
 
 1. Select **Assets** above the metadata table.
 1. In the **Workfront field** column, choose a built-in or custom Workfront field.
@@ -118,6 +124,12 @@ Metadata maps when an asset is pushed from Workfront for the first time. Documen
 ### Folders
 
 When users create a linked folder on a project, the associated project, portfolio, and program data is mapped to folder metadata fields in Experience Manager Assets.
+
+>[!NOTE]
+>
+>This integration does not support custom metadata from Adobe Experience Manager.
+
+To map metadata for folders:
 
 1. Select **Folders** above the metadata table.
 1. In the **Workfront field** column, choose a built-in or custom Workfront field.
@@ -136,7 +148,7 @@ When users create a linked folder on a project, the associated project, portfoli
 
 An Experience Manager fields that is mapped to Workfront project fields update automatically when the field is changed in Workfront.
 
-<span class="preview">In the Preview environment, an Experience Manager fields that is mapped to Workfront portfilio, program, project, task, issue, and document fields update automatically when the field is changed in Workfront.</span>
+<span class="preview">In the Preview environment, an Experience Manager fields that is mapped to Workfront portfolio, program, project, task, issue, and document fields update automatically when the field is changed in Workfront.</span>
 
 >[!IMPORTANT]
 >

@@ -11,6 +11,9 @@ This page provides information about functionality that is included in the 23.1 
 
 The enhancements on this page are available in the Preview environment. This page will be updated with additional enhancements as the 23.1 release nears its planned Production release, which is scheduled for early 2023.
 
+<span class="preview">Off-cycle features (those releasing to Production prior to the 23.1 release date) are highlighted in yellow.</span>
+
+
 ## Adobe Workfront enhancements
     
 *   [Project enhancements](#project-enhancements)
@@ -35,7 +38,26 @@ The enhancements on this page are available in the Preview environment. This pag
                 </tr>
                 <tr>
                     <td>
-                        <a href="../../../product-announcements/product-releases/23.1-release-activity/23-1-oct-10.md" class="MCXref xref" xrefformat="{para}">Copy a direct link to a document folder</a><span style="color: #ff0000;"> New in Preview!</span></p>
+                        <a href="../../../product-announcements/product-releases/23.1-release-activity/23-1-oct-10.md" class="MCXref xref" xrefformat="{para}">Relocation of the "Add users" option on a project</a><span style="color: #ff0000;"> New in Preview!</span></p>
+                        <p>In preparation for the deprecation and removal of the Resource Scheduling tools, we have relocated the "Add users" option from the Scheduling section of a project to the People section. When adding users to a project, the users who are not associated with items on the project become part of the Project Team.</p>
+                        <p>The Resource Scheduler was removed from the Preview environment on October 20. It will be removed from the Production environment on November 10, 2022.</p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                     <p>
+                        </p>
+                        <ul>
+                            <li>
+                                <p>Preview release: October 20, 2022<br /></p>
+                            </li>
+                            <li>
+                                <p><span class="preview">Production release: October 27, 2022 (off-cycle)</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="../../../product-announcements/product-releases/23.1-release-activity/23-1-oct-10.md" class="MCXref xref" xrefformat="{para}">Copy a direct link to a document folder</a></p>
                         <p>You can now copy and share document folder links to provide quick access to the folder. Users must have at least View access to the object to view the folder.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
@@ -112,7 +134,7 @@ The enhancements on this page are available in the Preview environment. This pag
                 </tr>
                 <tr>
                     <td>
-                        <a href="../../../product-announcements/product-releases/23.1-release-activity/23-1-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">Look-and-feel updates during the 23.1 release timeframe</a> <span style="color: #ff0000;"> New in Preview!</span></p>
+                        <a href="../../../product-announcements/product-releases/23.1-release-activity/23-1-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">Look-and-feel updates during the 23.1 release timeframe</a></p>
                         <p>Minor updates to the look and feel of various areas of the Adobe Workfront application are being made within the 23.1 release timeframe. These enhancements will be made available in the Production environment a minimum of 2 weeks after releasing to Preview. </p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
@@ -121,7 +143,7 @@ The enhancements on this page are available in the Preview environment. This pag
                                 <p>Preview release:&#160;Throughout the 23.1 release timeframe<br /></p>
                             </li>
                             <li>
-                                <p>Production release:&#160;A minimum of 2 weeks after releasing to Preview (unless otherwise specified)</p>
+                                <p><span class="preview">Production release:&#160;A minimum of 2 weeks after releasing to Preview (unless otherwise specified)</span></p>
                             </li>
                         </ul>
                     </td>
@@ -129,7 +151,7 @@ The enhancements on this page are available in the Preview environment. This pag
                 </tr>
                 <tr>
                     <td>
-                        <a href="../../../product-announcements/product-releases/23.1-release-activity/23-1-oct-10.md" class="MCXref xref" xrefformat="{para}">Rename pins and a new experience when deleting pins</a> <span style="color: #ff0000;"> New in Preview!</span> </p>
+                        <a href="../../../product-announcements/product-releases/23.1-release-activity/23-1-oct-10.md" class="MCXref xref" xrefformat="{para}">Rename pins and a new experience when deleting pins</a></p>
                         <p>The following updates are now available for pins:</p>
                         <ul>
                         <li>Rename existing pins</li>
@@ -143,7 +165,7 @@ The enhancements on this page are available in the Preview environment. This pag
                                 <p>Preview release: October 13, 2022<br /></p>
                             </li>
                             <li>
-                                <p>Production release: October 27, 2022</p>
+                                <p><span class="preview">Production release: October 27, 2022 (off-cycle)</span></p>
                             </li>
                         </ul>
                     </td>
@@ -206,31 +228,41 @@ Explore the latest updates made to learning programs, learning paths, videos, an
 
 ### Functionality soon to be removed from Workfront
 
-The following soon to be removed from Workfront:
+The following functionality is soon to be removed from Workfront:
 
-* List Controls (from the Interface area in Setup)
-
->[!NOTE]
->
->The deprecation date will be announced in future communications.
-
-
-* Resource Scheduler
+#### **Resource Scheduler**
 
 >[!NOTE]
 >
->The deprecation of Resource Scheduler has been postponed until soon after the 22.4 release.
+>The Resource Scheduler was removed from the Preview environment on October 20. It will be removed from the Production environment on November 10.
+
+
+As part of the deprecation of the Resource Scheduling tools, we have removed the following areas: 
+
+* The Scheduling section in Resourcing area of the Main Menu 
+
+* The Schedule section of a team's page 
+
+* The Scheduling section of a project's page 
   
 The Workload Balancer is replacing the Resource Scheduler. For more information about the deprecation and how you can prepare to use the Workload Balancer, see the following resources:
-  
+
 * [Deprecation of Resource Scheduling tools in Adobe Workfront](/help/quicksilver/resource-mgmt/resource-mgmt-overview/deprecate-resource-scheduling.md)
 
 * [Migrate from Resource Scheduling to the Workload Balancer](/help/quicksilver/resource-mgmt/resource-mgmt-overview/migrate-resource-scheduling-to-workload-balancer.md)
 
-* The SHARE event type in the Event Subscriptions API. 
+#### **The SHARE event type in the Event Subscriptions API.** 
   
-  This feature will be removed in November 2022.
-  
+>[!NOTE]
+>
+>  This feature will be removed in November 2022.
+
   This event type allowed customers to watch when permissions for objects were updated.
 
   For more information about Event Subscriptions, as well as other event types that will continue to be supported, see [Event Subscription API](/help/quicksilver/wf-api/general/event-subs-api.md)
+
+#### **List Controls (from the Interface area in Setup)**
+
+>[!NOTE]
+>
+>The deprecation date will be announced in future communications.

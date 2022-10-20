@@ -3,7 +3,7 @@ content-type: overview
 product-area: resource-management
 navigation-topic: the-workload-balancer
 title: Overview of the Workload Balancer
-description: Overview of the Workload Balancer
+description: After project managers plan the work on projects and create tasks, you can use the Workload Balancer to assign this work to users in your teams.
 author: Alina
 feature: Resource Management
 exl-id: 9398bd04-9df7-4b77-8361-fdb5bdce6829

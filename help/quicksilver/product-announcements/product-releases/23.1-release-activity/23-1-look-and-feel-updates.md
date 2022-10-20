@@ -12,6 +12,14 @@ This page describes minor updates to the look and feel of various areas of the A
 
 For a list of all changes available with the 23.1 release, see [23.1 Release overview](/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-release-overview.md).
 
+## Look and feel updates to the Notifications page
+
+>[!NOTE]
+>
+>Preview release: October 20, 2022; Planned Production release: Phased rollout beginning on November 3, with availability for all customers by November 17, 2022.
+
+The Notifications page now has a modern look and feel, in line with other areas of Workfront.
+
 ## Filter updates during the 23.1 release time frame
 
 The beta filter experience was added to project, task, and issue lists on August 4, 2022. The new filters are also available in timesheet lists and the Scenario Planner.
