@@ -11,7 +11,7 @@ exl-id: 40945eac-e8de-42af-b6ba-f3082c208e02
 
 >[!IMPORTANT]
 >
->The Workfront Extenstion for Illustrator and InDeisgn will be deprecated early November 2022.
+>The Workfront Extenstion for Illustrator and InDeisgn will be deprecated mid-November 2022.
 
 
 You can use the Workfront Extension to export digital content you save and create in Adobe Illustrator and Adobe InDesign to Workfront. This speeds up the document review and approval process.

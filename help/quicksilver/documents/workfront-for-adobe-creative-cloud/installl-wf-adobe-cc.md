@@ -9,7 +9,9 @@ exl-id: 14cd10ee-7272-4518-b20b-48579a42f4b8
 ---
 # Install the Workfront Extension for Illustrator and InDesign
 
-The Workfront Extenstion for Illustrator and InDeisgn will be deprecated early November 2022.
+>[!IMPORTANT]
+>
+>The Workfront Extenstion for Illustrator and InDeisgn will be deprecated mid-November 2022.
 
 The following sections describe how to download and install the Workfront Extension for Illustrator and InDesign. For information about how to use the extension, see [Use the Workfront Extension for Illustrator and InDesign](../../documents/workfront-for-adobe-creative-cloud/use-wf-adobe-cc.md).
 
