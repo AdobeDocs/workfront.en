@@ -14,11 +14,11 @@ exl-id: ff2cd098-d1d7-43a3-9f00-15e0f6e92332
 
 >[!NOTE]
 >
->Adobe Workfront Fusion requires an Adobe Workfront Fusion license in addition to an Adobe Workfront license.
+>[!UICONTROL Adobe Workfront Fusion] requires an [!UICONTROL Adobe Workfront Fusion] license in addition to an [!UICONTROL Adobe Workfront] license.
 
-The [!DNL Adobe Workfront Fusion] HTTP app provides various modules for communication based on Hypertext Transfer Protocol (HTTP) protocol. HTTP is the foundation of data communication for the World Wide Web. You can use the modules to download web pages and files, call webhooks and API endpoints, and so on.
+The [!DNL Adobe Workfront Fusion] [!UICONTROL HTTP] app provides various modules for communication based on Hypertext Transfer Protocol (HTTP) protocol. HTTP is the foundation of data communication for the World Wide Web. You can use the modules to download web pages and files, call webhooks and API endpoints, and so on.
 
-The right choice of the module depends on the authentication/ authorization mechanism the resource you want to access employs.&nbsp;The following are examples of modules
+The right choice of the module depends on the authentication/ authorization mechanism the resource you want to access employs. The following are examples of modules
 
 * Make a request:universal module primarily intended for resources not employing any type of authentication/ authorization
 * Make a Basic Auth request:for resources employing [!DNL HTTP] Basic authentication (BA)
@@ -30,18 +30,18 @@ The right choice of the module depends on the authentication/ authorization mech
 
 See the following articles for specific request module instructions:
 
-* [HTTP >[!UICONTROL Make a request] module](../../../workfront-fusion/apps-and-their-modules/http-modules/http-module-make-a-request.md)
+* [[!UICONTROL HTTP] >[!UICONTROL Make a request] module](../../../workfront-fusion/apps-and-their-modules/http-modules/http-module-make-a-request.md)
 * [[!UICONTROL HTTP] >[!UICONTROL Make a Basic Authorization request] module](../../../workfront-fusion/apps-and-their-modules/http-modules/http-module-make-a-basic-auth-request.md)
-* [HTTP > Make an OAuth 2.0 request module](../../../workfront-fusion/apps-and-their-modules/http-modules/http-module-make-an-oauth-2-request.md)
+* [[!UICONTROL HTTP] > [!UICONTROL Make an OAuth 2.0 request] module](../../../workfront-fusion/apps-and-their-modules/http-modules/http-module-make-an-oauth-2-request.md)
 * [[!UICONTROL HTTP] >[!UICONTROL Make a Client Certificate Authorization request] module](../../../workfront-fusion/apps-and-their-modules/http-modules/http-module-make-a-client-cert-auth-request.md)
 * [[!UICONTROL HTTP] >[!UICONTROL Make an API Key Authorization request]](../../../workfront-fusion/apps-and-their-modules/http-modules/http-module-make-an-api-key-auth-request.md)
 
 ## Other action modules
 
-* [Get a File](#get-a-file)
-* [Resolve a target URL](#resolve-a-target-url)
+* [[!UICONTROL Get a File]](#uicontrol-get-a-file)
+* [[!UICONTROL Resolve a target URL]](#uicontrol-resolve-a-target-url)
 
-### Get a File {#get-a-file}
+### [!UICONTROL Get a File] 
 
 This action module downloads a file from the specified URL. After the file is downloaded, you can further process the file (map the file data) using other modules in the scenario.
 
@@ -50,13 +50,13 @@ This action module downloads a file from the specified URL. After the file is do
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">URL </td> 
+   <td role="rowheader">[!UICONTROL URL] </td> 
    <td> <p>Enter or map the URL of the file you want to download. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-### Resolve a target URL {#resolve-a-target-url}
+### [!UICONTROL Resolve a target URL] 
 
 This action module resolves a chain of HTTP redirects and returns a target URL.
 
@@ -65,19 +65,19 @@ This action module resolves a chain of HTTP redirects and returns a target URL.
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">URL </td> 
+   <td role="rowheader">[!UICONTROL URL] </td> 
    <td> <p>Enter or map the URL you want to resolve, such as a [!DNL bit.ly] URL.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Method </td> 
-   <td> <p>Select whether you want to use the HEAD method or the GET method.</p> </td> 
+   <td role="rowheader">[!UICONTROL Method] </td> 
+   <td> <p>Select whether you want to use the [!UICONTROL HEAD] method or the [!UICONTROL GET] method.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Iterator modules
 
-### Retrieve headers
+### [!UICONTROL Retrieve headers]
 
 This module returns each header (name and value) from the specified HTTP module in a separate bundle.
 
@@ -86,7 +86,7 @@ This module returns each header (name and value) from the specified HTTP module 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Source Module</td> 
+   <td role="rowheader">[!UICONTROL Source Module]</td> 
    <td> <p> Select the module you want to retrieve headers from.</p> </td> 
   </tr> 
  </tbody> 
