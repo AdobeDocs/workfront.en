@@ -9,18 +9,11 @@ exl-id: 60dabfc5-6a2e-4368-9dac-db48d0307895
 ---
 # Navigate the Workload Balancer
 
-Use the Workload Balancer in Adobe Workfront to assign work to your users based on their availability. This article describes how you can use settings and options to navigate the Workload Balancer and display the information that is relevant to you. Additional articles listed here describe how you can use the Workload Balancer to manage your resources and their allocation to work. 
+Use the Workload Balancer in Adobe Workfront to assign work to users based on their availability. This article describes how you can use settings and options to navigate the Workload Balancer and display the information that is relevant to you. Additional articles listed here describe how you can use the Workload Balancer to manage your resources and their allocation to work. 
 
->[!NOTE]
->
->The Workload Balancer is a resource scheduling tool that will eventually replace the current resource scheduling tools which are currently deprecated.
->
->For more information about removing the resource scheduling tools and replacing them with the Workload Balancer, see [Deprecation of Resource Scheduling tools in Adobe Workfront](../resource-mgmt-overview/deprecate-resource-scheduling.md).
->
->We recommend that you use the Workload Balancer for scheduling your resources.
+The Workload Balancer is available in multiple areas of Adobe Workfront. Navigating it is similar in all areas. 
 
-
-The Workload Balancer is available in multiple areas of Adobe Workfront. Navigating it is similar in all areas. This article describes how to navigate the Workload Balancer for multiple projects in the Resourcing area. For more information about where the Workload Balancer is located, see [Locate the Workload Balancer](https://experienceleague.adobe.com/docs/workfront/using/manage-resources/the-workload-balancer/locate-workload-balancer.html?lang=en).
+For more information about where the Workload Balancer is located, see [Locate the Workload Balancer](https://experienceleague.adobe.com/docs/workfront/using/manage-resources/the-workload-balancer/locate-workload-balancer.html?lang=en).
 
 
 ## Access requirements

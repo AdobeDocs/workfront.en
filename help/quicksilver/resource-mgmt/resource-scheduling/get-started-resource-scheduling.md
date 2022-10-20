@@ -10,33 +10,20 @@ exl-id: 1858f6af-92e7-4d32-a401-40004eeb0cef
 ---
 # Get started with Resource Scheduling
 
-<!-- drafted for res scheduling deprecation blurb for preview release - Oct 2022 - AND REMOVE THE CAUTION BELOW AT THAT TIME:  
+<!-- drafted for res scheduling deprecation blurb for preview release-->  
 
 >[!CAUTION] 
 > 
 > 
 > <span class="preview">The information in this article refers to the Adobe Workfront's Scheduling tools. The Scheduling areas have been removed from the Preview environment and will be removed from the Production environment on **November 10, 2022**. </span> 
-> <span class="preview"> Instead, you can schedule your resources in the Workload Balancer. </span> 
+> <span class="preview"> Instead, you can schedule resources in the Workload Balancer. </span> 
 > 
 >* <span class="preview"> For information about scheduling resources using the Workload Balancer, see the section [The Workload Balancer](../../resource-mgmt/workload-balancer/workload-balancer.md).</span> 
 > 
 >* <span class="preview"> For more information about the deprecation and removal of the Scheduling tools, see [Deprecation of Resource Scheduling tools in Adobe Workfront](../../resource-mgmt/resource-mgmt-overview/deprecate-resource-scheduling.md).</span> 
--->
-
->[!CAUTION]
->
->We are no longer supporting the Resource Scheduling tools and they will soon be removed from Adobe Workfront. 
->
->We recommend that you use the Workload Balancer for scheduling your resources. 
->
->* For information about scheduling resources using the new Workload Balancer, see the section [The Workload Balancer](../../resource-mgmt/workload-balancer/workload-balancer.md).
->
->* For more information about the timeline for removing the Resource Scheduling tools and replacing them with the Workload Balancer, see [Deprecation of Resource Scheduling tools in Adobe Workfront](../../resource-mgmt/resource-mgmt-overview/deprecate-resource-scheduling.md).
-
 
 
 <!--
-<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <p>(NOTE: LINKED TO THE PRODUCT FROM: ALL SCHEDULING TOOLS: GLOBAL, TEAM, PROJECT STAFFING *** LINKED TO LOTS OF ARTICLES, AS WELL!) </p>
 <p>(NOTE: Alina: this article should be divided in multiple articles, but CAREFULLY because some sections are linked to the UI)</p>
 </div>

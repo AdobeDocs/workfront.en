@@ -9,40 +9,32 @@ exl-id: 75bf6d3a-95e9-4cef-a1cc-f19a0f56a42e
 ---
 # Configure how Workfront calculates resource hour and FTE availability for the Scheduling area
 
-<!-- drafted for res scheduling deprecation blurb for preview release - Oct 2022 - AND REMOVE THE CAUTION BELOW AT THAT TIME:  
+<!-- drafted for res scheduling deprecation blurb for preview release-->  
+<!-- should this article be removed at production? Or is it still pertinent for the WB functionality??? -->
 
 >[!CAUTION] 
 > 
 > 
 > <span class="preview">The information in this article refers to the Adobe Workfront's Scheduling tools. The Scheduling areas have been removed from the Preview environment and will be removed from the Production environment on **November 10, 2022**. </span> 
-> <span class="preview"> Instead, you can schedule your resources in the Workload Balancer. </span> 
+> <span class="preview"> Instead, you can schedule resources in the Workload Balancer. </span> 
 > 
 >* <span class="preview"> For information about scheduling resources using the Workload Balancer, see the section [The Workload Balancer](../../resource-mgmt/workload-balancer/workload-balancer.md).</span> 
 > 
 >* <span class="preview"> For more information about the deprecation and removal of the Scheduling tools, see [Deprecation of Resource Scheduling tools in Adobe Workfront](../../resource-mgmt/resource-mgmt-overview/deprecate-resource-scheduling.md).</span> 
--->
 
 <!--
-<p>NOTE: Alina: ***Note that the FTE for scheduling is not yet working the same way as the FTE for planning - confirmed with Vazgen and this parity is planned for the future, but not right now. This article has to remain live in addition to the Planning article that talks about the calculation of FTEs in the Planner.</p>
+<p>***Notice that the FTE for scheduling is not yet working the same way as the FTE for planning - confirmed with Vazgen and this parity is planned for the future, but not right now. This article has to remain live in addition to the Planning article that talks about the calculation of FTEs in the Planner.</p>
 <p>[The information in this article was taken from "Calculating Hours and FTE for Users and Roles in the Resource Planner". Specifically, from section "Calculating the Available Hours and FTE for a User in the Resource Planner". It was re-worded slightly.]</p>
 <p>Article linked to Managing User Allocations and Managing User Assignments (in the Scheduling section), so do not remove unless you resolve links.) </p>
 </div>
 -->
-
->[!CAUTION]
->
->We are no longer supporting the Resource Scheduling tools and they will soon be removed from Adobe Workfront. We recommend that you use the Workload Balancer for scheduling your resources. 
->
->* For information about scheduling resources using the new Workload Balancer, see the section [The Workload Balancer](../../resource-mgmt/workload-balancer/workload-balancer.md).
->
->* For more information about the timeline for removing the Resource Scheduling tools and replacing them with the Workload Balancer, see [Deprecation of Resource Scheduling tools in Adobe Workfront](../../resource-mgmt/resource-mgmt-overview/deprecate-resource-scheduling.md).
 
 The Adobe Workfront administrator determines how Workfront calculates resource availability and user allocation at the system level (considering hours as well as FTE availability) when they configure Resource Management preferences.
 
 They can select to use one of the following:
 
 * The Default Schedule of the system and the user's FTE. 
-* The user's schedule.&nbsp;
+* The user's schedule.
 
 For more information, see [Configure Resource Management preferences](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
 
