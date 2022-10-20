@@ -9,29 +9,17 @@ exl-id: 0f90ffde-6f07-4c3c-b963-de28b1b55dc1
 ---
 # Allow user assignments regardless of role and group membership in the Scheduling areas
 
-<!-- drafted for res scheduling deprecation blurb for preview release - Oct 2022 - AND REMOVE THE CAUTION BELOW AT THAT TIME:  
+<!-- drafted for res scheduling deprecation blurb for preview release - Oct 2022  --> 
 
 >[!CAUTION] 
 > 
 > 
 > <span class="preview">The information in this article refers to the Adobe Workfront's Scheduling tools. The Scheduling areas have been removed from the Preview environment and will be removed from the Production environment on **November 10, 2022**. </span> 
-> <span class="preview"> Instead, you can schedule your resources in the Workload Balancer. </span> 
+> <span class="preview"> Instead, you can schedule resources in the Workload Balancer. </span> 
 > 
 >* <span class="preview"> For information about scheduling resources using the Workload Balancer, see the section [The Workload Balancer](../../resource-mgmt/workload-balancer/workload-balancer.md).</span> 
 > 
 >* <span class="preview"> For more information about the deprecation and removal of the Scheduling tools, see [Deprecation of Resource Scheduling tools in Adobe Workfront](../../resource-mgmt/resource-mgmt-overview/deprecate-resource-scheduling.md).</span> 
---> 
-
->[!CAUTION]
->
->
->We are no longer supporting the Resource Scheduling tools and they will soon be removed from Adobe Workfront. 
->
->We recommend that you use the Workload Balancer for scheduling your resources. 
->
->* For information about scheduling resources using the Workload Balancer, see the section [The Workload Balancer](../../resource-mgmt/workload-balancer/workload-balancer.md).
->
->* For more information about the timeline for removing the Resource Scheduling tools and replacing them with the Workload Balancer, see [Deprecation of Resource Scheduling tools in Adobe Workfront](../../resource-mgmt/resource-mgmt-overview/deprecate-resource-scheduling.md).
 
 
 <!--
@@ -91,7 +79,7 @@ You must have the following access to perform the steps in this article:
 ## Allow assignments to users regardless of group membership
 
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Alina: **^ This section is linked to the UI in a tooltip inside the Settings of the scheduler. do not rename/ remove/ edit the tag!!) </p>
+<p>(NOTE: Alina: **^ This section is linked to the UI in a tooltip inside the Settings of the scheduler. do not rename/ remove/ edit the tag!!) </p>
 -->
 
 By default, assignments can be made only to users who are members of the group that is associated with the project (this is the group that is defined when editing the project).

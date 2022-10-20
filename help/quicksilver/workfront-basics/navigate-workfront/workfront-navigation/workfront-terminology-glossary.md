@@ -1198,7 +1198,7 @@ The following table is a list of commonly used terms in Adobe Workfront:
   </tr>
   <tr> 
    <td>Non Work Day</td> 
-   <td>A day that is not allocation to the completion of any assignments. This is usually a vacation day, holiday, or weekend.</td> 
+   <td>A day that is not allocated to the completion of any assignments. This is usually a vacation day, holiday, or weekend.</td> 
   </tr> 
   <tr> 
    <td>Note</td> 
@@ -1710,8 +1710,8 @@ The following table is a list of commonly used terms in Adobe Workfront:
    </tr>
   --> 
   <tr> 
-   <td>Resource Grid</td> 
-   <td>A visual table showing the allocation of resources.</td> 
+   <!--<td>Resource Grid</td> 
+   <td>A visual table showing the allocation of resources.</td> -->
   </tr> 
   <tr> 
    <td>Resource Management</td> 

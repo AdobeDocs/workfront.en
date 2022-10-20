@@ -9,32 +9,21 @@ exl-id: 974b2515-ed10-459d-a317-36e62c52afc7
 ---
 # Filter information in the Scheduling area
 
-<!-- drafted for res scheduling deprecation blurb for preview release - Oct 2022 - AND REMOVE THE CAUTION BELOW AT THAT TIME:  
+<!-- drafted for res scheduling deprecation blurb for preview release--> 
 
 >[!CAUTION] 
 > 
 > 
 > <span class="preview">The information in this article refers to the Adobe Workfront's Scheduling tools. The Scheduling areas have been removed from the Preview environment and will be removed from the Production environment on **November 10, 2022**. </span> 
-> <span class="preview"> Instead, you can schedule your resources in the Workload Balancer. </span> 
+> <span class="preview"> Instead, you can schedule resources in the Workload Balancer. </span> 
 > 
 >* <span class="preview"> For information about scheduling resources using the Workload Balancer, see the section [The Workload Balancer](../../resource-mgmt/workload-balancer/workload-balancer.md).</span> 
 > 
 >* <span class="preview"> For more information about the deprecation and removal of the Scheduling tools, see [Deprecation of Resource Scheduling tools in Adobe Workfront](../../resource-mgmt/resource-mgmt-overview/deprecate-resource-scheduling.md).</span> 
--->
 
-
->[!CAUTION]
->
->We are no longer supporting the Resource Scheduling tools and they will soon be removed from Adobe Workfront. 
->
->We recommend that you use the Workload Balancer for scheduling your resources. 
->
->* For information about scheduling resources using the new Workload Balancer, see the section [The Workload Balancer](../../resource-mgmt/workload-balancer/workload-balancer.md).
->
->* For more information about the timeline for removing the Resource Scheduling tools and replacing them with the Workload Balancer, see [Deprecation of Resource Scheduling tools in Adobe Workfront](../../resource-mgmt/resource-mgmt-overview/deprecate-resource-scheduling.md).
 
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: SEVERAL SECTIONS BELOW LINKED TO THE PRODUCT. SEE NOTES)&nbsp;</p>
+<p>(SEVERAL SECTIONS BELOW LINKED TO THE PRODUCT. SEE NOTES</p>
 -->
 
 Using a filter in the Resource Scheduling area enables you to determine which work items are displayed on the scheduling timeline. This includes which tasks and issues are displayed in the Unassigned area, as well as which users are displayed.
@@ -77,7 +66,7 @@ You must have the following:
 *To find out what plan, license type, or access you have, contact your Workfront administrator.
 
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: sections below - LINKED TO THE ui. DO NOT RENAME/ DELETE)</p>
+<p>(NOTE: sections below - LINKED TO THE ui. DO NOT RENAME/ DELETE)</p>
 -->
 
 ## Create a filter in the Schedule section (for Teams)
@@ -95,7 +84,7 @@ To create a filter for the scheduling timeline on the Working On tab for teams:
 1. Determine which projects are represented in the Unassigned area by specifying the following information:
 
    <!--
-   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Alina: there was a note that [This step is linked to from the context-sensitive help] but I could not find from where in the UI it is linked.)&nbsp;</p>
+   <p>(NOTE: Alina: there was a note that [This step is linked to from the context-sensitive help] but I could not find from where in the UI it is linked.)&nbsp;</p>
    -->
 
    * **Project Priorities:**&nbsp;Select the priority of the projects that you want to&nbsp;be represented on the scheduling timeline. Tasks and issues from projects with the priorities you select are&nbsp;displayed on the scheduling timeline.  
@@ -109,7 +98,7 @@ To create a filter for the scheduling timeline on the Working On tab for teams:
 1. Determine which users are displayed on the scheduling timeline by specifying the following information. By default, all team members are displayed.
 
    <!--
-   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this step is linked in the UI.)</p>
+   <p>(NOTE: this step is linked in the UI.)</p>
    -->
 
    * **Roles:**&nbsp;Select the roles&nbsp;you want to be represented&nbsp;on the scheduling timeline.  
@@ -120,13 +109,13 @@ To create a filter for the scheduling timeline on the Working On tab for teams:
      This option does not affect which&nbsp;tasks and issues are displayed in the Unassigned area.
 
      <!--   
-     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Alina: [! Users with Plan, Work, or Review licenses are available. Users with Request licenses are not available. - This is what it used to say. I think now instead you select specific users, not license types.])</p>   
+     <p>(NOTE: Alina: [! Users with Plan, Work, or Review licenses are available. Users with Request licenses are not available. - This is what it used to say. I think now instead you select specific users, not license types.])</p>   
      -->
 
 1. (Optional) To make further modifications to the scheduling timeline (such as changing the date range), and to make modifications to user assignments, see the article [Manually assign unassigned tasks and issues in the Scheduling areas](../../resource-mgmt/resource-scheduling/manually-assign-items-scheduling-areas.md).
 
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: below - LINKED TO THE UI, DO NOT RENAME/ DELETE/ CHANGE)</p>
+<p>(NOTE: below - LINKED TO THE UI, DO NOT RENAME/ DELETE/ CHANGE)</p>
 -->
 
 ## Create and modify filters in the Scheduling section (for multiple projects)
@@ -141,7 +130,7 @@ You can create a new filter, apply a filter that you previously created, modify 
 ### Create a filter in the Scheduling section (for projects) {#create-a-filter-in-the-scheduling-section-for-projects}
 
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: *****LINKED TO THE PRODUCT FROM THE GLOBAL SCHEDULER >> BOTH THE FIRST AND THE SECOND AREAS) </p>
+<p>(NOTE: *****LINKED TO THE PRODUCT FROM THE GLOBAL SCHEDULER >> BOTH THE FIRST AND THE SECOND AREAS) </p>
 -->
 
 Tasks and issues from the projects, users, and roles you define in the filter are displayed on the scheduling timeline on the Scheduling tab. Use the options in the filter to determine which projects, users, and roles are represented on the scheduling timeline.
@@ -156,7 +145,7 @@ To create a filter for the scheduling timeline on the Scheduling&nbsp;tab for mu
 1. Determine which projects are represented in the Unassigned area by specifying the following information:
 
    <!--
-   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Alina: this step is linked in the UI.) </p>
+   <p>(NOTE: Alina: this step is linked in the UI.) </p>
    -->
 
    * **Portfolios:**&nbsp;Select any portfolios that include programs and projects that you want to be represented on the scheduling timeline.
@@ -184,7 +173,7 @@ To create a filter for the scheduling timeline on the Scheduling&nbsp;tab for mu
 1. Determine which users are displayed on the scheduling timeline by specifying the following information: (By default, only users who are eligible to be assigned a task or issue from the Unassigned area are displayed. When you select individual users, the users are displayed on the scheduling timeline regardless of whether they are eligible to be assigned a task or issue from the Unassigned area.)&nbsp;
 
    <!--
-   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Alina: this step had a note that it is linked in the UI but I could not find from where.) </p>
+   <p>(NOTE: Alina: this step had a note that it is linked in the UI but I could not find from where.) </p>
    -->
 
    * **User Companies:** This field enables you to restrict users from other companies from being displayed on the scheduling timeline.  
@@ -205,7 +194,7 @@ To create a filter for the scheduling timeline on the Scheduling&nbsp;tab for mu
      This option does not affect which&nbsp;tasks and issues are displayed in the Unassigned area.
 
    <!--
-   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">NOTE: [! Users with Plan, Work, or Review licenses are available. Users with Request licenses are not available. - This is what it used to say. I think now instead you select specific users, not license types.])<br></p>
+   <p>NOTE: [! Users with Plan, Work, or Review licenses are available. Users with Request licenses are not available. - This is what it used to say. I think now instead you select specific users, not license types.])<br></p>
    -->
 
 1. Click **Save New Filter**.  
@@ -264,7 +253,7 @@ You can delete a filter that you previously created.
 ## Create and modify filters in the Scheduling section (for a single project)
 
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: **** LINKED FROM THE PRODUCT FROM THE PROJECT> STAFFING> SCHEDULING AREA) </p>
+<p>(NOTE: **** LINKED FROM THE PRODUCT FROM THE PROJECT> STAFFING> SCHEDULING AREA) </p>
 -->
 
 Tasks and issues from the users, teams, and roles you define in the filter are displayed on the scheduling timeline on the Staffing&nbsp;tab. Use the options in the filter to determine which users, teams, and roles are represented on the scheduling timeline.
@@ -279,7 +268,7 @@ To create a filter for the scheduling timeline on the Staffing&nbsp;tab for a si
 1. Determine which users are displayed on the scheduling timeline by specifying the following information: (By default, only users who are eligible to be assigned a task or issue from the Unassigned area are displayed. When you select individual users, the users are displayed on the scheduling timeline regardless of whether they are eligible to be assigned a task or issue from the Unassigned area.)&nbsp;
 
    <!--
-   <p data-mc-conditions="QuicksilverOrClassic.Draft mode"><span>(NOTE: Alina: [This step is linked to from the context-sensitive help]) </span> </p>
+   <p><span>(NOTE: Alina: [This step is linked to from the context-sensitive help]) </span> </p>
    -->
 
    * **User Companies:**&nbsp;This field enables you to restrict users from other companies from being displayed on the scheduling timeline.  
@@ -300,5 +289,5 @@ To create a filter for the scheduling timeline on the Staffing&nbsp;tab for a si
      This option does not affect which&nbsp;tasks and issues are displayed in the Unassigned area.
 
    <!--
-   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: [! Users with Plan, Work, or Review licenses are available. Users with Request licenses are not available. - This is what it used to say. I think now instead you select specific users, not license types.])<br></p>
+   <p>(NOTE: [! Users with Plan, Work, or Review licenses are available. Users with Request licenses are not available. - This is what it used to say. I think now instead you select specific users, not license types.])<br></p>
    -->

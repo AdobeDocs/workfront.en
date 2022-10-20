@@ -47,6 +47,9 @@ You can view smart assignments in the following areas where you can assign tasks
 
   ![](assets/smart-assignments-in-home-nwe-350x216.png)
 
+
+<!--removed for scheduling deprecation: 
+
 * Resource Scheduling
 
   ![](assets/smart-assignments-scheduling-350x219.png)
@@ -55,7 +58,7 @@ You can view smart assignments in the following areas where you can assign tasks
   >
   >Resource Scheduling is a deprecated feature. For more information, see [Deprecation of Resource Scheduling tools in Adobe Workfront](../../../resource-mgmt/resource-mgmt-overview/deprecate-resource-scheduling.md).
 
-
+-->
 * Workload Balancer
 
   ![](assets/smart-assignments-workload-balancer-bulk-assignments.png)

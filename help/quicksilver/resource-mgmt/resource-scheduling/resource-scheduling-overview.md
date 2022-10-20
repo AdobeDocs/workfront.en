@@ -3,7 +3,7 @@ content-type: reference;overview
 product-area: resource-management
 navigation-topic: resource-management-navigation-topic
 title: Resource Scheduling
-description: The following articles explain how to assign tasks and issues to users and manage their allocations by using the resource scheduling tools available in Adobe Workfront. 
+description: The following articles explain how to assign tasks and issues to users and manage their allocations by using the Scheduling tools available in Adobe Workfront. 
 author: Alina
 feature: Resource Management
 exl-id: e09363dc-ddaf-4595-9abd-cd721512442b
@@ -11,10 +11,10 @@ exl-id: e09363dc-ddaf-4595-9abd-cd721512442b
 # Resource Scheduling
 
 <!--
-(SEE OF THERE ARE STILL ANY LINKS TO THIS:  ****LINKED TO THE PRODUCT FOR RESOURCE SCHEDULING AREAS) </p>
+(SEE IF THERE ARE STILL ANY LINKS TO THIS:  ****LINKED TO THE PRODUCT FOR RESOURCE SCHEDULING AREAS) </p>
 -->
 
-<!-- drafted for res scheduling deprecation blurb for preview release - Oct 2022 - AND REMOVE THE CAUTION BELOW AT THAT TIME:  
+<!-- drafted for res scheduling deprecation blurb for preview release--> 
 
 >[!CAUTION] 
 > 
@@ -25,19 +25,10 @@ exl-id: e09363dc-ddaf-4595-9abd-cd721512442b
 >* <span class="preview"> For information about scheduling resources using the Workload Balancer, see the section [The Workload Balancer](../../resource-mgmt/workload-balancer/workload-balancer.md).</span> 
 > 
 >* <span class="preview"> For more information about the deprecation and removal of the Scheduling tools, see [Deprecation of Resource Scheduling tools in Adobe Workfront](../../resource-mgmt/resource-mgmt-overview/deprecate-resource-scheduling.md).</span> 
--->
 
->[!CAUTION]
->
->We are no longer developing the Resource Scheduling tools and they will soon be removed from Adobe Workfront. We recommend that you use the Workload Balancer for scheduling your resources. 
->
->* For information about scheduling resources using the new Workload Balancer, see the section [The Workload Balancer](../../resource-mgmt/workload-balancer/workload-balancer.md).
->
->* For more information about the timeline for removing the Resource Scheduling tools and replacing them with the Workload Balancer, see [Deprecation of Resource Scheduling tools in Adobe Workfront](../../resource-mgmt/resource-mgmt-overview/deprecate-resource-scheduling.md).
+The following articles explain how to assign tasks and issues to users and manage their allocations by using the Scheduling tools available in Adobe Workfront. 
 
-The following articles explain how to assign tasks and issues to users and manage their allocations by using the resource scheduling tools available in Adobe Workfront. 
-
-You can schedule resources on any projects for which you are the Resource Manager, for any team you are a member of, and for any project where you are a member of the project team.
+You can schedule resources using the Scheudling tools on any projects for which you are the Resource Manager, for any team you are a member of, and for any project where you are a member of the project team.
 
 This section contains the following articles:
 
