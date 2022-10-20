@@ -71,17 +71,14 @@ In this case your scenario will run immediately whenWorkfront Fusion receives ne
 
 >[!NOTE]
 >
->* A cycle is not the same as a scenario run. There can be multiple cycles within 1 scenario run.
+>* A cycle is not the same as a scenario run. There can be multiple cycles within 1 scenario run. 
 >* When you execute a scenario with an instant trigger scheduled to be immediate, the following exceptions apply:>
 >   * The interval between two executions is not subject to the Minimum interval according to the pricing plan.
 >
->     
-      For example, once the scenario finishes its execution, the webhook's queue is checked again. If there are any pending webhooks, the scenario executes immediately again, processing all the pending webhooks once again.
+>     For example, once the scenario finishes its execution, the webhook's queue is checked again. If there are any pending webhooks, the scenario executes immediately again, processing all the pending webhooks once again.
 >   
->   
-   * The [!UICONTROL Maximum number of cycles] scenario setting is ignored and set to 100, which means that no more than 100 pending webhooks will be processed during a single scenario execution (at the rate of 1 event per one cycle).
+>   * The Maximum number of cycles scenario setting is ignored and set to 100, which means that no more than 100 pending webhooks will be processed during a single scenario execution (at the rate of 1 event per one cycle).
 >
-
 
 
 If you use any other schedule setting than [!UICONTROL Immediately], the scenario executes at the intervals you specify. As several webhooks can be gathered in the queue during the interval, it is recommended to set the [Maximum number of cycles](../../workfront-fusion/scenarios/scenario-settings-panel.md#maximum) to a higher value than the default 1 to process more webhooks in one scenario run:

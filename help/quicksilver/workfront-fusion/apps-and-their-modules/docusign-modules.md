@@ -162,11 +162,11 @@ This action module allows you to perform a custom API call.
   </tr> 
   <tr> 
    <td>Headers</td> 
-   <td> <p>Add the headers of the request in the form of a standard JSON object. This determines the content type of the request.</p> <p>For example,<code> {“Content-type”:“application/json”}</code></p> <p>Note: If you're getting errors and it's difficult to determine their origin, consider modifying headers based on the [!DNL Workfront] documentation. If your Custom API Call returns a 422 HTTP Request Error, try using a “Content-Type”:“text/plain” header.</p> </td> 
+   <td> <p>Add the headers of the request in the form of a standard JSON object. This determines the content type of the request.</p> <p>For example,<code> {"Content-type":"application/json"}</code></p> <p>Note: If you're getting errors and it's difficult to determine their origin, consider modifying headers based on the [!DNL Workfront] documentation. If your Custom API Call returns a 422 HTTP Request Error, try using a "Content-Type":"text/plain" header.</p> </td> 
   </tr> 
   <tr> 
    <td>Query String</td> 
-   <td> <p>Add the query for the API call in the form of a standard JSON object.</p> <p>For example: <code>{“name”:“something-urgent”}</code></p> </td> 
+   <td> <p>Add the query for the API call in the form of a standard JSON object.</p> <p>For example: <code>{"name":"something-urgent"}</code></p> </td> 
   </tr> 
   <tr> 
    <td>Body</td> 
@@ -198,8 +198,7 @@ This action module allows you to perform a custom API call.
 >
 >* **Value**: `YYYY-MM-DD`
 >
->   
-   Specifies when the request begins checking for status changes for envelopes in the account.
+>Specifies when the request begins checking for status changes for envelopes in the account.
 >
 >![](assets/example-docusign-setup-350x770.png)
 >
