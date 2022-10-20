@@ -4,28 +4,28 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: apps-and-their-modules
 title: Archive modules
-description: In a Adobe Workfront Fusion scenario, you can connect an archive, such as a zipped file, to multiple third-party applications and services. For example, you can configure a scenario that
+description: In a [!DNL Adobe Workfront Fusion] scenario, you can connect an archive, such as a zipped file, to multiple third-party applications and services. For example, you can configure a scenario that
 author: Becky
 feature: Workfront Fusion
 exl-id: e29b6d39-3666-4d6d-a178-1983ae9f3aa9
 ---
 # Archive modules
 
-In a Adobe Workfront Fusion scenario, you can use an archive, such as a zipped file, in your scenario, allowing you to use it in your automations or integrations.
+In a [!DNL Adobe Workfront] Fusion scenario, you can use an archive, such as a zipped file, in your scenario, allowing you to use it in your automations or integrations.
 
 If you need instructions on creating a scenario, see [Create a scenario in Adobe Workfront Fusion](../../workfront-fusion/scenarios/create-a-scenario.md). For information about modules, see [Modules in Adobe Workfront Fusion](../../workfront-fusion/modules/modules.md).
 
 ## Archive modules and their fields
 
-When you configure Archive modules, Workfront Fusion displays the fields listed below. Along with these, additional Archive fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
+When you configure Archive modules, [!DNL Workfront Fusion] displays the fields listed below. Along with these, additional Archive fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
 
 If you see the map button above a field or function, you can use it to set variables and functions for that field. For more information, see [Map information from one module to another in Adobe Workfront Fusion](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 ![](assets/map-toggle-350x74.png)
 
-* [Extract an archive](#extract-an-archive) 
-* [Create an archive](#create-an-archive) 
-* [Inflate](#inflate) 
+* [Extract an archive](#extract-an-archive)
+* [Create an archive](#create-an-archive)
+* [Inflate](#inflate)
 * [Deflate](#deflate)
 
 ## Extract an archive {#extract-an-archive}
@@ -40,7 +40,7 @@ The module returns the ID of the  file and any associated fields, along with any
  <tbody> 
   <tr> 
    <td>Source file</td> 
-   <td> <p> Select the file you want to extract. This file can be mapped from a previous module (such as the Workfront > Download a document module).</p>  </td> 
+   <td> <p> Select the file you want to extract. This file can be mapped from a previous module (such as the [!UICONTROL Workfront] >[!UICONTROL Download a document] module).</p>  </td> 
   </tr> 
  </tbody> 
 </table>
@@ -94,7 +94,7 @@ When you are configuring this module, the following fields display.
 
 >[!INFO]
 >
->**Example:** Watch incoming emails using the Gmail > Watch emails module. If an email is received, its attachments are iterated into individual bundles then archived to the ZIP file and saved to the defined Dropbox folder.
+>**Example:** Watch incoming emails using the Gmail >[!UICONTROL Watch emails] module. If an email is received, its attachments are iterated into individual bundles then archived to the ZIP file and saved to the defined Dropbox folder.
 >
 >![](assets/example-gmail-350x102.png)
 

@@ -35,18 +35,18 @@ You must have the following access to use the functionality in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
+   <td>Your organization must purchase [!DNL Adobe Workfront Fusion] as well as [!DNL Adobe Workfront] to use functionality described in this article.</td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+&#42;To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
 
 &#42;&#42;For information on Adobe Workfront Fusion licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
 ## Prerequisites
 
-In order to use [Fusion App] with Workfront Fusion, you must have an FTP account.
+In order to use [Fusion App] with [!DNL Workfront Fusion], you must have an FTP account.
 
 ## Create a connection in an FTP module {#create-a-connection}
 
@@ -84,21 +84,21 @@ In order to use [Fusion App] with Workfront Fusion, you must have an FTP account
     <ul> 
      <li>be signed by a Root <a href="https://en.wikipedia.org/wiki/Certificate_authority">Certificate Authority</a></li> 
      <li>be signed by an Intermediate Certificate Authority (see e.g. <a href="https://knowledge.digicert.com/solution/SO16297.html">How certificate chains work</a> for further explanation). In this case all the Intermediate Certificates should be installed on the FTP server.</li> 
-     <li>be a Self-Signed Certificate supplied in the Self-signed certificate field (see below)</li> </ul>
-     
-   If this option is disabled, the FTP server certificate is not verified. We strongly advise against disabling the option as it renders the connection insecure and poses a serious security risk.</td> 
-  </tr> 
+     <li>be a Self-Signed Certificate supplied in the [!UICONTROL Self-signed certificate] field (see below)</li> </ul>
+
+If this option is disabled, the FTP server certificate is not verified. We strongly advise against disabling the option as it renders the connection insecure and poses a serious security risk.</td>
+</tr> 
   <tr> 
    <td> <p>Self-signed certificate</p> </td> 
-   <td> <p>Click the <b>Extract</b> button to open the upload dialog.</p> <p>Upload the certificate to use the TLS with your self-signed certificate. Workfront Fusion does not retain or store any data you provide, such as files and passwords. File and password are used only to extract the certificate.</p> </td> 
+   <td> <p>Click the <b>Extract</b> button to open the upload dialog.</p> <p>Upload the certificate to use the TLS with your self-signed certificate. [!DNL Workfront Fusion] does not retain or store any data you provide, such as files and passwords. File and password are used only to extract the certificate.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## FTP modules and their fields
 
-* [Triggers](#triggers) 
-* [Actions](#actions) 
+* [Triggers](#triggers)
+* [Actions](#actions)
 
 ### Triggers {#triggers}
 
@@ -112,7 +112,7 @@ Watch files is the only trigger module for FTP. It monitors the file content of 
  <tbody> 
   <tr> 
    <td>Connection </td> 
-   <td> <p>For instructions on establishing a connection to the FTP account, see <a href="#create-a-connection" class="MCXref xref">Create a connection in an FTP module</a> in this article.</p> </td> 
+   <td> <p>For instructions on establishing a connection to the FTP account, see <a href="#create-a-connection" class="MCXref xref">[!UICONTROL Create a connection] in an FTP module</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Folder</p> </td> 
@@ -120,7 +120,7 @@ Watch files is the only trigger module for FTP. It monitors the file content of 
   </tr> 
   <tr> 
    <td>Maximum number of returned files </td> 
-   <td> <p>Set the maximum number of results that Workfront Fusion will work with during one cycle. If the value is set too high, the connection may be interrupted on the side of the given third-party service (timeout). Workfront Fusion has no influence on this. We recommend that you set a lower value and either define a higher value for the maximum number of cycles or run the scenario more frequently.</p> </td> 
+   <td> <p>Set the maximum number of results that [!DNL Workfront Fusion] will work with during one cycle. If the value is set too high, the connection may be interrupted on the side of the given third-party service (timeout). [!DNL Workfront Fusion] has no influence on this. We recommend that you set a lower value and either define a higher value for the maximum number of cycles or run the scenario more frequently.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -129,12 +129,12 @@ Watch files is the only trigger module for FTP. It monitors the file content of 
 
 * [Change permissions](#change-permissions)
 * [Create a folder](#create-a-folder)
-* [Delete a file](#delete-a-file) 
-* [Delete a folder](#delete-a-folder) 
+* [Delete a file](#delete-a-file)
+* [Delete a folder](#delete-a-folder)
 * [Get a file](#get-a-file)
-* [List of files in a folder](#list-of-files-in-a-folder) 
+* [List of files in a folder](#list-of-files-in-a-folder)
 * [Move a file or folder](#move-a-file-or-folder)
-* [Upload a file](#upload-a-file) 
+* [[!UICONTROL Upload] a file](#upload-a-file)
 
 #### Change permissions {#change-permissions}
 
@@ -146,7 +146,7 @@ This action module changes permission settings of a file or folder.
    <tbody>
          <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray">
             <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-LightGray" role="rowheader">Connection</td>
-            <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray">For instructions on establishing a connection to the FTP account, see <a href="#Create" class="MCXref xref" >Create a connection in an FTP module</a> in this article.</td>
+            <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray">For instructions on establishing a connection to the FTP account, see <a href="#Create" class="MCXref xref" >[!UICONTROL Create a connection] in an FTP module</a> in this article.</td>
          </tr>
          <tr class="TableStyle-TableStyle-List-options-in-steps-Body-MediumGray">
             <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-MediumGray" role="rowheader">Change permission settings of</td>
@@ -178,7 +178,7 @@ This action module creates a new folder.
    <tbody>
          <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray">
             <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-LightGray" role="rowheader">Connection</td>
-            <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray">For instructions on establishing a connection to the FTP account, see <a href="#Create" class="MCXref xref" >Create a connection in an FTP module</a> in this article.</td>
+            <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray">For instructions on establishing a connection to the FTP account, see <a href="#Create" class="MCXref xref" >[!UICONTROL Create a connection] in an FTP module</a> in this article.</td>
          </tr>
          <tr class="TableStyle-TableStyle-List-options-in-steps-Body-MediumGray">
             <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-MediumGray" role="rowheader">Folder path</td>
@@ -192,7 +192,7 @@ This action module creates a new folder.
          </tr>
    </tbody>
 </table>
- 
+
 #### Delete a file {#delete-a-file}
 
 Deletes a file from the specified folder.
@@ -203,7 +203,7 @@ Deletes a file from the specified folder.
  <tbody> 
   <tr> 
    <td>Connection </td> 
-            <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray">For instructions on establishing a connection to the FTP account, see <a href="#Create" class="MCXref xref" >Create a connection in an FTP module</a> in this article.</td>
+            <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray">For instructions on establishing a connection to the FTP account, see <a href="#Create" class="MCXref xref" >[!UICONTROL Create a connection] in an FTP module</a> in this article.</td>
   </tr> 
   <tr> 
    <td>Folder </td> 
@@ -211,7 +211,7 @@ Deletes a file from the specified folder.
   </tr> 
   <tr> 
    <td>File name</td> 
-   <td> <p> Enter the filename, including file name extension. Example: <code>image.png</code></p> </td> 
+   <td> <p> Enter the filename, including file name extension. Example: <code>[!DNL image].png</code></p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -226,7 +226,7 @@ This action module permanently deletes the specified folder.
    <tbody>
          <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray">
             <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray" style="font-weight: bold;">Connection</td>
-            <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray">For instructions on establishing a connection to the FTP account, see <a href="#Create" class="MCXref xref" >Create a connection in an FTP module</a> in this article.</td>
+            <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray">For instructions on establishing a connection to the FTP account, see <a href="#Create" class="MCXref xref" >[!UICONTROL Create a connection] in an FTP module</a> in this article.</td>
          </tr>
          <tr class="TableStyle-TableStyle-HeaderRow-Body-MediumGray">
             <td class="TableStyle-TableStyle-HeaderRow-BodyB-Column1-MediumGray" style="font-weight: bold;">Folder</td>
@@ -297,7 +297,7 @@ This action module moves a file or folder to a different location.
    <tbody>
          <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray">
             <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray" style="font-weight: bold;">Connection</td>
-            <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray">For instructions on establishing a connection to the FTP account, see <a href="#Create" class="MCXref xref" >Create a connection in an FTP module</a> in this article.</td>
+            <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray">For instructions on establishing a connection to the FTP account, see <a href="#Create" class="MCXref xref" >[!UICONTROL Create a connection] in an FTP module</a> in this article.</td>
          </tr>
          <tr class="TableStyle-TableStyle-HeaderRow-Body-MediumGray">
             <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray" style="font-weight: bold;">Old file path</td>

@@ -6,14 +6,14 @@ product-area: workfront-integrations
 keywords: connector
 navigation-topic: apps-and-their-modules
 title: Adobe Experience Manager Assets modules
-description: With the Adobe Experience Manager Assets connector for Adobe Workfront Fusion, you can start a scenario based on events in your Adobe Experience Manager Assets account, create, upload, and update assets, and copy or move folders and assets.
+description: With the [!DNL Adobe Experience Manager Assets] connector for [!DNL Adobe Workfront Fusion], you can start a scenario based on events in your [!DNL Adobe Experience Manager Assets] account, create, upload, and update assets, and copy or move folders and assets.
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 0749f230-8cab-464f-863c-9cb4870125d1
 ---
 # Adobe Experience Manager Assets modules
 
-With the Adobe Experience Manager Assets connector for Adobe Workfront Fusion, you can start a scenario based on events in your Adobe Experience Manager Assets account, create, upload, and update assets, and copy or move folders and assets.
+With the [!DNL Adobe Experience Manager Assets] connector for [!DNL Adobe Workfront Fusion], you can start a scenario based on events in your [!DNL Adobe Experience Manager Assets] account, create, upload, and update assets, and copy or move folders and assets.
 
 ## Access requirements
 
@@ -37,12 +37,12 @@ You must have the following access to use the functionality in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
+   <td>Your organization must purchase [!DNL Adobe Workfront Fusion] as well as [!DNL Adobe Workfront] to use functionality described in this article.</td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+&#42;To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
 
 &#42;&#42;For information on Adobe Workfront Fusion licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
@@ -51,43 +51,43 @@ You must have the following access to use the functionality in this article:
 * You must have an Adobe Experience Manager Assets account to use these modules.
 * You must set up Server-to-server flow in the Adobe Developer console.
 
-  For instructions on setting up Server-to-server flow on the Adobe Developer Console, see [Generating Access Tokens for Server Side APIs](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/generating-access-tokens-for-server-side-apis.html#the-server-to-server-flow).
+   For instructions on setting up Server-to-server flow on the Adobe Developer Console, see [Generating Access Tokens for Server Side APIs](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/generating-access-tokens-for-server-side-apis.html#the-server-to-server-flow).
 
-## Connect Adobe Experience Manager Assets to Workfront Fusion {#connect-adobe-experience-manager-assets-to-workfront-fusion}
+## Connect Adobe Experience Manager Assets to [!DNL Workfront] Fusion {#connect-adobe-experience-manager-assets-to-workfront-fusion}
 
-To create a connection for your Adobe Experience Manager Assets modules:
+To create a connection for your [!DNL Adobe Experience Manager Assets] modules:
 
-1.  Click Add next to the Connection box.
-    
-2.  Select the type of connection that you are creating:
-    
-    *   **AEM Assets as a Cloud Service**
-        
-        This configuration requires information from the Adobe Admin Console
-        
-    *   **AEM Assets Basic**
-        
-        This configuration requires a username and password.
-        
-3.  Fill in the fields for the type of connection that you are creating.
-    
-    For AEM Assets as a Cloud Service, see [Configure the connection for AEM Assets as a Cloud Service](#Configur).
-    
-    For AEM Assets Basic, see [Configure the connection for AEM Assets Basic](#Configur2).
-    
-4.  Click **Continue** to save the connection and return to the module.
-    
+1. Click Add next to the Connection box.
+
+2. Select the type of connection that you are creating:
+
+   * **AEM Assets as a Cloud Service**
+
+      This configuration requires information from the Adobe Admin Console
+
+   * **AEM Assets Basic**
+
+      This configuration requires a username and password.
+
+3. Fill in the fields for the type of connection that you are creating.
+
+   For AEM Assets as a Cloud Service, see [Configure the connection for AEM Assets as a Cloud Service](#Configur).
+
+   For AEM Assets Basic, see [Configure the connection for AEM Assets Basic](#Configur2).
+
+4. Click **[!UICONTROL Continue]** to save the connection and return to the module.
+
 
 ### Configure the connection for AEM Assets as a Cloud Service
 
 >[!NOTE]
 >
->The information for these fields is generated as part of setting up Server-to-server flow on the Adobe Developer Console. You can find these values in the service credentials JSON file generated as part of that setup.
+>The information for these fields is generated as part of setting up Server-to-server flow on the Adobe Developer Console. You can find these values in the [!UICONTROL service credentials JSON] file generated as part of that setup.
 >
 >For instructions on setting up Server-to-server flow on the Adobe Developer Console, see [Generating Access Tokens for Server Side APIs](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/generating-access-tokens-for-server-side-apis.html#the-server-to-server-flow).
 
- 
-  <table style="table-layout:auto"> 
+
+<table style="table-layout:auto"> 
           <col/>
           <col/>
           <tbody>
@@ -99,7 +99,7 @@ To create a connection for your Adobe Experience Manager Assets modules:
               </tr>
               <tr>
                   <td role="rowheader">Instance URL without a trailing slash</td>
-                  <td>Enter the URL for your Adobe Experience Manager instance. Do not include a slash <code>/</code> at the end of the URL.</td>
+                  <td>Enter the URL for your [!DNL Adobe Experience Manager] instance. Do not include a slash <code>/</code> at the end of the URL.</td>
               </tr>
               <tr>
                   <td role="rowheader">Client ID</td>
@@ -111,11 +111,11 @@ To create a connection for your Adobe Experience Manager Assets modules:
               </tr>
               <tr>
                   <td role="rowheader">Technical account ID</td>
-                  <td>Enter the ID&#160;of the technical account. This is the "id" field in the client credentials JSON file.</td>
+                  <td>Enter the ID of the technical account. This is the "id" field in the [!UICONTROL client credentials] JSON file.</td>
               </tr>
               <tr>
                   <td role="rowheader">Org ID</td>
-                  <td class=>Enter the ID&#160;of your organization. This is the "org" field in the client credentials JSON file.</td>
+                  <td class="">Enter the ID of your organization. This is the "org" field in the client credentials JSON file.</td>
               </tr>
               <tr>
                   <td role="rowheader">Meta Scopes</td>
@@ -123,7 +123,7 @@ To create a connection for your Adobe Experience Manager Assets modules:
               </tr>
               <tr>
                   <td role="rowheader">Private key</td>
-                  <td>Enter the Private Key generated win the Server-to-server setup. To extract the private key, click Extract, then enter the file to extract and the password for the file.</td>
+                  <td>Enter the Private Key generated win the Server-to-server setup. To extract the private key, click [!UICONTROL Extract], then enter the file to extract and the password for the file.</td>
               </tr>
           </tbody>
       </table>
@@ -131,7 +131,7 @@ To create a connection for your Adobe Experience Manager Assets modules:
 
 ### Configure the connection for AEM Assets Basic
 
-   <table style="table-layout:auto"> 
+<table style="table-layout:auto"> 
         <col/>
         <col />
         <tbody>
@@ -143,11 +143,11 @@ To create a connection for your Adobe Experience Manager Assets modules:
             </tr>
             <tr>
                 <td role="rowheader">Instance URL without a trailing slash</td>
-                <td>Enter the URL for your Adobe Experience Manager instance. Do not include a slash <code>/</code> at the end of the URL.</td>
+                <td>Enter the URL for your [!DNL Adobe Experience Manager] instance. Do not include a slash <code>/</code> at the end of the URL.</td>
             </tr>
             <tr>
                 <td role="rowheader">Username</td>
-                <td>Enter the username for the AEM&#160;Assets account that this connection uses.</td>
+                <td>Enter the username for the AEM Assets account that this connection uses.</td>
             </tr>
             <tr>
                 <td role="rowheader">Password</td>
@@ -159,7 +159,7 @@ To create a connection for your Adobe Experience Manager Assets modules:
 
 ## Adobe Experience Manager Assets modules and their fields
 
-When you configure Adobe Experience Manager Essentials modules, Workfront Fusion displays the fields listed below. Along with these, additional Adobe Experience Manager Essentials fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
+When you configure [!DNL Adobe Experience Manager Essentials] modules, [!DNL Workfront Fusion] displays the fields listed below. Along with these, additional [!DNL Adobe Experience Manager Essentials] fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
 
 If you see the map button above a field or function, you can use it to set variables and functions for that field. For more information, see [Map information from one module to another in Adobe Workfront Fusion](../../workfront-fusion/mapping/map-information-between-modules.md).
 
@@ -191,7 +191,7 @@ This action module copies a folder or asset to another location in your Adobe Ex
   </tr> 
   <tr> 
    <td role="rowheader">Name of copied folder / asset</td> 
-   <td>Enter a name for the new folder or asset. The folder name that displays in Adobe Experience Manager Assets is the same as the original name. The name entered here appears in the URL of the new folder or asset.</td> 
+   <td>Enter a name for the new folder or asset. The folder name that displays in [!DNL Adobe Experience Manager Assets] is the same as the original name. The name entered here appears in the URL of the new folder or asset.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Copy children</td> 
@@ -280,7 +280,7 @@ This action module retrieves a representation of an existing folder and of its c
 
 ### Make a custom API call
 
-This action module makes a custom API call to the Adobe Experience Manager Assets API.
+This action module makes a custom API call to the [!DNL Adobe Experience Manager Assets] API.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -292,7 +292,7 @@ This action module makes a custom API call to the Adobe Experience Manager Asset
   </tr> 
   <tr> 
    <td role="rowheader"> <p>URL</p> </td> 
-   <td> <p>Enter a path relative to your Adobe Experience Manager base URL.</p> </td> 
+   <td> <p>Enter a path relative to your [!DNL Adobe Experience Manager] base URL.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Method</p> </td> 
@@ -300,15 +300,15 @@ This action module makes a custom API call to the Adobe Experience Manager Asset
   </tr> 
   <tr> 
    <td role="rowheader">Headers</td> 
-   <td> <p>Add the headers of the request in the form of a standard JSON object.</p> <p>For example, <code>{"Content-type":"application/json"}</code></p> <p>Workfront Fusion adds authorization headers automatically.</p> </td> 
+   <td> <p>Add the headers of the request in the form of a standard [!DNL JSON] object.</p> <p>For example, <code>{"Content-type":"application/json"}</code></p> <p>Workfront Fusion adds authorization headers automatically.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Query String </td> 
-   <td> <p>Enter the request query string. For Each Key/Value pair, click <b>Add item</b> and enter the Key and Value.</p> </td> 
+   <td> <p>Enter the request query string. For Each Key/Value pair, click <b>[!UICONTROL Add item]</b> and enter the Key and Value.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Body</td> 
-   <td> <p>Add the body content for the API call in the form of a standard JSON object.</p> <p>Note:  <p>When using conditional statements such as <code>if</code> in your JSON, put the quotation marks outside of the conditional statement.</p> 
+   <td> <p>Add the body content for the API call in the form of a standard [!DNL JSON] object.</p> <p>Note:  <p>When using conditional statements such as <code>if</code> in your JSON, put the quotation marks outside of the conditional statement.</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td> 
@@ -342,7 +342,7 @@ This action module moves the asset or folder at the given path to a new location
   </tr> 
   <tr> 
    <td role="rowheader">Name of moved folder / asset</td> 
-   <td>Enter a new name for the moved folder or asset. The folder name that displays in Adobe Experience Manager Assets is the same as the original name. The name entered here appears in the URL of the moved folder or asset.</td> 
+   <td>Enter a new name for the moved folder or asset. The folder name that displays in [!DNL Adobe Experience Manager Assets] is the same as the original name. The name entered here appears in the URL of the moved folder or asset.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Overwrite</td> 
@@ -370,7 +370,7 @@ This action module updates an existing record.
      <li> <p>Asset metadata</p> 
       <ul> 
        <li> <p>Select the asset that you want to update metadata for.</p> </li> 
-       <li> <p>Enter the new title of the asset.</p> </li> 
+       <li> <p>Enter the new [!UICONTROL title] of the asset.</p> </li> 
       </ul> </li> 
      <li> <p>Asset rendition</p> 
       <ul> 
@@ -384,7 +384,7 @@ This action module updates an existing record.
 
 ### Upload an asset
 
-This action module uploads an asset to your Adobe Experience Manager Assets account.
+This action module uploads an asset to your [!DNL Adobe] Experience Manager Assets account.
 
 <table style="table-layout:auto"> 
  <col> 

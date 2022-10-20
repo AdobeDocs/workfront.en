@@ -15,12 +15,14 @@ The Router module allows you to branch your flow into several routes and process
 
 >[!NOTE]
 >
->* To verify the order of the routes, you can click the Auto-align icon, which will arrange the routes according to the order from top to bottom.
+>* To verify the order of the routes, you can click the [!UICONTROL Auto-align] icon, which will arrange the routes according to the order from top to bottom.
 >
 >  To change the order, just remove the Router module and re-connect the routes in the desired order.
 >
 >* Routes are processed sequentially, not in parallel. A bundle is not sent to the next route until it has been completely processed by the previous route.
 >
+
+
 
 ## Access requirements
 
@@ -44,12 +46,12 @@ You must have the following access to use the functionality in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
+   <td>Your organization must purchase [!DNL Adobe Workfront Fusion] as well as [!DNL Adobe Workfront] to use functionality described in this article.</td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+&#42;To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
 
 &#42;&#42;For information on Adobe Workfront Fusion licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
@@ -57,17 +59,17 @@ You must have the following access to use the functionality in this article:
 
 A Router can be added to a scenario in one of the following ways:
 
-* If you want to connect the Router module after a module, click on the module's right handle, start typing **router** to search for it, then choose **Flow Control** > **Router** in the list of modules that displays.
+* If you want to connect the Router module after a module, click on the module's right handle, start typing **router** to search for it, then choose **[!UICONTROL Flow Control]** > **[!UICONTROL Router]** in the list of modules that displays.
 
-  ![](assets/connect-the-router-350x108.png)
+   ![](assets/connect-the-router-350x108.png)
 
-* If you want to insert the Router module between two modules, click on the wrench icon below the route connecting the two modules (or right-click the route) and choose **Add a router** from the menu.
+* If you want to insert the Router module between two modules, click on the wrench icon below the route connecting the two modules (or right-click the route) and choose **[!UICONTROL Add a router]** from the menu.
 
-  ![](assets/insert-router-350x191.png)
+   ![](assets/insert-router-350x191.png)
 
 * You can insert a Router module automatically. For example, in the image below, to connect the module in the lower-right corner to the one in the upper-left corner (which is already connected to the one in the upper-right corner), drag the left handle of the lower-right module and drop it onto the upper-left module.
 
-  ![](assets/insert-router-automatically-350x379.png)
+   ![](assets/insert-router-automatically-350x379.png)
 
 ## Filters
 
@@ -105,6 +107,6 @@ A typical use case of the fallback route is to continue the flow with one route 
 
    ![](assets/set-up-a-filter-2-350x242.png)
 
-1. Click on the second route and enable the fallback route option:
+1. Click on the second route and enable the [!UICONTROL fallback route] option:
 
    ![](assets/enable-fallback-route-option-350x238.png)

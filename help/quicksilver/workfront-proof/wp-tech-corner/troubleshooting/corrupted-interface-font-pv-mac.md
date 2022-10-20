@@ -13,7 +13,7 @@ exl-id: 1e96720a-b967-4447-bd14-26fc6a502b25
 
 >[!IMPORTANT]
 >
->This article refers to functionality in the standalone product Workfront Proof. For information on proofing inside Adobe Workfront, see [Proofing](../../../review-and-approve-work/proofing/proofing.md).
+>This article refers to functionality in the standalone product [!DNL Workfront] Proof. For information on proofing inside [!DNL Adobe Workfront], see [Proofing](../../../review-and-approve-work/proofing/proofing.md).
 
 If you notice that the proofing viewer does not display interface font properly, this could be due to some issues with the fonts on your Mac machine. To resolve the problem, try the following solutions:
 
@@ -23,7 +23,7 @@ Check whether there are any duplicate fonts in the system.
 
 1. Close the browser you are using.
 1. Open the Font Book application in your Applications folder.
-1. Click **All Fonts** (1).
+1. Click **[!UICONTROL All Fonts]** (1).
 1. Click&nbsp;**Edit** > **Look for Enabled Duplicates**.
 
 1. Click **Yes** to resolve duplicates.
@@ -49,7 +49,7 @@ The second approach is to use the Terminal, which can be done by running the fol
 
 Another approach would be to use a font cache utility such as e.g. FontNuke and clear the cache with its&nbsp;help.
 
-Many prepress and artworking/design studios also use Universal Type Server software to manage licensing and distribution of fonts. Sometimes, a problem can occur with the&nbsp;Universal Type&nbsp;Server&nbsp;Font Cache, which can cause the Workfront Proof annotations to disappear.
+Many prepress and artworking/design studios also use Universal Type Server software to manage licensing and distribution of fonts. Sometimes, a problem can occur with the&nbsp;Universal Type&nbsp;Server&nbsp;Font Cache, which can cause the [!DNL Workfront] Proof annotations to disappear.
 
 To fix, clear the Universal Type Server Font Cache and restart Universal Type Server.
 
@@ -63,7 +63,7 @@ The Legacy proofing viewer is based on Flash Player&nbsp;and sometimes, when the
 1. Press the Option&nbsp;key (⌥ Alt) to open the Library folder in the dropdown list.
 1. While holding the Option key, click the&nbsp;Library folder.
 1. After the Library folder opens, go to Fonts folder located within.
-1. Move all the fonts located in&nbsp;the Fonts folder&nbsp;into another folder, perhaps on your Desktop (please do not&nbsp;create&nbsp;another folder inside the Fonts folder).   
+1. Move all the fonts located in&nbsp;the Fonts folder&nbsp;into another folder, perhaps on your Desktop (please do not&nbsp;create&nbsp;another folder inside the Fonts folder).
 1. &nbsp;This action hides all your custom fonts; you should still have the standard system fonts saved in their separate location.
 1. Quit and restart Safari.
 1. Reopen the&nbsp;proof.

@@ -5,14 +5,14 @@ product-area: workfront-integrations;documents
 keywords: connector
 navigation-topic: apps-and-their-modules
 title: Cvent modules
-description: In an Adobe Workfront Fusion scenario, you can automate workflows that use Cvent, as well as connect it to multiple third-party applications and services.
+description: In an [!DNL Adobe Workfront] Fusion scenario, you can automate workflows that use Cvent, as well as connect it to multiple third-party applications and services.
 author: Becky
 feature: Workfront Fusion
 exl-id: c95b9764-29a5-4d8c-8e6d-68a3969129e0
 ---
 # Cvent modules
 
-In an Adobe Workfront Fusion scenario, you can automate workflows that use Cvent, as well as connect it to multiple third-party applications and services.
+In an [!DNL Adobe Workfront] Fusion scenario, you can automate workflows that use Cvent, as well as connect it to multiple third-party applications and services.
 
 If you need instructions on creating a scenario, see [Create a scenario in Adobe Workfront Fusion](../../workfront-fusion/scenarios/create-a-scenario.md).
 
@@ -40,12 +40,12 @@ You must have the following access to use the functionality in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
+   <td>Your organization must purchase [!DNL Adobe Workfront Fusion] as well as [!DNL Adobe Workfront] to use functionality described in this article.</td> 
   </tr>
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+&#42;To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
 
 &#42;&#42;For information on Adobe Workfront Fusion licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
@@ -59,42 +59,42 @@ To use Cvent modules, you must have a Cvent account.
 >
 >The Cvent modules work through a SOAP API. To create a connection to Cvent, you must ensure the following:
 >
->* You have SOAP access to the Cvent API.
->* The Workfront Fusion IP addresses have been added to your organization's allowlist. 
+>* You have SOAP access to the [!DNL Cvent] API.
+>* The [!DNL Workfront Fusion] IP addresses have been added to your organization's allowlist.
 >
->  For a list of Workfront Fusion IP&nbsp;addresses, see [IP Addresses for accessing Adobe Workfront Fusion](../../workfront-fusion/get-started/ip-addresses-for-fusion.md)
->
+>  For a list of [!DNL Workfront] Fusion IP&nbsp;addresses, see [IP Addresses for accessing Adobe Workfront Fusion](../../workfront-fusion/get-started/ip-addresses-for-fusion.md)
+
 
 You can create a connection to your Cvent account directly from inside a Cvent module.
 
-1. In any Cvent module, click **Add** next to the Connection field.
+1. In any Cvent module, click **Add** next to the [!UICONTROL Connection] field.
 1. Select the region that you want to connect to.
 
    * North America
    * Europe
    * Sandbox
 
-1. Click **Continue** to create the connection and go back to the module.
+1. Click **[!UICONTROL Continue]** to create the connection and go back to the module.
 
 ## Cvent modules and their fields
 
-When you configure Cvent modules, Workfront Fusion displays the fields listed below. Along with these, additional Cvent fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
+When you configure Cvent modules, [!DNL Workfront Fusion] displays the fields listed below. Along with these, additional Cvent fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
 
 If you see the map button above a field or function, you can use it to set variables and functions for that field. For more information, see [Map information from one module to another in Adobe Workfront Fusion](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 ![](assets/map-toggle-350x74.png)
 
-* [Actions](#actions) 
+* [Actions](#actions)
 * [Searches](#searches)
 
 ### Actions {#actions}
 
-* [Custom API Call](#custom-api-call) 
-* [Read a record](#read-a-record) 
-* [Register Invitee](#register-invitee) 
-* [Add Invitee](#add-invitee) 
-* [Delete Contact](#delete-contact) 
-* [Update Contact](#update-contact) 
+* [Custom API Call](#custom-api-call)
+* [[!UICONTROL Read a record]](#read-a-record)
+* [Register Invitee](#register-invitee)
+* [Add Invitee](#add-invitee)
+* [Delete Contact](#delete-contact)
+* [Update Contact](#update-contact)
 * [Create meeting request](#create-meeting-request)
 
 #### Custom API&nbsp;Call {#custom-api-call}
@@ -111,7 +111,7 @@ The module returns the a status code, along with the headers and body of the API
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>Connection</p> </td> 
-   <td> <p>For instructions about connecting your Cvent account to Workfront Fusion, see <a href="#connect-cvent-to-adobe-workfront-fusion" class="MCXref xref">Connect Cvent to Adobe Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your Cvent account to Workfront Fusion, see <a href="#connect-cvent-to-adobe-workfront-fusion" class="MCXref xref">[!UICONTROL Connect] Cvent to Adobe Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Operation</td> 
@@ -134,7 +134,7 @@ This action module reads information about a specific record.
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>Connection</p> </td> 
-   <td> <p>For instructions about connecting your Cvent account to Workfront Fusion, see <a href="#connect-cvent-to-adobe-workfront-fusion" class="MCXref xref">Connect Cvent to Adobe Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your Cvent account to Workfront Fusion, see <a href="#connect-cvent-to-adobe-workfront-fusion" class="MCXref xref">[!UICONTROL Connect] Cvent to Adobe Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Record type</p> </td> 
@@ -161,11 +161,11 @@ This action module registers an invitee for an event.
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>Connection</p> </td> 
-   <td> <p>For instructions about connecting your Cvent account to Workfront Fusion, see <a href="#connect-cvent-to-adobe-workfront-fusion" class="MCXref xref">Connect Cvent to Adobe Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your Cvent account to Workfront Fusion, see <a href="#connect-cvent-to-adobe-workfront-fusion" class="MCXref xref">[!UICONTROL Connect] Cvent to Adobe Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Invitee ID</p> </td> 
-   <td> <p>Enter or map the ID&nbsp;of the invitee you want to register for an event.</p> </td> 
+   <td> <p>Enter or map the ID of the invitee you want to register for an event.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Event ID</td> 
@@ -184,11 +184,11 @@ This action module invites a contact to an event.
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>Connection</p> </td> 
-   <td> <p>For instructions about connecting your Cvent account to Workfront Fusion, see <a href="#connect-cvent-to-adobe-workfront-fusion" class="MCXref xref">Connect Cvent to Adobe Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your Cvent account to Workfront Fusion, see <a href="#connect-cvent-to-adobe-workfront-fusion" class="MCXref xref">[!UICONTROL Connect] Cvent to Adobe Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Contact ID</p> </td> 
-   <td> <p>Enter or map the ID&nbsp;of the contact you want to add to an event.</p> </td> 
+   <td> <p>Enter or map the ID of the contact you want to add to an event.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Event ID</td> 
@@ -207,7 +207,7 @@ This action module deletes a single contact in Cvent.
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>Connection</p> </td> 
-   <td> <p>For instructions about connecting your Cvent account to Workfront Fusion, see <a href="#connect-cvent-to-adobe-workfront-fusion" class="MCXref xref">Connect Cvent to Adobe Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your Cvent account to Workfront Fusion, see <a href="#connect-cvent-to-adobe-workfront-fusion" class="MCXref xref">[!UICONTROL Connect] Cvent to Adobe Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Contact ID</td> 
@@ -226,11 +226,11 @@ This action module updates an existing contact using its ID.
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>Connection</p> </td> 
-   <td> <p>For instructions about connecting your Cvent account to Workfront Fusion, see <a href="#connect-cvent-to-adobe-workfront-fusion" class="MCXref xref">Connect Cvent to Adobe Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your Cvent account to Workfront Fusion, see <a href="#connect-cvent-to-adobe-workfront-fusion" class="MCXref xref">[!UICONTROL Connect] Cvent to Adobe Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Contact ID</p> </td> 
-   <td> <p>Enter or map the ID&nbsp;of the contact you want to update.</p> </td> 
+   <td> <p>Enter or map the ID of the contact you want to update.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Fields</td> 
@@ -253,11 +253,11 @@ This action module adds a meeting request to your account.
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>Connection</p> </td> 
-   <td> <p>For instructions about connecting your Cvent account to Workfront Fusion, see <a href="#connect-cvent-to-adobe-workfront-fusion" class="MCXref xref">Connect Cvent to Adobe Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your Cvent account to Workfront Fusion, see <a href="#connect-cvent-to-adobe-workfront-fusion" class="MCXref xref">[!UICONTROL Connect] Cvent to Adobe Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Form ID</p> </td> 
-   <td> <p>Enter or map the ID&nbsp;of the Form you want to use to create the new meeting request.</p> </td> 
+   <td> <p>Enter or map the ID of the Form you want to use to create the new meeting request.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Meeting Request Fields</td> 
@@ -286,7 +286,7 @@ This search module retrieves information about all records of a specific type.
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>Connection</p> </td> 
-   <td> <p>For instructions about connecting your Cvent account to Workfront Fusion, see <a href="#connect-cvent-to-adobe-workfront-fusion" class="MCXref xref">Connect Cvent to Adobe Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your Cvent account to Workfront Fusion, see <a href="#connect-cvent-to-adobe-workfront-fusion" class="MCXref xref">[!UICONTROL Connect] Cvent to Adobe Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Record type</p> </td> 
@@ -299,7 +299,7 @@ This search module retrieves information about all records of a specific type.
   </tr> 
   <tr> 
    <td role="rowheader">Event ID</td> 
-   <td> <p>If you are listing invitees or sessions, enter or map the ID&nbsp;of the even that those invitees or sessions are associated with.</p> </td> 
+   <td> <p>If you are listing invitees or sessions, enter or map the ID of the even that those invitees or sessions are associated with.</p> </td> 
   </tr> 
  </tbody> 
 </table>

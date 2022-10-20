@@ -2,19 +2,19 @@
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
-title: View and resolve incomplete executions in Adobe Workfront Fusion
-description: The Incomplete executions folder stores scenario executions that were not successfully finalized due to an error. Each stored incomplete execution can be resolved either manually or automatically.
+title: View and resolve incomplete executions in [!DNL Adobe Workfront] Fusion
+description: The [!UICONTROL Incomplete executions] folder stores scenario executions that were not successfully finalized due to an error. Each stored incomplete execution can be resolved either manually or automatically.
 author: Becky
 feature: Workfront Fusion
 exl-id: 60fcda91-b725-4ada-a42c-5c05720d68c2
 ---
-# View and resolve incomplete executions in Adobe Workfront Fusion
+# View and resolve incomplete executions in [!DNL Adobe Workfront] Fusion
 
-The Incomplete executions folder stores scenario executions that were not successfully finalized due to an error. Each stored incomplete execution can be resolved either manually or automatically.
+The [!UICONTROL Incomplete executions] folder stores scenario executions that were not successfully finalized due to an error. Each stored incomplete execution can be resolved either manually or automatically.
 
 >[!NOTE]
 >
->By default the storing of incomplete executions is disabled. To enable it, enable the Allow storing incomplete executions option in the scenario advanced settings.
+>By default the storing of incomplete executions is disabled. To enable it, enable the [!UICONTROL Allow storing incomplete executions] option in the scenario advanced settings.
 >
 >For more information about scenario settings, see [The scenario settings panel in Adobe Workfront Fusion](../../workfront-fusion/scenarios/scenario-settings-panel.md).
 
@@ -40,18 +40,18 @@ You must have the following access to use the functionality in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
+   <td>Your organization must purchase [!DNL Adobe Workfront Fusion] as well as [!DNL Adobe Workfront] to use functionality described in this article.</td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+&#42;To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
 
 &#42;&#42;For information on Adobe Workfront Fusion licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
 ## View incomplete executions
 
-If a module encounters an error during its operation, a new incomplete execution is added to the Incomplete executions folder. Each incomplete execution contains the scenario's blueprint and all the bundles that can be mapped into the failed module. The list of incomplete executions can be opened by clicking on the Incomplete Executions tab on the scenario detail page:
+If a module encounters an error during its operation, a new incomplete execution is added to the Incomplete executions folder. Each incomplete execution contains the scenario's blueprint and all the bundles that can be mapped into the failed module. The list of incomplete executions can be opened by clicking on the [!UICONTROL Incomplete Executions] tab on the scenario detail page:
 
 ![](assets/incomplete-executions-tab-350x102.png)
 
@@ -59,7 +59,7 @@ For more information, see [Errors resulting into incomplete executions](#errors-
 
 >[!NOTE]
 >
->The current size limit of the unresolved incomplete executions folder per organization is 500 MB. If your organization exceeds this limit, you may see the following error: 
+>The current size limit of the unresolved incomplete executions folder per organization is 500 MB. If your organization exceeds this limit, you may see the following error:
 >
 >`"There is NOT ENOUGH SPACE to add a bundle to the IEQ. The reason is: Too many incomplete executions."`
 >
@@ -69,11 +69,11 @@ For more information, see [Errors resulting into incomplete executions](#errors-
 
 When a new incomplete execution is stored, you can resolve it as follows:
 
-1. Click the **Incomplete Executions** tab.
+1. Click the **[!UICONTROL Incomplete Executions]** tab.
 1. Locate the incomplete execution you would like to resolve and click **Detail**.
 
 
-   If you want to see the log of all module's operations before you attempt to resolve the incomplete execution, you can resolve the incomplete execution from the History folder:
+   If you want to see the log of all module's operations before you attempt to resolve the incomplete execution, you can resolve the incomplete execution from the [!UICONTROL History] folder:
 
 1. Click the **History** tab.
 1. Locate the scenario's failed execution log and click **Details**.

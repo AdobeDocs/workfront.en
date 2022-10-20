@@ -5,14 +5,14 @@ product-area: workfront-integrations;documents
 keywords: connector
 navigation-topic: apps-and-their-modules
 title: Datadog modules
-description: In an Adobe Workfront Fusion scenario, you can automate workflows that use Datadog, as well as connect it to multiple third-party applications and services.
+description: In an [!DNL Adobe Workfront] Fusion scenario, you can automate workflows that use Datadog, as well as connect it to multiple third-party applications and services.
 author: Becky
 feature: Workfront Fusion
 exl-id: a0b4352d-a1ce-4459-a58e-71de860b8a90
 ---
 # Datadog modules
 
-In an Adobe Workfront Fusion scenario, you can automate workflows that use Datadog, as well as connect it to multiple third-party applications and services.
+In an [!DNL Adobe Workfront] Fusion scenario, you can automate workflows that use Datadog, as well as connect it to multiple third-party applications and services.
 
 If you need instructions on creating a scenario, see [Create a scenario in Adobe Workfront Fusion](../../workfront-fusion/scenarios/create-a-scenario.md).
 
@@ -40,12 +40,12 @@ You must have the following access to use the functionality in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
+   <td>Your organization must purchase [!DNL Adobe Workfront Fusion] as well as [!DNL Adobe Workfront] to use functionality described in this article.</td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+&#42;To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
 
 &#42;&#42;For information on Adobe Workfront Fusion licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
@@ -53,35 +53,35 @@ You must have the following access to use the functionality in this article:
 
 To use Datadog modules, you must have a Datadog account.
 
-## Connect Datadog to Workfront Fusion {#connect-datadog-to-workfront-fusion}
+## Connect [!DNL Datadog] to [!DNL Workfront] Fusion {#connect-datadog-to-workfront-fusion}
 
 ### Retrieve your API key and application key {#retrieve-your-api-key-and-application-key}
 
-To connect your Datadog account to Workfront Fusion you need to retrieve an API Key and an application key from your Datadog account.
+To connect your [!DNL Datadog] account to [!DNL Workfront Fusion] you need to retrieve an API Key and an application key from your [!DNL Datadog] account.
 
 1. Log in to your Datadog account.
 1. In the left navigation panel, click **Integrations**, then click **APIs**.
-1. On the main screen, click **API Keys**. 
+1. On the main screen, click **API Keys**.
 1. Hover over the purple bar to reveal the API key.
 1. Copy the API key to a secure location.
-1. On the main screen, click **Application Keys**. 
+1. On the main screen, click **Application Keys**.
 1. Hover over the purple bar to reveal the application key.
 1. Copy the application key to a secure location.
 
-### Create a connection to Datadog in Workfront Fusion
+### Create a connection to [!DNL Datadog] in Workfront Fusion
 
-You can create a connection to your Datadog account directly from inside a Datadog module.
+You can create a connection to your [!DNL Datadog] account directly from inside a Datadog module.
 
-1. In any Datadog module, click **Add** next to the Connection field.
+1. In any Datadog module, click **Add** next to the [!UICONTROL Connection] field.
 1. Fill the module's fields as follows:
 
-  <table style="table-layout:auto">
+<table style="table-layout:auto">
     <col> 
     <col> 
     <tbody> 
      <tr> 
       <td role="rowheader">Connection Type</td> 
-      <td> <p> Select the Datadog Application option to get full access to Datadog API.</p> </td> 
+      <td> <p> Select the [!DNL Datadog] Application option to get full access to Datadog API.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Connection Name</td> 
@@ -102,11 +102,11 @@ You can create a connection to your Datadog account directly from inside a Datad
     </tbody> 
    </table>
 
-1. Click **Continue** to create the connection and go back to the module.
+1. Click **[!UICONTROL Continue]** to create the connection and go back to the module.
 
 ## Datadog modules and their fields
 
-When you configure Datadog modules, Workfront Fusion displays the fields listed below. Along with these, additional Datadog fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
+When you configure Datadog modules, [!DNL Workfront Fusion] displays the fields listed below. Along with these, additional Datadog fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
 
 If you see the map button above a field or function, you can use it to set variables and functions for that field. For more information, see [Map information from one module to another in Adobe Workfront Fusion](../../workfront-fusion/mapping/map-information-between-modules.md).
 
@@ -114,7 +114,7 @@ If you see the map button above a field or function, you can use it to set varia
 
 ### Actions
 
-* [Post Timeseries Points](#post-timeseries-points) 
+* [Post Timeseries Points](#post-timeseries-points)
 * [Make an API Call](#make-an-api-call)
 
 #### Post Timeseries Points {#post-timeseries-points}
@@ -129,7 +129,7 @@ The limit for compressed payloads is 3.2 megabytes (3200000), and 62 megabytes (
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your Datadog account to Workfront Fusion, see <a href="#connect-datadog-to-workfront-fusion" class="MCXref xref">Connect Datadog to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your Datadog account to Workfront Fusion, see <a href="#connect-datadog-to-workfront-fusion" class="MCXref xref">[!UICONTROL Connect Datadog] to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Series</td> 
@@ -155,7 +155,7 @@ This action module allows you to perform a custom API call.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your Datadog account to Workfront Fusion, see <a href="#connect-datadog-to-workfront-fusion" class="MCXref xref">Connect Datadog to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your Datadog account to Workfront Fusion, see <a href="#connect-datadog-to-workfront-fusion" class="MCXref xref">[!UICONTROL Connect Datadog] to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">URL</td> 
@@ -167,7 +167,7 @@ This action module allows you to perform a custom API call.
   </tr> 
   <tr> 
    <td role="rowheader">Headers</td> 
-   <td> <p>Add the headers of the request in the form of a standard JSON object.</p> <p>For example, <code>{"Content-type":"application/json"}</code></p> <p>Workfront Fusion adds the authorization headers for you.</p> </td> 
+   <td> <p>Add the headers of the request in the form of a standard [!DNL JSON] object.</p> <p>For example, <code>{"Content-type":"application/json"}</code></p> <p>Workfront Fusion adds the authorization headers for you.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Query String</td> 
@@ -175,7 +175,7 @@ This action module allows you to perform a custom API call.
   </tr> 
   <tr> 
    <td role="rowheader">Body</td> 
-   <td> <p>Add the body content for the API call in the form of a standard JSON object.</p> <p>Note:  <p>When using conditional statements such as <code>if</code> in your JSON, put the quotation marks outside of the conditional statement.</p> 
+   <td> <p>Add the body content for the API call in the form of a standard [!DNL JSON] object.</p> <p>Note:  <p>When using conditional statements such as <code>if</code> in your JSON, put the quotation marks outside of the conditional statement.</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td> 
@@ -183,7 +183,7 @@ This action module allows you to perform a custom API call.
  </tbody> 
 </table>
 
-**Example:** The following API call returns the all dashboards in your Datadog account:
+**Example:** The following API call returns the all dashboards in your [!DNL Datadog] account:
 
 URL: `/v1/dashboard`
 

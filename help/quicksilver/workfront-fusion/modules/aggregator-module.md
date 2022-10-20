@@ -37,23 +37,23 @@ You must have the following access to use the functionality in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
+   <td>Your organization must purchase [!DNL Adobe Workfront Fusion] as well as [!DNL Adobe Workfront] to use functionality described in this article.</td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+&#42;To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
 
 &#42;&#42;For information on Adobe Workfront Fusion licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
 ## Aggregator module
 
-When an aggregator module executes, it does the following:
+When an [!DNL aggregator] module executes, it does the following:
 
 * Accumulates all the bundles it receives during a single source module's operation.
 * Outputs a single bundle with an array containing one item per each accumulated bundle. The content of the array's items depends on particular aggregator module and its setup.
 
-The following image shows a typical setup of the aggregator module :
+The following image shows a typical setup of the [!DNL aggregator] module :
 
 ![](assets/array-aggregator-350x190.png)
 
@@ -68,7 +68,7 @@ The following image shows a typical setup of the aggregator module :
   </tr> 
   <tr> 
    <td> <p>Target structure type</p> </td> 
-   <td> <p>(Applicable only for the Array aggregator module.) The target structure into which the data shall be aggregated. The default option, Custom, enables you to choose items that should be aggregated into the Array aggregator's output bundle's <code>Array </code>item:</p> <p> <img src="assets/output-bundle's-array-item-350x213.png" style="width: 350;height: 213;"> </p> <p>Once you connect more modules after the Array aggregator module and get back to the module's setup, the Target structure type dropdown will contain all following modules and their fields that are of type Array of Collections, as shown in the Attachments field of the Slack &gt; Create a Message module:</p> <p> <img src="assets/array-aggregator-slack-350x253.png" style="width: 350;height: 253;"> </p> </td> 
+   <td> <p>(Applicable only for the Array aggregator module.) The target structure into which the data shall be aggregated. The default option, [!UICONTROL Custom], enables you to choose items that should be aggregated into the Array aggregator's output bundle's <code>Array </code>item:</p> <p> <img src="assets/output-bundle's-array-item-350x213.png" style="width: 350;height: 213;"> </p> <p>Once you connect more modules after the Array aggregator module and get back to the module's setup, the [!UICONTROL Target] structure type dropdown will contain all following modules and their fields that are of type Array of Collections, as shown in the [!UICONTROL Attachments] field of the [!UICONTROL Slack] >[!UICONTROL Create a] Message module:</p> <p> <img src="assets/array-aggregator-slack-350x253.png" style="width: 350;height: 253;"> </p> </td> 
   </tr> 
   <tr> 
    <td>Aggregated fields</td> 
@@ -76,35 +76,35 @@ The following image shows a typical setup of the aggregator module :
   </tr> 
   <tr> 
    <td> <p>Group by</p> </td> 
-   <td> <p>The aggregator's output can be split into several groups with the help of the Group by field. The Group by field can contain a formula that is evaluated for each aggregator's input bundle. The aggregator then outputs one bundle per each distinct formula's value. Each bundle contains two items:</p> 
+   <td> <p>The aggregator's output can be split into several groups with the help of the [!UICONTROL Group by] field. The Group by field can contain a formula that is evaluated for each aggregator's input bundle. The aggregator then outputs one bundle per each distinct formula's value. Each bundle contains two items:</p> 
     <ul> 
      <li><code>Key </code>contains the distinct value.</li> 
-     <li><code>Array </code>contains the aggregated data from the bundles for which the formula evaluated to the <code>Key </code>value.</li> 
+     <li><code>[!UICONTROL Array] </code>contains the aggregated data from the bundles for which the formula evaluated to the <code>Key </code>value.</li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td> <p>Stop processing after an empty aggregation</p> </td> 
-   <td> <p>By default, the aggregator module outputs the result of the aggregation even in case no bundles reached the aggregator module (for example, because they have been all filtered out on their way). If the option Stop processing after an empty aggregation is enabled, the aggregator module will not produce any output bundle in this case and the flow will stop.</p> </td> 
+   <td> <p>By default, the aggregator module outputs the result of the aggregation even in case no bundles reached the aggregator module (for example, because they have been all filtered out on their way). If the option [!UICONTROL Stop processing after an empty aggregation] is enabled, the aggregator module will not produce any output bundle in this case and the flow will stop.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Bundles generated by modules between the source module and the aggregator module are not outputted by the aggregator module, so they are not accessible by the modules in the flow after the aggregator. If you need any data from a bundle outputted by a module between the source module and the aggregator module, make sure to include the given item in the aggregator module's setup (as in the Aggregated fields field in the setup of the Array aggregator module).
+>Bundles generated by modules between the source module and the aggregator module are not outputted by the aggregator module, so they are not accessible by the modules in the flow after the aggregator. If you need any data from a bundle outputted by a module between the source module and the aggregator module, make sure to include the given item in the aggregator module's setup (as in the [!UICONTROL Aggregated fields] field in the setup of the Array aggregator module).
 
 
 >[!INFO]
 >
->**Example:** Use Case: Zipping all email attachments and uploading the ZIP to Dropbox
+>**Example:** Use Case: Zipping all email attachments and uploading the [!UICONTROL ZIP to Dropbox]
 >
 >The scenario below shows how to:
 >
->* Watch a mailbox for incoming emails: Email > Watch emails trigger will output a bundle with item `Attachments[]`, which is an array containing all the email's attachments.
+>* Watch a mailbox for incoming emails: [!UICONTROL Email] >[!UICONTROL Watch emails] trigger will output a bundle with item `Attachments[]`, which is an array containing all the email's attachments.
 >
->* Iterate the email's attachments: Email > Iterate attachments iterator takes the items from the `Attachments[]` array one by one and sends them further as separate bundles.
+>* Iterate the email's attachments: [!UICONTROL Email] >[!UICONTROL Iterate attachments] iterator takes the items from the `Attachments[]` array one by one and sends them further as separate bundles.
 >
->* Aggregate the bundles outputted by the Email > Iterate attachments module: Archive > Create an archive aggregator accumulates all the bundles it receives and outputs a single bundle containing the ZIP file.
+>* Aggregate the bundles outputted by the [!UICONTROL Email] >[!UICONTROL Iterate attachments] module: [!UICONTROL Archive] >[!UICONTROL Create an archive aggregator] accumulates all the bundles it receives and outputs a single bundle containing the ZIP file.
 >
 >* Upload the resulting ZIP file to Dropbox: Dropbox > Upload a file obtains the ZIP file from the Archive > Create an archive module and uploads it to Dropbox.
 >

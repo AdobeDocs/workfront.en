@@ -5,18 +5,18 @@ product-area: workfront-integrations;agile-and-teams;user-management
 keywords: connector
 navigation-topic: apps-and-their-modules
 title: Google Team Drive modules
-description: The Adobe Workfront Fusion Google Team Drive modules enable you to monitor, upload, update, copy, delete, or retrieve files and create folders in your Google Shared Drive.
+description: The [!DNL Adobe Workfront Fusion Google Team Drive] modules enable you to monitor, upload, update, copy, delete, or retrieve files and create folders in your [!DNL Google Shared] Drive.
 author: Becky
 feature: Workfront Fusion
 exl-id: 8b4c057f-bb98-44d1-9b71-cbeaa402a1c3
 ---
 # Google Team Drive modules
 
-The Adobe Workfront Fusion Google Team Drive modules enable you to monitor, upload, update, copy, delete, or retrieve files and create folders in your Google Shared Drive.
+The [!DNL Adobe Workfront Fusion Google Team Drive] modules enable you to monitor, upload, update, copy, delete, or retrieve files and create folders in your [!DNL Google Shared] Drive.
 
-In order to use Google Team Drive with Adobe Workfront Fusion, it is necessary to have a G Suite account. If you do not have one, you can create a G Suite account at the [G Suite sign up site](https://gsuite.google.com/signup/businessstarter/welcome).
+In order to use [!DNL Google Team Drive] with [!DNL Adobe Workfront Fusion], it is necessary to have a G Suite account. If you do not have one, you can create a G Suite account at the [G Suite sign up site](https://gsuite.google.com/signup/businessstarter/welcome).
 
-In an Adobe Workfront Fusion scenario, you can automate workflows that use Google Team Drive, as well as connect it to multiple third-party applications and services.
+In an [!DNL Adobe Workfront] Fusion scenario, you can automate workflows that use [!DNL Google Team Drive], as well as connect it to multiple third-party applications and services.
 
 If you need instructions on creating a scenario, see [Create a scenario in Adobe Workfront Fusion](../../workfront-fusion/scenarios/create-a-scenario.md).
 
@@ -44,18 +44,18 @@ You must have the following access to use the functionality in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
+   <td>Your organization must purchase [!DNL Adobe Workfront Fusion] as well as [!DNL Adobe Workfront] to use functionality described in this article.</td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+&#42;To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
 
 &#42;&#42;For information on Adobe Workfront Fusion licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
 ## Prerequisites
 
-To use Google Team Drive modules, you must have a Google Team Drive.
+To use [!DNL Google] Team Drive modules, you must have a Google Team Drive.
 
 ## Google Team Drive modules and their fields
 
@@ -63,7 +63,7 @@ To use Google Team Drive modules, you must have a Google Team Drive.
 >
 >The module dialog fields that are displayed in **bold** (in the Workfront Fusion scenario, **not** in this documentation article) are mandatory.
 
-When you configure Google Team Drive modules, Workfront Fusion displays the fields listed below. Along with these, additional Google Team Drive fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
+When you configure [!DNL Google Team Drive] modules, [!DNL Workfront Fusion] displays the fields listed below. Along with these, additional [!DNL Google Team Drive] fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
 
 If you see the map button above a field or function, you can use it to set variables and functions for that field. For more information, see [Map information from one module to another in Adobe Workfront Fusion](../../workfront-fusion/mapping/map-information-between-modules.md).
 
@@ -97,7 +97,7 @@ Returns file details when a new file is added and/or modified in the specified f
   </tr> 
   <tr> 
    <td>Convert Google Documents files to format </td> 
-   <td> <p>Select the format you want the watched Google Documents files converted to.</p> </td> 
+   <td> <p>Select the format you want the watched [!DNL Google] Documents files converted to.</p> </td> 
   </tr> 
   <tr> 
    <td>Convert Google Sheets files to format </td> 
@@ -117,20 +117,20 @@ Returns file details when a new file is added and/or modified in the specified f
   </tr> 
   <tr> 
    <td>Maximum number of downloaded files</td> 
-   <td> <p> Set the maximum number of files Workfront Fusion will return during one execution cycle.</p> </td> 
+   <td> <p> Set the maximum number of files [!DNL Workfront Fusion] will return during one execution cycle.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ### Actions
 
-* [Upload a File](#upload-a-file) 
-* [Update a File](#update-a-file) 
-* [Copy a File](#copy-a-file) 
-* [Delete a File](#delete-a-file) 
-* [Move a File to Trash](#move-a-file-to-trash) 
-* [Get a File](#get-a-file) 
-* [Get a File List](#get-a-file-list) 
+* [[!UICONTROL Upload] a File](#upload-a-file)
+* [Update a File](#update-a-file)
+* [Copy a File](#copy-a-file)
+* [Delete a File](#delete-a-file)
+* [[!UICONTROL Move a File to Trash]](#move-a-file-to-trash)
+* [Get a File](#get-a-file)
+* [Get a File List](#get-a-file-list)
 * [Create a Folder](#create-a-folder)
 
 #### Upload a File {#upload-a-file}
@@ -155,7 +155,7 @@ Uploads a file to the specified shared drive.
   </tr> 
   <tr> 
    <td> <p>Source File</p> </td> 
-   <td> <p>Specify the file you want to upload to the shared drive.</p> <p>Map the file you want to upload from the previous module (e.g. HTTP &gt; Get a File or Dropbox &gt; Get a file), or enter the file name and file data manually.</p> </td> 
+   <td> <p>Specify the file you want to upload to the shared drive.</p> <p>Map the file you want to upload from the previous module (e.g. [!UICONTROL HTTP] >[!UICONTROL Get a File] or [!UICONTROL Dropbox] >[!UICONTROL Get a file)], or enter the file name and file data manually.</p> </td> 
   </tr> 
   <tr> 
    <td>Title</td> 
@@ -290,7 +290,7 @@ Retrieves details about the specified file.
   </tr> 
   <tr> 
    <td>Convert Google Documents files to format </td> 
-   <td> <p>Select the format you want the watched Google Documents files converted to.</p> </td> 
+   <td> <p>Select the format you want the watched [!DNL Google] Documents files converted to.</p> </td> 
   </tr> 
   <tr> 
    <td>Convert Google Sheets files to format </td> 
@@ -339,7 +339,7 @@ Retrieves files and/or folders details based on the search term.
    <td> <p>Query</p> </td> 
    <td> 
     <ul> 
-     <li style="font-weight: bold;"> <p>Search within file names</p> <p style="font-weight: normal;">Enter the file name (including the file extension) when the Search for exact term Search option is selected or enter the part of the name when the Search for names containing the searched term option is selected.</p> </li> 
+     <li style="font-weight: bold;"> <p>Search within file names</p> <p style="font-weight: normal;">Enter the file name (including the file extension) when the [!UICONTROL Search for exact term Search] option is selected or enter the part of the name when the [!UICONTROL Search for names containing the searched term] option is selected.</p> </li> 
      <li> <p style="font-weight: bold;">Fulltext search</p> <p>Enter the search term to search through the file names, descriptions and contents.</p> </li> 
      <li> <p style="font-weight: bold;">Custom search query</p> <p>Enter the Google search query term. For more details please refer to Google's <a href="https://developers.google.com/drive/api/v2/ref-search-terms">Search Query Documentation</a>. Example: <code>fullText contains '"Hello world"'</code></p> </li> 
     </ul> </td> 
@@ -350,7 +350,7 @@ Retrieves files and/or folders details based on the search term.
   </tr> 
   <tr> 
    <td>Maximum number of returned results</td> 
-   <td> <p> Set the maximum number of files or folders Workfront Fusion will return during one execution cycle.</p> </td> 
+   <td> <p> Set the maximum number of files or folders [!DNL Workfront Fusion] will return during one execution cycle.</p> </td> 
   </tr> 
  </tbody> 
 </table>

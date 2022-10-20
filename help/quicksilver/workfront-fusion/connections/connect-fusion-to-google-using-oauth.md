@@ -2,13 +2,13 @@
 product-previous: workfront-fusion
 product-area: workfront-integrations;setup
 navigation-topic: connections-annd-webhooks
-title: Connect Adobe Workfront Fusion to Google Services using a custom OAuth client
-description: You can use Adobe Workfront Fusion to connect to Google Services using a custom OAuth client. This procedure requires an existing Google account.
+title: Connect [!DNL Adobe Workfront Fusion] to [!DNL Google Services] using a custom OAuth client
+description: You can use [!DNL Adobe Workfront Fusion] to connect to [!DNL Google Services] using a custom OAuth client. This procedure requires an existing [!DNL Google] account.
 author: Becky
 feature: Workfront Fusion
 exl-id: 5efc0001-a8cd-4ffc-b074-3536f095727b
 ---
-# Connect Adobe Workfront Fusion to Google Services using a custom OAuth client
+# Connect [!DNL Adobe Workfront Fusion] to [!DNL Google Services] using a custom OAuth client
 
 ## Access requirements
 
@@ -32,12 +32,12 @@ You must have the following access to use the functionality in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
+   <td>Your organization must purchase [!DNL Adobe Workfront Fusion] as well as [!DNL Adobe Workfront] to use functionality described in this article.</td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+&#42;To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
 
 &#42;&#42;For information on Adobe Workfront Fusion licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
@@ -55,26 +55,26 @@ The following procedure is intended for:
 To create a project on Google Cloud Platform:
 
 1. Sign in to [Google Cloud Platform](https://console.developers.google.com/projectselector2/apis/dashboard?supportedpurview=project) using your Google credentials.
-1. In the left panel, click **Dashboard**. 
-1. Click **Create project** in the upper-right corner of the screen.
+1. In the left panel, click **Dashboard**.
+1. Click **[!UICONTROL Create project]** in the upper-right corner of the screen.
 1. Enter the **Project name**, then click **Create**.
 
-1. Click the **Enable APIs and services** tab near the top of the screen.
-1. In the **Search for APIs and Services** field at the top of the screen, type the name of the service you want to use (such as Gmail API or Google Drive API).
+1. Click the **[!UICONTROL Enable APIs and services]** tab near the top of the screen.
+1. In the **[!UICONTROL Search for APIs and Services]** field at the top of the screen, type the name of the service you want to use (such as Gmail API or Google Drive API).
 1. When it displays, click the API or service you want to connect to Workfront Fusion.
-1. Click **Enable** to enable the selected API.
+1. Click **[!UICONTROL Enable]** to enable the selected API.
 1. Repeat steps 6-8 for each API you want to enable.
 
    >[!NOTE]
    >
-   >You must enable Google Drive API as well as the API of all Google apps you want to use (such as Google Sheets API).
+   >You must enable [!DNL Google Drive] API as well as the API of all [!DNL Google] apps you want to use (such as [!DNL Google Sheets] API).
 
-1. On the screen that appears, click **Create credentials** in the upper-right corner.
-1. Continue to the section [Configure OAuth consent settings](#configure-oauth-consent-settings) in this article.
+1. On the screen that appears, click **[!UICONTROL Create credentials]** in the upper-right corner.
+1. Continue to the section [[!UICONTROL Configure OAuth consent settings]](#configure-oauth-consent-settings) in this article.
 
-## Configure OAuth consent settings {#configure-oauth-consent-settings}
+## Configure [!UICONTROL OAuth consent] settings {#configure-oauth-consent-settings}
 
-1. In the left panel, click **OAuth consent screen**. 
+1. In the left panel, click **OAuth consent screen**.
 1. Select **External**, then click **Create**.
 
    >[!NOTE]
@@ -89,7 +89,7 @@ To create a project on Google Cloud Platform:
     <tbody> 
      <tr> 
       <td role="rowheader"> <p>App name</p> </td> 
-      <td> <p>Enter the name of the app asking for consent.</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Example: </b></span></span>Adobe Workfront Fusion </p> </td> 
+      <td> <p>Enter the name of the app asking for consent.</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Example: </b></span></span>[!DNL Adobe Workfront] Fusion </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">User support email</td> 
@@ -129,7 +129,7 @@ To create a project on Google Cloud Platform:
     </tbody> 
    </table>
 
-   You may need to expand the list or go to the next page of the list to see them all.
+You may need to expand the list or go to the next page of the list to see them all.
 
 1. Click **Update**.
 1. Click **Save and continue**.
@@ -151,7 +151,7 @@ To create a project on Google Cloud Platform:
    >
    >If this is not the first API or service (Gmail or Google Drive) you have enabled, you don't have to create new credentials.
 
-1. Click **Create credentials** near the top of the screen, then select **OAuth client ID** from the drop-down menu.
+1. Click **[!UICONTROL Create credentials]** near the top of the screen, then select **[!UICONTROL OAuth client ID]** from the drop-down menu.
 
 1. Fill the required fields as follows:
 
@@ -170,7 +170,7 @@ To create a project on Google Cloud Platform:
     </tbody> 
    </table>
 
-1. Under Authorized redirect URIs, click **Add URI** and enter **one** of the following:
+1. Under [!UICONTROL Authorized redirect URIs], click **[!UICONTROL Add URI]** and enter **one** of the following:
 
    * For Gmail or Google Drive: `https://app.workfrontfusion.com/oauth/cb/google-restricted`
 
@@ -180,33 +180,33 @@ To create a project on Google Cloud Platform:
 
    The Client ID and Client Secret display.
 
-1. Copy the Client ID and Client Secret to a secure location. You will use them to make a connection in Workfront Fusion.
+1. Copy the [!UICONTROL Client ID] and [!UICONTROL Client Secret] to a secure location. You will use them to make a connection in Workfront Fusion.
 1. Continue to [Connect to Google in Workfront Fusion](#connect-to-google-in-workfront-fusion).
 
 ## Connect to Google in Workfront Fusion {#connect-to-google-in-workfront-fusion}
 
-The process of creating a connection to Google differs depending on whether you are using a module from a Google service(such as Google Sheets or Google Docs), or if you are connecting to Google via the HTTP > Make an OAuth2.0 request module.
+The process of creating a connection to [!DNL Google] differs depending on whether you are using a module from a [!DNL Google] service(such as Google Sheets or Google Docs), or if you are connecting to Google via the [!UICONTROL HTTP] >[!UICONTROL Make an OAuth2.0] request module.
 
-* [Connect to Google in a Google service module](#connect-to-google-in-a-google-service-module) 
+* [Connect to Google in a Google service module](#connect-to-google-in-a-google-service-module)
 * [Connect to Google in the HTTP > Make an OAuth2.0 request module](#connect-to-google-in-the-http-make-an-oauth2-0-request-module)
 
 ### Connect to Google in a Google service module {#connect-to-google-in-a-google-service-module}
 
-1. In Workfront Fusion, locate the Google module that you need to create a connection for.
+1. In [!DNL Workfront Fusion], locate the [!DNL Google] module that you need to create a connection for.
 1. Click **Create a connection**, then click **Show advanced settings**.
 
-1. Enter the Client ID and Client Secret you retrieved in [Create OAuth Credentials](#create-oauth-credentials) in the respective fields, then click **Continue**.
+1. Enter the Client ID and Client Secret you retrieved in [[!UICONTROL Create OAuth Credentials]](#create-oauth-credentials) in the respective fields, then click **[!UICONTROL Continue]**.
 
 1. Sign in with your Google account.
 
    The **This app isn't verified** window displays. Note that the “app” mentioned in the window title is the OAuth client that you created above.
 
-1. Click **Advanced**, then click **Go to Workfront Fusion (unsafe)** to allow access using your custom OAuth client.
+1. Click **[!UICONTROL Advanced]**, then click **[!UICONTROL Go to Workfront Fusion (unsafe)]** to allow access using your custom OAuth client.
 
-1. Click **Allow** to grant Workfront Fusion permission.
+1. Click **[!UICONTROL Allow]** to grant [!DNL Workfront Fusion] permission.
 1. In the window that appears, click **Allow** again to confirm your choices.
 
-   The connection to the desired Google service using a custom OAuth client is established.
+   The connection to the desired [!DNL Google] service using a custom OAuth client is established.
 
 ### Connect to Google in the HTTP > Make an OAuth2.0 request module {#connect-to-google-in-the-http-make-an-oauth2-0-request-module}
 
@@ -214,4 +214,4 @@ For instructions on connecting to Google in the HTTP > Make an OAuth2.0 request 
 
 ## Possible error message:[403] Access Not Configured
 
-If the [403] Access Not Configured error message displays, you you need to enable the corresponding API in your Google Cloud Platform. To enable the API, follow the steps in the section [Create a project on Google Cloud Platform](#create-a-project-on-google-cloud-platform) in this article.
+If the [403] Access Not Configured error message displays, you you need to enable the corresponding API in your Google Cloud Platform. To enable the API, follow the steps in the section [[!UICONTROL Create a project on] Google Cloud Platform](#create-a-project-on-google-cloud-platform) in this article.

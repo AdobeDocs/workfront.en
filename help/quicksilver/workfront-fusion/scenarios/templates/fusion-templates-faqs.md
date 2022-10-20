@@ -3,7 +3,7 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
 title: Adobe Workfront Fusion templates FAQs
-description: This article addresses common questions about Adobe Workfront Fusion scenario templates.
+description: This article addresses common questions about [!DNL Adobe Workfront Fusion scenario] templates.
 author: Becky
 feature: Workfront Fusion
 exl-id: 3cd7cbc0-ddc5-4437-8672-3c9bea609c9b
@@ -32,12 +32,12 @@ You must have the following access to use the functionality in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
+   <td>Your organization must purchase [!DNL Adobe Workfront Fusion] as well as [!DNL Adobe Workfront] to use functionality described in this article.</td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+&#42;To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
 
 &#42;&#42;For information on Adobe Workfront Fusion licenses, see [Adobe Workfront Fusion licenses](../../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
@@ -53,7 +53,7 @@ For more information, see [Publish and share Adobe Workfront Fusion templates](.
 
 **Answer**:
 
-See [View, edit, and delete Adobe Workfront Fusion templates](../../../workfront-fusion/scenarios/templates/view-edit-and-delete-fusion-templates.md).
+See [View, edit, and delete [!DNL Adobe Workfront] Fusion templates](../../../workfront-fusion/scenarios/templates/view-edit-and-delete-fusion-templates.md).
 
 ## I cannot find a public template that I originally created. What can I do?
 

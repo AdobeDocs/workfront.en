@@ -5,16 +5,16 @@ product-area: workfront-integrations;documents
 keywords: connector
 navigation-topic: apps-and-their-modules
 title: Google Drive modules
-description: The Adobe Workfront Fusion Google Drive modules enable you to monitor, search, create, update, delete, and manage your files, folder, or shared drives in your Google Drive.
+description: The [!DNL Adobe Workfront Fusion Google Drive] modules enable you to monitor, search, create, update, delete, and manage your files, folder, or shared drives in your [!DNL Google] Drive.
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 7d620c93-d1bf-4451-9f76-1d6fd850cec9
 ---
 # Google Drive modules
 
-The Adobe Workfront Fusion Google Drive modules enable you to monitor, search, create, update, delete, and manage your files, folder, or shared drives in your Google Drive.
+The [!DNL Adobe Workfront Fusion Google Drive] modules enable you to monitor, search, create, update, delete, and manage your files, folder, or shared drives in your [!DNL Google] Drive.
 
-In a Adobe Workfront Fusion scenario, you can connect your Google Drive account to multiple third-party applications and services.
+In a [!DNL Adobe Workfront] Fusion scenario, you can connect your [!DNL Google Drive] account to multiple third-party applications and services.
 
 If you need instructions on creating a scenario, see [Create a scenario in Adobe Workfront Fusion](../../workfront-fusion/scenarios/create-a-scenario.md).
 
@@ -42,12 +42,12 @@ You must have the following access to use the functionality in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
+   <td>Your organization must purchase [!DNL Adobe Workfront Fusion] as well as [!DNL Adobe Workfront] to use functionality described in this article.</td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+&#42;To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
 
 &#42;&#42;For information on Adobe Workfront Fusion licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
@@ -63,7 +63,7 @@ For instructions about connecting your Google Drive account to Workfront Fusion,
 
 ## Google Drive modules and their fields
 
-When you configure Google Drive modules, Workfront Fusion displays the fields listed below. Along with these, additional Google Drive fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
+When you configure [!DNL Google Drive] modules, [!DNL Workfront Fusion] displays the fields listed below. Along with these, additional [!DNL Google Drive] fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
 
 If you see the map button above a field or function, you can use it to set variables and functions for that field. For more information, see [Map information from one module to another in Adobe Workfront Fusion](../../workfront-fusion/mapping/map-information-between-modules.md).
 
@@ -71,14 +71,14 @@ If you see the map button above a field or function, you can use it to set varia
 
 
 
-* [Triggers](#triggers) 
+* [Triggers](#triggers)
 * [Actions](#actions)
 
 ### Triggers {#triggers}
 
-* [Watch Files In Folder](#watch-files-in-folder) 
-* [Watch All Files](#watch-all-files) 
-* [Watch shared files](#watch-shared-files) 
+* [[!UICONTROL Watch Files In Folder]](#watch-files-in-folder)
+* [Watch All Files](#watch-all-files)
+* [Watch shared files](#watch-shared-files)
 * [Watch Comments](#watch-comments)
 
 #### Watch Files In Folder
@@ -114,7 +114,7 @@ Retrieves file details when a file is added or modified in the specified folder.
   </tr> 
   <tr>
     <td>Convert Google Spreadsheets files to format</td>
-    <td>Select the file format that you want to convert Google Spreadsheets to.</td>
+    <td>Select the file format that you want to convert [!DNL Google] Spreadsheets to.</td>
   </tr> 
   <tr>
     <td>Convert Google Slides files to format</td>
@@ -130,7 +130,7 @@ Retrieves file details when a file is added or modified in the specified folder.
   </tr> 
   <tr> 
     <td>Maximum number of downloaded files</td>
-    <td>Set the maximum number of results that Workfront Fusion will download during one cycle (the number of repetitions per scenario run).</td>
+    <td>Set the maximum number of results that [!DNL Workfront Fusion] will download during one cycle (the number of repetitions per scenario run).</td>
   </tr> 
  </tbody> 
 </table>
@@ -164,7 +164,7 @@ Retrieves file details when a file in your Google Drive is added or modified.
   </tr> 
   <tr> 
    <td>Convert Google Spreadsheets files to format</td> 
-   <td>Select the file format that you want to convert Google Spreadsheets to.</td> 
+   <td>Select the file format that you want to convert [!DNL Google] Spreadsheets to.</td> 
   </tr> 
   <tr> 
    <td>Convert Google Slides files to format</td> 
@@ -180,7 +180,7 @@ Retrieves file details when a file in your Google Drive is added or modified.
   </tr> 
   <tr> 
    <td>Maximum number of downloaded files</td> 
-   <td>Set the maximum number of results that Workfront Fusion will download during one cycle (the number of repetitions per scenario run).</td> 
+   <td>Set the maximum number of results that [!DNL Workfront Fusion] will download during one cycle (the number of repetitions per scenario run).</td> 
   </tr> 
  </tbody> 
 </table>
@@ -218,7 +218,7 @@ Triggers when a new file is shared to you, or an existing shared file is updated
   </tr> 
   <tr> 
    <td>Convert Google Spreadsheets files to format</td> 
-   <td>Select the file format that you want to convert Google Spreadsheets to.</td> 
+   <td>Select the file format that you want to convert [!DNL Google] Spreadsheets to.</td> 
   </tr> 
   <tr> 
    <td>Convert Google Slides files to format</td> 
@@ -234,7 +234,7 @@ Triggers when a new file is shared to you, or an existing shared file is updated
   </tr> 
   <tr> 
    <td>Maximum number of downloaded files</td> 
-   <td>Set the maximum number of results that Workfront Fusion will download during one cycle (the number of repetitions per scenario run).</td> 
+   <td>Set the maximum number of results that [!DNL Workfront Fusion] will download during one cycle (the number of repetitions per scenario run).</td> 
   </tr> 
  </tbody> 
 </table>
@@ -261,21 +261,21 @@ Triggers when a comment is added or modified on the selected file.
   </tr> 
   <tr> 
    <td>Maximum number of returned comments</td> 
-   <td>Set the maximum number of comments that Workfront Fusion will return during one cycle (the number of repetitions per scenario run).</td> 
+   <td>Set the maximum number of comments that [!DNL Workfront Fusion] will return during one cycle (the number of repetitions per scenario run).</td> 
   </tr> 
  </tbody> 
 </table>
 
 ### Actions {#actions}
 
-* [Upload a File](#upload-a-file) 
-* [Update a File](#update-a-file) 
-* [Copy a File](#copy-a-file) 
-* [Delete a File](#delete-a-file) 
-* [Move a File/Folder to Trash](#move-a-file-folder-to-trash) 
-* [Get a file](#get-a-file) 
-* [Search for Files/Folders](#search-for-files-folders) 
-* [Create a Folder](#create-a-folder) 
+* [[!UICONTROL Upload] a File](#upload-a-file)
+* [Update a File](#update-a-file)
+* [Copy a File](#copy-a-file)
+* [Delete a File](#delete-a-file)
+* [[!UICONTROL Move a File/Folder to Trash]](#move-a-file-folder-to-trash)
+* [Get a file](#get-a-file)
+* [[!UICONTROL Search for Files/Folders]](#search-for-files-folders)
+* [Create a Folder](#create-a-folder)
 * [Get a share link](#get-a-share-link)
 
 #### Upload a File {#upload-a-file}
@@ -308,11 +308,11 @@ Uploads a file to your Google Drive.
   </tr> 
   <tr> 
    <td>File name</td> 
-   <td>Select the file name. This option is available if you select "Map" in the source file field.</td> 
+   <td>Select the file name. This option is available if you select "Map" in the [!UICONTROL source file] field.</td> 
   </tr> 
   <tr> 
    <td>Data</td> 
-   <td>Select the data file that you want to upload. This option is available if you select "Map" in the source file field.</td> 
+   <td>Select the data file that you want to upload. This option is available if you select "Map" in the [!UICONTROL source file] field.</td> 
   </tr> 
   <tr> 
    <td>Title</td> 
@@ -351,7 +351,7 @@ Updates a file's metadata or content.
   </tr> 
   <tr> 
    <td>File ID</td> 
-   <td>Map the ID&nbsp;of the file that you want to update.</td> 
+   <td>Map the ID of the file that you want to update.</td> 
   </tr> 
   <tr> 
    <td>Title</td> 
@@ -367,11 +367,11 @@ Updates a file's metadata or content.
   </tr> 
   <tr> 
    <td>File name</td> 
-   <td>Select the file name. This option is available if you select "Map" in the source file field.</td> 
+   <td>Select the file name. This option is available if you select "Map" in the [!UICONTROL source file] field.</td> 
   </tr> 
   <tr> 
    <td>Data</td> 
-   <td>Select the data file that you want to upload. This option is available if you select "Map" in the source file field.</td> 
+   <td>Select the data file that you want to upload. This option is available if you select "Map" in the [!UICONTROL source file] field.</td> 
   </tr> 
  </tbody> 
 </table>
@@ -402,7 +402,7 @@ Copies a file to the new location.
   </tr> 
   <tr> 
    <td>File ID</td> 
-   <td>Map the ID&nbsp;of the file that you want to update.</td> 
+   <td>Map the ID of the file that you want to update.</td> 
   </tr> 
   <tr> 
    <td>The name of the copy</td> 
@@ -425,7 +425,7 @@ Permanently deletes a file or folder.
   </tr> 
   <tr> 
    <td>File ID</td> 
-   <td>Map the ID&nbsp;of the file that you want to delete.</td> 
+   <td>Map the ID of the file that you want to delete.</td> 
   </tr> 
  </tbody> 
 </table>
@@ -444,7 +444,7 @@ Moves a file or folder to the trash.
   </tr> 
   <tr> 
    <td>File ID</td> 
-   <td>Map the ID&nbsp;of the file that you want to move to the trash.</td> 
+   <td>Map the ID of the file that you want to move to the trash.</td> 
   </tr> 
  </tbody> 
 </table>
@@ -467,7 +467,7 @@ Retrieves the file with the ID specified.
   </tr> 
   <tr> 
    <td>Convert Google Spreadsheets files to format</td> 
-   <td>Select the file format that you want to convert Google Spreadsheets to.</td> 
+   <td>Select the file format that you want to convert [!DNL Google] Spreadsheets to.</td> 
   </tr> 
   <tr> 
    <td>Convert Google Slides files to format</td> 
@@ -479,7 +479,7 @@ Retrieves the file with the ID specified.
   </tr> 
   <tr> 
    <td>File ID</td> 
-   <td>Map the ID&nbsp;of the file that you want to retrieve.</td> 
+   <td>Map the ID of the file that you want to retrieve.</td> 
   </tr> 
  </tbody> 
 </table>
@@ -534,7 +534,7 @@ Searches for files or folders based on search criteria.
   </tr> 
   <tr> 
    <td>Maximum number of returned results</td> 
-   <td>Set the maximum number of files or folders Workfront Fusion will return during one execution cycle.</td> 
+   <td>Set the maximum number of files or folders [!DNL Workfront Fusion] will return during one execution cycle.</td> 
   </tr> 
   <tr> 
    <td>Continue the execution of the route even if the module returns no results</td> 
@@ -592,7 +592,7 @@ Retrieves the share link for a file in Google Drive.
   </tr> 
   <tr> 
    <td>File ID</td> 
-   <td>Map the ID&nbsp;of the file that you want to get the share link for.</td> 
+   <td>Map the ID of the file that you want to get the share link for.</td> 
   </tr> 
  </tbody> 
 </table>
@@ -612,15 +612,15 @@ In the module List files in a folder you can use your own query which consists o
 
 * **Field** - Attribute of the file that is being searched, for example, the attribute `name` of the file.
 
-* **Operator** - Test that is performed on the data to provide a match, for example, `contains`.
+* **[!UICONTROL Operator]** - Test that is performed on the data to provide a match, for example, `contains`.
 
-* **Value** - The content of the attribute that is tested, for example, the name of the file `My cool document`.
+* **[!UICONTROL Value]** - The content of the attribute that is tested, for example, the name of the file `My cool document`.
 
 Combine clauses with the conjunctions `and` or `or`, and negate the query with `not`.
 
-* [Fields](#fields) 
-* [Value types](#value-types) 
-* [Operators](#operators) 
+* [Fields](#fields)
+* [Value types](#value-types)
+* [Operators](#operators)
 * [Examples](#examples)
 
 ### Fields {#fields}
@@ -660,13 +660,13 @@ Combine clauses with the conjunctions `and` or `or`, and negate the query with `
   <tr> 
    <td><code>modifiedDate</code> </td> 
    <td> date<sup>4</sup></td> 
-   <td><code> &lt;=</code>, <code>&lt;</code>, <code>=</code>, <code>!=</code>, <code>&gt;</code>, <code>&gt;=</code></td> 
+   <td><code> &lt;=</code>, <code>&lt;</code>, <code>=</code>, <code>!=</code>, <code>></code>, <code>>=</code></td> 
    <td> <p> Date of the last modification to the file.</p> </td> 
   </tr> 
   <tr> 
    <td><code>lastViewedByMeDate</code> </td> 
    <td> date<sup>4</sup></td> 
-   <td><code>&lt;=</code>, <code>&lt;</code>, <code>=</code>, <code>!=</code>, <code>&gt;</code>, <code>&gt;=</code></td> 
+   <td><code>&lt;=</code>, <code>&lt;</code>, <code>=</code>, <code>!=</code>, <code>></code>, <code>>=</code></td> 
    <td> <p> Date that the user last viewed a file.</p> </td> 
   </tr> 
   <tr> 
@@ -682,10 +682,10 @@ Combine clauses with the conjunctions `and` or `or`, and negate the query with `
    <td> <p>Whether the file is starred or not.</p> </td> 
   </tr> 
   <tr> 
-   <td><code>parents</code></td> 
+   <td><code>[!UICONTROL parents]</code></td> 
    <td>collection </td> 
    <td><code>in </code> </td> 
-   <td> <p>Whether the parents collection contains the specified ID.</p> </td> 
+   <td> <p>Whether the [!UICONTROL parents] collection contains the specified ID.</p> </td> 
   </tr> 
   <tr> 
    <td><code>owners</code></td> 
@@ -724,17 +724,17 @@ Consider the following about operators in these fields:
 
 * The `contains` operator only performs prefix matching for a `title`.
 
-  For example, the title "HelloWorld" matches for `title contains 'Hello'` but not for `title contains 'World'`.
+   For example, the title "HelloWorld" matches for `title contains 'Hello'` but not for `title contains 'World'`.
 
 * The `contains` operator only performs matching on entire string tokens for `fullText`.
 
-  For example, if the full text of a doc contains the string "HelloWorld" only the query `fullText contains 'HelloWorld'` returns a result. Queries such as `fullText contains 'Hello'` would not return results in this scenario.
+   For example, if the full text of a doc contains the string "HelloWorld" only the query `fullText contains 'HelloWorld'` returns a result. Queries such as `fullText contains 'Hello'` would not return results in this scenario.
 
 * The `contains` operator matches on an exact alphanumeric phrase if it is surrounded by double quotes.
 
-  For example, if the `fullText` of a doc contains the string "Hello there world", then the query `fullText contains '"Hello there"'` returns a result, but the query `fullText contains '"Hello world"'` does not.
+   For example, if the `fullText` of a doc contains the string "Hello there world", then the query `fullText contains '"Hello there"'` returns a result, but the query `fullText contains '"Hello world"'` does not.
 
-  Furthermore, because the search is alphanumeric, if the `fullText` of a doc contains the string "Hello_world", then the query `fullText contains '"Hello world"'` returns a result.
+   Furthermore, because the search is alphanumeric, if the `fullText` of a doc contains the string "Hello_world", then the query `fullText contains '"Hello world"'` returns a result.
 
 * Fields of `type` date are currently not comparable to each other, only to constant dates.
 
@@ -798,11 +798,11 @@ Consider the following about operators in these fields:
    <td> <p> A date is earlier than or equal to another.</p> </td> 
   </tr> 
   <tr> 
-   <td><code>&gt;</code> </td> 
+   <td><code>></code> </td> 
    <td> <p> A date is later than another.</p> </td> 
   </tr> 
   <tr> 
-   <td><code>&gt;=</code> </td> 
+   <td><code>>=</code> </td> 
    <td> <p> A date is later than or equal to another.</p> </td> 
   </tr> 
   <tr> 
@@ -836,38 +836,38 @@ For compound clauses, you can use parentheses to group clauses together. For exa
 All examples on this page show the unencoded `<q>q</q>` parameter, where `title = 'hello'` is encoded as `title+%3d+%27hello%27`. Client libraries handle this encoding automatically.
 
 * Search for files with the name "hello"
-  <pre>title = 'hello'</pre>
+   <pre>title = 'hello'</pre>
 * Search for folders using the folder-specific MIME type
-  <pre>mimeType = 'application/vnd.google-apps.folder'</pre>
+   <pre>mimeType = 'application/vnd.google-apps.folder'</pre>
 * Search for files that are not folders
-  <pre>mimeType != 'application/vnd.google-apps.folder'</pre>
+   <pre>mimeType != 'application/vnd.google-apps.folder'</pre>
 * Search for files with a name containing the words "hello" and "goodbye"
-  <pre>title contains 'hello' and name contains 'goodbye'</pre>
+   <pre>title contains 'hello' and [!UICONTROL name] contains 'goodbye'</pre>
 * Search for files with a name that does not contain the word "hello"
-  <pre>not title contains 'hello'</pre>
+   <pre>not title contains 'hello'</pre>
 * Search for files containing the word "hello" in the content
-  <pre>fullText contains 'hello'</pre>
+   <pre>fullText contains 'hello'</pre>
 * Search for files not containing the word "hello" in the content
-  <pre>not fullText contains 'hello'</pre>
+   <pre>not fullText contains 'hello'</pre>
 * Search for files containing the exact phrase "hello world" in the content
-  <pre>fullText contains '"hello world"'fullText contains '"hello_world"'</pre>
+   <pre>fullText contains '"hello world"'fullText contains '"hello_world"'</pre>
 * Search for files with a query containing the "\" character (e.g., "\authors")
-  <pre>fullText contains '\\authors'</pre>
+   <pre>fullText contains '\\authors'</pre>
 * Search for files writeable by the user "test@example.org"
-  <pre>'test@example.org' in writers</pre>
+   <pre>'test@example.org' in [!DNL writers]</pre>
 * Search for the ID `1234567` in the `parents` collection. This finds all files and folders located directly in the folder whose ID is `1234567`.
-  <pre>'1234567' in parents</pre>
+   <pre>'1234567' in [!UICONTROL parents]</pre>
 * Search for the alias ID `appDataFolder` in the `parents` collection. This finds all files and folders located directly under the [Application Data folder](https://developers.google.com/drive/api/v2/appdata).
-  <pre>'appDataFolder' in parents</pre>
+   <pre>'appDataFolder' in parents</pre>
 * Search for files writeable by the users "test@example.org" and "test2@example.org"
-  <pre>'test@example.org' in writers and 'test2@example.org' in writers</pre>
+   <pre>'test@example.org' in writers and 'test2@example.org' in writers</pre>
 * Search for files containing the text "important" which are in the trash
-  <pre>fullText contains 'important' and trashed = true</pre>
+   <pre>fullText contains 'important' and trashed = true</pre>
 * Search for files modified after June 4th 2012
-  <pre>modifiedDate > '2012-06-04T12:00:00' // default time zone is UTC</pre><pre>modifiedDate > '2012-06-04T12:00:00-08:00'</pre>
+   <pre>modifiedDate > '2012-06-04T12:00:00' // default time zone is UTC</pre><pre>modifiedDate > '2012-06-04T12:00:00-08:00'</pre>
 * Search for files shared with the authorized user with "hello" in the name
-  <pre>sharedWithMe and title contains 'hello'</pre>
+   <pre>sharedWithMe and title contains 'hello'</pre>
 * Search for files with a [custom file property](https://developers.google.com/drive/api/v2/properties) named `additionalID` with the value `8e8aceg2af2ge72e78`.
-  <pre>properties has { key='additionalID' and value='8e8aceg2af2ge72e78' and visibility='PRIVATE' }</pre>
-  
+   <pre>properties has { key='additionalID' and value='8e8aceg2af2ge72e78' and visibility='PRIVATE' }</pre>
+
 Source of this guide is [Google Drive documentation](https://developers.google.com/drive/api/v2/search-shareddrives).

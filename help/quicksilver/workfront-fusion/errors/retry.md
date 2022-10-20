@@ -2,13 +2,13 @@
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: errors
-title: Retry error handling in Adobe Workfront Fusion
+title: Retry error handling in [!DNL Adobe Workfront] Fusion
 description: In some cases it is useful to re-execute a failing module for a couple of times if there is a chance that the reason for the failure might pass over time.
 author: Becky
 feature: Workfront Fusion
 exl-id: 1058905c-6c95-4a8c-8956-e1606f1486d9
 ---
-# Retry error handling in Adobe Workfront Fusion
+# Retry error handling in [!DNL Adobe Workfront] Fusion
 
 In some cases it is useful to re-execute a failing module if there is a chance that the reason for the failure might pass over time.
 
@@ -34,12 +34,12 @@ You must have the following access to use the functionality in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
+   <td>Your organization must purchase [!DNL Adobe Workfront Fusion] as well as [!DNL Adobe Workfront] to use functionality described in this article.</td> 
   </tr>  
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+&#42;To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
 
 &#42;&#42;For information on Adobe Workfront Fusion licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
@@ -49,7 +49,7 @@ Adobe Workfront Fusion currently does not offer the Retry error handling directi
 
 ### Use the Break directive
 
-1. In the [The scenario settings panel in Adobe Workfront Fusion](../../workfront-fusion/scenarios/scenario-settings-panel.md), enable the **Allow storing of Incomplete Executions** option.
+1. In the [The scenario settings panel in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/scenario-settings-panel.md), enable the **[!UICONTROL Allow storing of Incomplete Executions]** option.
 
 1. Attach an error handler route to the module, as described in [Error handling in Adobe Workfront Fusion](../../workfront-fusion/errors/error-handling.md).
 1. Link the Break directive to the error handler route (see [Directives for error handling in Adobe Workfront Fusion](../../workfront-fusion/errors/directives-for-error-handling.md)) and configure it.
@@ -59,20 +59,20 @@ Adobe Workfront Fusion currently does not offer the Retry error handling directi
 #### Drawbacks
 
 * The minimum retry interval is one minute.
-* If the module is processing multiple bundles and the processing of a bundle fails, the partial execution (only the bundle that caused the error) is moved to the [View and resolve incomplete executions in Adobe Workfront Fusion](../../workfront-fusion/scenarios/view-and-resolve-incomplete-executions.md) folder and scheduled for retries according to the Break directive settings. However, the current execution continues and the module continues to process the subsequent bundles. At least you can enable the "Sequential processing" option in the Scenario settings to prevent the scenario from executing again until the execution stored in the the Incomplete executions folder has been successfully resolved.
+* If the module is processing multiple bundles and the processing of a bundle fails, the partial execution (only the bundle that caused the error) is moved to the [View and resolve incomplete executions in [!DNL Adobe Workfront] Fusion](../../workfront-fusion/scenarios/view-and-resolve-incomplete-executions.md) folder and scheduled for retries according to the Break directive settings. However, the current execution continues and the module continues to process the subsequent bundles. At least you can enable the "Sequential processing" option in the Scenario settings to prevent the scenario from executing again until the execution stored in the the Incomplete executions folder has been successfully resolved.
 
 ### Use the Repeater module
 
-1. Employ the **Repeater** module and set its Repeats field to the maximum number of attempts.
+1. Employ the **Repeater** module and set its [!UICONTROL Repeats] field to the maximum number of attempts.
 1. Link the potentially failing module to the **Repeater** module.
 1. Attach an error handler route to this module (see [Error handling in Adobe Workfront Fusion](../../workfront-fusion/errors/error-handling.md)).
 1. Link the **Tools > Sleep** module to the error handler route and set its **Delay** field to the number of seconds between the attempts.
 
-1. Link the **Ignore** directive after the **Tools > Sleep** module (see [Directives for error handling in Adobe Workfront Fusion](../../workfront-fusion/errors/directives-for-error-handling.md)).
+1. Link the **[!UICONTROL Ignore]** directive after the **Tools > Sleep** module (see [Directives for error handling in Adobe Workfront Fusion](../../workfront-fusion/errors/directives-for-error-handling.md)).
 
 1. Link the **Tools > Set variable** module after the the potentially failing module and configure it to store the module's result in a variable named, for example, `Result`.
 
-1. Link the **Array aggregator** module after the **Tools > Set** variable and choose the **Repeater** module in its Source Module field.
+1. Link the **Array aggregator** module after the **[!UICONTROL Tools] > Set** variable and choose the **[!DNL Repeater]** module in its Source Module field.
 
 1. Link the **Tools > Get variable** module to the **Array aggregator** module and configure it to obtain the value of the `Result` variable.
 
@@ -82,7 +82,7 @@ Adobe Workfront Fusion currently does not offer the Retry error handling directi
 
 >[!INFO]
 >
->**Example:** Here is a sample scenario where the HTTP > Make a request module represents the potentially failing module:
+>**Example:** Here is a sample scenario where the [!UICONTROL HTTP] >[!UICONTROL Make a request] module represents the potentially failing module:
 >
 >![](assets/http-make-request-350x116.png)
 >

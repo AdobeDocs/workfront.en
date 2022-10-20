@@ -2,19 +2,19 @@
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: connections-annd-webhooks
-title: Connect Adobe Workfront Fusion to a web service that uses API token authorization
-description: Some services do not allow integration solutions such as Adobe Workfront Fusion to create an app that you can easily use in your scenario.
+title: Connect [!DNL Adobe Workfront Fusion] to a web service that uses API token authorization
+description: Some services do not allow integration solutions such as [!DNL Adobe Workfront Fusion] to create an app that you can easily use in your scenario.
 author: Becky
 feature: Workfront Fusion
 exl-id: 0feb745a-1ee0-4b29-92ab-14c12a8647d4
 ---
-# Connect Adobe Workfront Fusion to a web service that uses API token authorization
+# Connect [!DNL Adobe Workfront Fusion] to a web service that uses API token authorization
 
-Some services do not allow integration solutions such as Adobe Workfront Fusion to create an app that you can easily use in your scenario.
+Some services do not allow integration solutions such as [!DNL Adobe Workfront Fusion] to create an app that you can easily use in your scenario.
 
-There is a workaround to this situation. You can connect the desired service (app) to Workfront Fusion using Workfront Fusion's HTTP module.
+There is a workaround to this situation. You can connect the desired service (app) to [!DNL Workfront Fusion] using Workfront Fusion's HTTP module.
 
-This article explains how to connect almost any web service to Workfront Fusion using an API Key/API token.
+This article explains how to connect almost any web service to [!DNL Workfront Fusion] using an API Key/API token.
 
 ## Access requirements
 
@@ -38,12 +38,12 @@ You must have the following access to use the functionality in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
+   <td>Your organization must purchase [!DNL Adobe Workfront Fusion] as well as [!DNL Adobe Workfront] to use functionality described in this article.</td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+&#42;To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
 
 &#42;&#42;For information on Adobe Workfront Fusion licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
@@ -69,16 +69,16 @@ The procedure of connecting the service via an API token is similar for most web
 >We are including instructions for obtaining a Pushover API key only as an example of what you might find.
 
 1. Log in to your Pushover account.
-1. Click **Create an Application/API Token** at the bottom of the page.
+1. Click **[!UICONTROL Create an Application/API Token]** at the bottom of the page.
 1. Fill in the Application Information and click **Create an Application**.
-1. Store the provided API token in a safe place. You will need it for the Workfront Fusion HTTP > Make a Request module to connect to the desired web service (Pushover, in this case).
+1. Store the provided API token in a safe place. You will need it for the [!DNL Workfront Fusion] HTTP >[!UICONTROL Make a Request] module to connect to the desired web service (Pushover, in this case).
 
 ## Set up the HTTP module {#set-up-the-http-module}
 
-To connect a web service to your Workfront Fusion scenario, you need to use the HTTP > Make a request module in the scenario and set up the module according to the web service's API&nbsp;documentation.
+To connect a web service to your [!DNL Workfront] Fusion scenario, you need to use the [!UICONTROL HTTP] >[!UICONTROL Make a request] module in the scenario and set up the module according to the web service's API&nbsp;documentation.
 
-1. Add the HTTP > Make a Request module to your scenario.
-1. To push a message using Workfront Fusion, set up the HTTP module as follows.
+1. Add the [!UICONTROL HTTP] >[!UICONTROL Make a Request] module to your scenario.
+1. To push a message using [!DNL Workfront Fusion], set up the HTTP module as follows.
 
    >[!NOTE]
    >
@@ -106,7 +106,7 @@ To connect a web service to your Workfront Fusion scenario, you need to use the 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Body Type</p> </td> 
-      <td> <p><code>Raw</code> </p> <p>This setting allows you to select the JSON content type in the Content Type field below.</p> </td> 
+      <td> <p><code>Raw</code> </p> <p>This setting allows you to select the JSON content type in the [!UICONTROL Content Type] field below.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Content Type</p> </td> 
@@ -114,7 +114,7 @@ To connect a web service to your Workfront Fusion scenario, you need to use the 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Request Content</p> </td> 
-      <td> <p>Enter the Body request content in the JSON format. You can use the JSON &gt; Create JSON module as explained in <a href="#json-body-mapped-using-the-json-create-json-module" class="MCXref xref">JSON Body Mapped Using the JSON &gt; Create JSON module</a> in this article. Or you can enter the JSON content manually, as explained in <a href="#json-body-entered-manually" class="MCXref xref">JSON Body Entered Manually</a> in this article.</p> <p>See the web service's API documentation for the required parameters for that web service.</p> </td> 
+      <td> <p>Enter the Body request content in the JSON format. You can use the JSON > Create JSON module as explained in <a href="#json-body-mapped-using-the-json-create-json-module" class="MCXref xref">JSON Body Mapped Using the JSON > Create JSON module</a> in this article. Or you can enter the JSON content manually, as explained in <a href="#json-body-entered-manually" class="MCXref xref">JSON Body Entered Manually</a> in this article.</p> <p>See the web service's API documentation for the required parameters for that web service.</p> </td> 
      </tr> 
     </tbody> 
    </table>
@@ -125,19 +125,22 @@ Specify parameters and values in the JSON format.
 
 >[!INFO]
 >
->**Example:** 
+>**Example:**
 >
 >```
 >{"user":"12345c2ecu1hq42ypqzhswbyam34",
 >
->"token":"123459evz8aepwtxydndydgyumbfx",
 >
->"message":"Hello World!",
+"token":"123459evz8aepwtxydndydgyumbfx",
 >
->"title":"The Push Notification"}
+>
+"message":"Hello World!",
+>
+>
+"title":"The Push Notification"}
 >```
 
- <table style="table-layout:auto"> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -160,9 +163,9 @@ Specify parameters and values in the JSON format.
  </tbody> 
 </table>
 
-## JSON Body Mapped Using the JSON > Create JSON module {#json-body-mapped-using-the-json-create-json-module}
+## JSON Body Mapped Using the JSON >[!UICONTROL Create JSON] module {#json-body-mapped-using-the-json-create-json-module}
 
-The Create JSON module makes the specifying JSON easier. It also gives you the possibility to define values dynamically.
+The [!UICONTROL Create JSON] module makes the specifying JSON easier. It also gives you the possibility to define values dynamically.
 
 For more information about the JSON modules, see [JSON modules](../../workfront-fusion/apps-and-their-modules/json-modules.md).
 
@@ -171,7 +174,7 @@ For more information about the JSON modules, see [JSON modules](../../workfront-
    ![](assets/json-values-350x288.png)
 
 1. Connect the JSON > Create JSON module to the HTTP > Make a Request module.
-1. Map the JSON string from the Create JSON module to the Request content field in the HTTP > Make a Request module.
+1. Map the JSON string from the Create JSON module to the [!UICONTROL Request content] field in the [!UICONTROL HTTP] >[!UICONTROL Make a Request] module.
 
    <!--
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode"> <img src="assets/json-string-350x310.gif" style="width: 350;height: 310;"> </p>

@@ -13,33 +13,32 @@ exl-id: 4610f24f-345a-4ebc-8a0c-382e34cac7b0
 
 >[!IMPORTANT]
 >
->This article refers to functionality in the standalone product Workfront Proof. For information on proofing inside Adobe Workfront, see [Proofing](../../../review-and-approve-work/proofing/proofing.md).
+>This article refers to functionality in the standalone product [!DNL Workfront] Proof. For information on proofing inside [!DNL Adobe Workfront], see [Proofing](../../../review-and-approve-work/proofing/proofing.md).
 
 The Desktop Proofing Viewer is designed for proofing interactive content, but you can also use it to proof static and video content.&nbsp;
 
-Unlike the Web Proofing Viewer, the Desktop Proofing Viewer is an application that runs on your workstation.&nbsp;However, you access it from Workfront or from Workfront Proof when you launch proofs, rather than running it as a standalone application (for more informationabout installing the Desktop Proofing Viewer, see [Install the Desktop Proofing Viewer](../../../review-and-approve-work/proofing/use-the-desktop-proofing-viewer/installing-desktop-proofing-viewer.md)).&nbsp;
+Unlike the Web Proofing Viewer, the Desktop Proofing Viewer is an application that runs on your workstation.&nbsp;However, you access it from [!DNL Workfront] or from [!DNL Workfront] Proof when you launch proofs, rather than running it as a standalone application (for more informationabout installing the Desktop Proofing Viewer, see [Install the Desktop Proofing Viewer](../../../review-and-approve-work/proofing/use-the-desktop-proofing-viewer/installing-desktop-proofing-viewer.md)).&nbsp;
 
 ## Comparing the Desktop Proofing Viewer to Other Proofing Viewers
 
-* [Desktop Proofing Viewer vs. Web Proofing Viewer](#desktop-proofing-viewer-vs-web-proofing-viewer) 
+* [Desktop Proofing Viewer vs. Web Proofing Viewer](#desktop-proofing-viewer-vs-web-proofing-viewer)
 * [Desktop Proofing Viewer vs. Legacy proofing viewer](#desktop-proofing-viewer-vs-legacy-proofing-viewer)
 
 ### Desktop Proofing Viewer vs. Web Proofing Viewer {#desktop-proofing-viewer-vs-web-proofing-viewer}
 
 Two main characteristics distinguish the Desktop Proofing Viewer from the Web Proofing Viewer:
 
-* The Desktop Proofing Viewer lets you review interactive content such as a website, a streaming video, or an interactive banner; the Web Proofing Viewer lets you review only static and video proofs. 
+* The Desktop Proofing Viewer lets you review interactive content such as a website, a streaming video, or an interactive banner; the Web Proofing Viewer lets you review only static and video proofs.
 * The Desktop Proofing Viewer runs on your local computer as an application; the Web Proofing Viewer runs in your browser.
 
-  >[!NOTE]
-  >
-  >
-  >   
-  >   
-  >   * If your organization cannot use the Desktop Proofing Viewer app for security reasons, your Workfront administrator can configure your system so that you can review interactive content, bundled in a ZIP archive file, in the Web Proofing Viewer.
-  >   * Proof management tasks such as creating and browsing through proofs occur in Workfront or Workfront Proof. The Desktop Proofing Viewer is only for reviewing proofs.
-  >   
-  >
+   >[!NOTE]
+   >
+   >
+   >   
+   >   
+   >   * If your organization cannot use the Desktop Proofing Viewer app for security reasons, your [!DNL Workfront] administrator can configure your system so that you can review interactive content, bundled in a ZIP archive file, in the Web Proofing Viewer.
+   >   * Proof management tasks such as creating and browsing through proofs occur in [!DNL Workfront] or [!DNL Workfront] Proof. The Desktop Proofing Viewer is only for reviewing proofs.
+
 
 For more information about the capabilities of the various proofing viewers,&nbsp;see [Differences between the Web Proofing Viewer and the Desktop Proofing Viewer overview](../../../review-and-approve-work/proofing/proofing-overview/understand-differences-between-web-viewer.md)
 
@@ -50,11 +49,11 @@ You might not have access to the Legacy proofing viewer because it is supported 
 The Desktop Proofing Viewer includes the following enhancements over the Legacy proofing viewer:
 
 * Review unsecured (HTTP) sites, not just secure (HTTPS) sites.
-* Review iFrame-protected sites&nbsp;(sites that cannot be&nbsp;viewed within an iFrame). 
-* View content with preconfigured resolutions for various devices.   
-  For example, you can see how content displays on various standard desktop resolutions, or on individual devices such as an iPhone 8.
+* Review iFrame-protected sites&nbsp;(sites that cannot be&nbsp;viewed within an iFrame).
+* View content with preconfigured resolutions for various devices.\
+   For example, you can see how content displays on various standard desktop resolutions, or on individual devices such as an iPhone 8.
 
-The Legacy proofing viewer will be removed from Workfront with the 2018.3 release at the end of the 2018 calendar year
+The Legacy proofing viewer will be removed from [!DNL Workfront] with the 2018.3 release at the end of the 2018 calendar year
 
 <!--
 <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -63,7 +62,7 @@ The Legacy proofing viewer will be removed from Workfront with the 2018.3 releas
 </MadCap:conditionalText>
 -->
 
-. The Legacy proofing viewer is not included for customers acquiring Workfront after the 2018.2 release in July 2018.
+. The Legacy proofing viewer is not included for customers acquiring [!DNL Workfront] after the 2018.2 release in July 2018.
 
 ## User Setting for Opening Non-Interactive Proofs in the Desktop Proofing Viewer
 

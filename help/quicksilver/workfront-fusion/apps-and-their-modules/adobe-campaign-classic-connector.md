@@ -5,13 +5,13 @@ product-area: workfront-integrations
 keywords: connector
 navigation-topic: apps-and-their-modules
 title: Adobe Campaign Classic modules
-description: With the Adobe Campaign Classic modules, you can start an Adobe Workfront Fusion scenario based on events in your Adobe Campaign Classic account, create, read, or update agreements and other records, search for records using criteria you set, and upload documents.
+description: With the Adobe Campaign Classic modules, you can start an [!DNL Adobe Workfront Fusion] scenario based on events in your Adobe Campaign Classic account, create, read, or update agreements and other records, search for records using criteria you set, and upload documents.
 author: Becky
 feature: Workfront Fusion
 ---
 # Adobe Campaign Classic modules
 
-With the Adobe Campaign Classic modules, you can start an Adobe Workfront Fusion scenario based on events in your Adobe Campaign Classic account, create, read, or update records, search for records using criteria you set, and perform custom API calls.
+With the Adobe Campaign Classic modules, you can start an [!DNL Adobe Workfront Fusion] scenario based on events in your Adobe Campaign Classic account, create, read, or update records, search for records using criteria you set, and perform custom API calls.
 
 ## Access requirements
 
@@ -35,25 +35,25 @@ You must have the following access to use the functionality in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
+   <td>Your organization must purchase [!DNL Adobe Workfront Fusion] as well as [!DNL Adobe Workfront] to use functionality described in this article.</td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+&#42;To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
 
 &#42;&#42;For information on Adobe Workfront Fusion licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
 ## Connect Adobe Campaign Connector to Adobe Workfront Fusion
 
-1. In any Adobe Campaign Classic module, click **Add** next to the Connection field.
+1. In any Adobe Campaign Classic module, click **Add** next to the [!UICONTROL Connection] field.
 1. Enter the base URL that you use to connect to your Adobe Campaign Classic instance.
 1. Enter your Username and Password.
-1. Click **Continue** to create the connection and go back to the module.
+1. Click **[!UICONTROL Continue]** to create the connection and go back to the module.
 
 ## Adobe Campaign Classic modules and their fields
 
-When you configure Adobe Campaign Classic modules, Workfront Fusion displays the fields listed below. Along with these, additional Adobe Campaign Classic fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
+When you configure Adobe Campaign Classic modules, [!DNL Workfront Fusion] displays the fields listed below. Along with these, additional Adobe Campaign Classic fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
 
 If you see the map button above a field or function, you can use it to set variables and functions for that field. For more information, see [Map information from one module to another in Adobe Workfront Fusion](../../workfront-fusion/mapping/map-information-between-modules.md).
 
@@ -107,7 +107,7 @@ This scheduled trigger module starts a scenario when a record changes.
 * [Custom API call](#make-a-custom-api-call)
 * [Delete a record](#delete-record)
 * [Misc action](#misc-action)
-* [Read a record](#read-a-record)
+* [[!UICONTROL Read a record]](#read-a-record)
 * [Subscription](#subscription)
 * [Update a record](#update-record)
 
@@ -133,7 +133,7 @@ This action module creates a new record in Adobe Campaign Classic.
   </tr> 
   <tr> 
    <td role="rowheader">Custom fields</td> 
-   <td> For each custom field that you want to add to the new record, click <b>Add item</b> and enter or map the field's name and value. </td> 
+   <td> For each custom field that you want to add to the new record, click <b>[!UICONTROL Add item]</b> and enter or map the field's name and value. </td> 
   </tr> 
  </tbody> 
 </table>
@@ -163,7 +163,7 @@ This module makes a custom API call to the Adobe Campaign Classic API
     <tr>
       <td role="rowheader">Headers</td>
       <td>
-        <p>Add the headers of the request in the form of a standard JSON object.</p>
+        <p>Add the headers of the request in the form of a standard [!DNL JSON] object.</p>
         <p>For example, <code>{"Content-type":"application/json"}</code></p>
         <p>Workfront Fusion adds the x-security token header automatically.</p>
       </td>
@@ -203,7 +203,7 @@ This action module deletes a single record from Adobe Campaign Classic.
 This action module performs a selected action on an object in the Adobe Campaign Classic API.
 
 For information on specific actions and fields, see [Adobe Campaign - API Documentation](https://experienceleague.adobe.com/developer/campaign-api/api/p-14.html).
- [test](#delete-record)
+[test](#delete-record)
 
 <table style="table-layout:auto"> 
  <col> 
@@ -217,11 +217,11 @@ For information on specific actions and fields, see [Adobe Campaign - API Docume
    <td role="rowheader">Action</td> 
    <td><p>Select the action to perform on the object.</p>
    <ul>
-   <li><p><b>List</b></p><p> For available fields, see <a href="#search" class="MCXref xref" >Search</a> in this article. </p></li>
-     <li><p><b>Get</b></p><p> For available fields, see <a href="#search" class="MCXref xref" >Search</a> in this article. </p></li> 
+   <li><p><b>List</b></p><p> For available fields, see <a href="#search" class="MCXref xref" >[!UICONTROL Search]</a> in this article. </p></li>
+     <li><p><b>Get</b></p><p> For available fields, see <a href="#search" class="MCXref xref" >[!UICONTROL Search]</a> in this article. </p></li> 
    <li><p><b>Create</b></p><p> For available fields, see <a href="#create-a-record" class="MCXref xref" >Create a record</a> in this article. </p></li>
    <li><p><b>Update</b></p><p> For available fields, see <a href="#update-record" class="MCXref xref" >Update a record</a> in this article. </p></li>
-   <li><p><b>Delete</b></p><p> For available fields, see <a href="#delete-record" class="MCXref xref" >Delete a record</a> in this article. </p></li>
+   <li><p><b>Delete</b></p><p> For available fields, see <a href="#delete-record" class="MCXref xref" >[!UICONTROL Delete] a record</a> in this article. </p></li>
    </ul>
    </td>
 </tr> 
@@ -313,7 +313,7 @@ This action module updates a single record in Adobe Campaign Classic.
   </tr> 
   <tr> 
    <td role="rowheader">Custom fields</td> 
-   <td> For each custom field that you want to update, click <b>Add item</b> and enter or map the field's name and value. </td> 
+   <td> For each custom field that you want to update, click <b>[!UICONTROL Add item]</b> and enter or map the field's name and value. </td> 
   </tr> 
  </tbody> 
 </table>

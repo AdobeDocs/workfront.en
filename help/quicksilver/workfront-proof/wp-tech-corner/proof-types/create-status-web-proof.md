@@ -2,17 +2,17 @@
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: proof-types
-title: Create a Static Website Proof using Workfront Proof
+title: Create a Static Website Proof using [!DNL Workfront] Proof
 description: You can create static proofs from your web pages. In addition, you can simulate various devices by defining screen resolution of the captures.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: b93ed288-1bf2-4268-96c3-6263ab6be633
 ---
-# Create a Static Website Proof using Workfront Proof
+# Create a Static Website Proof using [!DNL Workfront] Proof
 
 >[!IMPORTANT]
 >
->This article refers to functionality in the standalone product Workfront Proof. For information on proofing inside Adobe Workfront, see [Proofing](../../../review-and-approve-work/proofing/proofing.md).
+>This article refers to functionality in the standalone product [!DNL Workfront] Proof. For information on proofing inside [!DNL Adobe Workfront], see [Proofing](../../../review-and-approve-work/proofing/proofing.md).
 
 You can create static proofs from your web pages. In addition, you can simulate various devices by defining screen resolution of the captures.
 
@@ -21,14 +21,14 @@ You can create static proofs from your web pages. In addition, you can simulate 
 1. Open the New proof page, as described in [Generate Proofs in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md).
 1. Paste or type your URL in the **www.shareyourlink.com**&nbsp;box.
 1. You can repeat this step to add multiple URLs.
-1. Just below this box, click the&nbsp;resolution (the default is 1366x768), then select any resolutions you want in the **Screensot resolution** box.  
+1. Just below this box, click the&nbsp;resolution (the default is 1366x768), then select any resolutions you want in the **Screensot resolution** box.\
    Select a smaller resolution if you want to proof designs for mobile devices. Generally, designs load as per screen/browser window resolution.
 
-1. Click **Look for subpages** if you&nbsp;want to&nbsp;include connected pages that are in the same domain/subdomain&nbsp;as the&nbsp;entered&nbsp;URL.  
-   Workfront Proof scans the connected pages and lists them below the **Look for subpages** option. You can select the pages you want to include.  
+1. Click **[!UICONTROL Look for subpages]** if you&nbsp;want to&nbsp;include connected pages that are in the same domain/subdomain&nbsp;as the&nbsp;entered&nbsp;URL.\
+   Workfront Proof scans the connected pages and lists them below the **[!UICONTROL Look for subpages]** option. You can select the pages you want to include.
 
-1. With the Combine proofs feature you can submit all the web pages as a single multi-page proof.
-1. Click **Done**, then finish configuring your proof as explained in [Generate Proofs in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md).
+1. With the [!UICONTROL Combine] proofs feature you can submit all the web pages as a single multi-page proof.
+1. Click **[!UICONTROL Done]**, then finish configuring your proof as explained in [[!UICONTROL Generate Proofs] in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md).
 
 ## About Password-Protected Pages and Pages Requiring Authorization
 
@@ -36,11 +36,11 @@ Workfront Proof cannot capture a password-protected website as a static proof.
 
 In order to create proofs from pages that require authorization, your IT team must add one of the following URLs to your company's Allowlist through which our web capture tool connects:
 
-**AWS clusters in the US**: webcapture.proofhq.com
+**AWS clusters in the US**: [!DNL webcapture].proofhq.com
 
-**GCP clusters in the US**: webcapture.gcp.proofhq.com
+**GCP clusters in the US**: [!DNL webcapture].gcp.proofhq.com
 
-**EMEA clusters**: webcapture.proofhq.eu
+**EMEA clusters**: [!DNL webcapture].proofhq.eu
 
 >[!NOTE]
 >

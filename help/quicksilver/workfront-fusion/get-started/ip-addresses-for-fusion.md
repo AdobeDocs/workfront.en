@@ -15,9 +15,9 @@ exl-id: f6295cc7-367f-4c8b-891b-cc11ff42a225
 >
 >Adobe Workfront Fusion requires an Adobe Workfront Fusion license in addition to an Adobe Workfront license.
 
-If your firewall or mail server is configured to allow access to only certain vendors, you must add certain IP addresses to its allowlist in order to allow open communication between your environment and Adobe Workfront Fusion.
+If your firewall or mail server is configured to allow access to only certain vendors, you must add certain IP addresses to its allowlist in order to allow open communication between your environment and [!DNL Adobe Workfront] Fusion.
 
-Add the following IP addresses to your allowlist to enable Workfront Fusion to access your system.
+Add the following IP addresses to your allowlist to enable [!DNL Workfront Fusion] to access your system.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -44,7 +44,7 @@ Add the following IP addresses to your allowlist to enable Workfront Fusion to a
  </tbody> 
 </table>
 
-Also, if your organization uses outbound network filtering, add the following domain to your allowlist to enable your system to access Workfront Fusion. 
+Also, if your organization uses outbound network filtering, add the following domain to your allowlist to enable your system to access Workfront Fusion.
 
 <table style="table-layout:auto">
  <col> 

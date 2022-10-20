@@ -5,14 +5,14 @@ product-area: workfront-integrations
 keywords: connector
 navigation-topic: apps-and-their-modules
 title: Email modules
-description: In a Adobe Workfront Fusion scenario, you can connect your Email account to multiple third-party applications and services.This allows you to download emails via IMAP, send emails via SMTP, create new drafts, move and copy emails from one folder to another folder, mark emails as read or unread, and delete emails.
+description: In a [!DNL Adobe Workfront Fusion] scenario, you can connect your Email account to multiple third-party applications and services.This allows you to download emails via IMAP, send emails via SMTP, create new drafts, move and copy emails from one folder to another folder, mark emails as read or unread, and delete emails.
 author: Becky
 feature: Workfront Fusion
 exl-id: 384ba60a-d79e-4126-a247-6d67b5154ede
 ---
 # Email modules
 
-In a Adobe Workfront Fusion scenario, you can connect your Email account to multiple third-party applications and services.This allows you to download emails via IMAP, send emails via SMTP, create new drafts, move and copy emails from one folder to another folder, mark emails as read or unread, and delete emails.
+In a [!DNL Adobe Workfront Fusion] scenario, you can connect your Email account to multiple third-party applications and services.This allows you to download emails via IMAP, send emails via SMTP, create new drafts, move and copy emails from one folder to another folder, mark emails as read or unread, and delete emails.
 
 ## Access requirements
 
@@ -36,47 +36,47 @@ You must have the following access to use the functionality in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
+   <td>Your organization must purchase [!DNL Adobe Workfront Fusion] as well as [!DNL Adobe Workfront] to use functionality described in this article.</td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+&#42;To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
 
 &#42;&#42;For information on Adobe Workfront Fusion licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
 ## Connect your email to Workfront Fusion {#connect-your-email-to-workfront-fusion}
 
-* [Connect to Google](#connect-to-google) 
-* [Connect to other email services (SMAP)](#connect-to-other-email-services-smap)
+* [[!UICONTROL Connect to Google]](#connect-to-google)
+* [[!UICONTROL Connect to other email services (SMAP)]](#connect-to-other-email-services-smap)
 
 ### Connect to Google {#connect-to-google}
 
 Use this option to create scenarios with email modules that require a connection to your Google account. This is an account with restricted scopes.
 
-You can create a connection to your Google account directly from inside an Allocadia module.
+You can create a connection to your [!DNL Google] account directly from inside an Allocadia module.
 
-1. In any Email module, click **Add** next to the Connection field.
-1. Select **Google** as the connection type.
+1. In any Email module, click **Add** next to the [!UICONTROL Connection] field.
+1. Select **[!UICONTROL Google]** as the connection type.
 1. Enter a name for the connection.
 1. (Optional) Enter your Google Client ID and Client Secret.
-1. Click **Continue** to create the connection and go back to the module.
+1. Click **[!UICONTROL Continue]** to create the connection and go back to the module.
 
 ### Connect to other email services (SMAP) {#connect-to-other-email-services-smap}
 
 SMAP connection allows you to access your mailbox remotely and read or manipulate messages in your mailbox. SMAP connection is used by most of the Email modules.
 
-1. In any Email module, click **Add** next to the Connection field.
-1. Select **Others (SMTP)**as the connection type.
+1. In any Email module, click **Add** next to the [!UICONTROL Connection] field.
+1. Select **Others (SMTP)**&#x200B;as the connection type.
 1. Enter a **Name** for the connection.
 1. Select your **Email provider** from the list. If your email provider is not on the list, select Other.
 1. Enter your **Email address**, **Your full name**, your **User name**, and your **Password**.
-1. (Conditional) If your provider is not on the list, enter your **SMTP server** and **Port**, and specify whether you want to **Use a secure connection (TLS)**. To find this information, check the Help section for your mailbox. If you don't have this information available, contact your email service provider.
-1. Click **Continue** to create the connection and go back to the module.
+1. (Conditional) If your provider is not on the list, enter your **SMTP server** and **Port**, and specify whether you want to **Use a secure connection (TLS)**. To find this information, check the [!UICONTROL Help] section for your mailbox. If you don't have this information available, contact your email service provider.
+1. Click **[!UICONTROL Continue]** to create the connection and go back to the module.
 
 ## Email modules and their fields
 
-When you configure email modules, Workfront Fusion displays the fields listed below. Along with these, additional email fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
+When you configure email modules, [!DNL Workfront Fusion] displays the fields listed below. Along with these, additional email fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
 
 Some of the email fields might already contain data because you used them in another module in the scenario. See the email help documentation if you need information about them.
 
@@ -88,8 +88,8 @@ If you see the map button above a field or function, you can use it to set varia
 >
 >The Unique Email ID known as 'Email ID (UID)' is the email's identifier. The Email ID is specific for each of the email's folders.
 
-* [Triggers](#triggers) 
-* [Actions](#actions) 
+* [Triggers](#triggers)
+* [Actions](#actions)
 * [Iterators](#iterators)
 
 ### Triggers {#triggers}
@@ -141,21 +141,21 @@ Triggers when a new email is received for processing according to specified crit
   </tr> 
   <tr> 
    <td role="rowheader">Maximum number of results</td> 
-   <td> <p> The maximum number of emails Workfront Fusion should return during one scenario execution cycle.</p> </td> 
+   <td> <p> The maximum number of emails [!DNL Workfront Fusion] should return during one scenario execution cycle.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ### Actions {#actions}
 
-* [Send an Email](#send-an-email) 
-* [Create a Draft](#create-a-draft) 
-* [Mark an Email as Read](#mark-an-email-as-read) 
-* [Mark an Email as Unread](#mark-an-email-as-unread) 
-* [Move an Email](#move-an-email) 
-* [Copy an Email](#copy-an-email) 
-* [Delete an Email](#delete-an-email) 
-* [Get Emails](#get-emails) 
+* [Send an Email](#send-an-email)
+* [Create a Draft](#create-a-draft)
+* [Mark an Email as Read](#mark-an-email-as-read)
+* [Mark an Email as Unread](#mark-an-email-as-unread)
+* [[!UICONTROL Move an Email]](#move-an-email)
+* [Copy an Email](#copy-an-email)
+* [Delete an Email](#delete-an-email)
+* [Get Emails](#get-emails)
 * [Send me an Email](#send-me-an-email)
 
 #### Send an Email {#send-an-email}
@@ -172,7 +172,7 @@ Sends a new email.
   </tr> 
   <tr> 
    <td role="rowheader">Save Message after Sending</td> 
-   <td>After the email message is sent, it will be saved in your mailbox. Enable this option if you want to save emails sent using Workfront Fusion to the <i>Sent mail</i> folder or another folder in your mailbox. Some email services, such as Gmail, save sent messages automatically.</td> 
+   <td>After the email message is sent, it will be saved in your mailbox. Enable this option if you want to save emails sent using [!DNL Workfront Fusion] to the <i>Sent mail</i> folder or another folder in your mailbox. Some email services, such as Gmail, save sent messages automatically.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">To </td> 
@@ -184,7 +184,7 @@ Sends a new email.
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Content Type</p> </td> 
-   <td> <p>Select the content type for the email:</p> 
+   <td> <p>Select the [!UICONTROL content] type for the email:</p> 
     <ul> 
      <li>HTML</li> 
      <li>Plaintext</li> 
@@ -192,7 +192,7 @@ Sends a new email.
   </tr> 
   <tr> 
    <td role="rowheader">Content </td> 
-   <td> <p>Enter or map the email content in HTML format using HTML tags, or in the plain text, depending on what you chose in the Content Type field.</p> </td> 
+   <td> <p>Enter or map the email content in HTML format using HTML tags, or in the plain text, depending on what you chose in the [!UICONTROL Content Type] field.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Attachments</p> </td> 
@@ -200,7 +200,7 @@ Sends a new email.
     <ul> 
      <li> <p><strong>File name</strong> </p> <p>Enter the file name. For example, sample.doc.</p> </li> 
      <li> <p><strong>Data</strong> </p> <p>Enter the path to the folder to upload the attachment.</p> </li> 
-     <li> <p><strong>Content-ID</strong> </p> <p>Enter the content ID to insert the attachment (image) in the content.</p> </li> 
+     <li> <p><strong>Content-ID</strong> </p> <p>Enter the [!UICONTROL content ID] to insert the attachment (image) in the content.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -213,11 +213,11 @@ Sends a new email.
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">From </td> 
-   <td> <p>Enter or map the email address (and name, if needed) that appears in the From field in the email. </p> <p>Important: Use the correct syntax: <code>name@email.com</code> or <code>"Name" name@email.com</code>.</p> <p>Note:  Normally, Workfront Fusion uses the email address that you entered when creating the connection as the sender address. If you enter any other email address, an error may occur when sending a message because your account may not have permission to send emails from a different address than your own. E.g. <code>test@mail.com</code> or "<code>John Bush" test@email.com</code>.</p> </td> 
+   <td> <p>Enter or map the email address (and name, if needed) that appears in the [!UICONTROL From] field in the email. </p> <p>Important: Use the correct syntax: <code>name@email.com</code> or <code>"Name" name@email.com</code>.</p> <p>Note:  Normally, [!DNL Workfront] Fusion uses the email address that you entered when creating the connection as the sender address. If you enter any other email address, an error may occur when sending a message because your account may not have permission to send emails from a different address than your own. E.g. <code>test@mail.com</code> or "<code>John Bush" test@email.com</code>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Sender</p> </td> 
-   <td> <p>Enter or map the email address that appears in the Sender field in the email.</p> <p>Tip:  If you are unsure whether to use this field or the From field, we recommend choosing the From field.</p> <p>Important: Use the correct syntax: <code>name@email.com</code> or <code>"Name" name@email.com</code></p> </td> 
+   <td> <p>Enter or map the email address that appears in the [!UICONTROL Sender] field in the email.</p> <p>Tip:  If you are unsure whether to use this field or the From field, we recommend choosing the From field.</p> <p>Important: Use the correct syntax: <code>name@email.com</code> or <code>"Name" name@email.com</code></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Reply-To</td> 
@@ -277,7 +277,7 @@ Creates and adds a new draft to a selected folder.
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader"> <p>Content Type</p> </td> 
-   <td> <p>Select the content type for the email:</p> 
+   <td> <p>Select the [!UICONTROL content] type for the email:</p> 
     <ul> 
      <li>HTML</li> 
      <li>Plain Text</li> 
@@ -285,7 +285,7 @@ Creates and adds a new draft to a selected folder.
   </tr> 
   <tr> 
    <td role="rowheader">Content </td> 
-   <td> <p>Enter or map the email content in HTML format using HTML tags, or in the plain text, depending on what you chose in the Content Type field.</p> </td> 
+   <td> <p>Enter or map the email content in HTML format using HTML tags, or in the plain text, depending on what you chose in the [!UICONTROL Content Type] field.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Attachments</p> </td> 
@@ -293,7 +293,7 @@ Creates and adds a new draft to a selected folder.
     <ul> 
      <li> <p><strong>File name</strong> </p> <p>Enter the file name. For example, sample.doc.</p> </li> 
      <li> <p><strong>Data</strong> </p> <p>Enter the path to the folder to upload the attachment.</p> </li> 
-     <li> <p><strong>Content-ID</strong> </p> <p>Enter the content ID to insert the attachment (image) in the content.</p> </li> 
+     <li> <p><strong>Content-ID</strong> </p> <p>Enter the [!UICONTROL content ID] to insert the attachment (image) in the content.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -306,11 +306,11 @@ Creates and adds a new draft to a selected folder.
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">From </td> 
-   <td> <p>Enter or map the email address (and name, if needed) that appears in the From field in the email. </p> <p>Important: Use the correct syntax: <code>name@email.com</code> or <code>"Name" name@email.com</code>.</p> <p>Note:  Normally, Workfront Fusion uses the email address that you entered when creating the connection as the sender address. If you enter any other email address, an error may occur when sending a message because your account may not have permission to send emails from a different address than your own. E.g. <code>test@mail.com</code> or "<code>John Bush" test@email.com</code>.</p> </td> 
+   <td> <p>Enter or map the email address (and name, if needed) that appears in the [!UICONTROL From] field in the email. </p> <p>Important: Use the correct syntax: <code>name@email.com</code> or <code>"Name" name@email.com</code>.</p> <p>Note:  Normally, [!DNL Workfront] Fusion uses the email address that you entered when creating the connection as the sender address. If you enter any other email address, an error may occur when sending a message because your account may not have permission to send emails from a different address than your own. E.g. <code>test@mail.com</code> or "<code>John Bush" test@email.com</code>.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader"> <p>Sender</p> </td> 
-   <td> <p>Enter or map the email address that appears in the Sender field in the email.</p> <p>Tip:  If you are unsure whether to use this field or the From field, we recommend choosing the From field.</p> <p>Important: Use the correct syntax: <code>name@email.com</code> or <code>"Name" name@email.com</code></p> </td> 
+   <td> <p>Enter or map the email address that appears in the [!UICONTROL Sender] field in the email.</p> <p>Tip:  If you are unsure whether to use this field or the From field, we recommend choosing the From field.</p> <p>Important: Use the correct syntax: <code>name@email.com</code> or <code>"Name" name@email.com</code></p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Reply-To</td> 
@@ -362,7 +362,7 @@ Marks an email or a draft in a selected folder as read by setting the Read flag.
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Email ID (UID)</p> </td> 
-   <td> <p>Enter the Email UID of the email you want to mark as read.</p> <p>You can get the UID of the email by using the Email &gt; Watch Email module or Search Email module.</p> </td> 
+   <td> <p>Enter the Email UID of the email you want to mark as read.</p> <p>You can get the UID of the email by using the [!UICONTROL Email] >[!UICONTROL Watch Email] module or [!UICONTROL Search Email] module.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -385,7 +385,7 @@ Marks an email or a draft in a selected folder as unread by setting the Unread f
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Email ID (UID)</p> </td> 
-   <td> <p>Enter the Email UID of the email you want to mark as unread.</p> <p>You can get the UID of the email by using the Email &gt; Watch Email module or Search Email module.</p> </td> 
+   <td> <p>Enter the Email UID of the email you want to mark as unread.</p> <p>You can get the UID of the email by using the [!UICONTROL Email] >[!UICONTROL Watch Email] module or [!UICONTROL Search Email] module.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -412,7 +412,7 @@ Moves a chosen email or a draft to a selected folder.
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Email ID (UID)</p> </td> 
-   <td> <p>Enter the Email UID of the email you want to move to the destination folder.</p> <p>You can get the UID of the email by using the Email &gt; Watch Email module or Search Email module.</p> </td> 
+   <td> <p>Enter the Email UID of the email you want to move to the destination folder.</p> <p>You can get the UID of the email by using the [!UICONTROL Email] >[!UICONTROL Watch Email] module or [!UICONTROL Search Email] module.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -439,7 +439,7 @@ Copies an email or a draft into a selected folder.
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Email ID (UID)</p> </td> 
-   <td> <p>Enter the Email UID of the email you want to copy to the destination folder.</p> <p>You can get the UID of the email by using the Email &gt; Watch Email module or Search Email module.</p> </td> 
+   <td> <p>Enter the Email UID of the email you want to copy to the destination folder.</p> <p>You can get the UID of the email by using the [!UICONTROL Email] >[!UICONTROL Watch Email] module or [!UICONTROL Search Email] module.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -462,11 +462,11 @@ Removes an email or a draft from the selected folder.
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Email ID (UID)</p> </td> 
-   <td> <p>Enter the Email UID of the email you want to delete.</p> <p>You can get the UID of the email by using the Email &gt; Watch Email module or Search Email module.</p> </td> 
+   <td> <p>Enter the Email UID of the email you want to delete.</p> <p>You can get the UID of the email by using the [!UICONTROL Email] >[!UICONTROL Watch Email] module or [!UICONTROL Search Email] module.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Expunge</td> 
-   <td> <p>Enable this option to allow the module to permanently remove all messages flagged as Deleted in the currently open mailbox.</p> <p>Note: In Gmail, this behavior is driven by the setting in Settings &gt; Forwarding POP/IMAP in IMAP access section.</p> </td> 
+   <td> <p>Enable this option to allow the module to permanently remove all messages flagged as Deleted in the currently open mailbox.</p> <p>Note: In Gmail, this behavior is driven by the setting in [!UICONTROL Settings] >[!UICONTROL Forwarding POP/IMAP in IMAP access] section.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -530,7 +530,7 @@ Returns emails that match the specified criteria.
   </tr> 
   <tr> 
    <td role="rowheader">Maximum number of results</td> 
-   <td> <p> The maximum number of emails Workfront Fusion should return during one scenario execution cycle.</p> </td> 
+   <td> <p> The maximum number of emails [!DNL Workfront Fusion] should return during one scenario execution cycle.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Continue the execution of the route even if the module returns no results</td> 

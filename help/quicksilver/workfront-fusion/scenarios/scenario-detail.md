@@ -2,17 +2,17 @@
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
-title: Scenario details in Adobe Workfront Fusion
-description: Scenario details in Adobe Workfront Fusion
+title: Scenario details in [!DNL Adobe Workfront] Fusion
+description: Scenario details in [!DNL Adobe Workfront] Fusion
 author: Becky
 feature: Workfront Fusion
 exl-id: 1d8a3492-d609-43c8-a486-a401a597f160
 ---
-# Scenario details in Adobe Workfront Fusion
+# Scenario details in [!DNL Adobe Workfront] Fusion
 
 The scenario detail page is the homepage of a specific scenario. It provides access to specific information for the scenario that is represented on the page.
 
-It also provides you access to the [The scenario editor in Adobe Workfront Fusion](../../workfront-fusion/scenarios/scenario-editor.md), where you can edit the scenario.
+It also provides you access to the [The scenario editor in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/scenario-editor.md), where you can edit the scenario.
 
 ## Access requirements
 
@@ -36,22 +36,22 @@ You must have the following access to use the functionality in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
+   <td>Your organization must purchase [!DNL Adobe Workfront Fusion] as well as [!DNL Adobe Workfront] to use functionality described in this article.</td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+&#42;To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
 
 &#42;&#42;For information on Adobe Workfront Fusion licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
 ## Open the scenario detail page:
 
-1. Click the **Scenario** tab in the left panel, then click a scenario you would like details on.
+1. Click the **[!UICONTROL Scenario]** tab in the left panel, then click a scenario you would like details on.
 
    Or
 
-   If you are working on the scenario in the [The scenario editor in Adobe Workfront Fusion](../../workfront-fusion/scenarios/scenario-editor.md), click the left arrow ![](assets/exit-editing-arrow.png) near the upper-left corner of the window.
+   If you are working on the scenario in the [The scenario editor in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/scenario-editor.md), click the left arrow ![](assets/exit-editing-arrow.png) near the upper-left corner of the window.
 
 1. On the page that displays, you can review the elements listed in the table below.
 
@@ -66,8 +66,8 @@ You must have the following access to use the functionality in this article:
       <td>This tab displays the visual representation of the scenario. The Diagram is the same as you will see in the scenario editor</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>History (tab)</strong> </td> 
-      <td> <p>Open this tab to see a history of the scenario, including any editing of the scenario. </p> <p>The History tab also provides the scenario execution history of each run, which includes the following:</p> 
+      <td role="rowheader"><strong>[!UICONTROL History] (tab)</strong> </td> 
+      <td> <p>Open this tab to see a history of the scenario, including any editing of the scenario. </p> <p>The [!UICONTROL History] tab also provides the scenario execution history of each run, which includes the following:</p> 
        <ul> 
         <li>Status of each run (success or error)</li> 
         <li>Run duration</li> 
@@ -110,7 +110,7 @@ You must have the following access to use the functionality in this article:
       <td>This area shows information related to the currently running execution.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"> <p>History (area)</p> <p>&nbsp;</p> </td> 
+      <td role="rowheader"> <p>History (area)</p> <p> </p> </td> 
       <td> <p>This area shows information related to the last runs of the scenario. For every run it displays:</p> 
        <ul> 
         <li>Run date</li> 
@@ -124,7 +124,7 @@ You must have the following access to use the functionality in this article:
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Stats</p>  </td> 
-      <td>This graph allows you to view the amount of data transfer and operations used throughout the runs of the scenario in a line graph.</td> 
+      <td>This graph allows you to view the amount of data transfer and operations used throughout the runs of the scenario in a [!UICONTROL line] graph.</td> 
      </tr> 
     </tbody> 
    </table>

@@ -4,7 +4,7 @@ product-previous: workfront-proof
 product-area: documents
 navigation-topic: tips-tricks-and-troubleshooting-workfront-proof-tech-corner
 title: Problems With Viewing Proofs - Flash Shared Objects Explained
-description: 'Note: The information in this article refers to functionality that is currently deprecated and will be removed from Workfront in 2018. We recommend that you use the new Web Proofing Viewer (as described in Reviewing Proofs in the Web Proofing Viewer) or the Desktop Proofing Viewer (as described in Reviewing Proofs in the Desktop Proofing Viewer).'
+description: 'Note: The information in this article refers to functionality that is currently deprecated and will be removed from [!DNL Workfront] in 2018. We recommend that you use the new Web Proofing Viewer (as described in Reviewing Proofs in the Web Proofing Viewer) or the Desktop Proofing Viewer (as described in Reviewing Proofs in the Desktop Proofing Viewer).'
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: f1f3561e-8660-4c1e-b48f-446eb0eaac06
@@ -13,21 +13,21 @@ exl-id: f1f3561e-8660-4c1e-b48f-446eb0eaac06
 
 >[!IMPORTANT]
 >
->This article refers to functionality in the standalone product Workfront Proof. For information on proofing inside Adobe Workfront, see [Proofing](../../../review-and-approve-work/proofing/proofing.md).
+>This article refers to functionality in the standalone product [!DNL Workfront] Proof. For information on proofing inside [!DNL Adobe Workfront], see [Proofing](../../../review-and-approve-work/proofing/proofing.md).
 
 >[!NOTE]
 >
->The information in this article refers to functionality that is currently deprecated and will be removed from Workfront in 2018. We recommend that you use the new Web Proofing Viewer (as described in [Reviewing Proofs in the Web Proofing Viewer](https://support.workfront.com/hc/en-us/sections/115000275214-Reviewing-Proofs-in-the-Web-Proofing-Viewer)) or the Desktop Proofing Viewer (as described in [Reviewing Proofs in the Desktop Proofing Viewer](https://support.workfront.com/hc/en-us/sections/360000686434-Reviewing-Proofs-in-the-Desktop-Proofing-Viewer)).
+>The information in this article refers to functionality that is currently deprecated and will be removed from [!DNL Workfront] in 2018. We recommend that you use the new Web Proofing Viewer (as described in [Reviewing Proofs in the Web Proofing Viewer](https://support.workfront.com/hc/en-us/sections/115000275214-Reviewing-Proofs-in-the-Web-Proofing-Viewer)) or the Desktop Proofing Viewer (as described in [Reviewing Proofs in the Desktop Proofing Viewer](https://support.workfront.com/hc/en-us/sections/360000686434-Reviewing-Proofs-in-the-Desktop-Proofing-Viewer)).
 
 ## Flash Shared Objects
 
 A local sared object, sometimes called a "Flash cookie," is a data file that can be created on your computer by the sites you visit. Shared objects are most often used to enhance your web-browsing experience. A Flash cookie is a message used in Adobe Flash that is sent from a Web server to a Web browser and is then stored as a data file in the browser.
 
-Since the Workfront Proof Viewer is based on Flash, it would be worth to check what storage is allowed for Flash applications on your computer.
+Since the [!DNL Workfront] Proof Viewer is based on [!DNL Flash], it would be worth to check what storage is allowed for Flash applications on your computer.
 
 ## Flash Shared Objects - known issues
 
-&nbsp;If the Flash storage is set to 0 KB or has another setting that blocks Flash applications from saving the data locally, it may cause some known issues in the Workfront Proof Viewer:
+&nbsp;If the Flash storage is set to 0 KB or has another setting that blocks Flash applications from saving the data locally, it may cause some known issues in the [!DNL Workfront] Proof Viewer:
 
 * The 'Getting started' tour pop-up keeps appearing although the option to not show it again was chosen
 * Workfront Proof Viewer performance slows down due to to the increasing number of comments added to the proofs
@@ -39,10 +39,10 @@ Make sure that storing Flash Shared Objects is allowed on the computer and that 
 
 To check if the Shared Objects are allowed:
 
-1. Right click in the Workfront Proof Viewer.
-1. Select **Global Settings** from the context menu.
-1. Go to the **Storage** tab.
-1. Make sure that **Allow sites to save information on this computer** is selected (1).
+1. Right click in the [!DNL Workfront] Proof Viewer.
+1. Select **[!UICONTROL Global Settings]** from the context menu.
+1. Go to the **[!UICONTROL Storage]** tab.
+1. Make sure that **[!UICONTROL Allow sites to save information on this computer]** is selected (1).
 1. ![2017-06-09_1929.png](assets/2017-06-09-1929-350x267.png)
 
 ## Increasing Flash storage

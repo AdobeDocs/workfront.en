@@ -35,12 +35,12 @@ You must have the following access to use the functionality in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
+   <td>Your organization must purchase [!DNL Adobe Workfront Fusion] as well as [!DNL Adobe Workfront] to use functionality described in this article.</td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+&#42;To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
 
 &#42;&#42;For information on Adobe Workfront Fusion licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
@@ -61,7 +61,7 @@ If the bundles process correctly throughout all of the modules, the scenario is 
 
 >[!INFO]
 >
->**Example:** In a scenario that watches for incoming requests in Workfront and then converts them to Workfront projects, data would flow as follows.
+>**Example:** In a scenario that watches for incoming requests in [!DNL Workfront] and then converts them to [!DNL Workfront] projects, data would flow as follows.
 >
 >The scenario's first step, performed by the first module, is to watch for requests. Each request that comes in is considered one bundle. If the module runs without finding any bundles, the scenario ends after the first module.
 >
@@ -73,7 +73,7 @@ If the bundles process correctly throughout all of the modules, the scenario is 
 
 >[!INFO]
 >
->**Example:** In a scenario that downloads documents from Adobe Workfront and sends them to a folder in Dropbox, data would flow as follows.
+>**Example:** In a scenario that downloads documents from [!DNL Adobe Workfront] and sends them to a folder in Dropbox, data would flow as follows.
 >
 >The scenario's first step, performed by the first module, is to watch for bundles (documents). In this example, the module watches for bundles in Workfront. If it does not return a bundle, the scenario ends after the first module.
 >
@@ -102,7 +102,7 @@ After processing, the module returned this output information:
 * Image ID assigned by Dropbox
 * Full path where in Dropbox Workfront Fusion uploaded the file
 
-The above information is captured for each bundle separately, as marked by the drop down boxes Operation 1 and Operation 2 in the image.
+The above information is captured for each bundle separately, as marked by the drop down boxes [!UICONTROL Operation 1] and [!UICONTROL Operation 2] in the image.
 
 For more information on transaction processing see [Scenario execution, cycles, and phases in Adobe Workfront Fusion](../../workfront-fusion/scenarios/scenario-execution-cycles-phases.md).
 

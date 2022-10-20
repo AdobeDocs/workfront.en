@@ -5,14 +5,14 @@ product-area: workfront-integrations;documents
 keywords: connector
 navigation-topic: apps-and-their-modules
 title: Dropbox modules
-description: In an Adobe Workfront Fusion scenario, you can automate workflows that use Dropbox, as well as connect it to multiple third-party applications and services.This allows you to automate activities such as monitoring, searching, retrieving, listing, creating, and editing files and folders in your Dropbox.
+description: In an [!DNL Adobe Workfront Fusion] scenario, you can automate workflows that use Dropbox, as well as connect it to multiple third-party applications and services.This allows you to automate activities such as monitoring, searching, retrieving, listing, creating, and editing files and folders in your Dropbox.
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: a35631d7-40ac-4e7f-9a37-ad3879c0b6a2
 ---
 # Dropbox modules
 
-In an Adobe Workfront Fusion scenario, you can automate workflows that use Dropbox, as well as connect it to multiple third-party applications and services.This allows you to automate activities such as monitoring, searching, retrieving, listing, creating, and editing files and folders in your Dropbox.
+In an [!DNL Adobe Workfront Fusion] scenario, you can automate workflows that use Dropbox, as well as connect it to multiple third-party applications and services.This allows you to automate activities such as monitoring, searching, retrieving, listing, creating, and editing files and folders in your Dropbox.
 
 If you need instructions on creating a scenario, see [Create a scenario in Adobe Workfront Fusion](../../workfront-fusion/scenarios/create-a-scenario.md).
 
@@ -40,12 +40,12 @@ You must have the following access to use the functionality in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
+   <td>Your organization must purchase [!DNL Adobe Workfront Fusion] as well as [!DNL Adobe Workfront] to use functionality described in this article.</td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+&#42;To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
 
 &#42;&#42;For information on Adobe Workfront Fusion licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
@@ -55,15 +55,15 @@ To use Dropbox modules, you must have a Dropbox account.
 
 ## Dropbox modules and their fields
 
-When you configure Dropbox modules, Workfront Fusion displays the fields listed below. Along with these, additional Dropbox fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
+When you configure Dropbox modules, [!DNL Workfront Fusion] displays the fields listed below. Along with these, additional Dropbox fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
 
 If you see the map button above a field or function, you can use it to set variables and functions for that field. For more information, see [Map information from one module to another in Adobe Workfront Fusion](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 ![](assets/map-toggle-350x74.png)
 
-* [Trigger modules](#trigger-modules) 
-* [Modules for getting Dropbox files and folders](#modules-for-getting-dropbox-files-and-folders) 
-* [Modules for creating and editing Dropbox files and folders](#modules-for-creating-and-editing-dropbox-files-and-folders) 
+* [Trigger modules](#trigger-modules)
+* [Modules for getting Dropbox files and folders](#modules-for-getting-dropbox-files-and-folders)
+* [Modules for creating and editing Dropbox files and folders](#modules-for-creating-and-editing-dropbox-files-and-folders)
 * [Other modules](#other-modules)
 
 ### Trigger modules {#trigger-modules}
@@ -97,10 +97,10 @@ This Trigger type module returns file details when the file in a specified folde
 
 ### Modules for getting Dropbox files and folders {#modules-for-getting-dropbox-files-and-folders}
 
-* [Search Files/Folders](#search-files-folders) 
-* [Download a File](#download-a-file) 
-* [Get a Folder Metadata](#get-a-folder-metadata) 
-* [List All Files/Subfolders in a Folder](#list-all-files-subfolders-in-a-folder) 
+* [Search Files/Folders](#search-files-folders)
+* [Download a File](#download-a-file)
+* [Get a Folder Metadata](#get-a-folder-metadata)
+* [List All Files/Subfolders in a Folder](#list-all-files-subfolders-in-a-folder)
 * [List File Revisions](#list-file-revisions)
 
 #### Search Files/Folders {#search-files-folders}
@@ -241,7 +241,7 @@ When you are configuring this module, the following fields display.
 
 #### List File Revisions {#list-file-revisions}
 
-This action module retrieves all file revisions (a version history) of a particular file.  
+This action module retrieves all file revisions (a version history) of a particular file.\
 You specify the ID of the file.
 
 The module returns any standard fields associated with the record, along with any custom fields and values that the connection accesses. You can map this information in subsequent modules in the scenario.
@@ -273,13 +273,13 @@ When you are configuring this module, the following fields display.
 
 ### Modules for creating and editing Dropbox files and folders {#modules-for-creating-and-editing-dropbox-files-and-folders}
 
-* [Upload a File](#upload-a-file) 
-* [Create a Folder](#create-a-folder) 
-* [Create/Overwrite a Text File](#create-overwrite-a-text-file) 
-* [Create/Update a Share Link](#create-update-a-share-link) 
-* [Restore a File](#restore-a-file) 
-* [Move a File/Folder](#move-a-file-folder) 
-* [Rename a File/Folder](#rename-a-file-folder) 
+* [[!UICONTROL Upload] a File](#upload-a-file)
+* [Create a Folder](#create-a-folder)
+* [Create/Overwrite a Text File](#create-overwrite-a-text-file)
+* [Create/Update a Share Link](#create-update-a-share-link)
+* [Restore a File](#restore-a-file)
+* [Move a File/Folder](#move-a-file-folder)
+* [Rename a File/Folder](#rename-a-file-folder)
 * [Delete a File/Folder](#delete-a-file-folder)
 
 #### Upload a File {#upload-a-file}
@@ -306,7 +306,7 @@ When you are configuring this module, the following fields display.
   </tr> 
   <tr> 
    <td> <p>Source File</p> </td> 
-   <td> <p>Enter or map the file you want to add to the Dropbox folder selected above.</p> <p style="font-weight: bold;">File name</p> <p>Enter or map the file name, including the file extension.</p> <p style="font-weight: bold;">File data</p> <p>Enter or map the file data (from previous module such as Google Drive &gt; Get a File).</p> <p>Note: The maximum size of the uploaded file is 150 MB.</p> </td> 
+   <td> <p>Enter or map the file you want to add to the Dropbox folder selected above.</p> <p style="font-weight: bold;">File name</p> <p>Enter or map the file name, including the file extension.</p> <p style="font-weight: bold;">File data</p> <p>Enter or map the file data (from previous module such as [!UICONTROL Google Drive] >[!UICONTROL Get a File)].</p> <p>Note: The maximum size of the uploaded file is 150 MB.</p> </td> 
   </tr> 
   <tr> 
    <td>Overwrite an existing file</td> 
@@ -339,7 +339,7 @@ When you are configuring this module, the following fields display.
   </tr> 
   <tr> 
    <td> <p>Folder</p> </td> 
-   <td> <p>Enter or map the path where you want to create a new folder.</p> <p>Note:   <p>If you are using a Dropbox Business account (with team spaces), you must remove the slash <code>/</code>, or do not click <strong>Click here to choose folder</strong> to create a team folder in the root.</p> <p>If the slash is not removed an error <code>[409] path/malformed_path/..</code> is returned.</p> </p> </td> 
+   <td> <p>Enter or map the path where you want to create a new folder.</p> <p>Note:   <p>If you are using a Dropbox Business account (with team spaces), you must remove the slash <code>/</code>, or do not click <strong>[!UICONTROL Click here] to choose folder</strong> to create a team folder in the root.</p> <p>If the slash is not removed an error <code>[409] path/malformed_path/..</code> is returned.</p> </p> </td> 
   </tr> 
   <tr> 
    <td>Auto rename</td> 
@@ -409,11 +409,11 @@ When you are configuring this module, the following fields display.
   </tr> 
   <tr> 
    <td> <p>Requested Visibility</p> </td> 
-   <td> <p>Select whether the link is public, for team, or password restricted.</p> <p>Note: Team only and Access with password options are only available to users who have Dropbox Pro or higher version.</p> </td> 
+   <td> <p>Select whether the link is public, for team, or password restricted.</p> <p>Note: [!UICONTROL Team only] and [!UICONTROL Access with password] options are only available to users who have Dropbox Pro or higher version.</p> </td> 
   </tr> 
   <tr> 
    <td>Link's Expiration Date</td> 
-   <td> <p> Enter the date and time when the link will expire and will be no longer accessible. If this field is left empty, the link will not expire. For a list of supported date and time formats, see <a href="../../workfront-fusion/mapping/type-coercion.md" class="MCXref xref" data-mc-variable-override="">Type coercion in Adobe Workfront Fusion</a>.</p> <p>Note: Team only and Access with password options are only available to users who have Dropbox Pro or higher versions.</p> </td> 
+   <td> <p> Enter the date and time when the link will expire and will be no longer accessible. If this field is left empty, the link will not expire. For a list of supported date and time formats, see <a href="../../workfront-fusion/mapping/type-coercion.md" class="MCXref xref" data-mc-variable-override="">Type coercion in Adobe Workfront Fusion</a>.</p> <p>Note: [!UICONTROL Team only] and [!UICONTROL Access with password] options are only available to users who have [!UICONTROL Dropbox] Pro or higher versions.</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Link's Access Level</p> </td> 
@@ -446,7 +446,7 @@ When you are configuring this module, the following fields display.
   </tr> 
   <tr> 
    <td> <p>File Path / File</p> </td> 
-   <td> <p><strong>File Path</strong> </p> <p>Enter or map the target path to the file.</p> <p><strong>File</strong> </p> <p>Select the file from the menu.</p> </td> 
+   <td> <p><strong>File Path</strong> </p> <p>Enter or map the target path to the file.</p> <p><strong>[!UICONTROL File]</strong> </p> <p>Select the file from the menu.</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Revision</p> </td> 
@@ -528,7 +528,7 @@ When you are configuring this module, the following fields display.
   </tr> 
   <tr> 
    <td>Rename </td> 
-   <td> <p>Enter the target name for the file, including the file extension.</p> </td> 
+   <td> <p>Enter the [!UICONTROL target name] for the file, including the file extension.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -596,7 +596,7 @@ When you are configuring this module, the following fields display.
   </tr> 
   <tr> 
    <td>Body </td> 
-   <td> <p>Add the body content for the API call in the form of a standard JSON object.</p> <p>Note:   <p>When using conditional statements such as <code>if</code> in your JSON, put the quotation marks outside of the conditional statement.</p> 
+   <td> <p>Add the body content for the API call in the form of a standard [!DNL JSON] object.</p> <p>Note:   <p>When using conditional statements such as <code>if</code> in your JSON, put the quotation marks outside of the conditional statement.</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>">  
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td> 
@@ -606,7 +606,7 @@ When you are configuring this module, the following fields display.
 
 >[!INFO]
 >
->**Example:** The following API call returns the first 10 files from the /Text files folder in your Dropbox account:
+>**Example:** The following API call returns the first 10 files from the [!DNL /Text files] folder in your Dropbox account:
 >
 >URL: `/2/files/list_folder`
 >
@@ -630,7 +630,7 @@ When you are configuring this module, the following fields display.
 
 ## Common problems
 
-* [Unable to upload or update a file](#unable-to-upload-or-update-a-file) 
+* [Unable to upload or update a file](#unable-to-upload-or-update-a-file)
 * [Image referenced via a shared link does not render](#image-referenced-via-a-shared-link-does-not-render)
 
 ### Unable to upload or update a file {#unable-to-upload-or-update-a-file}
@@ -642,9 +642,9 @@ There are several situations when uploading or updating a file fails:
 
 ### Image referenced via a shared link does not render {#image-referenced-via-a-shared-link-does-not-render}
 
-The URL returned by the Dropbox > Create a shared link does not link directly to an image, but to a Dropbox page. To force the image to download, replace the trailing `?dl=0` with `?dl=1`. To force the image to render (for example, in a Web browser or in Facebook Messenger), append `&raw=1` to the URL.
+The URL returned by the [!UICONTROL Dropbox] >[!UICONTROL Create a shared link] does not link directly to an image, but to a Dropbox page. To force the image to download, replace the trailing `?dl=0` with `?dl=1`. To force the image to render (for example, in a Web browser or in Facebook Messenger), append `&raw=1` to the URL.
 
-If you need to get the direct or raw link of your image for your website or for other Workfront Fusion modules, you must modify the initial shared URL in the following way:
+If you need to get the direct or raw link of your image for your website or for other [!DNL Workfront Fusion] modules, you must modify the initial shared URL in the following way:
 
 Original URL:
 
@@ -661,11 +661,11 @@ To automatically modify the URL, you can use the `replace()` function twice:
 
 * Replace www with dl
 
-  ![](assets/www-to-dl-350x32.png)
+   ![](assets/www-to-dl-350x32.png)
 
 * And to remove ?dl=0
 
-  ![](assets/remove-dl0-350x33.png)
+   ![](assets/remove-dl0-350x33.png)
 
 To do it in one step, combine these functions:
 

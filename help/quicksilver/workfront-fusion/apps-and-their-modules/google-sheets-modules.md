@@ -5,14 +5,14 @@ product-area: workfront-integrations;documents
 keywords: connector
 navigation-topic: apps-and-their-modules
 title: Google Sheets modules
-description: In order to use Google Sheets with Adobe Workfront Fusion,you need the Workfront Fusion Google Sheets extension (optional, but required for instant triggers).
+description: In order to use [!DNL Google Sheets] with [!DNL Adobe Workfront Fusion],you need the [!UICONTROL Workfront Fusion Google Sheets] extension (optional, but required for instant triggers).
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 11d62222-df34-472d-93d7-f0d53eb95c9b
 ---
 # Google Sheets modules
 
-In an Adobe Workfront Fusion scenario, you can automate workflows that use Google, as well as connect it to multiple third-party applications and services.
+In an [!DNL Adobe Workfront] Fusion scenario, you can automate workflows that use Google, as well as connect it to multiple third-party applications and services.
 
 For instructions about connecting your Google Sheets account to Workfront Fusion, see [Create a connection to Adobe Workfront Fusion - Basic instructions](../../workfront-fusion/connections/connect-to-fusion-general.md)
 
@@ -38,12 +38,12 @@ You must have the following access to use the functionality in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
+   <td>Your organization must purchase [!DNL Adobe Workfront Fusion] as well as [!DNL Adobe Workfront] to use functionality described in this article.</td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+&#42;To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
 
 &#42;&#42;For information on Adobe Workfront Fusion licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
@@ -89,7 +89,7 @@ The module retrieves only new rows that have not been filled in before. The trig
   </tr> 
   <tr> 
    <td role="rowheader">Row with headers </td> 
-   <td> <p>Enter the range of the header row. For example, <code>A1:F1</code>.</p> </td> 
+   <td> <p>Enter the [!UICONTROL range] of the header row. For example, <code>A1:F1</code>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">First table row</td> 
@@ -105,30 +105,30 @@ The module retrieves only new rows that have not been filled in before. The trig
   </tr> 
   <tr> 
    <td role="rowheader">Limit </td> 
-   <td> <p>Set the maximum number of results that Workfront Fusion will work with during one execution cycle.</p> </td> 
+   <td> <p>Set the maximum number of results that [!DNL Workfront Fusion] will work with during one execution cycle.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Actions
 
-* [Add a Row](#add-a-row) 
-* [Update a Row](#update-a-row) 
-* [Clear a Row](#clear-a-row) 
-* [Delete a Row](#delete-a-row) 
-* [Get a Cell](#get-a-cell) 
-* [Update a Cell](#update-a-cell) 
-* [Clear a Cell](#clear-a-cell) 
-* [Add a Sheet](#add-a-sheet) 
-* [Create a Spreadsheet](#create-a-spreadsheet) 
-* [Delete a Sheet](#delete-a-sheet) 
+* [Add a Row](#add-a-row)
+* [Update a Row](#update-a-row)
+* [Clear a Row](#clear-a-row)
+* [Delete a Row](#delete-a-row)
+* [Get a Cell](#get-a-cell)
+* [Update a Cell](#update-a-cell)
+* [Clear a Cell](#clear-a-cell)
+* [Add a Sheet](#add-a-sheet)
+* [Create a Spreadsheet](#create-a-spreadsheet)
+* [Delete a Sheet](#delete-a-sheet)
 * [Make an API Call](#make-an-api-call)
 
 ### Add a Row {#add-a-row}
 
 This module appends adds a row to a sheet.
 
-When you configure Google Sheets modules, Workfront Fusion displays the fields listed below. Along with these, additional Google Sheets fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
+When you configure [!DNL Google Sheets] modules, [!DNL Workfront Fusion] displays the fields listed below. Along with these, additional [!DNL Google] Sheets fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
 
 If you see the map button above a field or function, you can use it to set variables and functions for that field. For more information, see [Map information from one module to another in Adobe Workfront Fusion](../../workfront-fusion/mapping/map-information-between-modules.md).
 
@@ -144,7 +144,7 @@ If you see the map button above a field or function, you can use it to set varia
   </tr> 
   <tr> 
    <td>Mode</td> 
-   <td> <p>Select whether you want to select the spreadsheet and sheet manually or by mapping.</p> <p>Note: Manual mapping is useful, for example, when a new spreadsheet is created in an Workfront Fusion scenario and you want to add data in the newly created spreadsheet directly in the scenario.</p> </td> 
+   <td> <p>Select whether you want to select the spreadsheet and sheet manually or by mapping.</p> <p>Note: Manual mapping is useful, for example, when a new spreadsheet is created in an [!DNL Workfront Fusion] scenario and you want to add data in the newly created spreadsheet directly in the scenario.</p> </td> 
   </tr> 
   <tr> 
    <td>Spreadsheet </td> 
@@ -174,7 +174,7 @@ If you see the map button above a field or function, you can use it to set varia
    <td>Value input option</td> 
    <td> 
     <ul> 
-     <li> <p><strong>User entered</strong></p> <p>The values are parsed as if the user typed them into the UI. Numbers remain numbers, but strings may be converted to numbers, dates, or other formats following the same rules that are applied when entering text into a cell via the Google Sheets UI.</p> </li> 
+     <li> <p><strong>User entered</strong></p> <p>The values are parsed as if the user typed them into the UI. Numbers remain numbers, but strings may be converted to numbers, dates, or other formats following the same rules that are applied when entering text into a cell via the [!DNL Google Sheets] UI.</p> </li> 
      <li> <p><strong>Raw</strong> </p> <p> The values that the user enters are not parsed and are stored as-is. </p> </li> 
     </ul> </td> 
   </tr> 
@@ -203,7 +203,7 @@ This module allows you to change the cell content in a selected row.
   </tr> 
   <tr> 
    <td>Mode</td> 
-   <td> <p>Select whether you want to select the spreadsheet and sheet manually or by mapping.</p> <p>Note: Manual mapping is useful, for example, when a new spreadsheet is created in the Workfront Fusion scenario and you want to add data to the newly created spreadsheet directly in the scenario.</p> </td> 
+   <td> <p>Select whether you want to select the spreadsheet and sheet manually or by mapping.</p> <p>Note: Manual mapping is useful, for example, when a new spreadsheet is created in the [!UICONTROL Workfront Fusion] scenario and you want to add data to the newly created spreadsheet directly in the scenario.</p> </td> 
   </tr> 
   <tr> 
    <td>Spreadsheet </td> 
@@ -233,7 +233,7 @@ This module allows you to change the cell content in a selected row.
    <td>Value input option</td> 
    <td> 
     <ul> 
-     <li> <p><strong>User entered</strong></p> <p>The values are parsed as if the user typed them into the UI. Numbers remain numbers, but strings may be converted to numbers, dates, or other formats following the same rules that are applied when entering text into a cell via the Google Sheets UI.</p> </li> 
+     <li> <p><strong>User entered</strong></p> <p>The values are parsed as if the user typed them into the UI. Numbers remain numbers, but strings may be converted to numbers, dates, or other formats following the same rules that are applied when entering text into a cell via the [!DNL Google Sheets] UI.</p> </li> 
      <li> <p><strong>Raw</strong> </p> <p> The values that the user enters are not parsed and are stored as-is. </p> </li> 
     </ul> </td> 
   </tr> 
@@ -355,7 +355,7 @@ Retrieves a value from a selected cell.
    <td>Value input option</td> 
    <td> 
     <ul> 
-     <li> <p><strong>User entered</strong></p> <p>The values are parsed as if the user typed them into the UI. Numbers remain numbers, but strings may be converted to numbers, dates, or other formats following the same rules that are applied when entering text into a cell via the Google Sheets UI.</p> </li> 
+     <li> <p><strong>User entered</strong></p> <p>The values are parsed as if the user typed them into the UI. Numbers remain numbers, but strings may be converted to numbers, dates, or other formats following the same rules that are applied when entering text into a cell via the [!DNL Google Sheets] UI.</p> </li> 
      <li> <p><strong>Raw</strong> </p> <p> The values that the user enters are not parsed and are stored as-is. </p> </li> 
     </ul> </td> 
   </tr> 
@@ -441,7 +441,7 @@ Creates a new sheet in a selected spreadsheet.
   </tr> 
   <tr> 
    <td>Recalculation interval</td> 
-   <td> <p>The amount of time to wait before volatile functions are recalculated:</p> <p style="font-weight: bold;">On change</p> <p>Volatile functions are updated upon every change.</p> <p style="font-weight: bold;">On change and every minute</p> <p>Volatile functions are updated upon every change and every minute.</p> <p style="font-weight: bold;">On change and hourly</p> <p>Volatile functions are updated upon every change and hourly.</p> </td> 
+   <td> <p>The amount of time to wait before volatile functions are recalculated:</p> <p style="font-weight: bold;">On change</p> <p>Volatile functions are updated upon every change.</p> <p style="font-weight: bold;">On [!UICONTROL change and every minute]</p> <p>Volatile functions are updated upon every change and every minute.</p> <p style="font-weight: bold;">On change and hourly</p> <p>Volatile functions are updated upon every change and hourly.</p> </td> 
   </tr> 
   <tr> 
    <td>Time zone</td> 
@@ -503,7 +503,7 @@ This action module allows you to perform a custom API call.
   </tr> 
   <tr> 
    <td role="rowheader">Headers</td> 
-   <td> <p>Add the headers of the request in the form of a standard JSON object.For example, <code>{"Content-type":"application/json"}</code>. Workfront Fusion adds the authorization headers for you.</p> </td> 
+   <td> <p>Add the headers of the request in the form of a standard JSON object.For example, <code>{"Content-type":"application/json"}</code>. [!DNL Workfront Fusion] adds the authorization headers for you.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Query String</td> 
@@ -511,7 +511,7 @@ This action module allows you to perform a custom API call.
   </tr> 
   <tr> 
    <td role="rowheader">Body</td> 
-   <td> <p>Add the body content for the API call in the form of a standard JSON object.</p> <p>Note:   <p>When using conditional statements such as <code>if</code> in your JSON, put the quotation marks outside of the conditional statement.</p> 
+   <td> <p>Add the body content for the API call in the form of a standard [!DNL JSON] object.</p> <p>Note:   <p>When using conditional statements such as <code>if</code> in your JSON, put the quotation marks outside of the conditional statement.</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>">  
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td> 
@@ -521,9 +521,9 @@ This action module allows you to perform a custom API call.
 
 ## Searches
 
-* [Search Rows](#search-rows) 
-* [Search Rows (Advanced)](#search-rows-advanced) 
-* [Get Range Values](#get-range-values) 
+* [Search Rows](#search-rows)
+* [Search Rows (Advanced)](#search-rows-advanced)
+* [Get Range Values](#get-range-values)
 * [List Sheets](#list-sheets)
 
 ### Search Rows {#search-rows}
@@ -576,7 +576,7 @@ Searches rows using the filter options.
   </tr> 
   <tr> 
    <td>Maximum number of returned rows</td> 
-   <td>Set the maximum number of rows that Workfront Fusion will return during one execution cycle.</td> 
+   <td>Set the maximum number of rows that [!DNL Workfront Fusion] will return during one execution cycle.</td> 
   </tr> 
  </tbody> 
 </table>
@@ -603,7 +603,7 @@ Returns results matching the given criteria.
   </tr> 
   <tr> 
    <td>Query</td> 
-   <td> <p>Use the Google Charts Query Language. Example: <code>select * where B = "John"</code></p> <p>For more information on Google Charts Query Language, see <a href="https://developers.google.com/chart/interactive/docs/querylanguage">Query Language Reference</a> in the Google documentation.</p> </td> 
+   <td> <p>Use the Google Charts Query Language. Example: <code>select * where B = "John"</code></p> <p>For more information on [!DNL Google Charts Query Language], see <a href="https://developers.google.com/chart/interactive/docs/querylanguage">Query Language Reference</a> in the Google documentation.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -636,7 +636,7 @@ Returns results matching the given criteria.
   </tr> 
   <tr> 
    <td>Row with headers</td> 
-   <td>Enter the range of the table headers. Example <code>A1:F1</code>. If you leave the field empty, Workfront Fusion will suppose that the header is in the first row of the specified range.</td> 
+   <td>Enter the range of the table headers. Example <code>A1:F1</code>. If you leave the field empty, [!DNL Workfront Fusion] will suppose that the header is in the first row of the specified range.</td> 
   </tr> 
   <tr> 
    <td>Value render option</td> 
@@ -672,62 +672,63 @@ This module returns a list of all sheets in a spreadsheet.
 
 If the error `429: RESOURCE_EXHAUSTED` occurs, you have exceeded the API rate limit.
 
-The Google Sheets API has a limit of 500 requests per 100 seconds per project, and 100 requests per 100 seconds per user. Limits for reads and writes are tracked separately. There is no daily usage limit.
+The [!DNL Google Sheets] API has a limit of 500 requests per 100 seconds per project, and 100 requests per 100 seconds per user. Limits for reads and writes are tracked separately. There is no daily usage limit.
 
 See more details at [developers.google.com/sheets/api/limits](https://developers.google.com/sheets/api/limits).
 
 ## Tips & Tricks
 
-* [How to get Empty Cells from a Google Sheet](#how-to-get-empty-cells-from-a-google-sheet) 
+* [How to get Empty Cells from a Google Sheet](#how-to-get-empty-cells-from-a-google-sheet)
 * [Add a button in a sheet to run a scenario](#add-a-button-in-a-sheet-to-run-a-scenario)
 
 ### How to get Empty Cells from a Google Sheet {#how-to-get-empty-cells-from-a-google-sheet}
 
-Use the Search Rows (Advanced) module & use this formula to get the columns which are empty.
-<pre>select * where E is null​</pre>Here "E" is the column & "is null" is the condition. You can create a more advanced query using [Google Query Lang.](https://developers.google.com/chart/interactive/docs/querylanguage)
+Use the [!UICONTROL Search Rows (Advanced)] module & use this formula to get the columns which are empty.
+<pre>select * [!UICONTROL where E is null​]</pre>Here "E" is the column &amp; "is null" is the condition. You can create a more advanced query using [Google Query Lang.](https://developers.google.com/chart/interactive/docs/querylanguage)
 
 ### Add a button in a sheet to run a scenario {#add-a-button-in-a-sheet-to-run-a-scenario}
 
-1. In Workfront Fusion, insert the **Webhook** > **Custom webhooks** module/trigger in the scenario and configure it (see [Webhooks](../../workfront-fusion/apps-and-their-modules/webhooks-updated.md)).
+1. In [!DNL Workfront Fusion], insert the **[!UICONTROL Webhook]** > **[!UICONTROL Custom webhooks]** module/trigger in the scenario and configure it (see [Webhooks](../../workfront-fusion/apps-and-their-modules/webhooks-updated.md)).
 
 1. Copy the webhook's URL.
 1. Execute the scenario.
-1. In Google Sheets, choose **Insert** > **Drawing**... from the main menu bar.
+1. In Google Sheets, choose **[!UICONTROL Insert]** > **Drawing**... from the main menu bar.
 
 1. In the Drawing window, Click the **Text box** icon ![](assets/text-box.png) near the top of the window.
-1. Design a button and click the **Save and Close** button in the top-right corner:
+1. Design a button and click the **[!UICONTROL Save and] Close** button in the top-right corner:
 1. The button will be placed in your worksheet. Click the three vertical dots in the button's top-right corner:
-1. Choose **Assign script...** from the menu.
+1. Choose **[!UICONTROL Assign script..].** from the menu.
 1. Enter the name of your script (function), e.g. `runScenario` and click **OK**:
-1. Choose **Tools** > **Script editor** from the main menu bar.
+1. Choose **[!UICONTROL Tools]** > **[!UICONTROL Script editor]** from the main menu bar.
 
 1. Insert the following code:
 
    * The name of the function must correspond to the name you specified in step 9.
    * Replace the URL with the webhook's URL you copied in step 2.
-     <pre>function runScenario() {</pre><pre>UrlFetchApp.fetch("<webhook you copied>");</pre><pre>}</pre>
+
+      <pre>function runScenario() {</pre><pre>UrlFetchApp.fetch("<webhook you copied>");</pre><pre>}</pre>
 
 1. Press **Ctrl+S** to save the script file, enter a project name and click **OK**.
 
-1. Switch back to Google Sheets and click your new button.
-1. Grant the required authorization to the script: 
-1. In Workfront Fusion, verify that the scenario has successfully executed.
+1. Switch back to [!UICONTROL Google] Sheets and click your new button.
+1. Grant the required authorization to the script:
+1. In [!DNL Workfront Fusion], verify that the scenario has successfully executed.
 
 ## Storing dates in a spreadsheet
 
-If you store a Date value in a spreadsheet without any formatting, it will appear in the spreadsheet as text in ISO 8601 format. However, Google Sheets formulas or functions that work with dates that do not understand this text (Example: formula `=A1+10`) will display the following error:
+If you store a Date value in a spreadsheet without any formatting, it will appear in the spreadsheet as text in ISO 8601 format. However, [!DNL Google Sheets] formulas or functions that work with dates that do not understand this text (Example: formula `=A1+10`) will display the following error:
 
 ![](assets/mceclip6-350x87.png)
 
-To help the GS to understand the date, format it with the [formatDate (date; format; [timezone])](../../workfront-fusion/functions/date-and-time-functions.md#formatda) function. The correct format passed to the function as the second argument depends on the spreadsheet's locale settings.
+To help the GS to understand the date, format it with the [[!UICONTROL formatDate] (date; format; [timezone])](../../workfront-fusion/functions/date-and-time-functions.md#formatda) function. The correct format passed to the function as the second argument depends on the spreadsheet's locale settings.
 
 To determine the correct format:
 
-1. Choose **File** > **Spreadsheet** settings from the main menu to verify/set the locale.
+1. Choose **[!UICONTROL File]** > **Spreadsheet** settings from the main menu to verify/set the locale.
 
-1. Once you have verified/set the proper locale, determine the corresponding date and time format by choosing **Format** > **Number** from the main menu. The format is displayed next to the Date time menu item:
+1. Once you have verified/set the proper locale, determine the corresponding date and time format by choosing **[!UICONTROL Format]** > **[!UICONTROL Number]** from the main menu. The format is displayed next to the Date time menu item:
 
-1. To compose the correct format that should be passed to the formatDate() function, refer to the list of [Tokens for date and time formatting in Adobe Workfront Fusion](../../workfront-fusion/functions/tokens-for-date-and-time-formatting.md).
+1. To compose the correct format that should be passed to the [!UICONTROL formatDate()] function, refer to the list of [Tokens for date and time formatting in [!DNL Adobe Workfront] Fusion](../../workfront-fusion/functions/tokens-for-date-and-time-formatting.md).
 
 **Example:** The use of `MM/DD/YYYY HH:mm:ss` format for the United States locale:
 
@@ -744,4 +745,4 @@ You might find that a string of numbers that you are using as text is being inte
 1. In Google Sheets, highlight the column or cell containing the number or numbers.
 1. Click **Format** > **Number** > **Plain text**.
 
-Another workaround in Workfront Fusion is to type an apostrophe (') before a number, for example, '1-2019 or '1/47. The apostrophe does not display in the cell after the data is sent from Workfront Fusion.
+Another workaround in [!DNL Workfront] Fusion is to type an apostrophe (') before a number, for example, '1-2019 or '1/47. The apostrophe does not display in the cell after the data is sent from [!DNL Workfront] Fusion.

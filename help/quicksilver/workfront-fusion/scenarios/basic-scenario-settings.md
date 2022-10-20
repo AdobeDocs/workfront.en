@@ -3,13 +3,13 @@ content-type: overview
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
-title: Basic scenario settings in Adobe Workfront Fusion
-description: This article describes basic settings for your Adobe Workfront Fusion scenarios.
+title: Basic scenario settings in [!DNL Adobe Workfront] Fusion
+description: This article describes basic settings for your [!DNL Adobe Workfront] Fusion scenarios.
 author: Becky
 feature: Workfront Fusion
 exl-id: 020d00a6-eab0-42a1-865d-71f07ca3f871
 ---
-# Basic scenario settings in Adobe Workfront Fusion
+# Basic scenario settings in [!DNL Adobe Workfront] Fusion
 
 ## Access requirements
 
@@ -33,12 +33,12 @@ You must have the following access to use the functionality in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
+   <td>Your organization must purchase [!DNL Adobe Workfront Fusion] as well as [!DNL Adobe Workfront] to use functionality described in this article.</td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+&#42;To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
 
 &#42;&#42;For information on Adobe Workfront Fusion licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
 

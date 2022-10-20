@@ -5,14 +5,14 @@ product-area: workfront-integrations;calendars
 keywords: connector
 navigation-topic: apps-and-their-modules
 title: Google Calendar modules
-description: In an Adobe Workfront Fusion scenario, you can automate workflows that use Google Calendar, as well as connect it to multiple third-party applications and services.
+description: In an [!DNL Adobe Workfront] Fusion scenario, you can automate workflows that use Google Calendar, as well as connect it to multiple third-party applications and services.
 author: Becky
 feature: Workfront Fusion
 exl-id: 168e8fce-645d-4108-84b7-46a113c83f41
 ---
 # Google Calendar modules
 
-In an Adobe Workfront Fusion scenario, you can automate workflows that use Google Calendar, as well as connect it to multiple third-party applications and services.
+In an [!DNL Adobe Workfront] Fusion scenario, you can automate workflows that use Google Calendar, as well as connect it to multiple third-party applications and services.
 
 If you need instructions on creating a scenario, see [Create a scenario in Adobe Workfront Fusion](../../workfront-fusion/scenarios/create-a-scenario.md).
 
@@ -40,12 +40,12 @@ You must have the following access to use the functionality in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
+   <td>Your organization must purchase [!DNL Adobe Workfront Fusion] as well as [!DNL Adobe Workfront] to use functionality described in this article.</td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+&#42;To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
 
 &#42;&#42;For information on Adobe Workfront Fusion licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
@@ -55,25 +55,25 @@ To use Google Calendar modules, you must have a Google account.
 
 ## Google Calendar modules and their fields
 
-When you configure Google Calendar modules, Workfront Fusion displays the fields listed below. Along with these, additional Google Calendar fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
+When you configure Google Calendar modules, [!DNL Workfront Fusion] displays the fields listed below. Along with these, additional Google Calendar fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
 
 If you see the map button above a field or function, you can use it to set variables and functions for that field. For more information, see [Map information from one module to another in Adobe Workfront Fusion](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 ![](assets/map-toggle-350x74.png)
 
-* [Events](#events) 
-* [Calendars](#calendars) 
-* [Access control rules](#access-control-rules) 
-* [Iterators (deprecated)](#iterators-deprecated) 
+* [Events](#events)
+* [Calendars](#calendars)
+* [Access control rules](#access-control-rules)
+* [Iterators (deprecated)](#iterators-deprecated)
 * [Other](#other)
 
 ### Events {#events}
 
-* [Watch events](#watch-events) 
+* [Watch events](#watch-events)
 * [Search events](#search-events)
-* [Get an event](#get-an-event) 
-* [Create an event](#create-an-event) 
-* [Update an event](#update-an-event) 
+* [Get an event](#get-an-event)
+* [Create an event](#create-an-event)
+* [Update an event](#update-an-event)
 * [Delete an event](#delete-an-event)
 
 
@@ -109,7 +109,7 @@ When you are configuring this module, the following fields display.
   </tr> 
   <tr> 
    <td>Limit</td> 
-   <td> <p> Set the maximum number of events that Workfront Fusion works with during one cycle (the number of repetitions per scenario run). If the value is set too high, the connection may be interrupted on the side of the given third-party service (timeout). Workfront Fusion has no influence on this. We recommend that you set a lower value and either define a higher value for the maximum number of cycles or run the scenario more frequently.</p> </td> 
+   <td> <p> Set the maximum number of events that [!DNL Workfront Fusion] works with during one cycle (the number of repetitions per scenario run). If the value is set too high, the connection may be interrupted on the side of the given third-party service (timeout). [!DNL Workfront Fusion] has no influence on this. We recommend that you set a lower value and either define a higher value for the maximum number of cycles or run the scenario more frequently.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -162,7 +162,7 @@ When you are configuring this module, the following fields display.
   </tr> 
   <tr> 
    <td>Limit</td> 
-   <td> <p>Set the maximum number of events Workfront Fusion returns during one execution cycle.</p> </td> 
+   <td> <p>Set the maximum number of events [!DNL Workfront Fusion] returns during one execution cycle.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -219,7 +219,7 @@ When you are configuring this module, the following fields display.
    <td> <p>Select how you would like to create the event.</p> 
     <ul> 
      <li><b>In Detail</b><p>This option allows you to put in more detail about the event.<br></p></li> 
-     <li><b>Quickly</b><p>You only need to select the calendar and enter a name for the event. You can include time and place details in the name, and Google Calendar will schedule the event for that place and time.</p></li> 
+     <li><b>Quickly</b><p>You only need to select the calendar and enter a name for the event. You can include time and place details in the name, and [!DNL Google Calendar] will schedule the event for that place and time.</p></li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -232,7 +232,7 @@ When you are configuring this module, the following fields display.
   </tr> 
   <tr> 
    <td>Event name</td> 
-   <td> <p> Enter or map a name for the event. </p> <p>Note: If you have selected Quick add in the Create an event field, you can include the date and time of the event, and Workfront Fusion creates the event for that date and time. Example: <code>Appointment at Capitol Hill on June 3rd 10am-10:25am</code>. If you selected Quick add but do not include a date and time in the event name, the event is created from the current time and lasts an hour.</p> </td> 
+   <td> <p> Enter or map a name for the event. </p> <p>Note: If you have selected [!UICONTROL Quick add] in the [!UICONTROL Create an event] field, you can include the date and time of the event, and [!DNL Workfront Fusion] creates the event for that date and time. Example: <code>Appointment at Capitol Hill on June 3rd 10am-10:25am</code>. If you selected [!UICONTROL Quick add] but do not include a date and time in the event name, the event is created from the current time and lasts an hour.</p> </td> 
   </tr> 
   <tr> 
    <td>All day event</td> 
@@ -256,7 +256,7 @@ When you are configuring this module, the following fields display.
   </tr> 
   <tr> 
    <td>Use the default reminder settings for this event</td> 
-   <td>Enable this option to use default reminder settings. If you set a custom reminder in the Reminder field, this value is set to No.</td> 
+   <td>Enable this option to use default reminder settings. If you set a custom reminder in the [!UICONTROL Reminder] field, this value is set to No.</td> 
   </tr> 
   <tr> 
    <td>Reminder </td> 
@@ -281,7 +281,7 @@ When you are configuring this module, the following fields display.
   </tr> 
   <tr> 
    <td>Send notification about the event creation</td> 
-   <td> <p>Select whether to send notifications about the creation of a new event to all guests, to non-Google Calendar guests, or to no one.</p> <p>Tip: We recommend using the None option only for migration use cases.</p> </td> 
+   <td> <p>Select whether to send notifications about the creation of a new event to all guests, to non-Google Calendar guests, or to no one.</p> <p>Tip: We recommend using the [!UICONTROL None] option only for migration use cases.</p> </td> 
   </tr> 
   <tr> 
    <td>Guests can modify the event</td> 
@@ -360,11 +360,11 @@ When you are configuring this module, the following fields display.
 
 ### Calendars {#calendars}
 
-* [List calendars](#list-calendars) 
-* [Get a calendar](#get-a-calendar) 
-* [Create a calendar](#create-a-calendar) 
-* [Update a calendar](#update-a-calendar) 
-* [Delete a calendar](#delete-a-calendar) 
+* [List calendars](#list-calendars)
+* [Get a calendar](#get-a-calendar)
+* [Create a calendar](#create-a-calendar)
+* [Update a calendar](#update-a-calendar)
+* [Delete a calendar](#delete-a-calendar)
 * [Clear a calendar](#clear-a-calendar)
 
 #### List calendars {#list-calendars}
@@ -399,7 +399,7 @@ When you are configuring this module, the following fields display.
   </tr> 
   <tr> 
    <td role="rowheader">Limit</td> 
-   <td>Set the maximum number of calendars Workfront Fusion returns during one execution cycle.</td> 
+   <td>Set the maximum number of calendars [!DNL Workfront Fusion] returns during one execution cycle.</td> 
   </tr> 
  </tbody> 
 </table>
@@ -503,7 +503,7 @@ When you are configuring this module, the following fields display.
   </tr> 
   <tr> 
    <td role="rowheader">Calendar ID</td> 
-   <td> <p>Enter or map the ID&nbsp;of the calendar you want to delete.</p> </td> 
+   <td> <p>Enter or map the ID of the calendar you want to delete.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -531,10 +531,10 @@ When you are configuring this module, the following fields display.
 
 ### Access control rules {#access-control-rules}
 
-* [List access control rules](#list-access-control-rules) 
-* [Get an access control rule](#get-an-access-control-rule) 
-* [Create an access control rule](#create-an-access-control-rule) 
-* [Update an access control rule](#update-an-access-control-rule) 
+* [List access control rules](#list-access-control-rules)
+* [Get an access control rule](#get-an-access-control-rule)
+* [Create an access control rule](#create-an-access-control-rule)
+* [Update an access control rule](#update-an-access-control-rule)
 * [Delete an access control rule](#delete-an-access-control-rule)
 
 #### List access control rules {#list-access-control-rules}
@@ -557,7 +557,7 @@ When you are configuring this module, the following fields display.
   </tr> 
   <tr> 
    <td role="rowheader">Limit</td> 
-   <td>Set the maximum number of results Workfront Fusion returns during one execution cycle.</td> 
+   <td>Set the maximum number of results [!DNL Workfront Fusion] returns during one execution cycle.</td> 
   </tr> 
  </tbody> 
 </table>
@@ -704,7 +704,7 @@ When you are configuring this module, the following fields display.
   </tr> 
   <tr> 
    <td>Calendar ID</td> 
-   <td> <p>Select or map the ID&nbsp;of the calendar that contains the access control rule you want to delete.</p> </td> 
+   <td> <p>Select or map the ID of the calendar that contains the access control rule you want to delete.</p> </td> 
   </tr> 
   <tr> 
    <td>Access control rule ID</td> 
@@ -715,11 +715,11 @@ When you are configuring this module, the following fields display.
 
 ### Iterators (deprecated) {#iterators-deprecated}
 
-The iterate attachments and iterate attendees modules have been deprecated. To iterate attachments or attendees, use the Flow Control > Iterator module. For more information, see [Iterator module in Adobe Workfront Fusion](../../workfront-fusion/modules/iterator-module.md)
+The [!UICONTROL iterate attachments] and [!UICONTROL iterate attendees] modules have been deprecated. To iterate attachments or attendees, use the [!UICONTROL Flow Control] > Iterator module. For more information, see [Iterator module in Adobe Workfront Fusion](../../workfront-fusion/modules/iterator-module.md)
 
 ### Other {#other}
 
-* [Make an API Call](#make-an-api-call) 
+* [Make an API Call](#make-an-api-call)
 * [Get Free/Busy Information](#get-free-busy-information)
 
 #### Make an API&nbsp;Call {#make-an-api-call}
@@ -744,7 +744,7 @@ This module allows you to perform a custom API call.
   </tr> 
   <tr> 
    <td role="rowheader">Headers</td> 
-   <td> <p>Add the headers of the request in the form of a standard JSON object.For example, <code>{"Content-type":"application/json"}</code>. Workfront Fusion adds the authorization headers for you.</p> </td> 
+   <td> <p>Add the headers of the request in the form of a standard JSON object.For example, <code>{"Content-type":"application/json"}</code>. [!DNL Workfront Fusion] adds the authorization headers for you.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Query String</td> 
@@ -752,7 +752,7 @@ This module allows you to perform a custom API call.
   </tr> 
   <tr> 
    <td role="rowheader">Body</td> 
-   <td> <p>Add the body content for the API call in the form of a standard JSON object.</p> <p>Note:   <p>When using conditional statements such as <code>if</code> in your JSON, put the quotation marks outside of the conditional statement.</p> 
+   <td> <p>Add the body content for the API call in the form of a standard [!DNL JSON] object.</p> <p>Note:   <p>When using conditional statements such as <code>if</code> in your JSON, put the quotation marks outside of the conditional statement.</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>">  
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td> 
@@ -793,13 +793,13 @@ When you are configuring this module, the following fields display.
 
 ## Trigger a scenario before an event
 
-You can trigger a scenario a specified time before an event with the help of standard Google Calendar email reminders and the Webhooks > Custom mailhook module.
+You can trigger a scenario a specified time before an event with the help of standard Google Calendar email reminders and the [!UICONTROL Webhooks] >[!UICONTROL Custom mailhook] module.
 
-1. Use the Google Calendar > Update an event module to add an email reminder to your event:
+1. Use the [!UICONTROL Google Calendar] >[!UICONTROL Update an event] module to add an email reminder to your event:
 
    ![](assets/trigger-scen-before-event-350x209.png)
 
-1. Create a new scenario starting with the Webhooks > Custom mailhook module.
+1. Create a new scenario starting with the Webhooks >[!UICONTROL Custom] mailhook module.
 
    1. Copy the mailhook's email address.
    1. Save the scenario and execute it.
@@ -807,30 +807,30 @@ You can trigger a scenario a specified time before an event with the help of sta
 1. In Gmail, redirect the Google Calendar email reminders to the mailhook's email address:
 
    1. Open your **Gmail settings**.
-   1. Open the **Forwarding and POP/IMAP** tab.
+   1. Open the **[!UICONTROL Forwarding] and POP/IMAP** tab.
    1. Click **Add a forwarding address.**
-   1. Paste the copied mailhooks's email address, click**Next**, confirm by pressing **Proceed** in the popup window, then click **OK**.
-   
-   1. In Workfront Fusion, switch to the new scenario that should finish its execution by receiving the confirmation email.
+   1. Paste the copied mailhooks's email address, click&#x200B;**Next**, confirm by pressing **Proceed** in the popup window, then click **OK**.
+
+   1. In [!DNL Workfront Fusion], switch to the new scenario that should finish its execution by receiving the confirmation email.
    1. Click the bubble above the module to inspect the module's output.
    1. Expand the `Text` item and copy the Confirmation code:
 
       ![](assets/confirmation-code-350x252.png)
 
-   1. In Gmail, paste the Confirmation code in the edit box and click**Verify**:
+   1. In Gmail, paste the Confirmation code in the edit box and click&#x200B;**Verify**:
 
       ![](assets/paste-code-350x46.png)
 
-   1. Open the **Filters and Blocked Addresses** tab.
+   1. Open the **[!UICONTROL Filters and Blocked Addresses]** tab.
    1. Click **Create a new filter**.
-   1. Setup a filter for all emails coming from `     calendar-notification@google.com` and click**Create a filter**:
-   1. Select **Forward it to** and choose the mailhooks's email address from the list.
-   1. Click **Create filter** to create the filter.
+   1. Setup a filter for all emails coming from `     calendar-notification@google.com` and click&#x200B;**Create a filter**:
+   1. Select **[!UICONTROL Forward it to]** and choose the mailhooks's email address from the list.
+   1. Click **[!UICONTROL Create filter]** to create the filter.
 
-1. (Optional) In Workfront Fusion, add the Text parser > Match pattern module after the Webhooks > Custom mailhook module to parse the email's HTML code to obtain any information you need.
+1. (Optional) In [!DNL Workfront Fusion], add the Text parser > Match pattern module after the [!UICONTROL Webhooks] >[!UICONTROL Custom mailhook] module to parse the email's HTML code to obtain any information you need.
 
    For example, you could configure the module as follows to obtain the event's ID:
 
    *Pattern*: `<meta itemprop="eventId/googleCalendar" content="(?<evenitID>.*?)"/>`
 
-   *Text*: The `HTML content` item outputted from the Webhooks > Custom mailhook module:
+   *Text*: The `HTML content` item outputted from the [!UICONTROL Webhooks] >[!UICONTROL Custom mailhook] module:

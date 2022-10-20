@@ -17,7 +17,7 @@ In an Adobe Workfront Fusion scenario, you can automate workflows that use GitLa
 
 >[!NOTE]
 >
->This article expects some familiarity with API documentation, and of GitLab functionality in general.
+>This article expects some familiarity with API documentation, and of [!DNL GitLab] functionality in general.
 
 If you need instructions on creating a scenario, see [Create a scenario in Adobe Workfront Fusion](../../workfront-fusion/scenarios/create-a-scenario.md).
 
@@ -25,7 +25,7 @@ For information about modules, see [Modules in Adobe Workfront Fusion](../../wor
 
 ## Connect GitLab to Workfront Fusion {#connect-gitlab-to-workfront-fusion}
 
-1. In any Workfront Fusion Gitlab module, click **Add** next to the connection field.
+1. In any [!DNL Workfront Fusion Gitlab] module, click **Add** next to the connection field.
 1. Configure the following fields:
 
    <table style="table-layout:auto"> 
@@ -42,18 +42,18 @@ For information about modules, see [Modules in Adobe Workfront Fusion](../../wor
      </tr> 
      <tr> 
       <td role="rowheader">Access Token</td> 
-      <td><p>Enter your Private Token or Personal Access Token.</p><p>For information on locating or creating a personal access token in GitLab, see "Create a personal access token" in <a href="https://docs.gitlab.com/ee/user/profile/personal_access_tokens.html">Personal access tokens</a> in the GitLab documentation.</p></td> 
+      <td><p>Enter your Private Token or Personal Access Token.</p><p>For information on locating or creating a personal access token in [!DNL GitLab], see "Create a personal access token" in <a href="https://docs.gitlab.com/ee/user/profile/personal_access_tokens.html">Personal access tokens</a> in the GitLab documentation.</p></td> 
      </tr> 
     </tbody> 
    </table>
 
 
 1. Click **Continue**.
-1. Click **Authorize** to create the connection and return to the module.
+1. Click **[!UICONTROL Authorize]** to create the connection and return to the module.
 
 ## GitLab modules and their fields
 
-When you configure GitLab modules, Workfront Fusion displays the fields listed below. Along with these, additional GitLab fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
+When you configure [!DNL GitLab] modules, [!DNL Workfront Fusion] displays the fields listed below. Along with these, additional [!DNL GitLab] fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
 
 If you see the map button above a field or function, you can use it to set variables and functions for that field. For more information, see [Map information from one module to another in Adobe Workfront Fusion](../../workfront-fusion/mapping/map-information-between-modules.md).
 
@@ -71,7 +71,7 @@ This instant trigger module starts a scenario when the status of a build changes
    <tbody> 
    <tr> 
    <td role="rowheader">Webhook</td> 
-   <td><p>Select the webhook that you want to use for this trigger, or add a new webhook. </p><p>To add a new webhook, <ol><li>Click <b>Add</b> next to the webhook field.</li><li>Enter the following: <ul><li>A name for the webhook</li><li>The connection that you want to use for this webhook</li><li>The project that you want the webhook to watch for build status changes</li></ul></li><li>Click <b>Save</b> to save the webhook and return to the module. </td> 
+   <td><p>Select the webhook that you want to use for this trigger, or add a new webhook. </p><p>To add a new webhook, <ol><li>Click <b>Add</b> next to the [!UICONTROL webhook] field.</li><li>Enter the following: <ul><li>A name for the webhook</li><li>The connection that you want to use for this webhook</li><li>The project that you want the webhook to watch for build status changes</li></ul></li><li>Click <b>Save</b> to save the webhook and return to the module. </td> 
    </tr> 
    </tbody> 
 </table>
@@ -88,7 +88,7 @@ This instant trigger module starts a scenario when a comment is made on a commit
    <tbody> 
    <tr> 
    <td role="rowheader">Webhook</td> 
-   <td><p>Select the webhook that you want to use for this trigger, or add a new webhook. </p><p>To add a new webhook, <ol><li>Click <b>Add</b> next to the webhook field.</li><li>Enter the following: <ul><li>A name for the webhook</li><li>The connection that you want to use for this webhook</li><li>The project that you want the webhook to watch for comments</li></ul></li><li>Click <b>Save</b> to save the webhook and return to the module. </td> 
+   <td><p>Select the webhook that you want to use for this trigger, or add a new webhook. </p><p>To add a new webhook, <ol><li>Click <b>Add</b> next to the [!UICONTROL webhook] field.</li><li>Enter the following: <ul><li>A name for the webhook</li><li>The connection that you want to use for this webhook</li><li>The project that you want the webhook to watch for comments</li></ul></li><li>Click <b>Save</b> to save the webhook and return to the module. </td> 
    </tr> 
    </tbody> 
 </table>
@@ -105,7 +105,7 @@ This instant trigger module starts a scenario when a commit is pushed to a repos
    <tbody> 
    <tr> 
    <td role="rowheader">Webhook</td> 
-   <td><p>Select the webhook that you want to use for this trigger, or add a new webhook. </p><p>To add a new webhook, <ol><li>Click <b>Add</b> next to the webhook field.</li><li>Enter the following: <ul><li>A name for the webhook</li><li>The connection that you want to use for this webhook</li><li>The project that you want the webhook to watch for commits</li></ul></li><li>Click <b>Save</b> to save the webhook and return to the module. </td> 
+   <td><p>Select the webhook that you want to use for this trigger, or add a new webhook. </p><p>To add a new webhook, <ol><li>Click <b>Add</b> next to the [!UICONTROL webhook] field.</li><li>Enter the following: <ul><li>A name for the webhook</li><li>The connection that you want to use for this webhook</li><li>The project that you want the webhook to watch for commits</li></ul></li><li>Click <b>Save</b> to save the webhook and return to the module. </td> 
    </tr> 
    </tbody> 
 </table>
@@ -122,7 +122,7 @@ This instant trigger module starts a scenario when a comment is made on an issue
    <tbody> 
    <tr> 
    <td role="rowheader">Webhook</td> 
-   <td><p>Select the webhook that you want to use for this trigger, or add a new webhook. </p><p>To add a new webhook, <ol><li>Click <b>Add</b> next to the webhook field.</li><li>Enter the following: <ul><li>A name for the webhook</li><li>The connection that you want to use for this webhook</li><li>The project that you want the webhook to watch for issue comments</li></ul></li><li>Click <b>Save</b> to save the webhook and return to the module. </td> 
+   <td><p>Select the webhook that you want to use for this trigger, or add a new webhook. </p><p>To add a new webhook, <ol><li>Click <b>Add</b> next to the [!UICONTROL webhook] field.</li><li>Enter the following: <ul><li>A name for the webhook</li><li>The connection that you want to use for this webhook</li><li>The project that you want the webhook to watch for issue comments</li></ul></li><li>Click <b>Save</b> to save the webhook and return to the module. </td> 
    </tr> 
    </tbody> 
 </table>
@@ -131,7 +131,7 @@ This instant trigger module starts a scenario when a comment is made on an issue
 
 +++**Watch issues**
 
-This instant trigger module starts a scenario when an issue is created or when an existing issue is updated, closed, or reopened.
+This [!UICONTROL instant trigger] module starts a scenario when an issue is created or when an existing issue is updated, closed, or reopened.
 
 <table style="table-layout:auto"> 
    <col> 
@@ -139,7 +139,7 @@ This instant trigger module starts a scenario when an issue is created or when a
    <tbody> 
    <tr> 
    <td role="rowheader">Webhook</td> 
-   <td><p>Select the webhook that you want to use for this trigger, or add a new webhook. </p><p>To add a new webhook, <ol><li>Click <b>Add</b> next to the webhook field.</li><li>Enter the following: <ul><li>A name for the webhook</li><li>The connection that you want to use for this webhook</li><li>The project that you want the webhook to watch for issues</li></ul></li><li>Click <b>Save</b> to save the webhook and return to the module. </td> 
+   <td><p>Select the webhook that you want to use for this trigger, or add a new webhook. </p><p>To add a new webhook, <ol><li>Click <b>Add</b> next to the [!UICONTROL webhook] field.</li><li>Enter the following: <ul><li>A name for the webhook</li><li>The connection that you want to use for this webhook</li><li>The project that you want the webhook to watch for issues</li></ul></li><li>Click <b>Save</b> to save the webhook and return to the module. </td> 
    </tr> 
    </tbody> 
 </table>
@@ -161,7 +161,7 @@ This instant trigger module starts a scenario when one of the following occurs:
    <tbody> 
    <tr> 
    <td role="rowheader">Webhook</td> 
-   <td><p>Select the webhook that you want to use for this trigger, or add a new webhook. </p><p>To add a new webhook, <ol><li>Click <b>Add</b> next to the webhook field.</li><li>Enter the following: <ul><li>A name for the webhook</li><li>The connection that you want to use for this webhook</li><li>The project that you want the webhook to watch for merge requests</li></ul></li><li>Click <b>Save</b> to save the webhook and return to the module. </td> 
+   <td><p>Select the webhook that you want to use for this trigger, or add a new webhook. </p><p>To add a new webhook, <ol><li>Click <b>Add</b> next to the [!UICONTROL webhook] field.</li><li>Enter the following: <ul><li>A name for the webhook</li><li>The connection that you want to use for this webhook</li><li>The project that you want the webhook to watch for merge requests</li></ul></li><li>Click <b>Save</b> to save the webhook and return to the module. </td> 
    </tr> 
    </tbody> 
 </table>
@@ -178,7 +178,7 @@ This instant trigger module starts a scenario when a comment is made on a merge 
    <tbody> 
    <tr> 
    <td role="rowheader">Webhook</td> 
-   <td><p>Select the webhook that you want to use for this trigger, or add a new webhook. </p><p>To add a new webhook, <ol><li>Click <b>Add</b> next to the webhook field.</li><li>Enter the following: <ul><li>A name for the webhook</li><li>The connection that you want to use for this webhook</li><li>The project that you want the webhook to watch for merge request comments</li></ul></li><li>Click <b>Save</b> to save the webhook and return to the module. </td> 
+   <td><p>Select the webhook that you want to use for this trigger, or add a new webhook. </p><p>To add a new webhook, <ol><li>Click <b>Add</b> next to the [!UICONTROL webhook] field.</li><li>Enter the following: <ul><li>A name for the webhook</li><li>The connection that you want to use for this webhook</li><li>The project that you want the webhook to watch for merge request comments</li></ul></li><li>Click <b>Save</b> to save the webhook and return to the module. </td> 
    </tr> 
    </tbody> 
 </table>
@@ -195,7 +195,7 @@ This instant trigger module starts a scenario when the status of a pipeline chan
    <tbody> 
    <tr> 
    <td role="rowheader">Webhook</td> 
-   <td><p>Select the webhook that you want to use for this trigger, or add a new webhook. </p><p>To add a new webhook, <ol><li>Click <b>Add</b> next to the webhook field.</li><li>Enter the following: <ul><li>A name for the webhook</li><li>The connection that you want to use for this webhook</li><li>The project that you want the webhook to watch for pipeline status changes</li></ul></li><li>Click <b>Save</b> to save the webhook and return to the module. </td> 
+   <td><p>Select the webhook that you want to use for this trigger, or add a new webhook. </p><p>To add a new webhook, <ol><li>Click <b>Add</b> next to the [!UICONTROL webhook] field.</li><li>Enter the following: <ul><li>A name for the webhook</li><li>The connection that you want to use for this webhook</li><li>The project that you want the webhook to watch for pipeline status changes</li></ul></li><li>Click <b>Save</b> to save the webhook and return to the module. </td> 
    </tr> 
    </tbody> 
 </table>
@@ -212,7 +212,7 @@ This scheduled trigger module starts a scenario when a new project is added, of 
    <tbody> 
    <tr> 
    <td role="rowheader">Connection</td> 
-   <td>For instructions about connecting your GitLab account to Workfront Fusion, see <a href="#connect-gitlab-to-workfront-fusion-connect-gitlab-to-workfront-fusion" class="MCXref xref">Connect GitLab to Workfront Fusion</a> in this article.</td> 
+   <td>For instructions about connecting your GitLab account to [!DNL Workfront] Fusion, see <a href="#connect-gitlab-to-workfront-fusion-connect-gitlab-to-workfront-fusion" class="MCXref xref">Connect GitLab to [!DNL Workfront] Fusion</a> in this article.</td> 
    </tr> 
    <tr> 
    <td role="rowheader">Max Results</td> 
@@ -233,7 +233,7 @@ This scheduled trigger module starts a scenario when a new branch is added to a 
    <tbody> 
    <tr> 
    <td role="rowheader">Connection</td> 
-   <td>For instructions about connecting your GitLab account to Workfront Fusion, see <a href="#connect-gitlab-to-workfront-fusion-connect-gitlab-to-workfront-fusion" class="MCXref xref">Connect GitLab to Workfront Fusion</a> in this article.</td> 
+   <td>For instructions about connecting your GitLab account to [!DNL Workfront] Fusion, see <a href="#connect-gitlab-to-workfront-fusion-connect-gitlab-to-workfront-fusion" class="MCXref xref">Connect GitLab to [!DNL Workfront] Fusion</a> in this article.</td> 
    </tr> 
    <tr> 
    <td role="rowheader">Max Results</td> 
@@ -254,7 +254,7 @@ This instant trigger module starts a scenario when a tag is created or deleted i
    <tbody> 
    <tr> 
    <td role="rowheader">Webhook</td> 
-   <td><p>Select the webhook that you want to use for this trigger, or add a new webhook. </p><p>To add a new webhook, <ol><li>Click <b>Add</b> next to the webhook field.</li><li>Enter the following: <ul><li>A name for the webhook</li><li>The connection that you want to use for this webhook</li><li>The project that you want the webhook to watch for tags</li></ul></li><li>Click <b>Save</b> to save the webhook and return to the module. </td> 
+   <td><p>Select the webhook that you want to use for this trigger, or add a new webhook. </p><p>To add a new webhook, <ol><li>Click <b>Add</b> next to the [!UICONTROL webhook] field.</li><li>Enter the following: <ul><li>A name for the webhook</li><li>The connection that you want to use for this webhook</li><li>The project that you want the webhook to watch for tags</li></ul></li><li>Click <b>Save</b> to save the webhook and return to the module. </td> 
    </tr> 
    </tbody> 
 </table>
@@ -271,7 +271,7 @@ This instant trigger module starts a scenario when a new comment is made on a sn
    <tbody> 
    <tr> 
    <td role="rowheader">Webhook</td> 
-   <td><p>Select the webhook that you want to use for this trigger, or add a new webhook. </p><p>To add a new webhook, <ol><li>Click <b>Add</b> next to the webhook field.</li><li>Enter the following: <ul><li>A name for the webhook</li><li>The connection that you want to use for this webhook</li><li>The project that you want the webhook to watch for comments</li></ul></li><li>Click <b>Save</b> to save the webhook and return to the module. </td> 
+   <td><p>Select the webhook that you want to use for this trigger, or add a new webhook. </p><p>To add a new webhook, <ol><li>Click <b>Add</b> next to the [!UICONTROL webhook] field.</li><li>Enter the following: <ul><li>A name for the webhook</li><li>The connection that you want to use for this webhook</li><li>The project that you want the webhook to watch for comments</li></ul></li><li>Click <b>Save</b> to save the webhook and return to the module. </td> 
    </tr> 
    </tbody> 
 </table>
@@ -296,7 +296,7 @@ This instant trigger module starts a scenario when a wiki page is create or edit
    <tbody> 
    <tr> 
    <td role="rowheader">Webhook</td> 
-   <td><p>Select the webhook that you want to use for this trigger, or add a new webhook. </p><p>To add a new webhook, <ol><li>Click <b>Add</b> next to the webhook field.</li><li>Enter the following: <ul><li>A name for the webhook</li><li>The connection that you want to use for this webhook</li><li>The project that you want the webhook to watch for wiki pages</li></ul></li><li>Click <b>Save</b> to save the webhook and return to the module. </td> 
+   <td><p>Select the webhook that you want to use for this trigger, or add a new webhook. </p><p>To add a new webhook, <ol><li>Click <b>Add</b> next to the [!UICONTROL webhook] field.</li><li>Enter the following: <ul><li>A name for the webhook</li><li>The connection that you want to use for this webhook</li><li>The project that you want the webhook to watch for wiki pages</li></ul></li><li>Click <b>Save</b> to save the webhook and return to the module. </td> 
    </tr> 
    </tbody> 
 </table>
@@ -323,7 +323,7 @@ This action module cancels a single build of a project.
    <tbody> 
    <tr> 
    <td role="rowheader">Connection</td> 
-   <td>For instructions about connecting your GitLab account to Workfront Fusion, see <a href="#connect-gitlab-to-workfront-fusion-connect-gitlab-to-workfront-fusion" class="MCXref xref">Connect GitLab to Workfront Fusion</a> in this article.</td> 
+   <td>For instructions about connecting your GitLab account to [!DNL Workfront] Fusion, see <a href="#connect-gitlab-to-workfront-fusion-connect-gitlab-to-workfront-fusion" class="MCXref xref">Connect GitLab to [!DNL Workfront] Fusion</a> in this article.</td> 
    </tr> 
    <tr> 
    <td role="rowheader">Project ID</td> 
@@ -604,7 +604,7 @@ This action module retrieves issue details.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td>To create a new connection, see <a href="#connect-gitlab-to-workfront-fusion" class="MCXref xref">Connect GitLab to Workfront Fusion</a> in this article.</td> 
+   <td>To create a new connection, see <a href="#connect-gitlab-to-workfront-fusion" class="MCXref xref">[!UICONTROL Connect GitLab to Workfront Fusion]</a> in this article.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Project</td> 
@@ -727,7 +727,7 @@ For information on fields, see [List all merge request notes](https://docs.gitla
 
 This module gets a list of all notes for a single snippet. Snippet notes are comments users can post to a snippet.
 
-For information on fields, see [](https://docs.gitlab.com/ee/api/notes.html#list-all-snippet-notes) in the GitLab documentation.
+For information on fields, see [&#128279;](https://docs.gitlab.com/ee/api/notes.html#list-all-snippet-notes) in the GitLab documentation.
 
 +++
 
@@ -741,7 +741,7 @@ This search module returns a list of builds for a specific commit in a project.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td>To create a new connection, see <a href="#connect-gitlab-to-workfront-fusion" class="MCXref xref">Connect GitLab to Workfront Fusion</a> in this article.</td> 
+   <td>To create a new connection, see <a href="#connect-gitlab-to-workfront-fusion" class="MCXref xref">[!UICONTROL Connect GitLab to Workfront Fusion]</a> in this article.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Project ID</td> 
@@ -973,7 +973,7 @@ This action module retries a single build in a commit.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td>To create a new connection, see <a href="#connect-gitlab-to-workfront-fusion" class="MCXref xref">Connect GitLab to Workfront Fusion</a> in this article.</td> 
+   <td>To create a new connection, see <a href="#connect-gitlab-to-workfront-fusion" class="MCXref xref">[!UICONTROL Connect GitLab to Workfront Fusion]</a> in this article.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Project ID</td> 
@@ -1016,7 +1016,7 @@ For information on fields, see [Update a release](https://docs.gitlab.com/ee/api
 
 This action module updates an existing merge request. You can change the target branch, title, or even close the MR.
 
-For information on fields, see [Update merge request](https://docs.gitlab.com/ee/api/merge_requests.html#update-mr) in the GitLab documentation.
+For information on fields, see [[!UICONTROL Update merge request]](https://docs.gitlab.com/ee/api/merge_requests.html#update-mr) in the GitLab documentation.
 
 +++
 

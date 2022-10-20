@@ -5,14 +5,14 @@ product-area: workfront-integrations
 keywords: connector
 navigation-topic: apps-and-their-modules
 title: Marketo modules
-description: In an Adobe Workfront Fusion scenario, you can automate workflows that use Marketo, as well as connect it to multiple third-party applications and services.
+description: In an [!DNL Adobe Workfront] Fusion scenario, you can automate workflows that use [!DNL Marketo], as well as connect it to multiple third-party applications and services.
 author: Becky
 feature: Workfront Fusion
 exl-id: 7f6dace5-ab50-45da-a926-1a8919057f7b
 ---
 # Marketo modules
 
-In an Adobe Workfront Fusion scenario, you can automate workflows that use Marketo, as well as connect it to multiple third-party applications and services.
+In an [!DNL Adobe Workfront] Fusion scenario, you can automate workflows that use [!DNL Marketo], as well as connect it to multiple third-party applications and services.
 
 If you need instructions on creating a scenario, see [Create a scenario in Adobe Workfront Fusion](../../workfront-fusion/scenarios/create-a-scenario.md).
 
@@ -40,43 +40,43 @@ You must have the following access to use the functionality in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
+   <td>Your organization must purchase [!DNL Adobe Workfront Fusion] as well as [!DNL Adobe Workfront] to use functionality described in this article.</td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+&#42;To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
 
 &#42;&#42;For information on Adobe Workfront Fusion licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
 ## Prerequisites
 
-To use Marketo modules, you must have a Marketo account.
+To use [!DNL Marketo] modules, you must have a [!DNL Marketo] account.
 
 ## Connect Marketo to Workfront Fusion {#connect-marketo-to-workfront-fusion}
 
-You can create a connection to your Marketo account directly from inside Marketo module.
+You can create a connection to your [!DNL Marketo] account directly from inside [!DNL Marketo] module.
 
-1. In any Marketo module, click **Add** next to the Connection field.
-1. Enter your Marketo account or Marketo Munchkin ID. This is the unique part of the Base URL or Endpoint assigned to your account, that you use to access Marketo via its REST API. For instructions on locating this, see [Base URL](https://developers.marketo.com/rest-api/base-url/) in the Marketo documentation.
+1. In any [!DNL Marketo] module, click **Add** next to the [!UICONTROL Connection] field.
+1. Enter your [!DNL Marketo] account or [!DNL Marketo] Munchkin ID. This is the unique part of the Base URL or Endpoint assigned to your account, that you use to access [!DNL Marketo] via its REST API. For instructions on locating this, see [Base URL](https://developers.marketo.com/rest-api/base-url/) in the Marketo documentation.
 1. Enter your Client ID and Client secret. For instructions on locating these, see [Authentication](https://developers.marketo.com/rest-api/authentication/) in the Marketo documentation.
-1. Click **Continue** to create the connection and go back to the module.
+1. Click **[!UICONTROL Continue]** to create the connection and go back to the module.
 
 ## Marketo Modules and their fields
 
-When you configure Marketo modules, Workfront Fusion displays the fields listed below. Along with these, additional Marketo fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
+When you configure [!DNL Marketo] modules, [!DNL Workfront Fusion] displays the fields listed below. Along with these, additional [!DNL Marketo] fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
 
 If you see the map button above a field or function, you can use it to set variables and functions for that field. For more information, see [Map information from one module to another in Adobe Workfront Fusion](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 ![](assets/map-toggle-350x74.png)
 
-* [Triggers](#triggers) 
-* [Actions](#actions) 
+* [Triggers](#triggers)
+* [Actions](#actions)
 * [Searches](#searches)
 
 ### Triggers {#triggers}
 
-* [Watch records](#watch-records) 
+* [Watch records](#watch-records)
 * [Watch events (Instant)](#watch-events-instant)
 
 #### Watch records  {#watch-records}
@@ -97,7 +97,7 @@ This trigger module starts a scenario when a record is created or updated.
     <ul> 
      <li> <p><strong>Activity</strong> </p> <p>Select the activity type that you want to watch. </p> <p>The module watches only for new activities.<br></p> </li> 
      <li> <p><strong>Lead</strong> </p> <p>Select whether you want to watch for new records, updated records, both new and updated records, or specific field updates. If you select to watch specific field updates, select the field that you want the module to watch.</p> </li> 
-     <li> <p><strong>Program</strong> </p> <p>Select whether you want to watch for new records, updates records, or both new and updated records.</p> </li> 
+     <li> <p><strong>Program</strong> </p> <p>Select whether you want to watch for new records, [!UICONTROL updates] records, or both new and updated records.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -132,20 +132,20 @@ This trigger module starts a scenario when a record is created or updated.
 
 ### Actions {#actions}
 
-* [Custom API call](#custom-api-call) 
-* [Create a record](#create-a-record) 
-* [Update a record](#update-a-record) 
-* [Download a File](#download-a-file) 
-* [Upload a File](#upload-a-file) 
-* [Read a record](#read-a-record) 
-* [Add Leads to a List](#add-leads-to-a-list) 
-* [Remove Leads from a List](#remove-leads-from-a-list) 
-* [Schedule a Campaign](#schedule-a-campaign) 
+* [Custom API call](#custom-api-call)
+* [Create a record](#create-a-record)
+* [Update a record](#update-a-record)
+* [Download a File](#download-a-file)
+* [[!UICONTROL Upload] a File](#upload-a-file)
+* [[!UICONTROL Read a record]](#read-a-record)
+* [[!UICONTROL Add Leads to a List]](#add-leads-to-a-list)
+* [Remove Leads from a List](#remove-leads-from-a-list)
+* [[!UICONTROL Schedule a Campaign]](#schedule-a-campaign)
 * [Copy a Program](#copy-a-program)
 
 #### Custom API call {#custom-api-call}
 
-This action module lets you make a custom authenticated call to the Marketo API. This way, you can create a data flow automation that can't be accomplished by the other Marketo modules. 
+This action module lets you make a custom authenticated call to the [!DNL Marketo] API. This way, you can create a data flow automation that can't be accomplished by the other [!DNL Marketo] modules.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -165,7 +165,7 @@ This action module lets you make a custom authenticated call to the Marketo API.
   </tr> 
   <tr> 
    <td role="rowheader">Headers</td> 
-   <td> <p>Add the headers of the request in the form of a standard JSON object.</p> <p>For example, <code>{"Content-type":"application/json"}</code></p> <p>Workfront Fusion adds the authorization headers for you.</p> </td> 
+   <td> <p>Add the headers of the request in the form of a standard [!DNL JSON] object.</p> <p>For example, <code>{"Content-type":"application/json"}</code></p> <p>Workfront Fusion adds the authorization headers for you.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Query String</td> 
@@ -173,7 +173,7 @@ This action module lets you make a custom authenticated call to the Marketo API.
   </tr> 
   <tr> 
    <td role="rowheader">Body</td> 
-   <td> <p>Add the body content for the API call in the form of a standard JSON object.</p> <p>Note:  <p>When using conditional statements such as <code>if</code> in your JSON, put the quotation marks outside of the conditional statement.</p> 
+   <td> <p>Add the body content for the API call in the form of a standard [!DNL JSON] object.</p> <p>Note:  <p>When using conditional statements such as <code>if</code> in your JSON, put the quotation marks outside of the conditional statement.</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td> 
@@ -187,7 +187,7 @@ This action module lets you make a custom authenticated call to the Marketo API.
 
 #### Create a record {#create-a-record}
 
-This action module creates a new record in Marketo
+This action module creates a new record in [!DNL Marketo]
 
 <table style="table-layout:auto"> 
  <col> 
@@ -217,7 +217,7 @@ This action module creates a new record in Marketo
   </tr> 
   <tr> 
    <td role="rowheader">Program Channel </td> 
-   <td>If you are creating a Program, select the program channel where you want to create the program.</td> 
+   <td>If you are creating a Program, select the [!UICONTROL program] channel where you want to create the program.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Folder / Program Name</td> 
@@ -265,7 +265,7 @@ This action module updates an existing record, using its ID.
   </tr> 
   <tr> 
    <td role="rowheader">Company / Lead / Program ID</td> 
-   <td>Enter or map the ID&nbsp;of the record you want to update.</td> 
+   <td>Enter or map the ID of the record you want to update.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Select fields to map</td> 
@@ -335,7 +335,7 @@ This action module uploads a new file to Marketo.
   </tr> 
   <tr> 
    <td role="rowheader">Folder ID</td> 
-   <td>Enter or map the ID&nbsp;of the folder where you want the new file to be located.</td> 
+   <td>Enter or map the ID of the folder where you want the new file to be located.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Description</td> 
@@ -372,8 +372,8 @@ This action module reads information about a record by using its ID.
    <td>Select the information you want included in the output bundle for this module. Fields are available based on the Record Type you selected.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">&lt;Object&gt; ID</td> 
-   <td>Enter or map the ID&nbsp;of the object you want to retrieve information about.</td> 
+   <td role="rowheader">&lt;Object> ID</td> 
+   <td>Enter or map the ID of the object you want to retrieve information about.</td> 
   </tr> 
  </tbody> 
 </table>
@@ -449,7 +449,7 @@ This action module schedules an existing campaign for a certain date.
 
 #### Copy a Program {#copy-a-program}
 
-This action module makes a copy of a program using the existing program's ID. 
+This action module makes a copy of a program using the existing program's ID.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -465,18 +465,18 @@ This action module makes a copy of a program using the existing program's ID.
   </tr> 
   <tr> 
    <td role="rowheader"> <p>New Program Name</p> </td> 
-   <td> <p>Enter or map a name for the new program</p> <p>&nbsp;</p> </td> 
+   <td> <p>Enter or map a name for the new program</p> <p> </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Folder ID</td> 
-   <td>Enter or map the ID&nbsp;of the folder where you want the new program to be located.</td> 
+   <td>Enter or map the ID of the folder where you want the new program to be located.</td> 
   </tr> 
  </tbody> 
 </table>
 
 ### Searches {#searches}
 
-* [List records](#list-records) 
+* [List records](#list-records)
 * [Search Records](#search-records)
 
 #### List records {#list-records}
@@ -542,7 +542,7 @@ This search module retrieves a list of records that match specific search criter
   </tr> 
   <tr> 
    <td role="rowheader">Values</td> 
-   <td>For each value you want to search for, click Add item and enter the value.</td> 
+   <td>For each value you want to search for, click [!UICONTROL Add item] and enter the value.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Output</td> 

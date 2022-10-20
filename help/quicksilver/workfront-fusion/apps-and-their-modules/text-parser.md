@@ -4,14 +4,14 @@ product-previous: workfront-fusion
 product-area: workfront-integrations;documents
 navigation-topic: apps-and-their-modules
 title: Text parser
-description: You can use the Text parser tool to parse text for use in other Adobe Workfront Fusion scenario modules. The Text parser does not require a connection.
+description: You can use the Text parser tool to parse text for use in other [!DNL Adobe Workfront Fusion scenario] modules. The Text parser does not require a connection.
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 7d71cf64-4f86-42c5-81e7-8fc15333cbd7
 ---
 # Text parser
 
-You can use the Text parser tool to parse text for use in other Adobe Workfront Fusion scenario modules. The Text parser does not require a connection.
+You can use the Text parser tool to parse text for use in other [!DNL Adobe Workfront Fusion scenario] modules. The Text parser does not require a connection.
 
 ## Access requirements
 
@@ -35,18 +35,18 @@ You must have the following access to use the functionality in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
+   <td>Your organization must purchase [!DNL Adobe Workfront Fusion] as well as [!DNL Adobe Workfront] to use functionality described in this article.</td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+&#42;To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
 
 &#42;&#42;For information on Adobe Workfront Fusion licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
 ## Text parser modules and their fields
 
-When you configure Text parser modules, Adobe Workfront Fusion displays the fields listed below. Along with these, additional Text parser fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
+When you configure Text parser modules, [!DNL Adobe Workfront Fusion] displays the fields listed below. Along with these, additional Text parser fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
 
 If you see the map button above a field or function, you can use it to set variables and functions for that field. For more information, see [Map information from one module to another in Adobe Workfront Fusion](../../workfront-fusion/mapping/map-information-between-modules.md).
 
@@ -54,10 +54,10 @@ If you see the map button above a field or function, you can use it to set varia
 
 ### Transformers
 
-* [Get Elements from HTML](#get-elements-from-html) 
-* [Get Elements from HTML](#get-elements-from-html) 
-* [HTML to Text](#html-to-text) 
-* [Match Pattern](#match-pattern) 
+* [Get Elements from HTML](#get-elements-from-html)
+* [Get Elements from HTML](#get-elements-from-html)
+* [[!UICONTROL HTML to] Text](#html-to-text)
+* [Match Pattern](#match-pattern)
 * [Replace](#replace)
 
 #### Get Elements from HTML {#get-elements-from-html}
@@ -127,14 +127,14 @@ Parses elements from text based on the given pattern.
   </tr> 
   <tr> 
    <td> <p>Uppercase headings</p> </td> 
-   <td> <p>Enable this option to convert text enclosed in the heading tags (such as &lt;h2&gt; &lt;/h2&gt;) into uppercase text.</p> </td> 
+   <td> <p>Enable this option to convert text enclosed in the heading tags (such as &lt;h2> &lt;/h2>) into uppercase text.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 #### Match Pattern {#match-pattern}
 
-The Match pattern module enables you to find and extract string elements matching a search pattern from a given text. This module uses regular expressions (also known as regex or regexp). 
+The [!UICONTROL Match pattern] module enables you to find and extract string elements matching a search pattern from a given text. This module uses regular expressions (also known as regex or regexp).
 
 A regular expression is a sequence of characters in which each character is either a metacharacter, having a special meaning, or a regular character that has a literal meaning. These character and metacharacters identify a pattern that can be used to search text. For example, if you wanted to search for names, you could set up a regular expression to search for a pattern that consists of two consecutive words that begin with capital letters. Regular expressions are a powerful tool for searching and manipulating text.
 
@@ -181,7 +181,7 @@ A discussion of regular expressions is beyond the scope of this article. We reco
 
 #### Replace {#replace}
 
-Searches the entered text for a specified value or regular expression and replaces the result with the new value. 
+Searches the entered text for a specified value or regular expression and replaces the result with the new value.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -189,7 +189,7 @@ Searches the entered text for a specified value or regular expression and replac
  <tbody> 
   <tr> 
    <td>Pattern </td> 
-   <td> <p>Enter the search term. You can also use a regular expression. For more details about the regular expression refer to the <a href="#match-pattern" class="MCXref xref">Match Pattern</a> module.</p> </td> 
+   <td> <p>Enter the search term. You can also use a regular expression. For more details about the regular expression refer to the <a href="#match-pattern" class="MCXref xref">[!UICONTROL Match Pattern]</a> module.</p> </td> 
   </tr> 
   <tr> 
    <td>New value</td> 
@@ -222,7 +222,7 @@ Searches the entered text for a specified value or regular expression and replac
 
 Data scraping, sometimes called web scraping, data extraction, or web harvesting is simply the process of collecting data from websites and storing it in your local database or spreadsheets. If you want to scrape data from a website and you are not familiar with regular expressions, you may use a data scraping tool:
 
-* [Apify](https://apify.com/) 
-* [Best Data Scraping Tools for 2019](https://www.octoparse.com/blog/best-data-scraping-tools-for-2019-top-10-reviews) 
+* [Apify](https://apify.com/)
+* [Best Data Scraping Tools for 2019](https://www.octoparse.com/blog/best-data-scraping-tools-for-2019-top-10-reviews)
 
 If the data scraping tool provides a REST API, you can connect to it via our universal [HTTP modules](../../workfront-fusion/apps-and-their-modules/http-modules/http-modules-1.md) and [Webhooks](../../workfront-fusion/apps-and-their-modules/webhooks-updated.md) modules.

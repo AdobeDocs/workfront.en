@@ -5,20 +5,20 @@ product-area: workfront-integrations;calendars
 keywords: connector
 navigation-topic: apps-and-their-modules
 title: Microsoft Office 365 Calendar
-description: In an Adobe Workfront Fusion scenario, you can automate workflows that use Microsoft Office 365 Calendar, as well as connect it to multiple third-party applications and services.
+description: In an [!DNL Adobe Workfront] Fusion scenario, you can automate workflows that use Microsoft Office 365 Calendar, as well as connect it to multiple third-party applications and services.
 author: Becky
 feature: Workfront Fusion
 exl-id: 814c285e-c106-458a-a0b1-760677634f4f
 ---
 # Microsoft Office 365 Calendar
 
-In an Adobe Workfront Fusion scenario, you can automate workflows that use Microsoft Office 365 Calendar, as well as connect it to multiple third-party applications and services.
+In an [!DNL Adobe Workfront] Fusion scenario, you can automate workflows that use Microsoft Office 365 Calendar, as well as connect it to multiple third-party applications and services.
 
-In order to use Office 365 Calendar with Adobe Workfront Fusion, it is necessary to have an Office 365 Excel account. You can create one at [www.office.com](http://www.office.com/).
+In order to use Office 365 Calendar with [!DNL Adobe Workfront Fusion], it is necessary to have an Office 365 Excel account. You can create one at [www.office.com](http://www.office.com/).
 
 For instructions about connecting your Office 365 account to Workfront Fusion, see [Create a connection to Adobe Workfront Fusion - Basic instructions](../../workfront-fusion/connections/connect-to-fusion-general.md)
 
-After you grant consent, you are redirected back to the Workfront Fusion administration page where you can continue creating your scenario.
+After you grant consent, you are redirected back to the [!UICONTROL Workfront Fusion administration] page where you can continue creating your scenario.
 
 ## Access requirements
 
@@ -42,12 +42,12 @@ You must have the following access to use the functionality in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
+   <td>Your organization must purchase [!DNL Adobe Workfront Fusion] as well as [!DNL Adobe Workfront] to use functionality described in this article.</td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+&#42;To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
 
 &#42;&#42;For information on Adobe Workfront Fusion licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
@@ -57,23 +57,23 @@ To use Microsoft Office 365 Calendar modules, you must have a Microsoft Office 3
 
 ## Microsoft Office 365 Calendar modules and their fields
 
-When you configure Microsoft Office 365 Calendar modules, Workfront Fusion displays the fields listed below. Along with these, additional Microsoft Office 365 Calendar fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
+When you configure Microsoft Office 365 Calendar modules, [!DNL Workfront Fusion] displays the fields listed below. Along with these, additional [!DNL Microsoft] Office 365 Calendar fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
 
 If you see the map button above a field or function, you can use it to set variables and functions for that field. For more information, see [Map information from one module to another in Adobe Workfront Fusion](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 ![](assets/map-toggle-350x74.png)
 
-* [Event](#event) 
-* [Calendar](#calendar) 
+* [Event](#event)
+* [Calendar](#calendar)
 * [Other](#other)
 
 ### Event {#event}
 
-* [Watch Events](#watch-events) 
-* [Search Events](#search-events) 
-* [Get an Event](#get-an-event) 
-* [Create an Event](#create-an-event) 
-* [Update an Event](#update-an-event) 
+* [Watch Events](#watch-events)
+* [Search Events](#search-events)
+* [Get an Event](#get-an-event)
+* [Create an Event](#create-an-event)
+* [Update an Event](#update-an-event)
 * [Delete an Event](#delete-an-event)
 
 #### Watch Events {#watch-events}
@@ -82,7 +82,7 @@ This trigger module retrieves details of an event when the event is created, upd
 
 >[!NOTE]
 >
->To watch for deleted occurrences of an event series, select By Updated Time in the Watch events field. This module does not watch for deleted single events or deleted event series.
+>To watch for deleted occurrences of an event series, select [!UICONTROL By Updated Time] in the [!UICONTROL Watch events] field. This module does not watch for deleted single events or deleted event series.
 
 
 <table style="table-layout:auto"> 
@@ -103,7 +103,7 @@ This trigger module retrieves details of an event when the event is created, upd
   </tr> 
   <tr> 
    <td role="rowheader">Calendar Group ID</td> 
-   <td>Select the calendar group that contains the calendar where you want to watch events.</td> 
+   <td>Select the [!UICONTROL calendar group] that contains the calendar where you want to watch events.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Calendar</td> 
@@ -115,7 +115,7 @@ This trigger module retrieves details of an event when the event is created, upd
   </tr> 
   <tr> 
    <td role="rowheader">Limit</td> 
-   <td> <p>Enter the maximum number of messages Workfront Fusion should return during one scenario execution cycle.</p> </td> 
+   <td> <p>Enter the maximum number of messages [!DNL Workfront Fusion] should return during one scenario execution cycle.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -134,7 +134,7 @@ This search module retreves details of an event when the event is created, updat
   </tr> 
   <tr> 
    <td role="rowheader">Calendar Group ID</td> 
-   <td>Select the calendar group that contains the calendar where you want to watch events.</td> 
+   <td>Select the [!UICONTROL calendar group] that contains the calendar where you want to watch events.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Calendar</td> 
@@ -162,7 +162,7 @@ This search module retreves details of an event when the event is created, updat
   </tr> 
   <tr> 
    <td role="rowheader">Limit</td> 
-   <td>Enter the maximum number of events Workfront Fusion should return during one scenario execution cycle.</td> 
+   <td>Enter the maximum number of events [!DNL Workfront Fusion] should return during one scenario execution cycle.</td> 
   </tr> 
  </tbody> 
 </table>
@@ -181,7 +181,7 @@ This action module retrieves details of the specified event.
   </tr> 
   <tr> 
    <td role="rowheader">Event ID</td> 
-   <td> <p>Enter or map the ID&nbsp;of the event you want to retrieve details about.</p> </td> 
+   <td> <p>Enter or map the ID of the event you want to retrieve details about.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -392,17 +392,17 @@ This action module deletes an existing event.
   </tr> 
   <tr> 
    <td role="rowheader">Event ID</td> 
-   <td> <p>Enter or map the ID&nbsp;of the event you want to delete.</p> </td> 
+   <td> <p>Enter or map the ID of the event you want to delete.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ### Calendar {#calendar}
 
-* [List Calendars](#list-calendars) 
-* [Get a Calendar](#get-a-calendar) 
-* [Create a Calendar](#create-a-calendar) 
-* [Update a Calendar](#update-a-calendar) 
+* [List Calendars](#list-calendars)
+* [Get a Calendar](#get-a-calendar)
+* [Create a Calendar](#create-a-calendar)
+* [Update a Calendar](#update-a-calendar)
 * [Delete a Calendar](#delete-a-calendar)
 
 #### List Calendars {#list-calendars}
@@ -419,11 +419,11 @@ This search module retrieves a list of all of the authenticated user's calendars
   </tr> 
   <tr> 
    <td role="rowheader">Calendar Group ID</td> 
-   <td>Select the calendar group that contains the calendars you want to list.</td> 
+   <td>Select the [!UICONTROL calendar group] that contains the calendars you want to list.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Limit</td> 
-   <td>Enter the maximum number of calendars Workfront Fusion should return during one scenario execution cycle.</td> 
+   <td>Enter the maximum number of calendars [!DNL Workfront Fusion] should return during one scenario execution cycle.</td> 
   </tr> 
  </tbody> 
 </table>
@@ -442,7 +442,7 @@ This action module retrieves details about a single calendar.
   </tr> 
   <tr> 
    <td role="rowheader">Calendar ID</td> 
-   <td> <p>Enter or map the ID&nbsp;of the calendar you want to retrieve details about.</p> </td> 
+   <td> <p>Enter or map the ID of the calendar you want to retrieve details about.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -480,7 +480,7 @@ This action module edits an existing calendar.
   </tr> 
   <tr> 
    <td role="rowheader">Calendar ID</td> 
-   <td>Enter the Calendar ID for the calendar you want to update. </td> 
+   <td>Enter the [!UICONTROL Calendar ID] for the calendar you want to update. </td> 
   </tr> 
   <tr> 
    <td role="rowheader">New Calendar name</td> 
@@ -503,7 +503,7 @@ This action module deletes an existing calendar.
   </tr> 
   <tr> 
    <td role="rowheader">Calendar ID</td> 
-   <td>Enter the Calendar ID for the calendar you want to delete.</td> 
+   <td>Enter the [!UICONTROL Calendar] ID for the calendar you want to delete.</td> 
   </tr> 
  </tbody> 
 </table>
@@ -532,7 +532,7 @@ This module allows you to perform a custom API call.
   </tr> 
   <tr> 
    <td role="rowheader">Headers</td> 
-   <td> <p>Add the headers of the request in the form of a standard JSON object.For example, <code>{"Content-type":"application/json"}</code>. Workfront Fusion adds the authorization headers for you.</p> </td> 
+   <td> <p>Add the headers of the request in the form of a standard JSON object.For example, <code>{"Content-type":"application/json"}</code>. [!DNL Workfront Fusion] adds the authorization headers for you.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Query String</td> 
@@ -540,7 +540,7 @@ This module allows you to perform a custom API call.
   </tr> 
   <tr> 
    <td role="rowheader">Body</td> 
-   <td> <p>Add the body content for the API call in the form of a standard JSON object.</p> <p>Note:   <p>When using conditional statements such as <code>if</code> in your JSON, put the quotation marks outside of the conditional statement.</p> 
+   <td> <p>Add the body content for the API call in the form of a standard [!DNL JSON] object.</p> <p>Note:   <p>When using conditional statements such as <code>if</code> in your JSON, put the quotation marks outside of the conditional statement.</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>">  
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td> 

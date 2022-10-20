@@ -3,21 +3,21 @@ content-type: tips-tricks-troubleshooting
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: tips-tricks-and-troubleshooting-workfront-proof-tech-corner
-title: Speed issues in Workfront Proof
-description: This help page can help you determine if any speed issues that you might be experiencing when using Workfront Proof are related to your ISP or Workfront Proof's content delivery network.
+title: Speed issues in [!DNL Workfront] Proof
+description: This help page can help you determine if any speed issues that you might be experiencing when using [!DNL Workfront] Proof are related to your ISP or [!DNL Workfront] Proof's content delivery network.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 42e999a6-5b27-482d-a7cf-b8030272da32
 ---
-# Speed issues in Workfront Proof
+# Speed issues in [!DNL Workfront] Proof
 
 >[!IMPORTANT]
 >
->This article refers to functionality in the standalone product Workfront Proof. For information on proofing inside Adobe Workfront, see [Proofing](../../../review-and-approve-work/proofing/proofing.md).
+>This article refers to functionality in the standalone product [!DNL Workfront] Proof. For information on proofing inside [!DNL Adobe Workfront], see [Proofing](../../../review-and-approve-work/proofing/proofing.md).
 
-This help page can help you determine if any speed issues that you might be experiencing when using Workfront Proof are related to your ISP or Workfront Proof's content delivery network.
+This help page can help you determine if any speed issues that you might be experiencing when using [!DNL Workfront] Proof are related to your ISP or [!DNL Workfront] Proof's content delivery network.
 
-Speed problems are generally due to the local ISP connection or local internet access setup (for example, where a proxy server is used) and so are unfortunately outside of the control of Workfront Proof.
+Speed problems are generally due to the local ISP connection or local internet access setup (for example, where a proxy server is used) and so are unfortunately outside of the control of [!DNL Workfront] Proof.
 
 That said, there are a few steps you can take to check your connection speed which will&nbsp;allow for the root cause of the issues you are experiencing to be determined. All of these steps are equally important for the troubleshooting process and we would encourage you to take the time to gather information on all of the listed steps to ensure the most accurate diagnosis of the problem.
 
@@ -25,17 +25,17 @@ Once you gather all the&nbsp;details, we would recommend that you consult with&n
 
 ## Establish which part of the system is slow
 
-When you use Workfront Proof, you might be working with the Dashboard, for example, managing folder content and users or with the Workfront Proof Viewer: conducting a proof review, checking the comments already made, and so on.
+When you use [!DNL Workfront] Proof, you might be working with the Dashboard, for example, managing folder content and users or with the [!DNL Workfront] Proof Viewer: conducting a proof review, checking the comments already made, and so on.
 
-Determining which exact part of the system is slow is the first step in troubleshooting speed issues. When you report Workfront Proof being slow, make sure to describe the following:
+Determining which exact part of the system is slow is the first step in troubleshooting speed issues. When you report [!DNL Workfront] Proof being slow, make sure to describe the following:
 
 * Are you experiencing slowness in any other webpages?
-* Does the problem occur in the Dashboard or Workfront Proof Viewer?
-* Which exact part of the system is slow? (e.g. processing a new proof or opening a comment in Workfront Proof Viewer)
+* Does the problem occur in the Dashboard or [!DNL Workfront] Proof Viewer?
+* Which exact part of the system is slow? (e.g. processing a new proof or opening a comment in [!DNL Workfront] Proof Viewer)
 
 ## Run traceroute and ping tests
 
-When you are experiencing performance issues it is important to run the traceroute command to verify the connection. To do this please open the Command Prompt in your system (Terminal in Mac/Linux) and perform the following steps:
+When you are experiencing performance issues it is important to run the [!DNL traceroute] command to verify the connection. To do this please open the Command Prompt in your system (Terminal in Mac/Linux) and perform the following steps:
 
 1. Type one of the following, then wait for the tracerout to be completed:
 
@@ -44,10 +44,10 @@ When you are experiencing performance issues it is important to run the tracerou
 
 1. (Windows only) Type **ping app.proofhq.com**.
 1. When the ping completes, right-click in the command prompt and Select All.
-1. Copy and paste the results into the the reply to your email.  
-   Make sure you allow traceroute and ping to finish before sending the results to the Support Team.
+1. Copy and paste the results into the the reply to your email.\
+   Make sure you allow [!DNL traceroute] and [!DNL ping] to finish before sending the results to the Support Team.
 
-## Test connection speed using Speedtest.net
+## Test connection speed using [!DNL Speedtest].net
 
 1. Click [here](http://www.speedtest.net/) to access Speedtest.net.
 1. Follow the instructions in the Speedtest knowledge base to test the speed of your internet connection.
@@ -68,10 +68,10 @@ Please make sure the screenshot shows all the data—you can expand the console 
 
 If you don't know how to open the console in your browser, please see these recorded steps:
 
-* [Chrome](http://screencast.com/t/AgQU6JQQ) 
-* [Safari](http://screencast.com/t/f31GqQYm0w) 
-* [Firefox](http://screencast.com/t/Xg7SscmAi) 
-* [Edge](http://www.screencast.com/t/epSwBiaD) 
+* [Chrome](http://screencast.com/t/AgQU6JQQ)
+* [Safari](http://screencast.com/t/f31GqQYm0w)
+* [Firefox](http://screencast.com/t/Xg7SscmAi)
+* [Edge](http://www.screencast.com/t/epSwBiaD)
 * [Internet Explorer](http://screencast.com/t/x5Q3eHczbc)
 
 You can also check your browser's documentation for more detailed instructions.

@@ -2,13 +2,13 @@
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
-title: Scenario execution, cycles, and phases in Adobe Workfront Fusion
-description: This article describes events that occur while an Adobe Workfront Fusion scenario is running, such as initialization, operations, commits, and rollbacks.
+title: Scenario execution, cycles, and phases in [!DNL Adobe Workfront] Fusion
+description: This article describes events that occur while an [!DNL Adobe Workfront Fusion] scenario is running, such as initialization, operations, commits, and rollbacks.
 author: Becky
 feature: Workfront Fusion
 exl-id: 5403f476-226d-4268-affc-8e06b1117684
 ---
-# Scenario execution, cycles, and phases in Adobe Workfront Fusion
+# Scenario execution, cycles, and phases in [!DNL Adobe Workfront] Fusion
 
 Adobe Workfront Fusion is a transactional system, similar to relational databases. Each scenario execution starts with the initialization phase, continues with at least one cycle composed of the operation and commit/rollback phases, and ends with the finalization phase:
 
@@ -38,7 +38,7 @@ Adobe Workfront Fusion is a transactional system, similar to relational database
 >
 >Commit or rollback
 >
->Finalization 
+>Finalization
 
 ## Access requirements
 
@@ -62,12 +62,12 @@ You must have the following access to use the functionality in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
+   <td>Your organization must purchase [!DNL Adobe Workfront Fusion] as well as [!DNL Adobe Workfront] to use functionality described in this article.</td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+&#42;To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
 
 &#42;&#42;For information on Adobe Workfront Fusion licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
@@ -77,7 +77,7 @@ During the initialization phase, all necessary connections (connection to a data
 
 ## Cycles
 
-Each cycle represents an undividable unit of work composed of a series of operations. It is possible to set the maximum number of cycles in the scenario settings panel. The default number is 1.
+Each cycle represents an undividable unit of work composed of a series of operations. It is possible to set the maximum number of cycles in the [!UICONTROL scenario settings] panel. The default number is 1.
 
 For more information, see [The scenario settings panel in Adobe Workfront Fusion](../../workfront-fusion/scenarios/scenario-settings-panel.md).
 
@@ -85,12 +85,12 @@ For more information, see [The scenario settings panel in Adobe Workfront Fusion
 
 During the operation phase reading and/or writing operation is performed:
 
-* The reading operation consists of obtaining data from a service that is then processed by other modules according to a predefined scenario. For example, the Dropbox > Watch files module returns new bundles (files) created since the last scenario execution.
-* The writing operation consists of sending data to a given service for further processing. For example, the Dropbox > Upload a file module uploads a file to a Dropbox folder.
+* The reading operation consists of obtaining data from a service that is then processed by other modules according to a predefined scenario. For example, the [!UICONTROL Dropbox] >[!UICONTROL Watch files] module returns new bundles (files) created since the last scenario execution.
+* The writing operation consists of sending data to a given service for further processing. For example, the [!UICONTROL Dropbox] >[!UICONTROL Upload a file] module uploads a file to a Dropbox folder.
 
 ## Commit
 
-If the operation phase is successful for all modules, the commit phase begins during which all operations performed by the modules are committed. This means that Workfront Fusion sends information to all the services involved in the operation phase about its success.
+If the operation phase is successful for all modules, the commit phase begins during which all operations performed by the modules are committed. This means that [!DNL Workfront Fusion] sends information to all the services involved in the operation phase about its success.
 
 ## Rollback
 
@@ -102,11 +102,11 @@ During the finalization phase, open connections (for example, FTP connections, d
 
 ## ACID modules {#acid-modules}
 
-All Workfront Fusion modules that support rollback (also known as transactionality) are marked with the ACID tag.
+All [!DNL Workfront] Fusion modules that support rollback (also known as transactionality) are marked with the ACID tag.
 
 ![](assets/acid-modules-350x189.png)
 
-Modules not marked with this tag cannot be reverted back to their initial state when errors occur in other modules. A typical example of a non-ACID module is the Email > Send an Email action. After the email is sent you cannot undo the sending.
+Modules not marked with this tag cannot be reverted back to their initial state when errors occur in other modules. A typical example of a non-ACID module is the [!UICONTROL Email] >[!UICONTROL Send an Email] action. After the email is sent you cannot undo the sending.
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

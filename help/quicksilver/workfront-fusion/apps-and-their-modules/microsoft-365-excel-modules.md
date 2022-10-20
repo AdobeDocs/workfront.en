@@ -5,14 +5,14 @@ product-area: workfront-integrations;documents
 keywords: connector
 navigation-topic: apps-and-their-modules
 title: Microsoft Office 365 Excel modules
-description: In an Adobe Workfront Fusion scenario, you can automate workflows that use Microsoft 365 Excel, as well as connect it to multiple third-party applications and services.
+description: In an [!DNL Adobe Workfront] Fusion scenario, you can automate workflows that use Microsoft 365 Excel, as well as connect it to multiple third-party applications and services.
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 9aa3739d-6800-4eb1-a17f-32fdfd8ed0f2
 ---
 # Microsoft Office 365 Excel modules
 
-In an Adobe Workfront Fusion scenario, you can automate workflows that use Microsoft 365 Excel, as well as connect it to multiple third-party applications and services.
+In an [!DNL Adobe Workfront] Fusion scenario, you can automate workflows that use Microsoft 365 Excel, as well as connect it to multiple third-party applications and services.
 
 If you need instructions on creating a scenario, see [Create a scenario in Adobe Workfront Fusion](../../workfront-fusion/scenarios/create-a-scenario.md).
 
@@ -40,12 +40,12 @@ You must have the following access to use the functionality in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
+   <td>Your organization must purchase [!DNL Adobe Workfront Fusion] as well as [!DNL Adobe Workfront] to use functionality described in this article.</td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+&#42;To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
 
 &#42;&#42;For information on Adobe Workfront Fusion licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
@@ -55,21 +55,21 @@ To use Microsoft office 365 Excel, you must have a Microsoft account.
 
 ## Microsoft Office 365 Excel modules and their fields
 
-When you configure Microsoft 365 Excel modules, Workfront Fusion displays the fields listed below. Along with these, additional Microsoft 365 Excel fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
+When you configure Microsoft 365 Excel modules, [!DNL Workfront Fusion] displays the fields listed below. Along with these, additional Microsoft 365 Excel fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
 
 If you see the map button above a field or function, you can use it to set variables and functions for that field. For more information, see [Map information from one module to another in Adobe Workfront Fusion](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 ![](assets/map-toggle-350x74.png)
 
-* [Workbook](#workbook) 
-* [Worksheet](#worksheet) 
-* [Table](#table) 
+* [Workbook](#workbook)
+* [Worksheet](#worksheet)
+* [Table](#table)
 * [Other](#other)
 
 ### Workbook {#workbook}
 
-* [Watch Workbooks](#watch-workbooks) 
-* [Search Workbooks](#search-workbooks) 
+* [Watch Workbooks](#watch-workbooks)
+* [Search Workbooks](#search-workbooks)
 * [Download a Workbook](#download-a-workbook)
 
 #### Watch Workbooks {#watch-workbooks}
@@ -142,8 +142,8 @@ This action module downloads the content of the specified Excel workbook.
    <td role="rowheader">Download a workbook</td> 
    <td> <p>Select how you want to identify the workbook for the module to download.</p> 
     <ul> 
-     <li> <p><strong>By entering an ID manually</strong> </p> <p>In the Workbook ID field, enter or map the ID of the specific workbook that you want the module to download.</p> </li> 
-     <li> <p><strong>By selecting from the path</strong> </p> <p>In the Workbook field, select the workbook that you want the module to download.</p> </li> 
+     <li> <p><strong>By entering an ID manually</strong> </p> <p>In the [!UICONTROL Workbook ID] field, enter or map the ID of the specific workbook that you want the module to download.</p> </li> 
+     <li> <p><strong>[!UICONTROL By selecting from the path]</strong> </p> <p>In the [!UICONTROL Workbook] field, select the workbook that you want the module to download.</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -151,12 +151,12 @@ This action module downloads the content of the specified Excel workbook.
 
 ### Worksheet {#worksheet}
 
-* [Watch Worksheet Rows](#watch-worksheet-rows) 
-* [List Worksheets](#list-worksheets) 
-* [List Worksheet Rows](#list-worksheet-rows) 
-* [Add a Worksheet](#add-a-worksheet) 
-* [Add a Worksheet Row](#add-a-worksheet-row) 
-* [Update a Worksheet Row](#update-a-worksheet-row) 
+* [Watch Worksheet Rows](#watch-worksheet-rows)
+* [List Worksheets](#list-worksheets)
+* [List Worksheet Rows](#list-worksheet-rows)
+* [Add a Worksheet](#add-a-worksheet)
+* [Add a Worksheet Row](#add-a-worksheet-row)
+* [Update a Worksheet Row](#update-a-worksheet-row)
 * [Delete a Worksheet Row](#delete-a-worksheet-row)
 
 #### Watch Worksheet Rows {#watch-worksheet-rows}
@@ -283,7 +283,7 @@ This action module adds a new row to the selected worksheet.
    <td role="rowheader"> <p>Type of values being entered</p> </td> 
    <td> <p>Select the type of value to be entered into the worksheet. </p> 
     <ul> 
-     <li> <p><strong>Formulas</strong> </p> <p> Excel tries to evaluate the specified expression. The names of functions in a formula are in English. Example: <code>=SUM(A1:A10)</code></p> </li> 
+     <li> <p><strong>Formulas</strong> </p> <p> Excel tries to evaluate the specified expression. The names of functions in a formula are in English. Example: <code>[!DNL =SUM(A1:A10)]</code></p> </li> 
      <li> <p><strong>Formulas local</strong> </p> <p>Excel tries to evaluate the specified expression. The function names are in the language of your Excel application. Example: <code>=SUM(A1, 1.5)</code> vs <code>=SUMME(A1; 1,5)</code></p> </li> 
      <li> <p><strong>Value</strong> </p> <p>Excel does not evaluate the value. </p> </li> 
     </ul> </td> 
@@ -319,7 +319,7 @@ This action module updates an existing worksheet row.
    <td role="rowheader"> <p>Type of values being entered</p> </td> 
    <td> <p>Select the type of value to be entered into the worksheet. </p> 
     <ul> 
-     <li> <p><strong>Formulas</strong> </p> <p> Excel tries to evaluate the specified expression. The names of functions in a formula are in English. Example: <code>=SUM(A1:A10)</code></p> </li> 
+     <li> <p><strong>Formulas</strong> </p> <p> Excel tries to evaluate the specified expression. The names of functions in a formula are in English. Example: <code>[!DNL =SUM(A1:A10)]</code></p> </li> 
      <li> <p><strong>Formulas local</strong> </p> <p>Excel tries to evaluate the specified expression. The function names are in the language of your Excel application. Example: <code>=SUM(A1, 1.5)</code> vs <code>=SUMME(A1; 1,5)</code></p> </li> 
      <li> <p><strong>Value</strong> </p> <p>Excel does not evaluate the value. </p> </li> 
     </ul> </td> 
@@ -365,13 +365,13 @@ This action module deletes a row from a worksheet.
 
 ### Table {#table}
 
-* [Watch table rows](#watch-table-rows) 
-* [List tables](#list-tables) 
-* [List table rows](#list-table-rows) 
-* [Get a Table](#get-a-table) 
-* [Add a table](#add-a-table) 
-* [Add a table row](#add-a-table-row) 
-* [Update a table](#update-a-table) 
+* [Watch table rows](#watch-table-rows)
+* [List tables](#list-tables)
+* [List table rows](#list-table-rows)
+* [Get a Table](#get-a-table)
+* [Add a table](#add-a-table)
+* [Add a table row](#add-a-table-row)
+* [Update a table](#update-a-table)
 * [Delete a table](#delete-a-table)
 
 #### Watch table rows {#watch-table-rows}
@@ -489,8 +489,8 @@ This action module retrieves metadata for the specified table.
    <td role="rowheader">Get a table</td> 
    <td> <p>Select how you want to identify the table that you want to retrieve.</p> 
     <ul> 
-     <li> <p><strong>Enter manually</strong> </p> <p>In the Workbook ID field, enter or map the ID&nbsp;of the workbook that contains the table you want to retrieve.</p> <p>In the Table Name field, enter or map the name of the table you want to retrieve.</p> </li> 
-     <li> <p><strong>Select from the list</strong> </p> <p>Select the workbook and worksheet that contain the table you want to retrieve, then select the table.</p> </li> 
+     <li> <p><strong>Enter manually</strong> </p> <p>In the [!UICONTROL Workbook ID] field, enter or map the ID of the workbook that contains the table you want to retrieve.</p> <p>In the [!UICONTROL Table Name] field, enter or map the name of the table you want to retrieve.</p> </li> 
+     <li> <p><strong>[!UICONTROL Select from the list]</strong> </p> <p>Select the workbook and worksheet that contain the table you want to retrieve, then select the table.</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -578,8 +578,8 @@ This action module updates an existing table.
    <td role="rowheader">Update a table</td> 
    <td> <p>Select how you want to identify the table that you want to update.</p> 
     <ul> 
-     <li> <p><strong>Enter manually</strong> </p> <p>In the Workbook ID field, enter or map the ID&nbsp;of the workbook that contains the table you want to update.</p> <p>In the Table Name field, enter or map the name of the table you want to update.</p> </li> 
-     <li> <p><strong>Select from the list</strong> </p> <p>Select the workbook and worksheet that contain the table you want to update, then select the table.</p> </li> 
+     <li> <p><strong>Enter manually</strong> </p> <p>In the [!UICONTROL Workbook ID] field, enter or map the ID of the workbook that contains the table you want to update.</p> <p>In the [!UICONTROL Table Name] field, enter or map the name of the table you want to update.</p> </li> 
+     <li> <p><strong>[!UICONTROL Select from the list]</strong> </p> <p>Select the workbook and worksheet that contain the table you want to update, then select the table.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -621,8 +621,8 @@ This action module deletes the specified table from an Excel worksheet.
    <td role="rowheader">Get a table</td> 
    <td> <p>Select how you want to identify the table that you want to delete.</p> 
     <ul> 
-     <li> <p><strong>Enter manually</strong> </p> <p>In the Workbook ID field, enter or map the ID&nbsp;of the workbook that contains the table you want to delete.</p> <p>In the Table Name field, enter or map the name of the table you want to delete.</p> </li> 
-     <li> <p><strong>Select from the list</strong> </p> <p>Select the workbook and worksheet that contain the table you want to delete, then select the table.</p> </li> 
+     <li> <p><strong>Enter manually</strong> </p> <p>In the [!UICONTROL Workbook ID] field, enter or map the ID of the workbook that contains the table you want to delete.</p> <p>In the [!UICONTROL Table Name] field, enter or map the name of the table you want to delete.</p> </li> 
+     <li> <p><strong>[!UICONTROL Select from the list]</strong> </p> <p>Select the workbook and worksheet that contain the table you want to delete, then select the table.</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -630,7 +630,7 @@ This action module deletes the specified table from an Excel worksheet.
 
 ### Other {#other}
 
-* [Retrieve data](#retrieve-data) 
+* [Retrieve data](#retrieve-data)
 * [Make an API Call](#make-an-api-call)
 
 #### Retrieve data {#retrieve-data}
@@ -682,7 +682,7 @@ This action module allows you to make a custom API call.
   </tr> 
   <tr> 
    <td role="rowheader">Headers</td> 
-   <td> <p>Add the headers of the request in the form of a standard JSON object.</p> <p>For example, <code>{"Content-type":"application/json"}</code></p> <p>Workfront Fusion adds the authorization headers for you.</p> </td> 
+   <td> <p>Add the headers of the request in the form of a standard [!DNL JSON] object.</p> <p>For example, <code>{"Content-type":"application/json"}</code></p> <p>Workfront Fusion adds the authorization headers for you.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Query String</td> 
@@ -690,7 +690,7 @@ This action module allows you to make a custom API call.
   </tr> 
   <tr> 
    <td role="rowheader">Body</td> 
-   <td> <p>Add the body content for the API call in the form of a standard JSON object.</p> <p>Note:   <p>When using conditional statements such as <code>if</code> in your JSON, put the quotation marks outside of the conditional statement.</p> 
+   <td> <p>Add the body content for the API call in the form of a standard [!DNL JSON] object.</p> <p>Note:   <p>When using conditional statements such as <code>if</code> in your JSON, put the quotation marks outside of the conditional statement.</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>">  
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td> 

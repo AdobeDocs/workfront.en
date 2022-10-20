@@ -5,14 +5,14 @@ product-area: workfront-integrations
 keywords: connector
 navigation-topic: apps-and-their-modules
 title: Trello modules
-description: In an Adobe Workfront Fusion scenario, you can automate workflows that use Trello, as well as connect it to multiple third-party applications and services.
+description: In an [!DNL Adobe Workfront] Fusion scenario, you can automate workflows that use Trello, as well as connect it to multiple third-party applications and services.
 author: Becky
 feature: Workfront Fusion
 exl-id: 60630b23-e057-4ecf-a014-6e63b6d69b48
 ---
 # Trello modules
 
-In an Adobe Workfront Fusion scenario, you can automate workflows that use Trello, as well as connect it to multiple third-party applications and services.
+In an [!DNL Adobe Workfront] Fusion scenario, you can automate workflows that use Trello, as well as connect it to multiple third-party applications and services.
 
 If you need instructions on creating a scenario, see [Create a scenario in Adobe Workfront Fusion](../../workfront-fusion/scenarios/create-a-scenario.md).
 
@@ -40,18 +40,18 @@ You must have the following access to use the functionality in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
+   <td>Your organization must purchase [!DNL Adobe Workfront Fusion] as well as [!DNL Adobe Workfront] to use functionality described in this article.</td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+&#42;To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
 
 &#42;&#42;For information on Adobe Workfront Fusion licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
 ## Prerequisites
 
-To use Trello modules, you must have a Trello account.
+To use [!DNL Trello] modules, you must have a Trello account.
 
 ## Connect Trello to Workfront Fusion
 
@@ -59,18 +59,18 @@ For instructions about connecting your Trello account to Workfront Fusion, see [
 
 ## Trello modules and their fields
 
-When you configure Trello modules, Workfront Fusion displays the fields listed below. Along with these, additional Trello fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
+When you configure Trello modules, [!DNL Workfront Fusion] displays the fields listed below. Along with these, additional Trello fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
 
 If you see the map button above a field or function, you can use it to set variables and functions for that field. For more information, see [Map information from one module to another in Adobe Workfront Fusion](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 ![](assets/map-toggle-350x74.png)
 
-* [Boards](#boards) 
-* [Lists](#lists) 
-* [Cards](#cards) 
-* [Members](#members) 
-* [Checklists](#checklists) 
-* [Labels](#labels) 
+* [Boards](#boards)
+* [Lists](#lists)
+* [Cards](#cards)
+* [Members](#members)
+* [Checklists](#checklists)
+* [Labels](#labels)
 * [Comments](#comments)
 
 ### Boards {#boards}
@@ -100,7 +100,7 @@ This trigger module begins a scenario when a new board is added.
   </tr> 
   <tr> 
    <td role="rowheader">Limit </td> 
-   <td> <p>The maximum number of boards Workfront Fusion will return during one execution cycle.</p> </td> 
+   <td> <p>The maximum number of boards [!DNL Workfront Fusion] will return during one execution cycle.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -145,11 +145,11 @@ This action module creates a new board with the selected settings.
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Voting</p> </td> 
-   <td> <p>Select an option to specify who can vote on this board. See the Permission level field for voting limitations on permission levels.</p> </td> 
+   <td> <p>Select an option to specify who can vote on this board. See the [!UICONTROL Permission level] field for voting limitations on permission levels.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Comments</p> </td> 
-   <td> <p>Select an option to specify who can comment on cards for this board. See the Permission level field for commenting limitations on permission levels.</p> </td> 
+   <td> <p>Select an option to specify who can comment on cards for this board. See the [!UICONTROL Permission level] field for commenting limitations on permission levels.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Invitations</p> </td> 
@@ -184,7 +184,7 @@ This action module creates a new board with the selected settings.
    <td> <p>Select between two modes of card aging. </p> 
     <ul> 
      <li><strong>Regular</strong>: Cards become progressively more transparent as they age. </li> 
-     <li><strong>Pirate</strong>: Cards will tear, yellow, and crack like an old pirate map as they age.</li> 
+     <li><strong>[!UICONTROL Pirate]</strong>: Cards will tear, yellow, and crack like an old pirate map as they age.</li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -218,7 +218,7 @@ This action module edits the settings of an existing board.
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Organization ID</p> </td> 
-   <td> <p>Enter or map the unique Trello ID of the board that you want the module to edit. You can retrieve the Board ID using another module, such as the Watch Activities module.</p> <p> <img src="assets/org-id.png"> </p> </td> 
+   <td> <p>Enter or map the unique Trello ID of the board that you want the module to edit. You can retrieve the Board ID using another module, such as the [!DNL Watch Activities] module.</p> <p> <img src="assets/org-id.png"> </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Subscribe </td> 
@@ -238,11 +238,11 @@ This action module edits the settings of an existing board.
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Voting</p> </td> 
-   <td> <p>Select an option to specify who can vote on this board. See the Permission level field for voting limitations on permission levels.</p> </td> 
+   <td> <p>Select an option to specify who can vote on this board. See the [!UICONTROL Permission level] field for voting limitations on permission levels.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Comments</p> </td> 
-   <td> <p>Select an option to specify who can comment on cards for this board. See the Permission level field for commenting limitations on permission levels.</p> </td> 
+   <td> <p>Select an option to specify who can comment on cards for this board. See the [!UICONTROL Permission level] field for commenting limitations on permission levels.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Invitations </td> 
@@ -262,14 +262,14 @@ This action module edits the settings of an existing board.
   </tr> 
   <tr> 
    <td role="rowheader">Background ID</td> 
-   <td> <p> If you have selected to use a custom background in the Background field, enter or map the ID&nbsp;of the background you want to use..</p> </td> 
+   <td> <p> If you have selected to use a custom background in the [!UICONTROL Background] field, enter or map the ID of the background you want to use..</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Card aging</p> </td> 
    <td> <p>Select between two modes of card aging. </p> 
     <ul> 
      <li><strong>Regular</strong>: Cards become progressively more transparent as they age. </li> 
-     <li><strong>Pirate</strong>: Cards will tear, yellow, and crack like an old pirate map as they age.</li> 
+     <li><strong>[!UICONTROL Pirate]</strong>: Cards will tear, yellow, and crack like an old pirate map as they age.</li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -277,7 +277,7 @@ This action module edits the settings of an existing board.
    <td> <p> Select whether the calendar feed is enabled or not.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">&lt;Color&gt; label name</td> 
+   <td role="rowheader">&lt;Color> label name</td> 
    <td> <p> Assign a name to the desired color label.</p> </td> 
   </tr> 
   <tr> 
@@ -310,7 +310,7 @@ This action module retrieves a board's details.
 
 +++
 
-+++ **Search for Boards**
++++ **[!DNL Search] for Boards**
 
 This search module retrieves information about a board that you specify .
 
@@ -328,11 +328,11 @@ This search module retrieves information about a board that you specify .
   </tr> 
   <tr> 
    <td role="rowheader">Maximum number of returned boards</td> 
-   <td> <p> Enter the maximum number of boards Workfront Fusion will return during one execution cycle. This value must be less than or equal to 1000.</p>  </td> 
+   <td> <p> Enter the maximum number of boards [!DNL Workfront Fusion] will return during one execution cycle. This value must be less than or equal to 1000.</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Partial </p> </td> 
-   <td> <p>By default, this module searches member content for exact matches of each word in your query. When Partial is enabled, the module looks for content that starts with any word in your query.</p> <p> For example If you are using the word "development" to look for a board titled "My Development Status Report," by default you would need to search for the entire word. If you have Partial enabled, you would be able to search for "dev" but not "velopment."</p> </td> 
+   <td> <p>By default, this module searches member content for exact matches of each word in your query. When [!UICONTROL Partial] is enabled, the module looks for content that starts with any word in your query.</p> <p> For example If you are using the word "development" to look for a board titled "My Development Status Report," by default you would need to search for the entire word. If you have Partial enabled, you would be able to search for "dev" but not "velopment."</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Boards </td> 
@@ -406,7 +406,7 @@ This action module assigns a member to a board that you specify .
 
 +++
 
-+++ **Unassign a Member from a Board** 
++++ **Unassign a Member from a Board**
 
 This action module removes a member from a board.
 
@@ -440,7 +440,7 @@ This action module removes a member from a board.
 * [Get a List](#get-a-list)
 -->
 
-+++ **Watch cards moved to a list** 
++++ **Watch cards moved to a list**
 
 This trigger module activates when a card is moved to a specific list.
 
@@ -462,7 +462,7 @@ This trigger module activates when a card is moved to a specific list.
   </tr> 
   <tr> 
    <td role="rowheader">Limit </td> 
-   <td> <p>The maximum number of cards Workfront Fusion will return during one execution cycle.</p>  </td> 
+   <td> <p>The maximum number of cards [!DNL Workfront Fusion] will return during one execution cycle.</p>  </td> 
   </tr> 
  </tbody> 
 </table>
@@ -497,7 +497,7 @@ This action module creates a list on a board that you specify .
    <td role="rowheader">Copy list</td> 
    <td> <p> Select how you want to enter the ID of the list you want to copy.</p> 
     <ul> 
-     <li> <p><strong>Enter manually</strong> </p> <p>In the <strong>List ID</strong> field, enter or map the ID&nbsp;of the list you want to copy.<br></p> </li> 
+     <li> <p><strong>Enter manually</strong> </p> <p>In the <strong>[!UICONTROL List ID]</strong> field, enter or map the ID of the list you want to copy.<br></p> </li> 
      <li> <p><strong>Select</strong> </p> <p>Select the board that contains the list you want to copy, then select the list.</p> </li> 
     </ul> </td> 
   </tr> 
@@ -592,14 +592,14 @@ This trigger module activated when a new card is added.
    <td role="rowheader">Watched object</td> 
    <td> <p>Select the location you want to watch for cards.</p> 
     <ul> 
-     <li><strong>All cards</strong> </li> 
+     <li><strong>[!UICONTROL All cards]</strong> </li> 
      <li> <p><strong>Cards on specific board</strong> </p> <p>Select the board that you want to watch for cards</p> </li> 
-     <li> <p><strong>Cards on specific list</strong> </p> <p>Select the board that contains the list you want to watch for cards, then select the list.</p> </li> 
+     <li> <p><strong>[!UICONTROL Cards on specific list]</strong> </p> <p>Select the board that contains the list you want to watch for cards, then select the list.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Limit </td> 
-   <td> <p>The maximum number of cards Workfront Fusion will return during one execution cycle.</p> </td> 
+   <td> <p>The maximum number of cards [!DNL Workfront Fusion] will return during one execution cycle.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -622,13 +622,13 @@ This action module creates a card in a selected list.
    <td role="rowheader">Enter a list ID</td> 
    <td> <p> Select how you want to enter the ID of the list where you want to add a card.</p> 
     <ul> 
-     <li> <p><strong>Enter manually</strong> </p> <p>In the <strong>List ID</strong> field, enter or map the ID&nbsp;of the list where you want to add a card.<br></p> </li> 
+     <li> <p><strong>Enter manually</strong> </p> <p>In the <strong>[!UICONTROL List ID]</strong> field, enter or map the ID of the list where you want to add a card.<br></p> </li> 
      <li> <p><strong>Select</strong> </p> <p>Select the board that contains the list you want to copy, then select the list.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Labels </td> 
-   <td> <p>For each label that you want to add to the card, enter the ID of the label. The ID can be retrieved, for example, using the Retrieve Labels module.</p> </td> 
+   <td> <p>For each label that you want to add to the card, enter the ID of the label. The ID can be retrieved, for example, using the [!UICONTROL Retrieve Labels] module.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Members</td> 
@@ -644,7 +644,7 @@ This action module creates a card in a selected list.
   </tr> 
   <tr> 
    <td role="rowheader">Position </td> 
-   <td> <p>Select whether you want to add the card to the top or append the card to the bottom of the list.</p> </td> 
+   <td> <p>Select whether you want to add the card to the top or [!UICONTROL append] the card to the bottom of the list.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Due date</td> 
@@ -663,14 +663,14 @@ This action module creates a card in a selected list.
    <td> <p>Enter or map information for a file you to want to add as an attachment to the card.</p> 
     <ul> 
      <li>File name: Enter or map the file name, including the file extension.</li> 
-     <li> <p>File data: Enter or map the file data (from previous module, e.g. <strong>Dropbox &gt; Get a File or Google Drive &gt; Get a File</strong>)</p> <p>Note: There is a 10 MB file upload limit per attachment. However, Business Class and Trello Gold members have a 250 MB file upload limit per attachment.</p> </li> 
+     <li> <p>File data: Enter or map the file data (from previous module, e.g. <strong>[!UICONTROL Dropbox] >[!UICONTROL Get a File] or [!UICONTROL Google Drive] >[!UICONTROL Get a File]</strong>)</p> <p>Note: There is a 10 MB file upload limit per attachment. However, [!UICONTROL Business Class] and [!UICONTROL Trello Gold] members have a 250 MB file upload limit per attachment.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Copy card</td> 
    <td> <p> Select how you want to enter the ID of the card you want to copy.</p> 
     <ul> 
-     <li> <p><strong>Enter manually</strong> </p> <p>In the <strong>Card ID</strong> field, enter or map the ID&nbsp;of the card you want to copy.<br></p> </li> 
+     <li> <p><strong>Enter manually</strong> </p> <p>In the <strong>[!UICONTROL Card ID]</strong> field, enter or map the ID of the card you want to copy.<br></p> </li> 
      <li> <p><strong>Select</strong> </p> <p>Select the board that contains the card you want to copy, then select the list that contains the card, then select the card.</p> </li> 
     </ul> </td> 
   </tr> 
@@ -695,7 +695,7 @@ This action module edits an existing card.
    <td role="rowheader">Enter Card ID</td> 
    <td> <p> Select how you want to enter the ID of the card you want to edit.</p> 
     <ul> 
-     <li> <p><strong>Enter manually</strong> </p> <p>In the <strong>Card ID</strong> field, enter or map the ID&nbsp;of the card you want to edit.<br></p> </li> 
+     <li> <p><strong>Enter manually</strong> </p> <p>In the <strong>[!UICONTROL Card ID]</strong> field, enter or map the ID of the card you want to edit.<br></p> </li> 
      <li> <p><strong>Select</strong> </p> <p>Select the board that contains the card you want to edit, then select the list that contains the card, then select the card.</p> </li> 
     </ul> </td> 
   </tr> 
@@ -717,7 +717,7 @@ This action module edits an existing card.
   </tr> 
   <tr> 
    <td role="rowheader">Position </td> 
-   <td> <p>Select whether you want to add the card to the top or append the card to the bottom of the list.</p> </td> 
+   <td> <p>Select whether you want to add the card to the top or [!UICONTROL append] the card to the bottom of the list.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Due date</td> 
@@ -768,7 +768,7 @@ This action module retrieves a selected card's details.
    <td role="rowheader">Enter card ID</td> 
    <td> <p> Select how you want to enter the ID of the card you want to retrieve details about.</p> 
     <ul> 
-     <li> <p><strong>Enter manually</strong> </p> <p>In the <strong>Card ID</strong> field, enter or map the ID&nbsp;of the card you want to retrieve details about.<br></p> </li> 
+     <li> <p><strong>Enter manually</strong> </p> <p>In the <strong>[!UICONTROL Card ID]</strong> field, enter or map the ID of the card you want to retrieve details about.<br></p> </li> 
      <li> <p><strong>Select</strong> </p> <p>Select the board that contains the card you want to retrieve details about, then select the list that contains the card, then select the card.</p> </li> 
     </ul> </td> 
   </tr> 
@@ -777,7 +777,7 @@ This action module retrieves a selected card's details.
 
 +++
 
-+++ **Search for Cards**
++++ **[!UICONTROL Search for Cards]**
 
 This action module returns cards that match the search query.
 
@@ -797,7 +797,7 @@ This action module returns cards that match the search query.
    <td role="rowheader"> <p>Query</p> </td> 
    <td> <p>Enter the search query. You can refine your search using the following search operators:</p> 
     <ul> 
-     <li><code><strong>-operator</strong></code> <p>You can add "-" to any operator to do a negative search, such as <code>-has:members</code> to search for cards without any members assigned.</p> </li> 
+     <li><code><strong>-operator</strong></code> <p>You can add "-" to any operator to do a negative search, such as <code>[!UICONTROL -has:members]</code> to search for cards without any members assigned.</p> </li> 
      <li><code><strong>@name</strong></code> <p>Returns cards assigned to a member. You can also use <code>member:</code>. Use <code>@me</code> to include only your cards.</p> </li> 
      <li><code><strong>#label</strong></code> <p>Returns labeled cards. You can also use <code>label:</code>. For example, <code>label:"FIX IT"</code> will return cards with the label named "FIX IT".</p> </li> 
      <li><code><strong>board:id</strong></code> <p>Returns cards within a specific board. For example, <code>board:Trello</code> will return cards on boards with Trello in the board name.</p> </li> 
@@ -813,11 +813,11 @@ This action module returns cards that match the search query.
   </tr> 
   <tr> 
    <td role="rowheader">Maximum number of returned cards</td> 
-   <td> <p> The maximum number of cards Workfront Fusion will return during one execution cycle. This value must be less than or equal to 1000.</p> </td> 
+   <td> <p> The maximum number of cards [!DNL Workfront Fusion] will return during one execution cycle. This value must be less than or equal to 1000.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Partial </td> 
-   <td> <p>By default, this module searches member content for exact matches of each word in your query. When Partial is enabled, the module looks for content that starts with any word in your query.</p> <p> For example If you are using the word "development" to look for a board titled "My Development Status Report," by default you would need to search for the entire word. If you have Partial enabled, you would be able to search for "dev" but not "velopment."</p> </td> 
+   <td> <p>By default, this module searches member content for exact matches of each word in your query. When [!UICONTROL Partial] is enabled, the module looks for content that starts with any word in your query.</p> <p> For example If you are using the word "development" to look for a board titled "My Development Status Report," by default you would need to search for the entire word. If you have Partial enabled, you would be able to search for "dev" but not "velopment."</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Cards </td> 
@@ -869,7 +869,7 @@ This action module adds an attachment to the selected card.
    <td role="rowheader">Enter card ID</td> 
    <td> <p> Select how you want to enter the ID of the card you want to retrieve details about.</p> 
     <ul> 
-     <li> <p><strong>Enter manually</strong> </p> <p>In the <strong>Card ID</strong> field, enter or map the ID&nbsp;of the card you want to retrieve details about.<br></p> </li> 
+     <li> <p><strong>Enter manually</strong> </p> <p>In the <strong>[!UICONTROL Card ID]</strong> field, enter or map the ID of the card you want to retrieve details about.<br></p> </li> 
      <li> <p><strong>Select</strong> </p> <p>Select the board that contains the card you want to retrieve details about, then select the list that contains the card, then select the card.</p> </li> 
     </ul> </td> 
   </tr> 
@@ -877,7 +877,7 @@ This action module adds an attachment to the selected card.
    <td role="rowheader"> <p>Attachment type</p> </td> 
    <td> <p>Select whether you want to upload the file directly or provide a URL to the file.</p> 
     <ul> 
-     <li> <p><strong>File</strong> </p> <p>Select a source file from a previous module, or map the source file's name and data.</p> </li> 
+     <li> <p><strong>[!UICONTROL File]</strong> </p> <p>Select a source file from a previous module, or map the source file's name and data.</p> </li> 
      <li> <p><strong>URL</strong> </p> <p>Enter the URL to the file, and provide a name for the attachment.</p> </li> 
     </ul> </td> 
   </tr> 
@@ -949,11 +949,11 @@ This action module retrieves information about Trello members.
   </tr> 
   <tr> 
    <td role="rowheader">Partial </td> 
-   <td> <p>By default, this module searches member content for exact matches of each word in your query. When Partial is enabled, the module looks for content that starts with any word in your query.</p> <p> For example If you are using the word "development" to look for a board titled "My Development Status Report," by default you would need to search for the entire word. If you have Partial enabled, you would be able to search for "dev" but not "velopment."</p> </td> 
+   <td> <p>By default, this module searches member content for exact matches of each word in your query. When [!UICONTROL Partial] is enabled, the module looks for content that starts with any word in your query.</p> <p> For example If you are using the word "development" to look for a board titled "My Development Status Report," by default you would need to search for the entire word. If you have Partial enabled, you would be able to search for "dev" but not "velopment."</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Maximum number of returned members</td> 
-   <td> <p> The maximum number of members Workfront Fusion will return during one execution cycle.</p> </td> 
+   <td> <p> The maximum number of members [!DNL Workfront Fusion] will return during one execution cycle.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -984,7 +984,7 @@ This action module creates a checklist on the selected card.
    <td role="rowheader">Enter a card ID</td> 
    <td> <p> Select how you want to enter the ID of the card where you want to add a checklist.</p> 
     <ul> 
-     <li> <p><strong>Enter manually</strong> </p> <p>In the <strong>Card ID</strong> field, enter or map the ID&nbsp;of the card where you want to add a checklist.<br></p> </li> 
+     <li> <p><strong>Enter manually</strong> </p> <p>In the <strong>[!UICONTROL Card ID]</strong> field, enter or map the ID of the card where you want to add a checklist.<br></p> </li> 
      <li> <p><strong>Select</strong> </p> <p>Select the board that contains the card where you want to add a checklist, then select the list that contains the card, then select the card.</p> </li> 
     </ul> </td> 
   </tr> 
@@ -994,7 +994,7 @@ This action module creates a checklist on the selected card.
   </tr> 
   <tr> 
    <td role="rowheader">Position </td> 
-   <td> <p>Select whether you want to add the checklist to the top or append the checklist to the bottom of the card.</p> </td> 
+   <td> <p>Select whether you want to add the checklist to the top or [!UICONTROL append the] checklist to the bottom of the card.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Enter checklist ID</p> </td> 
@@ -1021,7 +1021,7 @@ This action module adds an item to a specific checklist.
    <td role="rowheader">Enter checklist ID</td> 
    <td> <p> Select how you want to enter the ID of the checklist where you want to add an item.</p> 
     <ul> 
-     <li> <p><strong>Enter manually</strong> </p> <p>In the <strong>Checklist ID</strong> field, enter or map the ID&nbsp;of the card where you want to add a checklist.<br></p> </li> 
+     <li> <p><strong>Enter manually</strong> </p> <p>In the <strong>[!UICONTROL Checklist ID]</strong> field, enter or map the ID of the card where you want to add a checklist.<br></p> </li> 
      <li> <p><strong>Select</strong> </p> <p>Select the board that contains the card where you want to add a checklist, then select the list that contains the card, then select the card, then select the checklist.</p> </li> 
     </ul> </td> 
   </tr> 
@@ -1031,7 +1031,7 @@ This action module adds an item to a specific checklist.
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Position</p> </td> 
-   <td> <p>Select whether you want to add the item to the top or append to the bottom of the checklist.</p> </td> 
+   <td> <p>Select whether you want to add the item to the top or [!UICONTROL append] to the bottom of the checklist.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Checked</p> </td> 
@@ -1058,7 +1058,7 @@ This action module edits an existing checklist.
    <td role="rowheader">Enter a Card ID and Checklist Item ID</td> 
    <td> <p> Select how you want to enter the ID of the card and checklist where you want to edit an item.</p> 
     <ul> 
-     <li> <p><strong>Enter manually</strong> </p> <p>In the <strong>Checklist ID</strong> field, enter or map the ID&nbsp;of the card where you want to add a checklist.</p> <p>In the <strong>Checklist Item ID</strong> field, enter or map the ID&nbsp;of the checklist.</p> </li> 
+     <li> <p><strong>Enter manually</strong> </p> <p>In the <strong>[!UICONTROL Checklist ID]</strong> field, enter or map the ID of the card where you want to add a checklist.</p> <p>In the <strong>[!UICONTROL Checklist Item ID]</strong> field, enter or map the ID of the checklist.</p> </li> 
      <li> <p><strong>Select</strong> </p> <p>Select the board that contains the card where you want to add a checklist, then select the list that contains the card, then select the card, then select the checklist.</p> </li> 
     </ul> </td> 
   </tr> 
@@ -1072,7 +1072,7 @@ This action module edits an existing checklist.
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Position</p> </td> 
-   <td> <p>Select whether you want to add the item to the top or append to the bottom of the checklist.</p> </td> 
+   <td> <p>Select whether you want to add the item to the top or [!UICONTROL append] to the bottom of the checklist.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>State</p> </td> 
@@ -1101,7 +1101,7 @@ This action module adds a label to a selected card.
    <td role="rowheader">Enter card ID</td> 
    <td> <p> Select how you want to enter the ID of the card where you want to add a checklist.</p> 
     <ul> 
-     <li> <p><strong>Enter manually</strong> </p> <p>In the <strong>Card ID</strong> field, enter or map the ID&nbsp;of the card where you want to add a checklist. In the<strong>Label ID</strong> field, enter or map the ID&nbsp;of the label that you want to add.<br></p> </li> 
+     <li> <p><strong>Enter manually</strong> </p> <p>In the <strong>[!UICONTROL Card ID]</strong> field, enter or map the ID of the card where you want to add a checklist. In the<strong>[!UICONTROL Label ID]</strong> field, enter or map the ID of the label that you want to add.<br></p> </li> 
      <li> <p><strong>Select</strong> </p> <p>Select the board that contains the card where you want to add a checklist, then select the list that contains the card, then select the card. </p> <p>Select the label that you want to add to the card.</p> </li> 
     </ul> </td> 
   </tr> 
@@ -1134,7 +1134,7 @@ Retrieves comment details when there is a new comment in a specified location.
    <td role="rowheader">Watched object</td> 
    <td> <p>Select the location you want to watch for comments.</p> 
     <ul> 
-     <li><strong>All cards everywhere</strong> </li> 
+     <li><strong>[!UICONTROL All cards] everywhere</strong> </li> 
      <li> <p><strong>Board</strong> </p> <p>Select the board that you want to watch for comments</p> </li> 
      <li> <p><strong>List</strong> </p> <p>Select the board that contains the list you want to watch for comments, then select the list.</p> </li> 
      <li><strong>Card</strong> </li> 
@@ -1143,7 +1143,7 @@ Retrieves comment details when there is a new comment in a specified location.
   </tr> 
   <tr> 
    <td role="rowheader">Limit </td> 
-   <td> <p>The maximum number of comments Workfront Fusion will return during one execution cycle.</p> </td> 
+   <td> <p>The maximum number of comments [!DNL Workfront Fusion] will return during one execution cycle.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -1166,7 +1166,7 @@ This action module adds a comment to a selected card.
    <td role="rowheader">Enter a card ID</td> 
    <td> <p> Select how you want to enter the ID of the card where you want to add a comment.</p> 
     <ul> 
-     <li> <p><strong>Enter manually</strong> </p> <p>In the <strong>Card ID</strong> field, enter or map the ID&nbsp;of the card where you want to add a comment.<br></p> </li> 
+     <li> <p><strong>Enter manually</strong> </p> <p>In the <strong>[!UICONTROL Card ID]</strong> field, enter or map the ID of the card where you want to add a comment.<br></p> </li> 
      <li> <p><strong>Select</strong> </p> <p>Select the board that contains the card where you want to add a comment, then select the list that contains the card, then select the card.</p> </li> 
     </ul> </td> 
   </tr> 
@@ -1193,13 +1193,13 @@ This action module adds a comment to a selected card.
    <td role="rowheader">Enter a card ID</td> 
    <td> <p> Select how you want to enter the ID of the card where you want to add a comment.</p> 
     <ul> 
-     <li> <p><strong>Enter manually</strong> </p> <p>In the <strong>Card ID</strong> field, enter or map the ID&nbsp;of the card where you want to add a comment.<br></p> </li> 
+     <li> <p><strong>Enter manually</strong> </p> <p>In the <strong>[!UICONTROL Card ID]</strong> field, enter or map the ID of the card where you want to add a comment.<br></p> </li> 
      <li> <p><strong>Select</strong> </p> <p>Select the board that contains the card where you want to add a comment, then select the list that contains the card, then select the card.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Maximum number of returned comments</td> 
-   <td> <p> Enter the maximum number of comments Workfront Fusion will return during one execution cycle.</p> </td> 
+   <td> <p> Enter the maximum number of comments [!DNL Workfront Fusion] will return during one execution cycle.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Since </td> 
@@ -1216,15 +1216,15 @@ This action module adds a comment to a selected card.
 
 ## Trello Object IDs
 
-* [How to find the ID or the shortlink of a card in Trello](#how-to-find-the-id-or-the-shortlink-of-a-card-in-trello) 
+* [How to find the ID or the shortlink of a card in [!DNL Trello]](#how-to-find-the-id-or-the-shortlink-of-a-card-in-trello)
 * [How to find IDs of other objects in Trello](#how-to-find-ids-of-other-objects-in-trello)
 
-### How to find the ID or the shortlink of a card in Trello {#how-to-find-the-id-or-the-shortlink-of-a-card-in-trello}
+### How to find the ID or the shortlink of a card in [!DNL Trello] {#how-to-find-the-id-or-the-shortlink-of-a-card-in-trello}
 
-If you want to edit a card or create a new comment, you need to know the ID of the card or its shortlink. You can get this information from the output of the New Card trigger. The shortlink for a card can also be obtained by opening the card and clicking on the Share button. The shortlink can be found in the Link to this card box, at the end of the URL after `https://trello.com/c/`.
+If you want to edit a card or create a new comment, you need to know the ID of the card or its shortlink. You can get this information from the output of the New Card trigger. The shortlink for a card can also be obtained by opening the card and clicking on the [!UICONTROL Share] button. The shortlink can be found in the [!UICONTROL Link to this card] box, at the end of the URL after `https://trello.com/c/`.
 
 ![](assets/share-and-more-350x575.png)
 
 ### How to find IDs of other objects in Trello {#how-to-find-ids-of-other-objects-in-trello}
 
-Board, list and comment IDs can only be obtained using triggers. The trello.com website does not show these IDs.
+Board, list and comment IDs can only be obtained using triggers. The [!DNL trello.com] website does not show these IDs.

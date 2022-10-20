@@ -5,14 +5,14 @@ product-area: workfront-integrations
 keywords: connector
 navigation-topic: apps-and-their-modules
 title: Azure Active Directory modules
-description: In an Adobe Workfront Fusion scenario, you can automate workflows that use Azure Active Directory, as well as connect it to multiple third-party applications and services.
+description: In an [!DNL Adobe Workfront] Fusion scenario, you can automate workflows that use [!DNL Azure] Active Directory, as well as connect it to multiple third-party applications and services.
 author: Becky
 feature: Workfront Fusion
 exl-id: ac966231-251e-44de-be61-00afa5ece3fd
 ---
 # Azure Active Directory modules
 
-In an Adobe Workfront Fusion scenario, you can automate workflows that use Azure Active Directory, as well as connect it to multiple third-party applications and services.
+In an [!DNL Adobe Workfront] Fusion scenario, you can automate workflows that use [!DNL Azure] Active Directory, as well as connect it to multiple third-party applications and services.
 
 If you need instructions on creating a scenario, see [Create a scenario in Adobe Workfront Fusion](../../workfront-fusion/scenarios/create-a-scenario.md). For information about modules, see [Modules in Adobe Workfront Fusion](../../workfront-fusion/modules/modules.md).
 
@@ -38,12 +38,12 @@ You must have the following access to use the functionality in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
+   <td>Your organization must purchase [!DNL Adobe Workfront Fusion] as well as [!DNL Adobe Workfront] to use functionality described in this article.</td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+&#42;To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
 
 &#42;&#42;For information on Adobe Workfront Fusion licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
@@ -53,14 +53,14 @@ To use Azure Active Directory modules, you must have an Azure Active Directory a
 
 ## Azure Active Directory modules and their fields
 
-When you configure Azure Active Directory modules, Workfront Fusion displays the fields listed below. Along with these, additional Azure Active Directory fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
+When you configure [!DNL Azure] Active Directory modules, [!DNL Workfront Fusion] displays the fields listed below. Along with these, additional [!DNL Azure] Active Directory fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
 
 If you see the map button above a field or function, you can use it to set variables and functions for that field. For more information, see [Map information from one module to another in Adobe Workfront Fusion](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 ![](assets/map-toggle-350x74.png)
 
-* [Triggers](#triggers) 
-* [Actions](#actions) 
+* [Triggers](#triggers)
+* [Actions](#actions)
 * [Searches](#searches)
 
 ### Triggers {#triggers}
@@ -92,8 +92,8 @@ When you are configuring this module, the following fields display.
 
 ### Actions {#actions}
 
-* [Read Record](#read-record) 
-* [Create Record](#create-record) 
+* [Read Record](#read-record)
+* [Create Record](#create-record)
 * [Custom API Call](#custom-api-call)
 
 #### Read Record {#read-record}
@@ -162,7 +162,7 @@ When you are configuring this module, the following fields display.
 
 #### Custom API Call {#custom-api-call}
 
-This action module lets you make a custom authenticated call to the Azure Active Directory API. This way, you can create a data flow automation that can't be accomplished by the other Azure Active Directory modules.
+This action module lets you make a custom authenticated call to the [!DNL Azure Active Directory] API. This way, you can create a data flow automation that can't be accomplished by the other Azure Active Directory modules.
 
 When you are configuring this module, the following fields display.
 
@@ -184,7 +184,7 @@ When you are configuring this module, the following fields display.
   </tr> 
   <tr> 
    <td role="rowheader">Headers</td> 
-   <td> <p>Add the headers of the request in the form of a standard JSON object.</p> <p>For example, <code>{"Content-type":"application/json"}</code></p> </td> 
+   <td> <p>Add the headers of the request in the form of a standard [!DNL JSON] object.</p> <p>For example, <code>{"Content-type":"application/json"}</code></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Query String</td> 
@@ -192,7 +192,7 @@ When you are configuring this module, the following fields display.
   </tr> 
   <tr> 
    <td role="rowheader">Body</td> 
-   <td> <p>Add the body content for the API call in the form of a standard JSON object.</p> <p>Note:  <p>When using conditional statements such as <code>if</code> in your JSON, put the quotation marks outside of the conditional statement.</p> 
+   <td> <p>Add the body content for the API call in the form of a standard [!DNL JSON] object.</p> <p>Note:  <p>When using conditional statements such as <code>if</code> in your JSON, put the quotation marks outside of the conditional statement.</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td> 
@@ -202,7 +202,7 @@ When you are configuring this module, the following fields display.
 
 ### Searches {#searches}
 
-* [Search Users](#search-users) 
+* [Search Users](#search-users)
 * [Search Users/Groups Delta](#search-users-groups-delta)
 
 #### Search Users {#search-users}
@@ -221,7 +221,7 @@ When you are configuring this module, the following fields display.
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Search Criteria</td> 
-   <td> <p>Enter the criteria that you want to use in your search.</p> <p>For information about the parameters to use, such as "$filter, see <a href="https://docs.microsoft.com/en-us/graph/query-parameters">Use query parameters to customize responses</a> in the Microsoft API&nbsp;documentation.</p> </td> 
+   <td> <p>Enter the criteria that you want to use in your search.</p> <p>For information about the parameters to use, such as "$filter, see <a href="https://docs.microsoft.com/en-us/graph/query-parameters">Use query parameters to customize responses</a> in the Microsoft API documentation.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Outputs</td> 
@@ -236,7 +236,7 @@ When you are configuring this module, the following fields display.
 
 #### Search Users/Groups Delta  {#search-users-groups-delta}
 
-This search module looks for records in Azure AD that have been created, updated, or deleted.You can map this information in subsequent modules in the scenario.
+This search module looks for records in [!DNL Azure AD] that have been created, updated, or deleted.You can map this information in subsequent modules in the scenario.
 
 <table style="table-layout:auto">
  <col> 

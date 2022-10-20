@@ -8,7 +8,7 @@ exl-id: a6ebfe6f-dc3f-41f7-8129-bbc5775cff33
 ---
 # DocuSign modules
 
-The Adobe Workfront Fusion DocuSign modules enable you to monitor and retrieve envelope status, search and retrieve envelopes, or download and send a document to sign in your DocuSign account.
+The [!DNL Adobe Workfront Fusion DocuSign] modules enable you to monitor and retrieve envelope status, search and retrieve envelopes, or download and send a document to sign in your [!DNL DocuSign] account.
 
 If you need instructions on creating a scenario, see [Create a scenario in Adobe Workfront Fusion](../../workfront-fusion/scenarios/create-a-scenario.md).
 
@@ -36,33 +36,33 @@ You must have the following access to use the functionality in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
+   <td>Your organization must purchase [!DNL Adobe Workfront Fusion] as well as [!DNL Adobe Workfront] to use functionality described in this article.</td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+&#42;To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
 
 &#42;&#42;For information on Adobe Workfront Fusion licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
 ## Prerequisites
 
-To use DocuSign modules, you must have a DocuSign account.
+To use [!DNL DocuSign] modules, you must have a [!DNL DocuSign] account.
 
-## Connect DocuSign to Workfront Fusion {#connect-docusign-to-workfront-fusion}
+## Connect DocuSign to [!DNL Workfront] Fusion {#connect-docusign-to-workfront-fusion}
 
-To create a connection for your DocuSign modules:
+To create a connection for your [!DNL DocuSign] modules:
 
-1. Click **Add** next to the Connection box when you begin configuring the first DocuSign module.
+1. Click **Add** next to the Connection box when you begin configuring the first [!DNL DocuSign] module.
 1. Enter the following:
 
-  <table style="table-layout:auto">
+<table style="table-layout:auto">
     <col> 
     <col> 
     <tbody> 
      <tr> 
       <td role="rowheader"> <p>Connection name</p> </td> 
-      <td>Enter a name for the new DocuSign connection</td> 
+      <td>Enter a name for the new [!DNL DocuSign] connection</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Account type</td> 
@@ -75,13 +75,13 @@ To create a connection for your DocuSign modules:
 
 ## DocuSign modules and their fields
 
-When you configure DocuSign modules, Workfront Fusion displays the fields listed below. Along with these, additional DocuSign fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
+When you configure [!DNL DocuSign] modules, [!DNL Workfront Fusion] displays the fields listed below. Along with these, additional [!DNL DocuSign] fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
 
 If you see the map button above a field or function, you can use it to set variables and functions for that field. For more information, see [Map information from one module to another in Adobe Workfront Fusion](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 ![](assets/map-toggle-350x74.png)
 
-* [Triggers](#triggers) 
+* [Triggers](#triggers)
 * [Actions](#actions)
 
 ### Triggers {#triggers}
@@ -126,14 +126,14 @@ This trigger module starts a scenario when an envelope is sent, delivered, signe
 
 ### Actions  {#actions}
 
-* [Custom API Call](#custom-api-call) 
-* [Download a document](#download-a-document) 
-* [Read an envelope](#read-an-envelope) 
-* [Upload a file to an envelope](#upload-a-file-to-an-envelope) 
-* [Create a new envelope](#create-a-new-envelope) 
-* [Add Recipient to Envelope](#add-recipient-to-envelope) 
-* [Add custom field](#add-custom-field) 
-* [Modify custom field](#modify-custom-field) 
+* [Custom API Call](#custom-api-call)
+* [Download a document](#download-a-document)
+* [Read an envelope](#read-an-envelope)
+* [[!UICONTROL Upload a file to an envelope]](#upload-a-file-to-an-envelope)
+* [Create a new envelope](#create-a-new-envelope)
+* [[!UICONTROL Add Recipient to Envelope]](#add-recipient-to-envelope)
+* [Add custom field](#add-custom-field)
+* [Modify custom field](#modify-custom-field)
 * [Send envelope](#send-envelope)
 
 #### Custom API Call {#custom-api-call}
@@ -146,15 +146,15 @@ This action module allows you to perform a custom API call.
  <tbody> 
   <tr> 
    <td>Connection</td> 
-   <td> <p>For instructions about connecting your DocuSign account to Workfront Fusion, see <a href="#connect-docusign-to-workfront-fusion" class="MCXref xref">Connect DocuSign to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your [!DNL DocuSign] account to [!DNL Workfront] Fusion, see <a href="#connect-docusign-to-workfront-fusion" class="MCXref xref">Connect DocuSign to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td>Account</td> 
-   <td>Enter or map the account that you want to use to access the DocuSign API.</td> 
+   <td>Enter or map the account that you want to use to access the [!DNL DocuSign] API.</td> 
   </tr> 
   <tr> 
    <td>URL</td> 
-   <td> <p>Type the address on the web server that you want the module to interact with.</p> <p>You can type a relative URL, which means that you don't have to include the protocol (such as <code>http://</code>) at the beginning. This suggests to the web server that the interaction is occurring on the server.</p> <p>For example: <code>/api/conversations.create</code></p> <p>Tip: For a list of available endpoints, see the <a href="https://developers.docusign.com/esign-rest-api/reference">DocuSign API Reference</a>.</p> </td> 
+   <td> <p>Type the address on the web server that you want the module to interact with.</p> <p>You can type a relative URL, which means that you don't have to include the protocol (such as <code>http://</code>) at the beginning. This suggests to the web server that the interaction is occurring on the server.</p> <p>For example: <code>[!DNL /api/conversations].create</code></p> <p>Tip: For a list of available endpoints, see the <a href="https://developers.docusign.com/esign-rest-api/reference">[!DNL DocuSign] API Reference</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>Method</td> 
@@ -162,7 +162,7 @@ This action module allows you to perform a custom API call.
   </tr> 
   <tr> 
    <td>Headers</td> 
-   <td> <p>Add the headers of the request in the form of a standard JSON object. This determines the content type of the request.</p> <p>For example,<code> {“Content-type”:“application/json”}</code></p> <p>Note: If you're getting errors and it's difficult to determine their origin, consider modifying headers based on the Workfront documentation. If your Custom API Call returns a 422 HTTP Request Error, try using a “Content-Type”:“text/plain” header.</p> </td> 
+   <td> <p>Add the headers of the request in the form of a standard JSON object. This determines the content type of the request.</p> <p>For example,<code> {“Content-type”:“application/json”}</code></p> <p>Note: If you're getting errors and it's difficult to determine their origin, consider modifying headers based on the [!DNL Workfront] documentation. If your Custom API Call returns a 422 HTTP Request Error, try using a “Content-Type”:“text/plain” header.</p> </td> 
   </tr> 
   <tr> 
    <td>Query String</td> 
@@ -170,7 +170,7 @@ This action module allows you to perform a custom API call.
   </tr> 
   <tr> 
    <td>Body</td> 
-   <td> <p>Add the body content for the API call in the form of a standard JSON object.</p> <p>Note:  <p>When using conditional statements such as <code>if</code> in your JSON, put the quotation marks outside of the conditional statement.</p> 
+   <td> <p>Add the body content for the API call in the form of a standard [!DNL JSON] object.</p> <p>Note:  <p>When using conditional statements such as <code>if</code> in your JSON, put the quotation marks outside of the conditional statement.</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td> 
@@ -186,7 +186,7 @@ This action module allows you to perform a custom API call.
 >
 >**Example:** List Envelopes
 >
->The following API call returns envelopes from the specified date in your DocuSign account:
+>The following API call returns envelopes from the specified date in your [!DNL DocuSign] account:
 >
 >**URL**: `/v2.1/accounts/{accountId}/envelopes/`
 >
@@ -198,7 +198,8 @@ This action module allows you to perform a custom API call.
 >
 >* **Value**: `YYYY-MM-DD`
 >
->   Specifies when the request begins checking for status changes for envelopes in the account.
+>   
+   Specifies when the request begins checking for status changes for envelopes in the account.
 >
 >![](assets/example-docusign-setup-350x770.png)
 >
@@ -218,7 +219,7 @@ This action module downloads a single document.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your DocuSign account to Workfront Fusion, see <a href="#connect-docusign-to-workfront-fusion" class="MCXref xref">Connect DocuSign to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your [!DNL DocuSign] account to [!DNL Workfront] Fusion, see <a href="#connect-docusign-to-workfront-fusion" class="MCXref xref">Connect DocuSign to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Account </td> 
@@ -242,7 +243,7 @@ This action module downloads a single document.
   </tr> 
   <tr> 
    <td role="rowheader">Encrypt</td> 
-   <td>Select <strong>Yes</strong> if you want the PDF bytes returned in the response to be encrypted for all the key managers configured on your DocuSign account.</td> 
+   <td>Select <strong>Yes</strong> if you want the PDF bytes returned in the response to be encrypted for all the key managers configured on your [!DNL DocuSign] account.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Language</td> 
@@ -254,14 +255,14 @@ This action module downloads a single document.
   </tr> 
   <tr> 
    <td role="rowheader">Watermark</td> 
-   <td> <p>Select <strong>No</strong> to remove the watermark from the PDF&nbsp;documents.</p> </td> 
+   <td> <p>Select <strong>No</strong> to remove the watermark from the PDF documents.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 #### Read an envelope {#read-an-envelope}
 
-This action module reads information about an envelope in DocuSign using the envelope ID.
+This action module reads information about an envelope in [!DNL DocuSign] using the envelope ID.
 
 <table style="table-layout:auto">
  <col> 
@@ -269,7 +270,7 @@ This action module reads information about an envelope in DocuSign using the env
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your DocuSign account to Workfront Fusion, see <a href="#connect-docusign-to-workfront-fusion" class="MCXref xref">Connect DocuSign to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your [!DNL DocuSign] account to [!DNL Workfront] Fusion, see <a href="#connect-docusign-to-workfront-fusion" class="MCXref xref">Connect DocuSign to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Account </td> 
@@ -296,7 +297,7 @@ This module uploads a specified file to an existing envelope in DocuSign.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your DocuSign account to Workfront Fusion, see <a href="#connect-docusign-to-workfront-fusion" class="MCXref xref">Connect DocuSign to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your [!DNL DocuSign] account to [!DNL Workfront] Fusion, see <a href="#connect-docusign-to-workfront-fusion" class="MCXref xref">Connect DocuSign to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Account </td> 
@@ -323,8 +324,8 @@ This action module creates a new envelope from a template. It returns the new en
  <tbody> 
   <tr> 
     <td role="rowheader">Connection </td>
- 
-   <td> <p>For instructions about connecting your DocuSign account to Workfront Fusion, see <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Connect the module's app or web service to Workfront Fusion</a> in the article <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Create a scenario in Adobe Workfront Fusion</a>.</p> </td> 
+
+<td> <p>For instructions about connecting your DocuSign account to Workfront Fusion, see <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Connect the module's app or web service to Workfront Fusion</a> in the article <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Create a scenario in Adobe Workfront Fusion</a>.</p> </td> 
   </tr> 
   <tr> 
     <td role="rowheader">Account </td>
@@ -425,7 +426,7 @@ This action module adds a custom field to the document
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your DocuSign account to Workfront Fusion, see <a href="#connect-docusign-to-workfront-fusion" class="MCXref xref">Connect DocuSign to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your [!DNL DocuSign] account to [!DNL Workfront] Fusion, see <a href="#connect-docusign-to-workfront-fusion" class="MCXref xref">Connect DocuSign to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Account </td> 
@@ -464,7 +465,7 @@ This action module modifies a custom field using the field name.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your DocuSign account to Workfront Fusion, see <a href="#connect-docusign-to-workfront-fusion" class="MCXref xref">Connect DocuSign to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your [!DNL DocuSign] account to [!DNL Workfront] Fusion, see <a href="#connect-docusign-to-workfront-fusion" class="MCXref xref">Connect DocuSign to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Account </td> 
@@ -476,7 +477,7 @@ This action module modifies a custom field using the field name.
   </tr> 
   <tr> 
    <td role="rowheader">Field ID</td> 
-   <td>Enter or map the ID&nbsp;of the field you want to modify.</td> 
+   <td>Enter or map the ID of the field you want to modify.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Field name</td> 
@@ -507,7 +508,7 @@ This action module sends a draft envelope to its recipients.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your DocuSign account to Workfront Fusion, see <a href="#connect-docusign-to-workfront-fusion" class="MCXref xref">Connect DocuSign to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your [!DNL DocuSign] account to [!DNL Workfront] Fusion, see <a href="#connect-docusign-to-workfront-fusion" class="MCXref xref">Connect DocuSign to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Account </td> 

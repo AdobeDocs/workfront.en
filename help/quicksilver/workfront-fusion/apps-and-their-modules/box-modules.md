@@ -5,14 +5,14 @@ product-area: workfront-integrations;documents
 keywords: connector
 navigation-topic: apps-and-their-modules
 title: Box modules
-description: In an Adobe Workfront Fusion scenario, you can automate workflows that use Box, as well as connect it to multiple third-party applications and services. monitors a specified folder to check for file changes, to modify and delete existing files, or to upload new files to a folder.
+description: In an [!DNL Adobe Workfront Fusion] scenario, you can automate workflows that use Box, as well as connect it to multiple third-party applications and services. monitors a specified folder to check for file changes, to modify and delete existing files, or to upload new files to a folder.
 author: Becky
 feature: Workfront Fusion
 exl-id: 965ce570-40bf-474d-b318-0d2de8be6b9d
 ---
 # Box modules
 
-In an Adobe Workfront Fusion scenario, you can automate workflows that use Box, as well as connect it to multiple third-party applications and services. monitors a specified folder to check for file changes, to modify and delete existing files, or to upload new files to a folder.
+In an [!DNL Adobe Workfront Fusion] scenario, you can automate workflows that use Box, as well as connect it to multiple third-party applications and services. monitors a specified folder to check for file changes, to modify and delete existing files, or to upload new files to a folder.
 
 If you need instructions on creating a scenario, see [Create a scenario in Adobe Workfront Fusion](../../workfront-fusion/scenarios/create-a-scenario.md). For information about modules, see [Modules in Adobe Workfront Fusion](../../workfront-fusion/modules/modules.md).
 
@@ -38,12 +38,12 @@ You must have the following access to use the functionality in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
+   <td>Your organization must purchase [!DNL Adobe Workfront Fusion] as well as [!DNL Adobe Workfront] to use functionality described in this article.</td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+&#42;To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
 
 &#42;&#42;For information on Adobe Workfront Fusion licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
@@ -53,7 +53,7 @@ To use Box modules, you must have a Box account.
 
 ## Box modules and their fields
 
-When you configure Box modules, Workfront Fusion displays the fields listed below. Along with these, additional Box fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
+When you configure Box modules, [!DNL Workfront Fusion] displays the fields listed below. Along with these, additional Box fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
 
 If you see the map button above a field or function, you can use it to set variables and functions for that field. For more information, see [Map information from one module to another in Adobe Workfront Fusion](../../workfront-fusion/mapping/map-information-between-modules.md).
 
@@ -61,7 +61,7 @@ If you see the map button above a field or function, you can use it to set varia
 
 ### Triggers
 
-* [New event](#new-event) 
+* [New event](#new-event)
 * [Watch files](#watch-files)
 
 #### New event {#new-event}
@@ -112,9 +112,9 @@ This trigger module starts a scenario when a new file is added or an existing fi
 
 ### Actions
 
-* [Upload a file](#upload-a-file) 
-* [Update a file](#update-a-file) 
-* [Delete a file](#delete-a-file) 
+* [[!UICONTROL Upload] a file](#upload-a-file)
+* [Update a file](#update-a-file)
+* [Delete a file](#delete-a-file)
 * [Get a file](#get-a-file)
 
 #### Upload a file {#upload-a-file}
@@ -144,11 +144,13 @@ When you are configuring this module, the following fields display.
 
 >[!NOTE]
 >
->If this module is not successful, consider the following: 
+>If this module is not successful, consider the following:
 >
 >* The size of the file might exceed the maximum file size limit for your Box plan, or you may have used all of your Box account's storage quota. To get more storage space, delete existing files from Box or upgrade your Box account.
->* Box does not upload more than one files with the same name to a single folder. If the destination folder contains a file with the same name as the file being uploaded, the scenario run terminates with an error. To avoid this, rename the file. If you want to update the file, use the **Update a file** module.
+>* Box does not upload more than one files with the same name to a single folder. If the destination folder contains a file with the same name as the file being uploaded, the scenario run terminates with an error. To avoid this, rename the file. If you want to update the file, use the **[!UICONTROL Update a file]** module.
 >
+
+
 
 #### Update a file {#update-a-file}
 
@@ -249,10 +251,10 @@ When you are configuring this module, the following fields display.
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">There are several situations when downloading a file fails:</p>
 -->
 
-  <!--
+<!--
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode">The current file lock setting does not allow the file to be downloaded or the downloading of the file is disabled. In this case, the file is ignored.</li>
   -->
 
-  <!--
+<!--
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode">When the scenario started, the file was being uploaded to the server and was not ready to be downloaded. The scenario run gets stopped and Workfront Fusion tries downloading the file again during the next execution of the scenario.</li>
   -->

@@ -5,14 +5,14 @@ product-area: workfront-integrations
 keywords: connector
 navigation-topic: apps-and-their-modules
 title: Qualtrics modules
-description: In an Adobe Workfront Fusion scenario, you can automate workflows that use Qualtrics, as well as connect it to multiple third-party applications and services.
+description: In an [!DNL Adobe Workfront] Fusion scenario, you can automate workflows that use Qualtrics, as well as connect it to multiple third-party applications and services.
 author: Becky
 feature: Workfront Fusion
 exl-id: 146802cd-b863-4c93-b767-50e05892c4de
 ---
 # Qualtrics modules
 
-In an Adobe Workfront Fusion scenario, you can automate workflows that use Qualtrics, as well as connect it to multiple third-party applications and services.
+In an [!DNL Adobe Workfront] Fusion scenario, you can automate workflows that use Qualtrics, as well as connect it to multiple third-party applications and services.
 
 If you need instructions on creating a scenario, see [Create a scenario in Adobe Workfront Fusion](../../workfront-fusion/scenarios/create-a-scenario.md).
 
@@ -40,12 +40,12 @@ You must have the following access to use the functionality in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
+   <td>Your organization must purchase [!DNL Adobe Workfront Fusion] as well as [!DNL Adobe Workfront] to use functionality described in this article.</td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+&#42;To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
 
 &#42;&#42;For information on Adobe Workfront Fusion licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
@@ -53,11 +53,11 @@ You must have the following access to use the functionality in this article:
 
 To use Qualtrics modules, you must have a Qualtrics account.
 
-## Connecting Qualtrics to Workfront Fusion
+## Connecting [!DNL Qualtrics] to [!DNL Workfront] Fusion
 
-You can create a connection to your Qualtrics account directly from inside a Qualtrics module.
+You can create a connection to your [!DNL Qualtrics] account directly from inside a Qualtrics module.
 
-1. In any Qualtrics module, click **Add** next to the Connection field.
+1. In any Qualtrics module, click **Add** next to the [!UICONTROL Connection] field.
 1. Enter the following information:
 
    <table style="table-layout:auto"> 
@@ -69,8 +69,8 @@ You can create a connection to your Qualtrics account directly from inside a Qua
       <td> <p>Enter a name for the new connection.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Data Center ID&nbsp;</td> 
-      <td>Use the format <code>&lt;Data Center ID&gt;.qualtrics.com</code>.</td> 
+      <td role="rowheader">Data Center ID </td> 
+      <td>Use the format <code>&lt;Data Center ID>.qualtrics.com</code>.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">API Key</td> 
@@ -79,11 +79,11 @@ You can create a connection to your Qualtrics account directly from inside a Qua
     </tbody> 
    </table>
 
-1. Click **Continue** to create the connection and go back to the module.
+1. Click **[!UICONTROL Continue]** to create the connection and go back to the module.
 
 ## Qualtrics modules and their fields
 
-The following modules are available for the Qualtrics connector:
+The following modules are available for the [!DNL Qualtrics] connector:
 
 * Watch New Survey Response
 * Create a Directory Contact

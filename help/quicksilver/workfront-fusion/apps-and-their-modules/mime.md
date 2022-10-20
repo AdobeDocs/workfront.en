@@ -35,12 +35,12 @@ You must have the following access to use the functionality in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
+   <td>Your organization must purchase [!DNL Adobe Workfront Fusion] as well as [!DNL Adobe Workfront] to use functionality described in this article.</td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+&#42;To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
 
 &#42;&#42;For information on Adobe Workfront Fusion licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
@@ -58,7 +58,7 @@ This transformer module return the MIME&nbsp;type associated with a given name, 
    <td role="rowheader">File</td> 
    <td> <p>Enter or map the file that you want to determine the MIME type for. </p> <p>You can enter the file using:</p> 
     <ul> 
-     <li> <p><strong>File path</strong> </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Example: </b></span></span>/file/image.jpeg</p> </li> 
+     <li> <p><strong>File path</strong> </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Example: </b></span></span>[!DNL /file/image].jpeg</p> </li> 
      <li><strong>File name</strong>  <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Example: </b></span></span>image.jpeg</p> </li> 
      <li><strong>File extension</strong>  <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Example: </b></span></span>jpeg</p> </li> 
     </ul> </td> 
@@ -75,7 +75,7 @@ This transformer module returns the original file extension for a given MIME typ
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">MIME&nbsp;type</td> 
+   <td role="rowheader">MIME type</td> 
    <td> <p>Enter or map the MIME type that you want to determine the file extension for. </p> </td> 
   </tr> 
  </tbody> 

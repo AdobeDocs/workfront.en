@@ -3,13 +3,13 @@ content-type: tips-tricks-troubleshooting
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: modules
-title: Text parser troubleshooting in Adobe Workfront Fusion
+title: Text parser troubleshooting in [!DNL Adobe Workfront] Fusion
 description: Use this information if you can not get text parser to produce any output.
 author: Becky
 feature: Workfront Fusion
 exl-id: 8a3821cf-d0c6-4917-86e7-90a4872a5795
 ---
-# Text parser troubleshooting in Adobe Workfront Fusion
+# Text parser troubleshooting in [!DNL Adobe Workfront] Fusion
 
 Use this information if you can not get text parser to produce any output.
 
@@ -35,12 +35,12 @@ You must have the following access to use the functionality in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
+   <td>Your organization must purchase [!DNL Adobe Workfront Fusion] as well as [!DNL Adobe Workfront] to use functionality described in this article.</td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+&#42;To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
 
 &#42;&#42;For information on Adobe Workfront Fusion licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
@@ -48,9 +48,9 @@ You must have the following access to use the functionality in this article:
 
 Case scenario example, you would like to parse the filetype of a file document "filename.docx" and the extension of the filename always varies from DOCX to PDF to CSV.
 
-The expression that you may choose to use in this case is \..+
+The expression that you may choose to use in this case is [!DNL \..+]
 
-If you were to use this on regex expression on regex101.com you will rightly find that you will get a full match.
+If you were to use this on regex expression on [!DNL regex101].com you will rightly find that you will get a full match.
 
 ![](assets/regex-expression-350x130.png)
 

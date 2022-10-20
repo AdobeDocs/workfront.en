@@ -5,13 +5,13 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: apps-and-their-modules
 title: Figma modules
-description: With the Adobe Workfront Fusion Figma modules, you can retrieve lists of comments, files, file versions, or projects. You can also post a comment or make a call to the Figma API.
+description: With the [!DNL Adobe Workfront Fusion] Figma modules, you can retrieve lists of comments, files, file versions, or projects. You can also post a comment or make a call to the Figma API.
 author: Becky
 exl-id: d88db592-32d4-4765-952f-9ffb58cf1720
 ---
 # Figma Modules
 
-With the Adobe Workfront Fusion Figma modules, you can retrieve lists of comments, files, file versions, or projects. You can also post a comment or make a call to the Figma API.
+With the [!DNL Adobe Workfront Fusion] Figma modules, you can retrieve lists of comments, files, file versions, or projects. You can also post a comment or make a call to the Figma API.
 
 If you need instructions on creating a scenario, see [Create a scenario](../../workfront-fusion/scenarios/create-a-scenario.md).
 
@@ -45,13 +45,13 @@ You must have the following access to use the functionality in this article:
     </tr>
     <tr>
       <td role="rowheader">Product</td>
-      <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td>
+      <td>Your organization must purchase [!DNL Adobe Workfront Fusion] as well as [!DNL Adobe Workfront] to use functionality described in this article.</td>
     </tr>
   </tbody>
 </table>
 
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+&#42;To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
 
 &#42;&#42;For information on Adobe Workfront Fusion licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
@@ -61,29 +61,29 @@ To use Figma modules, you must have a Figma account.
 
 ## Figma modules and their fields
 
-When you configure Figma modules, Workfront Fusion displays the fields listed below. Along with these, additional Figma fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
+When you configure Figma modules, [!DNL Workfront Fusion] displays the fields listed below. Along with these, additional Figma fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
 
 If you see the map button above a field or function, you can use it to set variables and functions for that field. For more information, see [Map information from one module to another in Adobe Workfront Fusion](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 ![](assets/map-toggle-350x74.png)
 
-*   [Comments](#Comments)
-    
-*   [Projects and files](#Projects)
-    
-*   [Components and styles](#Componen)
-    
-*   [Other](#Other)
-    
+* [Comments](#Comments)
+
+* [Projects and files](#Projects)
+
+* [Components and styles](#Componen)
+
+* [Other](#Other)
+
 
 ### Comments
 
-*   [Delete a comment](#Delete)
-    
-*   [List comments](#List)
-    
-*   [Post a comment](#Post)
-    
+* [Delete a comment](#Delete)
+
+* [List comments](#List)
+
+* [Post a comment](#Post)
+
 
 #### Delete a comment
 
@@ -127,10 +127,10 @@ This search module lists all of the comments attached to a single file in Figma.
         <p>Enter or map the File ID of the file that you want to retrieve comments for. </p>
         <ul>
           <li>
-            <p>If you do not know the ID, click <b>Find Files</b> and enter or map the ID of the project that the file is associated with, then select the file.</p>
+            <p>If you do not know the ID, click <b>[!UICONTROL Find Files]</b> and enter or map the ID of the project that the file is associated with, then select the file.</p>
           </li>
           <li>
-            <p>If you do not know the project's ID, click <b>Find Projects</b> and enter or map the ID&#160;of the team that owns the project the file is associated with, then select the project, then select the file.</p>
+            <p>If you do not know the project's ID, click <b>[!UICONTROL Find Projects]</b> and enter or map the ID of the team that owns the project the file is associated with, then select the project, then select the file.</p>
           </li>
         </ul>
       </td>
@@ -161,10 +161,10 @@ This action module posts a comment to a Figma file.
         <p>Enter or map the File ID of the file that you want to post a comment to. </p>
         <ul>
           <li>
-            <p>If you do not know the file's ID, click <b>Find Files</b> and enter or map the ID of the project that the file is associated with, then select the file.</p>
+            <p>If you do not know the file's ID, click <b>[!UICONTROL Find Files]</b> and enter or map the ID of the project that the file is associated with, then select the file.</p>
           </li>
           <li>
-            <p>If you are attempting to find the file's ID and do not know the project's ID, click <b>Find Projects</b> and enter or map the ID&#160;of the team that owns the project the file is associated with. Select the project, then select the file.</p>
+            <p>If you are attempting to find the file's ID and do not know the project's ID, click <b>[!UICONTROL Find Projects]</b> and enter or map the ID of the team that owns the project the file is associated with. Select the project, then select the file.</p>
           </li>
         </ul>
       </td>
@@ -179,14 +179,14 @@ This action module posts a comment to a Figma file.
 
 ### Projects and files
 
-*   [Get a file or image](#Get)
-    
-*   [List file version history](#List2)
-    
-*   [List project files](#List3)
-    
-*   [List projects](#List4)
-    
+* [Get a file or image](#Get)
+
+* [List file version history](#List2)
+
+* [List project files](#List3)
+
+* [List projects](#List4)
+
 
 #### Get a file or image
 
@@ -235,7 +235,7 @@ This action module retrieves a single file or image from a Figma library
   </tbody>
 </table>
 
-    
+
 ##### Get a file or image: File
 
 <table style="table-layout:auto"> 
@@ -290,7 +290,7 @@ This action module retrieves a single file or image from a Figma library
 </table>
 
 ##### Get a file or image: File nodes
- 
+
 <table style="table-layout:auto"> 
   <col/>
   <col/>
@@ -386,7 +386,7 @@ This action module retrieves a single file or image from a Figma library
     </tr>
     <tr>
       <td role="rowheader">SVG - Simplify Stroke</td>
-      <td>Enable this option to simplify inside/outside strokes and use stroke attribute if possible instead of &lt;mask&gt;. Default: true.</td>
+      <td>Enable this option to simplify inside/outside strokes and use stroke attribute if possible instead of &lt;mask>. Default: true.</td>
     </tr>
     <tr>
       <td role="rowheader">Use absolute bounds</td>
@@ -428,10 +428,10 @@ This search module returns the version history of a single file in Figma.
         <p>Enter or map the File ID of the file that you want retrieve version history for. </p>
         <ul>
           <li>
-            <p>If you do not know the file's ID, click <b>Find Files</b> and enter or map the ID of the project that the file is associated with, then select the file.</p>
+            <p>If you do not know the file's ID, click <b>[!UICONTROL Find Files]</b> and enter or map the ID of the project that the file is associated with, then select the file.</p>
           </li>
           <li>
-            <p>If you are attempting to find the file's ID and do not know the project's ID, click <b>Find Projects</b> and enter or map the ID&#160;of the team that owns the project the file is associated with. Select the project, then select the file.</p>
+            <p>If you are attempting to find the file's ID and do not know the project's ID, click <b>[!UICONTROL Find Projects]</b> and enter or map the ID of the team that owns the project the file is associated with. Select the project, then select the file.</p>
           </li>
         </ul>
       </td>
@@ -461,7 +461,7 @@ This search module returns a list of all files in the specified project.
         <p>Enter or map the Project ID the project that you want retrieve files for. </p>
         <ul>
           <li>
-            <p>If you do not know the projects's ID, click <b>Find Projects</b> and enter or map the ID of the team that the project is are associated with, then select the project.</p>
+            <p>If you do not know the projects's ID, click <b>[!UICONTROL Find Projects]</b> and enter or map the ID of the team that the project is are associated with, then select the project.</p>
           </li>
         </ul>
       </td>
@@ -487,7 +487,7 @@ This search module returns a list of all projects within the specified team.
     </tr>
     <tr>
       <td role="rowheader">Team ID</td>
-      <td>Enter or map the Project ID of the project that you want to retrieve files for. The team ID&#160;can be found in the URL of the team's page in Figma</td>
+      <td>Enter or map the Project ID of the project that you want to retrieve files for. The team ID can be found in the URL of the team's page in Figma</td>
     </tr>
     <tr>
       <td role="rowheader">Limit</td>
@@ -512,12 +512,12 @@ This action module retrieves a single style or component, or a set of styles or 
       <td> <p>For instructions about connecting your Figma account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Adobe Workfront Fusion - Basic instructions.</a></p>
     </tr>
     <tr>
-      <td role="rowheader">&lt;Object&gt; key</td>
+      <td role="rowheader">&lt;Object> key</td>
       <td>Enter the key (unique identifier) of the object you want to retrieve.</td>
     </tr>
     <tr>
       <td role="rowheader">Team ID</td>
-      <td>Enter or map the ID&#160;of the team that the record or records are associated with.</td>
+      <td>Enter or map the ID of the team that the record or records are associated with.</td>
     </tr>
     <tr>
       <td role="rowheader">Page Size</td>
@@ -528,7 +528,7 @@ This action module retrieves a single style or component, or a set of styles or 
       <td>
         <p>Enter or map the number of the result after which to start retrieving results. This can be combined with the Page Size field to paginate results.</p>
         <p>This value does not correspond to object IDs.</p>
-        <p>This field cannot be used in combination with the Before field.</p>
+        <p>This field cannot be used in combination with the [!UICONTROL Before] field.</p>
       </td>
     </tr>
     <tr>
@@ -536,7 +536,7 @@ This action module retrieves a single style or component, or a set of styles or 
       <td>
         <p>Enter or map the number of the result before which to start retrieving results. This can be combined with the Page Size field to paginate results.</p>
         <p>This value does not correspond to object IDs.</p>
-        <p>This field cannot be used in combination with the After field.</p>
+        <p>This field cannot be used in combination with the [!UICONTROL After] field.</p>
       </td>
     </tr>
   </tbody>
@@ -545,10 +545,10 @@ This action module retrieves a single style or component, or a set of styles or 
 
 ### Other
 
-*   [Make an API call](#Make)
-    
-*   [Watch events](#Watch)
-    
+* [Make an API call](#Make)
+
+* [Watch events](#Watch)
+
 
 #### Make an API call
 
@@ -566,7 +566,7 @@ This action module lets you make a custom authenticated call to the Figma API wi
       <td role="rowheader">URL</td>
       <td>
         <p>Enter a path relative to <code>https://api.figma.com/v1/</code>.</p>
-        <p>For example: <code>files/7179110/comments</code></p>
+        <p>For example: <code>[!DNL files/7179110/comments]</code></p>
       </td>
     </tr>
     <tr>
@@ -578,7 +578,7 @@ This action module lets you make a custom authenticated call to the Figma API wi
     <tr>
       <td role="rowheader">Headers</td>
       <td>
-        <p>Add the headers of the request in the form of a standard JSON object.</p>
+        <p>Add the headers of the request in the form of a standard [!DNL JSON] object.</p>
         <p>For example, <code>{"Content-type":"application/json"}</code></p>
         <p>Workfront Fusion adds the authorization headers for you.</p>
       </td>
@@ -592,7 +592,7 @@ This action module lets you make a custom authenticated call to the Figma API wi
     </tr>
     <tr>
       <td role="rowheader">Body</td>
-   <td> <p>Add the body content for the API call in the form of a standard JSON object.</p> <p>Note:  <p>When using conditional statements such as <code>if</code> in your JSON, put the quotation marks outside of the conditional statement.</p> 
+   <td> <p>Add the body content for the API call in the form of a standard [!DNL JSON] object.</p> <p>Note:  <p>When using conditional statements such as <code>if</code> in your JSON, put the quotation marks outside of the conditional statement.</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td>     </tr>
@@ -603,16 +603,16 @@ This action module lets you make a custom authenticated call to the Figma API wi
 
 This trigger module starts a scenario when one of the following events occur for a specific team in your Figma team space
 
-*   File update
-    
-*   File version update
-    
-*   File delete
-    
-*   Library publish
-    
-*   File comment
-    
+* File update
+
+* File version update
+
+* File delete
+
+* Library publish
+
+* File comment
+
 <table style="table-layout:auto"> 
   <col/>
   <col/>
@@ -624,7 +624,7 @@ This trigger module starts a scenario when one of the following events occur for
         <p>To add a new webhook:</p>
         <ol>
           <li value="1">
-            <p>Click <b>Add</b> next to the Webhook field.</p>
+            <p>Click <b>Add</b> next to the [!UICONTROL Webhook] field.</p>
           </li>
           <li value="2">
             <p>Select the connection you want to use for this webhook. For instructions about connecting your Figma account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Adobe Workfront Fusion - Basic instructions.</a></p>
@@ -633,7 +633,7 @@ This trigger module starts a scenario when one of the following events occur for
             <p>Select the event type that you want the module to watch.</p>
           </li>
           <li value="4">
-            <p>Enter the ID&#160;of the team whose events you want the webhook to watch.</p>
+            <p>Enter the ID of the team whose events you want the webhook to watch.</p>
           </li>
           <li value="5">
             <p>Enter the Status or Description of events that you want the webhook to watch.</p>

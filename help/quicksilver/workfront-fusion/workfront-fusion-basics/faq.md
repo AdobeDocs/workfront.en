@@ -4,7 +4,7 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: workfront-fusion-basics
 title: Adobe Workfront Fusion FAQ
-description: This article addresses common questions related to Adobe Workfront Fusion, including information about object commonly used in Fusion workflows
+description: This article addresses common questions related to [!DNL Adobe Workfront Fusion], including information about object commonly used in Fusion workflows
 author: Becky
 feature: Workfront Fusion
 exl-id: e2ecc190-ec26-46f0-a4f2-7b283639a1eb
@@ -33,12 +33,12 @@ You must have the following access to use the functionality in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
+   <td>Your organization must purchase [!DNL Adobe Workfront Fusion] as well as [!DNL Adobe Workfront] to use functionality described in this article.</td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+&#42;To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
 
 &#42;&#42;For information on Adobe Workfront Fusion licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
@@ -46,7 +46,7 @@ You must have the following access to use the functionality in this article:
 
 ### Answer
 
-A scenario defines a sequence of steps to be executed by Adobe Workfront Fusion. For each scenario, you specify the data source, how the data is to be processed, and what data is to be used and what is to be ignored. Workfront Fusion lets you create as complex of scenarios as you need; even the most sophisticated scenarios are possible.
+A scenario defines a sequence of steps to be executed by [!DNL Adobe Workfront] Fusion. For each scenario, you specify the data source, how the data is to be processed, and what data is to be used and what is to be ignored. [!DNL Workfront] Fusion lets you create as complex of scenarios as you need; even the most sophisticated scenarios are possible.
 
 For more information, see [Create a practice integration scenario in Adobe Workfront Fusion](../../workfront-fusion/get-started/create-a-practice-scenario.md).
 
@@ -56,19 +56,19 @@ For more information, see [Create a practice integration scenario in Adobe Workf
 
 You can use as many modules as you want in a scenario. You can create independent routes and specify which data should flow through them. You can also use results returned by individual actions and then pass them on to the next action.
 
-## Can Workfront Fusion work with files?
+## Can [!DNL Workfront Fusion] work with files?
 
 ### Answer
 
-Yes. Using Workfront Fusion, files can be received, saved, transformed, converted, encrypted, and so on. Moreover, Workfront Fusion provides a wide range of built-in features designed to enable users to work effectively and creatively with the data contained in the files.
+Yes. Using [!DNL Workfront Fusion], files can be received, saved, transformed, converted, encrypted, and so on. Moreover, [!DNL Workfront Fusion] provides a wide range of built-in features designed to enable users to work effectively and creatively with the data contained in the files.
 
 For more information, see [About mapping files in Adobe Workfront Fusion](../../workfront-fusion/mapping/about-mapping-files.md).
 
-## What happens if I let Workfront Fusion process an email containing more than one attachment?
+## What happens if I let [!DNL Workfront] Fusion process an email containing more than one attachment?
 
 ### Answer
 
-If you use the Email module Retrieve attachments, each attachment is sent individually through the rest of the modules in the scenario. Similar modules are also available in other apps that receive multiple files at once.
+If you use the Email module [!UICONTROL Retrieve attachments], each attachment is sent individually through the rest of the modules in the scenario. Similar modules are also available in other apps that receive multiple files at once.
 
 For more information, see [Email modules](../../workfront-fusion/apps-and-their-modules/email-modules.md).
 
@@ -102,6 +102,6 @@ Data transfer refers to the amount of data transferred through your scenario. Fo
 
 ### Answer
 
-A connection is the link between your Workfront Fusion account and the third-party service you want to use. The connection can be easily created when editing a scenario. To add a connection, click the **Add** button in the module setting and follow the step-by-step instructions.
+A connection is the link between your [!DNL Workfront Fusion] account and the third-party service you want to use. The connection can be easily created when editing a scenario. To add a connection, click the **Add** button in the module setting and follow the step-by-step instructions.
 
-For more information, see [About connecting Adobe Workfront Fusion to an app or service](../../workfront-fusion/connections/about-connecting-wf-fusion-to-app-or-service.md).
+For more information, see [About connecting [!DNL Adobe Workfront Fusion] to an app or service](../../workfront-fusion/connections/about-connecting-wf-fusion-to-app-or-service.md).

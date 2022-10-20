@@ -5,14 +5,14 @@ product-area: workfront-integrations
 keywords: connector
 navigation-topic: apps-and-their-modules
 title: Allocadia modules
-description: In an Adobe Workfront Fusion scenario, you can automate workflows that use Allocadia, as well as connect it to multiple third-party applications and services.
+description: In an [!DNL Adobe Workfront] Fusion scenario, you can automate workflows that use Allocadia, as well as connect it to multiple third-party applications and services.
 author: Becky
 feature: Workfront Fusion
 exl-id: f1edefd1-9fe0-48fc-bea2-c3f9facf7363
 ---
 # Allocadia modules
 
-In an Adobe Workfront Fusion scenario, you can automate workflows that use Allocadia, as well as connect it to multiple third-party applications and services.
+In an [!DNL Adobe Workfront] Fusion scenario, you can automate workflows that use Allocadia, as well as connect it to multiple third-party applications and services.
 
 If you need instructions on creating a scenario, see [Create a scenario in Adobe Workfront Fusion](../../workfront-fusion/scenarios/create-a-scenario.md).
 
@@ -40,12 +40,12 @@ You must have the following access to use the functionality in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
+   <td>Your organization must purchase [!DNL Adobe Workfront Fusion] as well as [!DNL Adobe Workfront] to use functionality described in this article.</td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+&#42;To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
 
 &#42;&#42;For information on Adobe Workfront Fusion licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
@@ -55,23 +55,23 @@ To use Allocadia modules, you must have an Allocadia account.
 
 ## Connect Allocadia to Workfront Fusion {#connect-allocadia-to-workfront-fusion}
 
-You can create a connection to your Allocadia account directly from inside an Allocadia module.
+You can create a connection to your [!DNL Allocadia] account directly from inside an [!DNL Allocadia] module.
 
 1. In any Allocadia module, click **Add** next to the Connection field.
 1. Select whether you want to use the North America server or the Europe server.
 1. Enter your Username and Password.
-1. Click **Continue** to create the connection and go back to the module.
+1. Click **[!UICONTROL Continue]** to create the connection and go back to the module.
 
 ## Allocadia modules and their fields
 
-When you configure Allocadia modules, Workfront Fusion displays the fields listed below. Along with these, additional Allocadia fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
+When you configure Allocadia modules, [!DNL Workfront Fusion] displays the fields listed below. Along with these, additional Allocadia fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
 
 If you see the map button above a field or function, you can use it to set variables and functions for that field. For more information, see [Map information from one module to another in Adobe Workfront Fusion](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 ![](assets/map-toggle-350x74.png)
 
-* [Triggers](#triggers) 
-* [Actions](#actions) 
+* [Triggers](#triggers)
+* [Actions](#actions)
 * [Searches](#searches)
 
 ### Triggers {#triggers}
@@ -87,11 +87,11 @@ When you are configuring this module, the following fields display.
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>Connection</p> </td> 
-   <td> <p>For instructions about connecting your Allocadia account to Workfront Fusion, see <a href="#connect-allocadia-to-workfront-fusion" class="MCXref xref">Connect Allocadia to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your Allocadia account to [!DNL Workfront] Fusion, see <a href="#connect-allocadia-to-workfront-fusion" class="MCXref xref">[!UICONTROL Connect Allocadia] to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Filter</td> 
-   <td> <p>Select whether you want the scenario to watch New Records Only, Updated Records Only, or New and Updated Records.</p> </td> 
+   <td> <p>Select whether you want the scenario to watch New Records Only, [!UICONTROL Updated Records Only], or New and Updated Records.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Entity Type</td> 
@@ -110,15 +110,15 @@ When you are configuring this module, the following fields display.
 
 ### Actions {#actions}
 
-* [Custom API Call](#custom-api-call) 
-* [Read Record](#read-record) 
-* [Create Record](#create-record) 
-* [Delete Record](#delete-record) 
+* [Custom API Call](#custom-api-call)
+* [Read Record](#read-record)
+* [Create Record](#create-record)
+* [Delete Record](#delete-record)
 * [Update Record](#update-record)
 
 #### Custom API Call {#custom-api-call}
 
-This action module lets you make a custom authenticated call to the Allocadia API. This way, you can create a data flow automation that can't be accomplished by the other Allocadia modules.
+This action module lets you make a custom authenticated call to the [!DNL Allocadia] API. This way, you can create a data flow automation that can't be accomplished by the other [!DNL Allocadia] modules.
 
 The action is based on the entity type (Allocadia object type) you specify.
 
@@ -130,7 +130,7 @@ When you are configuring this module, the following fields display.
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>Connection</p> </td> 
-   <td> <p>For instructions about connecting your Allocadia account to Workfront Fusion, see <a href="#connect-allocadia-to-workfront-fusion" class="MCXref xref">Connect Allocadia to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your Allocadia account to [!DNL Workfront] Fusion, see <a href="#connect-allocadia-to-workfront-fusion" class="MCXref xref">[!UICONTROL Connect Allocadia] to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">URL</td> 
@@ -142,7 +142,7 @@ When you are configuring this module, the following fields display.
   </tr> 
   <tr> 
    <td role="rowheader">Headers</td> 
-   <td> <p>Add the headers of the request in the form of a standard JSON object.</p> <p>For example, <code>{"Content-type":"application/json"}</code></p> <p>Workfront Fusion adds the authorization headers for you.</p> </td> 
+   <td> <p>Add the headers of the request in the form of a standard [!DNL JSON] object.</p> <p>For example, <code>{"Content-type":"application/json"}</code></p> <p>Workfront Fusion adds the authorization headers for you.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Query String</td> 
@@ -150,7 +150,7 @@ When you are configuring this module, the following fields display.
   </tr> 
   <tr> 
    <td role="rowheader">Body</td> 
-   <td> <p>Add the body content for the API call in the form of a standard JSON object.</p> <p>Note:  <p>When using conditional statements such as <code>if</code> in your JSON, put the quotation marks outside of the conditional statement.</p> 
+   <td> <p>Add the body content for the API call in the form of a standard [!DNL JSON] object.</p> <p>Note:  <p>When using conditional statements such as <code>if</code> in your JSON, put the quotation marks outside of the conditional statement.</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td> 
@@ -174,7 +174,7 @@ When you are configuring this module, the following fields display.
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>Connection</p> </td> 
-   <td> <p>For instructions about connecting your Allocadia account to Workfront Fusion, see <a href="#connect-allocadia-to-workfront-fusion" class="MCXref xref">Connect Allocadia to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your Allocadia account to [!DNL Workfront] Fusion, see <a href="#connect-allocadia-to-workfront-fusion" class="MCXref xref">[!UICONTROL Connect Allocadia] to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Entity Type</td> 
@@ -205,7 +205,7 @@ When you are configuring this module, the following fields display.
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>Connection</p> </td> 
-   <td> <p>For instructions about connecting your Allocadia account to Workfront Fusion, see <a href="#connect-allocadia-to-workfront-fusion" class="MCXref xref">Connect Allocadia to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your Allocadia account to [!DNL Workfront] Fusion, see <a href="#connect-allocadia-to-workfront-fusion" class="MCXref xref">[!UICONTROL Connect Allocadia] to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Entity Type</td> 
@@ -242,7 +242,7 @@ When you are configuring this module, the following fields display.
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>Connection</p> </td> 
-   <td> <p>For instructions about connecting your Allocadia account to Workfront Fusion, see <a href="#connect-allocadia-to-workfront-fusion" class="MCXref xref">Connect Allocadia to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your Allocadia account to [!DNL Workfront] Fusion, see <a href="#connect-allocadia-to-workfront-fusion" class="MCXref xref">[!UICONTROL Connect Allocadia] to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Entity Type</td> 
@@ -272,7 +272,7 @@ When you are configuring this module, the following fields display.
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>Connection</p> </td> 
-   <td> <p>For instructions about connecting your Allocadia account to Workfront Fusion, see <a href="#connect-allocadia-to-workfront-fusion" class="MCXref xref">Connect Allocadia to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your Allocadia account to [!DNL Workfront] Fusion, see <a href="#connect-allocadia-to-workfront-fusion" class="MCXref xref">[!UICONTROL Connect Allocadia] to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Entity Type</td> 
@@ -303,7 +303,7 @@ When you are configuring this module, the following fields display.
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>Connection</p> </td> 
-   <td> <p>For instructions about connecting your Allocadia account to Workfront Fusion, see <a href="#connect-allocadia-to-workfront-fusion" class="MCXref xref">Connect Allocadia to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your Allocadia account to [!DNL Workfront] Fusion, see <a href="#connect-allocadia-to-workfront-fusion" class="MCXref xref">[!UICONTROL Connect Allocadia] to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Entity Type</td> 
@@ -323,7 +323,7 @@ When you are configuring this module, the following fields display.
   </tr> 
   <tr> 
    <td role="rowheader">Search criteria</td> 
-   <td>Select the field you want to search for, select the operation, and enter or map the value you want to search for. You can add AND&nbsp;or OR rules to further filter your search.</td> 
+   <td>Select the field you want to search for, select the operation, and enter or map the value you want to search for. You can add AND or OR rules to further filter your search.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Outputs</td> 

@@ -8,7 +8,7 @@ exl-id: d58e0c12-a798-495c-8f88-fbf2a532f8a4
 ---
 # HubSpot CRM modules
 
-The Adobe Workfront Fusion HubSpot CRM modules enable you to monitor events, records, contacts, engagements, file and form submissions, or create, retrieve, update and delete records, contacts, engagements, events, or files in your HubSpot CRM account.
+The [!DNL Adobe Workfront Fusion HubSpot] CRM modules enable you to monitor events, records, contacts, engagements, file and form submissions, or create, retrieve, update and delete records, contacts, engagements, events, or files in your [!DNL HubSpot] CRM account.
 
 ## Access requirements
 
@@ -32,38 +32,38 @@ You must have the following access to use the functionality in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
+   <td>Your organization must purchase [!DNL Adobe Workfront Fusion] as well as [!DNL Adobe Workfront] to use functionality described in this article.</td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+&#42;To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
 
 &#42;&#42;For information on Adobe Workfront Fusion licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
 ## Prerequisites
 
-To use HubSpot CRM modules, you must have a HubSpot CRM account.
+To use [!DNL HubSpot] CRM modules, you must have a [!DNL HubSpot] CRM account.
 
-## Connect Adobe Workfront Fusion to HubSpot CRM
+## Connect [!DNL Adobe Workfront] Fusion to HubSpot CRM
 
 For instructions about connecting your HubSpot CRM account to Workfront Fusion, see [Create a connection to Adobe Workfront Fusion - Basic instructions](../../workfront-fusion/connections/connect-to-fusion-general.md)
 
 ## HubSpot CRM modules and their fields
 
-When you configure Hubspot CRM modules, Workfront Fusion displays the fields listed below. Along with these, additional Hubspot CRM fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
+When you configure [!DNL Hubspot] CRM modules, [!DNL Workfront Fusion] displays the fields listed below. Along with these, additional [!DNL Hubspot] CRM fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
 
 If you see the map button above a field or function, you can use it to set variables and functions for that field. For more information, see [Map information from one module to another in Adobe Workfront Fusion](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 ![](assets/map-toggle-350x74.png)
 
-* [CRM objects](#crm-objects) 
-* [Records (Deals, Contacts, and Companies)](#records-deals-contacts-and-companies) 
-* [Contacts](#contacts) 
-* [Deals](#deals) 
-* [Companies](#companies) 
-* [Files](#files) 
-* [Tickets](#tickets) 
+* [CRM objects](#crm-objects)
+* [Records (Deals, Contacts, and Companies)](#records-deals-contacts-and-companies)
+* [Contacts](#contacts)
+* [Deals](#deals)
+* [Companies](#companies)
+* [Files](#files)
+* [Tickets](#tickets)
 * [Make an API Call](#make-an-api-call)
 
 ### CRM objects {#crm-objects}
@@ -86,7 +86,7 @@ This search module searches for CRM objects by custom properties or by query. To
   </tr> 
   <tr> 
    <td role="rowheader">Object Type to Search</td> 
-   <td>Select the type of Hubspot CRM&nbsp;object that you want to search for.</td> 
+   <td>Select the type of Hubspot CRM object that you want to search for.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Output properties</td> 
@@ -118,11 +118,11 @@ This search module searches for CRM objects by custom properties or by query. To
 
 ### Records (Deals, Contacts, and Companies) {#records-deals-contacts-and-companies}
 
-* [Create a Record (Legacy)](#create-a-record-legacy) 
-* [Get a Record](#get-a-record) 
-* [Update a Record](#update-a-record) 
-* [Delete a Record](#delete-a-record) 
-* [Get a Record Property](#get-a-record-property) 
+* [Create a Record (Legacy)](#create-a-record-legacy)
+* [Get a Record](#get-a-record)
+* [Update a Record](#update-a-record)
+* [Delete a Record](#delete-a-record)
+* [Get a Record Property](#get-a-record-property)
 * [Watch Records](#watch-records)
 
 #### Create a Record (Legacy) {#create-a-record-legacy}
@@ -306,13 +306,13 @@ This trigger module starts a scenario when a contact, company, or deal has been 
 
 ### Contacts {#contacts}
 
-* [Create/Update a Contact (Legacy)](#create-update-a-contact-legacy) 
-* [Create/Update a Group of Contacts](#create-update-a-group-of-contacts) 
-* [Add Contacts to a List](#add-contacts-to-a-list) 
-* [Remove a Contact from a List](#remove-a-contact-from-a-list) 
-* [Merge contacts](#merge-contacts) 
-* [Search for Contacts](#search-for-contacts) 
-* [List Contacts](#list-contacts) 
+* [Create/Update a Contact (Legacy)](#create-update-a-contact-legacy)
+* [Create/Update a Group of Contacts](#create-update-a-group-of-contacts)
+* [Add Contacts to a List](#add-contacts-to-a-list)
+* [[!UICONTROL Remove] a Contact from a List](#remove-a-contact-from-a-list)
+* [Merge contacts](#merge-contacts)
+* [[!UICONTROL Search for Contacts]](#search-for-contacts)
+* [List Contacts](#list-contacts)
 * [List Contacts of a Company](#list-contacts-of-a-company)
 
 #### Create/Update a Contact (Legacy) {#create-update-a-contact-legacy}
@@ -348,7 +348,7 @@ Creates a group of contacts or updates them if they already exist. Performance i
   </tr> 
   <tr> 
    <td role="rowheader">Batch of Contacts to Create/Update </td> 
-   <td> <p>Add the batch of contacts.</p> <p>Click <strong>Add item</strong> to add a new contact. In the window that appears, enter or map the following information:</p> 
+   <td> <p>Add the batch of contacts.</p> <p>Click <strong>[!UICONTROL Add item]</strong> to add a new contact. In the window that appears, enter or map the following information:</p> 
     <ul> 
      <li> <p><strong>Search Type</strong> </p> <p>Select how you want to identify the contact:</p> 
       <ul> 
@@ -431,7 +431,7 @@ Removes a contact from a contact list.
   </tr> 
   <tr> 
    <td role="rowheader">ID 2 </td> 
-   <td>Enter the ID&nbsp;of the other contact that you want to merge.</td> 
+   <td>Enter the ID of the other contact that you want to merge.</td> 
   </tr> 
  </tbody> 
 </table>
@@ -454,14 +454,14 @@ Retrieves a list of contacts using the search query.
   </tr> 
   <tr> 
    <td role="rowheader">Limit </td> 
-   <td>Enter or map the maximum number of contacts Workfront Fusion should return during one scenario execution cycle. </td> 
+   <td>Enter or map the maximum number of contacts [!DNL Workfront Fusion] should return during one scenario execution cycle. </td> 
   </tr> 
  </tbody> 
 </table>
 
 #### List Contacts {#list-contacts}
 
-Returns all contacts that have been created in the portal. The output is limited to 5000 contacts. To list previous or next contacts, you can use the advanced parameter to offset the list.
+Returns all contacts that have been created in the portal. The output is limited to 5000 contacts. To list previous or next contacts, you can use the [!UICONTROL advanced] parameter to offset the list.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -473,7 +473,7 @@ Returns all contacts that have been created in the portal. The output is limited
   </tr> 
   <tr> 
    <td role="rowheader">Limit</td> 
-   <td>The maximum number of contacts Workfront Fusion should return during one scenario execution cycle. </td> 
+   <td>The maximum number of contacts [!DNL Workfront Fusion] should return during one scenario execution cycle. </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Output properties</td> 
@@ -489,7 +489,7 @@ Returns all contacts that have been created in the portal. The output is limited
 
 #### List Contacts of a Company {#list-contacts-of-a-company}
 
-Retrieves a list of contacts in the company. The output is limited to 5000 contacts. To list previous or next contacts, you can use the advanced parameter to offset the list.
+Retrieves a list of contacts in the company. The output is limited to 5000 contacts. To list previous or next contacts, you can use the [!UICONTROL advanced] parameter to offset the list.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -505,7 +505,7 @@ Retrieves a list of contacts in the company. The output is limited to 5000 conta
   </tr> 
   <tr> 
    <td role="rowheader">Limit</td> 
-   <td>The maximum number of contacts Workfront Fusion should return during one scenario execution cycle. </td> 
+   <td>The maximum number of contacts [!DNL Workfront Fusion] should return during one scenario execution cycle. </td> 
   </tr> <!--
    <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
     <td role="rowheader">Contact ID [start offset] </td> 
@@ -544,7 +544,7 @@ This trigger module starts a scenario when a new contact is added to a list. Thi
 
 ### Deals  {#deals}
 
-* [List Deal/Ticket Pipelines](#list-deal-ticket-pipelines) 
+* [List Deal/Ticket Pipelines](#list-deal-ticket-pipelines)
 * [Get a Deal's CRM Pipeline](#get-a-deal-s-crm-pipeline)
 
 #### List Deal/Ticket Pipelines {#list-deal-ticket-pipelines}
@@ -605,11 +605,11 @@ Retrieves a list of companies based on an exact match to the domain property.
   </tr> 
   <tr> 
    <td role="rowheader">Domain </td> 
-   <td>Enter the domain of the companies you want to search for, such as <code>hubspot.com</code>. </td> 
+   <td>Enter the domain of the companies you want to search for, such as <code>[!DNL hubspot].com</code>. </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Limit</td> 
-   <td>The maximum number of companies Workfront Fusion should return during one scenario execution cycle. </td> 
+   <td>The maximum number of companies [!DNL Workfront Fusion] should return during one scenario execution cycle. </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Output properties</td> 
@@ -620,8 +620,8 @@ Retrieves a list of companies based on an exact match to the domain property.
 
 ### Files {#files}
 
-* [Create a Folder](#create-a-folder) 
-* [Delete a Folder](#delete-a-folder) 
+* [Create a Folder](#create-a-folder)
+* [Delete a Folder](#delete-a-folder)
 * [Move a File](#move-a-file)
 
 #### Create a Folder {#create-a-folder}
@@ -728,7 +728,7 @@ Allows you to perform a custom API call.
   </tr> 
   <tr> 
    <td role="rowheader"> <p>URL</p> </td> 
-   <td> <p>Enter a path relative to https://api.hubapi.com/. For example, /contacts/v1/lists/all/contacts/all</p> <p>For the list of available endpoints, refer to the <a href="https://legacydocs.hubspot.com/docs/overview">HubSpot API Documentation</a>.</p> </td> 
+   <td> <p>Enter a path relative to https://api.hubapi.com/. For example, /contacts/v1/lists/all/contacts/all</p> <p>For the list of available endpoints, refer to the <a href="https://legacydocs.hubspot.com/docs/overview">[!DNL HubSpot] API Documentation</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Method</p> </td> 
@@ -751,7 +751,7 @@ Allows you to perform a custom API call.
 
 >[!INFO]
 >
->**Example:** The following API call returns all contacts in your HubSpot account:
+>**Example:** The following API call returns all contacts in your [!DNL HubSpot] account:
 >
 >**URL**: `/contacts/v1/lists/all/contacts/all`
 >
@@ -767,15 +767,15 @@ Allows you to perform a custom API call.
 
 ## Create a new application
 
-1. Log in to your HubSpot developer account.
-1. Select the Create an App option.
+1. Log in to your [!DNL HubSpot] developer account.
+1. Select the [!UICONTROL Create an] App option.
 1. Enter the App Name and Save the dialog.
 1. Select the scopes you will need for your webhook.
 
    For example, add contacts scopes for triggering the module when a new contact is created or deleted.
 
-   The contacts scope is all you need to receive contacts, deals, and company event webhooks.
+   The [!UICONTROL contacts scope] is all you need to receive contacts, deals, and company event webhooks.
 
    >[!IMPORTANT]
    >
-   >Do not fill in the Redirect URL field.
+   >Do not fill in the [!UICONTROL Redirect URL] field.

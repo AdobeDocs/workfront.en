@@ -5,14 +5,14 @@ product-area: workfront-integrations
 keywords: connector
 navigation-topic: apps-and-their-modules
 title: Frame.io modules
-description: The Adobe Workfront Fusion Frame.io modules enable you to monitor, create, update, retrieve, or delete assets and comments in your Frame.io account.
+description: The [!DNL Adobe Workfront Fusion Frame].io modules enable you to monitor, create, update, retrieve, or delete assets and comments in your [!DNL Frame].io account.
 author: Becky
 feature: Workfront Fusion
 exl-id: 373a86f6-fbba-4914-b08d-a3a035ac0ae4
 ---
 # Frame.io modules
 
-The Adobe Workfront Fusion Frame.io modules enable you to monitor, create, update, retrieve, or delete assets and comments in your Frame.io account.
+The [!DNL Adobe Workfront Fusion Frame].io modules enable you to monitor, create, update, retrieve, or delete assets and comments in your [!DNL Frame].io account.
 
 ## Access requirements
 
@@ -36,12 +36,12 @@ You must have the following access to use the functionality in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
+   <td>Your organization must purchase [!DNL Adobe Workfront Fusion] as well as [!DNL Adobe Workfront] to use functionality described in this article.</td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+&#42;To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
 
 &#42;&#42;For information on Adobe Workfront Fusion licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
@@ -53,22 +53,22 @@ To use Frame.io modules, you must have a Frame.io account
 
 You can connect to Frame.io using an API token, or by using OAuth 2.0.
 
-[Connect to Frame.io using an API token](#connect-to-frame-io-using-an-api-token)
+[Connect to [!DNL Frame].io using an API token](#connect-to-frame-io-using-an-api-token)
 
 [Connect to Frame.io using OAuth 2.0 PKCE](#connect-to-frame-io-using-oauth-2-0-pkce)
 
-### Connect to Frame.io using an API token {#connect-to-frame-io-using-an-api-token}
+### Connect to [!DNL Frame].io using an API token {#connect-to-frame-io-using-an-api-token}
 
-To connect your Frame.io account to Workfront Fusion using an API token, you must create the API token in your Frame.io account and insert it to the Workfront Fusion Frame.io Create a connection dialog.
+To connect your Frame.io account to [!DNL Workfront] Fusion using an API token, you must create the API token in your Frame.io account and insert it to the [!DNL Workfront] Fusion Frame.io Create a connection dialog.
 
 1. Log in to your Frame.io account.
-1. Go to the **Tokens** page in the Frame.io Developer.
+1. Go to the **[!UICONTROL Tokens]** page in the Frame.io Developer.
 1. Click **New**.
 1. Enter the name of the token, select the scopes you want to use, and click **Create**.
 1. Copy the provided token.
-1. Go to Workfront Fusion and open the Frame.io module's **Create a connection** dialog.
-1. In the **Connection type** field, select **Frame.io**.
-1. Enter the token you have copied in step 5 to the **Your Frame.io API Key** field and click **Continue** to establish the connection.
+1. Go to [!DNL Workfront Fusion] and open the Frame.io module's **[!UICONTROL Create a connection]** dialog.
+1. In the **[!UICONTROL Connection type]** field, select **Frame.io**.
+1. Enter the token you have copied in step 5 to the **[!UICONTROL Your Frame.io API Key]** field and click **[!UICONTROL Continue]** to establish the connection.
 
 The connection has been established. You can proceed with setting up the module.
 
@@ -76,15 +76,15 @@ The connection has been established. You can proceed with setting up the module.
 
 You can create an connection to Frame.io using OAuth 2.0 PKCE with an optional Client ID. If you want to include a Client ID&nbsp;in your connection, you must create an OAuth 2.0 app in your Frame.io account.
 
-* [Connect to Frame.io using using OAuth 2.0 PKCE (without Client ID)](#connect-to-frame-io-using-using-oauth-2-0-pkce-without-client-id) 
+* [Connect to [!DNL Frame].io using using OAuth 2.0 PKCE (without Client ID)](#connect-to-frame-io-using-using-oauth-2-0-pkce-without-client-id)
 * [Connect to Frame.io using using OAuth 2.0 PKCE (with Client ID)](#connect-to-frame-io-using-using-oauth-2-0-pkce-with-client-id)
 
-#### Connect to Frame.io using using OAuth 2.0 PKCE (without Client ID) {#connect-to-frame-io-using-using-oauth-2-0-pkce-without-client-id}
+#### Connect to [!DNL Frame].io using using OAuth 2.0 PKCE (without Client ID) {#connect-to-frame-io-using-using-oauth-2-0-pkce-without-client-id}
 
-1. Go to Workfront Fusion and open the Frame.io module's **Create a connection** dialog.
-1. In the **Connection type** field, select **Frame.io OAuth 2.0 PKCE**.
-1. Enter a name for the new connection in the **Connection name** field.
-1. Click **Continue** to establish the connection.
+1. Go to [!DNL Workfront Fusion] and open the Frame.io module's **[!UICONTROL Create a connection]** dialog.
+1. In the **[!UICONTROL Connection type]** field, select **Frame.io OAuth 2.0 PKCE**.
+1. Enter a name for the new connection in the **[!UICONTROL Connection name]** field.
+1. Click **[!UICONTROL Continue]** to establish the connection.
 
 The connection has been established. You can proceed with setting up the module.
 
@@ -104,13 +104,14 @@ The connection has been established. You can proceed with setting up the module.
    >
    >* Enable the PCKE option.
 
+
 1. Copy the provided `client_id`.
-1. Go to Workfront Fusion and open the Frame.io module's **Create a connection** dialog.
-1. In the **Connection type** field, select **Frame.io OAuth 2.0 PKCE**.
-1. Enter a name for the new connection in the **Connection name** field.
+1. Go to [!DNL Workfront Fusion] and open the Frame.io module's **[!UICONTROL Create a connection]** dialog.
+1. In the **[!UICONTROL Connection type]** field, select **Frame.io OAuth 2.0 PKCE**.
+1. Enter a name for the new connection in the **[!UICONTROL Connection name]** field.
 1. Click **Show advanced settings**.
 1. Enter the `client_id` you copied in step 2 to the **Client ID** field.
-1. Click **Continue** to establish the connection.
+1. Click **[!UICONTROL Continue]** to establish the connection.
 
 The connection has been established. You can proceed with setting up the module.
 
@@ -118,25 +119,25 @@ The connection has been established. You can proceed with setting up the module.
 
 ## Frame.io modules and their fields
 
-When you configure Frame.io modules, Workfront Fusion displays the fields listed below. Along with these, additional Frame.io fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
+When you configure [!DNL Frame].io modules, [!DNL Workfront Fusion] displays the fields listed below. Along with these, additional [!DNL Frame].io fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
 
 If you see the map button above a field or function, you can use it to set variables and functions for that field. For more information, see [Map information from one module to another in Adobe Workfront Fusion](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 ![](assets/map-toggle-350x74.png)
 
-* [Assets](#assets) 
-* [Comments](#comments) 
-* [Projects](#projects) 
+* [Assets](#assets)
+* [Comments](#comments)
+* [Projects](#projects)
 * [Other](#other)
 
 ### Assets {#assets}
 
-* [Delete an Asset](#delete-an-asset) 
-* [Get an Asset](#get-an-asset) 
-* [List Assets](#list-assets) 
-* [Update an Asset](#update-an-asset) 
-* [Watch Asset Deleted](#watch-asset-deleted) 
-* [Watch Asset Label Updated](#watch-asset-label-updated) 
+* [Delete an Asset](#delete-an-asset)
+* [Get an Asset](#get-an-asset)
+* [List Assets](#list-assets)
+* [Update an Asset](#update-an-asset)
+* [Watch Asset Deleted](#watch-asset-deleted)
+* [Watch Asset Label Updated](#watch-asset-label-updated)
 * [Watch New Asset](#watch-new-asset)
 
 Create an Asset
@@ -149,7 +150,7 @@ This action module creates a new asset.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection </td> 
-   <td>For instructions on creating a connection to Frame.io, see <a href="#connect-frame-io-to-adobe-workfront-fusion" class="MCXref xref">Connect Frame.io to Adobe Workfront Fusion</a> in this article.</td> 
+   <td>For instructions on creating a connection to Frame.io, see <a href="#connect-frame-io-to-adobe-workfront-fusion" class="MCXref xref">Connect Frame.io to [!DNL Adobe Workfront Fusion]</a> in this article.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Team ID </td> 
@@ -202,7 +203,7 @@ This action module deletes a specified asset.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection </td> 
-   <td>For instructions on creating a connection to Frame.io, see <a href="#connect-frame-io-to-adobe-workfront-fusion" class="MCXref xref">Connect Frame.io to Adobe Workfront Fusion</a> in this article.</td> 
+   <td>For instructions on creating a connection to Frame.io, see <a href="#connect-frame-io-to-adobe-workfront-fusion" class="MCXref xref">Connect Frame.io to [!DNL Adobe Workfront Fusion]</a> in this article.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Team ID </td> 
@@ -233,7 +234,7 @@ This action module retrieves asset details.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection </td> 
-   <td>For instructions on creating a connection to Frame.io, see <a href="#connect-frame-io-to-adobe-workfront-fusion" class="MCXref xref">Connect Frame.io to Adobe Workfront Fusion</a> in this article.</td> 
+   <td>For instructions on creating a connection to Frame.io, see <a href="#connect-frame-io-to-adobe-workfront-fusion" class="MCXref xref">Connect Frame.io to [!DNL Adobe Workfront Fusion]</a> in this article.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Team ID </td> 
@@ -266,7 +267,7 @@ This search module retrieves all assets in the specified project's folder.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection </td> 
-   <td>For instructions on creating a connection to Frame.io, see <a href="#connect-frame-io-to-adobe-workfront-fusion" class="MCXref xref">Connect Frame.io to Adobe Workfront Fusion</a> in this article.</td> 
+   <td>For instructions on creating a connection to Frame.io, see <a href="#connect-frame-io-to-adobe-workfront-fusion" class="MCXref xref">Connect Frame.io to [!DNL Adobe Workfront Fusion]</a> in this article.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Team ID </td> 
@@ -282,7 +283,7 @@ This search module retrieves all assets in the specified project's folder.
   </tr> 
   <tr> 
    <td role="rowheader">Limit </td> 
-   <td> <p>Set the maximum number of assets Workfront Fusion will return during one execution cycle.</p> </td> 
+   <td> <p>Set the maximum number of assets [!DNL Workfront Fusion] will return during one execution cycle.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -297,7 +298,7 @@ This action module allows you to update an existing asset's name, description, o
  <tbody> 
   <tr> 
    <td role="rowheader">Connection </td> 
-   <td>For instructions on creating a connection to Frame.io, see <a href="#connect-frame-io-to-adobe-workfront-fusion" class="MCXref xref">Connect Frame.io to Adobe Workfront Fusion</a> in this article.</td> 
+   <td>For instructions on creating a connection to Frame.io, see <a href="#connect-frame-io-to-adobe-workfront-fusion" class="MCXref xref">Connect Frame.io to [!DNL Adobe Workfront Fusion]</a> in this article.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Team ID </td> 
@@ -336,7 +337,7 @@ This trigger module starts a scenario when an asset is deleted.
   </tr> 
   <tr> 
    <td role="rowheader">Connection </td> 
-   <td>For instructions on creating a connection to Frame.io, see <a href="#connect-frame-io-to-adobe-workfront-fusion" class="MCXref xref">Connect Frame.io to Adobe Workfront Fusion</a> in this article.</td> 
+   <td>For instructions on creating a connection to Frame.io, see <a href="#connect-frame-io-to-adobe-workfront-fusion" class="MCXref xref">Connect Frame.io to [!DNL Adobe Workfront Fusion]</a> in this article.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Team ID </td> 
@@ -359,7 +360,7 @@ This trigger module starts a scenario when an asset's status is set, changed, or
   </tr> 
   <tr> 
    <td role="rowheader">Connection </td> 
-   <td>For instructions on creating a connection to Frame.io, see <a href="#connect-frame-io-to-adobe-workfront-fusion" class="MCXref xref">Connect Frame.io to Adobe Workfront Fusion</a> in this article.</td> 
+   <td>For instructions on creating a connection to Frame.io, see <a href="#connect-frame-io-to-adobe-workfront-fusion" class="MCXref xref">Connect Frame.io to [!DNL Adobe Workfront Fusion]</a> in this article.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Team ID </td> 
@@ -382,7 +383,7 @@ This trigger module starts a scenario when a new asset is created.
   </tr> 
   <tr> 
    <td role="rowheader">Connection </td> 
-   <td>For instructions on creating a connection to Frame.io, see <a href="#connect-frame-io-to-adobe-workfront-fusion" class="MCXref xref">Connect Frame.io to Adobe Workfront Fusion</a> in this article.</td> 
+   <td>For instructions on creating a connection to Frame.io, see <a href="#connect-frame-io-to-adobe-workfront-fusion" class="MCXref xref">Connect Frame.io to [!DNL Adobe Workfront Fusion]</a> in this article.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Team ID </td> 
@@ -393,12 +394,12 @@ This trigger module starts a scenario when a new asset is created.
 
 ### Comments {#comments}
 
-* [Create a Comment](#create-a-comment) 
-* [Delete a Comment](#delete-a-comment) 
-* [Get a Comment](#get-a-comment) 
-* [List Comments](#list-comments) 
-* [Update a Comment](#update-a-comment) 
-* [Watch Comment Updated](#watch-comment-updated) 
+* [Create a Comment](#create-a-comment)
+* [Delete a Comment](#delete-a-comment)
+* [Get a Comment](#get-a-comment)
+* [List Comments](#list-comments)
+* [Update a Comment](#update-a-comment)
+* [Watch Comment Updated](#watch-comment-updated)
 * [Watch New Comment](#watch-new-comment)
 
 #### Create a Comment {#create-a-comment}
@@ -411,7 +412,7 @@ This action module adds a new comment or reply to the asset.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection </td> 
-   <td>For instructions on creating a connection to Frame.io, see <a href="#connect-frame-io-to-adobe-workfront-fusion" class="MCXref xref">Connect Frame.io to Adobe Workfront Fusion</a> in this article.</td> 
+   <td>For instructions on creating a connection to Frame.io, see <a href="#connect-frame-io-to-adobe-workfront-fusion" class="MCXref xref">Connect Frame.io to [!DNL Adobe Workfront Fusion]</a> in this article.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Type </td> 
@@ -458,7 +459,7 @@ This action module deletes an existing comment.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection </td> 
-   <td>For instructions on creating a connection to Frame.io, see <a href="#connect-frame-io-to-adobe-workfront-fusion" class="MCXref xref">Connect Frame.io to Adobe Workfront Fusion</a> in this article.</td> 
+   <td>For instructions on creating a connection to Frame.io, see <a href="#connect-frame-io-to-adobe-workfront-fusion" class="MCXref xref">Connect Frame.io to [!DNL Adobe Workfront Fusion]</a> in this article.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Team ID</td> 
@@ -493,7 +494,7 @@ This action module retrieves details of the specified comment.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection </td> 
-   <td>For instructions on creating a connection to Frame.io, see <a href="#connect-frame-io-to-adobe-workfront-fusion" class="MCXref xref">Connect Frame.io to Adobe Workfront Fusion</a> in this article.</td> 
+   <td>For instructions on creating a connection to Frame.io, see <a href="#connect-frame-io-to-adobe-workfront-fusion" class="MCXref xref">Connect Frame.io to [!DNL Adobe Workfront Fusion]</a> in this article.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Team ID </td> 
@@ -528,7 +529,7 @@ This search module retrieves all comments of the specified asset.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection </td> 
-   <td>For instructions on creating a connection to Frame.io, see <a href="#connect-frame-io-to-adobe-workfront-fusion" class="MCXref xref">Connect Frame.io to Adobe Workfront Fusion</a> in this article.</td> 
+   <td>For instructions on creating a connection to Frame.io, see <a href="#connect-frame-io-to-adobe-workfront-fusion" class="MCXref xref">Connect Frame.io to [!DNL Adobe Workfront Fusion]</a> in this article.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Team ID </td> 
@@ -548,7 +549,7 @@ This search module retrieves all comments of the specified asset.
   </tr> 
   <tr> 
    <td role="rowheader">Limit </td> 
-   <td> <p>Set the maximum number of comments Workfront Fusion will return during one execution cycle.</p> </td> 
+   <td> <p>Set the maximum number of comments [!DNL Workfront Fusion] will return during one execution cycle.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -563,7 +564,7 @@ This action module edits an existing comment.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection </td> 
-   <td>For instructions on creating a connection to Frame.io, see <a href="#connect-frame-io-to-adobe-workfront-fusion" class="MCXref xref">Connect Frame.io to Adobe Workfront Fusion</a> in this article.</td> 
+   <td>For instructions on creating a connection to Frame.io, see <a href="#connect-frame-io-to-adobe-workfront-fusion" class="MCXref xref">Connect Frame.io to [!DNL Adobe Workfront Fusion]</a> in this article.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Team ID </td> 
@@ -610,7 +611,7 @@ This trigger module starts a scenario when a comment is edited.
   </tr> 
   <tr> 
    <td role="rowheader">Connection </td> 
-   <td>For instructions on creating a connection to Frame.io, see <a href="#connect-frame-io-to-adobe-workfront-fusion" class="MCXref xref">Connect Frame.io to Adobe Workfront Fusion</a> in this article.</td> 
+   <td>For instructions on creating a connection to Frame.io, see <a href="#connect-frame-io-to-adobe-workfront-fusion" class="MCXref xref">Connect Frame.io to [!DNL Adobe Workfront Fusion]</a> in this article.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Team ID </td> 
@@ -633,7 +634,7 @@ This trigger module starts a scenario when a new comment or reply is created.
   </tr> 
   <tr> 
    <td role="rowheader">Connection </td> 
-   <td>For instructions on creating a connection to Frame.io, see <a href="#connect-frame-io-to-adobe-workfront-fusion" class="MCXref xref">Connect Frame.io to Adobe Workfront Fusion</a> in this article.</td> 
+   <td>For instructions on creating a connection to Frame.io, see <a href="#connect-frame-io-to-adobe-workfront-fusion" class="MCXref xref">Connect Frame.io to [!DNL Adobe Workfront Fusion]</a> in this article.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Team ID </td> 
@@ -654,7 +655,7 @@ This search module retrieves all projects for the specified team.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection </td> 
-   <td>For instructions on creating a connection to Frame.io, see <a href="#connect-frame-io-to-adobe-workfront-fusion" class="MCXref xref">Connect Frame.io to Adobe Workfront Fusion</a> in this article.</td> 
+   <td>For instructions on creating a connection to Frame.io, see <a href="#connect-frame-io-to-adobe-workfront-fusion" class="MCXref xref">Connect Frame.io to [!DNL Adobe Workfront Fusion]</a> in this article.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Team ID </td> 
@@ -662,7 +663,7 @@ This search module retrieves all projects for the specified team.
   </tr> 
   <tr> 
    <td role="rowheader">Limit </td> 
-   <td> <p>Set the maximum number of projects Workfront Fusion will return during one execution cycle.</p> </td> 
+   <td> <p>Set the maximum number of projects [!DNL Workfront Fusion] will return during one execution cycle.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -679,7 +680,7 @@ This module allows you to perform a custom API call.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection </td> 
-   <td>For instructions on creating a connection to Frame.io, see <a href="#connect-frame-io-to-adobe-workfront-fusion" class="MCXref xref">Connect Frame.io to Adobe Workfront Fusion</a> in this article.</td> 
+   <td>For instructions on creating a connection to Frame.io, see <a href="#connect-frame-io-to-adobe-workfront-fusion" class="MCXref xref">Connect Frame.io to [!DNL Adobe Workfront Fusion]</a> in this article.</td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>URL</p> </td> 
@@ -691,15 +692,15 @@ This module allows you to perform a custom API call.
   </tr> 
   <tr> 
    <td role="rowheader">Headers</td> 
-   <td> <p>Add the headers of the request in the form of a standard JSON object.</p> <p>For example, <code>{"Content-type":"application/json"}</code></p> <p>Workfront Fusion adds authorization headers automatically.</p> </td> 
+   <td> <p>Add the headers of the request in the form of a standard [!DNL JSON] object.</p> <p>For example, <code>{"Content-type":"application/json"}</code></p> <p>Workfront Fusion adds authorization headers automatically.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Query String </td> 
-   <td> <p>Enter the request query string. For each parameter that you want to include in the query string, click <b>Add item</b> and enter the field's name and the desired value.</p> </td> 
+   <td> <p>Enter the request query string. For each parameter that you want to include in the query string, click <b>[!UICONTROL Add item]</b> and enter the field's name and the desired value.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Body</td> 
-   <td> <p>Add the body content for the API call in the form of a standard JSON object.</p> <p>Note:  <p>When using conditional statements such as <code>if</code> in your JSON, put the quotation marks outside of the conditional statement.</p> 
+   <td> <p>Add the body content for the API call in the form of a standard [!DNL JSON] object.</p> <p>Note:  <p>When using conditional statements such as <code>if</code> in your JSON, put the quotation marks outside of the conditional statement.</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td> 
@@ -707,7 +708,7 @@ This module allows you to perform a custom API call.
  </tbody> 
 </table>
 
-**Example:** The following API call returns all teams and its details in your Frame.io account:
+**Example:** The following API call returns all teams and its details in your [!DNL Frame].io account:
 
 URL: `/v2/teams`
 

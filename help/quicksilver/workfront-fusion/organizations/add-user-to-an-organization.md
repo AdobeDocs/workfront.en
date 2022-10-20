@@ -44,7 +44,7 @@ You must have the following access to use the functionality in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
+   <td>Your organization must purchase [!DNL Adobe Workfront Fusion] as well as [!DNL Adobe Workfront] to use functionality described in this article.</td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Access level configurations*</td> 
@@ -56,7 +56,7 @@ You must have the following access to use the functionality in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+&#42;To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
 
 &#42;&#42;For information on Adobe Workfront Fusion licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
@@ -90,15 +90,16 @@ To add users to the organization, you must be an administrator at the organizati
 
 To add a user to the organization:
 
-1. Navigate to **Organizations** in the menu and select the organization you want to add a user to.
-1. Open the **Users** tab in your Dashboard.
+1. Navigate to **[!UICONTROL Organizations]** in the menu and select the organization you want to add a user to.
+1. Open the **[!UICONTROL Users]** tab in your Dashboard.
 1. Click **Invite a new user**, fill out the form (Email, Message, Role), and send the invitation by clicking **Send**.
 
 >[!NOTE]
 >
 >   <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
-   <p>If you do not see the Invite a new user button, your organization has been onboarded to the Adobe Business Platform. </p>
+
+<p>If you do not see the [!UICONTROL Invite a new user] button, your organization has been onboarded to the Adobe Business Platform. </p>
    <p>For instructions on adding a user to an organization that has been onboarded to the Adobe Business Platform, see <a href="#add-a-user-to-an-organization-that-has-been-onboarded-to-the-adobe-business-platform" class="MCXref xref">Add a user to an organization that has been onboarded to the Adobe Business Platform</a></p>
    </div>
 
-   The user receives an invitation email where they can accept the invitation by clicking an Accept the Role button.
+The user receives an invitation email where they can accept the invitation by clicking an [!UICONTROL Accept the Role] button.

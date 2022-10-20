@@ -5,7 +5,7 @@ product-area: workfront-integrations
 keywords: connector
 navigation-topic: http-modules
 title: HTTP &gt; Make an OAuth 2.0 request module
-description: In order to make an Adobe Workfront Fusion HTTP(S) request to servers that require an OAuth 2.0 authorization, you first need to create an OAuth connection. Adobe Workfront Fusion ensures that all calls made with this connection have the appropriate authorization headers and automatically refresh associated tokens when required.
+description: In order to make an [!DNL Adobe Workfront Fusion] HTTP(S) request to servers that require an OAuth 2.0 authorization, you first need to create an OAuth connection. [!DNL Adobe Workfront Fusion] ensures that all calls made with this connection have the appropriate authorization headers and automatically refresh associated tokens when required.
 author: Becky
 feature: Workfront Fusion
 exl-id: 6c68c9b9-9f74-44a7-94ed-3785081b8331
@@ -16,7 +16,7 @@ exl-id: 6c68c9b9-9f74-44a7-94ed-3785081b8331
 >
 >Adobe Workfront Fusion requires an Adobe Workfront Fusion license in addition to an Adobe Workfront license.
 
-In order to make an Adobe Workfront Fusion HTTP(S) request to servers that require an OAuth 2.0 authorization, you first need to create an OAuth connection. Adobe Workfront Fusion ensures that all calls made with this connection have the appropriate authorization headers and automatically refresh associated tokens when required.
+In order to make an [!DNL Adobe Workfront Fusion] HTTP(S) request to servers that require an OAuth 2.0 authorization, you first need to create an OAuth connection. [!DNL Adobe Workfront Fusion] ensures that all calls made with this connection have the appropriate authorization headers and automatically refresh associated tokens when required.
 
 Workfront Fusion supports the following OAuth 2.0 authentication flows:
 
@@ -49,34 +49,34 @@ You must have the following access to use the functionality in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
+   <td>Your organization must purchase [!DNL Adobe Workfront Fusion] as well as [!DNL Adobe Workfront] to use functionality described in this article.</td> 
   </tr>
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+&#42;To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
 
 &#42;&#42;For information on Adobe Workfront Fusion licenses, see [Adobe Workfront Fusion licenses](../../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
-## Creating a connection for an OAuth request {#creating-a-connection-for-an-oauth-request}
+## Creating a connection for an [!DNL OAuth] request {#creating-a-connection-for-an-oauth-request}
 
-* [General instructions for creating a connection in the HTTP > Make an OAuth 2.0 request module](#general-instructions-for-creating-a-connection-in-the-http-make-an-oauth-2-0-request-module) 
-* [Instructions for creating a connection to Google in the HTTP > Make an OAuth 2.0 request module](#instructions-for-creating-a-connection-to-google-in-the-http-make-an-oauth-2-0-request-module) 
+* [General instructions for creating a connection in the HTTP > Make an OAuth 2.0 request module](#general-instructions-for-creating-a-connection-in-the-http-make-an-oauth-2-0-request-module)
+* [Instructions for creating a connection to Google in the HTTP >[!UICONTROL Make] an OAuth 2.0 request module](#instructions-for-creating-a-connection-to-google-in-the-http-make-an-oauth-2-0-request-module)
 * [Instructions for connecting to Microsoft Graph API via the HTTP > Make an OAuth 2.0 request module](#instructions-for-connecting-to-microsoft-graph-api-via-the-http-make-an-oauth-2-0-request-module)
 
 ### General instructions for creating a connection in the HTTP > Make an OAuth 2.0 request module {#general-instructions-for-creating-a-connection-in-the-http-make-an-oauth-2-0-request-module}
 
-1. Create an OAuth client in the target service with which you want Adobe Workfront Fusion to communicate. This option is most likely found in the Developer section of the given service.
+1. Create an OAuth client in the [!DNL target] service with which you want [!DNL Adobe Workfront Fusion] to communicate. This option is most likely found in the [!UICONTROL Developer] section of the given service.
 
    1. When creating a client, enter the appropriate URL in the `Redirect URL` or `Callback URL` field:
 
-      | Americas / APAC |https://app.workfrontfusion.com/oauth/cb/oauth2 |
+      | Americas / APAC | https://app.workfrontfusion.com/oauth/cb/oauth2 |
       |---|---|
-      | EMEA  |https://app-eu.workfrontfusion.com/oauth/cb/oauth2 |
+      | EMEA | https://app-eu.workfrontfusion.com/oauth/cb/oauth2 |
 
    1. After you create the client, the given service displays 2 keys: `Client ID` and `Client Secret`. Some services call these `App Key` and `App Secret` . Save the key and secret in a secure location, so you can provide them when creating the connection in Workfront Fusion.
 
-1. Find the `Authorize URI` and `Token URI` in the API documentation of the given service. These are URL addresses through which Workfront Fusion communicates with the target service. The addresses serve for OAuth authorization.
+1. Find the `Authorize URI` and `Token URI` in the API documentation of the given service. These are URL addresses through which [!DNL Workfront Fusion] communicates with the [!DNL target] service. The addresses serve for OAuth authorization.
 
    >[!NOTE]
    >
@@ -86,19 +86,19 @@ You must have the following access to use the functionality in this article:
    >
    >**Example:** Yahoo addresses:
    >
-   >* Authorize URI:    
+   >* Authorize URI:
    >
-   >`https://api.login.yahoo.com/oauth2/request_auth`   
+   >`https://api.login.yahoo.com/oauth2/request_auth`
    >
-   >* Token URI:    
+   >* Token URI:
    >
    >`https://api.login.yahoo.com/oauth2/get_token`
 
-1. (Conditional) If the target service uses scopes (access rights), check how the service separates individual scopes and make sure you set the separator in the advanced settings accordingly. If the separator is not set correctly, Workfront Fusion fails to create the connection, and you receive an invalid scope error.
+1. (Conditional) If the target service uses scopes (access rights), check how the service separates individual scopes and make sure you set the separator in the advanced settings accordingly. If the separator is not set correctly, [!DNL Workfront Fusion] fails to create the connection, and you receive an invalid scope error.
 1. After you complete the steps above, you can start to create the OAuth connection in Workfront Fusion. Add the OAuth 2.0 HTTP(S) request and response processing module to your scenario.
 1. In the module's Connection field, click **Add**.
 
-1. Fill in the following fields to create a connection: 
+1. Fill in the following fields to create a connection:
 
    <table style="table-layout:auto">  
     <col> 
@@ -122,7 +122,7 @@ You must have the following access to use the functionality in this article:
      </tr> 
      <tr> 
       <td role="rowheader">Scope separator </td> 
-      <td> <p>Select what the scopes entered above should be separated by. You can find this information in the given service's developer (API) documentation.</p> <p>Warning: If the separator is not set correctly, Workfront Fusion fails to create the connection and you receive an invalid scope error.</p> </td> 
+      <td> <p>Select what the scopes entered above should be separated by. You can find this information in the given service's developer (API) documentation.</p> <p>Warning: If the separator is not set correctly, [!DNL Workfront Fusion] fails to create the connection and you receive an invalid scope error.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Client ID </td> 
@@ -178,7 +178,7 @@ You must have the following access to use the functionality in this article:
         <li><strong>client_id</strong>: The Client ID you received when creating the account is automatically included in the request body</li> 
         <li><strong>client_secret</strong>: The Client Secret you received when creating the account is automatically included in the request body</li> 
         <li><strong>code</strong>: The code returned by the authorization request</li> 
-       </ul> <p>Note:  <p>The OAuth 2.0 standard supports at least 2 methods of client authentication during this step (<code>client_secret_basic</code> and <code>client_secret_post</code>). Workfront Fusion automatically sends the specified client ID and secret through the <code>client_secret_post</code> method. Therefore, these parameters are included as part of the token request body automatically. </p> <p>For more information on OAuth 2.0 authentication, see <a href="https://tools.ietf.org/html/rfc6749">The OAuth 2.0 Authorization Framework</a>.</p> </p> </td> 
+       </ul> <p>Note:  <p>The OAuth 2.0 standard supports at least 2 methods of client authentication during this step (<code>client_secret_basic</code> and <code>client_secret_post</code>). [!DNL Workfront Fusion] automatically sends the specified client ID and secret through the <code>client_secret_post</code> method. Therefore, these parameters are included as part of the token request body automatically. </p> <p>For more information on OAuth 2.0 authentication, see <a href="https://tools.ietf.org/html/rfc6749">The OAuth 2.0 Authorization Framework</a>.</p> </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Refresh token parameters</p> </td> 
@@ -188,15 +188,15 @@ You must have the following access to use the functionality in this article:
         <li> <p><strong>refresh_token</strong>: The most recent refresh token obtained by the service you are connecting to</p> </li> 
         <li> <p><strong>client_id</strong>: The Client ID you received when creating the account is automatically included in the request body</p> </li> 
         <li> <p><strong>client_secret</strong>: The Client Secret you received when creating the account is automatically included in the request body</p> </li> 
-       </ul> <p>Note:  <p>The OAuth 2.0 standard supports at least 2 methods of client authentication during this step (<code>client_secret_basic</code> and <code>client_secret_post</code>). Workfront Fusion automatically sends the specified client ID and secret through the <code>client_secret_post</code> method. Therefore, these parameters are included as part of the token request body automatically. </p> <p>For more information on OAuth 2.0 authentication, see <a href="https://tools.ietf.org/html/rfc6749">The OAuth 2.0 Authorization Framework</a>.</p> </p> </td> 
+       </ul> <p>Note:  <p>The OAuth 2.0 standard supports at least 2 methods of client authentication during this step (<code>client_secret_basic</code> and <code>client_secret_post</code>). [!DNL Workfront Fusion] automatically sends the specified client ID and secret through the <code>client_secret_post</code> method. Therefore, these parameters are included as part of the token request body automatically. </p> <p>For more information on OAuth 2.0 authentication, see <a href="https://tools.ietf.org/html/rfc6749">The OAuth 2.0 Authorization Framework</a>.</p> </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Custom Headers</p> </td> 
-      <td> <p>Specify any additional keys and values to include in the header of Token and Refresh Token steps.</p> <p>Note:  <p>The OAuth 2.0 standard supports at least 2 methods of client authentication during this step (<code>client_secret_basic</code> and <code>client_secret_post</code>). Workfront Fusion does not automatically support the <code>client_secret_basic</code> method. If the service that you are connecting to expects the Client ID and Client Secret to be combined into a single string and then base64 encoded into the Authorization header, then you should add that header and key value here.</p> <p> For more information on OAuth 2.0 authentication, see <a href="https://tools.ietf.org/html/rfc6749">The OAuth 2.0 Authorization Framework</a>.</p> </p> </td> 
+      <td> <p>Specify any additional keys and values to include in the header of Token and Refresh Token steps.</p> <p>Note:  <p>The OAuth 2.0 standard supports at least 2 methods of client authentication during this step (<code>client_secret_basic</code> and <code>client_secret_post</code>). [!DNL Workfront Fusion] does not automatically support the <code>client_secret_basic</code> method. If the service that you are connecting to expects the Client ID and Client Secret to be combined into a single string and then base64 encoded into the Authorization header, then you should add that header and key value here.</p> <p> For more information on OAuth 2.0 authentication, see <a href="https://tools.ietf.org/html/rfc6749">The OAuth 2.0 Authorization Framework</a>.</p> </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Token placement</p> </td> 
-      <td> <p>Select whether to send the token in the header, query string, or in both when connecting to the specified URL.</p> <p>Tokens are most commonly sent in the request header.</p> </td> 
+      <td> <p>Select whether to send the token in the [!UICONTROL header], [!UICONTROL query string], or in both when connecting to the specified URL.</p> <p>Tokens are most commonly sent in the request header.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Header token name </td> 
@@ -209,15 +209,15 @@ You must have the following access to use the functionality in this article:
     </tbody> 
    </table>
 
-1. Click **Continue** to save connection settings. 
+1. Click **[!UICONTROL Continue]** to save connection settings.
 1. Continue to [OAuth 2.0 request module setup](#oauth-2-0-request-module-setup).
 
-### Instructions for creating a connection to Google in the HTTP > Make an OAuth 2.0 request module  {#instructions-for-creating-a-connection-to-google-in-the-http-make-an-oauth-2-0-request-module}
+### Instructions for creating a connection to Google in the HTTP >[!UICONTROL Make] an OAuth 2.0 request module  {#instructions-for-creating-a-connection-to-google-in-the-http-make-an-oauth-2-0-request-module}
 
 The following example shows how to use the HTTP > Make an OAuth 2.0 request module to connect to Google.
 
 1. Ensure that you have created a project, configured OAuth settings, and generated your credentials as described in [Connect Adobe Workfront Fusion to Google Services using a custom OAuth client](../../../workfront-fusion/connections/connect-fusion-to-google-using-oauth.md).
-1. Open the HTTP > Make an OAuth 2.0 request module.
+1. Open the HTTP >[!UICONTROL Make] an OAuth 2.0 request module.
 1. Click **Add** next to the connection box.
 1. Enter the following values:
 
@@ -251,11 +251,11 @@ The following example shows how to use the HTTP > Make an OAuth 2.0 request modu
      </tr> 
      <tr> 
       <td role="rowheader">Client ID </td> 
-      <td> <p>Enter your Google Client ID. </p> <p>To create a client ID, see <a href="../../../workfront-fusion/connections/connect-fusion-to-google-using-oauth.md#create2" class="MCXref xref">Create OAuth Credentials</a> in <a href="../../../workfront-fusion/connections/connect-fusion-to-google-using-oauth.md" class="MCXref xref">Connect Adobe Workfront Fusion to Google Services using a custom OAuth client</a>.</p> </td> 
+      <td> <p>Enter your Google Client ID. </p> <p>To create a client ID, see <a href="../../../workfront-fusion/connections/connect-fusion-to-google-using-oauth.md#create2" class="MCXref xref">Create OAuth Credentials</a> in <a href="../../../workfront-fusion/connections/connect-fusion-to-google-using-oauth.md" class="MCXref xref">[!DNL Connect Adobe Workfront] Fusion to [!DNL Google Services] using a custom OAuth client</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Client Secret</td> 
-      <td> <p>Enter your Google Client Secret. </p> <p>To create a client secret, see <a href="../../../workfront-fusion/connections/connect-fusion-to-google-using-oauth.md#create2" class="MCXref xref">Create OAuth Credentials</a> in <a href="../../../workfront-fusion/connections/connect-fusion-to-google-using-oauth.md" class="MCXref xref">Connect Adobe Workfront Fusion to Google Services using a custom OAuth client</a>.</p> </td> 
+      <td> <p>Enter your Google Client Secret. </p> <p>To create a client secret, see <a href="../../../workfront-fusion/connections/connect-fusion-to-google-using-oauth.md#create2" class="MCXref xref">Create OAuth Credentials</a> in <a href="../../../workfront-fusion/connections/connect-fusion-to-google-using-oauth.md" class="MCXref xref">[!DNL Connect Adobe Workfront] Fusion to [!DNL Google] Services using a custom OAuth client</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Authorize parameters</p> </td> 
@@ -264,7 +264,7 @@ The following example shows how to use the HTTP > Make an OAuth 2.0 request modu
     </tbody> 
    </table>
 
-1. Click **Continue** to save connection settings. 
+1. Click **[!UICONTROL Continue]** to save connection settings.
 1. Continue to [OAuth 2.0 request module setup](#oauth-2-0-request-module-setup).
 
 ### Instructions for connecting to Microsoft Graph API via the HTTP > Make an OAuth 2.0 request module {#instructions-for-connecting-to-microsoft-graph-api-via-the-http-make-an-oauth-2-0-request-module}
@@ -273,9 +273,9 @@ For instructions regarding Microsoft Graph API, see [Call the MS Graph REST API 
 
 ## OAuth 2.0 request module setup {#oauth-2-0-request-module-setup}
 
-When you have established an Oauth 2.0 connection as described in [Creating a connection for an OAuth request](#creating-a-connection-for-an-oauth-request), continue setting up the module as desired. All authorization tokens are automatically included in this request, and in any other request that uses the same connection.
+When you have established an [!DNL Oauth 2].0 connection as described in [Creating a connection for an [!DNL OAuth] request](#creating-a-connection-for-an-oauth-request), continue setting up the module as desired. All authorization tokens are automatically included in this request, and in any other request that uses the same connection.
 
-When you configure the HTTP > Make an OAuth 2.0 request module, Workfront Fusion displays the fields listed below. A bolded title in a module indicates a required field.
+When you configure the [!UICONTROL HTTP] >[!UICONTROL Make an OAuth 2.0 request] module, [!DNL Workfront Fusion] displays the fields listed below. A bolded title in a module indicates a required field.
 
 If you see the map button above a field or function, you can use it to set variables and functions for that field. For more information, see [Map information from one module to another in Adobe Workfront Fusion](../../../workfront-fusion/mapping/map-information-between-modules.md).
 
@@ -315,7 +315,7 @@ If you see the map button above a field or function, you can use it to set varia
    <td role="rowheader"> <p>Body type</p> </td> 
    <td> <p>The HTTP Body is the data bytes transmitted in an HTTP transaction message immediately following the headers if there are any to be used.</p> 
     <ul> 
-     <li> <p><strong>Raw</strong> </p> <p>The Raw body type is generally suitable for most HTTP body requests even in situations where developer documentation does not specify data to send.</p> <p>Specify a form of parsing the data in the Content type field.</p> <p>Despite the content type selected, data is entered in any format that is stipulated or required by the developer documentation.</p> </li> 
+     <li> <p><strong>Raw</strong> </p> <p>The Raw body type is generally suitable for most HTTP body requests even in situations where developer documentation does not specify data to send.</p> <p>Specify a form of parsing the data in the [!UICONTROL Content type] field.</p> <p>Despite the content type selected, data is entered in any format that is stipulated or required by the developer documentation.</p> </li> 
      <li> <p><strong>Application/x-www-form-urlencoded</strong> </p> <p>This body type is to POST data using <code>application/x-www-form-urlencoded</code>.</p> <p>For <code>application/x-www-form-urlencoded</code>, the body of the HTTP message sent to the server is essentially one query string. The keys and values are encoded in key-value pairs separated by <code>&amp;</code> and with an <code>=</code> between the key and the value. </p> <p>For binary data, <code>use multipart/form-data</code> instead.</p> 
       <div class="example" data-mc-autonum="<b>Example: </b>">
        <span class="autonumber"><span><b>Example: </b></span></span> 
@@ -325,13 +325,13 @@ If you see the map button above a field or function, you can use it to set varia
      <li> <p><strong>Multipart/form-data</strong> </p> <p>The Multipart/form-data is an HTTP multipart request used to send files and data. It is commonly used to upload files to the server.</p> <p>Add fields to be sent in the request. Each field must contain a key-value pair.</p> 
       <ul> 
        <li> <p><strong>Text</strong> </p> <p>Enter the key and value to be sent within the request body.</p> </li> 
-       <li> <p><strong>File</strong> </p> <p>Enter the key and specify the source file you want to send in the request body.</p> <p>Map the file you want to upload from the previous module (such as HTTP &gt; Get a File or Google Drive &gt; Download a File), or enter the file name and file data manually.</p> </li> 
+       <li> <p><strong>[!UICONTROL File]</strong> </p> <p>Enter the key and specify the source file you want to send in the request body.</p> <p>Map the file you want to upload from the previous module (such as [!UICONTROL HTTP] >[!UICONTROL Get a File] or [!UICONTROL Google Drive] >[!UICONTROL Download a File)], or enter the file name and file data manually.</p> </li> 
       </ul> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Parse response</p> </td> 
-   <td> <p>Enable this option to automatically parse responses and convert JSON and XML responses so you don't need to use JSON &gt; Parse JSON or XML &gt; Parse XML modules.</p> <p>Before you can use parsed JSON or XML content, run the module once manually so that the module can recognize the response content and allow you to map it in subsequent modules.</p> </td> 
+   <td> <p>Enable this option to automatically parse responses and convert JSON and XML responses so you don't need to use JSON > Parse JSON or XML > Parse XML modules.</p> <p>Before you can use parsed JSON or XML content, run the module once manually so that the module can recognize the response content and allow you to map it in subsequent modules.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Timeout </td> 
@@ -359,7 +359,7 @@ If you see the map button above a field or function, you can use it to set varia
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Disable serialization of multiple same query string keys as arrays</p> </td> 
-   <td> <p>By default, Workfront Fusion handles multiple values for the same URL query string parameter key as arrays. For example, <code>www.test.com?foo=bar&amp;foo=baz</code> will be converted to <code>www.test.com?foo[0]=bar&amp;foo[1]=baz</code>. Activate this option to disable this feature. </p> </td> 
+   <td> <p>By default, [!DNL Workfront Fusion] handles multiple values for the same URL query string parameter key as arrays. For example, <code>www.test.com?foo=bar&amp;foo=baz</code> will be converted to <code>www.test.com?foo[0]=bar&amp;foo[1]=baz</code>. Activate this option to disable this feature. </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Request compressed content</td> 

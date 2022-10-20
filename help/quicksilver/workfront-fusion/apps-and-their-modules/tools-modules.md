@@ -4,14 +4,14 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: apps-and-their-modules
 title: Tools
-description: The Adobe Workfront Fusion Tools section includes several useful modules that can enhance your scenario.
+description: The [!DNL Adobe Workfront Fusion Tools] section includes several useful modules that can enhance your scenario.
 author: Becky
 feature: Workfront Fusion
 exl-id: 97a68fbc-1272-43fc-b4f2-4c1c9e590741
 ---
 # Tools
 
-The Adobe Workfront Fusion Tools section includes several useful modules that can enhance your scenario.
+The [!DNL Adobe Workfront Fusion Tools] section includes several useful modules that can enhance your scenario.
 
 Tools modules are available from the list of apps, or from the Tools icon ![](assets/tools-icon-small.png) at the bottom of the screen.
 
@@ -37,20 +37,20 @@ You must have the following access to use the functionality in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
+   <td>Your organization must purchase [!DNL Adobe Workfront Fusion] as well as [!DNL Adobe Workfront] to use functionality described in this article.</td> 
   </tr>
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+&#42;To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
 
 &#42;&#42;For information on Adobe Workfront Fusion licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
 ## Tools and their fields
 
-* [Triggers](#triggers) 
-* [Actions](#actions) 
-* [Aggregators](#aggregators) 
+* [Triggers](#triggers)
+* [Actions](#actions)
+* [Aggregators](#aggregators)
 * [Transformers](#transformers)
 
 ### Triggers {#triggers}
@@ -59,7 +59,7 @@ You must have the following access to use the functionality in this article:
 
 This module allows you to create a custom trigger and define its input bundles.
 
-You can use this module, for example, for contacts or any other list that is scheduled to be sent to a specified email address (such as Email > Send an Email, or Gmail > Send an Email modules), or as a simple reminder to be triggered whenever you want.
+You can use this module, for example, for contacts or any other list that is scheduled to be sent to a specified email address (such as [!UICONTROL Email] >[!UICONTROL Send an Email], or [!UICONTROL Gmail] >[!UICONTROL Send an Email] modules), or as a simple reminder to be triggered whenever you want.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -74,16 +74,16 @@ You can use this module, for example, for contacts or any other list that is sch
 
 ### Actions {#actions}
 
-* [Get Multiple Variables](#get-multiple-variables) 
-* [Get Variable](#get-variable) 
-* [Increment function](#increment-function) 
-* [Set Multiple Variables](#set-multiple-variables) [Set Variable](#set-variable) 
-* [Set Variable](#set-variable) 
+* [Get Multiple Variables](#get-multiple-variables)
+* [Get Variable](#get-variable)
+* [Increment function](#increment-function)
+* [Set Multiple Variables](#set-multiple-variables) [Set Variable](#set-variable)
+* [Set Variable](#set-variable)
 * [Sleep](#sleep)
 
 #### Get Multiple Variables {#get-multiple-variables}
 
-This module retrieves values that were previously created by the Set Variable or Set Multiple Variables module.
+This module retrieves values that were previously created by the [!UICONTROL Set Variable] or [!UICONTROL Set Multiple Variables] module.
 
 This module can read variables that were set anywhere in the scenario, even if the variable was set in a different route than where the Get Multiple Variables module is located. The only requirement is that the Tools >Set Variable or Tools > Set Multiple Variable module is executed before the Tools > Get Variable module. For more information on the order in which modules are executed, see [Router module in Adobe Workfront Fusion](../../workfront-fusion/modules/router-module.md).
 
@@ -105,9 +105,10 @@ This module can read variables that were set anywhere in the scenario, even if t
 >* To store a calculated value for later use, even in a different route. This is useful in cases when the value is used in multiple modules and the formula to calculate the value is overly complex.
 >* To debug a formula. If a formula used in a module does not seemingly provide a correct result, copy the formula and paste it into a Set Variable module that you insert before the relevant module. Disconnect the module(s) after the Set Variable module and execute the scenario. Verify the Set Variable module's output, adjust or simplify the formula, execute the scenario again, and continue to do so until the issue has been resolved.
 
+
 #### Get Variable {#get-variable}
 
-This module retrieves a value that was previously created by the Set Variable or Set Multiple Variables module.
+This module retrieves a value that was previously created by the [!UICONTROL Set Variable] or [!UICONTROL Set Multiple Variables] module.
 
 This module can read variables that were set anywhere in the scenario, even if the variable was set in a different route than where the Get Multiple Variables module is located. The only requirement is that the Tools >Set Variable or Tools > Set Multiple Variable module is executed before the Tools > Get Variable module. For more information on the order in which modules are executed, see [Router module in Adobe Workfront Fusion](../../workfront-fusion/modules/router-module.md).
 
@@ -144,7 +145,7 @@ This module returns a value incremented by 1 after each module's operation.
 
 >[!INFO]
 >
->**Example:** 
+>**Example:**
 >
 >One of the module's uses is to implement a "round robin" assignment of tasks, leads, emails, and so on, to users in a group. The algorithm chooses the assignees from a group in some rational order, usually going from the top to the bottom of a list. When the algorithm reaches the end of the list, it would then give the next assignment to the user at the top of the list and continue to make assignments down the list.
 >
@@ -152,13 +153,13 @@ This module returns a value incremented by 1 after each module's operation.
 >
 >![](assets/example-email-350x246.gif)
 >
->1. To create this scenario: 
->1. Set the module's **Reset a value** field to Never.
+>1. To create this scenario:
+>1. Set the module's **[!UICONTROL Reset a value]** field to Never.
 >1. Set the route for odd values. Set the filter for this route using the modulus math function that equals `1`:
 >
 >   ![](assets/odd-350x459.png)
 >
->  **Note**: Do not forget to change the Equal to operator from the default Text operator to the Numeric operator.
+>  **Note**: Do not forget to change the [!UICONTROL Equal to] operator from the default Text operator to the Numeric operator.
 >
 >1. Set the route for even values using the modulus math function that equals `0`:
 >
@@ -166,7 +167,7 @@ This module returns a value incremented by 1 after each module's operation.
 
 #### Set Multiple Variables {#set-multiple-variables}
 
-This module creates variables that can be mapped by other modules in the route. The variable can also be mapped to the Get Variable or Get Multiple Variables modules for any route in the scenario.
+This module creates variables that can be mapped by other modules in the route. The variable can also be mapped to the [!UICONTROL Get Variable] or [!UICONTROL Get Multiple Variables] modules for any route in the scenario.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -197,7 +198,7 @@ This module creates variables that can be mapped by other modules in the route. 
 
 #### Set Variable {#set-variable}
 
-This module creates a variable that can be mapped by other modules in the route. The variable can also be mapped to the Get Variable or Get Multiple Variables modules for any route in the scenario.
+This module creates a variable that can be mapped by other modules in the route. The variable can also be mapped to the [!UICONTROL Get Variable] or [!UICONTROL Get Multiple Variables] modules for any route in the scenario.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -226,7 +227,7 @@ This module creates a variable that can be mapped by other modules in the route.
 
 This module allows you to delay the scenario flow for up to 300 seconds (5 minutes).
 
-This function can be useful, for example, if you want to lower the target service server load or to imitate human behavior when sending bulk SMS or emails.
+This function can be useful, for example, if you want to lower the [!DNL target] service server load or to imitate human behavior when sending bulk SMS or emails.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -243,7 +244,7 @@ This function can be useful, for example, if you want to lower the target servic
 >
 >If you want to pause the flow for longer periods of time, we suggest to split your scenario into two scenarios:
 >
->* The first scenario would contain the part before the pause
+>* The first scenario would contain the part before the [!UICONTROL pause]
 >* The second scenario would contain the part after it.
 >
 >The first scenario would end up with storing all the necessary information in a data store together with the current timestamp. The second scenario would periodically check the data store for records with a timestamp older than the intended delay, retrieve the records, finalize the processing of the data and remove the records from the data store.
@@ -254,8 +255,8 @@ This function can be useful, for example, if you want to lower the target servic
 
 ### Aggregators {#aggregators}
 
-* [Numeric aggregator](#numeric-aggregator) 
-* [Table aggregator](#table-aggregator) 
+* [Numeric aggregator](#numeric-aggregator)
+* [Table aggregator](#table-aggregator)
 * [Text aggregator](#text-aggregator)
 
 #### Numeric aggregator {#numeric-aggregator}
@@ -307,11 +308,11 @@ This module merges values from the selected fields of received bundles into a si
   </tr> 
   <tr> 
    <td> <p>Column separator</p> </td> 
-   <td> <p>Select or enter the type of separator that will separate the field value columns in the resulting bundle. If you select Other, enter the character you want to use to separate values into the separator field.</p> </td> 
+   <td> <p>Select or enter the type of separator that will separate the field value columns in the resulting bundle. If you select [!UICONTROL Other], enter the character you want to use to separate values into the separator field.</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Row separator</p> </td> 
-   <td> <p>Select or enter the type of separator that will separate the field value rows in the resulting bundle. If you select Other, enter the character you want to use to separate values into the separator field.</p> </td> 
+   <td> <p>Select or enter the type of separator that will separate the field value rows in the resulting bundle. If you select [!UICONTROL Other], enter the character you want to use to separate values into the separator field.</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Group by</p> </td> 
@@ -338,7 +339,7 @@ This module merges values from the selected fields of received bundles into a si
   </tr> 
   <tr> 
    <td> <p>Row separator</p> </td> 
-   <td> <p>Select or enter the type of separator that will separate the field value rows in the resulting bundle. If you select Other, enter the character you want to use to separate values into the separator field.</p> </td> 
+   <td> <p>Select or enter the type of separator that will separate the field value rows in the resulting bundle. If you select [!UICONTROL Other], enter the character you want to use to separate values into the separator field.</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Group by</p> </td> 
@@ -361,8 +362,8 @@ This module merges values from the selected fields of received bundles into a si
 
 ### Transformers {#transformers}
 
-* [Compose a string](#compose-a-string) 
-* [Convert the encoding of the text](#convert-the-encoding-of-the-text) 
+* [Compose a string](#compose-a-string)
+* [Convert the encoding of the text](#convert-the-encoding-of-the-text)
 * [Switch](#switch)
 
 #### Compose a string {#compose-a-string}
@@ -430,10 +431,10 @@ Checks the input value for a match with the provided list of values. Returns out
   </tr> 
   <tr> 
    <td>Cases </td> 
-   <td> <p>If the input contains a value entered to the Pattern field, then the value entered to the Output field is returned.</p> <p>If the input does not match any of the values that you have set in a Pattern field, then one of the following occurs:</p> 
+   <td> <p>If the input contains a value entered to the Pattern field, then the value entered to the Output field is returned.</p> <p>If the input does not match any of the values that you have set in a [!UICONTROL Pattern] field, then one of the following occurs:</p> 
     <ul> 
-     <li>The value from the Else field is returned</li> 
-     <li>If there is no value in the Else field, no output is returned.</li> 
+     <li>The value from the [!UICONTROL Else] field is returned</li> 
+     <li>If there is no value in the [!UICONTROL Else] field, no output is returned.</li> 
     </ul> </td> 
   </tr> 
   <tr> 

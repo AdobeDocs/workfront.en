@@ -5,13 +5,13 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: apps-and-their-modules
 title: Adobe Target modules
-description: In an Adobe Workfront Fusion scenario, you can automate workflows that use Adobe Target, as well as connect it to multiple third-party applications and services. Adobe Target modules allow you to create, read, update, or delete records, list all records of a given type, search records based on criteria you specify, or perform a custom API call to the Adobe Target API.
+description: In an [!DNL Adobe Workfront] Fusion scenario, you can automate workflows that use [!DNL Adobe Target], as well as connect it to multiple third-party applications and services. [!DNL Adobe Target] modules allow you to create, read, update, or delete records, list all records of a given type, search records based on criteria you specify, or perform a custom API call to the [!DNL Adobe Target] API.
 author: Becky
 exl-id: 9597806b-d4bf-4627-b27d-30e24a1e6776
 ---
 # Adobe Target Modules
 
-In an Adobe Workfront Fusion scenario, you can automate workflows that use Adobe Target, as well as connect it to multiple third-party applications and services. Adobe Target modules allow you to ,reate, read, update, or delete records,list all records of a given type, search records based on criteria you specify, or perform a custom API call to the Adobe Target API.
+In an [!DNL Adobe Workfront] Fusion scenario, you can automate workflows that use [!DNL Adobe Target], as well as connect it to multiple third-party applications and services. [!DNL Adobe Target] modules allow you to ,reate, read, update, or delete records,list all records of a given type, search records based on criteria you specify, or perform a custom API call to the [!DNL Adobe Target] API.
 
 
 If you need instructions on creating a scenario, see [Create a scenario](../../workfront-fusion/scenarios/create-a-scenario.md).
@@ -46,32 +46,32 @@ You must have the following access to use the functionality in this article:
     </tr>
     <tr>
       <td role="rowheader">Product</td>
-      <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td>
+      <td>Your organization must purchase [!DNL Adobe Workfront Fusion] as well as [!DNL Adobe Workfront] to use functionality described in this article.</td>
     </tr>
     </tr>
   </tbody>
 </table>
 
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+&#42;To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
 
 &#42;&#42;For information on Adobe Workfront Fusion licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
 ## Prerequisites
 
-Before you can use the Adobe Target connector, you must ensure that the following prerequisites are met:
+Before you can use the [!DNL Adobe Target] connector, you must ensure that the following prerequisites are met:
 
-*   You must have an active Adobe Target account.
+* You must have an active [!DNL Adobe] Target account.
 
 ## Create a connection to Adobe Target
 
-To create a connection for your Adobe Target modules:
+To create a connection for your [!DNL Adobe Target] modules:
 
-1.  Click Add next to the Connection box.
-    
-1.  Fill in the following fields:
-    
-    <table style="table-layout:auto"> 
+1. Click Add next to the Connection box.
+
+1. Fill in the following fields:
+
+   <table style="table-layout:auto"> 
     <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column1">
     </col>
     <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column2">
@@ -102,8 +102,8 @@ To create a connection for your Adobe Target modules:
       <tr>
         <td role="rowheader">Tenant</td>
         <td>
-          <p> To locate your Tenant, log in to the Adobe Experience Cloud, open Target, and click the Target card. Use the Tenant ID value as noted in the URL subdomain.</p>
-          <p>For example, if your URL when logged in to Adobe Target is <code>&lt;https://mycompany.experiencecloud.adobe.com/...&gt;</code> then your Tenant ID is "mycompany."</p>
+          <p> To locate your Tenant, log in to the [!DNL Adobe Experience Cloud], open [!DNL Target], and click the [!DNL Target] card. Use the Tenant ID value as noted in the URL subdomain.</p>
+          <p>For example, if your URL when logged in to [!DNL Adobe Target] is <code>&lt;https://mycompany.experiencecloud.adobe.com/...></code> then your Tenant ID is "mycompany."</p>
         </td>
       </tr>
       <tr>
@@ -129,41 +129,41 @@ To create a connection for your Adobe Target modules:
               <p>Enter the password for the file.</p>
             </li>
             <li value="5">
-              <p>Click <b>Save</b> to extract the file and return to the connection setup.</p>
+              <p>Click <b>[!UICONTROL Save]</b> to extract the file and return to the connection setup.</p>
             </li>
           </ol>
         </td>
       </tr>
     </tbody>
     </table>
-    
-1.  Click **Continue** to save the connection and return to the module.
-    
+
+1. Click **[!UICONTROL Continue]** to save the connection and return to the module.
+
 ## Adobe Target modules and their fields
 
-When you configure Adobe Target modules, Workfront Fusion displays the fields listed below. Along with these, additional Adobe Target fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
+When you configure Adobe Target modules, [!DNL Workfront Fusion] displays the fields listed below. Along with these, additional [!DNL Adobe] Target fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
 
 If you see the map button above a field or function, you can use it to set variables and functions for that field. For more information, see [Map information from one module to another in Adobe Workfront Fusion](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 ![](assets/map-toggle-350x74.png)
 
-*   [Actions](#Actions)
-    
-*   [Searches](#Searches)
-    
+* [Actions](#Actions)
+
+* [Searches](#Searches)
+
 
 ### Actions
 
-*   [Create a record](#Create2)
-    
-*   [Make a custom API call](#Make)
-    
-*   [Delete a record](#Delete)
-    
-*   [Read a record](#Read)
-    
-*   [Update a record](#Update)
-    
+* [Create a record](#Create2)
+
+* [Make a custom API call](#Make)
+
+* [Delete a record](#Delete)
+
+* [[!UICONTROL Read a record]](#Read)
+
+* [Update a record](#Update)
+
 
 #### Create a record
 
@@ -183,8 +183,8 @@ This action module creates an AB or XT activity, an offer, or an audience.
       <p>Select the type of record that you want to create.</p>
       <ul>
         <li>
-          <p>AB&#160;Activity</p>
-          <p>Continue to <a href="#AB%C2%A0Activ" class="MCXref xref" >AB&#160;Activity fields</a>.</p>
+          <p>AB Activity</p>
+          <p>Continue to <a href="#AB%C2%A0Activ" class="MCXref xref" >AB Activity fields</a>.</p>
         </li>
         <li>
           <p>XT Activity</p>
@@ -217,7 +217,7 @@ This action module creates an AB or XT activity, an offer, or an audience.
     <tr>
       <td role="rowheader">Options</td>
       <td>
-        <p>For each option that you want to add to the activity, click <b>Add item</b> and fill in the following fields:</p>
+        <p>For each option that you want to add to the activity, click <b>[!UICONTROL Add item]</b> and fill in the following fields:</p>
         <ul>
           <li>
             <p><b>Option local ID</b>
@@ -242,11 +242,11 @@ This action module creates an AB or XT activity, an offer, or an audience.
     <tr>
       <td role="rowheader">Locations</td>
       <td>
-        <p>For each Mbox that you want to add to the activity, click <b>Add item</b> and fill in the following fields:</p>
+        <p>For each Mbox that you want to add to the activity, click <b>[!UICONTROL Add item]</b> and fill in the following fields:</p>
         <ul>
           <li>
             <p>Audience IDs</p>
-            <p>Fir each audience that you want to add to the Mbox, click <b>Add item</b> and select the Audience ID.</p>
+            <p>Fir each audience that you want to add to the Mbox, click <b>[!UICONTROL Add item]</b> and select the Audience ID.</p>
           </li>
           <li>
             <p><b>Location local ID</b>
@@ -270,7 +270,7 @@ This action module creates an AB or XT activity, an offer, or an audience.
           <li>
             <p><b>Experience local ID</b>
             </p>
-            <p>Enter or map the ID&#160;of the experience</p>
+            <p>Enter or map the ID of the experience</p>
           </li>
           <li>
             <p><b>Name</b>
@@ -280,9 +280,9 @@ This action module creates an AB or XT activity, an offer, or an audience.
 </p>
           </li>
           <li>
-            <p><b>Audience IDs</b>
+            <p><b>[!DNL Audience IDs]</b>
             </p>
-            <p>For each audience that you want to see the experience, click <b>Add item</b> and enter the Audience ID.
+            <p>For each audience that you want to see the experience, click <b>[!UICONTROL Add item]</b> and enter the Audience ID.
 
 </p>
           </li>
@@ -296,11 +296,11 @@ This action module creates an AB or XT activity, an offer, or an audience.
     </tr>
     <tr>
       <td role="rowheader">Metrics</td>
-      <td>&#160;</td>
+      <td> </td>
     </tr>
     <tr>
       <td role="rowheader">Third Party ID</td>
-      <td>Enter or map an ID to identify this activity. You can choose this ID. This ID&#160;must not be the same as another activity, and can be no more than 250 characters.</td>
+      <td>Enter or map an ID to identify this activity. You can choose this ID. This ID must not be the same as another activity, and can be no more than 250 characters.</td>
     </tr>
     <tr>
       <td role="rowheader">Starts at</td>
@@ -350,12 +350,12 @@ This action module creates an AB or XT activity, an offer, or an audience.
     </tr>
     <tr>
       <td role="rowheader">Property IDs </td>
-      <td>For each property that you want to add to the activity, click <b>Add item</b> and select or map the property's ID.</td>
+      <td>For each property that you want to add to the activity, click <b>[!UICONTROL Add item]</b> and select or map the property's ID.</td>
     </tr>
     <tr>
       <td class="TableStyle-TableStyle-List-options-in-steps-BodyB-Column1-MediumGray" role="rowheader">Reporting audiences</td>
       <td class="TableStyle-TableStyle-List-options-in-steps-BodyA-Column2-MediumGray">
-        <p>For each reporting audience that you want to add to the activity, click Add item and enter the following information:</p>
+        <p>For each reporting audience that you want to add to the activity, click [!UICONTROL Add item] and enter the following information:</p>
         <ul>
           <li>
             <p><b>Reporting Audience local ID</b>
@@ -391,7 +391,7 @@ This action module creates an AB or XT activity, an offer, or an audience.
     <tr>
       <td role="rowheader">Options</td>
       <td>
-        <p>For each option that you want to add to the activity, click <b>Add item</b> and fill in the following fields:</p>
+        <p>For each option that you want to add to the activity, click <b>[!UICONTROL Add item]</b> and fill in the following fields:</p>
         <ul>
           <li>
             <p><b>Option local ID</b>
@@ -416,11 +416,11 @@ This action module creates an AB or XT activity, an offer, or an audience.
     <tr>
       <td role="rowheader">Locations</td>
       <td>
-        <p>For each Mbox that you want to add to the activity, click <b>Add item</b> and fill in the following fields:</p>
+        <p>For each Mbox that you want to add to the activity, click <b>[!UICONTROL Add item]</b> and fill in the following fields:</p>
         <ul>
           <li>
             <p>Audience IDs</p>
-            <p>Fir each audience that you want to add to the Mbox, click <b>Add item</b> and select the Audience ID.</p>
+            <p>Fir each audience that you want to add to the Mbox, click <b>[!UICONTROL Add item]</b> and select the Audience ID.</p>
           </li>
           <li>
             <p><b>Location local ID</b>
@@ -444,7 +444,7 @@ This action module creates an AB or XT activity, an offer, or an audience.
           <li>
             <p><b>Experience local ID</b>
             </p>
-            <p>Enter or map the ID&#160;of the experience</p>
+            <p>Enter or map the ID of the experience</p>
           </li>
           <li>
             <p><b>Name</b>
@@ -454,9 +454,9 @@ This action module creates an AB or XT activity, an offer, or an audience.
 </p>
           </li>
           <li>
-            <p><b>Audience IDs</b>
+            <p><b>[!DNL Audience IDs]</b>
             </p>
-            <p>For each audience that you want to see the experience, click <b>Add item</b> and enter the Audience ID.
+            <p>For each audience that you want to see the experience, click <b>[!UICONTROL Add item]</b> and enter the Audience ID.
 
 </p>
           </li>
@@ -470,11 +470,11 @@ This action module creates an AB or XT activity, an offer, or an audience.
     </tr>
     <tr>
       <td role="rowheader">Metrics</td>
-      <td>&#160;</td>
+      <td> </td>
     </tr>
     <tr>
       <td role="rowheader">Third Party ID</td>
-      <td>Enter or map an ID to identify this activity. You can choose this ID. This ID&#160;must not be the same as another activity, and can be no more than 250 characters.</td>
+      <td>Enter or map an ID to identify this activity. You can choose this ID. This ID must not be the same as another activity, and can be no more than 250 characters.</td>
     </tr>
     <tr>
       <td role="rowheader">Starts at</td>
@@ -524,12 +524,12 @@ This action module creates an AB or XT activity, an offer, or an audience.
     </tr>
     <tr>
       <td role="rowheader">Property IDs </td>
-      <td>For each property that you want to add to the activity, click <b>Add item</b> and select or map the property's ID.</td>
+      <td>For each property that you want to add to the activity, click <b>[!UICONTROL Add item]</b> and select or map the property's ID.</td>
     </tr>
     <tr>
       <td class="TableStyle-TableStyle-List-options-in-steps-BodyB-Column1-MediumGray" role="rowheader">Reporting audiences</td>
       <td class="TableStyle-TableStyle-List-options-in-steps-BodyA-Column2-MediumGray">
-        <p>For each reporting audience that you want to add to the activity, click Add item and enter the following information:</p>
+        <p>For each reporting audience that you want to add to the activity, click [!UICONTROL Add item] and enter the following information:</p>
         <ul>
           <li>
             <p><b>Reporting Audience local ID</b>
@@ -571,7 +571,7 @@ This action module creates an AB or XT activity, an offer, or an audience.
     <tr>
       <td role="rowheader">Workspace</td>
       <td>
-        <p>Enter or map the ID of the workspace associated with the offer. If left blank, the offer is associated with the default workspace of the account. This functionality applies only to Target Premium accounts.</p>
+        <p>Enter or map the ID of the workspace associated with the offer. If left blank, the offer is associated with the default workspace of the account. This functionality applies only to [!DNL Target] Premium accounts.</p>
       </td>
     </tr>
   </tbody>
@@ -597,38 +597,38 @@ This action module creates an AB or XT activity, an offer, or an audience.
       <td role="rowheader">Target Rule</td>
       <td>
         <p>Enable the toggle to make rules AND, that is, all rules must be applied.</p>
-        <p>For each rule that you want to apply to the audience, click <b>Add item</b> and enter the JSON of the rule you want to apply. </p>
+        <p>For each rule that you want to apply to the audience, click <b>[!UICONTROL Add item]</b> and enter the JSON of the rule you want to apply. </p>
         <div class="example"><span class="autonumber"><span><b>Example: </b></span></span>
           <p>Examples:</p>
-          <p ><code>{</code></p>
-                    <p ><code>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;"page": "url",</code>
+          <p ><code>&lbrace;</code></p>
+                    <p ><code>                "page": "url",</code>
                     </p>
-                    <p><code>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;"equals":[</code>
+                    <p><code>                "equals":&lbrack;</code>
                     </p>
-                    <p ><code>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;"http://www.myhomepage.com/"</code>
+                    <p ><code>                    "http://www.myhomepage.com/"</code>
                     </p>
-                    <p><code>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;]</code>
+                    <p><code>                &rbrack;</code>
                     </p>
-                    <p ><code>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;},</code>
+                    <p ><code>            &rbrace;,</code>
                     </p>
-                    <p ><code>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;{</code>
+                    <p ><code>            &lbrace;</code>
                     </p>
-                    <p><code>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;"geo": "region",</code>
+                    <p><code>                "geo": "region",</code>
                     </p>
-                    <p><code>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;"matches": [</code>
+                    <p><code>                "matches": &lbrack;</code>
                     </p>
-                    <p ><code>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;"california"</code>
+                    <p ><code>                    "california"</code>
                     </p>
-                    <p ><code>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;]</code>
+                    <p ><code>                &rbrack;</code>
                     </p>
-                    <p ><code>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;}</code>
+                    <p ><code>            &rbrace;</code>
                     </p>
       </td>
     </tr>
     <tr>
       <td class="TableStyle-TableStyle-List-options-in-steps-BodyB-Column1-MediumGray" role="rowheader">Workspace</td>
       <td class="TableStyle-TableStyle-List-options-in-steps-BodyA-Column2-MediumGray">
-        <p>Enter or map the ID of the workspace associated with the audience. If left blank, the offer is associated with the default workspace of the account. This functionality applies only to Target Premium accounts.</p>
+        <p>Enter or map the ID of the workspace associated with the audience. If left blank, the offer is associated with the default workspace of the account. This functionality applies only to [!DNL Target Premium] accounts.</p>
       </td>
     </tr>
   </tbody>
@@ -669,7 +669,7 @@ This module makes a custom API call to the Adobe Target API
     <tr>
       <td role="rowheader">Headers</td>
       <td>
-        <p>Add the headers of the request in the form of a standard JSON object.</p>
+        <p>Add the headers of the request in the form of a standard [!DNL JSON] object.</p>
         <p>For example, <code>{"Content-type":"application/json"}</code></p>
         <p>Workfront Fusion adds authorization headers and x-api-key headers automatically.</p>
       </td>
@@ -682,7 +682,7 @@ This module makes a custom API call to the Adobe Target API
     </tr>
     <tr>
       <td role="rowheader">Body</td>
-   <td> <p>Add the body content for the API call in the form of a standard JSON object.</p> <p>Note:  <p>When using conditional statements such as <code>if</code> in your JSON, put the quotation marks outside of the conditional statement.</p> 
+   <td> <p>Add the body content for the API call in the form of a standard [!DNL JSON] object.</p> <p>Note:  <p>When using conditional statements such as <code>if</code> in your JSON, put the quotation marks outside of the conditional statement.</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td>     </tr>
@@ -707,7 +707,7 @@ This action module deletes a single AB activity, XT activity, Offer, or Audienc
   </tr>
   <tr>
     <td role="rowheader">Record ID</td>
-    <td>Enter or map the ID&#160;of the record you want to delete.</td>
+    <td>Enter or map the ID of the record you want to delete.</td>
   </tr>
 </tbody>
 </table>
@@ -730,7 +730,7 @@ This action module retrieves data for a single Activity, Offer, Audience, Proper
   </tr>
   <tr>
     <td role="rowheader">Record ID</td>
-    <td>Enter or map the ID&#160;of the record you want to read.</td>
+    <td>Enter or map the ID of the record you want to read.</td>
   </tr>
 </tbody>
 </table>
@@ -755,10 +755,10 @@ This action module updates an Activity, Offer, or Audience.
           <li>
             <p><b>AB Activity</b>
             </p>
-            <p>See field descriptions in <a href="#AB%C2%A0Activ" class="MCXref xref" >AB&#160;Activity fields</a> under <a href="#Create2" class="MCXref xref" >Create a record</a>.</p>
+            <p>See field descriptions in <a href="#AB%C2%A0Activ" class="MCXref xref" >AB Activity fields</a> under <a href="#Create2" class="MCXref xref" >Create a record</a>.</p>
           </li>
           <li>
-            <p><b>XT&#160;Activity</b>
+            <p><b>XT Activity</b>
             </p>
             <p>See field descriptions in <a href="#XT" class="MCXref xref" >XT Activity fields</a> under <a href="#Create2" class="MCXref xref" >Create a record</a>.</p>
           </li>
@@ -773,7 +773,7 @@ This action module updates an Activity, Offer, or Audience.
             <p>See field descriptions in <a href="#Offer" class="MCXref xref" >Offer fields</a> under <a href="#Create2" class="MCXref xref" >Create a record</a>.</p>
           </li>
           <li>
-            <p><b>Audience</b>
+            <p><b>[!DNL Audience]</b>
             </p>
             <p>See field descriptions in <a href="#Audience" class="MCXref xref" >Audience fields</a> under <a href="#Create2" class="MCXref xref" >Create a record</a>.</p>
           </li>
@@ -782,17 +782,17 @@ This action module updates an Activity, Offer, or Audience.
     </tr>
     <tr>
       <td role="rowheader">Record ID</td>
-      <td>Enter or map the ID&#160;of the record you want to update.</td>
+      <td>Enter or map the ID of the record you want to update.</td>
     </tr>
   </tbody>
 </table>
 
 ### Searches
 
-*   [Get records](#Get)
-    
-*   [Search](#Search)
-    
+* [Get records](#Get)
+
+* [Search](#Search)
+
 
 #### Get records
 
@@ -812,7 +812,7 @@ This search module retrieves a list of records of the selected type.
     </tr>
     <tr>
       <td role="rowheader">Sort by</td>
-      <td>For each field that you want to sort by, click <b>Add item</b> and select the field and whether the returned results should be ascending or descending.</td>
+      <td>For each field that you want to sort by, click <b>[!UICONTROL Add item]</b> and select the field and whether the returned results should be ascending or descending.</td>
     </tr>
     <tr>
       <td role="rowheader">Starts At</td>
@@ -849,24 +849,24 @@ This search module searches for Activities, Offers, or Audiences based on criter
   </tr>
   <tr>
     <td role="rowheader">Sort by</td>
-    <td>For each field that you want to sort by, click <b>Add item</b> and select the field and whether the returned results should be ascending or descending.</td>
+    <td>For each field that you want to sort by, click <b>[!UICONTROL Add item]</b> and select the field and whether the returned results should be ascending or descending.</td>
   </tr>
   <tr>
     <td role="rowheader">Search criteria</td>
-    <td>For each rule you want to set up, select the field, the operator, and the value. Click the <b>Add AND&#160;rule</b> to create additional rules.</td>
+    <td>For each rule you want to set up, select the field, the operator, and the value. Click the <b>Add AND rule</b> to create additional rules.</td>
   </tr>
   <tr>
     <td role="rowheader">Offset</td>
     <td>
-      <p>Enter the number of the first response that you want the module to return. The first returned response has an offset of <code>0</code>. Use this field in combination with the Maximum number of returned results field to paginate the responses.</p>
-      <p>For example, to see the third page of responses, when each page has ten responses, set Offset to 20 and Maximum number of returned results to 10.</p>
+      <p>Enter the number of the first response that you want the module to return. The first returned response has an offset of <code>0</code>. Use this field in combination with the [!UICONTROL Maximum number of returned results] field to paginate the responses.</p>
+      <p>For example, to see the third page of responses, when each page has ten responses, set Offset to 20 and [!UICONTROL Maximum number of returned] results to 10.</p>
     </td>
   </tr>
   <tr>
     <td class="TableStyle-TableStyle-List-options-in-steps-BodyB-Column1-MediumGray" role="rowheader">Maximum number of returned results</td>
     <td class="TableStyle-TableStyle-List-options-in-steps-BodyA-Column2-MediumGray">
       <p>Enter or map the maximum number of records you want the module to return during each scenario execution cycle. Use this field in combination with the Offset field to paginate the responses.</p>
-      <p>For example, to see the third page of responses, when each page has ten responses, set Offset to 20 and Maximum number of returned results to 10.</p>
+      <p>For example, to see the third page of responses, when each page has ten responses, set Offset to 20 and [!UICONTROL Maximum number of returned] results to 10.</p>
     </td>
   </tr>
 </tbody>

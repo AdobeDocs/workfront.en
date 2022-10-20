@@ -2,13 +2,13 @@
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: mapping
-title: Map an array in Adobe Workfront Fusion
+title: Map an array in [!DNL Adobe] Workfront Fusion
 description: You can map an array to a module field in Adobe Workfront Fusion.
 author: Becky
 feature: Workfront Fusion
 exl-id: 725e0c24-cb4b-46c4-9c00-4f9cc334fbc7
 ---
-# Map an array in Adobe Workfront Fusion
+# Map an array in [!DNL Adobe] Workfront Fusion
 
 An array is a special type of item that can contain the following:
 
@@ -17,7 +17,7 @@ An array is a special type of item that can contain the following:
 
 >[!INFO]
 >
->**Example:** The Watch emails module returns an array of attachments for every email. Every attachment represents a collection that may contain a name, content, size, and so on.
+>**Example:** The [!UICONTROL Watch emails] module returns an array of attachments for every email. Every attachment represents a collection that may contain a name, content, size, and so on.
 
 For more information, see [Item data types in Adobe Workfront Fusion](../../workfront-fusion/mapping/item-data-types.md).
 
@@ -43,24 +43,24 @@ You must have the following access to use the functionality in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
+   <td>Your organization must purchase [!DNL Adobe Workfront Fusion] as well as [!DNL Adobe Workfront] to use functionality described in this article.</td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+&#42;To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
 
 &#42;&#42;For information on Adobe Workfront Fusion licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
 ## Map an array
 
-1. Click the button located in the target field. 
+1. Click the button located in the [!UICONTROL target] field.
 
-    >[!INFO]  
-    >
-    >  **Example:** For the example above, you would click the Add an attachment button for an email.
-    >
-    >![](assets/add-an-attachment-button-350x152.jpg)
+   >[!INFO]
+   >
+   >  **Example:** For the example above, you would click the [!UICONTROL Add an attachment] button for an email.
+   >
+   >![](assets/add-an-attachment-button-350x152.jpg)
 
 1. In the box that displays, enter the item.
 

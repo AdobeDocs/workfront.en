@@ -5,14 +5,14 @@ product-area: workfront-integrations
 keywords: connector
 navigation-topic: apps-and-their-modules
 title: Gmail modules
-description: In an Adobe Workfront Fusion scenario, you can automate workflows that use Gmail, as well as connect it to multiple third-party applications and services.
+description: In an [!DNL Adobe Workfront] Fusion scenario, you can automate workflows that use Gmail, as well as connect it to multiple third-party applications and services.
 author: Becky
 feature: Workfront Fusion
 exl-id: 1987156c-e003-4f99-8913-cb47f77efbfc
 ---
 # Gmail modules
 
-In an Adobe Workfront Fusion scenario, you can automate workflows that use Gmail, as well as connect it to multiple third-party applications and services.
+In an [!DNL Adobe Workfront] Fusion scenario, you can automate workflows that use Gmail, as well as connect it to multiple third-party applications and services.
 
 If you need instructions on creating a scenario, see [Create a scenario in Adobe Workfront Fusion](../../workfront-fusion/scenarios/create-a-scenario.md). For information about modules, see [Modules in Adobe Workfront Fusion](../../workfront-fusion/modules/modules.md).
 
@@ -38,12 +38,12 @@ You must have the following access to use the functionality in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
+   <td>Your organization must purchase [!DNL Adobe Workfront Fusion] as well as [!DNL Adobe Workfront] to use functionality described in this article.</td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+&#42;To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
 
 &#42;&#42;For information on Adobe Workfront Fusion licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
@@ -51,16 +51,16 @@ You must have the following access to use the functionality in this article:
 
 To use Gmail modules, you must have a Gmail account.
 
-## Connect Gmail to Workfront Fusion {#connect-gmail-to-workfront-fusion}
+## Connect Gmail to [!DNL Workfront] Fusion {#connect-gmail-to-workfront-fusion}
 
-* [Connect Gmail to Workfront Fusion using G Suite](#connect-gmail-to-workfront-fusion-using-g-suite) 
-* [Connect Gmail to Workfront Fusion using gmail.com or googlemail.com](#connect-gmail-to-workfront-fusion-using-gmail-com-or-googlemail-com)
+* [Connect Gmail to [!DNL Workfront Fusion] using G Suite](#connect-gmail-to-workfront-fusion-using-g-suite)
+* [Connect Gmail to [!DNL Workfront Fusion] using gmail.com or [!DNL googlemail].com](#connect-gmail-to-workfront-fusion-using-gmail-com-or-googlemail-com)
 
-### Connect Gmail to Workfront Fusion using G Suite {#connect-gmail-to-workfront-fusion-using-g-suite}
+### Connect Gmail to [!DNL Workfront Fusion] using G Suite {#connect-gmail-to-workfront-fusion-using-g-suite}
 
 For instructions about connecting your G Suite account to Workfront Fusion, see [Connect the module's app or web service to Workfront Fusion](../../workfront-fusion/scenarios/create-a-scenario.md#connect) in the article [Create a scenario in Adobe Workfront Fusion](../../workfront-fusion/scenarios/create-a-scenario.md).
 
-### Connect Gmail to Workfront Fusion using gmail.com or googlemail.com {#connect-gmail-to-workfront-fusion-using-gmail-com-or-googlemail-com}
+### Connect Gmail to [!DNL Workfront Fusion] using gmail.com or [!DNL googlemail].com {#connect-gmail-to-workfront-fusion-using-gmail-com-or-googlemail-com}
 
 If you are @gmail.com or @googlemail.com user you must create an OAuth client on the [Google Cloud Platform](https://console.developers.google.com/projectselector2/apis/dashboard?supportedpurview=project) in order to obtain a Client ID and Client Secret.
 
@@ -68,14 +68,14 @@ For step-by-step instructions on how to create the OAuth client and obtain a Cli
 
 ## Gmail modules and their fields
 
-When you configure Gmail modules, Workfront Fusion displays the fields listed below. Along with these, additional Gmail fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
+When you configure Gmail modules, [!DNL Workfront Fusion] displays the fields listed below. Along with these, additional Gmail fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
 
 If you see the map button above a field or function, you can use it to set variables and functions for that field. For more information, see [Map information from one module to another in Adobe Workfront Fusion](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 ![](assets/map-toggle-350x74.png)
 
-* [Triggers](#triggers) 
-* [Actions](#actions) 
+* [Triggers](#triggers)
+* [Actions](#actions)
 * [Iterators](#iterators)
 
 ### Triggers {#triggers}
@@ -105,12 +105,12 @@ When you are configuring this module, the following fields display.
    <td> <p>Select the filter type you want to use to watch emails</p> 
     <ul> 
      <li> <p><strong>Simple filter</strong> </p> <p>Fill out the Criteria, Sender Email Address, Subject, and Search Phrase fields</p> </li> 
-     <li> <p> <strong>Gmail filter</strong> </p> <p>In the Query field, enter the query that you want to use to filter emails.</p> <p>For more information on Gmail filters, see <a href="https://support.google.com/mail/answer/7190">Search operators</a> in the Gmail documentation.</p> </li> 
+     <li> <p> <strong>Gmail filter</strong> </p> <p>In the [!UICONTROL Query] field, enter the query that you want to use to filter emails.</p> <p>For more information on Gmail filters, see <a href="https://support.google.com/mail/answer/7190">Search operators</a> in the Gmail documentation.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td>Criteria</td> 
-   <td>Select whether you want to watch all email, only read emails, or only unread emails.</td> 
+   <td>Select whether you want to watch [!UICONTROL all email], [!UICONTROL only read emails], or [!UICONTROL only unread] emails.</td> 
   </tr> 
   <tr> 
    <td>Sender email address</td> 
@@ -130,20 +130,20 @@ When you are configuring this module, the following fields display.
   </tr> 
   <tr> 
    <td>Maximum number of results</td> 
-   <td> <p> Set the maximum number of results that Workfront Fusion will work with during one cycle.</p> </td> 
+   <td> <p> Set the maximum number of results that [!DNL Workfront Fusion] will work with during one cycle.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ### Actions {#actions}
 
-* [Send an email](#send-an-email) 
-* [Create a draft](#create-a-draft) 
-* [Mark an email as read](#mark-an-email-as-read) 
-* [Mark an email as unread](#mark-an-email-as-unread) 
-* [Move an email](#move-an-email) 
-* [Copy an email](#copy-an-email) 
-* [Delete an email](#delete-an-email) 
+* [Send an email](#send-an-email)
+* [Create a draft](#create-a-draft)
+* [Mark an email as read](#mark-an-email-as-read)
+* [Mark an email as unread](#mark-an-email-as-unread)
+* [[!UICONTROL Move an email]](#move-an-email)
+* [Copy an email](#copy-an-email)
+* [Delete an email](#delete-an-email)
 * [Modify email labels](#modify-email-labels)
 
 #### Send an email {#send-an-email}
@@ -420,7 +420,7 @@ When you are configuring this module, the following fields display.
 
 >[!NOTE]
 >
->Label to add and Label to remove fields load only user-created labels.
+>Label to add and [!UICONTROL Label to remove] fields load only user-created labels.
 
 ### Iterators {#iterators}
 

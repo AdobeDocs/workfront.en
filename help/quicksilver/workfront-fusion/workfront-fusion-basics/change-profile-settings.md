@@ -2,15 +2,15 @@
 product-previous: workfront-fusion
 product-area: workfront-integrations;user-management
 navigation-topic: workfront-fusion-basics
-title: Change profile settings in Adobe Workfront Fusion
-description: You can change information in your Adobe Workfront Fusion account profile.
+title: Change profile settings in [!DNL Adobe Workfront] Fusion
+description: You can change information in your [!DNL Adobe Workfront] Fusion account profile.
 author: Becky
 feature: Workfront Fusion
 exl-id: 590c8549-0877-46f4-bf73-174b6b10638c
 ---
-# Change profile settings in Adobe Workfront Fusion
+# Change profile settings in [!DNL Adobe Workfront] Fusion
 
-You can change information in your Adobe Workfront Fusion account profile.
+You can change information in your [!DNL Adobe Workfront] Fusion account profile.
 
 ## Access requirements
 
@@ -34,12 +34,12 @@ You must have the following access to use the functionality in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
+   <td>Your organization must purchase [!DNL Adobe Workfront Fusion] as well as [!DNL Adobe Workfront] to use functionality described in this article.</td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+&#42;To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
 
 &#42;&#42;For information on Adobe Workfront Fusion licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
@@ -48,7 +48,7 @@ You must have the following access to use the functionality in this article:
 To change information in your account profile:
 
 1. Click your avatar at the bottom of the left panel, then click **Profile**.
-1. Click: **General Options**, then change any of the following options:&nbsp;
+1. Click: **[!UICONTROL General Options]**, then change any of the following options:&nbsp;
 
    <table style="table-layout:auto"> 
     <col> 
@@ -62,13 +62,13 @@ To change information in your account profile:
       <td role="rowheader">Time Zone Options</td> 
       <td> 
        <ul> 
-        <li><strong>Web</strong>: Change the time zone used for dates and times displayed on the Workfront Fusion website.</li> 
-        <li><strong>Scenarios</strong>: Change the time zone used for parsing and formatting dates and times during scenario runs (when you don't specify the time zone explicitly).&nbsp;You can choose a time zone for each setting.</li> 
+        <li><strong>Web</strong>: Change the time zone used for dates and times displayed on the [!DNL Workfront Fusion] website.</li> 
+        <li><strong>Scenarios</strong>: Change the time zone used for parsing and formatting dates and times during scenario runs (when you don't specify the time zone explicitly). You can choose a time zone for each setting.</li> 
        </ul> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">API</td> 
-      <td> <p>You can add an API token you want to use for calls between Workfront Fusion and another app or web service. This is an advanced feature.</p> </td> 
+      <td> <p>You can add an API token you want to use for calls between [!DNL Workfront Fusion] and another app or web service. This is an advanced feature.</p> </td> 
      </tr> 
     </tbody> 
    </table>

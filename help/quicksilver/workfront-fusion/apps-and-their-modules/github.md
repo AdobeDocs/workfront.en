@@ -5,14 +5,14 @@ product-area: workfront-integrations
 keywords: connector
 navigation-topic: apps-and-their-modules
 title: GitHub modules
-description: In an Adobe Workfront Fusion scenario, you can automate workflows that use GitHub, as well as connect it to multiple third-party applications and services.
+description: In an [!DNL Adobe Workfront] Fusion scenario, you can automate workflows that use GitHub, as well as connect it to multiple third-party applications and services.
 author: Becky
 feature: Workfront Fusion
 exl-id: 5e520aab-8307-4a52-96b6-13b284f9cb53
 ---
 # GitHub modules
 
-In an Adobe Workfront Fusion scenario, you can automate workflows that use GitHub, as well as connect it to multiple third-party applications and services.
+In an [!DNL Adobe Workfront] Fusion scenario, you can automate workflows that use GitHub, as well as connect it to multiple third-party applications and services.
 
 ## Access requirements
 
@@ -36,12 +36,12 @@ You must have the following access to use the functionality in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
+   <td>Your organization must purchase [!DNL Adobe Workfront Fusion] as well as [!DNL Adobe Workfront] to use functionality described in this article.</td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+&#42;To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
 
 &#42;&#42;For information on Adobe Workfront Fusion licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
@@ -55,21 +55,21 @@ For instructions about connecting your GitHub account to Workfront Fusion, see [
 
 ## GitHub modules and their fields.
 
-When you configure GitHub modules, Workfront Fusion displays the fields listed below. Along with these, additional GitHub fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
+When you configure [!DNL GitHub] modules, [!DNL Workfront Fusion] displays the fields listed below. Along with these, additional [!DNL GitHub] fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
 
 If you see the map button above a field or function, you can use it to set variables and functions for that field. For more information, see [Map information from one module to another in Adobe Workfront Fusion](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 ![](assets/map-toggle-350x74.png)
 
-* [Triggers](#triggers) 
+* [Triggers](#triggers)
 * [Actions](#actions)
 
 ### Triggers {#triggers}
 
-* [Watch Issues](#watch-issues) 
-* [Watch Repositories](#watch-repositories) 
-* [Watch Forks](#watch-forks) 
-* [Watch Comments](#watch-comments) 
+* [Watch Issues](#watch-issues)
+* [Watch Repositories](#watch-repositories)
+* [Watch Forks](#watch-forks)
+* [Watch Comments](#watch-comments)
 * [Watch Pull Requests](#watch-pull-requests)
 
 #### Watch Issues {#watch-issues}
@@ -94,7 +94,7 @@ This module triggers when a new issue is added or an existing issue is modified.
   </tr> 
   <tr> 
    <td role="rowheader">Maximum number of returned issues</td> 
-   <td>Set the maximum number of results that Workfront Fusion will work with during one cycle. </td> 
+   <td>Set the maximum number of results that [!DNL Workfront Fusion] will work with during one cycle. </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Watch</td> 
@@ -136,7 +136,7 @@ This module triggers when a repository is created or modified.
   </tr> 
   <tr> 
    <td role="rowheader">Maximum number of returned repositories</td> 
-   <td>Set the maximum number of results that Workfront Fusion will work with during one cycle. </td> 
+   <td>Set the maximum number of results that [!DNL Workfront Fusion] will work with during one cycle. </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Watch</td> 
@@ -163,7 +163,7 @@ This module triggers when a new fork is created.
   </tr> 
   <tr> 
    <td role="rowheader">Maximum number of returned forks</td> 
-   <td>Set the maximum number of results that Workfront Fusion will work with during one cycle. </td> 
+   <td>Set the maximum number of results that [!DNL Workfront Fusion] will work with during one cycle. </td> 
   </tr> 
  </tbody> 
 </table>
@@ -190,7 +190,7 @@ This module triggers when a new comment is added or an existing comment is modif
   </tr> 
   <tr> 
    <td role="rowheader">Maximum number of returned issues</td> 
-   <td>Set the maximum number of results that Workfront Fusion will work with during one cycle. </td> 
+   <td>Set the maximum number of results that [!DNL Workfront Fusion] will work with during one cycle. </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Watch</td> 
@@ -217,11 +217,11 @@ This module triggers when a new pull request is added or an existing pull reques
   </tr> 
   <tr> 
    <td role="rowheader">Maximum number of returned pull requests</td> 
-   <td>Set the maximum number of results that Workfront Fusion will work with during one cycle. </td> 
+   <td>Set the maximum number of results that [!DNL Workfront Fusion] will work with during one cycle. </td> 
   </tr> 
   <tr> 
    <td role="rowheader">State</td> 
-   <td>Select whether you want to watch only open pull requests, only closed ones, or all pull requests. </td> 
+   <td>Select whether you want to watch [!UICONTROL only open pull] requests, [!UICONTROL only closed ones], or all pull requests. </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Watch</td> 
@@ -232,15 +232,15 @@ This module triggers when a new pull request is added or an existing pull reques
 
 ### Actions {#actions}
 
-* [Search for an issue](#search-for-an-issue) 
-* [Create an issue](#create-an-issue) 
-* [Update an issue](#update-an-issue) 
-* [Get an issue](#get-an-issue) 
-* [Add assignees](#add-assignees) 
-* [Remove assignees](#remove-assignees) 
-* [Add labels to an issue](#add-labels-to-an-issue) 
-* [Remove a label from an issue](#remove-a-label-from-an-issue) 
-* [Create a comment](#create-a-comment) 
+* [[!UICONTROL Search for an issue]](#search-for-an-issue)
+* [Create an issue](#create-an-issue)
+* [Update an issue](#update-an-issue)
+* [Get an issue](#get-an-issue)
+* [Add assignees](#add-assignees)
+* [Remove assignees](#remove-assignees)
+* [Add labels to an issue](#add-labels-to-an-issue)
+* [Remove a label from an issue](#remove-a-label-from-an-issue)
+* [Create a comment](#create-a-comment)
 * [List comments](#list-comments)
 
 #### Search for an issue {#search-for-an-issue}
@@ -257,7 +257,7 @@ This module searches for issues that match your search criteria.
   </tr> 
   <tr> 
    <td role="rowheader">Maximum number of returned issues</td> 
-   <td>Set the maximum number of results that Workfront Fusion will work with during one cycle (the number of repetitions per scenario run). </td> 
+   <td>Set the maximum number of results that [!DNL Workfront Fusion] will work with during one cycle (the number of repetitions per scenario run). </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Sort by</td> 
@@ -271,7 +271,7 @@ This module searches for issues that match your search criteria.
   </tr> 
   <tr> 
    <td role="rowheader">Sort direction</td> 
-   <td> <p>Select ascending or descending. </p> <p>For dates, selecting <strong>descending</strong> will return the most recent date first. </p> <p>For number of comments, selecting <strong>descending</strong> will return the issue with the highest number of comments first.</p> </td> 
+   <td> <p>Select ascending or descending. </p> <p>For dates, selecting <strong>[!UICONTROL descending]</strong> will return the most recent date first. </p> <p>For [!UICONTROL number of comments], selecting <strong>[!UICONTROL descending]</strong> will return the issue with the highest number of comments first.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Query</td> 
@@ -550,7 +550,7 @@ This module lists all comments on the specified issue.
   </tr> 
   <tr> 
    <td role="rowheader">Maximum number of returned comments</td> 
-   <td>Set the maximum number of results that Workfront Fusion will work with during one cycle. </td> 
+   <td>Set the maximum number of results that [!DNL Workfront Fusion] will work with during one cycle. </td> 
   </tr> 
  </tbody> 
 </table>
@@ -567,10 +567,10 @@ This module lists all comments on the specified issue.
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">If a module does not receive any events, check the webhook settings in Github and make sure that:</p>
 -->
 
-  <!--
+<!--
   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You have set the correct type of event that the chosen module should receive</p>
   -->
 
-  <!--
+<!--
   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You have entered the correct Payload URL</p>
   -->

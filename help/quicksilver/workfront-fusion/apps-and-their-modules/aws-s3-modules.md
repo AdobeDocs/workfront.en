@@ -5,14 +5,14 @@ product-area: workfront-integrations
 keywords: connector
 navigation-topic: apps-and-their-modules
 title: AWS S3 modules
-description: The Adobe Workfront Fusion AWS S3 modules let you perform operations on your S3 buckets.
+description: The [!DNL Adobe Workfront Fusion AWS] S3 modules let you perform operations on your S3 buckets.
 author: Becky
 feature: Workfront Fusion
 exl-id: 33623b5d-d9ff-4d41-b938-33378f50539e
 ---
 # AWS S3 modules
 
-The Adobe Workfront Fusion AWS S3 modules let you perform operations on your S3 buckets.
+The [!DNL Adobe Workfront Fusion AWS] S3 modules let you perform operations on your S3 buckets.
 
 ## Access requirements
 
@@ -36,12 +36,12 @@ You must have the following access to use the functionality in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
+   <td>Your organization must purchase [!DNL Adobe Workfront Fusion] as well as [!DNL Adobe Workfront] to use functionality described in this article.</td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+&#42;To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
 
 &#42;&#42;For information on Adobe Workfront Fusion licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
@@ -53,37 +53,37 @@ To use AWS S3 modules, you must have an Amazon Web Service account.
 
 To connect AWS S3 to Workfront Fusion you must connect your AWS account to Workfront Fusion. To do so, you'll first need to create an API user in AWS IAM.
 
-1. Sign in to your AWS&nbsp;AIM&nbsp;account. 
+1. Sign in to your AWS&nbsp;AIM&nbsp;account.
 1. Navigate to **Identity and Access Management** > **Access Management** > **Users**.
 
 1. Click **Add User**.
-1. Enter the name of the new user and select the **Programmatic access** option in the Access type section.
+1. Enter the name of the new user and select the **[!UICONTROL Programmatic access]** option in the [!UICONTROL Access type] section.
 1. Click **Attach existing policies directly**, then search for **AmazonS3FullAccess** in the search bar. Click it when it appears, then click **Next**.
 
 1. Proceed through the other dialog screens, then click **Create User**.
 1. Copy the provided **Access key ID** and **Secret access key**.
 
-1. Go to Workfront Fusion and open the AWS S3 module's **Create a connection** dialog.
-1. Enter the Access key ID and Secret access key from step 7 to the respective fields and click **Continue** to establish the connection.
+1. Go to [!DNL Workfront Fusion] and open the AWS S3 module's **[!UICONTROL Create a connection]** dialog.
+1. Enter the Access key ID and Secret access key from step 7 to the respective fields and click **[!UICONTROL Continue]** to establish the connection.
 
 The connection has been established. You can proceed with setting up the module.
 
 ## AWS S3 modules and their fields
 
-When you configure AWS S3 modules, Workfront Fusion displays the fields listed below. Along with these, additional AWS S3 fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
+When you configure AWS S3 modules, [!DNL Workfront Fusion] displays the fields listed below. Along with these, additional AWS S3 fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
 
 If you see the map button above a field or function, you can use it to set variables and functions for that field. For more information, see [Map information from one module to another in Adobe Workfront Fusion](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 ![](assets/map-toggle-350x74.png)
 
-* [Actions](#actions) 
+* [Actions](#actions)
 * [Searches](#searches)
 
 ### Actions {#actions}
 
-* [Create Bucket](#create-bucket) 
-* [Get File](#get-file) 
-* [Upload File](#upload-file) 
+* [Create Bucket](#create-bucket)
+* [Get File](#get-file)
+* [Upload File](#upload-file)
 * [Make an API Call](#make-an-api-call)
 
 #### Create Bucket {#create-bucket}
@@ -94,7 +94,7 @@ If you see the map button above a field or function, you can use it to set varia
  <tbody> 
   <tr> 
    <td role="rowheader">Connection </td> 
-   <td> <p>For instructions about connecting your AWS account to Workfront Fusion, see <a href="#connect-aws-to-workfront-fusion" class="MCXref xref">Connect AWS to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your AWS account to Workfront Fusion, see <a href="#connect-aws-to-workfront-fusion" class="MCXref xref">[!UICONTROL Connect AWS to Workfront Fusion]</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Name </td> 
@@ -117,7 +117,7 @@ Downloads a file from a bucket.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection </td> 
-   <td> <p>For instructions about connecting your AWS account to Workfront Fusion, see <a href="#connect-aws-to-workfront-fusion" class="MCXref xref">Connect AWS to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your AWS account to Workfront Fusion, see <a href="#connect-aws-to-workfront-fusion" class="MCXref xref">[!UICONTROL Connect AWS to Workfront Fusion]</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Region </td> 
@@ -142,7 +142,7 @@ Downloads a file from a bucket.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection </td> 
-   <td> <p>For instructions about connecting your AWS account to Workfront Fusion, see <a href="#connect-aws-to-workfront-fusion" class="MCXref xref">Connect AWS to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your AWS account to Workfront Fusion, see <a href="#connect-aws-to-workfront-fusion" class="MCXref xref">[!UICONTROL Connect AWS to Workfront Fusion]</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Region </td> 
@@ -173,7 +173,7 @@ For a detailed discussion of the Amazon S3 API, see [Amazon S3 REST API Introduc
  <tbody> 
   <tr> 
    <td>Connection </td> 
-   <td> <p>For instructions about connecting your AWS account to Workfront Fusion, see <a href="#connect-aws-to-workfront-fusion" class="MCXref xref">Connect AWS to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your AWS account to Workfront Fusion, see <a href="#connect-aws-to-workfront-fusion" class="MCXref xref">[!UICONTROL Connect AWS to Workfront Fusion]</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td>Region </td> 
@@ -181,7 +181,7 @@ For a detailed discussion of the Amazon S3 API, see [Amazon S3 REST API Introduc
   </tr> 
   <tr> 
    <td>URL</td> 
-   <td> <p>URL Enter a host URL. The path must be relative to<code> https://s3.&lt;selected-region&gt;.amazonaws.com/</code>.</p> </td> 
+   <td> <p>URL Enter a host URL. The path must be relative to<code> https://s3.&lt;selected-region>.amazonaws.com/</code>.</p> </td> 
   </tr> 
   <tr> 
    <td>Method</td> 
@@ -189,7 +189,7 @@ For a detailed discussion of the Amazon S3 API, see [Amazon S3 REST API Introduc
   </tr> 
   <tr> 
    <td>Headers</td> 
-   <td> <p>Add a request header. You can use the following common request headers. For more request headers refer to <a href="https://docs.aws.amazon.com/AmazonS3/latest/API/RESTCommonRequestHeaders.html">AWS S3 API Documentation</a>.</p> <p>You don't have to add authorization headers; Workfront Fusion 2.0 already did that for you.</p> 
+   <td> <p>Add a request header. You can use the following common request headers. For more request headers refer to <a href="https://docs.aws.amazon.com/AmazonS3/latest/API/RESTCommonRequestHeaders.html">AWS S3 API Documentation</a>.</p> <p>You don't have to add authorization headers; [!DNL Workfront Fusion] 2.0 already did that for you.</p> 
     <table style="table-layout:auto">
      <col> 
      <col> 
@@ -218,7 +218,7 @@ For a detailed discussion of the Amazon S3 API, see [Amazon S3 REST API Introduc
       </tr> 
       <tr> 
        <td role="rowheader"> <p>Expect</p> </td> 
-       <td> <p>When your application uses 100-continue, it does not send the request body until it receives an acknowledgment. If the message is rejected based on the headers, the body of the message is not sent. This header can be used only if you are sending a body.</p> <p>Valid Values: 100-continue</p> </td> 
+       <td> <p>When your application uses [!UICONTROL 100-continue], it does not send the request body until it receives an acknowledgment. If the message is rejected based on the headers, the body of the message is not sent. This header can be used only if you are sending a body.</p> <p>Valid Values: 100-continue</p> </td> 
       </tr> 
       <tr> 
        <td role="rowheader"> <p>Host</p> </td> 
@@ -236,7 +236,7 @@ For a detailed discussion of the Amazon S3 API, see [Amazon S3 REST API Introduc
        <td role="rowheader"> <p>x-amz-security-token</p> </td> 
        <td> <p>This header can be used in the following scenarios:</p> 
         <ul> 
-         <li>Provide security tokens for Amazon DevPay operations. Each request that uses Amazon DevPay requires two <code>x-amz-security-token</code> headers: one for the product token and one for the user token. When Amazon S3 receives an authenticated request, it compares the computed signature with the provided signature. Improperly formatted multi-value headers used to calculate a signature can cause authentication issues.</li> 
+         <li>Provide security tokens for [!DNL Amazon] DevPay operations. Each request that uses [!DNL Amazon] DevPay requires two <code>x-amz-security-token</code> headers: one for the product token and one for the user token. When [!DNL Amazon S3] receives an authenticated request, it compares the computed signature with the provided signature. Improperly formatted multi-value headers used to calculate a signature can cause authentication issues.</li> 
          <li>Provide a security token when using temporary security credentials. When making requests using temporary security credentials you obtained from IAM, you must provide a security token using this header. To learn more about temporary security credentials, go to Making Requests.</li> 
         </ul> <p>This header is required for requests that use Amazon DevPay and requests that are signed using temporary security credentials.</p> </td> 
       </tr> 
@@ -249,7 +249,7 @@ For a detailed discussion of the Amazon S3 API, see [Amazon S3 REST API Introduc
   </tr> 
   <tr> 
    <td>Body</td> 
-   <td> <p>Add the body content for the API call in the form of a standard JSON object.</p> <p>Note:   <p>When using conditional statements such as <code>if</code> in your JSON, put the quotation marks outside of the conditional statement.</p> 
+   <td> <p>Add the body content for the API call in the form of a standard [!DNL JSON] object.</p> <p>Note:   <p>When using conditional statements such as <code>if</code> in your JSON, put the quotation marks outside of the conditional statement.</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>">  
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td> 
@@ -259,7 +259,7 @@ For a detailed discussion of the Amazon S3 API, see [Amazon S3 REST API Introduc
 
 ### Searches {#searches}
 
-* [List Files](#list-files) 
+* [List Files](#list-files)
 * [List Folders](#list-folders)
 
 #### List Files {#list-files}
@@ -272,7 +272,7 @@ Returns a list of files from a specified location.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection </td> 
-   <td> <p>For instructions about connecting your AWS account to Workfront Fusion, see <a href="#connect-aws-to-workfront-fusion" class="MCXref xref">Connect AWS to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your AWS account to Workfront Fusion, see <a href="#connect-aws-to-workfront-fusion" class="MCXref xref">[!UICONTROL Connect AWS to Workfront Fusion]</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Region </td> 
@@ -280,7 +280,7 @@ Returns a list of files from a specified location.
   </tr> 
   <tr> 
    <td role="rowheader">Bucket </td> 
-   <td> <p>Select the Amazon S3 bucket you want to search for files.</p> </td> 
+   <td> <p>Select the [!DNL Amazon S3] bucket you want to search for files.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Prefix (optional)</p> </td> 
@@ -299,7 +299,7 @@ Returns a list of folders from a specified location.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection </td> 
-   <td> <p>For instructions about connecting your AWS account to Workfront Fusion, see <a href="#connect-aws-to-workfront-fusion" class="MCXref xref">Connect AWS to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your AWS account to Workfront Fusion, see <a href="#connect-aws-to-workfront-fusion" class="MCXref xref">[!UICONTROL Connect AWS to Workfront Fusion]</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Region </td> 
@@ -307,7 +307,7 @@ Returns a list of folders from a specified location.
   </tr> 
   <tr> 
    <td role="rowheader">Bucket </td> 
-   <td> <p>Select the Amazon S3 bucket you want to search for folders.</p> </td> 
+   <td> <p>Select the [!DNL Amazon S3] bucket you want to search for folders.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Prefix (optional)</p> </td> 

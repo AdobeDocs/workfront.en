@@ -5,20 +5,20 @@ product-area: workfront-integrations
 keywords: connector
 navigation-topic: apps-and-their-modules
 title: Microsoft Office 365 Email
-description: In an Adobe Workfront Fusion scenario, you can automate workflows that use Microsoft Office 365 Email, as well as connect it to multiple third-party applications and services.
+description: In an [!DNL Adobe Workfront] Fusion scenario, you can automate workflows that use Microsoft Office 365 Email, as well as connect it to multiple third-party applications and services.
 author: Becky
 feature: Workfront Fusion
 exl-id: 29b69e8c-a889-441e-a052-287f1db2052d
 ---
 # Microsoft Office 365 Email
 
-In an Adobe Workfront Fusion scenario, you can automate workflows that use Microsoft Office 365 Email, as well as connect it to multiple third-party applications and services.
+In an [!DNL Adobe Workfront] Fusion scenario, you can automate workflows that use Microsoft Office 365 Email, as well as connect it to multiple third-party applications and services.
 
-In order to use Office 365 Email with Adobe Workfront Fusion, it is necessary to have an Office 365 account. You can create one at www.office.com.
+In order to use Office 365 Email with [!DNL Adobe Workfront Fusion], it is necessary to have an Office 365 account. You can create one at www.office.com.
 
 For instructions about connecting your Office 365 account to Workfront Fusion, see [Create a connection to Adobe Workfront Fusion - Basic instructions](../../workfront-fusion/connections/connect-to-fusion-general.md)
 
-After you grant consent, you are redirected back to the Workfront Fusion administration page where you can continue creating your scenario.
+After you grant consent, you are redirected back to the [!UICONTROL Workfront Fusion administration] page where you can continue creating your scenario.
 
 ## Access requirements
 
@@ -42,12 +42,12 @@ You must have the following access to use the functionality in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
+   <td>Your organization must purchase [!DNL Adobe Workfront Fusion] as well as [!DNL Adobe Workfront] to use functionality described in this article.</td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+&#42;To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
 
 &#42;&#42;For information on Adobe Workfront Fusion licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
@@ -57,24 +57,24 @@ To use Microsoft Office 365 Email modules, you must have a Microsoft Office 365 
 
 ## Microsoft Office 365 Email modules and their fields
 
-When you configure Microsoft Office 365 Email modules, Workfront Fusion displays the fields listed below. Along with these, additional Microsoft Office 365 Email fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
+When you configure Microsoft Office 365 Email modules, [!DNL Workfront Fusion] displays the fields listed below. Along with these, additional Microsoft Office 365 Email fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
 
 If you see the map button above a field or function, you can use it to set variables and functions for that field. For more information, see [Map information from one module to another in Adobe Workfront Fusion](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 ![](assets/map-toggle-350x74.png)
 
-* [Message](#message) 
-* [Draft Message](#draft-message) 
-* [Attachment](#attachment) 
+* [Message](#message)
+* [Draft Message](#draft-message)
+* [Attachment](#attachment)
 * [Other](#other)
 
 ### Message {#message}
 
-* [Watch Messages](#watch-messages) 
-* [Search messages](#search-messages) 
-* [Get a message](#get-a-message) 
-* [Create and Send a Message](#create-and-send-a-message) 
-* [Move a Message](#move-a-message) 
+* [Watch Messages](#watch-messages)
+* [Search messages](#search-messages)
+* [Get a message](#get-a-message)
+* [[!UICONTROL Create and Send a Message]](#create-and-send-a-message)
+* [[!UICONTROL Move a Message]](#move-a-message)
 * [Delete a Message](#delete-a-message)
 
 #### Watch Messages {#watch-messages}
@@ -108,7 +108,7 @@ Triggers when a new email message is sent or received.
   </tr> 
   <tr> 
    <td role="rowheader">Limit </td> 
-   <td> <p>Enter the maximum number of messages Workfront Fusion should return during one scenario execution cycle.</p> </td> 
+   <td> <p>Enter the maximum number of messages [!DNL Workfront Fusion] should return during one scenario execution cycle.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -145,7 +145,7 @@ Searches for messages based on specific criteria.
   </tr> 
   <tr> 
    <td role="rowheader">Limit</td> 
-   <td> <p>Enter the maximum number of messages Workfront Fusion should return during one scenario execution cycle.</p> </td> 
+   <td> <p>Enter the maximum number of messages [!DNL Workfront Fusion] should return during one scenario execution cycle.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -293,8 +293,8 @@ Deletes an existing email message.
 
 ### Draft Message {#draft-message}
 
-* [Create a Draft Message](#create-a-draft-message) 
-* [Send a Draft Message](#send-a-draft-message) 
+* [Create a Draft Message](#create-a-draft-message)
+* [Send a Draft Message](#send-a-draft-message)
 * [Update a Message](#update-a-message)
 
 #### Create a Draft Message {#create-a-draft-message}
@@ -401,7 +401,7 @@ Updates an existing message.
    <td> <p>Select how you want to identify the message to update:</p> 
     <ul> 
      <li> <p><strong>Enter Manually</strong> </p> <p>Enter or map the message ID.</p> </li> 
-     <li> <p><strong>Select from the list</strong> </p> <p>Select the folder that contains the message you want to update, then select the message</p> </li> 
+     <li> <p><strong>[!UICONTROL Select from the list]</strong> </p> <p>Select the folder that contains the message you want to update, then select the message</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -462,7 +462,7 @@ Updates an existing message.
 
 ### Attachment {#attachment}
 
-* [List Attachments](#list-attachments) 
+* [List Attachments](#list-attachments)
 * [Download an Attachment](#download-an-attachment)
 
 #### List Attachments {#list-attachments}
@@ -506,14 +506,14 @@ This module downloads the specified attachment.
   </tr> 
   <tr> 
    <td role="rowheader">Attachment ID</td> 
-   <td> <p>Enter or map the ID&nbsp;of the attachment you want to download.</p> </td> 
+   <td> <p>Enter or map the ID of the attachment you want to download.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ### Other {#other}
 
-* [Make an API Call](#make-an-api-call) 
+* [Make an API Call](#make-an-api-call)
 * [Add an Attachment](#add-an-attachment)
 
 #### Make an API&nbsp;Call {#make-an-api-call}
@@ -538,7 +538,7 @@ This module allows you to perform a custom API call.
   </tr> 
   <tr> 
    <td role="rowheader">Headers</td> 
-   <td> <p>Add the headers of the request in the form of a standard JSON object.For example, <code>{"Content-type":"application/json"}</code>. Workfront Fusion adds the authorization headers for you.</p> </td> 
+   <td> <p>Add the headers of the request in the form of a standard JSON object.For example, <code>{"Content-type":"application/json"}</code>. [!DNL Workfront Fusion] adds the authorization headers for you.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Query String</td> 
@@ -546,7 +546,7 @@ This module allows you to perform a custom API call.
   </tr> 
   <tr> 
    <td role="rowheader">Body</td> 
-   <td> <p>Add the body content for the API call in the form of a standard JSON object.</p> <p>Note:  <p>When using conditional statements such as <code>if</code> in your JSON, put the quotation marks outside of the conditional statement.</p> 
+   <td> <p>Add the body content for the API call in the form of a standard [!DNL JSON] object.</p> <p>Note:  <p>When using conditional statements such as <code>if</code> in your JSON, put the quotation marks outside of the conditional statement.</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td> 

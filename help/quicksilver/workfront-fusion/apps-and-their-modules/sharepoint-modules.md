@@ -5,14 +5,14 @@ product-area: workfront-integrations
 keywords: connector
 navigation-topic: apps-and-their-modules
 title: SharePoint modules
-description: In an Adobe Workfront Fusion scenario, you can automate workflows that use SharePoint, as well as connect it to multiple third-party applications and services.
+description: In an [!DNL Adobe Workfront] Fusion scenario, you can automate workflows that use SharePoint, as well as connect it to multiple third-party applications and services.
 author: Becky
 feature: Workfront Fusion
 exl-id: 16d49031-06d2-4c86-bac4-f58cd9b2f1f5
 ---
 # SharePoint modules
 
-In an Adobe Workfront Fusion scenario, you can automate workflows that use SharePoint, as well as connect it to multiple third-party applications and services.
+In an [!DNL Adobe Workfront] Fusion scenario, you can automate workflows that use SharePoint, as well as connect it to multiple third-party applications and services.
 
 If you need instructions on creating a scenario, see [Create a scenario in Adobe Workfront Fusion](../../workfront-fusion/scenarios/create-a-scenario.md).
 
@@ -40,33 +40,33 @@ You must have the following access to use the functionality in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
+   <td>Your organization must purchase [!DNL Adobe Workfront Fusion] as well as [!DNL Adobe Workfront] to use functionality described in this article.</td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+&#42;To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
 
 &#42;&#42;For information on Adobe Workfront Fusion licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
 ## Prerequisites
 
-To use SharePoint modules, you must have a SharePoint account.
+To use [!DNL SharePoint] modules, you must have a SharePoint account.
 
-## Connect SharePoint to Workfront Fusion {#connect-sharepoint-to-workfront-fusion}
+## Connect SharePoint to [!DNL Workfront] Fusion {#connect-sharepoint-to-workfront-fusion}
 
-* [Connect SharePoint to Workfront Fusion using a Microsoft account](#connect-sharepoint-to-workfront-fusion-using-a-microsoft-account) 
-* [Connect SharePoint to Workfront Fusion using advanced settings](#connect-sharepoint-to-workfront-fusion-using-advanced-settings)
+* [Connect [!DNL SharePoint] to [!DNL Workfront Fusion] using a [!DNL Microsoft] account](#connect-sharepoint-to-workfront-fusion-using-a-microsoft-account)
+* [Connect [!DNL SharePoint] to [!DNL Workfront Fusion] using advanced settings](#connect-sharepoint-to-workfront-fusion-using-advanced-settings)
 
-### Connect SharePoint to Workfront Fusion using a Microsoft account {#connect-sharepoint-to-workfront-fusion-using-a-microsoft-account}
+### Connect [!DNL SharePoint] to [!DNL Workfront Fusion] using a [!DNL Microsoft] account {#connect-sharepoint-to-workfront-fusion-using-a-microsoft-account}
 
 You can use your Microsoft account to create a connection to SharePoint. For instructions about connecting your Sharepoint account to Workfront Fusion, see [Create a connection to Adobe Workfront Fusion - Basic instructions](../../workfront-fusion/connections/connect-to-fusion-general.md)
 
-### Connect SharePoint to Workfront Fusion using advanced settings {#connect-sharepoint-to-workfront-fusion-using-advanced-settings}
+### Connect [!DNL SharePoint] to [!DNL Workfront Fusion] using advanced settings {#connect-sharepoint-to-workfront-fusion-using-advanced-settings}
 
-To connect SharePoint to Workfront Fusion without a Microsoft account, you need a Client ID, Client Secret, and Tenant ID.
+To connect [!DNL SharePoint] to [!DNL Workfront Fusion] without a [!DNL Microsoft] account, you need a Client ID, Client Secret, and Tenant ID.
 
-1. Click **Add** near the top of the **SharePoint** box to open the **Create a connection** box.
+1. Click **Add** near the top of the **SharePoint** box to open the **[!UICONTROL Create a connection]** box.
 
 1. (Optional) Change the default **Connection name**.
 1. Click **Show advanced settings**.
@@ -78,25 +78,25 @@ To connect SharePoint to Workfront Fusion without a Microsoft account, you need 
 
 ## SharePoint modules and their fields
 
-When you configure SharePoint modules, Workfront Fusion displays the fields listed below. Along with these, additional SharePoint fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
+When you configure SharePoint modules, [!DNL Workfront Fusion] displays the fields listed below. Along with these, additional SharePoint fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
 
 If you see the map button above a field or function, you can use it to set variables and functions for that field. For more information, see [Map information from one module to another in Adobe Workfront Fusion](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 ![](assets/map-toggle-350x74.png)
 
-* [Item](#item) 
-* [List](#list) 
-* [Page (Beta)](#page-beta) 
-* [Site](#site) 
+* [Item](#item)
+* [List](#list)
+* [Page (Beta)](#page-beta)
+* [Site](#site)
 * [Other](#other)
 
 ### Item {#item}
 
-* [Watch Items](#watch-items) 
-* [List Items](#list-items) 
-* [Get an Item](#get-an-item) 
-* [Create an item](#create-an-item) 
-* [Update an item](#update-an-item) 
+* [Watch Items](#watch-items)
+* [List Items](#list-items)
+* [Get an Item](#get-an-item)
+* [Create an item](#create-an-item)
+* [Update an item](#update-an-item)
 * [Delete an item](#delete-an-item)
 
 #### Watch Items {#watch-items}
@@ -109,7 +109,7 @@ This trigger module starts a scenario when an item is created or modified.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your SharePoint account to Workfront Fusion, see <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Connect SharePoint to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your [!DNL SharePoint] account to [!DNL Workfront] Fusion, see <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Connect SharePoint to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Watch Lists</td> 
@@ -119,7 +119,7 @@ This trigger module starts a scenario when an item is created or modified.
    <td role="rowheader">Enter Site and List ID</td> 
    <td> <p>Select how you want to identify the site and list that you want to watch.</p> 
     <ul> 
-     <li> <p><strong>Enter manually</strong> </p> <p>Enter or map the <strong>Site ID</strong> and <strong>List ID</strong>&nbsp;in the fields that appear.</p> </li> 
+     <li> <p><strong>Enter manually</strong> </p> <p>Enter or map the <strong>Site ID</strong> and <strong>List ID</strong> in the fields that appear.</p> </li> 
      <li> <p><strong>Select from the list that you follow</strong> </p> <p>Select the site that you want to watch, then select the list. These drop-downs only retrieve followed sites.</p> </li> 
     </ul> </td> 
   </tr> 
@@ -140,14 +140,14 @@ This action module retrieves a list of all items in a specified list.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your SharePoint account to Workfront Fusion, see <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Connect SharePoint to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your [!DNL SharePoint] account to [!DNL Workfront] Fusion, see <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Connect SharePoint to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">List Items</td> 
    <td> <p>Select how you want to identify the list that you want to retrieve items from.</p> 
     <ul> 
-     <li> <p><strong>Enter manually</strong> </p> <p>Enter or map the <strong>Site ID</strong> and <strong>List ID</strong>&nbsp;in the fields that appear.</p> </li> 
-     <li> <p><strong>Select from the list</strong> </p> <p>Select the site that contains the list you want to retrieve items from, then select the list. </p> </li> 
+     <li> <p><strong>Enter manually</strong> </p> <p>Enter or map the <strong>Site ID</strong> and <strong>List ID</strong> in the fields that appear.</p> </li> 
+     <li> <p><strong>[!UICONTROL Select from the list]</strong> </p> <p>Select the site that contains the list you want to retrieve items from, then select the list. </p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -167,14 +167,14 @@ This action module returns the data of a specified item.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your SharePoint account to Workfront Fusion, see <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Connect SharePoint to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your [!DNL SharePoint] account to [!DNL Workfront] Fusion, see <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Connect SharePoint to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Get an Item</td> 
    <td> <p>Select how you want to identify the site and list that contain the item you want to get.</p> 
     <ul> 
-     <li> <p><strong>Enter manually</strong> </p> <p>Enter or map the <strong>Site ID</strong>, <strong>List ID</strong>,&nbsp;and <strong>Item ID</strong> in the fields that appear.</p> </li> 
-     <li> <p><strong>Select from the list</strong> </p> <p>Select the site that contains the list you want to retrieve an item from, then select the list, then select the item. </p> </li> 
+     <li> <p><strong>Enter manually</strong> </p> <p>Enter or map the <strong>Site ID</strong>, <strong>List ID</strong>, and <strong>Item ID</strong> in the fields that appear.</p> </li> 
+     <li> <p><strong>[!UICONTROL Select from the list]</strong> </p> <p>Select the site that contains the list you want to retrieve an item from, then select the list, then select the item. </p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -190,14 +190,14 @@ This action module creates a new item in a SharePoint list.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your SharePoint account to Workfront Fusion, see <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Connect SharePoint to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your [!DNL SharePoint] account to [!DNL Workfront] Fusion, see <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Connect SharePoint to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Create an Item</td> 
    <td> <p>Select how you want to identify the site and list where you want to create an item.</p> 
     <ul> 
      <li> <p><strong>Enter manually</strong> </p> <p>Enter or map the <strong>Site ID</strong> and <strong>List ID</strong> in the fields that appear.</p> </li> 
-     <li> <p><strong>Select from the list</strong> </p> <p>Select the site that contains the list where you want to create an item, then select the list. </p> </li> 
+     <li> <p><strong>[!UICONTROL Select from the list]</strong> </p> <p>Select the site that contains the list where you want to create an item, then select the list. </p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -217,14 +217,14 @@ This action module updates an existing item in a SharePoint list.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your SharePoint account to Workfront Fusion, see <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Connect SharePoint to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your [!DNL SharePoint] account to [!DNL Workfront] Fusion, see <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Connect SharePoint to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Update an Item</td> 
    <td> <p>Select how you want to identify the site and list that contain the item you want to update.</p> 
     <ul> 
-     <li> <p><strong>Enter manually</strong> </p> <p>Enter or map the <strong>Site ID</strong>, <strong>List ID</strong>,&nbsp;and <strong>Item ID</strong> in the fields that appear.</p> </li> 
-     <li> <p><strong>Select from the list</strong> </p> <p>Select the site that contains the item you want to update, then select the list, then select the item. </p> </li> 
+     <li> <p><strong>Enter manually</strong> </p> <p>Enter or map the <strong>Site ID</strong>, <strong>List ID</strong>, and <strong>Item ID</strong> in the fields that appear.</p> </li> 
+     <li> <p><strong>[!UICONTROL Select from the list]</strong> </p> <p>Select the site that contains the item you want to update, then select the list, then select the item. </p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -244,14 +244,14 @@ This action module deletes an existing item in a SharePoint list.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your SharePoint account to Workfront Fusion, see <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Connect SharePoint to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your [!DNL SharePoint] account to [!DNL Workfront] Fusion, see <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Connect SharePoint to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Update an Item</td> 
    <td> <p>Select how you want to identify the site and list that contain the item you want to delete.</p> 
     <ul> 
-     <li> <p><strong>Enter manually</strong> </p> <p>Enter or map the <strong>Site ID</strong>, <strong>List ID</strong>,&nbsp;and <strong>Item ID</strong> in the fields that appear.</p> </li> 
-     <li> <p><strong>Select from the list</strong> </p> <p>Select the site that contains the item you want to delete, then select the list, then select the item. </p> </li> 
+     <li> <p><strong>Enter manually</strong> </p> <p>Enter or map the <strong>Site ID</strong>, <strong>List ID</strong>, and <strong>Item ID</strong> in the fields that appear.</p> </li> 
+     <li> <p><strong>[!UICONTROL Select from the list]</strong> </p> <p>Select the site that contains the item you want to delete, then select the list, then select the item. </p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -259,9 +259,9 @@ This action module deletes an existing item in a SharePoint list.
 
 ### List {#list}
 
-* [Watch Lists](#watch-lists) 
-* [List Lists](#list-lists) 
-* [Get a List](#get-a-list) 
+* [Watch Lists](#watch-lists)
+* [List Lists](#list-lists)
+* [Get a List](#get-a-list)
 * [Create a List](#create-a-list)
 
 #### Watch Lists {#watch-lists}
@@ -274,7 +274,7 @@ This trigger module starts a scenario when a list is created or modified.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your SharePoint account to Workfront Fusion, see <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Connect SharePoint to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your [!DNL SharePoint] account to [!DNL Workfront] Fusion, see <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Connect SharePoint to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Watch Lists</td> 
@@ -305,14 +305,14 @@ This action module retrieves a list of all items in a specified list.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your SharePoint account to Workfront Fusion, see <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Connect SharePoint to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your [!DNL SharePoint] account to [!DNL Workfront] Fusion, see <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Connect SharePoint to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">List Lists</td> 
    <td> <p>Select how you want to identify the site that you want to retrieve lists from.</p> 
     <ul> 
      <li> <p><strong>Enter manually</strong> </p> <p>Enter or map the <strong>Site ID</strong>.</p> </li> 
-     <li> <p><strong>Select from the list</strong> </p> <p>Select the site that contains the lists you want to retrieve. The drop-down retrieves only sites you follow.</p> </li> 
+     <li> <p><strong>[!UICONTROL Select from the list]</strong> </p> <p>Select the site that contains the lists you want to retrieve. The drop-down retrieves only sites you follow.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -332,14 +332,14 @@ This action module returns the data of a specified list.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your SharePoint account to Workfront Fusion, see <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Connect SharePoint to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your [!DNL SharePoint] account to [!DNL Workfront] Fusion, see <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Connect SharePoint to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Get a List</td> 
    <td> <p>Select how you want to identify the site and list that contain the item you want to get.</p> 
     <ul> 
      <li> <p><strong>Enter manually</strong> </p> <p>Enter or map the <strong>Site ID</strong> and <strong>List ID</strong> in the fields that appear.</p> </li> 
-     <li> <p><strong>Select from the list</strong> </p> <p>Select the site that contains the list you want to retrieve, then select the list. </p> </li> 
+     <li> <p><strong>[!UICONTROL Select from the list]</strong> </p> <p>Select the site that contains the list you want to retrieve, then select the list. </p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -355,14 +355,14 @@ This action module creates a new list in SharePoint.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your SharePoint account to Workfront Fusion, see <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Connect SharePoint to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your [!DNL SharePoint] account to [!DNL Workfront] Fusion, see <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Connect SharePoint to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Enter a Site ID</td> 
    <td> <p>Select how you want to identify the site and list where you want to create a list.</p> 
     <ul> 
      <li> <p><strong>Enter manually</strong> </p> <p>Enter or map the <strong>Site ID</strong> where you want to create a list.</p> </li> 
-     <li> <p><strong>Select from the list</strong> </p> <p>Select the site where you want to create a list. </p> </li> 
+     <li> <p><strong>[!UICONTROL Select from the list]</strong> </p> <p>Select the site where you want to create a list. </p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -384,7 +384,7 @@ This action module creates a new list in SharePoint.
 
 >[!NOTE]
 >
->APIs in the `beta` version in Microsoft Graph are subject to change. The use of these APIs in production applications is not supported.
+>APIs in the `beta` version in [!DNL Microsoft Graph] are subject to change. The use of these APIs in production applications is not supported.
 
 #### Get a Page
 
@@ -396,14 +396,14 @@ This action module returns the data of a specified page.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your SharePoint account to Workfront Fusion, see <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Connect SharePoint to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your [!DNL SharePoint] account to [!DNL Workfront] Fusion, see <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Connect SharePoint to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Get a Page</td> 
    <td> <p>Select how you want to identify the page that you want to retrieve.</p> 
     <ul> 
      <li> <p><strong>Enter manually</strong> </p> <p>Enter or map the <strong>Site ID</strong>and <strong>Page ID</strong>.</p> </li> 
-     <li> <p><strong>Select from the list</strong> </p> <p>Select the site that contains the page you want to retrieve, then select the page.</p> </li> 
+     <li> <p><strong>[!UICONTROL Select from the list]</strong> </p> <p>Select the site that contains the page you want to retrieve, then select the page.</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -411,7 +411,7 @@ This action module returns the data of a specified page.
 
 ### Site {#site}
 
-* [Search Sites](#search-sites) 
+* [Search Sites](#search-sites)
 * [Get a Site](#get-a-site)
 
 #### Search Sites {#search-sites}
@@ -424,7 +424,7 @@ This action module searches for sites by a parameter you specify.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your SharePoint account to Workfront Fusion, see <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Connect SharePoint to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your [!DNL SharePoint] account to [!DNL Workfront] Fusion, see <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Connect SharePoint to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Keyword of Display Name</td> 
@@ -447,14 +447,14 @@ This action module returns the data of a specified site.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your SharePoint account to Workfront Fusion, see <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Connect SharePoint to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your [!DNL SharePoint] account to [!DNL Workfront] Fusion, see <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Connect SharePoint to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Get a Site</td> 
    <td> <p>Select how you want to identify the page that you want to retrieve.</p> 
     <ul> 
      <li> <p><strong>Enter manually</strong> </p> <p>Enter or map the <strong>Site ID</strong>.</p> </li> 
-     <li> <p><strong>Select from the list</strong> </p> <p>Select the site that you want to retrieve.</p> </li> 
+     <li> <p><strong>[!UICONTROL Select from the list]</strong> </p> <p>Select the site that you want to retrieve.</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -472,7 +472,7 @@ This module allows you to perform a custom API call.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your SharePoint account to Workfront Fusion, see <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Connect SharePoint to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your [!DNL SharePoint] account to [!DNL Workfront] Fusion, see <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Connect SharePoint to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>URL</p> </td> 
@@ -484,7 +484,7 @@ This module allows you to perform a custom API call.
   </tr> 
   <tr> 
    <td role="rowheader">Headers</td> 
-   <td> <p>Add the headers of the request in the form of a standard JSON object.For example, <code>{"Content-type":"application/json"}</code>. Workfront Fusion adds the authorization headers for you.</p> </td> 
+   <td> <p>Add the headers of the request in the form of a standard JSON object.For example, <code>{"Content-type":"application/json"}</code>. [!DNL Workfront Fusion] adds the authorization headers for you.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Query String</td> 
@@ -496,7 +496,7 @@ This module allows you to perform a custom API call.
   </tr> 
   <tr> 
    <td role="rowheader">Body</td> 
-   <td> <p>Add the body content for the API call in the form of a standard JSON object.</p> <p>Note:  <p>When using conditional statements such as <code>if</code> in your JSON, put the quotation marks outside of the conditional statement.</p> 
+   <td> <p>Add the body content for the API call in the form of a standard [!DNL JSON] object.</p> <p>Note:  <p>When using conditional statements such as <code>if</code> in your JSON, put the quotation marks outside of the conditional statement.</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td> 

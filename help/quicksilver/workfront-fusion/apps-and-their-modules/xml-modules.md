@@ -87,7 +87,7 @@ The XML > Parse XML module parses an XML formatted text and outputs a single bun
 >
 >   ![](assets/url-of-xml-file-350x184.png)
 >
->1. Click **OK**to save and close the module's configuration.
+>1. Click **OK**&#x200B;to save and close the module's configuration.
 >1. Add XML > Parse XML module, connect it after the HTTP > Get a file module and configure it as follows:
 >
 >   <table style="table-layout:auto"> 
@@ -180,7 +180,7 @@ The XML > Create XML module converts a bundle to an XML formatted text.
 >
 >A typical use case is to transform data from a Google >spreadsheet into XML.
 >
->1. Place the Google Sheets > Select rows module in your scenario to fetch the data. Set up the module to retrieve rows from your Google spreadsheet. Set the**Maximum number of returned rows** to a small number, but larger than one for testing purposes (Example, three). Execute the Google Sheets module by right-clicking it and choosing "**Run this module only**." Verify the output of the module.
+>1. Place the Google Sheets > Select rows module in your scenario to fetch the data. Set up the module to retrieve rows from your Google spreadsheet. Set the&#x200B;**Maximum number of returned rows** to a small number, but larger than one for testing purposes (Example, three). Execute the Google Sheets module by right-clicking it and choosing "**Run this module only**." Verify the output of the module.
 >1. Connect the Array Aggregator module after the Google Sheets module. In the module's setup choose the Google Sheets module in the **Source node** field. Leave the other fields as they are for the moment.
 >1. Connect the XML > Create XML module after the Array Aggregator module.
 >

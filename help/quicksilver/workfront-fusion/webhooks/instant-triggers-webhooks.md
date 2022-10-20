@@ -2,15 +2,15 @@
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: connections-annd-webhooks
-title: Instant triggers (webhooks) in Adobe Workfront Fusion
+title: Instant triggers (webhooks) in [!DNL Adobe Workfront] Fusion
 description: Many services provide webhooks to deliver instant notifications whenever a certain change occurs in the service. To process these notifications, we recommend that you use instant triggers. This article describes the use and functionality of instant triggers in Adobe Workfront Fusion.
 author: Becky
 feature: Workfront Fusion
 exl-id: 13b3a1bf-9856-4d2c-b1a5-13b044a7c2e5
 ---
-# Instant triggers (webhooks) in Adobe Workfront Fusion
+# Instant triggers (webhooks) in [!DNL Adobe Workfront] Fusion
 
-Many services provide webhooks to deliver instant notifications whenever a certain change occurs in the service. To process these notifications, we recommend that you use instant triggers. You can recognize these easily in Adobe Workfront Fusion because of their tag:
+Many services provide webhooks to deliver instant notifications whenever a certain change occurs in the service. To process these notifications, we recommend that you use instant triggers. You can recognize these easily in [!DNL Adobe Workfront Fusion] because of their tag:
 
 ![](assets/instant-350x256.png)
 
@@ -38,12 +38,12 @@ You must have the following access to use the functionality in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
+   <td>Your organization must purchase [!DNL Adobe Workfront Fusion] as well as [!DNL Adobe Workfront] to use functionality described in this article.</td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+&#42;To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
 
 &#42;&#42;For information on Adobe Workfront Fusion licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
@@ -51,7 +51,7 @@ You must have the following access to use the functionality in this article:
 
 All messages from incoming webhooks are stored in the webhook's queue.
 
-1. Click **Webhooks** in the menu on left.
+1. Click **[!UICONTROL Webhooks]** in the menu on left.
 1. Find the Webhook for which you want to view the queue.
 1. Click the button with a truck icon and the number of received webhooks.
 
@@ -59,7 +59,7 @@ All messages from incoming webhooks are stored in the webhook's queue.
 
    >[!NOTE]
    >
-   >Incoming webhook data is always stored in the queue regardless of how you have set the option Data is confidential (described in [The scenario settings panel in Adobe Workfront Fusion](../../workfront-fusion/scenarios/scenario-settings-panel.md)). As soon as the data is processed in a scenario, it is permanently deleted from the system.
+   >Incoming webhook data is always stored in the queue regardless of how you have set the option [!UICONTROL Data] is confidential (described in [The scenario settings panel in Adobe Workfront Fusion](../../workfront-fusion/scenarios/scenario-settings-panel.md)). As soon as the data is processed in a scenario, it is permanently deleted from the system.
 
 ## Schedule instant triggers
 
@@ -71,19 +71,23 @@ In this case your scenario will run immediately whenWorkfront Fusion receives ne
 
 >[!NOTE]
 >
->* A cycle is not the same as a scenario run. There can be multiple cycles within 1 scenario run. 
+>* A cycle is not the same as a scenario run. There can be multiple cycles within 1 scenario run.
 >* When you execute a scenario with an instant trigger scheduled to be immediate, the following exceptions apply:>
 >   * The interval between two executions is not subject to the Minimum interval according to the pricing plan.
 >
->     For example, once the scenario finishes its execution, the webhook's queue is checked again. If there are any pending webhooks, the scenario executes immediately again, processing all the pending webhooks once again.
+>     
+      For example, once the scenario finishes its execution, the webhook's queue is checked again. If there are any pending webhooks, the scenario executes immediately again, processing all the pending webhooks once again.
 >   
->   * The Maximum number of cycles scenario setting is ignored and set to 100, which means that no more than 100 pending webhooks will be processed during a single scenario execution (at the rate of 1 event per one cycle).
+>   
+   * The [!UICONTROL Maximum number of cycles] scenario setting is ignored and set to 100, which means that no more than 100 pending webhooks will be processed during a single scenario execution (at the rate of 1 event per one cycle).
 >
 
-If you use any other schedule setting than Immediately, the scenario executes at the intervals you specify. As several webhooks can be gathered in the queue during the interval, it is recommended to set the [Maximum number of cycles](../../workfront-fusion/scenarios/scenario-settings-panel.md#maximum) to a higher value than the default 1 to process more webhooks in one scenario run:
 
-1. Click the Scenario settings icon ![](assets/gear-icon-settings.png) at the bottom of your scenario.
-1. In the **Scenario settings** box that appears, type a number in the **Max number of cycles** box to indicate the number of webhooks from the queue that you want to run each time you execute the scenario.
+
+If you use any other schedule setting than [!UICONTROL Immediately], the scenario executes at the intervals you specify. As several webhooks can be gathered in the queue during the interval, it is recommended to set the [Maximum number of cycles](../../workfront-fusion/scenarios/scenario-settings-panel.md#maximum) to a higher value than the default 1 to process more webhooks in one scenario run:
+
+1. Click the [!UICONTROL Scenario settings] icon ![](assets/gear-icon-settings.png) at the bottom of your scenario.
+1. In the **Scenario settings** box that appears, type a number in the **[!UICONTROL Max number of cycles]** box to indicate the number of webhooks from the queue that you want to run each time you execute the scenario.
 
 ## Rate limits
 

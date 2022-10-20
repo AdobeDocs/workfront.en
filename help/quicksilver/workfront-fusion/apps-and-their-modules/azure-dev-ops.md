@@ -5,14 +5,14 @@ product-area: workfront-integrations
 keywords: connector
 navigation-topic: apps-and-their-modules
 title: Azure DevOps modules
-description: In an Adobe Workfront Fusion scenario, you can automate workflows that use Azure DevOps, as well as connect it to multiple third-party applications and services.
+description: In an [!DNL Adobe Workfront] Fusion scenario, you can automate workflows that use [!DNL Azure] DevOps, as well as connect it to multiple third-party applications and services.
 author: Becky
 feature: Workfront Fusion
 exl-id: ecaa93c9-47bb-4fe1-87b4-d2e117cc68ae
 ---
 # Azure DevOps modules
 
-In an Adobe Workfront Fusion scenario, you can automate workflows that use Azure DevOps, as well as connect it to multiple third-party applications and services.
+In an [!DNL Adobe Workfront] Fusion scenario, you can automate workflows that use [!DNL Azure] DevOps, as well as connect it to multiple third-party applications and services.
 
 If you need instructions on creating a scenario, see [Create a scenario in Adobe Workfront Fusion](../../workfront-fusion/scenarios/create-a-scenario.md).
 
@@ -40,24 +40,24 @@ You must have the following access to use the functionality in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
+   <td>Your organization must purchase [!DNL Adobe Workfront Fusion] as well as [!DNL Adobe Workfront] to use functionality described in this article.</td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+&#42;To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
 
 &#42;&#42;For information on Adobe Workfront Fusion licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
 ## Prerequisites
 
-To use Azure DevOps modules, you must have an Azure DevOps account.
+To use [!DNL Azure] DevOps modules, you must have an [!DNL Azure] DevOps account.
 
-## Connect Azure DevOps to Workfront Fusion {#connect-azure-devops-to-workfront-fusion}
+## Connect [!DNL Azure] DevOps to [!DNL Workfront] Fusion {#connect-azure-devops-to-workfront-fusion}
 
 1. Add an Azure DevOps module to your scenario.
-1. Click **Add** next to the Connection field.
-1. In the Connection Type field, select **Azure DevOps**.
+1. Click **Add** next to the [!UICONTROL Connection] field.
+1. In the [!UICONTROL Connection Type] field, select **Azure DevOps**.
 
    >[!IMPORTANT]
    >
@@ -65,29 +65,29 @@ To use Azure DevOps modules, you must have an Azure DevOps account.
 
 1. Fill out the following fields:
 
-    <table style="table-layout:auto">
+   <table style="table-layout:auto">
         <tr>
             <td>Connection name</td>
             <td>Enter a name for the connection that you are creating.</td>
         </tr>
       <tr>
             <td>Organization</td>
-            <td>Enter the name of the organization under which you created your Azure DevOps application.</td>
+            <td>Enter the name of the organization under which you created your [!DNL Azure DevOps] application.</td>
         </tr>
     </table>
 
-1. Click **Continue** to finish setting up the connection and continue creating your scenario.
+1. Click **[!UICONTROL Continue]** to finish setting up the connection and continue creating your scenario.
 
 ## Azure DevOps modules and their fields
 
-When you configure Azure DevOps modules, Workfront Fusion displays the fields listed below. Along with these, additional Azure DevOps fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
+When you configure [!DNL Azure DevOps] modules, [!DNL Workfront Fusion] displays the fields listed below. Along with these, additional [!DNL Azure DevOps] fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
 
 If you see the map button above a field or function, you can use it to set variables and functions for that field. For more information, see [Map information from one module to another in Adobe Workfront Fusion](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 ![](assets/map-toggle-350x74.png)
 
-* [Triggers](#triggers) 
-* [Actions](#actions) 
+* [Triggers](#triggers)
+* [Actions](#actions)
 * [Searches](#searches)
 
 ### Triggers {#triggers}
@@ -113,17 +113,17 @@ When you are configuring this module, the following fields display.
 
 ### Actions {#actions}
 
-* [Custom API Call](#custom-api-call) 
-* [Read record](#read-record) 
-* [Create a record](#create-a-record) 
-* [Update a work item](#update-a-work-item) 
-* [Upload an attachment](#upload-an-attachment) 
-* [Download an attachment](#download-an-attachment) 
+* [Custom API Call](#custom-api-call)
+* [Read record](#read-record)
+* [Create a record](#create-a-record)
+* [Update a work item](#update-a-work-item)
+* [[!UICONTROL Upload an attachment]](#upload-an-attachment)
+* [Download an attachment](#download-an-attachment)
 * [Link work items](#link-work-items)
 
 #### Custom API Call {#custom-api-call}
 
-This action module lets you make a custom authenticated call to the Azure DevOps API. This way, you can create a data flow automation that can't be accomplished by the other Azure DevOps modules.
+This action module lets you make a custom authenticated call to the [!DNL Azure DevOps] API. This way, you can create a data flow automation that can't be accomplished by the other [!DNL Azure DevOps] modules.
 
 When you are configuring this module, the following fields display.
 
@@ -137,7 +137,7 @@ When you are configuring this module, the following fields display.
   </tr> 
   <tr> 
    <td role="rowheader">Base URL</td> 
-   <td> <p>Select or map the base URL that you use to connect to your Azure DevOps account</p> </td> 
+   <td> <p>Select or map the base URL that you use to connect to your [!DNL Azure DevOps] account</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Relative URL</td> 
@@ -145,7 +145,7 @@ When you are configuring this module, the following fields display.
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">API Version</td> 
-   <td>Select or map the version of the Azure DevOps API that you want to connect to for this API call. If no version is selected, Workfront Fusion connects to Azure DevOps API version 5.1.</td> 
+   <td>Select or map the version of the [!DNL Azure DevOps] API that you want to connect to for this API call. If no version is selected, [!DNL Workfront Fusion] connects to [!DNL Azure DevOps] API version 5.1.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Method</td> 
@@ -153,7 +153,7 @@ When you are configuring this module, the following fields display.
   </tr> 
   <tr> 
    <td role="rowheader">Headers</td> 
-   <td> <p>Add the headers of the request in the form of a standard JSON object.</p> <p>For example, <code>{"Content-type":"application/json"}</code></p> </td> 
+   <td> <p>Add the headers of the request in the form of a standard [!DNL JSON] object.</p> <p>For example, <code>{"Content-type":"application/json"}</code></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Query String</td> 
@@ -161,7 +161,7 @@ When you are configuring this module, the following fields display.
   </tr> 
   <tr> 
    <td role="rowheader">Body</td> 
-   <td> <p>Add the body content for the API call in the form of a standard JSON object.</p> <p>Note:  <p>When using conditional statements such as <code>if</code> in your JSON, put the quotation marks outside of the conditional statement.</p> 
+   <td> <p>Add the body content for the API call in the form of a standard [!DNL JSON] object.</p> <p>Note:  <p>When using conditional statements such as <code>if</code> in your JSON, put the quotation marks outside of the conditional statement.</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td> 
@@ -192,7 +192,7 @@ When you are configuring this module, the following fields display.
    <td> <p>Select whether you want to read a project or a work item</p> 
     <ul> 
      <li> <p><strong>Project</strong>:Select the project that you want to read..</p> </li> 
-     <li> <p><strong>Work item</strong>:Select the project that contains the work item you want to read, then select the work item type.</p> </li> 
+     <li> <p><strong>Work item</strong>:Select the project that contains the [!UICONTROL work] item you want to read, then select the work item type.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -226,11 +226,11 @@ The module outputs the object ID for the newly created work item, or the URL and
     <ul> 
      <li> <p><strong>Project</strong> </p> <p>Fill in the following fields:</p> 
       <ul> 
-       <li> <p><strong>Name</strong>:Enter or map a name for the new project.</p> </li> 
+       <li> <p><strong>[!UICONTROL Name]</strong>:Enter or map a name for the new project.</p> </li> 
        <li> <p><strong>Description</strong>:Enter or map a description for the new project. </p> </li> 
        <li> <p><strong>Visibility</strong>:Select whether you want your project to be public or private. Users must be signed into your organization and must have been granted access to the project in order to interact with a private project. Public projects are visible to users who are not signed in to your organization.</p> </li> 
        <li> <p><strong>Version control</strong>:Select whether you want the project to use Git or Team Foundation Version Control (TFCV) for version control.</p> </li> 
-       <li> <p><strong>Work item process</strong>:Select the work process that you want to use for the project. Options are Basic, Scrum, Capability Maturity Model Integration (CMMI), and Agile.</p> <p>For more information on Azure DevOps processes, see <a href="https://docs.microsoft.com/en-us/azure/devops/boards/work-items/guidance/choose-process?view=azure-devops&amp;tabs=basic-process">Choose a Process</a> in the Azure DevOps Documentation.</p> </li> 
+       <li> <p><strong>Work item process</strong>:Select the work process that you want to use for the project. Options are Basic, Scrum, Capability Maturity Model Integration (CMMI), and Agile.</p> <p>For more information on [!DNL Azure DevOps] processes, see <a href="https://docs.microsoft.com/en-us/azure/devops/boards/work-items/guidance/choose-process?view=azure-devops&amp;tabs=basic-process">Choose a Process</a> in the Azure DevOps Documentation.</p> </li> 
       </ul> </li> 
      <li> <p><strong>Work item</strong> </p> <p>Fill in the following fields:</p> 
       <ul> 
@@ -348,7 +348,7 @@ When you are configuring this module, the following fields display.
   </tr> 
   <tr> 
    <td role="rowheader">Work item ID</td> 
-   <td>Enter or map the ID&nbsp;of the main work item item that you want to link another work item to.</td> 
+   <td>Enter or map the ID of the main work item item that you want to link another work item to.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Linked work item ID</td> 
@@ -369,7 +369,7 @@ When you are configuring this module, the following fields display.
 
 #### List work items
 
-This action module retrieves all work items of a specific type in an Azure DevOps project.
+This action module retrieves all work items of a specific type in an [!DNL Azure DevOps] project.
 
 The module returns the ID of the main work item and any associated fields, along with any custom fields and values that the connection accesses. You can map this information in subsequent modules in the scenario.
 
@@ -397,7 +397,7 @@ When you are configuring this module, the following fields display.
   </tr> 
   <tr> 
    <td role="rowheader">Limit</td> 
-   <td>Enter or map the maximum number of work items that Workfront Fusion returns during one execution cycle.</td> 
+   <td>Enter or map the maximum number of work items that [!DNL Workfront Fusion] returns during one execution cycle.</td> 
   </tr> 
  </tbody> 
 </table>

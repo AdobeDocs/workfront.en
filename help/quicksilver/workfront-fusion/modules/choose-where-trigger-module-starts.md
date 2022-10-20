@@ -38,12 +38,12 @@ You must have the following access to use the functionality in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
+   <td>Your organization must purchase [!DNL Adobe Workfront Fusion] as well as [!DNL Adobe Workfront] to use functionality described in this article.</td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+&#42;To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
 
 &#42;&#42;For information on Adobe Workfront Fusion licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
@@ -59,13 +59,13 @@ You must have the following access to use the functionality in this article:
 
    Right-click the icon for the trigger module in the Scenario editor, as described in [Create a scenario in Adobe Workfront Fusion](../../workfront-fusion/scenarios/create-a-scenario.md).
 
-1. Select an option in the **Choose where to start** box that appears.
+1. Select an option in the **[!UICONTROL Choose where to start]** box that appears.
 
    ![](assets/choose-where-to-start-350x346.jpg)
 
    The options displayed depend on the possibilities of a given service. They may include the following:
 
-    <table style="table-layout:auto">
+   <table style="table-layout:auto">
         <tr>
             <td>From now on (default)</td>
             <td>Retrieves all bundles added or updated (depending on settings) from now on</td>

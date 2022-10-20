@@ -3,13 +3,13 @@ content-type: reference
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: functions
-title: Tokens for date and time formatting in Adobe Workfront Fusion
-description: The following tokens for date and time formatting are available in the Adobe Workfront Fusion mapping panel.
+title: Tokens for date and time formatting in [!DNL Adobe Workfront] Fusion
+description: The following tokens for date and time formatting are available in the [!DNL Adobe Workfront Fusion mapping] panel.
 author: Becky
 feature: Workfront Fusion
 exl-id: 19d0608e-7902-4d09-b71d-e6ae8ed7a6fd
 ---
-# Tokens for date and time formatting in Adobe Workfront Fusion
+# Tokens for date and time formatting in [!DNL Adobe Workfront] Fusion
 
 ## Access requirements
 
@@ -33,12 +33,12 @@ You must have the following access to use the functionality in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
+   <td>Your organization must purchase [!DNL Adobe Workfront Fusion] as well as [!DNL Adobe Workfront] to use functionality described in this article.</td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+&#42;To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
 
 &#42;&#42;For information on Adobe Workfront Fusion licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
@@ -69,7 +69,7 @@ You must have the following access to use the functionality in this article:
   <tr> 
    <td><code>Y</code> </td> 
    <td><code>1970 1971 ... 9999 +10000 +10001</code> </td> 
-   <td> <p> Year with any number of digits and sign</p> </td> 
+   <td> <p>[!UICONTROL Year with any number of digits and sign]</p> </td> 
   </tr> 
   <tr> 
    <td><code>Q</code> </td> 
@@ -89,7 +89,7 @@ You must have the following access to use the functionality in this article:
   <tr> 
    <td><code>Mo </code> </td> 
    <td><code>1st 2nd ... 11th 12th</code> </td> 
-   <td> <p> Month with ordinal</p> </td> 
+   <td> <p>[!UICONTROL Month] with ordinal</p> </td> 
   </tr> 
   <tr> 
    <td><code>MM</code> </td> 
@@ -129,7 +129,7 @@ You must have the following access to use the functionality in this article:
   <tr> 
    <td><code>DDDo</code> </td> 
    <td><code>1st 2nd ... 364th 365th</code> </td> 
-   <td> <p> Day of year with ordinal</p> </td> 
+   <td> <p>[!UICONTROL Day of year] with ordinal</p> </td> 
   </tr> 
   <tr> 
    <td><code>DDDD </code> </td> 
@@ -161,7 +161,7 @@ You must have the following access to use the functionality in this article:
   <tr> 
    <td><code>do</code> </td> 
    <td><code>0th 1st ... 5th 6th </code> </td> 
-   <td> <p> Day of week with ordinal</p> </td> 
+   <td> <p>[!UICONTROL Day of week with ordinal]</p> </td> 
   </tr> 
   <tr> 
    <td><code>dd </code> </td> 
@@ -191,7 +191,7 @@ You must have the following access to use the functionality in this article:
   <tr> 
    <td><code>wo </code> </td> 
    <td><code>1st 2nd ... 52nd 53rd</code> </td> 
-   <td> <p> Week of year with ordinal</p> </td> 
+   <td> <p>[!UICONTROL Week of year with ordinal]</p> </td> 
   </tr> 
   <tr> 
    <td><code>ww </code> </td> 
@@ -298,7 +298,7 @@ You must have the following access to use the functionality in this article:
   <tr> 
    <td><code>mm</code> </td> 
    <td><code>00 01 ... 58 59</code> </td> 
-   <td> <p> Minutes with leading zero</p> </td> 
+   <td> <p>[!UICONTROL Minutes with] leading zero</p> </td> 
   </tr> 
   <tr> 
    <td><code>s</code> </td> 

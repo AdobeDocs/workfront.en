@@ -2,24 +2,24 @@
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: review-proofs-workfront-proofing-viewer
-title: Opening a Proof in Workfront Proof
-description: Opening a Proof in Workfront Proof
+title: Opening a Proof in [!DNL Workfront] Proof
+description: Opening a Proof in [!DNL Workfront] Proof
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 99fb6684-48b6-4a1f-bf2b-2f8c1f2ab355
 ---
-# Opening a Proof in Workfront Proof
+# Opening a Proof in [!DNL Workfront] Proof
 
 >[!IMPORTANT]
 >
->This article refers to functionality in the standalone product Workfront Proof. For information on proofing inside Adobe Workfront, see [Proofing](../../../review-and-approve-work/proofing/proofing.md).
+>This article refers to functionality in the standalone product [!DNL Workfront] Proof. For information on proofing inside [!DNL Adobe Workfront], see [Proofing](../../../review-and-approve-work/proofing/proofing.md).
 
-1. Click the down arrow button next to **Views** in the side bar.  
+1. Click the down arrow button next to **Views** in the side bar.\
    ![Down_arrow_next_to_Views.png](assets/down-arrow-next-to-views-193x371.png)
 
 1. Choose **All Items** in the menu that appears.
-1. Click the **Go to Proof** icon for the proof you want to view.  
-   ![Go_to_Proof_blue_icon.png](assets/go-to-proof-blue-icon.png)  
+1. Click the **[!UICONTROL Go to Proof]** icon for the proof you want to view.\
+   ![Go_to_Proof_blue_icon.png](assets/go-to-proof-blue-icon.png)\
    Your default proofing viewer launches on a new tab in your browser and the focus switches to that tab. You can have multiple proofs open simultaneously, each on its own tab.
 
 1. Continue with one of the following articles, depending on the proofing viewer you are using.

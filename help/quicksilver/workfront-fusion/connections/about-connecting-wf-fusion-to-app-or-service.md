@@ -2,17 +2,17 @@
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: connections-annd-webhooks
-title: About connecting Adobe Workfront Fusion to an app or service
-description: For most apps, it is necessary to create a connection, through which Adobe Workfront Fusion can communicate with the given third-party service according to the settings of the specific scenario.
+title: About connecting [!DNL Adobe Workfront Fusion] to an app or service
+description: For most apps, it is necessary to create a connection, through which [!DNL Adobe Workfront Fusion] can communicate with the given third-party service according to the settings of the specific scenario.
 author: Becky
 feature: Workfront Fusion
 exl-id: 2d5cf083-9893-45e8-8f7d-0f8f5a74eef3
 ---
-# About connecting Adobe Workfront Fusion to an app or service
+# About connecting [!DNL Adobe Workfront Fusion] to an app or service
 
-For most apps, it is necessary to create a connection, through which Adobe Workfront Fusion can communicate with the given third-party service according to the settings of the specific scenario.
+For most apps, it is necessary to create a connection, through which [!DNL Adobe Workfront Fusion] can communicate with the given third-party service according to the settings of the specific scenario.
 
-For example, if you want to create a scenario that retrieves information from Workfront, you must grant access permission for Workfront Fusion to access your Workfront account.
+For example, if you want to create a scenario that retrieves information from [!DNL Workfront], you must grant access permission for [!DNL Workfront Fusion] to access your [!DNL Workfront] account.
 
 ## Access requirements
 
@@ -36,20 +36,20 @@ You must have the following access to use the functionality in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
+   <td>Your organization must purchase [!DNL Adobe Workfront Fusion] as well as [!DNL Adobe Workfront] to use functionality described in this article.</td> 
   </tr>
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+&#42;To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
 
 &#42;&#42;For information on Adobe Workfront Fusion licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
 ## Access rights
 
-For every connection, Workfront Fusion requires only those access rights that are necessary to successfully complete a given scenario. For example, if you create a scenario to list documents from Google Docs, Workfront Fusion does not ask for permission to get the content of the documents.
+For every connection, [!DNL Workfront] Fusion requires only those access rights that are necessary to successfully complete a given scenario. For example, if you create a scenario to list documents from Google Docs, [!DNL Workfront] Fusion does not ask for permission to get the content of the documents.
 
-Unfortunately, not all services allow you to limit access to specific tasks. Therefore, Workfront Fusion must require full access rights. For more information on how to restrict Workfront Fusion access to your account registered to those services, see the application-specific documentation.
+Unfortunately, not all services allow you to limit access to specific tasks. Therefore, [!DNL Workfront Fusion] must require full access rights. For more information on how to restrict [!DNL Workfront Fusion] access to your account registered to those services, see the application-specific documentation.
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Organizational data security is Workfront Fusion's top priority. For detailed information on how data is secured and protected in Workfront Fusion, click here.
@@ -61,15 +61,15 @@ Sam: Exclude until after GA release
 
 ## About administering connections
 
-You can administer all connections from the Connections area. Here you can:
+You can administer all connections from the [!UICONTROL Connections] area. Here you can:
 
-* See which permissions were given to Workfront Fusion for each connection
-* Rename connections 
+* See which permissions were given to [!DNL Workfront Fusion] for each connection
+* Rename connections
 * Reauthorize existing connections
 * Delete existing connections
 * Verify that the connection to the service was established successfully
 
-To open the Connections area, click <b>Connections</b> in the left navigation.
+To open the [!UICONTROL Connections] area, click <b>[!UICONTROL Connections]</b> in the left navigation.
 
 ## Renew a connection
 

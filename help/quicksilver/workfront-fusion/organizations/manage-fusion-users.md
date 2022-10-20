@@ -3,13 +3,13 @@ filename: manage-fusion-users
 product-previous: workfront-fusion
 product-area: workfront-integrations;user-management
 navigation-topic: organizations
-title: Manage Adobe Workfront Fusion users in your organization
-description: Manage Adobe Workfront Fusion users in your organization
+title: Manage [!DNL Adobe Workfront] Fusion users in your organization
+description: Manage [!DNL Adobe Workfront] Fusion users in your organization
 author: Becky
 feature: Workfront Fusion
 exl-id: fbb858a6-1230-41b4-892a-4ffeb2711922
 ---
-# Manage Adobe Workfront Fusion users in your organization
+# Manage [!DNL Adobe Workfront] Fusion users in your organization
 
 &nbsp;
 
@@ -33,25 +33,25 @@ exl-id: fbb858a6-1230-41b4-892a-4ffeb2711922
 
 Adobe Workfront Fusion administrators can view and update user roles.
 
-1. While logged in as a Workfront Fusion administrator, select Users in the left navigation.
-1. Click **Details** in the row of the user that you want to view.
-1. (Optional) To update the role of the user, click the dropdown in the **Role** column in the row of the organization where you want to change the user's role, then select the new role.
+1. While logged in as a Workfront Fusion administrator, select [!UICONTROL Users] in the left navigation.
+1. Click **[!UICONTROL Details]** in the row of the user that you want to view.
+1. (Optional) To update the role of the user, click the dropdown in the **[!DNL Role]** column in the row of the organization where you want to change the user's role, then select the new role.
 
 ## View or edit user details {#view2}
 
 Adobe Workfront Fusion administrators can view and update user details.
 
-1. While logged in as a Workfront Fusion administrator, select Users in the left navigation.
-1. Click **Details** in the row of the user that you want to view.
+1. While logged in as a Workfront Fusion administrator, select [!UICONTROL Users] in the left navigation.
+1. Click **[!UICONTROL Details]** in the row of the user that you want to view.
 1. (Optional) To update the user's details, click **Options** in the upper-right corner of the screen, then select **Change Details**.
 
 ## Delete a user {#delete}
 
 Adobe Workfront Fusion administrators can delete users.
 
-1. While logged in as a Workfront Fusion administrator, select Users in the left navigation.
-1. Click **Details** in the row of the user that you want to view.
-1. (Optional) To update the user's details, click **Options** in the upper-right corner of the screen, then select **Delete**.
+1. While logged in as a Workfront Fusion administrator, select [!UICONTROL Users] in the left navigation.
+1. Click **[!UICONTROL Details]** in the row of the user that you want to view.
+1. (Optional) To update the user's details, click **[!UICONTROL Options]** in the upper-right corner of the screen, then select **Delete**.
 
 ### Considerations when deleting a user in Workfront Fusion
 

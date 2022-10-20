@@ -5,14 +5,14 @@ product-area: workfront-integrations;documents
 keywords: connector
 navigation-topic: apps-and-their-modules
 title: Bynder modules
-description: In an Adobe Workfront Fusion scenario, you can automate workflows that use Bynder, as well as connect it to multiple third-party applications and services.
+description: In an [!DNL Adobe Workfront] Fusion scenario, you can automate workflows that use [!UICONTROL Bynder], as well as connect it to multiple third-party applications and services.
 author: Becky
 feature: Workfront Fusion
 exl-id: e4dc9588-334a-41a3-85d1-996cb819c3fa
 ---
 # Bynder modules
 
-In an Adobe Workfront Fusion scenario, you can automate workflows that use Bynder, as well as connect it to multiple third-party applications and services.
+In an [!DNL Adobe Workfront] Fusion scenario, you can automate workflows that use [!UICONTROL Bynder], as well as connect it to multiple third-party applications and services.
 
 If you need instructions on creating a scenario, see [Create a scenario in Adobe Workfront Fusion](../../workfront-fusion/scenarios/create-a-scenario.md).
 
@@ -40,76 +40,76 @@ You must have the following access to use the functionality in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
+   <td>Your organization must purchase [!DNL Adobe Workfront Fusion] as well as [!DNL Adobe Workfront] to use functionality described in this article.</td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+&#42;To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
 
 &#42;&#42;For information on Adobe Workfront Fusion licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
 ## Prerequisites
 
-To use Bynder modules, you must have a Bynder account.
+To use [!DNL Bynder] modules, you must have a [!DNL Bynder] account.
 
 ## Connect Bynder to Workfront Fusion  {#connect-bynder-to-workfront-fusion}
 
-* [Create a connection to Bynder from Workfront Fusion](#create-a-connection-to-bynder-from-workfront-fusion) 
+* [Create a connection to Bynder from Workfront Fusion](#create-a-connection-to-bynder-from-workfront-fusion)
 * [Generate a Client ID and Client Secret in Bynder (Optional)](#generate-a-client-id-and-client-secret-in-bynder-optional)
 
 ### Create a connection to Bynder from Workfront Fusion {#create-a-connection-to-bynder-from-workfront-fusion}
 
-You can create a connection from Workfront Fusion to your Bynder account directly from inside a Bynder module.
+You can create a connection from [!DNL Workfront Fusion] to your [!DNL Bynder] account directly from inside a [!DNL Bynder] module.
 
-1. In any Bynder module, click **Add** next to the Connection field.
+1. In any Bynder module, click **Add** next to the [!UICONTROL Connection] field.
 1. Select the Bynder domain that you want to connect to.
-1. (Optional) Click **Advanced settings**, then enter your Client ID and Client Secret.
+1. (Optional) Click **[!UICONTROL Advanced settings]**, then enter your Client ID and Client Secret.
 
-   For instructions on generating the Client ID and Client Secret, see [Generate a Client ID and Client Secret in Bynder (Optional)](#generate-a-client-id-and-client-secret-in-bynder-optional) in this article.
+   For instructions on generating the Client ID and Client Secret, see [[!UICONTROL Generate a Client ID and Client Secret in Bynder] (Optional)](#generate-a-client-id-and-client-secret-in-bynder-optional) in this article.
 
-1. In the login window, enter your username (email address) and password.
-1. Click **Continue** to create the connection and go back to the module.
+1. In the [!UICONTROL login] window, enter your username (email address) and password.
+1. Click **[!UICONTROL Continue]** to create the connection and go back to the module.
 
 ### Generate a Client ID and Client Secret in Bynder (Optional) {#generate-a-client-id-and-client-secret-in-bynder-optional}
 
-If you want to create a connection using the Client ID and Client Secret, you can generate them from your Bynder account. The Client ID and Client Secret are generated when you create an app in Bynder.
+If you want to create a connection using the Client ID and Client Secret, you can generate them from your [!DNL Bynder] account. The Client ID and Client Secret are generated when you create an app in Bynder.
 
 For instructions for creating an app in Bynder, see [Oauth 2.0 Apps](https://developer-docs.bynder.com/api/authentication-oauth2-oauth-apps/) in the Bynder documentation.
 
 >[!NOTE]
 >
->When creating the app in Bynder, enter the following as the `redirect uri`: 
+>When creating the app in [!UICONTROL Bynder], enter the following as the `redirect uri`:
 >
 >`https://app.workfrontfusion.com/oauth/cb/workfront-bynder`
 
 ## Bynder modules and their fields
 
-When you configure Bynder modules, Workfront Fusion displays the fields listed below. Along with these, additional Bynder fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
+When you configure [!UICONTROL Bynder] modules, [!DNL Workfront Fusion] displays the fields listed below. Along with these, additional [!UICONTROL Bynder] fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
 
 If you see the map button above a field or function, you can use it to set variables and functions for that field. For more information, see [Map information from one module to another in Adobe Workfront Fusion](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 ![](assets/map-toggle-350x74.png)
 
-* [Actions](#actions) 
-* [Searches](#searches) 
+* [Actions](#actions)
+* [Searches](#searches)
 * [Triggers](#triggers)
 
 ### Actions {#actions}
 
-* [Custom API Call](#custom-api-call) 
-* [Read asset metadata](#read-asset-metadata) 
-* [Update asset metadata](#update-asset-metadata) 
-* [Add assets to a collection](#add-assets-to-a-collection) 
-* [Remove assets from collection](#remove-assets-from-collection) 
-* [Add a tag to assets](#add-a-tag-to-assets) 
-* [Remove a tag from assets](#remove-a-tag-from-assets) 
-* [Download asset](#download-asset) 
+* [Custom API Call](#custom-api-call)
+* [Read asset metadata](#read-asset-metadata)
+* [Update asset metadata](#update-asset-metadata)
+* [Add assets to a collection](#add-assets-to-a-collection)
+* [Remove assets from collection](#remove-assets-from-collection)
+* [[!UICONTROL Add a tag to assets]](#add-a-tag-to-assets)
+* [[!UICONTROL Remove a tag] from assets](#remove-a-tag-from-assets)
+* [Download asset](#download-asset)
 * [Upload asset](#upload-asset)
 
 #### Custom API&nbsp;Call {#custom-api-call}
 
-This action module lets you make a custom authenticated call to the Bynder API. This way, you can create a data flow automation that can't be accomplished by the other Bynder modules.
+This action module lets you make a custom authenticated call to the [!DNL Bynder] API. This way, you can create a data flow automation that can't be accomplished by the other [!DNL Bynder] modules.
 
 When you are configuring this module, the following fields display.
 
@@ -121,7 +121,7 @@ The module returns a status code, along with the headers and body of the API&nbs
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>Connection</p> </td> 
-   <td> <p>For instructions about connecting your Bynder account to Workfront Fusion, see <a href="#connect-bynder-to-workfront-fusion" class="MCXref xref">Connect Bynder to Workfront Fusion </a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your [!UICONTROL Bynder] account to Workfront Fusion, see <a href="#connect-bynder-to-workfront-fusion" class="MCXref xref">[!UICONTROL Connect Bynder to Workfront Fusion] </a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">URL</td> 
@@ -133,7 +133,7 @@ The module returns a status code, along with the headers and body of the API&nbs
   </tr> 
   <tr> 
    <td role="rowheader">Headers</td> 
-   <td> <p>Add the headers of the request in the form of a standard JSON object.</p> <p>For example: <code>{"Content-type":"application/json"}</code></p> <p>Workfront Fusion adds the authorization headers for you.</p> </td> 
+   <td> <p>Add the headers of the request in the form of a standard [!DNL JSON] object.</p> <p>For example: <code>{"Content-type":"application/json"}</code></p> <p>Workfront Fusion adds the authorization headers for you.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Query String</td> 
@@ -141,7 +141,7 @@ The module returns a status code, along with the headers and body of the API&nbs
   </tr> 
   <tr> 
    <td role="rowheader">Body</td> 
-   <td> <p>Add the body content for the API call in the form of a standard JSON object.</p> <p>Note:  <p>When using conditional statements such as <code>if</code> in your JSON, put the quotation marks outside of the conditional statement.</p> 
+   <td> <p>Add the body content for the API call in the form of a standard [!DNL JSON] object.</p> <p>Note:  <p>When using conditional statements such as <code>if</code> in your JSON, put the quotation marks outside of the conditional statement.</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td> 
@@ -159,11 +159,11 @@ This action module reads the metadata of an asset.
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>Connection</p> </td> 
-   <td> <p>For instructions about connecting your Bynder account to Workfront Fusion, see <a href="#connect-bynder-to-workfront-fusion" class="MCXref xref">Connect Bynder to Workfront Fusion </a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your [!UICONTROL Bynder] account to Workfront Fusion, see <a href="#connect-bynder-to-workfront-fusion" class="MCXref xref">[!UICONTROL Connect Bynder to Workfront Fusion] </a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Asset ID</td> 
-   <td>Enter or map the ID&nbsp;of the asset that you want to retrieve metadata for.</td> 
+   <td>Enter or map the ID of the asset that you want to retrieve metadata for.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Outputs</td> 
@@ -182,11 +182,11 @@ This action module updates the metadata of an existing asset.
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>Connection</p> </td> 
-   <td> <p>For instructions about connecting your Bynder account to Workfront Fusion, see <a href="#connect-bynder-to-workfront-fusion" class="MCXref xref">Connect Bynder to Workfront Fusion </a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your [!UICONTROL Bynder] account to Workfront Fusion, see <a href="#connect-bynder-to-workfront-fusion" class="MCXref xref">[!UICONTROL Connect Bynder to Workfront Fusion] </a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Asset ID</td> 
-   <td>Enter or map the ID&nbsp;of the asset that you want to update metadata for.</td> 
+   <td>Enter or map the ID of the asset that you want to update metadata for.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Fields</td> 
@@ -209,15 +209,15 @@ This action module adds one or more assets to a collection.
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>Connection</p> </td> 
-   <td> <p>For instructions about connecting your Bynder account to Workfront Fusion, see <a href="#connect-bynder-to-workfront-fusion" class="MCXref xref">Connect Bynder to Workfront Fusion </a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your [!UICONTROL Bynder] account to Workfront Fusion, see <a href="#connect-bynder-to-workfront-fusion" class="MCXref xref">[!UICONTROL Connect Bynder to Workfront Fusion] </a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Collection ID</td> 
-   <td> <p>Enter or map the ID&nbsp;of the collection where you want to add assets.</p> <p>&nbsp;</p> </td> 
+   <td> <p>Enter or map the ID of the collection where you want to add assets.</p> <p> </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Asset IDs</td> 
-   <td> <p>For each asset you want to add to the collection, click <strong>Add item</strong>, then enter or map the asset ID.</p> </td> 
+   <td> <p>For each asset you want to add to the collection, click <strong>[!UICONTROL Add item]</strong>, then enter or map the asset ID.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -232,15 +232,15 @@ This action module removes one or more assets from a collection.
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>Connection</p> </td> 
-   <td> <p>For instructions about connecting your Bynder account to Workfront Fusion, see <a href="#connect-bynder-to-workfront-fusion" class="MCXref xref">Connect Bynder to Workfront Fusion </a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your [!UICONTROL Bynder] account to Workfront Fusion, see <a href="#connect-bynder-to-workfront-fusion" class="MCXref xref">[!UICONTROL Connect Bynder to Workfront Fusion] </a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Collection ID</td> 
-   <td> <p>Enter or map the ID&nbsp;of the collection where you want to remove assets.</p> <p>&nbsp;</p> </td> 
+   <td> <p>Enter or map the ID of the collection where you want to remove assets.</p> <p> </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Asset IDs</td> 
-   <td> <p>For each asset you want to remove from the collection, click <strong>Add item</strong>, then enter or map the asset ID.</p> </td> 
+   <td> <p>For each asset you want to remove from the collection, click <strong>[!UICONTROL Add item]</strong>, then enter or map the asset ID.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -255,15 +255,15 @@ Add a tag to one or more assets
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>Connection</p> </td> 
-   <td> <p>For instructions about connecting your Bynder account to Workfront Fusion, see <a href="#connect-bynder-to-workfront-fusion" class="MCXref xref">Connect Bynder to Workfront Fusion </a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your [!UICONTROL Bynder] account to Workfront Fusion, see <a href="#connect-bynder-to-workfront-fusion" class="MCXref xref">[!UICONTROL Connect Bynder to Workfront Fusion] </a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Tag ID</td> 
-   <td> <p>Enter or map the ID&nbsp;of the tag that you want to add to assets.</p> <p>&nbsp;</p> </td> 
+   <td> <p>Enter or map the ID of the tag that you want to add to assets.</p> <p> </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Asset IDs</td> 
-   <td> <p>For each asset you want to tag, click <strong>Add item</strong>, then enter or map the asset ID.</p> </td> 
+   <td> <p>For each asset you want to tag, click <strong>[!UICONTROL Add item]</strong>, then enter or map the asset ID.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -278,15 +278,15 @@ Remove a tag from one or more assets
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>Connection</p> </td> 
-   <td> <p>For instructions about connecting your Bynder account to Workfront Fusion, see <a href="#connect-bynder-to-workfront-fusion" class="MCXref xref">Connect Bynder to Workfront Fusion </a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your [!UICONTROL Bynder] account to Workfront Fusion, see <a href="#connect-bynder-to-workfront-fusion" class="MCXref xref">[!UICONTROL Connect Bynder to Workfront Fusion] </a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Tag ID</td> 
-   <td> <p>Enter or map the ID&nbsp;of the tag that you want to remove from assets.</p> <p>&nbsp;</p> </td> 
+   <td> <p>Enter or map the ID of the tag that you want to remove from assets.</p> <p> </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Asset IDs</td> 
-   <td> <p>For each asset you want to remove a tag from, click <strong>Add item</strong>, then enter or map the asset ID.</p> </td> 
+   <td> <p>For each asset you want to remove a tag from, click <strong>[!UICONTROL Add item]</strong>, then enter or map the asset ID.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -301,11 +301,11 @@ This action module downloads a single asset.
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>Connection</p> </td> 
-   <td> <p>For instructions about connecting your Bynder account to Workfront Fusion, see <a href="#connect-bynder-to-workfront-fusion" class="MCXref xref">Connect Bynder to Workfront Fusion </a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your [!UICONTROL Bynder] account to Workfront Fusion, see <a href="#connect-bynder-to-workfront-fusion" class="MCXref xref">[!UICONTROL Connect Bynder to Workfront Fusion] </a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Asset ID</td> 
-   <td>Enter or map the ID&nbsp;of the asset you want to download.</td> 
+   <td>Enter or map the ID of the asset you want to download.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Asset version</td> 
@@ -324,7 +324,7 @@ This action module uploads a single asset.
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>Connection</p> </td> 
-   <td> <p>For instructions about connecting your Bynder account to Workfront Fusion, see <a href="#connect-bynder-to-workfront-fusion" class="MCXref xref">Connect Bynder to Workfront Fusion </a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your [!UICONTROL Bynder] account to Workfront Fusion, see <a href="#connect-bynder-to-workfront-fusion" class="MCXref xref">[!UICONTROL Connect Bynder to Workfront Fusion] </a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Save as</td> 
@@ -343,8 +343,8 @@ This action module uploads a single asset.
 
 ### Searches {#searches}
 
-* [List record](#list-record) 
-* [Search for assets](#search-for-assets)
+* [List record](#list-record)
+* [[!UICONTROL Search for assets]](#search-for-assets)
 
 #### List record {#list-record}
 
@@ -356,7 +356,7 @@ This search module retrieves all items of a specific type.
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>Connection</p> </td> 
-   <td> <p>For instructions about connecting your Bynder account to Workfront Fusion, see <a href="#connect-bynder-to-workfront-fusion" class="MCXref xref">Connect Bynder to Workfront Fusion </a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your [!UICONTROL Bynder] account to Workfront Fusion, see <a href="#connect-bynder-to-workfront-fusion" class="MCXref xref">[!UICONTROL Connect Bynder to Workfront Fusion] </a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Record Type</td> 
@@ -364,7 +364,7 @@ This search module retrieves all items of a specific type.
     <ul> 
      <li> <p><strong>Read all collections</strong> </p> </li> 
      <li> <p><strong>Read information about all tags</strong> </p> </li> 
-     <li> <p><strong>Read all assets of a collection</strong> </p> <p>Enter or map the ID&nbsp;of the collection that you want to list assets of.</p> </li> 
+     <li> <p><strong>Read all assets of a collection</strong> </p> <p>Enter or map the ID of the collection that you want to list assets of.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -388,7 +388,7 @@ This search module searches for assets base on criteria you supply.
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>Connection</p> </td> 
-   <td> <p>For instructions about connecting your Bynder account to Workfront Fusion, see <a href="#connect-bynder-to-workfront-fusion" class="MCXref xref">Connect Bynder to Workfront Fusion </a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your [!UICONTROL Bynder] account to Workfront Fusion, see <a href="#connect-bynder-to-workfront-fusion" class="MCXref xref">[!UICONTROL Connect Bynder to Workfront Fusion] </a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Criteria</td> 
@@ -434,7 +434,7 @@ This trigger module starts a scenario when an asset is created or updated.
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>Connection</p> </td> 
-   <td> <p>For instructions about connecting your Bynder account to Workfront Fusion, see <a href="#connect-bynder-to-workfront-fusion" class="MCXref xref">Connect Bynder to Workfront Fusion </a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your [!UICONTROL Bynder] account to Workfront Fusion, see <a href="#connect-bynder-to-workfront-fusion" class="MCXref xref">[!UICONTROL Connect Bynder to Workfront Fusion] </a> in this article.</p> </td> 
   </tr> 
   <tr> <!--
     <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">Event type</td>
@@ -455,7 +455,7 @@ This trigger module starts a scenario when an asset is created or updated.
   <tr> 
     <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">Limit</td>
 
-   <td> <p>Enter the maximum number of records you want the module to return during each scenario execution cycle.</p> </td> 
+<td> <p>Enter the maximum number of records you want the module to return during each scenario execution cycle.</p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -8,7 +8,7 @@ exl-id: fa1aa943-fbda-4eb4-bfa1-ab94a56785a7
 ---
 # Intacct modules
 
-In an Adobe Workfront Fusion scenario, you can automate workflows that use Intacct, as well as connect it to multiple third-party applications and services.
+In an [!DNL Adobe Workfront] Fusion scenario, you can automate workflows that use Intacct, as well as connect it to multiple third-party applications and services.
 
 If you need instructions on creating a scenario, see [Create a scenario in Adobe Workfront Fusion](../../workfront-fusion/scenarios/create-a-scenario.md).
 
@@ -36,12 +36,12 @@ You must have the following access to use the functionality in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
+   <td>Your organization must purchase [!DNL Adobe Workfront Fusion] as well as [!DNL Adobe Workfront] to use functionality described in this article.</td> 
   </tr>
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+&#42;To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
 
 &#42;&#42;For information on Adobe Workfront Fusion licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
@@ -51,15 +51,15 @@ To use Intacct modules, you must have an Intacct account.
 
 ## Connect Intacct to Workfront Fusion
 
-### Authorizing Workfront Fusion to make changes in Intacct
+### Authorizing [!DNL Workfront Fusion] to make changes in Intacct
 
-Before Workfront Fusion can connect to Intacct, you must authorize it.
+Before [!DNL Workfront Fusion] can connect to [!DNL Intacct], you must authorize it.
 
-In your Intacct account, navigate to the **Company** tab.
+In your Intacct account, navigate to the **[!UICONTROL Company]** tab.
 
 1. Click **Company Info**.
 1. Navigate to the **Security** tab.
-1. Click Edit in the upper-right corner
+1. Click [!UICONTROL Edit] in the upper-right corner
 1. Select Web Services Authorizations.
 1. Click the plus icon
 1. Enter AzuquaMPP as the sender_id.
@@ -67,7 +67,7 @@ In your Intacct account, navigate to the **Company** tab.
 
 ### Set up a connection in Workfront Fusion {#set-up-a-connection-in-workfront-fusion}
 
-You can create a connection to your Intacct account directly from inside an Intacct module.
+You can create a connection to your [!DNL Intacct] account directly from inside an [!DNL Intacct] module.
 
 1. In any Intacct module, click **Add** next to the Connection field.
 1. Enter your Intacct credentials
@@ -76,11 +76,11 @@ You can create a connection to your Intacct account directly from inside an Inta
    * User ID
    * Password
 
-1. Click **Continue** to create the connection and go back to the module.
+1. Click **[!UICONTROL Continue]** to create the connection and go back to the module.
 
 ## Intacct modules and their fields
 
-When you configure Intacct modules, Workfront Fusion displays the fields listed below. Along with these, additional Intacct fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
+When you configure [!DNL Intacct] modules, [!DNL Workfront Fusion] displays the fields listed below. Along with these, additional Intacct fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
 
 If you see the map button above a field or function, you can use it to set variables and functions for that field. For more information, see [Map information from one module to another in Adobe Workfront Fusion](../../workfront-fusion/mapping/map-information-between-modules.md).
 
@@ -88,7 +88,7 @@ If you see the map button above a field or function, you can use it to set varia
 
 ### Make a custom API call
 
-This action module lets you make a custom authenticated call to the Intacct API. This way, you can create a data flow automation that can't be accomplished by the other Intacct modules. 
+This action module lets you make a custom authenticated call to the [!DNL Intacct] API. This way, you can create a data flow automation that can't be accomplished by the other [!DNL Intacct] modules.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -96,7 +96,7 @@ This action module lets you make a custom authenticated call to the Intacct API.
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>Connection</p> </td> 
-   <td> <p>For instructions about connecting your Intacct account to Workfront Fusion 2.0, see <a href="#set-up-a-connection-in-workfront-fusion" class="MCXref xref">Set up a connection in Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your Intacct account to [!DNL Workfront Fusion] 2.0, see <a href="#set-up-a-connection-in-workfront-fusion" class="MCXref xref">Set up a connection in Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Body XML</td> 
@@ -115,7 +115,7 @@ This search module retrieves a list of records that match specific search criter
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>Connection</p> </td> 
-   <td> <p>For instructions about connecting your Intacct account to Workfront Fusion 2.0, see <a href="#set-up-a-connection-in-workfront-fusion" class="MCXref xref">Set up a connection in Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your Intacct account to [!DNL Workfront Fusion] 2.0, see <a href="#set-up-a-connection-in-workfront-fusion" class="MCXref xref">Set up a connection in Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Record type</td> 

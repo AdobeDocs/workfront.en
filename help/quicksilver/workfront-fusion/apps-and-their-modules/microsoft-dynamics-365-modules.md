@@ -5,14 +5,14 @@ product-area: workfront-integrations
 keywords: connector
 navigation-topic: apps-and-their-modules
 title: Microsoft Dynamics 365 modules
-description: In an Adobe Workfront Fusion scenario, you can automate workflows that use Microsoft Dynamics 365, as well as connect it to multiple third-party applications and services.
+description: In an [!DNL Adobe Workfront] Fusion scenario, you can automate workflows that use Microsoft Dynamics 365, as well as connect it to multiple third-party applications and services.
 author: Becky
 feature: Workfront Fusion
 exl-id: 116df088-20a7-40a8-8880-9f422dc37632
 ---
 # Microsoft Dynamics 365 modules
 
-In an Adobe Workfront Fusion scenario, you can automate workflows that use Microsoft Dynamics 365, as well as connect it to multiple third-party applications and services.
+In an [!DNL Adobe Workfront] Fusion scenario, you can automate workflows that use Microsoft Dynamics 365, as well as connect it to multiple third-party applications and services.
 
 If you need instructions on creating a scenario, see [Create a scenario in Adobe Workfront Fusion](../../workfront-fusion/scenarios/create-a-scenario.md).
 
@@ -40,49 +40,50 @@ You must have the following access to use the functionality in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
+   <td>Your organization must purchase [!DNL Adobe Workfront Fusion] as well as [!DNL Adobe Workfront] to use functionality described in this article.</td> 
   </tr>
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+&#42;To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
 
 &#42;&#42;For information on Adobe Workfront Fusion licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
 ## Prerequisites
 
-To use Microsoft Dynamics 365, you must have a Microsoft Dynamics 365 account.
+To use [!DNL Microsoft Dynamics] 365, you must have a [!DNL Microsoft Dynamics 365] account.
 
 ## Connect Microsoft Dynamics 365 to Workfront Fusion {#connect-microsoft-dynamics-365-to-workfront-fusion}
 
-You can create a connection to your Microsoft Dynamics 365 account directly from inside an Allocadia module.
+You can create a connection to your [!DNL Microsoft Dynamics 365] account directly from inside an Allocadia module.
 
-1. In any Microsoft Dynamics 365 module, click **Add** next to the Connection field.
+1. In any [!DNL Microsoft Dynamics 365] module, click **Add** next to the [!UICONTROL Connection] field.
 1. Enter a name for the connection.
-1. In the **Resource** field, enter the address of your Dynamics 365 account, without `https://`.
-1. Click **Continue** to create the connection and go back to the module.
+1. In the **[!UICONTROL Resource]** field, enter the address of your [!DNL Dynamics] 365 account, without `https://`.
+1. Click **[!UICONTROL Continue]** to create the connection and go back to the module.
 
 >[!NOTE]
 >
->When registering Workfront Fusion in your Microsoft Azure portal, use the following redirect URI:
+>When registering [!DNL Workfront Fusion] in your Microsoft Azure portal, use the following redirect URI:
 >
 >* `https://app.workfrontfusion.com/oauth/cb/workfront-microsoft-dynamics2`&nbsp;
 
+
 ## Microsoft Dynamics 365 modules and their fields
 
-When you configure Microsoft Dynamics 365 modules, Workfront Fusion displays the fields listed below. Along with these, additional Microsoft Dynamics 365 fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
+When you configure [!DNL Microsoft Dynamics 365] modules, [!DNL Workfront Fusion] displays the fields listed below. Along with these, additional [!DNL Microsoft Dynamics 365] fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
 
 If you see the map button above a field or function, you can use it to set variables and functions for that field. For more information, see [Map information from one module to another in Adobe Workfront Fusion](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 ![](assets/map-toggle-350x74.png)
 
-* [Watch Records (Scheduled)](#watch-records-scheduled) 
-* [Watch Records (Real Time)](#watch-records-real-time) 
-* [Create Record](#create-record) 
-* [Make an API Call](#make-an-api-call) 
-* [Delete Record](#delete-record) 
-* [Read Records](#read-records) 
-* [Update Record](#update-record) 
+* [Watch Records (Scheduled)](#watch-records-scheduled)
+* [Watch Records (Real Time)](#watch-records-real-time)
+* [Create Record](#create-record)
+* [Make an API Call](#make-an-api-call)
+* [Delete Record](#delete-record)
+* [Read Records](#read-records)
+* [Update Record](#update-record)
 * [Search Records](#search-records)
 
 ### Watch Records (Scheduled) {#watch-records-scheduled}
@@ -105,7 +106,7 @@ When you are configuring this module, the following fields display.
   </tr> 
   <tr> 
    <td role="rowheader">Include</td> 
-   <td>Select whether you want the module to watch <strong>Only new records</strong>, <strong>Updated records only</strong>, or <strong>New records and all changes</strong>.</td> 
+   <td>Select whether you want the module to watch <strong>Only new records</strong>, <strong>[!UICONTROL Updated] records only</strong>, or <strong>New records and all changes</strong>.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Entity Type</td> 
@@ -137,8 +138,8 @@ A webhook is required in this module.
    <td> <p>Select the webhook that you want to use for this module. </p> <p>To add a new webhook:</p> 
     <ol> 
      <li value="1"> <p>Click <strong>Add</strong> to the right of the Webhook field</p> </li> 
-     <li value="2"> <p>In the <strong>Webhook</strong> name field, type a descriptive name for the webhook.</p> </li> 
-     <li value="3"> <p>In the <strong>Connection</strong> field, select the Connection that you want to use selected</p> <p>For instructions about connecting your Microsoft Dynamics 365 account to Workfront Fusion, see <a href="#connect-microsoft-dynamics-365-to-workfront-fusion" class="MCXref xref">Connect Microsoft Dynamics 365 to Workfront Fusion</a> in this article. </p> </li> 
+     <li value="2"> <p>In the <strong>[!DNL Webhook]</strong> name field, type a descriptive name for the webhook.</p> </li> 
+     <li value="3"> <p>In the <strong>[!UICONTROL Connection]</strong> field, select the Connection that you want to use selected</p> <p>For instructions about connecting your Microsoft Dynamics 365 account to Workfront Fusion, see <a href="#connect-microsoft-dynamics-365-to-workfront-fusion" class="MCXref xref">Connect Microsoft Dynamics 365 to Workfront Fusion</a> in this article. </p> </li> 
      <li value="4"> <p>Click <strong>Save</strong> to save your webhook and return to the module.</p> </li> 
     </ol> </td> 
   </tr> 
@@ -176,11 +177,11 @@ When you are configuring this module, the following fields display.
 
 ### Make an API Call {#make-an-api-call}
 
-This action module lets you make a custom authenticated call to the Microsoft Dynamics 365 API. This way, you can create a data flow automation that can't be accomplished by the other Microsoft Dynamics 365 modules.
+This action module lets you make a custom authenticated call to the [!DNL Microsoft Dynamics 365] API. This way, you can create a data flow automation that can't be accomplished by the other [!DNL Microsoft Dynamics 365] modules.
 
 The module returns information about the status code, headers, and body. You can map this information in subsequent modules in the scenario.
 
-To learn more, see the Microsoft documentation about using the Dynamics 365 Customer Engagement Web API.
+To learn more, see the [!DNL Microsoft] documentation about using the [!DNL Dynamics] 365 Customer Engagement Web API.
 
 When you are configuring this module, the following fields display.
 
@@ -194,7 +195,7 @@ When you are configuring this module, the following fields display.
   </tr> 
   <tr> 
    <td role="rowheader">URL</td> 
-   <td> <p>Enter a path relative to <code>&lt;Instance URL&gt;/api/data/v9.1/</code>.</p> </td> 
+   <td> <p>Enter a path relative to <code>&lt;Instance URL>/api/data/v9.1/</code>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Method</td> 
@@ -202,7 +203,7 @@ When you are configuring this module, the following fields display.
   </tr> 
   <tr> 
    <td role="rowheader">Headers</td> 
-   <td> <p>Add the headers of the request in the form of a standard JSON object.</p> <p>For example, <code>{"Content-type":"application/json"}</code></p> <p>Workfront Fusion adds the authorization headers for you.</p> </td> 
+   <td> <p>Add the headers of the request in the form of a standard [!DNL JSON] object.</p> <p>For example, <code>{"Content-type":"application/json"}</code></p> <p>Workfront Fusion adds the authorization headers for you.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Query String</td> 
@@ -210,7 +211,7 @@ When you are configuring this module, the following fields display.
   </tr> 
   <tr> 
    <td role="rowheader">Body</td> 
-   <td> <p>Add the body content for the API call in the form of a standard JSON object.</p> <p>Note:  <p>When using conditional statements such as <code>if</code> in your JSON, put the quotation marks outside of the conditional statement.</p> 
+   <td> <p>Add the body content for the API call in the form of a standard [!DNL JSON] object.</p> <p>Note:  <p>When using conditional statements such as <code>if</code> in your JSON, put the quotation marks outside of the conditional statement.</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td> 
@@ -242,7 +243,7 @@ When you are configuring this module, the following fields display.
   </tr> 
   <tr> 
    <td role="rowheader">ID</td> 
-   <td> <p>Enter or map the unique Microsoft Dynamics 365 ID of the record that you want the module to delete.</p> </td> 
+   <td> <p>Enter or map the unique [!DNL Microsoft Dynamics] 365 ID of the record that you want the module to delete.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -275,7 +276,7 @@ When you are configuring this module, the following fields display.
   </tr> 
   <tr> 
    <td role="rowheader">ID</td> 
-   <td>Enter or map the unique Microsoft Dynamics 365 ID of the record that you want the module to read.</td> 
+   <td>Enter or map the unique [!DNL Microsoft Dynamics] 365 ID of the record that you want the module to read.</td> 
   </tr> 
  </tbody> 
 </table>
@@ -308,7 +309,7 @@ When you are configuring this module, the following fields display.
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">ID</td> 
-   <td>Enter or map the unique Microsoft Dynamics 365 ID of the record that you want the module to update.</td> 
+   <td>Enter or map the unique [!DNL Microsoft Dynamics] 365 ID of the record that you want the module to update.</td> 
   </tr> 
  </tbody> 
 </table>
@@ -336,7 +337,7 @@ When you are configuring this module, the following fields display.
    <td> <p>Select the filter that you want to use for this search.</p> 
     <ul> 
      <li> <p><strong>Standard Filters</strong> </p> <p>Set up the filter by selecting a field and operator, and entering or mapping the value that you want to search for. You can use AND or OR rules to your filter.</p> </li> 
-     <li> <p><strong>Query Functions</strong> </p> <p>Enter the Dynamics 365 web API query function that you want to use to search. </p> <p>For more information on query functions, see <a href="https://docs.microsoft.com/en-us/dynamics365/customer-engagement/web-api/queryfunctions?view=dynamics-ce-odata-9">Web API Query Function Reference</a> in the Microsoft documentation.</p> </li> 
+     <li> <p><strong>Query Functions</strong> </p> <p>Enter the [!DNL Dynamics] 365 web API query function that you want to use to search. </p> <p>For more information on query functions, see <a href="https://docs.microsoft.com/en-us/dynamics365/customer-engagement/web-api/queryfunctions?view=dynamics-ce-odata-9">Web API Query Function Reference</a> in the Microsoft documentation.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 

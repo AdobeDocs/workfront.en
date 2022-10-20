@@ -35,26 +35,26 @@ You must have the following access to use the functionality in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
+   <td>Your organization must purchase [!DNL Adobe Workfront Fusion] as well as [!DNL Adobe Workfront] to use functionality described in this article.</td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+&#42;To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
 
 &#42;&#42;For information on Adobe Workfront Fusion licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
 ## Repeater
 
-You can use a Repeater module to repeat a task a given number of times. A Repeater module generates bundles, one after another.
+You can use a [!DNL Repeater] module to repeat a task a given number of times. A [!DNL Repeater] module generates bundles, one after another.
 
-For example, you could use a Repeater module to send five emails with the subjects "Hello 1," "Hello 2," and so on, by connecting the **Email > Send me an email** module to the Repeater module.
+For example, you could use a Repeater module to send five emails with the subjects "Hello 1," "Hello 2," and so on, by connecting the **Email >[!UICONTROL Send me an email]** module to the Repeater module.
 
-To use a Repeater module:
+To use a [!DNL Repeater] module:
 
-1. Click the Flow Control icon ![](assets/flow-control-icon.gif) at the bottom of the screen, then click **Repeater** in the menu that displays.
-1. Click the Repeater bundle, then click **Connect automatically** in the box that displays.
-1. In the Flow Control box that appears, type the number of repetitions (outputted bundles) you want in the **Repeats** box.
+1. Click the Flow Control icon ![](assets/flow-control-icon.gif) at the bottom of the screen, then click **[!DNL Repeater]** in the menu that displays.
+1. Click the Repeater bundle, then click **[!UICONTROL Connect] automatically** in the box that displays.
+1. In the Flow Control box that appears, type the number of repetitions (outputted bundles) you want in the **[!UICONTROL Repeats]** box.
 
    In our email example, you would type 5.
 
@@ -67,21 +67,21 @@ To use a Repeater module:
 1. Click the app or service module connected to the Repeater module.
 1. In the box that appears, type the information that you want to repeat.
 
-   In our email example, you would type Hello in the Subject box, then map `i` from the repeater module.
+   In our email example, you would type Hello in the [!UICONTROL Subject] box, then map `i` from the repeater module.
 
    ![](assets/repeater-3-350x207.png)
 
-|Item|Description|
+| Item | Description |
 |---|---|
-| Initial value |Enter or map the number that you want the module to set as `i` in the first iteration. The default value is 1. |
-| Repeats |Enter or map the number of times that you want the module to repeat. This number must be greater than or equal to 0, and less than or equal to 10,000. |
-| Step |This is the number by which the module increases the value of `i`. The default value is 1. |
+| Initial value | Enter or map the number that you want the module to set as `i` in the first iteration. The default value is 1. |
+| Repeats | Enter or map the number of times that you want the module to repeat. This number must be greater than or equal to 0, and less than or equal to 10,000. |
+| Step | This is the number by which the module increases the value of `i`. The default value is 1. |
 
 {style="table-layout:auto"}
 
 >[!NOTE]
 >
->The number of repeats is not determined by the value of `i`, as it would be in a loop in programming. The module will repeat the number of times indicated in the Repeats field. The value `i` changes with each iteration of the repeater module, and can be mapped to later modules. The example above maps the value of `i` into the Hello message, resulting in messages that read "Hello 1," Hello 2," and so on.
+>The number of repeats is not determined by the value of `i`, as it would be in a loop in programming. The module will repeat the number of times indicated in the [!UICONTROL Repeats] field. The value `i` changes with each iteration of the [!DNL repeater] module, and can be mapped to later modules. The example above maps the value of `i` into the Hello message, resulting in messages that read "Hello 1," Hello 2," and so on.
 
 ## Iterator
 

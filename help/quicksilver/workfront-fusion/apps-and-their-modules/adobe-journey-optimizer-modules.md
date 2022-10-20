@@ -5,7 +5,7 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: apps-and-their-modules
 title: Adobe Journey Optimizer modules
-description: In an Adobe Workfront Fusion scenario, you can automate workflows that use Adobe Journey Optimizer, as well as connect it to multiple third-party applications and services. 
+description: In an [!DNL Adobe Workfront] Fusion scenario, you can automate workflows that use [!DNL Adobe Journey Optimizer], as well as connect it to multiple third-party applications and services. 
 author: Becky
 ---
 
@@ -15,7 +15,7 @@ author: Becky
 Becky: pull from main, add to TOCs, then push to merge.
 -->
 
-In an Adobe Workfront Fusion scenario, you can automate workflows that use Adobe Journey Optimizer, as well as connect it to multiple third-party applications and services. Adobe Journey Optimizer modules allow you to create, read, update, or delete records, or perform a custom API call to the Adobe Journey Optimizer API.
+In an [!DNL Adobe Workfront] Fusion scenario, you can automate workflows that use [!DNL Adobe Journey Optimizer], as well as connect it to multiple third-party applications and services. [!DNL Adobe Journey Optimizer] modules allow you to create, read, update, or delete records, or perform a custom API call to the [!DNL Adobe Journey Optimizer] API.
 
 
 If you need instructions on creating a scenario, see [Create a scenario](../../workfront-fusion/scenarios/create-a-scenario.md).
@@ -50,31 +50,31 @@ You must have the following access to use the functionality in this article:
     </tr>
     <tr>
       <td role="rowheader">Product</td>
-      <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td>
+      <td>Your organization must purchase [!DNL Adobe Workfront Fusion] as well as [!DNL Adobe Workfront] to use functionality described in this article.</td>
     </tr>
   </tbody>
 </table>
 
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+&#42;To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
 
 &#42;&#42;For information on Adobe Workfront Fusion licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
 ## Prerequisites
 
-Before you can use the Adobe Journey Optimizer connector, you must ensure that the following prerequisites are met:
+Before you can use the [!DNL Adobe Journey Optimizer] connector, you must ensure that the following prerequisites are met:
 
-*   You must have an active Adobe Journey Optimizer account.
+* You must have an active [!DNL Adobe Journey Optimizer] account.
 
 ## Create a connection to Adobe Journey Optimizer
 
-To create a connection for your Adobe Journey Optimizer modules:
+To create a connection for your [!DNL Adobe Journey Optimizer] modules:
 
-1.  In any Adobe Journey Optimizer module, click **Add** next to the Connection box.
-    
-1.  Fill in the following fields:
-      
-    <table style="table-layout:auto"> 
+1. In any [!DNL Adobe Journey Optimizer] module, click **Add** next to the Connection box.
+
+1. Fill in the following fields:
+
+   <table style="table-layout:auto"> 
       <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column1">
       </col>
       <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column2">
@@ -127,18 +127,18 @@ To create a connection for your Adobe Journey Optimizer modules:
                 <p>Enter the password for the file.</p>
               </li>
               <li value="5">
-                <p>Click <b>Save</b> to extract the file and return to the connection setup.</p>
+                <p>Click <b>[!UICONTROL Save]</b> to extract the file and return to the connection setup.</p>
               </li>
             </ol>
           </td>
         </tr>
       </tbody>
     </table>
-1. Click **Continue** to save the connection and return to the module.
+1. Click **[!UICONTROL Continue]** to save the connection and return to the module.
 
 ## Adobe Journey Optimizer modules and their fields
 
-When you configure Adobe Journey Optimizer modules, Workfront Fusion displays the fields listed below. Along with these, additional Adobe Journey Optimizer fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
+When you configure [!DNL Adobe Journey Optimizer] modules, [!DNL Workfront Fusion] displays the fields listed below. Along with these, additional [!DNL Adobe Journey Optimizer] fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
 
 If you see the map button above a field or function, you can use it to set variables and functions for that field. For more information, see [Map information from one module to another in Adobe Workfront Fusion](../../workfront-fusion/mapping/map-information-between-modules.md).
 
@@ -173,7 +173,7 @@ This action module creates a placement, decision rule, tag, personalized offer, 
       <td>
         Select the type of record that you want to create
         <ul>
-        <li><b>Placement</b>: Continue to <a href="#placement-fields" >Placement fields</a>.</li>
+        <li><b>[!UICONTROL Placement]</b>: Continue to <a href="#placement-fields" >Placement fields</a>.</li>
         <li><b>Decision rule</b>: Continue to <a href="#decision-rule-fields" >Decision rule fields</a>.</li>
         <li><b>Decision</b>: Continue to <a href="#decision-fields" >Decision fields</a>.</li>
         <li><b>Tag</b>: Continue to <a href="#tag-fields" >Tag fields</a>.</li>
@@ -429,12 +429,12 @@ This action module deletes a single record in Adobe Journey Optimizer.
       </td>
     </tr>
 
-  </tbody>
+</tbody>
 </table>
 
 #### Make a custom API call
 
-This module makes a custom API call to the Adobe Journey Optimizer API
+This module makes a custom API call to the [!DNL Adobe Journey Optimizer] API
 
 <table>
   <col/>
@@ -463,7 +463,7 @@ This module makes a custom API call to the Adobe Journey Optimizer API
     <tr>
       <td role="rowheader">Headers</td>
       <td>
-        <p>Add the headers of the request in the form of a standard JSON object.</p>
+        <p>Add the headers of the request in the form of a standard [!DNL JSON] object.</p>
         <p>For example, <code>{"Content-type":"application/json"}</code></p>
         <p>Workfront Fusion adds authorization headers and x-api-key headers automatically.</p>
       </td>
@@ -476,7 +476,7 @@ This module makes a custom API call to the Adobe Journey Optimizer API
     </tr>
     <tr>
       <td role="rowheader">Body</td>
-   <td> <p>Add the body content for the API call in the form of a standard JSON object.</p> <p>Note:  <p>When using conditional statements such as <code>if</code> in your JSON, put the quotation marks outside of the conditional statement.</p> 
+   <td> <p>Add the body content for the API call in the form of a standard [!DNL JSON] object.</p> <p>Note:  <p>When using conditional statements such as <code>if</code> in your JSON, put the quotation marks outside of the conditional statement.</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td>     </tr>
@@ -526,7 +526,7 @@ This action module deletes a single record in Adobe Journey Optimizer.
       </td>
     </tr>
 
-  </tbody>
+</tbody>
 </table>
 
 #### Update a record
@@ -578,7 +578,7 @@ This action module creates a placement, decision, decision rule, tag, personaliz
       </td>
     </tr>
 
-  </tbody>
+</tbody>
 </table>
 
 
@@ -622,7 +622,7 @@ This search module lists records of the selected type, returning results based o
     </tr>
     <tr>
       <td role="rowheader">Fields</td>
-      <td><p>If you want to limit the search to specific fields, enter the fields. For each field that you want to limit the search to, click Add item and enter the name of the field.</p><p>Path expressions are in the form of dot separated paths such as <code>_instance.xdm:name</code>.</p>
+      <td><p>If you want to limit the search to specific fields, enter the fields. For each field that you want to limit the search to, click [!UICONTROL Add item] and enter the name of the field.</p><p>Path expressions are in the form of dot separated paths such as <code>_instance.xdm:name</code>.</p>
       </td>
     </tr>
     <tr>

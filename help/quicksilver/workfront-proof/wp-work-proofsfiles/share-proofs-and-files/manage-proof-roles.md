@@ -2,36 +2,36 @@
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: share-proofs-and-files
-title: Manage Proof Roles in Workfront Proof
-description: Proof roles enable you to grant permissions to users who are limited by the permission profile that is configured on their user profile. (For more information about permission profiles, see Proof Permissions Profiles in Workfront Proof.)
+title: Manage Proof Roles in [!DNL Workfront] Proof
+description: Proof roles enable you to grant permissions to users who are limited by the permission profile that is configured on their user profile. (For more information about permission profiles, see Proof Permissions Profiles in [!DNL Workfront] Proof.)
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: b371cc20-4226-49ce-96c6-9815b2e84713
 ---
-# Manage Proof Roles in Workfront Proof
+# Manage Proof Roles in [!DNL Workfront] Proof
 
 >[!IMPORTANT]
 >
->This article refers to functionality in the standalone product Workfront Proof. For information on proofing inside Adobe Workfront, see [Proofing](../../../review-and-approve-work/proofing/proofing.md).
+>This article refers to functionality in the standalone product [!DNL Workfront] Proof. For information on proofing inside [!DNL Adobe Workfront], see [Proofing](../../../review-and-approve-work/proofing/proofing.md).
 
-Proof roles enable you to grant permissions to users who are limited by the permission profile that is configured on their user profile. (For more information about permission profiles, see [Proof Permissions Profiles in Workfront Proof](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md).)
+Proof roles enable you to grant permissions to users who are limited by the permission profile that is configured on their user profile. (For more information about permission profiles, see [Proof Permissions Profiles in [!DNL Workfront] Proof](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md).)
 
 Proof roles are different from account profiles. Your account profile relates to the overall permission level you have in your account and will affect the rights you have over all proofs in your account, even those which have not explicitly been shared with you.
 
-For more information, see [Proof Permissions Profiles in Workfront Proof](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md).
+For more information, see [Proof Permissions Profiles in [!DNL Workfront] Proof](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md).
 
 ## About Proof Roles
 
 The following proof roles are granted to users for an individual proof at the time the user is invited to review the proof:
 
-* [Read Only](#read-only) 
-* [Reviewer](#reviewer) 
-* [Approver](#approver) 
-* [Reviewer & Approver](#reviewer-approver) 
-* [Author](#author) 
+* [Read Only](#read-only)
+* [Reviewer](#reviewer)
+* [Approver](#approver)
+* [Reviewer & Approver](#reviewer-approver)
+* [Author](#author)
 * [Moderator](#moderator)
 
-The proof role defines what actions a reviewer can take in relation to that specific proof.
+The [!UICONTROL proof] role defines what actions a reviewer can take in relation to that specific proof.
 
 For example, if you are a Reviewer, you are being asked to review the proof by adding markups and comments. If you are a Reviewer & Approver, you are being asked to review and also make a decision on the proof.
 
@@ -39,7 +39,7 @@ Certain proof roles give a reviewer edit rights on the proof (even if their acco
 
 For more information, see the following articles:
 
-* [Use actions on proof comments](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/use-actions-on-comments-in-viewer.md) 
+* [Use actions on proof comments](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/use-actions-on-comments-in-viewer.md)
 * &nbsp;
 * [Share a Proof in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-proof.md)
 
@@ -61,7 +61,7 @@ For more information, see the following articles:
 
 >[!NOTE]
 >
->&nbsp;If a folder is shared with a user of Workfront Proof, they will automatically be given Read Only rights to all existing and subsequently added items in the folder.
+>&nbsp;If a folder is shared with a user of [!DNL Workfront] Proof, they will automatically be given Read Only rights to all existing and subsequently added items in the folder.
 
 For more information, see [Share Folders in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/share-folders.md).
 
@@ -73,7 +73,7 @@ For more information, see [Share Folders in Workfront Proof](../../../workfront-
 
 ![cleaner.png](assets/cleaner.png) Can add comments
 
-![cleaner.png](assets/cleaner.png) Can edit own comments if there are no replies
+![[!DNL cleaner].png](assets/cleaner.png) Can edit own comments if there are no replies
 
 ![no.png](assets/no.png) Cannot make a decision
 
@@ -103,7 +103,7 @@ For more information, see [Share Folders in Workfront Proof](../../../workfront-
 
 ![cleaner.png](assets/cleaner.png) Can add comments
 
-![cleaner.png](assets/cleaner.png) Can edit own comments if there are no replies
+![[!DNL cleaner].png](assets/cleaner.png) Can edit own comments if there are no replies
 
 ![cleaner.png](assets/cleaner.png) Can make a decision
 
@@ -117,7 +117,7 @@ For more information, see [Share Folders in Workfront Proof](../../../workfront-
 
 ![cleaner.png](assets/cleaner.png) Can add comments
 
-![cleaner.png](assets/cleaner.png) Can edit own comments if there are no replies
+![[!DNL cleaner].png](assets/cleaner.png) Can edit own comments if there are no replies
 
 ![cleaner.png](assets/cleaner.png) Can make a decision
 
@@ -135,7 +135,7 @@ For more information, see [Share Folders in Workfront Proof](../../../workfront-
 
 >[!NOTE]
 >
->&nbsp;This role can only be assigned to users of Workfront Proof
+>&nbsp;This role can only be assigned to users of [!DNL Workfront] Proof
 
 ### Moderator {#moderator}
 
@@ -143,7 +143,7 @@ For more information, see [Share Folders in Workfront Proof](../../../workfront-
 
 ![cleaner.png](assets/cleaner.png) Can add comments
 
-![cleaner.png](assets/cleaner.png) Can edit own comments if there are no replies
+![[!DNL cleaner].png](assets/cleaner.png) Can edit own comments if there are no replies
 
 ![cleaner.png](assets/cleaner.png) Can make a decision
 
@@ -166,19 +166,19 @@ This role allows the person to manage and moderate the proof comments, giving th
 
 >[!NOTE]
 >
->&nbsp;This role can only be assigned to users of Workfront Proof.
+>&nbsp;This role can only be assigned to users of [!DNL Workfront] Proof.
 
 ## Assigning Proof Roles
 
 You can assign proof roles when creating new proofs, creating new versions of existing proofs, or on existing proofs.
 
-* [New Proofs](#new-proofs) 
-* [New Versions](#new-versions) 
+* [New Proofs](#new-proofs)
+* [New Versions](#new-versions)
 * [Existing Proofs](#existing-proofs)
 
 ### New Proofs {#new-proofs}
 
-Proof roles can be assigned to reviewers on the New proof page during the proof creation process (1).
+Proof roles can be assigned to reviewers on the [!UICONTROL New proof] page during the proof creation process (1).
 
 ![Proof_roles_-_New_Proof_page.png](assets/proof-roles---new-proof-page-350x184.png)
 
@@ -192,7 +192,7 @@ You can edit the proof roles applied to reviewers when creating the new version 
 
 ### Existing Proofs {#existing-proofs}
 
-If you want to change a person's role on an existing proof, you can do so on the Proof details page by inline editing their role in the workflow section (1):
+If you want to change a person's role on an existing proof, you can do so on the [!UICONTROL Proof details] page by inline editing their role in the [!UICONTROL workflow] section (1):
 
 ![Proof_Roles_-_Proof_Details_page_2.png](assets/proof-roles---proof-details-page-2-350x131.png)
 
@@ -204,32 +204,32 @@ You can check the role of a reviewer directly from the Proof Viewer (1) and edit
 
 ## Default Proof Roles
 
-You can set your default proof role on the Proofing Defaults page in your Personal settings. This means that when you are added to a proof, your default proof role will be populated automatically. Please note that this role can be changed at the proof level by a user with edit rights on a proof.
+You can set your default proof role on the [!DNL Proofing Defaults] page in your Personal settings. This means that when you are added to a proof, your default proof role will be populated automatically. Please note that this role can be changed at the proof level by a user with edit rights on a proof.
 
 >[!NOTE]
 >
 >&nbsp;Only users with Administrator or Billing Administrator profiles can change the proofing defaults for other users in their account.
 
-For more information, see [Personal settings in Workfront Proof](../../../workfront-proof/wp-getstarted/personal-settings/personal-settings.md).
+For more information, see [Personal settings in [!DNL Workfront] Proof](../../../workfront-proof/wp-getstarted/personal-settings/personal-settings.md).
 
 ## Creators and Owners
 
 Creators and Owners have full edit rights on the proof.
 
-* [Creators](#creators) 
+* [Creators](#creators)
 * [Owners](#owners)
 
 ### Creators {#creators}
 
-The proof creator is the person who uploads the proof in the first instance. The proof creator will be shown automatically in the people list for the proof (in their default role).
+The proof creator is the person who uploads the proof in the first instance. The proof creator will be shown automatically in the [!UICONTROL people] list for the proof (in their default role).
 
-On the New proof page&nbsp;you can assign a different proof role to the proof creator (other than their default role).
+On the [!UICONTROL New proof] page&nbsp;you can assign a different proof role to the proof creator (other than their default role).
 
 The proof creator cannot be changed or removed from a proof.
 
 ### Owners {#owners}
 
-By default, the Creator is also the Owner of the proof; however, the Creator can make someone else the proof Owner when initially creating the proof (on the New proof page).
+By default, the Creator is also the Owner of the proof; however, the Creator can make someone else the proof Owner when initially creating the proof (on the [!UICONTROL New proof] page).
 
 To change the Owner on the New proof page:
 
@@ -242,11 +242,11 @@ Once the proof has been created, it's still possible to change the owner. Anyone
 
 The ability to change the Owner of a proof is particularly useful from a workflow management point of view. It allows the person responsible for the project to take over the ownership of proofs, giving them edit rights on the proofs and the ability to view them in the My proofs view.
 
-To change the Owner of the proof via the Proof details page:
+To change the Owner of the proof via the [!UICONTROL Proof] details page:
 
 * Click on the Actions menu next to the name of the person you would like to make the Owner&nbsp;
-* Select Make owner from the drop-down menu.&nbsp;
-* Alternatively, you can click into the Owner field next to the proof image and choose the new Owner from the drop-down displayed.
+* Select [!UICONTROL Make owner] from the drop-down menu.&nbsp;
+* Alternatively, you can click into the [!UICONTROL Owner] field next to the proof image and choose the new Owner from the drop-down displayed.
 
 Once this is done, the word "Owner" will be displayed next to that person's name.
 
@@ -254,10 +254,12 @@ Once this is done, the word "Owner" will be displayed next to that person's name
 >
 >Only a user from the same account or a partner account can be made the owner&nbsp;of a proof. A user in a partner account can be made the owner of a proof only when:
 >
->* There is an existing partner relationship set up between the accounts. For more information, see [Partner accounts in Workfront Proof](../../../workfront-proof/wp-acct-admin/partner-accounts/partner-accounts.md).
->* There are no custom fields on the new proof page.
+>* There is an existing partner relationship set up between the accounts. For more information, see [Partner accounts in [!DNL Workfront] Proof](../../../workfront-proof/wp-acct-admin/partner-accounts/partner-accounts.md).
+>* There are no custom fields on the [!UICONTROL new proof] page.
 >* The proof has not been assigned to a folder.
 >* No tags have been applied to the proof.
 >
 
-To temporarily delegate proof ownership within Workfront Proof, see [Designating Temporary Proof Owners in Workfront Proof](../../../workfront-proof/wp-getstarted/personal-settings/designate-temp-proof-owners.md).
+
+
+To temporarily delegate proof ownership within [!DNL Workfront] Proof, see [Designating Temporary Proof Owners in [!DNL Workfront] Proof](../../../workfront-proof/wp-getstarted/personal-settings/designate-temp-proof-owners.md).

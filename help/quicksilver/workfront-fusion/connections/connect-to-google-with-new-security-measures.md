@@ -3,13 +3,13 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 keywords: connector
 navigation-topic: connections-annd-webhooks
-title: Connect Adobe Workfront Fusion to Google Services with updated security measures
-description: Google recently introduced restrictions on how users can use their API. This article describes how to connect Adobe Workfront Fusion to Google, accounting for these update security measures.
+title: Connect [!DNL Adobe Workfront Fusion] to [!DNL Google Services] with updated security measures
+description: Google recently introduced restrictions on how users can use their API. This article describes how to connect [!DNL Adobe Workfront Fusion] to Google, accounting for these update security measures.
 author: Becky
 feature: Workfront Fusion
 exl-id: 32dfef7a-7942-4025-8cb9-055d4e28090b
 ---
-# Connect Adobe Workfront Fusion to Google Services with updated security measures
+# Connect [!DNL Adobe Workfront Fusion] to [!DNL Google Services] with updated security measures
 
 ## Access requirements
 
@@ -33,12 +33,12 @@ You must have the following access to use the functionality in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
+   <td>Your organization must purchase [!DNL Adobe Workfront Fusion] as well as [!DNL Adobe Workfront] to use functionality described in this article.</td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+&#42;To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
 
 &#42;&#42;For information on Adobe Workfront Fusion licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
@@ -50,13 +50,13 @@ To access restricted scopes, the connected service (Adobe Workfront Fusion or an
 
 ## Exceptions to Google Services restrictions
 
-There are a few exceptions that make it possible to send data to an unapproved third-party service that doesn't have the Letter of Assessment without violating any of the new restrictions. They differ based on G Suite with the Workfront Fusion OAuth client, G Suite with another OAuth client, or @gmail.com and @google.mail.com.
+There are a few exceptions that make it possible to send data to an unapproved third-party service that doesn't have the Letter of Assessment without violating any of the new restrictions. They differ based on G Suite with the [!DNL Workfront Fusion] OAuth client, G Suite with another OAuth client, or @gmail.com and @google.mail.com.
 
-* [G suite with Workfront Fusion OAuth client](#g-suite-with-workfront-fusion-oauth-client) 
-* [G suite with another OAuth client](#g-suite-with-another-oauth-client) 
+* [G suite with [!DNL Workfront] Fusion OAuth client](#g-suite-with-workfront-fusion-oauth-client)
+* [G suite with another OAuth client](#g-suite-with-another-oauth-client)
 * [@gmail.com and @googlemail.com](#gmail-com-and-googlemail-com)
 
-### G suite with Workfront Fusion OAuth client {#g-suite-with-workfront-fusion-oauth-client}
+### G suite with [!DNL Workfront] Fusion OAuth client {#g-suite-with-workfront-fusion-oauth-client}
 
 Workfront Fusion uses the Domain-wide Installation exception. Domain-wide Installation is suited for G Suite users, and allows users to integrate unapproved services without any limitations. If you are a G Suite user, you don't have to perform any additional steps and can directly connect to unapproved services.
 
@@ -70,18 +70,18 @@ User that access Google Services through @gmail.com or @googlemail.com can conne
 
 ## FAQ
 
-* [What apps in Adobe Workfront Fusion are affected?](#what-apps-in-adobe-workfront-fusion-are-affected) 
-* [Do I have a G Suite account?](#do-i-have-a-g-suite-account) 
-* [What should I do if I'm @gmail.com or @googlemail.com user?](#what-should-i-do-if-i-m-gmail-com-or-googlemail-com-user) 
+* [What apps in [!DNL Adobe Workfront Fusion] are affected?](#what-apps-in-adobe-workfront-fusion-are-affected)
+* [Do I have a G Suite account?](#do-i-have-a-g-suite-account)
+* [What should I do if I'm @gmail.com or @googlemail.com user?](#what-should-i-do-if-i-m-gmail-com-or-googlemail-com-user)
 * [What should I do if I'm a G Suite user?](#what-should-i-do-if-i-m-a-g-suite-user)
 
-### What apps in Adobe Workfront Fusion are affected? {#what-apps-in-adobe-workfront-fusion-are-affected}
+### What apps in [!DNL Adobe Workfront Fusion] are affected? {#what-apps-in-adobe-workfront-fusion-are-affected}
 
 Google Drive, Gmail, and Email (connected to Gmail account).
 
 ### Do I have a G Suite account? {#do-i-have-a-g-suite-account}
 
-If your email address ends with @gmail.com or @googlemail.com your account is not a G Suite account. If your Google account ends with custom domain such as @my-company.com then it is a G Suite account.
+If your email address ends with [!DNL @gmail.com] or [!DNL @googlemail.com] your account is not a G Suite account. If your Google account ends with custom domain such as @my-company.com then it is a G Suite account.
 
 ### What should I do if I'm @gmail.com or @googlemail.com user? {#what-should-i-do-if-i-m-gmail-com-or-googlemail-com-user}
 
@@ -89,11 +89,11 @@ These new restrictions only apply if you are integrating Google Drive or Gmail. 
 
 * Switch to G Suite
 
-  or 
+   or
 
 * Create a custom OAuth client. This option is intended for advanced users.
 
-  For instructions, see [Connect Adobe Workfront Fusion to Google Services using a custom OAuth client](../../workfront-fusion/connections/connect-fusion-to-google-using-oauth.md).
+   For instructions, see [Connect Adobe Workfront Fusion to Google Services using a custom OAuth client](../../workfront-fusion/connections/connect-fusion-to-google-using-oauth.md).
 
 If you want to integrate any other service than Google Drive or Gmail, these restrictions do not apply.
 

@@ -35,12 +35,12 @@ You must have the following access to use the functionality in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
+   <td>Your organization must purchase [!DNL Adobe Workfront Fusion] as well as [!DNL Adobe Workfront] to use functionality described in this article.</td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+&#42;To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
 
 &#42;&#42;For information on Adobe Workfront Fusion licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
@@ -48,8 +48,8 @@ You must have the following access to use the functionality in this article:
 
 When you are configuring this module, the following fields display. A bolded title in a module indicates a required field.
 
-* [Resize](#resize) 
-* [Convert a format](#convert-a-format) 
+* [Resize](#resize)
+* [Convert a format](#convert-a-format)
 * [Extract metadata](#extract-metadata)
 
 ### Resize {#resize}
@@ -66,11 +66,11 @@ This transformer module changes an image's height and width according to criteri
   </tr> 
   <tr> 
    <td role="rowheader">Data</td> 
-   <td>Map the file that you want to convert. This field is available if you selected Map in the Source file field.</td> 
+   <td>Map the file that you want to convert. This field is available if you selected Map in the [!UICONTROL Source file] field.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">File name</td> 
-   <td>Enter a name for the converted file. This field is available if you selected Map in the Source file field.</td> 
+   <td>Enter a name for the converted file. This field is available if you selected Map in the [!UICONTROL Source file] field.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">I want to</td> 
@@ -78,7 +78,7 @@ This transformer module changes an image's height and width according to criteri
   </tr> 
   <tr> 
    <td role="rowheader">According to</td> 
-   <td> <p>Select how you want the module to determine the new size of the image. This field appears if you selected to maintain height-width ration in the I&nbsp;want to field. Other fields appear based on the selection in this field.</p> 
+   <td> <p>Select how you want the module to determine the new size of the image. This field appears if you selected to maintain height-width ration in the I want to field. Other fields appear based on the selection in this field.</p> 
     <ul> 
      <li> <p>Maximum width</p> <p>Reduces an image to a width you specify. Height is calculated automatically.</p> </li> 
      <li> <p>Maximum height</p> <p>Reduces an image to a height you specify. Width is calculated automatically.</p> </li> 
@@ -109,7 +109,7 @@ This transformer module changes the format of an image file. This module is comp
 * GIF
 * BMP
 
-Both the source file and the output must be in one of these formats. For example, the Image > Convert a format module can transform a PNG file into a BMP file, or a BMP&nbsp;into a JPG.
+Both the source file and the output must be in one of these formats. For example, the [!UICONTROL Image] >[!UICONTROL Convert a format] module can transform a PNG file into a BMP file, or a BMP&nbsp;into a JPG.
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -121,11 +121,11 @@ Both the source file and the output must be in one of these formats. For example
   </tr> 
   <tr> 
    <td role="rowheader">Data</td> 
-   <td>Map the file that you want to convert. This field is available if you selected Map in the Source file field.</td> 
+   <td>Map the file that you want to convert. This field is available if you selected Map in the [!UICONTROL Source file] field.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">File name</td> 
-   <td>Enter a name for the converted file. This field is available if you selected Map in the Source file field.</td> 
+   <td>Enter a name for the converted file. This field is available if you selected Map in the [!UICONTROL Source file] field.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Output format</td> 
@@ -148,11 +148,11 @@ This transformer module returns basic information about a module.
   </tr> 
   <tr> 
    <td role="rowheader">Data</td> 
-   <td>Map the file that you want to convert. This field is available if you selected Map in the Source file field.</td> 
+   <td>Map the file that you want to convert. This field is available if you selected Map in the [!UICONTROL Source file] field.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">File name</td> 
-   <td>Enter a name for the converted file. This field is available if you selected Map in the Source file field.</td> 
+   <td>Enter a name for the converted file. This field is available if you selected Map in the [!UICONTROL Source file] field.</td> 
   </tr> 
  </tbody> 
 </table>

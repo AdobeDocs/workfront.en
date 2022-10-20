@@ -5,14 +5,14 @@ product-area: workfront-integrations
 keywords: connector
 navigation-topic: apps-and-their-modules
 title: Adobe Acrobat Sign modules
-description: With the Adobe Acrobat Sign modules, you can start an Adobe Workfront Fusion scenario based on events in your Adobe Acrobat Sign account, create, read, or update agreements and other records, search for records using criteria you set, and upload documents.
+description: With the Adobe Acrobat Sign modules, you can start an [!DNL Adobe Workfront Fusion] scenario based on events in your [!DNL Adobe] Acrobat Sign account, create, read, or update agreements and other records, search for records using criteria you set, and upload documents.
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 01158218-31a6-4c68-a9b7-6a678a8f40c9
 ---
 # Adobe Acrobat Sign modules
 
-With the Adobe Acrobat Sign modules, you can start an Adobe Workfront Fusion scenario based on events in your Adobe Acrobat Sign account, create, read, or update agreements and other records, search for records using criteria you set, and upload documents.
+With the Adobe Acrobat Sign modules, you can start an [!DNL Adobe Workfront Fusion] scenario based on events in your [!DNL Adobe] Acrobat Sign account, create, read, or update agreements and other records, search for records using criteria you set, and upload documents.
 
 ## Access requirements
 
@@ -36,12 +36,12 @@ You must have the following access to use the functionality in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
+   <td>Your organization must purchase [!DNL Adobe Workfront Fusion] as well as [!DNL Adobe Workfront] to use functionality described in this article.</td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+&#42;To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
 
 &#42;&#42;For information on Adobe Workfront Fusion licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
@@ -57,14 +57,14 @@ Adobe Sign agreements need a field to work with. There are some options for doin
 
 ## Adobe Acrobat Sign modules and their fields
 
-When you configure Adobe Acrobat Sign modules, Workfront Fusion displays the fields listed below. Along with these, additional Adobe Acrobat Sign fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
+When you configure Adobe Acrobat Sign modules, [!DNL Workfront Fusion] displays the fields listed below. Along with these, additional Adobe Acrobat Sign fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
 
 If you see the map button above a field or function, you can use it to set variables and functions for that field. For more information, see [Map information from one module to another in Adobe Workfront Fusion](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 ![](assets/map-toggle-350x74.png)
 
-* [Triggers](#triggers) 
-* [Actions](#actions) 
+* [Triggers](#triggers)
+* [Actions](#actions)
 * [Searches](#searches)
 
 ### Triggers {#triggers}
@@ -134,7 +134,7 @@ This trigger module starts a scenario when an event that you select occurs.
      <li> <p>Account</p> </li> 
      <li> <p>Group</p> </li> 
      <li> <p>User</p> </li> 
-     <li> <p>Resource</p> <p>If you select Resource, Enter the Resource ID and the Resource type.</p> </li> 
+     <li> <p>Resource</p> <p>If you select [!UICONTROL Resource], Enter the Resource ID and the Resource type.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -149,7 +149,7 @@ This trigger module starts a scenario when an event that you select occurs.
   </tr> 
   <tr> 
    <td role="rowheader">Webhook subscription events</td> 
-   <td>Select the Adobe Sign events that you want the module to watch.</td> 
+   <td>Select the [!DNL Adobe Sign] events that you want the module to watch.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Application display name</td> 
@@ -221,9 +221,9 @@ This action module creates a new record of the selected type.
    <td role="rowheader">Library document info</td> 
    <td> <p>Fill in the following fields:</p> 
     <ul> 
-     <li> <p><b>Files to send</b> </p> <p>For each file you want to add, click <b>Add item</b> and fill in the fields.</p> 
+     <li> <p><b>Files to send</b> </p> <p>For each file you want to add, click <b>[!UICONTROL Add item]</b> and fill in the fields.</p> 
       <ul> 
-       <li><b>Transient document ID</b> <p>Enter the ID&nbsp;of the transient document</p> </li> 
+       <li><b>Transient document ID</b> <p>Enter the ID of the transient document</p> </li> 
        <li> <p><b>URL file transfer</b> </p> <p>Fill in the following fields:</p> 
         <ul> 
          <li> <p><b>Mime-Type</b> </p> <p>Enter the mime type of the original file. Multipurpose Internet Mail Extension (MIME) types are labels that allow software to identify different types of data shared on the internet. Web servers and browsers use the MIME type to determine what should be done with a file. For example, a file with the MIME type <code>text/html</code> will be processed in a browser differently than a file with MIME type <code>image/jpeg</code>.</p> </li> 
@@ -235,7 +235,7 @@ This action module creates a new record of the selected type.
      <li> <p><b>Library template name</b> </p> <p>Enter or map the name of the library template</p> </li> 
      <li> <p><b>Sharing mode</b> </p> <p>Specify who should have access to the library document.</p> </li> 
      <li> <p><b>Library document state</b> </p> <p>Select whether the document is in authoring state or active.</p> </li> 
-     <li> <p><b>Library template type</b> </p> <p>For each library template type you want to use, click <b>Add item</b> and select the template type.</p> </li> 
+     <li> <p><b>Library template type</b> </p> <p>For each library template type you want to use, click <b>[!UICONTROL Add item]</b> and select the template type.</p> </li> 
      <li> <p><b>Last event date</b> </p> <p>Enter the last date that an event occurred on the library document.</p> <p>For a list of supported date and time formats, see <a href="../../workfront-fusion/mapping/type-coercion.md" class="MCXref xref">Type coercion in Adobe Workfront Fusion</a>.</p> </li> 
      <li> <p><b>Library document status</b> </p> <p>Select the status of the library document.</p> </li> 
     </ul> </td> 
@@ -275,7 +275,7 @@ This action module creates a new record of the selected type.
        <li> <p><b>Member info</b> </p> <p>For each member that you want to add to the participant set, click <b>Add item</b>. </p> 
         <ul> 
          <li> <p><b>Email</b> </p> <p>Leave this option blank.</p> </li> 
-         <li> <p><b>Security option</b> </p> <p>If you want to add a security option for authenticating this user, select <b>Yes</b>, then select the security option and fill in any fields it requires.</p> </li> 
+         <li> <p><b>Security option</b> </p> <p>If you want to add a [!UICONTROL security] option for authenticating this user, select <b>Yes</b>, then select the security option and fill in any fields it requires.</p> </li> 
         </ul> </li> 
        <li> <p><b>Role</b> </p> <p>Select the role. All members of this participant set share the role.</p> </li> 
       </ul> </li> 
@@ -284,10 +284,10 @@ This action module creates a new record of the selected type.
        <li> <p><b>Member info</b> </p> <p>For each member that you want to add to the participant set, click <b>Add item</b>.</p> 
         <ul> 
          <li> <p><b>Email</b> </p> <p>Leave this option blank.</p> </li> 
-         <li> <p><b>Security option</b> </p> <p>If you want to add a security option for authenticating this user, select <b>Yes</b>, then select the security option and fill in any fields it requires.</p> </li> 
+         <li> <p><b>Security option</b> </p> <p>If you want to add a [!UICONTROL security] option for authenticating this user, select <b>Yes</b>, then select the security option and fill in any fields it requires.</p> </li> 
         </ul> </li> 
        <li> <p><b>Role</b> </p> </li> 
-       <li> <p><b>Web form participant ID&nbsp;</b> </p> <p>Enter the ID of the web form participant.</p> </li> 
+       <li> <p><b>Web form participant ID </b> </p> <p>Enter the ID of the web form participant.</p> </li> 
        <li> <p><b>Order</b> </p> <p>Specify the order of when this participant set should interact with the web form. For example, the participant group that has the an order value of 1 must go first, 2 must go next, and so on. Order numbers must begin with one, and have no gaps in the series. </p> </li> 
        <li> <p><b>Provider participant set info</b> </p> <p>If the participant is unknown, enter whether the provider must provide details for the participant, and enter a message with the details that you require for the unknown participant.</p> </li> 
       </ul> </li> 
@@ -297,7 +297,7 @@ This action module creates a new record of the selected type.
        <li> <p><b>Deframe</b> </p> <p>Enable this option if you want the error page to appear inside the web form</p> </li> 
        <li> <p><b>Delay</b> </p> <p>Enter the delay, in seconds, before the user is redirected to the error page.</p> </li> 
       </ul> </li> 
-     <li> <p><b>CC info</b> </p> <p>For each email address that you want to receive an email when the final agreement on the web form is signed, click <b>Add item</b> and enter the email address.</p> </li> 
+     <li> <p><b>CC info</b> </p> <p>For each email address that you want to receive an email when the final agreement on the web form is signed, click <b>[!UICONTROL Add item]</b> and enter the email address.</p> </li> 
      <li> <p><b>Completion info</b> </p> <p style="font-style: normal;">If you want to provide a success page for your users, select <b>Yes</b>, then fill in the following fields:</p> 
       <ul> 
        <li> <p><b>URL</b> </p> <p>Enter the URL for the success page</p> </li> 
@@ -308,7 +308,7 @@ This action module creates a new record of the selected type.
      <li> <p><b>Last event date</b> </p> <p>Enter the date that the last event occurred on the web form. Use the format <code>yyyy-MM-dd'T'HH:mm:ssZ</code>.</p> </li> 
      <li> <p><b>Locale</b> </p> <p>Enter the locale of the user. This determines the language of the UI. </p> </li> 
      <li> <p><b>Security option</b> </p> <p>Enter the password used to secure the document. You must separately communicate this password to any relevant parties.</p> </li> 
-     <li> <p><b>Vaulting info</b> </p> <p>If your a ccount is set up for document vaulting and the option to enable per agreement, you can enable this option to vault this agreement.</p> </li> 
+     <li> <p><b>Vaulting info</b> </p> <p>If your a ccount is set up for document vaulting and the option to [!UICONTROL enable per agreement], you can enable this option to vault this agreement.</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -322,7 +322,7 @@ This action module creates an agreement, sends it out for signature, and returns
 
 >[!NOTE]
 >
->We recommend uploading the document to sign as a transient document, then mapping it to the File to send field in the Create an agreement module. For an example, see "Upload document" in this article.
+>We recommend uploading the document to sign as a transient document, then mapping it to the File to send field in the [!UICONTROL Create an agreement] module. For an example, see "Upload document" in this article.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -338,21 +338,21 @@ This action module creates an agreement, sends it out for signature, and returns
   </tr> 
   <tr> 
    <td role="rowheader">Files to send</td> 
-   <td> <p>For each item you want to include in the agreement, click <b>Add Item</b> and fill in the following fields:</p> 
+   <td> <p>For each item you want to include in the agreement, click <b>[!UICONTROL Add Item]</b> and fill in the following fields:</p> 
     <ul> 
      <li> <p><b>File Type</b> </p> 
       <ul> 
-       <li> <p><b>Document</b> </p> <p>Fill in the following fields:</p> 
+       <li> <p><b>[!UICONTROL Document]</b> </p> <p>Fill in the following fields:</p> 
         <ul> 
          <li> <p><b>Created date</b> </p> <p>Enter or map the date that the document was created in the format <code>yyyy-MM-dd'T'HH:mm:ssZ</code>. For example, <code>2016-02-25T18:46:19Z</code> represents UTC time.</p> </li> 
-         <li> <p><b>ID</b> </p> <p>Enter or map the ID&nbsp;of the document.</p> </li> 
+         <li> <p><b>ID</b> </p> <p>Enter or map the ID of the document.</p> </li> 
          <li> <p><b>Label</b> </p> <p>Enter or map a unique label for the file. In case of custom workflow this will map a file to corresponding file element in workflow definition. This must be specified in case of custom workflow agreement creation request.</p> </li> 
          <li> <p><b>Number of pages</b> </p> <p>Enter or map the number of pages in the document.</p> </li> 
          <li> <p><b>Mime-Type</b> </p> <p>Enter or map the mime type of the original file. Multipurpose Internet Mail Extension (MIME) types are labels that allow software to identify different types of data shared on the internet. Web servers and browsers use the MIME type to determine what should be done with a file. For example, a file with the MIME type <code>text/html</code> will be processed in a browser differently than a file with MIME type <code>image/jpeg</code>.</p> </li> 
          <li> <p><b>Name</b> </p> <p>Enter or map a name for the document.<br></p> </li> 
         </ul> </li> 
-       <li> <p><b>Library document ID</b> </p> <p>Enter the ID&nbsp;of the library document</p> </li> 
-       <li> <p><b>Transient document ID</b> </p> <p>Enter the ID&nbsp;of the transient document</p> </li> 
+       <li> <p><b>Library document ID</b> </p> <p>Enter the ID of the library document</p> </li> 
+       <li> <p><b>Transient document ID</b> </p> <p>Enter the ID of the transient document</p> </li> 
        <li> <p><b>URL file transfer</b> </p> <p>Fill in the following fields:</p> 
         <ul> 
          <li> <p><b>Mime-Type</b> </p> <p>Enter the mime type of the original file. Multipurpose Internet Mail Extension (MIME) types are labels that allow software to identify different types of data shared on the internet. Web servers and browsers use the MIME type to determine what should be done with a file. For example, a file with the MIME type <code>text/html</code> will be processed in a browser differently than a file with MIME type <code>image/jpeg</code>.</p> </li> 
@@ -370,12 +370,12 @@ This action module creates an agreement, sends it out for signature, and returns
   </tr> 
   <tr> 
    <td role="rowheader">Participant sets info</td> 
-   <td> <p>For each participant set you want to add, click <b>Add item</b> and fill in the following fields.</p> 
+   <td> <p>For each participant set you want to add, click <b>[!UICONTROL Add item]</b> and fill in the following fields.</p> 
     <ul> 
-     <li> <p><b>Members</b> </p> <p>For each person that you want to add to the participant set, click <b>Add item</b> and enter the person's email address.</p> </li> 
+     <li> <p><b>Members</b> </p> <p>For each person that you want to add to the participant set, click <b>[!UICONTROL Add item]</b> and enter the person's email address.</p> </li> 
      <li> <p><b>Order</b> </p> <p>Specify the order of when this participant set should sign the agreement. For example, the participant group that has the an order value of 1 must sign first, 2 must sign next, and so on. Order numbers must begin with one, and have no gaps in the series. </p> </li> 
      <li> <p><b>Role</b> </p> <p>Select a role for this participant set. All participants in the set receive this role.</p> </li> 
-     <li> <p><b>ID</b> </p> <p>Enter or map the ID&nbsp;of this participant set.</p> </li> 
+     <li> <p><b>ID</b> </p> <p>Enter or map the ID of this participant set.</p> </li> 
      <li> <p><b>Label</b> </p> <p>Enter or map a unique label for the participant set. For custom workflows, label specified in the participation set should map it to the participation step in the custom workflow.</p> </li> 
      <li> <p><b>Name</b> </p> <p>Enter a name for the participant set. This name must be unique within the agreement.</p> </li> 
      <li> <p><b>Private message</b> </p> <p>Enter or map a message for this participant set. All participants in the set receive this message.</p> </li> 
@@ -401,7 +401,7 @@ This action module creates an agreement, sends it out for signature, and returns
   </tr> 
   <tr> 
    <td role="rowheader">CCs</td> 
-   <td> <p>You can send this agreement to interested parties that do not need to sign, such as stakeholders. They receive an email at the beginning of the signing process and another when the final signature is received. They also receive a PDF copy of the agreement. </p> <p>For each person that you want to CC&nbsp;on this agreement, click <b>Add item</b> and fill in the following fields:</p> 
+   <td> <p>You can send this agreement to interested parties that do not need to sign, such as stakeholders. They receive an email at the beginning of the signing process and another when the final signature is received. They also receive a PDF copy of the agreement. </p> <p>For each person that you want to CC on this agreement, click <b>[!UICONTROL Add item]</b> and fill in the following fields:</p> 
     <ul> 
      <li> <p><b>Email</b> </p> <p>Enter or map the email address that you want to CC on the agreement.</p> </li> 
      <li> <p><b>Label</b> </p> <p>Enter or map a label for this email address, as seen in the workflow description</p> </li> 
@@ -420,11 +420,11 @@ This action module creates an agreement, sends it out for signature, and returns
   </tr> 
   <tr> 
    <td role="rowheader">External ID</td> 
-   <td> <p>Enter or map an ID&nbsp;for this agreement. You can specify this when the agreement is created, and use it to locate the agreement in later modules or queries.</p> <p>Note: The External ID value is visible to all participants through the API, so it should not be used to contain a sensitive token.</p> </td> 
+   <td> <p>Enter or map an ID for this agreement. You can specify this when the agreement is created, and use it to locate the agreement in later modules or queries.</p> <p>Note: The External ID value is visible to all participants through the API, so it should not be used to contain a sensitive token.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Merge field info</td> 
-   <td> <p>For each field in the agreement that you want to put a default value for, click <b>Add item</b> and enter the default value and the field name.</p> <p>The values will be presented to the signers for editable fields For read-only fields the provided values will not be editable during the signing process.</p> </td> 
+   <td> <p>For each field in the agreement that you want to put a default value for, click <b>[!UICONTROL Add item]</b> and enter the default value and the field name.</p> <p>The values will be presented to the signers for editable fields For read-only fields the provided values will not be editable during the signing process.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Notary info</td> 
@@ -442,7 +442,7 @@ This action module creates an agreement, sends it out for signature, and returns
   </tr> 
   <tr> 
    <td role="rowheader">Post sign option</td> 
-   <td> <p>Select whether you want the signers to be directed to a success page after the agreement is signed. If you select <b>Yes</b>, fill in the following fields:</p> 
+   <td> <p>Select whether you want the signers to be directed to a [!UICONTROL success] page after the agreement is signed. If you select <b>Yes</b>, fill in the following fields:</p> 
     <ul> 
      <li> <p><b>Redirect delay</b> </p> <p>Enter or map a number representing the number of seconds before the signer is redirected to the success page. If this value is greater than 0, the user will first see the standard Adobe Sign success message, and then after a delay will be redirected to your success page.</p> </li> 
      <li> <p><b>Redirect URL</b> </p> <p>Enter or map a publicly accessible URL to which the user will be sent after successfully completing the signing process.</p> </li> 
@@ -454,7 +454,7 @@ This action module creates an agreement, sends it out for signature, and returns
   </tr> 
   <tr> 
    <td role="rowheader">Vaulting info</td> 
-   <td>If your account is set up for document vaulting and the option to enable per agreement, you can enable this option to vault this agreement.</td> 
+   <td>If your account is set up for document vaulting and the option to [!UICONTROL enable per agreement], you can enable this option to vault this agreement.</td> 
   </tr> 
  </tbody> 
 </table>
@@ -475,7 +475,7 @@ This action module creates records linked to a module you select.
   </tr> 
   <tr> 
    <td role="rowheader">Headers</td> 
-   <td> <p>Add the headers of the request in the form of a standard JSON object.</p> <p>For example, <code>{"Content-type":"application/json"}</code></p> <p>Workfront Fusion adds authorization headers automatically.</p> </td> 
+   <td> <p>Add the headers of the request in the form of a standard [!DNL JSON] object.</p> <p>For example, <code>{"Content-type":"application/json"}</code></p> <p>Workfront Fusion adds authorization headers automatically.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Record type</td> 
@@ -483,16 +483,16 @@ This action module creates records linked to a module you select.
   </tr> 
   <tr> 
    <td role="rowheader">Agreement/Library document/User/Widget ID</td> 
-   <td>Enter or map the ID&nbsp;of the object that you want to associate the created record with.</td> 
+   <td>Enter or map the ID of the object that you want to associate the created record with.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Agreement related field</td> 
    <td> <p>Select the type of related field that you want to create</p> 
     <ul> 
-     <li> <p><b>Form fields</b> </p> <p>Enter the Template ID&nbsp;of the template that contains the fields you want to create</p> </li> 
+     <li> <p><b>Form fields</b> </p> <p>Enter the Template ID of the template that contains the fields you want to create</p> </li> 
      <li> <p><b>Reminders</b> </p> <p>Fill in the following fields:</p> 
       <ul> 
-       <li> <p><b>Recipient participant ID</b> </p> <p>For each participant that you want to receive a reminder, click Add item, and enter the ID&nbsp;of the participant.</p> </li> 
+       <li> <p><b>Recipient participant ID</b> </p> <p>For each participant that you want to receive a reminder, click [!UICONTROL Add item], and enter the ID of the participant.</p> </li> 
        <li> <p><b>Status</b> </p> <p>For new records, the status must be Active.</p> </li> 
        <li> <p><b>First reminder delay</b> </p> <p>Enter the delay in hours before sending the first reminder. The minimum value allowed is 1 hour and the maximum value can't be more than the difference of agreement creation and expiry time of the agreement in hours. If this delay is not set, the first reminder will be based on the frequency.</p> </li> 
        <li> <p><b>Reminder frequency</b> </p> <p>Set the frequency at which you want the reminder sent. If frequency is not provided, the reminder will be sent once.</p> </li> 
@@ -515,11 +515,11 @@ This action module creates records linked to a module you select.
        <li> <p><b>Web connectors</b> </p> <p>Select <b>Yes</b> if you want the links to attach documents from web sources to appear. The default is Yes.</p> </li> 
        <li> <p><b>Is preview selected</b> </p> <p>Select <b>Yes</b> to set the Compose page to Authoring mode.</p> </li> 
       </ul> </li> 
-     <li> <p><b>Member share</b> </p> <p>For each member that you want to share the agreement with, Click <b>Add item</b> and enter the member's email address and a message to that member.</p> </li> 
+     <li> <p><b>Member share</b> </p> <p>For each member that you want to share the agreement with, Click <b>[!UICONTROL Add item]</b> and enter the member's email address and a message to that member.</p> </li> 
      <li> <p>Delegate participant set</p> 
       <ul> 
        <li> <p><b>Participant set ID</b> </p> <p>Enter the ID of the participant set</p> </li> 
-       <li> <p><b>Member info</b> </p> <p>For each member you want to add, click Add item and enter the email address and phone information for the member.</p> </li> 
+       <li> <p><b>Member info</b> </p> <p>For each member you want to add, click [!UICONTROL Add item] and enter the email address and phone information for the member.</p> </li> 
        <li> <p><b>Private message</b> </p> <p>Enter a message. All members of the participant set receive this message.</p> </li> 
       </ul> </li> 
     </ul> </td> 
@@ -540,7 +540,7 @@ This action module creates records linked to a module you select.
        <li> <p><b>Local file</b> </p> <p>Select <b>Yes</b> if you want library document links to be visible. The default is Yes.</p> </li> 
        <li> <p><b>Web connectors</b> </p> <p>Select <b>Yes</b> if you want the links to attach documents from web sources to appear. The default is Yes.</p> </li> 
        <li> <p><b>Is preview selected</b> </p> <p>Select <b>Yes</b> to set the Compose page to Authoring mode.</p> </li> 
-      </ul> <p>&nbsp;</p> </li> 
+      </ul> <p> </p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -572,7 +572,7 @@ This action module creates records linked to a module you select.
          <li> <p><b>Reusable</b> </p> <p>Select <b>Yes</b> if you want the intended signer to be able to sign the form more than once.</p> </li> 
         </ul> </li> 
       </ul> </li> 
-     <li> <p><b>Member share</b> </p> <p>For each member that you want to share the agreement with, Click <b>Add item</b> and enter the member's email address and a message to that member.</p> </li> 
+     <li> <p><b>Member share</b> </p> <p>For each member that you want to share the agreement with, Click <b>[!UICONTROL Add item]</b> and enter the member's email address and a message to that member.</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -601,7 +601,7 @@ This module allows you to perform a custom API call.
   </tr> 
   <tr> 
    <td role="rowheader">Headers</td> 
-   <td> <p>Add the headers of the request in the form of a standard JSON object.</p> <p>For example, <code>{"Content-type":"application/json"}</code></p> <p>Workfront Fusion adds authorization headers automatically.</p> </td> 
+   <td> <p>Add the headers of the request in the form of a standard [!DNL JSON] object.</p> <p>For example, <code>{"Content-type":"application/json"}</code></p> <p>Workfront Fusion adds authorization headers automatically.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Query String </td> 
@@ -609,7 +609,7 @@ This module allows you to perform a custom API call.
   </tr> 
   <tr> 
    <td role="rowheader">Body</td> 
-   <td> <p>Add the body content for the API call in the form of a standard JSON object.</p> <p>Note:  <p>When using conditional statements such as <code>if</code> in your JSON, put the quotation marks outside of the conditional statement.</p> 
+   <td> <p>Add the body content for the API call in the form of a standard [!DNL JSON] object.</p> <p>Note:  <p>When using conditional statements such as <code>if</code> in your JSON, put the quotation marks outside of the conditional statement.</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td> 
@@ -637,7 +637,7 @@ This action module lists all records of the selected type that the account has a
   </tr> 
   <tr> 
    <td role="rowheader">Headers</td> 
-   <td> <p>Add the headers of the request in the form of a standard JSON object.</p> <p>For example, <code>{"Content-type":"application/json"}</code></p> <p>Workfront Fusion adds authorization headers automatically.</p> </td> 
+   <td> <p>Add the headers of the request in the form of a standard [!DNL JSON] object.</p> <p>For example, <code>{"Content-type":"application/json"}</code></p> <p>Workfront Fusion adds authorization headers automatically.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Record type</td> 
@@ -649,11 +649,11 @@ This action module lists all records of the selected type that the account has a
   </tr> 
   <tr> 
    <td role="rowheader">External ID</td> 
-   <td>Enter or map the External ID&nbsp;(an ID assigned outside of Adobe Acrobat Sign) for the agreements you want to return.</td> 
+   <td>Enter or map the External ID (an ID assigned outside of Adobe Acrobat Sign) for the agreements you want to return.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Group ID</td> 
-   <td>Enter the ID&nbsp;of the group associated with the records you want to list.</td> 
+   <td>Enter the ID of the group associated with the records you want to list.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Show hidden (records)</td> 
@@ -661,11 +661,11 @@ This action module lists all records of the selected type that the account has a
   </tr> 
   <tr> 
    <td role="rowheader">Cursor / Start index</td> 
-   <td> <p>Enter the number of the first record that the module should return. </p> <p>Note: This field is combined with the Maximum number of returned records field for pagination. For example, if the Maximum number of returned events is 100, and the Start index is 101, the module returns records 101-200, or the second page of results.</p> </td> 
+   <td> <p>Enter the number of the first record that the module should return. </p> <p>Note: This field is combined with the [!UICONTROL Maximum number of returned records] field for pagination. For example, if the Maximum number of returned events is 100, and the Start index is 101, the module returns records 101-200, or the second page of results.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Maximum number of returned records</td> 
-   <td> <p>Enter or map the maximum number of records you want the module to [action] during each scenario execution cycle.</p> <p>Note: This field is combined with the Cursor or Start Index field for pagination. For example, if the Maximum number of returned events is 100, and the Start index is 101, the module returns records 101-200, or the second page of results.</p> </td> 
+   <td> <p>Enter or map the maximum number of records you want the module to [action] during each scenario execution cycle.</p> <p>Note: This field is combined with the Cursor or [!UICONTROL Start Index] field for pagination. For example, if the Maximum number of returned events is 100, and the Start index is 101, the module returns records 101-200, or the second page of results.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Parent domain URLs</td> 
@@ -690,7 +690,7 @@ This action module retrieves information from a single record.
   </tr> 
   <tr> 
    <td role="rowheader">Headers</td> 
-   <td> <p>Add the headers of the request in the form of a standard JSON object.</p> <p>For example, <code>{"Content-type":"application/json"}</code></p> <p>Workfront Fusion adds authorization headers automatically.</p> </td> 
+   <td> <p>Add the headers of the request in the form of a standard [!DNL JSON] object.</p> <p>For example, <code>{"Content-type":"application/json"}</code></p> <p>Workfront Fusion adds authorization headers automatically.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Record type</td> 
@@ -698,7 +698,7 @@ This action module retrieves information from a single record.
   </tr> 
   <tr> 
    <td role="rowheader">Record ID</td> 
-   <td>Enter or map the ID&nbsp;of the record you want to retrieve.</td> 
+   <td>Enter or map the ID of the record you want to retrieve.</td> 
   </tr> 
  </tbody> 
 </table>
@@ -719,7 +719,7 @@ Read additional information related to a single record.
   </tr> 
   <tr> 
    <td role="rowheader">Headers</td> 
-   <td> <p>Add the headers of the request in the form of a standard JSON object.</p> <p>For example, <code>{"Content-type":"application/json"}</code></p> <p>Workfront Fusion adds authorization headers automatically.</p> </td> 
+   <td> <p>Add the headers of the request in the form of a standard [!DNL JSON] object.</p> <p>For example, <code>{"Content-type":"application/json"}</code></p> <p>Workfront Fusion adds authorization headers automatically.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Record type</td> 
@@ -727,7 +727,7 @@ Read additional information related to a single record.
   </tr> 
   <tr> 
    <td role="rowheader">Record ID (Example: Account ID)</td> 
-   <td>Enter or map the ID&nbsp;of the record you want to retrieve related records for.</td> 
+   <td>Enter or map the ID of the record you want to retrieve related records for.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Other fields</td> 
@@ -745,8 +745,10 @@ This action module updates a single record in Adobe Acrobat Sign.
 >[!IMPORTANT]
 >
 >* As a best practice, if you are anticipating substantial changes to an agreement, we recommend creating a new agreement rather than updating the existing agreement.
->* Some updates feature required fields. As you configure your update, be sure to fill out all required fields. Required fields are bold in Workfront Fusion modules.
+>* Some updates feature required fields. As you configure your update, be sure to fill out all required fields. Required fields are bold in [!DNL Workfront] Fusion modules.
 >
+
+
 
 <table style="table-layout:auto"> 
  <col> 
@@ -758,11 +760,11 @@ This action module updates a single record in Adobe Acrobat Sign.
   </tr> 
   <tr> 
    <td role="rowheader">Headers</td> 
-   <td> <p>Add the headers of the request in the form of a standard JSON object.</p> <p>For example, <code>{"Content-type":"application/json"}</code></p> <p>Workfront Fusion adds authorization headers automatically.</p> </td> 
+   <td> <p>Add the headers of the request in the form of a standard [!DNL JSON] object.</p> <p>For example, <code>{"Content-type":"application/json"}</code></p> <p>Workfront Fusion adds authorization headers automatically.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Record ID </td> 
-   <td>Enter or map the ID&nbsp;of the record you want to update.</td> 
+   <td>Enter or map the ID of the record you want to update.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Record type</td> 
@@ -778,7 +780,7 @@ This action module updates a single record in Adobe Acrobat Sign.
        <li> <p><b>Status</b> </p> <p>Select the new status for the library document.</p> </li> 
        <li> <p><b>Name</b> </p> <p>Enter or map the name of the library template</p> </li> 
        <li> <p><b>Sharing mode</b> </p> <p>Specify who should have access to the library document.</p> </li> 
-       <li> <p><b>Library template type</b> </p> <p>For each library template type you want to use, click <b>Add item</b> and select the template type.</p> </li> 
+       <li> <p><b>Library template type</b> </p> <p>For each library template type you want to use, click <b>[!UICONTROL Add item]</b> and select the template type.</p> </li> 
       </ul> </li> 
      <li> <p><b>User</b> </p> <p>Select the fields you want to update, then fill in the selected fields:</p> 
       <ul> 
@@ -804,8 +806,10 @@ This action module updates records related to a specific object.
 >[!IMPORTANT]
 >
 >* As a best practice, if you are anticipating substantial changes to an agreement, we recommend creating a new agreement rather than updating the existing agreement.
->* Some updates feature required fields. As you configure your update, be sure to fill out all required fields. Required fields are bold in Workfront Fusion modules.
+>* Some updates feature required fields. As you configure your update, be sure to fill out all required fields. Required fields are bold in [!DNL Workfront] Fusion modules.
 >
+
+
 
 <table style="table-layout:auto"> 
  <col> 
@@ -817,7 +821,7 @@ This action module updates records related to a specific object.
   </tr> 
   <tr> 
    <td role="rowheader">Headers</td> 
-   <td> <p>Add the headers of the request in the form of a standard JSON object.</p> <p>For example, <code>{"Content-type":"application/json"}</code></p> <p>Workfront Fusion adds authorization headers automatically.</p> </td> 
+   <td> <p>Add the headers of the request in the form of a standard [!DNL JSON] object.</p> <p>For example, <code>{"Content-type":"application/json"}</code></p> <p>Workfront Fusion adds authorization headers automatically.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Record type</td> 
@@ -825,7 +829,7 @@ This action module updates records related to a specific object.
   </tr> 
   <tr> 
    <td role="rowheader">Agreement/Library document/User/Widget ID</td> 
-   <td>Enter or map the ID&nbsp;of the object that you want to associate the created record with.</td> 
+   <td>Enter or map the ID of the object that you want to associate the created record with.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Other fields</td> 
@@ -843,7 +847,7 @@ This action module updates records related to a specific object.
        <li> <p><b>Group info list</b> </p> <p>Fill in the following fields</p> 
         <ul> 
          <li> <p><b>Status</b> </p> <p>Select the new status for the user.</p> </li> 
-         <li> <p><b>ID</b> </p> <p>Enter the unique ID&nbsp;of the group</p> </li> 
+         <li> <p><b>ID</b> </p> <p>Enter the unique ID of the group</p> </li> 
          <li> <p><b>Is group admin</b> </p> <p>Select <b>Yes</b> to make this user a group administrator.</p> </li> 
          <li> <p><b>Is primary group</b> </p> <p>Select <b>Yes</b> to update this group to the user's primary group.</p> </li> 
          <li> <p><b>Created date</b> </p> <p>Enter the date the group was created.</p> <p>For a list of supported date and time formats, see <a href="../../workfront-fusion/mapping/type-coercion.md" class="MCXref xref" data-mc-variable-override="">Type coercion in Adobe Workfront Fusion</a>.</p> </li> 
@@ -895,11 +899,11 @@ Upload a transient document. A transient document is available for 7 days after 
   </tr> 
   <tr> 
    <td role="rowheader">Headers</td> 
-   <td> <p>Add the headers of the request in the form of a standard JSON object.</p> <p>For example, <code>{"Content-type":"application/json"}</code></p> <p>Workfront Fusion adds authorization headers automatically.</p> </td> 
+   <td> <p>Add the headers of the request in the form of a standard [!DNL JSON] object.</p> <p>For example, <code>{"Content-type":"application/json"}</code></p> <p>Workfront Fusion adds authorization headers automatically.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Record ID</td> 
-   <td>Enter or map the ID&nbsp;of the record you want to update</td> 
+   <td>Enter or map the ID of the record you want to update</td> 
   </tr> 
   <tr> 
    <td role="rowheader">MIME type</td> 
@@ -907,12 +911,12 @@ Upload a transient document. A transient document is available for 7 days after 
   </tr> 
  </tbody> 
 </table>
-                                          
+
 **Example:** In this workflow, the document to sign (previously downloaded from Workfront) is uploaded as a transient document.
 
 ![](assets/sign-example-1-350x308.png)
 
-The Upload document modules gives the document an Adobe Acrobat Sign ID that can be referenced in later modules. When the agreement is created, the uploaded document's ID is included in the Files to send field.
+The Upload document modules gives the document an Adobe Acrobat Sign ID that can be referenced in later modules. When the agreement is created, the uploaded document's ID is included in the [!UICONTROL Files to send] field.
 
 ![](assets/sign-example-2-350x356.png)
 
@@ -934,7 +938,7 @@ This search module searches for agreements based on criteria you provide.
   </tr> 
   <tr> 
    <td role="rowheader">Headers</td> 
-   <td> <p>Add the headers of the request in the form of a standard JSON object.</p> <p>For example, <code>{"Content-type":"application/json"}</code></p> </td> 
+   <td> <p>Add the headers of the request in the form of a standard [!DNL JSON] object.</p> <p>For example, <code>{"Content-type":"application/json"}</code></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Text filter</td> 
@@ -958,7 +962,7 @@ This search module searches for agreements based on criteria you provide.
   </tr> 
   <tr> 
    <td role="rowheader">External ID</td> 
-   <td> <p> External ID is a sender-assigned ID to the agreement that can be of any form, but usually in form of "&lt;groupID&gt;:&lt;ID&gt;".</p> <p>For each External ID you want to add, click <b>Add</b> and enter or map the External ID.</p> </td> 
+   <td> <p> External ID is a sender-assigned ID to the agreement that can be of any form, but usually in form of "&lt;groupID>:&lt;ID>".</p> <p>For each External ID you want to add, click <b>Add</b> and enter or map the External ID.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Group ID</td> 
@@ -966,11 +970,11 @@ This search module searches for agreements based on criteria you provide.
   </tr> 
   <tr> 
    <td role="rowheader">Asset ID</td> 
-   <td> <p>This is the ID&nbsp;assigned to the specific agreement. </p> <p>For each External ID you want to add, click <b>Add</b> and enter or map the External ID.</p> </td> 
+   <td> <p>This is the ID assigned to the specific agreement. </p> <p>For each External ID you want to add, click <b>Add</b> and enter or map the External ID.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Parent ID</td> 
-   <td> <p>This is the ID&nbsp;assigned to the agreement's parent object. </p> <p>For each External ID you want to add, click <b>Add</b> and enter or map the External ID.</p> </td> 
+   <td> <p>This is the ID assigned to the agreement's parent object. </p> <p>For each External ID you want to add, click <b>Add</b> and enter or map the External ID.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Participant email</td> 
@@ -998,7 +1002,7 @@ This search module searches for agreements based on criteria you provide.
   </tr> 
   <tr> 
    <td role="rowheader">Subtypes</td> 
-   <td>Select the agreement subtypes that you want the returned results to include. Only Library&nbsp;template agreements feature subtypes.</td> 
+   <td>Select the agreement subtypes that you want the returned results to include. Only Library template agreements feature subtypes.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">User ID</td> 
@@ -1010,7 +1014,7 @@ This search module searches for agreements based on criteria you provide.
   </tr> 
   <tr> 
    <td role="rowheader">Start index</td> 
-   <td> <p>Enter the position of the first result that you want to return. Combine this with the maximum returned results to paginate results</p> <p>Example: if you return 100 results at a time, enter 100 to return results 100-200.</p> </td> 
+   <td> <p>Enter the position of the first result that you want to return. Combine this with the [!UICONTROL maximum returned results] to paginate results</p> <p>Example: if you return 100 results at a time, enter 100 to return results 100-200.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Maximum number of returned results</td> 

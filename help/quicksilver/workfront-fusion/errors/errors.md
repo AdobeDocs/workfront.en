@@ -17,9 +17,9 @@ exl-id: 16205e28-92e3-4c90-afa5-35eb793b239b
 
 This section contains the following articles:
 
-* [Error processing in Adobe Workfront Fusion](../../workfront-fusion/errors/error-processing.md) 
-* [Error handling in Adobe Workfront Fusion](../../workfront-fusion/errors/error-handling.md) 
-* [Directives for error handling in Adobe Workfront Fusion](../../workfront-fusion/errors/directives-for-error-handling.md) 
-* [Retry error handling in Adobe Workfront Fusion](../../workfront-fusion/errors/retry.md) 
-* [Throw error handling in Adobe Workfront Fusion](../../workfront-fusion/errors/throw.md) 
-* [Advanced error handling in Adobe Workfront Fusion](../../workfront-fusion/errors/advanced-error-handling.md)
+* [Error processing in [!DNL Adobe Workfront] Fusion](../../workfront-fusion/errors/error-processing.md)
+* [Error handling in [!DNL Adobe Workfront] Fusion](../../workfront-fusion/errors/error-handling.md)
+* [Directives for error handling in [!DNL Adobe Workfront] Fusion](../../workfront-fusion/errors/directives-for-error-handling.md)
+* [Retry error handling in [!DNL Adobe Workfront] Fusion](../../workfront-fusion/errors/retry.md)
+* [Throw error handling in Adobe Workfront Fusion](../../workfront-fusion/errors/throw.md)
+* [Advanced error handling in [!DNL Adobe] Workfront Fusion](../../workfront-fusion/errors/advanced-error-handling.md)

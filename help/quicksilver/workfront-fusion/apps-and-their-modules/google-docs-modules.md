@@ -5,16 +5,16 @@ product-area: workfront-integrations;documents
 keywords: connector
 navigation-topic: apps-and-their-modules
 title: Google Docs modules
-description: The Adobe Workfront Fusion Google Docs modules enable you to monitor, create, edit and retrieve documents in your Google Docs and Google Shared Drive (for G Suite users).
+description: The [!DNL Adobe Workfront] Fusion [!DNL Google Docs] modules enable you to monitor, create, edit and retrieve documents in your Google Docs and Google Shared Drive (for G Suite users).
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: fbe7d628-d833-43ce-83b8-8e4e6a812fd1
 ---
 # Google Docs modules
 
-The Adobe Workfront Fusion Google Docs modules enable you to monitor, create, edit and retrieve documents in your Google Docs and Google Shared Drive (for G Suite users).
+The [!DNL Adobe Workfront] Fusion [!DNL Google Docs] modules enable you to monitor, create, edit and retrieve documents in your Google Docs and Google Shared Drive (for G Suite users).
 
-In order to use Google Docswith Adobe Workfront Fusion, it is necessary to have a Google account. If you don't have a Google account yet, you can create one at the Google Account help page.
+In order to use [!DNL Google Docswith Adobe Workfront Fusion], it is necessary to have a Google account. If you don't have a Google account yet, you can create one at the Google Account help page.
 
 If you need instructions on creating a scenario, see [Create a scenario in Adobe Workfront Fusion](../../workfront-fusion/scenarios/create-a-scenario.md).
 
@@ -42,12 +42,12 @@ You must have the following access to use the functionality in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
+   <td>Your organization must purchase [!DNL Adobe Workfront Fusion] as well as [!DNL Adobe Workfront] to use functionality described in this article.</td> 
   </tr>
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+&#42;To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
 
 &#42;&#42;For information on Adobe Workfront Fusion licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
@@ -57,7 +57,7 @@ To use Google Doc modules, you must have a Google account.
 
 ## Google Doc modules and their fields
 
-When you configure Google Docs modules, Workfront Fusion displays the fields listed below. Along with these, additional Google Docs fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
+When you configure [!DNL Google Docs] modules, [!DNL Workfront Fusion] displays the fields listed below. Along with these, additional [!DNL Google] Docs fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
 
 If you see the map button above a field or function, you can use it to set variables and functions for that field. For more information, see [Map information from one module to another in Adobe Workfront Fusion](../../workfront-fusion/mapping/map-information-between-modules.md).
 
@@ -65,16 +65,16 @@ If you see the map button above a field or function, you can use it to set varia
 
 ### Document
 
-* [Watch Documents](#watch-documents) 
-* [List Documents](#list-documents) 
-* [Get Content of a Document](#get-content-of-a-document) 
-* [Create a Document](#create-a-document) 
-* [Create a Document From a Template](#create-a-document-from-a-template) 
-* [Insert a Paragraph to a Document](#insert-a-paragraph-to-a-document) 
-* [Insert an Image to a Document](#insert-an-image-to-a-document) 
-* [Replace an Image with a New Image](#replace-an-image-with-a-new-image) 
-* [Replace an Image with a New Image](#replace-an-image-with-a-new-image) 
-* [Download a Document](#download-a-document) 
+* [Watch Documents](#watch-documents)
+* [List Documents](#list-documents)
+* [Get Content of a Document](#get-content-of-a-document)
+* [Create a Document](#create-a-document)
+* [[!UICONTROL Create a Document From a Template]](#create-a-document-from-a-template)
+* [[!UICONTROL Insert a Paragraph] to a Document](#insert-a-paragraph-to-a-document)
+* [Insert an Image to a Document](#insert-an-image-to-a-document)
+* [Replace an Image with a New Image](#replace-an-image-with-a-new-image)
+* [Replace an Image with a New Image](#replace-an-image-with-a-new-image)
+* [Download a Document](#download-a-document)
 * [Delete a Document](#delete-a-document)
 
 #### Watch Documents {#watch-documents}
@@ -104,7 +104,7 @@ This trigger module returns document details when a new document is created or m
   </tr> 
   <tr> 
    <td role="rowheader">Limit </td> 
-   <td> <p>Set the maximum number of documents Workfront Fusion returns in one execution cycle.</p> </td> 
+   <td> <p>Set the maximum number of documents [!DNL Workfront Fusion] returns in one execution cycle.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -132,7 +132,7 @@ This action module retrieves a list of documents from the selected folder.
   </tr> 
   <tr> 
    <td role="rowheader">Limit </td> 
-   <td> <p>Set the maximum number of documents Workfront Fusion returns in one execution cycle.</p> </td> 
+   <td> <p>Set the maximum number of documents [!DNL Workfront Fusion] returns in one execution cycle.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -232,8 +232,8 @@ This action module creates a copy of an existing template document and replaces 
    <td role="rowheader"> <p>Create a Document from a Template</p> </td> 
    <td> 
     <ul> 
-     <li><strong>By Mapping</strong> <br>Select this option to map the document template.</li> 
-     <li><strong>By Dropdown</strong> <br>Select this option to choose the document template from the drop-down menu.</li> 
+     <li><strong>[!UICONTROL By Mapping]</strong> <br>Select this option to map the document template.</li> 
+     <li><strong>[!UICONTROL By Dropdown]</strong> <br>Select this option to choose the document template from the drop-down menu.</li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -249,16 +249,16 @@ This action module creates a copy of an existing template document and replaces 
    <td role="rowheader"> <p>Values</p> </td> 
    <td> <p>Enter the values that will be entered instead of the variables to the new document.</p> 
     <ul> 
-     <li><strong>Tags</strong> <br>Enter the tags that are contained in the document template. Do not use <code>&#123;&#123;&#125;&#125;</code>. Example: use <code>name </code>instead of <code>&#123;&#123;name&#125;&#125;</code>.</li> 
-     <li><strong>Replaced Value</strong><br>Enter the value of the tag.</li> 
-    </ul> <p>For example the<code> &#123;&#123;name&#125;&#125;</code> variable in the source document will be displayed as the name field here, where the value can be inserted, such as <code>John</code>.</p> </td> 
+     <li><strong>Tags</strong> <br>Enter the tags that are contained in the document template. Do not use <code>{{}}</code>. Example: use <code>name </code>instead of <code>{{name}}</code>.</li> 
+     <li><strong>[!UICONTROL Replaced Value]</strong><br>Enter the value of the tag.</li> 
+    </ul> <p>For example the<code> {{name}}</code> variable in the source document will be displayed as the name field here, where the value can be inserted, such as <code>John</code>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Images Replacement</p> </td> 
    <td> <p>Enter the link to the Image Object ID and Image URL that will replace the current image.</p> <p>Note:  You can retrieve the image IDs by using Get a Document module, where the IDs are contained in the array Inline Object Array.</p> <p>We recommend that you add ALT text to images in your Google document. </p> <p>To add an ALT Text to the Google Docs image:</p> 
     <ol> 
      <li value="1">Right click on the image.</li> 
-     <li value="2">Select the ALT text option.</li> 
+     <li value="2">Select the [!UICONTROL ALT text] option.</li> 
      <li value="3">Enter the ALT text in the Title field and click OK.</li> 
     </ol> <p>After the ALT text is added to the image, the ALT text is displayed in the field name in parentheses.</p> </td> 
   </tr> 
@@ -294,8 +294,8 @@ This action module appends or inserts a new paragraph to an existing document.
    <td role="rowheader"> <p>Select a Document</p> </td> 
    <td> 
     <ul> 
-     <li><strong>By Mapping</strong> <br>Select this option to map the document.</li> 
-     <li><strong>By Dropdown</strong> <br> Select this option to choose the document from the drop-down menu.</li> 
+     <li><strong>[!UICONTROL By Mapping]</strong> <br>Select this option to map the document.</li> 
+     <li><strong>[!UICONTROL By Dropdown]</strong> <br> Select this option to choose the document from the drop-down menu.</li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -315,7 +315,7 @@ This action module appends or inserts a new paragraph to an existing document.
       <ul> 
        <li> <p><strong>By index</strong> </p> 
         <ul> 
-         <li> <p><strong>Index</strong> </p> <p>Enter the Index number where you would like to insert your text. You can use the Get a Document module retrieve Index number.</p> <p>To display all characters (including hidden) in the document, you can use the Show add-on. You can find the add-on under Add-ons &gt; Get add-ons. Search for Show and install the Show add-on.</p> </li> 
+         <li> <p><strong>Index</strong> </p> <p>Enter the Index number where you would like to insert your text. You can use the Get a Document module retrieve Index number.</p> <p>To display all characters (including hidden) in the document, you can use the Show add-on. You can find the add-on under Add-ons > Get add-ons. Search for Show and install the Show add-on.</p> </li> 
          <li> <p><strong>Inserted text</strong> </p> <p>Enter the text you want to insert to the document.</p> </li> 
         </ul> </li> 
        <li> <p><strong>By segment ID</strong> </p> <p>Select the header and footer you want to insert the text content to and enter the text you want to insert to the corresponding fields.</p> <p>If the header or footer already contains text, the new text will be added before the existing text.</p> </li> 
@@ -349,8 +349,8 @@ This action module inserts an image from the URL to the document.
    <td role="rowheader"> <p>Select a Document</p> </td> 
    <td> 
     <ul> 
-     <li><strong>By Mapping</strong> <br>Select this option to map the document template.</li> 
-     <li><strong>By Dropdown</strong> <br> Select this option to choose the document from the drop-down menu.</li> 
+     <li><strong>[!UICONTROL By Mapping]</strong> <br>Select this option to map the document template.</li> 
+     <li><strong>[!UICONTROL By Dropdown]</strong> <br> Select this option to choose the document from the drop-down menu.</li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -370,7 +370,7 @@ This action module inserts an image from the URL to the document.
       <ul> 
        <li> <p><strong>By index</strong> </p> 
         <ul> 
-         <li> <p><strong>Index</strong> </p> <p>Enter the Index number where you would like to insert your image. You can use the Get a Document module retrieve Index number.</p> <p>To display all characters (including hidden) in the document, you can use the Show add-on. You can find the add-on under Add-ons &gt; Get add-ons. Search for Show and install the Show add-on.</p> </li> 
+         <li> <p><strong>Index</strong> </p> <p>Enter the Index number where you would like to insert your image. You can use the Get a Document module retrieve Index number.</p> <p>To display all characters (including hidden) in the document, you can use the Show add-on. You can find the add-on under Add-ons > Get add-ons. Search for Show and install the Show add-on.</p> </li> 
          <li> <p><strong>Image URL</strong> </p> <p>Enter the URL of the image you want to insert to the document.</p> <p>The maximum image size is 50 MB. Must not exceed 25 megapixels. Only PNG, JPEG or GIF format is supported.</p> </li> 
         </ul> </li> 
        <li> <p><strong>By segment ID</strong> </p> <p>Select the header and footer you want to insert the image to and enter the image URL to the corresponding fields.</p> <p>The maximum image size is 50 MB. The image must not exceed 25 megapixels. Only PNG, JPEG, or GIF format is supported.</p> </li> 
@@ -404,8 +404,8 @@ This action module replaces an existing image. The aspect ratio of the original 
    <td role="rowheader"> <p>Select a Document</p> </td> 
    <td> 
     <ul> 
-     <li><strong>By Mapping</strong> <br>Select this option to map the document template.</li> 
-     <li><strong>By Dropdown</strong> <br> Select this option to choose the document from the drop-down menu.</li> 
+     <li><strong>[!UICONTROL By Mapping]</strong> <br>Select this option to map the document template.</li> 
+     <li><strong>[!UICONTROL By Dropdown]</strong> <br> Select this option to choose the document from the drop-down menu.</li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -440,8 +440,8 @@ This action module replaces text in a document.
    <td role="rowheader"> <p>Select a Document</p> </td> 
    <td> 
     <ul> 
-     <li><strong>By Mapping</strong> <br>Select this option to map the document template.</li> 
-     <li><strong>By Dropdown</strong> <br> Select this option to choose the document from the drop-down menu.</li> 
+     <li><strong>[!UICONTROL By Mapping]</strong> <br>Select this option to map the document template.</li> 
+     <li><strong>[!UICONTROL By Dropdown]</strong> <br> Select this option to choose the document from the drop-down menu.</li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -515,7 +515,7 @@ This action module deletes a document.
   </tr> 
   <tr> 
    <td role="rowheader">Shared Drive</td> 
-   <td> <p>Select the drive that contains the document you want to download, then select a document. This option is available if you have selected Google Shared Drive in the Choose a Drive field.</p> </td> 
+   <td> <p>Select the drive that contains the document you want to download, then select a document. This option is available if you have selected [!UICONTROL Google Shared Drive] in the [!UICONTROL Choose a Drive] field.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Document ID</td> 
@@ -526,8 +526,8 @@ This action module deletes a document.
 
 ### Other
 
-* [Make an API Call](#make-an-api-call) 
-* [Make All Links in a Document Clickable](#make-all-links-in-a-document-clickable)
+* [Make an API Call](#make-an-api-call)
+* [[!UICONTROL Make All Links in a Document] Clickable](#make-all-links-in-a-document-clickable)
 
 #### Make an API Call {#make-an-api-call}
 
@@ -547,11 +547,11 @@ This action module allows you to perform a custom API call.
   </tr> 
   <tr> 
    <td role="rowheader">Method</td> 
-   <td> <p>Select the HTTP request method you need to configure the API call. For more information, see <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref">HTTP request methods in Adobe Workfront Fusion</a>.</p> <p>&nbsp;</p> </td> 
+   <td> <p>Select the HTTP request method you need to configure the API call. For more information, see <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref">HTTP request methods in Adobe Workfront Fusion</a>.</p> <p> </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Headers</td> 
-   <td> <p>Add the headers of the request in the form of a standard JSON object.For example, <code>{"Content-type":"application/json"}</code>. Workfront Fusion adds the authorization headers for you.</p> </td> 
+   <td> <p>Add the headers of the request in the form of a standard JSON object.For example, <code>{"Content-type":"application/json"}</code>. [!DNL Workfront Fusion] adds the authorization headers for you.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Query String</td> 
@@ -559,7 +559,7 @@ This action module allows you to perform a custom API call.
   </tr> 
   <tr> 
    <td role="rowheader">Body</td> 
-   <td> <p>Add the body content for the API call in the form of a standard JSON object.</p> <p>Note:  <p>When using conditional statements such as <code>if</code> in your JSON, put the quotation marks outside of the conditional statement.</p> 
+   <td> <p>Add the body content for the API call in the form of a standard [!DNL JSON] object.</p> <p>Note:  <p>When using conditional statements such as <code>if</code> in your JSON, put the quotation marks outside of the conditional statement.</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td> 
@@ -599,8 +599,8 @@ This action module finds all links in the document and makes them clickable.
    <td role="rowheader"> <p>Make All Links in a Document</p> </td> 
    <td> 
     <ul> 
-     <li><strong>By Mapping</strong> <br>Select this option to map the document template.</li> 
-     <li><strong>By Dropdown</strong> <br> Select this option to choose the document from the drop-down menu.</li> 
+     <li><strong>[!UICONTROL By Mapping]</strong> <br>Select this option to map the document template.</li> 
+     <li><strong>[!UICONTROL By Dropdown]</strong> <br> Select this option to choose the document from the drop-down menu.</li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -614,7 +614,7 @@ This action module finds all links in the document and makes them clickable.
   </tr> 
   <tr> 
    <td role="rowheader">Shared Drive</td> 
-   <td> <p>Select the drive that contains the document you want to update links in, then select a document. This option is available if you have selected Google Shared Drive in the Choose a Drive field.</p> </td> 
+   <td> <p>Select the drive that contains the document you want to update links in, then select a document. This option is available if you have selected [!UICONTROL Google Shared Drive] in the [!UICONTROL Choose a Drive] field.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Document ID</td> 

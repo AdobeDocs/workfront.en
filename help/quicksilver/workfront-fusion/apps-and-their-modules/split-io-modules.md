@@ -5,14 +5,14 @@ product-area: workfront-integrations
 keywords: connector
 navigation-topic: apps-and-their-modules
 title: Split.io modules
-description: In an Adobe Workfront Fusion scenario, you can automate workflows that use Split.io, as well as connect it to multiple third-party applications and services.
+description: In an [!DNL Adobe Workfront] Fusion scenario, you can automate workflows that use [!DNL Split].io, as well as connect it to multiple third-party applications and services.
 author: Becky
 feature: Workfront Fusion
 exl-id: 4576a2e4-b495-430e-a9de-4e1ec7379ab8
 ---
 # Split.io modules
 
-In an Adobe Workfront Fusion scenario, you can automate workflows that use Split.io, as well as connect it to multiple third-party applications and services.
+In an [!DNL Adobe Workfront] Fusion scenario, you can automate workflows that use [!DNL Split].io, as well as connect it to multiple third-party applications and services.
 
 If you need instructions on creating a scenario, see [Create a scenario in Adobe Workfront Fusion](../../workfront-fusion/scenarios/create-a-scenario.md).
 
@@ -40,57 +40,57 @@ You must have the following access to use the functionality in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
+   <td>Your organization must purchase [!DNL Adobe Workfront Fusion] as well as [!DNL Adobe Workfront] to use functionality described in this article.</td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+&#42;To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
 
 &#42;&#42;For information on Adobe Workfront Fusion licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
 ## Prerequisites
 
-To use Split.io modules, you must have a Split.io account.
+To use [!DNL Split].io modules, you must have a Split.io account.
 
 ## Connect Split.io to Workfront Fusion  {#connect-split-io-to-workfront-fusion}
 
-You can create a connection to your Split.io account directly from inside a Split.io module.
+You can create a connection to your [!DNL Split.io] account directly from inside a [!DNL Split.io] module.
 
-1. In any Split.io module, click **Add** next to the Connection field.
+1. In any [!DNL Split].io module, click **Add** next to the Connection field.
 1. Enter a name for the connection.
 1. Enter your Split.io API key.
 
-   For more information on Split.io API keys, see [API keys](https://help.split.io/hc/en-us/articles/360019916211-API-keys) in the Split.io documentation.
+   For more information on [!DNL Split.io] API keys, see [API keys](https://help.split.io/hc/en-us/articles/360019916211-API-keys) in the [!DNL Split.io] documentation.
 
-1. Click **Continue** to create the connection and go back to the module.
+1. Click **[!UICONTROL Continue]** to create the connection and go back to the module.
 
 ## Split.io modules and their fields
 
-When you configure split.io modules, Workfront Fusion displays the fields listed below. Along with these, additional split.io fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
+When you configure [!DNL split.io] modules, [!DNL Workfront Fusion] displays the fields listed below. Along with these, additional [!DNL split.io] fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
 
 If you see the map button above a field or function, you can use it to set variables and functions for that field. For more information, see [Map information from one module to another in Adobe Workfront Fusion](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 ![](assets/map-toggle-350x74.png)
 
-* [Actions](#actions) 
+* [Actions](#actions)
 * [Searches](#searches)
 
 ### Actions {#actions}
 
-* [Custom API Call](#custom-api-call) 
-* [Get Split](#get-split) 
-* [Get Split Definition in Environment](#get-split-definition-in-environment) 
-* [Create Split](#create-split) 
-* [Delete Split](#delete-split) 
-* [Create Split Definition in Environment](#create-split-definition-in-environment) 
-* [Remove Split Definition from Environment](#remove-split-definition-from-environment) 
-* [Partial Update Split Definition in Environment](#partial-update-split-definition-in-environment) 
+* [Custom API Call](#custom-api-call)
+* [Get Split](#get-split)
+* [Get Split Definition in Environment](#get-split-definition-in-environment)
+* [Create Split](#create-split)
+* [Delete Split](#delete-split)
+* [Create Split Definition in Environment](#create-split-definition-in-environment)
+* [Remove Split Definition from Environment](#remove-split-definition-from-environment)
+* [Partial Update Split Definition in Environment](#partial-update-split-definition-in-environment)
 * [Associate Tags](#associate-tags)
 
 #### Custom API Call {#custom-api-call}
 
-This action module lets you make a custom authenticated call to the split.io API. This way, you can create a data flow automation that can't be accomplished by the other split.io modules. 
+This action module lets you make a custom authenticated call to the [!DNL split.io] API. This way, you can create a data flow automation that can't be accomplished by the other [!DNL split.io] modules.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -98,7 +98,7 @@ This action module lets you make a custom authenticated call to the split.io API
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your Split.io account to Workfront Fusion, see <a href="#connect-split-io-to-workfront-fusion" class="MCXref xref">Connect Split.io to Workfront Fusion </a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your [!DNL Split].io account to [!DNL Workfront] Fusion, see <a href="#connect-split-io-to-workfront-fusion" class="MCXref xref">Connect Split.io to Workfront Fusion </a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">URL</td> 
@@ -110,7 +110,7 @@ This action module lets you make a custom authenticated call to the split.io API
   </tr> 
   <tr> 
    <td role="rowheader">Headers</td> 
-   <td> <p>Add the headers of the request in the form of a standard JSON object.</p> <p>For example, <code>{"Content-type":"application/json"}</code></p> <p>Workfront Fusion adds the authorization headers for you.</p> </td> 
+   <td> <p>Add the headers of the request in the form of a standard [!DNL JSON] object.</p> <p>For example, <code>{"Content-type":"application/json"}</code></p> <p>Workfront Fusion adds the authorization headers for you.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Query String</td> 
@@ -118,7 +118,7 @@ This action module lets you make a custom authenticated call to the split.io API
   </tr> 
   <tr> 
    <td role="rowheader">Body</td> 
-   <td> <p>Add the body content for the API call in the form of a standard JSON object.</p> <p>Note:  <p>When using conditional statements such as <code>if</code> in your JSON, put the quotation marks outside of the conditional statement.</p> 
+   <td> <p>Add the body content for the API call in the form of a standard [!DNL JSON] object.</p> <p>Note:  <p>When using conditional statements such as <code>if</code> in your JSON, put the quotation marks outside of the conditional statement.</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td> 
@@ -140,7 +140,7 @@ This action module retrieves the split.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your Split.io account to Workfront Fusion, see <a href="#connect-split-io-to-workfront-fusion" class="MCXref xref">Connect Split.io to Workfront Fusion </a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your [!DNL Split].io account to [!DNL Workfront] Fusion, see <a href="#connect-split-io-to-workfront-fusion" class="MCXref xref">Connect Split.io to Workfront Fusion </a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Workspace ID</td> 
@@ -163,7 +163,7 @@ This action module retrieves a specific split definition from the designated env
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your Split.io account to Workfront Fusion, see <a href="#connect-split-io-to-workfront-fusion" class="MCXref xref">Connect Split.io to Workfront Fusion </a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your [!DNL Split].io account to [!DNL Workfront] Fusion, see <a href="#connect-split-io-to-workfront-fusion" class="MCXref xref">Connect Split.io to Workfront Fusion </a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Workspace ID</td> 
@@ -194,7 +194,7 @@ This action module creates a new split in your organization, given a traffic typ
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your Split.io account to Workfront Fusion, see <a href="#connect-split-io-to-workfront-fusion" class="MCXref xref">Connect Split.io to Workfront Fusion </a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your [!DNL Split].io account to [!DNL Workfront] Fusion, see <a href="#connect-split-io-to-workfront-fusion" class="MCXref xref">Connect Split.io to Workfront Fusion </a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Workspace ID</td> 
@@ -210,7 +210,7 @@ This action module creates a new split in your organization, given a traffic typ
   </tr> 
   <tr> 
    <td role="rowheader">Split Description</td> 
-   <td>Enter or map a split description for the split you want to create.</td> 
+   <td>Enter or map a [!UICONTROL split] description for the split you want to create.</td> 
   </tr> 
  </tbody> 
 </table>
@@ -225,7 +225,7 @@ This action module deletes a split from your organization. This automatically un
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your Split.io account to Workfront Fusion, see <a href="#connect-split-io-to-workfront-fusion" class="MCXref xref">Connect Split.io to Workfront Fusion </a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your [!DNL Split].io account to [!DNL Workfront] Fusion, see <a href="#connect-split-io-to-workfront-fusion" class="MCXref xref">Connect Split.io to Workfront Fusion </a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Workspace ID</td> 
@@ -248,7 +248,7 @@ This action module configures a split definition for a specific environment.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your Split.io account to Workfront Fusion, see <a href="#connect-split-io-to-workfront-fusion" class="MCXref xref">Connect Split.io to Workfront Fusion </a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your [!DNL Split].io account to [!DNL Workfront] Fusion, see <a href="#connect-split-io-to-workfront-fusion" class="MCXref xref">Connect Split.io to Workfront Fusion </a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Workspace ID</td> 
@@ -268,7 +268,7 @@ This action module configures a split definition for a specific environment.
   </tr> 
   <tr> 
    <td role="rowheader">Rules</td> 
-   <td> <p>For each targeting rule you want to add to the definition, click <b>Add item</b>, then enter or map the rule.</p> <p>For more information on targeting rules, see <a href="https://docs.split.io/reference#create-split-definition-in-environment">Create split definition in an environment</a> in the Split.io documentation.</p> </td> 
+   <td> <p>For each targeting rule you want to add to the definition, click <b>[!UICONTROL Add item]</b>, then enter or map the rule.</p> <p>For more information on targeting rules, see <a href="https://docs.split.io/reference#create-split-definition-in-environment">Create split definition in an environment</a> in the Split.io documentation.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Default rule</td> 
@@ -280,7 +280,7 @@ This action module configures a split definition for a specific environment.
   </tr> 
   <tr> 
    <td role="rowheader">Treatments</td> 
-   <td> <p>For each treatment you want to add to the definition, click <b>Add item</b>, then enter or map the treatment.</p> <p>For more information on treatments, see <a href="https://docs.split.io/reference#create-split-definition-in-environment">Create split definition in an environment</a> in the Split.io documentation.</p> </td> 
+   <td> <p>For each treatment you want to add to the definition, click <b>[!UICONTROL Add item]</b>, then enter or map the treatment.</p> <p>For more information on treatments, see <a href="https://docs.split.io/reference#create-split-definition-in-environment">Create split definition in an environment</a> in the Split.io documentation.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -295,7 +295,7 @@ This action module unconfigures a split definition for a specific environment.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your Split.io account to Workfront Fusion, see <a href="#connect-split-io-to-workfront-fusion" class="MCXref xref">Connect Split.io to Workfront Fusion </a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your [!DNL Split].io account to [!DNL Workfront] Fusion, see <a href="#connect-split-io-to-workfront-fusion" class="MCXref xref">Connect Split.io to Workfront Fusion </a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Workspace ID</td> 
@@ -326,7 +326,7 @@ This action module updates a split definition for a specific environment.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your Split.io account to Workfront Fusion, see <a href="#connect-split-io-to-workfront-fusion" class="MCXref xref">Connect Split.io to Workfront Fusion </a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your [!DNL Split].io account to [!DNL Workfront] Fusion, see <a href="#connect-split-io-to-workfront-fusion" class="MCXref xref">Connect Split.io to Workfront Fusion </a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Workspace ID</td> 
@@ -342,7 +342,7 @@ This action module updates a split definition for a specific environment.
   </tr> 
   <tr> 
    <td role="rowheader">Update content</td> 
-   <td> <p>For each attribute of the split that you want to update, click <b>Add item</b> and enter or map the desired changes.</p> <p>For more information, see <a href="https://docs.split.io/reference#partial-update-split-definition-in-environment">Partial Update Split Definition in Environment</a> in the Split.io documentation.</p> </td> 
+   <td> <p>For each attribute of the split that you want to update, click <b>[!UICONTROL Add item]</b> and enter or map the desired changes.</p> <p>For more information, see <a href="https://docs.split.io/reference#partial-update-split-definition-in-environment">Partial Update Split Definition in Environment</a> in the Split.io documentation.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Comments</td> 
@@ -353,7 +353,7 @@ This action module updates a split definition for a specific environment.
 
 #### Associate Tags {#associate-tags}
 
-This action module adds tags to the specified object. 
+This action module adds tags to the specified object.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -361,7 +361,7 @@ This action module adds tags to the specified object.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your Split.io account to Workfront Fusion, see <a href="#connect-split-io-to-workfront-fusion" class="MCXref xref">Connect Split.io to Workfront Fusion </a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your [!DNL Split].io account to [!DNL Workfront] Fusion, see <a href="#connect-split-io-to-workfront-fusion" class="MCXref xref">Connect Split.io to Workfront Fusion </a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Workspace ID</td> 
@@ -377,17 +377,17 @@ This action module adds tags to the specified object.
   </tr> 
   <tr> 
    <td role="rowheader">Tags</td> 
-   <td> <p>For each tag you want to add, click <b>Add item</b> and enter or map the tag.</p> </td> 
+   <td> <p>For each tag you want to add, click <b>[!UICONTROL Add item]</b> and enter or map the tag.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ### Searches {#searches}
 
-* [Get Workspaces](#get-workspaces) 
-* [Get Environments](#get-environments) 
-* [Get Splits](#get-splits) 
-* [List Split Definitions in an Environment](#list-split-definitions-in-an-environment) 
+* [Get Workspaces](#get-workspaces)
+* [Get Environments](#get-environments)
+* [Get Splits](#get-splits)
+* [List Split Definitions in an Environment](#list-split-definitions-in-an-environment)
 * [Get Traffic Types](#get-traffic-types)
 
 #### Get Workspaces {#get-workspaces}
@@ -400,7 +400,7 @@ This search module retrieves the workspaces for an organization.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your Split.io account to Workfront Fusion, see <a href="#connect-split-io-to-workfront-fusion" class="MCXref xref">Connect Split.io to Workfront Fusion </a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your [!DNL Split].io account to [!DNL Workfront] Fusion, see <a href="#connect-split-io-to-workfront-fusion" class="MCXref xref">Connect Split.io to Workfront Fusion </a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Limit</td> 
@@ -419,7 +419,7 @@ This search module retrieves a list of environments.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your Split.io account to Workfront Fusion, see <a href="#connect-split-io-to-workfront-fusion" class="MCXref xref">Connect Split.io to Workfront Fusion </a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your [!DNL Split].io account to [!DNL Workfront] Fusion, see <a href="#connect-split-io-to-workfront-fusion" class="MCXref xref">Connect Split.io to Workfront Fusion </a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Workspace ID</td> 
@@ -438,7 +438,7 @@ This search module retrieves a list of splits.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your Split.io account to Workfront Fusion, see <a href="#connect-split-io-to-workfront-fusion" class="MCXref xref">Connect Split.io to Workfront Fusion </a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your [!DNL Split].io account to [!DNL Workfront] Fusion, see <a href="#connect-split-io-to-workfront-fusion" class="MCXref xref">Connect Split.io to Workfront Fusion </a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Workspace ID</td> 
@@ -461,7 +461,7 @@ This search module retrieves a list of split definitions in a given environment.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your Split.io account to Workfront Fusion, see <a href="#connect-split-io-to-workfront-fusion" class="MCXref xref">Connect Split.io to Workfront Fusion </a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your [!DNL Split].io account to [!DNL Workfront] Fusion, see <a href="#connect-split-io-to-workfront-fusion" class="MCXref xref">Connect Split.io to Workfront Fusion </a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Workspace ID</td> 
@@ -488,7 +488,7 @@ This search module retrieves a list of traffic types.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your Split.io account to Workfront Fusion, see <a href="#connect-split-io-to-workfront-fusion" class="MCXref xref">Connect Split.io to Workfront Fusion </a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your [!DNL Split].io account to [!DNL Workfront] Fusion, see <a href="#connect-split-io-to-workfront-fusion" class="MCXref xref">Connect Split.io to Workfront Fusion </a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Workspace ID</td> 

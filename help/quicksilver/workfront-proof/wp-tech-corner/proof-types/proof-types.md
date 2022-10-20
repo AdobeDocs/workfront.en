@@ -13,8 +13,8 @@ exl-id: fd98edb2-7f5a-4d09-88cb-dc6072f4aed0
 
 >[!IMPORTANT]
 >
->This article refers to functionality in the standalone product Workfront Proof. For information on proofing inside Adobe Workfront, see [Proofing](../../../review-and-approve-work/proofing/proofing.md).
+>This article refers to functionality in the standalone product [!DNL Workfront] Proof. For information on proofing inside [!DNL Adobe Workfront], see [Proofing](../../../review-and-approve-work/proofing/proofing.md).
 
 This section contains the following articles:
 
-* [Create a Static Website Proof using Workfront Proof](../../../workfront-proof/wp-tech-corner/proof-types/create-status-web-proof.md)
+* [Create a Static Website Proof using [!DNL Workfront] Proof](../../../workfront-proof/wp-tech-corner/proof-types/create-status-web-proof.md)

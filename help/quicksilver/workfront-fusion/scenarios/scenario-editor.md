@@ -2,7 +2,7 @@
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
-title: The scenario editor in Adobe Workfront Fusion
+title: The scenario editor in [!DNL Adobe] Workfront Fusion
 description: The scenario editor allows you to create and edit scenarios in a visual interface.
 author: Becky
 feature: Workfront Fusion
@@ -36,34 +36,34 @@ You must have the following access to use the functionality in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
+   <td>Your organization must purchase [!DNL Adobe Workfront Fusion] as well as [!DNL Adobe Workfront] to use functionality described in this article.</td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+&#42;To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
 
 &#42;&#42;For information on Adobe Workfront Fusion licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
 ## Open the scenario editor:
 
-1. Click **Scenarios** ![](assets/scenarios-icon.png) in the left panel.
+1. Click **[!UICONTROL Scenarios]** ![](assets/scenarios-icon.png) in the left panel.
 
-1. If you want to create a scenario, click **Create a new scenario** in the upper-right corner of the page.
+1. If you want to create a scenario, click **[!UICONTROL Create a new scenario]** in the upper-right corner of the page.
 
    Or
 
    If you want to edit an existing scenario, click the scenario.
 
-1. (Conditional) If you are creating a new scenario, under **What services do you want to integrate**, select apps you want to work with in the scenario, then click **Continue**.
+1. (Conditional) If you are creating a new scenario, under **What services do you want to integrate**, select apps you want to work with in the scenario, then click **[!UICONTROL Continue]**.
 
    Or
 
-   Click **Skip** if you would rather choose the apps from within the scenario editor.
+   Click **[!UICONTROL Skip]** if you would rather choose the apps from within the scenario editor.
 
    In the scenario editor that displays, you can do everything listed in the table below. For more information, see [Create a scenario in Adobe Workfront Fusion](../../workfront-fusion/scenarios/create-a-scenario.md).
 
-1. When you finish editing a scenario (or at any time while you are editing), click the Save icon. ![](assets/save-icon.gif)
+1. When you finish editing a scenario (or at any time while you are editing), click the [!UICONTROL Save] icon. ![](assets/save-icon.gif)
 
    >[!NOTE]
    >
@@ -75,7 +75,7 @@ You must have the following access to use the functionality in this article:
 <tbody>
   <tr>
      <td role="rowheader">Add the first module</td>
-     <td> <p>Click the question mark icon. <img src="assets/question-mark-full-size.png"></p> <p> Then find and click the app or service that you want to start with. If you selected any apps in step 2, they appear here for easy access (and in the <strong>Favorites</strong> section at the bottom of the screen).</p> </td>
+     <td> <p>Click the question mark icon. <img src="assets/question-mark-full-size.png"></p> <p> Then find and click the app or service that you want to start with. If you selected any apps in step 2, they appear here for easy access (and in the <strong>[!UICONTROL Favorites]</strong> section at the bottom of the screen).</p> </td>
   </tr>
   <tr>
      <td role="rowheader">Add a module</td>
@@ -87,7 +87,7 @@ You must have the following access to use the functionality in this article:
   </tr>  
   <tr>
      <td role="rowheader">Set up a route</td>   
-     <td> <p>Click the wrench icon <img src="assets/wrench-icon.gif"> between the two modules and use any of the following options:</p>    
+     <td> <p>Click the [!UICONTROL wrench] icon <img src="assets/wrench-icon.gif"> between the two modules and use any of the following options:</p>    
        <ul>
          <li><strong>Set up a filter</strong>: Control which bundles are used at certain points in the scenario. For more information, see <a href="../../workfront-fusion/scenarios/add-a-filter-to-a-scenario.md" class="MCXref xref">Add a filter to a scenario in Adobe Workfront Fusion</a>.</li>     
          <li><strong>Unlink</strong>: Removes a route.</li>     
@@ -109,7 +109,7 @@ You must have the following access to use the functionality in this article:
    </tr>  
    <tr>   
      <td role="rowheader">Configure the scenario settings</td>   
-     <td>Click the Scenario settings icon. <img src="assets/gear-icon-settings.png"> These settings are intended primarily for advanced users.</td>  
+     <td>Click the [!UICONTROL Scenario settings] icon. <img src="assets/gear-icon-settings.png"> These settings are intended primarily for advanced users.</td>  
    </tr>  
    <tr>   
      <td role="rowheader">Type or view notes about the scenario</td>   
@@ -117,7 +117,7 @@ You must have the following access to use the functionality in this article:
    </tr>  
    <tr> 
      <td role="rowheader">Auto-align the layout of the modules </td>   
-     <td>Click the Auto-align icon. <img src="assets/auto-align-icon.gif"></td>  </tr>  <tr>   <td role="rowheader">View an animation showing how data flows through the scenario</td>   <td>Click the Explain Flow icon. <img src="assets/explain-flow-airplane-icon.gif"></td>  
+     <td>Click the Auto-align icon. <img src="assets/auto-align-icon.gif"></td>  </tr>  <tr>   <td role="rowheader">View an animation showing how data flows through the scenario</td>   <td>Click the [!UICONTROL Explain Flow] icon. <img src="assets/explain-flow-airplane-icon.gif"></td>  
    </tr>  
    <tr> 
      <td role="rowheader">Export the scenario to your computer as a blueprint</td>   
@@ -145,7 +145,7 @@ You must have the following access to use the functionality in this article:
    </tr>  
    <tr> 
      <td role="rowheader">Access your most commonly used apps and services</td>   
-     <td> Click an icon in the <strong>Favorites</strong> section at the bottom of the screen. Icons display in this section automatically as you add apps and services to your scenario. You can also click the Add icon <img src="assets/add-icon.gif"> to add apps and services to this area manually.</td>  
+     <td> Click an icon in the <strong>[!UICONTROL Favorites]</strong> section at the bottom of the screen. Icons display in this section automatically as you add apps and services to your scenario. You can also click the Add icon <img src="assets/add-icon.gif"> to add apps and services to this area manually.</td>  
    </tr>  
    <tr> 
      <td role="rowheader">Test-run the scenario</td>   

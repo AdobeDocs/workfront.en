@@ -4,7 +4,7 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: mapping
 title: Type coercion in Adobe Workfront Fusion
-description: This document describes how Adobe Workfront Fusion behaves in situations when it receives values in expected and unexpected data formats.
+description: This document describes how [!DNL Adobe Workfront Fusion] behaves in situations when it receives values in expected and unexpected data formats.
 author: Becky
 feature: Workfront Fusion
 exl-id: 847a17c9-bd67-4132-81a8-2a5fe8d516cb
@@ -33,18 +33,18 @@ You must have the following access to use the functionality in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
+   <td>Your organization must purchase [!DNL Adobe Workfront Fusion] as well as [!DNL Adobe Workfront] to use functionality described in this article.</td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+&#42;To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
 
 &#42;&#42;For information on Adobe Workfront Fusion licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
 ### Type coercion
 
-This document describes how Adobe Workfront Fusion behaves in situations when it receives values in expected and unexpected data formats.
+This document describes how [!DNL Adobe Workfront Fusion] behaves in situations when it receives values in expected and unexpected data formats.
 
 <table style="table-layout:auto">
  <col> 
@@ -66,7 +66,7 @@ This document describes how Adobe Workfront Fusion behaves in situations when it
   <tr> 
    <td>array </td> 
    <td>other </td> 
-   <td> <p>If the received value is not of the array type, Workfront Fusion will create an array and the first (and the only) element will be the received value.</p> </td> 
+   <td> <p>If the received value is not of the [!UICONTROL array] type, [!DNL Workfront Fusion] will create an array and the first (and the only) element will be the received value.</p> </td> 
   </tr> 
   <tr> 
    <td>boolean </td> 
@@ -91,7 +91,7 @@ This document describes how Adobe Workfront Fusion behaves in situations when it
   <tr> 
    <td>buffer </td> 
    <td>buffer </td> 
-   <td> <p>The value is handed over unchanged only if the codepage is as expected. If the codepage differs, Workfront Fusion will try to convert the received value to the requested codepage. If this conversion is not supported, Workfront Fusion will return a validation error.</p> </td> 
+   <td> <p>The value is handed over unchanged only if the codepage is as expected. If the codepage differs, [!DNL Workfront Fusion] will try to convert the received value to the requested codepage. If this conversion is not supported, [!DNL Workfront Fusion] will return a validation error.</p> </td> 
   </tr> 
   <tr> 
    <td>buffer </td> 
@@ -166,7 +166,7 @@ This document describes how Adobe Workfront Fusion behaves in situations when it
   <tr> 
    <td>text </td> 
    <td>array </td> 
-   <td> <p>If the given array supports conversion to text, the value will be converted. If not, Workfront Fusion will return a validation error.</p> </td> 
+   <td> <p>If the given array supports conversion to text, the value will be converted. If not, [!DNL Workfront Fusion] will return a validation error.</p> </td> 
   </tr> 
   <tr> 
    <td>text </td> 
@@ -176,7 +176,7 @@ This document describes how Adobe Workfront Fusion behaves in situations when it
   <tr> 
    <td>text </td> 
    <td>buffer </td> 
-   <td> <p>If text encoding is specified for binary data, the value will be converted to text. If not, Workfront Fusion will return a validation error.</p> </td> 
+   <td> <p>If text encoding is specified for binary data, the value will be converted to text. If not, [!DNL Workfront Fusion] will return a validation error.</p> </td> 
   </tr> 
   <tr> 
    <td>text </td> 

@@ -5,14 +5,14 @@ product-area: workfront-integrations
 keywords: connector
 navigation-topic: apps-and-their-modules
 title: Slack modules
-description: In an Adobe Workfront Fusion scenario, you can automate workflows that use Slack, as well as connect it to multiple third-party applications and services.
+description: In an [!DNL Adobe Workfront] Fusion scenario, you can automate workflows that use Slack, as well as connect it to multiple third-party applications and services.
 author: Becky
 feature: Workfront Fusion
 exl-id: ba5bad6a-3cb3-4024-82f7-d38ee9a8e0b5
 ---
 # Slack modules
 
-In an Adobe Workfront Fusion scenario, you can automate workflows that use Slack, as well as connect it to multiple third-party applications and services.
+In an [!DNL Adobe Workfront] Fusion scenario, you can automate workflows that use Slack, as well as connect it to multiple third-party applications and services.
 
 If you need instructions on creating a scenario, see [Create a scenario in Adobe Workfront Fusion](../../workfront-fusion/scenarios/create-a-scenario.md).
 
@@ -40,12 +40,12 @@ You must have the following access to use the functionality in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
+   <td>Your organization must purchase [!DNL Adobe Workfront Fusion] as well as [!DNL Adobe Workfront] to use functionality described in this article.</td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+&#42;To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
 
 &#42;&#42;For information on Adobe Workfront Fusion licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
@@ -55,23 +55,23 @@ To use Slack modules, you must have a Slack account.
 
 ## Slack modules and their fields
 
-When you configure Slack modules, Workfront Fusion displays the fields listed below. Along with these, additional Slack fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
+When you configure Slack modules, [!DNL Workfront Fusion] displays the fields listed below. Along with these, additional Slack fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
 
 If you see the map button above a field or function, you can use it to set variables and functions for that field. For more information, see [Map information from one module to another in Adobe Workfront Fusion](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 ![](assets/map-toggle-350x74.png)
 
-* [Messages](#messages) 
-* [Files](#files) 
-* [Channels](#channels) 
-* [Reactions](#reactions) 
-* [Stars](#stars) 
-* [Saved Items](#saved-items) 
-* [Pins](#pins) 
-* [Users](#users) 
-* [Reminders](#reminders) 
-* [Events](#events) 
-* [Profile](#profile) 
+* [Messages](#messages)
+* [Files](#files)
+* [Channels](#channels)
+* [Reactions](#reactions)
+* [Stars](#stars)
+* [Saved Items](#saved-items)
+* [Pins](#pins)
+* [Users](#users)
+* [Reminders](#reminders)
+* [Events](#events)
+* [Profile](#profile)
 * [Other](#other)
 
 ### Messages {#messages}
@@ -107,7 +107,7 @@ This trigger module starts the scenario when a new message is added to a public 
   </tr> 
   <tr> 
    <td role="rowheader">Limit </td> 
-   <td> <p>Set the maximum number of messages Workfront Fusion will return during one execution cycle.</p> </td> 
+   <td> <p>Set the maximum number of messages [!DNL Workfront Fusion] will return during one execution cycle.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -132,14 +132,14 @@ This trigger module starts the scenario when a new message is added to a private
   </tr> 
   <tr> 
    <td role="rowheader">Limit </td> 
-   <td> <p>Set the maximum number of messages Workfront Fusion will return during one execution cycle.</p> </td> 
+   <td> <p>Set the maximum number of messages [!DNL Workfront Fusion] will return during one execution cycle.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 +++
 
-+++ **Watch Direct Messages** 
++++ **Watch Direct Messages**
 
 This trigger module starts the scenario when a new message is added to a direct message.
 
@@ -157,14 +157,14 @@ This trigger module starts the scenario when a new message is added to a direct 
   </tr> 
   <tr> 
    <td role="rowheader">Limit </td> 
-   <td> <p>Set the maximum number of messages Workfront Fusion will return during one execution cycle.</p> </td> 
+   <td> <p>Set the maximum number of messages [!DNL Workfront Fusion] will return during one execution cycle.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 +++
 
-+++ **Watch Multiparty Direct Messages** 
++++ **Watch Multiparty Direct Messages**
 
 This trigger module starts the scenario when a new message is added to a multiparty direct message channel.
 
@@ -182,7 +182,7 @@ This trigger module starts the scenario when a new message is added to a multipa
   </tr> 
   <tr> 
    <td role="rowheader">Limit </td> 
-   <td> <p>Set the maximum number of messages Workfront Fusion will return during one execution cycle.</p> </td> 
+   <td> <p>Set the maximum number of messages [!DNL Workfront Fusion] will return during one execution cycle.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -207,7 +207,7 @@ This search module returns messages matching a search query.
   </tr> 
   <tr> 
    <td role="rowheader">Limit </td> 
-   <td> <p>Set the maximum number of messages Workfront Fusion will return during one execution cycle.</p> </td> 
+   <td> <p>Set the maximum number of messages [!DNL Workfront Fusion] will return during one execution cycle.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -309,8 +309,8 @@ This action module creates a new message.
    <td role="rowheader"> <p>Enter a channel ID or name</p> </td> 
    <td> <p>Choose how you want to select the channel where you want to create a message.</p> 
     <ul> 
-     <li> <p><strong>Enter manually</strong> </p> <p>In the <strong>Channel ID or name</strong> field, enter or map the Channel ID or name of the channel where you want to post the message.</p> <p>Note: The Channel ID can be retrieved using the List Channels module.</p> </li> 
-     <li> <p><strong>Select from the list</strong> </p> <p>Select the type of channel, then select the channel.</p> </li> 
+     <li> <p><strong>Enter manually</strong> </p> <p>In the <strong>[!UICONTROL Channel ID or name]</strong> field, enter or map the Channel ID or name of the channel where you want to post the message.</p> <p>Note: The Channel ID can be retrieved using the List Channels module.</p> </li> 
+     <li> <p><strong>[!UICONTROL Select from the list]</strong> </p> <p>Select the type of channel, then select the channel.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -395,7 +395,7 @@ This action module allows you to edit an existing message.
    <td> <p>Choose how you want to select the message you want to .</p> 
     <ul> 
      <li> <p><strong>Enter manually</strong> </p> <p>In the <strong>Channel ID or name</strong> field, enter or map the Channel ID or of the channel that contains the message, then enter the <strong>Time Stamp (Message ID)</strong> of the message. .</p> <p>Note: The Channel ID can be retrieved using the List Channels module.</p> </li> 
-     <li> <p><strong>Select from the list</strong> </p> <p>Select the type of channel, then select the channel, then select the message.</p> </li> 
+     <li> <p><strong>[!UICONTROL Select from the list]</strong> </p> <p>Select the type of channel, then select the channel, then select the message.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -540,7 +540,7 @@ This action module returns details about the specified file.
   </tr> 
   <tr> 
    <td role="rowheader">File ID</td> 
-   <td> <p>Enter or map the ID&nbsp;of the file that you want to retrieve. </p> <p>Note: The file ID can be retrieved using another module, such as the Watch Files Module.</p> </td> 
+   <td> <p>Enter or map the ID of the file that you want to retrieve. </p> <p>Note: The file ID can be retrieved using another module, such as the [!DNL Watch Files] Module.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -549,7 +549,7 @@ This action module returns details about the specified file.
 
 +++ **Download a File**
 
-This action module downloads a file from a URL. It must follow the Slack > Get a File module in a scenario.
+This action module downloads a file from a URL. It must follow the [!UICONTROL Slack] >[!UICONTROL Get a File] module in a scenario.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -561,7 +561,7 @@ This action module downloads a file from a URL. It must follow the Slack > Get a
   </tr> 
   <tr> 
    <td role="rowheader">URL private download</td> 
-   <td> <p>Map the <b>URL Private download</b> value from the Slack &gt; Get a File module.</p> </td> 
+   <td> <p>Map the <b>URL Private download</b> value from the [!UICONTROL Slack] >[!UICONTROL Get a] File module.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -570,7 +570,7 @@ This action module downloads a file from a URL. It must follow the Slack > Get a
 
 +++ **Upload a File**
 
-This action module creates or uploads a file to Slack
+This action module creates or uploads a file to [!DNL Slack]
 
 <table style="table-layout:auto"> 
  <col> 
@@ -582,7 +582,7 @@ This action module creates or uploads a file to Slack
   </tr> 
   <tr> 
    <td role="rowheader">Channels</td> 
-   <td> <p>For each channel you want to upload the file to, click <b>Add item</b>, then select the channel type and channel.</p> </td> 
+   <td> <p>For each channel you want to upload the file to, click <b>[!UICONTROL Add item]</b>, then select the channel type and channel.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Source file</td> 
@@ -619,7 +619,7 @@ This action module creates a text file.
   </tr> 
   <tr> 
    <td role="rowheader">Channels</td> 
-   <td> <p>For each channel you want to upload the file to, click <b>Add item</b>, then select the channel type and channel.</p> </td> 
+   <td> <p>For each channel you want to upload the file to, click <b>[!UICONTROL Add item]</b>, then select the channel type and channel.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Source file</td> 
@@ -656,7 +656,7 @@ This action module returns deletes the specified file.
   </tr> 
   <tr> 
    <td role="rowheader">File ID</td> 
-   <td> <p>Enter or map the ID&nbsp;of the file that you want to delete. </p> <p>Note: The file ID can be retrieved using another module, such as the Watch Files Module.</p> </td> 
+   <td> <p>Enter or map the ID of the file that you want to delete. </p> <p>Note: The file ID can be retrieved using another module, such as the [!DNL Watch Files] Module.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -700,7 +700,7 @@ This search module returns a list of all channels in a workspace.
   </tr> 
   <tr> 
    <td role="rowheader">Limit </td> 
-   <td> <p>Set the maximum number of channels Workfront Fusion will return during one execution cycle.</p> </td> 
+   <td> <p>Set the maximum number of channels [!DNL Workfront Fusion] will return during one execution cycle.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -721,7 +721,7 @@ This action module returns information about a workspace channel.
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Channel ID</p> </td> 
-   <td> <p>Enter or map the ID&nbsp;of the channel that you want to retrieve information about.</p> <p>Note: The Channel ID can be retrieved using the List Channels module.</p> </td> 
+   <td> <p>Enter or map the ID of the channel that you want to retrieve information about.</p> <p>Note: The Channel ID can be retrieved using the List Channels module.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -750,7 +750,7 @@ This search module returns a list of users in the selected channel.
   </tr> 
   <tr> 
    <td role="rowheader">Limit </td> 
-   <td> <p>Set the maximum number of members Workfront Fusion will return during one execution cycle.</p> </td> 
+   <td> <p>Set the maximum number of members [!DNL Workfront Fusion] will return during one execution cycle.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -829,7 +829,7 @@ This action module joins the user to a channel.
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Channel ID</p> </td> 
-   <td> <p>Enter or map the ID&nbsp;of the channel that you want to join.</p> <p>Note: The Channel ID can be retrieved using the List Channels module.</p> </td> 
+   <td> <p>Enter or map the ID of the channel that you want to join.</p> <p>Note: The Channel ID can be retrieved using the List Channels module.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -850,7 +850,7 @@ This action module removes the user from a channel.
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Channel ID</p> </td> 
-   <td> <p>Enter or map the ID&nbsp;of the channel that you want to leave.</p> <p>Note: The Channel ID can be retrieved using the List Channels module.</p> </td> 
+   <td> <p>Enter or map the ID of the channel that you want to leave.</p> <p>Note: The Channel ID can be retrieved using the List Channels module.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -896,7 +896,7 @@ This action module creates a new channel.
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Channel ID</p> </td> 
-   <td> <p>Enter or map the ID&nbsp;of the channel that you want to archive.</p> <p>Note: The Channel ID can be retrieved using the List Channels module.</p> </td> 
+   <td> <p>Enter or map the ID of the channel that you want to archive.</p> <p>Note: The Channel ID can be retrieved using the List Channels module.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -917,7 +917,7 @@ This action module creates a new channel.
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Channel ID</p> </td> 
-   <td> <p>Enter or map the ID&nbsp;of the channel that you want to unarchive.</p> <p>Note: The Channel ID can be retrieved using the List Channels module.</p> </td> 
+   <td> <p>Enter or map the ID of the channel that you want to unarchive.</p> <p>Note: The Channel ID can be retrieved using the List Channels module.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -1227,7 +1227,7 @@ This trigger module starts the scenario when a new user is added to the Slack wo
   </tr> 
   <tr> 
    <td role="rowheader">Limit </td> 
-   <td> <p>Set the maximum number of users Workfront Fusion will return during one execution cycle.</p> </td> 
+   <td> <p>Set the maximum number of users [!DNL Workfront Fusion] will return during one execution cycle.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -1290,7 +1290,7 @@ This action module retrieves details about a member of a workspace.
   </tr> 
   <tr> 
    <td role="rowheader"> <p>User ID</p> </td> 
-   <td> <p>Enter or map the User ID&nbsp;of the user you want to retrieve details for.</p> <p>Note: The User ID can be retrieved using another module, such as the List Users module.</p> </td> 
+   <td> <p>Enter or map the User ID of the user you want to retrieve details for.</p> <p>Note: The User ID can be retrieved using another module, such as the [!DNL List Users] module.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -1400,7 +1400,7 @@ This action module retrieves details about a specific reminder.
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Reminder ID</p> </td> 
-   <td> <p>Enter or map the Reminder ID&nbsp;of the reminder you want to retrieve details for.</p> <p>Note: The Reminder ID can be retrieved using another module, such as the List Reminders module.</p> </td> 
+   <td> <p>Enter or map the Reminder ID of the reminder you want to retrieve details for.</p> <p>Note: The Reminder ID can be retrieved using another module, such as the List Reminders module.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -1455,7 +1455,7 @@ This action module completes a specific reminder.
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Reminder ID</p> </td> 
-   <td> <p>Enter or map the Reminder ID&nbsp;of the reminder you want to complete.</p> <p>Note: The Reminder ID can be retrieved using another module, such as the List Reminders module.</p> </td> 
+   <td> <p>Enter or map the Reminder ID of the reminder you want to complete.</p> <p>Note: The Reminder ID can be retrieved using another module, such as the List Reminders module.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -1476,7 +1476,7 @@ This action module deletes a specific reminder.
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Reminder ID</p> </td> 
-   <td> <p>Enter or map the Reminder ID&nbsp;of the reminder you want to delete.</p> <p>Note: The Reminder ID can be retrieved using another module, such as the List Reminders module.</p> </td> 
+   <td> <p>Enter or map the Reminder ID of the reminder you want to delete.</p> <p>Note: The Reminder ID can be retrieved using another module, such as the List Reminders module.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -1549,7 +1549,7 @@ This action module updates a user's current status.
 
 +++ **Make an API Call**
 
-This action module lets you make a custom authenticated call to the Slack API. This way, you can create a data flow automation that can't be accomplished by the other Slack modules. 
+This action module lets you make a custom authenticated call to the Slack API. This way, you can create a data flow automation that can't be accomplished by the other Slack modules.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -1569,7 +1569,7 @@ This action module lets you make a custom authenticated call to the Slack API. T
   </tr> 
   <tr> 
    <td role="rowheader">Headers</td> 
-   <td> <p>Add the headers of the request in the form of a standard JSON object.</p> <p>For example, <code>{"Content-type":"application/json"}</code></p> <p>Workfront Fusion adds the authorization headers for you.</p> </td> 
+   <td> <p>Add the headers of the request in the form of a standard [!DNL JSON] object.</p> <p>For example, <code>{"Content-type":"application/json"}</code></p> <p>Workfront Fusion adds the authorization headers for you.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Query String</td> 
@@ -1577,7 +1577,7 @@ This action module lets you make a custom authenticated call to the Slack API. T
   </tr> 
   <tr> 
    <td role="rowheader">Body</td> 
-   <td> <p>Add the body content for the API call in the form of a standard JSON object.</p> <p>Note:  <p>When using conditional statements such as <code>if</code> in your JSON, put the quotation marks outside of the conditional statement.</p> 
+   <td> <p>Add the body content for the API call in the form of a standard [!DNL JSON] object.</p> <p>Note:  <p>When using conditional statements such as <code>if</code> in your JSON, put the quotation marks outside of the conditional statement.</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td> 
@@ -1597,6 +1597,6 @@ The following terminology may be useful when configuring Slack modules:
 
 * **DM**: Direct Message
 * **IM**: Instant Message
-* **Private Channel**: formerly Group
+* **Private Channel**: formerly [!UICONTROL Group]
 * **Direct Message**: formerly IM
 * **Channel**: Conversation in the API documentation, channel in the Slack app.

@@ -35,12 +35,12 @@ You must have the following access to use the functionality in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
+   <td>Your organization must purchase [!DNL Adobe Workfront Fusion] as well as [!DNL Adobe Workfront] to use functionality described in this article.</td> 
   </tr>
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+&#42;To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
 
 &#42;&#42;For information on Adobe Workfront Fusion licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
@@ -52,14 +52,14 @@ You must have the following access to use the functionality in this article:
 
 To use a webhook to connect an app to Workfront Fusion:
 
-1. Add the **Webhooks** >**Custom Webhook** instant trigger module to your scenario.
+1. Add the **[!UICONTROL Webhooks]** >**Custom Webhook** instant trigger module to your scenario.
 
-1. Click **Add** next to the Webhook field and enter a name for the new webhook.
-1. (Optional) Click **Advanced Settings**. 
-1. In the **IP restrictions** field, enter a comma-separated list of the IP addresses that the module can accept data from.
-1. Click **Save**
+1. Click **Add** next to the [!UICONTROL Webhook] field and enter a name for the new webhook.
+1. (Optional) Click **Advanced Settings**.
+1. In the **[!UICONTROL IP restrictions]** field, enter a comma-separated list of the IP addresses that the module can accept data from.
+1. Click **[!UICONTROL Save]**
 
-After you create a webhook, a unique URL displays. This is the address where the webhook sends data. Workfront Fusion validates the data sent to this address, then passes it on for processing in the scenario.
+After you create a webhook, a unique URL displays. This is the address where the webhook sends data. [!DNL Workfront Fusion] validates the data sent to this address, then passes it on for processing in the scenario.
 
 >[!NOTE]
 >
@@ -67,13 +67,13 @@ After you create a webhook, a unique URL displays. This is the address where the
 
 ### Configure the webhook's data structure {#configure-the-webhook-s-data-structure}
 
-In order to recognize the data structure of the incoming payload, Workfront Fusion parses sample data that you send to the displayed address. You can supply the sample data by making a change in the service or app that will make that service or app call the webhook. For example, you could remove a file.
+In order to recognize the data structure of the incoming payload, [!DNL Workfront Fusion] parses sample data that you send to the displayed address. You can supply the sample data by making a change in the service or app that will make that service or app call the webhook. For example, you could remove a file.
 
-Or you can follow the steps below to send the sample data via the HTTP > Make a request module.
+Or you can follow the steps below to send the sample data via the [!UICONTROL HTTP] >[!UICONTROL Make a request] module.
 
-1. Create a new scenario with the **HTTP** > **Make a request** module
+1. Create a new scenario with the **[!UICONTROL HTTP]** > **[!UICONTROL Make a request]** module
 
-1. Configure the module with the following values: 
+1. Configure the module with the following values:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -97,15 +97,15 @@ Or you can follow the steps below to send the sample data via the HTTP > Make a 
      </tr> 
      <tr> 
       <td role="rowheader">Request content</td> 
-      <td><p>Raw JSON expected in the webhook</p></td> 
+      <td><p>Raw JSON expected in the [!DNL webhook]</p></td> 
      </tr> 
     </tbody> 
    </table>
 
    ![](assets/new-scenario-set-up-like-this-350x446.png)
 
-1. Open the scenario with the Webhooks module in a separate browser tab or window.
-1. In the webhooks module, click **Redetermine data structure**.
+1. Open the scenario with the [!DNL Webhooks] module in a separate browser tab or window.
+1. In the [!DNL webhooks] module, click **Redetermine data structure**.
 
    You do not need to unlink other modules from the webhooks module.
 
@@ -134,10 +134,10 @@ Workfront Fusion supports 3 incoming data formats: Query String, Form Data and J
 
 Workfront Fusion validates all incoming data against the selected data structure. Then, depending on the scenario's settings, the data is either stored in the queue for processing, or it is processed immediately.
 
-If any part of the data does not pass the validation, Workfront Fusion returns a 400 HTTP status code and specifies, in the body of the HTTP response, the reason why the incoming data failed the validation checks. If the validation of the incoming data succeeds, Workfront Fusion returns a “200 Accepted” status.
+If any part of the data does not pass the validation, [!DNL Workfront Fusion] returns a 400 HTTP status code and specifies, in the body of the HTTP response, the reason why the incoming data failed the validation checks. If the validation of the incoming data succeeds, [!DNL Workfront Fusion] returns a “200 Accepted” status.
 
-* [Query String](#query-string) 
-* [Form Data](#form-data) 
+* [Query String](#query-string)
+* [Form Data](#form-data)
 * [JSON](#json)
 
 ### Query String {#query-string}
@@ -207,19 +207,21 @@ Content-Type: application/json
 >1. Click **JSON pass-through**.
 >
 
+
+
 ## Webhook headers
 
-To access the webhook's headers, enable Get request headers when setting up the webhook.
+To access the webhook's headers, enable [!UICONTROL Get request headers] when setting up the webhook.
 
 1. Click **Add** to add a new webhook.
 1. Click **Show advanced settings**.
 1. Click **Get request headers**.
 
-You can extract a particular header value with the combination of `map()` and `get()` functions. 
+You can extract a particular header value with the combination of `map()` and `get()` functions.
 
 >[!INFO]
 >
->**Example:** 
+>**Example:**
 >
 >The example below shows a formula that extracts the value of the `authorization` header from the `Headers[]` array. The formula is used in a filter that compares the extracted value with the given text to pass only webhooks if there is a match.
 >
@@ -231,8 +233,8 @@ You can extract a particular header value with the combination of `map()` and `g
 
 The default response to a webhook call is the text "Accepted". The response is returned to the app that called the webhook during the execution of the Custom Webhook module.
 
-* [Test the response to a webhook](#test-the-response-to-a-webhook) 
-* [HTML Response example](#html-response-example) 
+* [Test the response to a webhook](#test-the-response-to-a-webhook)
+* [HTML Response example](#html-response-example)
 * [Redirect example](#redirect-example)
 
 ### Test the response to a webhook {#test-the-response-to-a-webhook}
@@ -252,23 +254,23 @@ If you want to customize the webhook's response, employ the module Webhook Respo
 
 The configuration of the module contains two fields: Status and Body.
 
-* The Status field contains HTTP response status codes such as 2xx for Success (for example, `200` for OK), 3xx for Redirection (for example, `307` for Temporary Redirect), 4xx for Client errors (for example, `400` for Bad Request), and so on. 
+* The [!UICONTROL Status] field contains HTTP response status codes such as 2xx for Success (for example, `200` for OK), 3xx for Redirection (for example, `307` for Temporary Redirect), 4xx for Client errors (for example, `400` for Bad Request), and so on.
 
-* The Body field contains anything that will be accepted by the webhook's call. It can be simple text, HTML, XML, JSON, and so on.
+* The [!UICONTROL Body] field contains anything that will be accepted by the webhook's call. It can be simple text, HTML, XML, JSON, and so on.
 
-  >[!TIP]
-  >
-  >We recommend setting the `Content-Type` header to the corresponding MIME type: `text/plain` for plain text, `text/html` for HTML, `application/json` for JSON, `application/xml` for XML, and so on. For more information on MIME types, see [MIME modules](../../workfront-fusion/apps-and-their-modules/mime.md).
+   >[!TIP]
+   >
+   >We recommend setting the `Content-Type` header to the corresponding MIME type: `text/plain` for plain text, `text/html` for HTML, `application/json` for JSON, `application/xml` for XML, and so on. For more information on MIME types, see [MIME modules](../../workfront-fusion/apps-and-their-modules/mime.md).
 
-Timeout for sending a response is 40 seconds. If the response is not available within that period, Workfront Fusion returns a '200 Accepted' status.
+Timeout for sending a response is 40 seconds. If the response is not available within that period, [!DNL Workfront Fusion] returns a '200 Accepted' status.
 
 ### HTML Response example {#html-response-example}
 
 >[!INFO]
 >
->**Example:** 
+>**Example:**
 >
->Configure the Webhook Response module as follows:
+>Configure the [!UICONTROL Webhook] Response module as follows:
 >
 ><table style="table-layout:auto"> 
 > <col> 
@@ -318,7 +320,7 @@ Timeout for sending a response is 40 seconds. If the response is not available w
 >   <td> 
 >    <ul> 
 >     <li><strong>Key</strong>: Location</li> 
->     <li><strong>Value</strong>: The URL you would like to redirect to.</li> 
+>     <li><strong>[!UICONTROL Value]</strong>: The URL you would like to redirect to.</li> 
 >    </ul> </td> 
 >  </tr> 
 > </tbody> 
@@ -330,7 +332,7 @@ Timeout for sending a response is 40 seconds. If the response is not available w
 
 ### Missing items in the mapping panel
 
-If some items are missing in the mapping panel in the setup of the modules following the Webhooks > Custom Webhook module, click on the **Webhooks > Custom Webhook** module to open its setup and click **Re-determine data structure**:
+If some items are missing in the mapping panel in the setup of the modules following the Webhooks >[!UICONTROL Custom Webhook] module, click on the **Webhooks > Custom Webhook** module to open its setup and click **Re-determine data structure**:
 
 ![](assets/redetermine-data-structure-btn-350x195.png)
 

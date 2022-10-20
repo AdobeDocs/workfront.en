@@ -4,16 +4,16 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: apps-and-their-modules
 title: Data store modules
-description: An Adobe Workfront Fusion data store, similar to a database or a simple table, can store data from scenarios, making it possible to transfer data between individual scenarios or scenario runs. You can use a data store to store new data from various systems during synchronization.
+description: An [!DNL Adobe Workfront Fusion] data store, similar to a database or a simple table, can store data from scenarios, making it possible to transfer data between individual scenarios or scenario runs. You can use a data store to store new data from various systems during synchronization.
 author: Becky
 feature: Workfront Fusion
 exl-id: 1dc9cb88-d1b9-4a67-91fb-be980cc1ccd1
 ---
 # Data store modules
 
-An Adobe Workfront Fusion data store, similar to a database or a simple table, can store data from scenarios, making it possible to transfer data between individual scenarios or scenario runs. You can use a data store to store new data from various systems during synchronization.
+An [!DNL Adobe Workfront Fusion] data store, similar to a database or a simple table, can store data from scenarios, making it possible to transfer data between individual scenarios or scenario runs. You can use a data store to store new data from various systems during synchronization.
 
-The data store modules enable you to add, replace, update, retrieve, delete, search, or count records in your Adobe Workfront Fusion data store.
+The data store modules enable you to add, replace, update, retrieve, delete, search, or count records in your [!DNL Adobe Workfront Fusion] data store.
 
 For information on creating, editing, and troubleshooting data stores, see [Data Stores in Adobe Workfront Fusion](../../workfront-fusion/modules/data-stores.md)
 
@@ -39,12 +39,12 @@ You must have the following access to use the functionality in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
+   <td>Your organization must purchase [!DNL Adobe Workfront Fusion] as well as [!DNL Adobe Workfront] to use functionality described in this article.</td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+&#42;To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
 
 &#42;&#42;For information on Adobe Workfront Fusion licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
@@ -56,7 +56,7 @@ For information on creating data stores, see [Data Stores in Adobe Workfront Fus
 
 ## Data Store modules and their fields
 
-When you configure Data Store modules, Workfront Fusion displays the fields listed below. Along with these, additional Data Store fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
+When you configure Data Store modules, [!DNL Workfront Fusion] displays the fields listed below. Along with these, additional Data Store fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
 
 If you see the map button above a field or function, you can use it to set variables and functions for that field. For more information, see [Map information from one module to another in Adobe Workfront Fusion](../../workfront-fusion/mapping/map-information-between-modules.md).
 
@@ -64,13 +64,13 @@ If you see the map button above a field or function, you can use it to set varia
 
 All Data Store modules are Action type modules.
 
-* [Add/Replace a Record](#add-replace-a-record) 
-* [Update a Record](#update-a-record) 
-* [Get a Record](#get-a-record) 
-* [Check the Existence of a Record](#check-the-existence-of-a-record) 
-* [Delete a Record](#delete-a-record) 
-* [Delete All Records](#delete-all-records) 
-* [Search Records](#search-records) 
+* [Add/Replace a Record](#add-replace-a-record)
+* [Update a Record](#update-a-record)
+* [Get a Record](#get-a-record)
+* [Check the Existence of a Record](#check-the-existence-of-a-record)
+* [Delete a Record](#delete-a-record)
+* [Delete All Records](#delete-all-records)
+* [Search Records](#search-records)
 * [Count Records](#count-records)
 
 ### Add/Replace a Record {#add-replace-a-record}
@@ -83,7 +83,7 @@ The module returns the ID of the  record and any associated fields, along with a
 
 >[!NOTE]
 >
->The module throws an error when you try to add the record which is already in the data store under the same name and the Overwrite an existing record option is disabled.
+>The module throws an error when you try to add the record which is already in the data store under the same name and the [!UICONTROL Overwrite an existing record] option is disabled.
 
 When you are configuring this module, the following fields display.
 
@@ -253,7 +253,7 @@ When you are configuring this module, the following fields display.
   </tr> 
   <tr> 
    <td>Limit</td> 
-   <td> <p> Set the maximum number of search results Workfront Fusion returns during one execution cycle.</p> </td> 
+   <td> <p> Set the maximum number of search results [!DNL Workfront Fusion] returns during one execution cycle.</p> </td> 
   </tr> 
   <tr> 
    <td>Continue the execution of the route even if the module returns no results</td> 

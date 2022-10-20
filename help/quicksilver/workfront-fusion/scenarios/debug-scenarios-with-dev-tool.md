@@ -2,15 +2,15 @@
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
-title: Debug scenarios with the Adobe Workfront Fusion DevTool
-description: The Adobe Workfront Fusion DevTool allows you to understand and troubleshoot scenarios. The DevTool adds an extra panel to the Chrome Developer Tools. Using this debugger panel, you can check all the manual runs of your scenario, review all the performed operations, and see the details of every API call performed. You can see which module, operation, or single response caused the error, and use that knowledge to refine your scenario.
+title: Debug scenarios with the [!DNL Adobe Workfront] Fusion DevTool
+description: The [!DNL Adobe Workfront] Fusion DevTool allows you to understand and troubleshoot scenarios. The DevTool adds an extra panel to the Chrome Developer Tools. Using this debugger panel, you can check all the manual runs of your scenario, review all the performed operations, and see the details of every API call performed. You can see which module, operation, or single response caused the error, and use that knowledge to refine your scenario.
 author: Becky
 feature: Workfront Fusion
 exl-id: f7557214-3615-4797-b4cb-4af70e4797ac
 ---
-# Debug scenarios with the Adobe Workfront Fusion DevTool
+# Debug scenarios with the [!DNL Adobe Workfront] Fusion DevTool
 
-The Adobe Workfront Fusion DevTool allows you to understand and troubleshoot scenarios. The DevTool adds an extra panel to the Chrome Developer Tools. Using this debugger panel, you can check all the manual runs of your scenario, review all the performed operations, and see the details of every API call performed. You can see which module, operation, or single response caused the error, and use that knowledge to refine your scenario.
+The [!DNL Adobe Workfront] Fusion DevTool allows you to understand and troubleshoot scenarios. The DevTool adds an extra panel to the Chrome Developer Tools. Using this debugger panel, you can check all the manual runs of your scenario, review all the performed operations, and see the details of every API call performed. You can see which module, operation, or single response caused the error, and use that knowledge to refine your scenario.
 
 ## Access requirements
 
@@ -34,30 +34,30 @@ You must have the following access to use the functionality in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
+   <td>Your organization must purchase [!DNL Adobe Workfront Fusion] as well as [!DNL Adobe Workfront] to use functionality described in this article.</td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+&#42;To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
 
 &#42;&#42;For information on Adobe Workfront Fusion licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
 ## Install the Chrome DevTool extension {#install-the-chrome-devtool-extension}
 
-To use the Workfront Fusion DevTool, you first need to install it.
+To use the [!UICONTROL Workfront Fusion DevTool], you first need to install it.
 
 1. Click [this link](https://cdn.experience.workfront.com/Documentation/Workfront+Fusion/workfront-fusion-devtool.zip) to download the extension.
 1. When the files have downloaded, extract them to a folder of your choice.
 1. Open a tab in Chrome
 1. In the search bar of the tab, enter `chrome://extensions`.
-1. Click the **Developer mode** toggle at the upper-right of the screen to enable Developer mode. If the toggle to the right, developer mode is enabled.
+1. Click the **[!UICONTROL Developer mode]** toggle at the upper-right of the screen to enable Developer mode. If the toggle to the right, developer mode is enabled.
 1. Click **Load unpacked**.
 1. Select the folder containing the DevTool (where you extracted the files in step 2).
 
    Once unpacked, the DevTool appears among your other Chrome extensions.
 
-## Locate the Workfront Fusion DevTool
+## Locate the [!UICONTROL Workfront Fusion] DevTool
 
 To use the Workfront Fusion DevTool, you must add the Workfront Fusion DevTool extension to your Chrome browser, as described in [Install the Chrome DevTool extension](#install-the-chrome-devtool-extension).
 
@@ -89,15 +89,15 @@ To use the Workfront Fusion DevTool, you must add the Workfront Fusion DevTool e
 
 Workfront Fusion DevTool is divided into 3 main sections. You can find these in the left panel of your DevTool window.
 
-* [Live Stream](#live-stream) 
-* [Scenario Debugger](#scenario-debugger) 
+* [Live Stream](#live-stream)
+* [Scenario Debugger](#scenario-debugger)
 * [Tools](#tools)
 
 ### Live Stream {#live-stream}
 
 Live Stream displays what is happening in the background when you click Run once in your scenario.
 
-1. Click the **Live Stream** icon ![](assets/live-stream-icon.png) to open the Live Stream section.
+1. Click the **[!UICONTROL Live Stream]** icon ![](assets/live-stream-icon.png) to open the Live Stream section.
 1. Do any of the following:
 
    <table style="table-layout:auto"> 
@@ -118,11 +118,11 @@ Live Stream displays what is happening in the background when you click Run once
         <li> <p>Request Body</p> </li> 
         <li> <p>Response Headers</p> </li> 
         <li> <p>Response Body</p> </li> 
-       </ul> <p>To view this information, click the appropriate tab in the right panel of the Workfront Fusion DevTool.</p> </td> 
+       </ul> <p>To view this information, click the appropriate tab in the right panel of the [!DNL Workfront Fusion] DevTool.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Search requests and responses</p> </td> 
-      <td> <p>Enter the search term into the search field in the left panel of the Workfront Fusion DevTool to display only requests that contain the search term.</p> </td> 
+      <td> <p>Enter the [!UICONTROL search] term into the search field in the left panel of the Workfront Fusion DevTool to display only requests that contain the search term.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Remove list of requests </p> </td> 
@@ -133,11 +133,11 @@ Live Stream displays what is happening in the background when you click Run once
       <td> <p>Click the computer icon <img src="assets/console-computer-icon.png"> in the top-right corner of the DevTool's left panel.</p> <p>Logging in the console is enabled when the computer icon is green.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"> <p>Retrieve the Request in the Raw JSON Format or cURL</p> </td> 
+      <td role="rowheader"> <p>Retrieve the Request in the Raw [!DNL JSON] Format or cURL</p> </td> 
       <td> 
        <ul> 
-        <li> <p><strong>Raw JSON</strong> </p> <p>Click <strong>Copy RAW</strong> in the upper-right corner of the DevTool's right pane.</p> </li> 
-        <li> <p><strong>cURL</strong> </p> <p>Click <strong>Copy cURL</strong> in the upper-right corner of the DevTool's right pane.</p> </li> 
+        <li> <p><strong>Raw JSON</strong> </p> <p>Click <strong>[!UICONTROL Copy RAW]</strong> in the upper-right corner of the DevTool's right pane.</p> </li> 
+        <li> <p><strong>cURL</strong> </p> <p>Click <strong>[!UICONTROL Copy cURL]</strong> in the upper-right corner of the DevTool's right pane.</p> </li> 
        </ul> </td> 
      </tr> 
     </tbody> 
@@ -145,36 +145,36 @@ Live Stream displays what is happening in the background when you click Run once
 
 ### Scenario Debugger {#scenario-debugger}
 
-The Scenario Debugger is useful for more complex scenarios. It displays the history of the scenario runs and enables you to search modules by their name or ID.
+The Scenario [!UICONTROL Debugger] is useful for more complex scenarios. It displays the history of the scenario runs and enables you to search modules by their name or ID.
 
 1. Click the **Scenario Debugger** icon ![](assets/scenario-debugger-icon.png) to open the Scenario Debugger.
-1. (Optional) Enter the search term (name or module ID) in the search field in the left pane of Workfront Fusion DevTool in the Scenario Debugger section.
+1. (Optional) Enter the search term (name or module ID) in the search field in the left pane of [!UICONTROL Workfront Fusion DevTool] in the [!UICONTROL Scenario] Debugger section.
 1. Double-click the module's name to open its settings in the scenario editor.
 1. View request details by clicking the desired operation.
 
 ### Tools {#tools}
 
-The Workfront Fusion DevTool features tools that make setting up your scenario easier.
+The [!DNL Workfront Fusion] DevTool features tools that make setting up your scenario easier.
 
-1. Click the **Tools** icon ![](assets/console-tools-icon.png) to open the Tools. 
+1. Click the **Tools** icon ![](assets/console-tools-icon.png) to open the Tools.
 1. Select the tool you want to use
 1. Configure the fields as detailed below.
 1. Click **Run**.
 
 Tools and their fields:
 
-* [Focus a Module](#focus-a-module) 
-* [Find Modules by Mapping](#find-modules-by-mapping) 
-* [Get App Metadata](#get-app-metadata) 
-* [Copy Mapping](#copy-mapping) 
-* [Copy Filter](#copy-filter) 
-* [Swap Connection](#swap-connection) 
-* [Swap Variable](#swap-variable) 
-* [Swap App](#swap-app) 
-* [Base 64](#base-64) 
-* [Copy Module Name](#copy-module-name) 
-* [Remap Source](#remap-source) 
-* [Highlight App](#highlight-app) 
+* [Focus a Module](#focus-a-module)
+* [[!UICONTROL Find Modules by Mapping]](#find-modules-by-mapping)
+* [Get App Metadata](#get-app-metadata)
+* [Copy Mapping](#copy-mapping)
+* [Copy Filter](#copy-filter)
+* [Swap Connection](#swap-connection)
+* [Swap Variable](#swap-variable)
+* [Swap App](#swap-app)
+* [Base 64](#base-64)
+* [Copy Module Name](#copy-module-name)
+* [Remap Source](#remap-source)
+* [Highlight App](#highlight-app)
 * [Migrate GS](#migrate-gs)
 
 #### Focus a Module {#focus-a-module}
@@ -202,7 +202,7 @@ Allows you to search modules' values for a specified term. The output contains I
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Use Only Values</p> </td> 
-   <td> <p>Enable this option to only search in module fields' values.</p> <p>Disable this option to also search in module fields' names.</p> <p>The search is performed through the name and label parameters.</p> </td> 
+   <td> <p>Enable this option to only search in module fields' values.</p> <p>Disable this option to also search in module fields' names.</p> <p>The search is performed through the [!UICONTROL name] and [!UICONTROL label] parameters.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -289,11 +289,11 @@ Searches for specified variables in the scenario and replaces them with a new va
  <tbody> 
   <tr> 
    <td role="rowheader">Variable to Find</td> 
-   <td> <p> Locate the variable pill that you want to replace from the module in your scenario and copy it to this (Variable to Find) field. In the field, it appears with double curly brackets. Example: <code>&#123;&#123;5.value&#125;&#125;</code>.</p> </td> 
+   <td> <p> Locate the variable pill that you want to replace from the module in your scenario and copy it to this (Variable to Find) field. In the field, it appears with double curly brackets. Example: <code>{{5.value}}</code>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Replace With</p> </td> 
-   <td> <p>Locate the variable pill that you want to replace the variable with from the module in your scenario and copy it to this (Variable to Find) field. In the field, it appears with double curly brackets. Example: <code>&#123;&#123;5.value&#125;&#125;</code>.</p> </td> 
+   <td> <p>Locate the variable pill that you want to replace the variable with from the module in your scenario and copy it to this (Variable to Find) field. In the field, it appears with double curly brackets. Example: <code>{{5.value}}</code>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Module</p> </td> 
@@ -337,7 +337,7 @@ Allows you to encode the entered data to Base64 or to decode Base64. Some reques
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Raw Data</p> </td> 
-   <td> <p> Enter the data you want to encode to Base64, or Base64 if you want to decode to raw data, depending on the option selected in the Operation field above.</p> </td> 
+   <td> <p> Enter the data you want to encode to Base64, or Base64 if you want to decode to raw data, depending on the option selected in the [!UICONTROL Operation] field above.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -407,6 +407,6 @@ Highlights modules of the specified app in your scenario.
 
 #### Migrate GS {#migrate-gs}
 
-This tool is made especially to upgrade Google Sheets (legacy) modules to the latest Google Sheets version. It adds a new version of the module just after the legacy version of the module in the scenario route.
+This tool is made especially to upgrade [!DNL Google Sheets] (legacy) modules to the latest [!DNL Google Sheets] version. It adds a new version of the module just after the legacy version of the module in the scenario route.
 
 This module does not require that you set any parameters.

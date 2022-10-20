@@ -30,7 +30,7 @@ exl-id: 2169dc2e-2135-47e0-a615-3de12cd120a9
   </tr> 
   <tr> 
    <td role="rowheader">API Key</td> 
-   <td>A unique code that identifies the user, developer, or program that is calling a software's API, used for authentication. Since Adobe Workfront Fusion modules work by connecting APIs, API keys are sometimes necessary. API keys are distributed by the app that requires them. For example, if you need an API key for ActiveCampaign, you would request it though your ActiveCampaign account.</td> 
+   <td>A unique code that identifies the user, developer, or program that is calling a software's API, used for authentication. Since [!DNL Adobe Workfront Fusion] modules work by connecting APIs, API keys are sometimes necessary. API keys are distributed by the app that requires them. For example, if you need an API key for [!DNL ActiveCampaign], you would request it though your [!DNL ActiveCampaign] account.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">App or service</td> 
@@ -46,7 +46,7 @@ exl-id: 2169dc2e-2135-47e0-a615-3de12cd120a9
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Connection</p> </td> 
-   <td> <p>When adding an app or service to a scenario, most likely you will have to first create a connection between Workfront Fusion and the app or service in order to retrieve or send the selected data. For more information, see <a href="../../workfront-fusion/connections/about-connecting-wf-fusion-to-app-or-service.md" class="MCXref xref">About connecting Adobe Workfront Fusion to an app or service</a>.</p> </td> 
+   <td> <p>When adding an app or service to a scenario, most likely you will have to first create a connection between [!DNL Workfront Fusion] and the app or service in order to retrieve or send the selected data. For more information, see <a href="../../workfront-fusion/connections/about-connecting-wf-fusion-to-app-or-service.md" class="MCXref xref">About connecting [!DNL Adobe Workfront Fusion] to an app or service</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Cycle</p> </td> 

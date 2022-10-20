@@ -1,14 +1,14 @@
 ---
-title: Call the MS Graph REST API via the Adobe Workfront Fusion HTTP &gt; Make an OAuth 2.0 request module
-description: Call the MS Graph REST API via the Adobe Workfront Fusion HTTP &gt; Make an OAuth 2.0 request module
+title: Call the MS Graph REST API via the [!DNL Adobe Workfront] Fusion HTTP &gt; Make an OAuth 2.0 request module
+description: Call the MS Graph REST API via the [!DNL Adobe Workfront] Fusion HTTP &gt; Make an OAuth 2.0 request module
 author: Becky
 draft: Probably
 feature: Workfront Fusion
 exl-id: adae390d-8b9e-4dab-8551-605e50af5a1e
 ---
-# Call the MS Graph REST API via the Adobe Workfront Fusion HTTP > Make an OAuth 2.0 request module
+# Call the MS Graph REST API via the [!DNL Adobe Workfront] Fusion HTTP > Make an OAuth 2.0 request module
 
-Many&nbsp;Microsoft web services are accessed through the Microsoft Graph API. This article describes how to create a connection to that API, using the Workfront Fusion HTTP > Make an OAuth 2.0 request module.
+Many&nbsp;Microsoft web services are accessed through the Microsoft Graph API. This article describes how to create a connection to that API, using the [!DNL Workfront] Fusion HTTP > Make an OAuth 2.0 request module.
 
 ## Access requirements
 
@@ -32,22 +32,22 @@ You must have the following access to use the functionality in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
+   <td>Your organization must purchase [!DNL Adobe Workfront Fusion] as well as [!DNL Adobe Workfront] to use functionality described in this article.</td> 
   </tr>
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+&#42;To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
 
 &#42;&#42;For information on Adobe Workfront Fusion licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
-## Register Workfront Fusion in the Microsoft Application Registration Portal {#register-workfront-fusion-in-the-microsoft-application-registration-portal}
+## Register [!DNL Workfront Fusion] in the Microsoft Application Registration Portal {#register-workfront-fusion-in-the-microsoft-application-registration-portal}
 
 To create a connection to the Microsoft Graph REST&nbsp;API, you must first register Adobe Workfront Fusion.
 
 1. Begin registering a new application as described in [Register your app](https://docs.microsoft.com/en-us/graph/auth-register-app-v2) in the Microsoft documentation.
 
-   As part of the registration, Microsoft requires the following information:
+   As part of the registration, [!DNL Microsoft] requires the following information:
 
    <table style="table-layout:auto">
       <tr>
@@ -104,10 +104,10 @@ To create a connection to the Microsoft Graph REST&nbsp;API, you must first regi
 
 ## Configure your MS Graph API connection in Workfront Fusion {#configure-your-ms-graph-api-connection-in-workfront-fusion}
 
-After you register Workfront Fusion as discussed in [Register Workfront Fusion in the Microsoft Application Registration Portal](#register-workfront-fusion-in-the-microsoft-application-registration-portal), you can configure your connection in the HTTP > Make an Oauth 2.0 request module.
+After you register Workfront Fusion as discussed in [Register Workfront Fusion in the Microsoft Application Registration Portal](#register-workfront-fusion-in-the-microsoft-application-registration-portal), you can configure your connection in the [!UICONTROL HTTP] >[!UICONTROL Make an Oauth 2.0] request module.
 
-1. Add an HTTP > Make an OAuth 2.0 call module to your scenario.
-1. Click **Add** next to the connection field.
+1. Add an HTTP >[!UICONTROL Make an] OAuth 2.0 call module to your scenario.
+1. Click **Add** next to the [!UICONTROL connection] field.
 1. Configure the connection fields as follows:
 
    <table style="table-layout:auto"> 
@@ -132,7 +132,7 @@ After you register Workfront Fusion as discussed in [Register Workfront Fusion i
      </tr> 
      <tr> 
       <td role="rowheader">Scope</td> 
-      <td> <p>Enter the permissions that you selected in step 4 of <a href="#register-workfront-fusion-in-the-microsoft-application-registration-portal" class="MCXref xref">Register Workfront Fusion in the Microsoft Application Registration Portal</a>.</p> <p>For each scope, click <b>Add</b> and type in the permission.</p> <p>Example: <code>offline_access</code>.</p> </td> 
+      <td> <p>Enter the permissions that you selected in step 4 of <a href="#register-workfront-fusion-in-the-microsoft-application-registration-portal" class="MCXref xref">[!DNL Register] Workfront Fusion in the Microsoft Application Registration Portal</a>.</p> <p>For each scope, click <b>Add</b> and type in the permission.</p> <p>Example: <code>offline_access</code>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Scope separator</td> 
@@ -140,11 +140,11 @@ After you register Workfront Fusion as discussed in [Register Workfront Fusion i
      </tr> 
      <tr> 
       <td role="rowheader">Client ID</td> 
-      <td>Enter the Application ID from step 2 in <a href="#register-workfront-fusion-in-the-microsoft-application-registration-portal" class="MCXref xref">Register Workfront Fusion in the Microsoft Application Registration Portal</a>.</td> 
+      <td>Enter the Application ID from step 2 in <a href="#register-workfront-fusion-in-the-microsoft-application-registration-portal" class="MCXref xref">[!DNL Register Workfront Fusion] in the Microsoft Application Registration Portal</a>.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Client Secret</td> 
-      <td>Enter the Application Secret that you generated in step 2 in <a href="#register-workfront-fusion-in-the-microsoft-application-registration-portal" class="MCXref xref">Register Workfront Fusion in the Microsoft Application Registration Portal</a>.</td> 
+      <td>Enter the Application Secret that you generated in step 2 in <a href="#register-workfront-fusion-in-the-microsoft-application-registration-portal" class="MCXref xref">[!UICONTROL Register Workfront Fusion] in the Microsoft Application Registration Portal</a>.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Authorize parameters</td> 
@@ -164,7 +164,7 @@ After you register Workfront Fusion as discussed in [Register Workfront Fusion i
        <ol> 
         <li value="1"> <p>Click <b>Add</b>.</p> </li> 
         <li value="2"> <p>In the <b>Key</b> field, enter <code>scope</code>.</p> </li> 
-        <li value="3"> <p>In the <b>Value</b> field, enter all of the scopes that you entered into the scope field, separated by spaces.</p> <p>Example: <code>offline_access openid User.Read</code></p> </li> 
+        <li value="3"> <p>In the <b>[!UICONTROL Value]</b> field, enter all of the [!UICONTROL scope]s that you entered into the scope field, separated by spaces.</p> <p>Example: <code>offline_access openid User.Read</code></p> </li> 
        </ol> </td> 
      </tr> 
      <tr> 
@@ -179,4 +179,4 @@ After you register Workfront Fusion as discussed in [Register Workfront Fusion i
    </table>
 
 1. Click **Continue**.
-1. In the window that appears, click **Accept** to complete the connection and return to the module.
+1. In the window that appears, click **[!UICONTROL Accept]** to complete the connection and return to the module.

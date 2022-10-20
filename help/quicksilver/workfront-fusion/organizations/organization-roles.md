@@ -3,13 +3,13 @@ content-type: reference
 product-previous: workfront-fusion
 product-area: workfront-integrations;user-management
 navigation-topic: organizations
-title: Organization roles in Adobe Workfront Fusion
-description: This article includes information about the access and permissions of the roles in Adobe Workfront Fusion.
+title: Organization roles in [!DNL Adobe Workfront] Fusion
+description: This article includes information about the access and permissions of the roles in [!DNL Adobe] Workfront Fusion.
 author: Becky
 feature: Workfront Fusion
 exl-id: 0370fa9d-6680-4724-a431-8df884ce4f9a
 ---
-# Organization roles in Adobe Workfront Fusion
+# Organization roles in [!DNL Adobe Workfront] Fusion
 
 This article describes the access and functionality available to the different organization roles in Workfront Fusion.
 
@@ -39,7 +39,7 @@ You must have the following access to use the functionality in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
+   <td>Your organization must purchase [!DNL Adobe Workfront Fusion] as well as [!DNL Adobe Workfront] to use functionality described in this article.</td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Access level configurations*</td> 
@@ -51,7 +51,7 @@ You must have the following access to use the functionality in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+&#42;To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">**For information on Adobe Workfront Fusion licenses, see <a href="../../workfront-fusion/get-started/license-automation-vs-integration.md" class="MCXref xref">Adobe Workfront Fusion licenses</a></p>
@@ -67,7 +67,7 @@ You must have the following access to use the functionality in this article:
  <col> 
  <thead> 
   <tr> 
-   <th>&nbsp;</th> 
+   <th> </th> 
    <th> <p>Owner</p> </th> 
    <th> <p>Admin</p> </th> 
    <th> <p>Member</p> </th> 
@@ -78,23 +78,23 @@ You must have the following access to use the functionality in this article:
   <tr> 
    <td> <p>Delete organizations</p> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
+   <td> </td> 
+   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td> <p>Edit organization</p> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
+   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td> <p>Manage organization users</p> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
+   <td> </td> 
+   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td> <p>View organization</p> </td> 
@@ -132,7 +132,7 @@ You must have the following access to use the functionality in this article:
  <col> 
  <thead> 
   <tr> 
-   <th>&nbsp;</th> 
+   <th> </th> 
    <th> <p style="text-align: left;">Owner</p> </th> 
    <th> <p style="text-align: left;">Admin</p> </th> 
    <th> <p style="text-align: left;">Member</p> </th> 
@@ -144,99 +144,99 @@ You must have the following access to use the functionality in this article:
    <td> <p style="text-align: left;">Manage incomplete executions</p> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
+   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">List incomplete executions</p> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td>&nbsp;</td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">Add scenarios</p> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
+   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">Delete scenarios</p> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
+   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">Edit scenarios</p> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
+   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">Browse scenario execution history</p> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td>&nbsp;</td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">Scenario notifications</p> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td>&nbsp;</td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">Reset stats</p> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td>&nbsp;</td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">List scenarios</p> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td>&nbsp;</td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">Edit scenario scheduler</p> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td>&nbsp;</td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">Activate scenarios</p> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td>&nbsp;</td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">Deactivate scenarios</p> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td>&nbsp;</td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">Manually execute scenarios</p> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td>&nbsp;</td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">View scenarios</p> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td>&nbsp;</td> 
+   <td> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -251,7 +251,7 @@ You must have the following access to use the functionality in this article:
  <col> 
  <thead> 
   <tr> 
-   <th>&nbsp;</th> 
+   <th> </th> 
    <th> <p style="text-align: left;">Owner</p> </th> 
    <th> <p style="text-align: left;">Admin</p> </th> 
    <th> <p style="text-align: left;">Member</p> </th> 
@@ -263,29 +263,29 @@ You must have the following access to use the functionality in this article:
    <td> <p style="text-align: left;">Add connections</p> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
+   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">Delete connections</p> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
+   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">Edit connections</p> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
+   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">List connections</p> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td>&nbsp;</td> 
+   <td> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -300,7 +300,7 @@ You must have the following access to use the functionality in this article:
  <col> 
  <thead> 
   <tr> 
-   <th>&nbsp;</th> 
+   <th> </th> 
    <th> <p style="text-align: left;">Owner</p> </th> 
    <th> <p style="text-align: left;">Admin</p> </th> 
    <th> <p style="text-align: left;">Member</p> </th> 
@@ -312,29 +312,29 @@ You must have the following access to use the functionality in this article:
    <td> <p style="text-align: left;">Add webhooks</p> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
+   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">Delete webhooks</p> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
+   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">Edit webhooks</p> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
+   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">List webhooks</p> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td>&nbsp;</td> 
+   <td> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -349,7 +349,7 @@ You must have the following access to use the functionality in this article:
  <col> 
  <thead> 
   <tr> 
-   <th>&nbsp;</th> 
+   <th> </th> 
    <th> <p style="text-align: left;">Owner</p> </th> 
    <th> <p style="text-align: left;">Admin</p> </th> 
    <th> <p style="text-align: left;">Member</p> </th> 
@@ -361,36 +361,36 @@ You must have the following access to use the functionality in this article:
    <td> <p style="text-align: left;">Add data stores</p> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
+   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">Delete data stores</p> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
+   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">Edit data stores</p> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
+   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">List data stores</p> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td>&nbsp;</td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">Browse data stores</p> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td>&nbsp;</td> 
+   <td> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -405,7 +405,7 @@ You must have the following access to use the functionality in this article:
  <col> 
  <thead> 
   <tr> 
-   <th>&nbsp;</th> 
+   <th> </th> 
    <th> <p style="text-align: left;">Owner</p> </th> 
    <th> <p style="text-align: left;">Admin</p> </th> 
    <th> <p style="text-align: left;">Menber</p> </th> 
@@ -417,29 +417,29 @@ You must have the following access to use the functionality in this article:
    <td> <p style="text-align: left;">Add data structures</p> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
+   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">Delete data structures</p> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
+   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">Edit data structures</p> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
+   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">List data structures</p> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td>&nbsp;</td> 
+   <td> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -454,7 +454,7 @@ You must have the following access to use the functionality in this article:
  <col> 
  <thead> 
   <tr> 
-   <th>&nbsp;</th> 
+   <th> </th> 
    <th> <p style="text-align: left;">Owner</p> </th> 
    <th> <p style="text-align: left;">Admin</p> </th> 
    <th> <p style="text-align: left;">Member</p> </th> 
@@ -466,29 +466,29 @@ You must have the following access to use the functionality in this article:
    <td> <p style="text-align: left;">Add devices</p> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
+   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">Delete devices</p> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
+   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">Edit devices</p> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
+   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">List devices</p> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td>&nbsp;</td> 
+   <td> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -503,7 +503,7 @@ You must have the following access to use the functionality in this article:
  <col> 
  <thead> 
   <tr> 
-   <th>&nbsp;</th> 
+   <th> </th> 
    <th> <p style="text-align: left;">Owner</p> </th> 
    <th> <p style="text-align: left;">Admin</p> </th> 
    <th> <p style="text-align: left;">Member</p> </th> 
@@ -515,29 +515,29 @@ You must have the following access to use the functionality in this article:
    <td> <p style="text-align: left;">Add keys</p> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
+   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">Delete keys</p> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
+   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">Edit keys</p> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
+   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">List keys</p> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td>&nbsp;</td> 
+   <td> </td> 
   </tr> 
  </tbody> 
 </table>

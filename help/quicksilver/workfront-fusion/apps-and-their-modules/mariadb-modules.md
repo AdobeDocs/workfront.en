@@ -1,6 +1,6 @@
 ---
 title: MariaDB modules
-description: In an Adobe Workfront Fusion scenario, you can automate workflows that use MariaDB, as well as connect it to multiple third-party applications and services.
+description: In an [!DNL Adobe Workfront] Fusion scenario, you can automate workflows that use [!DNL MariaDB], as well as connect it to multiple third-party applications and services.
 author: Becky
 draft: Probably
 feature: Workfront Fusion
@@ -8,7 +8,7 @@ exl-id: 45d4d7fe-a70c-4906-adb4-f913a870fe47
 ---
 # MariaDB modules
 
-In an Adobe Workfront Fusion scenario, you can automate workflows that use MariaDB, as well as connect it to multiple third-party applications and services.
+In an [!DNL Adobe Workfront] Fusion scenario, you can automate workflows that use [!DNL MariaDB], as well as connect it to multiple third-party applications and services.
 
 If you need instructions on creating a scenario, see [Create a scenario in Adobe Workfront Fusion](../../workfront-fusion/scenarios/create-a-scenario.md).
 
@@ -36,24 +36,24 @@ You must have the following access to use the functionality in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
+   <td>Your organization must purchase [!DNL Adobe Workfront Fusion] as well as [!DNL Adobe Workfront] to use functionality described in this article.</td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+&#42;To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
 
 &#42;&#42;For information on Adobe Workfront Fusion licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
 ## Prerequisites
 
-To use MariaDB modules, you must have a MariaDB account.
+To use [!DNL MariaDB] modules, you must have a [!DNL MariaDB] account.
 
-## Connect MariaDB to Workfront Fusion {#connect-mariadb-to-workfront-fusion}
+## Connect MariaDB to [!DNL Workfront] Fusion {#connect-mariadb-to-workfront-fusion}
 
-You can create a connection to your MariaDB account directly from inside a MariaDB module.
+You can create a connection to your [!DNL MariaDB] account directly from inside a [!DNL MariaDB] module.
 
-1. In any MariaDB module, click **Add** next to the Connection field.
+1. In any [!DNL MariaDB] module, click **Add** next to the [!UICONTROL Connection] field.
 1. Configure the following fields:
 
    <table style="table-layout:auto"> 
@@ -66,7 +66,7 @@ You can create a connection to your MariaDB account directly from inside a Maria
      </tr> 
      <tr> 
       <td role="rowheader">Host</td> 
-      <td> <p>Enter the IP address or host name of your database instance. This host must be accessible from outside your network.</p> <p>Example: <code>mariadb.hwoh2j5h.us-east-1.rds.amazon.com</code></p> </td> 
+      <td> <p>Enter the IP address or host name of your database instance. This host must be accessible from outside your network.</p> <p>Example: <code>[!DNL mariadb.hwoh2j5h.us-east-1.rds.amazon.com]</code></p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Port</td> 
@@ -87,11 +87,11 @@ You can create a connection to your MariaDB account directly from inside a Maria
     </tbody> 
    </table>
 
-1. Click **Continue** to create the connection and go back to the module.
+1. Click **[!UICONTROL Continue]** to create the connection and go back to the module.
 
 ## MariaDB Modules and their fields
 
-When you configure MariaDB modules, Workfront Fusion displays the fields listed below. Along with these, additional MariaDB fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
+When you configure [!DNL MariaDB] modules, [!DNL Workfront Fusion] displays the fields listed below. Along with these, additional MariaDB fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
 
 If you see the map button above a field or function, you can use it to set variables and functions for that field. For more information, see [Map information from one module to another in Adobe Workfront Fusion](../../workfront-fusion/mapping/map-information-between-modules.md).
 
@@ -107,7 +107,7 @@ This action module retrieves information from your database, based on a query yo
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td>For instructions about connecting your MariaDB account to Workfront Fusion, see <a href="#connect-mariadb-to-workfront-fusion" class="MCXref xref">Connect MariaDB to Workfront Fusion</a> in this article.</td> 
+   <td>For instructions about connecting your MariaDB account to Workfront Fusion, see <a href="#connect-mariadb-to-workfront-fusion" class="MCXref xref">[!UICONTROL Connect MariaDB] to Workfront Fusion</a> in this article.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Query</td> 
@@ -126,7 +126,7 @@ This module reads record from your database.
  <tbody> 
   <tr> 
    <td role="rowheader">Connection</td> 
-   <td>For instructions about connecting your MariaDB account to Workfront Fusion, see <a href="#connect-mariadb-to-workfront-fusion" class="MCXref xref">Connect MariaDB to Workfront Fusion</a> in this article.</td> 
+   <td>For instructions about connecting your MariaDB account to Workfront Fusion, see <a href="#connect-mariadb-to-workfront-fusion" class="MCXref xref">[!UICONTROL Connect MariaDB] to Workfront Fusion</a> in this article.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Table</td> 
@@ -143,7 +143,7 @@ This module reads record from your database.
   </tr> 
   <tr> 
    <td role="rowheader">Sort </td> 
-   <td> <p>For each level that you want your results sorted by, click <strong>Add item</strong>, then select the field that you want to sort the results by and whether you want to sort ascending or descending</p> </td> 
+   <td> <p>For each level that you want your results sorted by, click <strong>[!UICONTROL Add item]</strong>, then select the field that you want to sort the results by and whether you want to sort ascending or descending</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Limit</td> 
