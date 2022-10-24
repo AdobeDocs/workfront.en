@@ -130,6 +130,8 @@ You must install the correct plugin for the Adobe Creative Cloud application you
 ## Adjust automated proof settings {#adjust-proof-settings}
 
 (Optional) Adjust automated proof settings
+
++++Expand additional proof settings
 <table>
   <tr>
    <td colspan="2" ><strong>Proof stages</strong>
@@ -205,7 +207,7 @@ Note: You can't add external recipients via email from the plugin.
    </td>
   </tr>
 </table>
-
++++
 
 
 <!-- Log Time -->
