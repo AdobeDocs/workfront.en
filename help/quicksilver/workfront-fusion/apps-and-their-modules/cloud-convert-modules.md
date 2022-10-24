@@ -52,7 +52,7 @@ To connect your CloudConvert account to Workfront Fusion, you need to obtain the
 
 When you configure CloudConvert modules, Workfront Fusion displays the fields listed below. Along with these, additional CloudConvert fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
 
-If you see the map button above a field or function, you can use it to set variables and functions for that field. For more information, see [Map information from one module to another in Adobe Workfront Fusion](../../workfront-fusion/mapping/map-information-between-modules.md).
+If you see the map button above a field or function, you can use it to set variables and functions for that field. For more information, see [Map information from one module to another in [!UICONTROL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 ![](assets/map-toggle-350x74.png)
 
@@ -82,7 +82,7 @@ The module returns the ID of the file and any associated fields, along with any 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Connection</td> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
    <td> <p>For instructions about connecting your CloudConvert account to Workfront Fusion, see <a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref">Connect CloudConvert to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
@@ -121,7 +121,7 @@ Converts a file into a selected output format.
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Connection</td> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
    <td> <p>For instructions about connecting your CloudConvert account to Workfront Fusion, see <a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref">Connect CloudConvert to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
@@ -176,7 +176,7 @@ Enables you to add one or multiple files to the ZIP, RAR, 7Z, TAR, TAR.GZ or TAR
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Connection</td> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
    <td> <p>For instructions about connecting your CloudConvert account to Workfront Fusion, see <a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref">Connect CloudConvert to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
@@ -219,7 +219,7 @@ Merges at least two files into one PDF. If input files are not PDFs, they are au
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Connection</td> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
    <td> <p>For instructions about connecting your CloudConvert account to Workfront Fusion, see <a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref">Connect CloudConvert to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
@@ -268,7 +268,7 @@ When you are configuring this module, the following fields display.
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Connection</td> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
    <td> <p>For instructions about connecting your CloudConvert account to Workfront Fusion, see <a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref">Connect CloudConvert to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
@@ -362,7 +362,7 @@ This module creates a job. A job can be one or multiple tasks that are identifie
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Connection</td> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
    <td> <p>For instructions about connecting your CloudConvert account to Workfront Fusion, see <a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref">Connect CloudConvert to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
@@ -416,7 +416,7 @@ This module deletes a job, including all tasks and data.
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Connection</td> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
    <td> <p>For instructions about connecting your CloudConvert account to Workfront Fusion, see <a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref">Connect CloudConvert to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
@@ -435,7 +435,7 @@ This module retrieves job details.
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Connection</td> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
    <td> <p>For instructions about connecting your CloudConvert account to Workfront Fusion, see <a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref">Connect CloudConvert to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
@@ -454,7 +454,7 @@ This module retrieves all jobs that have been run in your account.
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Connection</td> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
    <td> <p>For instructions about connecting your CloudConvert account to Workfront Fusion, see <a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref">Connect CloudConvert to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
@@ -487,7 +487,7 @@ Triggers when a job in your account or task is created, finishes, or fails.
    <td>Enter the webhook name. </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Connection</td> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
    <td> <p>For instructions about connecting your CloudConvert account to Workfront Fusion, see <a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref">Connect CloudConvert to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
@@ -526,7 +526,7 @@ This module cancels a task that has a status of waiting or processing.
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Connection</td> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
    <td> <p>For instructions about connecting your CloudConvert account to Workfront Fusion, see <a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref">Connect CloudConvert to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
@@ -549,7 +549,7 @@ Delete a task, including all data.
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Connection</td> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
    <td> <p>For instructions about connecting your CloudConvert account to Workfront Fusion, see <a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref">Connect CloudConvert to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
@@ -568,7 +568,7 @@ This module retrieves file name and file data from the specified task.
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Connection</td> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
    <td> <p>For instructions about connecting your CloudConvert account to Workfront Fusion, see <a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref">Connect CloudConvert to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
@@ -587,7 +587,7 @@ This module retrieves task details.
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Connection</td> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
    <td> <p>For instructions about connecting your CloudConvert account to Workfront Fusion, see <a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref">Connect CloudConvert to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
@@ -606,7 +606,7 @@ This module retrieves all tasks in your account based on filter settings.
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Connection</td> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
    <td> <p>For instructions about connecting your CloudConvert account to Workfront Fusion, see <a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref">Connect CloudConvert to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
@@ -637,7 +637,7 @@ This module creates a new task, based on the settings (payload) of another task.
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Connection</td> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
    <td> <p>For instructions about connecting your CloudConvert account to Workfront Fusion, see <a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref">Connect CloudConvert to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
@@ -665,7 +665,7 @@ Allows you to perform a custom API call.
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Connection</td> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
    <td> <p>For instructions about connecting your [Fusion App] account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Adobe Workfront Fusion - Basic instructions</a></p> </td> 
   </tr> 
   <tr> 
@@ -674,10 +674,10 @@ Allows you to perform a custom API call.
   </tr> 
   <tr> 
    <td role="rowheader">Method</td> 
-   <td> <p>Select the HTTP request method you need to configure the API call. For more information, see <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">HTTP request methods in Adobe Workfront Fusion</a>.</p> </td> 
+   td> <p>Select the HTTP request method you need to configure the API call. For more information, see <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">HTTP request methods in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Headers</td> 
+   <td role="rowheader">[!UICONTROL Headers]</td> 
    <td> <p>Add the headers of the request in the form of a standard JSON object.</p> <p>For example, <code>{"Content-type":"application/json"}</code></p> <p>Workfront Fusion 2.0 adds the authorization headers for you.</p> </td> 
   </tr> 
   <tr> 
@@ -685,7 +685,7 @@ Allows you to perform a custom API call.
    <td> <p>Add the query for the API call in the form of a standard JSON object.</p> <p>For example: <code>{“name”:“something-urgent”}</code></p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Body</td> 
+   <td role="rowheader">[!UICONTROL Body]</td> 
    <td> <p>Add the body content for the API call in the form of a standard JSON object.When using conditional statements such as <code>if</code> in your JSON, put the quotation marks outside of the conditional statement.<img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"></p> </td> 
   </tr> 
  </tbody> 

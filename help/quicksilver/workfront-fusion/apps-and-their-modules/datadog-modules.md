@@ -5,18 +5,18 @@ product-area: workfront-integrations;documents
 keywords: connector
 navigation-topic: apps-and-their-modules
 title: Datadog modules
-description: In an [!DNL Adobe Workfront] Fusion scenario, you can automate workflows that use Datadog, as well as connect it to multiple third-party applications and services.
+description: In an [!DNL Adobe Workfront Fusion] scenario, you can automate workflows that use Datadog, as well as connect it to multiple third-party applications and services.
 author: Becky
 feature: Workfront Fusion
 exl-id: a0b4352d-a1ce-4459-a58e-71de860b8a90
 ---
 # Datadog modules
 
-In an [!DNL Adobe Workfront] Fusion scenario, you can automate workflows that use Datadog, as well as connect it to multiple third-party applications and services.
+In an [!DNL Adobe Workfront Fusion] scenario, you can automate workflows that use Datadog, as well as connect it to multiple third-party applications and services.
 
 If you need instructions on creating a scenario, see [Create a scenario in Adobe Workfront Fusion](../../workfront-fusion/scenarios/create-a-scenario.md).
 
-For information about modules, see [Modules in Adobe Workfront Fusion](../../workfront-fusion/modules/modules.md).
+For information about modules, see [Modules in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
 
 ## Access requirements
 
@@ -72,7 +72,7 @@ To connect your [!DNL Datadog] account to [!DNL Workfront Fusion] you need to re
 
 You can create a connection to your [!DNL Datadog] account directly from inside a Datadog module.
 
-1. In any Datadog module, click **Add** next to the [!UICONTROL Connection] field.
+1. In any Datadog module, click **[!UICONTROL Add]** next to the [!UICONTROL Connection] field.
 1. Fill the module's fields as follows:
 
 <table style="table-layout:auto">
@@ -108,7 +108,7 @@ You can create a connection to your [!DNL Datadog] account directly from inside 
 
 When you configure Datadog modules, [!DNL Workfront Fusion] displays the fields listed below. Along with these, additional Datadog fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
 
-If you see the map button above a field or function, you can use it to set variables and functions for that field. For more information, see [Map information from one module to another in Adobe Workfront Fusion](../../workfront-fusion/mapping/map-information-between-modules.md).
+If you see the map button above a field or function, you can use it to set variables and functions for that field. For more information, see [Map information from one module to another in [!UICONTROL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 ![](assets/map-toggle-350x74.png)
 
@@ -128,7 +128,7 @@ The limit for compressed payloads is 3.2 megabytes (3200000), and 62 megabytes (
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Connection</td> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
    <td> <p>For instructions about connecting your Datadog account to Workfront Fusion, see <a href="#connect-datadog-to-workfront-fusion" class="MCXref xref">[!UICONTROL Connect Datadog] to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
@@ -154,7 +154,7 @@ This action module allows you to perform a custom API call.
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Connection</td> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
    <td> <p>For instructions about connecting your Datadog account to Workfront Fusion, see <a href="#connect-datadog-to-workfront-fusion" class="MCXref xref">[!UICONTROL Connect Datadog] to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
@@ -166,7 +166,7 @@ This action module allows you to perform a custom API call.
    <td> <p>Select the HTTP request method you need to configure the API call. For more information, see <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref">HTTP request methods in Adobe Workfront Fusion</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Headers</td> 
+   <td role="rowheader">[!UICONTROL Headers]</td> 
    <td> <p>Add the headers of the request in the form of a standard [!DNL JSON] object.</p> <p>For example, <code>{"Content-type":"application/json"}</code></p> <p>Workfront Fusion adds the authorization headers for you.</p> </td> 
   </tr> 
   <tr> 
@@ -174,7 +174,7 @@ This action module allows you to perform a custom API call.
    <td> <p>Add the query for the API call in the form of a standard JSON object.</p> <p>For example: <code>{“name”:“something-urgent”}</code></p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Body</td> 
+   <td role="rowheader">[!UICONTROL Body]</td> 
    <td> <p>Add the body content for the API call in the form of a standard [!DNL JSON] object.</p> <p>Note:  <p>When using conditional statements such as <code>if</code> in your JSON, put the quotation marks outside of the conditional statement.</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 

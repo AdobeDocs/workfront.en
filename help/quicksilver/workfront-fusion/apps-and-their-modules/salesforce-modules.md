@@ -16,7 +16,7 @@ In an Adobe Workfront Fusion scenario, you can automate workflows that use Sales
 
 If you need instructions on creating a scenario, see [Create a scenario in Adobe Workfront Fusion](../../workfront-fusion/scenarios/create-a-scenario.md).
 
-For information about modules, see [Modules in Adobe Workfront Fusion](../../workfront-fusion/modules/modules.md).
+For information about modules, see [Modules in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
 
 >[!NOTE]
 >
@@ -314,7 +314,7 @@ When you are configuring this module, the following fields display.
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Connection</td> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
    <td> <p>For instructions about connecting your Salesforce account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Adobe Workfront Fusion - Basic instructions</a></p> </td> 
   </tr> 
   <tr> 
@@ -323,10 +323,10 @@ When you are configuring this module, the following fields display.
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Method</p> </td> 
-   <td> <p>Select the HTTP request method you need to configure the API call. For more information, see <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">HTTP request methods in Adobe Workfront Fusion</a>.</p> </td> 
+   td> <p>Select the HTTP request method you need to configure the API call. For more information, see <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">HTTP request methods in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Headers</td> 
+   <td role="rowheader">[!UICONTROL Headers]</td> 
    <td> <p>Add the headers of the request in the form of a standard JSON object.For example, <code>{"Content-type":"application/json"}</code>. Workfront Fusion adds the authorization headers for you.</p> </td> 
   </tr> 
   <tr> 
@@ -334,7 +334,7 @@ When you are configuring this module, the following fields display.
    <td> <p>Add the query for the API call in the form of a standard JSON object.For example: <code>{“name”:“something-urgent”}</code></p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Body</td> 
+   <td role="rowheader">[!UICONTROL Body]</td> 
    <td> <p>Add the body content for the API call in the form of a standard JSON object.</p> <p>Note:  <p>When using conditional statements such as <code>if</code> in your JSON, put the quotation marks outside of the conditional statement.</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
@@ -516,7 +516,7 @@ This action module retrieves all records meeting a given criteria.
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Connection</td> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
    <td>For instructions about connecting your Salesforce account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Adobe Workfront Fusion - Basic instructions</a></td> 
   </tr> 
   <tr> 

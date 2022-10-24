@@ -5,18 +5,18 @@ product-area: workfront-integrations
 keywords: connector
 navigation-topic: apps-and-their-modules
 title: Qualtrics modules
-description: In an [!DNL Adobe Workfront] Fusion scenario, you can automate workflows that use Qualtrics, as well as connect it to multiple third-party applications and services.
+description: In an [!DNL Adobe Workfront Fusion] scenario, you can automate workflows that use Qualtrics, as well as connect it to multiple third-party applications and services.
 author: Becky
 feature: Workfront Fusion
 exl-id: 146802cd-b863-4c93-b767-50e05892c4de
 ---
 # Qualtrics modules
 
-In an [!DNL Adobe Workfront] Fusion scenario, you can automate workflows that use Qualtrics, as well as connect it to multiple third-party applications and services.
+In an [!DNL Adobe Workfront Fusion] scenario, you can automate workflows that use Qualtrics, as well as connect it to multiple third-party applications and services.
 
 If you need instructions on creating a scenario, see [Create a scenario in Adobe Workfront Fusion](../../workfront-fusion/scenarios/create-a-scenario.md).
 
-For information about modules, see [Modules in Adobe Workfront Fusion](../../workfront-fusion/modules/modules.md).
+For information about modules, see [Modules in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
 
 ## Access requirements
 
@@ -57,7 +57,7 @@ To use Qualtrics modules, you must have a Qualtrics account.
 
 You can create a connection to your [!DNL Qualtrics] account directly from inside a Qualtrics module.
 
-1. In any Qualtrics module, click **Add** next to the [!UICONTROL Connection] field.
+1. In any Qualtrics module, click **[!UICONTROL Add]** next to the [!UICONTROL Connection] field.
 1. Enter the following information:
 
    <table style="table-layout:auto"> 

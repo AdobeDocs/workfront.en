@@ -5,18 +5,18 @@ product-area: workfront-integrations
 keywords: connector
 navigation-topic: apps-and-their-modules
 title: Anaplan Modules
-description: In an [!DNL Adobe Workfront] Fusion scenario, you can automate workflows that use Anaplan, as well as connect it to multiple third-party applications and services.
+description: In an [!DNL Adobe Workfront Fusion] scenario, you can automate workflows that use Anaplan, as well as connect it to multiple third-party applications and services.
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: 03bcd0a4-c8ec-4f44-b1e1-b57e79595309
 ---
 # Anaplan Modules
 
-In an [!DNL Adobe Workfront] Fusion scenario, you can automate workflows that use Anaplan, as well as connect it to multiple third-party applications and services.
+In an [!DNL Adobe Workfront Fusion] scenario, you can automate workflows that use Anaplan, as well as connect it to multiple third-party applications and services.
 
 If you need instructions on creating a scenario, see [Create a scenario in Adobe Workfront Fusion](../../workfront-fusion/scenarios/create-a-scenario.md).
 
-For information about modules, see [Modules in Adobe Workfront Fusion](../../workfront-fusion/modules/modules.md).
+For information about modules, see [Modules in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
 
 ## Access requirements
 
@@ -84,7 +84,7 @@ To create a connection for your [!DNL Anaplan] modules:
 
 When you configure Anaplan modules, [!DNL Workfront Fusion] displays the fields listed below. Along with these, additional Anaplan fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
 
-If you see the map button above a field or function, you can use it to set variables and functions for that field. For more information, see [Map information from one module to another in Adobe Workfront Fusion](../../workfront-fusion/mapping/map-information-between-modules.md).
+If you see the map button above a field or function, you can use it to set variables and functions for that field. For more information, see [Map information from one module to another in [!UICONTROL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 ![](assets/map-toggle-350x74.png)
 
@@ -103,7 +103,7 @@ This trigger module starts a scenario when a record of the chosen type is create
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Connection</td> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
    <td>For instructions on creating a connection to [!DNL Anaplan], see <a href="#connect-anaplan-to-workfront-fusion" class="MCXref xref">[!UICONTROL Connect Anaplan to Workfront Fusion]</a> in this article.</td> 
   </tr> 
   <tr> 
@@ -172,7 +172,7 @@ This action module adds a new item to a list in Anaplan.
     </tr>
     <tr>
         <td>Subsets</td>
-        <td>If the list you want to add items to has custom subsets, select the subsets you want to add the item to, then select <b>Yes</b> to add the new item to that subset.</td>
+        <td>If the list you want to add items to has custom subsets, select the subsets you want to add the item to, then select <b>[!UICONTROL Yes]</b> to add the new item to that subset.</td>
     </tr>
 </table>
 
@@ -185,7 +185,7 @@ This module allows you to perform a custom API call to the [!DNL Anaplan] API.
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Connection</td> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
    <td>For instructions on creating a connection to [!DNL Anaplan], see <a href="#connect-anaplan-to-workfront-fusion" class="MCXref xref">[!UICONTROL Connect Anaplan to Workfront Fusion]</a> in this article.</td> 
   </tr> 
   <tr> 
@@ -197,15 +197,15 @@ This module allows you to perform a custom API call to the [!DNL Anaplan] API.
    <td> <p>Select the HTTP request method you need to configure the API call. For more information, see <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref">HTTP request methods in Adobe Workfront Fusion</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Headers</td> 
-   <td> <p>Add the headers of the request in the form of a standard [!DNL JSON] object.</p> <p>For example, <code>{"Content-type":"application/json"}</code></p> <p>Workfront Fusion adds authorization headers automatically.</p> </td> 
+   <td role="rowheader">[!UICONTROL Headers]</td> 
+   <td> <p>Add the headers of the request in the form of a standard [!DNL JSON] object.</p> <p>For example, <code>{"Content-type":"application/json"}</code></p> <p>[!DNL Workfront Fusion] adds authorization headers automatically.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Query String </td> 
    <td> <p>Enter the request query string.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Body</td> 
+   <td role="rowheader">[!UICONTROL Body]</td> 
    <td> <p>Add the body content for the API call in the form of a standard [!DNL JSON] object.</p> <p>Note:  <p>When using conditional statements such as <code>if</code> in your JSON, put the quotation marks outside of the conditional statement.</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
@@ -223,7 +223,7 @@ This action module deletes an existing record.
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Connection</td> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
    <td>For instructions on creating a connection to [!DNL Anaplan], see <a href="#connect-anaplan-to-workfront-fusion" class="MCXref xref">[!UICONTROL Connect Anaplan to Workfront Fusion]</a> in this article.</td> 
   </tr> 
   <tr> 
@@ -255,11 +255,11 @@ This action module reads a single record.
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Connection</td> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
    <td>For instructions on creating a connection to [!DNL Anaplan], see <a href="#connect-anaplan-to-workfront-fusion" class="MCXref xref">[!UICONTROL Connect Anaplan to Workfront Fusion]</a> in this article.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Record type</td> 
+   <td role="rowheader">[!UICONTROL Record type]</td> 
    <td> <p>Select the type of record to read.</p> 
     <ul> 
      <li> <p><b>Model</b> </p> <p>Select or map the ID of the Model you want to read</p> </li> 
@@ -281,7 +281,7 @@ This action module imports, exports, deletes, or processes an action.
      <col/>
      <tbody>
       <tr>
-        <td role="rowheader">Connection</td>
+        <td role="rowheader">[!UICONTROL Connection]</td>
         <td>For instructions on creating a connection to [!DNL Anaplan], see <a href="#Connect" class="MCXref xref" >[!UICONTROL Connect Anaplan to Workfront Fusion]</a> in this article.</td>
       </tr>
       <tr>
@@ -344,11 +344,11 @@ This action module updates a single record in Anaplan.
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Connection</td> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
    <td>For instructions on creating a connection to [!DNL Anaplan], see <a href="#connect-anaplan-to-workfront-fusion" class="MCXref xref">[!UICONTROL Connect Anaplan to Workfront Fusion]</a> in this article.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Record type</td> 
+   <td role="rowheader">[!UICONTROL Record type]</td> 
    <td> <p>Select the type of record you want to update.</p> 
     <ul> 
      <li> <p><b>List item</b> </p> <p>For fields, see <a href="#create-a-list-item" class="MCXref xref">Create a list item</a> in this article.</p> </li> 
@@ -382,7 +382,7 @@ This action module uploads a file to Anaplan. The file must have already been up
 <col>
 <tbody>
 <tr>
-<td role="rowheader">Connection</td>
+<td role="rowheader">[!UICONTROL Connection]</td>
 <td>For instructions on creating a connection to [!DNL Anaplan], see <a href="#connect-anaplan-to-workfront-fusion" class="MCXref xref">[!UICONTROL Connect Anaplan to Workfront Fusion]</a> in this article.</td>
 </tr>
 <tr>
@@ -412,7 +412,7 @@ This search module returns all accessible records of the selected type.
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Connection</td> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
    <td>For instructions on creating a connection to [!DNL Anaplan], see <a href="#connect-anaplan-to-workfront-fusion" class="MCXref xref">[!UICONTROL Connect Anaplan to Workfront Fusion]</a> in this article.</td> 
   </tr> 
   <tr> 

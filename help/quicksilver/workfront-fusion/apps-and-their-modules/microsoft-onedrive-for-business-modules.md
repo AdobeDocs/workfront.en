@@ -5,18 +5,18 @@ product-area: workfront-integrations;documents
 keywords: connector
 navigation-topic: apps-and-their-modules
 title: Microsoft OneDrive for Business modules
-description: In an [!DNL Adobe Workfront] Fusion scenario, you can automate workflows that use [!DNL Microsoft OneDrive] for Business, as well as connect it to multiple third-party applications and services.
+description: In an [!DNL Adobe Workfront Fusion] scenario, you can automate workflows that use [!DNL Microsoft OneDrive] for Business, as well as connect it to multiple third-party applications and services.
 author: Becky
 feature: Workfront Fusion
 exl-id: b7175cb9-aade-49b7-a28b-25fc9805a078
 ---
 # Microsoft OneDrive for Business modules
 
-In an [!DNL Adobe Workfront] Fusion scenario, you can automate workflows that use [!DNL Microsoft OneDrive] for Business, as well as connect it to multiple third-party applications and services.
+In an [!DNL Adobe Workfront Fusion] scenario, you can automate workflows that use [!DNL Microsoft OneDrive] for Business, as well as connect it to multiple third-party applications and services.
 
 If you need instructions on creating a scenario, see [Create a scenario in Adobe Workfront Fusion](../../workfront-fusion/scenarios/create-a-scenario.md).
 
-For information about modules, see [Modules in Adobe Workfront Fusion](../../workfront-fusion/modules/modules.md).
+For information about modules, see [Modules in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
 
 ## Access requirements
 
@@ -59,7 +59,7 @@ For instructions about connecting your [!DNL OneDrive for Business] account to W
 
 When you configure [!DNL Microsoft OneDrive] for Business modules, [!DNL Workfront Fusion] displays the fields listed below. Along with these, additional [!DNL Microsoft OneDrive] for Business fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
 
-If you see the map button above a field or function, you can use it to set variables and functions for that field. For more information, see [Map information from one module to another in Adobe Workfront Fusion](../../workfront-fusion/mapping/map-information-between-modules.md).
+If you see the map button above a field or function, you can use it to set variables and functions for that field. For more information, see [Map information from one module to another in [!UICONTROL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 ![](assets/map-toggle-350x74.png)
 

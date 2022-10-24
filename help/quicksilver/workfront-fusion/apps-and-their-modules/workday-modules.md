@@ -16,7 +16,7 @@ In an Adobe Workfront Fusion scenario, you can automate workflows that use [!DNL
 
 If you need instructions on creating a scenario, see [Create a scenario in Adobe Workfront Fusion](../../workfront-fusion/scenarios/create-a-scenario.md).
 
-For information about modules, see [Modules in Adobe Workfront Fusion](../../workfront-fusion/modules/modules.md).
+For information about modules, see [Modules in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
 
 ## Access requirements
 
@@ -86,7 +86,7 @@ To use the [!DNL Workday] modules, you must:
                 <td>Enter the tenant for this [!DNL Workday] account. Your tenant is your organization's identifier, and can be seen in the URL you use to log into Workday. Example: in the address <code>https://www.myworkday.com/mycompany</code>, the tenant is <code>mycompany</code>.</td>
             </tr>
             <tr>
-                <td role="rowheader">Client ID</td>
+                <td role="rowheader">[!UICONTROL Client ID]</td>
                 <td>Enter the Client ID for the [!DNL Workday] application that this connection uses. You obtain this when you create the application in [!DNL Workday].</td>
             </tr>
             <tr>
@@ -107,7 +107,7 @@ To use the [!DNL Workday] modules, you must:
 
 When you configure [!DNL Workday] modules, [!DNL Workfront Fusion] displays the fields listed below. Along with these, additional [!DNL Workday] fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
 
-If you see the map button above a field or function, you can use it to set variables and functions for that field. For more information, see [Map information from one module to another in Adobe Workfront Fusion](../../workfront-fusion/mapping/map-information-between-modules.md).
+If you see the map button above a field or function, you can use it to set variables and functions for that field. For more information, see [Map information from one module to another in [!UICONTROL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 ![](assets/map-toggle-350x74.png)
 
@@ -136,7 +136,7 @@ This action module updates a single record in [!DNL Workday].
     <col/>
     <tbody>
         <tr>
-            <td role="rowheader">Connection</td>
+            <td role="rowheader">[!UICONTROL Connection]</td>
             <td>For instructions about connecting your Workday account to Workfront Fusion, see <a href="#Connect" class="MCXref xref" >Connect Workday to Workfront Fusion</a>.</td>
         </tr>
         <tr>
@@ -165,7 +165,7 @@ This action module deletes a single record in [!DNL Workday].
     </col>
     <tbody>
         <tr>
-            <td role="rowheader">Connection</td>
+            <td role="rowheader">[!UICONTROL Connection]</td>
             <td>For instructions about connecting your Workday account to Workfront Fusion, see <a href="#Connect" class="MCXref xref" >Connect Workday to Workfront Fusion</a>.</td>
         </tr>
         <tr>
@@ -213,7 +213,7 @@ The module returns the a status code, along with the headers and body of the API
    <td> <p>Select the HTTP request method you need to configure the API call. For more information, see <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref">HTTP request methods in Adobe Workfront Fusion</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Headers</td> 
+   <td role="rowheader">[!UICONTROL Headers]</td> 
    <td> <p>Add the headers of the request in the form of a standard [!DNL JSON] object.</p> <p>For example, <code>{"Content-type":"application/json"}</code></p> <p>Workfront Fusion adds the authorization headers for you.</p> </td> 
   </tr> 
   <tr> 
@@ -221,7 +221,7 @@ The module returns the a status code, along with the headers and body of the API
    <td> <p>Add the query for the API call in the form of a standard JSON object.</p> <p>For example: <code>{“name”:“something-urgent”}</code></p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Body</td> 
+   <td role="rowheader">[!UICONTROL Body]</td> 
    <td> <p>Add the body content for the API call in the form of a standard [!DNL JSON] object.</p> <p>Note:  <p>When using conditional statements such as <code>if</code> in your JSON, put the quotation marks outside of the conditional statement.</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
@@ -239,7 +239,7 @@ This action module updates a single record in [!DNL Workday].
     <col/>
     <tbody>
         <tr>
-            <td role="rowheader">Connection</td>
+            <td role="rowheader">[!UICONTROL Connection]</td>
             <td>For instructions about connecting your [!DNL Workday] account to Workfront Fusion, see <a href="#Connect" class="MCXref xref" >[!UICONTROL Connect Workday to Workfront Fusion]</a></td>
         </tr>
         <tr>
@@ -275,7 +275,7 @@ This action module reads a single record.
     </col>
     <tbody>
         <tr>
-            <td role="rowheader">Connection</td>
+            <td role="rowheader">[!UICONTROL Connection]</td>
             <td>For instructions about connecting your [!DNL Workday] account to Workfront Fusion, see <a href="#Connect" class="MCXref xref" >[!UICONTROL Connect Workday to Workfront Fusion]</a></td>
         </tr>
         <tr>
@@ -302,7 +302,7 @@ This search module retrieves a list of records of the specified type.
       <col/>
       <tbody>
           <tr>
-              <td role="rowheader">Connection</td>
+              <td role="rowheader">[!UICONTROL Connection]</td>
               <td>For instructions about connecting your [!DNL Workday] account to Workfront Fusion, see <a href="#Connect" class="MCXref xref" >[!UICONTROL Connect Workday to Workfront Fusion]</a></td>
           </tr>
           <tr>

@@ -8,11 +8,11 @@ exl-id: fa1aa943-fbda-4eb4-bfa1-ab94a56785a7
 ---
 # Intacct modules
 
-In an [!DNL Adobe Workfront] Fusion scenario, you can automate workflows that use Intacct, as well as connect it to multiple third-party applications and services.
+In an [!DNL Adobe Workfront Fusion] scenario, you can automate workflows that use Intacct, as well as connect it to multiple third-party applications and services.
 
 If you need instructions on creating a scenario, see [Create a scenario in Adobe Workfront Fusion](../../workfront-fusion/scenarios/create-a-scenario.md).
 
-For information about modules, see [Modules in Adobe Workfront Fusion](../../workfront-fusion/modules/modules.md).
+For information about modules, see [Modules in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
 
 ## Access requirements
 
@@ -69,7 +69,7 @@ In your Intacct account, navigate to the **[!UICONTROL Company]** tab.
 
 You can create a connection to your [!DNL Intacct] account directly from inside an [!DNL Intacct] module.
 
-1. In any Intacct module, click **Add** next to the Connection field.
+1. In any Intacct module, click **[!UICONTROL Add]** next to the Connection field.
 1. Enter your Intacct credentials
 
    * Company ID
@@ -82,7 +82,7 @@ You can create a connection to your [!DNL Intacct] account directly from inside 
 
 When you configure [!DNL Intacct] modules, [!DNL Workfront Fusion] displays the fields listed below. Along with these, additional Intacct fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
 
-If you see the map button above a field or function, you can use it to set variables and functions for that field. For more information, see [Map information from one module to another in Adobe Workfront Fusion](../../workfront-fusion/mapping/map-information-between-modules.md).
+If you see the map button above a field or function, you can use it to set variables and functions for that field. For more information, see [Map information from one module to another in [!UICONTROL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 ![](assets/map-toggle-350x74.png)
 
@@ -118,7 +118,7 @@ This search module retrieves a list of records that match specific search criter
    <td> <p>For instructions about connecting your Intacct account to [!DNL Workfront Fusion] 2.0, see <a href="#set-up-a-connection-in-workfront-fusion" class="MCXref xref">Set up a connection in Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Record type</td> 
+   <td role="rowheader">[!UICONTROL Record type]</td> 
    <td> <p>Select the type of record you want to search.</p> </td> 
   </tr> 
   <tr> 

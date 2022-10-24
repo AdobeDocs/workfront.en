@@ -57,7 +57,7 @@ To connect your SFTP account to [!DNL Workfront Fusion] you need to enter the ta
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Connection name</td> 
+   <td role="rowheader">[!UICONTROL Connection name]</td> 
    <td> <p> Enter the name for your SFTP connection.</p> </td> 
   </tr> 
   <tr> 
@@ -85,7 +85,7 @@ After entering the connection information, click **[!UICONTROL Continue]** to es
 
 When you configure SFTP modules, [!DNL Workfront Fusion] displays the fields listed below. Along with these, additional SFTP fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
 
-If you see the map button above a field or function, you can use it to set variables and functions for that field. For more information, see [Map information from one module to another in Adobe Workfront Fusion](../../workfront-fusion/mapping/map-information-between-modules.md).
+If you see the map button above a field or function, you can use it to set variables and functions for that field. For more information, see [Map information from one module to another in [!UICONTROL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 ![](assets/map-toggle-350x74.png)
 

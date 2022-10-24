@@ -1,6 +1,6 @@
 ---
 title: Jira Software modules
-description: In an [!DNL Adobe Workfront] Fusion scenario, you can automate workflows that use [!DNL Jira] Software, as well as connect it to multiple third-party applications and services.
+description: In an [!DNL Adobe Workfront Fusion] scenario, you can automate workflows that use [!DNL Jira] Software, as well as connect it to multiple third-party applications and services.
 author: Becky
 draft: Probably
 feature: Workfront Fusion
@@ -8,11 +8,11 @@ exl-id: 6437fe98-2c2b-4b49-97e2-f94b23da93fd
 ---
 # Jira Software modules
 
-In an [!DNL Adobe Workfront] Fusion scenario, you can automate workflows that use [!DNL Jira] Software, as well as connect it to multiple third-party applications and services.
+In an [!DNL Adobe Workfront Fusion] scenario, you can automate workflows that use [!DNL Jira] Software, as well as connect it to multiple third-party applications and services.
 
 If you need instructions on creating a scenario, see [Create a scenario in Adobe Workfront Fusion](../../workfront-fusion/scenarios/create-a-scenario.md).
 
-For information about modules, see [Modules in Adobe Workfront Fusion](../../workfront-fusion/modules/modules.md).
+For information about modules, see [Modules in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
 
 <!-- Bob Fix this compared to original -->
 
@@ -212,7 +212,7 @@ file.
 >
 >Use the Jira Server app to connect to Jira Server or Jira Data Center.
 
-1. In any [!DNL Jira] Server module in [!DNL Workfront Fusion], click **Add** next to the [!UICONTROL connection] field.
+1. In any [!DNL Jira] Server module in [!DNL Workfront Fusion], click **[!UICONTROL Add]** next to the [!UICONTROL connection] field.
 1. In the [!UICONTROL Create a connection] panel, fill in the following fields:
 
    <table style="table-layout:auto"> 
@@ -244,7 +244,7 @@ file.
 
 When you configure [!DNL Jira] Software modules, [!DNL Workfront Fusion] displays the fields listed below. Along with these, additional [!DNL Jira] Software fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
 
-If you see the map button above a field or function, you can use it to set variables and functions for that field. For more information, see [Map information from one module to another in Adobe Workfront Fusion](../../workfront-fusion/mapping/map-information-between-modules.md).
+If you see the map button above a field or function, you can use it to set variables and functions for that field. For more information, see [Map information from one module to another in [!UICONTROL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 ![](assets/map-toggle-350x74.png)
 
@@ -302,7 +302,7 @@ When you are configuring this module, the following fields display.
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Connection</td> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
    <td> <p>For instructions about connecting your [!DNL Jira] Software account to Workfront Fusion, see <a href="#connect-jira-cloud-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Connect Jira Cloud to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
@@ -329,7 +329,7 @@ When you are configuring this module, the following fields display.
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Connection</td> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
    <td> <p>For instructions about connecting your [!DNL Jira] Software account to Workfront Fusion, see <a href="#connect-jira-cloud-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Connect Jira Cloud to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
@@ -358,7 +358,7 @@ When you are configuring this module, the following fields display.
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Connection</td> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
    <td> <p>For instructions about connecting your [!DNL Jira] Software account to Workfront Fusion, see <a href="#connect-jira-cloud-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Connect Jira Cloud to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
@@ -367,10 +367,10 @@ When you are configuring this module, the following fields display.
   </tr> 
   <tr> 
    <td role="rowheader">Method</td> 
-   <td> <p>Select the HTTP request method you need to configure the API call. For more information, see <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">HTTP request methods in Adobe Workfront Fusion</a>.</p> </td> 
+   td> <p>Select the HTTP request method you need to configure the API call. For more information, see <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">HTTP request methods in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Headers</td> 
+   <td role="rowheader">[!UICONTROL Headers]</td> 
    <td> <p>Add the headers of the request in the form of a standard [!DNL JSON] object.</p> <p>For example, <code>{"Content-type":"application/json"}</code></p> <p>Workfront Fusion adds the authorization headers for you.</p> </td> 
   </tr> 
   <tr> 
@@ -378,7 +378,7 @@ When you are configuring this module, the following fields display.
    <td> <p>Add the query for the API call in the form of a standard JSON object.</p> <p>For example: <code>{“name”:“something-urgent”}</code></p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Body</td> 
+   <td role="rowheader">[!UICONTROL Body]</td> 
    <td> <p>Add the body content for the API call in the form of a standard [!DNL JSON] object.</p> <p>Note:  <p>When using conditional statements such as <code>if</code> in your JSON, put the quotation marks outside of the conditional statement.</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
@@ -402,7 +402,7 @@ When you are configuring this module, the following fields display.
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Connection</td> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
    <td> <p>For instructions about connecting your [!DNL Jira] Software account to Workfront Fusion, see <a href="#connect-jira-cloud-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Connect Jira Cloud to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
@@ -434,7 +434,7 @@ When you are configuring this module, the following fields display.
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Connection</td> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
    <td> <p>For instructions about connecting your [!DNL Jira] Software account to Workfront Fusion, see <a href="#connect-jira-cloud-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Connect Jira Cloud to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
@@ -459,7 +459,7 @@ When you are configuring this module, the following fields display.
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Connection</td> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
    <td> <p>For instructions about connecting your [!DNL Jira] Software account to Workfront Fusion, see <a href="#connect-jira-cloud-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Connect Jira Cloud to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
@@ -499,7 +499,7 @@ When you are configuring this module, the following fields display.
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Connection</td> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
    <td> <p>For instructions about connecting your [!DNL Jira] Software account to Workfront Fusion, see <a href="#connect-jira-cloud-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Connect Jira Cloud to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
@@ -538,7 +538,7 @@ When you are configuring this module, the following fields display.
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Connection</td> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
    <td> <p>For instructions about connecting your [!DNL Jira] Software account to Workfront Fusion, see <a href="#connect-jira-cloud-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Connect Jira Cloud to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
@@ -577,7 +577,7 @@ When you are configuring this module, the following fields display.
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Connection</td> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
    <td> <p>For instructions about connecting your [!DNL Jira] Software account to Workfront Fusion, see <a href="#connect-jira-cloud-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Connect Jira Cloud to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 

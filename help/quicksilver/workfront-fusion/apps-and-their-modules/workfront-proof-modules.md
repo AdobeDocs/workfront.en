@@ -5,14 +5,14 @@ product-area: workfront-integrations;documents
 keywords: connector
 navigation-topic: apps-and-their-modules
 title: Workfront Proof modules
-description: In an [!DNL Adobe Workfront] Fusion scenario, you can automate workflows that use [!DNL Workfront] Proof, as well as connect it to multiple third-party applications and services.
+description: In an [!DNL Adobe Workfront Fusion] scenario, you can automate workflows that use [!DNL Workfront] Proof, as well as connect it to multiple third-party applications and services.
 author: Becky
 feature: Workfront Fusion, Workfront Proof, Digital Content and Documents
 exl-id: f5c6fb08-880d-4432-aef1-57db13b3ecdb
 ---
 # Workfront Proof modules
 
-In an [!DNL Adobe Workfront] Fusion scenario, you can automate workflows that use [!DNL Workfront] Proof, as well as connect it to multiple third-party applications and services.
+In an [!DNL Adobe Workfront Fusion] scenario, you can automate workflows that use [!DNL Workfront] Proof, as well as connect it to multiple third-party applications and services.
 
 This is useful if you need to execute tasks currently not supported in proofing within [!DNL Workfront] or in [!DNL Workfront] Proof, such as updating proofs based on certain events and searching for a proof's recipients.
 
@@ -20,7 +20,7 @@ The [!DNL Workfront] Proofconnector does not count against the number of active 
 
 If you need instructions on creating a scenario, see [Create a scenario in Adobe Workfront Fusion](../../workfront-fusion/scenarios/create-a-scenario.md).
 
-For information about modules, see [Modules in Adobe Workfront Fusion](../../workfront-fusion/modules/modules.md).
+For information about modules, see [Modules in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
 
 ## Access requirements
 
@@ -57,7 +57,7 @@ For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Work
 
 When you configure [!DNL Workfront] Proof modules, [!DNL Workfront Fusion] displays the fields listed below. Along with these, additional [!DNL Workfront] Proof fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
 
-If you see the map button above a field or function, you can use it to set variables and functions for that field. For more information, see [Map information from one module to another in Adobe Workfront Fusion](../../workfront-fusion/mapping/map-information-between-modules.md).
+If you see the map button above a field or function, you can use it to set variables and functions for that field. For more information, see [Map information from one module to another in [!UICONTROL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 ![](assets/map-toggle-350x74.png)
 
@@ -88,7 +88,7 @@ When you are configuring this module, the following fields display.
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Connection</td> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
    <td> <p>For instructions about connecting your Workfront Proof account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Adobe Workfront Fusion - Basic instructions</a></p> </td> 
   </tr> 
   <tr> 

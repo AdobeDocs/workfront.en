@@ -45,7 +45,7 @@ For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Work
 
 To use [!DNL HubSpot] CRM modules, you must have a [!DNL HubSpot] CRM account.
 
-## Connect [!DNL Adobe Workfront] Fusion to HubSpot CRM
+## Connect [!DNL Adobe Workfront Fusion] to HubSpot CRM
 
 For instructions about connecting your HubSpot CRM account to Workfront Fusion, see [Create a connection to Adobe Workfront Fusion - Basic instructions](../../workfront-fusion/connections/connect-to-fusion-general.md)
 
@@ -53,7 +53,7 @@ For instructions about connecting your HubSpot CRM account to Workfront Fusion, 
 
 When you configure [!DNL Hubspot] CRM modules, [!DNL Workfront Fusion] displays the fields listed below. Along with these, additional [!DNL Hubspot] CRM fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
 
-If you see the map button above a field or function, you can use it to set variables and functions for that field. For more information, see [Map information from one module to another in Adobe Workfront Fusion](../../workfront-fusion/mapping/map-information-between-modules.md).
+If you see the map button above a field or function, you can use it to set variables and functions for that field. For more information, see [Map information from one module to another in [!UICONTROL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 ![](assets/map-toggle-350x74.png)
 
@@ -723,7 +723,7 @@ Allows you to perform a custom API call.
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Connection</td> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
    <td> <p>For instructions about connecting your HubSpot CRM account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Adobe Workfront Fusion - Basic instructions</a></p> </td> 
   </tr> 
   <tr> 
@@ -735,7 +735,7 @@ Allows you to perform a custom API call.
    <td> <p>Select the HTTP method you want to use:</p> <p>GET</p> <p>to retrieve information for an entry.</p> <p>POST</p> <p>to create a new entry.</p> <p>PUT</p> <p>to update/replace an existing entry.</p> <p>PATCH</p> <p>to make a partial entry update.</p> <p>DELETE</p> <p>to delete an entry.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Headers</td> 
+   <td role="rowheader">[!UICONTROL Headers]</td> 
    <td> <p> Enter the desired request headers. You don't have to add authorization headers; we already did that for you.</p> </td> 
   </tr> 
   <tr> 
@@ -743,7 +743,7 @@ Allows you to perform a custom API call.
    <td> <p> Enter the request query string.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Body</td> 
+   <td role="rowheader">[!UICONTROL Body]</td> 
    <td> <p>Add the body content for the API call in the form of a standard JSON object.When using conditional statements such as <code>if</code> in your JSON, put the quotation marks outside of the conditional statement.<img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"></p> </td> 
   </tr> 
  </tbody> 

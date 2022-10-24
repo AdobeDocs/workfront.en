@@ -5,18 +5,18 @@ product-area: workfront-integrations;documents
 keywords: connector
 navigation-topic: apps-and-their-modules
 title: Bynder modules
-description: In an [!DNL Adobe Workfront] Fusion scenario, you can automate workflows that use [!UICONTROL Bynder], as well as connect it to multiple third-party applications and services.
+description: In an [!DNL Adobe Workfront Fusion] scenario, you can automate workflows that use [!UICONTROL Bynder], as well as connect it to multiple third-party applications and services.
 author: Becky
 feature: Workfront Fusion
 exl-id: e4dc9588-334a-41a3-85d1-996cb819c3fa
 ---
 # Bynder modules
 
-In an [!DNL Adobe Workfront] Fusion scenario, you can automate workflows that use [!UICONTROL Bynder], as well as connect it to multiple third-party applications and services.
+In an [!DNL Adobe Workfront Fusion] scenario, you can automate workflows that use [!UICONTROL Bynder], as well as connect it to multiple third-party applications and services.
 
 If you need instructions on creating a scenario, see [Create a scenario in Adobe Workfront Fusion](../../workfront-fusion/scenarios/create-a-scenario.md).
 
-For information about modules, see [Modules in Adobe Workfront Fusion](../../workfront-fusion/modules/modules.md).
+For information about modules, see [Modules in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
 
 ## Access requirements
 
@@ -62,7 +62,7 @@ To use [!DNL Bynder] modules, you must have a [!DNL Bynder] account.
 
 You can create a connection from [!DNL Workfront Fusion] to your [!DNL Bynder] account directly from inside a [!DNL Bynder] module.
 
-1. In any Bynder module, click **Add** next to the [!UICONTROL Connection] field.
+1. In any Bynder module, click **[!UICONTROL Add]** next to the [!UICONTROL Connection] field.
 1. Select the Bynder domain that you want to connect to.
 1. (Optional) Click **[!UICONTROL Advanced settings]**, then enter your Client ID and Client Secret.
 
@@ -87,7 +87,7 @@ For instructions for creating an app in Bynder, see [Oauth 2.0 Apps](https://dev
 
 When you configure [!UICONTROL Bynder] modules, [!DNL Workfront Fusion] displays the fields listed below. Along with these, additional [!UICONTROL Bynder] fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
 
-If you see the map button above a field or function, you can use it to set variables and functions for that field. For more information, see [Map information from one module to another in Adobe Workfront Fusion](../../workfront-fusion/mapping/map-information-between-modules.md).
+If you see the map button above a field or function, you can use it to set variables and functions for that field. For more information, see [Map information from one module to another in [!UICONTROL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 ![](assets/map-toggle-350x74.png)
 
@@ -129,10 +129,10 @@ The module returns a status code, along with the headers and body of the API&nbs
   </tr> 
   <tr> 
    <td role="rowheader">Method</td> 
-   <td> <p>Select the HTTP request method you need to configure the API call. For more information, see <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">HTTP request methods in Adobe Workfront Fusion</a>.</p> </td> 
+   td> <p>Select the HTTP request method you need to configure the API call. For more information, see <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">HTTP request methods in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Headers</td> 
+   <td role="rowheader">[!UICONTROL Headers]</td> 
    <td> <p>Add the headers of the request in the form of a standard [!DNL JSON] object.</p> <p>For example: <code>{"Content-type":"application/json"}</code></p> <p>Workfront Fusion adds the authorization headers for you.</p> </td> 
   </tr> 
   <tr> 
@@ -140,7 +140,7 @@ The module returns a status code, along with the headers and body of the API&nbs
    <td> <p>Add the query for the API call in the form of a standard JSON object.</p> <p>For example: <code>{“name”:“something-urgent”}</code></p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Body</td> 
+   <td role="rowheader">[!UICONTROL Body]</td> 
    <td> <p>Add the body content for the API call in the form of a standard [!DNL JSON] object.</p> <p>Note:  <p>When using conditional statements such as <code>if</code> in your JSON, put the quotation marks outside of the conditional statement.</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 

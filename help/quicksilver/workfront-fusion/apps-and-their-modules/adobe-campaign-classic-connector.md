@@ -4,14 +4,14 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 keywords: connector
 navigation-topic: apps-and-their-modules
-title: Adobe Campaign Classic modules
-description: With the Adobe Campaign Classic modules, you can start an [!DNL Adobe Workfront Fusion] scenario based on events in your Adobe Campaign Classic account, create, read, or update agreements and other records, search for records using criteria you set, and upload documents.
+title: [!DNL Adobe Campaign Classic] modules
+description: With the [!DNL Adobe Campaign Classic] modules, you can start an [!DNL Adobe Workfront Fusion] scenario based on events in your [!DNL Adobe Campaign Classic] account, create, read, or update agreements and other records, search for records using criteria you set, and upload documents.
 author: Becky
 feature: Workfront Fusion
 ---
-# Adobe Campaign Classic modules
+# [!DNL Adobe Campaign Classic] modules
 
-With the Adobe Campaign Classic modules, you can start an [!DNL Adobe Workfront Fusion] scenario based on events in your Adobe Campaign Classic account, create, read, or update records, search for records using criteria you set, and perform custom API calls.
+With the [!DNL Adobe Campaign Classic] modules, you can start an [!DNL Adobe Workfront Fusion] scenario based on events in your [!DNL Adobe Campaign Classic] account, create, read, or update records, search for records using criteria you set, and perform custom API calls.
 
 ## Access requirements
 
@@ -44,18 +44,18 @@ To find out what plan, license type, or access you have, contact your [!DNL Work
 
 For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Workfront Fusion] licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
-## Connect Adobe Campaign Connector to Adobe Workfront Fusion
+## Connect [!DNL Adobe Campaign Classic] to Adobe Workfront Fusion
 
-1. In any Adobe Campaign Classic module, click **Add** next to the [!UICONTROL Connection] field.
-1. Enter the base URL that you use to connect to your Adobe Campaign Classic instance.
+1. In any [!DNL Adobe Campaign Classic] module, click **[!UICONTROL Add]** next to the [!UICONTROL Connection] field.
+1. Enter the base URL that you use to connect to your [!DNL Adobe Campaign Classic] instance.
 1. Enter your Username and Password.
 1. Click **[!UICONTROL Continue]** to create the connection and go back to the module.
 
-## Adobe Campaign Classic modules and their fields
+## [!DNL Adobe Campaign Classic] modules and their fields
 
-When you configure Adobe Campaign Classic modules, [!DNL Workfront Fusion] displays the fields listed below. Along with these, additional Adobe Campaign Classic fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
+When you configure [!DNL Adobe Campaign Classic] modules, [!DNL Workfront Fusion] displays the fields listed below. Along with these, additional [!DNL Adobe Campaign Classic] fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
 
-If you see the map button above a field or function, you can use it to set variables and functions for that field. For more information, see [Map information from one module to another in Adobe Workfront Fusion](../../workfront-fusion/mapping/map-information-between-modules.md).
+If you see the map button above a field or function, you can use it to set variables and functions for that field. For more information, see [Map information from one module to another in [!UICONTROL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 ![](assets/map-toggle-350x74.png)
 
@@ -65,7 +65,7 @@ If you see the map button above a field or function, you can use it to set varia
 
 ### Triggers
 
-#### Watch records
+#### [!UICONTROL Watch records]
 
 This scheduled trigger module starts a scenario when a record changes.
 
@@ -74,27 +74,27 @@ This scheduled trigger module starts a scenario when a record changes.
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Connection</td> 
-   <td>For instructions on creating a connection to Adobe Campaign Classic, see <a href="#connect-adobe-campaign-connector-to-adobe-workfront-fusion" class="MCXref xref" >Create a connection to Adobe Campaign Classic</a> in this article.</td> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td>For instructions on creating a connection to [!DNL Adobe Campaign Classic], see <a href="#connect-adobe-campaign-connector-to-adobe-workfront-fusion" class="MCXref xref" >Create a connection to [!DNL Adobe Campaign Classic]</a> in this article.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Filter</td> 
+   <td role="rowheader">[!UICONTROL Filter]</td> 
    <td>Select whether you want to watch for new records, updated records, or both.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Resource</td> 
+   <td role="rowheader">[!UICONTROL Resource]</td> 
    <td>Select the resource that you want to watch for.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Fields to inlcude in output</td> 
+   <td role="rowheader">[!UICONTROL Fields to include in output]</td> 
    <td>Select the fields that you want to include in the module's output.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Custom fields to inlcude in output</td> 
+   <td role="rowheader">[!UICONTROL Custom fields to include in output]</td> 
    <td>For each custom field that you want to include in output, click <b>Add</b> and enter the name of the custom field.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Maximum number of returned results</td> 
+   <td role="rowheader">[!UICONTROL Maximum number of returned results]</td> 
    <td>Enter or map the maximum number of records you want the module to return during each scenario execution cycle.</td> 
   </tr> 
  </tbody> 
@@ -103,164 +103,163 @@ This scheduled trigger module starts a scenario when a record changes.
 
 ### Actions
 
-* [Create a record](#create-a-record)
-* [Custom API call](#make-a-custom-api-call)
-* [Delete a record](#delete-record)
-* [Misc action](#misc-action)
-* [[!UICONTROL Read a record]](#read-a-record)
-* [Subscription](#subscription)
-* [Update a record](#update-record)
+* [[!UICONTROL Create a record]](#uicontrol-create-a-record)
+* [!UICONTROL Make a custom API call](#uicontrol-make-a-custom-api-call)
+* [[!UICONTROL Delete a record]](#uicontrol-delete-record)
+* [[!UICONTROL Perform an action]](#uicontrol-perform-an-action)
+* [[!UICONTROL Read a record]](#uicontrol-read-a-record)
+* [[!UICONTROL Subscribe or unsubscribe]](#uicontrol-subscribe-or-unsubscribe)
+* [[!UICONTROL Update a record]](#uicontrol-update-record)
 
-#### Create a record
+#### [!UICONTROL Create a record]
 
-This action module creates a new record in Adobe Campaign Classic.
+This action module creates a new record in [!DNL Adobe Campaign Classic].
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Connection</td> 
-   <td>For instructions on creating a connection to Adobe Campaign Classic, see <a href="#connect-adobe-campaign-connector-to-adobe-workfront-fusion" class="MCXref xref" >Create a connection to Adobe Campaign Classic</a> in this article.</td> 
+   <td role="rowheader">[!UICONTROL Connection]</td>
+   <td>For instructions on creating a connection to [!DNL Adobe Campaign Classic], see <a href="#connect-adobe-campaign-connector-to-adobe-workfront-fusion" class="MCXref xref" >Create a connection to [!DNL Adobe Campaign Classic]</a> in this article.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Resource</td> 
-   <td>Select the type of Adobe Campaign Classic record you want to create.</td> 
+   <td role="rowheader">[!UICONTROL Resource]</td> 
+   <td>Select the type of [!DNL Adobe Campaign Classic] record you want to create.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Fields </td> 
+   <td role="rowheader">[!UICONTROL Fields] </td> 
    <td>Select the fields that you want to set values for when the record is created, then fill in the values for those fields. Fields vary based on the type of record you select.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Custom fields</td> 
+   <td role="rowheader">[!UICONTROL Custom fields]</td> 
    <td> For each custom field that you want to add to the new record, click <b>[!UICONTROL Add item]</b> and enter or map the field's name and value. </td> 
   </tr> 
  </tbody> 
 </table>
 
-#### Make a custom API call
+#### [!UICONTROL Make a custom API call]
 
-This module makes a custom API call to the Adobe Campaign Classic API
+This module makes a custom API call to the [!DNL Adobe Campaign Classic] API
 
 <table style="table-layout:auto"> 
   <col/>
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">Connection</td>
-   <td>For instructions on creating a connection to Adobe Campaign Classic, see <a href="#connect-adobe-campaign-connector-to-adobe-workfront-fusion" class="MCXref xref" >Create a connection to Adobe Campaign Classic</a> in this article.</td> 
+      <td role="rowheader">[!UICONTROL Connection]</td>
+   <td>For instructions on creating a connection to [!DNL Adobe Campaign Classic], see <a href="#connect-adobe-campaign-connector-to-adobe-workfront-fusion" class="MCXref xref" >Create a connection to [!DNL Adobe Campaign Classic]</a> in this article.</td> 
     </tr>
     <tr>
-      <td role="rowheader">Action</td>
+      <td role="rowheader">[!UICONTROL Action]</td>
       <td><p>Select the action that you want the API call to perform.</p>
-      <p>Execute query</p>
-      <p>Write</p>
-      <p>Get entity if more recent</p>
-      <p>Select all</p>
-      <p>Push event</p>
+      <p>[!UICONTROL Execute query]</p>
+      <p>[!UICONTROL Write]</p>
+      <p>[!UICONTROL Get entity if more recent]</p>
+      <p>[!UICONTROL Select all]</p>
+      <p>[!UICONTROL Push event]</p>
     </td>
     </tr>
     <tr>
-      <td role="rowheader">Headers</td>
+      <td role="rowheader">[!UICONTROL Headers]</td>
       <td>
         <p>Add the headers of the request in the form of a standard [!DNL JSON] object.</p>
         <p>For example, <code>{"Content-type":"application/json"}</code></p>
-        <p>Workfront Fusion adds the x-security token header automatically.</p>
+        <p>[!DNL Workfront Fusion] adds the [!UICONTROL x-security] token header automatically.</p>
       </td>
     </tr>
     <tr>
-      <td role="rowheader">XML Body</td>
+      <td role="rowheader">[!UICONTROL XML Body]</td>
    <td> <p>Add the body content for the API call in XML, without the session element. </td>     </tr>
   </tbody>
 </table>
 
-#### Delete Record
+#### [!UICONTROL Delete Record]
 
-This action module deletes a single record from Adobe Campaign Classic.
+This action module deletes a single record from [!DNL Adobe Campaign Classic].
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Connection</td> 
-   <td>For instructions on creating a connection to Adobe Campaign Classic, see <a href="#connect-adobe-campaign-connector-to-adobe-workfront-fusion" class="MCXref xref" >Create a connection to Adobe Campaign Classic</a> in this article.</td> 
+   <td role="rowheader">[!UICONTROL Connection]</td>
+   <td>For instructions on creating a connection to [!DNL Adobe Campaign Classic], see <a href="#connect-adobe-campaign-connector-to-adobe-workfront-fusion" class="MCXref xref" >Create a connection to [!DNL Adobe Campaign Classic]</a> in this article.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Resource</td> 
+   <td role="rowheader">[!UICONTROL Resource]</td> 
    <td>Select the type of resource that you want to delete.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">ID</td> 
+   <td role="rowheader">[!UICONTROL ID]</td> 
    <td>Enter or map the ID of the resourece you want to delete.</td> 
   </tr> 
  </tbody> 
 </table>
 
 
-#### Perform an action
+#### [!UICONTROL Perform an action]
 
-This action module performs a selected action on an object in the Adobe Campaign Classic API.
+This action module performs a selected action on an object in the [!DNL Adobe Campaign Classic] API.
 
-For information on specific actions and fields, see [Adobe Campaign - API Documentation](https://experienceleague.adobe.com/developer/campaign-api/api/p-14.html).
-[test](#delete-record)
+For information on specific actions and fields, see [[!DNL Adobe Campaign] - API Documentation](https://experienceleague.adobe.com/developer/campaign-api/api/p-14.html).
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Connection</td> 
-   <td>For instructions on creating a connection to Adobe Campaign Classic, see <a href="#connect-adobe-campaign-connector-to-adobe-workfront-fusion" class="MCXref xref" >Create a connection to Adobe Campaign Classic</a> in this article.</td> 
+   <td role="rowheader">[!UICONTROL Connection]</td>
+   <td>For instructions on creating a connection to [!DNL Adobe Campaign Classic], see <a href="#connect-adobe-campaign-connector-to-adobe-workfront-fusion" class="MCXref xref" >Create a connection to [!DNL Adobe Campaign Classic]</a> in this article.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Action</td> 
+   <td role="rowheader">[!UICONTROL Action]</td> 
    <td><p>Select the action to perform on the object.</p>
    <ul>
-   <li><p><b>List</b></p><p> For available fields, see <a href="#search" class="MCXref xref" >[!UICONTROL Search]</a> in this article. </p></li>
-     <li><p><b>Get</b></p><p> For available fields, see <a href="#search" class="MCXref xref" >[!UICONTROL Search]</a> in this article. </p></li> 
-   <li><p><b>Create</b></p><p> For available fields, see <a href="#create-a-record" class="MCXref xref" >Create a record</a> in this article. </p></li>
-   <li><p><b>Update</b></p><p> For available fields, see <a href="#update-record" class="MCXref xref" >Update a record</a> in this article. </p></li>
-   <li><p><b>Delete</b></p><p> For available fields, see <a href="#delete-record" class="MCXref xref" >[!UICONTROL Delete] a record</a> in this article. </p></li>
+   <li><p><b>[!DNL List]</b></p><p> For available fields, see <a href="#search" class="MCXref xref" >[!UICONTROL Search]</a> in this article. </p></li>
+     <li><p><b>[!UICONTROL Get]</b></p><p> For available fields, see <a href="#search" class="MCXref xref" >[!UICONTROL Search]</a> in this article. </p></li> 
+   <li><p><b>[!UICONTROL Create]</b></p><p> For available fields, see <a href="#create-a-record" class="MCXref xref" >[!UICONTROL Create a record]</a> in this article. </p></li>
+   <li><p><b>[!UICONTROL Update]</b></p><p> For available fields, see <a href="#update-record" class="MCXref xref" >[!UICONTROL Update a record]</a> in this article. </p></li>
+   <li><p><b>[!UICONTROL Delete]</b></p><p> For available fields, see <a href="#delete-record" class="MCXref xref" >[!UICONTROL Delete a record]</a> in this article. </p></li>
    </ul>
    </td>
 </tr> 
  </tbody> 
 </table>
 
-#### Read a record
+#### [!UICONTROL Read a record]
 
-This action module reads a record from Adobe Campaign Classic.
+This action module reads a record from [!DNL Adobe Campaign Classic].
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Connection</td> 
-   <td>For instructions on creating a connection to Adobe Campaign Classic, see <a href="#connect-adobe-campaign-connector-to-adobe-workfront-fusion" class="MCXref xref" >Create a connection to Adobe Campaign Classic</a> in this article.</td> 
+   <td role="rowheader">[!UICONTROL Connection]</td>
+   <td>For instructions on creating a connection to [!DNL Adobe Campaign Classic], see <a href="#connect-adobe-campaign-connector-to-adobe-workfront-fusion" class="MCXref xref" >Create a connection to [!DNL Adobe Campaign Classic]</a> in this article.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Resource</td> 
-   <td>Select the type of Adobe Campaign Classic record you want to read.</td> 
+   <td role="rowheader">[!UICONTROL Resource]</td> 
+   <td>Select the type of [!DNL Adobe Campaign Classic] record you want to read.</td> 
   </tr> 
     <tr> 
-   <td role="rowheader">ID </td> 
+   <td role="rowheader">[!UICONTROL ID] </td> 
    <td>Enter of map the ID of the record you want to read.</td> 
   </tr> 
  <tr> 
-   <td role="rowheader">Fields to include in output </td> 
+   <td role="rowheader">[!UICONTROL Fields to include in output] </td> 
    <td>Select the fields that you want to include in the module's output.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Custom fields to include in output</td> 
-   <td>For each custom field that you want to include in output, click <b>Add</b> and enter the name of the custom field.</td> 
+   <td role="rowheader">[!UICONTROL Custom fields to include in output]</td> 
+   <td>For each custom field that you want to include in output, click <b>[!UICONTROL Add]</b> and enter the name of the custom field.</td> 
   </tr> 
  </tbody> 
 </table>
 
 
-#### Subscribe or unsubscribe
+#### [!UICONTROL Subscribe or unsubscribe]
 
 This action module subscribes a user to or unsubscribes a user from an information service.
 
@@ -269,50 +268,50 @@ This action module subscribes a user to or unsubscribes a user from an informati
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Connection</td> 
-   <td>For instructions on creating a connection to Adobe Campaign Classic, see <a href="#connect-adobe-campaign-connector-to-adobe-workfront-fusion" class="MCXref xref" >Create a connection to Adobe Campaign Classic</a> in this article.</td> 
+   <td role="rowheader">[!UICONTROL Connection]</td>
+   <td>For instructions on creating a connection to [!DNL Adobe Campaign Classic], see <a href="#connect-adobe-campaign-connector-to-adobe-workfront-fusion" class="MCXref xref" >Create a connection to [!DNL Adobe Campaign Classic]</a> in this article.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Subscribe or unsubscribe</td> 
+   <td role="rowheader">[!UICONTROL Subscribe or unsubscribe]</td> 
    <td>Select whether you want to subscribe or unsubscribe to the information service.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Service name</td> 
+   <td role="rowheader">[!UICONTROL Service name]</td> 
    <td>Select the service that you want to subscribe to or unsubscribe from.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Recipient email address </td> 
+   <td role="rowheader">[!UICONTROL Recipient email address] </td> 
    <td>Enter or map the email address of the user you want to subscribe or unsubscribe to the information service.</td> 
   </tr> 
  </tbody> 
 </table>
 
-#### Update record
+#### [!UICONTROL Update record]
 
-This action module updates a single record in Adobe Campaign Classic.
+This action module updates a single record in [!DNL Adobe Campaign Classic].
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Connection</td> 
-   <td>For instructions on creating a connection to Adobe Campaign Classic, see <a href="#connect-adobe-campaign-connector-to-adobe-workfront-fusion" class="MCXref xref" >Create a connection to Adobe Campaign Classic</a> in this article.</td> 
+   <td role="rowheader">[!UICONTROL Connection]</td>
+   <td>For instructions on creating a connection to [!DNL Adobe Campaign Classic], see <a href="#connect-adobe-campaign-connector-to-adobe-workfront-fusion" class="MCXref xref" >Create a connection to [!DNL Adobe Campaign Classic]</a> in this article.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Resource</td> 
-   <td>Select the type of Adobe Campaign Classic record you want to create.</td> 
+   <td role="rowheader">[!UICONTROL Resource]</td> 
+   <td>Select the type of [!DNL Adobe Campaign Classic] record you want to create.</td> 
   </tr> 
     <tr> 
-   <td role="rowheader">ID </td> 
+   <td role="rowheader">[!UICONTROL ID] </td> 
    <td>Enter of map the ID of the record you want to update.</td> 
   </tr> 
 <tr> 
-   <td role="rowheader">Fields </td> 
+   <td role="rowheader">[!UICONTROL Fields] </td> 
    <td>Select the fields that you want to update values for, then fill in the values for those fields. Fields vary based on the type of record you select.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Custom fields</td> 
+   <td role="rowheader">[!UICONTROL Custom fields]</td> 
    <td> For each custom field that you want to update, click <b>[!UICONTROL Add item]</b> and enter or map the field's name and value. </td> 
   </tr> 
  </tbody> 
@@ -320,7 +319,7 @@ This action module updates a single record in Adobe Campaign Classic.
 
 ### Searches
 
-#### Search
+#### [!UICONTROL Search]
 
 This search module returns records based on the specified criteria.
 
@@ -329,15 +328,15 @@ This search module returns records based on the specified criteria.
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Connection</td> 
-   <td>For instructions on creating a connection to Adobe Campaign Classic, see <a href="#connect-adobe-campaign-connector-to-adobe-workfront-fusion" class="MCXref xref" >Create a connection to Adobe Campaign Classic</a> in this article.</td> 
+   <td role="rowheader">[!UICONTROL Connection]</td>
+   <td>For instructions on creating a connection to [!DNL Adobe Campaign Classic], see <a href="#connect-adobe-campaign-connector-to-adobe-workfront-fusion" class="MCXref xref" >Create a connection to [!DNL Adobe Campaign Classic]</a> in this article.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Resource</td> 
-   <td>Select the type of Adobe Campaign Classic record you want to create.</td> 
+   <td role="rowheader">[!UICONTROL Resource]</td> 
+   <td>Select the type of [!DNL Adobe Campaign Classic] record you want to create.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Limit </td> 
+   <td role="rowheader">[!UICONTROL Limit] </td> 
    <td>Enter or map the maximum number of records you want the module to return during each scenario execution cycle.</td> 
   </tr> 
  </tbody> 

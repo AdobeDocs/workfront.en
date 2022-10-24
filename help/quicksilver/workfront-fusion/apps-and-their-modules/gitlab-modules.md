@@ -21,11 +21,11 @@ In an Adobe Workfront Fusion scenario, you can automate workflows that use GitLa
 
 If you need instructions on creating a scenario, see [Create a scenario in Adobe Workfront Fusion](../../workfront-fusion/scenarios/create-a-scenario.md).
 
-For information about modules, see [Modules in Adobe Workfront Fusion](../../workfront-fusion/modules/modules.md).
+For information about modules, see [Modules in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
 
 ## Connect GitLab to Workfront Fusion {#connect-gitlab-to-workfront-fusion}
 
-1. In any [!DNL Workfront Fusion Gitlab] module, click **Add** next to the connection field.
+1. In any [!DNL Workfront Fusion Gitlab] module, click **[!UICONTROL Add]** next to the connection field.
 1. Configure the following fields:
 
    <table style="table-layout:auto"> 
@@ -33,7 +33,7 @@ For information about modules, see [Modules in Adobe Workfront Fusion](../../wor
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">Connection name</td> 
+      <td role="rowheader">[!UICONTROL Connection name]</td> 
       <td> <p>Enter a name for the connection.</p> </td> 
      </tr> 
      <tr> 
@@ -55,7 +55,7 @@ For information about modules, see [Modules in Adobe Workfront Fusion](../../wor
 
 When you configure [!DNL GitLab] modules, [!DNL Workfront Fusion] displays the fields listed below. Along with these, additional [!DNL GitLab] fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
 
-If you see the map button above a field or function, you can use it to set variables and functions for that field. For more information, see [Map information from one module to another in Adobe Workfront Fusion](../../workfront-fusion/mapping/map-information-between-modules.md).
+If you see the map button above a field or function, you can use it to set variables and functions for that field. For more information, see [Map information from one module to another in [!UICONTROL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 ![](assets/map-toggle-350x74.png)
 
@@ -211,7 +211,7 @@ This scheduled trigger module starts a scenario when a new project is added, of 
    <col> 
    <tbody> 
    <tr> 
-   <td role="rowheader">Connection</td> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
    <td>For instructions about connecting your GitLab account to [!DNL Workfront] Fusion, see <a href="#connect-gitlab-to-workfront-fusion-connect-gitlab-to-workfront-fusion" class="MCXref xref">Connect GitLab to [!DNL Workfront] Fusion</a> in this article.</td> 
    </tr> 
    <tr> 
@@ -232,7 +232,7 @@ This scheduled trigger module starts a scenario when a new branch is added to a 
    <col> 
    <tbody> 
    <tr> 
-   <td role="rowheader">Connection</td> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
    <td>For instructions about connecting your GitLab account to [!DNL Workfront] Fusion, see <a href="#connect-gitlab-to-workfront-fusion-connect-gitlab-to-workfront-fusion" class="MCXref xref">Connect GitLab to [!DNL Workfront] Fusion</a> in this article.</td> 
    </tr> 
    <tr> 
@@ -322,7 +322,7 @@ This action module cancels a single build of a project.
    <col> 
    <tbody> 
    <tr> 
-   <td role="rowheader">Connection</td> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
    <td>For instructions about connecting your GitLab account to [!DNL Workfront] Fusion, see <a href="#connect-gitlab-to-workfront-fusion-connect-gitlab-to-workfront-fusion" class="MCXref xref">Connect GitLab to [!DNL Workfront] Fusion</a> in this article.</td> 
    </tr> 
    <tr> 
@@ -603,7 +603,7 @@ This action module retrieves issue details.
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Connection</td> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
    <td>To create a new connection, see <a href="#connect-gitlab-to-workfront-fusion" class="MCXref xref">[!UICONTROL Connect GitLab to Workfront Fusion]</a> in this article.</td> 
   </tr> 
   <tr> 
@@ -740,7 +740,7 @@ This search module returns a list of builds for a specific commit in a project.
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Connection</td> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
    <td>To create a new connection, see <a href="#connect-gitlab-to-workfront-fusion" class="MCXref xref">[!UICONTROL Connect GitLab to Workfront Fusion]</a> in this article.</td> 
   </tr> 
   <tr> 
@@ -972,7 +972,7 @@ This action module retries a single build in a commit.
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Connection</td> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
    <td>To create a new connection, see <a href="#connect-gitlab-to-workfront-fusion" class="MCXref xref">[!UICONTROL Connect GitLab to Workfront Fusion]</a> in this article.</td> 
   </tr> 
   <tr> 

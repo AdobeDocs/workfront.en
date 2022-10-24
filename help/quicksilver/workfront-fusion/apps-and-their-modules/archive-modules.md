@@ -11,15 +11,15 @@ exl-id: e29b6d39-3666-4d6d-a178-1983ae9f3aa9
 ---
 # Archive modules
 
-In a [!DNL Adobe Workfront] Fusion scenario, you can use an archive, such as a zipped file, in your scenario, allowing you to use it in your automations or integrations.
+In a [!DNL Adobe Workfront Fusion] scenario, you can use an archive, such as a zipped file, in your scenario, allowing you to use it in your automations or integrations.
 
-If you need instructions on creating a scenario, see [Create a scenario in Adobe Workfront Fusion](../../workfront-fusion/scenarios/create-a-scenario.md). For information about modules, see [Modules in Adobe Workfront Fusion](../../workfront-fusion/modules/modules.md).
+If you need instructions on creating a scenario, see [Create a scenario in Adobe Workfront Fusion](../../workfront-fusion/scenarios/create-a-scenario.md). For information about modules, see [Modules in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
 
 ## Archive modules and their fields
 
 When you configure Archive modules, [!DNL Workfront Fusion] displays the fields listed below. Along with these, additional Archive fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
 
-If you see the map button above a field or function, you can use it to set variables and functions for that field. For more information, see [Map information from one module to another in Adobe Workfront Fusion](../../workfront-fusion/mapping/map-information-between-modules.md).
+If you see the map button above a field or function, you can use it to set variables and functions for that field. For more information, see [Map information from one module to another in [!UICONTROL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 ![](assets/map-toggle-350x74.png)
 

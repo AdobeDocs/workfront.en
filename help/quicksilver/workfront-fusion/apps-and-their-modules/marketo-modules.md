@@ -5,18 +5,18 @@ product-area: workfront-integrations
 keywords: connector
 navigation-topic: apps-and-their-modules
 title: Marketo modules
-description: In an [!DNL Adobe Workfront] Fusion scenario, you can automate workflows that use [!DNL Marketo], as well as connect it to multiple third-party applications and services.
+description: In an [!DNL Adobe Workfront Fusion] scenario, you can automate workflows that use [!DNL Marketo], as well as connect it to multiple third-party applications and services.
 author: Becky
 feature: Workfront Fusion
 exl-id: 7f6dace5-ab50-45da-a926-1a8919057f7b
 ---
 # Marketo modules
 
-In an [!DNL Adobe Workfront] Fusion scenario, you can automate workflows that use [!DNL Marketo], as well as connect it to multiple third-party applications and services.
+In an [!DNL Adobe Workfront Fusion] scenario, you can automate workflows that use [!DNL Marketo], as well as connect it to multiple third-party applications and services.
 
 If you need instructions on creating a scenario, see [Create a scenario in Adobe Workfront Fusion](../../workfront-fusion/scenarios/create-a-scenario.md).
 
-For information about modules, see [Modules in Adobe Workfront Fusion](../../workfront-fusion/modules/modules.md).
+For information about modules, see [Modules in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
 
 ## Access requirements
 
@@ -57,7 +57,7 @@ To use [!DNL Marketo] modules, you must have a [!DNL Marketo] account.
 
 You can create a connection to your [!DNL Marketo] account directly from inside [!DNL Marketo] module.
 
-1. In any [!DNL Marketo] module, click **Add** next to the [!UICONTROL Connection] field.
+1. In any [!DNL Marketo] module, click **[!UICONTROL Add]** next to the [!UICONTROL Connection] field.
 1. Enter your [!DNL Marketo] account or [!DNL Marketo] Munchkin ID. This is the unique part of the Base URL or Endpoint assigned to your account, that you use to access [!DNL Marketo] via its REST API. For instructions on locating this, see [Base URL](https://developers.marketo.com/rest-api/base-url/) in the Marketo documentation.
 1. Enter your Client ID and Client secret. For instructions on locating these, see [Authentication](https://developers.marketo.com/rest-api/authentication/) in the Marketo documentation.
 1. Click **[!UICONTROL Continue]** to create the connection and go back to the module.
@@ -66,7 +66,7 @@ You can create a connection to your [!DNL Marketo] account directly from inside 
 
 When you configure [!DNL Marketo] modules, [!DNL Workfront Fusion] displays the fields listed below. Along with these, additional [!DNL Marketo] fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
 
-If you see the map button above a field or function, you can use it to set variables and functions for that field. For more information, see [Map information from one module to another in Adobe Workfront Fusion](../../workfront-fusion/mapping/map-information-between-modules.md).
+If you see the map button above a field or function, you can use it to set variables and functions for that field. For more information, see [Map information from one module to another in [!UICONTROL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 ![](assets/map-toggle-350x74.png)
 
@@ -164,7 +164,7 @@ This action module lets you make a custom authenticated call to the [!DNL Market
    <td> <p>Select the HTTP request method you need to configure the API call. For more information, see <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref">HTTP request methods in Adobe Workfront Fusion</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Headers</td> 
+   <td role="rowheader">[!UICONTROL Headers]</td> 
    <td> <p>Add the headers of the request in the form of a standard [!DNL JSON] object.</p> <p>For example, <code>{"Content-type":"application/json"}</code></p> <p>Workfront Fusion adds the authorization headers for you.</p> </td> 
   </tr> 
   <tr> 
@@ -172,7 +172,7 @@ This action module lets you make a custom authenticated call to the [!DNL Market
    <td> <p>Add the query for the API call in the form of a standard JSON object.</p> <p>For example: <code>{“name”:“something-urgent”}</code></p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Body</td> 
+   <td role="rowheader">[!UICONTROL Body]</td> 
    <td> <p>Add the body content for the API call in the form of a standard [!DNL JSON] object.</p> <p>Note:  <p>When using conditional statements such as <code>if</code> in your JSON, put the quotation marks outside of the conditional statement.</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
@@ -528,7 +528,7 @@ This search module retrieves a list of records that match specific search criter
    <td> <p>For instructions about connecting your Marketo account to Workfront Fusion, see <a href="#connect-marketo-to-workfront-fusion" class="MCXref xref">Connect Marketo to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Record type</td> 
+   <td role="rowheader">[!UICONTROL Record type]</td> 
    <td> <p>Select the type of record you want to search.</p> 
     <ul> 
      <li> <p>Campaigns</p> </li> 

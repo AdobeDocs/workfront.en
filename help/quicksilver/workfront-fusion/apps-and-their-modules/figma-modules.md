@@ -15,7 +15,7 @@ With the [!DNL Adobe Workfront Fusion] Figma modules, you can retrieve lists of 
 
 If you need instructions on creating a scenario, see [Create a scenario](../../workfront-fusion/scenarios/create-a-scenario.md).
 
-For information about modules, see [Modules in Adobe Workfront Fusion](../../workfront-fusion/modules/modules.md).
+For information about modules, see [Modules in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
 
 ## Access requirements
 
@@ -26,21 +26,21 @@ You must have the following access to use the functionality in this article:
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">Adobe Workfront plan*</td>
+      <td role="rowheader">[!DNL Adobe Workfront] plan*</td>
       <td>
-        <p>Pro or higher</p>
+        <p>[!UICONTROL Pro] or higher</p>
       </td>
     </tr>
     <tr>
-      <td role="rowheader">Adobe Workfront license*</td>
+      <td role="rowheader">[!DNL Adobe Workfront] license*</td>
       <td>
-        <p>Plan, Work</p>
+        <p>[!UICONTROL Plan], [!UICONTROL Work]</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">[!DNL Adobe Workfront Fusion] license**</td>
       <td >
-        <p>Workfront Fusion for Work Automation and Integration</p>
+        <p>[!UICONTROL Workfront Fusion for Work Automation and Integration]</p>
       </td>
     </tr>
     <tr>
@@ -63,7 +63,7 @@ To use Figma modules, you must have a Figma account.
 
 When you configure Figma modules, [!DNL Workfront Fusion] displays the fields listed below. Along with these, additional Figma fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
 
-If you see the map button above a field or function, you can use it to set variables and functions for that field. For more information, see [Map information from one module to another in Adobe Workfront Fusion](../../workfront-fusion/mapping/map-information-between-modules.md).
+If you see the map button above a field or function, you can use it to set variables and functions for that field. For more information, see [Map information from one module to another in [!UICONTROL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 ![](assets/map-toggle-350x74.png)
 
@@ -94,7 +94,7 @@ This action module deletes a single comment from a file.
   <col />
   <tbody>
     <tr>
-      <td role="rowheader">Connection</td>
+      <td role="rowheader">[!UICONTROL Connection]</td>
       <td> <p>For instructions about connecting your Figma account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Adobe Workfront Fusion - Basic instructions.</a></p>
       </td>
     </tr>
@@ -118,7 +118,7 @@ This search module lists all of the comments attached to a single file in Figma.
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">Connection</td>
+      <td role="rowheader">[!UICONTROL Connection]</td>
       <td> <p>For instructions about connecting your Figma account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Adobe Workfront Fusion - Basic instructions.</a></p>
     </tr>
     <tr>
@@ -152,7 +152,7 @@ This action module posts a comment to a Figma file.
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">Connection</td>
+      <td role="rowheader">[!UICONTROL Connection]</td>
       <td> <p>For instructions about connecting your Figma account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Adobe Workfront Fusion - Basic instructions.</a></p>
     </tr>
     <tr>
@@ -197,7 +197,7 @@ This action module retrieves a single file or image from a Figma library
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">Connection</td>
+      <td role="rowheader">[!UICONTROL Connection]</td>
       <td> <p>For instructions about connecting your Figma account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Adobe Workfront Fusion - Basic instructions.</a></p>
     </tr>
     <tr>
@@ -420,7 +420,7 @@ This search module returns the version history of a single file in Figma.
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">Connection</td>
+      <td role="rowheader">[!UICONTROL Connection]</td>
       <td> <p>For instructions about connecting your Figma account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Adobe Workfront Fusion - Basic instructions.</a></p>
     <tr>
       <td role="rowheader">File ID</td>
@@ -452,7 +452,7 @@ This search module returns a list of all files in the specified project.
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">Connection</td>
+      <td role="rowheader">[!UICONTROL Connection]</td>
       <td> <p>For instructions about connecting your Figma account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Adobe Workfront Fusion - Basic instructions.</a></p>
     </tr>
     <tr>
@@ -482,7 +482,7 @@ This search module returns a list of all projects within the specified team.
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">Connection</td>
+      <td role="rowheader">[!UICONTROL Connection]</td>
       <td> <p>For instructions about connecting your Figma account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Adobe Workfront Fusion - Basic instructions.</a></p>
     </tr>
     <tr>
@@ -508,7 +508,7 @@ This action module retrieves a single style or component, or a set of styles or 
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">Connection</td>
+      <td role="rowheader">[!UICONTROL Connection]</td>
       <td> <p>For instructions about connecting your Figma account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Adobe Workfront Fusion - Basic instructions.</a></p>
     </tr>
     <tr>
@@ -559,7 +559,7 @@ This action module lets you make a custom authenticated call to the Figma API wi
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">Connection</td>
+      <td role="rowheader">[!UICONTROL Connection]</td>
       <td> <p>For instructions about connecting your Figma account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Adobe Workfront Fusion - Basic instructions.</a></p>
     </tr>
     <tr>
@@ -576,7 +576,7 @@ This action module lets you make a custom authenticated call to the Figma API wi
       </td>
     </tr>
     <tr>
-      <td role="rowheader">Headers</td>
+      <td role="rowheader">[!UICONTROL Headers]</td>
       <td>
         <p>Add the headers of the request in the form of a standard [!DNL JSON] object.</p>
         <p>For example, <code>{"Content-type":"application/json"}</code></p>
@@ -591,7 +591,7 @@ This action module lets you make a custom authenticated call to the Figma API wi
       </td>
     </tr>
     <tr>
-      <td role="rowheader">Body</td>
+      <td role="rowheader">[!UICONTROL Body]</td>
    <td> <p>Add the body content for the API call in the form of a standard [!DNL JSON] object.</p> <p>Note:  <p>When using conditional statements such as <code>if</code> in your JSON, put the quotation marks outside of the conditional statement.</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 

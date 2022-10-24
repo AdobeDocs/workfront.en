@@ -14,11 +14,11 @@ exl-id: 7d620c93-d1bf-4451-9f76-1d6fd850cec9
 
 The [!DNL Adobe Workfront Fusion Google Drive] modules enable you to monitor, search, create, update, delete, and manage your files, folder, or shared drives in your [!DNL Google] Drive.
 
-In a [!DNL Adobe Workfront] Fusion scenario, you can connect your [!DNL Google Drive] account to multiple third-party applications and services.
+In a [!DNL Adobe Workfront Fusion] scenario, you can connect your [!DNL Google Drive] account to multiple third-party applications and services.
 
 If you need instructions on creating a scenario, see [Create a scenario in Adobe Workfront Fusion](../../workfront-fusion/scenarios/create-a-scenario.md).
 
-For information about modules, see [Modules in Adobe Workfront Fusion](../../workfront-fusion/modules/modules.md).
+For information about modules, see [Modules in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
 
 ## Access requirements
 
@@ -65,7 +65,7 @@ For instructions about connecting your Google Drive account to Workfront Fusion,
 
 When you configure [!DNL Google Drive] modules, [!DNL Workfront Fusion] displays the fields listed below. Along with these, additional [!DNL Google Drive] fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
 
-If you see the map button above a field or function, you can use it to set variables and functions for that field. For more information, see [Map information from one module to another in Adobe Workfront Fusion](../../workfront-fusion/mapping/map-information-between-modules.md).
+If you see the map button above a field or function, you can use it to set variables and functions for that field. For more information, see [Map information from one module to another in [!UICONTROL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 ![](assets/map-toggle-350x74.png)
 

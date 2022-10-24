@@ -15,7 +15,7 @@ With the [!DNL Adobe Workfront Fusion Adobe Creative Cloud] Libraries modules, y
 
 If you need instructions on creating a scenario, see [Create a scenario](../../workfront-fusion/scenarios/create-a-scenario.md).
 
-For information about modules, see [Modules in Adobe Workfront Fusion](../../workfront-fusion/modules/modules.md).
+For information about modules, see [Modules in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
 
 ## Access requirements
 
@@ -26,21 +26,21 @@ You must have the following access to use the functionality in this article:
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">Adobe Workfront plan*</td>
+      <td role="rowheader">[!DNL Adobe Workfront] plan*</td>
       <td>
-        <p>Pro or higher</p>
+        <p>[!UICONTROL Pro] or higher</p>
       </td>
     </tr>
     <tr>
-      <td role="rowheader">Adobe Workfront license*</td>
+      <td role="rowheader">[!DNL Adobe Workfront] license*</td>
       <td>
-        <p>Plan, Work</p>
+        <p>[!UICONTROL Plan], [!UICONTROL Work]</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">[!DNL Adobe Workfront Fusion] license**</td>
       <td >
-        <p>Workfront Fusion for Work Automation and Integration</p>
+        <p>[!UICONTROL Workfront Fusion for Work Automation and Integration]</p>
       </td>
     </tr>
     <tr>
@@ -63,7 +63,7 @@ To use Adobe Creative Cloud Libraries modules, you must have an Adobe Creative C
 
 When you configure [!UICONTROL Adobe Creative Cloud] Libraries modules, [!DNL Workfront Fusion] displays the fields listed below. Along with these, additional [!DNL Adobe Creative Cloud] Libraries fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
 
-If you see the map button above a field or function, you can use it to set variables and functions for that field. For more information, see [Map information from one module to another in Adobe Workfront Fusion](../../workfront-fusion/mapping/map-information-between-modules.md).
+If you see the map button above a field or function, you can use it to set variables and functions for that field. For more information, see [Map information from one module to another in [!UICONTROL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 ![](assets/map-toggle-350x74.png)
 
@@ -99,7 +99,7 @@ This action module archives an element from a library.
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">Connection</td>
+      <td role="rowheader">[!UICONTROL Connection]</td>
       <td>For instructions about connecting your Adobe Creative Cloud account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Adobe Workfront Fusion - Basic instructions.</td>
     </tr>
     <tr>
@@ -122,7 +122,7 @@ This action module returns a single element from a library.
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">Connection</td>
+      <td role="rowheader">[!UICONTROL Connection]</td>
       <td>For instructions about connecting your Adobe Creative Cloud account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Adobe Workfront Fusion - Basic instructions.</td>
     </tr>
     <tr>
@@ -168,7 +168,7 @@ This action module retrieves a list of elements in a library.
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">Connection</td>
+      <td role="rowheader">[!UICONTROL Connection]</td>
       <td>For instructions about connecting your Adobe Creative Cloud account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Adobe Workfront Fusion - Basic instructions.</td>
     </tr>
     <tr>
@@ -222,7 +222,7 @@ This action module uploads a small file asset to an existing library. Maximum fi
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">Connection</td>
+      <td role="rowheader">[!UICONTROL Connection]</td>
       <td>For instructions about connecting your Adobe Creative Cloud account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Adobe Workfront Fusion - Basic instructions.</td>
     </tr>
     <tr>
@@ -273,7 +273,7 @@ This trigger module starts a scenario when an element is added to a library.
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">Connection</td>
+      <td role="rowheader">[!UICONTROL Connection]</td>
       <td>For instructions about connecting your Adobe Creative Cloud account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Adobe Workfront Fusion - Basic instructions.</td>
     </tr>
     <tr>
@@ -297,7 +297,7 @@ This trigger module starts a scenario when an element in a library is updated.
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">Connection</td>
+      <td role="rowheader">[!UICONTROL Connection]</td>
       <td>For instructions about connecting your Adobe Creative Cloud account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Adobe Workfront Fusion - Basic instructions.</td>
     </tr>
     <tr>
@@ -327,7 +327,7 @@ This trigger module starts a scenario when a new library is created.
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">Connection</td>
+      <td role="rowheader">[!UICONTROL Connection]</td>
       <td>For instructions about connecting your Adobe Creative Cloud account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Adobe Workfront Fusion - Basic instructions.</td>
     </tr>
     <tr>
@@ -346,7 +346,7 @@ This trigger module starts a scenario when an existing library is updated.
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">Connection</td>
+      <td role="rowheader">[!UICONTROL Connection]</td>
       <td>For instructions about connecting your Adobe Creative Cloud account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Adobe Workfront Fusion - Basic instructions.</td>
     </tr>
     <tr>
@@ -367,7 +367,7 @@ This module makes a custom API call to the [!DNL Adobe Creative Cloud Libraries]
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">Connection</td>
+      <td role="rowheader">[!UICONTROL Connection]</td>
       <td> <p>For instructions about connecting your Adobe Creative Cloud account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Adobe Workfront Fusion - Basic instructions.</a></p>
     </tr>
     <tr>
@@ -389,7 +389,7 @@ This module makes a custom API call to the [!DNL Adobe Creative Cloud Libraries]
       </td>
     </tr>
     <tr>
-      <td role="rowheader">Headers</td>
+      <td role="rowheader">[!UICONTROL Headers]</td>
       <td>
         <p>Add the headers of the request in the form of a standard [!DNL JSON] object.</p>
         <p>For example, <code>{"Content-type":"application/json"}</code></p>
@@ -404,7 +404,7 @@ This module makes a custom API call to the [!DNL Adobe Creative Cloud Libraries]
       </td>
     </tr>
     <tr>
-      <td role="rowheader">Body</td>
+      <td role="rowheader">[!UICONTROL Body]</td>
    <td> <p>Add the body content for the API call in the form of a standard [!DNL JSON] object.</p> <p>Note:  <p>When using conditional statements such as <code>if</code> in your JSON, put the quotation marks outside of the conditional statement.</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 

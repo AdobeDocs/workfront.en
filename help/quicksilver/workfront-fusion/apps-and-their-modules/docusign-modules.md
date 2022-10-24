@@ -12,7 +12,7 @@ The [!DNL Adobe Workfront Fusion DocuSign] modules enable you to monitor and ret
 
 If you need instructions on creating a scenario, see [Create a scenario in Adobe Workfront Fusion](../../workfront-fusion/scenarios/create-a-scenario.md).
 
-For information about modules, see [Modules in Adobe Workfront Fusion](../../workfront-fusion/modules/modules.md).
+For information about modules, see [Modules in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
 
 ## Access requirements
 
@@ -77,7 +77,7 @@ To create a connection for your [!DNL DocuSign] modules:
 
 When you configure [!DNL DocuSign] modules, [!DNL Workfront Fusion] displays the fields listed below. Along with these, additional [!DNL DocuSign] fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
 
-If you see the map button above a field or function, you can use it to set variables and functions for that field. For more information, see [Map information from one module to another in Adobe Workfront Fusion](../../workfront-fusion/mapping/map-information-between-modules.md).
+If you see the map button above a field or function, you can use it to set variables and functions for that field. For more information, see [Map information from one module to another in [!UICONTROL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 ![](assets/map-toggle-350x74.png)
 
@@ -158,7 +158,7 @@ This action module allows you to perform a custom API call.
   </tr> 
   <tr> 
    <td>Method</td> 
-   <td> <p>Select the HTTP request method you need to configure the API call. For more information, see <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">HTTP request methods in Adobe Workfront Fusion</a>.</p> </td> 
+   td> <p>Select the HTTP request method you need to configure the API call. For more information, see <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">HTTP request methods in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>Headers</td> 
@@ -217,7 +217,7 @@ This action module downloads a single document.
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Connection</td> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
    <td> <p>For instructions about connecting your [!DNL DocuSign] account to [!DNL Workfront] Fusion, see <a href="#connect-docusign-to-workfront-fusion" class="MCXref xref">Connect DocuSign to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
@@ -268,7 +268,7 @@ This action module reads information about an envelope in [!DNL DocuSign] using 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Connection</td> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
    <td> <p>For instructions about connecting your [!DNL DocuSign] account to [!DNL Workfront] Fusion, see <a href="#connect-docusign-to-workfront-fusion" class="MCXref xref">Connect DocuSign to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
@@ -295,7 +295,7 @@ This module uploads a specified file to an existing envelope in DocuSign.
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Connection</td> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
    <td> <p>For instructions about connecting your [!DNL DocuSign] account to [!DNL Workfront] Fusion, see <a href="#connect-docusign-to-workfront-fusion" class="MCXref xref">Connect DocuSign to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
@@ -424,7 +424,7 @@ This action module adds a custom field to the document
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Connection</td> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
    <td> <p>For instructions about connecting your [!DNL DocuSign] account to [!DNL Workfront] Fusion, see <a href="#connect-docusign-to-workfront-fusion" class="MCXref xref">Connect DocuSign to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
@@ -463,7 +463,7 @@ This action module modifies a custom field using the field name.
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Connection</td> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
    <td> <p>For instructions about connecting your [!DNL DocuSign] account to [!DNL Workfront] Fusion, see <a href="#connect-docusign-to-workfront-fusion" class="MCXref xref">Connect DocuSign to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
@@ -506,7 +506,7 @@ This action module sends a draft envelope to its recipients.
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Connection</td> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
    <td> <p>For instructions about connecting your [!DNL DocuSign] account to [!DNL Workfront] Fusion, see <a href="#connect-docusign-to-workfront-fusion" class="MCXref xref">Connect DocuSign to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 

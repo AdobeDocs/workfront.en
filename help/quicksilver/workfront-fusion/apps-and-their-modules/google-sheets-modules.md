@@ -12,7 +12,7 @@ exl-id: 11d62222-df34-472d-93d7-f0d53eb95c9b
 ---
 # Google Sheets modules
 
-In an [!DNL Adobe Workfront] Fusion scenario, you can automate workflows that use Google, as well as connect it to multiple third-party applications and services.
+In an [!DNL Adobe Workfront Fusion] scenario, you can automate workflows that use Google, as well as connect it to multiple third-party applications and services.
 
 For instructions about connecting your Google Sheets account to Workfront Fusion, see [Create a connection to Adobe Workfront Fusion - Basic instructions](../../workfront-fusion/connections/connect-to-fusion-general.md)
 
@@ -130,7 +130,7 @@ This module appends adds a row to a sheet.
 
 When you configure [!DNL Google Sheets] modules, [!DNL Workfront Fusion] displays the fields listed below. Along with these, additional [!DNL Google] Sheets fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
 
-If you see the map button above a field or function, you can use it to set variables and functions for that field. For more information, see [Map information from one module to another in Adobe Workfront Fusion](../../workfront-fusion/mapping/map-information-between-modules.md).
+If you see the map button above a field or function, you can use it to set variables and functions for that field. For more information, see [Map information from one module to another in [!UICONTROL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 ![](assets/map-toggle-350x74.png)
 
@@ -490,7 +490,7 @@ This action module allows you to perform a custom API call.
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Connection</td> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
    <td> <p>For instructions about connecting your [Fusion App] account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref">Create a connection to Adobe Workfront Fusion - Basic instructions</a></p> </td> 
   </tr> 
   <tr> 
@@ -502,7 +502,7 @@ This action module allows you to perform a custom API call.
    <td> <p>Select the HTTP request method you need to configure the API call. For more information, see <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref">HTTP request methods in Adobe Workfront Fusion</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Headers</td> 
+   <td role="rowheader">[!UICONTROL Headers]</td> 
    <td> <p>Add the headers of the request in the form of a standard JSON object.For example, <code>{"Content-type":"application/json"}</code>. [!DNL Workfront Fusion] adds the authorization headers for you.</p> </td> 
   </tr> 
   <tr> 
@@ -510,7 +510,7 @@ This action module allows you to perform a custom API call.
    <td> <p> Add the query for the API call in the form of a standard JSON object.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Body</td> 
+   <td role="rowheader">[!UICONTROL Body]</td> 
    <td> <p>Add the body content for the API call in the form of a standard [!DNL JSON] object.</p> <p>Note:   <p>When using conditional statements such as <code>if</code> in your JSON, put the quotation marks outside of the conditional statement.</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>">  
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
@@ -728,7 +728,7 @@ To determine the correct format:
 
 1. Once you have verified/set the proper locale, determine the corresponding date and time format by choosing **[!UICONTROL Format]** > **[!UICONTROL Number]** from the main menu. The format is displayed next to the Date time menu item:
 
-1. To compose the correct format that should be passed to the [!UICONTROL formatDate()] function, refer to the list of [Tokens for date and time formatting in [!DNL Adobe Workfront] Fusion](../../workfront-fusion/functions/tokens-for-date-and-time-formatting.md).
+1. To compose the correct format that should be passed to the [!UICONTROL formatDate()] function, refer to the list of [Tokens for date and time formatting in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/functions/tokens-for-date-and-time-formatting.md).
 
 **Example:** The use of `MM/DD/YYYY HH:mm:ss` format for the United States locale:
 

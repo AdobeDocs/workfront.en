@@ -5,18 +5,18 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: apps-and-their-modules
 title: Adobe Target modules
-description: In an [!DNL Adobe Workfront] Fusion scenario, you can automate workflows that use [!DNL Adobe Target], as well as connect it to multiple third-party applications and services. [!DNL Adobe Target] modules allow you to create, read, update, or delete records, list all records of a given type, search records based on criteria you specify, or perform a custom API call to the [!DNL Adobe Target] API.
+description: In an [!DNL Adobe Workfront Fusion] scenario, you can automate workflows that use [!DNL Adobe Target], as well as connect it to multiple third-party applications and services. [!DNL Adobe Target] modules allow you to create, read, update, or delete records, list all records of a given type, search records based on criteria you specify, or perform a custom API call to the [!DNL Adobe Target] API.
 author: Becky
 exl-id: 9597806b-d4bf-4627-b27d-30e24a1e6776
 ---
 # Adobe Target Modules
 
-In an [!DNL Adobe Workfront] Fusion scenario, you can automate workflows that use [!DNL Adobe Target], as well as connect it to multiple third-party applications and services. [!DNL Adobe Target] modules allow you to ,reate, read, update, or delete records,list all records of a given type, search records based on criteria you specify, or perform a custom API call to the [!DNL Adobe Target] API.
+In an [!DNL Adobe Workfront Fusion] scenario, you can automate workflows that use [!DNL Adobe Target], as well as connect it to multiple third-party applications and services. [!DNL Adobe Target] modules allow you to ,reate, read, update, or delete records,list all records of a given type, search records based on criteria you specify, or perform a custom API call to the [!DNL Adobe Target] API.
 
 
 If you need instructions on creating a scenario, see [Create a scenario](../../workfront-fusion/scenarios/create-a-scenario.md).
 
-For information about modules, see [Modules in Adobe Workfront Fusion](../../workfront-fusion/modules/modules.md).
+For information about modules, see [Modules in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
 
 ## Access requirements
 
@@ -27,21 +27,21 @@ You must have the following access to use the functionality in this article:
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">Adobe Workfront plan*</td>
+      <td role="rowheader">[!DNL Adobe Workfront] plan*</td>
       <td>
-        <p>Pro or higher</p>
+        <p>[!UICONTROL Pro] or higher</p>
       </td>
     </tr>
     <tr>
-      <td role="rowheader">Adobe Workfront license*</td>
+      <td role="rowheader">[!DNL Adobe Workfront] license*</td>
       <td>
-        <p>Plan, Work</p>
+        <p>[!UICONTROL Plan], [!UICONTROL Work]</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">[!DNL Adobe Workfront Fusion] license**</td>
       <td >
-        <p>Workfront Fusion for Work Automation and Integration</p>
+        <p>[!UICONTROL Workfront Fusion for Work Automation and Integration]</p>
       </td>
     </tr>
     <tr>
@@ -78,26 +78,26 @@ To create a connection for your [!DNL Adobe Target] modules:
     </col>
     <tbody>
       <tr>
-        <td role="rowheader">Connection name</td>
+        <td role="rowheader">[!UICONTROL Connection name]</td>
         <td>
           <p>Enter a name for this connection.</p>
         </td>
       </tr>
       <tr>
-        <td role="rowheader">Client ID</td>
-        <td>Enter your Adobe Client ID. This can be found in the Credentials details section of the Adobe Developer Console</td>
+        <td role="rowheader">[!UICONTROL Client ID]</td>
+        <td>Enter your [!DNL Adobe] Client ID. This can be found in the [!UICONTROL Credentials details] section of the [!DNL Adobe Developer Console].
       </tr>
       <tr>
         <td role="rowheader">Client Secret</td>
-        <td>Enter your Adobe Client Secret. This can be found in the Credentials details section of the Adobe Developer Console</td>
+        <td>Enter your [!DNL Adobe] Client Secret. This can be found in the [!UICONTROL Credentials details] section of the [!DNL Adobe Developer Console].
       </tr>
       <tr>
         <td role="rowheader">Organization ID</td>
-        <td>Enter your Adobe Organization ID. This can be found in the Credentials details section of the Adobe Developer Console</td>
+        <td>Enter your [!DNL Adobe] Organization ID. This can be found in the [!UICONTROL Credentials details] section of the [!DNL Adobe Developer Console].
       </tr>
       <tr>
         <td role="rowheader">Technical account ID</td>
-        <td>Enter your Adobe Technical account ID. This can be found in the Credentials details section of the Adobe Developer Console</td>
+        <td>Enter your [!DNL Adobe] Technical account ID. This can be found in the [!UICONTROL Credentials details] section of the [!DNL Adobe Developer Console].
       </tr>
       <tr>
         <td role="rowheader">Tenant</td>
@@ -111,7 +111,7 @@ To create a connection for your [!DNL Adobe Target] modules:
         <td>Enter <code>ent_marketing_sdk</code>       </td>
       </tr>
       <tr>
-        <td role="rowheader">Private key</td>
+        <td role="rowheader">[!UICONTROL Private key]</td>
         <td>
           <p>Enter the private key that was generated when your credentials were created in the Adobe Developer Console. </p>
           <p>To extract your private key or certificate:</p>
@@ -143,7 +143,7 @@ To create a connection for your [!DNL Adobe Target] modules:
 
 When you configure Adobe Target modules, [!DNL Workfront Fusion] displays the fields listed below. Along with these, additional [!DNL Adobe] Target fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
 
-If you see the map button above a field or function, you can use it to set variables and functions for that field. For more information, see [Map information from one module to another in Adobe Workfront Fusion](../../workfront-fusion/mapping/map-information-between-modules.md).
+If you see the map button above a field or function, you can use it to set variables and functions for that field. For more information, see [Map information from one module to another in [!UICONTROL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 ![](assets/map-toggle-350x74.png)
 
@@ -174,7 +174,7 @@ This action module creates an AB or XT activity, an offer, or an audience.
 <col/>
 <tbody>
   <tr>
-    <td role="rowheader">Connection</td>
+    <td role="rowheader">[!UICONTROL Connection]</td>
     <td>For instructions on creating a connection to Adobe Target, see <a href="#Create" class="MCXref xref" >Create a connection to Adobe Target</a> in this article.</td>
   </tr>
   <tr>
@@ -643,7 +643,7 @@ This module makes a custom API call to the Adobe Target API
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">Connection</td>
+      <td role="rowheader">[!UICONTROL Connection]</td>
       <td>For instructions on creating a connection to Adobe Target, see <a href="#Create" class="MCXref xref" >Create a connection to Adobe Target</a> in this article.</td>
     </tr>
     <tr>
@@ -667,7 +667,7 @@ This module makes a custom API call to the Adobe Target API
       </td>
     </tr>
     <tr>
-      <td role="rowheader">Headers</td>
+      <td role="rowheader">[!UICONTROL Headers]</td>
       <td>
         <p>Add the headers of the request in the form of a standard [!DNL JSON] object.</p>
         <p>For example, <code>{"Content-type":"application/json"}</code></p>
@@ -681,7 +681,7 @@ This module makes a custom API call to the Adobe Target API
       </td>
     </tr>
     <tr>
-      <td role="rowheader">Body</td>
+      <td role="rowheader">[!UICONTROL Body]</td>
    <td> <p>Add the body content for the API call in the form of a standard [!DNL JSON] object.</p> <p>Note:  <p>When using conditional statements such as <code>if</code> in your JSON, put the quotation marks outside of the conditional statement.</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
@@ -698,11 +698,11 @@ This action module deletes a single AB activity, XT activity, Offer, or Audienc
 <col/>
 <tbody>
   <tr>
-    <td role="rowheader">Connection</td>
+    <td role="rowheader">[!UICONTROL Connection]</td>
     <td>For instructions on creating a connection to Adobe Target, see <a href="#Create" class="MCXref xref" >Create a connection to Adobe Target</a> in this article.</td>
   </tr>
   <tr>
-    <td role="rowheader">Record type</td>
+    <td role="rowheader">[!UICONTROL Record type]</td>
     <td>Select the type of record that you want to delete.</td>
   </tr>
   <tr>
@@ -721,11 +721,11 @@ This action module retrieves data for a single Activity, Offer, Audience, Proper
 <col/>
 <tbody>
   <tr>
-    <td role="rowheader">Connection</td>
+    <td role="rowheader">[!UICONTROL Connection]</td>
     <td>For instructions on creating a connection to Adobe Target, see <a href="#Create" class="MCXref xref" >Create a connection to Adobe Target</a> in this article.</td>
   </tr>
   <tr>
-    <td role="rowheader">Record type</td>
+    <td role="rowheader">[!UICONTROL Record type]</td>
     <td>Select the type of record that you want to read.</td>
   </tr>
   <tr>
@@ -744,11 +744,11 @@ This action module updates an Activity, Offer, or Audience.
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">Connection</td>
+      <td role="rowheader">[!UICONTROL Connection]</td>
       <td>For instructions on creating a connection to Adobe Target, see <a href="#Create" class="MCXref xref" >Create a connection to Adobe Target</a> in this article.</td>
     </tr>
     <tr>
-      <td role="rowheader">Record type</td>
+      <td role="rowheader">[!UICONTROL Record type]</td>
       <td>
         <p>Select the type of record that you want to update.</p>
         <ul>
@@ -803,11 +803,11 @@ This search module retrieves a list of records of the selected type.
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">Connection</td>
+      <td role="rowheader">[!UICONTROL Connection]</td>
       <td>For instructions on creating a connection to Adobe Target, see <a href="#Create" class="MCXref xref" >Create a connection to Adobe Target</a> in this article.</td>
     </tr>
     <tr>
-      <td role="rowheader">Record type</td>
+      <td role="rowheader">[!UICONTROL Record type]</td>
       <td>Select the type of record that you want to update.</td>
     </tr>
     <tr>
@@ -840,11 +840,11 @@ This search module searches for Activities, Offers, or Audiences based on criter
 <col/>
 <tbody>
   <tr>
-    <td role="rowheader">Connection</td>
+    <td role="rowheader">[!UICONTROL Connection]</td>
     <td>For instructions on creating a connection to Adobe Target, see <a href="#Create" class="MCXref xref" >Create a connection to Adobe Target</a> in this article.</td>
   </tr>
   <tr>
-    <td role="rowheader">Record type</td>
+    <td role="rowheader">[!UICONTROL Record type]</td>
     <td>Select the type of record that you want to update.</td>
   </tr>
   <tr>

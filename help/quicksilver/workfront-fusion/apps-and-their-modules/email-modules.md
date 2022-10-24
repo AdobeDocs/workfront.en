@@ -56,7 +56,7 @@ Use this option to create scenarios with email modules that require a connection
 
 You can create a connection to your [!DNL Google] account directly from inside an Allocadia module.
 
-1. In any Email module, click **Add** next to the [!UICONTROL Connection] field.
+1. In any Email module, click **[!UICONTROL Add]** next to the [!UICONTROL Connection] field.
 1. Select **[!UICONTROL Google]** as the connection type.
 1. Enter a name for the connection.
 1. (Optional) Enter your Google Client ID and Client Secret.
@@ -66,7 +66,7 @@ You can create a connection to your [!DNL Google] account directly from inside a
 
 SMAP connection allows you to access your mailbox remotely and read or manipulate messages in your mailbox. SMAP connection is used by most of the Email modules.
 
-1. In any Email module, click **Add** next to the [!UICONTROL Connection] field.
+1. In any Email module, click **[!UICONTROL Add]** next to the [!UICONTROL Connection] field.
 1. Select **Others (SMTP)**&#x200B;as the connection type.
 1. Enter a **Name** for the connection.
 1. Select your **Email provider** from the list. If your email provider is not on the list, select Other.
@@ -80,7 +80,7 @@ When you configure email modules, [!DNL Workfront Fusion] displays the fields li
 
 Some of the email fields might already contain data because you used them in another module in the scenario. See the email help documentation if you need information about them.
 
-If you see the map button above a field or function, you can use it to set variables and functions for that field. For more information, see [Map information from one module to another in Adobe Workfront Fusion](../../workfront-fusion/mapping/map-information-between-modules.md).
+If you see the map button above a field or function, you can use it to set variables and functions for that field. For more information, see [Map information from one module to another in [!UICONTROL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 ![](assets/map-toggle-350x74.png)
 

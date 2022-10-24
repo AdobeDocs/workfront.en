@@ -12,7 +12,7 @@ With the Adobe Workfront Fusion Adobe PDF Services, you can extract data from a 
 
 If you need instructions on creating a scenario, see [Create a scenario in Adobe Workfront Fusion](../../workfront-fusion/scenarios/create-a-scenario.md).
 
-For information about modules, see [Modules in Adobe Workfront Fusion](../../workfront-fusion/modules/modules.md).
+For information about modules, see [Modules in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
 
 For information on the API used for PDF Services, see [Adobe Document Generation API](https://www.adobe.io/apis/documentcloud/dcsdk/doc-generation.html).
 
@@ -69,7 +69,7 @@ For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Work
 
 When you configure PDF&nbsp;Services, Workfront Fusion displays the fields listed below. Along with these, additional fields might display, depending on factors such as your access level in the app or service. A bold title in a module indicates a required field.
 
-If you see the map button above a field or function, you can use it to set variables and functions for that field. For more information, see [Map information from one module to another in Adobe Workfront Fusion](../../workfront-fusion/mapping/map-information-between-modules.md).
+If you see the map button above a field or function, you can use it to set variables and functions for that field. For more information, see [Map information from one module to another in [!UICONTROL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 ![](assets/map-toggle-350x74.png)
 
@@ -117,7 +117,7 @@ Fill in the Generate document module fields as follows:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Connection</td> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
    <td> <p>Select the connection to use for this module.</p> <p>You do not need an Adobe account to create a PDF&nbsp;Services connection. For more information, see <a href="#you-do-not-need-an-adobe-account" class="MCXref xref">You do not need an Adobe account</a> in this article.</p> </td> 
   </tr> 
   <tr> 
@@ -153,7 +153,7 @@ To use the Generate document module with JSON, fill in the fields as follows:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Connection</td> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
    <td> <p>Select the connection to use for this module.</p> <p>You do not need an Adobe account to create a PDF&nbsp;Services connection. For more information, see <a href="#you-do-not-need-an-adobe-account" class="MCXref xref">You do not need an Adobe account</a> in this article.</p> </td> 
   </tr> 
   <tr> 
@@ -184,7 +184,7 @@ This action module allows you to extract data from a PDF file. The module output
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Connection</td> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
    <td> <p>Select the connection to use for this module.</p> <p>You do not need an Adobe account to create a PDF&nbsp;Services connection. For more information, see <a href="#you-do-not-need-an-adobe-account" class="MCXref xref">You do not need an Adobe account</a> in this article.</p> </td> 
   </tr> 
   <tr> 
@@ -219,7 +219,7 @@ This action module takes multiple PDF&nbsp;files and combines them into a single
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Connection</td> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
    <td> <p>Select the connection to use for this module.</p> <p>You do not need an Adobe account to create a PDF&nbsp;Services connection. For more information, see <a href="#you-do-not-need-an-adobe-account" class="MCXref xref">You do not need an Adobe account</a> in this article.</p> </td> 
   </tr> 
   <tr> 
@@ -246,7 +246,7 @@ This action module takes a PDF&nbsp;file and compresses it. This can be useful f
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Connection</td> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
    <td> <p>Select the connection to use for this module.</p> <p>You do not need an Adobe account to create a PDF&nbsp;Services connection. For more information, see <a href="#you-do-not-need-an-adobe-account" class="MCXref xref">You do not need an Adobe account</a> in this article.</p> </td> 
   </tr> 
   <tr> 
@@ -277,7 +277,7 @@ This tool converts a document to a PDF file. The source file must be one of the 
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Connection</td> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
    <td> <p>Select the connection to use for this module.</p> <p>You do not need an Adobe account to create a PDF&nbsp;Services connection. For more information, see <a href="#you-do-not-need-an-adobe-account" class="MCXref xref">You do not need an Adobe account</a> in this article.</p> </td> 
   </tr> 
   <tr> 
@@ -346,7 +346,7 @@ This tool converts an HTML&nbsp;file to a PDF file.
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Connection</td> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
    <td> <p>Select the connection to use for this module.</p> <p>You do not need an Adobe account to create a PDF&nbsp;Services connection. For more information, see <a href="#you-do-not-need-an-adobe-account" class="MCXref xref">You do not need an Adobe account</a> in this article.</p> </td> 
   </tr> 
   <tr> 
@@ -391,7 +391,7 @@ This tool converts an image to a PDF file.
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Connection</td> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
    <td> <p>Select the connection to use for this module.</p> <p>You do not need an Adobe account to create a PDF&nbsp;Services connection. For more information, see <a href="#you-do-not-need-an-adobe-account" class="MCXref xref">You do not need an Adobe account</a> in this article.</p> </td> 
   </tr> 
   <tr> 
@@ -418,7 +418,7 @@ This tool converts a PDF file to a document. You can select one of the following
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Connection</td> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
    <td> <p>Select the connection to use for this module.</p> <p>You do not need an Adobe account to create a PDF&nbsp;Services connection. For more information, see <a href="#you-do-not-need-an-adobe-account" class="MCXref xref">You do not need an Adobe account</a> in this article.</p> </td> 
   </tr> 
   <tr> 
@@ -452,7 +452,7 @@ For example, a file called "TestFile" with 8 pages would produce 8 images, named
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Connection</td> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
    <td> <p>Select the connection to use for this module.</p> <p>You do not need an Adobe account to create a PDF&nbsp;Services connection. For more information, see <a href="#you-do-not-need-an-adobe-account" class="MCXref xref">You do not need an Adobe account</a> in this article.</p> </td> 
   </tr> 
   <tr> 
@@ -481,7 +481,7 @@ This tool linearizes a PDF document to create a web-optimized PDF document. A li
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Connection</td> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
    <td> <p>Select the connection to use for this module.</p> <p>You do not need an Adobe account to create a PDF&nbsp;Services connection. For more information, see <a href="#you-do-not-need-an-adobe-account" class="MCXref xref">You do not need an Adobe account</a> in this article.</p> </td> 
   </tr> 
   <tr> 
@@ -502,7 +502,7 @@ This tool performs Optical Character Recognition (OCR) on a file and produces a 
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Connection</td> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
    <td> <p>Select the connection to use for this module.</p> <p>You do not need an Adobe account to create a PDF&nbsp;Services connection. For more information, see <a href="#you-do-not-need-an-adobe-account" class="MCXref xref">You do not need an Adobe account</a> in this article.</p> </td> 
   </tr> 
   <tr> 
@@ -535,7 +535,7 @@ This module allows you to selectively rotate or delete pages in a PDF document. 
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Connection</td> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
    <td> <p>Select the connection to use for this module.</p> <p>You do not need an Adobe account to create a PDF&nbsp;Services connection. For more information, see <a href="#you-do-not-need-an-adobe-account" class="MCXref xref">You do not need an Adobe account</a> in this article.</p> </td> 
   </tr> 
   <tr> 
@@ -582,7 +582,7 @@ This tool extracts basic information about the document, such as:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Connection</td> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
    <td> <p>Select the connection to use for this module.</p> <p>You do not need an Adobe account to create a PDF&nbsp;Services connection. For more information, see <a href="#you-do-not-need-an-adobe-account" class="MCXref xref">You do not need an Adobe account</a> in this article.</p> </td> 
   </tr> 
   <tr> 
@@ -603,11 +603,11 @@ This tool secures a PDF document with a user or owner password. It also sets res
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Connection</td> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
    <td> <p>Select the connection to use for this module.</p> <p>You do not need an Adobe account to create a PDF&nbsp;Services connection. For more information, see <a href="#you-do-not-need-an-adobe-account" class="MCXref xref">You do not need an Adobe account</a> in this article.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Connection</td> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
    <td> <p>For information on creating a PDF&nbsp;Services connection, see <a href="#you-do-not-need-an-adobe-account" class="MCXref xref">You do not need an Adobe account</a> in this article.</p> </td> 
   </tr> 
   <tr> 
@@ -659,7 +659,7 @@ This tool removes security (password protection) from a PDF document.
  </col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Connection</td> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
    <td> <p>Select the connection to use for this module.</p> <p>You do not need an Adobe account to create a PDF&nbsp;Services connection. For more information, see <a href="#you-do-not-need-an-adobe-account" class="MCXref xref">You do not need an Adobe account</a> in this article.</p> </td> 
   </tr> 
   <tr> 

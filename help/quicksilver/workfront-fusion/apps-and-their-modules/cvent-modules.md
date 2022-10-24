@@ -5,18 +5,18 @@ product-area: workfront-integrations;documents
 keywords: connector
 navigation-topic: apps-and-their-modules
 title: Cvent modules
-description: In an [!DNL Adobe Workfront] Fusion scenario, you can automate workflows that use Cvent, as well as connect it to multiple third-party applications and services.
+description: In an [!DNL Adobe Workfront Fusion] scenario, you can automate workflows that use Cvent, as well as connect it to multiple third-party applications and services.
 author: Becky
 feature: Workfront Fusion
 exl-id: c95b9764-29a5-4d8c-8e6d-68a3969129e0
 ---
 # Cvent modules
 
-In an [!DNL Adobe Workfront] Fusion scenario, you can automate workflows that use Cvent, as well as connect it to multiple third-party applications and services.
+In an [!DNL Adobe Workfront Fusion] scenario, you can automate workflows that use Cvent, as well as connect it to multiple third-party applications and services.
 
 If you need instructions on creating a scenario, see [Create a scenario in Adobe Workfront Fusion](../../workfront-fusion/scenarios/create-a-scenario.md).
 
-For information about modules, see [Modules in Adobe Workfront Fusion](../../workfront-fusion/modules/modules.md).
+For information about modules, see [Modules in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
 
 ## Access requirements
 
@@ -67,7 +67,7 @@ To use Cvent modules, you must have a Cvent account.
 
 You can create a connection to your Cvent account directly from inside a Cvent module.
 
-1. In any Cvent module, click **Add** next to the [!UICONTROL Connection] field.
+1. In any Cvent module, click **[!UICONTROL Add]** next to the [!UICONTROL Connection] field.
 1. Select the region that you want to connect to.
 
    * North America
@@ -80,7 +80,7 @@ You can create a connection to your Cvent account directly from inside a Cvent m
 
 When you configure Cvent modules, [!DNL Workfront Fusion] displays the fields listed below. Along with these, additional Cvent fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
 
-If you see the map button above a field or function, you can use it to set variables and functions for that field. For more information, see [Map information from one module to another in Adobe Workfront Fusion](../../workfront-fusion/mapping/map-information-between-modules.md).
+If you see the map button above a field or function, you can use it to set variables and functions for that field. For more information, see [Map information from one module to another in [!UICONTROL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 ![](assets/map-toggle-350x74.png)
 
@@ -115,7 +115,7 @@ The module returns the a status code, along with the headers and body of the API
   </tr> 
   <tr> 
    <td role="rowheader">Operation</td> 
-   <td> <p>Select the HTTP request method you need to configure the API call. For more information, see <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">HTTP request methods in Adobe Workfront Fusion</a>.</p> </td> 
+   td> <p>Select the HTTP request method you need to configure the API call. For more information, see <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">HTTP request methods in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Body (XML)</td> 

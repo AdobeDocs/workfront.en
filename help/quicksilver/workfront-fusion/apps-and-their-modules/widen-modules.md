@@ -8,11 +8,11 @@ exl-id: d46935bc-4f6c-4502-bd2f-3927f33241e1
 ---
 # Widen modules
 
-In an [!DNL Adobe Workfront] Fusion scenario, you can automate workflows that use [!UICONTROL Widen], as well as connect it to multiple third-party applications and services.
+In an [!DNL Adobe Workfront Fusion] scenario, you can automate workflows that use [!UICONTROL Widen], as well as connect it to multiple third-party applications and services.
 
 If you need instructions on creating a scenario, see [Create a scenario in Adobe Workfront Fusion](../../workfront-fusion/scenarios/create-a-scenario.md).
 
-For information about modules, see [Modules in Adobe Workfront Fusion](../../workfront-fusion/modules/modules.md).
+For information about modules, see [Modules in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
 
 ## Access requirements
 
@@ -53,7 +53,7 @@ To use [!UICONTROL Widen] modules, you must have a [!UICONTROL Widen] account.
 
 You can create a connection to your [!DNL Widen] account directly from inside a [!DNL Widen] module.
 
-1. In any Widen module, click **Add** next to the Connection field.
+1. In any Widen module, click **[!UICONTROL Add]** next to the Connection field.
 1. Select the Widen domain that you want to connect to.
 1. Enter the token for your [!DNL Widen] account. For instructions on locating this token, see the [[!DNL Widen] API FAQs](https://community.widen.com/collective/s/article/API-FAQs).
 1. Click **[!UICONTROL Continue]** to create the connection and go back to the module.
@@ -62,7 +62,7 @@ You can create a connection to your [!DNL Widen] account directly from inside a 
 
 When you configure Widen modules, [!DNL Workfront Fusion] displays the fields listed below. Along with these, additional Widen fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
 
-If you see the map button above a field or function, you can use it to set variables and functions for that field. For more information, see [Map information from one module to another in Adobe Workfront Fusion](../../workfront-fusion/mapping/map-information-between-modules.md).
+If you see the map button above a field or function, you can use it to set variables and functions for that field. For more information, see [Map information from one module to another in [!UICONTROL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 ![](assets/map-toggle-350x74.png)
 
@@ -81,7 +81,7 @@ This trigger module starts a scenario when an asset is created or updated.
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Connection</td> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
    <td> <p>For instructions about connecting your [!DNL Widen] account to [!DNL Workfront] Fusion, see <a href="#connect-widen-to-workfront-fusion" class="MCXref xref">[!UICONTROL Connect Widen to Workfront Fusion] </a> in this article.</p> </td> 
   </tr> 
   <tr> 
@@ -124,7 +124,7 @@ When you are configuring this module, the following fields display.
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Connection</td> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
    <td> <p>For instructions about connecting your [!DNL Widen] account to [!DNL Workfront] Fusion, see <a href="#connect-widen-to-workfront-fusion" class="MCXref xref">[!UICONTROL Connect Widen to Workfront Fusion] </a> in this article.</p> </td> 
   </tr> 
   <tr> 
@@ -140,7 +140,7 @@ When you are configuring this module, the following fields display.
    <td> <p>Select the HTTP request method you need to configure the API call. For more information, see <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref">HTTP request methods in Adobe Workfront Fusion</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Headers</td> 
+   <td role="rowheader">[!UICONTROL Headers]</td> 
    <td> <p>Add the headers of the request in the form of a standard [!DNL JSON] object.</p> <p>For example, <code>{"Content-type":"application/json"}</code></p> <p>Workfront Fusion 2.0 adds the authorization headers for you.</p> </td> 
   </tr> 
   <tr> 
@@ -148,7 +148,7 @@ When you are configuring this module, the following fields display.
    <td> <p>Add the query for the API call in the form of a standard JSON object.</p> <p>For example: <code>{“name”:“something-urgent”}</code></p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Body</td> 
+   <td role="rowheader">[!UICONTROL Body]</td> 
    <td> <p>Add the body content for the API call in the form of a standard [!DNL JSON] object.</p> <p>Note:  <p>When using conditional statements such as <code>if</code> in your JSON, put the quotation marks outside of the conditional statement.</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
@@ -166,7 +166,7 @@ This action module retrieves an individual asset by its unique ID.
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Connection</td> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
    <td> <p>For instructions about connecting your [!DNL Widen] account to [!DNL Workfront] Fusion, see <a href="#connect-widen-to-workfront-fusion" class="MCXref xref">[!UICONTROL Connect Widen to Workfront Fusion] </a> in this article.</p> </td> 
   </tr> 
   <tr> 
@@ -193,7 +193,7 @@ This action module adds one or more assets to collections.
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Connection</td> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
    <td> <p>For instructions about connecting your [!DNL Widen] account to [!DNL Workfront] Fusion, see <a href="#connect-widen-to-workfront-fusion" class="MCXref xref">[!UICONTROL Connect Widen to Workfront Fusion] </a> in this article.</p> </td> 
   </tr> 
   <tr> 
@@ -230,7 +230,7 @@ This action module removes one or more assets from collections.
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Connection</td> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
    <td> <p>For instructions about connecting your [!DNL Widen] account to [!DNL Workfront] Fusion, see <a href="#connect-widen-to-workfront-fusion" class="MCXref xref">[!UICONTROL Connect Widen to Workfront Fusion] </a> in this article.</p> </td> 
   </tr> 
   <tr> 
@@ -267,7 +267,7 @@ This action module updates the metadata fields of an asset.
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Connection</td> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
    <td> <p>For instructions about connecting your [!DNL Widen] account to [!DNL Workfront] Fusion, see <a href="#connect-widen-to-workfront-fusion" class="MCXref xref">[!UICONTROL Connect Widen to Workfront Fusion] </a> in this article.</p> </td> 
   </tr> 
   <tr> 
@@ -298,7 +298,7 @@ This action module downloads an asset from your [!DNL Widen] account.
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Connection</td> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
    <td> <p>For instructions about connecting your [!DNL Widen] account to [!DNL Workfront] Fusion, see <a href="#connect-widen-to-workfront-fusion" class="MCXref xref">[!UICONTROL Connect Widen to Workfront Fusion] </a> in this article.</p> </td> 
   </tr> 
   <tr> 
@@ -317,7 +317,7 @@ This action module uploads a file into your [!DNL Widen] account.
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Connection</td> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
    <td> <p>For instructions about connecting your [!DNL Widen] account to [!DNL Workfront] Fusion, see <a href="#connect-widen-to-workfront-fusion" class="MCXref xref">[!UICONTROL Connect Widen to Workfront Fusion] </a> in this article.</p> </td> 
   </tr> 
   <tr> 
@@ -361,7 +361,7 @@ This action module retrieves a list of assets within a collection.
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Connection</td> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
    <td> <p>For instructions about connecting your [!DNL Widen] account to [!DNL Workfront] Fusion, see <a href="#connect-widen-to-workfront-fusion" class="MCXref xref">[!UICONTROL Connect Widen to Workfront Fusion] </a> in this article.</p> </td> 
   </tr> 
   <tr> 
@@ -400,7 +400,7 @@ This search module retrieves a list of assets that match the specific search cri
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Connection</td> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
    <td> <p>For instructions about connecting your [!DNL Widen] account to [!DNL Workfront] Fusion, see <a href="#connect-widen-to-workfront-fusion" class="MCXref xref">[!UICONTROL Connect Widen to Workfront Fusion] </a> in this article.</p> </td> 
   </tr> 
   <tr> 
