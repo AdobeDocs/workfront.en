@@ -33,15 +33,15 @@ You must have the following access to use the functionality in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>Pro or higher</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan*</td>
+  <td> <p>[!UICONTROL Plan], [!UICONTROL Work]</p> </td>
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Plan, Work</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] license*</td>
+   <td> <p>[!UICONTROL Plan], [!UICONTROL Work]</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront Fusion license**</td> 
+   <td role="rowheader">[!DNL Adobe Workfront Fusion] license**</td> 
    <td> <p>Workfront Fusion for Work Automation and Integration </p> </td> 
   </tr> 
   <tr> 
@@ -51,9 +51,9 @@ You must have the following access to use the functionality in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+To find out what plan, license type, or access you have, contact your Workfront administrator.
 
-&#42;&#42;For information on Adobe Workfront Fusion licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
+For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Workfront Fusion] licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
 ## Prerequisites
 
@@ -63,7 +63,7 @@ To use Salesforce modules, you must have a Salesforce account.
 
 When searching for objects, you can either enter individual search words or create a more complex query using wild cards and operators:
 
-* Use the asterisk wild card (&#42;) as a substitute for zero or more characters. For example, a search for Ca&#42; finds items that start with Ca
+* Use the asterisk wild card () as a substitute for zero or more characters. For example, a search for Ca finds items that start with Ca
 * Use a question mark wild card (?) as a substitute for a single character. For example, a search for Jo?n finds items with the term John or Joan but not Jon
 * Use the quotation marks operator (" ") to find an exact phrase match. For example: "Monday meeting"
 

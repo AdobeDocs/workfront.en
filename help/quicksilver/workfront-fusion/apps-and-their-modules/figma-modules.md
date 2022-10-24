@@ -38,7 +38,7 @@ You must have the following access to use the functionality in this article:
       </td>
     </tr>
     <tr>
-      <td role="rowheader">Adobe Workfront Fusion license**</td>
+      <td role="rowheader">[!DNL Adobe Workfront Fusion] license**</td>
       <td >
         <p>Workfront Fusion for Work Automation and Integration</p>
       </td>
@@ -51,9 +51,9 @@ You must have the following access to use the functionality in this article:
 </table>
 
 
-&#42;To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
+To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
 
-&#42;&#42;For information on Adobe Workfront Fusion licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
+For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Workfront Fusion] licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
 ## Prerequisites
 

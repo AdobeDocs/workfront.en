@@ -29,15 +29,15 @@ You must have the following access to use the functionality in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>Pro or higher</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan*</td>
+  <td> <p>[!UICONTROL Plan], [!UICONTROL Work]</p> </td>
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Plan, Work</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] license*</td>
+   <td> <p>[!UICONTROL Plan], [!UICONTROL Work]</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront Fusion license**</td> 
+   <td role="rowheader">[!DNL Adobe Workfront Fusion] license**</td> 
    <td> <p>Workfront Fusion for Work Automation and Integration </p>  <p>Workfront Fusion for Work Automation</p></td> 
   </tr> 
   <tr> 
@@ -48,9 +48,9 @@ You must have the following access to use the functionality in this article:
 </table>
 
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+To find out what plan, license type, or access you have, contact your Workfront administrator.
 
-&#42;&#42;For information on Adobe Workfront Fusion licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
+For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Workfront Fusion] licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
 ## Connect Workfront to Workfront Fusion {#connect-workfront-to-workfront-fusion}
 
@@ -1647,7 +1647,7 @@ See a list of the Workfront object types for which you can use this module in [W
  </tbody> 
 </table>
 
-&#42; We recommend that you double check to ensure this works the way you would expect it to.
+ We recommend that you double check to ensure this works the way you would expect it to.
 
 +++
 

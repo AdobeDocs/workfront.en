@@ -15,15 +15,15 @@ In an Adobe Workfront Fusion scenario, you can automate workflows that use Cloud
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>Pro or higher</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan*</td>
+  <td> <p>[!UICONTROL Plan], [!UICONTROL Work]</p> </td>
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Plan, Work</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] license*</td>
+   <td> <p>[!UICONTROL Plan], [!UICONTROL Work]</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront Fusion license**</td> 
+   <td role="rowheader">[!DNL Adobe Workfront Fusion] license**</td> 
    <td> <p>Workfront Fusion for Work Automation and Integration </p> </td> 
   </tr> 
   <tr> 
