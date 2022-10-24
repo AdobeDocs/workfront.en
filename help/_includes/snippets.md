@@ -131,7 +131,6 @@ You must install the correct plugin for the Adobe Creative Cloud application you
 
 1. (Optional) Adjust automated proof settings
 
-   +++Expand additional proof settings
    <table>
    <tr>
       <td colspan="2" ><strong>Proof stages</strong>
@@ -207,7 +206,7 @@ You must install the correct plugin for the Adobe Creative Cloud application you
       </td>
    </tr>
    </table>
-   +++
+  
 
 
 <!-- Log Time -->
