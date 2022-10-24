@@ -24,7 +24,7 @@ You must have the following access to use the functionality in this article:
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] plan*</td>
-  <td> <p>[!UICONTROL Plan], [!UICONTROL Work]</p> </td>
+  <td> <p>[!UICONTROL Pro] or higher</p> </td>
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">[!DNL Adobe Workfront] license*</td>
@@ -67,7 +67,7 @@ If you see the map button above a field or function, you can use it to set varia
 * [Actions](#actions)
 * [Searches](#searches)
 
-### Triggers {#triggers}
+### Triggers
 
 <!--
 * [Watch for agreements](#watch-for-agreements) 
@@ -171,7 +171,7 @@ This trigger module starts a scenario when an event that you select occurs.
 
 +++
 
-### Actions {#actions}
+### Actions
 
 <!--
 * [Create a record](#create-a-record) 
@@ -595,7 +595,7 @@ This module allows you to perform a custom API call.
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Method]</p> </td> 
-   td> <p>Select the HTTP request method you need to configure the API call. For more information, see <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">HTTP request methods in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>Select the HTTP request method you need to configure the API call. For more information, see <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">HTTP request methods in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Headers]</td> 
@@ -920,7 +920,7 @@ The [!UICONTROL Upload document] module gives the document an [!DNL Adobe Acroba
 
 +++
 
-### Searches {#searches}
+### Searches 
 
 +++ **[!UICONTROL Search agreements]**
 
