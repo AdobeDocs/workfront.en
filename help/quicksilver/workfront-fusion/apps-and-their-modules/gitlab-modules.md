@@ -19,7 +19,7 @@ In an Adobe Workfront Fusion scenario, you can automate workflows that use GitLa
 >
 >This article expects some familiarity with API documentation, and of [!DNL GitLab] functionality in general.
 
-If you need instructions on creating a scenario, see [Create a scenario in Adobe Workfront Fusion](../../workfront-fusion/scenarios/create-a-scenario.md).
+If you need instructions on creating a scenario, see [Create a scenario in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
 
 For information about modules, see [Modules in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
 

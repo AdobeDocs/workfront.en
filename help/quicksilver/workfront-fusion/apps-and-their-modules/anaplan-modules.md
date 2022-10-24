@@ -10,11 +10,11 @@ author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: 03bcd0a4-c8ec-4f44-b1e1-b57e79595309
 ---
-# Anaplan Modules
+# [!DNL Anaplan] Modules
 
-In an [!DNL Adobe Workfront Fusion] scenario, you can automate workflows that use Anaplan, as well as connect it to multiple third-party applications and services.
+In an [!DNL Adobe Workfront Fusion] scenario, you can automate workflows that use [!DNL Anaplan], as well as connect it to multiple third-party applications and services.
 
-If you need instructions on creating a scenario, see [Create a scenario in Adobe Workfront Fusion](../../workfront-fusion/scenarios/create-a-scenario.md).
+If you need instructions on creating a scenario, see [Create a scenario in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
 
 For information about modules, see [Modules in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
 
@@ -53,14 +53,14 @@ For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Work
 
 Before you can use the [!DNL Anaplan] connector, you must ensure that the following prerequisites are met:
 
-* You must have an active Anaplan account.
-* You must configure Workspaces, Models, and other [!DNL Anaplan] objects in your Anaplan account before [!DNL Workfront Fusion] can interact with them.
+* You must have an active [!UICONTROL Anaplan] account.
+* You must configure Workspaces, Models, and other [!DNL Anaplan] objects in your [!UICONTROL Anaplan] account before [!DNL Workfront Fusion] can interact with them.
 
-## Connect Anaplan to Workfront Fusion {#connect-anaplan-to-workfront-fusion}
+## Connect [!DNL Anaplan] to [!DNL Workfront Fusion] {#connect-anaplan-to-workfront-fusion}
 
 To create a connection for your [!DNL Anaplan] modules:
 
-1. Click **Add** next to the Connection box.
+1. Click **[!UICONTROL Add]** next to the [!UICONTROL Connection] box.
 1. Select the connection type.
 
    <table style="table-layout:auto">
@@ -68,21 +68,21 @@ To create a connection for your [!DNL Anaplan] modules:
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">Anaplan Basic</td> 
-      <td> <p>An [!DNL Anaplan] Basic connection requires only an email address and password to create the connection. </p> <p>Enter a name for the connection, then enter your email address and the password of your [!DNL Anaplan] account.</p> </td> 
+      <td role="rowheader">[!DNL Anaplan] [!UICONTROL Basic]</td> 
+      <td> <p>An [!DNL Anaplan] [!UICONTROL Basic] connection requires only an email address and password to create the connection. </p> <p>Enter a name for the connection, then enter your email address and the password of your [!DNL Anaplan] account.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Anaplan CA Certificate</td> 
-      <td> <p>An [!DNL Anaplan] CA Certificate connection requires a Certificate Key, Encoded Data, and Encoded Signed Data. You can generate these in your Anaplan account. For instructions, see the Anaplan documentation.</p> <p>Enter a name for the connection, then enter the connection requires a Certificate Key, Encoded Data, and Encoded Signed Data that you generated in your [!DNL Anaplan] account.</p> </td> 
+      <td role="rowheader">[!DNL Anaplan] [!UICONTROL CA Certificate]</td> 
+      <td> <p>An [!DNL Anaplan] [!UICONTROL CA Certificate] connection requires a [!UICONTROL Certificate Key], [!UICONTROL Encoded Data], and [!UICONTROL Encoded Signed Data]. You can generate these in your [!DNL Anaplan] account. For instructions, see the [!DNL Anaplan] documentation.</p> <p>Enter a name for the connection, then enter the [!UICONTROL Certificate Key], [!UICONTROL Encoded Data], and [!UICONTROL Encoded Signed Data] that you generated in your [!DNL Anaplan] account.</p> </td> 
      </tr> 
     </tbody> 
    </table>
 
 1. Click **[!UICONTROL Continue]** to save the connection and return to the module.
 
-## Anaplan modules and their fields
+## [!DNL Anaplan] modules and their fields
 
-When you configure Anaplan modules, [!DNL Workfront Fusion] displays the fields listed below. Along with these, additional Anaplan fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
+When you configure [!DNL Anaplan] modules, [!DNL Workfront Fusion] displays the fields listed below. Along with these, additional [!DNL Anaplan] fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
 
 If you see the map button above a field or function, you can use it to set variables and functions for that field. For more information, see [Map information from one module to another in [!UICONTROL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
 
@@ -92,9 +92,9 @@ If you see the map button above a field or function, you can use it to set varia
 * [Actions](#actions)
 * [Searches](#searches)
 
-### Triggers {#triggers}
+### Triggers 
 
-#### Watch records
+#### [!DNL Watch records]
 
 This trigger module starts a scenario when a record of the chosen type is created or updated.
 
@@ -104,7 +104,7 @@ This trigger module starts a scenario when a record of the chosen type is create
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td>For instructions on creating a connection to [!DNL Anaplan], see <a href="#connect-anaplan-to-workfront-fusion" class="MCXref xref">[!UICONTROL Connect Anaplan to Workfront Fusion]</a> in this article.</td> 
+   <td>For instructions on creating a connection to [!DNL Anaplan], see <a href="#connect-anaplan-to-workfront-fusion" class="MCXref xref">Connect [!DNL Anaplan] to [!DNL Workfront Fusion]</a> in this article.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Type of object to watch</td> 
@@ -121,62 +121,59 @@ This trigger module starts a scenario when a record of the chosen type is create
  </tbody> 
 </table>
 
-### Actions {#actions}
+### Actions 
 
-* [Create a list item](#create-a-list-item)
-* [Make a custom API Call](#make-a-custom-api-call)
-* [Delete a record](#delete-a-record)
-* [Export data](#export-data)
-* [Import Data](#import-data)
-* [[!UICONTROL Read a record]](#read-a-record)
-* [Run an action](#run-an-action)
-* [Update a record](#update-a-record)
-* [[!UICONTROL Upload] a file](#upload-a-file)
+* [[!UICONTROL Create a list item]](#uicontrol-create-a-list-item)
+* [[!UICONTROL Make a custom API Call]](#uicontrol-make-a-custom-api-call)
+* [[!UICONTROL Read a record]](#uicontrol-read-a-record)
+* [[!UICONTROL Run an action]](#uicontrol-run-an-action)
+* [[!UICONTROL Update a record]](#uicontrol-update-a-record)
+* [[!UICONTROL Upload a file]](#uicontrol-upload-a-file)
 
-#### Create a list item {#create-a-list-item}
+#### [!UICONTROL Create a list item] 
 
 This action module adds a new item to a list in Anaplan.
 
 <table style="table-layout:auto">
     <tr>
-        <td>Connection</td>
-        <td>For instructions on creating a connection to [!DNL Anaplan], see <a href="#connect-anaplan-to-workfront-fusion" class="MCXref xref">[!UICONTROL Connect Anaplan to Workfront Fusion]</a> in this article.</td>
+        <td>[!UICONTROL Connection]</td>
+        <td>For instructions on creating a connection to [!DNL Anaplan], see <a href="#connect-anaplan-to-workfront-fusion" class="MCXref xref">Connect [!DNL Anaplan] to [!DNL Workfront Fusion]</a> in this article.</td>
     </tr>
     <tr>
-        <td>Workspace ID</td>
+        <td>[!UICONTROL Workspace ID]</td>
         <td>Select or map the ID of the Anaplan Workspace that contains the list where you want to add an item.</td>
     </tr>
     <tr>
-        <td>Model ID</td>
+        <td>[!UICONTROL Model ID]</td>
         <td>Select or map the ID of the Model that contains the list where you want to add an item.</td>
     </tr>
     <tr>
-        <td>List ID</td>
+        <td>[!UICONTROL List ID]</td>
         <td>Select or map the ID of the List where you want to create an item.</td>
     </tr>
     <tr>
-        <td>Name</td>
+        <td>[!UICONTROL Name]</td>
         <td>Enter a name for the new item.</td>
     </tr>
     <tr>
-        <td>Code</td>
+        <td>[!UICONTROL Code]</td>
         <td>Enter the code for the new item. Codes are user-generated codes that enable you to distinguish between line items with the same name.</td>
     </tr>
     <tr>
-        <td>Parent</td>
+        <td>[!UICONTROL Parent]</td>
         <td>Enter the name of the parent item that you want to create the new item under.</td>
     </tr>
     <tr>
-        <td>Properties</td>
+        <td>[!UICONTROL Properties]</td>
         <td>If the list you want to add an item to has custom properties, select the properties you want to add values for, then add the values.</td>
     </tr>
     <tr>
-        <td>Subsets</td>
+        <td>[!UICONTROL Subsets]</td>
         <td>If the list you want to add items to has custom subsets, select the subsets you want to add the item to, then select <b>[!UICONTROL Yes]</b> to add the new item to that subset.</td>
     </tr>
 </table>
 
-#### Make a custom API Call {#make-a-custom-api-call}
+#### [!UICONTROL Make a custom API Call]
 
 This module allows you to perform a custom API call to the [!DNL Anaplan] API.
 
@@ -186,22 +183,22 @@ This module allows you to perform a custom API call to the [!DNL Anaplan] API.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td>For instructions on creating a connection to [!DNL Anaplan], see <a href="#connect-anaplan-to-workfront-fusion" class="MCXref xref">[!UICONTROL Connect Anaplan to Workfront Fusion]</a> in this article.</td> 
+   <td>For instructions on creating a connection to [!DNL Anaplan], see <a href="#connect-anaplan-to-workfront-fusion" class="MCXref xref">Connect [!DNL Anaplan] to [!DNL Workfront Fusion]</a> in this article.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>URL</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL URL]</p> </td> 
    <td> <p>Enter a path relative to <code>https://api.anaplan.com/2/0/</code></p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>Method</p> </td> 
-   <td> <p>Select the HTTP request method you need to configure the API call. For more information, see <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref">HTTP request methods in Adobe Workfront Fusion</a>.</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Method]</p> </td> 
+   <td> <p>Select the HTTP request method you need to configure the API call. For more information, see <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref">HTTP request methods in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Headers]</td> 
    <td> <p>Add the headers of the request in the form of a standard [!DNL JSON] object.</p> <p>For example, <code>{"Content-type":"application/json"}</code></p> <p>[!DNL Workfront Fusion] adds authorization headers automatically.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Query String </td> 
+   <td role="rowheader">[!UICONTROL Query String] </td> 
    <td> <p>Enter the request query string.</p> </td> 
   </tr> 
   <tr> 
@@ -214,7 +211,7 @@ This module allows you to perform a custom API call to the [!DNL Anaplan] API.
  </tbody> 
 </table>
 
-#### Delete a record  {#delete-a-record}
+#### [!UICONTROL Delete a record]  
 
 This action module deletes an existing record.
 
@@ -224,14 +221,14 @@ This action module deletes an existing record.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td>For instructions on creating a connection to [!DNL Anaplan], see <a href="#connect-anaplan-to-workfront-fusion" class="MCXref xref">[!UICONTROL Connect Anaplan to Workfront Fusion]</a> in this article.</td> 
+   <td>For instructions on creating a connection to [!DNL Anaplan], see <a href="#connect-anaplan-to-workfront-fusion" class="MCXref xref">Connect [!DNL Anaplan] to [!DNL Workfront Fusion]</a> in this article.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Workspace ID</td> 
+   <td role="rowheader">[!UICONTROL Workspace ID]</td> 
    <td>Select or map the ID of the Anaplan Workspace that contains the object you want to delete.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Model ID</td> 
+   <td role="rowheader">[!UICONTROL Model ID]</td> 
    <td>Enter or map the ID of the Model that contains the object you want to delete.</td> 
   </tr> 
   <tr> 
@@ -246,7 +243,7 @@ This action module deletes an existing record.
  </tbody> 
 </table>
 
-#### Read a record  {#read-a-record}
+#### [!UICONTROL Read a record]  
 
 This action module reads a single record.
 
@@ -256,7 +253,7 @@ This action module reads a single record.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td>For instructions on creating a connection to [!DNL Anaplan], see <a href="#connect-anaplan-to-workfront-fusion" class="MCXref xref">[!UICONTROL Connect Anaplan to Workfront Fusion]</a> in this article.</td> 
+   <td>For instructions on creating a connection to [!DNL Anaplan], see <a href="#connect-anaplan-to-workfront-fusion" class="MCXref xref">Connect [!DNL Anaplan] to [!DNL Workfront Fusion]</a> in this article.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Record type]</td> 
@@ -272,7 +269,7 @@ This action module reads a single record.
  </tbody> 
 </table>
 
-#### Run an action {#run-an-action}
+#### [!UICONTROL Run an action] 
 
 This action module imports, exports, deletes, or processes an action.
 
@@ -285,25 +282,25 @@ This action module imports, exports, deletes, or processes an action.
         <td>For instructions on creating a connection to [!DNL Anaplan], see <a href="#Connect" class="MCXref xref" >[!UICONTROL Connect Anaplan to Workfront Fusion]</a> in this article.</td>
       </tr>
       <tr>
-        <td role="rowheader">Workspace ID</td>
-        <td>Select or map the ID of the Anaplan Workspace where you want to perform the action</td>
+        <td role="rowheader">[!UICONTROL Workspace ID]</td>
+        <td>Select or map the ID of the [!DNL Anaplan] Workspace where you want to perform the action</td>
       </tr>
       <tr >
-        <td role="rowheader">Model ID</td>
+        <td role="rowheader">[!UICONTROL Model ID]</td>
         <td>Select or map the ID of the Model where you want to perform the action.</td>
       </tr>
       <tr>
-        <td role="rowheader">Action type</td>
+        <td role="rowheader">[!UICONTROL Action type]</td>
         <td>
           <p>Select the action that you want to perform</p>
             <ul>
               <li>
-                <p><b>Delete</b>
+                <p><b>[!UICONTROL Delete]</b>
                 </p>
                 <p>Enter or map the ID of the action you want to delete.</p>
               </li>
               <li>
-                <p><b>Export</b>
+                <p><b>[!UICONTROL Export]</b>
                 </p>
                 <p>Enter or map the ID of the export definition that you want to use. You can export into the following file formats:</p>
                   <ul>
@@ -319,12 +316,12 @@ This action module imports, exports, deletes, or processes an action.
                   </ul>
                 </li>
                 <li>
-                  <p><b>Import </b>
+                  <p><b>[!UICONTROL Import] </b>
                   </p>
                   <p style="font-weight: normal;">Enter or map the ID of the import definition that you want to use.</p>
                 </li>
                 <li>
-                 <p><b>[!DNL Process]</b>
+                 <p><b>[!UICONTROL Process]</b>
                  </p>
                   <p>Enter or map the ID of the process you want to use. </p>
                 </li>
@@ -335,9 +332,9 @@ This action module imports, exports, deletes, or processes an action.
       </table>
 
 
-#### Update a record  {#update-a-record}
+#### [!UICONTROL Update a record]  
 
-This action module updates a single record in Anaplan.
+This action module updates a single record in [!UICONTROL Anaplan].
 
 <table style="table-layout:auto"> 
  <col> 
@@ -345,19 +342,19 @@ This action module updates a single record in Anaplan.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td>For instructions on creating a connection to [!DNL Anaplan], see <a href="#connect-anaplan-to-workfront-fusion" class="MCXref xref">[!UICONTROL Connect Anaplan to Workfront Fusion]</a> in this article.</td> 
+   <td>For instructions on creating a connection to [!DNL Anaplan], see <a href="#connect-anaplan-to-workfront-fusion" class="MCXref xref">Connect [!DNL Anaplan] to [!DNL Workfront Fusion]</a> in this article.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Record type]</td> 
    <td> <p>Select the type of record you want to update.</p> 
     <ul> 
-     <li> <p><b>List item</b> </p> <p>For fields, see <a href="#create-a-list-item" class="MCXref xref">Create a list item</a> in this article.</p> </li> 
-     <li> <p><b>Module cell data</b> </p> <p>When you update cell data, all downstream calculations that use that data are also updated.</p> <p>Fill in the following fields:</p> 
+     <li> <p><b>[!UICONTROL List item]</b> </p> <p>For fields, see <a href="#create-a-list-item" class="MCXref xref">Create a list item</a> in this article.</p> </li> 
+     <li> <p><b>[!UICONTROL Module cell data]</b> </p> <p>When you update cell data, all downstream calculations that use that data are also updated.</p> <p>Fill in the following fields:</p> 
       <ul> 
-       <li> <p><b>Model ID</b> </p> <p>Select or map the Model that contains the cell you want to update.</p> </li> 
-       <li> <p><b>Module ID</b> </p> <p>Select or map the Module that contains the cell you want to update</p> </li> 
-       <li> <p><b>Line item name</b> </p> <p>Select or map the line item of the cell you want to update</p> </li> 
-       <li> <p style="font-weight: bold;">Dimension ID</p> <p>Select or map the dimension that is on the line item.</p> 
+       <li> <p><b>[!UICONTROL Model ID]</b> </p> <p>Select or map the Model that contains the cell you want to update.</p> </li> 
+       <li> <p><b>[!UICONTROL Module ID]</b> </p> <p>Select or map the Module that contains the cell you want to update</p> </li> 
+       <li> <p><b>[!UICONTROL Line item name]</b> </p> <p>Select or map the line item of the cell you want to update</p> </li> 
+       <li> <p style="font-weight: bold;">[!UICONTROL Dimension ID]</p> <p>Select or map the dimension that is on the line item.</p> 
        <p><b>Note: </b> 
        <ul>
        <li> Dimension key (value) must be either <code>dimensionName</code> (next) or <code>dimensionId</code> (ID).</li>
@@ -365,16 +362,16 @@ This action module updates a single record in Anaplan.
        <li>Dimension and item keys must be the same type (text or ID).
        </ul>
         </p> 
-        <p>For information on dimensions, search for Dimensions in the Anaplan Anapedia.</p> </li> 
-       <li> <p><b>Value</b> </p> <p>Enter or map the new value for the cell.</p> </li> 
+        <p>For information on dimensions, search for Dimensions in the [!DNL Anaplan Anapedia].</p> </li> 
+       <li> <p><b>[!UICONTROL Value]</b> </p> <p>Enter or map the new value for the cell.</p> </li> 
       </ul> </li> 
-     <li> <p><b>Model current fiscal year</b> </p> <p>Enter the Workspace ID and Model ID of the Model for which you want to update the fiscal year, then enter or map the new year for the model.</p> </li> 
+     <li> <p><b>[!UICONTROL Model current fiscal year]</b> </p> <p>Enter the Workspace ID and Model ID of the Model for which you want to update the fiscal year, then enter or map the new year for the model.</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
 </table>
 
-#### Upload a file {#upload-a-file}
+#### [!UICONTROL Upload a file]
 
 This action module uploads a file to Anaplan. The file must have already been uploaded to Anaplan. You can use this module to upload it to additional locations within Anaplan.
 <table style="table-layout:auto">
@@ -383,27 +380,27 @@ This action module uploads a file to Anaplan. The file must have already been up
 <tbody>
 <tr>
 <td role="rowheader">[!UICONTROL Connection]</td>
-<td>For instructions on creating a connection to [!DNL Anaplan], see <a href="#connect-anaplan-to-workfront-fusion" class="MCXref xref">[!UICONTROL Connect Anaplan to Workfront Fusion]</a> in this article.</td>
+<td>For instructions on creating a connection to [!DNL Anaplan], see <a href="#connect-anaplan-to-workfront-fusion" class="MCXref xref">Connect [!DNL Anaplan] to [!DNL Workfront Fusion]</a> in this article.</td>
 </tr>
 <tr>
-<td role="rowheader">Workspace ID</td>
-<td>Select or map the ID of the Anaplan Workspace where you want to upload a file.</td>
+<td role="rowheader">[!UICONTROL Workspace ID]</td>
+<td>Select or map the ID of the [!DNL Anaplan] Workspace where you want to upload a file.</td>
 </tr>
 <tr>
-<td role="rowheader">Model ID</td>
+<td role="rowheader">[!UICONTROL Model ID]</td>
 <td>Select or map the ID of the Model where you want to upload a file.</td>
 </tr>
 <tr>
-<td role="rowheader">File ID</td>
+<td role="rowheader">[!UICONTROL File ID]</td>
 <td>Select or map the ID of the file you want to upload.</td>
 </tr>
 </tbody>
 </table>
 </div>
 
-### Searches {#searches}
+### Searches 
 
-#### Get record {#get-record}
+#### [!UICONTROL Get record] 
 
 This search module returns all accessible records of the selected type.
 
@@ -413,26 +410,26 @@ This search module returns all accessible records of the selected type.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td>For instructions on creating a connection to [!DNL Anaplan], see <a href="#connect-anaplan-to-workfront-fusion" class="MCXref xref">[!UICONTROL Connect Anaplan to Workfront Fusion]</a> in this article.</td> 
+   <td>For instructions on creating a connection to [!DNL Anaplan], see <a href="#connect-anaplan-to-workfront-fusion" class="MCXref xref">Connect [!DNL Anaplan] to [!DNL Workfront Fusion]</a> in this article.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Record types</td> 
+   <td role="rowheader">[!UICONTROL Record types]</td> 
    <td> <p>Select the type of record that you want to retrieve.</p> 
       <ul> 
-       <li> <p><b>Workspaces</b> </p> </li> 
-       <li> <p><b>Models</b> </p> </li> 
-       <li> <p><b>Line items</b> </p> <p>Select or map the ID of the Model that contains the [!DNL line] items you want to retrieve.</p> </li> 
-       <li> <p><b>Model lists</b> </p> <p>Select or map the ID of the Workspace and Model ID that contain the Model lists you want to retrieve.</p> </li> 
-       <li> <p><b>Model calendar</b> </p> <p>Select or map the ID of the Workspace that contains the Model calendar you want to retrieve.</p> </li> 
+       <li> <p><b>[!UICONTROL Workspaces]</b> </p> </li> 
+       <li> <p><b>[!UICONTROL Models]</b> </p> </li> 
+       <li> <p><b>[!UICONTROL Line items]</b> </p> <p>Select or map the ID of the Model that contains the [!DNL line] items you want to retrieve.</p> </li> 
+       <li> <p><b>[!UICONTROL Model lists]</b> </p> <p>Select or map the ID of the Workspace and Model ID that contain the Model lists you want to retrieve.</p> </li> 
+       <li> <p><b>[!UICONTROL Model calendar]</b> </p> <p>Select or map the ID of the Workspace that contains the Model calendar you want to retrieve.</p> </li> 
        <li> <p><b>Model versions</b> </p> </li> 
-       <li> <p>Select or map the ID of the Model that contains the Model versions you want to retrieve.</p> </li> 
-       <li> <p><b>Users</b> </p> </li> 
-       <li> <p><b>Views</b> </p> <p>Select whether you want to choose the view by Module or by Model, then select or map the ID of the Module or Model that contains the view you want to retrieve.</p> </li> 
+       <li> <p>Select or map [!UICONTROL ]the ID of the Model that contains the Model versions you want to retrieve.</p> </li> 
+       <li> <p><b>[!UICONTROL Users]</b> </p> </li> 
+       <li> <p><b>[!UICONTROL Views]</b> </p> <p>Select whether you want to choose the view by Module or by Model, then select or map the ID of the Module or Model that contains the view you want to retrieve.</p> </li> 
       </ul> 
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Return workspace size</td> 
+   <td role="rowheader">[!UICONTROL Return workspace size]</td> 
    <td>Enable this option to return an estimate of the current size of the workspace. This estimate is based on the sizes of all of the modules contained in the workspace.</td> 
   </tr> 
  </tbody> 

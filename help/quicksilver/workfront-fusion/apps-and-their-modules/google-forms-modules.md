@@ -16,7 +16,7 @@ The [!DNL Adobe Workfront Fusion Google Forms] modules allow you to monitor, sel
 
 In order to use [!DNL Google Docs] with [!DNL Adobe Workfront Fusion], it is necessary to have a Google account. If you don't have a Google account yet, you can create one at the Google Account help page.
 
-If you need instructions on creating a scenario, see [Create a scenario in Adobe Workfront Fusion](../../workfront-fusion/scenarios/create-a-scenario.md).
+If you need instructions on creating a scenario, see [Create a scenario in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
 
 For information about modules, see [Modules in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
 

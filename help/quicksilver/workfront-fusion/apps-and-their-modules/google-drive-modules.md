@@ -16,7 +16,7 @@ The [!DNL Adobe Workfront Fusion Google Drive] modules enable you to monitor, se
 
 In a [!DNL Adobe Workfront Fusion] scenario, you can connect your [!DNL Google Drive] account to multiple third-party applications and services.
 
-If you need instructions on creating a scenario, see [Create a scenario in Adobe Workfront Fusion](../../workfront-fusion/scenarios/create-a-scenario.md).
+If you need instructions on creating a scenario, see [Create a scenario in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
 
 For information about modules, see [Modules in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
 

@@ -18,7 +18,7 @@ This is useful if you need to execute tasks currently not supported in proofing 
 
 The [!DNL Workfront] Proofconnector does not count against the number of active apps available to your organization. All scenarios, even if they use only the [!DNL Workfront] Proofapp, do count against your organization's total scenario count.
 
-If you need instructions on creating a scenario, see [Create a scenario in Adobe Workfront Fusion](../../workfront-fusion/scenarios/create-a-scenario.md).
+If you need instructions on creating a scenario, see [Create a scenario in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
 
 For information about modules, see [Modules in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
 

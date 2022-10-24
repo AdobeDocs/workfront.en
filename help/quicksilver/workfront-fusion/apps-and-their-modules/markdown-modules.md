@@ -13,7 +13,7 @@ exl-id: 9e810302-4897-494a-9b50-667d87ce9cb7
 
 In an [!DNL Adobe Workfront Fusion] scenario, you can use the Markdown modules to convert Markdown to HTML and HTML to Markdown.
 
-If you need instructions on creating a scenario, see [Create a scenario in Adobe Workfront Fusion](../../workfront-fusion/scenarios/create-a-scenario.md).
+If you need instructions on creating a scenario, see [Create a scenario in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
 
 For information about modules, see [Modules in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
 

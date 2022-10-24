@@ -14,7 +14,7 @@ exl-id: 1987156c-e003-4f99-8913-cb47f77efbfc
 
 In an [!DNL Adobe Workfront Fusion] scenario, you can automate workflows that use Gmail, as well as connect it to multiple third-party applications and services.
 
-If you need instructions on creating a scenario, see [Create a scenario in Adobe Workfront Fusion](../../workfront-fusion/scenarios/create-a-scenario.md). For information about modules, see [Modules in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
+If you need instructions on creating a scenario, see [Create a scenario in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md). For information about modules, see [Modules in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
 
 ## Access requirements
 
