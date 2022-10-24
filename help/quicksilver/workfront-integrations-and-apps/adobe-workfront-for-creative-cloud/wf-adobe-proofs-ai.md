@@ -93,6 +93,7 @@ You must have the following access to perform the steps in this article:
 
 1. In the **[!UICONTROL Proof Approvals]** section, select **[!UICONTROL Automated]**.
 1. (Optional) In the **[!UICONTROL Workflow Template]** box, type the name of a proof workflow template.
+{{adjust-proof-settings}}
 1. (Optional) Type a comment in the **[!UICONTROL Updates]** area.
 
    ![](assets/copy-of-proof-approvals-advanced-350x424.png)
