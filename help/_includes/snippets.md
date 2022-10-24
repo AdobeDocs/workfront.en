@@ -142,13 +142,9 @@ You must install the correct plugin for the Adobe Creative Cloud application you
 <ol>
 
 <li>Toggle Select all to disable all stages. 
-Or
-<ol>
+<p>Or</p></li>
+<li>Toggle individual stages.</li>
 
-<li>Toggle individual stages.
-</li>
-</ol>
-</li>
 </ol>
    </td>
   </tr>
@@ -199,9 +195,9 @@ Or
    <td>
 <ol>
 
-<li>Begin typing a subject
+<li>Type a subject.
 
-<li>Type the custom message
+<li>Type the custom message.
 </li>
 </ol>
    </td>
