@@ -38,7 +38,7 @@ The enhancements on this page are available in the Preview environment. This pag
                 </tr>
                 <tr>
                     <td>
-                        <a href="../../../product-announcements/product-releases/23.1-release-activity/23-1-oct-10.md" class="MCXref xref" xrefformat="{para}">Relocation of the "Add users" option on a project</a><span style="color: #ff0000;"> New in Preview!</span></p>
+                        <a href="../../../product-announcements/product-releases/23.1-release-activity/23-1-oct-17.md" class="MCXref xref" xrefformat="{para}">Relocation of the "Add users" option on a project</a><span style="color: #ff0000;"> New in Preview!</span></p>
                         <p>In preparation for the deprecation and removal of the Resource Scheduling tools, we have relocated the "Add users" option from the Scheduling section of a project to the People section. When adding users to a project, the users who are not associated with items on the project become part of the Project Team.</p>
                         <p>The Resource Scheduler was removed from the Preview environment on October 20. It will be removed from the Production environment on November 10, 2022.</p>
                     </td>
