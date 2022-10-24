@@ -18,7 +18,7 @@ You can filter a board to display:
 * Cards with a specific status
 * Cards due in a certain time frame
 * Archived cards
-* Cards connected to a specific project
+* <span class="preview">Cards connected to a specific project</span>
 
 Searching also helps you locate a specific card on the board.
 
