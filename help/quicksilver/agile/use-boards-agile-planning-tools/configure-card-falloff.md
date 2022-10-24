@@ -57,4 +57,5 @@ You must have the following access to perform the steps in this article:
    The date is determined from when the card was last modified.
 
 1. Select which column to remove cards from.
+1. Click **Save** on the confirmation message.
 1. Click **Hide configure** to close the Configure panel. The configuration settings are applied automatically when you refresh the board.
