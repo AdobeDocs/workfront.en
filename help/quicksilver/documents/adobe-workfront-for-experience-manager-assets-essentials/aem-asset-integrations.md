@@ -13,7 +13,7 @@ The integration between Workfront and Experience Manager Assets or Assets Essent
 
 >[!IMPORTANT]
 >
->Adobe does not support using the legacy or enhanced connectors and Experience Manger integration in parallel.
+>Adobe does not support using the legacy or enhanced connectors and Experience Manager integration in parallel.
 
 ## Key features
 
