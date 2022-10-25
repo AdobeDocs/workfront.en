@@ -12,7 +12,7 @@ exl-id: 965ce570-40bf-474d-b318-0d2de8be6b9d
 ---
 # Box modules
 
-In an [!DNL Adobe Workfront Fusion] scenario, you can automate workflows that use Box, as well as connect it to multiple third-party applications and services. monitors a specified folder to check for file changes, to modify and delete existing files, or to upload new files to a folder.
+In an [!DNL Adobe Workfront Fusion] scenario, you can automate workflows that use [!DNL Box], as well as connect it to multiple third-party applications and services. monitors a specified folder to check for file changes, to modify and delete existing files, or to upload new files to a folder.
 
 If you need instructions on creating a scenario, see [Create a scenario in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md). For information about modules, see [Modules in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
 
@@ -49,22 +49,22 @@ For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Work
 
 ## Prerequisites
 
-To use Box modules, you must have a Box account.
+To use [!DNL Box] modules, you must have a [!DNL Box] account.
 
-## Box modules and their fields
+## [!DNL Box] modules and their fields
 
-When you configure Box modules, [!DNL Workfront Fusion] displays the fields listed below. Along with these, additional Box fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
+When you configure [!DNL Box] modules, [!DNL Workfront Fusion] displays the fields listed below. Along with these, additional [!DNL Box] fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
 
-If you see the map button above a field or function, you can use it to set variables and functions for that field. For more information, see [Map information from one module to another in [!UICONTROL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
+If you see the map button above a field or function, you can use it to set variables and functions for that field. For more information, see [Map information from one module to another in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 ![](assets/map-toggle-350x74.png)
 
 ### Triggers
 
-* [New event](#new-event)
-* [Watch files](#watch-files)
+* [[!UICONTROL New event]](#uicontrol-new-event)
+* [[!UICONTROL Watch files]](#uicontrol-watch-files)
 
-#### New event {#new-event}
+#### [!UICONTROL New event] 
 
 This instant trigger module starts a scenario when a file is added, moved, copied, deleted, locked, or unlocked.
 
@@ -73,17 +73,17 @@ This instant trigger module starts a scenario when a file is added, moved, copie
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Webhook</td> 
-   <td> <p>Select the webhook that you want to use to watch outgoing messages. To add a webhook, click <strong>Add</strong> and enter the webhook's name and connection.</p> <p> For instructions about connecting your Box account to Workfront Fusion, see <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Connect the module's app or web service to Workfront Fusion</a> in the article <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Create a scenario in Adobe Workfront Fusion</a>.</p> </td> 
+   <td role="rowheader">[!UICONTROL Webhook]</td> 
+   <td> <p>Select the webhook that you want to use to watch outgoing messages. To add a webhook, click <strong>[!UICONTROL Add]</strong> and enter the webhook's name and connection.</p> <p> For instructions about connecting your [!UICONTROL Box] account to [!UICONTROL Workfront Fusion], see <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Connect the module's app or web service to [!UICONTROL Workfront Fusion]</a> in the article <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Create a scenario in [!UICONTROL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>Maximum number of returned events</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Maximum number of returned events]</p> </td> 
    <td> <p>Enter the highest number of events you want the module to return during each scenario execution cycle.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-#### Watch files {#watch-files}
+#### [!UICONTROL Watch files] 
 
 This trigger module starts a scenario when a new file is added or an existing file is updated in a folder being watched.
 
@@ -92,9 +92,7 @@ This trigger module starts a scenario when a new file is added or an existing fi
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>For instructions about connecting your Box account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Adobe Workfront Fusion - Basic instructions</a></p> </td> 
-  </tr> 
+   <td> <p>For instructions about connecting your [!DNL Box] account to [!DNL Workfront Fusion], see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to [!DNL Adobe Workfront Fusion] - Basic instructions</a></p> </td> 
   <tr> 
    <td role="rowheader">Watch</td> 
    <td> <p>Select the type of files you want to watch.</p> 
@@ -112,12 +110,12 @@ This trigger module starts a scenario when a new file is added or an existing fi
 
 ### Actions
 
-* [[!UICONTROL Upload] a file](#upload-a-file)
-* [Update a file](#update-a-file)
-* [Delete a file](#delete-a-file)
-* [Get a file](#get-a-file)
+* [[!UICONTROL Upload] a file](#uicontrol-upload-a-file)
+* [[!UICONTROL Update a file]](#uicontrol-update-a-file)
+* [[!UICONTROL Delete a file]](#uicontrol-delete-a-file)
+* [[!UICONTROL Get a file]](#uicontrol-get-a-file)
 
-#### Upload a file {#upload-a-file}
+#### [!UICONTROL Upload a file] 
 
 This action module uploads a file.
 
@@ -133,10 +131,10 @@ When you are configuring this module, the following fields display.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>For instructions about connecting your Box account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Adobe Workfront Fusion - Basic instructions</a></p> </td> 
+   <td> <p>For instructions about connecting your [!DNL Box] account to [!DNL Workfront Fusion], see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to [!DNL Adobe Workfront Fusion] - Basic instructions</a></p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Source file</td> 
+   <td role="rowheader">[!UICONTROL Source file]</td> 
    <td> <p>Select a source file from a previous module, or map the source file's name and data.</p> </td> 
   </tr> 
  </tbody> 
@@ -146,13 +144,10 @@ When you are configuring this module, the following fields display.
 >
 >If this module is not successful, consider the following:
 >
->* The size of the file might exceed the maximum file size limit for your Box plan, or you may have used all of your Box account's storage quota. To get more storage space, delete existing files from Box or upgrade your Box account.
->* Box does not upload more than one files with the same name to a single folder. If the destination folder contains a file with the same name as the file being uploaded, the scenario run terminates with an error. To avoid this, rename the file. If you want to update the file, use the **[!UICONTROL Update a file]** module.
->
+>* The size of the file might exceed the maximum file size limit for your [!DNL Box] plan, or you may have used all of your [!DNL Box] account's storage quota. To get more storage space, delete existing files from [!DNL Box] or upgrade your [!DNL Box] account.
+>* [!DNL Box] does not upload more than one files with the same name to a single folder. If the destination folder contains a file with the same name as the file being uploaded, the scenario run terminates with an error. To avoid this, rename the file. If you want to update the file, use the **[!UICONTROL Update a file]** module.
 
-
-
-#### Update a file {#update-a-file}
+#### [!UICONTROL Update a file] 
 
 This action module updates a file.
 
@@ -168,20 +163,19 @@ When you are configuring this module, the following fields display.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>For instructions about connecting your Box account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Adobe Workfront Fusion - Basic instructions</a></p> </td> 
-  </tr> 
+   <td> <p>For instructions about connecting your [!DNL Box] account to [!DNL Workfront Fusion], see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to [!DNL Adobe Workfront Fusion] - Basic instructions</a></p> </td> 
   <tr> 
-   <td role="rowheader">File ID</td> 
+   <td role="rowheader">[!UICONTROL File ID]</td> 
    <td>Enter or map the unique ID of the file that you want the module to update.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Source file</td> 
+   <td role="rowheader">[!UICONTROL Source file]</td> 
    <td> <p>Select a source file from a previous module, or map the source file's name and data.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-#### Delete a file {#delete-a-file}
+#### [!UICONTROL Delete a file] 
 
 This action module deletes a file.
 
@@ -197,16 +191,15 @@ When you are configuring this module, the following fields display.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>For instructions about connecting your Box account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Adobe Workfront Fusion - Basic instructions</a></p> </td> 
-  </tr> 
+   <td> <p>For instructions about connecting your [!DNL Box] account to [!DNL Workfront Fusion], see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to [!DNL Adobe Workfront Fusion] - Basic instructions</a></p> </td> 
   <tr> 
-   <td role="rowheader">File ID</td> 
+   <td role="rowheader">[!UICONTROL File ID]</td> 
    <td>Enter or map the unique ID of the file that you want the module to update.</td> 
   </tr> 
  </tbody> 
 </table>
 
-#### Get a file {#get-a-file}
+#### [!UICONTROL Get a file]
 
 This action module downloads a file.
 
@@ -226,10 +219,9 @@ When you are configuring this module, the following fields display.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>For instructions about connecting your Box account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Adobe Workfront Fusion - Basic instructions</a></p> </td> 
-  </tr> 
+   <td> <p>For instructions about connecting your [!DNL Box] account to [!DNL Workfront Fusion], see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to [!DNL Adobe Workfront Fusion] - Basic instructions</a></p> </td> 
   <tr> 
-   <td role="rowheader">File ID</td> 
+   <td role="rowheader">[!UICONTROL File ID]</td> 
    <td>Enter or map the unique ID of the file that you want the module to update.</td> 
   </tr> 
  </tbody> 
