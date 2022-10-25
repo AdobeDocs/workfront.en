@@ -1,6 +1,6 @@
 ---
-title: [!DNL CloudConvert] modules
-description: [!DNL CloudConvert] modules
+title: CloudConvert modules
+description: CloudConvert modules
 author: Becky
 draft: Probably
 feature: Workfront Fusion

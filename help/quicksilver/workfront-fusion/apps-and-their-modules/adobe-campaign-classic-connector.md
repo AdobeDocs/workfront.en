@@ -4,7 +4,7 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 keywords: connector
 navigation-topic: apps-and-their-modules
-title: [!DNL Adobe Campaign Classic] modules
+title: Adobe Campaign Classic modules
 description: With the [!DNL Adobe Campaign Classic] modules, you can start an [!DNL Adobe Workfront Fusion] scenario based on events in your [!DNL Adobe Campaign Classic] account, create, read, or update agreements and other records, search for records using criteria you set, and upload documents.
 author: Becky
 feature: Workfront Fusion
@@ -163,7 +163,7 @@ This module makes a custom API call to the [!DNL Adobe Campaign Classic] API
     <tr>
       <td role="rowheader">[!UICONTROL Headers]</td>
       <td>
-        <p>Add the headers of the request in the form of a standard [!DNL JSON] object.</p>
+        <p>Add the headers of the request in the form of a standard JSON object.</p>
         <p>For example, <code>{"Content-type":"application/json"}</code></p>
         <p>[!DNL Workfront Fusion] adds the [!UICONTROL x-security] token header automatically.</p>
       </td>

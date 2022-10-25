@@ -739,7 +739,7 @@ Allows you to perform a custom API call.
    <td> <p> Enter the desired request headers. You don't have to add authorization headers; we already did that for you.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Query String</td> 
+   <td role="rowheader">[!UICONTROL Query String]</td> 
    <td> <p> Enter the request query string.</p> </td> 
   </tr> 
   <tr> 

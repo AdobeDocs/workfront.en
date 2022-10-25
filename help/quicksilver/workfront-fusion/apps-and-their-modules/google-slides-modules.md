@@ -400,15 +400,15 @@ Performs an arbitrary authorized API call.
    <td> <p>Enter a path relative to https://developers.google.com/slides/. E.g. Presentation.</p> <p>For the list of available endpoints, refer to the <a href="https://developers.google.com/slides/reference/rest">Google Slides API Documentation</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Method</td> 
-   <td> <p>Select the HTTP request method you need to configure the API call. For more information, see <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref">HTTP request methods in Adobe Workfront Fusion</a>.</p> </td> 
+   <td role="rowheader">[!UICONTROL Method]</td> 
+   <td> <p>Select the HTTP request method you need to configure the API call. For more information, see <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref">HTTP request methods in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Headers]</td> 
    <td> <p>Enter the desired request headers. You don't need to add authorization headers.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Query String</td> 
+   <td role="rowheader">[!UICONTROL Query String]</td> 
    <td> <p> Enter the request query string.</p> </td> 
   </tr> 
   <tr> 

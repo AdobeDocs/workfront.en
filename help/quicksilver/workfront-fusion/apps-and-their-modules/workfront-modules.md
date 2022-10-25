@@ -38,7 +38,7 @@ You must have the following access to use the functionality in this article:
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] license**</td> 
-   <td> <p>Workfront Fusion for Work Automation and Integration </p>  <p>Workfront Fusion for Work Automation</p></td> 
+   <td> <p>Workfront Fusion for Work Automation and Integration </p>  <p>[!UICONTROL Workfront Fusion for Work Automation]</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
@@ -423,7 +423,7 @@ When you are configuring this module, the following fields display.
    <td>Select the version of the Workfront API that you want the module to use.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Method</td> 
+   <td role="rowheader">[!UICONTROL Method]</td> 
    td> <p>Select the HTTP request method you need to configure the API call. For more information, see <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">HTTP request methods in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
@@ -431,7 +431,7 @@ When you are configuring this module, the following fields display.
    <td> <p>Add the headers of the request in the form of a standard JSON object. This determines the content type of the request.</p> <p>For example,<code> {"Content-type":"application/json"}</code></p> <p>Note: If you're getting errors and it's difficult to determine their origin, consider modifying headers based on the Workfront documentation. If your Custom API Call returns a 422 HTTP Request Error, try using a "Content-Type":"text/plain" header.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Query String</td> 
+   <td role="rowheader">[!UICONTROL Query String]</td> 
    <td> <p>Add the query for the API call in the form of a standard JSON object.</p> <p>For example: <code>{"name":"something-urgent"}</code></p> <p>Tip: We recommend that you send information through the JSON body rather than as query parameters.</p> </td> 
   </tr> 
   <tr> 

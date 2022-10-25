@@ -95,7 +95,7 @@ If the SOAP module refuses to process the WSDL file or throws various errors in 
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">Method</td> 
+      <td role="rowheader">[!UICONTROL Method]</td> 
       <td> <p>POST</p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 

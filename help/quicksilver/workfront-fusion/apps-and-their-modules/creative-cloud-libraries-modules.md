@@ -11,7 +11,7 @@ exl-id: 8affa34b-803d-48a5-a986-9fbe0cb8c8f5
 ---
 # Adobe Creative Cloud Libraries Modules
 
-With the [!DNL Adobe Workfront Fusion Adobe Creative Cloud] Libraries modules, you can start a scenario when an element or library is created or updated. You can also upload, retrieve, archive, or list elements, or make a call to the [!DNL Adobe Creative Cloud Libraries] API.
+With the [!DNL Adobe Workfront Fusion] [!DNL Adobe Creative Cloud Libraries] modules, you can start a scenario when an element or library is created or updated. You can also upload, retrieve, archive, or list elements, or make a call to the [!DNL Adobe Creative Cloud Libraries] API.
 
 If you need instructions on creating a scenario, see [Create a scenario](../../workfront-fusion/scenarios/create-a-scenario.md).
 
@@ -57,40 +57,40 @@ For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Work
 
 ## Prerequisites
 
-To use Adobe Creative Cloud Libraries modules, you must have an Adobe Creative Cloud account.
+To use [!DNL Adobe Creative Cloud Libraries] modules, you must have an [!UICONTROL Adobe Creative Cloud] account.
 
-## Adobe Creative Cloud Libraries modules and their fields
+## [!UICONTROL Adobe Creative Cloud Libraries] modules and their fields
 
-When you configure [!UICONTROL Adobe Creative Cloud] Libraries modules, [!DNL Workfront Fusion] displays the fields listed below. Along with these, additional [!DNL Adobe Creative Cloud] Libraries fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
+When you configure [!UICONTROL Adobe Creative Cloud Libraries] modules, [!DNL Workfront Fusion] displays the fields listed below. Along with these, additional [!DNL Adobe Creative Cloud Libraries] fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
 
 If you see the map button above a field or function, you can use it to set variables and functions for that field. For more information, see [Map information from one module to another in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 ![](assets/map-toggle-350x74.png)
 
 
-* [Elements](#Elements)
+* [Elements](#elements)
 
-* [Libraries](#Librarie)
+* [Libraries](#libraries)
 
-* [Other](#Other)
+* [Other](#other)
 
 
 ### Elements
 
-* [Archive an Element](#Archive)
+* [[!UICONTROL Archive an Element]](#uicontrol-archive-an-element)
 
-* [Get an Element](#Get)
+* [[!UICONTROL Get an Element]](#uicontrol-get-an-element)
 
-* [List Elements](#List)
+* [[!UICONTROL List Elements]](#uicontrol-list-elements)
 
-* [Upload an Element](#Upload)
+* [[!UICONTROL Upload an Element]](#uicontrol-upload-an-element)
 
-* [Watch New Element in Library](#Watch)
+* [!UICONTROL [Watch New Element in Library]](#uicontrol-watch-new-element-in-library)
 
-* [Watch Updated Elements](#Watch2)
+* [[!UICONTROL Watch Updated Elements]](#uicontrol-watch-updated-elements)
 
 
-#### Archive an Element
+#### [!UICONTROL Archive an Element]
 
 This action module archives an element from a library.
 
@@ -100,20 +100,20 @@ This action module archives an element from a library.
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>For instructions about connecting your Adobe Creative Cloud account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Adobe Workfront Fusion - Basic instructions.</td>
+      <td>For instructions about connecting your [!DNL Adobe Creative Cloud] account to [!DNL Workfront Fusion], see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to [!DNL Adobe Workfront Fusion] - Basic instructions.</td>
     </tr>
     <tr>
-      <td role="rowheader">Library ID</td>
+      <td role="rowheader">[!UICONTROL Library ID]</td>
       <td >Select the library that contains the element you want to archive.</td>
     </tr>
     <tr>
-      <td class="TableStyle-TableStyle-List-options-in-steps-BodyB-Column1-LightGray" role="rowheader">Element ID</td>
+      <td class="TableStyle-TableStyle-List-options-in-steps-BodyB-Column1-LightGray" role="rowheader">[!UICONTROL Element ID]</td>
       <td class="TableStyle-TableStyle-List-options-in-steps-BodyA-Column2-LightGray">Select the element that you want to archive.</td>
     </tr>
   </tbody>
 </table>
 
-#### Get an Element
+#### [!UICONTROL Get an Element]
 
 This action module returns a single element from a library.
 
@@ -123,33 +123,33 @@ This action module returns a single element from a library.
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>For instructions about connecting your Adobe Creative Cloud account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Adobe Workfront Fusion - Basic instructions.</td>
+      <td>For instructions about connecting your [!DNL Adobe Creative Cloud] account to [!DNL Workfront Fusion], see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to [!DNL Adobe Workfront Fusion] - Basic instructions.</td>
     </tr>
     <tr>
-      <td role="rowheader">Library ID</td>
+      <td role="rowheader">[!UICONTROL Library ID]</td>
       <td >Select the library that contains the element you want to retrieve.</td>
     </tr>
     <tr>
-      <td role="rowheader">Element ID</td>
+      <td role="rowheader">[!UICONTROL Element ID]</td>
       <td>Enter or map the ID of the element that you want to retrieve.</td>
     </tr>
     <tr>
-      <td role="rowheader">Selector</td>
+      <td role="rowheader">[!UICONTROL Selector]</td>
       <td>
         <p>Select the type of information that the module returns. </p>
         <ul>
           <li>
-            <p><b>Default</b>
+            <p><b>[!UICONTROL Default]</b>
             </p>
             <p>Base data</p>
           </li>
           <li>
-            <p><b>Details</b>
+            <p><b>[!UICONTROL Details]</b>
             </p>
             <p>All available data</p>
           </li>
           <li>
-            <p><b>Representations</b>
+            <p><b>[!UICONTROL Representations]</b>
             </p>
             <p>A flattened list of assets associated with the library element</p>
           </li>
@@ -159,7 +159,7 @@ This action module returns a single element from a library.
   </tbody>
 </table>
 
-#### List Elements
+#### [!UICONTROL List Elements]
 
 This action module retrieves a list of elements in a library.
 
@@ -169,37 +169,37 @@ This action module retrieves a list of elements in a library.
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>For instructions about connecting your Adobe Creative Cloud account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Adobe Workfront Fusion - Basic instructions.</td>
+      <td>For instructions about connecting your [!DNL Adobe Creative Cloud] account to [!DNL Workfront Fusion], see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to [!DNL Adobe Workfront Fusion] - Basic instructions.</td>
     </tr>
     <tr>
-      <td role="rowheader">Library ID</td>
+      <td role="rowheader">[!UICONTROL Library ID]</td>
       <td >Select the library that you want to list elements from.</td>
     </tr>
     <tr>
-      <td role="rowheader">Order by</td>
+      <td role="rowheader">[!UICONTROL Order by]</td>
       <td>Select whether you want to order results by name or by the last date the element was modified.</td>
     </tr>
     <tr>
-      <td role="rowheader">Type</td>
+      <td role="rowheader">[!UICONTROL Type]</td>
       <td >Enter a MIME type to limit results to elements identified with the specified MIME type. Example: <code>string</code>.</td>
     </tr>
     <tr>
-      <td role="rowheader">Selector</td>
+      <td role="rowheader">[!UICONTROL Selector]</td>
       <td>
         <p>Select the type of information that the module returns. </p>
         <ul>
           <li>
-            <p><b>Default</b>
+            <p><b>[!UICONTROL Default]</b>
             </p>
             <p>Base data</p>
           </li>
           <li>
-            <p><b>Details</b>
+            <p><b>[!UICONTROL Details]</b>
             </p>
             <p>All available data</p>
           </li>
           <li>
-            <p><b>Representations</b>
+            <p><b>[!UICONTROL Representations]</b>
             </p>
             <p>A flattened list of assets associated with the library element</p>
           </li>
@@ -207,13 +207,13 @@ This action module retrieves a list of elements in a library.
       </td>
     </tr>
     <tr>
-      <td role="rowheader">Limit</td>
+      <td role="rowheader">[!UICONTROL Limit]</td>
       <td>Enter or map the maximum number of records you want the module to return during each scenario execution cycle.</td>
     </tr>
   </tbody>
 </table>
 
-#### Upload an Element
+#### [!UICONTROL Upload an Element]
 
 This action module uploads a small file asset to an existing library. Maximum file size is 1 GB.
 
@@ -223,24 +223,24 @@ This action module uploads a small file asset to an existing library. Maximum fi
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>For instructions about connecting your Adobe Creative Cloud account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Adobe Workfront Fusion - Basic instructions.</td>
+      <td>For instructions about connecting your [!DNL Adobe Creative Cloud] account to [!DNL Workfront Fusion], see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to [!DNL Adobe Workfront Fusion] - Basic instructions.</td>
     </tr>
     <tr>
-      <td role="rowheader">Library ID</td>
+      <td role="rowheader">[!UICONTROL Library ID]</td>
       <td >Select the library that you want to list elements from.</td>
     </tr>
     <tr>
-      <td role="rowheader">Invocation Mode</td>
+      <td role="rowheader">[!UICONTROL Invocation Mode]</td>
       <td>
         <p>Select the processing mode to invoke this request process with.</p>
         <ul>
           <li>
-            <p><b>sync</b>
+            <p><b>[!UICONTROL sync]</b>
             </p>
             <p>The API call is processed synchronously. The response is delivered when processing is complete (unless the call times out.)</p>
           </li>
           <li>
-            <p><b>async</b>
+            <p><b>[!UICONTROL async]</b>
             </p>
             <p>The async monitor response is immediately returned, and request processing occurs asynchronously. The calling is responsible for polling the endpoint until completion.</p>
           </li>
@@ -252,19 +252,19 @@ This action module uploads a small file asset to an existing library. Maximum fi
       </td>
     </tr>
     <tr>
-      <td role="rowheader">Type File</td>
+      <td role="rowheader">[!UICONTROL Type File]</td>
       <td >Enter or map the MIME type of the uploaded file.</td>
     </tr>
     <tr>
-      <td class="TableStyle-TableStyle-List-options-in-steps-BodyB-Column1-LightGray" role="rowheader">Source File</td>
-      <td class="TableStyle-TableStyle-List-options-in-steps-BodyA-Column2-LightGray">
+      <td role="rowheader">[!UICONTROL Source File]</td>
+      <td>
         <p>Select a source file from a previous module, or map the source file's name and data.</p>
       </td>
     </tr>
   </tbody>
 </table>
 
-#### Watch New Element in Library
+#### [!UICONTROL Watch New Element in Library]
 
 This trigger module starts a scenario when an element is added to a library.
 
@@ -274,21 +274,21 @@ This trigger module starts a scenario when an element is added to a library.
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>For instructions about connecting your Adobe Creative Cloud account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Adobe Workfront Fusion - Basic instructions.</td>
+      <td>For instructions about connecting your [!DNL Adobe Creative Cloud] account to [!DNL Workfront Fusion], see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to [!DNL Adobe Workfront Fusion] - Basic instructions.</td>
     </tr>
     <tr>
-      <td role="rowheader">Library ID</td>
+      <td role="rowheader">[!UICONTROL Library ID]</td>
       <td >Select the library that you want to watch for updated elements.</td>
     </tr>
     <tr>
-      <td class="TableStyle-TableStyle-List-options-in-steps-BodyB-Column1-LightGray" role="rowheader">Limit</td>
-      <td class="TableStyle-TableStyle-List-options-in-steps-BodyA-Column2-LightGray">Enter or map the maximum number of records you want the module to return during each scenario execution cycle.</td>
+      <td role="rowheader">[!UICONTROL Limit]</td>
+      <td>Enter or map the maximum number of records you want the module to return during each scenario execution cycle.</td>
     </tr>
   </tbody>
 </table>
 
 
-#### Watch Updated Elements
+#### [!UICONTROL Watch Updated Elements]
 
 This trigger module starts a scenario when an element in a library is updated.
 
@@ -298,27 +298,27 @@ This trigger module starts a scenario when an element in a library is updated.
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>For instructions about connecting your Adobe Creative Cloud account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Adobe Workfront Fusion - Basic instructions.</td>
+      <td>For instructions about connecting your [!DNL Adobe Creative Cloud] account to [!DNL Workfront Fusion], see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to [!DNL Adobe Workfront Fusion] - Basic instructions.</td>
     </tr>
     <tr>
-      <td role="rowheader">Library ID</td>
+      <td role="rowheader">[!UICONTROL Library ID]</td>
       <td >Select the library that you want to watch for new elements.</td>
     </tr>
     <tr>
-      <td class="TableStyle-TableStyle-List-options-in-steps-BodyB-Column1-LightGray" role="rowheader">Limit</td>
-      <td class="TableStyle-TableStyle-List-options-in-steps-BodyA-Column2-LightGray">Enter or map the maximum number of records you want the module to return during each scenario execution cycle.</td>
+      <td role="rowheader">[!UICONTROL Limit]</td>
+      <td>Enter or map the maximum number of records you want the module to return during each scenario execution cycle.</td>
     </tr>
   </tbody>
 </table>
 
 ### Libraries
 
-* [Watch New Libraries](#Watch3)
+* [[!UICONTROL Watch New Libraries]](#uicontrol-watch-new-libraries)
 
-* [Watch Updated Libraries](#Watch4)
+* [[!UICONTROL Watch Updated Libraries]](#uicontrol-watch-updated-libraries)
 
 
-#### Watch New Libraries
+#### [!UICONTROL Watch New Libraries]
 
 This trigger module starts a scenario when a new library is created.
 
@@ -328,16 +328,16 @@ This trigger module starts a scenario when a new library is created.
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>For instructions about connecting your Adobe Creative Cloud account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Adobe Workfront Fusion - Basic instructions.</td>
+      <td>For instructions about connecting your [!DNL Adobe Creative Cloud] account to [!DNL Workfront Fusion], see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to [!DNL Adobe Workfront Fusion] - Basic instructions.</td>
     </tr>
     <tr>
-      <td role="rowheader">Limit</td>
+      <td role="rowheader">[!UICONTROL Limit]</td>
       <td>Enter or map the maximum number of records you want the module to return during each scenario execution cycle.</td>
     </tr>
   </tbody>
 </table>
 
-#### Watch Updated Libraries
+#### [!UICONTROL Watch Updated Libraries]
 
 This trigger module starts a scenario when an existing library is updated.
 
@@ -347,10 +347,10 @@ This trigger module starts a scenario when an existing library is updated.
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>For instructions about connecting your Adobe Creative Cloud account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Adobe Workfront Fusion - Basic instructions.</td>
+      <td>For instructions about connecting your [!DNL Adobe Creative Cloud] account to [!DNL Workfront Fusion], see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to [!DNL Adobe Workfront Fusion] - Basic instructions.</td>
     </tr>
     <tr>
-      <td role="rowheader">Limit</td>
+      <td role="rowheader">[!UICONTROL Limit]</td>
       <td>Enter or map the maximum number of records you want the module to return during each scenario execution cycle.</td>
     </tr>
   </tbody>
@@ -358,7 +358,7 @@ This trigger module starts a scenario when an existing library is updated.
 
 ### Other
 
-#### Make an API Call
+#### [!UICONTROL Make an API Call]
 
 This module makes a custom API call to the [!DNL Adobe Creative Cloud Libraries] API.
 
@@ -371,33 +371,31 @@ This module makes a custom API call to the [!DNL Adobe Creative Cloud Libraries]
       <td> <p>For instructions about connecting your Adobe Creative Cloud account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Adobe Workfront Fusion - Basic instructions.</a></p>
     </tr>
     <tr>
-      <td role="rowheader">URL</td>
+      <td role="rowheader">[!UICONTROL URL]</td>
       <td>
         <p>Enter a path relative to <code>https://cc-libraries.adobe.io/api</code>.</p>
     <p>For example <code>/v1/libraries</code>.</p>
       </td>
     </tr>
     <tr>
-      <td role="rowheader">API version</td>
+      <td role="rowheader">[!UICONTROL API version]</td>
       <td>
         <p>Select the version of the [!DNL Adobe Analytics] API that you want to connect to.</p>
       </td>
     </tr>    <tr>
-      <td role="rowheader">Method</td>
-      <td>
-        <p>Select the HTTP request method you need to configure the API call. For more information, see HTTP request methods.</p>
-      </td>
+      <td role="rowheader">[!UICONTROL Method]</td>
+      <td> <p>Select the HTTP request method you need to configure the API call. For more information, see <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref">HTTP request methods in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Headers]</td>
       <td>
-        <p>Add the headers of the request in the form of a standard [!DNL JSON] object.</p>
+        <p>Add the headers of the request in the form of a standard JSON object.</p>
         <p>For example, <code>{"Content-type":"application/json"}</code></p>
         <p>Workfront Fusion adds the authorization headers for you.</p>
       </td>
     </tr>
     <tr>
-      <td role="rowheader">Query String</td>
+      <td role="rowheader">[!UICONTROL Query String]</td>
       <td>
         <p>Add the query for the API call in the form of a standard JSON object.</p>
         <p>For example: <code>{"name":"something-urgent"}</code></p>
@@ -405,12 +403,12 @@ This module makes a custom API call to the [!DNL Adobe Creative Cloud Libraries]
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Body]</td>
-   <td> <p>Add the body content for the API call in the form of a standard [!DNL JSON] object.</p> <p>Note:  <p>When using conditional statements such as <code>if</code> in your JSON, put the quotation marks outside of the conditional statement.</p> 
+   <td> <p>Add the body content for the API call in the form of a standard JSON object.</p> <p>Note:  <p>When using conditional statements such as <code>if</code> in your JSON, put the quotation marks outside of the conditional statement.</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td>     </tr>
        <tr>
-      <td role="rowheader">Upload a transient document</td>
+      <td role="rowheader">[!UICONTROL Upload a transient document]</td>
       <td>
       <p>If you want to upload a transient document, enter the source file for the document you want to upload.</p>
       <p>Select a source file from a previous module, or map the source file's name and data.</p>
