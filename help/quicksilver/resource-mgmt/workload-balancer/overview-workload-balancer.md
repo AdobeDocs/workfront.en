@@ -40,12 +40,10 @@ For more information about locating the Workload Balancer, see [Locate the Workl
 
 ## Benefits of the Workload Balancer
 
-At the system level, you can access the Workload Balancer in addition to the existing resource scheduling tools. For information about accessing the Workload Balancer, see [Navigate the Workload Balancer](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
-
 Consider the following benefits when using the Workload Balancer:
 
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Add about the what-if scenarios as a benefit when they become available) </p>
+<p> Add about the what-if scenarios as a benefit when they become available </p>
 -->
 
 * Access a clear visual mapping of resource overallocation and underutilization which is transparent to all stakeholders. 
