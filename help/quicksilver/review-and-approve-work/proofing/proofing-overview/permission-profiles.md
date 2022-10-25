@@ -34,9 +34,9 @@ Proof Permission Profiles determine what overall permissions users have over all
 
 The following table displays the permissions available with each Proof Permission Profile.
 
-| **Own Items** | | | | | **Other Users' Items** | | | **Admin** | **Billing** |
-|---|---|---|---|---|---|---|---|---|---|
-| &nbsp; |**Add** |**View** |**Edit** |**Delete** |**View** |**Edit** |**Delete** |**Edit and Delete** |**Edit** |
+| **Own Items** | | | | | **Other Users' Items** | | | **Admin** |
+|---|---|---|---|---|---|---|---|---|
+| &nbsp; |**Add** |**View** |**Edit** |**Delete** |**View** |**Edit** |**Delete** |**Edit and Delete** |
 | Admin | ![](assets/cleaner2.png)| ![](assets/cleaner2.png)| ![](assets/cleaner2.png)| ![](assets/cleaner2.png)| ![](assets/cleaner2.png)| ![](assets/cleaner2.png)| ![](assets/cleaner2.png)| ![](assets/cleaner2.png)| |
 | Supervisor | ![](assets/cleaner2.png)| ![](assets/cleaner2.png)| ![](assets/cleaner2.png)| ![](assets/cleaner2.png)| ![](assets/cleaner2.png)| ![](assets/cleaner2.png)| ![](assets/cleaner2.png)|&nbsp; |&nbsp; |
 | Manager | ![](assets/cleaner2.png)| ![](assets/cleaner2.png)| ![](assets/cleaner2.png)| ![](assets/cleaner2.png)|&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
