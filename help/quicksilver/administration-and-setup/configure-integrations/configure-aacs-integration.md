@@ -69,11 +69,6 @@ Before you begin,
 1. Select **Add Experience Manager Integration**.
 1. In the **Name** field, enter the name you want users to see when interacting with this integration in Workfront and Experience Manager Assets.
 1. In the **Navigation URL** field, the system automatically populates the Navigation URL. This URL is used to link to your organization's Experience Manager instance from the Main Menu for quick access.
-
-    >[!TIP]
-    >
-    >You can change the end of the populated URL to direct users into a specific folder from the Assets icon in the Main Menu.
-
 1. Choose a repository from the **Experience Manager Assets repository** drop-down menu. The system automatically populates any Experience Manager repositories associated with the Organization ID that your user profile is assigned to.
 ![choose experience manager repository](assets/setup-information.png)
 
