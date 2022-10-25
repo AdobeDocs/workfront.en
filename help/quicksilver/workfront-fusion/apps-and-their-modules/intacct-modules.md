@@ -65,7 +65,7 @@ In your Intacct account, navigate to the **Company** tab.
 1. Enter AzuquaMPP as the sender_id.
 1. (Optional) Enter a description for the connection
 
-### Set up a connection in Workfront Fusion {#set-up-a-connection-in-workfront-fusion}
+### Set up a connection in [!DNL Workfront Fusion] {#set-up-a-connection-in-workfront-fusion}
 
 You can create a connection to your Intacct account directly from inside an Intacct module.
 
