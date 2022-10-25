@@ -22,7 +22,7 @@ With the native Experience Manager integration, you can
 * Quickly set up the integration inside of Workfront
 * Automatically create folders linked between Workfront and Experience Manager
 * Easily sync metadata for existing linked assets
-* Automatically update portfolio, program, project, task, issue, and document metadata when it’s changed in Workfront
+* Automatically update portfolio, program, project, task, issue, and document metadata when it's changed in Workfront
 * Smoothly connect several Experience Manager Assets repositories to one Workfront environment, or several Workfront environments to one Experience Manager Assets repository across Organization IDs.
 
 
