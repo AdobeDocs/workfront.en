@@ -8,8 +8,6 @@ exl-id: bc58cc77-a177-417f-a5a4-eec51e305219
 ---
 # Configure the Experience Manager Assets as a Cloud Service integration
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.</span>
-
 You can connect your work with your content in Experience Manager Assets​:
 
 * Push assets and metadata from Adobe Workfront to Experience Manager Assets​
@@ -141,15 +139,13 @@ To map metadata for folders:
 
 ### Project metadata sync
 
-An Experience Manager fields that is mapped to Workfront project fields update automatically when the field is changed in Workfront.
-
-<span class="preview">In the Preview environment, an Experience Manager fields that is mapped to Workfront portfolio, program, project, task, issue, and document fields update automatically when the field is changed in Workfront.</span>
+An Experience Manager fields that is mapped to Workfront portfolio, program, project, task, issue, and document fields update automatically when the field is changed in Workfront.
 
 >[!IMPORTANT]
 >
 >Users must have write access in Experience Manager for assets living in the object in order for the metadata to sync when it's updated.
 
-1. Enable the **Sync Project metadata** field.
+1. Enable the **Sync object metadata** field.
 1. Click Save or move on to the [Set up linked folders (Optional)](#set-up-linked-folders-optional) section in this article.
 
 ## Set up linked folders (Optional)
