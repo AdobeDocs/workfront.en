@@ -551,7 +551,6 @@ feature-set: Workfront
     * Security {#security}
       * [Security](administration-and-setup/manage-workfront/security/security.md)
       * [Security preferences](administration-and-setup/manage-workfront/security/configure-security-preferences.md)
-      * [Enhanced Authentication](administration-and-setup/manage-workfront/security/get-started-enhanced-authentication.md)
       * [Passwords for authentication](administration-and-setup/manage-workfront/security/configure-password-policies-authentication.md)
       * [Removal of single sign-on options](administration-and-setup/manage-workfront/security/removal-various-sso-options.md)
       * [Renew SAML 2.0 metadata certificate](administration-and-setup/manage-workfront/security/renew-wf-saml-2-certificate.md)
