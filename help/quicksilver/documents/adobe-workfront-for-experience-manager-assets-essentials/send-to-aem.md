@@ -16,7 +16,7 @@ Metadata fields are first mapped when you send an asset from Workfront to Experi
 
 >[!INFO]
 >
-><span class="preview">**Example** When you first send an asset attached to a task, the task metadata maps to Experience Manager Assets or Assets Essentials as well as any mapped metadata from parent objects such as a project, portfolio, and program.</span>
+>**Example** When you first send an asset attached to a task, the task metadata maps to Experience Manager Assets or Assets Essentials as well as any mapped metadata from parent objects such as a project, portfolio, and program.
 
 ## Access requirements
 
