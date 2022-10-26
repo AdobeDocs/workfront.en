@@ -47,36 +47,36 @@ For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Work
 
 ## Connect your email to Workfront Fusion {#connect-your-email-to-workfront-fusion}
 
-* [[!UICONTROL Connect to Google]](#connect-to-google)
-* [[!UICONTROL Connect to other email services (SMAP)]](#connect-to-other-email-services-smap)
+* [Connect to Google](#connect-to-dnl-google)
+* [Connect to other email services (SMAP)](#connect-to-other-email-services-smap)
 
-### Connect to Google {#connect-to-google}
+### Connect to [!DNL Google]
 
-Use this option to create scenarios with email modules that require a connection to your Google account. This is an account with restricted scopes.
+Use this option to create scenarios with email modules that require a connection to your [!DNL Google] account. This is an account with restricted scopes.
 
-You can create a connection to your [!DNL Google] account directly from inside an Allocadia module.
+You can create a connection to your [!DNL Google] account directly from inside an Email module.
 
 1. In any Email module, click **[!UICONTROL Add]** next to the [!UICONTROL Connection] field.
-1. Select **[!UICONTROL Google]** as the connection type.
+1. Select **[!DNL Google]** as the connection type.
 1. Enter a name for the connection.
-1. (Optional) Enter your Google Client ID and Client Secret.
+1. (Optional) Enter your [!UICONTROL [!DNL Google] Client ID] and [!UICONTROL Client Secret].
 1. Click **[!UICONTROL Continue]** to create the connection and go back to the module.
 
-### Connect to other email services (SMAP) {#connect-to-other-email-services-smap}
+### Connect to other email services (SMAP)
 
 SMAP connection allows you to access your mailbox remotely and read or manipulate messages in your mailbox. SMAP connection is used by most of the Email modules.
 
 1. In any Email module, click **[!UICONTROL Add]** next to the [!UICONTROL Connection] field.
-1. Select **Others (SMTP)**&#x200B;as the connection type.
-1. Enter a **Name** for the connection.
-1. Select your **Email provider** from the list. If your email provider is not on the list, select Other.
-1. Enter your **Email address**, **Your full name**, your **User name**, and your **Password**.
-1. (Conditional) If your provider is not on the list, enter your **SMTP server** and **Port**, and specify whether you want to **Use a secure connection (TLS)**. To find this information, check the [!UICONTROL Help] section for your mailbox. If you don't have this information available, contact your email service provider.
+1. Select **[!UICONTROL Others (SMTP)]** as the connection type.
+1. Enter a **[!UICONTROL Name]** for the connection.
+1. Select your **[!UICONTROL Email provider]** from the list. If your email provider is not on the list, select Other.
+1. Enter your **[!UICONTROL Email address]**, **[!UICONTROL Your full name]**, your **[!UICONTROL User name]**, and your **[!UICONTROL Password]**.
+1. (Conditional) If your provider is not on the list, enter your **[!UICONTROL SMTP server]** and **[!UICONTROL Port]**, and specify whether you want to **[!UICONTROL Use a secure connection (TLS)]**. To find this information, check the [!UICONTROL Help] section for your mailbox. If you don't have this information available, contact your email service provider.
 1. Click **[!UICONTROL Continue]** to create the connection and go back to the module.
 
-## Email modules and their fields
+## [!UICONTROL Email] modules and their fields
 
-When you configure email modules, [!DNL Workfront Fusion] displays the fields listed below. Along with these, additional email fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
+When you configure [!UICONTROL Email] modules, [!DNL Workfront Fusion] displays the fields listed below. Along with these, additional fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
 
 Some of the email fields might already contain data because you used them in another module in the scenario. See the email help documentation if you need information about them.
 
@@ -86,15 +86,15 @@ If you see the map button above a field or function, you can use it to set varia
 
 >[!NOTE]
 >
->The Unique Email ID known as 'Email ID (UID)' is the email's identifier. The Email ID is specific for each of the email's folders.
+>The Unique Email ID known as '[!UICONTROL Email ID (UID)]' is the email's identifier. The Email ID is specific for each of the email's folders.
 
 * [Triggers](#triggers)
 * [Actions](#actions)
 * [Iterators](#iterators)
 
-### Triggers {#triggers}
+### Triggers 
 
-#### Watch Emails
+#### [!UICONTROL Watch Emails]
 
 Triggers when a new email is received for processing according to specified criteria.
 
@@ -103,62 +103,62 @@ Triggers when a new email is received for processing according to specified crit
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Connection </td> 
-   <td> <p>For instructions about connecting your email account to Workfront Fusion, see <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Connect the module's app or web service to Workfront Fusion</a> in the article <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Create a scenario in Adobe Workfront Fusion</a>.</p> </td> 
+   <td role="rowheader">[!UICONTROL Connection] </td> 
+   <td> <p>For instructions about connecting your email account to [!UICONTROL Workfront Fusion], see <a href="#connect-your-email-to-workfront-fusion" class="MCXref xref">Connect your email to [!UICONTROL Workfront Fusion]</a> in this article.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Folder </td> 
+   <td role="rowheader">[!UICONTROL Folder] </td> 
    <td> <p>Select the folder that contains emails you want to watch.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>Criteria</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Criteria]</p> </td> 
    <td> <p>Select the criteria by which you want to watch emails:</p> 
     <ul> 
-     <li>All Emails</li> 
-     <li>Only Read Emails</li> 
-     <li>Only Unread Emails</li> 
+     <li>[!UICONTROL All Emails]</li> 
+     <li>[!UICONTROL Only Read Emails]</li> 
+     <li>[!UICONTROL Only Unread Emails]</li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Sender Email Address </td> 
+   <td role="rowheader">[!UICONTROL Sender Email Address] </td> 
    <td> <p>Enter the email address of the sender whose emails you want to watch.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Recipient Email Address</td> 
+   <td role="rowheader">[!UICONTROL Recipient Email Address]</td> 
    <td> <p> Enter the email address of the recipient whose emails you want to watch.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Subject </td> 
+   <td role="rowheader">[!UICONTROL Subject] </td> 
    <td> <p>Enter the subject of the email you want to watch.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Phrase </td> 
+   <td role="rowheader">[!UICONTROL Phrase] </td> 
    <td> <p>Enter any keywords to watch only those emails containing specific phrases.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Mark message(s) as read when fetched</td> 
+   <td role="rowheader">[!UICONTROL Mark message(s) as read when fetched]</td> 
    <td> <p>Enable this option to mark the unread email as read after retrieving the details.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Maximum number of results</td> 
+   <td role="rowheader">[!UICONTROL Maximum number of results]</td> 
    <td> <p> The maximum number of emails [!DNL Workfront Fusion] should return during one scenario execution cycle.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-### Actions {#actions}
+### Actions
 
-* [Send an Email](#send-an-email)
-* [Create a Draft](#create-a-draft)
-* [Mark an Email as Read](#mark-an-email-as-read)
-* [Mark an Email as Unread](#mark-an-email-as-unread)
-* [[!UICONTROL Move an Email]](#move-an-email)
-* [Copy an Email](#copy-an-email)
-* [Delete an Email](#delete-an-email)
-* [Get Emails](#get-emails)
-* [Send me an Email](#send-me-an-email)
+* [[!UICONTROL Send an Email]](#uicontrol-send-an-email)
+* [[!UICONTROL Create a Draft]](#uicontrol-create-a-draft)
+* [[!UICONTROL Mark an Email as Read]](#uicontrol-mark-an-email-as-read)
+* [[!UICONTROL Mark an Email as Unread]](#uicontrol-mark-an-email-as-unread)
+* [[!UICONTROL Move an Email]](#uicontrol-move-an-email)
+* [[!UICONTROL Copy an Email]](#uicontrol-copy-an-email)
+* [[!UICONTROL Delete an Email]](#uicontrol-delete-an-email)
+* [[!UICONTROL Get Emails]](#uicontrol-get-emails)
+* [[!UICONTROL Send me an Email]](#uicontrol-send-me-an-email)
 
-#### Send an Email {#send-an-email}
+#### [!UICONTROL Send an Email] 
 
 Sends a new email.
 
@@ -167,91 +167,91 @@ Sends a new email.
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Connection </td> 
-   <td> <p>For instructions about connecting your email account to Workfront Fusion, see <a href="#connect-your-email-to-workfront-fusion" class="MCXref xref">Connect your email to Workfront Fusion</a> in this article.</p> </td> 
+   <td role="rowheader">[!UICONTROL Connection] </td> 
+   <td> <p>For instructions about connecting your email account to [!DNL Workfront Fusion], see <a href="#connect-your-email-to-workfront-fusion" class="MCXref xref">Connect your email to [!UICONTROL Workfront Fusion]</a> in this article.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Save Message after Sending</td> 
-   <td>After the email message is sent, it will be saved in your mailbox. Enable this option if you want to save emails sent using [!DNL Workfront Fusion] to the <i>Sent mail</i> folder or another folder in your mailbox. Some email services, such as Gmail, save sent messages automatically.</td> 
+   <td role="rowheader">[!UICONTROL Save Message after Sending]</td> 
+   <td>After the email message is sent, it will be saved in your mailbox. Enable this option if you want to save emails sent using [!DNL Workfront Fusion] to the <i>[!UICONTROL Sent mail]</i> folder or another folder in your mailbox. Some email services, such as [!DNL Gmail], save sent messages automatically.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">To </td> 
+   <td role="rowheader">[!UICONTROL To] </td> 
    <td> <p>Add the email addresses you want to send the email to.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Subject </td> 
+   <td role="rowheader">[!UICONTROL Subject] </td> 
    <td> <p>Enter or map the subject line of the email.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>Content Type</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Content Type]</p> </td> 
    <td> <p>Select the [!UICONTROL content] type for the email:</p> 
     <ul> 
      <li>HTML</li> 
-     <li>Plaintext</li> 
+     <li>[!UICONTROL Plaintext]</li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Content </td> 
+   <td role="rowheader">[!UICONTROL Content] </td> 
    <td> <p>Enter or map the email content in HTML format using HTML tags, or in the plain text, depending on what you chose in the [!UICONTROL Content Type] field.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>Attachments</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Attachments]</p> </td> 
    <td> <p>Add an attachment:</p> 
     <ul> 
-     <li> <p><strong>File name</strong> </p> <p>Enter the file name. For example, sample.doc.</p> </li> 
-     <li> <p><strong>Data</strong> </p> <p>Enter the path to the folder to upload the attachment.</p> </li> 
-     <li> <p><strong>Content-ID</strong> </p> <p>Enter the [!UICONTROL content ID] to insert the attachment (image) in the content.</p> </li> 
+     <li> <p><strong>[!UICONTROL File name]</strong> </p> <p>Enter the file name. For example, sample.doc.</p> </li> 
+     <li> <p><strong>[!UICONTROL Data]</strong> </p> <p>Enter the path to the folder to upload the attachment.</p> </li> 
+     <li> <p><strong>[!UICONTROL Content-ID]</strong> </p> <p>Enter the [!UICONTROL content ID] to insert the attachment (image) in the content.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Copy Recipient </td> 
+   <td role="rowheader">[!UICONTROL Copy Recipient] </td> 
    <td> <p>Enter or map one or more email addresses to which you want to send a copy of this email. </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Blind Copy Recipient</td> 
+   <td role="rowheader">[!UICONTROL Blind Copy Recipient]</td> 
    <td> <p> Enter or map one or more email addresses to which you want to send a copy of this email without having the email address appear in the email.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">From </td> 
-   <td> <p>Enter or map the email address (and name, if needed) that appears in the [!UICONTROL From] field in the email. </p> <p>Important: Use the correct syntax: <code>name@email.com</code> or <code>"Name" name@email.com</code>.</p> <p>Note:  Normally, [!DNL Workfront] Fusion uses the email address that you entered when creating the connection as the sender address. If you enter any other email address, an error may occur when sending a message because your account may not have permission to send emails from a different address than your own. E.g. <code>test@mail.com</code> or "<code>John Bush" test@email.com</code>.</p> </td> 
+   <td role="rowheader">[!UICONTROL From] </td> 
+   <td> <p>Enter or map the email address (and name, if needed) that appears in the [!UICONTROL From] field in the email. </p> <p>Important: Use the correct syntax: <code>name@email.com</code> or <code>"Name" name@email.com</code>.</p> <p>Note:  Normally, [!DNL Workfront Fusion] uses the email address that you entered when creating the connection as the sender address. If you enter any other email address, an error may occur when sending a message because your account may not have permission to send emails from a different address than your own. E.g. <code>test@mail.com</code> or "<code>John Bush" test@email.com</code>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>Sender</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Sender]</p> </td> 
    <td> <p>Enter or map the email address that appears in the [!UICONTROL Sender] field in the email.</p> <p>Tip:  If you are unsure whether to use this field or the From field, we recommend choosing the From field.</p> <p>Important: Use the correct syntax: <code>name@email.com</code> or <code>"Name" name@email.com</code></p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Reply-To</td> 
+   <td role="rowheader">[!UICONTROL Reply-To]</td> 
    <td> <p> If you want replies to this email sent to a different address than the "from" address, enter the email address where you want replies to this email sent.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">In-Reply-To</td> 
+   <td role="rowheader">[!UICONTROL In-Reply-To]</td> 
    <td> <p> If you are replying to a specific email, enter or map the ID of the email you are replying to.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">References </td> 
+   <td role="rowheader">[!UICONTROL References] </td> 
    <td> <p>Enter the message IDs of all the replies in the thread.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>Priority</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Priority]</p> </td> 
    <td> <p>Select the priority of the email:</p> 
     <ul> 
-     <li>High</li> 
-     <li>Normal</li> 
-     <li>Low</li> 
+     <li>[!UICONTROL High]</li> 
+     <li>[!UICONTROL Normal]</li> 
+     <li>[!UICONTROL Low]</li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>Headers</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Headers]</p> </td> 
    <td> <p>Add the headers:</p> 
     <ul> 
-     <li> <p><strong>Key</strong> </p> <p>Add the key. For example, Sender, Date, To, and so on.</p> </li> 
-     <li> <p><strong>Value</strong> </p> <p>Enter the value for the key.</p> </li> 
+     <li> <p><strong>[!UICONTROL Key]</strong> </p> <p>Add the key. For example, [!UICONTROL Sender], [!UICONTROL Date], [!UICONTROL To], and so on.</p> </li> 
+     <li> <p><strong>[!UICONTROL Value]</strong> </p> <p>Enter the value for the key.</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
 </table>
 
-#### Create a Draft {#create-a-draft}
+#### [!UICONTROL Create a Draft]
 
 Creates and adds a new draft to a selected folder.
 
@@ -260,114 +260,114 @@ Creates and adds a new draft to a selected folder.
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Connection </td> 
-   <td> <p>For instructions about connecting your email account to Workfront Fusion, see <a href="#connect-your-email-to-workfront-fusion" class="MCXref xref">Connect your email to Workfront Fusion</a> in this article.</p> </td> 
+   <td role="rowheader">[!UICONTROL Connection] </td> 
+   <td> <p>For instructions about connecting your email account to [!UICONTROL Workfront Fusion], see <a href="#connect-your-email-to-workfront-fusion" class="MCXref xref">Connect your email to [!UICONTROL Workfront Fusion]</a> in this article.</p> </td>
   </tr> 
   <tr> 
-   <td role="rowheader">Folder</td> 
+   <td role="rowheader">[!UICONTROL Folder]</td> 
    <td>Select the folder in which you want to create the draft email.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">To </td> 
+   <td role="rowheader">[!UICONTROL To] </td> 
    <td> <p>Enter or map the email address to which you want to send the email.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Subject </td> 
+   <td role="rowheader">[!UICONTROL Subject] </td> 
    <td> <p>Enter or map the subject line of the email.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>Content Type</p> </td> 
-   <td> <p>Select the [!UICONTROL content] type for the email:</p> 
+   <td role="rowheader"> <p>[!UICONTROL Content Type]</p> </td> 
+   <td> <p>Select the content type for the email:</p> 
     <ul> 
      <li>HTML</li> 
-     <li>Plain Text</li> 
+     <li>[!UICONTROL Plain Text]</li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Content </td> 
+   <td role="rowheader">[!UICONTROL Content] </td> 
    <td> <p>Enter or map the email content in HTML format using HTML tags, or in the plain text, depending on what you chose in the [!UICONTROL Content Type] field.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>Attachments</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Attachments]</p> </td> 
    <td> <p>Add an attachment:</p> 
     <ul> 
-     <li> <p><strong>File name</strong> </p> <p>Enter the file name. For example, sample.doc.</p> </li> 
-     <li> <p><strong>Data</strong> </p> <p>Enter the path to the folder to upload the attachment.</p> </li> 
-     <li> <p><strong>Content-ID</strong> </p> <p>Enter the [!UICONTROL content ID] to insert the attachment (image) in the content.</p> </li> 
+     <li> <p><strong>[!UICONTROL File name]</strong> </p> <p>Enter the file name. For example, sample.doc.</p> </li> 
+     <li> <p><strong>[!UICONTROL Data]</strong> </p> <p>Enter the path to the folder to upload the attachment.</p> </li> 
+     <li> <p><strong>[!UICONTROL Content-ID]</strong> </p> <p>Enter the content ID to insert the attachment (image) in the content.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Copy Recipient </td> 
+   <td role="rowheader">[!UICONTROL Copy Recipient] </td> 
    <td> <p>Enter or map one or more email addresses to which you want to send a copy of this email. </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Blind Copy Recipient</td> 
+   <td role="rowheader">[!UICONTROL Blind Copy Recipient]</td> 
    <td> <p> Enter or map one or more email addresses to which you want to send a copy of this email without having the email address appear in the email.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">From </td> 
-   <td> <p>Enter or map the email address (and name, if needed) that appears in the [!UICONTROL From] field in the email. </p> <p>Important: Use the correct syntax: <code>name@email.com</code> or <code>"Name" name@email.com</code>.</p> <p>Note:  Normally, [!DNL Workfront] Fusion uses the email address that you entered when creating the connection as the sender address. If you enter any other email address, an error may occur when sending a message because your account may not have permission to send emails from a different address than your own. E.g. <code>test@mail.com</code> or "<code>John Bush" test@email.com</code>.</p> </td> 
+   <td role="rowheader">[!UICONTROL From] </td> 
+   <td> <p>Enter or map the email address (and name, if needed) that appears in the [!UICONTROL From] field in the email. </p> <p>Important: Use the correct syntax: <code>name@email.com</code> or <code>"Name" name@email.com</code>.</p> <p>Note:  Normally, [!DNL Workfront Fusion] uses the email address that you entered when creating the connection as the sender address. If you enter any other email address, an error may occur when sending a message because your account may not have permission to send emails from a different address than your own. E.g. <code>test@mail.com</code> or "<code>John Bush" test@email.com</code>.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>Sender</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Sender]</p> </td> 
    <td> <p>Enter or map the email address that appears in the [!UICONTROL Sender] field in the email.</p> <p>Tip:  If you are unsure whether to use this field or the From field, we recommend choosing the From field.</p> <p>Important: Use the correct syntax: <code>name@email.com</code> or <code>"Name" name@email.com</code></p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Reply-To</td> 
-   <td> <p> If you want replies to this email sent to a different address than the "from" address, enter the email address where you want replies to this email sent.</p> </td> 
+   <td role="rowheader">[!UICONTROL Reply-To]</td> 
+   <td> <p> If you want replies to this email sent to a different address than the "[!UICONTROL from]" address, enter the email address where you want replies to this email sent.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">In-Reply-To</td> 
+   <td role="rowheader">[!UICONTROL In-Reply-To]</td> 
    <td> <p> If you are replying to a specific email, enter or map the ID of the email you are replying to.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">References </td> 
+   <td role="rowheader">[!UICONTROL References] </td> 
    <td> <p>Enter the message IDs of all the replies in the thread.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>Priority</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Priority]</p> </td> 
    <td> <p>Select the priority of the email:</p> 
     <ul> 
-     <li>High</li> 
-     <li>Normal</li> 
-     <li>Low</li> 
+     <li>[!UICONTROL High]</li> 
+     <li>[!UICONTROL Normal]</li> 
+     <li>[!UICONTROL Low]</li> 
     </ul> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>Headers</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Headers]</p> </td> 
    <td> <p>Add the headers:</p> 
     <ul> 
-     <li> <p><strong>Key</strong> </p> <p>Add the key. For example, Sender, Date, To, and so on.</p> </li> 
-     <li> <p><strong>Value</strong> </p> <p>Enter the value for the key.</p> </li> 
+     <li> <p><strong>[!UICONTROL Key]</strong> </p> <p>Add the key. For example, Sender, Date, To, and so on.</p> </li> 
+     <li> <p><strong>[!UICONTROL Value]</strong> </p> <p>Enter the value for the key.</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
 </table>
 
-#### Mark an Email as Read {#mark-an-email-as-read}
+#### [!UICONTROL Mark an Email as Read]
 
-Marks an email or a draft in a selected folder as read by setting the Read flag.
+Marks an email or a draft in a selected folder as read by setting the [!UICONTROL Read] flag.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Connection </td> 
-   <td> <p>For instructions about connecting your email account to Workfront Fusion, see <a href="#connect-your-email-to-workfront-fusion" class="MCXref xref">Connect your email to Workfront Fusion</a> in this article.</p> </td> 
+   <td role="rowheader">[!UICONTROL Connection] </td> 
+   <td> <p>For instructions about connecting your email account to [!UICONTROL Workfront Fusion], see <a href="#connect-your-email-to-workfront-fusion" class="MCXref xref">Connect your email to [!UICONTROL Workfront Fusion]</a> in this article.</p> </td>
   </tr> 
   <tr> 
-   <td role="rowheader">Folder</td> 
+   <td role="rowheader">[!UICONTROL Folder]</td> 
    <td>Select the folder of the email you want to mark as read. Example: Primary.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>Email ID (UID)</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Email ID (UID)]</p> </td> 
    <td> <p>Enter the Email UID of the email you want to mark as read.</p> <p>You can get the UID of the email by using the [!UICONTROL Email] >[!UICONTROL Watch Email] module or [!UICONTROL Search Email] module.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-#### Mark an Email as Unread {#mark-an-email-as-unread}
+#### [!UICONTROL Mark an Email as Unread] 
 
 Marks an email or a draft in a selected folder as unread by setting the Unread flag.
 
@@ -376,21 +376,21 @@ Marks an email or a draft in a selected folder as unread by setting the Unread f
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Connection </td> 
-   <td> <p>For instructions about connecting your email account to Workfront Fusion, see <a href="#connect-your-email-to-workfront-fusion" class="MCXref xref">Connect your email to Workfront Fusion</a> in this article.</p> </td> 
+   <td role="rowheader">[!UICONTROL Connection] </td> 
+   <td> <p>For instructions about connecting your email account to [!UICONTROL Workfront Fusion], see <a href="#connect-your-email-to-workfront-fusion" class="MCXref xref">Connect your email to [!UICONTROL Workfront Fusion]</a> in this article.</p> </td>
   </tr> 
   <tr> 
-   <td role="rowheader">Folder</td> 
+   <td role="rowheader">[!UICONTROL Folder]</td> 
    <td>Select the folder of the email you want to mark as unread. Example: Primary.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>Email ID (UID)</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Email ID (UID)]</p> </td> 
    <td> <p>Enter the Email UID of the email you want to mark as unread.</p> <p>You can get the UID of the email by using the [!UICONTROL Email] >[!UICONTROL Watch Email] module or [!UICONTROL Search Email] module.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-#### Move an Email {#move-an-email}
+#### [!UICONTROL Move an Email]
 
 Moves a chosen email or a draft to a selected folder.
 
@@ -399,25 +399,25 @@ Moves a chosen email or a draft to a selected folder.
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Connection </td> 
-   <td> <p>For instructions about connecting your email account to Workfront Fusion, see <a href="#connect-your-email-to-workfront-fusion" class="MCXref xref">Connect your email to Workfront Fusion</a> in this article.</p> </td> 
+   <td role="rowheader">[!UICONTROL Connection] </td> 
+   <td> <p>For instructions about connecting your email account to [!UICONTROL Workfront Fusion], see <a href="#connect-your-email-to-workfront-fusion" class="MCXref xref">Connect your email to [!UICONTROL Workfront Fusion]</a> in this article.</p> </td>
   </tr> 
   <tr> 
-   <td role="rowheader">Source Folder</td> 
+   <td role="rowheader">[!UICONTROL Source Folder]</td> 
    <td>Select the folder that contains the email from which you want to move the email. Example: Primary.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Destination Folder</td> 
+   <td role="rowheader">[!UICONTROL Destination Folder]</td> 
    <td> <p> Select the folder to which you want to add the email. Example: Work.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>Email ID (UID)</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Email ID (UID)]</p> </td> 
    <td> <p>Enter the Email UID of the email you want to move to the destination folder.</p> <p>You can get the UID of the email by using the [!UICONTROL Email] >[!UICONTROL Watch Email] module or [!UICONTROL Search Email] module.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-#### Copy an Email {#copy-an-email}
+#### [!UICONTROL Copy an Email]
 
 Copies an email or a draft into a selected folder.
 
@@ -426,25 +426,25 @@ Copies an email or a draft into a selected folder.
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Connection </td> 
-   <td> <p>For instructions about connecting your email account to Workfront Fusion, see <a href="#connect-your-email-to-workfront-fusion" class="MCXref xref">Connect your email to Workfront Fusion</a> in this article.</p> </td> 
+   <td role="rowheader">[!UICONTROL Connection] </td> 
+   <td> <p>For instructions about connecting your email account to [!UICONTROL Workfront Fusion], see <a href="#connect-your-email-to-workfront-fusion" class="MCXref xref">Connect your email to [!UICONTROL Workfront Fusion]</a> in this article.</p> </td>
   </tr> 
   <tr> 
-   <td role="rowheader">Source Folder</td> 
+   <td role="rowheader">[!UICONTROL Source Folder]</td> 
    <td>Select the folder from which you want to copy the email. Example: Primary.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Destination Folder</td> 
+   <td role="rowheader">[!UICONTROL Destination Folder]</td> 
    <td> <p> Select the folder to which you want to copy the email. Example: Work.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>Email ID (UID)</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Email ID (UID)]</p> </td> 
    <td> <p>Enter the Email UID of the email you want to copy to the destination folder.</p> <p>You can get the UID of the email by using the [!UICONTROL Email] >[!UICONTROL Watch Email] module or [!UICONTROL Search Email] module.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-#### Delete an Email {#delete-an-email}
+#### [!UICONTROL Delete an Email]
 
 Removes an email or a draft from the selected folder.
 
@@ -453,25 +453,25 @@ Removes an email or a draft from the selected folder.
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Connection </td> 
-   <td> <p>For instructions about connecting your email account to Workfront Fusion, see <a href="#connect-your-email-to-workfront-fusion" class="MCXref xref">Connect your email to Workfront Fusion</a> in this article.</p> </td> 
+   <td role="rowheader">[!UICONTROL Connection] </td> 
+   <td> <p>For instructions about connecting your email account to [!UICONTROL Workfront Fusion], see <a href="#connect-your-email-to-workfront-fusion" class="MCXref xref">Connect your email to [!UICONTROL Workfront Fusion]</a> in this article.</p> </td>
   </tr> 
   <tr> 
-   <td role="rowheader">Folder</td> 
+   <td role="rowheader">[!UICONTROL Folder]</td> 
    <td>Select the folder of the email you want to delete. Example: Primary.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>Email ID (UID)</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Email ID (UID)]</p> </td> 
    <td> <p>Enter the Email UID of the email you want to delete.</p> <p>You can get the UID of the email by using the [!UICONTROL Email] >[!UICONTROL Watch Email] module or [!UICONTROL Search Email] module.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Expunge</td> 
-   <td> <p>Enable this option to allow the module to permanently remove all messages flagged as Deleted in the currently open mailbox.</p> <p>Note: In Gmail, this behavior is driven by the setting in [!UICONTROL Settings] >[!UICONTROL Forwarding POP/IMAP in IMAP access] section.</p> </td> 
+   <td role="rowheader">[!UICONTROL Expunge]</td> 
+   <td> <p>Enable this option to allow the module to permanently remove all messages flagged as [!UICONTROL Deleted] in the currently open mailbox.</p> <p>Note: In [!DNL Gmail], this behavior is driven by the setting in [!UICONTROL Settings] >[!UICONTROL Forwarding POP/IMAP in IMAP access] section.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-#### Get Emails {#get-emails}
+#### [!UICONTROL Get Emails]
 
 Returns emails that match the specified criteria.
 
@@ -480,66 +480,66 @@ Returns emails that match the specified criteria.
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Connection </td> 
-   <td> <p>For instructions about connecting your email account to Workfront Fusion, see <a href="#connect-your-email-to-workfront-fusion" class="MCXref xref">Connect your email to Workfront Fusion</a> in this article.</p> </td> 
+   <td role="rowheader">[!UICONTROL Connection] </td> 
+   <td> <p>For instructions about connecting your email account to [!UICONTROL Workfront Fusion], see <a href="#connect-your-email-to-workfront-fusion" class="MCXref xref">Connect your email to [!UICONTROL Workfront Fusion]</a> in this article.</p> </td>
   </tr> 
   <tr> 
-   <td role="rowheader">Folder </td> 
+   <td role="rowheader">[!UICONTROL Folder] </td> 
    <td> <p>Select the folder that contains the emails you want to retrieve.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Mark message(s) as read when fetched </td> 
+   <td role="rowheader">[!UICONTROL Mark message(s) as read when fetched] </td> 
    <td> <p>Enable this option if you want to mark the unread email as read after retrieving the details.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>Criteria</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Criteria]</p> </td> 
    <td> <p>Select the criteria of the emails you want to retrieve:</p> 
     <ul> 
-     <li>All Emails</li> 
-     <li>Only Read Emails</li> 
-     <li>Only Unread Emails</li> 
+     <li>[!UICONTROL All Emails]</li> 
+     <li>[!UICONTROL Only Read Emails]</li> 
+     <li>[!UICONTROL Only Unread Emails]</li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Sender Email Address </td> 
+   <td role="rowheader">[!UICONTROL Sender Email Address] </td> 
    <td> <p>Enter or map the email address of the sender whose emails you want to retrieve.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Recipient Email Address</td> 
+   <td role="rowheader">[!UICONTROL Recipient Email Address]</td> 
    <td> <p> Enter or map the email address of the recipient whose emails you want to retrieve.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">From date </td> 
+   <td role="rowheader">[!UICONTROL From date] </td> 
    <td> <p>Enter or map the date to retrieve the emails processed on or after the specified date.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Before date</td> 
+   <td role="rowheader">[!UICONTROL Before date]</td> 
    <td> <p> Enter or map the date to retrieve the emails processed on or before the specified date.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Subject </td> 
+   <td role="rowheader">[!UICONTROL Subject] </td> 
    <td> <p>Enter or map the subject of the email you want to retrieve.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Phrase </td> 
+   <td role="rowheader">[!UICONTROL Phrase] </td> 
    <td> <p>Enter or map any keywords to retrieve only those emails containing specific phrases.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Email ID (UID)</td> 
-   <td> <p> Enter the Email ID (UID) of the email whose details you want to retrieve.</p> <p>You can get the UID of the email by using Workfront Fusion's Watch Email module or Search Email module.</p> </td> 
+   <td role="rowheader">[!UICONTROL Email ID (UID)]</td> 
+   <td> <p> Enter the Email ID (UID) of the email whose details you want to retrieve.</p> <p>You can get the UID of the email by using [!DNL Workfront Fusion]'s[!UICONTROL  Watch Email] module or [!UICONTROL Search Email] module.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Maximum number of results</td> 
+   <td role="rowheader">[!UICONTROL Maximum number of results]</td> 
    <td> <p> The maximum number of emails [!DNL Workfront Fusion] should return during one scenario execution cycle.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Continue the execution of the route even if the module returns no results</td> 
+   <td role="rowheader">[!UICONTROL Continue the execution of the route even if the module returns no results]</td> 
    <td> <p> Select if you want to continue to run the module even if there are no results returned.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-#### Send me an Email {#send-me-an-email}
+#### [!UICONTROL Send me an Email]
 
 Sends a new email to your email address.
 
@@ -548,19 +548,19 @@ Sends a new email to your email address.
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Subject </td> 
+   <td role="rowheader">[!UICONTROL Subject] </td> 
    <td> <p>Enter or map the subject line of the email.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Content </td> 
+   <td role="rowheader">[!UICONTROL Content] </td> 
    <td> <p>Enter the body of the email.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-### Iterators {#iterators}
+### Iterators
 
-#### Iterate Attachments
+#### [!UICONTROL Iterate Attachments]
 
 Iterates received attachments one by one.
 
@@ -571,10 +571,10 @@ The email iterator module lets you manage email attachments separately. For exam
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Source module</td> 
+   <td role="rowheader">[!UICONTROL Source module]</td> 
    <td> <p>Select the module that outputs the email with the attachments that you want to iterate through.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-For more information about iterators, see [Iterator module in Adobe Workfront Fusion](../../workfront-fusion/modules/iterator-module.md).
+For more information about iterators, see [Iterator module in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/iterator-module.md).

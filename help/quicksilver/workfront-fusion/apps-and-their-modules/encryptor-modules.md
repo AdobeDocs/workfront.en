@@ -1,6 +1,6 @@
 ---
 title: Encryptor
-description: Encryptor
+description: Adobe Workfront Fusion Encryptor modules allow you to encrypt any text data. They currently support message encryption via AES256 and PGP (OpenPGP).
 author: Becky
 draft: Probably
 feature: Workfront Fusion
@@ -8,7 +8,7 @@ exl-id: 9664c4f1-6467-45c9-8b9e-5a41d0e9ccb9
 ---
 # Encryptor
 
-Adobe Workfront Fusion Encryptor modules allow you to encrypt any text data. They currently support message encryption via AES256 and PGP (OpenPGP).
+[!DNL Adobe Workfront Fusion] [!UICONTROL Encryptor] modules allow you to encrypt any text data. They currently support message encryption via AES256 and PGP ([!UICONTROL OpenPGP]).
 
 ## Access requirements
 
@@ -28,7 +28,7 @@ You must have the following access to use the functionality in this article:
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] license**</td> 
-   <td> <p>Workfront Fusion for Work Automation and Integration </p>   <p>[!UICONTROL Workfront Fusion for Work Automation]</p>  </td> 
+   <td> <p>[!UICONTROL Workfront Fusion for Work Automation and Integration] </p>   <p>[!UICONTROL Workfront Fusion for Work Automation]</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
@@ -45,11 +45,11 @@ For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Work
 
 When encrypting and decrypting via PGP, it is necessary to use a keychain and to create a private or public key (or both).
 
-For more information on public and private keys, see [Basic terms in Adobe Workfront Fusion](../../workfront-fusion/get-started/basic-terms.md). For more information on keychains, see [Keys in Adobe Workfront Fusion](../../workfront-fusion/connections/keys.md).
+For more information on public and private keys, see [Basic terms in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/get-started/basic-terms.md). For more information on keychains, see [Keys in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/connections/keys.md).
 
-## Encryptor modules and their fields
+## [!UICONTROL Encryptor] modules and their fields
 
-When you are configuring Encryptor modules, the following fields display. A bolded title in a module indicates a required field.
+When you are configuring [!UICONTROL Encryptor] modules, the following fields display. A bolded title in a module indicates a required field.
 
 ### Encrypt a PGP message
 
@@ -57,15 +57,15 @@ This module allows you to encrypt a message using public and private keys.
 
 <table style="table-layout:auto">
     <tr>
-        <td>Private key</td>
+        <td>[!UICONTROL Private key]</td>
         <td>Enter the sender's private key. This can authenticate the sender's identity.</td>
     </tr>
     <tr>
-        <td>Public key</td>
+        <td>[!UICONTROL Public key]</td>
         <td>Enter the recipient's public key.</td>
     </tr>
     <tr>
-        <td>Message</td>
+        <td>[!UICONTROL Message]</td>
         <td>Enter the message that you want to encrypt.</td>
     </tr>
 
@@ -75,15 +75,15 @@ This module allows you to decrypt a message using public and private keys.
 
 <table style="table-layout:auto">
     <tr>
-        <td>Private key</td>
+        <td>[!UICONTROL Private key]</td>
         <td>Enter the recipient's private key.</td>
     </tr>
     <tr>
-        <td>Public key</td>
+        <td>[!UICONTROL Public key]</td>
         <td>Enter the recipient's public key. This can authenticate the sender's identity.</td>
     </tr>
     <tr>
-        <td>Message</td>
+        <td>[!UICONTROL Message]</td>
         <td>Map the message that you want to decrypt.</td>
     </tr>
 </table>

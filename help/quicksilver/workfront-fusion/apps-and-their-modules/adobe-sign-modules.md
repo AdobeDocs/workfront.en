@@ -116,7 +116,7 @@ This trigger module starts a scenario when an event that you select occurs.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Webhook]</td> 
-   <td>Select the webhook that you want to use, or click <b>Add</b> and fill in the following fields.</td> 
+   <td>Select the webhook that you want to use, or click <b>[!UICONTROL Add]</b> and fill in the following fields.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Webhook name]</td> 
@@ -960,23 +960,23 @@ This search module searches for agreements based on criteria you provide.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL External ID]</td> 
-   <td> <p> External ID is a sender-assigned ID to the agreement that can be of any form, but usually in form of "&lt;groupID>:&lt;ID>".</p> <p>For each External ID you want to add, click <b>Add</b> and enter or map the External ID.</p> </td> 
+   <td> <p> External ID is a sender-assigned ID to the agreement that can be of any form, but usually in form of "&lt;groupID>:&lt;ID>".</p> <p>For each External ID you want to add, click <b>[!UICONTROL Add]</b> and enter or map the External ID.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Group ID]</td> 
-   <td> <p>Group ID is an identifier assigned when the group was created.</p> <p>For each External ID you want to add, click <b>Add</b> and enter or map the External ID.</p> </td> 
+   <td> <p>Group ID is an identifier assigned when the group was created.</p> <p>For each External ID you want to add, click <b>[!UICONTROL Add]</b> and enter or map the External ID.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Asset ID]</td> 
-   <td> <p>This is the ID assigned to the specific agreement. </p> <p>For each External ID you want to add, click <b>Add</b> and enter or map the External ID.</p> </td> 
+   <td> <p>This is the ID assigned to the specific agreement. </p> <p>For each External ID you want to add, click <b>[!UICONTROL Add]</b> and enter or map the External ID.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Parent ID]</td> 
-   <td> <p>This is the ID assigned to the agreement's parent object. </p> <p>For each External ID you want to add, click <b>Add</b> and enter or map the External ID.</p> </td> 
+   <td> <p>This is the ID assigned to the agreement's parent object. </p> <p>For each External ID you want to add, click <b>[!UICONTROL Add]</b> and enter or map the External ID.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Participant email]</td> 
-   <td> <p>The email address of a participant. </p> <p>For each External ID you want to add, click <b>Add</b> and enter or map the External ID.</p> </td> 
+   <td> <p>The email address of a participant. </p> <p>For each External ID you want to add, click <b>[!UICONTROL Add]</b> and enter or map the External ID.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Role]</td> 

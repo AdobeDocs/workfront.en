@@ -142,7 +142,7 @@ When you are configuring this module, the following fields display.
   </tr> 
   <tr> 
    <td>End date</td> 
-   <td> <p> Enter or map the date when the event ends. </p> <p> For a list of supported date and time formats, see <a href="../../workfront-fusion/mapping/type-coercion.md" class="MCXref xref">Type coercion in Adobe Workfront Fusion</a>.</p> </td> 
+   <td> <p> Enter or map the date when the event ends. </p> <p> For a list of supported date and time formats, see <a href="../../workfront-fusion/mapping/type-coercion.md" class="MCXref xref">Type coercion in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>Single events</td> 
@@ -778,7 +778,7 @@ When you are configuring this module, the following fields display.
   </tr> 
   <tr> 
    <td>Minimum time</td> 
-   <td> <p> Enter the start of the interval that you want to retrieve information for.</p> <p> For a list of supported date and time formats, see <a href="../../workfront-fusion/mapping/type-coercion.md" class="MCXref xref">Type coercion in Adobe Workfront Fusion</a>.</p> </td> 
+   <td> <p> Enter the start of the interval that you want to retrieve information for.</p> <p> For a list of supported date and time formats, see <a href="../../workfront-fusion/mapping/type-coercion.md" class="MCXref xref">Type coercion in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>Maximum time</td> 
