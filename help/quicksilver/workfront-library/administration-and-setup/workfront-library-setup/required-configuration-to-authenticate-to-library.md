@@ -9,7 +9,7 @@ exl-id: 1f347047-820c-40cd-bae4-b44887a9d50b
 ---
 # Required configuration to authenticate to [!DNL Workfront Library]
 
-In order to access [!DNL Workfront Library], your users must login using the enhanced [!DNL Workfront] authentication experience. For more information on the enhanced authentication experience, see [Enhanced Authentication overview](../../../administration-and-setup/manage-workfront/security/get-started-enhanced-authentication.md).
+In order to access [!DNL Workfront Library], your users must login using the enhanced [!DNL Workfront] authentication experience.
 
 If your organization has not yet migrated to the enhanced experience, you can still set up authentication to [!DNL Workfront Library] if your system meets the following configuration requirements.
 
