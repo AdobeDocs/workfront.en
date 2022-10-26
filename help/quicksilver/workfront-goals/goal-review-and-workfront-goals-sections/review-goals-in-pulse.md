@@ -9,6 +9,10 @@ exl-id: 33873797-183d-4efc-9099-26eb907ca799
 ---
 # Review goals in the Adobe Workfront Goals Pulse section
 
+<!--drafted for the goal redesign. After the release to Prod, this article will need to be deleted: 
+
+The Pulse section has been removed from the Preview environment. For information about the sections included in the Goals area in the Preview environment, see [Overview of Adobe Workfront Goals sections](FIX LINK: help\quicksilver\workfront-goals\goal-review-and-workfront-goals-sections\overview-of-wf-goals-sections.md.md). -->
+
 You can view all goals in your organization, regardless of who the owner is. For information about creating goals, see [Create goals in Adobe Workfront Goals](../../workfront-goals/goal-management/create-goals.md).
 
 You can use the Pulse section of Adobe Workfront Goals as a collaboration tool, where you can review and participate in a stream of updates about current goals that belong to you, your teams, groups, or organization and ensure that goals stay current. Workfront Goals groups progress updates, comments and editing history by goal in the Pulse section.
