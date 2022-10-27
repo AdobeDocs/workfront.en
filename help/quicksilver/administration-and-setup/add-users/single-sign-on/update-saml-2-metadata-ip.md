@@ -15,8 +15,6 @@ exl-id: 75cd0ab5-8d76-40a4-96a8-00e9f0f4fec6
 
 The following sections describe how to update your Security Assertion Markup Language (SAML) 2.0 metadata when using Active Directory Federation Services (ADFS) as your identity provider.
 
-If your organization has been upgraded to the enhanced authentication experience (not yet available for all organizations), see the information in [Update SAML 2.0 metadata in your IDP when using enhanced authentication](../../../administration-and-setup/add-users/single-sign-on/update-saml-2-metadata-ip-eauth-.md).
-
 ## Access requirements
 
 You must have the following access to perform the steps in this article: 
