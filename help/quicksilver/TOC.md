@@ -889,6 +889,7 @@ feature-set: Workfront
     * [Manage the work in progress (WIP) limit on a board](agile/use-boards-agile-planning-tools/manage-wip-limit-on-board.md)
     * [Add an intake column to a board](agile/use-boards-agile-planning-tools/add-intake-column-to-board.md)
     * [Use groups on a board](agile/use-boards-agile-planning-tools/group-cards-on-board.md)
+    * [Configure card falloff](agile/use-boards-agile-planning-tools/configure-card-falloff.md)
   * Kanban in an agile team {#kanban}
     * [Kanban in an agile team](agile/use-kanban-in-an-agile-team/using-kanban-in-an-agile-team.md)
     * [Kanban overview](agile/use-kanban-in-an-agile-team/kanban-overview.md)
