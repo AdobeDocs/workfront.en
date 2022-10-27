@@ -11,8 +11,6 @@ exl-id: 7fa644cd-cf6a-40f8-ae28-bf222bb45d3f
 ---
 # Deprecation of Resource Scheduling tools in Adobe Workfront
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span>
-
 We are currently in the process of deprecating all Scheduling tools from Adobe Workfront and replacing them with the Workload Balancer.
 
 >[!IMPORTANT]
@@ -332,9 +330,9 @@ In addition to existing features, the Workload Balancer has or will have new fun
    <td>&nbsp;</td> 
     
    <tr> 
-   <td><span>Add users to the project team <span class="preview">(relocated to the <b>People</b> tab of the project)</span></span> </td> 
+   <td>Add users to the project team (relocated to the <b>People</b> tab of the project) </td> 
    <td>✓</td> 
-   <td><span class="preview">✓</span> </td> 
+   <td>✓</td> 
    <td></td> 
    <td>&nbsp;</td> 
 
