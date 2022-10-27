@@ -238,7 +238,8 @@ Some settings mentioned in this article might be modified from their default sta
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Project Owner</strong> </td> 
-      <td> <p>Start typing the name of a user to add them to the project, then select it when it displays in the list. The user is added to the project team and is automatically given Manage permissions to the project. The user who is designated as the Project Owner must be a Workfront active user.</p> </td> 
+      <td> <p>Start typing the name of a user to add them to the project, then select it when it displays in the list. The user is added to the project team and is automatically given Manage permissions to the project. The user who is designated as the Project Owner must be a Workfront active user.</p>
+      </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Project Sponsor</strong> </td> 

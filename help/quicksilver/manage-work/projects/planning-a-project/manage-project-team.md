@@ -9,13 +9,6 @@ exl-id: 6e8036fc-feda-4277-9502-0b973028fccb
 ---
 # Manage the Project Team
 
-<!--
-<drafted for Scheduling deprecation: 
-remove the step where we say that we need to click on Scheduling and THEN on the WB when the Scheduling tools will be removed from the app; leave just "adding automatically" and how to remove users - the People tab should still be there. See more notes below - remove the IMPORTANT box about the deprecation
--->
-
-<!-- remove any Preview and Prod references at release-->
-
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> 
 
 The Project Team consists of users who are associated with the project. The members of the Project Team display in the People section of the project.
@@ -59,9 +52,9 @@ You must have the following access to perform the steps in this article:
 
 When you add users to the project team, they gain View permissions on the project and the tasks, issues, and documents of the project. For more information, see the article [Project Team overview](../../../manage-work/projects/planning-a-project/project-team-overview.md).
 
-<span class="preview">In the Preview environment, users on the Project Team are not automatically added to the resource management tools for the project.</span>
-
-<!--in the above sentence: take out "in the preview..." at production time-->
+>[!TIP]
+>
+>Users on the Project Team are not automatically added to the resource management tools for the project.
 
 You can add users to the project team in the following ways:
 
@@ -91,31 +84,15 @@ If users that don't fulfill any role on the project want to be notified about ce
 >
 >You can add to the Project Team only users that belong to the Group associated with the project. You cannot add users that belong to the Subgroups of the project's group. 
 
-1. (Conditional) In the Production environment, go to the project where you want to add users, then click **Scheduling** in the left panel. You might need to click **Show More** to find the **Scheduling** section, or click **Workload Balancer** first, and then select **Scheduling** in the upper-left corner of the Workload Balancer.
+1. Go to the project you want to add users to. 
 
-   <!--delete "Conditional" with the Production release-->
+1. Click **People** in the left panel. You might need to click **Show More** first.
 
-   Or
-
-   <span class="preview">In the Preview environment, click **People** in the left panel.</span> You might need to click **Show More** first.
-
-   >[!IMPORTANT]
-   >
-   >The Scheduling tools are currently removed from the Preview environment and will be removed from the Production environment on **November 10, 2022**. 
-   > 
-   >
-   >For more information, see [Deprecation of Resource Scheduling tools in Adobe Workfront](../../../resource-mgmt/resource-mgmt-overview/deprecate-resource-scheduling.md). 
-
-   <!--drafted for scheduling deprecation: remove the IMPORTANT above when scheduling is deprecated-->
-1. Click <span class="preview">**Add users**</span>. 
+1. Click **Add users**. 
 
    The Add users to Project Team dialog box displays.
 
-<div class="preview">
-
    ![add_users_dialog.png](assets/add-users-dialog-350x217.png)
-
-</div>
 
 1. In the **Add users** box, begin typing the name of the user you want to add to the project team, then click the name when it appears in the drop-down list.
 
@@ -123,16 +100,13 @@ If users that don't fulfill any role on the project want to be notified about ce
 
    >[!TIP]
    >
-   >   You cannot add users by adding their teams, groups, companies, or job roles.
+   >* You cannot add users by adding their teams, groups, companies, or job roles.
+   >* <span class="preview">As you add the users, notice the avatar, the user's Primary Role, and their email address to distinguish between users with identical names. Users must be associated with at least one job role to view it as you add them.</span> 
 
 
 1. Click **Add**.
 
-   <span class="preview"> In the Preview environment, the users gain View permissions to the project and receive notifications about the project as part of the project team.</span>
-
-   In the Production environment, the users are also added to the Scheduling area. 
-
-   <!-- remove the sentennce above at producion-->
+   The users gain View permissions to the project and receive notifications about the project as part of the project team.
 
 ## Remove users from a Project Team
 
