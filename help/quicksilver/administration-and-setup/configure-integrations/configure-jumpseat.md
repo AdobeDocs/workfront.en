@@ -58,20 +58,22 @@ We recommend setting up a JumpSeat integration in both your Preview and Producti
 To configure the JumpSeat integration:
 
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup**.
-1. In the left panel, click **System**> **JumpSeat Integration**.
+1. In the left panel, click **System** > **JumpSeat Integration**.
 1. Enter your **JumpSeat URL**.
 
    **Example:** https://{mycompanyname}.jumpseat.io
 
-1. Enter the **JumpSeat integration token**. You can find this on the **Configuration**page in JumpSeat.
+1. Enter the **JumpSeat integration token**. You can find this on the **Configuration** page in JumpSeat.
 
    **Example:** $2y$10$BevsKeQ8....OYR.LurSg2U64O
 
 1. Click **Test configuration**.
-1. Choose if you want the integration to be **Active**or **Inactive**.
+1. Choose if you want the integration to be **Active** or **Inactive**.
 
    >[!IMPORTANT]
    >
    >The configuration test performed in step 5 must pass in order to activate the integration.
 
-   ![JumpSeat Integration page](assets/jumpseat-integration-page-350x159.png)
+   ![JumpSeat Integration page](assets/jumpseat-integration-page.png)
+
+1. Click **Save**.
