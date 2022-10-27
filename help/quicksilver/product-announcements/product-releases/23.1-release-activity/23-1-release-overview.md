@@ -96,7 +96,7 @@ The enhancements on this page are available in the Preview environment. This pag
                 </tr>
                 <tr>
                     <td>
-                        <a href="../../../product-announcements/product-releases/23.1-release-activity/23-1-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Filter by connection on boards</a><span style="color: #ff0000;"> New in Preview!</span></p>
+                        <a href="../../../product-announcements/product-releases/23.1-release-activity/23-1-oct-24.md" class="MCXref xref" xrefformat="{para}">Filter by connection on boards</a><span style="color: #ff0000;"> New in Preview!</span></p>
                         <p>The list of filters on a board now includes the option to filter by connection, which shows you all of the connected cards for a specific project. You can also filter by cards that are not connected.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
@@ -115,7 +115,7 @@ The enhancements on this page are available in the Preview environment. This pag
                 </tr>
                 <tr>
                     <td>
-                        <a href="../../../product-announcements/product-releases/23.1-release-activity/23-1-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Archive cards from a board on a schedule</a><span style="color: #ff0000;"> New in Preview!</span></p>
+                        <a href="../../../product-announcements/product-releases/23.1-release-activity/23-1-oct-24.md" class="MCXref xref" xrefformat="{para}">Archive cards from a board on a schedule</a><span style="color: #ff0000;"> New in Preview!</span></p>
                         <p>You can configure a board so that cards are archived, or "fall off" the board, on a schedule. Options are available to set cards in a particular column to archive in a certain number of days or weeks. For example, you could define the falloff so that cards in a Complete column are archived after they are in the column for two weeks.</p>
                         <p>If you want to display the cards again after they fall off the board, you can set the board filter to display archived cards.</p>
                     </td>
@@ -154,7 +154,7 @@ The enhancements on this page are available in the Preview environment. This pag
                 </tr>
                 <tr>
                     <td>
-                        <a href="../../../product-announcements/product-releases/23.1-release-activity/23-1-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">How to access Workfront help, for customers on the Adobe Unified Experience</a><span style="color: #ff0000;"> New in Preview!</span></p>
+                        <a href="../../../product-announcements/product-releases/23.1-release-activity/23-1-oct-24.md" class="MCXref xref" xrefformat="{para}">How to access Workfront help, for customers on the Adobe Unified Experience</a><span style="color: #ff0000;"> New in Preview!</span></p>
                         <p>If your organization has been onboarded to the Adobe Admin Console and the Adobe Unified Experience for Workfront, the Workfront navigation bar no longer includes a link for "Help."</p>
                         <p>You can access Workfront help on Adobe Experience League either from the Main Menu on the left of the Workfront navigation bar or by the question mark icon in the top navigation area.</p>
                     </td>
