@@ -24,10 +24,6 @@ Administrators can also [create a package with the plugins](https://helpx.adobe.
 
 ## Sync object metadata with the native Experience Manager Assets integration
 
->[!NOTE]
->
->This feature is currently available in Preview; this page will be updated when the feature is available in Production.
-
 Now, Workfront portfolio, program, project, task, issue, and document fields update automatically when the field is changed in Workfront.
 
 To allow object metadata to sync automatically, you must enable the Sync object metadata toggle for your integrations in Setup > Experience Manager integrations. 
@@ -37,10 +33,6 @@ Previously, only project fields updated automatically.
 For more information, see [Configure the Experience Manager Assets as a Cloud Service integration](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md).
 
 ## Metadata pushes for program and portfolio parent objects
-
->[!NOTE]
->
->This feature is currently available in Preview; this page will be updated when the feature is available in Production.
 
 Now, when an asset is first sent to Experience Manager Assets or Assets Essentials, any metadata configured to map for program and portfolio parent objects is sent as well.
 

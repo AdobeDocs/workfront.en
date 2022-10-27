@@ -61,17 +61,17 @@ You must have the following access to perform the steps in this article:
 1. (Optional) Select the correct filter in the **Filter** drop-down menu, to view the correct list of portfolios.  
 1. Click the name of a portfolio to open it. 
 1. Click **Portfolio Optimization** in the left panel. 
-1. In the **Project Prioritization** section,&nbsp;alter the priority of your projects by clicking the gray area next to the number of the project and dragging it to the desired display position.
+1. In the project optization area, alter the priority of your projects by dragging the projects in order of their priority and dropping then to the desired display position.
 
    ![](assets/portfolio-optimizer-with-projects-nwe-350x89.png)
 
-   Click the **Set Priority** button in the Optimizer tools area when you finish re-arranging your projects. The projects will receive a new number&nbsp;based on the new order.
+   Click **Set Priority** in the project optimization area when you finish re-arranging your projects. The projects will receive a new number based on the new order.
 
-1. Click **Save** to save the new project priority in the Portfolio Optimizer.
+1. Click **Save** to save the new project priority in the Portfolio Optimizer. The priority is listed as a number in the number **#** column.
 
-   >[!NOTE]
+   >[!TIP]
    >
-   >This does not necessarily change the order of the projects in the Portfolio Optimizer. The priority is listed as a number in the number (**#**) column.&nbsp;
+   >This does not necessarily change the order of the projects in the Portfolio Optimizer, because the list of projects might be sorted by a column other than the **#** column. Click the **#** column header to order the list by project priority.
 
    You can see the priority of the project as it appears in the Portfolio Optimizer in the Resource Planner, by enabling the **Display Portfolio Priorities** setting in the Resource Planner.
 

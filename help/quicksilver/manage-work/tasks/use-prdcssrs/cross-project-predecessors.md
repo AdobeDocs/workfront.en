@@ -84,3 +84,8 @@ You must have the following access to perform the steps in this article:
    Hover over this value to get more information on the predecessor, the project, and the dates. Click the cross-project predecessor in the details box to open the task. Click **See Project** to open the cross project.
 
    ![Cross-project predecessor details](assets/cross-project-predecessor-details.png)
+
+   >[!TIP]
+   >
+   >   The **See Project** option displays only when viewing a cross-project predecessor. 
+

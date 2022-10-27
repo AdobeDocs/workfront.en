@@ -19,7 +19,7 @@ You must have the following access to perform the steps in this article:
  <col> 
  <col> 
  <tbody> 
-  <tr> 
+ <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
    <td> <p>Current plan: [!UICONTROL Pro] or Higher</p> <p>or</p> <p>Legacy plan: [!UICONTROL Premium]</p> <p>For more information about proofing access with the different plans, see .</p> </td> 
   </tr> 
@@ -46,9 +46,9 @@ You must have the following access to perform the steps in this article:
 
 ## Prerequisites
 
-* You must install the [!DNL Adobe Workfront for Creative Cloud] plugin before you can upload proofs from [!DNL InDesign].
+* You must install the [!DNL Adobe Workfront for InDesign] plugin before you can upload proofs from [!DNL InDesign].
 
-  For instructions, see [Install [!DNL Workfront for Creative Cloud]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-install-cc.md).
+  For instructions, see [Install [!DNL Adobe Workfront for InDesign]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-install-cc.md).
 
 ## Upload a Basic Proof
 
