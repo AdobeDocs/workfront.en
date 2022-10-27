@@ -52,7 +52,7 @@ You must have the following access to perform the steps in this article:
 
    ![Card falloff settings](assets/card-falloff-switch.png)
 
-1. Select when to archived cards from the board. You can choose up to 4 weeks or up to 30 days. 
+1. Select when to archive cards from the board. You can choose up to 4 weeks or up to 30 days. 
 
    The date is determined from when the card was last modified.
 
