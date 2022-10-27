@@ -22,7 +22,7 @@ To create a more consistent experience within Jira, we've updated the Workfront 
 
 The functionality of the Workfront for Jira integration has not changed.
 
-For more information on the Workfront for Jira integration, see file:///C:/Flare/WFDocumentation/Content/Workfront integrations and apps/Use Workfront with Jira/_workfront-for-jira.htm.
+For more information on the Workfront for Jira integration, see [Adobe Workfront for Jira](/help/quicksilver/workfront-integrations-and-apps/use-workfront-with-jira/workfront-for-jira.md).
 
 ## Smart user selection when updating user fields
 
