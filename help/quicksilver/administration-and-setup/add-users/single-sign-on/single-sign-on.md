@@ -19,7 +19,6 @@ This section contains the following articles:
 * [Configure Adobe Workfront with Active Directory](../../../administration-and-setup/add-users/single-sign-on/configure-workfront-ad.md) 
 * [Configure Adobe Workfront with LDAP](../../../administration-and-setup/add-users/single-sign-on/configure-workfront-ldap.md) 
 * [Configure Adobe Workfront with SAML 2.0](../../../administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2.md) 
-* [Update SAML 2.0 metadata in your IDP when using enhanced authentication](../../../administration-and-setup/add-users/single-sign-on/update-saml-2-metadata-ip-eauth-.md) 
 * [Update SAML 2.0 metadata in your identity provider](../../../administration-and-setup/add-users/single-sign-on/update-saml-2-metadata-ip.md) 
 * [Configure Adobe Workfront with SAML 2.0 using ADFS](../../../administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2-adfs.md) 
 * [Configure Adobe Workfront with SAML 1.1](../../../administration-and-setup/add-users/single-sign-on/configure-workfront-saml-1.1.md) 

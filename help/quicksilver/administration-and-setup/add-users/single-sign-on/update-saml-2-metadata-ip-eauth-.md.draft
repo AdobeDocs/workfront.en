@@ -8,6 +8,8 @@ exl-id: 55d7d8a8-0dfe-45bc-a23a-47111347e9ca
 ---
 # Update SAML 2.0 metadata in your IDP when using enhanced authentication
 
+<!-- enhanced authentication is no longer available for workfront customers -->
+
 {{important-admin-console-onboard}}
 
 As an Adobe Workfront administrator, you can integrate Workfront single sign-on (SSO) with any identity provider that supports the Security Assertion Markup Language (SAML) 2.0 protocol.

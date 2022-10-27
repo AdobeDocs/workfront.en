@@ -27,5 +27,3 @@ The following SSO options are now supported only in a limited capacity; they wil
 * SAML 1.1
 
   For more information about using SAML 1.1 with Workfront, see [Configure Adobe Workfront with SAML 1.1](../../../administration-and-setup/add-users/single-sign-on/configure-workfront-saml-1.1.md).
-
-For more information about how you can expect SSO to work in the future when using Workfront, see [Enhanced Authentication overview](../../../administration-and-setup/manage-workfront/security/get-started-enhanced-authentication.md).

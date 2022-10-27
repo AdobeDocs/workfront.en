@@ -426,7 +426,6 @@ feature-set: Workfront
       * [Configure Workfront with Active Directory](administration-and-setup/add-users/single-sign-on/configure-workfront-ad.md)
       * [Configure Workfront with LDAP](administration-and-setup/add-users/single-sign-on/configure-workfront-ldap.md)
       * [Configure Workfront with SAML 2.0](administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2.md)
-      * [Update SAML 2.0 metadata in your IDP](administration-and-setup/add-users/single-sign-on/update-saml-2-metadata-ip-eauth-.md)
       * [Update SAML 2.0 metadata in identity provider](administration-and-setup/add-users/single-sign-on/update-saml-2-metadata-ip.md)
       * [Configure Adobe Workfront with SAML 2.0 using ADFS](administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2-adfs.md)
       * [Configure Workfront with SAML 1.1](administration-and-setup/add-users/single-sign-on/configure-workfront-saml-1.1.md)
@@ -551,7 +550,6 @@ feature-set: Workfront
     * Security {#security}
       * [Security](administration-and-setup/manage-workfront/security/security.md)
       * [Security preferences](administration-and-setup/manage-workfront/security/configure-security-preferences.md)
-      * [Enhanced Authentication](administration-and-setup/manage-workfront/security/get-started-enhanced-authentication.md)
       * [Passwords for authentication](administration-and-setup/manage-workfront/security/configure-password-policies-authentication.md)
       * [Removal of single sign-on options](administration-and-setup/manage-workfront/security/removal-various-sso-options.md)
       * [Renew SAML 2.0 metadata certificate](administration-and-setup/manage-workfront/security/renew-wf-saml-2-certificate.md)
@@ -891,6 +889,7 @@ feature-set: Workfront
     * [Manage the work in progress (WIP) limit on a board](agile/use-boards-agile-planning-tools/manage-wip-limit-on-board.md)
     * [Add an intake column to a board](agile/use-boards-agile-planning-tools/add-intake-column-to-board.md)
     * [Use groups on a board](agile/use-boards-agile-planning-tools/group-cards-on-board.md)
+    * [Configure card falloff](agile/use-boards-agile-planning-tools/configure-card-falloff.md)
   * Kanban in an agile team {#kanban}
     * [Kanban in an agile team](agile/use-kanban-in-an-agile-team/using-kanban-in-an-agile-team.md)
     * [Kanban overview](agile/use-kanban-in-an-agile-team/kanban-overview.md)
