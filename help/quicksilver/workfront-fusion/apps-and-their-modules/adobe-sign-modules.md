@@ -69,10 +69,12 @@ If you see the map button above a field or function, you can use it to set varia
 
 ### Triggers {#triggers}
 
+<!--
 * [Watch for agreements](#watch-for-agreements) 
 * [Watch for events](#watch-for-events)
+-->
 
-#### Watch for agreements {#watch-for-agreements}
++++ **Watch for agreements**
 
 This trigger module starts a scenario when an agreement is created or updated.
 
@@ -103,7 +105,9 @@ This trigger module starts a scenario when an agreement is created or updated.
  </tbody> 
 </table>
 
-#### Watch for events {#watch-for-events}
++++
+
++++ **Watch for events**
 
 This trigger module starts a scenario when an event that you select occurs.
 
@@ -166,8 +170,11 @@ This trigger module starts a scenario when an event that you select occurs.
  </tbody> 
 </table>
 
++++
+
 ### Actions {#actions}
 
+<!--
 * [Create a record](#create-a-record) 
 * [Create an agreement](#create-an-agreement) 
 * [Create related records](#create-related-records) 
@@ -178,8 +185,9 @@ This trigger module starts a scenario when an event that you select occurs.
 * [Update a record](#update-a-record) 
 * [Update related record](#update-related-record) 
 * [Upload document](#upload-document)
+-->
 
-#### Create a record {#create-a-record}
++++ **Create a record**
 
 This action module creates a new record of the selected type.
 
@@ -306,13 +314,15 @@ This action module creates a new record of the selected type.
  </tbody> 
 </table>
 
-#### Create an agreement {#create-an-agreement}
++++
+
++++ **Create an agreement**
 
 This action module creates an agreement, sends it out for signature, and returns the agreement ID.
 
 >[!NOTE]
 >
->We recommend uploading the document to sign as a transient document, then mapping it to the File to send field in the Create an agreement module. For an example, see [Upload document](#upload-document) in this article.
+>We recommend uploading the document to sign as a transient document, then mapping it to the File to send field in the Create an agreement module. For an example, see "Upload document" in this article.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -449,7 +459,9 @@ This action module creates an agreement, sends it out for signature, and returns
  </tbody> 
 </table>
 
-#### Create related records  {#create-related-records}
++++
+
++++ **Create related records**
 
 This action module creates records linked to a module you select.
 
@@ -566,8 +578,9 @@ This action module creates records linked to a module you select.
  </tbody> 
 </table>
 
-#### Custom API Call {#custom-api-call}
++++
 
++++ **Custom API Call**
 This module allows you to perform a custom API call.
 
 <table style="table-layout:auto"> 
@@ -608,7 +621,9 @@ This module allows you to perform a custom API call.
  </tbody> 
 </table>
 
-#### List records {#list-records}
++++
+
++++ **List records**
 
 This action module lists all records of the selected type that the account has access to.
 
@@ -659,7 +674,9 @@ This action module lists all records of the selected type that the account has a
  </tbody> 
 </table>
 
-#### Read a record  {#read-a-record}
++++
+
++++ **Read a record**
 
 This action module retrieves information from a single record.
 
@@ -686,7 +703,9 @@ This action module retrieves information from a single record.
  </tbody> 
 </table>
 
-#### Read related records {#read-related-records}
++++
+
++++ **Read related records**
 
 Read additional information related to a single record.
 
@@ -717,7 +736,9 @@ Read additional information related to a single record.
  </tbody> 
 </table>
 
-#### Update a record  {#update-a-record}
++++
+
++++ **Update a record**
 
 This action module updates a single record in Adobe Acrobat Sign.
 
@@ -774,7 +795,9 @@ This action module updates a single record in Adobe Acrobat Sign.
  </tbody> 
 </table>
 
-#### Update related record {#update-related-record}
++++
+
++++ **Update related record**
 
 This action module updates records related to a specific object.
 
@@ -852,9 +875,9 @@ This action module updates records related to a specific object.
  </tbody> 
 </table>
 
-&nbsp;
++++
 
-#### Upload document {#upload-document}
++++ **Upload document**
 
 Upload a transient document. A transient document is available for 7 days after it is uploaded.
 
@@ -884,7 +907,7 @@ Upload a transient document. A transient document is available for 7 days after 
   </tr> 
  </tbody> 
 </table>
-
+                                          
 **Example:** In this workflow, the document to sign (previously downloaded from Workfront) is uploaded as a transient document.
 
 ![](assets/sign-example-1-350x308.png)
@@ -893,9 +916,11 @@ The Upload document modules gives the document an Adobe Acrobat Sign ID that can
 
 ![](assets/sign-example-2-350x356.png)
 
++++
+
 ### Searches {#searches}
 
-#### Search agreements
++++ **Search agreements**
 
 This search module searches for agreements based on criteria you provide.
 
@@ -993,3 +1018,5 @@ This search module searches for agreements based on criteria you provide.
   </tr> 
  </tbody> 
 </table>
+
++++

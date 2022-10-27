@@ -9,18 +9,11 @@ exl-id: 60dabfc5-6a2e-4368-9dac-db48d0307895
 ---
 # Navigate the Workload Balancer
 
-Use the Workload Balancer in Adobe Workfront to assign work to your users based on their availability. This article describes how you can use settings and options to navigate the Workload Balancer and display the information that is relevant to you. Additional articles listed here describe how you can use the Workload Balancer to manage your resources and their allocation to work. 
+Use the Workload Balancer in Adobe Workfront to assign work to users based on their availability. This article describes how you can use settings and options to navigate the Workload Balancer and display the information that is relevant to you. Additional articles listed here describe how you can use the Workload Balancer to manage your resources and their allocation to work. 
 
->[!NOTE]
->
->The Workload Balancer is a resource scheduling tool that will eventually replace the current resource scheduling tools which are currently deprecated.
->
->For more information about removing the resource scheduling tools and replacing them with the Workload Balancer, see [Deprecation of Resource Scheduling tools in Adobe Workfront](../resource-mgmt-overview/deprecate-resource-scheduling.md).
->
->We recommend that you use the Workload Balancer for scheduling your resources.
+The Workload Balancer is available in multiple areas of Adobe Workfront. Navigating it is similar in all areas. 
 
-
-The Workload Balancer is available in multiple areas of Adobe Workfront. Navigating it is similar in all areas. This article describes how to navigate the Workload Balancer for multiple projects in the Resourcing area. For more information about where the Workload Balancer is located, see [Locate the Workload Balancer](https://experienceleague.adobe.com/docs/workfront/using/manage-resources/the-workload-balancer/locate-workload-balancer.html?lang=en).
+For more information about where the Workload Balancer is located, see [Locate the Workload Balancer](https://experienceleague.adobe.com/docs/workfront/using/manage-resources/the-workload-balancer/locate-workload-balancer.html?lang=en).
 
 
 ## Access requirements
@@ -431,11 +424,11 @@ The page of your Home Team displays by default.
     
     For example, you might consider displaying only users that belong to your teams or groups. For more information, see [Filter information in the Workload Balancer](../workload-balancer/filter-information-workload-balancer.md). 
 
-1. (Optional) Click the **Filter** icon ![](assets/filter-icon.png) in the Assigned Work area and select the **This project's work items** option from the **Suggested** area of the filter area. 
+1. (Optional) Click the **Filter** icon ![](assets/filter-icon.png) in the Assigned Work area and select the **This project's work items** option from the **Suggested** area of the filter area. This filter is deselected by default.
 
     When this option is selected, only the items assigned to users on the selected project display. 
     
-    When the option is unselected, all the items assigned to the users on the project display, regardless of what projects the items belong to.
+    When the option is deselected, all the items assigned to the users on the project display, regardless of what projects the items belong to.
 
 1. (Optional and recommended) Apply a filter in the Assigned Work area to display users that are important to you but might not be assigned to items on the project, then click the **Show all users** icon ![](assets/show-all-users-icon-project-workload-balancer.png). 
 

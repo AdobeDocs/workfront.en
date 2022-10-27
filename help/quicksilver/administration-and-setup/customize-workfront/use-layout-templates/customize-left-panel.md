@@ -138,17 +138,17 @@ You must have the following access to perform the steps in this article:
      <tr> 
       <td>Scrum Team</td> 
       <td>The name of a Scrum team</td> 
-      <td><p>Iterations, Current iteration, Backlog, Schedule, Updates, Team Settings</p> <p><strong>NOTE:</strong> The <strong>Current iteration</strong> item only displays in the left panel when there is at least one task or issue on the iteration.</p></td> 
+      <td><p>Iterations, Current iteration, Backlog, Schedule*, Updates, Team Settings</p> <p><strong>NOTE:</strong> The <strong>Current iteration</strong> item only displays in the left panel when there is at least one task or issue on the iteration.</p></td> 
      </tr> 
      <tr> 
       <td>Kanban Team</td> 
       <td>The name of a Kanban team</td> 
-      <td>Schedule, Kanban board, Backlog, Updates, Team Settings</td> 
+      <td>Schedule*, Kanban board, Backlog, Updates, Team Settings</td> 
      </tr> 
      <tr> 
       <td>Waterfall Team</td> 
       <td>The name of a Waterfall team</td> 
-      <td>Schedule, Updates, Team Requests, Team Settings</td> 
+      <td>Schedule*, Updates, Team Requests, Team Settings</td> 
      </tr> 
      <tr> 
       <td>Iteration</td> 
@@ -185,14 +185,14 @@ You must have the following access to perform the steps in this article:
      --> 
     </tbody> 
    </table>
-
+*Adding the Schedule option to a team's page displays the Workload Balancer for the team. 
    >[!NOTE]
    >
    >The last 3 items in the **Customize what users see** drop-down list (Lists, Home and Summary, and Branding) are for configuring areas other than the left panel. For information about them, see these articles:
    >   
-   >   * [Customize Filters, Views, and Groupings using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md) 
-   >   * [Customize Home and Summary using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md) 
-   >   * [Brand Adobe Workfront using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/brand-wf-using-a-layout-template.md) 
+   >* [Customize Filters, Views, and Groupings using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md) 
+   >* [Customize Home and Summary using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md) 
+   >* [Brand Adobe Workfront using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/brand-wf-using-a-layout-template.md) 
 
 1. (Optional) If you want to add a left panel item that links to one of your organization's dashboards, click **Add custom section**, type a **Custom section title** for the item, then add the dashboard.
 
