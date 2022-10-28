@@ -79,7 +79,19 @@ You must have the following to perform the steps in this article:
      </tr> 
      <tr> 
       <td role="rowheader">Typeahead </td> 
-      <td>Allows users to type the name of an object that exists in Workfront. A list of suggestions appears when the user starts typing.</td> 
+      <td>Allows users to type the name of an object that exists in Workfront. A list of suggestions appears when the user starts typing.
+      This field type supports the following objects:
+      <ul><li>User</li>
+      <li>Group</li>
+      <li>Job Role</li>
+      <li>Portfolio</li>
+      <li>Program</li>
+      <li>Project</li>
+      <li>Team</li>
+      <li>Template</li>
+      <li>Company</li>
+      </ul>      
+      </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Calculated</td> 

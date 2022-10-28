@@ -13,6 +13,7 @@ feature-set: Workfront
     * [Adobe Workfront release schedule and process](product-announcements/product-releases/workfront-release-schedule.md)
     * 23.1 Release {#release-23-1}
       * [23.1 Release overview](product-announcements/product-releases/23.1-release-activity/23-1-release-overview.md)
+      * [23.1 release activity: Week of October 24, 2022](product-announcements/product-releases/23.1-release-activity/23-1-oct-24.md)
       * [23.1 release activity: Week of October 17, 2022](product-announcements/product-releases/23.1-release-activity/23-1-oct-17.md)
       * [23.1 release activity: Week of October 10, 2022](product-announcements/product-releases/23.1-release-activity/23-1-oct-10.md)
       * [Look-and-feel updates during the 23.1 release time frame](product-announcements/product-releases/23.1-release-activity/23-1-look-and-feel-updates.md)
@@ -1798,8 +1799,8 @@ feature-set: Workfront
     * [Delete timesheets in Adobe Workfront](timesheets/create-and-manage-timesheets/delete-timesheets.md)
     * [Manually generate timesheets](timesheets/create-and-manage-timesheets/manually-generate-timesheets.md)
     * [Export a list of timesheets](timesheets/create-and-manage-timesheets/export-timesheets.md)
-  * Configure timesheet preferences {#configure-timesheet-preferences}
-    * [Configure timesheet preferences](timesheets/config-timesheet-prefs/configure-timesheet-preferences.md)
+  * Configure how time is logged {#configure-timesheet-preferences}
+    * [Configure how time is logged](timesheets/config-timesheet-prefs/configure-timesheet-preferences.md)
     * [Configure whether time is logged in hours or days](timesheets/config-timesheet-prefs/config-time-logged-hrs-days.md)
   * Tips, tricks, and troubleshooting for timesheets {#tips-tricks-troubleshooting-for-timesheets}
     * [Tips, Tricks, and Troubleshooting](timesheets/tips-tricks-and-troubleshooting/tips-tricks-and-troubleshooting-timesheets.md)
