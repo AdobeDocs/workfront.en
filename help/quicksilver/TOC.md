@@ -1799,8 +1799,8 @@ feature-set: Workfront
     * [Delete timesheets in Adobe Workfront](timesheets/create-and-manage-timesheets/delete-timesheets.md)
     * [Manually generate timesheets](timesheets/create-and-manage-timesheets/manually-generate-timesheets.md)
     * [Export a list of timesheets](timesheets/create-and-manage-timesheets/export-timesheets.md)
-  * Configure timesheet preferences {#configure-timesheet-preferences}
-    * [Configure timesheet preferences](timesheets/config-timesheet-prefs/configure-timesheet-preferences.md)
+  * Configure how time is logged {#configure-timesheet-preferences}
+    * [Configure how time is logged](timesheets/config-timesheet-prefs/configure-timesheet-preferences.md)
     * [Configure whether time is logged in hours or days](timesheets/config-timesheet-prefs/config-time-logged-hrs-days.md)
   * Tips, tricks, and troubleshooting for timesheets {#tips-tricks-troubleshooting-for-timesheets}
     * [Tips, Tricks, and Troubleshooting](timesheets/tips-tricks-and-troubleshooting/tips-tricks-and-troubleshooting-timesheets.md)

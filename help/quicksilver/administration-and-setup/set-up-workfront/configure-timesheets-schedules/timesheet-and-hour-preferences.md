@@ -4,7 +4,7 @@ product-area: system-administration;timesheets
 navigation-topic: configure-timesheets-and-schedules
 title: Configure timesheet and hour preferences
 description: As an Adobe Workfront administrator, you can specify preferences for timesheets and hours in Workfront in order to define what items the timesheets can pre-populate with and what items users can log time to.
-author: Caroline
+author: Courtney and Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 8cc49dc2-b23f-4899-85dd-bd53d5242dbe
@@ -35,7 +35,9 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
-   <td> <p>You must be a Workfront administrator.</p> <p><b>NOTE</b>: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>You must be a Workfront administrator.</p> <p><b>NOTE</b>
+   
+   If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -74,7 +76,7 @@ You must have the following access to perform the steps in this article:
       <td> <p>Restrict editing to timesheet owners and Workfront administrators. When this option is disabled, timesheets can also be edited by:</p> 
        <ul> 
         <li> <p>Users with administrative access to timesheets and hours in their access level</p> </li> 
-        <li> <p>Timesheet approvers if “Can edit hours” is enabled on the timesheet</p> </li> 
+        <li> <p>Timesheet approvers if "Can edit hours" is enabled on the timesheet</p> </li> 
         <li> <p>The manager of the timesheet owner</p> </li> 
        </ul> </td> 
      </tr> 
