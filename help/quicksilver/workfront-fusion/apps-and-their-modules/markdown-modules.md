@@ -9,9 +9,9 @@ author: Becky
 feature: Workfront Fusion
 exl-id: 9e810302-4897-494a-9b50-667d87ce9cb7
 ---
-# Markdown modules
+# [!UICONTROL Markdown] modules
 
-In an [!DNL Adobe Workfront Fusion] scenario, you can use the Markdown modules to convert Markdown to HTML and HTML to Markdown.
+In an [!DNL Adobe Workfront Fusion] scenario, you can use the [!UICONTROL Markdown] modules to convert Markdown to HTML and HTML to Markdown.
 
 If you need instructions on creating a scenario, see [Create a scenario in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
 
@@ -35,7 +35,7 @@ You must have the following access to use the functionality in this article:
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] license**</td> 
-   <td> <p>[!UICONTROL Workfront Fusion for Work Automation and Integration] </p>  <p>Workfront Fusion for Work Automation </p>  </td> 
+   <td> <p>[!UICONTROL Workfront Fusion for Work Automation and Integration] </p>  <p>[!UICONTROL Workfront Fusion for Work Automation] </p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
@@ -48,7 +48,7 @@ To find out what plan, license type, or access you have, contact your [!DNL Work
 
 For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Workfront Fusion] licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
-## Markdown to HTML
+## [!UICONTROL Markdown to HTML]
 
 This module converts Markdown to HTML.
 
@@ -59,21 +59,21 @@ When you are configuring this module, the following fields display.
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Markdown</td> 
+   <td role="rowheader">[!UICONTROL Markdown]</td> 
    <td> <p>Enter the Markdown formatted plain text.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">GitHub Flavored Markdown </td> 
-   <td> <p>Enable this option to convert the GitHub Flavored Markdown to HTML.</p> <p>For more information, see the Markdown cheatsheet in the GitHub documentation.</p> </td> 
+   <td role="rowheader">[!DNL GitHub Flavored Markdown] </td> 
+   <td> <p>Enable this option to convert the GitHub Flavored Markdown to HTML.</p> <p>For more information, see the Mar[!DNL ]kdown cheatsheet in the [!DNL GitHub] documentation.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Sanitize</td> 
+   <td role="rowheader">[!UICONTROL Sanitize]</td> 
    <td>Select an option to indicate whether you want to strip HTML tags from the text or escape HTML.</td> 
   </tr> 
  </tbody> 
 </table>
 
-## HTML to Markdown
+## [!UICONTROL HTML to Markdown]
 
 This module converts HTML code to Markdown.
 
@@ -82,12 +82,12 @@ This module converts HTML code to Markdown.
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Markdown</td> 
+   <td role="rowheader">[!UICONTROL Markdown]</td> 
    <td> <p>Enter the HTML code that you want to convert to Markdown.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">GitHub Flavored Markdown </td> 
-   <td> <p>Enable this option to convert the HTML to GitHub Flavored Markdown.</p> <p>For more information, see the Markdown cheatsheet in the GitHub documentation.</p> </td> 
+   <td role="rowheader">[!DNL GitHub Flavored Markdown] </td> 
+   <td> <p>Enable this option to convert the HTML to [!DNL GitHub Flavored Markdown].</p> <p>For more information, see the Markdown cheatsheet in the [!DNL GitHub] documentation.</p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -11,7 +11,7 @@ exl-id: 89efa9d5-00c9-4bb5-97b3-2b2f9d73721d
 ---
 # Image modules
 
-Adobe Workfront Fusion Image modules allow you get information about a specific image (dimensions, type, and so on), convert an image to another file format, and directly change the size of the image.
+[!DNL Adobe Workfront Fusion] [!UICONTROL Image] modules allow you get information about a specific image (dimensions, type, and so on), convert an image to another file format, and directly change the size of the image.
 
 ## Access requirements
 
@@ -44,15 +44,15 @@ To find out what plan, license type, or access you have, contact your [!DNL Work
 
 For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Workfront Fusion] licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
-## Image modules and their fields
+## [!UICONTROL Image] modules and their fields
 
 When you are configuring this module, the following fields display. A bolded title in a module indicates a required field.
 
-* [Resize](#resize)
-* [Convert a format](#convert-a-format)
-* [Extract metadata](#extract-metadata)
+* [[!UICONTROL Resize]](#resize)
+* [[!UICONTROL Convert a format]](#convert-a-format)
+* [[!UICONTROL Extract metadata]](#extract-metadata)
 
-### Resize {#resize}
+### [!UICONTROL Resize] 
 
 This transformer module changes an image's height and width according to criteria you specify.
 
@@ -61,46 +61,46 @@ This transformer module changes an image's height and width according to criteri
  <col data-mc-conditions=""> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Source file</td> 
+   <td role="rowheader">[!UICONTROL Source file]</td> 
    <td> <p>Select the source of the image you want to convert. You can select output from a previous module or map the data file and filename. </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Data</td> 
-   <td>Map the file that you want to convert. This field is available if you selected Map in the [!UICONTROL Source file] field.</td> 
+   <td role="rowheader">[!UICONTROL Data]</td> 
+   <td>Map the file that you want to convert. This field is available if you selected [!UICONTROL Map] in the [!UICONTROL Source file] field.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">File name</td> 
-   <td>Enter a name for the converted file. This field is available if you selected Map in the [!UICONTROL Source file] field.</td> 
+   <td role="rowheader">[!UICONTROL File name]</td> 
+   <td>Enter a name for the converted file. This field is available if you selected [!UICONTROL Map] in the [!UICONTROL Source file] field.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">I want to</td> 
+   <td role="rowheader">[!UICONTROL I want to]</td> 
    <td>Select whether you want to maintain the height-width ratio or change the dimensions to a specified height and width.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">According to</td> 
+   <td role="rowheader">[!UICONTROL According to]</td> 
    <td> <p>Select how you want the module to determine the new size of the image. This field appears if you selected to maintain height-width ration in the I want to field. Other fields appear based on the selection in this field.</p> 
     <ul> 
-     <li> <p>Maximum width</p> <p>Reduces an image to a width you specify. Height is calculated automatically.</p> </li> 
-     <li> <p>Maximum height</p> <p>Reduces an image to a height you specify. Width is calculated automatically.</p> </li> 
-     <li> <p>Maximum height or width</p> <p>Reduces an image in a way that its height and width do not exceed the values you specify. Because this option maintains height-width ratio, one of the dimensions may be smaller than specified. For example, if height and width are both specified as 40, a 400x300 image will be reduced to 40X30.</p> </li> 
-     <li> <p>Minimum width</p> <p>Enlarges an image to a width you specify. Height is calculated automatically.</p> </li> 
-     <li> <p>Minimum height</p> <p>Enlarges an image to a height you specify. Width is calculated automatically.</p> </li> 
-     <li> <p>Minimum height or width</p> <p>Enlarges an image in a way that its height and width are not smaller than the values you specify. Because this option maintains height-width ratio, one of the dimensions may be larger than specified. For example, if height and width are both specified as 300, a 40x30 image will be enlarged to 400X300.</p> </li> 
-     <li> <p>Percent</p> <p>Changes the image size by a percentage based on the value you specify. </p> </li> 
+     <li> <p>[!UICONTROL Maximum width]</p> <p>Reduces an image to a width you specify. Height is calculated automatically.</p> </li> 
+     <li> <p>[!UICONTROL Maximum height]</p> <p>Reduces an image to a height you specify. Width is calculated automatically.</p> </li> 
+     <li> <p>[!UICONTROL Maximum height or width]</p> <p>Reduces an image in a way that its height and width do not exceed the values you specify. Because this option maintains height-width ratio, one of the dimensions may be smaller than specified. For example, if height and width are both specified as 40, a 400x300 image will be reduced to 40X30.</p> </li> 
+     <li> <p>[!UICONTROL Minimum width]</p> <p>Enlarges an image to a width you specify. Height is calculated automatically.</p> </li> 
+     <li> <p>[!UICONTROL Minimum height]</p> <p>Enlarges an image to a height you specify. Width is calculated automatically.</p> </li> 
+     <li> <p>[!UICONTROL Minimum height or width]</p> <p>Enlarges an image in a way that its height and width are not smaller than the values you specify. Because this option maintains height-width ratio, one of the dimensions may be larger than specified. For example, if height and width are both specified as 300, a 40x30 image will be enlarged to 400X300.</p> </li> 
+     <li> <p>[!UICONTROL Percent]</p> <p>Changes the image size by a percentage based on the value you specify. </p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Width</td> 
+   <td role="rowheader">[!UICONTROL Width]</td> 
    <td>Enter or map the desired width of the resized image in pixels.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Height</td> 
+   <td role="rowheader">[!UICONTROL Height]</td> 
    <td>Enter or map the desired height of the resized image in pixels.</td> 
   </tr> 
  </tbody> 
 </table>
 
-### Convert a format {#convert-a-format}
+### [!UICONTROL Convert a format] 
 
 This transformer module changes the format of an image file. This module is compatible the following formats:
 
@@ -116,25 +116,25 @@ Both the source file and the output must be in one of these formats. For example
  <col data-mc-conditions=""> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Source file</td> 
+   <td role="rowheader">[!UICONTROL Source file]</td> 
    <td> <p>Select the source of the image you want to convert. You can select output from a previous module or map the data file and filename. </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Data</td> 
-   <td>Map the file that you want to convert. This field is available if you selected Map in the [!UICONTROL Source file] field.</td> 
+   <td role="rowheader">[!UICONTROL Data]</td> 
+   <td>Map the file that you want to convert. This field is available if you selected [!UICONTROL Map] in the [!UICONTROL Source file] field.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">File name</td> 
-   <td>Enter a name for the converted file. This field is available if you selected Map in the [!UICONTROL Source file] field.</td> 
+   <td role="rowheader">[!UICONTROL File name]</td> 
+   <td>Enter a name for the converted file. This field is available if you selected [!UICONTROL Map] in the [!UICONTROL Source file] field.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Output format</td> 
+   <td role="rowheader">[!UICONTROL Output format]</td> 
    <td>Select the format that you want the module to convert the source file to. </td> 
   </tr> 
  </tbody> 
 </table>
 
-### Extract metadata {#extract-metadata}
+### [!UICONTROL Extract metadata]
 
 This transformer module returns basic information about a module.
 
@@ -143,15 +143,15 @@ This transformer module returns basic information about a module.
  <col data-mc-conditions=""> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Source file</td> 
+   <td role="rowheader">[!UICONTROL Source file]</td> 
    <td> <p>Select the source of the image you want to convert. You can select output from a previous module or map the data file and filename. </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Data</td> 
+   <td role="rowheader">[!UICONTROL Data]</td> 
    <td>Map the file that you want to convert. This field is available if you selected Map in the [!UICONTROL Source file] field.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">File name</td> 
+   <td role="rowheader">[!UICONTROL File name]</td> 
    <td>Enter a name for the converted file. This field is available if you selected Map in the [!UICONTROL Source file] field.</td> 
   </tr> 
  </tbody> 

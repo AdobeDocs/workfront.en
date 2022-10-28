@@ -6,7 +6,7 @@ draft: Probably
 feature: Workfront Fusion
 exl-id: 45d4d7fe-a70c-4906-adb4-f913a870fe47
 ---
-# MariaDB modules
+# [!DNL MariaDB] modules
 
 In an [!DNL Adobe Workfront Fusion] scenario, you can automate workflows that use [!DNL MariaDB], as well as connect it to multiple third-party applications and services.
 
@@ -49,7 +49,7 @@ For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Work
 
 To use [!DNL MariaDB] modules, you must have a [!DNL MariaDB] account.
 
-## Connect MariaDB to [!DNL Workfront] Fusion {#connect-mariadb-to-workfront-fusion}
+## Connect [!DNL MariaDB] to [!DNL Workfront Fusion] 
 
 You can create a connection to your [!DNL MariaDB] account directly from inside a [!DNL MariaDB] module.
 
@@ -61,27 +61,27 @@ You can create a connection to your [!DNL MariaDB] account directly from inside 
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader"> <p>Connection name</p> </td> 
+      <td role="rowheader"> <p>[!UICONTROL Connection name]</p> </td> 
       <td> <p>Enter a name for the new connection.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Host</td> 
+      <td role="rowheader">[!UICONTROL Host]</td> 
       <td> <p>Enter the IP address or host name of your database instance. This host must be accessible from outside your network.</p> <p>Example: <code>[!DNL mariadb.hwoh2j5h.us-east-1.rds.amazon.com]</code></p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Port</td> 
+      <td role="rowheader">[!UICONTROL Port]</td> 
       <td>The default port is 3306. If you are using a non-standard port, set this number to your port. </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Database Name</td> 
+      <td role="rowheader">[!UICONTROL Database Name]</td> 
       <td>Enter the name of the database you want to interact with.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Username</td> 
+      <td role="rowheader">[!UICONTROL Username]</td> 
       <td>Enter your username.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Password</td> 
+      <td role="rowheader">[!UICONTROL Password]</td> 
       <td>Enter your password.</td> 
      </tr> 
     </tbody> 
@@ -89,9 +89,9 @@ You can create a connection to your [!DNL MariaDB] account directly from inside 
 
 1. Click **[!UICONTROL Continue]** to create the connection and go back to the module.
 
-## MariaDB Modules and their fields
+## [!DNL MariaDB] Modules and their fields
 
-When you configure [!DNL MariaDB] modules, [!DNL Workfront Fusion] displays the fields listed below. Along with these, additional MariaDB fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
+When you configure [!DNL MariaDB] modules, [!DNL Workfront Fusion] displays the fields listed below. Along with these, additional [!DNL MariaDB] fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
 
 If you see the map button above a field or function, you can use it to set variables and functions for that field. For more information, see [Map information from one module to another in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
 
@@ -107,16 +107,16 @@ This action module retrieves information from your database, based on a query yo
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td>For instructions about connecting your MariaDB account to Workfront Fusion, see <a href="#connect-mariadb-to-workfront-fusion" class="MCXref xref">[!UICONTROL Connect MariaDB] to Workfront Fusion</a> in this article.</td> 
+   <td>For instructions about connecting your [!DNL MariaDB] account to [!DNL Workfront Fusion], see <a href="#connect-mariadb-to-workfront-fusion" class="MCXref xref">Connect [!DNL MariaDB] to [!DNL Workfront Fusion]</a> in this article.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Query</td> 
+   <td role="rowheader">[!UICONTROL Query]</td> 
    <td> <p>Enter the SQL query that you want the module to use to retrieve data.</p> <p>Important: Variables used in the query are not sanitized. Make sure you sanitize variables properly to prevent SQL injection.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-### Select rows from a table (advanced)
+### [!UICONTROL Select rows from a table (advanced)]
 
 This module reads record from your database.
 
@@ -126,14 +126,14 @@ This module reads record from your database.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td>For instructions about connecting your MariaDB account to Workfront Fusion, see <a href="#connect-mariadb-to-workfront-fusion" class="MCXref xref">[!UICONTROL Connect MariaDB] to Workfront Fusion</a> in this article.</td> 
+   <td>For instructions about connecting your [!DNL MariaDB] account to [!DNL Workfront Fusion], see <a href="#connect-mariadb-to-workfront-fusion" class="MCXref xref">Connect [!DNL MariaDB] to [!DNL Workfront Fusion]</a> in this article.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Table</td> 
+   <td role="rowheader">[!UICONTROL Table]</td> 
    <td> <p>Select the table that contains the records you want to read.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Filter</td> 
+   <td role="rowheader">[!UICONTROL Filter]</td> 
    <td> <p>Set up the filter by which you want to select rows</p> 
     <ul> 
      <li> <p>Select the field that you want to search by</p> </li> 
@@ -142,11 +142,11 @@ This module reads record from your database.
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Sort </td> 
+   <td role="rowheader">[!UICONTROL Sort] </td> 
    <td> <p>For each level that you want your results sorted by, click <strong>[!UICONTROL Add item]</strong>, then select the field that you want to sort the results by and whether you want to sort ascending or descending</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Limit</td> 
+   <td role="rowheader">[!UICONTROL Limit]</td> 
    <td> <p>Enter or map the maximum number of records you want the module to return during each scenario execution cycle.</p> </td> 
   </tr> 
  </tbody> 

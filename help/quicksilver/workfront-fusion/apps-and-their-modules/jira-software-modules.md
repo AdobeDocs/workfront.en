@@ -6,9 +6,9 @@ draft: Probably
 feature: Workfront Fusion
 exl-id: 6437fe98-2c2b-4b49-97e2-f94b23da93fd
 ---
-# Jira Software modules
+# [!DNL Jira Software] modules
 
-In an [!DNL Adobe Workfront Fusion] scenario, you can automate workflows that use [!DNL Jira] Software, as well as connect it to multiple third-party applications and services.
+In an [!DNL Adobe Workfront Fusion] scenario, you can automate workflows that use [!DNL Jira Software], as well as connect it to multiple third-party applications and services.
 
 If you need instructions on creating a scenario, see [Create a scenario in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
 
@@ -51,23 +51,23 @@ For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Work
 
 To use [!DNL Jira] modules you must have a [!DNL Jira] account.
 
-## Connect Jira Software to [!DNL Workfront] Fusion
+## Connect [!DNL Jira Software] to [!DNL Workfront Fusion]
 
-Your connection method is based on whether you are using Jira Cloud or Jira Server.
+Your connection method is based on whether you are using [!DNL Jira Cloud] or [!DNL Jira Server].
 
-* [Connect Jira Cloud to Workfront Fusion](#connect-jira-cloud-to-workfront-fusion)
-* [Connect [!DNL Jira] Server to [!DNL Workfront] Fusion](#connect-jira-server-to-workfront-fusion)
+* [Connect [!DNL Jira Cloud] to Workfront Fusion](#connect-dnl-jira-cloud-to-dnl-workfront-fusion)
+* [Connect [!DNL Jira Server] to [!DNL Workfront Fusion]](#connect-dnl-jira-server-to-dnl-workfront-fusion)
 
-### Connect Jira Cloud to Workfront Fusion {#connect-jira-cloud-to-workfront-fusion}
+### Connect [!DNL Jira Cloud] to [!DNL Workfront Fusion]
 
-Connect Jira Cloud to Workfront Fusion
+Connect [!DNL Jira Cloud] to [!DNL Workfront Fusion]
 
-To connect [!DNL Jira] Software to Workfront Fusion, you must create an API token and insert it together with your Service URL and Username to the Create a connection field in Workfront Fusion.
+To connect [!DNL Jira Software] to [!DNL Workfront Fusion], you must create an API token and insert it together with your Service URL and Username to the [!UICONTROL Create a connection] field in [!DNL Workfront Fusion].
 
-#### Create an API&nbsp;token in Jira {#create-an-api-token-in-jira}
+#### Create an API token in [!DNL Jira] 
 
 1. Go to [https://id.atlassian.com/manage/api-tokens](https://id.atlassian.com/manage/api-tokens) and log in.
-1. Click **Create API token**.
+1. Click **[!UICONTROL Create API token]**.
 1. Type a name for the token, such as *Workfront Fusion*.
 1. Copy the token using the **[!UICONTROL Copy to clipboard]** button.
 
@@ -76,41 +76,32 @@ To connect [!DNL Jira] Software to Workfront Fusion, you must create an API toke
    >You can't view the token again after closing this dialog.
 
 1. Store the generated token in a safe place.
-1. Continue with [Configure the Jira API token in Workfront Fusion](#configure-the-jira-api-token-in-workfront-fusion).
+1. Continue with [Configure the [!DNL Jira] API token in [!DNL Workfront Fusion]](#configure-the-dnl-jira-api-token-in-dnl-workfront-fusion).
 
-#### Configure the Jira API token in Workfront Fusion {#configure-the-jira-api-token-in-workfront-fusion}
+#### Configure the [!DNL Jira] API token in [!DNL Workfront Fusion] 
 
 1. In [!DNL Workfront Fusion], add a [!DNL Jira] module to a scenario to open the **[!UICONTROL Create a connection]** box.
 1. Specify the following information:
 
-   * **Service URL**
-
-      <!--   
-     <span style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Provide a brief description of what this is.</span>   
-     -->
-
-   * **Username: Provide a brief description of what this is.**
-   * **API token:**&nbsp;This is the API token you created in the [[!UICONTROL Create an API token] in Jira](#create-an-api-token-in-jira) section of this article.
+   * **[!UICONTROL Service URL]**
+   * **[!UICONTROL Username]**
+   * **[!UICONTROL API token]:**&nbsp;This is the API token you created in the [Create an API token in [!DNL Jira]](#create-an-api-token-in-dnl-jira) section of this article.
 
 1. Click [!UICONTROL Continue] to create the connection and return to the module.
 
-   <!--
-   <p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">LP: Do you have to hit Save or anything?</p>
-   -->
-
-### Connect [!DNL Jira] Server to [!DNL Workfront] Fusion {#connect-jira-server-to-workfront-fusion}
+### Connect [!DNL Jira Server] to [!DNL Workfront Fusion]
 
 <!--
 <p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Becky: Find out and document how to find these things</p>
 -->
 
-To authorize a connection between [!DNL Workfront Fusion] and [!DNL Jira] Server, you need your Consumer Key, Private Key, And Service URL. You might need to contact your [!DNL Jira] administrator for this information.
+To authorize a connection between [!DNL Workfront Fusion] and [!DNL Jira Server], you need your Consumer Key, Private Key, And Service URL. You might need to contact your [!DNL Jira] administrator for this information.
 
-* [Generate Public and Private keys for your [!DNL Jira] connection](#generate-public-and-private-keys-for-your-jira-connection)
-* [Configure the client app as a consumer in [!DNL Jira]](#configure-the-client-app-as-a-consumer-in-jira)
-* [Create a connection to [!DNL Jira] Server or Jira Data Center in Workfront Fusion](#create-a-connection-to-jira-server-or-jira-data-center-in-workfront-fusion)
+* [Generate Public and Private keys for your [!DNL Jira] connection](#generate-public-and-private-keys-for-your-dnl-jira-connection)
+* [Configure the client app as a consumer in [!DNL Jira]](#configure-the-client-app-as-a-consumer-in-dnl-jira)
+* [Create a connection to [!DNL Jira] Server or Jira Data Center in [!DNL Workfront Fusion]](#create-a-connection-to-dnl-jira-server-or-dnl-jira-data-center-in-dnl-workfront-fusion)
 
-#### Generate Public and Private keys for your [!DNL Jira] connection {#generate-public-and-private-keys-for-your-jira-connection}
+#### Generate Public and Private keys for your [!DNL Jira] connection 
 
 To acquire a private key for your [!DNL Workfront Fusion Jira] connection, you need to generate public and private keys.
 
@@ -147,26 +138,22 @@ file.
 
 
 
-1. Continue to [Configure the client app as a consumer in [!DNL Jira]](#configure-the-client-app-as-a-consumer-in-jira)
+1. Continue to [Configure the client app as a consumer in [!DNL Jira]](#configure-the-client-app-as-a-consumer-in-dnl-jira)
 
-#### Configure the client app as a consumer in [!DNL Jira] {#configure-the-client-app-as-a-consumer-in-jira}
+#### Configure the client app as a consumer in [!DNL Jira] 
 
 1. Log in to your [!DNL Jira] instance.
-1. In the left navigation panel, click **Jira Settings** ![](assets/jira-settings-icon.png) > **Applications**> **Application links**.
+1. In the left navigation panel, click **[!UICONTROL [!DNL Jira] Settings]** ![](assets/jira-settings-icon.png) > **[!UICONTROL Applications]**> **[!UICONTROL Application links]**.
 1. In the **[!UICONTROL Enter the URL of the application you want to link]** field, enter
 
    ```
    https://app.workfrontfusion.com/oauth/cb/workfront-jiraserver-oauth1
    ```
 
-1. Click **Create new link**. Ignore the "No response was received from the URL you entered" error message.
+1. Click **[!UICONTROL Create new link]**. Ignore the "No response was received from the URL you entered" error message.
 1. In the **[!UICONTROL Link applications]** window, enter values into the **[!UICONTROL Consumer key]** and **[!UICONTROL Shared secret]** fields.
 
    You can choose the values for these fields.
-
-   <!--
-   <p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">LP: Would it be helpful to provide examples here?</p>
-   -->
 
 1. Copy the values of the **[!UICONTROL Consumer key]** and **[!UICONTROL Shared secret]** fields to a secure location.
 
@@ -176,12 +163,12 @@ file.
 
    | Field | Description |
    |---|---|
-   | Request Token URL | `<Jira base url>/plugins/servlet/oauth/request-token` |
-   | Authorization URL | `<Jira base url>/plugins/servlet/oauth/authorize` |
-   | Access Token URL | `<Jira base url>/plugins/servlet/oauth/access-token` |
+   | [!UICONTROL Request Token URL] | `<Jira base url>/plugins/servlet/oauth/request-token` |
+   | [!UICONTROL Authorization URL] | `<Jira base url>/plugins/servlet/oauth/authorize` |
+   | [!UICONTROL Access Token URL] | `<Jira base url>/plugins/servlet/oauth/access-token` |
 
 1. Select the **[!UICONTROL Create incoming link]** checkbox.
-1. Click **Continue**.
+1. Click **[!UICONTROL Continue]**.
 1. In the **[!UICONTROL Link applications]** window, fill in the following fields:
 
    <table style="table-layout:auto"> 
@@ -189,30 +176,30 @@ file.
     <col data-mc-conditions=""> 
     <tbody> 
      <tr> 
-      <td role="rowheader"> <p>Consumer Key</p> </td> 
+      <td role="rowheader"> <p>[!UICONTROL Consumer Key]</p> </td> 
       <td> Paste in the consumer key that you copied to a secure location.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Consumer name</td> 
+      <td role="rowheader">[!UICONTROL Consumer name]</td> 
       <td>Enter a name of your choice. This name is for your own reference.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Public key</td> 
+      <td role="rowheader">[!UICONTROL Public key]</td> 
       <td>Paste in the public key from your <code>[!DNL jira_publickey.pem]</code> file.</td> 
      </tr> 
     </tbody> 
    </table>
 
-1. Click **Continue**.
-1. Continue to [Create a connection to [!DNL Jira] Server or [!DNL Jira] Data Center in Workfront Fusion](#create-a-connection-to-jira-server-or-jira-data-center-in-workfront-fusion)
+1. Click **[!UICONTROL Continue]**.
+1. Continue to [Create a connection to [!DNL Jira Server] or [!DNL Jira Data Center] in [!DNL Workfront Fusion]](#create-a-connection-to-dnl-jira-server-or-dnl-jira-data-center-in-dnl-workfront-fusion)
 
-#### Create a connection to [!DNL Jira] Server or Jira Data Center in Workfront Fusion {#create-a-connection-to-jira-server-or-jira-data-center-in-workfront-fusion}
+#### Create a connection to [!DNL Jira Server] or [!DNL Jira Data Center] in [!DNL Workfront Fusion] 
 
 >[!NOTE]
 >
->Use the Jira Server app to connect to Jira Server or Jira Data Center.
+>Use the [!DNL Jira Server] app to connect to [!DNL Jira Server] or [!DNL Jira Data Center].
 
-1. In any [!DNL Jira] Server module in [!DNL Workfront Fusion], click **[!UICONTROL Add]** next to the [!UICONTROL connection] field.
+1. In any [!DNL Jira Server] module in [!DNL Workfront Fusion], click **[!UICONTROL Add]** next to the [!UICONTROL connection] field.
 1. In the [!UICONTROL Create a connection] panel, fill in the following fields:
 
    <table style="table-layout:auto"> 
@@ -220,19 +207,19 @@ file.
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader"> <p>Connection name</p> </td> 
+      <td role="rowheader"> <p>[!UICONTROL Connection name]</p> </td> 
       <td> <p>Enter a name for the connection</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Consumer Key</td> 
-      <td>Paste in the consumer key that you copied to a secure location in <a href="#configure-the-client-app-as-a-consumer-in-jira" class="MCXref xref">Configure the client app as a consumer in Jira</a></td> 
+      <td role="rowheader">[!UICONTROL Consumer Key]</td> 
+      <td>Paste in the consumer key that you copied to a secure location in <a href="#configure-the-client-app-as-a-consumer-in-jira" class="MCXref xref">Configure the client app as a consumer in [!DNL Jira]</a></td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Private Key</td> 
+      <td role="rowheader">[!DNL Private Key]</td> 
       <td>Paste in the private key from the <code>[!DNL jira_privatekey.pcks8]</code> file you created in <a href="#generate-public-and-private-keys-for-your-jira-connection" class="MCXref xref">Generate Public and Private keys for your [!DNL Jira] connection</a>.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Service URL</td> 
+      <td role="rowheader">[!DNL Service URL]</td> 
       <td>Enter your [!DNL Jira] instance URL. </td> 
      </tr> 
     </tbody> 
@@ -240,9 +227,9 @@ file.
 
 1. Click **[!UICONTROL Continue]** to create the connection and go back to the module.
 
-## Jira Software modules and their fields
+## [!DNL Jira Software] modules and their fields
 
-When you configure [!DNL Jira] Software modules, [!DNL Workfront Fusion] displays the fields listed below. Along with these, additional [!DNL Jira] Software fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
+When you configure [!DNL Jira Software] modules, [!DNL Workfront Fusion] displays the fields listed below. Along with these, additional [!DNL Jira Software] fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
 
 If you see the map button above a field or function, you can use it to set variables and functions for that field. For more information, see [Map information from one module to another in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
 
@@ -252,9 +239,9 @@ If you see the map button above a field or function, you can use it to set varia
 * [Actions](#actions)
 * [Searches](#searches)
 
-### Triggers {#triggers}
+### Triggers
 
-#### Watch for records
+#### [!UICONTROL Watch for records]
 
 This trigger module starts a scenario when a record is added, updated, or deleted.
 
@@ -263,35 +250,35 @@ This trigger module starts a scenario when a record is added, updated, or delete
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Webhook</td> 
+   <td role="rowheader">[!UICONTROL Webhook]</td> 
    <td> <p>Select the webhook that you want to use to watch for records. </p> <p>To add a new webhook:</p> 
     <ol> 
-     <li value="1">Click <strong>Add</strong></li> 
+     <li value="1">Click <strong>[!UICONTROL Add]</strong></li> 
      <li value="2">Enter a name for the webhook.</li> 
-     <li value="3"> <p>Select the connection you want to use for your webhook. </p> <p>For instructions about connecting your [!DNL Jira] Software account to Workfront Fusion, see <a href="#connect-jira-cloud-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Connect Jira Cloud to Workfront Fusion</a> in this article.</p> </li> 
+     <li value="3"> <p>Select the connection you want to use for your webhook. </p> <p>For instructions about connecting your [!DNL Jira Software] account to [!DNL Workfront Fusion], see <a href="#connect-jira-software-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Connect [!DNL Jira Software] to [!DNL Workfront Fusion]</a> in this article.</p> </li> 
      <li value="4"> <p>Select the record type that you want the software to watch for:</p> 
       <ul> 
-       <li>Comment </li> 
-       <li>Issue</li> 
-       <li>Project </li> 
-       <li>Sprint</li> 
+       <li>[!UICONTROL Comment] </li> 
+       <li>[!UICONTROL Issue]</li> 
+       <li>[!UICONTROL Project] </li> 
+       <li>[!UICONTROL Sprint]</li> 
       </ul> </li> 
     </ol> </td> 
   </tr> 
  </tbody> 
 </table>
 
-### Actions {#actions}
+### Actions
 
-* [Add issue to sprint](#add-issue-to-sprint)
-* [Custom API Call](#custom-api-call)
-* [Create a Record](#create-a-record)
-* [Delete a record](#delete-a-record)
-* [Download an attachment](#download-an-attachment)
-* [[!UICONTROL Read a record]](#read-a-record)
-* [Update a record](#update-a-record)
+* [[!UICONTROL Add issue to sprint]](#uicontrol-add-issue-to-sprint)
+* [[!UICONTROL Custom API Call]](#uicontrol-custom-api-call)
+* [[!UICONTROL Create a Record]](#uicontrol-create-a-record)
+* [[!UICONTROL Delete a record]](#uicontrol-delete-a-record)
+* [[!UICONTROL Download an attachment]](#uicontrol-download-an-attachment)
+* [[!UICONTROL Read a record]](#uicontrol-read-a-record)
+* [[!UICONTROL Update a record]](#uicontrol-update-a-record)
 
-#### Add issue to sprint {#add-issue-to-sprint}
+#### [!UICONTROL Add issue to sprint]
 
 This action module adds one or more issues to a sprint.
 
@@ -303,20 +290,20 @@ When you are configuring this module, the following fields display.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>For instructions about connecting your [!DNL Jira] Software account to Workfront Fusion, see <a href="#connect-jira-cloud-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Connect Jira Cloud to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your [!DNL Jira Software] account to [!DNL Workfront Fusion], see <a href="#connect-jira-software-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Connect [!DNL Jira Software] to [!DNL Workfront Fusion]</a> in this article.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Sprint ID</td> 
+   <td role="rowheader">[!UICONTROL Sprint ID]</td> 
    <td>Enter or map the Sprint ID of the sprint that you want to add an issue to.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Issue ID or Keys</td> 
+   <td role="rowheader">[!UICONTROL Issue ID or Keys]</td> 
    <td>Add an Issue ID or Key for each issue you want to add to the sprint.</td> 
   </tr> 
  </tbody> 
 </table>
 
-#### Create a Record {#create-a-record}
+#### [!UICONTROL Create a Record]
 
 This action module creates a new record in Jira.
 
@@ -330,26 +317,26 @@ When you are configuring this module, the following fields display.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>For instructions about connecting your [!DNL Jira] Software account to Workfront Fusion, see <a href="#connect-jira-cloud-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Connect Jira Cloud to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your [!DNL Jira Software] account to [!DNL Workfront Fusion], see <a href="#connect-jira-software-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Connect [!DNL Jira Software] to [!DNL Workfront Fusion]</a> in this article.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Record Type</td> 
+   <td role="rowheader">[!UICONTROL Record Type]</td> 
    <td> <p>Select the type of record you want the module to create. When you select a record type, other fields specific to that record type appear in the module.</p> 
     <ul> 
-     <li>Attachment</li> 
-     <li>Comment</li> 
-     <li>Issue</li> 
-     <li>Project</li> 
-     <li>Sprint </li> 
-     <li>Worklog</li> 
+     <li>[!UICONTROL Attachment]</li> 
+     <li>[!UICONTROL Comment]</li> 
+     <li>[!UICONTROL Issue]</li> 
+     <li>[!UICONTROL Project]</li> 
+     <li>[!UICONTROL Sprint] </li> 
+     <li>[!UICONTROL Worklog]</li> 
     </ul> </td> 
   </tr> 
  </tbody> 
 </table>
 
-#### Custom API Call {#custom-api-call}
+#### [!UICONTROL Custom API Call]
 
-This action module lets you make a custom authenticated call to the [!DNL Jira] Software API. This way, you can create a data flow automation that can't be accomplished by the other [!DNL Jira] Software modules.
+This action module lets you make a custom authenticated call to the [!DNL Jira Software] API. This way, you can create a data flow automation that can't be accomplished by the other [!DNL Jira Software] modules.
 
 When you are configuring this module, the following fields display.
 
@@ -359,10 +346,10 @@ When you are configuring this module, the following fields display.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>For instructions about connecting your [!DNL Jira] Software account to Workfront Fusion, see <a href="#connect-jira-cloud-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Connect Jira Cloud to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your [!DNL Jira Software] account to [!DNL Workfront Fusion], see <a href="#connect-jira-software-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Connect [!DNL Jira Software] to [!DNL Workfront Fusion]</a> in this article.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">URL</td> 
+   <td role="rowheader">[!UICONTROL URL]</td> 
    <td>Enter a path relative to<code>&lt;Instance URL>/rest/api/2/ </code></td> 
   </tr> 
   <tr> 
@@ -371,11 +358,11 @@ When you are configuring this module, the following fields display.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Headers]</td> 
-   <td> <p>Add the headers of the request in the form of a standard JSON object.</p> <p>For example, <code>{"Content-type":"application/json"}</code></p> <p>Workfront Fusion adds the authorization headers for you.</p> </td> 
+   <td> <p>Add the headers of the request in the form of a standard JSON object.</p> <p>For example, <code>{"Content-type":"application/json"}</code></p> <p>[!DNL Workfront Fusion] adds the authorization headers for you.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Query String]</td> 
-   <td> <p>Add the query for the API call in the form of a standard JSON object.</p> <p>For example: <code>{“name”:“something-urgent”}</code></p> </td> 
+   <td> <p>Add the query for the API call in the form of a standard JSON object.</p> <p>For example: <code>{"name":"something-urgent"}</code></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Body]</td> 
@@ -387,7 +374,7 @@ When you are configuring this module, the following fields display.
  </tbody> 
 </table>
 
-#### Delete a record {#delete-a-record}
+#### [!UICONTROL Delete a record]
 
 This action module deletes a particular record.
 
@@ -403,27 +390,27 @@ When you are configuring this module, the following fields display.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>For instructions about connecting your [!DNL Jira] Software account to Workfront Fusion, see <a href="#connect-jira-cloud-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Connect Jira Cloud to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your [!DNL Jira Software] account to [!DNL Workfront Fusion], see <a href="#connect-jira-software-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Connect [!DNL Jira Software] to [!DNL Workfront Fusion]</a> in this article.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Record Type</td> 
+   <td role="rowheader">[!UICONTROL Record Type]</td> 
    <td> <p>Select the type of record you want the module to delete. </p> 
     <ul> 
-     <li>Attachment</li> 
-     <li>Comment</li> 
-     <li>Issue</li> 
-     <li>Project</li> 
-     <li>Sprint </li> 
+     <li>[!UICONTROL Attachment]</li> 
+     <li>[!UICONTROL Comment]</li> 
+     <li>[!UICONTROL Issue]</li> 
+     <li>[!UICONTROL Project]</li> 
+     <li>[!UICONTROL Sprint] </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">ID or Key</td> 
+   <td role="rowheader">[!UICONTROL ID or Key]</td> 
    <td>Enter or map the ID or Key of the record you want to delete.</td> 
   </tr> 
  </tbody> 
 </table>
 
-#### Download an attachment {#download-an-attachment}
+#### [!UICONTROL Download an attachment]
 
 This action module downloads a particular attachment.
 
@@ -435,18 +422,18 @@ When you are configuring this module, the following fields display.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>For instructions about connecting your [!DNL Jira] Software account to Workfront Fusion, see <a href="#connect-jira-cloud-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Connect Jira Cloud to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your [!DNL Jira Software] account to [!DNL Workfront Fusion], see <a href="#connect-jira-software-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Connect [!DNL Jira Software] to [!DNL Workfront Fusion]</a> in this article.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">ID</td> 
+   <td role="rowheader">[!UICONTROL ID]</td> 
    <td>Enter or map the ID of the attachment you want to download.</td> 
   </tr> 
  </tbody> 
 </table>
 
-#### Read a record {#read-a-record}
+#### [!UICONTROL Read a record]
 
-This action module reads data from a single record in [!DNL Jira] Software.
+This action module reads data from a single record in [!DNL Jira Software].
 
 You specify the ID of the record.
 
@@ -460,31 +447,31 @@ When you are configuring this module, the following fields display.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>For instructions about connecting your [!DNL Jira] Software account to Workfront Fusion, see <a href="#connect-jira-cloud-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Connect Jira Cloud to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your [!DNL Jira Software] account to [!DNL Workfront Fusion], see <a href="#connect-jira-software-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Connect [!DNL Jira Software] to [!DNL Workfront Fusion]</a> in this article.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Record Type</td> 
+   <td role="rowheader">[!UICONTROL Record Type]</td> 
    <td> <p>Select the type of [!DNL Jira] record you want the module to read.</p> 
     <ul> 
-     <li>Attachment</li> 
-     <li>Issue</li> 
-     <li>Project</li> 
-     <li>Sprint </li> 
-     <li>User</li> 
+     <li>[!UICONTROL Attachment]</li> 
+     <li>[!UICONTROL Issue]</li> 
+     <li>[!UICONTROL Project]</li> 
+     <li>[!UICONTROL Sprint] </li> 
+     <li>[!UICONTROL User]</li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Outputs</td> 
-   <td>Select the outputs that you want to receive. Output options are available based on the type of record selected in the "Record Type" field.</td> 
+   <td role="rowheader">[!UICONTROL Outputs]</td> 
+   <td>Select the outputs that you want to receive. Output options are available based on the type of record selected in the "[!UICONTROL Record Type]" field.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">ID</td> 
-   <td> <p>Enter or map the unique [!DNL Jira] Software ID of the record that you want the module to read.</p> </td> 
+   <td role="rowheader">[!UICONTROL ID]</td> 
+   <td> <p>Enter or map the unique [!DNL Jira Software] ID of the record that you want the module to read.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-#### Update a record {#update-a-record}
+#### [!UICONTROL Update a record]
 
 This action module updates an existing record, such as an issue or project,.
 
@@ -500,32 +487,32 @@ When you are configuring this module, the following fields display.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>For instructions about connecting your [!DNL Jira] Software account to Workfront Fusion, see <a href="#connect-jira-cloud-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Connect Jira Cloud to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your [!DNL Jira Software] account to [!DNL Workfront Fusion], see <a href="#connect-jira-software-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Connect [!DNL Jira Software] to [!DNL Workfront Fusion]</a> in this article.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Record Type</td> 
+   <td role="rowheader">[!UICONTROL Record Type]</td> 
    <td> <p>Select the type of record you want the module to update. When you select a record type, other fields specific to that record type appear in the module.</p> 
     <ul> 
-     <li>Comment</li> 
-     <li>Issue</li> 
-     <li>Project</li> 
-     <li>Sprint </li> 
-     <li>Transition issue</li> 
+     <li>[!UICONTROL Comment]</li> 
+     <li>[!UICONTROL Issue]</li> 
+     <li>[!UICONTROL Project]</li> 
+     <li>[!UICONTROL Sprint] </li> 
+     <li>[!UICONTROL Transition issue]</li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">ID or Key</td> 
+   <td role="rowheader">[!UICONTROL ID or Key]</td> 
    <td>Enter or map the ID or Key of the record you want to update.</td> 
   </tr> 
  </tbody> 
 </table>
 
-### Searches {#searches}
+### Searches 
 
-* [List records](#list-records)
-* [[!UICONTROL Search for records]](#search-for-records)
+* [[!UICONTROL List records]](#uicontrol-list-records)
+* [[!UICONTROL Search for records]](#uicontrol-search-for-records)
 
-#### List records {#list-records}
+#### [!UICONTROL List records]
 
 This search module retrieves all items of a specific type that match your search query
 
@@ -539,21 +526,21 @@ When you are configuring this module, the following fields display.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>For instructions about connecting your [!DNL Jira] Software account to Workfront Fusion, see <a href="#connect-jira-cloud-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Connect Jira Cloud to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your [!DNL Jira Software] account to [!DNL Workfront Fusion], see <a href="#connect-jira-software-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Connect [!DNL Jira Software] to [!DNL Workfront Fusion]</a> in this article.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Record Type</td> 
+   <td role="rowheader">[!UICONTROL Record Type]</td> 
    <td> <p>Select the type of record you want the module to list. When you select a record type, other fields specific to that record type appear in the module.</p> 
     <ul> 
-     <li>Comment</li> 
-     <li>Issue</li> 
-     <li>Project</li> 
-     <li>Sprint issue</li> 
-     <li>Worklog</li> 
+     <li>[!UICONTROL Comment]</li> 
+     <li>[!UICONTROL Issue]</li> 
+     <li>[!UICONTROL Project]</li> 
+     <li>[!UICONTROL Sprint issue]</li> 
+     <li>[!UICONTROL Worklog]</li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>Max Results</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Max Results]</p> </td> 
    <td> <p>Enter or map the maximum number of records you want the module to retrieve during each scenario execution cycle.</p> </td> 
   </tr> <!--
    <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
@@ -564,9 +551,9 @@ When you are configuring this module, the following fields display.
  </tbody> 
 </table>
 
-#### Search for records {#search-for-records}
+#### [!UICONTROL Search for records]
 
-This search module looks for records in an object in [!DNL Jira] Software that match the search query you specify.
+This search module looks for records in an object in [!DNL Jira Software] that match the search query you specify.
 
 You can map this information in subsequent modules in the scenario.
 
@@ -578,17 +565,17 @@ When you are configuring this module, the following fields display.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>For instructions about connecting your [!DNL Jira] Software account to Workfront Fusion, see <a href="#connect-jira-cloud-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Connect Jira Cloud to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your [!DNL Jira Software] account to [!DNL Workfront Fusion], see <a href="#connect-jira-software-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Connect [!DNL Jira Software] to [!DNL Workfront Fusion]</a> in this article.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Record Type</td> 
+   <td role="rowheader">[!UICONTROL Record Type]</td> 
    <td> <p>Select the type of record you want the module to search for. When you select a record type, other fields specific to that record type appear in the module.</p> 
     <ul> 
-     <li>Issues</li> 
-     <li> <p>Issues by JQL (Jira Query Lanuguage) </p> <p>For more information on JQL, see <a href="https://www.atlassian.com/blog/jira-software/jql-the-most-flexible-way-to-search-jira-14#:~:text=JQLstandsforJiraQuery,projectmanagers%2Candbusinessusers.">JQL</a> at the Atlassian help site. </p> </li> 
-     <li>Project</li> 
-     <li>Project by issue</li> 
-     <li>User</li> 
+     <li>[!UICONTROL Issues]</li> 
+     <li> <p>[!UICONTROL Issues by JQL (Jira Query Lanuguage)] </p> <p>For more information on JQL, see <a href="https://www.atlassian.com/blog/jira-software/jql-the-most-flexible-way-to-search-jira-14#:~:text=JQLstandsforJiraQuery,projectmanagers%2Candbusinessusers.">JQL</a> at the Atlassian help site. </p> </li> 
+     <li>[!UICONTROL Project]</li> 
+     <li>[!UICONTROL Project by issue]</li> 
+     <li>[!UICONTROL User]</li> 
     </ul> </td> 
   </tr> 
  </tbody> 
