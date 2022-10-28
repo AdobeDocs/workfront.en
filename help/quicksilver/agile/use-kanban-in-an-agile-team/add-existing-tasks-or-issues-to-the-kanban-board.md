@@ -51,6 +51,10 @@ To add a task or issue to a Kanban board:
 1. Select one or more tasks or issues.
 1. Click **More** > **Add to** > **Kanban Board**.
 1. In the Add Stories dialog box, type the name of the Kanban team.
+>[!NOTE]
+>
+>If you add multiple teams, the task or issue displays only on the primary team's kanban board. The primary team is the team first assigned. 
+
 1. If you are adding tasks, click **Add Stories**.  
    Or  
    If you are adding issues, click **Add Issues**.

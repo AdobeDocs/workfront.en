@@ -16,6 +16,10 @@ The following work items can be assigned to an agile team and added to that team
 
 Tasks or issues can be assigned to the team (and subsequently added to the team backlog) from anywhere in Adobe Workfront. For example, a single team might be assigned work assignments from multiple projects.
 
+>[!NOTE]
+>
+>If you add multiple teams to a backlog item, the task or issue displays only on the primary team's backlog. The primary team is the team first assigned. 
+
 ## Access requirements
 
 You must have the following access to perform the steps in this article:
