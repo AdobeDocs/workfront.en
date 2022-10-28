@@ -8,6 +8,7 @@ feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: 40945eac-e8de-42af-b6ba-f3082c208e02
 ---
 # Use the Workfront Extension for Illustrator and InDesign
+
 <!--
 >[!IMPORTANT]
 >
