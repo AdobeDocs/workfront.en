@@ -10,11 +10,11 @@ author: Becky
 feature: Workfront Fusion
 exl-id: 45c86879-bc4e-4134-b63c-02410b9de43b
 ---
-# Google Forms modules
+# [!DNL Google Forms] modules
 
-The [!DNL Adobe Workfront Fusion Google Forms] modules allow you to monitor, select, add, update or delete responses on your Google Forms.
+The [!DNL Adobe Workfront Fusion] [!DNL Google Forms] modules allow you to monitor, select, add, update or delete responses on your [!DNL Google Forms].
 
-In order to use [!DNL Google Docs] with [!DNL Adobe Workfront Fusion], it is necessary to have a Google account. If you don't have a Google account yet, you can create one at the Google Account help page.
+In order to use [!DNL Google Docs] with [!DNL Adobe Workfront Fusion], it is necessary to have a [!DNL Google] account. If you don't have a [!DNL Google] account yet, you can create one at the [!DNL Google] Account help page.
 
 If you need instructions on creating a scenario, see [Create a scenario in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
 
@@ -53,20 +53,20 @@ For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Work
 
 ## Prerequisites
 
-To use [!DNL Google] Forms modules, you must have a Google account.
+To use [!DNL Google Forms] modules, you must have a [!DNL Google] account.
 
 ## Creating a Spreadsheet from the Form
 
 In order to work with your form responses, the spreadsheet from your responses must be created.
 
 1. Open your form.
-1. Go to the **Responses** tab.
-1. Click the **Create Spreadsheet** icon ![](assets/spreadsheet-icon.png).
+1. Go to the **[!UICONTROL Responses]** tab.
+1. Click the **[!UICONTROL Create Spreadsheet]** icon ![](assets/spreadsheet-icon.png).
 
 1. Select whether you want to create a new spreadsheet or an existing spreadsheet
-1. Click **Create**.
+1. Click **[!UICONTROL Create]**.
 
-## Google Forms modules and their fields
+## [!DNL Google Forms] modules and their fields
 
 When you configure [!DNL Google Forms] modules, [!DNL Workfront Fusion] displays the fields listed below. Along with these, additional [!DNL Google Forms] fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
 
@@ -78,9 +78,9 @@ If you see the map button above a field or function, you can use it to set varia
 * [Actions](#actions)
 * [Searches](#searches)
 
-### Triggers {#triggers}
+### Triggers 
 
-#### Watch Responses
+#### [!UICONTROL Watch Responses]
 
 Watches the form for new responses.
 
@@ -90,47 +90,47 @@ Watches the form for new responses.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>For instructions about connecting your Google account to Workfront Fusion, see <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Connect the module's app or web service to Workfront Fusion</a> in the article <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Create a scenario in Adobe Workfront Fusion</a>.</p> </td> 
+   <td> <p>For instructions about connecting your [!DNL Google] account to [!DNL Workfront Fusion], see <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Connect the module's app or web service to [!DNL Workfront Fusion]</a> in the article <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Create a scenario in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Spreadsheet</td> 
+   <td role="rowheader">[!UICONTROL Spreadsheet]</td> 
    <td> <p>Select the spreadsheet that contains the responses from the form that you want to watch for new responses.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Sheet</td> 
+   <td role="rowheader">[!UICONTROL Sheet]</td> 
    <td> <p> Select the sheet that contains the form responses.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Row with headers</td> 
+   <td role="rowheader">[!UICONTROL Row with headers]</td> 
    <td>Specify the header row of the table. The default row is <code>A1:Z1</code>.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Value Render Option</td> 
+   <td role="rowheader">[!UICONTROL Value Render Option]</td> 
    <td> <p>Specify how you want the values to be rendered in the output.</p> 
     <ul> 
-     <li> <p><strong>Formatted value</strong> </p> <p>Values are calculated and formatted in the reply according to the cell's formatting. Formatting is based on the spreadsheet's locale, not the requesting user's locale. For example, if <code>A1</code> is <code>1. 23</code> and <code>A2 </code>is <code>=A1</code> and formatted as currency, then <code>A2</code> returns <code>$1. 23</code> .</p> </li> 
-     <li> <p><strong>Unformatted value</strong> </p> <p>Values are calculated, but not formatted in the reply. For example, if <code>A1</code> is <code>1. 23</code> and <code>A2 </code>is <code>=A1</code> and formatted as currency, then <code>A2</code> returns the number <code>1. 23</code> .</p> </li> 
-     <li> <p><strong>Formula</strong> </p> <p>Values are not calculated. The reply includes the formulas. For example, if <code>A1</code> is <code>1. 23</code> and <code>A2 </code>is <code>=A1</code> and formatted as currency, then <code>A2</code> returns <code>=A1</code>.</p> </li> 
+     <li> <p><strong>[!UICONTROL Formatted value]</strong> </p> <p>Values are calculated and formatted in the reply according to the cell's formatting. Formatting is based on the spreadsheet's locale, not the requesting user's locale. For example, if <code>A1</code> is <code>1. 23</code> and <code>A2 </code>is <code>=A1</code> and formatted as currency, then <code>A2</code> returns <code>$1. 23</code> .</p> </li> 
+     <li> <p><strong>[!UICONTROL Unformatted value]</strong> </p> <p>Values are calculated, but not formatted in the reply. For example, if <code>A1</code> is <code>1. 23</code> and <code>A2 </code>is <code>=A1</code> and formatted as currency, then <code>A2</code> returns the number <code>1. 23</code> .</p> </li> 
+     <li> <p><strong>[!UICONTROL Formula]</strong> </p> <p>Values are not calculated. The reply includes the formulas. For example, if <code>A1</code> is <code>1. 23</code> and <code>A2 </code>is <code>=A1</code> and formatted as currency, then <code>A2</code> returns <code>=A1</code>.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Date and time render option</td> 
-   <td>Select how you want dates, times, and duration to be represented in the output. This field is ignored if [!UICONTROL Value Render] Option is set to Formatted Value.</td> 
+   <td role="rowheader">[!UICONTROL Date and time render option]</td> 
+   <td>Select how you want dates, times, and duration to be represented in the output. This field is ignored if [!UICONTROL Value Render Option] is set to [!UICONTROL Formatted Value].</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Limit</td> 
+   <td role="rowheader">[!UICONTROL Limit]</td> 
    <td> <p> Set the maximum number of responses that [!DNL Workfront Fusion] works with during one cycle.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-### Actions {#actions}
+### Actions 
 
-* [Add a Response](#add-a-response)
-* [Update a Response](#update-a-response)
-* [Delete a Response](#delete-a-response)
+* [[!UICONTROL Add a Response]](#uicontrol-add-a-response)
+* [[!UICONTROL Update a Response]](#uicontrol-update-a-response)
+* [[!UICONTROL Delete a Response]](#uicontrol-delete-a-response)
 
-#### Add a Response {#add-a-response}
+#### [!UICONTROL Add a Response] 
 
 This module appends a new response to the bottom of the form's spreadsheet.
 
@@ -142,40 +142,40 @@ When you are configuring this module, the following fields display.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>For instructions about connecting your Google account to Workfront Fusion, see <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Connect the module's app or web service to Workfront Fusion</a> in the article <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Create a scenario in Adobe Workfront Fusion</a>.</p> </td> 
+   <td> <p>For instructions about connecting your [!DNL Google] account to [!DNL Workfront Fusion], see <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Connect the module's app or web service to [!DNL Workfront Fusion]</a> in the article <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Create a scenario in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Spreadsheet</td> 
+   <td role="rowheader">[!UICONTROL Spreadsheet]</td> 
    <td> <p>Select the spreadsheet that contains the sheet where you want to add a response.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Sheet</td> 
+   <td role="rowheader">[!UICONTROL Sheet]</td> 
    <td> <p> Select the sheet that contains the form responses.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>Values</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Values]</p> </td> 
    <td> <p>Enter the desired values to the sheet columns.</p> <p>For the [!UICONTROL Timestamp] column in the correct format, use the following value:</p><pre>formatDate(now;DD/MM/YYYY HH:mm;UTC)</pre> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Value input option</td> 
+   <td role="rowheader">[!UICONTROL Value input option]</td> 
    <td> 
     <ul> 
-     <li> <p><strong>Raw</strong> </p> <p> The values that the user enters are not parsed and are stored as-is. </p> </li> 
-     <li> <p><strong>User entered</strong></p> <p>The values are parsed as if the user typed them into the UI. Numbers remain numbers, but strings may be converted to numbers, dates, or other formats following the same rules that are applied when entering text into a cell via the [!DNL Google Sheets] UI.</p> </li> 
+     <li> <p><strong>[!UICONTROL Raw]</strong> </p> <p> The values that the user enters are not parsed and are stored as-is. </p> </li> 
+     <li> <p><strong>[!UICONTROL User entered]</strong></p> <p>The values are parsed as if the user typed them into the UI. Numbers remain numbers, but strings may be converted to numbers, dates, or other formats following the same rules that are applied when entering text into a cell via the [!DNL Google Sheets] UI.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Insert data option</td> 
+   <td role="rowheader">[!UICONTROL Insert data option]</td> 
    <td> <p>Specify how existing data is changed when new data is input. </p> 
     <ul> 
-     <li> <p><strong>Overwrite</strong> </p> <p>The new data overwrites existing data in the areas where it is written. Adding data to the end of the sheet inserts new rows or columns so the data can be written.</p> </li> 
-     <li> <p><strong>Insert rows</strong></p> <p>Rows are inserted for the new data.</p> </li> 
+     <li> <p><strong>[!UICONTROL Overwrite]</strong> </p> <p>The new data overwrites existing data in the areas where it is written. Adding data to the end of the sheet inserts new rows or columns so the data can be written.</p> </li> 
+     <li> <p><strong>[!UICONTROL Insert rows]</strong></p> <p>Rows are inserted for the new data.</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
 </table>
 
-#### Update a Response {#update-a-response}
+#### [!UICONTROL Update a Response]
 
 This module updates the selected response.
 
@@ -187,36 +187,36 @@ When you are configuring this module, the following fields display.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>For instructions about connecting your Google account to Workfront Fusion, see <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Connect the module's app or web service to Workfront Fusion</a> in the article <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Create a scenario in Adobe Workfront Fusion</a>.</p> </td> 
+   <td> <p>For instructions about connecting your [!DNL Google] account to [!DNL Workfront Fusion], see <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Connect the module's app or web service to [!DNL Workfront Fusion]</a> in the article <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Create a scenario in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Spreadsheet</td> 
+   <td role="rowheader">[!UICONTROL Spreadsheet]</td> 
    <td> <p>Select the spreadsheet that contains the sheet where you want to update a response.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Sheet</td> 
+   <td role="rowheader">[!UICONTROL Sheet]</td> 
    <td> <p> Select the sheet that contains the form responses.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>Row number</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Row number]</p> </td> 
    <td> <p>Enter or map the number of the row you want to update.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>Values</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Values]</p> </td> 
    <td> <p>Enter the new values to the desired columns.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Value input option</td> 
+   <td role="rowheader">[!UICONTROL Value input option]</td> 
    <td> 
     <ul> 
-     <li> <p><strong>Raw</strong> </p> <p> The values that the user enters are not parsed and are stored as-is. </p> </li> 
-     <li> <p><strong>User entered</strong></p> <p>The values are parsed as if the user typed them into the UI. Numbers remain numbers, but strings may be converted to numbers, dates, or other formats following the same rules that are applied when entering text into a cell via the [!DNL Google Sheets] UI.</p> </li> 
+     <li> <p><strong>[!UICONTROL Raw]</strong> </p> <p> The values that the user enters are not parsed and are stored as-is. </p> </li> 
+     <li> <p><strong>[!UICONTROL User entered]</strong></p> <p>The values are parsed as if the user typed them into the UI. Numbers remain numbers, but strings may be converted to numbers, dates, or other formats following the same rules that are applied when entering text into a cell via the [!DNL Google Sheets] UI.</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
 </table>
 
-#### Delete a Response {#delete-a-response}
+#### [!UICONTROL Delete a Response]
 
 This module deletes a selected response.
 
@@ -226,29 +226,29 @@ This module deletes a selected response.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>For instructions about connecting your Google account to Workfront Fusion, see <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Connect the module's app or web service to Workfront Fusion</a> in the article <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Create a scenario in Adobe Workfront Fusion</a>.</p> </td> 
+   <td> <p>For instructions about connecting your [!DNL Google] account to [!DNL Workfront Fusion], see <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Connect the module's app or web service to [!DNL Workfront Fusion]</a> in the article <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Create a scenario in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Spreadsheet</td> 
+   <td role="rowheader">[!UICONTROL Spreadsheet]</td> 
    <td> <p>Select the spreadsheet that contains the sheet where you want to delete a response.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Sheet</td> 
+   <td role="rowheader">[!UICONTROL Sheet]</td> 
    <td> <p> Select the sheet that contains the form responses.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>Row number</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Row number]</p> </td> 
    <td> <p>Enter or map the number of the row you want to delete.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-### Searches {#searches}
+### Searches 
 
-* [Search Responses](#search-responses)
-* [Search Responses (Advanced)](#search-responses-advanced)
+* [[!UICONTROL Search Responses]](#uicontrol-search-responses)
+* [[!UICONTROL Search Responses (Advanced])](#uicontrol-search-responses-advanced)
 
-#### Search Responses {#search-responses}
+#### [!UICONTROL Search Responses] 
 
 This module returns responses matching the given criteria.
 
@@ -257,78 +257,78 @@ This module returns responses matching the given criteria.
  <col data-mc-conditions=""> 
  <tbody> 
     <td>Connection</td>
-   <td> <p>For instructions about connecting your Google account to Workfront Fusion, see <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Connect the module's app or web service to Workfront Fusion</a> in the article <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Create a scenario in Adobe Workfront Fusion</a>.</p> </td> 
+   <td> <p>For instructions about connecting your [!DNL Google] account to [!DNL Workfront Fusion], see <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Connect the module's app or web service to [!DNL Workfront Fusion]</a> in the article <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Create a scenario in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-    <td>Spreadsheet</td>
+    <td>[!UICONTROL Spreadsheet]</td>
    <td> <p>Select the form you want to search in.</p> </td> 
   </tr> 
   <tr data-mc-conditions="">
-    <td>Sheet </td>
+    <td>[!UICONTROL Sheet] </td>
    <td> <p>Select the sheet that contains the form responses.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-    <td>Column range</td>
+    <td>[!UICONTROL Column range]</td>
    <td> <p> Select the column range you want to search.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Filter</td> 
+   <td role="rowheader">[!UICONTROL Filter]</td> 
    <td> <p>Define the filter you want to search responses responses by.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-    <td>Sort Order </td>
+    <td>[!UICONTROL Sort Order] </td>
    <td> <p>Select whether to sort returned responses in ascending or descending order.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-    <td>Order By</td>
+    <td>[!UICONTROL Order By]</td>
    <td> <p> Select the column you want to order returned responses by.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Value Render Option</td> 
+   <td role="rowheader">[!UICONTROL Value Render Option]</td> 
    <td> <p>Specify how you want the values to be rendered in the output.</p> 
     <ul> 
-     <li> <p><strong>Formatted value</strong></p> <p>Values are calculated and formatted in the reply according to the cell's formatting. Formatting is based on the spreadsheet's locale, not the requesting user's locale. For example, if <code>A1</code> is <code>1. 23</code> and <code>A2 </code>is <code>=A1</code> and formatted as currency, then <code>A2</code> returns <code>$1. 23</code> .</p> </li> 
-     <li> <p><strong>Unformatted value</strong> </p> <p>Values are calculated, but not formatted in the reply. For example, if <code>A1</code> is <code>1. 23</code> and <code>A2 </code>is <code>=A1</code> and formatted as currency, then <code>A2</code> returns the number <code>1. 23</code> .</p> </li> 
-     <li> <p><strong>Formula</strong> </p> <p>Values are not calculated. The reply includes the formulas. For example, if <code>A1</code> is <code>1. 23</code> and <code>A2 </code>is <code>=A1</code> and formatted as currency, then <code>A2</code> returns <code>=A1</code>.</p> </li> 
+     <li> <p><strong>[!UICONTROL Formatted value]</strong></p> <p>Values are calculated and formatted in the reply according to the cell's formatting. Formatting is based on the spreadsheet's locale, not the requesting user's locale. For example, if <code>A1</code> is <code>1. 23</code> and <code>A2 </code>is <code>=A1</code> and formatted as currency, then <code>A2</code> returns <code>$1. 23</code> .</p> </li> 
+     <li> <p><strong>[!UICONTROL Unformatted value]</strong> </p> <p>Values are calculated, but not formatted in the reply. For example, if <code>A1</code> is <code>1. 23</code> and <code>A2 </code>is <code>=A1</code> and formatted as currency, then <code>A2</code> returns the number <code>1. 23</code> .</p> </li> 
+     <li> <p><strong>[!UICONTROL Formula]</strong> </p> <p>Values are not calculated. The reply includes the formulas. For example, if <code>A1</code> is <code>1. 23</code> and <code>A2 </code>is <code>=A1</code> and formatted as currency, then <code>A2</code> returns <code>=A1</code>.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr data-mc-conditions="">
-    <td>Date and time render option</td>
+    <td>[!UICONTROL Date and time render option]</td>
     <td>Select how you want dates, times, and duration to be represented in the output. This field is ignored if [!UICONTROL Value Render] Option is set to Formatted Value. </td>
   </tr> 
   <tr>
-    <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">Maximum number of returned responses</td>
+    <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">[!UICONTROL Maximum number of returned responses]</td>
    <td> <p> Set the maximum number of responses that [!DNL Workfront Fusion] returns during one cycle.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-#### Search Responses (Advanced) {#search-responses-advanced}
+#### [!UICONTROL Search Responses (Advanced)] 
 
-This module performs a search using the [[!DNL Google Charts] Query Language](https://developers.google.com/chart/interactive/docs/querylanguage). This module does not return a row number.
+This module performs a search using the [[!DNL Google Charts Query Language]](https://developers.google.com/chart/interactive/docs/querylanguage). This module does not return a row number.
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
  <col data-mc-conditions=""> 
  <tbody> 
   <tr> 
-    <td>Connection</td>
-   <td> <p>For instructions about connecting your Google account to Workfront Fusion, see <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Connect the module's app or web service to Workfront Fusion</a> in the article <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Create a scenario in Adobe Workfront Fusion</a>.</p> </td> 
+    <td>[!UICONTROL Connection]</td>
+   <td> <p>For instructions about connecting your [!DNL Google] account to [!DNL Workfront Fusion], see <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Connect the module's app or web service to [!DNL Workfront Fusion]</a> in the article <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Create a scenario in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr>
-    <td>Spreadsheet</td>
+    <td>[!UICONTROL Spreadsheet]</td>
    <td> <p>Select the spreadsheet that contains the sheet you want to search.</p> </td> 
   </tr> 
   <tr>
-    <td>Sheet</td>
+    <td>[!UICONTROL Sheet]</td>
    <td> <p> Select the sheet that contains the form responses.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Filter</td> 
-   <td> <p>Define the search query using the <a href="https://developers.google.com/chart/interactive/docs/querylanguage">[!DNL Google Charts] Query Language</a>.</p> <p>Example: <code>select * where C = "John"</code> retrieves all values for the row where the C column is "John".</p> </td> 
+   <td role="rowheader">[!UICONTROL Filter]</td> 
+   <td> <p>Define the search query using the <a href="https://developers.google.com/chart/interactive/docs/querylanguage">[!DNL Google Charts Query Language]</a>.</p> <p>Example: <code>select * where C = "John"</code> retrieves all values for the row where the C column is "John".</p> </td> 
   </tr> 
   <tr>
-    <td>Maximum number of returned rows</td>
+    <td>[!UICONTROL Maximum number of returned rows]</td>
    <td> <p> Set the maximum number of responses that [!DNL Workfront Fusion] returns during one cycle.</p> </td> 
   </tr> 
  </tbody> 
