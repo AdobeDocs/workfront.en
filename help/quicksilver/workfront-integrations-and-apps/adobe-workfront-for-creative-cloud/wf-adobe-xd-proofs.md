@@ -94,9 +94,11 @@ You must have the following access to perform the steps in this article:
     </tbody> 
    </table>
 
+{{adjust-proof-settings}} <!-- check this placement -->
+
 1. (Optional) Type a comment in the **[!UICONTROL Updates]** area.
 
-   ![](assets/proof-approvals-xd-350x396.png)
+   ![](assets/proof-approvals-xd-350x396.png) <!-- new screenshot -->
 
 1. Click **[!UICONTROL Upload]**.  
    The document appears in the [!UICONTROL Documents] area in the plugin and the desktop app.
@@ -223,9 +225,11 @@ You can upload a new version of a proof. The plugin remembers the proofing workf
     </tbody> 
    </table>
 
+{{adjust-proof-settings}} <!--check placement -->
+
 1. (Optional) Type a comment in the **[!UICONTROL Updates]** area.
 
-   ![](assets/proof-approvals-xd-350x396.png)
+   ![](assets/proof-approvals-xd-350x396.png) <!--new screenshot -->
 
 1. Click **[!UICONTROL Upload]**.  
    The document appears in the [!UICONTROL Documents] area in the plugin and the desktop app.
