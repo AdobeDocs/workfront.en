@@ -48,9 +48,9 @@ For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Work
 
 When you are configuring this module, the following fields display. A bolded title in a module indicates a required field.
 
-* [[!UICONTROL Resize]](#resize)
-* [[!UICONTROL Convert a format]](#convert-a-format)
-* [[!UICONTROL Extract metadata]](#extract-metadata)
+* [[!UICONTROL Resize]](#uicontrol-resize)
+* [[!UICONTROL Convert a format]](#uicontrol-convert-a-format)
+* [[!UICONTROL Extract metadata]](#uicontrol-extract-metadata)
 
 ### [!UICONTROL Resize] 
 
