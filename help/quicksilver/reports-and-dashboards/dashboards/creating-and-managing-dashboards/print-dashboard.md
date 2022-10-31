@@ -84,9 +84,9 @@ The following information is not included in the printed or exported dashboard f
    
    * Press **Ctrl+P** (on Windows) or **Command+P** (on Mac)
 
-     >[!TIP]
+     >[!IMPORTANT]
      >
-     >* The Dashboard Actions link is not available when the dashboard is embedded in a custom tab. For information about creating custom tabs, see [Create custom tabs or sections](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md). 
+     >* Neither of these options are available when the dashboard is embedded in a custom tab. For information about creating custom tabs, see [Create custom tabs or sections](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md). 
      >* The keyboard shortcut option is not available when using the Internet Explorer browser.
 
 1. In the **Destination** field, select from the various printing options available.  
