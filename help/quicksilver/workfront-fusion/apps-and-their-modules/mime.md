@@ -9,9 +9,9 @@ author: Becky
 feature: Workfront Fusion
 exl-id: ebbf6ad0-a1d0-47f8-849f-7bba1e0763d3
 ---
-# MIME modules
+# [!UICONTROL MIME] modules
 
-You can use MIME types in Adobe Workfront Fusion. Multipurpose Internet Mail Extension (MIME) types are labels that allow software to identify different types of data shared on the internet. Web servers and browsers use the MIME&nbsp;type to determine what should be done with a file. For example, a file with the MIME type `text/html` will be processed in a browser differently than a file with MIME type `image/jpeg`. MIME types function independent of operating system and hardware.
+You can use MIME types in Adobe Workfront Fusion. Multipurpose Internet Mail Extension (MIME) types are labels that allow software to identify different types of data shared on the internet. Web servers and browsers use the MIME type to determine what should be done with a file. For example, a file with the MIME type `text/html` will be processed in a browser differently than a file with MIME type `image/jpeg`. MIME types function independent of operating system and hardware.
 
 ## Access requirements
 
@@ -44,29 +44,29 @@ To find out what plan, license type, or access you have, contact your [!DNL Work
 
 For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Workfront Fusion] licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
-## MIME&nbsp;modules and their fields
+## [!UICONTROL MIME] modules and their fields
 
-### Get a MIME type
+### [!UICONTROL Get a MIME type]
 
-This transformer module return the MIME&nbsp;type associated with a given name, path, or extension.
+This transformer module return the MIME type associated with a given name, path, or extension.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">File</td> 
+   <td role="rowheader">[!UICONTROL File]</td> 
    <td> <p>Enter or map the file that you want to determine the MIME type for. </p> <p>You can enter the file using:</p> 
     <ul> 
-     <li> <p><strong>File path</strong> </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Example: </b></span></span>[!DNL /file/image].jpeg</p> </li> 
-     <li><strong>File name</strong>  <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Example: </b></span></span>image.jpeg</p> </li> 
-     <li><strong>File extension</strong>  <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Example: </b></span></span>jpeg</p> </li> 
+     <li> <p><strong>[!UICONTROL File path]</strong> </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Example: </b></span></span>/file/image.jpeg</p> </li> 
+     <li><strong>[!UICONTROL File name]</strong>  <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Example: </b></span></span>image.jpeg</p> </li> 
+     <li><strong>[!UICONTROL File extension]</strong>  <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Example: </b></span></span>jpeg</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
 </table>
 
-### Get a file extension
+### [!UICONTROL Get a file extension]
 
 This transformer module returns the original file extension for a given MIME type.
 
@@ -75,7 +75,7 @@ This transformer module returns the original file extension for a given MIME typ
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">MIME type</td> 
+   <td role="rowheader">[!UICONTROL MIME type]</td> 
    <td> <p>Enter or map the MIME type that you want to determine the file extension for. </p> </td> 
   </tr> 
  </tbody> 

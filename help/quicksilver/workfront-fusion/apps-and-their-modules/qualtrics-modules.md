@@ -12,7 +12,7 @@ exl-id: 146802cd-b863-4c93-b767-50e05892c4de
 ---
 # Qualtrics modules
 
-In an [!DNL Adobe Workfront Fusion] scenario, you can automate workflows that use Qualtrics, as well as connect it to multiple third-party applications and services.
+In an [!DNL Adobe Workfront Fusion] scenario, you can automate workflows that use [!DNL Qualtrics], as well as connect it to multiple third-party applications and services.
 
 If you need instructions on creating a scenario, see [Create a scenario in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
 
@@ -51,13 +51,13 @@ For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Work
 
 ## Prerequisites
 
-To use Qualtrics modules, you must have a Qualtrics account.
+To use [!DNL Qualtrics] modules, you must have a [!UICONTROL Qualtrics] account.
 
 ## Connecting [!DNL Qualtrics] to [!DNL Workfront] Fusion
 
-You can create a connection to your [!DNL Qualtrics] account directly from inside a Qualtrics module.
+You can create a connection to your [!DNL Qualtrics] account directly from inside a [!UICONTROL Qualtrics] module.
 
-1. In any Qualtrics module, click **[!UICONTROL Add]** next to the [!UICONTROL Connection] field.
+1. In any [!UICONTROL Qualtrics] module, click **[!UICONTROL Add]** next to the [!UICONTROL Connection] field.
 1. Enter the following information:
 
    <table style="table-layout:auto"> 
@@ -65,32 +65,32 @@ You can create a connection to your [!DNL Qualtrics] account directly from insid
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader"> <p>Connection name</p> </td> 
+      <td role="rowheader"> <p>[!UICONTROL Connection name]</p> </td> 
       <td> <p>Enter a name for the new connection.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Data Center ID </td> 
+      <td role="rowheader">[!UICONTROL Data Center ID] </td> 
       <td>Use the format <code>&lt;Data Center ID>.qualtrics.com</code>.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">API Key</td> 
-      <td>To locate your API key, see <a href="https://api.qualtrics.com/instructions/docs/Instructions/api-key-authentication.md">API Token Authentication</a> in the Qualtrics documentation.</td> 
+      <td role="rowheader">[!UICONTROL API Key]</td> 
+      <td>To locate your API key, see <a href="https://api.qualtrics.com/instructions/docs/Instructions/api-key-authentication.md">API Token Authentication</a> in the [!DNL Qualtrics] documentation.</td> 
      </tr> 
     </tbody> 
    </table>
 
 1. Click **[!UICONTROL Continue]** to create the connection and go back to the module.
 
-## Qualtrics modules and their fields
+## [!DNL Qualtrics] modules and their fields
 
 The following modules are available for the [!DNL Qualtrics] connector:
 
-* Watch New Survey Response
-* Create a Directory Contact
-* Delete a Directory Contact
-* Get a Directory Contact
-* Update a Directory Contact
-* Create a New Survey Distribution via SMS
-* Distribute a Survey via Email
-* Make an API call
-* List Directory Contacts
+* [!UICONTROL Watch New Survey Response]
+* [!UICONTROL Create a Directory Contact]
+* [!UICONTROL Delete a Directory Contact]
+* [!UICONTROL Get a Directory Contact]
+* [!UICONTROL Update a Directory Contact]
+* [!UICONTROL Create a New Survey Distribution via SMS]
+* [!UICONTROL Distribute a Survey via Email]
+* [!UICONTROL Make an API call]
+* [!UICONTROL List Directory Contacts]

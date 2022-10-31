@@ -10,9 +10,9 @@ author: Becky
 feature: Workfront Fusion
 exl-id: 66d2e59e-0945-4a6b-a0fe-5c313051ad4e
 ---
-# NetSuite modules
+# [!DNL NetSuite] modules
 
-In an Adobe Workfront Fusion scenario, you can automate workflows that use [!DNL NetSuite], as well as connect it to multiple third-party applications and services.
+In an [!DNL Adobe Workfront Fusion] scenario, you can automate workflows that use [!DNL NetSuite], as well as connect it to multiple third-party applications and services.
 
 If you need instructions on creating a scenario, see [Create a scenario in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
 
@@ -55,7 +55,7 @@ To use [!DNL NetSuite] modules, you must have a [!DNL NetSuite] account.
 
 
 
-## NetSuite modules and their fields
+## [!DNL NetSuite] modules and their fields
 
 When you configure [!DNL NetSuite] modules, [!DNL Workfront Fusion] displays the fields listed below. Along with these, additional [!DNL NetSuite] fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
 
@@ -64,7 +64,7 @@ If you see the map button above a field or function, you can use it to set varia
 ![](assets/map-toggle-350x74.png)
 
 
-### Custom API Call {#custom-api-call}
+### [!UICONTROL Custom API Call]
 
 This action module lets you make a custom authenticated call to the [!DNL NetSuite] API. This way, you can create a data flow automation that can't be accomplished by the other [!DNL NetSuite] modules.
 
@@ -81,7 +81,7 @@ When you are configuring this module, the following fields display.
    <td> <p>For instructions about connecting your [!DNL NetSuite] account to Workfront Fusion, see<a href="#create-a-connection-to-netsuite-in-a-workfront-fusion-netsuite-module" class="MCXref xref">Create a connection to [!DNL NetSuite] in a Workfront Fusion NetSuite module</a> in this article.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">URL</td> 
+   <td role="rowheader">[!UICONTROL URL]</td> 
    <td> <p>Use the following URL format:</p> <p><code>https://{accountID}.suitetalk.api.netsuite.com/services/rest/record/{version}/{resource}?{query-parameters}</code> </p> </td> 
   </tr> 
   <tr> 
@@ -94,7 +94,7 @@ When you are configuring this module, the following fields display.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Query String]</td> 
-   <td> <p>Add the query for the API call in the form of a standard JSON object.</p> <p>For example: <code>{“name”:“something-urgent”}</code></p> </td> 
+   <td> <p>Add the query for the API call in the form of a standard JSON object.</p> <p>For example: <code>{"name":"something-urgent"}</code></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Body]</td> 

@@ -10,9 +10,9 @@ author: Becky
 feature: Workfront Fusion
 exl-id: 3c94a6d8-6994-40b1-b4fe-2de09795799c
 ---
-# Quickbase modules
+# [!DNL Quickbase] modules
 
-In an [!DNL Adobe Workfront Fusion] scenario, you can automate workflows that use Quickbase, as well as connect it to multiple third-party applications and services.
+In an [!DNL Adobe Workfront Fusion] scenario, you can automate workflows that use [!DNL Quickbase], as well as connect it to multiple third-party applications and services.
 
 If you need instructions on creating a scenario, see [Create a scenario in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
 
@@ -51,17 +51,17 @@ For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Work
 
 ## Prerequisites
 
-To use the Quickbase module, you must have a Quickbase account.
+To use the [!DNL Quickbase] module, you must have a [!DNL Quickbase] account.
 
-## Quickbase module and its fields
+## [!DNL Quickbase] module and its fields
 
-When you configure [!DNL Quickbase] modules, [!DNL Workfront Fusion] displays the fields listed below. Along with these, additional Quickbase fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
+When you configure [!DNL Quickbase] modules, [!DNL Workfront Fusion] displays the fields listed below. Along with these, additional [!DNL Quickbase] fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
 
 If you see the map button above a field or function, you can use it to set variables and functions for that field. For more information, see [Map information from one module to another in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 ![](assets/map-toggle-350x74.png)
 
-### Custom API Call
+### [!DNL Custom API Call]
 
 This module calls any available [!DNL Quickbase] RESTful API endpoint documented at [developer.quickbase.com](http://developer.quickbase.com/).
 
@@ -70,11 +70,11 @@ This module calls any available [!DNL Quickbase] RESTful API endpoint documented
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>Connection</p> </td> 
-   <td> <p>For instructions about connecting your [Fusion App] account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Adobe Workfront Fusion - Basic instructions</a></p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
+   <td> <p>For instructions about connecting your [!DNL Quickbase] account to [!DNL Workfront Fusion], see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Adobe [!DNL Workfront Fusion] - Basic instructions</a></p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">URL</td> 
+   <td role="rowheader">[!UICONTROL URL]</td> 
    <td>Enter the URL for the API request.</td> 
   </tr> 
   <tr> 
@@ -83,11 +83,11 @@ This module calls any available [!DNL Quickbase] RESTful API endpoint documented
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Headers]</td> 
-   <td> <p>Add the headers of the request in the form of a standard JSON object.</p> <p>For example: <code>{"Content-type":"application/json"}</code></p> <p>Workfront Fusion adds the authorization headers for you.</p> </td> 
+   <td> <p>Add the headers of the request in the form of a standard JSON object.</p> <p>For example: <code>{"Content-type":"application/json"}</code></p> <p>[!DNL Workfront Fusion] adds the authorization headers for you.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Query String]</td> 
-   <td> <p>Add the query for the API call in the form of a standard JSON object.</p> <p>For example: <code>{“name”:“something-urgent”}</code></p> </td> 
+   <td> <p>Add the query for the API call in the form of a standard JSON object.</p> <p>For example: <code>{"name":"something-urgent"}</code></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Body]</td> 
