@@ -75,7 +75,7 @@ You must have the following to perform the steps in this article:
 
    >[!NOTE]
    >
-   >The My Timesheet Approvals and My Timesheets options do not display at the top of the timesheet list or in the list of filters if your Workfront administrator or a group administrator removed the My&nbsp;Timesheet Approvals and the My&nbsp;Timesheets filters from either the List Controls in the Setup area or from your Layout Template.&nbsp;For more information see the following articles:
+   >The My Timesheet Approvals and My Timesheets options do not display at the top of the timesheet list or in the list of filters if your Workfront administrator or a group administrator removed the My Timesheet Approvals and the My Timesheets filters from either the List Controls in the Setup area or from your Layout Template. For more information see the following articles:
    >
    >   
    >   
@@ -119,15 +119,41 @@ You must have the following to perform the steps in this article:
       </tr> 
       <tr> 
       <td role="rowheader"><strong>Can edit time</strong> </td> 
+
       <td> <p>Select this option if you want to allow approvers to edit hours on the timesheet.</p> </td> 
       </tr> 
-      <tr data-mc-conditions=""> 
+     
+      <td>       
+      
+      This option works together with the **Restrict timesheet editing to owners and admins** setting in the Setup > Timesheet & Hours > Preferences area. For more information, see <a href="../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md">Configure timesheet and hour preferences</a>.
+
+      The following scenarios exist: 
+
+      <ul>
+      <li>When the <b>Restrict timesheet editing to owners and admins</b> option is enabled:</li>
+   <ul><li>Approvers can only approve and reject timesheet, regardless of whether the <b>Can edit time</b> is enabled or not. </li>
+   <li>Timesheet owners' managers can only view their direct reports' timesheets.</li></ul>
+   <li>When the <b>Restrict timesheet editing to owners and admins</b> option is disabled:</li>
+   <ul><li>When the <b>Can edit time</b> is enabled, approvers can submit, reopen, or close the timesheet and can edit the time.</li>
+   <li>When the <b>Can edit time</b> is disabled, approvers cannot submit, reopen, or close the timesheet and cannot edit the time. Approvers can only approve or reject the timesheet. </li>
+   <li>Timesheet owners' managers can submit, recall, reopen, and edit their direct reports' timesheets.</li></ul>
+   </ul>
+
+<p><b>NOTE</b>
+
+ Once you submit a timesheet for approval, you can no longer edit the hours. To return a submitted timesheet to an editable state, recall the timesheet or have the approver reject the timesheet. For more information, see <a href="../../timesheets/create-and-manage-timesheets/submit-timesheet-for-approval.md">Submit a timesheet for approval</a> and<a href="../../timesheets/create-and-manage-timesheets/timesheet-approvals.md">Approve a timesheet</a>.</p> </p>
+      
+  </td> 
+     </tr> 
+     <tr data-mc-conditions=""> 
+
       <td role="rowheader"><span style="font-weight: bold;">Overtime</span> </td> 
       <td>You can choose to hide the Overtime box on the timesheet. This option is disabled by default.</td> 
       </tr> 
       </tbody> 
    </table>
 
+<!--the content in the table above will need to match the content in the Create timesheet profiles article-->
 1. Click **Create timesheet**.
 
 ## When tasks and issues appear on users' timesheets
