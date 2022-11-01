@@ -67,7 +67,7 @@ You must have the following to perform the steps in this article:
 
      Select **My Timesheets** to view only your timesheets.
 
-     This applies the My Timesheet Approvals or the My&nbsp;Timesheet filters to the list of timesheets.
+     This applies the My Timesheet Approvals or the My Timesheet filters to the list of timesheets.
 
      ![](assets/my-timesheet-approvals-my-timesheets-pills-on-timesheets-list-nwe-350x58.png)
 
@@ -76,15 +76,12 @@ You must have the following to perform the steps in this article:
    >[!NOTE]
    >
    >The My Timesheet Approvals and My Timesheets options do not display at the top of the timesheet list or in the list of filters if your Workfront administrator or a group administrator removed the My Timesheet Approvals and the My Timesheets filters from either the List Controls in the Setup area or from your Layout Template. For more information see the following articles:
-   >
-   >   
-   >   
+   > 
    >   * [Edit list controls: filters, views, and groupings](../../administration-and-setup/manage-workfront/configure-reports/edit-list-controls-filters-views-groupings.md) 
    >   * [Customize Filters, Views, and Groupings using a layout template](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md) 
-   >   
-   >
+   
 
-1. (Optional) Click the **search** icon ![](assets/search-icon.png) to type a keyword and search for a specific timesheet. For example, you can search for a timesheet time frame of owner name. 
+1. (Optional) Click the **Search** icon ![](assets/search-icon.png) to type a keyword and search for a specific timesheet. For example, you can search for a timesheet time frame of owner name. 
 
 1. (Optional) Click the **View** ![](assets/view-icon.png) or **Grouping** ![](assets/grouping.png) icons to apply a different view or grouping or to create a new one.
 
@@ -95,7 +92,8 @@ You must have the following to perform the steps in this article:
    * [Create groupings in Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/create-groupings.md)
 
 1. Click **New Timesheet** at the top of the list of timesheets.
-1. Specify the following information:
+   
+   Specify the following information:
 
    <table style="table-layout:auto"> 
       <col> 
@@ -115,15 +113,12 @@ You must have the following to perform the steps in this article:
       </tr> 
       <tr> 
       <td role="rowheader"><strong>Approvers</strong> </td> 
-      <td>Approvers are&nbsp;users who approve the timesheet for the users associated with the timesheet. Only users with timesheet administrative rights can be set as approvers. For more information about timesheet administrative rights, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Grant users administrative access to certain areas</a>.<br>Start entering the names of the timesheet approvers and click them when they appear&nbsp;in the list.<br>You can have multiple approvers on a timesheet. In this case, after&nbsp;one of the approvers approves the timesheet, the timesheet is marked as <strong>Closed</strong> and it disappears from the timesheet approvals list of all the remaining approvers.</td> 
+      <td>Approvers are users who approve the timesheet for the users associated with the timesheet. Only users with timesheet administrative rights can be set as approvers. For more information about timesheet administrative rights, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Grant users administrative access to certain areas</a>.<br>Start entering the names of the timesheet approvers and click them when they appear in the list.<br>You can have multiple approvers on a timesheet. In this case, after one of the approvers approves the timesheet, the timesheet is marked as <strong>Closed</strong> and it disappears from the timesheet approvals list of all the remaining approvers.</td> 
       </tr> 
       <tr> 
       <td role="rowheader"><strong>Can edit time</strong> </td> 
 
-      <td> <p>Select this option if you want to allow approvers to edit hours on the timesheet.</p> </td> 
-      </tr> 
-     
-      <td>       
+      <td> <p>Select this option if you want to allow approvers to edit hours on the timesheet.</p> 
       
       This option works together with the **Restrict timesheet editing to owners and admins** setting in the Setup > Timesheet & Hours > Preferences area. For more information, see <a href="../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md">Configure timesheet and hour preferences</a>.
 
@@ -139,13 +134,14 @@ You must have the following to perform the steps in this article:
    <li>Timesheet owners' managers can submit, recall, reopen, and edit their direct reports' timesheets.</li></ul>
    </ul>
 
-<p><b>NOTE</b>
+   <p><b>NOTE</b>
 
- Once you submit a timesheet for approval, you can no longer edit the hours. To return a submitted timesheet to an editable state, recall the timesheet or have the approver reject the timesheet. For more information, see <a href="../../timesheets/create-and-manage-timesheets/submit-timesheet-for-approval.md">Submit a timesheet for approval</a> and<a href="../../timesheets/create-and-manage-timesheets/timesheet-approvals.md">Approve a timesheet</a>.</p> </p>
-      
-  </td> 
-     </tr> 
-     <tr data-mc-conditions=""> 
+      Once you submit a timesheet for approval, you can no longer edit the hours. To return a submitted timesheet to an editable state, recall the timesheet or have the approver reject the timesheet. For more information, see <a href="../../timesheets/create-and-manage-timesheets/submit-timesheet-for-approval.md">Submit a timesheet for approval</a> and <a href="../../timesheets/create-and-manage-timesheets/timesheet-approvals.md">Approve a timesheet</a>.</p> </p>
+          
+      </td> 
+      </tr> 
+           
+     <tr> 
 
       <td role="rowheader"><span style="font-weight: bold;">Overtime</span> </td> 
       <td>You can choose to hide the Overtime box on the timesheet. This option is disabled by default.</td> 
@@ -153,8 +149,9 @@ You must have the following to perform the steps in this article:
       </tbody> 
    </table>
 
-<!--the content in the table above will need to match the content in the Create timesheet profiles article-->
 1. Click **Create timesheet**.
+
+<!--the content in the table above will need to match the content in the Create timesheet profiles article-->
 
 ## When tasks and issues appear on users' timesheets
 

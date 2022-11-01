@@ -91,7 +91,7 @@ You must have the following to perform the steps in this article:
       <li> <p>If you are creating a timesheet profile for a group you administer, identify the group here.</p> <p>This does not assign the timesheet profile to the users in the group; it only allows the group's administrators to modify the timesheet profile. You will assign the profile to users in Step 6.</p> <p><b>NOTE</b>
 
       When users outside the group are attaching timesheet profiles to other user, they won't be able to see or attach this timesheet profile.</p> </li> 
-        </ul> </p> </td> 
+      </ul> </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Create timesheets</strong> </td> 
@@ -100,13 +100,13 @@ You must have the following to perform the steps in this article:
       If you configure a timesheet profile to create timesheets on a Friday, users are not able to record hours on Friday, Saturday, and Sunday, for the current week.</p> <p>Workfront always creates two timesheets at a time: the first timesheet always includes the current date, and the second timesheet&nbsp;starts when the time frame of the first one ends.</p> </p> </td> 
     </tr> 
      <tr> 
-      <td role="rowheader"><strong>Approvers</strong> </td> 
+      <td role="rowheader"><p><strong>Approvers</strong></p> </td> 
       <td> <p> <p>Approvers are&nbsp;users who approve the timesheet for the users associated with the timesheet. You can identify up to 7 users as approvers on a timesheet. Identifying multiple users is useful to ensure an approver is available when someone is out of the office. All approvers are notified when a user submits the timesheet for approval. Only one user is required to approve the timesheet in order for it to be approved.</p> <p>Only users with timesheet administrative rights can be set as approvers. For more information about timesheet administrative rights, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Grant users administrative access to certain areas</a>.</p> <p>Use the drop-down menu&nbsp;to select&nbsp;the approver&nbsp;for the timesheet (if an approver is required). You can select from the following options:</p> 
-        <ul> 
-         <li><strong>None</strong>: The timesheet does not need to&nbsp;be approved.</li> 
-         <li><strong>Their Manager</strong>: This is the default approver, set by the system. In this case, the user designated as their manager approves the timesheet when it is submitted for approval.</li> 
-         <li><strong>Specific People:</strong>&nbsp;You can designate specific users, by name, as timesheet approvers. You can have multiple approvers on a timesheet. In this case, after&nbsp;one of the approvers approves the timesheet, the timesheet is marked as <strong>Closed</strong> and it disappears from the timesheet approvals list of all the remaining approvers.</li> 
-        </ul> </p> </td> 
+      <ul> 
+      <li><strong>None</strong>: The timesheet does not need to&nbsp;be approved.</li> 
+      <li><strong>Their Manager</strong>: This is the default approver, set by the system. In this case, the user designated as their manager approves the timesheet when it is submitted for approval.</li> 
+      <li><strong>Specific People:</strong>&nbsp;You can designate specific users, by name, as timesheet approvers. You can have multiple approvers on a timesheet. In this case, after&nbsp;one of the approvers approves the timesheet, the timesheet is marked as <strong>Closed</strong> and it disappears from the timesheet approvals list of all the remaining approvers.</li> 
+       </ul> </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Can edit time </strong> </td> 
@@ -118,17 +118,17 @@ You must have the following to perform the steps in this article:
 
       <ul>
       <li>When the <b>Restrict timesheet editing to owners and admins</b> option is enabled:</li>
-   <ul><li>Approvers can only approve and reject timesheet, regardless of whether the <b>Can edit time</b> is enabled or not. </li>
-   <li>Timesheet owners' managers can only view their direct reports' timesheets.</li></ul>
-   <li>When the <b>Restrict timesheet editing to owners and admins</b> option is disabled:</li>
-   <ul><li>When the <b>Can edit time</b> is enabled, approvers can submit, reopen, or close the timesheet and can edit the time.</li>
-   <li>When the <b>Can edit time</b> is disabled, approvers cannot submit, reopen, or close the timesheet and cannot edit the time. Approvers can only approve or reject the timesheet. </li>
-   <li>Timesheet owners' managers can submit, recall, reopen, and edit their direct reports' timesheets.</li></ul>
-   </ul>
+      <ul><li>Approvers can only approve and reject timesheet, regardless of whether the <b>Can edit time</b> is enabled or not. </li>
+      <li>Timesheet owners' managers can only view their direct reports' timesheets.</li></ul>
+      <li>When the <b>Restrict timesheet editing to owners and admins</b> option is disabled:</li>
+    <ul><li>When the <b>Can edit time</b> is enabled, approvers can submit, reopen, or close the timesheet and can edit the time.</li>
+      <li>When the <b>Can edit time</b> is disabled, approvers cannot submit, reopen, or close the timesheet and cannot edit the time. Approvers can only approve or reject the timesheet. </li>
+      <li>Timesheet owners' managers can submit, recall, reopen, and edit their direct reports' timesheets.</li></ul>
+      </ul>
 
-<p><b>NOTE</b>
+      <p><b>NOTE</b>
 
- Once you submit a timesheet for approval, you can no longer edit the hours. To return a submitted timesheet to an editable state, recall the timesheet or have the approver reject the timesheet. For more information, see <a href="../../timesheets/create-and-manage-timesheets/submit-timesheet-for-approval.md">Submit a timesheet for approval</a> and<a href="../../timesheets/create-and-manage-timesheets/timesheet-approvals.md">Approve a timesheet</a>.</p> </p> </td> 
+      Once you submit a timesheet for approval, you can no longer edit the hours. To return a submitted timesheet to an editable state, recall the timesheet or have the approver reject the timesheet. For more information, see <a href="../../timesheets/create-and-manage-timesheets/submit-timesheet-for-approval.md">Submit a timesheet for approval</a> and<a href="../../timesheets/create-and-manage-timesheets/timesheet-approvals.md">Approve a timesheet</a>.</p> </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Available Hour Types</strong> </td> 
@@ -139,10 +139,7 @@ You must have the following to perform the steps in this article:
       <td>You can choose to hide the Overtime box in timesheets. This option is disabled by default.</td> 
      </tr> 
     </tbody> 
-   </table>
-
-
-   <!--the content in the table above will need to match the content in the Create timesheets article-->
+    </table>
 
 1. Click the **Assign People** tab to associate the timesheet profile with specific users, groups, or (if you are a Workfront administrator) teams. Begin typing the name of the user, group, or team, then click it when it appears in the drop-down list.
 
@@ -157,6 +154,8 @@ You must have the following to perform the steps in this article:
 1. Click **Save Changes**.
 
    The first time the timesheet profile generates timesheets, 2 timesheets are created for each user. After that, each time it generates new timesheets, onhe timesheet is created per user.
+
+   <!--the content in the table above will need to match the content in the Create timesheets article-->
 
 ## Limitations for a group administrator assigning a timesheet profile {#limitations-for-a-group-administrator-assigning-a-timesheet-profile}
 
