@@ -36,6 +36,8 @@ You must have the following access to perform the steps in this article:
 
 Your organization's instance of Workfront must be onboarded to the Adobe Business Platform / Adobe Admin Console.
 
+If you have questions about onboarding to the Adobe Admin Console, see the [Adobe Unified Experience FAQ](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md/).
+
 ## Log in to Adobe Experience Cloud
 
 1. Open a browser window and go to <https://experience.adobe.com>.
