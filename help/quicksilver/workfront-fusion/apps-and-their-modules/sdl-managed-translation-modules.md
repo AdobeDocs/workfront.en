@@ -10,9 +10,9 @@ author: Becky
 feature: Workfront Fusion
 exl-id: e1ef114f-8ce4-4210-b176-727dc4f5e561
 ---
-# SDL Managed Translation modules
+# [!DNL SDL Managed Translation] modules
 
-In an [!DNL Adobe Workfront Fusion] scenario, you can connect your SDL Managed Translation account to multiple third-party applications and services.
+In an [!DNL Adobe Workfront Fusion] scenario, you can connect your [!DNL SDL Managed Translation] account to multiple third-party applications and services.
 
 ## Access requirements
 
@@ -45,19 +45,19 @@ To find out what plan, license type, or access you have, contact your [!DNL Work
 
 For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Workfront Fusion] licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
-## SDL&nbsp;Managed Translation Modules
+## [!DNL SDL Managed Translation] Modules
 
 >[!NOTE]
 >
->The operation timeout for calls to SDL Managed Translation is **120 seconds**.
+>The operation timeout for calls to [!DNL SDL Managed Translation] is **120 seconds**.
 
 ### Files
 
-#### Download Translated File
+#### [!UICONTROL Download Translated File]
 
 This module retrieves the content of a single translated file, contained within the specified project. If the requested file is not yet in Downland status, the content of the file may not yet be fully translated. If the file is in Download status, and you have successfully retrieved it, be sure to mark the file as complete using the `Cancel or Complete File` method.
 
-#### Upload a File
+#### [!UICONTROL Upload a File]
 
 This module allows uploads of files for translation or for inclusion in a translation project as reference material. Uploads must be submitted using multipart/form-data and can contain more than one file. You specify the `ProjectOptionId` that should be used to evaluate the uploaded file(s). This determines whether each file you upload is a possible candidate for translation or must be handled as reference material. In the case of archives (`zip `, `rar`, `7z`, `tar` files) the app examines the contents of the archive and indicates whether the archive as a whole can be translated, or whether it contains a mixture of translatable and non-translatable files.
 
@@ -65,13 +65,13 @@ This module allows uploads of files for translation or for inclusion in a transl
 >
 >Uploading more than one file at a time is not recommended, because it can increase the impact of any failure.
 
-#### Add a Reference File
+#### [!UICONTROL Add a Reference File]
 
 This module adds a Reference File.
 
 ### Projects
 
-#### Create a project
+#### [!UICONTROL Create a project]
 
 This module creates the specified project.
 
@@ -79,28 +79,28 @@ This module creates the specified project.
 
 This module cancels or completes the specified project. If the project is awaiting download, the project transitions through any final steps in the workflow, and eventually moves to complete. If the project is awaiting approval or vendor selection is cancelled. If the project is at any other status, the request will fail.
 
-#### Download Project Zip
+#### [!UICONTROL Download Project Zip]
 
 This module gets the `zip` file of translated files for the specified project.
 
-#### Read a Project
+#### [!UICONTROL Read a Project]
 
 This module gets the specified project.
 
-#### Get Projects at Status
+#### [!UICONTROL Get Projects at Status]
 
 This module gets all available projects in the specified status. This method allows the results to be paged, by specifying `$top`, `$skip`, and `$orderby` query parameters.
 
-#### Get Projects List
+#### [!UICONTROL Get Projects List]
 
 Gets a simple list of all projects, providing general information about each project. This method allows the results to be pages, by specifying `$top`, `$skip`, and `$orderby` query parameters.
 
-#### Search Project Creation Options
+#### [!UICONTROL Search Project Creation Options]
 
 This module gets Project Creation Options.
 
 ### Other
 
-#### Make an API Call
+#### [!UICONTROL Make an API Call]
 
 This module performs an arbitrary authorized API call.

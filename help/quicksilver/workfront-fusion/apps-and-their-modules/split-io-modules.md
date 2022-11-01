@@ -5,14 +5,14 @@ product-area: workfront-integrations
 keywords: connector
 navigation-topic: apps-and-their-modules
 title: Split.io modules
-description: In an [!DNL Adobe Workfront Fusion] scenario, you can automate workflows that use [!DNL Split].io, as well as connect it to multiple third-party applications and services.
+description: In an [!DNL Adobe Workfront Fusion] scenario, you can automate workflows that use [!DNL Split.io], as well as connect it to multiple third-party applications and services.
 author: Becky
 feature: Workfront Fusion
 exl-id: 4576a2e4-b495-430e-a9de-4e1ec7379ab8
 ---
-# Split.io modules
+# [!DNL Split.io] modules
 
-In an [!DNL Adobe Workfront Fusion] scenario, you can automate workflows that use [!DNL Split].io, as well as connect it to multiple third-party applications and services.
+In an [!DNL Adobe Workfront Fusion] scenario, you can automate workflows that use [!DNL Split.io], as well as connect it to multiple third-party applications and services.
 
 If you need instructions on creating a scenario, see [Create a scenario in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
 
@@ -51,21 +51,21 @@ For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Work
 
 ## Prerequisites
 
-To use [!DNL Split].io modules, you must have a Split.io account.
+To use [!DNL Split.io] modules, you must have a [!DNL Split.io] account.
 
-## Connect Split.io to Workfront Fusion  {#connect-split-io-to-workfront-fusion}
+## Connect [!DNL Split.io] to [!DNL Workfront Fusion]  {#connect-split-io-to-workfront-fusion}
 
 You can create a connection to your [!DNL Split.io] account directly from inside a [!DNL Split.io] module.
 
-1. In any [!DNL Split].io module, click **[!UICONTROL Add]** next to the Connection field.
+1. In any [!DNL Split.io] module, click **[!UICONTROL Add]** next to the [!UICONTROL Connection] field.
 1. Enter a name for the connection.
-1. Enter your Split.io API key.
+1. Enter your [!DNL Split.io] API key.
 
    For more information on [!DNL Split.io] API keys, see [API keys](https://help.split.io/hc/en-us/articles/360019916211-API-keys) in the [!DNL Split.io] documentation.
 
 1. Click **[!UICONTROL Continue]** to create the connection and go back to the module.
 
-## Split.io modules and their fields
+## [!DNL Split.io] modules and their fields
 
 When you configure [!DNL split.io] modules, [!DNL Workfront Fusion] displays the fields listed below. Along with these, additional [!DNL split.io] fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
 
@@ -76,19 +76,19 @@ If you see the map button above a field or function, you can use it to set varia
 * [Actions](#actions)
 * [Searches](#searches)
 
-### Actions {#actions}
+### Actions
 
-* [Custom API Call](#custom-api-call)
-* [Get Split](#get-split)
-* [Get Split Definition in Environment](#get-split-definition-in-environment)
-* [Create Split](#create-split)
-* [Delete Split](#delete-split)
-* [Create Split Definition in Environment](#create-split-definition-in-environment)
-* [Remove Split Definition from Environment](#remove-split-definition-from-environment)
-* [Partial Update Split Definition in Environment](#partial-update-split-definition-in-environment)
-* [Associate Tags](#associate-tags)
+* [[!UICONTROL Custom API Call]](#uicontrol-custom-api-call)
+* [[!UICONTROL Get Split]](#uicontrol-get-split)
+* [[!UICONTROL Get Split Definition in Environment]](#uicontrol-get-split-definition-in-environment)
+* [[!UICONTROL Create Split]](#uicontrol-create-split)
+* [[!UICONTROL Delete Split]](#uicontrol-delete-split)
+* [[!UICONTROL Create Split Definition in Environment]](#uicontrol-create-split-definition-in-environment)
+* [[!UICONTROL Remove Split Definition from Environment]](#uicontrol-remove-split-definition-from-environment)
+* [[!UICONTROL Partial Update Split Definition in Environment]](#uicontrol-partial-update-split-definition-in-environment)
+* [[!UICONTROL Associate Tags]](#uicontrol-associate-tags)
 
-#### Custom API Call {#custom-api-call}
+#### [!UICONTROL Custom API Call]
 
 This action module lets you make a custom authenticated call to the [!DNL split.io] API. This way, you can create a data flow automation that can't be accomplished by the other [!DNL split.io] modules.
 
@@ -98,10 +98,10 @@ This action module lets you make a custom authenticated call to the [!DNL split.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>For instructions about connecting your [!DNL Split].io account to [!DNL Workfront] Fusion, see <a href="#connect-split-io-to-workfront-fusion" class="MCXref xref">Connect Split.io to Workfront Fusion </a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your [!DNL Split.io] account to [!DNL Workfront Fusion], see <a href="#connect-split-io-to-workfront-fusion" class="MCXref xref">Connect [!DNL Split.io] to [!UICONTROL Workfront Fusion] </a> in this article.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">URL</td> 
+   <td role="rowheader">[!UICONTROL URL]</td> 
    <td>Enter a path relative to <code>https://api.split.io/internal/api/v2/</code>.</td> 
   </tr> 
   <tr> 
@@ -114,7 +114,7 @@ This action module lets you make a custom authenticated call to the [!DNL split.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Query String]</td> 
-   <td> <p>Add the query for the API call in the form of a standard JSON object.</p> <p>For example: <code>{“name”:“something-urgent”}</code></p> </td> 
+   <td> <p>Add the query for the API call in the form of a standard JSON object.</p> <p>For example: <code>{"name":"something-urgent"}</code></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Body]</td> 
@@ -124,13 +124,13 @@ This action module lets you make a custom authenticated call to the [!DNL split.
      </div> </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Limit</td> 
+   <td role="rowheader">[!UICONTROL Limit]</td> 
    <td>Enter or map the maximum number of records you want the module to work with during each scenario execution cycle.</td> 
   </tr> 
  </tbody> 
 </table>
 
-#### Get Split {#get-split}
+#### [!UICONTROL Get Split]
 
 This action module retrieves the split.
 
@@ -140,20 +140,20 @@ This action module retrieves the split.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>For instructions about connecting your [!DNL Split].io account to [!DNL Workfront] Fusion, see <a href="#connect-split-io-to-workfront-fusion" class="MCXref xref">Connect Split.io to Workfront Fusion </a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your [!DNL Split.io] account to [!DNL Workfront Fusion], see <a href="#connect-split-io-to-workfront-fusion" class="MCXref xref">Connect [!DNL Split.io] to [!UICONTROL Workfront Fusion] </a> in this article.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Workspace ID</td> 
+   <td role="rowheader">[!UICONTROL Workspace ID]</td> 
    <td>Select or map the workspace that contains the split you want to retrieve.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Split Name</td> 
+   <td role="rowheader">[!UICONTROL Split Name]</td> 
    <td> <p>Enter or map the name of the split you want to retrieve.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-#### Get Split Definition in Environment {#get-split-definition-in-environment}
+#### [!UICONTROL Get Split Definition in Environment]
 
 This action module retrieves a specific split definition from the designated environment.
 
@@ -163,24 +163,24 @@ This action module retrieves a specific split definition from the designated env
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>For instructions about connecting your [!DNL Split].io account to [!DNL Workfront] Fusion, see <a href="#connect-split-io-to-workfront-fusion" class="MCXref xref">Connect Split.io to Workfront Fusion </a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your [!DNL Split.io] account to [!DNL Workfront Fusion], see <a href="#connect-split-io-to-workfront-fusion" class="MCXref xref">Connect [!DNL Split.io] to [!UICONTROL Workfront Fusion] </a> in this article.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Workspace ID</td> 
+   <td role="rowheader">[!UICONTROL Workspace ID]</td> 
    <td>Select or map the workspace that contains the split definition you want to retrieve.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Environment Name or ID</td> 
+   <td role="rowheader">[!UICONTROL Environment Name or ID]</td> 
    <td>Select or map the environment that contains the split definition you want to retrieve.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Split Name</td> 
+   <td role="rowheader">[!UICONTROL Split Name]</td> 
    <td> <p>Enter or map the name of the split that you want to retrieve the split definition for.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-#### Create Split {#create-split}
+#### [!UICONTROL Create Split]
 
 This action module creates a new split in your organization, given a traffic type.
 
@@ -194,28 +194,28 @@ This action module creates a new split in your organization, given a traffic typ
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>For instructions about connecting your [!DNL Split].io account to [!DNL Workfront] Fusion, see <a href="#connect-split-io-to-workfront-fusion" class="MCXref xref">Connect Split.io to Workfront Fusion </a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your [!DNL Split.io] account to [!DNL Workfront Fusion], see <a href="#connect-split-io-to-workfront-fusion" class="MCXref xref">Connect [!DNL Split.io] to [!UICONTROL Workfront Fusion] </a> in this article.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Workspace ID</td> 
+   <td role="rowheader">[!UICONTROL Workspace ID]</td> 
    <td>Select or map the workspace where you want to create the split.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Traffic Type ID or Name</td> 
+   <td role="rowheader">[!UICONTROL Traffic Type ID or Name]</td> 
    <td>Select or map the traffic type that you want to use to create the split.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Split Name</td> 
+   <td role="rowheader">[!UICONTROL Split Name]</td> 
    <td> <p>Enter or map a name for the split you want to create.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Split Description</td> 
+   <td role="rowheader">[!UICONTROL Split Description]</td> 
    <td>Enter or map a [!UICONTROL split] description for the split you want to create.</td> 
   </tr> 
  </tbody> 
 </table>
 
-#### Delete Split {#delete-split}
+#### [!UICONTROL Delete Split]
 
 This action module deletes a split from your organization. This automatically unconfigures the split definition from all environments.
 
@@ -225,20 +225,20 @@ This action module deletes a split from your organization. This automatically un
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>For instructions about connecting your [!DNL Split].io account to [!DNL Workfront] Fusion, see <a href="#connect-split-io-to-workfront-fusion" class="MCXref xref">Connect Split.io to Workfront Fusion </a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your [!DNL Split.io] account to [!DNL Workfront Fusion], see <a href="#connect-split-io-to-workfront-fusion" class="MCXref xref">Connect [!DNL Split.io] to [!UICONTROL Workfront Fusion] </a> in this article.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Workspace ID</td> 
+   <td role="rowheader">[!UICONTROL Workspace ID]</td> 
    <td>Select or map the workspace where you want to delete the split.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Split Name</td> 
+   <td role="rowheader">[!UICONTROL Split Name]</td> 
    <td> <p>Enter or map the name of the split you want to delete.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-#### Create Split Definition in Environment {#create-split-definition-in-environment}
+#### [!UICONTROL Create Split Definition in Environment]
 
 This action module configures a split definition for a specific environment.
 
@@ -248,44 +248,44 @@ This action module configures a split definition for a specific environment.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>For instructions about connecting your [!DNL Split].io account to [!DNL Workfront] Fusion, see <a href="#connect-split-io-to-workfront-fusion" class="MCXref xref">Connect Split.io to Workfront Fusion </a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your [!DNL Split.io] account to [!DNL Workfront Fusion], see <a href="#connect-split-io-to-workfront-fusion" class="MCXref xref">Connect [!DNL Split.io] to [!UICONTROL Workfront Fusion] </a> in this article.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Workspace ID</td> 
+   <td role="rowheader">[!UICONTROL Workspace ID]</td> 
    <td>Select or map the workspace where you want to create a split definition.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Environment Name or ID</td> 
+   <td role="rowheader">[!UICONTROL Environment Name or ID]</td> 
    <td>Select or map the environment where you want to create a split definition.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Split Name</td> 
+   <td role="rowheader">[!UICONTROL Split Name]</td> 
    <td> <p>Enter or map the name of the split you want to create a definition for.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Comments</td> 
+   <td role="rowheader">[!UICONTROL Comments]</td> 
    <td>Enter or map any comments that you want to add to the split definition.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Rules</td> 
-   <td> <p>For each targeting rule you want to add to the definition, click <b>[!UICONTROL Add item]</b>, then enter or map the rule.</p> <p>For more information on targeting rules, see <a href="https://docs.split.io/reference#create-split-definition-in-environment">Create split definition in an environment</a> in the Split.io documentation.</p> </td> 
+   <td role="rowheader">[!UICONTROL Rules]</td> 
+   <td> <p>For each targeting rule you want to add to the definition, click <b>[!UICONTROL Add item]</b>, then enter or map the rule.</p> <p>For more information on targeting rules, see <a href="https://docs.split.io/reference#create-split-definition-in-environment">Create split definition in an environment</a> in the [!DNL Split.io] documentation.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Default rule</td> 
-   <td> <p>Enter or map the rule that you want the split to use for the traffic that does not meet specifications for the other rules.</p> <p>For more information on targeting rules, see <a href="https://docs.split.io/reference#create-split-definition-in-environment">Create split definition in an environment</a> in the Split.io documentation.</p> </td> 
+   <td role="rowheader">[!UICONTROL Default rule]</td> 
+   <td> <p>Enter or map the rule that you want the split to use for the traffic that does not meet specifications for the other rules.</p> <p>For more information on targeting rules, see <a href="https://docs.split.io/reference#create-split-definition-in-environment">Create split definition in an environment</a> in the [!DNL Split.io] documentation.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Default treatment</td> 
-   <td> <p>Enter or map the treatment that you want the split to use if the split is killed or the customer is not included in traffic allocation.</p> <p>For more information on treatments, see <a href="https://docs.split.io/reference#create-split-definition-in-environment">Create split definition in an environment</a> in the Split.io documentation.</p> </td> 
+   <td role="rowheader">[!UICONTROL Default treatment]</td> 
+   <td> <p>Enter or map the treatment that you want the split to use if the split is killed or the customer is not included in traffic allocation.</p> <p>For more information on treatments, see <a href="https://docs.split.io/reference#create-split-definition-in-environment">Create split definition in an environment</a> in the [!DNL Split.io] documentation.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Treatments</td> 
-   <td> <p>For each treatment you want to add to the definition, click <b>[!UICONTROL Add item]</b>, then enter or map the treatment.</p> <p>For more information on treatments, see <a href="https://docs.split.io/reference#create-split-definition-in-environment">Create split definition in an environment</a> in the Split.io documentation.</p> </td> 
+   <td role="rowheader">[!UICONTROL Treatments]</td> 
+   <td> <p>For each treatment you want to add to the definition, click <b>[!UICONTROL Add item]</b>, then enter or map the treatment.</p> <p>For more information on treatments, see <a href="https://docs.split.io/reference#create-split-definition-in-environment">Create split definition in an environment</a> in the [!DNL Split.io] documentation.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-#### Remove Split Definition from Environment {#remove-split-definition-from-environment}
+#### [!UICONTROL Remove Split Definition from Environment]
 
 This action module unconfigures a split definition for a specific environment.
 
@@ -295,28 +295,28 @@ This action module unconfigures a split definition for a specific environment.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>For instructions about connecting your [!DNL Split].io account to [!DNL Workfront] Fusion, see <a href="#connect-split-io-to-workfront-fusion" class="MCXref xref">Connect Split.io to Workfront Fusion </a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your [!DNL Split.io] account to [!DNL Workfront Fusion], see <a href="#connect-split-io-to-workfront-fusion" class="MCXref xref">Connect [!DNL Split.io] to [!UICONTROL Workfront Fusion] </a> in this article.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Workspace ID</td> 
+   <td role="rowheader">[!UICONTROL Workspace ID]</td> 
    <td>Select or map the workspace where you want to remove a split definition.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Environment Name or ID</td> 
+   <td role="rowheader">[!UICONTROL Environment Name or ID]</td> 
    <td>Select or map the environment where you want to remove a split definition.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Split Name</td> 
+   <td role="rowheader">[!UICONTROL Split Name]</td> 
    <td> <p>Enter or map the name of the split that you want to remove a definition for.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Comments</td> 
+   <td role="rowheader">[!UICONTROL Comments]</td> 
    <td>Enter or map any comments that you want to add to the split definition.</td> 
   </tr> 
  </tbody> 
 </table>
 
-#### Partial Update Split Definition in Environment {#partial-update-split-definition-in-environment}
+#### [!UICONTROL Partial Update Split Definition in Environment]
 
 This action module updates a split definition for a specific environment.
 
@@ -326,32 +326,32 @@ This action module updates a split definition for a specific environment.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>For instructions about connecting your [!DNL Split].io account to [!DNL Workfront] Fusion, see <a href="#connect-split-io-to-workfront-fusion" class="MCXref xref">Connect Split.io to Workfront Fusion </a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your [!DNL Split.io] account to [!DNL Workfront Fusion], see <a href="#connect-split-io-to-workfront-fusion" class="MCXref xref">Connect [!DNL Split.io] to [!UICONTROL Workfront Fusion] </a> in this article.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Workspace ID</td> 
+   <td role="rowheader">[!UICONTROL Workspace ID]</td> 
    <td>Select or map the workspace where you want to update a split definition.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Environment Name or ID</td> 
+   <td role="rowheader">[!UICONTROL Environment Name or ID]</td> 
    <td>Select or map the environment where you want to update a split definition.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Split Name</td> 
+   <td role="rowheader">[!UICONTROL Split Name]</td> 
    <td> <p>Enter or map the name of the split you want to update a definition for.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Update content</td> 
-   <td> <p>For each attribute of the split that you want to update, click <b>[!UICONTROL Add item]</b> and enter or map the desired changes.</p> <p>For more information, see <a href="https://docs.split.io/reference#partial-update-split-definition-in-environment">Partial Update Split Definition in Environment</a> in the Split.io documentation.</p> </td> 
+   <td role="rowheader">[!UICONTROL Update content]</td> 
+   <td> <p>For each attribute of the split that you want to update, click <b>[!UICONTROL Add item]</b> and enter or map the desired changes.</p> <p>For more information, see <a href="https://docs.split.io/reference#partial-update-split-definition-in-environment">Partial Update Split Definition in Environment</a> in the [!DNL Split.io] documentation.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Comments</td> 
+   <td role="rowheader">[!UICONTROL Comments]</td> 
    <td>Enter or map any comments that you want to add to the split definition.</td> 
   </tr> 
  </tbody> 
 </table>
 
-#### Associate Tags {#associate-tags}
+#### [!UICONTROL Associate Tags]
 
 This action module adds tags to the specified object.
 
@@ -361,36 +361,36 @@ This action module adds tags to the specified object.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>For instructions about connecting your [!DNL Split].io account to [!DNL Workfront] Fusion, see <a href="#connect-split-io-to-workfront-fusion" class="MCXref xref">Connect Split.io to Workfront Fusion </a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your [!DNL Split.io] account to [!DNL Workfront Fusion], see <a href="#connect-split-io-to-workfront-fusion" class="MCXref xref">Connect [!DNL Split.io] to [!UICONTROL Workfront Fusion] </a> in this article.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Workspace ID</td> 
+   <td role="rowheader">[!UICONTROL Workspace ID]</td> 
    <td>Select or map the workspace where you want to add a tag.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Object Name</td> 
+   <td role="rowheader">[!UICONTROL Object Name]</td> 
    <td>Enter or map the name of the object you want to add tags to,</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Object Type</td> 
+   <td role="rowheader">[!UICONTROL Object Type]</td> 
    <td> <p>Enter or map the type of object you want to add tags to.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Tags</td> 
+   <td role="rowheader">[!UICONTROL Tags]</td> 
    <td> <p>For each tag you want to add, click <b>[!UICONTROL Add item]</b> and enter or map the tag.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-### Searches {#searches}
+### Searches
 
-* [Get Workspaces](#get-workspaces)
-* [Get Environments](#get-environments)
-* [Get Splits](#get-splits)
-* [List Split Definitions in an Environment](#list-split-definitions-in-an-environment)
-* [Get Traffic Types](#get-traffic-types)
+* [[!UICONTROL Get Workspaces]](#uicontrol-get-workspaces)
+* [[!UICONTROL Get Environments]](#uicontrol-get-environments)
+* [[!UICONTROL Get Splits]](#uicontrol-get-splits)
+* [[!UICONTROL List Split Definitions in an Environment]](#uicontrol-list-split-definitions-in-an-environment)
+* [[!UICONTROL Get Traffic Types]](#uicontrol-get-traffic-types)
 
-#### Get Workspaces {#get-workspaces}
+#### [!UICONTROL Get Workspaces]
 
 This search module retrieves the workspaces for an organization.
 
@@ -400,16 +400,16 @@ This search module retrieves the workspaces for an organization.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>For instructions about connecting your [!DNL Split].io account to [!DNL Workfront] Fusion, see <a href="#connect-split-io-to-workfront-fusion" class="MCXref xref">Connect Split.io to Workfront Fusion </a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your [!DNL Split.io] account to [!DNL Workfront Fusion], see <a href="#connect-split-io-to-workfront-fusion" class="MCXref xref">Connect [!DNL Split.io] to [!UICONTROL Workfront Fusion] </a> in this article.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Limit</td> 
+   <td role="rowheader">[!UICONTROL Limit]</td> 
    <td>Enter or map the maximum number of workspaces you want the module to retrieve during each scenario execution cycle.</td> 
   </tr> 
  </tbody> 
 </table>
 
-#### Get Environments {#get-environments}
+#### [!UICONTROL Get Environments]
 
 This search module retrieves a list of environments.
 
@@ -419,16 +419,16 @@ This search module retrieves a list of environments.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>For instructions about connecting your [!DNL Split].io account to [!DNL Workfront] Fusion, see <a href="#connect-split-io-to-workfront-fusion" class="MCXref xref">Connect Split.io to Workfront Fusion </a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your [!DNL Split.io] account to [!DNL Workfront Fusion], see <a href="#connect-split-io-to-workfront-fusion" class="MCXref xref">Connect [!DNL Split.io] to [!UICONTROL Workfront Fusion] </a> in this article.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Workspace ID</td> 
+   <td role="rowheader">[!UICONTROL Workspace ID]</td> 
    <td>Select or map the workspace that contains the environments you want to list.</td> 
   </tr> 
  </tbody> 
 </table>
 
-#### Get Splits {#get-splits}
+#### [!UICONTROL Get Splits]
 
 This search module retrieves a list of splits.
 
@@ -438,20 +438,20 @@ This search module retrieves a list of splits.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>For instructions about connecting your [!DNL Split].io account to [!DNL Workfront] Fusion, see <a href="#connect-split-io-to-workfront-fusion" class="MCXref xref">Connect Split.io to Workfront Fusion </a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your [!DNL Split.io] account to [!DNL Workfront Fusion], see <a href="#connect-split-io-to-workfront-fusion" class="MCXref xref">Connect [!DNL Split.io] to [!UICONTROL Workfront Fusion] </a> in this article.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Workspace ID</td> 
+   <td role="rowheader">[!UICONTROL Workspace ID]</td> 
    <td>Select or map the workspace that contains the splits you want to list.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Limit</td> 
+   <td role="rowheader">[!UICONTROL Limit]</td> 
    <td>Enter or map the maximum number of splits you want the module to retrieve during each scenario execution cycle.</td> 
   </tr> 
  </tbody> 
 </table>
 
-#### List Split Definitions in an Environment {#list-split-definitions-in-an-environment}
+#### [!UICONTROL List Split Definitions in an Environment]
 
 This search module retrieves a list of split definitions in a given environment.
 
@@ -461,24 +461,24 @@ This search module retrieves a list of split definitions in a given environment.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>For instructions about connecting your [!DNL Split].io account to [!DNL Workfront] Fusion, see <a href="#connect-split-io-to-workfront-fusion" class="MCXref xref">Connect Split.io to Workfront Fusion </a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your [!DNL Split.io] account to [!DNL Workfront Fusion], see <a href="#connect-split-io-to-workfront-fusion" class="MCXref xref">Connect [!DNL Split.io] to [!UICONTROL Workfront Fusion] </a> in this article.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Workspace ID</td> 
+   <td role="rowheader">[!UICONTROL Workspace ID]</td> 
    <td>Select or map the workspace that contains the split definitions you want to list.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Environment Name or ID</td> 
+   <td role="rowheader">[!UICONTROL Environment Name or ID]</td> 
    <td>Select or map the environment that contains the split definitions you want to list.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Limit</td> 
+   <td role="rowheader">[!UICONTROL Limit]</td> 
    <td>Enter or map the maximum number of split definitions you want the module to retrieve during each scenario execution cycle.</td> 
   </tr> 
  </tbody> 
 </table>
 
-#### Get Traffic Types {#get-traffic-types}
+#### [!UICONTROL Get Traffic Types]
 
 This search module retrieves a list of traffic types.
 
@@ -488,10 +488,10 @@ This search module retrieves a list of traffic types.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>For instructions about connecting your [!DNL Split].io account to [!DNL Workfront] Fusion, see <a href="#connect-split-io-to-workfront-fusion" class="MCXref xref">Connect Split.io to Workfront Fusion </a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your [!DNL Split.io] account to [!DNL Workfront Fusion], see <a href="#connect-split-io-to-workfront-fusion" class="MCXref xref">Connect [!DNL Split.io] to [!UICONTROL Workfront Fusion] </a> in this article.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Workspace ID</td> 
+   <td role="rowheader">[!UICONTROL Workspace ID]</td> 
    <td>Select or map the workspace that contains the traffic types you want to list.</td> 
   </tr> 
  </tbody> 
