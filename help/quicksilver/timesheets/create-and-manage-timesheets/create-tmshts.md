@@ -15,9 +15,9 @@ For information about creating a timesheet profile that generates recurring time
 
 >[!NOTE]
 >
->* Single-use timesheets cannot be created for groups. >
+>* Single-use timesheets cannot be created for groups.
 >  <!--
->  <span style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Making sure with Lilit that this is correct</span>>
+>  <span>Making sure with Lilit that this is correct</span>>
 >  -->
 >* When creating a single-use timesheet, you cannot select specific general hour types to include in your timesheet. All general hour types that are activated in your system display in timesheets created manually. 
 >
@@ -98,31 +98,33 @@ You must have the following to perform the steps in this article:
 1. Specify the following information:
 
    <table style="table-layout:auto"> 
-    <col> 
-    <col> 
-    <tbody> 
-     <tr> 
+      <col> 
+      <col> 
+      <tbody> 
+      <tr> 
       <td role="rowheader"><strong>Create timesheet for</strong> </td> 
       <td>Start entering the name of the user, a job role, or a team for whom you are creating the timesheet, and click them when they display in the list.</td> 
-     </tr> 
-     <tr> 
+      </tr> 
+      <tr> 
       <td role="rowheader"><strong>Start Date</strong> </td> 
       <td>This is the start date of the timesheet.</td> 
-     </tr> 
-     <tr> 
+      </tr> 
+      <tr> 
       <td role="rowheader"><strong>End Date</strong> </td> 
       <td> This is the end date of the timesheet.</td> 
-     </tr> 
-     <tr> 
+      </tr> 
+      <tr> 
       <td role="rowheader"><strong>Approvers</strong> </td> 
       <td>Approvers are&nbsp;users who approve the timesheet for the users associated with the timesheet. Only users with timesheet administrative rights can be set as approvers. For more information about timesheet administrative rights, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Grant users administrative access to certain areas</a>.<br>Start entering the names of the timesheet approvers and click them when they appear&nbsp;in the list.<br>You can have multiple approvers on a timesheet. In this case, after&nbsp;one of the approvers approves the timesheet, the timesheet is marked as <strong>Closed</strong> and it disappears from the timesheet approvals list of all the remaining approvers.</td> 
-     </tr> 
-     <tr> 
+      </tr> 
+      <tr> 
       <td role="rowheader"><strong>Can edit time</strong> </td> 
+
+      <td> <p>Select this option if you want to allow approvers to edit hours on the timesheet.</p> </td> 
+      </tr> 
+     
       <td>       
       
-      Select this option to allow the approvers to edit hours on the timesheet. 
-
       This option works together with the **Restrict timesheet editing to owners and admins** setting in the Setup > Timesheet & Hours > Preferences area. For more information, see <a href="../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md">Configure timesheet and hour preferences</a>.
 
       The following scenarios exist: 
@@ -144,10 +146,11 @@ You must have the following to perform the steps in this article:
   </td> 
      </tr> 
      <tr data-mc-conditions=""> 
+
       <td role="rowheader"><span style="font-weight: bold;">Overtime</span> </td> 
       <td>You can choose to hide the Overtime box on the timesheet. This option is disabled by default.</td> 
-     </tr> 
-    </tbody> 
+      </tr> 
+      </tbody> 
    </table>
 
 <!--the content in the table above will need to match the content in the Create timesheet profiles article-->
