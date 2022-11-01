@@ -89,7 +89,7 @@ Yes, all users will log in via Experience Cloud. The IMS login will replace SSO.
 
 **Will users have to link their Adobe accounts to their Workfront accounts if they already have both?**
 
-Yes. There is a process for this, and more details will be provided when it's time for your organization to move to IMS.
+Yes, there is a process for this, and more details will be provided when it's time for your organization to move to IMS.
 
 **What happens to the Workfront users who don't have an Adobe account?**
 
@@ -125,4 +125,4 @@ There is no impact to Creative Cloud users with the migration to Adobe Unified E
 
 **Will logins change for Workfront mobile users?**
 
-WF mobile users should not be affected by the migration to Adobe Unified Experience.
+Workfront mobile users should not be affected by the migration to Adobe Unified Experience.
