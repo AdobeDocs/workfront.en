@@ -9,11 +9,11 @@ author: Becky
 feature: Workfront Fusion
 exl-id: 97a68fbc-1272-43fc-b4f2-4c1c9e590741
 ---
-# Tools
+# [!UICONTROL Tools]
 
 The [!DNL Adobe Workfront Fusion Tools] section includes several useful modules that can enhance your scenario.
 
-Tools modules are available from the list of apps, or from the Tools icon ![](assets/tools-icon-small.png) at the bottom of the screen.
+[!UICONTROL Tools] modules are available from the list of apps, or from the [!UICONTROL Tools] icon ![](assets/tools-icon-small.png) at the bottom of the screen.
 
 ## Access requirements
 
@@ -33,7 +33,7 @@ You must have the following access to use the functionality in this article:
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] license**</td> 
-   <td> <p>[!UICONTROL Workfront Fusion for Work Automation and Integration] </p> <p>Workfront Fusion for Work Automation </p> </td> 
+   <td> <p>[!UICONTROL Workfront Fusion for Work Automation and Integration] </p> <p>[!UICONTROL Workfront Fusion for Work Automation] </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
@@ -46,84 +46,84 @@ To find out what plan, license type, or access you have, contact your [!DNL Work
 
 For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Workfront Fusion] licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
-## Tools and their fields
+## [!UICONTROL Tools] and their fields
 
 * [Triggers](#triggers)
 * [Actions](#actions)
 * [Aggregators](#aggregators)
 * [Transformers](#transformers)
 
-### Triggers {#triggers}
+### Triggers
 
-#### Basic trigger
+#### [!UICONTROL Basic trigger]
 
 This module allows you to create a custom trigger and define its input bundles.
 
-You can use this module, for example, for contacts or any other list that is scheduled to be sent to a specified email address (such as [!UICONTROL Email] >[!UICONTROL Send an Email], or [!UICONTROL Gmail] >[!UICONTROL Send an Email] modules), or as a simple reminder to be triggered whenever you want.
+You can use this module, for example, for contacts or any other list that is scheduled to be sent to a specified email address (such as [!UICONTROL Email] >[!UICONTROL Send an Email], or [!DNL Gmail] >[!UICONTROL Send an Email] modules), or as a simple reminder to be triggered whenever you want.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Bundle</td> 
+   <td role="rowheader">[!UICONTROL Bundle]</td> 
    <td> <p>Create custom bundles by adding array items. The array consists of the name - value pairs.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-### Actions {#actions}
+### Actions
 
-* [Get Multiple Variables](#get-multiple-variables)
-* [Get Variable](#get-variable)
-* [Increment function](#increment-function)
-* [Set Multiple Variables](#set-multiple-variables) [Set Variable](#set-variable)
-* [Set Variable](#set-variable)
-* [Sleep](#sleep)
+* [[!UICONTROL Get Multiple Variables]](#uicontrol-get-multiple-variables)
+* [[!UICONTROL Get Variable]](#uicontrol-get-variable)
+* [[!UICONTROL Increment function]](#uicontrol-increment-function)
+* [[!UICONTROL Set Multiple Variables]](#uicontrol-set-multiple-variables)
+* [[!UICONTROL Set Variable]](#uicontrol-set-variable)
+* [[!UICONTROL Sleep]](#uicontrol-sleep)
 
-#### Get Multiple Variables {#get-multiple-variables}
+#### [!UICONTROL Get Multiple Variables]
 
 This module retrieves values that were previously created by the [!UICONTROL Set Variable] or [!UICONTROL Set Multiple Variables] module.
 
-This module can read variables that were set anywhere in the scenario, even if the variable was set in a different route than where the Get Multiple Variables module is located. The only requirement is that the Tools >Set Variable or Tools > Set Multiple Variable module is executed before the Tools > Get Variable module. For more information on the order in which modules are executed, see [Router module in Adobe Workfront Fusion](../../workfront-fusion/modules/router-module.md).
+This module can read variables that were set anywhere in the scenario, even if the variable was set in a different route than where the [!UICONTROL Get Multiple Variables] module is located. The only requirement is that the [!UICONTROL Tools] > [!UICONTROL Set Variable] or [!UICONTROL Tools] > [!UICONTROL Set Multiple Variable] module is executed before the [!UICONTROL Tools] > [!UICONTROL Get Multiple Variables] module. For more information on the order in which modules are executed, see [Router module in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/router-module.md).
 
 <table style="table-layout:auto">
     <tr>
-        <td>Variables</td>
+        <td>[!UICONTROL Variables]</td>
         <td>Add the variables that you want the module to get.</td>
     </tr>
     <tr>
-        <td>Variable name</td>
+        <td>[!UICONTROL Variable name]</td>
         <td>For each variable you add, map the name of the variable you want to get.</td>
     </tr>
 </table>
 
 >[!INFO]
 >
->**Examples:**  The following are possible uses of the Set/Get (multiple) variable(s) modules:
+>**Examples:**  The following are possible uses of the [!UICONTROL Set]/[!UICONTROL Get (multiple) variable(s)] modules:
 >
 >* To store a calculated value for later use, even in a different route. This is useful in cases when the value is used in multiple modules and the formula to calculate the value is overly complex.
->* To debug a formula. If a formula used in a module does not seemingly provide a correct result, copy the formula and paste it into a Set Variable module that you insert before the relevant module. Disconnect the module(s) after the Set Variable module and execute the scenario. Verify the Set Variable module's output, adjust or simplify the formula, execute the scenario again, and continue to do so until the issue has been resolved.
+>* To debug a formula. If a formula used in a module does not seemingly provide a correct result, copy the formula and paste it into a [!UICONTROL Set Variable] module that you insert before the relevant module. Disconnect the module(s) after the [!UICONTROL Set Variable] module and execute the scenario. Verify the [!UICONTROL Set Variable] module's output, adjust or simplify the formula, execute the scenario again, and continue to do so until the issue has been resolved.
 
 
-#### Get Variable {#get-variable}
+#### [!UICONTROL Get Variable]
 
 This module retrieves a value that was previously created by the [!UICONTROL Set Variable] or [!UICONTROL Set Multiple Variables] module.
 
-This module can read variables that were set anywhere in the scenario, even if the variable was set in a different route than where the Get Multiple Variables module is located. The only requirement is that the Tools >Set Variable or Tools > Set Multiple Variable module is executed before the Tools > Get Variable module. For more information on the order in which modules are executed, see [Router module in Adobe Workfront Fusion](../../workfront-fusion/modules/router-module.md).
+This module can read variables that were set anywhere in the scenario, even if the variable was set in a different route than where the [!UICONTROL Get Variable] module is located. The only requirement is that the [!UICONTROL Tools] > [!UICONTROL Set Variable] or [!UICONTROL Tools] > [!UICONTROL Set Multiple Variables] module is executed before the [!UICONTROL Tools] > [!UICONTROL Get Variable] module. For more information on the order in which modules are executed, see [Router module in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/router-module.md).
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Variable name</td> 
+   <td role="rowheader">[!UICONTROL Variable name]</td> 
    <td> <p>Map the name of the variable that you want the module to get.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-#### Increment function {#increment-function}
+#### [!UICONTROL Increment function]
 
 This module returns a value incremented by 1 after each module's operation.
 
@@ -132,12 +132,12 @@ This module returns a value incremented by 1 after each module's operation.
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Reset a value</td> 
+   <td role="rowheader">[!UICONTROL Reset a value]</td> 
    <td> <p>Select when you want the module to increment the value. </p> 
     <ul> 
-     <li>After one cycle</li> 
-     <li>After one scenario run</li> 
-     <li>Never</li> 
+     <li>[!UICONTROL After one cycle]</li> 
+     <li>[!UICONTROL After one scenario run]</li> 
+     <li>[!UICONTROL Never]</li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -159,13 +159,13 @@ This module returns a value incremented by 1 after each module's operation.
 >
 >   ![](assets/odd-350x459.png)
 >
->  **Note**: Do not forget to change the [!UICONTROL Equal to] operator from the default Text operator to the Numeric operator.
+>  **Note**: Do not forget to change the [!UICONTROL Equal to] operator from the default [!UICONTROL Text] operator to the [!UICONTROL Numeric] operator.
 >
 >1. Set the route for even values using the modulus math function that equals `0`:
 >
 >The increment function adds one every time the scenario runs. The filters check the increment and act on its value, ensuring that the emails are evenly distributed.
 
-#### Set Multiple Variables {#set-multiple-variables}
+#### [!UICONTROL Set Multiple Variables]
 
 This module creates variables that can be mapped by other modules in the route. The variable can also be mapped to the [!UICONTROL Get Variable] or [!UICONTROL Get Multiple Variables] modules for any route in the scenario.
 
@@ -174,29 +174,29 @@ This module creates variables that can be mapped by other modules in the route. 
  <col> 
  <tbody> 
   <tr> 
-   <td>Variables</td> 
+   <td>[!UICONTROL Variables]</td> 
    <td>Add the variables that you want the module to set.</td> 
   </tr> 
   <tr> 
-   <td>Variable name </td> 
+   <td>[!UICONTROL Variable name] </td> 
    <td>For each variable, enter the variable name. This name will be displayed when mapping the variable in other modules. </td> 
   </tr> 
   <tr> 
-   <td>Variable value </td> 
+   <td>[!UICONTROL Variable value] </td> 
    <td>For each variable, enter the value for the variable. </td> 
   </tr> 
   <tr> 
-   <td>Variable lifetime </td> 
+   <td>[!UICONTROL Variable lifetime] </td> 
    <td> <p>Select how long you want the variables to remain valid (keep the same value).</p> 
     <ul> 
-     <li><strong>One cycle</strong>: The variable is valid for one cycle. Useful when multiple webhooks in one scenario run are received (more webhooks = more cycles). </li> 
-     <li><strong>One execution</strong>: The variable is valid for one scenario execution. One execution can contain one or more cycles.</li> 
+     <li><strong>[!UICONTROL One cycle]</strong>: The variable is valid for one cycle. Useful when multiple webhooks in one scenario run are received (more webhooks = more cycles). </li> 
+     <li><strong>[!UICONTROL One execution]</strong>: The variable is valid for one scenario execution. One execution can contain one or more cycles.</li> 
     </ul> </td> 
   </tr> 
  </tbody> 
 </table>
 
-#### Set Variable {#set-variable}
+#### [!UICONTROL Set Variable]
 
 This module creates a variable that can be mapped by other modules in the route. The variable can also be mapped to the [!UICONTROL Get Variable] or [!UICONTROL Get Multiple Variables] modules for any route in the scenario.
 
@@ -205,25 +205,25 @@ This module creates a variable that can be mapped by other modules in the route.
  <col> 
  <tbody> 
   <tr> 
-   <td>Variable name </td> 
+   <td>[!UICONTROL Variable name] </td> 
    <td>Enter the variable name. This name will be displayed when mapping the variable in other modules. </td> 
   </tr> 
   <tr> 
-   <td>Variable lifetime </td> 
+   <td>[!UICONTROL Variable lifetime] </td> 
    <td> <p>Select how long you want the variables to remain valid (keep the same value).</p> 
     <ul> 
-     <li><strong>One cycle</strong>: The variable is valid for one cycle. Useful when multiple webhooks in one scenario run are received (more webhooks = more cycles). </li> 
-     <li><strong>One execution</strong>: The variable is valid for one scenario execution. One execution can contain one or more cycles.</li> 
+     <li><strong>[!UICONTROL One cycle]</strong>: The variable is valid for one cycle. Useful when multiple webhooks in one scenario run are received (more webhooks = more cycles). </li> 
+     <li><strong>[!UICONTROL One execution]</strong>: The variable is valid for one scenario execution. One execution can contain one or more cycles.</li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td>Variable value </td> 
+   <td>[!UICONTROL Variable value] </td> 
    <td>Enter or map the value for the variable. </td> 
   </tr> 
  </tbody> 
 </table>
 
-#### Sleep {#sleep}
+#### [!UICONTROL Sleep]
 
 This module allows you to delay the scenario flow for up to 300 seconds (5 minutes).
 
@@ -234,7 +234,7 @@ This function can be useful, for example, if you want to lower the [!DNL target]
  <col> 
  <tbody> 
   <tr> 
-   <td> <p>Delay</p> </td> 
+   <td> <p>[!UICONTROL Delay]</p> </td> 
    <td> <p>Enter the number of seconds the scenario will be paused for.</p> </td> 
   </tr> 
  </tbody> 
@@ -244,22 +244,22 @@ This function can be useful, for example, if you want to lower the [!DNL target]
 >
 >If you want to pause the flow for longer periods of time, we suggest to split your scenario into two scenarios:
 >
->* The first scenario would contain the part before the [!UICONTROL pause]
+>* The first scenario would contain the part before the pause.
 >* The second scenario would contain the part after it.
 >
 >The first scenario would end up with storing all the necessary information in a data store together with the current timestamp. The second scenario would periodically check the data store for records with a timestamp older than the intended delay, retrieve the records, finalize the processing of the data and remove the records from the data store.
 >
->For more information on data stores, see [Data Stores in Adobe Workfront Fusion](../../workfront-fusion/modules/data-stores.md).
+>For more information on data stores, see [Data Stores in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/data-stores.md).
 >
->For more information on specific data store modules, see [Data store modules](../../workfront-fusion/apps-and-their-modules/data-store-modules.md).
+>For more information on specific data store modules, see [[!UICONTROL Data store] modules](../../workfront-fusion/apps-and-their-modules/data-store-modules.md).
 
-### Aggregators {#aggregators}
+### Aggregators 
 
-* [Numeric aggregator](#numeric-aggregator)
-* [Table aggregator](#table-aggregator)
-* [Text aggregator](#text-aggregator)
+* [[!UICONTROL Numeric aggregator]](#uicontrol-numeric-aggregator)
+* [[!UICONTROL Table aggregator]](#uicontrol-table-aggregator)
+* [[!UICONTROL Text aggregator]](#uicontrol-text-aggregator)
 
-#### Numeric aggregator {#numeric-aggregator}
+#### [!UICONTROL Numeric aggregator]
 
 This module allows you to retrieve numerical values, then apply one of the selected functions (SUM, AVG, COUNT, MAX, MIN), and return the result in one bundle.
 
@@ -268,29 +268,29 @@ This module allows you to retrieve numerical values, then apply one of the selec
  <col> 
  <tbody> 
   <tr> 
-   <td> <p>Source module</p> </td> 
+   <td> <p>[!UICONTROL Source module]</p> </td> 
    <td> <p>Select the module you want to aggregate fields from.</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Aggregate function</p> </td> 
+   <td> <p>[!UICONTROL Aggregate function]</p> </td> 
    <td> <p>Select the function that you want to use to aggregate the values.</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Group by</p> </td> 
+   <td> <p>[!UICONTROL Group by]</p> </td> 
    <td> <p>Define an expression that you want to group the aggregated output by. This expression can contain one or more mapped items. The aggregated data is then separated into groups using this expression's value. Each group outputs as a separate bundle with a key (the evaluated expression) and a value (the aggregated value). You can use the key as a filter in subsequent modules.</p> </td> 
   </tr> 
   <tr> 
-   <td>Stop processing after an empty aggregation</td> 
+   <td>[!UICONTROL Stop processing after an empty aggregation]</td> 
    <td>Enable this option to stop the scenario when there are no results.</td> 
   </tr> 
   <tr> 
-   <td> <p>Value</p> </td> 
+   <td> <p>[!UICONTROL Value]</p> </td> 
    <td> <p>Enter or map the value that you want to aggregate.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-#### Table aggregator {#table-aggregator}
+#### [!UICONTROL Table aggregator]
 
 This module merges values from the selected fields of received bundles into a single bundle using a specified column and row separator (which allows you to create a table).
 
@@ -299,33 +299,33 @@ This module merges values from the selected fields of received bundles into a si
  <col> 
  <tbody> 
   <tr> 
-   <td> <p>Source module</p> </td> 
+   <td> <p>[!UICONTROL Source module]</p> </td> 
    <td> <p>Select the module you want to aggregate fields from.</p> </td> 
   </tr> 
   <tr> 
-   <td>Aggregated fields</td> 
+   <td>[!UICONTROL Aggregated fields]</td> 
    <td> <p> Select the fields from the module selected above that contain values you want to aggregate into the one bundle.</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Column separator</p> </td> 
+   <td> <p>[!UICONTROL Column separator]</p> </td> 
    <td> <p>Select or enter the type of separator that will separate the field value columns in the resulting bundle. If you select [!UICONTROL Other], enter the character you want to use to separate values into the separator field.</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Row separator</p> </td> 
+   <td> <p>[!UICONTROL Row separator]</p> </td> 
    <td> <p>Select or enter the type of separator that will separate the field value rows in the resulting bundle. If you select [!UICONTROL Other], enter the character you want to use to separate values into the separator field.</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Group by</p> </td> 
+   <td> <p>[!UICONTROL Group by]</p> </td> 
    <td> <p>Define an expression that you want to group the aggregated output by. This expression can contain one or more mapped items. The aggregated data will be then separated into groups using this expression's value. Each group outputs as a separate bundle with a key (the evaluated expression) and a value (the aggregated value). You can use the key as a filter in subsequent modules.</p> </td> 
   </tr> 
   <tr> 
-   <td>Stop processing after an empty aggregation</td> 
+   <td>[!UICONTROL Stop processing after an empty aggregation]</td> 
    <td>Select this option to stop the scenario when there are no results.</td> 
   </tr> 
  </tbody> 
 </table>
 
-#### Text aggregator {#text-aggregator}
+#### [!UICONTROL Text aggregator]
 
 This module merges values from the selected fields of received bundles into a single bundle.
 
@@ -334,23 +334,23 @@ This module merges values from the selected fields of received bundles into a si
  <col> 
  <tbody> 
   <tr> 
-   <td> <p>Source module</p> </td> 
+   <td> <p>[!UICONTROL Source module]</p> </td> 
    <td> <p>Select the module you want to aggregate fields from.</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Row separator</p> </td> 
+   <td> <p>[!UICONTROL Row separator]</p> </td> 
    <td> <p>Select or enter the type of separator that will separate the field value rows in the resulting bundle. If you select [!UICONTROL Other], enter the character you want to use to separate values into the separator field.</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Group by</p> </td> 
+   <td> <p>[!UICONTROL Group by]</p> </td> 
    <td> <p>Define an expression containing one or more mapped items. The aggregated data is separated under Groups with the same expression's value. Each Group outputs as a separate bundle containing a Key with the evaluated expression and the aggregated text. By doing this, you can use the Key as a filter in subsequent modules.</p> </td> 
   </tr> 
   <tr> 
-   <td>Text</td> 
+   <td>[!UICONTROL Text]</td> 
    <td> <p> Enter or map the text that you want the module to aggregate.</p> </td> 
   </tr> 
   <tr> 
-   <td>Stop processing after an empty aggregation</td> 
+   <td>[!UICONTROL Stop processing after an empty aggregation]</td> 
    <td>Select this option to stop the scenario when there are no results.</td> 
   </tr> 
  </tbody> 
@@ -360,13 +360,13 @@ This module merges values from the selected fields of received bundles into a si
 >
 >**Example:** You can use the text aggregator to insert more values (for example, customer names or notes)into a single bundle and send an email containing all the values in the email body or the email subject.
 
-### Transformers {#transformers}
+### Transformers
 
-* [Compose a string](#compose-a-string)
-* [Convert the encoding of the text](#convert-the-encoding-of-the-text)
-* [Switch](#switch)
+* [[!UICONTROL Compose a string]](#uicontrol-compose-a-string)
+* [[!UICONTROL Convert the encoding of the text]](#uicontrol-convert-the-encoding-of-the-text)
+* [[!UICONTROL Switch]](#uicontrol-switch)
 
-#### Compose a string {#compose-a-string}
+#### [!UICONTROL Compose a string]
 
 Converts any value to a string data type (text). It makes the mapping easier when mapping, for example, binary data.
 
@@ -375,13 +375,13 @@ Converts any value to a string data type (text). It makes the mapping easier whe
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Text</td> 
+   <td role="rowheader">[!UICONTROL Text]</td> 
    <td> <p>Enter or map the data that you want to covert into text.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-#### Convert the encoding of the text {#convert-the-encoding-of-the-text}
+#### [!UICONTROL Convert the encoding of the text]
 
 Converts entered input text (or binary data) to the selected encoding.
 
@@ -390,21 +390,21 @@ Converts entered input text (or binary data) to the selected encoding.
  <col> 
  <tbody> 
   <tr> 
-   <td> <p>Input data</p> </td> 
+   <td> <p>[!UICONTROL Input data]</p> </td> 
    <td> <p>Enter or map the content you want to convert.</p> </td> 
   </tr> 
   <tr> 
-   <td>Input data codepage</td> 
+   <td>[!UICONTROL Input data codepage]</td> 
    <td> <p>Select the encoding type of the input data. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Output data codepage</p> </td> 
+   <td> <p>[!UICONTROL Output data codepage]</p> </td> 
    <td> <p>Select the encoding type of your target (output) data.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-#### Switch {#switch}
+#### [!UICONTROL Switch]
 
 Checks the input value for a match with the provided list of values. Returns output based on the result.
 
@@ -413,11 +413,11 @@ Checks the input value for a match with the provided list of values. Returns out
  <col> 
  <tbody> 
   <tr> 
-   <td> <p>Input</p> </td> 
+   <td> <p>[!UICONTROL Input]</p> </td> 
    <td> <p>Enter the expression you want to evaluate.</p> </td> 
   </tr> 
   <tr> 
-   <td>Use regular expressions to match</td> 
+   <td>[!UICONTROL Use regular expressions to match]</td> 
    <td> <p>Enable this option to use regular expressions. The module determines the cases based on the regular expression, rather than an exact match.</p> 
     <div> 
      <p>A regular expression is a sequence of characters in which each character is either a metacharacter, having a special meaning, or a regular character that has a literal meaning. These character and metacharacters identify a pattern that can be used to search text. For example, if you wanted to search for names, you could set up a regular expression to search for a pattern that consists of two consecutive words that begin with capital letters. Regular expressions are a powerful tool for searching and manipulating text.</p> 
@@ -430,15 +430,15 @@ Checks the input value for a match with the provided list of values. Returns out
     </div> </td> 
   </tr> 
   <tr> 
-   <td>Cases </td> 
-   <td> <p>If the input contains a value entered to the Pattern field, then the value entered to the Output field is returned.</p> <p>If the input does not match any of the values that you have set in a [!UICONTROL Pattern] field, then one of the following occurs:</p> 
+   <td>[!UICONTROL Cases] </td> 
+   <td> <p>If the input contains a value entered to the [!UICONTROL Pattern] field, then the value entered to the [!UICONTROL Output] field is returned.</p> <p>If the input does not match any of the values that you have set in a [!UICONTROL Pattern] field, then one of the following occurs:</p> 
     <ul> 
      <li>The value from the [!UICONTROL Else] field is returned</li> 
      <li>If there is no value in the [!UICONTROL Else] field, no output is returned.</li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td> <p>Else</p> </td> 
+   <td> <p>[!UICONTROL Else]</p> </td> 
    <td> <p>Enter the value that is returned when the criteria set in the Cases field are not met. </p> </td> 
   </tr> 
  </tbody> 
