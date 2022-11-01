@@ -1,7 +1,7 @@
 ---
 product-area: workfront-navigation
 navigation-topic: workfront-navigation
-title: Adobe Unified Experience for Workfront
+title: Adobe Unified Experience for FAQ
 description: A few features are different between Workfront and Adobe Experience Cloud, and you might have some questions as your Workfront instance is migrated to the unified experience.
 author: Lisa
 feature: Get Started with Workfront
