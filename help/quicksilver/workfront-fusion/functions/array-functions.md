@@ -15,44 +15,44 @@ exl-id: bf065d00-5d84-47e1-8169-bf9e01e2429d
 
 You must have the following access to use the functionality in this article:
 
-<table style="table-layout:auto"> 
+<table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>Pro or higher</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
+   <td> <p>[!DNL Pro] or higher</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Plan, Work</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
+   <td> <p>[!UICONTROL Plan], [!UICONTROL Work]</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront Fusion license**</td> 
-   <td> <p>Workfront Fusion for Work Automation and Integration </p>  </td> 
+   <td role="rowheader">[!UICONTROL Adobe Workfront Fusion] license**</td> 
+   <<td> <p>[!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p><p>[!UICONTROL [!DNL Workfront Fusion] for Work Automation]</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
+   <td>Your organization must purchase [!DNL Adobe Workfront Fusion] as well as [!DNL Adobe Workfront] to use functionality described in this article.</td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
 
-&#42;&#42;For information on Adobe Workfront Fusion licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
+For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Workfront Fusion] licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
-## add (array; value1; value2; ...)
+## [!UICONTROL add (array; value1; value2; ...)]
 
 Adds values specified in parameters to an array and returns that array.
 
-## contains (array; value)
+## [!UICONTROL contains (array; value)]
 
 Verifies if an array contains the value.
 
-## distinct (array; [key])
+## [!UICONTROL distinct (array; [key])]
 
-Removes duplicates inside an array. Use the "key" argument to access properties inside complex objects. To access nested properties, use dot notation. The first item in an array is index 1.
+Removes duplicates inside an array. Use the "[!UICONTROL key]" argument to access properties inside complex objects. To access nested properties, use dot notation. The first item in an array is index 1.
 
   >[!INFO]
   >
@@ -60,24 +60,24 @@ Removes duplicates inside an array. Use the "key" argument to access properties 
   >
   >Removes duplicates inside an array of contacts by comparing the "name" property
 
-## flatten (array)
+## [!UICONTROL flatten (array)]
 
 Creates a new array with all sub-array elements concatenated into it, recursively, up to the specified depth.
 
 
-## join (array; separator)
+## [!UICONTROL join (array; separator)]
 
 Concatenates all of the items of an array into a string, using the specified separator between each item.
 
-## keys (object)
+## [!UICONTROL keys (object)]
 
 Returns an array of the properties of a given object or array.
 
-## length (array)
+## [!UICONTROL length (array)]
 
 Returns the number of items in an array.
 
-## map (complex array; key;[key for filtering];[possible values for filtering])
+## [!UICONTROL map (complex array; key;[key for filtering];[possible values for filtering])]
 
 Returns a primitive array containing values of a complex array. This function allows filtering values. Use raw variable names for keys.
 
@@ -93,26 +93,26 @@ Returns a primitive array containing values of a complex array. This function al
   >
   >  Returns a primitive array with emails having a label equal to work or home
 
-For more information, see [Map information from one module to another in Adobe Workfront Fusion](../../workfront-fusion/mapping/map-information-between-modules.md)
+For more information, see [Map information from one module to another in [!UICONTROL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md)
 
 
-## merge (array1; array2; ...)
+## [!UICONTROL merge (array1; array2; ...)]
 
 Merges one or more arrays into one array.
 
-## remove (array; value1; value2; ...)
+## [!UICONTROL remove (array; value1; value2; ...)]
 
 Removes values specified in the parameters of an array. This function is effective only on primitive arrays of text or numbers.
 
-## reverse (array)
+## [!UICONTROL reverse (array)]
 
 The first element of the array becomes the last element, the second becomes the next-to-last, and so on.
 
-## slice (array; start; [end])
+## [!UICONTROL slice (array; start; [end])]
 
 Returns a new array containing only selected items.
 
-## sort (array; [order]; [key])
+## [!UICONTROL sort (array; [order]; [key])]
 
 Sorts values of an array. The valid values of the `order` parameter are:
 
@@ -160,7 +160,7 @@ The first item in an array is index 1.
   >
   >    Sorts an array of emails by the "sender.name" property
 
-## arrayDifference [array1, array2, mode]
+## [!UICONTROL arrayDifference [array1, array2, mode]]
 
 Returns the difference between two arrays.
 
