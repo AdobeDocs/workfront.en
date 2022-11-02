@@ -12,7 +12,7 @@ exl-id: fb1a2af4-da58-48ba-85b5-1903d6a3ceda
 ---
 # Create connections in [!DNL Adobe Workfront] Fusion
 
-A connection must adhere to the requirements set by the API of the app or web service it connects to.&nbsp;For this reason, instructions for setting up a connection vary based on the app or web service. This article can help you identify and locate the instructions for connecting [!DNL Adobe Workfront Fusion] to your chosen app or web service.
+A connection must adhere to the requirements set by the API of the app or web service it connects to. For this reason, instructions for setting up a connection vary based on the app or web service. This article can help you identify and locate the instructions for connecting [!DNL Adobe Workfront Fusion] to your chosen app or web service.
 
 ## Access requirements
 
@@ -23,16 +23,16 @@ You must have the following access to use the functionality in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>Pro or higher</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
+   <td> <p>[!UICONTROL Pro] or higher</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Plan, Work</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
+   <td> <p>[!UICONTROL Plan], [!UICONTROL Work]</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront Fusion license**</td> 
-   <td> <p>Workfront Fusion for Work Automation and Integration </p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront Fusion] license**</td> 
+   <td> <p>[!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
@@ -41,13 +41,13 @@ You must have the following access to use the functionality in this article:
 </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
+To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
 
-&#42;&#42;For information on Adobe Workfront Fusion licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
+For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Workfront Fusion] licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
 ## Connect [!DNL Adobe] Workfront to Workfront Fusion
 
-Workfront and [!DNL Workfront Fusion] are designed to work together. The connection you create determines the account that [!DNL Workfront] Fusion uses to perform actions in Workfront.
+Workfront and [!DNL Workfront Fusion] are designed to work together. The connection you create determines the account that [!DNL Workfront Fusion] uses to perform actions in Workfront.
 
 For instructions, see [Connect [!DNL Workfront] to Workfront Fusion](../../workfront-fusion/apps-and-their-modules/workfront-modules.md#connect) in [[!DNL Adobe Workfront] modules](../../workfront-fusion/apps-and-their-modules/workfront-modules.md).
 
@@ -115,11 +115,11 @@ The following apps do not follow the basic configuration for [!DNL Workfront Fus
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Bynder</p> </td> 
-   <td><a href="../../workfront-fusion/apps-and-their-modules/bynder-modules.md#connect" class="MCXref xref">Connect Bynder to [!DNL Workfront] Fusion </a> in <a href="../../workfront-fusion/apps-and-their-modules/bynder-modules.md" class="MCXref xref">Bynder modules</a></td> 
+   <td><a href="../../workfront-fusion/apps-and-their-modules/bynder-modules.md#connect" class="MCXref xref">Connect Bynder to [!DNL Workfront Fusion] </a> in <a href="../../workfront-fusion/apps-and-their-modules/bynder-modules.md" class="MCXref xref">Bynder modules</a></td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>CloudConvert</p> </td> 
-   <td><a href="../../workfront-fusion/apps-and-their-modules/cloud-convert-modules.md#connect" class="MCXref xref">Connect CloudConvert to [!DNL Workfront] Fusion</a> in <a href="../../workfront-fusion/apps-and-their-modules/cloud-convert-modules.md" class="MCXref xref">CloudConvert modules</a></td> 
+   <td><a href="../../workfront-fusion/apps-and-their-modules/cloud-convert-modules.md#connect" class="MCXref xref">Connect CloudConvert to [!DNL Workfront Fusion]</a> in <a href="../../workfront-fusion/apps-and-their-modules/cloud-convert-modules.md" class="MCXref xref">CloudConvert modules</a></td> 
   </tr>   <tr> 
    <td role="rowheader"> <p>Cvent</p> </td> 
    <td><a href="../../workfront-fusion/apps-and-their-modules/cvent-modules.md#connect" class="MCXref xref">Connect Cvent to [!DNL Adobe Workfront Fusion]</a> in <a href="../../workfront-fusion/apps-and-their-modules/cvent-modules.md" class="MCXref xref">Cvent modules</a></td> 
@@ -142,7 +142,7 @@ The following apps do not follow the basic configuration for [!DNL Workfront Fus
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Intacct</p> </td> 
-   <td><a href="../../workfront-fusion/apps-and-their-modules/intacct-modules.md#connecti" class="MCXref xref">Connect Intacct to [!DNL Workfront] Fusion</a> in <a href="../../workfront-fusion/apps-and-their-modules/intacct-modules.md" class="MCXref xref">Intacct modules</a></td> 
+   <td><a href="../../workfront-fusion/apps-and-their-modules/intacct-modules.md#connecti" class="MCXref xref">Connect Intacct to [!DNL Workfront Fusion]</a> in <a href="../../workfront-fusion/apps-and-their-modules/intacct-modules.md" class="MCXref xref">Intacct modules</a></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Jira Cloud</td> 
@@ -174,7 +174,7 @@ The following apps do not follow the basic configuration for [!DNL Workfront Fus
   </tr> 
   <tr> 
    <td role="rowheader"> <p>SFTP</p> </td> 
-   <td><a href="../../workfront-fusion/apps-and-their-modules/sftp.md#connect" class="MCXref xref">Connect SFTP to [!DNL Workfront] Fusion</a> in <a href="../../workfront-fusion/apps-and-their-modules/sftp.md" class="MCXref xref">SFTP modules</a></td> 
+   <td><a href="../../workfront-fusion/apps-and-their-modules/sftp.md#connect" class="MCXref xref">Connect SFTP to [!DNL Workfront Fusion]</a> in <a href="../../workfront-fusion/apps-and-their-modules/sftp.md" class="MCXref xref">SFTP modules</a></td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>SharePoint</p> </td> 
@@ -182,11 +182,11 @@ The following apps do not follow the basic configuration for [!DNL Workfront Fus
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Split.io</p> </td> 
-   <td><a href="../../workfront-fusion/apps-and-their-modules/split-io-modules.md#connect" class="MCXref xref">Connect Split.io to [!DNL Workfront] Fusion </a> in <a href="../../workfront-fusion/apps-and-their-modules/split-io-modules.md" class="MCXref xref">Split.io modules</a></td> 
+   <td><a href="../../workfront-fusion/apps-and-their-modules/split-io-modules.md#connect" class="MCXref xref">Connect Split.io to [!DNL Workfront Fusion] </a> in <a href="../../workfront-fusion/apps-and-their-modules/split-io-modules.md" class="MCXref xref">Split.io modules</a></td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Widen</p> </td> 
-   <td><a href="../../workfront-fusion/apps-and-their-modules/widen-modules.md#connect" class="MCXref xref">Connect [!DNL Widen] to [!DNL Workfront] Fusion </a> in <a href="../../workfront-fusion/apps-and-their-modules/widen-modules.md" class="MCXref xref">[!DNL Widen] modules</a></td> 
+   <td><a href="../../workfront-fusion/apps-and-their-modules/widen-modules.md#connect" class="MCXref xref">Connect [!DNL Widen] to [!DNL Workfront Fusion] </a> in <a href="../../workfront-fusion/apps-and-their-modules/widen-modules.md" class="MCXref xref">[!DNL Widen] modules</a></td> 
   </tr> 
  </tbody> 
 </table>

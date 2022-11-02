@@ -23,16 +23,16 @@ You must have the following access to use the functionality in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>Pro or higher</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
+   <td> <p>[!UICONTROL Pro] or higher</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Plan, Work</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
+   <td> <p>[!UICONTROL Plan], [!UICONTROL Work]</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront Fusion license**</td> 
-   <td> <p>Workfront Fusion for Work Automation and Integration </p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront Fusion] license**</td> 
+   <td> <p>[!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
@@ -41,23 +41,15 @@ You must have the following access to use the functionality in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
+To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
 
-&#42;&#42;For information on Adobe Workfront Fusion licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
+For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Workfront Fusion] licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
 ## Access rights
 
-For every connection, [!DNL Workfront] Fusion requires only those access rights that are necessary to successfully complete a given scenario. For example, if you create a scenario to list documents from Google Docs, [!DNL Workfront] Fusion does not ask for permission to get the content of the documents.
+For every connection, [!DNL Workfront Fusion] requires only those access rights that are necessary to successfully complete a given scenario. For example, if you create a scenario to list documents from [!DNL Google Docs], [!DNL Workfront Fusion] does not ask for permission to get the content of the documents.
 
 Unfortunately, not all services allow you to limit access to specific tasks. Therefore, [!DNL Workfront Fusion] must require full access rights. For more information on how to restrict [!DNL Workfront Fusion] access to your account registered to those services, see the application-specific documentation.
-
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">Organizational data security is Workfront Fusion's top priority. For detailed information on how data is secured and protected in Workfront Fusion, click here.
-<MadCap:conditionalText style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">
-Sam: Exclude until after GA release
-</MadCap:conditionalText>
-</p>
--->
 
 ## About administering connections
 
@@ -73,8 +65,8 @@ To open the [!UICONTROL Connections] area, click <b>[!UICONTROL Connections]</b>
 
 ## Renew a connection
 
-Workfront Fusion usually obtains access rights to a given service for an unlimited period of time. However, this is not always the case. With some services, the access permission must be renewed after a certain period of time. In these cases, Workfront Fusion notifies you via email shortly before its access rights expire.
+[!DNL Workfront Fusion] usually obtains access rights to a given service for an unlimited period of time. However, this is not always the case. With some services, the access permission must be renewed after a certain period of time. In these cases, [!DNL Workfront Fusion] notifies you via email shortly before its access rights expire.
 
 To renew a connection:
 
-1. Click the **Reauthorize** button in the **Connections** area.
+1. Click the **[!UICONTROL Reauthorize]** button in the **[!UICONTROL Connections]** area.

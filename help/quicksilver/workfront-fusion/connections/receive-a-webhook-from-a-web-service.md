@@ -21,16 +21,16 @@ You must have the following access to use the functionality in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>Pro or higher</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
+   <td> <p>[!UICONTROL Pro] or higher</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Plan, Work</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
+   <td> <p>[!UICONTROL Plan], [!UICONTROL Work]</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront Fusion license**</td> 
-   <td> <p>Workfront Fusion for Work Automation and Integration </p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront Fusion] license**</td> 
+   <td> <p>[!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
@@ -39,16 +39,16 @@ You must have the following access to use the functionality in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
+To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
 
-&#42;&#42;For information on Adobe Workfront Fusion licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
+For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Workfront Fusion] licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
 ## Receive a webhook
 
 1. Add the **[!UICONTROL Webhooks] >[!UICONTROL Custom webhook]** module to your scenario.
-1. Click **Add**, type a **Webhook name** in the box that displays, then click **Save**.
+1. Click **[!UICONTROL Add]**, type a **[!UICONTROL Webhook name]** in the box that displays, then click **[!UICONTROL Save]**.
 
-1. Click **Copy address to clipboard**, then click **OK**.
+1. Click **[!UICONTROL Copy address to clipboard]**, then click **[!UICONTROL OK]**.
 
 1. Log in to the web service and do the following there:
 
@@ -56,7 +56,7 @@ You must have the following access to use the functionality in this article:
    1. Paste the address you copied to your clipboard in step 3 .
    1. Select the event that will trigger the webhook.
 
-1. In the [!DNL Workfront Fusion] scenario, specify the event or events that you want to trigger the Custom webhook module.
+1. In the [!DNL Workfront Fusion] scenario, specify the event or events that you want to trigger the [!UICONTROL Custom webhook] module.
 1. Run the scenario.
 
-   When the event or events occur, the Custom webhook module triggers and the scenario runs.
+   When the event or events occur, the [!UICONTROL Custom webhook] module triggers and the scenario runs.
