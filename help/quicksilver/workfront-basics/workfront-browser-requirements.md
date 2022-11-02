@@ -27,7 +27,6 @@ Both Adobe Workfront and Workfront Proof require the use of an internet browser.
 
 ## Browsers Workfront does not support
 
-* Firefox ESR
 * Internet Explorer 11 is no longer supported as of the 21.2 release. Microsoft discontinued all support (including severe security vulnerabilities) for IE 7 and&nbsp;IE 8 on January 12, 2016. In addition, IE 9 and IE 10 have also been discontinued in most circumstances.&nbsp;Microsoft's rationale behind this decision was&nbsp;based on the substantial security concerns with the architecture of these browsers that could severely impact users.  
     >For more information, see the [Internet Explorer Support Lifecycle FAQ](https://support.microsoft.com/en-us/help/17454/lifecycle-faq-internet-explorer)&nbsp;on the Microsoft Support site.
   
