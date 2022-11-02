@@ -8,7 +8,7 @@ feature: Workfront API
 ---
 
 
-# Users avaialble time API
+# Users available time API
 
 **URI: attask/api/v15.0/user/getUsersAvailableTime**
 
