@@ -24,7 +24,7 @@ In an Adobe Workfront Fusion scenario, you can automate workflows that use Cloud
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] license**</td> 
-   <td> <p>[!UICONTROL Workfront Fusion for Work Automation and Integration] </p> </td> 
+   <td> <p>[!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 

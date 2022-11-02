@@ -36,7 +36,7 @@ You must have the following access to use the functionality in this article:
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] license**</td> 
-   <td> <p>[!UICONTROL Workfront Fusion for Work Automation and Integration] </p> </td> 
+   <td> <p>[!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
@@ -118,13 +118,13 @@ If you see the map button above a field or function, you can use it to set varia
 
 ### Action
 
-* [Create a record](#uicontrol-create-a-record)
+* [[!UICONTROL Create a record]](#uicontrol-create-a-record)
 
-* [Delete a record](#uicontrol-delete-a-record)
+* [[!UICONTROL Delete a record]](#uicontrol-delete-a-record)
 
-* [Make a custom API call](#uicontrol-make-a-custom-api-call)
+* [[!UICONTROL Make a custom API call]](#uicontrol-make-a-custom-api-call)
 
-* [Update a record](#uicontrol-update-a-record)
+* [[!UICONTROL Update a record]](#uicontrol-update-a-record)
 
 
 #### [!UICONTROL Create a record]

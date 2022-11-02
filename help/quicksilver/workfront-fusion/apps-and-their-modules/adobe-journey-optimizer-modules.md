@@ -45,7 +45,7 @@ You must have the following access to use the functionality in this article:
     <tr>
       <td role="rowheader">[!DNL Adobe Workfront Fusion] license**</td>
       <td >
-        <p>[!UICONTROL Workfront Fusion for Work Automation and Integration]</p>
+        <p>[!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration]</p>
       </td>
     </tr>
     <tr>
