@@ -22,17 +22,21 @@ In order to receive event subscriptions payloads through your firewall, you must
 
 **For customers in Europe:**
 
-* 3.122.135.96
-* 3.122.150.235
-* 52.19.64.185
-* 52.212.92.170
+* 52.30.133.50
+* 52.208.159.124 
+* 54.220.93.204 
+* 52.17.130.201 
+* 34.254.76.122
+* 34.252.250.191 
 
 **For customers in locations other than Europe:**
 
-* 35.160.0.242
-* 34.213.36.118
-* 3.209.27.146
-* 18.205.251.4
+* 54.244.142.219
+* 44.241.82.96
+* 52.36.154.34 
+* 34.211.224.9 
+* 54.218.48.56
+* 52.39.217.230
 
 The following topics support the Event Subscription API:
 
@@ -63,7 +67,7 @@ For a list of fields supported by event subscription objects, see [Event subscri
 
 To create, query, or delete an event subscription, your Workfront user needs the following:
 
-* An access level of “System Administrator” 
+* An access level of "System Administrator" 
 * An apiKey
 
   >[!NOTE]
@@ -227,7 +231,7 @@ The subscription resource&nbsp;contains the following fields.
 
 * authToken (required)
 
-   * **String** - The OAuth2 bearer token used to authenticate with the URL specified in the “URL” field.&nbsp;
+   * **String** - The OAuth2 bearer token used to authenticate with the URL specified in the "URL" field.&nbsp;
 
 ## Creating Event Subscription API&nbsp;Requests
 
@@ -285,11 +289,11 @@ POST https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions
 | 401 (Unauthorized) |The apiKey provided was empty or deemed invalid. |
 | 403 (Forbidden) |The user, which matches the provided apiKey, does not have administrator access. |
 
-Passing a&nbsp;subscription resource&nbsp;as the body of a&nbsp;request (with the content-type being&nbsp;“application/json”) results in an event subscription being created for the object specified. A response code of 201 (Created) indicates the subscription was created. A response code other than 201 means the subscription was **NOT** created.
+Passing a&nbsp;subscription resource&nbsp;as the body of a&nbsp;request (with the content-type being&nbsp;"application/json") results in an event subscription being created for the object specified. A response code of 201 (Created) indicates the subscription was created. A response code other than 201 means the subscription was **NOT** created.
 
 >[!NOTE]
 >
->&nbsp;The “Location” response header contains the URI of the newly created event subscription.
+>&nbsp;The "Location" response header contains the URI of the newly created event subscription.
 
 **Response Headers Example:** 
 
