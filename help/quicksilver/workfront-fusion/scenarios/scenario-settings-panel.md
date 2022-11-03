@@ -3,7 +3,7 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
 title: The scenario settings panel in Adobe Workfront Fusion
-description: This article describes the settings available in the [!UICONTROL scenario settings] panel in your [!DNL Adobe Workfront] Fusion scenarios.
+description: This article describes the settings available in the [!UICONTROL scenario settings] panel in your [!DNL Adobe Workfront Fusion] scenarios.
 author: Becky
 feature: Workfront Fusion
 exl-id: 64a7a39a-f450-4eba-b4db-f31dd22aefdc

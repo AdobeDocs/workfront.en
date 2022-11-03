@@ -2,15 +2,15 @@
 product-previous: workfront-fusion
 product-area: workfront-integrations;user-management
 navigation-topic: workfront-fusion-basics
-title: Change profile settings in [!DNL Adobe Workfront] Fusion
-description: You can change information in your [!DNL Adobe Workfront] Fusion account profile.
+title: Change profile settings in [!DNL Adobe Workfront Fusion]
+description: You can change information in your [!DNL Adobe Workfront Fusion] account profile.
 author: Becky
 feature: Workfront Fusion
 exl-id: 590c8549-0877-46f4-bf73-174b6b10638c
 ---
-# Change profile settings in [!DNL Adobe Workfront] Fusion
+# Change profile settings in [!DNL Adobe Workfront Fusion]
 
-You can change information in your [!DNL Adobe Workfront] Fusion account profile.
+You can change information in your [!DNL Adobe Workfront Fusion] account profile.
 
 ## Access requirements
 

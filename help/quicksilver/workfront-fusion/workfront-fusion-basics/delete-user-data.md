@@ -2,13 +2,13 @@
 product-previous: workfront-fusion
 product-area: workfront-integrations;user-management
 navigation-topic: workfront-fusion-basics
-title: Delete user data In [!DNL Adobe Workfront] Fusion
+title: Delete user data In [!DNL Adobe Workfront Fusion]
 description: You can store and delete user data in your [!DNL Adobe Workfront Fusion] account.
 author: Becky
 feature: Workfront Fusion
 exl-id: 4b0a0abe-a913-429b-b02e-809b2e7410af
 ---
-# Delete user data In [!DNL Adobe Workfront] Fusion
+# Delete user data In [!DNL Adobe Workfront Fusion]
 
 You can store and delete user data in the following areas in your [!DNL Adobe Workfront Fusion] account:
 

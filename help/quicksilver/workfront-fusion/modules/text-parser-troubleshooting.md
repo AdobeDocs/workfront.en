@@ -3,13 +3,13 @@ content-type: tips-tricks-troubleshooting
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: modules
-title: Text parser troubleshooting in [!DNL Adobe Workfront] Fusion
+title: Text parser troubleshooting in [!DNL Adobe Workfront Fusion]
 description: Use this information if you can not get text parser to produce any output.
 author: Becky
 feature: Workfront Fusion
 exl-id: 8a3821cf-d0c6-4917-86e7-90a4872a5795
 ---
-# Text parser troubleshooting in [!DNL Adobe Workfront] Fusion
+# Text parser troubleshooting in [!DNL Adobe Workfront Fusion]
 
 Use this information if you can not get text parser to produce any output.
 

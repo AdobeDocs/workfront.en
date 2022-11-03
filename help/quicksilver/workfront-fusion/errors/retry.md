@@ -2,7 +2,7 @@
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: errors
-title: Retry error handling in [!DNL Adobe Workfront] Fusion
+title: Retry error handling in [!DNL Adobe Workfront Fusion]
 description: In some cases it is useful to re-execute a failing module for a couple of times if there is a chance that the reason for the failure might pass over time.
 author: Becky
 feature: Workfront Fusion
@@ -65,7 +65,7 @@ For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Work
 * The minimum retry interval is one minute.
 * If the module is processing multiple bundles and the processing of a bundle fails, the partial execution (only the bundle that caused the error) is moved to the incomplete executions folder and scheduled for retries according to the [!UICONTROL Break] directive settings. However, the current execution continues and the module continues to process the subsequent bundles. You can enable the "[!UICONTROL Sequential processing]" option in the [!UICONTROL Scenario settings] to prevent the scenario from executing again until the execution stored in the the Incomplete executions folder has been successfully resolved.
 
-For more information on incomplete executions, see [View and resolve incomplete executions in [!DNL Adobe Workfront] Fusion](../../workfront-fusion/scenarios/view-and-resolve-incomplete-executions.md).
+For more information on incomplete executions, see [View and resolve incomplete executions in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/view-and-resolve-incomplete-executions.md).
 
 ### Use the [!UICONTROL Repeater] module
 

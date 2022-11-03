@@ -21,7 +21,7 @@ For information about the latest enhancements with [!DNL Workfront Fusion], see 
 
 For reference information about various aspects and features found in [!DNL Workfront Fusion], see any of the following Help sections:
 
-* [Get started with [!DNL Adobe Workfront] Fusion](../workfront-fusion/get-started/get-started.md)
+* [Get started with [!DNL Adobe Workfront Fusion]](../workfront-fusion/get-started/get-started.md)
 * [[!DNL Adobe] Workfront Fusion basics](../workfront-fusion/workfront-fusion-basics/workfront-fusion-basics.md)
 
    <!--
@@ -32,8 +32,8 @@ For reference information about various aspects and features found in [!DNL Work
 * [Scenarios in [!DNL Adobe] Workfront Fusion](../workfront-fusion/scenarios/scenarios.md)
 * [Modules in [!DNL Adobe] Workfront Fusion](../workfront-fusion/modules/modules.md)
 * [Mapping in Adobe Workfront Fusion](../workfront-fusion/mapping/mapping.md)
-* [Functions in [!DNL Adobe Workfront] Fusion](../workfront-fusion/functions/functions.md)
+* [Functions in [!DNL Adobe Workfront Fusion]](../workfront-fusion/functions/functions.md)
 * [[!DNL Webhooks] in Adobe Workfront Fusion](../workfront-fusion/webhooks/webhooks.md)
 * [Errors in Adobe Workfront Fusion](../workfront-fusion/errors/errors.md)
-* [Organizations in [!DNL Adobe Workfront] Fusion](../workfront-fusion/organizations/organizations.md)
+* [Organizations in [!DNL Adobe Workfront Fusion]](../workfront-fusion/organizations/organizations.md)
 * [Apps and their modules](../workfront-fusion/apps-and-their-modules/apps-and-their-modules.md)

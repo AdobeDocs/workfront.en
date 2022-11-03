@@ -2,13 +2,13 @@
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: mapping
-title: Map information from one module to another in [!DNL Adobe Workfront] Fusion
+title: Map information from one module to another in [!DNL Adobe Workfront Fusion]
 description: Mapping is the process of assigning a module's outputs, structured into items, to another module's input fields.
 author: Becky
 feature: Workfront Fusion
 exl-id: e8d619e9-6425-4136-ac71-47d979d68a2d
 ---
-# Map information from one module to another in [!DNL Adobe Workfront] Fusion
+# Map information from one module to another in [!DNL Adobe Workfront Fusion]
 
 Mapping is the process of assigning a module's outputs, structured into items, to another module's input fields.
 
@@ -45,30 +45,26 @@ To find out what plan, license type, or access you have, contact your [!DNL Work
 
 For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Workfront Fusion] licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">** Don't delete, draft, or change the title of this article. The UI links to it via context-sensitive help.</p>
--->
-
 ## Bundles and items
 
 The operation of a module produces zero, one, or more bundles as its output. A bundle consists of one or more items.
 
 To explore the output of a module:
 
-1. Click **Run once** to execute the module.
+1. Click **[!UICONTROL Run once]** to execute the module.
 1. Click the bubble above the module.
 
    A log containing all of the module's phases displays. You can find the bundle or bundles outputted by a module's operation phase under the **[!UICONTROL Output]** heading. Each bundle contains its items and each item's values.
 
 >[!INFO]
 >
->**Example:** This example shows the module Email > Watch emails. You can see that it performed 1 operation producing a single bundle that contains various items such as `Date`, `Email ID (UID)`, `size`, and so on.
+>**Example:** This example shows the module [!UICONTROL Email] > [!UICONTROL Watch emails]. You can see that it performed 1 operation producing a single bundle that contains various items such as `Date`, `Email ID (UID)`, `size`, and so on.
 >
 >![](assets/watch-emails-350x298.png)
 
 >[!NOTE]
 >
->The outputs from modules wrapped between an Iterator and Aggregator are not accessible beyond the Aggregator module.
+>The outputs from modules wrapped between an [!UICONTROL Iterator] and [!UICONTROL Aggregator] are not accessible beyond the [!UICONTROL Aggregator] module.
 
 ## Map an item
 
@@ -77,16 +73,16 @@ After you have created a sequence of modules by linking two or more of them, eac
 To assign the items to a module's input fields:
 
 1. Click on the module that should process the output of the preceding module or modules.
-1. In the Module settings panel that displays, click a field where you want to use the value of an item outputted from the preceding module(s).
+1. In the Module settings panel that displays, click a field where you want to use the value of an item outputted from a preceding module(s).
 
    The mapping panel opens.
 
-1. Click an item from the [!UICONTROL mapping] panel to insert it into the field.
-1. (Optional) To search for a particular field in the [!UICONTROL mapping] panel, click the mapping panel search bar and type in the term you want to search for. Click the field when it appears in the list.
+1. Click an item from the mapping panel to insert it into the field.
+1. (Optional) To search for a particular field in the mapping panel, click the mapping panel search bar and type in the term you want to search for. Click the field when it appears in the list.
 
    Search results contain the search term and are not case sensitive.
 
-For more information, see [Configure a module's settings in Adobe Workfront Fusion](../../workfront-fusion/modules/configure-a-modules-settings.md).
+For more information, see [Configure a module's settings in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/configure-a-modules-settings.md).
 
 ## Formulas
 
@@ -94,7 +90,7 @@ You can map multiple items into a field, combine them with literals (fixed value
 
 ![](assets/operators-and-functions-350x187.png)
 
-You can find the functions and operators in the [!UICONTROL mapping] panel under one of its tabs.
+You can find the functions and operators in the mapping panel under one of its tabs.
 
 ![](assets/functions-toolbar-350x189.png)
 
@@ -110,8 +106,8 @@ The other tabs contain the following types of functions:
 
 * **Date and time** ![](assets/toolbar-icon-date&time-functions.png) - See [Date and time functions in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/functions/date-and-time-functions.md) and the articles below for more information.
 
-   * [Tokens for date and time formatting in [!DNL Adobe Workfront] Fusion](../../workfront-fusion/functions/tokens-for-date-and-time-formatting.md)
-   * [Tokens for date and time parsing in Adobe Workfront Fusion](../../workfront-fusion/functions/tokens-for-date-and-time-parsing.md)
+    * [Tokens for date and time formatting in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/functions/tokens-for-date-and-time-formatting.md)
+    * [Tokens for date and time parsing in Adobe Workfront Fusion](../../workfront-fusion/functions/tokens-for-date-and-time-parsing.md)
 
 * **Functions for working with arrays** ![](assets/toolbar-icon-functions-for-arrays.png) - See [Array functions in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/functions/array-functions.md) for more information.
 
@@ -119,17 +115,7 @@ The other tabs contain the following types of functions:
 >
 >When you create a complex formula that you want to reuse it in another field, you can click the field that contains the combination, use Command-A or Ctrl-A to select it, then copy and paste it into the other field.
 
-For more information on mapping items using functions, see [Map items using functions in Adobe Workfront Fusion](../../workfront-fusion/functions/map-using-functions.md).
-
-<!--
-<div class="examples" data-mc-autonum="<b>Examples: </b>" data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<span class="autonumber"><span><b>Examples: </b></span></span>
-<p>Consider these common examples of formulas created using the mapping panel:</p>
-<p> <img src="assets/formula-examples-350x138.png" style="width: 350;height: 138;">
-<span style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Redo this so this it is bigger. Come back to training (Fusion 2.0 Enablement Training (Part 1) - Beyond Basic Mapping) 1:53 in video to see if I should type out how he explained a couple of these</span>
-</p>
-</div>
--->
+For more information on mapping items using functions, see [Map items using functions in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/functions/map-using-functions.md).
 
 ## Collections
 
@@ -143,17 +129,17 @@ You can identify a [!UICONTROL collection] type item by the small black rectangl
 >
 >In most cases, you map the collection's sub-items rather than the item representing the whole collection.
 
-For more information about collections, see [Item data types in Adobe Workfront Fusion](../../workfront-fusion/mapping/item-data-types.md)
+For more information about collections, see [Item data types in [!UICONTROL Adobe Workfront Fusion]](../../workfront-fusion/mapping/item-data-types.md)
 
 ## Arrays
 
 Some items can contain multiple elements of the same type. These are array type items.
 
-You can identify an [!UICONTROL array] type item by the square brackets at the end of the item's label. Click the small black rectangle to the right of the item's label to reveal the element's items:
+You can identify an array type item by the square brackets at the end of the item's label. Click the small black rectangle to the right of the item's label to reveal the element's items:
 
 ![](assets/array.png)
 
-For more information about arrays, see [Item data types in Adobe Workfront Fusion](../../workfront-fusion/mapping/item-data-types.md)
+For more information about arrays, see [Item data types in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/item-data-types.md)
 
 ### Map an array's first element
 
@@ -208,13 +194,13 @@ Because the `map()` function returns an array (as there could be more elements w
 
 * The 2nd parameter is the element's index - one.
 
-For more information about the `map()` function, see [Array functions in Adobe Workfront Fusion](../../workfront-fusion/functions/array-functions.md).
+For more information about the `map()` function, see [Array functions in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/functions/array-functions.md).
 
-For more information about the `get()` function, see [General functions in Adobe Workfront Fusion](../../workfront-fusion/functions/general-functions.md).
+For more information about the `get()` function, see [General functions in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/functions/general-functions.md).
 
 ## Converting elements to a series of bundles
 
-Arrays can be converted to a series of bundles using the Iterator module. For more information, see [Iterator module in Adobe Workfront Fusion](../../workfront-fusion/modules/iterator-module.md).
+Arrays can be converted to a series of bundles using the [!UICONTROL Iterator] module. For more information, see [[!UICONTROL Iterator] module in [!UICONTROL Adobe Workfront Fusion]](../../workfront-fusion/modules/iterator-module.md).
 
 ![](assets/series-of-bundles-350x169.png)
 
@@ -224,7 +210,7 @@ Arrays can be converted to a series of bundles using the Iterator module. For mo
 
 For each module, the mapping panel displays all output items, listed by the author of the module. In some cases, this list might be incomplete for various reasons, and some items might be missing. [!DNL Workfront Fusion] can auto-discover the missing output items when you run the module in the scenario editor. The exact procedure differs slightly depending on the module's type:
 
-#### Instant trigger {#instant-trigger}
+#### Instant trigger
 
 1. Right-click the module, then click **[!UICONTROL Run this module only]** in the menu that displays.
 
@@ -232,13 +218,13 @@ For each module, the mapping panel displays all output items, listed by the auth
 
 1. Generate a webhook.
 
-   For example, the webhook module **[!UICONTROL Slack] >[!UICONTROL Listen for new events]** (which watches for new channel messages in a channel) sends a message to the channel.
+   For example, the webhook module **[!DNL Slack] >[!UICONTROL Listen for new events]** (which watches for new channel messages in a channel) sends a message to the channel.
 
 1. When the module finishes running, click the bubble above the module to explore its full output.
 
    The mapping panel will contains all the items that were discovered in the module's output.
 
-#### Polling trigger {#polling-trigger}
+#### Polling trigger
 
 1. Right-click the module, then click **[!UICONTROL Run this module only]** in the menu that displays.
 1. If there is no output, click **[!UICONTROL Choose where to start]** and adjust the settings.
@@ -256,14 +242,14 @@ You may choose to execute:
 
 * The whole scenario (or just the part containing the module)
 
-   If your scenario starts with a trigger, refer to the [[!UICONTROL Instant trigger]](#instant-trigger) or [[!UICONTROL Polling trigger]](#polling-trigger) section above.
+   If your scenario starts with a trigger, refer to the [Instant trigger](#instant-trigger) or [Polling trigger](#polling-trigger) section above.
 
 * Just the single module
 
 If you choose to execute just the single module:
 
 1. Right-click the module, then click **[!UICONTROL Run this module only]** in the menu that displays..
-1. Provide sample values for the input items, then click **OK** .
+1. Provide sample values for the input items, then click **[!UICONTROL OK]** .
 1. When the module finishes running, click the bubble above the module to explore its full output.
 
    The mapping panel now contains all of the items that were discovered in the module's output.

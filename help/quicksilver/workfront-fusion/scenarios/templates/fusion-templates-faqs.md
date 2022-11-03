@@ -53,7 +53,7 @@ For more information, see [Publish and share Adobe Workfront Fusion templates](.
 
 **Answer**:
 
-See [View, edit, and delete [!DNL Adobe Workfront] Fusion templates](../../../workfront-fusion/scenarios/templates/view-edit-and-delete-fusion-templates.md).
+See [View, edit, and delete [!DNL Adobe Workfront Fusion] templates](../../../workfront-fusion/scenarios/templates/view-edit-and-delete-fusion-templates.md).
 
 ## I cannot find a public template that I originally created. What can I do?
 

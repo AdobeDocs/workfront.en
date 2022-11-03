@@ -2,13 +2,13 @@
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
-title: View, edit, and delete [!DNL Adobe Workfront] Fusion templates
+title: View, edit, and delete [!DNL Adobe Workfront Fusion] templates
 description: Adobe Workfront Fusion requires an Adobe Workfront Fusion license in addition to an Adobe Workfront license.
 author: Becky
 feature: Workfront Fusion
 exl-id: 97e3402c-d1d0-44f6-9752-11b0f5abee22
 ---
-# View, edit, and delete [!DNL Adobe Workfront] Fusion templates
+# View, edit, and delete [!DNL Adobe Workfront Fusion] templates
 
 Adobe Workfront Fusion requires an Adobe Workfront Fusion license in addition to an Adobe Workfront license.
 

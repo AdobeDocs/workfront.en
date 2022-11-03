@@ -2,13 +2,13 @@
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
-title: Create new templates in [!DNL Adobe Workfront] Fusion
+title: Create new templates in [!DNL Adobe Workfront Fusion]
 description: You can create new scenario templates in [!DNL Adobe] Workfront Fusion.
 author: Becky
 feature: Workfront Fusion
 exl-id: fdfa509c-30c6-431e-89f3-a4bf50261e8a
 ---
-# Create new templates in [!DNL Adobe Workfront] Fusion
+# Create new templates in [!DNL Adobe Workfront Fusion]
 
 You can create new scenario templates in [!DNL Adobe] Workfront Fusion.
 

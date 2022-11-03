@@ -46,7 +46,7 @@ For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Work
 
 ### Answer
 
-A scenario defines a sequence of steps to be executed by [!DNL Adobe Workfront] Fusion. For each scenario, you specify the data source, how the data is to be processed, and what data is to be used and what is to be ignored. [!DNL Workfront Fusion] lets you create as complex of scenarios as you need; even the most sophisticated scenarios are possible.
+A scenario defines a sequence of steps to be executed by [!DNL Adobe Workfront Fusion]. For each scenario, you specify the data source, how the data is to be processed, and what data is to be used and what is to be ignored. [!DNL Workfront Fusion] lets you create as complex of scenarios as you need; even the most sophisticated scenarios are possible.
 
 For more information, see [Create a practice integration scenario in Adobe Workfront Fusion](../../workfront-fusion/get-started/create-a-practice-scenario.md).
 

@@ -49,7 +49,7 @@ For information on Adobe Workfront Fusion licenses, see [Adobe Workfront Fusion 
 
 A template must be created before it can be shared.
 
-## Publish an [!DNL Adobe Workfront] Fusion template
+## Publish an [!DNL Adobe Workfront Fusion] template
 
 1. In the left navigation panel, click **Templates**.
 1. Click the **Team templates** tab.

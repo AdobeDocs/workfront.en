@@ -3,13 +3,13 @@ content-type: overview
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
-title: Basic scenario settings in [!DNL Adobe Workfront] Fusion
-description: This article describes basic settings for your [!DNL Adobe Workfront] Fusion scenarios.
+title: Basic scenario settings in [!DNL Adobe Workfront Fusion]
+description: This article describes basic settings for your [!DNL Adobe Workfront Fusion] scenarios.
 author: Becky
 feature: Workfront Fusion
 exl-id: 020d00a6-eab0-42a1-865d-71f07ca3f871
 ---
-# Basic scenario settings in [!DNL Adobe Workfront] Fusion
+# Basic scenario settings in [!DNL Adobe Workfront Fusion]
 
 ## Access requirements
 

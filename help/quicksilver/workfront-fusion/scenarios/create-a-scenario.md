@@ -3,14 +3,14 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
 title: Create a scenario in Adobe Workfront Fusion
-description: The following tasks explain how to create a [!DNL Adobe Workfront] Fusion scenario.
+description: The following tasks explain how to create a [!DNL Adobe Workfront Fusion] scenario.
 author: Becky
 feature: Workfront Fusion
 exl-id: adf66cfc-ccaf-4b29-9199-c13260695569
 ---
 # Create a scenario in Adobe Workfront Fusion
 
-The following tasks explain how to create a [!DNL Adobe Workfront] Fusion scenario.
+The following tasks explain how to create a [!DNL Adobe Workfront Fusion] scenario.
 
 For a practice exercise that walks you through creating an automation scenario, see [Create a practice automation scenario in Adobe Workfront Fusion](../../workfront-fusion/get-started/create-a-practice-automation-scenario.md).
 
@@ -18,7 +18,7 @@ For a practice exercise that walks you through creating an integration scenario 
 
 >[!NOTE]
 >
->To create a scenario from a template, see [Create scenarios with [!DNL Adobe Workfront] Fusion templates](../../workfront-fusion/scenarios/templates/create-scenarios-with-fusion-templates.md).
+>To create a scenario from a template, see [Create scenarios with [!DNL Adobe Workfront Fusion] templates](../../workfront-fusion/scenarios/templates/create-scenarios-with-fusion-templates.md).
 
 ## Access requirements
 

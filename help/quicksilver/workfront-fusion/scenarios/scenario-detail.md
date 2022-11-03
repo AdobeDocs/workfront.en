@@ -2,13 +2,13 @@
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
-title: Scenario details in [!DNL Adobe Workfront] Fusion
-description: Scenario details in [!DNL Adobe Workfront] Fusion
+title: Scenario details in [!DNL Adobe Workfront Fusion]
+description: Scenario details in [!DNL Adobe Workfront Fusion]
 author: Becky
 feature: Workfront Fusion
 exl-id: 1d8a3492-d609-43c8-a486-a401a597f160
 ---
-# Scenario details in [!DNL Adobe Workfront] Fusion
+# Scenario details in [!DNL Adobe Workfront Fusion]
 
 The scenario detail page is the homepage of a specific scenario. It provides access to specific information for the scenario that is represented on the page.
 

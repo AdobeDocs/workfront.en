@@ -3,13 +3,13 @@ filename: manage-fusion-users
 product-previous: workfront-fusion
 product-area: workfront-integrations;user-management
 navigation-topic: organizations
-title: Manage [!DNL Adobe Workfront] Fusion users in your organization
-description: Manage [!DNL Adobe Workfront] Fusion users in your organization
+title: Manage [!DNL Adobe Workfront Fusion] users in your organization
+description: Manage [!DNL Adobe Workfront Fusion] users in your organization
 author: Becky
 feature: Workfront Fusion
 exl-id: fbb858a6-1230-41b4-892a-4ffeb2711922
 ---
-# Manage [!DNL Adobe Workfront] Fusion users in your organization
+# Manage [!DNL Adobe Workfront Fusion] users in your organization
 
  
 

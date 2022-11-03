@@ -8,7 +8,7 @@ author: Becky
 feature: Workfront Fusion
 exl-id: 725e0c24-cb4b-46c4-9c00-4f9cc334fbc7
 ---
-# Map an array in [!DNL Adobe] Workfront Fusion
+# Map an array in [!DNL Adobe Workfront Fusion]
 
 An array is a special type of item that can contain the following:
 
@@ -19,7 +19,7 @@ An array is a special type of item that can contain the following:
 >
 >**Example:** The [!UICONTROL Watch emails] module returns an array of attachments for every email. Every attachment represents a collection that may contain a name, content, size, and so on.
 
-For more information, see [Item data types in Adobe Workfront Fusion](../../workfront-fusion/mapping/item-data-types.md).
+For more information, see [Item data types in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/item-data-types.md).
 
 ## Access requirements
 
@@ -54,7 +54,7 @@ For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Work
 
 ## Map an array
 
-1. Click the button located in the [!UICONTROL target] field.
+1. Click the button located in the target field.
 
    >[!INFO]
    >
@@ -64,8 +64,8 @@ For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Work
 
 1. In the box that displays, enter the item.
 
-   The panel allows you to map fields in the same way as with any other type of item. If you do not want to fill in each item separately, but want to map another array into the target field, use the Map button. In this case, make sure that both arrays (the source array and the target array) have the same structure.
+   The panel allows you to map fields in the same way as with any other type of item. If you do not want to fill in each item separately, but want to map another array into the target field, use the [!UICONTROL Map] button. In this case, make sure that both arrays (the source array and the target array) have the same structure.
 
    You can add any number of items to an array.
 
-You can divide an array into individual bundles using an iterator. Fore more information, see [Iterator module in Adobe Workfront Fusion](../../workfront-fusion/modules/iterator-module.md).
+You can divide an array into individual bundles using an iterator. Fore more information, see [[!UICONTROL Iterator] module in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/iterator-module.md).

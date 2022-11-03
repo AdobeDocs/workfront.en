@@ -3,7 +3,7 @@ content-type: reference
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: functions
-title: Math variables in [!DNL Adobe Workfront] Fusion
+title: Math variables in [!DNL Adobe Workfront Fusion]
 description: The following math variables are available in the [!DNL Adobe Workfront Fusion mapping] panel.
 author: Becky
 feature: Workfront Fusion

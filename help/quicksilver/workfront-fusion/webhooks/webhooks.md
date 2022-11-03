@@ -15,4 +15,4 @@ Adobe Workfront Fusion requires an Adobe Workfront Fusion license in addition to
 
 This section contains the following articles:
 
-* [Instant triggers (webhooks) in [!DNL Adobe Workfront] Fusion](../../workfront-fusion/webhooks/instant-triggers-webhooks.md)
+* [Instant triggers (webhooks) in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/webhooks/instant-triggers-webhooks.md)

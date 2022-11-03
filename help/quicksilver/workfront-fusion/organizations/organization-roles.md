@@ -3,13 +3,13 @@ content-type: reference
 product-previous: workfront-fusion
 product-area: workfront-integrations;user-management
 navigation-topic: organizations
-title: Organization roles in [!DNL Adobe Workfront] Fusion
+title: Organization roles in [!DNL Adobe Workfront Fusion]
 description: This article includes information about the access and permissions of the roles in [!DNL Adobe] Workfront Fusion.
 author: Becky
 feature: Workfront Fusion
 exl-id: 0370fa9d-6680-4724-a431-8df884ce4f9a
 ---
-# Organization roles in [!DNL Adobe Workfront] Fusion
+# Organization roles in [!DNL Adobe Workfront Fusion]
 
 This article describes the access and functionality available to the different organization roles in Workfront Fusion.
 

@@ -3,7 +3,7 @@ content-type: reference
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: errors
-title: Error processing in [!DNL Adobe Workfront] Fusion
+title: Error processing in [!DNL Adobe Workfront Fusion]
 description: Sometimes an error can occur during the execution of a scenario. This usually happens if a service is unavailable due to a failure to connect to a service or if a validation fails. This article discusses the common errors that you may encounter.
 author: Becky
 feature: Workfront Fusion
@@ -106,7 +106,7 @@ An invalid access token error occurs when [!DNL Workfront Fusion] cannot access 
 
 If this error occurs, the execution of a scenario is stopped immediately. The rest of the scenario starting from the module where the error occurred is moved to the incomplete executions folder.
 
-For information about incomplete executions, see [View and resolve incomplete executions in [!DNL Adobe Workfront] Fusion](../../workfront-fusion/scenarios/view-and-resolve-incomplete-executions.md).
+For information about incomplete executions, see [View and resolve incomplete executions in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/view-and-resolve-incomplete-executions.md).
 
 ## Rate Limit Error
 

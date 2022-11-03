@@ -2,13 +2,13 @@
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: modules
-title: Configure a module's settings in [!DNL Adobe Workfront] Fusion
+title: Configure a module's settings in [!DNL Adobe Workfront Fusion]
 description: You must configure settings for every module you create.
 author: Becky
 feature: Workfront Fusion
 exl-id: 7e66728d-8c6f-4597-98c4-bc6d36f96911
 ---
-# Configure a module's settings in [!DNL Adobe Workfront] Fusion
+# Configure a module's settings in [!DNL Adobe Workfront Fusion]
 
 You must configure settings for every module you create.
 

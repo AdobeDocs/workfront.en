@@ -2,7 +2,7 @@
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: functions
-title: Map items using functions in [!DNL Adobe Workfront] Fusion
+title: Map items using functions in [!DNL Adobe Workfront Fusion]
 description: When you map items, you can use functions to create simple or complex formulas.
 author: Becky
 feature: Workfront Fusion
@@ -12,7 +12,7 @@ exl-id: e64d9b1e-8576-43db-ac29-0d386a482fbc
 
 When you map items, you can use functions to create simple or complex formulas.
 
-The functions available in [!DNL Adobe Workfront] Fusion are similar to functions in Excel and in some programming languages. They evaluate general logic, math, text, dates, and arrays. They let you perform conditional logic and transformations of item values, such as converting a text to uppercase, trimming text, converting a date into a different format, and more. For more information, see [Map information from one module to another in Adobe Workfront Fusion](../../workfront-fusion/mapping/map-information-between-modules.md).
+The functions available in [!DNL Adobe Workfront Fusion] are similar to functions in Excel and in some programming languages. They evaluate general logic, math, text, dates, and arrays. They let you perform conditional logic and transformations of item values, such as converting a text to uppercase, trimming text, converting a date into a different format, and more. For more information, see [Map information from one module to another in Adobe Workfront Fusion](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 ## Access requirements
 
@@ -63,7 +63,7 @@ The other tabs contain the following types of functions:
 
 * **Date and time** ![](assets/toolbar-icon-date&time-functions.png) - See [Date and time functions in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/functions/date-and-time-functions.md) and the articles below for more information.
 
-    * [Tokens for date and time formatting in [!DNL Adobe Workfront] Fusion](../../workfront-fusion/functions/tokens-for-date-and-time-formatting.md)
+    * [Tokens for date and time formatting in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/functions/tokens-for-date-and-time-formatting.md)
     * [Tokens for date and time parsing in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/functions/tokens-for-date-and-time-parsing.md)
 
 * **Functions for working with arrays** ![](assets/toolbar-icon-functions-for-arrays.png) - See [Array functions in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/functions/array-functions.md) for more information.
