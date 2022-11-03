@@ -9,8 +9,6 @@ exl-id: 26abce82-dcd9-4865-96f4-c710f7f0a0d8
 ---
 # Filter and search in a board
 
-{{highlighted-preview}}
-
 You can filter a board to display:
 
 * Cards assigned to certain people
@@ -18,7 +16,7 @@ You can filter a board to display:
 * Cards with a specific status
 * Cards due in a certain time frame
 * Archived cards
-* <span class="preview">Cards connected to a specific project</span>
+* Cards connected to a specific project
 
 Searching also helps you locate a specific card on the board.
 
@@ -93,8 +91,6 @@ By default, only active cards are displayed on a board. You can filter the board
 
 1. Select **Archived cards** again to clear the option and display only active cards.
 
-<div class="preview">
-
 ## Filter a board by connection
 
 1. Access the board.
@@ -103,8 +99,6 @@ By default, only active cards are displayed on a board. You can filter the board
    You can also display cards that are not connected to a project.
 
    ![Filter by connection](assets/boards-filter-by-connection.png)
-
-</div>
 
 >[!NOTE]
 >
