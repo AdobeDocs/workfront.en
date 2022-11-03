@@ -25,7 +25,7 @@ For information about layout templates for groups, see [Create and modify a grou
 
 ## Access requirements
 
-You must have the following access to perform the steps in this article: 
+You must have the following access to perform the steps in this article:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -36,12 +36,12 @@ You must have the following access to perform the steps in this article:
    <td>Any</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license</td> 
+   <td role="rowheader">Adobe [!DNL Workfront] license</td> 
    <td>Plan</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
-   <td> To perform these steps at the system level, you need the System Administrator access level.<p>To perform them for a group, you must be a manager of that group.</p> <p><b>NOTE</b>: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> To perform these steps at the system level, you need the System Administrator access level.<p>To perform them for a group, you must be a manager of that group.</p> <p><b>NOTE</b>: If you still don't have access, ask your [!DNL Workfront] administrator if they set additional restrictions in your access level. For information on how a [!DNL Workfront] administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -49,18 +49,17 @@ You must have the following access to perform the steps in this article:
 ## Customize the left panel for an area in Workfront:
 
 1. Begin working on a layout template, as described in [Create and manage layout templates](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
-1. Click the down arrow ![](assets/dropdown-arrow.png) under **Customize what users see**, then click the left panel you want to customize.
+1. Click the down arrow ![](assets/dropdown-arrow.png) under **[!UICONTROL Customize what users see]**, then click the left panel you want to customize.
 
    >[!NOTE]
-   >
-   >For information about the Home option in this drop-down list, see [Customize Home and Summary using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md). For information about the Lists option, see [Customize Filters, Views, and Groupings using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md).
+>
+>For information about the Home option in this drop-down list, see [Customize Home and Summary using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md). For information about the Lists option, see [Customize Filters, Views, and Groupings using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md).
 
 1. In the **Left panel** list, do any of the following to determine what will users see in the left panel for the option (Workfront area or object type) you have selected:
 
    * Show ![](assets/add-secondary-nav-item.png) or hide ![](assets/delete-secondary-nav-item.png) items. Any item without ![](assets/add-secondary-nav-item.png) or ![](assets/delete-secondary-nav-item.png) cannot be hidden.
-   
-   * Drag items ![](assets/move-icon---dots.png) to change their order on the left panel.
 
+   * Drag items ![](assets/move-icon---dots.png) to change their order on the left panel.
    <table style="table-layout:auto"> 
     <col> 
     <col> 
@@ -133,7 +132,7 @@ You must have the following access to perform the steps in this article:
      <tr> 
       <td>Dashboards</td> 
       <td>The name of a dashboard</td> 
-      <td>My Dashboards, Shared Dashboards, All Dashboards<p><b>NOTE</b>: If you created custom tabs for the Reports area using a layout template in Adobe Workfront Classic, they display at the bottom of this list. For users, they display at the bottom of the left panel in the Dashboards area.</p> </td> 
+      <td>My Dashboards, [!UICONTROL Shared Dashboards], [!UICONTROL All Dashboards]<p><b>NOTE</b>: If you created custom tabs for the Reports area using a layout template in [!DNL Adobe Workfront Classic], they display at the bottom of this list. For users, they display at the bottom of the left panel in the [!UICONTROL Dashboards] area.</p> </td> 
      </tr> 
      <tr> 
       <td>Scrum Team</td> 
@@ -187,20 +186,21 @@ You must have the following access to perform the steps in this article:
    </table>
 
    >[!NOTE]
-   >
-   >The last 3 items in the **Customize what users see** drop-down list (Lists, Home and Summary, and Branding) are for configuring areas other than the left panel. For information about them, see these articles:
-   >   
-   >* [Customize Filters, Views, and Groupings using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md) 
-   >* [Customize Home and Summary using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md) 
-   >* [Brand Adobe Workfront using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/brand-wf-using-a-layout-template.md) 
+>
+>The last 3 items in the **[!UICONTROL Customize what users see]** drop-down list (Lists, Home and Summary, and Branding) are for configuring areas other than the left panel. For information about them, see these articles:
+>   
+>* [Customize Filters, Views, and Groupings using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
+>* [Customize Home and Summary using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)
+>* [Brand Adobe [!DNL Workfront] using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/brand-wf-using-a-layout-template.md)
 
-1. (Optional) If you want to add a left panel item that links to one of your organization's dashboards, click **Add custom section**, type a **Custom section title** for the item, then add the dashboard.
+
+1. (Optional) If you want to add a left panel item that links to one of your organization's dashboards, click **[!UICONTROL Add custom section]**, type a **Custom section title** for the item, then add the dashboard.
 
    Dashboard items appear at the bottom of the left panel. Users see the Custom section title you type next to the dashboard item when they hover over the left panel.
 
    >[!NOTE]
-   >
-   >Users can add custom dashboard items to their own left panel. When you add custom dashboard items in a layout template, your items merge with theirs, without overwriting or resetting them. This is also true if you assign users to a new layout template with custom dashboard items. For information about how users can customize the left panel, see [Create custom tabs or sections](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md).
+>
+>Users can add custom dashboard items to their own left panel. When you add custom dashboard items in a layout template, your items merge with theirs, without overwriting or resetting them. This is also true if you assign users to a new layout template with custom dashboard items. For information about how users can customize the left panel, see [Create custom tabs or sections](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md).
 
    For information about dashboards, see [Dashboards](../../../reports-and-dashboards/dashboards/dashboards-overview.md).
 
@@ -211,5 +211,5 @@ You must have the following access to perform the steps in this article:
    If you are finished customizing, click **Save**.
 
    >[!TIP]
-   >
-   >You can click Save at any time to save your progress, then continue to modify the template later.
+>
+>You can click [!UICONTROL Save] at any time to save your progress, then continue to modify the template later.
