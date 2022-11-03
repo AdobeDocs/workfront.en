@@ -47,13 +47,13 @@ You must have the following access to use the functionality in this article:
 
 To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
 
-For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Workfront Fusion] licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
+For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Workfront Fusion] licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## Prerequisites
 
 To use [!DNL OneDrive] modules, you must have a [!DNL Microsoft OneDrive] account.
 
-## Connecting the [!DNL OneDrive] service to [!DNL Workfront] Fusion
+## Connecting the [!DNL OneDrive] service to [!DNL Workfront Fusion]
 
 For instructions about connecting your [!DNL OneDrive] account to [!UICONTROL Workfront Fusion], see [Create a connection to [!UICONTROL Adobe Workfront Fusion] - Basic instructions](../../workfront-fusion/connections/connect-to-fusion-general.md)
 
@@ -126,7 +126,7 @@ This trigger module starts a scenario when a file or folder is created or update
  </tbody> 
 </table>
 
-&nbsp;
+ 
 
 #### [!UICONTROL Search Files/Folders]
 
@@ -703,7 +703,7 @@ This module performs a custom API call.
  </tbody> 
 </table>
 
-&nbsp;
+ 
 
 ## If you are unable to upload or update a file
 

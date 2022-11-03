@@ -29,16 +29,16 @@ You must have the following access to use the functionality in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>Pro or higher</p> </td> 
+    <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
+   <td> <p>[!DNL Pro] or higher</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Plan, Work</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
+   <td> <p>[!UICONTROL Plan], [!UICONTROL Work]</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront Fusion license**</td> 
-   <td> <p>Workfront Fusion for Work Automation and Integration </p>  </td> 
+   <td role="rowheader">[!UICONTROL Adobe Workfront Fusion] license**</td> 
+   <td> <p>[!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
@@ -47,9 +47,9 @@ You must have the following access to use the functionality in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
+To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
 
-&#42;&#42;For information on Adobe Workfront Fusion licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
+For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Workfront Fusion] licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## Begin creating a scenario
 
@@ -101,7 +101,7 @@ For more information, see [About connecting [!DNL Adobe Workfront Fusion] to an 
 
 ![](assets/connection-field-350x169.png)
 
-To create a connection inside a [!DNL Workfront] Fusion module:
+To create a connection inside a [!DNL Workfront Fusion] module:
 
 1. Click **Add** to open the **[!UICONTROL Create a connection]** box.
 1. (Optional) Change the default **Connection name**.
@@ -111,7 +111,7 @@ To create a connection inside a [!DNL Workfront] Fusion module:
 
 1. Click **Continue**.
 1. In the sign-in window that displays, enter your credentials to log in to the app if you haven't already done so.
-1. (Conditional) If an **Allow** button displays, examine the actions that the connector will be able to take, then click the button to connect the app to [!DNL Workfront] Fusion.
+1. (Conditional) If an **Allow** button displays, examine the actions that the connector will be able to take, then click the button to connect the app to [!DNL Workfront Fusion].
 1. Continue on to [Configure the module](#configure-the-module).
 
 

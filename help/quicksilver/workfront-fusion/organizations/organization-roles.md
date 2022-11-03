@@ -26,15 +26,15 @@ You must have the following access to use the functionality in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>Pro or higher</p> </td> 
+    <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
+   <td> <p>[!DNL Pro] or higher</p> </td> 
   </tr> 
    <tr> 
-    <td role="rowheader">Adobe Workfront license*</td> 
-    <td> <p>Plan, Work</p> </td> 
+    <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
+    <td> <p>[!UICONTROL Plan], [!UICONTROL Work]</p> </td> 
    </tr>
   <tr> 
-   <td role="rowheader">Adobe Workfront Fusion license**</td> 
+   <td role="rowheader">[!UICONTROL Adobe Workfront Fusion] license**</td> 
    <td> <p>Workfront Fusion for Work Automation</p> <p>Workfront Fusion for Work Automation and Integration</p> </td> 
   </tr> 
   <tr> 
@@ -51,7 +51,7 @@ You must have the following access to use the functionality in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
+To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">**For information on Adobe Workfront Fusion licenses, see <a href="../../workfront-fusion/get-started/license-automation-vs-integration.md" class="MCXref xref">Adobe Workfront Fusion licenses</a></p>
@@ -107,16 +107,16 @@ You must have the following access to use the functionality in this article:
     <td> <p>Process payments</p> </td> 
     <td><span style="font-family: 'Wingdings'">ü</span> </td> 
     <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-    <td>&nbsp;</td> 
-    <td>&nbsp;</td> 
+    <td> </td> 
+    <td> </td> 
    </tr>
   --> <!--
    <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
     <td> <p>List payments</p> </td> 
     <td><span style="font-family: 'Wingdings'">ü</span> </td> 
     <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-    <td>&nbsp;</td> 
-    <td>&nbsp;</td> 
+    <td> </td> 
+    <td> </td> 
    </tr>
   --> 
  </tbody> 

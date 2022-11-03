@@ -34,16 +34,16 @@ You must have the following access to use the functionality in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>Pro or higher</p> </td> 
+    <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
+   <td> <p>[!DNL Pro] or higher</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Plan, Work</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
+   <td> <p>[!UICONTROL Plan], [!UICONTROL Work]</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront Fusion license**</td> 
-   <td> <p>Workfront Fusion for Work Automation and Integration </p>  </td> 
+   <td role="rowheader">[!UICONTROL Adobe Workfront Fusion] license**</td> 
+   <td> <p>[!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
@@ -52,9 +52,9 @@ You must have the following access to use the functionality in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
+To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
 
-&#42;&#42;For information on Adobe Workfront Fusion licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
+For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Workfront Fusion] licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## Create a data store in Workfront Fusion
 
@@ -76,7 +76,7 @@ Before you can use a data store in a module, you must create the data store in W
 1. Click **[!UICONTROL Add data store]** in the upper-right corner of the screen.
 1. Enter settings for the new data store.
 
-   A bolded title on a field in a [!DNL Workfront] Fusion module indicates a required setting.
+   A bolded title on a field in a [!DNL Workfront Fusion] module indicates a required setting.
 
    <table style="table-layout:auto">
     <col> 
@@ -136,7 +136,7 @@ Before you can use a data store in a module, you must create the data store in W
           <p><code>&rbrace;</code> </p> 
           <p>The empty columns in the data store view:</p> 
           <p> <img src="assets/empty-columns-350x132.png" style="width: 350;height: 132;"> </p> 
-          <p>You can then add values to the data store manually or by using the [!DNL Workfront] Fusion data store modules.</p> 
+          <p>You can then add values to the data store manually or by using the [!DNL Workfront Fusion] data store modules.</p> 
          </div> </li> 
        </ul> </td> 
      </tr> 

@@ -45,13 +45,13 @@ You must have the following access to use the functionality in this article:
 
 To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
 
-For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Workfront Fusion] licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
+For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Workfront Fusion] licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## Prerequisites
 
 To use [!DNL Gmail] modules, you must have a [!DNL Gmail] account.
 
-## Connect [!DNL Gmail] to [!DNL Workfront] Fusion {#connect-gmail-to-workfront-fusion}
+## Connect [!DNL Gmail] to [!DNL Workfront Fusion] {#connect-gmail-to-workfront-fusion}
 
 * [Connect [!DNL Gmail] to [!DNL Workfront Fusion] using [!DNL G Suite]](#connect-dnl-gmail-to-dnl-workfront-fusion-usingdnl-g-suite)
 * [Connect [!DNL Gmail] to [!DNL Workfront Fusion] using [!DNL gmail.com] or [!DNL googlemail].com](#connect-dnl-gmail-to-dnl-workfront-fusion-using-dnl-gmailcom-or-dnl-googlemailcom)

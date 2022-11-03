@@ -45,7 +45,7 @@ You must have the following access to use the functionality in this article:
 
 To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
 
-For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Workfront Fusion] licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
+For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Workfront Fusion] licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## Prerequisites
 
@@ -85,7 +85,7 @@ To connect [!DNL Jira Software] to [!DNL Workfront Fusion], you must create an A
 
    * **[!UICONTROL Service URL]**
    * **[!UICONTROL Username]**
-   * **[!UICONTROL API token]:**&nbsp;This is the API token you created in the [Create an API token in [!DNL Jira]](#create-an-api-token-in-dnl-jira) section of this article.
+   * **[!UICONTROL API token]:** This is the API token you created in the [Create an API token in [!DNL Jira]](#create-an-api-token-in-dnl-jira) section of this article.
 
 1. Click [!UICONTROL Continue] to create the connection and return to the module.
 

@@ -9,40 +9,40 @@ author: Becky
 feature: Workfront Fusion
 exl-id: c6676a87-2498-4de8-b877-7edc30aeabae
 ---
-# String functions in Adobe Workfront Fusion
+# String functions in [!DNL Adobe Workfront Fusion]
 
 ## Access requirements
 
 You must have the following access to use the functionality in this article:
 
-<table style="table-layout:auto"> 
+<table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>Pro or higher</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
+   <td> <p>[!DNL Pro] or higher</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Plan, Work</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
+   <td> <p>[!UICONTROL Plan], [!UICONTROL Work]</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront Fusion license**</td> 
-   <td> <p>Workfront Fusion for Work Automation and Integration </p>  </td> 
+   <td role="rowheader">[!UICONTROL Adobe Workfront Fusion] license**</td> 
+   <td> <p>[!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p><p>[!UICONTROL [!DNL Workfront Fusion] for Work Automation]</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
+   <td>Your organization must purchase [!DNL Adobe Workfront Fusion] as well as [!DNL Adobe Workfront] to use functionality described in this article.</td> 
   </tr> 
  </tbody> 
 </table>
 
 To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
 
-For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Workfront Fusion] licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
+For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Workfront Fusion] licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
-## ascii (text; [remove diacritics])
+## [!UICONTROL ascii (text; [remove diacritics])]
 
 Removes all non-ascii characters from a text string.
 
@@ -52,13 +52,13 @@ Removes all non-ascii characters from a text string.
 >
 >* `ascii(` `Wěošrčkřfžrýoáníté` `)`
 >
->   Returns: Workfront
+>   Returns: [!DNL Workfront]
 >
 >* `ascii(` `ěščřž` `;` `true` `)`
 >
->   Returns: escrz
+>   Returns: [!UICONTROL escrz]
 
-## base64 (text)
+## [!UICONTROL base64 (text)]
 
 Transforms text to base64.
 
@@ -70,7 +70,7 @@ Transforms text to base64.
 >
 >Returns: d29ya2Zyb250==  
 
-## capitalize (text)
+## [!UICONTROL capitalize (text)]
 
 Converts the first character in a text string to uppercase.
 
@@ -80,7 +80,7 @@ Converts the first character in a text string to uppercase.
 >
 >`capitalize( workfront )`
 >
->Returns: Workfront  
+>Returns: [!DNL Workfront]  
 
 ## contains (text; search string)
 
@@ -92,13 +92,13 @@ Verifies whether text contains the search string.
 >
 >* `contains( Hello World ; Hello )`
 >
->   Returns: true
+>   Returns: [!UICONTROL true]
 >
 >* `contains( Hello World ; Bye )`
 >
->   Returns: false
+>   Returns: [!UICONTROL false]
 
-## decodeURL (text)
+## [!UICONTROL decodeURL (text)]
 
 Decodes special characters in a URL to text.
 
@@ -107,13 +107,13 @@ Decodes special characters in a URL to text.
 >**Example:** 
 >`decodeURL( Automate%20your%20workflow )`
 >
->Returns: Automate your workflow  
+>Returns: [!UICONTROL Automate your workflow]  
 
-## encodeURL (text)
+## [!UICONTROL encodeURL (text)]
 
 Encodes special characters in some text to a valid URL address.
 
-## escapeHTML (text)
+## [!UICONTROL escapeHTML (text)]
 
 Escapes all HTML tags in text.
 
@@ -125,7 +125,7 @@ Escapes all HTML tags in text.
 >
 > Returns: `&lt;b&gt;Hello&lt;/b&gt;`
 
-## escapeMarkdown(text)
+## [!UICONTROL escapeMarkdown(text)]
 
 Escapes all Markdown tags in text.
 
@@ -137,7 +137,7 @@ Escapes all Markdown tags in text.
 >
 >Returns: `&#35; Header`
 
-## indexOf (string; value; [start])
+## [!DNL indexOf (string; value; [start])]
 
 Returns the position of the first occurrence of a specified value in a string. This method returns '-1' if the value that is searched for is not there. The start value indicates where in the string the search should begin.
 
@@ -157,7 +157,7 @@ Returns the position of the first occurrence of a specified value in a string. T
 >
 >   Returns: 6
 
-## length (text or buffer)
+## [!UICONTROL length (text or buffer)]
 
 Returns the length of text string (number of characters) or binary buffer (buffer size in bytes).
 
@@ -169,7 +169,7 @@ Returns the length of text string (number of characters) or binary buffer (buffe
 >
 >Returns: 5
 
-## lower (text)
+## [!UICONTROL lower (text)]
 
 Converts all alphabetical characters in a text string to lowercase.
 
@@ -181,7 +181,7 @@ Converts all alphabetical characters in a text string to lowercase.
 >
 >Returns: hello
 
-## md5 (text)
+## [!UICONTROL md5 (text)]
 
 Calculates the md5 hash of a string.
 
@@ -193,7 +193,7 @@ Calculates the md5 hash of a string.
 >
 >Returns: `1448bbbeaa7a9b8091d426999f1f666b`
 
-## replace (text;search string; replacement string)
+## [!UICONTROL replace (text;search string; replacement string)]
 
 Replaces the search string with the new string.
 
@@ -203,7 +203,7 @@ Replaces the search string with the new string.
 >
 >`replace( Hello World ; Hello ; Hi )`
 >
->Returns: Hi World  
+>Returns: [!UICONTROL Hi World]  
 
 Regular expressions (enclosed in `/.../`) can be used as search string with a combination of flags (such as `g`, `i`, `m`) appended:
 
@@ -227,9 +227,7 @@ The replacement string can include the following special replacement patterns:
 >![](assets/variable-value-350x63.png)
 >
 >Returns: Phone number `+420777111222`
->
->&nbsp;
->
+>>
 >![](assets/variable-value---2-350x55.png)
 >
 >Returns: Phone number: `+420777111222`
@@ -240,7 +238,7 @@ The replacement string can include the following special replacement patterns:
 
 For more information on regular expressions, see [Text parser](../../workfront-fusion/apps-and-their-modules/text-parser.md).
 
-## sha1 (text; [encoding]; [key])
+## [!UICONTROL sha1 (text; [encoding]; [key])]
 
 Calculates the sha1 hash of a string. If the key argument is specified, sha1 HMAC hash is returned instead. Supported encodings: "hex" (default), "base64" or "latin1."
 
@@ -252,7 +250,7 @@ Calculates the sha1 hash of a string. If the key argument is specified, sha1 HMA
 >
 >Returns: b2b30b8ae1f9e5b40fbb0696eaabdbfd8d0c087f  
 
-## sha256 (text; [encoding]; [key])
+## [!UICONTROL sha256 (text; [encoding]; [key])]
 
 Calculates the sha256 hash of a string. If the key argument is specified, sha256 HMAC hash is returned instead. Supported encodings: "hex" (default), "base64" or "latin1".>
 
@@ -264,23 +262,23 @@ Calculates the sha256 hash of a string. If the key argument is specified, sha256
 >
 >Returns: ed3d7397eec7b94453035b67ba4468c883ee3bedeb57137f7371f2e0cf5e2bbc  
 
-## sha512 (text; [output encoding]; [key]; [key encoding])
+## [!UICONTROL sha512 (text; [output encoding]; [key]; [key encoding])]
 
 Calculates the sha512 hash of a string. If the key argument is specified, sha512 HMAC hash is returned instead.
 
 Supported encodings:
 
-* "hex" (default)
-* "base64"
-* "latin1"
+* "[!UICONTROL hex]" (default)
+* "[!UICONTROL base64]"
+* "[!UICONTROL latin1]"
 
 Supported key encodings:
 
-* "text" (default)
-* "hex"
-* "base64" or "binary"
+* "[!UICONTROL text]" (default)
+* "[!UICONTROL hex]"
+* "[!UICONTROL base64]" or "[!UICONTROL binary]"
 
-When using "binary" key encoding, a key must be a buffer, not a string.
+When using "[!UICONTROL binary]" key encoding, a key must be a buffer, not a string.
 
 >[!INFO]
 >
@@ -290,7 +288,7 @@ When using "binary" key encoding, a key must be a buffer, not a string.
 >
 >Returns: 789ae41b9456357e4f27c6a09956a767abbb8d80b206003ffdd1e94dbc687cd119b85e1e19db58bb44b234493af35fd431639c0345aadf2cf7ec26e9f4a7fb19  
 
-## split (text; separator)
+## [!UICONTROL split (text; separator)]
 
 Splits a string into an array of strings by separating the string into substrings.
 
@@ -300,7 +298,7 @@ Splits a string into an array of strings by separating the string into substring
 >
 >`split( John, George, Paul ; , )`
 
-## startcase (text)
+## [!UICONTROL startcase (text)]
 
 Capitalizes the first letter of every word and lower cases all other letters.
 
@@ -309,9 +307,9 @@ Capitalizes the first letter of every word and lower cases all other letters.
 >**Example:** 
 >`startcase( hello WORLD )`
 >
->Returns: Hello World
+>Returns: [!UICONTROL Hello World]
 
-## stripHTML (text)
+## [!UICONTROL stripHTML (text)]
 
 Removes all HTML tags from text.
 
@@ -323,7 +321,7 @@ Removes all HTML tags from text.
 >
 >Returns: Hello
 
-## substring (text; start;end)
+## [!UICONTROL substring (text; start;end)]
 
 Returns a portion of a text string between the "start" position and "end" position.
 
@@ -339,7 +337,7 @@ Returns a portion of a text string between the "start" position and "end" positi
 >
 >   Returns: el
 
-## toBinary (value)
+## [!UICONTROL toBinary (value)]
 
 Converts any value to binary data.
 
@@ -357,15 +355,15 @@ You can also specify encoding as a second argument to apply binary conversions f
 >
 >   Returns: 57 6f 72 6b 66 72 6f 6e 74
 
-## toString (value)
+## [!UICONTROL toString (value)]
 
 Converts any value to a string.
 
-## trim (text)
+## [!UICONTROL trim (text)]
 
 Removes space characters at the start or end of the text.
 
-## upper (text)
+## [!UICONTROL upper (text)]
 
 Converts all alphabetical characters in a text string to uppercase.
 
@@ -375,4 +373,4 @@ Converts all alphabetical characters in a text string to uppercase.
 >
 >`upper( Hello )`
 >
->Returns: HELLO
+>Returns: [!UICONTROL HELLO]

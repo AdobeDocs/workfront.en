@@ -1335,7 +1335,7 @@ When you are configuring this module, the following fields display.
    <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
     <td>Name </td> 
     <td> <p>Enter the name of the organization whose details you want to retrieve. </p> <!--
-      <p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">CO:&nbsp;Isn't it a list of organizations?</p>
+      <p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">CO: Isn't it a list of organizations?</p>
      --> </td> 
    </tr>
   --> 
@@ -1598,11 +1598,11 @@ When you are configuring this module, the following fields display.
   -->
 
   <!--
-  <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Make a Legacy API&nbsp;Call</li>
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Make a Legacy API Call</li>
   -->
 
 <!--
-<h3 data-mc-conditions="QuicksilverOrClassic.Draft mode">Make an API&nbsp;Call</h3>
+<h3 data-mc-conditions="QuicksilverOrClassic.Draft mode">Make an API Call</h3>
 -->
 
 <!--

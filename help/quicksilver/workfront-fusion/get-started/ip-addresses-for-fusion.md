@@ -9,13 +9,13 @@ author: Becky
 feature: Workfront Fusion
 exl-id: f6295cc7-367f-4c8b-891b-cc11ff42a225
 ---
-# IP Addresses for accessing Adobe Workfront Fusion
+# IP Addresses for accessing [!DNL Adobe Workfront Fusion]
 
 >[!NOTE]
 >
->Adobe Workfront Fusion requires an Adobe Workfront Fusion license in addition to an Adobe Workfront license.
+>[!DNL Adobe Workfront Fusion] requires an [!DNL Adobe Workfront Fusion] license in addition to an [!DNL Adobe Workfront license].
 
-If your firewall or mail server is configured to allow access to only certain vendors, you must add certain IP addresses to its allowlist in order to allow open communication between your environment and [!DNL Adobe Workfront] Fusion.
+If your firewall or mail server is configured to allow access to only certain vendors, you must add certain IP addresses to its allowlist in order to allow open communication between your environment and [!DNL Adobe Workfront Fusion].
 
 Add the following IP addresses to your allowlist to enable [!DNL Workfront Fusion] to access your system.
 
@@ -24,7 +24,7 @@ Add the following IP addresses to your allowlist to enable [!DNL Workfront Fusio
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront EU Datacenter</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] EU Datacenter</td> 
    <td> 
     <ul> 
      <li>52.30.133.50</li> 
@@ -33,7 +33,7 @@ Add the following IP addresses to your allowlist to enable [!DNL Workfront Fusio
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>Adobe Workfront US Datacenter</p> </td> 
+   <td role="rowheader"> <p>[!DNL Adobe Workfront] US Datacenter</p> </td> 
    <td> 
     <ul> 
      <li>54.244.142.219</li> 
@@ -51,11 +51,11 @@ Also, if your organization uses outbound network filtering, add the following do
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront EU Datacenter</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] EU Datacenter</td> 
    <td> <p> hook.app-eu.workfrontfusion.com </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>Adobe Workfront US Datacenter</p> </td> 
+   <td role="rowheader"> <p>[!DNL Adobe Workfront] US Datacenter</p> </td> 
    <td> <p>hook.app.workfrontfusion.com </p> </td> 
   </tr> 
  </tbody> 

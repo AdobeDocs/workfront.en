@@ -9,11 +9,11 @@ author: Becky
 feature: Workfront Fusion
 exl-id: cdf46eb1-46ba-4707-9063-b76899195a2c
 ---
-# Adobe Workfront Fusion performance guardrails
+# [!DNL Adobe Workfront Fusion] performance guardrails
 
 >[!NOTE]
 >
->Adobe Workfront Fusion requires an Adobe Workfront Fusion license in addition to an Adobe Workfront license.
+>[!DNL Adobe Workfront Fusion] requires an [!DNL Adobe Workfront Fusion] license in addition to an [!DNL Adobe Workfront license].
 
 Work automation requires rapid processing, so [!DNL Adobe Workfront Fusion] is designed for high performance. Because long-running scenarios can slow down the pace of your work, we've designed [!DNL Workfront Fusion] with performance-preserving guardrails that limit execution time, data size, and other scenario parameters. [!DNL Workfront Fusion] designers should be aware of these guardrails and incorporate them into their design practices.
 
@@ -24,10 +24,10 @@ Work automation requires rapid processing, so [!DNL Adobe Workfront Fusion] is d
 
    App modules that create or update data with large numbers of fields can cause very large blueprints.
 
-   * When using the [!DNL Workfront] app, be sure to only select fields needed for your create or update use cases.
-   * When using other apps, use custom API modules to interact with any record type that has a large number of fields.
+    * When using the [!DNL Workfront] app, be sure to only select fields needed for your create or update use cases.
+    * When using other apps, use custom API modules to interact with any record type that has a large number of fields.
 
-* While there is no cap for the number of modules in a scenario, scenarios with more than 150 modules negatively impact the performance of your [!DNL Workfront] Fusion system. For this reason, we do not recommend creating scenarios with over 150 modules.
+* While there is no cap for the number of modules in a scenario, scenarios with more than 150 modules negatively impact the performance of your [!DNL Workfront Fusion] system. For this reason, we do not recommend creating scenarios with over 150 modules.
 
 ## Operations
 
@@ -39,7 +39,7 @@ Work automation requires rapid processing, so [!DNL Adobe Workfront Fusion] is d
 
 ## Files
 
-* Fusion's total processing capacity for files is **1 GB**. The limit is based on a total memory cost. Every operation contributes to that cost. If a single file of 400 MB is downloaded and uploaded then the total cost to the file capacity would be 800 MB.
+* [!DNL Fusion]'s total processing capacity for files is **1 GB**. The limit is based on a total memory cost. Every operation contributes to that cost. If a single file of 400 MB is downloaded and uploaded then the total cost to the file capacity would be 800 MB.
 
 ## Server Memory Usage
 
@@ -50,5 +50,5 @@ Work automation requires rapid processing, so [!DNL Adobe Workfront Fusion] is d
 ## Webhooks
 
 * The default maximum size of a payload is **5 MB**.
-* Webhooks are limited to **100 requests per second**. When this limit is reached, [!DNL Workfront Fusion] sends a 429 (Too Many Requests) status.
-* Workfront Fusion stores webhook payloads for 30 days. Accessing a webhook payload more than 30 days after it was received results in the error "Failed to read file from storage."
+* Webhooks are limited to **100 requests per second**. When this limit is reached, [!DNL Workfront Fusion] sends a [!UICONTROL 429 (Too Many Requests)] status.
+* [!DNL Workfront Fusion] stores webhook payloads for 30 days. Accessing a webhook payload more than 30 days after it was received results in the error "[!UICONTROL Failed to read file from storage]."

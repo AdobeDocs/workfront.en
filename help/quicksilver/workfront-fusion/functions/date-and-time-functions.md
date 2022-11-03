@@ -9,13 +9,13 @@ author: Becky
 feature: Workfront Fusion
 exl-id: 76c63afc-4bb6-4895-9bba-6b3913ecbcf6
 ---
-# Date and time functions in Adobe Workfront Fusion
+# Date and time functions in [!DNL Adobe Workfront Fusion]
 
 ## Access requirements
 
 You must have the following access to use the functionality in this article:
 
-<<table style="table-layout:auto">
+<table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
@@ -29,7 +29,7 @@ You must have the following access to use the functionality in this article:
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Adobe Workfront Fusion] license**</td> 
-   <<td> <p>[!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p><p>[!UICONTROL [!DNL Workfront Fusion] for Work Automation]</p>  </td> 
+   <td> <p>[!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p><p>[!UICONTROL [!DNL Workfront Fusion] for Work Automation]</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
@@ -40,7 +40,7 @@ You must have the following access to use the functionality in this article:
 
 To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
 
-For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Workfront Fusion] licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
+For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Workfront Fusion] licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## [!UICONTROL formatDate (date; format; [timezone])]
 
@@ -490,6 +490,7 @@ The formula contains the following items:
 </table>
 
 In case you want to calculate only one specific case, for example, every second Wednesday, you can replace the items `1.n` and `2.dow` in the formula with corresponding numbers. For the second Wednesday in the current month, you would use the following values:
+
 * `1.n` = `2`
 * `1.dow` = `3`
 * `1.date` = `now`

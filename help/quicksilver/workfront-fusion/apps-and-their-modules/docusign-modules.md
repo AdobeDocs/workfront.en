@@ -43,13 +43,13 @@ You must have the following access to use the functionality in this article:
 
 To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
 
-For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Workfront Fusion] licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
+For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Workfront Fusion] licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## Prerequisites
 
 To use [!DNL DocuSign] modules, you must have a [!DNL DocuSign] account.
 
-## Connect [!DNL DocuSign] to [!DNL Workfront] Fusion {#connect-docusign-to-workfront-fusion}
+## Connect [!DNL DocuSign] to [!DNL Workfront Fusion] {#connect-docusign-to-workfront-fusion}
 
 To create a connection for your [!DNL DocuSign] modules:
 

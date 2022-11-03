@@ -43,7 +43,7 @@ You must have the following access to use the functionality in this article:
 
 To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
 
-For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Workfront Fusion] licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
+For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Workfront Fusion] licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## Prerequisites
 
@@ -59,7 +59,7 @@ You can connect to [!DNL Frame.io] using an API token, or by using OAuth 2.0.
 
 ### Connect to [!DNL Frame.io] using an API token
 
-To connect your [!DNL Frame.io] account to [!DNL Workfront] Fusion using an API token, you must create the API token in your [!DNL Frame.io] account and insert it to the [!DNL Workfront Fusion] [!DNL Frame.io] [!UICONTROL Create a connection] dialog.
+To connect your [!DNL Frame.io] account to [!DNL Workfront Fusion] using an API token, you must create the API token in your [!DNL Frame.io] account and insert it to the [!DNL Workfront Fusion] [!DNL Frame.io] [!UICONTROL Create a connection] dialog.
 
 1. Log in to your [!DNL Frame.io] account.
 1. Go to the **[!UICONTROL Tokens]** page in the [!DNL Frame.io] Developer.

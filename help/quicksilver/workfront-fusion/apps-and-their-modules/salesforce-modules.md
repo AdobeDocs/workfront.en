@@ -53,7 +53,7 @@ You must have the following access to use the functionality in this article:
 
 To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
 
-For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Workfront Fusion] licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
+For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Workfront Fusion] licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## Prerequisites
 
@@ -382,7 +382,7 @@ When you are configuring this module, the following fields display.
   </tr> 
   <tr> 
    <td>[!UICONTROL ID]</td> 
-   <td>Enter or map the ID&nbsp;of the object you want to upload an attachment to.</td> 
+   <td>Enter or map the ID of the object you want to upload an attachment to.</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Folder]</td> 
@@ -450,7 +450,7 @@ When you are configuring this module, the following fields display.
   </tr> 
   <tr> 
    <td>[!UICONTROL ID]</td> 
-   <td>Enter or map the ID&nbsp;of the record that you want to update.</td> 
+   <td>Enter or map the ID of the record that you want to update.</td> 
   </tr> 
   <tr> 
    <td> <p>[!UICONTROL Record Type] </p> </td> 

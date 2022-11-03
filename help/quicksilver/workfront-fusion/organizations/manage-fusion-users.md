@@ -11,7 +11,7 @@ exl-id: fbb858a6-1230-41b4-892a-4ffeb2711922
 ---
 # Manage [!DNL Adobe Workfront] Fusion users in your organization
 
-&nbsp;
+ 
 
 <!--
 

@@ -47,13 +47,13 @@ You must have the following access to use the functionality in this article:
 
 To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
 
-For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Workfront Fusion] licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
+For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Workfront Fusion] licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## Prerequisites
 
 To use [!DNL Datadog] modules, you must have a [!DNL Datadog] account.
 
-## Connect [!DNL Datadog] to [!DNL Workfront] Fusion {#connect-datadog-to-workfront-fusion}
+## Connect [!DNL Datadog] to [!DNL Workfront Fusion] {#connect-datadog-to-workfront-fusion}
 
 ### Retrieve your API key and application key {#retrieve-your-api-key-and-application-key}
 

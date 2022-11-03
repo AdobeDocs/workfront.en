@@ -20,31 +20,31 @@ For more information on functionality available with each Workfront Fusion licen
 
 You must have the following access to use the functionality in this article:
 
-<table style="table-layout:auto"> 
+<table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>Pro or higher</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
+   <td> <p>[!DNL Pro] or higher</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Plan, Work</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
+   <td> <p>[!UICONTROL Plan], [!UICONTROL Work]</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront Fusion license**</td> 
-   <td> <p>Workfront Fusion for Work Automation and Integration </p>  </td> 
+   <td role="rowheader">[!UICONTROL Adobe Workfront Fusion] license**</td> 
+   <td> <p>[!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p><p>[!UICONTROL [!DNL Workfront Fusion] for Work Automation]</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
    <td>Your organization must purchase [!DNL Adobe Workfront Fusion] as well as [!DNL Adobe Workfront] to use functionality described in this article.</td> 
-  </tr>  </tbody> 
+  </tr> 
+ </tbody> 
 </table>
+To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
 
-&#42;To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
-
-&#42;&#42;For information on Adobe Workfront Fusion licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
+For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Workfront Fusion] licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## Create a practice scenario
 
@@ -59,12 +59,12 @@ Creating a scenario consists of several main tasks:
 
 ## Choose the apps and name the scenario
 
-1. Sign into your Workfront Fusion account.
+1. Sign into your [!DNL Workfront Fusion] account.
 1. Click **[!UICONTROL Scenarios]** ![](assets/scenarios-icon.png) in the left panel.
 
    In the left panel that displays, you can organize your scenarios into folders.
 
-   At the top of the main area to the right, you can view **All** scenarios you have built, your **Active Scenarios**, **Inactive Scenarios**, and **Concepts**. Concepts are scenarios that need some more work before [!DNL Workfront Fusion] can classify them as active or inactive.
+   At the top of the main area to the right, you can view **[!UICONTROL All]** scenarios you have built, your **[!UICONTROL Active Scenarios]**, **[!UICONTROL Inactive Scenarios]**, and **[!UICONTROL Concepts]**. Concepts are scenarios that need some more work before [!DNL Workfront Fusion] can classify them as active or inactive.
 
    ![](assets/scenarios-left-panel-350x215.png)
 
@@ -77,16 +77,16 @@ Creating a scenario consists of several main tasks:
 1. For this exercise, search for and select the **[!DNL Workfront]** app.
 1. Click **[!UICONTROL Continue]** in the upper-right corner.
 
-   The [!DNL scenario] editor displays, containing an empty module in the center, the [!DNL Workfront] app you pre-loaded, and some options in the toolbar at the bottom.
+   The scenario editor displays, containing an empty module in the center, the [!DNL Workfront] app you pre-loaded, and some options in the toolbar at the bottom.
 
    ![](assets/scenario-editor-350x235.png)
 
    When you begin creating a new scenario, it's a good idea to start by creating a name for it.
 
-1. Select the **New scenario** placeholder name in the upper-left corner, then type a name such as "Practice scenario 1."
+1. Select the **[!UICONTROL New scenario]** placeholder name in the upper-left corner, then type a name such as "Practice scenario 1."
 1. Continue with [Add and configure the first module](#add-and-configure-the-first-module) below.
 
-## Add and configure the first module {#add-and-configure-the-first-module}
+## Add and configure the first module
 
 The empty module with a question mark represents the trigger module you need to add. This module will start the scenario each time it runs. The clock icon on the empty module indicates that is a scheduled module.
 
@@ -102,22 +102,22 @@ For this example, we are not using a trigger module. Instead, this scenario begi
 
    ![](assets/pre-loaded-app-wf-350x172.png)
 
-1. Click **Workfront**.
+1. Click **[!DNL Workfront]**.
 
    The list changes to display all [!DNL Workfront] modules that you can use as a trigger module.
 
-1. Click the Search module **Search**.
+1. Click the Search module **[!UICONTROL Search]**.
 
    Now you need to establish an authenticated connection to your [!DNL Workfront] account. Every module you add to a scenario must have a connection to its app.
 
-1. In the **[!DNL Workfront]** box, under **[!UICONTROL Connection]**, click **Add**, then type a name for the connection, such as "Olivia's Workfront account," then click **[!UICONTROL Continue]**.
+1. In the **[!DNL Workfront]** box, under **[!UICONTROL Connection]**, click **[!UICONTROL Add]**, then type a name for the connection, such as "Olivia's Workfront account," then click **[!UICONTROL Continue]**.
 1. Authenticate the connection in the window that displays.
 
    The process for authenticating a connection can vary a bit between apps. The following process is specific to [!DNL Workfront], but the process is similar to many apps.
 
-   1. Enter your Workfront domain, then click **Continue**.
-   1. Log into Workfront.
-   1. Examine the access that [!DNL Workfront Fusion] is requesting, then click Allow Access.
+   1. Enter your [!DNL Workfront] domain, then click **[!UICONTROL Continue]**.
+   1. Log into [!DNL Workfront].
+   1. Examine the access that [!DNL Workfront Fusion] is requesting, then click **[!UICONTROL Allow Access]**.
 
    If you need help, see [About connecting [!DNL Adobe Workfront Fusion] to an app or service](../../workfront-fusion/connections/about-connecting-wf-fusion-to-app-or-service.md).
 
@@ -125,35 +125,35 @@ For this example, we are not using a trigger module. Instead, this scenario begi
 
 After you connect [!DNL Workfront Fusion] to your [!DNL Workfront] account, you can specify a [!DNL Workfront] request queue that you have access to and the data there that you want the first module to process.
 
-1. In the Record Type box, select **Project**. This sets the module to search only projects.
+1. In the [!UICONTROL Record Type] box, select **[!UICONTROL Project]**. This sets the module to search only projects.
 
    >[!TIP]
    >
-   >You can find **Project** in the list if you start typing the word "project."
+   >You can find **[!UICONTROL Project]** in the list if you start typing the word "[!UICONTROL project]."
 
-1. In the **Result Set** box, select **First Matching Record**. This sets the module to return only the first record it finds that meets the criteria. For this example, we need only one record returned.
+1. In the **[!UICONTROL Result Set]** box, select **[!UICONTROL First Matching Record]**. This sets the module to return only the first record it finds that meets the criteria. For this example, we need only one record returned.
 1. In the **[!UICONTROL Search criteria]** area, we'll set up a filter to return the specific project.
 
-   1. In the first box under Search Criteria, select the field that you want to search the values of. For this example, select **Name**.
-   1. For the operator, select [!UICONTROL Contains] (case insensitive). This allows the module to find projects with your chosen words in its name, even if you do not enter the entire name, or enter the name with the incorrect case (such as all caps).
+   1. In the first box under [!UICONTROL Search Criteria], select the field that you want to search the values of. For this example, select **[!UICONTROL Name]**.
+   1. For the operator, select [!UICONTROL Contains (case insensitive)]. This allows the module to find projects with your chosen words in its name, even if you do not enter the entire name, or enter the name with the incorrect case (such as all caps).
    1. In the last field under [!UICONTROL Search Criteria], enter a word or phrase that you know is in the name of the project you are searching for.
 
-1. In the **[!UICONTROL Outputs]** list, select the fields that you want the issue to output. For this example, select the **ID** and **[!UICONTROL Name]** fields.
+1. In the **[!UICONTROL Outputs]** list, select the fields that you want the issue to output. For this example, select the **[!UICONTROL ID]** and **[!UICONTROL Name]** fields.
 
    >[!TIP]
    >
-   >You can use **Command+F** (Mac OS) or **Ctrl-F**(Windows OS) to find a field quickly.
+   >You can use **Cmd+F** ([!DNL Mac] OS) or **Ctrl-F** ([!DNL Windows] OS) to find a field quickly.
 
-1. Click **OK**.
+1. Click **[!UICONTROL OK]**.
 
    >[!NOTE]
    >
    >(Information only) Since this is not a trigger module, you do not choose where to start it. When using a trigger module, you would now select where to start it.
    >
    >
-   >For more information, see [Choose where a trigger module starts in Adobe Workfront Fusion](../../workfront-fusion/modules/choose-where-trigger-module-starts.md).
+   >For more information, see [Choose where a trigger module starts in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/choose-where-trigger-module-starts.md).
 
-1. Right-click the module, click **Rename**, then type a name the describes what you want the module to do (such as "Search for project)," then click **OK**.
+1. Right-click the module, click **[!UICONTROL Rename]**, then type a name the describes what you want the module to do (such as "Search for project)," then click **[!UICONTROL OK]**.
 
    The name appears just below the module. Below that, [!DNL Workfront Fusion] includes a brief description of the type of action performed by the module.
 
@@ -161,39 +161,39 @@ After you connect [!DNL Workfront Fusion] to your [!DNL Workfront] account, you 
 
 1. Continue with [Add and configure the second module](#add-and-configure-the-second-module).
 
-## Add and configure the second module {#add-and-configure-the-second-module}
+## Add and configure the second module
 
-1. Click the partial circle to the right of the of the module to **Add another module**.
-1. Select [!DNL Workfront] from the list of applications, then choose the search module **Read Related Records**.
+1. Click the partial circle to the right of the of the module to **[!UICONTROL Add another module]**.
+1. Select [!DNL Workfront] from the list of applications, then choose the search module **[!UICONTROL Read Related Records]**.
 1. You already created a connection to [!DNL Workfront] for the previous module. You don't need to create it again here, but you must make sure this module is using the same connection as the previous module.\
    In the **[!UICONTROL Connection]** box, select the connection that you created for the previous module.
 1. Click **[!UICONTROL Record type]**, then select **[!UICONTROL Project]**, because we want to read records related to a project.
 
    >[!TIP]
    >
-   >You can find **Project** in the list if you start typing the word "project."
+   >You can find **[!UICONTROL Project]** in the list if you start typing the word "project."
 
-1. Click the **[!UICONTROL Parent Record ID]** field. This field requires the Workfront ID&nbsp;of the project that you want to return tasks from.
+1. Click the **[!UICONTROL Parent Record ID]** field. This field requires the Workfront ID of the project that you want to return tasks from.
 
-   Clicking the field opens the list of variables that you can use in the **[!UICONTROL Parent] Record ID** field to identify the project in Workfront.
+   Clicking the field opens the list of variables that you can use in the **[!UICONTROL Parent Record ID]** field to identify the project in Workfront.
 
    ![](assets/list-of-available-variables-wf-350x368.png)
 
-1. Click the variable **ID** to add it to the **Parent Record ID** field. This allows the ID&nbsp;returned from the first module to be used as the identifier for the project that you want to work with in the second module, which ensures that the tasks returned will belong to that project.
-1. In the **[!UICONTROL Collections]** field, select **Tasks**. This indicates that the module is to return tasks associated with the chosen project.
-1. Click **OK**
+1. Click the variable **[!UICONTROL ID]** to add it to the **[!UICONTROL Parent Record ID]** field. This allows the ID returned from the first module to be used as the identifier for the project that you want to work with in the second module, which ensures that the tasks returned will belong to that project.
+1. In the **[!UICONTROL Collections]** field, select **[!UICONTROL Tasks]**. This indicates that the module is to return tasks associated with the chosen project.
+1. Click **[!UICONTROL OK]**
 
    Now you have a working scenario.
 
 1. Give the second module a name such as "Return tasks associated with project," then continue with [Test the scenario](#test-the-scenario).
 
-## Test the scenario {#test-the-scenario}
+## Test the scenario
 
 Before you activate your scenario, it's important to test it by running it at least once and viewing the results. This helps you understand how data flows through the scenario and find any errors.
 
 We chose to have 1 project returned, as well as the tasks associated with that project. If you run the scenario, that is what should happen.
 
-1. Click **Run once** in the lower-left corner of the scenario editor.
+1. Click **[!UICONTROL Run once]** in the lower-left corner of the scenario editor.
 1. After the scenario finishes running, click the bubble above the first module.
 
    ![](assets/click-bubble.png)
@@ -202,14 +202,14 @@ We chose to have 1 project returned, as well as the tasks associated with that p
 
    ![](assets/execution-inspector-wf-only-first-350x423.png)
 
-1. Click the [!UICONTROL execution inspector] bubble above the Second module to see the input of information and the output, which is a collection of tasks contained in the project.
+1. Click the execution inspector bubble above the Second module to see the input of information and the output, which is a collection of tasks contained in the project.
 
    ![](assets/execution-inspector-wf-only-second-350x738.png)
 
    You can learn more about how to read scenario execution information in the following articles:
 
-   * For general information, see [Scenario execution flow in Adobe Workfront Fusion](../../workfront-fusion/scenarios/scenario-execution-flow.md).
-   * For information about processed bundles, see [Scenario execution, cycles, and phases in Adobe Workfront Fusion](../../workfront-fusion/scenarios/scenario-execution-cycles-phases.md).
+   * For general information, see [Scenario execution flow in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/scenario-execution-flow.md).
+   * For information about processed bundles, see [Scenario execution, cycles, and phases in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/scenario-execution-cycles-phases.md).
 
 1. In [!DNL Workfront Fusion], click **[!UICONTROL Save]** ![](assets/save-icon.png) near the lower-left corner to save your progress on the scenario.
 
@@ -221,12 +221,12 @@ We chose to have 1 project returned, as well as the tasks associated with that p
 >
 >We recommend the optional but useful practice of adding notes about each module.
 >
->1. Right-click a [!DNL Workfront] module, then click **Add a note**.
+>1. Right-click a [!DNL Workfront] module, then click **[!UICONTROL Add a note]**.
 >1. In the note that displays, type an overview for the module.
 >
 >   You can add multiple notes for a module.
 >
->1. Close the **Notes** area.
+>1. Close the **[!UICONTROL Notes]** area.
 >
 >   After you add a note to a scenario, an orange dot displays on the **[!UICONTROL Notes]** icon ![](assets/notes-icon-w-dot.png) at the bottom of the scenario editor.
 >
@@ -239,6 +239,6 @@ We chose to have 1 project returned, as well as the tasks associated with that p
 
 This example scenario does not have a trigger module. If this were a scenario you would be using for real data it would start with a trigger module, and the last thing you would do is activate it. After you activate a scenario, by default, it runs every 15 minutes. You can change this by defining when and how often you want it to run.
 
-For more information about activating scenarios, see [Activate or deactivate a scenario in Adobe Workfront Fusion](../../workfront-fusion/scenarios/activate-or-inactivate-scenario.md).
+For more information about activating scenarios, see [Activate or deactivate a scenario in [!UICONTROL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/activate-or-inactivate-scenario.md).
 
-For information about schedules, see [Schedule a scenario in Adobe Workfront Fusion](../../workfront-fusion/scenarios/schedule-a-scenario.md).
+For information about schedules, see [Schedule a scenario in [!UICONTROL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/schedule-a-scenario.md).

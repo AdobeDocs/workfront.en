@@ -21,16 +21,16 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>Pro or higher</p> </td> 
+    <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
+   <td> <p>[!DNL Pro] or higher</p> </td> 
   </tr>
    <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td role="rowheader">Adobe Workfront license*</td> 
-    <td> <p>Plan, Work</p> </td> 
+    <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
+    <td> <p>[!UICONTROL Plan], [!UICONTROL Work]</p> </td> 
    </tr>
   <tr> 
-   <td role="rowheader">Adobe Workfront Fusion license**</td> 
-  <td> <p>Workfront Fusion for Work Automation and Integration </p><p>Workfront Fusion for Work Automation </p>  </td>  
+   <td role="rowheader">[!UICONTROL Adobe Workfront Fusion] license**</td> 
+  <td> <p>[!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p><p>Workfront Fusion for Work Automation </p>  </td>  
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
@@ -43,11 +43,11 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
+To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
 
-&#42;&#42;For information on Adobe Workfront Fusion licenses, see [Adobe Workfront Fusion licenses](../../../workfront-fusion/get-started/license-automation-vs-integration.md)
+For information on Adobe Workfront Fusion licenses, see [Adobe Workfront Fusion licenses](../../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
-## View [!DNL Workfront] Fusion templates as an administrator
+## View [!DNL Workfront Fusion] templates as an administrator
 
 To view a table of all created templates and their statuses:
 
@@ -64,7 +64,7 @@ There are three columns related to the templates publication status. A checkmark
 >
 >Templates with the checkmark in both the [!UICONTROL Requested approval] column and in the [!UICONTROL Approved] column have been already approved and made public, but there is a newer version of them waiting for your approval.
 
-## Edit [!DNL Workfront] Fusion templates as an administrator
+## Edit [!DNL Workfront Fusion] templates as an administrator
 
 1. Click **[!UICONTROL Administration]** in the left navigation panel to open the [!UICONTROL Administration] area.
 1. Click **[!UICONTROL Templates]** in the left navigation panel.
@@ -73,14 +73,14 @@ There are three columns related to the templates publication status. A checkmark
 You can now edit the template, similar to editing a template as a non-admin user. However, in the Options in the top-right corner, there is one additional option - the SVG diagram that provides you with the SVG code. Also, the publishing process is the same as in the case of a standard user, refer to the [!UICONTROL Publishing and sharing templates] section for more details.
 
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">To view the SVG&nbsp;code of the template, click Options in the upper-right corner and select SVG.</p>
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">To view the SVG code of the template, click Options in the upper-right corner and select SVG.</p>
 -->
 
 For information about specific template options that you can edit, see [Create new templates in Adobe Workfront Fusion](../../../workfront-fusion/scenarios/templates/create-new-fusion-templates.md).
 
 For information about publishing templates, see [Publish and share Adobe Workfront Fusion templates](../../../workfront-fusion/scenarios/templates/publish-and-share-fusion-templates.md).
 
-## Approve or disapprove [!DNL Workfront] Fusion templates
+## Approve or disapprove [!DNL Workfront Fusion] templates
 
 Approving a template makes it visible in the [!UICONTROL Public templates] tab and available to all users. Disapproving a template removes it from the [!UICONTROL Public templates] tab and makes it available only to the team that created it.
 

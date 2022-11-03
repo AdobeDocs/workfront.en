@@ -9,40 +9,40 @@ author: Becky
 feature: Workfront Fusion
 exl-id: 74bfda4e-5690-4b8c-ac58-20cf261f188d
 ---
-# General functions in Adobe Workfront Fusion
+# General functions in [!DNL Adobe Workfront Fusion]
 
 ## Access requirements
 
 You must have the following access to use the functionality in this article:
 
-<table style="table-layout:auto"> 
+<table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>Pro or higher</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
+   <td> <p>[!DNL Pro] or higher</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Plan, Work</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
+   <td> <p>[!UICONTROL Plan], [!UICONTROL Work]</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront Fusion license**</td> 
-   <td> <p>Workfront Fusion for Work Automation and Integration </p>  </td> 
+   <td role="rowheader">[!UICONTROL Adobe Workfront Fusion] license**</td> 
+   <td> <p>[!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p><p>[!UICONTROL [!DNL Workfront Fusion] for Work Automation]</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
+   <td>Your organization must purchase [!DNL Adobe Workfront Fusion] as well as [!DNL Adobe Workfront] to use functionality described in this article.</td> 
   </tr> 
  </tbody> 
 </table>
 
 To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
 
-For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Workfront Fusion] licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
+For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Workfront Fusion] licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
-## get (object or array; path)
+## [!UICONTROL get (object or array; path)]
 
 Returns the value path of an object or array. To access nested objects, use dot notation. The first item in an array is index 1.
 
@@ -55,7 +55,7 @@ Returns the value path of an object or array. To access nested objects, use dot 
 >* `get( object ; raw_name )`
 >* `get( object ; raw_name.sub_raw_name )`
 
-## if (expression; value1; value2)
+## [!UICONTROL if (expression; value1; value2)]
 
 Returns the `value1` if the expression is evaluated to true; otherwise it returns the `value2`.
 
@@ -71,7 +71,7 @@ Returns the `value1` if the expression is evaluated to true; otherwise it return
 >
 >   Returns B
 
-## ifempty (value1; value2)
+## [!UICONTROL ifempty (value1; value2)]
 
 Returns the `value1` if this value is not empty; otherwise it returns the `value2`.
 
@@ -91,7 +91,7 @@ Returns the `value1` if this value is not empty; otherwise it returns the `value
 >
 >   Returns B
 
-## switch (expression; value1; result1; [value2; result2; ...]; [else])
+## [!UICONTROL switch (expression; value1; result1; [value2; result2; ...]; [else])]
 
 Evaluates one value (called the expression) against a list of values; returns the result corresponding to the first matching value.
 
@@ -111,7 +111,7 @@ Evaluates one value (called the expression) against a list of values; returns th
 >
 >  Returns 4
 
-## omit(object; key1; [key2; ...])
+## [!UICONTROL omit(object; key1; [key2; ...])]
 
 Omits the given keys of the object and returns the rest.
 
@@ -123,7 +123,7 @@ Omits the given keys of the object and returns the rest.
 >
 >Returns a collection of the user's information, excluding >the password.
 
-## pick(object; key1; [key2; ...])
+## [!UICONTROL pick(object; key1; [key2; ...])]
 
 Picks only the given keys from the object.
 

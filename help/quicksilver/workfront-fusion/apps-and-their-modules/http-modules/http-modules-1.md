@@ -14,11 +14,11 @@ exl-id: 64dc0892-4d05-410b-ab30-aa4b21f759d0
 
 >[!NOTE]
 >
->Adobe Workfront Fusion requires an Adobe Workfront Fusion license in addition to an Adobe Workfront license.
+>[!DNL Adobe Workfront Fusion] requires an [!DNL Adobe Workfront Fusion] license in addition to an [!DNL Adobe Workfront license].
 
 The HTTP app provides various modules for communication based on Hypertext Transfer Protocol (HTTP) protocol. HTTP is the foundation of data communication for the World Wide Web. You can use the modules to download web pages and files, call webhooks and API endpoints, and so on.
 
-The right choice of the module depends on the authentication/ authorization mechanism that the resource you want to access employs.&nbsp;
+The right choice of the module depends on the authentication/ authorization mechanism that the resource you want to access employs. 
 
 See the following articles for specific module instructions:
 

@@ -13,7 +13,7 @@ exl-id: 6e181c07-4419-486f-bde1-ace3db349a72
 
 >[!INFO]
 >
->Adobe Workfront Fusion requires an Adobe Workfront Fusion license in addition to an Adobe Workfront license.
+>[!DNL Adobe Workfront Fusion] requires an [!DNL Adobe Workfront Fusion] license in addition to an [!DNL Adobe Workfront license].
 
 This section contains the following articles:
 

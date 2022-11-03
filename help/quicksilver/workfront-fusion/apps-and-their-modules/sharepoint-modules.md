@@ -47,13 +47,13 @@ You must have the following access to use the functionality in this article:
 
 To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
 
-For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Workfront Fusion] licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
+For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Workfront Fusion] licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## Prerequisites
 
 To use [!DNL SharePoint] modules, you must have a [!DNL SharePoint] account.
 
-## Connect [!DNL SharePoint] to [!DNL Workfront] Fusion {#connect-sharepoint-to-workfront-fusion}
+## Connect [!DNL SharePoint] to [!DNL Workfront Fusion] {#connect-sharepoint-to-workfront-fusion}
 
 * [Connect [!DNL SharePoint] to [!DNL Workfront Fusion] using a [!DNL Microsoft] account](#connect-dnl-sharepoint-to-dnl-workfront-fusion-using-a-dnl-microsoft-account)
 * [Connect [!DNL SharePoint] to [!DNL Workfront Fusion] using advanced settings](#connect-dnl-sharepoint-to-dnl-workfront-fusion-using-advanced-settings)

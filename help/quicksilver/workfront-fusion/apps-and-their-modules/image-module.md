@@ -42,7 +42,7 @@ You must have the following access to use the functionality in this article:
 
 To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
 
-For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Workfront Fusion] licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
+For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Workfront Fusion] licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## [!UICONTROL Image] modules and their fields
 
@@ -109,7 +109,7 @@ This transformer module changes the format of an image file. This module is comp
 * GIF
 * BMP
 
-Both the source file and the output must be in one of these formats. For example, the [!UICONTROL Image] >[!UICONTROL Convert a format] module can transform a PNG file into a BMP file, or a BMP&nbsp;into a JPG.
+Both the source file and the output must be in one of these formats. For example, the [!UICONTROL Image] >[!UICONTROL Convert a format] module can transform a PNG file into a BMP file, or a BMP into a JPG.
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 

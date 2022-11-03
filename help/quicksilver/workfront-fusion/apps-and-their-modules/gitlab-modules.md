@@ -211,7 +211,7 @@ This scheduled trigger module starts a scenario when a new project is added, of 
    <tbody> 
    <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td>For instructions about connecting your [!DNL GitLab] account to [!DNL Workfront] Fusion, see <a href="#connect-gitlab-to-workfront-fusion-connect-gitlab-to-workfront-fusion" class="MCXref xref">Connect [!DNL GitLab] to [!DNL Workfront] Fusion</a> in this article.</td> 
+   <td>For instructions about connecting your [!DNL GitLab] account to [!DNL Workfront Fusion], see <a href="#connect-gitlab-to-workfront-fusion-connect-gitlab-to-workfront-fusion" class="MCXref xref">Connect [!DNL GitLab] to [!DNL Workfront Fusion]</a> in this article.</td> 
    </tr> 
    <tr> 
    <td role="rowheader">Max Results</td> 
@@ -232,7 +232,7 @@ This scheduled trigger module starts a scenario when a new branch is added to a 
    <tbody> 
    <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td>For instructions about connecting your [!DNL GitLab] account to [!DNL Workfront] Fusion, see <a href="#connect-gitlab-to-workfront-fusion-connect-gitlab-to-workfront-fusion" class="MCXref xref">Connect [!DNL GitLab] to [!DNL Workfront] Fusion</a> in this article.</td> 
+   <td>For instructions about connecting your [!DNL GitLab] account to [!DNL Workfront Fusion], see <a href="#connect-gitlab-to-workfront-fusion-connect-gitlab-to-workfront-fusion" class="MCXref xref">Connect [!DNL GitLab] to [!DNL Workfront Fusion]</a> in this article.</td> 
    </tr> 
    <tr> 
    <td role="rowheader">Max Results</td> 
@@ -322,7 +322,7 @@ This action module cancels a single build of a project.
    <tbody> 
    <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td>For instructions about connecting your [!DNL GitLab] account to [!DNL Workfront] Fusion, see <a href="#connect-gitlab-to-workfront-fusion-connect-gitlab-to-workfront-fusion" class="MCXref xref">Connect [!DNL GitLab] to [!DNL Workfront] Fusion</a> in this article.</td> 
+   <td>For instructions about connecting your [!DNL GitLab] account to [!DNL Workfront Fusion], see <a href="#connect-gitlab-to-workfront-fusion-connect-gitlab-to-workfront-fusion" class="MCXref xref">Connect [!DNL GitLab] to [!DNL Workfront Fusion]</a> in this article.</td> 
    </tr> 
    <tr> 
    <td role="rowheader">[!UICONTROL Project ID]</td> 
