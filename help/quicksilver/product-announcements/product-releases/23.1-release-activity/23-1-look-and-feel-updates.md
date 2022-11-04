@@ -54,7 +54,7 @@ For more information, and to view a video demonstration of a similar feature, se
 
 >[!NOTE]
 >
->Preview release: October 20, 2022; Planned Production release: Phased rollout beginning on November 3, with availability for all customers by November 17, 2022.
+>Preview release: October 20, 2022; Planned Production release: TBD <!-- Phased rollout beginning on November 3, with availability for all customers by November 17, 2022. -->
 
 The Notifications page now has a modern look and feel, in line with other areas of Workfront.
 
