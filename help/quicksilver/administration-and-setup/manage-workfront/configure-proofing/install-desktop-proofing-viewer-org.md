@@ -74,8 +74,8 @@ After you install the Desktop Proofing Viewer for your organization, you can set
 
 1. On the user's machine, do one of the following to download the app:
 
-   * If you are using the Production environment, click  [Mac Production Download for the Desktop Proofing Viewer.](https://assets.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof-2.1.12.pkg)
-   * If you are using the Preview environment, click  [Mac Preview Download for the Desktop Proofing Viewer.](https://assets.preview.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Preview-2.1.12.pkg)
+   * If you are using the Production environment, click  [Mac Production Download for the Desktop Proofing Viewer.](https://assets.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof-2.1.15.pkg)
+   * If you are using the Preview environment, click  [Mac Preview Download for the Desktop Proofing Viewer.](https://assets.preview.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Preview-2.1.15.pkg)
 
 1. Open the file you have just downloaded to start the installation.
 1. In the installation box that appears, click **Continue**, then click **Install**.
@@ -88,8 +88,8 @@ After you install the Desktop Proofing Viewer for your organization, you can set
 
 1. On the user's machine, do one of the following to download the app:
 
-   * In the Production environment, click [Windows Production download for the Desktop Proofing Viewer.](https://assets.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Setup+2.1.12.exe)
-   * In the Preview environment, click [Windows Preview download for the Desktop Proofing Viewer](https://assets.preview.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Preview+Setup+2.1.12.exe).
+   * In the Production environment, click [Windows Production download for the Desktop Proofing Viewer.](https://assets.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Setup+2.1.15.exe)
+   * In the Preview environment, click [Windows Preview download for the Desktop Proofing Viewer](https://assets.preview.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Preview+Setup+2.1.15.exe).
 
 1. Open the file you have just downloaded to start the installation. 
 1. In the security warning box that appears, click **Run**.
