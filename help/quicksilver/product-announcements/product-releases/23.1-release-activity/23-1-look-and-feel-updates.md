@@ -28,7 +28,9 @@ For more information on the Workfront for Jira integration, see [Adobe Workfront
 
 >[!NOTE]
 >
->Preview release: October 27, 2022; Planned Production release: November 10, 2022.
+>Preview release: October 27, 2022; Planned Production release: November 10, 2022. 
+>
+>After these fields are updated in Production on November 10, all remaining user fields throughout Workfront will be updated directly in Production as part of weekly patches. 
 
 There is additional user information that displays when you add users to the following fields: 
 
