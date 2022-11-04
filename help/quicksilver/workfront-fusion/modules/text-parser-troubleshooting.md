@@ -11,7 +11,7 @@ exl-id: 8a3821cf-d0c6-4917-86e7-90a4872a5795
 ---
 # Text parser troubleshooting in [!DNL Adobe Workfront Fusion]
 
-Use this information if you can not get text parser to produce any output.
+Use this information if you can not get a text parser to produce any output.
 
 ## Access requirements
 
@@ -50,11 +50,11 @@ Case scenario example, you would like to parse the filetype of a file document "
 
 The expression that you may choose to use in this case is [!DNL \..+]
 
-If you were to use this on regex expression on [!DNL regex101].com you will rightly find that you will get a full match.
+If you were to use this on regex expression on regex101.com you will get a full match.
 
 ![](assets/regex-expression-350x130.png)
 
-As you will notice on the image above, the file extension was correctly matched. If you take this and try to implement it in your text parser:
+On the image above, the file extension was correctly matched. If you take this and try to implement it in your text parser:
 
 ![](assets/text-parser-350x602.png)
 
@@ -72,7 +72,7 @@ This captures the DOCX, places it in a group, and leave the "." out of it.
 
 ![](assets/text-parser-get-matches-350x592.png)
 
-The output shown in the picture below, you will notice that the capturing group will match any character (except for line terminators)
+In the output shown in the picture below, the capturing group will match any character (except for line terminators).
 
 ![](assets/text-parser-output-350x389.png)
 
@@ -80,4 +80,4 @@ Another workaround that also incorporates regex is using the replace function
 
 `{{replace("abcdefghijklmno pqr stuvw xyz.docx"; "/.\./"; ".")}}`
 
-Then replace abcdefghijklmno pqr stuvw xyz.docx with your actual filename variable.
+Then replace `abcdefghijklmno pqr stuvw xyz.docx` with your actual filename variable.

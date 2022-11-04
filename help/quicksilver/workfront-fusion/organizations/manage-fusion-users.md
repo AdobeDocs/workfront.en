@@ -11,7 +11,7 @@ exl-id: fbb858a6-1230-41b4-892a-4ffeb2711922
 ---
 # Manage [!DNL Adobe Workfront Fusion] users in your organization
 
- 
+[!DNL Adobe Workfront Fusion] administrators can manage user roles inside [!DNL Workfront Fusion].
 
 <!--
 
@@ -29,29 +29,67 @@ exl-id: fbb858a6-1230-41b4-892a-4ffeb2711922
 
 -->
 
+## Access requirements
+
+You must have the following access to use the functionality in this article:
+
+<table style="table-layout:auto">
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+    <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
+   <td> <p>[!DNL Pro] or higher</p> </td> 
+  </tr> 
+   <tr> 
+    <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
+    <td> <p>[!UICONTROL Plan], [!UICONTROL Work]</p> </td> 
+   </tr>
+   <tr> 
+   <td role="rowheader">[!UICONTROL Adobe Workfront Fusion] license**</td> 
+   <td> <p>Workfront Fusion for Work Automation and Integration,</p>  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Product</td> 
+   <td>Your organization must purchase [!DNL Adobe Workfront Fusion] as well as [!DNL Adobe Workfront] to use functionality described in this article.</td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">Access level configurations*</td> 
+   <td> 
+     <p>You must be a [!DNL Workfront Fusion] administrator for your organization.</p>
+     <p>You must be a [!DNL Workfront Fusion] administrator for your team.</p>
+   </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
+
+For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Workfront Fusion] licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+
 ## View or edit user roles {#view}
 
-Adobe Workfront Fusion administrators can view and update user roles.
+[!DNL Adobe Workfront Fusion] administrators can view and update user roles.
 
-1. While logged in as a Workfront Fusion administrator, select [!UICONTROL Users] in the left navigation.
+1. While logged in as a [!DNL Workfront Fusion] administrator, select **[!UICONTROL Users]** in the left navigation.
 1. Click **[!UICONTROL Details]** in the row of the user that you want to view.
 1. (Optional) To update the role of the user, click the dropdown in the **[!DNL Role]** column in the row of the organization where you want to change the user's role, then select the new role.
 
 ## View or edit user details {#view2}
 
-Adobe Workfront Fusion administrators can view and update user details.
+[!DNL Adobe Workfront Fusion] administrators can view and update user details.
 
-1. While logged in as a Workfront Fusion administrator, select [!UICONTROL Users] in the left navigation.
+1. While logged in as a [!DNL Workfront Fusion] administrator, select **[!UICONTROL Users]** in the left navigation.
 1. Click **[!UICONTROL Details]** in the row of the user that you want to view.
-1. (Optional) To update the user's details, click **Options** in the upper-right corner of the screen, then select **Change Details**.
+1. (Optional) To update the user's details, click **[!UICONTROL Options]** in the upper-right corner of the screen, then select **[!UICONTROL Change Details]**.
 
 ## Delete a user {#delete}
 
-Adobe Workfront Fusion administrators can delete users.
+[!DNL Adobe Workfront Fusion] administrators can delete users.
 
-1. While logged in as a Workfront Fusion administrator, select [!UICONTROL Users] in the left navigation.
+1. While logged in as a [!DNL Workfront Fusion] administrator, select [!UICONTROL Users] in the left navigation.
 1. Click **[!UICONTROL Details]** in the row of the user that you want to view.
-1. (Optional) To update the user's details, click **[!UICONTROL Options]** in the upper-right corner of the screen, then select **Delete**.
+1. (Optional) To update the user's details, click **[!UICONTROL Options]** in the upper-right corner of the screen, then select **[!UICONTROL Delete]**.
 
 ### Considerations when deleting a user in Workfront Fusion
 

@@ -11,13 +11,17 @@ exl-id: 0370fa9d-6680-4724-a431-8df884ce4f9a
 ---
 # Organization roles in [!DNL Adobe Workfront Fusion]
 
-This article describes the access and functionality available to the different organization roles in Workfront Fusion.
+This article describes the access and functionality available to the different organization roles in [!DNL Workfront Fusion].
 
 >[!NOTE]
 >
->Organization roles are separate from team roles in Workfront Fusion. For more information on team roles, see [Team Roles](../organizations/organizations-and-teams.md#team-roles-team-roles).
+>Organization roles are separate from team roles in [!DNL Workfront Fusion]. For more information on team roles, see [Team Roles](../organizations/organizations-and-teams.md#team-roles-team-roles).
 
 ## Access requirements
+
+You must have the following access to use the functionality in this article:
+
+<## Access requirements
 
 You must have the following access to use the functionality in this article:
 
@@ -33,9 +37,9 @@ You must have the following access to use the functionality in this article:
     <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
     <td> <p>[!UICONTROL Plan], [!UICONTROL Work]</p> </td> 
    </tr>
-  <tr> 
+   <tr> 
    <td role="rowheader">[!UICONTROL Adobe Workfront Fusion] license**</td> 
-   <td> <p>Workfront Fusion for Work Automation</p> <p>Workfront Fusion for Work Automation and Integration</p> </td> 
+   <td> <p>Workfront Fusion for Work Automation and Integration,</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
@@ -44,8 +48,8 @@ You must have the following access to use the functionality in this article:
   <tr data-mc-conditions=""> 
    <td role="rowheader">Access level configurations*</td> 
    <td> 
-     <p>You must be a Workfront Fusion administrator for your organization.</p>
-     <p>You must be a Workfront Fusion administrator for your team.</p>
+     <p>You must be a [!DNL Workfront Fusion] administrator for your organization.</p>
+     <p>You must be a [!DNL Workfront Fusion] administrator for your team.</p>
    </td> 
   </tr> 
  </tbody> 
@@ -53,9 +57,7 @@ You must have the following access to use the functionality in this article:
 
 To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
 
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">**For information on Adobe Workfront Fusion licenses, see <a href="../../workfront-fusion/get-started/license-automation-vs-integration.md" class="MCXref xref">Adobe Workfront Fusion licenses</a></p>
--->
+For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Workfront Fusion] licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## Organization roles
 
@@ -68,10 +70,10 @@ To find out what plan, license type, or access you have, contact your [!DNL Work
  <thead> 
   <tr> 
    <th> </th> 
-   <th> <p>Owner</p> </th> 
-   <th> <p>Admin</p> </th> 
-   <th> <p>Member</p> </th> 
-   <th> <p>Accountant</p> </th> 
+   <th> <p>[!UICONTROL Owner]</p> </th> 
+   <th> <p>[!UICONTROL Admin]</p> </th> 
+   <th> <p>[!UICONTROL Member]</p> </th> 
+   <th> <p>[!UICONTROL Accountant]</p> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -133,10 +135,10 @@ To find out what plan, license type, or access you have, contact your [!DNL Work
  <thead> 
   <tr> 
    <th> </th> 
-   <th> <p style="text-align: left;">Owner</p> </th> 
-   <th> <p style="text-align: left;">Admin</p> </th> 
-   <th> <p style="text-align: left;">Member</p> </th> 
-   <th> <p style="text-align: left;">Accountant</p> </th> 
+   <th> <p style="text-align: left;">[!UICONTROL Owner]</p> </th> 
+   <th> <p style="text-align: left;">[!UICONTROL Admin]</p> </th> 
+   <th> <p style="text-align: left;">[!UICONTROL Member]</p> </th> 
+   <th> <p style="text-align: left;">[!UICONTROL Accountant]</p> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -252,10 +254,10 @@ To find out what plan, license type, or access you have, contact your [!DNL Work
  <thead> 
   <tr> 
    <th> </th> 
-   <th> <p style="text-align: left;">Owner</p> </th> 
-   <th> <p style="text-align: left;">Admin</p> </th> 
-   <th> <p style="text-align: left;">Member</p> </th> 
-   <th> <p style="text-align: left;">Accountant</p> </th> 
+   <th> <p style="text-align: left;">[!UICONTROL Owner]</p> </th> 
+   <th> <p style="text-align: left;">[!UICONTROL Admin]</p> </th> 
+   <th> <p style="text-align: left;">[!UICONTROL Member]</p> </th> 
+   <th> <p style="text-align: left;">[!UICONTROL Accountant]</p> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -301,10 +303,10 @@ To find out what plan, license type, or access you have, contact your [!DNL Work
  <thead> 
   <tr> 
    <th> </th> 
-   <th> <p style="text-align: left;">Owner</p> </th> 
-   <th> <p style="text-align: left;">Admin</p> </th> 
-   <th> <p style="text-align: left;">Member</p> </th> 
-   <th> <p style="text-align: left;">Accountant</p> </th> 
+   <th> <p style="text-align: left;">[!UICONTROL Owner]</p> </th> 
+   <th> <p style="text-align: left;">[!UICONTROL Admin]</p> </th> 
+   <th> <p style="text-align: left;">[!UICONTROL Member]</p> </th> 
+   <th> <p style="text-align: left;">[!UICONTROL Accountant]</p> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -350,10 +352,10 @@ To find out what plan, license type, or access you have, contact your [!DNL Work
  <thead> 
   <tr> 
    <th> </th> 
-   <th> <p style="text-align: left;">Owner</p> </th> 
-   <th> <p style="text-align: left;">Admin</p> </th> 
-   <th> <p style="text-align: left;">Member</p> </th> 
-   <th> <p style="text-align: left;">Accountant</p> </th> 
+   <th> <p style="text-align: left;">[!UICONTROL Owner]</p> </th> 
+   <th> <p style="text-align: left;">[!UICONTROL Admin]</p> </th> 
+   <th> <p style="text-align: left;">[!UICONTROL Member]</p> </th> 
+   <th> <p style="text-align: left;">[!UICONTROL Accountant]</p> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -406,10 +408,10 @@ To find out what plan, license type, or access you have, contact your [!DNL Work
  <thead> 
   <tr> 
    <th> </th> 
-   <th> <p style="text-align: left;">Owner</p> </th> 
-   <th> <p style="text-align: left;">Admin</p> </th> 
-   <th> <p style="text-align: left;">Menber</p> </th> 
-   <th> <p style="text-align: left;">Accountant</p> </th> 
+   <th> <p style="text-align: left;">[!UICONTROL Owner]</p> </th> 
+   <th> <p style="text-align: left;">[!UICONTROL Admin]</p> </th> 
+   <th> <p style="text-align: left;">[!UICONTROL Member]</p> </th> 
+   <th> <p style="text-align: left;">hy0</p> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -455,10 +457,10 @@ To find out what plan, license type, or access you have, contact your [!DNL Work
  <thead> 
   <tr> 
    <th> </th> 
-   <th> <p style="text-align: left;">Owner</p> </th> 
-   <th> <p style="text-align: left;">Admin</p> </th> 
-   <th> <p style="text-align: left;">Member</p> </th> 
-   <th> <p style="text-align: left;">Accountant</p> </th> 
+   <th> <p style="text-align: left;">[!UICONTROL Owner]</p> </th> 
+   <th> <p style="text-align: left;">[!UICONTROL Admin]</p> </th> 
+   <th> <p style="text-align: left;">[!UICONTROL Member]</p> </th> 
+   <th> <p style="text-align: left;">[!UICONTROL Accountant]</p> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -504,10 +506,10 @@ To find out what plan, license type, or access you have, contact your [!DNL Work
  <thead> 
   <tr> 
    <th> </th> 
-   <th> <p style="text-align: left;">Owner</p> </th> 
-   <th> <p style="text-align: left;">Admin</p> </th> 
-   <th> <p style="text-align: left;">Member</p> </th> 
-   <th> <p style="text-align: left;">Accountant</p> </th> 
+   <th> <p style="text-align: left;">[!UICONTROL Owner]</p> </th> 
+   <th> <p style="text-align: left;">[!UICONTROL Admin]</p> </th> 
+   <th> <p style="text-align: left;">[!UICONTROL Member]</p> </th> 
+   <th> <p style="text-align: left;">[!UICONTROL Accountant]</p> </th> 
   </tr> 
  </thead> 
  <tbody> 

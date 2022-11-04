@@ -8,7 +8,7 @@ author: Becky
 feature: Workfront Fusion
 exl-id: 5ab7cac4-8d50-4be0-b26b-b832544f18f7
 ---
-# Choose where a trigger module starts in Adobe Workfront Fusion
+# Choose where a trigger module starts in [!DNL Adobe Workfront Fusion]
 
 Some trigger modules allow you to select the first bundle from which you want the retrieving of bundles to start.
 
@@ -53,11 +53,11 @@ For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Work
 
    Or
 
-   Change the trigger module's settings as described in [Configure a module's settings in Adobe Workfront Fusion](../../workfront-fusion/modules/configure-a-modules-settings.md).
+   Change the trigger module's settings as described in [Configure a module's settings in [!UICONTROL Adobe Workfront Fusion]](../../workfront-fusion/modules/configure-a-modules-settings.md).
 
    Or
 
-   Right-click the icon for the trigger module in the Scenario editor, as described in [Create a scenario in Adobe Workfront Fusion](../../workfront-fusion/scenarios/create-a-scenario.md).
+   Right-click the icon for the trigger module in the [!UICONTROL Scenario editor], as described in [Create a scenario in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
 
 1. Select an option in the **[!UICONTROL Choose where to start]** box that appears.
 
@@ -67,23 +67,23 @@ For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Work
 
    <table style="table-layout:auto">
         <tr>
-            <td>From now on (default)</td>
+            <td>[!UICONTROL From now on] (default)</td>
             <td>Retrieves all bundles added or updated (depending on settings) from now on</td>
         </tr>
         <tr>
-            <td>From after a specific date</td>
+            <td>[!UICONTROL From after a specific date]</td>
             <td>Retrieves all bundles added or updated (depending on settings) after a specified date/time</td>
         </tr>
         <tr>
-            <td>With ID greater than or equal to a specific value</td>
+            <td>[!UICONTROL With ID greater than or equal to a specific value]</td>
             <td>Retrieves all bundles with an ID greater than or equal to a specified ID</td> 
         </tr>
         <tr>
-            <td>All bundles</td>
+            <td>[!UICONTROL All bundles]</td>
             <td>Retrieves all available bundles</td>
         </tr>
         <tr>
-            <td>Select the first bundle</td>
+            <td>[!UICONTROL Select the first bundle]</td>
             <td>Allows you to select the first bundle from which the retrieval of bundles is to start</td>
         </tr>
    </table>
