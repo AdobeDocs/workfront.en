@@ -24,4 +24,4 @@ We've added some new operators to the event filter. Now, you can use any of the 
 
 We've also added the ability to select whether you want the filter to apply to the old state of the field or the new state. For example, if you have selected to watch the old state of a field and set the filter to watch for statuses that are In Progress, the module will trigger when a status changes from In Progress to a new status. 
 
-For more information on the Adobe Workfront Libraries modules, see [Adobe Workfront Modules](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-modules.md).
+For more information on the Adobe Workfront modules, see [Adobe Workfront Modules](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-modules.md).
