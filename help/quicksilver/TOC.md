@@ -11,6 +11,12 @@ feature-set: Workfront
   * Product releases {#product-releases}
     * [Product releases overview](product-announcements/product-releases/product-releases.md)
     * [Adobe Workfront release schedule and process](product-announcements/product-releases/workfront-release-schedule.md)
+    * 23.1 Release {#release-23-1}
+      * [23.1 Release overview](product-announcements/product-releases/23.1-release-activity/23-1-release-overview.md)
+      * [23.1 release activity: Week of October 24, 2022](product-announcements/product-releases/23.1-release-activity/23-1-oct-24.md)
+      * [23.1 release activity: Week of October 17, 2022](product-announcements/product-releases/23.1-release-activity/23-1-oct-17.md)
+      * [23.1 release activity: Week of October 10, 2022](product-announcements/product-releases/23.1-release-activity/23-1-oct-10.md)
+      * [Look-and-feel updates during the 23.1 release time frame](product-announcements/product-releases/23.1-release-activity/23-1-look-and-feel-updates.md)
     * 22.4 Release {#release-22-4}
       * [22.4 Release overview](product-announcements/product-releases/22.4-release-activity/22-4-release-overview.md)
       * [22.4 Administrator enhancements](product-announcements/product-releases/22.4-release-activity/22-4-administrator-enhancements.md)
@@ -90,6 +96,8 @@ feature-set: Workfront
       * [21.1 Other enhancements](product-announcements/product-releases/21.1-release-activity/21-1-other-enhancements.md)
     * Adobe Workfront Fusion release activity {#fusion-release}
       * [Adobe Workfront Fusion release activity](product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)
+      * [Workfront Fusion release activity: Week of October 17, 2022](product-announcements/product-releases/fusion-release-activity/fusion-oct-17-22.md)
+      * [Workfront Fusion release activity: Week of October 3, 2022](product-announcements/product-releases/fusion-release-activity/fusion-oct-3-22.md)
       * [Workfront Fusion release activity: Week of September 26, 2022](product-announcements/product-releases/fusion-release-activity/fusion-sept-26-22.md)
       * [Workfront Fusion release activity: Week of September 19, 2022](product-announcements/product-releases/fusion-release-activity/fusion-sept-19-22.md)
       * [Workfront Fusion release activity: Week of July 11, 2022](product-announcements/product-releases/fusion-release-activity/fusion-july-11-22.md)
@@ -420,7 +428,6 @@ feature-set: Workfront
       * [Configure Workfront with Active Directory](administration-and-setup/add-users/single-sign-on/configure-workfront-ad.md)
       * [Configure Workfront with LDAP](administration-and-setup/add-users/single-sign-on/configure-workfront-ldap.md)
       * [Configure Workfront with SAML 2.0](administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2.md)
-      * [Update SAML 2.0 metadata in your IDP](administration-and-setup/add-users/single-sign-on/update-saml-2-metadata-ip-eauth-.md)
       * [Update SAML 2.0 metadata in identity provider](administration-and-setup/add-users/single-sign-on/update-saml-2-metadata-ip.md)
       * [Configure Adobe Workfront with SAML 2.0 using ADFS](administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2-adfs.md)
       * [Configure Workfront with SAML 1.1](administration-and-setup/add-users/single-sign-on/configure-workfront-saml-1.1.md)
@@ -545,7 +552,6 @@ feature-set: Workfront
     * Security {#security}
       * [Security](administration-and-setup/manage-workfront/security/security.md)
       * [Security preferences](administration-and-setup/manage-workfront/security/configure-security-preferences.md)
-      * [Enhanced Authentication](administration-and-setup/manage-workfront/security/get-started-enhanced-authentication.md)
       * [Passwords for authentication](administration-and-setup/manage-workfront/security/configure-password-policies-authentication.md)
       * [Removal of single sign-on options](administration-and-setup/manage-workfront/security/removal-various-sso-options.md)
       * [Renew SAML 2.0 metadata certificate](administration-and-setup/manage-workfront/security/renew-wf-saml-2-certificate.md)
@@ -662,6 +668,7 @@ feature-set: Workfront
     * [Install a blueprint](administration-and-setup/blueprints/blueprints-install.md)
     * [Configure a blueprint](administration-and-setup/blueprints/configure-template-package.md)
     * [Actions to take after installing a blueprint](administration-and-setup/blueprints/best-next-actions-after-install.md)
+    * [List of available blueprints](administration-and-setup/blueprints/list-of-available-blueprints.md)
   * Administrator FAQs {#admin-faq}
     * [Administrator FAQs](administration-and-setup/administrator-faqs/adminstrator-faqs.md)
     * [AtTask OnPremise support policy](administration-and-setup/administrator-faqs/attask-onpremise-support-policy.md)
@@ -715,6 +722,7 @@ feature-set: Workfront
       * [Inline edit items in a list in Adobe Workfront](workfront-basics/navigate-workfront/use-lists/inline-edit-objects.md)
       * [Modify how a list displays](workfront-basics/navigate-workfront/use-lists/modify-list-display.md)
     * [Adobe Unified Experience for Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md)
+    * [Adobe Unified Experience FAQ](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md)
     * [Top navigation bar overview](workfront-basics/the-new-workfront-experience/global-navigation-overview.md)
     * [Left navigation in Adobe Workfront](workfront-basics/the-new-workfront-experience/simplified-left-navigation.md)
     * [Summary overview](workfront-basics/the-new-workfront-experience/summary-overview.md)
@@ -844,7 +852,7 @@ feature-set: Workfront
   * Tips, Tricks, and Troubleshooting for Adobe Workfront Basics {#tips-tricks-for-basics}
     * [Tips, Tricks, and Troubleshooting for Adobe Workfront Basics](workfront-basics/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-basics.md)
     * [Your quick guide to finding help in Adobe Workfront](workfront-basics/tips-tricks-and-troubleshooting/guide-for-help-in-workfront.md)
-    * [Change the date format in Adobe Workfront when using Chrome](workfront-basics/tips-tricks-and-troubleshooting/change-date-format-chrome.md)
+    * [Change the format for dates in Adobe Workfront](workfront-basics/tips-tricks-and-troubleshooting/change-date-format-chrome.md)
     * [Contact Customer Support](workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md)
     * [The Adobe Workfront Community](workfront-basics/tips-tricks-and-troubleshooting/workfront-community.md)
     * [The Adobe Workfront Status site](workfront-basics/tips-tricks-and-troubleshooting/understand-the-status-site.md)
@@ -885,6 +893,7 @@ feature-set: Workfront
     * [Manage the work in progress (WIP) limit on a board](agile/use-boards-agile-planning-tools/manage-wip-limit-on-board.md)
     * [Add an intake column to a board](agile/use-boards-agile-planning-tools/add-intake-column-to-board.md)
     * [Use groups on a board](agile/use-boards-agile-planning-tools/group-cards-on-board.md)
+    * [Configure card falloff](agile/use-boards-agile-planning-tools/configure-card-falloff.md)
   * Kanban in an agile team {#kanban}
     * [Kanban in an agile team](agile/use-kanban-in-an-agile-team/using-kanban-in-an-agile-team.md)
     * [Kanban overview](agile/use-kanban-in-an-agile-team/kanban-overview.md)
@@ -954,6 +963,7 @@ feature-set: Workfront
     * [Document approvals and proofing](documents/managing-documents/document-approvals-and-proofing.md)
     * [Add an update to a document](documents/managing-documents/add-update-documents.md)
     * [Add or edit a custom form to a document](documents/managing-documents/add-custom-form-documents.md)
+    * [Copy and share a link to a document folder](documents/managing-documents/copy-a-doc-folder-url.md)
     * [Upload a new version of a document](documents/managing-documents/upload-new-document-version.md)
     * [Manage document versions](documents/managing-documents/manage-document-versions.md)
     * [Check out documents](documents/managing-documents/check-out-documents.md)
@@ -994,6 +1004,7 @@ feature-set: Workfront
   * Migrate from the legacy or enhanced connectors {#migrate-from-legacy-enhanced-connectors}
     * [Migrate from the legacy or enhanced connectors](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/migrate-from-legacy-enhanced-connectors.md)
     * [Migrate from the legacy or enhanced connector to Workfront for Adobe Experience Mangaer as a Cloud Service integration](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/migrate-to-workfont-integration.md)
+    * [Migrate from the legacy connector to the enhanced connector](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/migrate-from-legacy-to-enhanced.md)
     * [Uninstall the Workfront with Adobe Experience Manager legacy connector](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/uninstall-legacy-connector.md)
     * [Uninstall the Workfront with Adobe Experience Manager enhanced connector](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/uninstall-enhanced-connector.md)
     * [Migrate linked folders and documents](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/workfront-document-link-updates.md)
@@ -1791,8 +1802,8 @@ feature-set: Workfront
     * [Delete timesheets in Adobe Workfront](timesheets/create-and-manage-timesheets/delete-timesheets.md)
     * [Manually generate timesheets](timesheets/create-and-manage-timesheets/manually-generate-timesheets.md)
     * [Export a list of timesheets](timesheets/create-and-manage-timesheets/export-timesheets.md)
-  * Configure timesheet preferences {#configure-timesheet-preferences}
-    * [Configure timesheet preferences](timesheets/config-timesheet-prefs/configure-timesheet-preferences.md)
+  * Configure how time is logged {#configure-timesheet-preferences}
+    * [Configure how time is logged](timesheets/config-timesheet-prefs/configure-timesheet-preferences.md)
     * [Configure whether time is logged in hours or days](timesheets/config-timesheet-prefs/config-time-logged-hrs-days.md)
   * Tips, tricks, and troubleshooting for timesheets {#tips-tricks-troubleshooting-for-timesheets}
     * [Tips, Tricks, and Troubleshooting](timesheets/tips-tricks-and-troubleshooting/tips-tricks-and-troubleshooting-timesheets.md)
@@ -1854,7 +1865,7 @@ feature-set: Workfront
   * Goal review and the Adobe Workfront Goals sections {#goal-review-and-adobe-workfront-goals-sections}
     * [Goal review and the Adobe Workfront Goals sections](workfront-goals/goal-review-and-workfront-goals-sections/goal-review-wf-goals-sections.md)
     * [Overview of the Adobe Workfront Goals sections](workfront-goals/goal-review-and-workfront-goals-sections/overview-of-wf-goals-sections.md)
-    * [Check in on goals in Adobe Workfront Goals](workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md)
+    * [Update goals by using Check-in in Adobe Workfront Goals](workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md)
     * [Manage goals in the Goal List of Adobe Workfront Goals](workfront-goals/goal-review-and-workfront-goals-sections/manage-goals-in-goal-list.md)
     * [Review graphs to understand goal progress trends in Adobe Workfront Goals](workfront-goals/goal-review-and-workfront-goals-sections/review-goal-graphs.md)
     * [Review goals in the Adobe Workfront Goals Pulse section](workfront-goals/goal-review-and-workfront-goals-sections/review-goals-in-pulse.md)
@@ -2488,6 +2499,7 @@ feature-set: Workfront
     * [API Notes](wf-api/api/api.md)
     * [Uploading files via the API](wf-api/api/uploading-files-api.md)
     * [Ending support for JSONP](wf-api/api/ending-support-jsonp.md)
+    * [Get user available time](wf-api/api/api-user-available-time.md)
     * [Update integrations that use default API versioning](wf-api/api/update-default-api-versioning.md)
     * [Filter event subscription messages](wf-api/api/filter-event-sub-messages.md)
     * [Event subscription resource fields](wf-api/api/event-sub-resource-fields.md)

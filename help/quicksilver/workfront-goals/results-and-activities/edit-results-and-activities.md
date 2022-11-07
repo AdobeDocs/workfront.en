@@ -41,7 +41,9 @@ You must have the following:
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Goals or higher</p> <p>Note:   <p>If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see:</p> 
+   <td> <p>Edit access to Goals</p> <p><b>NOTE</b>
+   
+   <p>If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see:</p> 
      <ul> 
       <li> <p><a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a> </p> </li> 
       <li> <p><span href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md"><a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md" class="MCXref xref">Grant access to Adobe Workfront Goals</a></span> </p> </li> 
@@ -69,11 +71,11 @@ You must have the following before you can start:
 ## Considerations when editing results and activities
 
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: According to Vazgen, access levels will add more considerations.)</p>
+According to Vazgen, access levels will add more considerations.)
 -->
 
 * You can edit results and activities that belong to goals you created or to goals that you have permissions to Manage. 
-* You cannot edit projects that are connected to goals as activities from Workfront Goals. You can remove them from the goal by disconnecting them. For more information, see the "Disconnect projects"&nbsp;section in the article [Remove results, activities, and projects from goals in Adobe Workfront Goals](../../workfront-goals/results-and-activities/remove-results-activities-from-goals.md).
+* You cannot edit projects that are connected to goals as activities from Workfront Goals. You can remove them from the goal by disconnecting them. For more information, see the "Disconnect projects" section in the article [Remove results, activities, and projects from goals in Adobe Workfront Goals](../../workfront-goals/results-and-activities/remove-results-activities-from-goals.md).
 
   >[!NOTE]
   >
@@ -88,9 +90,9 @@ You must have the following before you can start:
   >   
   >For information about connecting projects to goals, see [Overview of connecting projects to goals in Adobe Workfront Goals](../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md).
 
-* You can delete results and activities from goals when they are not longer relevant to the goal progress. Deleted results and activities cannot be recovered. For information about deleting results and activities, see [Remove results, activities, and projects from goals in Adobe Workfront Goals](../../workfront-goals/results-and-activities/remove-results-activities-from-goals.md).
+* You can delete results and activities from goals when they are no longer relevant to the goal progress. Deleted results and activities cannot be recovered. For information about deleting results and activities, see [Remove results, activities, and projects from goals in Adobe Workfront Goals](../../workfront-goals/results-and-activities/remove-results-activities-from-goals.md).
 * You can edit results and activities associated with goals from any time period, including in the past. 
-* Editing results and activities updates their settings and does not update their progress. You must update the progress of results and activities by checking in on goals. For information about checking in on goals, see [Check in on goals in Adobe Workfront Goals](../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md).
+* Editing results and activities updates their settings and does not update their progress. You must update the progress of results and activities by checking in on goals. For information about checking in on goals, see [Update goals by using Check-in in Adobe Workfront Goals](../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md).
 
 ## Edit results
 

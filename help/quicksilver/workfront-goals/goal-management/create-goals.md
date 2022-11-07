@@ -64,9 +64,9 @@ Before starting with Workfront Goals, we recommend that you read about our best 
 
 ## Create goals
 
-This article describes how you create a goal in Workfront Goals.
+This article describes how you create a strategic goal in Workfront Goals. For information about creating a business case goal, see [Create Business Case goals](../../manage-work/projects/define-a-business-case/create-business-case-goals.md). 
 
-You can create a new goal in one of the following ways:
+You can create a strategic goal in one of the following ways:
 
 * [Create a goal from scratch](#create-a-goal-from-scratch) 
 * [Copy an existing goal](#copy-an-existing-goal) 
@@ -151,7 +151,7 @@ For information about copying goals, see [Copy goals in Adobe Workfront Goals](.
 
 ### Convert a result or activity to a goal {#convert-a-result-or-activity-to-a-goal}
 
-You can create a new goal by converting the result or the activity of an existing goal to a goal. The new goal becomes aligned to the original goal.
+You can create a goal by converting the result or the activity of an existing goal to a goal. The new goal becomes aligned to the original goal.
 
 For information about converting results and activities to goals, see [Align goals by converting results and activities to goals](../../workfront-goals/goal-alignment/align-goals-by-converting-results-activities.md).
 

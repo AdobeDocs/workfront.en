@@ -19,7 +19,7 @@ You must have the following access to perform the steps in this article:
  <col> 
  <col> 
  <tbody> 
-  <tr> 
+  <!-- <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
    <td> <p>[!UICONTROL Pro] or higher</p> </td> 
   </tr> 
@@ -27,7 +27,7 @@ You must have the following access to perform the steps in this article:
    <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
    <td> <p>[!UICONTROL Work] or [!UICONTROL Plan]</p> </td> 
   </tr> 
-  <tr> 
+  <tr> -->
    <td role="rowheader">Product</td> 
    <td>You must have an [!DNL Adobe Creative Cloud] license in addition to a [!DNL Workfront] license.</td> 
   </tr> 
@@ -46,9 +46,9 @@ You must have the following access to perform the steps in this article:
 
 ## Prerequisites
 
-* You must install the [!DNL Adobe Workfront for Creative Cloud] plugin before you can upload documents from [!DNL InDesign].
+* You must install the [!DNL Adobe Workfront for InDesign] plugin before you can upload documents from [!DNL InDesign].
 
-  For instructions, see [Install [!DNL Workfront for Creative Cloud]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-install-cc.md).
+  For instructions, see [Install [!DNL Workfront for InDesign]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-install-cc.md).
 
 ## Upload documents to [!DNL InDesign]
 

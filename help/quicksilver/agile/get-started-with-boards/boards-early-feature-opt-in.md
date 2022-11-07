@@ -88,10 +88,14 @@ The following table outlines major features of boards along with their current r
   </tr>
   <tr>
    <td>Filter connected cards by project</td>
-   <td>Planned</td>
+   <td>Partially released</td>
   </tr>
   <tr>
    <td>Define card falloff</td>
+   <td>Partially released</td>
+  </tr>
+  <tr>
+   <td>Import subtasks as checklist items on cards</td>
    <td>Planned</td>
   </tr>
  </tbody> 

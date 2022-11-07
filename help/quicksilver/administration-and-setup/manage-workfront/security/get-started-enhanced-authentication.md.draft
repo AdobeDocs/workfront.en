@@ -11,6 +11,8 @@ exl-id: bf3c6c6f-ddd5-42d0-9efe-b5eb94549f85
 ---
 # Enhanced Authentication overview
 
+<!-- enhanced authentication is no longer available for workfront customers -->
+
 {{important-admin-console-onboard}}
 
 Adobe Workfront is changing the system management of users and passwords. These changes will roll out in a phased release called **Enhanced Authentication** experience. Enhanced Authentication offers users a more consistent and secure sign-in experience across all Workfront products and services.

@@ -59,12 +59,14 @@ You must have the following:
 
 You must have the following before you can start:
 
-* A Layout Template that includes the Goals area in the Main&nbsp;Menu.
+* A Layout Template that includes the Goals area in the Main Menu.
 
 ## Considerations when closing goals
 
 * You must have access to Edit Goals in your access level before you can close and reopen goals. For information about granting access to Goals, see [Grant access to Adobe Workfront Goals](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md).
-* You can close only active goals. For information about goal statuses, see [Goal status overview in Adobe Workfront Goals](../../workfront-goals/goal-management/goal-status-overview.md).
+* You can close only active goals. You cannot close goals that are in the status of Draft. 
+
+   For information about goal statuses, see [Goal status overview in Adobe Workfront Goals](../../workfront-goals/goal-management/goal-status-overview.md).
 
 * Closing goals locks in its progress and allows you to rate how well you did in accomplishing it.
 
@@ -73,11 +75,11 @@ You must have the following before you can start:
   >When closing a goal that has active contributing goals, its progress changes after closing to indicate the progress of the contributing active goals. For information about aligning goals, see [Align goals by connecting them in Adobe Workfront Goals](../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md).
 
 * Closing a goal removes it from your Check-in page, as you will no longer be responsible for updating the progress.
-* Check in on your goal to update its progress indicators before you close the goal to ensure the goal closes with an accurate progress value. If all progress indicators have been achieved then the goal percent complete should be 100% and your goal has been achieved. For information about checking in on your goals, see [Check in on goals in Adobe Workfront Goals](../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md).
+* Update the goal's progress indicators before you close the goal to ensure the goal closes with an accurate progress value. If all progress indicators have been achieved then the goal percent complete should be 100% and your goal has been achieved. For information about updating your goals, see [Update goals by using Check-in in Adobe Workfront Goals](../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md).
 * Leave any final comments as an update to the goals that you close. For information about adding comments to goals, see [Manage goal comments in Adobe Workfront Goals](../../workfront-goals/goal-management/manage-goal-comments.md). 
 * You can no longer update the progress of results and activities on a goal you close. 
 * You can reopen a closed goal if you want to continue working on it. 
-* If the goal has not been achieved, consider copying most of its information to the next time period (quarter or year). This is a great option for goals that are the same from one time period to the next or goals that you may still need to work on achieving in the next timeframe.&nbsp;For information about copying goals, see [Copy goals in Adobe Workfront Goals](../../workfront-goals/goal-management/copy-goals.md).
+* If the goal has not been achieved, consider copying most of its information to the next time period (quarter or year). This is a great option for goals that are the same from one time period to the next or goals that you may still need to work on achieving in the next timeframe. For information about copying goals, see [Copy goals in Adobe Workfront Goals](../../workfront-goals/goal-management/copy-goals.md). You can also update the time period on the goal instead of copying it to another period. 
 
 ## Close goals
 
@@ -114,11 +116,7 @@ You must have the following before you can start:
 
 ## Reopen goals
 
-You can reopen closed goals if you decided that they have become relevant again and that you need to continue updating their progress.
-
->[!TIP]
->
->You can reopen closed goals from a past period.
+You can reopen closed goals if you decide that they have become relevant again and that you need to continue updating their progress.
 
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) > **Goals** in the upper-right corner.
 
@@ -131,11 +129,10 @@ You can reopen closed goals if you decided that they have become relevant again 
 
    For information about filtering information in Workfront Goals, see [Filter information in Adobe Workfront Goals](../../workfront-goals/goal-management/filter-information-wf-goals.md).
 
-   Only closed goals display in the Goal List. 
 
 1. Click a closed goal.
 
-   This opens the Goal Details panel. 
+   This opens the Goal Details panel on the right. 
 
 1. Click the **More icon** ![](assets/more-icon.png) to the right of the goal name, then click **Reopen** > **Reopen**.
 

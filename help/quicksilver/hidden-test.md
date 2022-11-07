@@ -15,6 +15,10 @@ This file is hidden from search (`hide: yes`) and from the left nav (`hidefromto
 
 <p class="preview">This file is **hidden** from search (`hide: yes`) and from the left nav (`hidefromtoc: yes`).</p>
 
+## Image test
+
+![image test](assets/get-started.png){width="50" align="center"}
+
 ## Test of preview highlighting
 
 **Use DIV for blocks of components.**

@@ -9,6 +9,8 @@ exl-id: 1449374a-ab0d-4c98-83cd-4e511467633a
 ---
 # Edit issues
 
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> 
+
 You can edit information on issues that you have created, or that other users have created if they shared the issues with you.
 
 You can edit a single issue or you can edit issues in a list. For information about editing issues in a list, see [Edit issues in a list](../../../manage-work/issues/manage-issues/edit-issues-in-a-list.md).
@@ -187,7 +189,14 @@ You can edit an issue using the Edit Issue or Issue Details areas. The following
      </tr> 
      <tr> 
       <td role="rowheader">Primary Contact</td> 
-      <td>By default, the Primary Contact is the creator of the issue. To modify this, start typing the name of any active user in Workfront, then select it from the list. An issue can have only one Primary Contact.<br> If you change the Primary Contact, the user who was the primary contact still has Manage access to the issue. You must manually remove this access under <strong>Project Actions</strong> &gt; <strong>Sharing</strong>.</td> 
+      <td>By default, the Primary Contact is the creator of the issue. To modify this, start typing the name of any active user in Workfront, then select it from the list. An issue can have only one Primary Contact.<br> If you change the Primary Contact, the user who was the primary contact still has Manage access to the issue. You must manually remove this access under <strong>Project Actions</strong>  <strong>Sharing</strong>.
+      
+      <span class="preview"><b>TIP</b></span>
+
+      <span class="preview">    When adding a Primary Contact user, notice the avatar, the user's Primary Role, and their email address to distinguish between users with identical names. Users must be associated with at least one job role to view it as you add them.</span>
+
+      
+      </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Commit Date and time</td> 
@@ -237,6 +246,10 @@ You can edit an issue using the Edit Issue or Issue Details areas. The following
 
     </tbody> 
    </table>
+
+    
+    
+  
 
 1. Click **Save** or continue editing the following sections.
 

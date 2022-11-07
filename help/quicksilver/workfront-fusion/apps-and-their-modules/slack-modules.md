@@ -76,6 +76,7 @@ If you see the map button above a field or function, you can use it to set varia
 
 ### Messages {#messages}
 
+<!--
 * [Watch Public Channel Messages](#watch-public-channel-messages) 
 * [Watch Private Channel Messages](#watch-private-channel-messages) 
 * [Watch Direct Messages](#watch-direct-messages) 
@@ -86,8 +87,9 @@ If you see the map button above a field or function, you can use it to set varia
 * [Create a Message](#create-a-message) 
 * [Update a Message](#update-a-message) 
 * [Delete a Message](#delete-a-message)
+-->
 
-#### Watch Public Channel Messages {#watch-public-channel-messages}
++++**Watch Public Channel Messages**
 
 This trigger module starts the scenario when a new message is added to a public channel.
 
@@ -110,7 +112,9 @@ This trigger module starts the scenario when a new message is added to a public 
  </tbody> 
 </table>
 
-#### Watch Private Channel Messages {#watch-private-channel-messages}
++++
+
++++**Watch Private Channel Messages**
 
 This trigger module starts the scenario when a new message is added to a private channel (group).
 
@@ -133,7 +137,9 @@ This trigger module starts the scenario when a new message is added to a private
  </tbody> 
 </table>
 
-#### Watch Direct Messages {#watch-direct-messages}
++++
+
++++ **Watch Direct Messages** 
 
 This trigger module starts the scenario when a new message is added to a direct message.
 
@@ -156,7 +162,9 @@ This trigger module starts the scenario when a new message is added to a direct 
  </tbody> 
 </table>
 
-#### Watch Multiparty Direct Messages {#watch-multiparty-direct-messages}
++++
+
++++ **Watch Multiparty Direct Messages** 
 
 This trigger module starts the scenario when a new message is added to a multiparty direct message channel.
 
@@ -179,7 +187,9 @@ This trigger module starts the scenario when a new message is added to a multipa
  </tbody> 
 </table>
 
-#### Search for Message {#search-for-message}
++++
+
++++ **Search for Message**
 
 This search module returns messages matching a search query.
 
@@ -202,7 +212,9 @@ This search module returns messages matching a search query.
  </tbody> 
 </table>
 
-#### Get a Private Channel Message {#get-a-private-channel-message}
++++
+
++++ **Get a Private Channel Message**
 
 This action module retrieves the details of a message from a selected channel.
 
@@ -225,7 +237,9 @@ This action module retrieves the details of a message from a selected channel.
  </tbody> 
 </table>
 
-#### Get a Public Channel Message {#get-a-public-channel-message}
++++
+
++++ **Get a Public Channel Message**
 
 This action module returns a message with a given ID from a specified public channel..
 
@@ -248,7 +262,9 @@ This action module returns a message with a given ID from a specified public cha
  </tbody> 
 </table>
 
-#### List replies
++++
+
++++ **List replies**
 
 This action module retrieves a thread of messages posted to a conversation.
 
@@ -275,7 +291,9 @@ This action module retrieves a thread of messages posted to a conversation.
  </tbody> 
 </table>
 
-#### Create a Message {#create-a-message}
++++
+
++++ **Create a Message**
 
 This action module creates a new message.
 
@@ -354,16 +372,13 @@ This action module creates a new message.
   <tr> 
    <td role="rowheader"> <p>Unfurl media content</p> </td> 
    <td> <p>Enable this option to allow unfurling of media content. </p> <p>For more information about unfurling in Slack, see <a href="https://api.slack.com/reference/messaging/link-unfurling">Unfurling links in messages</a> in the Slack documentation.</p> </td> 
-  </tr> <!--
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td role="rowheader"> <p>User name</p> </td> 
-    <td> <p>Enter the name of your bot. </p> <p>If the As user option is enabled, this field is ignored.</p> </td> 
-   </tr>
-  --> 
+  </tr> 
  </tbody> 
 </table>
 
-#### Update a Message {#update-a-message}
++++
+
++++ **Update a Message**
 
 This action module allows you to edit an existing message.
 
@@ -390,17 +405,7 @@ This action module allows you to edit an existing message.
   <tr> 
    <td role="rowheader">Blocks</td> 
    <td>Block are reusable components that you can use to customize and organize your messages. For more information on blocks, see <a href="https://api.slack.com/block-kit">Block Kit</a> in the Slack documentation.</td> 
-  </tr> <!--
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td role="rowheader"> <p>As user</p> </td> 
-    <td> <p>Select <strong>Yes</strong> to update the message as the authenticated user instead of as a bot.</p> </td> 
-   </tr>
-  --> <!--
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td role="rowheader"> <p>Attachments</p> </td> 
-    <td> <p>Add any attachments that you want to include in the message. An attachment is required when the field Text is left empty.</p> <p>For more details about attachments, see <a href="https://api.slack.com/docs/message-attachments">Attaching content and links to messages</a> in the Slack documentation.</p> </td> 
-   </tr>
-  --> 
+  </tr> 
   <tr> 
    <td role="rowheader"> <p>Link names</p> </td> 
    <td> <p>Enable this option to allow names and channels to use <code>@username</code> or <code>#channel</code> format. </p> <p>For more information, see <a href="https://api.slack.com/docs/formatting">Formatting text for app surfaces</a> in the Slack documentation.</p> </td> 
@@ -412,7 +417,9 @@ This action module allows you to edit an existing message.
  </tbody> 
 </table>
 
-#### Delete a Message {#delete-a-message}
++++
+
++++ **Delete a Message**
 
 This action module deletes a specified message.
 
@@ -431,17 +438,15 @@ This action module deletes a specified message.
   <tr> 
    <td role="rowheader">Message ID</td> 
    <td> <p> Enter or map the time stamp of the message you want to delete.</p> <p>Note: The time stamp can be retrieved using another module, such as the Watch Private Channel Module.</p> </td> 
-  </tr> <!--
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td role="rowheader"> <p>As user</p> </td> 
-    <td> <p>Select <strong>Yes</strong> to delete the message as the authenticated user instead of as a bot.</p> </td> 
-   </tr>
-  --> 
+  </tr> 
  </tbody> 
 </table>
 
++++
+
 ### Files {#files}
 
+<!--
 * [Watch Files](#watch-files) 
 * [List Files](#list-files) 
 * [Get a File](#get-a-file) 
@@ -449,8 +454,9 @@ This action module deletes a specified message.
 * [Upload a File](#upload-a-file) 
 * [Create a Text File](#create-a-text-file) 
 * [Delete a File](#delete-a-file)
+-->
 
-#### Watch Files {#watch-files}
++++ **Watch Files**
 
 This trigger module starts a scenario when a new file is added.
 
@@ -477,7 +483,9 @@ This trigger module starts a scenario when a new file is added.
  </tbody> 
 </table>
 
-#### List Files {#list-files}
++++
+
++++ **List Files**
 
 This action module returns a list of files based on the specified filter.
 
@@ -516,7 +524,9 @@ This action module returns a list of files based on the specified filter.
  </tbody> 
 </table>
 
-#### Get a File {#get-a-file}
++++
+
++++ **Get a File**
 
 This action module returns details about the specified file.
 
@@ -535,7 +545,9 @@ This action module returns details about the specified file.
  </tbody> 
 </table>
 
-#### Download a File {#download-a-file}
++++
+
++++ **Download a File**
 
 This action module downloads a file from a URL. It must follow the Slack > Get a File module in a scenario.
 
@@ -554,7 +566,9 @@ This action module downloads a file from a URL. It must follow the Slack > Get a
  </tbody> 
 </table>
 
-#### Upload a File {#upload-a-file}
++++
+
++++ **Upload a File**
 
 This action module creates or uploads a file to Slack
 
@@ -589,7 +603,9 @@ This action module creates or uploads a file to Slack
  </tbody> 
 </table>
 
-#### Create a Text File {#create-a-text-file}
++++
+
++++ **Create a Text File**
 
 This action module creates a text file.
 
@@ -624,7 +640,9 @@ This action module creates a text file.
  </tbody> 
 </table>
 
-#### Delete a File {#delete-a-file}
++++
+
++++ **Delete a File**
 
 This action module returns deletes the specified file.
 
@@ -643,8 +661,11 @@ This action module returns deletes the specified file.
  </tbody> 
 </table>
 
++++
+
 ### Channels {#channels}
 
+<!--
 * [List Channels](#list-channels) 
 * [Get a Channel](#get-a-channel) 
 * [List Members in Channel](#list-members-in-channel) 
@@ -655,8 +676,9 @@ This action module returns deletes the specified file.
 * [Create a Channel](#create-a-channel) 
 * [Archive a Channel](#archive-a-channel) 
 * [Unarchive a Channel](#unarchive-a-channel)
+-->
 
-#### List Channels {#list-channels}
++++ **List Channels**
 
 This search module returns a list of all channels in a workspace.
 
@@ -683,7 +705,9 @@ This search module returns a list of all channels in a workspace.
  </tbody> 
 </table>
 
-#### Get a Channel {#get-a-channel}
++++
+
++++ **Get a Channel**
 
 This action module returns information about a workspace channel.
 
@@ -702,7 +726,9 @@ This action module returns information about a workspace channel.
  </tbody> 
 </table>
 
-#### List Members in Channel {#list-members-in-channel}
++++
+
++++ **List Members in Channel**
 
 This search module returns a list of users in the selected channel.
 
@@ -729,7 +755,9 @@ This search module returns a list of users in the selected channel.
  </tbody> 
 </table>
 
-#### Set the Topic of a Channel {#set-the-topic-of-a-channel}
++++
+
++++ **Set the Topic of a Channel**
 
 This action module changes the topic of a channel
 
@@ -756,7 +784,9 @@ This action module changes the topic of a channel
  </tbody> 
 </table>
 
-#### Set the Purpose of a Channel {#set-the-purpose-of-a-channel}
++++
+
++++ **Set the Purpose of a Channel**
 
 This action module changes the purpose of a channel
 
@@ -783,7 +813,9 @@ This action module changes the purpose of a channel
  </tbody> 
 </table>
 
-#### Join a Channel {#join-a-channel}
++++
+
++++ **Join a Channel**
 
 This action module joins the user to a channel.
 
@@ -802,7 +834,9 @@ This action module joins the user to a channel.
  </tbody> 
 </table>
 
-#### Leave a Channel {#leave-a-channel}
++++
+
++++ **Leave a Channel**
 
 This action module removes the user from a channel.
 
@@ -821,7 +855,9 @@ This action module removes the user from a channel.
  </tbody> 
 </table>
 
-#### Create a Channel {#create-a-channel}
++++
+
++++ **Create a Channel**
 
 This action module creates a new channel.
 
@@ -844,7 +880,9 @@ This action module creates a new channel.
  </tbody> 
 </table>
 
-#### Archive a Channel {#archive-a-channel}
++++
+
++++ **Archive a Channel**
 
 This action module creates a new channel.
 
@@ -863,7 +901,9 @@ This action module creates a new channel.
  </tbody> 
 </table>
 
-#### Unarchive a Channel {#unarchive-a-channel}
++++
+
++++ **Unarchive a Channel**
 
 This action module creates a new channel.
 
@@ -882,13 +922,17 @@ This action module creates a new channel.
  </tbody> 
 </table>
 
++++
+
 ### Reactions {#reactions}
 
+<!--
 * [List reactions](#list-reactions) 
 * [Add a reaction](#add-a-reaction) 
 * [Remove a reaction](#remove-a-reaction)
+-->
 
-#### List reactions {#list-reactions}
++++ **List reactions**
 
 This action module returns reactions that a user made.
 
@@ -911,7 +955,9 @@ This action module returns reactions that a user made.
  </tbody> 
 </table>
 
-#### Add a reaction {#add-a-reaction}
++++
+
++++ **Add a reaction**
 
 This action module adds a reaction to an item.
 
@@ -942,7 +988,9 @@ This action module adds a reaction to an item.
  </tbody> 
 </table>
 
-#### Remove a reaction {#remove-a-reaction}
++++
+
++++ **Remove a reaction**
 
 This action module adds a reaction to an item.
 
@@ -973,12 +1021,16 @@ This action module adds a reaction to an item.
  </tbody> 
 </table>
 
++++
+
 ### Stars {#stars}
 
+<!--
 * [Add a star](#add-a-star) 
 * [Remove a star](#remove-a-star)
+-->
 
-#### Add a star {#add-a-star}
++++ **Add a star**
 
 This action module makes a channel a starred channel.
 
@@ -1001,7 +1053,9 @@ This action module makes a channel a starred channel.
  </tbody> 
 </table>
 
-#### Remove a star {#remove-a-star}
++++
+
++++ **Remove a star**
 
 This action module removed the star from a starred channel.
 
@@ -1024,12 +1078,16 @@ This action module removed the star from a starred channel.
  </tbody> 
 </table>
 
++++
+
 ### Saved Items {#saved-items}
 
+<!--
 * [Save an Item](#save-an-item) 
 * [Remove Saved Item](#remove-saved-item)
+-->
 
-#### Save an Item {#save-an-item}
++++ **Save an Item**
 
 This action module adds an item to saved items.
 
@@ -1052,7 +1110,9 @@ This action module adds an item to saved items.
  </tbody> 
 </table>
 
-#### Remove Saved Item {#remove-saved-item}
++++
+
++++ **Remove Saved Item**
 
 This action module adds an item to saved items.
 
@@ -1075,12 +1135,16 @@ This action module adds an item to saved items.
  </tbody> 
 </table>
 
++++
+
 ### Pins {#pins}
 
+<!--
 * [Pin an Item](#pin-an-item) 
 * [Unpin an Item](#unpin-an-item)
+-->
 
-#### Pin an Item {#pin-an-item}
++++ **Pin an Item**
 
 This action module pins an item, such as a file or file comment, to a channel.
 
@@ -1107,7 +1171,9 @@ This action module pins an item, such as a file or file comment, to a channel.
  </tbody> 
 </table>
 
-#### Unpin an Item {#unpin-an-item}
++++
+
++++ **Unpin an Item**
 
 This action module unpins an item from a channel. You can unpin files, file comments, channel messages, or group messages.
 
@@ -1134,16 +1200,20 @@ This action module unpins an item from a channel. You can unpin files, file comm
  </tbody> 
 </table>
 
++++
+
 ### Users {#users}
 
+<!--
 * [Watch Users](#watch-users) 
 * [Search for User](#search-for-user) 
 * [List Users](#list-users) 
 * [Get a User](#get-a-user) 
 * [Invite Users](#invite-users) 
 * [Kick a User](#kick-a-user)
+-->
 
-#### Watch Users {#watch-users}
++++ **Watch Users**
 
 This trigger module starts the scenario when a new user is added to the Slack workspace.
 
@@ -1162,7 +1232,9 @@ This trigger module starts the scenario when a new user is added to the Slack wo
  </tbody> 
 </table>
 
-#### Search for User {#search-for-user}
++++
+
++++ **Search for User**
 
 This action module retrieves details about a single user, by using their email address.
 
@@ -1181,7 +1253,9 @@ This action module retrieves details about a single user, by using their email a
  </tbody> 
 </table>
 
-#### List Users {#list-users}
++++
+
++++ **List Users**
 
 This action module returns a list of all users in a workspace.
 
@@ -1200,7 +1274,9 @@ This action module returns a list of all users in a workspace.
  </tbody> 
 </table>
 
-#### Get a User {#get-a-user}
++++
+
++++ **Get a User**
 
 This action module retrieves details about a member of a workspace.
 
@@ -1219,7 +1295,9 @@ This action module retrieves details about a member of a workspace.
  </tbody> 
 </table>
 
-#### Invite Users {#invite-users}
++++
+
++++ **Invite Users**
 
 This action module invites 1-30 users to a public or private channel.
 
@@ -1246,7 +1324,9 @@ This action module invites 1-30 users to a public or private channel.
  </tbody> 
 </table>
 
-#### Kick a User {#kick-a-user}
++++
+
++++ **Kick a User**
 
 This action module removes a user from a channel.
 
@@ -1273,15 +1353,19 @@ This action module removes a user from a channel.
  </tbody> 
 </table>
 
++++
+
 ### Reminders {#reminders}
 
+<!--
 * [List Reminders](#list-reminders) 
 * [Get a Reminder](#get-a-reminder) 
 * [Create a Reminder](#create-a-reminder) 
 * [Complete a Reminder](#complete-a-reminder) 
 * [Delete a Reminder](#delete-a-reminder)
+-->
 
-#### List Reminders {#list-reminders}
++++ **List Reminders**
 
 This action module returns a list of all reminders created by or given to the currently authenticated user.
 
@@ -1300,7 +1384,9 @@ This action module returns a list of all reminders created by or given to the cu
  </tbody> 
 </table>
 
-#### Get a Reminder {#get-a-reminder}
++++
+
++++ **Get a Reminder**
 
 This action module retrieves details about a specific reminder.
 
@@ -1319,7 +1405,9 @@ This action module retrieves details about a specific reminder.
  </tbody> 
 </table>
 
-#### Create a Reminder {#create-a-reminder}
++++
+
++++ **Create a Reminder**
 
 This action module creates a reminder.
 
@@ -1351,7 +1439,9 @@ This action module creates a reminder.
  </tbody> 
 </table>
 
-#### Complete a Reminder {#complete-a-reminder}
++++
+
++++ **Complete a Reminder**
 
 This action module completes a specific reminder.
 
@@ -1370,7 +1460,9 @@ This action module completes a specific reminder.
  </tbody> 
 </table>
 
-#### Delete a Reminder {#delete-a-reminder}
++++
+
++++ **Delete a Reminder**
 
 This action module deletes a specific reminder.
 
@@ -1389,9 +1481,11 @@ This action module deletes a specific reminder.
  </tbody> 
 </table>
 
++++
+
 ### Events {#events}
 
-#### New Event
++++ **New Event**
 
 This instant trigger starts a scenario when a new message or other event is created.
 
@@ -1413,9 +1507,11 @@ This instant trigger starts a scenario when a new message or other event is crea
  </tbody> 
 </table>
 
++++
+
 ### Profile {#profile}
 
-#### Set a status
++++ **Set a status**
 
 This action module updates a user's current status.
 
@@ -1447,9 +1543,11 @@ This action module updates a user's current status.
  </tbody> 
 </table>
 
++++
+
 ### Other {#other}
 
-#### Make an API Call
++++ **Make an API Call**
 
 This action module lets you make a custom authenticated call to the Slack API. This way, you can create a data flow automation that can't be accomplished by the other Slack modules. 
 
@@ -1475,7 +1573,7 @@ This action module lets you make a custom authenticated call to the Slack API. T
   </tr> 
   <tr> 
    <td role="rowheader">Query String</td> 
-   <td> <p>Add the query for the API call in the form of a standard JSON object.</p> <p>For example: <code>{“name”:“something-urgent”}</code></p> </td> 
+   <td> <p>Add the query for the API call in the form of a standard JSON object.</p> <p>For example: <code>{"name":"something-urgent"}</code></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Body</td> 
@@ -1490,6 +1588,8 @@ This action module lets you make a custom authenticated call to the Slack API. T
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## Terminology
 
