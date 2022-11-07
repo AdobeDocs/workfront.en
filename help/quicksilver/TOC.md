@@ -668,6 +668,7 @@ feature-set: Workfront
     * [Install a blueprint](administration-and-setup/blueprints/blueprints-install.md)
     * [Configure a blueprint](administration-and-setup/blueprints/configure-template-package.md)
     * [Actions to take after installing a blueprint](administration-and-setup/blueprints/best-next-actions-after-install.md)
+    * [List of available blueprints](administration-and-setup/blueprints/list-of-available-blueprints.md)
   * Administrator FAQs {#admin-faq}
     * [Administrator FAQs](administration-and-setup/administrator-faqs/adminstrator-faqs.md)
     * [AtTask OnPremise support policy](administration-and-setup/administrator-faqs/attask-onpremise-support-policy.md)
