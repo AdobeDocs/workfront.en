@@ -39,7 +39,7 @@ The following types of blueprints are available:
 * Setup features: Includes one or more elements that are configured in the Setup area of Workfront, such as layout templates.
 -->
 
-To review the current blueprints, see [List of available blueprints](/help/quicksilver/administration-and-setup/blueprints/blueprints-overview.md).
+To review the current blueprints, see [List of available blueprints](/help/quicksilver/administration-and-setup/blueprints/list-of-available-blueprints.md).
 
 ### View details
 
