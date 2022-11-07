@@ -8,7 +8,7 @@ author: Becky
 feature: Workfront Fusion
 exl-id: cc2c3f87-34dc-4a06-9f5f-1a7fb10a3b82
 ---
-# View a scenario's execution history in Adobe Workfront Fusion
+# View a scenario's execution history in [!DNL Adobe Workfront Fusion]
 
 You can display information about all the runs for a scenario, or you can search all executions of the scenario for specific data.
 
@@ -32,7 +32,7 @@ You must have the following access to use the functionality in this article:
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Adobe Workfront Fusion] license**</td> 
-  <td> <p>[!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p><p>Workfront Fusion for Work Automation </p>  </td>  
+  <td> <p>[!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p><p>[!UICONTROL [!DNL Workfront Fusion] for Work Automation] </p>  </td>  
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
@@ -47,9 +47,9 @@ For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Work
 
 ## View all executions of a scenario
 
-### View scenario execution history on the Scenario Detail page
+### View scenario execution history on the [!UICONTROL Scenario Detail] page
 
-1. Click the **Scenario** tab in the left panel, then click the scenario.
+1. Click the **[!UICONTROL Scenario]** tab in the left panel, then click the scenario.
 
    Or
 
@@ -65,18 +65,18 @@ For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Work
 
    The following details are listed for every execution of the scenario:
 
-   * Date when the run was **Started**
-   * **Status** (success or failed)
-   * Run **Duration**
-   * Number of **Operations**
-   * Size of **Data Transfer**
-   * Link to **Details**
+   * Date when the run was **[!UICONTROL Started]**
+   * **[!UICONTROL Status]** (success or failed)
+   * Run **[!UICONTROL Duration]**
+   * Number of **[!UICONTROL Operations]**
+   * Size of **[!UICONTROL Data Transfer]**
+   * Link to **[!UICONTROL Details]**
 
-### View scenario execution history on the History tab {#view-scenario-execution-history-on-the-history-tab}
+### View scenario execution history on the [!UICONTROL History] tab
 
-The [!UICONTROL History] tab shows more detail than is available on the Scenario detail page. You can also filter and sort the executions on the [!UICONTROL History] tab.
+The [!UICONTROL History] tab shows more detail than is available on the [!UICONTROL Scenario detail] page. You can also filter and sort the executions on the [!UICONTROL History] tab.
 
-1. Click the **Scenario** tab in the left panel, then click the scenario.
+1. Click the **[!UICONTROL Scenario]** tab in the left panel, then click the scenario.
 
    Or
 
@@ -85,7 +85,7 @@ The [!UICONTROL History] tab shows more detail than is available on the Scenario
 1. Click the **[!UICONTROL History]** tab near the upper-left corner of the page
 1. (Optional) For detailed information about a selected scenario run, including which bundles were processed, click the **[!UICONTROL Details]** link.
 
-   For more information on processing bundles, see [Scenario execution flow in Adobe Workfront Fusion](../../workfront-fusion/scenarios/scenario-execution-flow.md).
+   For more information on processing bundles, see [Scenario execution flow in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/scenario-execution-flow.md).
 
    >[!NOTE]
    >
@@ -95,10 +95,10 @@ The [!UICONTROL History] tab shows more detail than is available on the Scenario
 
 You can filter the execution history to view only executions with the specified values.
 
-1. Open the full-page history for a scenario as described in [[!UICONTROL View scenario execution history] on the [!UICONTROL History] tab](#view-scenario-execution-history-on-the-history-tab) in this article.
+1. Open the full-page history for a scenario as described in [View scenario execution history on the [!UICONTROL History] tab](#view-a-scenarios-execution-history-in-dnl-adobe-workfront-fusion) in this article.
 1. Click the [!UICONTROL filter] icon ![](assets/fusion-scenario-filter-icon.png) in the header of the column you want to filter by.
 1. In the [!UICONTROL filter] dialog, enter the values that you want to filter by.
-1. Click **Save**.
+1. Click **[!UICONTROL Save]**.
 
 The filter icon is orange in columns with a currently active filter.
 
@@ -106,13 +106,13 @@ The filter icon is orange in columns with a currently active filter.
 
 You can sort the scenario execution history.
 
-1. Open the full-page history for a scenario as described in [[!UICONTROL View scenario execution history] on the [!UICONTROL History] tab](#view-scenario-execution-history-on-the-history-tab) in this article.
+1. Open the full-page history for a scenario as described in [View scenario execution history on the [!UICONTROL History] tab](#view-scenario-execution-history-on-the-uicontrol-history-tab) in this article.
 1. Click the [!UICONTROL Sort] icon in the header of the column you want to filter by.
 1. Optional: To reverse the order of the sort, click the [!UICONTROL Sort] icon again.
 
 ## Search all executions of a scenario
 
-1. Click the **Scenario** icon ![](assets/scenarios-icon.png) in the left panel, then click the scenario.
+1. Click the **[!UICONTROL Scenario]** icon ![](assets/scenarios-icon.png) in the left panel, then click the scenario.
 
    Or
 
@@ -132,7 +132,7 @@ The [!UICONTROL Search in history] window opens.
 
    >[!INFO]
    >
-   >**Example:** If you want to find the execution that created a specific project, enter the project ID into the Fulltext search bar.
+   >**Example:** If you want to find the execution that created a specific project, enter the project ID into the [!UICONTROL Fulltext search] bar.
    >
    >"625ef2ef0006036bd1794b6e52d737c5"
 
@@ -142,7 +142,7 @@ The [!UICONTROL Search in history] window opens.
    >
    >* Executions are available only for the previous 30 days.
    >
-   >* Workfront Fusion stores webhook payloads for 30 days. Accessing a webhook payload more than 30 days after it was created results in the error "Failed to read file from storage."
+   >* [!DNL Workfront Fusion] stores webhook payloads for 30 days. Accessing a webhook payload more than 30 days after it was created results in the error "[!UICONTROL Failed to read file from storage.]"
 
 
 1. (Optional) To limit your search by status, select the desired status in the **[!UICONTROL By status]** dropdown.
@@ -150,16 +150,16 @@ The [!UICONTROL Search in history] window opens.
 
    Available statuses are:
 
-   * All
+   * [!UICONTROL All]
 
-   * Error
+   * [!UICONTROL Error]
 
-   * Warning
+   * [!UICONTROL Warning]
 
-   * Success
+   * [!UICONTROL Success]
 
 1. (Optional) Change the order that results display in the **[!UICONTROL Sort by dates]** dropdown.
 
 1. (Optional) To copy a scenario execution ID, click the **[!UICONTROL Copy execution ID]** icon <img src="assets/copy-fusion-execution-id-icon.png"> in the row of the desired execution
 
-1. (Optional) Click on a result of the Fulltext search to examine the [!DNL scenario] module output bundle that contains the information.
+1. (Optional) Click on a result of the [!UICONTROL Fulltext search] to examine the scenario module output bundle that contains the information.

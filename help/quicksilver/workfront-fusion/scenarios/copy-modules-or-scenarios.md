@@ -10,7 +10,7 @@ exl-id: 24e77a56-d676-4cf1-a801-1c328ffd0c4e
 ---
 # Copy modules or scenarios in [!DNL Adobe Workfront Fusion]
 
-You can copy modules, groups of modules, or entire scenarios in Adobe Workfront Fusion. This ability allows you to reuse scenarios or parts of scenarios without having to build them again
+You can copy modules, groups of modules, or entire scenarios in [!DNL Adobe Workfront Fusion]. This ability allows you to reuse scenarios or parts of scenarios without having to build them again
 
 ## Access requirements
 
@@ -30,7 +30,7 @@ You must have the following access to use the functionality in this article:
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Adobe Workfront Fusion] license**</td> 
-  <td> <p>[!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p><p>Workfront Fusion for Work Automation </p>  </td>    </tr> 
+  <td> <p>[!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p><p>[!UICONTROL [!DNL Workfront Fusion] for Work Automation] </p>  </td>    </tr> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
@@ -47,7 +47,7 @@ For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Work
 
 You must add modules to a scenario before you can copy them.
 
-## Copy a module or a group of modules {#copy-a-module-or-a-group-of-modules}
+## Copy a module or a group of modules
 
 When you copy a module, the copy retains all of the field values and settings of the original module.
 
@@ -72,9 +72,9 @@ Copying a group of modules is similar to copying a single module.
    >
    >You can select more than one module by holding [!UICONTROL shift] and clicking on the modules that you want to copy. Copying a group of modules also copies any connecting lines, filters, or routing logic between them.
 
-1. Select **Copy module**.
+1. Select **[!UICONTROL Copy module]**.
 1. Move the cursor to the area of the scenario where you want the copy of the scenario.
-1. Right click, and select **Paste**.
+1. Right click, and select **[!UICONTROL Paste]**.
 1. Connect the pasted modules to the scenario by dragging them to the appropriate location in the scenario.
 
    You can also use keyboard shortcuts to copy and paste.
@@ -91,17 +91,17 @@ Cloning a scenario creates a copy of the scenario, which you can then edit.
 
       If you are working on the scenario in the [The scenario editor in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/scenario-editor.md), click the left arrow ![](assets/exit-editing-arrow.png) near the upper-left corner of the window.
 
-1. Right click **Options** at the upper-right of the page.
-1. Select **Clone**.
+1. Right click **[!UICONTROL Options]** at the upper-right of the page.
+1. Select **[!UICONTROL Clone]**.
 1. (Optional) Enter a name for the new scenario.
-1. (Optional) Enable **Keep the states of any new modules the same as those being duplicated** to ensure that the copied scenario also includes information about the most recent records processed by the original scenario.
+1. (Optional) Enable **[!UICONTROL Keep the states of any new modules the same as those being duplicated]** to ensure that the copied scenario also includes information about the most recent records processed by the original scenario.
 1. Click **[!UICONTROL Save]** to create the scenario.
 
 ## Copy a scenario by using blueprints
 
 Scenario blueprints represent the arrangement, mapping, and field values of a given scenario at a given point in time. You can export a scenario blueprint into a JSON file on your computer, then import it when creating a new scenario. Scenarios imported from a scenario blueprint can be edited.
 
-A scenario blueprint represents the entire scenario. If you want to copy only certain modules from a scenario, see [[!UICONTROL Copy a module] or a group of modules](#copy-a-module-or-a-group-of-modules) in this article.
+A scenario blueprint represents the entire scenario. If you want to copy only certain modules from a scenario, see [Copy a module or a group of modules](#copy-a-module-or-a-group-of-modules) in this article.
 
 >[!NOTE]
 >
@@ -110,9 +110,9 @@ A scenario blueprint represents the entire scenario. If you want to copy only ce
 ### Export a scenario blueprint
 
 1. In the scenario, click the **[!UICONTROL More]** menu in the scenario settings area.
-1. Click Export Blueprint.
+1. Click **[!UICONTROL Export Blueprint]**.
 
-   A [!DNL JSON] file is created and downloads to your computer. You can locate this file in your [!DNL Downloads] folder.
+   A JSON file is created and downloads to your computer. You can locate this file in your [!DNL Downloads] folder.
 
 ### Import a blueprint
 
@@ -122,12 +122,12 @@ A scenario blueprint represents the entire scenario. If you want to copy only ce
 
 1. Begin creating a new scenario.
 1. In the scenario, click the **[!UICONTROL More]** menu in the scenario settings area.
-1. Click **Import Blueprint**.
+1. Click **[!UICONTROL Import Blueprint]**.
 1. In the dialog that appears, click **[!UICONTROL Browse]**
-1. Navigate to the blueprint you want to import, and click **Open**.
-1. Click **Save**.
+1. Navigate to the blueprint you want to import, and click **[!UICONTROL Open]**.
+1. Click **[!UICONTROL Save]**.
 
-   A [!DNL JSON] file is created and downloads to your computer. You can locate this file in your [!DNL Downloads] folder.
+   A JSON file is created and downloads to your computer. You can locate this file in your [!UICONTROL Downloads] folder.
 
 ## Copy and reuse scenarios by using templates
 

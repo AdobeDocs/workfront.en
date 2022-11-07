@@ -34,7 +34,7 @@ You must have the following access to use the functionality in this article:
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Adobe Workfront Fusion] license**</td> 
-  <td> <p>[!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p><p>Workfront Fusion for Work Automation </p>  </td>    </tr> 
+  <td> <p>[!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p><p>[!UICONTROL [!DNL Workfront Fusion] for Work Automation] </p>  </td>    </tr> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
@@ -45,13 +45,13 @@ You must have the following access to use the functionality in this article:
 
 To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
 
-For information on Adobe Workfront Fusion licenses, see [Adobe Workfront Fusion licenses](../../../workfront-fusion/get-started/license-automation-vs-integration.md)
+For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Workfront Fusion] licenses](../../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
 ## Create a new template
 
 1. Click **[!UICONTROL Templates]** ![](assets/fusion-template-icon.png) in the left navigation panel.
 1. Click **[!UICONTROL Create a new template]** in the upper-right corner.
-1. (Optional) Rename the template by replacing the default **New template name** in the upper-left corner.
+1. (Optional) Rename the template by replacing the default **[!UICONTROL New template name]** in the upper-left corner.
 1. (Optional) To change the language of your template, click **[!UICONTROL Set up a template]** ![](assets/fusion-scenario-settings-icon.png) and select the language from the Language drop-down.
 
    >[!IMPORTANT]
@@ -61,28 +61,28 @@ For information on Adobe Workfront Fusion licenses, see [Adobe Workfront Fusion 
 1. (Optional) To enter a description of the template, click **[!UICONTROL Set up a template]** ![](assets/fusion-scenario-settings-icon.png) and enter the description.
 1. Add apps, modules, and tools in the same way as you would do when creating a standard scenario.
 
-   To add contextual help to the modules, see [Set up Wizard functionality](#set-up-wizard-functionality) in this article.
+   To add contextual help to the modules, see [Set up [!UICONTROL Wizard] functionality](#set-up-uicontrol-wizard-functionality) in this article.
 
-   For more information on building a scenario, see [Create a scenario in Adobe Workfront Fusion](../../../workfront-fusion/scenarios/create-a-scenario.md).
+   For more information on building a scenario, see [Create a scenario in [!DNL Adobe Workfront Fusion]](../../../workfront-fusion/scenarios/create-a-scenario.md).
 
    >[!NOTE]
    >
    >If your template includes modules that require adding the connection, credentials, or other privacy-sensitive information, this information is not shared with the template users.
 
-1. (Optional) Click **Run once** to test your template.
-1. Click the **Save** icon ![](assets/save-icon.png).
+1. (Optional) Click **[!UICONTROL Run once]** to test your template.
+1. Click the **[!UICONTROL Save]** icon ![](assets/save-icon.png).
 
 >[!NOTE]
 >
 >By saving your template you make it visible for all your team members. If you want your template to be accessible outside of your team you need to publish it and then use a shared link, or ask your administrator to approve and publish the template.
 
-## Set up Wizard functionality {#set-up-wizard-functionality}
+## Set up [!UICONTROL Wizard] functionality
 
-The [!DNL Workfront Fusion template] wizard allows you to provide future users of your template with instructions or information related to the specific fields used in modules.
+The [!DNL Workfront Fusion template] [!UICONTROL Wizard] allows you to provide future users of your template with instructions or information related to the specific fields used in modules.
 
 1. Click the module added to the template to see the module's fields.
-1. Locate the field where you want to add Wizard information, and enable **Use in Wizard** for that field.
-1. Enter the information you want to make visible for users into the Help field.
-1. (Optional) To allow users to see this text when using the template, enable **Use as default value**.
+1. Locate the field where you want to add [!UICONTROL Wizard] information, and enable **[!UICONTROL Use in Wizard]** for that field.
+1. Enter the information you want to make visible for users into the [!UICONTROL Help] field.
+1. (Optional) To allow users to see this text when using the template, enable **[!UICONTROL Use as default value]**.
 1. Repeat steps 2-4 for each field that you want to provide information for.
-1. Click **OK** to save changes and close the module.
+1. Click **[!UICONTROL OK]** to save changes and close the module.

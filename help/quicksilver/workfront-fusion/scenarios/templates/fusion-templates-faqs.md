@@ -8,7 +8,7 @@ author: Becky
 feature: Workfront Fusion
 exl-id: 3cd7cbc0-ddc5-4437-8672-3c9bea609c9b
 ---
-# Adobe Workfront Fusion templates FAQs
+# [!DNL Adobe Workfront Fusion] templates FAQs
 
 ## Access requirements
 
@@ -28,7 +28,7 @@ You must have the following access to use the functionality in this article:
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Adobe Workfront Fusion] license**</td> 
-  <td> <p>[!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p><p>Workfront Fusion for Work Automation </p>  </td>  
+  <td> <p>[!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p><p>[!UICONTROL [!DNL Workfront Fusion] for Work Automation] </p>  </td>  
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
@@ -39,7 +39,7 @@ You must have the following access to use the functionality in this article:
 
 To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
 
-For information on Adobe Workfront Fusion licenses, see [Adobe Workfront Fusion licenses](../../../workfront-fusion/get-started/license-automation-vs-integration.md)
+For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Workfront Fusion] licenses](../../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
 ## How can I share a template with other users?
 
@@ -47,7 +47,7 @@ For information on Adobe Workfront Fusion licenses, see [Adobe Workfront Fusion 
 
 The saved template is automatically shared with your team members. If you want to share it with users that are not members of your team, you must to publish it. You can then share it with a link, or ask the administrator tomaking the template public.
 
-For more information, see [Publish and share Adobe Workfront Fusion templates](../../../workfront-fusion/scenarios/templates/publish-and-share-fusion-templates.md)
+For more information, see [Publish and share [!DNL Adobe Workfront Fusion templates]](../../../workfront-fusion/scenarios/templates/publish-and-share-fusion-templates.md)
 
 ## How can I edit or delete a public template?
 

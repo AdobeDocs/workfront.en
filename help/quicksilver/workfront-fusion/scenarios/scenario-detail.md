@@ -32,7 +32,7 @@ You must have the following access to use the functionality in this article:
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Adobe Workfront Fusion] license**</td> 
-   <td> <p>[!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p><p>Workfront Fusion for Work Automation </p>  </td> 
+   <td> <p>[!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p><p>[!UICONTROL [!DNL Workfront Fusion] for Work Automation] </p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
@@ -45,7 +45,7 @@ To find out what plan, license type, or access you have, contact your [!DNL Work
 
 For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Workfront Fusion] licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
-## Open the scenario detail page:
+## Open the [!UICONTROL Scenario detail] page:
 
 1. Click the **[!UICONTROL Scenario]** tab in the left panel, then click a scenario you would like details on.
 
@@ -62,11 +62,11 @@ For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Work
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader"><strong>Modules diagram</strong> </td> 
+      <td role="rowheader">[!UICONTROL Modules diagram] </td> 
       <td>This tab displays the visual representation of the scenario. The Diagram is the same as you will see in the scenario editor</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL History] (tab)</strong> </td> 
+      <td role="rowheader">[!UICONTROL History] (tab) </td> 
       <td> <p>Open this tab to see a history of the scenario, including any editing of the scenario. </p> <p>The [!UICONTROL History] tab also provides the scenario execution history of each run, which includes the following:</p> 
        <ul> 
         <li>Status of each run (success or error)</li> 
@@ -77,7 +77,7 @@ For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Work
        </ul> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Incomplete executions</td> 
+      <td role="rowheader">[!UICONTROL Incomplete executions]</td> 
       <td> <p>This tab provides information about any incomplete executions of the scenario. It includes the following information for each incomplete run:</p> 
        <ul> 
         <li>Date created</li> 
@@ -88,42 +88,40 @@ For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Work
        </ul> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Activate scenario (On/Off button)</td> 
-      <td>Once a scenario is created it needs to be activated in order for it to execute according to its schedule. By clicking the On/Off button near the upper-right corner, you can activate or inactivate the scenario. Once it is turned on, the scenario runs accordingly to its schedule.</td> 
+      <td role="rowheader">[!UICONTROL Activate scenario] (On/Off button)</td> 
+      <td>Once a scenario is created it needs to be activated in order for it to execute according to its schedule. By clicking the On/Off button near the upper-right corner, you can activate or inactivate the scenario. Once it is turned on, the scenario runs according to its schedule.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Edit</td> 
+      <td role="rowheader">[!UICONTROL Edit]</td> 
       <td>Click this button in the upper-right corner to open the scenario editor, where you can work on your scenario.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Options</td> 
+      <td role="rowheader">[!UICONTROL Options]</td> 
       <td> <p>This menu provides you with extra options without having to open up the scenario editor. These include:</p> 
        <ul> 
-        <li>Scheduling</li> 
-        <li>Rename</li> 
-        <li>Clone</li> 
-        <li>Delete</li> 
+        <li>[!UICONTROL Scheduling]</li> 
+        <li>[!UICONTROL Rename]</li> 
+        <li>[!UICONTROL Clone]</li> 
+        <li>[!UICONTROL Delete]</li> 
        </ul> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Currently running</td> 
+      <td role="rowheader">[!UICONTROL Currently running]</td> 
       <td>This area shows information related to the currently running execution.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"> <p>History (area)</p> <p> </p> </td> 
+      <td role="rowheader"> <p>[!UICONTROL History] (area)</p> <p> </p> </td> 
       <td> <p>This area shows information related to the last runs of the scenario. For every run it displays:</p> 
        <ul> 
         <li>Run date</li> 
         <li>Status (success or failed)</li> 
-        <li>Run duration</li> <!--
-         <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Number of operations</li>
-        --> 
+        <li>Run duration</li> 
         <li>Size of data transfer</li> 
         <li>Link to detailed information</li> 
        </ul> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"> <p>Stats</p>  </td> 
+      <td role="rowheader"> <p>[!UICONTROL Stats]</p>  </td> 
       <td>This graph allows you to view the amount of data transfer and operations used throughout the runs of the scenario in a [!UICONTROL line] graph.</td> 
      </tr> 
     </tbody> 

@@ -16,7 +16,7 @@ The [!UICONTROL Incomplete executions] folder stores scenario executions that we
 >
 >By default the storing of incomplete executions is disabled. To enable it, enable the [!UICONTROL Allow storing incomplete executions] option in the scenario advanced settings.
 >
->For more information about scenario settings, see [The scenario settings panel in Adobe Workfront Fusion](../../workfront-fusion/scenarios/scenario-settings-panel.md).
+>For more information about scenario settings, see [The scenario settings panel in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/scenario-settings-panel.md).
 
 ## Access requirements
 
@@ -36,7 +36,7 @@ You must have the following access to use the functionality in this article:
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Adobe Workfront Fusion] license**</td> 
-  <td> <p>[!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p><p>Workfront Fusion for Work Automation </p>  </td>  
+  <td> <p>[!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p><p>[!UICONTROL [!DNL Workfront Fusion] for Work Automation] </p>  </td>  
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
@@ -63,36 +63,36 @@ For more information, see [Errors resulting into incomplete executions](#errors-
 >
 >`"There is NOT ENOUGH SPACE to add a bundle to the IEQ. The reason is: Too many incomplete executions."`
 >
->For more information, see [Enable data loss](../../workfront-fusion/scenarios/scenario-settings-panel.md#enable) in [The scenario settings panel in Adobe Workfront Fusion](../../workfront-fusion/scenarios/scenario-settings-panel.md).
+>For more information, see [Enable data loss](../../workfront-fusion/scenarios/scenario-settings-panel.md#enable) in [The scenario settings panel in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/scenario-settings-panel.md).
 
 ## Resolve incomplete executions
 
 When a new incomplete execution is stored, you can resolve it as follows:
 
 1. Click the **[!UICONTROL Incomplete Executions]** tab.
-1. Locate the incomplete execution you would like to resolve and click **Detail**.
+1. Locate the incomplete execution you would like to resolve and click **[!UICONTROL Detail]**.
 
 
    If you want to see the log of all module's operations before you attempt to resolve the incomplete execution, you can resolve the incomplete execution from the [!UICONTROL History] folder:
 
-1. Click the **History** tab.
-1. Locate the scenario's failed execution log and click **Details**.
+1. Click the **[!UICONTROL History]** tab.
+1. Locate the scenario's failed execution log and click **[!UICONTROL Details]**.
 1. Open the module's log where all the module's operations are shown.
-1. Locate the failed operation and click **Resolve**:
+1. Locate the failed operation and click **[!UICONTROL Resolve]**:
 
    ![](assets/resolve-btn-350x188.png)
 
 ## Options related to incomplete executions
 
-The following options in the Scenario settings panel determine if and how the incomplete executions are stored:
+The following options in the [!UICONTROL Scenario settings] panel determine if and how the incomplete executions are stored:
 
 * Allow storing incomplete executions
 * Sequential processing
 * Enable data loss
 
-For more information about these options, see [The scenario settings panel in Adobe Workfront Fusion](../../workfront-fusion/scenarios/scenario-settings-panel.md).
+For more information about these options, see [The scenario settings panel in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/scenario-settings-panel.md).
 
-## Errors resulting into incomplete executions {#errors-resulting-into-incomplete-executions}
+## Errors resulting into incomplete executions 
 
 There are several categories of errors which result into storing of incomplete executions. These may include:
 

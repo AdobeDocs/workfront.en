@@ -10,7 +10,7 @@ exl-id: 97e3402c-d1d0-44f6-9752-11b0f5abee22
 ---
 # View, edit, and delete [!DNL Adobe Workfront Fusion] templates
 
-Adobe Workfront Fusion requires an Adobe Workfront Fusion license in addition to an Adobe Workfront license.
+[!DNL Adobe Workfront Fusion] requires an Adobe Workfront Fusion license in addition to an [!DNL Adobe Workfront license].
 
 ## Access requirements
 
@@ -30,7 +30,7 @@ You must have the following access to use the functionality in this article:
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Adobe Workfront Fusion] license**</td> 
-  <td> <p>[!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p><p>Workfront Fusion for Work Automation </p>  </td>  
+  <td> <p>[!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p><p>[!UICONTROL [!DNL Workfront Fusion] for Work Automation] </p>  </td>  
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
@@ -41,11 +41,11 @@ You must have the following access to use the functionality in this article:
 
 To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
 
-For information on Adobe Workfront Fusion licenses, see [Adobe Workfront Fusion licenses](../../../workfront-fusion/get-started/license-automation-vs-integration.md)
+For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Workfront Fusion] licenses](../../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
 ## View a template
 
-1. Click the Templates icon ![](assets/fusion-template-icon.png) in the side navigation menu.
+1. Click the [!UICONTROL Templates] icon ![](assets/fusion-template-icon.png) in the side navigation menu.
 1. Select the tab that contains the template you want to view.
 
    <table style="table-layout:auto"> 
@@ -53,11 +53,11 @@ For information on Adobe Workfront Fusion licenses, see [Adobe Workfront Fusion 
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">Public templates</td> 
+      <td role="rowheader">[!UICONTROL Public templates]</td> 
       <td> <p> All templates that were published and then approved by the administrator. On the template tiles, you can see the name of the template, its preview, and the socket icon with a number indicating how many times the template has been used so far.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Team templates</td> 
+      <td role="rowheader">[!UICONTROL Team templates]</td> 
       <td> <p>All templates created by your team members including the ones that were already made public by the administrator. On the template tiles, you can see the name of the template, the status icons that are described in detail in the Publishing and sharing templates section of this documentation, and the Delete buttons.</p> </td> 
      </tr> 
     </tbody> 
@@ -77,9 +77,9 @@ For information on Adobe Workfront Fusion licenses, see [Adobe Workfront Fusion 
 
 You can edit any templates that are available in the [!UICONTROL Team templates] tab.
 
-1. Click the **Templates** icon ![](assets/fusion-template-icon.png) in the side navigation menu.
-1. Click the **Team templates** tab.
-1. Click the **Private** tab.
+1. Click the **[!UICONTROL Templates]** icon ![](assets/fusion-template-icon.png) in the side navigation menu.
+1. Click the **[!UICONTROL Team templates]** tab.
+1. Click the **[!UICONTROL Private]** tab.
 1. Click the template you want to edit.
 1. Click **[!UICONTROL Edit]** in the top-right corner
 
@@ -87,8 +87,8 @@ You can edit any templates that are available in the [!UICONTROL Team templates]
 
    Click the template diagram.
 
-1. Make changes in the template. You can access all options that were available when creating the template. To see these options, see [Create new templates in Adobe Workfront Fusion](../../../workfront-fusion/scenarios/templates/create-new-fusion-templates.md). Then click the [!UICONTROL save] icon at the very bottom of the page.
-1. Click the **Save** icon ![](assets/save-icon.png).
+1. Make changes in the template. You can access all options that were available when creating the template. To see these options, see [Create new templates in [!DNL Adobe Workfront Fusion]](../../../workfront-fusion/scenarios/templates/create-new-fusion-templates.md). Then click the [!UICONTROL save] icon at the very bottom of the page.
+1. Click the **[!UICONTROL Save]** icon ![](assets/save-icon.png).
 
 >[!NOTE]
 >
@@ -100,12 +100,12 @@ You can only delete templates that are not yet approved. If you want to delete a
 
 Please note that once you delete a template, it cannot be restored. Team templates are available for all members of your team so before deleting a template we advise you to check if other team members do not need it.
 
-1. Click the **Templates** icon ![](assets/fusion-template-icon.png) in the side navigation menu.
-1. Click the **Team templates** tab.
+1. Click the **[!UICONTROL Templates]** icon ![](assets/fusion-template-icon.png) in the side navigation menu.
+1. Click the **[!UICONTROL Team templates]** tab.
 1. Click **[!UICONTROL Delete]** next to the template name
 
    Or
 
-   Click the name of the template to go into the template. Click **[!UICONTROL Options]** in the top right corner and select **Delete**.
+   Click the name of the template to go into the template. Click **[!UICONTROL Options]** in the top right corner and select **[!UICONTROL Delete]**.
 
 1. Click **[!UICONTROL Really?]** to confirm the delete.

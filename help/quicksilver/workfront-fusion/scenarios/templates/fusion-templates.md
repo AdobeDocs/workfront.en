@@ -15,7 +15,7 @@ exl-id: 48fc3330-7fe1-4dea-8abe-cfc1139e26cf
 >
 >[!DNL Adobe Workfront Fusion] requires an [!DNL Adobe Workfront Fusion] license in addition to an [!DNL Adobe Workfront license].
 
-Workfront Fusion's Templates feature allows you to create and use existing templates as a starting point for your Workfront Fusion scenarios.
+[!DNL Workfront Fusion]'s Templates feature allows you to create and use existing templates as a starting point for your [!DNL Workfront Fusion] scenarios.
 
 This section contains the following articles:
 

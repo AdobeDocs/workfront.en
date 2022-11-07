@@ -8,7 +8,7 @@ author: Becky
 feature: Workfront Fusion
 exl-id: 63c14183-0d22-44f3-87e5-c311cfbf5540
 ---
-# Adobe Workfront Fusion Templates administration
+# [!DNL Adobe Workfront Fusion] Templates administration
 
 If you are an administrator, you have permission to view, modify, rename, publish, approve, and delete templates created by others. You can perform these actions from the [!UICONTROL Templates] page in the [!DNL Adobe Workfront Fusion Administration] area.
 
@@ -30,7 +30,7 @@ You must have the following access to perform the steps in this article:
    </tr>
   <tr> 
    <td role="rowheader">[!UICONTROL Adobe Workfront Fusion] license**</td> 
-  <td> <p>[!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p><p>Workfront Fusion for Work Automation </p>  </td>  
+  <td> <p>[!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p><p>[!UICONTROL [!DNL Workfront Fusion] for Work Automation] </p>  </td>  
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
@@ -45,7 +45,7 @@ You must have the following access to perform the steps in this article:
 
 To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
 
-For information on Adobe Workfront Fusion licenses, see [Adobe Workfront Fusion licenses](../../../workfront-fusion/get-started/license-automation-vs-integration.md)
+For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Workfront Fusion] licenses](../../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
 ## View [!DNL Workfront Fusion] templates as an administrator
 
@@ -56,8 +56,8 @@ To view a table of all created templates and their statuses:
 
 There are three columns related to the templates publication status. A checkmark in a column indicates the following:
 
-* **Published**: These templates are currently visible in the [!UICONTROL Team templates] tab in the user interface.
-* **Requested approval**: These templates are waiting for your approval. They are currently visible in the [!UICONTROL Team templates] tab in the user interface.
+* **[!UICONTROL Published]**: These templates are currently visible in the [!UICONTROL Team templates] tab in the user interface.
+* **[!UICONTROL Requested approval]**: These templates are waiting for your approval. They are currently visible in the [!UICONTROL Team templates] tab in the user interface.
 * **[!UICONTROL Approved]**: These templates have been approved. They are currently visible in the [!UICONTROL Public templates] tab in the standard user interface.
 
 >[!NOTE]
@@ -70,15 +70,11 @@ There are three columns related to the templates publication status. A checkmark
 1. Click **[!UICONTROL Templates]** in the left navigation panel.
 1. Click **[!UICONTROL Detail]** to the right of the template you want to edit.
 
-You can now edit the template, similar to editing a template as a non-admin user. However, in the Options in the top-right corner, there is one additional option - the SVG diagram that provides you with the SVG code. Also, the publishing process is the same as in the case of a standard user, refer to the [!UICONTROL Publishing and sharing templates] section for more details.
+You can now edit the template, similar to editing a template as a non-admin user. However, in the [!UICONTROL Options] in the top-right corner, there is one additional option - the SVG diagram that provides you with the SVG code. Also, the publishing process is the same as in the case of a standard user, refer to the Publishing and sharing templates section for more details.
 
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">To view the SVG code of the template, click Options in the upper-right corner and select SVG.</p>
--->
+For information about specific template options that you can edit, see [Create new templates in [!DNL Adobe Workfront Fusion]](../../../workfront-fusion/scenarios/templates/create-new-fusion-templates.md).
 
-For information about specific template options that you can edit, see [Create new templates in Adobe Workfront Fusion](../../../workfront-fusion/scenarios/templates/create-new-fusion-templates.md).
-
-For information about publishing templates, see [Publish and share Adobe Workfront Fusion templates](../../../workfront-fusion/scenarios/templates/publish-and-share-fusion-templates.md).
+For information about publishing templates, see [Publish and share [!DNL Adobe Workfront Fusion] templates](../../../workfront-fusion/scenarios/templates/publish-and-share-fusion-templates.md).
 
 ## Approve or disapprove [!DNL Workfront Fusion] templates
 
@@ -97,4 +93,4 @@ Approving a template makes it visible in the [!UICONTROL Public templates] tab a
 
 As an administrator, you have the ability to clone a scenario as a template.
 
-For instructions on cloning a scenario as a template, see [Create new templates in [!DNL Adobe Workfront Fusion]](../../../workfront-fusion/scenarios/templates/create-new-fusion-templates.md#create)in [Create new templates in Adobe Workfront Fusion](../../../workfront-fusion/scenarios/templates/create-new-fusion-templates.md)
+For instructions on cloning a scenario as a template, see [Create new templates in [!DNL Adobe Workfront Fusion]](../../../workfront-fusion/scenarios/templates/create-new-fusion-templates.md#create)in [Create new templates in [!DNL Adobe Workfront Fusion]](../../../workfront-fusion/scenarios/templates/create-new-fusion-templates.md)

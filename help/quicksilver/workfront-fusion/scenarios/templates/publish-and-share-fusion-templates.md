@@ -32,7 +32,7 @@ You must have the following access to use the functionality in this article:
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Adobe Workfront Fusion] license**</td> 
-  <td> <p>[!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p><p>Workfront Fusion for Work Automation </p>  </td>    </tr> 
+  <td> <p>[!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p><p>[!UICONTROL [!DNL Workfront Fusion] for Work Automation] </p>  </td>    </tr> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
@@ -43,7 +43,7 @@ You must have the following access to use the functionality in this article:
 
 To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
 
-For information on Adobe Workfront Fusion licenses, see [Adobe Workfront Fusion licenses](../../../workfront-fusion/get-started/license-automation-vs-integration.md)
+For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Workfront Fusion] licenses](../../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
 ## Prerequisites
 
@@ -51,26 +51,26 @@ A template must be created before it can be shared.
 
 ## Publish an [!DNL Adobe Workfront Fusion] template
 
-1. In the left navigation panel, click **Templates**.
-1. Click the **Team templates** tab.
+1. In the left navigation panel, click **[!UICONTROL Templates]**.
+1. Click the **[!UICONTROL Team templates]** tab.
 1. Click the name of your template.
-1. Click the **Publish** button in the upper-right corner of the screen.
+1. Click the **[!UICONTROL Publish]** button in the upper-right corner of the screen.
 
-## Share a Workfront Fusion template
+## Share a [!DNL Workfront Fusion] template
 
 After you have published a template, you can share it.
 
-1. (Conditional) If you want a shareable link, click **Share public link**.
+1. (Conditional) If you want a shareable link, click **[!UICONTROL Share public link]**.
 
    >[!NOTE]
    >
    >You can share this link with anyone you want. The template itself stays in the [!UICONTROL Team templates] tab and is not public.
 
-1. (Conditional) If you want the template to become public, send it to your administrator for approval by clicking Request Approval.
+1. (Conditional) If you want the template to become public, send it to your administrator for approval by clicking **[!UICONTROL Request Approval]**.
 
    >[!NOTE]
    >
-   >* Once the template is approved, it becomes public. [!UICONTROL Public templates] are visible in the Public templates tab for all [!DNL Workfront Fusion] users, regardless of the organization or the team.
+   >* Once the template is approved, it becomes public. [!UICONTROL Public templates] are visible in the [!UICONTROL Public templates] tab for all [!DNL Workfront Fusion] users, regardless of the organization or the team.
    >* Your administrator is not notified about receiving the template to review by email. If the approval is urgent, contact the administrator directly.
 
 
@@ -80,9 +80,9 @@ You can check the status on your template page under the template name
 
 The following statuses are available:
 
-* **Private**: This template is visible only for the template author and their team.
-* **Published**: This template is visible only for the template author and their team. You can send published templates for approval and copy a shareable link.
-* **Approved**: This template is visible for all Workfront Fusion users in the [!UICONTROL Public templates] tab. You can copy a shareable link by clicking [!UICONTROL Options] in the upper-right corner of the screen.
+* **[!UICONTROL Private]**: This template is visible only for the template author and their team.
+* **[!UICONTROL Published]**: This template is visible only for the template author and their team. You can send published templates for approval and copy a shareable link.
+* **[!UICONTROL Approved]**: This template is visible for all Workfront Fusion users in the [!UICONTROL Public templates] tab. You can copy a shareable link by clicking [!UICONTROL Options] in the upper-right corner of the screen.
 
 You can also check the status from the [!UICONTROL Team templates] tab. If a template is published, it will have an icon to the right of the template name.
 
@@ -90,4 +90,4 @@ You can also check the status from the [!UICONTROL Team templates] tab. If a tem
 * **Yellow checkmark icon**: The template is published, it is visible only for the team, and the approval request was sent.
 * **Green checkmark icon**: The template is published and public. It is visible for any Workfront Fusion user in the [!UICONTROL Public templates] tab. It is also still visible in the [!UICONTROL Team templates] tab, and the template author or their team member can still edit it.
 
-Templates without icons have Private status. They are not published and are visible only to the team.
+Templates without icons have [!UICONTROL Private] status. They are not published and are visible only to the team.

@@ -8,17 +8,13 @@ author: Becky
 feature: Workfront Fusion
 exl-id: b3eea763-f0bf-4037-8d73-20d112dc5ac3
 ---
-# Activate or deactivate a scenario in [!DNL Adobe] Workfront Fusion
+# Activate or deactivate a scenario in [!DNL Adobe Workfront Fusion]
 
 You can work with scenarios either in an active or an inactive state:
 
-* An active scenario executes periodically according to its defined schedule, as explained in [[!UICONTROL Schedule a] scenario in Adobe Workfront Fusion](../../workfront-fusion/scenarios/schedule-a-scenario.md).
+* An active scenario executes periodically according to its defined schedule, as explained in [Schedule a scenario in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/schedule-a-scenario.md).
 
    This is useful when you want to automate the function of a scenario.
-
-   <!--
-  <p data-mc-conditions="QuicksilverOrClassic.Draft mode">For example, you could create an active Instagram-to-Dropbox scenario with a once-per-day schedule that uploads the photos you post on Instagram to Dropbox every day. </p>
-  -->
 
 * An inactive scenario executes only when you run it manually.
 
@@ -46,7 +42,7 @@ You must have the following access to use the functionality in this article:
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Adobe Workfront Fusion] license**</td> 
-  <td> <p>[!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p><p>Workfront Fusion for Work Automation </p>  </td>    </tr> 
+  <td> <p>[!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p><p>[!UICONTROL [!DNL Workfront Fusion] for Work Automation] </p>  </td>    </tr> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
@@ -65,7 +61,7 @@ You must create a scenario before you can activate it.
 
 ## Activate or deactivate a scenario:
 
-1. Click [!UICONTROL Scenarios] ![](assets/scenarios-icon.png) in the left panel, then click the scenario to open it.
-1. In the upper-right corner of the window, click the **On/Off** toggle.
+1. Click **[!UICONTROL Scenarios]** ![](assets/scenarios-icon.png) in the left panel, then click the scenario to open it.
+1. In the upper-right corner of the window, click the **[!UICONTROL On/Off]** toggle.
 
    ![](assets/on-off-switch.jpg)

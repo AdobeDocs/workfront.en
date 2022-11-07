@@ -28,7 +28,7 @@ You must have the following access to use the functionality in this article:
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Adobe Workfront Fusion] license**</td> 
-  <td> <p>[!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p><p>Workfront Fusion for Work Automation </p>  </td>    </tr> 
+  <td> <p>[!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p><p>[!UICONTROL [!DNL Workfront Fusion] for Work Automation] </p>  </td>    </tr> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
@@ -44,12 +44,12 @@ For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Work
 ## Restore a scenario version
 
 1. Open your scenario.
-1. Click the More icon ![](assets/more-icon.png), then click **Previous Versions**.
+1. Click the [!UICONTROL More] icon ![](assets/more-icon.png), then click **[!UICONTROL Previous Versions]**.
 
 1. Click the **[!UICONTROL Pick the version]**, then click the version you would like to restore.
-1. Click **OK**:
+1. Click **[!UICONTROL OK]**:
 1. The selected scenario version will be restored.
 
 >[!NOTE]
 >
->The restored version of the scenario is not automatically saved. If you want to save the restored version of the scenario, you have to do so manually.
+>The restored version of the scenario is not automatically saved. If you want to save the restored version of the scenario, you must save it manually.
