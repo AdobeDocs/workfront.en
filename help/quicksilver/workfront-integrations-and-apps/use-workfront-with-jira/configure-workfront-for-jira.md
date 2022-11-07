@@ -135,7 +135,7 @@ To configure triggers for automatically creating items in [!DNL Jira]:
 
    The **[!UICONTROL Triggers]** tab is selected by default.
 
-   ![Triggers_tab_Jira_WF.png](assets/triggers-tab-jira-wf-350x265.png)
+   ![Triggers_tab_Jira_WF.png](assets/new-triggers-tab-jira-wf-1373x754.png)
 
 1. Click **[!UICONTROL Add trigger]** to add a new trigger.
 1. In the **[!UICONTROL Workfront team/user/role]** field, specify the name of a [!DNL Workfront] team, user, or job role, then click to select it when it displays in the list. 
@@ -173,7 +173,7 @@ To define what fields should automatically synchronize on items linked between t
 1. Log in to [!DNL Workfront] as a Workfront administrator.
 1. Click the **[!UICONTROL Setup]** tab.
 
-   ![](assets/jira-newsetuptab-350x341.png)
+   ![](assets/new-jira-newsetuptab-1205x1145.png)
 
 1. In the **[!UICONTROL Synchronize from Jira to Workfront]** section, select the fields that you want to update in [!DNL Jira] when they are updated in Workfront. 
 
