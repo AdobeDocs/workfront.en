@@ -16,3 +16,4 @@ exl-id: 03a23bb6-f30d-4f4d-9e17-069e37ec474a
 * [Install a blueprint](../../administration-and-setup/blueprints/blueprints-install.md) 
 * [Configure a blueprint](../../administration-and-setup/blueprints/configure-template-package.md) 
 * [Actions to take after installing a blueprint](../../administration-and-setup/blueprints/best-next-actions-after-install.md)
+* [List of available blueprints](/help/quicksilver/administration-and-setup/blueprints/list-of-available-blueprints.md)
