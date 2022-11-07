@@ -14,6 +14,8 @@ You can optionally add an intake column to your board that automatically pulls i
 
 Only one intake column is permitted on a board, and it always appears as the left-most column.
 
+The intake column is limited to 300 tasks and 300 issues. They are sorted by the priority defined on the items. For information about priority, see [Update task priority](/help/quicksilver/manage-work/tasks/task-information/task-priority.md) and [Update issue priority](/help/quicksilver/manage-work/issues/issue-information/update-issue-priority.md).
+
 For more information on columns, see [Manage board columns](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md). For information on connected cards, see [Use connected cards on boards](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
 
 ## Access requirements

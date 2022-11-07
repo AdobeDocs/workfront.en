@@ -9,31 +9,19 @@ exl-id: 545a5033-a09e-4019-a10e-c388cf977ae4
 ---
 # Modify multiple users assignments to tasks in the Scheduling areas
 
-<!-- drafted for res scheduling deprecation blurb for preview release - Oct 2022 - AND REMOVE THE CAUTION BELOW AT THAT TIME:  
+<!-- drafted for res scheduling deprecation blurb for preview release-->  
 
 >[!CAUTION] 
 > 
 > 
 > <span class="preview">The information in this article refers to the Adobe Workfront's Scheduling tools. The Scheduling areas have been removed from the Preview environment and will be removed from the Production environment on **November 10, 2022**. </span> 
-> <span class="preview"> Instead, you can schedule your resources in the Workload Balancer. </span> 
+> <span class="preview"> Instead, you can schedule resources in the Workload Balancer. </span> 
 > 
 >* <span class="preview"> For information about scheduling resources using the Workload Balancer, see the section [The Workload Balancer](../../resource-mgmt/workload-balancer/workload-balancer.md).</span> 
 > 
 >* <span class="preview"> For more information about the deprecation and removal of the Scheduling tools, see [Deprecation of Resource Scheduling tools in Adobe Workfront](../../resource-mgmt/resource-mgmt-overview/deprecate-resource-scheduling.md).</span> 
--->
 
-
->[!CAUTION]
->
->We are no longer supporting the Resource Scheduling tools and they will soon be removed from Adobe Workfront. 
->
->We recommend that you use the Workload Balancer for scheduling your resources. 
->
->* For information about scheduling resources using the new Workload Balancer, see the section [The Workload Balancer](../../resource-mgmt/workload-balancer/workload-balancer.md).
->
->* For more information about the timeline for removing the Resource Scheduling tools and replacing them with the Workload Balancer, see [Deprecation of Resource Scheduling tools in Adobe Workfront](../../resource-mgmt/resource-mgmt-overview/deprecate-resource-scheduling.md).
-
-This article refers to modifying user assignments for multiple tasks using the Scheduling area of Adobe Workfront . Please also see the following articles for modifying assignments on multiple tasks in other areas:
+This article refers to modifying user assignments for multiple tasks using the Scheduling area of Adobe Workfront. Also see the following articles for modifying assignments on multiple tasks in other areas:
 
 * For information about modifying assignments on multiple tasks in a task list, see [Modify multiple user assignments in a task list](../../manage-work/tasks/assign-tasks/modify-multiple-assignments-in-task-list.md). 
 * For information about scheduling resources using the new Workload Balancer, see the section [The Workload Balancer](../../resource-mgmt/workload-balancer/workload-balancer.md).

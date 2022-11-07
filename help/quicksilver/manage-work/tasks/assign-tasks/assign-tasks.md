@@ -9,6 +9,8 @@ exl-id: 611b136e-2c3f-4eac-9d75-e8c12e06148d
 ---
 # Assign tasks
 
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span>
+
 You can assign tasks to users, job roles, or teams to indicate who is responsible for completing the tasks. You can assign a task to more than one resource at a time.
 
 >[!TIP]
@@ -135,10 +137,10 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
 
    * Start typing the name of a user, role, or team that you want to assign, then click it when it appears on the list.
 
-      <!--drafted for unique identifier story for 22.4 and yellow:
+    
       >[!TIP]
       >
-      ><span class="preview">When adding a user assignment, notice the avatar, the user's Primary Role, or their email address to distinguish between users with identical names. Users must be associated with at least one job role to view it as you add them.</span>--> 
+      ><span class="preview">When adding a user assignment, notice the avatar, the user's Primary Role, or their email address to distinguish between users with identical names. Users must be associated with at least one job role to view it as you add them.</span>
 
       
    * (Conditional) Click one of the names in the **Suggested assignments** list, if this list displays. For more information, see [Smart assignments overview](../../../manage-work/tasks/assign-tasks/smart-assignments.md). 
@@ -180,12 +182,15 @@ To assign tasks in a list:
    * Click inside the **Assigned To** or **Assigned** fields and start typing the name of an active user that you want to assign to the task, then click it when it displays in the list.
    * Click inside the **Assignments** field and start typing the name of an active user, job role, or team that you want to assign to the task, then click it when it displays in the list.
 
-      <!--drafted for unique identifier story for 22.4 and yellow - make it a TIP when live:  <span class="preview">When adding a user assignment, notice the avatar, the user's Primary Role, or their email address to distinguish between users with identical names. Users must be associated with at least one job role to view it as you add them.</span>--> 
+      >[!TIP]
+      >
+      ><span class="preview">When adding a user assignment, notice the avatar, the user's Primary Role, or their email address to distinguish between users with identical names. Users must be associated with at least one job role to view it as you add them.</span>
+
 
 1. (Conditional) When visible in the **Assignments** field, click the **People** icon  in the upper-right corner of the assignments box to open the **Advanced Assignments** box and create advanced assignments.
 
    <!--
-   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: there is a People icon in NWE but it's hard to see - you need to assign the task to at least 2 users, not roles, or teams, before it shows up)</p>
+   there is a People icon in NWE but it's hard to see - you need to assign the task to at least 2 users, not roles, or teams, before it shows up</p>
    -->
 
    For more information, see [Create advanced assignments](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md).

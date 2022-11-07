@@ -23,4 +23,4 @@ This section contains the following articles:
 * [Manage the work in progress (WIP) limit on a board](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-wip-limit-on-board.md)
 * [Add an intake column to a board](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md)
 * [Use groups on a board](/help/quicksilver/agile/use-boards-agile-planning-tools/group-cards-on-board.md)
-
+* [Configure card falloff](/help/quicksilver/agile/use-boards-agile-planning-tools/configure-card-falloff.md)

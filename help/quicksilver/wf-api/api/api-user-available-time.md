@@ -5,11 +5,10 @@ title: Get users available time API
 description: Get users available time API
 author: John
 feature: Workfront API
-exl-id: 
 ---
 
 
-# Users avaialble time API
+# Users available time API
 
 **URI: attask/api/v15.0/user/getUsersAvailableTime**
 

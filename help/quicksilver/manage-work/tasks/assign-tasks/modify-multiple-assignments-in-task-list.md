@@ -9,6 +9,8 @@ exl-id: 04f7761f-da94-4858-85c5-8dc97bd78bee
 ---
 # Modify multiple user assignments in a task list
 
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> 
+
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: There is a similar article in Resource Scheduling and a similar one for Issues; when things change, you might need to update all 3)</p>
 -->
@@ -122,14 +124,18 @@ When assigning users to work, their availability according to their schedules af
       
       1. Start typing the name of a user, role, or team, then select it when it displays in the list. The assignment is added and does not replace the current assignments on the selected tasks.
 
-         >[!TIP]
-         >
-         >You can assign multiple users, job roles, or teams. You can assign only active users, job roles, and teams.
-         >
-         >If a user, job role, or a team was assigned before they were deactivated, they remain assigned to the work item. In this case, we recommend the following:
-         >
-         >* Reassign the work item to active resources.
-         >* Associate the users in a deactivated team with an active team and reassign the work item to the active team.
+
+      >[!TIP]
+      >
+      > * You can assign multiple users, job roles, or teams. You can assign only active users, job roles, and teams.
+      >   
+      > * <span class="preview">When adding a user assignment, notice the avatar, the user's Primary Role, or their email address to distinguish between users with identical names. Users must be associated with at least one job role to view it as you add them.</span>
+      > 
+      >   If a user, job role, or a team was assigned before they were deactivated, they remain assigned to the work item. In this case, we recommend the following:
+      >   
+      >     * Reassign the work item to active resources.
+      >     * Associate the users in a deactivated team with an active team and reassign the work item to the active team.
+
 
    * To remove individual assignees:
 
