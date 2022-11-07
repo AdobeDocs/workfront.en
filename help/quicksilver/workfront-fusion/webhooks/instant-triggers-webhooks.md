@@ -34,7 +34,7 @@ You must have the following access to use the functionality in this article:
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Adobe Workfront Fusion] license**</td> 
-   <td> <p>[!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p>  </td> 
+   <td> <p>[!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p> <p>[!UICONTROL [!DNL Workfront Fusion] for Work Automation]</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
@@ -59,7 +59,7 @@ All messages from incoming webhooks are stored in the webhook's queue.
 
    >[!NOTE]
    >
-   >Incoming webhook data is always stored in the queue regardless of how you have set the option [!UICONTROL Data] is confidential (described in [The scenario settings panel in Adobe Workfront Fusion](../../workfront-fusion/scenarios/scenario-settings-panel.md)). As soon as the data is processed in a scenario, it is permanently deleted from the system.
+   >Incoming webhook data is always stored in the queue regardless of how you have set the option [!UICONTROL Data] is confidential (described in [The scenario settings panel in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/scenario-settings-panel.md)). As soon as the data is processed in a scenario, it is permanently deleted from the system.
 
 ## Schedule instant triggers
 
@@ -67,28 +67,29 @@ If your scenario contains an instant trigger, you can schedule the scenario to r
 
 ![](assets/schedule-setting-350x185.png)
 
-In this case your scenario will run immediately whenWorkfront Fusion receives new data from the service. After the scenario executes, the total amount of pending webhooks waiting in the queue is counted and the scenario performs as many cycles as there are pending webhooks, processing one webhook per cycle. For more information, see [Scenario execution, cycles, and phases in Adobe Workfront Fusion](../../workfront-fusion/scenarios/scenario-execution-cycles-phases.md).
+In this case your scenario will run immediately when [!DNL Workfront Fusion] receives new data from the service. After the scenario executes, the total amount of pending webhooks waiting in the queue is counted and the scenario performs as many cycles as there are pending webhooks, processing one webhook per cycle. For more information, see [Scenario execution, cycles, and phases in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/scenario-execution-cycles-phases.md).
 
 >[!NOTE]
 >
 >* A cycle is not the same as a scenario run. There can be multiple cycles within 1 scenario run. 
->* When you execute a scenario with an instant trigger scheduled to be immediate, the following exceptions apply:>
->   * The interval between two executions is not subject to the Minimum interval according to the pricing plan.
+>* When you execute a scenario with an instant trigger scheduled to be immediate, the following exceptions apply:
 >
->     For example, once the scenario finishes its execution, the webhook's queue is checked again. If there are any pending webhooks, the scenario executes immediately again, processing all the pending webhooks once again.
+>     * The interval between two executions is not subject to the Minimum interval according to the pricing plan.
+>
+>       For example, once the scenario finishes its execution, the webhook's queue is checked again. If there are any pending webhooks, the scenario executes immediately again, processing all the pending webhooks once again.
 >   
->   * The Maximum number of cycles scenario setting is ignored and set to 100, which means that no more than 100 pending webhooks will be processed during a single scenario execution (at the rate of 1 event per one cycle).
+>     * The Maximum number of cycles scenario setting is ignored and set to 100, which means that no more than 100 pending webhooks will be processed during a single scenario execution (at the rate of 1 event per one cycle).
 >
 
 
-If you use any other schedule setting than [!UICONTROL Immediately], the scenario executes at the intervals you specify. As several webhooks can be gathered in the queue during the interval, it is recommended to set the [Maximum number of cycles](../../workfront-fusion/scenarios/scenario-settings-panel.md#maximum) to a higher value than the default 1 to process more webhooks in one scenario run:
+If you use any other schedule setting than [!UICONTROL Immediately], the scenario executes at the intervals you specify. As several webhooks can be gathered in the queue during the interval, it is recommended to set the [[!UICONTROL Maximum number of cycles]](../../workfront-fusion/scenarios/scenario-settings-panel.md#maximum) to a higher value than the default 1 to process more webhooks in one scenario run:
 
 1. Click the [!UICONTROL Scenario settings] icon ![](assets/gear-icon-settings.png) at the bottom of your scenario.
-1. In the **Scenario settings** box that appears, type a number in the **[!UICONTROL Max number of cycles]** box to indicate the number of webhooks from the queue that you want to run each time you execute the scenario.
+1. In the **[!UICONTROL Scenario settings]** box that appears, type a number in the **[!UICONTROL Max number of cycles]** box to indicate the number of webhooks from the queue that you want to run each time you execute the scenario.
 
 ## Rate limits
 
-The current rate limit is 5 webhooks per second. If the limit is exceeded, 429 status code is returned.
+The current rate limit is 5 webhooks per second. If the limit is exceeded, a 429 status code is returned.
 
 ## Expiration of inactive webhooks
 
@@ -96,18 +97,18 @@ A webhook that has not been assigned to any scenario for more than 120 hours is 
 
 ## Webhook payloads
 
-Workfront Fusion stores webhook payloads for 30 days. Accessing a webhook payload more than 30 days after it was created results in the error "Failed to read file from storage."
+[!DNL Workfront Fusion] stores webhook payloads for 30 days. Accessing a webhook payload more than 30 days after it was created results in the error "[!UICONTROL Failed to read file from storage.]"
 
 ## Error handling
 
 When there is an error in your scenario with an instant trigger, the scenario:
 
-* Stops immediately - when the scenario is set to run Immediately.
+* Stops immediately - when the scenario is set to run [!UICONTROL Immediately].
 * Stops after 3 unsuccessful attempts (3 errors) - when the scenario is set to run as scheduled.
 
-If an error occurs during the scenario execution, the webhook is placed back into the queue during the instant trigger's rollback phase. In such a situation, you have the possibility to fix the scenario and rerun it again. For more information, see [Rollback](../../workfront-fusion/scenarios/scenario-execution-cycles-phases.md#rollback) in the article [Scenario execution, cycles, and phases in Adobe Workfront Fusion](../../workfront-fusion/scenarios/scenario-execution-cycles-phases.md).
+If an error occurs during the scenario execution, the webhook is placed back into the queue during the instant trigger's rollback phase. In such a situation, you have the possibility to fix the scenario and rerun it again. For more information, see [Rollback](../../workfront-fusion/scenarios/scenario-execution-cycles-phases.md#rollback) in the article [Scenario execution, cycles, and phases in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/scenario-execution-cycles-phases.md).
 
-If there is a Webhook response module in your scenario, the error is sent to the Webhook response. The Webhook response module is always executed last (in the case where the Auto commit option in the Scenario settings is not enabled). For more information, see [Responding to webhooks](../../workfront-fusion/apps-and-their-modules/webhooks-updated.md#respondi) in the article [Webhooks](../../workfront-fusion/apps-and-their-modules/webhooks-updated.md).
+If there is a Webhook response module in your scenario, the error is sent to the Webhook response. The Webhook response module is always executed last (in the case where the [!UICONTROL Auto commit] option in the Scenario settings is not enabled). For more information, see [Responding to webhooks](../../workfront-fusion/apps-and-their-modules/webhooks-updated.md#respondi) in the article [Webhooks](../../workfront-fusion/apps-and-their-modules/webhooks-updated.md).
 
 ## Custom webhooks
 

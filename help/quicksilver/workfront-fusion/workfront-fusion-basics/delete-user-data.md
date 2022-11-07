@@ -12,17 +12,13 @@ exl-id: 4b0a0abe-a913-429b-b02e-809b2e7410af
 
 You can store and delete user data in the following areas in your [!DNL Adobe Workfront Fusion] account:
 
-* Scenario
-* Connections
-* Webhooks
-* Keys
-* Devices
-* Data stores
-* User profiles
-
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">For information about deleting your user account, see <a href="../../workfront-fusion/workfront-fusion-basics/delete-an-account.md" class="MCXref xref">Delete an account</a>.</p>
--->
+* [!UICONTROL Scenario]
+* [!UICONTROL Connections]
+* [!UICONTROL Webhooks]
+* [!UICONTROL Keys]
+* [!UICONTROL Devices]
+* [!UICONTROL Data stores]
+* [!UICONTROL User profiles]
 
 ## Access requirements
 
@@ -42,7 +38,7 @@ You must have the following access to use the functionality in this article:
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Adobe Workfront Fusion] license**</td> 
-   <td> <p>[!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p>  </td> 
+   <td> <p>[!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p><p>[!UICONTROL [!DNL Workfront Fusion] for Work Automation]</p>   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
@@ -63,5 +59,5 @@ To delete user data:
 
    For example, if you want to delete a scenario, click **[!UICONTROL Scenario]** in the left panel.
 
-1. Click the down arrow to the right of the item you want to delete, then click **Delete**.
+1. Click the down arrow to the right of the item you want to delete, then click **[!UICONTROL Delete]**.
 1. Click **[!UICONTROL Really]** to confirm.

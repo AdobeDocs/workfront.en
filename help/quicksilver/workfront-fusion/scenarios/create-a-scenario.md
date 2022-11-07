@@ -38,7 +38,7 @@ You must have the following access to use the functionality in this article:
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Adobe Workfront Fusion] license**</td> 
-   <td> <p>[!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p>  </td> 
+   <td> <p>[!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p><p>[!UICONTROL [!DNL Workfront Fusion] for Work Automation]</p><p>[!UICONTROL [!DNL Workfront Fusion] for Work Automation]</p>    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
@@ -89,7 +89,7 @@ For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Work
 
    The two most common types of modules are actions and triggers. For more information, see [Types of modules](../../workfront-fusion/modules/module-types.md).
 
-1. Continue on to [Connect the module's app or web service to [!DNL Workfront Fusion]](#connect-the-module-s-app-or-web-service-to-workfront-fusion).
+1. Continue on to [Connect the module's app or web service to [!DNL Workfront Fusion]](#connect-the-modules-app-or-web-service-to-dnl-workfront-fusion).
 
 ## Connect the module's app or web service to [!DNL Workfront Fusion]
 

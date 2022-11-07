@@ -30,7 +30,7 @@ You must have the following access to use the functionality in this article:
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Adobe Workfront Fusion] license**</td> 
-   <td> <p>[!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p>  </td> 
+   <td> <p>[!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p><p>[!UICONTROL [!DNL Workfront Fusion] for Work Automation]</p>   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
@@ -47,7 +47,7 @@ For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Work
 
 To change information in your account profile:
 
-1. Click your avatar at the bottom of the left panel, then click **Profile**.
+1. Click your avatar at the bottom of the left panel, then click **[!UICONTROL Profile]**.
 1. Click: **[!UICONTROL General Options]**, then change any of the following options: 
 
    <table style="table-layout:auto"> 
@@ -55,19 +55,19 @@ To change information in your account profile:
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">Organizations</td> 
+      <td role="rowheader">[!UICONTROL Organizations]</td> 
       <td> <p>Select the organization you want to work in.<br></p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Time Zone Options</td> 
+      <td role="rowheader">[!UICONTROL Time Zone Options]</td> 
       <td> 
        <ul> 
-        <li><strong>Web</strong>: Change the time zone used for dates and times displayed on the [!DNL Workfront Fusion] website.</li> 
-        <li><strong>Scenarios</strong>: Change the time zone used for parsing and formatting dates and times during scenario runs (when you don't specify the time zone explicitly). You can choose a time zone for each setting.</li> 
+        <li><strong>[!UICONTROL Web]</strong>: Change the time zone used for dates and times displayed on the [!DNL Workfront Fusion] website.</li> 
+        <li><strong>[!UICONTROL Scenarios]</strong>: Change the time zone used for parsing and formatting dates and times during scenario runs (when you don't specify the time zone explicitly). You can choose a time zone for each setting.</li> 
        </ul> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
-      <td role="rowheader">API</td> 
+      <td role="rowheader">[!UICONTROL API]</td> 
       <td> <p>You can add an API token you want to use for calls between [!DNL Workfront Fusion] and another app or web service. This is an advanced feature.</p> </td> 
      </tr> 
     </tbody> 

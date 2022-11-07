@@ -15,15 +15,5 @@ Adobe Workfront Fusion requires an Adobe Workfront Fusion license in addition to
 This section contains the following articles:
 
 * [Change profile settings in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/workfront-fusion-basics/change-profile-settings.md)
-
-   <!--
-  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../workfront-fusion/workfront-fusion-basics/change-your-email-address.md" class="MCXref xref">Change your email address in Adobe Workfront Fusion</a> </li>
-  -->
-
 * [Delete user data In [!DNL Adobe Workfront Fusion]](../../workfront-fusion/workfront-fusion-basics/delete-user-data.md)
-
-   <!--
-  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../workfront-fusion/workfront-fusion-basics/delete-an-account.md" class="MCXref xref">Delete an account</a> </li>
-  -->
-
-* [[!DNL Adobe] Workfront Fusion FAQ](../../workfront-fusion/workfront-fusion-basics/faq.md)
+* [[!DNL Adobe Workfront Fusion] FAQ](../../workfront-fusion/workfront-fusion-basics/faq.md)
