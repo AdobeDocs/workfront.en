@@ -6,10 +6,13 @@ title: Adobe Unified Experience for Workfront Fusion
 description: Accessing Workfront Fusion through Adobe Experience Cloud gives you a seamless, unified experience for managing all of your Adobe applications.
 author: Becky
 feature: Workfront Fusion
+hidefromtoc: yes
 ---
-# Adobe Unified Experience for Workfront Fusion
+# [!DNL Adobe Unified Experience] for [!DNL Workfront Fusion]
 
-Accessing Workfront Fusion through Adobe Experience Cloud gives you a seamless, unified experience for managing all of your Adobe applications. Single identity management gives you one place to log in, without multiple URLs or login IDs.
+Accessing [!DNL Workfront Fusion] through [!DNL Adobe Experience Cloud] gives you a seamless, unified experience for managing all of your Ad[!DNL ]obe applications. Single identity management gives you one place to log in, without multiple URLs or login IDs.
+
+For a video describing navigation in [!DNL Fusion] in the [!DNL Adobe Experience Cloud], see [[!DNL Fusion] on the [!DNL Unified Shell]](https://vimeo.com/768299997)
 
 ## Access requirements
 
@@ -20,55 +23,55 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>Pro or higher</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
+   <td> <p>[!UICONTROL Pro] or higher</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Plan, Work</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
+   <td> <p>[!UICONTROL Plan], [!UICONTROL Work]</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront Fusion license**</td> 
-   <td> <p>Workfront Fusion for Work Automation and Integration </p> <p>Workfront Fusion for Work Automation </p>  </td> 
+   <td role="rowheader">[!DNL Adobe Workfront Fusion] license**</td> 
+   <td> <p>[!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p> <p>[!UICONTROL [!DNL Workfront Fusion] for Work Automation] </p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
+   <td>Your organization must purchase [!DNL Adobe Workfront Fusion] as well as [!DNL Adobe Workfront] to use functionality described in this article.</td> 
   </tr> 
  </tbody> 
 </table>
-&#42;To find out what plan, license type, or access you have, contact your Workfront Fusion administrator.
+&#42;To find out what plan, license type, or access you have, contact your [!DNL Workfront Fusion] administrator.
 
 ## Prerequisites
 
-Your organization's instance of Workfront Fusion must be onboarded to the Adobe Business Platform / Adobe Admin Console.
+Your organization's instance of Workfront Fusion must be onboarded to the [!DNL Adobe Business Platform] / [!DNL Adobe Admin Console].
 
-## Log in to Adobe Experience Cloud
+## Log in to [!DNL Adobe Experience Cloud]
 
 1. Open a browser window and go to <https://experience.adobe.com>.
-1. On the Sign in screen, type your email address and click **Continue**.
+1. On the Sign in screen, type your email address and click **[!UICONTROL Continue]**.
 
-   ![Sign in to Adobe Experience Cloud](assets/aec-login-page.png)
+   ![Sign in to [!DNL Adobe Experience Cloud]](assets/aec-login-page.png)
 
-## Access Workfront Fusion
+## Access [!DNL Workfront Fusion]
 
-Once you are logged in to Adobe Experience Cloud, you can view all of the Workfront Fusion organizations and environments that you have access to by clicking the organization switcher in the top navigation area. Select the Workfront Fusion organization or environment that you want to work in. 
+Once you are logged in to [!DNL Adobe Experience Cloud], you can view all of the [!DNL Workfront Fusion] organizations and environments that you have access to by clicking the organization switcher in the top navigation area. Select the [!DNL Workfront Fusion] organization or environment that you want to work in. 
 
-![View Workfront organizations and environments](assets/aec-view-all-orgs.png)
+![View [!DNL Workfront Fusion] organizations and environments](assets/aec-view-all-orgs.png)
 
 >[!NOTE]
 >
->The first time you log in to Adobe Experience Cloud, the organization defaults to the first one in the alphabetical list. The next time you log in, the organization defaults to the last one you visited.
+>The first time you log in to [!DNL Adobe Experience Cloud], the organization defaults to the first one in the alphabetical list. The next time you log in, the organization defaults to the last one you visited.
 
-Workfront Fusion appears in the list of Adobe Experience Cloud products you have access to. You can choose Workfront in the quick access menu on the Experience Cloud home page, or use the product switcher ![Product switcher](assets/main-menu-icon.png) to change applications at any time.
+[!DNL Workfront Fusion] appears in the list of [!DNL Adobe Experience Cloud] products you have access to. You can choose [!DNL Workfront Fusion] in the quick access menu on the [!DNL Experience Cloud] home page, or use the product switcher ![Product switcher](assets/main-menu-icon.png) to change applications at any time.
 
-![Select Workfront to access the application](assets/aec-product-switcher.png)
+![Select [!DNL Workfront Fusion] to access the application](assets/aec-product-switcher.png)
 
-## Navigate Workfront Fusion
+## Navigate [!DNL Workfront Fusion]
 
-Use the Main Menu icon ![](assets/main-menu-icon-left-nav.png) on the left of the Adobe navigation bar to open the Organization and Team menus. If you are a Workfront Fusion administrator, your Administration menu also appears here.
+Use the [!UICONTROL Main Menu] icon ![](assets/main-menu-icon-left-nav.png) on the left of the [!DNL Adobe] navigation bar to open the [!UICONTROL Organization] and [!UICONTROL Team] menus. If you are a [!DNL Workfront Fusion] administrator, your [!UICONTROL Administration] menu also appears here.
 
-To switch teams, click on the team name at the top of the page, then select the team. This appears only on pages that are specific to a team, such as a scenario builder or the Connection page. 
+To switch teams, click on the team name at the top of the page, then select the team. This appears only on pages that are specific to a team, such as a scenario builder or the [!UICONTROL Connections] page. 
 
 To switch organizations, click the organization name at the upper-right of your screen, then select the organization.
 
@@ -80,7 +83,7 @@ You can access your profile and preference options by clicking your profile pict
 
 This menu allows you to:
 
-* Choose **Dark theme** formatting for Adobe Experience Cloud.
-* Set **Preferences** for Adobe Experience Cloud, including primary and secondary language preferences.
-* Access your **Workfront Profile**. Once you are on the profile, click the **More** menu ![](assets/more-icon.png) and select **Edit**. For more information about the profile, see [Configure My Settings](/help/quicksilver/workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md).
-* **Sign out** of Adobe Experience Cloud.
+* Choose **[!UICONTROL Dark theme]** formatting for [!DNL Adobe Experience Cloud].
+* Set **[!UICONTROL Preferences]** for [!DNL Adobe Experience Cloud], including primary and secondary language preferences.
+* Access your **[!UICONTROL [!DNL Workfront Fusion] Profile]**. Once you are on the profile, click the **[!UICONTROL More]** menu ![](assets/more-icon.png) and select **[!UICONTROL Edit]**. For more information about the profile, see [Configure My Settings](/help/quicksilver/workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md).
+* **[!UICONTROL Sign out]** of Adobe Experience Cloud.
