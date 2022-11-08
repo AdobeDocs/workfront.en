@@ -19,4 +19,4 @@ hidefromtoc: true
 
 This section contains the following articles:
 
-* [Adobe Workfront Fusion on the Adobe Unified Experience](workfront-fusion/fusion-in-admin-console/fusion-unified-experience.md)
+* [Adobe Workfront Fusion on the Adobe Unified Experience](../fusion-in-admin-console/fusion-unified-experience.md)
