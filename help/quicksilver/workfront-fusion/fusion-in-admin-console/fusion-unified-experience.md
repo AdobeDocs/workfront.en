@@ -6,6 +6,7 @@ title: Adobe Unified Experience for Workfront Fusion
 description: Accessing Workfront Fusion through Adobe Experience Cloud gives you a seamless, unified experience for managing all of your Adobe applications.
 author: Becky
 feature: Workfront Fusion
+hidefromtoc: yes
 ---
 # [!DNL Adobe Unified Experience] for [!DNL Workfront Fusion]
 
