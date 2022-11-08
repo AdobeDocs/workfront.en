@@ -373,7 +373,7 @@ When you are configuring this module, the following fields display.
   </tr> 
   <tr> 
    <td role="rowheader">Query String</td> 
-   <td> <p>Add the query for the API call in the form of a standard JSON object.</p> <p>For example: <code>{“name”:“something-urgent”}</code></p> </td> 
+   <td> <p>Add the query for the API call in the form of a standard JSON object.</p> <p>For example: <code>{"name":"something-urgent"}</code></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Body</td> 
@@ -583,7 +583,7 @@ When you are configuring this module, the following fields display.
    <td> <p>Select the type of record you want the module to search for. When you select a record type, other fields specific to that record type appear in the module.</p> 
     <ul> 
      <li>Issues</li> 
-     <li> <p>Issues by JQL (Jira Query Lanuguage) </p> <p>For more information on JQL, see <a href="https://www.atlassian.com/blog/jira-software/jql-the-most-flexible-way-to-search-jira-14#:~:text=JQL stands for Jira Query,project managers%2C and business users.">JQL</a> at the Atlassian help site. </p> </li> 
+     <li> <p>Issues by JQL (Jira Query Lanuguage) </p> <p>For more information on JQL, see <a href="https://www.atlassian.com/blog/jira-software/jql-the-most-flexible-way-to-search-jira-14">JQL</a> at the Atlassian help site. </p> </li> 
      <li>Project</li> 
      <li>Project by issue</li> 
      <li>User</li> 

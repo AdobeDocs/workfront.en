@@ -5,8 +5,8 @@ title: Migrate linked folders and documents
 description: You can use the API to migrate linked folders and documents to Adobe Experience Manager Assets.
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
+exl-id: 586ab0a8-52ee-4aba-9298-af5a304acb02
 ---
-
 # Migrate linked folders and documents
 
 You can use the API to migrate linked folders and documents to Adobe Experience Manager Assets.

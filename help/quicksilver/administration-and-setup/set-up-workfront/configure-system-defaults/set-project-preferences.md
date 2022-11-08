@@ -83,7 +83,7 @@ Configure any of the following preferences for newly created projects throughout
          </ul>
         <p>This preference is enabled by default. </p> 
         <p><b>NOTE</b></p>
-        <p> A group administrator can change this preference for a group. When a user belongs to multiple groups with different preferences, the user will be allowed to create a project without a template if at least one of their groups has this preference enabled.</p> 
+        <p> A group administrator can change this preference for a group. When a user belongs to multiple groups with different preferences, the user will be allowed to create a project without a template if their Home Group has this preference enabled.</p> 
         </td> 
   </tr>
   <tr> 
