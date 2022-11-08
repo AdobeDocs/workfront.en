@@ -80,7 +80,7 @@ project level becomes a dimmed color.
   ![](assets/balancer-inaccessible-items-and-projects-highlighted-350x108.png)
 
 * The names of the work items display on the left and their timeline displays on the right. 
-* The total of Planned Hours for each work item displays to the right of the name of the work items and to the left of the bar that represents the work item's timeline. 
+* The total of Planned Hours for each work item displays to the right of the name of the work item and to the left of the bar that represents the work item's timeline. 
 * The total of the Planned Hours for each project displays to the right of the name of the project and to the left of the bar that represents the project's timeline.
 
   The Planned Hours information for the project is a total of Planned Hours from all items listed in the Workload Balancer, and not a total of Planned Hours on the project.
@@ -126,7 +126,7 @@ To navigate the Workload Balancer for multiple projects:
         
             For information about using filters, see [Filter information in the Workload Balancer](../workload-balancer/filter-information-workload-balancer.md).
         
-        * Projects display only when you enable the Group by Project setting. For information see the section [Customize the view](#customize-the-view) in this article.
+        * Projects display only when you enable the Group by Project setting. For information, see the section [Customize the view](#customize-the-view) in this article.
 
     * The **Assigned Work** area displays the following work items:
         
@@ -134,7 +134,7 @@ To navigate the Workload Balancer for multiple projects:
         
         * Tasks and issues assigned to at least one user display under the user's name.  
 
-            The work items under the name of users in the Assigned Work area are sorted by the following criteria, in this order:
+            The work items under users' names in the Assigned Work area are sorted by the following criteria, in this order:
 
             1. Planned Start Date (oldest first)
             1. Planned Completion Date (oldest first)
@@ -208,7 +208,7 @@ To navigate the Workload Balancer for multiple projects:
     Work items in the Assigned Work area are sorted by projects by the following criteria, in this order:
     1. Planned Start Date (oldest first)
     1. Planned Completion Date (oldest first)
-    1. Alphabetical by project (only when the first two criteria are identical for multiple work items). 
+    1. Alphabetical by project (only when the first two criteria are identical for multiple work items)
 
 1. Click the **right-pointing arrow** to the left of the Unassigned or Assigned areas to expand all items under the project names (in the Unassigned area) and under the user names (in the Assigned area).
 
@@ -244,9 +244,9 @@ To navigate the Workload Balancer for multiple projects:
         >
         >Notice that work items display in the Workload Balancer when either their planned or the projected timelines (not necessarily both at the same time) occur during the time frame selected.
 
-    * **Show completed work**: When this is enabled, tasks and issues that are completed display in the Assigned Work area. This is enabled by default. 
+    * **Show completed work**: When this is enabled, completed tasks and issues display in the Assigned Work area. This is enabled by default. 
     
-        A green checkmark icon displays to the upper-right corner of a task or issue bar when they are completed. The same icon displays for a project when the tasks or issues for the selected time frame of the project are completed.
+        A green checkmark icon displays in the upper-right corner of a task or issue bar when they are completed. The same icon displays for a project when the tasks or issues for the selected time frame of the project are completed.
     * **Show remaining time**: When this is enabled, Workfront displays the difference between the daily time for which the user is available to work based on their schedules and the hours for which they are allocated in the Assigned Work area for the users. This is disabled by default and allocated time displays by default.
     * In the **Select color theme** section, select the color that you want for the project and task bars.
             
@@ -305,14 +305,15 @@ To navigate the Workload Balancer for multiple projects:
     * **Assign this to**, then start typing the name of a user, role, or team you want to assign the work item to in the **Search people, role, or teams** field. 
 
         You can also use the following shortcuts to assign tasks or issues:
+
         * In Windows: CTRL+click the task or issue bar.
         * In Mac: CMD+click the task or issue bar.
  
-    For more information about assigning work items to users in the Workload Balancer, see [Overview of assigning work in the Workload Balancer](../workload-balancer/assign-work-in-workload-balancer.md).
+        For more information about assigning work items to users in the Workload Balancer, see [Overview of assigning work in the Workload Balancer](../workload-balancer/assign-work-in-workload-balancer.md).
         
-    >[!TIP]
-    >
-    >If your Workfront or group administrator enabled delegations in your environment, use the Assignments tab to assign users to the task or issue. For information about delegating work, see [Manage task and issue delegation](../../manage-work/delegate-work/how-to-delegate-work.md).
+        >[!TIP]
+        >
+        >If your Workfront or group administrator enabled delegations in your environment, use the Assignments tab to assign users to the task or issue. For information about delegating work, see [Manage task and issue delegation](../../manage-work/delegate-work/how-to-delegate-work.md).
 
     * **Edit allocations**, then edit the daily or weekly allocations for the user. For information about managing user allocations, see [Manage user allocations in the Workload Balancer](../workload-balancer/manage-user-allocations-workload-balancer.md).
     
@@ -330,7 +331,7 @@ To navigate the Workload Balancer for multiple projects:
 
 1. Click **Bulk Assignments** to assign work items in bulk.
 
-    For more information, see "[Assign work in bulk using the Workload Balancer](../workload-balancer/assign-work-in-workload-balancer-in-bulk.md). 
+    For more information, see [Assign work in bulk using the Workload Balancer](../workload-balancer/assign-work-in-workload-balancer-in-bulk.md). 
 1. Drag items from the **Unassigned Work** area or from a user and drop them on another user to assign them. 
 
     For more information, see [Assign work in the Workload Balancer by dragging and dropping](../workload-balancer/assign-work-in-workload-balancer-by-drag-and-drop.md). 
@@ -360,7 +361,7 @@ You can view more information about the tasks and the issues in the Workload Bal
 1. To view more information in the Summary panel, do one of the following:
     
    * Click the bar of a task or issue to open the Summary panel on the right. 
-   * Click **Open Summary** icon ![](assets/summary-panel-icon.png), then click the bar of a task or issue to open the Summary panel. 
+   * Click the **Open Summary** icon ![](assets/summary-panel-icon.png), then click the bar of a task or issue to open the Summary panel. 
    * Click the **More** menu to the right of a task or issue, then click **Open Summary**.
 
    For information about updating task information in the Summary in the Workload Balancer, see [Update work items in the Workload Balancer using the Summary](../workload-balancer/update-items-in-summary-panel-in-workload-balancer.md). 
@@ -407,7 +408,7 @@ The page of your Home Team displays by default.
 
 1. Continue navigating the Workload Balancer of a team as described in the [Navigate the Workload Balancer for multiple projects in the Resourcing area](#navigate-the-workload-balancer-for-multiple-projects-in-the-resourcing-area) section of this article.
 
-## Navigate the Workload Balancer of a project
+## Navigate the Workload Balancer of a single project
 
 1. Click the **Main menu** icon ![](assets/main-menu-icon.png), then click **Projects**.
 1. Click the name of a project to open the project page.
@@ -424,11 +425,11 @@ The page of your Home Team displays by default.
     
     For example, you might consider displaying only users that belong to your teams or groups. For more information, see [Filter information in the Workload Balancer](../workload-balancer/filter-information-workload-balancer.md). 
 
-1. (Optional) Click the **Filter** icon ![](assets/filter-icon.png) in the Assigned Work area and select the **This project's work items** option from the **Suggested** area of the filter area. This filter is deselected by default.
+1. (Optional) Click the **Filter** icon ![](assets/filter-icon.png) in the Assigned Work area and select the **This project's work items** option from the **Suggested** area of the filter panel. This filter is deselected by default.
 
     When this option is selected, only the items assigned to users on the selected project display. 
     
-    When the option is deselected, all the items assigned to the users on the project display, regardless of what projects the items belong to.
+    When the option is not selected, all the items assigned to the users on the project display, regardless of what projects the items belong to.
 
 1. (Optional and recommended) Apply a filter in the Assigned Work area to display users that are important to you but might not be assigned to items on the project, then click the **Show all users** icon ![](assets/show-all-users-icon-project-workload-balancer.png). 
 

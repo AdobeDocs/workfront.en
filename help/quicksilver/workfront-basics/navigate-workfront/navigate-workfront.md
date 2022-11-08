@@ -9,11 +9,12 @@ exl-id: 2ee82e53-1cc3-4438-a325-8c2c4d4ca1fb
 ---
 # Navigate Adobe Workfront
 
-This section contains the following subsections:
+This section contains the following subsections and articles:
 
 * [Understand objects in Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)
 * [Glossary of Adobe Workfront terminology](../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md)
 * [Adobe Unified Experience for Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md)
+* [Adobe Unified Experience FAQ](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md)
 * [Adobe Workfront Search](../../workfront-basics/navigate-workfront/search/search.md)
 * [Recents and favorites in Adobe Workfront](../../workfront-basics/navigate-workfront/recent-and-favorites/recent-and-favorites.md)
 * [Top navigation bar overview](../../workfront-basics/the-new-workfront-experience/global-navigation-overview.md)
