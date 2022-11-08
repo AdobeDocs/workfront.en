@@ -186,8 +186,8 @@ You must have the following access to perform the steps in this article:
    </table>
 
    >[!NOTE]
->
->The last 3 items in the **[!UICONTROL Customize what users see]** drop-down list ([!UICONTROL Lists], [!UICONTROL Home and Summary], and [!UICONTROL Branding]) are for configuring areas other than the left panel. For information about them, see these articles:
+   >
+   >The last 3 items in the **[!UICONTROL Customize what users see]** drop-down list ([!UICONTROL Lists], [!UICONTROL Home and Summary], and [!UICONTROL Branding]) are for configuring areas other than the left panel. For information about them, see these articles:
 >   
 >* [Customize Filters, Views, and Groupings using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
 >* [Customize [!UICONTROL Home] and [!UICONTROL Summary] using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)
@@ -199,8 +199,8 @@ You must have the following access to perform the steps in this article:
    Dashboard items appear at the bottom of the left panel. Users see the Custom section title you type next to the dashboard item when they hover over the left panel.
 
    >[!NOTE]
->
->Users can add custom dashboard items to their own left panel. When you add custom dashboard items in a layout template, your items merge with theirs, without overwriting or resetting them. This is also true if you assign users to a new layout template with custom dashboard items. For information about how users can customize the left panel, see [Create custom tabs or sections](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md).
+   >
+   >Users can add custom dashboard items to their own left panel. When you add custom dashboard items in a layout template, your items merge with theirs, without overwriting or resetting them. This is also true if you assign users to a new layout template with custom dashboard items. For information about how users can customize the left panel, see [Create custom tabs or sections](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md).
 
    For information about dashboards, see [Dashboards](../../../reports-and-dashboards/dashboards/dashboards-overview.md).
 
@@ -211,5 +211,5 @@ You must have the following access to perform the steps in this article:
    If you are finished customizing, click **[!UICONTROL Save]**.
 
    >[!TIP]
->
->You can click [!UICONTROL Save] at any time to save your progress, then continue to modify the template later.
+   >
+   >You can click [!UICONTROL Save] at any time to save your progress, then continue to modify the template later.
