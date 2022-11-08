@@ -137,7 +137,7 @@ To map metadata for folders:
 1. Click **Save** or move on to the [Project metadata sync](#project-metadata-sync) section in this article.
 
 
-### Project metadata sync
+### Object metadata sync
 
 An Experience Manager fields that is mapped to Workfront portfolio, program, project, task, issue, and document fields update automatically when the field is changed in Workfront.
 
