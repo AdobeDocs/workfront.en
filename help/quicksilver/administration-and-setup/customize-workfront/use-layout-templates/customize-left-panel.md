@@ -11,7 +11,7 @@ exl-id: b100ea35-e045-4021-b5be-2c9071b381da
 ---
 # Customize the left panel using a layout template
 
-In a layout template, you can customize what users see in the left panel area throughout Adobe Workfront.
+In a layout template, you can customize what users see in the left panel area throughout [!DNL Adobe Workfront].
 
 For example, you can determine which of the following items users see in the left panel when viewing a task:
 
@@ -32,30 +32,30 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
    <td>Any</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe [!DNL Workfront] license</td> 
-   <td>Plan</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] license</td> 
+   <td>[!UICONTROL Plan]</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
-   <td> To perform these steps at the system level, you need the System Administrator access level.<p>To perform them for a group, you must be a manager of that group.</p> <p><b>NOTE</b>: If you still don't have access, ask your [!DNL Workfront] administrator if they set additional restrictions in your access level. For information on how a [!DNL Workfront] administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> To perform these steps at the system level, you need the [!UICONTROL System Administrator] access level.<p>To perform them for a group, you must be a manager of that group.</p> <p><b>NOTE</b>: If you still don't have access, ask your [!DNL Workfront] administrator if they set additional restrictions in your access level. For information on how a [!DNL Workfront] administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Customize the left panel for an area in Workfront:
+## Customize the left panel for an area in [!DNL Workfront]:
 
 1. Begin working on a layout template, as described in [Create and manage layout templates](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 1. Click the down arrow ![](assets/dropdown-arrow.png) under **[!UICONTROL Customize what users see]**, then click the left panel you want to customize.
 
    >[!NOTE]
->
->For information about the Home option in this drop-down list, see [Customize Home and Summary using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md). For information about the Lists option, see [Customize Filters, Views, and Groupings using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md).
+   >
+   >For information about the [!UICONTROL Home] option in this drop-down list, see [Customize [!UICONTROL Home] and [!UICONTROL Summary] using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md). For information about the Lists option, see [Customize Filters, Views, and Groupings using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md).
 
-1. In the **Left panel** list, do any of the following to determine what will users see in the left panel for the option (Workfront area or object type) you have selected:
+1. In the **[!UICONTROL Left panel]** list, do any of the following to determine what will users see in the left panel for the option ([!DNL Workfront] area or object type) you have selected:
 
    * Show ![](assets/add-secondary-nav-item.png) or hide ![](assets/delete-secondary-nav-item.png) items. Any item without ![](assets/add-secondary-nav-item.png) or ![](assets/delete-secondary-nav-item.png) cannot be hidden.
 
@@ -73,39 +73,39 @@ You must have the following access to perform the steps in this article:
     </thead> 
     <tbody> 
      <tr> 
-      <td>Project</td> 
+      <td>[!UICONTROL Project]</td> 
       <td>The name of a project</td> 
-      <td>Tasks, Project Details, Business Case, Updates, Documents, Issues, Risks, Approvals, Baselines, Billing Rates, Billing Records, Expenses, Hours, Workload Balancer, People, Utilization, Queue Details, Routing Rules, Queue Topic, Topic Group, Metrics</td> 
+      <td>[!UICONTROL Tasks], [!UICONTROL Project Details], [!UICONTROL Business Case], [!UICONTROL Updates], [!UICONTROL Documents], [!UICONTROL Issues], [!UICONTROL Risks], [!UICONTROL Approvals], [!UICONTROL Baselines], [!UICONTROL Billing Rates], [!UICONTROL Billing Records], [!UICONTROL Expenses], [!UICONTROL Hours], [!UICONTROL Workload Balancer], [!UICONTROL People], [!UICONTROL Utilization], [!UICONTROL Queue Details], [!UICONTROL Routing Rules], [!UICONTROL Queue Topic], [!UICONTROL Topic Group], [!UICONTROL Metrics]</td> 
      </tr> 
      <tr> 
-      <td>Task</td> 
+      <td>[!UICONTROL Task]</td> 
       <td>The name of a task</td> 
-      <td> Updates, Documents, Task Details, Subtask, Issues, Hours, Approvals, Expenses, Predecessors</td> 
+      <td> [!UICONTROL Updates], [!UICONTROL Documents], [!UICONTROL Task Details], [!UICONTROL Subtask], [!UICONTROL Issues], [!UICONTROL Hours], [!UICONTROL Approvals], [!UICONTROL Expenses], [!UICONTROL Predecessors]</td> 
      </tr> 
      <tr> 
-      <td>Issue</td> 
+      <td>[!UICONTROL Issue]</td> 
       <td>The name of an issue</td> 
-      <td> Updates, Documents, Issue Details, Hours, Approvals</td> 
+      <td> [!UICONTROL Updates], [!UICONTROL Documents], [!UICONTROL Issue Details], [!UICONTROL Hours], [!UICONTROL Approvals]</td> 
      </tr> 
      <tr> 
-      <td>Portfolio</td> 
+      <td>[!UICONTROL Portfolio]</td> 
       <td>The name of a portfolio</td> 
-      <td>Projects, Programs, Portfolio Details, Portfolio Optimization, Documents, Updates</td> 
+      <td>[!UICONTROL Projects], [!UICONTROL Programs], [!UICONTROL Portfolio Details], [!UICONTROL Portfolio] [!UICONTROL Optimization], [!UICONTROL Documents], [!UICONTROL Updates]</td> 
      </tr> 
      <tr> 
-      <td>Program</td> 
+      <td>[!UICONTROL Program]</td> 
       <td>The name of a program</td> 
-      <td>Projects, Program Details, Updates, Documents</td> 
+      <td>[!UICONTROL Projects], [!UICONTROL Program Details], [!UICONTROL Updates], [!UICONTROL Documents]</td> 
      </tr> 
      <tr> 
-      <td>Template</td> 
+      <td>[!UICONTROL Template]</td> 
       <td>The name of a project template</td> 
-      <td>Template Tasks, Template Details, Updates, Documents, Risks, Expenses, People, Approvals, Billing Rates, Queue Details, Routing Rules, Queue Topic, Topic Group</td> 
+      <td>[!UICONTROL Template Tasks], [!UICONTROL Template Details], [!UICONTROL Updates], [!UICONTROL Documents], [!UICONTROL Risks], [!UICONTROL Expenses], [!UICONTROL People], [!UICONTROL Approvals], [!UICONTROL Billing Rates], [!UICONTROL Queue Details], [!UICONTROL Routing Rules], [!UICONTROL Queue Topic], [!UICONTROL Topic Group]</td> 
      </tr> 
      <tr> 
-      <td>Template Task</td> 
+      <td>[!UICONTROL Template Task]</td> 
       <td>The name of a template task</td> 
-      <td>Updates, Documents, Template Task Details, Subtasks, Expenses, Approvals, Predecessors</td>
+      <td>[!UICONTROL Updates], [!UICONTROL Documents], [!UICONTROL Template Task Details], [!UICONTROL Subtasks], [!UICONTROL Expenses], [!UICONTROL Approvals], [!UICONTROL Predecessors]</td>
      </tr>
      <!--
       <tr> 
@@ -115,44 +115,44 @@ You must have the following access to perform the steps in this article:
       </tr>
      --> 
      <tr> 
-      <td> Billing Record</td> 
+      <td> [!UICONTROL Billing Record]</td> 
       <td>The name of a billing record for a project</td> 
-      <td>Billing Record Details, Billable Hours, Billable Expenses, Fixed Revenues</td> 
+      <td>[!UICONTROL Billing Record Details], [!UICONTROL Billable Hours], [!UICONTROL Billable Expenses], [!UICONTROL Fixed Revenues]</td> 
      </tr> 
      <tr> 
-      <td>Projects</td> 
-      <td>Projects <img src="assets/projects-in-main-menu.png"> in the Main menu <img src="assets/main-menu-icon.png"></td> 
-      <td>Projects</td> 
+      <td>[!UICONTROL Projects]</td> 
+      <td>Projects <img src="assets/projects-in-main-menu.png"> in the [!UICONTROL Main menu] <img src="assets/main-menu-icon.png"></td> 
+      <td>[!UICONTROL Projects]</td> 
      </tr> 
      <tr> 
-      <td>Requests</td> 
+      <td>[!UICONTROL Requests]</td> 
       <td>The name of a request</td> 
-      <td>New Request, Submitted requests, All Requests, Drafts</td> 
+      <td>[!UICONTROL New Request], [!UICONTROL Submitted requests], [!UICONTROL All Requests], [!UICONTROL Drafts]</td> 
      </tr> 
      <tr> 
-      <td>Dashboards</td> 
+      <td>[!UICONTROL Dashboards]</td> 
       <td>The name of a dashboard</td> 
-      <td>My Dashboards, [!UICONTROL Shared Dashboards], [!UICONTROL All Dashboards]<p><b>NOTE</b>: If you created custom tabs for the Reports area using a layout template in [!DNL Adobe Workfront Classic], they display at the bottom of this list. For users, they display at the bottom of the left panel in the [!UICONTROL Dashboards] area.</p> </td> 
+      <td>[!UICONTROL My Dashboards], [!UICONTROL Shared Dashboards], [!UICONTROL All Dashboards]<p><b>NOTE</b>: If you created custom tabs for the [!UICONTROL Reports] area using a layout template in [!DNL Adobe Workfront Classic], they display at the bottom of this list. For users, they display at the bottom of the left panel in the [!UICONTROL Dashboards] area.</p> </td> 
      </tr> 
      <tr> 
-      <td>Scrum Team</td> 
+      <td>[!UICONTROL Scrum Team]</td> 
       <td>The name of a Scrum team</td> 
-      <td><p>Iterations, Current iteration, Backlog, Workload Balancer, Updates, Team Settings</p> <p><strong>NOTE:</strong> The <strong>Current iteration</strong> item only displays in the left panel when there is at least one task or issue on the iteration.</p></td> 
+      <td><p>[!UICONTROL Iterations], [!UICONTROL Current iteration], [!UICONTROL Backlog], [!UICONTROL Workload Balancer], [!UICONTROL Updates], [!UICONTROL Team Settings]</p> <p><strong>NOTE:</strong> The <strong>[!UICONTROL Current iteration]</strong> item only displays in the left panel when there is at least one task or issue on the iteration.</p></td> 
      </tr> 
      <tr> 
-      <td>Kanban Team</td> 
+      <td>[!UICONTROL Kanban Team]</td> 
       <td>The name of a Kanban team</td> 
-      <td>Workload Balancer, Kanban board, Backlog, Updates, Team Settings</td> 
+      <td>[!UICONTROL Workload Balancer], [!UICONTROL Kanban board], [!UICONTROL Backlog], [!UICONTROL Updates], [!UICONTROL Team Settings]</td> 
      </tr> 
      <tr> 
-      <td>Waterfall Team</td> 
+      <td>[!UICONTROL Waterfall Team]</td> 
       <td>The name of a Waterfall team</td> 
-      <td>Workload Balancer, Updates, Team Requests, Team Settings</td> 
+      <td>[!UICONTROL Workload Balancer], [!UICONTROL Updates], [!UICONTROL Team Requests], [!UICONTROL Team Settings]</td> 
      </tr> 
      <tr> 
-      <td>Iteration</td> 
+      <td>[!UICONTROL Iteration]</td> 
       <td>The name of an iteration</td> 
-      <td>Stories, Issues, Story Board, Overview, Custom Forms, Updates </td> 
+      <td>[!UICONTROL Stories], [!UICONTROL Issues], [!UICONTROL Story Board], [!UICONTROL Overview], [!UICONTROL Custom Forms], [!UICONTROL Updates] </td> 
      </tr> 
      <!--
       <tr> 
@@ -187,14 +187,14 @@ You must have the following access to perform the steps in this article:
 
    >[!NOTE]
 >
->The last 3 items in the **[!UICONTROL Customize what users see]** drop-down list (Lists, Home and Summary, and Branding) are for configuring areas other than the left panel. For information about them, see these articles:
+>The last 3 items in the **[!UICONTROL Customize what users see]** drop-down list ([!UICONTROL Lists], [!UICONTROL Home and Summary], and [!UICONTROL Branding]) are for configuring areas other than the left panel. For information about them, see these articles:
 >   
 >* [Customize Filters, Views, and Groupings using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
->* [Customize Home and Summary using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)
+>* [Customize [!UICONTROL Home] and [!UICONTROL Summary] using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)
 >* [Brand Adobe [!DNL Workfront] using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/brand-wf-using-a-layout-template.md)
 
 
-1. (Optional) If you want to add a left panel item that links to one of your organization's dashboards, click **[!UICONTROL Add custom section]**, type a **Custom section title** for the item, then add the dashboard.
+1. (Optional) If you want to add a left panel item that links to one of your organization's dashboards, click **[!UICONTROL Add custom section]**, type a **[!UICONTROL Custom section title]** for the item, then add the dashboard.
 
    Dashboard items appear at the bottom of the left panel. Users see the Custom section title you type next to the dashboard item when they hover over the left panel.
 
@@ -208,7 +208,7 @@ You must have the following access to perform the steps in this article:
 
    Or
 
-   If you are finished customizing, click **Save**.
+   If you are finished customizing, click **[!UICONTROL Save]**.
 
    >[!TIP]
 >
