@@ -8,6 +8,7 @@ title: Adobe Campaign Classic modules
 description: With the Adobe Campaign Classic modules, you can start an Adobe Workfront Fusion scenario based on events in your Adobe Campaign Classic account, create, read, or update agreements and other records, search for records using criteria you set, and upload documents.
 author: Becky
 feature: Workfront Fusion
+exl-id: 84e8fa35-0c3c-46bd-8886-88c6d8d9e1d5
 ---
 # Adobe Campaign Classic modules
 
@@ -342,4 +343,3 @@ This search module returns records based on the specified criteria.
   </tr> 
  </tbody> 
 </table>
-

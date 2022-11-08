@@ -7,6 +7,7 @@ description: The listed Adobe Workfront blueprints are available for system admi
 author: Lisa
 feature: System Setup and Administration
 role: Admin
+exl-id: a5cdcb89-71c0-43f0-a5cf-dc99fac542ba
 ---
 # List of available blueprints
 

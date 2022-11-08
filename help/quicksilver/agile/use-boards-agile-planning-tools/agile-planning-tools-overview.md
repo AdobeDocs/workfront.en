@@ -6,8 +6,8 @@ title: Agile planning tools overview
 description: As you create a board using ad hoc and connected cards, you might want to take advantage of additional agile planning tools on boards.
 author: Lisa
 feature: Agile
+exl-id: c1d28eeb-e920-4f57-a94b-ffd928b384a4
 ---
-
 # Agile planning tools overview
 
 As you create a board using ad hoc and connected cards, you might want to take advantage of additional agile planning tools, including column WIP limits, grouping cards into swimlanes, and an intake column that can be used for a backlog.
