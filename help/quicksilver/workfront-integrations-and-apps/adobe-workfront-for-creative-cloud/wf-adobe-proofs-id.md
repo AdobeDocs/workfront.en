@@ -5,8 +5,8 @@ title: Upload proofs from InDesign
 description: You can upload your art boards as documents for a quick review and approval or simply to store in Adobe Workfront.
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
+exl-id: ee3dc446-6886-4285-a942-4f44f5c0ac31
 ---
-
 # Upload proofs from [!DNL InDesign]
 
 You can upload your art boards as proofs directly to [!DNL Adobe Workfront] for a thorough review and approval.

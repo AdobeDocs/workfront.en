@@ -5,8 +5,8 @@ title: Adobe Unified Experience for FAQ
 description: A few features are different between Workfront and Adobe Experience Cloud, and you might have some questions as your Workfront instance is migrated to the unified experience.
 author: Lisa
 feature: Get Started with Workfront
+exl-id: b9076fe0-26d7-4f33-80a4-564875ea13ba
 ---
-
 # Adobe Unified Experience FAQ
 
 The Adobe Unified Experience for Workfront allows you to manage all of your Adobe applications in one place with a single login. The Adobe navigation area is integrated seamlessly with Workfront. A few features are different, and you might have some questions as your Workfront instance is migrated to the unified experience.

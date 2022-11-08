@@ -5,8 +5,8 @@ navigation-topic: boards
 title: Use groups on a board
 description: You can group cards on a board by assignee or by tag. When you select an option to group by, the cards appear in a swimlane format.
 author: Lisa
+exl-id: 6f57a20e-0e47-4457-8605-9bce55c013ec
 ---
-
 # Use groups on a board
 
 You can group cards on a board by assignee or by tag. When you select an option to group by, the cards appear in a swimlane format. Unassigned cards or cards without tags appear in their own swimlane.

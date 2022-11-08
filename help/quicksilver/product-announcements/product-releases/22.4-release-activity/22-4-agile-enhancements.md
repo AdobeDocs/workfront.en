@@ -4,8 +4,8 @@ description: 22.4 Agile enhancements
 author: Luke
 draft: Probably
 feature: Product Announcements
+exl-id: 5d954537-5ee4-43b5-b1ab-d62433496e35
 ---
-
 # 22.4 Agile enhancements
 
 This page describes all Agile enhancements made with the 22.4 release to the Preview environment. These enhancements will be made available the week of October 3, 2022. 
@@ -93,4 +93,3 @@ For more information, see [Manage board columns](/help/quicksilver/agile/get-sta
 A new Estimation field on both ad hoc and connected cards allows you to enter the estimated number of hours for the card to be completed. This is a manual entry, not a calculated value, and the value can't be more than 99. The estimate is displayed on the card on the board as well as in the card details.
 
 [View a video demonstration of this feature.](https://vimeo.com/731902610/313c4e2791)
-
