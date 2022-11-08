@@ -99,6 +99,10 @@ The following table outlines major features of boards along with their current r
    <td>Partially released</td>
   </tr>
   <tr>
+   <td>Display the status on a card</td>
+   <td>Partially released</td>
+  </tr>
+  <tr>
    <td>Import subtasks as checklist items on cards</td>
    <td>Planned</td>
   </tr>
