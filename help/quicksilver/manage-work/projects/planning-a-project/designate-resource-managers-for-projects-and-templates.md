@@ -25,7 +25,7 @@ Designating Resource Managers for a project is a prerequisite for using the Sche
 >[!CAUTION]  
 >  
 >  
-> <span class="preview">Some of the information in this article refers to the Adobe Workfront's Scheduling tools. The Scheduling areas have been removed from the Preview environment and will be removed from the Production environment in **January, 2023**. </span>  
+> <span class="preview">Some of the information in this article refers to the Adobe Workfront's Scheduling tools. The Scheduling areas have been removed from the Preview environment and will be removed from the Production environment in **January 2023**. </span>  
 > <span class="preview"> Instead, you can schedule resources in the Workload Balancer. </span>  
 >  
 >* <span class="preview"> For information about scheduling resources using the Workload Balancer, see the section [The Workload Balancer](../../../resource-mgmt/workload-balancer/workload-balancer.md).</span>  
