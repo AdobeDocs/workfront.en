@@ -14,8 +14,8 @@ exl-id: 0f90ffde-6f07-4c3c-b963-de28b1b55dc1
 >[!CAUTION] 
 > 
 > 
-> <span class="preview">The information in this article refers to the Adobe Workfront's Scheduling tools. The Scheduling areas have been removed from the Preview environment and will be removed from the Production environment on **November 10, 2022**. </span> 
-> <span class="preview"> Instead, you can schedule resources in the Workload Balancer. </span> 
+> <span class="preview">The information in this article refers to the Adobe Workfront's Scheduling tools. The Scheduling areas have been removed from the Preview environment and will be removed from the Production environment in **January, 2023**. </span> 
+> <span class="preview"> Instead, you can schedule resources in the Workload Balancer.</span> 
 > 
 >* <span class="preview"> For information about scheduling resources using the Workload Balancer, see the section [The Workload Balancer](../../resource-mgmt/workload-balancer/workload-balancer.md).</span> 
 > 

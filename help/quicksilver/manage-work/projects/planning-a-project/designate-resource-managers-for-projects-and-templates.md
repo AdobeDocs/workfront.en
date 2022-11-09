@@ -12,10 +12,10 @@ exl-id: ae2a89e7-8049-4ee6-9b28-ce247d3f2a6f
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span>
 
 <!--
-<p This article might have to be deleted when the Resource Manager field/ requirement will be forever removed from the system; right now it's still a requirement for Scheduler - November 10, 2022</p>
+<p This article might have to be deleted when the Resource Manager field/ requirement will be forever removed from the system; right now it's still a requirement for Scheduler - January 2023/p>
 -->
 
-<!-- remove Prod and Prev references with Prod release - Nov 10, 2022-->
+<!-- remove Prod and Prev references with Prod release - Jan 2023-->
 
 You can designate Resource Managers for a project to indicate who is responsible for managing resources on the project. This is an informational field and it is not connected to any resource management tools, <span class="preview">in the Preview environment</span>. 
 
@@ -25,7 +25,7 @@ Designating Resource Managers for a project is a prerequisite for using the Sche
 >[!CAUTION]  
 >  
 >  
-> <span class="preview">Some of the information in this article refers to the Adobe Workfront's Scheduling tools. The Scheduling areas have been removed from the Preview environment and will be removed from the Production environment on **November 10, 2022**. </span>  
+> <span class="preview">Some of the information in this article refers to the Adobe Workfront's Scheduling tools. The Scheduling areas have been removed from the Preview environment and will be removed from the Production environment in **January, 2023**. </span>  
 > <span class="preview"> Instead, you can schedule resources in the Workload Balancer. </span>  
 >  
 >* <span class="preview"> For information about scheduling resources using the Workload Balancer, see the section [The Workload Balancer](../../../resource-mgmt/workload-balancer/workload-balancer.md).</span>  
