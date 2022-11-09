@@ -1,0 +1,31 @@
+---
+title: 23.1 release activity week of November 7, 2022
+description: 23.1 release activity Week of November 7, 2022
+author: Luke
+draft: Probably
+feature: Product Announcements
+---
+# 23.1 release activity: Week of November 7, 2022
+
+This page describes all enhancements made with the 23.1 release to the Preview environment the week of November 7, 2022. These enhancements will be made available in the Production environment later this year.
+
+For a list of all changes available at this point in the 23.1 release cycle, see [23.1 Release overview](/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-release-overview.md).
+
+## New look and feel for Workfront for Jira integration
+
+To create a more consistent experience within Jira, we've updated the Workfront for Jira integration. The look and feel of the Workfront for Jira integration now matches the look and feel of Jira.
+
+The functionality of the Workfront for Jira integration has not changed.
+
+For more information on the Workfront for Jira integration, see [Adobe Workfront for Jira](/help/quicksilver/workfront-integrations-and-apps/use-workfront-with-jira/workfront-for-jira.md).
+
+## Search and sort on the boards dashboard
+
+>[!NOTE]
+>
+>This feature is available only through the early feature opt-in for Workfront Boards.
+
+You can now sort the boards dashboard by board name or date, and search for a specific board in the list.
+
+For more information, see [Use the boards dashboard](/help/quicksilver/agile/get-started-with-boards/use-boards-page.md).
+
