@@ -71,8 +71,8 @@ The following is a timeline for the deprecation process of Resource Scheduling t
 
 * No defects will be prioritized for a fix during and after the 2022.4 or 2023.1 releases
 * <span class="preview"> All Scheduling areas are removed from the Preview environment </span> (**October 20, 2022**)
-* All Scheduling areas are removed from the Production environment (**January, 2023**)
-* The Workload Balancer is the only resource scheduling tool available in Workfront (after **January, 2023**)
+* All Scheduling areas are removed from the Production environment (**January 2023**)
+* The Workload Balancer is the only resource scheduling tool available in Workfront (after **January 2023**)
 
 ## Feature availability {#feature-availability}
 

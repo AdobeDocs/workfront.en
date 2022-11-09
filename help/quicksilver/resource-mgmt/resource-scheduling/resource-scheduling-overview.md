@@ -19,7 +19,7 @@ exl-id: e09363dc-ddaf-4595-9abd-cd721512442b
 >[!CAUTION] 
 > 
 > 
-> <span class="preview">The information in this article refers to the Adobe Workfront's Scheduling tools. The Scheduling areas have been removed from the Preview environment and will be removed from the Production environment in **January, 2023**.  </span> 
+> <span class="preview">The information in this article refers to the Adobe Workfront's Scheduling tools. The Scheduling areas have been removed from the Preview environment and will be removed from the Production environment in **January 2023**.  </span> 
 > <span class="preview"> Instead, you can schedule your resources in the Workload Balancer. </span> 
 > 
 >* <span class="preview"> For information about scheduling resources using the Workload Balancer, see the section [The Workload Balancer](../../resource-mgmt/workload-balancer/workload-balancer.md).</span> 
@@ -28,7 +28,7 @@ exl-id: e09363dc-ddaf-4595-9abd-cd721512442b
 
 The following articles explain how to assign tasks and issues to users and manage their allocations by using the Scheduling tools available in Adobe Workfront. 
 
-You can schedule resources using the Scheudling tools on any projects for which you are the Resource Manager, for any team you are a member of, and for any project where you are a member of the project team.
+You can schedule resources using the Scheduling tools on any projects for which you are the Resource Manager, for any team you are a member of, and for any project where you are a member of the project team.
 
 This section contains the following articles:
 

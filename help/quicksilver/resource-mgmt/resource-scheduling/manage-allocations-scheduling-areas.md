@@ -2,7 +2,7 @@
 product-area: resource-management
 navigation-topic: resource-scheduling
 title: Manage user allocations in the Scheduling areas
-description: This article describes how to update daily hourly allocations for users assigned to tasks or issues using the Resource Scheudling area.
+description: This article describes how to update daily hourly allocations for users assigned to tasks or issues using the Resource Scheduling area.
 author: Alina
 feature: Resource Management
 exl-id: c8ddb250-145e-4321-8747-4f4967fcce41
@@ -14,7 +14,7 @@ exl-id: c8ddb250-145e-4321-8747-4f4967fcce41
 >[!CAUTION] 
 > 
 > 
-> <span class="preview">The information in this article refers to the Adobe Workfront's Scheduling tools. The Scheduling areas have been removed from the Preview environment and will be removed from the Production environment in **January, 2023**.  </span> 
+> <span class="preview">The information in this article refers to the Adobe Workfront's Scheduling tools. The Scheduling areas have been removed from the Preview environment and will be removed from the Production environment in **January 2023**.  </span> 
 > <span class="preview"> Instead, you can schedule resources in the Workload Balancer. </span> 
 > 
 >* <span class="preview"> For information about scheduling resources using the Workload Balancer, see the section [The Workload Balancer](../../resource-mgmt/workload-balancer/workload-balancer.md).</span> 
@@ -23,7 +23,7 @@ exl-id: c8ddb250-145e-4321-8747-4f4967fcce41
 
 User allocations are amounts of hours that indicate the time that a user should spend on one given day to complete a work item. They are included in the Planned Hours of the work item.
 
-This article describes how to update daily hourly allocations for users assigned to tasks or issues using the Resource Scheudling area. For information about managing overall allocations for users and job roles to tasks, see [Manage user and role allocation hours on tasks](../../manage-work/tasks/assign-tasks/manage-allocation-hours-on-tasks.md). You cannot update overall allocations for users and job roles for issues.
+This article describes how to update daily hourly allocations for users assigned to tasks or issues using the Resource Scheduling area. For information about managing overall allocations for users and job roles to tasks, see [Manage user and role allocation hours on tasks](../../manage-work/tasks/assign-tasks/manage-allocation-hours-on-tasks.md). You cannot update overall allocations for users and job roles for issues.
 
 You can display user allocations in the following areas of Adobe Workfront:
 
