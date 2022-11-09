@@ -295,7 +295,7 @@ The Workload Balancer is replacing the Resource Scheduler. For more information 
   
 >[!NOTE]
 >
->  This feature will be removed in November 2022.
+>  This feature has been deprecated when creating new subscriptions and will be removed in January 2023.
 
   This event type allowed customers to watch when permissions for objects were updated.
 
