@@ -274,7 +274,7 @@ The following functionality is soon to be removed from Workfront:
 
 >[!NOTE]
 >
->The Resource Scheduler was removed from the Preview environment on October 20. It will be removed from the Production environment on November 10.
+>The Resource Scheduler was removed from the Preview environment on October 20. It will be removed from the Production environment with the 23.1 release in January 2022.
 
 
 As part of the deprecation of the Resource Scheduling tools, we have removed the following areas: 
