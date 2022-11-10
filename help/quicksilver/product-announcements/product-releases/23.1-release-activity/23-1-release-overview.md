@@ -137,7 +137,7 @@ The enhancements on this page are available in the Preview environment. This pag
                     <td>
                         <a href="../../../product-announcements/product-releases/23.1-release-activity/23-1-nov-7.md" class="MCXref xref" xrefformat="{para}">Linkable cards now available on boards</a><span style="color: #ff0000;"> New in Preview!</span></p>
                         <p>You can now send a link to a specific card to another boards user. The person must have access to view the board before they can open the link.</p>
-                        <p>When you open a card on a board, the browser URL looks like this: https://<Workfront-URL>/boards/<board-id>/card/<card-id>.</p>
+                        <!-- <p>When you open a card on a board, the browser URL looks like this: https://<Workfront-URL>/boards/<board-id>/card/<card-id>.</p> -->
                         <p>You can copy the full URL and send it to someone else. They will go directly to the open card when they access the link.</p>
                         <p>Previously, links were available to boards but not specific cards.</p>
                     </td>
