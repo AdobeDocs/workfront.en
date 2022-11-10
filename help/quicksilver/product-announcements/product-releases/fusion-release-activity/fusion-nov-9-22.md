@@ -8,6 +8,7 @@ description: This page describes all enhancements made in Adobe Workfront Fusion
 author: Luke
 feature: Product Announcements, Workfront Fusion
 hidefromtoc: yes
+exl-id: 802db851-39bb-4f40-8a66-ecb8c8b3ced6
 ---
 # Workfront Fusion release activity: Week of November 7, 2022
 

@@ -11,13 +11,13 @@ exl-id: 4bc08d5f-99c7-40e2-85d6-1de0b585aef8
 
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> 
 
-<!-- drafted for res scheduling deprecation blurb for PREVIEW eview release - Oct 2022 - CHANGE THIS BLURB TO SOMETHING ELSE AT PRODUCTION:-->  
+<!-- drafted for res scheduling deprecation blurb for PREVIEW release - Oct 2022 - CHANGE THIS BLURB TO SOMETHING ELSE AT PRODUCTION:-->  
 
 >[!CAUTION]  
 >  
 >  
-> <span class="preview">The Scheduling areas have been removed from the Preview environment and will be removed from the Production environment on **November 10, 2022**. </span>  
-> <span class="preview"> After November 10, 2022, you must schedule your resources in the Workload Balancer. </span>  
+> <span class="preview">The Scheduling areas have been removed from the Preview environment and will be removed from the Production environment in **January 2023**. </span>  
+> <span class="preview"> After January 2023, you must schedule your resources in the Workload Balancer. </span>  
 >  
 ><span class="preview"> For information about scheduling resources using the Workload Balancer, see the section [The Workload Balancer](../../resource-mgmt/workload-balancer/workload-balancer.md).</span>  
 
@@ -98,7 +98,7 @@ If your workflow matches this scenario, you should be more strategic in your tra
 
    >[!CAUTION]
    >
-   >You have until **November 10, 2022** to ensure that your user allocation from the Scheduling areas matches that in the Workload Balancer in your Production environment. At that time, we are removing the Scheduling tools from the Production environment. You must manually adjust the allocations in the Workload Balancer to match those in the Scheduling tools. <span class="preview">The Scheduling tools have already been remvoved from the Preview environment.</span>
+   >You have until **January 2023** to ensure that your user allocation from the Scheduling areas matches that in the Workload Balancer in your Production environment. At that time, we are removing the Scheduling tools from the Production environment. You must manually adjust the allocations in the Workload Balancer to match those in the Scheduling tools. <span class="preview">The Scheduling tools have already been removed from the Preview environment.</span>
 
 
 Consider the following when making the transition to the [!UICONTROL Workload Balancer] when you use this [!UICONTROL Scheduling] functionality:

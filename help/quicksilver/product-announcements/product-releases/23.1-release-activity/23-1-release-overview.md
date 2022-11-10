@@ -274,7 +274,7 @@ The following functionality is soon to be removed from Workfront:
 
 >[!NOTE]
 >
->The Resource Scheduler was removed from the Preview environment on October 20. It will be removed from the Production environment on November 10.
+>The Resource Scheduler was removed from the Preview environment on October 20. It will be removed from the Production environment with the 23.1 release in January 2022.
 
 
 As part of the deprecation of the Resource Scheduling tools, we have removed the following areas: 
@@ -295,7 +295,7 @@ The Workload Balancer is replacing the Resource Scheduler. For more information 
   
 >[!NOTE]
 >
->  This feature will be removed in November 2022.
+>  This feature has been deprecated when creating new subscriptions and will be removed in January 2023.
 
   This event type allowed customers to watch when permissions for objects were updated.
 
