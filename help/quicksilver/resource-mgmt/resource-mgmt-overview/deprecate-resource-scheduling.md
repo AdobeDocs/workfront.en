@@ -54,7 +54,7 @@ The following is a timeline for the deprecation process of Resource Scheduling t
 
 * [2020.4 release (November 2020)](#2020-4-release-november-2020) 
 * [2021.4 release (October 2021)](#2021-4-release-october-2021) 
-* [2022.4 - 2023.1 releases (October 2022 - January 2023)](#20224-release-october-2022-tentative)
+* [2022.4 - 2023.1 releases (October 2022 - January 2023)](#2022-4-2023-1-releases)
 
 ### 2020.4 release (November 2020) {#2020-4-release-november-2020}
 
@@ -67,7 +67,7 @@ The following is a timeline for the deprecation process of Resource Scheduling t
 * Workload Balancer is set as default for any first-time user of Workfront
 * Enhanced filters that can be shared and include additional fields
 
-### 2022.4 - 2023.1 releases (October 2022 - January 2023) 
+### 2022.4 - 2023.1 releases (October 2022 - January 2023) {#2022-4-2023-1-releases}
 
 * No defects will be prioritized for a fix during and after the 2022.4 or 2023.1 releases
 * <span class="preview"> All Scheduling areas are removed from the Preview environment </span> (**October 20, 2022**)
