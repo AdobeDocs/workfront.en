@@ -61,7 +61,8 @@ You must have the following access to perform the steps in this article:
 
    >[!NOTE]
    >
-   >Only objects that you have permissions to are available in the search results. If an item is dimmed, it has already been added to the board.
+   >* Only objects that you have permissions to are available in the search results. If an item is dimmed, it has already been added to the board.
+   >* When you filter by **Projects I Own** or **Projects I'm On**, projects that equate to a Complete, Dead, or Rejected status are not included. You can still search for those projects with the **All** filter.
 
 1. Click **Add**.
 
@@ -175,7 +176,8 @@ After you have created an ad hoc card, you can convert it to a connected card. F
 
    >[!NOTE]
    >
-   >Only objects that you have permissions to are available in the search results.
+   >* Only objects that you have permissions to are available in the search results.
+   >* When you filter by **Projects I Own** or **Projects I'm On**, projects that equate to a Complete, Dead, or Rejected status are not included. You can still search for those projects with the **All** filter.
 
 1. Click **Connect**.
 
