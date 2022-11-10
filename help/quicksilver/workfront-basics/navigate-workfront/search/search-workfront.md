@@ -1,16 +1,16 @@
 ---
 navigation-topic: search
-title: Search Adobe Workfront
-description: You can easily locate items in Adobe Workfront by searching for them when you cannot remember their exact location.
+title: Search [!DNL Adobe Workfront]
+description: You can easily locate items in [!DNL Adobe Workfront] by searching for them when you cannot remember their exact location.
 feature: Get Started with Workfront
 author: Lisa
 exl-id: 7c856349-c79f-40d8-9c96-b32bfb6d5417
 ---
-# Search Adobe Workfront
+# Search [!DNL Adobe Workfront]
 
-You can easily locate items in Adobe Workfront by searching for them when you cannot remember their exact location.
+You can easily locate items in [!DNL Adobe Workfront] by searching for them when you cannot remember their exact location.
 
-You can see the Search box in the upper-right corner of any page within Workfront.
+You can see the [!UICONTROL Search] box in the upper-right corner of any page within Workfront.
 
 ![](assets/search-globalnavigationbar-350x62.png)
 
@@ -25,16 +25,16 @@ You must have permissions to View an object before you can find it in a search. 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront plan*</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront plan*]</strong></td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront license*</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] license*</strong></td> 
    <td> <p>Request or higher</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Access level configurations*</strong></td> 
-   <td> <p>View access to the type of object </p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p></td> 
+   <td> <p>View access to the type of object </p> <p>Note: If you still don't have access, ask your [!DNL Workfront] administrator if they set additional restrictions in your access level. For information on how a [!DNL Workfront] administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Object permissions</strong></td> 
@@ -43,14 +43,14 @@ You must have permissions to View an object before you can find it in a search. 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+&#42;To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
 
 +++
 
 ## Understand Search {#understand-search}
 
-* [Objects available for search](#objects-available-for-search) 
-* [Fields available for search](#fields-available-for-search)
+* [[!UICONTROL Objects available for search]](#objects-available-for-search)
+* [[!UICONTROL Fields available for search]](#fields-available-for-search)
 
 ### Objects available for search {#objects-available-for-search}
 
@@ -60,7 +60,7 @@ You can search for the following objects in Workfront:
 * Tasks
 * Issues
 * Reports
-* Users 
+* Users
 * Templates
 * Documents
 * Portfolios
@@ -73,33 +73,33 @@ You can search for the following objects in Workfront:
 
 The fields available for search are based on the type of search: Basic or Advanced Search.
 
-* **Basic Search**: When searching for objects in a basic search, Workfront looks for text that might contain your keywords in the following fields:
+* **Basic Search**: When searching for objects in a basic search, [!DNL Workfront] looks for text that might contain your keywords in the following fields:
 
-  * Object names
-  * Descriptions
-  * Custom data fields
-  * Updates
-  * Document names (in specific document searches and in a basic search)
+   * Object names
+   * Descriptions
+   * Custom data fields
+   * Updates
+   * Document names (in specific document searches and in a basic search)
 
-  For more information about basic searching in Workfront, see [Basic Search](#basic-search) in this article.
+   For more information about basic searching in [!DNL Workfront], see [[!DNL Basic Search]](#basic-search) in this article.
 
 * **Advanced Search**: In an Advanced Search, you can set up filters to search fields not available in basic search. Therefore, Advanced Search allows you to search any field in the object.
 
-  For more information about Advanced Search, see [Advanced Search](#advanced-search) in this article.
+   For more information about Advanced Search, see [Advanced Search](#advanced-search) in this article.
 
 >[!NOTE]
 >
->To perform an Advanced Search, you must select the Advanced Search option when beginning your search. You cannot refine a basic search into an Advanced Search.
+>To perform an [!UICONTROL Advanced Search], you must select the Advanced Search option when beginning your search. You cannot refine a basic search into an Advanced Search.
 
-## Understand limitations of Workfront searches
+## Understand limitations of [!DNL Workfront] searches
 
 Consider the following limitations when using Search in Workfront:
 
 * Searches are not case-sensitive
 * Workfront does not correct or understand typos
-* Searching in Workfront does not support Wildcards
-* Searching in Workfront supports partial word searches, but does not support substring searches.  
-  For example, the search keyword "stand" would return results including the word "standard" but would not return results including the word "understand."
+* Searching in [!DNL Workfront] does not support Wildcards
+* Searching in [!DNL Workfront] supports partial word searches, but does not support substring searches.\
+   For example, the search keyword "stand" would return results including the word "standard" but would not return results including the word "understand."
 
 ## Search for multiple words
 
@@ -113,7 +113,7 @@ For example, searching for "Marketing Demo" (without quotation marks) finds obje
 
 It also finds objects that might have "Marketing" in the name and "Demo" in the description.
 
-However, you can do the following in the Search box to adjust the search results that appear:
+However, you can do the following in the [!UICONTROL Search] box to adjust the search results that appear:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -150,24 +150,24 @@ However, you can do the following in the Search box to adjust the search results
  </tbody> 
 </table>
 
-## Use Search in Workfront
+## Use Search in [!DNL Workfront]
 
-Workfront features two types of searches: Basic and advanced. Use basic search if you want to find keywords in common object fields such as name or description. Use Advanced Search if you want to use filters to search other object fields.
+Workfront features two types of searches: Basic and advanced. Use [!UICONTROL basic search] if you want to find keywords in common object fields such as name or description. Use [!UICONTROL Advanced Search] if you want to use filters to search other object fields.
 
-* [Basic Search](#basic-search) 
+* [Basic Search](#basic-search)
 * [Advanced Search](#advanced-search)
 
 ### Basic Search {#basic-search}
 
-A basic search allows you to search for keywords across all objects in the system or on just one object at a time (such as projects). Workfront then searches for those keywords in a few specific fields. You can then refine your search results based on other object-specific fields selected by Workfront.
+A basic search allows you to search for keywords across all objects in the system or on just one object at a time (such as projects). [!DNL Workfront] then searches for those keywords in a few specific fields. You can then refine your search results based on other object-specific fields selected by Workfront.
 
 For a list of the specific fields searched in basic search, see [Fields available for search](#fields-available-for-search) in this article.
 
 >[!NOTE]
 >
->To perform an Advanced Search, you must select the Advanced Search option when beginning your search. You cannot refine a basic search into an Advanced Search.
+>To perform an [!UICONTROL Advanced Search], you must select the Advanced Search option when beginning your search. You cannot refine a basic search into an Advanced Search.
 
-* [Perform a basic search](#perform-a-basic-search) 
+* [Perform a basic search](#perform-a-basic-search)
 * [Refine a basic search](#refine-a-basic-search)
 
 #### Perform a basic search {#perform-a-basic-search}
@@ -179,34 +179,34 @@ You can do a basic search in either of the following ways:
 
 To perform a basic search:
 
-1. Click the magnifying glass ![](assets/search-icon.png) in the upper-right corner of the page. You can also type **ALT + /** or **Option + /** to open the Search menu.   
+1. Click the magnifying glass ![](assets/search-icon.png) in the upper-right corner of the page. You can also type **ALT + /** or **Option + /** to open the Search menu.
 
 1. (Optional) To search for a specific object, click the **All** drop-down menu and select the object you want to search for.
 
    ![](assets/search-objecttype.png)
 
-1. In the **Search** box, start typing the information you are searching for.  
-   For information about what fields are searched in Workfront, see [Understand Search](#understand-search).  
-   ![](assets/qs-search-drop-down-highlighted-350x234.png)  
-   As you begin typing in the search bar, Workfront makes recommendations based on your viewing history and it highlights the keyword you are searching for in blue.
+1. In the **[!UICONTROL Search]** box, start typing the information you are searching for.\
+   For information about what fields are searched in [!DNL Workfront], see [Understand Search](#understand-search).\
+   ![](assets/qs-search-drop-down-highlighted-350x234.png)\
+   As you begin typing in the search bar, [!DNL Workfront] makes recommendations based on your viewing history and it highlights the keyword you are searching for in blue.
 
-1. If the item you are looking for displays in the typeahead menu, click it.
+1. If the item you are looking for displays in the [!UICONTROL typeahead] menu, click it.
 
    Or
 
-   Press **Enter** to perform a comprehensive search. This search queries the entire database instead of your most recently viewed items.
+   Press **[!UICONTROL Enter]** to perform a comprehensive search. This search queries the entire database instead of your most recently viewed items.
 
    The Search Results page slides open from the left and covers most of the previous page.
 
-   If you performed a general search, Workfront returns results for any object that matches the search term in any of the fields searched, as described in [Understand Search](#understand-search). The objects that match your search display in a list.
+   If you performed a general search, [!DNL Workfront] returns results for any object that matches the search term in any of the fields searched, as described in [Understand Search](#understand-search). The objects that match your search display in a list.
 
    >[!NOTE]
    >
-   >Sometimes, variations of a word display in the list of found items.  
+   >Sometimes, variations of a word display in the list of found items.\
    >For example, searching for "marketing" displays objects that contain either "marketing" or "market" in the name.
 
 1. (Optional) If your search generated too many results, refine your search as described in [Refine a basic search](#refine-a-basic-search).
-1. (Optional) To return to the page you were on prior to the search, click **Close** in the top-right corner.
+1. (Optional) To return to the page you were on prior to the search, click **[!UICONTROL Close]** in the top-right corner.
 
 >[!NOTE]
 >
@@ -214,18 +214,18 @@ To perform a basic search:
 
 #### Refine a basic search {#refine-a-basic-search}
 
-After performing a basic search—as described in [Perform a basic search](#perform-a-basic-search)—you can refine the search.
+After performing a basic search—as described in [[!UICONTROL Perform a basic search]](#perform-a-basic-search)—you can refine the search.
 
 Use the toolbar to the left of your search results to narrow down the information you are looking for.
 
 To refine a search:
 
 1. (Conditional) If you performed a general search, select the object you were searching for in the list of objects to the upper left of your results.
-1. Locate the fields available for the objects displayed in the search in the toolbar to the left of your results.  
+1. Locate the fields available for the objects displayed in the search in the toolbar to the left of your results.\
    The values of each field display, sorted by count, up to 10 values for each field.
-1. Click inside any of the fields available to shorten the list of results.  
-   The selections you make are highlighted in blue and the field values that you do not select are hidden.  
-   After you select each new value, the results to the right update dynamically.  
+1. Click inside any of the fields available to shorten the list of results.\
+   The selections you make are highlighted in blue and the field values that you do not select are hidden.\
+   After you select each new value, the results to the right update dynamically.\
    ![](assets/qs-refine-search-350x175.png)
 
 1. (Optional) Click the selected values to deselect them and display all values for each field again.
@@ -236,37 +236,37 @@ Advanced Search allows you to search using fields and filters not available to b
 
 >[!NOTE]
 >
->To perform an Advanced Search, you must select the Advanced Search option when beginning your search. You cannot refine a basic search into an Advanced Search.
+>To perform an [!UICONTROL Advanced Search], you must select the Advanced Search option when beginning your search. You cannot refine a basic search into an Advanced Search.
 
 * [Use Advanced Search](#use-advanced-search)
 
 #### Use Advanced Search {#use-advanced-search}
 
-You can use Advanced Search to filter your search based on specific criteria.  
+You can use [!DNL Advanced Search] to filter your search based on specific criteria.\
 This type of search is helpful when you cannot remember a keyword associated with an object but you know some specific information about that object (example: Project Priority, Document Owner Name, etc).
 
 To perform an advanced search:
 
-1. In the upper-right corner of any page in Workfront, click the **Search** icon ![](assets/search-icon.png). The Search menu displays.  
+1. In the upper-right corner of any page in [!DNL Workfront], click the **[!UICONTROL Search]** icon ![](assets/search-icon.png). The [!DNL Search] menu displays.
 
-1. At the bottom of the Search menu, click **Advanced Search**.  
-   ![](assets/qs-advanced-search-350x224.png)  
-   The Advanced Search page slides open from the right and covers most of the previous page.  
+1. At the bottom of the Search menu, click **Advanced Search**.\
+   ![](assets/qs-advanced-search-350x224.png)\
+   The [!UICONTROL Advanced Search] page slides open from the right and covers most of the previous page.
 
-1. Select the type of object you are searching for.  
-   **Projects** is selected by default.
+1. Select the type of object you are searching for.\
+   **[!UICONTROL Projects]** is selected by default.
 
    ![](assets/advanced-search-objects-qs-remove-after-prod-release.png)
 
-1. (Optional) Type a keyword in the field at the top of the list.  
-1. (Optional) Click **Filter your results** to filter your search results based on specific field types, then select a field from the list. If necessary, also select a value for the field.  
-   Or  
-   Add a new filter.  
+1. (Optional) Type a keyword in the field at the top of the list.
+1. (Optional) Click **[!UICONTROL Filter your results]** to filter your search results based on specific field types, then select a field from the list. If necessary, also select a value for the field.\
+   Or\
+   Add a new filter.
 
-1. Click **Search**.  
+1. Click **Search**.\
    A list of items that match your search displays to the right of the Advanced Search toolbar.
 
-1. (Optional) To return to the page you were on prior to the search, click **Close** in the the top-right corner.
+1. (Optional) To return to the page you were on prior to the search, click **[!UICONTROL Close]** in the the top-right corner.
 
 >[!NOTE]
 >

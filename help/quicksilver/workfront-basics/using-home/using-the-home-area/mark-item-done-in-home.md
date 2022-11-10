@@ -13,7 +13,7 @@ You can mark a task or issue as Done if you are the task or issue assignee. When
 
 >[!NOTE]
 >
->You do not see the Done button unless you are one of the resources assigned to the task or the issue.
+>You do not see the [!UICONTROL Done] button unless you are one of the resources assigned to the task or the issue.
 
 ## Access requirements
 
@@ -26,16 +26,16 @@ You must have the following access to perform the steps in this article:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront plan*</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront plan*]</strong></td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront license*</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] license*</strong></td> 
    <td> <p>Work or higher</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Access level configurations*</strong></td> 
-   <td> <p>Edit access to Tasks and Issues</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>Edit access to Tasks and Issues</p> <p>Note: If you still don't have access, ask your [!DNL Workfront] administrator if they set additional restrictions in your access level. For information on how a [!DNL Workfront] administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Object permissions</strong></td> 
@@ -44,31 +44,31 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+&#42;To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
 
 ## Mark a task or issue as Done
 
 Only the user assigned to the task or issue can mark it as Done.
 
-1. Click the **Main Menu** ![](assets/main-menu-icon.png) in the upper-right corner, then click **Home**. 
-1. In the **Work List**, locate any of the items waiting to be worked on.
+1. Click the **Main Menu** ![](assets/main-menu-icon.png) in the upper-right corner, then click **Home**.
+1. In the **[!UICONTROL Work List]**, locate any of the items waiting to be worked on.
 1. Do either of the following:
 
-* Click&nbsp;**Done**&nbsp;on the work item.  
-  See [Understand the options of the Done button](#understand-the-options-of-the-done-button) for more detailed information about how this button might appear.
+* Click&nbsp;**Done**&nbsp;on the [!UICONTROL work] item.\
+   See [Understand the options of the Done button](#understand-the-options-of-the-done-button) for more detailed information about how this button might appear.
 
 * Select the item you want to mark as done, then in the right panel, click&nbsp;**Update Status**, then change the status of the item to a status that equates with Complete or Closed.&nbsp;
 
-## Understand the options of the Done button {#understand-the-options-of-the-done-button}
+## Understand the options of the [!UICONTROL Done] button {#understand-the-options-of-the-done-button}
 
-By default, clicking the Done button on a work item changes the status of that item to Complete (for tasks) or Resolved (for issues).
+By default, clicking the [!UICONTROL Done] button on a work item changes the status of that item to Complete (for tasks) or Resolved (for issues).
 
-Your Adobe Workfront administrator can customize what statuses are associated with the Done button, and apply those customizations to your Home Team.
+Your [!DNL Adobe Workfront] administrator can customize what statuses are associated with the [!UICONTROL Done] button, and apply those customizations to your Home Team.
 
-Depending on how many statuses are associated with the Done button or how many resources are assigned to the task or the issue, the look of the Done button can change.
+Depending on how many statuses are associated with the [!UICONTROL Done] button or how many resources are assigned to the task or the issue, the look of the [!UICONTROL Done] button can change.
 
-* [Done button associated with one status](#done-button-associated-with-one-status) 
-* [Done button associated with multiple statuses](#done-button-associated-with-multiple-statuses) 
+* [[!UICONTROL Done] button associated with one status](#done-button-associated-with-one-status)
+* [Done button associated with multiple statuses](#done-button-associated-with-multiple-statuses)
 * [Done button for items assigned to multiple resources](#done-button-for-items-assigned-to-multiple-resources)
 
 ### Done button associated with one status {#done-button-associated-with-one-status}
@@ -77,9 +77,9 @@ When the Done button is associated with one status and the work item is assigned
 
 ![Done button](assets/Done.png)
 
-To understand which status is associated with the Done button, check the Team Settings of your Home Team for the Done Button section, as described in [Edit team settings](../../../people-teams-and-groups/create-and-manage-teams/edit-team-settings.md).
+To understand which status is associated with the Done button, check the Team Settings of your Home Team for the [!UICONTROL Done Button] section, as described in [Edit team settings](../../../people-teams-and-groups/create-and-manage-teams/edit-team-settings.md).
 
-If you are not assigned to a Home Team, the default status is chosen when clicking Done, as described above in [Understand the options of the Done button](#understand-the-options-of-the-done-button).
+If you are not assigned to a Home Team, the default status is chosen when clicking [!UICONTROL Done], as described above in [[!UICONTROL Understand the options of the Done] button](#understand-the-options-of-the-done-button).
 
 ### Done button associated with multiple statuses {#done-button-associated-with-multiple-statuses}
 
@@ -93,11 +93,11 @@ To understand how you can associate multiple statuses with the Done button, see 
 
 ### Done button for items&nbsp;assigned to multiple resources {#done-button-for-items-assigned-to-multiple-resources}
 
-When the task or the issue is assigned to more than one resource, the button shows the word **Done** which is followed by a drop-down menu. In the drop-down menu, you have the option to chose between **Done with my part** (which lets team members know you are complete with your portion of the task), or the status associated with the Done button (which&nbsp;completes the item). After you select **Done with my part**, the work item is removed from your Work List, but remains in the Work List of those still assigned to the work item.  
+When the task or the issue is assigned to more than one resource, the button shows the word **[!UICONTROL Done]** which is followed by a drop-down menu. In the drop-down menu, you have the option to chose between **[!UICONTROL Done with my part]** (which lets team members know you are complete with your portion of the task), or the status associated with the [!UICONTROL Done] button (which&nbsp;completes the item). After you select **[!UICONTROL Done with my part]**, the work item is removed from your Work List, but remains in the Work List of those still assigned to the work item.\
 If the Done button is associated with multiple statuses, they are listed under **Done with my part**.
 
 >[!NOTE]
 >
->On a task or issue with multiple assignees, each user is responsible for indicating that their own assignment on the task or issue has actually been completed. For this reason, each assignee must click Done to show they have completed the work assigned to them on the item.
+>On a task or issue with multiple assignees, each user is responsible for indicating that their own assignment on the task or issue has actually been completed. For this reason, each assignee must click [!UICONTROL Done] to show they have completed the work assigned to them on the item.
 
 ![](assets/marking-an-item-done-with-my-part-grop-by-drop-down-nwe-350x266.png)

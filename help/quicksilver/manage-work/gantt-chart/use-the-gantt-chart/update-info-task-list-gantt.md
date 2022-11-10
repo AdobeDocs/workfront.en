@@ -71,7 +71,7 @@ You must have the following to follow the steps in this article:
 
 1. Hover over the timeline of a task and drag the time line indicator to a different date.
 1. Drop the indicator when you have reached the correct new Completion Date for the task. 
-1. (Optional and conditional) If you have selected to manually save your changes, click the **Undo** or**Redo** icons if you want to cancel or duplicate any of the changes.
+1. (Optional and conditional) If you have selected to manually save your changes, click the **Undo** or&#x200B;**Redo** icons if you want to cancel or duplicate any of the changes.
 
    >[!TIP]
    >
@@ -103,7 +103,7 @@ You must have the following to follow the steps in this article:
 1. To delete a predecessor relationship, c lick a predecessor line that connects two tasks to select it, then press **Delete** on your keyboard.  
    ![Delete_predecessor.png](assets/delete-predecessor-350x152.png)
 
-1. (Optional and conditional) If you selected to save your changes manually, click the **Undo** or**Redo** icons if you want to cancel or duplicate any of the changes.
+1. (Optional and conditional) If you selected to save your changes manually, click the **Undo** or&#x200B;**Redo** icons if you want to cancel or duplicate any of the changes.
 
    >[!TIP]
    >
@@ -152,7 +152,7 @@ You must have the following to follow the steps in this article:
    >   
    >In some cases, the predecessor relationships might prevent the tasks from starting earlier, and the task move is not allowed.
 
-1. (Optional and conditional) If you have selected to save your changes manually, click the **Undo** or**Redo** icons if you want to cancel or duplicate any of the changes.
+1. (Optional and conditional) If you have selected to save your changes manually, click the **Undo** or&#x200B;**Redo** icons if you want to cancel or duplicate any of the changes.
 
    >[!TIP]
    >
@@ -187,7 +187,7 @@ You must have the following to follow the steps in this article:
    >![update_percent_complete.png](assets/update-percent-complete-350x175.png)   >
    >
 
-1. (Optional and conditional) If you selected to save your changes manually, click the **Undo** or**Redo** icons if you want to cancel or duplicate any of the changes.
+1. (Optional and conditional) If you selected to save your changes manually, click the **Undo** or&#x200B;**Redo** icons if you want to cancel or duplicate any of the changes.
 
    >[!TIP]
    >

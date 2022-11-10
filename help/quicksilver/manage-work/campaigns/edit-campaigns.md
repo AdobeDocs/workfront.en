@@ -13,22 +13,22 @@ exl-id: ac0c1271-930d-4e11-81cf-4129214b4178
 >
 ><span class="preview">The information in this article is available only in the Preview environment when you participate in the [!UICONTROL Campaigns] beta program. The functionality described here might not be fully available yet. For more information about current available features and how to enroll, see  [Campaigns beta](../../product-announcements/betas/campaign-object-beta.md).</span>
 
-You can edit information about a campaign after it is created. 
+You can edit information about a campaign after it is created.
 
-A campaign is a new object in Adobe Workfront that allows you to organize work across multiple projects. A campaign is a larger work object than projects, similar but not identical to portfolios or programs.  A campaign can be  associated with multiple projects that may or may not belong to different portfolios or programs.
+A campaign is a new object in [!DNL Adobe Workfront] that allows you to organize work across multiple projects. A campaign is a larger work object than projects, similar but not identical to portfolios or programs.  A campaign can be  associated with multiple projects that may or may not belong to different portfolios or programs.
 
-For information about creating campaigns, see [Create campaigns](create-campaigns.md). 
+For information about creating campaigns, see [Create campaigns](create-campaigns.md).
 
 ## Access requirements
 
 You must have the following access to perform the steps in this article:
 
-| Requirements            |                   |
+| Requirements |  |
 |--------------------------|-------------------|
-| Adobe Workfront plan*    | Any               |
+| Adobe Workfront plan* | Any |
 | Adobe Workfront license* | Request or higher |
 
-*To find out what plan or license type you have, contact your Workfront administrator.
+*To find out what plan or license type you have, contact your [!DNL Workfront] administrator.
 
 For information about modifying access levels, see [Create or modify custom access levels](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)
 
@@ -41,12 +41,12 @@ When the access, permissions will be implemented for above, replace that *senten
 
 Before you begin you must have the following:
 
-* A System or Group administrator must add the Campaigns area to the layout template associated with you.
-* You are the owner of the campaign 
+* A System or Group administrator must add the [!UICONTROL Campaigns] area to the layout template associated with you.
+* You are the owner of the campaign
 
-    Or 
+   Or
 
-    You are a System Administrator.
+   You are a System Administrator.
 
 >[!NOTE]
 >
@@ -54,27 +54,27 @@ Before you begin you must have the following:
 
 ## Edit a campaign
 
-1. Click the [!UICONTROL **Main Menu**] icon ![](assets/main-menu-icon.png) in the upper-right corner of Workfront, then click [!UICONTROL **Campaigns**]. 
+1. Click the [!UICONTROL **Main Menu**] icon ![](assets/main-menu-icon.png) in the upper-right corner of Workfront, then click [!UICONTROL **Campaigns**].
 
-    A list of all campaigns in the system displays.
-1. (Optional) Click the [!UICONTROL **search**] icon ![](assets/search-icon.png)   to quickly search for a campaign using a keyword.
-1. Select a campaign, then click the [!UICONTROL **Edit**] icon at the top of the list
-    
-    Or 
-    
-    Click the name of a campaign to open it, then click [!UICONTROL **More**] > [!UICONTROL **Edit**]. 
+   A list of all campaigns in the system displays.
+1. (Optional) Click the [!UICONTROL **[!UICONTROL search]**] icon ![](assets/search-icon.png)   to quickly search for a campaign using a keyword.
+1. Select a campaign, then click the [!UICONTROL **[!UICONTROL Edit]**] icon at the top of the list
 
-    >[!TIP]
-    >
-    >To edit limited information about the campaign, click [!UICONTROL **Campaign Details**] and update any of the available fields. To update all information about a campaign, continue to follow these instructions.
+   Or
 
-    ![](assets/campaign-edit-box.png)
+   Click the name of a campaign to open it, then click [!UICONTROL **More**] >[!UICONTROL **Edit**].
+
+   >[!TIP]
+   >
+   >To edit limited information about the campaign, click [!UICONTROL **[!UICONTROL Campaign Details]**] and update any of the available fields. To update all information about a campaign, continue to follow these instructions.
+
+   ![](assets/campaign-edit-box.png)
 1. Update or review information in the following areas:
-    * [Campaign Name](#campaign-name)
-    * [Overview](#overview)
+   * [Campaign Name](#campaign-name)
+   * [Overview](#overview)
 
 
-### Campaign Name 
+### Campaign Name
 
 1. Begin editing your campaign as described above.
 1. Click [!UICONTROL **Campaign Name**] in the left panel.
@@ -84,17 +84,17 @@ Before you begin you must have the following:
 ### Overview
 
 1. Begin editing your campaign as described above.
-1. Click [!UICONTROL **Overview**] in the left panel.
+1. Click [!UICONTROL **[!UICONTROL Overview]**] in the left panel.
 1. Update or review the following information:
-    * [!UICONTROL **Description**]: Add additional information about the campaign.
-    * [!UICONTROL **Campaign Owner**]: By default, the [!UICONTROL Campaign Owner] is the user who created the campaign. When you replace the original owner of the campaign with another user, the user you specify is automatically given permissions to edit the campaign. The user who is designated as the [!UICONTROL Campaign Owner] must be a Workfront active user. 
-    
-    >[!TIP]
-    >
-    > You can update the Campaign Owner in the campaign header.
+   * [!UICONTROL **Description**]: Add additional information about the campaign.
+   * [!UICONTROL **Campaign Owner**]: By default, the [!UICONTROL Campaign Owner] is the user who created the campaign. When you replace the original owner of the campaign with another user, the user you specify is automatically given permissions to edit the campaign. The user who is designated as the [!UICONTROL Campaign Owner] must be a [!DNL Workfront] active user.
 
-    * [!UICONTROL **Entry Date**]: This is the date when the campaign was created. You cannot edit the [!UICONTROL Entry Date].
-    * [!UICONTROL **Entered By**]: This is the name of the user who created the campaign. You cannot edit the [!UICONTROL Entered By ]field.
-    * [!UICONTROL **Last Update Date**]: This is the date when the campaign was last updated. You cannot edit the [!UICONTROL Last Update Date].
-    * [!UICONTROL **Last Updated By**]: This is the name of the user who updated the campaign last. You cannot edit the [!UICONTROL Last Updated By] field.
+   >[!TIP]
+   >
+   > You can update the Campaign Owner in the campaign header.
+
+   * [!UICONTROL **Entry Date**]: This is the date when the campaign was created. You cannot edit the [!UICONTROL Entry Date].
+   * [!UICONTROL **Entered By**]: This is the name of the user who created the campaign. You cannot edit the [!UICONTROL Entered By &#x200B;]field.
+   * [!UICONTROL **Last Update Date**]: This is the date when the campaign was last updated. You cannot edit the [!UICONTROL Last Update Date].
+   * [!UICONTROL **[!UICONTROL Last Updated By]**]: This is the name of the user who updated the campaign last. You cannot edit the [!UICONTROL Last Updated By] field.
 1. Click [!UICONTROL **Save**].

@@ -20,30 +20,30 @@ You must have the following access to perform the steps in this article:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront plan*</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront plan*]</strong></td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront license*</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] license*</strong></td> 
    <td> <p>Request or higher</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan or license type you have, contact your Workfront administrator.
+&#42;To find out what plan or license type you have, contact your [!DNL Workfront] administrator.
 
-## Access the Adobe Workfront documentation on Experience League
+## Access the [!DNL Adobe Workfront] documentation on Experience League
 
 1. Go to the [Adobe Workfront documentation page on Experience League](https://experienceleague.adobe.com/docs/workfront/using/home.html?lang=en).
 
-In addition to searching for help documentation, you can also access the following Workfront resources from Experience League:
+In addition to searching for help documentation, you can also access the following [!DNL Workfront] resources from Experience League:
 
 * Workfront Tutorials: For more information, see [Workfront Tutorials](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=en).
 
 * Innovation Lab: For more information, see [The Innovation Lab](https://experienceleaguecommunities.adobe.com/t5/workfront-ideas/idb-p/workfront-ideas).
 * Workfront Community: For more information, see [The Adobe Workfront Community](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront)
 
-## Access help from inside Workfront
+## Access help from inside [!DNL Workfront]
 
 {{step1-click-main-menu}}
 

@@ -16,13 +16,13 @@ Use the Adobe Workfront mobile app virtual assistant to locate, delete, and sear
 
 Use the following voice commands to manage work in the mobile app:
 
-* [Show me, Find, Search for](#show-me-find-search-for) 
-* [Delete](#delete) 
+* [[!UICONTROL Show me], Find, Search for](#show-me-find-search-for)
+* [Delete](#delete)
 * [Help me with commands](#help-me-with-commands)
 
 ### Show me, Find, Search for {#show-me-find-search-for}
 
-Use the show me command to see information about the following objects:
+Use the [!UICONTROL show me] command to see information about the following objects:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -31,7 +31,7 @@ Use the show me command to see information about the following objects:
  <col> 
  <tbody> 
   <tr> 
-   <td>&nbsp;</td> 
+   <td> </td> 
    <td>Date</td> 
    <td>Status</td> 
    <td>Condition</td> 
@@ -123,7 +123,7 @@ Use the show me command to see information about the following objects:
     <ul> 
      <li>Show me my tasks with status In Progress </li> 
      <li>Show me my issues with condition Some Concerns </li> 
-     <li>Show me my projects with status Planning and condition On Target </li> 
+     <li>Show me my projects with status Planning and condition On [!DNL Target] </li> 
      <li>Show me my issues with status New and In Progress </li> 
      <li>Show me my timesheets with status Open for 2019 </li> 
      <li>Show me my projects with status On Hold and condition At Risk for this month </li> 
@@ -143,11 +143,11 @@ Use the show me command to see information about the following objects:
     <ul> 
      <li>Show me projects I'm on with condition On Target </li> 
      <li>Show me projects I own for last week </li> 
-     <li>Show me projects I'm on with condition On Target for last March </li> 
+     <li>Show me projects I'm on with condition On [!DNL Target] for last March </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colspan="2"><strong>Search my personal tasks</strong></td> 
+   <td colspan="2"><strong>[!UICONTROL Search my] personal tasks</strong></td> 
   </tr> 
   <tr> 
    <td> 
@@ -162,7 +162,7 @@ Use the show me command to see information about the following objects:
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colspan="2"><strong>Search my late items</strong></td> 
+   <td colspan="2"><strong>[!UICONTROL Search my late items]</strong></td> 
   </tr> 
   <tr> 
    <td> 

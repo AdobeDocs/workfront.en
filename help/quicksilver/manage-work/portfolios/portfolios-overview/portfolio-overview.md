@@ -2,13 +2,13 @@
 content-type: overview
 product-area: portfolios
 navigation-topic: portfolios-overview
-title: Portfolio overview in Adobe Workfront
+title: Portfolio overview in [!DNL Adobe Workfront]
 description: A Portfolio is a collection of projects that have unifying characteristics. Those projects usually compete for the same resources, budget, or time slot. You can divide Portfolios into Programs and associate the projects with the Programs before they are added to a Portfolio.
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: b340501e-1190-415e-aa96-5aad177c4b7b
 ---
-# Portfolio overview in Adobe Workfront
+# Portfolio overview in [!DNL Adobe Workfront]
 
 A Portfolio is a collection of projects that have unifying characteristics. Those projects usually compete for the same resources, budget, or time slot. You can divide Portfolios into Programs and associate the projects with the Programs before they are added to a Portfolio.
 
@@ -16,26 +16,26 @@ You can use Portfolios and Programs to organize projects. Through organizing pro
 
 ## Access needed to create portfolios
 
-You must have Edit access to Portfolios in your access level to create and manage Portfolios, and you must have Manage permissions on a Portfolio to be able to edit it. You must have View permissions on a Portfolio to be able to see it.  
-For information about access to Portfolios, see [Access levels overview](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).  
+You must have Edit access to Portfolios in your access level to create and manage Portfolios, and you must have Manage permissions on a Portfolio to be able to edit it. You must have View permissions on a Portfolio to be able to see it.\
+For information about access to Portfolios, see [Access levels overview](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).\
 For information about permissions to Portfolios, see [Share a portfolio](../../../workfront-basics/grant-and-request-access-to-objects/share-a-portfolio..md).
 
 For information about using Programs, see [Create a program](../../../manage-work/portfolios/create-and-manage-programs/create-program.md).
 
 ## Adobe Workfront portfolio methodology
 
-In Workfront, you can add projects to portfolios to create and organize your portfolios.
+In [!DNL Workfront], you can add projects to portfolios to create and organize your portfolios.
 
 We recommend that you follow these steps for an efficient organization of your portfolios:
 
 1. Create a Business Case for a project and associate the project with a Portfolio.
 1. Associate Resource Pools with projects as you build their Business Case.
-1. Get the Business Case approved by your Portfolio Manager.
+1. Get the [!UICONTROL Business Case] approved by your Portfolio Manager.
 1. Manage the performance of your projects within the portfolio in the Portfolio Optimizer.
 
 To create efficient portfolios that bring value to your organization, you must start with a Project Request where you define the Business Case for each project which is later added to the portfolio.
 
-The Business Case contains the following information:
+The [!UICONTROL Business Case] contains the following information:
 
 * General information about the project (description, Portfolio and Program assignments, Project Owner and Sponsor)
 * The goals or objectives of the project
@@ -44,9 +44,9 @@ The Business Case contains the following information:
 * An alignment score
 * A risk assessment
 
-For more information about the Business Case, see [Create a Business Case for a project](../../../manage-work/projects/define-a-business-case/create-business-case.md).
+For more information about the [!UICONTROL Business Case], see [Create a Business Case for a project](../../../manage-work/projects/define-a-business-case/create-business-case.md).
 
-These key elements are used in the portfolio optimizer and the capacity planner to assist management in project selection.
+These key elements are used in the [!UICONTROL portfolio optimizer] and the [!UICONTROL capacity planner] to assist management in project selection.
 
 Portfolios are usually configured to correspond with Resource Pools. The Programs in a Portfolio also align with a Resource Pool. This correlation helps to ensure all resource planning fits within the purpose of the Portfolio, as the projects within the same Portfolio usually compete for the same resources.
 

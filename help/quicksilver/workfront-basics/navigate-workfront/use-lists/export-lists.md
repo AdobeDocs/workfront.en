@@ -21,16 +21,16 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront plan*</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront plan*]</strong></td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront license*</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] license*</strong></td> 
    <td> <p>Request or higher</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Access level configurations*</strong></td> 
-   <td> <p>View access to the area the list is in</p> <p>For example, to export a project's task list, you need View access to Projects.</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level.<br>For information on how a Workfront administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>View access to the area the list is in</p> <p>For example, to export a project's [!UICONTROL task list], you need View access to Projects.</p> <p>Note: If you still don't have access, ask your [!DNL Workfront] administrator if they set additional restrictions in your access level.<br>For information on how a [!DNL Workfront] administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Object permissions</strong></td> 
@@ -39,12 +39,12 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+&#42;To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
 
 ## Export a list
 
 1. Go to a list of objects.
-1. (Optional) Select any filter, view, and grouping that you want to apply to the list before exporting.  
+1. (Optional) Select any filter, view, and grouping that you want to apply to the list before exporting.\
    For information on filters, views, and groupings, see [Reporting elements: filters, views, and groupings](../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md).
 
 1. (Optional) To export only specific items in a list, select all items in the list that you want in the exported file.
@@ -57,11 +57,9 @@ You must have the following access to perform the steps in this article:
    >   
    >   * **Select to show All or 2000 items in the lists**: For more information, see [Modify how a list displays](../../../workfront-basics/navigate-workfront/use-lists/modify-list-display.md).
    >   
-   >   * **Use the quick filter**: For more information, see [Apply the quick filter to a list](../../../workfront-basics/navigate-workfront/use-lists/apply-quick-filter-list.md).  
+   >   * **Use the quick filter**: For more information, see [Apply the quick filter to a list](../../../workfront-basics/navigate-workfront/use-lists/apply-quick-filter-list.md).\
    >     The quick filter applies only to the current page of the list.
-   >   
-   >   
-   >
+
 
    ![select_all_projects_with_highlight__1_.png](assets/select-all-projects-with-highlight--1--350x173.png)
 
@@ -72,9 +70,9 @@ You must have the following access to perform the steps in this article:
    * PDF
    * Excel
    * Excel (xlsx)
-   * Tab Delimited  
-   
-     This exports a copy of the list to one of these formats and saves it on your computer.
+   * Tab Delimited
 
-1. (Optional) Open the exported list using the appropriate application.  
+      This exports a copy of the list to one of these formats and saves it on your computer.
+
+1. (Optional) Open the exported list using the appropriate application.\
    All the items in the list display in the exported file, whether they are displayed on the screen in the web application or not.

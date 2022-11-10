@@ -18,11 +18,11 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront plan</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan</strong></td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront license</strong></td> 
+   <td role="rowheader"><strong>Adobe [!DNL Workfront] license</strong></td> 
    <td> <p>Plan </p> </td> 
   </tr> 
   <tr> 
@@ -57,7 +57,7 @@ The following filter buttons do not display in their respective areas:
    <td> 
     <ul> 
      <li> <p><span>My Timesheet Approvals</span> </p> </li> 
-     <li> <p><span>My&nbsp;Timesheets</span> </p> </li> 
+     <li> <p><span>My Timesheets</span> </p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -65,11 +65,11 @@ The following filter buttons do not display in their respective areas:
 
 ## Solution
 
-The filter buttons in the Projects and Timesheets area do not display because the corresponding filters are not included in the layout template applied to the user. The Workfront administrator must assign a layout template that includes the filters.
+The filter buttons in the [!UICONTROL Projects and Timesheets] area do not display because the corresponding filters are not included in the layout template applied to the user. The [!DNL Workfront] administrator must assign a layout template that includes the filters.
 
 >[!NOTE]
 >
->Sometimes the filters are removed from the List Controls area in Setup. The Workfront administrator must include them in the lists in this area for them to be available in the layout templates.&nbsp;For information, see [Edit list controls: filters, views, and groupings](../../administration-and-setup/manage-workfront/configure-reports/edit-list-controls-filters-views-groupings.md).
+>Sometimes the filters are removed from the List Controls area in Setup. The [!DNL Workfront] administrator must include them in the lists in this area for them to be available in the layout templates.&nbsp;For information, see [Edit list controls: filters, views, and groupings](../../administration-and-setup/manage-workfront/configure-reports/edit-list-controls-filters-views-groupings.md).
 
 1. Verify that the layout template displays the following filters:
 
@@ -80,8 +80,8 @@ The filter buttons in the Projects and Timesheets area do not display because th
 
    1. Access the layout template.
    1. Select **Lists** under **Customize what users see**.
-   1. Select **Projects** or **Timesheets** under **Select a list to customize**.
-   1. In the **Filter** section, verify that **Projects I'm On**, **Projects I Own** (for projects) and **My Timesheet Approvals** and **My Timesheets** (for timesheets) are selected.
+   1. Select **Projects** or **Timesheets** under **[!UICONTROL Select a list] to customize**.
+   1. In the **[!UICONTROL Filter]** section, verify that **Projects I'm On**, **Projects I Own** (for projects) and **My Timesheet Approvals** and **My Timesheets** (for timesheets) are selected.
    1. Click **Save**.
 
    For more information, see [Customize Filters, Views, and Groupings using a layout template](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md).

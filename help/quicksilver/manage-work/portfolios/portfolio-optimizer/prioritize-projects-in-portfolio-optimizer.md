@@ -14,15 +14,15 @@ You can prioritize your projects in the Portfolio Optimizer, to establish the or
 Consider the following when using the Portfolio Optimizer:
 
 * The projects at the top of the Portfolio Optimizer are considered more important than the ones listed towards the bottom. You will need to complete the projects in order of their priority in the Portfolio Optimizer for the Portfolio to be optimized.&nbsp;
-* The priority of projects in the Portfolio Optimizer is unrelated to the Priority field located on the Project Details tab of a project.
+* The priority of projects in the Portfolio Optimizer is unrelated to the [!UICONTROL Priority] field located on the [!UICONTROL Project Details] tab of a project.
 
-  The Priority field on the Project Details tab is a visual flag that you manually specify to understand how important a project should be. 
+   The [!UICONTROL Priority] field on the Project Details tab is a visual flag that you manually specify to understand how important a project should be.
 
-* The priority of projects in the Portfolio Optimizer is visible in the Resource Planner, if it is enabled there. In the Resource Planner, projects receive resources in the order of their Resource Planner priority, and not that of the Portfolio Priority.
+* The priority of projects in the Portfolio Optimizer is visible in the [!DNL Resource Planner], if it is enabled there. In the [!DNL Resource Planner], projects receive resources in the order of their Resource Planner priority, and not that of the Portfolio Priority.
 
-  For information about prioritizing projects in the Resource Planner, see the article [Prioritize projects in the Resource Planner](../../../resource-mgmt/resource-planning/prioritize-projects-resource-planner.md). 
+   For information about prioritizing projects in the Resource Planner, see the article [Prioritize projects in the Resource Planner](../../../resource-mgmt/resource-planning/prioritize-projects-resource-planner.md).
 
-* The **Project Prioritization** area of the Portfolio Optimizer displays projects in the order of Planned Start Dates and Net Value, by default.
+* The **[!UICONTROL Project Prioritization]** area of the Portfolio Optimizer displays projects in the order of Planned Start Dates and Net Value, by default.
 
 ## Access requirements
 
@@ -42,7 +42,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Projects and Portfolios</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>Edit access to Projects and Portfolios</p> <p>Note: If you still don't have access, ask your [!DNL Workfront] administrator if they set additional restrictions in your access level. For information on how a [!DNL Workfront] administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -51,28 +51,28 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+&#42;To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
 
 ## Change the priority of the projects in the Portfolio Optimizer
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront.
+1. Click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront.
 
 1. Click&nbsp;**Portfolios**.
-1. (Optional) Select the correct filter in the **Filter** drop-down menu, to view the correct list of portfolios.  
-1. Click the name of a portfolio to open it. 
-1. Click **Portfolio Optimization** in the left panel. 
-1. In the project optization area, alter the priority of your projects by dragging the projects in order of their priority and dropping then to the desired display position.
+1. (Optional) Select the correct filter in the **Filter** drop-down menu, to view the correct list of portfolios.
+1. Click the name of a portfolio to open it.
+1. Click **[!UICONTROL Portfolio Optimization]** in the left panel.
+1. In the [!UICONTROL project optization] area, alter the priority of your projects by dragging the projects in order of their priority and dropping then to the desired display position.
 
    ![](assets/portfolio-optimizer-with-projects-nwe-350x89.png)
 
-   Click **Set Priority** in the project optimization area when you finish re-arranging your projects. The projects will receive a new number based on the new order.
+   Click **[!UICONTROL Set Priority]** in the project optimization area when you finish re-arranging your projects. The projects will receive a new number based on the new order.
 
-1. Click **Save** to save the new project priority in the Portfolio Optimizer. The priority is listed as a number in the number **#** column.
+1. Click **[!UICONTROL Save]** to save the new project priority in the Portfolio Optimizer. The priority is listed as a number in the number **#** column.
 
    >[!TIP]
    >
-   >This does not necessarily change the order of the projects in the Portfolio Optimizer, because the list of projects might be sorted by a column other than the **#** column. Click the **#** column header to order the list by project priority.
+   >This does not necessarily change the order of the projects in the [!UICONTROL Portfolio Optimizer], because the list of projects might be sorted by a column other than the **#** column. Click the **#** column header to order the list by project priority.
 
-   You can see the priority of the project as it appears in the Portfolio Optimizer in the Resource Planner, by enabling the **Display Portfolio Priorities** setting in the Resource Planner.
+   You can see the priority of the project as it appears in the Portfolio Optimizer in the Resource Planner, by enabling the **[!UICONTROL Display Portfolio Priorities]** setting in the Resource Planner.
 
    For information about prioritizing projects in the Resource Planner, see the article [Prioritize projects in the Resource Planner](../../../resource-mgmt/resource-planning/prioritize-projects-resource-planner.md).

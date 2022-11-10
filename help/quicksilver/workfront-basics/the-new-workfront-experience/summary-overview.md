@@ -1,15 +1,15 @@
 ---
 content-type: overview
 title: Summary overview
-description: ou can use the Summary panel to review and update work item information directly from a list of tasks issues, documents, or from other areas of Adobe Workfront that display tasks and issues.
+description: ou can use the Summary panel to review and update work item information directly from a list of tasks issues, documents, or from other areas of [!DNL Adobe Workfront] that display tasks and issues.
 feature: Get Started with Workfront
 exl-id: 5e4026b2-5f2f-45c1-bef1-04e20c62ed8a
 ---
 # Summary overview
 
-You can use the Summary panel to review and update work item information directly from a list of tasks issues, documents, or from other areas of Adobe Workfront that display tasks and issues.
+You can use the Summary panel to review and update work item information directly from a list of tasks issues, documents, or from other areas of [!DNL Adobe Workfront] that display tasks and issues.
 
-The following table displays the areas where you can locate and use the Summary panel: 
+The following table displays the areas where you can locate and use the Summary panel:
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -25,7 +25,7 @@ The following table displays the areas where you can locate and use the Summary 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td>Tasks in the Unassigned and Assigned Work areas of the Workload Balancer</td> 
+   <td>Tasks in the Unassigned and Assigned Work areas of the [!DNL Workload Balancer]</td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>Issues</td> 
@@ -39,7 +39,7 @@ The following table displays the areas where you can locate and use the Summary 
     </ul> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>Issues in the Assigned Work area of the Workload Balancer</td> 
+   <td>Issues in the Assigned Work area of the [!DNL Workload Balancer]</td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>Issues in the Submitted section of the Requests area</td> 
@@ -60,11 +60,11 @@ The following table displays the areas where you can locate and use the Summary 
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Workfront administrators can customize the Summary in the Layout Template. For more information, see <a href="../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md" class="MCXref xref">Create and manage layout templates</a>.</p>
 -->
 
-This article describes how to access and use the Summary panel for tasks and issues in lists.
+This article describes how to access and use the [!UICONTROL Summary] panel for tasks and issues in lists.
 
-For information about accessing the Summary in the Workload Balancer, see [Update work items in the Workload Balancer using the Summary](../../resource-mgmt/workload-balancer/update-items-in-summary-panel-in-workload-balancer.md).
+For information about accessing the Summary in the [!DNL Workload Balancer], see [Update work items in the Workload Balancer using the Summary](../../resource-mgmt/workload-balancer/update-items-in-summary-panel-in-workload-balancer.md).
 
-For information about accessing the Summary for documents, see [Summary for documents overview](../../documents/managing-documents/summary-for-documents.md).
+For information about accessing the [!UICONTROL Summary] for documents, see [Summary for documents overview](../../documents/managing-documents/summary-for-documents.md).
 
 ## Access requirements
 
@@ -75,16 +75,16 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront plan*</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront plan*]</strong></td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront license*</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] license*</strong></td> 
    <td> <p>Request or higher</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Access level configurations*</strong></td> 
-   <td> <p>View or higher access to Tasks, Issues, Documents</p> <p>View or higher access to any objects for which you want to view documents' Summary</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>View or higher access to Tasks, Issues, Documents</p> <p>View or higher access to any objects for which you want to view documents' Summary</p> <p>Note: If you still don't have access, ask your [!DNL Workfront] administrator if they set additional restrictions in your access level. For information on how a [!DNL Workfront] administrator can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Object permissions</strong></td> 
@@ -93,16 +93,16 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+&#42;To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
 
 ## View the Summary panel in a list of tasks or issues
 
-1. Go to a task or issue and select an item in the list. 
-1. Click the **Summary** icon ![](assets/qs-summary-in-new-toolbar-small.png)
+1. Go to a task or issue and select an item in the list.
+1. Click the **[!UICONTROL Summary]** icon ![](assets/qs-summary-in-new-toolbar-small.png)
 
    or
 
-   Click the **Open Summary** icon ![](assets/open-summary-with-text-nwe.png) in the Submitted section of the Requests area.
+   Click the **[!UICONTROL Open Summary]** icon ![](assets/open-summary-with-text-nwe.png) in the [!UICONTROL Submitted] section of the [!UICONTROL Requests] area.
 
    After you open the Summary, it stays open as you click or select other tasks or issues and remains open until you manually close it.
 
@@ -114,17 +114,17 @@ You must have the following access to perform the steps in this article:
 
 1. (Optional)&nbsp;To close the Summary panel, do one of the following:
 
-   * In a task or issue list, click the **Open Summary** icon ![](assets/summary-panel-icon.png)
+   * In a task or issue list, click the **[!UICONTROL Open Summary]** icon ![](assets/summary-panel-icon.png)
 
-     Or
+      Or
 
-     Click the **X** icon in the upper-right corner of the Summary panel. 
-   
-   * In the Submitted section of the Requests area, click the **Close Summary** icon ![](assets/close-summary-with-text-nwe.png)
+      Click the **X** icon in the upper-right corner of the Summary panel.
 
-     Or
+   * In the [!UICONTROL Submitted] section of the [!UICONTROL Requests] area, click the **[!UICONTROL Close Summary]** icon ![](assets/close-summary-with-text-nwe.png)
 
-     Click the **X** icon in the upper-right corner of the Summary panel.
+      Or
+
+      Click the **X** icon in the upper-right corner of the Summary panel.
 
 ## Percent Complete
 
@@ -134,19 +134,19 @@ Use the progress bar at the top of the Summary to update the percent complete fo
 
 ## Updates
 
-Use the Updates section of the Summary to view recent updates and make updates on the task or issue you selected. Click **See all** to go directly to the Updates tab on the task.
+Use the [!UICONTROL Updates] section of the Summary to view recent updates and make updates on the task or issue you selected. Click **[!UICONTROL See all]** to go directly to the [!UICONTROL Updates] tab on the task.
 
 ![](assets/summary-updates-with-block-quote-350x290.png)
 
 ## Documents
 
-Use the Documents section of the Summary to see documents attached to the task or issue you selected. Click the thumbnail to open a document preview. To go directly to the Documents tab on the task or issue, click the **Documents** title.
+Use the [!UICONTROL Documents] section of the Summary to see documents attached to the task or issue you selected. Click the thumbnail to open a document preview. To go directly to the Documents tab on the task or issue, click the **Documents** title.
 
 ![](assets/summary-overview-documents-350x84.png)
 
 ## Details
 
-Use the Details section of the Summary to view high-level work item details, make assignments, or add start dates. Click **See all** to go directly to the Details tab on the task or issue.
+Use the [!UICONTROL Details] section of the Summary to view high-level work item details, make assignments, or add start dates. Click **[!UICONTROL See all]** to go directly to the [!UICONTROL Details] tab on the task or issue.
 
 >[!NOTE]
 >
@@ -156,26 +156,26 @@ Use the Details section of the Summary to view high-level work item details, mak
 
 ## Subtasks
 
-This section is only available for tasks. Use the Subtasks section of the Summary to view New, In Progress, and Closed subtasks on the task you selected. Click the **Status** drop-down menu to switch between statuses. To go directly to the Subtasks tab on the task, click the **Subtasks**title.
+This section is only available for tasks. Use the [!UICONTROL Subtasks] section of the Summary to view New, In Progress, and Closed subtasks on the task you selected. Click the **[!UICONTROL Status]** drop-down menu to switch between statuses. To go directly to the [!UICONTROL Subtasks] tab on the task, click the **Subtasks**&#x200B;title.
 
-If you have not added any subtasks to the task, click **Add one here** to go directly to the Subtasks tab on the task.
+If you have not added any subtasks to the task, click **Add one here** to go directly to the [!UICONTROL Subtasks] tab on the task.
 
 ![](assets/summary-overview-subtasks-350x140.png)
 
 ## Hours
 
-Use the Hours section of the Summary to log hours on the task or issue you selected. Click **Log Time** and enter your hours. To go directly to the Hours tab on the task or issue, click the **Hours** title.
+Use the [!UICONTROL Hours] section of the Summary to log hours on the task or issue you selected. Click **[!UICONTROL Log Time]** and enter your hours. To go directly to the Hours tab on the task or issue, click the **Hours** title.
 
 The hour count in the Summary displays the hours you log. Other users will have different hour totals in the Summary depending on the time they log on the task.
 
-If there are no planned hours on the task or issue and you have logged time, the hours bar displays red.
+If there are no planned [!UICONTROL hours] on the task or issue and you have logged time, the hours bar displays red.
 
 ![](assets/summary-overview-hours-350x96.png)
 
 ## Approvals
 
-Use the Approvals section of the Summary to view approvals attached to the task or issue you selected. If you have not added any approvals, select an existing approval from the drop-down menu or click **Create single-use approval process** to go directly to the Approvals tab on the task or issue.
+Use the [!UICONTROL Approvals] section of the Summary to view approvals attached to the task or issue you selected. If you have not added any approvals, select an existing approval from the drop-down menu or click **[!UICONTROL Create single-use approval process]** to go directly to the [!UICONTROL Approvals] tab on the task or issue.
 
-To go directly to the Approvals tab on the task or issue, click the **Approvals** title.
+To go directly to the [!UICONTROL Approvals] tab on the task or issue, click the **Approvals** title.
 
 ![](assets/summary-overview-approvals-350x122.png)

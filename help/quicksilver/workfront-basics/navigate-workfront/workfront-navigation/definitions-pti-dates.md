@@ -1,12 +1,12 @@
 ---
 content-type: reference
 navigation-topic: workfront-navigation
-title: Overview of the Project, Task, and Issue dates in Adobe Workfront
-description: Overview of the Project, Task, and Issue dates in Adobe Workfront
+title: Overview of the Project, Task, and Issue dates in [!DNL Adobe Workfront]
+description: Overview of the Project, Task, and Issue dates in [!DNL Adobe Workfront]
 feature: Get Started with Workfront
 exl-id: 3808200f-a573-4c39-8965-b254f69c893c
 ---
-# Overview of the Project, Task, and Issue dates in Adobe Workfront
+# Overview of the Project, Task, and Issue dates in [!DNL Adobe Workfront]
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: consider expanding on this article with ALL dates for PTIs - Hand off dates, Approval Dates, etc) </p>
@@ -16,10 +16,10 @@ This article provides definitions to the most common dates associated with proje
 
 For information about reports and lists, see the following articles:
 
-* [Get started with lists in Adobe Workfront](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md) 
-* [Get started with reports in Adobe Workfront](../../../reports-and-dashboards/reports/reporting/get-started-reports-workfront.md)
+* [Get started with lists in [!DNL Adobe Workfront]](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md)
+* [Get started with reports in [!DNL Adobe Workfront]](../../../reports-and-dashboards/reports/reporting/get-started-reports-workfront.md)
 
-For more information on project, task, and issue fields, see [Glossary of Adobe Workfront terminology](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
+For more information on project, task, and issue fields, see [Glossary of [!DNL Adobe Workfront] terminology](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
 
 ## Planned Start Date
 
@@ -35,7 +35,7 @@ For more information, see [Overview of the project Planned Start Date](../../../
 
 ## Planned Completion Date
 
-The Planned Completion Date or the Due On date is the date when a project, task, or issue is planned to complete.
+The Planned Completion Date or the [!UICONTROL Due On] date is the date when a project, task, or issue is planned to complete.
 
 Depending on the Task Constraint, you might not be able to edit the Planned Completion Date of a task. Depending on the Schedule Mode of the project, you might not be able to edit the Planned Completion Date of a project.
 
@@ -43,8 +43,8 @@ The Planned Completion Date displays as the Due On date in some areas of Workfro
 
 For more information, see the following articles:
 
-* [Overview of the task Planned Completion Date](../../../manage-work/tasks/task-information/task-planned-completion-date.md) 
-* [Set the project Planned Completion Date](../../../manage-work/projects/planning-a-project/project-planned-completion-date.md) 
+* [Overview of the task Planned Completion Date](../../../manage-work/tasks/task-information/task-planned-completion-date.md)
+* [Set the project Planned Completion Date](../../../manage-work/projects/planning-a-project/project-planned-completion-date.md)
 * [Overview of the issue Planned Completion Date](../../../manage-work/issues/issue-information/issue-planned-completion-date.md)
 
 ![](assets/project-header-planned-completion-date-highlighted-nwe-350x34.png)
@@ -55,7 +55,7 @@ For more information, see the following articles:
 
 The Entry Date is the date when a project, task, or issue was created in&nbsp;Workfront.
 
-The Entry Date does not influence the timeline of projects, tasks, or issues, but it is important for tracking and reporting purposes. Workfront automatically generates the Entry Date when the object is created and you cannot manually edit it.
+The Entry Date does not influence the timeline of projects, tasks, or issues, but it is important for tracking and reporting purposes. [!DNL Workfront] automatically generates the Entry Date when the object is created and you cannot manually edit it.
 
 ![](assets/entry-date-in-task-details-highlighted-nwe-350x105.png)
 
@@ -73,7 +73,7 @@ For more information, see [Overview of the project Actual Start Date](../../../m
 
 >[!NOTE]
 >
->The Must Start On task or the Fixed Dates constraints affect the Planned Start Date of a task, not the Actual Start Date. This updates the Planned Start Date to a date you specify. The Actual Start Date is updated independently of the Planned Start&nbsp;Date, as described above.
+>The [!UICONTROL Must Start On] task or the Fixed Dates constraints affect the Planned Start Date of a task, not the Actual Start Date. This updates the Planned Start Date to a date you specify. The Actual Start Date is updated independently of the Planned Start&nbsp;Date, as described above.
 
 ![](assets/actual-start-date-on-edit-task-highlighted-nwe-350x251.png)
 
@@ -85,7 +85,7 @@ The Actual Completion Date is the date a user actually completes a project, task
 
 You can manually indicate when work completes on a task or an issue, or the Actual Complete Date automatically populates when any of the following occur:
 
-* The project, task, or issue status changes to Complete, Closed, or Resolved. 
+* The project, task, or issue status changes to Complete, Closed, or Resolved.
 * The task or project percent complete is 100%.
 
 The Actual Completion Date of a project coincides with the date when the first task on the project completes.
@@ -146,7 +146,7 @@ The date for which you log the time is the Hour Entry Date field on the hour ent
 >
 >The Hour Entry Date is different than the Entry Date in that it is not the date when the hour log was created, but rather the date to which you want to hours associated.
 
-You can log time in the project, task, or issue Updates section or in the Hours section . When logging time in the Hours section , you can manually specify the Hour Entry Date and the user the hours belong to.
+You can log time in the [!UICONTROL project], [!UICONTROL task], or [!UICONTROL issue Updates] section or in the [!UICONTROL Hours] section . When logging time in the [!UICONTROL Hours] section , you can manually specify the Hour Entry Date and the user the hours belong to.
 
 For more information, see [Log time](../../../timesheets/create-and-manage-timesheets/log-time.md).
 

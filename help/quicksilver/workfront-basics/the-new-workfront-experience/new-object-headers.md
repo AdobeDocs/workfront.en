@@ -2,25 +2,25 @@
 content-type: overview
 navigation-topic: the-new-workfront-experience
 title: Object headers overview
-description: You can view information at a glance about objects in Adobe Workfront when you review their header. The information in a header can include the owner of the object, the status, or the percent complete.
+description: You can view information at a glance about objects in [!DNL Adobe Workfront] when you review their header. The information in a header can include the owner of the object, the status, or the percent complete.
 feature: Get Started with Workfront
 exl-id: 76e21df0-9272-4bfb-8a97-c16ae5f4b5dc
 ---
 # Object headers overview
 
-You can view information at a glance about objects in Adobe Workfront when you review their header. 
+You can view information at a glance about objects in [!DNL Adobe Workfront] when you review their header.
 
-In addition to the name of the object, the header can include the owner of the object, the status, or the percent complete. 
+In addition to the name of the object, the header can include the owner of the object, the status, or the percent complete.
 
-Workfront gives priority to the name of the object, allocating as much space to it in the header as possible. When an object name is too long, it is truncated. To display the full name of an object, you can hover over it. 
+Workfront gives priority to the name of the object, allocating as much space to it in the header as possible. When an object name is too long, it is truncated. To display the full name of an object, you can hover over it.
 
 ## Access the header of an object
 
-Accessing the header for an object in Workfront is identical for all the objects that have it.
+Accessing the header for an object in [!DNL Workfront] is identical for all the objects that have it.
 
 For example, to access the header of a project:
 
-1. Go to a project.  
+1. Go to a project.\
    The header displays at the top of the page and contains the name of the project.
 
    ![](assets/project-header-350x18.png)
@@ -34,11 +34,11 @@ The following headers are available in Home:
 
 ## Customizable headers
 
-Your Workfront  or group administrator  can customize the header of projects, tasks, and issues by using a layout template.
+Your [!DNL Workfront]  or group administrator  can customize the header of projects, tasks, and issues by using a layout template.
 
 This article describes the default headers for all objects, including projects and tasks and issues.
 
-For information about customizing information on the header of an object, see [Customize object headers using a layout template](../../administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md). 
+For information about customizing information on the header of an object, see [Customize object headers using a layout template](../../administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).
 
 
 
@@ -76,7 +76,7 @@ The project header displays the following information, by default:
   </tr> 
   <tr> 
    <td role="rowheader">The actions area of the task</td> 
-   <td> <p>Next to the name of the project, the actions area displays.</p> <p> <img src="assets/nwe-general-actions-area.png"> </p>  </td> 
+   <td> <p>Next to the name of the project, the [!UICONTROL actions] area displays.</p> <p> <img src="assets/nwe-general-actions-area.png"> </p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Percent Complete</td> 
@@ -100,7 +100,7 @@ The project header displays the following information, by default:
   </tr> 
   <tr> 
    <td role="rowheader">The Approvals area</td> 
-   <td> <p>When you are one of the approvers, use the following icons to manage the approvals for the project:</p> <p> <img src="assets/nwe-approvals-approve-16x18.png" style="width: 16;height: 18;"> </img> Approve</p> <p> <img src="assets/nwe-approvals-reject-16x19.png" style="width: 16;height: 19;"> </img> Reject</p> <p> <img src="assets/nwe-approvals-recall-16x16.png" style="width: 16;height: 16;"> </img> Recall</p> <p>If you are not an approver, click the More icon <img src="assets/more-icon-for-approvals-area.png"> to view information about the current approval step.</p> <p>To learn more about approvals, see <a href="../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md" class="MCXref xref">Approval process overview</a>.</p> </td> 
+   <td> <p>When you are one of the approvers, use the following icons to manage the approvals for the project:</p> <p> <img src="assets/nwe-approvals-approve-16x18.png" style="width: 16;height: 18;"> </img> Approve</p> <p> <img src="assets/nwe-approvals-reject-16x19.png" style="width: 16;height: 19;"> </img> Reject</p> <p> <img src="assets/nwe-approvals-recall-16x16.png" style="width: 16;height: 16;"> </img> Recall</p> <p>If you are not an approver, click the [!UICONTROL More] icon <img src="assets/more-icon-for-approvals-area.png"> to view information about the current approval step.</p> <p>To learn more about approvals, see <a href="../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md" class="MCXref xref">Approval process overview</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -139,7 +139,7 @@ The task header includes the following information, by default:
   </tr> 
   <tr> 
    <td role="rowheader">The actions area of the task</td> 
-   <td> <p>Next to the name of the task, the actions area displays.</p> <p> <img src="assets/nwe-dependency-action-area.png"> </p> <p>If the Dependency icon displays, you can click the icon to see any predecessors or successors for the task.</p> </td> 
+   <td> <p>Next to the name of the task, the [!UICONTROL actions] area displays.</p> <p> <img src="assets/nwe-dependency-action-area.png"> </p> <p>If the Dependency icon displays, you can click the icon to see any predecessors or successors for the task.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Percent Complete</td> 
@@ -151,7 +151,7 @@ The task header includes the following information, by default:
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Work on It, Done, or Start Task button</p> </td> 
-   <td> <p>If the task is assigned to you, you can click the Work on It <span>or Start Task</span> button to indicate that you are now working on the task, or the Done button to indicate that you completed the task.</p> <p><span>For information about replacing the Work On It button with a Start Task button, see <a href="../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md" class="MCXref xref">Replace the Work On It button with a Start button</a></span>.</p> </td> 
+   <td> <p>If the task is assigned to you, you can click the Work on It <span>or Start Task</span> button to indicate that you are now working on the task, or the [!UICONTROL Done] button to indicate that you completed the task.</p> <p><span>For information about replacing the Work On It button with a Start Task button, see <a href="../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md" class="MCXref xref">Replace the Work On It button with a Start button</a></span>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Planned Completion Date</td> 
@@ -163,7 +163,7 @@ The task header includes the following information, by default:
   </tr> 
   <tr> 
    <td role="rowheader">The Approvals area</td> 
-   <td> <p>When you are one of the approvers, use the following icons to manage the approvals for the task:</p> <p> <img src="assets/nwe-approvals-approve-16x18.png" style="width: 16;height: 18;"> </img> Approve</p> <p> <img src="assets/nwe-approvals-reject-16x19.png" style="width: 16;height: 19;"> </img> Reject</p> <p> <img src="assets/nwe-approvals-recall-16x16.png" style="width: 16;height: 16;"> </img> Recall</p> <p>If you are not an approver, click the More icon <img src="assets/more-icon-for-approvals-area.png"> to view information about the current approval step.</p> <p>To learn more about approvals, see <a href="../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md" class="MCXref xref">Approval process overview</a>.</p> </td> 
+   <td> <p>When you are one of the approvers, use the following icons to manage the approvals for the task:</p> <p> <img src="assets/nwe-approvals-approve-16x18.png" style="width: 16;height: 18;"> </img> Approve</p> <p> <img src="assets/nwe-approvals-reject-16x19.png" style="width: 16;height: 19;"> </img> Reject</p> <p> <img src="assets/nwe-approvals-recall-16x16.png" style="width: 16;height: 16;"> </img> Recall</p> <p>If you are not an approver, click the [!UICONTROL More] icon <img src="assets/more-icon-for-approvals-area.png"> to view information about the current approval step.</p> <p>To learn more about approvals, see <a href="../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md" class="MCXref xref">Approval process overview</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -201,8 +201,8 @@ The issue header includes the following information, by default:
    <td> <p>The text "ISSUE" displays above the issue name in the header.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">The actions area of the issue</td> 
-   <td> <p>Next to the name of the issue, the actions area displays.</p> <p> <img src="assets/nwe-dependency-action-area.png"> </p> <p>If the Dependency icon displays, you can click the icon to see any predecessors or successors for the issue.</p>  </td> 
+   <td role="rowheader">The [!UICONTROL actions] area of the issue</td> 
+   <td> <p>Next to the name of the issue, the [!UICONTROL actions] area displays.</p> <p> <img src="assets/nwe-dependency-action-area.png"> </p> <p>If the Dependency icon displays, you can click the icon to see any predecessors or successors for the issue.</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Percent Complete</td> 
@@ -214,7 +214,7 @@ The issue header includes the following information, by default:
   </tr> 
   <tr> 
    <td role="rowheader">Work on It, Done, <span>or Start Issue button</span></td> 
-   <td>If the issue is assigned to you, you can click the Work on It <span>or Start Issue</span> button to indicate that you are now working on the issue, or the Done button to indicate that you completed the issue.<span>For information about replacing the Work On It button with a Start Task button, see</span> <span href="../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md"><a href="../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md" class="MCXref xref">Replace the Work On It button with a Start button</a></span><span>.</span></td> 
+   <td>If the issue is assigned to you, you can click the [!UICONTROL Work on It] <span>or [!UICONTROL Start Issue]</span> button to indicate that you are now working on the issue, or the [!UICONTROL Done] button to indicate that you completed the issue.<span>For information about replacing the Work On It button with a Start Task button, see</span> <span href="../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md"><a href="../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md" class="MCXref xref">Replace the Work On It button with a Start button</a></span><span>.</span></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Planned Completion Date</td> 
@@ -226,7 +226,7 @@ The issue header includes the following information, by default:
   </tr> 
   <tr> 
    <td role="rowheader">The Approvals area</td> 
-   <td> <p>When you are one of the approvers, use the following icons to manage the approvals for the issue:</p> <p> <img src="assets/nwe-approvals-approve-16x18.png" style="width: 16;height: 18;"> Approve</p> <p> <img src="assets/nwe-approvals-reject-16x19.png" style="width: 16;height: 19;"> Reject</p> <p> <img src="assets/nwe-approvals-recall-16x16.png" style="width: 16;height: 16;"> Recall</p> <p>If you are not an approver, click the More icon <img src="assets/more-icon-for-approvals-area.png"> to view information about the current approval step.</p> <p>To learn more about approvals, see <a href="../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md" class="MCXref xref">Approval process overview</a>.</p> </td> 
+   <td> <p>When you are one of the approvers, use the following icons to manage the approvals for the issue:</p> <p> <img src="assets/nwe-approvals-approve-16x18.png" style="width: 16;height: 18;"> Approve</p> <p> <img src="assets/nwe-approvals-reject-16x19.png" style="width: 16;height: 19;"> Reject</p> <p> <img src="assets/nwe-approvals-recall-16x16.png" style="width: 16;height: 16;"> Recall</p> <p>If you are not an approver, click the [!UICONTROL More] icon <img src="assets/more-icon-for-approvals-area.png"> to view information about the current approval step.</p> <p>To learn more about approvals, see <a href="../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md" class="MCXref xref">Approval process overview</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -269,7 +269,7 @@ The program header displays the following information:
   </tr> 
   <tr> 
    <td role="rowheader">The actions area of the program</td> 
-   <td> <p>Next to the name of the program, the actions area displays.</p> <p> <img src="assets/nwe-general-actions-area.png"> </p> </td> 
+   <td> <p>Next to the name of the program, the [!UICONTROL actions] area displays.</p> <p> <img src="assets/nwe-general-actions-area.png"> </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Percent Complete</td> 
@@ -308,7 +308,7 @@ The portfolio header includes the following information:
  <tbody> 
   <tr> 
    <td role="rowheader">Object icon </td> 
-   <td> <p>The blue Portfolio icon <img src="assets/nwe-portfolios-icon.png">displays to the left of the portfolio name.</p> </td> 
+   <td> <p>The blue [!UICONTROL Portfolio] icon <img src="assets/nwe-portfolios-icon.png">displays to the left of the portfolio name.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Name of the portfolio</td> 
@@ -323,8 +323,8 @@ The portfolio header includes the following information:
    <td> <p>If the portfolio is deactivated, the text "PORTFOLIO DEACTIVATED" displays above the portfolio name in the header.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">The actions area of the portfolio</td> 
-   <td> <p>Next to the name of the portfolio, the actions area displays.</p> <p> <img src="assets/nwe-general-actions-area.png"> </p></td> 
+   <td role="rowheader">The [!UICONTROL actions] area of the portfolio</td> 
+   <td> <p>Next to the name of the portfolio, the [!UICONTROL actions] area displays.</p> <p> <img src="assets/nwe-general-actions-area.png"> </p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Portfolio Manager</td> 
@@ -433,8 +433,8 @@ The template task header displays the following information:
    <td> <p>The text "TEMPLATE TASK" displays above the template task name in the header.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">The actions area of the template task</td> 
-   <td> <p>Next to the name of the template task, the actions area displays.</p> <p> <img src="assets/nwe-general-actions-area.png"> </p> </td> 
+   <td role="rowheader">The [!UICONTROL actions] area of the template task</td> 
+   <td> <p>Next to the name of the template task, the [!UICONTROL actions] area displays.</p> <p> <img src="assets/nwe-general-actions-area.png"> </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Assignments</td> 
@@ -469,7 +469,7 @@ The billing record header displays the following information:
   </tr> 
   <tr> 
    <td role="rowheader">Object icon </td> 
-   <td> <p>The blue Billing Record icon <img src="assets/nwe-billing-record-icon-57x55.png" style="width: 57;height: 55;"> displays to the left of the billing record name.</p> </td> 
+   <td> <p>The blue [!UICONTROL Billing Record] icon <img src="assets/nwe-billing-record-icon-57x55.png" style="width: 57;height: 55;"> displays to the left of the billing record name.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Name of the billing record</td> 
@@ -480,8 +480,8 @@ The billing record header displays the following information:
    <td> <p>The text "BILLING RECORD" displays above the billing record name in the header.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">The actions area of the billing record</td> 
-   <td> <p>Next to the name of the billing record, the More menu <img src="assets/more-menu.png"> displays, which allows you to select the following options:</p> 
+   <td role="rowheader">The [!UICONTROL actions] area of the billing record</td> 
+   <td> <p>Next to the name of the billing record, the [!UICONTROL More] menu <img src="assets/more-menu.png"> displays, which allows you to select the following options:</p> 
     <ul> 
      <li> <p>Edit</p> </li> 
      <li> <p>Delete</p> </li> 
@@ -497,7 +497,7 @@ The billing record header displays the following information:
   </tr> 
   <tr> 
    <td role="rowheader">Status</td> 
-   <td> <p>When the billing record has a status of Billed, you can no longer edit it.</p> <p>You can edit the Status of the billing record in the header.</p> </td> 
+   <td> <p>When the billing record has a status of [!UICONTROL Billed], you can no longer edit it.</p> <p>You can edit the Status of the billing record in the header.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -520,7 +520,7 @@ The user header displays the following information:
  <tbody> 
   <tr> 
    <td role="rowheader">User's profile picture</td> 
-   <td>You cannot update the profile picture in the header.</td> 
+   <td>You cannot update the [!UICONTROL profile] picture in the header.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Name of the user and title</td> 
@@ -537,7 +537,7 @@ The user header displays the following information:
   </tr> 
   <tr> 
    <td role="rowheader">The actions area of the user</td> 
-   <td> <p>Next to the name of the user, the actions area displays.</p> <p> <img src="assets/nwe-general-actions-area.png"> </p></td> 
+   <td> <p>Next to the name of the user, the [!UICONTROL actions] area displays.</p> <p> <img src="assets/nwe-general-actions-area.png"> </p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Email address</td> 
@@ -572,7 +572,7 @@ The team header displays the following information:
  <tbody> 
   <tr> 
    <td role="rowheader">Object icon </td> 
-   <td> <p>The purple Team icon <img src="assets/nwe-teams-icon.png"> displays to the left of the team name.</p> </td> 
+   <td> <p>The purple [!UICONTROL Team] icon <img src="assets/nwe-teams-icon.png"> displays to the left of the team name.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Name of the team</td> 
@@ -584,7 +584,7 @@ The team header displays the following information:
   </tr> 
   <tr> 
    <td role="rowheader">The actions area of the team</td> 
-   <td> <p>Next to the name of the team, the actions area displays.</p> <p> <img src="assets/nwe-switch-team-actions-area.png"> </p></td> 
+   <td> <p>Next to the name of the team, the [!UICONTROL actions] area displays.</p> <p> <img src="assets/nwe-switch-team-actions-area.png"> </p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Team member profile pictures</td> 
@@ -627,7 +627,7 @@ The iteration header displays the following information:
   </tr> 
   <tr> 
    <td role="rowheader">The actions area of the iteration</td> 
-   <td> <p>In the upper-right corner of the header, the actions area displays.</p> <p> <img src="assets/nwe-iteration-action-area.png"> </p></td> 
+   <td> <p>In the upper-right corner of the header, the [!UICONTROL actions] area displays.</p> <p> <img src="assets/nwe-iteration-action-area.png"> </p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Owner</td> 
@@ -662,7 +662,7 @@ The group header displays the following information:
  <tbody> 
   <tr> 
    <td role="rowheader">Object icon </td> 
-   <td> <p>The orange Group icon <img src="assets/nwe-group-icon.png"> displays to the left of the group name.</p> </td> 
+   <td> <p>The orange [!UICONTROL Group] icon <img src="assets/nwe-group-icon.png"> displays to the left of the group name.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Name of the group</td> 
@@ -673,8 +673,8 @@ The group header displays the following information:
    <td> <p>The text "GROUP" displays above the group name in the header.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">The actions area of the group</td> 
-   <td> <p>Next to the name of the group, the More menu <img src="assets/more-menu.png"> displays, which allows you to select the following options:</p> 
+   <td role="rowheader">The [!UICONTROL actions] area of the group</td> 
+   <td> <p>Next to the name of the group, the [!UICONTROL More] menu <img src="assets/more-menu.png"> displays, which allows you to select the following options:</p> 
     <ul> 
      <li> <p>Edit</p> </li> 
      <li> <p>Copy</p> </li> 
@@ -687,7 +687,7 @@ The group header displays the following information:
   </tr> 
   <tr> 
    <td role="rowheader">Licenses in use </td> 
-   <td> <p>The Licenses in use box displays the number of Plan and Work license users in the group and its subgroups. You can click the numbers to see this information for all 5 license types.</p> <p>For more information, see <a href="../../administration-and-setup/manage-groups/create-and-manage-groups/view-number-licenses-allocated-used-group.md" class="MCXref xref">View the number of licenses allocated and used in a group in the new Adobe Workfront experience</a>.</p> </td> 
+   <td> <p>The [!UICONTROL Licenses in use] box displays the number of Plan and Work license users in the group and its subgroups. You can click the numbers to see this information for all 5 license types.</p> <p>For more information, see <a href="../../administration-and-setup/manage-groups/create-and-manage-groups/view-number-licenses-allocated-used-group.md" class="MCXref xref">View the number of licenses allocated and used in a group in the new [!DNL Adobe Workfront] experience</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Group Administrators</td> 
@@ -734,7 +734,7 @@ The document header displays the following information:
   </tr> 
   <tr> 
    <td role="rowheader">The approval Decision area</td> 
-   <td> <p>When the document is in an approval step, the Decisions area displays in the upper-right corner of the Document header.</p> <p>Use the following icons to manage the approvals for the document:</p> <p> <img src="assets/nwe-approvals-approve-16x18.png" style="width: 16;height: 18;"> Approve</p> <p> <img src="assets/nwe-approvals-recall-16x16.png" style="width: 16;height: 16;"> Recall</p> <p> <img src="assets/nwe-approvals-reject-16x19.png" style="width: 16;height: 19;"> Reject</p> <p>For more information on approval decisions, see <a href="../../review-and-approve-work/manage-approvals/approving-work.md" class="MCXref xref">Approving work </a>.</p> </td> 
+   <td> <p>When the document is in an approval step, the [!UICONTROL Decisions] area displays in the upper-right corner of the Document header.</p> <p>Use the following icons to manage the approvals for the document:</p> <p> <img src="assets/nwe-approvals-approve-16x18.png" style="width: 16;height: 18;"> Approve</p> <p> <img src="assets/nwe-approvals-recall-16x16.png" style="width: 16;height: 16;"> Recall</p> <p> <img src="assets/nwe-approvals-reject-16x19.png" style="width: 16;height: 19;"> Reject</p> <p>For more information on approval decisions, see <a href="../../review-and-approve-work/manage-approvals/approving-work.md" class="MCXref xref">Approving work </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -768,8 +768,8 @@ The company header displays the following information:
    <td> <p>The text "COMPANY" displays above the company name in the header.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">The actions area of the company</td> 
-   <td> <p>Next to the name of the company, the More menu <img src="assets/more-menu.png"> displays, which allows you to select the following options:</p> 
+   <td role="rowheader">The [!UICONTROL actions] area of the company</td> 
+   <td> <p>Next to the name of the company, the [!UICONTROL More] menu <img src="assets/more-menu.png"> displays, which allows you to select the following options:</p> 
     <ul> 
      <li> <p>Edit</p> </li> 
      <li> <p>Delete Company</p> </li> 
@@ -782,7 +782,7 @@ The company header displays the following information:
 
 ![](assets/nwe-plan-header-350x34.png)
 
-Plans are the objects of the Workfront Scenario Planner. For information about the Scenario Planner, see [The Scenario Planner overview](../../scenario-planner/scenario-planner-overview.md).
+Plans are the objects of the [!DNL Workfront] Scenario Planner. For information about the Scenario Planner, see [The Scenario Planner overview](../../scenario-planner/scenario-planner-overview.md).
 
 The plan header displays the following information:
 
@@ -798,7 +798,7 @@ The plan header displays the following information:
  <tbody> 
   <tr> 
    <td role="rowheader">Back to plans</td> 
-   <td>Clicking this link takes you to the Plans list.</td> 
+   <td>Clicking this link takes you to the [!UICONTROL Plans] list.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object icon </td> 
@@ -813,8 +813,8 @@ The plan header displays the following information:
    <td> <p>The text "PLAN" displays above the plan name in the header.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">The actions area of the plan</td> 
-   <td> <p>Next to the name of the plan, the actions area displays.</p> <p> <img src="assets/nwe-general-actions-area.png"> </p></td> 
+   <td role="rowheader">The [!UICONTROL actions] area of the plan</td> 
+   <td> <p>Next to the name of the plan, the [!UICONTROL actions] area displays.</p> <p> <img src="assets/nwe-general-actions-area.png"> </p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Additional plan actions</td> 
@@ -827,7 +827,7 @@ The plan header displays the following information:
   </tr> 
   <tr> 
    <td role="rowheader">Job role information</td> 
-   <td>In the Job Role box, you can see how many job roles are available for the plan compared to how many are required. Clicking the box allows you to adjust the available job roles.</td> 
+   <td>In the [!UICONTROL Job Role] box, you can see how many job roles are available for the plan compared to how many are required. Clicking the box allows you to adjust the available job roles.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Financial information</td> 
@@ -835,7 +835,7 @@ The plan header displays the following information:
   </tr> 
   <tr> 
    <td role="rowheader">Net Value</td> 
-   <td>In the Net Value box, you can see the net value of the plan based on the budget and costs you have entered for the plan.</td> 
+   <td>In the [!UICONTROL Net Value] box, you can see the net value of the plan based on the budget and costs you have entered for the plan.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Shared with information</td> 
@@ -843,7 +843,7 @@ The plan header displays the following information:
   </tr> 
   <tr> 
    <td role="rowheader">Go to Publish</td> 
-   <td>When you click Go to Publish, you can create or update a project linked to an initiative in the scenario you are viewing.</td> 
+   <td>When you click [!UICONTROL Go to Publish], you can create or update a project linked to an initiative in the scenario you are viewing.</td> 
   </tr> 
  </tbody> 
 </table>

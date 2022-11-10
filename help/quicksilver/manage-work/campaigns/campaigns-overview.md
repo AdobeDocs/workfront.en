@@ -20,9 +20,9 @@ For example, you can capture the work necessary to complete a marketing campaign
 
 >[!NOTE]
 >
->A campaign is a new object in Adobe Workfront that allows you to organize work across multiple projects. A campaign is a larger work item  than projects, similar but not identical to portfolios or programs. A campaign can be associated with multiple projects that may or may not belong to different portfolios or programs.
+>A campaign is a new object in [!DNL Adobe Workfront] that allows you to organize work across multiple projects. A campaign is a larger work item  than projects, similar but not identical to portfolios or programs. A campaign can be associated with multiple projects that may or may not belong to different portfolios or programs.
 
-Because you can associate the same project with multiple campaigns, Workfront allows you to organize work both vertically and horizontally in your strategic roadmap and move away from the linear hierarchy you have been used to so far.
+Because you can associate the same project with multiple campaigns, [!DNL Workfront] allows you to organize work both vertically and horizontally in your strategic roadmap and move away from the linear hierarchy you have been used to so far.
 
 For information about creating campaigns, see [Create campaigns](create-campaigns.md).
 
@@ -37,7 +37,7 @@ The following are some of the benefits of campaigns:
 
 ## Considerations when using campaigns
 
-* Only system or group administrators can see the [!UICONTROL Campaigns] area in a [!UICONTROL Layout Template] and can add it for other users. No users can see the Campaigns area in the [!UICONTROL Main Menu] by default.
+* Only system or group administrators can see the [!UICONTROL Campaigns] area in a [!UICONTROL Layout Template] and can add it for other users. No users can see the [!UICONTROL Campaigns] area in the [!UICONTROL Main Menu] by default.
 * All users, regardless of their access level, can create a campaign.
 * All users, regardless of their access level, can see all campaigns when they access the [!UICONTROL Campaigns] area from the [!UICONTROL Main Menu].
 * You can edit or delete a campaign only when you are the owner of the campaign or when you are the system administrator.

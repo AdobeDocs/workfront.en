@@ -27,17 +27,17 @@ You must have the following access to perform the steps in this article:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront plan*</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront plan*]</strong></td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront license*</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] license*</strong></td> 
    <td> <p>Work or higher</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan or license type you have, contact your Workfront administrator.
+&#42;To find out what plan or license type you have, contact your [!DNL Workfront] administrator.
 
 ## About integrating Microsoft Outlook calendars
 
@@ -45,17 +45,17 @@ Consider the following as you configure your Home Calendar with your Microsoft O
 
 * You can integrate only a web-based version of Outlook in cloud-hosted Office 365 or Outlook Live.
 
-  On-premises Outlook and Outlook on a cloud-based enterprise Exchange server are not supported.
+   On-premises Outlook and Outlook on a cloud-based enterprise Exchange server are not supported.
 
-  If your organization uses single sign-on, you need Microsoft 365 E3 or E5.
+   If your organization uses single sign-on, you need Microsoft 365 E3 or E5.
 
-* Attachments associated with your Outlook events are not attached to the Outlook events in your Home Calendar. 
-* Integration with an Outlook calendar must be completed for each user individually. 
-* Events that appear in the Due bar do not appear on your Microsoft calendar unless you have dragged them from the Work List to your Adobe Workfront Calendar. For more information, see [Due bar](../../../workfront-basics/using-home/using-the-home-area/home-calendar-view.md#viewing-the-due-bar) and [Work list on the Home Calendar](../../../workfront-basics/using-home/using-the-home-area/home-calendar-view.md#using-the-left-panel-of-the-home-view) in [Home Calendar view](../../../workfront-basics/using-home/using-the-home-area/home-calendar-view.md).
+* Attachments associated with your [!DNL Outlook] events are not attached to the [!DNL Outlook] events in your Home Calendar.
+* Integration with an [!DNL Outlook] calendar must be completed for each user individually.
+* Events that appear in the Due bar do not appear on your Microsoft calendar unless you have dragged them from the Work List to your [!DNL Adobe Workfront] Calendar. For more information, see [Due bar](../../../workfront-basics/using-home/using-the-home-area/home-calendar-view.md#viewing-the-due-bar) and [Work list on the Home Calendar](../../../workfront-basics/using-home/using-the-home-area/home-calendar-view.md#using-the-left-panel-of-the-home-view) in [Home Calendar view](../../../workfront-basics/using-home/using-the-home-area/home-calendar-view.md).
 
 * When you enable the integration with Outlook, only work items that are dragged onto the Home Calendar from that point forward will sync. Items that were on the Home Calendar prior to enabling the integration will not appear, and you must drag them onto the Home Calendar again if you want them to appear in Outlook.
-* When you share (or unshare) an Outlook calendar with other people, or when you change the permission level for a calendar you share with others, this change does not affect their calendars for about 30 minutes (for more information, consult the Microsoft Outlook documentation).  
-  Consequently, when you integrate Workfront Calendar with an Outlook calendar that you share with other users, they will not see your Workfront Calendar items for about 30 minutes.
+* When you share (or unshare) an Outlook calendar with other people, or when you change the permission level for a calendar you share with others, this change does not affect their calendars for about 30 minutes (for more information, consult the Microsoft Outlook documentation).\
+   Consequently, when you integrate [!DNL Workfront] Calendar with an [!DNL Outlook] calendar that you share with other users, they will not see your [!DNL Workfront] Calendar items for about 30 minutes.
 
 >[!NOTE]
 >
@@ -67,25 +67,25 @@ Consider the following as you configure your Home Calendar with your Microsoft O
 
    If you need information about accessing the Home Calendar view, see [View the Home Calendar](../../../workfront-basics/using-home/using-the-home-area/view-home-calendar.md).
 
-1. (Optional) To integrate your Microsoft Outlook calendar, click **Add account** in the upper-right corner of the **Calendar settings** panel. Then, if you are prompted to do so, enter your Microsoft Outlook login information. You can repeat this step to add multiple Outlook accounts.
+1. (Optional) To integrate your Microsoft Outlook calendar, click **[!UICONTROL Add account]** in the upper-right corner of the **Calendar settings** panel. Then, if you are prompted to do so, enter your Microsoft Outlook login information. You can repeat this step to add multiple Outlook accounts.
 
    >[!NOTE]
    >
-   >You must give Workfront permission to access your Outlook calendar. Granting permission allows Workfront to maintain access to calendar data, read your outlook profile, and read and update your Microsoft calendar.
+   >You must give [!DNL Workfront] permission to access your Outlook calendar. Granting permission allows [!DNL Workfront] to maintain access to calendar data, read your [!DNL outlook] profile, and read and update your Microsoft calendar.
 
-1. Refresh the browser window to see information from your Outlook account in the calendar and in the Calendar settings panel.
-1. Click the **Settings** gear icon again in the upper right corner to open the **Calendar settings** panel. ![Calendar_Settings_gear_icon.png](assets/calendar-settings-gear-icon.png)  
+1. Refresh the browser window to see information from your [!DNL Outlook] account in the calendar and in the [!UICONTROL Calendar settings] panel.
+1. Click the **Settings** gear icon again in the upper right corner to open the **Calendar settings** panel. ![Calendar_Settings_gear_icon.png](assets/calendar-settings-gear-icon.png)
 
-1. (Optional) Under each Microsoft account you have added in the previous step, select **View** or **Sync**:
+1. (Optional) Under each [!DNL Microsoft] account you have added in the previous step, select **View** or **Sync**:
 
    * **View**: This is a read-only option that displays Microsoft calendar events on your Home Calendar.
-   * **Sync**: This option allows a two-way sync between your Microsoft and Home calendars. In other words,&nbsp;Workfront Home Calendar items export to your Microsoft calendar and Microsoft calendar items import to your Workfront Home Calendar in real time.
+   * **Sync**: This option allows a two-way sync between your Microsoft and Home calendars. In other words,&nbsp;[!DNL Workfront] Home Calendar items export to your Microsoft calendar and Microsoft calendar items import to your Workfront Home Calendar in real time.
 
-     ![](assets/view-sync-checkboxes-qs.png)
+      ![](assets/view-sync-checkboxes-qs.png)
 
-1. (Optional) Under your Workfront account or an integrated account, select the associated calendars you want&nbsp;to view on your Home Calendar (such as your PTO, Birthdays, or Holidays calendar) then click your browser's Refresh or Reload button to see your changes.  
+1. (Optional) Under your [!DNL Workfront] account or an integrated account, select the associated calendars you want&nbsp;to view on your Home Calendar (such as your PTO, Birthdays, or Holidays calendar) then click your browser's [!UICONTROL Refresh] or [!UICONTROL Reload] button to see your changes.
 
-1. (Optional) In the **General** section under **Start Week On**, select the day you want to display&nbsp;&nbsp;as the first day of your&nbsp;work week in the Home Calendar.
+1. (Optional) In the **[!UICONTROL General]** section under **[!UICONTROL Start Week] On**, select the day you want to display&nbsp;&nbsp;as the first day of your&nbsp;work week in the Home Calendar.
 
 1. Configure&nbsp;the following options:
 
@@ -99,7 +99,7 @@ Consider the following as you configure your Home Calendar with your Microsoft O
 
    Workfront saves your changes automatically.
 
-For information about using the Calendar view to manage your&nbsp;work assignments and integrated calendar events, see [Use the Home Calendar view](../../../workfront-basics/using-home/using-the-home-area/use-home-calendar-view.md). 
+For information about using the Calendar view to manage your&nbsp;work assignments and integrated calendar events, see [Use the Home Calendar view](../../../workfront-basics/using-home/using-the-home-area/use-home-calendar-view.md).
 
 <!--
 <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">

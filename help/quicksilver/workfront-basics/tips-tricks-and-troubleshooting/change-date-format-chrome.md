@@ -2,19 +2,19 @@
 filename: change-date-format-chrome
 content-type: tips-tricks-troubleshooting
 navigation-topic: tips-tricks-and-troubleshooting-workfront-basics
-title: Change the format for dates in Adobe Workfront
-description: To change the date format for the dates in Adobe Workfront you must change the language settings in your browser.
+title: Change the format for dates in [!DNL Adobe Workfront]
+description: To change the date format for the dates in [!DNL Adobe Workfront] you must change the language settings in your browser.
 exl-id: 9fac92fb-e3d1-4537-b324-4b35447cef28
 ---
-# Change the format for dates in Adobe Workfront 
+# Change the format for dates in [!DNL Adobe Workfront]
 
 <!--this article used to be called "Change the date format in Adobe Workfront when using Chrome". The team decieded to make it more generic and hide the steps. Also see drafted content below-->
 
-To change the format of dates in Adobe Workfront, such as Planned Completion Date, Actual Completion Date, or Projected Completion Date, from DD/MM/YYYY to MM/DD/YYYY or vice versa, for example, you must change the language settings in your browser. 
+To change the format of dates in [!DNL Adobe Workfront], such as Planned Completion Date, Actual Completion Date, or Projected Completion Date, from DD/MM/YYYY to MM/DD/YYYY or vice versa, for example, you must change the language settings in your browser.
 
 If the default language in your browser is set to *English (United States)*, the dates display in the MM/DD/YYYY format.
 
-To change the language settings in Chrome or any other browser, you must modify the settings of that browser. The steps to motify a browser's settings vary from browser to browser. Refer to your browser's Help, Preferences, or Settings areas to learn how to modify its settings. 
+To change the language settings in Chrome or any other browser, you must modify the settings of that browser. The steps to motify a browser's settings vary from browser to browser. Refer to your browser's Help, Preferences, or Settings areas to learn how to modify its settings.
 
 <!--drafted because we should not document steps for a third-party application
 

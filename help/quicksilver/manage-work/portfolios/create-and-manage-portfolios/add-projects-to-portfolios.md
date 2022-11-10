@@ -13,7 +13,7 @@ We recommend that you add projects&nbsp;to portfolios when you initiate them. Ho
 
 Consider the following when adding projects to portfolios:&nbsp;
 
-* Although a portfolio may contain an unlimited number of projects, you can associate only one portfolio with a project. 
+* Although a portfolio may contain an unlimited number of projects, you can associate only one portfolio with a project.
 * A project remains in a portfolio until it is removed or associated&nbsp;with another portfolio.
 
 ## Access requirements
@@ -34,7 +34,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>View access to Portfolios or higher</p> <p>Edit access to Projects</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>View access to Portfolios or higher</p> <p>Edit access to Projects</p> <p>Note: If you still don't have access, ask your [!DNL Workfront] administrator if they set additional restrictions in your access level. For information on how a [!DNL Workfront] administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -43,19 +43,19 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+&#42;To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
 
 ## Add a project to a portfolio
 
-1. Go to a portfolio, then click **Projects** in the left panel.
+1. Go to a portfolio, then click **[!UICONTROL Projects]** in the left panel.
 
    ![](assets/qs-portfolio-with-projects-350x90.png)
 
-1. Click **New Project** and select a method for adding a project.
+1. Click **[!UICONTROL New Project]** and select a method for adding a project.
 
    >[!TIP]
    >
-   >You cannot add project when you view the list of projects in the Milestone view.
+   >You cannot add project when you view the list of projects in the [!UICONTROL Milestone] view.
 
    Select from the following options:
 
@@ -69,18 +69,18 @@ You must have the following access to perform the steps in this article:
      </tr> 
      <tr> 
       <td role="rowheader">New Project</td> 
-      <td> <p>Add a new project. </p> <p>For more information about creating a new project, see <a href="../../../manage-work/projects/create-projects/create-project.md" class="MCXref xref">Create a project</a>.&nbsp;</p> </td> 
+      <td> <p>Add a new project. </p> <p>For more information about creating a new project, see <a href="../../../manage-work/projects/create-projects/create-project.md" class="MCXref xref">Create a project</a>. </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Import a Project from&nbsp;MS&nbsp;Project </td> 
-      <td> <p>Add a project that you previously exported from MS&nbsp;Project and have saved on your computer. </p> <p>For more information about creating a new project by importing it from Microsoft Project, see <a href="../../../manage-work/projects/create-projects/import-project-from-ms-project.md" class="MCXref xref">Import a project from Microsoft Project</a>.</p> </td> 
+      <td role="rowheader">Import a Project from MS Project </td> 
+      <td> <p>Add a project that you previously exported from MS Project and have saved on your computer. </p> <p>For more information about creating a new project by importing it from Microsoft Project, see <a href="../../../manage-work/projects/create-projects/import-project-from-ms-project.md" class="MCXref xref">Import a project from Microsoft Project</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Request Project</td> 
       <td> <p>Request that a project is approved.</p> <p>For information about requesting projects, see <a href="../../../manage-work/projects/create-projects/request-project.md">Requesting a Project</a>. </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">New from&nbsp;Template</td> 
+      <td role="rowheader">New from Template</td> 
       <td> <p>Add a new project using an existing template. </p> <p>For more information about creating a project from a template, see <a href="../../../manage-work/projects/create-projects/create-project-from-template.md" class="MCXref xref">Create a project using a template</a>.</p> </td> 
      </tr> 
     </tbody> 
@@ -88,7 +88,7 @@ You must have the following access to perform the steps in this article:
 
    ![](assets/new-project-dropdown-expanded-from-portfolio-nwe-350x376.png)
 
-1. (Conditional) If you selected to add an existing project, start typing the name of a project in the **Add Projects** box, then click them when they appear in the list. You may add several projects at a time.
+1. (Conditional) If you selected to add an existing project, start typing the name of a project in the **[!UICONTROL Add Projects]** box, then click them when they appear in the list. You may add several projects at a time.
 
    ![](assets/add-existing-project-from-portfolio-window-nwe-350x545.png)
 

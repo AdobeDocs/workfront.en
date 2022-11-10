@@ -26,7 +26,7 @@ Typically, PPM practitioners use the following steps to conduct PPM:
 1. Evaluate the resource availability for carrying out the selected projects.
 1. Review and evaluate the progress of the projects in the portfolio, and make adjustments if necessary.
 
-## Overview of the Adobe Workfront&nbsp;PPM Process
+## Overview of the [!DNL Adobe Workfront&nbsp;PPM] Process
 
 You can prioritize your projects and ensure that they are aligned with your business goals and requirements using the Portfolio Management tools in Workfront.
 
@@ -34,12 +34,12 @@ The following diagram illustrates the high-level overview of the PPM process in 
 
 ![](assets/pm1-350x88.png)
 
-* [Project Request](#project-request) 
+* [Project Request](#project-request)
 * [Project Review](#project-review)
 * [Portfolio Optimization](#portfolio-optimization)
 * [Resource Planning](#resource-planning)
 * [Project Execution](#project-execution)
-* [Project Postmortem](#project-postmortem)
+* [[!DNL Project] Postmortem](#project-postmortem)
 
 ### Project Request {#project-request}
 
@@ -51,7 +51,7 @@ For more information about creating a business case and a project request, see [
 
 After you submit the project request, the Portfolio Manager or an executive team reviews it, and decides whether to approve them. If they are approved, they will be selected for&nbsp;a company Project Portfolio.
 
-For more information about portfolios, see [Portfolio overview in Adobe Workfront](../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md)For more information about approving a Business Case, see [Approve a Business Case](../../../manage-work/projects/define-a-business-case/approve-business-case.md).
+For more information about portfolios, see [Portfolio overview in [!DNL Adobe Workfront]](../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md)For more information about approving a Business Case, see [Approve a Business Case](../../../manage-work/projects/define-a-business-case/approve-business-case.md).
 
 ### Portfolio Optimization {#portfolio-optimization}
 
@@ -69,9 +69,9 @@ For more information about Resource Management, see the [Manage resources](../..
 
 ### Project Execution {#project-execution}
 
-After receiving the project approval from the Portfolio Manager and the validation of the resources from the Resource Manager, as the Project Owner, you can place the project in the status of Current and your users can start the work to complete the project. It is recommended to capture a baseline of the project in this phase, to have a reference point for the project, in its original state.
+After receiving the project approval from the Portfolio Manager and the validation of the resources from the Resource Manager, as the Project Owner, you can place the project in the status of [!UICONTROL Current] and your users can start the work to complete the project. It is recommended to capture a baseline of the project in this phase, to have a reference point for the project, in its original state.
 
-For more information about managing projects in Workfront, see [Manage projects](../../../manage-work/projects/manage-projects/manage-projects-overview.md).  
+For more information about managing projects in [!DNL Workfront], see [Manage projects](../../../manage-work/projects/manage-projects/manage-projects-overview.md).\
 For more information about creating baselines on projects, see [Create project baselines](../../../manage-work/projects/create-projects/create-baselines.md).
 
 ### Project Postmortem {#project-postmortem}

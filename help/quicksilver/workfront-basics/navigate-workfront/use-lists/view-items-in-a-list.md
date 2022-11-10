@@ -1,29 +1,29 @@
 ---
 navigation-topic: use-lists
-title: Get started with lists in Adobe Workfront
-description: You can view lists of objects in Adobe Workfront to get information about them, such as their start and due dates, users assigned to them, and other objects that are associated with them.
+title: Get started with lists in [!DNL Adobe Workfront]
+description: You can view lists of objects in [!DNL Adobe Workfront] to get information about them, such as their start and due dates, users assigned to them, and other objects that are associated with them.
 feature: Get Started with Workfront
 author: Lisa
 exl-id: d4262b8e-bbe0-4ac2-8f1f-5d32541311c8
 ---
-# Get started with lists in Adobe Workfront
+# Get started with lists in [!DNL Adobe Workfront]
 
 <!--
 {{highlighted-preview}}
 -->
 
-You can view lists of objects in Adobe Workfront to get information about them, such as their start and due dates, users assigned to them, and other objects that are associated with them.
+You can view lists of objects in [!DNL Adobe Workfront] to get information about them, such as their start and due dates, users assigned to them, and other objects that are associated with them.
 
 The following are some characteristics of lists in Workfront:
 
 * Lists refresh automatically every five minutes to update information that other users in the system are updating elsewhere.
-* Some areas in Workfront are preconfigured with default lists of objects.
+* Some areas in [!DNL Workfront] are preconfigured with default lists of objects.
 
-  You can customize most of these preconfigured lists.
+   You can customize most of these preconfigured lists.
 
-* A Workfront administrator can create custom lists to apply to various areas of Workfront.
+* A [!DNL Workfront] administrator can create custom lists to apply to various areas of Workfront.
 
-  For more information about creating system-level lists, see the article [Create, edit, and share default filters, views, and groupings](../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-and-share-default-fvgs.md).
+   For more information about creating system-level lists, see the article [Create, edit, and share default filters, views, and groupings](../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-and-share-default-fvgs.md).
 
 ## Access requirements
 
@@ -34,16 +34,16 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront plan*</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront plan*]</strong></td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront license*</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] license*</strong></td> 
    <td> <p>Request or higher</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Access level configurations*</strong></td> 
-   <td> <p>View or higher access to filters, views, groupings</p> <P>For items in the Setup area, you need administrative access for the item or the System Administrator access level.</P> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level.<br>For information on how a Workfront administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>View or higher access to filters, views, groupings</p> <P>For items in the [!UICONTROL Setup] area, you need administrative access for the item or the System Administrator access level.</P> <p>Note: If you still don't have access, ask your [!DNL Workfront] administrator if they set additional restrictions in your access level.<br>For information on how a [!DNL Workfront] administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Object permissions</strong></td> 
@@ -52,23 +52,24 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+&#42;To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
 
 ## Object lists
 
-Below are some types of object lists that you can find in Workfront and some of the areas where they display by default when you have rights to view an object.
+Below are some types of object lists that you can find in [!DNL Workfront] and some of the areas where they display by default when you have rights to view an object.
 
 >[!NOTE]
 >
 >* This list is not comprehensive. Each of these object lists can also appear on a report or a dashboard. For example, a Project report or a dashboard that contains a Project report also displays a list of projects.
 >* In this list, "select" means that you need to click the name of the item, not the checkbox to the left of the name.
 
+
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <thead> 
   <tr> 
-   <th><strong>Workfront list</strong></th> 
+   <th><strong>[!DNL Workfront] list</strong></th> 
    <th><strong>Location of object list</strong></th> 
   </tr> 
  </thead> 
@@ -84,7 +85,7 @@ Below are some types of object lists that you can find in Workfront and some of 
    <td>List of programs</td> 
    <td> 
     <ul> 
-     <li> <p>Portfolios &gt; select a portfolio &gt; Programs</p> </li> 
+     <li> <p>Portfolios >[!UICONTROL select a portfolio] >[!UICONTROL Programs]</p> </li> 
      <li data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <p>Programs</p> </li> 
     </ul> </td> 
   </tr> 
@@ -93,26 +94,26 @@ Below are some types of object lists that you can find in Workfront and some of 
    <td> 
     <ul> 
      <li> <p>Projects</p> </li> 
-     <li> <p>Portfolios &gt; select a portfolio &gt; Projects</p> </li> 
-     <li> <p>Portfolios &gt; select a portfolio &gt; Programs &gt; select a program &gt; Projects</p> </li> 
+     <li> <p>Portfolios >[!UICONTROL select a portfolio] >[!UICONTROL Projects]</p> </li> 
+     <li> <p>Portfolios >[!UICONTROL select a portfolio] >[!UICONTROL Programs] >[!UICONTROL select a program] >[!UICONTROL Projects]</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td>List of tasks</td> 
    <td> 
     <ul> 
-     <li> <p>Projects &gt; select a project &gt;&nbsp;Tasks</p> </li> 
-     <li> <p>Projects &gt; select a project &gt; Tasks &gt; select a task &gt; Subtasks</p> </li> 
-     <li> <p>Projects &gt; select a project &gt; Tasks &gt; select a task &gt;&nbsp;Predecessors*</p> </li> 
+     <li> <p>Projects >[!UICONTROL select a project] > [!UICONTROL Tasks]</p> </li> 
+     <li> <p>Projects >[!UICONTROL select a project] >[!UICONTROL Tasks] >[!UICONTROL select a task] >[!UICONTROL Subtasks]</p> </li> 
+     <li> <p>Projects >[!UICONTROL select a project] >[!UICONTROL Tasks] >[!UICONTROL select a task] > [!UICONTROL Predecessors*]</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td>List of issues</td> 
    <td> 
     <ul> 
-     <li> <p>Projects &gt;&nbsp;select a project &gt; Issues</p> </li> 
-     <li> <p>Projects &gt; select a project &gt; Tasks &gt; select a task &gt;&nbsp;Issues</p> </li> 
-     <li> <p>Projects &gt; select a project &gt; Tasks &gt; select a task &gt; Subtasks &gt; select a task &gt;&nbsp;Issues</p> </li> 
+     <li> <p>Projects > [!UICONTROL select] a project >[!UICONTROL Issues]</p> </li> 
+     <li> <p>Projects >[!UICONTROL select a project] >[!UICONTROL Tasks] >[!UICONTROL select a task] > [!UICONTROL Issues]</p> </li> 
+     <li> <p>Projects >[!UICONTROL select a project] >[!UICONTROL Tasks] >[!UICONTROL select a task] >[!UICONTROL Subtasks] >[!UICONTROL select a task] > [!UICONTROL Issues]</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -133,7 +134,7 @@ Below are some types of object lists that you can find in Workfront and some of 
    <td>List of iterations</td> 
    <td> 
     <ul> 
-     <li> <p>Teams &gt;&nbsp;Iterations</p> </li> 
+     <li> <p>Teams > [!UICONTROL Iterations]</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -148,63 +149,63 @@ Below are some types of object lists that you can find in Workfront and some of 
    <td> 
     <ul> 
      <li> <p>Documents</p> </li> 
-     <li> <p>Portfolios &gt; select a portfolio &gt;&nbsp;Documents</p> </li> 
-     <li> <p>Portfolios &gt;&nbsp;select a portfolio &gt; Programs &gt; select a program &gt; Documents</p> </li> 
-     <li> <p>Projects &gt; select a project &gt; Documents</p> </li> 
-     <li> <p>Projects &gt; select a project &gt; Tasks &gt; select a task &gt;&nbsp;Documents</p> </li> 
-     <li> <p>Projects &gt;&nbsp;select a project &gt;&nbsp;Issues &gt; select an issue &gt;&nbsp;Documents</p> </li> 
+     <li> <p>Portfolios >[!UICONTROL select a portfolio] > [!UICONTROL Documents]</p> </li> 
+     <li> <p>Portfolios > [!UICONTROL select a portfolio] >[!UICONTROL Programs] >[!UICONTROL select a program] >[!UICONTROL Documents]</p> </li> 
+     <li> <p>Projects >[!UICONTROL select a project] >[!UICONTROL Documents]</p> </li> 
+     <li> <p>Projects >[!UICONTROL select a project] >[!UICONTROL Tasks] >[!UICONTROL select a task] > [!UICONTROL Documents]</p> </li> 
+     <li> <p>Projects > [!UICONTROL select] a project > [!UICONTROL Issues] >[!UICONTROL select an issue] > [!UICONTROL Documents]</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td>List of timesheets</td> 
    <td> 
     <ul> 
-     <li> <p>Timesheet s  &gt;&nbsp;All Timesheets*</p> </li> 
+     <li> <p>Timesheet s  > All Timesheets*</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td>List of billing rates</td> 
    <td> 
     <ul> 
-     <li> <p>Projects &gt; select a project &gt; Billing Rates*</p> </li> 
+     <li> <p>Projects >[!UICONTROL select a project] >[!UICONTROL Billing Rates*]</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td>List of billing records</td> 
    <td> 
     <ul> 
-     <li> <p>Projects &gt;&nbsp;select a project &gt;&nbsp;Billing Records</p> </li> 
+     <li> <p>Projects > [!UICONTROL select a project] > [!UICONTROL Billing Records]</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td>List of risks</td> 
    <td> 
     <ul> 
-     <li> <p>Projects &gt; select a project &gt; Risks</p> </li> 
+     <li> <p>Projects >[!UICONTROL select a project] >[!UICONTROL Risks]</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td>List of expenses</td> 
    <td> 
     <ul> 
-     <li> <p>Projects &gt; select a project &gt; Expenses</p> </li> 
-     <li> <p>Projects &gt;&nbsp;select a project &gt; Tasks &gt; select a task &gt; Expenses</p> </li> 
+     <li> <p>Projects >[!UICONTROL select] a project >[!UICONTROL Expenses]</p> </li> 
+     <li> <p>Projects > [!UICONTROL select a project] >[!UICONTROL Tasks] >[!UICONTROL select a task] >[!UICONTROL Expenses]</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td>List of hour entries</td> 
    <td> 
     <ul> 
-     <li> <p>Projects &gt; select a project</p> </li> 
-     <li> <p>Projects &gt; select a project &gt; Tasks &gt; select a task &gt; Hours</p> </li> 
-     <li> <p>Projects &gt; select a project &gt; Issues &gt; select an issue &gt; Hours</p> </li>
+     <li> <p>Projects >[!UICONTROL select] a project</p> </li> 
+     <li> <p>Projects >[!UICONTROL select a project] >[!UICONTROL Tasks] >[!UICONTROL select a task] >[!UICONTROL Hours]</p> </li> 
+     <li> <p>Projects >[!UICONTROL select] a project >[!UICONTROL Issues] >[!UICONTROL select] an issue >[!UICONTROL Hours]</p> </li>
     </ul> </td> 
   </tr>
   <tr> 
    <td class="preview">List of custom forms</td> 
    <td> 
     <ul> 
-     <li class="preview"> <p>Setup &gt; Custom Forms</p>
+     <li class="preview"> <p>Setup >[!UICONTROL Custom Forms]</p>
      <!--Remove the following note box when this goes to Production. Or do this when the Preview highlighting becomes available.-->
      <p><b>NOTE</b>: This is currently available only in the Preview environment</p> </li> 
     </ul> </td> 
@@ -213,42 +214,42 @@ Below are some types of object lists that you can find in Workfront and some of 
     <td>List of groups or subgroups</td> 
    <td> 
     <ul> 
-     <li> <p>Setup &gt; Groups</p> </li>
-     <li> <p>Setup &gt; Groups &gt; select the parent group &gt; Subgroups </li> 
+     <li> <p>Setup >[!UICONTROL Groups]</p> </li>
+     <li> <p>Setup >[!UICONTROL Groups] >[!UICONTROL select the parent group] >[!UICONTROL Subgroups] </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td>List of teams</td> 
    <td> 
     <ul> 
-     <li> <p>Setup &gt; Teams</p> </li> 
+     <li> <p>Setup >[!UICONTROL Teams]</p> </li> 
     </ul> </td> 
   </tr>
   <tr> 
    <td>List of companies</td> 
    <td> 
     <ul> 
-     <li> <p>Setup &gt; Companies</p> </li> 
+     <li> <p>Setup >[!UICONTROL Companies]</p> </li> 
     </ul> </td> 
   </tr>
   <tr> 
    <td>List of schedules</td> 
    <td> 
     <ul> 
-     <li> <p>Setup &gt; Schedules</p> </li> 
+     <li> <p>Setup >[!UICONTROL Schedules]</p> </li> 
     </ul> </td> 
   </tr>
   <tr> 
    <td>List of layout templates</td> 
    <td> 
     <ul> 
-     <li> <p>Setup &gt; Layout Templates</p> </li> 
+     <li> <p>Setup >[!UICONTROL Layout Templates]</p> </li> 
     </ul> </td> 
   </tr>
  </tbody> 
 </table>
 
-&#42;You cannot customize the list on the specified area. A Workfront administrator can build a customized list at the system level, or you can build a report for this object if your access level allows you have access to edit reports.
+&#42;You cannot customize the list on the specified area. A [!DNL Workfront] administrator can build a customized list at the system level, or you can build a report for this object if your access level allows you have access to edit reports.
 
 ## List elements
 
@@ -256,7 +257,7 @@ A list contains certain elements that define its format and the information that
 
 >[!NOTE]
 >
->When you select a new filter, view or grouping from a list, that selection is retained even if you log out of Workfront or close your browser.
+>When you select a new filter, view or grouping from a list, that selection is retained even if you log out of [!DNL Workfront] or close your browser.
 
 The following are the elements of a list:
 
@@ -275,7 +276,7 @@ The following are the elements of a list:
    <td> <p>Filters keep unnecessary information out of a list, based on the criteria that you specify. </p> <p>For more information, see <a href="../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md" class="MCXref xref">Filters overview in Adobe Workfront</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td><strong>View</strong></td> 
+   <td><strong>[!UICONTROL View]</strong></td> 
    <td> <p>Views define which fields (columns) you display on the screen.</p> <p>For more information, see <a href="../../../reports-and-dashboards/reports/reporting-elements/views-overview.md" class="MCXref xref">Views overview in Adobe Workfront</a>.</p> </td> 
   </tr> 
   <tr> 
@@ -291,7 +292,7 @@ These elements display at the top of every list by default. They are sticky and 
 
 You can can customize list elements in the following areas and share them with other users:
 
-* Any system default list found in the section [Get started with lists in Adobe Workfront](#default-workfront-lists) in this article
+* Any system default list found in the section [[!UICONTROL Get started with lists] in [!DNL Adobe Workfront]](#default-workfront-lists) in this article
 * Any report that is shared with you
 
 The building elements for lists are the same as the building elements for reports.
@@ -314,7 +315,7 @@ You can complete the following actions in a list:
  <tbody> 
   <tr> 
    <td><strong>Inline edit</strong> </td> 
-   <td> <p>Edit objects and their information directly in the list.</p> <p>For more information, see <a href="../../../workfront-basics/navigate-workfront/use-lists/inline-edit-objects.md" class="MCXref xref">Inline edit items in a list in&nbsp;Adobe Workfront</a>.</p> </td> 
+   <td> <p>Edit objects and their information directly in the list.</p> <p>For more information, see <a href="../../../workfront-basics/navigate-workfront/use-lists/inline-edit-objects.md" class="MCXref xref">Inline edit items in a list in Adobe Workfront</a>.</p> </td> 
   </tr> 
   <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
    <td><strong>Update with the Summary</strong> </td> 
@@ -322,7 +323,7 @@ You can complete the following actions in a list:
   </tr> 
   <tr> 
    <td><strong>Customize list display</strong> </td> 
-   <td> <p>Customize the look and feel of a list, column arrangement, sorting order of items, or number of items that display.</p> <p>Note: Changes you make to the number of items to display on a page are reverted when you log out of Workfront or close your browser. Changes might also be reverted after a period of 8 hours.</p> <p>For more information, see <a href="../../../workfront-basics/navigate-workfront/use-lists/modify-list-display.md" class="MCXref xref">Modify how a list displays</a>.</p> </td> 
+   <td> <p>Customize the look and feel of a list, column arrangement, sorting order of items, or number of items that display.</p> <p>Note: Changes you make to the number of items to display on a page are reverted when you log out of [!DNL Workfront] or close your browser. Changes might also be reverted after a period of 8 hours.</p> <p>For more information, see <a href="../../../workfront-basics/navigate-workfront/use-lists/modify-list-display.md" class="MCXref xref">Modify how a list displays</a>.</p> </td> 
   </tr> 
   <tr> 
    <td><strong>Quick filter</strong> </td> 
@@ -417,7 +418,7 @@ The following table lists many of the icons available in the toolbar and indicat
   <tr> 
    <td> <img src="assets/qs-gantt-chart-icon-in-new-toolbar.png"> </td> 
    <td>Gantt Chart</td> 
-   <td> <p>Display the list in the Gantt Chart view.</p> <p>This is available only for projects and tasks.</p> </td> 
+   <td> <p>Display the list in the [!UICONTROL Gantt] Chart view.</p> <p>This is available only for projects and tasks.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <img src="assets/qs-filter-in-new-toolbar-with-name.png"> <p> <img src="assets/qs-filter-in-new-toolbar-with-blue-dot---small.png"> </p> </td> 
@@ -427,12 +428,12 @@ The following table lists many of the icons available in the toolbar and indicat
   <tr data-mc-conditions=""> 
    <td> <img src="assets/qs-view-in-new-toolbar-with-name.png"> <p> <img src="assets/qs-view-in-new-toolbar-with-blue-dot.png"> </p> </td> 
    <td>View drop-down menu</td> 
-   <td> <p>Display a list of views and additional options to manage views, including creating one. </p> <p>On a small screen, the View name is replaced by the view icon. A blue dot displays on the View icon when you apply any view other than "Standard."</p> </td> 
+   <td> <p>Display a list of views and additional options to manage views, including creating one. </p> <p>On a small screen, the View name is replaced by the [!UICONTROL view] icon. A blue dot displays on the [!UICONTROL View] icon when you apply any view other than "Standard."</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <img src="assets/qs-grouping-in-new-toolbar-with-name.png"> <p> <img src="assets/qs-grouping-in-new-toolbar-with-blue-dot.png"> </p> </td> 
    <td>Grouping drop-down menu</td> 
-   <td> <p>Display a list of groupings and additional options to manage groupings, including creating one. </p> <p>On a small screen, the Grouping name is replaced by the grouping icon. A blue dot displays on the Grouping icon when you apply any grouping other than "Nothing."</p> </td> 
+   <td> <p>Display a list of groupings and additional options to manage groupings, including creating one. </p> <p>On a small screen, the Grouping name is replaced by the [!UICONTROL grouping] icon. A blue dot displays on the [!UICONTROL Grouping] icon when you apply any grouping other than "Nothing."</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <img src="assets/qs-autosave-icon-in-new-toolbar-for-tasks.png"> </td> 
@@ -442,7 +443,7 @@ The following table lists many of the icons available in the toolbar and indicat
   <tr> 
    <td> <img src="assets/summary-panel-icon.png"> </td> 
    <td>Summary</td> 
-   <td> <p>Display or hide the Summary box for the selected item.</p> <p>This is available only for tasks and issues.</p> <p>For information about the Summary panel in the new Adobe Workfront experience, see <a href="/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md" class="MCXref xref">Summary overview</a>.</p> </td> 
+   <td> <p>Display or hide the Summary box for the selected item.</p> <p>This is available only for tasks and issues.</p> <p>For information about the Summary panel in the new [!DNL Adobe Workfront] experience, see <a href="/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md" class="MCXref xref">Summary overview</a>.</p> </td> 
   </tr> 
   <tr> 
    <td> <img src="assets/remove-icon---x-in-circle.png"> </td> 
@@ -481,12 +482,12 @@ The following table outlines the similarities and differences between lists and 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> <p>Only a Workfront administrator and users with a Plan license can create them</p> </td> 
+   <td> <p>Only a [!DNL Workfront] administrator and users with a Plan license can create them</p> </td> 
    <td> </td> 
    <td>✓**</td> 
   </tr> 
   <tr> 
-   <td> <p>A default set is available from Workfront</p> </td> 
+   <td> <p>A default set is available from [!DNL Workfront]</p> </td> 
    <td>✓</td> 
    <td>✓</td> 
   </tr> 
@@ -570,21 +571,21 @@ The following table outlines the similarities and differences between lists and 
 
 For more information about building a report, see [Create a custom report](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md). For information about creating custom  sections , see [Create custom tabs or sections](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md).
 
-## The difference between the updated and the legacy lists
+## The difference between the [!UICONTROL updated] and the [!UICONTROL legacy] lists
 
-There are two types of lists in Workfront:
+There are two types of lists in [!DNL Workfront]:
 
 * Legacy lists
 
-  ![](assets/legacy-list-screen-shot-blue-groupings-350x101.png)
+   ![](assets/legacy-list-screen-shot-blue-groupings-350x101.png)
 
 * Updated lists
 
-  ![](assets/updated-list-screen-shot-gray-groupings-350x71.png)
+   ![](assets/updated-list-screen-shot-gray-groupings-350x71.png)
 
 Both types of lists appear in the Adobe Workfront.
 
-All lists and reports in the Adobe Workfront are updated lists, except for the following:
+All lists and reports in the [!DNL Adobe Workfront] are updated lists, except for the following:
 
 * Lists in the Setup area
 * Lists in the Reports area

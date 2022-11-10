@@ -47,17 +47,17 @@ You must have the following access to perform the steps in this article:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront plan*</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront plan*]</strong></td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront license*</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] license*</strong></td> 
    <td> <p>Request or higher</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*To find out what plan or license type you have, contact your Workfront administrator.
+*To find out what plan or license type you have, contact your [!DNL Workfront] administrator.
 
 +++
 
@@ -78,7 +78,7 @@ The multi-object listing in the breadcrumb (for example, the campaigns) displays
 
 For information about parent objects in Workfront, see [Understand objects in Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
-1. (Conditional) If you don't see the object you want to navigate to in a collapsed breadcrumb path, click **more**, then locate the object.
+1. (Conditional) If you don't see the object you want to navigate to in a collapsed breadcrumb path, click **[!UICONTROL more]**, then locate the object.
 
    >[!NOTE]
    >

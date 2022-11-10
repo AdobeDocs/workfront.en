@@ -4,7 +4,7 @@ content-type: reference
 product-area: system-administration;workfront-integrations
 navigation-topic: best-practices-catalog
 title: Actions to take after installing a blueprint
-description: This article outlines what you should do after you install a blueprint in Adobe Workfront to fully deploy the blueprint to your system users.
+description: This article outlines what you should do after you install a blueprint in [!DNL Adobe Workfront] to fully deploy the blueprint to your system users.
 author: Lisa
 feature: System Setup and Administration
 role: Admin
@@ -12,9 +12,9 @@ exl-id: 6e5da58f-105a-4edf-8fc1-65e8762d43c6
 ---
 # Actions to take after installing a blueprint
 
-This article outlines what you should do after you install a blueprint in Adobe Workfront to fully deploy the blueprint to your system users.
+This article outlines what you should do after you install a blueprint in [!DNL Adobe Workfront] to fully deploy the blueprint to your system users.
 
-* [Project template recommendations](#project-template-recommendations) 
+* [Project template recommendations](#project-template-recommendations)
 * [Organizational structure recommendations](#organizational-structure-recommendations)
 * [Dashboard recommendations](#dashboard-recommendations)
 
@@ -44,9 +44,9 @@ Prepare training materials for both the work managers who will use this template
 
 ### Create or update reports and dashboards {#create-or-update-reports-and-dashboards}
 
-If the solution represents a new type of work that your organization has not performed previously in Workfront, you may need to create new reports and dashboards to support the work. For information, see [Create a custom report](../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) and [Create a dashboard](../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md).
+If the solution represents a new type of work that your organization has not performed previously in [!DNL Workfront], you may need to create new reports and dashboards to support the work. For information, see [Create a custom report](../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) and [Create a dashboard](../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md).
 
-If the solution is similar to work that you have already been executing in Workfront, then you should verify that the work feeds into existing reports and dashboards as expected. If it does not feed into your existing reporting, take action to update filters or create new reports.
+If the solution is similar to work that you have already been executing in [!DNL Workfront], then you should verify that the work feeds into existing reports and dashboards as expected. If it does not feed into your existing reporting, take action to update filters or create new reports.
 
 ## Organizational structure recommendations {#organizational-structure-recommendations}
 

@@ -20,12 +20,12 @@ For information about creating campaigns, see [Create campaigns](create-campaign
 
 You must have the following access to perform the steps in this article:
 
-| Requirements            |                   |
+| Requirements |  |
 |--------------------------|-------------------|
-| Adobe Workfront plan*    | Any               |
+| Adobe Workfront plan* | Any |
 | Adobe Workfront license* | Request or higher |
 
-*To find out what plan or license type you have, contact your Workfront administrator.
+*To find out what plan or license type you have, contact your [!DNL Workfront] administrator.
 
 For information about modifying access levels, see [Create or modify custom access levels](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)
 
@@ -39,18 +39,18 @@ When the access, permissions will be implemented for above, replace that *senten
 Before you begin, you must have the following:
 
 * A System or Group administrator must add the [!UICONTROL Campaigns] area to the layout template associated with you.
-* You are the owner of the campaign 
+* You are the owner of the campaign
 
-    Or 
+   Or
 
-    You are a System Administrator.
+   You are a System Administrator.
 
 ## Considerations about deleting a campaign
 
 
 * You cannot recover a deleted campaign.
-* Deleting a campaign deletes it for all users in the system who can view it. 
-* Deleting a campaign does not delete the projects associated with it. 
+* Deleting a campaign deletes it for all users in the system who can view it.
+* Deleting a campaign does not delete the projects associated with it.
 
 <!--
 * The campaign information at the project level is deleted.
@@ -61,14 +61,14 @@ Before you begin, you must have the following:
 
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Workfront, then click **Campaigns**.
 
-    A list of all campaigns in the system displays.
-1. (Optional) Click the **search** icon ![](assets/search-icon.png) to quickly search for a campaign using a keyword.
-1. Select a campaign, then click the [!UICONTROL **Delete**] icon at the top of the list
+   A list of all campaigns in the system displays.
+1. (Optional) Click the **[!UICONTROL search]** icon ![](assets/search-icon.png) to quickly search for a campaign using a keyword.
+1. Select a campaign, then click the [!UICONTROL **[!UICONTROL Delete]**] icon at the top of the list
 
-    Or
+   Or
 
-    Click the name of a campaign to open it, then click [!UICONTROL **More**] > [!UICONTROL **Delete**].
+   Click the name of a campaign to open it, then click [!UICONTROL **More**] >[!UICONTROL **Delete**].
 
-    ![](assets/campaign-delete-and-edit-options-from-campaign-page.png)
+   ![](assets/campaign-delete-and-edit-options-from-campaign-page.png)
 1. Click [!UICONTROL **Delete**].
-    The campaign is deleted and cannot be recovered.
+The campaign is deleted and cannot be recovered.

@@ -2,7 +2,7 @@
 product-area: projects
 navigation-topic: use-the-home-area
 title: Use the My Updates area
-description: You can use the My Updates area to quickly review the approvals waiting for your decision or the conversations you have been included in.
+description: You can use the [!UICONTROL My Updates] area to quickly review the approvals waiting for your decision or the conversations you have been included in.
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 809605a0-8c24-4873-b98f-504a158be022
@@ -13,13 +13,13 @@ exl-id: 809605a0-8c24-4873-b98f-504a158be022
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: there is a similar article like this in the "My Work" folder that is conditioned for Classic only)</p>
 -->
 
-You can use the My Updates area to quickly review the approvals waiting for your decision or the conversations you have been included in.
+You can use the [!UICONTROL My Updates] area to quickly review the approvals waiting for your decision or the conversations you have been included in.
 
-As a user with a Review license, you can find the My Updates area in the Main Menu by default and the My Updates area is the default landing page for you.
+As a user with a Review license, you can find the [!UICONTROL My Updates] area in the Main Menu by default and the [!UICONTROL My Updates] area is the default landing page for you.
 
-For information about Adobe Workfront licenses, see [Adobe Workfront licenses overview](../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md).
+For information about [!DNL Adobe Workfront] licenses, see [[!DNL Adobe Workfront] licenses overview](../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md).
 
-If you have a license type different than Review, the Workfront or Group administrator must add the My Updates area to your layout template to display it in the Main Menu. For information, see [Customize the Main Menu using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
+If you have a license type different than Review, the [!DNL Workfront] or Group administrator must add the [!UICONTROL My Updates] area to your layout template to display it in the Main Menu. For information, see [Customize the Main Menu using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
 
 ## Access requirements
 
@@ -30,16 +30,16 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront plan*</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront plan*]</strong></td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront license*</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] license*</strong></td> 
    <td> <p>Request or higher</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Access level configurations*</strong></td> 
-   <td> <p>View access or higher to any objects for which you are tagged in a conversation or need to resolve an approval (Projects,&nbsp;Tasks, Issues,&nbsp;Documents)</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>View access or higher to any objects for which you are tagged in a conversation or need to resolve an approval (Projects, Tasks, Issues, Documents)</p> <p>Note: If you still don't have access, ask your [!DNL Workfront] administrator if they set additional restrictions in your access level. For information on how a [!DNL Workfront] administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Object permissions</strong></td> 
@@ -48,19 +48,19 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+&#42;To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
 
 ## Prerequisites
 
 You must have the following before you begin:
 
-* If you have a Workfront license other than Review, your Workfront or Group administrator must add the My Updates area to the Main Menu using a layout template and assign you to that template.
+* If you have a [!DNL Workfront] license other than Review, your [!DNL Workfront] or Group administrator must add the [!UICONTROL My Updates] area to the Main Menu using a layout template and assign you to that template.
 
-* Review-license users can view the My Updates area in their Main Menu by default.
+* Review-license users can view the [!UICONTROL My Updates] area in their Main Menu by default.
 
 ## Access the My Updates area
 
-1. Click **My Updates** in the **Main Menu**.
+1. Click **[!UICONTROL My Updates]** in the **Main Menu**.
 
    ![](assets/access-my-updates-from-main-menu-reviewer-user-nwe-350x294.png)
 
@@ -70,15 +70,15 @@ You must have the following before you begin:
 
    ![](assets/my-updates-mentions-for-reviwers-nwe-350x418.png)
 
-1. (Optional) Scroll to the bottom of the My Updates area and click the right-pointing arrow to display more approvals that display on additional pages.
+1. (Optional) Scroll to the bottom of the [!UICONTROL My Updates] area and click the right-pointing arrow to display more approvals that display on additional pages.
 
    >[!TIP]
    >
-   >The first five approvals or requests for access display by default. The remaining approvals display on additional pages. You can display a maximum of 2000 approvals in the My Updates area.
+   >The first five approvals or requests for access display by default. The remaining approvals display on additional pages. You can display a maximum of 2000 approvals in the [!UICONTROL My Updates] area.
 
    ![](assets/pagination-for-my-updates-page-highlighted-nwe-350x78.png)
 
-1. (Optional) Expand the **Filter** drop-down menu ![](assets/filter-nwepng.png) in the upper-right corner of the **My Updates** section and select from the following:
+1. (Optional) Expand the **Filter** drop-down menu ![](assets/filter-nwepng.png) in the upper-right corner of the **[!UICONTROL My Updates]** section and select from the following:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -113,31 +113,30 @@ You must have the following before you begin:
 
       >[!NOTE]
       >
-      >The Changes option displays only for document approvals.
+      >The [!UICONTROL Changes] option displays only for document approvals.
 
       Depending on which drop-down icon you selected, the item is approved, rejected, or, in the case of a document approval, approved with a request to make additional changes.
 
       >[!TIP]
       >
-      >If you do not want to add a comment to your decision, you can click the **Approve**, **Reject**, or **Changes** button and the approval decision is granted immediately. 
+      >If you do not want to add a comment to your decision, you can click the **[!UICONTROL Approve]**, **[!UICONTROL Reject]**, or **[!UICONTROL Changes]** button and the approval decision is granted immediately.
       >
       >
       >![](assets/approval-decision-buttons-in-my-updates-nwe-350x169.png)      >
-      >
 
       For more information about approving work, see [Approving work](../../../review-and-approve-work/manage-approvals/approving-work.md).
 
-1. Click **Grant access** to grant the access request submitted to you
+1. Click **[!UICONTROL Grant access]** to grant the access request submitted to you
 
    Or
 
-   Expand the **Change access** drop-down menu to modify the access requested before you grant it.
+   Expand the **[!UICONTROL Change access]** drop-down menu to modify the access requested before you grant it.
 
    ![](assets/grant-access-button-in-my-updates-nwe-350x224.png)
 
-1. (Optional) Click **Ignore** to clear the access request from your approval list without granting it. 
-1. Click **Delegate my approvals** to delegate the approvals submitted to you if you are unavailable to make approval decisions for some time. For more information about delegating approvals, see [Delegate approval request](../../../review-and-approve-work/manage-approvals/delegate-approval-requests.md). 
-1. Scroll to the **Mentions** area underneath your approvals. Here, you can view all items where you have been included in a conversation.
+1. (Optional) Click **[!UICONTROL Ignore]** to clear the access request from your approval list without granting it.
+1. Click **[!UICONTROL Delegate my approvals]** to delegate the approvals submitted to you if you are unavailable to make approval decisions for some time. For more information about delegating approvals, see [Delegate approval request](../../../review-and-approve-work/manage-approvals/delegate-approval-requests.md).
+1. Scroll to the **[!UICONTROL Mentions]** area underneath your approvals. Here, you can view all items where you have been included in a conversation.
 
    ![](assets/mentions-area-for-reviewers-nwe-350x191.png)
 
@@ -145,9 +144,9 @@ You must have the following before you begin:
    >
    >The first 50 mentions display by default.
 
-1. (Optional) Click **Show More Updates** to view more mentions. 
-1. (Optional) Click **Reply** to respond to a comment, enter your response, then click **Reply** again.
+1. (Optional) Click **[!UICONTROL Show More Updates]** to view more mentions.
+1. (Optional) Click **[!UICONTROL Reply]** to respond to a comment, enter your response, then click **[!UICONTROL Reply]** again.
 
    For more information about updating items, see [Update work](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-1. (Optional) Click **Pin current page** to pin the My Updates area to your top navigation.
+1. (Optional) Click **[!UICONTROL Pin current page]** to pin the My Updates area to your top navigation.

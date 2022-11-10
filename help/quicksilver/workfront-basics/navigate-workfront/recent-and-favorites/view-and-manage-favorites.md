@@ -22,23 +22,23 @@ You must have the following access to perform the steps in this article:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront plan*</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront plan*]</strong></td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront license*</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] license*</strong></td> 
    <td> <p>Request or higher</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan or license type you have, contact your Workfront administrator.
+&#42;To find out what plan or license type you have, contact your [!DNL Workfront] administrator.
 
 ## View a favorite
 
 To view an item that you have previously added as a favorite:
 
-1. Click the **Favorites** icon ![](assets/favorites-icon.png) in the upper-right corner of any Adobe Workfront page.  
+1. Click the **[!UICONTROL Favorites]** icon ![](assets/favorites-icon.png) in the upper-right corner of any [!DNL Adobe Workfront] page.
 
 1. In the Favorites list, click the item you want to view.
 
@@ -46,15 +46,15 @@ To view an item that you have previously added as a favorite:
 
 You can add recent items or the current page to the Favorites menu.
 
-* [Add recent items as a favorite](#add-recent-items-as-a-favorite) 
+* [Add recent items as a favorite](#add-recent-items-as-a-favorite)
 * [Add the current item as a favorite](#add-the-current-item-as-a-favorite)
 
 ### Add recent items as a favorite {#add-recent-items-as-a-favorite}
 
-1. Click the **Recents** icon ![Recents](assets/recents-icon-40x43.png) in the upper-right corner of any page in the new Adobe Workfront experience. 
+1. Click the **[!UICONTROL Recents]** icon ![[!UICONTROL Recents]](assets/recents-icon-40x43.png) in the upper-right corner of any page in the new [!DNL Adobe Workfront] experience.
 1. Hover over the recent item that you want to save as a favorite, then click the star.
 
-   The recent item displays in the Favorites menu.
+   The recent item displays in the [!UICONTROL Favorites] menu.
 
    Click the X on the top right to close the list.
 
@@ -63,7 +63,7 @@ You can add recent items or the current page to the Favorites menu.
 ### Add the current item as a favorite {#add-the-current-item-as-a-favorite}
 
 1. Go to the page that you want to add as a favorite.
-1. Click the **Favorites** icon ![](assets/favorites-icon.png) in the upper-right corner of any Workfront page, then click **Add Current Page**.
+1. Click the **Favorites** icon ![](assets/favorites-icon.png) in the upper-right corner of any [!DNL Workfront] page, then click **Add Current Page**.
 
    ![Add current page to favorites](assets/add-current-page-favorite-2022-350x147.png)
 
@@ -71,19 +71,19 @@ You can add recent items or the current page to the Favorites menu.
 
    Or
 
-   Click the **Favorites** icon ![](assets/favorites-icon.png) to the right of the object name.
+   Click the **[!UICONTROL Favorites]** icon ![](assets/favorites-icon.png) to the right of the object name.
 
    >[!NOTE]
    >
-   >If you click the **Favorites** icon on an object that you have already added as a favorite, the object will be removed from the Favorites menu.  
+   >If you click the **[!UICONTROL Favorites]** icon on an object that you have already added as a favorite, the object will be removed from the Favorites menu.\
    >![](assets/nwe-remove-from-favorites-350x52.png)
 
 ## Remove an item from the Favorites menu
 
-1. Click the **Favorites** icon ![](assets/favorites-icon.png) in the upper-right corner of any Workfront page.  
+1. Click the **[!UICONTROL Favorites]** icon ![](assets/favorites-icon.png) in the upper-right corner of any [!DNL Workfront] page.
 
 1. Hover over the item that you want to remove as a favorite, then click the **X** next to it.
 
    Or
 
-   If you are on the page that you want to remove as a favorite, click the **Favorites** icon ![](assets/favorites-icon.png) next to the object name to remove it from the Favorites menu.
+   If you are on the page that you want to remove as a favorite, click the **[!UICONTROL Favorites]** icon ![](assets/favorites-icon.png) next to the object name to remove it from the Favorites menu.

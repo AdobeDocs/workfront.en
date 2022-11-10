@@ -9,7 +9,7 @@ exl-id: 12e66711-4438-4fcf-af79-7fcc2c3b1522
 ---
 # Notifications: Goals
 
-You can enable your email notifications for events occurring in Adobe Workfront Goals in your profile. A user with a Plan license can also enable them for other users. For information, see [Adobe Workfront notifications](../../workfront-basics/using-notifications/wf-notifications.md).
+You can enable your email notifications for events occurring in [!DNL Adobe Workfront Goals] in your profile. A user with a Plan license can also enable them for other users. For information, see [[!DNL Adobe Workfront] notifications](../../workfront-basics/using-notifications/wf-notifications.md).
 
 ## Access requirements
 
@@ -24,20 +24,20 @@ You must have the following:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront plan*</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront plan*]</strong></td> 
    <td> <p>Pro or higher</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront license*</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] license*</strong></td> 
    <td> <p>Request or higher</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Product</strong></td> 
-   <td>Workfront Goals <p>For information about Workfront Goals, see <a href="../../workfront-goals/goal-management/wf-goals-overview.md" class="MCXref xref">Adobe Workfront Goals overview</a>.</p> </td> 
+   <td>Workfront Goals <p>For information about [!DNL Workfront Goals], see <a href="../../workfront-goals/goal-management/wf-goals-overview.md" class="MCXref xref">[!DNL Adobe Workfront Goals] overview</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Access level configurations*</strong></td> 
-   <td> <p>View access to Goals or higher</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>View access to Goals or higher</p> <p>Note: If you still don't have access, ask your [!DNL Workfront] administrator if they set additional restrictions in your access level. For information on how a [!DNL Workfront] administrator can change your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> <!--
    <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
     <td role="rowheader">Object permissions</td> 
@@ -47,30 +47,30 @@ You must have the following:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+&#42;To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
 
 ## Prerequisites
 
-The user whose Goals notifications are updated must have the following:
+The user whose [!DNL Goals] notifications are updated must have the following:
 
-* A Layout Template that includes the Goals area in the Main Menu.
-* Access to The new Adobe Workfront experience. 
+* A Layout Template that includes the [!DNL Goals] area in the Main Menu.
+* Access to The new [!DNL Adobe Workfront] experience.
 
-  <!--
+   <!--
   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
   (NOTE: we need this here because you can see these notifications from Classic)
   </MadCap:conditionalText>
   -->
 
-## Goals notifications in the user profile area
+## Goals notifications in the [!UICONTROL user] profile area
 
-The notifications listed in the following table alert you about events happening in Workfront Goals, such as someone assigning you a goal, result, or activity or someone making an update on a goal, result, or activity that you own. For information about configuring which notifications you receive, see [Activate or deactivate your own event notifications](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+The notifications listed in the following table alert you about events happening in [!DNL Workfront Goals], such as someone assigning you a goal, result, or activity or someone making an update on a goal, result, or activity that you own. For information about configuring which notifications you receive, see [Activate or deactivate your own event notifications](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 ![](assets/goals-notifications-preferences-350x114.png)
 
 >[!NOTE]
 >
->Instant notifications for Goals are disabled by default. You cannot enable or disable daily notifications and you do not receive daily digest emails for the events in this category. You can enable or disable individual instant notifications for the Goals category.
+>Instant notifications for [!DNL Goals] are disabled by default. You cannot enable or disable daily notifications and you do not receive daily digest emails for the events in this category. You can enable or disable individual instant notifications for the Goals category.
 
 See also [Event notifications](../../workfront-basics/using-notifications/event-notifications.md).
 
