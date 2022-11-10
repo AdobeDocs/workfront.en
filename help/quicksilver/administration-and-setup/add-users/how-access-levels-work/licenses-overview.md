@@ -5,18 +5,18 @@ content-type: reference
 product-area: system-administration
 keywords: license,type
 navigation-topic: access-levels
-description: Your organization purchased a certain number of licenses when it acquired Adobe Workfront. As a Workfront administrator, you give one of 4 types of paid Workfront licenses to each user when you assign the user an access level.
+description: Your organization purchased a certain number of licenses when it acquired Adobe Workfront. As a Workfront administrator, you give one of 3 types of paid Workfront licenses to each user when you assign the user an access level.
 author: Courtney
 feature: System Setup and Administration
 role: Admin
 ---
 # Adobe Workfront licenses overview
 
-Your organization purchased a certain number of licenses when it acquired Adobe Workfront. As a Workfront administrator, you give one of 4 types of paid Workfront licenses to each user when you assign the user an access level.
+Your organization purchased a certain number of licenses when it acquired Adobe Workfront. As a Workfront administrator, you give one of 3 types of paid Workfront licenses to each user when you assign the user an access level.
 
 ## How Workfront licenses and access levels are tied together
 
-The 4 types of paid Workfront licenses allow different levels of access to Workfront. Each access level is attached to one of these licenses.
+The 3 types of paid Workfront licenses allow different levels of access to Workfront. Each access level is attached to one of these licenses.
 
 As a Workfront administrator, instead of assigning a license to a user, you assign them the access level attached to that license.
 
@@ -24,14 +24,14 @@ This table and diagram show the main levels of access to Workfront:
 
 |License|Associated access level|
 |--- |--- |
-|Plan|System Administrator, Planner|
-|Work|Worker|
-|Review|Reviewer|
+|Standard|System Administrator, Standard|
+|Light|Light|
+|Collaborator|Collaborator|
 |External*|External User|
 
 >[!NOTE]
 >
->The External license is not a paid license. It is designed primarily for sharing documents with collaborators who don't use Workfront. For more information, see [Built-in access levels in Adobe Workfront](default-access-levels-in-workfront.md).
+>The External license is not a paid license. It is designed primarily for sharing documents with people who don't use Workfront. For more information, see [Built-in access levels in Adobe Workfront](default-access-levels-in-workfront.md).
 
 ![](assets/licenses-and-access-levels.png)
 
