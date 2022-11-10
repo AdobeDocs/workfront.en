@@ -9,8 +9,6 @@ exl-id: e2dce29e-7370-4580-8326-99c4437998bf
 ---
 # Assign issues
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.</span>
-
 You can assign issues to users, roles, and teams to indicate who is responsible for completing the issues. For general information about assigning issues, see [Modify issue assignments overview](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md).
 
 >[!TIP]
@@ -123,7 +121,7 @@ Consider the following when assigning multiple resources to a work item:
 
       >[!TIP]
       >
-      ><span class="preview">When adding a user assignment, notice the avatar, the user's Primary Role, or their email address to distinguish between users with identical names. Users must be associated with at least one job role to view it as you add them.</span>
+      >When adding a user assignment, notice the avatar, the user's Primary Role, or their email address to distinguish between users with identical names. Users must be associated with at least one job role to view it as you add them.
 
 
 1. Click **Save** to complete assigning the issue. 
@@ -156,7 +154,7 @@ To assign issues in a list:
 
    >[!TIP]
    >
-   ><span class="preview">When adding a user assignment, notice the avatar, the user's Primary Role, or their email address to distinguish between users with identical names. Users must be associated with at least one job role to view it as you add them.</span> 
+   >When adding a user assignment, notice the avatar, the user's Primary Role, or their email address to distinguish between users with identical names. Users must be associated with at least one job role to view it as you add them.
 
 
 1. (Conditional) When visible in the Assignments field, click the **People icon** ![](assets/teams.png) in the upper-right corner of the assignments box to open the Advanced Assignments box and create advanced assignments. For more information, see [Create advanced assignments](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md).
