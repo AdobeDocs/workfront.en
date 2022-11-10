@@ -31,7 +31,7 @@ This table and diagram show the main levels of access to Workfront:
 
 >[!NOTE]
 >
->The External license is not a paid license. It is designed primarily for sharing documents with people who don't use Workfront. For more information, see [Built-in access levels in Adobe Workfront](default-access-levels-in-workfront.md).
+>The External license is not a paid license. It is designed primarily for sharing documents with people who don't use Workfront. For more information, see [Built-in access levels in Adobe Workfront](NEW LINK).
 
 ![](assets/licenses-and-access-levels.png)
 
@@ -41,7 +41,7 @@ The license attached to an access level determines the overall scope of function
 
 You can copy a default access level and customize the copy as needed for your users. Within the scope of functionality allowed by the license for the copied access level, you can adjust access settings to meet the needs of the user.
 
-For more information, see [Access levels overview](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md) and [Create or modify custom access levels](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+For more information, see [Access levels overview](NEW LINK) and [Create or modify custom access levels](NEW LINK).
 
 ## License count
 
@@ -49,6 +49,6 @@ When you assign an access level to a user, your available license count is reduc
 
 For example, if you assign the Planner access level to a user, your number of available Plan licenses is reduced by 1.
 
-You can view the licenses and access levels assigned to your users. For more information, see [List your users' access levels and licenses](../../../administration-and-setup/add-users/access-levels-and-object-permissions/list-access-levels-and-licenses-for-your-users.md).
+You can view the licenses and access levels assigned to your users. For more information, see [List your users' access levels and licenses](../../../administration-and-setup/add-users/access-levels-and-object-permissions/list-access-levels-and-licenses-for-your-users.md).<!-- MAY NEED NEW LINK -->
 
-For information about managing your licenses, see [Manage available licenses in your system](../../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md).
+For information about managing your licenses, see [Manage available licenses in your system](../../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md).<!-- MAY NEED NEW LINK -->
