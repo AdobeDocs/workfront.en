@@ -564,6 +564,8 @@ feature-set: Workfront
       * [Manage API keys](administration-and-setup/manage-workfront/security/manage-api-keys.md)
       * [Enhanced Authentication for Azure Active Directory](administration-and-setup/manage-workfront/security/set-up-azure-active-directory-enhanced-authentication.md)
       * [Privacy policy](administration-and-setup/manage-workfront/security/workfront-privacy-policy.md)
+      * [Enhanced Authentication overview](administration-and-setup/manage-workfront/security/get-started-enhanced-authentication.md)
+      * [Update SAML 2.0 metadata in your IDP when using enhanced authentication](administration-and-setup/add-users/single-sign-on/update-saml-2-metadata-ip-eauth-.md)
     * Exchange rates {#exchange-rates}
       * [Exchange rates](administration-and-setup/manage-workfront/exchange-rates/exchange-rates.md)
       * [Set up exchange rates](administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md)
