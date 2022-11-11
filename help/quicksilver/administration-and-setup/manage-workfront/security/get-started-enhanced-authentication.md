@@ -1,13 +1,8 @@
 ---
-user-type: administrator
-product-area: system-administration;user-management
-navigation-topic: security
-title: Enhanced Authentication overview
-description: Enhanced Authentication offers users a consistent and secure sign-in experience across all Workfront products and services.
-author: Caroline
-feature: System Setup and Administration
-role: Admin
-exl-id: bf3c6c6f-ddd5-42d0-9efe-b5eb94549f85
+title: Hidden test file
+description: Hidden from search and from left nav
+hidefromtoc: yes
+hide: yes
 ---
 # Enhanced Authentication overview
 
