@@ -28,26 +28,26 @@ You can contact [!DNL Workfront Customer Support] 7 days a week, 24 hours a day,
 
 ## Web
 
-You can submit a support ticket from the self-serve Experience League portal.
+You can submit a support ticket from the self-serve [!DNL Experience League] portal.
 
 >[!CAUTION]
 >
 >Only authorized support contacts (or entitled customers) can submit online support tickets.
 
 
-1. From the [Experience League](https://experienceleague.adobe.com) website, click **[!UICONTROL Support]**  at the top of the page.
+1. From the [[!DNL Experience League]](https://experienceleague.adobe.com) website, click **[!UICONTROL Support]**  at the top of the page.
 
    ![](assets/experience-league-top-navigation-with-support-highlighted.png)
 
    From the support homepage, you can easily navigate to your open support cases, log a new case, view the top Support articles, or access additional learning sources.
 
-1. To submit a case, select the option "Open a support case", then click **[!UICONTROL Sign] In**.
+1. To submit a case, select the option "[!UICONTROL Open a support case]", then click **[!UICONTROL Sign] In**.
 
 1. Click **[!UICONTROL Open case]** in the left sidebar.
 
    ![](assets/left-nav-bar-for-exl-support-portal.png)
 
-   The [!UICONTROL case creation] page opens where you can enter your product name (Adobe Workfront, Adobe Workfront Fusion, etc.), case title, and case description.
+   The [!UICONTROL case creation] page opens where you can enter your product name ([!DNL Adobe Workfront], [!DNL Adobe Workfront Fusion], etc.), case title, and case description.
 
    >[!TIP]
    >
@@ -56,12 +56,12 @@ You can submit a support ticket from the self-serve Experience League portal.
 
 1. Fill in the information for the following fields to provide us with more specific details:
 
-   * **Case Priority** (Low, Medium, High, Critical)
-   * **Case Product** (DAM, Fusion, Goals, etc.)
-   * **Environment** (Production, Preview, Sandbox, etc.)
-   * **Customer Region** (Americas, EMEA, APAC)
+   * **[!UICONTROL Case Priority]** ([!UICONTROL Low], [!UICONTROL Medium], [!UICONTROL High], [!UICONTROL Critical])
+   * **[!UICONTROL Case Product]** ([!UICONTROL DAM], [!DNL Fusion], [!DNL Goals], etc.)
+   * **[!UICONTROL Environment]** ([!UICONTROL Production], [!UICONTROL Preview], [!UICONTROL Sandbox], etc.)
+   * **[!UICONTROL Customer Region]** (Americas, EMEA, APAC)
 
-1. Upload any relevant files, then click **Submit case**.
+1. Upload any relevant files, then click **[!UICONTROL Submit case]**.
 
    The [!UICONTROL My cases] page displays.
 
@@ -73,9 +73,9 @@ You can submit a support ticket from the self-serve Experience League portal.
    >
    >You can also navigate to the [!UICONTROL My cases] page by clicking **[!UICONTROL My cases]** in the left sidebar.
 
-1. On the [!UICONTROL My cases] page, use the options at the top of the page to filter by Product (Experience Cloud solution) or case Status (open or closed). You can also use the [!UICONTROL search] box to search for any keywords pertaining to your support cases.
+1. On the [!UICONTROL My cases] page, use the options at the top of the page to filter by Product ([!DNL Experience Cloud] solution) or case [!UICONTROL Status] (open or closed). You can also use the [!UICONTROL search] box to search for any keywords pertaining to your support cases.
 
-1. To view more details on a case, click the **Case Number** to access it. The case view opens.
+1. To view more details on a case, click the **Case Number** to access it. The [!UICONTROL case] view opens.
 
 1. In the [!UICONTROL case] view, review the latest comments with the assigned case owner and add any additional attachments or responses.
 
