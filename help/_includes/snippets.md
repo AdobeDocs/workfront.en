@@ -116,14 +116,14 @@ You must install the correct plugin for the Adobe Creative Cloud application you
 * Photoshop
 * XD 
 * InDesign
-* Illustrator
+<!-- * Illustrator -->
 * Premiere Pro
 * After Effects
 
 ## WF for CC application list {#cc-plugin-app-list} 
 
 * InDesign
-* Illustrator
+<!-- * Illustrator -->
 * Premiere Pro
 * After Effects
 

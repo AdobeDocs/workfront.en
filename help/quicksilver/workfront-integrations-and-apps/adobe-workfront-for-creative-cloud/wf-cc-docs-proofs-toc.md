@@ -12,7 +12,7 @@ feature: Workfront Integrations and Apps, Digital Content and Documents
 
 >[!NOTE]
 >
->Uploading documents and proofs is not currently supported in Illustrator, Premiere Pro, and After Effects.
+>Uploading documents and proofs is not currently supported in Premiere Pro, and After Effects.
 
 
 * [Upload proofs from [!DNL Photoshop]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-proofs-ps.md)

@@ -94,7 +94,7 @@ You must have the following access to perform the steps in this article:
     </tbody> 
    </table>
 
-{{adjust-proof-settings}} <!-- check this placement -->
+<!-- {{adjust-proof-settings}} check this placement -->
 
 1. (Optional) Type a comment in the **[!UICONTROL Updates]** area.
 

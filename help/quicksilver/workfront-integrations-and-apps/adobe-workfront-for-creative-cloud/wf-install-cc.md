@@ -19,7 +19,7 @@ You can install the [!DNL Adobe Workfront for design and video] plugin from the 
 * Portuguese 
 * Simplified Chinese
 * Traditional Chinese
-* Korean 
+<!-- * Korean -->
 
 >[!NOTE]
 >
