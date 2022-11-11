@@ -28,7 +28,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Adobe [!DNL Workfront] license</strong></td> 
-   <td> <p>Request or higher</p> </td> 
+   <td> <p>[!UICONTROL Request] or higher</p> </td> 
   </tr>
  </tbody> 
 </table>
@@ -37,18 +37,18 @@ You must have the following access to perform the steps in this article:
 
 The catalog displays all of the blueprints that are available for your organization. For information about blueprints such as blueprint types and maturity levels, see [Blueprints overview](../../administration-and-setup/blueprints/blueprints-overview.md).
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe] Workfront, then click **Blueprints**.
+1. Click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe Workfront], then click **[!UICONTROL Blueprints]**.
 1. Browse the catalog of blueprints.
 1. Use the filter panel on the right to filter the catalog by the following options:
 
-   * Use case (such as Human Resources or Marketing)
-   * Maturity level (managed or integrated)
-   * Installation status (installed or not installed)
-   * Blueprint type (<!--Custom Form, -->Dashboard, Organizational Structure, Project Template<!--, Request Queue, Setup Feature-->)
+   * Use case (such as [!UICONTROL Human Resources] or [!UICONTROL Marketing])
+   * Maturity level ([!UICONTROL managed] or [!UICONTROL integrated])
+   * Installation status ([!UICONTROL installed] or not [!UICONTROL installed])
+   * Blueprint type (<!--Custom Form, -->[!UICONTROL Dashboard], [!UICONTROL Organizational Structure], [!UICONTROL Project Template]<!--, Request Queue, Setup Feature-->)
 
-1. (Optional) Click **Details** on a blueprint to learn how it works.
+1. (Optional) Click **[!UICONTROL Details]** on a blueprint to learn how it works.
 
-   For information about the content available on the Details page, see [Blueprints overview](../../administration-and-setup/blueprints/blueprints-overview.md).
+   For information about the content available on the [!UICONTROL Details] page, see [Blueprints overview](../../administration-and-setup/blueprints/blueprints-overview.md).
 
 ## Request installation of a blueprint
 
@@ -56,10 +56,10 @@ You can request the installation of a blueprint if your system administrator all
 
 When you request to have a blueprint installed, the request is sent to the system administrator. You are notified when the request is completed, according to your notification preferences.
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe] Workfront, then click **Blueprints**.
-1. Find the blueprint you want to install. You can filter by use case, maturity level, installation status, and type using the [!UICONTROL filters] in the right panel.
+1. Click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe Workfront], then click **[!UICONTROL Blueprints]**.
+1. Find the blueprint you want to install. You can filter by use case, maturity level, installation status, and type using the filters in the right panel.
 1. Click **[!UICONTROL Request]** on the blueprint.
 
-   If the **Request** button does not appear on the blueprint, your system administrator has not enabled requests.
+   If the **[!UICONTROL Request]** button does not appear on the blueprint, your system administrator has not enabled requests.
 
    ![Request blueprint](assets/blueprints-non-admin-request-bp-350x283.png)

@@ -27,11 +27,11 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Adobe [!DNL Workfront] license</strong></td>
-   <td>Plan</td> 
+   <td>[!UICONTROL Plan]</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Access level configurations</strong></td>
-   <td> <p>System administrator</p> </td> 
+   <td> <p>[!UICONTROL System administrator]</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -58,13 +58,13 @@ You must have the following access to perform the steps in this article:
 
 1. Continue with the following sections:
 
-   * [Template preferences](#template-preferences)
-   * [Role mapping](#role-mapping)
+   * [[!UICONTROL Template preferences]](#template-preferences)
+   * [[!UICONTROL Role mapping]](#role-mapping)
    * [[!UICONTROL Team mapping]](#team-mapping)
-   * [Company mapping](#company-mapping)
+   * [[!UICONTROL Company mappin]g](#company-mapping)
    * [[!UICONTROL Group mapping]](#group-mapping)
 
-## Template preferences {#template-preferences}
+## [!UICONTROL Template preferences] {#template-preferences}
 
 Choose how you want to install the template.
 
@@ -77,19 +77,19 @@ You can also designate template ownership before you install the blueprint. You 
 
    <table style="table-layout:auto">
     <tr>
-        <td><strong>Template owner<strong></td>
-        <td>This person receives Manage permissions on the template and will become the Project owner when the template is used to create a project.</td>
+        <td><strong>[!UICONTROL Template owner]<strong></td>
+        <td>This person receives [!UICONTROL Manage] permissions on the template and will become the Project owner when the template is used to create a project.</td>
     </tr>
     <tr>
-        <td><strong>Template sponsor</strong></td>
+        <td><strong>[!UICONTROL Template sponsor]</strong></td>
         <td>This person is usually a manager, executive, or stakeholder who needs to know what is happening with the project. The Project Sponsor does not gain any additional access to the project but is added to the email notifications for the project.</td>
     </tr>
     <tr>
-        <td><strong>Portfolio</strong></td>
+        <td><strong>[!UICONTROL Portfolio]</strong></td>
         <td>This is the portfolio the project will belong to when it's created.</td>
     </tr>
     <tr>
-        <td><strong>Program</strong></td>
+        <td><strong>[!UICONTROL Program]</strong></td>
         <td>This is the program the project will belong to when it's created.</td>
     </tr>
    </table>
@@ -127,12 +127,12 @@ You can also designate template ownership before you install the blueprint. You 
 
    >[!TIP]
    >
-   >* Using the [!UICONTROL issue preferences] helps create consistency in the way that new issues or requests are captured on your projects.
+   >* Using the issue preferences helps create consistency in the way that new issues or requests are captured on your projects.
    >* Setting these preferences does not automatically make the projects created from the template into request queues. For information about setting up a request queue, see [Create a Request Queue](../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
    >* Not all blueprints contain new issue preferences.
 
 
-## Role mapping {#role-mapping}
+## [!UICONTROL Role mapping] {#role-mapping}
 
 >[!NOTE]
 >
@@ -142,7 +142,7 @@ Some templates include prescribed job roles. Job roles help you assign the right
 
 The blueprint searches by the role name to see if any existing roles match. The search is case sensitive, so names must be an exact match. If no existing roles match, you can have the blueprint create them for you.
 
-![Role Mapping section](assets/Blueprints_RoleMapping.png)
+![[!UICONTROL Role Mapping] section](assets/Blueprints_RoleMapping.png)
 
 1. If a role exists, you can choose one of the following options:
 
@@ -163,7 +163,7 @@ The blueprint searches by the role name to see if any existing roles match. The 
 
 For more information about job roles in [!DNL Workfront], see [Create and manage job roles](../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
 
-## Team mapping {#team-mapping}
+## [!UICONTROL Team mapping] {#team-mapping}
 
 >[!NOTE]
 >
@@ -200,11 +200,11 @@ For more information about how teams function in [!DNL Workfront], see [Create a
 >
 >This section may not appear in some blueprints.
 
-Some blueprints include prescribed companies. A company is an organizational unit that can represent your organization, a department within the organization, or a client you work with. You can customize how companies are mapped before you install the blueprint. Click **[!UICONTROL See company] descriptions** to learn more about the companies available in the blueprint.
+Some blueprints include prescribed companies. A company is an organizational unit that can represent your organization, a department within the organization, or a client you work with. You can customize how companies are mapped before you install the blueprint. Click **[!UICONTROL See company descriptions]** to learn more about the companies available in the blueprint.
 
 The blueprint searches by the company name to see if any existing companies match. The search is case sensitive, so names must be an exact match. If no existing companies match, you can have the blueprint create them for you. The primary company in the blueprint is mapped to the primary company in your environment, even if they do not have the same name.
 
-![Company Mapping section](assets/Blueprints_CompanyMapping.png)
+![[!UICONTROL Company Mapping] section](assets/Blueprints_CompanyMapping.png)
 
 1. If a company exists, you can choose one of the following options:
 
@@ -229,7 +229,7 @@ For information about associating a template with a company, see [Edit project t
 
 For information about how companies function in [!DNL Workfront], see [Create and edit companies](../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md).
 
-## Group mapping {#group-mapping}
+## [!UICONTROL Group mapping] {#group-mapping}
 
 >[!NOTE]
 >
@@ -243,8 +243,8 @@ The blueprint searches by the group name to see if any existing groups match. Th
 
 1. If a group exists, you can select **[!UICONTROL Remap Group]** and choose one of the following options:
 
-   1. **Create a new group with a different name**, then type the name to assign to this group. References to the group in the blueprint definition will be associated to this new group instead.
-   1. **Replace with an existing group**, then search for and select a group in the selection box.
+   1. **[!UICONTROL Create a new group with a different name]**, then type the name to assign to this group. References to the group in the blueprint definition will be associated to this new group instead.
+   1. **[!UICONTROL Replace with an existing group]**, then search for and select a group in the selection box.
 
       >[!NOTE]
       >
@@ -254,7 +254,7 @@ The blueprint searches by the group name to see if any existing groups match. Th
 
    1. Change the suggested group name by typing it in the text box.
    1. Select **[!UICONTROL Remap Group]** and choose [!UICONTROL Replace with an existing group], then search for and select a group in the selection box.
-   1. Select **[!UICONTROL Remap Group]** and choose **[!UICONTROL Insert] under an existing group**, then search for and select a group in the selection box. This option creates a new subgroup under the existing group.
+   1. Select **[!UICONTROL Remap Group]** and choose **[!UICONTROL Insert under an existing group]**, then search for and select a group in the selection box. This option creates a new subgroup under the existing group.
 
 >[!NOTE]
 >
