@@ -11,16 +11,24 @@ exl-id: 86f8cc24-c1a2-4f47-bd08-39bb0f6b2940
 hidefromtoc: true
 
 ---
-# Platform-based administration differences (Adobe Workfront Fusion/Adobe Business Platform)
+# Platform-based administration differences (Adobe Workfront Fusion/Adobe Admin Console)
 
-If your organization has been onboarded to the Adobe Business Platform, your users use the Adobe Business Platform to access Adobe Workfront Fusion. This means that:
+If your organization has been onboarded to the Adobe Admin Console, your users use the Adobe Admin Console to access Adobe Workfront Fusion. This means that:
 
 * User management is largely done through the Adobe Admin Console
-* Authentication is handled through the Adobe Business Platform rather than through Workfront
+* Authentication is handled through the Adobe Identity Management System (IMS) rather than through Workfront
 
-As an Adobe Workfront Fusion administrator, your administration responsibilities and procedures differ based on whether your organization has been onboarded to the Adobe Business Platform. This article lists the procedures that must be handled differently, and links to instructions for processes in both Workfront Fusion and the Adobe Admin Console.
+## Differences for Workfront Fusion users
 
-## Users
+For a video describing how the change to the Adobe Admin Console affects your experience as a Workfront Fusion user, see [Fusion on IMS - Regular user](https://vimeo.com/770774579).
+
+## Differences for Workfront Fusion administrators
+
+As an Adobe Workfront Fusion administrator, your administration responsibilities and procedures differ based on whether your organization has been onboarded to the Adobe Admin Console. 
+
+For a video describing how the change to the Adobe Admin Console affects your experience as a Workfront Fusion user, see [Fusion on Adobe IMS](https://vimeo.com/770773360).
+
+The following table lists the procedures that must be handled differently, and links to instructions for processes in both Workfront Fusion and the Adobe Admin Console.
 
 | Action |For instructions in Workfront Fusion, see |For instructions in the Adobe Admin console, see |
 |---|---|---|
