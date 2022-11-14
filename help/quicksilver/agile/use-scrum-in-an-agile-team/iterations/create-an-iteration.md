@@ -9,7 +9,7 @@ exl-id: a25cdd4a-f2e3-4b8a-a7f4-3757940b635e
 ---
 # Create an iteration
 
-Iterations are a key component for Scrum agile teams in planning out work capacity. Adobe Workfront allows Scrum agile teams to manage their work by creating multiple&nbsp;iterations to accommodate team needs.
+Iterations are a key component for Scrum agile teams in planning out work capacity. Adobe Workfront allows Scrum agile teams to manage their work by creating multiple iterations to accommodate team needs.
 
 ## Access requirements
 

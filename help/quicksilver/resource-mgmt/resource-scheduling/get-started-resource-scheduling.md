@@ -10,20 +10,20 @@ exl-id: 1858f6af-92e7-4d32-a401-40004eeb0cef
 ---
 # Get started with Resource Scheduling
 
->[!CAUTION]
->
->We are no longer supporting the Resource Scheduling tools and they will soon be removed from Adobe Workfront. 
->
->We recommend that you use the Workload Balancer for scheduling your resources. 
->
->* For information about scheduling resources using the new Workload Balancer, see the section [The Workload Balancer](../../resource-mgmt/workload-balancer/workload-balancer.md).
->
->* For more information about the timeline for removing the Resource Scheduling tools and replacing them with the Workload Balancer, see [Deprecation of Resource Scheduling tools in Adobe Workfront](../../resource-mgmt/resource-mgmt-overview/deprecate-resource-scheduling.md).
+<!-- drafted for res scheduling deprecation blurb for preview release-->  
 
+>[!CAUTION] 
+> 
+> 
+> <span class="preview">The information in this article refers to the Adobe Workfront's Scheduling tools. The Scheduling areas have been removed from the Preview environment and will be removed from the Production environment in **January 2023**.  </span> 
+> <span class="preview"> Instead, you can schedule resources in the Workload Balancer. </span> 
+> 
+>* <span class="preview"> For information about scheduling resources using the Workload Balancer, see the section [The Workload Balancer](../../resource-mgmt/workload-balancer/workload-balancer.md).</span> 
+> 
+>* <span class="preview"> For more information about the deprecation and removal of the Scheduling tools, see [Deprecation of Resource Scheduling tools in Adobe Workfront](../../resource-mgmt/resource-mgmt-overview/deprecate-resource-scheduling.md).</span> 
 
 
 <!--
-<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <p>(NOTE: LINKED TO THE PRODUCT FROM: ALL SCHEDULING TOOLS: GLOBAL, TEAM, PROJECT STAFFING *** LINKED TO LOTS OF ARTICLES, AS WELL!) </p>
 <p>(NOTE: Alina: this article should be divided in multiple articles, but CAREFULLY because some sections are linked to the UI)</p>
 </div>
@@ -144,7 +144,7 @@ You can view the current resourcing assignments and other details about individu
    * **For an individual project**:  Go to a project, click the **Workload Balancer** section in the left panel, then select **Scheduling** from the upper-left drop-down menu. 
    * **For a team**:  Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Workfront, then click **Teams**, select a team, click **Workload Balancer** in the left panel, then select **Scheduling** from the upper-left drop-down menu.
 
-1. (Optional) To customize what content dispalys on the scheduling timeline, create a filter, as described in [Filter information in the Scheduling area](../../resource-mgmt/resource-scheduling/filter-scheduling-area.md).
+1. (Optional) To customize what content displays on the scheduling timeline, create a filter, as described in [Filter information in the Scheduling area](../../resource-mgmt/resource-scheduling/filter-scheduling-area.md).
 1. Expand a task or issue to view the following information:
 
    * **Project:** The name and link to the project where the task resides.  
@@ -156,7 +156,7 @@ You can view the current resourcing assignments and other details about individu
 
    * **Predecessor icon:** Any predecessors associated with the task. The predecessor icon displays only if there are predecessors associated with the task. The predecessor icon is green when the predecessor is completed and the task is ready to be worked on.   
 
-   * **Assignments:** Any user or job role assignments associated with the task. Job role assignments are displayed in parenthesis next to the user assignment.  
+   * **Assignments:** Any user or job role assignments associated with the task. Job role assignments are displayed in parentheses next to the user assignment.  
      Team assignments are not displayed.  
      If you have Contribute access to the task or issue, you can modify the hours for which users are allocated on each day within the task or issue duration. For more information about modifying user allocations, see the article [Manage user allocations in the Scheduling areas](../../resource-mgmt/resource-scheduling/manage-allocations-scheduling-areas.md).
 
@@ -228,7 +228,7 @@ You can minimize tasks and issues for all users that are associated with a speci
 
 By default, 14 consecutive days (including weekends) are displayed on the scheduling timeline, beginning with the current day.
 
-Use any of the following options to modify the date range for which data idisplays on the scheduling timeline:
+Use any of the following options to modify the date range for which data displays on the scheduling timeline:
 
 * **Date Range Options:** Click the current date range, then select the number of weeks to display on the timeline. You can display Day (single day), 1 week (7 days), 2 weeks (14 days), 3 weeks (21 days), 4 weeks (28 days), or 6 weeks (42 days).  
   Consider the following when adjusting the date range of the scheduling timeline:

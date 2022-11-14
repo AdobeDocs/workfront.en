@@ -9,6 +9,8 @@ exl-id: c6d979dd-e4a4-48a5-a91b-b31d7ef848d1
 ---
 # Use connected cards on boards
 
+{{highlighted-preview}}
+
 You can add a card on your board that is connected to existing tasks and issues in Workfront.
 
 When any one of the following details is updated for the card in one location, it is automatically updated in the other location:
@@ -59,7 +61,8 @@ You must have the following access to perform the steps in this article:
 
    >[!NOTE]
    >
-   >Only objects that you have permissions to are available in the search results. If an item is dimmed, it has already been added to the board.
+   >* Only objects that you have permissions to are available in the search results. If an item is dimmed, it has already been added to the board.
+   >* When you filter by **Projects I Own** or **Projects I'm On**, projects that equate to a Complete, Dead, or Rejected status are not included. You can still search for those projects with the **All** filter.
 
 1. Click **Add**.
 
@@ -129,9 +132,21 @@ You must have the following access to perform the steps in this article:
    </table>
 
 1. Click **Close** to return to the board.
-   The connected object, assignees, tags, due date, checklist counter, and estimated hours are displayed on the card.
+   The connected object, assignees, tags, due date, checklist counter, estimated hours, <span class="preview">and status</span> are displayed on the card.
+
+   >[!NOTE]
+   >
+   >Showing the status on a card is available only via the early feature opt-in. For details, see [Early feature opt-in for Adobe Workfront Boards](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md).
    
+   Sample image in the Production environment:
    ![Connected card on board showing details](assets/boards-connected-card-details-071822.png)
+
+   <div class="preview">
+
+   Sample image in the Preview environment:
+   ![Card added to board](assets/boards-connected-card-details-110922.png)
+
+   </div>
 
 ## Disconnect a connected card
 
@@ -161,7 +176,8 @@ After you have created an ad hoc card, you can convert it to a connected card. F
 
    >[!NOTE]
    >
-   >Only objects that you have permissions to are available in the search results.
+   >* Only objects that you have permissions to are available in the search results.
+   >* When you filter by **Projects I Own** or **Projects I'm On**, projects that equate to a Complete, Dead, or Rejected status are not included. You can still search for those projects with the **All** filter.
 
 1. Click **Connect**.
 

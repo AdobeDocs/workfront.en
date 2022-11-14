@@ -5,8 +5,8 @@ title: Uninstall the legacy connector
 description: text
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
+exl-id: 4b3834bf-2e6d-4588-8d77-671e14390115
 ---
-
 # Uninstall the Workfront with Adobe Experience Manager legacy connector
 
 You must uninstall the Workfront with Adobe Experience Manager legacy connector to the latest native integration connecting Workfront and Adobe Experience Manager Assets as a Cloud Service.
@@ -71,4 +71,4 @@ For Adobe Experience Manager as a Cloud Service, you can remove the dependencies
 
 ## Firewall and Dispatcher 
 
-Don't forget to remove your whitelisted Workfront URLs if communication is not needed anymore. Also, the connector uses the headers apiKey and username which was set to the dispatcher. These can be removed as well. 
+Don't forget to remove your whitelisted Workfront URLs if communication is not needed anymore. Also, the connector uses the headers apiKey and username which was set to the dispatcher. These can be removed as well.

@@ -21,7 +21,7 @@ exl-id: fd45e1bc-9a35-4960-a73a-ff845216afe4
 >
 >1.  Disable the legacy SharePoint integration so that your users do not use it to link to new documents.
 >    
->     For instructions, see [Disable linking to the legacy SharePoint integration](#disable-linking) in this article.
+>     For instructions, see [Disable linking to the legacy SharePoint integration](#reconfigure-access-to-the-legacy-sharepoint-integration) in this article.
 >
 >1. Configure your legacy SharePoint Client Secret so that your users will continue to have access to documents linked through the legacy SharePoint integration. 
 >
@@ -268,7 +268,7 @@ For instructions, see [Link an external document to Workfront](../../documents/a
 > 
 
 
-## Disable linking to the legacy SharePoint integration{#disable-linking}
+## Reconfigure access to the legacy SharePoint integration
 
 To ensure that you can access documents linked through the legacy SharePoint integration, while ensuring that your users cannot link new documents through that integration, complete the following procedure.
 

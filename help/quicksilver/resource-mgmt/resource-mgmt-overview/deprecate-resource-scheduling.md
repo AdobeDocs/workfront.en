@@ -11,15 +11,15 @@ exl-id: 7fa644cd-cf6a-40f8-ae28-bf222bb45d3f
 ---
 # Deprecation of Resource Scheduling tools in Adobe Workfront
 
-We are currently in the process of deprecating all Scheduling tools from Adobe Workfront and replacing them with the Workload Balancer.
+We are currently in the process of removing all Scheduling tools from Adobe Workfront and replacing them with the Workload Balancer.
 
 >[!IMPORTANT]
 >
->The deprecation of the Scheduling tools means that as of now, we are no longer implementing new feature functionality for the current Scheduling solution and we no longer consider nor prioritize defects for a fix in this area of Adobe Workfront.
+>We are no longer implementing new feature functionality for the current Scheduling solution and we no longer consider nor prioritize defects for a fix in this area of Adobe Workfront.
 
-This article describes a tentative timeline for this deprecation and it compares the functionality of the Scheduling tools and that of the Workload Balancer. 
+This article describes the timeline for this deprecation and it compares the functionality of the Scheduling tools and that of the Workload Balancer to indicate which Scheduling capabilities are already supported in the Workload Balancer. 
 
-A more exact timeline will be announced through the Announcement Center and this article will be updated as this process continues during the following months.
+We have been announcing a more exact timeline through the Announcement Center at key milestones during the deprecation process and this article has been updated as this process continues.
 
 >[!NOTE]
 >
@@ -29,34 +29,32 @@ A more exact timeline will be announced through the Announcement Center and this
 
 For detailed information about how you should prepare for the transition between Scheduling and the Workload Balancer, see [Migrate from Resource Scheduling to the Workload Balancer](../../resource-mgmt/resource-mgmt-overview/migrate-resource-scheduling-to-workload-balancer.md).
 
-If you currently use Scheduling tools we recommend that you consider discontinuing them and start using the Workload Balancer. 
+If you currently use Scheduling tools we recommend that you discontinue them and start using the Workload Balancer. 
 
 ![The global Resource Scheduling area](assets/resource-scheduler-global-350x127.png)
 
-Most of the functionality previously available in the Scheduling areas is now available in the Workload Balancer. For information, see the section [Feature availability](#feature-availability) in this article.
+Nearly all capabilities previously available in the Scheduling areas are now available in the Workload Balancer. For information, see the section [Feature availability](#feature-availability) in this article. You can continue scheduling your resources for work exclusively in the Workload Balancer. 
 
 ![The global Workload Balancer area](assets/workload-balancer-pti-350x111.png)
-
-Over time, you can continue using the Workload Balancer for all your scheduling needs, as more capabilities become available in the near future.
 
 ## Information that will not transfer to the Workload Balancer
 
 The following information will not transfer from the Scheduling tools to the Workload Balancer:
 
-* **Daily allocations for users**: You should not use both Scheduling and the Workload Balancer at the same time to adjust the same user allocations. If you have managed user allocations in the Scheduling tools, the adjusted daily allocations do not transfer to the Workload Balancer. Similarly, if you have adjusted user allocations in the Workload Balancer, they do not transfer to the Scheduling tools. We strongly encourage you to ensure that the daily allocations are accurate in the Workload Balancer to prepare for this transition.
-* **Filters**: If you have saved filters in the Scheduling areas, they do not transfer to the Workload Balancer. You must recreate the filters in the Workload Balancer.
+* **Daily allocations for users**: You should not use both Scheduling and the Workload Balancer at the same time to adjust the same user allocations. If you have managed user allocations in the Scheduling tools, the adjusted daily allocations do not transfer to the Workload Balancer. Similarly, if you have adjusted user allocations in the Workload Balancer, they do not transfer to the Scheduling tools. We strongly encourage you to ensure that the daily allocations are accurate in the Workload Balancer to prepare for this transition. For information, see [Manage user allocations in the Workload Balancer](../workload-balancer/manage-user-allocations-workload-balancer.md).
+* **Filters**: If you have saved filters in the Scheduling areas, they do not transfer to the Workload Balancer. You must recreate the filters in the Workload Balancer. For information, see [Filter information in the Workload Balancer](../workload-balancer/filter-information-workload-balancer.md). 
 
 ## Deprecation timeline highlights
 
 >[!IMPORTANT]
 >
->Please use this article to understand the latest timeline for deprecating the Scheduling tools. Any updates to this timeline will be communicated in this article and in Announcement Center messages.
+>Use this article to understand the latest timeline for deprecating the Scheduling tools. Any updates to this timeline will be communicated in this article and in Announcement Center messages.
 
-The following is a tentative timeline for the deprecation process of Resource Scheduling tools:
+The following is a timeline for the deprecation process of Resource Scheduling tools:
 
 * [2020.4 release (November 2020)](#2020-4-release-november-2020) 
 * [2021.4 release (October 2021)](#2021-4-release-october-2021) 
-* [2022.4 release (October 2022)](#20224-release-october-2022-tentative)
+* [2022.4 - 2023.1 releases (October 2022 - January 2023)](#2022-4-2023-1-releases)
 
 ### 2020.4 release (November 2020) {#2020-4-release-november-2020}
 
@@ -69,11 +67,12 @@ The following is a tentative timeline for the deprecation process of Resource Sc
 * Workload Balancer is set as default for any first-time user of Workfront
 * Enhanced filters that can be shared and include additional fields
 
-### 2022.4 release (October 2022) 
+### 2022.4 - 2023.1 releases (October 2022 - January 2023) {#2022-4-2023-1-releases}
 
-* No defects will be prioritized for a fix during or after the 2022.4 release
-* All Scheduling areas are removed from Workfront shortly after the 2022.4 release 
-* The Workload Balancer is the only resource scheduling tool available in Workfront
+* No defects will be prioritized for a fix during and after the 2022.4 or 2023.1 releases
+* <span class="preview"> All Scheduling areas are removed from the Preview environment </span> (**October 20, 2022**)
+* All Scheduling areas are removed from the Production environment (**January 2023**)
+* The Workload Balancer is the only resource scheduling tool available in Workfront (after **January 2023**)
 
 ## Feature availability {#feature-availability}
 
@@ -89,14 +88,14 @@ In addition to existing features, the Workload Balancer has or will have new fun
  <col> 
  <tbody> 
   <tr> 
-   <td rowspan="2"><span style="font-weight: normal;">Features</span> </td> 
-   <td rowspan="2"> Resource Scheduling tools feature availability</td> 
-   <td colspan="3">Workload Balancer feature availability</td> 
+   <td rowspan="2"><span style="font-weight: normal;"><b>Features</b></span> </td> 
+   <td rowspan="2"> <b>Resource Scheduling tools feature availability</b></td> 
+   <td colspan="3"><b>Workload Balancer feature availability</b></td> 
   </tr> 
   <tr> 
-   <td>Available now</td> 
-   <td>Available soon</td> 
-   <td>Not planned</td> 
+   <td><b>Available now</b></td> 
+   <td><b>Available soon</b></td> 
+   <td><b>Not planned</b></td> 
   </tr> 
   <tr> 
    <td> <p>Access tool from the Resourcing area</p> </td> 
@@ -331,10 +330,10 @@ In addition to existing features, the Workload Balancer has or will have new fun
    <td>&nbsp;</td> 
     
    <tr> 
-   <td><span>Add users to the project team</span> </td> 
+   <td>Add users to the project team (relocated to the <b>People</b> tab of the project) </td> 
    <td>✓</td> 
-   <td> </td> 
-   <td><span>✓</span></td> 
+   <td>✓</td> 
+   <td></td> 
    <td>&nbsp;</td> 
 
   </tr>

@@ -80,6 +80,13 @@ You can log general hours or project-specific hours on a timesheet.
 
    The timesheet is pre-populated with items assigned to you during the timesheet's time frame. For information about how timesheets are prepopulated, see [Configure timesheet and hour preferences](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md). If you do not see an item on the timesheet, you can add it. 
 
+   >[!NOTE]
+   >
+   >The timesheet pre-populates only with items assigned to you. It does not pre-populate with items assigned to your teams or job roles.
+   >
+   >Clicking Work On It on an item assigned to your teams assigns the item to you and the item will display in your timesheet. 
+
+
 1. (Optional) Click the **full-screen** icon ![](assets/full-screen.png) to display the timesheet in full-screen mode, then click the **exit-full-screen** ![](assets/exit-full-screen.png) icon to return to the timesheet. 
 
    <!-- drafted for the resize columns in timesheet story: 1. (optional) Click on the separator lines between weeks or between the time frame area and the work item area to resize the columns of the timesheet.-->
@@ -139,7 +146,13 @@ You can log general hours or project-specific hours on a timesheet.
 
    Hour types are available depending on what has been defined at the system, project, and user levels, as described in [Define hour types and availability for timesheets](define-hour-types-and-availability.md).
 
-   The hour type cannot be changed after a timesheet is closed. 
+   The hour type cannot be changed after a timesheet is closed.
+
+   >[!TIP]
+   >
+   >If you previously logged time and the hour type you selected is now deactivated, the entire row for the logged time is dimmed. Selecting another hour type and refreshing the page removes the deactivated hour type option from the drop-down list so you cannot add additional hours to that hour type. 
+   >
+   >Consider adding a new line for the work item you want to log additional time  for and selecting a new hour type, if you want to keep the deactivated hour type associated with the past logged time. 
 
 1. Specify the amount of time you want to log on any given day in the timeline section of the timesheet, then click outside the hour box to save the hour entry. The hours are saved automatically. The row for which you log time is highlighted in light blue and the hour entry box is outlined in dark blue.
 

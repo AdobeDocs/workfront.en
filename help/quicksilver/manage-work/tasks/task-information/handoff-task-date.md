@@ -31,7 +31,19 @@ The Handoff Date is the date a task becomes available for work. This typically m
 Workfront uses the following rules for calculating the Handoff Date of a task:
 
 * **When the task has an incomplete predecessor**: The Handoff Date for the task is null. 
-* **When the task has a complete predecessor**: The Handoff Date is the same as the Actual Completion Date of the predecessor task. 
+* **When the task has a complete predecessor**: The Handoff Date is the same as the Actual Completion Date of the predecessor task. If the predecessor has a lag, Workfront calculates the Handoff Date of the successor task using the following formula:
+
+   `Successor Handoff Date = Predecessor Actual Completion Date + Lag`
+
+   For information about lag time, see [Overview of Lag Types](../use-prdcssrs/lag-types.md). 
+
+   If the successor task has more than one predecessor, the Handoff Date is calculated based on the latest Actual Completion Date of the predecessors. For example, if the two predecessors' Actual Completion Dates are November 8, 2022 and November 20, 2022, the Handoff Date of the successor is November 20, 2022.
+
+   >[!NOTE]
+   >
+   >   Calculating the Handoff Date of a successor task based on the Actual Completion Date or a predecessor task is the same whether the predecessor is enforced or not. For more information about enforced predecessors, see [Enforce predecessors](../use-prdcssrs/enforced-predecessors.md).
+
+   
 * **When the task has no predecessor and**:
 
    * **The Planned Start Date is in the past**: The Handoff Date is the same as the Planned Start Date of the project. 
