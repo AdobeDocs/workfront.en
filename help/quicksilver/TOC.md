@@ -1978,6 +1978,7 @@ feature-set: Workfront
       * [View, edit, and delete Adobe Workfront Fusion templates](workfront-fusion/scenarios/templates/view-edit-and-delete-fusion-templates.md)
       * [Adobe Workfront Fusion Templates administration](workfront-fusion/scenarios/templates/fusion-templates-adminstration.md)
       * [Adobe Workfront Fusion templates FAQs](workfront-fusion/scenarios/templates/fusion-templates-faqs.md)
+      * [Currently available Adobe Workfront Fusion templates](workfront-fusion/scenarios/templates/currently-available-fusion-templates.md)
     * [Adobe Workfront Fusion scenario example: Connect email, Text Parser, and Google Sheets](workfront-fusion/scenarios/example-connect-email-text-parser-gsheets.md)
     * [Restore a scenario version in Adobe Workfront Fusion](workfront-fusion/scenarios/restore-a-scenario-version.md)
     * [Copy modules or scenarios in Adobe Workfront Fusion](workfront-fusion/scenarios/copy-modules-or-scenarios.md)
