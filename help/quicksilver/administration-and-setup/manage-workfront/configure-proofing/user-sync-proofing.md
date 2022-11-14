@@ -4,7 +4,7 @@ content-type: reference;overview
 product-area: system-administration;documents
 navigation-topic: configure-proofing-functionality
 title: User synchronization between Adobe Workfront and Workfront Proof
-description: User information is synchronized from Adobe Workfront to Workfront Proof; it is not synchronized from Workfront Proof to Workfront. Because of this, any time you create or modify users, you must make those changes within Workfront. You cannot make changes to users within Workfront Proof.
+description: User information is synchronized from Adobe Workfront to Workfront Proof; it is not synchronized from Workfront Proof to Workfront. Because of this, anytime you create or modify users, you must make those changes within Workfront. You cannot make changes to users within Workfront Proof.
 author: Courtney
 feature: System Setup and Administration, Digital Content and Documents
 role: Admin
@@ -12,7 +12,7 @@ exl-id: 4c88a249-b156-45c9-a44c-32f906bfa8a2
 ---
 # User synchronization between Adobe Workfront and Workfront Proof
 
-User information is synchronized from Adobe Workfront to Workfront Proof; it is not synchronized from Workfront Proof to Workfront. Because of this, any time you create or modify users, you must make those changes within Workfront. You cannot make changes to users within Workfront Proof.
+User information is synchronized from Adobe Workfront to Workfront Proof; it is not synchronized from Workfront Proof to Workfront. Because of this, anytime you create or modify users, you must make those changes within Workfront. You cannot make changes to users within Workfront Proof.
 
 The following sections provide information about user synchronization from Workfront to Workfront Proof:
 
@@ -43,4 +43,4 @@ Depending on whether a user with the same email address exists in Workfront Proo
 
   >[!IMPORTANT]
   >
-  >When a user with a matching email exists, in their own or in another proofing environment, Workfront creates an alias email address by adding the user's account id as a suffix to their email. For example, *username+accountid@domain.com*. If your email provider does not support email aliases, this could impact proofing notifications.
+  >When a user with a matching email exists, in their own or in another proofing environment, Workfront creates an alias email address by adding the user's account id as a suffix to their email. For example, *username+accountid@domain.com*. Users will still receive proof notifications in the event an alias email is created.

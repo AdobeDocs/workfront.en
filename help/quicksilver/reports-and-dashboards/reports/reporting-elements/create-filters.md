@@ -78,6 +78,11 @@ You can create filters using the types of filter builders described in the table
 <li> <p>Projects</p> </li>
 <li> <p>Tasks </p> </li>
 <li> <p>Issues</p> </li>
+<li> <p>Portfolios</p> </li>
+<li> <p>Programs</p> </li>
+<li> <p>Users</p> </li>
+<li> <p>Templates</p> </li>
+<li> <p>Groups</p> </li>
 </ul>
 </td>
 <td>
@@ -175,7 +180,7 @@ Consider the following when creating filters using the different interfaces:
 * You can find the beta builder in the same places you find the standard filter interface for the areas listed in the table above.
 * You can switch back and forth between the standard and the beta builder interface, where the beta option is available.
 * After you have enabled the beta builder in one area, it is the default experience for all areas where it is available. For example, if you enable the beta builder in a project list, it is the default experience for building task and issue filters in lists as well.
-* You can create filters using the beta builder interface in project, task, and issue lists in the following ways:
+* You can create filters using the beta builder interface in the following ways:
 
   * From scratch
   * Edit an existing filter
@@ -217,7 +222,7 @@ Consider the following when creating filters using the different interfaces:
 
 Create a filter using the beta builder interface:
 
-1. Go to a project, task, or issue list where you want to create a filter or that contains the filter you want to customize.
+1. Go to a list where you want to create a filter or that contains the filter you want to customize.
 1. Click the **Filter** icon ![Filter icon](assets/filter-nwepng.png), then enable the **Beta setting** ![Beta setting](assets/beta-toggle-white-on-existing-filters.png) to access the beta builder. It is disabled by default.
  
    Next, agree to the beta agreement if required. You only have to agree once, and the beta builder stays enabled.

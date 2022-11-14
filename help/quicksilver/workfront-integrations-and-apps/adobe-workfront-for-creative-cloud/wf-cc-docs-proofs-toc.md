@@ -3,11 +3,11 @@ content-type: reference
 product-area: workfront-integrations
 navigation-topic: workfront-integrations-navigation-topic
 title: Upload documents and proofs with the  [!DNL Adobe Workfront] plugin for [!DNL Creative Cloud] Applications
-description:  Adobe Workfront plugin for [!DNL Creative Cloud] Applications
+description: Adobe Workfront plugin for [!DNL Creative Cloud] Applications
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
+exl-id: 418f1293-5639-4614-b518-d17601467f82
 ---
-
 # Upload documents and proofs with the  [!DNL Adobe Workfront] plugin for [!DNL Creative Cloud] Applications
 
 * [Upload proofs from [!DNL Photoshop]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-proofs-ps.md)

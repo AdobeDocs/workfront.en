@@ -134,7 +134,7 @@ Workfront Fusion supports 3 incoming data formats: Query String, Form Data and J
 
 Workfront Fusion validates all incoming data against the selected data structure. Then, depending on the scenario's settings, the data is either stored in the queue for processing, or it is processed immediately.
 
-If any part of the data does not pass the validation, Workfront Fusion returns a 400 HTTP status code and specifies, in the body of the HTTP response, the reason why the incoming data failed the validation checks. If the validation of the incoming data succeeds, Workfront Fusion returns a “200 Accepted” status.
+If any part of the data does not pass the validation, Workfront Fusion returns a 400 HTTP status code and specifies, in the body of the HTTP response, the reason why the incoming data failed the validation checks. If the validation of the incoming data succeeds, Workfront Fusion returns a "200 Accepted" status.
 
 * [Query String](#query-string) 
 * [Form Data](#form-data) 
@@ -325,6 +325,16 @@ Timeout for sending a response is 40 seconds. If the response is not available w
 ></table>
 >
 >![](assets/webhook-response-350x279.png)
+
+## Webhook deactivation
+
+Webhooks are deactivated automatically if either of the following applies:
+
+* The webhook has not been connected to any scenario for more than 5 days
+* The webhook is used only in inactive scenarios, which have been inactive for more than 30 days.
+
+Deactivated webhooks are deleted and unregistered automatically if they are not connected to any scenarios and have been in deactivated status for over 30 days.
+
 
 ## Troubleshooting
 

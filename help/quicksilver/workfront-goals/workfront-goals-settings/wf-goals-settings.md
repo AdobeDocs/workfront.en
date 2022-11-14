@@ -25,3 +25,4 @@ This section contains the following articles:
 
 * [Enable Adobe Workfront Goals notifications](../../workfront-goals/workfront-goals-settings/wf-goals-notifications.md) 
 * [Share a goal in Workfront Goals](../../workfront-goals/workfront-goals-settings/share-a-goal.md)
+* [Customize Adobe Workfront Goals terminology](../workfront-goals-settings/customize-wf-goals-terminology.md)

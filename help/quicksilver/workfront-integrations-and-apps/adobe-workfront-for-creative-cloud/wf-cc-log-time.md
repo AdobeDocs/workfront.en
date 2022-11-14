@@ -22,7 +22,7 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
+   <!--<td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
    <td> <p>[!UICONTROL Pro] or higher</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -32,7 +32,7 @@ You must have the following access to perform the steps in this article:
   <tr> 
    <td role="rowheader">Product</td> 
    <td>You must have an [!DNL Adobe Creative Cloud] license in addition to a [!DNL Workfront] license.</td> 
-  </tr> 
+  </tr> -->
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
    <td> <p>[!UICONTROL Edit] access to tasks or issues</p> <p>Note: If you still don't have access, ask your [!DNL Workfront] administrator if they set additional restrictions in your access level. For information on how a [!DNL Workfront] administrator can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 

@@ -39,6 +39,7 @@ Before you begin, you must enroll in the Reporting Canvas beta. For more informa
 
    | Function |Description |Output |
    |---|---|---|
+   | IF | Compare two arguments based on a selected modifier, then perform a specified action based on the resulting True (Is True:) or False (Is False:) value. Note: currently, the second argument cannot be a static True or False value. Instead, you can use a nested function like ISBLANK(Project Name) that always returns False as a workaround. |True/False, Date, Number, or String |
    | CONCAT |Merge two or more strings together end-to-end to create a new string. |String |
    | CONTAINS |Evaluate if a string argument field (Find text) is contained within another string argument field (Within text). |True/False |
    | IN |Evaluate if the value of an argument field (Find) matches the value of at least one other argument field (Within) |True/False |

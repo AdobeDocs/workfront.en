@@ -9,21 +9,19 @@ exl-id: 545a5033-a09e-4019-a10e-c388cf977ae4
 ---
 # Modify multiple users assignments to tasks in the Scheduling areas
 
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: there is a similar article for doing the same function in a task list in: Manage Work> Tasks> Assign Tasks)</p>
--->
+<!-- drafted for res scheduling deprecation blurb for preview release-->  
 
->[!CAUTION]
->
->We are no longer supporting the Resource Scheduling tools and they will soon be removed from Adobe Workfront. 
->
->We recommend that you use the Workload Balancer for scheduling your resources. 
->
->* For information about scheduling resources using the new Workload Balancer, see the section [The Workload Balancer](../../resource-mgmt/workload-balancer/workload-balancer.md).
->
->* For more information about the timeline for removing the Resource Scheduling tools and replacing them with the Workload Balancer, see [Deprecation of Resource Scheduling tools in Adobe Workfront](../../resource-mgmt/resource-mgmt-overview/deprecate-resource-scheduling.md).
+>[!CAUTION] 
+> 
+> 
+> <span class="preview">The information in this article refers to the Adobe Workfront's Scheduling tools. The Scheduling areas have been removed from the Preview environment and will be removed from the Production environment in **January 2023**. </span> 
+> <span class="preview"> Instead, you can schedule resources in the Workload Balancer. </span> 
+> 
+>* <span class="preview"> For information about scheduling resources using the Workload Balancer, see the section [The Workload Balancer](../../resource-mgmt/workload-balancer/workload-balancer.md).</span> 
+> 
+>* <span class="preview"> For more information about the deprecation and removal of the Scheduling tools, see [Deprecation of Resource Scheduling tools in Adobe Workfront](../../resource-mgmt/resource-mgmt-overview/deprecate-resource-scheduling.md).</span> 
 
-This article refers to modifying user assignments for multiple tasks using the Scheduling area of Adobe Workfront . Please also see the following articles for modifying assignments on multiple tasks in other areas:
+This article refers to modifying user assignments for multiple tasks using the Scheduling area of Adobe Workfront. Also see the following articles for modifying assignments on multiple tasks in other areas:
 
 * For information about modifying assignments on multiple tasks in a task list, see [Modify multiple user assignments in a task list](../../manage-work/tasks/assign-tasks/modify-multiple-assignments-in-task-list.md). 
 * For information about scheduling resources using the new Workload Balancer, see the section [The Workload Balancer](../../resource-mgmt/workload-balancer/workload-balancer.md).
@@ -163,7 +161,7 @@ To swap a user's task assignments with the task assignments of another user:
    ![](assets/resource-scheduling-swap-350x674.png)
 
 1. In the **Select User** field, click the drop-down arrow to choose from a list of users (or begin typing the name of the user you want to swap, then click the name when it appears in the drop-down list).   
-   Users are displayed only when they are assigned to one or more uncompleted tasks within the specified projects.
+   Users display only when they are assigned to one or more incomplete tasks within the specified projects.
 
 1. (Conditional) The **Select a Role** field is displayed only when the user you selected is assigned to multiple tasks with differing roles. (To view the job role set on the task for a user, see the **Assignee's Role** column in the Advanced Assignment dialog box on the task, as described in [Create advanced assignments](../../manage-work/tasks/assign-tasks/create-advanced-assignments.md)).  
    In the **Select a Role** field, select the role to determine the type of tasks you want to swap. Only the tasks for which the user is assigned with this role will be assigned to the new user.  
@@ -190,7 +188,7 @@ Tasks marked Complete cannot be unassigned.
 
 To unassign a user from tasks throughout the selected projects or for the selected tasks:
 
-1. Select **Unassign User** in the **Select Action**section.  
+1. Select **Unassign User** in the **Select Action** section.  
    ![](assets/resource-scheduling-unassign-350x618.png)
 
 1. In the **Select User** field, click the drop-down arrow to choose from a list of users (or begin typing the name of the user you want to unassign, then click the name when it appears in the drop-down list). You can unassign only one user at a time.

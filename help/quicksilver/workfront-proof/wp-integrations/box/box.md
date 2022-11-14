@@ -13,11 +13,11 @@ exl-id: d49cfd97-1cd8-4d0b-997f-37013623da62
 
 >[!IMPORTANT]
 >
->This article refers to functionality in the standalone product Workfront Proof. For information on proofing inside Adobe Workfront, see [Proofing](../../../review-and-approve-work/proofing/proofing.md).
+>This article refers to functionality in the standalone product [!DNL Workfront Proof]. For information on proofing inside [!DNL Adobe Workfront], see [Proofing](../../../review-and-approve-work/proofing/proofing.md).
 
 This section contains the following articles:
 
-* [Introduction to the Workfront Proof and Box integration](../../../workfront-proof/wp-integrations/box/introduction-to-box.md) 
-* [Create a Proof via Your Box Account](../../../workfront-proof/wp-integrations/box/create-proof-box-account.md) 
-* [Sync Box Folders With Workfront Proof](../../../workfront-proof/wp-integrations/box/sycn-box-folder.md) 
-* [View a Proof's Original File in Box](../../../workfront-proof/wp-integrations/box/view-proof-original-file-box.md)
+* [Introduction to the [!DNL Workfront Proof] and [!DNL Box] integration](../../../workfront-proof/wp-integrations/box/introduction-to-box.md)
+* [Create a Proof via Your [!DNL Box] Account](../../../workfront-proof/wp-integrations/box/create-proof-box-account.md)
+* [Sync [!DNL Box] Folders With [!DNL Workfront Proof]](../../../workfront-proof/wp-integrations/box/sycn-box-folder.md)
+* [View a Proof's Original File in [!DNL Box]](../../../workfront-proof/wp-integrations/box/view-proof-original-file-box.md)

@@ -81,4 +81,8 @@ For information about updating the Layout Template see the following articles:
 
 ## Share individual goals with other users {#share-individual-goals-with-other-users}
 
-By default, all users that have at least View access to Goals in their access level can view all goals in Workfront. Any user with Edit access to&nbsp;Goals can create goals and they automatically gain Manage access to the goals they create. If they must edit other users' goals, someone with Manage permissions to those goals must share with them the goals they did not create. For information about sharing goals with users and giving them Manage permissions, see [Share a goal in Workfront Goals](../../workfront-goals/workfront-goals-settings/share-a-goal.md).
+By default, all users that have at least View access to Goals in their access level can view all goals in Workfront. 
+
+Any user with Edit access to Goals can create goals and they automatically gain Manage access to the goals they create. If they must edit other users' goals, someone with Manage permissions to those goals must share with them the goals they did not create. 
+
+For information about sharing goals with users and giving them Manage permissions, see [Share a goal in Workfront Goals](../../workfront-goals/workfront-goals-settings/share-a-goal.md).

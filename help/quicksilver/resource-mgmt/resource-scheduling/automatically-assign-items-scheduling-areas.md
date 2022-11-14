@@ -9,13 +9,18 @@ exl-id: 087fe3ef-9b85-491b-9fdc-436a01822ede
 ---
 # Automatically assign unassigned tasks and issues in the Scheduling areas
 
->[!CAUTION]
->
->We are no longer supporting the Resource Scheduling tools and they will soon be removed from Adobe Workfront. We recommend that you use the Workload Balancer for scheduling your resources. 
->
->* For information about scheduling resources using the new Workload Balancer, see the section [The Workload Balancer](../../resource-mgmt/workload-balancer/workload-balancer.md).
->
->* For more information about the timeline for removing the Resource Scheduling tools and replacing them with the Workload Balancer, see [Deprecation of Resource Scheduling tools in Adobe Workfront](../../resource-mgmt/resource-mgmt-overview/deprecate-resource-scheduling.md).
+<!-- drafted for res scheduling deprecation blurb for preview release-->
+
+>[!CAUTION] 
+> 
+> 
+> <span class="preview">The information in this article refers to the Adobe Workfront's Scheduling tools. The Scheduling areas have been removed from the Preview environment and will be removed from the Production environment in **January 2023**. </span> 
+> <span class="preview"> Instead, you can schedule resources in the Workload Balancer. </span> 
+> 
+>* <span class="preview"> For information about scheduling resources using the Workload Balancer, see the section [The Workload Balancer](../../resource-mgmt/workload-balancer/workload-balancer.md).</span> 
+> 
+>* <span class="preview"> For more information about the deprecation and removal of the Scheduling tools, see [Deprecation of Resource Scheduling tools in Adobe Workfront](../../resource-mgmt/resource-mgmt-overview/deprecate-resource-scheduling.md).</span> 
+
 
 When using the Scheduling tools, you can allow Adobe Workfront to analyze current work assignments across your available users and propose intelligent, logical assignments for any tasks or issues that are not yet assigned. You can modify any proposed assignments prior to finalizing them.
 

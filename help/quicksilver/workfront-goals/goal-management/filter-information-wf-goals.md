@@ -33,7 +33,9 @@ You must have the following access to perform the actions described in this arti
   </tr> 
   <tr> 
    <td role="rowheader">Access level*</td> 
-   <td> <p>View or higher access to&nbsp;Goals</p> <p>Note:   <p>If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see:</p> 
+   <td> <p>View or higher access to Goals</p> <p><b>NOTE</b>
+   
+   <p>If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see:</p> 
      <ul> 
       <li> <p><a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a> </p> </li> 
       <li> <p><span href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md"><a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md" class="MCXref xref">Grant access to Adobe Workfront Goals</a></span> </p> </li> 
@@ -50,41 +52,39 @@ You must have the following access to perform the actions described in this arti
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+*To find out what plan, license type, or access you have, contact your Workfront administrator.
 
 ## Prerequisites
 
 You must have the following before you can start:
 
-* A Layout Template that includes the Goals area in the Main&nbsp;Menu.
+* A Layout Template that includes the Goals area in the Main Menu.
 
-## Overview of filters in&nbsp;Workfront Goals
+## Overview of filters in Workfront Goals
 
 >[!NOTE]
 >
->To efficiently find and focus on the right goals, we recommend that you use filters in Workfront Goals. This allows you to display the correct information before you start managing goals that are important to you. By default, Workfront Goals displays all goals in the system. >
-><!--
-><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">>
->(NOTE: this might change with sharing; sharing allows everyone to VIEW everything but not manage everything.)>
-></MadCap:conditionalText>>
->-->
+>To efficiently find and focus on the right goals, we recommend that you use filters in Workfront Goals. This allows you to display the correct information before you start managing goals that are important to you. By default, Workfront Goals displays all goals in the system. 
 
-You can locate and filter for goals in several sections of the&nbsp;Goals area in&nbsp;Workfront:
+You can locate and filter for goals in following sections of the Goals area in Workfront:
 
 * Goal List 
 * Graphs
 * Goal Alignment
 * Pulse
 
+<!--drafted for goal redesign: make sure the above is still true with the new design; take Pulse out??-->
 >[!TIP]
 >
 >You cannot filter information in the Check-in section. Only active goals for whose progress you are responsible display in this section.
 
-For information about sections of the Goals area, see [Overview of the Adobe Workfront Goals sections](../../workfront-goals/goal-review-and-workfront-goals-sections/overview-of-wf-goals-sections.md).
+For information about the sections of the Goals area, see [Overview of the Adobe Workfront Goals sections](../../workfront-goals/goal-review-and-workfront-goals-sections/overview-of-wf-goals-sections.md).
 
 >[!IMPORTANT]
 >
 >You can configure filters for one section and they remain persistent when moving to another section of Workfront Goals.
+
+<!--drafted for goal redesign: make sure the above is still true with the new design; is the filter still the same for all the areas? -->
 
 Consider the following when working with filters in Workfront Goals:
 
@@ -216,7 +216,7 @@ You can create a filter from scratch or edit one of the built-in filters.
    The last saved and applied filter displays by default next time you log back in to Workfront
 
 1. (Optional) Click the **left-pointing arrow** next to **New Filter** to exit the filter builder and return to the list of filters. 
-1. (Optional) Hover over the name of a filter, click the **More** menu, then click&nbsp;**Delete**, then&nbsp;**Delete**. This deletes the filter and you cannot recover it.
+1. (Optional) Hover over the name of a custom filter, click the **More** menu, then click **Delete**, then **Delete**. This deletes the filter and you cannot recover it.
 
    >[!TIP]
    >
@@ -228,11 +228,11 @@ You can create a filter from scratch or edit one of the built-in filters.
 
    The list of goals is filtered by your filter criteria. 
 
-1. (Optional) If you want to view the filtered out results, click&nbsp;**Show them** in the list of goals in the Goal List or the Goal Alignment section.
+1. (Optional) If you want to view the filtered out results, click **Show them** in the list of goals in the Goal List or the Goal Alignment section. <!--drafted for goal redesign: is this statement still true for the new design?! This usually happens when you filter out results and activities but since these don't show in the Goals list anymore, I don't think this is still working like this?! -->
 
    ![](assets/show-them-link-on-filtered-items-goal-list-350x109.png)
 
-   The filter name is outlined in yellow to indicate that it is being ignored.
+   The filter name is outlined in yellow to indicate that it is being ignored. <!--drafted for goal resedign: is this still working like this?! -->
 
    ![](assets/filter-yellow-outline-next-to-reapply-filter-link-350x118.png)
 
@@ -240,6 +240,6 @@ You can create a filter from scratch or edit one of the built-in filters.
    >
    >Displaying items that are hidden by filters is not possible in the Graphs and Pulse sections.
 
-1. Click&nbsp;**Reapply filter** to apply the filter and omit the items you displayed in the previous step.
+1. Click **Reapply filter** to apply the filter and omit the items you displayed in the previous step.
 
 &nbsp;

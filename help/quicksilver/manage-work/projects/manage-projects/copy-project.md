@@ -2,7 +2,7 @@
 product-area: projects
 navigation-topic: manage-projects
 title: Copy a project
-description: Copy a project
+description: You can copy a project rather than create one from scratch. You can copy only one project at a time. You cannot copy projects in bulk.
 author: Alina
 feature: Work Management
 exl-id: 1bb133a8-eb76-46b8-969f-37f57f9453b4
@@ -13,7 +13,7 @@ exl-id: 1bb133a8-eb76-46b8-969f-37f57f9453b4
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: LINKED TO THE PRODUCT IN THE COPY PROJECT BOX)</p>
 -->
 
-You can copy a project rather than create one from scratch. You can copy only one project. You cannot copy projects in bulk.
+You can copy a project rather than create one from scratch. You can copy only one project at a time. You cannot copy projects in bulk.
 
 >[!IMPORTANT]
 >

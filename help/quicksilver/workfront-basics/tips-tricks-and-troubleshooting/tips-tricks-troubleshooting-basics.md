@@ -18,7 +18,6 @@ This section contains the following articles:
 * [Workfront Proof Manager permissions troubleshooting](../../workfront-basics/tips-tricks-and-troubleshooting/wp-manager-permissions-troubleshooting.md) 
 * [Duplicate approval processes showing in the Home Work List](../../workfront-basics/tips-tricks-and-troubleshooting/duplicate-apprval-processes-home.md) 
 * [Filter buttons do not display in page headers](../../workfront-basics/tips-tricks-and-troubleshooting/filter-buttons-do-not-display-in-page-headers.md)
+* [Change the format for dates in Adobe Workfront](../tips-tricks-and-troubleshooting/change-date-format-chrome.md)
 
-  <!--
-  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../workfront-basics/tips-tricks-and-troubleshooting/change-date-format-chrome.md" class="MCXref xref" xrefformat="{para}">Change the date format in Adobe Workfront when using Chrome</a> </li>
-  -->
+
