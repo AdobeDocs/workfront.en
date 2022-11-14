@@ -16,7 +16,7 @@ For a list of all changes available with the 23.1 release, see [23.1 Release ove
 
 >[!NOTE]
 >
->Preview release: N/A; Planned Production release: November 10, 2022.
+>Preview release: N/A; Planned Production release: November 14, 2022.
 
 To create a more consistent experience within Jira, we've updated the Workfront for Jira integration. The look and feel of the Workfront for Jira integration now matches the look and feel of Jira.
 

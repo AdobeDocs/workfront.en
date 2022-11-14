@@ -139,6 +139,8 @@ This trigger module starts the scenario when a new message is added to a private
 
 +++
 
+<!--
+
 +++ **Watch Direct Messages** 
 
 This trigger module starts the scenario when a new message is added to a direct message.
@@ -214,6 +216,8 @@ This search module returns messages matching a search query.
 
 +++
 
+-->
+
 +++ **Get a Private Channel Message**
 
 This action module retrieves the details of a message from a selected channel.
@@ -264,6 +268,8 @@ This action module returns a message with a given ID from a specified public cha
 
 +++
 
+<!--
+
 +++ **List replies**
 
 This action module retrieves a thread of messages posted to a conversation.
@@ -292,6 +298,8 @@ This action module retrieves a thread of messages posted to a conversation.
 </table>
 
 +++
+
+-->
 
 +++ **Create a Message**
 
@@ -444,17 +452,10 @@ This action module deletes a specified message.
 
 +++
 
+<!--
+
 ### Files {#files}
 
-<!--
-* [Watch Files](#watch-files) 
-* [List Files](#list-files) 
-* [Get a File](#get-a-file) 
-* [Download a File](#download-a-file) 
-* [Upload a File](#upload-a-file) 
-* [Create a Text File](#create-a-text-file) 
-* [Delete a File](#delete-a-file)
--->
 
 +++ **Watch Files**
 
@@ -663,6 +664,8 @@ This action module returns deletes the specified file.
 
 +++
 
+-->
+
 ### Channels {#channels}
 
 <!--
@@ -756,6 +759,8 @@ This search module returns a list of users in the selected channel.
 </table>
 
 +++
+
+<!--
 
 +++ **Set the Topic of a Channel**
 
@@ -926,12 +931,6 @@ This action module creates a new channel.
 
 ### Reactions {#reactions}
 
-<!--
-* [List reactions](#list-reactions) 
-* [Add a reaction](#add-a-reaction) 
-* [Remove a reaction](#remove-a-reaction)
--->
-
 +++ **List reactions**
 
 This action module returns reactions that a user made.
@@ -1025,11 +1024,6 @@ This action module adds a reaction to an item.
 
 ### Stars {#stars}
 
-<!--
-* [Add a star](#add-a-star) 
-* [Remove a star](#remove-a-star)
--->
-
 +++ **Add a star**
 
 This action module makes a channel a starred channel.
@@ -1081,11 +1075,6 @@ This action module removed the star from a starred channel.
 +++
 
 ### Saved Items {#saved-items}
-
-<!--
-* [Save an Item](#save-an-item) 
-* [Remove Saved Item](#remove-saved-item)
--->
 
 +++ **Save an Item**
 
@@ -1139,10 +1128,6 @@ This action module adds an item to saved items.
 
 ### Pins {#pins}
 
-<!--
-* [Pin an Item](#pin-an-item) 
-* [Unpin an Item](#unpin-an-item)
--->
 
 +++ **Pin an Item**
 
@@ -1203,15 +1188,6 @@ This action module unpins an item from a channel. You can unpin files, file comm
 +++
 
 ### Users {#users}
-
-<!--
-* [Watch Users](#watch-users) 
-* [Search for User](#search-for-user) 
-* [List Users](#list-users) 
-* [Get a User](#get-a-user) 
-* [Invite Users](#invite-users) 
-* [Kick a User](#kick-a-user)
--->
 
 +++ **Watch Users**
 
@@ -1356,14 +1332,6 @@ This action module removes a user from a channel.
 +++
 
 ### Reminders {#reminders}
-
-<!--
-* [List Reminders](#list-reminders) 
-* [Get a Reminder](#get-a-reminder) 
-* [Create a Reminder](#create-a-reminder) 
-* [Complete a Reminder](#complete-a-reminder) 
-* [Delete a Reminder](#delete-a-reminder)
--->
 
 +++ **List Reminders**
 
@@ -1544,6 +1512,8 @@ This action module updates a user's current status.
 </table>
 
 +++
+
+-->
 
 ### Other {#other}
 

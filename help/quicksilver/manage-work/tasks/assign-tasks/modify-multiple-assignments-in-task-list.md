@@ -2,17 +2,15 @@
 product-area: projects;user-management
 navigation-topic: assign-tasks
 title: Modify multiple user assignments in a task list
-description: Modify multiple user assignments in a task list
+description: When managing task assignments, you can simultaneously modify them for multiple tasks at a time by using the bulk editing feature in a list of tasks. 
 author: Alina
 feature: Work Management
 exl-id: 04f7761f-da94-4858-85c5-8dc97bd78bee
 ---
 # Modify multiple user assignments in a task list
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> 
-
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: There is a similar article in Resource Scheduling and a similar one for Issues; when things change, you might need to update all 3)</p>
+<p>There is a similar article in Resource Scheduling and a similar one for Issues; when things change, you might need to update all 3</p>
 -->
 
 When managing task assignments, you can simultaneously modify them for multiple tasks at a time by using the bulk editing feature in a list of tasks. 
@@ -129,7 +127,7 @@ When assigning users to work, their availability according to their schedules af
       >
       > * You can assign multiple users, job roles, or teams. You can assign only active users, job roles, and teams.
       >   
-      > * <span class="preview">When adding a user assignment, notice the avatar, the user's Primary Role, or their email address to distinguish between users with identical names. Users must be associated with at least one job role to view it as you add them.</span>
+      > * When adding a user assignment, notice the avatar, the user's Primary Role, or their email address to distinguish between users with identical names. Users must be associated with at least one job role to view it as you add them.
       > 
       >   If a user, job role, or a team was assigned before they were deactivated, they remain assigned to the work item. In this case, we recommend the following:
       >   

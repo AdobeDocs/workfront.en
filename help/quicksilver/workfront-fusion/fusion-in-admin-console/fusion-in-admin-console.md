@@ -1,5 +1,5 @@
 ---
-filename: _fusion-in-admin-console
+filename: fusion-in-admin-console
 content-type: reference
 product-previous: workfront-fusion
 product-area: workfront-integrations
@@ -21,3 +21,5 @@ This section contains the following articles:
 
 * [Add users to Adobe Workfront Fusion through the Adobe Admin Console](../../workfront-fusion/fusion-in-admin-console/add-fusion-users-admin-console.md) 
 * [Delete users in Adobe Workfront Fusion through the Adobe Admin Console](../../workfront-fusion/fusion-in-admin-console/delete-fusion-users-admin-console.md)
+* [Platform-based administration differences (Adobe Workfront Fusion/Adobe Business Platform)](../../workfront-fusion/fusion-in-admin-console/fusion-adobe-admin-console.md) 
+* [Adobe Workfront Fusion on the Adobe Unified Experience](../fusion-in-admin-console/fusion-unified-experience.md)

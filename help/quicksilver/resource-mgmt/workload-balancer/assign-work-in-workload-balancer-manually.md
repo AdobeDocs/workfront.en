@@ -9,8 +9,6 @@ exl-id: 445cb250-53a4-488b-911d-3afca3a02c23
 ---
 # Assign work manually using the Workload Balancer
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span>
-
 You can manually assign work items to users using the Adobe Workfront Workload Balancer.
 
 For general information about assigning work to users using the Workload Balancer, see [Overview of assigning work in the Workload Balancer](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
@@ -85,7 +83,7 @@ You can assign work items that have not yet been assigned to a user or reassign 
 
    >[!TIP]
    >
-   ><span class="preview">When adding a user, notice the avatar, the user's Primary Role, and their email address to distinguish between users with identical names. Users must be associated with at least one job role to view it as you add them.</span>      
+   >When adding a user, notice the avatar, the user's Primary Role, and their email address to distinguish between users with identical names. Users must be associated with at least one job role to view it as you add them.      
 
      ![](assets/assignments-box-with-advanced-assignments-delegations-wb.png)
 

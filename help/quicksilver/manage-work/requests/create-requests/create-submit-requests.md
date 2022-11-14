@@ -234,15 +234,21 @@ To create a request in the Workfront web app:&nbsp;
      </tr> 
      <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
       <td role="rowheader"><strong>Assignments</strong> </td> 
-      <td> <p><span>Specify the name of an active user, job role, or a team that the request should be assigned to.</span> </p> <p>You can specify only one team.</p> <p><span>Depending on how the request queue was set up, you might be able to only assign the request to one or two types of resources, instead of all three.</span> </p> <p><span>We recommend using Routing Rules for your Request Queues so that they can be automatically routed to the appropriate resources.</span> </p> </td> 
+      <td> <p><span>Specify the name of an active user, job role, or a team that the request should be assigned to.</span> </p> <p>You can specify only one team.</p> 
+           
+      <p> Depending on how the request queue was set up, you might be able to only assign one or two types of resource to the request, instead of all three (for example, you might only be able to assign the request to users).</p> 
+      
+      <p>If a routing rule is also associated to the request queue and it automatically routes the request to a different type of resource (for example, a team), your request is assigned to both the entity that you manually specify when submitting the request (users) and the resource specified in the routing rule (the team.) </p>
+      
+      <p> For more information, see the following articles:</p> 
+      <ul> 
+      <li> <p><a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">Create a Request Queue</a> </p> </li> 
+      <li> <p><a href="../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md" class="MCXref xref">Create Routing Rules</a> <br> </p> </li> 
+      </ul> </p>
+      
+      <p><span>We recommend using Routing Rules for your Request Queues so that they can be automatically routed to the appropriate resources.</span> </p> </td> 
      </tr> 
-     <tr> 
-      <td role="rowheader" colspan="2"> <p> Depending on how the request queue was set up, you might be able to only assign one type of resource to the request (for example, users). If a routing rule is also associated to the request queue and it automatically routes the request to a different type of resource (for example, a team), your request is assigned to both the entity that you manually specify when submitting the request (users) and the resource specified in the routing rule (the team.) </p>For more information, see the following articles:</p> 
-        <ul> 
-         <li> <p><a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">Create a Request Queue</a> </p> </li> 
-         <li> <p><a href="../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md" class="MCXref xref">Create Routing Rules</a> <br> </p> </li> 
-        </ul> </p> </td> 
-     </tr> 
+     
      <tr> 
       <td role="rowheader"><strong>Planned Hours</strong> </td> 
       <td> <p>Estimate how many hours it would take for this request to complete.</p> </td> 

@@ -91,6 +91,8 @@ You can use the following links to download the Workfront Fusion public certific
 
    For use in the EU 
 
+<!--
+
 ### Certificates for November 17, 2021 - November 14, 2022
 
 >[!IMPORTANT]
@@ -101,6 +103,8 @@ You can use the following links to download the Workfront Fusion public certific
 * [Download Workfront Fusion EU Certificate 2022](https://cdn.experience.workfront.com/Documentation/Workfront+Fusion+2.0+public+certificates/app-eu_workfrontfusion_com_certificate-chain-2022.crt)
 
   For use in the EU
+
+  -->
 
 ## Enabling Mutual TLS&nbsp;in Workfront Fusion HTTP modules
 

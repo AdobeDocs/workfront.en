@@ -232,11 +232,20 @@ The following table is a list of commonly used terms in Adobe Workfront:
    <td>Baseline</td> 
    <td>A source of data to measure iterations against in an agile environment.</td> 
   </tr> 
+  
   <tr data-mc-conditions=""> 
    <td>Billing Record</td> 
    <td> <p>Records the revenue, hours, or expenses that can be billed. This information can be used to create invoices in an external accounting system.</p> <p>For more information, see <a href="../../../manage-work/projects/project-finances/create-billing-records.md">Create billing records</a>. </p> 
    </td> 
-  </tr> 
+  </tr>
+
+ <tr> 
+   <td>Billing Record Status</td> 
+   <td> <p>In a Billing Record or Hour report, the Status of a billing record indicates whether the billing record has been Billed or Not Billed. You cannot delete a project or edit time associated with a Billed billing record. For more information, see <a href="../../../manage-work/projects/project-finances/create-billing-records.md" >Create billing records</a>.</p>  
+   </td> 
+  </tr>
+
+
   <tr> 
    <td>Branding</td> 
    <td>The process of customizing&nbsp;Workfront to give the interface an appearance that mirrors your company by using your colors and logos.</td> 
@@ -924,6 +933,34 @@ The following table is a list of commonly used terms in Adobe Workfront:
    <td>Owner</td> 
    <td>In an Hour report, the&nbsp;Owner is the user to whom the hours are attributed. This is different than the user who is actually logging the time. These two entities can sometimes be two different users. <br>For more information about logging time for another user, see the article <a href="../../../timesheets/create-and-manage-timesheets/log-time.md" class="MCXref xref">Log time</a>.</td> 
   </tr> 
+  
+  <tr> 
+   <td>Hour Status</td> 
+   <td> <p>An attribute set by Workfront for the Actual Hours that users log for tasks, issues, or projects. </p>
+   
+   Hour entries can have one of the following statuses in Workfront:
+   <ul>
+   <li><b>Submitted</b>: the hours have been logged on a project, task, or issue. They are either part of a billing record or not added to a billing record yet.</li>
+   <li><b>Approved</b>: the hours have been logged and they have been approved by the Project Owner. They are either part of a billing record or not added to a billing record yet.</li> 
+   <li><b>Not Approved</b>: the hours have been logged and rejected by the Project Owner. They are either part of a billing record or not added to a billing record yet.</li>
+   <li><b>Billed</b>: the hours have been logged, added to a billing record, and the billing record status has been marked as Billed. They did not require to be approved by the Project Owner.</li>
+   <li><b>Billed and Approved</b>: the hours have been logged, approved by the Project Owner, and the billing record status has been marked as Billed.</li>
+   </ul> 
+
+
+   <p>When hours are part of a billing record, the Hour Status indicates whether the hours have been approved or if the Billing Record they belong to has been billed. The Hour Status of an hour entry is only visible in an hour list or report. </p>
+
+   <p>For more information about adding hours to billing records, see the section "Add Hours to billing records" in the article <a href="../../../manage-work/projects/project-finances/create-billing-records.md" >Create billing records</a>.</p>
+
+   <p>For more information about approving time on projects, see <a href="../../../manage-work/projects/manage-projects/require-time-approval-for-projects.md" >Require time to be approved for a project</a>.</p>
+   
+   <p><b>TIP</b></p>
+   
+   <p>General Hours that are not logged directly on work items do not display an Hour Status. </p> </td> 
+  </tr>
+
+
+  
   <tr> 
    <td>Hour Type</td> 
    <td> <p>An attribute that can be set for Actual Hours that users log for tasks, issues, or projects. This is also an attribute for the hours logged that are not directly linked to work, such as Vacation and Time Off.</p> <p>For more information, see <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/hour-types.md" class="MCXref xref">Manage hour types</a>.</p> </td> 
