@@ -1897,11 +1897,6 @@ feature-set: Workfront
     * [Adobe Workfront Fusion performance guardrails](workfront-fusion/get-started/fusion-performance-guardrails.md)
     * [IP Addresses for accessing Adobe Workfront Fusion](workfront-fusion/get-started/ip-addresses-for-fusion.md)
     * [Adobe Workfront Fusion licenses](workfront-fusion/get-started/license-automation-vs-integration.md)
-  * Adobe Workfront Fusion in the Adobe Admin Console {#workfront-fusion-adimin-console}
-    * [Adobe Workfront Fusion in the Adobe Admin Console](/help/quicksilver/workfront-fusion/fusion-in-admin-console/fusion-in-admin-console.md) 
-    * [Add users to Adobe Workfront Fusion through the Adobe Admin Console](/help/quicksilver/workfront-fusion/fusion-in-admin-console/add-fusion-users-admin-console.md) 
-    * [Delete users in Adobe Workfront Fusion through the Adobe Admin Console](/help/quicksilver/workfront-fusion/fusion-in-admin-console/delete-fusion-users-admin-console.md)
-    * [Platform-based administration differences (Adobe Workfront Fusion/Adobe Business Platform)](/help/quicksilver/workfront-fusion/fusion-in-admin-console/fusion-adobe-admin-console.md) 
   * Adobe Workfront Fusion basics {#workfront-fusion-basics}
     * [Adobe Workfront Fusion basics](workfront-fusion/workfront-fusion-basics/workfront-fusion-basics.md)
     * [Change profile settings in Adobe Workfront Fusion](workfront-fusion/workfront-fusion-basics/change-profile-settings.md)
@@ -1910,6 +1905,9 @@ feature-set: Workfront
   * Adobe Workfront Fusion in the Adobe Experience Cloud {#fusion-in-experience-cloud}
     * [Adobe Workfront Fusion on the Adobe Experience Cloud](workfront-fusion/fusion-in-admin-console/fusion-in-admin-console.md)
     * [Adobe Workfront Fusion on the Adobe Unified Experience](workfront-fusion/fusion-in-admin-console/fusion-unified-experience.md)
+    * [Add users to Adobe Workfront Fusion through the Adobe Admin Console](/help/quicksilver/workfront-fusion/fusion-in-admin-console/add-fusion-users-admin-console.md) 
+    * [Delete users in Adobe Workfront Fusion through the Adobe Admin Console](/help/quicksilver/workfront-fusion/fusion-in-admin-console/delete-fusion-users-admin-console.md)
+    * [Platform-based administration differences (Adobe Workfront Fusion/Adobe Business Platform)](/help/quicksilver/workfront-fusion/fusion-in-admin-console/fusion-adobe-admin-console.md) 
   * Connections in Adobe Workfront Fusion {#connections-in-fusion}
     * [Connections in Adobe Workfront Fusion](workfront-fusion/connections/connections.md)
     * [About connecting Adobe Workfront Fusion to an app or service](workfront-fusion/connections/about-connecting-wf-fusion-to-app-or-service.md)
