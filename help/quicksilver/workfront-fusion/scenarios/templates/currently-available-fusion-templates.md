@@ -6,6 +6,7 @@ title: Currently available Adobe Workfront Fusion templates
 description: The following public templates are currently available in Adobe Workfront Fusion.
 author: Becky
 feature: Workfront Fusion
+exl-id: 29d95b93-ab54-416d-b0d5-ff12634951b2
 ---
 # Currently available Adobe Workfront Fusion templates
 
@@ -92,4 +93,3 @@ For more information on the Workfront-Anaplan integration, see [Adobe Workfront 
 
 * [Create an [!DNL Anaplan] list item from an [!DNL Adobe Workfront] campaign request](../../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/create-an-anaplan-list-item-from-a-workfront-campaign-request.md)
 * [Apply an [!DNL Anaplan] budget allocation to an [!DNL Adobe Workfront] campaign request or campaign project](../../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-campaign-requests-and-projects.md)
-
