@@ -91,9 +91,17 @@ On the other hand, by enabling the Automatically complete execution option under
 
 With this option enabled, when an error takes place, the incomplete execution is retrieved (after the time specified in the Interval between attempts field) and executed with the original input data. This will repeat until the execution of the module completes without an error or until the Number of attempts specified is reached.
 
+>[!NOTE]
+>
+>If the initial retry attempt fails, the interval between retries increases every other attempt, according to the following formula:
+>
+>`30s + (currentAttempt%10)s + random(0,1)s`
+
 When "Automatically complete execution" is turned on, the scenario run is marked as "Success" because the Break error handler's auto-retry is handling the issue automatically. In this case, users do not receive an email about the failed run.
 
-When "Automatically complete execution" is turned off, the run is marked as "Warning". ![](assets/break-directive-350x241.png)
+When "Automatically complete execution" is turned off, the run is marked as "Warning". 
+
+![](assets/break-directive-350x241.png)
 
 However, there are some exceptions to executions being stored under Incomplete Executions and with some error types, the auto-retry of a scenario execution is not possible. For more information, see [Allow storing incomplete executions](../../workfront-fusion/scenarios/scenario-settings-panel.md#allow) in the article [The scenario settings panel in Adobe Workfront Fusion](../../workfront-fusion/scenarios/scenario-settings-panel.md).
 
