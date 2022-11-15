@@ -7,9 +7,9 @@ author: Lisa
 feature: Get Started with Workfront, Work Management
 exl-id: 4c3638aa-5ee3-422a-9fee-41c4749fe48b
 ---
-# Mark an item as Done in the Home area
+# Mark an item as [!UICONTROL Done] in the [!UICONTROL Home] area
 
-You can mark a task or issue as Done if you are the task or issue assignee. When you mark a task or issue as Done, the status of the task or issue is changed to Complete.
+You can mark a task or issue as Done if you are the task or issue assignee. When you mark a task or issue as [!UICONTROL Done], the status of the task or issue is changed to [!UICONTROL Complete].
 
 >[!NOTE]
 >
@@ -31,11 +31,11 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] license*</strong></td> 
-   <td> <p>Work or higher</p> </td> 
+   <td> <p>[!UICONTROL Work] or higher</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Access level configurations*</strong></td> 
-   <td> <p>Edit access to Tasks and Issues</p> <p>Note: If you still don't have access, ask your [!DNL Workfront] administrator if they set additional restrictions in your access level. For information on how a [!DNL Workfront] administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>[!UICONTROL Edit] access to Tasks and Issues</p> <p>Note: If you still don't have access, ask your [!DNL Workfront] administrator if they set additional restrictions in your access level. For information on how a [!DNL Workfront] administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Object permissions</strong></td> 
@@ -46,54 +46,54 @@ You must have the following access to perform the steps in this article:
 
 &#42;To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
 
-## Mark a task or issue as Done
+## Mark a task or issue as [!UICONTROL Done]
 
-Only the user assigned to the task or issue can mark it as Done.
+Only the user assigned to the task or issue can mark it as [!UICONTROL Done].
 
-1. Click the **Main Menu** ![](assets/main-menu-icon.png) in the upper-right corner, then click **Home**.
+1. Click the **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
 1. In the **[!UICONTROL Work List]**, locate any of the items waiting to be worked on.
 1. Do either of the following:
 
-* Click&nbsp;**Done**&nbsp;on the [!UICONTROL work] item.\
-   See [Understand the options of the Done button](#understand-the-options-of-the-done-button) for more detailed information about how this button might appear.
+* Click **[!UICONTROL Done]** on the work item.\
+   See [Understand the options of the [!UICONTROL Done] button](#understand-the-options-of-the-uicontrol-done-button) for more detailed information about how this button might appear.
 
-* Select the item you want to mark as done, then in the right panel, click&nbsp;**Update Status**, then change the status of the item to a status that equates with Complete or Closed.&nbsp;
+* Select the item you want to mark as done, then in the right panel, click **[!UICONTROL Update Status]**, then change the status of the item to a status that equates with [!UICONTROL Complete] or [!UICONTROL Closed]. 
 
-## Understand the options of the [!UICONTROL Done] button {#understand-the-options-of-the-done-button}
+## Understand the options of the [!UICONTROL Done] button 
 
-By default, clicking the [!UICONTROL Done] button on a work item changes the status of that item to Complete (for tasks) or Resolved (for issues).
+By default, clicking the [!UICONTROL Done] button on a work item changes the status of that item to [!UICONTROL Complete] (for tasks) or [!UICONTROL Resolved] (for issues).
 
 Your [!DNL Adobe Workfront] administrator can customize what statuses are associated with the [!UICONTROL Done] button, and apply those customizations to your Home Team.
 
 Depending on how many statuses are associated with the [!UICONTROL Done] button or how many resources are assigned to the task or the issue, the look of the [!UICONTROL Done] button can change.
 
-* [[!UICONTROL Done] button associated with one status](#done-button-associated-with-one-status)
-* [Done button associated with multiple statuses](#done-button-associated-with-multiple-statuses)
-* [Done button for items assigned to multiple resources](#done-button-for-items-assigned-to-multiple-resources)
+* [[!UICONTROL Done] button associated with one status](#uicontrol-done-button-associated-with-one-status)
+* [[!UICONTROL Done] button associated with multiple statuses](#uicontrol-done-button-associated-with-multiple-statuses)
+* [[!UICONTROL Done] button for items assigned to multiple resources](#uicontrol-done-button-for-items-assigned-to-multiple-resources)
 
-### Done button associated with one status {#done-button-associated-with-one-status}
+### [!UICONTROL Done] button associated with one status 
 
-When the Done button is associated with one status and the work item is assigned to you only, the button reads **Done**. When you click it, the status of the task or the issue is changed to the status associated with the Done button.
+When the [!UICONTROL Done] button is associated with one status and the work item is assigned to you only, the button reads **[!UICONTROL Done]**. When you click it, the status of the task or the issue is changed to the status associated with the [!UICONTROL Done] button.
 
 ![Done button](assets/Done.png)
 
-To understand which status is associated with the Done button, check the Team Settings of your Home Team for the [!UICONTROL Done Button] section, as described in [Edit team settings](../../../people-teams-and-groups/create-and-manage-teams/edit-team-settings.md).
+To understand which status is associated with the [!UICONTROL Done] button, check the [!UICONTROL Team Settings] of your Home Team for the [!UICONTROL Done Button] section, as described in [Edit team settings](../../../people-teams-and-groups/create-and-manage-teams/edit-team-settings.md).
 
-If you are not assigned to a Home Team, the default status is chosen when clicking [!UICONTROL Done], as described above in [[!UICONTROL Understand the options of the Done] button](#understand-the-options-of-the-done-button).
+If you are not assigned to a Home Team, the default status is chosen when clicking [!UICONTROL Done], as described above in [Understand the options of the [!UICONTROL Done] button](#understand-the-options-of-the-uicontrol-done-button).
 
-### Done button associated with multiple statuses {#done-button-associated-with-multiple-statuses}
+### [!UICONTROL Done] button associated with multiple statuses 
 
-When the Done button is associated with more than one status, the button shows the word **Done** which is followed by a drop-down menu. In this scenario, you cannot simply click Done. You must select a status from the drop-down menu. Select the status that best fits the completion of the work item. By doing this, you are changing the status of the work item.
+When the [!UICONTROL Done] button is associated with more than one status, the button shows the word **[!UICONTROL Done]** which is followed by a drop-down menu. In this scenario, you cannot simply click [!UICONTROL Done]. You must select a status from the drop-down menu. Select the status that best fits the completion of the work item. By doing this, you are changing the status of the work item.
 
-To understand how you can associate multiple statuses with the Done button, see [Configure the Done button for tasks](../../../people-teams-and-groups/create-and-manage-teams/configure-the-done-button-for-tasks.md) and [Configure the Done button for issues](../../../people-teams-and-groups/create-and-manage-teams/configure-the-done-button-for-issues.md).
+To understand how you can associate multiple statuses with the [!UICONTROL Done] button, see [Configure the [!UICONTROL Done] button for tasks](../../../people-teams-and-groups/create-and-manage-teams/configure-the-done-button-for-tasks.md) and [Configure the [!UICONTROL Done] button for issues](../../../people-teams-and-groups/create-and-manage-teams/configure-the-done-button-for-issues.md).
 
 <!--
 <img src="assets/marking-an-item-done-multiple-statuses-350x171.png" style="width: 350;height: 171;" data-mc-conditions="QuicksilverOrClassic.Draft mode">
 -->
 
-### Done button for items&nbsp;assigned to multiple resources {#done-button-for-items-assigned-to-multiple-resources}
+### [!UICONTROL Done] button for items assigned to multiple resources 
 
-When the task or the issue is assigned to more than one resource, the button shows the word **[!UICONTROL Done]** which is followed by a drop-down menu. In the drop-down menu, you have the option to chose between **[!UICONTROL Done with my part]** (which lets team members know you are complete with your portion of the task), or the status associated with the [!UICONTROL Done] button (which&nbsp;completes the item). After you select **[!UICONTROL Done with my part]**, the work item is removed from your Work List, but remains in the Work List of those still assigned to the work item.\
+When the task or the issue is assigned to more than one resource, the button shows the word **[!UICONTROL Done]** which is followed by a drop-down menu. In the drop-down menu, you have the option to chose between **[!UICONTROL Done with my part]** (which lets team members know you are complete with your portion of the task), or the status associated with the [!UICONTROL Done] button (which completes the item). After you select **[!UICONTROL Done with my part]**, the work item is removed from your Work List, but remains in the Work List of those still assigned to the work item.\
 If the Done button is associated with multiple statuses, they are listed under **Done with my part**.
 
 >[!NOTE]

@@ -7,7 +7,7 @@ author: Lisa
 feature: Get Started with Workfront
 exl-id: 809605a0-8c24-4873-b98f-504a158be022
 ---
-# Use the My Updates area
+# Use the [!UICONTROL My Updates] area
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: there is a similar article like this in the "My Work" folder that is conditioned for Classic only)</p>
@@ -15,11 +15,11 @@ exl-id: 809605a0-8c24-4873-b98f-504a158be022
 
 You can use the [!UICONTROL My Updates] area to quickly review the approvals waiting for your decision or the conversations you have been included in.
 
-As a user with a Review license, you can find the [!UICONTROL My Updates] area in the Main Menu by default and the [!UICONTROL My Updates] area is the default landing page for you.
+As a user with a [!UICONTROL Review] license, you can find the [!UICONTROL My Updates] area in the [!UICONTROL Main Menu] by default and the [!UICONTROL My Updates] area is the default landing page for you.
 
 For information about [!DNL Adobe Workfront] licenses, see [[!DNL Adobe Workfront] licenses overview](../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md).
 
-If you have a license type different than Review, the [!DNL Workfront] or Group administrator must add the [!UICONTROL My Updates] area to your layout template to display it in the Main Menu. For information, see [Customize the Main Menu using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
+If you have a license type different than Review, the [!DNL Workfront] or Group administrator must add the [!UICONTROL My Updates] area to your layout template to display it in the Main Menu. For information, see [Customize the [!UICONTROL Main Menu] using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
 
 ## Access requirements
 
@@ -35,7 +35,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] license*</strong></td> 
-   <td> <p>Request or higher</p> </td> 
+   <td> <p>[!UICONTROL Request] or higher</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Access level configurations*</strong></td> 
@@ -43,28 +43,28 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Object permissions</strong></td> 
-   <td> <p>View permissions or higher to projects, tasks, issues, documents where you are tagged in a conversation or need to resolve an approval</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+   <td> <p>[!UICONTROL View] permissions or higher to projects, tasks, issues, documents where you are tagged in a conversation or need to resolve an approval</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
+To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
 
 ## Prerequisites
 
 You must have the following before you begin:
 
-* If you have a [!DNL Workfront] license other than Review, your [!DNL Workfront] or Group administrator must add the [!UICONTROL My Updates] area to the Main Menu using a layout template and assign you to that template.
+* If you have a [!DNL Workfront] license other than [!UICONTROL Review], your [!DNL Workfront] or Group administrator must add the [!UICONTROL My Updates] area to the [!UICONTROL Main Menu] using a layout template and assign you to that template.
 
-* Review-license users can view the [!UICONTROL My Updates] area in their Main Menu by default.
+* Review-license users can view the [!UICONTROL My Updates] area in their [!UICONTROL Main Menu] by default.
 
-## Access the My Updates area
+## Access the [!UICONTROL My Updates] area
 
-1. Click **[!UICONTROL My Updates]** in the **Main Menu**.
+1. Click **[!UICONTROL My Updates]** in the **[!UICONTROL Main Menu]**.
 
    ![](assets/access-my-updates-from-main-menu-reviewer-user-nwe-350x294.png)
 
-   The My Updates area opens.
+   The [!UICONTROL My Updates] area opens.
 
    The approvals and requests for access that are assigned to you are listed in the first half of the page, under My Updates.
 
@@ -78,7 +78,7 @@ You must have the following before you begin:
 
    ![](assets/pagination-for-my-updates-page-highlighted-nwe-350x78.png)
 
-1. (Optional) Expand the **Filter** drop-down menu ![](assets/filter-nwepng.png) in the upper-right corner of the **[!UICONTROL My Updates]** section and select from the following:
+1. (Optional) Expand the **[!UICONTROL Filter]** drop-down menu ![](assets/filter-nwepng.png) in the upper-right corner of the **[!UICONTROL My Updates]** section and select from the following:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -87,15 +87,15 @@ You must have the following before you begin:
     </col> 
     <tbody> 
      <tr> 
-      <td role="rowheader"><strong>All</strong></td> 
+      <td role="rowheader"><strong>[!UICONTROL All]</strong></td> 
       <td>Approvals that are submitted to you or delegated to you by another user. For information about delegating approvals, see <a href="../../../review-and-approve-work/manage-approvals/delegate-approval-requests.md" class="MCXref xref">Delegate approval request</a>. </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Delegated Approvals</strong></td> 
+      <td role="rowheader"><strong>[!UICONTROL Delegated Approvals]</strong></td> 
       <td>Approvals delegated to you by another user. </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>My Approvals</strong></td> 
+      <td role="rowheader"><strong>[!UICONTROL My Approvals]</strong></td> 
       <td> <p>Approvals submitted to you. </p> <p>For more information about approving items, see <a href="../../../review-and-approve-work/manage-approvals/approving-work.md" class="MCXref xref">Approving work </a>.</p> </td> 
      </tr> 
     </tbody> 
@@ -103,11 +103,11 @@ You must have the following before you begin:
 
 1. To approve or reject an item or suggest changes to a document before approving do the following:
 
-   1. (Optional) Click the **drop-down** icon ![](assets/down-arrow-blue.png) next to your approval decision (**Approve**, **Changes**,**Reject**) and add a comment, then click **Add**.
+   1. (Optional) Click the **drop-down** icon ![](assets/down-arrow-blue.png) next to your approval decision (**[!UICONTROL Approve]**, **[!UICONTROL Changes]**,**[!UICONTROL Reject]**) and add a comment, then click **[!UICONTROL Add]**.
 
       Or
 
-      Click&nbsp;**Skip** if you do not want to enter a comment.
+      Click **[!UICONTROL Skip]** if you do not want to enter a comment.
 
       ![](assets/approval-decision-buttons-in-my-updates-with-comment-box-nwe-350x183.png)
 
@@ -149,4 +149,4 @@ You must have the following before you begin:
 
    For more information about updating items, see [Update work](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-1. (Optional) Click **[!UICONTROL Pin current page]** to pin the My Updates area to your top navigation.
+1. (Optional) Click **[!UICONTROL Pin current page]** to pin the [!UICONTROL My Updates] area to your top navigation.
