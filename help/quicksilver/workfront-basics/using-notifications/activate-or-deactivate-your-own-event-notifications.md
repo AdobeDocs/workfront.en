@@ -11,16 +11,16 @@ exl-id: 3d1f877e-6bb4-494e-b08e-c18ec87dd001
 
 Your Adobe [!DNL Workfront] administrator configures which event notifications users receive when events occur in Workfront (as described in [[!UICONTROL Configure event] notifications for everyone in the system](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md)).
 
-Your group administrator can also configure which event notifications are activated for you and the users in your Home Group. If your Home Group is a subgroup, you receive the event notifications activated for the top-level group above your group.
+Your group administrator can also configure which event notifications are activated for you and the users in your Home Group. If your [!UICONTROL Home Group] is a subgroup, you receive the event notifications activated for the top-level group above your group.
 
 You can customize this further by configuring which notifications you receive. You can also choose whether you want to receive notifications as events happen or in one daily digest email.
 
-For information about email notifications, see [Adobe Workfront notifications](../../workfront-basics/using-notifications/wf-notifications.md).
+For information about email notifications, see [[!DNL Adobe Workfront] notifications](../../workfront-basics/using-notifications/wf-notifications.md).
 
 >[!NOTE]
 >
 >* If you activate a notification type and then find that you are not receiving notifications of that type, it may be because that type does not apply for your role.
->* The [!DNL Workfront] administrator or a group administrator cannot configure notifications for [!DNL Workfront] Goals. For more information about what notifications the [!DNL Workfront] administrator can configure, see [Configure event notifications for everyone in the system](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md). For information about configuring individual notifications for [!DNL Workfront] Goals continue to read this article.
+>* The [!DNL Workfront] administrator or a group administrator cannot configure notifications for [!DNL Workfront Goals]. For more information about what notifications the [!DNL Workfront] administrator can configure, see [Configure event notifications for everyone in the system](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md). For information about configuring individual notifications for [!DNL Workfront Goals] continue to read this article.
 >
 
 
@@ -41,7 +41,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] license*</strong></td> 
-   <td> <p>Request or higher</p> </td> 
+   <td> <p>[!UICONTROL Request] or higher</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -52,9 +52,9 @@ You must have the following access to perform the steps in this article:
 
 1. Click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe Workfront], then click your user name next to your profile picture.
 
-1. Click the **More** icon ![](assets/more-icon.png) , then click **Edit**.
+1. Click the **[!UICONTROL More]** icon ![](assets/more-icon.png) , then click **[!UICONTROL Edit]**.
 
-1. In the **Edit Person** box that displays, go to the **Notifications** section.
+1. In the **[!UICONTROL Edit Person]** box that displays, go to the **[!UICONTROL Notifications]** section.
 
 1. Click a category to view the notification settings related to that category.
 
@@ -84,4 +84,4 @@ You must have the following access to perform the steps in this article:
 
    ![](assets/receive-emails-from-sandbox-setting-edit-350x223.png)
 
-1. Click **Save Changes**.
+1. Click **[!UICONTROL Save Changes]**.

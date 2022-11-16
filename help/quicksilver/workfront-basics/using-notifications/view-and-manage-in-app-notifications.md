@@ -14,7 +14,7 @@ For a list of the work item and announcement notifications you can receive, see 
 
 >[!NOTE]
 >
->* In-app notifications for [!UICONTROL work] activities are not tied to email notifications in Workfront. For more information, see [Adobe Workfront notifications](../../workfront-basics/using-notifications/wf-notifications.md)
+>* In-app notifications for work activities are not tied to email notifications in [!DNL Workfront]. For more information, see [[!DNL Adobe Workfront] notifications](../../workfront-basics/using-notifications/wf-notifications.md)
 >* In-app notifications cannot be customized.
 >
 
@@ -31,17 +31,17 @@ You must have the following access to perform the steps in this article:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront plan*]</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] license*</strong></td> 
-   <td> <p>Request or higher</p> </td> 
+   <td> <p>[!UICONTROL Request] or higher</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan or license type you have, contact your [!DNL Workfront] administrator.
+To find out what plan or license type you have, contact your [!DNL Workfront] administrator.
 
 ## View notifications
 
@@ -78,7 +78,7 @@ The numbered icon in the upper-right corner of [!DNL Workfront] displays the num
 
 1. Click the notification that you want to view:
 
-   * If the notification you click is about a work item, the associated [!DNL Workfront] object opens, showing the full message on the **[!UICONTROL Updates]** tab. You can **Start a new update area** or **Type a reply**.
+   * If the notification you click is about a work item, the associated [!DNL Workfront] object opens, showing the full message on the **[!UICONTROL Updates]** tab. You can **[!UICONTROL Start a new update area]** or **[!UICONTROL Type a reply]**.
 
       ![](assets/object-opens-click-work-ntfctn-qs-350x183.png)
 
@@ -92,9 +92,9 @@ The numbered icon in the upper-right corner of [!DNL Workfront] displays the num
 
 ## Acknowledge notifications
 
-After viewing notifications, you can acknowledge them to clear them from the Notifications list or leave them to respond to later.
+After viewing notifications, you can acknowledge them to clear them from the [!UICONTROL Notifications] list or leave them to respond to later.
 
-On the Notifications page, you can view current and cleared notifications. You can also bring cleared notifications back to the Notifications list.
+On the [!UICONTROL Notifications] page, you can view current and cleared notifications. You can also bring cleared notifications back to the [!UICONTROL Notifications] list.
 
 * [Acknowledge notifications](#acknowledge-notifications)
 * [View acknowledged notifications](#view-acknowledged-notifications)
@@ -111,9 +111,9 @@ To acknowledge a notification and clear it from the Notifications list:
    * Click the blue dot in the upper-left corner of the notification.
    * If the notification is for a work item (rather than for an announcement), click the notification to go to the item.
    * If the notification is for an announcement, click the notification to open the **[!UICONTROL Announcements]** page.
-   * Click **[!UICONTROL All Notifications]** in the lower-right corner of the list of notifications to display the **Notifications** page, then click **[!UICONTROL Mark all] as seen** in the upper-right corner of Workfront.
+   * Click **[!UICONTROL All Notifications]** in the lower-right corner of the list of notifications to display the **[!UICONTROL Notifications]** page, then click **[!UICONTROL Mark all as seen]** in the upper-right corner of Workfront.
 
-### View acknowledged notifications {#view-acknowledged-notifications}
+### View acknowledged notifications 
 
 To view notifications that you have already acknowledged:
 
@@ -131,21 +131,21 @@ However, you can delete an announcement notifications. You can also access an an
 * [Delete an announcement](#delete-an-announcement)
 * [Access and restore an announcement you deleted recently](#access-and-restore-an-announcement-you-deleted-recently)
 
-### Delete an announcement {#delete-an-announcement}
+### Delete an announcement
 
 1. Click the numbered icon ![](assets/notifications-icon-jewel.jpg) in the upper-right corner of [!DNL Workfront] to open your list of notifications.
-1. Click **Announcements**&nbsp;or **View All Announcements**.
+1. Click **[!UICONTROL Announcements]** or **[!UICONTROL View All Announcements]**.
 
 1. On the **[!DNL Announcements]** page that appears, click the announcement you want to delete in the list on the left, then click **[!UICONTROL Delete]** in the upper-right corner of the page.
 
-### Access and restore an announcement you deleted recently {#access-and-restore-an-announcement-you-deleted-recently}
+### Access and restore an announcement you deleted recently
 
 You can access a notification that you deleted within the past 30 days.
 
 1. Click the numbered icon ![](assets/notifications-icon-jewel.jpg) in the upper-right corner of [!DNL Workfront] to open your list of notifications.
-1. Click **Announcements** or **View All Announcements**.
+1. Click **[!UICONTROL Announcements]** or **[!UICONTROL View All Announcements]**.
 
-1. In the **Announcements** page that displays, click **[!UICONTROL Deleted]**.
+1. In the **[!UICONTROL Announcements]** page that displays, click **[!UICONTROL Deleted]**.
 
 1. Click the message that you want to view.
 1. (Optional) If you want to restore the announcement, click **[!UICONTROL Move to Inbox]** above and to the right of the body of the announcement.
