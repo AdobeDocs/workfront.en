@@ -21,5 +21,3 @@ feature: Workfront Integrations and Apps, Digital Content and Documents
 * [Upload [!DNL XD] art boards as documents to [!DNL Workfront]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-docs.md)
 * [Upload proofs from [!DNL InDesign]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-proofs-id.md)
 * [Upload documents from [!DNL InDesign]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-docs-id.md)
-<!-- * [Upload proofs from [!DNL Illustrator]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-proofs-ai)
-* [Upload documents from [!DNL Illustrator]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-ai-docs.md) -->
