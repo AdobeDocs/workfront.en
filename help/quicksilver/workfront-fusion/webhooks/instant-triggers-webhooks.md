@@ -111,3 +111,14 @@ If there is a Webhook response module in your scenario, the error is sent to the
 ## Custom webhooks
 
 You can create your own webhooks. For more information, see [Webhooks](../../workfront-fusion/apps-and-their-modules/webhooks-updated.md).
+
+## Webhook deactivation
+
+Webhooks are deactivated automatically if either of the following applies:
+
+* The webhook has not been connected to any scenario for more than 5 days
+* The webhook is used only in inactive scenarios, which have been inactive for more than 30 days.
+
+Deactivated webhooks are deleted and unregistered automatically if they are not connected to any scenarios and have been in deactivated status for over 30 days.
+
+

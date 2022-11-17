@@ -2,16 +2,22 @@
 product-area: resource-management
 navigation-topic: resource-pools
 title: Associate resource pools with projects and templates
-description: Associate resource pools with projects and templates
+description: Resource pools are collections of users what help you manage resources in Adobe Workfront.
 author: Alina
 feature: Resource Management
 exl-id: bbfe8257-ff02-4f06-9763-3f2ae4871c9d
 ---
 # Associate resource pools with projects and templates
 
+
+<!-- drafted for bulk editing projects: make this live when we release edit projects in bulk and replace the screen shot below (marked) and make the shot in yellow showing adding resource pools to multiple projects:
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> 
+
+-->
+
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<p>(NOTE: The sections about how to add resource pools to templates, projects are duplicated from the articles listed in those sections (Editing Projects, Creating a Template, etc).</p>
+<p>The sections about how to add resource pools to templates, projects are duplicated from the articles listed in those sections (Editing Projects, Creating a Template, etc).</p>
 <p>***I decided to keep these steps here, though, because it's hard to parse through those much lunger articles for just updating this one field.)</p>
 </div>
 -->
@@ -59,9 +65,9 @@ You must have the following:
 
 You can associate resource pools with a template in the same manner you associate resource pools with a project. This article describes how you can associate resource pools with projects.
 
-1. Go to a project and click the **More** icon ![](assets/more-icon.png)next to the project name, then click&nbsp;**Edit**.
+1. Go to a project and click the **More** icon ![](assets/more-icon.png)next to the project name, then click **Edit**.
 
-1. Click **Project****Settings**. 
+1. Click **Project Settings**. 
 
 1. Start typing the name of a resource pool in the **Resource Pools** field, then select it from the list when it appears.  
    You can associate multiple resource pools with one project or template.
@@ -92,6 +98,8 @@ To associate resource pools with several projects in bulk:
    >[!NOTE]
    >
    >When you edit projects or templates in bulk, only the resource pools that are common to all the projects or templates selected appear in this field. If the projects selected have no shared resource pools, this field will be empty. The resource pools you specify here will overwrite the individual resource pools of the projects or templates.
+
+<!--drafted note for bulk editing projects - update the screen shot below for Edit Projects with the new UI in bulk and add the preview tags to the picture for Preview-->
 
    ![add_resource_pools_to_multiple_projects.png](assets/add-resource-pools-to-multiple-projects-350x358.png)
 

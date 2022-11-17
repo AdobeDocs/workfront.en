@@ -14,7 +14,7 @@ exl-id: 545a5033-a09e-4019-a10e-c388cf977ae4
 >[!CAUTION] 
 > 
 > 
-> <span class="preview">The information in this article refers to the Adobe Workfront's Scheduling tools. The Scheduling areas have been removed from the Preview environment and will be removed from the Production environment on **November 10, 2022**. </span> 
+> <span class="preview">The information in this article refers to the Adobe Workfront's Scheduling tools. The Scheduling areas have been removed from the Preview environment and will be removed from the Production environment in **January 2023**. </span> 
 > <span class="preview"> Instead, you can schedule resources in the Workload Balancer. </span> 
 > 
 >* <span class="preview"> For information about scheduling resources using the Workload Balancer, see the section [The Workload Balancer](../../resource-mgmt/workload-balancer/workload-balancer.md).</span> 
@@ -161,7 +161,7 @@ To swap a user's task assignments with the task assignments of another user:
    ![](assets/resource-scheduling-swap-350x674.png)
 
 1. In the **Select User** field, click the drop-down arrow to choose from a list of users (or begin typing the name of the user you want to swap, then click the name when it appears in the drop-down list).   
-   Users are displayed only when they are assigned to one or more uncompleted tasks within the specified projects.
+   Users display only when they are assigned to one or more incomplete tasks within the specified projects.
 
 1. (Conditional) The **Select a Role** field is displayed only when the user you selected is assigned to multiple tasks with differing roles. (To view the job role set on the task for a user, see the **Assignee's Role** column in the Advanced Assignment dialog box on the task, as described in [Create advanced assignments](../../manage-work/tasks/assign-tasks/create-advanced-assignments.md)).  
    In the **Select a Role** field, select the role to determine the type of tasks you want to swap. Only the tasks for which the user is assigned with this role will be assigned to the new user.  
@@ -188,7 +188,7 @@ Tasks marked Complete cannot be unassigned.
 
 To unassign a user from tasks throughout the selected projects or for the selected tasks:
 
-1. Select **Unassign User** in the **Select Action**section.  
+1. Select **Unassign User** in the **Select Action** section.  
    ![](assets/resource-scheduling-unassign-350x618.png)
 
 1. In the **Select User** field, click the drop-down arrow to choose from a list of users (or begin typing the name of the user you want to unassign, then click the name when it appears in the drop-down list). You can unassign only one user at a time.

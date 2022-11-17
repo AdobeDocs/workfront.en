@@ -5,8 +5,8 @@ title: Upload documents from InDesign
 description: You can upload your art boards as documents for a quick review and approval or simply to store in Adobe Workfront.
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
+exl-id: aaca183e-75e5-4a5c-b75b-a7809ccd1274
 ---
-
 # Upload documents from [!DNL InDesign]
 
 You can upload your projects as documents for a quick review and approval or simply to store in [!DNL Adobe Workfront].

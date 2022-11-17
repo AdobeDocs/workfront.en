@@ -343,7 +343,8 @@ You can change any of the following in this sub-section:
   </tr> 
   <tr> 
    <td role="rowheader"><strong>(Conditional) Automatically generate proofs when uploading documents</strong></td> 
-   <td>Select this field to start generating a proof immediately after the document is loaded into Workfront. This field is disabled by default and can be updated only by a Workfront administrator.<br>This field is available only if your company has purchased the Workfront Proof component for Workfront and if you are enabled as a proof user. For more information about Workfront Proof, see <a href="../../../review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proofs-in-wf.md" class="MCXref xref">Manage proofs within Adobe Workfront</a>.</td> 
+   <td>Select this field to start generating a proof immediately after the document is loaded into Workfront. This field is disabled by default and can be updated only by a Workfront administrator.<br>This field is available only if your company has purchased the Workfront Proof component for Workfront and if you are enabled as a proof user. For more information about Workfront Proof, see <a href="../../../review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proofs-in-wf.md" class="MCXref xref">Manage proofs within Adobe Workfront</a>.
+   <p><b>Note:</b> Documents uploaded to a request do not autogenerate a proof. </p></td> 
   </tr> 
  </tbody> 
 </table>

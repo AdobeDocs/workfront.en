@@ -52,3 +52,9 @@ Work automation requires rapid processing, so Adobe Workfront Fusion is designed
 * The default maximum size of a payload is **5 MB**.
 * Webhooks are limited to **100 requests per second**. When this limit is reached, Workfront Fusion sends a 429 (Too Many Requests) status.
 * Workfront Fusion stores webhook payloads for 30 days. Accessing a webhook payload more than 30 days after it was received results in the error "Failed to read file from storage."
+* Webhooks are deactivated automatically if either of the following applies:
+
+  * The webhook has not been connected to any scenario for more than 5 days
+  * The webhook is used only in inactive scenarios, which have been inactive for more than 30 days.
+
+* Deactivated webhooks are deleted and unregistered automatically if they are not connected to any scenarios and have been in deactivated status for over 30 days.

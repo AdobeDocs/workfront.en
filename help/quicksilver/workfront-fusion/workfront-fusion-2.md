@@ -22,12 +22,8 @@ For information about the latest enhancements with Workfront Fusion, see [Adobe 
 For reference information about various aspects and features found in Workfront Fusion, see any of the following Help sections:
 
 * [Get started with Adobe Workfront Fusion](../workfront-fusion/get-started/get-started.md) 
+* [Adobe Workfront Fusion in the Adobe Admin Console](../workfront-fusion/fusion-in-admin-console/fusion-in-admin-console.md)
 * [Adobe Workfront Fusion basics](../workfront-fusion/workfront-fusion-basics/workfront-fusion-basics.md)
-
-  <!--
-  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../workfront-fusion/fusion-in-admin-console/fusion-in-admin-console.md" class="MCXref xref" xrefformat="{para}">Adobe Workfront Fusion in the Adobe Admin Console</a> </li>
-  -->
-
 * [Connections in Adobe Workfront Fusion](../workfront-fusion/connections/connections.md) 
 * [Scenarios in Adobe Workfront Fusion](../workfront-fusion/scenarios/scenarios.md) 
 * [Modules in Adobe Workfront Fusion](../workfront-fusion/modules/modules.md) 
