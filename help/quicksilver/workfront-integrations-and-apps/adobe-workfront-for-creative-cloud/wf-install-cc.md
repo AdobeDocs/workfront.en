@@ -1,7 +1,6 @@
 ---
 product-area: workfront-integrations;setup
 navigation-topic: adobe-workfront-for-creative-cloud
-=======
 title: Install Adobe Workfront for InDesign
 description: You can install Workfront for Creative Cloud plugin from the Adobe Marketplace.
 author: Courtney
