@@ -5,8 +5,8 @@ navigation-topic: boards
 title: Configure card falloff
 description: You can configure a board so that cards are archived, or fall off the board, on a schedule.
 author: Lisa
+exl-id: 0e4f6b3c-75aa-4314-9cb0-737e5a9d3bda
 ---
-
 # Configure card falloff
 
 You can configure a board so that cards are archived, or "fall off" the board, on a schedule. You can set cards in a particular column to fall off the board in a certain number of days or weeks.

@@ -8,8 +8,8 @@ navigation-topic: apps-and-their-modules
 title: GitLab modules
 description: Adobe Workfront Fusion requires an Adobe Workfront Fusion license in addition to an Adobe Workfront license.
 author: Becky
+exl-id: bf6c1d82-7926-4bf9-8424-e658650ee6b1
 ---
-
 # GitLab modules
 
 Adobe Workfront Fusion requires an Adobe Workfront Fusion license in addition to an Adobe Workfront license.
@@ -1027,6 +1027,3 @@ This action module updates a project's variable.
 For information on fields, see [Update variable](https://docs.gitlab.com/ee/api/project_level_variables.html#update-variable) in the GitLab documentation.
 
 +++
-
-
-
