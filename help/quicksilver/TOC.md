@@ -1905,6 +1905,9 @@ feature-set: Workfront
   * Adobe Workfront Fusion in the Adobe Experience Cloud {#fusion-in-experience-cloud}
     * [Adobe Workfront Fusion on the Adobe Experience Cloud](workfront-fusion/fusion-in-admin-console/fusion-in-admin-console.md)
     * [Adobe Workfront Fusion on the Adobe Unified Experience](workfront-fusion/fusion-in-admin-console/fusion-unified-experience.md)
+    * [Add users to Adobe Workfront Fusion through the Adobe Admin Console](/help/quicksilver/workfront-fusion/fusion-in-admin-console/add-fusion-users-admin-console.md) 
+    * [Delete users in Adobe Workfront Fusion through the Adobe Admin Console](/help/quicksilver/workfront-fusion/fusion-in-admin-console/delete-fusion-users-admin-console.md)
+    * [Platform-based administration differences (Adobe Workfront Fusion/Adobe Business Platform)](/help/quicksilver/workfront-fusion/fusion-in-admin-console/fusion-adobe-admin-console.md) 
   * Connections in Adobe Workfront Fusion {#connections-in-fusion}
     * [Connections in Adobe Workfront Fusion](workfront-fusion/connections/connections.md)
     * [About connecting Adobe Workfront Fusion to an app or service](workfront-fusion/connections/about-connecting-wf-fusion-to-app-or-service.md)
@@ -1985,6 +1988,7 @@ feature-set: Workfront
       * [View, edit, and delete Adobe Workfront Fusion templates](workfront-fusion/scenarios/templates/view-edit-and-delete-fusion-templates.md)
       * [Adobe Workfront Fusion Templates administration](workfront-fusion/scenarios/templates/fusion-templates-adminstration.md)
       * [Adobe Workfront Fusion templates FAQs](workfront-fusion/scenarios/templates/fusion-templates-faqs.md)
+      * [Currently available Adobe Workfront Fusion templates](workfront-fusion/scenarios/templates/currently-available-fusion-templates.md)
     * [Adobe Workfront Fusion scenario example: Connect email, Text Parser, and Google Sheets](workfront-fusion/scenarios/example-connect-email-text-parser-gsheets.md)
     * [Restore a scenario version in Adobe Workfront Fusion](workfront-fusion/scenarios/restore-a-scenario-version.md)
     * [Copy modules or scenarios in Adobe Workfront Fusion](workfront-fusion/scenarios/copy-modules-or-scenarios.md)
