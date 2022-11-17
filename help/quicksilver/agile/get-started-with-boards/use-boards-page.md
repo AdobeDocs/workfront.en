@@ -9,11 +9,9 @@ exl-id: bb275f4f-efaf-4dcc-b184-40e015f089b6
 ---
 # Use the boards dashboard
 
-{{highlighted-preview}}
-
 The boards dashboard shows the list of boards that you have access to, including boards you have created and boards that you have been added to.
 
-On the boards dashboard you can archive a board, filter the list of boards, <span class="preview">sort the list by board name or date modified, and search for a specific board.</span> You can also archive an individual board or delete it. For information about creating a new board or editing an existing board, see [Create or edit a board](../../agile/get-started-with-boards/create-edit-board.md).
+On the boards dashboard you can archive a board, filter the list of boards, sort the list by board name or date modified, and search for a specific board. You can also archive an individual board or delete it. For information about creating a new board or editing an existing board, see [Create or edit a board](../../agile/get-started-with-boards/create-edit-board.md).
 
 >[!IMPORTANT]
 >
@@ -49,8 +47,6 @@ You can filter the boards dashboard to show active boards, archived boards, or a
 
    When a filter other than the default is applied on the dashboard, an indicator is displayed on the filter icon ![Filter applied to dashboard](assets/boards-filterapplied-30x30.png).
 
-<div class="preview">
-
 ## Sort boards
 
 >[!NOTE]
@@ -78,8 +74,6 @@ You can filter the boards dashboard to show active boards, archived boards, or a
    Click the X to clear the search.
 
    ![Search for boards on the dashboard](assets/boards-searchbox.png)
-
-</div>
 
 ## Archive a board
 
