@@ -356,6 +356,15 @@ Explore the latest updates made to learning programs, learning paths, videos, an
 
 The following functionality is soon to be removed from Workfront:
 
+#### Workfront extension for Illustrator and InDesign
+ 
+We are replacing the [Workfront extension for Illustrator and InDesign](/help/quicksilver/documents/workfront-for-adobe-creative-cloud/workfront-for-adobe-creative-loud.md) with updated Creative Cloud plugins. Starting late 2022, this extension will no longer be available to install in the Adobe Exchange.
+ 
+The functionality in this extension, along with several enhancements, is available in the updated Adobe Workfront for Creative Cloud Plugins:
+* [Adobe Workfront for Photoshop](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-ps.md)
+* [Adobe Workfront for XD](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-install.md)
+* [Adobe Workfront for design and video](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-install-cc.md)
+
 #### **Resource Scheduler**
 
 >[!NOTE]
