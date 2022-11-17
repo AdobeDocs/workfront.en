@@ -33,20 +33,20 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront plan*]</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] license*</strong></td> 
-   <td> <p>Request or higher</p> </td> 
+   <td> <p>[!UICONTROL Request] or higher</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Access level configurations*</strong></td> 
-   <td> <p>View access to the area the list is in</p> <p>For example, to modify the view on a project, you need View access to Projects.</p> <p>Note: If you still don't have access, ask your [!DNL Workfront] administrator if they set additional restrictions in your access level.<br>For information on how a [!DNL Workfront] administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>[!UICONTROL View] access to the area the list is in</p> <p>For example, to modify the view on a project, you need [!UICONTROL View] access to Projects.</p> <p>Note: If you still don't have access, ask your [!DNL Workfront] administrator if they set additional restrictions in your access level.<br>For information on how a [!DNL Workfront] administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Object permissions</strong></td> 
-   <td> <p>View or higher permissions to the view applied to the list</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+   <td> <p>[!UICONTROL View] or higher permissions to the view applied to the list</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -73,7 +73,7 @@ You must have the following access to perform the steps in this article:
 
    ![expand_groupings__1_.png](assets/expand-groupings--1--350x227.png)
 
-1. (Optional and conditional) If you want to show a specific number of items on the screen, click the **[!UICONTROL Showing]** drop-down menu in the lower-right corner of the screen, then select to display **100**, **250**, **500**, **All**, or **2000** items.
+1. (Optional and conditional) If you want to show a specific number of items on the screen, click the **[!UICONTROL Showing]** drop-down menu in the lower-right corner of the screen, then select to display **100**, **250**, **500**, **[!UICONTROL All]**, or **2000** items.
 
    ![](assets/list-number-page-350x119.png)
 
@@ -85,7 +85,7 @@ You must have the following access to perform the steps in this article:
    >For the best performance in large lists where objects contain formatted text fields, we recommend limiting this number to 250.
    >
    >
-   >For more information on the 2 list types, see the section [The difference between the updated and the legacy lists](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md#updated) in the article [Get started with lists in Adobe Workfront](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
+   >For more information on the 2 list types, see the section [The difference between the updated and the legacy lists](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md#updated) in the article [Get started with lists in [!DNL Adobe Workfront]](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
 
    The results of your list are paginated to show the selected number of items per page. You can access the results on other pages by clicking the backward and forward arrows or selecting a specific page.
 
@@ -98,7 +98,7 @@ You must have the following access to perform the steps in this article:
    The position of the column is saved until you refresh your page.\
    For more information about customizing the width and the order of columns in a list, see the article [Modify column width and order](../../../reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md).
 
-1. To adjust the sorting order of a list, click a column header to select it, then press and hold the CMD key (on Mac) or the CTRL key (on Windows) on your keyboard and select up to 2 additional column headers to sort by them.
+1. To adjust the sorting order of a list, click a column header to select it, then press and hold the CMD key (on [!DNL Mac]) or the CTRL key (on [!DNL Windows]) on your keyboard and select up to 2 additional column headers to sort by them.
 
    The list is sorted by each of the selected columns in the order of your selection.
 
@@ -106,4 +106,4 @@ You must have the following access to perform the steps in this article:
 
    >[!NOTE]
    >
-   >If you are sorting groups in the [!UICONTROL Groups] area in Setup, the hierarchy view of groups and their subgroups does not break up when you change the way the list is sorted—subgroups stay with their parent groups. The list is sorted by top-level groups first. Then, under each parent group, the list of subgroups that are on the same level are sorted together.
+   >If you are sorting groups in the [!UICONTROL Groups] area in [!UICONTROL Setup], the hierarchy view of groups and their subgroups does not break up when you change the way the list is sorted—subgroups stay with their parent groups. The list is sorted by top-level groups first. Then, under each parent group, the list of subgroups that are on the same level are sorted together.

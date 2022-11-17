@@ -8,7 +8,7 @@ feature: Get Started with Workfront
 author: Lisa
 exl-id: 43052270-0b2d-46af-9521-30f0d48d5ddc
 ---
-# Recents and favorites in&nbsp;Adobe Workfront
+# Recents and favorites in [!DNL Adobe Workfront]
 
 This section contains the following articles:
 

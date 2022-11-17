@@ -8,7 +8,7 @@ exl-id: 31159d6d-f03a-4f84-a454-25a232971441
 ---
 # Export a list
 
-You can export a list of objects from Adobe Workfront. When the list of objects in Workfront contains more than 2000 items, exporting the list is the only way to review all items in the list on one page.
+You can export a list of objects from [!DNL Adobe Workfront]. When the list of objects in [!DNL Workfront] contains more than 2000 items, exporting the list is the only way to review all items in the list on one page.
 
 For information on export formats and limits, see [Export data](../../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md).
 
@@ -21,20 +21,20 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront plan*]</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] license*</strong></td> 
-   <td> <p>Request or higher</p> </td> 
+   <td> <p>[!UICONTROL Request] or higher</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Access level configurations*</strong></td> 
-   <td> <p>View access to the area the list is in</p> <p>For example, to export a project's [!UICONTROL task list], you need View access to Projects.</p> <p>Note: If you still don't have access, ask your [!DNL Workfront] administrator if they set additional restrictions in your access level.<br>For information on how a [!DNL Workfront] administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>[!UICONTROL View] access to the area the list is in</p> <p>For example, to export a project's task list, you need [!UICONTROL View] access to Projects.</p> <p>Note: If you still don't have access, ask your [!DNL Workfront] administrator if they set additional restrictions in your access level.<br>For information on how a [!DNL Workfront] administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Object permissions</strong></td> 
-   <td> <p>View</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+   <td> <p>[!UICONTROL View]</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -63,13 +63,13 @@ You must have the following access to perform the steps in this article:
 
    ![select_all_projects_with_highlight__1_.png](assets/select-all-projects-with-highlight--1--350x173.png)
 
-1. Click **Export** ![Export](assets/export.png).
+1. Click **[!UICONTROL Export]** ![Export](assets/export.png).
 
 1. Select from the following formats:
 
    * PDF
-   * Excel
-   * Excel (xlsx)
+   * [!DNL Excel]
+   * [!DNL Excel] (xlsx)
    * Tab Delimited
 
       This exports a copy of the list to one of these formats and saves it on your computer.

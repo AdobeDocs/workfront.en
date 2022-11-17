@@ -7,7 +7,7 @@ feature: Get Started with Workfront
 author: Lisa
 exl-id: 4e7a4338-0b1a-4516-8604-e80f26714814
 ---
-# Adobe [!DNL Workfront] Search
+# [!DNL Adobe Workfront] Search
 
 This section contains the following articles:
 
