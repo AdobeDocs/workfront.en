@@ -9,13 +9,13 @@ author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 28aff312-1803-44d4-953c-1298e039edbf
 ---
-# Page Layout on the Views Tab in Workfront Proof
+# Page Layout on the Views Tab in [!DNL Workfront Proof]
 
 >[!IMPORTANT]
 >
->This article refers to functionality in the standalone product [!DNL Workfront] Proof. For information on proofing inside [!DNL Adobe Workfront], see [Proofing](../../../review-and-approve-work/proofing/proofing.md).
+>This article refers to functionality in the standalone product [!DNL Workfront Proof]. For information on proofing inside [!DNL Adobe Workfront], see [Proofing](../../../review-and-approve-work/proofing/proofing.md).
 
-You can adjust the page layout on the Views tab. The following layout options are available:
+You can adjust the page layout on the [!UICONTROL Views] tab. The following layout options are available:
 
 ## List
 
@@ -45,6 +45,6 @@ To change the page layout on your dashboard or trash page, choose your preferred
 
 ![Page_views_old_menu.png](assets/page-views-old-menu.png)
 
-To change the page layout on all other [!DNL views] pages in your account, expand the drop-down menu at the top of the page and click on your preferred page layout:
+To change the page layout on all other views pages in your account, expand the drop-down menu at the top of the page and click on your preferred page layout:
 
 ![Page_views_new_menu.png](assets/page-views-new-menu.png)

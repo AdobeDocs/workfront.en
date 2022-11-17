@@ -2,19 +2,19 @@
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: review-proofs-workfront-proofing-viewer
-title: Keyboard shortcuts in the [!DNL Workfront] Proof proofing viewer
+title: Keyboard shortcuts in the [!DNL Workfront Proof] proofing viewer
 description: The information described in this section is available in both the Web Proofing Viewer and the Desktop Proofing Viewer.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: e134ac7a-7a9d-4923-8622-b602856e4925
 ---
-# Keyboard shortcuts in the [!DNL Workfront] Proof proofing viewer
+# Keyboard shortcuts in the [!DNL Workfront Proof] proofing viewer
 
 >[!IMPORTANT]
 >
->This article refers to functionality in the standalone product [!DNL Workfront] Proof. For information on proofing inside [!DNL Adobe Workfront], see [Proofing](../../../review-and-approve-work/proofing/proofing.md).
+>This article refers to functionality in the standalone product [!DNL Workfront Proof]. For information on proofing inside [!DNL Adobe Workfront], see [Proofing](../../../review-and-approve-work/proofing/proofing.md).
 
-The information&nbsp;described in this section is available in both the Web Proofing Viewer and the Desktop Proofing Viewer.&nbsp;
+The information described in this section is available in both the Web Proofing Viewer and the Desktop Proofing Viewer.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -42,7 +42,7 @@ The information&nbsp;described in this section is available in both the Web Proo
    <td> <p>Previous page</p> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Mac:</strong> cmd+n</p> <p><strong>Windows:</strong> Ctrl+n</p> </td> 
+   <td> <p><strong>[!DNL Mac]:</strong> cmd+n</p> <p><strong>[!DNL Windows]:</strong> Ctrl+n</p> </td> 
    <td> <p>Open a new comment window</p> </td> 
    <td> <p>Open a new comment window</p> </td> 
   </tr> 
@@ -72,7 +72,7 @@ The information&nbsp;described in this section is available in both the Web Proo
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Mac:</strong> Ctrl+Enter </p> <p><strong>Windows:</strong> cmd+return</p> </td> 
+   <td> <p><strong>[!DNL Mac]:</strong> Ctrl+Enter </p> <p><strong>[!DNL Windows]:</strong> cmd+return</p> </td> 
    <td> <p>Save comment</p> </td> 
    <td> <p> </p> </td> 
   </tr> 
@@ -112,57 +112,57 @@ The information&nbsp;described in this section is available in both the Web Proo
    <td> <p>Zoom in or out</p> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Mac:</strong> ctrl+0</p> <p><strong>Windows:</strong> Ctrl+0</p> </td> 
+   <td> <p><strong>[!DNL Mac]:</strong> ctrl+0</p> <p><strong>[!DNL Windows]:</strong> Ctrl+0</p> </td> 
    <td> <p> Fit to page</p> </td> 
    <td> <p>Fit to page</p> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Mac:</strong> ctrl+1</p> <p><strong>Windows:</strong> Ctrl+1</p> </td> 
+   <td> <p><strong>[!DNL Mac]:</strong> ctrl+1</p> <p><strong>[!DNL Windows]:</strong> Ctrl+1</p> </td> 
    <td> <p> </p> </td> 
    <td> <p>Zoom to 100% </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Mac:</strong> ctrl+2</p> <p><strong>Windows:</strong> Ctrl+2</p> </td> 
+   <td> <p><strong>[!DNL Mac]:</strong> ctrl+2</p> <p><strong>[!DNL Windows]:</strong> Ctrl+2</p> </td> 
    <td> <p> </p> </td> 
    <td> <p>Fit to width </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Mac:</strong> ctrl+3</p> <p><strong>Windows:</strong> Ctrl+3 </p> </td> 
+   <td> <p><strong>[!DNL Mac]:</strong> ctrl+3</p> <p><strong>[!DNL Windows]:</strong> Ctrl+3 </p> </td> 
    <td> <p> </p> </td> 
    <td> <p>Fit to height </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Mac:</strong> cmd++ <br>Or <br>cmd+shift+scroll up</p> <p><strong>Windows:</strong> Ctrl++</p> </td> 
+   <td> <p><strong>[!DNL Mac]:</strong> cmd++ <br>Or <br>cmd+shift+scroll up</p> <p><strong>[!DNL Windows]:</strong> Ctrl++</p> </td> 
    <td> <p> Zoom in</p> </td> 
    <td> <p>Zoom in </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Mac:</strong> cmd+- <br>Or <br>cmd+shift+scroll down</p> <p><strong>Windows:</strong> Ctrl+-</p> </td> 
+   <td> <p><strong>[!DNL Mac]:</strong> cmd+- <br>Or <br>cmd+shift+scroll down</p> <p><strong>[!DNL Windows]:</strong> Ctrl+-</p> </td> 
    <td> <p>Zoom out </p> </td> 
    <td> <p>Zoom out</p> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Windows:</strong> Hold spacebar while dragging image</p> </td> 
+   <td> <p><strong>[!DNL Windows]:</strong> Hold spacebar while dragging image</p> </td> 
    <td> <p> Pan</p> </td> 
    <td> <p> Pan</p> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Mac:</strong> cmd+f</p> <p><strong>Windows</strong>: Ctrl+f</p> </td> 
+   <td> <p><strong>[!DNL Mac]:</strong> cmd+f</p> <p><strong>[!DNL Windows]</strong>: Ctrl+f</p> </td> 
    <td> <p> </p> </td> 
    <td> <p>Search document</p> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Mac:</strong> cmd+g</p> <p><strong>Windows:</strong> Ctrl+g</p> <p><strong>Mac and Windows:</strong> Press Enter key in the Search field.</p> </td> 
+   <td> <p><strong>[!DNL Mac]:</strong> cmd+g</p> <p><strong>[!DNL Windows]:</strong> Ctrl+g</p> <p><strong>[!DNL Mac] and [!DNL Windows]:</strong> Press Enter key in the Search field.</p> </td> 
    <td> <p> </p> </td> 
    <td> <p>Next search result</p> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Mac:</strong> cmd+Shift+g</p> <p><strong>Windows:</strong> Ctrl+Shift+g</p> <p><strong>Mac and Windows:</strong> Press Shift+Enter keys in the Search field.</p> </td> 
+   <td> <p><strong>[!DNL Mac]:</strong> cmd+Shift+g</p> <p><strong>[!DNL Windows]:</strong> Ctrl+Shift+g</p> <p><strong>[!DNL Mac] and [!DNL Windows]:</strong> Press Shift+Enter keys in the Search field.</p> </td> 
    <td> <p> </p> </td> 
    <td> <p>Previous search result</p> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Mac:</strong> cmd+z</p> <p><strong>Windows:</strong> Ctrl+z</p> </td> 
+   <td> <p><strong>[!DNL Mac]:</strong> cmd+z</p> <p><strong>[!DNL Windows]:</strong> Ctrl+z</p> </td> 
    <td> <p> </p> </td> 
    <td> <p>Undo typing in a comment</p> </td> 
   </tr> 

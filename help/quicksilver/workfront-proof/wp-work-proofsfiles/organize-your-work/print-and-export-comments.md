@@ -2,17 +2,17 @@
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: organize-your-work-workfront-proof
-title: Print and Export Comments in [!DNL Workfront] Proof
+title: Print and Export Comments in [!DNL Workfront Proof]
 description: The Comments summary can be accessed directly from the following areas - EDIT ME.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 212d465c-5605-4bb9-af5a-cea377619cfe
 ---
-# Print and Export Comments in [!DNL Workfront] Proof
+# Print and Export Comments in [!DNL Workfront Proof]
 
 >[!IMPORTANT]
 >
->This article refers to functionality in the standalone product [!DNL Workfront] Proof. For information on proofing inside [!DNL Adobe Workfront], see [Proofing](../../../review-and-approve-work/proofing/proofing.md).
+>This article refers to functionality in the standalone product [!DNL Workfront Proof]. For information on proofing inside [!DNL Adobe Workfront], see [Proofing](../../../review-and-approve-work/proofing/proofing.md).
 
 ## Printing Comments
 
@@ -40,8 +40,8 @@ You can print the proof's Comment summary by clicking on the **[!UICONTROL Print
 
 To access the [!UICONTROL Comments Summary] page from a list view:
 
-1. Click on the **Actions** menu. (3)
-1. Select **Print comments**. (4)
+1. Click on the **[!UICONTROL Actions]** menu. (3)
+1. Select **[!UICONTROL Print comments]**. (4)
 
 ![List_view.png](assets/list-view-350x155.png)\
 On the Comments summary page you have the following print options to choose from:
@@ -50,7 +50,7 @@ On the Comments summary page you have the following print options to choose from
 * Full page view (2)
 * Print the page (3)
 * Export the proof with comments to a PDF file (4)
-* Export the proof comments to an Excel file (5)
+* Export the proof comments to an [!DNL Excel] file (5)
 
 ![PV_thumb_full_option_callouts.png](assets/pv-thumb-full-option-callouts-350x154.png)
 
@@ -58,7 +58,7 @@ On the Comments summary page you have the following print options to choose from
 
 The Thumbnail view shows each comment in order, together with the full thread for each comment. You can also sort comments and see the thumbnail for each comment with markups added.
 
-To print the thumbnail view click the **Printer** icon at the top-right corner of the page and select one of the following:
+To print the thumbnail view click the **[!UICONTROL Printer]** icon at the top-right corner of the page and select one of the following:
 
 * Sort by comment ID or page (1)
 * Thumbnail for each comment with markups added (2)
@@ -73,16 +73,16 @@ To print the full page view, click the **[!UICONTROL Printer]** icon at the top-
 
 ![PV_full.png](assets/pv-full-350x347.png)
 
-## Exporting an Excel Summary
+## Exporting an [!DNL Excel] Summary
 
-To download the excel summary:
+To download the [!DNL Excel] summary:
 
-1. Open the proof's [!UICONTROL actions] menu to the right of the proof, then click **Excel summary**.&nbsp;(1)\
+1. Open the proof's actions menu to the right of the proof, then click **[!UICONTROL [!DNL Excel] summary]**. (1)\
    ![Excel_summary.png](assets/excel-summary-350x450.png)
 
-To download the excel summary from the Proof details page:
+To download the [!DNL Excel] summary from the Proof details page:
 
-1. Click the Export to **Excel** icon. (2)
+1. Click the Export to **[!DNL Excel]** icon. (2)
 1. ![Export_to_excel.png](assets/export-to-excel-350x185.png)
 
 ## Exporting to PDF
@@ -90,9 +90,9 @@ To download the excel summary from the Proof details page:
 To export a proof to PDF, together with all markups and comments, follow these steps:
 
 1. Go to **[!UICONTROL Views]** on the left side of the screen.
-1. Click the **More** icon inline with a proof, then click **Print comments**.
+1. Click the **[!UICONTROL More]** icon inline with a proof, then click **[!UICONTROL Print comments]**.
 
-1. Click the [!UICONTROL Export to PDF] icon in the top-right corner of the page.
+1. Click the Export to PDF icon in the top-right corner of the page.
 
    When the PDF is ready, you will receive an email with a download link.
 
@@ -100,4 +100,4 @@ All comments will be shown in the PDF reader. If a comment has multiple markups 
 
 >[!IMPORTANT]
 >
->The&nbsp;Export to PDF function is available only for static files.
+>The Export to PDF function is available only for static files.

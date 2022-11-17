@@ -2,21 +2,21 @@
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: organize-your-work-workfront-proof
-title: Back Up Your [!DNL Workfront] Proof Data
-description: You can request a backup of all of your data in [!DNL Workfront] Proof using the backup function.
+title: Back Up Your [!DNL Workfront Proof] Data
+description: You can request a backup of all of your data in [!DNL Workfront Proof] using the backup function.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 3b831bb5-2d03-4d7e-ad1f-54ae95f05ccd
 ---
-# Back Up Your [!DNL Workfront] Proof Data
+# Back Up Your [!DNL Workfront Proof] Data
 
 >[!IMPORTANT]
 >
->This article refers to functionality in the standalone product [!DNL Workfront] Proof. For information on proofing inside [!DNL Adobe Workfront], see [Proofing](../../../review-and-approve-work/proofing/proofing.md).
+>This article refers to functionality in the standalone product [!DNL Workfront Proof]. For information on proofing inside [!DNL Adobe Workfront], see [Proofing](../../../review-and-approve-work/proofing/proofing.md).
 
 ## Introduction to backups
 
-You can request a backup of all of your data in [!DNL Workfront] Proof using the backup function. &nbsp;
+You can request a backup of all of your data in [!DNL Workfront Proof] using the backup function.
 
 The backup is delivered to you as a .zip file. It includes an XML export of all of your data (including comments and responses for all versions of all proofs); however, it does not include the original files that you uploaded as proofs.
 
@@ -26,7 +26,7 @@ Each backup .zip file created for you to download has a unique file name, such a
 
 The filename in this example provides the following information:
 
-* 9789 is your [!DNL Workfront] Proof account identifier
+* 9789 is your [!DNL Workfront Proof] account identifier
 * 05_05_2011 is the creation date, 5 May 2011
 * 61703 is a random system-assigned number
 
@@ -34,7 +34,7 @@ This naming convention makes it easy for you to store all your backup .zip files
 
 The [!UICONTROL Backup] function lets you decide how to use your resources:
 
-* Allows you to free up storage space without losing your active or archived proofs. You can request a backup, delete the proofs, and then empty the [Restore and Empty the Trash in [!DNL Workfront] Proof](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/restore-and-empty-trash.md).
+* Allows you to free up storage space without losing your active or archived proofs. You can request a backup, delete the proofs, and then empty the [Restore and Empty the Trash in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/restore-and-empty-trash.md).
 * Allows you to access any files that you originally uploaded to [!DNL Workfront] Proof. You can download them using the [!UICONTROL download original file] function before deleting the proofs.
 
 >[!NOTE]
@@ -43,20 +43,20 @@ The [!UICONTROL Backup] function lets you decide how to use your resources:
 >
 >* Backups are available on Enterprise and Unlimited plans. Please contact our [sales team](mailto:sales@proofhq.com) for a quote.
 >* The data encoding type is set to the UTF-8 by default and we do recommend this setting. This is the encoding type most commonly used by Internet applications.
->* You can request only one [!DNL backup] at a time. When your backup .zip file is being processed, the Request new backup link on the Backups tab will not appear, and the message shown remains unchanged. For information on requesting a backup, see [Request a new data backup in Workfront Proof](../../../workfront-proof/wp-acct-admin/account-settings/request-new-data-backup-in-wp.md).
+>* You can request only one [!DNL backup] at a time. When your backup .zip file is being processed, the Request new backup link on the Backups tab will not appear, and the message shown remains unchanged. For information on requesting a backup, see [Request a new data backup in [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/request-new-data-backup-in-wp.md).
 >
 
 
 
 ## Backing up your data
 
-1. Click **[!UICONTROL Account settings]** in the upper-right corner of the [!DNL Workfront] Proof interface. (1)
-1. Click the **[!UICONTROL Backups]** tab.&nbsp;(2)
+1. Click **[!UICONTROL Account settings]** in the upper-right corner of the [!DNL Workfront Proof] interface. (1)
+1. Click the **[!UICONTROL Backups]** tab. (2)
 1. Click the **[!UICONTROL Request new backup]** link (3)
 
 When your backup is ready, the following occurs:
 
-* You receive an email from [!DNL Workfront] Proof notifying you of this ("Your Workfront Proof backup is ready"). The email contains a download link for your backup data.
+* You receive an email from [!DNL Workfront Proof] notifying you of this ("Your [!DNL Workfront Proof] backup is ready"). The email contains a download link for your backup data.
 * The [Account settings](https://support.workfront.com/hc/en-us/sections/115000912147-Account-settings) Backup tab displays a download link for your backup data.
 * The Request new backup link (3) reappears on the Backups tab
 
@@ -69,46 +69,46 @@ Your data will be ready to download as a zip file. You can download the backup .
 
 ## Downloading your backup .zip file from your email notification {#downloading-your-backup-zip-file-from-your-email-notification}
 
-When your [!DNL backup] .zip file is ready to download, you receive an email from [!DNL Workfront] Proof with the subject line 'Your Workfront Proof backup is ready.'
+When your backup .zip file is ready to download, you receive an email from [!DNL Workfront Proof] with the subject line 'Your [!DNL Workfront Proof] backup is ready.'
 
-To download the [!DNL backup] .zip file from the email:
+To download the backup .zip file from the email:
 
 1. Click the download link in the email.\
    ![Backup_mail.png](assets/backup-mail-350x120.png)\
-   If you are not currently logged in to [!DNL Workfront] Proof, a new browser window opens and displays the login page.
+   If you are not currently logged in to [!DNL Workfront Proof], a new browser window opens and displays the login page.
 
 ## Downloading your backup .zip file from the account settings {#downloading-your-backup-zip-file-from-the-account-settings}
 
 When your backup .zip file is ready to download, the [!UICONTROL Backup] tab indicates this by displaying a download link. In addition, the [!UICONTROL Request new backup] link appears again.
 
-1. Click **[!UICONTROL Account settings]** in the upper-right corner of the [!DNL Workfront] Proof interface. (1)
-1. Click the **[!UICONTROL Backups]** tab.&nbsp;(2)\
-   If no users in your account have requested any backups, the [!UICONTROL Backups] tab indicates that you have no backups. If a user has requested a backup, the tab&nbsp;displays the creation date and download link for the last backup.
+1. Click **[!UICONTROL Account settings]** in the upper-right corner of the [!DNL Workfront Proof] interface. (1)
+1. Click the **[!UICONTROL Backups]** tab. (2)\
+   If no users in your account have requested any backups, the [!UICONTROL Backups] tab indicates that you have no backups. If a user has requested a backup, the tab displays the creation date and download link for the last backup.
 
 1. Click the **[!UICONTROL Download backup]** link. (3)\
-   ![Download_Backup.png](assets/download-backup-350x167.png)A File Download screen appears, asking if you want to Open or Save the download file.
+   ![Download_Backup.png](assets/download-backup-350x167.png) A File Download screen appears, asking if you want to Open or Save the download file.
 
 1. Click **[!UICONTROL Save]**, then select the location on your computer where you want to save the backup .zip file.\
    The message identifying the date of your most recent backup remains displayed at the bottom of the [!UICONTROL Backup] page until the next time you request a backup. The Download backup link applies to that last backup. Whenever the [!UICONTROL Request new backup] link is displayed, you can click it to request another backup.
 
-## Understanding the files in your [!DNL backup] .zip file
+## Understanding the files in your backup .zip file
 
 Your backup .zip file contains seven CSV (comma-separated value or comma delimited) files that include information from your active and archived proofs up to the time your data was backed up:
 
 * comments.csv - includes comments on proofs
-* comment_replies.csv - includes responses to comments on proofs [!DNL organisation].csv - includes numeric identifier and name of your organization (your account)
+* comment_replies.csv - includes responses to comments on proofs organisation.csv - includes numeric identifier and name of your organization (your account)
 * contacts.csv - includes numeric identifier, name, and organization for each contact
-* files.csv - includes information from the Proof Details page or the File Details page on proofs or files uploaded to [!DNL Workfront] Proof
-* recipients.csv - includes numeric identifier, role, and decisions of each person specified as a reviewer, reviewer and approver, etc., when proofs are uploaded for review on [!DNL Workfront] Proof
+* files.csv - includes information from the Proof Details page or the File Details page on proofs or files uploaded to [!DNL Workfront Proof]
+* recipients.csv - includes numeric identifier, role, and decisions of each person specified as a reviewer, reviewer and approver, etc., when proofs are uploaded for review on [!DNL Workfront Proof]
 * users.csv - includes numeric identifiers and names of all users in the account
 
 You can extract these files from the backup .zip file with whatever zip utility you use, then store them in the location of your choice on your computer. After you save the zip file and extract the individual CSV files, you can manipulate the information as desired for your internal record keeping.
 
 Each backup .zip file created at your request has a distinctive name that includes the backup creation date, but the CSV files included in each backup .zip file always have the same names. You might want to use one of the following methods to ensure your backup files are distinct from each other:
 
-* Create a new folder for each [!DNL backup] .zip file and the CSV files you extract from it.
+* Create a new folder for each backup .zip file and the CSV files you extract from it.
 * Rename each individual CSV file to include the backup date when you extract it from the zip file.
 
 >[!NOTE]
 >
->&nbsp;If Microsoft Excel is installed on your computer, your extract utility might list the file type for the individual CSV files as Microsoft Office Excel Comma Separated Values File.&nbsp;You can open an extracted CSV file using Excel and save the file as an Excel workbook (&#42;.xlsx) or some other file type.
+>If [!DNL Microsoft Excel] is installed on your computer, your extract utility might list the file type for the individual CSV files as [!DNL Microsoft Office Excel] Comma Separated Values File. You can open an extracted CSV file using [!DNL Excel] and save the file as an [!DNL Excel] workbook (&#42;.xlsx) or some other file type.

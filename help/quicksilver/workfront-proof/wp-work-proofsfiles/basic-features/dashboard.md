@@ -3,19 +3,19 @@ content-type: overview
 product-previous: workfront-proof
 product-area: documents;dashboard
 navigation-topic: basic-features-workfront-proof
-title: The Dashboard in [!DNL Workfront] Proof
-description: The Dashboard is the first page you see when you log in to your [!DNL Workfront] Proof account. It summarizes the activity in your [!DNL Workfront] Proof account and provides quick links to other sections and functions within [!DNL Workfront] Proof.
+title: The Dashboard in [!DNL Workfront Proof]
+description: The Dashboard is the first page you see when you log in to your [!DNL Workfront Proof] account. It summarizes the activity in your [!DNL Workfront Proof] account and provides quick links to other sections and functions within [!DNL Workfront Proof].
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: bd0ecc43-4bbf-4caa-924f-6c8935123bf9
 ---
-# The Dashboard in [!DNL Workfront] Proof
+# The Dashboard in [!DNL Workfront Proof]
 
 >[!IMPORTANT]
 >
->This article refers to functionality in the standalone product [!DNL Workfront] Proof. For information on proofing inside [!DNL Adobe Workfront], see [Proofing](../../../review-and-approve-work/proofing/proofing.md).
+>This article refers to functionality in the standalone product [!DNL Workfront Proof]. For information on proofing inside [!DNL Adobe Workfront], see [Proofing](../../../review-and-approve-work/proofing/proofing.md).
 
-The Dashboard is the first page you see when you log in to your [!DNL Workfront] Proof account. It summarizes the activity in your [!DNL Workfront] Proof account and provides quick links to other sections and functions within [!DNL Workfront] Proof.
+The Dashboard is the first page you see when you log in to your [!DNL Workfront Proof] account. It summarizes the activity in your [!DNL Workfront Proof] account and provides quick links to other sections and functions within [!DNL Workfront Proof].
 
 The dashboard contains the following:
 
@@ -37,9 +37,9 @@ The dashboard contains the following:
 
 ![](assets/dashboard-350x495.png)
 
-You can brand your account to show your own organization's logo, colors, custom links, and more. For more information, see [Brand the Workfront Proof site](../../../workfront-proof/wp-acct-admin/branding/brand-wp-site.md)."
+You can brand your account to show your own organization's logo, colors, custom links, and more. For more information, see [Brand the [!DNL Workfront Proof] site](../../../workfront-proof/wp-acct-admin/branding/brand-wp-site.md)."
 
-If you don't brand your account, the [!DNL Workfront] Proof logo and standard colors appear.
+If you don't brand your account, the [!DNL Workfront Proof] logo and standard colors appear.
 
 ## Header menu
 
@@ -54,7 +54,7 @@ The user name (2) you've chosen will appear here. It can be changed in Personal 
 Here (3) you can access your:
 
 * Personal settings
-* Account settings.
+* Account settings
 * Billing
 
 >[!NOTE]
@@ -82,7 +82,7 @@ To open the New menu,
 
 1. Click the dropdown arrow (7).
 
-   The **New** menu has the following options:
+   The **[!UICONTROL New]** menu has the following options:
 
    * New Proof (8)
    * Upload file (9)
@@ -142,7 +142,7 @@ To delete items:
 
 ![](assets/delete-350x109.png)
 
-1. In the confirmation screen that appears, check the details and confirm by clicking **Yes** (8).
+1. In the confirmation screen that appears, check the details and confirm by clicking **[!UICONTROL Yes]** (8).
 
 ![](assets/deleteing-items-350x237.png)
 
@@ -158,17 +158,17 @@ The sidebar has links to the following pages:
 * Groups (6)
 * Activity (7)
 * Trash (8)
-* My folders (9) (you can also access each individual folder from the sidebar)&#42;&#42;
-* Other Organizations' folders (10) (where you can find items that other organizations shared with you)&#42;&#42;
+* My folders (9) (you can also access each individual folder from the sidebar)
+* Other Organizations' folders (10) (where you can find items that other organizations shared with you)
 * Tags (11)
 
 ![](assets/sidebar-350x426.png)
 
 The Sidebar is described in more detail on the Sidebar help page.
 
-### Welcome section
+### [!UICONTROL Welcome] section
 
-The Welcome section has the following useful links:
+The [!UICONTROL Welcome] section has the following useful links:
 
 * Watch our demo movies (1)
 * Help pages (2)
@@ -186,7 +186,7 @@ In this section you'll find the quick links to:
 * Add a new user
 * Change your password
 
-The [!UICONTROL overview] section also displays pre-filtered information. These are:
+The overview section also displays pre-filtered information. These are:
 
 * Proofs to manage - total number of active proofs owned by you and delegated to you
 * Proofs awaiting decision - total number of active proofs that require your decisions
@@ -206,7 +206,7 @@ Here you can see right away how many proofs require immediate action from you or
 
 ### Recently accessed items
 
-The [!UICONTROL Recently accessed items] section shows you the items that have been recently accessed by you. This includes the items you own, the items you have permissions to see as per your profile permissions and the items that were shared with you. This section will include only the items that you yourself have opened (either via the [!DNL Workfront] Proof Viewer or via the Proof details page).
+The [!UICONTROL Recently accessed items] section shows you the items that have been recently accessed by you. This includes the items you own, the items you have permissions to see as per your profile permissions and the items that were shared with you. This section will include only the items that you yourself have opened (either via the [!DNL Workfront Proof] Viewer or via the Proof details page).
 
 The [!UICONTROL Recently accessed items] section shows you the following information about recent proofs and files:
 
@@ -220,15 +220,15 @@ Summary (this information will be collapsed by default - click the expand/collap
 
 Actions menu
 
-See [!UICONTROL Page layouts] for the different layout options available for this section.
+See Page layouts for the different layout options available for this section.
 
 >[!NOTE]
 >
->Clicking on the proof name in Recently accessed items section will take you straight to the proof in the Proof Viewer.
+>Clicking on the proof name in [!UICONTROL Recently accessed items] section will take you straight to the proof in the Proof Viewer.
 
 To access the Proof details page:
 
-1. Click on the **Actions** menu (1) available to the right of the proof name.
+1. Click on the **[!UICONTROL Actions]** menu (1) available to the right of the proof name.
 1. Select **[!UICONTROL View proof details]** (2) from the menu.
 
 ![](assets/accessing-the-proof-details-page-recently-accessed-items-350x126.png)
@@ -249,7 +249,7 @@ You can also go to an item's Details page by clicking opening the item's Actions
 
 To go to the Proof details page of that proof:
 
-1. Click on the **Actions** menu (1).
-1. Select **View proof details** (2) from the dropdown menu.
+1. Click on the **[!UICONTROL Actions]** menu (1).
+1. Select **[!UICONTROL View proof details]** (2) from the dropdown menu.
 
    ![](assets/accessing-the-proof-details-page-recent-activity-350x51.png)

@@ -2,19 +2,19 @@
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: automated-workflow-workfront-proof
-title: Manage a proof configured with an Automated Workflow in [!DNL Workfront] Proof
-description: You can conveniently track the progress of your Automated [!UICONTROL Workflow] proofs in the Workflow section of the [!UICONTROL Proof details] page. You can view the work done on each stage and modify, add, start and lock the stages on your proof.
+title: Manage a proof configured with an Automated Workflow in [!DNL Workfront Proof]
+description: You can conveniently track the progress of your Automated Workflow proofs in the Workflow section of the Proof details page. You can view the work done on each stage and modify, add, start and lock the stages on your proof.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 1d0ad905-f3fb-471a-8766-096b978cdf4e
 ---
-# Manage a proof configured with an Automated Workflow in [!DNL Workfront] Proof
+# Manage a proof configured with an Automated Workflow in [!DNL Workfront Proof]
 
 >[!IMPORTANT]
 >
->This article refers to functionality in the standalone product [!DNL Workfront] Proof. For information on proofing inside [!DNL Adobe Workfront], see [Proofing](../../../review-and-approve-work/proofing/proofing.md).
+>This article refers to functionality in the standalone product [!DNL Workfront Proof]. For information on proofing inside [!DNL Adobe Workfront], see [Proofing](../../../review-and-approve-work/proofing/proofing.md).
 
-You can conveniently track the progress of your Automated [!UICONTROL Workflow] proofs in the Workflow section of the [!UICONTROL Proof details] page. You can view the work done on each stage and modify, add, start and lock the stages on your proof.
+You can conveniently track the progress of your Automated Workflow proofs in the Workflow section of the [!UICONTROL Proof details] page. You can view the work done on each stage and modify, add, start and lock the stages on your proof.
 
 ## View an Automated Workflow
 

@@ -2,25 +2,21 @@
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: manage-your-work-workfront-proof
-title: View the Progress and Status of a Proof in [!DNL Workfront] Proof
+title: View the Progress and Status of a Proof in [!DNL Workfront Proof]
 description: Proof progress indicates the work done on a proof from the time you send the proof to reviewers to the time they make a decision on the proof.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 8fd85595-1403-490e-9d52-2ba5b01457b7
 ---
-# View the Progress and Status of a Proof in [!DNL Workfront] Proof
+# View the Progress and Status of a Proof in [!DNL Workfront Proof]
 
 >[!IMPORTANT]
 >
->This article refers to functionality in the standalone product [!DNL Workfront] Proof. For information on proofing inside [!DNL Adobe Workfront], see [Proofing](../../../review-and-approve-work/proofing/proofing.md).
+>This article refers to functionality in the standalone product [!DNL Workfront Proof]. For information on proofing inside [!DNL Adobe Workfront], see [Proofing](../../../review-and-approve-work/proofing/proofing.md).
 
 ## Understanding Proof Progress
 
 Proof progress indicates the work done on a proof from the time you send the proof to reviewers to the time they make a decision on the proof.
-
-<!--
-<p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Information in this article is also&nbsp;in Viewing the Progress and Status of a Proof in Workfront.</p>
--->
 
 * [Progress Icons](#progress-icons)
 * [Levels of Proof Progress](#levels-of-proof-progress)
@@ -66,26 +62,26 @@ These icons can appear in the following colors to indicate certain information a
 
 * **Green**. Complete.
 * **White**. Not complete.
-* **Orange**.&nbsp;Not&nbsp;complete and deadline is less than 24 hours.
-* **Red**. Not&nbsp;complete and past the deadline.
+* **Orange**. Not complete and deadline is less than 24 hours.
+* **Red**. Not complete and past the deadline.
 
 ### Levels of Proof Progress {#levels-of-proof-progress}
 
 Workfront Proof uses the progress icons to track a proof's progress at each of the following levels:
 
-* For each reviewer, based on that person's activity on the proof.&nbsp;
+* For each reviewer, based on that person's activity on the proof. 
 * For each stage, based on the progress the reviewer on the stage who is most behind in the proofing process. For more information, see [Automated Workflow Stages overview](../../../review-and-approve-work/proofing/proofing-overview/stages.md).
 * For the proof, based on the progress of the stage (group of reviewers) who is the most behind in the proofing process.
 
-For an example of how [!DNL Workfront] Proof determines progress using the reviewer or stage that is most behind,&nbsp;suppose three reviewers on a proof need to make a&nbsp;decision. If two of them have made their&nbsp;decision&nbsp;but the third has not, the progress bar for the proof does not show&nbsp;the D in green because of the outstanding&nbsp;decision.
+For an example of how [!DNL Workfront Proof] determines progress using the reviewer or stage that is most behind, suppose three reviewers on a proof need to make a decision. If two of them have made their decision but the third has not, the progress bar for the proof does not show the D in green because of the outstanding decision.
 
-If the [!UICONTROL Primary Decision Maker] setting is selected on a proof and the primary decision maker submits a decision, the D in the proof progress bar turns&nbsp;green for all reviewers because no other decisions are required.
+If the [!UICONTROL Primary Decision Maker] setting is selected on a proof and the primary decision maker submits a decision, the D in the proof progress bar turns green for all reviewers because no other decisions are required.
 
-Similarly, if the [!UICONTROL Only One Decision Required] setting is selected on a proof and any reviewer submits a decision, the D in the proof progress bar turns&nbsp;green for all reviewers because no other decisions are required.
+Similarly, if the [!UICONTROL Only One Decision Required] setting is selected on a proof and any reviewer submits a decision, the D in the proof progress bar turns green for all reviewers because no other decisions are required.
 
 ## Understanding Proof Status
 
-The proof status displays&nbsp;the status of decisions that are required for&nbsp;the proof.
+The proof status displays the status of decisions that are required for the proof.
 
 ![proof_edit_existing_status.png](assets/proof-edit-existing-status-350x78.png)\
 The standard status options are:
@@ -94,11 +90,11 @@ The standard status options are:
 * Approved
 * Approved with Changes
 * Changes Required
-* Not Relevant&nbsp;
+* Not Relevant 
 
-If custom decisions are configured in your account, the status options reflect your&nbsp;custom decision&nbsp;settings.
+If custom decisions are configured in your account, the status options reflect your custom decision settings.
 
-The status of the proof is driven by the “worst case” participant. For example, suppose&nbsp;there are three&nbsp;decisions&nbsp;on the proof: two have the status of **Accepted**&nbsp;and one has the status of **Rejected**. The "worst case" decision of Rejected over-rules the other decisions and the overall status of the proof is shown as **Rejected**.&nbsp;
+The status of the proof is driven by the "worst case" participant. For example, suppose there are three decisions on the proof: two have the status of **Accepted** and one has the status of **Rejected**. The "worst case" decision of Rejected over-rules the other decisions and the overall status of the proof is shown as **Rejected**. 
 
 ## Viewing Progress and Status {#viewing-progress-and-status}
 
@@ -127,7 +123,7 @@ The summary includes the following:
 * State (5)\
    ![summary_2.png](assets/summary-2-350x160.png)
 
-In the summary, you can view and edit&nbsp;the following details of your proof:
+In the summary, you can view and edit the following details of your proof:
 
 * Proof progress (1)
 * Progress of each stage (2)
@@ -142,27 +138,27 @@ In the summary, you can view and edit&nbsp;the following details of your proof:
 
 >[!NOTE]
 >
->&nbsp;Your ability to edit the proof details depends on youryour rights on the proof (see [Proof Permissions Profiles in Workfront Proof](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md) and [Manage Proof Roles in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md)).
+>Your ability to edit the proof details depends on youryour rights on the proof (see [Proof Permissions Profiles in [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md) and [Manage Proof Roles in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md)).
 
 ![summary_details_3.png](assets/summary-details-3-350x160.png)
 
-### Stage Actions Menu  {#stage-actions-menu}
+### [!UICONTROL Stage Actions] Menu  {#stage-actions-menu}
 
-Every stage of your workflow has a separate menu, allowing you to perform bulk actions related to the reviewers in&nbsp;that stage.
+Every stage of your workflow has a separate menu, allowing you to perform bulk actions related to the reviewers in that stage.
 
 The [!UICONTROL Stage actions] menu appears when you hover over the Stage section (1) and allows you to
 
-* Message all (2)
-* Share (3)
-* Delete stage (4)
+* [!UICONTROL Message all] (2)
+* [!UICONTROL Share] (3)
+* [!UICONTROL Delete stage] (4)
 
 >[!NOTE]
 >
->&nbsp;The availability&nbsp;of these options depends on your rights on the proof (see [Proof Permissions Profiles in [!DNL Workfront] Proof](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md) and [Manage Proof Roles in [!DNL Workfront] Proof](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md)).
+>The availability of these options depends on your rights on the proof (see [Proof Permissions Profiles in [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md) and [Manage Proof Roles in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md)).
 
 ![Stage_actions_menu.png](assets/stage-actions-menu-350x161.png)
 
-In the Summary section, you can also access the reviewer actions menus, provided you have edit rights on the proof. For more information, see [Proof Permissions Profiles in Workfront Proof](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md) and [Manage Proof Roles in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md).&nbsp;The Reviewer actions menu (1) appears when you hover over the Reviewer's details and allows you to:
+In the Summary section, you can also access the reviewer actions menus, provided you have edit rights on the proof. For more information, see [Proof Permissions Profiles in [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md) and [Manage Proof Roles in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md). The Reviewer actions menu (1) appears when you hover over the Reviewer's details and allows you to:
 
 * Send a message to the reviewer (2)
 * Edit reviewer's details (3)- lets you edit the display name, proof role and email alert for that reviewer
@@ -172,7 +168,7 @@ In the Summary section, you can also access the reviewer actions menus, provided
 
 >[!NOTE]
 >
->&nbsp;The visibility of these options depends on your rights on the proof (see [Proof Permissions Profiles in [!DNL Workfront] Proof](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md) and [Manage Proof Roles in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md)).
+>The visibility of these options depends on your rights on the proof (see [Proof Permissions Profiles in [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md) and [Manage Proof Roles in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md)).
 
 ![Reviewer_actions_menu.png](assets/reviewer-actions-menu-350x135.png)
 
@@ -196,7 +192,7 @@ Each proof also has a menu (1) that allows you to perform the below actions:
 
 >[!NOTE]
 >
->The availability of these options depends on your rights on the proof (see [Proof Permissions Profiles in [!DNL Workfront] Proof](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md) and [Manage Proof Roles in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md)).
+>The availability of these options depends on your rights on the proof (see [Proof Permissions Profiles in [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md) and [Manage Proof Roles in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md)).
 
 For information about viewing proof progress and status within [!DNL Workfront], see [Viewing Progress and Status](#viewing-progress-and-status).
 
