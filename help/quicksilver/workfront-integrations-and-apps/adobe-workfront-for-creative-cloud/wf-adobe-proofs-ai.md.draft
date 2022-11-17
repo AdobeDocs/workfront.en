@@ -1,13 +1,13 @@
 ---
 product-area: workfront-integrations;setup
 navigation-topic: adobe-workfront-for-creative-cloud
-title: Upload proofs from InDesign
+title: Upload proofs from Illustrator
 description: You can upload your art boards as documents for a quick review and approval or simply to store in Adobe Workfront.
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
-exl-id: ee3dc446-6886-4285-a942-4f44f5c0ac31
 ---
-# Upload proofs from [!DNL InDesign]
+
+# Upload proofs from [!DNL Illustrator]
 
 You can upload your art boards as proofs directly to [!DNL Adobe Workfront] for a thorough review and approval.
 
@@ -46,7 +46,7 @@ You must have the following access to perform the steps in this article:
 
 ## Prerequisites
 
-* You must install the [!DNL Adobe Workfront for design and video] plugin before you can upload proofs from [!DNL InDesign].
+* You must install the [!DNL Adobe Workfront for design and video] plugin before you can upload proofs from [!DNL Illustrator].
 
   For instructions, see [Install [!DNL Adobe Workfront for design and video]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-install-cc.md).
 
@@ -94,7 +94,7 @@ You must have the following access to perform the steps in this article:
 1. In the **[!UICONTROL Proof Approvals]** section, select **[!UICONTROL Automated]**.
 1. (Optional) In the **[!UICONTROL Workflow Template]** box, type the name of a proof workflow template.
 
-<!-- {{adjust-proof-settings}} -->
+{{adjust-proof-settings}}
 
 1. (Optional) Type a comment in the **[!UICONTROL Updates]** area.
 
