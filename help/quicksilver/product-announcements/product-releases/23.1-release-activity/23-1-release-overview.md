@@ -97,7 +97,7 @@ The enhancements on this page are available in the Preview environment. This pag
                 </tr>
                 <tr>
                     <td>
-                        <a href="../../../product-announcements/product-releases/23.1-release-activity/23-1-nov-7.md" class="MCXref xref" xrefformat="{para}">Card counter on board columns</a><span style="color: #ff0000;"> New in Preview!</span></p>
+                        <a href="../../../product-announcements/product-releases/23.1-release-activity/23-1-nov-14.md" class="MCXref xref" xrefformat="{para}">Card counter on board columns</a><span style="color: #ff0000;"> New in Preview!</span></p>
                         <p>A new configuration setting is available to turn on a card counter for all of the columns on a board. If you are using the WIP limit on a column, a separate card counter is not added.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
@@ -230,6 +230,24 @@ The enhancements on this page are available in the Preview environment. This pag
                     <td>
                         <p><span class="bold">Release dates</span>
                         </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-nov-14.md" class="MCXref xref" xrefformat="{para}">Introducing Adobe Workfront for design and video</a><span style="color: #ff0000;"> New in Production!</span></p>
+                        <p>We're excited to announce the expansion of our Adobe Workfront for InDesign plugin to include Adobe Premiere Pro, and After Effects. The plugin will be renamed to Adobe Workfront for design and video.</p>
+                        <p>The updated plugin, Adobe Workfront for design and video, will now support InDesign, Premiere Pro, and After Effects—with Illustrator soon to follow.</p>
+                        <p>This plugin allows you to access work item details, collaborate with coworkers in the Updates area, and log time–all without leaving your favorite Creative Cloud application. </p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                        <ul>
+                            <li>
+                                <p>Preview release:N/A<br /></p>
+                            </li>
+                            <li>
+                                <p><span class="preview">Production release: November 17, 2022</span></p>
+                            </li>
+                        </ul>
                     </td>
                 </tr>
                  <tr>
