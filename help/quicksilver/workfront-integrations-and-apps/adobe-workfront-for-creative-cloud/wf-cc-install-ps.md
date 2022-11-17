@@ -20,6 +20,7 @@ You can install the [!DNL Adobe Workfront for Adobe Photoshop] plugin from the [
 * Japanese
 * Simplified Chinese
 * Traditional Chinese
+<!-- * Korean -->
 
 ## Access requirements
 
