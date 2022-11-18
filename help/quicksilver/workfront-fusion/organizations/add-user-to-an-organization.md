@@ -12,9 +12,9 @@ exl-id: 98248cca-98f5-4eb5-b203-67e261df33f1
 
 >[!IMPORTANT]
 >
->The procedure described on this page applies only to organizations that have not yet been onboarded to the Admin Console. If your organization has been onboarded to the Adobe Admin Console, you must perform this action through the Adobe Admin Console.
+>The procedure described on this page applies only to organizations that have not yet been onboarded to the [!DNL Adobe Admin Console]. If your organization has been onboarded to the [!DNL Adobe Admin Console], you must perform this action through the [!DNL Adobe Admin Console].
 >
->For instructions on adding a user in the Adobe Admin Console, see the section "Edit user details" in the article [Manage users individually](https://helpx.adobe.com/enterprise/using/manage-users-individually.html) or contact your Adobe Admin Console Administrator.
+>For instructions on adding a user in the[!DNL  Adobe Admin Console], see the section "Edit user details" in the article [Manage users individually](https://helpx.adobe.com/enterprise/using/manage-users-individually.html) or contact your [!UICONTROL Adobe Admin Console] Administrator.
 
 <!--
 
@@ -31,34 +31,34 @@ You must have the following access to use the functionality in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>Pro or higher</p> </td> 
+    <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
+   <td> <p>[!DNL Pro] or higher</p> </td> 
   </tr> 
    <tr> 
-    <td role="rowheader">Adobe Workfront license*</td> 
-    <td> <p>Plan, Work</p> </td> 
+    <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
+    <td> <p>[!UICONTROL Plan], [!UICONTROL Work]</p> </td> 
    </tr>
    <tr> 
-   <td role="rowheader">Adobe Workfront Fusion license**</td> 
+   <td role="rowheader">[!UICONTROL Adobe Workfront Fusion] license**</td> 
    <td> <p>Workfront Fusion for Work Automation and Integration,</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
+   <td>Your organization must purchase [!DNL Adobe Workfront Fusion] as well as [!DNL Adobe Workfront] to use functionality described in this article.</td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Access level configurations*</td> 
    <td> 
-     <p>You must be a Workfront Fusion administrator for your organization.</p>
-     <p>You must be a Workfront Fusion administrator for your team.</p>
+     <p>You must be a [!DNL Workfront Fusion] administrator for your organization.</p>
+     <p>You must be a [!DNL Workfront Fusion] administrator for your team.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
 
-&#42;&#42;For information on Adobe Workfront Fusion licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
+For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Workfront Fusion] licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## Add users to an organization
 
@@ -86,19 +86,23 @@ You must have the following access to use the functionality in this article:
 
 -->
 
-To add users to the organization, you must be an administrator at the organization you want to add users to. For information about roles, see [Organization roles in Adobe Workfront Fusion](../../workfront-fusion/organizations/organization-roles.md).
+To add users to the organization, you must be an administrator at the organization you want to add users to. For information about roles, see [Organization roles in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/organizations/organization-roles.md).
 
 To add a user to the organization:
 
-1. Navigate to **Organizations** in the menu and select the organization you want to add a user to.
-1. Open the **Users** tab in your Dashboard.
-1. Click **Invite a new user**, fill out the form (Email, Message, Role), and send the invitation by clicking **Send**.
+1. Navigate to **[!UICONTROL Organizations]** in the menu and select the organization you want to add a user to.
+1. Open the **[!UICONTROL Users]** tab in your Dashboard.
+1. Click **[!UICONTROL Invite a new user]**, fill out the form (Email, Message, Role), and send the invitation by clicking **[!UICONTROL Send]**.
+ <!--
 
 >[!NOTE]
 >
->   <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
-   <p>If you do not see the Invite a new user button, your organization has been onboarded to the Adobe Business Platform. </p>
-   <p>For instructions on adding a user to an organization that has been onboarded to the Adobe Business Platform, see <a href="#add-a-user-to-an-organization-that-has-been-onboarded-to-the-adobe-business-platform" class="MCXref xref">Add a user to an organization that has been onboarded to the Adobe Business Platform</a></p>
+>   
+><p>If you do not see the [!UICONTROL Invite a new user] button, your organization has been onboarded to the [!DNL Adobe Business Platform.] </p>
+>
+>   <p>For instructions on adding a user to an organization that has been onboarded to the [!DNL Adobe Business Platform], see <a href="#add-a-user-to-an-organization-that-has-been-onboarded-to-the-adobe-business-platform" class="MCXref xref">Add a user to an organization that has been onboarded to the [!DNL Adobe Business Platform]</a></p>
    </div>
 
-   The user receives an invitation email where they can accept the invitation by clicking an Accept the Role button.
+-->
+
+The user receives an invitation email where they can accept the invitation by clicking an [!UICONTROL Accept the Role] button.
