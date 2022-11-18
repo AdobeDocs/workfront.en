@@ -2059,6 +2059,7 @@ feature-set: Workfront
     * [Microsoft Office 365 Excel modules](workfront-fusion/apps-and-their-modules/microsoft-365-excel-modules.md)
     * [Microsoft OneDrive for Business](workfront-fusion/apps-and-their-modules/microsoft-onedrive-for-business-modules.md)
     * [Microsoft OneDrive modules](workfront-fusion/apps-and-their-modules/microsoft-onedrive-modules.md)
+    * [Microsoft Power BI modules](workfront-fusion/apps-and-their-modules/powerbi-modules.md)
     * [Microsoft SQL Server modules](workfront-fusion/apps-and-their-modules/microsoft-sql-server-modules.md)
     * [MIME modules](workfront-fusion/apps-and-their-modules/mime.md)
     * [NetSuite modules](workfront-fusion/apps-and-their-modules/netsuite.md)
