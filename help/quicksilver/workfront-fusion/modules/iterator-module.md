@@ -50,7 +50,7 @@ For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Work
 
 You set up an [!UICONTROL Iterator] module the same you set up any other module. The [!UICONTROL Array] field contains the array to be converted or split into separate bundles.
 
-![](assets/set-up-Iterator-350x190.jpg)
+![](assets/set-up-iterator-350x190.jpg)
 
 For more information, see [Configure a module's settings in Adobe Workfront Fusion](../../workfront-fusion/modules/configure-a-modules-settings.md).
 
@@ -66,7 +66,7 @@ For more information, see [Configure a module's settings in Adobe Workfront Fusi
 >
 >* For your convenience, many [!DNL Workfront Fusion] apps offer specialized [!UICONTROL Iterator] modules with a simplified setup. For example, the [!UICONTROL Email] app contains the special [!UICONTROL Iterator] module [!UICONTROL Email] > [!UICONTROL Iterate attachments] that will produce the same results as the general [!UICONTROL Iterator] module.
 >
->   ![](assets/specialized-Iterators-350x135.jpg)
+>   ![](assets/specialized-iterators-350x135.jpg)
 
 
 ## Troubleshooting: Mapping panel does not display mappable items under [!UICONTROL Iterator] module
@@ -85,7 +85,7 @@ For example, if you have a [!UICONTROL JSON] > [!UICONTROL Parse JSON] module wi
 
 And then if you connect an [!UICONTROL Iterator] module to it, you will not be able to map the output of the module to the Array field in the setup panel of the [!UICONTROL Iterator] module :
 
-![](assets/connect-Iterator-module-350x146.png)
+![](assets/connect-iterator-module-350x146.png)
 
 To resolve this, manually start the scenario in the scenario editor. You can un-link the modules after the [!UICONTROL JSON] > [!UICONTROL Parse JSON] module to prevent the flow from proceeding further. Or you can right-click the [!UICONTROL JSON] > [!UICONTROL Parse JSON] module and choose **[!UICONTROL Run this module only]** from the context menu to execute only the [!UICONTROL JSON] > [!UICONTROL Parse JSON] module.
 
