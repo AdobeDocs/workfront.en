@@ -43,7 +43,7 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+*To find out what plan, license type, or access you have, contact your Workfront administrator.
 
 ## Considerations about moving issues
 
@@ -129,7 +129,14 @@ You can move one issue when viewing it.
      </tr> 
      <tr> 
       <td role="rowheader"><p>Documents</p></td> 
-      <td> <p><span style="line-height: 1.5;">Removes everything in the documents tab, including document versions, linked documents, and folders.</span> <br> </p> </td> 
+      <td> <p>Removes everything in the documents tab, including document versions, linked documents, and folders.
+      
+      <b>NOTE</b>
+     
+     If you opt to not have the documents moved with the issue, the documents will be deleted and placed in the Recycle Bin for 30 days. An administrator can restore them and they will be restored on the moved issue. 
+     
+     If the issue is deleted after it's moved, the restored documents will be placed in the Documents area of the user page of the administrator who restores them.
+      <br> </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Permissions</td> 
@@ -143,12 +150,11 @@ You can move one issue when viewing it.
    </table>
 
 
-    <!--drafted for dropped documents patch: add this to the Documents cell when it comes to Prev and Prod: 
-   <b>NOTE</b>
-   If you opt to not have the documents moved with the issue, the documents will be deleted and placed in the Recycle Bin for 30 days. An administrator can restore them and they will be restored on the moved issue. If the issue is deleted after it's moved, the restored documents will be placed in the Documents area of the user page of the administrator who restores them. 
-   -->
-
 1. (Optional) In the **Select Task** section, select the task where you want to move the issue. 
 1. Click **Move issue** or **Move issues**, if you selected multiple issues in a list.
 
    The moved issues are added to the specified project.
+
+
+
+
