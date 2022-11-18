@@ -11,9 +11,7 @@ exl-id: 7fa644cd-cf6a-40f8-ae28-bf222bb45d3f
 ---
 # Deprecation of Resource Scheduling tools in Adobe Workfront
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span>
-
-We are currently in the process of deprecating all Scheduling tools from Adobe Workfront and replacing them with the Workload Balancer.
+We are currently in the process of removing all Scheduling tools from Adobe Workfront and replacing them with the Workload Balancer.
 
 >[!IMPORTANT]
 >
@@ -56,7 +54,7 @@ The following is a timeline for the deprecation process of Resource Scheduling t
 
 * [2020.4 release (November 2020)](#2020-4-release-november-2020) 
 * [2021.4 release (October 2021)](#2021-4-release-october-2021) 
-* [2022.4 release (October 2022)](#20224-release-october-2022-tentative)
+* [2022.4 - 2023.1 releases (October 2022 - January 2023)](#2022-4-2023-1-releases)
 
 ### 2020.4 release (November 2020) {#2020-4-release-november-2020}
 
@@ -69,12 +67,12 @@ The following is a timeline for the deprecation process of Resource Scheduling t
 * Workload Balancer is set as default for any first-time user of Workfront
 * Enhanced filters that can be shared and include additional fields
 
-### 2022.4 release (October - November 2022) 
+### 2022.4 - 2023.1 releases (October 2022 - January 2023) {#2022-4-2023-1-releases}
 
-* No defects will be prioritized for a fix during or after the 2022.4 release
+* No defects will be prioritized for a fix during and after the 2022.4 or 2023.1 releases
 * <span class="preview"> All Scheduling areas are removed from the Preview environment </span> (**October 20, 2022**)
-* All Scheduling areas are removed from the Production environment (**November 10, 2022**)
-* The Workload Balancer is the only resource scheduling tool available in Workfront(**after November 10, 2022**)
+* All Scheduling areas are removed from the Production environment (**January 2023**)
+* The Workload Balancer is the only resource scheduling tool available in Workfront (after **January 2023**)
 
 ## Feature availability {#feature-availability}
 
@@ -332,9 +330,9 @@ In addition to existing features, the Workload Balancer has or will have new fun
    <td>&nbsp;</td> 
     
    <tr> 
-   <td><span>Add users to the project team <span class="preview">(relocated to the <b>People</b> tab of the project)</span></span> </td> 
+   <td>Add users to the project team (relocated to the <b>People</b> tab of the project) </td> 
    <td>✓</td> 
-   <td><span class="preview">✓</span> </td> 
+   <td>✓</td> 
    <td></td> 
    <td>&nbsp;</td> 
 

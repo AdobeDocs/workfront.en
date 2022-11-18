@@ -50,8 +50,7 @@ Beginning with the 2019.4 release, when creating a new user in Workfront, you ca
 
 ## Update email addresses of existing users in your Workfront instance
 
-As the Workfront administrator, you must update existing users who have matching email addresses that differ only by case. This is required for the future enhancements described in [Enhanced Authentication overview](../../../administration-and-setup/manage-workfront/security/get-started-enhanced-authentication.md).
-
+As the Workfront administrator, you must update existing users who have matching email addresses that differ only by case.
 To fix duplicate email addresses within a Workfront instance:
 
 1. Examine any duplicate users and decide which user is no longer needed.

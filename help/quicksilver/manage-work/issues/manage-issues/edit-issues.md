@@ -187,7 +187,14 @@ You can edit an issue using the Edit Issue or Issue Details areas. The following
      </tr> 
      <tr> 
       <td role="rowheader">Primary Contact</td> 
-      <td>By default, the Primary Contact is the creator of the issue. To modify this, start typing the name of any active user in Workfront, then select it from the list. An issue can have only one Primary Contact.<br> If you change the Primary Contact, the user who was the primary contact still has Manage access to the issue. You must manually remove this access under <strong>Project Actions</strong> &gt; <strong>Sharing</strong>.</td> 
+      <td>By default, the Primary Contact is the creator of the issue. To modify this, start typing the name of any active user in Workfront, then select it from the list. An issue can have only one Primary Contact.<br> If you change the Primary Contact, the original primary contact still has Manage access to the issue. You must manually remove this access from the Issue Access box, when sharing an issue.
+      
+      <b>TIP</b>
+
+      When adding a Primary Contact user, notice the avatar, the user's Primary Role, and their email address to distinguish between users with identical names. Users must be associated with at least one job role to view it as you add them.
+
+      
+      </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Commit Date and time</td> 
@@ -237,6 +244,10 @@ You can edit an issue using the Edit Issue or Issue Details areas. The following
 
     </tbody> 
    </table>
+
+    
+    
+  
 
 1. Click **Save** or continue editing the following sections.
 

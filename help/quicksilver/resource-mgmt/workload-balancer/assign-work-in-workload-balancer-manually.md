@@ -81,6 +81,10 @@ You can assign work items that have not yet been assigned to a user or reassign 
 
    * Start typing the name of a user, job role, or team that you want to assign to the item in the **Search people, role or teams** field, select it when it displays in the list, then click **Save**.
 
+   >[!TIP]
+   >
+   >When adding a user, notice the avatar, the user's Primary Role, and their email address to distinguish between users with identical names. Users must be associated with at least one job role to view it as you add them.      
+
      ![](assets/assignments-box-with-advanced-assignments-delegations-wb.png)
 
       >[!TIP]
@@ -116,7 +120,7 @@ You can assign work items that have not yet been assigned to a user or reassign 
 
    Double-click a daily or weekly allocation to modify the amount of time the user is allocated to the work item.
 
-   For information about modifying user allocations in the Workload Balancer, see the "Modify user allocations"&nbsp;section in the article [Manage user allocations in the Workload Balancer](../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
+   For information about modifying user allocations in the Workload Balancer, see the "Modify user allocations" section in the article [Manage user allocations in the Workload Balancer](../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
 
    For information about removing assignments from a work item using the Workload Balancer, see [Unassign work in the Workload Balancer](../../resource-mgmt/workload-balancer/unassign-work-in-workload-balancer.md).
 

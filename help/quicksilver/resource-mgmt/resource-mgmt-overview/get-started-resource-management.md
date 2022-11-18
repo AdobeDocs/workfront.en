@@ -56,7 +56,7 @@ Workfront has several sets of tools used to manage resources. Each tool has an i
     >[!CAUTION]
     >
     >
-    >We are no longer supporting the Resource Scheduling tools and they will be removed from Workfront on **November 10, 2022**. We recommend that you use the Workload Balancer for scheduling your resources. 
+    >We are no longer supporting the Resource Scheduling tools and they will be removed from Workfront in **January 2023**. We recommend that you use the Workload Balancer for scheduling your resources. 
     >
     >
     >* For information about scheduling resources using the Workload Balancer, see the section [The Workload Balancer](../../resource-mgmt/workload-balancer/workload-balancer.md).

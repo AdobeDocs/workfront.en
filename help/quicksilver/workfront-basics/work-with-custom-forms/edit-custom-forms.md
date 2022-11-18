@@ -120,7 +120,7 @@ Editing information on a custom form attached to an object is identical for all 
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this will need to be edited when the bulk edit for objects update in NW)</p>
 -->
 
-You can manually recalculate the custom fields of several objects by editing them in bulk.
+You can manually recalculate the custom fields of several objects by editing them in bulk from a list or report.
 
 1. Go to a list of objects that contain custom forms with calculated fields.
 1. Select the objects whose calculated custom fields you want to update.
@@ -129,10 +129,6 @@ You can manually recalculate the custom fields of several objects by editing the
 1. Click **Save** **Changes**.
 
    Workfront calculates all custom fields for all the selected objects.
-
->[!NOTE]
->
->You can recalculate all calculated custom fields for several projects in a list or report in bulk.
 
 >[!TIP]
 >

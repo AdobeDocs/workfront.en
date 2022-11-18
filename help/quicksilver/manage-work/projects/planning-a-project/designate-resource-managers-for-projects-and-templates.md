@@ -9,35 +9,29 @@ exl-id: ae2a89e7-8049-4ee6-9b28-ce247d3f2a6f
 ---
 # Designate Resource Managers for a project or template
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> -->
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span>
 
 <!--
-<p This article might have to be deleted when the Resource Manager field/ requirement will be forever removed from the system; right now it's still a requirement for Scheduler</p>
+<p This article might have to be deleted when the Resource Manager field/ requirement will be forever removed from the system; right now it's still a requirement for Scheduler - January 2023/p>
 -->
 
-You can designate Resource Managers for a project to indicate who is responsible for managing resources on the project. This is an informational field. 
+<!-- remove Prod and Prev references with Prod release - Jan 2023-->
 
-Designating Resource Managers for a project is a prerequisite for using the Scheduling tools in Adobe Workfront.
+You can designate Resource Managers for a project to indicate who is responsible for managing resources on the project. This is an informational field and it is not connected to any resource management tools, <span class="preview">in the Preview environment</span>. 
 
-<!-- drafted for res scheduling deprecation blurb for preview release - Oct 2022 - AND REMOVE THE CAUTION BELOW AT THAT TIME:   
+Designating Resource Managers for a project is a prerequisite for using the Scheduling tools in Adobe Workfront, in the Production environment.
+
+<!-- drafted for res scheduling deprecation blurb for preview release-->  
 >[!CAUTION]  
 >  
 >  
-> <span class="preview">The information in this article refers to the Adobe Workfront's Scheduling tools. The Scheduling areas have been removed from the Preview environment and will be removed from the Production environment on **November 10, 2022**. </span>  
-> <span class="preview"> Instead, you can schedule your resources in the Workload Balancer. </span>  
+> <span class="preview">Some of the information in this article refers to the Adobe Workfront's Scheduling tools. The Scheduling areas have been removed from the Preview environment and will be removed from the Production environment in **January 2023**. </span>  
+> <span class="preview"> Instead, you can schedule resources in the Workload Balancer. </span>  
 >  
->* <span class="preview"> For information about scheduling resources using the Workload Balancer, see the section [The Workload Balancer](../../resource-mgmt/workload-balancer/workload-balancer.md).</span>  
+>* <span class="preview"> For information about scheduling resources using the Workload Balancer, see the section [The Workload Balancer](../../../resource-mgmt/workload-balancer/workload-balancer.md).</span>  
 >  
->* <span class="preview"> For more information about the deprecation and removal of the Scheduling tools, see [Deprecation of Resource Scheduling tools in Adobe Workfront](../../resource-mgmt/resource-mgmt-overview/deprecate-resource-scheduling.md).</span> 
---> 
+>* <span class="preview"> For more information about the deprecation and removal of the Scheduling tools, see [Deprecation of Resource Scheduling tools in Adobe Workfront](../../../resource-mgmt/resource-mgmt-overview/deprecate-resource-scheduling.md).</span> 
 
->[!NOTE]
->
->We are no longer developing the Resource Scheduling tools and they will soon be removed from Adobe Workfront. We recommend that you use the Workload Balancer for scheduling your resources. 
->
->For information about scheduling resources using the new Workload Balancer, see the section [The Workload Balancer](../../../resource-mgmt/workload-balancer/workload-balancer.md).
->
->For more information about the timeline for removing the Resource Scheduling tools and replacing them with the Workload Balancer, see [Deprecation of Resource Scheduling tools in Adobe Workfront](../../../resource-mgmt/resource-mgmt-overview/deprecate-resource-scheduling.md).
 
 ## Access requirements
 
@@ -82,11 +76,11 @@ You must have the following access to perform the steps in this article:
 
 * You can designate up to 30 users as Resource Managers for an individual project or template.
 
-* <!--drafted for scheduling deprecation: In the Production environment,d--> Designating Resource Managers on projects is a prerequisite to allowing users to schedule resources for work on the project when using the Scheduling tools.
+* In the Production environment,designating Resource Managers on projects is a prerequisite to allowing users to schedule resources for work on the project when using the Scheduling tools.
 
   For information about resource scheduling, see [Resource Scheduling](../../../resource-mgmt/resource-scheduling/resource-scheduling-overview.md). 
 
-  <!--drafted for scheduling deprecation: <span class="preview">Scheduling tools have been removed from the Preview environment.</span> -->
+  <span class="preview">Scheduling tools have been removed from the Preview environment.</span>
 
 * Designating Resource Managers on projects is not a prerequisite to allowing users to schedule resources for work using the Workload Balancer.
 
@@ -101,11 +95,11 @@ You must have the following access to perform the steps in this article:
   For information about project teams, see [Manage the Project Team](../../../manage-work/projects/planning-a-project/manage-project-team.md).
 
 * You can designate Resource Managers for projects or for project templates. When you designate Resource Managers on a project template, any users you designate as Resource Managers on the template automatically become Resource Managers on any projects that are created using that template.
-* You can view the Resource Manager field in the following ways:
+* You can view the Resource Manager field in the following areas:
 
    * When editing a project, as described in this article.
-   * When editing a template. For informtion, as described in this article.
-   * When building project or template reports. For information, see  [Glossary of Adobe Workfront terminology](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
+   * When editing a template, as described in this article.
+   * When building project or template reports. For information about building reports, see [Create a custom report](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md). 
    * When creating or customizing a project or template view for a list. For more information, see [Views overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
 * You can quickly add or remove Resource Managers on multiple projects or templates by adding the Resource Manager field to a view of a list or a project and editing this field using in-line edit.

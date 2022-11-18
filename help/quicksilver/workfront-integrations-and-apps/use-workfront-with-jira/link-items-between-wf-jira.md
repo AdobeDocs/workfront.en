@@ -144,7 +144,7 @@ To manually link [!DNL Jira] issues to [!DNL Workfront] items:
 
 1. In [!DNL Jira], navigate to an issue that you want to manually link to the [!DNL Workfront] item.
 1. In the [!DNL Workfront] right panel, paste the **URL** or the **[!UICONTROL Reference Number]** of the [!DNL Workfront] item which you want to link to it.\
-   ![manually_link_items_Jira_WF.png](assets/manually-link-items-jira-wf-350x174.png)
+   ![manually_link_items_Jira_WF.png](assets/new-manually-link-items-jira-631x394.png)
 
 1. Click **[!UICONTROL Link]**.
 
@@ -162,7 +162,7 @@ To manually link [!DNL Jira] issues to [!DNL Workfront] items:
 
 For more information about enabling additional fields to display in the right panel, see [Configure field synchronization between [!DNL Jira] and [!DNL Workfront] Items](../../workfront-integrations-and-apps/use-workfront-with-jira/configure-workfront-for-jira.md#setting-up-field-synchronization) section in [Configure [!DNL Adobe Workfront for Jira]](../../workfront-integrations-and-apps/use-workfront-with-jira/configure-workfront-for-jira.md). A comment from the [!DNL Workfront] administrator associated with the integration is posted in the **[!DNL Workfront]** tab of the [!DNL Jira] issue to confirm that a new [!DNL Jira] item has been created. The comment contains a link to the [!DNL Jira] issue.
 
-![Jira_confirmation_of_the_Jira_issue_created_Workfront_tab.png](assets/jira-confirmation-of-the-jira-issue-created-workfront-tab-350x84.png)
+![Jira_confirmation_of_the_Jira_issue_created_Workfront_tab.png](assets/new-jira-confirmation-jira-issue-created-workfront-tab-1096x533.png)
 
 ## Unlink items between [!DNL Jira] and [!DNL Workfront]
 
@@ -180,5 +180,5 @@ To unlink a [!DNL Jira] issue from a [!DNL Workfront] item:
 
 1. In [!DNL Jira], navigate to an issue which is linked to a [!DNL Workfront] task or issue.
 1. Go to the [!DNL Workfront] right panel, and click the **[!UICONTROL Unlink]** icon, then click **[!UICONTROL Unlink]**.\
-   ![Jira_WF_unlink_icon.png](assets/jira-wf-unlink-icon-350x222.png)\
+   ![Jira_WF_unlink_icon.png](assets/new-jira-wf-unlink-icon-631x394.png)\
    The previously linked [!DNL Jira] and [!DNL Workfront] items are now unlinked. Any fields, comments, or documents that might be updated on them individually in the future are not updated on their previous counterpart in the other application. 

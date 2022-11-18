@@ -65,7 +65,7 @@ In your Intacct account, navigate to the **[!UICONTROL Company]** tab.
 1. Enter AzuquaMPP as the sender_id.
 1. (Optional) Enter a description for the connection
 
-### Set up a connection in Workfront Fusion {#set-up-a-connection-in-workfront-fusion}
+### Set up a connection in [!DNL Workfront Fusion] {#set-up-a-connection-in-workfront-fusion}
 
 You can create a connection to your [!DNL Intacct] account directly from inside an [!DNL Intacct] module.
 
@@ -86,7 +86,10 @@ If you see the map button above a field or function, you can use it to set varia
 
 ![](assets/map-toggle-350x74.png)
 
-### Make a custom API call
+* [[!UICONTROL Make a custom API call]](#uicontrol-make-a-custom-api-call)
+* [[!UICONTROL Search records]](#uicontrol-search-records)
+
+### [!UICONTROL Make a custom API call]
 
 This action module lets you make a custom authenticated call to the [!DNL Intacct] API. This way, you can create a data flow automation that can't be accomplished by the other [!DNL Intacct] modules.
 
@@ -105,7 +108,7 @@ This action module lets you make a custom authenticated call to the [!DNL Intacc
  </tbody> 
 </table>
 
-### Search records
+### [!UICONTROL Search records]
 
 This search module retrieves a list of records that match specific search criteria.
 

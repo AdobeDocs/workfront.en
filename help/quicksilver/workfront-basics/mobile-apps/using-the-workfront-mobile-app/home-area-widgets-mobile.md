@@ -9,9 +9,9 @@ exl-id: 36af1b05-4c95-4b8e-9b96-03b30fa9852c
 ---
 # Home area widgets
 
-The home area widgets for both iOS&nbsp;and Android help you find your work items quickly.
+The home area widgets for both iOS and Android help you find your work items quickly.
 
-![](assets/mobile-home-area-widgets-338x439.png)
+![Home area widgets](assets/mobile-home-area-widgets.png)
 
 **Due Today:** Shows the number of work items due today. Select the widget to see the list of items.
 

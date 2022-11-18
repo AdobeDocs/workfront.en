@@ -79,7 +79,19 @@ You must have the following to perform the steps in this article:
      </tr> 
      <tr> 
       <td role="rowheader">Typeahead </td> 
-      <td>Allows users to type the name of an object that exists in Workfront. A list of suggestions appears when the user starts typing.</td> 
+      <td>Allows users to type the name of an object that exists in Workfront. A list of suggestions appears when the user starts typing.
+      This field type supports the following objects:
+      <ul><li>User</li>
+      <li>Group</li>
+      <li>Job Role</li>
+      <li>Portfolio</li>
+      <li>Program</li>
+      <li>Project</li>
+      <li>Team</li>
+      <li>Template</li>
+      <li>Company</li>
+      </ul>      
+      </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Calculated</td> 
@@ -171,7 +183,7 @@ You must have the following to perform the steps in this article:
         <li>They belong to a group or groups that you specify</li> 
         <li>They are associated with a role or job title you specify</li> 
         <li>They belong to the same group as the person using the field</li> 
-       </ul> <p>You must define the filter for the object type you selected using Text Mode syntax. For instructions on creating a filter, see <a href="#add-a-custom-field-to-a-custom-form" class="MCXref xref">Add a custom field to a custom form</a> in the article <a href="#" class="MCXref xref" xrefformat="{para}">Add a custom field to a custom form</a>. For information about creating a filter using Text Mode, see the section <a href="../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md#editing2" class="MCXref xref">Edit text mode in a filter</a> in the article <a href="../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md" class="MCXref xref">Text Mode overview</a>. </p> <p><b>NOTE</b>:   
+       </ul> <p>You must define the filter for the object type you selected using Text Mode syntax. For information about creating a filter using Text Mode, see the section <a href="../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md#editing2" class="MCXref xref">Edit text mode in a filter</a> in the article <a href="../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md" class="MCXref xref">Text Mode overview</a>. </p> <p><b>NOTE</b>:   
         <ul> 
          <li>If you are editing an existing custom form, adding a filter to a Typeahead field does not remove any objects (outside the scope of the filter) that users have already added using the field.</li> 
          <li>This filter is not available on mobile devices. If you use the filter for a Typeahead field, the field will appear on users' mobile devices unaffected by the filter.</li> 

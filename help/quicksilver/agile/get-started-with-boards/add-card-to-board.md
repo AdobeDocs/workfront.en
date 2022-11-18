@@ -13,7 +13,7 @@ You can quickly add a card to a board and assign it to a member on the board. Th
 
 >[!NOTE]
 >
->The ad hoc cards on a board are not connected to work items in Adobe Workfront. For details about connected cards, see [Connected cards on boards](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
+>The ad hoc cards on a board are not connected to work items in Adobe Workfront. For details about connected cards, see [Use connected cards on boards](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
 
 ## Access requirements
 
@@ -94,9 +94,13 @@ An ad hoc card is not connected to a work item in Adobe Workfront.
 
 1. Click **Close** to add the card to the board.
 
-   The assignees, tags, due date, checklist counter, and estimated hours are displayed on the card.
+   The assignees, tags, due date, checklist counter, estimated hours, and status are displayed on the card.
 
-   ![Card added to board](assets/boards-sample-card-on-board-071822.png)
+   ![Card added to board](assets/boards-sample-card-on-board-110922.png)
+
+   >[!NOTE]
+   >
+   >Showing the status on a card is available only via the early feature opt-in. For details, see [Early feature opt-in for Adobe Workfront Boards](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md).
 
 ## Quick add an ad hoc card
 

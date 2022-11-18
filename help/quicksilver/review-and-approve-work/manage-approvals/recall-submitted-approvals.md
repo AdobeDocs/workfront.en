@@ -2,8 +2,8 @@
 product-area: projects
 navigation-topic: approvals
 title: Recall submitted approvals
-description: You can recall any of the following objects submitted for approval - EDIT ME.
-author: Courtney
+description: You can recall any of the following objects submitted for approval.
+author: Courtney and Alina
 feature: Work Management
 exl-id: 33df75f0-47d0-4848-8d9a-203f40d8831c
 ---
