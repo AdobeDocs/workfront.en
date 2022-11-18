@@ -59,11 +59,9 @@ To use [!DNL Google Team Drive] modules, you must have a [!DNL Google Team Drive
 
 ## [!DNL Google Team Drive] modules and their fields
 
->[!NOTE]
->
 When you configure [!DNL Google Team Drive] modules, [!DNL Workfront Fusion] displays the fields listed below. Along with these, additional [!DNL Google Team Drive] fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
 
->The module dialog fields that are displayed in **bold** (in the [!DNL Workfront Fusion] scenario, **not** in this documentation article) are mandatory.
+The module dialog fields that are displayed in **bold** (in the [!DNL Workfront Fusion] scenario, **not** in this documentation article) are mandatory.
 
 If you see the map button above a field or function, you can use it to set variables and functions for that field. For more information, see [Map information from one module to another in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
 

@@ -104,7 +104,7 @@ This scheduled trigger module starts a scenario when a record changes.
 ### Actions
 
 * [[!UICONTROL Create a record]](#uicontrol-create-a-record)
-* [!UICONTROL Make a custom API call](#uicontrol-make-a-custom-api-call)
+* [[!UICONTROL Make a custom API call]](#uicontrol-make-a-custom-api-call)
 * [[!UICONTROL Delete a record]](#uicontrol-delete-record)
 * [[!UICONTROL Perform an action]](#uicontrol-perform-an-action)
 * [[!UICONTROL Read a record]](#uicontrol-read-a-record)

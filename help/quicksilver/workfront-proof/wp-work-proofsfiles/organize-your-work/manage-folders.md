@@ -106,7 +106,7 @@ You can delete a folder from the following locations:
 
 ### Deleting a Folder from the [!UICONTROL Account Folders] Page {#deleting-a-folder-from-the-account-folders-page}
 
-1. Click **[!UICONTROL[Your account name] folders]** in the left navigation sidebar to access the [!UICONTROL Account folders] page.\
+1. Click **[!UICONTROL(Your account name) folders]** in the left navigation sidebar to access the [!UICONTROL Account folders] page.\
    You can also click the folder name in the **[!UICONTROL My folders]** list in the left sidebar to access the **[!UICONTROL Folder details]** page.
 
 1. Select the checkbox for one or more folders.

@@ -364,7 +364,7 @@ This action module adds one or more recipients to an existing envelope. If the e
    <td> <p>Select the account that contains the envelope where you want add recipients.</p> </td> 
   </tr> 
   <tr> 
-    <td[!UICONTROL >Envelope ID]</td>
+    <td>[!UICONTROL Envelope ID]</td>
     <td>Select the or map the ID of the envelope where you want to add the recipient.</td>
   </tr> 
   <tr data-mc-conditions="">

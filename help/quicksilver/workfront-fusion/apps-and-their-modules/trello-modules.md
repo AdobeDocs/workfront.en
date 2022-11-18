@@ -635,7 +635,7 @@ This action module creates a card in a selected list.
    <td> <p>Enter or map information for a file you to want to add as an attachment to the card.</p> 
     <ul> 
      <li>[!UICONTROL File name]: Enter or map the file name, including the file extension.</li> 
-     <li> <p>[!UICONTROL File data]: Enter or map the file data (from previous module, e.g. <strong>[!UICONTROL Dropbox] >[!UICONTROL Get a File] or [!UICONTROL Google Drive] >[!UICONTROL Get a File]</strong>)</p> <p>Note: There is a 10 MB file upload limit per attachment. However, [!UICONTROL Business Class] and [[!UICONTROL Trello Gold] members have a 250 MB file upload limit per attachment.</p> </li> 
+     <li> <p>[!UICONTROL File data]: Enter or map the file data (from previous module, e.g. <strong>[!UICONTROL Dropbox] &gt;[!UICONTROL Get a File] or [!UICONTROL Google Drive] &gt;[!UICONTROL Get a File]</strong>)</p> <p>Note: There is a 10 MB file upload limit per attachment. However, [!UICONTROL Business Class] and [[!UICONTROL Trello Gold] members have a 250 MB file upload limit per attachment.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 

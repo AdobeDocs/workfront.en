@@ -271,7 +271,7 @@ This action module makes one of the following conversions:
    <td>Select the object that you want to convert it to. This is the type that the object has after the conversion.</td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL &lt;Object&gt; ID<]/td> 
+   <td>[!UICONTROL &lt;Object&gt; ID]</td> 
    <td> <p>Enter the object's ID. </p> <p>Note: When entering the ID of an object, you can begin typing the name of the object, then select it from the list. The module then enters the appropriate ID into the field.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 

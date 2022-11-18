@@ -747,8 +747,6 @@ This action module changes the purpose of a channel
    <td>Select the type of channel that you want to change the purpose for.</td> 
   </tr> 
   <tr> 
->[!MORELIKETHIS]
->
    <td role="rowheader">[!UICONTROL Public] / [!UICONTROL Private] / [!UICONTROL Multiple IM Channel] / User</td> 
 
    <td>Select the channel or user that you want to change the purpose for.</td> 

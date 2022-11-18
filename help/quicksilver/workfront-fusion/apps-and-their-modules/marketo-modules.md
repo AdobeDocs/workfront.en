@@ -4,7 +4,7 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 keywords: connector
 navigation-topic: apps-and-their-modules
-title: [!DNL Marketo] modules
+title: Marketo modules
 description: In an [!DNL Adobe Workfront Fusion] scenario, you can automate workflows that use [!DNL Marketo], as well as connect it to multiple third-party applications and services.
 author: Becky
 feature: Workfront Fusion

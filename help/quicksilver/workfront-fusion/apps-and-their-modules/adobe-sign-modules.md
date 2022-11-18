@@ -306,7 +306,7 @@ This action module creates a new record of the selected type.
      <li> <p><b>[!UICONTROL Group ID]</b> </p> <p>Enter the ID of the group to which the web form belongs. If nothing is entered, the web form belongs to the primary group of the account user.</p> </li> 
      <li> <p><b>[!UICONTROL Last event date]</b> </p> <p>Enter the date that the last event occurred on the web form. Use the format <code>yyyy-MM-dd'T'HH:mm:ssZ</code>.</p> </li> 
      <li> <p><b>[!UICONTROL Locale]</b> </p> <p>Enter the locale of the user. This determines the language of the UI. </p> </li> 
-     <li> <p><b>[!UICONTROL Security option<]/b> </p> <p>Enter the password used to secure the document. You must separately communicate this password to any relevant parties.</p> </li> 
+     <li> <p><b>[!UICONTROL Security optio]n</b> </p> <p>Enter the password used to secure the document. You must separately communicate this password to any relevant parties.</p> </li> 
      <li> <p><b>[!UICONTROL Vaulting info]</b> </p> <p>If your account is set up for document vaulting and the option to enable per agreement, you can enable this option to vault this agreement.</p> </li> 
     </ul> </td> 
   </tr> 

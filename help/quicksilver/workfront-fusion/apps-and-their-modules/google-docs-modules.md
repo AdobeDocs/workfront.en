@@ -4,7 +4,7 @@ product-previous: workfront-fusion
 product-area: workfront-integrations;documents
 keywords: connector
 navigation-topic: apps-and-their-modules
-title: [!DNL Google Docs] modules
+title: Google Docs modules
 description: The Adobe Workfront Fusion [!DNL Google Docs] modules enable you to monitor, create, edit and retrieve documents in your [!DNL Google Docs] and [!DNL Google Docs] (for [!DNL G Suite] users).
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
@@ -349,7 +349,7 @@ This action module inserts an image from the URL to the document.
    <td role="rowheader"> <p>[!UICONTROL Select a Document]</p> </td> 
    <td> 
     <ul> 
-     <li><strong>[!UICONTROL By Mapping<]/strong> <br>Select this option to map the document template.</li> 
+     <li><strong>[!UICONTROL By Mapping]</strong> <br>Select this option to map the document template.</li> 
      <li><strong>[!UICONTROL By Dropdown]</strong> <br> Select this option to choose the document from the drop-down menu.</li> 
     </ul> </td> 
   </tr> 

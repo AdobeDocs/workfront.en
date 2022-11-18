@@ -628,7 +628,7 @@ This action module deletes the specified table from an [!DNL Excel] worksheet.
  </tbody> 
 </table>
 
-### Other}
+### Other
 
 * [[!UICONTROL Retrieve data]](#uicontrol-retrieve-data)
 * [[!UICONTROL Make an API Call]](#uicontrol-make-an-api-call)
