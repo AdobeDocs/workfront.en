@@ -9,8 +9,8 @@ title: Power BI Modules
 description: Adobe Workfront Fusion requires an Adobe Workfront Fusion license in addition to an Adobe Workfront license.
 author: Becky
 hidefromtoc: true
+exl-id: 01405f5f-6821-4c38-b34c-373922f63004
 ---
-
 # [!DNL Power BI] Modules
 
 [!DNL Power BI] is an application that allows you to visualize and present data to your stakeholders. It can take data from a variety of sources.
@@ -954,5 +954,3 @@ This action module performs an API call to the [!DNL Power BI] API.
      </div> </p> </td>     </tr>
   </tbody>
 </table>
-
-
