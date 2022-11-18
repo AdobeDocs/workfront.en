@@ -85,13 +85,13 @@ To move a task displayed in a task list:
    </MadCap:conditionalText>
    -->
 
-## Move a task&nbsp;at the task level {#move-a-task-at-the-task-level}
+## Move a task at the task level {#move-a-task-at-the-task-level}
 
 In addition to moving tasks from a list of tasks, you can also move a task at the task level, after you have opened it.&nbsp;
 
 1. Find a task in your Workfront system by searching for it.
-1. Click the name of the task to open it.&nbsp;
-1. Click the **More** drop-down menu ![](assets/qs-more-menu.png) next to the name of the task, then click **Move****to**. The Move Task box displays.
+1. Click the name of the task to open it.
+1. Click the **More** drop-down menu ![](assets/qs-more-menu.png) next to the name of the task, then click **Move to**. The Move Task box displays.
 
    ![](assets/move-task-at-task-level-nwe-350x222.png)
 
@@ -104,7 +104,7 @@ In addition to moving tasks from a list of tasks, you can also move a task at th
    >
    >![](assets/move-task-multiple-tasks-box-with-list-of-task-names-nwe-350x142.png)
 
-1. Type the name of the **Destination Project**&nbsp;where you want the task to move&nbsp;in the **Select Destination Project** field.&nbsp;
+1. Type the name of the **Destination Project** where you want the task to move in the **Select Destination Project** field.
 
    If you want to move the task within the same project, type the name of the current project.
 
@@ -114,7 +114,7 @@ In addition to moving tasks from a list of tasks, you can also move a task at th
    >* You can also start typing the Reference Number or enter the ID of the project. This might help you distinguish between projects with identical names. 
    >* Only 100 projects display in the list.
 
-1. (Conditional)&nbsp;Click&nbsp;**request access** to request access to the project, if you don't have access to the selected project. 
+1. (Conditional) Click **Request access** to request access to the project, if you don't have access to the selected project. 
 1. (Conditional) Continue to move the task to the selected destination project without requesting access if you have access to add tasks to one of the tasks on the destination project.
 
    ![](assets/move-task-request-access-from-project-nwe-350x120.png)
@@ -175,7 +175,7 @@ In addition to moving tasks from a list of tasks, you can also move a task at th
       <td>The financial information of the task is removed and the Workfront updates the task&nbsp;Cost Type to No Cost and the task Revenue Type as Not Billable. </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">All&nbsp;Predecessors</td> 
+      <td role="rowheader">All Predecessors</td> 
       <td> <p>When selected, the dependency becomes a cross-project predecessor when you move the task to another project. </p> </td> 
      </tr> 
      <tr> 
@@ -197,6 +197,12 @@ In addition to moving tasks from a list of tasks, you can also move a task at th
     </tbody> 
    </table>
 
+
+   <!--drafted for dropped documents patch: add this to the Documents cell when it comes to Prev and Prod: 
+   <b>NOTE</b>
+   If you opt to not have the documents moved with the task, the documents will be deleted and placed in the Recycle Bin for 30 days. An administrator can restore them and they will be restored on the moved task. If the task is deleted after it's moved, the restored documents will be placed in the Documents area of the user page of the administrator who restores them. 
+   -->
+
 1. (Optional) Click **Select Parent** in the left panel
 
    Or
@@ -216,13 +222,13 @@ In addition to moving tasks from a list of tasks, you can also move a task at th
 
    ![Select parent task when moving a task with search functionality ](assets/select-parent-when-moving-tasks-with-search-functionality-nwe-350x110.png)
 
-1. Select the radio button for the parent, after you have found it.&nbsp;
+1. Select the radio button for the parent, after you have found it.
 
-   If you do not select a parent task, the tasks are moved&nbsp;as main tasks rather than subtasks and they&nbsp;will be placed at the end of the task list on the destination project.&nbsp;
+   If you do not select a parent task, the tasks are moved as main tasks rather than subtasks and they will be placed at the end of the task list on the destination project.
 
 1. Click **Move task**
 
    Or
 
    Click **Move tasks** when you select multiple tasks in a list. 
-   The moved&nbsp;tasks are&nbsp;now on the specified project and&nbsp;are either subtasks to a parent task, or the last tasks on the project.
+   The moved tasks are now on the specified project and are either subtasks to a parent task, or the last tasks on the project.

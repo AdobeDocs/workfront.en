@@ -25,3 +25,4 @@ This section contains the following articles:
 * [View, edit, and delete Adobe Workfront Fusion templates](../../../workfront-fusion/scenarios/templates/view-edit-and-delete-fusion-templates.md) 
 * [Adobe Workfront Fusion Templates administration](../../../workfront-fusion/scenarios/templates/fusion-templates-adminstration.md) 
 * [Adobe Workfront Fusion templates FAQs](../../../workfront-fusion/scenarios/templates/fusion-templates-faqs.md)
+* [Currently available Adobe Workfront Fusion templates](../../../workfront-fusion/scenarios/templates/currently-available-fusion-templates.md)

@@ -4,8 +4,8 @@ description: Migrate from the legacy or enhanced connectors
 author: Courtney
 draft: Probably
 feature: Digital Content and Documents, Workfront Integrations and Apps
+exl-id: fe407134-1265-4c84-aac7-10a303afe0fb
 ---
-
 # Migrate from the legacy or enhanced connectors
 
 * [Migrate from the legacy or enhanced connector to Workfront for Adobe Experience Manager as a Cloud Service integration](/help/quicksilver/documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/migrate-from-legacy-enhanced-connectors.md)

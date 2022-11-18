@@ -5,8 +5,8 @@ title: Uninstall the Workfront for Adobe Experience Manager enhanced connector
 description: You must uninstall the Workfront with Adobe Experience Manager enhanced connector to the latest native integration connecting Workfront and Adobe Experience Manager Assets as a Cloud Service.
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
+exl-id: c6203c71-a4c4-41ee-ac4e-57137661e5b3
 ---
-
 # Uninstall the Workfront with Adobe Experience Manager enhanced connector
 
 You must uninstall the Workfront with Adobe Experience Manager enhanced connector to the latest native integration connecting Workfront and Adobe Experience Manager Assets as a Cloud Service.

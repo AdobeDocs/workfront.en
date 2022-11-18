@@ -2,13 +2,11 @@
 product-area: documents;workfront-integrations
 navigation-topic: adobe-workfront-for-experince-manager-asset-essentials
 title: Adobe Experience Manager Assets integrations
-description: You can connect your work with the following Adobe Experience Manager Assets Integrations - EDIT ME.
+description: You can connect your work with the following Adobe Experience Manager Assets Integrations.
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: bc58cc77-a177-417f-a5a4-eec51e305219
 ---
 # Configure the Experience Manager Assets as a Cloud Service integration
-
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.</span>
 
 You can connect your work with your content in Experience Manager Assets​:
 
@@ -69,11 +67,6 @@ Before you begin,
 1. Select **Add Experience Manager Integration**.
 1. In the **Name** field, enter the name you want users to see when interacting with this integration in Workfront and Experience Manager Assets.
 1. In the **Navigation URL** field, the system automatically populates the Navigation URL. This URL is used to link to your organization's Experience Manager instance from the Main Menu for quick access.
-
-    >[!TIP]
-    >
-    >You can change the end of the populated URL to direct users into a specific folder from the Assets icon in the Main Menu.
-
 1. Choose a repository from the **Experience Manager Assets repository** drop-down menu. The system automatically populates any Experience Manager repositories associated with the Organization ID that your user profile is assigned to.
 ![choose experience manager repository](assets/setup-information.png)
 
@@ -101,7 +94,13 @@ You can map Workfront object data to asset media fields in Experience Manager As
 
 ### Assets
 
-Metadata maps when an asset is pushed from Workfront for the first time. Documents with the built-in or custom fields automatically map to the specified fields the first time an asset is sent to Experience Manager Assets.
+Metadata maps when an asset is pushed from Workfront for the first time. Documents with the built-in or custom fields automatically map to the specified fields the first time an asset is sent to Experience Manager Assets. 
+
+>[!NOTE]
+>
+>This integration does not support custom metadata from Adobe Experience Manager.
+
+To map metadata for assets: 
 
 1. Select **Assets** above the metadata table.
 1. In the **Workfront field** column, choose a built-in or custom Workfront field.
@@ -119,6 +118,12 @@ Metadata maps when an asset is pushed from Workfront for the first time. Documen
 
 When users create a linked folder on a project, the associated project, portfolio, and program data is mapped to folder metadata fields in Experience Manager Assets.
 
+>[!NOTE]
+>
+>This integration does not support custom metadata from Adobe Experience Manager.
+
+To map metadata for folders:
+
 1. Select **Folders** above the metadata table.
 1. In the **Workfront field** column, choose a built-in or custom Workfront field.
 
@@ -132,17 +137,15 @@ When users create a linked folder on a project, the associated project, portfoli
 1. Click **Save** or move on to the [Project metadata sync](#project-metadata-sync) section in this article.
 
 
-### Project metadata sync
+### Object metadata sync
 
-An Experience Manager fields that is mapped to Workfront project fields update automatically when the field is changed in Workfront.
-
-<span class="preview">In the Preview environment, an Experience Manager fields that is mapped to Workfront portfilio, program, project, task, issue, and document fields update automatically when the field is changed in Workfront.</span>
+An Experience Manager fields that is mapped to Workfront portfolio, program, project, task, issue, and document fields update automatically when the field is changed in Workfront.
 
 >[!IMPORTANT]
 >
 >Users must have write access in Experience Manager for assets living in the object in order for the metadata to sync when it's updated.
 
-1. Enable the **Sync Project metadata** field.
+1. Enable the **Sync object metadata** field.
 1. Click Save or move on to the [Set up linked folders (Optional)](#set-up-linked-folders-optional) section in this article.
 
 ## Set up linked folders (Optional)

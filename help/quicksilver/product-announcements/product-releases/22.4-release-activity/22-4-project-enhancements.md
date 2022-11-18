@@ -4,8 +4,8 @@ description: 22.4 Project enhancements
 author: Luke
 draft: Probably
 feature: Product Announcements
+exl-id: 41372dd8-5002-4f8b-a5ac-a577c8b05d11
 ---
-
 # 22.4 Project enhancements
 
 This page describes all Project enhancements made with the 22.4 release to the Preview environment. These enhancements will be made available the week of October 3, 2022. 

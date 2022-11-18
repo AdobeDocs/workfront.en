@@ -69,7 +69,7 @@ Before goals reach a progress of In&nbsp;Trouble, you can monitor them often and
 Before your goals reach a progress of In Trouble, we recommend the following:
 
 * Review goals that are have a progress of At Risk often that are assigned to you as well as organizational goals that are assigned to your teams, groups, or to your organization which might be affected by the progress of your goals. At-risk goals are in danger of becoming in-trouble goals. The at-risk goals are marked by a yellow progress bar. Use the Goal List and the Pulse sections to view goals that belong to you, your teams, groups, or your organization. 
-* Review at-risk goals in the Check-in section if you want to view just goals where you are the owner and check in on them to update their progress.&nbsp;For information about checking in on goals, see [Check in on goals in Adobe Workfront Goals](../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md).
+* Review at-risk goals in the Check-in section if you want to view just goals where you are the owner and check in on them to update their progress.&nbsp;For information about checking in on goals, see [Update goals by using Check-in in Adobe Workfront Goals](../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md).
 
 ## Review in-trouble goals in the Goal List
 
@@ -116,4 +116,4 @@ This article describes how to review goals in the Goal List.
    ![](assets/expanded-goal-w-contributing-items-attached-350x105.png)
 
 1. (Optional) Click **Print** to export the list of the in-trouble goals in various formats and share it with others. For information about printing goal lists, see [Print the Goal List in Adobe Workfront Goals](../../workfront-goals/goal-management/print-the-goal-list.md). 
-1. Click a **goal name** to open the Goal Details panel, then click **Check in** to update the progress of the Results or Activities associated with the delayed goals. This updates the goals' progress as well. For information about updating the progress of results and activities to check in a goal, see [Check in on goals in Adobe Workfront Goals](../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md).
+1. Click a **goal name** to open the Goal Details panel, then click **Check in** to update the progress of the Results or Activities associated with the delayed goals. This updates the goals' progress as well. For information about updating the progress of results and activities to check in a goal, see [Update goals by using Check-in in Adobe Workfront Goals](../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md).

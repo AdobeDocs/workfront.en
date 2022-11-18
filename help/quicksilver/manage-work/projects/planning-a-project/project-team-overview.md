@@ -3,22 +3,20 @@ content-type: overview
 product-area: projects;agile-and-teams
 navigation-topic: plan-a-project
 title: Project Team overview
-description: A project team is a group of users associated with a project. Users listed under the People area of a project are the users who make up the project team.
+description: The Project Team is a group of users associated with a project. Users listed under the People area of a project are the users who make up the Project Team.
 author: Alina
 feature: Work Management
 exl-id: ceb25fb1-57fc-476c-b92c-fc41aadc0b5b
 ---
 # Project Team overview
 
-<!--
-<This also links here - some information is duplicated between these 2 articles, so update both: https://workfront.zendesk.com/hc/en-us/articles/217238917) </p>
--->
-
 A project team is a group of users associated with a project. Users listed under the People area of a project are the users who make up the project team.
 
 ## Project Team members
 
-You can assign users to a project team either manually or automatically. For more information see the section "Add users to a Project Team" in the article [Manage the Project Team](../../../manage-work/projects/planning-a-project/manage-project-team.md).
+You can assign users to a project team either manually or automatically. For more information, see the section "Add users to a Project Team" in the article [Manage the Project Team](../../../manage-work/projects/planning-a-project/manage-project-team.md).
+
+When you add users to the Project Team manually, they receive View permissions to the project as well as the tasks, issues, and documents of the project. 
 
 ## Notifications to Project Team members
 
@@ -41,7 +39,7 @@ If you don't want to require the user to be on the project team for role-based a
 
 ## Projects I'm On filter
 
-If a user is listed on the People area of a project, that project appears in a list of projects when you apply the Projects I'm On filter in the Projects area.
+If a user is listed in the People area of a project, that project appears when they apply the Projects I'm On filter in a list of projects or a project report.
 
 You can see if the Projects I'm On filter is selected in the Projects area header. You can apply it from the Filters panel or from the header.
 

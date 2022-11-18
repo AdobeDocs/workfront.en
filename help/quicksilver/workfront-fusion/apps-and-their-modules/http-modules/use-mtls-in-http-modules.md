@@ -70,26 +70,41 @@ When you connect to a web service with an HTTP request, the web service usually 
 
 For instructions on uploading the Adobe Workfront Fusion public certificate to a web service, see the web service's documentation.
 
+>[!NOTE]
+>
+>You may need to provide other information in addition to the certificate. For information on what a web service requires, see the web service's API documentation.
+
 You can use the following links to download the Workfront Fusion public certificates:
 
-### Certificates for the year November 17, 2021 - November 17, 2022
+### Certificates for November 14, 2022 - July 15, 2023
+
+>[!IMPORTANT]
+>
+>These Workfront Fusion public certificates expire on July 15, 2023. After yours expires you will need to upload a new certificate to the web service. We recommend that you:
+>
+>* Make note of the expiration date and set a reminder for yourself to upload the certificate to your web service.
+>* Bookmark this page to easily find the new certificates.
+>
+
+* [Download Workfront Fusion Certificate 2023](https://cdn.experience.workfront.com/Documentation/Workfront+Fusion/app_workfrontfusion_com-jul-15-2023.cer)
+* [Download Workfront Fusion EU Certificate 2023](https://cdn.experience.workfront.com/Documentation/Workfront+Fusion/app-eu_workfrontfusion_com-jul-15-2023.cer)
+
+   For use in the EU 
+
+<!--
+
+### Certificates for November 17, 2021 - November 14, 2022
+
+>[!IMPORTANT]
+>
+>These certificates expire on November 14, 2022. Upload the new certificates to the web service as soon as possible.
 
 * [Download Workfront Fusion Certificate 2022](https://cdn.experience.workfront.com/Documentation/Workfront+Fusion+2.0+public+certificates/app_workfrontfusion_com_certificate-chain-2022.crt) 
 * [Download Workfront Fusion EU Certificate 2022](https://cdn.experience.workfront.com/Documentation/Workfront+Fusion+2.0+public+certificates/app-eu_workfrontfusion_com_certificate-chain-2022.crt)
 
   For use in the EU
 
->[!IMPORTANT]
->
->Workfront Fusion public certificates expire annually. After yours expires you will need to upload a new certificate to the web service. We recommend that you:
->
->* Make note of the expiration date and set a reminder for yourself to upload the certificate to your web service.
->* Bookmark this page to easily find the new certificates.
->
-
->[!NOTE]
->
->You may need to provide other information in addition to the certificate. For information on what a web service requires, see the web service's API documentation.
+  -->
 
 ## Enabling Mutual TLS&nbsp;in Workfront Fusion HTTP modules
 

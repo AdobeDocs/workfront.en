@@ -2,7 +2,7 @@
 product-area: resource-management
 navigation-topic: the-workload-balancer
 title: Assign work in bulk using the Workload Balancer
-description: Assign work in bulk using the Workload Balancer
+description: You can manually assign work items to users using the Adobe Workfront Workload Balancer.
 author: Alina
 feature: Resource Management
 exl-id: fb0f80d3-7da4-4f5f-857d-3fb518ba12e2
@@ -148,7 +148,17 @@ To assign a user to work items previously assigned to job roles:
       >Only the first 50 users are listed in the Other Assignments area.
 
 
-   Workfront displays a note about the number of items where the user you specified will be assigned and what job role they will replace.
+   After selecting a user, Workfront displays a note about the number of items where the user you specified will be assigned and what job role they will replace.
+
+   >[!TIP]
+   >
+   >   Each user's primary role displays in the list under the user's name.
+
+   <!--drafted for Pandora story about showing primary AND secondary user roles in this list: replace the tip above with this, and add preview blurb at the top: 
+   
+   <span class="preview">All the roles of the user display in the list, under the user's name.</span>
+   -->
+
 
 1. Click **Assign**.
 

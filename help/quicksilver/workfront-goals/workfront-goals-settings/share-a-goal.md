@@ -9,6 +9,9 @@ exl-id: 747449cf-9092-4b9f-9add-db2e7d3fab48
 ---
 # Share a goal in Workfront Goals
 
+<!--drafted for goal redesign: 
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> -->
+
 When you share a goal you give Manage permissions to a goal to someone who did not create it.
 
 ## Access requirements
@@ -62,29 +65,38 @@ Before you begin, you must have the following:
 
 * Users can have the following permissions to a goal:
 
-<table style="table-layout:auto"> 
- <col> 
- </col> 
- <col> 
- </col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">View</td> 
-   <td>In this case, users have permissions to view the goal, but they cannot edit information for the goal, they cannot add or edit information for results, or activities, update status, or delete the goal. By default, all users with access to Goals can view all goals in the system. Users can copy the goal, if they have Edit access to Goals in their access level. </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Manage</td> 
-   <td> <p>Users can edit all information for the goal, including for the results, or activities, including delete them. Only goal creators or users who are specifically given&nbsp;Manage permissions to a goal can manage a goal. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+   <table style="table-layout:auto"> 
+   <col> 
+   </col> 
+   <col> 
+   </col> 
+   <tbody> 
+   <tr> 
+      <td role="rowheader"><p><b>Goal permissions</b></p></td> 
+      <td>
+      <p><b>Description</b></p> </td> 
+   </tr> 
+   <tr> 
+      <td role="rowheader"><p>View</p></td> 
+      <td>
+      <p>Users have permissions to view the goal, but they cannot edit information for the goal, they cannot add or edit information for results, or activities, update status, or delete the goal.</p>      
+      <p>By default, all users with access to Goals can view all goals in the system. Users can copy the goal, if they have Edit access to Goals in their access level.</p> </td> 
+   </tr> 
+   <tr> 
+      <td role="rowheader"><p>Manage</p></td> 
+      <td> <p>Users can edit all information for the goal, including for the results, or activities, including delete them.</p> 
+      <p>Only goal creators or users who are specifically given Manage permissions to a goal can manage a goal.</p> 
+      Only users with Manage permissions to a goal can share the goal with others to give them Manage permissions to the goal. </p> </td> 
+   </tr> 
+   </tbody> 
+   </table>
 
 * You can share the following types of goals with others:
 
    * A goal you created 
    * A goal created by someone else to which you were given permissions to Manage.
 
-* If you have Manage permissions to a goal, you can change the permissions on the goal for the goal creator. By default, they have&nbsp;Manage permissions when they create the goal, but you can change them to View.
+* If you have Manage permissions to a goal, you can change the permissions on the goal for the goal creator. By default, they have Manage permissions when they create the goal, but you can change them to View.
 
 ## Share a goal
 
@@ -97,15 +109,23 @@ Before you begin, you must have the following:
 
 1. Click the name of a goal in the list. The Goal Details panel opens.
 
+   <!--drafted for goal redesign: 
+   In the Production environment, the Goal Details panel opens. 
+   <span class="preview">In the Preview environment, the goal page opens.</span>-->
+
    >[!TIP]
    >
-   >You can click the name of a list from any section in the Goals area to open the Goal Details panel.
+   >You can click the name of a goal from any section in the Goals area to open the Goal Details panel <!--or the goal page-->.
+
+   <!--above, drafted for goal redesign: remove "Goal Details panel" from above at Production--> 
 
 1. Click the **More icon** next to the goal name, then click **Share**.
 
    ![](assets/more-menu-highlighted-goal-details-panel-with-share-link-350x156.png)
 
-   The Goal&nbsp;Access box displays.
+   <!--drafted for goal redesign: update the screen shot above at preview and highlight the picture in yellow-->
+
+   The Goal Access box displays.
 
    ![](assets/goal-access-sharing-box-manage-system-wide-deselected-350x400.png)
 
