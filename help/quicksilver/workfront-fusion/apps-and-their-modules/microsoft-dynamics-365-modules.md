@@ -16,7 +16,7 @@ In an [!DNL Adobe Workfront Fusion] scenario, you can automate workflows that us
 
 >[!NOTE]
 >
->The Microsoft Dynamics 365 connector does not support Dynamics Finance and Operations.
+>The [!DNL Microsoft Dynamics 365] connector does not support [!DNL Dynamics Finance and Operations].
 
 If you need instructions on creating a scenario, see [Create a scenario in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
 
