@@ -25,8 +25,7 @@ A group administrator can also restore these objects for a group they manage.
 >* If you delete a report, dashboard, user, group, or team, it can't be restored.
 >* In a group, when someone other than the group administrator uploads a document directly to the Documents area of an object, only a Workfront administrator can restore the document.
 >
->* If you move a task or an issue and choose not to also move the documents attached to the task or the issue, the documents are deleted and placed in the Recycle Bin for 30 days. An administrator can restore them and they will be reattached to the moved task or issue. 
-If the task or the issue have been deleted since they were moved, the documents will be restored in the Documents area of the user page of the administrator who restores them. 
+>* If you move a task or an issue and choose not to also move the documents attached to the task or the issue, the documents are deleted and placed in the Recycle Bin for 30 days. An administrator can restore them and they will be reattached to the moved task or issue. If the task or the issue have been deleted since they were moved, the documents will be restored in the Documents area of the user page of the administrator who restores them. 
 
 ## Access requirements
 
