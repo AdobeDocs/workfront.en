@@ -22,6 +22,6 @@ With the Microsoft Power BI modules, you can:
 * Get, copy, delete, or list reports
 * Create, read, delete, list, or refresh datasets
 * Add or delete rows in a dataset table
-* Make a custom API call to the Mocrosoft Power BI API
+* Make a custom API call to the Microsoft Power BI API
 
 For more information, see [Microsoft Power BI modules](../../../workfront-fusion/apps-and-their-modules/powerbi-modules.md).
