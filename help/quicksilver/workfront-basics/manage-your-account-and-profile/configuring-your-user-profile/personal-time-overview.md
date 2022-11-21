@@ -10,9 +10,9 @@ exl-id: e7710495-c418-47b1-8598-725580054fc5
 ---
 # Configure personal time off in [!DNL Adobe Workfront]
 
-Adobe Workfront is not designed to replicate or replace your existing systems for managing, accruing, and tracking personal time off.
+[!DNL Adobe Workfront] is not designed to replicate or replace your existing systems for managing, accruing, and tracking personal time off.
 
-However, it is important to indicate when [!UICONTROL approved time off] happens, because this affects your schedule and impacts the Planned Completion Dates of the tasks you are assigned to.
+However, it is important to indicate when approved time off happens, because this affects your schedule and impacts the [!UICONTROL Planned Completion Dates] of the tasks you are assigned to.
 
 For example, if you are assigned to a task that is scheduled to take two weeks, and you plan to take three days off during that time, [!DNL Workfront] adds three days to the task timeline to account for the time off.
 
@@ -39,16 +39,16 @@ You must have the following access to perform the steps in this article:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront plan*]</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] license*</strong></td> 
-   <td> <p>Work or higher (to configure your personal time off)</p> </td> 
+   <td> <p>[!UICONTROL Work] or higher (to configure your personal time off)</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Access level configurations*</strong></td> 
-   <td>Manager with [!UICONTROL Edit] User access (to make changes to the Time-off calendar of other users)</td> 
+   <td>[!UICONTROL Manager] with [!UICONTROL Edit User] access (to make changes to the Time-off calendar of other users)</td> 
   </tr> 
  </tbody> 
 </table>
@@ -59,10 +59,10 @@ You must have the following access to perform the steps in this article:
 
 1. Click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe Workfront], then click your user name next to your profile picture.
 
-1. In the left panel, click **Time Off**.
+1. In the left panel, click **[!UICONTROL Time Off]**.
 1. Select the desired date for your personal time off.
 1. Select **[!UICONTROL All day]**, if you are taking a full day off.\
    Leave it unselected if you are taking less than a full day off and indicate the start and end times of your time off.
 
-1. Click **Save**.\
+1. Click **[!UICONTROL Save]**.\
    Your time off is now visible across the [!DNL Workfront] system in scheduling tools like the Resource Grid. When you are assigned work during this time, a tool tip appears informing the user you have scheduled time off.

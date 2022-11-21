@@ -9,7 +9,7 @@ exl-id: 68f4b83b-a8b4-4304-930f-62551cb06a92
 ---
 # Create custom sections
 
-## Adobe Workfront sections {#adobe-workfront-sections}
+## [!DNL Adobe Workfront] sections
 
 The information you see in the [!DNL Workfront] web application is often displayed in the left panel sections by default. Each section contains different information about a [!DNL Workfront] area or object.\
 For more information about the default areas of [!DNL Workfront], see the article [About the default [!DNL Adobe Workfront] layout](../../../administration-and-setup/customize-workfront/use-layout-templates/about-the-default-wf-layout.md).
@@ -18,19 +18,19 @@ In addition to the sections that come with [!DNL Workfront] by default, you can 
 
 The following table lists all the [!DNL Workfront] areas and objects that contain sections in the left panel and which of them can be customized:
 
-| **Workfront area or object** | **Default system sections** | **Custom sections** |
+| **[!DNL Workfront] area or object** | **Default system sections** | **Custom sections** |
 |---|---|---|
-| Projects area | ✓ | ✓ |
-| Team | ✓ | &nbsp; |
-| Requests area | ✓ | &nbsp; |
-| Timesheets area | ✓ | &nbsp; |
-| Portfolio | ✓ | ✓ |
-| Program | ✓ | ✓ |
-| Project | ✓ | ✓ |
-| Task | ✓ | &nbsp;✓ |
-| Issue | &nbsp;✓ | &nbsp;✓ |
-| User | &nbsp;✓ | &nbsp;✓ |
-| Document | &nbsp;✓ | &nbsp;✓ |
+| [!UICONTROL Projects] area | ✓ | ✓ |
+| [!UICONTROL Team] | ✓ | &nbsp; |
+| [!UICONTROL Requests] area | ✓ | &nbsp; |
+| [!UICONTROL Timesheets] area | ✓ | &nbsp; |
+| [!UICONTROL Portfolio] | ✓ | ✓ |
+| [!UICONTROL Program] | ✓ | ✓ |
+| [!UICONTROL Project] | ✓ | ✓ |
+| [!UICONTROL Task] | ✓ | &nbsp;✓ |
+| [!UICONTROL Issue] | &nbsp;✓ | &nbsp;✓ |
+| [!UICONTROL User] | &nbsp;✓ | &nbsp;✓ |
+| [!UICONTROL Document] | &nbsp;✓ | &nbsp;✓ |
 
 {style="table-layout:auto"}
 
@@ -45,16 +45,16 @@ You must have the following access to perform the steps in this article:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront plan*]</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] license*</strong></td> 
-   <td> <p>Review or higher</p> </td> 
+   <td> <p>[!UICONTROL Review] or higher</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Access level configurations*</strong></td> 
-   <td>Reviewer or higher</td> 
+   <td>[!UICONTROL Reviewer] or higher</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Object permissions</strong></td> 
@@ -65,7 +65,7 @@ You must have the following access to perform the steps in this article:
 
 &#42;To find out what plan or license type you have, contact your [!DNL Workfront] administrator.
 
-## Add a dashboard in the left panel of a Workfront object or area {#add-a-dashboard-in-the-left-panel-of-a-workfront-object-or-area}
+## Add a dashboard in the left panel of a [!DNL Workfront] object or area 
 
 Before you can add a dashboard, you must build the dashboard with all the information you want to display on it. You may also build an external page.\
 For more information about building dashboards, see the article [Create a dashboard](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md).\
@@ -76,11 +76,11 @@ After you build the dashboard or the external page, you can add them to the left
 1. Go to one of the [!DNL Workfront] areas or objects where you can add a custom section in the left panel.\
    Or
 1. Go to an object where you can add a [!UICONTROL dashboard] in the left panel.\
-   For more information about what areas and objects you can add custom sections to, see [[!DNL Adobe Workfront] sections](#adobe-workfront-sections).
+   For more information about what areas and objects you can add custom sections to, see [[!DNL Adobe Workfront] sections](#dnl-adobe-workfront-sections).
 1. Click **[!UICONTROL Add dashboard]** in the left panel.
 1. Type a name for the dashboard in the **[!UICONTROL Quick link name]** field. This is visible only to you.
 1. Start typing the name of an existing dashboard or external page in the **[!UICONTROL Choose a dashboard]** field, then select the dashboard when it displays in the list.
-1. Click **Add**.
+1. Click **[!UICONTROL Add]**.
 1. (Optional) Drag and drop the sections in the order in which you would like to display them.
 
    The top section is the default section for the page.
@@ -89,7 +89,7 @@ After you build the dashboard or the external page, you can add them to the left
 
 ## Display dashboards in the left panel of objects
 
-For more information about adding a dashboard under an object, see the section [[!UICONTROL Add a dashboard] in the left panel of a Workfront object or area](#add-a-dashboard-in-the-left-panel-of-a-workfront-object-or-area) in this article.
+For more information about adding a dashboard under an object, see the section [[!UICONTROL Add a dashboard] in the left panel of a Workfront object or area](#add-a-dashboard-in-the-left-panel-of-a-dnl-workfront-object-or-area) in this article.
 
 When you add a dashboard to a custom section under an object, the object acts as a filter for the dashboard. For example, if you add a task report on a dashboard and you add the dashboard to a project, the custom section that contains the dashboard on the project displays only tasks on the project you are viewing.
 
