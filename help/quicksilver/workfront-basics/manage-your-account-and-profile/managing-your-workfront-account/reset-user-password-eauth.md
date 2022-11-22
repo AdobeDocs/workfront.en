@@ -20,12 +20,12 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront plan*]</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
    <td> <p> Any</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] license*</strong></td> 
-   <td> <p>Plan</p> </td> 
+   <td> <p>[!UICONTROL Plan]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Access level configurations*</strong></td> 
@@ -34,18 +34,18 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
+To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
 
 ## Reset a user's password in an eAuth enabled environment
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Workfront, then click **Users** ![](assets/users-icon-in-main-menu.png).
+1. Click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Workfront], then click **[!UICONTROL Users]** ![](assets/users-icon-in-main-menu.png).
 
    ![](assets/main-menu-options-350x481.png)
 
-1. Select the **User** that requires a password reset.
+1. Select the **[!UICONTROL User]** that requires a password reset.
    ![](assets/100520classicnweselectuser-350x105.png)
 
-1. Click the **[!UICONTROL More] button** that appears after you've chosen the desired **User** and select the **[!UICONTROL Send Forgot Password Email]** option from the drop-down menu.
+1. Click the **[!UICONTROL More] button** that appears after you've chosen the desired **[!UICONTROL User]** and select the **[!UICONTROL Send Forgot Password Email]** option from the drop-down menu.
 
    ![](assets/100520classicnwesendemail-350x134.png)
 

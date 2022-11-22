@@ -13,7 +13,7 @@ You can reset your [!DNL Adobe Workfront] password. As an important security mea
 
 >[!NOTE]
 >
->A [!DNL Workfront] administrator can configure custom password restrictions, as explained in&nbsp; [Configure system security preferences](../../../administration-and-setup/manage-workfront/security/configure-security-preferences.md) and [Configure password policies for authentication](../../../administration-and-setup/manage-workfront/security/configure-password-policies-authentication.md).
+>A [!DNL Workfront] administrator can configure custom password restrictions, as explained in [Configure system security preferences](../../../administration-and-setup/manage-workfront/security/configure-security-preferences.md) and [Configure password policies for authentication](../../../administration-and-setup/manage-workfront/security/configure-password-policies-authentication.md).
 >
 >A [!DNL Workfront] administrator can also reset your password in an Enhanced Authentication enabled environment. For more information, see [Reset a user's password with Enhanced Authentication](../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/reset-user-password-eauth.md).
 
@@ -28,17 +28,17 @@ You must have the following access to perform the steps in this article:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront plan*]</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] license*</strong></td> 
-   <td> <p>Request or higher</p> </td> 
+   <td> <p>[!UICONTROL Request] or higher</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan or license type you have, contact your [!DNL Workfront] administrator.
+To find out what plan or license type you have, contact your [!DNL Workfront] administrator.
 
 ## Reset your password in [!DNL Adobe Workfront]
 
@@ -46,13 +46,13 @@ You must have the following access to perform the steps in this article:
 
    ![Open the main menu and select your user name.](assets/main-menu-options-350x481.png)
 
-1. Click the **More menu** ![](assets/more-icon.png), then click **Edit**.
+1. Click the **[!UICONTROL More menu]** ![](assets/more-icon.png), then click **[!UICONTROL Edit]**.
 
-1. In the&#x200B;**Edit Person** box that displays, under **Personal Info**, click **Reset Password**.
+1. In the **[!UICONTROL Edit Person]** box that displays, under **[!UICONTROL Personal Info]**, click **[!UICONTROL Reset Password]**.
 
    ![](assets/edit-person-box-350x196.jpg)
 
-   If your organization has integrated [!DNL Workfront] with an SSO solution, you may be routed to reset your passwords through your SSO system when you click **Reset Password**. This resets your SSO password which affects logging in to all your other applications inside your organization.
+   If your organization has integrated [!DNL Workfront] with an SSO solution, you may be routed to reset your passwords through your SSO system when you click **[!UICONTROL Reset Password]**. This resets your SSO password which affects logging in to all your other applications inside your organization.
 
 1. Type your old password, then type the new password you want twice.
 
@@ -64,4 +64,4 @@ You must have the following access to perform the steps in this article:
 
    Password rules might be more strict than this, depending on configuration settings set by your [!DNL Workfront] administrator.
 
-1. Click **Save Changes**.
+1. Click **[!UICONTROL Save Changes]**.
