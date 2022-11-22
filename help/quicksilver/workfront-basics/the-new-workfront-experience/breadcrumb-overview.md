@@ -7,7 +7,7 @@ exl-id: c4103f8e-4c3f-4d4d-a0eb-628c60735ab7
 ---
 # Breadcrumbs overview
 
-Breadcrumbs display the full navigational hierarchy for all object types. Each object in the breadcrumb path has a label that displays the object type. The page that you are currently on displays both in the page header and at the end of the breadcrumb path in italics. In the example below, this is the "Share with Brand Team" task.
+Breadcrumbs display the full navigational hierarchy for all object types. Each object in the breadcrumb path has a label that displays the object type. The page that you are currently on displays both in the page header and at the end of the breadcrumb path in italics. In the example below, this is the "[!UICONTROL Share with Brand Team]" task.
 
 ![Collapsed breadcrumb](assets/NWE-collapsed-breadcrumb.png)
 
@@ -15,7 +15,7 @@ When there are too many objects in the breadcrumb path or the screen width prohi
 
 For example, "3 more" in the image above indicates that 3 objects are not displaying. These items could be located above the project level or between the project and the current page.
 
-Clicking "more" allows you to expand the full hierarchy. You can click "Less" to collapse the breadcrumb path again.
+Clicking "[!UICONTROL more]" allows you to expand the full hierarchy. You can click "[!UICONTROL Less]" to collapse the breadcrumb path again.
 
 ![Expanded breadcrumb](assets/NWE-expanded-breadcrumb.png)
 
@@ -47,12 +47,12 @@ You must have the following access to perform the steps in this article:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront plan*]</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] license*</strong></td> 
-   <td> <p>Request or higher</p> </td> 
+   <td> <p>[!UICONTROL Request] or higher</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -76,7 +76,7 @@ The multi-object listing in the breadcrumb (for example, the campaigns) displays
 
 ## Access a parent object from the breadcrumbs
 
-For information about parent objects in Workfront, see [Understand objects in Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+For information about parent objects in [!DNL Workfront], see [Understand objects in [!DNL Adobe Workfront]](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
 1. (Conditional) If you don't see the object you want to navigate to in a collapsed breadcrumb path, click **[!UICONTROL more]**, then locate the object.
 

@@ -23,12 +23,12 @@ You must have the following access to perform the steps in this article:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront plan*]</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] license*</strong></td> 
-   <td> <p>Request or higher</p> </td> 
+   <td> <p>[!UICONTROL Request] or higher</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -43,7 +43,7 @@ You must have the following access to perform the steps in this article:
 
 1. Click **[!UICONTROL Pin current page]** at the top of the page.
 
-   The pinned page is now accessible from the top of any page in Workfront.
+   The pinned page is now accessible from the top of any page in [!DNL Workfront].
 
 ## Access a pinned page
 
@@ -64,7 +64,7 @@ You must have the following access to perform the steps in this article:
 You can change the name of a pinned page to be more meaningful to you.
 
 1. Hover over the pinned page in the top navigation.
-1. Click the arrow next to the pin name and select **Rename pin**.
+1. Click the arrow next to the pin name and select **[!UICONTROL Rename pin]**.
 
    ![Rename pin](assets/rename-remove-pin.png)
 
@@ -82,7 +82,7 @@ You can rearrange the order that pinned pages appear.
 
    >[!NOTE]
    >
-   >You can't reorder pinned pages that are in the **More menu** ![More menu](assets/more-icon-spectrum.png).
+   >You can't reorder pinned pages that are in the **[!UICONTROL More menu]** ![More menu](assets/more-icon-spectrum.png).
 
    Your changes automatically save and are remembered the next time you access Workfront.
 
@@ -93,8 +93,8 @@ You can rearrange the order that pinned pages appear.
 
    Or
 
-   Click the arrow next to the pin name and select **Remove pin**.
+   Click the arrow next to the pin name and select **[!UICONTROL Remove pin]**.
 
    ![Remove pin](assets/rename-remove-pin.png)
 
-   The page is no longer accessible from the top of any page in Workfront.
+   The page is no longer accessible from the top of any page in [!DNL Workfront].
