@@ -8,19 +8,19 @@ author: Lisa
 feature: Get Started with Workfront
 exl-id: 2c3bbf76-6620-4319-a872-09330441c815
 ---
-# Adobe Workfront mobile app virtual assistant
+# [!DNL Adobe Workfront] mobile app virtual assistant
 
-Use the Adobe Workfront mobile app virtual assistant to locate, delete, and search for information inside of Workfront. In addition, you can pin virtual assistant commands and queries to access the results at any time.
+Use the [!DNL Adobe Workfront] mobile app virtual assistant to locate, delete, and search for information inside of [!DNL Workfront]. In addition, you can pin virtual assistant commands and queries to access the results at any time.
 
 ## Available commands
 
 Use the following voice commands to manage work in the mobile app:
 
-* [[!UICONTROL Show me], Find, Search for](#show-me-find-search-for)
-* [Delete](#delete)
-* [Help me with commands](#help-me-with-commands)
+* [[!UICONTROL Show me], [!UICONTROL Find], [!UICONTROL Search for]](#uicontrol-show-me-uicontrol-find-uicontrol-search-for)
+* [[!UICONTROL Delete]](#uicontrol-delete)
+* [[!UICONTROL Help me with commands]](#help-me-with-commands)
 
-### Show me, Find, Search for {#show-me-find-search-for}
+### [!UICONTROL Show me], [!UICONTROL Find], [!UICONTROL Search for]
 
 Use the [!UICONTROL show me] command to see information about the following objects:
 
@@ -33,8 +33,8 @@ Use the [!UICONTROL show me] command to see information about the following obje
   <tr> 
    <td> </td> 
    <td>Date</td> 
-   <td>Status</td> 
-   <td>Condition</td> 
+   <td>[!UICONTROL Status]</td> 
+   <td>[!UICONTROL Condition]</td> 
   </tr> 
   <tr> 
    <td> <p>Task</p> </td> 
@@ -99,7 +99,7 @@ Use the [!UICONTROL show me] command to see information about the following obje
  </tbody> 
 </table>
 
-#### Examples {#examples}
+#### Examples 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -121,12 +121,12 @@ Use the [!UICONTROL show me] command to see information about the following obje
     </ul> </td> 
    <td> 
     <ul> 
-     <li>Show me my tasks with status In Progress </li> 
-     <li>Show me my issues with condition Some Concerns </li> 
-     <li>Show me my projects with status Planning and condition On [!DNL Target] </li> 
-     <li>Show me my issues with status New and In Progress </li> 
-     <li>Show me my timesheets with status Open for 2019 </li> 
-     <li>Show me my projects with status On Hold and condition At Risk for this month </li> 
+     <li>Show me my tasks with status [!UICONTROL In Progress] </li> 
+     <li>Show me my issues with condition [!UICONTROL Some Concerns] </li> 
+     <li>Show me my projects with status [!UICONTROL Planning] and condition [!UICONTROL On Target] </li> 
+     <li>Show me my issues with status [!UICONTROL New] and [!UICONTROL In Progress] </li> 
+     <li>Show me my timesheets with status [!UICONTROL Open] for 2019 </li> 
+     <li>Show me my projects with status [!UICONTROL On Hold] and condition [!UICONTROL At Risk] for this month </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -137,73 +137,74 @@ Use the [!UICONTROL show me] command to see information about the following obje
     <ul> 
      <li>Show me projects I own </li> 
      <li>Show me projects I'm on </li> 
-     <li>Show me projects I own with status Planning </li> 
+     <li>Show me projects I own with status [!UICONTROL Planning] </li> 
     </ul> </td> 
    <td> 
     <ul> 
-     <li>Show me projects I'm on with condition On Target </li> 
+     <li>Show me projects I'm on with condition [!UICONTROL On Target] </li> 
      <li>Show me projects I own for last week </li> 
-     <li>Show me projects I'm on with condition On [!DNL Target] for last March </li> 
+     <li>Show me projects I'm on with condition [!UICONTROL On Target] for last March </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colspan="2"><strong>[!UICONTROL Search my] personal tasks</strong></td> 
+   <td colspan="2"><strong>Search my personal tasks</strong></td> 
   </tr> 
   <tr> 
    <td> 
     <ul> 
      <li>Show me my personal tasks </li> 
-     <li>Show me my personal tasks with status In Progress </li> 
+     <li>Show me my personal tasks with status [!UICONTROL In Progress] </li> 
     </ul> </td> 
    <td> 
     <ul> 
-     <li>Show me my personal tasks with condition Going Smoothly </li> 
-     <li>Show me my personal tasks with status In Progress on 26th of April </li> 
+     <li>Show me my personal tasks with condition [!UICONTROL Going Smoothly] </li> 
+     <li>Show me my personal tasks with status [!UICONTROL In Progress] on 26th of April </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colspan="2"><strong>[!UICONTROL Search my late items]</strong></td> 
+   <td colspan="2"><strong>Search my late items</strong></td> 
   </tr> 
   <tr> 
    <td> 
     <ul> 
      <li>Show me my late items </li> 
      <li>Show me my late items for August 2020 </li> 
-     <li>Show me my late tasks Show me my late issues </li> 
+     <li>Show me my late tasks </li>
+     <li>Show me my late issues </li> 
     </ul> </td> 
    <td> 
     <ul> 
-     <li>Show me my late tasks with status New </li> 
-     <li>Show me my late issues with status In Progress </li> 
-     <li>Show me my late issues with condition Going Smoothly for last 2 days </li> 
-     <li>Show me my late tasks status Complete for March 26th </li> 
+     <li>Show me my late tasks with status [!UICONTROL New] </li> 
+     <li>Show me my late issues with status [!UICONTROL In Progress] </li> 
+     <li>Show me my late issues with condition [!UICONTROL Going Smoothly] for last 2 days </li> 
+     <li>Show me my late tasks status [!UICONTROL Complete] for March 26th </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colspan="2"><strong>Search for objects by assignee (Person/Team). Available only on iOS devices.</strong></td> 
+   <td colspan="2"><strong>Search for objects by assignee (Person/Team). Available only on [!DNL iOS] devices.</strong></td> 
   </tr> 
   <tr> 
    <td> 
     <ul> 
      <li>Show me issues assigned to me </li> 
      <li>Show me issues assigned to Helen </li> 
-     <li>Show me issues assigned to Android team </li> 
+     <li>Show me issues assigned to [!UICONTROL Android] team </li> 
      <li>Show me tasks assigned to "Helen" </li> 
-     <li>Show me tasks assigned to "Android" team </li> 
+     <li>Show me tasks assigned to "[!DNL Android]" team </li> 
     </ul> </td> 
    <td> 
     <ul> 
      <li>Show me projects assigned to Helen </li> 
-     <li>Show me projects assigned to Android team </li> 
-     <li>Show me project/task/issue Android team is currently working on </li> 
+     <li>Show me projects assigned to [!DNL Android] team </li> 
+     <li>Show me project/task/issue [!DNL Android] team is currently working on </li> 
      <li>Show me program/portfolio assigned/owned by Helen </li> 
-     <li>Show me users/people/members of Android team </li> 
+     <li>Show me users/people/members of [!DNL Android] team </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
 </table>
 
-### Delete  {#delete}
+### [!UICONTROL Delete]  
 
 Use the delete command to delete the following object types:
 
@@ -212,7 +213,7 @@ Use the delete command to delete the following object types:
 * Document
 * Timesheet
 
-#### Examples {#examples-1}
+#### Examples
 
 <table style="table-layout:auto"> 
  <col> 
@@ -226,7 +227,7 @@ Use the delete command to delete the following object types:
     <ul> 
      <li>Delete object</li> 
      <li>Delete Task</li> 
-     <li>Delete current object*<br>*available only from the Details screen</li> 
+     <li>Delete current object*<br>*available only from the [!UICONTROL Details] screen</li> 
     </ul> </td> 
    <td> 
     <ul> 
@@ -237,7 +238,7 @@ Use the delete command to delete the following object types:
  </tbody> 
 </table>
 
-### Help me with commands {#help-me-with-commands}
+### Help me with commands
 
 Use the help command to view a list of available commands directly in the mobile app.
 
@@ -245,18 +246,18 @@ Use the help command to view a list of available commands directly in the mobile
 
 ## Pin commands
 
-Use the pin feature to access saved virtual assistant commands as well as pins from your web browser. Once you pin a command, you can access it any time from the Pin area.
+Use the pin feature to access saved virtual assistant commands as well as pins from your web browser. Once you pin a command, you can access it any time from the [!UICONTROL Pin] area.
 
-### Virtual assistant (VA) {#virtual-assistant-va}
+### Virtual assistant (VA) 
 
-The VA section of the Pin page lets you save voice commands to access at a later time.
+The VA section of the [!UICONTROL Pin] page lets you save voice commands to access at a later time.
 
 To pin a command:
 
-1. State your command, then tap the **Pin** icon on the Results page.
+1. State your command, then tap the **[!UICONTROL Pin]** icon on the Results page.
 
 ![Pin and save query](assets/pin-and-save-query-adobe-350x285.png)
 
-### Web browser {#web-browser}
+### Web browser
 
-The Web section of the Pin page lets you access objects you've pinned in your web browser. If the pinned object is supported in the mobile app, it opens there first. If it is not supported, it launches a web browser.
+The [!UICONTROL Web] section of the [!UICONTROL Pin] page lets you access objects you've pinned in your web browser. If the pinned object is supported in the mobile app, it opens there first. If it is not supported, it launches a web browser.

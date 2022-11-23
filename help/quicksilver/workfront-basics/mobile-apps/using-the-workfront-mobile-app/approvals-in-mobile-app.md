@@ -35,9 +35,9 @@ Proofs follow a separate approval process. You cannot approve a proof from a wor
 
 ## Review an approval
 
-1. Select **[!UICONTROL Show all approvals]** in the [!UICONTROL Approvals] area of My Work.
+1. Select **[!UICONTROL Show all approvals]** in the [!UICONTROL Approvals] area of [!UICONTROL My Work].
 
-   For information about [!UICONTROL My Work] in the mobile app, see [My Work section in the mobile app](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/my-work-section-mobile.md).
+   For information about [!UICONTROL My Work] in the mobile app, see [[!UICONTROL My Work] section in the mobile app](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/my-work-section-mobile.md).
 
 1. Select an approval in the list.
 
@@ -56,13 +56,13 @@ Proofs follow a separate approval process. You cannot approve a proof from a wor
 
    | Icon | Decision |
    |---|---|
-   | ![Approve proof from task](assets/mobile-approveprooffromtask.png) | Approve |
-   | ![[!UICONTROL Approve proof with changes from task]](assets/mobile-approveproofwithcommentsfromtask.png) | Approve with changes (only available for documents) |
-   | ![[!UICONTROL Reject proof from task]](assets/mobile-rejectprooffromtask.png) | Reject |
+   | ![Approve proof from task](assets/mobile-approveprooffromtask.png) | [!UICONTROL Approve] |
+   | ![Approve proof with changes from task](assets/mobile-approveproofwithcommentsfromtask.png) | [!UICONTROL Approve with changes] (only available for documents) |
+   | ![Reject proof from task](assets/mobile-rejectprooffromtask.png) | [!UICONTROL Reject] |
 
    {style="table-layout:auto"}
 
 1. (Optional) Select **[!UICONTROL Add comment]** on the confirmation message at the bottom of the screen to add comments to the decision. These comments appear in the updates for the approval.\
    ![Add comment](assets/mobile-addcommenttoapproval-350x123.png)\
    Or\
-   Select the arrow on the top left of the approval to go back to the Approvals page.
+   Select the arrow on the top left of the approval to go back to the [!UICONTROL Approvals] page.

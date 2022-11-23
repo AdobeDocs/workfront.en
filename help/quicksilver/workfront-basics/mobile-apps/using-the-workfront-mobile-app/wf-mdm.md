@@ -8,18 +8,18 @@ author: Lisa
 feature: Get Started with Workfront
 exl-id: 6f989fb8-5e33-4626-92cf-1d3a629698b0
 ---
-# Adobe Workfront for Mobile Device Management (MDM)
+# [!DNL Adobe Workfront] for [!DNL Mobile Device Management] (MDM)
 
-Adobe [!DNL Workfront] has partnered with a few Mobile Device Management (MDM) platforms to provide organizations a more secure and controlled mobile experience. The Workfront mobile app is available on the following mobile device management platforms:
+Adobe [!DNL Workfront] has partnered with a few [!DNL Mobile Device Management] (MDM) platforms to provide organizations a more secure and controlled mobile experience. The [!DNL Workfront] mobile app is available on the following mobile device management platforms:
 
 ## MobileIron
 
-See MobileIron's help documentation to install the [!DNL Workfront] mobile app from their platform:
+See [!DNL MobileIron]'s help documentation to install the [!DNL Workfront] mobile app from their platform:
 
 * iOS
 * Android
 
-For information on configuring Workfront for MobileIron, see [Configure Adobe Workfront for MobileIron](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mobileiron-configs.md).
+For information on configuring [!DNL Workfront] for [!DNL MobileIron], see [Configure [!DNL Adobe Workfront] for [!DNL MobileIron]](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mobileiron-configs.md).
 
 <!--
 <h2 data-mc-conditions="QuicksilverOrClassic.Draft mode">Blackberry Dynamics</h2>
