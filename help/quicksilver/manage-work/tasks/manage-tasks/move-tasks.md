@@ -80,9 +80,7 @@ To move a task displayed in a task list:
 1. Continue with moving the task, as described in the section [Move a task at the task level](#move-a-task-at-the-task-level) in this article, starting with Step 4. 
 
    <!--
-   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-   (NOTE: is this still accurate?!)
-   </MadCap:conditionalText>
+   is this still accurate?!
    -->
 
 ## Move a task at the task level {#move-a-task-at-the-task-level}
@@ -127,7 +125,7 @@ In addition to moving tasks from a list of tasks, you can also move a task at th
 
    Or
 
-   Scroll down to the **Options** section in the Move Task box, then deselect any of the items listed in the table below to remove&nbsp;them&nbsp;from&nbsp;the moved tasks . All options are selected by default.
+   Scroll down to the **Options** section in the Move Task box, then deselect any of the items listed in the table below to remove them from the moved tasks . All options are selected by default.
 
    >[!IMPORTANT]
    >
@@ -180,7 +178,14 @@ In addition to moving tasks from a list of tasks, you can also move a task at th
      </tr> 
      <tr> 
       <td role="rowheader">Documents</td> 
-      <td> <p>The documents attached to the task are not transferred to the moved task. This includes versions, proofs, and linked documents.</p> <p>This does not include document approvals. Document approvals can never be moved when a task is moved.</p> </td> 
+      <td> <p>The documents attached to the task are not transferred to the moved task. This includes versions, proofs, and linked documents.</p> <p>This does not include document approvals. Document approvals can never be moved when a task is moved.</p> 
+      <b>NOTE</b>
+    
+    If you opt to not have the documents moved with the task, the documents will be deleted and placed in the Recycle Bin for 30 days. An administrator can restore them and they will be restored on the moved task. 
+    
+    If the task is deleted after it's moved, the restored documents will be placed in the Documents area of the user page of the administrator who restores them.
+      
+      </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Reminder Notifications</td> 
@@ -198,10 +203,9 @@ In addition to moving tasks from a list of tasks, you can also move a task at th
    </table>
 
 
-   <!--drafted for dropped documents patch: add this to the Documents cell when it comes to Prev and Prod: 
-   <b>NOTE</b>
-   If you opt to not have the documents moved with the task, the documents will be deleted and placed in the Recycle Bin for 30 days. An administrator can restore them and they will be restored on the moved task. If the task is deleted after it's moved, the restored documents will be placed in the Documents area of the user page of the administrator who restores them. 
-   -->
+
+  
+  
 
 1. (Optional) Click **Select Parent** in the left panel
 

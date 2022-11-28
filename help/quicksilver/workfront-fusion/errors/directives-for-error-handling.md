@@ -3,13 +3,13 @@ content-type: reference
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: errors
-title: Directives for error handling in Adobe Workfront Fusion
-description: This article describes directives that you can use for error handling in your Adobe Workfront Fusion scenarios.
+title: Directives for error handling in [!DNL Adobe Workfront Fusion]
+description: This article describes directives that you can use for error handling in your [!DNL Adobe Workfront Fusion] scenarios.
 author: Becky
 feature: Workfront Fusion
 exl-id: dcf4f7e3-78d8-4eb4-9483-8a1c18b0e436
 ---
-# Directives for error handling in Adobe Workfront Fusion
+# Directives for error handling in [!DNL Adobe Workfront Fusion]
 
 ## Access requirements
 
@@ -20,27 +20,27 @@ You must have the following access to use the functionality in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>Pro or higher</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
+   <td> <p>[!DNL Pro] or higher</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Plan, Work</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
+   <td> <p>[!UICONTROL Plan], [!UICONTROL Work]</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront Fusion license**</td> 
-   <td> <p>Workfront Fusion for Work Automation and Integration </p>  </td> 
+   <td role="rowheader">[!UICONTROL Adobe Workfront Fusion] license**</td> 
+   <td> <p>[!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
+   <td>Your organization must purchase [!DNL Adobe Workfront Fusion] as well as [!DNL Adobe Workfront] to use functionality described in this article.</td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
 
-&#42;&#42;For information on Adobe Workfront Fusion licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
+For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Workfront Fusion] licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## Directives for error handling
 
@@ -50,7 +50,7 @@ You must have the following access to use the functionality in this article:
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>Rollback</p> <p> <img src="assets/rollback.png"> </p> </td> 
-   <td> <p>Scenario execution is stopped immediately and a <a href="../../workfront-fusion/scenarios/scenario-execution-cycles-phases.md#rollback" class="MCXref xref">Rollback</a> phase is started on all the modules in an attempt to revert them all to their initial state. The subsequent modules are not processed.</p> <p>Barring a few error types, the scenario is deactivated after the number of consecutive errors specified under Scenario settings. For more information, see <a href="../../workfront-fusion/scenarios/scenario-settings-panel.md#number" class="MCXref xref">Number of consecutive errors</a>.</p> <p>The scenario execution status is marked as "error."</p> <p>Note: This is the default behavior if no error handler route is attached to the module and the <a href="../../workfront-fusion/scenarios/scenario-settings-panel.md#allow" class="MCXref xref">Allow storing incomplete executions</a> setting under Scenario settings is not checked.</p> </td> 
+   <td> <p>Scenario execution is stopped immediately and a <a href="../../workfront-fusion/scenarios/scenario-execution-cycles-phases.md#rollback" class="MCXref xref">Rollback</a> phase is started on all the modules in an attempt to revert them all to their initial state. The subsequent modules are not processed.</p> <p>Barring a few error types, the scenario is deactivated after the number of consecutive errors specified under Scenario settings. For more information, see <a href="../../workfront-fusion/scenarios/scenario-settings-panel.md#number" class="MCXref xref">Number of consecutive errors</a>.</p> <p>The scenario execution status is marked as "error."</p> <p>Note: This is the default behavior if no error handler route is attached to the module and the <a href="../../workfront-fusion/scenarios/scenario-settings-panel.md#allow" class="MCXref xref">[!UICONTROL Allow storing incomplete executions]</a> setting under [!UICONTROL Scenario settings] is not checked.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Commit</p> <p> <img src="assets/commit.png"> </p> </td> 
@@ -66,7 +66,7 @@ You must have the following access to use the functionality in this article:
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Break</p> <p> <img src="assets/break.png"> </p> </td> 
-   <td> <p>The state of the scenario execution is stored in the queue of incomplete executions where the error can be resolved manually. For more information, see <a href="../../workfront-fusion/scenarios/view-and-resolve-incomplete-executions.md" class="MCXref xref">View and resolve incomplete executions in Adobe Workfront Fusion</a>. </p> <p>There are, however, some exceptions. For more information, see <a href="../../workfront-fusion/scenarios/scenario-settings-panel.md#allow" class="MCXref xref">Allow storing incomplete executions</a> in the article <a href="../../workfront-fusion/scenarios/scenario-settings-panel.md" class="MCXref xref">The scenario settings panel in Adobe Workfront Fusion</a>.</p> <p>The subsequent modules are not processed.</p> <p>If there are unprocessed bundles, the scenario execution continues normally.</p> <p>The scenario execution status is marked as "warning" when the Automatically complete execution option is disabled.</p> <p>See the <a href="#break" class="MCXref xref">Break</a> section below for further information.</p> </td> 
+   <td> <p>The state of the scenario execution is stored in the queue of incomplete executions where the error can be resolved manually. For more information, see <a href="../../workfront-fusion/scenarios/view-and-resolve-incomplete-executions.md" class="MCXref xref">View and resolve incomplete executions in Adobe Workfront Fusion</a>. </p> <p>There are, however, some exceptions. For more information, see <a href="../../workfront-fusion/scenarios/scenario-settings-panel.md#allow" class="MCXref xref">Allow storing incomplete executions</a> in the article <a href="../../workfront-fusion/scenarios/scenario-settings-panel.md" class="MCXref xref">The scenario settings panel in Adobe Workfront Fusion</a>.</p> <p>The subsequent modules are not processed.</p> <p>If there are unprocessed bundles, the scenario execution continues normally.</p> <p>The scenario execution status is marked as "warning" when the [!UICONTROL Automatically complete execution] option is disabled.</p> <p>See the <a href="#break" class="MCXref xref">[!UICONTROL Break]</a> section below for further information.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Retry</p> <p> <img src="assets/retry.png"> </p> </td> 
@@ -77,19 +77,19 @@ You must have the following access to use the functionality in this article:
 
 >[!NOTE]
 >
->Currently the error handling directives cannot be used out of the scope of an error handling route and Workfront Fusion currently does not offer a Throw module that would enable you to easily conditionally generate (throw) errors, though a workaround can be employed to mimic its functionality. For more information, see [Error handler route](../../workfront-fusion/errors/error-handling.md#error) in the article [Error handling in Adobe Workfront Fusion](../../workfront-fusion/errors/error-handling.md). Also see [Workaround for Throw](../../workfront-fusion/errors/throw.md#workarou) in the article [Throw error handling in Adobe Workfront Fusion](../../workfront-fusion/errors/throw.md).
+>Currently the error handling directives cannot be used out of the scope of an error handling route and [!DNL Workfront Fusion] currently does not offer a Throw module that would enable you to easily conditionally generate (throw) errors, though a workaround can be employed to mimic its functionality. For more information, see [Error handler route](../../workfront-fusion/errors/error-handling.md#error) in the article [Error handling in Adobe Workfront Fusion](../../workfront-fusion/errors/error-handling.md). Also see [Workaround for Throw](../../workfront-fusion/errors/throw.md#workarou) in the article [Throw error handling in Adobe Workfront Fusion](../../workfront-fusion/errors/throw.md).
 
 ## Break {#break}
 
-When an error is handled by the Break directive, a record is created in the [View and resolve incomplete executions in Adobe Workfront Fusion](../../workfront-fusion/scenarios/view-and-resolve-incomplete-executions.md) folder which stores the state of the scenario execution along with data from the prior modules. For each bundle of data that causes the error, a separate record is created.
+When an error is handled by the [!DNL Break] directive, a record is created in the [View and resolve incomplete executions in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/view-and-resolve-incomplete-executions.md) folder which stores the state of the scenario execution along with data from the prior modules. For each bundle of data that causes the error, a separate record is created.
 
 The record references the module where the error originated and contains information regarding what data was received by the module as input. For more information, see [View and resolve incomplete executions in Adobe Workfront Fusion](../../workfront-fusion/scenarios/view-and-resolve-incomplete-executions.md).
 
 Here, you may resolve the error manually by updating the scenario (if needed) and running it once.
 
-On the other hand, by enabling the Automatically complete execution option under the Break directive settings, it can be configured to automatically process an incomplete execution by re-executing the scenario after the specified number of minutes.
+On the other hand, by enabling the [!UICONTROL Automatically complete execution] option under the Break directive settings, it can be configured to automatically process an incomplete execution by re-executing the scenario after the specified number of minutes.
 
-With this option enabled, when an error takes place, the incomplete execution is retrieved (after the time specified in the Interval between attempts field) and executed with the original input data. This will repeat until the execution of the module completes without an error or until the Number of attempts specified is reached.
+With this option enabled, when an error takes place, the incomplete execution is retrieved (after the time specified in the [!UICONTROL Interval between attempts] field) and executed with the original input data. This will repeat until the execution of the module completes without an error or until the Number of attempts specified is reached.
 
 >[!NOTE]
 >

@@ -5,18 +5,18 @@ product-area: workfront-integrations
 keywords: connector
 navigation-topic: apps-and-their-modules
 title: ServiceNow modules
-description: In an Adobe Workfront Fusion scenario, you can automate workflows that use ServiceNow, as well as connect it to multiple third-party applications and services.
+description: In an [!DNL Adobe Workfront Fusion] scenario, you can automate workflows that use [!DNL ServiceNow], as well as connect it to multiple third-party applications and services.
 author: Becky
 feature: Workfront Fusion
 exl-id: b362cd8b-06b3-4f4c-b405-a2afc24abddb
 ---
-# ServiceNow modules
+# [!DNL ServiceNow] modules
 
-In an Adobe Workfront Fusion scenario, you can automate workflows that use ServiceNow, as well as connect it to multiple third-party applications and services.
+In an [!DNL Adobe Workfront Fusion] scenario, you can automate workflows that use [!DNL ServiceNow], as well as connect it to multiple third-party applications and services.
 
-If you need instructions on creating a scenario, see [Create a scenario in Adobe Workfront Fusion](../../workfront-fusion/scenarios/create-a-scenario.md).
+If you need instructions on creating a scenario, see [Create a scenario in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
 
-For information about modules, see [Modules in Adobe Workfront Fusion](../../workfront-fusion/modules/modules.md).
+For information about modules, see [Modules in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
 
 ## Access requirements
 
@@ -27,37 +27,37 @@ You must have the following access to use the functionality in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>Pro or higher</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan*</td>
+  <td> <p>[!UICONTROL Pro] or higher</p> </td>
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Plan, Work</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] license*</td>
+   <td> <p>[!UICONTROL Plan], [!UICONTROL Work]</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront Fusion license**</td> 
-   <td> <p>Workfront Fusion for Work Automation and Integration </p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront Fusion] license**</td> 
+   <td> <p>[!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
+   <td>Your organization must purchase [!DNL Adobe Workfront Fusion] as well as [!DNL Adobe Workfront] to use functionality described in this article.</td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
 
-&#42;&#42;For information on Adobe Workfront Fusion licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
+For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Workfront Fusion] licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## Prerequisites
 
-To use ServiceNow modules, you must have a ServiceNow account.
+To use [!DNL ServiceNow] modules, you must have a [!DNL ServiceNow] account.
 
-## Connect ServiceNow to Workfront Fusion {#connect-servicenow-to-workfront-fusion}
+## Connect [!DNL ServiceNow] to [!DNL Workfront Fusion]
 
-To create a connection for your ServiceNow modules:
+To create a connection for your [!DNL ServiceNow] modules:
 
-1. Click **Add** next to the Connection box when you begin configuring the first ServiceNow module.
+1. Click **[!UICONTROL Add]** next to the [!UICONTROL Connection] box when you begin configuring the first [!DNL ServiceNow] module.
 1. Enter the following:
 
    <table style="table-layout:auto"> 
@@ -65,50 +65,50 @@ To create a connection for your ServiceNow modules:
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader"> <p>Connection name</p> </td> 
-      <td>Enter a name for the new ServiceNow connection</td> 
+      <td role="rowheader"> <p>[!UICONTROL Connection name]</p> </td> 
+      <td>Enter a name for the new [!DNL ServiceNow] connection</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"> <p>Username</p> </td> 
-      <td>Enter your ServiceNow username.</td> 
+      <td role="rowheader"> <p>[!UICONTROL Username]</p> </td> 
+      <td>Enter your [!DNL ServiceNow] username.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"> <p>Password</p> </td> 
+      <td role="rowheader"> <p>[!UICONTROL Password]</p> </td> 
       <td>Enter your ServiceNow password.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"> <p>Instance</p> </td> 
-      <td> <p>Enter the address of your ServiceNow account without <code>https://</code> (usually <code>&lt;company&gt;.service-now.com</code>).</p> </td> 
+      <td role="rowheader"> <p>[!UICONTROL Instance]</p> </td> 
+      <td> <p>Enter the address of your [!DNL ServiceNow] account without <code>https://</code> (usually <code>&lt;company>.service-now.com</code>).</p> </td> 
      </tr> 
     </tbody> 
    </table>
 
-## ServiceNow modules and their fields
+## [!UICONTROL ServiceNow] modules and their fields
 
-When you configure ServiceNow modules, Workfront Fusion displays the fields listed below. Along with these, additional ServiceNow fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
+When you configure [!DNL ServiceNow] modules, [!DNL Workfront Fusion] displays the fields listed below. Along with these, additional [!DNL ServiceNow] fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
 
-If you see the map button above a field or function, you can use it to set variables and functions for that field. For more information, see [Map information from one module to another in Adobe Workfront Fusion](../../workfront-fusion/mapping/map-information-between-modules.md).
+If you see the map button above a field or function, you can use it to set variables and functions for that field. For more information, see [Map information from one module to another in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 ![](assets/map-toggle-350x74.png)
 
 >[!NOTE]
 >
->If a custom record is selected in a "Record type" field, it may take some time to load the custom fields. 
+>If a custom record is selected in a "[!UICONTROL Record type]" field, it may take some time to load the custom fields.
 >
 >If there are no custom records, the dropdown will be empty.
 
-* [Watch records](#watch-records) 
-* [Custom API Call](#custom-api-call) 
-* [Read a record](#read-a-record) 
-* [Deactivate a User](#deactivate-a-user) 
-* [Download an attachment](#download-an-attachment) 
-* [Upload an attachment](#upload-an-attachment) 
-* [Create a record](#create-a-record) 
-* [Update a record](#update-a-record) 
-* [Delete a record](#delete-a-record) 
-* [Search for records](#search-for-records)
+* [[!UICONTROL Watch records]](#uicontrol-watch-records)
+* [[!UICONTROL Custom API Call]](#uicontrol-custom-api-call)
+* [[!UICONTROL Read a record]](#uicontrol-read-a-record)
+* [[!UICONTROL Deactivate a User]](#uicontrol-deactivate-a-user)
+* [[!UICONTROL Download an attachment]](#uicontrol-download-an-attachment)
+* [[!UICONTROL Upload an attachment]](#uicontrol-upload-an-attachment)
+* [[!UICONTROL Create a record]](#uicontrol-create-a-record)
+* [[!UICONTROL Update a record]](#uicontrol-update-a-record)
+* [[!UICONTROL Delete a record]](#uicontrol-delete-a-record)
+* [[!UICONTROL Search for records]](#uicontrol-search-for-records)
 
-### Watch records  {#watch-records}
+### [!UICONTROL Watch records]
 
 This trigger module activates a scenario when a record is created or updated.
 
@@ -117,39 +117,39 @@ This trigger module activates a scenario when a record is created or updated.
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your ServiceNow account to Workfront Fusion, see <a href="#connect-servicenow-to-workfront-fusion" class="MCXref xref">Connect ServiceNow to Workfront Fusion</a> in this article.</p> </td> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td> <p>For instructions about connecting your ServiceNow account to [!DNL Workfront Fusion], see <a href="#connect-servicenow-to-workfront-fusion" class="MCXref xref">Connect [!DNL ServiceNow] to [!UICONTROL Workfront Fusion]</a> in this article.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Table type</td> 
+   <td role="rowheader">[!UICONTROL Table type]</td> 
    <td>Select whether the table you want to watch is a custom table or a standard table.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Record type</td> 
+   <td role="rowheader">[!UICONTROL Record type]</td> 
    <td>Select the type of record that you want to watch.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Display</td> 
+   <td role="rowheader">[!UICONTROL Display]</td> 
    <td>Select the type of values that you want to display.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Outputs</td> 
+   <td role="rowheader">[!UICONTROL Outputs]</td> 
    <td>Select the fields that you want the module to output.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Filter</td> 
+   <td role="rowheader">[!UICONTROL Filter]</td> 
    <td>Select whether you want to watch new records or updated records.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Limit</td> 
+   <td role="rowheader">[!UICONTROL Limit]</td> 
    <td> <p>Enter or map the maximum number of records you want the module to return during each scenario execution cycle.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-### Custom API Call {#custom-api-call}
+### [!UICONTROL Custom API Call]
 
-This action module lets you make a custom authenticated call to the ServiceNow API. This way, you can create a data flow automation that can't be accomplished by the other ServiceNow modules.
+This action module lets you make a custom authenticated call to the [!DNL ServiceNow] API. This way, you can create a data flow automation that can't be accomplished by the other [!DNL ServiceNow] modules.
 
 When you are configuring this module, the following fields display.
 
@@ -158,27 +158,27 @@ When you are configuring this module, the following fields display.
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your ServiceNow account to Workfront Fusion, see <a href="#connect-servicenow-to-workfront-fusion" class="MCXref xref">Connect ServiceNow to Workfront Fusion</a> in this article.</p> </td> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td> <p>For instructions about connecting your ServiceNow account to [!DNL Workfront Fusion], see <a href="#connect-servicenow-to-workfront-fusion" class="MCXref xref">Connect [!DNL ServiceNow] to [!UICONTROL Workfront Fusion]</a> in this article.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Relative URL</td> 
-   <td> <p>Type the address on the web server that you want the module to interact with.</p> <p>You can type a relative URL, which means that you don't have to include the protocol (such as <code>http://</code>) at the beginning. This suggests to the web server that the interaction is occurring on the server.</p> <p>For example: <code>/api/conversations.create</code></p> </td> 
+   <td role="rowheader">[!UICONTROL Relative URL]</td> 
+   <td> <p>Type the address on the web server that you want the module to interact with.</p> <p>You can type a relative URL, which means that you don't have to include the protocol (such as <code>http://</code>) at the beginning. This suggests to the web server that the interaction is occurring on the server.</p> <p>For example: <code>[!DNL /api/conversations].create</code></p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Method</td> 
-   <td> <p>Select the HTTP request method you need to configure the API call. For more information, see <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">HTTP request methods in Adobe Workfront Fusion</a>.</p> </td> 
+   <td role="rowheader">[!UICONTROL Method]</td> 
+   td> <p>Select the HTTP request method you need to configure the API call. For more information, see <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">HTTP request methods in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Headers</td> 
+   <td role="rowheader">[!UICONTROL Headers]</td> 
    <td> <p>Add the headers of the request in the form of a standard JSON object.</p> <p>For example, <code>{"Content-type":"application/json"}</code></p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Query String</td> 
-   <td> <p>Add the query for the API call in the form of a standard JSON object.</p> <p>For example: <code>{“name”:“something-urgent”}</code></p> </td> 
+   <td role="rowheader">[!UICONTROL Query String]</td> 
+   <td> <p>Add the query for the API call in the form of a standard JSON object.</p> <p>For example: <code>{"name":"something-urgent"}</code></p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Body</td> 
+   <td role="rowheader">[!UICONTROL Body]</td> 
    <td> <p>Add the body content for the API call in the form of a standard JSON object.</p> <p>Note:  <p>When using conditional statements such as <code>if</code> in your JSON, put the quotation marks outside of the conditional statement.</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
@@ -187,9 +187,9 @@ When you are configuring this module, the following fields display.
  </tbody> 
 </table>
 
-### Read a record {#read-a-record}
+### [!UICONTROL Read a record]
 
-This action module reads a ServiceNow record by using the system ID.
+This action module reads a [!DNL ServiceNow] record by using the system ID.
 
 The module returns any standard fields associated with the record, along with any custom fields and values that the connection accesses. You can map this information in subsequent modules in the scenario.
 
@@ -200,104 +200,104 @@ When you are configuring this module, the following fields display.
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your ServiceNow account to Workfront Fusion, see <a href="#connect-servicenow-to-workfront-fusion" class="MCXref xref">Connect ServiceNow to Workfront Fusion</a> in this article.</p> </td> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td> <p>For instructions about connecting your ServiceNow account to [!DNL Workfront Fusion], see <a href="#connect-servicenow-to-workfront-fusion" class="MCXref xref">Connect [!DNL ServiceNow] to [!UICONTROL Workfront Fusion]</a> in this article.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Record System ID</td> 
-   <td>Enter or map the unique ServiceNow ID of the record that you want the module to read.</td> 
+   <td role="rowheader">[!UICONTROL Record System ID]</td> 
+   <td>Enter or map the unique [!DNL ServiceNow] ID of the record that you want the module to read.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Table type</td> 
+   <td role="rowheader">[!UICONTROL Table type]</td> 
    <td>Select whether the record you want to read is in a custom table or a standard table.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Record Type</td> 
-   <td>Select the type of ServiceNow record that you want the module to read.</td> 
+   <td role="rowheader">[!UICONTROL Record Type]</td> 
+   <td>Select the type of [!DNL ServiceNow] record that you want the module to read.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Display</td> 
+   <td role="rowheader">[!UICONTROL Display]</td> 
    <td>Select the type of values that you want to display.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Outputs</td> 
+   <td role="rowheader">[!UICONTROL Outputs]</td> 
    <td>Select the fields that you want the module to output.</td> 
   </tr> 
  </tbody> 
 </table>
 
-### Deactivate a User {#deactivate-a-user}
+### [!UICONTROL Deactivate a User]
 
-This action module deactivates a user in ServiceNow by using the system ID.
+This action module deactivates a user in [!DNL ServiceNow] by using the system ID.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your ServiceNow account to Workfront Fusion, see <a href="#connect-servicenow-to-workfront-fusion" class="MCXref xref">Connect ServiceNow to Workfront Fusion</a> in this article.</p> </td> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td> <p>For instructions about connecting your ServiceNow account to [!DNL Workfront Fusion], see <a href="#connect-servicenow-to-workfront-fusion" class="MCXref xref">Connect [!DNL ServiceNow] to [!UICONTROL Workfront Fusion]</a> in this article.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">User System ID</td> 
-   <td> Enter or map the unique ServiceNow ID of the user that you want the module to deactivate.</td> 
+   <td role="rowheader">[!UICONTROL User System ID]</td> 
+   <td> Enter or map the unique [!DNL ServiceNow] ID of the user that you want the module to deactivate.</td> 
   </tr> 
  </tbody> 
 </table>
 
-### Download an attachment {#download-an-attachment}
+### [!UICONTROL Download an attachment]
 
-This action module downloads an attachment in a ServiceNow record.
+This action module downloads an attachment in a [!DNL ServiceNow] record.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your ServiceNow account to Workfront Fusion, see <a href="#connect-servicenow-to-workfront-fusion" class="MCXref xref">Connect ServiceNow to Workfront Fusion</a> in this article.</p> </td> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td> <p>For instructions about connecting your ServiceNow account to [!DNL Workfront Fusion], see <a href="#connect-servicenow-to-workfront-fusion" class="MCXref xref">Connect [!DNL ServiceNow] to [!UICONTROL Workfront Fusion]</a> in this article.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Attachment System ID</td> 
-   <td> Enter or map the unique ServiceNow ID of the attachment that you want the module to download.</td> 
+   <td role="rowheader">[!UICONTROL Attachment System ID]</td> 
+   <td> Enter or map the unique [!DNL ServiceNow] ID of the attachment that you want the module to download.</td> 
   </tr> 
  </tbody> 
 </table>
 
-### Upload an attachment {#upload-an-attachment}
+### [!UICONTROL Upload an attachment]
 
-This action module uploads an attachment to a ServiceNow record.
+This action module uploads an attachment to a [!DNL ServiceNow] record.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your ServiceNow account to Workfront Fusion, see <a href="#connect-servicenow-to-workfront-fusion" class="MCXref xref">Connect ServiceNow to Workfront Fusion</a> in this article.</p> </td> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td> <p>For instructions about connecting your ServiceNow account to [!DNL Workfront Fusion], see <a href="#connect-servicenow-to-workfront-fusion" class="MCXref xref">Connect [!DNL ServiceNow] to [!UICONTROL Workfront Fusion]</a> in this article.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Table name</td> 
+   <td role="rowheader">[!UICONTROL Table name]</td> 
    <td>Enter or map the name of the table where you want to upload the attachment.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">System ID</td> 
-   <td>Enter or map the unique ServiceNow ID of the System where you want to upload the attachment.</td> 
+   <td role="rowheader">[!UICONTROL System ID]</td> 
+   <td>Enter or map the unique [!DNL ServiceNow] ID of the System where you want to upload the attachment.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">File name</td> 
+   <td role="rowheader">[!UICONTROL File name]</td> 
    <td>Enter or map a name for the attachment</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">File content</td> 
-   <td>Enter or map the file that you want to upload to ServiceNow.</td> 
+   <td role="rowheader">[!UICONTROL File content]</td> 
+   <td>Enter or map the file that you want to upload to [!DNL ServiceNow].</td> 
   </tr> 
  </tbody> 
 </table>
 
-### Create a record {#create-a-record}
+### [!UICONTROL Create a record]
 
-This action module creates a new ServiceNow record.
+This action module creates a new [!DNL ServiceNow] record.
 
 When you are configuring this module, the following fields display.
 
@@ -306,23 +306,23 @@ When you are configuring this module, the following fields display.
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your ServiceNow account to Workfront Fusion, see <a href="#connect-servicenow-to-workfront-fusion" class="MCXref xref">Connect ServiceNow to Workfront Fusion</a> in this article.</p> </td> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td> <p>For instructions about connecting your ServiceNow account to [!DNL Workfront Fusion], see <a href="#connect-servicenow-to-workfront-fusion" class="MCXref xref">Connect [!DNL ServiceNow] to [!UICONTROL Workfront Fusion]</a> in this article.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Table type</td> 
+   <td role="rowheader">[!UICONTROL Table type]</td> 
    <td>Select whether you want to create a record in a custom table or a standard table.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Record Type</td> 
-   <td>Select the type of ServiceNow record that you want the module to create. You can then fill in the available fields for this record type.</td> 
+   <td role="rowheader">[!UICONTROL Record Type]</td> 
+   <td>Select the type of [!DNL ServiceNow] record that you want the module to create. You can then fill in the available fields for this record type.</td> 
   </tr> 
  </tbody> 
 </table>
 
-### Update a record {#update-a-record}
+### [!UICONTROL Update a record]
 
-This action module creates a new ServiceNow record.
+This action module creates a new [!DNL ServiceNow] record.
 
 When you are configuring this module, the following fields display.
 
@@ -331,25 +331,25 @@ When you are configuring this module, the following fields display.
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your ServiceNow account to Workfront Fusion, see <a href="#connect-servicenow-to-workfront-fusion" class="MCXref xref">Connect ServiceNow to Workfront Fusion</a> in this article.</p> </td> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td> <p>For instructions about connecting your ServiceNow account to [!DNL Workfront Fusion], see <a href="#connect-servicenow-to-workfront-fusion" class="MCXref xref">Connect [!DNL ServiceNow] to [!UICONTROL Workfront Fusion]</a> in this article.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Record System ID</td> 
-   <td>Enter or map the unique ServiceNow ID of the record that you want the module to update.</td> 
+   <td role="rowheader">[!UICONTROL Record System ID]</td> 
+   <td>Enter or map the unique [!DNL ServiceNow] ID of the record that you want the module to update.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Table type</td> 
+   <td role="rowheader">[!UICONTROL Table type]</td> 
    <td>Select whether the record want to update is in a custom table or a standard table.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Record Type</td> 
-   <td>Select the type of ServiceNow record that you want the module to update. You can then fill in the available fields for this record type.</td> 
+   <td role="rowheader">[!UICONTROL Record Type]</td> 
+   <td>Select the type of [!DNL ServiceNow] record that you want the module to update. You can then fill in the available fields for this record type.</td> 
   </tr> 
  </tbody> 
 </table>
 
-### Delete a record {#delete-a-record}
+### [!UICONTROL Delete a record]
 
 This action module deletes an incident or a user.
 
@@ -360,21 +360,21 @@ When you are configuring this module, the following fields display.
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your ServiceNow account to Workfront Fusion, see <a href="#connect-servicenow-to-workfront-fusion" class="MCXref xref">Connect ServiceNow to Workfront Fusion</a> in this article.</p> </td> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td> <p>For instructions about connecting your ServiceNow account to [!DNL Workfront Fusion], see <a href="#connect-servicenow-to-workfront-fusion" class="MCXref xref">Connect [!DNL ServiceNow] to [!UICONTROL Workfront Fusion]</a> in this article.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Record Type</td> 
+   <td role="rowheader">[!UICONTROL Record Type]</td> 
    <td>Select whether you want to delete an incident or a user.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">System ID</td> 
-   <td>Enter or map the unique ServiceNow ID of the record that you want the module to delete.</td> 
+   <td role="rowheader">[!UICONTROL System ID]</td> 
+   <td>Enter or map the unique [!DNL ServiceNow] ID of the record that you want the module to delete.</td> 
   </tr> 
  </tbody> 
 </table>
 
-### Search for records {#search-for-records}
+### [!UICONTROL Search for records]
 
 This module searches for records using criteria you select.
 
@@ -385,46 +385,46 @@ The module returns any standard fields associated with the record, along with an
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Connection</td> 
-   <td> <p>For instructions about connecting your ServiceNow account to Workfront Fusion, see <a href="#connect-servicenow-to-workfront-fusion" class="MCXref xref">Connect ServiceNow to Workfront Fusion</a> in this article.</p> </td> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td> <p>For instructions about connecting your ServiceNow account to [!DNL Workfront Fusion], see <a href="#connect-servicenow-to-workfront-fusion" class="MCXref xref">Connect [!DNL ServiceNow] to [!UICONTROL Workfront Fusion]</a> in this article.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Table type</td> 
+   <td role="rowheader">[!UICONTROL Table type]</td> 
    <td>Select whether the table you want to search is a custom table or a standard table.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Record type</td> 
+   <td role="rowheader">[!UICONTROL Record type]</td> 
    <td>Select the type of record that you want to search for.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Result set</td> 
+   <td role="rowheader">[!UICONTROL Result set]</td> 
    <td>Select whether you want the module to return all records that match the criteria, or only the first record to match it. </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Maximal count of records</td> 
+   <td role="rowheader">[!UICONTROL Maximal count of records]</td> 
    <td> <p>Enter or map the maximum number of records you want the module to return during each scenario execution cycle.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Search type</td> 
+   <td role="rowheader">[!UICONTROL Search type]</td> 
    <td> <p>Select what type of search you want the module to execute</p> 
     <ul> 
-     <li> <p><strong>Advanced query</strong> </p> 
+     <li> <p><strong>[!UICONTROL Advanced query]</strong> </p> 
       <ul> 
-       <li> <p>Search Query</p> <p>Enter the custom search query. For information on ServiceNow custom search queries, see the <a href="https://docs.servicenow.com/bundle/orlando-platform-user-interface/page/use/common-ui-elements/reference/r_OpAvailableFiltersQueries.html">ServiceNow query documentation</a>.</p> </li> 
+       <li> <p>[!UICONTROL Search Query]</p> <p>Enter the custom search query. For information on [!DNL ServiceNow] custom search queries, see the <a href="https://docs.servicenow.com/bundle/orlando-platform-user-interface/page/use/common-ui-elements/reference/r_OpAvailableFiltersQueries.html">ServiceNow query documentation</a>.</p> </li> 
       </ul> </li> 
-     <li> <p><strong>Simple</strong> </p> 
+     <li> <p><strong>[!UICONTROL Simple]</strong> </p> 
       <ul> 
-       <li> <p>Search Criteria</p> <p>Enter the criteria by which you want the module to search. For more information on setting up search filters, see <a href="../../workfront-fusion/scenarios/add-a-filter-to-a-scenario.md" class="MCXref xref">Add a filter to a scenario in Adobe Workfront Fusion</a>.</p> </li> 
-       <li> <p>Sort by</p> <p>Indicate which field you want the module to sort results by, and whether they should be sorted ascending or descending.</p> </li> 
+       <li> <p>[!UICONTROL Search Criteria]</p> <p>Enter the criteria by which you want the module to search. For more information on setting up search filters, see <a href="../../workfront-fusion/scenarios/add-a-filter-to-a-scenario.md" class="MCXref xref">Add a filter to a scenario in Adobe Workfront Fusion</a>.</p> </li> 
+       <li> <p>[!UICONTROL Sort by]</p> <p>Indicate which field you want the module to sort results by, and whether they should be sorted ascending or descending.</p> </li> 
       </ul> </li> 
-    </ul> <p>&nbsp;</p> </td> 
+    </ul> <p> </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Display</td> 
+   <td role="rowheader">[!UICONTROL Display]</td> 
    <td>Select the type of values that you want to display.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Outputs</td> 
+   <td role="rowheader">[!UICONTROL Outputs]</td> 
    <td>Select the fields that you want the module to output.</td> 
   </tr> 
  </tbody> 
