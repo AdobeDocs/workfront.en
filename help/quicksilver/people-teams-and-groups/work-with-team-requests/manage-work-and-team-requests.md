@@ -27,17 +27,17 @@ You must have the following access to perform the steps in this article:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront plan*</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront license*</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] license*</strong></td> 
    <td> <p>Review or higher to assign or work on a request; Work or higher to reassign a request</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan or license type you have, contact your Workfront administrator.
+&#42;To find out what plan or license type you have, contact your [!DNL Workfront] administrator.
 
 ## Assign a request to a team {#assign-a-request-to-a-team}
 
