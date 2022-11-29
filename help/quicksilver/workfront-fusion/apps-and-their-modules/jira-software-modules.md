@@ -55,8 +55,8 @@ To use [!DNL Jira] modules you must have a [!DNL Jira] account.
 
 Your connection method is based on whether you are using [!DNL Jira Cloud] or [!DNL Jira Server].
 
-* [Connect [!DNL Jira Cloud] to Workfront Fusion](#connect-dnl-jira-cloud-to-dnl-workfront-fusion)
-* [Connect [!DNL Jira Server] to [!DNL Workfront Fusion]](#connect-dnl-jira-server-to-dnl-workfront-fusion)
+* [Connect [!DNL Jira Cloud] to Workfront Fusion](#connect-jira-cloud-to-workfront-fusion)
+* [Connect [!DNL Jira Server] to [!DNL Workfront Fusion]](#connect-jira-server-to-workfront-fusion)
 
 ### Connect [!DNL Jira Cloud] to [!DNL Workfront Fusion]
 
@@ -75,7 +75,7 @@ To connect [!DNL Jira Software] to [!DNL Workfront Fusion], you must create an A
    >
    >You can't view the token again after closing this dialog.
 1. Store the generated token in a safe place.
-1. Continue with [Configure the [!DNL Jira] API token in [!DNL Workfront Fusion]](#configure-the-dnl-jira-api-token-in-dnl-workfront-fusion).
+1. Continue with [Configure the [!DNL Jira] API token in [!DNL Workfront Fusion]](#configure-the-jira-api-token-in-workfront-fusion).
 
 #### Configure the [!DNL Jira] API token in [!DNL Workfront Fusion] 
 
@@ -84,7 +84,7 @@ To connect [!DNL Jira Software] to [!DNL Workfront Fusion], you must create an A
 
    * **[!UICONTROL Service URL]**
    * **[!UICONTROL Username]**
-   * **[!UICONTROL API token]:**&nbsp;This is the API token you created in the [Create an API token in [!DNL Jira]](#create-an-api-token-in-dnl-jira) section of this article.
+   * **[!UICONTROL API token]:**&nbsp;This is the API token you created in the [Create an API token in [!DNL Jira]](#create-an-api-token-in-jira) section of this article.
 
 1. Click [!UICONTROL Continue] to create the connection and return to the module.
 
@@ -96,9 +96,9 @@ To connect [!DNL Jira Software] to [!DNL Workfront Fusion], you must create an A
 
 To authorize a connection between [!DNL Workfront Fusion] and [!DNL Jira Server], you need your Consumer Key, Private Key, And Service URL. You might need to contact your [!DNL Jira] administrator for this information.
 
-* [Generate Public and Private keys for your [!DNL Jira] connection](#generate-public-and-private-keys-for-your-dnl-jira-connection)
-* [Configure the client app as a consumer in [!DNL Jira]](#configure-the-client-app-as-a-consumer-in-dnl-jira)
-* [Create a connection to [!DNL Jira] Server or Jira Data Center in [!DNL Workfront Fusion]](#create-a-connection-to-dnl-jira-server-or-dnl-jira-data-center-in-dnl-workfront-fusion)
+* [Generate Public and Private keys for your [!DNL Jira] connection](#generate-public-and-private-keys-for-your-jira-connection)
+* [Configure the client app as a consumer in [!DNL Jira]](#configure-the-client-app-as-a-consumer-in-jira)
+* [Create a connection to [!DNL Jira] Server or Jira Data Center in [!DNL Workfront Fusion]](#create-a-connection-to-jira-server-or-jira-data-center-in-workfront-fusion)
 
 #### Generate Public and Private keys for your [!DNL Jira] connection 
 
@@ -136,7 +136,7 @@ file.
       >1. Paste the terminal output into a file named `jira_publickey.pem`.
 
 
-1. Continue to [Configure the client app as a consumer in [!DNL Jira]](#configure-the-client-app-as-a-consumer-in-dnl-jira)
+1. Continue to [Configure the client app as a consumer in [!DNL Jira]](#configure-the-client-app-as-a-consumer-in-jira)
 
 #### Configure the client app as a consumer in [!DNL Jira] 
 
@@ -189,7 +189,7 @@ file.
    </table>
 
 1. Click **[!UICONTROL Continue]**.
-1. Continue to [Create a connection to [!DNL Jira Server] or [!DNL Jira Data Center] in [!DNL Workfront Fusion]](#create-a-connection-to-dnl-jira-server-or-dnl-jira-data-center-in-dnl-workfront-fusion)
+1. Continue to [Create a connection to [!DNL Jira Server] or [!DNL Jira Data Center] in [!DNL Workfront Fusion]](#create-a-connection-to-jira-server-or-jira-data-center-in-workfront-fusion)
 
 #### Create a connection to [!DNL Jira Server] or [!DNL Jira Data Center] in [!DNL Workfront Fusion] 
 
@@ -267,13 +267,13 @@ This trigger module starts a scenario when a record is added, updated, or delete
 
 ### Actions
 
-* [[!UICONTROL Add issue to sprint]](#uicontrol-add-issue-to-sprint)
-* [[!UICONTROL Custom API Call]](#uicontrol-custom-api-call)
-* [[!UICONTROL Create a Record]](#uicontrol-create-a-record)
-* [[!UICONTROL Delete a record]](#uicontrol-delete-a-record)
-* [[!UICONTROL Download an attachment]](#uicontrol-download-an-attachment)
-* [[!UICONTROL Read a record]](#uicontrol-read-a-record)
-* [[!UICONTROL Update a record]](#uicontrol-update-a-record)
+* [[!UICONTROL Add issue to sprint]](#add-issue-to-sprint)
+* [[!UICONTROL Custom API Call]](#custom-api-call)
+* [[!UICONTROL Create a Record]](#create-a-record)
+* [[!UICONTROL Delete a record]](#delete-a-record)
+* [[!UICONTROL Download an attachment]](#download-an-attachment)
+* [[!UICONTROL Read a record]](#read-a-record)
+* [[!UICONTROL Update a record]](#update-a-record)
 
 #### [!UICONTROL Add issue to sprint]
 
@@ -506,8 +506,8 @@ When you are configuring this module, the following fields display.
 
 ### Searches 
 
-* [[!UICONTROL List records]](#uicontrol-list-records)
-* [[!UICONTROL Search for records]](#uicontrol-search-for-records)
+* [[!UICONTROL List records]](#list-records)
+* [[!UICONTROL Search for records]](#search-for-records)
 
 #### [!UICONTROL List records]
 

@@ -53,9 +53,9 @@ To use [!DNL Frame.io] modules, you must have a [!DNL Frame.io] account
 
 You can connect to [!DNL Frame.io] using an API token, or by using OAuth 2.0.
 
-[Connect to [!DNL Frame.io] using an API token](#connect-to-dnl-frameio-using-an-api-token)
+[Connect to [!DNL Frame.io] using an API token](#connect-to-frameio-using-an-api-token)
 
-[Connect to [!DNL Frame.io] using OAuth 2.0 PKCE](#connect-to-dnl-frameio-using-oauth-20-pkce)
+[Connect to [!DNL Frame.io] using OAuth 2.0 PKCE](#connect-to-frameio-using-oauth-20-pkce)
 
 ### Connect to [!DNL Frame.io] using an API token
 
@@ -76,8 +76,8 @@ The connection has been established. You can proceed with setting up the module.
 
 You can create an connection to [!DNL Frame.io] using OAuth 2.0 PKCE with an optional Client ID. If you want to include a Client ID in your connection, you must create an OAuth 2.0 app in your [!DNL Frame.io] account.
 
-* [Connect to [!DNL Frame.io] using using OAuth 2.0 PKCE (without Client ID)](#connect-to-dnl-frameio-using-using-oauth-20-pkce-without-client-id)
-* [Connect to [!DNL Frame.io] using using OAuth 2.0 PKCE (with Client ID)](#connect-to-dnl-frameio-using-using-oauth-20-pkce-with-client-id)
+* [Connect to [!DNL Frame.io] using using OAuth 2.0 PKCE (without Client ID)](#connect-to-frameio-using-using-oauth-20-pkce-without-client-id)
+* [Connect to [!DNL Frame.io] using using OAuth 2.0 PKCE (with Client ID)](#connect-to-frameio-using-using-oauth-20-pkce-with-client-id)
 
 #### Connect to [!DNL Frame.io] using using OAuth 2.0 PKCE (without Client ID) 
 
@@ -130,14 +130,14 @@ If you see the map button above a field or function, you can use it to set varia
 
 ### Assets 
 
-* [[!UICONTROL Create an Asset]](#uicontrol-create-an-asset)
-* [[!UICONTROL Delete an Asset]](#uicontrol-delete-an-asset)
-* [[!UICONTROL Get an Asset]](#uicontrol-get-an-asset)
-* [[!UICONTROL List Assets]](#uicontrol-list-assets)
-* [[!UICONTROL Update an Asset]](#uicontrol-update-an-asset)
-* [[!UICONTROL Watch Asset Deleted]](#uicontrol-watch-asset-deleted)
-* [[!UICONTROL Watch Asset Label Updated]](#uicontrol-watch-asset-label-updated)
-* [[!UICONTROL Watch New Asset]](#uicontrol-watch-new-asset)
+* [[!UICONTROL Create an Asset]](#create-an-asset)
+* [[!UICONTROL Delete an Asset]](#delete-an-asset)
+* [[!UICONTROL Get an Asset]](#get-an-asset)
+* [[!UICONTROL List Assets]](#list-assets)
+* [[!UICONTROL Update an Asset]](#update-an-asset)
+* [[!UICONTROL Watch Asset Deleted]](#watch-asset-deleted)
+* [[!UICONTROL Watch Asset Label Updated]](#watch-asset-label-updated)
+* [[!UICONTROL Watch New Asset]](#watch-new-asset)
 
 #### [!UICONTROL Create an Asset]
 
@@ -393,13 +393,13 @@ This trigger module starts a scenario when a new asset is created.
 
 ### Comments 
 
-* [[!UICONTROL Create a Comment]](#uicontrol-create-a-comment)
-* [[!UICONTROL Delete a Comment]](#uicontrol-delete-a-comment)
-* [[!UICONTROL Get a Comment]](#uicontrol-get-a-comment)
-* [[!UICONTROL List Comments]](#uicontrol-list-comments)
-* [[!UICONTROL Update a Comment]](#uicontrol-update-a-comment)
-* [[!UICONTROL Watch Comment Updated]](#uicontrol-watch-comment-updated)
-* [[!UICONTROL Watch New Comment]](#uicontrol-watch-new-comment)
+* [[!UICONTROL Create a Comment]](#create-a-comment)
+* [[!UICONTROL Delete a Comment]](#delete-a-comment)
+* [[!UICONTROL Get a Comment]](#get-a-comment)
+* [[!UICONTROL List Comments]](#list-comments)
+* [[!UICONTROL Update a Comment]](#update-a-comment)
+* [[!UICONTROL Watch Comment Updated]](#watch-comment-updated)
+* [[!UICONTROL Watch New Comment]](#watch-new-comment)
 
 #### [!UICONTROL Create a Comment]
 

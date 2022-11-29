@@ -110,11 +110,11 @@ When you are configuring this module, the following fields display.
 
 ### Actions 
 
-* [Custom API Call](#uicontrol-custom-api-call)
-* [Read Record](#uicontrol-read-record)
-* [Create Record](#uicontrol-create-record)
-* [Delete Record](#uicontrol-delete-record)
-* [Update Record](#uicontrol-update-record)
+* [Custom API Call](#custom-api-call)
+* [Read Record](#read-record)
+* [Create Record](#create-record)
+* [Delete Record](#delete-record)
+* [Update Record](#update-record)
 
 #### [!UICONTROL Custom API Call] 
 

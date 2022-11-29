@@ -276,7 +276,7 @@ This function returns a new date with the seconds specified in parameters.
 
 Specify a number from 0 to 59. If the number is outside of that range, the function returns a second from the previous minute (for a negative number) or subsequent minute (for a positive number).
 
-If you need to specify a number outside the range, we recommend that you use[!UICONTROL  addSeconds], as described above in the section [addSeconds (date; number)](#uicontrol-addseconds-date-number).
+If you need to specify a number outside the range, we recommend that you use[!UICONTROL  addSeconds], as described above in the section [addSeconds (date; number)](#addseconds-date-number).
 
 >[!INFO]
 >
@@ -296,7 +296,7 @@ This function returns a new date with the minutes specified in parameters.
 
 Specify a number from 0 to 59. If the number is outside of that range, the function returns a minute from the previous hour (for a negative number) or subsequent hour (for a positive number).
 
-If you need to specify a number outside the range, we recommend that you use addMinutes, as described above in [addMinutes (date; number)](#uicontrol-addminutes-date-number). 
+If you need to specify a number outside the range, we recommend that you use addMinutes, as described above in [addMinutes (date; number)](#addminutes-date-number). 
 
 >[!INFO]
 >
@@ -316,7 +316,7 @@ This function returns a new date with the hour specified in parameters.
 
 Specify a number from 0 to 23. If the number is outside this range, the function returns an hour from the previous day (for a negative number) or subsequent day (for a positive number).
 
-If you need to specify a number outside the range, we recommend that you use addHours, as described above in [addHours (date; number)](#uicontrol-addhours-date-number). 
+If you need to specify a number outside the range, we recommend that you use addHours, as described above in [addHours (date; number)](#addhours-date-number). 
 
 >[!INFO]
 >
@@ -336,7 +336,7 @@ This function returns a new date with the day specified in parameters.
 
 You can use this function to set the day of the week, with Sunday as 1 and Saturday as 7. If the you specify a number from 1 to 7, the resulting date is within the current (Sunday-to-Saturday) week. If the number is outside of that range, the function returns a day from the previous week (for a negative number) or subsequent week (for a positive number).
 
-If you need to specify a number outside the range, we recommend that you use addDays, as described above in [addDays (date; number)](#uicontrol-adddays-date-number).
+If you need to specify a number outside the range, we recommend that you use addDays, as described above in [addDays (date; number)](#adddays-date-number).
 
 >[!INFO]
 >

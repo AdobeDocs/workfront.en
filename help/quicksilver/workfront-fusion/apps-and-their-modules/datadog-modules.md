@@ -114,8 +114,8 @@ If you see the map button above a field or function, you can use it to set varia
 
 ### Actions
 
-* [[!UICONTROL Post Timeseries Points]](#uicontrol-post-timeseries-points)
-* [[!UICONTROL Make an API Call]](#uicontrol-make-an-api-call)
+* [[!UICONTROL Post Timeseries Points]](#post-timeseries-points)
+* [[!UICONTROL Make an API Call]](#make-an-api-call)
 
 #### [!UICONTROL Post Timeseries Points]
 

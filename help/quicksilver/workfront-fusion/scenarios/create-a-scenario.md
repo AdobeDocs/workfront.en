@@ -89,7 +89,7 @@ For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Work
 
    The two most common types of modules are actions and triggers. For more information, see [Types of modules](../../workfront-fusion/modules/module-types.md).
 
-1. Continue on to [Connect the module's app or web service to [!DNL Workfront Fusion]](#connect-the-modules-app-or-web-service-to-dnl-workfront-fusion).
+1. Continue on to [Connect the module's app or web service to [!DNL Workfront Fusion]](#connect-the-modules-app-or-web-service-to-workfront-fusion).
 
 ## Connect the module's app or web service to [!DNL Workfront Fusion]
 

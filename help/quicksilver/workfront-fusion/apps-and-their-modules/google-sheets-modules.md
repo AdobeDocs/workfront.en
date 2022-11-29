@@ -112,17 +112,17 @@ The module retrieves only new rows that have not been filled in before. The trig
 
 ## Actions
 
-* [[!UICONTROL Add a Row]](#uicontrol-add-a-row)
-* [[!UICONTROL Update a Row]](#uicontrol-update-a-row)
-* [[!UICONTROL Clear a Row]](#uicontrol-clear-a-row)
-* [[!UICONTROL Delete a Row]](#uicontrol-delete-a-row)
-* [[!UICONTROL Get a Cell]](#uicontrol-get-a-cell)
-* [[!UICONTROL Update a Cell]](#uicontrol-update-a-cell)
-* [[!UICONTROL Clear a Cell]](#uicontrol-clear-a-cell)
-* [[!UICONTROL Add a Sheet]](#uicontrol-add-a-sheet)
-* [[!UICONTROL Create a Spreadsheet]](#uicontrol-create-a-spreadsheet)
-* [[!UICONTROL Delete a Sheet]](#uicontrol-delete-a-sheet)
-* [[!UICONTROL Make an API Call]](#uicontrol-make-an-api-call)
+* [[!UICONTROL Add a Row]](#add-a-row)
+* [[!UICONTROL Update a Row]](#update-a-row)
+* [[!UICONTROL Clear a Row]](#clear-a-row)
+* [[!UICONTROL Delete a Row]](#delete-a-row)
+* [[!UICONTROL Get a Cell]](#get-a-cell)
+* [[!UICONTROL Update a Cell]](#update-a-cell)
+* [[!UICONTROL Clear a Cell]](#clear-a-cell)
+* [[!UICONTROL Add a Sheet]](#add-a-sheet)
+* [[!UICONTROL Create a Spreadsheet]](#create-a-spreadsheet)
+* [[!UICONTROL Delete a Sheet]](#delete-a-sheet)
+* [[!UICONTROL Make an API Call]](#make-an-api-call)
 
 ### [!UICONTROL Add a Row] 
 
@@ -521,10 +521,10 @@ This action module allows you to perform a custom API call.
 
 ## Searches
 
-* [[!UICONTROL Search Rows]](#uicontrol-search-rows)
-* [[!UICONTROL Search Rows (Advanced)]](#uicontrol-search-rows-advanced)
-* [[!UICONTROL Get Range Values]](#uicontrol-get-range-values)
-* [[!UICONTROL List Sheets]](#uicontrol-list-sheets)
+* [[!UICONTROL Search Rows]](#search-rows)
+* [[!UICONTROL Search Rows (Advanced)]](#search-rows-advanced)
+* [[!UICONTROL Get Range Values]](#get-range-values)
+* [[!UICONTROL List Sheets]](#list-sheets)
 
 ### [!UICONTROL Search Rows]
 
@@ -678,7 +678,7 @@ See more details at [developers.google.com/sheets/api/limits](https://developers
 
 ## Tips & Tricks
 
-* [How to get Empty Cells from a [!DNL Google] Sheet](#how-to-get-empty-cells-from-a-dnl-google-sheet)
+* [How to get Empty Cells from a [!DNL Google] Sheet](#how-to-get-empty-cells-from-a-google-sheet)
 * [Add a button in a sheet to run a scenario](#add-a-button-in-a-sheet-to-run-a-scenario)
 
 ### How to get Empty Cells from a [!DNL Google Sheet] 

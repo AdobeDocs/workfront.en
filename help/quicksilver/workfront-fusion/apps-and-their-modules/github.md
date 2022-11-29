@@ -66,11 +66,11 @@ If you see the map button above a field or function, you can use it to set varia
 
 ### Triggers 
 
-* [[!UICONTROL Watch Issues]](#uicontrol-watch-issues)
-* [[!UICONTROL Watch Repositories]](#uicontrol-watch-repositories)
-* [[!UICONTROL Watch Forks]](#uicontrol-watch-forks)
-* [[!UICONTROL Watch Comments]](#uicontrol-watch-comments)
-* [[!UICONTROL Watch Pull Requests]](#uicontrol-watch-pull-requests)
+* [[!UICONTROL Watch Issues]](#watch-issues)
+* [[!UICONTROL Watch Repositories]](#watch-repositories)
+* [[!UICONTROL Watch Forks]](#watch-forks)
+* [[!UICONTROL Watch Comments]](#watch-comments)
+* [[!UICONTROL Watch Pull Requests]](#watch-pull-requests)
 
 #### [!UICONTROL Watch Issues] 
 
@@ -232,16 +232,16 @@ This module triggers when a new pull request is added or an existing pull reques
 
 ### Actions
 
-* [[!UICONTROL Search for an issue]](#uicontrol-search-for-an-issue)
-* [[!UICONTROL Create an issue]](#uicontrol-create-an-issue)
-* [[!UICONTROL Update an issue]](#uicontrol-update-an-issue)
-* [[!UICONTROL Get an issue]](#uicontrol-get-an-issue)
-* [[!UICONTROL Add assignees]](#uicontrol-add-assignees)
-* [[!UICONTROL Remove assignees]](#uicontrol-remove-assignees)
-* [[!UICONTROL Add labels to an issue]](#uicontrol-add-labels-to-an-issue)
-* [[!UICONTROL Remove a label from an issue]](#uicontrol-remove-a-label-from-an-issue)
-* [[!UICONTROL Create a comment]](#uicontrol-create-a-comment)
-* [[!UICONTROL List comments]](#uicontrol-list-comments)
+* [[!UICONTROL Search for an issue]](#search-for-an-issue)
+* [[!UICONTROL Create an issue]](#create-an-issue)
+* [[!UICONTROL Update an issue]](#update-an-issue)
+* [[!UICONTROL Get an issue]](#get-an-issue)
+* [[!UICONTROL Add assignees]](#add-assignees)
+* [[!UICONTROL Remove assignees]](#remove-assignees)
+* [[!UICONTROL Add labels to an issue]](#add-labels-to-an-issue)
+* [[!UICONTROL Remove a label from an issue]](#remove-a-label-from-an-issue)
+* [[!UICONTROL Create a comment]](#create-a-comment)
+* [[!UICONTROL List comments]](#list-comments)
 
 #### [!UICONTROL Search for an issue]
 

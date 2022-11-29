@@ -62,8 +62,8 @@ If you see the map button above a field or function, you can use it to set varia
 ![](assets/map-toggle-350x74.png)
 
 * [Trigger modules](#trigger-modules)
-* [Modules for getting [!DNL Dropbox] files and folders](#modules-for-getting-dnl-dropbox-files-and-folders)
-* [Modules for creating and editing [!DNL Dropbox] files and folders](#modules-for-creating-and-editing-dnl-dropbox-files-and-folders)
+* [Modules for getting [!DNL Dropbox] files and folders](#modules-for-getting-dropbox-files-and-folders)
+* [Modules for creating and editing [!DNL Dropbox] files and folders](#modules-for-creating-and-editing-dropbox-files-and-folders)
 * [Other modules](#other-modules)
 
 ### Trigger modules 
@@ -97,11 +97,11 @@ This Trigger type module returns file details when the file in a specified folde
 
 ### Modules for getting [!DNL Dropbox] files and folders 
 
-* [[!UICONTROL Search Files/Folders]](#uicontrol-search-filesfolders)
-* [[!UICONTROL Download a File]](#uicontrol-download-a-file)
-* [[!UICONTROL Get a Folder Metadata]](#uicontrol-get-a-folder-metadata)
-* [[!UICONTROL List All Files/Subfolders in a Folder]](#uicontrol-list-all-filessubfolders-in-a-folder)
-* [[!UICONTROL List File Revisions]](#uicontrol-list-file-revisions)
+* [[!UICONTROL Search Files/Folders]](#search-filesfolders)
+* [[!UICONTROL Download a File]](#download-a-file)
+* [[!UICONTROL Get a Folder Metadata]](#get-a-folder-metadata)
+* [[!UICONTROL List All Files/Subfolders in a Folder]](#list-all-filessubfolders-in-a-folder)
+* [[!UICONTROL List File Revisions]](#list-file-revisions)
 
 #### [!UICONTROL Search Files/Folders] 
 
@@ -273,14 +273,14 @@ When you are configuring this module, the following fields display.
 
 ### Modules for creating and editing [!DNL Dropbox] files and folders 
 
-* [[!UICONTROL Upload] a File](#uicontrol-upload-a-file)
-* [[!UICONTROL Create a Folder]](#uicontrol-create-a-folder)
-* [[!UICONTROL Create/Overwrite a Text File]](#uicontrol-createoverwrite-a-text-file)
-* [[!UICONTROL Create/Update a Share Link]](#uicontrol-createupdate-a-share-link)
-* [[!UICONTROL Restore a File]](#uicontrol-restore-a-file)
-* [[!UICONTROL Move a File/Folder]](#uicontrol-move-a-filefolder)
-* [[!UICONTROL Rename a File/Folder]](#uicontrol-rename-a-filefolder)
-* [[!UICONTROL Delete a File/Folder]](#uicontrol-delete-a-filefolder)
+* [[!UICONTROL Upload] a File](#upload-a-file)
+* [[!UICONTROL Create a Folder]](#create-a-folder)
+* [[!UICONTROL Create/Overwrite a Text File]](#createoverwrite-a-text-file)
+* [[!UICONTROL Create/Update a Share Link]](#createupdate-a-share-link)
+* [[!UICONTROL Restore a File]](#restore-a-file)
+* [[!UICONTROL Move a File/Folder]](#move-a-filefolder)
+* [[!UICONTROL Rename a File/Folder]](#rename-a-filefolder)
+* [[!UICONTROL Delete a File/Folder]](#delete-a-filefolder)
 
 #### [!UICONTROL Upload a File]
 

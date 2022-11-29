@@ -97,16 +97,16 @@ If you see the map button above a field or function, you can use it to set varia
 >
 >If there are no custom records, the dropdown will be empty.
 
-* [[!UICONTROL Watch records]](#uicontrol-watch-records)
-* [[!UICONTROL Custom API Call]](#uicontrol-custom-api-call)
-* [[!UICONTROL Read a record]](#uicontrol-read-a-record)
-* [[!UICONTROL Deactivate a User]](#uicontrol-deactivate-a-user)
-* [[!UICONTROL Download an attachment]](#uicontrol-download-an-attachment)
-* [[!UICONTROL Upload an attachment]](#uicontrol-upload-an-attachment)
-* [[!UICONTROL Create a record]](#uicontrol-create-a-record)
-* [[!UICONTROL Update a record]](#uicontrol-update-a-record)
-* [[!UICONTROL Delete a record]](#uicontrol-delete-a-record)
-* [[!UICONTROL Search for records]](#uicontrol-search-for-records)
+* [[!UICONTROL Watch records]](#watch-records)
+* [[!UICONTROL Custom API Call]](#custom-api-call)
+* [[!UICONTROL Read a record]](#read-a-record)
+* [[!UICONTROL Deactivate a User]](#deactivate-a-user)
+* [[!UICONTROL Download an attachment]](#download-an-attachment)
+* [[!UICONTROL Upload an attachment]](#upload-an-attachment)
+* [[!UICONTROL Create a record]](#create-a-record)
+* [[!UICONTROL Update a record]](#update-a-record)
+* [[!UICONTROL Delete a record]](#delete-a-record)
+* [[!UICONTROL Search for records]](#search-for-records)
 
 ### [!UICONTROL Watch records]
 

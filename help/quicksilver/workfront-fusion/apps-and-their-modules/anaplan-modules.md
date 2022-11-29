@@ -123,12 +123,12 @@ This trigger module starts a scenario when a record of the chosen type is create
 
 ### Actions 
 
-* [[!UICONTROL Create a list item]](#uicontrol-create-a-list-item)
-* [[!UICONTROL Make a custom API Call]](#uicontrol-make-a-custom-api-call)
-* [[!UICONTROL Read a record]](#uicontrol-read-a-record)
-* [[!UICONTROL Run an action]](#uicontrol-run-an-action)
-* [[!UICONTROL Update a record]](#uicontrol-update-a-record)
-* [[!UICONTROL Upload a file]](#uicontrol-upload-a-file)
+* [[!UICONTROL Create a list item]](#create-a-list-item)
+* [[!UICONTROL Make a custom API Call]](#make-a-custom-api-call)
+* [[!UICONTROL Read a record]](#read-a-record)
+* [[!UICONTROL Run an action]](#run-an-action)
+* [[!UICONTROL Update a record]](#update-a-record)
+* [[!UICONTROL Upload a file]](#upload-a-file)
 
 #### [!UICONTROL Create a list item] 
 

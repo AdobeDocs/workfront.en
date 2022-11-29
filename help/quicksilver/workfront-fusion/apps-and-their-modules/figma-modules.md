@@ -78,11 +78,11 @@ If you see the map button above a field or function, you can use it to set varia
 
 ### Comments
 
-* [Delete a comment](#uicontrol-delete-a-comment)
+* [Delete a comment](#delete-a-comment)
 
-* [List comments](#uicontrol-list-comments)
+* [List comments](#list-comments)
 
-* [Post a comment](#uicontrol-post-a-comment)
+* [Post a comment](#post-a-comment)
 
 
 #### [!UICONTROL Delete a comment]
@@ -179,13 +179,13 @@ This action module posts a comment to a Figma file.
 
 ### Projects and files
 
-* [Get a file or image](#uicontrol-get-a-file-or-image)
+* [Get a file or image](#get-a-file-or-image)
 
-* [List file version history](#uicontrol-list-file-version-history)
+* [List file version history](#list-file-version-history)
 
-* [List project files](#uicontrol-list-project-files)
+* [List project files](#list-project-files)
 
-* [List projects](#uicontrol-list-projects)
+* [List projects](#list-projects)
 
 
 #### [!UICONTROL Get a file or image]
@@ -545,9 +545,9 @@ This action module retrieves a single style or component, or a set of styles or 
 
 ### Other
 
-* [Make an API call](#uicontrol-make-an-api-call)
+* [Make an API call](#make-an-api-call)
 
-* [Watch events](#uicontrol-watch-events)
+* [Watch events](#watch-events)
 
 
 #### [!UICONTROL Make an API call]

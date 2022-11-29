@@ -60,9 +60,9 @@ For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Work
 
 ## Creating a connection for an [!DNL OAuth] request 
 
-* [General instructions for creating a connection in the HTTP > Make an OAuth 2.0 request module](#general-instructions-for-creating-a-connection-in-the-uicontrol-http--uicontrol-make-an-oauth-20-request-module)
-* [Instructions for creating a connection to Google in the HTTP >[!UICONTROL Make] an OAuth 2.0 request module](#instructions-for-creating-a-connection-to-dnl-google-in-the-uicontrol-http-uicontrol-make-an-oauth-20-request-module)
-* [Instructions for connecting to Microsoft Graph API via the HTTP > Make an OAuth 2.0 request module](#instructions-for-connecting-to-dnl-microsoft-graph-api-via-the-uicontrol-http--uicontrol-make-an-oauth-20-request-module)
+* [General instructions for creating a connection in the HTTP > Make an OAuth 2.0 request module](#general-instructions-for-creating-a-connection-in-the-http--make-an-oauth-20-request-module)
+* [Instructions for creating a connection to Google in the HTTP >[!UICONTROL Make] an OAuth 2.0 request module](#instructions-for-creating-a-connection-to-google-in-the-http-make-an-oauth-20-request-module)
+* [Instructions for connecting to Microsoft Graph API via the HTTP > Make an OAuth 2.0 request module](#instructions-for-connecting-to-microsoft-graph-api-via-the-http--make-an-oauth-20-request-module)
 
 ### General instructions for creating a connection in the [!UICONTROL HTTP] > [!UICONTROL Make an OAuth 2.0 request] module 
 
@@ -273,7 +273,7 @@ For instructions regarding [!DNL Microsoft Graph API], see [Call the [!DNL MS Gr
 
 ## OAuth 2.0 request module setup 
 
-When you have established an [!DNL Oauth 2].0 connection as described in [Creating a connection for an [!DNL OAuth] request](#creating-a-connection-for-an-dnl-oauth-request), continue setting up the module as desired. All authorization tokens are automatically included in this request, and in any other request that uses the same connection.
+When you have established an [!DNL Oauth 2].0 connection as described in [Creating a connection for an [!DNL OAuth] request](#creating-a-connection-for-an-oauth-request), continue setting up the module as desired. All authorization tokens are automatically included in this request, and in any other request that uses the same connection.
 
 When you configure the [!UICONTROL HTTP] >[!UICONTROL Make an OAuth 2.0 request] module, [!DNL Workfront Fusion] displays the fields listed below. A bolded title in a module indicates a required field.
 

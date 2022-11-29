@@ -66,14 +66,14 @@ If you see the map button above a field or function, you can use it to set varia
 
 ### Presentation 
 
-* [[!UICONTROL Watch Presentations]](#uicontrol-watch-presentations) 
-* [[!UICONTROL List Presentations]](#uicontrol-list-presentations) 
-* [[!UICONTROL Get a Presentation]](#uicontrol-get-a-presentation) 
-* [[!UICONTROL Get a Page/Thumbnail]](#uicontrol-get-a-pagethumbnail) 
-* [[!UICONTROL Create a Presentation From a Template]](#uicontrol-create-a-presentation-from-a-template) 
-* [[!UICONTROL Upload an Image To a Presentation]](#uicontrol-upload-an-image-to-a-presentation) 
-* [[!UICONTROL Refresh a Chart]](#uicontrol-refresh-a-chart) 
-* [[!UICONTROL Add/Delete a Slide]](#uicontrol-adddelete-a-slide)
+* [[!UICONTROL Watch Presentations]](#watch-presentations) 
+* [[!UICONTROL List Presentations]](#list-presentations) 
+* [[!UICONTROL Get a Presentation]](#get-a-presentation) 
+* [[!UICONTROL Get a Page/Thumbnail]](#get-a-pagethumbnail) 
+* [[!UICONTROL Create a Presentation From a Template]](#create-a-presentation-from-a-template) 
+* [[!UICONTROL Upload an Image To a Presentation]](#upload-an-image-to-a-presentation) 
+* [[!UICONTROL Refresh a Chart]](#refresh-a-chart) 
+* [[!UICONTROL Add/Delete a Slide]](#adddelete-a-slide)
 
 #### [!UICONTROL Watch Presentations]
 
@@ -380,8 +380,8 @@ Creates an empty slide or deletes an existing slide on the specified presentatio
 
 ### Other
 
-* [[!UICONTROL Make an API Call]](#uicontrol-make-an-api-call) 
-* [[!UICONTROL Insert Links in a Presentation]](#uicontrol-insert-links-in-a-presentation)
+* [[!UICONTROL Make an API Call]](#make-an-api-call) 
+* [[!UICONTROL Insert Links in a Presentation]](#insert-links-in-a-presentation)
 
 #### [!UICONTROL Make an API Call]
 

@@ -68,9 +68,9 @@ If you see the map button above a field or function, you can use it to set varia
 
 ### Workbook 
 
-* [Watch Workbooks](#uicontrol-watch-workbooks)
-* [Search Workbooks](#uicontrol-search-workbooks)
-* [Download a Workbook](#uicontrol-download-a-workbook)
+* [Watch Workbooks](#watch-workbooks)
+* [Search Workbooks](#search-workbooks)
+* [Download a Workbook](#download-a-workbook)
 
 #### [!UICONTROL Watch Workbooks]
 
@@ -151,13 +151,13 @@ This action module downloads the content of the specified Excel workbook.
 
 ### Worksheet
 
-* [[!UICONTROL Watch Worksheet Rows]](#uicontrol-watch-worksheet-rows)
-* [[!UICONTROL List Worksheets]](#uicontrol-list-worksheets)
-* [[!UICONTROL List Worksheet Rows]](#uicontrol-list-worksheet-rows)
-* [[!UICONTROL Add a Worksheet]](#uicontrol-add-a-worksheet)
-* [[!UICONTROL Add a Worksheet Row]](#uicontrol-add-a-worksheet-row)
-* [[!UICONTROL Update a Worksheet Row]](#uicontrol-update-a-worksheet-row)
-* [[!UICONTROL Delete a Worksheet Row]](#uicontrol-delete-a-worksheet-row)
+* [[!UICONTROL Watch Worksheet Rows]](#watch-worksheet-rows)
+* [[!UICONTROL List Worksheets]](#list-worksheets)
+* [[!UICONTROL List Worksheet Rows]](#list-worksheet-rows)
+* [[!UICONTROL Add a Worksheet]](#add-a-worksheet)
+* [[!UICONTROL Add a Worksheet Row]](#add-a-worksheet-row)
+* [[!UICONTROL Update a Worksheet Row]](#update-a-worksheet-row)
+* [[!UICONTROL Delete a Worksheet Row]](#delete-a-worksheet-row)
 
 #### [!UICONTROL Watch Worksheet Rows]
 
@@ -365,14 +365,14 @@ This action module deletes a row from a worksheet.
 
 ### Table
 
-* [[!UICONTROL Watch table rows]](#uicontrol-watch-table-rows)
-* [[!UICONTROL List tables]](#uicontrol-list-tables)
-* [[!UICONTROL List table rows]](#uicontrol-list-table-rows)
-* [[!UICONTROL Get a Table]](#uicontrol-get-a-table)
-* [[!UICONTROL Add a table]](#uicontrol-add-a-table)
-* [[!UICONTROL Add a table row]](#uicontrol-add-a-table-row)
-* [[!UICONTROL Update a table]](#uicontrol-update-a-table)
-* [[!UICONTROL Delete a table]](#uicontrol-delete-a-table)
+* [[!UICONTROL Watch table rows]](#watch-table-rows)
+* [[!UICONTROL List tables]](#list-tables)
+* [[!UICONTROL List table rows]](#list-table-rows)
+* [[!UICONTROL Get a Table]](#get-a-table)
+* [[!UICONTROL Add a table]](#add-a-table)
+* [[!UICONTROL Add a table row]](#add-a-table-row)
+* [[!UICONTROL Update a table]](#update-a-table)
+* [[!UICONTROL Delete a table]](#delete-a-table)
 
 #### [!UICONTROL Watch table rows]
 
@@ -630,8 +630,8 @@ This action module deletes the specified table from an [!DNL Excel] worksheet.
 
 ### Other
 
-* [[!UICONTROL Retrieve data]](#uicontrol-retrieve-data)
-* [[!UICONTROL Make an API Call]](#uicontrol-make-an-api-call)
+* [[!UICONTROL Retrieve data]](#retrieve-data)
+* [[!UICONTROL Make an API Call]](#make-an-api-call)
 
 #### [!UICONTROL Retrieve data]
 

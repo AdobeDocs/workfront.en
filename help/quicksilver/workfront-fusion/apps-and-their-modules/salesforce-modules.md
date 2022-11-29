@@ -77,9 +77,9 @@ For more information about search possibilities, see the [!DNL Salesforce] devel
 
 ### Triggers 
 
-* [[!UICONTROL Watch for Records]](#uicontrol-watch-for-records) 
-* [[!UICONTROL Watch Outbound Messages]](#uicontrol-watch-outbound-messages) 
-* [[!UICONTROL Watch a field]](#uicontrol-watch-a-field)
+* [[!UICONTROL Watch for Records]](#watch-for-records) 
+* [[!UICONTROL Watch Outbound Messages]](#watch-outbound-messages) 
+* [[!UICONTROL Watch a field]](#watch-a-field)
 
 #### [!UICONTROL Watch for Records]
 
@@ -192,12 +192,12 @@ This trigger module starts a scenario when a field is updated in [!DNL Salesforc
 
 ### Actions
 
-* [[!UICONTROL Create a Record]](#uicontrol-create-a-record) 
-* [[!UICONTROL Read a Record]](#uicontrol-read-a-record) 
-* [[!UICONTROL Delete a Record]](#uicontrol-delete-a-record) 
-* [[!UICONTROL Custom API Call]](#uicontrol-custom-api-call) 
-* [[!UICONTROL Upload Attachment/Document]](#uicontrol-upload-attachmentdocument) 
-* [[!UICONTROL Download Attachment/Document]](#uicontrol-download-attachmentdocument)
+* [[!UICONTROL Create a Record]](#create-a-record) 
+* [[!UICONTROL Read a Record]](#read-a-record) 
+* [[!UICONTROL Delete a Record]](#delete-a-record) 
+* [[!UICONTROL Custom API Call]](#custom-api-call) 
+* [[!UICONTROL Upload Attachment/Document]](#upload-attachmentdocument) 
+* [[!UICONTROL Download Attachment/Document]](#download-attachmentdocument)
 
 #### [!UICONTROL Create a Record]
 

@@ -68,8 +68,8 @@ If you see the map button above a field or function, you can use it to set varia
 
 ### Triggers
 
-* [[!UICONTROL Watch files]](#uicontrol-watch-files)
-* [[!UICONTROL Watch folders]](#uicontrol-watch-folders)
+* [[!UICONTROL Watch files]](#watch-files)
+* [[!UICONTROL Watch folders]](#watch-folders)
 
 #### [!UICONTROL Watch files]
 
@@ -135,12 +135,12 @@ This trigger module activates when a new folder is added to the folder being wat
 
 ### Actions
 
-* [[!UICONTROL Upload a file]](#uicontrol-upload-a-file)
-* [[!UICONTROL Delete a file]](#uicontrol-delete-a-file)
-* [[!UICONTROL Get a file]](#uicontrol-get-a-file)
-* [[!UICONTROL Create a folder]](#uicontrol-create-a-folder)
-* [[!UICONTROL Delete a folder]](#uicontrol-delete-a-folder)
-* [[!UICONTROL Get a sharing link]](#uicontrol-get-a-sharing-link)
+* [[!UICONTROL Upload a file]](#upload-a-file)
+* [[!UICONTROL Delete a file]](#delete-a-file)
+* [[!UICONTROL Get a file]](#get-a-file)
+* [[!UICONTROL Create a folder]](#create-a-folder)
+* [[!UICONTROL Delete a folder]](#delete-a-folder)
+* [[!UICONTROL Get a sharing link]](#get-a-sharing-link)
 
 #### [!UICONTROL Upload a file]
 

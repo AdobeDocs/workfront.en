@@ -1173,8 +1173,8 @@ This action module adds a comment to a selected card.
 
 ## [!UICONTROL Trello] Object IDs
 
-* [How to find the ID or the shortlink of a card in [!DNL Trello]](#how-to-find-the-id-or-the-shortlink-of-a-card-in-dnl-trello)
-* [How to find IDs of other objects in [!DNL Trello]](#how-to-find-ids-of-other-objects-in-dnl-trello)
+* [How to find the ID or the shortlink of a card in [!DNL Trello]](#how-to-find-the-id-or-the-shortlink-of-a-card-in-trello)
+* [How to find IDs of other objects in [!DNL Trello]](#how-to-find-ids-of-other-objects-in-trello)
 
 ### How to find the ID or the shortlink of a card in [!DNL Trello] 
 

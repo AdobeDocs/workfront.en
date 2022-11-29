@@ -55,8 +55,8 @@ To use [!DNL SharePoint] modules, you must have a [!DNL SharePoint] account.
 
 ## Connect [!DNL SharePoint] to [!DNL Workfront Fusion] {#connect-sharepoint-to-workfront-fusion}
 
-* [Connect [!DNL SharePoint] to [!DNL Workfront Fusion] using a [!DNL Microsoft] account](#connect-dnl-sharepoint-to-dnl-workfront-fusion-using-a-dnl-microsoft-account)
-* [Connect [!DNL SharePoint] to [!DNL Workfront Fusion] using advanced settings](#connect-dnl-sharepoint-to-dnl-workfront-fusion-using-advanced-settings)
+* [Connect [!DNL SharePoint] to [!DNL Workfront Fusion] using a [!DNL Microsoft] account](#connect-sharepoint-to-workfront-fusion-using-a-microsoft-account)
+* [Connect [!DNL SharePoint] to [!DNL Workfront Fusion] using advanced settings](#connect-sharepoint-to-workfront-fusion-using-advanced-settings)
 
 ### Connect [!DNL SharePoint] to [!DNL Workfront Fusion] using a [!DNL Microsoft] account 
 
@@ -92,12 +92,12 @@ If you see the map button above a field or function, you can use it to set varia
 
 ### Item
 
-* [[!UICONTROL Watch Items]](#uicontrol-watch-items)
-* [[!UICONTROL List Items]](#uicontrol-list-items)
-* [[!UICONTROL Get an Item]](#uicontrol-get-an-item)
-* [[!UICONTROL Create an item]](#uicontrol-create-an-item)
-* [[!UICONTROL Update an item]](#uicontrol-update-an-item)
-* [[!UICONTROL Delete an item]](#uicontrol-delete-an-item)
+* [[!UICONTROL Watch Items]](#watch-items)
+* [[!UICONTROL List Items]](#list-items)
+* [[!UICONTROL Get an Item]](#get-an-item)
+* [[!UICONTROL Create an item]](#create-an-item)
+* [[!UICONTROL Update an item]](#update-an-item)
+* [[!UICONTROL Delete an item]](#delete-an-item)
 
 #### [!UICONTROL Watch Items]
 
@@ -259,10 +259,10 @@ This action module deletes an existing item in a SharePoint list.
 
 ### List
 
-* [[!UICONTROL Watch Lists]](#uicontrol-watch-lists)
-* [[!UICONTROL List Lists]](#uicontrol-list-lists)
-* [[!UICONTROL Get a List]](#uicontrol-get-a-list)
-* [[!UICONTROL Create a List]](#uicontrol-create-a-list)
+* [[!UICONTROL Watch Lists]](#watch-lists)
+* [[!UICONTROL List Lists]](#list-lists)
+* [[!UICONTROL Get a List]](#get-a-list)
+* [[!UICONTROL Create a List]](#create-a-list)
 
 #### [!UICONTROL Watch Lists]
 
@@ -411,8 +411,8 @@ This action module returns the data of a specified page.
 
 ### Site
 
-* [[!UICONTROL Search Sites]](#uicontrol-search-sites)
-* [[!UICONTROL Get a Site]](#uicontrol-get-a-site)
+* [[!UICONTROL Search Sites]](#search-sites)
+* [[!UICONTROL Get a Site]](#get-a-site)
 
 #### [!UICONTROL Search Sites]
 

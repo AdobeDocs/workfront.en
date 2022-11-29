@@ -83,7 +83,7 @@ Add the first module and configure it
 
    ![](assets/from-now-on-350x236.png)
 
-1. Continue to [Search for [!UICONTROL Flow Control] and add a [!UICONTROL Router]](#search-for-uicontrol-flow-control-and-add-a-uicontrol-router)
+1. Continue to [Search for [!UICONTROL Flow Control] and add a [!UICONTROL Router]](#search-for-flow-control-and-add-a-router)
 
 ## Search for [!UICONTROL Flow Control] and add a [!UICONTROL Router] 
 

@@ -81,10 +81,10 @@ If you see the map button above a field or function, you can use it to set varia
 
 ### Actions 
 
-* [[!UICONTROL Create Bucket]](#uicontrol-create-bucket)
-* [[!UICONTROL Get File]](#uicontrol-get-file)
-* [[!UICONTROL Upload File]](#uicontrol-upload-file)
-* [[!UICONTROL Make an API Call]](#uicontrol-make-an-api-call)
+* [[!UICONTROL Create Bucket]](#create-bucket)
+* [[!UICONTROL Get File]](#get-file)
+* [[!UICONTROL Upload File]](#upload-file)
+* [[!UICONTROL Make an API Call]](#make-an-api-call)
 
 #### [!UICONTROL Create Bucket]
 
@@ -259,8 +259,8 @@ For a detailed discussion of the [!DNL Amazon S3] API, see [[!DNL Amazon S3] [!U
 
 ### Searches 
 
-* [[!UICONTROL List Files]](#uicontrol-list-files)
-* [[!UICONTROL List Folders]](#uicontrol-list-folders)
+* [[!UICONTROL List Files]](#list-files)
+* [[!UICONTROL List Folders]](#list-folders)
 
 #### [!UICONTROL List Files] 
 

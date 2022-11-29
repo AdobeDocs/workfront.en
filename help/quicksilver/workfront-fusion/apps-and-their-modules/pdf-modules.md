@@ -18,8 +18,8 @@ For information on the API used for PDF Services, see [Adobe Document Generation
 
 ## Considerations when using [!DNL Adobe PDF Services]
 
-* [You do not need an [!DNL Adobe] account](#you-do-not-need-an-dnl-adobe-account) 
-* [[!DNL Workfront Fusion] does not store your files](#dnl-workfront-fusion-does-not-store-your-files)
+* [You do not need an [!DNL Adobe] account](#you-do-not-need-an-adobe-account) 
+* [[!DNL Workfront Fusion] does not store your files](#workfront-fusion-does-not-store-your-files)
 
 ### You do not need an [!DNL Adobe] account 
 
@@ -73,21 +73,21 @@ If you see the map button above a field or function, you can use it to set varia
 
 ![](assets/map-toggle-350x74.png)
 
-* [[!UICONTROL Generate document]](#uicontrol-generate-document) 
-* [[!UICONTROL Extract Text / Table]](#uicontrol-extract-text--table) 
-* [[!UICONTROL Combine PDF files]](#uicontrol-combine-pdf-files) 
-* [[!UICONTROL Compress PDF files]](#uicontrol-compress-pdf-files) 
-* [[!UICONTROL Convert document to PDF file]](#uicontrol-convert-document-to-pdf-file) 
-* [[!UICONTROL Convert HTML to PDF file]](#uicontrol-convert-html-to-pdf-file) 
-* [[!UICONTROL Convert image to PDF file]](#uicontrol-convert-image-to-pdf-file) 
-* [[!UICONTROL Convert PDF to document]](#uicontrol-convert-pdf-to-document) 
-* [[!UICONTROL Convert PDF to image]](#uicontrol-convert-pdf-to-image) 
-* [[!UICONTROL Linearize a PDF file]](#uicontrol-linearize-a-pdf-file) 
-* [[!UICONTROL OCR for PDF file]](#uicontrol-ocr-for-pdf-file) 
-* [[!UICONTROL PDF page manipulation]](#uicontrol-pdf-page-manipulation) 
-* [[!UICONTROL PDF file properties]](#uicontrol-pdf-file-properties) 
-* [[!UICONTROL Protect PDF file]](#uicontrol-protect-pdf-file) 
-* [[!UICONTROL Remove protection of a PDF file]](#uicontrol-remove-protection-of-a-pdf-file)
+* [[!UICONTROL Generate document]](#generate-document) 
+* [[!UICONTROL Extract Text / Table]](#extract-text--table) 
+* [[!UICONTROL Combine PDF files]](#combine-pdf-files) 
+* [[!UICONTROL Compress PDF files]](#compress-pdf-files) 
+* [[!UICONTROL Convert document to PDF file]](#convert-document-to-pdf-file) 
+* [[!UICONTROL Convert HTML to PDF file]](#convert-html-to-pdf-file) 
+* [[!UICONTROL Convert image to PDF file]](#convert-image-to-pdf-file) 
+* [[!UICONTROL Convert PDF to document]](#convert-pdf-to-document) 
+* [[!UICONTROL Convert PDF to image]](#convert-pdf-to-image) 
+* [[!UICONTROL Linearize a PDF file]](#linearize-a-pdf-file) 
+* [[!UICONTROL OCR for PDF file]](#ocr-for-pdf-file) 
+* [[!UICONTROL PDF page manipulation]](#pdf-page-manipulation) 
+* [[!UICONTROL PDF file properties]](#pdf-file-properties) 
+* [[!UICONTROL Protect PDF file]](#protect-pdf-file) 
+* [[!UICONTROL Remove protection of a PDF file]](#remove-protection-of-a-pdf-file)
 
 ### [!UICONTROL Generate document]
 
@@ -95,8 +95,8 @@ The [!UICONTROL Generate document] module is a powerful way to create a PDF that
 
 For more information on the [!UICONTROL [!DNL Adobe PDF Services] Generate document] functionality, see the [Overview of Document Generation](https://www.adobe.io/apis/documentcloud/dcsdk/docs.html) in the [!DNL Adobe Document Services] documentation.
 
-* [Use the [!UICONTROL Generate document] module with a [!DNL Microsoft Word] template](#use-the-uicontrol-generate-document-module-with-a-dnl-microsoft-word-template) 
-* [Use the [!UICONTROL Generate document] module with JSON](#use-the-uicontrol-generate-document-module-with-json)
+* [Use the [!UICONTROL Generate document] module with a [!DNL Microsoft Word] template](#use-the-generate-document-module-with-a-microsoft-word-template) 
+* [Use the [!UICONTROL Generate document] module with JSON](#use-the-generate-document-module-with-json)
 
 #### Use the [!UICONTROL Generate document] module with a [!DNL Microsoft Word] template 
 

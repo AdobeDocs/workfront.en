@@ -69,12 +69,12 @@ If you see the map button above a field or function, you can use it to set varia
 
 ### Events 
 
-* [[!UICONTROL Watch events]](#uicontrol-watch-events)
-* [[!UICONTROL Search events]](#uicontrol-search-events)
-* [[!UICONTROL Get an event]](#uicontrol-get-an-event)
-* [[!UICONTROL Create an event]](#uicontrol-create-an-event)
-* [[!UICONTROL Update an event]](#uicontrol-update-an-event)
-* [[!UICONTROL Delete an event]](#uicontrol-delete-an-event)
+* [[!UICONTROL Watch events]](#watch-events)
+* [[!UICONTROL Search events]](#search-events)
+* [[!UICONTROL Get an event]](#get-an-event)
+* [[!UICONTROL Create an event]](#create-an-event)
+* [[!UICONTROL Update an event]](#update-an-event)
+* [[!UICONTROL Delete an event]](#delete-an-event)
 
 
 #### [!UICONTROL Watch events]
@@ -323,7 +323,7 @@ When you are configuring this module, the following fields display.
  </tbody> 
 </table>
 
-You can update the event information by entering new values to the desired field. For details about the individual fields, see [[!UICONTROL Create an event]](#uicontrol-create-an-event).
+You can update the event information by entering new values to the desired field. For details about the individual fields, see [[!UICONTROL Create an event]](#create-an-event).
 
 #### [!UICONTROL Delete an event]
 
@@ -360,12 +360,12 @@ When you are configuring this module, the following fields display.
 
 ### Calendars 
 
-* [[!UICONTROL List calendars]](#uicontrol-list-calendars)
-* [[!UICONTROL Get a calendar]](#uicontrol-get-a-calendar)
-* [[!UICONTROL Create a calendar]](#uicontrol-create-a-calendar)
-* [[!UICONTROL Update a calendar]](#uicontrol-update-a-calendar)
-* [[!UICONTROL Delete a calendar]](#uicontrol-delete-a-calendar)
-* [[!UICONTROL Clear a calendar]](#uicontrol-clear-a-calendar)
+* [[!UICONTROL List calendars]](#list-calendars)
+* [[!UICONTROL Get a calendar]](#get-a-calendar)
+* [[!UICONTROL Create a calendar]](#create-a-calendar)
+* [[!UICONTROL Update a calendar]](#update-a-calendar)
+* [[!UICONTROL Delete a calendar]](#delete-a-calendar)
+* [[!UICONTROL Clear a calendar]](#clear-a-calendar)
 
 #### [!UICONTROL List calendars] 
 
@@ -531,11 +531,11 @@ When you are configuring this module, the following fields display.
 
 ### Access control rules
 
-* [[!UICONTROL List access control rules]](#uicontrol-list-access-control-rules)
-* [[!UICONTROL Get an access control rule]](#uicontrol-get-an-access-control-rule)
-* [[!UICONTROL Create an access control rule]](#uicontrol-create-an-access-control-rule)
-* [[!UICONTROL Update an access control rule]](#uicontrol-update-an-access-control-rule)
-* [[!UICONTROL Delete an access control rule]](#uicontrol-delete-an-access-control-rule)
+* [[!UICONTROL List access control rules]](#list-access-control-rules)
+* [[!UICONTROL Get an access control rule]](#get-an-access-control-rule)
+* [[!UICONTROL Create an access control rule]](#create-an-access-control-rule)
+* [[!UICONTROL Update an access control rule]](#update-an-access-control-rule)
+* [[!UICONTROL Delete an access control rule]](#delete-an-access-control-rule)
 
 #### [!UICONTROL List access control rules]
 
@@ -719,8 +719,8 @@ The [!UICONTROL iterate attachments] and [!UICONTROL iterate attendees] modules 
 
 ### Other
 
-* [[!UICONTROL Make an API Call]](#uicontrol-make-an-api-call)
-* [[!UICONTROL Get Free/Busy Information]](#uicontrol-get-freebusy-information)
+* [[!UICONTROL Make an API Call]](#make-an-api-call)
+* [[!UICONTROL Get Free/Busy Information]](#get-freebusy-information)
 
 #### [!UICONTROL Make an API Call]
 

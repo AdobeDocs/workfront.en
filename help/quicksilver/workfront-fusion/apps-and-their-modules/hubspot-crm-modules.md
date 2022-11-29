@@ -63,7 +63,7 @@ If you see the map button above a field or function, you can use it to set varia
 * [Companies](#companies)
 * [Files](#files)
 * [Tickets](#tickets)
-* [Make an API Call](#uicontrol-make-an-api-call)
+* [Make an API Call](#make-an-api-call)
 
 ### CRM objects
 
@@ -117,12 +117,12 @@ This search module searches for CRM objects by custom properties or by query. To
 
 ### Records (Deals, Contacts, and Companies) 
 
-* [[!UICONTROL Create a Record (Legacy)]](#uicontrol-create-a-record-legacy)
-* [[!UICONTROL Get a Record]](#uicontrol-get-a-record)
-* [[!UICONTROL Update a Record]](#uicontrol-update-a-record)
-* [[!UICONTROL Delete a Record]](#uicontrol-delete-a-record)
-* [[!UICONTROL Get a Record Property]](#uicontrol-get-a-record-property)
-* [[!UICONTROL Watch Records]](#uicontrol-watch-records)
+* [[!UICONTROL Create a Record (Legacy)]](#create-a-record-legacy)
+* [[!UICONTROL Get a Record]](#get-a-record)
+* [[!UICONTROL Update a Record]](#update-a-record)
+* [[!UICONTROL Delete a Record]](#delete-a-record)
+* [[!UICONTROL Get a Record Property]](#get-a-record-property)
+* [[!UICONTROL Watch Records]](#watch-records)
 
 #### [!UICONTROL Create a Record (Legacy)]
 
@@ -305,14 +305,14 @@ This trigger module starts a scenario when a contact, company, or deal has been 
 
 ### Contacts
 
-* [[!UICONTROL Create/Update a Contact (Legacy)]](#uicontrol-createupdate-a-contact-legacy)
-* [[!UICONTROL Create/Update a Group of Contacts]](#uicontrol-createupdate-a-group-of-contacts)
-* [[!UICONTROL Add Contacts to a List]](#uicontrol-add-contacts-to-a-list)
-* [[!UICONTROL Remove a Contact from a List]](#uicontrol-remove-a-contact-from-a-list)
-* [[!UICONTROL Merge contacts]](#uicontrol-merge-contacts)
-* [[!UICONTROL Search for Contacts]](#uicontrol-search-for-contacts)
-* [[!UICONTROL List Contacts]](#uicontrol-list-contacts)
-* [[!UICONTROL List Contacts of a Company]](#uicontrol-list-contacts-of-a-company)
+* [[!UICONTROL Create/Update a Contact (Legacy)]](#createupdate-a-contact-legacy)
+* [[!UICONTROL Create/Update a Group of Contacts]](#createupdate-a-group-of-contacts)
+* [[!UICONTROL Add Contacts to a List]](#add-contacts-to-a-list)
+* [[!UICONTROL Remove a Contact from a List]](#remove-a-contact-from-a-list)
+* [[!UICONTROL Merge contacts]](#merge-contacts)
+* [[!UICONTROL Search for Contacts]](#search-for-contacts)
+* [[!UICONTROL List Contacts]](#list-contacts)
+* [[!UICONTROL List Contacts of a Company]](#list-contacts-of-a-company)
 
 #### [!UICONTROL Create/Update a Contact (Legacy)]
 
@@ -543,8 +543,8 @@ This trigger module starts a scenario when a new contact is added to a list. Thi
 
 ### Deals
 
-* [[!UICONTROL List Deal/Ticket Pipelines]](#uicontrol-list-dealticket-pipelines)
-* [[!UICONTROL Get a Deal's CRM Pipeline]](#uicontrol-get-a-deals-crm-pipeline)
+* [[!UICONTROL List Deal/Ticket Pipelines]](#list-dealticket-pipelines)
+* [[!UICONTROL Get a Deal's CRM Pipeline]](#get-a-deals-crm-pipeline)
 
 #### [!UICONTROL List Deal/Ticket Pipelines]
 
@@ -619,9 +619,9 @@ Retrieves a list of companies based on an exact match to the domain property.
 
 ### Files
 
-* [[!UICONTROL Create a Folder]](#uicontrol-create-a-folder)
-* [[!UICONTROL Delete a Folder]](#uicontrol-delete-a-folder)
-* [[!UICONTROL Move a File]](#uicontrol-move-a-file)
+* [[!UICONTROL Create a Folder]](#create-a-folder)
+* [[!UICONTROL Delete a Folder]](#delete-a-folder)
+* [[!UICONTROL Move a File]](#move-a-file)
 
 #### [!UICONTROL Create a Folder]
 

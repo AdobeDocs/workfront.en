@@ -113,12 +113,12 @@ When you are configuring this module, the following fields display.
 
 ### Actions 
 
-* [Custom API Call](#uicontrol-custom-api-call)
-* [Read record](#uicontrol-read-record)
-* [Create a record](#uicontrol-create-a-record)
-* [Update a work item](#uicontrol-update-a-work-item)
-* [[!UICONTROL Upload an attachment]](#uicontrol-upload-an-attachment)
-* [Download an attachment](#uicontrol-download-an-attachment)
+* [Custom API Call](#custom-api-call)
+* [Read record](#read-record)
+* [Create a record](#create-a-record)
+* [Update a work item](#update-a-work-item)
+* [[!UICONTROL Upload an attachment]](#upload-an-attachment)
+* [Download an attachment](#download-an-attachment)
 * [Link work items]([!UICONTROL #link-work-items])
 
 #### [!UICONTROL Custom API Call] 

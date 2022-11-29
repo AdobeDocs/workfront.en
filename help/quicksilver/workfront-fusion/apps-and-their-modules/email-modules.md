@@ -47,7 +47,7 @@ For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Work
 
 ## Connect your email to Workfront Fusion {#connect-your-email-to-workfront-fusion}
 
-* [Connect to Google](#connect-to-dnl-google)
+* [Connect to Google](#connect-to-google)
 * [Connect to other email services (SMAP)](#connect-to-other-email-services-smap)
 
 ### Connect to [!DNL Google]
@@ -148,15 +148,15 @@ Triggers when a new email is received for processing according to specified crit
 
 ### Actions
 
-* [[!UICONTROL Send an Email]](#uicontrol-send-an-email)
-* [[!UICONTROL Create a Draft]](#uicontrol-create-a-draft)
-* [[!UICONTROL Mark an Email as Read]](#uicontrol-mark-an-email-as-read)
-* [[!UICONTROL Mark an Email as Unread]](#uicontrol-mark-an-email-as-unread)
-* [[!UICONTROL Move an Email]](#uicontrol-move-an-email)
-* [[!UICONTROL Copy an Email]](#uicontrol-copy-an-email)
-* [[!UICONTROL Delete an Email]](#uicontrol-delete-an-email)
-* [[!UICONTROL Get Emails]](#uicontrol-get-emails)
-* [[!UICONTROL Send me an Email]](#uicontrol-send-me-an-email)
+* [[!UICONTROL Send an Email]](#send-an-email)
+* [[!UICONTROL Create a Draft]](#create-a-draft)
+* [[!UICONTROL Mark an Email as Read]](#mark-an-email-as-read)
+* [[!UICONTROL Mark an Email as Unread]](#mark-an-email-as-unread)
+* [[!UICONTROL Move an Email]](#move-an-email)
+* [[!UICONTROL Copy an Email]](#copy-an-email)
+* [[!UICONTROL Delete an Email]](#delete-an-email)
+* [[!UICONTROL Get Emails]](#get-emails)
+* [[!UICONTROL Send me an Email]](#send-me-an-email)
 
 #### [!UICONTROL Send an Email] 
 

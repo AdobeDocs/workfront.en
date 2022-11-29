@@ -64,14 +64,14 @@ If you see the map button above a field or function, you can use it to set varia
 
 All [!UICONTROL Data Store] modules are Action type modules.
 
-* [Add/Replace a Record](#uicontrol-addreplace-a-record)
-* [Update a Record](#uicontrol-update-a-record)
-* [Get a Record](#uicontrol-get-a-record)
-* [Check the Existence of a Record](#uicontrol-check-the-existence-of-a-record)
-* [Delete a Record](#uicontrol-delete-a-record)
-* [Delete All Records](#uicontrol-delete-all-records)
-* [Search Records](#uicontrol-search-records)
-* [Count Records](#uicontrol-count-records)
+* [Add/Replace a Record](#addreplace-a-record)
+* [Update a Record](#update-a-record)
+* [Get a Record](#get-a-record)
+* [Check the Existence of a Record](#check-the-existence-of-a-record)
+* [Delete a Record](#delete-a-record)
+* [Delete All Records](#delete-all-records)
+* [Search Records](#search-records)
+* [Count Records](#count-records)
 
 ### [!UICONTROL Add/Replace a Record] 
 

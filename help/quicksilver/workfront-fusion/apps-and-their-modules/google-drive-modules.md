@@ -76,10 +76,10 @@ If you see the map button above a field or function, you can use it to set varia
 
 ### Triggers
 
-* [[!UICONTROL Watch Files In Folder]](#uicontrol-watch-files-in-folder)
-* [[!UICONTROL Watch All Files]](#uicontrol-watch-all-files)
-* [[!UICONTROL Watch shared files]](#uicontrol-watch-shared-files)
-* [[!UICONTROL Watch Comments]](#uicontrol-watch-comments)
+* [[!UICONTROL Watch Files In Folder]](#watch-files-in-folder)
+* [[!UICONTROL Watch All Files]](#watch-all-files)
+* [[!UICONTROL Watch shared files]](#watch-shared-files)
+* [[!UICONTROL Watch Comments]](#watch-comments)
 
 #### [!UICONTROL Watch Files In Folder]
 
@@ -268,15 +268,15 @@ Triggers when a comment is added or modified on the selected file.
 
 ### Actions
 
-* [[!UICONTROL Upload a File]](#uicontrol-upload-a-file)
-* [[!UICONTROL Update a File]](#uicontrol-update-a-file)
-* [[!UICONTROL Copy a File]](#uicontrol-copy-a-file)
-* [[!UICONTROL Delete a File]](#uicontrol-delete-a-file)
-* [[!UICONTROL Move a File/Folder to Trash]](#uicontrol-move-a-filefolder-to-trash)
-* [[!UICONTROL Get a file]](#uicontrol-get-a-file)
-* [[!UICONTROL Search for Files/Folders]](#uicontrol-search-for-filesfolders)
-* [[!UICONTROL Create a Folder]](#uicontrol-create-a-folder)
-* [[!UICONTROL Get a share link]](#uicontrol-get-a-share-link)
+* [[!UICONTROL Upload a File]](#upload-a-file)
+* [[!UICONTROL Update a File]](#update-a-file)
+* [[!UICONTROL Copy a File]](#copy-a-file)
+* [[!UICONTROL Delete a File]](#delete-a-file)
+* [[!UICONTROL Move a File/Folder to Trash]](#move-a-filefolder-to-trash)
+* [[!UICONTROL Get a file]](#get-a-file)
+* [[!UICONTROL Search for Files/Folders]](#search-for-filesfolders)
+* [[!UICONTROL Create a Folder]](#create-a-folder)
+* [[!UICONTROL Get a share link]](#get-a-share-link)
 
 #### [!UICONTROL Upload a File]
 

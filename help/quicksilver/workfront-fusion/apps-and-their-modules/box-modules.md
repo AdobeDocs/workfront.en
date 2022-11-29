@@ -61,8 +61,8 @@ If you see the map button above a field or function, you can use it to set varia
 
 ### Triggers
 
-* [[!UICONTROL New event]](#uicontrol-new-event)
-* [[!UICONTROL Watch files]](#uicontrol-watch-files)
+* [[!UICONTROL New event]](#new-event)
+* [[!UICONTROL Watch files]](#watch-files)
 
 #### [!UICONTROL New event] 
 
@@ -110,10 +110,10 @@ This trigger module starts a scenario when a new file is added or an existing fi
 
 ### Actions
 
-* [[!UICONTROL Upload] a file](#uicontrol-upload-a-file)
-* [[!UICONTROL Update a file]](#uicontrol-update-a-file)
-* [[!UICONTROL Delete a file]](#uicontrol-delete-a-file)
-* [[!UICONTROL Get a file]](#uicontrol-get-a-file)
+* [[!UICONTROL Upload] a file](#upload-a-file)
+* [[!UICONTROL Update a file]](#update-a-file)
+* [[!UICONTROL Delete a file]](#delete-a-file)
+* [[!UICONTROL Get a file]](#get-a-file)
 
 #### [!UICONTROL Upload a file] 
 

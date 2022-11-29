@@ -154,15 +154,15 @@ If you see the map button above a field or function, you can use it to set varia
 
 ### Actions
 
-* [[!UICONTROL Create a record]](#uicontrol-create-a-record)
+* [[!UICONTROL Create a record]](#create-a-record)
 
-* [[!UICONTROL Make a custom API call]](#uicontrol-make-a-custom-api-call)
+* [[!UICONTROL Make a custom API call]](#make-a-custom-api-call)
 
-* [[!UICONTROL Delete a record]](#uicontrol-delete-a-record)
+* [[!UICONTROL Delete a record]](#delete-a-record)
 
-* [[!UICONTROL Read a record]](#uicontrol-read-a-record)
+* [[!UICONTROL Read a record]](#read-a-record)
 
-* [[!UICONTROL Update a record]](#uicontrol-update-a-record)
+* [[!UICONTROL Update a record]](#update-a-record)
 
 
 #### [!UICONTROL Create a record]
@@ -787,9 +787,9 @@ This action module updates an Activity, Offer, or Audience.
 
 ### Searches
 
-* [[!UICONTROL Get records]](#uicontrol-get-records)
+* [[!UICONTROL Get records]](#get-records)
 
-* [[!UICONTROL Search]](#uicontrol-search)
+* [[!UICONTROL Search]](#search)
 
 
 #### [!UICONTROL Get records]

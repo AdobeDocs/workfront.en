@@ -54,11 +54,11 @@ If you see the map button above a field or function, you can use it to set varia
 
 ### Transformers
 
-* [[!UICONTROL Get Elements from HTML]](#uicontrol-get-elements-from-html)
-* [[!UICONTROL Get Elements from text]](#uicontrol-get-elements-from-text)
-* [[!UICONTROL HTML to Text]](#uicontrol-html-to-text)
-* [[!UICONTROL Match Pattern]](#uicontrol-match-pattern)
-* [[!UICONTROL Replace]](#uicontrol-replace)
+* [[!UICONTROL Get Elements from HTML]](#get-elements-from-html)
+* [[!UICONTROL Get Elements from text]](#get-elements-from-text)
+* [[!UICONTROL HTML to Text]](#html-to-text)
+* [[!UICONTROL Match Pattern]](#match-pattern)
+* [[!UICONTROL Replace]](#replace)
 
 #### [!UICONTROL Get Elements from HTML]
 

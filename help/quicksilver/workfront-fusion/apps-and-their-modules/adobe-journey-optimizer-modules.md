@@ -149,10 +149,10 @@ If you see the map button above a field or function, you can use it to set varia
 
 ### Actions
 
-* [[!UICONTROL Create a record]](#uicontrol-create-a-record)
-* [[!UICONTROL Make a custom API call]](#uicontrol-make-a-custom-api-call)
-* [[!UICONTROL Delete a record]](#uicontrol-delete-a-record)
-* [[!UICONTROL Update a record]](#uicontrol-update-a-record)
+* [[!UICONTROL Create a record]](#create-a-record)
+* [[!UICONTROL Make a custom API call]](#make-a-custom-api-call)
+* [[!UICONTROL Delete a record]](#delete-a-record)
+* [[!UICONTROL Update a record]](#update-a-record)
 
 #### [!UICONTROL Create a record]
 

@@ -69,7 +69,7 @@ Before you can use a data store in a module, you must create the data store in [
 >
 >Your organization has a limited number of available data stores. If you attempt to create more data stores than you have available, [!DNL Workfront] returns a [!UICONTROL Maximum stores reached] error.
 >
->For more information, see [Maximum stores reached error](#uicontrol-maximum-stores-reached-error) in this article.
+>For more information, see [Maximum stores reached error](#maximum-stores-reached-error) in this article.
 
 1. Log in to your [!DNL Workfront Fusion] account.
 1. Click **[!UICONTROL Data stores]** in the left navigation panel.
@@ -179,8 +179,8 @@ The properties of a data store include the data structure that the data store us
 ## Troubleshooting
 
 * [Restoring lost data from a data store](#restoring-lost-data-from-a-data-store)
-* [Out of space error](#uicontrol-out-of-space-error)
-* [Maximum stores reached error](#uicontrol-maximum-stores-reached-error)
+* [Out of space error](#out-of-space-error)
+* [Maximum stores reached error](#maximum-stores-reached-error)
 
 ### Restoring lost data from a data store 
 

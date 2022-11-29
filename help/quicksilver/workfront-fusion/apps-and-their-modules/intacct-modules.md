@@ -86,8 +86,8 @@ If you see the map button above a field or function, you can use it to set varia
 
 ![](assets/map-toggle-350x74.png)
 
-* [[!UICONTROL Make a custom API call]](#uicontrol-make-a-custom-api-call)
-* [[!UICONTROL Search records]](#uicontrol-search-records)
+* [[!UICONTROL Make a custom API call]](#make-a-custom-api-call)
+* [[!UICONTROL Search records]](#search-records)
 
 ### [!UICONTROL Make a custom API call]
 

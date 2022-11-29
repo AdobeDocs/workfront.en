@@ -38,8 +38,8 @@ See the following articles for specific request module instructions:
 
 ## Other action modules
 
-* [[!UICONTROL Get a File]](#uicontrol-get-a-file)
-* [[!UICONTROL Resolve a target URL]](#uicontrol-resolve-a-target-url)
+* [[!UICONTROL Get a File]](#get-a-file)
+* [[!UICONTROL Resolve a target URL]](#resolve-a-target-url)
 
 ### [!UICONTROL Get a File] 
 

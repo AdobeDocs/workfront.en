@@ -126,15 +126,15 @@ This trigger module starts a scenario when an envelope is sent, delivered, signe
 
 ### Actions 
 
-* [[!UICONTROL Custom API Call]](#uicontrol-custom-api-call)
-* [[!UICONTROL Download a document]](#uicontrol-download-a-document)
-* [[!UICONTROL Read an envelope]](#uicontrol-read-an-envelope)
-* [[!UICONTROL Upload a file to an envelope]](#uicontrol-upload-a-file-to-an-envelope)
-* [[!UICONTROL Create a new envelope]](#uicontrol-create-a-new-envelope)
-* [[!UICONTROL Add Recipient to Envelope]](#uicontrol-add-recipient-to-envelope)
-* [[!UICONTROL Add custom field]](#uicontrol-add-custom-field)
-* [[!UICONTROL Modify custom field]](#uicontrol-modify-custom-field)
-* [[!UICONTROL Send envelope]](#uicontrol-send-envelope)
+* [[!UICONTROL Custom API Call]](#custom-api-call)
+* [[!UICONTROL Download a document]](#download-a-document)
+* [[!UICONTROL Read an envelope]](#read-an-envelope)
+* [[!UICONTROL Upload a file to an envelope]](#upload-a-file-to-an-envelope)
+* [[!UICONTROL Create a new envelope]](#create-a-new-envelope)
+* [[!UICONTROL Add Recipient to Envelope]](#add-recipient-to-envelope)
+* [[!UICONTROL Add custom field]](#add-custom-field)
+* [[!UICONTROL Modify custom field]](#modify-custom-field)
+* [[!UICONTROL Send envelope]](#send-envelope)
 
 #### [!UICONTROL Custom API Call] 
 
@@ -146,7 +146,7 @@ This action module allows you to perform a custom API call.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection]</td> 
-   <td> <p>For instructions about connecting your [!DNL DocuSign] account to [!DNL Workfront Fusion], see <a href="#connect-dnl-docusign-to-dnl-workfront-fusion" class="MCXref xref">Connect [!DNL DocuSign] to [!DNL Workfront Fusion]</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your [!DNL DocuSign] account to [!DNL Workfront Fusion], see <a href="#connect-docusign-to-workfront-fusion" class="MCXref xref">Connect [!DNL DocuSign] to [!DNL Workfront Fusion]</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Account]</td> 
@@ -218,7 +218,7 @@ This action module downloads a single document.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>For instructions about connecting your [!DNL DocuSign] account to [!DNL Workfront Fusion], see <a href="#connect-dnl-docusign-to-dnl-workfront-fusion" class="MCXref xref">Connect [!DNL DocuSign] to [!DNL Workfront Fusion]</a> in this article.</p> </td>
+   <td> <p>For instructions about connecting your [!DNL DocuSign] account to [!DNL Workfront Fusion], see <a href="#connect-docusign-to-workfront-fusion" class="MCXref xref">Connect [!DNL DocuSign] to [!DNL Workfront Fusion]</a> in this article.</p> </td>
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Account] </td> 
@@ -269,7 +269,7 @@ This action module reads information about an envelope in [!DNL DocuSign] using 
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>For instructions about connecting your [!DNL DocuSign] account to [!DNL Workfront Fusion], see <a href="#connect-dnl-docusign-to-dnl-workfront-fusion" class="MCXref xref">Connect [!DNL DocuSign] to [!DNL Workfront Fusion]</a> in this article.</p> </td>
+   <td> <p>For instructions about connecting your [!DNL DocuSign] account to [!DNL Workfront Fusion], see <a href="#connect-docusign-to-workfront-fusion" class="MCXref xref">Connect [!DNL DocuSign] to [!DNL Workfront Fusion]</a> in this article.</p> </td>
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Account] </td> 
@@ -296,7 +296,7 @@ This module uploads a specified file to an existing envelope in DocuSign.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>For instructions about connecting your [!DNL DocuSign] account to [!DNL Workfront Fusion], see <a href="#connect-dnl-docusign-to-dnl-workfront-fusion" class="MCXref xref">Connect [!DNL DocuSign] to [!DNL Workfront Fusion]</a> in this article.</p> </td>
+   <td> <p>For instructions about connecting your [!DNL DocuSign] account to [!DNL Workfront Fusion], see <a href="#connect-docusign-to-workfront-fusion" class="MCXref xref">Connect [!DNL DocuSign] to [!DNL Workfront Fusion]</a> in this article.</p> </td>
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Account] </td> 
@@ -425,7 +425,7 @@ This action module adds a custom field to the document
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>For instructions about connecting your [!DNL DocuSign] account to [!DNL Workfront Fusion], see <a href="#connect-dnl-docusign-to-dnl-workfront-fusion" class="MCXref xref">Connect [!DNL DocuSign] to [!DNL Workfront Fusion]</a> in this article.</p> </td>
+   <td> <p>For instructions about connecting your [!DNL DocuSign] account to [!DNL Workfront Fusion], see <a href="#connect-docusign-to-workfront-fusion" class="MCXref xref">Connect [!DNL DocuSign] to [!DNL Workfront Fusion]</a> in this article.</p> </td>
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Account] </td> 
@@ -464,7 +464,7 @@ This action module modifies a custom field using the field name.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>For instructions about connecting your [!DNL DocuSign] account to [!DNL Workfront Fusion], see <a href="#connect-dnl-docusign-to-dnl-workfront-fusion" class="MCXref xref">Connect [!DNL DocuSign] to [!DNL Workfront Fusion]</a> in this article.</p> </td>
+   <td> <p>For instructions about connecting your [!DNL DocuSign] account to [!DNL Workfront Fusion], see <a href="#connect-docusign-to-workfront-fusion" class="MCXref xref">Connect [!DNL DocuSign] to [!DNL Workfront Fusion]</a> in this article.</p> </td>
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Account] </td> 
@@ -507,7 +507,7 @@ This action module sends a draft envelope to its recipients.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>For instructions about connecting your [!DNL DocuSign] account to [!DNL Workfront Fusion], see <a href="#connect-dnl-docusign-to-dnl-workfront-fusion" class="MCXref xref">Connect [!DNL DocuSign] to [!DNL Workfront Fusion]</a> in this article.</p> </td>
+   <td> <p>For instructions about connecting your [!DNL DocuSign] account to [!DNL Workfront Fusion], see <a href="#connect-docusign-to-workfront-fusion" class="MCXref xref">Connect [!DNL DocuSign] to [!DNL Workfront Fusion]</a> in this article.</p> </td>
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Account] </td> 

@@ -65,17 +65,17 @@ If you see the map button above a field or function, you can use it to set varia
 
 ### Document
 
-* [[!UICONTROL Watch Documents]](#uicontrol-watch-documents) 
-* [[!UICONTROL List Documents]](#uicontrol-list-documents) 
-* [[!UICONTROL Get Content of a Document]](#uicontrol-get-content-of-a-document) 
-* [[!UICONTROL Create a Document]](#uicontrol-create-a-document) 
-* [[!UICONTROL Create a Document From a Template]](#uicontrol-create-a-document-from-a-template) 
-* [[!UICONTROL Insert a Paragraph to a Document]](#uicontrol-insert-a-paragraph-to-a-document) 
-* [[!UICONTROL Insert an Image to a Document]](#uicontrol-insert-an-image-to-a-document) 
-* [[!UICONTROL Replace an Image with a New Image]](#uicontrol-replace-an-image-with-a-new-image) 
-* [[!UICONTROL Replace Text in a Document]](#uicontrol-replace-text-in-a-document) 
-* [[!UICONTROL Download a Document]](#uicontrol-download-a-document) 
-* [[!UICONTROL Delete a Document]](#uicontrol-delete-a-document)
+* [[!UICONTROL Watch Documents]](#watch-documents) 
+* [[!UICONTROL List Documents]](#list-documents) 
+* [[!UICONTROL Get Content of a Document]](#get-content-of-a-document) 
+* [[!UICONTROL Create a Document]](#create-a-document) 
+* [[!UICONTROL Create a Document From a Template]](#create-a-document-from-a-template) 
+* [[!UICONTROL Insert a Paragraph to a Document]](#insert-a-paragraph-to-a-document) 
+* [[!UICONTROL Insert an Image to a Document]](#insert-an-image-to-a-document) 
+* [[!UICONTROL Replace an Image with a New Image]](#replace-an-image-with-a-new-image) 
+* [[!UICONTROL Replace Text in a Document]](#replace-text-in-a-document) 
+* [[!UICONTROL Download a Document]](#download-a-document) 
+* [[!UICONTROL Delete a Document]](#delete-a-document)
 
 #### [!UICONTROL Watch Documents]
 
@@ -526,8 +526,8 @@ This action module deletes a document.
 
 ### Other
 
-* [[!UICONTROL Make an API Call]](#uicontrol-make-an-api-call) 
-* [[!UICONTROL Make All Links in a Document Clickable]](#uicontrol-make-all-links-in-a-document-clickable)
+* [[!UICONTROL Make an API Call]](#make-an-api-call) 
+* [[!UICONTROL Make All Links in a Document Clickable]](#make-all-links-in-a-document-clickable)
 
 #### [!UICONTROL Make an API Call]
 
