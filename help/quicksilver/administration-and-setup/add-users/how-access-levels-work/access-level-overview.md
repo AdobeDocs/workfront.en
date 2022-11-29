@@ -3,7 +3,7 @@ title: Access levels overview
 user-type: administrator
 content-type: reference
 product-area: system-administration
-keywords: access,level,system,administrator,planner,worker,reviewer,requestor,external,user
+keywords: access,level,system,administrator,standard,light,contributor
 navigation-topic: access-levels
 description: Every user must have an access level in order to log in and work in Workfront. You use the access level to control what a user can see and do with certain Workfront objects and areas.
 author: Courtney
@@ -19,9 +19,16 @@ As an Adobe Workfront administrator, you assign an access level to a user for 2 
 
 ## Built-in access levels in Adobe Workfront {#built-in-access}
 
-Workfront has 3 built-in access levels. Each of the built-in access levels is attached to one of the 3 paid Workfront licenses: Standard, Light, Contributor. There is also an External unpaid license designed primarily for sharing documents with people who don't use Workfront.
+Workfront has 6 built-in access levels:
 
-Depending on the access level, up to 3 settings are available for most of the Workfront object types:
+* System Administrator
+* Standard
+* Light
+* Light Limited
+* Contributor
+* External
+
+Depending on the access level, up to 3 permissions are available for most of the Workfront object types:
 
 <table style="table-layout:auto">
     <tr>
@@ -100,7 +107,7 @@ Users with the Light access level:
 
 You can create a custom version of the Light built-in access level and adjust the amount of access it allows for the various Workfront object types. For information on creating a custom access level, see [Create or modify custom access levels](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
-More limited for projects and tasks than the Worker access level, the following are the highest access settings available for objects in the Light access level:
+More limited for projects and tasks than the light access level, the following are the highest access settings available for objects in the Light access level:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -203,6 +210,10 @@ More limited for projects and tasks than the Worker access level, the following 
  </tbody> 
 </table>
 
+### Light limited
+
+<!--copy of contrib? -->
+
 ### Contributor access level
 
 Attached to the Contributor license, this built-in access level is designed <!-- need content from Lauren -->
@@ -280,7 +291,7 @@ The following are the highest access settings available for objects in the Exter
 
 ## How access levels and permissions work together
 
-The Adobe Workfront administrator determines what access level each user should have. That access level defines what users can see and do with object types and areas in the system.
+Access levels define what users can see and do with object types and areas in the system.
 
 Users also gain access to individual objects when other users share and grant certain permissions on those objects.
 
@@ -298,7 +309,7 @@ The access level assigned to each user by a Workfront administrator is required 
 
 The default access levels are:
 
-* System Administrator (attached to the Plan license)
+* System Administrator (attached to the Standard license)
 * Standard (attached to the Standard license)
 * Light (attached to the Light license)
 * Contributor (attached to the Contributor license)
