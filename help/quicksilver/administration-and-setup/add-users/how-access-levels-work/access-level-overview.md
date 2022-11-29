@@ -17,17 +17,9 @@ As an Adobe Workfront administrator, you assign an access level to a user for 2 
 * Every user must have an access level in order to log in and work in Workfront. 
 * You use the access level to control what a user can see and do with certain Workfront objects and areas.
 
-Each of the 3 built-in access levels is attached to one of the 3 Workfront licenses: Standard, Light, Contributor, and External. (External is an unpaid license designed primarily for sharing documents with people who don't use Workfront.)
+## Built-in access levels in Adobe Workfront {#built-in-access}
 
-## Built-in access levels in Adobe Workfront
-
-Each of the six built-in access levels are designed for a particular type of user:
-
-* System Administrator
-* Standard
-* Light
-* Contributor
-* External User
+Workfront has 3 built-in access levels. Each of the built-in access levels is attached to one of the 3 paid Workfront licenses: Standard, Light, Contributor. There is also an External unpaid license designed primarily for sharing documents with people who don't use Workfront.
 
 Depending on the access level, up to 3 settings are available for most of the Workfront object types:
 
@@ -46,13 +38,11 @@ Depending on the access level, up to 3 settings are available for most of the Wo
     </tr>
 </table>
 
-If you need a custom access level, you can copy the built-in access level and determine the amount of access you want it to allow for the various Workfront object types. For information on creating a custom access level or modifying one of the built-in access levels, see [Create or modify custom access levels](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+If you need a custom access level, you can copy the built-in access level and adjust the amount of access you want it to allow for the various Workfront object types. For information on creating a custom access level, see [Create or modify custom access levels](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
 >[!IMPORTANT]
 >
 >We strongly recommend that you leave the built-in access levels unchanged so that you can refer to them after you set up your users.
-
-For general information about these access levels, see [Access levels overview](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
 
 ### System Administrator access level
 
@@ -74,9 +64,9 @@ Also attached to the Standard license, this access level is designed for:
 * Users who build reports and who approve timesheets, work items, and documents
 * Users who need access to all areas in the  Main Menu ![](assets/main-menu-icon.png)
 
-You can create a custom version of the Planner built-in access level and determine the amount of access it allows for the various Workfront object types. For more information, see [Built-in access levels in Adobe Workfront](#Customiz) in this article.
+You can create a custom version of the Standard built-in access level and adjust the amount of access it allows for the various Workfront object types. For information on creating a custom access level, see [Create or modify custom access levels](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
-The following are the highest access settings available for objects in the Planner access level:
+The following are the highest access settings available for objects in the Standard access level:
 
 | Workfront object type |No access |View access |Edit access |
 |---|---|---|---|
@@ -99,9 +89,8 @@ The following are the highest access settings available for objects in the Plann
 
 ### Light access level
 
-Attached to the Light license, this access level is designed for executives who request work from other users and who review and approve work. These are not project owners or team members, but they need access to Workfront to see the work items that they oversee.
+Attached to the Light license, this access level <!-- need content from lauren -->
 
-For example, a stakeholder with this access level could log in to Workfront to participate in an ongoing review of marketing materials, see work updates on work, and review documents, approvals, reports, and calendars.
 
 Users with the Light access level:
 
@@ -109,7 +98,7 @@ Users with the Light access level:
 * Can access requests and documents in the  Main Menu ![](assets/main-menu-icon.png).
 * Have limited ability to create objects—they can't create projects, portfolios, programs, or reports.
 
-You can create a custom version of the Reviewer built-in access level and determine the amount of access it allows for the various Workfront object types. For more information, see [Built-in access levels in Adobe Workfront](#Customiz) in this article.
+You can create a custom version of the Light built-in access level and adjust the amount of access it allows for the various Workfront object types. For information on creating a custom access level, see [Create or modify custom access levels](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
 More limited for projects and tasks than the Worker access level, the following are the highest access settings available for objects in the Light access level:
 
@@ -148,7 +137,7 @@ More limited for projects and tasks than the Worker access level, the following 
   <tr> 
    <td>Portfolios</td> 
    <td>&nbsp;</td> 
-   <td>✓</td> 
+   <td>✓ (The default setting is No Access.)</td> 
    <td>&nbsp;</td> 
   </tr> 
   <tr> 
@@ -181,6 +170,12 @@ More limited for projects and tasks than the Worker access level, the following 
    <td>✓</td> 
    <td>&nbsp;</td> 
   </tr> 
+    <tr> 
+   <td>Teams</td> 
+   <td>&nbsp;</td> 
+   <td>✓</td> 
+   <td>&nbsp;</td> 
+  </tr>
   <tr> 
    <td>Templates</td> 
    <td>✓</td> 
@@ -189,8 +184,8 @@ More limited for projects and tasks than the Worker access level, the following 
   </tr> 
   <tr> 
    <td>Financial data</td> 
-   <td>&nbsp;</td> 
-   <td> <p>✓ (The default setting is No Access. The View setting allows the user to view only the Finance  area   in  Project Details.)</p> </td> 
+   <td>✓</td> 
+   <td> <p>&nbsp;</p> </td> 
    <td>&nbsp;</td> 
   </tr> 
   <tr> 
@@ -205,18 +200,12 @@ More limited for projects and tasks than the Worker access level, the following 
    <td>&nbsp;</td> 
    <td>✓ (The default setting is No Access.)</td> 
   </tr> 
-  <tr> 
-   <td>Workfront Goals </td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
-   <td>✓ (The default setting is No Access.)</td> 
-  </tr> 
  </tbody> 
 </table>
 
 ### Contributor access level
 
-Attached to the Contributor license, this built-in access level is designed for users who make and receive simple work requests in Workfront. By default, they are limited to the Requests area.
+Attached to the Contributor license, this built-in access level is designed <!-- need content from Lauren -->
 
 For example, a user can log issues to your organization's help desk request queue.
 
@@ -228,7 +217,7 @@ Users with this built-in access level:
 * Cannot be assigned to work items  
 * Can  access requests only from the Main Menu ![](assets/main-menu-icon.png). For more information about request queues, see [Create a Request Queue](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
-You can create a custom version of the Requester built-in access level and determine the amount of access it allows for the various Workfront object types. For more information, see [Built-in access levels in Adobe Workfront](#Customiz) in this article.
+You can create a custom version of the Contributor built-in access level and adjust the amount of access it allows for the various Workfront object types. For information on creating a custom access level, see [Create or modify custom access levels](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
 The following are the highest access settings available for objects in the Contributor access level:
 
@@ -243,19 +232,19 @@ The following are the highest access settings available for objects in the Contr
 | Filters, views, and groupings |&nbsp; |&nbsp; |✓ |
 | Document |&nbsp; |&nbsp; |✓ |
 | User |&nbsp; |✓ |&nbsp; |
+| Teams |&nbsp; |✓ |&nbsp; |
 | Template |✓ |&nbsp; |&nbsp; |
 | Financial data |✓ |&nbsp; |&nbsp; |
 | Resource Management |✓ |&nbsp; |&nbsp; |
 | Scenario Planner  |✓ |&nbsp; |&nbsp; |
-| Workfront Goals  |&nbsp; |&nbsp; |✓ (The default setting is No Access.) |
 
 {style="table-layout:auto"}
 
 ### External User access level
 
-This access level is not attached to a paid Workfront license. It is the most restrictive access level, designed primarily for collaborators such as external consultants who don't log into Workfront, but need to review, download, or view documents occasionally.
+This access level is not attached to a paid Workfront license. It is the most restrictive access level, designed primarily for collaborators like external consultants who don't log into Workfront, but need to review, download, or view documents occasionally.
 
-Workfront users can assign tasks to external users even though external users can't log in to the system. But we advise against this because that work would remain unresolved in the system.
+Workfront users can assign tasks to external users even though external users can't log in to the system. But we advise against this because that work would remain unresolved in the system. <!--still true?-->
 
 Users with the External User access level:
 
@@ -274,7 +263,7 @@ The following are the highest access settings available for objects in the Exter
 | Workfront object type |No access |View access |Edit access |
 |---|---|---|---|
 | Project |✓ |&nbsp; |&nbsp; |
-| Task |✓ |✓ |&nbsp; |
+| Task |✓ |&nbsp; |&nbsp; |
 | Issue |✓ |&nbsp; |&nbsp; |
 | Portfolios |✓ |&nbsp; |&nbsp; |
 | Programs |✓ |&nbsp; |&nbsp; |
@@ -282,26 +271,26 @@ The following are the highest access settings available for objects in the Exter
 | Filters, views, and groupings |✓ |&nbsp; |&nbsp; |
 | Document |&nbsp; |✓ (without the ability to share documents) |&nbsp; |
 | User |&nbsp; |✓ |&nbsp; |
+| Teams |✓ |&nbsp; |&nbsp; |
 | Template |✓ |&nbsp; |&nbsp; |
 | Financial data |✓ |&nbsp; |&nbsp; |
 | Resource Management |✓ |&nbsp; |&nbsp; |
 | Scenario Planner  |✓ |&nbsp; |&nbsp; |
-| Workfront Goals  |✓ |&nbsp; |&nbsp; |
 
 
 ## How access levels and permissions work together
 
 The Adobe Workfront administrator determines what access level each user should have. That access level defines what users can see and do with object types and areas in the system.
 
-Also, users gain access to individual objects when other users share and grant certain permissions on those objects.
+Users also gain access to individual objects when other users share and grant certain permissions on those objects.
 
-So, the activities a user can do with an object are defined by a combination of their access level and the permissions given to them for that project.
+So, the activities a user can do with an object are defined by a combination of their access level and the permissions given to them.
 
-![](assets/security-model-hierachy.png)
+![](assets/security-model-hierachy-copy.png)
 
-For example, if your access level says that you can create tasks, but the permissions you receive on a specific project don't allow you to add tasks to it, you can't add tasks on the project even though you can create tasks elsewhere in Workfront.
-
-This article explains how this combination works.
+>[!INFO]
+>
+>**Example**: If your access level says that you can create tasks, but the permissions you receive on a specific project don't allow you to add tasks to it, you can't add tasks on the project even though you can create tasks elsewhere in Workfront.
 
 ### Access level
 
@@ -317,7 +306,7 @@ The default access levels are:
 
 The Workfront license for each default access level determines what is available and configurable in the access level. For information about the Workfront licenses, see [Adobe Workfront licenses overview](../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md).
 
-For the users who are assigned to it, an access level defines what they can see and do with the following object types and areas in Workfront:
+Access levels define what assigned users can see and do with the following object types and areas in Workfront:
 
 * Projects
 * Tasks
@@ -331,7 +320,6 @@ For the users who are assigned to it, an access level defines what they can see 
 * Financial Data
 * Resource Management
 * Scenario Planner 
-* Workfront Goals
 
 In a custom access level, you can configure the settings for these objects and areas to change how much access users have to them. Depending on the license associated with the access level, as well as the type of the object or area, you can configure the access level to allow no access, view access, or edit access to an object or area.
 
@@ -339,7 +327,7 @@ In a custom access level, you can configure the settings for these objects and a
 >
 >We strongly recommend that you leave the built-in access levels unchanged so that you can refer to them after you set up your users. To customize an access level, copy the default access level and modify the copy. (You can do this for every access level except for System Administrator and External User.)
 
-For a detailed explanation of each of the default access levels, see [Built-in access levels in Adobe Workfront](../../../administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md).
+For a detailed explanation of each of the default access levels, see [Built-in access levels in Adobe Workfront](#built-in-access)in this article. 
 
 For instructions on assigning an access level to a user, see [Edit a user's profile](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
