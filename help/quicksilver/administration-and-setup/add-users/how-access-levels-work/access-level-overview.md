@@ -291,7 +291,25 @@ The following are the highest access settings available for objects in the Exter
 
 ## How access levels and permissions work together
 
-Access levels define what users can see and do with object types and areas in the system.
+Access levels define what users can see and do with object types and areas in the system. Permissions define what you have access to on objects created by other people in the system.
+
+When sharing an object with someone in the system, a user can grant the recipient any of the following permissions to the object.
+
+* **View**: This level of permission allows the recipient to share the object in one of the following ways:
+
+  * System-wide so that all users can see it (not available for all objects)
+  * With external users who don't have a Workfront license (not available for all objects)
+  * With an email address (available only for documents)
+
+* **Contribute**: (not available for all objects)
+* **Manage**: When someone shares an object, the recipient's rights to the object are determined by a combination of the recipient's access level and the permissions to the object that were granted by the sharer. The lowest degree of access available in that combination is what determines what the recipient can do with the object.
+
+  >[!INFO]
+  >
+  >**Example:** If the recipient's access level doesn't allow project editing, that person can't edit or delete a project even if the sharer granted permissions to manage it.
+  >
+  >Or, if the recipient's access level allows project editing, but the sharer granted view-only permissions to a project, the user cannot edit or delete the project.
+
 
 Users also gain access to individual objects when other users share and grant certain permissions on those objects.
 
@@ -304,18 +322,6 @@ So, the activities a user can do with an object are defined by a combination of 
 >**Example**: If your access level says that you can create tasks, but the permissions you receive on a specific project don't allow you to add tasks to it, you can't add tasks on the project even though you can create tasks elsewhere in Workfront.
 
 ### Access level
-
-The access level assigned to each user by a Workfront administrator is required for logging in to Workfront.
-
-The default access levels are:
-
-* System Administrator (attached to the Standard license)
-* Standard (attached to the Standard license)
-* Light (attached to the Light license)
-* Contributor (attached to the Contributor license)
-* External User (attached to the External license)
-
-The Workfront license for each default access level determines what is available and configurable in the access level. For information about the Workfront licenses, see [Adobe Workfront licenses overview](../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md).
 
 Access levels define what assigned users can see and do with the following object types and areas in Workfront:
 
@@ -332,15 +338,6 @@ Access levels define what assigned users can see and do with the following objec
 * Resource Management
 * Scenario Planner 
 
-In a custom access level, you can configure the settings for these objects and areas to change how much access users have to them. Depending on the license associated with the access level, as well as the type of the object or area, you can configure the access level to allow no access, view access, or edit access to an object or area.
-
->[!IMPORTANT]
->
->We strongly recommend that you leave the built-in access levels unchanged so that you can refer to them after you set up your users. To customize an access level, copy the default access level and modify the copy. (You can do this for every access level except for System Administrator and External User.)
-
-For a detailed explanation of each of the default access levels, see [Built-in access levels in Adobe Workfront](#built-in-access)in this article. <!-- why is this link broken? -->
-
-For instructions on assigning an access level to a user, see [Edit a user's profile](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
 ### Permissions
 
