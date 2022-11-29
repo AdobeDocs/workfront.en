@@ -127,14 +127,14 @@ If this option is disabled, the FTP server certificate is not verified. We stron
 
 ### Actions
 
-* [[!UICONTROL Change permissions]](#uicontrol-change-permissions)
-* [[!UICONTROL Create a folder]](#uicontrol-create-a-folder)
-* [[!UICONTROL Delete a file]](#uicontrol-delete-a-file)
-* [[!UICONTROL Delete a folder]](#uicontrol-delete-a-folder)
-* [[!UICONTROL Get a file]](#uicontrol-get-a-file)
-* [[!UICONTROL List of files in a folder]](#uicontrol-list-of-files-in-a-folder)
-* [[!UICONTROL Move a file or folder]](#uicontrol-move-a-file-or-folder)
-* [[!UICONTROL Upload] a file](#uicontrol-upload-a-file)
+* [[!UICONTROL Change permissions]](#change-permissions)
+* [[!UICONTROL Create a folder]](#create-a-folder)
+* [[!UICONTROL Delete a file]](#delete-a-file)
+* [[!UICONTROL Delete a folder]](#delete-a-folder)
+* [[!UICONTROL Get a file]](#get-a-file)
+* [[!UICONTROL List of files in a folder]](#list-of-files-in-a-folder)
+* [[!UICONTROL Move a file or folder]](#move-a-file-or-folder)
+* [[!UICONTROL Upload] a file](#upload-a-file)
 
 #### [!UICONTROL Change permissions]
 

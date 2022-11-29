@@ -55,8 +55,8 @@ To use [!DNL Bynder] modules, you must have a [!DNL Bynder] account.
 
 ## Connect [!DNL Bynder] to Workfront Fusion  {#connect-bynder-to-workfront-fusion}
 
-* [Create a connection to [!DNL Bynder] from [!DNL Workfront Fusion]](#create-a-connection-to-dnl-bynder-from-dnl-workfront-fusion)
-* [Generate a [!UICONTROL Client ID] and [!UICONTROL Client Secret] in [!DNL Bynder] (Optional)](#generate-a-uicontrol-client-id-and-uicontrol-client-secret-in-dnl-bynder-optional)
+* [Create a connection to [!DNL Bynder] from [!DNL Workfront Fusion]](#create-a-connection-to-bynder-from-workfront-fusion)
+* [Generate a [!UICONTROL Client ID] and [!UICONTROL Client Secret] in [!DNL Bynder] (Optional)](#generate-a-client-id-and-client-secret-in-bynder-optional)
 
 ### Create a connection to [!DNL Bynder] from [!DNL Workfront Fusion]
 
@@ -66,7 +66,7 @@ You can create a connection from [!DNL Workfront Fusion] to your [!DNL Bynder] a
 1. Select the [!DNL Bynder] domain that you want to connect to.
 1. (Optional) Click **[!UICONTROL Advanced settings]**, then enter your [!UICONTROL Client ID] and [!UICONTROL Client Secret].
 
-   For instructions on generating the Client ID and Client Secret, see [Generate a Client ID and Client Secret in [!DNL Bynder] (Optional)](#generate-a-uicontrol-client-id-and-uicontrol-client-secret-in-dnl-bynder-optional) in this article.
+   For instructions on generating the Client ID and Client Secret, see [Generate a Client ID and Client Secret in [!DNL Bynder] (Optional)](#generate-a-client-id-and-client-secret-in-bynder-optional) in this article.
 
 1. In the [!UICONTROL login] window, enter your username (email address) and password.
 1. Click **[!UICONTROL Continue]** to create the connection and go back to the module.
@@ -97,15 +97,15 @@ If you see the map button above a field or function, you can use it to set varia
 
 ### Actions
 
-* [[!UICONTROL Custom API Call]](#uicontrol-custom-api-call)
-* [[!UICONTROL Read asset metadata]](#uicontrol-read-asset-metadata)
-* [[!UICONTROL Update asset metadata]](#uicontrol-update-asset-metadata)
-* [[!UICONTROL Add assets to a collection]](#uicontrol-add-assets-to-a-collection)
-* [[!UICONTROL Remove assets from collection]](#uicontrol-remove-assets-from-collection)
-* [[!UICONTROL Add a tag to assets]](#uicontrol-add-a-tag-to-assets)
-* [[!UICONTROL Remove a tag] from assets](#uicontrol-remove-a-tag-from-assets)
-* [[!UICONTROL Download asset]](#uicontrol-download-asset)
-* [[!UICONTROL Upload asset]](#uicontrol-upload-asset)
+* [[!UICONTROL Custom API Call]](#custom-api-call)
+* [[!UICONTROL Read asset metadata]](#read-asset-metadata)
+* [[!UICONTROL Update asset metadata]](#update-asset-metadata)
+* [[!UICONTROL Add assets to a collection]](#add-assets-to-a-collection)
+* [[!UICONTROL Remove assets from collection]](#remove-assets-from-collection)
+* [[!UICONTROL Add a tag to assets]](#add-a-tag-to-assets)
+* [[!UICONTROL Remove a tag] from assets](#remove-a-tag-from-assets)
+* [[!UICONTROL Download asset]](#download-asset)
+* [[!UICONTROL Upload asset]](#upload-asset)
 
 #### [!UICONTROL Custom API Call] 
 
@@ -343,8 +343,8 @@ This action module uploads a single asset.
 
 ### Searches 
 
-* [[!UICONTROL List record]](#uicontrol-list-record)
-* [[!UICONTROL Search for assets]](#uicontrol-search-for-assets)
+* [[!UICONTROL List record]](#list-record)
+* [[!UICONTROL Search for assets]](#search-for-assets)
 
 #### [!UICONTROL List record] 
 

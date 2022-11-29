@@ -53,8 +53,8 @@ To use [!DNL Gmail] modules, you must have a [!DNL Gmail] account.
 
 ## Connect [!DNL Gmail] to [!DNL Workfront Fusion] {#connect-gmail-to-workfront-fusion}
 
-* [Connect [!DNL Gmail] to [!DNL Workfront Fusion] using [!DNL G Suite]](#connect-dnl-gmail-to-dnl-workfront-fusion-usingdnl-g-suite)
-* [Connect [!DNL Gmail] to [!DNL Workfront Fusion] using [!DNL gmail.com] or [!DNL googlemail].com](#connect-dnl-gmail-to-dnl-workfront-fusion-using-dnl-gmailcom-or-dnl-googlemailcom)
+* [Connect [!DNL Gmail] to [!DNL Workfront Fusion] using [!DNL G Suite]](#connect-gmail-to-workfront-fusion-usingg-suite)
+* [Connect [!DNL Gmail] to [!DNL Workfront Fusion] using [!DNL gmail.com] or [!DNL googlemail].com](#connect-gmail-to-workfront-fusion-using-gmailcom-or-googlemailcom)
 
 ### Connect [!DNL Gmail] to [!DNL Workfront Fusion] using[!DNL  G Suite] {#connect-gmail-to-workfront-fusion-using-g-suite}
 
@@ -137,14 +137,14 @@ When you are configuring this module, the following fields display.
 
 ### Actions
 
-* [[!UICONTROL Send an email]](#uicontrol-send-an-email)
-* [[!UICONTROL Create a draft]](#uicontrol-create-a-draft)
-* [[!UICONTROL Mark an email as read]](#uicontrol-mark-an-email-as-read)
-* [[!UICONTROL Mark an email as unread]](#uicontrol-mark-an-email-as-unread)
-* [[!UICONTROL Move an email]](#uicontrol-move-an-email)
-* [[!UICONTROL Copy an email]](#uicontrol-copy-an-email)
-* [[!UICONTROL Delete an email]](#uicontrol-delete-an-email)
-* [[!UICONTROL Modify email labels]](#uicontrol-modify-email-labels)
+* [[!UICONTROL Send an email]](#send-an-email)
+* [[!UICONTROL Create a draft]](#create-a-draft)
+* [[!UICONTROL Mark an email as read]](#mark-an-email-as-read)
+* [[!UICONTROL Mark an email as unread]](#mark-an-email-as-unread)
+* [[!UICONTROL Move an email]](#move-an-email)
+* [[!UICONTROL Copy an email]](#copy-an-email)
+* [[!UICONTROL Delete an email]](#delete-an-email)
+* [[!UICONTROL Modify email labels]](#modify-email-labels)
 
 #### [!UICONTROL Send an email] 
 

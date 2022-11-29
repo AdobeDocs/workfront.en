@@ -49,7 +49,7 @@ For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Work
 There are two kinds of filtering that can take place on an error handler route.
 
 * [Adding a filter to the error handler route](#adding-a-filter-to-the-error-handler-route)
-* [Adding a Router followed by filters to the error handler route](#adding-a-uicontrol-router-followed-by-filters-to-the-error-handler)
+* [Adding a Router followed by filters to the error handler route](#adding-a-router-followed-by-filters-to-the-error-handler)
 
 ### Adding a filter to the error handler route 
 

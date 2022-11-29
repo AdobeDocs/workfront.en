@@ -136,9 +136,9 @@ If a webhook receives data and there is not an active scenario that is expecting
 
 If any part of the data does not pass the validation, [!DNL Workfront Fusion] returns a 400 HTTP status code and specifies, in the body of the HTTP response, the reason why the incoming data failed the validation checks. If the validation of the incoming data succeeds, Workfront Fusion returns a "[!UICONTROL 200 Accepted]" status.
 
-* [[!UICONTROL Query String]](#uicontrol-query-string) 
-* [[!UICONTROL Form Data]](#uicontrol-form-data) 
-* [[!UICONTROL JSON]](#uicontrol-json)
+* [[!UICONTROL Query String]](#query-string) 
+* [[!UICONTROL Form Data]](#form-data) 
+* [[!UICONTROL JSON]](#json)
 
 ### [!UICONTROL Query String] 
 

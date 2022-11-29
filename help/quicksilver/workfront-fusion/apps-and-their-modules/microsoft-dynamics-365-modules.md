@@ -81,14 +81,14 @@ If you see the map button above a field or function, you can use it to set varia
 
 ![](assets/map-toggle-350x74.png)
 
-* [[!UICONTROL Watch Records (Scheduled)]](#uicontrol-watch-records-scheduled)
-* [[!UICONTROL Watch Records (Real Time)]](#uicontrol-watch-records-real-time)
-* [[!UICONTROL Create Record]](#uicontrol-create-record)
-* [[!UICONTROL Make an API Call]](#uicontrol-make-an-api-call)
-* [[!UICONTROL Delete Record]](#uicontrol-delete-record)
-* [[!UICONTROL Read Records]](#uicontrol-read-records)
-* [[!UICONTROL Update Record]](#uicontrol-update-record)
-* [[!UICONTROL Search Records]](#uicontrol-search-records)
+* [[!UICONTROL Watch Records (Scheduled)]](#watch-records-scheduled)
+* [[!UICONTROL Watch Records (Real Time)]](#watch-records-real-time)
+* [[!UICONTROL Create Record]](#create-record)
+* [[!UICONTROL Make an API Call]](#make-an-api-call)
+* [[!UICONTROL Delete Record]](#delete-record)
+* [[!UICONTROL Read Records]](#read-records)
+* [[!UICONTROL Update Record]](#update-record)
+* [[!UICONTROL Search Records]](#search-records)
 
 ### [!UICONTROL Watch Records (Scheduled)]
 

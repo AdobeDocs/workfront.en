@@ -77,17 +77,17 @@ If you see the map button above a field or function, you can use it to set varia
 
 ### Elements
 
-* [[!UICONTROL Archive an Element]](#uicontrol-archive-an-element)
+* [[!UICONTROL Archive an Element]](#archive-an-element)
 
-* [[!UICONTROL Get an Element]](#uicontrol-get-an-element)
+* [[!UICONTROL Get an Element]](#get-an-element)
 
-* [[!UICONTROL List Elements]](#uicontrol-list-elements)
+* [[!UICONTROL List Elements]](#list-elements)
 
-* [[!UICONTROL Upload an Element]](#uicontrol-upload-an-element)
+* [[!UICONTROL Upload an Element]](#upload-an-element)
 
-* [!UICONTROL [Watch New Element in Library]](#uicontrol-watch-new-element-in-library)
+* [!UICONTROL [Watch New Element in Library]](#watch-new-element-in-library)
 
-* [[!UICONTROL Watch Updated Elements]](#uicontrol-watch-updated-elements)
+* [[!UICONTROL Watch Updated Elements]](#watch-updated-elements)
 
 
 #### [!UICONTROL Archive an Element]
@@ -313,9 +313,9 @@ This trigger module starts a scenario when an element in a library is updated.
 
 ### Libraries
 
-* [[!UICONTROL Watch New Libraries]](#uicontrol-watch-new-libraries)
+* [[!UICONTROL Watch New Libraries]](#watch-new-libraries)
 
-* [[!UICONTROL Watch Updated Libraries]](#uicontrol-watch-updated-libraries)
+* [[!UICONTROL Watch Updated Libraries]](#watch-updated-libraries)
 
 
 #### [!UICONTROL Watch New Libraries]

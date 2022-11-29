@@ -54,7 +54,7 @@ The procedure of connecting the service via an API token is similar for most web
 1. Create an application on the web service's website, as explained in the section [Create a new application and obtain the API token](#create-a-new-application-and-obtain-the-api-token) in this article.
 1. Obtain the API Key or API token.
 1. Add [!DNL Workfront Fusion]'s [!UICONTROL HTTP] > [!UICONTROL Make a Request] module to your scenario.
-1. Set up the module according to the web service's API documentation and running the scenario, as explained in the section [Set up the [!UICONTROL HTTP] module](#set-up-the-uicontrol-http-module) in this article.
+1. Set up the module according to the web service's API documentation and running the scenario, as explained in the section [Set up the [!UICONTROL HTTP] module](#set-up-the-http-module) in this article.
 
 >[!NOTE]
 >

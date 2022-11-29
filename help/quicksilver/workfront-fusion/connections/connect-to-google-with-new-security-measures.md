@@ -52,9 +52,9 @@ To access restricted scopes, the connected service ([!DNL Adobe Workfront Fusion
 
 There are a few exceptions that make it possible to send data to an unapproved third-party service that doesn't have the Letter of Assessment without violating any of the new restrictions. They differ based on [!DNL G Suite] with the [!DNL Workfront Fusion] OAuth client, [!DNL G Suite] with another OAuth client, or [!DNL @gmail.com] and [!DNL @google.mail.com].
 
-* [[!DNL G suite] with [!DNL Workfront Fusion] OAuth client](#dnl-g-suite-with-dnl-workfront-fusion-oauth-client)
-* [[!DNL G suite] with another OAuth client](#dnl-g-suite-with-another-oauth-client)
-* [[!DNL @gmail.com] and [!DNL @googlemail.com]](#dnl-gmailcom-and-dnl-googlemailcom)
+* [[!DNL G suite] with [!DNL Workfront Fusion] OAuth client](#g-suite-with-workfront-fusion-oauth-client)
+* [[!DNL G suite] with another OAuth client](#g-suite-with-another-oauth-client)
+* [[!DNL @gmail.com] and [!DNL @googlemail.com]](#gmailcom-and-googlemailcom)
 
 ### [!DNL G suite] with [!DNL Workfront Fusion] OAuth client
 
@@ -70,10 +70,10 @@ User that access [!DNL Google Services] through [!DNL @gmail.com] or [!DNL @goog
 
 ## FAQ
 
-* [What apps in [!DNL Adobe Workfront Fusion] are affected?](#what-apps-in-dnl-adobe-workfront-fusion-are-affected)
-* [Do I have a [!DNL G Suite] account?](#do-i-have-a-dnl-g-suite-account)
-* [What should I do if I'm [!DNL @gmail.com] or [!DNL @googlemail.com] user?](#what-should-i-do-if-im-dnl-gmailcom-or-dnl-googlemailcom-user)
-* [What should I do if I'm a [!DNL G Suite] user?](#what-should-i-do-if-im-a-dnl-g-suite-user)
+* [What apps in [!DNL Adobe Workfront Fusion] are affected?](#what-apps-in-adobe-workfront-fusion-are-affected)
+* [Do I have a [!DNL G Suite] account?](#do-i-have-a-g-suite-account)
+* [What should I do if I'm [!DNL @gmail.com] or [!DNL @googlemail.com] user?](#what-should-i-do-if-im-gmailcom-or-googlemailcom-user)
+* [What should I do if I'm a [!DNL G Suite] user?](#what-should-i-do-if-im-a-g-suite-user)
 
 ### What apps in [!DNL Adobe Workfront Fusion] are affected? 
 

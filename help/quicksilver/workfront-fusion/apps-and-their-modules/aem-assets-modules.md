@@ -71,9 +71,9 @@ To create a connection for your [!DNL Adobe Experience Manager Assets] modules:
 
 3. Fill in the fields for the type of connection that you are creating.
 
-   For [!DNL AEM Assets as a Cloud Service], see [Configure the connection for [!DNL AEM Assets as a Cloud Service]](#configure-the-connection-for-dnl-aem-assets-as-a-cloud-service).
+   For [!DNL AEM Assets as a Cloud Service], see [Configure the connection for [!DNL AEM Assets as a Cloud Service]](#configure-the-connection-for-aem-assets-as-a-cloud-service).
 
-   For [!UICONTROL AEM Assets Basic], see [Configure the connection for [!UICONTROL AEM Assets Basic]](#configure-the-connection-for-dnl-aem-assets-basic).
+   For [!UICONTROL AEM Assets Basic], see [Configure the connection for [!UICONTROL AEM Assets Basic]](#configure-the-connection-for-aem-assets-basic).
 
 4. Click **[!UICONTROL Continue]** to save the connection and return to the module.
 

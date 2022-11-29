@@ -146,7 +146,7 @@ After the webhook is created, you can view the address of the endpoint that even
 
 For more information, see the section [Examples of Event Payloads](../../wf-api/general/event-subs-api.md#examples-of-event-payloads) in the [!DNL Workfront] Help article [Event Subscription API](../../wf-api/general/event-subs-api.md).
 
-See a list of the [!DNL Workfront] object types for which you can use this module in [[!DNL Workfront] object types available for each [!DNL Workfront] module](#dnl-workfront-object-types-available-for-each-dnl-workfront-module).
+See a list of the [!DNL Workfront] object types for which you can use this module in [[!DNL Workfront] object types available for each [!DNL Workfront] module](#workfront-object-types-available-for-each-workfront-module).
 
 +++
 
@@ -183,7 +183,7 @@ When you are configuring this module, the following fields display.
  </tbody> 
 </table>
 
-See a list of the [!DNL Workfront] object types for which you can use this module in [[!DNL Workfront] object types available for each [!DNL Workfront] module](#dnl-workfront-object-types-available-for-each-dnl-workfront-module).
+See a list of the [!DNL Workfront] object types for which you can use this module in [[!DNL Workfront] object types available for each [!DNL Workfront] module](#workfront-object-types-available-for-each-workfront-module).
 
 +++
 
@@ -226,7 +226,7 @@ When you are configuring this module, the following fields display.
  </tbody> 
 </table>
 
-See a list of the [!DNL Workfront] object types for which you can use this module in [[!DNL Workfront] object types available for each [!DNL Workfront] module](#dnl-workfront-object-types-available-for-each-dnl-workfront-module).
+See a list of the [!DNL Workfront] object types for which you can use this module in [[!DNL Workfront] object types available for each [!DNL Workfront] module](#workfront-object-types-available-for-each-workfront-module).
 
 +++
 
@@ -330,7 +330,7 @@ Make sure you provide the minimum number of input fields. For example, if you wa
  </tbody> 
 </table>
 
-See a list of the [!DNL Workfront] object types for which you can use this module in [[!DNL Workfront] object types available for each [!DNL Workfront] module](#dnl-workfront-object-types-available-for-each-dnl-workfront-module).
+See a list of the [!DNL Workfront] object types for which you can use this module in [[!DNL Workfront] object types available for each [!DNL Workfront] module](#workfront-object-types-available-for-each-workfront-module).
 
 >[!NOTE]
 >
@@ -377,7 +377,7 @@ Make sure you provide the minimum number of input fields. For example, if you wa
  </tbody> 
 </table>
 
-See a list of the [!DNL Workfront] object types for which you can use this module in [[!DNL Workfront] object types available for each [!DNL Workfront] module](#dnl-workfront-object-types-available-for-each-dnl-workfront-module).
+See a list of the [!DNL Workfront] object types for which you can use this module in [[!DNL Workfront] object types available for each [!DNL Workfront] module](#workfront-object-types-available-for-each-workfront-module).
 
 >[!NOTE]
 >
@@ -444,7 +444,7 @@ When you are configuring this module, the following fields display.
  </tbody> 
 </table>
 
-See a list of the [!DNL Workfront] object types for which you can use this module in [[!DNL Workfront] object types available for each [!DNL Workfront] module](#dnl-workfront-object-types-available-for-each-dnl-workfront-module).
+See a list of the [!DNL Workfront] object types for which you can use this module in [[!DNL Workfront] object types available for each [!DNL Workfront] module](#workfront-object-types-available-for-each-workfront-module).
 
 +++
 
@@ -481,7 +481,7 @@ When you are configuring this module, the following fields display.
  </tbody> 
 </table>
 
-See a list of the [!DNL Workfront] object types for which you can use this module in [[!DNL Workfront] object types available for each [!DNL Workfront] module](#dnl-workfront-object-types-available-for-each-dnl-workfront-module).
+See a list of the [!DNL Workfront] object types for which you can use this module in [[!DNL Workfront] object types available for each [!DNL Workfront] module](#workfront-object-types-available-for-each-workfront-module).
 
 +++
 
@@ -510,7 +510,7 @@ When you are configuring this module, the following fields display.
  </tbody> 
 </table>
 
-See a list of the [!DNL Workfront] object types for which you can use this module in [[!DNL Workfront] object types available for each [!DNL Workfront] module](#dnl-workfront-object-types-available-for-each-dnl-workfront-module).
+See a list of the [!DNL Workfront] object types for which you can use this module in [[!DNL Workfront] object types available for each [!DNL Workfront] module](#workfront-object-types-available-for-each-workfront-module).
 
 +++
 
@@ -555,7 +555,7 @@ When you are configuring this module, the following fields display.
  </tbody> 
 </table>
 
-See a list of the [!DNL Workfront] object types for which you can use this module in [[!DNL Workfront] object types available for each [!DNL Workfront] module](#dnl-workfront-object-types-available-for-each-dnl-workfront-module).
+See a list of the [!DNL Workfront] object types for which you can use this module in [[!DNL Workfront] object types available for each [!DNL Workfront] module](#workfront-object-types-available-for-each-workfront-module).
 
 +++
 
@@ -605,7 +605,7 @@ When you are configuring this module, the following fields display.
  </tbody> 
 </table>
 
-See a list of the [!DNL Workfront] object types for which you can use this module in [[!DNL Workfront] object types available for each [!DNL Workfront] module](#dnl-workfront-object-types-available-for-each-dnl-workfront-module).
+See a list of the [!DNL Workfront] object types for which you can use this module in [[!DNL Workfront] object types available for each [!DNL Workfront] module](#workfront-object-types-available-for-each-workfront-module).
 
 +++
 
@@ -644,7 +644,7 @@ When you are configuring this module, the following fields display.
  </tbody> 
 </table>
 
-See a list of the [!DNL Workfront] object types for which you can use this module in [[!DNL Workfront] object types available for each [!DNL Workfront] module](#dnl-workfront-object-types-available-for-each-dnl-workfront-module).
+See a list of the [!DNL Workfront] object types for which you can use this module in [[!DNL Workfront] object types available for each [!DNL Workfront] module](#workfront-object-types-available-for-each-workfront-module).
 
 >[!NOTE]
 >
@@ -689,7 +689,7 @@ When you are configuring this module, the following fields display.
  </tbody> 
 </table>
 
-See a list of the [!DNL Workfront] object types for which you can use this module in [[!DNL Workfront] object types available for each [!DNL Workfront] module](#dnl-workfront-object-types-available-for-each-dnl-workfront-module).
+See a list of the [!DNL Workfront] object types for which you can use this module in [[!DNL Workfront] object types available for each [!DNL Workfront] module](#workfront-object-types-available-for-each-workfront-module).
 
 +++
 
@@ -784,7 +784,7 @@ When you are configuring this module, the following fields display.
  </tbody> 
 </table>
 
-See a list of the [!DNL Workfront] object types for which you can use this module in [[!DNL Workfront] object types available for each [!DNL Workfront] module](#dnl-workfront-object-types-available-for-each-dnl-workfront-module).
+See a list of the [!DNL Workfront] object types for which you can use this module in [[!DNL Workfront] object types available for each [!DNL Workfront] module](#workfront-object-types-available-for-each-workfront-module).
 
 +++
 

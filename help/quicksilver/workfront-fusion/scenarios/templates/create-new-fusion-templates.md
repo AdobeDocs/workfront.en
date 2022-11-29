@@ -61,7 +61,7 @@ For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Work
 1. (Optional) To enter a description of the template, click **[!UICONTROL Set up a template]** ![](assets/fusion-scenario-settings-icon.png) and enter the description.
 1. Add apps, modules, and tools in the same way as you would do when creating a standard scenario.
 
-   To add contextual help to the modules, see [Set up [!UICONTROL Wizard] functionality](#set-up-uicontrol-wizard-functionality) in this article.
+   To add contextual help to the modules, see [Set up [!UICONTROL Wizard] functionality](#set-up-wizard-functionality) in this article.
 
    For more information on building a scenario, see [Create a scenario in [!DNL Adobe Workfront Fusion]](../../../workfront-fusion/scenarios/create-a-scenario.md).
 

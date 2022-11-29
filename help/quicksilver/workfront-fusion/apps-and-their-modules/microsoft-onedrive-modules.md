@@ -70,16 +70,16 @@ If you see the map button above a field or function, you can use it to set varia
 
 ### File/Folder
 
-* [[!UICONTROL Watch Files/Folders]](#uicontrol-watch-filesfolders)
-* [[!UICONTROL Search Files/Folders]](#uicontrol-search-filesfolders)
-* [[!UICONTROL Get a file]](#uicontrol-get-a-file)
-* [[!UICONTROL Download a file]](#uicontrol-download-a-file)
-* [[!UICONTROL Upload a file]](#uicontrol-upload-a-file)
-* [[!UICONTROL Create a Folder]](#uicontrol-create-a-folder)
-* [[!UICONTROL Get a Share Link]](#uicontrol-get-a-share-link)
-* [[!UICONTROL Move a File/Folder]](#uicontrol-move-a-filefolder)
-* [[!UICONTROL Copy a File]](#uicontrol-copy-a-file)
-* [[!UICONTROL Delete a File/Folder]](#uicontrol-delete-a-filefolder)
+* [[!UICONTROL Watch Files/Folders]](#watch-filesfolders)
+* [[!UICONTROL Search Files/Folders]](#search-filesfolders)
+* [[!UICONTROL Get a file]](#get-a-file)
+* [[!UICONTROL Download a file]](#download-a-file)
+* [[!UICONTROL Upload a file]](#upload-a-file)
+* [[!UICONTROL Create a Folder]](#create-a-folder)
+* [[!UICONTROL Get a Share Link]](#get-a-share-link)
+* [[!UICONTROL Move a File/Folder]](#move-a-filefolder)
+* [[!UICONTROL Copy a File]](#copy-a-file)
+* [[!UICONTROL Delete a File/Folder]](#delete-a-filefolder)
 
 #### [!UICONTROL Watch Files/Folders]
 

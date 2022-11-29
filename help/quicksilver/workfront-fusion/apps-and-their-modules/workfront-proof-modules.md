@@ -67,9 +67,9 @@ If you see the map button above a field or function, you can use it to set varia
 
 ### Triggers 
 
-* [Watch Proofs](#uicontrol-watch-proofs)
-* [Watch for PDF Summary](#uicontrol-watch-for-pdf-summary)
-* [[!UICONTROL Watch Proof Activity]](#uicontrol-watch-proof-activity)
+* [Watch Proofs](#watch-proofs)
+* [Watch for PDF Summary](#watch-for-pdf-summary)
+* [[!UICONTROL Watch Proof Activity]](#watch-proof-activity)
 
 #### [!UICONTROL Watch Proofs]
 
@@ -164,13 +164,13 @@ When you are configuring this module, the following fields display.
 
 ### Actions
 
-* [[!UICONTROL Create Proof]](#uicontrol-create-proof)
-* [[!UICONTROL Custom API Call]](#uicontrol-custom-api-call)
-* [[!UICONTROL Download Proof]](#uicontrol-download-proof)
-* [[!UICONTROL Read a Record]](#uicontrol-read-a-record)
-* [[!UICONTROL Request PDF Summary]](#uicontrol-request-pdf-summary)
-* [[!UICONTROL Update Proof]](#uicontrol-update-proof)
-* [[!UICONTROL Upload File]](#uicontrol-upload-file)
+* [[!UICONTROL Create Proof]](#create-proof)
+* [[!UICONTROL Custom API Call]](#custom-api-call)
+* [[!UICONTROL Download Proof]](#download-proof)
+* [[!UICONTROL Read a Record]](#read-a-record)
+* [[!UICONTROL Request PDF Summary]](#request-pdf-summary)
+* [[!UICONTROL Update Proof]](#update-proof)
+* [[!UICONTROL Upload File]](#upload-file)
 
 #### [!UICONTROL Create Proof]
 
@@ -571,8 +571,8 @@ When you are configuring this module, the following fields display.
 
 ### Searches 
 
-* [[!UICONTROL Search]](#uicontrol-search)
-* [[!UICONTROL List Workflow Templates]](#uicontrol-list-workflow-templates)
+* [[!UICONTROL Search]](#search)
+* [[!UICONTROL List Workflow Templates]](#list-workflow-templates)
 
 #### [!UICONTROL Search]
 

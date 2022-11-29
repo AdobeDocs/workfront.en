@@ -76,7 +76,7 @@ This scheduled trigger module starts a scenario when a record changes.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td>For instructions on creating a connection to [!DNL Adobe Campaign Classic], see <a href="#connect-dnl-adobe-campaign-connector-to-adobe-workfront-fusion" class="MCXref xref" >Create a connection to [!DNL Adobe Campaign Classic]</a> in this article.</td> 
+   <td>For instructions on creating a connection to [!DNL Adobe Campaign Classic], see <a href="#connect-adobe-campaign-connector-to-adobe-workfront-fusion" class="MCXref xref" >Create a connection to [!DNL Adobe Campaign Classic]</a> in this article.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Filter]</td> 
@@ -104,13 +104,13 @@ This scheduled trigger module starts a scenario when a record changes.
 
 ### Actions
 
-* [[!UICONTROL Create a record]](#uicontrol-create-a-record)
-* [[!UICONTROL Make a custom API call]](#uicontrol-make-a-custom-api-call)
-* [[!UICONTROL Delete a record]](#uicontrol-delete-record)
-* [[!UICONTROL Perform an action]](#uicontrol-perform-an-action)
-* [[!UICONTROL Read a record]](#uicontrol-read-a-record)
-* [[!UICONTROL Subscribe or unsubscribe]](#uicontrol-subscribe-or-unsubscribe)
-* [[!UICONTROL Update a record]](#uicontrol-update-record)
+* [[!UICONTROL Create a record]](#create-a-record)
+* [[!UICONTROL Make a custom API call]](#make-a-custom-api-call)
+* [[!UICONTROL Delete a record]](#delete-record)
+* [[!UICONTROL Perform an action]](#perform-an-action)
+* [[!UICONTROL Read a record]](#-read-a-record)
+* [[!UICONTROL Subscribe or unsubscribe]](#subscribe-or-unsubscribe)
+* [[!UICONTROL Update a record]](#update-record)
 
 #### [!UICONTROL Create a record]
 

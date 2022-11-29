@@ -98,11 +98,11 @@ To create a connection to the [!DNL Microsoft Graph REST API], you must first re
     </tbody> 
    </table>
 
-1. Proceed to [Configure your [!DNL MS Graph API] connection in [!DNL Workfront Fusion]](#configure-your-dnl-ms-graph-api-connection-in-dnl-workfront-fusion).
+1. Proceed to [Configure your [!DNL MS Graph API] connection in [!DNL Workfront Fusion]](#configure-your-ms-graph-api-connection-in-workfront-fusion).
 
 ## Configure your [!DNL MS Graph API] connection in [!DNL Workfront Fusion] 
 
-After you register [!DNL Workfront Fusion] as discussed in [Register [!DNL Workfront Fusion] in the [!DNL Microsoft Application Registration Portal]](#register-dnl-workfront-fusion-in-the-dnl-microsoft-application-registration-portal), you can configure your connection in the [!UICONTROL HTTP] >[!UICONTROL Make an Oauth 2.0] request module.
+After you register [!DNL Workfront Fusion] as discussed in [Register [!DNL Workfront Fusion] in the [!DNL Microsoft Application Registration Portal]](#register-workfront-fusion-in-the-microsoft-application-registration-portal), you can configure your connection in the [!UICONTROL HTTP] >[!UICONTROL Make an Oauth 2.0] request module.
 
 1. Add an [!UICONTROL HTTP] >[!UICONTROL Make an OAuth 2.0 call] module to your scenario.
 1. Click **[!UICONTROL Add]** next to the [!UICONTROL connection] field.

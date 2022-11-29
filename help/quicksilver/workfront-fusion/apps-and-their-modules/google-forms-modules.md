@@ -126,9 +126,9 @@ Watches the form for new responses.
 
 ### Actions 
 
-* [[!UICONTROL Add a Response]](#uicontrol-add-a-response)
-* [[!UICONTROL Update a Response]](#uicontrol-update-a-response)
-* [[!UICONTROL Delete a Response]](#uicontrol-delete-a-response)
+* [[!UICONTROL Add a Response]](#add-a-response)
+* [[!UICONTROL Update a Response]](#update-a-response)
+* [[!UICONTROL Delete a Response]](#delete-a-response)
 
 #### [!UICONTROL Add a Response] 
 
@@ -245,8 +245,8 @@ This module deletes a selected response.
 
 ### Searches 
 
-* [[!UICONTROL Search Responses]](#uicontrol-search-responses)
-* [[!UICONTROL Search Responses (Advanced])](#uicontrol-search-responses-advanced)
+* [[!UICONTROL Search Responses]](#search-responses)
+* [[!UICONTROL Search Responses (Advanced])](#search-responses-advanced)
 
 #### [!UICONTROL Search Responses] 
 

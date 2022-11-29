@@ -109,11 +109,11 @@ If you see the map button above a field or function, you can use it to set varia
 
 ![](assets/map-toggle-350x74.png)
 
-* [Aggregate to JSON](#uicontrol-aggregate-to-json) 
-* [Convert JSON to XML](#uicontrol-convert-json-to-xml) 
+* [Aggregate to JSON](#aggregate-to-json) 
+* [Convert JSON to XML](#convert-json-to-xml) 
 * [Parse JSON](#parse-json) 
-* [Create JSON](#uicontrol-create-json) 
-* [Transform JSON](#uicontrol-transform-json)
+* [Create JSON](#create-json) 
+* [Transform JSON](#transform-json)
 
 ### [!UICONTROL Aggregate to JSON]
 

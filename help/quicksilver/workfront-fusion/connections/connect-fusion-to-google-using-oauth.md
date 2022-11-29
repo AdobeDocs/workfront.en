@@ -70,7 +70,7 @@ To create a project on [!DNL Google Cloud] Platform:
    >You must enable [!DNL Google Drive] API as well as the API of all [!DNL Google] apps you want to use (such as [!DNL Google Sheets] API).
 
 1. On the screen that appears, click **[!UICONTROL Create credentials]** in the upper-right corner.
-1. Continue to the section [Configure OAuth consent settings](#configure-uicontrol-oauth-consent-settings) in this article.
+1. Continue to the section [Configure OAuth consent settings](#configure-oauth-consent-settings) in this article.
 
 ## Configure [!UICONTROL OAuth consent] settings 
 
@@ -181,14 +181,14 @@ You may need to expand the list or go to the next page of the list to see them a
    The [!UICONTROL Client ID] and [!UICONTROL Client Secret] display.
 
 1. Copy the [!UICONTROL Client ID] and [!UICONTROL Client Secret] to a secure location. You will use them to make a connection in [!DNL Workfront Fusion].
-1. Continue to [Connect to [!DNL Google] in [!DNL Workfront Fusion]](#connect-to-dnl-google-in-dnl-workfront-fusion).
+1. Continue to [Connect to [!DNL Google] in [!DNL Workfront Fusion]](#connect-to-google-in-workfront-fusion).
 
 ## Connect to [!DNL Google] in [!DNL Workfront Fusion] 
 
 The process of creating a connection to [!DNL Google] differs depending on whether you are using a module from a [!DNL Google] service(such as [!DNL Google Sheets] or [!DNL Google Docs]), or if you are connecting to [!DNL Google] via the [!UICONTROL HTTP] >[!UICONTROL Make an OAuth2.0] request module.
 
-* [Connect to [!DNL Google] in a [!DNL Google] service](#connect-to-dnl-google-in-a-dnl-google-service)
-* [Connect to [!DNL Google] in the [!UICONTROL HTTP] > [!UICONTROL Make an OAuth2.0 request] module](#connect-to-dnl-google-in-the-uicontrol-http--uicontrol-make-an-oauth20-request-module)
+* [Connect to [!DNL Google] in a [!DNL Google] service](#connect-to-google-in-a-google-service)
+* [Connect to [!DNL Google] in the [!UICONTROL HTTP] > [!UICONTROL Make an OAuth2.0 request] module](#connect-to-google-in-the-http--make-an-oauth20-request-module)
 
 ### Connect to [!DNL Google] in a [!DNL Google] service
 
@@ -214,4 +214,4 @@ For instructions on connecting to [!DNL Google] in the [!UICONTROL HTTP] > [!UIC
 
 ## Possible error message:[!UICONTROL [403] Access Not Configured]
 
-If the [!UICONTROL [403] Access Not Configured] error message displays, you you need to enable the corresponding API in your Google Cloud Platform. To enable the API, follow the steps in the section [Create a project on [!DNL Google Cloud Platform]](#create-a-project-on-dnl-google-cloud-platform) in this article.
+If the [!UICONTROL [403] Access Not Configured] error message displays, you you need to enable the corresponding API in your Google Cloud Platform. To enable the API, follow the steps in the section [Create a project on [!DNL Google Cloud Platform]](#create-a-project-on-google-cloud-platform) in this article.

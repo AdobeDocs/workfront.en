@@ -63,11 +63,11 @@ If you see the map button above a field or function, you can use it to set varia
 
 ### Common tasks 
 
-* [Capture a Website](#uicontrol-capture-a-website) 
-* [[!UICONTROL Convert a file]](#uicontrol-convert-a-file) 
-* [Create an Archive](#uicontrol-create-an-archive) 
-* [Merge Files](#uicontrol-merge-files) 
-* [Optimize a File](#uicontrol-optimize-a-file)
+* [Capture a Website](#capture-a-website) 
+* [[!UICONTROL Convert a file]](#convert-a-file) 
+* [Create an Archive](#create-an-archive) 
+* [Merge Files](#merge-files) 
+* [Optimize a File](#optimize-a-file)
 
 #### [!UICONTROL Capture a Website] 
 
@@ -346,11 +346,11 @@ When you are configuring this module, the following fields display.
 
 ### Jobs 
 
-* [[!UICONTROL Create a Job (advanced)]](#uicontrol-create-a-job-advanced) 
-* [[!UICONTROL New Job Event]](#uicontrol-new-job-event) 
-* [[!UICONTROL List Jobs]](#uicontrol-list-jobs) 
-* [[!UICONTROL Get a Job]](#uicontrol-get-a-job) 
-* [[!UICONTROL Delete a Job]](#uicontrol-delete-a-job)
+* [[!UICONTROL Create a Job (advanced)]](#create-a-job-advanced) 
+* [[!UICONTROL New Job Event]](#new-job-event) 
+* [[!UICONTROL List Jobs]](#list-jobs) 
+* [[!UICONTROL Get a Job]](#get-a-job) 
+* [[!UICONTROL Delete a Job]](#delete-a-job)
 
 #### [!UICONTROL Create a Job (advanced)]
 
@@ -384,11 +384,11 @@ This module creates a job. A job can be one or multiple tasks that are identifie
    <td role="rowheader"> <p>[!UICONTROL Tasks]</p> </td> 
    <td> <p>Add tasks that will be performed within the job.</p> <p>Please find the descriptions of the operations' fields in the corresponding section.</p> 
     <ul> 
-     <li><a href="#uicontrol-convert-a-file" class="MCXref xref">[!UICONTROL Convert a file]</a> </li> 
-     <li><a href="#uicontrol-capture-a-website" class="MCXref xref">[!UICONTROL Capture a Websit]e</a> </li> 
-     <li><a href="#uicontrol-optimize-a-file" class="MCXref xref">[!UICONTROL Optimize a File]</a> </li> 
-     <li><a href="#uicontrol-create-an-archive" class="MCXref xref">[!UICONTROL Create an Archive]</a> </li> 
-     <li><a href="#uicontrol-merge-files" class="MCXref xref">[!UICONTROL Merge Files]</a> </li> 
+     <li><a href="#convert-a-file" class="MCXref xref">[!UICONTROL Convert a file]</a> </li> 
+     <li><a href="#capture-a-website" class="MCXref xref">[!UICONTROL Capture a Websit]e</a> </li> 
+     <li><a href="#optimize-a-file" class="MCXref xref">[!UICONTROL Optimize a File]</a> </li> 
+     <li><a href="#create-an-archive" class="MCXref xref">[!UICONTROL Create an Archive]</a> </li> 
+     <li><a href="#merge-files" class="MCXref xref">[!UICONTROL Merge Files]</a> </li> 
     </ul> 
     <ul> 
      <li> <p><strong>[!UICONTROL Execute a Command]</strong> </p> <p>For more information on executing a command, see the <a href="https://cloudconvert.com/api/v2/command#command-tasks">[!DNL CloudConvert] API documentation</a>.</p> </li> 
@@ -509,12 +509,12 @@ Triggers when a job in your account or task is created, finishes, or fails.
 
 ### Tasks 
 
-* [[!UICONTROL Get a Task]](#uicontrol-get-a-task) 
-* [[!UICONTROL Download a File]](#uicontrol-download-a-file) 
-* [[!UICONTROL List Tasks]](#uicontrol-list-tasks) 
-* [[!UICONTROL Retry a Task]](#uicontrol-retry-a-task) 
-* [[!UICONTROL Cancel a Task]](#uicontrol-cancel-a-task) 
-* [[!UICONTROL Delete a Task]](#uicontrol-delete-a-task)
+* [[!UICONTROL Get a Task]](#get-a-task) 
+* [[!UICONTROL Download a File]](#download-a-file) 
+* [[!UICONTROL List Tasks]](#list-tasks) 
+* [[!UICONTROL Retry a Task]](#retry-a-task) 
+* [[!UICONTROL Cancel a Task]](#cancel-a-task) 
+* [[!UICONTROL Delete a Task]](#delete-a-task)
 
 #### [!UICONTROL Cancel a Task]
 
@@ -648,8 +648,8 @@ This module creates a new task, based on the settings (payload) of another task.
 
 ### Other 
 
-* [[!UICONTROL Get My Info]](#uicontrol-get-my-info) 
-* [[!UICONTROL Make an API Call]](#uicontrol-make-an-api-call)
+* [[!UICONTROL Get My Info]](#get-my-info) 
+* [[!UICONTROL Make an API Call]](#make-an-api-call)
 
 #### [!UICONTROL Get My Info]
 

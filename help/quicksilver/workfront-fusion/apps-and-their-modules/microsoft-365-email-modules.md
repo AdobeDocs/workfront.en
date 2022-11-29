@@ -70,12 +70,12 @@ If you see the map button above a field or function, you can use it to set varia
 
 ### Message
 
-* [[!UICONTROL Watch Messages]](#uicontrol-watch-messages)
-* [[!UICONTROL Search messages]](#uicontrol-search-messages)
-* [[!UICONTROL Get a message]](#uicontrol-get-a-message)
-* [[!UICONTROL Create and Send a Message]](#uicontrol-create-and-send-a-message)
-* [[!UICONTROL Move a Message]](#uicontrol-move-a-message)
-* [[!UICONTROL Delete a Message]](#uicontrol-delete-a-message)
+* [[!UICONTROL Watch Messages]](#watch-messages)
+* [[!UICONTROL Search messages]](#search-messages)
+* [[!UICONTROL Get a message]](#get-a-message)
+* [[!UICONTROL Create and Send a Message]](#create-and-send-a-message)
+* [[!UICONTROL Move a Message]](#move-a-message)
+* [[!UICONTROL Delete a Message]](#delete-a-message)
 
 #### [!UICONTROL Watch Messages]
 
@@ -293,9 +293,9 @@ Deletes an existing email message.
 
 ### Draft Message
 
-* [Create a Draft Message](#uicontrol-create-a-draft-message)
-* [Send a Draft Message](#uicontrol-send-a-draft-message)
-* [Update a Message](#uicontrol-update-a-message)
+* [Create a Draft Message](#create-a-draft-message)
+* [Send a Draft Message](#send-a-draft-message)
+* [Update a Message](#update-a-message)
 
 #### [!UICONTROL Create a Draft Message] 
 
@@ -462,8 +462,8 @@ Updates an existing message.
 
 ### Attachment
 
-* [[!UICONTROL List Attachments]](#uicontrol-list-attachments)
-* [[!UICONTROL Download an Attachment]](#uicontrol-download-an-attachment)
+* [[!UICONTROL List Attachments]](#list-attachments)
+* [[!UICONTROL Download an Attachment]](#download-an-attachment)
 
 #### [!UICONTROL List Attachments]
 
@@ -513,8 +513,8 @@ This module downloads the specified attachment.
 
 ### Other
 
-* [[!UICONTROL Make an API Call]](#uicontrol-make-an-api-call)
-* [[!UICONTROL Add an Attachment]](#uicontrol-add-an-attachment)
+* [[!UICONTROL Make an API Call]](#make-an-api-call)
+* [[!UICONTROL Add an Attachment]](#add-an-attachment)
 
 #### [!UICONTROL Make an API Call]
 

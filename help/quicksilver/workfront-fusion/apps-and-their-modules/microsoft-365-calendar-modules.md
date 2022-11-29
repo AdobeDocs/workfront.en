@@ -69,12 +69,12 @@ If you see the map button above a field or function, you can use it to set varia
 
 ### Event 
 
-* [[!UICONTROL Watch Events]](#uicontrol-watch-events)
-* [[!UICONTROL Search Events]](#uicontrol-search-events)
-* [[!UICONTROL Get an Event]](#uicontrol-get-an-event)
-* [[!UICONTROL Create an Event]](#uicontrol-create-an-event)
-* [[!UICONTROL Update an Event]](#uicontrol-update-an-event)
-* [[!UICONTROL Delete an Event]](#uicontrol-delete-an-event)
+* [[!UICONTROL Watch Events]](#watch-events)
+* [[!UICONTROL Search Events]](#search-events)
+* [[!UICONTROL Get an Event]](#get-an-event)
+* [[!UICONTROL Create an Event]](#create-an-event)
+* [[!UICONTROL Update an Event]](#update-an-event)
+* [[!UICONTROL Delete an Event]](#delete-an-event)
 
 #### [!UICONTROL Watch Events]
 
@@ -404,11 +404,11 @@ This action module deletes an existing event.
 
 ### Calendar
 
-* [[!UICONTROL List Calendars]](#uicontrol-list-calendars)
-* [[!UICONTROL Get a Calendar]](#uicontrol-get-a-calendar)
-* [[!UICONTROL Create a Calendar]](#uicontrol-create-a-calendar)
-* [[!UICONTROL Update a Calendar]](#uicontrol-update-a-calendar)
-* [[!UICONTROL Delete a Calendar]](#uicontrol-delete-a-calendar)
+* [[!UICONTROL List Calendars]](#list-calendars)
+* [[!UICONTROL Get a Calendar]](#get-a-calendar)
+* [[!UICONTROL Create a Calendar]](#create-a-calendar)
+* [[!UICONTROL Update a Calendar]](#update-a-calendar)
+* [[!UICONTROL Delete a Calendar]](#delete-a-calendar)
 
 #### [!UICONTROL List Calendars]
 

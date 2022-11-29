@@ -122,14 +122,14 @@ Returns file details when a new file is added and/or modified in the specified f
 
 ### Actions
 
-* [[!UICONTROL Upload a File]](#uicontrol-upload-a-file)
-* [[!UICONTROL Update a File]](#uicontrol-update-a-file)
-* [[!UICONTROL Copy a File]](#uicontrol-copy-a-file)
-* [[!UICONTROL Delete a File]](#uicontrol-delete-a-file)
-* [[!UICONTROL Move a File to Trash]](#uicontrol-move-a-file-to-trash)
-* [[!UICONTROL Get a File]](#uicontrol-get-a-file)
-* [[!UICONTROL Get a File List]](#uicontrol-get-a-file-list)
-* [[!UICONTROL Create a Folder]](#uicontrol-create-a-folder)
+* [[!UICONTROL Upload a File]](#upload-a-file)
+* [[!UICONTROL Update a File]](#update-a-file)
+* [[!UICONTROL Copy a File]](#copy-a-file)
+* [[!UICONTROL Delete a File]](#delete-a-file)
+* [[!UICONTROL Move a File to Trash]](#move-a-file-to-trash)
+* [[!UICONTROL Get a File]](#get-a-file)
+* [[!UICONTROL Get a File List]](#get-a-file-list)
+* [[!UICONTROL Create a Folder]](#create-a-folder)
 
 #### [!UICONTROL Upload a File]
 

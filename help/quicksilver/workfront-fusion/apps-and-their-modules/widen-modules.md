@@ -105,13 +105,13 @@ This trigger module starts a scenario when an asset is created or updated.
 
 ### Action Modules
 
-* [[!UICONTROL Custom API Call]](#uicontrol-custom-api-call)
-* [[!UICONTROL Read asset info]](#uicontrol-read-asset-info)
-* [[!UICONTROL Add assets to collections]](#uicontrol-add-assets-to-collections)
-* [[!UICONTROL Remove assets from collection]](#uicontrol-remove-assets-from-collection)
-* [[!UICONTROL Update asset metadata]](#uicontrol-update-asset-metadata)
-* [[!UICONTROL Download File]](#uicontrol-download-file)
-* [[!UICONTROL Upload] a file](#uicontrol-upload-a-file)
+* [[!UICONTROL Custom API Call]](#custom-api-call)
+* [[!UICONTROL Read asset info]](#read-asset-info)
+* [[!UICONTROL Add assets to collections]](#add-assets-to-collections)
+* [[!UICONTROL Remove assets from collection]](#remove-assets-from-collection)
+* [[!UICONTROL Update asset metadata]](#update-asset-metadata)
+* [[!UICONTROL Download File]](#download-file)
+* [[!UICONTROL Upload] a file](#upload-a-file)
 
 #### [!UICONTROL Custom API Call]
 
@@ -349,8 +349,8 @@ This action module uploads a file into your [!DNL Widen] account.
 
 ### Search Modules
 
-* [[!UICONTROL Read collection assets]](#uicontrol-read-collection-assets)
-* [[!UICONTROL Search assets]](#uicontrol-search-assets)
+* [[!UICONTROL Read collection assets]](#read-collection-assets)
+* [[!UICONTROL Search assets]](#search-assets)
 
 #### [!UICONTROL Read collection assets]
 

@@ -59,7 +59,7 @@ To use the [!DNL Workfront Fusion] DevTool, you first need to install it.
 
 ## Locate the [!DNL Workfront Fusion] DevTool
 
-To use the [!DNL Workfront Fusion] DevTool, you must add the [!DNL Workfront Fusion] DevTool extension to your [!DNL Chrome] browser, as described in [Install the Chrome DevTool extension](#install-the-dnl-chrome-devtool-extension).
+To use the [!DNL Workfront Fusion] DevTool, you must add the [!DNL Workfront Fusion] DevTool extension to your [!DNL Chrome] browser, as described in [Install the Chrome DevTool extension](#install-the-chrome-devtool-extension).
 
 1. Open your [!DNL Workfront Fusion] scenario.
 1. Open [!DNL Chrome Developer Tools]:
@@ -163,19 +163,19 @@ The [!DNL Workfront Fusion] DevTool features tools that make setting up your sce
 
 Tools and their fields:
 
-* [Focus a Module](#uicontrol-focus-a-module) 
-* [Find Modules by Mapping](#uicontrol-find-modules-by-mapping) 
-* [Get App Metadata](#uicontrol-get-app-metadata) 
-* [Copy Mapping](#uicontrol-copy-mapping) 
-* [Copy Filter](#uicontrol-copy-filter) 
-* [Swap Connection](#uicontrol-swap-connection) 
-* [Swap Variable](#uicontrol-swap-variable) 
-* [Swap App](#uicontrol-swap-app) 
-* [Base 64](#uicontrol-base-64) 
-* [Copy Module Name](#uicontrol-copy-module-name) 
-* [Remap Source](#uicontrol-remap-source) 
-* [Highlight App](#uicontrol-highlight-app) 
-* [Migrate GS](#uicontrol-migrate-gs)
+* [Focus a Module](#focus-a-module) 
+* [Find Modules by Mapping](#find-modules-by-mapping) 
+* [Get App Metadata](#get-app-metadata) 
+* [Copy Mapping](#copy-mapping) 
+* [Copy Filter](#copy-filter) 
+* [Swap Connection](#swap-connection) 
+* [Swap Variable](#swap-variable) 
+* [Swap App](#swap-app) 
+* [Base 64](#base-64) 
+* [Copy Module Name](#copy-module-name) 
+* [Remap Source](#remap-source) 
+* [Highlight App](#highlight-app) 
+* [Migrate GS](#migrate-gs)
 
 #### [!UICONTROL Focus a Module]
 

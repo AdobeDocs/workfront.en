@@ -74,12 +74,12 @@ You can use this module, for example, for contacts or any other list that is sch
 
 ### Actions
 
-* [[!UICONTROL Get Multiple Variables]](#uicontrol-get-multiple-variables)
-* [[!UICONTROL Get Variable]](#uicontrol-get-variable)
-* [[!UICONTROL Increment function]](#uicontrol-increment-function)
-* [[!UICONTROL Set Multiple Variables]](#uicontrol-set-multiple-variables)
-* [[!UICONTROL Set Variable]](#uicontrol-set-variable)
-* [[!UICONTROL Sleep]](#uicontrol-sleep)
+* [[!UICONTROL Get Multiple Variables]](#get-multiple-variables)
+* [[!UICONTROL Get Variable]](#get-variable)
+* [[!UICONTROL Increment function]](#increment-function)
+* [[!UICONTROL Set Multiple Variables]](#set-multiple-variables)
+* [[!UICONTROL Set Variable]](#set-variable)
+* [[!UICONTROL Sleep]](#sleep)
 
 #### [!UICONTROL Get Multiple Variables]
 
@@ -255,9 +255,9 @@ This function can be useful, for example, if you want to lower the [!DNL target]
 
 ### Aggregators 
 
-* [[!UICONTROL Numeric aggregator]](#uicontrol-numeric-aggregator)
-* [[!UICONTROL Table aggregator]](#uicontrol-table-aggregator)
-* [[!UICONTROL Text aggregator]](#uicontrol-text-aggregator)
+* [[!UICONTROL Numeric aggregator]](#numeric-aggregator)
+* [[!UICONTROL Table aggregator]](#table-aggregator)
+* [[!UICONTROL Text aggregator]](#text-aggregator)
 
 #### [!UICONTROL Numeric aggregator]
 
@@ -362,9 +362,9 @@ This module merges values from the selected fields of received bundles into a si
 
 ### Transformers
 
-* [[!UICONTROL Compose a string]](#uicontrol-compose-a-string)
-* [[!UICONTROL Convert the encoding of the text]](#uicontrol-convert-the-encoding-of-the-text)
-* [[!UICONTROL Switch]](#uicontrol-switch)
+* [[!UICONTROL Compose a string]](#compose-a-string)
+* [[!UICONTROL Convert the encoding of the text]](#convert-the-encoding-of-the-text)
+* [[!UICONTROL Switch]](#switch)
 
 #### [!UICONTROL Compose a string]
 

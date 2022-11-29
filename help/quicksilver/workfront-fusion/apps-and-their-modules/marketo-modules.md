@@ -76,8 +76,8 @@ If you see the map button above a field or function, you can use it to set varia
 
 ### Triggers
 
-* [[!UICONTROL Watch records]](#uicontrol-watch-records)
-* [[!UICONTROL Watch events (Instant)]](#uicontrol-watch-events-instant)
+* [[!UICONTROL Watch records]](#watch-records)
+* [[!UICONTROL Watch events (Instant)]](#watch-events-instant)
 
 #### [!UICONTROL Watch records]
 
@@ -132,16 +132,16 @@ This trigger module starts a scenario when a record is created or updated.
 
 ### Actions 
 
-* [[!UICONTROL Custom API call]](#uicontrol-custom-api-call)
-* [[!UICONTROL Create a record]](#uicontrol-create-a-record)
-* [[!UICONTROL Update a record]](#uicontrol-update-a-record)
-* [[!UICONTROL Download a File]](#uicontrol-download-a-file)
-* [[!UICONTROL Upload a File]](#uicontrol-upload-a-file)
-* [[!UICONTROL Read a record]](#uicontrol-read-a-record)
-* [[!UICONTROL Add Leads to a List]](#uicontrol-add-leads-to-a-list)
-* [[!UICONTROL Remove Leads from a List]](#uicontrol-remove-leads-from-a-list)
-* [[!UICONTROL Schedule a Campaign]](#uicontrol-schedule-a-campaign)
-* [[!UICONTROL Copy a Program]](#uicontrol-copy-a-program)
+* [[!UICONTROL Custom API call]](#custom-api-call)
+* [[!UICONTROL Create a record]](#create-a-record)
+* [[!UICONTROL Update a record]](#update-a-record)
+* [[!UICONTROL Download a File]](#download-a-file)
+* [[!UICONTROL Upload a File]](#upload-a-file)
+* [[!UICONTROL Read a record]](#read-a-record)
+* [[!UICONTROL Add Leads to a List]](#add-leads-to-a-list)
+* [[!UICONTROL Remove Leads from a List]](#remove-leads-from-a-list)
+* [[!UICONTROL Schedule a Campaign]](#schedule-a-campaign)
+* [[!UICONTROL Copy a Program]](#copy-a-program)
 
 #### [!UICONTROL Custom API call]
 
@@ -476,8 +476,8 @@ This action module makes a copy of a program using the existing program's ID.
 
 ### Searches 
 
-* [[!UICONTROL List records]](#uicontrol-list-records)
-* [[!UICONTROL Search Records]](#uicontrol-update-a-record)
+* [[!UICONTROL List records]](#list-records)
+* [[!UICONTROL Search Records]](#update-a-record)
 
 #### [!UICONTROL List records]
 

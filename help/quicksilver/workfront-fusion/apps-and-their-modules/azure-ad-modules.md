@@ -92,9 +92,9 @@ When you are configuring this module, the following fields display.
 
 ### Actions 
 
-* [[!UICONTROL Read Record]](#uicontrol-read-record)
-* [[!UICONTROL Create Record]](#uicontrol-create-record)
-* [[!UICONTROL Custom API Call]](#uicontrol-custom-api-call)
+* [[!UICONTROL Read Record]](#read-record)
+* [[!UICONTROL Create Record]](#create-record)
+* [[!UICONTROL Custom API Call]](#custom-api-call)
 
 #### [!UICONTROL Read Record] 
 
@@ -202,8 +202,8 @@ When you are configuring this module, the following fields display.
 
 ### Searches 
 
-* [Search Users](#uicontrol-search-users)
-* [Search Users/Groups Delta](#uicontrol-search-usersgroups-delta)
+* [Search Users](#search-users)
+* [Search Users/Groups Delta](#search-usersgroups-delta)
 
 #### [!UICONTROL Search Users] 
 

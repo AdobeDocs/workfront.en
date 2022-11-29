@@ -78,15 +78,15 @@ If you see the map button above a field or function, you can use it to set varia
 
 ### Actions
 
-* [[!UICONTROL Custom API Call]](#uicontrol-custom-api-call)
-* [[!UICONTROL Get Split]](#uicontrol-get-split)
-* [[!UICONTROL Get Split Definition in Environment]](#uicontrol-get-split-definition-in-environment)
-* [[!UICONTROL Create Split]](#uicontrol-create-split)
-* [[!UICONTROL Delete Split]](#uicontrol-delete-split)
-* [[!UICONTROL Create Split Definition in Environment]](#uicontrol-create-split-definition-in-environment)
-* [[!UICONTROL Remove Split Definition from Environment]](#uicontrol-remove-split-definition-from-environment)
-* [[!UICONTROL Partial Update Split Definition in Environment]](#uicontrol-partial-update-split-definition-in-environment)
-* [[!UICONTROL Associate Tags]](#uicontrol-associate-tags)
+* [[!UICONTROL Custom API Call]](#custom-api-call)
+* [[!UICONTROL Get Split]](#get-split)
+* [[!UICONTROL Get Split Definition in Environment]](#get-split-definition-in-environment)
+* [[!UICONTROL Create Split]](#create-split)
+* [[!UICONTROL Delete Split]](#delete-split)
+* [[!UICONTROL Create Split Definition in Environment]](#create-split-definition-in-environment)
+* [[!UICONTROL Remove Split Definition from Environment]](#remove-split-definition-from-environment)
+* [[!UICONTROL Partial Update Split Definition in Environment]](#partial-update-split-definition-in-environment)
+* [[!UICONTROL Associate Tags]](#associate-tags)
 
 #### [!UICONTROL Custom API Call]
 
@@ -384,11 +384,11 @@ This action module adds tags to the specified object.
 
 ### Searches
 
-* [[!UICONTROL Get Workspaces]](#uicontrol-get-workspaces)
-* [[!UICONTROL Get Environments]](#uicontrol-get-environments)
-* [[!UICONTROL Get Splits]](#uicontrol-get-splits)
-* [[!UICONTROL List Split Definitions in an Environment]](#uicontrol-list-split-definitions-in-an-environment)
-* [[!UICONTROL Get Traffic Types]](#uicontrol-get-traffic-types)
+* [[!UICONTROL Get Workspaces]](#get-workspaces)
+* [[!UICONTROL Get Environments]](#get-environments)
+* [[!UICONTROL Get Splits]](#get-splits)
+* [[!UICONTROL List Split Definitions in an Environment]](#list-split-definitions-in-an-environment)
+* [[!UICONTROL Get Traffic Types]](#get-traffic-types)
 
 #### [!UICONTROL Get Workspaces]
 

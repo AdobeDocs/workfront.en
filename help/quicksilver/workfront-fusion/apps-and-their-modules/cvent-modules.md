@@ -89,13 +89,13 @@ If you see the map button above a field or function, you can use it to set varia
 
 ### Actions
 
-* [[!UICONTROL Custom API Call]](#uicontrol-create-meeting-request)
-* [[!UICONTROL Read a record]](#uicontrol-read-a-record)
-* [[!UICONTROL Register Invitee]](#uicontrol-register-invitee)
-* [[!UICONTROL Add Invitee]](#uicontrol-add-invitee)
-* [[!UICONTROL Delete Contact]](#uicontrol-delete-contact)
-* [[!UICONTROL Update Contact]](#uicontrol-update-contact)
-* [[!UICONTROL Create meeting request]](#uicontrol-create-meeting-request)
+* [[!UICONTROL Custom API Call]](#create-meeting-request)
+* [[!UICONTROL Read a record]](#read-a-record)
+* [[!UICONTROL Register Invitee]](#register-invitee)
+* [[!UICONTROL Add Invitee]](#add-invitee)
+* [[!UICONTROL Delete Contact]](#delete-contact)
+* [[!UICONTROL Update Contact]](#update-contact)
+* [[!UICONTROL Create meeting request]](#create-meeting-request)
 
 #### [!UICONTROL Custom API Call]
 

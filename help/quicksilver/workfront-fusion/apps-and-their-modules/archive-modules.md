@@ -23,10 +23,10 @@ If you see the map button above a field or function, you can use it to set varia
 
 ![](assets/map-toggle-350x74.png)
 
-* [[!UICONTROL Extract an archive]](#uicontrol-extract-an-archive)
-* [[!UICONTROL Create an archive]](#uicontrol-create-an-archive)
-* [[!UICONTROL Inflate]](#uicontrol-inflate)
-* [[!UICONTROL Deflate]](#uicontrol-deflate)
+* [[!UICONTROL Extract an archive]](#extract-an-archive)
+* [[!UICONTROL Create an archive]](#create-an-archive)
+* [[!UICONTROL Inflate]](#inflate)
+* [[!UICONTROL Deflate]](#deflate)
 
 ## [!UICONTROL Extract an archive] 
 

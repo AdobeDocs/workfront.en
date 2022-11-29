@@ -13,8 +13,8 @@ exl-id: 37fecce9-c1b8-474b-abc2-09398bfcc629
 
 [!DNL Adobe Workfront Fusion] offers two different licenses that determine the functionality you are able to access. Your organization chose one of these licenses when it purchased [!DNL Workfront Fusion].
 
-* [[!DNL Workfront Fusion for Work Automation]](#dnl-workfront-fusion-for-work-automation)
-* [[!DNL Workfront Fusion for Work Automation and Integration]](#dnl-workfront-fusion-for-work-automation-and-integration)
+* [[!DNL Workfront Fusion for Work Automation]](#workfront-fusion-for-work-automation)
+* [[!DNL Workfront Fusion for Work Automation and Integration]](#workfront-fusion-for-work-automation-and-integration)
 
 >[!NOTE]
 >
@@ -22,9 +22,9 @@ exl-id: 37fecce9-c1b8-474b-abc2-09398bfcc629
 
 ## [!DNL Workfront Fusion for Work Automation] 
 
-* [Benefits of [!DNL Workfront Fusion for Work Automation]](#benefits-of-dnl-workfront-fusion-for-work-automation)
-* [Connectors and modules available for [!DNL Workfront Fusion for Work Automation]](#connectors-and-modules-available-for-dnl-workfront-fusion-for-work-automation)
-* [Example of [!DNL Workfront Fusion for Work Automation]](#example-of-dnl-workfront-fusion-for-work-automation)
+* [Benefits of [!DNL Workfront Fusion for Work Automation]](#benefits-of-workfront-fusion-for-work-automation)
+* [Connectors and modules available for [!DNL Workfront Fusion for Work Automation]](#connectors-and-modules-available-for-workfront-fusion-for-work-automation)
+* [Example of [!DNL Workfront Fusion for Work Automation]](#example-of-workfront-fusion-for-work-automation)
 
 ### Benefits of [!DNL Workfront Fusion for Work Automation] 
 
@@ -65,9 +65,9 @@ With the [!DNL Workfront Fusion for Work Automation] license, you have access to
 
 ## [!DNL Workfront Fusion for Work Automation and Integration] 
 
-* [Benefits of [!DNL Workfront Fusion for Work Automation and Integration]](#benefits-of-dnl-workfront-fusion-for-work-automation-and-integration
-* [Connectors and modules available for [!DNL Workfront Fusion for Work Automation and Integration]](#connectors-and-modules-available-for-dnl-workfront-fusion-for-work-automation-and-integration)
-* [Example of [!DNL Workfront Fusion for Work Automation and Integration]](#example-of-dnl-workfront-fusion-for-work-automation-and-integration)
+* [Benefits of [!DNL Workfront Fusion for Work Automation and Integration]](#benefits-of-workfront-fusion-for-work-automation-and-integration
+* [Connectors and modules available for [!DNL Workfront Fusion for Work Automation and Integration]](#connectors-and-modules-available-for-workfront-fusion-for-work-automation-and-integration)
+* [Example of [!DNL Workfront Fusion for Work Automation and Integration]](#example-of-workfront-fusion-for-work-automation-and-integration)
 
 ### Benefits of [!DNL Workfront Fusion for Work Automation and Integration] {#benefits-of-workfront-fusion-for-work-automation-and-integration}
 
