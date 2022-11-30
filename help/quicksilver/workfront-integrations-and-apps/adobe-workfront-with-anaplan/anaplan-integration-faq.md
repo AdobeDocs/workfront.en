@@ -9,13 +9,13 @@ exl-id: bbc24834-8e96-44ce-8098-63765d86ccc2
 ---
 # [!DNL Adobe Workfront with Anaplan] Integration FAQs
 
-* [Do I have to use [!DNL Adobe Workfront Fusion?]](#do-i-have-to-use-dnl-adobe-workfront-fusion-do-i-have-to-use-adobe-workfront-fusion)
-* [Can we do the same sort of integration with another finance tool other than [!DNL Anaplan]?](#can-we-do-the-same-sort-of-integration-with-another-finance-tool-other-than-dnl-anaplan-can-we-do-the-same-sort-of-integration-with-another-finance-tool-other-than-anaplan)
-* [What license tiers can take advantage of the [!DNL Workfront-Anaplan] integration?](#what-license-tiers-can-take-advantage-of-the-dnl-workfront-anaplan-integration-what-license-tiers-can-take-advantage-of-the-workfront-anaplan-integration)
+* [Do I have to use [!DNL Adobe Workfront Fusion?]](#do-i-have-to-use-adobe-workfront-fusion-do-i-have-to-use-adobe-workfront-fusion)
+* [Can we do the same sort of integration with another finance tool other than [!DNL Anaplan]?](#can-we-do-the-same-sort-of-integration-with-another-finance-tool-other-than-anaplan-can-we-do-the-same-sort-of-integration-with-another-finance-tool-other-than-anaplan)
+* [What license tiers can take advantage of the [!DNL Workfront-Anaplan] integration?](#what-license-tiers-can-take-advantage-of-the-workfront-anaplan-integration-what-license-tiers-can-take-advantage-of-the-workfront-anaplan-integration)
 * [Will this integration require implementation services?](#will-this-integration-require-implementation-services-will-this-integration-require-implementation-services)
-* [Is there a specific way that I have to configure [!DNL Workfront] for this to work?](#is-there-a-specific-way-that-i-have-to-configure-dnl-workfront-for-this-to-work-is-there-a-specific-way-that-i-have-to-configure-workfront-for-this-to-work)
-* [Is there a specific way that I have to configure [!DNL Anaplan] for this to work?](#is-there-a-specific-way-that-i-have-to-configure-dnl-anaplan-for-this-to-work-is-there-a-specific-way-that-i-have-to-configure-anaplan-for-this-to-work)
-* [Will [!DNL Workfront professional services] help me configure my [!DNL Anaplan] workspace?](#will-dnl-workfront-professional-services-help-me-configure-my-dnl-anaplan-workspace-will-workfront-professional-services-help-me-configure-my-anaplan-workspace)
+* [Is there a specific way that I have to configure [!DNL Workfront] for this to work?](#is-there-a-specific-way-that-i-have-to-configure-workfront-for-this-to-work-is-there-a-specific-way-that-i-have-to-configure-workfront-for-this-to-work)
+* [Is there a specific way that I have to configure [!DNL Anaplan] for this to work?](#is-there-a-specific-way-that-i-have-to-configure-anaplan-for-this-to-work-is-there-a-specific-way-that-i-have-to-configure-anaplan-for-this-to-work)
+* [Will [!DNL Workfront professional services] help me configure my [!DNL Anaplan] workspace?](#will-workfront-professional-services-help-me-configure-my-anaplan-workspace-will-workfront-professional-services-help-me-configure-my-anaplan-workspace)
 
 ## Do I have to use [!DNL Adobe Workfront Fusion?] {#do-i-have-to-use-adobe-workfront-fusion}
 
