@@ -4,6 +4,7 @@ description: 23.1 release overview
 author: Luke
 draft: Probably
 feature: Product Announcements
+exl-id: e86524d3-5f57-45b6-8582-102d2de92be4
 ---
 # 23.1 Release overview
 
@@ -17,6 +18,8 @@ The enhancements on this page are available in the Preview environment. This pag
 ## Adobe Workfront enhancements
     
 *   [Project enhancements](#project-enhancements)
+
+*   [Agile enhancements](#agile-enhancements)
 
 *   [Other enhancements](#other-enhancements)
     
@@ -38,7 +41,7 @@ The enhancements on this page are available in the Preview environment. This pag
                 </tr>
                 <tr>
                     <td>
-                        <a href="../../../product-announcements/product-releases/23.1-release-activity/23-1-oct-17.md" class="MCXref xref" xrefformat="{para}">Relocation of the "Add users" option on a project</a><span style="color: #ff0000;"> New in Preview!</span></p>
+                        <a href="../../../product-announcements/product-releases/23.1-release-activity/23-1-oct-17.md" class="MCXref xref" xrefformat="{para}">Relocation of the "Add users" option on a project</a></p>
                         <p>In preparation for the deprecation and removal of the Resource Scheduling tools, we have relocated the "Add users" option from the Scheduling section of a project to the People section. When adding users to a project, the users who are not associated with items on the project become part of the Project Team.</p>
                         <p>The Resource Scheduler was removed from the Preview environment on October 20. It will be removed from the Production environment on November 10, 2022.</p>
                     </td>
@@ -76,7 +79,6 @@ The enhancements on this page are available in the Preview environment. This pag
             </tbody>
         </table>
 
-<!--
 ### Agile enhancements
 
 <table>
@@ -95,7 +97,86 @@ The enhancements on this page are available in the Preview environment. This pag
                 </tr>
                 <tr>
                     <td>
-                        <a href="../../../product-announcements/product-releases/23.1-release-activity/23-1-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Filter by connection on boards</a><span style="color: #ff0000;"> New in Preview!</span></p>
+                        <a href="../../../product-announcements/product-releases/23.1-release-activity/23-1-nov-14.md" class="MCXref xref" xrefformat="{para}">Card counter on board columns</a><span style="color: #ff0000;"> New in Preview!</span></p>
+                        <p>A new configuration setting is available to turn on a card counter for all of the columns on a board. If you are using the WIP limit on a column, a separate card counter is not added.</p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                     <p>
+                        </p>
+                        <ul>
+                            <li>
+                                <p>Preview release: November 17, 2022<br /></p>
+                            </li>
+                            <li>
+                                <p>Production release for early opt-in: December 1, 2022 <span style="color: #ff0000;"> This feature is available in Production on this date only through the early feature opt-in for Workfront Boards.</span></p>
+                                <p>Production release for all customers: With the 23.1 release</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="../../../product-announcements/product-releases/23.1-release-activity/23-1-nov-7.md" class="MCXref xref" xrefformat="{para}">Search and sort on the boards dashboard</a></p>
+                        <p>You can now sort the boards dashboard by board name or date, and search for a specific board in the list.</p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                     <p>
+                        </p>
+                        <ul>
+                            <li>
+                                <p>Preview release: November 10, 2022<br /></p>
+                            </li>
+                            <li>
+                                <p>Production release for early opt-in: November 17, 2022 <span style="color: #ff0000;"> This feature is available in Production on this date only through the early feature opt-in for Workfront Boards.</span></p>
+                                <p>Production release for all customers: With the 23.1 release</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                     <tr>
+                    <td>
+                        <a href="../../../product-announcements/product-releases/23.1-release-activity/23-1-nov-7.md" class="MCXref xref" xrefformat="{para}">Status displays on card</a></p>
+                        <p>If a card on a board is assigned a status, the status now displays on the card so that you do not have to open the card to see the status. This enhancement applies to both ad hoc and connected cards.</p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                     <p>
+                        </p>
+                        <ul>
+                            <li>
+                                <p>Preview release: November 10, 2022<br /></p>
+                            </li>
+                            <li>
+                                <p>Production release for early opt-in: November 17, 2022 <span style="color: #ff0000;"> This feature is available in Production on this date only through the early feature opt-in for Workfront Boards.</span></p>
+                                <p>Production release for all customers: With the 23.1 release</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                    <tr>
+                    <td>
+                        <a href="../../../product-announcements/product-releases/23.1-release-activity/23-1-nov-7.md" class="MCXref xref" xrefformat="{para}">Linkable cards now available on boards</a></p>
+                        <p>You can now send a link to a specific card to another boards user. The person must have access to view the board before they can open the link.</p>
+                        <!-- <p>When you open a card on a board, the browser URL looks like this: https://<Workfront-URL>/boards/<board-id>/card/<card-id>.</p> -->
+                        <p>You can copy the full URL and send it to someone else. They will go directly to the open card when they access the link.</p>
+                        <p>Previously, links were available to boards but not specific cards.</p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                     <p>
+                        </p>
+                        <ul>
+                            <li>
+                                <p>Preview release: November 10, 2022<br /></p>
+                            </li>
+                            <li>
+                                <p>Production release for early opt-in: November 17, 2022 <span style="color: #ff0000;"> This feature is available in Production on this date only through the early feature opt-in for Workfront Boards.</span></p>
+                                <p>Production release for all customers: With the 23.1 release</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="../../../product-announcements/product-releases/23.1-release-activity/23-1-oct-24.md" class="MCXref xref" xrefformat="{para}">Filter by connection on boards</a></p>
                         <p>The list of filters on a board now includes the option to filter by connection, which shows you all of the connected cards for a specific project. You can also filter by cards that are not connected.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
@@ -103,10 +184,30 @@ The enhancements on this page are available in the Preview environment. This pag
                         </p>
                         <ul>
                             <li>
-                                <p>Preview release: October 13, 2022<br /></p>
+                                <p>Preview release: October 27, 2022<br /></p>
                             </li>
                             <li>
-                                <p>Production release for early opt-in: October 20, 2022 <span style="color: #ff0000;"> This feature is available in Production on this date only through the early feature opt-in for Workfront Boards.</span></p>
+                                <p>Production release for early opt-in: November 3, 2022 <span style="color: #ff0000;"> This feature is available in Production on this date only through the early feature opt-in for Workfront Boards.</span></p>
+                                <p>Production release for all customers: With the 23.1 release</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="../../../product-announcements/product-releases/23.1-release-activity/23-1-oct-24.md" class="MCXref xref" xrefformat="{para}">Archive cards from a board on a schedule</a></p>
+                        <p>You can configure a board so that cards are archived, or "fall off" the board, on a schedule. Options are available to set cards in a particular column to archive in a certain number of days or weeks. For example, you could define the falloff so that cards in a Complete column are archived after they are in the column for two weeks.</p>
+                        <p>If you want to display the cards again after they fall off the board, you can set the board filter to display archived cards.</p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                     <p>
+                        </p>
+                        <ul>
+                            <li>
+                                <p>Preview release: October 27, 2022<br /></p>
+                            </li>
+                            <li>
+                                <p>Production release for early opt-in: November 3, 2022 <span style="color: #ff0000;"> This feature is available in Production on this date only through the early feature opt-in for Workfront Boards.</span></p>
                                 <p>Production release for all customers: With the 23.1 release</p>
                             </li>
                         </ul>
@@ -114,7 +215,6 @@ The enhancements on this page are available in the Preview environment. This pag
                 </tr>
             </tbody>
         </table>
--->
 
 ### Other enhancements
 
@@ -134,6 +234,24 @@ The enhancements on this page are available in the Preview environment. This pag
                 </tr>
                 <tr>
                     <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-nov-14.md" class="MCXref xref" xrefformat="{para}">Introducing Adobe Workfront for design and video</a><span style="color: #ff0000;"> New in Production!</span></p>
+                        <p>We're excited to announce the expansion of our Adobe Workfront for InDesign plugin to include Adobe Premiere Pro, and After Effects. The plugin will be renamed to Adobe Workfront for design and video.</p>
+                        <p>The updated plugin, Adobe Workfront for design and video, will now support InDesign, Premiere Pro, and After Effects—with Illustrator soon to follow.</p>
+                        <p>This plugin allows you to access work item details, collaborate with coworkers in the Updates area, and log time–all without leaving your favorite Creative Cloud application. </p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                        <ul>
+                            <li>
+                                <p>Preview release:N/A<br /></p>
+                            </li>
+                            <li>
+                                <p><span class="preview">Production release: November 17, 2022</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                 <tr>
+                    <td>
                         <a href="../../../product-announcements/product-releases/23.1-release-activity/23-1-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">Look-and-feel updates during the 23.1 release timeframe</a></p>
                         <p>Minor updates to the look and feel of various areas of the Adobe Workfront application are being made within the 23.1 release timeframe. These enhancements will be made available in the Production environment a minimum of 2 weeks after releasing to Preview. </p>
                     </td>
@@ -144,6 +262,25 @@ The enhancements on this page are available in the Preview environment. This pag
                             </li>
                             <li>
                                 <p><span class="preview">Production release:&#160;A minimum of 2 weeks after releasing to Preview (unless otherwise specified)</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="../../../product-announcements/product-releases/23.1-release-activity/23-1-oct-24.md" class="MCXref xref" xrefformat="{para}">How to access Workfront help, for customers on the Adobe Unified Experience</a></p>
+                        <p>If your organization has been onboarded to the Adobe Admin Console and the Adobe Unified Experience for Workfront, the Workfront navigation bar no longer includes a link for "Help."</p>
+                        <p>You can access Workfront help on Adobe Experience League either from the Main Menu on the left of the Workfront navigation bar or by the question mark icon in the top navigation area.</p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                     <p>
+                        </p>
+                        <ul>
+                            <li>
+                                <p>Preview release: October 27, 2022<br /></p>
+                            </li>
+                            <li>
+                                <p>Production release: November 3, 2022 <span style="color: #ff0000;"> This feature only applies to customers who are onboarded to the Adobe Unified Experience for Workfront.</span></p>
                             </li>
                         </ul>
                     </td>
@@ -174,17 +311,6 @@ The enhancements on this page are available in the Preview environment. This pag
         </table>   
 
 ## Announcements
-
-### Upgrade the Desktop Proofing Viewer to the latest version
-
-We have released a new version of the Desktop Proofing Viewer. This upgrade contains a technical change that requires all users to take action. The actions needed depend on each user's operating system:
-
-*   Mac users must manually reinstall the Desktop Proofing Viewer to upgrade to the latest version. For help reinstalling, see  Install the Desktop Proofing Viewer. After it is reinstalled, future updates to the Desktop Proofing Viewer will be automatic.
-    
-*   Windows users will be upgraded to the latest version automatically when launching the Desktop Proofing Viewer before July 25th. If Windows users fail to open the Desktop Proofing Viewer before the 25th, they will have to manually reinstall the viewer to get the upgrade.
-    
-
-With this upgrade, the Desktop Proofing Viewer will support Chrome version 98 for greater compatibility with interactive proofs.
 
 ### Workfront Fusion enhancements
 
@@ -230,11 +356,20 @@ Explore the latest updates made to learning programs, learning paths, videos, an
 
 The following functionality is soon to be removed from Workfront:
 
+#### Workfront extension for Illustrator and InDesign
+ 
+We are replacing the [Workfront extension for Illustrator and InDesign](/help/quicksilver/documents/workfront-for-adobe-creative-cloud/workfront-for-adobe-creative-loud.md) with updated Creative Cloud plugins. Starting late 2022, this extension will no longer be available to install in the Adobe Exchange.
+ 
+The functionality in this extension, along with several enhancements, is available in the updated Adobe Workfront for Creative Cloud Plugins:
+* [Adobe Workfront for Photoshop](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-ps.md)
+* [Adobe Workfront for XD](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-install.md)
+* [Adobe Workfront for design and video](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-install-cc.md)
+
 #### **Resource Scheduler**
 
 >[!NOTE]
 >
->The Resource Scheduler was removed from the Preview environment on October 20. It will be removed from the Production environment on November 10.
+>The Resource Scheduler was removed from the Preview environment on October 20. It will be removed from the Production environment with the 23.1 release in January 2022.
 
 
 As part of the deprecation of the Resource Scheduling tools, we have removed the following areas: 
@@ -255,7 +390,7 @@ The Workload Balancer is replacing the Resource Scheduler. For more information 
   
 >[!NOTE]
 >
->  This feature will be removed in November 2022.
+>  This feature has been deprecated when creating new subscriptions and will be removed in January 2023.
 
   This event type allowed customers to watch when permissions for objects were updated.
 

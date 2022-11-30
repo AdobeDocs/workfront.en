@@ -5,8 +5,8 @@ title: Upload documents from InDesign
 description: You can upload your art boards as documents for a quick review and approval or simply to store in Adobe Workfront.
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
+exl-id: aaca183e-75e5-4a5c-b75b-a7809ccd1274
 ---
-
 # Upload documents from [!DNL InDesign]
 
 You can upload your projects as documents for a quick review and approval or simply to store in [!DNL Adobe Workfront].
@@ -46,9 +46,9 @@ You must have the following access to perform the steps in this article:
 
 ## Prerequisites
 
-* You must install the [!DNL Adobe Workfront for InDesign] plugin before you can upload documents from [!DNL InDesign].
+* You must install the [!DNL Adobe Workfront for design and video] plugin before you can upload documents from [!DNL InDesign].
 
-  For instructions, see [Install [!DNL Workfront for InDesign]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-install-cc.md).
+  For instructions, see [Install [!DNL Adobe Workfront for design and video]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-install-cc.md).
 
 ## Upload documents to [!DNL InDesign]
 

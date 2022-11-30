@@ -14,5 +14,5 @@ This section contains the following subsections:
 
 * [Timesheet details in Adobe Workfront](../timesheets/timesheets/timesheets.md) 
 * [Create and manage timesheets in Adobe Workfront](../timesheets/create-and-manage-timesheets/create-and-manage-timesheets.md) 
-* [Configure timesheet preferences](../timesheets/config-timesheet-prefs/configure-timesheet-preferences.md) 
+* [Configure how time is logged](../timesheets/config-timesheet-prefs/configure-timesheet-preferences.md) 
 * [Tips, Tricks, and Troubleshooting](../timesheets/tips-tricks-and-troubleshooting/tips-tricks-and-troubleshooting-timesheets.md)

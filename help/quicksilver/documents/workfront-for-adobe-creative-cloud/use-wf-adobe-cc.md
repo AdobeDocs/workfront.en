@@ -11,7 +11,7 @@ exl-id: 40945eac-e8de-42af-b6ba-f3082c208e02
 
 >[!IMPORTANT]
 >
->We are removing the Workfront Extension for Illustrator and InDesign from the Creative Cloud exchange in mid-November.
+>We are replacing the Workfront extension for Illustrator and InDesign with [updated Creative Cloud plugins](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-toc.md). Starting late 2022, this extension will no longer be supported and is available as-is.
 
 
 You can use the Workfront Extension to export digital content you save and create in Adobe Illustrator and Adobe InDesign to Workfront. This speeds up the document review and approval process.

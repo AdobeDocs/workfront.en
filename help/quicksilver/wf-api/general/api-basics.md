@@ -93,7 +93,8 @@ The preferred method of authentication is to pass a request header named Session
 The following is an example of a request header:
 
 ```
-GET /attask/api/v9.0/project/search <br>SessionID: abc1234
+GET /attask/api/v9.0/project/search
+SessionID: abc1234
 ```
 
 #### Request Parameter Authentication

@@ -16,12 +16,13 @@ You can filter a board to display:
 * Cards with a specific status
 * Cards due in a certain time frame
 * Archived cards
+* Cards connected to a specific project
 
 Searching also helps you locate a specific card on the board.
 
 When filters are applied, an indicator is displayed on the board ![Filter applied to board](assets/boards-filterapplied-30x30.png). Click **Clear All** to remove all filters from the board, and click **Hide filters** to close the filter panel.
 
-![Filter panel](assets/boards-all-filters-collapsed.png)
+![Filter panel](assets/boards-all-filters-collapsed-1022.png)
 
 ## Access requirements
 
@@ -89,6 +90,19 @@ By default, only active cards are displayed on a board. You can filter the board
    ![Filter archived cards](assets/boards-filter-by-archived-cards_0822.png)
 
 1. Select **Archived cards** again to clear the option and display only active cards.
+
+## Filter a board by connection
+
+1. Access the board.
+1. Click the filter icon ![Filter](assets/filter-icon-spectrum-25x25.png), expand the Connection section, and select the Workfront projects for the connected cards you want to see.
+
+   You can also display cards that are not connected to a project.
+
+   ![Filter by connection](assets/boards-filter-by-connection.png)
+
+>[!NOTE]
+>
+>The option to filter by connection is available only via the early feature opt-in. For details, see [Early feature opt-in for Adobe Workfront Boards](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md).
 
 ## Search in a board
 

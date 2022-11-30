@@ -9,40 +9,40 @@ author: Becky
 feature: Workfront Fusion
 exl-id: 76c63afc-4bb6-4895-9bba-6b3913ecbcf6
 ---
-# Date and time functions in Adobe Workfront Fusion
+# Date and time functions in [!DNL Adobe Workfront Fusion]
 
 ## Access requirements
 
 You must have the following access to use the functionality in this article:
 
-<table style="table-layout:auto"> 
+<table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>Pro or higher</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
+   <td> <p>[!DNL Pro] or higher</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Plan, Work</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
+   <td> <p>[!UICONTROL Plan], [!UICONTROL Work]</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront Fusion license**</td> 
-   <td> <p>Workfront Fusion for Work Automation and Integration </p>  </td> 
+   <td role="rowheader">[!UICONTROL Adobe Workfront Fusion] license**</td> 
+   <td> <p>[!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p><p>[!UICONTROL [!DNL Workfront Fusion] for Work Automation]</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
-  </tr>
+   <td>Your organization must purchase [!DNL Adobe Workfront Fusion] as well as [!DNL Adobe Workfront] to use functionality described in this article.</td> 
+  </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
 
-&#42;&#42;For information on Adobe Workfront Fusion licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
+For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Workfront Fusion] licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
-## formatDate (date; format; [timezone])
+## [!UICONTROL formatDate (date; format; [timezone])]
 
 Use this function when you have a Date value, such as `12-10-2021 20:30`, that you want to format as a Text value, such as `Dec 10, 2021 8:30 PM`.
 
@@ -65,28 +65,28 @@ For more information, see [Date](../../workfront-fusion/mapping/item-data-types.
  </thead> 
  <tbody> 
   <tr> 
-   <td>date </td> 
+   <td>[!UICONTROL date] </td> 
    <td>Date </td> 
    <td> <p>Converts a Date value to a Text value. </p> </td> 
   </tr> 
   <tr> 
-   <td>format </td> 
+   <td>[!UICONTROL format] </td> 
    <td>Text </td> 
-   <td> <p>Lets you specify a format using date/time formatting tokens. For more information, see <a href="../../workfront-fusion/functions/tokens-for-date-and-time-formatting.md" class="MCXref xref">Tokens for date and time formatting in Adobe Workfront Fusion</a>.</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Example: </b></span></span><code>DD.MM.YYYY HH:mm</code> </p> </td> 
+   <td> <p>Lets you specify a format using date/time formatting tokens. For more information, see <a href="../../workfront-fusion/functions/tokens-for-date-and-time-formatting.md" class="MCXref xref">Tokens for date and time formatting in [!DNL Adobe Workfront Fusion]</a>.</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Example: </b></span></span><code>DD.MM.YYYY HH:mm</code> </p> </td> 
   </tr> 
   <tr> 
-   <td>timezone </td> 
+   <td>[!UICONTROL timezone] </td> 
    <td>Text </td> 
-   <td> <p>(Optional) Lets you specify the timezone used for the conversion. </p> <p>For the list of recognized timezones, see the "TZ database name" column in the Wikipedia <a href="https://en.wikipedia.org/wiki/List_of_tz_database_time_zones">List of tz database time zones</a>. Only the values listed in this column are recognized by the function as a valid timezone. Any other value is ignored and the Scenarios timezone specified in your Profile is used instead. For more information, see in the article <a href="../../workfront-fusion/workfront-fusion-basics/change-profile-settings.md" class="MCXref xref">Change profile settings in Adobe Workfront Fusion</a>.</p> <p>If you omit this parameter, the Scenarios timezone specified in your Profile settings is applied. </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Example: </b></span></span><code>Europe/Prague</code>, <code>UTC</code></p> </td> 
+   <td> <p>(Optional) Lets you specify the timezone used for the conversion. </p> <p>For the list of recognized timezones, see the "TZ database name" column in the Wikipedia <a href="https://en.wikipedia.org/wiki/List_of_tz_database_time_zones">List of tz database time zones</a>. Only the values listed in this column are recognized by the function as a valid timezone. Any other value is ignored and the Scenarios timezone specified in your Profile is used instead. For more information, see in the article <a href="../../workfront-fusion/workfront-fusion-basics/change-profile-settings.md" class="MCXref xref">Change profile settings in [!DNL Adobe Workfront Fusion]</a>.</p> <p>If you omit this parameter, the Scenarios timezone specified in your Profile settings is applied. </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Example: </b></span></span><code>Europe/Prague</code>, <code>UTC</code></p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42; If different type is provided, type coercion is applied. For more information, see [Type coercion in Adobe Workfront Fusion](../../workfront-fusion/mapping/type-coercion.md).
+ If different type is provided, type coercion is applied. For more information, see [Type coercion in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/type-coercion.md).
 
 ### Return value and type
 
-The formatDate function returns a text representation of the given Date value according to the specified format and timezone. The data type is Text.
+The `formatDate` function returns a text representation of the given Date value according to the specified format and timezone. The data type is Text.
 
 >[!INFO]
 >
@@ -110,13 +110,13 @@ The formatDate function returns a text representation of the given Date value ac
 >
 >    Returns 19.03.2019 15:30
 
-## parseDate (text; format; [timezone])
+## [!UICONTROL parseDate (text; format; [timezone])]
 
-Use this function when you have a Text value representing a date (such as `12-10-2019 20:30` or `Aug 18, 2019 10:00 AM`) and you want to convert (parse) it to a Date value (a binary machine readable representation). For more information, see [Date](../../workfront-fusion/mapping/item-data-types.md#date) and [Text](../../workfront-fusion/mapping/item-data-types.md#text) in the article [Item data types in Adobe Workfront Fusion](../../workfront-fusion/mapping/item-data-types.md).
+Use this function when you have a Text value representing a date (such as `12-10-2019 20:30` or `Aug 18, 2019 10:00 AM`) and you want to convert (parse) it to a Date value (a binary machine readable representation). For more information, see [Date](../../workfront-fusion/mapping/item-data-types.md#date) and [Text](../../workfront-fusion/mapping/item-data-types.md#text) in the article [Item data types in [!UICONTROL Adobe Workfront Fusion]](../../workfront-fusion/mapping/item-data-types.md).
 
 ### Parameters
 
-The second column indicates the expected type. If different type is provided, [Type coercion in Adobe Workfront Fusion](../../workfront-fusion/mapping/type-coercion.md) is applied.
+The second column indicates the expected type. If different type is provided, type coercion is applied. For more information, see [Type coercion in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/type-coercion.md).
 
 <table style="table-layout:auto"> 
  <col> 
@@ -131,24 +131,24 @@ The second column indicates the expected type. If different type is provided, [T
  </thead> 
  <tbody> 
   <tr> 
-   <td>text </td> 
+   <td>[!UICONTROL text] </td> 
    <td>Text </td> 
    <td> <p>Converts a Date value to a Text value. </p> </td> 
   </tr> 
   <tr> 
-   <td>format </td> 
+   <td>[!UICONTROL format] </td> 
    <td>Text </td> 
    <td> <p>Lets you specify a format using date/time formatting tokens. For more information, see <a href="../../workfront-fusion/functions/tokens-for-date-and-time-formatting.md" class="MCXref xref">Tokens for date and time formatting in Adobe Workfront Fusion</a>.</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Example: </b></span></span><code>DD.MM.YYYY HH:mm</code> </p> </td> 
   </tr> 
   <tr> 
-   <td>timezone </td> 
+   <td>[!UICONTROL timezone] </td> 
    <td>Text </td> 
    <td> <p>(Optional) Lets you specify the timezone used for the conversion. </p> <p>For the list of recognized timezones, see the "TZ database name" column in the Wikipedia <a href="https://en.wikipedia.org/wiki/List_of_tz_database_time_zones">List of tz database time zones</a>. Only the values listed in this column are recognized by the function as a valid timezone. Any other value is ignored and the Scenarios timezone specified in your Profile is used instead. For more information, see in the article <a href="../../workfront-fusion/workfront-fusion-basics/change-profile-settings.md" class="MCXref xref">Change profile settings in Adobe Workfront Fusion</a>.</p> <p>If you omit this parameter, the Scenarios timezone specified in your Profile settings is applied.</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Example: </b></span></span><code>Europe/Prague</code>, <code>UTC</code></p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42; If different type is provided, type coercion is applied. For more information, see [Type coercion in Adobe Workfront Fusion](../../workfront-fusion/mapping/type-coercion.md).
+ If different type is provided, type coercion is applied. For more information, see [Type coercion in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/type-coercion.md).
 
 ### Return value and type
 
@@ -174,7 +174,7 @@ This function converts a text string to a date, according to the format and time
 >
 >  Returns 2016-12-28T16:03:06.000Z
 
-## addDays (date; number) {#adddays-date-number}
+## [!UICONTROL addDays (date; number)]
 
 Returns a new date as a result of adding a given number of days to a date. To subtract days, enter a negative number.
 
@@ -190,7 +190,7 @@ Returns a new date as a result of adding a given number of days to a date. To su
 >
 >    Returns 2016-12-6T15:55:57.536Z
 
-## addHours (date; number) {#addhours-date-number}
+## [!UICONTROL addHours (date; number)]
 
 Returns a new date as a result of adding a given number of hours to a date. To subtract hours, enter a negative number.
 
@@ -206,7 +206,7 @@ Returns a new date as a result of adding a given number of hours to a date. To s
 >
 >    Returns 2016-12-08T13:55:57.536Z
 
-## addMinutes (date; number) {#addminutes-date-number}
+## [!UICONTROL addMinutes (date; number)]
 
 Returns a new date as a result of adding a given number of minutes to a date. To subtract minutes, enter a negative number.
 
@@ -222,7 +222,7 @@ Returns a new date as a result of adding a given number of minutes to a date. To
 >
 >    Returns 2016-12-08T15:53:57.536Z
 
-## addMonths (date; number)
+## [!UICONTROL addMonths (date; number)]
 
 Returns a new date as a result of adding a given number of months to a date. To subtract months, enter a negative number.
 
@@ -238,7 +238,7 @@ Returns a new date as a result of adding a given number of months to a date. To 
 >
 >    Returns 2016-06-08T15:55:57.536Z
 
-## addSeconds (date; number) {#addseconds-date-number}
+## [!UICONTROL addSeconds (date; number)]
 
 Returns a new date as a result of adding a given number of seconds to a date. To subtract seconds, enter a negative number.
 
@@ -254,7 +254,7 @@ Returns a new date as a result of adding a given number of seconds to a date. To
 >
 >   Returns 2016-12-08T15:55:55.536Z
 
-## addYears (date; number)
+## [!UICONTROL addYears (date; number)]
 
 Returns a new date as a result of adding a given number of years to a date. To subtract years, enter a negative number.
 
@@ -270,13 +270,13 @@ Returns a new date as a result of adding a given number of years to a date. To s
 >
 >    Returns 2014-08-08T15:55:57.536Z
 
-## setSecond (date; number)
+## [!UICONTROL setSecond (date; number)]
 
 This function returns a new date with the seconds specified in parameters.
 
 Specify a number from 0 to 59. If the number is outside of that range, the function returns a second from the previous minute (for a negative number) or subsequent minute (for a positive number).
 
-If you need to specify a number outside the range, we recommend that you use addSeconds, as described above in the section [addSeconds (date; number)](#addseconds-date-number).
+If you need to specify a number outside the range, we recommend that you use[!UICONTROL  addSeconds], as described above in the section [addSeconds (date; number)](#addseconds-date-number).
 
 >[!INFO]
 >
@@ -290,7 +290,7 @@ If you need to specify a number outside the range, we recommend that you use add
 >
 >    Returns 2015-10-07T11:37:01.138Z
 
-## setMinute (date; number)
+## [!UICONTROL setMinute (date; number)]
 
 This function returns a new date with the minutes specified in parameters.
 
@@ -310,7 +310,7 @@ If you need to specify a number outside the range, we recommend that you use add
 >
 >    Returns 2015-10-07T12:01:39.138Z
 
-## setHour (date; number)
+## [!UICONTROL setHour (date; number)]
 
 This function returns a new date with the hour specified in parameters.
 
@@ -330,7 +330,7 @@ If you need to specify a number outside the range, we recommend that you use add
 >
 >    Returns 2015-08-06T18:36:39.138Z
 
-## setDay (date; number/name of the day in English)
+## [!UICONTROL setDay (date; number/name of the day in English)]
 
 This function returns a new date with the day specified in parameters.
 
@@ -354,7 +354,7 @@ If you need to specify a number outside the range, we recommend that you use add
 >
 >   Returns 2018-06-30T11:36:39.138Z
 
-## setDate (date; number)
+## [!UICONTROL setDate (date; number)]
 
 This function returns a new date with the day of the month specified in parameters.
 
@@ -372,7 +372,7 @@ Specify a number from 1 to 31. If the number is outside of this range, the funct
 >
 >   Returns 2015-09-01T11:36:39.138Z
 
-## setMonth (date; number/name of the month in English)
+## [!UICONTROL setMonth (date; number/name of the month in English)]
 
 This function returns a new date with the month specified in parameters.
 
@@ -394,7 +394,7 @@ Specify a number from 1 to 12. If the number is outside of this range, the funct
 >
 >   Returns 2015-01-07T12:36:39.138Z
 
-## setYear (date; number)
+## [!UICONTROL setYear (date; number)]
 
 Returns a new date with the year specified in parameters.
 
@@ -402,11 +402,11 @@ Returns a new date with the year specified in parameters.
 >
 >**Example:** 
 >
->* `setMonth(2015-08-07T11:36:39.138Z;201)`
+>* `setYear(2015-08-07T11:36:39.138Z;2017)`
 >
 >   Returns 2017-08-07T11:36:39.138Z
 
-## dateDifference (Date1; Date2; Unit)
+## [!UICONTROL dateDifference (Date1; Date2; Unit)]
 
 Returns a number representing the difference in the two dates, expressed in the specified unit.
 
@@ -444,7 +444,7 @@ If no unit is specified, the function returns the difference in milliseconds.
 
 ### How to calculate n-th day of week in month
 
-This section is adapted for Workfront Fusion from the Exceljet web page that explains how to get the nth day of week in a month.
+This section is adapted for [!DNL Workfront Fusion] from the [!DNL Exceljet] web page that explains how to get the nth day of week in a month.
 
 If you need to calculate a date corresponding to n-th day of week in month (for example, first Tuesday, third Friday, and so on), you can use the following formula:
 
@@ -490,6 +490,7 @@ The formula contains the following items:
 </table>
 
 In case you want to calculate only one specific case, for example, every second Wednesday, you can replace the items `1.n` and `2.dow` in the formula with corresponding numbers. For the second Wednesday in the current month, you would use the following values:
+
 * `1.n` = `2`
 * `1.dow` = `3`
 * `1.date` = `now`

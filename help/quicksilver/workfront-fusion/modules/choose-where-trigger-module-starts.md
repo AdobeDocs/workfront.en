@@ -8,7 +8,7 @@ author: Becky
 feature: Workfront Fusion
 exl-id: 5ab7cac4-8d50-4be0-b26b-b832544f18f7
 ---
-# Choose where a trigger module starts in Adobe Workfront Fusion
+# Choose where a trigger module starts in [!DNL Adobe Workfront Fusion]
 
 Some trigger modules allow you to select the first bundle from which you want the retrieving of bundles to start.
 
@@ -25,27 +25,27 @@ You must have the following access to use the functionality in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>Pro or higher</p> </td> 
+    <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
+   <td> <p>[!DNL Pro] or higher</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Plan, Work</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
+   <td> <p>[!UICONTROL Plan], [!UICONTROL Work]</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront Fusion license**</td> 
-   <td> <p>Workfront Fusion for Work Automation and Integration </p>  </td> 
+   <td role="rowheader">[!UICONTROL Adobe Workfront Fusion] license**</td> 
+   <td> <p>[!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
+   <td>Your organization must purchase [!DNL Adobe Workfront Fusion] as well as [!DNL Adobe Workfront] to use functionality described in this article.</td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
 
-&#42;&#42;For information on Adobe Workfront Fusion licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
+For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Workfront Fusion] licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## Choose where a trigger module starts
 
@@ -53,37 +53,37 @@ You must have the following access to use the functionality in this article:
 
    Or
 
-   Change the trigger module's settings as described in [Configure a module's settings in Adobe Workfront Fusion](../../workfront-fusion/modules/configure-a-modules-settings.md).
+   Change the trigger module's settings as described in [Configure a module's settings in [!UICONTROL Adobe Workfront Fusion]](../../workfront-fusion/modules/configure-a-modules-settings.md).
 
    Or
 
-   Right-click the icon for the trigger module in the Scenario editor, as described in [Create a scenario in Adobe Workfront Fusion](../../workfront-fusion/scenarios/create-a-scenario.md).
+   Right-click the icon for the trigger module in the [!UICONTROL Scenario editor], as described in [Create a scenario in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
 
-1. Select an option in the **Choose where to start** box that appears.
+1. Select an option in the **[!UICONTROL Choose where to start]** box that appears.
 
    ![](assets/choose-where-to-start-350x346.jpg)
 
    The options displayed depend on the possibilities of a given service. They may include the following:
 
-    <table style="table-layout:auto">
+   <table style="table-layout:auto">
         <tr>
-            <td>From now on (default)</td>
+            <td>[!UICONTROL From now on] (default)</td>
             <td>Retrieves all bundles added or updated (depending on settings) from now on</td>
         </tr>
         <tr>
-            <td>From after a specific date</td>
+            <td>[!UICONTROL From after a specific date]</td>
             <td>Retrieves all bundles added or updated (depending on settings) after a specified date/time</td>
         </tr>
         <tr>
-            <td>With ID greater than or equal to a specific value</td>
+            <td>[!UICONTROL With ID greater than or equal to a specific value]</td>
             <td>Retrieves all bundles with an ID greater than or equal to a specified ID</td> 
         </tr>
         <tr>
-            <td>All bundles</td>
+            <td>[!UICONTROL All bundles]</td>
             <td>Retrieves all available bundles</td>
         </tr>
         <tr>
-            <td>Select the first bundle</td>
+            <td>[!UICONTROL Select the first bundle]</td>
             <td>Allows you to select the first bundle from which the retrieval of bundles is to start</td>
         </tr>
    </table>

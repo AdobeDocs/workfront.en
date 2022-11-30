@@ -12,7 +12,7 @@ exl-id: d4ec0c53-1451-4475-aa38-2319c6432936
 
 >[!IMPORTANT]
 >
->This article refers to functionality in the standalone product Workfront Proof. For information on proofing inside Adobe Workfront, see [Proofing](../../../review-and-approve-work/proofing/proofing.md).
+>This article refers to functionality in the standalone product [!DNL Workfront Proof]. For information on proofing inside [!DNL Adobe Workfront], see [Proofing](../../../review-and-approve-work/proofing/proofing.md).
 
 You can view side-by-side comparisons of two proofs. These can be two versions of the same proof, or two completely separate proofs.
 
@@ -37,30 +37,30 @@ You can view side-by-side comparisons of two proofs. These can be two versions o
 
 ## Compare separate proofs {#compare-separate-proofs}
 
-You can compare two separate proofs.&nbsp;
+You can compare two separate proofs.
 
-* [Compare separate proofs in Workfront](#compare-separate-proofs-in-workfront) 
-* [Compare separate proofs in Workfront Proof](#compare-separate-proofs-in-workfront-proof)
+* [Compare separate proofs in [!DNL Workfront]](#compare-separate-proofs-in-workfront)
+* [Compare separate proofs in [!DNL Workfront Proof]](#compare-separate-proofs-in-workfront-proof)
 
-### Compare separate proofs in Workfront {#compare-separate-proofs-in-workfront}
+### Compare separate proofs in [!DNL Workfront] {#compare-separate-proofs-in-workfront}
 
-For information about comparing separate proofs from the document list within Workfront, see the [Compare two different proofs](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/compare-proofs.md#comparing-two-proofs-from-a-document-list) section in the [Compare proofs](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/compare-proofs.md) article.
+For information about comparing separate proofs from the document list within [!DNL Workfront], see the [Compare two different proofs](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/compare-proofs.md#comparing-two-proofs-from-a-document-list) section in the [Compare proofs](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/compare-proofs.md) article.
 
-### Compare separate proofs in Workfront Proof {#compare-separate-proofs-in-workfront-proof}
+### Compare separate proofs in [!DNL Workfront Proof] {#compare-separate-proofs-in-workfront-proof}
 
 >[!NOTE]
 >
->The proofs you compare must be located in the same folder and at the same level of hierarchy within the folder structure. For more information about using folders to group proofs you want to compare, see [Work with multiple proofs in the proofing viewer](../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/work-with-multiple-proofs.md)&nbsp;
+>The proofs you compare must be located in the same folder and at the same level of hierarchy within the folder structure. For more information about using folders to group proofs you want to compare, see [Work with multiple proofs in the proofing viewer](../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/work-with-multiple-proofs.md)
 
 1. Open one of the proofs you want to compare in the proofing viewer.
-1. Click the **Compare Mode** icon.
+1. Click the **[!UICONTROL Compare Mode]** icon.
 
-   ![proof_compare_icon.png](assets/proof-compare-icon.png)   
+   ![proof_compare_icon.png](assets/proof-compare-icon.png)\
    The viewing area splits in half and the proof displays both on the left and on the right side of the proofing viewer.
 
    ![Compare_proofs-versions.png](assets/compare-proofs-versions-350x180.png)
 
-1. Click the folder icon above the proof either on the left or the right side to list the other proofs within the same folder.
+1. Click the [!UICONTROL folder] icon above the proof either on the left or the right side to list the other proofs within the same folder.
 
    ![Folder_icons_when_comparing_in_proofing_viewer.png](assets/folder-icons-when-comparing-in-proofing-viewer-350x121.png)
 
@@ -74,17 +74,17 @@ For information about comparing separate proofs from the document list within Wo
 
 ## Use the compare tools {#use-the-compare-tools}
 
-The proofing viewer provides various tools for comparing proofs effectively and efficiently.&nbsp;
+The proofing viewer provides various tools for comparing proofs effectively and efficiently.
 
-* [Auto-compare proofs](#auto-compare-proofs) 
-* [Compare proofs in an overlay](#compare-proofs-in-an-overlay) 
+* [Auto-compare proofs](#auto-compare-proofs)
+* [Compare proofs in an overlay](#compare-proofs-in-an-overlay)
 * [Simultaneous navigation comparison](#simultaneous-navigation-comparison)
 
 ### Auto-compare proofs {#auto-compare-proofs}
 
 Auto-compare does a pixel-by-pixel comparison between two static or video proofs. Any differences detected are highlighted in red in the proof on the left.
 
-Auto-compare is not available when you are comparing interactive proofs.&nbsp;
+Auto-compare is not available when you are comparing interactive proofs.
 
 To auto-compare two proofs:
 
@@ -93,27 +93,27 @@ To auto-compare two proofs:
    * Compare two versions of the same proof (see [Compare proof versions](#compare-proof-versions) in this article).
    * Compare two separate proofs (see [Compare separate proofs](#compare-separate-proofs) in this article).
 
-1. Click the **Autocompare** icon.
+1. Click the **[!UICONTROL Autocompare]** icon.
 
    ![proof_autocompare_icon.png](assets/proof-autocompare-icon-31x32.png)
 
    Any differences between the two proofs are highlighted in red in the proof on the left.
 
-1. (Optional) Click the **Switch** icon to change the active side so that differences are shown on the proof on the right side. By default, differences are shown on the proof on the left side.
+1. (Optional) Click the **[!UICONTROL Switch]** icon to change the active side so that differences are shown on the proof on the right side. By default, differences are shown on the proof on the left side.
 
    ![proof_autocompare_changeactive.png](assets/proof-autocompare-changeactive.png)
 
-1. (Optional) Click the **Color** icon to change the color and opacity used when to highlight differences.
+1. (Optional) Click the **[!UICONTROL Color]** icon to change the color and opacity used when to highlight differences.
 
    ![proof_compare_color.png](assets/proof-compare-color.png)
 
 ### Compare proofs in an overlay {#compare-proofs-in-an-overlay}
 
-Overlay comparison enables you to view differences between two static proofs by viewing the two proofs as a single proof, while providing a vertical divider down the center of the proof. As you pan the proof across the vertical divider, the differences are displayed.&nbsp;
+Overlay comparison enables you to view differences between two static proofs by viewing the two proofs as a single proof, while providing a vertical divider down the center of the proof. As you pan the proof across the vertical divider, the differences are displayed.
 
 >[!NOTE]
 >
->Overlay comparison is not available when you are comparing video or interactive proofs.&nbsp;
+>Overlay comparison is not available when you are comparing video or interactive proofs.
 
 To enable overlay comparison:
 
@@ -122,16 +122,16 @@ To enable overlay comparison:
    * Compare two versions of the same proof (see [Compare proof versions](#compare-proof-versions) in this article).
    * Compare two separate proofs (see [Compare separate proofs](#compare-separate-proofs) in this article).
 
-1. Click the **Overlay** icon.
+1. Click the **[!UICONTROL Overlay]** icon.
 
    ![proof_compare_overlay_icon.png](assets/proof-compare-overlay-icon.png)
 
-   The two proofs are displayed as a single proof, with a vertical divider down the center of the proof.&nbsp;
+   The two proofs are displayed as a single proof, with a vertical divider down the center of the proof.
 
 1. Do either of the following:
 
-   * Pan the proof across the vertical divider. As you pan, you see the proof on the left on the left side of the vertical divider, while the proof on the right is displayed on the right side.&nbsp;
-   * Move the vertical divider to the left and right. As you move the divider,&nbsp;you see the proof on the left on the left side of the vertical divider, while the proof on the right is displayed on the right side.&nbsp;
+   * Pan the proof across the vertical divider. As you pan, you see the proof on the left on the left side of the vertical divider, while the proof on the right is displayed on the right side.
+   * Move the vertical divider to the left and right. As you move the divider, you see the proof on the left on the left side of the vertical divider, while the proof on the right is displayed on the right side.
 
 ### Simultaneous navigation comparison {#simultaneous-navigation-comparison}
 
@@ -148,11 +148,11 @@ To enable simultaneous navigation if it is not already enabled:
    * Compare two versions of the same proof (see [Compare proof versions](#compare-proof-versions) in this article).
    * Compare two separate proofs (see [Compare separate proofs](#compare-separate-proofs) in this article).
 
-1. Click the **Simultaneous Navigation** icon.
+1. Click the **[!UICONTROL Simultaneous Navigation]** icon.
 
    ![proof_compare_simultaneous_icon.png](assets/proof-compare-simultaneous-icon.png)
 
-1. (Optional) Click the **Reset** icon at any time to reset the zoom level and position (for static proof) or the timeline (for video proofs).
+1. (Optional) Click the **[!UICONTROL Reset]** icon at any time to reset the zoom level and position (for static proof) or the timeline (for video proofs).
 
    ![proof_compare_simultaneous_reset.png](assets/proof-compare-simultaneous-reset.png)
 
@@ -162,4 +162,4 @@ To enable simultaneous navigation if it is not already enabled:
 
    ![proof_compare_exit.png](assets/proof-compare-exit-350x163.png)
 
-   The proof that you do not close remains open in the proofing viewer.&nbsp;
+   The proof that you do not close remains open in the proofing viewer.

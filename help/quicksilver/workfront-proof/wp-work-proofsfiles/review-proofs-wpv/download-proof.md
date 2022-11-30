@@ -12,11 +12,11 @@ exl-id: 630db335-79b6-40f0-80b7-d8ccf7ac23fa
 
 >[!IMPORTANT]
 >
->This article refers to functionality in the standalone product Workfront Proof. For information on proofing inside Adobe Workfront, see [Proofing](../../../review-and-approve-work/proofing/proofing.md).
+>This article refers to functionality in the standalone product [!DNL Workfront Proof]. For information on proofing inside [!DNL Adobe Workfront], see [Proofing](../../../review-and-approve-work/proofing/proofing.md).
 
 You can download files from an existing proof. However, only the files are downloaded; comments and other information associated with the proof are not included in the download.
 
-1. In the toolbar on the left of the proofing viewer, click the&nbsp;**Download**button.  
+1. In the toolbar on the left of the proofing viewer, click the **[!UICONTROL Download]** button.\
    ![Proofing_Viewer_toolbar_button_-_Download.png](assets/proofing-viewer-toolbar-button---download.png)
 
-1. Browse to the location on your file system where you want to download the proof, then click&nbsp;**Save.**
+1. Browse to the location on your file system where you want to download the proof, then click **[!UICONTROL Save]**.

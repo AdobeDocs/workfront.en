@@ -9,8 +9,6 @@ exl-id: 2e912e32-7924-418d-9d55-ce3c09f67d3e
 ---
 # Create or edit filters in Adobe Workfront
 
-{{highlighted-preview}}
-
 You can limit the amount of information you display on the screen in a list of items with a filter. You can define certain criteria based on particular pieces of information about an object and only display the objects that meet those criteria.
 
 You can apply the following types of filters in Adobe Workfront:
@@ -80,11 +78,11 @@ You can create filters using the types of filter builders described in the table
 <li> <p>Projects</p> </li>
 <li> <p>Tasks </p> </li>
 <li> <p>Issues</p> </li>
-<li> <span class="preview"><p>Portfolios</p></span> </li>
-<li> <span class="preview"><p>Programs</p></span> </li>
-<li> <span class="preview"><p>Users</p></span> </li>
-<li> <span class="preview"><p>Templates</p></span> </li>
-<li> <span class="preview"><p>Groups</p></span> </li>
+<li> <p>Portfolios</p> </li>
+<li> <p>Programs</p> </li>
+<li> <p>Users</p> </li>
+<li> <p>Templates</p> </li>
+<li> <p>Groups</p> </li>
 </ul>
 </td>
 <td>

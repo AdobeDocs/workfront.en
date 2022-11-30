@@ -95,15 +95,13 @@ You must have the following access to perform the steps in this article:
 
    >[!TIP]
    >
-   >You can assign multiple users, job roles, or teams. You can assign only active users, job roles, and teams.
+   >* You can assign multiple users, job roles, or teams. You can assign only active users, job roles, and teams.
    >
    >
-   ><!--drafted for the unique identifiers story for 22.4 - keep yellow if preview first: <span class="preview">When adding a user assignment, notice the avatar, the user's Primary Role, or their email address to distinguish between users with identical names. Users must be associated with at least one job role to view it as you add them.</span>-->
+   >* When adding a user assignment, notice the avatar, the user's Primary Role, or their email address to distinguish between users with identical names. Users must be associated with at least one job role to view it as you add them.
    >
    >
-   >If a user, job role, or a team was assigned before they were deactivated, they remain assigned to the work item. In this case, we recommend the following: 
-   >
-   >   
+   >* If a user, job role, or a team was assigned before they were deactivated, they remain assigned to the work item. In this case, we recommend the following: 
    >   
    >   * Reassign the work item to active resources. 
    >   * Associate the users in a deactivated team with an active team and reassign the work item to the active team. 
@@ -112,9 +110,6 @@ You must have the following access to perform the steps in this article:
 
 1. For each user in the **Assignee** column, specify the following information:
 
-   <!--
-   <p>(NOTE: REVISE ALL THESE STEPS FOR QS; SOME WILL GO AWAY WITH THE NEW ADVANCED ASSIGNMENT WIDGET!!!)</p>
-   -->
 
    * **Owner**: Hover over the name of the assignee and click **Make Primary** in the Owner field if you want to mark the assignee as the task or issue owner. A green checkbox indicates that the specified user is the Primary Contact of the task or issue. Adobe Workfront marks the first user or job role that you assign to a task or issue as the Owner or Primary Assignment. A team cannot be designated the Primary Owner of a task or issue.
 

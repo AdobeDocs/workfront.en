@@ -30,6 +30,11 @@ This is an app built specifically for tablets. If you'd like to use [!DNL Workfr
 
 ## Download the app
 
+>[!IMPORTANT]
+>
+>The Workfront Proof mobile app is no longer supported and is available as-is.  Any issues in the app will not be fixed.
+
+
 The [!DNL Workfront Proof] tablet app is available in the Apple App Store and the Google Play Store.
 
 1. Click the link below to download the app and install it on your device.

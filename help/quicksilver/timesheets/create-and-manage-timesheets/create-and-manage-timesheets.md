@@ -7,7 +7,7 @@ author: Alina
 feature: Timesheets
 exl-id: 605d47e4-fcb7-4635-a4c9-bbb34e1f73b1
 ---
-# Create and manage timesheets in&nbsp;Adobe Workfront
+# Create and manage timesheets in Adobe Workfront
 
 This section contains the following articles:
 

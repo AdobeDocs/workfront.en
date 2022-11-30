@@ -80,6 +80,13 @@ You can log general hours or project-specific hours on a timesheet.
 
    The timesheet is pre-populated with items assigned to you during the timesheet's time frame. For information about how timesheets are prepopulated, see [Configure timesheet and hour preferences](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md). If you do not see an item on the timesheet, you can add it. 
 
+   >[!NOTE]
+   >
+   >The timesheet pre-populates only with items assigned to you. It does not pre-populate with items assigned to your teams or job roles.
+   >
+   >Clicking Work On It on an item assigned to your teams assigns the item to you and the item will display in your timesheet. 
+
+
 1. (Optional) Click the **full-screen** icon ![](assets/full-screen.png) to display the timesheet in full-screen mode, then click the **exit-full-screen** ![](assets/exit-full-screen.png) icon to return to the timesheet. 
 
    <!-- drafted for the resize columns in timesheet story: 1. (optional) Click on the separator lines between weeks or between the time frame area and the work item area to resize the columns of the timesheet.-->

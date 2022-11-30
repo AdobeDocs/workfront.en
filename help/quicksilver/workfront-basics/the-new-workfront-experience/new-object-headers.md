@@ -12,7 +12,7 @@ You can view information at a glance about objects in Adobe Workfront when you r
 
 In addition to the name of the object, the header can include the owner of the object, the status, or the percent complete. 
 
-Workfront gives priority to the name of the object, allocating as much space to it in the header as possible. When an object name's is too long, it is truncated and displays in full only when you hover over it. 
+Workfront gives priority to the name of the object, allocating as much space to it in the header as possible. When an object name is too long, it is truncated. To display the full name of an object, you can hover over it. 
 
 ## Access the header of an object
 

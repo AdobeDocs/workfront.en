@@ -11,7 +11,7 @@ exl-id: 14cd10ee-7272-4518-b20b-48579a42f4b8
 
 >[!IMPORTANT]
 >
->We are removing the Workfront Extension for Illustrator and InDesign from the Creative Cloud exchange in mid-November.
+>We are replacing the Workfront extension for Illustrator and InDesign with [updated Creative Cloud plugins](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-toc.md). Starting late 2022, this extension will no longer be available to install in the Adobe Exchange.
 
 The following sections describe how to download and install the Workfront Extension for Illustrator and InDesign. For information about how to use the extension, see [Use the Workfront Extension for Illustrator and InDesign](../../documents/workfront-for-adobe-creative-cloud/use-wf-adobe-cc.md).
 

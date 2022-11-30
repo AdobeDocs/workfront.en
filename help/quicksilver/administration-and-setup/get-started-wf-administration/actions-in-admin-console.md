@@ -169,7 +169,6 @@ Because the Adobe Business Platform controls Single Sign-On (SSO) for users, the
 * [Configure Adobe Workfront with SAML 2.0 using ADFS](../../administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2-adfs.md) 
 * [Deactivate single sign-on in Adobe Workfront](../../administration-and-setup/add-users/single-sign-on/deactivate-sso.md) 
 * [Update SAML 2.0 metadata in your identity provider](../../administration-and-setup/add-users/single-sign-on/update-saml-2-metadata-ip.md) 
-* [Update SAML 2.0 metadata in your IDP when using enhanced authentication](../../administration-and-setup/add-users/single-sign-on/update-saml-2-metadata-ip-eauth-.md) 
 * [Update users for single sign-on](../../administration-and-setup/add-users/single-sign-on/update-users-sso.md) 
 * [Configure password policies for authentication](../../administration-and-setup/manage-workfront/security/configure-password-policies-authentication.md) 
 * [Configure system security preferences](../../administration-and-setup/manage-workfront/security/configure-security-preferences.md) 
