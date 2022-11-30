@@ -47,7 +47,7 @@ To open the proof from the email notification:
 1. To open the proof in [!DNL Workfront Proof], click **[!UICONTROL Go To Proof]**.\
    Or\
    To open the proof in [!DNL Basecamp], click the URL listed in the **[!UICONTROL [!DNL Basecamp] URL]** field.\
-   For information on reviewing a proof in [!DNL Basecamp Classic], see [Reviewing a Proof in [!DNL Basecamp]](#reviewing-a-proof-in-dnl-basecamp) in this article.
+   For information on reviewing a proof in [!DNL Basecamp Classic], see [Reviewing a Proof in [!DNL Basecamp]](#reviewing-a-proof-in-basecamp) in this article.
 
 ## Viewing the Proof via the [!DNL Basecamp Classic] Message
 
@@ -75,11 +75,11 @@ You can access a proof from a [!DNL Basecamp Classic] message.
       If you do not have a [!DNL Workfront Proof] account, type a public name to display.\
       You can select "[!UICONTROL remember me]" so you only have to input your details once.
 
-1. To review the proof, continue with [Reviewing a Proof in [!DNL Basecamp]](#reviewing-a-proof-in-dnl-basecamp).
+1. To review the proof, continue with [Reviewing a Proof in [!DNL Basecamp]](#reviewing-a-proof-in-basecamp).
 
 >[!NOTE]
 >
-> The comment box shown below the mini proof on the message page applies only to the message itself. To submit review comments, you must use the comments icon button at the top of the mini proof or the larger [!UICONTROL Comments] button at the top of the full-page proof. For more information, see Reviewing a [Reviewing a Proof in [!DNL Basecamp]](#reviewing-a-proof-in-dnl-basecamp).
+> The comment box shown below the mini proof on the message page applies only to the message itself. To submit review comments, you must use the comments icon button at the top of the mini proof or the larger [!UICONTROL Comments] button at the top of the full-page proof. For more information, see Reviewing a [Reviewing a Proof in [!DNL Basecamp]](#reviewing-a-proof-in-basecamp).
 
 ## Reviewing a Proof in [!DNL Basecamp]
 

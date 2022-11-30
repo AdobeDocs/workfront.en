@@ -180,8 +180,8 @@ The time you record in [!DNL Workfront] does not affect the time of the linked i
 A comment is added to the **[!DNL Workfront]** tab in [!DNL Jira] and to the **[!UICONTROL Updates]** tab of the item in [!DNL Workfront] to record logging the time.\
 The time is also displayed in the **[!UICONTROL Hours]** tab of the [!DNL Workfront] item. 
 
-* [Log time for Linked [!DNL Jira] and [!DNL Workfront] items](#log-time-for-linked-dnl-jira-and-dnl-workfront-items-log-time-for-linked-jira-and-workfront-items) 
-* [Log time from [!DNL Jira] to a [!DNL Workfront] item](#log-time-from-dnl-jira-to-a-dnl-workfront-item-log-time-from-jira-to-a-workfront-item)
+* [Log time for Linked [!DNL Jira] and [!DNL Workfront] items](#log-time-for-linked-jira-and-workfront-items-log-time-for-linked-jira-and-workfront-items) 
+* [Log time from [!DNL Jira] to a [!DNL Workfront] item](#log-time-from-jira-to-a-workfront-item-log-time-from-jira-to-a-workfront-item)
 
 ### Log time for Linked [!DNL Jira] and [!DNL Workfront] items {#log-time-for-linked-jira-and-workfront-items}
 

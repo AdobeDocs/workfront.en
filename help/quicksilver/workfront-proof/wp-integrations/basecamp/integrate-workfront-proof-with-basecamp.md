@@ -38,7 +38,7 @@ When integrated with [!DNL Workfront Proof], [!DNL Basecamp] has the following p
 
 The integration of [!DNL Workfront Proof] with [!DNL Basecamp] must be set up on two levels:
 
-* Configure [!DNL Basecamp] in [Account settings:](https://support.workfront.com/hc/en-us/sections/115000912147-Account-settings) This enables the Basecamp integration for your whole organization. For more information, see [Enabling the Basecamp Integration with [!DNL Workfront Proof]](#enabling-the-dnl-basecamp-integration-with-dnl-workfront-proof).
+* Configure [!DNL Basecamp] in [Account settings:](https://support.workfront.com/hc/en-us/sections/115000912147-Account-settings) This enables the Basecamp integration for your whole organization. For more information, see [Enabling the Basecamp Integration with [!DNL Workfront Proof]](#enabling-the-basecamp-integration-with-workfront-proof).
 
 * Configure [!DNL Basecamp] in [Personal settings](https://support.workfront.com/hc/en-us/sections/115000921168-Personal-settings): This enables proof creators and owners to connect to their personal Basecamp account and to authorize [!DNL Workfront Proof] access. For more information, see [Configuring Personal Settings](#configuring-personal-settings).
 
