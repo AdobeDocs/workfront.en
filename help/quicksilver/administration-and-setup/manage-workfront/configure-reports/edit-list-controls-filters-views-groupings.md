@@ -19,7 +19,7 @@ Consider breaking this article into 2</p>
 >[!IMPORTANT]
 >
 >The List Controls area in Setup > Interface > List Controls will be removed with the 23.1 release.
->Some list control funtionality is moving to the Setup > Interface > Filters/Views/Grouping areas. See the  
+>Some list control functionality is moving to the Setup > Interface > Filters/Views/Grouping areas. For more information, see [Create, edit, and share default filters, views, and groupings](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/create-and-share-default-fvgs.md).
 
 As an Adobe Workfront administrator, you use the List Controls area to determine which filters, views, and groupings you want available in your Workfront instance and listed in all layout templates in the system.
 
@@ -50,9 +50,7 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-## Adjust filters, views, and groups in the Setup area
-
-## Add filters, views, and groupings from Interface > List Controls
+## Add filters, views, and groupings
 
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
 

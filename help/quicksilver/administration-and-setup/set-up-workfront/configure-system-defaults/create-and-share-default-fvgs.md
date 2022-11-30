@@ -74,7 +74,7 @@ You can make the filter, view, or grouping available to users in your system. Fo
 
 ## Make filters, views, or groupings available to users {#make-filters-views-or-groupings-available-to-users}
 
-These steps explain how to make filters, views, and groupings available from the Interface area in Setup. You can also do this in the List Controls area in Setup. For more information, see [Edit list controls: filters, views, and groupings](../../../administration-and-setup/manage-workfront/configure-reports/edit-list-controls-filters-views-groupings.md).
+These steps explain how to make filters, views, and groupings available from the Interface area in Setup.
 
 1. Click the **Main Menu** ![](assets/main-menu-icon.png), then click **Setup**.
 
