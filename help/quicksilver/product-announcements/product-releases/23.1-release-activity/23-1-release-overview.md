@@ -358,9 +358,7 @@ The following functionality is soon to be removed from Workfront:
 
 #### **List Controls (from the Interface area in Setup)**
 
->[!NOTE]
->
->List Controls in Setup > Interface will be removed with the 23.1 release. Some list control funtionality is moving to the Setup > Interface > Filters/Views/Grouping areas. 
+List Controls in Setup > Interface will be removed with the 23.1 release. Some list control funtionality is moving to the Setup > Interface > Filters/Views/Grouping areas. 
 
 For more information, see [](/).
 
