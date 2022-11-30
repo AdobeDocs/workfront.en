@@ -356,6 +356,14 @@ Explore the latest updates made to learning programs, learning paths, videos, an
 
 The following functionality is soon to be removed from Workfront:
 
+#### **List Controls (from the Interface area in Setup)**
+
+>[!NOTE]
+>
+>List Controls in Setup > Interface will be removed with the 23.1 release. Some list control funtionality is moving to the Setup > Interface > Filters/Views/Grouping areas. 
+
+For more information, see [](/).
+
 #### Workfront extension for Illustrator and InDesign
  
 We are replacing the [Workfront extension for Illustrator and InDesign](/help/quicksilver/documents/workfront-for-adobe-creative-cloud/workfront-for-adobe-creative-loud.md) with updated Creative Cloud plugins. Starting late 2022, this extension will no longer be available to install in the Adobe Exchange.
@@ -396,8 +404,4 @@ The Workload Balancer is replacing the Resource Scheduler. For more information 
 
   For more information about Event Subscriptions, as well as other event types that will continue to be supported, see [Event Subscription API](/help/quicksilver/wf-api/general/event-subs-api.md)
 
-#### **List Controls (from the Interface area in Setup)**
 
->[!NOTE]
->
->The deprecation date will be announced in future communications.
