@@ -64,7 +64,7 @@ There are a few exceptions that make it possible to send data to an unapproved t
 
 [!DNL G Suite] users that prefer to use their own OAuth client instead of using the [!DNL Workfront Fusion] OAuth client can connect to [!DNL Google Services] through the [!UICONTROL Internal] Use approach. This option is intended for advanced users. For instructions, see [Connect [!DNL Adobe Workfront Fusion] to [!DNL Google Services] using a custom OAuth client](../../workfront-fusion/connections/connect-fusion-to-google-using-oauth.md).
 
-### [!DNL @gmail.com] and [!DNL @googlemail.com]  
+### [!DNL @gmail.com] and [!DNL @googlemail.com] {#gmailcom-and-googlemailcom}
 
 User that access [!DNL Google Services] through [!DNL @gmail.com] or [!DNL @googlemail.com] can connect to [!DNL Google Services] through the Personal Use approach. This option is intended for advanced users. For instructions, see [Connect [!DNL Adobe Workfront Fusion] to [!DNL Google Services] using a custom OAuth client](../../workfront-fusion/connections/connect-fusion-to-google-using-oauth.md).
 
@@ -75,15 +75,15 @@ User that access [!DNL Google Services] through [!DNL @gmail.com] or [!DNL @goog
 * [What should I do if I'm [!DNL @gmail.com] or [!DNL @googlemail.com] user?](#what-should-i-do-if-im-gmailcom-or-googlemailcom-user)
 * [What should I do if I'm a [!DNL G Suite] user?](#what-should-i-do-if-im-a-g-suite-user)
 
-### What apps in [!DNL Adobe Workfront Fusion] are affected? 
+### What apps in [!DNL Adobe Workfront Fusion] are affected? {#what-apps-in-adobe-workfront-fusion-are-affected}
 
 [!DNL Google Drive], [!DNL Gmail], and Email (connected to [!DNL Gmail] account).
 
-### Do I have a [!DNL G Suite] account?
+### Do I have a [!DNL G Suite] account? {#do-i-have-a-g-suite-account}
 
 If your email address ends with [!DNL @gmail.com] or [!DNL @googlemail.com] your account is not a [!DNL G Suite] account. If your [!DNL Google] account ends with custom domain such as @my-company.com then it is a [!DNL G Suite] account.
 
-### What should I do if I'm [!DNL @gmail.com] or [!DNL @googlemail.com] user? 
+### What should I do if I'm [!DNL @gmail.com] or [!DNL @googlemail.com] user? {#what-should-i-do-if-im-gmailcom-or-googlemailcom-user}
 
 These new restrictions only apply if you are integrating [!DNL Google Drive] or [!DNL Gmail]. If you want to connect to [!DNL Google Drive] or [!DNL Gmail], you can
 
@@ -99,6 +99,6 @@ If you want to integrate any other service than [!DNL Google Drive] or [!DNL Gma
 
 For instructions about connecting other [!DNL Google Services] to [!DNL Workfront Fusion], see [Connect the module's app or web service to [!DNL Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md#connect) in the article [Create a scenario in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
 
-### What should I do if I'm a [!DNL G Suite] user? 
+### What should I do if I'm a [!DNL G Suite] user? {#what-should-i-do-if-im-a-g-suite-user}
 
 There is no required action.

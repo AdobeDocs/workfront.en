@@ -76,7 +76,7 @@ For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Work
 >
 >By saving your template you make it visible for all your team members. If you want your template to be accessible outside of your team you need to publish it and then use a shared link, or ask your administrator to approve and publish the template.
 
-## Set up [!UICONTROL Wizard] functionality
+## Set up [!UICONTROL Wizard] functionality {#set-up-wizard-functionality}
 
 The [!DNL Workfront Fusion template] [!UICONTROL Wizard] allows you to provide future users of your template with instructions or information related to the specific fields used in modules.
 

@@ -174,7 +174,7 @@ This function converts a text string to a date, according to the format and time
 >
 >  Returns 2016-12-28T16:03:06.000Z
 
-## [!UICONTROL addDays (date; number)]
+## [!UICONTROL addDays (date; number)] {#adddays-date-number}
 
 Returns a new date as a result of adding a given number of days to a date. To subtract days, enter a negative number.
 
@@ -190,7 +190,7 @@ Returns a new date as a result of adding a given number of days to a date. To su
 >
 >    Returns 2016-12-6T15:55:57.536Z
 
-## [!UICONTROL addHours (date; number)]
+## [!UICONTROL addHours (date; number)] {#addhours-date-number}
 
 Returns a new date as a result of adding a given number of hours to a date. To subtract hours, enter a negative number.
 
@@ -206,7 +206,7 @@ Returns a new date as a result of adding a given number of hours to a date. To s
 >
 >    Returns 2016-12-08T13:55:57.536Z
 
-## [!UICONTROL addMinutes (date; number)]
+## [!UICONTROL addMinutes (date; number)] {#addminutes-date-number}
 
 Returns a new date as a result of adding a given number of minutes to a date. To subtract minutes, enter a negative number.
 
@@ -222,7 +222,7 @@ Returns a new date as a result of adding a given number of minutes to a date. To
 >
 >    Returns 2016-12-08T15:53:57.536Z
 
-## [!UICONTROL addMonths (date; number)]
+## [!UICONTROL addMonths (date; number)] {#addseconds-date-number}
 
 Returns a new date as a result of adding a given number of months to a date. To subtract months, enter a negative number.
 
