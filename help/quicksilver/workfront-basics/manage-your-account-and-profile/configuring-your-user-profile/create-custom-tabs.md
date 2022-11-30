@@ -76,7 +76,7 @@ After you build the dashboard or the external page, you can add them to the left
 1. Go to one of the [!DNL Workfront] areas or objects where you can add a custom section in the left panel.\
    Or
 1. Go to an object where you can add a [!UICONTROL dashboard] in the left panel.\
-   For more information about what areas and objects you can add custom sections to, see [[!DNL Adobe Workfront] sections](#dnl-adobe-workfront-sections).
+   For more information about what areas and objects you can add custom sections to, see [[!DNL Adobe Workfront] sections](#adobe-workfront-sections).
 1. Click **[!UICONTROL Add dashboard]** in the left panel.
 1. Type a name for the dashboard in the **[!UICONTROL Quick link name]** field. This is visible only to you.
 1. Start typing the name of an existing dashboard or external page in the **[!UICONTROL Choose a dashboard]** field, then select the dashboard when it displays in the list.
@@ -89,7 +89,7 @@ After you build the dashboard or the external page, you can add them to the left
 
 ## Display dashboards in the left panel of objects
 
-For more information about adding a dashboard under an object, see the section [[!UICONTROL Add a dashboard] in the left panel of a Workfront object or area](#add-a-dashboard-in-the-left-panel-of-a-dnl-workfront-object-or-area) in this article.
+For more information about adding a dashboard under an object, see the section [[!UICONTROL Add a dashboard] in the left panel of a Workfront object or area](#add-a-dashboard-in-the-left-panel-of-a-workfront-object-or-area) in this article.
 
 When you add a dashboard to a custom section under an object, the object acts as a filter for the dashboard. For example, if you add a task report on a dashboard and you add the dashboard to a project, the custom section that contains the dashboard on the project displays only tasks on the project you are viewing.
 

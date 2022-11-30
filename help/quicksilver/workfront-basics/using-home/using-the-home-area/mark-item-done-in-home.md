@@ -55,7 +55,7 @@ Only the user assigned to the task or issue can mark it as [!UICONTROL Done].
 1. Do either of the following:
 
 * Click **[!UICONTROL Done]** on the work item.\
-   See [Understand the options of the [!UICONTROL Done] button](#understand-the-options-of-the-uicontrol-done-button) for more detailed information about how this button might appear.
+   See [Understand the options of the [!UICONTROL Done] button](#understand-the-options-of-the-done-button) for more detailed information about how this button might appear.
 
 * Select the item you want to mark as done, then in the right panel, click **[!UICONTROL Update Status]**, then change the status of the item to a status that equates with [!UICONTROL Complete] or [!UICONTROL Closed]. 
 
@@ -67,9 +67,9 @@ Your [!DNL Adobe Workfront] administrator can customize what statuses are associ
 
 Depending on how many statuses are associated with the [!UICONTROL Done] button or how many resources are assigned to the task or the issue, the look of the [!UICONTROL Done] button can change.
 
-* [[!UICONTROL Done] button associated with one status](#uicontrol-done-button-associated-with-one-status)
-* [[!UICONTROL Done] button associated with multiple statuses](#uicontrol-done-button-associated-with-multiple-statuses)
-* [[!UICONTROL Done] button for items assigned to multiple resources](#uicontrol-done-button-for-items-assigned-to-multiple-resources)
+* [[!UICONTROL Done] button associated with one status](#done-button-associated-with-one-status)
+* [[!UICONTROL Done] button associated with multiple statuses](#done-button-associated-with-multiple-statuses)
+* [[!UICONTROL Done] button for items assigned to multiple resources](#done-button-for-items-assigned-to-multiple-resources)
 
 ### [!UICONTROL Done] button associated with one status 
 
@@ -79,7 +79,7 @@ When the [!UICONTROL Done] button is associated with one status and the work ite
 
 To understand which status is associated with the [!UICONTROL Done] button, check the [!UICONTROL Team Settings] of your Home Team for the [!UICONTROL Done Button] section, as described in [Edit team settings](../../../people-teams-and-groups/create-and-manage-teams/edit-team-settings.md).
 
-If you are not assigned to a Home Team, the default status is chosen when clicking [!UICONTROL Done], as described above in [Understand the options of the [!UICONTROL Done] button](#understand-the-options-of-the-uicontrol-done-button).
+If you are not assigned to a Home Team, the default status is chosen when clicking [!UICONTROL Done], as described above in [Understand the options of the [!UICONTROL Done] button](#understand-the-options-of-the-done-button).
 
 ### [!UICONTROL Done] button associated with multiple statuses 
 

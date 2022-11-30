@@ -70,9 +70,9 @@ After you customize a layout template and you assign it to users, those users se
 >
 >The [!DNL Workfront] documentation always refers to the default names of the objects. As a [!DNL Workfront] administrator, ensure that you notify users of the changes in object names, so they can understand how to use the [!DNL Workfront] documentation, as well as the areas of the applications which do not reflect the changes in the names of the objects.
 
-* [Object names that can be customized using a  [!UICONTROL Layout Template]](#object-names-that-can-be-customized-using-a-uicontrol-layout-template)
-* [Areas of [!DNL Workfront] that reflect the customized object names](#areas-of-dnl-workfront-that-reflect-the-customized-object-names)
-* [Areas of [!DNL Workfront] that do not reflect the customized object names](#areas-of-dnl-workfront-that-do-not-reflect-the-customized-object-names)
+* [Object names that can be customized using a  [!UICONTROL Layout Template]](#object-names-that-can-be-customized-using-a-layout-template)
+* [Areas of [!DNL Workfront] that reflect the customized object names](#areas-of-workfront-that-reflect-the-customized-object-names)
+* [Areas of [!DNL Workfront] that do not reflect the customized object names](#areas-of-workfront-that-do-not-reflect-the-customized-object-names)
 
 ### Object names that can be customized using a [!UICONTROL Layout Template]
 
@@ -150,7 +150,7 @@ You should be aware of the following when customizing object names in [!DNL Work
 
 The [!DNL Workfront] documentation always refers to the default names of objects. If your objects have had their names customized, you can rely on the icon associated with them to understand which customized object corresponds to which [!DNL Workfront] default object.
 
-For more information about which objects can have customized names in [!DNL Workfront], see [Object names that can be customized using a  [!UICONTROL Layout Template]](#object-names-that-can-be-customized-using-a-uicontrol-layout-template).
+For more information about which objects can have customized names in [!DNL Workfront], see [Object names that can be customized using a  [!UICONTROL Layout Template]](#object-names-that-can-be-customized-using-a-layout-template).
 
 The following is a list of objects and their corresponding icons in Workfront.
 
@@ -217,7 +217,7 @@ You can report on all objects in the database using our open API. For a complete
 
 >[!NOTE]
 >
->If you have customized the names of your objects using a layout template, the names for the object in the report builder have also been customized. Ensure you know what objects have been customized and look for the customized name in the report builder. For more information about which objects can have customized names in [!DNL Workfront], see *[Object names that can be customized using a  [!UICONTROL Layout Template]](#object-names-that-can-be-customized-using-a-uicontrol-layout-template).*
+>If you have customized the names of your objects using a layout template, the names for the object in the report builder have also been customized. Ensure you know what objects have been customized and look for the customized name in the report builder. For more information about which objects can have customized names in [!DNL Workfront], see *[Object names that can be customized using a  [!UICONTROL Layout Template]](#object-names-that-can-be-customized-using-a-layout-template).*
 >When using text mode in your reports, the names of the objects in text mode expressions are the standard names in [!DNL Workfront], and not the customized object names. For more information about using text mode in reports, see [Text Mode overview](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
 
 For more information about building a report, see [Create a custom report](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).\

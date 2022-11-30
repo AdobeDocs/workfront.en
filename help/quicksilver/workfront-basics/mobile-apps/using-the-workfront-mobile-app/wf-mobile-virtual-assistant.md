@@ -16,8 +16,8 @@ Use the [!DNL Adobe Workfront] mobile app virtual assistant to locate, delete, a
 
 Use the following voice commands to manage work in the mobile app:
 
-* [[!UICONTROL Show me], [!UICONTROL Find], [!UICONTROL Search for]](#uicontrol-show-me-uicontrol-find-uicontrol-search-for)
-* [[!UICONTROL Delete]](#uicontrol-delete)
+* [[!UICONTROL Show me], [!UICONTROL Find], [!UICONTROL Search for]](#show-me-find-search-for)
+* [[!UICONTROL Delete]](#delete)
 * [[!UICONTROL Help me with commands]](#help-me-with-commands)
 
 ### [!UICONTROL Show me], [!UICONTROL Find], [!UICONTROL Search for]

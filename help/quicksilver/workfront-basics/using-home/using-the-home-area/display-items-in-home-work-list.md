@@ -132,7 +132,7 @@ You can filter items in the [!UICONTROL Work List] to see only specific types of
    >* You cannot apply filters for items assigned to one of your teams and they are not included in the items that are assigned directly to you.
 
 
-1. (Optional) Further organize the [!UICONTROL Work List], as described in the section [Group and sort by Date, Project, and Priority](#group-and-sort-by-uicontrol-date-uicontrol-project-and-uicontrol-priority) in this article.
+1. (Optional) Further organize the [!UICONTROL Work List], as described in the section [Group and sort by Date, Project, and Priority](#group-and-sort-by-date-project-and-priority) in this article.
 
 ## Group and sort by [!UICONTROL Date], [!UICONTROL Project], and [!UICONTROL Priority] 
 
@@ -214,7 +214,7 @@ In addition, only the names of the work items are searched (information within t
 To search the [!UICONTROL Work List]:
 
 1. Click the **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
-1. (Optional) Filter the [!UICONTROL Work List], as described in [Filter the [!UICONTROL Work List]](#filter-the-uicontrol-work-list) and [Group and sort by Date, Project, and Priority](#group-and-sort-by-uicontrol-date-uicontrol-project-and-uicontrol-priority).
+1. (Optional) Filter the [!UICONTROL Work List], as described in [Filter the [!UICONTROL Work List]](#filter-the-work-list) and [Group and sort by Date, Project, and Priority](#group-and-sort-by-date-project-and-priority).
 
 1. (Optional) If you are searching for a work item that is already complete, you must configure the [!UICONTROL Work List] to display completed items before searching.
 1. ![](assets/search-icon-highlighted-home-new-filters-and-sorting-nwe-350x238.png)

@@ -71,12 +71,12 @@ The left panel is available for the following objects:
 
 The left panel is available for the following areas:
 
-* [Default sections in the [!UICONTROL Dashboards] area](#default-sections-in-the-uicontrol-dashboards-area)
-* [Default sections in the [!UICONTROL Requests] area](#default-sections-in-the-uicontrol-requests-area)
-* [Default sections in the [!UICONTROL Resourcing] area](#default-sections-in-the-uicontrol-resourcing-area)
-* [Default sections in the [!UICONTROL Projects] area](#default-sections-in-the-uicontrol-projects-area)
-* [Default sections in the [!UICONTROL Timesheets] area](#default-sections-in-the-uicontrol-timesheets-area)
-* [Default sections in the [!DNL Goals] area](#default-sections-in-the-dnl-goals-area)
+* [Default sections in the [!UICONTROL Dashboards] area](#default-sections-in-the-dashboards-area)
+* [Default sections in the [!UICONTROL Requests] area](#default-sections-in-the-requests-area)
+* [Default sections in the [!UICONTROL Resourcing] area](#default-sections-in-the-resourcing-area)
+* [Default sections in the [!UICONTROL Projects] area](#default-sections-in-the-projects-area)
+* [Default sections in the [!UICONTROL Timesheets] area](#default-sections-in-the-timesheets-area)
+* [Default sections in the [!DNL Goals] area](#default-sections-in-the-goals-area)
 
 ### Default sections in the [!UICONTROL Dashboards] area 
 

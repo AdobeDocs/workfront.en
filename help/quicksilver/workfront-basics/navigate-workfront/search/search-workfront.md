@@ -85,7 +85,7 @@ The fields available for search are based on the type of search: Basic or [!UICO
 
 * **[!UICONTROL Advanced Search]**: In an [!UICONTROL Advanced Search], you can set up filters to search fields not available in basic search. Therefore, [!UICONTROL Advanced Search] allows you to search any field in the object.
 
-   For more information about [!UICONTROL Advanced Search], see [Advanced Search](#uicontrol-advanced-search) in this article.
+   For more information about [!UICONTROL Advanced Search], see [Advanced Search](#advanced-search) in this article.
 
 >[!NOTE]
 >
@@ -155,7 +155,7 @@ However, you can do the following in the [!UICONTROL Search] box to adjust the s
 [!DNL Workfront] features two types of searches: Basic and advanced. Use basic search if you want to find keywords in common object fields such as name or description. Use [!UICONTROL Advanced Search] if you want to use filters to search other object fields.
 
 * [Basic Search](#basic-search)
-* [Advanced Search](#uicontrol-advanced-search)
+* [Advanced Search](#advanced-search)
 
 ### Basic Search 
 
@@ -238,7 +238,7 @@ To refine a search:
 >
 >To perform an [!UICONTROL Advanced Search], you must select the [!UICONTROL Advanced Search] option when beginning your search. You cannot refine a basic search into an [!UICONTROL Advanced Search].
 
-* [Use [!UICONTROL Advanced Search]](#use-uicontrol-advanced-search)
+* [Use [!UICONTROL Advanced Search]](#use-advanced-search)
 
 #### Use [!UICONTROL Advanced Search] 
 

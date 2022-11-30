@@ -80,4 +80,4 @@ The [!UICONTROL Due] bar on your [!UICONTROL Home Calendar] displays the items t
 
 >[!NOTE]
 >
->If you have integrated your Microsoft calendar with your [!DNL Workfront] calendar, items in the [!UICONTROL Due] bar do not appear on your Microsoft calendar unless you have dragged them from the Work List to your [!DNL Workfront] Calendar. For more information, see the section  [Work list on the [!UICONTROL Home Calendar]](#work-list-on-the-uicontrol-home-calendar) above and the article  [Configure your [!UICONTROL Home Calendar] view settings](../../../workfront-basics/using-home/using-the-home-area/configure-home-calendar-view.md).
+>If you have integrated your Microsoft calendar with your [!DNL Workfront] calendar, items in the [!UICONTROL Due] bar do not appear on your Microsoft calendar unless you have dragged them from the Work List to your [!DNL Workfront] Calendar. For more information, see the section  [Work list on the [!UICONTROL Home Calendar]](#work-list-on-the-home-calendar) above and the article  [Configure your [!UICONTROL Home Calendar] view settings](../../../workfront-basics/using-home/using-the-home-area/configure-home-calendar-view.md).

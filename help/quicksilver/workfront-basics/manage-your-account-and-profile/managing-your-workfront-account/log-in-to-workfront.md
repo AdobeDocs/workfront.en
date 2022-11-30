@@ -12,14 +12,14 @@ exl-id: 69297cca-6b28-47d6-a478-8ac2bc29b959
 You need the following information to log in to [!DNL Adobe Workfront]:
 
 * **A login URL:** This is your company's unique URL, which should have this format: **`yourCompanyDomain.my.workfront.com`**.\
-   If you are set up for single sign-on (SSO), your URL might have been changed by your [!DNL Workfront] administrator. For more information about logging in to [!DNL Workfront] with SSO, see [Log in to [!DNL Workfront] with SSO](#log-in-to-dnl-workfront-with-sso) in this article.
+   If you are set up for single sign-on (SSO), your URL might have been changed by your [!DNL Workfront] administrator. For more information about logging in to [!DNL Workfront] with SSO, see [Log in to [!DNL Workfront] with SSO](#log-in-to-workfront-with-sso) in this article.
 
    The domain name for your company is established by [!DNL Workfront]. To change your domain name, contact our Customer Support team. For information about how to contact our Customer Support team, see [Contact Customer Support](../../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).
 
 * **A username:** Your [!DNL Workfront] administrator sets up your user name.
 * **A password:** If your system is not set up for SSO, you set up your [!DNL Workfront] password after receiving an email invitation from the [!DNL Workfront] administrator.
 
-   For more information about logging in to [!DNL Workfront] with SSO, see [Log in to [!DNL Workfront] with SSO](#log-in-to-dnl-workfront-with-sso) in this article.
+   For more information about logging in to [!DNL Workfront] with SSO, see [Log in to [!DNL Workfront] with SSO](#log-in-to-workfront-with-sso) in this article.
 
    For more information about receiving email invitations and creating a [!DNL Workfront] password, see [Receive email invitations and create a password for [!DNL Adobe Workfront]](../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/receive-email-invitations.md).
 

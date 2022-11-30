@@ -66,7 +66,7 @@ You can prioritize your work after you select [!UICONTROL My Priority] in your g
 
 You must add work items to [!UICONTROL My Priority] before you can begin prioritizing.
 
-For more information, see the section [Add items to [!UICONTROL My Priority]](#add-items-to-uicontrol-my-priority) in this article.
+For more information, see the section [Add items to [!UICONTROL My Priority]](#add-items-to-my-priority) in this article.
 
 1. Click the **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
 1. In the left panel, click the **[!UICONTROL Group by]** drop-down menu, then select **[!UICONTROL My Priority]**.

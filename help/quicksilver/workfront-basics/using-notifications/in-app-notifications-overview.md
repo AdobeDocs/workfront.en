@@ -13,8 +13,8 @@ This article lists the in-app notifications you can receive. In-app notification
 
 For instructions on how to view and manage these notifications, see [View and manage in-app notifications](../../workfront-basics/using-notifications/view-and-manage-in-app-notifications.md).
 
-* [[!UICONTROL Announcement] notifications](#uicontrol-announcement-notifications)
-* [[!UICONTROL Work item] notifications](#uicontrol-work-item-notifications)
+* [[!UICONTROL Announcement] notifications](#announcement-notifications)
+* [[!UICONTROL Work item] notifications](#work-item-notifications)
 
 ## [!UICONTROL Announcement] notifications 
 
@@ -39,14 +39,14 @@ When you click the numbered icon ![](assets/notifications-icon-jewel.jpg) in the
 >
 >In-app notifications for work activities are not tied to email notifications in [!DNL Workfront]. For more information, see [[!DNL Adobe Workfront] notifications](../../workfront-basics/using-notifications/wf-notifications.md).
 
-* [[!UICONTROL Approvals]](#uicontrol-approvals)
-* [[!UICONTROL Requests]](#uicontrol-requests)
-* [[!UICONTROL Assignments]](#uicontrol-assignments)
-* [[!UICONTROL Comments]](#uicontrol-comments)
-* [[!UICONTROL Updates]](#uicontrol-updates)
-* [[!UICONTROL Date changes]](#uicontrol-date-changes)
-* [[!UICONTROL Share]](#uicontrol-share)
-* [[!UICONTROL Other]](#uicontrol-other)
+* [[!UICONTROL Approvals]](#approvals)
+* [[!UICONTROL Requests]](#requests)
+* [[!UICONTROL Assignments]](#assignments)
+* [[!UICONTROL Comments]](#comments)
+* [[!UICONTROL Updates]](#updates)
+* [[!UICONTROL Date changes]](#date-changes)
+* [[!UICONTROL Share]](#share)
+* [[!UICONTROL Other]](#other)
 
 ### [!UICONTROL Approvals]
 

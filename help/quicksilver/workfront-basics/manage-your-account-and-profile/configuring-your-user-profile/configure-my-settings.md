@@ -23,7 +23,7 @@ Depending on what access level you have in [!DNL Workfront], you can edit some o
 
 Depending on what access level you have, you may or may not be able to edit sections in your [!UICONTROL My Settings] area.
 
-Some fields contained in editable sections cannot be edited, depending on other settings that might or might not be configured in your access level. For more information on additional access needed for editing some of the fields you find in [!UICONTROL My Settings], see the sections in [Configuring the [!UICONTROL My Settings] area](#configuring-the-uicontrol-my-settings-area).
+Some fields contained in editable sections cannot be edited, depending on other settings that might or might not be configured in your access level. For more information on additional access needed for editing some of the fields you find in [!UICONTROL My Settings], see the sections in [Configuring the [!UICONTROL My Settings] area](#configuring-the-my-settings-area).
 
 To find out what access level you have, contact your [!DNL Workfront] administrator.
 
@@ -196,14 +196,14 @@ The following grid shows what sections in the [!UICONTROL My Settings] area are 
 
 1. Depending on your access level, you can update the following sections:
 
-   * [Personal Info](#uicontrol-personal-info)
-   * [Preferences](#uicontrol-preferences)
-   * [Notifications](#uicontrol-notifications)
-   * [Access](#uicontrol-access)
-   * [Organization](#uicontrol-organization)
-   * [Resource Planning](#uicontrol-resource-planning)
-   * [Custom Form](#uicontrol-custom-form)
-   * [Comment](#uicontrol-comment)
+   * [Personal Info](#personal-info)
+   * [Preferences](#preferences)
+   * [Notifications](#notifications)
+   * [Access](#access)
+   * [Organization](#organization)
+   * [Resource Planning](#resource-planning)
+   * [Custom Form](#custom-form)
+   * [Comment](#comment)
 
 1. Click **[!UICONTROL Save]**.
 
@@ -211,9 +211,9 @@ The following grid shows what sections in the [!UICONTROL My Settings] area are 
 
 This section includes the following sub-sections:
 
-* [Basic info](#uicontrol-basic-info)
-* [Job info](#uicontrol-job-info)
-* [Contact info](#uicontrol-contact-info)
+* [Basic info](#basic-info)
+* [Job info](#job-info)
+* [Contact info](#contact-info)
 
 #### [!UICONTROL Basic info] 
 

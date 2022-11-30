@@ -26,7 +26,7 @@ You can receive the following email notifications from [!DNL Workfront]:
 * [Notification of posted comments](#notification-of-posted-comments)
 * [Automatic reminders](#automatic-reminders)
 * [Reminder notifications](#reminder-notifications)
-* [Other [!DNL Workfront] emails](#other-dnl-workfront-emails)
+* [Other [!DNL Workfront] emails](#other-workfront-emails)
 
 ### Event notifications 
 
