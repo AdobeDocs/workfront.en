@@ -208,7 +208,7 @@ The process of creating a connection to [!DNL Google] differs depending on wheth
 
    The connection to the desired [!DNL Google] service using a custom OAuth client is established.
 
-### Connect to [!DNL Google] in the [!UICONTROL HTTP] > [!UICONTROL Make an OAuth2.0 request] module 
+### Connect to [!DNL Google] in the [!UICONTROL HTTP] > [!UICONTROL Make an OAuth2.0 request] module {#connect-to-google-in-the-http--make-an-oauth20-request-module}
 
 For instructions on connecting to [!DNL Google] in the [!UICONTROL HTTP] > [!UICONTROL Make an OAuth2.0 request] module, see [Instructions for creating a connection to [!DNL Google] in the [!UICONTROL HTTP] > [!UICONTROL Make an OAuth 2.0 request] module](../../workfront-fusion/apps-and-their-modules/http-modules/http-module-make-an-oauth-2-request.md#instruct) in [[!UICONTROL HTTP] > [!UICONTROL Make an OAuth 2.0 request] module](../../workfront-fusion/apps-and-their-modules/http-modules/http-module-make-an-oauth-2-request.md).
 
