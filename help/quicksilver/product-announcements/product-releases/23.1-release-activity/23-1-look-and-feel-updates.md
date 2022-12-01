@@ -30,9 +30,9 @@ In addition to an updated look and feel, the following changes are also availabl
 * Individual custom form names are now available on the left panel inside the Edit Template box and you can quickly access each form from there.
 * We have removed the commenting functionality from the Edit Template box to eliminate redundancy with the Updates section.
 * We have removed the "Is active" checkbox to eliminate redundancy with the More menu options on the template page.
-
+<!--
 For more information, see [Edit project templates](/help\quicksilver\manage-work\projects\create-and-manage-templates\edit-templates.md).
-
+-->
 ## New look and feel for Workfront for Jira integration
 
 >[!NOTE]
