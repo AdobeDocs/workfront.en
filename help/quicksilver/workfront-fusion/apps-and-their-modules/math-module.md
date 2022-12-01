@@ -9,9 +9,9 @@ author: Becky
 feature: Workfront Fusion
 exl-id: 677d722f-3a9f-498e-939a-1cfe8e943fb6
 ---
-# Math
+# [!UICONTROL Math]
 
-In an Adobe Workfront Fusion scenario, you can use the math module to calculate math expressions.
+In an [!DNL Adobe Workfront Fusion scenario], you can use the math module to calculate math expressions.
 
 ## Access requirements
 
@@ -22,39 +22,39 @@ You must have the following access to use the functionality in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>Pro or higher</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan*</td>
+  <td> <p>[!UICONTROL Pro] or higher</p> </td>
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Plan, Work</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] license*</td>
+   <td> <p>[!UICONTROL Plan], [!UICONTROL Work]</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront Fusion license**</td> 
-   <td> <p>Workfront Fusion for Work Automation and Integration </p> <p>Workfront Fusion for Work Automation</p>  </td> 
+   <td role="rowheader">[!DNL Adobe Workfront Fusion] license**</td> 
+   <td> <p>[!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p> <p>[!UICONTROL [!DNL Workfront Fusion] for Work Automation]</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
+   <td>Your organization must purchase [!DNL Adobe Workfront Fusion] as well as [!DNL Adobe Workfront] to use functionality described in this article.</td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
 
-&#42;&#42;For information on Adobe Workfront Fusion licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
+For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Workfront Fusion] licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
-## Evaluate a math expression
+## [!UICONTROL Evaluate a math expression]
 
-You can use this module to easily calculate math expressions. 
+You can use this module to easily calculate math expressions.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Expression</td> 
-   <td> <p>Enter the expression that you want the module to evaluate. </p> <p>&nbsp;</p> <p>For information on how to write a math expression, see <a href="https://mathjs.org/docs/expressions/syntax.html">Expression syntax</a> at mathjs.org.</p> </td> 
+   <td role="rowheader">[!UICONTROL Expression]</td> 
+   <td> <p>Enter the expression that you want the module to evaluate. </p> <p> </p> <p>For information on how to write a math expression, see <a href="https://mathjs.org/docs/expressions/syntax.html">Expression syntax</a> at mathjs.org.</p> </td> 
   </tr> 
  </tbody> 
 </table>

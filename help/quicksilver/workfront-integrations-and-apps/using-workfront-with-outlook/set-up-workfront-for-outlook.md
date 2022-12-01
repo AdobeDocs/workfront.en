@@ -96,9 +96,9 @@ For more detailed information about supported environments, see the [[!DNL Micro
 
 For more information about setting up the [!DNL Workfront] add-in for [!DNL Outlook], see [[!DNL Workfront] - Collaborative Work Management.](https://appsource.microsoft.com/en-us/product/office/WA104380943?tab=Overview)
 
-* [[!DNL Workfront] for [!DNL Outlook 365]](#dnl-workfront-for-dnl-outlook-365-workfront-for-outlook-365)
-* [[!DNL Workfront] for [!DNL Outlook] on the Web](#dnl-workfront-for-dnl-outlook-on-the-web-workfront-for-outlook-on-the-web)
-* [[!DNL Workfront] for [!DNL Outlook] on [!DNL Windows] or [!DNL Mac]](#dnl-workfront-for-outlook-on-uicontrol-windows-or-dnl-mac-workfront-for-outlook-on-windows-or-mac)
+* [[!DNL Workfront] for [!DNL Outlook 365]](#workfront-for-outlook-365-workfront-for-outlook-365)
+* [[!DNL Workfront] for [!DNL Outlook] on the Web](#workfront-for-outlook-on-the-web-workfront-for-outlook-on-the-web)
+* [[!DNL Workfront] for [!DNL Outlook] on [!DNL Windows] or [!DNL Mac]](#workfront-for-outlook-on-windows-or-mac-workfront-for-outlook-on-windows-or-mac)
 
 ### [!DNL Workfront] for [!DNL Outlook 365] {#workfront-for-outlook-365}
 

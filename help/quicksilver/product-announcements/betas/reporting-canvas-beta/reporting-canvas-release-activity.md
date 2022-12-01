@@ -14,13 +14,17 @@ This page lists new features that are added and issues that are resolved for the
 
 For general information on the Reporting Canvas beta, see [Reporting Canvas beta: overview](/help/quicksilver/product-announcements/betas/reporting-canvas-beta/reporting-canvas-beta-overview.md).
 
+## Week of Novermber 6th
+
+* Added FLOOR, NUMBER, and STRING functions in Field Builder
+
 ## Week of October 23rd
 
 * Added IF function in Field Builder
 
 ## Week of September 4th
 
-* Added NUMBER, STRING, and IN functions in Field Builder
+* Added IN function in Field Builder
 
 ## Week of July 24th
 
