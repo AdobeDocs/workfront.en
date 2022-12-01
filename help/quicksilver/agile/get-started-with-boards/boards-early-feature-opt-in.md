@@ -110,6 +110,11 @@ The following table outlines major features of boards along with their current r
    <td>Import subtasks as checklist items on cards</td>
    <td>Partially released</td>
   </tr>
+  </tr> 
+  <tr>
+   <td>Map card due date to task planned completion date</td>
+   <td>Partially released</td>
+  </tr>
   <tr>
    <td>Create iterations</td>
    <td>Planned</td>

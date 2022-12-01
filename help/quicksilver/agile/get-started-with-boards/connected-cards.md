@@ -23,6 +23,11 @@ When any one of the following details is updated for the card in one location, i
 * Description
 * Assignees
 * Status
+* <span class="preview">Due date / Planned completion date</span>
+
+>[!NOTE]
+>
+>The due date / planned completion date mapping is available only via the early feature opt-in. For details, see [Early feature opt-in for Adobe Workfront Boards](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md).
 
 >[!NOTE]
 >A single connected task or issue can only be added once per board. The same task or issue can be connected to multiple boards.
@@ -117,7 +122,7 @@ You must have the following access to perform the steps in this article:
      </tr>
      <tr>
       <td role="rowheader"><strong>Due date</strong></td>
-      <td><p>Select a due date for the card.</p></td>
+      <td><p><span class="preview">Changing the due date also changes the planned completion date on the connected Workfront object.</span></p></td>
      </tr>
       <tr>
       <td role="rowheader"><strong>Estimation</strong></td>
