@@ -21,6 +21,8 @@ The enhancements on this page are available in the Preview environment. This pag
 
 *   [Agile enhancements](#agile-enhancements)
 
+*   [Mobile enhancements](#mobile-enhancements)
+
 *   [Other enhancements](#other-enhancements)
     
 ### Project enhancements
@@ -95,9 +97,47 @@ The enhancements on this page are available in the Preview environment. This pag
                         </p>
                     </td>
                 </tr>
+                 <tr>
+                    <td>
+                        <a href="../../../product-announcements/product-releases/23.1-release-activity/23-1-nov-28.md" class="MCXref xref" xrefformat="{para}">Due dates on cards map to planned completion date on Workfront object</a><span style="color: #ff0000;"> New in Preview!</span></p>
+                        <p>Due dates on connected cards in Workfront Boards now map to the planned completion date on the associated Workfront object. If you update the due date on a card, the planned completion date is updated on the task or issue. Changing the planned completion date also changes the due date on the card.</p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                     <p>
+                        </p>
+                        <ul>
+                            <li>
+                                <p>Preview release: December 1, 2022<br /></p>
+                            </li>
+                            <li>
+                                <p>Production release for early opt-in: December 8, 2022 <span style="color: #ff0000;"> This feature is available in Production on this date only through the early feature opt-in for Workfront Boards.</span></p>
+                                <p>Production release for all customers: With the 23.1 release</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
                 <tr>
                     <td>
-                        <a href="../../../product-announcements/product-releases/23.1-release-activity/23-1-nov-14.md" class="MCXref xref" xrefformat="{para}">Card counter on board columns</a><span style="color: #ff0000;"> New in Preview!</span></p>
+                        <a href="../../../product-announcements/product-releases/23.1-release-activity/23-1-nov-28.md" class="MCXref xref" xrefformat="{para}">Board checklist items and Workfront subtasks are now linked</a><span style="color: #ff0000;"> New in Preview!</span></p>
+                        <p>When you add a connected card to a board for a Workfront task, any subtasks are imported as checklist items on the card. Also, when you create a checklist item on a connected card, a subtask is added to the Workfront task. Checklist items on issues are not connected to any Workfront objects.</p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                     <p>
+                        </p>
+                        <ul>
+                            <li>
+                                <p>Preview release: December 1, 2022<br /></p>
+                            </li>
+                            <li>
+                                <p>Production release for early opt-in: December 8, 2022 <span style="color: #ff0000;"> This feature is available in Production on this date only through the early feature opt-in for Workfront Boards.</span></p>
+                                <p>Production release for all customers: With the 23.1 release</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="../../../product-announcements/product-releases/23.1-release-activity/23-1-nov-14.md" class="MCXref xref" xrefformat="{para}">Card counter on board columns</a></p>
                         <p>A new configuration setting is available to turn on a card counter for all of the columns on a board. If you are using the WIP limit on a column, a separate card counter is not added.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
@@ -215,6 +255,41 @@ The enhancements on this page are available in the Preview environment. This pag
                 </tr>
             </tbody>
         </table>
+
+### Mobile enhancements
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">Feature</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Release dates</span>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-nov-28.md" class="MCXref xref" xrefformat="{para}">Boards is now available in the mobile app</a><span style="color: #ff0000;"> Coming soon!</span></p>
+                        <p>Adobe Workfront Boards are now available in the mobile app! You can access Boards directly from the home screen and see all of the boards you have access to in the desktop version of Workfront. In a specific board, you can view and edit all of its columns and cards. Card details include name, description, column, assignees, status, due date, estimation, tags, and checklist items. Both ad hoc and connected cards are visible on the board.</p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                        <ul>
+                            <li>
+                                <p>Preview release:N/A<br /></p>
+                            </li>
+                            <li>
+                                <p><span class="preview">Production release: Available in the Apple App Store and Google Play Store in mid-to-late January 2023</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+            </tbody>
+        </table>   
 
 ### Other enhancements
 
@@ -356,6 +431,12 @@ Explore the latest updates made to learning programs, learning paths, videos, an
 
 The following functionality is soon to be removed from Workfront:
 
+#### **List Controls (from the Interface area in Setup)**
+
+List Controls in Setup > Interface will be removed with the 23.1 release. 
+
+Some list control funtionality is moving to the Setup > Interface > Filters/Views/Grouping areas. For more information, see [Create, edit, and share default filters, views, and groupings](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/create-and-share-default-fvgs.md).
+
 #### Workfront extension for Illustrator and InDesign
  
 We are replacing the [Workfront extension for Illustrator and InDesign](/help/quicksilver/documents/workfront-for-adobe-creative-cloud/workfront-for-adobe-creative-loud.md) with updated Creative Cloud plugins. Starting late 2022, this extension will no longer be available to install in the Adobe Exchange.
@@ -396,8 +477,4 @@ The Workload Balancer is replacing the Resource Scheduler. For more information 
 
   For more information about Event Subscriptions, as well as other event types that will continue to be supported, see [Event Subscription API](/help/quicksilver/wf-api/general/event-subs-api.md)
 
-#### **List Controls (from the Interface area in Setup)**
 
->[!NOTE]
->
->The deprecation date will be announced in future communications.

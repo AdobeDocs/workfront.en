@@ -12,6 +12,28 @@ This page describes minor updates to the look and feel of various areas of the A
 
 For a list of all changes available with the 23.1 release, see [23.1 Release overview](/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-release-overview.md).
 
+## Updated lists in the Setup > Interface area
+
+>[!NOTE]
+>
+>Preview release: December 1, 2022; Planned Production release: December 15, 2022
+
+The Filters, Views, and Groupings pages under Setup > Interface now have the more modern look and feel found in most other lists throughout Workfront.
+
+## New Edit Template box
+
+As part of updating the look and feel of Workfront, we have redesigned the Edit Template box. You can access the new Edit Template box from an individual template or from a template list.
+
+In addition to an updated look and feel, the following changes are also available in the New Template box:
+
+* You can customize your Layout Template once and reflect those customizations in both the Details page and the Edit Template box.
+* Individual custom form names are now available on the left panel inside the Edit Template box and you can quickly access each form from there.
+* We have removed the commenting functionality from the Edit Template box to eliminate redundancy with the Updates section.
+* We have removed the "Is active" checkbox to eliminate redundancy with the More menu options on the template page.
+<!--
+For more information, see [Edit project templates](/help\quicksilver\manage-work\projects\create-and-manage-templates\edit-templates.md).
+-->
+
 ## New look and feel for Workfront for Jira integration
 
 >[!NOTE]
