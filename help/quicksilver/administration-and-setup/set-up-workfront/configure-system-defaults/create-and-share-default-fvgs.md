@@ -74,9 +74,29 @@ You must have the following access to perform the steps in this article:
 
 You can make the filter, view, or grouping available to users in your system. For more information about sharing filters, views or groupings with other users, see the section [Make filters, views, or groupings available to users](#make-filters-views-or-groupings-available-to-users) in this article.
 
-## Make filters, views, or groupings available to users {#make-filters-views-or-groupings-available-to-users}
+<div class="preview">
 
-These steps explain how to make filters, views, and groupings available from the Interface area in Setup. You can also do this in the List Controls area in Setup. For more information, see [Edit list controls: filters, views, and groupings](../../../administration-and-setup/manage-workfront/configure-reports/edit-list-controls-filters-views-groupings.md).
+## Show or hide filters, views, or groupings available from the Layout Template
+
+You can choose to show or hide filters, views, or groupings from the Layout Template. Visible filters are available for all users system-wide. You can use a Layout Template to hide visible filters for specific users or groups.
+
+1. Click **Interface**, then click one of the following: **Filters**, **Views**, or **Groupings**.
+
+1. (Conditional) Select the filter, view, or grouping that you want to make available to users, then click **Enable system-wide**.
+
+![](assets/enable-system-wide-fvg.png)
+
+>[!TIP]
+>
+>If you want to keep the filter, view, or grouping available for most users, but hide it from others, you can use the Layout Template. For more information, see [Customize Filters, Views, and Groupings using a layout template](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md).
+
+1. (Conditional) Select the filter, view, or grouping that you want to make hide from users, then click **Disable system-wide**. Once disabled, the filter, view, or grouping will be hidden from the layout template as well as users across the system.
+
+</div>
+
+## Make filters, views, or groupings available to all users {#make-filters-views-or-groupings-available-to-users}
+
+These steps explain how to make filters, views, and groupings available from the Share dialog in the Interface area in Setup. This settings acts like an on/off switch for the entire system, including the Layout Template.
 
 {{step-1-to-setup}}
 
