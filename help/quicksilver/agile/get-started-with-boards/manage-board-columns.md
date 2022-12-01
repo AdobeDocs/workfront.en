@@ -9,8 +9,6 @@ exl-id: a736cdfe-5ddc-4bf4-82a1-a78d16c0d70b
 ---
 # Manage board columns
 
-{{highlighted-preview}}
-
 A new board contains three columns by default. You can add more columns, change the order of the columns, rename columns, and delete any columns that you don't need.
 
 Column settings include policies, which allow you to define options for what happens to a card when it is moved into that column.
@@ -76,11 +74,13 @@ You must have the following access to perform the steps in this article:
    >
    >Columns that contain cards, including archived cards, can't be deleted. If you try to delete a column that contains cards, you must choose another column for those cards.
 
-<div class="preview">
-
 ## Display card count
 
 You can use a configuration setting to display the number of cards in each column.
+
+>[!NOTE]
+>
+>The card counter is available only via the early feature opt-in. For details, see [Early feature opt-in for Adobe Workfront Boards](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md).
 
 If you are using the WIP limit on a column, a separate card counter is not added. For more information on WIP limits, see [Manage the Work in Progress (WIP) limit on a board](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-wip-limit-on-board.md).
 
@@ -94,12 +94,6 @@ If you are using the WIP limit on a column, a separate card counter is not added
    The card counter appears at the top of each column.
 
 1. Click **Hide configure** to close the Configure panel.
-
->[!NOTE]
->
->The card counter is available only via the early feature opt-in. For details, see [Early feature opt-in for Adobe Workfront Boards](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md).
-
-</div>
 
 ## Define column settings and policies
 
