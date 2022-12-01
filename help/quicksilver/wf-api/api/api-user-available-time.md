@@ -19,11 +19,11 @@ The users available time endpoint retrieves data on the user's available time. T
 
 ## Request parameters
 
- * **userIDs**: array of strings. Required. Example: `"61a9cc0500002f9fdaa7a6f824f557e1"`.
+* **userIDs**: array of strings. Required. Example: `"61a9cc0500002f9fdaa7a6f824f557e1"`.
  
- * **fromDate**: datetime. string. Required. Example:  `"2022-07-10T00:00:00"`.
+* **fromDate**: datetime. string. Required. Example:  `"2022-07-10T00:00:00"`.
 
- * **toDate**: datetime. string. Required. Example `"2022-07-20T23:59:59"`.
+* **toDate**: datetime. string. Required. Example `"2022-07-20T23:59:59"`.
 
 ## Example response:
 

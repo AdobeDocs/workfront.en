@@ -27,12 +27,12 @@ Remember the following when using a slash command in [!DNL Slack] to access [!DN
 
    This indicates that your command is meant for the [!DNL Workfront] app. The commands for [!DNL Workfront] work only when you have already configured the [!DNL Workfront] app with your [!DNL Slack] instance.
 
-For a list of all the commands you can run from Slack for [!DNL Workfront], see [Access [!DNL Workfront] from a slash command in [!DNL Slack]](#access-dnl-workfront-from-a-slash-command-in-dnl-slack-access-workfront-from-a-slash-command-in-slack).
+For a list of all the commands you can run from Slack for [!DNL Workfront], see [Access [!DNL Workfront] from a slash command in [!DNL Slack]](#access-workfront-from-a-slash-command-in-slack-access-workfront-from-a-slash-command-in-slack).
 
 ## Log in to [!DNL Workfront] from [!DNL Slack] {#log-in-to-workfront-from-slack}
 
 When you type any command in the message field in Slack, you will be asked to log in to [!DNL Workfront] first.\
-For a complete list of [!DNL Workfront] commands from [!DNL Slack], see the [Access [!DNL Workfront] from a slash command in [!DNL Slack]](#access-dnl-workfront-from-a-slash-command-in-dnl-slack-access-workfront-from-a-slash-command-in-slack) section in this article. 
+For a complete list of [!DNL Workfront] commands from [!DNL Slack], see the [Access [!DNL Workfront] from a slash command in [!DNL Slack]](#access-workfront-from-a-slash-command-in-slack-access-workfront-from-a-slash-command-in-slack) section in this article. 
 
 To log in to [!DNL Workfront] from [!DNL Slack]:
 
@@ -68,12 +68,12 @@ To log in to [!DNL Workfront] from [!DNL Slack]:
 ## Access [!DNL Workfront] from [!DNL Slack]
 
 * [About slash commands](#about-slash-commands-about-slash-commands)
-* [Access [!DNL Workfront] from a shared link in [!DNL Slack]](#access-dnl-workfront-from-a-shared-link-in-dnl-slack-access-workfront-from-a-shared-link-in-slack)
+* [Access [!DNL Workfront] from a shared link in [!DNL Slack]](#access-workfront-from-a-shared-link-in-slack-access-workfront-from-a-shared-link-in-slack)
 
 ## Access [!DNL Workfront] from a slash command in [!DNL Slack] {#access-workfront-from-a-slash-command-in-slack}
 
 1. Log in to your [!DNL Slack] instance and log in to [!DNL Workfront] from [!DNL Slack].\
-   For more information about logging in to [!DNL Workfront] from [!DNL Slack], see [Log in to [!DNL Workfront] from [!DNL Slack]](#log-in-to-dnl-workfront-from-dnl-slack-log-in-to-workfront-from-slack)
+   For more information about logging in to [!DNL Workfront] from [!DNL Slack], see [Log in to [!DNL Workfront] from [!DNL Slack]](#log-in-to-workfront-from-slack-log-in-to-workfront-from-slack)
 
 1. From any channel, start typing the following command in the message field: 
 

@@ -57,8 +57,8 @@ Each [!DNL Slack] user must install the [!DNL Workfront] app themselves in order
 
 You can install the app in the following ways:
 
-* [Install the [!DNL Workfront] app outside [!DNL Slack]](#install-the-dnl-workfront-app-outside-dnl-slack-install-the-workfront-app-outside-slack)
-* [Install the [!DNL Workfront] app within [!DNL Slack]](#install-the-dnl-workfront-app-within-dnl-slack-install-the-workfront-app-within-slack)
+* [Install the [!DNL Workfront] app outside [!DNL Slack]](#install-the-workfront-app-outside-slack-install-the-workfront-app-outside-slack)
+* [Install the [!DNL Workfront] app within [!DNL Slack]](#install-the-workfront-app-within-slack-install-the-workfront-app-within-slack)
 
 ### Install the [!DNL Workfront] app outside [!DNL Slack] {#install-the-workfront-app-outside-slack}
 

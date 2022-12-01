@@ -65,7 +65,7 @@ With the [!DNL Workfront Fusion for Work Automation] license, you have access to
 
 ## [!DNL Workfront Fusion for Work Automation and Integration] 
 
-* [Benefits of [!DNL Workfront Fusion for Work Automation and Integration]](#benefits-of-workfront-fusion-for-work-automation-and-integration
+* [Benefits of [!DNL Workfront Fusion for Work Automation and Integration]](#benefits-of-workfront-fusion-for-work-automation-and-integration)
 * [Connectors and modules available for [!DNL Workfront Fusion for Work Automation and Integration]](#connectors-and-modules-available-for-workfront-fusion-for-work-automation-and-integration)
 * [Example of [!DNL Workfront Fusion for Work Automation and Integration]](#example-of-workfront-fusion-for-work-automation-and-integration)
 
