@@ -60,14 +60,14 @@ Before you can manage your work and approvals from [!DNL Slack], you must
 
 1. (Optional) Click **[!UICONTROL Tasks]** to display all your tasks.
 
-   For more information about managing tasks in [!DNL Slack], see [Managing Your Tasks from [!DNL Slack]](#manage-your-tasks-from-dnl-slack-manage-your-tasks-from-slack).
+   For more information about managing tasks in [!DNL Slack], see [Managing Your Tasks from [!DNL Slack]](#manage-your-tasks-from-slack-manage-your-tasks-from-slack).
 
 1. (Optional) Click **[!UICONTROL Issues]** to display all your issues.
 
-   For more information about managing issues in [!DNL Slack], see [Managing Your Issues from [!DNL Slack]](#manage-your-issues-from-dnl-slack-manage-your-issues-from-slack).
+   For more information about managing issues in [!DNL Slack], see [Managing Your Issues from [!DNL Slack]](#manage-your-issues-from-slack-manage-your-issues-from-slack).
 
 1. (Optional) Click **[!UICONTROL Approvals]** to display all the approvals waiting for your decision.  
-   For more information about managing your approvals in [!DNL Slack], see [Manage your approvals from [!DNL Slack]](#manage-your-approvals-from-dnl-slack-manage-your-approvals-from-slack).
+   For more information about managing your approvals in [!DNL Slack], see [Manage your approvals from [!DNL Slack]](#manage-your-approvals-from-slack-manage-your-approvals-from-slack).
 
 ## Manage your tasks from [!DNL Slack] {#manage-your-tasks-from-slack}
 

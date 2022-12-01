@@ -91,7 +91,7 @@ For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Work
 
 1. Continue on to [Connect the module's app or web service to [!DNL Workfront Fusion]](#connect-the-modules-app-or-web-service-to-workfront-fusion).
 
-## Connect the module's app or web service to [!DNL Workfront Fusion]
+## Connect the module's app or web service to [!DNL Workfront Fusion] {#connect-the-modules-app-or-web-service-to-workfront-fusion}
 
 Workfront Fusion modules that connect to an app (such as [!DNL Workfront], [!DNL Salesforce], or [!DNL Jira)] feature the [!UICONTROL Connection] field. Here, you can specify the connection that you want this module to use to connect to the app. You can select an existing connection from the dropdown, or create a new connection.
 

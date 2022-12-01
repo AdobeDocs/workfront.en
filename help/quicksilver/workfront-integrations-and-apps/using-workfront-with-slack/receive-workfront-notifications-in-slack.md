@@ -94,7 +94,7 @@ To manage your [!DNL Workfront] notifications for [!DNL Slack]:
    For information about logging in to [!DNL Workfront] from [!DNL Slack], see the "Logging in to [!DNL Workfront] from [!DNL Slack]" section in [Access [!DNL Adobe Workfront] from [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md).
 
 1. Ensure that your [!DNL Workfront] notifications for [!DNL Slack] are enabled.\
-   For more information about which [!DNL Workfront] notifications can be configured to also be sent to [!DNL Slack], see [Configure [!DNL Workfront] notifications for [!DNL Slack]](#configure-dnl-workfront-notifications-for-dnl-slack-configure-workfront-notifications-for-slack).
+   For more information about which [!DNL Workfront] notifications can be configured to also be sent to [!DNL Slack], see [Configure [!DNL Workfront] notifications for [!DNL Slack]](#configure-workfront-notifications-for-slack-configure-workfront-notifications-for-slack).
 
 1. Go to the **[!DNL Workfront]** channel to find your [!DNL Workfront] notifications. 
 1. (Conditional and optional) Do any of the following: 

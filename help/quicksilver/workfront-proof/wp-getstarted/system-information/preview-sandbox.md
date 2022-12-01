@@ -29,8 +29,8 @@ The Preview Sandbox contains your actual production data. Data flows from Produc
 
 By default, as a system administrator, you have access to the Preview Sandbox environment. If you cannot access the Preview Sandbox environment as described in this section, contact your [!DNL Workfront] administrator or our Support team.
 
-* [Accessing the Preview Sandbox as a Stand-Alone [!DNL Workfront Proof] Customer](#accessing-the-preview-sandbox-as-a-stand-alone-dnl-workfront-proof-customer)
-* [Accessing the Preview Sandbox as a [!DNL Workfront]+[!DNL Workfront Proof] Customer](#accessing-the-preview-sandbox-as-a-dnl-workfrontworkfront-proof-customer)
+* [Accessing the Preview Sandbox as a Stand-Alone [!DNL Workfront Proof] Customer](#accessing-the-preview-sandbox-as-a-stand-alone-workfront-proof-customer)
+* [Accessing the Preview Sandbox as a [!DNL Workfront]+[!DNL Workfront Proof] Customer](#accessing-the-preview-sandbox-as-a-workfrontworkfront-proof-customer)
 
 ### Accessing the Preview Sandbox as a Stand-Alone [!DNL Workfront Proof] Customer 
 
