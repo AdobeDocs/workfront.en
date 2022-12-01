@@ -307,9 +307,29 @@ The enhancements on this page are available in the Preview environment. This pag
                         </p>
                     </td>
                 </tr>
+                 <tr>
+                    <td>
+                        <a href="../../../product-announcements/product-releases/23.1-release-activity/23-1-nov-28.md" class="MCXref xref" xrefformat="{para}">New list control functionality in Filters, Views, and Groupings pages in the Setup area.</a><span style="color: #ff0000;"> New in Preview!</span></p>
+                        <p>We've added list control functionality to the Filters, Views, and Groupings pages in the Setup area. There, you can enable or disable filters, views, and groupings for the Layout Template.
+</p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                     <p>
+                        </p>
+                        <ul>
+                            <li>
+                                <p>Preview release: December 1, 2022<br /></p>
+                            </li>
+                            <li>
+                                <p>Production release: With the 23.1 release</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-nov-14.md" class="MCXref xref" xrefformat="{para}">Introducing Adobe Workfront for design and video</a><span style="color: #ff0000;"> New in Production!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-nov-14.md" class="MCXref xref" xrefformat="{para}">Introducing Adobe Workfront for design and video</a></p>
                         <p>We're excited to announce the expansion of our Adobe Workfront for InDesign plugin to include Adobe Premiere Pro, and After Effects. The plugin will be renamed to Adobe Workfront for design and video.</p>
                         <p>The updated plugin, Adobe Workfront for design and video, will now support InDesign, Premiere Pro, and After Effects—with Illustrator soon to follow.</p>
                         <p>This plugin allows you to access work item details, collaborate with coworkers in the Updates area, and log time–all without leaving your favorite Creative Cloud application. </p>
