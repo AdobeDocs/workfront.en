@@ -7,7 +7,7 @@ author: Alina
 feature: Workfront Scenario Planner
 exl-id: 20429bb1-c158-433b-9790-325cd577248e
 ---
-# Import projects to plans in the Scenario Planner
+# Import projects to plans in the [!DNL Scenario Planner]
 
 You can import existing projects into a plan. The imported projects are converted to initiatives and you can manage them within the plan as you would manage a new initiative. The original project remains linked to the new initiative.
 
@@ -28,29 +28,29 @@ You must have the following:
  <col> 
  <tbody> 
   <tr> 
-   <td> <p>Adobe Workfront<b> plan*</b> </p> </td> 
-   <td>Business or higher</td> 
+   <td> <p>[!DNL Adobe Workfront]<b> plan*</b> </p> </td> 
+   <td>[!UICONTROL Business] or higher</td> 
   </tr> 
   <tr> 
-   <td> <p>Adobe Workfront<b> license*</b> </p> </td> 
-   <td> <p>Review or higher</p> </td> 
+   <td> <p>[!DNL Adobe Workfront]<b> license*</b> </p> </td> 
+   <td> <p>[!UICONTROL Review] or higher</p> </td> 
   </tr> 
   <tr> 
    <td><b>Product</b> </td> 
-   <td> <p>You must purchase an additional license for the Adobe Workfront Scenario Planner to access functionality described in this article.</p> <p>For information about obtaining the Workfront Scenario Planner, see <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Access needed to use the Scenario Planner</a>. </p> </td> 
+   <td> <p>You must purchase an additional license for the [!DNL Adobe Workfront Scenario Planner] to access functionality described in this article.</p> <p>For information about obtaining the [!DNL Workfront Scenario Planner], see <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Access needed to use the [!DNL Scenario Planner]</a>. </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td><strong>Access level configurations*</strong> </td> 
-   <td> <p>Edit access or higher to the Scenario Planner</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>[!UICONTROL Edit] access or higher to the [!DNL Scenario Planner]</p> <p>Note: If you still don't have access, ask your [!DNL Workfront] administrator if they set additional restrictions in your access level. For information on how a [!DNL Workfront] administrator can change your access level, see <a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><strong>Object permissions</strong> </p> </td> 
-   <td> <p>Manage permissions to a plan</p> <p>For information on requesting additional access to a plan, see <a href="../scenario-planner/request-access-to-plan.md" class="MCXref xref">Request access to a plan in the Scenario Planner</a>.</p> </td> 
+   <td> <p>[!UICONTROL Manage] permissions to a plan</p> <p>For information on requesting additional access to a plan, see <a href="../scenario-planner/request-access-to-plan.md" class="MCXref xref">Request access to a plan in the Scenario Planner</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+&#42;To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
 
 ## Considerations about importing projects into plans as new initiatives
 
@@ -60,9 +60,9 @@ You must have the following:
   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: no caveats for project statuses yet, mentioned in the import steps as a tip) </p>
   -->
 
-* You must have at least View permissions to the projects to be able to import them into a plan as new initiative. 
+* You must have at least [!UICONTROL View] permissions to the projects to be able to import them into a plan as new initiative. 
 * You can import the same project into multiple plans. 
-* The projects you want to import must have dates included in the time frame of your plan. You cannot import projects with a Planned Completion Date earlier than the start of the plan or a Planned Start Date later than the end of the plan. 
+* The projects you want to import must have dates included in the time frame of your plan. You cannot import projects with a [!UICONTROL Planned Completion Date] earlier than the start of the plan or a [!UICONTROL Planned Start Date] later than the end of the plan. 
 * You cannot import more than 100 projects at a time. 
 * Some project information is also imported into the plan and becomes initiative information. For information about what project information is imported into the plan and becomes initiative information, see the [Project information imported into the plan](#project-information-imported-into-the-plan) section in this article. 
 * Changes that occur on the linked projects do not affect the initiatives on the plan. 
@@ -98,17 +98,17 @@ When you import a project into a plan some project information is also imported 
    <td>Job roles assigned to tasks and issues</td> 
    <td> <p>Initiative Job&nbsp;Roles. </p> <p>Note:   <p>If a user changes roles during the life of the project, the roles that are imported depend on the status of the assignment when you import the project. The following scenarios exist:</p> 
      <ul> 
-      <li> <p>If a user assigned to a task or an issue changed their role after they marked their assignment as Done, Workfront imports to the initiative the role the user fulfilled before they marked the assignment as Done.</p> </li> 
-      <li> <p>If a user assigned to a task or issue changed the role during the life of the project but their assignment on the task or issue is not marked as Done when you import the project, Workfront imports only the current role of the assigned user. </p> </li> 
-     </ul> <p>For information about the status of an assignment, see "Assignment Status" in <a href="../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md" class="MCXref xref">Glossary of Adobe Workfront terminology</a>. </p> </p> </td> 
+      <li> <p>If a user assigned to a task or an issue changed their role after they marked their assignment as [!UICONTROL Done], [!DNL Workfront] imports to the initiative the role the user fulfilled before they marked the assignment as [!UICONTROL Done].</p> </li> 
+      <li> <p>If a user assigned to a task or issue changed the role during the life of the project but their assignment on the task or issue is not marked as [!UICONTROL Done] when you import the project, [!DNL Workfront] imports only the current role of the assigned user. </p> </li> 
+     </ul> <p>For information about the status of an assignment, see "Assignment Status" in <a href="../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md" class="MCXref xref">Glossary of Adobe [!DNL Workfront] terminology</a>. </p> </p> </td> 
   </tr> 
   <tr> 
    <td>Project Planned Hours associated with job roles assigned to tasks or issues</td> 
-   <td> <p><span>Depending on whether the plan is set up to use FTEs or hours, the Planned Hours from the tasks on the project become either</span> Required FTEs <span>or Required hours on the plan</span>. </p> <p>For information about setting up a plan to use&nbsp;FTEs or hours, see <a href="../scenario-planner/create-and-edit-plans.md" class="MCXref xref">Create and edit plans in the Scenario Planner</a>. </p> <p>Consider the following:</p> 
+   <td> <p><span>Depending on whether the plan is set up to use FTEs or hours, the Planned Hours from the tasks on the project become either</span> Required FTEs <span>or Required hours on the plan</span>. </p> <p>For information about setting up a plan to use&nbsp;FTEs or hours, see <a href="../scenario-planner/create-and-edit-plans.md" class="MCXref xref">Create and edit plans in the [!DNL Scenario Planner]</a>. </p> <p>Consider the following:</p> 
     <ul> 
-     <li> <p>Workfront uses the job roles assigned to tasks and issues or the job roles that the users assigned to tasks or issues are associated with on the project and transfers them to the new initiative as Required Job&nbsp;Roles. </p> </li> 
-     <li> <p>When the plan is set up to use FTEs, the Planned Hours associated with the job roles on the tasks and issues of the project are first converted to FTE.&nbsp;This FTE is then assigned to the initiative's job role. <span>Planned Hours are equally distributed in Workfront. If a task or an issue spans multiple months, the amount of Planned Hours for each month in the duration of the initiative is converted in monthly FTE and transferred to each month of the initiative.</span></p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Example: </b></span></span><span>For example, if a task is assigned to a job role for 80 Planned Hours in September, then the imported job role displays 0.5 FTE for the initiative in September.</span> </p> </li> 
-     <li> <p>Workfront calculates the FTE of the Required Job&nbsp;roles associated with the initiative using the following formula:</p> <p><code>Required Job Role FTE (initiative) = Job Role assignment Planned Hours (</code><code>from tasks and issues on the project)/ 160</code> </p> <p>Tip: The Scenario Planner assumes that there are 160 working hours in a month.</p> <p>For example, if a project has a Duration of 1200 minutes and a job role on the project is associated with 600 minutes of Planned Hours, their FTE is 0.5. When importing the project, the Required Job Role FTE on the newly created initiative is 0.5 for each month of the initiative. </p> </li> 
+     <li> <p>[!DNL Workfront] uses the job roles assigned to tasks and issues or the job roles that the users assigned to tasks or issues are associated with on the project and transfers them to the new initiative as Required Job&nbsp;Roles. </p> </li> 
+     <li> <p>When the plan is set up to use FTEs, the Planned Hours associated with the job roles on the tasks and issues of the project are first converted to FTE.&nbsp;This FTE is then assigned to the initiative's job role. <span>Planned Hours are equally distributed in [!DNL Workfront]. If a task or an issue spans multiple months, the amount of Planned Hours for each month in the duration of the initiative is converted in monthly FTE and transferred to each month of the initiative.</span></p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Example: </b></span></span><span>For example, if a task is assigned to a job role for 80 Planned Hours in September, then the imported job role displays 0.5 FTE for the initiative in September.</span> </p> </li> 
+     <li> <p>Workfront calculates the FTE of the Required Job&nbsp;roles associated with the initiative using the following formula:</p> <p><code>Required Job Role FTE (initiative) = Job Role assignment Planned Hours (</code><code>from tasks and issues on the project)/ 160</code> </p> <p>Tip: The [!DNL Scenario Planner] assumes that there are 160 working hours in a month.</p> <p>For example, if a project has a Duration of 1200 minutes and a job role on the project is associated with 600 minutes of Planned Hours, their FTE is 0.5. When importing the project, the Required Job Role FTE on the newly created initiative is 0.5 for each month of the initiative. </p> </li> 
      <li>When a job role is assigned to a task on the project with zero Planned Hours, the Required FTE for the job role of the initiative is zero by default. <!--
        <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
          (NOTE: this used to be 1, not zero in Production) 
