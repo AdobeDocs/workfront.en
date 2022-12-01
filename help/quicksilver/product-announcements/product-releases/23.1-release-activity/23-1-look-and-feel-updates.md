@@ -33,6 +33,7 @@ In addition to an updated look and feel, the following changes are also availabl
 <!--
 For more information, see [Edit project templates](/help\quicksilver\manage-work\projects\create-and-manage-templates\edit-templates.md).
 -->
+
 ## New look and feel for Workfront for Jira integration
 
 >[!NOTE]
