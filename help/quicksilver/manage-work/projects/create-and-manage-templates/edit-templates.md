@@ -581,7 +581,7 @@ By editing issue settings, you can prevent users from adding issues inline in th
       * [Access](#access-preview) 
       
 
- #### Template Name{#template-name}
+#### Template Name{#template-name}
 
    1. Begin editing your template as described above.
    1. In the **Edit Template** box, click **Template Name**.
@@ -688,7 +688,7 @@ By editing issue settings, you can prevent users from adding issues inline in th
 
       Click **Save**.
 
-   #### Finance {#finance-preview}
+#### Finance {#finance-preview}
 
    1. Begin editing your template as described above.
    1. In the **Edit Template** box, click **Finance**.
@@ -964,7 +964,7 @@ By editing issue settings, you can prevent users from adding issues inline in th
       Click **Save**.
 
 
-####  Access {#access-preview}
+#### Access {#access-preview}
 
    1. Begin editing your template as described above.
    1. In the **Edit Template** box, click **Access**.
