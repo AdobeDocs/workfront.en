@@ -9,10 +9,10 @@ author: Becky
 feature: Workfront Fusion
 exl-id: 54d74cd4-8513-45aa-8ac4-0a746d472f0f
 ---
-# Webhooks in Adobe Workfront Fusion
+# Webhooks in [!DNL Adobe Workfront Fusion]
 
-Adobe Workfront Fusion requires an Adobe Workfront Fusion license in addition to an Adobe Workfront license.
+[!DNL Adobe Workfront Fusion] requires an [!DNL Adobe Workfront Fusion] license in addition to an Adobe Workfront license.
 
 This section contains the following articles:
 
-* [Instant triggers (webhooks) in Adobe Workfront Fusion](../../workfront-fusion/webhooks/instant-triggers-webhooks.md)
+* [Instant triggers (webhooks) in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/webhooks/instant-triggers-webhooks.md)

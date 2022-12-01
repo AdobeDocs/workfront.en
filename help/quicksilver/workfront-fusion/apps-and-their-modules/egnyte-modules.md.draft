@@ -572,11 +572,11 @@ When you are configuring this module, the following fields display.
   </tr> 
   <tr> 
    <td>Created before</td> 
-   <td> <p> Enter the date in the <code>YYYY-MM-DD</code> format to list links created before this date. For a list of supported date and time formats, see <a href="../../workfront-fusion/mapping/type-coercion.md" class="MCXref xref">Type coercion in Adobe Workfront Fusion</a>.</p> </td> 
+   <td> <p> Enter the date in the <code>YYYY-MM-DD</code> format to list links created before this date. For a list of supported date and time formats, see <a href="../../workfront-fusion/mapping/type-coercion.md" class="MCXref xref">Type coercion in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>Created after </td> 
-   <td> <p>Enter the date in the <code>YYYY-MM-DD</code> format to list links created after this date. For a list of supported date and time formats, see <a href="../../workfront-fusion/mapping/type-coercion.md" class="MCXref xref">Type coercion in Adobe Workfront Fusion</a>.</p> </td> 
+   <td> <p>Enter the date in the <code>YYYY-MM-DD</code> format to list links created after this date. For a list of supported date and time formats, see <a href="../../workfront-fusion/mapping/type-coercion.md" class="MCXref xref">Type coercion in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>Type</td> 
@@ -907,7 +907,7 @@ When you are configuring this module, the following fields display.
   </tr> 
   <tr> 
    <td> <p>Method</p> </td> 
-   <td> <p>Select the HTTP request method you need to configure the API call. For more information, see <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">HTTP request methods in Adobe Workfront Fusion</a>.</p> </td> 
+   td> <p>Select the HTTP request method you need to configure the API call. For more information, see <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">HTTP request methods in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>Headers </td> 

@@ -2,8 +2,8 @@
 product-area: projects
 navigation-topic: approvals
 title: Associate a new or existing approval process with work
-description: This article describes how you can associate approval processes with work items. For information about associating approvals with proofs or documents, see the following articles - EDIT ME.
-author: Courtney
+description: This article describes how you can associate approval processes with work items. For information about associating approvals with proofs or documents, see the following articles.
+author: Courtney and Alina
 feature: Work Management
 exl-id: 20bc2f2a-3ec7-4531-a0a8-ec54c14e15d0
 ---
@@ -14,7 +14,7 @@ This article describes how you can associate approval processes with work items.
 * [Create an advanced proof with an Automated workflow](../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-automated-proof-workflow.md) 
 * [Request document approvals](../../review-and-approve-work/manage-approvals/request-document-approvals.md)
 
-You can associate a global or single-use approval process with a work item in&nbsp;Adobe Workfront. The following scenarios exist:
+You can associate a global or single-use approval process with a work item in Adobe Workfront. The following scenarios exist:
 
 * Associate an existing global approval process with a project, task, issue, template, or template task. Some global approval processes are available to all groups in the system. Group-level global approval processes are available only to certain groups.
 * Create a single-use approval process and associate it with an existing project, task, issue, template, or template task.

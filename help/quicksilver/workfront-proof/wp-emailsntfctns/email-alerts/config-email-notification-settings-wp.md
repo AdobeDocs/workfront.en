@@ -32,7 +32,7 @@ Users with [!UICONTROL Administrator] or [!UICONTROL Billing Administrator] prof
 
 For information about profiles, see [Proof Permissions Profiles in [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md).
 
-* [Configure proof defaults in personal settings ([!DNL Workfront Proof] users only)](#configure-proof-defaults-in-personal-settings-dnl-workfront-proof-users-only)
+* [Configure proof defaults in personal settings ([!DNL Workfront Proof] users only)](#configure-proof-defaults-in-personal-settings-workfront-proof-users-only)
 * [Change email alerts for a recipient](#change-email-alerts-for-a-recipient)
 * [Configure proof defaults for a user](#configure-proof-defaults-for-a-user)
 

@@ -4,8 +4,8 @@ description: Look and feel updates during the 23.1 release time frame
 author: Luke
 draft: Probably
 feature: Product Announcements
+exl-id: e16e54ee-b74d-495a-9e1b-f5c429458772
 ---
-
 # Look-and-feel updates during the 23.1 release time frame
 
 This page describes minor updates to the look and feel of various areas of the Adobe Workfront application that were made within the 23.1 release timeframe. These enhancements will be made available in the Production environment a minimum of 2 weeks after releasing to Preview.
@@ -16,7 +16,7 @@ For a list of all changes available with the 23.1 release, see [23.1 Release ove
 
 >[!NOTE]
 >
->Preview release: N/A; Planned Production release: November 10, 2022.
+>Preview release: N/A; Planned Production release: November 14, 2022.
 
 To create a more consistent experience within Jira, we've updated the Workfront for Jira integration. The look and feel of the Workfront for Jira integration now matches the look and feel of Jira.
 
@@ -28,7 +28,9 @@ For more information on the Workfront for Jira integration, see [Adobe Workfront
 
 >[!NOTE]
 >
->Preview release: October 27, 2022; Planned Production release: November 10, 2022.
+>Preview release: October 27, 2022; Planned Production release: November 10, 2022. 
+>
+>After these fields are updated in Production on November 10, all remaining user fields throughout Workfront will be updated directly in Production as part of weekly patches. 
 
 There is additional user information that displays when you add users to the following fields: 
 
@@ -54,7 +56,7 @@ For more information, and to view a video demonstration of a similar feature, se
 
 >[!NOTE]
 >
->Preview release: October 20, 2022; Planned Production release: Phased rollout beginning on November 3, with availability for all customers by November 17, 2022.
+>Preview release: October 20, 2022; Planned Production release: TBD <!-- Phased rollout beginning on November 3, with availability for all customers by November 17, 2022. -->
 
 The Notifications page now has a modern look and feel, in line with other areas of Workfront.
 

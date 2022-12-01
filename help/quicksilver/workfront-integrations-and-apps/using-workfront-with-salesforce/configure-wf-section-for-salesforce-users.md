@@ -108,8 +108,8 @@ You can add the [!DNL Workfront] section to the layout of a [!DNL Salesforce] [!
  in the [!DNL Salesforce Lightning Experience] framework either by accessing the [!UICONTROL Setup] area, or from an Account
  or [!UICONTROL Opportunity] object. 
 
-* [Configure the [!DNL Workfront] section at the [!UICONTROL Setup] level](#configure-the-dnl-workfront-section-at-the-uicontrol-setup-level-configure-the-workfront-section-at-the-setup-level)
-* [Configure the [!DNL Workfront] Section at the Opportunity or Account level](#configure-the-dnl-workfront-section-at-the-opportunity-or-account-level-configure-the-workfront-section-at-the-opportunity-or-account-level)
+* [Configure the [!DNL Workfront] section at the [!UICONTROL Setup] level](#configure-the-workfront-section-at-the-setup-level-configure-the-workfront-section-at-the-setup-level)
+* [Configure the [!DNL Workfront] Section at the Opportunity or Account level](#configure-the-workfront-section-at-the-opportunity-or-account-level-configure-the-workfront-section-at-the-opportunity-or-account-level)
 
 ### Configure the [!DNL Workfront] section at the [!UICONTROL Setup] level {#configure-the-workfront-section-at-the-setup-level}
 
@@ -131,7 +131,7 @@ You can add the [!DNL Workfront] section to the layout of a [!DNL Salesforce] [!
 
    Click **[!UICONTROL New]** to create a new page layout.
 
-1. Continue with [Configure the [!DNL Workfront] Section at the Opportunity or Account level](#configure-the-dnl-workfront-section-at-the-opportunity-or-account-level-configure-the-workfront-section-at-the-opportunity-or-account-level) below.
+1. Continue with [Configure the [!DNL Workfront] Section at the Opportunity or Account level](#configure-the-workfront-section-at-the-opportunity-or-account-level-configure-the-workfront-section-at-the-opportunity-or-account-level) below.
 
 ### Configure the [!DNL Workfront] Section at the Opportunity or Account level {#configure-the-workfront-section-at-the-opportunity-or-account-level}
 

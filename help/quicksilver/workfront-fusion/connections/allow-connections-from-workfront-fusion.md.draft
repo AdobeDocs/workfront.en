@@ -12,7 +12,7 @@ hidefromtoc: true
 # Allow connections from Adobe Workfront Fusion
 
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">Sam:&nbsp;Exclude until after GA release.</p>
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">Sam: Exclude until after GA release.</p>
 -->
 
 Adobe Workfront Fusion makes connections from the following IP range: 

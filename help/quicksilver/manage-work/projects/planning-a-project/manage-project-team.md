@@ -9,8 +9,6 @@ exl-id: 6e8036fc-feda-4277-9502-0b973028fccb
 ---
 # Manage the Project Team
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> 
-
 The Project Team consists of users who are associated with the project. The members of the Project Team display in the People section of the project.
 
 ## Access requirements
@@ -101,7 +99,7 @@ If users that don't fulfill any role on the project want to be notified about ce
    >[!TIP]
    >
    >* You cannot add users by adding their teams, groups, companies, or job roles.
-   >* <span class="preview">As you add the users, notice the avatar, the user's Primary Role, and their email address to distinguish between users with identical names. Users must be associated with at least one job role to view it as you add them.</span> 
+   >* As you add the users, notice the avatar, the user's Primary Role, and their email address to distinguish between users with identical names. Users must be associated with at least one job role to view it as you add them.
 
 
 1. Click **Add**.

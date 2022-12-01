@@ -100,7 +100,7 @@ The following list shows which [!DNL Workfront] fields synchronize with [!DNL Ji
   </tr> 
   <tr> 
    <td>Custom Forms and Custom Fields</td> 
-   <td> <p> Display in the [!DNL Workfront] right panel of the [!DNL Jira] issue. <br>Only the Custom Fields that have an actual value display in the panel.<br><img src="assets/custom-form-in-workfront-side-panel-274x309.png" alt="custom_form_in_workfront_side_panel.png" style="width: 274;height: 309;"></p> <p>Note: Custom Form sections are displayed with the access level of the [!DNL Workfront] administrator. </p> </td> 
+   <td> <p> Display in the [!DNL Workfront] right panel of the [!DNL Jira] issue. <br>Only the Custom Fields that have an actual value display in the panel.<br><img src="assets/new-custom-form-in-workfront-side-panel-1012x1314.png" alt="custom_form_in_workfront_side_panel.png" style="width: 1012;height: 1014;"></p> <p>Note: Custom Form sections are displayed with the access level of the [!DNL Workfront] administrator. </p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Issue or Task Priority]</td> 
@@ -180,10 +180,10 @@ The time you record in [!DNL Workfront] does not affect the time of the linked i
 A comment is added to the **[!DNL Workfront]** tab in [!DNL Jira] and to the **[!UICONTROL Updates]** tab of the item in [!DNL Workfront] to record logging the time.\
 The time is also displayed in the **[!UICONTROL Hours]** tab of the [!DNL Workfront] item. 
 
-* [Log time for Linked [!DNL Jira] and [!DNL Workfront] items](#log-time-for-linked-dnl-jira-and-dnl-workfront-items-log-time-for-linked-jira-and-workfront-items) 
-* [Log time from [!DNL Jira] to a [!DNL Workfront] item](#log-time-from-dnl-jira-to-a-dnl-workfront-item-log-time-from-jira-to-a-workfront-item)
+* [Log time for Linked [!DNL Jira] and [!DNL Workfront] items](#log-time-for-linked-jira-and-workfront-items) 
+* [Log time from [!DNL Jira] to a [!DNL Workfront] item](#log-time-from-jira-to-a-workfront-item)
 
-### Log time for Linked [!DNL Jira] and [!DNL Workfront] items {#log-time-for-linked-jira-and-workfront-items}
+### Log time for Linked [!DNL Jira] and [!DNL Workfront] items 
 
 You can log time from a [!DNL Jira] issue linked to a [!DNL Workfront] item, and the time is recorded both on the [!DNL Jira] issue as well as the [!DNL Workfront] item. 
 
@@ -196,7 +196,7 @@ To log time for an item in [!DNL Jira] and have it recorded both in [!DNL Jira] 
 1. Log into [!DNL Jira].
 1. Go to the [!DNL Jira] issue which is linked to the [!DNL Workfront] item.
 1. Expand the **[!UICONTROL More]** menu and click **[!UICONTROL Log work]**.\
-   ![log_time_from_More_menu_in_Jira.png](assets/log-time-from-more-menu-in-jira-239x232.png)
+   ![log_time_from_More_menu_in_Jira.png](assets/new-log-time-from-more-menu-in-jira-994x594.png)
 
 1. In the **[!UICONTROL Time Spent]** field, specify the amount of time spent working on this issue. You must specify the time using the following time periods:
 
@@ -208,7 +208,7 @@ To log time for an item in [!DNL Jira] and have it recorded both in [!DNL Jira] 
    The time is added to the **[!UICONTROL Work log]** tab of the [!DNL Jira] item, as well as to the [!DNL Workfront] item linked to it.\
    The work description of the time entry is recorded as a note on the hour entry in [!DNL Workfront]. 
 
-### Log time from [!DNL Jira] to a [!DNL Workfront] item {#log-time-from-jira-to-a-workfront-item}
+### Log time from [!DNL Jira] to a [!DNL Workfront] item 
 
 You can log time just to the linked [!DNL Workfront] item from the [!DNL Jira] issue without recording this time to the [!DNL Jira] issue. 
 

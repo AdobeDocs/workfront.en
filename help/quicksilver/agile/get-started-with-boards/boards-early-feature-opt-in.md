@@ -94,6 +94,26 @@ The following table outlines major features of boards along with their current r
    <td>Define card falloff</td>
    <td>Partially released</td>
   </tr>
+  <tr>
+   <td>Search for a board and sort the dashboard</td>
+   <td>Partially released</td>
+  </tr>
+  <tr>
+   <td>Display the status on a card</td>
+   <td>Partially released</td>
+  </tr>
+  <tr>
+   <td>Use a card counter on columns</td>
+   <td>Partially released</td>
+  </tr> 
+  <tr>
+   <td>Import subtasks as checklist items on cards</td>
+   <td>Partially released</td>
+  </tr>
+  <tr>
+   <td>Create iterations</td>
+   <td>Planned</td>
+  </tr>
  </tbody> 
 </table> 
 

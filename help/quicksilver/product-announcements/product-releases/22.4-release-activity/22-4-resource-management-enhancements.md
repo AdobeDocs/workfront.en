@@ -4,8 +4,8 @@ description: 22.4 Resource Management enhancements
 author: Luke
 draft: Probably
 feature: Product Announcements
+exl-id: cd026fc9-e3be-4cff-8d85-4f50fae9dd77
 ---
-
 # 22.4 Resource Management enhancements
 
 This page describes all Resource Management enhancements made with the 22.4 release to the Preview environment. These enhancements will be made available the week of October 3, 2022. 
@@ -51,4 +51,3 @@ For more information, see the following articles:
 * [Manage user allocations in the Workload Balancer](/help/quicksilver/resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md). 
 
 For more information about the deprecation of Scheduling, see [Deprecation of Resource Scheduling tools in Adobe Workfront](/help/quicksilver/resource-mgmt/resource-mgmt-overview/deprecate-resource-scheduling.md).
-
