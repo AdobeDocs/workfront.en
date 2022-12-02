@@ -10,7 +10,7 @@ exl-id: e86524d3-5f57-45b6-8582-102d2de92be4
 
 This page provides information about functionality that is included in the 23.1 release.
 
-The enhancements on this page are available in the Preview environment. This page will be updated with additional enhancements as the 23.1 release nears its planned Production release, which is scheduled for early 2023.
+The enhancements on this page are available in the Preview environment. This page will be updated with additional enhancements as the 23.1 release nears its planned Production release, which is scheduled for January 18th and 19th.
 
 <span class="preview">Off-cycle features (those releasing to Production prior to the 23.1 release date) are highlighted in yellow.</span>
 
