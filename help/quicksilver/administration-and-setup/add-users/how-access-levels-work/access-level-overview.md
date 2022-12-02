@@ -291,72 +291,7 @@ The following are the highest access settings available for objects in the Exter
 
 ## How access levels and permissions work together
 
-Access levels define what users can see and do with object types and areas in the system. Permissions define what you have access to on objects created by other people in the system.
-
-When sharing an object with someone in the system, a user can grant the recipient any of the following permissions to the object.
-
-* **View**: This level of permission allows the recipient to share the object in one of the following ways:
-
-  * System-wide so that all users can see it (not available for all objects)
-  * With external users who don't have a Workfront license (not available for all objects)
-  * With an email address (available only for documents)
-
-* **Contribute**: (not available for all objects)
-* **Manage**: When someone shares an object, the recipient's rights to the object are determined by a combination of the recipient's access level and the permissions to the object that were granted by the sharer. The lowest degree of access available in that combination is what determines what the recipient can do with the object.
-
-  >[!INFO]
-  >
-  >**Example:** If the recipient's access level doesn't allow project editing, that person can't edit or delete a project even if the sharer granted permissions to manage it.
-  >
-  >Or, if the recipient's access level allows project editing, but the sharer granted view-only permissions to a project, the user cannot edit or delete the project.
-
-
-Users also gain access to individual objects when other users share and grant certain permissions on those objects.
-
-So, the activities a user can do with an object are defined by a combination of their access level and the permissions given to them.
-
-![](assets/security-model-hierachy-copy.png)
-
->[!INFO]
->
->**Example**: If your access level says that you can create tasks, but the permissions you receive on a specific project don't allow you to add tasks to it, you can't add tasks on the project even though you can create tasks elsewhere in Workfront.
-
-### Access level
-
-Access levels define what assigned users can see and do with the following object types and areas in Workfront:
-
-* Projects
-* Tasks
-* Issues
-* Portfolios
-* Reports, Dashboards, and Calendars
-* Filters, Views, and Groupings
-* Documents
-* Other users
-* Templates
-* Financial Data
-* Resource Management
-* Scenario Planner 
-
-
-### Permissions
-
-When sharing an object with someone in the system, a user can grant the recipient any of the following permissions to the object.
-
-* **View**: This level of permission allows the recipient to share the object in one of the following ways:
-
-  * System-wide so that all users can see it (not available for all objects)
-  * With external users who don't have a Workfront license (not available for all objects)
-  * With an email address (available only for documents)
-
-* **Contribute**: (not available for all objects)
-* **Manage**: When someone shares an object, the recipient's rights to the object are determined by a combination of the recipient's access level and the permissions to the object that were granted by the sharer. The lowest degree of access available in that combination is what determines what the recipient can do with the object.
-
-  >[!INFO]
-  >
-  >**Example:** If the recipient's access level doesn't allow project editing, that person can't edit or delete a project even if the sharer granted permissions to manage it.
-  >
-  >Or, if the recipient's access level allows project editing, but the sharer granted view-only permissions to a project, the user cannot edit or delete the project.
+Access levels define what users can see and do with general object types and areas in the system, such as projects, tasks, and issues. Permissions define what you have access to on specificIf oudn objects created by other people in the system like a project created to run a marketing campaign.
 
 The following table compares a user's general access to objects (defined by the user's access level) to permissions for a specific shared object:
 
@@ -391,10 +326,40 @@ The following table compares a user's general access to objects (defined by the 
  </tbody> 
 </table>
 
+The activities a user can do with an object are defined by a combination of their access level and the permissions given to them.
+
+![](assets/security-model-hierachy-copy.png)
+
+### Grant permissions through sharing objects
+
+Users gain access to individual objects when other users share and grant certain permissions on those objects. 
+
 >[!NOTE]
 >
 >* If a user shares an object with certain permissions and that object has any child objects below it, the recipient inherits the same permissions for those child objects. 
 >* If an access level restricts users from deleting certain objects, this doesn't keep them from deleting child objects that are contained in those objects.
+
+A user can grant the recipient any of the following permissions to the individual object:
+
+* **View**: This level of permission allows the recipient to share the object in one of the following ways:
+
+  * System-wide so that all users can see it (not available for all objects)
+  * With external users who don't have a Workfront license (not available for all objects)
+  * With an email address (available only for documents)
+
+* **Contribute**: (not available for all objects)
+* **Manage**: When someone shares an object, the recipient's rights to the object are determined by a combination of the recipient's access level and the permissions to the object that were granted by the sharer. The lowest degree of access available in that combination is what determines what the recipient can do with the object.
+
+  >[!INFO]
+  >
+  >**Example:** If the recipient's access level doesn't allow project editing, that person can't edit or delete a project even if the sharer granted permissions to manage it.
+  >
+  >Or, if the recipient's access level allows project editing, but the sharer granted view-only permissions to a project, the user cannot edit or delete the project.
+
+
+
+
+
 >
 
 ### More example scenarios
