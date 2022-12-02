@@ -96,7 +96,7 @@ You can choose to show or hide filters, views, or groupings from the Layout Temp
 
 ## Make filters, views, or groupings available to all users {#make-filters-views-or-groupings-available-to-users}
 
-These steps explain how to make filters, views, and groupings available from the Share dialog in the Interface area in Setup. <!-- This settings acts like an on/off switch for the entire system, including the Layout Template. -->
+These steps explain how to make filters, views, and groupings available from the Share dialog in the Interface area in Setup. This settings acts like an on/off switch for the entire system, including the Layout Template.
 
 {{step-1-to-setup}}
 
