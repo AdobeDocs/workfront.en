@@ -34,7 +34,7 @@ Before you begin, you must have the following:
 
 >[!NOTE]
 >
->You can create initiatives and connect them to projects only if your organization has purchased an additional license for the Workfront [!DNL Scenario Planner].
+>You can create initiatives and connect them to projects only if your organization has purchased an additional license for the [!DNL Workfront Scenario Planner].
 
 You can connect projects with initiatives by doing one of the following:
 
