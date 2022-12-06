@@ -1,5 +1,5 @@
 ---
-title: Adobe Workfront licenses overview
+title: Licenses overview
 user-type: administrator
 content-type: reference
 product-area: system-administration

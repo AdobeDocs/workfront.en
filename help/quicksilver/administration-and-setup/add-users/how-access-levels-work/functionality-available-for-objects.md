@@ -44,7 +44,7 @@ In each access level, you can configure the following options for projects:
       </ul> </li> 
     </ul> </td> 
   </tr> 
-   <td>Reviewer</td> 
+   <td>Light</td> 
    <td> 
     <ul> 
      <li> <b>No access</b> </li> 
@@ -52,7 +52,7 @@ In each access level, you can configure the following options for projects:
     </ul> </td> 
   </tr> 
   <tr> 
-   <td>Requestor</td> 
+   <td>Contributor</td> 
    <td> 
     <ul> 
      <li> <b>No access</b> </li> 
