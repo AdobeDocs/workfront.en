@@ -10,7 +10,7 @@ author: Courtney
 feature: System Setup and Administration
 role: Admin
 ---
-# Adobe Workfront licenses overview
+# Licenses overview
 
 Your organization purchased a certain number of licenses when it acquired Adobe Workfront. As a Workfront administrator, you give one of 3 types of paid Workfront licenses to each user when you assign the user an access level.
 

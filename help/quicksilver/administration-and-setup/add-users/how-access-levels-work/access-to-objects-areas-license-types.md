@@ -25,7 +25,6 @@ The table below tells you the highest level of access (Edit or View) that each o
         <td></td>
         <td>Standard</td>
         <td>Light</td>
-        <td>Light (Limited)</td>
         <td>Contributor</td>
         <td>External</td>
     </tr>
@@ -33,7 +32,6 @@ The table below tells you the highest level of access (Edit or View) that each o
         <td>Projects</td>
         <td>Edit</td>
         <td>View</td>
-        <td>View (only the Details page)</td>
         <td>View (only the Details page)</td>
         <td>No Access</td>
     </tr>
@@ -43,11 +41,9 @@ The table below tells you the highest level of access (Edit or View) that each o
         <td>View</td>
         <td>View</td>
         <td>View</td>
-        <td>View</td>
     </tr>
     <tr>
         <td>Issues</td>
-        <td>Edit</td>
         <td>Edit</td>
         <td>Edit</td>
         <td>Edit</td>
@@ -59,7 +55,6 @@ The table below tells you the highest level of access (Edit or View) that each o
         <td>View</td>
         <td>No Access</td>
         <td>No Access</td>
-        <td>No Access</td>
     </tr>
     <tr>
         <td>Programs</td>
@@ -67,12 +62,10 @@ The table below tells you the highest level of access (Edit or View) that each o
         <td>View</td>
         <td>No Access</td>
         <td>No Access</td>
-        <td>No Access</td>
     </tr>
     <tr>
         <td>Reports, dashboards, and calendars</td>
         <td>Edit</td>
-        <td>View</td>
         <td>View</td>
         <td>View</td>
         <td>View (only for calendars, no sharing permissions)</td>
@@ -82,12 +75,10 @@ The table below tells you the highest level of access (Edit or View) that each o
         <td>Edit</td>
         <td>Edit</td>
         <td>Edit</td>
-        <td>Edit</td>
         <td>No access</td>
     </tr>
     <tr>
         <td>Documents</td>
-        <td>Edit</td>
         <td>Edit</td>
         <td>Edit</td>
         <td>Edit</td>
@@ -99,12 +90,10 @@ The table below tells you the highest level of access (Edit or View) that each o
         <td>View</td>
         <td>View</td>
         <td>View</td>
-        <td>View</td>
     </tr>
     <tr>
         <td>Teams</td>
         <td>Edit</td>
-        <td>View</td>
         <td>View</td>
         <td>View</td>
         <td>No access</td>
@@ -115,12 +104,10 @@ The table below tells you the highest level of access (Edit or View) that each o
         <td>No access</td>
         <td>No access</td>
         <td>No access</td>
-        <td>No access</td>
     </tr>
     <tr>
         <td>Financial data</td>
         <td>Edit</td>
-        <td>No access</td>
         <td>No access</td>
         <td>No access</td>
         <td>No access</td>
@@ -131,7 +118,6 @@ The table below tells you the highest level of access (Edit or View) that each o
         <td>View</td>
         <td>No access</td>
         <td>No access</td>
-        <td>No access</td>
     </tr>
     <tr>
         <td>Scenario Planner</td>
@@ -139,11 +125,9 @@ The table below tells you the highest level of access (Edit or View) that each o
         <td>View</td>
         <td>No access</td>
         <td>No access</td>
-        <td>No access</td>
     </tr>
     <tr>
         <td>Workfront Goals</td>
-        <td>Edit</td>
         <td>Edit</td>
         <td>Edit</td>
         <td>Edit</td>
@@ -155,7 +139,7 @@ The table below tells you the highest level of access (Edit or View) that each o
 
 >[!NOTE]
 >
->Users with a Light license or a Contributor license has limited sharing capabilities. For more information, see [Adobe Workfront licenses overview](../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md).
+>Users with a Light license or a Contributor license has limited sharing capabilities. For more information, see [Licenses overview](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md).
 >
 >External users cannot search for items in Workfront. They can view documents and calendars that are specifically shared with them. They can also see the users that share items with them.
 

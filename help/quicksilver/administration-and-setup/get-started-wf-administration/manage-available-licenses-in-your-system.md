@@ -46,7 +46,7 @@ To view license information in your system:
 
 1. At the bottom of the left panel, click **System** > **Licenses**.
 
-   For more information about the licenses listed on this page, see [Adobe Workfront licenses overview](../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md).
+   For more information about the licenses listed on this page, see [Legacy licenses overview](../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md).
 
    >[!NOTE]
    >
