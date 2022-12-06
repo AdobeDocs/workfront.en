@@ -1,22 +1,23 @@
 ---
-title: Configurable legacy access to functionality for each object type
-description: This article explains what you can allow as an Adobe Workfront administrator for each object type, in each legacy access level. It also explains what the default configuration is for each type of legacy access level.
+title: Configurable access to functionality for each object type
+description: This article explains what you can allow as an Adobe Workfront administrator for each object type, in each access level. It also explains what the default configuration is for each type of access level.
 author: Courtney
 feature: System Setup and Administration
 role: Admin
-exl-id: 94e0b205-140c-41c9-bb5a-f89b4c3aaea0
 ---
-# Configurable legacy access to functionality for each object type
+# Configurable access to functionality for each object type
 
-This article explains what you can allow as an Adobe Workfront administrator for each object type, in each legacy access level. It also explains what the default configuration is for each type of legacy access level.
+This article explains what you can allow as an Adobe Workfront administrator for each object type, in each access level. It also explains what the default configuration is for each type of access level.
 
 For information about all functionality available for an object type in each access level, see [Functionality available for each object type](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md).
 
 ## Projects
 
-In each legacy access level, you can configure the following options for projects:
+In each access level, you can configure the following options for projects:
 
 <table style="table-layout:auto"> 
+
+
  <col> 
  <col> 
  <thead> 
@@ -27,7 +28,7 @@ In each legacy access level, you can configure the following options for project
  </thead> 
  <tbody> 
   <tr> 
-   <td>Planner (Plan license type)</td> 
+   <td>Standard</td> 
    <td> 
     <ul> 
      <li> <b>No access</b> </li> 
@@ -43,16 +44,6 @@ In each legacy access level, you can configure the following options for project
       </ul> </li> 
     </ul> </td> 
   </tr> 
-  <tr> 
-   <td>Worker </td> 
-   <td> 
-    <ul> 
-     <li> <b>No access</b> </li> 
-     <li><p> <b>View</b></p> <p>To fine-tune this, you can configure the ability to share projects. Click the gear icon <img src="assets/gear-icon-in-access-levels.png"> on the View button, then disable or enable the <b>Share</b> option (enabled by default).</p> </li> 
-     <li> <p><b>Edit</b> (default selection): Allows limited editing access to projects. To see how Edit access is limited in a Worker access level as compared to a Planner access level (which allows full Edit access to projects), see the section <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md#projects" class="MCXref xref">Projects</a> in the article <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md" class="MCXref xref">Functionality available for each object type</a>.</p> <p>To fine-tune this, you can configure the ability to share projects. Click the gear icon <img src="assets/gear-icon-in-access-levels.png"> on the Edit button, then disable or enable the <b>Share</b> option (enabled by default).</p> </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
    <td>Reviewer</td> 
    <td> 
     <ul> 
@@ -77,7 +68,7 @@ In each legacy access level, you can configure the following options for project
 
 ## Tasks
 
-In each legacy access level, you can configure the following options for tasks:
+In each access level, you can configure the following options for tasks:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -101,20 +92,6 @@ In each legacy access level, you can configure the following options for tasks:
        <li> <p>Delete</p> </li> 
        <li> <p>Share</p> </li> 
        <li> <p>Share system-wide</p> </li> 
-      </ul> </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td>Worker </td> 
-   <td> 
-    <ul> 
-     <li> <b>No access</b> </li> 
-     <li><p> <b>View</b></p> <p>To fine-tune this, you can configure the ability to share tasks. Click the gear icon <img src="assets/gear-icon-in-access-levels.png"> on the View button, then disable or enable the <b>Share</b> option (enabled by default).</p> </li> 
-     <li> <p><b>Edit</b> (default selection): Allows full editing access to tasks.</p> <p>To fine-tune this, click the gear icon <img src="assets/gear-icon-in-access-levels.png"> on the <b>Edit</b> button, then disable or enable any of the following options. All of them are enabled by default.</p> 
-      <ul> 
-       <li> <p>Create</p> </li> 
-       <li> <p>Delete</p> </li> 
-       <li> <p>Share</p> </li> 
       </ul> </li> 
     </ul> </td> 
   </tr> 
@@ -143,7 +120,7 @@ In each legacy access level, you can configure the following options for tasks:
 
 ## Issues
 
-In each legacy access level, you can configure the following options for issues:
+In each access level, you can configure the following options for issues:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -167,20 +144,6 @@ In each legacy access level, you can configure the following options for issues:
        <li> <p>Delete</p> </li> 
        <li> <p>Share</p> </li> 
        <li> <p>Share system-wide</p> </li> 
-      </ul> </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td>Worker </td> 
-   <td> 
-    <ul> 
-     <li> <b>No access</b> </li> 
-     <li><p> <b>View</b></p> <p>To fine-tune this, you can configure the ability to share issues. Click the gear icon <img src="assets/gear-icon-in-access-levels.png"> on the View button, then disable or enable the <b>Share</b> option (enabled by default).</p> </li> 
-     <li> <p><b>Edit</b> (default selection): Allows full editing access to issues.</p> <p>To fine-tune this, click the gear icon <img src="assets/gear-icon-in-access-levels.png"> on the <b>Edit</b> button, then disable or enable any of the following options. All of them are enabled by default.</p> 
-      <ul> 
-       <li> <p>Create</p> </li> 
-       <li> <p>Delete</p> </li> 
-       <li> <p>Share</p> </li> 
       </ul> </li> 
     </ul> </td> 
   </tr> 
@@ -221,7 +184,7 @@ In each legacy access level, you can configure the following options for issues:
 
 ## Portfolios
 
-In each legacy access level, you can configure the following options for portfolios:
+In each access level, you can configure the following options for portfolios:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -249,22 +212,6 @@ In each legacy access level, you can configure the following options for portfol
     </ul> </td> 
   </tr> 
   <tr> 
-   <td>Worker </td> 
-   <td> 
-    <ul> 
-     <li> <b>No access</b> </li> 
-     <li> <b>View</b> (default selection) </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td>Reviewer</td> 
-   <td> 
-    <ul> 
-     <li> <b>No access</b> </li> 
-     <li> <b>View</b> (default selection)</li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
    <td>Requestor</td> 
    <td> <p>Access to portfolios is not available.</p> </td> 
   </tr> 
@@ -277,7 +224,7 @@ In each legacy access level, you can configure the following options for portfol
 
 ## Programs
 
-In each legacy access level, you can configure the following options for programs:
+In each access level, you can configure the following options for programs:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -304,15 +251,6 @@ In each legacy access level, you can configure the following options for program
       </ul> </li> 
     </ul> </td> 
   </tr> 
-  <tr> 
-   <td>Worker </td> 
-   <td> 
-    <ul> 
-     <li> <b>No access</b> </li> 
-     <li> <b>View</b> (default selection) </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
    <td>Reviewer</td> 
    <td> 
     <ul> 
@@ -333,7 +271,7 @@ In each legacy access level, you can configure the following options for program
 
 ## Reports, dashboards, and calendars
 
-In each legacy access level, you can configure the following options for reports, dashboards, and calendars:
+In each access level, you can configure the following options for reports, dashboards, and calendars:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -367,18 +305,6 @@ In each legacy access level, you can configure the following options for reports
     </ul> </td> 
   </tr> 
   <tr> 
-   <td>Worker </td> 
-   <td> 
-    <ul> 
-     <li> <b>No access</b> </li> 
-     <li><p> <b>View</b></p> (default selection)<p>To fine-tune this, click the gear icon <img src="assets/gear-icon-in-access-levels.png"> on the <b>Edit</b> button, then disable or enable any of the following actions. Both of them are enabled by default:</p> 
-      <ul> 
-       <li> <p>View Built-In Reports</p> </li> 
-       <li> <p>Share</p> </li> 
-      </ul> </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
    <td>Reviewer</td> 
    <td> 
     <ul> 
@@ -407,7 +333,7 @@ In each legacy access level, you can configure the following options for reports
 
 ## Filters, views, and groupings
 
-In each legacy access level, you can configure the following options for filters, views, and groupings:
+In each access level, you can configure the following options for filters, views, and groupings:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -421,20 +347,6 @@ In each legacy access level, you can configure the following options for filters
  <tbody> 
   <tr> 
    <td>Planner </td> 
-   <td> 
-    <ul> 
-     <li> <p><b>View</b></p><p>To fine-tune this, you can configure the ability to share filters, views, and groupings. Click the gear icon <img src="assets/gear-icon-in-access-levels.png"> on the View button, then disable or enable the <b>Share</b> option (enabled by default).</p> </li> 
-     <li> <p><b>Edit</b> (default selection): Allows full editing access to filters, views, and groupings.</p> <p>To fine-tune this, click the gear icon <img src="assets/gear-icon-in-access-levels.png"> on the <b>Edit</b> button, then disable or enable any of the following options. All of them are enabled by default.</p> 
-      <ul> 
-       <li> <p>Create</p> </li> 
-       <li> <p>Delete</p> </li> 
-       <li> <p>Share</p> </li> 
-       <li> <p>Share system-wide</p> </li> 
-      </ul> </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td>Worker </td> 
    <td> 
     <ul> 
      <li> <p><b>View</b></p><p>To fine-tune this, you can configure the ability to share filters, views, and groupings. Click the gear icon <img src="assets/gear-icon-in-access-levels.png"> on the View button, then disable or enable the <b>Share</b> option (enabled by default).</p> </li> 
@@ -484,7 +396,7 @@ In each legacy access level, you can configure the following options for filters
 
 ## Documents
 
-In each legacy access level, you can configure the following options for documents:
+In each access level, you can configure the following options for documents:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -502,22 +414,6 @@ In each legacy access level, you can configure the following options for documen
     <ul> 
      <li> <b>No access</b> </li> 
      <li><p> <b>View</b></p> <p>To fine-tune this, you can configure the ability to share documents. Click the gear icon <img src="assets/gear-icon-in-access-levels.png"> on the View button, then disable or enable the <b>Share</b> option (enabled by default).</p> </li> 
-     <li> <p><b>Edit</b> (default selection): Allows full editing access to documents.</p> <p>To fine-tune this, click the gear icon <img src="assets/gear-icon-in-access-levels.png"> on the <b>Edit</b> button, then disable or enable any of the following options. All of them are enabled by default except for <b>Share Documents Publicly</b> and <b>Share system-wide</b>.</p> 
-      <ul> 
-       <li> <p>Create</p> </li> 
-       <li> <p>Delete</p> </li> 
-       <li> <p>Share</p> </li> 
-       <li> <p>Share Documents Publicly (externally)</p> </li> 
-       <li> <p>Share system-wide</p> </li> 
-      </ul> </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td>Worker </td> 
-   <td> 
-    <ul> 
-     <li> <b>No access</b> </li> 
-     <li> <p><b>View</b></p><p>To fine-tune this, you can configure the ability to share documents. Click the gear icon <img src="assets/gear-icon-in-access-levels.png"> on the View button, then disable or enable the <b>Share</b> option (enabled by default).</p> </li> 
      <li> <p><b>Edit</b> (default selection): Allows full editing access to documents.</p> <p>To fine-tune this, click the gear icon <img src="assets/gear-icon-in-access-levels.png"> on the <b>Edit</b> button, then disable or enable any of the following options. All of them are enabled by default except for <b>Share Documents Publicly</b> and <b>Share system-wide</b>.</p> 
       <ul> 
        <li> <p>Create</p> </li> 
@@ -567,7 +463,7 @@ In each legacy access level, you can configure the following options for documen
 
 ## Users
 
-In each legacy access level, you can configure the following options for users:
+In each access level, you can configure the following options for users:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -594,13 +490,6 @@ In each legacy access level, you can configure the following options for users:
     </ul> </td> 
   </tr> 
   <tr> 
-   <td>Worker </td> 
-   <td> 
-    <ul> 
-     <li><p> <b>View</b> (only option available)</p><p>To fine-tune this, you can configure the ability to view users' contact information. Click the gear icon <img src="assets/gear-icon-in-access-levels.png"> on the <b>View</b> button, then disable or enable the <b>View Contact Info</b> option (enabled by default).</p> </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
    <td>Reviewer</td> 
    <td> 
     <ul> 
@@ -623,7 +512,7 @@ In each legacy access level, you can configure the following options for users:
 
 ## Teams
 
-In each legacy access level, you can configure the following options for teams:
+In each access level, you can configure the following options for teams:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -650,24 +539,6 @@ In each legacy access level, you can configure the following options for teams:
        <li>Delete</li> 
        <li> <p>Edit teams I am on</p> </li> 
        <li> <p>Edit teams in groups I manage (Group Admins only)</p> </li> 
-       <li> <p>View all teams</p> </li> 
-       <li> <p>View teams associated with my groups</p> </li> 
-      </ul> </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td>Worker </td> 
-   <td> 
-    <ul> 
-     <li> <b>View</b>
-      <p>To fine-tune this, click the gear icon <img src="assets/gear-icon-in-access-levels.png"> on the <b>View</b> button, then disable or enable any of the following options*. Both are enabled by default.</p> 
-      <ul> 
-       <li>View all teams</li> 
-       <li> <p>View teams associated with my groups</p> </li> 
-      </ul> </li> 
-     <li> <p><b>Edit</b> (default selection): Allows full editing access to teams.</p> <p>To fine-tune this, click the gear icon <img src="assets/gear-icon-in-access-levels.png"> on the <b>View</b> button, then disable or enable any of the following options*. Only the first option, <b>Edit teams I am on</b>, is disabled by default.</p> 
-      <ul> 
-       <li> <p>Edit teams I am on</p> </li> 
        <li> <p>View all teams</p> </li> 
        <li> <p>View teams associated with my groups</p> </li> 
       </ul> </li> 
@@ -705,7 +576,7 @@ In each legacy access level, you can configure the following options for teams:
 
 ## Templates
 
-In each legacy access level, you can configure the following options for templates:
+In each access level, you can configure the following options for templates:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -733,13 +604,6 @@ In each legacy access level, you can configure the following options for templat
     </ul> </td> 
   </tr> 
   <tr> 
-   <td>Worker </td> 
-   <td> 
-    <ul> 
-     <li> <p><b>No access</b> (only option available)</p> </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
    <td>Reviewer</td> 
    <td> 
     <ul> 
@@ -762,7 +626,7 @@ In each legacy access level, you can configure the following options for templat
 
 ## Financial data
 
-In each legacy access level, you can configure the following options for financial data:
+In each access level, you can configure the following options for financial data:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -794,14 +658,6 @@ In each legacy access level, you can configure the following options for financi
     </ul> </td> 
   </tr> 
   <tr> 
-   <td>Worker </td> 
-   <td> 
-    <ul> 
-     <li> <p><b>No access</b> (default selection)</p> </li> 
-     <li> <b>View</b> </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
    <td>Reviewer</td> 
    <td> 
     <ul> 
@@ -827,7 +683,7 @@ In each legacy access level, you can configure the following options for financi
 
 ## Resource Management
 
-In each legacy access level, you can configure the following options for Resource Management:
+In each access level, you can configure the following options for Resource Management:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -854,14 +710,6 @@ In each legacy access level, you can configure the following options for Resourc
     </ul> </td> 
   </tr> 
   <tr> 
-   <td>Worker </td> 
-   <td> 
-    <ul> 
-     <li><b>No access</b> </li> 
-     <li> <b>View</b> (default selection) </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
    <td>Reviewer</td> 
    <td> 
     <ul> 
@@ -885,7 +733,7 @@ In each legacy access level, you can configure the following options for Resourc
 
 ## Scenario Planner area
 
-The default setting for all legacy access levels is No Access. A Workfront administrator can change this to View or Edit access for any Planner, Worker, and Reviewer access level. 
+The default setting for all access levels is No Access. A Workfront administrator can change this to View or Edit access for any Planner, Worker, and Reviewer access level. 
 
 <!--
 DRAFTED IN FLARE:
@@ -899,6 +747,6 @@ Alina says: This will change overtime for some of the access levels, but right n
 
 ## Workfront Goals area
 
-All six of the default legacy access levels (and all 4 of the license types) can edit and view Workfront Goals.
+All six of the default access levels (and all 4 of the license types) can edit and view Workfront Goals.
 
 Edit is the default option.

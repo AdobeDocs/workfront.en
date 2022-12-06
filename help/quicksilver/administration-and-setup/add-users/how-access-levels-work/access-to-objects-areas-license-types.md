@@ -8,7 +8,6 @@ description: The table below tells you the highest level of access (Edit or View
 author: Courtney
 feature: System Setup and Administration
 role: Admin
-exl-id: d8f2a295-c053-4763-bf6e-6e836087a839
 ---
 # Access to objects and areas by license type
 
@@ -21,29 +20,142 @@ The table below tells you the highest level of access (Edit or View) that each o
   >
   >When another user shares an object, the sharer can specify permissions that limit their ability to edit it. For more information, see [Overview of sharing permissions on objects](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
-| &nbsp; |Plan |Work |Review |Request |External |
-|---|---|---|---|---|---|
-| Projects |Edit |Edit (without Create permissions) |View |View (only the Details page) |No Access |
-| Tasks |Edit |Edit |View |View |View |
-| Issues |Edit |Edit |Edit |Edit |No Access |
-| Portfolios |Edit |View |View |No Access |No Access |
-| Programs |Edit |View |View |No Access |No Access |
-| Reports, dashboards, and calendars |Edit |View |View |View&#42; |View (only for calendars, no sharing permissions) |
-| Filters, views, and groupings |Edit |Edit |Edit |Edit |No access |
-| Documents |Edit |Edit |Edit |Edit |View (no sharing permissions) |
-| Users |Edit |View |View |View |View |
-| Teams |Edit |Edit |View |View |No access |
-| Templates |Edit |No access |No access |No access |No access |
-| Financial data |Edit |View (only the Finance area in Project Details) |View |No access |No access |
-| Resource Management |Edit |View |View |No access |No access |
-| Scenario Planner |Edit |Edit |Edit |No access |No access |
-| Workfront Goals  |Edit |Edit |Edit |Edit |No access |
+<table style="table-layout:auto">
+    <tr>
+        <td></td>
+        <td>Standard</td>
+        <td>Light</td>
+        <td>Light (Limited)</td>
+        <td>Contributor</td>
+        <td>External</td>
+    </tr>
+    <tr>
+        <td>Projects</td>
+        <td>Edit</td>
+        <td>View</td>
+        <td>View (only the Details page)</td>
+        <td>View (only the Details page)</td>
+        <td>No Access</td>
+    </tr>
+    <tr>
+        <td>Tasks</td>
+        <td>Edit</td>
+        <td>View</td>
+        <td>View</td>
+        <td>View</td>
+        <td>View</td>
+    </tr>
+    <tr>
+        <td>Issues</td>
+        <td>Edit</td>
+        <td>Edit</td>
+        <td>Edit</td>
+        <td>Edit</td>
+        <td>No Access</td>
+    </tr>
+    <tr>
+        <td>Portfolios</td>
+        <td>Edit</td>
+        <td>View</td>
+        <td>No Access</td>
+        <td>No Access</td>
+        <td>No Access</td>
+    </tr>
+    <tr>
+        <td>Programs</td>
+        <td>Edit</td>
+        <td>View</td>
+        <td>No Access</td>
+        <td>No Access</td>
+        <td>No Access</td>
+    </tr>
+    <tr>
+        <td>Reports, dashboards, and calendars</td>
+        <td>Edit</td>
+        <td>View</td>
+        <td>View</td>
+        <td>View</td>
+        <td>View (only for calendars, no sharing permissions)</td>
+    </tr>
+    <tr>
+        <td>Filters, views, and groupings</td>
+        <td>Edit</td>
+        <td>Edit</td>
+        <td>Edit</td>
+        <td>Edit</td>
+        <td>No access</td>
+    </tr>
+    <tr>
+        <td>Documents</td>
+        <td>Edit</td>
+        <td>Edit</td>
+        <td>Edit</td>
+        <td>Edit</td>
+        <td>View (no sharing permissions)</td>
+    </tr>
+    <tr>
+        <td>Users</td>
+        <td>Edit</td>
+        <td>View</td>
+        <td>View</td>
+        <td>View</td>
+        <td>View</td>
+    </tr>
+    <tr>
+        <td>Teams</td>
+        <td>Edit</td>
+        <td>View</td>
+        <td>View</td>
+        <td>View</td>
+        <td>No access</td>
+    </tr>
+    <tr>
+        <td>Templates</td>
+        <td>Edit</td>
+        <td>No access</td>
+        <td>No access</td>
+        <td>No access</td>
+        <td>No access</td>
+    </tr>
+    <tr>
+        <td>Financial data</td>
+        <td>Edit</td>
+        <td>No access</td>
+        <td>No access</td>
+        <td>No access</td>
+        <td>No access</td>
+    </tr>
+    <tr>
+        <td>Resource Management</td>
+        <td>Edit</td>
+        <td>View</td>
+        <td>No access</td>
+        <td>No access</td>
+        <td>No access</td>
+    </tr>
+    <tr>
+        <td>Scenario Planner</td>
+        <td>Edit</td>
+        <td>View</td>
+        <td>No access</td>
+        <td>No access</td>
+        <td>No access</td>
+    </tr>
+    <tr>
+        <td>Workfront Goals</td>
+        <td>Edit</td>
+        <td>Edit</td>
+        <td>Edit</td>
+        <td>Edit</td>
+        <td>No access</td>
+    </tr>
+</table>
 
-&#42; Users with a Request license can view only reports, dashboards, and calendars that are shared with them.
+&#42; Users with a Contributor license can view only reports, dashboards, and calendars that are shared with them.
 
 >[!NOTE]
 >
->Users with a Review license or a Request license has limited sharing capabilities. For more information, see [Adobe Workfront licenses overview](../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md).
+>Users with a Light license or a Contributor license has limited sharing capabilities. For more information, see [Adobe Workfront licenses overview](../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md).
 >
 >External users cannot search for items in Workfront. They can view documents and calendars that are specifically shared with them. They can also see the users that share items with them.
 

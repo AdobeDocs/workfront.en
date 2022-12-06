@@ -26,7 +26,7 @@ This table and diagram show the main levels of access to Workfront:
 |--- |--- |
 |Standard|System Administrator, Standard|
 |Light|Light|
-|Collaborator|Collaborator|
+|Contributor|Contributor|
 |External*|External User|
 
 >[!NOTE]

@@ -4,7 +4,7 @@ content-type: reference
 product-area: system-administration
 navigation-topic: access-levels
 title: Legacy access to objects and areas by license type
-description: The table below tells you the highest level of access (Edit or View) that each of the Adobe Workfront licenses allow for the objects and areas in Workfront.
+description: The table below tells you the highest level of access (Edit or View) that each of the Adobe Workfront legacy licenses allow for the objects and areas in Workfront.
 author: Courtney
 feature: System Setup and Administration
 role: Admin
@@ -12,7 +12,7 @@ exl-id: d8f2a295-c053-4763-bf6e-6e836087a839
 ---
 # Legacy access to objects and areas by license type
 
-The table below tells you the highest level of access (Edit or View) that each of the Adobe Workfront licenses allow for the objects and areas in Workfront.
+The table below tells you the highest level of legacy access (Edit or View) that each of the Adobe Workfront licenses allow for the objects and areas in Workfront.
 
 * **View**: The user can review and share items.
 * **Edit**: The user can create, edit, delete, and share items.
@@ -43,11 +43,11 @@ The table below tells you the highest level of access (Edit or View) that each o
 
 >[!NOTE]
 >
->Users with a Review license or a Request license has limited sharing capabilities. For more information, see [Adobe Workfront licenses overview](../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md).
+>Users with a Review license or a Request license has limited sharing capabilities. For more information, see [Adobe Workfront licenses overview](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md) or [Adobe Workfront legacy licenses overview](../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md).
 >
 >External users cannot search for items in Workfront. They can view documents and calendars that are specifically shared with them. They can also see the users that share items with them.
 
-You can find detailed information about what the access levels allow for each object and area in the following articles:
+You can find detailed information about what the legacy access levels allow for each object and area in the following articles:
 
 * [Grant access to projects](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md) 
 * [Grant access to tasks](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md) 
