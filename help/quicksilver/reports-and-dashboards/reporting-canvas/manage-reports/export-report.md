@@ -10,7 +10,7 @@ exl-id: bd9e2e6f-338e-4cfc-aee5-6de6ecff4f09
 
 You can export an entire report—or a specific block—into a file format to fit your needs. You can export to:
 
-* PDF
+* PDF (currently disabled)
 * CSV
 * PNG
 * XLSX
@@ -28,15 +28,12 @@ Before you begin, you must enroll in the Reporting Canvas beta. For more informa
    >
    >Consider the following regarding your exported files:
    >
-   >   
-   >   
    >   * If you export a report that contains multiple tables to an XLSX format, the exported file contains a separate sheet for each table.
    >   * If you export a report that contains multiple tables to a CSV format, the exported result is a zipped folder that contains a separate file for each table.
    >   * If you export a table that contains grouped rows to a CSV format, the CSV file includes all of the rows, but they are not displayed in groups.
    >   
-   >
 
-1. (Conditional) If you selected **PDF**, configure the fields below to format the exported file, then click **Download PDF**.
+<!-- 1. (Conditional) If you selected **PDF**, configure the fields below to format the exported file, then click **Download PDF**.
 
    >[!TIP]
    >
@@ -53,7 +50,7 @@ Before you begin, you must enroll in the Reporting Canvas beta. For more informa
      <tr> 
       <td role="rowheader">Orientation</td> 
       <td> <p>Select either <strong>Portrait</strong> or <strong>Landscape</strong>.</p> </td> 
-     </tr> <!--
+     </tr>
       <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
        <td role="rowheader">Scaling options</td> 
        <td> <p>Select the scaling option for the exported file:</p> 
@@ -63,7 +60,6 @@ Before you begin, you must enroll in the Reporting Canvas beta. For more informa
          <li> <p><strong>Fit to height</strong> </p> </li> 
         </ul> </td> 
       </tr>
-     --> 
      <tr> 
       <td role="rowheader">Heading settings</td> 
       <td> <p>Select all the content you want to display in the header.</p> </td> 
@@ -84,4 +80,4 @@ Before you begin, you must enroll in the Reporting Canvas beta. For more informa
     </tbody> 
    </table>
 
-   The exported PDF&nbsp;file is named in the following format: REPORT_TITLE_YYYY-MM-DDTHH_MM_SS.
+   The exported PDF file is named in the following format: REPORT_TITLE_YYYY-MM-DDTHH_MM_SS. -->
