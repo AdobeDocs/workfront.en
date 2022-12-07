@@ -12,7 +12,7 @@ exl-id: fb167e9f-c8bd-43f6-84c9-9a87e80c3eb2
 
 In the standard mode interface, when attempting to create multiple filters that reference the same field (using the AND qualifier), one of the filters is deleted when you save the report and exit the report builder.
 
-**Example:** You might want to view only tasks that contain the word "green" but do not contain the word "red" in the name. Adobe Workfront does not allow you to save the following filter rules using the standard mode interface because it references the same field (Task&nbsp;Name) but uses different modifiers and refers to different values:
+**Example:** You might want to view only tasks that contain the word "green" but do not contain the word "red" in the name. Adobe Workfront does not allow you to save the following filter rules using the standard mode interface because it references the same field (Task Name) but uses different modifiers and refers to different values:
 
 * Task Name > Contains > Green
 * Task Name > Does Not Contain > Red
@@ -37,7 +37,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to&nbsp;Reports,&nbsp;Dashboards,&nbsp;Calendars</p> <p>Edit access to Filters, Views, Groupings</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>Edit access to Reports, Dashboards, Calendars</p> <p>Edit access to Filters, Views, Groupings</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -46,8 +46,7 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
-&nbsp;
+To find out what plan, license type, or access you have, contact your Workfront administrator.
 
 ## Create multiple filter rules that reference the same field
 
@@ -66,9 +65,12 @@ You must have the following access to perform the steps in this article:
 
    >[!TIP]
    >
-   >To build similar filters, build the first statement first.&nbsp;For example: 
+   >To build similar filters, build the first statement first. For example: 
    >
-   >`name=green<br>name_Mod=cicontains`
+   >```
+   >name=green
+   >name_Mod=cicontains
+   >```
    >
    >Copy and paste the statement as many times as needed. You can then add as many statements as you need to reference the same field (in our case "name") and make the following modifications to the additional statements: 
    >
