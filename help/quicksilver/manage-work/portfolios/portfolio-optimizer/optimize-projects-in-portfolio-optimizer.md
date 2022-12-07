@@ -20,12 +20,12 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>Business or higher</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
+   <td> <p>[!UICONTROL Business] or higher</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront licenses*</td> 
-   <td> <p>Plan </p> </td> 
+   <td> <p>[!UICONTROL Plan] </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
