@@ -1,752 +1,567 @@
 ---
-title: Configurable access to functionality for each object type
-description: This article explains what you can allow as an Adobe Workfront administrator for each object type, in each access level. It also explains what the default configuration is for each type of access level.
+user-type: administrator
+content-type: reference
+product-area: system-administration
+keywords: access,model,funnel,diagram,levels,permissions
+navigation-topic: access-levels
+title: Functionality available for each object type
+description: The following tables lists the functionality available for each object type in the various access levels.
 author: Courtney
 feature: System Setup and Administration
 role: Admin
+exl-id: 91b1b448-5a0b-4e64-a59e-458c8387ecbc
 ---
-# Configurable access to functionality for each object type
+# Functionality available for each object type for various access levels
 
-This article explains what you can allow as an Adobe Workfront administrator for each object type, in each access level. It also explains what the default configuration is for each type of access level.
+The following tables lists the functionality available for each object type in the various access levels.
 
-For information about all functionality available for an object type in each access level, see [Functionality available for each object type](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md).
+It also indicates which actions Workfront administrators can disable or enable using an access level.
 
 ## Projects
 
-In each access level, you can configure the following options for projects:
+| Action |Planner |Worker |Reviewer |Requestor |External user |
+|---|---|---|---|---|---|
+| Create |✓&#42; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+| Copy |✓&#42; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+| Delete |✓&#42; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+| Share |✓&#42; |✓&#42; |&nbsp; |&nbsp; |&nbsp; |
+| Share system-wide |✓&#42; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+| View |✓&#42; |✓&#42; |✓&#42; |&nbsp; |&nbsp; |
+| Add a custom form |✓ |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+| Update custom fields |✓ |✓ |&nbsp; |&nbsp; |&nbsp; |
+| Add an approval process |✓ |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+| Approve a project |✓ |✓ |✓ |&nbsp; |&nbsp; |
+| Add document |✓ |✓ |✓ |&nbsp; |&nbsp; |
+| Add issue |✓ |✓ |&nbsp; |&nbsp; |&nbsp; |
+| Add tasks |✓ |✓ |&nbsp; |&nbsp; |&nbsp; |
+| Give updates/comments |✓ |✓ |✓ |&nbsp; |&nbsp; |
+| Change status |✓ |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+| Log hours |✓ |✓ |&nbsp; |&nbsp; |&nbsp; |
+| Edit assignments |✓ |✓ |&nbsp; |&nbsp; |&nbsp; |
+| Manage a baseline |✓ |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+| Manage risks |✓ |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+| Manage finance |✓ |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+| Add/edit expenses |✓ |✓ |&nbsp; |&nbsp; |&nbsp; |
+| Attach templates |✓ |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+| Save as a template |✓ |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+| Add/edit a business case |✓ |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+| Edit project details |✓ |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+| Edit staffing |✓ |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+| Export to MS Project |✓ |✓ |✓ |&nbsp; |&nbsp; |
+| Recalculate finance/timeline |✓ |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+| Set queue properties |✓ |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 
-<table style="table-layout:auto"> 
 
 
- <col> 
- <col> 
- <thead> 
-  <tr> 
-   <th>Access level</th> 
-   <th>Options</th> 
-  </tr> 
- </thead> 
- <tbody> 
-  <tr> 
-   <td>Standard</td> 
-   <td> 
-    <ul> 
-     <li> <b>No access</b> </li> 
-     <li><p> <b>View</b></p> <p>To fine-tune this, you can configure the ability to share projects. Click the gear icon <img src="assets/gear-icon-in-access-levels.png"> on the View button, then disable or enable the <b>Share</b> option (enabled by default).</p> </li> 
-     <li> <p><b>Edit</b> (default selection): Allows full editing access to projects.</p> <p>To fine-tune this, click the gear icon <img src="assets/gear-icon-in-access-levels.png"> on the <b>Edit</b> button, then disable or enable any of the following options. All of them are enabled by default.</p> 
-      <ul> 
-       <li> <p>Create</p> </li> 
-       <li> <p>Copy</p> </li> 
-       <li> <p>Delete</p> </li> 
-       <li> <p>View</p> </li> 
-       <li> <p>Share</p> </li> 
-       <li> <p>Share system-wide</p> </li> 
-      </ul> </li> 
-    </ul> </td> 
-  </tr> 
-   <td>Light</td> 
-   <td> 
-    <ul> 
-     <li> <b>No access</b> </li> 
-     <li> <b>View</b> (default selection) </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td>Contributor</td> 
-   <td> 
-    <ul> 
-     <li> <b>No access</b> </li> 
-     <li><p> <b>View</b></p> (default selection) <p>View access is limited because you can't fine-tune it to enable or disable project sharing.</p> </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td>External User</td> 
-   <td> <p>Access to projects is not available. External users can use Workfront only to review and download documents and to see calendars that are shared with them.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
+&#42; Using an access level, Workfront administrators can disable or enable this functionality. For more information, see 
 
 ## Tasks
 
-In each access level, you can configure the following options for tasks:
+| Action |Planner |Worker |Reviewer |Requestor |External user |
+|---|---|---|---|---|---|
+| Create |✓&#42; |✓&#42; |&nbsp; |&nbsp; |&nbsp; |
+| Delete |✓&#42; |✓&#42; |&nbsp; |&nbsp; |&nbsp; |
+| Share |✓&#42; |✓&#42; |&nbsp; |&nbsp; |&nbsp; |
+| Share system-wide |✓&#42; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+| View |✓&#42; |✓&#42; |✓&#42; |✓&#42; |&nbsp; |
+| Add predecessors |✓ |✓ |&nbsp; |&nbsp; |&nbsp; |
+| Add issues |✓ |✓ |&nbsp; |&nbsp; |&nbsp; |
+| Edit a task (excluding status) |✓ |✓ |&nbsp; |&nbsp; |&nbsp; |
+| Change task status |✓ |✓ |&nbsp; |&nbsp; |&nbsp; |
+| Add documents |✓ |✓ |✓ |&nbsp; |&nbsp; |
+| Copy a task |✓ |✓ |&nbsp; |&nbsp; |&nbsp; |
+| Move a task |✓ |✓ |&nbsp; |&nbsp; |&nbsp; |
+| Log hours |✓ |✓ |&nbsp; |&nbsp; |&nbsp; |
+| Accept an assignment |✓ |✓ |&nbsp; |&nbsp; |&nbsp; |
+| Make an assignment |✓ |✓ |Only in in-line edit |Only in in-line edit |&nbsp; |
+| Attach a custom form |✓ |✓ |&nbsp; |&nbsp; |&nbsp; |
+| Edit custom fields |✓ |✓ |&nbsp; |&nbsp; |&nbsp; |
+| Create an approval process |✓ |✓ |&nbsp; |&nbsp; |&nbsp; |
+| Approve a task |✓ |✓ |✓ |&nbsp; |&nbsp; |
+| Edit finances |✓ |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+| Add/edit expenses |✓ |✓ |&nbsp; |&nbsp; |&nbsp; |
+| View finance |✓ |✓ |✓ |&nbsp; |&nbsp; |
+| Updates/comments |✓ |✓ |✓ |&nbsp; |&nbsp; |
 
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <thead> 
-  <tr> 
-   <th>Access level</th> 
-   <th>Options</th> 
-  </tr> 
- </thead> 
- <tbody> 
-  <tr> 
-   <td>Planner </td> 
-   <td> 
-    <ul> 
-     <li> <b>No access</b> </li> 
-     <li><p> <b>View</b></p> <p>To fine-tune this, you can configure the ability to share tasks. Click the gear icon <img src="assets/gear-icon-in-access-levels.png"> on the View button, then disable or enable the <b>Share</b> option (enabled by default).</p> </li> 
-     <li> <p><b>Edit</b> (default selection): Allows full editing access to tasks.</p> <p>To fine-tune this, click the gear icon <img src="assets/gear-icon-in-access-levels.png"> on the <b>Edit</b> button, then disable or enable any of the following options. All of them are enabled by default.</p> 
-      <ul> 
-       <li> <p>Create</p> </li> 
-       <li> <p>Delete</p> </li> 
-       <li> <p>Share</p> </li> 
-       <li> <p>Share system-wide</p> </li> 
-      </ul> </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td>Reviewer</td> 
-   <td> 
-    <ul> 
-     <li> <b>No access</b> </li> 
-     <li> <b>View</b> (default selection) </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td>Requestor</td> 
-   <td> 
-    <ul> 
-     <li> <b>No access</b> </li> 
-     <li><p> <b>View</b></p> (default selection)<p>View access is limited because you can't fine-tune it to enable or disable project sharing.</p> </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td>External User</td> 
-   <td> <p>Access to tasks is not available. External users can use Workfront only to review and download documents and to see calendars that are shared with them.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
+{style="table-layout:auto"}
+
+&#42; Using an access level, Workfront administrators can disable or enable this functionality. For more information, see 
 
 ## Issues
 
-In each access level, you can configure the following options for issues:
+| Action |Planner |Worker |Reviewer |Requestor |External user |
+|---|---|---|---|---|---|
+| Create  |✓&#42; |✓&#42; |✓&#42; |✓&#42; |&nbsp; |
+| Edit |✓ |✓ |✓ |✓ |&nbsp; |
+| Delete |✓&#42; |✓&#42; |✓&#42; |✓&#42; |&nbsp; |
+| Share |✓&#42; |✓&#42; |✓&#42; |✓&#42; |&nbsp; |
+| Share system-wide  |✓&#42; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+| View |✓&#42; |✓&#42; |✓&#42; |✓&#42; |&nbsp; |
+| Attach custom forms |✓ |✓ |✓ |✓ |&nbsp; |
+| Edit custom fields |✓ |✓ |✓ |✓ |&nbsp; |
+| Approve issues |✓ |✓ |✓ |✓ |&nbsp; |
+| Add an approval process |✓ |✓ |✓ |✓ |&nbsp; |
+| Add documents |✓ |✓ |✓ |✓ |&nbsp; |
+| Copy issues |✓ |✓ |✓ |✓ |&nbsp; |
+| Move issues |✓ |✓ |✓ |✓ |&nbsp; |
+| Log hours |✓ |✓ |&nbsp; |&nbsp; |&nbsp; |
+| Convert an issue to a project |✓ |✓ |&nbsp; |&nbsp; |&nbsp; |
+| Convert an issue to a to task |✓ |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+| Accept assignments |✓ |✓ |&nbsp; |&nbsp; |&nbsp; |
+| Make assignments |✓ |✓ |&nbsp; |&nbsp; |&nbsp; |
+| Add updates and comments |✓ |✓ |✓ |✓ |&nbsp; |
 
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <thead> 
-  <tr> 
-   <th>Access level</th> 
-   <th>Options</th> 
-  </tr> 
- </thead> 
- <tbody> 
-  <tr> 
-   <td>Planner </td> 
-   <td> 
-    <ul> 
-     <li> <b>No access</b> </li> 
-     <li> <p><b>View</b></p><p>To fine-tune this, you can configure the ability to share issues. Click the gear icon <img src="assets/gear-icon-in-access-levels.png"> on the View button, then disable or enable the <b>Share</b> option (enabled by default).</p> </li> 
-     <li> <p><b>Edit</b> (default selection): Allows full editing access to issues.</p> <p>To fine-tune this, click the gear icon <img src="assets/gear-icon-in-access-levels.png"> on the <b>Edit</b> button, then disable or enable any of the following options. All of them are enabled by default.</p> 
-      <ul> 
-       <li> <p>Create</p> </li> 
-       <li> <p>Delete</p> </li> 
-       <li> <p>Share</p> </li> 
-       <li> <p>Share system-wide</p> </li> 
-      </ul> </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td>Reviewer</td> 
-   <td> 
-    <ul> 
-     <li> <b>No access</b> </li> 
-     <li><p> <b>View</b></p> <p>To fine-tune this, you can configure the ability to share issues. Click the gear icon <img src="assets/gear-icon-in-access-levels.png"> on the View button, then disable or enable the <b>Share</b> option (enabled by default).</p> </li> 
-     <li> <p><b>Edit</b> (default selection): Allows full editing access to issues.</p> <p>To fine-tune this, click the gear icon <img src="assets/gear-icon-in-access-levels.png"> on the <b>Edit</b> button, then disable or enable any of the following options. All of them are enabled by default.</p> 
-      <ul> 
-       <li> <p>Create</p> </li> 
-       <li> <p>Delete</p> </li> 
-       <li> <p>Share</p> </li> 
-      </ul> </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td>Requestor</td> 
-   <td> 
-    <ul> 
-     <li> <b>No access</b> </li> 
-     <li><p> <b>View</b></p> <p>To fine-tune this, you can configure the ability to share issues. Click the gear icon <img src="assets/gear-icon-in-access-levels.png"> on the View button, then disable or enable the <b>Share</b> option (enabled by default).</p> </li> 
-     <li> <p><b>Edit</b> (default selection): Allows full editing access to issues.</p> <p>To fine-tune this, click the gear icon <img src="assets/gear-icon-in-access-levels.png"> on the <b>Edit</b> button, then disable or enable any of the following options. All of them are enabled by default.</p> 
-      <ul> 
-       <li> <p>Create</p> </li> 
-       <li> <p>Delete</p> </li> 
-       <li> <p>Share</p> </li> 
-      </ul> </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td>External User</td> 
-   <td> <p>Access to issues is not available. External users can use Workfront only to review and download documents and to see calendars that are shared with them.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
+
+
+&#42; Using an access level, Workfront administrators can disable or enable this functionality. For more information, see 
 
 ## Portfolios
 
-In each access level, you can configure the following options for portfolios:
+Only users with a Plan license can have full access to portfolios. 
 
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <thead> 
-  <tr> 
-   <th>Access level</th> 
-   <th>Options</th> 
-  </tr> 
- </thead> 
- <tbody> 
-  <tr> 
-   <td>Planner </td> 
-   <td> 
-    <ul> 
-     <li> <b>No access</b> </li> 
-     <li><p> <b>View</b></p> <p>To fine-tune this, you can configure the ability to share portfolios. Click the gear icon <img src="assets/gear-icon-in-access-levels.png"> on the View button, then disable or enable the <b>Share</b> option (enabled by default).</p> </li> 
-     <li> <p><b>Edit</b> (default selection): Allows full editing access to portfolios.</p> <p>To fine-tune this, click the gear icon <img src="assets/gear-icon-in-access-levels.png"> on the <b>Edit</b> button, then disable or enable any of the following options. All of them are enabled by default.</p> 
-      <ul> 
-       <li> <p>Create</p> </li> 
-       <li> <p>Delete</p> </li> 
-       <li> <p>Share</p> </li> 
-       <li> <p>Share system-wide</p> </li> 
-      </ul> </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td>Requestor</td> 
-   <td> <p>Access to portfolios is not available.</p> </td> 
-  </tr> 
-  <tr> 
-   <td>External User</td> 
-   <td> <p>Access to portfolios is not available. External users can use Workfront only to review and download documents and to see calendars that are shared with them.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Action |Planner |Worker |Reviewer |Requestor |External user |
+|---|---|---|---|---|---|
+| Create |✓&#42; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+| Delete |✓&#42; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+| Share |✓&#42; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+| Share system-wide |✓&#42; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+| View |✓&#42; |✓&#42; |✓&#42; |&nbsp; |&nbsp; |
+| Edit details |✓ |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+| Attach custom forms |✓ |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+| Edit custom fields |✓ |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+| Add and remove projects |✓ |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+| Approve projects |✓ |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+| Portfolio optimization |✓ |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+| Add documents |✓ |✓ |✓ |&nbsp; |&nbsp; |
+| Add updates and comments |✓ |✓ |✓ |&nbsp; |&nbsp; |
+
+
+
+&#42; Using an access level, Workfront administrators can disable or enable this functionality. For more information, see 
 
 ## Programs
 
-In each access level, you can configure the following options for programs:
+Only users with a Plan license can have full access to programs. 
 
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <thead> 
-  <tr> 
-   <th>Access level</th> 
-   <th>Options</th> 
-  </tr> 
- </thead> 
- <tbody> 
-  <tr> 
-   <td>Planner </td> 
-   <td> 
-    <ul> 
-     <li> <b>No access</b> </li> 
-     <li><p> <b>View</b></p> <p>To fine-tune this, you can configure the ability to share programs. Click the gear icon <img src="assets/gear-icon-in-access-levels.png"> on the View button, then disable or enable the <b>Share</b> option (enabled by default).</p> </li> 
-     <li> <p><b>Edit</b> (default selection): Allows full editing access to programs.</p> <p>To fine-tune this, click the gear icon <img src="assets/gear-icon-in-access-levels.png"> on the <b>Edit</b> button, then disable or enable any of the following options. All of them are enabled by default.</p> 
-      <ul> 
-       <li> <p>Create</p> </li> 
-       <li> <p>Delete</p> </li> 
-       <li> <p>Share</p> </li> 
-       <li> <p>Share system-wide</p> </li> 
-      </ul> </li> 
-    </ul> </td> 
-  </tr> 
-   <td>Reviewer</td> 
-   <td> 
-    <ul> 
-     <li> <b>No access</b> </li> 
-     <li> <b>View</b> (default selection)</li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td>Requestor</td> 
-   <td> <p>Access to programs is not available.</p> </td> 
-  </tr> 
-  <tr> 
-   <td>External User</td> 
-   <td> <p>Access to programs is not available. External users can use Workfront only to review and download documents and to see calendars that are shared with them.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Action |Planner |Worker |Reviewer |Requestor |External user |
+|---|---|---|---|---|---|
+| Create |✓&#42; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+| Delete |✓&#42; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+| Share |✓&#42; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+| Share system-wide |✓&#42; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+| View |✓&#42; |✓&#42; |✓&#42; |&nbsp; |&nbsp; |
+| Edit details |✓ |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+| Attach custom forms |✓ |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+| Edit custom fields |✓ |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+| Add and remove projects |✓ |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+| Approve projects |✓ |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+| Portfolio Optimization |✓ |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+| Add documents |✓ |✓ |✓ |&nbsp; |&nbsp; |
+| Add Add updates and comments |✓ |✓ |✓ |&nbsp; |&nbsp; |
+
+
+
+&#42; Using an access level, Workfront administrators can disable or enable this functionality. For more information, see 
 
 ## Reports, dashboards, and calendars
 
-In each access level, you can configure the following options for reports, dashboards, and calendars:
+Users with a Plan license can have full access to reports. All other Access Levels have View access to reports.
 
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <thead> 
-  <tr> 
-   <th>Access level</th> 
-   <th>Options</th> 
-  </tr> 
- </thead> 
- <tbody> 
-  <tr> 
-   <td>Planner </td> 
-   <td> 
-    <ul> 
-     <li> <b>No access</b> </li> 
-     <li> <p><b>View</b></p><p>To fine-tune this, click the gear icon <img src="assets/gear-icon-in-access-levels.png"> on the <b>Edit</b> button), then disable or enable any of the following actions. Both of them are enabled by default:</p> 
-      <ul> 
-       <li> <p>View Built-In Reports</p> </li> 
-       <li> <p>Share</p> </li> 
-      </ul> </li> 
-     <li> <p><b>Edit</b> (default selection): Allows full editing access to reports, dashboards, and calendars.</p> <p>To fine-tune this, click the gear icon <img src="assets/gear-icon-in-access-levels.png"> on the <b>Edit</b> button, then disable or enable any of the following options. All of them are enabled by default except for <b>View Built-in Reports</b>, <b>Share Reports Publicly</b>, and <b>Share system-wide</b>.</p> 
-      <ul> 
-       <li> <p>Create</p> </li> 
-       <li> <p>Delete</p> </li> 
-       <li> <p>View Built-In Reports</p> </li> 
-       <li> <p>Share</p> </li> 
-       <li> <p>Share Reports Publicly (externally)</p> </li> 
-       <li> <p>Share system-wide</p> </li> 
-      </ul> </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td>Reviewer</td> 
-   <td> 
-    <ul> 
-     <li> <b>No access</b> </li> 
-     <li> <p><b>View</b> (default selection)<p>To fine-tune this, click the gear icon <img src="assets/gear-icon-in-access-levels.png"> on the <b>Edit</b> button, then disable or enable any of the following actions. Only the Share option is enabled by default.</p> 
-      <ul> 
-       <li> <p>View Built-In Reports</p> </li> 
-       <li> <p>Share</p> </li> 
-      </ul> </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td>Requestor</td> 
-   <td> 
-    <ul> 
-     <li> <b>No access</b> </li> 
-     <li> <p><b>View</b> (default selection): Allows view-only access to reports, dashboards, and calendars that have been shared with them.</p> <p>To fine-tune this, you can configure the ability to view built-in reports. Click the gear icon <img src="assets/gear-icon-in-access-levels.png"> on the <b>View</b> button, then disable or enable <b>View Built-in</b>(disabled by default).</p> </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td>External User</td> 
-   <td> <p>Access to reports, dashboards, and calendars is not available. External users can use Workfront only to review and download documents and to see calendars that are shared with them.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Action |Planner |Worker |Reviewer |Request |External user |
+|---|---|---|---|---|---|
+| Create |✓&#42; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+| Delete |✓&#42; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+| View built-in reports |✓&#42; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+| Share |✓&#42; |✓ |✓ |&nbsp; |&nbsp; |
+| Share calendars and reports publicly |✓&#42; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+| Share system-wide |✓&#42; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+| View |✓&#42; |✓&#42; |✓&#42; |✓&#42; |✓&#42; |
+| Edit |✓ |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+| Copy |✓ |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+
+{style="table-layout:auto"}
+
+&#42; Using an access level, Workfront administrators can disable or enable this functionality. For more information, see 
+>[!NOTE]
+>
+>Requestors can view only reports that have been shared with them
 
 ## Filters, views, and groupings
 
-In each access level, you can configure the following options for filters, views, and groupings:
-
-<table style="table-layout:auto"> 
+<table> 
  <col> 
+ </col> 
  <col> 
+ </col> 
+ <col> 
+ </col> 
+ <col> 
+ </col> 
+ <col> 
+ </col> 
+ <col> 
+ </col> 
  <thead> 
   <tr> 
-   <th>Access level</th> 
-   <th>Options</th> 
+   <th> <p>Action</p> </th> 
+   <th> <p>Planner</p> </th> 
+   <th> <p>Worker</p> </th> 
+   <th> <p>Reviewer</p> </th> 
+   <th> <p>Requestor</p> </th> 
+   <th>External user<br></th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td>Planner </td> 
-   <td> 
-    <ul> 
-     <li> <p><b>View</b></p><p>To fine-tune this, you can configure the ability to share filters, views, and groupings. Click the gear icon <img src="assets/gear-icon-in-access-levels.png"> on the View button, then disable or enable the <b>Share</b> option (enabled by default).</p> </li> 
-     <li> <p><b>Edit</b> (default selection): Allows full editing access to filters, views, and groupings.</p> <p>To fine-tune this, click the gear icon <img src="assets/gear-icon-in-access-levels.png"> on the <b>Edit</b> button, then disable or enable any of the following options. All of them are enabled by default.</p> 
-      <ul> 
-       <li> <p>Create</p> </li> 
-       <li> <p>Delete</p> </li> 
-       <li> <p>Share</p> </li> 
-       <li> <p>Share system-wide</p> </li> 
-      </ul> </li> 
-    </ul> </td> 
+   <td>Create</td> 
+   <td>✓*</td> 
+   <td>✓*</td> 
+   <td>✓*</td> 
+   <td>✓*</td> 
+   <td>&nbsp;</td> 
   </tr> 
   <tr> 
-   <td>Reviewer</td> 
-   <td> 
-    <ul> 
-     <li><p> <b>View</b></p> <p>To fine-tune this, you can configure the ability to share filters, views, and groupings. Click the gear icon <img src="assets/gear-icon-in-access-levels.png"> on the View button, then disable or enable the <b>Share</b> option (enabled by default).</p> </li> 
-     <li> <p><b>Edit</b> (default selection): Allows full editing access to filters, views, and groupings.</p> <p>To fine-tune this, click the gear icon <img src="assets/gear-icon-in-access-levels.png"> on the <b>Edit</b> button, then disable or enable any of the following options. All of them are enabled by default.</p> 
-      <ul> 
-       <li> <p>Create</p> </li> 
-       <li> <p>Delete</p> </li> 
-       <li> <p>Share</p> </li> 
-       <li> <p>Share system-wide</p> </li> 
-      </ul> </li> 
-    </ul> </td> 
+   <td>Delete</td> 
+   <td>✓*</td> 
+   <td>✓*</td> 
+   <td>✓*</td> 
+   <td>✓*</td> 
+   <td>&nbsp;</td> 
   </tr> 
   <tr> 
-   <td>Requestor</td> 
-   <td> 
-    <ul> 
-     <li> <p><b>View</b>:</p> <p>To fine-tune this, you can configure the ability to share filters, views, and groupings. Click the gear icon <img src="assets/gear-icon-in-access-levels.png"> on the View button, then disable or enable the <b>Share</b> option (enabled by default).</p> </li> 
-     <li> <p><b>Edit</b> (default selection): Allows full editing access to filters, views, and groupings.</p> <p>To fine-tune this, click the gear icon <img src="assets/gear-icon-in-access-levels.png"> on the <b>Edit</b> button, then disable or enable any of the following options. All of them are enabled by default.</p> 
-      <ul> 
-       <li> <p>Create</p> </li> 
-       <li> <p>Delete</p> </li> 
-       <li> <p>Share</p> </li> 
-       <li> <p>Share system-wide</p> </li> 
-      </ul> </li> 
-    </ul> </td> 
+   <td>Share</td> 
+   <td>✓*</td> 
+   <td>✓*</td> 
+   <td>✓*</td> 
+   <td>✓*</td> 
+   <td>&nbsp;</td> 
   </tr> 
   <tr> 
-   <td>External User</td> 
-   <td> <p>Access to filters, views, and groupings is not available. External users can use Workfront only to review and download documents and to see calendars that are shared with them.</p> </td> 
+   <td>Share system-wide</td> 
+   <td>✓*</td> 
+   <td>✓*</td> 
+   <td>✓*</td> 
+   <td>✓*</td> 
+   <td>&nbsp;</td> 
+  </tr> 
+  <tr> 
+   <td>View</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>&nbsp;</td> 
+  </tr> 
+  <tr> 
+   <td>Edit</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>&nbsp;</td> 
   </tr> 
  </tbody> 
 </table>
+
+&#42; Using an access level, Workfront administrators can disable or enable this functionality. For more information, see [Configurable access to functionality for each object type](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
 
 ## Documents
 
-In each access level, you can configure the following options for documents:
+| Action |Planner |Worker |Reviewer |Requestor |External user |
+|---|---|---|---|---|---|
+| Create |✓&#42; |✓&#42; |✓&#42; |✓&#42; |&nbsp; |
+| Delete (documents and folders) |✓&#42; |✓&#42; |✓&#42; |✓&#42; |&nbsp; |
+| Share |✓&#42; |✓&#42; |✓&#42; |✓&#42; |&nbsp; |
+| Share publicly (externally) |✓&#42; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+| Share system-wide |✓&#42; |✓&#42; |&nbsp; |&nbsp; |&nbsp; |
+| View |✓&#42; |✓&#42; |✓&#42; |✓&#42; |✓&#42; |
+| Edit details |✓ |✓ |✓ |✓ |&nbsp; |
+| Download |✓ |✓ |✓ |✓ |✓ |
+| Checkout |✓ |✓ |✓ |✓ |&nbsp; |
+| Add approvers |✓ |✓ |✓ |✓ |&nbsp; |
+| Approve documents |✓ |✓ |✓ |✓ |✓ |
+| Attach custom forms |✓ |✓ |✓ |✓ |&nbsp; |
+| Edit custom fields |✓ |✓ |✓ |✓ |&nbsp; |
+| Move to (object) |✓ |✓ |✓ |✓ |&nbsp; |
+| Send to (integration) |✓ |✓ |✓ |✓ |&nbsp; |
+| Add updates and comments |✓ |✓ |✓ |✓ |&nbsp; |
+| Upload new version |✓ |✓ |✓ |✓ |&nbsp; |
+| Delete a version |✓ |✓ |✓ |✓ |&nbsp; |
+| Preview |✓ |✓ |✓ |✓ |✓ |
+| Proof |✓ |✓ |✓ |✓ |&nbsp; |
+| Generate proof |✓ |✓ |&nbsp; |&nbsp; |&nbsp; |
+| Remove proof |✓ |✓ |✓ |✓ |&nbsp; |
+| Add/Remove&#42;&#42; |✓ |✓ |✓ |✓ |&nbsp; |
+| Rename&#42;&#42; |✓ |✓ |✓ |✓ |&nbsp; |
+| Link (with integration) |✓ |✓ |✓ |✓ |&nbsp; |
+| Unlink (with integration) |✓ |✓ |✓ |✓ |&nbsp; |
 
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <thead> 
-  <tr> 
-   <th>Access level</th> 
-   <th>Options</th> 
-  </tr> 
- </thead> 
- <tbody> 
-  <tr> 
-   <td>Planner </td> 
-   <td> 
-    <ul> 
-     <li> <b>No access</b> </li> 
-     <li><p> <b>View</b></p> <p>To fine-tune this, you can configure the ability to share documents. Click the gear icon <img src="assets/gear-icon-in-access-levels.png"> on the View button, then disable or enable the <b>Share</b> option (enabled by default).</p> </li> 
-     <li> <p><b>Edit</b> (default selection): Allows full editing access to documents.</p> <p>To fine-tune this, click the gear icon <img src="assets/gear-icon-in-access-levels.png"> on the <b>Edit</b> button, then disable or enable any of the following options. All of them are enabled by default except for <b>Share Documents Publicly</b> and <b>Share system-wide</b>.</p> 
-      <ul> 
-       <li> <p>Create</p> </li> 
-       <li> <p>Delete</p> </li> 
-       <li> <p>Share</p> </li> 
-       <li> <p>Share Documents Publicly (externally)</p> </li> 
-       <li> <p>Share system-wide</p> </li> 
-      </ul> </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td>Reviewer</td> 
-   <td> 
-    <ul> 
-     <li> <b>No access</b> </li> 
-     <li><p> <b>View</b></p> <p>To fine-tune this, you can configure the ability to share documents. Click the gear icon <img src="assets/gear-icon-in-access-levels.png"> on the View button, then disable or enable the <b>Share</b> option (enabled by default).</p> </li> 
-     <li> <p><b>Edit</b> (default selection): Allows full editing access to documents.</p> <p>To fine-tune this, click the gear icon <img src="assets/gear-icon-in-access-levels.png"> on the <b>Edit</b> button, then disable or enable any of the following actions. All of them are enabled by default except for the last two, <b>Share Documents Publicly</b> and <b>Share system-wide</b>.</p> 
-      <ul> 
-       <li> <p>Create</p> </li> 
-       <li> <p>Delete</p> </li> 
-       <li> <p>Share</p> </li> 
-       <li> <p>Share Documents Publicly (externally)</p> </li> 
-       <li> <p>Share system-wide</p> </li> 
-      </ul> </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td>Requestor</td> 
-   <td> 
-    <ul> 
-     <li> <b>No access</b> </li> 
-     <li> <p><b>View</b></p><p>To fine-tune this, you can configure the ability to share documents. Click the gear icon <img src="assets/gear-icon-in-access-levels.png"> on the View button, then disable or enable the <b>Share</b> option (enabled by default).</p> </li> 
-     <li> <p><b>Edit</b> (default selection): Allows full editing access to documents.</p> <p>To fine-tune this, click the gear icon <img src="assets/gear-icon-in-access-levels.png"> on the <b>Edit</b> button, then disable or enable any of the following options. All of them are enabled by default.</p> 
-      <ul> 
-       <li> <p>Create</p> </li> 
-       <li> <p>Delete</p> </li> 
-       <li> <p>Share</p> </li> 
-      </ul> </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td>External User</td> 
-   <td> <p>Access to documents is not configurable in this access level. But external users can use Workfront to view, review, and download documents.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
+{style="table-layout:auto"}
+
+&#42; Using an access level, Workfront administrators can disable or enable this functionality. For more information, see [Configurable access to functionality for each object type](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
+
+&#42;&#42;Available only for document folders, not documents
 
 ## Users
 
-In each access level, you can configure the following options for users:
-
 <table style="table-layout:auto"> 
  <col> 
+ </col> 
  <col> 
+ </col> 
+ <col> 
+ </col> 
+ <col> 
+ </col> 
+ <col> 
+ </col> 
+ <col> 
+ </col> 
  <thead> 
   <tr> 
-   <th>Access level</th> 
-   <th>Options</th> 
+   <th> <p>Action</p> </th> 
+   <th> <p>Planner</p> </th> 
+   <th>Worker</th> 
+   <th> <p>Reviewer</p> </th> 
+   <th> <p>Requestor</p> </th> 
+   <th> <p>External user**</p> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td>Planner </td> 
-   <td> 
-    <ul> 
-     <li> <p><b>View</b></p><p>To fine-tune this, you can configure the ability to view users' contact information. Click the gear icon <img src="assets/gear-icon-in-access-levels.png"> on the <b>View</b> button, then disable or enable the <b>View Contact Info</b> option (enabled by default).</p> </li> 
-     <li> <p><b>Edit</b> (default selection): Allows full editing access to users.</p> <p>To fine-tune this, click the gear icon <img src="assets/gear-icon-in-access-levels.png"> on the <b>Edit</b> button, then disable or enable any of the following actions. Only the first two options, <b>Create</b> and <b>Delete</b>, are enabled by default.</p> 
-      <ul> 
-       <li> <p>Create</p> </li> 
-       <li> <p>Delete</p> </li> 
-       <li>User Admin (All Users)</li> 
-       <li> <p>User Admin (Group Users)</p> </li> 
-      </ul> <p>For information about the two User Admin options, see the section <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md#access-to-edit" class="MCXref xref">Configure users' access to edit users using a custom access level</a> in the article <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Grant access to users</a>.</p> </li> 
-    </ul> </td> 
+   <td>Create</td> 
+   <td>✓*</td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
   </tr> 
   <tr> 
-   <td>Reviewer</td> 
-   <td> 
-    <ul> 
-     <li><p> <b>View</b> (only option available)</p> <p>To fine-tune this, you can configure the ability to view users' contact information. Click the gear icon <img src="assets/gear-icon-in-access-levels.png"> on the <b>View</b> button, then enable or disable the <b>View Contact Info</b> option (disabled by default).</p> </li> 
-    </ul> </td> 
+   <td>Delete</td> 
+   <td>✓*</td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
   </tr> 
   <tr> 
-   <td>Requestor</td> 
-   <td> 
-    <ul> 
-     <li> <p><b>View</b> (only option available)</p><p>To fine-tune this, you can configure the ability to view users' contact information. Click the gear icon <img src="assets/gear-icon-in-access-levels.png"> on the <b>View</b> button, then enable or disable the <b>View Contact Info</b> option (disabled by default).</p> </li> 
-    </ul> </td> 
+   <td>Edit, delete, deactivate, log in as, or reset the password for any user</td> 
+   <td>✓*</td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
   </tr> 
   <tr> 
-   <td>External User</td> 
-   <td> <p>Access to users is not available. External users can use Workfront only to review and download documents and to see calendars that are shared with them.</p> </td> 
+   <td>Edit, delete, deactivate, log in as, or reset the password for any user in a group they administer</td> 
+   <td>✓*</td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
+  </tr> 
+  <tr> 
+   <td>View users</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>&nbsp;</td> 
+  </tr> 
+  <tr> 
+   <td>View contact info</td> 
+   <td>✓</td> 
+   <td> ✓</td> 
+   <td>✓ </td> 
+   <td> ✓</td> 
+   <td>&nbsp;</td> 
   </tr> 
  </tbody> 
 </table>
+
+&#42; Using an access level, Workfront administrators can disable or enable this functionality. For more information, see [Configurable access to functionality for each object type](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
+
+&#42;&#42;External users can only search for other users
 
 ## Teams
 
-In each access level, you can configure the following options for teams:
-
 <table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <col> 
+ <col> 
  <col> 
  <col> 
  <thead> 
   <tr> 
-   <th>Access level</th> 
-   <th>Options</th> 
+   <th> <p>Action</p> </th> 
+   <th> <p>Planner</p> </th> 
+   <th>Worker</th> 
+   <th> <p>Reviewer</p> </th> 
+   <th> <p>Requestor</p> </th> 
+   <th> <p>External user*</p> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td>Planner </td> 
-   <td> 
-    <ul> 
-     <li><b>View</b> <p>To fine-tune this, click the gear icon <img src="assets/gear-icon-in-access-levels.png"> on the <b>View</b> button, then disable or enable any of the following options*. Both are disabled by default.</p> 
-      <ul> 
-       <li>View all teams</li> 
-       <li> <p>View teams associated with my groups</p> </li> 
-      </ul> </li> 
-     <li> <p><b>Edit</b> (default selection): Allows full editing access to teams.</p> <p>To fine-tune this, click the gear icon <img src="assets/gear-icon-in-access-levels.png"> on the <b>View</b> button, then disable or enable any of the following options*. All of them are enabled by default, except for <b>Edit teams I am on</b>.</p> 
-      <ul> 
-       <li>Create</li> 
-       <li>Delete</li> 
-       <li> <p>Edit teams I am on</p> </li> 
-       <li> <p>Edit teams in groups I manage (Group Admins only)</p> </li> 
-       <li> <p>View all teams</p> </li> 
-       <li> <p>View teams associated with my groups</p> </li> 
-      </ul> </li> 
-    </ul> </td> 
+   <td>Create</td> 
+   <td>✓*</td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
   </tr> 
   <tr> 
-   <td>Reviewer</td> 
-   <td> 
-    <ul> 
-     <li> <p><b>View</b> (only option available)</p> <p>To fine-tune this, click the gear icon <img src="assets/gear-icon-in-access-levels.png"> on the <b>View</b> button, then disable or enable any of the following options*. Both are enabled by default.</p> 
-      <ul> 
-       <li> <p>View all teams</p> </li> 
-       <li>View teams associated with my groups</li> 
-      </ul> </li> 
-    </ul> </td> 
+   <td>Delete</td> 
+   <td>✓*</td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
   </tr> 
   <tr> 
-   <td>Requestor</td> 
-   <td> 
-    <ul> 
-     <li> <p><b>View</b> (only option available)</p> <p>To fine-tune this, click the gear icon <img src="assets/gear-icon-in-access-levels.png"> on the <b>View</b> button, then disable or enable any of the following options*. Both are enabled by default.</p> 
-      <ul> 
-       <li> <p>View all teams</p> </li> 
-       <li>View teams associated with my groups</li> 
-      </ul> </li> 
-    </ul> </td> 
+   <td>Edit teams they're on</td> 
+   <td>✓*</td> 
+   <td>✓*</td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
   </tr> 
   <tr> 
-   <td>External User</td> 
-   <td> <p>Access to teams is not available. External users can use Workfront only to review and download documents and to see calendars that are shared with them.</p> </td> 
+   <td>Edit teams in groups they manage</td> 
+   <td>✓*</td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
+  </tr> 
+  <tr> 
+   <td>View all teams</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>&nbsp;</td> 
+  </tr> 
+  <tr> 
+   <td>View teams associated with their groups</td> 
+   <td>✓</td> 
+   <td> ✓</td> 
+   <td>✓ </td> 
+   <td> ✓</td> 
+   <td>&nbsp;</td> 
   </tr> 
  </tbody> 
 </table>
 
+&#42; Using an access level, Workfront administrators can disable or enable this functionality. For more information, see [Configurable access to functionality for each object type](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
 
 ## Templates
 
-In each access level, you can configure the following options for templates:
+| Action |Planner |Worker |Reviewer |Requestor |External user |
+|---|---|---|---|---|---|
+| Create |✓&#42; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+| Delete |✓&#42; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+| Share |✓&#42; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+| Share system-wide |✓&#42; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+| View |✓&#42; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+| Copy |✓ |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+| Edit template details |✓ |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <thead> 
-  <tr> 
-   <th>Access level</th> 
-   <th>Options</th> 
-  </tr> 
- </thead> 
- <tbody> 
-  <tr> 
-   <td>Planner </td> 
-   <td> 
-    <ul> 
-     <li> <b>No access</b> </li> 
-     <li><p> <b>View</b></p> <p>To fine-tune this, you can configure the ability to share templates. Click the gear icon <img src="assets/gear-icon-in-access-levels.png"> on the View button, then disable or enable the <b>Share</b> option (enabled by default).</p> </li> 
-     <li> <p><b>Edit</b> (default selection): Allows full editing access to templates.</p> <p>To fine-tune this, click the gear icon <img src="assets/gear-icon-in-access-levels.png"> on the <b>Edit</b> button, then disable or enable any of the following options. All of them are enabled by default.</p> 
-      <ul> 
-       <li> <p>Create</p> </li> 
-       <li> <p>Delete</p> </li> 
-       <li> <p>Share</p> </li> 
-       <li> <p>Share system-wide</p> </li> 
-      </ul> </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td>Reviewer</td> 
-   <td> 
-    <ul> 
-     <li> <p><b>No access</b> (only option available)</p> </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td>Requestor</td> 
-   <td> 
-    <ul> 
-     <li> <p><b>No access</b> (only option available)</p> </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td>External User</td> 
-   <td> <p>Access to templates is not available. External users can use Workfront only to review and download documents and to see calendars that are shared with them.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
+{style="table-layout:auto"}
+
+&#42; Using an access level, Workfront administrators can disable or enable this functionality. For more information, see [Configurable access to functionality for each object type](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
 
 ## Financial data
 
-In each access level, you can configure the following options for financial data:
+Only users with a Plan license can have full access to financial data.
 
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <thead> 
-  <tr> 
-   <th>Access level</th> 
-   <th>Options</th> 
-  </tr> 
- </thead> 
- <tbody> 
-  <tr> 
-   <td>Planner </td> 
-   <td> 
-    <ul> 
-     <li> <b>No access</b> </li> 
-     <li> <p><b>View</b>:</p> <p>To fine-tune this, click the gear icon <img src="assets/gear-icon-in-access-levels.png"> on the <b>View</b> button, then disable or enable any of the following options*. Both are enabled by default.</p> 
-      <ul> 
-       <li>View Role Billing &amp; Cost Rates</li> 
-       <li> <p>View User Billing &amp; Cost Rates</p> </li> 
-      </ul> </li> 
-     <li> <p><b>Edit</b> (default selection): Allows full editing access to financial data.</p> <p>To fine-tune this, click the gear icon <img src="assets/gear-icon-in-access-levels.png"> on the <b>View</b> button, then disable or enable any of the following options*. Only the last two options, <b>View Role Billing &amp; Cost Rates</b> and <b>View User Billing &amp; Cost Rates</b>, are enabled by default.</p> 
-      <ul> 
-       <li>Edit Role Billing &amp; Cost Rates</li> 
-       <li> <p>Edit User Billing &amp; Cost Rates</p> </li> 
-       <li>View Role Billing &amp; Cost Rates</li> 
-       <li> <p>View User Billing &amp; Cost Rates</p> </li> 
-      </ul> </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td>Reviewer</td> 
-   <td> 
-    <ul> 
-     <li> <p><b>No access</b> (default selection)</p> </li> 
-     <li><b>View</b> </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td>Requestor</td> 
-   <td> 
-    <ul> 
-     <li> <p><b>No access</b> (only option available)</p> </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td>External User</td> 
-   <td> <p>Access to financial data is not available. External users can use Workfront only to review and download documents and to see calendars that are shared with them.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
+The Request and External User license types are not included here because they don't have access to [select object or area].
 
-&#42; For information about these options, see [Overview of Billing and Revenue](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md).
+| Action |Planner |Worker |Reviewer |
+|---|---|---|---|
+| Edit role billing and cost rates |✓&#42; |&nbsp; |&nbsp; |
+| Edit user billing and cost rates |✓&#42; |&nbsp; |&nbsp; |
+| View role billing and cost rates |✓&#42; |&nbsp; |&nbsp; |
+| View user billing and cost rates |✓&#42; |&nbsp; |&nbsp; |
+| Manage billing records |✓ |&nbsp; |&nbsp; |
+| Manage expenses |✓ |✓ |&nbsp; |
+| View financial data |✓&#42; |✓&#42; |✓&#42; |
+| View information by Cost in the Resource Planning tools  |✓ |&nbsp; |&nbsp; |
+| Budget Resources in the Resource Planning tools&#42;&#42; |✓ |&nbsp; |&nbsp; |
+| View resource allocation in the Resource Planning tools&#42; |✓ |✓ |✓ |
+| Create risks on projects |✓ |&nbsp; |&nbsp; |
+| View risks on projects |✓ |✓ |✓ |
+
+{style="table-layout:auto"}
+
+&#42; Using an access level, Workfront administrators can disable or enable this functionality. For more information, see [Configurable access to functionality for each object type](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
+
+&#42;&#42;Requires additional access to Resource Management.
 
 ## Resource Management
 
-In each access level, you can configure the following options for Resource Management:
+Only users with a Plan license can have full access to [select object or area]. Other license types can have limited or no access to Resource Management in Workfront.
 
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <thead> 
-  <tr> 
-   <th>Access level</th> 
-   <th>Options</th> 
-  </tr> 
- </thead> 
- <tbody> 
-  <tr> 
-   <td>Planner </td> 
-   <td> 
-    <ul> 
-     <li> <b>No access</b> </li> 
-     <li> <b>View</b> </li> 
-     <li> <p><b>Edit</b> (default selection): Allows full editing access to Resource Management.</p> <p>To fine-tune this, click the gear icon <img src="assets/gear-icon-in-access-levels.png"> on the <b>Edit</b> button, then disable or enable any of the following options. Only the first option, <b>Edit priorities and budget hours in the Planner</b>, is enabled by default.</p> 
-      <ul> 
-       <li> <p> Edit priorities and budget hours in the Planner</p> </li> 
-       <li> <p>Manage Resource Pools</p> <p><b>NOTE</b>: In order to manage resource pools, a user needs additional access to financial data and permissions to project finances. If you grant Resource Management access to a Planner user who doesn't have access to financial data, the user can still see the hourly allocations in the Resource Planner, but can't switch to Cost view or view the Business Case. For more information, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md" class="MCXref xref">Grant access to financial data</a> and <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-financial-permissions-object.md" class="MCXref xref">Share financial permissions on an object</a>.</p> </li> 
-       <li> <p>Update Planned Hours in the Workload Balancer</p> <p><b>NOTE</b>: In order to update planned hours in the Workload Balancer, a user needs permission to contribute to the object, with Make Assignments enabled under Advanced Settings. For information, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md" class="MCXref xref">Overview of sharing permissions on objects</a>.</p> </li> 
-      </ul> </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td>Reviewer</td> 
-   <td> 
-    <ul> 
-     <li> <b>No access</b> </li> 
-     <li> <b>View</b> (default selection)</li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td>Requestor</td> 
-   <td> 
-    <ul> 
-     <li> <b>No access</b> (only option available) </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td>External User</td> 
-   <td> <p>Access is not available. External users can use Workfront only to review and download documents and to see calendars that are shared with them.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Action |Planner |Worker |Reviewer |Requestor |External user |
+|---|---|---|---|---|---|
+| Edit priorities and budget hours in the Planner |✓&#42; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+| Create, edit, delete Resource Pools&#42;&#42; |✓&#42; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+| `Update Planned Hours in the Workload Balancer`&#42;&#42;&#42; | `✓*`  |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+| View project priorities in the Resource Planner | ✓&#42; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+| View resource allocation in the Resource Planning tools | ✓&#42; |✓&#42; |✓&#42; |&nbsp; |&nbsp; |
+| View Resource Pools | ✓&#42; |✓&#42; |✓&#42; |&nbsp; |&nbsp; |
+| Budget resources in the Resource Planning tools&#42;&#42; |✓ |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+| Attach Resource Pools to projects, templates, and users |✓ |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+
+{style="table-layout:auto"}
+
+&#42; Using an access level, Workfront administrators can disable or enable this functionality. For more information, see [Configurable access to functionality for each object type](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
+
+&#42;&#42;Requires additional access to Financial Data and permissions to project finances. If you grant Resource Management access to a Planner user who doesn't have access to Financial Data, the user can still see the hourly allocations in the Resource Planner, but can't switch to Cost view or view the Business Case. For more information, see [Grant access to financial data](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md) and [Share financial permissions on an object](../../../workfront-basics/grant-and-request-access-to-objects/share-financial-permissions-object.md).
+
+&#42;&#42;&#42;Requires permission to Contribute to the object, with Make Assignments enabled under Advanced Settings. For information, see the section [Understand inherited permissions and the hierarchy of objects](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md#sharing-an-object) in the article [Overview of sharing permissions on objects](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
 ## Scenario Planner area
 
-The default setting for all access levels is No Access. A Workfront administrator can change this to View or Edit access for any Planner, Worker, and Reviewer access level. 
+| Action |Planner |Worker |Reviewer |Requestor |External user |
+|---|---|---|---|---|---|
+| Create/edit existing plans and initiatives | ✓ |✓ |✓ |&nbsp; |&nbsp; |
+| Add or edit job role information on plans and initiatives&#42; |✓ |✓ |✓ |&nbsp; |&nbsp; |
+| Add or edit cost information on plans and initiatives&#42; |✓ |✓ |✓ |&nbsp; |&nbsp; |
+| Delete plans and initiatives | ✓ |✓ |✓ |&nbsp; |&nbsp; |
+| View Scenarios in the Main Menu ![](assets/esp-icon-in-main-menu.png)| ✓ |✓ |✓ | |&nbsp; |
+| View plans and initiatives that the user created&#42; |✓ |✓ |✓ |&nbsp; |&nbsp; |
 
-<!--
-DRAFTED IN FLARE:
-Alina says: This will change overtime for some of the access levels, but right now once they get Edit access, they can do everything
-
--->
+{style="table-layout:auto"}
 
 >[!NOTE]
 >
 >Users can view a plan that another user created only if a link to the plan is shared with them.
 
+&#42; In order for users to view financial data in a plan or initiative, they need access to Financial Data. For more information, see [Grant access to financial data](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
+
 ## Workfront Goals area
 
-All six of the default access levels (and all 4 of the license types) can edit and view Workfront Goals.
-
-Edit is the default option.
+| Actions |View |Edit |
+|---|---|---|
+| Create |&nbsp; |✓ |
+| Edit / delete all goals |&nbsp; |✓ |
+| View Goals in the Main menu |✓ |✓ |
+| View the Goals area from a shared link |✓ |✓ |
+| View all goals in the system |✓ |✓  |
+| Activate/ deactivate/ close all goals |&nbsp; |✓ |
+| Create/ edit/ delete activities |&nbsp; |✓ |
+| Create/ edit/ delete results |&nbsp; |✓ |
+| Add an aligned goal |&nbsp; |✓ |
+| Update progress on a result or activity |&nbsp; |✓ |
+| Own a goal, result, or activity |✓ |✓ |
+| Comment on a goal |✓ |✓ |
+| Copy goals |&nbsp; |✓ |
+| View the Goal List section in the left panel |✓ |✓ |
+| View the Graphs section in the left panel |✓ |✓ |
+| View the Goal Alignment section in the left panel |✓ |✓ |
+| View the Pulse section in the left panel |✓ |✓ |
+| View the Check-in area in the left panel |&nbsp; |✓ |
+| View the Settings area in the left panel |✓ |✓  |
+| Print a list of goals |✓ |✓  |
