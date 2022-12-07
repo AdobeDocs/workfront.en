@@ -457,7 +457,7 @@ List Controls in Setup > Interface will be removed with the 23.1 release.
 
 Some list control funtionality is moving to the Setup > Interface > Filters/Views/Grouping areas. For more information, see [Create, edit, and share default filters, views, and groupings](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/create-and-share-default-fvgs.md).
 
-#### Workfront extension for Illustrator and InDesign
+#### **Workfront extension for Illustrator and InDesign**
  
 We are replacing the [Workfront extension for Illustrator and InDesign](/help/quicksilver/documents/workfront-for-adobe-creative-cloud/workfront-for-adobe-creative-loud.md) with updated Creative Cloud plugins. Starting late 2022, this extension will no longer be available to install in the Adobe Exchange.
  

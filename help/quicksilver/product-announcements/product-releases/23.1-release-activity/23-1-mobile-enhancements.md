@@ -7,7 +7,7 @@ feature: Product Announcements
 ---
 # 23.1 Mobile enhancements
 
-This page describes all Mobile enhancements made with the 23.1 release to the Preview environment. These enhancements will be made available the week of January 16, 2023.
+This page describes all Mobile enhancements made with the 23.1 release to the Preview environment. These enhancements will be made available in the Production environment the week of January 16, 2023.
 
 For a list of all changes available with the 23.1 release, see [23.1 Release overview](/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-release-overview.md).
 
