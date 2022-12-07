@@ -16,13 +16,13 @@ You can use Portfolios and Programs to organize projects. Through organizing pro
 
 ## Access needed to create portfolios
 
-You must have Edit access to Portfolios in your access level to create and manage Portfolios, and you must have Manage permissions on a Portfolio to be able to edit it. You must have View permissions on a Portfolio to be able to see it.\
+You must have [!UICONTROL Edit] access to Portfolios in your access level to create and manage Portfolios, and you must have [!UICONTROL Manage] permissions on a Portfolio to be able to edit it. You must have [!UICONTROL View] permissions on a Portfolio to be able to see it.\
 For information about access to Portfolios, see [Access levels overview](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).\
 For information about permissions to Portfolios, see [Share a portfolio](../../../workfront-basics/grant-and-request-access-to-objects/share-a-portfolio..md).
 
 For information about using Programs, see [Create a program](../../../manage-work/portfolios/create-and-manage-programs/create-program.md).
 
-## Adobe Workfront portfolio methodology
+## [!DNL Adobe Workfront] portfolio methodology
 
 In [!DNL Workfront], you can add projects to portfolios to create and organize your portfolios.
 
@@ -31,7 +31,7 @@ We recommend that you follow these steps for an efficient organization of your p
 1. Create a Business Case for a project and associate the project with a Portfolio.
 1. Associate Resource Pools with projects as you build their Business Case.
 1. Get the [!UICONTROL Business Case] approved by your Portfolio Manager.
-1. Manage the performance of your projects within the portfolio in the Portfolio Optimizer.
+1. Manage the performance of your projects within the portfolio in the [!UICONTROL Portfolio Optimizer].
 
 To create efficient portfolios that bring value to your organization, you must start with a Project Request where you define the Business Case for each project which is later added to the portfolio.
 

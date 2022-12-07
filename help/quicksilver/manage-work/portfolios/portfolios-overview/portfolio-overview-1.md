@@ -14,6 +14,6 @@ This section contains the following articles:
 
 * [Portfolio Management overview](../../../manage-work/portfolios/portfolios-overview/portfolio-managament-overview.md)
 * [Portfolio overview in [!DNL Adobe Workfront]](../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md)
-* [[!UICONTROL Navigate] within a portfolio](../../../manage-work/portfolios/portfolios-overview/navigate-within-portfolio.md)
+* [Navigate within a portfolio](../../../manage-work/portfolios/portfolios-overview/navigate-within-portfolio.md)
 
 
