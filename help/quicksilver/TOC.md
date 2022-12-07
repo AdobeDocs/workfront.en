@@ -13,12 +13,10 @@ feature-set: Workfront
     * [Adobe Workfront release schedule and process](product-announcements/product-releases/workfront-release-schedule.md)
     * 23.1 Release {#release-23-1}
       * [23.1 Release overview](product-announcements/product-releases/23.1-release-activity/23-1-release-overview.md)
-      * [23.1 release activity: Week of November 28, 2022](product-announcements/product-releases/23.1-release-activity/23-1-nov-28.md)
-      * [23.1 release activity: Week of November 14, 2022](product-announcements/product-releases/23.1-release-activity/23-1-nov-14.md)
-      * [23.1 release activity: Week of November 7, 2022](product-announcements/product-releases/23.1-release-activity/23-1-nov-7.md)
-      * [23.1 release activity: Week of October 24, 2022](product-announcements/product-releases/23.1-release-activity/23-1-oct-24.md)
-      * [23.1 release activity: Week of October 17, 2022](product-announcements/product-releases/23.1-release-activity/23-1-oct-17.md)
-      * [23.1 release activity: Week of October 10, 2022](product-announcements/product-releases/23.1-release-activity/23-1-oct-10.md)
+      * [23.1 Project enhancements](product-announcements/product-releases/23.1-release-activity/23-1-project-enhancements.md)
+      * [23.1 Agile enhancements](product-announcements/product-releases/23.1-release-activity/23-1-agile-enhancements.md)
+      * [23.1 Mobile enhancements](product-announcements/product-releases/23.1-release-activity/23-1-mobile-enhancements.md)
+      * [23.1 Other enhancements](product-announcements/product-releases/23.1-release-activity/23-1-other-enhancements.md)
       * [Look-and-feel updates during the 23.1 release time frame](product-announcements/product-releases/23.1-release-activity/23-1-look-and-feel-updates.md)
     * 22.4 Release {#release-22-4}
       * [22.4 Release overview](product-announcements/product-releases/22.4-release-activity/22-4-release-overview.md)

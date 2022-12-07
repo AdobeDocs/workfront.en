@@ -1,0 +1,29 @@
+---
+title: 23.1 Project enhancements
+description: 23.1 Project enhancements
+author: Courtney
+draft: Probably
+feature: Product Announcements
+---
+# 23.1 Project enhancements
+
+This page describes all Project enhancements made with the 23.1 release to the Preview environment. These enhancements will be made available the week of January 16th. 
+
+For a list of all changes available with the 23.1 release, see [23.1 Release overview](/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-release-overview.md).
+
+## Relocation of the "Add users" option on a project
+
+In preparation for the deprecation and removal of the Resource Scheduling tools, we have relocated the "Add users" option from the Scheduling section of a project to the People section. When adding users to a project, the users who are not associated with items on the project become part of the Project Team. 
+
+For more information, see [Manage the Project Team](/help/quicksilver/manage-work/projects/planning-a-project/manage-project-team.md).  
+
+[View a video demonstration of this feature](https://vimeo.com/763795063){target=_blank}
+
+## Copy a direct link for a document folder
+
+You can now copy and share document folder links to provide quick access to the folder. Users must have at least View access to the object to view the folder.
+
+For more information, see [Copy and share a link to a document folder](/help/quicksilver/documents/managing-documents/copy-a-doc-folder-url.md).
+
+[View a video demonstration of this feature](https://vimeo.com/760458613){target=_blank}
+
