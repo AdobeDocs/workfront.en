@@ -14,9 +14,9 @@ The [!UICONTROL Portfolio Optimizer] is the tool used for project evaluation and
 
 This section contains the following articles:
 
-* [Portfolio Optimizer overview](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md)
-* [Locate the Portfolio Optimizer](../../../manage-work/portfolios/portfolio-optimizer/locate-portfolio-optimizer.md)
-* [Overview of the Portfolio Optimizer Score](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-score.md)
-* [Prioritize projects in the Portfolio Optimizer](../../../manage-work/portfolios/portfolio-optimizer/prioritize-projects-in-portfolio-optimizer.md)
-* [Optimize projects in the Portfolio Optimizer](../../../manage-work/portfolios/portfolio-optimizer/optimize-projects-in-portfolio-optimizer.md)
-* [Calculate the Risk to Net Value in a portfolio](../../../manage-work/portfolios/portfolio-optimizer/calculate-risk-to-net-value-in-portfolio.md)
+* [[!UICONTROL Portfolio Optimizer] overview](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md)
+* [Locate the [!UICONTROL Portfolio Optimizer]](../../../manage-work/portfolios/portfolio-optimizer/locate-portfolio-optimizer.md)
+* [Overview of the [!UICONTROL Portfolio Optimizer] Score](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-score.md)
+* [Prioritize projects in the [!UICONTROL Portfolio Optimizer]](../../../manage-work/portfolios/portfolio-optimizer/prioritize-projects-in-portfolio-optimizer.md)
+* [Optimize projects in the [!UICONTROL Portfolio Optimizer]](../../../manage-work/portfolios/portfolio-optimizer/optimize-projects-in-portfolio-optimizer.md)
+* [Calculate the [!UICONTROL Risk to Net Value] in a portfolio](../../../manage-work/portfolios/portfolio-optimizer/calculate-risk-to-net-value-in-portfolio.md)
