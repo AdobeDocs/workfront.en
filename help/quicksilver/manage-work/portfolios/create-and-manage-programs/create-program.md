@@ -29,11 +29,11 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Portfolios and Programs </p> <p>Note: If you still don't have access, ask your [!DNL Workfront] administrator if they set additional restrictions in your access level. For information on how a [!DNL Workfront] administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>[!UICONTROL Edit] access to Portfolios and Programs </p> <p>Note: If you still don't have access, ask your [!DNL Workfront] administrator if they set additional restrictions in your access level. For information on how a [!DNL Workfront] administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>Manage permissions to the portfolio</p> <p>After you create a program, you have Manage permissions to it, by default</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+   <td> <p>[!UICONTROL Manage] permissions to the portfolio</p> <p>After you create a program, you have [!UICONTROL Manage] permissions to it, by default</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -49,15 +49,15 @@ You must have the following access to perform the steps in this article:
    * Create a program from the [!UICONTROL Programs] area:
 
       1. Click **[!UICONTROL Programs]** in the Main Menu.
-      1. Click **New Program**.
+      1. Click **[!UICONTROL New Program]**.
       1. In the box that displays, type the name of an existing Portfolio in the **[!UICONTROL Select Portfolio]** field.
       1. Type the name of the new program in the **[!UICONTROL Name]** field.
-      1. Click **Save**.
+      1. Click **[!UICONTROL Save]**.
    * Create a program from the [!UICONTROL Portfolios] area:
 
-      1. Click **[!UICONTROL Portfolios]** in the Main Menu, then click a portfolio.
-      1. In the left panel, click **Programs**.
-      1. Click the **New Program** drop-down menu, then **New Program**.
+      1. Click **[!UICONTROL Portfolios]** in the [!UICONTROL Main Menu], then click a portfolio.
+      1. In the left panel, click **[!UICONTROL Programs]**.
+      1. Click the **[!UICONTROL New Program]** drop-down menu, then **[!UICONTROL New Program]**.
 
 
 1. Specify the name for the Program in the **[!UICONTROL Untitled Program]** field.
@@ -71,7 +71,7 @@ You must have the following access to perform the steps in this article:
    >As the creator of the program, you are set as the Program Manager by default.
 
 1. Click **[!UICONTROL Program Details]** in the left panel.
-1. Double-click any field to update the information in the **Overview** area.
+1. Double-click any field to update the information in the **[!UICONTROL Overview]** area.
 1. Specify the following information:
 
    <table style="table-layout:auto"> 
@@ -85,15 +85,15 @@ You must have the following access to perform the steps in this article:
     </thead> 
     <tbody> 
      <tr> 
-      <td role="rowheader">Description</td> 
+      <td role="rowheader">[!UICONTROL Description]</td> 
       <td> <p>Specify a description for the program.</p> <p>The description is displayed on the landing page of the program.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Program Manager</td> 
-      <td> <p>Begin typing the name of the user who you want to act as the Program Manager, then click the user's name when it appears in the drop-down list. This is the same as the Program Owner. </p> <p>Tip: You can also update the Program Manager in the program header. </p> </td> 
+      <td role="rowheader">[!UICONTROL Program Manager]</td> 
+      <td> <p>Begin typing the name of the user who you want to act as the Program Manager, then click the user's name when it appears in the drop-down list. This is the same as the [!UICONTROL Program Owner]. </p> <p>Tip: You can also update the Program Manager in the program header. </p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
-      <td role="rowheader">Group </td> 
+      <td role="rowheader">[!UICONTROL Group] </td> 
       <td> <p>Add the name of a single group if the group owns the program or has responsibility for completing it. </p> <p>You can make sure you are selecting the right group by hovering over it and clicking the [!UICONTROL information] icon <img src="assets/info-icon.png"> that displays next to it. This displays a tooltip listing information about the group, such as the hierarchy of groups above it and its administrators.</p> 
        <div data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
         <img src="assets/group-details-widget-programs-350x268.png" style="width: 350;height: 268;"> 
@@ -113,8 +113,8 @@ You must have the following access to perform the steps in this article:
 
    For information about adding projects to programs, see [Add a project to a program](../../../manage-work/portfolios/create-and-manage-programs/add-project-to-program.md).
 
-1. Click **Save Changes**.
-1. (Optional) Click the **More menu** ![](assets/more-icon.png) next to the program name and click **Deactivate Program**.
+1. Click **[!UICONTROL Save Changes]**.
+1. (Optional) Click the **[!UICONTROL More menu]** ![](assets/more-icon.png) next to the program name and click **[!UICONTROL Deactivate Program]**.
 
    When you deactivate a program, the program no longer displays in a list of program when users try to add it to a project. You can still access the program from the [!UICONTROL Programs] area.
 
@@ -142,7 +142,7 @@ The following information displays in the header of a program:
   </tr> 
   <tr> 
    <td role="rowheader">Name of the object type and activation status</td> 
-   <td>The word "Program" displays in a green outline when you view a program. The word "Deactivated" displays next to it and the outline is gray if the program is not marked as Active. </td> 
+   <td>The word "Program" displays in a green outline when you view a program. The word "[!UICONTROL Deactivated]" displays next to it and the outline is gray if the program is not marked as [!UICONTROL Active]. </td> 
   </tr> 
   <tr> 
    <td role="rowheader">The actions area of the program </td> 
@@ -159,20 +159,20 @@ The following information displays in the header of a program:
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Percent Complete</td> 
-   <td> <p>You cannot edit the Percent Complete of the program in the header. This information is updated from the projects in the program. By default, the percent complete of the program is an average of the percent complete values of the projects in a Current and Approved status that belong to the program.</p> </td> 
+   <td role="rowheader">[!UICONTROL Percent Complete]</td> 
+   <td> <p>You cannot edit the [!UICONTROL Percent Complete] of the program in the header. This information is updated from the projects in the program. By default, the percent complete of the program is an average of the percent complete values of the projects in a [!UICONTROL Current] and [!UICONTROL Approved] status that belong to the program.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Program Manager</td> 
-   <td> <p>You can edit the Program Manager in the header. This is the same as the Program Owner. </p> </td> 
+   <td role="rowheader">[!UICONTROL Program Manager]</td> 
+   <td> <p>You can edit the Program Manager in the header. This is the same as the [!UICONTROL Program Owner]. </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Planned Completion Date</td> 
-   <td>You cannot edit the percent complete of the program in the header. The percent complete of the program is an average of the percent complete of the projects in the header. The projects represented here are projects with a status of Current and Approved. </td> 
+   <td role="rowheader">[!UICONTROL Planned Completion Date]</td> 
+   <td>You cannot edit the percent complete of the program in the header. The percent complete of the program is an average of the percent complete of the projects in the header. The projects represented here are projects with a status of [!UICONTROL Current] and [!UICONTROL Approved]. </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Active Projects Condition</td> 
-   <td>This is a calculation of what percentage of projects in the program have the Condition set as On Target, At Risk, or In Trouble. The projects represented here are projects with a status of Current and Approved. </td> 
+   <td role="rowheader">[!UICONTROL Active Projects Condition]</td> 
+   <td>This is a calculation of what percentage of projects in the program have the [!UICONTROL Condition] set as [!UICONTROL On Target], [!UICONTROL At Risk], or [!UICONTROL In Trouble]. The projects represented here are projects with a status of [!UICONTROL Current] and [!UICONTROL Approved]. </td> 
   </tr> 
  </tbody> 
 </table>

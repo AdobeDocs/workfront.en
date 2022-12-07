@@ -35,13 +35,13 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Portfolios, Programs , and Projects</p> <p>You must have Delete access to Projects to delete projects.</p> <p><b> NOTE</b>
+   <td> <p>[!UICONTROL Edit] access to Portfolios, Programs , and Projects</p> <p>You must have [!UICONTROL Delete] access to Projects to delete projects.</p> <p><b> NOTE</b>
 
 If you still don't have access, ask your [!DNL Workfront] administrator if they set additional restrictions in your access level. For information on how a [!DNL Workfront] administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>Manage permissions to the portfolio, the program, and the project</p> <p>You must have Delete permissions to the project to delete it. </p> <p>After you create a program, you have Manage permissions to it, by default.</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+   <td> <p>[!UICONTROL Manage] permissions to the portfolio, the program, and the project</p> <p>You must have [!UICONTROL Delete] permissions to the project to delete it. </p> <p>After you create a program, you have [!UICONTROL Manage] permissions to it, by default.</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -53,11 +53,11 @@ If you still don't have access, ask your [!DNL Workfront] administrator if they 
 1. Go to a program and click **[!UICONTROL Projects]** in the left panel.
 
 1. Select the project you want to remove
-1. Click the **Remove Projects**&nbsp;drop-down menu.
-1. Click **[!UICONTROL Delete]** >&nbsp;**Yes, Delete it** to delete the project from Workfront.
+1. Click the **[!UICONTROL Remove Projects]**&nbsp;drop-down menu.
+1. Click **[!UICONTROL Delete]** >&nbsp;**[!UICONTROL Yes, Delete it]** to delete the project from Workfront.
 
    or
 
-   Click **Remove** **from Program** to remove it from the selected program.
+   Click **[!UICONTROL Remove]** **[!UICONTROL from Program]** to remove it from the selected program.
 
    If you clicked [!UICONTROL Remove from Program], the project is no longer associated with the selected program.
