@@ -116,8 +116,8 @@ The enhancements on this page are available in the Preview environment. This pag
                                 <p>Preview release: TBD<br /></p>
                             </li>
                             <li>
-                                <p>Production release for early opt-in: December 8, 2022 <span style="color: #ff0000;"> This feature is available in Production on this date only through the early feature opt-in for Workfront Boards.</span></p>
-                                <p>Production release for all customers: Shortly after the 23.1 release</p>
+                                <!-- <p>Production release for early opt-in: December 8, 2022 <span style="color: #ff0000;"> This feature is available in Production on this date only through the early feature opt-in for Workfront Boards.</span></p> -->
+                                <p>Production release for all customers: Fast follow after the 23.1 release</p>
                             </li>
                         </ul>
                     </td>
@@ -135,7 +135,7 @@ The enhancements on this page are available in the Preview environment. This pag
                                 <p>Preview release: December 1, 2022<br /></p>
                             </li>
                             <li>
-                                <p>Production release for early opt-in: December 8, 2022 <span style="color: #ff0000;"> This feature is available in Production on this date only through the early feature opt-in for Workfront Boards.</span></p>
+                                <p>Production release for early opt-in: TBD<span style="color: #ff0000;"> This feature is available in Production on this date only through the early feature opt-in for Workfront Boards.</span></p>
                                 <p>Production release for all customers: With the 23.1 release</p>
                             </li>
                         </ul>
@@ -154,7 +154,7 @@ The enhancements on this page are available in the Preview environment. This pag
                                 <p>Preview release: December 1, 2022<br /></p>
                             </li>
                             <li>
-                                <p>Production release for early opt-in: December 8, 2022 <span style="color: #ff0000;"> This feature is available in Production on this date only through the early feature opt-in for Workfront Boards.</span></p>
+                                <p>Production release for early opt-in: TBD <span style="color: #ff0000;"> This feature is available in Production on this date only through the early feature opt-in for Workfront Boards.</span></p>
                                 <p>Production release for all customers: With the 23.1 release</p>
                             </li>
                         </ul>
@@ -330,6 +330,25 @@ The enhancements on this page are available in the Preview environment. This pag
                     <td>
                         <p><span class="bold">Release dates</span>
                         </p>
+                    </td>
+                </tr>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Enhanced filter experience generally available in Adobe Workfront</a></p>
+                        <p>An upgrade to the filter experience was released to public beta on project, task, and issue lists in August 2022. Most lists now offer the enhanced filters.</p>
+                        <p>As a "fast follow" to the 23.1 release, the enhanced filter experience will be generally available and become the standard filter builder in the February/March 2023 timeframe.</p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                     <p>
+                        </p>
+                        <ul>
+                            <li>
+                                <p>Preview release: February/March 2023<br /></p>
+                            </li>
+                            <li>
+                                <p>Production release: February/March 2023</p>
+                            </li>
+                        </ul>
                     </td>
                 </tr>
                  <tr>

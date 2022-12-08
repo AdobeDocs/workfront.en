@@ -11,6 +11,24 @@ This page describes all other enhancements made with the 23.1 release to the Pre
 
 For a list of all changes available with the 23.1 release, see [23.1 Release overview](/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-release-overview.md).
 
+## Enhanced filter experience generally available in Adobe Workfront
+
+An upgrade to the filter experience was released to public beta on project, task, and issue lists in August 2022. Most lists now offer the enhanced filters. (To review all of these lists, see the [23.1 look-and-feel updates release note](/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-look-and-feel-updates.md).)
+
+As a "fast follow" to the 23.1 release, the enhanced filter experience will be generally available and become the standard filter builder in the February/March 2023 timeframe.
+
+The following will be available in Workfront before the enhanced filters are generally available:
+
+* Global filter setup capability will be added to the filters setup page
+* The ability to add and delete system default filters will be added to layout templates
+* List controls will be deprecated
+
+These features fix issues related to curated filter lists not appearing correctly in the public beta filters.
+
+You can still access the legacy filters on lists by enabling them in the filter panel. Legacy filters will be deprecated from lists in the future, but they will remain available in reports because the enhanced filters are not available in reports.
+
+For details about the enhanced filters and a video demonstration, see the [filters public beta release note](/help/quicksilver/product-announcements/product-releases/22.4-release-activity/22-4-project-enhancements.md).
+
 ## New list control functionality in Interface > Filters, Views, and Groupings
 
 We've added list control functionality to the Filters, Views, and Groupings pages in the Setup area. There, you can enable or disable filters, views, and groupings for the Layout Template.
