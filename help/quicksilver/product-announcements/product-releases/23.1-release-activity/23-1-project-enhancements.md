@@ -4,6 +4,7 @@ description: 23.1 Project enhancements
 author: Courtney
 draft: Probably
 feature: Product Announcements
+exl-id: 180c73c6-f426-49b9-99a4-86b1c817bcef
 ---
 # 23.1 Project enhancements
 
@@ -26,4 +27,3 @@ You can now copy and share document folder links to provide quick access to the 
 For more information, see [Copy and share a link to a document folder](/help/quicksilver/documents/managing-documents/copy-a-doc-folder-url.md).
 
 [View a video demonstration of this feature](https://vimeo.com/760458613){target=_blank}
-
