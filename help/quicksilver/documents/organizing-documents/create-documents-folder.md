@@ -56,7 +56,7 @@ You can display folders in thumbnail, standard, or list view. To change the view
 
 ## Create folders and subfolders
 
-Create folders to better organize your documents.
+Create folders to better organize your documents. You can create up to 2,000 folders on an object and up to 50 subfolders within each folder. Subfolders count towards the 2,000 folder maximum.
 
 1. Click **Documents** in the Main Menu. ![](assets/main-menu-icon.png)
 
