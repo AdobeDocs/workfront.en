@@ -11,6 +11,16 @@ This page describes all Agile enhancements made with the 23.1 release to the Pre
 
 For a list of all changes available with the 23.1 release, see [23.1 Release overview](/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-release-overview.md).
 
+## Scrum planning for Workfront Boards
+
+The new Scrum planning features in Adobe Workfront Boards offer flexible options to manage your agile processes. Using these tools, you can:
+
+* Track work in iterations or sprints
+* Use velocity to guide team commitments
+* Track burndown and rate of completion
+
+The Scrum planning features will be a "fast follow" after the 23.1 release.
+
 ## Due dates on cards map to planned completion date on Workfront object
 
 >[!NOTE]

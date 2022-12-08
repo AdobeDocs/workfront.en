@@ -155,6 +155,9 @@ feature-set: Workfront
       * [Workfront Scenario Planner with the 20.3 release - August 14, 2020](product-announcements/product-releases/scenario-planner-release-activity/sp-release-20-3.md)
     * Adobe Workfront Goals release activity {#goals-release}
       * [Adobe Workfront Goals release activity](product-announcements/product-releases/goals-release-activity/goals-release-activity.md)
+      * Goals with 23.1 release {#goals-23-1}
+        * [Adobe Workfront Goals with the 23.1 release](product-announcements/product-releases/goals-release-activity/goals-23-1-release/goals-23-1-release.md)
+        * [Adobe Workfront Goals 23.1 release activity: Week of December 5, 2023](product-announcements/product-releases/goals-release-activity/goals-23-1-release/goals-jan.md.draft)
       * Goals with 21.2 release {#goals-21-2}
         * [Adobe Workfront Goals with the 21.2 release](product-announcements/product-releases/goals-release-activity/goals-21.2-release/goals-release-21-2.md)
         * [Adobe Workfront Goals 21.2 release activity: Week of April 19, 2021](product-announcements/product-releases/goals-release-activity/goals-21.2-release/goals-apr-19.md)

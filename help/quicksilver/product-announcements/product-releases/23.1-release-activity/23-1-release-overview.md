@@ -97,6 +97,31 @@ The enhancements on this page are available in the Preview environment. This pag
                         </p>
                     </td>
                 </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Scrum planning for Workfront Boards</a><span style="color: #ff0000;"> Coming soon!</span></p>
+                        <p>The new Scrum planning features in Adobe Workfront Boards offer flexible options to manage your agile processes. Using these tools, you can:
+                        <ul>
+                        <li>Track work in iterations or sprints</li>
+                        <li>Use velocity to guide team commitments</li>
+                        <li>Track burndown and rate of completion</li>
+                        </ul>
+                        </p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                     <p>
+                        </p>
+                        <ul>
+                            <li>
+                                <p>Preview release: TBD<br /></p>
+                            </li>
+                            <li>
+                                <p>Production release for early opt-in: December 8, 2022 <span style="color: #ff0000;"> This feature is available in Production on this date only through the early feature opt-in for Workfront Boards.</span></p>
+                                <p>Production release for all customers: Shortly after the 23.1 release</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
                  <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Due dates on cards map to planned completion date on Workfront object</a></p>
@@ -421,7 +446,7 @@ There are no Workfront Proof updates at this point in the release. This area wil
 
 ### Workfront Goals enhancements
 
-There are no Workfront Goals updates at this point in the release. This area will be updated when updates are available.
+New features coming to Workfront Goals release with the 23.1 release. For information about these new features now available in Preview, see [Adobe Workfront Goals with the 23.1 release](/help/quicksilver/product-announcements/product-releases/goals-release-activity/goals-23-1-release/goals-23-1-release.md).
 
 ### API version 15
 
