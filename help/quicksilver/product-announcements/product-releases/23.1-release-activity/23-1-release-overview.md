@@ -43,7 +43,7 @@ The enhancements on this page are available in the Preview environment. This pag
                 </tr>
                 <tr>
                     <td>
-                        <a href="../../../product-announcements/product-releases/23.1-release-activity/23-1-oct-17.md" class="MCXref xref" xrefformat="{para}">Relocation of the "Add users" option on a project</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Relocation of the "Add users" option on a project</a></p>
                         <p>In preparation for the deprecation and removal of the Resource Scheduling tools, we have relocated the "Add users" option from the Scheduling section of a project to the People section. When adding users to a project, the users who are not associated with items on the project become part of the Project Team.</p>
                         <p>The Resource Scheduler was removed from the Preview environment on October 20. It will be removed from the Production environment on November 10, 2022.</p>
                     </td>
@@ -62,7 +62,7 @@ The enhancements on this page are available in the Preview environment. This pag
                 </tr>
                 <tr>
                     <td>
-                        <a href="../../../product-announcements/product-releases/23.1-release-activity/23-1-oct-10.md" class="MCXref xref" xrefformat="{para}">Copy a direct link to a document folder</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Copy a direct link to a document folder</a></p>
                         <p>You can now copy and share document folder links to provide quick access to the folder. Users must have at least View access to the object to view the folder.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
@@ -97,9 +97,34 @@ The enhancements on this page are available in the Preview environment. This pag
                         </p>
                     </td>
                 </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Scrum planning for Workfront Boards</a><span style="color: #ff0000;"> Coming soon!</span></p>
+                        <p>The new Scrum planning features in Adobe Workfront Boards offer flexible options to manage your agile processes. Using these tools, you can:
+                        <ul>
+                        <li>Track work in iterations or sprints</li>
+                        <li>Use velocity to guide team commitments</li>
+                        <li>Track burndown and rate of completion</li>
+                        </ul>
+                        </p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                     <p>
+                        </p>
+                        <ul>
+                            <li>
+                                <p>Preview release: TBD<br /></p>
+                            </li>
+                            <li>
+                                <!-- <p>Production release for early opt-in: December 8, 2022 <span style="color: #ff0000;"> This feature is available in Production on this date only through the early feature opt-in for Workfront Boards.</span></p> -->
+                                <p>Production release for all customers: Fast follow after the 23.1 release</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
                  <tr>
                     <td>
-                        <a href="../../../product-announcements/product-releases/23.1-release-activity/23-1-nov-28.md" class="MCXref xref" xrefformat="{para}">Due dates on cards map to planned completion date on Workfront object</a><span style="color: #ff0000;"> New in Preview!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Due dates on cards map to planned completion date on Workfront object</a></p>
                         <p>Due dates on connected cards in Workfront Boards now map to the planned completion date on the associated Workfront object. If you update the due date on a card, the planned completion date is updated on the task or issue. Changing the planned completion date also changes the due date on the card.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
@@ -110,7 +135,7 @@ The enhancements on this page are available in the Preview environment. This pag
                                 <p>Preview release: December 1, 2022<br /></p>
                             </li>
                             <li>
-                                <p>Production release for early opt-in: December 8, 2022 <span style="color: #ff0000;"> This feature is available in Production on this date only through the early feature opt-in for Workfront Boards.</span></p>
+                                <p>Production release for early opt-in: TBD<span style="color: #ff0000;"> This feature is available in Production on this date only through the early feature opt-in for Workfront Boards.</span></p>
                                 <p>Production release for all customers: With the 23.1 release</p>
                             </li>
                         </ul>
@@ -118,7 +143,7 @@ The enhancements on this page are available in the Preview environment. This pag
                 </tr>
                 <tr>
                     <td>
-                        <a href="../../../product-announcements/product-releases/23.1-release-activity/23-1-nov-28.md" class="MCXref xref" xrefformat="{para}">Board checklist items and Workfront subtasks are now linked</a><span style="color: #ff0000;"> New in Preview!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Board checklist items and Workfront subtasks are now linked</a></p>
                         <p>When you add a connected card to a board for a Workfront task, any subtasks are imported as checklist items on the card. Also, when you create a checklist item on a connected card, a subtask is added to the Workfront task. Checklist items on issues are not connected to any Workfront objects.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
@@ -129,7 +154,7 @@ The enhancements on this page are available in the Preview environment. This pag
                                 <p>Preview release: December 1, 2022<br /></p>
                             </li>
                             <li>
-                                <p>Production release for early opt-in: December 8, 2022 <span style="color: #ff0000;"> This feature is available in Production on this date only through the early feature opt-in for Workfront Boards.</span></p>
+                                <p>Production release for early opt-in: TBD <span style="color: #ff0000;"> This feature is available in Production on this date only through the early feature opt-in for Workfront Boards.</span></p>
                                 <p>Production release for all customers: With the 23.1 release</p>
                             </li>
                         </ul>
@@ -137,7 +162,7 @@ The enhancements on this page are available in the Preview environment. This pag
                 </tr>
                 <tr>
                     <td>
-                        <a href="../../../product-announcements/product-releases/23.1-release-activity/23-1-nov-14.md" class="MCXref xref" xrefformat="{para}">Card counter on board columns</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Card counter on board columns</a></p>
                         <p>A new configuration setting is available to turn on a card counter for all of the columns on a board. If you are using the WIP limit on a column, a separate card counter is not added.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
@@ -156,7 +181,7 @@ The enhancements on this page are available in the Preview environment. This pag
                 </tr>
                 <tr>
                     <td>
-                        <a href="../../../product-announcements/product-releases/23.1-release-activity/23-1-nov-7.md" class="MCXref xref" xrefformat="{para}">Search and sort on the boards dashboard</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Search and sort on the boards dashboard</a></p>
                         <p>You can now sort the boards dashboard by board name or date, and search for a specific board in the list.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
@@ -175,7 +200,7 @@ The enhancements on this page are available in the Preview environment. This pag
                 </tr>
                      <tr>
                     <td>
-                        <a href="../../../product-announcements/product-releases/23.1-release-activity/23-1-nov-7.md" class="MCXref xref" xrefformat="{para}">Status displays on card</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Status displays on card</a></p>
                         <p>If a card on a board is assigned a status, the status now displays on the card so that you do not have to open the card to see the status. This enhancement applies to both ad hoc and connected cards.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
@@ -194,7 +219,7 @@ The enhancements on this page are available in the Preview environment. This pag
                 </tr>
                     <tr>
                     <td>
-                        <a href="../../../product-announcements/product-releases/23.1-release-activity/23-1-nov-7.md" class="MCXref xref" xrefformat="{para}">Linkable cards now available on boards</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Linkable cards now available on boards</a></p>
                         <p>You can now send a link to a specific card to another boards user. The person must have access to view the board before they can open the link.</p>
                         <!-- <p>When you open a card on a board, the browser URL looks like this: https://<Workfront-URL>/boards/<board-id>/card/<card-id>.</p> -->
                         <p>You can copy the full URL and send it to someone else. They will go directly to the open card when they access the link.</p>
@@ -216,7 +241,7 @@ The enhancements on this page are available in the Preview environment. This pag
                 </tr>
                 <tr>
                     <td>
-                        <a href="../../../product-announcements/product-releases/23.1-release-activity/23-1-oct-24.md" class="MCXref xref" xrefformat="{para}">Filter by connection on boards</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Filter by connection on boards</a></p>
                         <p>The list of filters on a board now includes the option to filter by connection, which shows you all of the connected cards for a specific project. You can also filter by cards that are not connected.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
@@ -235,7 +260,7 @@ The enhancements on this page are available in the Preview environment. This pag
                 </tr>
                 <tr>
                     <td>
-                        <a href="../../../product-announcements/product-releases/23.1-release-activity/23-1-oct-24.md" class="MCXref xref" xrefformat="{para}">Archive cards from a board on a schedule</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Archive cards from a board on a schedule</a></p>
                         <p>You can configure a board so that cards are archived, or "fall off" the board, on a schedule. Options are available to set cards in a particular column to archive in a certain number of days or weeks. For example, you could define the falloff so that cards in a Complete column are archived after they are in the column for two weeks.</p>
                         <p>If you want to display the cards again after they fall off the board, you can set the board filter to display archived cards.</p>
                     </td>
@@ -274,7 +299,7 @@ The enhancements on this page are available in the Preview environment. This pag
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-nov-28.md" class="MCXref xref" xrefformat="{para}">Boards is now available in the mobile app</a><span style="color: #ff0000;"> Coming soon!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-mobile-enhancements.md" class="MCXref xref" xrefformat="{para}">Boards is now available in the mobile app</a><span style="color: #ff0000;"> Coming soon!</span></p>
                         <p>Adobe Workfront Boards are now available in the mobile app! You can access Boards directly from the home screen and see all of the boards you have access to in the desktop version of Workfront. In a specific board, you can view and edit all of its columns and cards. Card details include name, description, column, assignees, status, due date, estimation, tags, and checklist items. Both ad hoc and connected cards are visible on the board.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
@@ -309,7 +334,26 @@ The enhancements on this page are available in the Preview environment. This pag
                 </tr>
                  <tr>
                     <td>
-                        <a href="../../../product-announcements/product-releases/23.1-release-activity/23-1-nov-28.md" class="MCXref xref" xrefformat="{para}">New list control functionality in Filters, Views, and Groupings pages in the Setup area.</a><span style="color: #ff0000;"> New in Preview!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Enhanced filter experience generally available in Adobe Workfront</a></p>
+                        <p>An upgrade to the filter experience was released to public beta on project, task, and issue lists in August 2022. Most lists now offer the enhanced filters.</p>
+                        <p>As a "fast follow" to the 23.1 release, the enhanced filter experience will be generally available and become the standard filter builder in the February/March 2023 timeframe.</p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                     <p>
+                        </p>
+                        <ul>
+                            <li>
+                                <p>Preview release: February/March 2023<br /></p>
+                            </li>
+                            <li>
+                                <p>Production release: February/March 2023</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-other-enhancements.md" class="MCXref xref" xrefformat="{para}">New list control functionality in Filters, Views, and Groupings pages in the Setup area.</a></p>
                         <p>We've added list control functionality to the Filters, Views, and Groupings pages in the Setup area. There, you can enable or disable filters, views, and groupings for the Layout Template.
 </p>
                     </td>
@@ -329,7 +373,7 @@ The enhancements on this page are available in the Preview environment. This pag
                 <tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-nov-14.md" class="MCXref xref" xrefformat="{para}">Introducing Adobe Workfront for design and video</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Introducing Adobe Workfront for design and video</a></p>
                         <p>We're excited to announce the expansion of our Adobe Workfront for InDesign plugin to include Adobe Premiere Pro, and After Effects. The plugin will be renamed to Adobe Workfront for design and video.</p>
                         <p>The updated plugin, Adobe Workfront for design and video, will now support InDesign, Premiere Pro, and After Effects—with Illustrator soon to follow.</p>
                         <p>This plugin allows you to access work item details, collaborate with coworkers in the Updates area, and log time–all without leaving your favorite Creative Cloud application. </p>
@@ -347,7 +391,7 @@ The enhancements on this page are available in the Preview environment. This pag
                 </tr>
                  <tr>
                     <td>
-                        <a href="../../../product-announcements/product-releases/23.1-release-activity/23-1-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">Look-and-feel updates during the 23.1 release timeframe</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Look-and-feel updates during the 23.1 release timeframe</a></p>
                         <p>Minor updates to the look and feel of various areas of the Adobe Workfront application are being made within the 23.1 release timeframe. These enhancements will be made available in the Production environment a minimum of 2 weeks after releasing to Preview. </p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
@@ -363,7 +407,7 @@ The enhancements on this page are available in the Preview environment. This pag
                 </tr>
                 <tr>
                     <td>
-                        <a href="../../../product-announcements/product-releases/23.1-release-activity/23-1-oct-24.md" class="MCXref xref" xrefformat="{para}">How to access Workfront help, for customers on the Adobe Unified Experience</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-other-enhancements.md" class="MCXref xref" xrefformat="{para}">How to access Workfront help, for customers on the Adobe Unified Experience</a></p>
                         <p>If your organization has been onboarded to the Adobe Admin Console and the Adobe Unified Experience for Workfront, the Workfront navigation bar no longer includes a link for "Help."</p>
                         <p>You can access Workfront help on Adobe Experience League either from the Main Menu on the left of the Workfront navigation bar or by the question mark icon in the top navigation area.</p>
                     </td>
@@ -383,7 +427,7 @@ The enhancements on this page are available in the Preview environment. This pag
                 </tr>
                 <tr>
                     <td>
-                        <a href="../../../product-announcements/product-releases/23.1-release-activity/23-1-oct-10.md" class="MCXref xref" xrefformat="{para}">Rename pins and a new experience when deleting pins</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Rename pins and a new experience when deleting pins</a></p>
                         <p>The following updates are now available for pins:</p>
                         <ul>
                         <li>Rename existing pins</li>
@@ -421,7 +465,7 @@ There are no Workfront Proof updates at this point in the release. This area wil
 
 ### Workfront Goals enhancements
 
-There are no Workfront Goals updates at this point in the release. This area will be updated when updates are available.
+New features coming to Workfront Goals release with the 23.1 release. For information about these new features now available in Preview, see [Adobe Workfront Goals with the 23.1 release](/help/quicksilver/product-announcements/product-releases/goals-release-activity/goals-23-1-release/goals-23-1-release.md).
 
 ### API version 15
 
@@ -457,7 +501,7 @@ List Controls in Setup > Interface will be removed with the 23.1 release.
 
 Some list control funtionality is moving to the Setup > Interface > Filters/Views/Grouping areas. For more information, see [Create, edit, and share default filters, views, and groupings](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/create-and-share-default-fvgs.md).
 
-#### Workfront extension for Illustrator and InDesign
+#### **Workfront extension for Illustrator and InDesign**
  
 We are replacing the [Workfront extension for Illustrator and InDesign](/help/quicksilver/documents/workfront-for-adobe-creative-cloud/workfront-for-adobe-creative-loud.md) with updated Creative Cloud plugins. Starting late 2022, this extension will no longer be available to install in the Adobe Exchange.
  

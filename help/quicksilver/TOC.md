@@ -13,12 +13,10 @@ feature-set: Workfront
     * [Adobe Workfront release schedule and process](product-announcements/product-releases/workfront-release-schedule.md)
     * 23.1 Release {#release-23-1}
       * [23.1 Release overview](product-announcements/product-releases/23.1-release-activity/23-1-release-overview.md)
-      * [23.1 release activity: Week of November 28, 2022](product-announcements/product-releases/23.1-release-activity/23-1-nov-28.md)
-      * [23.1 release activity: Week of November 14, 2022](product-announcements/product-releases/23.1-release-activity/23-1-nov-14.md)
-      * [23.1 release activity: Week of November 7, 2022](product-announcements/product-releases/23.1-release-activity/23-1-nov-7.md)
-      * [23.1 release activity: Week of October 24, 2022](product-announcements/product-releases/23.1-release-activity/23-1-oct-24.md)
-      * [23.1 release activity: Week of October 17, 2022](product-announcements/product-releases/23.1-release-activity/23-1-oct-17.md)
-      * [23.1 release activity: Week of October 10, 2022](product-announcements/product-releases/23.1-release-activity/23-1-oct-10.md)
+      * [23.1 Project enhancements](product-announcements/product-releases/23.1-release-activity/23-1-project-enhancements.md)
+      * [23.1 Agile enhancements](product-announcements/product-releases/23.1-release-activity/23-1-agile-enhancements.md)
+      * [23.1 Mobile enhancements](product-announcements/product-releases/23.1-release-activity/23-1-mobile-enhancements.md)
+      * [23.1 Other enhancements](product-announcements/product-releases/23.1-release-activity/23-1-other-enhancements.md)
       * [Look-and-feel updates during the 23.1 release time frame](product-announcements/product-releases/23.1-release-activity/23-1-look-and-feel-updates.md)
     * 22.4 Release {#release-22-4}
       * [22.4 Release overview](product-announcements/product-releases/22.4-release-activity/22-4-release-overview.md)
@@ -157,6 +155,9 @@ feature-set: Workfront
       * [Workfront Scenario Planner with the 20.3 release - August 14, 2020](product-announcements/product-releases/scenario-planner-release-activity/sp-release-20-3.md)
     * Adobe Workfront Goals release activity {#goals-release}
       * [Adobe Workfront Goals release activity](product-announcements/product-releases/goals-release-activity/goals-release-activity.md)
+      * Goals with 23.1 release {#goals-23-1}
+        * [Adobe Workfront Goals with the 23.1 release](product-announcements/product-releases/goals-release-activity/goals-23-1-release/goals-23-1-release.md)
+        * [Adobe Workfront Goals 23.1 release activity: Week of December 5, 2023](product-announcements/product-releases/goals-release-activity/goals-23-1-release/goals-jan.md)
       * Goals with 21.2 release {#goals-21-2}
         * [Adobe Workfront Goals with the 21.2 release](product-announcements/product-releases/goals-release-activity/goals-21.2-release/goals-release-21-2.md)
         * [Adobe Workfront Goals 21.2 release activity: Week of April 19, 2021](product-announcements/product-releases/goals-release-activity/goals-21.2-release/goals-apr-19.md)
