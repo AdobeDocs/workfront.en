@@ -9,10 +9,6 @@ exl-id: 18ba3f4b-ae03-4694-a2fe-fdbeeb576ea9
 ---
 # Reference collections in a report
 
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: When the API Explorer will be updated, you can take the notes like these out of this article: NOTE Notice that you must use issues for the collection object name. The API Explorer does not offer a collection object name for issues at this time.) </p>
--->
-
 Building a report in Adobe Workfront allows you to display a set of objects, their respective fields, or linked objects in a list, a grid, or a chart format.
 
 For more information about building a report in Workfront, see [Create a custom report](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
@@ -44,7 +40,7 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+To find out what plan, license type, or access you have, contact your Workfront administrator.
 
 ## Understand collections
 
@@ -81,7 +77,7 @@ To find out what collections can be reported on:
 
 1. Go to the [API Explorer](../../../wf-api/general/api-explorer.md). 
 1. Find the object of your report. 
-1. Select the **collections**&nbsp;tab.
+1. Select the **collections** tab.
 
    >[!NOTE]
    >
@@ -108,7 +104,7 @@ You cannot reference objects from a collection in the following reporting elemen
 * Groupings
 * Chart
 
-For example, you could reference the task or issue collections from a project report, to show task or issue information&nbsp;at the project level.
+For example, you could reference the task or issue collections from a project report, to show task or issue information at the project level.
 
 * [Reference a collection in the View of a report](#reference-a-collection-in-the-view-of-a-report) 
 * [Reference a collection in the Filter of a report](#reference-a-collection-in-the-filter-of-a-report) 
@@ -133,7 +129,7 @@ The view displays task or issue information in a list format, with every line of
 
 To add a collection column in a report view:
 
-1. Click the **Main** menu ![](assets/main-menu-icon.png), then click&nbsp;**Reports**.
+1. Click the **Main** menu ![](assets/main-menu-icon.png), then click **Reports**.
 1. Click **New Report**.
 1. Select the object of your report.
 1. Navigate away from your report, and using the [API Explorer](../../../wf-api/general/api-explorer.md), determine what collections are available for the object you selected for your report.
@@ -141,7 +137,7 @@ To add a collection column in a report view:
    For more information about selecting the object of your collection, see the section [Find collection objects and their fields in the API Explorer](#find-collection-objects-and-their-fields-in-the-api-explorer) in this article.  
    Make a note of what the name of the object for the collection is.
 
-1. Using the&nbsp; [API Explorer](../../../wf-api/general/api-explorer.md), go to the list of fields for the object you want to display in the collection.
+1. Using the [API Explorer](../../../wf-api/general/api-explorer.md), go to the list of fields for the object you want to display in the collection.
 
    For more information about finding the fields of the object of your collection, see the section [Find collection objects and their fields in the API Explorer](#find-collection-objects-and-their-fields-in-the-api-explorer) in this article.  
 
@@ -150,14 +146,16 @@ To add a collection column in a report view:
 1. Navigate back to your report, and in the **Columns (View)** tab, click **Add Column**. 
 1. Click **Switch to Text Mode**.
 1. Mouse over the dialog box, and click **Click to edit text**.
-1. Select all text in the **Text Mode** dialog box and remove it, then paste the following code if you are referencing a field of&nbsp;the collection object:
+1. Select all text in the **Text Mode** dialog box and remove it, then paste the following code if you are referencing a field of the collection object:
 
    ```
    valueformat=HTML
    textmode=true
-   type=iteratelistdelimiter=<p>
-   displayname=<strong>Column Name</strong>listmethod=nested(<strong>collection object name</strong>).lists
-   valuefield=<strong>collection object field</strong>
+   type=iterate
+   listdelimiter=<p>
+   displayname=Column Name
+   listmethod=nested(collection object name).lists
+   valuefield=collection object field
    ```
 
 1. Replace **Column Name** with the name of your column in the `displayname` line.
@@ -176,23 +174,41 @@ To add a collection column in a report view:
    * Use the following code to build your column:
 
      ```   
-     valueformat=HTML<br>textmode=true<br>type=iterate<br>listdelimiter=<p><br>displayname=Project Tasks Names<br>listmethod=nested(tasks).lists<br>valuefield=name
+     valueformat=HTML
+     textmode=true
+     type=iterate
+     listdelimiter=<p>
+     displayname=Project Tasks Names
+     listmethod=nested(tasks).lists
+     valuefield=name
      ```
 
    * Use the following code to display a list of issues in the report:
 
      ```   
-     displayname=Project Issues Names<br> listdelimiter=<p><br>listmethod=nested(issues).lists<br>textmode=true<br>type=iterate<br>valuefield=name<br>valueformat=HTML
+     displayname=Project Issues Names
+     listdelimiter=<p>
+     listmethod=nested(issues).lists
+     textmode=true
+     type=iterate
+     valuefield=name
+     valueformat=HTML
      ```   
    
-     Notice that in a collection you must use **issues** for the&nbsp;**listmethod** line, instead of **opTasks** which is the database name for Issues. For information about when to use **issue** and when to use **opTask** when referring to issues, see [Use "opTask" and "issue" when referencing issues](../../../manage-work/issues/issue-information/use-optask-instead-of-issue.md).
+     Notice that in a collection you must use **issues** for the **listmethod** line, instead of **opTasks** which is the database name for Issues. For information about when to use **issue** and when to use **opTask** when referring to issues, see [Use "opTask" and "issue" when referencing issues](../../../manage-work/issues/issue-information/use-optask-instead-of-issue.md).
    
-   * If you&nbsp;want to display a list of the tasks in a project report along with their primary assignee, you would use a&nbsp;**valueexpression**&nbsp;line for referencing the names of the tasks adjacent to the names of their primary assignees instead of **valuefield**.
+   * If you want to display a list of the tasks in a project report along with their primary assignee, you would use a **valueexpression** line for referencing the names of the tasks adjacent to the names of their primary assignees instead of **valuefield**.
 
      Use the following code to build your column:
 
      ```   
-     valueformat=HTML<br>textmode=true<br>type=iterate<br>listdelimiter=<p><br>displayname=Tasks Names - Primary Assignee<br>listmethod=nested(tasks).lists<br>valueexpression=CONCAT({name},' - ',{assignedTo}.{name})
+     valueformat=HTML
+     textmode=true
+     type=iterate
+     listdelimiter=<p>
+     displayname=Tasks Names - Primary Assignee
+     listmethod=nested(tasks).lists
+     valueexpression=CONCAT({name},' - ',{assignedTo}.{name})
      ```
 
 1. The following column displays in the project report, listing all tasks in each project alongside their primary assignees:
@@ -222,13 +238,7 @@ The lines in a text mode view for a collection are outlined in the following tab
  <tbody> 
   <tr> 
    <td><code>valueformat=HTML</code> </td> 
-   <td> <p>You can use various values for this line, but we recommend that the <code style="font-weight: normal;">valueformat</code> for a collection list should be <strong>HTML.</strong></p> <!--
-      <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-        For more information about conditional formatting in a view, see 
-       <a href="../../../reports-and-dashboards/reports/text-mode/use-conditional-formatting-text-mode.md" class="MCXref xref">Use conditional formatting in Text Mode</a>. 
-      </MadCap:conditionalText>
-     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: I drafted this per the request of a customer - really, this article is wrong to be linked here. We do have articles about number and date formatting but we need articles with all other data types and their formatting.)</p>
-    --> 
+   <td> <p>You can use various values for this line, but we recommend that the <code style="font-weight: normal;">valueformat</code> for a collection list should be <strong>HTML.</strong></p>
    </td> 
   </tr> 
   <tr> 
@@ -260,24 +270,24 @@ The lines in a text mode view for a collection are outlined in the following tab
 
 #### Limitations of a collection View {#limitations-of-a-collection-view}
 
-Consider the&nbsp;following limitations when you are building a collection view:
+Consider the following limitations when you are building a collection view:
 
-* You cannot control the order in which collection&nbsp;data is displayed.
-* You cannot apply conditional formatting to&nbsp;a collection view.
+* You cannot control the order in which collection data is displayed.
+* You cannot apply conditional formatting to a collection view.
 * You cannot make an object in a collection a clickable link.
 * You cannot build a collection view of another collection.  
   For example, you cannot display all the assignees on each task in a project report. You can only display the primary assignee on each task in a project view.
 
 ### Reference a collection in the Filter of a report {#reference-a-collection-in-the-filter-of-a-report}
 
-You can reference a collection of objects in the filter&nbsp;of a report, to filter for the&nbsp;attributes of objects associated with the object of the report.
+You can reference a collection of objects in the filter of a report, to filter for the attributes of objects associated with the object of the report.
 
 For example, you can filter for task or issue information in a project report by using a reference to the attributes of tasks or issues on the project in the filter statement.
 
-To add a reference to a collection&nbsp;in a report filter:
+To add a reference to a collection in a report filter:
 
-1. Click the **Main** menu ![](assets/main-menu-icon.png), then click&nbsp;**Reports**.
-1. Click&nbsp;**New Report**.
+1. Click the **Main** menu ![](assets/main-menu-icon.png), then click **Reports**.
+1. Click **New Report**.
 1. Select the object of your report.
 1. Navigate away from your report, and using the [API Explorer](../../../wf-api/general/api-explorer.md), determine what collections are available for the object you selected for your report.
 
@@ -285,7 +295,7 @@ To add a reference to a collection&nbsp;in a report filter:
 
    Make a note of what the name of the object for the collection is.  
 
-1. Using the&nbsp; [API Explorer](../../../wf-api/general/api-explorer.md), go to the list of fields for the object you want to display in the collection.
+1. Using the [API Explorer](../../../wf-api/general/api-explorer.md), go to the list of fields for the object you want to display in the collection.
 
    For more information about finding the fields of the object of your collection, see the section [Find collection objects and their fields in the API Explorer](#find-collection-objects-and-their-fields-in-the-api-explorer) in this article.  
 
@@ -308,13 +318,14 @@ To add a reference to a collection&nbsp;in a report filter:
 1. Replace **value of the modifier** with a valid modifier.
 
    For a list of modifiers, see [Filter and condition modifiers](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).  
-   For example, to build a project report that&nbsp;displays only projects with tasks that have "Marketing" in their name, use&nbsp;the following code:
+   For example, to build a project report that displays only projects with tasks that have "Marketing" in their name, use the following code:
 
    ```
-   tasks:name=Marketing<br>tasks:name_Mod=cicontains
+   tasks:name=Marketing
+   tasks:name_Mod=cicontains
    ```
    
-   This report only displays projects which have at least one&nbsp;task that has the word "marketing" in their name.
+   This report only displays projects which have at least one task that has the word "marketing" in their name.
 
    ![](assets/marketing-only-tasks-in-project-report-nwe-350x309.png)
 
@@ -327,14 +338,14 @@ To add a reference to a collection&nbsp;in a report filter:
 
    >[!TIP]
    >
-   >Notice that you must use `issues` for the collection object name, instead of `optask` which is how issues appear in the API&nbsp;Explorer.
+   >Notice that you must use `issues` for the collection object name, instead of `optask` which is how issues appear in the API Explorer.
 
-1. Click&nbsp;**Done**.
+1. Click **Done**.
 1. (Optional) Continue editing the report.
 
    Or
 
-   Click&nbsp;**Save + Close**to save the report.
+   Click **Save + Close** to save the report.
 
 ### Reference a collection in the custom prompt of a report {#reference-a-collection-in-the-custom-prompt-of-a-report}
 
