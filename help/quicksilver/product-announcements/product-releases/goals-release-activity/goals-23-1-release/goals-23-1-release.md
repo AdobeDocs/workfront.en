@@ -29,7 +29,7 @@ For a list of all changes available for all areas of Workfront at this point in 
                 </tr>
                 <tr>
                     <td>
-                        <a href="/">Updates to Workfront Goals</a> <span style="color: #ff0000;"> Coming soon!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/goals-release-activity/goals-23-1-release/goals-jan.md">Updates to Workfront Goals</a> <span style="color: #ff0000;"> Coming soon!</span></p>
                         <p>To create a more consistent experience with the rest of Workfront, as well as make it easier to view and work with your goals, we've made some updates to Workfront Goals. The look and feel of Workfront Goals is now more similar to to other areas in Workfront. Now, areas such as the header, lists, and details cards are familiar and consistent with your experience in Workfront.</p>
                         <p>In addition, we've replaced the areas currently available in the left navigation with the following:
                         <ul>
