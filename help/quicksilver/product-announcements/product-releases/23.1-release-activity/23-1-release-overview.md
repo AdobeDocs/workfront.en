@@ -135,7 +135,7 @@ The enhancements on this page are available in the Preview environment. This pag
                                 <p>Preview release: December 1, 2022<br /></p>
                             </li>
                             <li>
-                                <p>Production release for early opt-in: TBD<span style="color: #ff0000;"> This feature is available in Production on this date only through the early feature opt-in for Workfront Boards.</span></p>
+                                <p>Production release for early opt-in: Unavailable</p> 
                                 <p>Production release for all customers: With the 23.1 release</p>
                             </li>
                         </ul>
@@ -154,7 +154,7 @@ The enhancements on this page are available in the Preview environment. This pag
                                 <p>Preview release: December 1, 2022<br /></p>
                             </li>
                             <li>
-                                <p>Production release for early opt-in: TBD <span style="color: #ff0000;"> This feature is available in Production on this date only through the early feature opt-in for Workfront Boards.</span></p>
+                                <p>Production release for early opt-in: Unavailable</p>
                                 <p>Production release for all customers: With the 23.1 release</p>
                             </li>
                         </ul>
