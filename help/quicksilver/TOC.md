@@ -431,7 +431,6 @@ feature-set: Workfront
       * [Single sign-on](administration-and-setup/add-users/single-sign-on/single-sign-on.md)
       * [Overview of single sign-on](administration-and-setup/add-users/single-sign-on/sso-in-workfront.md)
       * [Update users for single sign-on](administration-and-setup/add-users/single-sign-on/update-users-sso.md)
-      * [Configure Workfront with Active Directory](administration-and-setup/add-users/single-sign-on/configure-workfront-ad.md)
       * [Configure Workfront with LDAP](administration-and-setup/add-users/single-sign-on/configure-workfront-ldap.md)
       * [Configure Workfront with SAML 2.0](administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2.md)
       * [Update SAML 2.0 metadata in identity provider](administration-and-setup/add-users/single-sign-on/update-saml-2-metadata-ip.md)

@@ -59,7 +59,7 @@ Once Workfront is added as an Admin Console application, you should not have to 
 
 SSO is set up in the Admin Console and inherited by the Workfront application.
 
-**Is SSO with our internal Active Directory still going to be an option with IMS?**
+**Is SSO with our internal Active Directory going to be an option with IMS?**
 
 IMS is a replacement for SSO and functions mostly the same. All user permissions are granted and provisioned in Adobe Admin Console, and the user will see the Adobe login screen where they can choose "Personal Account" or "Company Account" to log in (if you have Active Directory, most will log in with a company account).
 
