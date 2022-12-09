@@ -3,9 +3,8 @@ content-type: api;tips-tricks-troubleshooting
 navigation-topic: tips-tricks-and-troubleshooting-workfront-api
 title: Options configuration for OPTASK copyIssue
 description: An explanation of the integer values expected by the copyIssue endpoint.
-author: John
+author: Becky
 feature: Workfront API
-exl-id: ab7c76a9-16ce-41f9-b7af-5943eb2dfdff
 ---
 # Options configuration for OPTASK copyIssue
 
