@@ -113,7 +113,7 @@ Editing a template differs depending on what environment you choose.
       <td role="rowheader"><strong>Is Active</strong></td> 
       <td><p>Select this checkbox if you want the template to be active. Other users can find this template and attach it to projects when creating projects. Deselect this checkbox if you want to deactivate templates that are no longer used. Deactivated templates cannot be attached to projects. This is enabled by default. </p><p><b>TIP</b>
       
-      You can deactivate a template from the template header as described in the "Activate or deactivate a template" section in this article.</p></td> 
+      You can deactivate a template from the template header as described in the [Activate or deactivate a template](#activate-or-deactivate-a-template) section in this article.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>URL</strong></td> 
@@ -167,11 +167,12 @@ Editing a template differs depending on what environment you choose.
       <td role="rowheader"><strong>Group</strong></td> 
       <td><p>In the drop-down list, select the group that you want to be associated with projects created from the template. It can be a group of any level. </p><p>You can make sure you are selecting the right group by hovering over it and clicking the information icon <img src="assets/info-icon.png"> that displays next to it. This displays a tooltip listing information about the group, such as the hierarchy of groups above it and its administrators.</p> <p><b>NOTES</b>
       
-<ul> 
-   <li><p>In the Projects area on a group's page, when someone creates a project using a template that doesn't have a group selected, the system associates the currently open group with the project.</p><p>This is different from other areas where the system associates a user's Home Group with the project when the user creates the project using a template that doesn't have a group selected.</p></li> 
-         <li><p>If a user selects a template that has a group selected while creating a project—or while converting a task or issue to a project—the user can choose a different group for the project.</p></li> 
-         <li>Though this field is available in templates only in the new Adobe Workfront experience, you can see it in lists and reports both there and in Adobe Workfront Classic. </li> 
-        </ul> </p></td> 
+    <ul> 
+    <li><p>In the Projects area on a group's page, when someone creates a project using a template that doesn't have a group selected, the system associates the currently open group with the project.</p><p>This is different from other areas where the system associates a user's Home Group with the project when the user creates the project using a template that doesn't have a group selected.</p>
+    </li> 
+      <li><p>If a user selects a template that has a group selected while creating a project—or while converting a task or issue to a project—the user can choose a different group for the project.</p></li> 
+      <li>Though this field is available in templates only in the new Adobe Workfront experience, you can see it in lists and reports both there and in Adobe Workfront Classic. </li> 
+      </ul> </p></td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Company</strong></td> 
@@ -546,7 +547,8 @@ By editing issue settings, you can prevent users from adding issues inline in th
    <!--drafted section below for the edit template story: 
    remove this tag and add the Preview blurb at the top of this article in yellow, if it's not already there. Keep the "div span" tags below until 23.1 production: -->
 
-   <div span="preview">
+
+<div span="preview">
 
 ### Edit a template in the Preview environment {#edit-a-template-in-the-preview-environment}
 
@@ -601,13 +603,13 @@ By editing issue settings, you can prevent users from adding issues inline in th
    1. Update the following fields:
 
       <table style="table-layout:auto"> 
-      <col> 
-      <col> 
-      <tbody> 
+       <col> 
+       <col> 
+       <tbody> 
          <tr> 
          <td role="rowheader"><strong>Description</strong></td> 
          <td>Add additional information about the template.</td> 
-      </tr> 
+       </tr> 
          <tr> 
          <td role="rowheader"><strong>Priority</strong></td> 
          <td><p>This is just a visual flag for you which allows you to prioritize your future projects. Select from the following options:</p> 
@@ -618,52 +620,52 @@ By editing issue settings, you can prevent users from adding issues inline in th
          <li><p><strong>High</strong></p></li> 
          <li><p><strong>Urgent</strong></p></li> 
          </ul><p><p>Depending on the Project Preferences selected by your Workfront administrator, the names of priorities might be different for you. For more information about editing priorities, see <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md" class="MCXref xref">Create and customize priorities</a>.</p></p></td> 
-      </tr> 
-      <tr> 
-      <td role="rowheader"><strong>URL</strong></td> 
+       </tr> 
+       <tr> 
+       <td role="rowheader"><strong>URL</strong></td> 
          <td>Specify a web link that relates to information about this template.</td> 
-      </tr>
-      <tr> 
-      <td role="rowheader"><strong>Condition Type</strong></td> 
-      <td><p>Select between the following Condition Types:</p> 
+       </tr>
+       <tr> 
+       <td role="rowheader"><strong>Condition Type</strong></td> 
+       <td><p>Select between the following Condition Types:</p> 
          <ul> 
          <li><strong>Manual:</strong> The project owner sets the Condition of the project on the project manually. <strong></strong></li> 
          <li><strong>Progress Status:</strong> Workfront automatically sets the Condition of the future project based on the Progress Status of tasks on the Critical Path. For more information about understanding Progress Status, see <a href="../../../manage-work/tasks/task-information/task-progress-status.md" class="MCXref xref">Task Progress Status overview</a>.</li> 
-      </ul>
+       </ul>
          </td> 
          </tr> 
-      <tr> 
+       <tr> 
          <td role="rowheader"><strong>Schedule Mode</strong></td> 
          <td><p>Specify whether the project using this template is scheduled from the <strong>Start Date</strong>, or from the <strong>Completion Date</strong>. This selection determines the planned dates of the future tasks on the project using this template. </p><p>Select from the following: </p> 
-      <ul> 
-      <li><p><strong>Schedule From Start Date</strong>: The Start Date of the template is actually the Start Day. When you schedule a template from Start Date, Adobe Workfront calculates the Completion Day of the template based on the Duration of all the template tasks. The Start Day of the template becomes the Planned Start Date of the future project.</p></li> 
-      <li><p><strong>Schedule from Completion Date</strong>: The Completion Date of the template is actually the Completion Day. When you schedule a template from Completion Date, Workfront calculates the Start Day of the template based on the Duration of all the template tasks. The Completion Day of the template becomes the Planned Completion Date of the future project. </p></li> 
-      </ul><p>For more information about the Start and Completion Days of template tasks, see <a href="../../../manage-work/projects/create-and-manage-templates/overview-of-start-completion-day-on-template.md" class="MCXref xref">Overview of Start and Completion Days in a template</a>. </p><p>The Schedule From setting for templates is similar to that of projects. Your Workfront administrator selects the default Schedule From setting for the projects in your system. For information about setting project defaults, see <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configure system-wide project preferences</a>.</p></td> 
-      </tr> 
+       <ul> 
+       <li><p><strong>Schedule From Start Date</strong>: The Start Date of the template is actually the Start Day. When you schedule a template from Start Date, Adobe Workfront calculates the Completion Day of the template based on the Duration of all the template tasks. The Start Day of the template becomes the Planned Start Date of the future project.</p></li> 
+       <li><p><strong>Schedule from Completion Date</strong>: The Completion Date of the template is actually the Completion Day. When you schedule a template from Completion Date, Workfront calculates the Start Day of the template based on the Duration of all the template tasks. The Completion Day of the template becomes the Planned Completion Date of the future project. </p></li> 
+       </ul><p>For more information about the Start and Completion Days of template tasks, see <a href="../../../manage-work/projects/create-and-manage-templates/overview-of-start-completion-day-on-template.md" class="MCXref xref">Overview of Start and Completion Days in a template</a>. </p><p>The Schedule From setting for templates is similar to that of projects. Your Workfront administrator selects the default Schedule From setting for the projects in your system. For information about setting project defaults, see <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configure system-wide project preferences</a>.</p></td> 
+       </tr> 
       
-      <tr> 
+       <tr> 
          <td role="rowheader"><strong>Portfolio</strong></td> 
          <td><p>Specify a Portfolio for the projects that are created from this template. You must create a Portfolio first, before it appears in the drop-down list. </p><p>Only active portfolios display in the list. For more information about creating portfolios, see <a href="../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md" class="MCXref xref">Create a portfolio </a>.</p></td> 
-      </tr> 
-      <tr> 
+       </tr> 
+       <tr> 
          <td role="rowheader"><strong>Program</strong></td> 
          <td><p>If you selected a Portfolio for the template, specify a <strong>Program</strong> for the future project. Some Portfolios might not have Programs. You must create a Program first, before it appears in this drop-down list. Only active programs display in the list.</p><p>For more information about creating programs, see <a href="../../../manage-work/portfolios/create-and-manage-programs/create-program.md" class="MCXref xref">Create a program</a>.</p></td> 
-      </tr>  
-   <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
+       </tr>  
+       <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
          <td role="rowheader"><strong>Group</strong></td> 
          <td><p>In the drop-down list, select the group that you want to be associated with projects created from the template. It can be a group of any level. </p><p>You can make sure you are selecting the right group by hovering over it and clicking the information icon <img src="assets/info-icon.png"> that displays next to it. This displays a tooltip listing information about the group, such as the hierarchy of groups above it and its administrators.</p> <p><b>NOTES</b>
          
-   <ul> 
-      <li><p>In the Projects area on a group's page, when someone creates a project using a template that doesn't have a group selected, the system associates the currently open group with the project.</p><p>This is different from other areas where the system associates a user's Home Group with the project when the user creates the project using a template that doesn't have a group selected.</p></li> 
-            <li><p>If a user selects a template that has a group selected while creating a project—or while converting a task or issue to a project—the user can choose a different group for the project.</p></li> 
-            <li>Though this field is available in templates only in the new Adobe Workfront experience, you can see it in lists and reports both there and in Adobe Workfront Classic. </li> 
+       <ul> 
+       <li><p>In the Projects area on a group's page, when someone creates a project using a template that doesn't have a group selected, the system associates the currently open group with the project.</p><p>This is different from other areas where the system associates a user's Home Group with the project when the user creates the project using a template that doesn't have a group selected.</p></li> 
+       <li><p>If a user selects a template that has a group selected while creating a project—or while converting a task or issue to a project—the user can choose a different group for the project.</p></li> 
+       <li>Though this field is available in templates only in the new Adobe Workfront experience, you can see it in lists and reports both there and in Adobe Workfront Classic. </li> 
          </ul> </p></td> 
-      </tr> 
-      <tr> 
+       </tr> 
+       <tr> 
          <td role="rowheader"><strong>Company</strong></td> 
          <td><p>Specify the Company that you want to associate with the template. Only active companies display in the list.</p></td> 
-      </tr> 
-      <tr> 
+       </tr> 
+       <tr> 
          <td role="rowheader"><strong>Template Owner</strong></td> 
          <td><p>The user who is designated as the Template Owner must be a Workfront active user. </p><p>Consider the following about the user designated as the Template Owner: </p> 
          <ul> 
@@ -671,15 +673,15 @@ By editing issue settings, you can prevent users from adding issues inline in th
          <li>They are added to the project team and are automatically given Manage permissions to the project created from the template. </li> 
          <li>They become the Project Owner, when the project is created from this template. </li> 
          </ul></td> 
-      </tr> 
-      <tr> 
+       </tr> 
+       <tr> 
          <td role="rowheader"><strong>Template Sponsor</strong></td> 
          <td><p>The user specified in this field becomes the Project Sponsor, when the template is added to the project. This user is added to the project team and is automatically given view permissions to the project. The user who is designated as the Template Sponsor must be a Workfront active user. </p></td> 
-      </tr> 
-      <tr> 
+       </tr> 
+       <tr> 
          <td role="rowheader"><strong>Resource Manager</strong></td> 
          <td><p>The specified users are automatically given manage permissions to the future projects and can assign resources to the tasks and issues of the projects. You can specify more than one Resource Manager. </p></td> 
-      </tr> 
+       </tr> 
       </table>
 
    1. (Optional) Continue editing the following sections, depending on the information you want to modify.
@@ -698,19 +700,18 @@ By editing issue settings, you can prevent users from adding issues inline in th
    1. Update the following fields:
 
       <table style="table-layout:auto"> 
-      <col> 
-      <col> 
-      <tbody>
-
-      <tr> 
+       <col> 
+       <col> 
+       <tbody>
+       <tr> 
          <td role="rowheader"><strong> Currency</strong></td> 
          <td><p>Specify the currency for the future project, if it is different than the default currency of your system. This field is not visible if you have only the default currency in the system.<br>For more information about currency, see <a href="../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref">Set up exchange rates</a>.</p></td> 
-      </tr>
-      <tr> 
-         <td role="rowheader"><strong>Budget</strong></td> 
-         <td><p>Specify a Budget for the projects that are created from this template.</p></td> 
-      </tr>  
-      <tr> 
+       </tr>
+       <tr> 
+       <td role="rowheader"><strong>Budget</strong></td> 
+       <td><p>Specify a Budget for the projects that are created from this template.</p></td> 
+       </tr>  
+       <tr> 
          <td role="rowheader"><strong>Performance Index Method</strong></td> 
          <td><p>Choose how Workfront will calculate Earned Value metrics of the future project. Choose from the following:
          <ul>
@@ -719,25 +720,24 @@ By editing issue settings, you can prevent users from adding issues inline in th
          </ul>
 
          For more information about the Performance Index Method, see <a href="../../../manage-work/projects/project-finances/set-pim.md" class="MCXref xref">Set the Performance Index Method (PIM)</a>. </p></td> 
-      </tr> 
+       </tr> 
          <tr> 
          <td role="rowheader"><strong>Planned Benefit</strong></td> 
          <td><p>Specify the Planned Benefit of the projects that are created from this template. The Planned Benefit is used in the Business Case of the project and the Portfolio Optimizer. </p><p>For more information about the Planned Benefit of a project, see <a href="../../../manage-work/projects/project-finances/project-planned-benefit.md" class="MCXref xref">Overview of project Planned Benefit</a>. The Planned Benefit of a project is taken into account when the Net Value of a project is calculated. </p><p>For more information about using the Portfolio Optimizer, see <a href="../../../manage-work/portfolios/portfolio-optimizer/manage-projects-in-portfolio-optimizer.md" class="MCXref xref">Manage projects in the Portfolio Optimizer</a> </p></td> 
-      </tr> 
-      <tr> 
+       </tr> 
+       <tr> 
          <td role="rowheader"><strong>Fixed Cost</strong></td> 
          <td><p>Specify the Fixed Cost for the projects that are created from this template. This is different than the Labor Cost which comes from the hours on the project and the Expense Cost which comes from the amount of expenses on the project. The Fixed Cost of a project is taken into account when calculating the Net Value of a project and it is part of the Budgeted Cost.</p></td> 
-      </tr> 
-      <tr> 
-         <td role="rowheader"><strong>Fixed Revenue</strong></td> 
-         <td><p>Specify the Fixed Revenue for the projects that are created from this template.</p></td> 
-      </tr> 
-      
-      <tr> 
-         <td role="rowheader"><strong>Require time to be approved for this project</strong></td> 
-         <td><p>Select this option to require the Project Owner of the future project created from this template to approve time logged on the project. If you are using Billing Records and you select this option, only the approved hours on the project appear as available billable hours for the Billing Records. Approving time on the project is independent of approving timesheets. For more information about requiring time to be approved on a project, see <a href="../../../manage-work/projects/manage-projects/require-time-approval-for-projects.md" class="MCXref xref">Require time to be approved for a project</a>.</p></td> 
-      </tr> 
-      </tbody> 
+       </tr> 
+       <tr> 
+       <td role="rowheader"><strong>Fixed Revenue</strong></td> 
+       <td><p>Specify the Fixed Revenue for the projects that are created from this template.</p></td> 
+       </tr> 
+       <tr> 
+       <td role="rowheader"><strong>Require time to be approved for this project</strong></td> 
+       <td><p>Select this option to require the Project Owner of the future project created from this template to approve time logged on the project. If you are using Billing Records and you select this option, only the approved hours on the project appear as available billable hours for the Billing Records. Approving time on the project is independent of approving timesheets. For more information about requiring time to be approved on a project, see <a href="../../../manage-work/projects/manage-projects/require-time-approval-for-projects.md" class="MCXref xref">Require time to be approved for a project</a>.</p></td> 
+       </tr> 
+       </tbody> 
       </table>
 
    1. (Optional) Continue editing the following sections, depending on the information you want to modify.
@@ -784,30 +784,30 @@ By editing issue settings, you can prevent users from adding issues inline in th
    1. Update the following fields: 
 
       <table style="table-layout:auto"> 
-      <col> 
-      <col> 
-      <tbody> 
-      <tr> 
-         <td role="rowheader"><strong>Milestone Path</strong> </td> 
-         <td> <p>Select a Milestone Path for the template. Only active milestone paths display in the list.<br>For more information about Milestone Paths, see <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md" class="MCXref xref">Create a milestone path</a>.</p> </td> 
-      </tr> 
-      <tr> 
+       <col> 
+       <col> 
+       <tbody> 
+       <tr> 
+       <td role="rowheader"><strong>Milestone Path</strong> </td> 
+       <td> <p>Select a Milestone Path for the template. Only active milestone paths display in the list.<br>For more information about Milestone Paths, see <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md" class="MCXref xref">Create a milestone path</a>.</p> </td> 
+       </tr> 
+       <tr> 
          <td role="rowheader"><strong>Completion Mode</strong> </td> 
          <td> <p>Controls how the future project will be marked as Complete. <br>Select from the following options:</p> 
          <ul> 
          <li> <p><strong>Automatic</strong>: The project is marked Complete when all the tasks and issues are completed.</p> </li> 
          <li> <p><strong>Manual</strong>: You have to manually select the Complete status for the project, when all the tasks and issues are completed. </p> </li> 
          </ul> </td> 
-      </tr> 
-      <tr> 
-         <td role="rowheader"><strong>Summary Completion Mode</strong> </td> 
-         <td> <p>Controls how the parent tasks on the future project are marked as Complete. <br>Select from the following options:</p> 
-         <ul> 
-         <li> <p><strong>Automatic</strong>: The parent tasks are marked Complete and they update their percent complete automatically, as the children tasks are completed and the percent complete of the children is updated. </p> </li> 
-         <li> <p><strong>Manual</strong>: You have to manually update the percent complete and the status of the parent tasks, independently of what changes are made to the children tasks. </p> </li> 
-         </ul> </td> 
-      </tr> 
-      <tr> 
+       </tr> 
+       <tr> 
+       <td role="rowheader"><strong>Summary Completion Mode</strong> </td> 
+       <td> <p>Controls how the parent tasks on the future project are marked as Complete. <br>Select from the following options:</p> 
+       <ul> 
+       <li> <p><strong>Automatic</strong>: The parent tasks are marked Complete and they update their percent complete automatically, as the children tasks are completed and the percent complete of the children is updated. </p> </li> 
+       <li> <p><strong>Manual</strong>: You have to manually update the percent complete and the status of the parent tasks, independently of what changes are made to the children tasks. </p> </li> 
+       </ul> </td> 
+       </tr> 
+       <tr> 
          <td role="rowheader"><strong>Update Type</strong> </td> 
          <td> <p>Controls when the changes you make to the timeline of the future project are saved on the project. </p> 
          <b>EXAMPLE </b> 
@@ -831,28 +831,28 @@ By editing issue settings, you can prevent users from adding issues inline in th
          <ul> 
          <li> <p><strong>Manual Only</strong>: The project timeline is updated only when you select the option to Recalculate Timelines, as described in <a href="../../../manage-work/projects/manage-projects/recalculate-project-timeline.md" class="MCXref xref">Recalculate project timelines</a>.<br></p> </li> 
          </ul> <p>You might want to select this option if you are making many changes to the project at one time, and you want the timeline recalculation to occur after all of the changes have been made (rather than after each individual change).</p> </td> 
-      </tr> 
-      <tr> 
+       </tr> 
+       <tr> 
          <td role="rowheader"><strong>Schedule</strong> </td> 
          <td> <p>Select a schedule for your template. This will become the schedule of the project that is created from this template. This should be the same schedule assigned to most people that are working on the project. You must create a schedule before you can assign it to a template.<br>For more information about creating schedules, see <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">Create a schedule</a>. <br>If you have not created custom schedules in your system, the Default Schedule is selected. </p> </td> 
-      </tr> 
-      <tr> 
+       </tr> 
+       <tr> 
          <td role="rowheader"><strong>User Time Off</strong> </td> 
          <td> <p>Determines whether the time off of the Primary Assignee of a task adjusts the task planned dates. When you attach the template to an existing project, and the template has a different setting for this field than the project, the setting on the project remains unchanged. The default option for this setting for a new template is the same as the system-level project preference. </p> <p>For information about the project preferences at the System level, see <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configure system-wide project preferences</a>. </p> <p>For information about how this setting affects the task dates on a project, see <a href="../../../manage-work/projects/manage-projects/edit-projects.md" class="MCXref xref">Edit projects</a>.<br>Select from the following options:<br></p> 
          <ul> 
          <li> <p><strong>Consider user time off in task durations</strong>: When selecting this option, the planned dates of the tasks on the project created from this template adjust according to the time off of the Primary Assignee of the task, if the time off occurs during the duration of the task. </p> </li> 
          <li> <p><strong>Ignore user time off in task durations</strong>: When selecting this option, the planned dates of the tasks on the project created from this template remain as originally planned, even if the Primary Assignee of the task has time off during the duration of the task. </p> </li> 
          </ul> </td> 
-      </tr> 
-      <tr> 
+       </tr> 
+       <tr> 
          <td role="rowheader"><strong>Resource Leveling Mode</strong> </td> 
          <td> <p>Select from the following options:<br></p> 
          <ul> 
          <li> <p><strong>Manual</strong>: you must manually level your resources on the project created from this template (this is the default setting)</p> </li> 
          <li> <p><strong>Automatic:</strong> Workfront levels the resources on the future project. <br>For more information about Resource Leveling, see <a href="../../../manage-work/gantt-chart/use-the-gantt-chart/level-resources-in-gantt.md" class="MCXref xref">Level Resources in the Gantt Chart </a>. </p> </li> 
          </ul> </td> 
-      </tr> 
-      <tr> 
+       </tr> 
+       <tr> 
          <td role="rowheader"><strong>Risk</strong> </td> 
          <td> <p>Define the level of risk of the projects created from this template. The risk is just an indicator of how risky a project can be. You can prioritize the execution of your projects based on the level of risk.<br>Consider selecting from the following levels of risk:<br></p> 
          <ul> 
@@ -862,19 +862,18 @@ By editing issue settings, you can prevent users from adding issues inline in th
          <li> <p><strong>High</strong> </p> </li> 
          <li> <p><strong>Very High</strong> </p> </li> 
          </ul> </td> 
-      </tr> 
-      <tr> 
+       </tr> 
+       <tr> 
          <td role="rowheader"><strong>Resource Pools</strong> </td> 
          <td> <p>Specify the resource pools associated with the template. Resource pools are collections of users that are needed at the same time for the completion of a project. For more information about resource pools, see <a href="../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md" class="MCXref xref"> Resource pools overview </a>.</p> <p> <p><b>NOTE</b> 
          
          When you edit templates in bulk, only the resource pools that are common to all the templates selected appear in this field. If the templates selected have no shared resource pools, this field will be empty. The resource pools you specify here will overwrite the templates' individual resource pools.</p> </p> </td> 
-      </tr>
-      <tr> 
+       </tr>
+       <tr> 
          <td role="rowheader"><strong>Filter hours type</strong> </td> 
          <td> <p>Consider the following:</p> <p>Select <strong>No</strong> to make all project-specific hour types available on the future project. (This is the default selection)</p> <p>Or</p> <p>Select <strong>Yes</strong> to make only a subset of the project-specific hour types available on the future project, then select the hour types you want to make available. (Hold the Shift key to select multiple hour types.)</p> <p>If you select this option, only the hour types you select are made available to select when logging hours on the project (or on tasks and issues within the project). You must select at least one hour type; if you select this option and you do not select any hour types, all hour types are made available on the project.</p> <p>The same hour type selections must be made at the individual user level in order for the user to see these hour type options on the project. </p> <p>For more information about defining hour types at the user level, see the section <a href="../../../timesheets/create-and-manage-timesheets/log-time.md#understa" class="MCXref xref">Log time</a> in <a href="../../../timesheets/create-and-manage-timesheets/log-time.md" class="MCXref xref">Log time</a>.</p> </td> 
-      </tr> 
-
-      <tr> 
+       </tr> 
+       <tr> 
          <td role="rowheader"><strong>Approval process</strong> </td> 
          <td> <p>Select the approval process you want to associate with the template. Your Workfront administrator or a user with administrative access to Approval Processes must define system-level or group-level project approval processes before you can associate them with a template. For more information about creating approval processes, see <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md" class="MCXref xref">Create an approval process for work items</a>.</p> <p>Consider the following when adding approval processes: </p> 
          <ul> 
@@ -891,13 +890,12 @@ By editing issue settings, you can prevent users from adding issues inline in th
             <li> <p>When any of the templates has a single-use approval process attached, it is replaced by the system-level you select. </p> </li> 
          </ul> </li> 
          </ul> </td> 
-      </tr> 
-      
-      <tr> 
+       </tr> 
+       <tr> 
          <td role="rowheader"><strong>Reminder Notification</strong> </td> 
          <td>Select the Reminder Notification that should be associated with the future project. You must configure Reminder Notifications for projects for this field to appear during editing a template. <br>For more information about configuring Reminder Notifications, see <a href="../../../administration-and-setup/manage-workfront/emails/set-up-reminder-notifications.md" class="MCXref xref">Set up reminder notifications</a>.</td> 
-      </tr> 
-      </tbody> 
+       </tr> 
+       </tbody> 
       </table>
 
    1. (Optional) Continue editing the following sections, depending on the information you want to modify.  
@@ -926,7 +924,7 @@ By editing issue settings, you can prevent users from adding issues inline in th
       | Medium |50% |
       | Large |75% |
 
-   For information about using Work Effort to manage the effort on tasks on projects, see [Work Effort overview](../../../manage-work/tasks/task-information/work-effort.md).
+      For information about using Work Effort to manage the effort on tasks on projects, see [Work Effort overview](../../../manage-work/tasks/task-information/work-effort.md).
 
    1. (Optional) Continue editing the following section, depending on the information you want to modify.
 
@@ -976,38 +974,38 @@ By editing issue settings, you can prevent users from adding issues inline in th
       Specify the following **Access** information for the template:
 
       <table style="table-layout:auto"> 
-      <col> 
-      <col> 
-      <tbody> 
-      <tr> 
+       <col> 
+       <col> 
+       <tbody> 
+       <tr> 
          <td role="rowheader"><strong>When someone is assigned to a task</strong> </td> 
          <td> <p>Select from <strong>View</strong>, <strong>Contribute,</strong> or <strong>Manage</strong> access to a task. The user assigned to a task is automatically granted this access to the task. </p> </td> 
-      </tr> 
-      <tr> 
+       </tr> 
+       <tr> 
          <td role="rowheader"><strong>Also grant access to the project</strong> </td> 
          <td> <p> Select from <strong>View</strong>, <strong>Contribute</strong>, or <strong>Manage</strong> access to the project. The user assigned to a task is automatically granted this access to the project, as well. </p> </td> 
-      </tr> 
-      <tr> 
+       </tr> 
+       <tr> 
          <td role="rowheader"><strong>When someone is assigned to an issue</strong> </td> 
          <td> <p>Select from <strong>View</strong>, <strong>Contribute,</strong> or <strong>Manage</strong> access to an issue. The user assigned to an issue is automatically granted this access to the issue. </p> </td> 
-      </tr> 
-      <tr> 
+       </tr> 
+       <tr> 
          <td role="rowheader"><strong>Also grant access to the project</strong> </td> 
          <td> <p> Select from <strong>View</strong>, <strong>Contribute</strong>, or <strong>Manage</strong> access to the project. The user assigned to an issue is automatically granted this access to the project, as well. </p> </td> 
-      </tr> 
-      <tr> 
+       </tr> 
+       <tr> 
          <td role="rowheader"><strong>When someone submits a request: Give them access</strong> </td> 
          <td> <p> Select from <strong>View</strong>, <strong>Contribute</strong>, or <strong>Manage</strong> access to the request. When they submit a request to the project, they are granted this access to the request they submitted. For more information, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Share an issue </a>.</p> </td> 
-      </tr> 
-      <tr> 
+       </tr> 
+       <tr> 
          <td role="rowheader"><strong>People from the same company will inherit the same permissions for all requests</strong> </td> 
          <td> <p>Select this field if you want people from the same company to have the same access to all the requests on the project, whether they submitted them or not.</p> </td> 
-      </tr> 
-      <tr> 
+       </tr> 
+       <tr> 
          <td role="rowheader"><strong>When someone is given access to this project: Give them access to ...</strong> </td> 
          <td> <p>Select the access options that you want users to have on the project, if the project is shared with them. Select the specific options for their access, if they are designated as <strong>Viewers</strong>, <strong>Contributors</strong>, or <strong>Managers</strong> when sharing the project with them. </p> </td> 
-      </tr> 
-      </tbody> 
+       </tr> 
+       </tbody> 
       </table>
 
    1. (Optional) Continue editing the following sections, depending on the information you want to modify.
@@ -1020,7 +1018,8 @@ By editing issue settings, you can prevent users from adding issues inline in th
 
       Now, when you use this template to create a project all these settings will transfer to the new project.
 
-   </div>
+
+</div>
 
 ## Edit templates in bulk
 
