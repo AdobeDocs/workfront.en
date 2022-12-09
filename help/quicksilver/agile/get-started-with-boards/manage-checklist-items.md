@@ -19,7 +19,7 @@ Using a checklist on a card allows you to break down work into smaller increment
 >
 >When you create a checklist item on a connected card, a subtask is added to the connected Workfront task. Checklist items on issues are not connected to any Workfront objects.
 >
->The checklist item connection to subtasks is available only via the early feature opt-in. For details, see [Early feature opt-in for Adobe Workfront Boards](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md).
+>The checklist item connection to subtasks is available only in the Preview environment.
 
 </div>
 
