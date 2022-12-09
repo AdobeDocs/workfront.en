@@ -13,10 +13,6 @@ exl-id: c6d979dd-e4a4-48a5-a91b-b31d7ef848d1
 
 You can add a card on your board that is connected to existing tasks and issues in Workfront. <span class="preview">When you add a connected task, any subtasks associated to that task are included on the card as checklist items.</span>
 
->[!NOTE]
->
->The checklist item connection to subtasks is available only via the early feature opt-in. For details, see [Early feature opt-in for Adobe Workfront Boards](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md).
-
 When any one of the following details is updated for the card in one location, it is automatically updated in the other location:
 
 * Name
@@ -24,10 +20,6 @@ When any one of the following details is updated for the card in one location, i
 * Assignees
 * Status
 * <span class="preview">Due date / Planned completion date</span>
-
->[!NOTE]
->
->The due date / planned completion date mapping is available only via the early feature opt-in. For details, see [Early feature opt-in for Adobe Workfront Boards](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md).
 
 >[!NOTE]
 >A single connected task or issue can only be added once per board. The same task or issue can be connected to multiple boards.
