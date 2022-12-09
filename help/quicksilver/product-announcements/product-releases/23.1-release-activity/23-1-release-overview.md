@@ -391,7 +391,7 @@ The enhancements on this page are available in the Preview environment. This pag
                 </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Look-and-feel updates during the 23.1 release timeframe</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">Look-and-feel updates during the 23.1 release timeframe</a></p>
                         <p>Minor updates to the look and feel of various areas of the Adobe Workfront application are being made within the 23.1 release timeframe. These enhancements will be made available in the Production environment a minimum of 2 weeks after releasing to Preview. </p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
@@ -481,11 +481,7 @@ For information about the maintenance updates made during the 22.3 release, see 
 
 ### 23.1 Release Webinar
 
-The 23.1 release webinar is not yet scheduled. This page will be updated with registration information when it is available.
-
-<!-- 
-The 22.4 release webinar will be held on Thursday, September 22, 2022 at 9:00 AM PDT. You can [register for the webinar here](https://event.on24.com/wcc/r/3915365/9E496D02A98ECB8C86B1D2D09DDAA443?partnerref=prodmgt).
--->
+The 23.1 release webinar will be held on Tuesday, January 10, 2023. You can [register for the webinar here](https://event.on24.com/wcc/r/3995983/A5FC731C36313CE081AEBB3B1AA39C77).
 
 ### Training updates
 
