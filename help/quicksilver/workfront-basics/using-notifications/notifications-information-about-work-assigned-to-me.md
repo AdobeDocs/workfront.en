@@ -26,27 +26,24 @@ See also [Event notifications](../../workfront-basics/using-notifications/event-
    <th>Default status</th> 
   </tr> 
  </thead> 
- <tbody> 
+ <tbody>
   <tr> 
-   <td> <p><strong>An issue I resolve is approved or rejected</strong> </p> <p>The assignee of an issue receives an email notification when an approval decision is made (approved or rejected).</p> <p>Users with a Review or Requestor license do not receive a notification.</p> <p>The subject of the instant notification email is: <em>Issue Pending Approval: &lt;Planned Start Date&gt; &lt;Issue Reference Number&gt; - &lt;Issue Name&gt; in &lt;Project Name&gt;</em></p> <p> The subject of the daily digest notification is: <em> Digest of Work Assigned to You &lt;Date of daily digest&gt; </em></p> </td> 
-   <td> Issue Name<br>Project Name<br>Issue Reference Number<br>Name of the user who approved or rejected the issue<br>Approval Decision (Approved or Rejected)<br>Issue Status<br>Name of the user who requested the approval<br><strong>See More Details</strong> button<br>*Project Name<br>*Project Reference Number<br>*Total number of issues approved or rejected<br>*Issue Name<br>*Name of the user who approved or rejected the issue<br>*Approval Decision (Approved or Rejected)<br>*Date of the daily digest<br></td> 
-   <td><strong>Daily</strong> </td> 
-  </tr> 
-  <tr data-mc-conditions=""> 
-   <td> <p><strong>All predecessors of a task assigned to my team is completed</strong> </p> <p>The team assigned receives an email notification when a predecessor of one of their tasks is marked complete.</p> <p>Users with a Review or Requestor license do not receive a notification.</p> <p>The subject of the instant notification email is: <em>Task Complete: &lt;Name&gt;</em></p> <p> The subject of the daily digest notification is: <em> Digest of Work Assigned to You &lt;Date of daily digest&gt; </em></p> </td> 
-   <td> <p>Assigned by</p> <p>Task Name</p> <p>View button</p> <p>Parent tasks</p> <p>Assignees</p> <p>Task status</p> <p>Task description</p> <p>Task Reference Number</p> <p> <br>Completed predecessor tasks </p> <p>Name of the user who completed the predecessor task<br>Date when the predecessor was completed</p> <p>View button<br>Option to add to the daily digest<br></p> </td> 
-   <td><strong>Instant</strong> </td> 
-  </tr> 
+   <td> <p><strong>A predecessor of a task assigned to my team is completed</strong> </p> <p>The assigned team receives an email notification when a predecessor of one of their tasks is completed. </p> <p>Users with a Review or Requestor license do not receive a notification.</p> <p>The subject of the instant notification email is: <em>Complete: &lt;Task Name&gt;</em></p> <p> The subject of the daily digest notification is: <em> Digest of Work Assigned to You &lt;Date of daily digest&gt; </em></p> </td> 
+   <td> <p>Predecessor Task Name<br>Predecessor Task Project<br>Predecessor Task Reference Number<br>Name of the user who completed the predecessor task<br>Status of the predecessor task<br>Date and Time when the predecessor was completed<br>Previous Status of the predecessor task<br><strong>See More Details</strong> button<br>*Project Name<br>*Project Reference Number<br>*Total number of predecessors completed<br>*Task Name<br>*Name of the user who completed the task<br>*Date of daily digest </p> </td> 
+   <td><strong>Daily</strong> </td>
+  </tr>
   <tr> 
    <td> <p><strong>A predecessor of one of my tasks is completed</strong> </p> <p>The task assignee receives an email notification when a predecessor of one of their tasks is completed. </p> <p>Users with a Review or Requestor license do not receive a notification.</p> <p>The subject of the instant notification email is: <em>Complete: &lt;Task Name&gt;</em></p> <p> The subject of the daily digest notification is: <em> Digest of Work Assigned to You &lt;Date of daily digest&gt; </em></p> </td> 
    <td> <p>Predecessor Task Name<br>Predecessor Task Project<br>Predecessor Task Reference Number<br>Name of the user who completed the predecessor task<br>Status of the predecessor task<br>Date and Time when the predecessor was completed<br>Previous Status of the predecessor task<br><strong>See More Details</strong> button<br>*Project Name<br>*Project Reference Number<br>*Total number of predecessors completed<br>*Task Name<br>*Name of the user who completed the task<br>*Date of daily digest </p> </td> 
    <td><strong>Daily</strong> </td> 
   </tr> 
+  <!--
   <tr data-mc-conditions=""> 
    <td> <p><strong>A predecessor of one of my tasks is completed</strong> </p> <p>The task assignee receives an email notification when a predecessor of one of their tasks is completed. </p> <p>Users with a Review or Requestor license do not receive a notification.</p> <p>The subject of the instant notification email is: <em>Complete: &lt;Task Name&gt;</em></p> <p> The subject of the daily digest notification is: <em> Digest of Work Assigned to You &lt;Date of daily digest&gt; </em></p> </td> 
    <td> <p>Assigned by</p> <p>Task Name</p> <p>View button</p> <p>Parent tasks</p> <p>Assignees</p> <p>Task status</p> <p>Task description</p> <p>Task Reference Number</p> <p> <br>Completed predecessor tasks </p> <p>Name of the user who completed the predecessor task<br>Date when the predecessor was completed</p> <p>View button<br>Option to add to the daily digest</p> </td> 
    <td><strong>Instant</strong> </td> 
   </tr> 
+  -->
   <tr> 
    <td> <p><strong>A task I complete is approved or rejected</strong> </p> <p>The task assignee receives an email notification when the task is approved or rejected.</p> <p>A notification is sent only if the project status is Current.</p> <p>Users with a Review or Requestor license do not receive a notification.</p> <p>The subject of the instant notification email is: <em>Complete: &lt;Task Name&gt; on &lt;Project Name&gt;</em></p> <p> The subject of the daily digest notification is: <em> Digest of Work Assigned to You &lt;Date of daily digest&gt; </em></p> </td> 
    <td> Task Name<br>Project Name<br>Task Reference Number<br>Name of the user who granted the approval<br>New Task Status<br>Date and Time when the task was approved or rejected<br>Previous Task Status<br><strong>See More Details</strong> button<br>*Project Name<br>*Project Reference Number<br>*Total number of tasks approved or rejected<br>*Task Name<br>*Name of the user who approved or rejected the task<br>*Approval Decision (Approved/ Rejected)<br>*Date of the daily digest<br></td> 
@@ -56,7 +53,18 @@ See also [Event notifications](../../workfront-basics/using-notifications/event-
    <td> <p id="a-task-i-m-assigned-to-is-completed"><strong>A task I'm assigned to is completed</strong> </p> <p>The Task Assignee receives an email notification when the task is completed.</p> <p>A notification is sent only if the project status is Current.</p> <p>Users with a Review or Requestor license do not receive a notification.</p> <p>The subject of the instant notification email is: <em>Complete: &lt;Task Name&gt; on &lt;Project name&gt;</em></p> <p> <p>Note:  If the task is changed to a status that equates with Complete, the subject of the email still displays "Complete".</p> </p> <p> The subject of the daily digest notification is: <em> Digest of Work Assigned to You &lt;Date of daily digest&gt; </em></p> </td> 
    <td> <p>Task Name<br>Project name<br>Task Reference Number<br>Name of the user who completed the task<br>Date and Time when the task was completed<br>Previous Task Status<br><strong>See More Details</strong> button<br>*Project Name<br>*Project Reference Number<br>*Total number of tasks completed<br>*Task Name<br>*Name of the user who completed the task<br>*Date of the daily digest<br></p> </td> 
    <td><strong>Daily</strong> </td> 
-  </tr> <!--
+  </tr>
+  <tr data-mc-conditions=""> 
+   <td> <p><strong>All predecessors of a task assigned to my team are completed</strong> </p> <p>The assigned team receives an email notification when a predecessor of one of their tasks is marked complete.</p> <p>Users with a Review or Requestor license do not receive a notification.</p> <p>The subject of the instant notification email is: <em>Task Complete: &lt;Name&gt;</em></p> <p> The subject of the daily digest notification is: <em> Digest of Work Assigned to You &lt;Date of daily digest&gt; </em></p> </td> 
+   <td> Task Name<br>Task Project<br>Task Reference Number<br>Name of the user who completed the predecessor task<br>Status of the predecessor task<br>Date and Time when the predecessor was completed<br>Previous Status of the predecessor task<br><strong>See More Details</strong> button<br>*Project Name<br>*Project Reference Number<br>*Total number of tasks completed<br>*Task Name<br>*Name of the user who completed the task<br>*Date of daily digest </td>
+   <td><strong>Instant</strong> </td> 
+  </tr>
+  <!--
+  <tr data-mc-conditions=""> 
+   <td> <p><strong>All predecessors of a task assigned to my team are completed</strong> </p> <p>The assigned team receives an email notification when a predecessor of one of their tasks is marked complete.</p> <p>Users with a Review or Requestor license do not receive a notification.</p> <p>The subject of the instant notification email is: <em>Task Complete: &lt;Name&gt;</em></p> <p> The subject of the daily digest notification is: <em> Digest of Work Assigned to You &lt;Date of daily digest&gt; </em></p> </td> 
+   <td> <p>Assigned by</p> <p>Task Name</p> <p>View button</p> <p>Parent tasks</p> <p>Assignees</p> <p>Task status</p> <p>Task description</p> <p>Task Reference Number</p> <p> <br>Completed predecessor tasks </p> <p>Name of the user who completed the predecessor task<br>Date when the predecessor was completed</p> <p>View button<br>Option to add to the daily digest<br></p> </td> 
+   <td><strong>Instant</strong> </td> 
+  </tr>
    <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
     <td> <p><strong>All predecessors of a task assigned to my team are completed</strong> </p> <p>The team assigned receives an email notification for each predecessor that is marked complete. </p> <p>Users with a Review or Requestor license do not receive a notification.</p> <p>The subject of the instant notification email is: <em>Complete: &lt;Task Name&gt;</em><br></p> <p> The subject of the daily digest notification is: <em> Digest of Work Assigned to You &lt;Date of daily digest&gt; </em></p> </td> 
     <td> Task Name<br>Task Project<br>Task Reference Number<br>Name of the user who completed the predecessor task<br>Status of the predecessor task<br>Date and Time when the predecessor was completed<br>Previous Status of the predecessor task<br><strong>See More Details</strong> button<br>*Project Name<br>*Project Reference Number<br>*Total number of tasks completed<br>*Task Name<br>*Name of the user who completed the task<br>*Date of daily digest </td> 
@@ -67,13 +75,19 @@ See also [Event notifications](../../workfront-basics/using-notifications/event-
    <td> <p><strong>All predecessors of my tasks are completed</strong> </p> <p>The task assignee receives an email notification for each predecessor that is completed.</p> <p>Users with a Review or Requestor license do not receive a notification.</p> <p>The subject of the instant notification email is: <em>Complete: &lt;Task Name&gt;</em><br></p> <p> The subject of the daily digest notification is: <em> Digest of Work Assigned to You &lt;Date of daily digest&gt; </em></p> </td> 
    <td> Task Name<br>Task Project<br>Task Reference Number<br>Name of the user who completed the predecessor task<br>Status of the predecessor task<br>Date and Time when the predecessor was completed<br>Previous Status of the predecessor task<br><strong>See More Details</strong> button<br>*Project Name<br>*Project Reference Number<br>*Total number of tasks completed<br>*Task Name<br>*Name of the user who completed the task<br>*Date of daily digest </td> 
    <td><strong>Instant</strong> </td> 
-  </tr> <!--
+  </tr>
+  <!--
    <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
     <td> <p><strong>All predecessors of my tasks are completed</strong> </p> <p>The task assignee receives an email notification for each predecessor that is completed.</p> <p>Users with a Review or Requestor license do not receive a notification.</p> <p>The subject of the instant notification email is: <em>Complete: &lt;Task Name&gt;</em><br></p> <p> The subject of the daily digest notification is: <em> Digest of Work Assigned to You &lt;Date of daily digest&gt; </em></p> </td> 
     <td> Task Name<br>Task Project<br>Task Reference Number<br>Name of the user who completed the predecessor task<br>Status of the predecessor task<br>Date and Time when the predecessor was completed<br>Previous Status of the predecessor task<br><strong>See More Details</strong> button<br>*Project Name<br>*Project Reference Number<br>*Total number of tasks completed<br>*Task Name<br>*Name of the user who completed the task<br>*Date of daily digest </td> 
     <td><strong>Instant</strong> </td> 
    </tr>
   --> 
+  <tr> 
+   <td> <p><strong>An issue I resolve is approved or rejected</strong> </p> <p>The assignee of an issue receives an email notification when an approval decision is made (approved or rejected).</p> <p>Users with a Review or Requestor license do not receive a notification.</p> <p>The subject of the instant notification email is: <em>Issue Pending Approval: &lt;Planned Start Date&gt; &lt;Issue Reference Number&gt; - &lt;Issue Name&gt; in &lt;Project Name&gt;</em></p> <p> The subject of the daily digest notification is: <em> Digest of Work Assigned to You &lt;Date of daily digest&gt; </em></p> </td> 
+   <td> Issue Name<br>Project Name<br>Issue Reference Number<br>Name of the user who approved or rejected the issue<br>Approval Decision (Approved or Rejected)<br>Issue Status<br>Name of the user who requested the approval<br><strong>See More Details</strong> button<br>*Project Name<br>*Project Reference Number<br>*Total number of issues approved or rejected<br>*Issue Name<br>*Name of the user who approved or rejected the issue<br>*Approval Decision (Approved or Rejected)<br>*Date of the daily digest<br></td> 
+   <td><strong>Daily</strong> </td> 
+  </tr>
   <tr> 
    <td> <p><strong>An issue I'm assigned to is completed</strong> </p> <p>A notification is sent only if the project status is Current or Planning.</p> <p>Users with a Review or Requestor license do not receive a notification.</p> <p>The subject of the instant notification email is: <em>Complete: &lt;Issue Name&gt; on &lt;Project Name&gt;</em></p> <p><em> The subject of the daily digest notification is: Digest of Work Assigned to You &lt;Date of daily digest&gt; </em> </p> </td> 
    <td> Issue Name<br>Project Name<br>Issue Reference Number<br>Name of the user who completed the issue<br>New Issue Status<br>Date and Time when the issue completed<br>Previous Task Status<br><strong>See More Details</strong> button<br>*Project Name<br>*Project Reference Number<br>*Total number of issues completed<br>*Issue Name<br>*Name of the user who completed the issue<br>*Date of the daily digest<br></td> 
