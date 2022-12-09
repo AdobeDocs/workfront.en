@@ -481,7 +481,7 @@ For information about the maintenance updates made during the 22.3 release, see 
 
 ### 23.1 Release Webinar
 
-The 23.1 release webinar will be held on Tuesday, January 10, 2023 at 8:00 AM PST. You can [register for the webinar here](https://event.on24.com/wcc/r/3995983/A5FC731C36313CE081AEBB3B1AA39C77).
+The 23.1 release webinar will be held on Tuesday, January 10, 2023. You can [register for the webinar here](https://event.on24.com/wcc/r/3995983/A5FC731C36313CE081AEBB3B1AA39C77).
 
 ### Training updates
 
