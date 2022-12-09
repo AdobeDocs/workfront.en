@@ -21,3 +21,5 @@ exl-id: 418f1293-5639-4614-b518-d17601467f82
 * [Upload [!DNL XD] art boards as documents to [!DNL Workfront]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-docs.md)
 * [Upload proofs from [!DNL InDesign]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-proofs-id.md)
 * [Upload documents from [!DNL InDesign]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-docs-id.md)
+* [Upload proofs from [!DNL Illustrator]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-proofs-ai.md)
+* [Upload documents from [!DNL Illustrator]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-docs-id.md)
