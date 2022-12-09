@@ -2580,6 +2580,7 @@ feature-set: Workfront
     * [Sorting query results in the API](wf-api/tips-tricks-and-troubleshooting/query-sort-api.md)
     * [Update to emailAddr does not update the username](wf-api/tips-tricks-and-troubleshooting/update-email-addr-and-username.md)
     * [Add advanced proofing options when creating a proof through the Adobe Workfront API](wf-api/tips-tricks-and-troubleshooting/api-create-proof-options-json.md)
+    * [Options configuration for OPTASK copyIssue](wf-api/tips-tricks-and-troubleshooting/copyissue-options.md)
 * ProofHQ API {#proofhqpapi}
   * [ProofHQ API](proofhq-api/proofhq-api.md)
   * General {#general}
