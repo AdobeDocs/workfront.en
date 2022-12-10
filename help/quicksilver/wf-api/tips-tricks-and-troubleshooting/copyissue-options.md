@@ -5,6 +5,7 @@ title: Options configuration for OPTASK copyIssue
 description: An explanation of the integer values expected by the copyIssue endpoint.
 author: Becky
 feature: Workfront API
+exl-id: a2b8ef01-1c14-47a5-8b0a-550b17b526ff
 ---
 # Options configuration for OPTASK copyIssue
 
@@ -35,4 +36,3 @@ Examples:
   Clear documents = 128
 
   4 + 128 = 132
-
