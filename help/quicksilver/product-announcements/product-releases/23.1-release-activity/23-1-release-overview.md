@@ -332,6 +332,27 @@ The enhancements on this page are available in the Preview environment. This pag
                         </p>
                     </td>
                 </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Introducing the addition of Illustrator to the Adobe Workfront for design and video plugin</a><span style="color: #ff0000;"> New in Production!</span></p>
+                        <p>We're excited to announce the expansion of our Adobe Workfront for InDesign plugin to include Adobe Illustrator.</p>
+                        <p>The updated plugin, Adobe Workfront for design and video, will now support Illustrator, InDesign, Premiere Pro, and After Effects.  </p>
+                        <p>This plugin allows you to access work item details, collaborate with coworkers in the Updates area, and log time–all without leaving your favorite Creative Cloud application.</p>
+                        <p>Administrators can also create a package with the plugins from the Admin Console and deploy to users either in a managed or self-managed manner.</p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                     <p>
+                        </p>
+                        <ul>
+                            <li>
+                                <p>Preview release: N/A<br /></p>
+                            </li>
+                            <li>
+                                <p>Production release: <span class="preview">December 12, 2022</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
                  <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Enhanced filter experience generally available in Adobe Workfront</a></p>
