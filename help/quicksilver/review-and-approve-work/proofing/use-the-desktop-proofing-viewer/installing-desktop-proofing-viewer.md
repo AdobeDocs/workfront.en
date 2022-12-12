@@ -37,7 +37,7 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-{latest-version}
+{{latest-version}}
 
 ## Install the Desktop Proofing Viewer on Mac
 
