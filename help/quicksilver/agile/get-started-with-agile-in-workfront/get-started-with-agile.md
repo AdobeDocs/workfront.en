@@ -14,5 +14,5 @@ exl-id: 151aec93-3ccb-475f-b894-61be20a8544a
 This section contains the following articles:
 
 * [Create an agile team](../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md)
-* [Configure Kanban](../../agile/get-started-with-agile-in-workfront/configure-kanban.md)
-* [Configure Scrum](../../agile/get-started-with-agile-in-workfront/configure-scrum.md)
+* [Configure [!UICONTROL Kanban]](../../agile/get-started-with-agile-in-workfront/configure-kanban.md)
+* [Configure [!UICONTROL Scrum]](../../agile/get-started-with-agile-in-workfront/configure-scrum.md)
