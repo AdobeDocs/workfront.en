@@ -98,9 +98,7 @@ Only the custom forms that are attached to all selected objects can be edited in
 
 To edit multiple custom forms when editing objects in bulk:
 
-1. In a list objects, select the objects where the custom forms are attached, then click  the Edit icon ![](assets/edit-icon.png)
-
-   .
+1. In a list objects, select the objects where the custom forms are attached, then click  the **Edit** icon ![](assets/edit-icon.png).
 1. Click **Custom Forms**.
 
    You can edit only the custom forms attached to all of the selected objects.

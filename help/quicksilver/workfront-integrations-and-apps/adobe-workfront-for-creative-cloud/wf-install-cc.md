@@ -7,19 +7,20 @@ author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: f4fbae93-b54b-4d08-82c3-72a9a760c317
 ---
-# Install [!DNL Adobe Workfront for InDesign]
+# Install [!DNL Adobe Workfront for design and video]
 
-You can install the [!DNL Adobe Workfront for InDesign] plugin from the [!DNL Adobe Marketplace]. The plugin supports the following languages:
+You can install the [!DNL Adobe Workfront for design and video] plugin from the [!DNL Adobe Marketplace]. The plugin supports the following languages:
 
 * English
 * French
 * German
 * Italian
 * Spanish
-* Portuguese
 * Japanese
+* Portuguese 
 * Simplified Chinese
 * Traditional Chinese
+<!-- * Korean -->
 
 >[!NOTE]
 >
@@ -55,7 +56,7 @@ You must have the following access to perform the steps in this article:
 
 * You must install the [!DNL Creative Cloud] app you wish to use before installing the plugin. 
 
-## Install the [!DNL Adobe Workfront for InDesign] plugin
+## Install the [!DNL Adobe Workfront for design and video] plugin
 
 >[!TIP]
 >
@@ -68,7 +69,7 @@ You must have the following access to perform the steps in this article:
 
    ![](assets/adobe-marketplace-350x218.png)
 
-1. When [!DNL Adobe Workfront for InDesign] plugin appears in the search results, click **[!UICONTROL Get]**.
+1. When [!DNL Adobe Workfront for design and video] plugin appears in the search results, click **[!UICONTROL Get]**.
 1. Read the information in the dialog box, then click **[!UICONTROL OK]**.
 1. Once the plugin in installed, open the [!DNL Creative Cloud] application you need and locate the Workfront plugin in the plugin panel.
 
@@ -76,10 +77,10 @@ You must have the following access to perform the steps in this article:
 
 1. Continue to the following section for information on how to log in to the plugin.
 
-## Log In to [!DNL Adobe Workfront for InDesign]
+## Log In to [!DNL Adobe Workfront for design and video]
 
 1. From the **[!UICONTROL Plugins]** menu at the top of the screen, select **[!UICONTROL Plugin Panel]**.
-1. Select **[!DNL WAdobe Workfront for InDesign]**.
+1. Select **[!DNL Adobe Workfront for design and video]**.
 1. Enter your domain, then click **[!UICONTROL Log in]**. A browser page opens.
 
    >[!TIP]

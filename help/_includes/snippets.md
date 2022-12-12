@@ -109,17 +109,104 @@ To set up linked folders:
 You must install the correct plugin for the Adobe Creative Cloud application you’re using:
 * For Photoshop, see [Install Adobe Workfront for Photoshop](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-ps.md)
 * For XD, see [Install Adobe Workfront for XD](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-install.md)
-* For InDesign, see [Install Adobe Workfront for InDesign](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-install-cc.md)
+* For InDesign, Illustrator, Premiere Pro, and After Effects see [Install Adobe Workfront for design and video](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-install-cc.md)
 
 ## CC Applications list {#cc-app-list}
 
 * Photoshop
 * XD 
 * InDesign
+* Illustrator 
+* Premiere Pro
+* After Effects
 
 ## WF for CC application list {#cc-plugin-app-list} 
 
 * InDesign
+* Illustrator
+* Premiere Pro
+* After Effects
+
+## Adjust automated proof settings {#adjust-proof-settings}
+
+1. (Optional) Adjust automated proof settings
+
+   <table>
+   <tr>
+      <td colspan="2" ><strong>Proof stages</strong>
+      </td>
+   </tr>
+   <tr>
+      <td>Disable stages
+      </td>
+      <td>
+   <ol>
+
+   <li>Toggle Select all to disable all stages. 
+   <p>Or</p></li>
+   <li>Toggle individual stages.</li>
+
+   </ol>
+      </td>
+   </tr>
+   <tr>
+      <td>Add recipients
+      </td>
+      <td>
+   <ol>
+
+   <li>In the Add new recipient box, begin typing the user’s name.
+
+   Note: You can't add external recipients via email from the plugin. 
+
+   <li>Specify the Proof Role.
+
+   <li>Choose the type of email alerts for the recipient. 
+   </li>
+   </ol>
+      </td>
+   </tr>
+   <tr>
+      <td>Set a deadline
+      </td>
+      <td>
+   <ol>
+
+   <li>Choose a deadline.
+   </li>
+   </ol>
+      </td>
+   </tr>
+   <tr>
+      <td colspan="2" ><strong>Email notifications</strong>
+      </td>
+   </tr>
+   <tr>
+      <td>Notify recipients about the proof
+      </td>
+      <td>
+   <ol>
+
+   <li>Enable the checkbox to notify users when the proof is created.
+   </li>
+   </ol>
+      </td>
+   </tr>
+   <tr>
+      <td>Add a custom message
+      </td>
+      <td>
+   <ol>
+
+   <li>Type a subject.
+
+   <li>Type the custom message.
+   </li>
+   </ol>
+      </td>
+   </tr>
+   </table>
+  
 
 
 <!-- Log Time -->

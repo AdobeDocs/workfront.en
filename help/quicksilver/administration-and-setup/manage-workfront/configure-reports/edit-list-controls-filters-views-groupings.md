@@ -18,8 +18,8 @@ Consider breaking this article into 2</p>
 
 >[!IMPORTANT]
 >
->The functionality on this page was removed with the 22.4 release. This article will be removed November 2022.
->Workfront administrators can still use the Layout Template to enable or disable filters, views, and groupings for users. For more information, see [Customize Filters, Views, and Groupings using a layout template](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md).
+>The List Controls area in Setup > Interface > List Controls will be removed with the 23.1 release.
+>Some list control functionality is moving to the Setup > Interface > Filters/Views/Grouping areas. For more information, see [Create, edit, and share default filters, views, and groupings](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/create-and-share-default-fvgs.md).
 
 As an Adobe Workfront administrator, you use the List Controls area to determine which filters, views, and groupings you want available in your Workfront instance and listed in all layout templates in the system.
 

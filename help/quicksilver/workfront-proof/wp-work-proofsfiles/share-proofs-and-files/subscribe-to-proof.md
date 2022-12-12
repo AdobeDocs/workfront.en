@@ -2,31 +2,31 @@
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: share-proofs-and-files
-title: Subscribe to a Proof in Workfront Proof
+title: Subscribe to a Proof in [!DNL Workfront] Proof
 description: When another user sends you open a Proof URL and you open it in your browser, it launches the proofing viewer in Read Only mode. Before you can work on the proof, you need to identify yourself by subscribing to it.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 8f488839-efb5-44fb-9757-7e4d1c4aceef
 ---
-# Subscribe to a Proof in Workfront Proof
+# Subscribe to a Proof in [!DNL Workfront Proof]
 
 >[!IMPORTANT]
 >
->This article refers to functionality in the standalone product Workfront Proof. For information on proofing inside Adobe Workfront, see [Proofing](../../../review-and-approve-work/proofing/proofing.md).
+>This article refers to functionality in the standalone product [!DNL Workfront Proof]. For information on proofing inside [!DNL Adobe Workfront], see [Proofing](../../../review-and-approve-work/proofing/proofing.md).
 
 When another user sends you open a Proof URL and you open it in your browser, it launches the proofing viewer in Read Only mode. Before you can work on the proof, you need to identify yourself by subscribing to it.
 
 >[!NOTE]
 >
->&nbsp;Before users can subscribe to a proof, its Subscription setting must be enabled (see the section [Configure Proof Settings in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md) in&nbsp; [Configure Proof Settings in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md)).
+>Before users can subscribe to a proof, its Subscription setting must be enabled (see the section [Configure Proof Settings in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md) in [Configure Proof Settings in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md)).
 
-&nbsp;To subscribe to a proof:
+To subscribe to a proof:
 
-1. Click&nbsp;**Sign In**&nbsp;at the top of the proofing viewer.&nbsp;
-1. Type your email address in the **Sign in** box that appears.
-1. If you are not a reviewer on the proof nor a user of Workfront Proof, type your display name.   
-   Or  
-   If you have a Workfront Proof password, type it (whether or not you are a reviewer on the proof).   
-   Depending on the proof sharing email settings selected by the person who shared the proof, you might need to follow validation instructions in an email sent to you via email. 
+1. Click **[!UICONTROL Sign In]** at the top of the proofing viewer.
+1. Type your email address in the **[!UICONTROL Sign in]** box that appears.
+1. If you are not a reviewer on the proof nor a user of [!DNL Workfront Proof], type your display name.\
+   Or\
+   If you have a [!DNL Workfront Proof] password, type it (whether or not you are a reviewer on the proof).\
+   Depending on the proof sharing email settings selected by the person who shared the proof, you might need to follow validation instructions in an email sent to you via email.
 
-1. Your role on the proof is Subscription, which is set on the Proof details page for the proof. For more information about setting roles for proofs, see*&nbsp;* [Configure Proof Settings in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md).
+1. Your role on the proof is Subscription, which is set on the Proof details page for the proof. For more information about setting roles for proofs, see [Configure Proof Settings in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md).

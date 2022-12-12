@@ -13,10 +13,10 @@ feature-set: Workfront
     * [Adobe Workfront release schedule and process](product-announcements/product-releases/workfront-release-schedule.md)
     * 23.1 Release {#release-23-1}
       * [23.1 Release overview](product-announcements/product-releases/23.1-release-activity/23-1-release-overview.md)
-      * [23.1 release activity: Week of November 7, 2022](product-announcements/product-releases/23.1-release-activity/23-1-nov-7.md)
-      * [23.1 release activity: Week of October 24, 2022](product-announcements/product-releases/23.1-release-activity/23-1-oct-24.md)
-      * [23.1 release activity: Week of October 17, 2022](product-announcements/product-releases/23.1-release-activity/23-1-oct-17.md)
-      * [23.1 release activity: Week of October 10, 2022](product-announcements/product-releases/23.1-release-activity/23-1-oct-10.md)
+      * [23.1 Project enhancements](product-announcements/product-releases/23.1-release-activity/23-1-project-enhancements.md)
+      * [23.1 Agile enhancements](product-announcements/product-releases/23.1-release-activity/23-1-agile-enhancements.md)
+      * [23.1 Mobile enhancements](product-announcements/product-releases/23.1-release-activity/23-1-mobile-enhancements.md)
+      * [23.1 Other enhancements](product-announcements/product-releases/23.1-release-activity/23-1-other-enhancements.md)
       * [Look-and-feel updates during the 23.1 release time frame](product-announcements/product-releases/23.1-release-activity/23-1-look-and-feel-updates.md)
     * 22.4 Release {#release-22-4}
       * [22.4 Release overview](product-announcements/product-releases/22.4-release-activity/22-4-release-overview.md)
@@ -97,6 +97,7 @@ feature-set: Workfront
       * [21.1 Other enhancements](product-announcements/product-releases/21.1-release-activity/21-1-other-enhancements.md)
     * Adobe Workfront Fusion release activity {#fusion-release}
       * [Adobe Workfront Fusion release activity](product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)
+      * [Workfront Fusion release activity: Week of November 14, 2022](product-announcements/product-releases/fusion-release-activity/fusion-nov-14-22.md)
       * [Workfront Fusion release activity: Week of November 7, 2022](product-announcements/product-releases/fusion-release-activity/fusion-nov-9-22.md)
       * [Workfront Fusion release activity: Week of October 17, 2022](product-announcements/product-releases/fusion-release-activity/fusion-oct-17-22.md)
       * [Workfront Fusion release activity: Week of October 3, 2022](product-announcements/product-releases/fusion-release-activity/fusion-oct-3-22.md)
@@ -154,6 +155,9 @@ feature-set: Workfront
       * [Workfront Scenario Planner with the 20.3 release - August 14, 2020](product-announcements/product-releases/scenario-planner-release-activity/sp-release-20-3.md)
     * Adobe Workfront Goals release activity {#goals-release}
       * [Adobe Workfront Goals release activity](product-announcements/product-releases/goals-release-activity/goals-release-activity.md)
+      * Goals with 23.1 release {#goals-23-1}
+        * [Adobe Workfront Goals with the 23.1 release](product-announcements/product-releases/goals-release-activity/goals-23-1-release/goals-23-1-release.md)
+        * [Adobe Workfront Goals 23.1 release activity: Week of December 5, 2023](product-announcements/product-releases/goals-release-activity/goals-23-1-release/goals-jan.md)
       * Goals with 21.2 release {#goals-21-2}
         * [Adobe Workfront Goals with the 21.2 release](product-announcements/product-releases/goals-release-activity/goals-21.2-release/goals-release-21-2.md)
         * [Adobe Workfront Goals 21.2 release activity: Week of April 19, 2021](product-announcements/product-releases/goals-release-activity/goals-21.2-release/goals-apr-19.md)
@@ -427,13 +431,9 @@ feature-set: Workfront
       * [Single sign-on](administration-and-setup/add-users/single-sign-on/single-sign-on.md)
       * [Overview of single sign-on](administration-and-setup/add-users/single-sign-on/sso-in-workfront.md)
       * [Update users for single sign-on](administration-and-setup/add-users/single-sign-on/update-users-sso.md)
-      * [Configure Workfront with Active Directory](administration-and-setup/add-users/single-sign-on/configure-workfront-ad.md)
-      * [Configure Workfront with LDAP](administration-and-setup/add-users/single-sign-on/configure-workfront-ldap.md)
       * [Configure Workfront with SAML 2.0](administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2.md)
       * [Update SAML 2.0 metadata in identity provider](administration-and-setup/add-users/single-sign-on/update-saml-2-metadata-ip.md)
       * [Configure Adobe Workfront with SAML 2.0 using ADFS](administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2-adfs.md)
-      * [Configure Workfront with SAML 1.1](administration-and-setup/add-users/single-sign-on/configure-workfront-saml-1.1.md)
-      * [Configure Workfront with Azure Active Directory](administration-and-setup/add-users/single-sign-on/configure-workfront-azure-ad.md)
       * [Enable Outlook for Workfront and SAML 2.0](administration-and-setup/add-users/single-sign-on/enable-outlook-for-use-w-wf-and-saml-2.md)
       * [Deactivate single sign-on](administration-and-setup/add-users/single-sign-on/deactivate-sso.md)
     * Create and manage teams {#create-manage-teams}
@@ -562,8 +562,9 @@ feature-set: Workfront
       * [File encryption](administration-and-setup/manage-workfront/security/file-encryption.md)
       * [Change your Workfront domain](administration-and-setup/manage-workfront/security/change-your-workfront-domain.md)
       * [Manage API keys](administration-and-setup/manage-workfront/security/manage-api-keys.md)
-      * [Enhanced Authentication for Azure Active Directory](administration-and-setup/manage-workfront/security/set-up-azure-active-directory-enhanced-authentication.md)
       * [Privacy policy](administration-and-setup/manage-workfront/security/workfront-privacy-policy.md)
+      * [Enhanced Authentication overview](administration-and-setup/manage-workfront/security/get-started-enhanced-authentication.md)
+      * [Update SAML 2.0 metadata in your IDP when using enhanced authentication](administration-and-setup/add-users/single-sign-on/update-saml-2-metadata-ip-eauth-.md)
     * Exchange rates {#exchange-rates}
       * [Exchange rates](administration-and-setup/manage-workfront/exchange-rates/exchange-rates.md)
       * [Set up exchange rates](administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md)
@@ -684,7 +685,6 @@ feature-set: Workfront
     * [Administration and setup FAQ](administration-and-setup/tips-tricks-and-troubleshooting/admin-and-setup-faq.md)
     * [Automatic reminders vs. reminder notifications](administration-and-setup/tips-tricks-and-troubleshooting/auto-reminders-vs-reminder-notifications.md)
     * [POP in Microsoft Exchange](administration-and-setup/tips-tricks-and-troubleshooting/configure-pop-ms-exchange.md)
-    * [Active Directory User Cannot Log In](administration-and-setup/tips-tricks-and-troubleshooting/error-active-directory-user-cannot-log-in.md)
     * [Auto-provisioned user can't log in](administration-and-setup/tips-tricks-and-troubleshooting/error-auto-provisioned-user-cant-log-in.md)
     * [Couldn't validate XML digital signature](administration-and-setup/tips-tricks-and-troubleshooting/error-message-couldnt-validate-xml-digital-signature.md)
     * [Invalid Parameter: conversion value](administration-and-setup/tips-tricks-and-troubleshooting/error-message-invalid-parameter-conversion-value.md)
@@ -1333,9 +1333,6 @@ feature-set: Workfront
     * [Delegate work](manage-work/delegate-work/delegate-work.md)
     * [Delegate tasks and issues overview](manage-work/delegate-work/delegate-work-overview.md)
     * [Manage task and issue delegation](manage-work/delegate-work/how-to-delegate-work.md)
-* Operating models {#operating-models}
-  * [Operating models overview](operating-models/operating-models-overview.md)
-  * [Design flexible operating models in Adobe Workfront](operating-models/create-work-objects-records-operating-models-alpha-document.md)  
 * Teams and groups {#teams-groups}
   * [Teams and groups](people-teams-and-groups/people-teams-and-groups.md)
   * Create and manage teams {#create-manage-teams}
@@ -1903,6 +1900,9 @@ feature-set: Workfront
   * Adobe Workfront Fusion in the Adobe Experience Cloud {#fusion-in-experience-cloud}
     * [Adobe Workfront Fusion on the Adobe Experience Cloud](workfront-fusion/fusion-in-admin-console/fusion-in-admin-console.md)
     * [Adobe Workfront Fusion on the Adobe Unified Experience](workfront-fusion/fusion-in-admin-console/fusion-unified-experience.md)
+    * [Add users to Adobe Workfront Fusion through the Adobe Admin Console](/help/quicksilver/workfront-fusion/fusion-in-admin-console/add-fusion-users-admin-console.md) 
+    * [Delete users in Adobe Workfront Fusion through the Adobe Admin Console](/help/quicksilver/workfront-fusion/fusion-in-admin-console/delete-fusion-users-admin-console.md)
+    * [Platform-based administration differences (Adobe Workfront Fusion/Adobe Business Platform)](/help/quicksilver/workfront-fusion/fusion-in-admin-console/fusion-adobe-admin-console.md) 
   * Connections in Adobe Workfront Fusion {#connections-in-fusion}
     * [Connections in Adobe Workfront Fusion](workfront-fusion/connections/connections.md)
     * [About connecting Adobe Workfront Fusion to an app or service](workfront-fusion/connections/about-connecting-wf-fusion-to-app-or-service.md)
@@ -1983,6 +1983,7 @@ feature-set: Workfront
       * [View, edit, and delete Adobe Workfront Fusion templates](workfront-fusion/scenarios/templates/view-edit-and-delete-fusion-templates.md)
       * [Adobe Workfront Fusion Templates administration](workfront-fusion/scenarios/templates/fusion-templates-adminstration.md)
       * [Adobe Workfront Fusion templates FAQs](workfront-fusion/scenarios/templates/fusion-templates-faqs.md)
+      * [Currently available Adobe Workfront Fusion templates](workfront-fusion/scenarios/templates/currently-available-fusion-templates.md)
     * [Adobe Workfront Fusion scenario example: Connect email, Text Parser, and Google Sheets](workfront-fusion/scenarios/example-connect-email-text-parser-gsheets.md)
     * [Restore a scenario version in Adobe Workfront Fusion](workfront-fusion/scenarios/restore-a-scenario-version.md)
     * [Copy modules or scenarios in Adobe Workfront Fusion](workfront-fusion/scenarios/copy-modules-or-scenarios.md)
@@ -2052,6 +2053,7 @@ feature-set: Workfront
     * [Microsoft Office 365 Excel modules](workfront-fusion/apps-and-their-modules/microsoft-365-excel-modules.md)
     * [Microsoft OneDrive for Business](workfront-fusion/apps-and-their-modules/microsoft-onedrive-for-business-modules.md)
     * [Microsoft OneDrive modules](workfront-fusion/apps-and-their-modules/microsoft-onedrive-modules.md)
+    * [Microsoft Power BI modules](workfront-fusion/apps-and-their-modules/powerbi-modules.md)
     * [Microsoft SQL Server modules](workfront-fusion/apps-and-their-modules/microsoft-sql-server-modules.md)
     * [MIME modules](workfront-fusion/apps-and-their-modules/mime.md)
     * [NetSuite modules](workfront-fusion/apps-and-their-modules/netsuite.md)
@@ -2085,7 +2087,7 @@ feature-set: Workfront
       * [Install Adobe Workfront for Creative Cloud Applications](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-toc.md)
       * [Install Adobe Workfront for Photoshop](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-ps.md)
       * [Install Adobe Workfront for XD](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-install.md)
-      * [Install Adobe Workfront for InDesign](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-install-cc.md)
+      * [Install Adobe Workfront for design and video](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-install-cc.md)
     * Manage work with the Adobe Workfront plugin for Creative Cloud Applications {#manage-wf-cc}
       * [Manage work with the Adobe Workfront plugin for Creative Cloud Applications](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-manage-work-toc.md)
       * [Find your work using the Adobe Workfront plugin](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-find-work.md)
@@ -2101,6 +2103,8 @@ feature-set: Workfront
       * [Upload XD art boards as documents to Workfront](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-docs.md)
       * [Upload proofs from InDesign](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-proofs-id.md)
       * [Upload documents from InDesign](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-docs-id.md)
+      * [Upload proofs from [!DNL Illustrator]](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-proofs-ai.md)
+      * [Upload documents from [!DNL Illustrator]](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-ai-docs.md)
     * Workfront Extension for Illustrator and InDesign {#workfront-for-illustrator-indesign}
       * [Workfront Extension for Illustrator and InDesign](documents/workfront-for-adobe-creative-cloud/workfront-for-adobe-creative-loud.md)
       * [Install the Workfront Extension for Illustrator and InDesign](documents/workfront-for-adobe-creative-cloud/installl-wf-adobe-cc.md)
@@ -2576,6 +2580,7 @@ feature-set: Workfront
     * [Sorting query results in the API](wf-api/tips-tricks-and-troubleshooting/query-sort-api.md)
     * [Update to emailAddr does not update the username](wf-api/tips-tricks-and-troubleshooting/update-email-addr-and-username.md)
     * [Add advanced proofing options when creating a proof through the Adobe Workfront API](wf-api/tips-tricks-and-troubleshooting/api-create-proof-options-json.md)
+    * [Options configuration for OPTASK copyIssue](wf-api/tips-tricks-and-troubleshooting/copyissue-options.md)
 * ProofHQ API {#proofhqpapi}
   * [ProofHQ API](proofhq-api/proofhq-api.md)
   * General {#general}

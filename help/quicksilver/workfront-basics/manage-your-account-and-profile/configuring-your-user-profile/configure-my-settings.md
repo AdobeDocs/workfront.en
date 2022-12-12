@@ -342,15 +342,16 @@ You can change any of the following in this sub-section:
    <td>Select this field to display work you are assigning to yourself directly on your [!UICONTROL Working On] tab instead of the [!UICONTROL Work Requests] tab.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>(Conditional) [!UICONTROL Automatically generate proofs when uploading documents]</strong></td> 
-   <td>Select this field to start generating a proof immediately after the document is loaded into Workfront. This field is disabled by default and can be updated only by a [!DNL Workfront] administrator.<br>This field is available only if your company has purchased the [!DNL Workfront Proof] component for [!DNL Workfront] and if you are enabled as a proof user. For more information about [!DNL Workfront Proof], see <a href="../../../review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proofs-in-wf.md" class="MCXref xref">Manage proofs within [!UICONTROL Adobe Workfront]</a>.</td> 
+   <td role="rowheader"><strong>(Conditional) Automatically generate proofs when uploading documents</strong></td> 
+   <td>Select this field to start generating a proof immediately after the document is loaded into [!DNL Workfront]. This field is disabled by default and can be updated only by a Workfront administrator.<br>This field is available only if your company has purchased the Workfront Proof component for Workfront and if you are enabled as a proof user. For more information about Workfront Proof, see <a href="../../../review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proofs-in-wf.md" class="MCXref xref">Manage proofs within Adobe Workfront</a>.
+   <p><b>Note:</b> Documents uploaded to a request do not autogenerate a proof. </p></td> 
   </tr> 
  </tbody> 
 </table>
 
 ### [!UICONTROL Notifications]
 
-Specify what notifications you would like to receive from [!UICONTROL Workfront]. For more information about configuring notifications, see [Activate or deactivate your own event notifications](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+Specify what notifications you would like to receive from [!DNL Workfront]. For more information about configuring notifications, see [Activate or deactivate your own event notifications](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 ### [!UICONTROL Access]
 

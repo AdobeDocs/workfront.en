@@ -10,9 +10,9 @@ author: Becky
 feature: Workfront Fusion
 exl-id: 752e0766-25f2-4d22-bed5-7c931284258d
 ---
-# SOAP module
+# [!UICONTROL SOAP] module
 
-You can use the SOAP module to connect to SOAP APIs in Adobe Workfront Fusion.
+You can use the [!UICONTROL SOAP] module to connect to [!UICONTROL SOAP] APIs in [!UICONTROL Adobe Workfront Fusion].
 
 ## Access requirements
 
@@ -23,44 +23,44 @@ You must have the following access to use the functionality in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>Pro or higher</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan*</td>
+  <td> <p>[!UICONTROL Pro] or higher</p> </td>
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Plan, Work</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] license*</td>
+   <td> <p>[!UICONTROL Plan], [!UICONTROL Work]</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront Fusion license**</td> 
-   <td> <p>Workfront Fusion for Work Automation and Integration </p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront Fusion] license**</td> 
+   <td> <p>[!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
+   <td>Your organization must purchase [!DNL Adobe Workfront Fusion] as well as [!DNL Adobe Workfront] to use functionality described in this article.</td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
 
-&#42;&#42;For information on Adobe Workfront Fusion licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
+For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Workfront Fusion] licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
-## Using the SOAP module
+## Using the [!UICONTROL SOAP] module
 
-The SOAP module is currently in beta and does not support:
+The [!UICONTROL SOAP] module is currently in beta and does not support:
 
 * Redefine elements
 * Fraction digits restrictions
 * Total digits restrictions
 * White space restrictions
 * Multiple parts in input and output messages. Only single part messages are supported
-* Custom XML Schema elements defined with the help of SOAP Encoding (http://schemas.xmlsoap.org) schemas and elements.
+* Custom XML Schema elements defined with the help of [[!UICONTROL SOAP] Encoding](http://schemas.xmlsoap.org) schemas and elements.
 
 >[!INFO]
 >
 >**Example:** 
 >  
->The following would not be recognized correctly by Workfront Fusion:
+>The following would not be recognized correctly by [!UICONTROL Workfront Fusion]:
 >
 >```
 ><complexType name="ArrayOfFloat">
@@ -80,14 +80,14 @@ The SOAP module is currently in beta and does not support:
 ></complexType>
 >```
 
-It includes the `soapenc:Array`, `soapenc:arrayType` and `wsdl:arrayType` references, which are not yet supported in Workfront Fusion.
+It includes the `soapenc:Array`, `soapenc:arrayType` and `wsdl:arrayType` references, which are not yet supported in [!UICONTROL Workfront Fusion].
 
 ## Workaround
 
-If the SOAP module refuses to process the WSDL file or throws various errors in the module's configuration, you may try using the universal **HTTP > Make a request** module instead:
+If the [!UICONTROL SOAP] module refuses to process the WSDL file or throws various errors in the module's configuration, you may try using the universal **[!UICONTROL HTTP] > [!UICONTROL Make a request]** module instead:
 
-1. In Workfront Fusion, create a new scenario.
-1. Insert the **HTTP > Make a request** module in the scenario.
+1. In [!DNL Workfront Fusion], create a new scenario.
+1. Insert the **[!UICONTROL HTTP] > [!UICONTROL Make a request]** module in the scenario.
 1. Open the module's configuration and fill in the follwoing fields:
 
    <table style="table-layout:auto"> 
@@ -95,20 +95,20 @@ If the SOAP module refuses to process the WSDL file or throws various errors in 
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">Method</td> 
-      <td> <p>POST</p> </td> 
+      <td role="rowheader">[!UICONTROL Method]</td> 
+      <td> <p>[!UICONTROL POST]</p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
-      <td role="rowheader">Body type</td> 
-      <td> <p>Raw</p> </td> 
+      <td role="rowheader">[!UICONTROL Body type]</td> 
+      <td> <p>[!UICONTROL Raw]</p> </td> [!UICONTROL ]
      </tr> 
      <tr> 
-      <td role="rowheader">Content type</td> 
-      <td> <p>XML (application/xml)</p> </td> 
+      <td role="rowheader">[!UICONTROL Content type]</td> 
+      <td> <p>[!UICONTROL XML (application/xml)]</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Parse response</td> 
-      <td>Enabled</td> 
+      <td role="rowheader">[!UICONTROL Parse response]</td> 
+      <td>[!UICONTROL Enabled]</td> 
      </tr> 
     </tbody> 
    </table>
@@ -126,16 +126,16 @@ If the SOAP module refuses to process the WSDL file or throws various errors in 
    ![](assets/service-350x65.png)
 
 1. Once located, copy the URL from the `location` attribute.
-1. In Workfront Fusion, paste the URL into the HTTP module's URL field.
-1. Open the [Online SOAP Client](https://wsdlbrowser.com/) in a new web browser window/tab.
+1. In [!DNL Workfront Fusion], paste the URL into the HTTP module's URL field.
+1. Open the [Online [!UICONTROL SOAP] Client](https://wsdlbrowser.com/) in a new web browser window/tab.
 1. Paste the WSDL URL into the WSDL URL field.
-1. Click **Browse**.
+1. Click **[!UICONTROL Browse]**.
 1. Pick from the list of functions to the left, for example `getLanguages`.
-1. Copy the content of the Request XML text area.
-1. In Workfront Fusion, paste the copied content to the module's URL field.
+1. Copy the content of the [!UICONTROL Request XML] text area.
+1. In [!UICONTROL Workfront Fusion], paste the copied content to the module's URL field.
 1. Provide values for selected parameters by replacing the question marks with actual values:
 
    ![](assets/request-xml-350x172.png)
 
-1. Close the module's configuration by clicking **OK**.
+1. Close the module's configuration by clicking **[!UICONTROL OK]**.
 1. Execute the scenario or module.

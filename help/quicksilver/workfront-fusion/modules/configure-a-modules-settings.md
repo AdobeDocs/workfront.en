@@ -2,21 +2,21 @@
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: modules
-title: Configure a module's settings in Adobe Workfront Fusion
+title: Configure a module's settings in [!DNL Adobe Workfront Fusion]
 description: You must configure settings for every module you create.
 author: Becky
 feature: Workfront Fusion
 exl-id: 7e66728d-8c6f-4597-98c4-bc6d36f96911
 ---
-# Configure a module's settings in Adobe Workfront Fusion
+# Configure a module's settings in [!DNL Adobe Workfront Fusion]
 
 You must configure settings for every module you create.
 
-For example, the [Dropbox modules](../../workfront-fusion/apps-and-their-modules/dropbox-modules.md) modules require you to specify the target folder where you want to upload files. For the [Email modules](../../workfront-fusion/apps-and-their-modules/email-modules.md) modules, you need to enter the email address where emails should be sent.
+For example, the [[!DNL Dropbox] modules](../../workfront-fusion/apps-and-their-modules/dropbox-modules.md) modules require you to specify the target folder where you want to upload files. For the [[!UICONTROL Email] modules](../../workfront-fusion/apps-and-their-modules/email-modules.md) modules, you need to enter the email address where emails should be sent.
 
 >[!NOTE]
 >
->Besides the module settings, you can also adjust settings for a scenario. You can rename your scenario, change its schedule, and specify additional settings, just to name a few of the possibilities.
+>Besides the module settings, you can also adjust settings for a scenario. You can rename your scenario, change its schedule, and specify additional settings, among other actions.
 
 ## Access requirements
 
@@ -27,27 +27,27 @@ You must have the following access to use the functionality in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>Pro or higher</p> </td> 
+    <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
+   <td> <p>[!DNL Pro] or higher</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Plan, Work</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
+   <td> <p>[!UICONTROL Plan], [!UICONTROL Work]</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront Fusion license**</td> 
-   <td> <p>Workfront Fusion for Work Automation and Integration </p>  </td> 
+   <td role="rowheader">[!UICONTROL Adobe Workfront Fusion] license**</td> 
+   <td> <p>[!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
+   <td>Your organization must purchase [!DNL Adobe Workfront Fusion] as well as [!DNL Adobe Workfront] to use functionality described in this article.</td> 
   </tr>  
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
 
-&#42;&#42;For information on Adobe Workfront Fusion licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
+For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Workfront Fusion] licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## Configure a module's settings
 
@@ -55,17 +55,17 @@ You must have the following access to use the functionality in this article:
 
    Or
 
-   Click the icon of the module in the scenario editor, as described in [Create a scenario in Adobe Workfront Fusion](../../workfront-fusion/scenarios/create-a-scenario.md).
+   Click the icon of the module in the scenario editor, as described in [Create a scenario in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
 
-1. If required for the module, create a **Connection** to your registered user account for that given service, as described in [About connecting Adobe Workfront Fusion to an app or service](../../workfront-fusion/connections/about-connecting-wf-fusion-to-app-or-service.md).
+1. If required for the module, create a **[!UICONTROL Connection]** to your registered user account for that given service, as described in [About connecting [!DNL Adobe Workfront Fusion] to an app or service](../../workfront-fusion/connections/about-connecting-wf-fusion-to-app-or-service.md).
 1. In each field, type the appropriate text.
 
    Or
 
-   Click **Map** if it appears to the right of the field, then map an item from another module in your scenario.
+   Click **[!UICONTROL Map]** if it appears to the right of the field, then map an item from another module in your scenario.
 
    Bolded parameters are required.
 
-   For information about the different item data types Workfront Fusion can recognize (such as date, number, and text), see [Item data types in Adobe Workfront Fusion](../../workfront-fusion/mapping/item-data-types.md).
+   For information about the different item data types [!DNL Workfront Fusion] can recognize (such as date, number, and text), see [Item data types in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/item-data-types.md).
 
-1. (Conditional) If the module has advanced options you want to display and use, select **Show advanced settings**.
+1. (Conditional) If the module has advanced options you want to display and use, select **[!UICONTROL Show advanced settings]**.

@@ -74,6 +74,27 @@ You must have the following access to perform the steps in this article:
    >
    >Columns that contain cards, including archived cards, can't be deleted. If you try to delete a column that contains cards, you must choose another column for those cards.
 
+## Display card count
+
+You can use a configuration setting to display the number of cards in each column.
+
+>[!NOTE]
+>
+>The card counter is available only via the early feature opt-in. For details, see [Early feature opt-in for Adobe Workfront Boards](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md).
+
+If you are using the WIP limit on a column, a separate card counter is not added. For more information on WIP limits, see [Manage the Work in Progress (WIP) limit on a board](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-wip-limit-on-board.md).
+
+1. Access the board.
+1. Click **Configure** on the right of the board to open the Configure panel.
+1. Expand **Column**.
+1. Turn on **Display a column card count**.
+
+   ![Turn on card counter](assets/display-card-count.png)
+
+   The card counter appears at the top of each column.
+
+1. Click **Hide configure** to close the Configure panel.
+
 ## Define column settings and policies
 
 1. Access the board.

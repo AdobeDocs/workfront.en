@@ -39,12 +39,12 @@ When integrated with [!DNL Workfront Proof], [!DNL Basecamp] allows users to do 
 The integration of [!DNL Workfront Proof] with [!DNL Basecamp] must be set up on two levels:
 
 * Configure [!DNL Basecamp] in [Account settings:](https://support.workfront.com/hc/en-us/sections/115000912147-Account-settings) This enables the Basecamp integration for your whole organization.
-* For more information, see [Enabling the [!DNL Basecamp] Integration with [!DNL Workfront Proof]](#enabling-the-dnl-basecamp-integration-with-dnl-workfront-proof).
+* For more information, see [Enabling the [!DNL Basecamp] Integration with [!DNL Workfront Proof]](#enabling-the-basecamp-integration-with-workfront-proof).
 * Configure [!DNL Basecamp] in [Personal settings](https://support.workfront.com/hc/en-us/sections/115000921168-Personal-settings): This enables proof creators and owners to connect to their personal [!DNL Basecamp] account and to authorize [!DNL Workfront Proof] access. For more information, see [Configuring Personal Settings](#configuring-personal-settings).
 
 You can integrate [!DNL Workfront] with either [!DNL Basecamp] or [!DNL Basecamp Classic]. Each version of [!DNL Basecamp] uses a different API and, therefore, requires different configuration procedures.
 
-For information on configuring [!DNL Basecamp Classic], see [Enabling the [!DNL Basecamp] Integration with [!DNL Workfront Proof]](#enabling-the-dnl-basecamp-integration-with-dnl-workfront-proof) in this article.
+For information on configuring [!DNL Basecamp Classic], see [Enabling the [!DNL Basecamp] Integration with [!DNL Workfront Proof]](#enabling-the-basecamp-integration-with-workfront-proof) in this article.
 
 For information on configuring [!DNL Basecamp], see [Integrate [!DNL Workfront Proof] with [!DNL Basecamp]](../../../workfront-proof/wp-integrations/basecamp/integrate-workfront-proof-with-basecamp.md).
 
@@ -76,8 +76,8 @@ After you set up [Account settings](https://support.workfront.com/hc/en-us/secti
 >
 >Completing these steps is easiest if you have your [!DNL Basecamp] session open in one browser window and your [!DNL Workfront Proof] session open in another window.
 
-* [Retrieving Your [!DNL Basecamp] API Token](#retrieving-your-dnl-basecamp-api-token)
-* [Adding Your [!DNL Basecamp] API token to Your Personal Settings](#adding-your-dnl-basecamp-api-token-to-your-personal-settings)
+* [Retrieving Your [!DNL Basecamp] API Token](#retrieving-your-basecamp-api-token)
+* [Adding Your [!DNL Basecamp] API token to Your Personal Settings](#adding-your-basecamp-api-token-to-your-personal-settings)
 
 ### Retrieving Your [!DNL Basecamp] API Token 
 
@@ -101,10 +101,10 @@ To retrieve your [!DNL Basecamp] API token:
 To paste the [!DNL Basecamp] API token into your [!DNL Workfront Proof] [Personal settings](https://support.workfront.com/hc/en-us/sections/115000921168-Personal-settings):
 
 1. Go to the [[!UICONTROL Integrations] - User Setup](../../../workfront-proof/wp-getstarted/personal-settings/integrations-user-setup.md) in your [Personal settings](https://support.workfront.com/hc/en-us/sections/115000921168-Personal-settings) (1).\
-   An administrator must first enable the [!DNL Basecamp Classic] integration in order for you enable your personal settings. For information on setting up the integration, see [Enabling the [!DNL Basecamp] Integration with [!DNL Workfront Proof]](#enabling-the-dnl-basecamp-integration-with-dnl-workfront-proof) in this article.
+   An administrator must first enable the [!DNL Basecamp Classic] integration in order for you enable your personal settings. For information on setting up the integration, see [Enabling the [!DNL Basecamp] Integration with [!DNL Workfront Proof]](#enabling-the-basecamp-integration-with-workfront-proof) in this article.
 
 1. In the [!DNL Basecamp] API token box (2), paste the token that you just copied from your [!DNL Basecamp] [!UICONTROL My Info] page into the field (3).\
-   For information on copying your [!DNL Basecamp] API token, see [Retrieving Your [!DNL Basecamp] API Token](#retrieving-your-dnl-basecamp-api-token) in this article.
+   For information on copying your [!DNL Basecamp] API token, see [Retrieving Your [!DNL Basecamp] API Token](#retrieving-your-basecamp-api-token) in this article.
 
 1. Click **[!UICONTROL Save]** (4).
 

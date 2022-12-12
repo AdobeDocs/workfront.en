@@ -103,7 +103,19 @@ The following table outlines major features of boards along with their current r
    <td>Partially released</td>
   </tr>
   <tr>
+   <td>Use a card counter on columns</td>
+   <td>Partially released</td>
+  </tr> 
+  <tr>
    <td>Import subtasks as checklist items on cards</td>
+   <td>Partially released (in Preview only)</td>
+  </tr>
+  <tr>
+   <td>Map card due date to task planned completion date</td>
+   <td>Partially released (in Preview only)</td>
+  </tr>
+  <tr>
+   <td>Create iterations</td>
    <td>Planned</td>
   </tr>
  </tbody> 
