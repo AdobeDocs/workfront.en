@@ -10,7 +10,7 @@ exl-id: a70ac760-f4ba-4b01-9cd0-275e86236758
 
 >[!NOTE]
 >
-><span class="preview">The information in this article is available only in the Preview environment when you participate in the [!UICONTROL Campaigns] beta program. The functionality described here might not be fully available yet. For more information about current available features and how to enroll, see  [Campaigns beta](../../product-announcements/betas/campaign-object-beta.md).</span>
+><span class="preview">The information in this article is available only in the Preview environment when you participate in the Campaigns beta program. The functionality described here might not be fully available yet. For more information about current available features and how to enroll, see  [Campaigns beta](../../product-announcements/betas/campaign-object-beta.md).</span>
 
 You can associate other objects with campaigns to indicate that multiple work endeavors contribute to a larger effort. For this purpose, you can associate projects with campaigns.
 
@@ -24,8 +24,8 @@ You must have the following access to perform the steps in this article:
 
 | Requirements |  |
 |------------------------------|------------------------------|
-| Adobe Workfront plan* | Any |
-| Adobe Workfront license* | Request or higher |
+| [!DNL Adobe Workfront] plan* | Any |
+| [!DNL Adobe Workfront] license* | Request or higher |
 | Access level configurations* | View access to Projects |
 | Object permissions | View permissions to projects |
 
@@ -62,20 +62,20 @@ Before you begin you must have the following:
 1. Click the name of a campaign to open it.
 
    The [!UICONTROL Projects] section should open by default.
-1. Click [!UICONTROL **[!UICONTROL New Project]**], then click one of the following options:
+1. Click **[!UICONTROL New Project]**, then click one of the following options:
 
    1. [!UICONTROL **[!UICONTROL Existing Project]**] to add an existing project, then do the following:
 
-      1. (Optional) Click the [!UICONTROL **[!UICONTROL search]**] icon ![](assets/search-icon.png) to type a keyword and find a particular project.
+      1. (Optional) Click the **[!UICONTROL search**] icon ![](assets/search-icon.png) to type a keyword and find a particular project.
 
-      1. (Optional) Click the [!UICONTROL **[!UICONTROL Filter]**], [!UICONTROL **[!UICONTROL View]**], or [!UICONTROL **[!UICONTROL Grouping]**] icons to modify the list of projects in the list.
-      1. Select the projects that you want to add to the campaign, then click [!UICONTROL **Add**].
+      1. (Optional) Click the **[!UICONTROL Filter]**, **[!UICONTROL View]**, or **[!UICONTROL Grouping]** icons to modify the list of projects in the list.
+      1. Select the projects that you want to add to the campaign, then click **[!UICONTROL Add]**.
 
          The projects are added to the [!UICONTROL Projects] section of the
 campaign.
-   1. **New Project** to create a project from scratch. For more information, see [Create a project](../../manage-work/projects/create-projects/create-project.md).
+   1. **[!UICONTROL New Project]** to create a project from scratch. For more information, see [Create a project](../../manage-work/projects/create-projects/create-project.md).
 
-   1. **New Project from Template** to create a project from an existing template. For more information, see [Create project from template](../../manage-work/projects/create-projects/create-project-from-template.md).
+   1. **[!UICONTROL New Project from Template]** to create a project from an existing template. For more information, see [Create project from template](../../manage-work/projects/create-projects/create-project-from-template.md).
 
    ![](assets/new-project-drop-down-options-in-campaign.png)
 The projects are added to the campaign.

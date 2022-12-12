@@ -10,9 +10,9 @@ exl-id: 08853e63-2d6a-4f4d-a7f0-34910ea390a4
 
 >[!NOTE]
 >
-><span class="preview">The information in this article is available only in the Preview environment when you participate in the [!UICONTROL Campaigns] beta program. The functionality described here might not be fully available yet. For more information about current available features and how to enroll, see  [Campaigns beta](../../product-announcements/betas/campaign-object-beta.md).</span>
+><span class="preview">The information in this article is available only in the Preview environment when you participate in the Campaigns beta program. The functionality described here might not be fully available yet. For more information about current available features and how to enroll, see  [Campaigns beta](../../product-announcements/betas/campaign-object-beta.md).</span>
 
-A campaign is a new object in [!DNL Adobe Workfront] that allows you to organize work across multiple projects. A campaign is a larger work object than projects, similar but not identical to portfolios or programs.  A campaign can be  associated with multiple projects that may or may not belong to different portfolios or programs.
+A campaign is a new object in [!DNL Adobe Workfront] that allows you to organize work across multiple projects. A campaign is a larger work object than projects, similar but not identical to portfolios or programs. A campaign can be  associated with multiple projects that may or may not belong to different portfolios or programs.
 
 ## Access requirements
 
@@ -29,7 +29,7 @@ For information about modifying access levels, see [Create or modify custom acce
 
 <!--
 When the access, permissions will be implemented for above, replace that *sentence under the table with this; 
-*To find out what plan, license type, or access you have, contact your Workfront administrator.
+*To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
 -->
 
 ## Prerequisites
@@ -40,7 +40,7 @@ Before you begin, you must have the following:
 
 ## Create a campaign
 
-1. Click the [!UICONTROL **Main Menu**] icon ![](assets/main-menu-icon.png) in the upper-right corner of Workfront, then click [!UICONTROL **Campaigns**].
+1. Click the [!UICONTROL **Main Menu**] icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Workfront], then click [!UICONTROL **Campaigns**].
 
    A list of all campaigns in the system displays.
 1. Click [!UICONTROL **New Campaign**].
@@ -50,8 +50,8 @@ Before you begin, you must have the following:
    * [!UICONTROL **Description**]: Add additional information about the campaign.
    * [!UICONTROL **Campaign Owner**]: By default, the campaign owner is the user who created the campaign. When you replace the original owner of the campaign with another user, the user you specify is automatically given permissions to edit the campaign. The user who is designated as the Campaign Owner must be a [!DNL Workfront] active user.
    * [!UICONTROL **Entry Date**]: This is the date when the campaign was created. You cannot edit the Entry Date.
-   * [!UICONTROL **[!UICONTROL Last Updated By]**]: This is the name of the user who updated the campaign last. You cannot edit the [!UICONTROL Last Updated By] field.
-   * [!UICONTROL **[!UICONTROL Entered By]**]: This is the name of the user who created the campaign. You cannot edit the [!UICONTROL Entered By] field.
+   * [!UICONTROL **Last Updated By**]: This is the name of the user who updated the campaign last. You cannot edit the [!UICONTROL Last Updated By] field.
+   * [!UICONTROL **Entered By**]: This is the name of the user who created the campaign. You cannot edit the [!UICONTROL Entered By] field.
 
    ![](assets/campaign-details-page-with-description.png)
 

@@ -24,7 +24,7 @@ For general information about delegating work, see [Delegate work overview](../.
 
 >[!IMPORTANT]
 >
->* The users that you select as delegates receive the same  permissions as your permissions on the tasks and issues you delegate to them.
+>* The users that you select as delegates receive the same permissions as your permissions on the tasks and issues you delegate to them.
 >* The permissions must work within their access levels, and sometimes their access levels might be lower than yours.
 >
 >   
@@ -43,11 +43,11 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
    <td> <p>Review or higher</p>
 
 >[!NOTE]
@@ -90,11 +90,11 @@ For general information about delegating tasks and issues, see [Delegate tasks a
 
 To delegate your tasks and issues to others:
 
-1. Go to the [!UICONTROL **[!UICONTROL Home]**] area, then click [!UICONTROL **[!UICONTROL Delegate]**] at the top of the [!UICONTROL **Work List**].
+1. Go to the [!UICONTROL **Home**] area, then click [!UICONTROL **Delegate**] at the top of the [!UICONTROL **Work List**].
 
    ![](assets/delegate-button-in-home.png)
 
-1. In the [!UICONTROL **[!UICONTROL Delegate tasks and issues]**] tab, update the following:
+1. In the [!UICONTROL **Delegate tasks and issues**] tab, update the following:
 
    * [!UICONTROL **Delegate your tasks and issues to**]: Start typing the name of a user that you want your tasks and issues to be delegated to, then select it when it displays in the list. You can only select one user.\
 
@@ -129,7 +129,7 @@ To delegate your tasks and issues to others:
 
    * You receive a message in the upper-right corner of the screen to confirm that you have enabled the delegation of your work to another user. The name of the delegate user displays in the confirmation message.
 
-   * An indication that your tasks and issues are delegated to other users displays in most areas where you can see assignments in Workfront. For more information about what areas do not include delegates' names, see [Delegate task and issue overview](delegate-work-overview.md).
+   * An indication that your tasks and issues are delegated to other users displays in most areas where you can see assignments in [!DNL Workfront]. For more information about what areas do not include delegates' names, see [Delegate task and issue overview](delegate-work-overview.md).
 
    * The [!UICONTROL **Delegate**] button in the [!UICONTROL Home] area changes to [!UICONTROL **Edit delegation**] to indicate that there is a delegation in place.
    <!--
@@ -156,7 +156,7 @@ You can let a delegation expire, if you selected an End Date, or you can manuall
 1. Go to the [!UICONTROL Home] area, then click [!UICONTROL Edit delegation] in the upper-right corner of the Work List.
 1. In the [!UICONTROL Delegate tasks and issues] tab, do one of the following:
    * Modify the [!UICONTROL **Start date**] or the [!UICONTROL **End date**]
-   * Click [!UICONTROL **[!UICONTROL Stop delegation]**]
+   * Click [!UICONTROL **Stop delegation**]
 
    >[!TIP]
    >
@@ -164,11 +164,11 @@ You can let a delegation expire, if you selected an End Date, or you can manuall
 
    ![](assets/stop-delegation-screen-in-home.png)
 
-1. (Conditional) click [!UICONTROL **[!UICONTROL Save]**] to save the new delegation dates
+1. (Conditional) click [!UICONTROL **Save**] to save the new delegation dates
 
    Or
 
-   Click [!UICONTROL **[!UICONTROL Stop delegation]**] in the confirmation box to confirm stopping the delegation.
+   Click [!UICONTROL **Stop delegation**] in the confirmation box to confirm stopping the delegation.
 
    The delegation either updated the dates or it stopped and the delegated users have been removed from your tasks and issues. Their permissions to the tasks and issues remain in place.
 
@@ -214,11 +214,11 @@ If a task or an issue is delegated and the [!UICONTROL Delegations] subtab is em
 
 >[!TIP]
 >
->The Planned or Actual Hours for delegated tasks and issues are not taken into account in resource management tools, like the [!DNL Workload Balancer] or the [!DNL Resource] Planner for the delegated users. The hours remain associated only with the assigned user.
+>The Planned or Actual Hours for delegated tasks and issues are not taken into account in resource management tools, like the [!DNL Workload Balancer] or the [!DNL Resource Planner] for the delegated users. The hours remain associated only with the assigned user.
 
 ### Locate delegated work in [!UICONTROL Home]
 
-1. Go to the [!UICONTROL **[!UICONTROL Home]**] area, then click the filter drop-down menu and select one or more of the following options:
+1. Go to the [!UICONTROL **Home**] area, then click the filter drop-down menu and select one or more of the following options:
    * [!UICONTROL **Delegated**]: to view tasks and issues delegated to you or by you.
    * [!UICONTROL **Delegated to me**]: to view tasks and issues delegated to you by another user.
    * [!UICONTROL **Delegated by me**]: to view tasks and issues delegated by you to other users.
@@ -231,10 +231,10 @@ If a task or an issue is delegated and the [!UICONTROL Delegations] subtab is em
    * [!UICONTROL Commit Date]
    * [!UICONTROL Project]
    * [!UICONTROL My Priority]
-1. Expand the groupings in the [!UICONTROL **[!UICONTROL Work List]**] to view delegated work items. The following scenarios exist:
-   * For items that you delegated to others, the delegate's name displays in the [!UICONTROL **[!UICONTROL Work List]**] as well as the [!UICONTROL **[!UICONTROL Assignments and delegations]**] field on the right.
+1. Expand the groupings in the [!UICONTROL **Work List**] to view delegated work items. The following scenarios exist:
+   * For items that you delegated to others, the delegate's name displays in the [!UICONTROL **Work List**] as well as the [!UICONTROL **Assignments and delegations**] field on the right.
 
-   * For items delegated to you, the assignee's name displays in the [!UICONTROL **[!UICONTROL Work List]**] as well as the **[!UICONTROL Assignments and delegations]** field on the right.
+   * For items delegated to you, the assignee's name displays in the [!UICONTROL **Work List**] as well as the **[!UICONTROL Assignments and delegations]** field on the right.
 
    >[!TIP]
    >

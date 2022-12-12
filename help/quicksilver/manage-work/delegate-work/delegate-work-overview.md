@@ -13,7 +13,7 @@ When you plan to be out of the office for a short period of time, you can tempor
 
 For example, if certain tasks are due before you return but you do not have the time to complete them before you leave, you can delegate your tasks to another user so they can complete them on time and not delay the completion of the project until after you return.
 
-You can delegate the following objects in Adobe Workfront:
+You can delegate the following objects in [!DNL Adobe Workfront]:
 
 <!--
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p>Projects where you are designated as the Project Owner (not yet, not for the MVP)</p> </li>
@@ -54,7 +54,7 @@ Consider the following when you delegate tasks and issues:
 * If additional tasks and issues are assigned to you during the time you have selected to have your work delegated to other users, the new assigned work is automatically delegated to the same person for the time frame you selected if the task or issue dates are within that time frame.
 * The same user can be selected as the delegate by multiple users.
 * Delegated tasks and issues do not display in resource management tools, like the [!UICONTROL Workload Balancer] or the [!UICONTROL Resource Planner] for the delegated users.
-* You can view delegated work and delegates names in several areas of Workfront. For more information, see the section "Locate delegated work and delegates information" in the article [Manage task and issue delegation](../delegate-work/how-to-delegate-work.md).
+* You can view delegated work and delegates names in several areas of [!DNL Workfront]. For more information, see the section "Locate delegated work and delegates information" in the article [Manage task and issue delegation](../delegate-work/how-to-delegate-work.md).
 
 
    >[!IMPORTANT]
@@ -75,4 +75,4 @@ Consider the following when you delegate tasks and issues:
 | You can assign or delegate work to users using the | Yes | No |
 | You can assign or delegate work to users in a list, or from a work item's header | Yes | No |
 | Any user can assign or delegate other users with work items that they are not associated with | Based on permissions and access level | No. Only the assignee can delegate their own items. |
-| Planned, Actual, or Budgeted Hours for work assigned or delegated to a user display for that user in [!DNL resource] management tools | Yes | No |
+| Planned, Actual, or Budgeted Hours for work assigned or delegated to a user display for that user in resource management tools | Yes | No |

@@ -10,7 +10,7 @@ exl-id: 01777d5d-6af9-4616-bf2b-a4d12e3332eb
 
 >[!NOTE]
 >
-><span class="preview">The information in this article is available only in the Preview environment when you participate in the [!UICONTROL Campaigns] beta program. The functionality described in the following articles might not be fully available yet. For more information about current available features and how to enroll, see  [Campaigns beta](../../product-announcements/betas/campaign-object-beta.md).</span>
+><span class="preview">The information in this article is available only in the Preview environment when you participate in the Campaigns beta program. The functionality described in the following articles might not be fully available yet. For more information about current available features and how to enroll, see [Campaigns beta](../../product-announcements/betas/campaign-object-beta.md).</span>
 
 You can delete campaigns that are no longer needed.
 
@@ -22,8 +22,8 @@ You must have the following access to perform the steps in this article:
 
 | Requirements |  |
 |--------------------------|-------------------|
-| Adobe Workfront plan* | Any |
-| Adobe Workfront license* | Request or higher |
+| [!DNL Adobe Workfront] plan* | Any |
+| [!DNL Adobe Workfront] license* | Request or higher |
 
 *To find out what plan or license type you have, contact your [!DNL Workfront] administrator.
 
@@ -31,7 +31,7 @@ For information about modifying access levels, see [Create or modify custom acce
 
 <!--
 When the access, permissions will be implemented for above, replace that *sentence under the table with this; 
-*To find out what plan, license type, or access you have, contact your Workfront administrator.
+*To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
 -->
 
 ## Prerequisites
@@ -59,11 +59,11 @@ Before you begin, you must have the following:
 
 ## Delete a campaign
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Workfront, then click **Campaigns**.
+1. Click the [!UICONTROL **Main Menu**] icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Workfront], then click [!UICONTROL **Campaigns**].
 
    A list of all campaigns in the system displays.
 1. (Optional) Click the **[!UICONTROL search]** icon ![](assets/search-icon.png) to quickly search for a campaign using a keyword.
-1. Select a campaign, then click the [!UICONTROL **[!UICONTROL Delete]**] icon at the top of the list
+1. Select a campaign, then click the **[!UICONTROL Delete]** icon at the top of the list
 
    Or
 
