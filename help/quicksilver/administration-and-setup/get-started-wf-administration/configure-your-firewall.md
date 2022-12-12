@@ -22,7 +22,6 @@ exl-id: 264eed40-6d90-498b-83cc-2500c8b19c84
 If your firewall or mail server is configured to allow access to only certain vendors, you must add certain IP addresses to its allowlist. This opens communication between your environment and the Adobe Workfront servers and allows the following processes:
 
 * Sending messages from the Workfront application
-* Using single sign-on (SSO) with Active Directory or Lightweight Directory Access Protocol (LDAP)
 
   >[!NOTE]
   >
