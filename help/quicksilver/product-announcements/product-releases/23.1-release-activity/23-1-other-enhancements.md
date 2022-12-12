@@ -12,6 +12,18 @@ This page describes all other enhancements made with the 23.1 release to the Pre
 
 For a list of all changes available with the 23.1 release, see [23.1 Release overview](/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-release-overview.md).
 
+## Introducing the addition of Illustrator to the Adobe Workfront for design and video plugin 
+
+We're excited to announce the expansion of our Adobe Workfront for InDesign plugin to include Adobe Illustrator. 
+
+The updated plugin, Adobe Workfront for design and video, will now support InDesign, Illustrator, Premiere Pro, and After Effects.  
+
+This plugin allows you to access work item details, collaborate with coworkers in the Updates area, and log time–all without leaving your favorite Creative Cloud application. 
+
+Download [Adobe Workfront for design and video](https://exchange.adobe.com/apps/cc/108938/adobe-workfront-for-design-and-video) in the Marketplace today.
+
+Administrators can also [create a package with the plugins](https://helpx.adobe.com/in/enterprise/using/manage-extensions.html) from the Admin Console and deploy to users either in a managed or self-managed manner. 
+
 ## Enhanced filter experience generally available in Adobe Workfront
 
 An upgrade to the filter experience was released to public beta on project, task, and issue lists in August 2022. Most lists now offer the enhanced filters. (To review all of these lists, see the [23.1 look-and-feel updates release note](/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-look-and-feel-updates.md).)
@@ -48,7 +60,7 @@ This plugin allows you to access work item details, collaborate with coworkers i
 
  Download [Adobe Workfront for design and video](https://exchange.adobe.com/apps/cc/108938/adobe-workfront-for-design-and-video) in the marketplace today. 
 
-Administrators can also create a package with the plugins from the Admin Console and deploy to users either in a managed or self-managed manner.
+Administrators can also [create a package with the plugins](https://helpx.adobe.com/in/enterprise/using/manage-extensions.html) from the Admin Console and deploy to users either in a managed or self-managed manner.
 
 ## How to access Workfront help, for customers on the Adobe Unified Experience
 
