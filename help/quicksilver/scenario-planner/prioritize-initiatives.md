@@ -7,15 +7,15 @@ author: Alina
 feature: Workfront Scenario Planner
 exl-id: 45f019de-b29c-477b-8bd1-f32ef21c1015
 ---
-# Update initiative priorities in the Scenario Planner
+# Update initiative priorities in the [!DNL Scenario Planner]
 
 Prioritizing initiatives is important because initiatives receive job roles and budget resources from the plan in the order they are listed on the plan.
 
 You can prioritize initiatives on a plan that you created or on a plan that someone shared with you.
 
-For information about creating plans, see [Create and edit plans in the Scenario Planner](../scenario-planner/create-and-edit-plans.md).
+For information about creating plans, see [Create and edit plans in the [!DNL Scenario Planner]](../scenario-planner/create-and-edit-plans.md).
 
-For information about creating initiatives, see [Create and edit initiatives in the Scenario Planner](../scenario-planner/create-and-edit-initiatives.md).
+For information about creating initiatives, see [Create and edit initiatives in the [!DNL Scenario Planner]](../scenario-planner/create-and-edit-initiatives.md).
 
 ## Access requirements
 
@@ -24,24 +24,24 @@ For information about creating initiatives, see [Create and edit initiatives in 
  <col> 
  <tbody> 
   <tr> 
-   <td> <p>Adobe Workfront<b> plan*</b> </p> </td> 
-   <td>Business or higher</td> 
+   <td> <p>[!DNL Adobe Workfront]<b> plan*</b> </p> </td> 
+   <td>[!UICONTROL Business] or higher</td> 
   </tr> 
   <tr> 
-   <td> <p>Adobe Workfront<b> license*</b> </p> </td> 
-   <td> <p>Review or higher</p> </td> 
+   <td> <p>[!DNL Adobe Workfront]<b> license*</b> </p> </td> 
+   <td> <p>[!UICONTROL Review] or higher</p> </td> 
   </tr> 
   <tr> 
    <td><b>Product</b> </td> 
-   <td> <p>You must purchase an additional license for the Adobe Workfront Scenario Planner to access functionality described in this article.</p> <p>For information about obtaining the Workfront Scenario Planner, see <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Access needed to use the Scenario Planner</a>. </p> </td> 
+   <td> <p>You must purchase an additional license for the [!DNL Adobe Workfront Scenario Planner] to access functionality described in this article.</p> <p>For information about obtaining the [!DNL Workfront Scenario Planner], see <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Access needed to use the [!DNL Scenario Planner]</a>. </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td><strong>Access level configurations*</strong> </td> 
-   <td> <p>Edit access or higher to the Scenario Planner</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>[!UICONTROL Edit] access or higher to the [!DNL Scenario Planner]</p> <p>Note: If you still don't have access, ask your [!DNL Workfront] administrator if they set additional restrictions in your access level. For information on how a [!DNL Workfront] administrator can change your access level, see <a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><strong>Object permissions</strong> </p> </td> 
-   <td> <p>Manage permissions to a plan</p> <p>For information on requesting additional access to a plan, see <a href="../scenario-planner/request-access-to-plan.md" class="MCXref xref">Request access to a plan in the Scenario Planner</a>.</p> </td> 
+   <td> <p>[!UICONTROL Manage] permissions to a plan</p> <p>For information on requesting additional access to a plan, see <a href="../scenario-planner/request-access-to-plan.md" class="MCXref xref">Request access to a plan in the [!DNL Scenario Planner]</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -54,13 +54,13 @@ We recommend that you place more urgent initiatives at the top of a plan and the
 
 >[!NOTE]
 >
->Workfront allocates plan resources to initiatives in the order they are listed on the plan.&nbsp;
+>[!DNL Workfront] allocates plan resources to initiatives in the order they are listed on the plan. 
 >
 >For example, if the plan has 3 available Engineers and Initiative 1 and Initiative 2 each require 2 Engineers to complete and they are both scheduled for the same time frame, Workfront associates 2 Engineers with Initiative 1 and one remaining available Engineer with Initiative 2. In this case Initiative 2 shows as having a conflict, because it is missing one Engineer. Sometimes, changing the priority of your initiatives is the only way to avoid conflicts on a plan.
 
 To update initiative priority:
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png), then click&nbsp;Scenarios.
+1. Click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png), then click [!UICONTROL Scenarios].
 
    A list of plans displays.
 
@@ -73,14 +73,14 @@ To update initiative priority:
 
      ![](assets/multi-select-initiative-number.png)
 
-   * Click the **Prioritize** box at the bottom of the plan, then choose from the following options:
+   * Click the **[!UICONTROL Prioritize]** box at the bottom of the plan, then choose from the following options:
 
-      * **Top**: Moves the selected initiatives to the top of the initiative list.&nbsp;The selected initiatives are listed first on the plan.
-      * **Bottom**:&nbsp;Moves the selected initiatives to the bottom of the initiative list.&nbsp;The selected initiatives are listed last on the plan.
-      * **Select a number**: Moves the selected initiatives after the initiative you indicate here.
+      * **[!UICONTROL Top]**: Moves the selected initiatives to the top of the initiative list. The selected initiatives are listed first on the plan.
+      * **[!UICONTROL Bottom]**: Moves the selected initiatives to the bottom of the initiative list. The selected initiatives are listed last on the plan.
+      * **[!UICONTROL Select a number]**: Moves the selected initiatives after the initiative you indicate here.
 
         ![](assets/prioritize-initiatives-expanded-highlighted-350x171.png)
 
-     Workfront immediately places the selected initiatives where you indicate and the numbers of all initiatives update accordingly.
+     [!DNL Workfront] immediately places the selected initiatives where you indicate and the numbers of all initiatives update accordingly.
 
-1. Click **Save Plan** to save your changes.
+1. Click **[!UICONTROL Save Plan]** to save your changes.

@@ -229,6 +229,10 @@ You must install the correct plugin for the Adobe Creative Cloud application you
 
 1. From Workfront, click the **[!UICONTROL Main Menu]** icon ![Main Menu](assets/main-menu-icon.png), or (if available), click the **[!UICONTROL Main Menu]** icon in the upper-left corner ![Main Menu](assets/main-menu-icon-left-nav.png), then click **[!UICONTROL Proofing]** to access Workfront Proof.
 
+## Latest DPV Version {#latest-version}
+
+**Latest version**: 2.1.19
+
 <!-- Release -->
 
 <!-- Reports -->
