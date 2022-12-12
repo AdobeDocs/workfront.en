@@ -12,7 +12,7 @@ exl-id: faa55b09-10c3-48e6-8b39-33f9feb0a335
 ---
 # Adobe Workfront user credentials vs. SAML user credentials
 
-This article focuses specifically on Adobe Workfront and SAML and does not cover other SSO authentication methods such as AD and LDAP.
+This article focuses specifically on Adobe Workfront and SAML and does not cover other SSO authentication methods.
 
 In a database, Workfront stores eawch user's email address as their Workfront username, along with their Workfront password. These credentials are replicated in the Preview and Custom Refresh Sandboxes.
 
