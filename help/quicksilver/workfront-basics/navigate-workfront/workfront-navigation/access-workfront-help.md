@@ -5,9 +5,9 @@ description: Workfront offers a wide variety of content to help you find answers
 feature: Get Started with Workfront
 exl-id: 41b81083-771e-46de-85a3-31ed52d29917
 ---
-# Access Adobe Workfront help
+# Access [!DNL Adobe Workfront] help
 
-Workfront offers a wide variety of content to help you find answers to questions you might have concerning functionality within the various products offered by Workfront.
+[!DNL Workfront] offers a wide variety of content to help you find answers to questions you might have concerning functionality within the various products offered by [!DNL Workfront].
 
 ## Access requirements
 
@@ -20,31 +20,31 @@ You must have the following access to perform the steps in this article:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront plan*</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront license*</strong></td> 
-   <td> <p>Request or higher</p> </td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] license*</strong></td> 
+   <td> <p>[!UICONTROL Request] or higher</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan or license type you have, contact your Workfront administrator.
+&#42;To find out what plan or license type you have, contact your [!DNL Workfront] administrator.
 
-## Access the Adobe Workfront documentation on Experience League
+## Access the [!DNL Adobe Workfront] documentation on Experience League
 
-1. Go to the [Adobe Workfront documentation page on Experience League](https://experienceleague.adobe.com/docs/workfront/using/home.html?lang=en).
+1. Go to the [[!DNL Adobe Workfront] documentation page on [!DNL Experience League]](https://experienceleague.adobe.com/docs/workfront/using/home.html?lang=en).
 
-In addition to searching for help documentation, you can also access the following Workfront resources from Experience League:
+In addition to searching for help documentation, you can also access the following [!DNL Workfront] resources from Experience League:
 
-* Workfront Tutorials: For more information, see [Workfront Tutorials](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=en).
+* Workfront Tutorials: For more information, see [[!DNL Workfront] Tutorials](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=en).
 
-* Innovation Lab: For more information, see [The Innovation Lab](https://experienceleaguecommunities.adobe.com/t5/workfront-ideas/idb-p/workfront-ideas).
-* Workfront Community: For more information, see [The Adobe Workfront Community](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront)
+* [!UICONTROL Innovation Lab]: For more information, see [The [!UICONTROL Innovation Lab]](https://experienceleaguecommunities.adobe.com/t5/workfront-ideas/idb-p/workfront-ideas).
+* [!UICONTROL [!DNL Workfront] Community]: For more information, see [The [!UICONTROL [!DNL Adobe Workfront] Community]](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront)
 
-## Access help from inside Workfront
+## Access help from inside [!DNL Workfront]
 
 {{step1-click-main-menu}}
 
-1. Click **Help** ![Help icon](assets/help-icon.png).
+1. Click **[!UICONTROL Help]** ![Help icon](assets/help-icon.png).

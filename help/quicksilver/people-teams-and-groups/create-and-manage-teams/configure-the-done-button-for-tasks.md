@@ -7,16 +7,16 @@ author: Lisa
 feature: People Teams and Groups
 exl-id: 55cc5562-13d5-4089-8937-f33d0cde3cac
 ---
-# Configure the Done button for tasks
+# Configure the [!UICONTROL Done] button for tasks
 
-The Done button can automatically set the status of a task or an issue. By default, Adobe Workfront marks a task as Completed when an assignee clicks Done on their work item.
+The [!UICONTROL Done] button can automatically set the status of a task or an issue. By default, [!UICONTROL Adobe Workfront] marks a task as [!UICONTROL Completed] when an assignee clicks Done on their work item.
 
 ## Overview
 
-Users with certain permissions can configure the Done button to reflect certain statuses in the system. There are two different ways the Done button works for tasks in Workfront:
+Users with certain permissions can configure the [!UICONTROL Done] button to reflect certain statuses in the system. There are two different ways the [!UICONTROL Done] button works for tasks in [!UICONTROL Workfront]:
 
-* If the user has an assigned Home Team, a Workfront administrator or a user with a Plan license can configure the Done button to reflect certain statuses for team members. See [Configure the Done button for a Team](#configure-the-done-button-for-a-team) in this article.
-* If the user does not have a Home Team assigned, the Done button for tasks is tied to a complete status. There are no configuration options available in this scenario. The Done button automatically defaults to this status.
+* If the user has an assigned Home Team, a [!DNL Workfront] administrator or a user with a [!UICONTROL Plan] license can configure the [!UICONTROL Done] button to reflect certain statuses for team members. See [Configure the [!UICONTROL Done] button for a Team](#configure-the-uicontrol-done-button-for-a-team) in this article.
+* If the user does not have a Home Team assigned, the [!UICONTROL Done] button for tasks is tied to a complete status. There are no configuration options available in this scenario. The [!UICONTROL Done] button automatically defaults to this status.
 
 ## Access requirements
 
@@ -29,27 +29,27 @@ You must have the following access to perform the steps in this article:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront plan*</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront license*</strong></td> 
-   <td> <p>Plan </p> </td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] license*</strong></td> 
+   <td> <p>[!UICONTROL Plan] </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan or license type you have, contact your Workfront administrator.
+&#42;To find out what plan or license type you have, contact your [!DNL Workfront] administrator.
 
-## Configure the Done button for a Team {#configure-the-done-button-for-a-team}
+## Configure the [!UICONTROL Done] button for a Team 
 
-You can change which status is applied to the work item with the Done button. You can also set multiple statuses and allow the user to choose which status is appropriate.
+You can change which status is applied to the work item with the [!UICONTROL Done] button. You can also set multiple statuses and allow the user to choose which status is appropriate.
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Teams**.
+1. Click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **[!UICONTROL Teams]**.
 
-1. Click the **Switch team** icon, then either select a new team from the drop-down menu or search for a team in the search bar.
-1. Click the **More** menu, then click **Edit**.
-1. Find the **Done Button** section at the bottom of the **Team Settings** page.
+1. Click the **[!UICONTROL Switch team]** icon, then either select a new team from the drop-down menu or search for a team in the search bar.
+1. Click the **[!UICONTROL More]** menu, then click **[!UICONTROL Edit]**.
+1. Find the **[!UICONTROL Done Button]** section at the bottom of the **[!UICONTROL Team Settings]** page.
 
 1. Select one status or more than one status for each work item type.
 
@@ -57,40 +57,40 @@ You can change which status is applied to the work item with the Done button. Yo
    >
    >Consider the following when selecting statuses for tasks or issues:
    >
-   >* When you select one status for each type of work item, the task or issue status is set to that status when a user clicks Done on their item. If you set multiple statuses for each type of work item, a drop-down menu is added to the Done button and the user must pick a status to change the status on the work item.  
-   >* You can associate only system-level statuses with the Done button. You cannot associate Group-specific statuses with work item statuses.
-   >* When a user assigned to the item places the item in the status associated with the Done button, the item displays as Done for that user regardless of whether the status you select is a Completed or Closed status or a working status. 
+   >* When you select one status for each type of work item, the task or issue status is set to that status when a user clicks [!UICONTROL Done] on their item. If you set multiple statuses for each type of work item, a drop-down menu is added to the [!UICONTROL Done] button and the user must pick a status to change the status on the work item.  
+   >* You can associate only system-level statuses with the [!UICONTROL Done] button. You cannot associate Group-specific statuses with work item statuses.
+   >* When a user assigned to the item places the item in the status associated with the [!UICONTROL Done] button, the item displays as [!UICONTROL Done] for that user regardless of whether the status you select is a [!UICONTROL Completed] or [!UICONTROL Closed] status or a working status. 
    >   
    >   
-   >  For example, associating the Done button with In Progress causes the work item to display as Done for the user who changes the status from New to In progress. 
+   >  For example, associating the [!UICONTROL Done] button with [!UICONTROL In Progress] causes the work item to display as [!UICONTROL Done] for the user who changes the status from [!UICONTROL New] to [!UICONTROL In progress]. 
    >   
    >* Issue types are customizable and they might have different names than listed below in your environment.  
    >  Following are the default tasks and issue types:
    >     
-   >   * Tasks
-   >   * Issue
-   >   * Request
-   >   * Change Order
-   >   * Bug Report
+   >   * [!UICONTROL Tasks]
+   >   * [!UICONTROL Issue]
+   >   * [!UICONTROL Request]
+   >   * [!UICONTROL Change Order]
+   >   * [!UICONTROL Bug Report]
 
-   If the task or issue is assigned to multiple users, you see a "Done with my part" option in the drop-down menu, in addition to the multiple statuses chosen for your team.  
+   If the task or issue is assigned to multiple users, you see a "[!UICONTROL Done with my part]" option in the drop-down menu, in addition to the multiple statuses chosen for your team.  
 
-1. Click **Save Changes**.
+1. Click **[!UICONTROL Save Changes]**.
 
 ## Associate users with a Home Team
 
-To make the changes to the Done button functionality visible to users, you can make the team whose settings you changed the Home Team of the users.
+To make the changes to the [!UICONTROL Done] button functionality visible to users, you can make the team whose settings you changed the Home Team of the users.
 
 To associate users with a Home Team:
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront.
+1. Click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe Workfront].
 
-1. Click **Users**, then select the user or users you want to associate with a Home Team.
-1. Click the **More** menu, then select **Edit**.  
+1. Click **[!UICONTROL Users]**, then select the user or users you want to associate with a Home Team.
+1. Click the **[!UICONTROL More]** menu, then select **[!UICONTROL Edit]**.  
    ![](assets/user-settings-nwe-350x291.png)
 
-1. In the **Organization** section, select&nbsp;the **Home Team** field. Start typing the name of the team whose settings you want to associate with the users. Click the name of the team when you see it in the list.
+1. In the **[!UICONTROL Organization]** section, select the **[!UICONTROL Home Team]** field. Start typing the name of the team whose settings you want to associate with the users. Click the name of the team when you see it in the list.
 
-1. Click **Save Changes**.  
+1. Click **[!UICONTROL Save Changes]**.  
    The users you selected are now associated with a Home Team. 
-   Any team settings, including the statuses associated with the Done button are now visible to these users.
+   Any team settings, including the statuses associated with the [!UICONTROL Done] button are now visible to these users.
