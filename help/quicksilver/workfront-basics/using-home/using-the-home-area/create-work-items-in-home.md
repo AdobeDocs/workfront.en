@@ -10,10 +10,10 @@ exl-id: 9db6e509-ea6a-493a-9d86-21a163da1915
 # Create work items from the Home area
 
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:&nbsp;From&nbsp;Courtney: Need to rename)</p>
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: From Courtney: Need to rename)</p>
 -->
 
-You can create work items from the Home area. You can create personal tasks for yourself, request work from other users, or add tasks to specific projects.
+You can create work items from the [!UICONTROL Home] area. You can create personal tasks for yourself, request work from other users, or add tasks to specific projects.
 
 ## Access requirements
 
@@ -24,83 +24,83 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront plan*</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront plan*]</strong></td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront license*</strong></td> 
-   <td> <p>Work or higher</p> </td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] license*</strong></td> 
+   <td> <p>[!UICONTROL Work] or higher</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Access level configurations*</strong></td> 
-   <td> <p>Worker</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>[!UICONTROL Worker]</p> <p>Note: If you still don't have access, ask your [!DNL Workfront] administrator if they set additional restrictions in your access level. For information on how a [!DNL Workfront] administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Object permissions</strong></td> 
-   <td> <p>Edit access or higher on tasks</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+   <td> <p>[!UICONTROL Edit] access or higher on tasks</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+&#42;To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
 
 ## Create a personal task
 
-You can create a personal task that is available only to you in the Home area:
+You can create a personal task that is available only to you in the [!UICONTROL Home] area:
 
-1. Click the **Main Menu** ![](assets/main-menu-icon.png) in the upper-right corner, then click&nbsp;**Home**. 
-1. Click **New Task** >&nbsp;**Personal**.
+1. Click the **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
+1. Click **[!UICONTROL New Task]** > **[!UICONTROL Personal]**.
 
    ![](assets/creating-work-items-new-task-personal-nwe-350x228.png)
 
-1. In the **Name** field, specify a name for the task.
-1. (Optional) Click&nbsp;**Select date**, then select the&nbsp;date when the task is due. This sets the Planned Completion Date for the task.  
-   You can change the **Planned Completion Date** by clicking on the date in the right panel or editing the **This will be done by** date directly in the task.
+1. In the **[!UICONTROL Name]** field, specify a name for the task.
+1. (Optional) Click **[!UICONTROL Select date]**, then select the date when the task is due. This sets the [!UICONTROL Planned Completion Date] for the task.\
+   You can change the **[!UICONTROL Planned Completion Date]** by clicking on the date in the right panel or editing the **[!UICONTROL This will be done by]** date directly in the task.
 
-1. Click **Create**&nbsp;to save the task.  
-   The task is assigned to you and is available in the Home area.
+1. Click **[!UICONTROL Create]** to save the task.\
+   The task is assigned to you and is available in the [!UICONTROL Home] area.
 
 >[!NOTE]
 >
->When you create a personal task, it is stored in a "hidden" project that is not searchable in Workfront. You can only access this project when you delete a task on it (from the task itself, not from the Home area).  
->![Project for personal tasks](assets/createworkitems-personal--project-350x105.png)>
+>When you create a personal task, it is stored in a "hidden" project that is not searchable in [!UICONTROL Workfront]. You can only access this project when you delete a task on it (from the task itself, not from the [!UICONTROL Home] area).\
+>![[!UICONTROL Project for personal tasks]](assets/createworkitems-personal--project-350x105.png)>
 
 ## Request work from another user
 
-You can request work from another user directly from the Home area. When you request work from another user as described in this section, the task is displayed as a request in the user's Home area until the user clicks **Work On It**.
+You can request work from another user directly from the Home area. When you request work from another user as described in this section, the task is displayed as a request in the user's Home area until the user clicks **[!UICONTROL Work On It]**.
 
-To request work from another user from the Home area:
+To request work from another user from the [!UICONTROL Home] area:
 
-1. Click the **Main Menu** ![](assets/main-menu-icon.png) in the upper-right corner, then click&nbsp;**Home**. 
-1. Click **New Task**, then select **Request**.
+1. Click the **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
+1. Click **[!UICONTROL New Task]**, then select **[!UICONTROL Request]**.
 
    ![](assets/creating-work-items-new-task-request-nwe-350x283.png)
 
-1. In the **Name** field, specify a name for the task.&nbsp;
-1. In the **Assign to** field, begin typing the name of the user,&nbsp;team, or role who you want to assign, then click the name when it appears in the drop-down menu.
-1. In the Add As drop-down menu, select whether to add a task or issue.&nbsp;
-1. Click&nbsp;**Select date**, then select the&nbsp;date and time when the task is due.
-1. Click **Create** to save the task.  
-   The task is displayed as a work request in the Home area of the user you designated.
+1. In the **[!UICONTROL Name]** field, specify a name for the task. 
+1. In the **[!UICONTROL Assign to]** field, begin typing the name of the user, team, or role who you want to assign, then click the name when it appears in the drop-down menu.
+1. In the [!UICONTROL Add As] drop-down menu, select whether to add a task or issue. 
+1. Click **[!UICONTROL Select date]**, then select the date and time when the task is due.
+1. Click **[!UICONTROL Create]** to save the task.\
+   The task is displayed as a work request in the [!UICONTROL Home] area of the user you designated.
 
 ## Add a task or issue to a project
 
 You can add a task or issue to an existing project directly from the Home area:
 
-1. Click the **Main Menu** ![](assets/main-menu-icon.png) in the upper-right corner, then click&nbsp;**Home**. 
-1. Click **New Task**, then select **Project Task**.
+1. Click the **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in the upper-right corner, then click **Home**.
+1. Click **[!UICONTROL New Task]**, then select **[!UICONTROL Project Task]**.
 
    ![](assets/creating-work-items-new-project-task-nwe-350x358.png)
 
-1. In the **Name** field, specify a name for the task or issue.
-1. In the **Assign to** field, begin typing the name of the user,&nbsp;team, or role who you want to assign, then click the name when it appears in the drop-down menu.
+1. In the **[!UICONTROL Name]** field, specify a name for the task or issue.
+1. In the **[!UICONTROL Assign to]** field, begin typing the name of the user, team, or role who you want to assign, then click the name when it appears in the drop-down menu.
 1. Begin typing the name of the project where you want to create the task or issue, then click the name when it appears in the drop-down menu.
 
    >[!IMPORTANT]
    >
-   >The task or issue appears on the Work List only when the project Status is set to Current.
+   >The task or issue appears on the [!UICONTROL Work List] only when the project [!UICONTROL Status] is set to [!UICONTROL Current].
 
-1. (Conditional) To create an issue, select **Issue** from the **Add As** drop-down menu. By default, **Task** is selected.
+1. (Conditional) To create an issue, select **[!UICONTROL Issue]** from the **[!UICONTROL Add As]** drop-down menu. By default, **[!UICONTROL Task]** is selected.
 
-1. Click&nbsp;**Select date**, then select the&nbsp;date and time when the task is due.
-1. Click **Create** to save the task.
+1. Click **[!UICONTROL Select date]**, then select the date and time when the task is due.
+1. Click **[!UICONTROL Create]** to save the task.

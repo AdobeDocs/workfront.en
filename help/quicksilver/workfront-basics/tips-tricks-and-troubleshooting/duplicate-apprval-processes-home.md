@@ -7,11 +7,11 @@ description: You see more than one of the same approval in your Home Work List.
 feature: Get Started with Workfront
 exl-id: 01e22849-2601-4c2a-b1cf-193a484bfc0b
 ---
-# Duplicate approval processes showing in the Home Work List
+# Duplicate approval processes showing in the [!UICONTROL Home Work List]
 
 ## Problem
 
-You see more than one of the same approval in your Home Work List.
+You see more than one of the same approval in your [!UICONTROL Home Work List].
 
 ## Cause
 
