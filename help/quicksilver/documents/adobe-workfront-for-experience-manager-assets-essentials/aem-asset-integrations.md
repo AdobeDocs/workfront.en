@@ -28,7 +28,7 @@ With the native Experience Manager integration, you can
 
 ## Prerequisites
 
-* Workfront must be in the Admin Console with an assigned Organization ID.
+* Workfront must be in an Admin Console with an assigned Organization ID.
 * Workfront and Experience Manger Assets or Assets Essentials must be assigned as a product to the user configuring the integration.
 
 
