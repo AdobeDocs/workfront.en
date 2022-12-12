@@ -135,7 +135,7 @@ When you import a project into a plan some project information is also imported 
 >  <!--
 >  <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this might change if projects will ever affect initiatives automatically) </p>>
 >  -->
->* Changes to the initiative affect the information in the [!DNL Scenario Planner] area on the project only when you publish the initiative to the corresponding project. Otherwise, they do not affect the [!UICONTROL Planned Hours] information for the tasks and issues of the project. 
+> * Changes to the initiative affect the information in the [!DNL Scenario Planner] area on the project only when you publish the initiative to the corresponding project. Otherwise, they do not affect the [!UICONTROL Planned Hours] information for the tasks and issues of the project. 
 >
 >  For information about how publishing initiatives affects the linked projects, see  [Update or create projects by publishing initiatives in the Scenario Planner](../scenario-planner/publish-scenarios-update-projects.md). 
 >

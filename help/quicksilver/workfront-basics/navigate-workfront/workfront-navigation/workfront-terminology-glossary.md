@@ -2249,7 +2249,7 @@ The following table is a list of commonly used terms in Adobe Workfront:
   </tr> 
   <tr> 
    <td>[!UICONTROL Work management mix]</td> 
-   <td>A [!UICONTROL Work Performance Indicator](WPI) of the proportion of work allocated to run your business versus change your business. The Mix WPI helps you understand, at an organizational level, whether your strategy has any real work allocation applied to it.</td> 
+   <td>A [!UICONTROL Work Performance Indicator] (WPI) of the proportion of work allocated to run your business versus change your business. The Mix WPI helps you understand, at an organizational level, whether your strategy has any real work allocation applied to it.</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Work Management Resource]</td> 

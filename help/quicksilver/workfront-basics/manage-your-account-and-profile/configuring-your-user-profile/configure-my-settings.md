@@ -39,7 +39,7 @@ The following grid shows what sections in the [!UICONTROL My Settings] area are 
  <col> 
  <thead> 
   <tr> 
-   <th><strong[!UICONTROL >My Settings] Areas</strong> </th> 
+   <th><strong>[!UICONTROL My Settings] Areas</strong> </th> 
    <th><strong>Visible or Editable</strong> </th> 
    <th><strong>[!UICONTROL System Administrator]</strong> </th> 
    <th><strong>[!UICONTROL Planner]</strong> </th> 
