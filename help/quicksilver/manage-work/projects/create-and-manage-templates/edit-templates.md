@@ -581,7 +581,10 @@ By editing issue settings, you can prevent users from adding issues inline in th
       * [Tasks Settings](#task-settings) 
       * [Issue Settings](#issue-settings) 
       * [Access](#access-preview) 
-      
+   
+</div>
+
+<div span="preview">
 
 #### Template Name{#template-name}
 
@@ -592,6 +595,10 @@ By editing issue settings, you can prevent users from adding issues inline in th
       Or
 
       Click **Save**.
+
+</div>
+
+<div span="preview">
 
 #### Overview {#overview-preview}
 
@@ -690,6 +697,10 @@ By editing issue settings, you can prevent users from adding issues inline in th
 
       Click **Save**.
 
+</div>
+
+<div span="preview">
+
 #### Finance {#finance-preview}
 
    1. Begin editing your template as described above.
@@ -746,6 +757,9 @@ By editing issue settings, you can prevent users from adding issues inline in th
 
       Click **Save**.
 
+</div>
+
+<div span="preview">
 
 #### Custom Forms {#custom-forms-preview}
 
@@ -773,6 +787,10 @@ By editing issue settings, you can prevent users from adding issues inline in th
       Or
 
       Click **Save**.
+
+</div>
+
+<div span="preview">
 
 #### Project Settings {#project-settings}
 
@@ -902,6 +920,10 @@ By editing issue settings, you can prevent users from adding issues inline in th
       Or
    1. Click **Save**.
 
+</div>
+
+<div span="preview">
+
 #### Task Settings {#task-settings}
 
    You can define the defaults that will be associated with all the new tasks when you add them to a project that is created from the template.
@@ -932,6 +954,10 @@ By editing issue settings, you can prevent users from adding issues inline in th
 
       Click **Save**.
 
+</div>
+
+<div span="preview">
+
 ### Issue Settings {#issue-settings}
 
    By editing issue settings, you can prevent users from adding issues inline in the future project created from the template.
@@ -961,6 +987,9 @@ By editing issue settings, you can prevent users from adding issues inline in th
 
       Click **Save**.
 
+</div>
+
+<div span="preview">
 
 #### Access {#access-preview}
 
