@@ -22,16 +22,16 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>Business or higher</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
+   <td> <p>[!UICONTROL Business] or higher</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Plan </p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
+   <td> <p>[!UICONTROL Plan] </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Portfolios</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>[!UICONTROL Edit] access to Portfolios</p> <p>Note: If you still don't have access, ask your [!DNL Workfront] administrator if they set additional restrictions in your access level. For information on how a [!DNL Workfront] administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -40,58 +40,58 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+&#42;To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
 
 ## Create a portfolio
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront.
+1. Click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront.
 
-1. Click **Portfolios**. 
-1. Click **New Portfolio**.
-1. Replace **Untitled Portfolio** with the name you want for the portfolio.
+1. Click **[!UICONTROL Portfolios]**.
+1. Click **[!UICONTROL New Portfolio]**.
+1. Replace **[!UICONTROL Untitled Portfolio]** with the name you want for the portfolio.
 
    The name can contain up to 255 characters.
 
-1. (Optional) Click the name under **Portfolio Manager** in the header at the top of the page to assign a different manager for the portfolio.
+1. (Optional) Click the name under **[!UICONTROL Portfolio Manager]** in the header at the top of the page to assign a different manager for the portfolio.
 
    ![](assets/portfolio-manager-name-350x51.jpg)
 
    As the creator of the portfolio, you are assigned as the portfolio manager by default.
 
-1. Click **Portfolio Details** in the left panel.
-1. In the **Overview** area, change any of the following information:
+1. Click **[!UICONTROL Portfolio Details]** in the left panel.
+1. In the **[!UICONTROL Overview]** area, change any of the following information:
 
    <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">Description</td> 
+      <td role="rowheader">[!UICONTROL Description]</td> 
       <td> <p>Type a description for the Portfolio to indicate what is unique about it. </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Portfolio Manager</td> 
-      <td> <p>Start typing the name of a user that you want to indicate as the portfolio manager, then select it when it appears in the list. This is the same as the Portfolio Owner. This is the person who can oversee the work defined in the projects of the portfolio and can approve the Business Case.</p> <p>Important: When you designate someone as the Portfolio Manager, they automatically gain&nbsp;Manage permissions to the portfolio, the programs and the projects in the portfolio. </p> <p>Tip: You can also update the Portfolio Manager in the header at the top of the page.</p> </td> 
+      <td role="rowheader">[!UICONTROL Portfolio Manager]</td> 
+      <td> <p>Start typing the name of a user that you want to indicate as the portfolio manager, then select it when it appears in the list. This is the same as the [!UICONTROL Portfolio Owner]. This is the person who can oversee the work defined in the projects of the portfolio and can approve the Business Case.</p> <p>Important: When you designate someone as the [!UICONTROL Portfolio Manager], they automatically gain [!UICONTROL Manage] permissions to the portfolio, the programs and the projects in the portfolio. </p> <p>Tip: You can also update the [!UICONTROL Portfolio Manager] in the header at the top of the page.</p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">Group </td> 
-      <td> <p>Add the name of a single group if the group owns the portfolio or has responsibility for completing it. </p> <p>You can make sure you are selecting the right group by hovering over it and clicking the information icon <img src="assets/info-icon.png"> that displays next to it. This displays a tooltip listing information about the group, such as the hierarchy of groups above it and its administrators.</p> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/group-details-widget-portfolios-350x250.png" style="width: 350;height: 250;"> </p> </td> 
+      <td> <p>Add the name of a single group if the group owns the portfolio or has responsibility for completing it. </p> <p>You can make sure you are selecting the right group by hovering over it and clicking the [!UICONTROL information] icon <img src="assets/info-icon.png"> that displays next to it. This displays a tooltip listing information about the group, such as the hierarchy of groups above it and its administrators.</p> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/group-details-widget-portfolios-350x250.png" style="width: 350;height: 250;"> </p> </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. (Optional) Click inside the **Add custom form** box in the upper-right corner of the Portfolio Details page to select a custom form for the portfolio and update the custom fields.
+1. (Optional) Click inside the **[!UICONTROL Add custom form]** box in the upper-right corner of the [!UICONTROL Portfolio Details] page to select a custom form for the portfolio and update the custom fields.
 
    >[!TIP]
    >
    >You must have portfolio custom forms already created before you can attach them to portfolios.
 
-1. Click **Save Changes**.
-1. (Optional) Click **Programs** in the left panel, then **Add Programs** to add programs to the portfolio.
+1. Click **[!UICONTROL Save Changes]**.
+1. (Optional) Click **[!UICONTROL Programs]** in the left panel, then **[!UICONTROL Add Programs]** to add programs to the portfolio.
 
    For more information about creating Programs, see [Create a program](../../../manage-work/portfolios/create-and-manage-programs/create-program.md).
 
-1. (Optional) Click **Projects** in the left panel, then **Add Projects** to add projects to the portfolio.
+1. (Optional) Click **[!UICONTROL Projects]** in the left panel, then **[!UICONTROL Add Projects]** to add projects to the portfolio.
 
    For more information about adding projects to a Portfolio, see [Add projects to a portfolio](../../../manage-work/portfolios/create-and-manage-portfolios/add-projects-to-portfolios.md).
 

@@ -3,20 +3,20 @@ content-type: overview
 product-previous: mobile
 navigation-topic: use-the-workfront-mobile-app
 title: Adobe Workfront for Android
-description: The Adobe Workfront app allows you to access your work on any Android device. You can install and use the Workfront mobile app on phones and tablets running Android 5.0 or later.
+description: The [!DNL Adobe Workfront] app allows you to access your work on any Android device. You can install and use the [!DNL Workfront] mobile app on phones and tablets running Android 5.0 or later.
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 4bc209b8-18da-4f6f-97bd-699356269179
 ---
-# Adobe Workfront for Android
+# [!DNL Adobe Workfront] for [!DNL Android]
 
-The Adobe Workfront app allows you to access your work on any Android device. You can install and use the Workfront mobile app on phones and tablets running Android 5.0 or later.
+The [!DNL Adobe Workfront] app allows you to access your work on any [!DNL Android] device. You can install and use the [!DNL Workfront] mobile app on phones and tablets running [!DNL Android] 5.0 or later.
 
-For information about logging in to the mobile app, see the section [Log in to the Workfront mobile app](../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/log-in-to-workfront.md#log) in the article [Log in to Adobe Workfront](../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/log-in-to-workfront.md).
+For information about logging in to the mobile app, see the section [Log in to the [!DNL Workfront] mobile app](../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/log-in-to-workfront.md#log) in the article [Log in to [!DNL Adobe Workfront]](../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/log-in-to-workfront.md).
 
-## Home
+## [!UICONTROL Home]
 
-The Home area allows you to work directly on tasks, issues, and approvals assigned to you. From the Home area of the app, you can:
+The [!UICONTROL Home] area allows you to work directly on tasks, issues, and approvals assigned to you. From the [!UICONTROL Home] area of the app, you can:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -26,9 +26,9 @@ The Home area allows you to work directly on tasks, issues, and approvals assign
    <td> 
     <ul> 
      <li>Start working on tasks and issues</li> 
-     <li>Mark tasks and issues as Done</li> 
+     <li>Mark tasks and issues as [!UICONTROL Done]</li> 
      <li>Reassign tasks and issues</li> 
-     <li>Change the Commit Date</li> 
+     <li>Change the [!UICONTROL Commit Date]</li> 
     </ul> </td> 
    <td> 
     <ul> 
@@ -42,13 +42,13 @@ The Home area allows you to work directly on tasks, issues, and approvals assign
  </tbody> 
 </table>
 
-For more information, see [Home area widgets](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/home-area-widgets-mobile.md) and [My Work section in the mobile app](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/my-work-section-mobile.md).
+For more information, see [[!UICONTROL Home] area widgets](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/home-area-widgets-mobile.md) and [[!UICONTROL My Work] section in the mobile app](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/my-work-section-mobile.md).
 
 ![Home area](assets/mobile-home-area-not-boards.png)
 
-## Projects
+## [!UICONTROL Projects]
 
-The Projects area allows you to interact with and manage projects you own and projects you're on. From the projects area of the app, you can:
+The [!UICONTROL Projects] area allows you to interact with and manage projects you own and projects you're on. From the [!UICONTROL projects] area of the app, you can:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -59,7 +59,7 @@ The Projects area allows you to interact with and manage projects you own and pr
     <ul> 
      <li>Update project status</li> 
      <li>View important project details</li> 
-     <li>Post in the Updates area</li> 
+     <li>Post in the [!UICONTROL Updates] area</li> 
      <li>Convert tasks, issues, and requests to projects</li> 
     </ul> </td> 
    <td> 
@@ -75,9 +75,9 @@ The Projects area allows you to interact with and manage projects you own and pr
 
 ![Projects area](assets/mobile-projects-area.png)
 
-## Approvals
+## [!UICONTROL Approvals]
 
-The Approvals area allows you to view and approve approvals assigned or delegated to you. From the approvals area, you can approve:
+The [!UICONTROL Approvals] area allows you to view and approve approvals assigned or delegated to you. From the [!UICONTROL approvals] area, you can approve:
 
 <table style="table-layout:auto">
  <col>
@@ -99,24 +99,24 @@ The Approvals area allows you to view and approve approvals assigned or delegate
  </tbody>
 </table>
 
-For more information on approvals, see [Approvals in the Adobe Workfront mobile app](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/approvals-in-mobile-app.md).
+For more information on approvals, see [Approvals in the [!DNL Adobe Workfront] mobile app](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/approvals-in-mobile-app.md).
 
-For information on reviewing and approving proofs, see [Review and make decisions on proofs in the Adobe Workfront mobile app](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/work-with-proofs-in-mobile-app.md).
+For information on reviewing and approving proofs, see [Review and make decisions on proofs in the [!DNL Adobe Workfront] mobile app](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/work-with-proofs-in-mobile-app.md).
 
 ![Approvals list in mobile app](assets/mobile-approvals-adobe-350x574.png)
 
-## Notifications
+## [!UICONTROL Notifications]
 
-The Notifications area allows you to view and respond to in-app notifications for your work.
+The [!UICONTROL Notifications] area allows you to view and respond to in-app notifications for your work.
 
 >[!NOTE]
 >Hyperlinks are not available in the update notifications unless the entire content of a note is a hyperlink without display text.
 
 ![Notifications area](assets/mobile-notifications-area.png)
 
-## Requests
+## [!UICONTROL Requests]
 
-The Requests area allows you to view details about requests. From the Requests area of the app, you can:
+The [!UICONTROL Requests] area allows you to view details about requests. From the [!UICONTROL Requests] area of the app, you can:
 
 <table style="table-layout:auto">
  <col>
@@ -142,33 +142,33 @@ The Requests area allows you to view details about requests. From the Requests a
 
 ![Requests area](assets/mobile-requests-area.png)
 
-## Timesheets
+## [!UICONTROL Timesheets]
 
-The timesheets area allows you to view details about your timesheets. In the Timesheets area of the app, you can:
+The [!UICONTROL timesheets] area allows you to view details about your timesheets. In the Timesheets area of the app, you can:
 
-* Post in the Updates area
+* Post in the [!UICONTROL Updates] area
 * Adjust hour types
-* Change the time you've logged
+* Change the time you've logged 
 * Enter comments on your timesheet
 * Close your timesheet
 
 ![Timesheets area](assets/mobile-timesheets-area.png)
 
-## Favorites
+## [!UICONTROL Favorites]
 
-You can access existing items from the Favorites menu and add new items to the Favorites menu.
+You can access existing items from the [!UICONTROL Favorites] menu and add new items to the Favorites menu.
 
 ![Favorites area](assets/mobile-favorites-area.png)
 
-## Contacts
+## [!UICONTROL Contacts]
 
-The Contacts area allows you to view the contact information for all users in your company.
+The [!UICONTROL Contacts] area allows you to view the contact information for all users in your company.
 
 ![Contacts area](assets/mobile-contacts-area.png)
 
-## Configuration
+## [!UICONTROL Configuration]
 
-The Configuration area allows you to:
+The [!UICONTROL Configuration] area allows you to:
 
 * Manage your settings
 * View assigned teams
@@ -179,20 +179,20 @@ The Configuration area allows you to:
 
 ![Configuration area](assets/android-configuration-area.png)
 
-## Virtual Assistant
+## [!UICONTROL Virtual Assistant]
 
 The virtual assistant allows you to perform the following tasks via voice command:
 
-* Show me
-* Delete
-* Search for 
-* Help me with commands
+* [!UICONTROL Show me]
+* [!UICONTROL Delete]
+* [!UICONTROL Search for]
+* [!UICONTROL Help me with commands]
 
-For more information on the Virtual assistant, see [Adobe Workfront mobile app virtual assistant](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mobile-virtual-assistant.md).
+For more information on the Virtual assistant, see [Adobe [!DNL Workfront] mobile app virtual assistant](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mobile-virtual-assistant.md).
 
-## Pins
+## [!UICONTROL Pins]
 
-The Pin area allows you to access saved virtual assistant commands as well as pins from your web browser. 
+The [!UICONTROL Pin] area allows you to access saved virtual assistant commands as well as pins from your web browser.
 ![Pin and save query](assets/pin-and-save-query-adobe-350x285.png)
 
-For more information on the Virtual assistant, see [Adobe Workfront mobile app virtual assistant](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mobile-virtual-assistant.md).
+For more information on the Virtual assistant, see [Adobe [!DNL Workfront] mobile app virtual assistant](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mobile-virtual-assistant.md).

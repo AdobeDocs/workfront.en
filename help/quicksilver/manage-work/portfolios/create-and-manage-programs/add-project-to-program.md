@@ -26,37 +26,37 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>Team or higher</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
+   <td> <p>[!UICONTROL Team] or higher</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Plan </p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
+   <td> <p>[!UICONTROL Plan] </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>View access to Programs or higher</p> <p>Edit access to Projects</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>[!UICONTROL View] access to Programs or higher</p> <p>[!UICONTROL Edit] access to Projects</p> <p>Note: If you still don't have access, ask your [!DNL Workfront] administrator if they set additional restrictions in your access level. For information on how a [!DNL Workfront] administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>View permissions to the program</p> <p>Manage permissions to the projects</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+   <td> <p>[!UICONTROL View] permissions to the program</p> <p>[!UICONTROL Manage] permissions to the projects</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+&#42;To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
 
 ## Add a project to an existing program
 
 1. Go to a Program.
 
-   Click **Projects** in the left panel. 
+   Click **[!UICONTROL Projects]** in the left panel.
 
-1. Click **New Project** and select a method for adding the project.
+1. Click **[!UICONTROL New Project]** and select a method for adding the project.
 
    >[!TIP]
    >
-   >You cannot add project when you view the list of projects in the Milestone view.
+   >You cannot add project when you view the list of projects in the [!UICONTROL Milestone] view.
 
    Select from the following options:
 
@@ -65,29 +65,29 @@ You must have the following access to perform the steps in this article:
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">Existing Project</td> 
+      <td role="rowheader">[!UICONTROL Existing Project]</td> 
       <td> <p>Add a project that has already been created.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">New Project</td> 
-      <td> <p>Add a new project from scratch. </p> <p>For more information about creating a project from scratch, see <a href="../../../manage-work/projects/create-projects/create-project.md" class="MCXref xref">Create a project</a>.&nbsp;</p> </td> 
+      <td role="rowheader">[!UICONTROL New Project]</td> 
+      <td> <p>Add a new project from scratch. </p> <p>For more information about creating a project from scratch, see <a href="../../../manage-work/projects/create-projects/create-project.md" class="MCXref xref">Create a project</a>. </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Import a Project from&nbsp;MS&nbsp;Project </td> 
-      <td> <p>Add a project that you previously exported from MS&nbsp;Project and have saved on your computer. </p> <p>For more information about creating a new project by importing it from Microsoft Project, see <a href="../../../manage-work/projects/create-projects/import-project-from-ms-project.md" class="MCXref xref">Import a project from Microsoft Project</a>.</p> </td> 
+      <td role="rowheader">[!UICONTROL Import a Project from [!DNL MS Project]] </td> 
+      <td> <p>Add a project that you previously exported from [!DNL MS Project] and have saved on your computer. </p> <p>For more information about creating a new project by importing it from [!DNL Microsoft Project], see <a href="../../../manage-work/projects/create-projects/import-project-from-ms-project.md" class="MCXref xref">Import a project from [!DNL Microsoft Project]</a>.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Request Project</td> 
+      <td role="rowheader">[!UICONTROL Request Project]</td> 
       <td> <p>Request that the new project is approved before you can start working on it.</p> <p>For information about requesting projects, see <a href="../../../manage-work/projects/create-projects/request-project.md">Requesting a Project</a>. </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">New from&nbsp;Template</td> 
+      <td role="rowheader">[!UICONTROL New from Template]</td> 
       <td> <p>Add a new project using an existing template. </p> <p>For more information about creating a project from a template, see <a href="../../../manage-work/projects/create-projects/create-project-from-template.md" class="MCXref xref">Create a project using a template</a>.</p> </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. (Conditional) If you selected **Existing Project**, do the following:
+1. (Conditional) If you selected **[!UICONTROL Existing Project]**, do the following:
 
-   1. In the **Add Projects** dialog box, type the name of the project in the field provided, then select it when it appears in the list. You may add several projects at a time. 
-   1. Click **Add Projects**.****The project appears in the **Projects** tab of the program and is now associated with the program and portfolio.&nbsp;
+   1. In the **[!UICONTROL Add Projects]** dialog box, type the name of the project in the field provided, then select it when it appears in the list. You may add several projects at a time.
+   1. Click **[!UICONTROL Add Projects]**.**&#x200B;**&#x200B;The project appears in the **[!UICONTROL Projects]** tab of the program and is now associated with the program and portfolio.&nbsp;
