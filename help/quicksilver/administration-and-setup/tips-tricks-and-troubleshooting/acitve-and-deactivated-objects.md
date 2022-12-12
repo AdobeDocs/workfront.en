@@ -4,7 +4,7 @@ content-type: reference
 product-area: system-administration
 navigation-topic: tips-tricks-troubleshooting-setup-admin
 title: Active and deactivated objects
-description: As an Adobe Workfront administrator, you can activate or deactivate objects within the system. We recommend that you never delete the objects that you can deactivate. You should simply deactivate the object to prevent future use and to remove it from the drop-down menus of other objects.
+description: As an [!DNL Adobe Workfront] administrator, you can activate or deactivate objects within the system. We recommend that you never delete the objects that you can deactivate. You should simply deactivate the object to prevent future use and to remove it from the drop-down menus of other objects.
 author: Caroline
 feature: System Setup and Administration
 role: Admin
@@ -12,9 +12,9 @@ exl-id: a0617270-e233-4ebe-a5ee-8df7a8a85823
 ---
 # Active and deactivated objects
 
-As an Adobe Workfront administrator, you can activate or deactivate objects within the system. We recommend that you never delete the objects that you can deactivate. You should simply deactivate the object to prevent future use and to remove it from the drop-down menus of other objects.
+As an [!DNL Adobe Workfront] administrator, you can activate or deactivate objects within the system. We recommend that you never delete the objects that you can deactivate. You should simply deactivate the object to prevent future use and to remove it from the drop-down menus of other objects.
 
-For example, in order to see a certain Hour Type, the Hour Type must be active. An inactive or disabled Hour Type does not appear in the Hour Type drop-down menu, but remains in the system to keep the historical record intact of where this Hour Type might have been used in the past.
+For example, in order to see a certain [!UICONTROL Hour Type], the Hour Type must be active. An inactive or disabled Hour Type does not appear in the Hour Type drop-down menu, but remains in the system to keep the historical record intact of where this Hour Type might have been used in the past.
 
 The term 'Active' is used to identify whether certain objects are enabled in the system. In this context, 'Active' is used for the following objects:
 
@@ -26,13 +26,13 @@ For information about activating or deactivating email notifications, see [Confi
 
 ## Hour types
 
-You can activate hour types to allow them to be selected by users when logging time.
+You can activate [!UICONTROL hour] types to allow them to be selected by users when logging time.
 
 For information about activating or deactivating hour types, see [Manage hour types](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/hour-types.md).
 
 ## Portfolios
 
-A portfolio must be active in order to appear on the New Project (Business Case) form.
+A portfolio must be active in order to appear on the [!UICONTROL New Project (Business Case)] form.
 
 You can make a portfolio active while editing the portfolio.
 
@@ -40,7 +40,7 @@ For information about editing portfolios, see [Create a portfolio](../../manage-
 
 ## Programs
 
-A program must be active in order to appear on the Program field for a project.
+A program must be active in order to appear on the [!UICONTROL Program] field for a project.
 
 You can make a program active while editing the program.
 
@@ -56,7 +56,7 @@ For information about editing templates, see [Edit project templates](../../mana
 
 ## Approval processes
 
-An approval process must be active in order to appear on the Approval Process field for a project, task, or issue.
+An approval process must be active in order to appear on the [!UICONTROL Approval Process] field for a project, task, or issue.
 
 You can make an approval process active while editing the approval process.
 
@@ -64,7 +64,7 @@ For information about editing approval processes, see [Create an approval proces
 
 ## Milestone paths
 
-A milestone path must be active in order to appear on the Milestone Path field for a project.
+A milestone path must be active in order to appear on the [!UICONTROL Milestone Path] field for a project.
 
 You can make a milestone path active while editing the milestone path.
 
@@ -72,7 +72,7 @@ For information about editing milestone paths, see [Create a milestone path](../
 
 ## Custom forms
 
-A custom form must be active in order to appear on the Custom Form field for another object.
+A custom form must be active in order to appear on the [!UICONTROL Custom Form] field for another object.
 
 You can make a custom form active while editing the custom form.
 
@@ -80,7 +80,7 @@ For information about editing custom forms and for a list of objects that you ca
 
 ## Companies
 
-A company must be active in order to appear on the Company field for a project, a user, or a template.
+A company must be active in order to appear on the [!UICONTROL Company] field for a project, a user, or a template.
 
 You can make a company active while editing the company.
 
@@ -90,7 +90,7 @@ For information, see [Create and edit companies](../../administration-and-setup/
 
 A user must be active in order to appear in any type-ahead fields of all other objects when making assignments or sharing them.
 
-You can deactivate users from the user page, or as you are editing a user.
+You can deactivate [!UICONTROL user]s from the user page, or as you are editing a user.
 
 For information about deactivating users, see [Deactivate or reactivate a user](../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md).
 

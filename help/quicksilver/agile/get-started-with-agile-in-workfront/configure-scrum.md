@@ -9,7 +9,7 @@ exl-id: 7509608e-96af-4601-80d4-791ee29046da
 ---
 # Configure Scrum
 
-You can configure the following options for agile teams during or after the team is created. You create an agile team (Kanban or Scrum) in Adobe Workfront as described in [Create an agile team](../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md).
+You can configure the following options for agile teams during or after the team is created. You create an agile team (Kanban or Scrum) in [!DNL Adobe Workfront] as described in [Create an agile team](../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md).
 
 ## Access requirements
 
@@ -22,17 +22,17 @@ You must have the following access to perform the steps in this article:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront plan*</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront plan*]</strong></td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront license*</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] license*</strong></td> 
    <td> <p>Work or higher</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan or license type you have, contact your Workfront administrator.
+&#42;To find out what plan or license type you have, contact your [!DNL Workfront] administrator.
 
 ## Configure whether stories are estimated in points or hours
 
@@ -46,14 +46,14 @@ To configure how stories are estimated for your agile team:
 
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Workfront, then click **Teams**.
 
-1. Click the **Switch team** icon, then either select a new team from the drop-down menu or search for a team in the search bar.
+1. Click the **[!UICONTROL Switch team]** icon, then either select a new team from the drop-down menu or search for a team in the search bar.
 1. Select the agile team that you want to manage.
-1. Click the **More** menu, then select **Edit**.
+1. Click the **[!UICONTROL More]** menu, then select **Edit**.
 
-   Only team members with either a Plan or Work license see this option.  
+   Only team members with either a Plan or Work license see this option.\
    ![Edit team](assets/edit-team-settings-350x205.png)
 
-1. In the **Agile** section, in the **Estimate Stories in** area, select whether you want to use points or hours for estimating the size (work load) of stories. If you select Points, specify how many hours are equal to 1 point. (The default is 1 point = 8 hours.) This is the number of Planned Hours that are added to the story.
+1. In the **[!UICONTROL Agile]** section, in the **Estimate Stories in** area, select whether you want to use points or hours for estimating the size (work load) of stories. If you select Points, specify how many hours are equal to 1 point. (The default is 1 point = 8 hours.) This is the number of Planned Hours that are added to the story.
 
    **Example:** If you have selected to estimate stories in points and 1 point equals 8 hours, and a story is estimated at 3 points, 24 Planned Hours are added to the story.
 
@@ -63,7 +63,7 @@ To configure how stories are estimated for your agile team:
 
 You can configure which columns are displayed on the agile story board for all iterations assigned to your team, or for a given project.
 
-* [Configure status columns for iterations](#configure-status-columns-for-iterations) 
+* [Configure status columns for iterations](#configure-status-columns-for-iterations)
 * [Configure status columns for projects](#configure-status-columns-for-projects)
 
 ### Configure status columns for iterations {#configure-status-columns-for-iterations}
@@ -77,15 +77,15 @@ To define the statuses that are available for the story board associated with th
 1. Click the **Switch team** icon ![Switch team icon](assets/switch-team-icon.png), then either select a new team from the drop-down menu or search for a team in the search bar.
 
 1. Select the agile team that you want to manage.
-1. Click the **More** menu, then select **Edit**.
+1. Click the **[!UICONTROL More]** menu, then select **Edit**.
 
    Only team members with either a Plan or Work license see this option.
 
    ![Edit team](assets/edit-team-settings-350x205.png)
 
-1. In the **Agile** section, locate the **Story Board** area.
+1. In the **[!UICONTROL Agile]** section, locate the **Story Board** area.
 
-1. (Optional) Click **Add Column** to add an additional status column to the story board.
+1. (Optional) Click **[!UICONTROL Add Column]** to add an additional status column to the story board.
 1. (Optional) Drag any status column using the drag-and-drop indicator to reorder the status columns on the story board. The first column can't be moved, and you cannot drag another column in front of the first column.
 
    ![Drag and drop](assets/agile-story-card-drag-and-drop.png)
@@ -96,7 +96,7 @@ To define the statuses that are available for the story board associated with th
    >
    >Only locked system-wide statuses are available to select; you cannot select group-specific statuses. Also, the status of the first column always corresponds to **New**.
 
-   You can add custom statuses if your Workfront administrator has configured them; custom statuses can be configured as described in [Create or edit a status](../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
+   You can add custom statuses if your [!DNL Workfront] administrator has configured them; custom statuses can be configured as described in [Create or edit a status](../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
 
    >[!NOTE]
    >
@@ -135,7 +135,7 @@ To configure story cards that are assigned to the agile team to display addition
 1. Click the **Switch team** icon ![Switch team icon](assets/switch-team-icon.png), then either select a new team from the drop-down menu or search for a team in the search bar.
 
 1. Select the agile team that you want to manage.
-1. Click the **More** menu, then select **Edit**.  
+1. Click the **[!UICONTROL More]** menu, then select **Edit**.\
    Only team members with either a Plan or Work license see this option.
 
    ![Edit team](assets/edit-team-settings-350x205.png)
@@ -145,7 +145,7 @@ To configure story cards that are assigned to the agile team to display addition
    ![Additional fields](assets/agile-additional-fields-scrum.png)
 
 1. Select the name of the field you'd like to add.
-1. Type the **Display name** for the field to show on the story or issue card.
+1. Type the **[!UICONTROL Display name]** for the field to show on the story or issue card.
 1. Click **Save changes**.
 
 ## Configure how color indicators are used for stories on the agile story board
@@ -159,24 +159,25 @@ To change the behavior of how colors are assigned to stories for an agile team:
 1. Click the **Switch team** icon ![Switch team icon](assets/switch-team-icon.png), then either select a new team from the drop-down menu or search for a team in the search bar.
 
 1. Select the agile team that you want to manage.
-1. Click the **More** menu, then select **Edit**.
+1. Click the **[!UICONTROL More]** menu, then select **Edit**.
 
    Only team members with either a Plan or Work license see this option.
 
    ![Edit team](assets/edit-team-settings-350x205.png)
 
-1. In the Agile section, in the Associate Card Color to area, select from the following options:
+1. In the [!UICONTROL Agile] section, in the [!UICONTROL Associate Card Color to] area, select from the following options:
 
    * **Project**: Colors are associated with the project that the story is tied to. (When a story is created, it must be associated with a project, as described in [Create an Agile Story](/help/quicksilver/agile/work-in-an-agile-environment/create-an-agile-story.md). All tasks from the same project are displayed with the same color.
-   * **Free Form**: All cards are displayed as blue by default until a user changes the color manually, as described in [Categorize stories by color on the Scrum board](/help/quicksilver/agile/use-scrum-in-an-agile-team//scrum-board/categorize-stories-by-color.md).
+   * **Free Form**: All cards are displayed as blue by default until a user changes the color manually, as described in [[!UICONTROL Categorize stories by color] on the Scrum board](/help/quicksilver/agile/use-scrum-in-an-agile-team//scrum-board/categorize-stories-by-color.md).
    * **Priority**: Colors are associated with the story priority, as follows:
 
       * High = Red
       * Medium = Yellow
-      * Low = Green  
-        If your system administrator has configured custom priorities for your Workfront system, the highest priority is red, the second-highest is yellow, and the third-highest is green.
+      * Low = Green\
 
+         If your system administrator has configured custom priorities for your [!DNL Workfront] system, the highest priority is red, the second-highest is yellow, and the third-highest is green.
    * **Task Owner**: All stories with the same primary assignee are the same color. The primary assignee is the user who was first assigned to the task.
+
 
 1. Click **Save changes**.
 
@@ -184,17 +185,18 @@ To change the behavior of how colors are assigned to stories for an agile team:
 
 By default, when you add a work item to a Scrum iteration, the Planned Start Date and Planned Completion Date on the work item are modified to match the iteration start and end dates. You can choose to keep the original dates on all work items for the team.
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Teams**.
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe] Workfront, then click **Teams**.
 1. (Optional) Click the **Switch team** icon ![Switch team icon](assets/switch-team-icon.png), then either select a new Scrum team from the drop-down menu or search for a team in the search bar.
-1. Click the **More** menu, then select **Edit**.  
+1. Click the **[!UICONTROL More]** menu, then select **Edit**.\
    Only team members with either a Plan or Work license see this option.
 1. In the Agile section, in the When a Work Item is Added to an Iteration area, select from the following options:
 
-   * **Modify the Planned Start Date and Planned Completion Date to match the iteration start and end dates**: When work items are added to an iteration, the work item dates are changed to the iteration dates.  
-     For more information on how the dates are modified, see the section [Understand how adding stories affects task dates](../../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md#understa) in the article [Add stories to an existing iteration](../../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md).
+   * **Modify the Planned Start Date and Planned Completion Date to match the iteration start and end dates**: When work items are added to an iteration, the work item dates are changed to the iteration dates.\
+
+      For more information on how the dates are modified, see the section [Understand how adding stories affects task dates](../../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md#understa) in the article [Add stories to an existing iteration](../../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md).
    * **Do not modify the Planned Start Date and Planned Completion Date to match the iteration start and end dates**: When work items are added to an iteration, the work items retain their original dates.
 
-   If you change the date option, dates for work items already on the iteration are not adjusted.
+   If you change the [!UICONTROL date] option, dates for work items already on the iteration are not adjusted.
 
    These options can affect dates when teams assign work items to each others' iterations. For example, team A modifies work item dates to the iteration dates and team B does not modify work item dates. If team B assigns a work item to team A's iteration, the work item dates will be changed. However, if team A assigns a work item to team B's iteration, the dates will not change.
 

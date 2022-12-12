@@ -9,7 +9,7 @@ exl-id: b4c417a6-64c8-43e0-bace-b73572247b3e
 ---
 # Configure Kanban
 
-You can configure the following options for agile teams during or after the team is created. You create an agile team (Kanban or Scrum) in Adobe Workfront as described in [Create an agile team](../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md).
+You can configure the following options for agile teams during or after the team is created. You create an agile team (Kanban or Scrum) in [!DNL Adobe Workfront] as described in [Create an agile team](../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md).
 
 ## Access requirements
 
@@ -22,17 +22,17 @@ You must have the following access to perform the steps in this article:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront plan*</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront plan*]</strong></td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront license*</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] license*</strong></td> 
    <td> <p>Work or higher</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan or license type you have, contact your Workfront administrator.
+&#42;To find out what plan or license type you have, contact your [!DNL Workfront] administrator.
 
 ## Configure whether stories are estimated in points or hours
 
@@ -42,14 +42,14 @@ To configure how stories are estimated for your agile team:
 
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Workfront, then click **Teams**.
 
-1. Click the **Switch team** icon, then either select a new team from the drop-down menu or search for a team in the search bar.
+1. Click the **[!UICONTROL Switch team]** icon, then either select a new team from the drop-down menu or search for a team in the search bar.
 1. Select the agile team that you want to manage.
-1. Click the **More** menu, then select **Edit**.
+1. Click the **[!UICONTROL More]** menu, then select **Edit**.
 
-   Only team members with either a Plan or Work license see this option.  
+   Only team members with either a Plan or Work license see this option.\
    ![Edit team](assets/edit-team-settings-350x205.png)
 
-1. In the **Agile** section, in the **Estimate Stories in** area, select whether you want to use points or hours for estimating the size (work load) of stories. If you select Points, specify how many hours are equal to 1 point. (The default is 1 point = 8 hours.) This is the number of Planned Hours that are added to the story.
+1. In the **[!UICONTROL Agile]** section, in the **Estimate Stories in** area, select whether you want to use points or hours for estimating the size (work load) of stories. If you select Points, specify how many hours are equal to 1 point. (The default is 1 point = 8 hours.) This is the number of Planned Hours that are added to the story.
 
    **Example:** If you have selected to estimate stories in points and 1 point equals 8 hours, and a story is estimated at 3 points, 24 Planned Hours are added to the story.
 
@@ -66,15 +66,15 @@ To define the statuses that are available for the story board associated with th
 1. Click the **Switch team** icon ![Switch team icon](assets/switch-team-icon.png), then either select a new team from the drop-down menu or search for a team in the search bar.
 
 1. Select the agile team that you want to manage.
-1. Click the **More** menu, then select **Edit**.
+1. Click the **[!UICONTROL More]** menu, then select **Edit**.
 
    Only team members with either a Plan or Work license see this option.
 
    ![Edit team](assets/edit-team-settings-350x205.png)
 
-1. In the **Agile** section, locate the **Story Board** area.
+1. In the **[!UICONTROL Agile]** section, locate the **Story Board** area.
 
-1. (Optional) Click **Add Column** to add an additional status column to the story board.
+1. (Optional) Click **[!UICONTROL Add Column]** to add an additional status column to the story board.
 1. (Optional) Drag any status column using the drag-and-drop indicator to reorder the status columns on the story board. The first column can't be moved, and you cannot drag another column in front of the first column.
 
    ![Drag and drop](assets/agile-story-card-drag-and-drop.png)
@@ -85,7 +85,7 @@ To define the statuses that are available for the story board associated with th
    >
    >Only locked system-wide statuses are available to select; you cannot select group-specific statuses. Also, the status of the first column always corresponds to **New**.
 
-   You can add custom statuses if your Workfront administrator has configured them; custom statuses can be configured as described in [Create or edit a status](../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
+   You can add custom statuses if your [!DNL Workfront] administrator has configured them; custom statuses can be configured as described in [Create or edit a status](../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
 
 1. Click **Save changes**.
 
@@ -116,7 +116,7 @@ To configure story cards that are assigned to the agile team to display addition
 1. Click the **Switch team** icon ![Switch team icon](assets/switch-team-icon.png), then either select a new team from the drop-down menu or search for a team in the search bar.
 
 1. Select the agile team that you want to manage.
-1. Click the **More** menu, then select **Edit**.  
+1. Click the **[!UICONTROL More]** menu, then select **Edit**.\
    Only team members with either a Plan or Work license see this option.
 
    ![Edit team](assets/edit-team-settings-350x205.png)
@@ -126,34 +126,34 @@ To configure story cards that are assigned to the agile team to display addition
    ![Additional fields](assets/agile-additional-fields-kanban.png)
 
 1. Select the name of the field you'd like to add.
-1. Type the **Display name** for the field to show on the story or issue card.
+1. Type the **[!UICONTROL Display name]** for the field to show on the story or issue card.
 1. Click **Save changes**.
 
-## Configure the work in progress (WIP) limit
+## Configure the [!UICONTROL work in progress] (WIP) limit
 
-Kanban in Workfront allows you to control the amount of work the team is currently working on by limiting the number of tasks that can appear in the In Progress column on the Kanban board.
+Kanban in [!DNL Workfront] allows you to control the amount of work the team is currently working on by limiting the number of tasks that can appear in the [!UICONTROL In Progress] column on the Kanban board.
 
-When the WIP limit is configured, you can view the WIP limit or even update it from the Kanban agile story board, as described in [Manage the work in progress (WIP) limit on the Kanban board](../../agile/use-kanban-in-an-agile-team/work-in-progress-limit-on-the-kanban-board.md).
+When the WIP limit is configured, you can view the WIP limit or even update it from the Kanban agile story board, as described in [[!UICONTROL Manage the work in progress] (WIP) limit on the Kanban board](../../agile/use-kanban-in-an-agile-team/work-in-progress-limit-on-the-kanban-board.md).
 
 To limit WIP for your Kanban team:
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Teams**.
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe] Workfront, then click **Teams**.
 
 1. Click the **Switch team** icon ![Switch team icon](assets/switch-team-icon.png), then either select a new team from the drop-down menu or search for a team in the search bar.
 
 1. Select the Kanban team that you want to manage.
-1. Click the **More** menu, then select **Edit**.
+1. Click the **[!UICONTROL More]** menu, then select **Edit**.
 
    Only team members with either a Plan or Work license see this option.
 
    ![Edit team](assets/edit-team-settings-350x205.png)
 
-1. In the **Agile** section, in the **Methodology** section, ensure Kanban is selected.
+1. In the **[!UICONTROL Agile]** section, in the **[!UICONTROL Methodology]** section, ensure Kanban is selected.
 
-1. In the **Story Board** section, in the **WIP LIMIT** field, specify the maximum number of items allowed in each column of the Kanban agile story board. You can set a different limit for each column. The maximum limit you can set for each column is 100.  
-   When set, the WIP limit displays a warning message on the Kanban agile story board any time the limit is exceeded for any column on the story board. This warning message is displayed only the first time the WIP limit is exceeded. This warning message is not displayed on any columns that have a status that equates with Complete.  
-   The WIP limit is simply a visual warning and does not restrict your team from having more items in a single column than the limit you set.  
-  
+1. In the **Story Board** section, in the **[!UICONTROL WIP LIMIT]** field, specify the maximum number of items allowed in each column of the Kanban agile story board. You can set a different limit for each column. The maximum limit you can set for each column is 100.\
+   When set, the WIP limit displays a warning message on the Kanban agile story board any time the limit is exceeded for any column on the story board. This warning message is displayed only the first time the WIP limit is exceeded. This warning message is not displayed on any columns that have a status that equates with Complete.\
+   The WIP limit is simply a visual warning and does not restrict your team from having more items in a single column than the limit you set.
+
    ![WIP limit](assets/wip-limit-350x193.png)
 
 1. Click **Save changes**.
@@ -162,12 +162,12 @@ To limit WIP for your Kanban team:
 
 You can configure stories from the backlog to be automatically added to the first column on the Kanban board immediately after an item is moved from that column.
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Teams**.
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe] Workfront, then click **Teams**.
 
 1. Click the **Switch team** icon ![Switch team icon](assets/switch-team-icon.png), then either select a new team from the drop-down menu or search for a team in the search bar.
 
 1. Select the Kanban&nbsp;team that you want to manage.
-1. Click the **More** menu, then select **Edit**.
+1. Click the **[!UICONTROL More]** menu, then select **Edit**.
 
    Only team members with either a Plan or Work license see this option.
 
@@ -175,19 +175,19 @@ You can configure stories from the backlog to be automatically added to the firs
 
 1. Select **Automatically add next story from backlog**&nbsp;to configure stories to be automatically added from the backlog to the first column on the Kanban story board.
 
-   This occurs any time a story is moved into a column on the story board that represents a Complete status (a status that equates with Complete). When added from the backlog, the story with the highest priority is added to the story board.select this option to configure the next item from the backlog to be automatically added to the **In Progress** column when an item is moved out of the **In Progress** column.
+   This occurs any time a story is moved into a column on the story board that represents a Complete status (a status that equates with Complete). When added from the backlog, the story with the highest priority is added to the story board.select this option to configure the next item from the backlog to be automatically added to the **[!UICONTROL In Progress]** column when an item is moved out of the **In Progress** column.
 
 1. Click **Save changes**.
 
 ## Configure how long cards stay on the Kanban board
 
-You can choose how long completed cards stay on the Kanban board. Tasks that fall off the Kanban board can still be accessed in their original project.
+You can choose how long completed cards stay on the [!DNL Kanban] board. Tasks that fall off the Kanban board can still be accessed in their original project.
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Teams**.
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe] Workfront, then click **Teams**.
 
 1. (Optional) Click the **Switch team** icon ![Switch team icon](assets/switch-team-icon.png), then either select a new Kanban team from the drop-down menu or search for a team in the search bar.
 1. Select the Kanban team.
-1. Click the **More** menu, then select **Edit**.
+1. Click the **[!UICONTROL More]** menu, then select **Edit**.
 
    Only team members with either a Plan or Work license see this option.
 

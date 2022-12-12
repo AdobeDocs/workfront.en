@@ -3,7 +3,7 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: configure-system-defaults
 title: Create a scorecard
-description: A scorecard measures how well a project aligns with the previously established criteria of a portfolio. A scorecard often reflects an organization's mission, values, and strategic goals.Portfolio managers usually define the scorecard questions and answers to ensure they are meaningful and valuable during project prioritization and selection. An Adobe Workfront administrator builds the scorecards based on the recommendations from portfolio managers.
+description: A scorecard measures how well a project aligns with the previously established criteria of a portfolio. A scorecard often reflects an organization's mission, values, and strategic goals.Portfolio managers usually define the scorecard questions and answers to ensure they are meaningful and valuable during project prioritization and selection. An [!DNL Adobe Workfront] administrator builds the scorecards based on the recommendations from portfolio managers.
 author: Caroline
 feature: System Setup and Administration
 role: Admin
@@ -15,7 +15,7 @@ exl-id: 89c9b450-72a6-4b72-98d1-22956696543a
 
 A scorecard measures how well a project aligns with the previously established criteria of a portfolio. A scorecard often reflects an organization's mission, values, and strategic goals.
 
-Portfolio managers usually define the scorecard questions and answers to ensure they are meaningful and valuable during project prioritization and selection. An Adobe Workfront administrator builds the scorecards based on the recommendations from portfolio managers.
+Portfolio managers usually define the scorecard questions and answers to ensure they are meaningful and valuable during project prioritization and selection. An [!DNL Adobe Workfront] administrator builds the scorecards based on the recommendations from portfolio managers.
 
 The questions and answers chosen for a scorecard must be quantifiable in order to provide an alignment value to compare different projects.
 
@@ -32,7 +32,7 @@ You must have the following to perform the steps in this article:
    <td> <p>Business or higher</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license</td> 
+   <td role="rowheader">Adobe [!DNL Workfront] license</td> 
    <td>Plan</td> 
   </tr> 
  </tbody> 
@@ -40,15 +40,15 @@ You must have the following to perform the steps in this article:
 
 ## Create a scorecard
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe] Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
 
-1. Click **Scorecards**, then click **New Scorecard** to create a new scorecard and launch the scorecard builder.
+1. Click **[!UICONTROL Scorecards]**, then click **[!UICONTROL New Scorecard]** to create a new scorecard and launch the scorecard builder.
 
 1. Specify a **Scorecard Name** and a **Description**.
 
    The name displays when you are associating the scorecard with the project. The description displays next to the scorecard name in the scorecard list.
 
-1. Click the **Add Question** drop-down menu to open the scorecard question section, then specify the following information for your question:
+1. Click the **[!UICONTROL Add Question]** drop-down menu to open the [!UICONTROL scorecard question] section, then specify the following information for your question:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -64,30 +64,30 @@ You must have the following to perform the steps in this article:
      </tr> 
      <tr> 
       <td role="rowheader">Negative Points</td> 
-      <td>Select this option to indicate that Workfront should subtract from the total possible points. Negative scores cannot be added to the maximum possible points of a scorecard.</td> 
+      <td>Select this option to indicate that [!DNL Workfront] should subtract from the total possible points. Negative scores cannot be added to the maximum possible points of a scorecard.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Display Type</td> 
-      <td>Select <strong>Value(0-100)</strong> if you want to display a numeric field in the scorecard where users can specify any value between 0-100.<p>Or, select <strong>Drop Down</strong> or <strong>Radio Buttons</strong> to create an answer users can specify using that control. Click <strong>Add Answer</strong>, then type the <strong>Value</strong> in percentage points for this answer, in case that it is fulfilled. If you choose 100%, the number of points allotted for this question is fully achieved. If you want to indicate that this answer carries only a portion of the total amount of points allotted to this question, select a lower percentage value. For example, if your question is valued at 10 points, and you want this answer to carry 5 of those points, choose 50% for your value.</p>
-      <p>Select <strong>Default</strong> if you to indicate that this answer is the default one.</strong></p>
+      <td>Select <strong>[!UICONTROL Value(0-100)]</strong> if you want to display a numeric field in the scorecard where users can specify any value between 0-100.<p>Or, select <strong>Drop Down</strong> or <strong>Radio Buttons</strong> to create an answer users can specify using that control. Click <strong>[!UICONTROL Add Answer]</strong>, then type the <strong>Value</strong> in percentage points for this answer, in case that it is fulfilled. If you choose 100%, the number of points allotted for this question is fully achieved. If you want to indicate that this answer carries only a portion of the total amount of points allotted to this question, select a lower percentage value. For example, if your question is valued at 10 points, and you want this answer to carry 5 of those points, choose 50% for your value.</p>
+      <p>Select <strong>[!UICONTROL Default]</strong> if you to indicate that this answer is the default one.</strong></p>
      </tr> 
     </tbody> 
    </table>
 
-1. Click **Add Question** to add more questions and answers to your scorecard, following the same steps.
+1. Click **[!UICONTROL Add Question]** to add more questions and answers to your scorecard, following the same steps.
 
    >[!NOTE]
    >
    >You can reorder the questions in your scorecard by dragging and dropping the questions in the correct order.
 
-1. Click **Save** when you are finished entering your data.
+1. Click **[!UICONTROL Save]** when you are finished entering your data.
 
 ## Apply a scorecard to a project
 
-A user with manage permissions to a project can apply a scorecard to a project, after the scorecard has been created by the Workfront administrator.  
+A user with [!UICONTROL manage] permissions to a project can apply a scorecard to a project, after the scorecard has been created by the [!DNL Workfront] administrator.
 
 A scorecard is added to a project as part of creating a business case for the project. For more information about adding a scorecard to a project, see [Apply a scorecard to a project and generate an Alignment Score](../../../manage-work/projects/define-a-business-case/apply-scorecard-to-project-to-generate-alignment-score.md).
 
-For more information about creating scorecards, see [Create a scorecard](#create-a-scorecard).  
+For more information about creating scorecards, see [Create a scorecard](#create-a-scorecard).
 
 For more information about project permissions, see [Share a project in Adobe Workfront](../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md).

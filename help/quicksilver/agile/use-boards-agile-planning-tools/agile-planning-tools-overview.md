@@ -16,11 +16,11 @@ You can use any or all of these tools in a way that works for you and your team,
 
 >[!NOTE]
 >
->Some of these features might be available only via the early feature opt-in. For details, see [Early feature opt-in for Adobe Workfront Boards](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md).
+>Some of these features might be available only via the early feature opt-in. For details, see [Early feature opt-in for [!DNL Adobe Workfront] Boards](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md).
 
 This section contains the following articles:
 
 * [Manage the work in progress (WIP) limit on a board](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-wip-limit-on-board.md)
 * [Add an intake column to a board](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md)
-* [Use groups on a board](/help/quicksilver/agile/use-boards-agile-planning-tools/group-cards-on-board.md)
+* [[!UICONTROL Use groups on a board]](/help/quicksilver/agile/use-boards-agile-planning-tools/group-cards-on-board.md)
 * [Configure card falloff](/help/quicksilver/agile/use-boards-agile-planning-tools/configure-card-falloff.md)

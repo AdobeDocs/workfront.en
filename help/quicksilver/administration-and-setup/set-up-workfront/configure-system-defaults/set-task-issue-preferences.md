@@ -22,7 +22,7 @@ By default, task and issue preferences are locked and group administrators canno
 
 ## Access requirements
 
-You must have the following access to perform the steps in this article: 
+You must have the following access to perform the steps in this article:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -33,32 +33,32 @@ You must have the following access to perform the steps in this article:
    <td>Any</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license</td> 
+   <td role="rowheader">Adobe [!DNL Workfront] license</td> 
    <td>Plan</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
-   <td> <p>You must be a Workfront administrator.</p> <p><b>NOTE</b>: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>You must be a [!DNL Workfront] administrator.</p> <p><b>NOTE</b>: If you still don't have access, ask your [!DNL Workfront] administrator if they set additional restrictions in your access level. For information on how a [!DNL Workfront] administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Configure task and issues preferences for everyone in Workfront
+## Configure task and issues preferences for everyone in [!DNL Workfront]
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).  
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe] Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
 
 1. In the left panel, click **Project Preferences** >**Tasks & Issues.**
 
 1. On the page that appears, continue with one of the 5 sections listed below to configure settings for New Task Defaults, Issues, Deletion, Actual Dates, and Access.
 1. Click **Save**.
 
-* [New Task Defaults](#new-task-defaults) 
-* [Issues](#issues) 
-* [Deletion](#deletion) 
+* [New Task Defaults](#new-task-defaults)
+* [Issues](#issues)
+* [Deletion](#deletion)
 * [Actual Dates](#actual-dates)
 * [Delegation](#delegation)
 
-  <!--
+   <!--
   <li class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="#work-on-it" class="MCXref xref">Work On It</a> </li>
   -->
 
@@ -107,10 +107,10 @@ You must have the following access to perform the steps in this article:
    <td role="rowheader">When converting an issue to a task</td> 
    <td> <p>The settings in this section determine what happens during the conversion process from issue to task:</p> 
     <ul> 
-     <li> <p><strong>Keep the original issue and tie its resolution to the task</strong>: When you are converting the issue, it remains visible as an issue until the task is complete. The status of the issue automatically changes to Closed when the task completes. When this is deselected, the issue is deleted.</p> <p><b>NOTE</b>:  <p>Users without access or permissions to delete issues will not be able to delete the issue as they are converting it, regardless of the status of this setting. For information about access and permissions to issues, see:</p> 
+     <li> <p><strong>Keep the original issue and tie its resolution to the task</strong>: When you are converting the issue, it remains visible as an issue until the task is complete. The status of the issue automatically changes to [!UICONTROL Closed] when the task completes. When this is deselected, the issue is deleted.</p> <p><b>NOTE</b>:  <p>Users without access or permissions to delete issues will not be able to delete the issue as they are converting it, regardless of the status of this setting. For information about access and permissions to issues, see:</p> 
        <ul> 
         <li> <p><a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md" class="MCXref xref">Grant access to issues</a> </p> </li> 
-        <li> <p><a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Share an issue </a> </p> </li> 
+        <li> <p><a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">[!UICONTROL Share an issue] </a> </p> </li> 
        </ul> </p> </li> 
      <li><strong>Allow Primary Contact to have access to the task</strong>: Gives the primary contact (issue creator) access to the task to review the task, make updates, and stay informed of its progress</li> 
      <li> <p><strong>Allow these settings to be changed during conversion</strong>: Allows the user who is converting the issue to change these options during the conversion of an issue to a task.</p> <!--
@@ -122,10 +122,10 @@ You must have the following access to perform the steps in this article:
    <td role="rowheader">When converting an issue to a project</td> 
    <td> <p>The settings in this section determine what happens during the conversion process from issue to project:</p> 
     <ul> 
-     <li> <p><strong>Keep the original issue and tie its resolution to the project</strong>: When you are converting the issue, it remains visible as an issue until the project is complete. The status of the issue automatically changes to Closed when the project completes. When this is deselected, the issue is deleted. </p> <p><b>NOTE</b>:  <p>Users without access or permissions to delete issues will not be able to delete the issue as they are converting it, regardless of the status of this setting. For information about access and permissions to issues, see:</p> 
+     <li> <p><strong>Keep the original issue and tie its resolution to the project</strong>: When you are converting the issue, it remains visible as an issue until the project is complete. The status of the issue automatically changes to [!UICONTROL Closed] when the project completes. When this is deselected, the issue is deleted. </p> <p><b>NOTE</b>:  <p>Users without access or permissions to delete issues will not be able to delete the issue as they are converting it, regardless of the status of this setting. For information about access and permissions to issues, see:</p> 
        <ul> 
         <li> <p><a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md" class="MCXref xref">Grant access to issues</a> </p> </li> 
-        <li> <p><a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Share an issue </a> </p> </li> 
+        <li> <p><a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">[!UICONTROL Share an issue] </a> </p> </li> 
        </ul> </p> </li> 
      <li><strong>Allow Primary Contact to have access to the project</strong>: Gives the primary contact (issue creator) access to the project to review the project, make updates, and stay informed of its progress.</li> 
      <li><strong>Allow these settings to be changed during conversion</strong>: Allows the user who is converting the issue to change the listed options during the conversion of an issue to a project.</li> 
@@ -144,9 +144,9 @@ You must have the following access to perform the steps in this article:
 
 * When it is selected, you receive an informational warning when you delete a task or issue. The warning reminds you that if the task or issue has logged hours, they will either be moved to the project or deleted. You can configure whether the hours are deleted or moved to the project in the Timesheet & Hours Preferences area of the Setup. After you confirm that you have seen the warning, the task or issue is deleted. For more information about configuring Timesheet & Hours Preferences, see [Configure timesheet and hour preferences](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
-  >[!TIP]
-  >
-  >When you delete a project with tasks and issues that have logged hours, the logged hours are either deleted or they are preserved according to the settings in the Timesheet & Hours Preferences area of Setup. The warning message does not display when deleting a project.
+   >[!TIP]
+   >
+   >When you delete a project with tasks and issues that have logged hours, the logged hours are either deleted or they are preserved according to the settings in the [!UICONTROL Timesheet & Hours Preferences] area of Setup. The warning message does not display when deleting a project.
 
 * When you deselect this option, you receive a prohibitive warning when you delete a task or issue with logged hours, or when you delete a project with hours logged for its tasks or issues. The warning specifies that the administrator does not allow for tasks or issues with logged hours to be deleted. The tasks, issues , or projects that have hours logged for tasks and issues cannot be deleted.
 
@@ -158,7 +158,7 @@ You must have the following access to perform the steps in this article:
  <tbody> 
   <tr> 
    <td role="rowheader">When a task or issue goes from "New" to "In Progress," set the Actual Start Date to</td> 
-   <td> <p>Select one of the following options for when the Actual Start Date is recorded in Workfront when a task or issue goes from <strong>New</strong> to <strong>In Progress</strong>:</p> 
+   <td> <p>Select one of the following options for when the Actual Start Date is recorded in [!DNL Workfront] when a task or issue goes from <strong>New</strong> to <strong>In Progress</strong>:</p> 
     <ul> 
      <li><strong>Now:</strong> The Actual Start Date is set to the current date.</li> 
      <li><strong>The Planned Start Date:</strong> The Actual Start Date is set to the Planned Start Date of the task or issue.</li> 
@@ -166,7 +166,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">When a task or issue is completed, set the Actual Completion Date to</td> 
-   <td> <p>Select one of the following options for when the Actual Completion Date is recorded in Workfront when a task or issue is completed:</p> 
+   <td> <p>Select one of the following options for when the Actual Completion Date is recorded in [!DNL Workfront] when a task or issue is completed:</p> 
     <ul> 
      <li><strong>Now:</strong> The Actual Completion Date is set to the current date.</li> 
      <li> <p><strong>The Planned Completion Date:</strong> The Actual Completion Date is set to the Planned Completion Date of the task or issue.</p> </li> 
@@ -177,14 +177,14 @@ You must have the following access to perform the steps in this article:
 
 ### Delegation
 
-Enabling the [!UICONTROL Allow users to delegate their tasks & issues] setting allows all users in  to temporarily delegate their work to others. 
+Enabling the [!UICONTROL Allow users to delegate their tasks & issues] setting allows all users in  to temporarily delegate their work to others.
 
 When this setting is enabled, users can see the following:
 
-* The [!UICONTROL Delegate] link in their [!UICONTROL Home] area. They can delegate approvals, or task and issue assignments from here. 
-* An indication that a task or issue is delegated to another user in the [!UICONTROL Assignments and delegations] area in the task or issue header. 
+* The [!UICONTROL Delegate] link in their [!UICONTROL Home] area. They can delegate approvals, or task and issue assignments from here.
+* An indication that a task or issue is delegated to another user in the [!UICONTROL Assignments and delegations] area in the task or issue header.
 
-If you disable the [!UICONTROL Allow users to delegate their tasks & issues] setting, the delegations that are currently scheduled will stop and the users delegated will receive an email notification that the delegation was stopped. 
+If you disable the [!UICONTROL Allow users to delegate their tasks & issues] setting, the delegations that are currently scheduled will stop and the users delegated will receive an email notification that the delegation was stopped.
 
 For information about delegating work to others, see the following articles:
 
@@ -259,21 +259,21 @@ For information about how a group administrator configures task and issue prefer
 
 >[!NOTE]
 >
->After a Workfront administrator unlocks a preference at the system level, any group administrator can configure it and then lock it to ensure that everyone in their group and the subgroups below is using the same configuration. This is parallel to the ability that a Workfront administrator has to configure and lock a preference for everyone in the system. For more information, see [Configure project preferences for a group](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md) and [Lock or unlock a project, task, or issue preference for subgroups](../../../administration-and-setup/manage-groups/create-and-manage-groups/lock-or-unlock-a-group-preference.md).
+>After a [!DNL Workfront] administrator unlocks a preference at the system level, any group administrator can configure it and then lock it to ensure that everyone in their group and the subgroups below is using the same configuration. This is parallel to the ability that a [!DNL Workfront] administrator has to configure and lock a preference for everyone in the system. For more information, see [Configure project preferences for a group](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md) and [Lock or unlock a project, task, or issue preference for subgroups](../../../administration-and-setup/manage-groups/create-and-manage-groups/lock-or-unlock-a-group-preference.md).
 
 To lock or unlock a task or issue preference so that groups can configure it
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe] Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
 
-1. Click **Project Preferences** > **Tasks & Issues**.
+1. Click **[!UICONTROL Project Preferences]** > **[!UICONTROL Tasks &] Issues**.
 
 1. Do any of the following:
 
    * If you want administrators of groups below your group to be able to configure a preference for their groups, unlock it ![](assets/unlock-toggle-button.png).
    * If you want your group and all groups below it to use your configuration for a preference, make sure that it is locked (this is the default).
 
-     >[!IMPORTANT]
-     >
-     >We recommend that you communicate with the administrators and users in groups throughout the system to ensure that all needs are accounted for in the way you configure a locked preference. When you lock it, your configuration for it is inherited by all groups in the system. And if the preference has been unlocked for any period of time, your configuration replaces those that group administrators might have made.
+      >[!IMPORTANT]
+      >
+      >We recommend that you communicate with the administrators and users in groups throughout the system to ensure that all needs are accounted for in the way you configure a locked preference. When you lock it, your configuration for it is inherited by all groups in the system. And if the preference has been unlocked for any period of time, your configuration replaces those that group administrators might have made.
 
 1. Click **Save**.

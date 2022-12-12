@@ -18,14 +18,14 @@ Using boards, you can:
 
 * Quickly set up a task board
 * Configure columns to show a status or category
-* Customize workflows with open-ended cards (either ad hoc cards or cards connected to Workfront tasks and issues)
+* Customize workflows with open-ended cards (either ad hoc cards or cards connected to [!DNL Workfront] tasks and issues)
 * Organize and manage work for a team in one place
 * Use agile planning tools
 
 >[!IMPORTANT]
 >
->Boards does not appear in the Main Menu by default. Your Workfront administrator must add Boards to your layout template to make it available in the Main Menu. For information, see [Customize the Main Menu using a layout template](../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
+>Boards does not appear in the Main Menu by default. Your [!DNL Workfront] administrator must add Boards to your layout template to make it available in the Main Menu. For information, see [Customize the Main Menu using a layout template](../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
 
 For information about how to use the basic boards features, see [Get started with boards in Adobe Workfront](../agile/get-started-with-boards/get-started-with-boards.md). For information about agile planning tools in boards, see [Agile planning tools overview](/help/quicksilver/agile/use-boards-agile-planning-tools/agile-planning-tools-overview.md).
 
-For information about additional agile tools in Workfront, see [Agile overview](../agile/agile-overview.md).
+For information about additional agile tools in [!DNL Workfront], see [Agile overview](../agile/agile-overview.md).

@@ -17,7 +17,7 @@ Using a checklist on a card allows you to break down work into smaller increment
 
 >[!NOTE]
 >
->When you create a checklist item on a connected card, a subtask is added to the connected Workfront task. Checklist items on issues are not connected to any Workfront objects.
+>When you create a checklist item on a connected card, a subtask is added to the connected [!DNL Workfront] task. Checklist items on issues are not connected to any [!DNL Workfront] objects.
 >
 >The checklist item connection to subtasks is available only in the Preview environment.
 
@@ -36,29 +36,29 @@ You must have the following access to perform the steps in this article:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront plan*</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront plan*]</strong></td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront license*</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] license*</strong></td> 
    <td> <p>Request or higher</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+&#42;To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
 
 ## Add a checklist to a card
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Boards**.
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe] Workfront, then click **Boards**.
 1. Access a board. For information, see [Create or edit a board](../../agile/get-started-with-boards/create-edit-board.md).
 1. Click the card to open the Card Details box.
 
    Or
 
-   Click the **More** menu ![More menu](assets/more-icon-spectrum.png) on the card, and select **Edit**.
+   Click the **More** menu ![[!UICONTROL More menu]](assets/more-icon-spectrum.png) on the card, and select **Edit**.
 
-1. To add a new item, click **Add checklist item**. Then, type the title of the item and press Enter. Another item is automatically added. Continue entering titles to add more items.   
+1. To add a new item, click **Add checklist item**. Then, type the title of the item and press Enter. Another item is automatically added. Continue entering titles to add more items.
 
    The counter at the top of the checklist shows the number of completed items and the total number of items.
 
@@ -70,13 +70,13 @@ You must have the following access to perform the steps in this article:
 
    For information about any of these fields, see [Add an ad hoc card to a board](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md) or [Use connected cards on boards](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
 
-1. Click **Close** to return to the card details and the full list of checklist items.
+1. Click **[!UICONTROL Close]** to return to the card details and the full list of checklist items.
 
    The assignees and due date appear on the item.
 
-   <span class="preview">For a connected card, the subtask is added to the Workfront task. (Issues are not changed.)</span>
+   <span class="preview">For a connected card, the subtask is added to the [!DNL Workfront] task. (Issues are not changed.)</span>
 
-1. To copy an item, click the **More** menu ![More menu](assets/more-icon-spectrum.png) on the item and select **Copy**.
+1. To copy an item, click the **More** menu ![More menu](assets/more-icon-spectrum.png) on the item and select **[!UICONTROL Copy]**.
 1. To delete a checklist item, click the **More** menu ![More menu](assets/more-icon-spectrum.png) on the item and select **Delete**.
 
 ## Complete checklist items
@@ -86,7 +86,7 @@ You must have the following access to perform the steps in this article:
 
    Or
 
-   Click the **More** menu ![More menu](assets/more-icon-spectrum.png) on the card, and select **Edit**.
+   Click the **More** menu ![[!UICONTROL More menu]](assets/more-icon-spectrum.png) on the card, and select **Edit**.
 
 1. Select the check box next to the item that is complete.
 
@@ -96,7 +96,7 @@ You must have the following access to perform the steps in this article:
 
    ![Completed checklist item](assets/checklist-items-with-chevron.png)
 
-1. Click **Close** to return to the board.
+1. Click **[!UICONTROL Close]** to return to the board.
 
    The counter on the card is also updated.
 

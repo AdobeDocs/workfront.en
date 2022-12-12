@@ -26,26 +26,26 @@ You must have the following access to perform the steps in this article:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront plan*</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront plan*]</strong></td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront license*</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] license*</strong></td> 
    <td> <p>Request or higher</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+&#42;To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
 
 ## Add an ad hoc card with full details
 
 An ad hoc card is not connected to a work item in Adobe Workfront.
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Boards**.
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe] Workfront, then click **Boards**.
 1. Access a board. For information, see [Create or edit a board](../../agile/get-started-with-boards/create-edit-board.md).
 1. Click **Add card &gt; New card**.
-1. In the **Card Details** box, add the following information:
+1. In the **[!UICONTROL Card Details]** box, add the following information:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -69,7 +69,7 @@ An ad hoc card is not connected to a work item in Adobe Workfront.
      </tr>
      <tr> 
       <td role="rowheader"><strong>Status</strong> </td> 
-      <td>Select a status for the card. If you click <strong>Mark Complete</strong> at the top of the card, the status automatically changes to Complete.</td> 
+      <td>Select a status for the card. If you click <strong>[!UICONTROL Mark Complete]</strong> at the top of the card, the status automatically changes to Complete.</td> 
      </tr>
      <tr> 
       <td role="rowheader"><strong>Estimation</strong></td> 
@@ -92,7 +92,7 @@ An ad hoc card is not connected to a work item in Adobe Workfront.
 
    ![Ad hoc card details](assets/boards-edit-ad-hoc-card-071822.png)
 
-1. Click **Close** to add the card to the board.
+1. Click **[!UICONTROL Close]** to add the card to the board.
 
    The assignees, tags, due date, checklist counter, estimated hours, and status are displayed on the card.
 
@@ -100,7 +100,7 @@ An ad hoc card is not connected to a work item in Adobe Workfront.
 
    >[!NOTE]
    >
-   >Showing the status on a card is available only via the early feature opt-in. For details, see [Early feature opt-in for Adobe Workfront Boards](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md).
+   >Showing the status on a card is available only via the early feature opt-in. For details, see [Early feature opt-in for [!DNL Adobe Workfront] Boards](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md).
 
 ## Quick add an ad hoc card
 
@@ -124,8 +124,8 @@ You can add ad hoc cards with only a title to quickly populate your board.
 
    Or
 
-   Click the **More** menu ![More menu](assets/more-icon-spectrum.png) on the card and select **Edit**.
+   Click the **More** menu ![[!UICONTROL More menu]](assets/more-icon-spectrum.png) on the card and select **Edit**.
 
-1. In the Card Details box, update the information as needed, and click **Close** to return to the board.
+1. In the [!UICONTROL Card Details] box, update the information as needed, and click **[!UICONTROL Close]** to return to the board.
 
    If you have column policies enabled for updating field values, changing the status on the card automatically moves the card to the corresponding column. For more information, see "Define column settings and policies" in the article [Manage board columns](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md).

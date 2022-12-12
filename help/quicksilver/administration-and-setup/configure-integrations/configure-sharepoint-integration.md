@@ -277,13 +277,14 @@ To ensure that you can access documents linked through the legacy SharePoint int
 > * The legacy SharePoint integration is labeled "SharePoint."
 > * The new SharePoint integration is labeled "SharePoint (Graph API)." 
 
-1.   Click the Main Menu icon ![Main menu](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click Setup ![Setup](../get-started-wf-administration/assets/gear-icon-settings.png).
-1.   Select **Documents** in the left navigation, then select **Cloud Providers**.
-1.   Make sure that the **SharePoint** option and **SharePoint (Graph API)** option are both enabled.
-1.   Click **Save**.
+1. Click the Main Menu icon ![Main menu](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click Setup ![Setup](../get-started-wf-administration/assets/gear-icon-settings.png).
+1. Select **Documents** in the left navigation, then select **Cloud Providers**.
+1. Make sure that the **SharePoint** option and **SharePoint (Graph API)** option are both enabled.
+1. Click **Save**.
 1. Select **Documents** in the left navigation, then select **SharePoint Integration**.
 1. Select the checkmark on the left of the list for all existing integrations, then select **Disable**.
     
+
 ## Configure the Client Secret for continued access to the legacy SharePoint integration
 
 Your SharePoint Client Secret expires once a year. To ensure continued access to the documents in your legacy SharePoint integration, you must keep its SharePoint Client Secret up to date.

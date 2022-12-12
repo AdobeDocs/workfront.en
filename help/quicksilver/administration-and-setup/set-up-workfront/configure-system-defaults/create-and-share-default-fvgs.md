@@ -23,7 +23,7 @@ When you create default filters, views, and groupings as described in this artic
 
 ## Access requirements
 
-You must have the following access to perform the steps in this article: 
+You must have the following access to perform the steps in this article:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -34,12 +34,12 @@ You must have the following access to perform the steps in this article:
    <td>Any</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license</td> 
+   <td role="rowheader">Adobe [!DNL Workfront] license</td> 
    <td>Plan</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
-   <td> <p>You must be a Workfront administrator.</p> <p><b>NOTE</b>: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>You must be a [!DNL Workfront] administrator.</p> <p><b>NOTE</b>: If you still don't have access, ask your [!DNL Workfront] administrator if they set additional restrictions in your access level. For information on how a [!DNL Workfront] administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -51,26 +51,26 @@ You must have the following access to perform the steps in this article:
 1. Do any of the following, depending on whether you are creating or editing a filter, view, or grouping:
 
    * Click **Interface** > **Filters**.
-   
-   * Click **Interface >** **Views**.
-   
-   * Click **Interface** > **Groupings**.
 
-1. If you're creating a filter, view, or grouping, click **New Filter**, **New View**, or **New Grouping** <span class="preview">(or **Add Filter**, **Add View**, or **Add Grouping**)</span>, then select the object type you want to associate the new filter, view, or grouping with.
+   * Click **Interface >** **Views**.
+
+   * Click **[!UICONTROL Interface]** > **[!UICONTROL Groupings]**.
+
+1. If you're creating a filter, view, or grouping, click **[!UICONTROL New Filter]**, **[!UICONTROL New View]**, or **[!UICONTROL New Grouping]** <span class="preview">(or **Add Filter**, **Add View**, or **Add Grouping**)</span>, then select the object type you want to associate the new filter, view, or grouping with.
 
    Or
 
-   If you're editing an existing filter, view, or grouping, select it, then click **Edit** <span class="preview">(or the Edit icon ![Edit icon](assets/edit-icon.png))</span>.
+   If you're editing an existing filter, view, or grouping, select it, then click **[!UICONTROL Edit]** <span class="preview">(or the Edit icon ![Edit icon](assets/edit-icon.png))</span>.
 
 1. Configure the filter, view, or grouping.
 
    For information about available options, see one of the following articles:
 
-   * [Filters overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md) 
-   * [Views overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md) 
-   * [Groupings overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md)
+   * [Filters overview in [!DNL Adobe Workfront]](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)
+   * [Views overview in [!DNL Adobe Workfront]](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md)
+   * [Groupings overview in [!DNL Adobe Workfront]](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md)
 
-1. Click **Save** near the lower-left corner.
+1. Click **[!UICONTROL Save]** near the lower-left corner.
 
 You can make the filter, view, or grouping available to users in your system. For more information about sharing filters, views or groupings with other users, see the section [Make filters, views, or groupings available to users](#make-filters-views-or-groupings-available-to-users) in this article.
 
@@ -80,7 +80,7 @@ You can make the filter, view, or grouping available to users in your system. Fo
 
 You can choose to show or hide filters, views, or groupings from the Layout Template. Visible filters are available for all users system-wide. You can use a Layout Template to hide visible filters for specific users or groups.
 
-1. Click **Interface**, then click one of the following: **Filters**, **Views**, or **Groupings**.
+1. Click **[!UICONTROL Interface]**, then click one of the following: **Filters**, **Views**, or **Groupings**.
 
 1. (Conditional) Select the filter, view, or grouping that you want to make available to users, then click **Enable system-wide**.
 
@@ -90,20 +90,20 @@ You can choose to show or hide filters, views, or groupings from the Layout Temp
 >
 >If you want to keep the filter, view, or grouping available for most users, but hide it from others, you can use the Layout Template. For more information, see [Customize Filters, Views, and Groupings using a layout template](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md).
 
-1. (Conditional) Select the filter, view, or grouping that you want to make hide from users, then click **Disable system-wide**. Once disabled, the filter, view, or grouping will be hidden from the layout template as well as users across the system.
+1. (Conditional) Select the filter, view, or grouping that you want to make hide from users, then click **[!UICONTROL Disable system-wide]**. Once disabled, the filter, view, or grouping will be hidden from the layout template as well as users across the system.
 
 </div>
 
 ## Make filters, views, or groupings available to all users {#make-filters-views-or-groupings-available-to-users}
 
-These steps explain how to make filters, views, and groupings available from the Share dialog in the Interface area in Setup. This settings acts like an on/off switch for the entire system, including the Layout Template.
+These steps explain how to make filters, views, and groupings available from the [!UICONTROL Share] dialog in the Interface area in Setup. This settings acts like an on/off switch for the entire system, including the Layout Template.
 
 {{step-1-to-setup}}
 
-1. Click **Interface**, then click one of the following: **Filters**, **Views**, or **Groupings**.
+1. Click **[!UICONTROL Interface]**, then click one of the following: **Filters**, **Views**, or **Groupings**.
 
-1. Select the filter, view, or grouping that you want to make available to users, then click **Share** <span class="preview">(or the Share icon ![Share icon](assets/share-icon.png))</span> to open the Filter Access, View Access, or Grouping Access form.
-1. (Conditional) To make the filter, view, or grouping available to all users in the system, click the **Gear** drop-down menu ![](assets/gear-menu-for-sharing-items.png), then click **Make this visible system-wide**. All users in the system can now see the filter, view, or grouping.
+1. Select the filter, view, or grouping that you want to make available to users, then click **[!UICONTROL Share]** <span class="preview">(or the Share icon ![Share icon](assets/share-icon.png))</span> to open the Filter Access, View Access, or Grouping Access form.
+1. (Conditional) To make the filter, view, or grouping available to all users in the system, click the **Gear** drop-down menu ![](assets/gear-menu-for-sharing-items.png), then click **[!UICONTROL Make this visible system-wide]**. All users in the system can now see the filter, view, or grouping.
 
    Or
 
@@ -121,15 +121,15 @@ These steps explain how to make filters, views, and groupings available from the
 
 1. Do any of the following, depending on whether you are deleting a filter, view, or grouping:
 
-   * Click **Interface** > **Filters**
-   
-   * Click **Interface** > **Views**
-   
-   * Click **Interface** > **Groupings**
+   * Click **[!UICONTROL Interface]** > **[!UICONTROL Filters]**
 
-1. Select one or more items in the list, then click **Delete** <span class="preview">(or the Delete icon ![Delete icon](assets/delete.png))</span>.
+   * Click **[!UICONTROL Interface]** > **[!UICONTROL Views]**
+
+   * Click **[!UICONTROL Interface]** > **[!UICONTROL Groupings]**
+
+1. Select one or more items in the list, then click **[!UICONTROL Delete]** <span class="preview">(or the Delete icon ![Delete icon](assets/delete.png))</span>.
 1. See one of the following articles for detailed information about configuring a filter, view, or grouping.
 
-   * [Filters overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md) 
-   * [Views overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md) 
-   * [Groupings overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md)
+   * [Filters overview in [!DNL Adobe Workfront]](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)
+   * [Views overview in [!DNL Adobe Workfront]](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md)
+   * [Groupings overview in [!DNL Adobe Workfront]](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md)

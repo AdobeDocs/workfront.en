@@ -19,7 +19,7 @@ As an Adobe Workfront administrator, you can configure document integrations to 
 
 >[!NOTE]
 >
->To allow open communication between Workfront Proof and the Workfront servers, you might need to add certain IP addresses to your allowlist. For more information, see [Configure your firewall's allowlist](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
+>To allow open communication between [!DNL Workfront] Proof and the [!DNL Workfront] servers, you might need to add certain IP addresses to your allowlist. For more information, see [Configure your firewall's allowlist](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
 
 ## Access requirements
 
@@ -34,17 +34,17 @@ You must have the following to perform the steps in this article:
    <td>Any</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license</td> 
+   <td role="rowheader">Adobe [!DNL Workfront] license</td> 
    <td>Plan</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>You must be a Workfront administrator. For information on Workfront administrators, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>.</p> </td> 
+   <td> <p>You must be a [!DNL Workfront] administrator. For information on [!DNL Workfront] administrators, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+&#42;To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
 
 ## Supported integrations
 
@@ -54,54 +54,53 @@ You can configure the following integrations for managing documents:
 
 * Workfront Library
 
-  <!--
+   <!--
   Experience Manager Assets Essentials </p>
   -->
 
-* Workfront DAM   
+* Workfront DAM
 
 * Workfront Proof
 
-  Linking proofs from Workfront Proof allows you to make proofs that were originally created within Workfront Proof available within Workfront. A Pro Workfront Plan or higher is required to use this feature. For more information about the various plans available, see [Workfront Plans.](https://www.workfront.com/plans)
+   Linking proofs from [!DNL Workfront] Proof allows you to make proofs that were originally created within [!DNL Workfront] Proof available within Workfront. A Pro Workfront Plan or higher is required to use this feature. For more information about the various plans available, see [Workfront Plans.](https://www.workfront.com/plans)
 
 * Microsoft SharePoint
 
-  For information about integrating with SharePoint, see [Configure the SharePoint integration](../../administration-and-setup/configure-integrations/configure-sharepoint-integration.md).
+   For information about integrating with SharePoint, see [Configure the SharePoint integration](../../administration-and-setup/configure-integrations/configure-sharepoint-integration.md).
 
 * Third party cloud document providers:
 
    * Box
    * Dropbox
-   * Dropbox Business 
+   * Dropbox Business
    * WebDAM
    * Microsoft OneDrive
    * Google Drive
 
-     <!--Quip-->
-
-  >[!TIP]
-  >
-  >You can proof and approve documents linked from an external cloud provider the same way you proof and approve documents uploaded directly to Workfront.
+      <!--Quip-->
+   >[!TIP]
+   >
+   >You can proof and approve documents linked from an external cloud provider the same way you proof and approve documents uploaded directly to Workfront.
 
 * Other document providers (through custom document integrations).
 
-  A Pro Workfront Plan or higher is required to use this feature. For more information about the various plans available, see [Workfront Plans.](https://www.workfront.com/plans)
+   A Pro Workfront Plan or higher is required to use this feature. For more information about the various plans available, see [Workfront Plans.](https://www.workfront.com/plans)
 
-In addition, you can enhance your Workfront document experience with a native Digital Asset Management (DAM) system, or with third-party DAM integrations. Administrators must enable these features in order for users to link the service to their Workfront account. For more information about Workfront DAM, see [Managing Documents with Adobe Workfront DAM](../../documents/workfront-dam-within-workfront/manage-docs-with-wf-dam.md).
+In addition, you can enhance your [!DNL Workfront] document experience with a native Digital Asset Management (DAM) system, or with third-party DAM integrations. Administrators must enable these features in order for users to link the service to their [!DNL Workfront] account. For more information about Workfront DAM, see [Managing Documents with Adobe Workfront DAM](../../documents/workfront-dam-within-workfront/manage-docs-with-wf-dam.md).
 
 ## Configure integrations to manage documents
 
-1. Log in to Workfront as the administrator.
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
+1. Log in to [!DNL Workfront] as the administrator.
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe] Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
 
 1. In the left panel, click **Documents** > **Cloud Providers.**
 
-1. (Optional) To stored documents in a document services application and not in Workfront, select **Prevent Users From Storing Documents in Workfront.** 
+1. (Optional) To stored documents in a document services application and not in Workfront, select **Prevent Users From Storing Documents in Workfront.**
 
 1. Select the integrations you want enabled.
 1. Click **Save**.
 
-If you are setting up integrations with Workfront Library or Workfront DAM, you can enable Workfront to include metadata with documents. For information about mapping metadata, see [Set up metadata mapping](../../administration-and-setup/configure-integrations/set-up-metadata-mapping.md).
+If you are setting up integrations with [!DNL Workfront] Library or [!UICONTROL Workfront DAM], you can enable [!DNL Workfront] to include metadata with documents. For information about mapping metadata, see [Set up metadata mapping](../../administration-and-setup/configure-integrations/set-up-metadata-mapping.md).
 
 ## Configure custom document integrations
 
@@ -109,14 +108,14 @@ If you are setting up integrations with Workfront Library or Workfront DAM, you 
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: ***DON'T DELETE, DRAFT OR HIDE THIS SECTION IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **)</p>
 -->
 
-A custom document integration allows Workfront users to link files into Workfront from practically any system, provided that the system is made to work with Workfront.
+A custom document integration allows [!DNL Workfront] users to link files into [!DNL Workfront] from practically any system, provided that the system is made to work with Workfront.
 
-To make the custom integration available to users, you first need to build the integration. For information about how to build integrations to be used with Workfront, see [Document Webhooks API](../../wf-api/doc-wbhks-api/docu-webhook-api.md).
+To make the custom integration available to users, you first need to build the integration. For information about how to build integrations to be used with [!DNL Workfront], see [Document Webhooks API](../../wf-api/doc-wbhks-api/docu-webhook-api.md).
 
 After the custom document integration is built, you can make it available to users on your site.
 
-1. Log in to Workfront as the administrator.
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).  
+1. Log in to [!DNL Workfront] as the administrator.
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe] Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
 
 1. In the left panel, click **Documents** > **Custom Integration.**
 
@@ -139,8 +138,8 @@ After the custom document integration is built, you can make it available to use
       <td role="rowheader">Authentication Type</td> 
       <td> <p>The authentication method to use when making authorized API calls to the custom integration.</p> 
        <ul> 
-        <li>If you choose <strong>OAuth</strong>, continue with Step 6.</li> 
-        <li>If you choose <strong>ApiKey</strong>, continue with Step 7.</li> 
+        <li>If you choose <strong>[!DNL OAuth]</strong>, continue with Step 6.</li> 
+        <li>If you choose <strong>[!UICONTROL ApiKey]</strong>, continue with Step 7.</li> 
        </ul> </td> 
      </tr> 
     </tbody> 
@@ -154,7 +153,7 @@ After the custom document integration is built, you can make it available to use
     <tbody> 
      <tr> 
       <td role="rowheader">Authentication URL</td> 
-      <td>The full URL used for user authentication. Workfront navigates users to this address as part of the OAuth provisioning process.</td> 
+      <td>The full URL used for user authentication. [!DNL Workfront] navigates users to this address as part of the OAuth provisioning process.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Token Endpoint URL</td> 
@@ -177,13 +176,13 @@ After the custom document integration is built, you can make it available to use
 
    >[!TIP]
    >
-   >The Workfront Redirect URI that displays at the bottom of the Custom Integration page lists the URI used to register this integration with the external document provider.
+   >The [!DNL Workfront] Redirect URI that displays at the bottom of the [!UICONTROL Custom Integration] page lists the URI used to register this integration with the external document provider.
 
 1. (Conditional) If you selected **ApiKey** authentication for the **Authentication Type**, specify the API key that was issued by the custom document provider.
 
    Workfront uses this API key to make authorized API calls to the document provider.
 
-1. Click **Save** to create the integration.
+1. Click **[!UICONTROL Save]** to create the integration.
 
 ## Use document integrations
 
@@ -195,48 +194,48 @@ For information about how users can use proofing, see [Create proofs](../../revi
 
 For information about how users can use third-party document integrations after you have configured them, see [Link documents from external applications](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
 
-### Configure Workfront to send metadata to Workfront DAM {#configure-workfront-to-send-metadata-to-workfront-dam}
+### Configure [!DNL Workfront] to send metadata to [!UICONTROL Workfront DAM] {#configure-workfront-to-send-metadata-to-workfront-dam}
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: ***DON'T DELETE, DRAFT OR HIDE THIS SECTION IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **) </p>
 -->
 
-When sending a document from Workfront to Workfront DAM, you can also send information associated with that document. Information about the document is mapped to Workfront DAM as metadata.
+When sending a document from [!DNL Workfront] to [!UICONTROL Workfront DAM], you can also send information associated with that document. Information about the document is mapped to [!UICONTROL Workfront DAM] as metadata.
 
-Information is mapped one-way only, from Workfront to Workfront DAM and it is transferred only when the document is uploaded to Workfront DAM. Any future changes in the Workfront fields will not update metadata fields in Workfront DAM after the document has already been uploaded.  
-You can map the same Workfront field to various Workfront DAM fields, but you cannot use the same Workfront DAM field for multiple Workfront fields. 
+Information is mapped one-way only, from [!DNL Workfront] to [!UICONTROL Workfront DAM] and it is transferred only when the document is uploaded to [!UICONTROL Workfront] DAM. Any future changes in the Workfront fields will not update metadata fields in [!UICONTROL Workfront DAM] after the document has already been uploaded.\
+You can map the same [!DNL Workfront] field to various [!UICONTROL Workfront DAM] fields, but you cannot use the same [!UICONTROL Workfront DAM] field for multiple [!DNL Workfront] fields.
 
-If you must configure multiple Workfront fields to export to one Workfront DAM field, first create a calculated custom field in Workfront to display all the individual custom fields of an object. Then, map the calculated Workfront field to one Workfront DAM field.  
+If you must configure multiple [!DNL Workfront] fields to export to one [!UICONTROL Workfront DAM] field, first create a calculated custom field in [!DNL Workfront] to display all the individual custom fields of an object. Then, map the calculated Workfront field to one [!UICONTROL Workfront DAM] field.\
 For more information about calculated custom fields, see [Add calculated data to a custom form](../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
 
-The mapping affects all the documents uploaded by any user from Workfront to Workfront DAM.
+The mapping affects all the documents uploaded by any user from [!DNL Workfront] to [!UICONTROL Workfront] DAM.
 
-As a Workfront administrator, you must enable Workfront DAM in Workfront before you can map the fields for the metadata mapping process. For more information about how to enable Workfront DAM, see [Configure Workfront to send metadata to Workfront DAM](#configure-workfront-to-send-metadata-to-workfront-dam).  
+As a [!DNL Workfront] administrator, you must enable [!DNL Workfront] DAM in Workfront before you can map the fields for the metadata mapping process. For more information about how to enable Workfront DAM, see [Configure Workfront to send metadata to Workfront DAM](#configure-workfront-to-send-metadata-to-workfront-dam).
 
-To configure Workfront to send metadata to Workfront DAM:
+To configure [!DNL Workfront] to send metadata to [!UICONTROL Workfront] DAM:
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).  
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe] Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
 
-1. Click **Documents** > **Metadata Mapping**.   
+1. Click **Documents** > **Metadata Mapping**.
 
-1. In the **Select Source Field for Mapping** field, begin typing the name of the Workfront field you want to map to Workfront DAM, then select it when you see it in the list. 
-1. In the **Select Target Field for Mapping**, select the Workfront DAM field you want to populate with the information in the selected Workfront field.
+1. In the **[!UICONTROL Select Source Field for Mapping]** field, begin typing the name of the Workfront field you want to map to [!UICONTROL Workfront DAM], then select it when you see it in the list.
+1. In the **[!UICONTROL Select Target Field for Mapping]**, select the [!UICONTROL Workfront DAM] field you want to populate with the information in the selected [!DNL Workfront] field.
 
    >[!NOTE]
    >
-   > All documents sent to Workfront DAM by users who have the rights to do so have their metadata updated with the Workfront fields mapped here, when they upload to Workfront DAM.
+   > All documents sent to [!UICONTROL Workfront DAM] by users who have the rights to do so have their metadata updated with the [!DNL Workfront] fields mapped here, when they upload to [!UICONTROL Workfront DAM].
 
-1. Click **Add Mapping**.  
+1. Click **Add Mapping**.
 
-1. Continue adding more Workfront fields and corresponding Workfront DAM fields. 
+1. Continue adding more [!UICONTROL Workfront] fields and corresponding [!UICONTROL Workfront DAM] fields.
 
 ### Delete mapped fields
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).  
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe] Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
 
 1. Expand **Documents**, then click **Metadata Mapping**.
 
 1. In the list of fields, select any of the fields you want to remove from metadata mapping.
 1. Click **Delete**.
 
-   The fields are removed from metadata mapping and the information contained in them is not transferred to Workfront DAM with the uploaded documents.
+   The fields are removed from metadata mapping and the information contained in them is not transferred to [!UICONTROL Workfront DAM] with the uploaded documents.

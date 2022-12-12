@@ -17,7 +17,7 @@ You can add risks to a project in the planning phase to identify potential obsta
 
 ## Access requirements
 
-You must have the following access to perform the steps in this article: 
+You must have the following access to perform the steps in this article:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -28,30 +28,30 @@ You must have the following access to perform the steps in this article:
    <td>Any</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license</td> 
+   <td role="rowheader">Adobe [!DNL Workfront] license</td> 
    <td>Plan</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
-   <td> <p>You must be a Workfront administrator.</p> <p><b>NOTE</b>: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>You must be a [!DNL Workfront] administrator.</p> <p><b>NOTE</b>: If you still don't have access, ask your [!DNL Workfront] administrator if they set additional restrictions in your access level. For information on how a [!DNL Workfront] administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Risks types
 
-Risk types are labels you can use for your risks to categorize them for reporting purposes. They are created in the **Setup** area by the Adobe Workfront administrator. After risk types are established in your **Setup** area, they are universal to your system. All project owners can use the same risk types for their projects.
+Risk types are labels you can use for your risks to categorize them for reporting purposes. They are created in the **[!UICONTROL Setup]** area by the [!DNL Adobe Workfront] administrator. After risk types are established in your **[!UICONTROL Setup]** area, they are universal to your system. All project owners can use the same risk types for their projects.
 
 ## Edit and create risk types
 
-Some risk types are already in Workfront, by default. To reflect the needs of your organization, you can either edit the existing risk types, or create new risk types.
+Some risk types are already in [!DNL Workfront], by default. To reflect the needs of your organization, you can either edit the existing risk types, or create new risk types.
 
-* [Edit existing risk types](#edit-existing-risk-types) 
+* [Edit existing risk types](#edit-existing-risk-types)
 * [Create new risk types](#create-new-risk-types)
 
 ### Edit existing risk types {#edit-existing-risk-types}
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe] Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
 
 1. Click **Risk Types**.
 1. Select the risk type you want to edit.
@@ -68,7 +68,7 @@ You can create new risk types, in addition to the default ones, to reflect the n
 
 To create a new risk type:
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe] Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
 
 1. Click **Risk Types**.
 1. Click **New Risk Type**.
@@ -80,7 +80,7 @@ To create a new risk type:
 
    >[!NOTE]
    >
-   >If you need to edit a custom risk type, see the section [Edit existing risk types](#edit-existing-risk-types) in this article.
+   >If you need to edit a custom risk type, see the section [[!UICONTROL Edit existing] risk types](#edit-existing-risk-types) in this article.
 
 ## Attach risks with risk types on projects
 

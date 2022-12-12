@@ -30,61 +30,61 @@ You must have the following access to perform the steps in this article:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront plan*</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront plan*]</strong></td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront license*</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] license*</strong></td> 
    <td> <p>Plan to create a new agile team; Work or higher to convert a team to an agile team</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan or license type you have, contact your Workfront administrator.
+&#42;To find out what plan or license type you have, contact your [!DNL Workfront] administrator.
 
 ## Decide on an agile methodology
 
 You can use either a Scrum or Kanban agile methodology for your agile team. Each methodology provides various benefits. The way your agile team works determines the agile methodology you choose to use.
 
-Both Scrum and Kanban agile methodologies in Workfront allow you to move stories across a story board to indicate a status change and progress of the story.
+Both Scrum and Kanban agile methodologies in [!DNL Workfront] allow you to move stories across a story board to indicate a status change and progress of the story.
 
-Scrum and Kanban agile methodologies in Workfront differ in the following ways:
+Scrum and Kanban agile methodologies in [!DNL Workfront] differ in the following ways:
 
-### Benefits of using Kanban in Workfront
+### Benefits of using Kanban in [!DNL Workfront]
 
-The Kanban agile methodology in Workfront enables you to more easily move stories across an agile story board while limiting the amount of work in progress. There are no start and end dates when using the Kanban agile methodology.
+The [!DNL Kanban] agile methodology in [!DNL Workfront] enables you to more easily move stories across an agile story board while limiting the amount of work in progress. There are no start and end dates when using the [!DNL Kanban] agile methodology.
 
 The following functionality supports this methodology:
 
-* Display the backlog on the Kanban agile story board.  
-  For more information, see [Add the backlog to the Kanban board](../../agile/use-kanban-in-an-agile-team/view-the-backlog-on-the-kanban-board.md).
+* Display the backlog on the [!DNL Kanban] agile story board.\
+   For more information, see [Add the backlog to the Kanban board](../../agile/use-kanban-in-an-agile-team/view-the-backlog-on-the-kanban-board.md).
 
-* Configure items on the backlog to be automatically added to the Kanban agile story board when other items are moved to a status that equates with Complete.  
-  For more information, see the section [Configure stories to be automatically added from the backlog](../../agile/get-started-with-agile-in-workfront/configure-kanban.md#configur5) in the article [Configure Kanban](../../agile/get-started-with-agile-in-workfront/configure-kanban.md).
+* Configure items on the backlog to be automatically added to the Kanban agile story board when other items are moved to a status that equates with Complete.\
+   For more information, see the section [Configure stories to be automatically added from the backlog](../../agile/get-started-with-agile-in-workfront/configure-kanban.md#configur5) in the article [Configure Kanban](../../agile/get-started-with-agile-in-workfront/configure-kanban.md).
 
-* Configure a Work In Progress (WIP) limit to be displayed on the Kanban agile story board.  
-  For more information, see [Manage the work in progress (WIP) limit on the Kanban board](../../agile/use-kanban-in-an-agile-team/work-in-progress-limit-on-the-kanban-board.md).
+* Configure a Work In Progress (WIP) limit to be displayed on the [!UICONTROL Kanban] agile story board.\
+   For more information, see [Manage the work in progress (WIP) limit on the Kanban board](../../agile/use-kanban-in-an-agile-team/work-in-progress-limit-on-the-kanban-board.md).
 
 ### Benefits of using Scrum in Workfront
 
-The Scrum agile methodology in Workfront enables you to add a set of stories to an agile iteration and create a story board for that iteration. The iteration is based on the start and end dates that you define.
+The Scrum agile methodology in [!DNL Workfront] enables you to add a set of stories to an agile iteration and create a story board for that iteration. The iteration is based on the start and end dates that you define.
 
 The following functionality supports this methodology:
 
 * Include issues on the Scrum story board
 * Include issues on the backlog of an agile team
 * Subtasks can be displayed on the Scrum story board
-* View a burndown chart to see progress against stories during the iteration  
-  For more information, see [Agile burndown chart overview](../../agile/use-scrum-in-an-agile-team/burndown/burndown-chart-overview.md).
+* View a burndown chart to see progress against stories during the iteration\
+   For more information, see [Agile burndown chart overview](../../agile/use-scrum-in-an-agile-team/burndown/burndown-chart-overview.md).
 
 ## Create a new agile team
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Teams**.
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe] Workfront, then click **Teams**.
 1. Click the **Switch Teams** icon ![Switch team icon](assets/switch-team-icon.png), then click **Create New Team**.
 
    ![Select Create new team.](assets/create-new-team-350x198.png)
 
-1. Specify the following information on the New Team dialog:
+1. Specify the following information on the [!UICONTROL New Team] dialog:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -100,7 +100,7 @@ The following functionality supports this methodology:
      </tr> 
      <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
       <td role="rowheader"><strong>Group</strong> </td> 
-      <td> <p>Begin typing the name of a group to add to the team, then select the name when it appears in the drop-down list.</p> <p>Note: When a team is assigned to a group or subgroup, any group administrators of that group or subgroup can manage the team without being a member of it. Group administrators can go to the Teams area from the Main Menu and click the Switch Teams arrow <img src="assets/switch-team-icon.png" alt="Switch team icon"> to list all of the teams that are assigned to the groups that they manage.</p> </td> 
+      <td> <p>Begin typing the name of a group to add to the team, then select the name when it appears in the drop-down list.</p> <p>Note: When a team is assigned to a group or subgroup, any group administrators of that group or subgroup can manage the team without being a member of it. Group administrators can go to the [!UICONTROL Teams] area from the Main Menu and click the [!UICONTROL Switch Teams] arrow <img src="assets/switch-team-icon.png" alt="Switch team icon"> to list all of the teams that are assigned to the groups that they manage.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Team Members</strong> </td> 
@@ -108,8 +108,8 @@ The following functionality supports this methodology:
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Description</strong> </td> 
-      <td><p>Type a description for the team.</p> <p>The description displays on the top right of the Teams area when the team is selected.</p>
-      <p>If the description is long, you can click it to display the full description in a pop-up. If you have access to edit the team settings, you can also edit the description directly in the pop-up.</p></td>
+      <td><p>Type a description for the team.</p> <p>The description displays on the top right of the [!UICONTROL Teams] area when the team is selected.</p>
+      <p>If the description is long, you can click it to display the full description in a pop-up. If you have access to edit the [!UICONTROL team settings], you can also edit the description directly in the pop-up.</p></td>
      </tr> 
     </tbody> 
    </table>
@@ -118,28 +118,28 @@ The following functionality supports this methodology:
 
    For information on configuring an Agile team, see the following articles:
 
-   * [Configure Kanban](../../agile/get-started-with-agile-in-workfront/configure-kanban.md) 
+   * [Configure Kanban](../../agile/get-started-with-agile-in-workfront/configure-kanban.md)
    * [Configure Scrum](../../agile/get-started-with-agile-in-workfront/configure-scrum.md)
 
 ## Convert an existing team into an agile team
 
 You can convert an existing team to be an agile team:
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Teams**.
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe] Workfront, then click **Teams**.
 1. Click the **Switch team** icon ![Switch team icon](assets/switch-team-icon.png), then either select a new team from the drop-down menu or search for a team in the search bar.
 
 1. Select the team that you want to convert to an agile team.
-1. Click the **More** menu, then select **Edit**.  
-   Only team members with either a Plan or Work license see this option.  
+1. Click the **[!UICONTROL More]** menu, then select **Edit**.\
+   Only team members with either a Plan or Work license see this option.\
    ![](assets/edit-team-settings-350x205.png)
 
 1. In the **Agile** section, select **This is an Agile Team**.
 
-1. In the **Methodology** section, select whether the team will be using a **Scrum** or **Kanban** agile methodology.  
+1. In the **[!UICONTROL Methodology]** section, select whether the team will be using a **Scrum** or **[!UICONTROL Kanban]** agile methodology.
 
 1. Click **Save Changes.**
 
    For information on configuring an Agile team, see the following articles:
 
-   * [Configure Kanban](../../agile/get-started-with-agile-in-workfront/configure-kanban.md) 
+   * [Configure Kanban](../../agile/get-started-with-agile-in-workfront/configure-kanban.md)
    * [Configure Scrum](../../agile/get-started-with-agile-in-workfront/configure-scrum.md)

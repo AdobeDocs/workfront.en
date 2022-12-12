@@ -23,29 +23,29 @@ The Scrum agile story board displays together with the completion status and the
 
 The story board consists of the following elements:
 
-* **Parent Story Column:** Unlike the other columns on the story board, the  Parent Story  column is not a task status, but rather exists to house any stories that contain subtasks in the iteration or project. Only parent stories that have at least one subtask on the story board can reside in this column. The parent stories themselves do not move from status to status across the story board.
+* **[!UICONTROL Parent Story] Column:** Unlike the other columns on the story board, the  Parent Story  column is not a task status, but rather exists to house any stories that contain subtasks in the iteration or project. Only parent stories that have at least one subtask on the story board can reside in this column. The parent stories themselves do not move from status to status across the story board.
 
-  In an iteration, this column appears on the story board only when one or more stories on the story board contains at least one subtask that meets the following requirements:
+   In an iteration, this column appears on the story board only when one or more stories on the story board contains at least one subtask that meets the following requirements:
 
-  * Assigned to the same agile team as the parent task
-  * Belongs to the iteration
+   * Assigned to the same agile team as the parent task
+   * Belongs to the iteration
 
-     In a project, this column appears any time a task has at least one subtask.
+      In a project, this column appears any time a task has at least one subtask.
 
-     ![Parent story column](assets/agile-parentstory-swimlane.png)
+      ![Parent story column](assets/agile-parentstory-swimlane.png)
 
 * **Task Statuses:** Indicate how a story is progressing through the iteration or project based on which status column the story is in.
 
-  Task statuses can be customized for the project by modifying the agile view, as described in [Create or customize an Agile view](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md#customizing-an-agile-view) in [Views overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+   Task statuses can be customized for the project by modifying the agile view, as described in [[!UICONTROL Create or customize an Agile view]](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md#customizing-an-agile-view) in [Views overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
 * **Swim Lane:** When a parent story and its subtasks appear on the story board, a swim lane is created specifically for the story and its subtasks. This provides a visual distinction to better view how a story's subtasks are progressing across the story board.
 
-  In an iteration, swim lanes appear on the story board only when a story on the story board contains at least one subtask that meets the following requirements:
+   In an iteration, swim lanes appear on the story board only when a story on the story board contains at least one subtask that meets the following requirements:
 
-  * Assigned to the same agile team as the parent task
-  * Belongs to the iteration
+   * Assigned to the same agile team as the parent task
+   * Belongs to the iteration
 
-  In a project, swim lanes appear any time a task has at least one subtask or one parent task.
+   In a project, swim lanes appear any time a task has at least one subtask or one parent task.
 
 * **Individual Stories:** Individual stories and issues are displayed below any swim lanes on the story board. This provides a visual distinction from the stories that are part of a swim lane.
 

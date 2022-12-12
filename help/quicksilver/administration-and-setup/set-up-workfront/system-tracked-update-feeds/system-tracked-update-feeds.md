@@ -4,7 +4,7 @@ content-type: reference;overview
 product-area: system-administration
 navigation-topic: system-tracked-update-feeds
 title: System-tracked updates
-description: Adobe Workfront captures the activity taking place on certain objects by logging status information in the object's Updates area.
+description: Adobe Workfront captures the activity taking place on certain objects by logging status information in the object's [!UICONTROL Updates] area.
 author: Caroline
 feature: System Setup and Administration
 role: Admin
@@ -12,17 +12,17 @@ exl-id: c88823a7-100b-40dd-b4f1-bead53ae5dc4
 ---
 # System-tracked updates
 
-Adobe Workfront captures the activity taking place on certain objects by logging status information in the object's Updates area.
+Adobe Workfront captures the activity taking place on certain objects by logging status information in the object's [!UICONTROL Updates] area.
 
-The Updates area includes the following types of updates:
+The [!UICONTROL Updates] area includes the following types of updates:
 
 * **User updates:** Manually entered by users. Also referred to as comments, replies, and notes.
 
-  ![](assets/updates-qs-350x125.png)
+   ![](assets/updates-qs-350x125.png)
 
-* **System updates:** Automatically made by the system. A system update includes a brief note describing what kind of change happened to the item. 
+* **System updates:** Automatically made by the system. A system update includes a brief note describing what kind of change happened to the item.
 
-  <!--
+   <!--
   DRAFTED IN FLARE:
   Timestamps for system updates are based on your operating system's timezone.
   
@@ -41,9 +41,9 @@ The following objects can have updates:
 * Documents
 * Timesheets
 
-Your Workfront license determines whether system updates display by default in the Updates area of objects. Workfront users with a Plan license have system updates displayed in the Updates area by default. However, users can filter out system updates, as described in the [Enable or disable system updates](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md#enable) section in [Update work](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). All other Workfront licenses filter system updates by default.
+Your [!DNL Workfront] license determines whether system updates display by default in the [!UICONTROL Updates] area of objects. [!DNL Workfront] users with a Plan license have system updates displayed in the [!UICONTROL Updates] area by default. However, users can filter out system updates, as described in the [[!UICONTROL Enable] or disable system updates](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md#enable) section in [Update work](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). All other [!DNL Workfront] licenses filter system updates by default.
 
-Workfront administrators can define what type of changes the system should track in the Updates area. Not all objects have configurable update status feeds. The following objects have an Updates area that captures system-tracked update feeds, but do not have configurable update status feeds:
+Workfront administrators can define what type of changes the system should track in the [!UICONTROL Updates] area. Not all objects have configurable [!UICONTROL update] status feeds. The following objects have an [!UICONTROL Updates] area that captures system-tracked update feeds, but do not have configurable update status feeds:
 
 * Templates
 * Template tasks

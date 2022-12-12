@@ -1,18 +1,18 @@
 ---
-title: Create OAuth2 applications for Workfront integrations
+title: Create OAuth2 applications for [!DNL Workfront] integrations
 user-type: administrator
 product-area: system-administration;workfront-integrations
 navigation-topic: administrator-integrations
-description: As an Adobe Workfront administrator, you can create OAuth2 applications for your instance of Workfront, which allow other applications to access Workfront. Your users can then give permission to those other applications to access their Workfront data. In this way, you can integrate Workfront with applications of your choice, including your own in-house applications.
+description: As an Adobe [!DNL Workfront] administrator, you can create OAuth2 applications for your instance of [!DNL Workfront], which allow other applications to access Workfront. Your users can then give permission to those other applications to access their Workfront data. In this way, you can integrate Workfront with applications of your choice, including your own in-house applications.
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: e13c7dda-8945-47ad-b6d3-4d6a62b368f5
 ---
-# Create OAuth2 applications for Workfront integrations
+# Create OAuth2 applications for [!DNL Workfront] integrations
 
-As an Adobe Workfront administrator, you can create OAuth2 applications for your instance of Workfront, which allow other applications to access Workfront. Your users can then give permission to those other applications to access their Workfront data. In this way, you can integrate Workfront with applications of your choice, including your own in-house applications.
+As an Adobe [!DNL Workfront] administrator, you can create OAuth2 applications for your instance of [!DNL Workfront], which allow other applications to access Workfront. Your users can then give permission to those other applications to access their Workfront data. In this way, you can integrate Workfront with applications of your choice, including your own in-house applications.
 
-When you create an OAuth2 application, you generate a Client ID and Client Secret. Your users can then use the Client ID in API calls to integrate with the application you have created.
+When you create an [!UICONTROL OAuth2] application, you generate a Client ID and Client Secret. Your users can then use the Client ID in API calls to integrate with the application you have created.
 
 >[!NOTE]
 >
@@ -39,22 +39,22 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> You must be a Workfront administrator. </td> 
+   <td> You must be a [!DNL Workfront] administrator. </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+&#42;To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
 
 ## OAuth2 overview
 
 Imagine that an application needs to pull some specific information from Workfront. An application that requests information is called a client. For this example, the client name is ClientApp. ClientApp needs access to a particular user's information, and therefore needs to access Workfront as that user. If your user gives ClientApp their username and password, ClientApp could access all of the data that the user can access. This is a security risk, because ClientApp only needs a small, specific set of information.
 
-When you create an OAuth2 app for ClientApp, you are essentially telling Workfront that ClientApp is allowed to access Workfront, but only if the user whose account ClientApp is accessing gives permission for the access.
+When you create an [!UICONTROL OAuth2] app for [!DNL ClientApp], you are essentially telling [!DNL Workfront] that ClientApp is allowed to access [!DNL Workfront], but only if the user whose account ClientApp is accessing gives permission for the access.
 
-## Create an OAuth2 application
+## Create an [!UICONTROL OAuth2] application
 
-When creating an OAuth2 application, choose the type of application that best meets the needs of your integration.
+When creating an [!UICONTROL OAuth2] application, choose the type of application that best meets the needs of your integration.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -105,15 +105,15 @@ When creating an OAuth2 application, choose the type of application that best me
 
 >[!NOTE]
 >
->You can have up to ten OAuth2 Applications total at a time.
+>You can have up to ten [!UICONTROL OAuth2] Applications total at a time.
 
-* [Create an OAuth2 application using server authentication (JWT flow)](#create-an-oauth2-application-using-server-authentication-jwt-flow) 
-* [Create an OAuth2 application using user credentials (Authorization code flow)](#create-an-oauth2-application-using-user-credentials-authorization-code-flow) 
+* [Create an OAuth2 application using server authentication (JWT flow)](#create-an-oauth2-application-using-server-authentication-jwt-flow)
+* [Create an OAuth2 application using user credentials (Authorization code flow)](#create-an-oauth2-application-using-user-credentials-authorization-code-flow)
 * [Create an OAuth2 single-page web application using PKCE](#create-an-oauth2-single-page-web-application-using-pkce)
 
 ### Create an OAuth2 application using server authentication (JWT flow) {#create-an-oauth2-application-using-server-authentication-jwt-flow}
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe] Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
 
 1. In the left navigation panel, click **System**, then select **OAuth Applications**.
 1. Click **Create app integration**.
@@ -134,16 +134,16 @@ When creating an OAuth2 application, choose the type of application that best me
       <td role="rowheader">Client secret</td> 
       <td> <p>This field is automatically generated</p> <p><b>IMPORTANT</b>:  <p>Copy the contents of this field to another secure file before you close this page. You will not be able to see this secret key again.</p> <p>If you lose this key, delete it and create a new Client Secret.</p> 
         <ol> 
-         <li value="1"> <p>Click the <b>Delete</b> icon <img src="assets/delete.png"> to delete the current Client Secret.</p> </li> 
-         <li value="2"> <p>Click <b>Add client secret</b> to generate a new Client Secret.</p> </li> 
+         <li value="1"> <p>Click the <b>[!UICONTROL Delete]</b> icon <img src="assets/delete.png"> to delete the current Client Secret.</p> </li> 
+         <li value="2"> <p>Click <b>[!UICONTROL Add client secret]</b> to generate a new Client Secret.</p> </li> 
         </ol> </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Public Keys</td> 
-      <td> <p>Server to server apps use public and private keys for authentication. Do one of the following:</p> 
+      <td> <p>Server to [!UICONTROL server] apps use public and private keys for authentication. Do one of the following:</p> 
        <ul> 
-        <li> <p>Click <b>Add a public key</b> and enter the public key from the other application.</p> </li> 
-        <li> <p>Click <b>Generate a public/private keypair</b>, then share the public key with the other application.</p> </li> 
+        <li> <p>Click <b>[!UICONTROL Add a public key]</b> and enter the public key from the other application.</p> </li> 
+        <li> <p>Click <b>[!UICONTROL Generate a public/private keypair]</b>, then share the public key with the other application.</p> </li> 
        </ul> </td> 
      </tr> 
      <tr> 
@@ -163,11 +163,11 @@ For instructions on configuring and using the OAuth2 application with user crede
 
 ### Create an OAuth2 application using user credentials (Authorization code flow) {#create-an-oauth2-application-using-user-credentials-authorization-code-flow}
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe] Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
 1. In the left navigation panel, click **System**, then select **OAuth Applications**.
 1. Click **Create app integration**.
 1. In the window that apears, select **User Authentication**.
-1. Enter a name for the new OAuth2 application, such as "Workfront for ClientApp."
+1. Enter a name for the new [!UICONTROL OAuth2] application, such as "Workfront for ClientApp."
 1. Click **Create**.
 1. Fill in the fields for the new app.
 
@@ -183,8 +183,8 @@ For instructions on configuring and using the OAuth2 application with user crede
       <td role="rowheader">Client secret</td> 
       <td> <p>This field is automatically generated</p> <p><b>IMPORTANT</b>:  <p>Copy the contents of this field to another secure file before you close this page. You will not be able to see this secret key again.</p> <p>If you lose this key, delete it and create a new Client Secret.</p> 
         <ol> 
-         <li value="1"> <p>Click the <b>Delete</b> icon <img src="assets/delete.png"> to delete the current Client Secret.</p> </li> 
-         <li value="2"> <p>Click <b>Add client secret</b> to generate a new Client Secret.</p> </li> 
+         <li value="1"> <p>Click the <b>[!UICONTROL Delete]</b> icon <img src="assets/delete.png"> to delete the current Client Secret.</p> </li> 
+         <li value="2"> <p>Click <b>[!UICONTROL Add client secret]</b> to generate a new Client Secret.</p> </li> 
         </ol> </p> </td> 
      </tr> 
      <tr> 
@@ -228,11 +228,11 @@ For instructions on configuring and using the OAuth2 application with user crede
 
 ### Create an OAuth2 single-page web application using PKCE {#create-an-oauth2-single-page-web-application-using-pkce}
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe] Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
 1. In the left navigation panel, click **System**, then select **OAuth Applications**.
 1. Click **Create app integration**.
 1. In the window that apears, select **Single-page web application**.
-1. Enter a name for the new OAuth2 application, such as "Workfront for ClientApp."
+1. Enter a name for the new [!UICONTROL OAuth2] application, such as "Workfront for ClientApp."
 1. Click **Create**.
 1. Fill in the fields for the new app.
 
@@ -292,26 +292,26 @@ Further configuration and use of the created OAuth2 application requires some te
 
 >[!NOTE]
 >
->Your users access the OAuth2 application through the API. This section describes the functionality in general terms, and is provided for information only.
+>Your users access the [!UICONTROL OAuth2] application through the API. This section describes the functionality in general terms, and is provided for information only.
 >
 >For specific instructions on using the OAuth2 application, including specific API calls, see [Configure and use your organization's custom OAuth 2 applications using authorization code flow](../../wf-api/api/oauth-app-code-token-flow.md).
 
 ### Authorizing with an authorization code and access token {#authorizing-with-an-authorization-code-and-access-token}
 
-1. ClientApp needs some information from Workfront, so it sends a request to the Workfront API `/authorize` endpoint. The request includes the response_type `code`, which indicates that the request should return an authorization code.
-1. This triggers Workfront to send an authentication prompt to the user. The user can enter their credentials into the prompt, which gives Workfront permission to communicate with ClientApp. If the user is already logged into Workfront, this step may be skipped.
-1. The Workfront API sends an authorization code to ClientApp.
-1. ClientApp sends the following information in a request to the Workfront API `/token`   endpoint:
+1. ClientApp needs some information from [!DNL Workfront], so it sends a request to the [!DNL Workfront] API `/authorize` endpoint. The request includes the [!UICONTROL response_type] `code`, which indicates that the request should return an authorization code.
+1. This triggers [!DNL Workfront] to send an authentication prompt to the user. The user can enter their credentials into the prompt, which gives [!DNL Workfront] permission to communicate with ClientApp. If the user is already logged into [!DNL Workfront], this step may be skipped.
+1. The [!DNL Workfront] API sends an authorization code to ClientApp.
+1. ClientApp sends the following information in a request to the [!DNL Workfront] API `/token`   endpoint:
 
-   * The authorization code sent to ClientApp in step 3. This identifies the specific instance of user permission.
-   * The Client Secret that was generated when you set up the ClientApp OAuth2 app in Workfront. This allows Workfront to know that the request is coming from ClientApp.
+   * The authorization code sent to [!DNL ClientApp] in step 3. This identifies the specific instance of user permission.
+   * The Client Secret that was generated when you set up the [!UICONTROL ClientApp OAuth2] app in Workfront. This allows Workfront to know that the request is coming from ClientApp.
 
-1. If the authorization code and the client secret are correct, Workfront sends an access token to ClientApp. This access token is sent directly from Workfront to ClientApp, and cannot be viewed, copied, or used by any other user or client application. 
-1. ClientApp sends the access token to Workfront along with the specific request for information.
-1. Because the access token is correct, Workfront sends the information to ClientApp.
+1. If the authorization code and the client secret are correct, [!DNL Workfront] sends an access token to ClientApp. This access token is sent directly from [!DNL Workfront] to ClientApp, and cannot be viewed, copied, or used by any other user or client application.
+1. ClientApp sends the access token to [!DNL Workfront] along with the specific request for information.
+1. Because the access token is correct, [!DNL Workfront] sends the information to ClientApp.
 
 #### Refreshing access tokens
 
-For security, access tokens expire after a short amount of time. To get new access tokens without having to enter credentials every time, OAuth2 uses refresh tokens. Refresh tokens are stored by the client.
+For security, access tokens expire after a short amount of time. To get new access tokens without having to enter credentials every time, [!DNL OAuth2] uses refresh tokens. Refresh tokens are stored by the client.
 
 The process for acquiring a refresh token is the same as the procedure discussed in the section [Authorizing with an authorization code and access token](#authorizing-with-an-authorization-code-and-access-token). The request for the authorization code includes the scope `offline_access`, which indicates that the request should return a request token along with the authorization code.

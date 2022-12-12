@@ -1,25 +1,25 @@
 ---
-title: Legacy Workfront Fusion service outages
+title: Legacy [!DNL Workfront Fusion service] outages
 user-type: administrator
 content-type: reference
 product-area: system-administration;workfront-integrations
 navigation-topic: administrator-integrations
-description: Legacy Workfront Fusion is not available as of March 31, 2021.
+description: Legacy [!DNL Workfront] Fusion is not available as of March 31, 2021.
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: 46b86122-6d8f-494b-96be-13de3598c115
 ---
-# Legacy Workfront Fusion service outages
+# Legacy [!DNL Workfront Fusion service] outages
 
 >[!IMPORTANT]
 >
->Legacy Workfront Fusion is not available as of March 31, 2021.
+>Legacy [!DNL Workfront] Fusion is not available as of March 31, 2021.
 >
 >For information about Adobe Workfront Fusion, see [Adobe Workfront Fusion](../../workfront-fusion/workfront-fusion-2.md)
 
-Because of the nature of Legacy Workfront Fusion, service outages have unique implications for active FLOs, depending on how each FLO is initiated.
+Because of the nature of Legacy [!DNL Workfront] Fusion, service outages have unique implications for active FLOs, depending on how each FLO is initiated.
 
-For more details on specific incidents that could affect your FLOs, check our status page at [trust.workfront.com](https://trust.workfront.com/). Contact Workfront Support for further assistance.
+For more details on specific incidents that could affect your FLOs, check our status page at [[!DNL trust].workfront.com](https://trust.workfront.com/). Contact [!DNL Workfront] Support for further assistance.
 
 The following table shows how each type of FLO is affected by a service outage:
 
@@ -35,7 +35,7 @@ The following table shows how each type of FLO is affected by a service outage:
  <tbody> 
   <tr> 
    <td><strong>Monitor FLOs</strong> </td> 
-   <td>Triggered when a scheduled check finds new application data (such as when a new task is created in Workfront). Each Monitor FLO tracks when the last check was made and what the last new record was. Data is not lost when a scheduled check is missed during an outage because the new data is detected by the first check after the outage. The default for monitor FLOs is to check every 5 minutes, so an outage usually results in only a short delay to processing this type of data.</td> 
+   <td>Triggered when a scheduled check finds new application data (such as when a new task is created in [!DNL Workfront)]. Each Monitor FLO tracks when the last check was made and what the last new record was. Data is not lost when a scheduled check is missed during an outage because the new data is detected by the first check after the outage. The default for monitor FLOs is to check every 5 minutes, so an outage usually results in only a short delay to processing this type of data.</td> 
   </tr> 
   <tr> 
    <td><strong>Real-time (webhook) and API endpoint FLOs</strong> </td> 

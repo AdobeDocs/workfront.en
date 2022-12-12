@@ -13,11 +13,11 @@ exl-id: 81e74a70-ea7e-4ed8-8b30-f01df0e73645
 
 While working on a project, you might discover that unexpected events arise. You can log those unexpected events as issues for a particular project or task. You can also submit requests, which are recorded as issues on a project that is designated as a Request Queue. Issues and requests are used considered to be interchangeable in Adobe Workfront.
 
-For information about creating issues in Workfront, see [Create issues](../../../manage-work/issues/manage-issues/create-issues.md). For information about creating requests in Workfront, see [Create and submit Adobe Workfront requests](../../../manage-work/requests/create-requests/create-submit-requests.md). For information about associating Request Types with projects, see [Define Request Types for a project](../../../manage-work/requests/create-and-manage-request-queues/define-request-types-for-project.md).
+For information about creating issues in [!DNL Workfront], see [Create issues](../../../manage-work/issues/manage-issues/create-issues.md). For information about creating requests in [!DNL Workfront], see [Create and submit [!DNL Adobe Workfront] requests](../../../manage-work/requests/create-requests/create-submit-requests.md). For information about associating Request Types with projects, see [Define Request Types for a project](../../../manage-work/requests/create-and-manage-request-queues/define-request-types-for-project.md).
 
 ## Access requirements
 
-You must have the following access to perform the steps in this article: 
+You must have the following access to perform the steps in this article:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -28,12 +28,12 @@ You must have the following access to perform the steps in this article:
    <td>Any</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license</td> 
+   <td role="rowheader">Adobe [!DNL Workfront] license</td> 
    <td>Plan</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
-   <td> <p>You must be a Workfront administrator.</p> <p><b>NOTE</b>: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>You must be a [!DNL Workfront] administrator.</p> <p><b>NOTE</b>: If you still don't have access, ask your [!DNL Workfront] administrator if they set additional restrictions in your access level. For information on how a [!DNL Workfront] administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -57,21 +57,21 @@ You must have at least one request type selected. You can select multiple reques
 
 ## Customize the names of the request types
 
-As a Workfront administrator, you can configure the names of the request types in your system. The new names are visible in any area of Workfront where the **Issue Type** or **Request Type** fields display:
+As a [!DNL Workfront] administrator, you can configure the names of the request types in your system. The new names are visible in any area of [!DNL Workfront] where the **[!UICONTROL Issue Type]** or **[!UICONTROL Request Type]** fields display:
 
-* In the **Queue Details** area of a project that will receive the issues or requests. 
-* If more than one request type is selected for a Request Queue, in the **New Issue Form** in the **Issue Type** field, when you create a new issue or submit a new request.
+* In the **[!UICONTROL Queue] Details** area of a project that will receive the issues or requests.
+* If more than one request type is selected for a Request Queue, in the **[!UICONTROL New Issue] Form** in the **[!UICONTROL Issue Type]** field, when you create a new issue or submit a new request.
 
-  For more information about creating issues in Workfront, see  [Create issues](../../../manage-work/issues/manage-issues/create-issues.md)
+   For more information about creating issues in [!DNL Workfront], see  [Create issues](../../../manage-work/issues/manage-issues/create-issues.md)
 
-  For more information about creating requests in Workfront, see  [Create and submit Adobe Workfront requests](../../../manage-work/requests/create-requests/create-submit-requests.md).
+   For more information about creating requests in [!DNL Workfront], see  [Create and submit [!DNL Adobe] Workfront requests](../../../manage-work/requests/create-requests/create-submit-requests.md).
 
-* On the **Queue Topic Detail** form, when you configure the Queue Topic.  
-  For more information about creating Queue Topics, see [Create Queue Topics](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
+* On the **Queue Topic Detail** form, when you configure the Queue Topic.\
+   For more information about creating Queue Topics, see [Create Queue Topics](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
 
 To customize the names of the request types:
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe] Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
 
 1. Click **Project Preferences** > **Statuses**.
 

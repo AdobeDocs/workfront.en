@@ -14,7 +14,7 @@ When creating subtasks for existing stories, keep in mind the following:
 **When the Summary Completion Mode setting for the project is set to Manual:**
 
 * You can move a parent story with subtasks to Complete updates the parent story to 100% and the Status to Complete. Subtasks are not updated.
-* To update the Percent Complete for the story, you must update it from the Stories tab or from the Details page of the object.
+* To update the Percent Complete for the story, you must update it from the [!UICONTROL Stories] tab or from the Details page of the object.
 
 **When the Summary Completion Mode setting for the project is set to Automatic:**
 
@@ -30,16 +30,16 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront plan*</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront plan*]</strong></td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront license*</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] license*</strong></td> 
    <td> <p>Work or higher</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Access level configurations*</strong></td> 
-   <td> <p>Worker or higher</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>Worker or higher</p> <p>Note: If you still don't have access, ask your [!DNL Workfront] administrator if they set additional restrictions in your access level. For information on how a [!DNL Workfront] administrator can change your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Object permissions</strong></td> 
@@ -48,10 +48,10 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+&#42;To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
 
 ## Add a subtask to an existing story on the Kanban board
 
 1. Go to the Kanban board that contains the story where you want to add a subtask.
 1. Click the name of the task on the story tile on the Kanban board.
-1. Add a subtask to the task as you would in any other task list within Workfront, as described in [Create subtasks](../../manage-work/tasks/create-tasks/create-subtasks.md).
+1. Add a subtask to the task as you would in any other task list within [!DNL Workfront], as described in [Create subtasks](../../manage-work/tasks/create-tasks/create-subtasks.md).
