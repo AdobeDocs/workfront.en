@@ -16,9 +16,9 @@ The purpose of the portfolio optimizer is to provide an interface through which 
 
 The Portfolio Optimizer can only assist you if you have completed the following prerequisites:
 
-* The Business Cases have been completed on the projects
-* A portfolio is defined for the projects you want to review
-* You provide a budget to represent the total financial cap of the selected projects.
+* The Business Cases have been completed on the projects. For information, see the articles in the seection [Define a Business Case](../../projects/define-a-business-case/define-business-case.md). 
+* A portfolio is defined in the Project Overview area of Project Details section for the projects you want to review
+* You have indicated the Project Budget and Planned Benefit for the projects you want to review. Fixed Cost and Fixed Revenue are optional but add additional value. For information, see [Project finances fields](../../projects/project-finances/project-finances-overview-1.md). 
 
 For information about locating the Portfolio Optimizer, see [Locate the Portfolio Optimizer](../../../manage-work/portfolios/portfolio-optimizer/locate-portfolio-optimizer.md).
 
@@ -198,9 +198,9 @@ The following icons and options are available for the Portfolio Optimizer:
   <tr> 
    <td> <img src="assets/preferences-portfolio-optimizer.png" alt="preferences_portfolio_optimizer.png"> </td> 
    <td>Preferences</td> 
-   <td> <p>Use this icon to modify the project fields displayed in the columns of the Portfolio Optimizer, or to modify what projects you display in the Optimizer, based on their statuses. </p> <p>Tip:  
+   <td> <p>Use this icon to modify the project fields displayed in the columns of the Portfolio Optimizer, or to modify what projects you display in the Optimizer, based on their statuses. </p> <p><b>TIP</b>  
      <ul> 
-      <li> <p>Not all&nbsp;Workfront standard fields are available to add in the columns. </p> </li> 
+      <li> <p>Not all Workfront standard fields are available to add in the columns. </p> </li> 
      </ul> 
      <ul> 
       <li> <p>You can add only the custom fields that have a value other than zero in any of the projects in the portfolio.</p> </li> 
