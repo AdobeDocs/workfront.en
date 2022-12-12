@@ -22,4 +22,4 @@ We're currently working on:
 
 * Moving further on using Adobe Identity Management System (IMS) for future Workfront Fusion Authentication.
 * Changing the way Workfront Fusion handles unused webhooks, to prevent them from affecting performance as Fusion scales up.
-* Other back-end enhancements.
+* Other infrastucture enhancements.
