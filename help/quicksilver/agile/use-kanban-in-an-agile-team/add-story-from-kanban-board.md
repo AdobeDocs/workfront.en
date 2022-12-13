@@ -42,7 +42,7 @@ You must have the following access to perform the steps in this article:
 
 ## Create new story or issue from the Kanban board
 
-1. Click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe] Workfront, then click **[!UICONTROL Teams]**.
+1. Click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe Workfront], then click **[!UICONTROL Teams]**.
 1. (Optional) Click the **[!UICONTROL Switch team]** icon ![Switch team icon](assets/switch-team-icon.png), then either select a new [!UICONTROL Kanban] team from the drop-down menu or search for a team in the search bar.
 1. Click **[!UICONTROL Add]** on the right side of the Kanban board and select **[!UICONTROL New Story]** or **[!UICONTROL New Issue]**.
 1. In the **[!UICONTROL New]** dialog box, add the following information:

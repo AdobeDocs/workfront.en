@@ -44,7 +44,7 @@ You must have the following access to perform the steps in this article:
 
 ## Delete a story or issue
 
-1. Click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe] Workfront, then click **[!UICONTROL Teams]**.
+1. Click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe Workfront], then click **[!UICONTROL Teams]**.
 
 1. (Optional) Click the **[!UICONTROL Switch team]** icon ![Switch team icon](assets/switch-team-icon.png), then either select a new [!UICONTROL Kanban] team from the drop-down menu or search for a team in the search bar.
 1. Click the **[!UICONTROL More]** icon on the story or issue, and select **[!UICONTROL Delete]**.
