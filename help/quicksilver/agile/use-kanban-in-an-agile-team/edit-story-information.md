@@ -11,7 +11,7 @@ exl-id: a22a7b61-b331-4c98-9421-e7fccedcd096
 
 ## Understand what information can be viewed and edited {#understand-what-information-can-be-viewed-and-edited}
 
-When viewing a story tile on the Kanban board, the information in the following table is available. You can edit most information inline, directly from the story tile.
+When viewing a story tile on the [!UICONTROL Kanban] board, the information in the following table is available. You can edit most information inline, directly from the story tile.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -41,7 +41,7 @@ When viewing a story tile on the Kanban board, the information in the following 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> <p>The Percent Complete for each story and issue.<br>The Percent Complete for the iteration is calculated based on the Percent Complete for each story.<br></p> <p>When updating [!UICONTROL Percent Complete] for a story or issue, you can choose any number between 0 and 100.</p> </td> 
+   <td> <p>The [!UICONTROL Percent Complete] for each story and issue.<br>[!UICONTROL The Percent Complete] for the iteration is calculated based on the [!UICONTROL Percent Complete] for each story.<br></p> <p>When updating [!UICONTROL Percent Complete] for a story or issue, you can choose any number between 0 and 100.</p> </td> 
    <td>✓</td> 
    <td>✓</td> 
   </tr> 
@@ -77,11 +77,11 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] license*</strong></td> 
-   <td> <p>Work or higher</p> </td> 
+   <td> <p>[!UICONTROL Work] or higher</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Access level configurations*</strong></td> 
-   <td> <p>Worker or higher</p> <p>Note: If you still don't have access, ask your [!DNL Workfront] administrator if they set additional restrictions in your access level. For information on how a [!DNL Workfront] administrator can change your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>[!UICONTROL Worker] or higher</p> <p>Note: If you still don't have access, ask your [!DNL Workfront] administrator if they set additional restrictions in your access level. For information on how a [!DNL Workfront] administrator can change your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -90,19 +90,19 @@ You must have the following access to perform the steps in this article:
 
 ## View and edit information on a story tile
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe] Workfront, then click **Teams**.
+1. Click the *[!UICONTROL *Main Menu]** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe Workfront], then click **[!UICONTROL Teams]**.
 
-1. (Optional) Click the **Switch team** icon ![Switch team icon](assets/switch-team-icon.png), then either select a new Kanban team from the drop-down menu or search for a team in the search bar.
+1. (Optional) Click the **[!UICONTROL Switch team]** icon ![Switch team icon](assets/switch-team-icon.png), then either select a new Kanban team from the drop-down menu or search for a team in the search bar.
 
-1. Go to the Kanban board.
-1. Expand the [!UICONTROL story] tile to view all fields associated with the story.
+1. Go to the [!UICONTROL Kanban] board.
+1. Expand the story tile to view all fields associated with the story.
 
    ![](assets/story-expanded-on-kanban-board-2021-350x405.png)
 
 1. (Optional) To edit a field, click the field, then make any changes.\
-   You must have Edit rights to the task or issue in order to edit the story tile.\
+   You must have [!UICONTROL Edit] rights to the task or issue in order to edit the story tile.\
    For more information about each field and whether it can be edited, see [Understand what information can be viewed and edited](#understand-what-information-can-be-viewed-and-edited).
 
 >[!NOTE]
 >
->To change the Percent Complete, you must type a number between 0 and 100. The field is not a slider that you can move.
+>To change the [!UICONTROL Percent Complete], you must type a number between 0 and 100. The field is not a slider that you can move.
