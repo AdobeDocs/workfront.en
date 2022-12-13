@@ -40,15 +40,15 @@ You must have the following access to perform the steps in this article:
 
 ## Group cards on a board
 
-1. Click the **Main Menu** icon ![Main Menu](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Boards**.
+1. Click the **[!UICONTROL Main Menu]** icon ![Main Menu](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe Workfront], then click **[!UICONTROL Boards]**.
 1. Access a board. For information, see [Create or edit a board](../../agile/get-started-with-boards/create-edit-board.md).
 1. Click **[!UICONTROL Group]** to open the group panel on the left of the board.
 
    >[!NOTE]
    >
-   >The default setting to group by is **None**. You can select this option at any time to remove a group and show only the columns on the board.
+   >The default setting to group by is **[!UICONTROL None]**. You can select this option at any time to remove a group and show only the columns on the board.
 
-1. To group the cards, select **Assignees** or **Tags**.
+1. To group the cards, select **[!UICONTROL Assignees]** or **[!UICONTROL Tags]**.
 
    The cards are grouped automatically. Click the arrow next to the group name to collapse and expand the group.
 
@@ -56,8 +56,8 @@ You must have the following access to perform the steps in this article:
 
 1. Select what happens when a card is moved to another group.
 
-   * **Add on assignees / Add on tags:** The assignees or tags in the new group are added to the existing list of assignees or tags on the card.
-   * **Override assignees / Override tags:** The assignees or tags in the new group override all other assignees or tags, and become the only assignees or tags on the card.
+   * **[!UICONTROL Add on assignees] / [!UICONTROL Add on tags]:** The assignees or tags in the new group are added to the existing list of assignees or tags on the card.
+   * **[!UICONTROL Override assignees] / [!UICONTROL Override tags]:** The assignees or tags in the new group override all other assignees or tags, and become the only assignees or tags on the card.
 
    ![[!UICONTROL Group by options]](assets/group-by-rail.png)
 

@@ -42,11 +42,11 @@ You must have the following access to perform the steps in this article:
 
 ## Configure card falloff
 
-1. Click the **Main Menu** icon ![Main Menu](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Boards**.
+1. Click the **[!UICONTROL Main Menu]** icon ![Main Menu](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe Workfront], then click **[!UICONTROL Boards]**.
 1. Access a board. For information, see [Create or edit a board](../../agile/get-started-with-boards/create-edit-board.md).
 1. Click **[!UICONTROL Configure]** on the right of the board to open the Configure panel.
-1. Expand **Cards**.
-1. Turn on **Automatically archive cards from the board**.
+1. Expand **[!UICONTROL Cards]**.
+1. Turn on **[!UICONTROL Automatically archive cards from the board]**.
 
    ![Card falloff settings](assets/card-falloff-switch.png)
 
@@ -56,4 +56,4 @@ You must have the following access to perform the steps in this article:
 
 1. Select which column to remove cards from.
 1. Click **[!UICONTROL Save]** on the confirmation message.
-1. Click **[!UICONTROL Hide configure]** to close the Configure panel. The configuration settings are applied automatically when you refresh the board.
+1. Click **[!UICONTROL Hide configure]** to close the [!UICONTROL Configure] panel. The configuration settings are applied automatically when you refresh the board.
