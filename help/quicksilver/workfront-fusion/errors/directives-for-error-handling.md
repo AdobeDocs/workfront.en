@@ -93,9 +93,7 @@ With this option enabled, when an error takes place, the incomplete execution is
 
 >[!NOTE]
 >
->If the initial retry attempt fails, the interval between retries increases every other attempt, according to the following formula:
->
->`30s + (currentAttempt%10)s + random(0,1)s`
+>If the initial retry attempt fails, the interval between retries increases exponentially every other attempt.
 
 When "Automatically complete execution" is turned on, the scenario run is marked as "Success" because the Break error handler's auto-retry is handling the issue automatically. In this case, users do not receive an email about the failed run.
 
