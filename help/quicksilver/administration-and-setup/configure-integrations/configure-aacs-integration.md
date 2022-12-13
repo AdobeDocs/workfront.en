@@ -36,6 +36,12 @@ You must have the following:
    </td>
   </tr>
   <tr>
+   <td><strong>Experience Manager license</strong>
+   </td>
+   <td>Standard
+   </td>
+  </tr>
+  <tr>
    <td><strong>Product</strong>
    </td>
    <td>You must have Experience Manager Assets as a Cloud Service, and you must be added to the product as a user.
@@ -57,16 +63,20 @@ You must have the following:
 
 Before you begin,
 
-* You must have Workfront and Adobe Experience Manager Assets associated with your Organization ID in the Adobe Admin Console. For more information see, [Platform-based administration differences (Adobe Workfront/Adobe Business Platform)](/help/quicksilver/administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+* You must have Workfront and Adobe Experience Manager Assets associated with an Organization ID in the Adobe Admin Console. For more information see, [Platform-based administration differences (Adobe Workfront/Adobe Business Platform)](/help/quicksilver/administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
 
 ## Set up the integration information
 
 1. Click the **Main Menu** icon  in the upper-right corner of Adobe Workfront, then click **Setup** .
 1. Select **Documents** in the left panel, then select **Experience Manager Integration**.
+    >[!NOTE]
+    >
+    >This configuration area appears only if your Workfront environment is included under an Adobe Admin Console.
+
 1. Select **Add Experience Manager Integration**.
 1. In the **Name** field, enter the name you want users to see when interacting with this integration in Workfront and Experience Manager Assets.
-1. In the **Navigation URL** field, the system automatically populates the Navigation URL. This URL is used to link to your organization's Experience Manager instance from the Main Menu for quick access.
+1. In the **Navigation URL** field, the system automatically populates the Navigation URL. This read-only URL is used to link to your organization's Experience Manager instance from the Main Menu for quick access.
 1. Choose a repository from the **Experience Manager Assets repository** drop-down menu. The system automatically populates any Experience Manager repositories associated with the Organization ID that your user profile is assigned to.
 ![choose experience manager repository](assets/setup-information.png)
 

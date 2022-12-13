@@ -34,6 +34,12 @@ You must have the following:
    </td>
   </tr>
   <tr>
+   <td><strong>Experience Manager license</strong>
+   </td>
+   <td>Standard
+   </td>
+  </tr>
+  <tr>
    <td><strong>Product</strong>
    </td>
    <td>You must have Experience Manager Assets Essentials, and you must be added to the product as a user in the Admin Console.
