@@ -22,12 +22,12 @@ You must have the following access to perform the steps in this article:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront plan*]</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] license*</strong></td> 
-   <td> <p>Request or higher</p> </td> 
+   <td> <p>[!UICONTROL Request] or higher</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -36,13 +36,13 @@ You must have the following access to perform the steps in this article:
 
 ## Create tags for your board
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe] Workfront, then click **Boards**.
+1. Click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe Workfront], then click **[!UICONTROL Boards]**.
 1. Access a board. For information, see [Create or edit a board](../../agile/get-started-with-boards/create-edit-board.md).
-1. Click the **More** menu ![More menu](assets/more-icon-spectrum.png) next to the board name, then choose **Tag Manager**.
+1. Click the **[!UICONTROL More]** menu ![More menu](assets/more-icon-spectrum.png) next to the board name, then choose **[!UICONTROL Tag Manager]**.
 
    ![Select Tag Manager.](assets/boards-tagmanager-350x189.png)
 
-1. In the **Edit tags** dialog box, select **Create tag**.
+1. In the **[!UICONTROL Edit tags]** dialog box, select **[!UICONTROL Create tag]**.
 1. Type the tag name in the highlighted box, then choose a color for this tag from the drop-down menu.
 1. Click the **[!UICONTROL Save]** icon to save the tag, or the **[!UICONTROL Cancel]** icon to cancel creating the tag.
 
@@ -60,7 +60,7 @@ You must have the following access to perform the steps in this article:
 
    Or
 
-   Click the **More** menu ![[!UICONTROL More menu]](assets/more-icon-spectrum.png) on the card and select **Edit**.
+   Click the **[!UICONTROL More]** menu ![[!UICONTROL More menu]](assets/more-icon-spectrum.png) on the card and select **[!UICONTROL Edit]**.
 
 1. In the **[!UICONTROL Tags]** box, type the name of an existing tag and select it from the search results.\
    Or\
@@ -70,13 +70,13 @@ You must have the following access to perform the steps in this article:
 ## Edit a tag
 
 1. Access a board.
-1. Click the **More** menu ![More menu](assets/more-icon-spectrum.png) next to the board name, then choose **Tag Manager**.
+1. Click the **[!UICONTROL More]** menu ![More menu](assets/more-icon-spectrum.png) next to the board name, then choose **[!UICONTROL Tag Manager]**.
 
    ![Select Tag Manager.](assets/boards-tagmanager-350x189.png)
 
 1. (Conditional) Click on the tag name to edit the text.
 1. (Conditional) Click the [!UICONTROL color] drop-down menu to change the tag color.
-1. Click **Done**.
+1. Click **[!UICONTROL Done]**.
 
 ## Remove a tag from a card
 
@@ -85,18 +85,18 @@ You must have the following access to perform the steps in this article:
 
    Or
 
-   Click the **More** menu ![[!UICONTROL More menu]](assets/more-icon-spectrum.png) on the card and select **Edit**.
+   Click the **[!UICONTROL More]** menu ![[!UICONTROL More menu]](assets/more-icon-spectrum.png) on the card and select **[!UICONTROL Edit]**.
 
-1. Find the tag you want to remove from the card, then click the **Remove**&#x200B;icon ![Remove tag](assets/copy-of-boards-remove-30x23.png).
-1. Click **Close**.
+1. Find the tag you want to remove from the card, then click the **[!UICONTROL Remove]**&#x200B;icon ![Remove tag](assets/copy-of-boards-remove-30x23.png).
+1. Click **[!UICONTROL Close]**.
 
 ## Delete a tag
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe] Workfront, then click **Boards**.
+1. Click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe Workfront], then click **[!UICONTROL Boards]**.
 1. Access a board. For information, see [Create or edit a board](../../agile/get-started-with-boards/create-edit-board.md).
-1. Click the **[!UICONTROL More]**&#x200B;menu next to the board name, then choose **Tag Manager**.
+1. Click the **[!UICONTROL More]**&#x200B;menu next to the board name, then choose **[!UICONTROL Tag Manager]**.
 
    ![Select Tag Manager.](assets/boards-tagmanager-350x189.png)
 
-1. Find the tag you want to delete, then click the **Delete** icon ![Delete tag](assets/copy-of-boards-delete-30x27.png).
-1. Click **Done**.
+1. Find the tag you want to delete, then click the **[!UICONTROL Delete]** icon ![Delete tag](assets/copy-of-boards-delete-30x27.png).
+1. Click **[!UICONTROL Done]**.

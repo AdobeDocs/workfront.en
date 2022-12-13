@@ -31,20 +31,20 @@ You must have the following access to perform the steps in this article:
 <table style="table-layout:auto"> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront plan*]</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] license*</strong></td> 
-   <td> <p>Request or higher</p> </td> 
+   <td> <p>[!UICONTROL Request] or higher</p> </td> 
   </tr> 
   <tr>
    <td role="rowheader"><strong>Access level configurations*</strong></td>
-   <td><p>View or higher access to tasks and issues</p></td>
+   <td><p>[!UICONTROL View] or higher access to tasks and issues</p></td>
   </tr>
   <tr>
    <td role="rowheader"><strong>Object permissions</strong></td>
-   <td><p>View or higher permissions to the [!DNL Workfront] task or issue</p></td>
+   <td><p>[!UICONTROL View] or higher permissions to the [!DNL Workfront] task or issue</p></td>
   </tr>
  </tbody> 
 </table>
@@ -53,9 +53,9 @@ You must have the following access to perform the steps in this article:
 
 ## Add a connected card
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe] Workfront, then click **Boards**.
+1. Click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe Workfront], then click **[!UICONTROL Boards]**.
 1. Access a board. For information, see [Create or edit a board](../../agile/get-started-with-boards/create-edit-board.md).
-1. Click **Add card &gt; Connected card**.
+1. Click **[!UICONTROL Add card] &gt; [!UICONTROL Connected card]**.
 1. Choose a project, then choose a task or issue to add as a card on the board.
 
    You can select multiple objects and they will all be added as separate cards.
@@ -63,10 +63,10 @@ You must have the following access to perform the steps in this article:
    >[!NOTE]
    >
    >* Only objects that you have permissions to are available in the search results. If an item is dimmed, it has already been added to the board.
-   >* When you filter by **Projects I Own** or **Projects I'm On**, projects that equate to a Complete, Dead, or Rejected status are not included. You can still search for those projects with the **All** filter.
+   >* When you filter by **[!UICONTROL Projects I Own]** or **[!UICONTROL Projects I'm On]**, projects that equate to a [!UICONTROL Complete], [!UICONTROL Dead], or [!UICONTROL Rejected] status are not included. You can still search for those projects with the **[!UICONTROL All]** filter.
 
 
-1. Click **Add**.
+1. Click **[!UICONTROL Add]**.
 
    ![[!UICONTROL Search for task or issue to connect]](assets/boards-tasksissues-350x94.png)
 
@@ -83,51 +83,51 @@ You must have the following access to perform the steps in this article:
 
    Or
 
-   Click the **More** menu ![[!UICONTROL More menu]](assets/more-icon-spectrum.png) on the card and select **Edit**.
+   Click the **[!UICONTROL More]** menu ![[!UICONTROL More menu]](assets/more-icon-spectrum.png) on the card and select **[!UICONTROL Edit]**.
 
-1. In the **[!UICONTROL Card] Details** box, add or update the following information:
+1. In the **[!UICONTROL Card Details]** box, add or update the following information:
 
    <table style="table-layout:auto"> 
     <tbody> 
      <tr> 
-      <td role="rowheader"><strong>Name</strong></td> 
+      <td role="rowheader"><strong>[!UICONTROL Name]</strong></td> 
       <td> <p>Changing the name also changes the name on the connected [!DNL Workfront] object.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Description</strong></td> 
+      <td role="rowheader"><strong>[!UICONTROL Description]</strong></td> 
       <td> <p>Changing the description also changes the description on the connected [!DNL Workfront] object.</p> </td> 
      </tr> 
      <tr>
-      <td role="rowheader"><strong>Assignees</strong></td>
+      <td role="rowheader"><strong>[!UICONTROL Assignees]</strong></td>
       <td><p>To assign more people or a team to the card, start typing a name in the search field, then select it when it displays in the list. You can add both individuals and teams. Only one team assignment is allowed on a connected card.</p>
       <p>Assignees must be members on the board or they will not appear in the selection list. When a team is a member on the board, then the individual team members can be assigned to the card.</p>
-      <p>Any assignees you select are also assigned to the task or issue in Workfront.</p></td>
+      <p>Any assignees you select are also assigned to the task or issue in [!DNL Workfront].</p></td>
      </tr>
      <tr>
-      <td role="rowheader"><strong>Column</strong></td>
+      <td role="rowheader"><strong>[!UICONTROL Column]</strong></td>
       <td><p>Select the column for the card.</p></td>
      </tr>
      <tr>
-      <td role="rowheader"><strong>Status</strong></td>
-      <td><p>Select a status for the card. The defaults are New, In Progress, and Complete, but any custom statuses defined for the item in [!DNL Workfront] are also available.</p>
+      <td role="rowheader"><strong>[!UICONTROL Status]</strong></td>
+      <td><p>Select a status for the card. The defaults are [!UICONTROL New], [!UICONTROL In Progress], and [!UICONTROL Complete], but any custom statuses defined for the item in [!DNL Workfront] are also available.</p>
       <p>If you have column policies enabled for updating field values, changing the status on the card automatically moves the card to the corresponding column. For more information, see "Define column settings and policies" in the article <a href="/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md" class="MCXref xref">Manage board columns</a>.</p>
-      <p>If you click <strong>[!UICONTROL Mark Complete]</strong> at the top of the card, the status automatically changes to Complete.</p></td>
+      <p>If you click <strong>[!UICONTROL Mark Complete]</strong> at the top of the card, the status automatically changes to [!UICONTROL Complete].</p></td>
      </tr>
      <tr>
-      <td role="rowheader"><strong>Due date</strong></td>
+      <td role="rowheader"><strong>[!UICONTROL Due date]</strong></td>
       <td><p><span class="preview">Changing the due date also changes the planned completion date on the connected [!DNL Workfront] object.</span></p></td>
      </tr>
       <tr>
-      <td role="rowheader"><strong>Estimation</strong></td>
+      <td role="rowheader"><strong>[!UICONTROL Estimation]</strong></td>
       <td><p>Type the estimated number of hours for the card to be completed. This is a manual entry only and cannot be more than 99.</p></td>
      </tr>
      <tr>
-      <td role="rowheader"><strong>Tags</strong></td>
-      <td><p>Search for and select [!UICONTROL tags] for the card.</p>
+      <td role="rowheader"><strong>[!UICONTROL Tags]</strong></td>
+      <td><p>Search for and select tags for the card.</p>
       <p>For information on creating new tags, see <a href="../../agile/get-started-with-boards/add-tags.md" class="MCXref xref">Add tags</a>.</p></td>
      </tr>
      <tr> 
-      <td role="rowheader"><strong>Checklist Items</strong> </td> 
+      <td role="rowheader"><strong>[!UICONTROL Checklist Items]</strong> </td> 
       <td> <p>Click <strong>Add checklist item</strong>. Then, type the title of the item and press Enter. Another item is automatically added. Continue entering titles to add more items.</p> <p>The counter at the top of the checklist shows the number of completed items and the total number of items.</p> <p><span class="preview">On a connected task, each checklist item is created as a subtask in Workfront.</span></p> <p>For more information about checklist items, see <a href="/help/quicksilver/agile/get-started-with-boards/manage-checklist-items.md">Manage checklist items on cards</a>.</p></td> 
      </tr>
     </tbody> 
@@ -140,7 +140,7 @@ The connected object, assignees, tags, due date, checklist counter, estimated ho
 
    >[!NOTE]
    >
-   >Showing the status on a card is available only via the early feature opt-in. For details, see [Early feature opt-in for [!DNL Adobe Workfront] Boards](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md).
+   >Showing the status on a card is available only via the early feature opt-in. For details, see [Early feature opt-in for [!DNL Adobe Workfront] [!UICONTROL Boards]](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md).
 
 ## Disconnect a connected card
 
@@ -149,13 +149,13 @@ You can disconnect a connected card from its [!DNL Workfront] object, and the ca
 To disconnect at the board level:
 
 1. Access the board.
-1. Click the **More** menu ![More menu](assets/more-icon-spectrum.png) on the connected card and select **Disconnect**.
+1. Click the **[!UICONTROL More]** menu ![More menu](assets/more-icon-spectrum.png) on the connected card and select **[!UICONTROL Disconnect]**.
 1. Click **[!UICONTROL Disconnect]** on the confirmation message.
 
 To disconnect at the card level:
 
 1. Access the board and open the connected card.
-1. Click the **More** menu ![[!UICONTROL More menu]](assets/more-icon-spectrum.png) in the Connection area of the card details, and select **Disconnect**.
+1. Click the **[!UICONTROL More]** menu ![[!UICONTROL More menu]](assets/more-icon-spectrum.png) in the Connection area of the card details, and select **[!UICONTROL Disconnect]**.
 1. Click **[!UICONTROL Disconnect]** on the confirmation message.
 
 ## Convert an ad hoc card to a connected card
@@ -163,21 +163,21 @@ To disconnect at the card level:
 After you have created an ad hoc card, you can convert it to a connected card. For details about ad hoc cards, see [Add an ad hoc card to a board](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md).
 
 1. Access the board and open the ad hoc card.
-1. Verify the name and description on the card. They will be added to the task or issue you create in Workfront.
-1. In the [!UICONTROL Connection] area of the card details, click **[!UICONTROL Connect with Workfront]**.
+1. Verify the name and description on the card. They will be added to the task or issue you create in [!DNL Workfront].
+1. In the [!UICONTROL Connection] area of the card details, click **[!UICONTROL Connect with [!DNL Workfront]]**.
 1. On the [!UICONTROL Connect Card] window, select whether you are creating a task or an issue.
 1. Search for and select a project to add the task or issue to.
 
    >[!NOTE]
    >
    >* Only objects that you have permissions to are available in the search results.
-   >* When you filter by **Projects I Own** or **Projects I'm On**, projects that equate to a Complete, Dead, or Rejected status are not included. You can still search for those projects with the **All** filter.
+   >* When you filter by **[!UICONTROL Projects I Own]** or **[!UICONTROL Projects I'm On]**, projects that equate to a [!UICONTROL Complete], [!UICONTROL Dead], or [!UICONTROL Rejected] status are not included. You can still search for those projects with the **[!UICONTROL All]** filter.
 
 
-1. Click **Connect**.
+1. Click **[!UICONTROL Connect]**.
 
    ![Connect ad hoc card to [!DNL Workfront]](assets/boards-connect-ad-hoc-card.png)
 
-   The project name displays in the Connection area on the card details.
+   The project name displays in the [!UICONTROL Connection] area on the card details.
 
 1. Click **[!UICONTROL Close]** to return to the board.

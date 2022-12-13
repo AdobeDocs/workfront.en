@@ -36,12 +36,12 @@ You must have the following access to perform the steps in this article:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront plan*]</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] license*</strong></td> 
-   <td> <p>Request or higher</p> </td> 
+   <td> <p>[!UICONTROL Request] or higher</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -50,19 +50,19 @@ You must have the following access to perform the steps in this article:
 
 ## Add a checklist to a card
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe] Workfront, then click **Boards**.
+1. Click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe Workfront], then click **[!UICONTROL Boards]**.
 1. Access a board. For information, see [Create or edit a board](../../agile/get-started-with-boards/create-edit-board.md).
 1. Click the card to open the Card Details box.
 
    Or
 
-   Click the **More** menu ![[!UICONTROL More menu]](assets/more-icon-spectrum.png) on the card, and select **Edit**.
+   Click the **[!UICONTROL More]** menu ![[!UICONTROL More menu]](assets/more-icon-spectrum.png) on the card, and select **[!UICONTROL Edit]**.
 
-1. To add a new item, click **Add checklist item**. Then, type the title of the item and press Enter. Another item is automatically added. Continue entering titles to add more items.
+1. To add a new item, click **[!UICONTROL Add checklist item]**. Then, type the title of the item and press Enter. Another item is automatically added. Continue entering titles to add more items.
 
    The counter at the top of the checklist shows the number of completed items and the total number of items.
 
-1. Click ![Details icon](assets/checklist-chevron.png) to open the Checklist Item Details box.
+1. Click ![Details icon](assets/checklist-chevron.png) to open the [!UICONTROL Checklist Item Details] box.
 
    ![Checklist Item Details box](assets/checklist-item-details.png)
 
@@ -76,17 +76,17 @@ You must have the following access to perform the steps in this article:
 
    <span class="preview">For a connected card, the subtask is added to the [!DNL Workfront] task. (Issues are not changed.)</span>
 
-1. To copy an item, click the **More** menu ![More menu](assets/more-icon-spectrum.png) on the item and select **[!UICONTROL Copy]**.
-1. To delete a checklist item, click the **More** menu ![More menu](assets/more-icon-spectrum.png) on the item and select **Delete**.
+1. To copy an item, click the **[!UICONTROL More]** menu ![More menu](assets/more-icon-spectrum.png) on the item and select **[!UICONTROL Copy]**.
+1. To delete a checklist item, click the **[!UICONTROL More]** menu ![More menu](assets/more-icon-spectrum.png) on the item and select **[!UICONTROL Delete]**.
 
 ## Complete checklist items
 
 1. Access the board and locate the card the checklist is on.
-1. Click the card to open the Card Details box.
+1. Click the card to open the [!UICONTROL Card Details] box.
 
    Or
 
-   Click the **More** menu ![[!UICONTROL More menu]](assets/more-icon-spectrum.png) on the card, and select **Edit**.
+   Click the **[!UICONTROL More]** menu ![[!UICONTROL More menu]](assets/more-icon-spectrum.png) on the card, and select **[!UICONTROL Edit]**.
 
 1. Select the check box next to the item that is complete.
 
@@ -100,4 +100,4 @@ You must have the following access to perform the steps in this article:
 
    The counter on the card is also updated.
 
-   <span class="preview">For a connected card, the linked subtask is changed to Complete status.</span>
+   <span class="preview">For a connected card, the linked subtask is changed to [!UICONTROL Complete] status.</span>

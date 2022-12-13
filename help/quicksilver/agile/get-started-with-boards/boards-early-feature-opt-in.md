@@ -7,13 +7,13 @@ description: Read this article to learn about the [!DNL Workfront Boards] early 
 author: Lisa
 exl-id: c4a6b045-b0f3-4d4d-994c-c03ef7ad25c8
 ---
-# Early feature opt-in for [!DNL Adobe Workfront] Boards
+# Early feature opt-in for [!DNL Adobe Workfront] [!UICONTROL Boards]
 
 Boards with ad hoc and connected cards are available to all users, and we are excited to open additional boards features for early feature opt-in beginning in July 2022.
 
-Adobe Workfront Boards are flexible tools that allow team collaboration by providing access to a shared board that contains columns and cards.
+[!DNL Adobe Workfront] [!UICONTROL Boards] are flexible tools that allow team collaboration by providing access to a shared board that contains columns and cards.
 
-For general information about boards, see [Boards overview](/help/quicksilver/agile/boards-overview.md).
+For general information about boards, see [[!UICONTROL Boards] overview](/help/quicksilver/agile/boards-overview.md).
 
 ## Release schedule
 
@@ -31,7 +31,7 @@ The following table outlines major features of boards along with their current r
    <th><strong>Status</strong></th> 
   </tr>
   <tr>
-   <td>Boards area in the Main Menu</td>
+   <td>[!UICONTROL Boards] area in the [!UICONTROL Main Menu]</td>
    <td>Released</td>
   </tr>
     <tr>
@@ -59,7 +59,7 @@ The following table outlines major features of boards along with their current r
    <td>Released</td>
   </tr>
   <tr>
-   <td>Add Work in Progress limits to columns</td>
+   <td>Add [!UICONTROL Work in Progress] limits to columns</td>
    <td>Released</td>
   </tr>
   <tr>
@@ -133,17 +133,17 @@ Only [!DNL Workfront] administrators can opt in to early features for boards. W
 
 >[!IMPORTANT]
 >
->If you are not already using boards, the [!UICONTROL Boards] option might not appear in the Main Menu. A [!DNL Workfront] administrator must add Boards to your layout template to make it available in the Main Menu. For information, see [Customize the Main Menu using a layout template](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
+>If you are not already using boards, the [!UICONTROL Boards] option might not appear in the [!UICONTROL Main Menu]. A [!DNL Workfront] administrator must add [!UICONTROL Boards] to your layout template to make it available in the [!UICONTROL Main Menu]. For information, see [Customize the [!UICONTROL Main Menu] using a layout template](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe] Workfront, then click **Boards**.
+1. Click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe Workfront], then click **[!UICONTROL Boards]**.
 1. Click **[!UICONTROL Early feature opt-in]** at the top of the dashboard screen.
-1. Click **Enable**.
+1. Click **[!UICONTROL Enable]**.
 1. Start using the early features of boards.
 
 ## Submit feedback
 
-1. While in a board, click the **Feedback** button.
-1. Fill out the form, then click **Submit**.
+1. While in a board, click the **[!UICONTROL Feedback]** button.
+1. Fill out the form, then click **[!UICONTROL Submit]**.
 
 ## Early feature opt-in FAQ
 
@@ -155,16 +155,16 @@ When your [!DNL Workfront] administrator has has enabled early features for boar
 
 When the [!DNL Workfront] administrator enables early features for boards, all users in the organization are opted in.
 
-However, the [!DNL Workfront] administrator can hide the Boards option from the Main Menu for individual users or groups of users with a layout template. For information, see [Customize the Main Menu using a layout template](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
+However, the [!DNL Workfront] administrator can hide the Boards option from the [!UICONTROL Main Menu] for individual users or groups of users with a layout template. For information, see [Customize the [!UICONTROL Main Menu] using a layout template](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
 
 >[!NOTE]
 >
->This does not stop users from accessing boards using a URL. It only prevents them from seeing the [!DNL Boards] option in the Main Menu.
+>This does not stop users from accessing boards using a URL. It only prevents them from seeing the [!DNL Boards] option in the [!UICONTROL Main Menu].
 
 ### Can I opt out of the early features once I've joined?
 
 Only [!DNL Workfront] administrators can opt out of receiving early features. If a [!DNL Workfront] administrator disables the early features, all users in the organization are opted out.
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe] Workfront, then click **Boards**.
-1. Click **[!UICONTROL Early feature opt-in] enabled** at the top of the dashboard screen.
-1. Click **Disable**.
+1. Click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe Workfront], then click **[!UICONTROL Boards]**.
+1. Click **[!UICONTROL Early feature opt-in enabled]** at the top of the dashboard screen.
+1. Click **[!UICONTROL Disable]**.

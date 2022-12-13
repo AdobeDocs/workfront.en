@@ -33,12 +33,12 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront plan*]</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] license*</strong></td> 
-   <td> <p>Request or higher</p> </td> 
+   <td> <p>[!UICONTROL Request] or higher</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -47,7 +47,7 @@ You must have the following access to perform the steps in this article:
 
 ## Filter a board by assignees
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe] Workfront, then click **Boards**.
+1. Click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe Workfront], then click **[!UICONTROL Boards]**.
 1. Access a board. For information, see [Create or edit a board](../../agile/get-started-with-boards/create-edit-board.md).
 1. Click the filter icon ![Filter](assets/filter-icon-spectrum-25x25.png), expand the [!UICONTROL Members] section, and select the person or people whose cards you want to see. You can also display unassigned cards.
 
@@ -89,7 +89,7 @@ By default, only active cards are displayed on a board. You can filter the board
 
    ![Filter archived cards](assets/boards-filter-by-archived-cards_0822.png)
 
-1. Select **Archived cards** again to clear the option and display only active cards.
+1. Select **[!UICONTROL Archived cards]** again to clear the option and display only active cards.
 
 ## Filter a board by connection
 
@@ -102,7 +102,7 @@ By default, only active cards are displayed on a board. You can filter the board
 
 >[!NOTE]
 >
->The option to filter by connection is available only via the early feature opt-in. For details, see [Early feature opt-in for [!DNL Adobe Workfront] Boards](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md).
+>The option to filter by connection is available only via the early feature opt-in. For details, see [Early feature opt-in for [!DNL Adobe Workfront] [!UICONTROL Boards]](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md).
 
 ## Search in a board
 

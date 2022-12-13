@@ -28,12 +28,12 @@ You must have the following access to perform the steps in this article:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront plan*]</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] license*</strong></td> 
-   <td> <p>Request or higher</p> </td> 
+   <td> <p>[!UICONTROL Request] or higher</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -42,13 +42,13 @@ You must have the following access to perform the steps in this article:
 
 ## Move cards between columns
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe] Workfront, then click **Boards**.
+1. Click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe Workfront], then click **[!UICONTROL Boards]**.
 1. Access a board. For information, see [Create or edit a board](../../agile/get-started-with-boards/create-edit-board.md).
 1. Drag and drop the card into another column, in the position you want it to appear.
 
    Or
 
-   Click the **More** menu ![More menu](assets/more-icon-spectrum.png) on the card, and select **Move**. Then, on the **Move Item** box, choose another column and select **Move**.
+   Click the **[!UICONTROL More]** menu ![More menu](assets/more-icon-spectrum.png) on the card, and select **[!UICONTROL Move]**. Then, on the **[!UICONTROL Move Item]** box, choose another column and select **[!UICONTROL Move]**.
 
    ![Move card](assets/boards-move-card-350x217.png)
 
@@ -63,7 +63,7 @@ You must have the following access to perform the steps in this article:
 
    Or
 
-   Click the **More** menu ![More menu](assets/more-icon-spectrum.png) on the card, and select **Top of column** or **Bottom of column**.
+   Click the **[!UICONTROL More]** menu ![More menu](assets/more-icon-spectrum.png) on the card, and select **[!UICONTROL Top of column]** or **[!UICONTROL Bottom of column]**.
 
    ![More menu](assets/boards-moremenu-350x329.png)
 
@@ -74,7 +74,7 @@ You must have the following access to perform the steps in this article:
 >You can't copy connected cards.
 
 1. Access the board.
-1. Click the **More** menu ![[!UICONTROL More menu]](assets/more-icon-spectrum.png) on the card, and select **Copy**.
+1. Click the **[!UICONTROL More]** menu ![[!UICONTROL More menu]](assets/more-icon-spectrum.png) on the card, and select **[!UICONTROL Copy]**.
 
    ![More menu](assets/boards-moremenu-350x329.png)
 

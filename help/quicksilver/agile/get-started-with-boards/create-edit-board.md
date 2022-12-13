@@ -20,12 +20,12 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront plan*]</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] license*</strong></td> 
-   <td> <p>Request or higher</p> </td> 
+   <td> <p>[!UICONTROL Request] or higher</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -34,9 +34,9 @@ You must have the following access to perform the steps in this article:
 
 ## Create a new board
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe] Workfront, then click **Boards**.
-1. Click **Create New**.
-1. Type a name for the board in the **Board** field and press Enter.
+1. Click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe Workfront], then click **[!UICONTROL Boards]**.
+1. Click **[!UICONTROL Create New]**.
+1. Type a name for the board in the **[!UICONTROL Board]** field and press Enter.
 1. Configure the board as needed.
 
    For information, see [Add or remove members from a board](../../agile/get-started-with-boards/add-members-to-board.md), [Manage board columns](../../agile/get-started-with-boards/manage-board-columns.md), [Add an ad hoc card to a board](../../agile/get-started-with-boards/add-card-to-board.md), and [Use connected cards on boards](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
@@ -49,7 +49,7 @@ You must have the following access to perform the steps in this article:
 
 ## Edit an existing board
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe] Workfront, then click **Boards**.
+1. Click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe Workfront], then click **[!UICONTROL Boards]**.
 1. On the dashboard, select the board to open.
 1. Edit the board as needed. You can click on the board name to rename it.
 

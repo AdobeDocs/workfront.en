@@ -13,7 +13,7 @@ You can quickly add a card to a board and assign it to a member on the board. Th
 
 >[!NOTE]
 >
->The ad hoc cards on a board are not connected to work items in Adobe Workfront. For details about connected cards, see [Use connected cards on boards](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
+>The ad hoc cards on a board are not connected to work items in [!DNL Adobe Workfront]. For details about connected cards, see [Use connected cards on boards](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
 
 ## Access requirements
 
@@ -26,12 +26,12 @@ You must have the following access to perform the steps in this article:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront plan*]</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] license*</strong></td> 
-   <td> <p>Request or higher</p> </td> 
+   <td> <p>[!UICONTROL Request] or higher</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -40,11 +40,11 @@ You must have the following access to perform the steps in this article:
 
 ## Add an ad hoc card with full details
 
-An ad hoc card is not connected to a work item in Adobe Workfront.
+An ad hoc card is not connected to a work item in [!DNL Adobe Workfront].
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe] Workfront, then click **Boards**.
+1. Click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe] Workfront, then click **[!UICONTROL Boards]**.
 1. Access a board. For information, see [Create or edit a board](../../agile/get-started-with-boards/create-edit-board.md).
-1. Click **Add card &gt; New card**.
+1. Click **[!UICONTROL Add card] &gt; [!UICONTROL New card]**.
 1. In the **[!UICONTROL Card Details]** box, add the following information:
 
    <table style="table-layout:auto"> 
@@ -52,40 +52,40 @@ An ad hoc card is not connected to a work item in Adobe Workfront.
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader"><strong>Name</strong> </td> 
+      <td role="rowheader"><strong>[!UICONTROL Name]</strong> </td> 
       <td>The name of the card.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Description</strong> </td> 
+      <td role="rowheader"><strong>[!UICONTROL Description]</strong> </td> 
       <td>A description of the card.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Assignees</strong> </td> 
+      <td role="rowheader"><strong>[!UICONTROL Assignees]</strong> </td> 
       <td> <p>To assign the card, start typing a name in the search field, then select it when it displays in the list. You can add both individuals and teams, and you can assign more than one person or team to a card.</p> <p>Assignees must be members on the board or they will not appear in the selection list. When a team is a member on the board, then the individual team members can be assigned to the card.</p></td>
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Column</strong> </td> 
-      <td>Select the column for the card. If you leave the <strong>Column</strong> field blank, the card is placed in the first column on the left of the board.</td>
+      <td role="rowheader"><strong>[!UICONTROL Column]</strong> </td> 
+      <td>Select the column for the card. If you leave the <strong>[!UICONTROL Column]</strong> field blank, the card is placed in the first column on the left of the board.</td>
      </tr>
      <tr> 
-      <td role="rowheader"><strong>Status</strong> </td> 
-      <td>Select a status for the card. If you click <strong>[!UICONTROL Mark Complete]</strong> at the top of the card, the status automatically changes to Complete.</td> 
+      <td role="rowheader"><strong>[!UICONTROL Status]</strong> </td> 
+      <td>Select a status for the card. If you click <strong>[!UICONTROL Mark Complete]</strong> at the top of the card, the status automatically changes to [!UICONTROL Complete].</td> 
      </tr>
      <tr> 
-      <td role="rowheader"><strong>Estimation</strong></td> 
+      <td role="rowheader"><strong>[!UICONTROL Estimation]</strong></td> 
       <td><p>Type the estimated number of hours for the card to be completed. This is a manual entry only and cannot be more than 99.</p></td>
      </tr>
      <tr> 
-      <td role="rowheader"><strong>Due date</strong></td> 
+      <td role="rowheader"><strong>[!UICONTROL Due date]</strong></td> 
       <td>Select a due date for the card. </td> 
      </tr>
      <tr> 
-      <td role="rowheader"><strong>Tags</strong></td> 
+      <td role="rowheader"><strong>[!UICONTROL Tags]</strong></td> 
       <td>Search for and select tags for the card. For information on creating new tags, see <a href="../../agile/get-started-with-boards/add-tags.md" class="MCXref xref">Add tags</a>.</td> 
      </tr>  
      <tr> 
-      <td role="rowheader"><strong>Checklist Items</strong> </td> 
-      <td> <p>Click <strong>Add checklist item</strong>. Then, type the title of the item and press Enter. Another item is automatically added. Continue entering titles to add more items.</p> <p>The counter at the top of the checklist shows the number of completed items and the total number of items.</p> <p>For more information about checklist items, see <a href="/help/quicksilver/agile/get-started-with-boards/manage-checklist-items.md">Manage checklist items on cards</a>.</p> </td> 
+      <td role="rowheader"><strong>[!UICONTROL Checklist Items]</strong> </td> 
+      <td> <p>Click <strong>[!UICONTROL Add checklist item]</strong>. Then, type the title of the item and press Enter. Another item is automatically added. Continue entering titles to add more items.</p> <p>The counter at the top of the checklist shows the number of completed items and the total number of items.</p> <p>For more information about checklist items, see <a href="/help/quicksilver/agile/get-started-with-boards/manage-checklist-items.md">Manage checklist items on cards</a>.</p> </td> 
      </tr> 
     </tbody> 
    </table>
@@ -107,7 +107,7 @@ An ad hoc card is not connected to a work item in Adobe Workfront.
 You can add ad hoc cards with only a title to quickly populate your board.
 
 1. Access the board you want to add cards to.
-1. Click the **Add** icon ![Add card](assets/addicon-spectrum.png) on the column where you want to add the card.
+1. Click the **[!UICONTROL Add]** icon ![Add card](assets/addicon-spectrum.png) on the column where you want to add the card.
 1. Type the card name and press Enter.
 
    Another card is automatically added below the new card.
@@ -124,7 +124,7 @@ You can add ad hoc cards with only a title to quickly populate your board.
 
    Or
 
-   Click the **More** menu ![[!UICONTROL More menu]](assets/more-icon-spectrum.png) on the card and select **Edit**.
+   Click the **[!UICONTROL More]** menu ![[!UICONTROL More menu]](assets/more-icon-spectrum.png) on the card and select **[!UICONTROL Edit]**.
 
 1. In the [!UICONTROL Card Details] box, update the information as needed, and click **[!UICONTROL Close]** to return to the board.
 
