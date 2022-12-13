@@ -10,14 +10,14 @@ exl-id: 1e48a24c-65de-49c2-85a8-dc931ac40c52
 ---
 # [!UICONTROL Portfolio Optimizer] overview
 
-The [!UICONTROL Portfolio Optimizer] is the tool used for project evaluation and comparison. The process of reviewing and comparing Business Case values for projects assigned to a portfolio is how a portfolio manager can prioritize projects and generate the most value for an organization.
+The [!UICONTROL Portfolio Optimizer] is the tool used for project evaluation and comparison. The process of reviewing and comparing [!UICONTROL Business Case] values for projects assigned to a portfolio is how a portfolio manager can prioritize projects and generate the most value for an organization.
 
 The purpose of the [!UICONTROL portfolio optimizer] is to provide an interface through which a portfolio manager, steering committee, or product management office can view summary information about the business case of each project. Projects can then be prioritized according to strategic values and goals, or according to their overall score.
 
 The [!UICONTROL Portfolio Optimizer] can only assist you if you have completed the following prerequisites:
 
 
-* The Business Cases have been completed on the projects. For information, see the articles in the seection [Define a Business Case](../../projects/define-a-business-case/define-business-case.md). 
+* The [!UICONTROL Business Cases] have been completed on the projects. For information, see the articles in the seection [Define a Business Case](../../projects/define-a-business-case/define-business-case.md). 
 * A portfolio is defined in the Project Overview area of Project Details section for the projects you want to review
 * You have indicated the Project Budget and Planned Benefit for the projects you want to review. Fixed Cost and Fixed Revenue are optional but add additional value. For information, see [Project finances fields](../../projects/project-finances/project-finances-overview-1.md). 
 
@@ -33,7 +33,7 @@ You can see the financial state of your portfolio at any time during the life of
 
 Consider the following when working with finances in the [!UICONTROL Portfolio Optimizer]:
 
-* Projects are each given a score when their Business Cases are completed according to what criteria they match in the [!UICONTROL Portfolio Optimizer]. For example, low cost or high alignment projects receive a higher score.
+* Projects are each given a score when their [!UICONTROL Business Cases] are completed according to what criteria they match in the [!UICONTROL Portfolio Optimizer]. For example, low cost or high alignment projects receive a higher score.
 
    For more information about calculating the portfolio optimizer score of a project, see the article [Overview of the [!UICONTROL Portfolio Optimizer] Score](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-score.md).
 

@@ -545,10 +545,10 @@ By editing issue settings, you can prevent users from adding issues inline in th
 
 
    <!--drafted section below for the edit template story: 
-   remove this tag and add the Preview blurb at the top of this article in yellow, if it's not already there. Keep the "div span" tags below until 23.1 production: -->
+   remove this tag and add the Preview blurb at the top of this article in yellow, if it's not already there. Keep the "div class" tags below until 23.1 production: -->
 
 
-<div span="preview">
+<div class="preview">
 
 ### Edit a template in the Preview environment {#edit-a-template-in-the-preview-environment}
 
@@ -584,7 +584,7 @@ By editing issue settings, you can prevent users from adding issues inline in th
    
 </div>
 
-<div span="preview">
+<div class="preview">
 
 #### Template Name{#template-name}
 
@@ -598,7 +598,7 @@ By editing issue settings, you can prevent users from adding issues inline in th
 
 </div>
 
-<div span="preview">
+<div class="preview">
 
 #### Overview {#overview-preview}
 
@@ -699,7 +699,7 @@ By editing issue settings, you can prevent users from adding issues inline in th
 
 </div>
 
-<div span="preview">
+<div class="preview">
 
 #### Finance {#finance-preview}
 
@@ -759,7 +759,7 @@ By editing issue settings, you can prevent users from adding issues inline in th
 
 </div>
 
-<div span="preview">
+<div class="preview">
 
 #### Custom Forms {#custom-forms-preview}
 
@@ -790,7 +790,7 @@ By editing issue settings, you can prevent users from adding issues inline in th
 
 </div>
 
-<div span="preview">
+<div class="preview">
 
 #### Project Settings {#project-settings}
 
@@ -922,7 +922,7 @@ By editing issue settings, you can prevent users from adding issues inline in th
 
 </div>
 
-<div span="preview">
+<div class="preview">
 
 #### Task Settings {#task-settings}
 
@@ -956,7 +956,7 @@ By editing issue settings, you can prevent users from adding issues inline in th
 
 </div>
 
-<div span="preview">
+<div class="preview">
 
 ### Issue Settings {#issue-settings}
 
@@ -989,7 +989,7 @@ By editing issue settings, you can prevent users from adding issues inline in th
 
 </div>
 
-<div span="preview">
+<div class="preview">
 
 #### Access {#access-preview}
 
