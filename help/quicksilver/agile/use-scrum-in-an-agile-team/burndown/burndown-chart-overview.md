@@ -52,7 +52,7 @@ The burndown chart contains the following visual indicators:
    <td role="rowheader"> <img src="assets/agile-iteration-burndown-scope.png" alt=""> </td> 
    <td> <p>A green or red dot is displayed on the actual burndown rate any time work is burned down. (When the actual burndown rate on that day is red, the dot is red; when the actual burndown rate on that day is green, the dot is green.)</p> <p>Work is burned down when any of the following occur:</p> 
     <ul> 
-     <li> The Percent Complete is increased on the story.<br>Percent Complete is increased when: 
+     <li> The [!UICONTROL Percent Complete] is increased on the story.<br>[!UICONTROL Percent Complete] is increased when: 
       <ul> 
        <li> <p>Manually changed</p> </li> 
        <li> <p>The number of points or hours are updated on the story</p> </li> 
@@ -84,6 +84,6 @@ Days off are reflected in the burndown chart only if:
 
    When a user completes the total remaining work for the iteration on a day off, the [!UICONTROL Estimated Completion] field displays the date the iteration was completed.
 
-   When planning the iteration, if you set the iteration end date for a non-working day and the iteration is tracking to finish on time, the Estimated Completion date is set for the last working day prior to the iteration end date that you set (because work is not scheduled to be burned down on non-working days).
+   When planning the iteration, if you set the iteration end date for a non-working day and the iteration is tracking to finish on time, the [!UICONTROL Estimated Completion] date is set for the last working day prior to the iteration end date that you set (because work is not scheduled to be burned down on non-working days).
 
    The end date for the iteration is specified when the iteration is planned, as described in the article [Create an iteration](../../../agile/use-scrum-in-an-agile-team/iterations/create-an-iteration.md).
