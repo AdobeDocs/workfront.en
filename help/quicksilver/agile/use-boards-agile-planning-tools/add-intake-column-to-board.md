@@ -83,7 +83,7 @@ You must have the following access to perform the steps in this article:
 
    >[!NOTE]
    >
-   >The filter you added is visible and editable for all members of the board.
+   >The new filter is only visible and editable to the user who created it. Other members on the board will not see the filter in their list of saved filters.
 
 1. (Optional) To include both tasks and issues on the intake column, click **Filter sources** and select the other object to create another filter.
 1. When you are finished adding filters, review the intake column to verify that the correct tasks and issues appear.
