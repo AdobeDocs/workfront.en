@@ -56,11 +56,11 @@ You must have the following access to perform the steps in this article:
    
    * Click **Interface** > **Groupings**.
 
-1. If you're creating a filter, view, or grouping, click **New Filter**, **New View**, or **New Grouping** <span class="preview">(or **Add Filter**, **Add View**, or **Add Grouping**)</span>, then select the object type you want to associate the new filter, view, or grouping with.
+1. If you're creating a filter, view, or grouping, click **Add Filter**, **Add View**, or **Add Grouping**, then select the object type you want to associate the new filter, view, or grouping with.
 
    Or
 
-   If you're editing an existing filter, view, or grouping, select it, then click **Edit** <span class="preview">(or the Edit icon ![Edit icon](assets/edit-icon.png))</span>.
+   If you're editing an existing filter, view, or grouping, select it, then click the **Edit** icon ![Edit icon](assets/edit-icon.png).
 
 1. Configure the filter, view, or grouping.
 
@@ -84,11 +84,11 @@ You can choose to show or hide filters, views, or groupings from the Layout Temp
 
 1. (Conditional) Select the filter, view, or grouping that you want to make available to users, then click **Enable system-wide**.
 
-![](assets/enable-system-wide-fvg.png)
+   ![](assets/enable-system-wide-fvg.png)
 
->[!TIP]
->
->If you want to keep the filter, view, or grouping available for most users, but hide it from others, you can use the Layout Template. For more information, see [Customize Filters, Views, and Groupings using a layout template](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md).
+   >[!TIP]
+   >
+   >If you want to keep the filter, view, or grouping available for most users, but hide it from others, you can use the Layout Template. For more information, see [Customize Filters, Views, and Groupings using a layout template](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md).
 
 1. (Conditional) Select the filter, view, or grouping that you want to make hide from users, then click **Disable system-wide**. Once disabled, the filter, view, or grouping will be hidden from the layout template as well as users across the system.
 
@@ -102,7 +102,7 @@ These steps explain how to make filters, views, and groupings available from the
 
 1. Click **Interface**, then click one of the following: **Filters**, **Views**, or **Groupings**.
 
-1. Select the filter, view, or grouping that you want to make available to users, then click **Share** <span class="preview">(or the Share icon ![Share icon](assets/share-icon.png))</span> to open the Filter Access, View Access, or Grouping Access form.
+1. Select the filter, view, or grouping that you want to make available to users, then click the **Share** icon ![Share icon](assets/share-icon.png) to open the Filter Access, View Access, or Grouping Access form.
 1. (Conditional) To make the filter, view, or grouping available to all users in the system, click the **Gear** drop-down menu ![](assets/gear-menu-for-sharing-items.png), then click **Make this visible system-wide**. All users in the system can now see the filter, view, or grouping.
 
    Or
@@ -127,7 +127,7 @@ These steps explain how to make filters, views, and groupings available from the
    
    * Click **Interface** > **Groupings**
 
-1. Select one or more items in the list, then click **Delete** <span class="preview">(or the Delete icon ![Delete icon](assets/delete.png))</span>.
+1. Select one or more items in the list, then click the **Delete** icon ![Delete icon](assets/delete.png).
 1. See one of the following articles for detailed information about configuring a filter, view, or grouping.
 
    * [Filters overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md) 
