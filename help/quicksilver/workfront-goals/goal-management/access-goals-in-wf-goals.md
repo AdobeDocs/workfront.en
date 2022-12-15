@@ -17,7 +17,27 @@ This article describes how you can find and manage goals in Adobe Workfront.
 
 ## Access requirements
 
+<!--drafted for P&P: replace the requirements table and the asterisk below it with the following: 
+
+
 You must have the following to perform the activities described in this article:
+
+| Attribute                | Requirement                                                                                                                                                             |
+|--------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Adobe Workfront Plan     | Current plan: Select or higher Or Legacy plan: Pro or higher                                                                                                            |
+| Adobe Workfront license* | Current license: Contributor or higher Or Legacy license: Request or higher                                                                                             |
+| Product                  | If you have the Select or Prime Workfront plan, you must also buy an additional Workfront Goals license.  Workfront Goals are included in the Ultimate Workfront Plan.  |
+| Access level*            | Edit access to Goals                                                                                                                                                    |
+| Object permissions*      | View or higher permissions to the goal to view it Manage permissions to the goal to edit it                                                                             |
+
+*To find out what plan, license type, or access you have, contact your Workfront administrator. For more information, see the following: 
+
+* [Adobe Workfront license overview](../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md)
+* [Requirements to use Workfront Goals](../goal-management/access-needed-for-wf-goals.md)
+* [Create or modify custom access levels](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)
+* [Grant access to Adobe Workfront Goals](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md)
+* [Share a goal in Workfront Goals](../workfront-goals-settings/share-a-goal.md)
+-->
 
 <table style="table-layout:auto"> 
  <col> 
