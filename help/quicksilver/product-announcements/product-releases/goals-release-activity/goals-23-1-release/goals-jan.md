@@ -32,4 +32,6 @@ Sharing, editing, deleting, or copying a goal is similar to the way you perform 
 
 >[!IMPORTANT]
 >
->With this update, we have removed the Check-in and Pulse sections in the Goals area. For more information on Workfront Goals, see the articles available in the [Workfront Goals](/help/quicksilver/workfront-goals/workfront-goals.md) area of the Workfront Documentation.
+>With this update, we have removed the Check-in and Pulse sections in the Goals area. 
+
+For more information on Workfront Goals, see the articles available in the [Workfront Goals](/help/quicksilver/workfront-goals/workfront-goals.md) area of the Workfront Documentation.
