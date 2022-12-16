@@ -18,7 +18,7 @@ For a list of all changes available with the 22.4 release, see [22.4 Release ove
 >
 >This feature was first introduced in the Preview environment during the 22.3 release time frame. It releases to Production September 15, 2022.
 
-To give you more control over the approval processes and statuses in your system, we’ve made it possible to create an approval process based on an unlocked system status. Moreover, you can now unlock any status that is already used in an approval process. Previously, a system status used in an approval process had to be locked. This made it available for all groups—without the possibility of removing or renaming it—so group administrators couldn’t streamline their group’s list of statuses to fit their specific needs.
+To give you more control over the approval processes and statuses in your system, we've made it possible to create an approval process based on an unlocked system status. Moreover, you can now unlock any status that is already used in an approval process. Previously, a system status used in an approval process had to be locked. This made it available for all groups—without the possibility of removing or renaming it—so group administrators couldn't streamline their group's list of statuses to fit their specific needs.
 
 ## Blueprints icon on the Main Menu now controlled through layout templates
 
@@ -36,7 +36,7 @@ Existing layout templates automatically include the Blueprints icon, and adminis
 
 For more information, see [Configure access to Blueprints](/help/quicksilver/administration-and-setup/blueprints/configure-access-to-blueprints.md).
 
-[View a video demonstration of this feature](https://vimeo.com/743151838){target=_blank}
+[View a video demonstration of this feature](https://video.tv.adobe.com/v/3412382/){target=_blank}
 
 ## Issue header customization
 
@@ -50,7 +50,7 @@ This update includes the following enhancements:
 
 * The issue header can include up to five fields.
 
-* You can now add the “Resolved By” field to the issue header. When a resolving object is associated with the issue, the "Resolved By" field changes to "Resolving Issue," "Resolving Task," or "Resolving Project," depending on the type of object that is associated with the issue.
+* You can now add the "Resolved By" field to the issue header. When a resolving object is associated with the issue, the "Resolved By" field changes to "Resolving Issue," "Resolving Task," or "Resolving Project," depending on the type of object that is associated with the issue.
 
 Prior to this release, only project and task headers could be customized.
 
@@ -58,7 +58,7 @@ Prior to this release, only project and task headers could be customized.
 
 For more information, see [Customize object headers using a layout template](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).
 
-[View a video demonstration of this feature](https://vimeo.com/748042293){target=_blank}
+[View a video demonstration of this feature](https://video.tv.adobe.com/v/3412383/){target=_blank}
 
 ## Task header customization
 
@@ -76,7 +76,7 @@ Prior to this release, only project headers could be customized.
 
 For more information, see [Customize object headers using a Layout Template](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).
 
-[View a video demonstration of this feature.](https://vimeo.com/743171730){target=_blank}
+[View a video demonstration of this feature.](https://video.tv.adobe.com/v/3412384/){target=_blank}
 
 ## Early feature opt-in for the latest features on boards
 
@@ -86,7 +86,7 @@ Only a Workfront administrator can opt in to the early features. When the admini
 
 For more information, see [Early feature opt-in for Adobe Workfront Boards](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md).
 
-[View a video demonstration of this feature.](https://vimeo.com/731901484/27e4ab8ec2)
+[View a video demonstration of this feature.](https://video.tv.adobe.com/v/3412386/){target=_blank}
 
 ## Custom form field calculation editor displays error information
 
@@ -98,7 +98,7 @@ Editing calculations for custom fields is now easier with helpful error informat
 
 For more information, see [Add calculated data to a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
 
-[View a video demonstration of this feature.](https://vimeo.com/718739286/bcc39b1b9e)
+[View a video demonstration of this feature.](https://video.tv.adobe.com/v/3412387/){target=_blank}
 
 ## Migration to Adobe Unified Experience
 
@@ -116,4 +116,4 @@ The Adobe Unified Experience includes:
 
 For more information, see [Adobe Unified Experience for Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
 
-[View a video demonstration of this feature.](https://vimeo.com/743154706){target=_blank}
+[View a video demonstration of this feature.](https://video.tv.adobe.com/v/3412388/){target=_blank}

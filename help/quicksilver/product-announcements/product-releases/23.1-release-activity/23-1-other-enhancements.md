@@ -89,4 +89,4 @@ The options to rename a pin and remove a pin appear in a drop-down menu when you
 
 For more information, see [Pin pages to customize your workspace](/help/quicksilver/workfront-basics/the-new-workfront-experience/pin-pages.md).
 
-[View a video demonstration of this feature](https://vimeo.com/759935652){target=_blank}
+[View a video demonstration of this feature](https://video.tv.adobe.com/v/3412389/){target=_blank}

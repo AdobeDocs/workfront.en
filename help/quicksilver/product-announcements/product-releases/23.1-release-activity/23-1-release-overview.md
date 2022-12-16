@@ -17,7 +17,7 @@ The enhancements on this page are available in the Preview environment. This pag
 
 ## Adobe Workfront enhancements
     
-*   [Project enhancements](#project-enhancements)
+*   [Project and Resource Management enhancements](#project-and-resource-management-enhancements)
 
 *   [Agile enhancements](#agile-enhancements)
 
@@ -25,7 +25,7 @@ The enhancements on this page are available in the Preview environment. This pag
 
 *   [Other enhancements](#other-enhancements)
     
-### Project enhancements
+### Project and Resource Management enhancements
 
 <table>
             <col style="width: 50%;" />
@@ -39,6 +39,24 @@ The enhancements on this page are available in the Preview environment. This pag
                     <td>
                         <p><span class="bold">Release dates</span>
                         </p>
+                    </td>
+                </tr>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Secondary job roles added to the Other Assignments list when bulk assigning items in the Workload Balancer</a><span style="color: #ff0000;"> Coming soon!</span></p>
+                        <p>When bulk assigning users in the Workload Balancer after selecting a job role in the "Role assignment" field, the list of users that populates in the "Other Assignments" list in the "User to assign" field will now display all the job roles associated with each user under their name. Prior to this enhancement, only the user's primary role displayed.</p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                     <p>
+                        </p>
+                        <ul>
+                            <li>
+                                <p>Preview release: January 5, 2023<br /></p>
+                            </li>
+                            <li>
+                                <p><span class="preview">Production release: With the 23.1 release</span></p>
+                            </li>
+                        </ul>
                     </td>
                 </tr>
                 <tr>
@@ -516,7 +534,7 @@ The following functionality is soon to be removed from Workfront:
 
 List Controls in Setup > Interface will be removed with the 23.1 release. 
 
-Some list control funtionality is moving to the Setup > Interface > Filters/Views/Grouping areas. For more information, see [Create, edit, and share default filters, views, and groupings](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/create-and-share-default-fvgs.md).
+Some list control functionality is moving to the Setup > Interface > Filters/Views/Grouping areas. For more information, see [Create, edit, and share default filters, views, and groupings](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/create-and-share-default-fvgs.md).
 
 #### **Workfront extension for Illustrator and InDesign**
  
