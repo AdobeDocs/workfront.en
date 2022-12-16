@@ -1,16 +1,22 @@
 ---
-title: 23.1 Project enhancements
-description: 23.1 Project enhancements
+title: 23.1 Project and Resouce Management enhancements
+description: 23.1 Project and Resouce Management enhancements
 author: Courtney
 draft: Probably
 feature: Product Announcements
 exl-id: 180c73c6-f426-49b9-99a4-86b1c817bcef
 ---
-# 23.1 Project enhancements
+# 23.1 Project and Resouce Management enhancements
 
-This page describes all Project enhancements made with the 23.1 release to the Preview environment. These enhancements will be made available in the Production environment the week of January 16, 2023.
+This page describes all Project and Resouce Management enhancements made with the 23.1 release to the Preview environment. These enhancements will be made available in the Production environment the week of January 16, 2023.
 
 For a list of all changes available with the 23.1 release, see [23.1 Release overview](/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-release-overview.md).
+
+## Secondary job roles added to the Other Assignments list when bulk assigning items in the Workload Balancer
+
+When bulk assigning users in the Workload Balancer after selecting a job role in the “Role assignment” field, the list of users that populates in the “Other Assignments” list in the “User to assign” field will now display all the job roles associated with each user under their name. Prior to this enhancement, only the user’s primary role displayed.   
+
+For more information, see “Assign work in bulk using the [Workload Balancer](/help\quicksilver\resource-mgmt\workload-balancer\assign-work-in-workload-balancer-in-bulk.md)
 
 ## Relocation of the "Add users" option on a project
 
