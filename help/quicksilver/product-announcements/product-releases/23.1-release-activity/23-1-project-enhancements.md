@@ -1,14 +1,14 @@
 ---
-title: 23.1 Project and Resouce Management enhancements
-description: 23.1 Project and Resouce Management enhancements
+title: 23.1 Project and Resource Management enhancements
+description: 23.1 Project and Resource Management enhancements
 author: Courtney
 draft: Probably
 feature: Product Announcements
 exl-id: 180c73c6-f426-49b9-99a4-86b1c817bcef
 ---
-# 23.1 Project and Resouce Management enhancements
+# 23.1 Project and Resource Management enhancements
 
-This page describes all Project and Resouce Management enhancements made with the 23.1 release to the Preview environment. These enhancements will be made available in the Production environment the week of January 16, 2023.
+This page describes all Project and Resource Management enhancements made with the 23.1 release to the Preview environment. These enhancements will be made available in the Production environment the week of January 16, 2023.
 
 For a list of all changes available with the 23.1 release, see [23.1 Release overview](/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-release-overview.md).
 
