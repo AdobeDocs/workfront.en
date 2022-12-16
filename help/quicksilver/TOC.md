@@ -13,7 +13,7 @@ feature-set: Workfront
     * [Adobe Workfront release schedule and process](product-announcements/product-releases/workfront-release-schedule.md)
     * 23.1 Release {#release-23-1}
       * [23.1 Release overview](product-announcements/product-releases/23.1-release-activity/23-1-release-overview.md)
-      * [23.1 Project enhancements](product-announcements/product-releases/23.1-release-activity/23-1-project-enhancements.md)
+      * [23.1 Project and Resource Management enhancements](product-announcements/product-releases/23.1-release-activity/23-1-project-enhancements.md)
       * [23.1 Agile enhancements](product-announcements/product-releases/23.1-release-activity/23-1-agile-enhancements.md)
       * [23.1 Mobile enhancements](product-announcements/product-releases/23.1-release-activity/23-1-mobile-enhancements.md)
       * [23.1 Other enhancements](product-announcements/product-releases/23.1-release-activity/23-1-other-enhancements.md)
