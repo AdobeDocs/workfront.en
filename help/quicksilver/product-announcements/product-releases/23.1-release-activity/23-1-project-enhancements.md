@@ -14,9 +14,9 @@ For a list of all changes available with the 23.1 release, see [23.1 Release ove
 
 ## Secondary job roles added to the Other Assignments list when bulk assigning items in the Workload Balancer
 
-When bulk assigning users in the Workload Balancer after selecting a job role in the “Role assignment” field, the list of users that populates in the “Other Assignments” list in the “User to assign” field will now display all the job roles associated with each user under their name. Prior to this enhancement, only the user’s primary role displayed.   
+When bulk assigning users in the Workload Balancer after selecting a job role in the "Role assignment" field, the list of users that populates in the "Other Assignments" list in the "User to assign" field will now display all the job roles associated with each user under their name. Prior to this enhancement, only the user's primary role displayed.   
 
-For more information, see “Assign work in bulk using the [Workload Balancer](/help\quicksilver\resource-mgmt\workload-balancer\assign-work-in-workload-balancer-in-bulk.md)
+For more information, see "Assign work in bulk using the [Workload Balancer](/help\quicksilver\resource-mgmt\workload-balancer\assign-work-in-workload-balancer-in-bulk.md).
 
 ## Relocation of the "Add users" option on a project
 
