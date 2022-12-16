@@ -23,7 +23,7 @@ hidefromtoc: true
 
 You can add a user to the [!DNL Adobe Admin Console] and assign them to [!DNL Adobe Workfront Fusion], or assign an existing user in the [!DNL Adobe Admin Console] to [!DNL Workfront Fusion].
 
-For a video describing [!DNL Workfront Fusion] in the [!DNL Adobe Admin Console], including how to add users, see [[!DNL Fusion] on [!DNL Adobe IMS]](https://vimeo.com/770773360).
+For a video describing [!DNL Workfront Fusion] in the [!DNL Adobe Admin Console], including how to add users, see [[!DNL Fusion] on Adobe IMS](https://video.tv.adobe.com/v/3412464/){target=_blank}.
 
 ## Access requirements
 

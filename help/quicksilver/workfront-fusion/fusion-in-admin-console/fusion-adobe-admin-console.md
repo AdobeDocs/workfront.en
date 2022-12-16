@@ -20,13 +20,13 @@ If your organization has been onboarded to the [!DNL Adobe Admin Console], your 
 
 ## Differences for [!DNL Workfront Fusion] users
 
-For a video describing how the change to the [!DNL Adobe Admin Console] affects your experience as a [!DNL Workfront Fusion] user, see [[!DNL Fusion] on IMS - Regular user](https://vimeo.com/770774579).
+For a video describing how the change to the [!DNL Adobe Admin Console] affects your experience as a [!DNL Workfront Fusion] user, see [[!DNL Fusion] on Adobe IMS - Regular user](https://video.tv.adobe.com/v/3412465/).
 
 ## Differences for [!DNL Workfront Fusion] administrators
 
 As an [!DNL Adobe Workfront Fusion] administrator, your administration responsibilities and procedures differ based on whether your organization has been onboarded to the [!DNL Adobe Admin Console]. 
 
-For a video describing how the change to the [!DNL Adobe Admin Console] affects your experience as a Workfront Fusion user, see [[!DNL Fusion] on Adobe IMS](https://vimeo.com/770773360).
+For a video describing how the change to the [!DNL Adobe Admin Console] affects your experience as a Workfront Fusion administrator, see [[!DNL Fusion] on Adobe IMS](https://video.tv.adobe.com/v/3412464/){target=_blank}.
 
 The following table lists the procedures that must be handled differently, and links to instructions for processes in both [!DNL Workfront Fusion] and the [!DNL Adobe Admin Console].
 
