@@ -228,7 +228,7 @@ The goal page displays.
    * **Progress**: Indicates what percentage of the goal is completed so far. You cannot manually update the progress of a goal. The goal progress is a calculation of all progress indicators. 
    * **Condition**: Indicates whether the goal is new and it has not been updated yet, whether it's on target to be completed on time, or lagging behind. You cannot update the condition of a goal. The goal's condition is automatically calculated by Worfront.   
    For more information about goal condition and progress, see 
-   [Calculate goal progress in Adobe Workfront Goals](../goal-management/calculate-goal-progress.md).
+   [Overview of goal progress and condition in Adobe Workfront Goals](../goal-management/calculate-goal-progress.md).
    
    (this title might have to change to refer to "condition" which was called "goal progress labels"). 
 

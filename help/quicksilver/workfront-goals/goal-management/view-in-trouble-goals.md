@@ -13,7 +13,7 @@ exl-id: df2cdc12-9102-4759-9daa-1f8ae68f110b
 <p>(NOTE: the status of goals in "red" used to be called At Risk. Now, it is "in trouble") </p>
 -->
 
-Goals with a Progress of In Trouble are in danger of not being achieved and are represented by a red progress bar in Adobe Workfront Goals. You should review your goals often and understand why the progress is lagging. For information about goal progress, see [Calculate goal progress in Adobe Workfront Goals](../../workfront-goals/goal-management/calculate-goal-progress.md).
+Goals with a Progress of In Trouble are in danger of not being achieved and are represented by a red progress bar in Adobe Workfront Goals. You should review your goals often and understand why the progress is lagging. For information about goal progress, see [Overview of goal progress and condition in Adobe Workfront Goals](../../workfront-goals/goal-management/calculate-goal-progress.md).
 
 ## Access requirements
 

@@ -1568,7 +1568,7 @@ The following table is a list of commonly used terms in Adobe Workfront:
     <ul> 
      <li> <p><a href="../../../manage-work/projects/planning-a-project/project-progress-status.md" class="MCXref xref">Project Progress Status overview</a> </p> </li> 
      <li> <p><a href="../../../manage-work/tasks/task-information/task-progress-status.md" class="MCXref xref">Task Progress Status overview</a> </p> </li> 
-     <li> <p><a href="../../../workfront-goals/goal-management/calculate-goal-progress.md">Calculate Goal Progress in [!DNL Workfront Goals]</a> </p>
+     <li> <p><a href="../../../workfront-goals/goal-management/calculate-goal-progress.md">Overview of goal progress and condition in [!DNL Adobe Workfront Goals]</a> </p>
      <p>The [!UICONTROL Goal] report and the [!UICONTROL Progress Status] for [!DNL goals] field are visible only if your organization has purchased [!DNL Workfront Goals]. For information about strategic goals in [!DNL Workfront Goals], see <a href="../../../workfront-goals/goal-management/wf-goals-overview.md">[!DNL Workfront Goals] overview</a>. </p> </li>
     </ul> </td> 
   </tr> 
