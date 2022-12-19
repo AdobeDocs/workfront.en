@@ -112,8 +112,8 @@ To review goals in the Goal List:
       <td role="rowheader">Progress </td> 
       <td> <p>The progress indicator for the goal includes the following:</p> 
        <ul> 
-        <li> <p>The progress label. </p> <p>For information, see <a href="../../workfront-goals/goal-management/calculate-goal-progress.md" class="MCXref xref">Calculate goal progress in Adobe Workfront Goals</a>. </p> </li> 
-        <li> <p>The percent complete of the goal, activity, or result. </p> </li> 
+      <li> <p>The progress label. </p> <p>For information, see <a href="../../workfront-goals/goal-management/calculate-goal-progress.md" class="MCXref xref">Overview of goal progress and condition in Adobe Workfront Goals</a>. </p> </li> 
+      <li> <p>The percent complete of the goal, activity, or result. </p> </li> 
        </ul> </td> 
      </tr> 
      <tr> 

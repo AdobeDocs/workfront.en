@@ -79,7 +79,7 @@ Consider the following when updating progress on goals:
 
    * For information about adding activities to goals, see [Add activities to goals in Adobe Workfront Goals](../../workfront-goals/results-and-activities/add-activities-to-goals.md).
    * For information about adding results to goals, see [Add results to goals in Adobe Workfront Goals](../../workfront-goals/results-and-activities/add-results-to-goals.md). 
-   * For information about how Workfront Goals calculates the progress on a goal, see [Calculate goal progress in Adobe Workfront Goals](../../workfront-goals/goal-management/calculate-goal-progress.md).
+   * For information about how Workfront Goals calculates the progress on a goal, see [Overview of goal progress and condition in Adobe Workfront Goals](../../workfront-goals/goal-management/calculate-goal-progress.md).
 
 * You must create goals and activate them before you can update their progress. 
 

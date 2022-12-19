@@ -56,7 +56,7 @@ Review the following articles to learn where you start with Workfront Goals, the
 * [Edit goals in Adobe Workfront Goals](../../workfront-goals/goal-management/edit-goals.md) 
 * [Delete and deactivate goals in Adobe Workfront Goals](../../workfront-goals/goal-management/delete-and-deactivate-goals.md) 
 * [Goal status overview in Adobe Workfront Goals](../../workfront-goals/goal-management/goal-status-overview.md) 
-* [Calculate goal progress in Adobe Workfront Goals](../../workfront-goals/goal-management/calculate-goal-progress.md) 
+* [Overview of goal progress and condition in Adobe Workfront Goals](../../workfront-goals/goal-management/calculate-goal-progress.md) 
 * [Filter information in Adobe Workfront Goals](../../workfront-goals/goal-management/filter-information-wf-goals.md) 
 * [Manage goal comments in Adobe Workfront Goals](../../workfront-goals/goal-management/manage-goal-comments.md) 
 * [Move goals from one time period to another in Adobe Workfront Goals](../../workfront-goals/goal-management/move-goals-to-another-period.md) 

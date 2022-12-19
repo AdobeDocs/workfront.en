@@ -1842,7 +1842,7 @@ feature-set: Workfront
     * [Access and open goals in Adobe Workfront Goals](workfront-goals/goal-management/access-goals-in-wf-goals.md)
     * [Requirements to use Workfront Goals](workfront-goals/goal-management/access-needed-for-wf-goals.md)
     * [Activate goals in Adobe Workfront Goals](workfront-goals/goal-management/activate-goals.md)
-    * [Calculate goal progress in Adobe Workfront Goals](workfront-goals/goal-management/calculate-goal-progress.md)
+    * [Overview of goal progress and condition in Adobe Workfront Goals](workfront-goals/goal-management/calculate-goal-progress.md)
     * [Close and reopen goals in Adobe Workfront Goals](workfront-goals/goal-management/close-and-reopen-goals.md)
     * [Copy goals in Adobe Workfront Goals](workfront-goals/goal-management/copy-goals.md)
     * [Create goals in Adobe Workfront Goals](workfront-goals/goal-management/create-goals.md)
