@@ -684,6 +684,7 @@ feature-set: Workfront
     * [Prepare for the Adobe Admin Console](administration-and-setup/adobe-admin-console/prep-for-admin-console.md)    
   * Tips, tricks, and troubleshooting for administration and setup {#admin-setup-tips}
     * [Tips, tricks, and troubleshooting](administration-and-setup/tips-tricks-and-troubleshooting/ttt-admin-setup.md)
+    * [Group admins must have higher access than those they manage](administration-and-setup/tips-tricks-and-troubleshooting/group-admin-access-level.md)
     * [Active and deactivated objects](administration-and-setup/tips-tricks-and-troubleshooting/acitve-and-deactivated-objects.md)
     * [ADFS logout URL doesn't work](administration-and-setup/tips-tricks-and-troubleshooting/adfs-logout-url-doesnt-work.md)
     * [Administration and setup FAQ](administration-and-setup/tips-tricks-and-troubleshooting/admin-and-setup-faq.md)
