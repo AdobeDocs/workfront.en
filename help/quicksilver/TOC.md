@@ -1658,8 +1658,8 @@ feature-set: Workfront
     * [Update work items in the Workload Balancer using the Summary](resource-mgmt/workload-balancer/update-items-in-summary-panel-in-workload-balancer.md)
 * Review and approve work {#review-and-approve-work}
   * [Review and approve work](review-and-approve-work/review-and-approve-work.md)
-  * Manage approvals {#manage-approvals}
-    * [Manage approvals](review-and-approve-work/manage-approvals/manage-approvals.md)
+  * Work approvals {#work-approvals}
+    * [Work approvals](review-and-approve-work/manage-approvals/manage-approvals.md)
     * [Approval process overview](review-and-approve-work/manage-approvals/approval-process-in-workfront.md)
     * [Request document approvals](review-and-approve-work/manage-approvals/request-document-approvals.md)
     * [Approving work](review-and-approve-work/manage-approvals/approving-work.md)
@@ -2513,6 +2513,7 @@ feature-set: Workfront
     * [Update integrations that use default API versioning](wf-api/api/update-default-api-versioning.md)
     * [Filter event subscription messages](wf-api/api/filter-event-sub-messages.md)
     * [Event subscription resource fields](wf-api/api/event-sub-resource-fields.md)
+    * [Event subscription certificates](wf-api/api/event-sub-certs.md)
     * [Specify an API Version in your integrations](wf-api/api/specify-api-version-integrations.md)
     * [Core API changes: Status search responses](wf-api/api/api-changes-search.md)
     * [API versioning and support schedule](wf-api/api/api-version-support-schedule.md)
