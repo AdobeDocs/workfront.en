@@ -42,14 +42,14 @@ You must have the following access to perform the steps in this article:
 
 ## Use an alternate team schedule for burndown charts
 
-1. Ensure that the Workfront administrator has already created the alternate schedule, as described in [Create a schedule](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe] Workfront, then click **Teams**.
+1. Ensure that the [!DNL Workfront] administrator has already created the alternate schedule, as described in [Create a schedule](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
+1. Click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe Workfront], then click **[!UICONTROL Teams]**.
 
-1. (Optional) Click the **Switch team** icon ![Switch team icon](assets/switch-team-icon.png), then either select a new Scrum team from the drop-down menu or search for a team in the search bar.
+1. (Optional) Click the **[!UICONTROL Switch team]** icon ![Switch team icon](assets/switch-team-icon.png), then either select a new Scrum team from the drop-down menu or search for a team in the search bar.
 
 1. Select the agile team that you want to manage.
-1. Click the **[!UICONTROL More]** menu, then select **Edit**.
+1. Click the **[!UICONTROL More]** menu, then select **[!UICONTROL Edit]**.
 
 1. In the **[!UICONTROL Agile]** section, in the **[!UICONTROL Schedule]** area, select the new schedule from the drop-down menu.
 
-1. Click **Save Changes**.
+1. Click **[!UICONTROL Save Changes]**.

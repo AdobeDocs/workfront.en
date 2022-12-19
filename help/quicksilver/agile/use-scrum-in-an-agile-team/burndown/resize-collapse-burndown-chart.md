@@ -29,7 +29,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] license*</strong></td> 
-   <td> <p>Review or higher</p> </td> 
+   <td> <p>[!UICONTROL Review] or higher</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -53,4 +53,4 @@ You must have the following access to perform the steps in this article:
 1. (Optional) Click the **[!UICONTROL Switch team]** icon ![Switch team icon](assets/switch-team-icon.png), then either select a new [!UICONTROL Scrum] team from the drop-down menu or search for a team in the search bar.
 
 1. Go to the iteration that contains the burndown chart you want to collapse.
-1. Click the arrow icon in the left of the Percent Complete status bar.
+1. Click the arrow icon in the left of the [!UICONTROL Percent Complete] status bar.
