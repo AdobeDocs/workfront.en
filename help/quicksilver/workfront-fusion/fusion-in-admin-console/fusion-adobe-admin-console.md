@@ -20,7 +20,7 @@ If your organization has been onboarded to the [!DNL Adobe Admin Console], your 
 
 ## Differences for [!DNL Workfront Fusion] users
 
-For a video describing how the change to the [!DNL Adobe Admin Console] affects your experience as a [!DNL Workfront Fusion] user, see [[!DNL Fusion] on Adobe IMS - Regular user](https://video.tv.adobe.com/v/3412465/).
+For a video describing how the change to the [!DNL Adobe Admin Console] affects your experience as a [!DNL Workfront Fusion] user, see [[!DNL Fusion] on Adobe IMS - Regular user](https://video.tv.adobe.com/v/3412465/){target=_blank}.
 
 ## Differences for [!DNL Workfront Fusion] administrators
 
