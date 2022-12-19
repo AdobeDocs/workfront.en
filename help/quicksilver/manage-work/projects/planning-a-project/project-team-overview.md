@@ -3,14 +3,14 @@ content-type: overview
 product-area: projects;agile-and-teams
 navigation-topic: plan-a-project
 title: Project Team overview
-description: The Project Team is a group of users associated with a project. Users listed under the People area of a project are the users who make up the Project Team.
+description: Users that are associated with a project in some capacity make up the project team. Users listed under the People area of a project are the users who make up the project team.
 author: Alina
 feature: Work Management
 exl-id: ceb25fb1-57fc-476c-b92c-fc41aadc0b5b
 ---
 # Project Team overview
 
-A project team is a group of users associated with a project. Users listed under the People area of a project are the users who make up the project team.
+Users that are associated with a project in some capacity make up the project team. Users listed under the People area of a project are the users who make up the project team. For example, users who are assigned to work on the project or the project owner are part of the project team. 
 
 ## Project Team members
 

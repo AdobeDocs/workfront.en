@@ -136,7 +136,7 @@ You must have the following before you can start:
 
    * Results names and owners. For information about results, see [Add results to goals in Adobe Workfront Goals](../../workfront-goals/results-and-activities/add-results-to-goals.md).
    * Activity names and owners. For information about activities, see [Add activities to goals in Adobe Workfront Goals](../../workfront-goals/results-and-activities/add-activities-to-goals.md).
-   * Results and activities progress bars and progress statuses. For information about how Workfront Goals calculates goal progress, see [Calculate goal progress in Adobe Workfront Goals](../../workfront-goals/goal-management/calculate-goal-progress.md).
+   * Results and activities progress bars and progress statuses. For information about how Workfront Goals calculates goal progress, see [Overview of goal progress and condition in Adobe Workfront Goals](../../workfront-goals/goal-management/calculate-goal-progress.md).
 
 1. Click **Add a comment** to add a comment for the goal, then click **Post**. The comment is visible in the Check-in area, as well as the Updates tab of the Goal Details panel. We recommend that you use the Pulse section to comment on goals that have not been updated in a while and ask the goal owner for an update. 
 
