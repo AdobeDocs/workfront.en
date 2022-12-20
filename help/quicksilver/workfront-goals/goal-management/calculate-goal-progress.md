@@ -140,7 +140,7 @@ The table below lists the goal condition labels and the goal progress percentage
    <td><b>Goal progress definition</b></td> 
    <td><b>Goal progress percentage</b></td> 
    <td><b>Color of percent complete bar</b></td> 
-   <td><b>Icon for goal Condition</b></td> 
+   <td><b>Condition indicator icon</b></td> 
   </tr> 
   <tr> 
    <td>New</td> 
