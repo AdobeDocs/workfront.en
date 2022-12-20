@@ -7,7 +7,7 @@ author: Lisa
 feature: Agile
 exl-id: ccb1dc6e-b6c0-4897-9278-7410f10d40ae
 ---
-# Filter by user on the Scrum board
+# Filter by user on the [!UICONTROL Scrum] board
 
 You can use the filter on the scrum board to see which work items are associated with other users and which are unassigned.
 
@@ -31,7 +31,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Access level configurations*</strong></td> 
-   <td> <p>Worker or higher</p> <p>Note: If you still don't have access, ask your [!DNL Workfront] administrator if they set additional restrictions in your access level. For information on how a [!DNL Workfront] administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>[!UICONTROL Worker] or higher</p> <p>Note: If you still don't have access, ask your [!DNL Workfront] administrator if they set additional restrictions in your access level. For information on how a [!DNL Workfront] administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -40,13 +40,13 @@ You must have the following access to perform the steps in this article:
 
 ## Filter by user on the scrum board
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe] Workfront, then click **Teams**.
+1. Click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe Workfront], then click **[!UICONTROL Teams]**.
 
-1. (Optional) Click the **Switch team** icon ![Switch team icon](assets/switch-team-icon.png), then either select a new Scrum team from the drop-down menu or search for a team in the search bar.
+1. (Optional) Click the **[!UICONTROL Switch team]** icon ![Switch team icon](assets/switch-team-icon.png), then either select a new Scrum team from the drop-down menu or search for a team in the search bar.
 
 1. Navigate to an active iteration.
-1. Click the Filter drop-down menu on the right side of the scrum board.
-1. Select the name of the user or **Unassigned**.
+1. Click the [!UICONTROL Filter] drop-down menu on the right side of the [!UICONTROL scrum] board.
+1. Select the name of the user or **[!UICONTROL Unassigned]**.
 
 >[!NOTE]
 >

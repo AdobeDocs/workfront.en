@@ -27,7 +27,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] license*</strong></td> 
-   <td> <p>Review or higher</p> </td> 
+   <td> <p>[!UICONTROL Review] or higher</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -36,17 +36,17 @@ You must have the following access to perform the steps in this article:
 
 ## View iterations assigned to a given team
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe] Workfront, then click **Teams**.
+1. Click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe Workfront], then click **[!UICONTROL Teams]**.
 
-1. (Optional) Click the **Switch team** icon ![Switch team icon](assets/switch-team-icon.png), then either select a new Scrum team from the drop-down menu or search for a team in the search bar.
+1. (Optional) Click the **[!UICONTROL Switch team]** icon ![Switch team icon](assets/switch-team-icon.png), then either select a new Scrum team from the drop-down menu or search for a team in the search bar.
 
-1. In the left panel, select **[!UICONTROL Iterations]** to choose a specific iteration, or select **Current Iteration**.
+1. In the left panel, select **[!UICONTROL Iterations]** to choose a specific iteration, or select **[!UICONTROL Current Iteration]**.
 
    ![Iteration list](assets/view-iteration-NWE.png)
 
    >[!NOTE]
    >
-   >**Current Iteration** only displays in the left panel when it is assigned to the layout template and there is at least one task or issue on the iteration. For more information, see [Customize the left panel using a layout template](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md).
+   >**[!UICONTROL Current Iteration]** only displays in the left panel when it is assigned to the layout template and there is at least one task or issue on the iteration. For more information, see [Customize the left panel using a layout template](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md).
 
 
 1. (Optional) Click the name of the specific iteration that you want to view.\
