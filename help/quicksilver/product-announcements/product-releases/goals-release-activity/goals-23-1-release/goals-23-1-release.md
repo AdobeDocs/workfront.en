@@ -51,7 +51,7 @@ In addition, we have introduced a new commenting experience in the Updates secti
                         </p>
                         <ul>
                             <li>
-                                <p>Preview release: TBD<br /></p>
+                                <p>Preview release: January 5, 2023<br /></p>
                             </li>
                             <li>
                                 <p>Production release: With the 23.1 release</p>
