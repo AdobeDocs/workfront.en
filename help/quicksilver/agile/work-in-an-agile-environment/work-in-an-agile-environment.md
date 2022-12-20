@@ -12,4 +12,4 @@ exl-id: 2bc560f1-31d6-46c5-8845-17f95de78ab0
 
 * [Create an agile story](../../agile/work-in-an-agile-environment/create-an-agile-story.md)
 * [Manage the agile backlog](../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md)
-* [[!UICONTROL Move an agile story]](../../agile/work-in-an-agile-environment/move-an-agile-story.md)
+* [Move an agile story](../../agile/work-in-an-agile-environment/move-an-agile-story.md)
