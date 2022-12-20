@@ -27,15 +27,15 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] license*</strong></td> 
-   <td> <p>Request or higher</p> </td> 
+   <td> <p>[!UICONTROL Request] or higher</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Access level configurations*</strong></td> 
-   <td> <p>View or higher access to Reports, Dashboards, and Calendars</p> <p>Note: If you still don't have access, ask your [!DNL Workfront] administrator if they set additional restrictions in your access level. For information on how a [!DNL Workfront] administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>[!UICONTROL View] or higher access to [!UICONTROL Reports], [!UICONTROL Dashboards], and [!UICONTROL Calendars]</p> <p>Note: If you still don't have access, ask your [!DNL Workfront] administrator if they set additional restrictions in your access level. For information on how a [!DNL Workfront] administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Object permissions</strong></td> 
-   <td> <p>View or higher permissions to the calendar report</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects</a>.</p> </td> 
+   <td> <p>[!UICONTROL View] or higher permissions to the calendar report</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -44,7 +44,7 @@ You must have the following access to perform the steps in this article:
 
 ## View a calendar report
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Calendars**.
+1. Click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe Workfront], then click **[!UICONTROL Calendars]**.
 
    Depending on your access level, you might see the following calendars listed:
 
@@ -63,37 +63,37 @@ You must have the following access to perform the steps in this article:
    ![Calendar duration](assets/view-menu-calendar-report-350x189.png)\
    You can choose from the following calendar report views:
 
-   * **Month**: Displays four weeks of the calendar
-   * **Week**: Displays one week of the calendar
-   * **Gantt**: Displays a continuous view of the calendar\
+   * **[!UICONTROL Month]**: Displays four weeks of the calendar
+   * **[!UICONTROL Week]**: Displays one week of the calendar
+   * **[!UICONTROL Gantt]**: Displays a continuous view of the calendar\
 
       ![[!UICONTROL Gantt] calendar report](assets/gantt-calendar-report.png)
-You can see more events in a [!UICONTROL Gantt] view by scrolling down or sideways. A [!UICONTROL loading] symbol appears as data is populated for the view.
+You can see more events in a [!UICONTROL Gantt] view by scrolling down or sideways. A loading symbol appears as data is populated for the view.
    >[!NOTE]
    >
-   >In the Month and Week views, events that are current or future (including events that span multiple days, as long as they contain today or a future day) have shading that corresponds to the color in the project or calendar grouping. Past events have lighter shading to indicate that they are no longer current, but you can still select and view those events.
+   >In the [!UICONTROL Month] and [!UICONTROL Week] views, events that are current or future (including events that span multiple days, as long as they contain today or a future day) have shading that corresponds to the color in the project or calendar grouping. Past events have lighter shading to indicate that they are no longer current, but you can still select and view those events.
 
-1. (Optional) If you are viewing the calendar in the Month or Week views, you can change your calendar view with the following options:
+1. (Optional) If you are viewing the calendar in the [!UICONTROL Month] or [!UICONTROL Week] views, you can change your calendar view with the following options:
 
    * To include or exclude weekends:
 
-      1. On the **Calendar** toolbar, click **[!UICONTROL Calendar Actions]**, then from the drop-down list select either **Show Weekend** or **Hide Weekend**.
+      1. On the **[!UICONTROL Calendar]** toolbar, click **[!UICONTROL Calendar Actions]**, then from the drop-down list select either **[!UICONTROL Show Weekend]** or **[!UICONTROL Hide Weekend]**.
    * To quickly change the displayed dates:
 
-      1. On the **Calendar** toolbar, click the left arrow of the date indicator to move back in the calendar or the right arrow to move forward.\
+      1. On the **[!UICONTROL Calendar]** toolbar, click the left arrow of the date indicator to move back in the calendar or the right arrow to move forward.\
 
          ![Click arrow to change date](assets/click-arrows-to-change-dates-calendar-report.png)\
          The displayed dates are adjusted by an interval based your current calendar view. For example, if you are viewing the calendar in the [!UICONTROL Week] view, the calendar displays either one week forward or one week back, depending on the arrow you select.
 
-      1. (Optional) To return to the current day, click **Today**.
+      1. (Optional) To return to the current day, click **Tod[!UICONTROL ]ay**.
 
 
-1. (Optional) To view a calendar in full-screen, click the full-screen arrows on the right-hand side of the **Calendar** toolbar.
+1. (Optional) To view a calendar in full-screen, click the full-screen arrows on the right-hand side of the **[!UICONTROL Calendar]** toolbar.
    ![Click arrow to change date](assets/click-arrows-to-change-dates-calendar-report.png)\
    Press Esc to return to the normal view of the calendar.
 
 1. (Optional) To hide the events for a project or calendar grouping linked to the calendar, clear the project or calendar grouping in the project list.
-   ![[!UICONTROL Hide] events](assets/hide-events-for-project-or-cal-grouping.png)\
+   ![Hide events](assets/hide-events-for-project-or-cal-grouping.png)\
    You can make the events visible again by selecting the [!UICONTROL project] or calendar grouping in the project list.
 
 ## View calendar report event details
