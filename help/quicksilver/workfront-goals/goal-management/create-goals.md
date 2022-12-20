@@ -9,9 +9,68 @@ exl-id: 14bf48b6-eb0c-4b00-a1a4-0d070ccc1392
 ---
 # Create goals in Adobe Workfront Goals
 
+<!--drafted for goal redesign:
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> 
+-->
+
 Whether you are a CEO, a manager, or an individual contributor, you can create goals in Adobe Workfront Goals to align your work with your goals and the goals that outline the strategy of your organization.
 
 ## Access requirements
+
+<!--drafted for P&P release: 
+
+You must have the following:
+
+<table style="table-layout:auto">
+ <col>
+ </col>
+ <col>
+ </col>
+ <tbody>
+  <tr>
+   <td role="rowheader">Adobe Workfront plan*</td>
+   <td>
+   <p>Current plan: Select or higher</p>
+   Or
+   <p>Legacy plan: Pro or higher</p>
+   
+   </td>
+  </tr>
+  <tr>
+   <td role="rowheader">Adobe Workfront license*</td>
+   <td>
+   <p>Current license: Contributor or higher</p>
+   Or
+   <p>Legacy license: Request or higher</p> <p>For more information, see <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p> </td>
+  </tr>
+  <tr>
+   <td role="rowheader">Product</td>
+   <td>
+   <p> Current product requirement: If you have the Select or Prime Adobe Workfront plan, you must also buy an additional Adobe Workfront Goals license.  Workfront Goals are included in the Ultimate Workfront Plan.</p>
+   Or
+   <p>Legacy product requirement: You must purchase an additional license for the Adobe Workfront Goals to access functionality described in this article. </p> <p>For information, see <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requirements to use Workfront Goals</a>. </p> </td>
+  </tr>
+  <tr>
+   <td role="rowheader">Access level*</td>
+   <td> <p>Edit access to Goals</p> <p><b>NOTE</b><p>If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see:</p>
+     <ul>
+      <li> <p><a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a> </p> </li>
+      <li> <p><span href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md"><a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md" class="MCXref xref">Grant access to Adobe Workfront Goals</a></span> </p> </li>
+     </ul> </p> </td>
+  </tr>
+  <tr data-mc-conditions="">
+   <td role="rowheader">Object permissions</td>
+   <td>
+    <div>
+     <p>View or higher permissions to the goal to view it</p>
+     <p>Manage permissions to the goal to edit it</p>
+     <p>For information about sharing goals, see <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Share a goal in Workfront Goals</a>. </p>
+    </div> </td>
+  </tr>
+ </tbody>
+</table>
+
+-->
 
 You must have the following:
 
@@ -50,7 +109,7 @@ You must have the following:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+*To find out what plan, license type, or access you have, contact your Workfront administrator.
 
 ## Prerequisites
 
@@ -73,6 +132,14 @@ You can create a strategic goal in one of the following ways:
 * [Convert a result or activity to a goal](#convert-a-result-or-activity-to-a-goal)
 
 ### Create a goal from scratch {#create-a-goal-from-scratch}
+
+<!--drafted for goal redesign: 
+
+Creating goals differs depending on what environment you use.
+
+#### Create a goal from scratch in the Production environment 
+
+-->
 
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper right corner, then click **Goals**.
 
@@ -142,6 +209,57 @@ You can create a strategic goal in one of the following ways:
    >  For information about aligning goals, see [Align goals by connecting them in Adobe Workfront Goals](../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md).
 
 1. Click the **X** icon in the upper-right of the Goal Details panel to close it.
+
+
+<!--drafted for goal redesign:
+
+<div class="preview">
+
+#### Create a goal from scratch in the Preview environment
+
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper right corner, then click **Goals**. 
+
+   The goal list displays.
+1. Click **New goal**.  
+
+   The New goal box displays.  
+
+   ![](assets/new-goal-box-unshimmed.png)
+
+1. Enter information in the following fields:
+    * **Goal name**: Enter a name for the goal. This is a required field.
+    * **Period**: Select a predefined quarter or year from the **Period** drop-down field
+   
+   Or
+
+   Select the **Enable custom dates** option, then select a **Start** and **End date** for the goal.  
+   
+   The previous, current, and following years and their respective quarters are listed as predefined options in the Period drop-down field.  
+   
+   The Period of the goal indicates the time frame when you expect the goal to complete.
+
+    * **Goal owner**: Start typing the name of a user, a team, a group, or of your organization to indicate who is the owner of the goal. You are selected as the owner of the goal by default. 
+    * **Description**: Enter additional information about the goal.
+1. Click **Create goal**. 
+
+   The new goal is listed in the Goal list and it has the status of **Draft**.
+   
+   You must associate a goal with a progress indicator to activate it and start working on it.
+  
+   Do at least one of the following to prepare a goal to be activated:
+    * Add a Result
+    
+      For information about adding results, see [Add results to goals in Adobe Workfront Goals](../results-and-activities/add-results-to-goals.md).
+    * Add an Activity 
+    
+      For information about adding activities, see [Add activities to goals in Adobe Workfront Goals](../results-and-activities/add-activities-to-goals.md).
+    * Align another goal to it
+    
+      For information about aligning goals, see [Align goals by connecting them in Adobe Workfront Goals](../goal-alignment/align-goals-by-connecting-them.md). 
+
+</div>
+
+-->
 
 ### Copy an existing goal {#copy-an-existing-goal}
 
