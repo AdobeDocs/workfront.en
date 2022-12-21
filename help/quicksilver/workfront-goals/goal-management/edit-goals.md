@@ -236,7 +236,7 @@ The goal page displays.
 For more information, see the following articles: 
     * [Add activities to goals in Adobe Workfront Goals](../results-and-activities/add-activities-to-goals.md)
     * [Add results to goals in Adobe Workfront Goals](../results-and-activities/add-results-to-goals.md). 
-    * [Connect projects to goals overview](../results-and-activities/connect-projects-to-goals-overview.md).
+    * [Add projects to goals in Adobe Workfront Goals](../results-and-activities/connect-projects-to-goals-overview.md).
     </div>
 
     -->

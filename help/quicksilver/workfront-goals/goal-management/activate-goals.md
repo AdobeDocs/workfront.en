@@ -141,7 +141,7 @@ Do at least one of the following to be able to activate a goal:
 
 * Connect a project to the goal
 
-  For information, see [Overview of connecting projects to goals in Adobe Workfront Goals](../results-and-activities/connect-projects-to-goals-overview.md). <!--drafted for goal redesign: update the title of the article here, when goal redesign releases-->
+  For information, see [Add projects to goals in Adobe Workfront Goals](../results-and-activities/connect-projects-to-goals-overview.md). <!--drafted for goal redesign: update the title of the article here, when goal redesign releases-->
 
 * Align another goal to the goal you want to activate
 
