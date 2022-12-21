@@ -69,7 +69,7 @@ The following functionality is currently included with Workfront Goals:
 
 * Associate existing projects with goals to align your goals with your actual work. As the project progresses, so does your goal. 
 
-  For information about associating projects with goals, see [Overview of connecting projects to goals in Adobe Workfront Goals](../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md).
+  For information about associating projects with goals, see [Add projects to goals in Adobe Workfront Goals](../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md).
 
 * Update goals, results, and activities to trigger the updating of the progress of goals.
 
@@ -93,6 +93,6 @@ The following functionality is currently included with Workfront Goals:
 
   For information about Workfront Goals graphs, see [Review graphs to understand goal progress trends in Adobe Workfront Goals](../../workfront-goals/goal-review-and-workfront-goals-sections/review-goal-graphs.md).
 
-* Build goal reports and display goal information in project reports for projects that are associated to goals. For information about locating goal information on projects, see [Overview of connecting projects to goals in Adobe Workfront Goals](../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md).
+* Build goal reports and display goal information in project reports for projects that are associated to goals. For information about locating goal information on projects, see [Add projects to goals in Adobe Workfront Goals](../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md).
 
 

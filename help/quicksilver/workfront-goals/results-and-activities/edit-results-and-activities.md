@@ -144,7 +144,7 @@ According to Vazgen, access levels will add more considerations.)
   >   * Project percent complete
   >   
   >   
-  >For information about connecting projects to goals, see [Overview of connecting projects to goals in Adobe Workfront Goals](../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md).
+  >For information about connecting projects to goals, see [Add projects to goals in Adobe Workfront Goals](../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md).
 
 * You can delete results and activities from goals when they are no longer relevant to the goal progress. Deleted results and activities cannot be recovered. For information about deleting results and activities, see [Remove results, activities, and projects from goals in Adobe Workfront Goals](../../workfront-goals/results-and-activities/remove-results-activities-from-goals.md).
 * You can edit results and activities associated with goals from any time period, including in the past. 

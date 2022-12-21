@@ -111,12 +111,12 @@ Consider the following when associating activities with your goals:
     </tr> 
     <tr> 
      <td role="rowheader"><p>Project</p></td> 
-     <td> <p>Existing projects that you have at least permissions to View and are not in a status of Dead. They are updated automatically, based on the progress of their work items. </p> <p>The projects must exist before associating them with the goal. You can associate a project with multiple goals. For information about adding projects to goals, see <a href="../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md" class="MCXref xref">Overview of connecting projects to goals in Adobe Workfront Goals</a>.</p> </td> 
+     <td> <p>Existing projects that you have at least permissions to View and are not in a status of Dead. They are updated automatically, based on the progress of their work items. </p> <p>The projects must exist before associating them with the goal. You can associate a project with multiple goals. For information about adding projects to goals, see <a href="../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md" class="MCXref xref">Add projects to goals in Adobe Workfront Goals</a>.</p> </td> 
     </tr> 
    </tbody> 
   </table>
 
-<!--drafted for goal redesign: add this to the "Project" description in the table above FOR THE PREVIEW RELEASE ONLY: In the Preview environment, adding projects is a separate function from adding activities. For more information, see <a href="../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md" class="MCXref xref">Overview of connecting projects to goals in Adobe Workfront Goals</a> (this article will have a new name - replace it in the link above). 
+<!--drafted for goal redesign: add this to the "Project" description in the table above FOR THE PREVIEW RELEASE ONLY: In the Preview environment, adding projects is a separate function from adding activities. For more information, see <a href="../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md" class="MCXref xref">Add projects to goals in Adobe Workfront Goals</a> (this article will have a new name - replace it in the link above). 
 
 For THE PRODUCTION RELEASE: remove the projects in this article altogether.-->
 
@@ -124,7 +124,7 @@ For more information about results and activities, see the list of similarities 
 
 ## Similarities between results, activities, and projects {#similarities-between-results-activities-and-projects}
 
-Results, activities and projects are goal progress indicators. Although you connect a project to a goal the same way you connect an activity, there are some differences in the way you manage projects versus the way you manage activities. For information about adding projects to goals, see [Add activities to goals in Adobe Workfront Goals](../../workfront-goals/results-and-activities/add-activities-to-goals.md).&nbsp;For information about projects connected to goals, see [Overview of connecting projects to goals in Adobe Workfront Goals](../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md).
+Results, activities and projects are goal progress indicators. Although you connect a project to a goal the same way you connect an activity, there are some differences in the way you manage projects versus the way you manage activities. For information about adding projects to goals, see [Add activities to goals in Adobe Workfront Goals](../../workfront-goals/results-and-activities/add-activities-to-goals.md).&nbsp;For information about projects connected to goals, see [Add projects to goals in Adobe Workfront Goals](../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md).
 
 The following table displays similarities and differences between results, activities, and projects, as goal indicators: 
 
