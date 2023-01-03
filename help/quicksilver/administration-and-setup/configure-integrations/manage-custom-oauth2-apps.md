@@ -60,7 +60,7 @@ For more information, see [Create OAuth2 applications for Workfront integrations
 
 ### View and edit custom OAuth2 applications {#view-and-edit-custom-oauth2-applications}
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe] Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe Workfront], then click **Setup** ![](assets/gear-icon-settings.png).
 
 1. In the left navigation panel, click **System**, then select **OAuth Applications**.
 1. Click **Create app integration**.
@@ -71,7 +71,7 @@ For more information, see [Create OAuth2 applications for Workfront integrations
 
 ### Delete custom OAuth2 applications {#delete-custom-oauth2-applications}
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe] Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe Workfront], then click **Setup** ![](assets/gear-icon-settings.png).
 
 1. In the left navigation panel, click **System**, then select **OAuth Applications**.
 1. Click **Create app integration**.
@@ -95,7 +95,7 @@ For more information, see [Create OAuth2 applications for Workfront integrations
 
 
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe] Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe Workfront], then click **Setup** ![](assets/gear-icon-settings.png).
 
 1. In the left navigation panel, click **System**, then select **OAuth Applications**.
 1. Hover over the application and click the **Edit** icon when it appears on the far right.
@@ -109,7 +109,7 @@ For more information, see [Create OAuth2 applications for Workfront integrations
 
 ### Add or edit notes for Client Secret {#add-or-edit-notes-for-client-secret}
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe] Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe Workfront], then click **Setup** ![](assets/gear-icon-settings.png).
 
 1. In the left navigation panel, click **System**, then select **OAuth Applications**.
 1. Click **Create app integration**.
@@ -127,7 +127,7 @@ For more information, see [Create OAuth2 applications for Workfront integrations
 
 ### Delete Client Secret {#delete-client-secret}
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe] Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe Workfront], then click **Setup** ![](assets/gear-icon-settings.png).
 
 1. In the left navigation panel, click **System**, then select **OAuth Applications**.
 1. Click **Create app integration**.

@@ -27,8 +27,8 @@ You must have the following to perform the steps in this article:
    <td>Any</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe [!DNL Workfront] license</td> 
-   <td>Plan</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] license</td> 
+   <td>[!UICONTROL Plan]</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
@@ -44,7 +44,7 @@ You must have the following to perform the steps in this article:
 To disable document integrations for [!UICONTROL Workfront DAM], [!DNL Workfront Library], Box, Dropbox, [!DNL Google] Drive, [!DNL Microsoft OneDrive], WebDAM:
 
 1. Log in to [!DNL Workfront] as a Workfront administrator.
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe] Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe Workfront], then click **Setup** ![](assets/gear-icon-settings.png).
 
 1. Click **[!UICONTROL Documents]** > **[!UICONTROL Cloud Providers]**.
 
@@ -56,7 +56,7 @@ To disable document integrations for [!UICONTROL Workfront DAM], [!DNL Workfront
 ## Disable the SharePoint integration
 
 1. Log in to [!DNL Workfront] as a Workfront administrator.
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe] Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe Workfront], then click **Setup** ![](assets/gear-icon-settings.png).
 
 1. Expand **Documents**, then click **SharePoint Integration**.
 1. Select the [!DNL SharePoint] integration you want to disable.
@@ -66,7 +66,7 @@ To disable document integrations for [!UICONTROL Workfront DAM], [!DNL Workfront
 ## Disable custom integrations
 
 1. Log in to [!DNL Workfront] as the administrator.
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe] Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe Workfront], then click **Setup** ![](assets/gear-icon-settings.png).
 
 1. Click **Documents** > **Custom Integration**.
 1. Select the custom integration you want to disable.
