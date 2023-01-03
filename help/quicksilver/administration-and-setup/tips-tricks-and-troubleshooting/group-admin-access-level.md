@@ -18,11 +18,13 @@ If a group administrator has permissions in their Access Level lower than those 
 
 If a group administrator is assigned a modified Planner access level with View permissions for Teams, but certain users are assigned a Worker access level with Edit permissions for Teams, the group administrator will not be able to interact with the modified Worker access level.
 
+![](assets/group-admin-modified-access.png)
+
+
 >[!NOTE]
 >
 >This logic also applies to the Fine-tune your settings drop-down menu. Both access levels can have Edit access, but settings in the Fine-tune your settings drop-down menu must be higher for the group admin.
-
-![](assets/group-admin-modified-access.png)
+> ![](assets/fine-tune-your-settings.png)
 
 ## Solution
 
