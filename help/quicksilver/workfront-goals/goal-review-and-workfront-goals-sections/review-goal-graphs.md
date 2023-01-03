@@ -76,7 +76,7 @@ The following charts are available in the Graphs section or Workfront Goals:
     <ul> 
      <li>A total number of goals for the selected period of time. Goals with any status are taken into account. </li> 
      <li>The progress status of goals with a status of Active and Closed.</li> 
-    </ul> <p>For information about how Workfront Goals calculates progress status, see <a href="../../workfront-goals/goal-management/calculate-goal-progress.md" class="MCXref xref">Calculate goal progress in Adobe Workfront Goals</a>.</p> </td> 
+    </ul> <p>For information about how Workfront Goals calculates progress status, see <a href="../../workfront-goals/goal-management/calculate-goal-progress.md" class="MCXref xref">Overview of goal progress and condition in Adobe Workfront Goals</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">The Goal Progress Chart</td> 

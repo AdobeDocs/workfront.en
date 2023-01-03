@@ -38,7 +38,7 @@ You can now do the following to see goal information in reports:
    * Goals: this is a collection field that displays all goals that are associated with a project.
    * Number of linked goals: the number of goals associated with the project.
 
-For information about locating goal information on projects, see [Overview of connecting projects to goals in Adobe Workfront Goals](../../../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md).
+For information about locating goal information on projects, see [Add projects to goals in Adobe Workfront Goals](../../../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md).
 
 For information about goal fields visible in reports, see [Glossary of Adobe Workfront terminology](../../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
 

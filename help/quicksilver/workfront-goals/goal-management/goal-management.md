@@ -10,6 +10,28 @@ exl-id: cba07613-9912-4929-bda4-50f503faa3e1
 ---
 # Goal management in Adobe Workfront Goals
 
+<!--drafted for P&P new model: the note at the top will need to be replaced with this:
+
+Your organization must have the following to use the functionality described in this article:
+
+* For the legacy plan and license structure: 
+
+  * A Pro or higher [Adobe Workfront plan](https://www.workfront.com/plans). 
+  * An Adobe Workfront Goals license in addition to a Workfront license.
+
+* For the current plan and license structure:
+
+  * An Ultimate plan 
+    
+    Or
+    
+    An additional license for Adobe Workfront Goals for the Prime or Select Adobe Workfront plans. <is there a link we can add here for the plans and what they contain?!>
+
+Contact your Workfront account manager to learn about a Workfront Goals license.
+
+For additional information about access to Workfront Goals, see [Requirements to use Workfront Goals](../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+-->
+
 >[!NOTE]
 >
 >Your organization must have the following to use the functionality described in this article:
@@ -34,7 +56,7 @@ Review the following articles to learn where you start with Workfront Goals, the
 * [Edit goals in Adobe Workfront Goals](../../workfront-goals/goal-management/edit-goals.md) 
 * [Delete and deactivate goals in Adobe Workfront Goals](../../workfront-goals/goal-management/delete-and-deactivate-goals.md) 
 * [Goal status overview in Adobe Workfront Goals](../../workfront-goals/goal-management/goal-status-overview.md) 
-* [Calculate goal progress in Adobe Workfront Goals](../../workfront-goals/goal-management/calculate-goal-progress.md) 
+* [Overview of goal progress and condition in Adobe Workfront Goals](../../workfront-goals/goal-management/calculate-goal-progress.md) 
 * [Filter information in Adobe Workfront Goals](../../workfront-goals/goal-management/filter-information-wf-goals.md) 
 * [Manage goal comments in Adobe Workfront Goals](../../workfront-goals/goal-management/manage-goal-comments.md) 
 * [Move goals from one time period to another in Adobe Workfront Goals](../../workfront-goals/goal-management/move-goals-to-another-period.md) 

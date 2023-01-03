@@ -101,7 +101,7 @@ For more information about activities, see [Get started with results and activit
 
          Workfront uses the project percent complete of all the attached projects to calculate the progress of the goal.
 
-         For more information about associating projects with goals, see [Overview of connecting projects to goals in Adobe Workfront Goals](../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md).
+         For more information about associating projects with goals, see [Add projects to goals in Adobe Workfront Goals](../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md).
 
          >[!TIP]
          >

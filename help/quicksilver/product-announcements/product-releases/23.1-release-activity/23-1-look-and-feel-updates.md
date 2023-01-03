@@ -22,6 +22,10 @@ The Filters, Views, and Groupings pages under Setup > Interface now have the mor
 
 ## New Edit Template box
 
+>[!NOTE]
+>
+>Preview release: December 8, 2022; Planned Production release: With the 23.1 release 
+
 As part of updating the look and feel of Workfront, we have redesigned the Edit Template box. You can access the new Edit Template box from an individual template or from a template list.
 
 In addition to an updated look and feel, the following changes are also available in the New Template box:
@@ -30,6 +34,7 @@ In addition to an updated look and feel, the following changes are also availabl
 * Individual custom form names are now available on the left panel inside the Edit Template box and you can quickly access each form from there.
 * We have removed the commenting functionality from the Edit Template box to eliminate redundancy with the Updates section.
 * We have removed the "Is active" checkbox to eliminate redundancy with the More menu options on the template page.
+* We have removed the Comment section to eliminate redundancy with the Updates section.
 
 For more information, see [Edit project templates](/help/quicksilver/manage-work/projects/create-and-manage-templates/edit-templates.md).
 

@@ -30,7 +30,7 @@ You can use the Resource Planner to easily understand the availability of users 
 You can view information in the Resource Planner using three separate views. You can use each view to fulfill one of the following purposes:
 
 * To budget the time or cost of your resources for the work that needs to be accomplished using the Project and Role views. This is the main purpose of the Resource Planner.   
-  For more information about budgeting in the Resource Planner, see the article [Use the Project and Role Views to budget resources](#use-the-project-and-role-views-to-budget-resources).
+  For more information about budgeting in the Resource Planner, see the article [Budget resources in the Resource Planner using the Project and Role views](../resource-planning/budget-resources-project-role-views-resource-planner.md).
 
 * To view the following information using the User view:
 
@@ -68,7 +68,7 @@ You can view information in the Resource Planner using three separate views. You
 
   For information about how you can budget resources for a single project, see the article [Budget resources in the Business Case](../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md).
 
-  For information about how you can budget resources in the Resource Planner for multiple projects at a time, see the section "Budget resources in the Resource Planner" in the article [ [Budget resources in the Resource Planner using the Project and Role views](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md)](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md).
+  For information about how you can budget resources in the Resource Planner for multiple projects at a time, see the section "Budget resources in the Resource Planner" in the article [Budget resources in the Resource Planner using the Project and Role views](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md).
 
 ## Prerequisites for working in the Resource Planner {#prerequisites-for-working-in-the-resource-planner}
 

@@ -104,7 +104,7 @@ You can delete a project in a project list or at the project level.
 
      This requires an additional license. For information about Workfront Goals, see [Adobe Workfront Goals overview](../../../workfront-goals/goal-management/wf-goals-overview.md).
 
-     For information about associating projects with goals, see [Overview of connecting projects to goals in Adobe Workfront Goals](../../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md).
+     For information about associating projects with goals, see [Add projects to goals in Adobe Workfront Goals](../../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md).
 
 ## Delete a project in a list
 
