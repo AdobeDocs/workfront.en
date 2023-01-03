@@ -116,11 +116,12 @@ You must have the following:
 
 You must have the following before you can start:
 
-* A Layout Template that includes the Goals area in the Main&nbsp;Menu.
+* A Layout Template that includes the Goals area in the Main Menu.
 * You created the goals you want to edit or you have Manage permissions to them.
 
 ## Considerations about editing goals
 
+* You cannot edit goals with a status of Closed. 
 * You can edit goals from any time period.
 
   You can edit the following information for a past goal:
@@ -182,7 +183,7 @@ Editing goals differs depending on what environment you use.
    >We recommend that everyone in your organization selects the same time frames for similar goals or goals that are aligned. This provides better alignment between goals and ensures that everyone's work supports your larger organization-wide strategy.
 
 1. Click the **Owner** field and select a new owner for the goal, if you want to indicate someone else as the owner of the goal. 
-1. (Conditional)&nbsp;Start typing the name of a user, team, group, or the name of your organization in the **Owner** field, then select it when it displays in the list. You can have only one owner for a goal. 
+1. (Conditional) Start typing the name of a user, team, group, or the name of your organization in the **Owner** field, then select it when it displays in the list. You can have only one owner for a goal. 
 1. Update the **Description** of the goal, then click **Save**.
 
 
@@ -196,41 +197,38 @@ Editing goals differs depending on what environment you use.
 (CHECK all the fields in each of these sections, as the UI might not have been completed when I wrote these steps):
 
 
-
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png), then click **Goals**.  
 A list of goals displays.
 2. Click a goal.  
 The goal page displays. 
 3. Do one of the following to edit information for the goal:
     * Click fields that display in the goal header to update them. Not all fields in the header are editable. 
-    * Click **Goal Details** in the left panel and click the **Edit icon** ![](assets/edit-icon.png) in the upper-right corner, then click **Edit all**. Start updating fields in the Goal Details section. 
     * Click the **More icon** ![](assets/more-icon.png) to the right of the goal name, then click **Edit**. 
-4. Update the fields in the list below.
- 
+    * Click **Goal details** in the left panel and click the **Edit icon** ![](assets/edit-icon.png) in the upper-right corner, then click **Edit all**. Start updating fields in the Goal Details section. 
+    
    >[!IMPORTANT]
    >
-   >* Not all fields that display in the areas mentioned above can be edited. Workfront calculates some of the fields and they are read-only.  \
-   * The fields in the list below do not display in all of the areas mentioned above. 
+   >Not all fields that display in the areas mentioned above can be edited. Workfront calculates some of the fields and they are read-only. 
+4. (Conditional) Depending on what you selected in the previus step, update the following information about the goal:
 
-   * **Goal name**: Click the name of the goal and start typing a new name. 
-   * **Description**: Add or update information about the goal. 
-   * **Goal owner**: Click to update the name of the owner of the goal. Start typing the name of a user, team, group, or the name of your organization, then select it when it displays in the list. You can have only one owner for a goal.
-   * **Period**: Click to update the time period for the goal  
-   Or  
-   Select **Enable custom dates** to specify dates for the goal's **Start **and** End dates**.  
-   
-      >[!TIP]
-      >
-      >   Deselect **Enable custom dates** to return to the original time period for the goal. 
+   * Update the following information in he goal header, then press Enter to save your changes:
+      * **Goal name**: Click the name of the goal and start typing a new name.
+      * **Owner**
+   * Update the following information information in the Edit Goal box, then click **Save**: 
+      * **Goal name**
+      * **Period**: Click to update the time period for the goal  
+         Or  
+         Select **Enable custom dates** to specify dates for the goal's **Start** and **End dates**. 
 
-   * **Status**: Click to update the status of the goal. For more information, see [Goal status overview in Adobe Workfront Goals](../goal-management/goal-status-overview.md).  
-   * **Parent goal**: Start typing the name of a goal that you would like to set as the parent of the goal you selected. The progress of the selected goal will automatically update the progress of the parent goal.
-   * **Progress**: Indicates what percentage of the goal is completed so far. You cannot manually update the progress of a goal. The goal progress is a calculation of all progress indicators. 
-   * **Condition**: Indicates whether the goal is new and it has not been updated yet, whether it's on target to be completed on time, or lagging behind. You cannot update the condition of a goal. The goal's condition is automatically calculated by Worfront.   
-   For more information about goal condition and progress, see 
-   [Overview of goal progress and condition in Adobe Workfront Goals](../goal-management/calculate-goal-progress.md).
-   
-   (this title might have to change to refer to "condition" which was called "goal progress labels"). 
+         >[!TIP]
+         >
+         >Deselect **Enable custom dates** to return to the original time period for the goal. 
+
+      * **Goal owner**: Click to update the name of the owner of the goal. Start typing the name of a user, team, group, or the name of your organization, then select it when it displays in the list. You can have only one owner for a goal.
+      * **Description**: Add or update information about the goal. 
+   * Update or review information in the Goal details section. For more information, see [Update goals in the Goal Details panel in Adobe Workfront Goals](../goal-management/update-goals-in-goal-details-panel.md). 
+
+   (should you update the title here after changing it at production???)
 
 5. (Optional)  Click **Progress Indicators** in the left panel to add results, activities, or projects to the goal. By adding progress indicators you ensure you can track the goal's progress.
 For more information, see the following articles: 
