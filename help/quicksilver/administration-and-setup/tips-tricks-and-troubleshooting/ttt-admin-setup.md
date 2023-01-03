@@ -14,6 +14,7 @@ exl-id: e72018b7-5de2-4661-b27d-6da6ece5cc48
 
 This section contains the following articles:
 
+* [Group admins must have higher access than those they manage](/help/quicksilver/administration-and-setup/tips-tricks-and-troubleshooting/group-admin-access-level.md)
 * [Active and deactivated objects](../../administration-and-setup/tips-tricks-and-troubleshooting/acitve-and-deactivated-objects.md) 
 * [ADFS logout URL doesn't work](../../administration-and-setup/tips-tricks-and-troubleshooting/adfs-logout-url-doesnt-work.md) 
 * [Administration and setup FAQs](../../administration-and-setup/tips-tricks-and-troubleshooting/admin-and-setup-faq.md) 
