@@ -53,7 +53,7 @@ You must have the following access to perform the steps in this article:
 
    >[!TIP]
    >
-   >Hover over a pinned page to view the type of object (such as Project or Dashboard), the full name, and the description.
+   >Hover over a pinned page to view the full name and the description.
 
    Or
 
@@ -86,13 +86,13 @@ You can change the name of a pinned page to be more meaningful to you.
 
 You can rearrange the order that pinned pages appear.
 
-1. Hover over the pinned page in the top navigation. When you see the hand cursor, then click and drag the pin to the desired order.
+>[!NOTE]
+>
+><span class="preview">In the Preview environment, you can reorder pinned pages in the **[!UICONTROL More menu]** ![More menu](assets/more-icon-spectrum.png).</span>
+>
+>In the Production environment, you can't reorder pinned pages in the **[!UICONTROL More menu]** ![More menu](assets/more-icon-spectrum.png).
 
-   >[!NOTE]
-   >
-   ><span class="preview">In the Preview environment, you can reorder pinned pages in the **[!UICONTROL More menu]** ![More menu](assets/more-icon-spectrum.png).</span>
-   >
-   >In the Production environment, you can't reorder pinned pages in the **[!UICONTROL More menu]** ![More menu](assets/more-icon-spectrum.png).
+1. Hover over the pinned page in the top navigation or **[!UICONTROL More menu]**. When you see the hand cursor, click and drag the pin to the desired order.
 
    Your changes automatically save and are remembered the next time you access Workfront.
 
