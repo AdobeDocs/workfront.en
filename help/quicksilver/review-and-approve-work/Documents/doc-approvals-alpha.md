@@ -2,7 +2,7 @@
 product-area: documents
 navigation-topic: approvals
 title: Alpha Program – Document Approvals
-description: 
+description: We are excited to announce the launch of our Alpha program for document approvals. Here you will find information about the latest Alpha release along with a brief video walkthrough to get you started.
 author: Courtney
 feature: Work Management
 hide: yes
