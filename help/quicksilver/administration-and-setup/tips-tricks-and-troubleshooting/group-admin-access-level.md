@@ -4,7 +4,7 @@ content-type: tips-tricks-troubleshooting
 product-area: system-administration;user-management
 navigation-topic: tips-tricks-troubleshooting-setup-admin
 title: Group admins must have higher access than those they manage
-description: 
+description: If a group administrator has permissions in their Access Level lower than those they manage, they will not be able to view, modify, or assign lower access levels.  
 author: Courtney
 feature: System Setup and Administration
 role: Admin
