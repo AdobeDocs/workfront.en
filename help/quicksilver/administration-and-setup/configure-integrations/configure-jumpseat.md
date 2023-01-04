@@ -22,7 +22,7 @@ You must have the following access to perform the steps in this article:
  <tbody> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
-   <td> <p>Enterprise </p> </td> 
+   <td> <p>[!UICONTROL Enterprise] </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] license*</strong></td> 
@@ -30,7 +30,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Product</strong></td> 
-   <td>You must have an active JumpSeat plan.</td> 
+   <td>You must have an active [!DNL JumpSeat] plan.</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Access level configurations*</strong></td> 
@@ -45,30 +45,30 @@ You must have the following access to perform the steps in this article:
 
 Before you begin, you must
 
-* Add and activate [!DNL Workfront] as an application in JumpSeat. For more information, see [How To Add Or Delete An Application](https://support.jumpseat.io/article/how-to-add-an-application/).
+* Add and activate [!DNL Workfront] as an application in [!DNL JumpSeat]. For more information, see [How To Add Or Delete An Application](https://support.jumpseat.io/article/how-to-add-an-application/).
 
-## Configure the JumpSeat integration
+## Configure the [!DNL JumpSeat] integration
 
-We recommend setting up a JumpSeat integration in both your Preview and Production environments.
+We recommend setting up a [!DNL JumpSeat] integration in both your Preview and Production environments.
 
 >[!TIP]
 >
->You need to add and activate two separate [!DNL Workfront] applications in JumpSeat—one for Preview and one for Production. See [How To Add Or Delete An Application](https://support.jumpseat.io/article/how-to-add-an-application/) for more information.
+>You need to add and activate two separate [!DNL Workfront] applications in [!DNL JumpSeat]—one for Preview and one for Production. See [How To Add Or Delete An Application](https://support.jumpseat.io/article/how-to-add-an-application/) for more information.
 
-To configure the JumpSeat integration:
+To configure the [!DNL JumpSeat] integration:
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe Workfront], then click **Setup**.
-1. In the left panel, click **System** > **JumpSeat Integration**.
-1. Enter your **JumpSeat URL**.
+1. Click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe Workfront], then click **[!UICONTROL Setup]**.
+1. In the left panel, click **[!UICONTROL System]** > **[!UICONTROL [!DNL JumpSeat] Integration]**.
+1. Enter your **[!UICONTROL [!DNL JumpSeat] URL]**.
 
    **Example:** [!DNL https]://{mycompanyname}.jumpseat.io
 
-1. Enter the **JumpSeat integration token**. You can find this on the **Configuration** page in JumpSeat.
+1. Enter the **[!UICONTROL [!DNL JumpSeat] integration token]**. You can find this on the **[!UICONTROL Configuration]** page in [!DNL JumpSeat].
 
    **Example:** $2y$10$BevsKeQ8....OYR.LurSg2U64O
 
-1. Click **Test configuration**.
-1. Choose if you want the integration to be **Active** or **Inactive**.
+1. Click **[!UICONTROL Test configuration]**.
+1. Choose if you want the integration to be **[!UICONTROL Active]** or **[!UICONTROL Inactive]**.
 
    >[!IMPORTANT]
    >
@@ -76,4 +76,4 @@ To configure the JumpSeat integration:
 
    ![JumpSeat Integration page](assets/jumpseat-integration-page.png)
 
-1. Click **Save**.
+1. Click **[!UICONTROL Save]**.
