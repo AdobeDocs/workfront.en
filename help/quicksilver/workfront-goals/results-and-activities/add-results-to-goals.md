@@ -198,6 +198,11 @@ Adding results to goals differs depending on which environment you use.
    
 1. Enter a name for the result in the **Result name** field. This is a required field. 
 1. (Optional) Remove your name from the **Result owner** field if you want to assign the result to another user. By default, you are the owner of an activity you create. 
+
+   >[!NOTE]
+   >
+   >You cannot assign a team, group, or the company as a result owner.
+
 1. In the **How do you want to measure your result?** area, specify the following information:
    * **Value type**: This indicates how you want to measure the progress on the result. You can measure progress numerically, with a percentage value, or using a currency amount. 
    
