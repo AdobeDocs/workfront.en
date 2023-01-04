@@ -10,9 +10,65 @@ exl-id: 4d6ef324-4b5c-402b-b64d-b1a2a7d2ab57
 ---
 # Add activities to goals in&nbsp;Adobe Workfront Goals
 
-Activities measure the progress of a goal. Without associated results, activities, or aligned goals, a goal cannot be activated and progress cannot be recorded on it.
+<!--drafted for goal redesign:
+
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span>-->
+
+Activities measure the progress of a goal. Without associating results, activities, projects, or aligned goals, you cannot activate a goal and you cannot record progress on it. 
 
 ## Access requirements
+
+<!--drafted - replace the table below with this one when P&P releases: 
+
+<table style="table-layout:auto">
+ <col>
+ </col>
+ <col>
+ </col>
+ <tbody>
+  <tr>
+   <td role="rowheader">Adobe Workfront plan*</td>
+   <td>
+   <p>Current plan: Select or higher</p>
+   Or
+   <p>Legacy plan: Pro or higher</p>
+   
+   </td>
+  </tr>
+  <tr>
+   <td role="rowheader">Adobe Workfront license*</td>
+   <td>
+   <p>Current license: Contributor or higher</p>
+   Or
+   <p>Legacy license: Request or higher</p> <p>For more information, see <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p> </td>
+  </tr>
+  <tr>
+   <td role="rowheader">Product</td>
+   <td>
+   <p> Current product requirement: If you have the Select or Prime Adobe Workfront plan, you must also buy an additional Adobe Workfront Goals license.  Workfront Goals are included in the Ultimate Workfront Plan.</p>
+   Or
+   <p>Legacy product requirement: You must purchase an additional license for the Adobe Workfront Goals to access functionality described in this article. </p> <p>For information, see <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requirements to use Workfront Goals</a>. </p> </td>
+  </tr>
+  <tr>
+   <td role="rowheader">Access level*</td>
+   <td> <p>Edit access to Goals</p> <p><b>NOTE</b><p>If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see:</p>
+     <ul>
+      <li> <p><a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a> </p> </li>
+      <li> <p><span href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md"><a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md" class="MCXref xref">Grant access to Adobe Workfront Goals</a></span> </p> </li>
+     </ul> </p> </td>
+  </tr>
+  <tr data-mc-conditions="">
+   <td role="rowheader">Object permissions</td>
+   <td>
+    <div>
+     <p>View or higher permissions to the goal to view it</p>
+     <p>Manage permissions to the goal to edit it</p>
+     <p>For information about sharing goals, see <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Share a goal in Workfront Goals</a>. </p>
+    </div> </td>
+  </tr>
+ </tbody>
+</table>
+-->
 
 You must have the following:
 
@@ -53,13 +109,13 @@ You must have the following:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+*To find out what plan, license type, or access you have, contact your Workfront administrator.
 
 ## Prerequisites
 
 You must have the following before you can start:
 
-* A Layout Template that includes the Goals area in the Main&nbsp;Menu.
+* A Layout Template that includes the Goals area in the Main Menu.
 * An existing goal.
 
   For information about creating goals, see [Create goals in Adobe Workfront Goals](../../workfront-goals/goal-management/create-goals.md).
@@ -72,6 +128,14 @@ For more information about activities, see [Get started with results and activit
 
 ## Add an activity to a goal
 
+<!--drafted for the goal redesign: 
+
+Adding activities to goals differs depending on which environment you use.
+
+### Add an activity to a goal in the Production environment
+
+-->
+
 1. Go to the goal for which you want to add an activity and click the name to open the **Goal Details** panel.
 1. Click **Add activities**.
 
@@ -80,7 +144,7 @@ For more information about activities, see [Get started with results and activit
 1. From the **Activity Type** drop-down menu, select the type of activity you want to associate with your goal.&nbsp;Select **Manual progress bar** or **Project**. Manual progress bar is the default selection. 
 1. (Conditional) Depending on which activity type you selected, do the following:
 
-   1. If you selected Manual progress bar:
+   1. If you selected **Manual progress bar**:
 
       1. Start typing a name for your activity in the **Activity** field. 
       1. (Optional) If you want to set the activity owner as someone other than yourself, click your name in the **Owner** field and begin typing the name of the user that you want to assign as the activity owner, then click it when it appears in the drop-down list.
@@ -105,14 +169,49 @@ For more information about activities, see [Get started with results and activit
 
          >[!TIP]
          >
-         >
-         >   
          >   
          >   * The owner of the project becomes the owner of this activity. If the project has no owner, then the activity has no owner. 
-         >   * You cannot manually update the progress of a project. Workfront calculates the progress of the project based on the project percent complete. When the project percent complete updates in&nbsp;Workfront this also updates the connected project in&nbsp;Workfront Goals including the percent complete of the goal. 
+         >   * You cannot manually update the progress of a project. Workfront calculates the progress of the project based on the project percent complete. When the project percent complete updates in Workfront this also updates the connected project in Workfront Goals including the percent complete of the goal. 
          >   
          >
 
 1. Click **Save**.
 
    The activity is saved for the selected goal. After you activate the goal, the progress of the goal automatically updates when you update the progress of an activity or when the percent complete of a project updates. For information about activating a goal, see [Activate goals in Adobe Workfront Goals](../../workfront-goals/goal-management/activate-goals.md).
+
+
+<!--drafted for the goal redesign: 
+
+<div class="preview">
+
+### Add an activity to a goal in the Preview environment
+
+You can add only activities that are progress bars in the Preview environment. For information about adding projects to a goal, see  [Add projects to goals in Adobe Workfront Goals](../results-and-activities/connect-projects-to-goals-overview.md). 
+(fix the above statement with the PRODUCTION release to remove Preview and to not mention "manual progress" bar - there is only ONE type of activity now) 
+
+1. Click the **Main Menu** ![](assets/main-menu-icon.png), then **Goals**. 
+1. From the Goal List, click the name of a goal to open the goal's page.
+1. Click **Progress indicators** in the left panel.
+1. From the New progress indicator drop-down menu, click **Create activity**. 
+
+   The New activity box opens. 
+
+   ![](assets/new-activity-box-unshimmed.png)
+
+1. Enter a name for the activity in the Activity name field. This is a required field. 
+1. (Optional) Remove your name from the **Activity owner** field if you want to assign the activity to another user. By default, you are the owner of an activity you create. 
+
+   >[!NOTE]
+   >
+   >You cannot assign a team, group, or the company as an activity owner.
+
+1. Click **Create activity** to save it and add it to the selected goal. 
+
+   The activity displays in the Progress indicators section of the goal page, under the Activity grouping. 
+
+</div>
+
+-->
+ 
+ 
+ 
