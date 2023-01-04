@@ -21,8 +21,6 @@ In order to participate in this Alpha release, please ensure you have been added
 
 ### Alpha Release 1 - Nov. 2022
 
-#### Video walk-through
-
 Watch our [video walk-through](https://video.tv.adobe.com/v/3412837){target=_blank} and feel free to follow along if you'd like!
 
 If you'd like to follow along in the video, the following needs to be set up in your Preview environment:
