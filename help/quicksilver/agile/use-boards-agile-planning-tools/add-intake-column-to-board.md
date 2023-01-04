@@ -88,9 +88,11 @@ You must have the following access to perform the steps in this article:
 1. (Optional) To include both tasks and issues on the intake column, click **Filter sources** and select the other object to create another filter.
 1. When you are finished adding filters, review the intake column to verify that the correct tasks and issues appear.
 
-   ![Intake column](assets/intake-column-added2.png)
+   ![Intake column](assets/intake-column-added3.png)
 
-   Cards in the intake column are not editable until you move them into other board columns, although you can click ![Open task or issue](assets/boards-launch-icon.png) to open the task or issue. You can manually re-order the items on the intake column.
+   Cards in the intake column are not editable until you move them into other board columns. You can click on the card to open it in a read-only view, or click ![Open task or issue](assets/boards-launch-icon.png) to open the task or issue in a new browser tab.
+   
+   You can manually re-order the items on the intake column.
 
    The icons on the top right of the intake column show you how many cards are currently in the column, and how many filters are applied.
 
@@ -99,4 +101,10 @@ You must have the following access to perform the steps in this article:
    >You can update the filters at any time by opening the Configure panel, clicking **Filter sources**, and selecting **Tasks** or **Issues**.
 
 1. (Optional) To search for an item in the intake column, click ![Search icon](assets/search-icon.png) on the column.
+1. (Optional) To move a card from the intake column into another column, drag and drop the card into the position you want it to appear.
+
+   Or
+
+   Click the **More** menu ![More menu icon](assets/more-icon-spectrum.png) on the card, and select **Move**. Then, on the **Move Item** box, choose another column and select **Move**.
+
 1. (Optional) To delete the intake column, click the **More** menu ![More menu icon](assets/more-icon-spectrum.png) and select **Delete**.
