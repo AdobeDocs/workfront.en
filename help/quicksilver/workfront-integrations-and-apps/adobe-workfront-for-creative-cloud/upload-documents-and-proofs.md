@@ -14,9 +14,10 @@ Hidefromtoc: yes
 
 You can use  
 
- >[!NOTE]
+>[!NOTE]
 >
 >Uploading documents and proofs is not currently supported in Premiere Pro, and After Effects.
+
 
 ## Document limitations 
 
