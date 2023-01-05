@@ -9,9 +9,7 @@ exl-id: 14bf48b6-eb0c-4b00-a1a4-0d070ccc1392
 ---
 # Create goals in Adobe Workfront Goals
 
-<!--drafted for goal redesign:
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> 
--->
 
 Whether you are a CEO, a manager, or an individual contributor, you can create goals in Adobe Workfront Goals to align your work with your goals and the goals that outline the strategy of your organization.
 
@@ -133,13 +131,10 @@ You can create a strategic goal in one of the following ways:
 
 ### Create a goal from scratch {#create-a-goal-from-scratch}
 
-<!--drafted for goal redesign: 
-
 Creating goals differs depending on what environment you use.
 
 #### Create a goal from scratch in the Production environment 
 
--->
 
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper right corner, then click **Goals**.
 
@@ -211,13 +206,14 @@ Creating goals differs depending on what environment you use.
 1. Click the **X** icon in the upper-right of the Goal Details panel to close it.
 
 
-<!--drafted for goal redesign:
-
 <div class="preview">
 
 #### Create a goal from scratch in the Preview environment
 
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper right corner, then click **Goals**. 
+
+   <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-management/assets/three-line-main-menu-icon.png) in the upper-left corner)
+   -->
 
    The goal list displays.
 1. Click **New goal**.  
@@ -259,7 +255,6 @@ Creating goals differs depending on what environment you use.
 
 </div>
 
--->
 
 ### Copy an existing goal {#copy-an-existing-goal}
 
@@ -273,4 +268,3 @@ You can create a goal by converting the result or the activity of an existing go
 
 For information about converting results and activities to goals, see [Align goals by converting results and activities to goals](../../workfront-goals/goal-alignment/align-goals-by-converting-results-activities.md).
 
-&nbsp;

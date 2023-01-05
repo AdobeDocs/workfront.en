@@ -10,8 +10,7 @@ exl-id: 30e22482-22e2-432d-bb73-7f9a9160aba2
 ---
 # Add results to goals in Adobe Workfront Goals
 
-<!--drafted for goal redesign: 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> -->
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span>
 
 Results measure the progress of a goal. Without associating results, activities, or aligned goals to a goal, you cannot activate the goal and you cannot record progress on it.
 
@@ -122,26 +121,14 @@ You must have the following before you can start:
 
 >[!IMPORTANT]
 >
->A goal cannot have more than a total of 50 activities, results, or aligned goals.
-
-<!--drafted for goal redesign: replace the one above with this: 
-
->[!IMPORTANT]
->
 >In the production environment, a goal cannot have more than a total of 50 activities, results, or aligned goals.
 ><span class="preview">In the Preview environment, a goal cannot have more than a total of 1000 activities, results, projects, or aligned goals.</span>
--->
 
 ## Add a result to a goal
-
-<!--drafted for goal redesign: 
 
 Adding results to goals differs depending on which environment you use.
 
 ### Add a result to a goal in the Production environment
-
--->
-
 
 1. Go to the goal for which you want to add a result and click the name to open the **Goal Details** panel.
 1. Click **Add results**.
@@ -178,9 +165,6 @@ Adding results to goals differs depending on which environment you use.
 1. Click **Save**.
 
    The result is saved for the selected goal. The progress of the goal automatically updates when you update the progress of a result.
-
-
-<!--drafted for goal redesign: 
 
 <div class="preview">
 
@@ -224,6 +208,5 @@ Adding results to goals differs depending on which environment you use.
 
 </div>
 
--->
 
 

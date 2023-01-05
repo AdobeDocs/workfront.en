@@ -10,9 +10,7 @@ exl-id: 4d6ef324-4b5c-402b-b64d-b1a2a7d2ab57
 ---
 # Add activities to goals in&nbsp;Adobe Workfront Goals
 
-<!--drafted for goal redesign:
-
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span>-->
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span>
 
 Activities measure the progress of a goal. Without associating results, activities, projects, or aligned goals, you cannot activate a goal and you cannot record progress on it. 
 
@@ -128,13 +126,9 @@ For more information about activities, see [Get started with results and activit
 
 ## Add an activity to a goal
 
-<!--drafted for the goal redesign: 
-
 Adding activities to goals differs depending on which environment you use.
 
 ### Add an activity to a goal in the Production environment
-
--->
 
 1. Go to the goal for which you want to add an activity and click the name to open the **Goal Details** panel.
 1. Click **Add activities**.
@@ -157,11 +151,11 @@ Adding activities to goals differs depending on which environment you use.
 
    1. If you selected **Project**:
 
-      1. &nbsp;Click the **Connect projects** field.
+      1. Click the **Connect projects** field.
 
          Existing projects that you have access to View display in the Connect projects list. Projects that are in a status of Dead do not display in the list. 
       
-      1. &nbsp;Click the name of a project to add it as an activity to the goal. You can select several projects at one time.
+      1. Click the name of a project to add it as an activity to the goal. You can select several projects at one time.
 
          Workfront uses the project percent complete of all the attached projects to calculate the progress of the goal.
 
@@ -180,14 +174,13 @@ Adding activities to goals differs depending on which environment you use.
    The activity is saved for the selected goal. After you activate the goal, the progress of the goal automatically updates when you update the progress of an activity or when the percent complete of a project updates. For information about activating a goal, see [Activate goals in Adobe Workfront Goals](../../workfront-goals/goal-management/activate-goals.md).
 
 
-<!--drafted for the goal redesign: 
-
 <div class="preview">
 
 ### Add an activity to a goal in the Preview environment
 
 You can add only activities that are progress bars in the Preview environment. For information about adding projects to a goal, see  [Add projects to goals in Adobe Workfront Goals](../results-and-activities/connect-projects-to-goals-overview.md). 
-(fix the above statement with the PRODUCTION release to remove Preview and to not mention "manual progress" bar - there is only ONE type of activity now) 
+
+<!--(fix the above statement with the PRODUCTION release to remove Preview and to not mention "manual progress" bar - there is only ONE type of activity now)--> 
 
 1. Click the **Main Menu** ![](assets/main-menu-icon.png), then **Goals**. 
 1. From the Goal List, click the name of a goal to open the goal's page.
@@ -211,7 +204,6 @@ You can add only activities that are progress bars in the Preview environment. F
 
 </div>
 
--->
  
  
  

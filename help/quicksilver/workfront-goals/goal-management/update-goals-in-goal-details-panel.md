@@ -9,10 +9,7 @@ exl-id: e9df0d98-05a1-4977-b7f1-426b8f5b3eae
 ---
 # Update goals in the Goal Details panel in Adobe Workfront Goals
 
-<!--drafted for goal redesign: 
-
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> 
--->
 
 <!--drafted for the goal redesign:
 - change the title for Production to Update goals in the Goal details section in Adobe Workfront Goals. 
@@ -132,13 +129,9 @@ You must have the following before you can start:
 
 You can access an individual goal from a list of goals. 
 
-<!--drafted for goal redesign: 
-
 Updating goals in the Goal Details panel differs depending on where you access the goal from. 
 
 ### Update goals in the Goal Details panel in the Production environment
-
--->
 
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) > **Goals** in the upper-right corner.
 
@@ -215,8 +208,6 @@ Updating goals in the Goal Details panel differs depending on where you access t
 
    ![](assets/update-details-in-updates-tab-expanded-highlighted-350x139.png)
 
-<!--drafted for goal redesign: 
-
 <div class="preview">
 
 ### Update goals in the Goal details section in the Preview environment
@@ -227,11 +218,13 @@ Updating goals in the Goal Details panel differs depending on where you access t
 
    ![](assets/goal-page-unshimmed.png)
 
-1. Click the **Edit icon** ![](assets/edit-icon.png) in the upper-right corner, then click **Edit all** or Overview
-Or
-Start typing information in one of the editable fields in the Goal details section. The section becomes editable. 
+1. Click the **Edit icon** ![](assets/edit-icon.png) in the upper-right corner, then click **Edit all** or **Overview**
 
-   >[!IMPORTANT]
+   Or
+
+   Start typing information in one of the editable fields in the Goal details section. The section becomes editable. 
+
+      >[!IMPORTANT]
       >
       >* Not all fields that display in the Goal details section can be edited. Workfront calculates some of the fields and they are read-only. 
 
@@ -262,6 +255,4 @@ Start typing information in one of the editable fields in the Goal details secti
 
 
 </div>
-
--->
 
