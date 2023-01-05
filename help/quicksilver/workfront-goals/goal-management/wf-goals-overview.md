@@ -10,6 +10,28 @@ exl-id: bc0451ba-d729-4e8a-bde3-a2609c667d50
 ---
 # Adobe Workfront Goals overview
 
+<!--drafted for P&P new model: the note at the top will need to be replaced with this:
+
+Your organization must have the following to use the functionality described in this article:
+
+* For the legacy plan and license structure: 
+
+  * A Pro or higher [Adobe Workfront plan](https://www.workfront.com/plans). 
+  * An Adobe Workfront Goals license in addition to a Workfront license.
+
+* For the current plan and license structure:
+
+  * An Ultimate plan 
+    
+    Or
+    
+    An additional license for Adobe Workfront Goals for the Prime or Select Adobe Workfront plans. <is there a link we can add here for the plans and what they contain?!>
+
+Contact your Workfront account manager to learn about a Workfront Goals license.
+
+For additional information about access to Workfront Goals, see [Requirements to use Workfront Goals](../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+-->
+
 >[!NOTE]
 >
 >Your organization must have the following to use the functionality described in this article:
@@ -47,16 +69,9 @@ The following functionality is currently included with Workfront Goals:
 
 * Associate existing projects with goals to align your goals with your actual work. As the project progresses, so does your goal. 
 
-  The following project information is available at the goal level:
+  For information about associating projects with goals, see [Add projects to goals in Adobe Workfront Goals](../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md).
 
-   * Project name
-   * Project owner
-   * Project due date
-   * Project percent complete
-
-  For information about associating projects with goals, see [Overview of connecting projects to goals in Adobe Workfront Goals](../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md).
-
-* Update goals, results, and activities to update the progress of goals.
+* Update goals, results, and activities to trigger the updating of the progress of goals.
 
   For information about updating goal progress, see [Update goals by using Check-in in Adobe Workfront Goals](../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md).
 
@@ -70,12 +85,14 @@ The following functionality is currently included with Workfront Goals:
 
 * Collaborate across the organization by reviewing goal updates and comments in Pulse.
 
+  <!--drafted for goal redesign: delete this bullet point when we release redesign-->
+
   For information about Workfront Goals Pulse, see [Review goals in the Adobe Workfront Goals Pulse section](../../workfront-goals/goal-review-and-workfront-goals-sections/review-goals-in-pulse.md).
 
 * Review trends in goal progress in graphs.
 
   For information about Workfront Goals graphs, see [Review graphs to understand goal progress trends in Adobe Workfront Goals](../../workfront-goals/goal-review-and-workfront-goals-sections/review-goal-graphs.md).
 
-* Build goal reports and display goal information in project reports for projects that are associated to goals. For information about locating goal information on projects, see [Overview of connecting projects to goals in Adobe Workfront Goals](../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md).
+* Build goal reports and display goal information in project reports for projects that are associated to goals. For information about locating goal information on projects, see [Add projects to goals in Adobe Workfront Goals](../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md).
 
 

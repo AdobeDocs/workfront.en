@@ -9,10 +9,60 @@ exl-id: 6cf2d2d2-5ba5-40f2-a803-01359c338541
 ---
 # Manage goal comments in Adobe Workfront Goals
 
-You can add comments to all goals you can view in&nbsp;Adobe Workfront Goals.
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> 
 
-<!--
-(NOTE: this might change slightly with access levels?!)
+You can add comments to all goals you can view in Adobe Workfront Goals.
+
+<!--drafted for P&P:
+
+<table style="table-layout:auto">
+ <col>
+ </col>
+ <col>
+ </col>
+ <tbody>
+  <tr>
+   <td role="rowheader">Adobe Workfront plan*</td>
+   <td>
+   <p>Current plan: Select or higher</p>
+   Or
+   <p>Legacy plan: Pro or higher</p>
+   
+   </td>
+  </tr>
+  <tr>
+   <td role="rowheader">Adobe Workfront license*</td>
+   <td>
+   <p>Current license: Contributor or higher</p>
+   Or
+   <p>Legacy license: Request or higher</p> <p>For more information, see <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p> </td>
+  </tr>
+  <tr>
+   <td role="rowheader">Product</td>
+   <td>
+   <p> Current product requirement: If you have the Select or Prime Adobe Workfront plan, you must also buy an additional Adobe Workfront Goals license.  Workfront Goals are included in the Ultimate Workfront Plan.</p>
+   Or
+   <p>Legacy product requirement: You must purchase an additional license for the Adobe Workfront Goals to access functionality described in this article. </p> <p>For information, see <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requirements to use Workfront Goals</a>. </p> </td>
+  </tr>
+  <tr>
+   <td role="rowheader">Access level*</td>
+   <td> <p>Edit access to Goals</p> <p><b>NOTE</b><p>If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see:</p>
+     <ul>
+      <li> <p><a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a> </p> </li>
+      <li> <p><span href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md"><a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md" class="MCXref xref">Grant access to Adobe Workfront Goals</a></span> </p> </li>
+     </ul> </p> </td>
+  </tr>
+  <tr data-mc-conditions="">
+   <td role="rowheader">Object permissions</td>
+   <td>
+    <div>
+     <p>View or higher permissions to the goal to view it</p>
+     <p>Manage permissions to the goal to edit it</p>
+     <p>For information about sharing goals, see <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Share a goal in Workfront Goals</a>. </p>
+    </div> </td>
+  </tr>
+ </tbody>
+</table>
 -->
 
 ## Access requirements
@@ -64,6 +114,10 @@ You must have the following before you can start:
 
 ## Locate the Comments area
 
+Locating goal comments differs depending on what environment you use. 
+
+### Locate goal comments in the Production environment
+
 You can add comments to goals in the following areas of Workfront Goals:
 
 * The Goal Details panel
@@ -76,7 +130,22 @@ Although the process for adding comments to goals is similar in these areas, the
 >
 >You cannot add comments to results and activities.
 
+<div class="preview">
+
+### Locate goal comments in the Preview environment
+
+You can comment on a goal from the goal page when accessing goals in the Preview environment. 
+
+For information, see the section [Add comments to goals in the Preview environment](#add-comments-to-goals-in-the-preview-environment) in this article.
+
+</div>
+
 ## Add comments to goals in the Goal Details panel
+
+Adding comments to goals differs depending on what environment you use.
+
+### Add comments to goals in the Production environment
+
 
 You can add comments to goals in the Goal Details panel, as part of updating an individual goal.
 
@@ -119,7 +188,40 @@ You can edit or delete a comment that you entered in this area, or you can like 
 
 1. (Conditional) Click **Back to Updates** to return to the Updates tab of the Goal Details panel, or click the **X icon** in the upper-right corner to close the right panel.
 
+
+<div class="preview">
+
+### Add comments to goals in the Preview environment
+
+You can add comments to goals in the Updates section of a goal's page.
+
+You can reply to or like a comment that you or others added in this area. 
+
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) > **Goals** in the upper-right corner. 
+This opens the goal list. 
+1. Locate the goal you want to add comments to, then click its name to open the goal page. 
+1. Click  **Updates** in the left panel. 
+1. Click the **Comments** tab in the upper-left corner of the Updates area.
+1. Start entering a comment in the **Write a comment** box. 
+   
+   ![](assets/comment-box-empty-unshimmed.png)
+
+1. (Optional) In the **Notify** area, start typing the name of a user or a team that you would like to include in this comment, then select it when it displays in the list. 
+1. Click **Submit**. 
+1. (Optional) Click **Reply** to reply to an existing comment, then follow the steps 5-7 above. <!--insure this stays accurate-->
+1. (Optional) Click the **System Activity** tab to view updates logged by the system. When a goal is updated, Workfront generates a note about that update that and displays it in the System Activity tab. <!--ensure the casing on the tab has not changed-->
+
+</div>
+
 ## Add comments to goals in the Check-in section
+
+<div class="preview">
+
+The Check-in section has been removed from the Preview environment. You can update goals by accessing the goal page. For information, see 
+[Update goals in the Goal Details panel in Adobe Workfront Goals](../goal-management/update-goals-in-goal-details-panel.md). 
+
+
+</div>
 
 >[!TIP]
 >
@@ -157,6 +259,14 @@ You can also like goal comments that other users have added to mark your approva
 1. (Conditional) Click **Back to Updates** to return to the Updates tab of the Goal Details panel, or click the **X icon** in the upper-right corner to close the right panel.
 
 ## Add comments to goals in the Pulse section
+
+
+<div class="preview">
+
+The Pulse section has been removed from the Preview environment. You can update goals by accessing the goal page. For information, see 
+[Update goals in the Goal Details panel in Adobe Workfront Goals](../goal-management/update-goals-in-goal-details-panel.md). 
+
+</div>
 
 You can add comments to goals in the Pulse section of Workfront Goals, as part of reviewing goals that might affect yours. For information about reviewing goals in the Pulse section, see [Review goals in the Adobe Workfront Goals Pulse section](../../workfront-goals/goal-review-and-workfront-goals-sections/review-goals-in-pulse.md).
 

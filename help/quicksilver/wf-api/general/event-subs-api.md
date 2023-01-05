@@ -94,7 +94,7 @@ PUT https://<HOSTNAME>/attask/api/v7.0/USER?action=getApiKey&username=<USERNAME>
  <tbody> 
   <tr> 
    <td> <p>Content-type</p> </td> 
-   <td> <p>application/json</p> </td> 
+   <td> <p>text/html</p> </td> 
   </tr> 
  </tbody> 
 </table>

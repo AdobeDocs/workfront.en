@@ -9,9 +9,21 @@ exl-id: 101094be-ed04-4b22-8fac-80e7f3ffe983
 ---
 # Campaigns overview
 
+<!--drafted for campaign removal:  
+
+add this note when campaigns are removed (Jan 9), and take down the article altogether at 23.1 release (the week of Jan. 23 2023 ) 
+>[!IMPORTANT] 
+> 
+>The functionality described in this article has been deprecated and removed from the Preview environment.  The Workfront Product team is going to review this functionality and include it in a future product release.  
+> 
+>This article will also be removed with the 23.1 release. At this time, we recommend that you update any bookmarks accordingly.  
+> 
+>For information about current feature releases, visit the [Product releases](../../product-announcements/product-releases/product-releases.md) page. 
+--> 
+
 >[!NOTE]
 >
-><span class="preview">The information in this article is available only in the Preview environment when you participate in the [!UICONTROL Campaigns] beta program. The functionality described here might not be fully available yet. For more information about current available features and how to enroll, see  [Campaigns beta](../../product-announcements/betas/campaign-object-beta.md).</span>
+><span class="preview">The information in this article is available only in the Preview environment when you participate in the Campaigns beta program. The functionality described here might not be fully available yet. For more information about current available features and how to enroll, see  [Campaigns beta](../../product-announcements/betas/campaign-object-beta.md).</span>
 
 
 To centralize and align the work happening across multiple portfolios or programs, you can associate your projects with campaigns. You can manage the dependencies, resources, and finances of all projects in one place.
@@ -20,9 +32,9 @@ For example, you can capture the work necessary to complete a marketing campaign
 
 >[!NOTE]
 >
->A campaign is a new object in Adobe Workfront that allows you to organize work across multiple projects. A campaign is a larger work item  than projects, similar but not identical to portfolios or programs. A campaign can be associated with multiple projects that may or may not belong to different portfolios or programs.
+>A campaign is a new object in [!DNL Adobe Workfront] that allows you to organize work across multiple projects. A campaign is a larger work item  than projects, similar but not identical to portfolios or programs. A campaign can be associated with multiple projects that may or may not belong to different portfolios or programs.
 
-Because you can associate the same project with multiple campaigns, Workfront allows you to organize work both vertically and horizontally in your strategic roadmap and move away from the linear hierarchy you have been used to so far.
+Because you can associate the same project with multiple campaigns, [!DNL Workfront] allows you to organize work both vertically and horizontally in your strategic roadmap and move away from the linear hierarchy you have been used to so far.
 
 For information about creating campaigns, see [Create campaigns](create-campaigns.md).
 
@@ -37,7 +49,7 @@ The following are some of the benefits of campaigns:
 
 ## Considerations when using campaigns
 
-* Only system or group administrators can see the [!UICONTROL Campaigns] area in a [!UICONTROL Layout Template] and can add it for other users. No users can see the Campaigns area in the [!UICONTROL Main Menu] by default.
+* Only system or group administrators can see the [!UICONTROL Campaigns] area in a [!UICONTROL Layout Template] and can add it for other users. No users can see the [!UICONTROL Campaigns] area in the [!UICONTROL Main Menu] by default.
 * All users, regardless of their access level, can create a campaign.
 * All users, regardless of their access level, can see all campaigns when they access the [!UICONTROL Campaigns] area from the [!UICONTROL Main Menu].
 * You can edit or delete a campaign only when you are the owner of the campaign or when you are the system administrator.

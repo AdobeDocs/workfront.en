@@ -78,7 +78,7 @@ You must have the following before you can start:
 * When you remove the result or activity from a goal, the progress of the removed result or the activity affects the overall progress of the goal. 
 * You cannot delete a project from a goal, but you can disconnect it. By disconnecting the project from the goal the percent complete of the project no longer affects the progress of the goal.
 
-  For information about how projects affect goal progress, see [Overview of connecting projects to goals in Adobe Workfront Goals](../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md). 
+  For information about how projects affect goal progress, see [Add projects to goals in Adobe Workfront Goals](../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md). 
 
 * You cannot remove or disconnect a result or an activity from a goal if they are the last progress indicator for the goal. 
 * If a project is the last progress indicator of a goal and it is deleted, the goal becomes Inactive.

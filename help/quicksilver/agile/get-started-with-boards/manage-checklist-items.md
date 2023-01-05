@@ -9,7 +9,19 @@ exl-id: 60e47a0a-36fb-4a86-8ec7-b135f9725b79
 ---
 # Manage checklist items on cards
 
+{{highlighted-preview}}
+
 Using a checklist on a card allows you to break down work into smaller increments or add notes to the card. Checklist items are available on both ad hoc and connected cards.
+
+<div class="preview">
+
+>[!NOTE]
+>
+>When you create a checklist item on a connected card, a subtask is added to the connected Workfront task. Checklist items on issues are not connected to any Workfront objects.
+>
+>The checklist item connection to subtasks is available only in the Preview environment.
+
+</div>
 
 For information on cards, see [Add an ad hoc card to a board](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md), [Use connected cards on boards](/help/quicksilver/agile/get-started-with-boards/connected-cards.md), and [Manage cards](/help/quicksilver/agile/get-started-with-boards/move-board-items.md).
 
@@ -62,6 +74,8 @@ You must have the following access to perform the steps in this article:
 
    The assignees and due date appear on the item.
 
+   <span class="preview">For a connected card, the subtask is added to the Workfront task. (Issues are not changed.)</span>
+
 1. To copy an item, click the **More** menu ![More menu](assets/more-icon-spectrum.png) on the item and select **Copy**.
 1. To delete a checklist item, click the **More** menu ![More menu](assets/more-icon-spectrum.png) on the item and select **Delete**.
 
@@ -85,3 +99,5 @@ You must have the following access to perform the steps in this article:
 1. Click **Close** to return to the board.
 
    The counter on the card is also updated.
+
+   <span class="preview">For a connected card, the linked subtask is changed to Complete status.</span>

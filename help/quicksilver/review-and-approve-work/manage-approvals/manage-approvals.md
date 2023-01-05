@@ -2,13 +2,13 @@
 content-type: reference
 product-area: projects
 navigation-topic: projects-navigation-topic
-title: Manage approvals
-description: This section contains the following articles - EDIT ME.
+title: Work approvals
+description: This section contains articles about work approvals in Workfront.
 author: Courtney
 feature: Work Management
 exl-id: 66674732-6ad7-477b-8473-03b1dac750a3
 ---
-# Manage approvals
+# Work approvals
 
 This section contains the following articles:
 

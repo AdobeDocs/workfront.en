@@ -14,13 +14,13 @@ exl-id: e72018b7-5de2-4661-b27d-6da6ece5cc48
 
 This section contains the following articles:
 
+* [Group admins must have higher access than those they manage](/help/quicksilver/administration-and-setup/tips-tricks-and-troubleshooting/group-admin-access-level.md)
 * [Active and deactivated objects](../../administration-and-setup/tips-tricks-and-troubleshooting/acitve-and-deactivated-objects.md) 
 * [ADFS logout URL doesn't work](../../administration-and-setup/tips-tricks-and-troubleshooting/adfs-logout-url-doesnt-work.md) 
 * [Administration and setup FAQs](../../administration-and-setup/tips-tricks-and-troubleshooting/admin-and-setup-faq.md) 
 * [Adobe Workfront user credentials vs. SAML user credentials](../../administration-and-setup/tips-tricks-and-troubleshooting/wf-user-credentials-vs-saml-user-credentials.md)
 * [Automatic reminders vs. reminder notifications](../../administration-and-setup/tips-tricks-and-troubleshooting/auto-reminders-vs-reminder-notifications.md) 
 * [Configure POP in Microsoft Exchange](../../administration-and-setup/tips-tricks-and-troubleshooting/configure-pop-ms-exchange.md) 
-* [Error: Active Directory User Cannot Log In](../../administration-and-setup/tips-tricks-and-troubleshooting/error-active-directory-user-cannot-log-in.md) 
 * [Error: Auto-provisioned user can't log in](../../administration-and-setup/tips-tricks-and-troubleshooting/error-auto-provisioned-user-cant-log-in.md) 
 * [Error message: Couldn't validate XML digital signature](../../administration-and-setup/tips-tricks-and-troubleshooting/error-message-couldnt-validate-xml-digital-signature.md) 
 * [Error message: Invalid Parameter: conversion value](../../administration-and-setup/tips-tricks-and-troubleshooting/error-message-invalid-parameter-conversion-value.md) 

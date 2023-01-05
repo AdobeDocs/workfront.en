@@ -14,11 +14,11 @@ For a list of all changes available with the 22.4 release, see [22.4 Release ove
 
 ## Show all users for the Workload Balancer of a project
 
-To allow you to have visibility into all users in the system and their capacity without leaving the Workload Balancer of a project, we have added a “Show all users” option. When enabled, the project's Workload Balancer displays all the users in the system in the Assigned Work area. With this enhancement, you can easily identify who needs to be assigned to work listed in the Unassigned Work area. 
+To allow you to have visibility into all users in the system and their capacity without leaving the Workload Balancer of a project, we have added a "Show all users" option. When enabled, the project's Workload Balancer displays all the users in the system in the Assigned Work area. With this enhancement, you can easily identify who needs to be assigned to work listed in the Unassigned Work area. 
 
 For more information, see [Assign work in the Workload Balancer by dragging and dropping](/help/quicksilver/resource-mgmt/workload-balancer/assign-work-in-workload-balancer-by-drag-and-drop.md).
 
-[View a video demonstration of this feature](https://vimeo.com/747835221){target=_blank}
+[View a video demonstration of this feature](https://video.tv.adobe.com/v/3412873/){target=_blank}
 
 ## Show all users with a selected job role in the Workload Balancer when assigning work in bulk
 
@@ -32,7 +32,7 @@ Prior to this enhancement, you could view only the list of users available for a
 
 For information about assigning work in bulk using the Workload Balancer, see [Assign work in bulk using the Workload Balancer](/help/quicksilver/resource-mgmt/workload-balancer/assign-work-in-workload-balancer-in-bulk.md).
 
-[View a video demonstration of this feature](https://vimeo.com/747834416){target=_blank}
+[View a video demonstration of this feature](https://video.tv.adobe.com/v/3412874/){target=_blank}
 
 ## Workload Balancer enhancements for Work-license users and Issue settings 
 

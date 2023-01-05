@@ -14,6 +14,28 @@ exl-id: 64fa0aef-cb92-465a-9b74-d863fc232fd1
 
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> -->
 
+<!--drafted for P&P new model: the note at the top will need to be replaced with this:    
+    
+Your organization must have the following to use the functionality described in this article:    
+    
+* For the legacy plan and license structure:     
+    
+  * A Pro or higher [Adobe Workfront plan](https://www.workfront.com/plans).     
+  * An Adobe Workfront Goals license in addition to a Workfront license.    
+    
+* For the current plan and license structure:    
+    
+  * An Ultimate plan     
+        
+    Or    
+        
+    An additional license for Adobe Workfront Goals for the Prime or Select Adobe Workfront plans. <is there a link we can add here for the plans and what they contain?!>    
+    
+Contact your Workfront account manager to learn about a Workfront Goals license.    
+    
+For additional information about access to Workfront Goals, see [Requirements to use Workfront Goals](../workfront-goals/goal-management/access-needed-for-wf-goals.md).    
+-->    
+
 >[!NOTE]
 >
 >Your organization must have the following to use the functionality described in this article:
@@ -31,7 +53,8 @@ When you create a goal, the goal has a status of Draft. For information about cr
 In order to start recording progress on a goal, you must activate it. To activate your goal and change its status to Active you must first add the following to it:
 
 * A result
-* An activity (an activity can be either a progress-bar type of activity or a project)
+* An activity 
+* A project
 * An aligned goal
 
 After at least one of these items is added, you may activate the goal. You must update the results and activities of goals to indicate progress on the goal.
@@ -45,7 +68,7 @@ After at least one of these items is added, you may activate the goal. You must 
 >[!IMPORTANT]
 >
 >In the production environment, a goal cannot have more than a total of 50 activities, results, or aligned goals.
-><span class="preview">In the Preview environment, a goal cannot have more than a total of 1000 activities, results, or aligned goals.</span>
+><span class="preview">In the Preview environment, a goal cannot have more than a total of 1000 activities, results, projects, or aligned goals.</span>
 -->
 
 
@@ -63,33 +86,25 @@ For information about adding results to goals, see [Add results to goals in Adob
 
 You can add results to your own goals or goals that belong to other entities in your organization. 
 
-<!--
-<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-(NOTE:&nbsp;this might change??)
-</MadCap:conditionalText>
--->
-
 Consider the following when working with results:
 
 * They answer the question, "How will I know when my goal is complete?" 
 * They are metric indicators. You can select from the following options to indicate a progress for your result: 
 
   <!--
-  <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-  (NOTE: this might change (jira, Salesforce, etc))
-  </MadCap:conditionalText>
+  this might change (jira, Salesforce, etc))
   -->
 
    * Currency
    * Number
    * Percentage
 
-For more information about results, see the list of similarities between results and activities in the [Similarities between results, activities, and projects](#similarities-between-results-activities-and-projects) section in this article.
+For more information about results, see the list of similarities between results and activities in the section [Similarities between results, activities, and projects](#similarities-between-results-activities-and-projects) in this article.
 
 ## Activities overview
 
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: This will have additional types in the future - add another section for types?)</p>
+This will have additional types in the future - add another section for types?
 -->
 
 Activities, like results, are specific and measurable, and typically include a percent complete indicator. As the goal owner, you can also own the activities associated with the goal. An activity on your goal might also be assigned to a different user.
@@ -111,20 +126,20 @@ Consider the following when associating activities with your goals:
     </tr> 
     <tr> 
      <td role="rowheader"><p>Project</p></td> 
-     <td> <p>Existing projects that you have at least permissions to View and are not in a status of Dead. They are updated automatically, based on the progress of their work items. </p> <p>The projects must exist before associating them with the goal. You can associate a project with multiple goals. For information about adding projects to goals, see <a href="../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md" class="MCXref xref">Overview of connecting projects to goals in Adobe Workfront Goals</a>.</p> </td> 
+     <td> <p>Existing projects that you have at least permissions to View and are not in a status of Dead. They are updated automatically, based on the progress of their work items. </p> <p>The projects must exist before associating them with the goal. You can associate a project with multiple goals. For information about adding projects to goals, see <a href="../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md" class="MCXref xref">Add projects to goals in Adobe Workfront Goals</a>.</p> </td> 
     </tr> 
    </tbody> 
   </table>
 
-<!--drafted for goal redesign: add this to the "Project" description in the table above FOR THE PREVIEW RELEASE ONLY: In the Preview environment, adding projects is a separate function from adding activities. For more information, see <a href="../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md" class="MCXref xref">Overview of connecting projects to goals in Adobe Workfront Goals</a> (this article will have a new name - replace it in the link above). 
+<!--drafted for goal redesign: add this to the "Project" description in the table above FOR THE PREVIEW RELEASE ONLY: In the Preview environment, projects are separate progress indicators, independent from activities. Adding projects to a goal in the Preview environment is different from adding activities. For more information, see <a href="../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md" class="MCXref xref">Add projects to goals in Adobe Workfront Goals</a> (this article will have a new name - replace it in the link above). 
 
 For THE PRODUCTION RELEASE: remove the projects in this article altogether.-->
 
-For more information about results and activities, see the list of similarities between results and activities in the [Similarities between results, activities, and projects](#similarities-between-results-activities-and-projects) section in this article.
+For more information about results and activities, see the list of similarities between results and activities in the section [Similarities between results, activities, and projects](#similarities-between-results-activities-and-projects) in this article.
 
 ## Similarities between results, activities, and projects {#similarities-between-results-activities-and-projects}
 
-Results, activities and projects are goal progress indicators. Although you connect a project to a goal the same way you connect an activity, there are some differences in the way you manage projects versus the way you manage activities. For information about adding projects to goals, see [Add activities to goals in Adobe Workfront Goals](../../workfront-goals/results-and-activities/add-activities-to-goals.md).&nbsp;For information about projects connected to goals, see [Overview of connecting projects to goals in Adobe Workfront Goals](../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md).
+Results, activities and projects are goal progress indicators. Although you connect a project to a goal the same way you connect an activity, there are some differences in the way you manage projects versus the way you manage activities. For information about adding projects to goals, see [Add activities to goals in Adobe Workfront Goals](../../workfront-goals/results-and-activities/add-activities-to-goals.md).&nbsp;For information about projects connected to goals, see [Add projects to goals in Adobe Workfront Goals](../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md).
 
 The following table displays similarities and differences between results, activities, and projects, as goal indicators: 
 
@@ -171,7 +186,7 @@ The following table displays similarities and differences between results, activ
    <td>✔</td> 
   </tr> 
   <tr> 
-   <td>They must be manually updated in&nbsp;Workfront Goals</td> 
+   <td>They must be manually updated in Workfront Goals</td> 
    <td>✔</td> 
    <td>✔</td> 
    <td>&nbsp;</td> 

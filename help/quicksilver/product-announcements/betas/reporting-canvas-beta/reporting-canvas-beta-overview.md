@@ -18,12 +18,8 @@ This article contains information about how the beta will function and how your 
 
 ### Release schedule
 
-* Public beta launch: Starting Q3 2022
-
-  >[!NOTE]
-  >
-  >We are excited to begin our roll-out of the Reporting Canvas beta. Over the past few weeks, we have had tremendous interest from customers to join the beta. Due to the volume of customers joining the beta, we are limiting the ability of any additional customers to join at this time. Starting July 19, 2022, any customers who have not already joined the Reporting Canvas beta by accepting the terms will have the beta icon removed from their Workfront production instance. We will ensure more customers can join this beta later in 2022 and will announce updates as the beta becomes available to more customers.
-
+* Current Beta: The current beta is private and limited to a specific number of customers.
+* Public Beta Launch: TBD (Once a date is announced, we will begin allowing all customers to access the Reporting Canvas beta.)
 * Official release: TBD
 
 ### Features

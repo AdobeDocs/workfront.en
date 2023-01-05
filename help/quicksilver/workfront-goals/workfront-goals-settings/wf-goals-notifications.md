@@ -10,7 +10,7 @@ exl-id: 40f9b9a3-c829-480b-9897-099b68389cd4
 ---
 # Enable Adobe Workfront Goals notifications
 
-Adobe Workfront Goals comes with a set of predefined event notifications that you can enable for your account. These event notifications trigger email communication every time the condition defined by the event is met.
+Adobe Workfront Goals comes with a set of event notifications that you can enable for your account. These event notifications trigger email communication every time the condition defined by the event is met.
 
 For information about what notifications you can enable for Workfront Goals, see [Notifications: Goals](../../workfront-basics/using-notifications/notifications-goals.md).
 

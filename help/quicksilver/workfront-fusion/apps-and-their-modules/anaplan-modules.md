@@ -98,6 +98,10 @@ If you see the map button above a field or function, you can use it to set varia
 
 This trigger module starts a scenario when a record of the chosen type is created or updated.
 
+>[!NOTE]
+>
+>This module returns the data of new records. It does not return the data of modified existing records.
+
 <table style="table-layout:auto">
  <col> 
  <col> 

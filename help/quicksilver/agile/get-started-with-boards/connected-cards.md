@@ -9,7 +9,9 @@ exl-id: c6d979dd-e4a4-48a5-a91b-b31d7ef848d1
 ---
 # Use connected cards on boards
 
-You can add a card on your board that is connected to existing tasks and issues in Workfront.
+{{highlighted-preview}}
+
+You can add a card on your board that is connected to existing tasks and issues in Workfront. <span class="preview">When you add a connected task, any subtasks associated to that task are included on the card as checklist items.</span>
 
 When any one of the following details is updated for the card in one location, it is automatically updated in the other location:
 
@@ -17,6 +19,7 @@ When any one of the following details is updated for the card in one location, i
 * Description
 * Assignees
 * Status
+* <span class="preview">Due date / Planned completion date</span>
 
 >[!NOTE]
 >A single connected task or issue can only be added once per board. The same task or issue can be connected to multiple boards.
@@ -66,7 +69,7 @@ You must have the following access to perform the steps in this article:
 
    ![Search for task or issue to connect](assets/boards-tasksissues-350x94.png)
 
-   The card is added at the bottom of the left-most column. The connected Workfront object and its assignees are displayed on the card.
+   The card is added at the bottom of the left-most column. The connected Workfront object and its assignees are displayed on the card. <span class="preview">Any subtasks for a connected task appear on the checklist counter as incomplete items.</span>
 
    >[!NOTE]
    >
@@ -111,7 +114,7 @@ You must have the following access to perform the steps in this article:
      </tr>
      <tr>
       <td role="rowheader"><strong>Due date</strong></td>
-      <td><p>Select a due date for the card.</p></td>
+      <td><p><span class="preview">Changing the due date also changes the planned completion date on the connected Workfront object.</span></p></td>
      </tr>
       <tr>
       <td role="rowheader"><strong>Estimation</strong></td>
@@ -124,7 +127,7 @@ You must have the following access to perform the steps in this article:
      </tr>
      <tr> 
       <td role="rowheader"><strong>Checklist Items</strong> </td> 
-      <td> <p>Click <strong>Add checklist item</strong>. Then, type the title of the item and press Enter. Another item is automatically added. Continue entering titles to add more items.</p> <p>The counter at the top of the checklist shows the number of completed items and the total number of items.</p> <p>For more information about checklist items, see <a href="/help/quicksilver/agile/get-started-with-boards/manage-checklist-items.md">Manage checklist items on cards</a>.</p></td> 
+      <td> <p>Click <strong>Add checklist item</strong>. Then, type the title of the item and press Enter. Another item is automatically added. Continue entering titles to add more items.</p> <p>The counter at the top of the checklist shows the number of completed items and the total number of items.</p> <p><span class="preview">On a connected task, each checklist item is created as a subtask in Workfront.</span></p> <p>For more information about checklist items, see <a href="/help/quicksilver/agile/get-started-with-boards/manage-checklist-items.md">Manage checklist items on cards</a>.</p></td> 
      </tr>
     </tbody> 
    </table>

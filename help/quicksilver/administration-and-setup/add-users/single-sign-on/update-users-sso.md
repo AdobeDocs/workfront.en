@@ -50,9 +50,6 @@ Depending on what SSO solution you use, the username in your SSO environment can
 * SSO Username
 * Federation ID 
 * Federation Username
-* LDAP Username
-* AD Username
-* Active Directory Username
 
 In Workfront, all these names are stored in the SSO Username field, on the user object.
 

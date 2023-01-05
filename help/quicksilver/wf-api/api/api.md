@@ -15,6 +15,7 @@ This section contains the following articles:
 * [Ending support for JSONP](../../wf-api/api/ending-support-jsonp.md) 
 * [Filter event subscription messages](../../wf-api/api/filter-event-sub-messages.md) 
 * [Event subscription retries](../../wf-api/api/event-sub-retries.md) 
+* [Event subscription certificates](../../wf-api/api/event-sub-certs.md) 
 * [Specify an API Version in your integrations](../../wf-api/api/specify-api-version-integrations.md) 
 
 * [Core API changes: Status search responses](../../wf-api/api/api-changes-search.md) 
