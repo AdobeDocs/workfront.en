@@ -3,7 +3,7 @@ content-type: reference
 product-area: workfront-integrations
 navigation-topic: workfront-integrations-navigation-topic
 title: Upload documents and proofs from the [!DNL Adobe Workfront plugin] to the [!DNL Creative Cloud]
-description: 
+description: Upload documents and proofs from the [!DNL Adobe Workfront plugin] to the [!DNL Creative Cloud]
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 Hide: yes
