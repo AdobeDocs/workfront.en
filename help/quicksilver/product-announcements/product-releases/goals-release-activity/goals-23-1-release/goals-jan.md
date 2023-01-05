@@ -20,14 +20,14 @@ For a list of all changes available for all areas of Workfront at this point in 
 
 ## Updates to Workfront Goals
 
-To create a more consistent experience with the rest of Workfront, as well as make it easier to view and work with your goals, we've made some updates to Workfront Goals. The look and feel of Workfront Goals is now more similar to other areas in Workfront.
+To create a more consistent experience with the rest of Workfront, as well as make it easier to view and work with your goals, we've updated Workfront Goals. The look and feel of Workfront Goals is now more similar to other areas in Workfront. 
 
 Now, areas such as the header, lists, and details cards are familiar and consistent with your experience in Workfront.
-Individual goals open in their own page and we have added the following sections in the left panel for easy navigation and updating:
+Individual goals open in their own page and we have added the following sections in the left panel for easy navigation and updating: 
 
-* **Goal details**: Goal details: View information such as the goal's description, progress, dates, and parent objective information.
-* **Progress indicators**: View progress indicators in a list. You can edit these indicators inline, open edit windows, or delete the indicators from this area.
-* **Updates**: View, post, or reply to updates on the goal, similar to the Updates area in other Workfront objects. 
+* **Goal details**: Goal details: View information such as the goal's description, progress, dates, and parent objective information. For information, see [Edit goals in Adobe Workfront Goals](/help/quicksilver/workfront-goals/goal-management/edit-goals.md).
+* **Progress indicators**: View progress indicators in a list. You can edit these indicators inline, open edit windows, or delete the indicators from this area. For information, see [Edit results and activities in Adobe Workfront Goals](/help/quicksilver/workfront-goals/results-and-activities/edit-results-and-activities.md).
+* **Updates**: We have introduced a new commenting experience in the Updates section of a goal which now displays user comments and system activity notes in two separate tabs. For information, see [Manage goal comments in Adobe Workfront Goals](/help/quicksilver/workfront-goals/goal-management/manage-goal-comments.md). 
 Sharing, editing, deleting, or copying a goal is similar to the way you perform these actions for other objects in Workfront.
 
 >[!IMPORTANT]
