@@ -157,12 +157,9 @@ Workfront Goals uses the following main objects:
 |---|---|
 | Goal |The overall outcome you wish to achieve. You can create multiple goals for a defined period of time. Each goal has an owner, typically an individual or team (although you can also assign a goal to a group.) You can align goals to one another, to show how the progress on several goals (children goals) influences the progress of another (parent goal). |
 | Result |A metric indicator of goal success. Each goal can have one or more results and their progress indicate the progress of the goal. |
-| Activity |A primary action that needs to take place to gain a result. You can add one or more activities to a goal in order to indicate what work has been planned to achieve that goal. Activities are also important, as this is how you align Workfront projects to goals.|
+| Activity |A primary action that needs to take place to gain a result. You can add one or more activities to a goal in order to indicate what work has been planned to achieve that goal.|
 
-<!--drafted for goal redesign:
-Take this sentence out of the last row (Activities are also important, as this is how you align Workfront projects to goals.) and do the following immediately after the table: 
-
-In addition to results and activities, you can also connect projects with goals to show how the progress of projects can drive the progress of the goal.-->
+In addition to results and activities, you can also connect projects with goals to show how the progress of projects can drive the progress of the goal.
 
 <!--
 (edit the above bullet when more objects will come)

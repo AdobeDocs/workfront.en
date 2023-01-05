@@ -78,12 +78,13 @@ If users that don't fulfill any role on the project want to be notified about ce
 
  For more information about what notifications can be enabled for users on the project team, see [Event notifications available in Adobe Workfront](../../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md). 
 
- <!--drafted for remove the projet group limitation story -23.1:
- Take out the IMPORTANT note below - this is a patch so no preview needed--> 
+ <!--drafted - this used to be the case, in the note below but this limitation was removed on Jan 5, 2023 - as a patch, not a release feature:
 
 >[!IMPORTANT]
 >
 >You can add to the Project Team only users that belong to the Group associated with the project. You cannot add users that belong to the Subgroups of the project's group. 
+
+-->
 
 1. Go to the project you want to add users to. 
 
