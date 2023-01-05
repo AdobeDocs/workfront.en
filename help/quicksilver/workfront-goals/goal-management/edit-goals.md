@@ -11,8 +11,8 @@ exl-id: 74db534c-6897-40c2-bea9-a9d30a40f61c
 
 <!--edits drafted for the new design in this document:https://docs.google.com/document/d/1mRjC95sBSrpxa2X97UtitcSTDT3-Msi5gp0S8-PvLNQ/edit# -->
 
-<!-- drafted for goal redesign: 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> -->
+
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> 
 
 You can edit existing goals from any time period and in any status.
 
@@ -139,13 +139,9 @@ You must have the following before you can start:
 
 ## Edit goals
 
-<!--drafted for goal redesign: 
 Editing goals differs depending on what environment you use.
 
 ### Edit goals in the Production environment
-
--->
-
 
 1. Go to a goal that you want to edit and click the goal name to open the **Goal Details** panel. 
 1. Click the **More icon** ![](assets/more-icon.png), then click **Edit**.
@@ -187,34 +183,32 @@ Editing goals differs depending on what environment you use.
 1. Update the **Description** of the goal, then click **Save**.
 
 
-<!--drafted for goal redesign:
-
 <div class="preview">
 
 ### Edit goals in the Preview environment
 
 
-(CHECK all the fields in each of these sections, as the UI might not have been completed when I wrote these steps):
-
-
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png), then click **Goals**.  
 A list of goals displays.
 2. Click a goal.  
-The goal page displays. 
+   The goal page displays. 
+
+   ![](assets/goal-page-unshimmed.png)
+
 3. Do one of the following to edit information for the goal:
     * Click fields that display in the goal header to update them. Not all fields in the header are editable. 
     * Click the **More icon** ![](assets/more-icon.png) to the right of the goal name, then click **Edit**. 
-    * Click **Goal details** in the left panel and click the **Edit icon** ![](assets/edit-icon.png) in the upper-right corner, then click **Edit all**. Start updating fields in the Goal Details section. 
+    * Click **Goal details** in the left panel and click the **Edit icon** ![](assets/edit-icon.png) in the upper-right corner, then click **Edit all**. Start updating fields in the Goal details section. 
     
    >[!IMPORTANT]
    >
    >Not all fields that display in the areas mentioned above can be edited. Workfront calculates some of the fields and they are read-only. 
-4. (Conditional) Depending on what you selected in the previus step, update the following information about the goal:
+4. (Conditional) Depending on what you selected in the previous step, update the following information about the goal:
 
-   * Update the following information in he goal header, then press Enter to save your changes:
+   * Update the following information in the goal header, then press Enter to save your changes:
       * **Goal name**: Click the name of the goal and start typing a new name.
-      * **Owner**
-   * Update the following information information in the Edit Goal box, then click **Save**: 
+      * **Owner**: Click the name of the owner, and start typing the name of a user, team, group, or your company, then select it when it displays in the list. You can have only one owner for a goal. 
+   * Update the following information in the Edit Goal box, then click **Save**: 
       * **Goal name**
       * **Period**: Click to update the time period for the goal  
          Or  
@@ -224,17 +218,16 @@ The goal page displays.
          >
          >Deselect **Enable custom dates** to return to the original time period for the goal. 
 
-      * **Goal owner**: Click to update the name of the owner of the goal. Start typing the name of a user, team, group, or the name of your organization, then select it when it displays in the list. You can have only one owner for a goal.
+      * **Goal owner**
       * **Description**: Add or update information about the goal. 
    * Update or review information in the Goal details section. For more information, see [Update goals in the Goal Details panel in Adobe Workfront Goals](../goal-management/update-goals-in-goal-details-panel.md). 
 
-   (should you update the title here after changing it at production???)
+  <!-- (should you update the title here after changing it at production???)-->
 
-5. (Optional)  Click **Progress Indicators** in the left panel to add results, activities, or projects to the goal. By adding progress indicators you ensure you can track the goal's progress.
+5. (Optional)  Click **Progress Indicators** in the left panel to add results, activities, or projects to the goal. By adding progress indicators, you ensure you can track the goal's progress.
 For more information, see the following articles: 
     * [Add activities to goals in Adobe Workfront Goals](../results-and-activities/add-activities-to-goals.md)
     * [Add results to goals in Adobe Workfront Goals](../results-and-activities/add-results-to-goals.md). 
     * [Add projects to goals in Adobe Workfront Goals](../results-and-activities/connect-projects-to-goals-overview.md).
-    </div>
-
-    -->
+    
+</div>
