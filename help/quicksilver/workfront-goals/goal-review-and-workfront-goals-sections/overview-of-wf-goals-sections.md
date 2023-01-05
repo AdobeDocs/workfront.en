@@ -10,11 +10,9 @@ exl-id: 915f8c62-e35a-41a0-8a63-40c28468c55a
 ---
 # Overview of the Adobe Workfront Goals sections
 
-<!--drafted for the goal redesign: 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> 
--->
-
 <!--take Preview and Prod references out at release-->
+
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> 
 
 >[!NOTE]
 >
@@ -57,20 +55,21 @@ For information about navigating the Goal List and managing goals, see [Manage g
 Use the Goal List to do the following:
 
 * View goals that belong to you, your teams, groups, or organization. 
-* Review goals including aligned goals, their results, and activities <!--drafted for goal redesign: , in the Production environment. <span class="preview">In the Preview environment, you can only view goals without their progress indicators in the Goal list.</span>-->. 
+* Review goals including aligned goals, their results, and activities, in the Production environment. <span class="preview">In the Preview environment, you can only view goals without their progress indicators in the Goal list.</span>. 
 * Add new goals.
 
   For more information, see [Create goals in Adobe Workfront Goals](../../workfront-goals/goal-management/create-goals.md).
 
-* Access the Goal Details panel and edit and update the goal, its results, or activities<!--drafted content for goal redesign: , in the Production environment-->.
+* Access the Goal Details panel and edit and update the goal, its results, or activities, in the Production environment.
 
-  <!--drafted for goal redesign: * <span class="preview">Access a goal's page. </span>-->
+* <span class="preview">Access a goal's page. </span>
 
   For more information, see [Edit goals in Adobe Workfront Goals](../../workfront-goals/goal-management/edit-goals.md).
 
 * Edit goals
 
-* Print or export a list of goals. <!--drafted: update this for Preview because printing might not be possible there after the goal redesign. -->
+* Print or export a list of goals, in the Production environment. 
+  <!--draft the sentence above at Prod because this is not possible in Preview but might be possible later-->
 
   For more information, see [Print the Goal List in Adobe Workfront Goals](../../workfront-goals/goal-management/print-the-goal-list.md).
 
@@ -84,13 +83,12 @@ For information about using the Graphs section, see [Review graphs to understand
 
 Use the Graphs section to do the following:
 
-* View goals that belong to you, your teams, groups, or organization. 
+* View the performance of goals that belong to you, your teams, groups, or organization. 
 * View the number of goals with a given progress status.
 * Understand how your goals perform on a weekly basis. 
-* Add new goals. 
-* Edit goals.
+* Add new goals, in the Production environment. 
 
-<!--drafted for goal redesign: check UI to see if adding goals and editing goals is still possible in Preview - the Create goal and Check-in button/ area are not in the UI as of Oct 14, 2022-->
+<!--draft the last sentence with Prod - this is not possible in the unshimmed UI but might come later?-->
 
 ## Goal Alignment
 
@@ -107,13 +105,13 @@ For information about aligning goals, see the following articles:
 
 Use the Goal Alignment section to do the following:
 
-* View goals that belong to you or your organization. 
+* View goals that belong to you or your organization in a card format. 
 * Display goal hierarchy and view aligned children goals. 
-* Access the Goal Details panel and update the goal, its results, or activities.
+* Access the Goal Details panel in the Production environment, or the <span class="preview">goal page in the Preview environment</span> and update the goal, its results, or activities.
 
 ## Pulse
 
-<!--drafted for goal redesign: <span class="preview"> The Pulse section has been removed from the Preview environment and will be removed from Workfront Goals with the 23.1 release. Use the Goal List area to review goals that you or your teams are responsible for.</span>  -->
+<span class="preview"> The Pulse section has been removed from the Preview environment and will be removed from Workfront Goals with the 23.1 release. Use the Goal List area to review goals that you or your teams are responsible for.</span> 
 
 You can use the Pulse section to review and request updates to goals that might influence the progress of your goals. These could be your own goals, or goals that belong to your teams, groups, or your organization. You can view goals in any status and from any time period in this section.
 
@@ -140,7 +138,7 @@ Use the Pulse section to do the following:
 
 ## Check-in
 
-<!--drafted for goal redesign: <span class="preview"> The Check-in section has been removed from the Preview environment and will be removed from Workfront Goals with the 23.1 release. Use the Goal List area to review goals that you or your teams are responsible for.</span>--> 
+<span class="preview"> The Check-in section has been removed from the Preview environment and will be removed from Workfront Goals with the 23.1 release. Use the Goal List area to review goals that you or your teams are responsible for.</span>
 
 You must have access to Edit Goals in your access level before you can access the Check- in section. For information about granting access to Goals, see  [Grant access to Adobe Workfront Goals](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md).
 
