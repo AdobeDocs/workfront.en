@@ -190,12 +190,12 @@ Editing goals differs depending on what environment you use.
 
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png), then click **Goals**.  
 A list of goals displays.
-2. Click a goal.  
+1. Click a goal.  
    The goal page displays. 
 
    ![](assets/goal-page-unshimmed.png)
 
-3. Do one of the following to edit information for the goal:
+1. Do one of the following to edit information for the goal:
     * Click fields that display in the goal header to update them. Not all fields in the header are editable. 
     * Click the **More icon** ![](assets/more-icon.png) to the right of the goal name, then click **Edit**. 
     * Click **Goal details** in the left panel and click the **Edit icon** ![](assets/edit-icon.png) in the upper-right corner, then click **Edit all**. Start updating fields in the Goal details section. 
@@ -203,7 +203,7 @@ A list of goals displays.
    >[!IMPORTANT]
    >
    >Not all fields that display in the areas mentioned above can be edited. Workfront calculates some of the fields and they are read-only. 
-4. (Conditional) Depending on what you selected in the previous step, update the following information about the goal:
+1. (Conditional) Depending on what you selected in the previous step, update the following information about the goal:
 
    * Update the following information in the goal header, then press Enter to save your changes:
       * **Goal name**: Click the name of the goal and start typing a new name.
@@ -222,9 +222,9 @@ A list of goals displays.
       * **Description**: Add or update information about the goal. 
    * Update or review information in the Goal details section. For more information, see [Update goals in the Goal Details panel in Adobe Workfront Goals](../goal-management/update-goals-in-goal-details-panel.md). 
 
-  <!-- (should you update the title here after changing it at production???)-->
+   <!-- (should you update the title here after changing it at production???)-->
 
-5. (Optional)  Click **Progress Indicators** in the left panel to add results, activities, or projects to the goal. By adding progress indicators, you ensure you can track the goal's progress.
+1. (Optional)  Click **Progress Indicators** in the left panel to add results, activities, or projects to the goal. By adding progress indicators, you ensure you can track the goal's progress.
 For more information, see the following articles: 
     * [Add activities to goals in Adobe Workfront Goals](../results-and-activities/add-activities-to-goals.md)
     * [Add results to goals in Adobe Workfront Goals](../results-and-activities/add-results-to-goals.md). 
