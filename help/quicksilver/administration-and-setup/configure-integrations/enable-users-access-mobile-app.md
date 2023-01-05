@@ -23,7 +23,7 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
    <td>Any</td> 
   </tr> 
   <tr> 
@@ -39,17 +39,17 @@ You must have the following access to perform the steps in this article:
 
 ## Enable users to access the mobile application
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe Workfront], then click **Setup** ![](assets/gear-icon-settings.png).
+1. Click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe Workfront], then click **[!UICONTROL Setup]** ![](assets/gear-icon-settings.png).
 
 1. Click **[!UICONTROL Setup],** located in the upper-right corner of the page.
 
-1. Expand **System,** then click **Preferences.**
+1. Expand **[!UICONTROL System],** then click **[!UICONTROL Preferences].**
 
-1. Select the **Let people use Workfront's mobile applications and the [!UICONTROL Workfront Outlook] Add-In** setting to allow users to use [!DNL Workfront] with the [!DNL Workfront] mobile app or to install and use [!DNL Workfront] for Outlook.\
+1. Select the **[!UICONTROL Let people use Workfront's mobile applications and the [!DNL Workfront Outlook] Add-In]** setting to allow users to use [!DNL Workfront] with the [!DNL Workfront] mobile app or to install and use [!DNL Workfront] for Outlook.\
    This option is enabled by default.
 
-1. Click **Save.**
+1. Click **[!UICONTROL Save].**
 
-For information about how to use the Workfront mobile app after it is enabled for the site, see [Use the Adobe Workfront mobile app](../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/use-the-mobile-app.md).
+For information about how to use the [!DNL Workfront] mobile app after it is enabled for the site, see [Use the [!DNL Adobe Workfront] mobile app](../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/use-the-mobile-app.md).
 
-For information about how to use Workfront for Outlook, see the [Using Workfront with Outlook](../../workfront-integrations-and-apps/using-workfront-with-outlook/workfront-for-outlook.md) section.
+For information about how to use [!DNL Workfront for Outlook], see the [Using [!DNL Workfront with Outlook]](../../workfront-integrations-and-apps/using-workfront-with-outlook/workfront-for-outlook.md) section.

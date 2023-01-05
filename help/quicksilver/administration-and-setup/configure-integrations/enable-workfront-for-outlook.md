@@ -9,11 +9,11 @@ feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: be523b27-191f-46ca-9a87-d512f9a15a1e
 ---
-# Enable [!DNL Adobe Workfront] for Outlook
+# Enable [!DNL Adobe Workfront for Outlook]
 
-Before users can begin using [!DNL Adobe Workfront] for Outlook, you first need to enable it for your system.
+Before users can begin using [!DNL Adobe Workfront for Outlook], you first need to enable it for your system.
 
-For information about how to use Workfront for Outlook after it has been enabled, see [Adobe Workfront for Outlook](../../workfront-integrations-and-apps/using-workfront-with-outlook/workfront-for-outlook.md).
+For information about how to use [!DNL Workfront for Outlook] after it has been enabled, see [[!DNL Adobe Workfront for Outlook]](../../workfront-integrations-and-apps/using-workfront-with-outlook/workfront-for-outlook.md).
 
 ## Access requirements
 
@@ -24,7 +24,7 @@ You must have the following to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
    <td>Any</td> 
   </tr> 
   <tr> 
@@ -40,22 +40,22 @@ You must have the following to perform the steps in this article:
 
 &#42;To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
 
-## Enable the [!DNL Workfront] Outlook add-in
+## Enable the [!DNL Workfront] [!DNL Outlook] add-in
 
 1. Log in to [!DNL Workfront] as the administrator.
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe Workfront], then click **Setup** ![](assets/gear-icon-settings.png).
+1. Click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe Workfront], then click **[!UICONTROL Setup]** ![](assets/gear-icon-settings.png).
 
-1. Expand **System**, then click **Preferences**.
+1. Expand **[!UICONTROL System]**, then click **[!UICONTROL Preferences]**.
 
-1. Ensure that **Let people use Workfront's mobile applications and the Workfront Outlook Add-In** is selected.\
-   In addition to allowing the [!DNL Workfront] mobile applications to be used, this setting also allows the [!DNL Workfront] Outlook Add-In to be used.
+1. Ensure that **[!UICONTROL Let people use Workfront's mobile applications and the [!DNL Workfront] [!DNL Outlook] Add-In]** is selected.\
+   In addition to allowing the [!DNL Workfront] mobile applications to be used, this setting also allows the [!DNL Workfront] [!DNL Outlook] Add-In to be used.
 
    This option is enabled by default.
 
-1. Click **Save**.
+1. Click **[!UICONTROL Save]**.
 
-## Installing the [!DNL Workfront] Outlook add-in
+## Installing the [!DNL Workfront] [!DNL Outlook] add-in
 
-For information about system requirements for using the [!DNL Workfront] add-in for Outlook, see [System requirements](../../workfront-integrations-and-apps/using-workfront-with-outlook/set-up-workfront-for-outlook.md#system-requirements-and-prerequisites) in [Set up Adobe Workfront for Outlook](../../workfront-integrations-and-apps/using-workfront-with-outlook/set-up-workfront-for-outlook.md).
+For information about system requirements for using the [!DNL Workfront] add-in for [!DNL Outlook], see [System requirements](../../workfront-integrations-and-apps/using-workfront-with-outlook/set-up-workfront-for-outlook.md#system-requirements-and-prerequisites) in [Set up Adobe Workfront for [!DNL Outlook]](../../workfront-integrations-and-apps/using-workfront-with-outlook/set-up-workfront-for-outlook.md).
 
-For information about how to install the Workfront Add-In for Outlook, see [Installing the Add-in](../../workfront-integrations-and-apps/using-workfront-with-outlook/set-up-workfront-for-outlook.md#downloading-and-installing-the-add-in) in  [Set up Adobe Workfront for Outlook](../../workfront-integrations-and-apps/using-workfront-with-outlook/set-up-workfront-for-outlook.md).
+For information about how to install the [!DNL Workfront] Add-In for [!DNL Outlook], see [Installing the Add-in](../../workfront-integrations-and-apps/using-workfront-with-outlook/set-up-workfront-for-outlook.md#downloading-and-installing-the-add-in) in  [Set up [!DNL Adobe Workfront for Outlook]](../../workfront-integrations-and-apps/using-workfront-with-outlook/set-up-workfront-for-outlook.md).
