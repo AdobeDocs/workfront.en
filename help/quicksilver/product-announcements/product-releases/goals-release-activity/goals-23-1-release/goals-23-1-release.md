@@ -30,8 +30,8 @@ For a list of all changes available for all areas of Workfront at this point in 
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/goals-release-activity/goals-23-1-release/goals-jan.md">Updates to Workfront Goals</a> <span style="color: #ff0000;"> Coming soon!</span></p>
-                        <p>To create a more consistent experience with the rest of Workfront, as well as make it easier to view and work with your goals, we've made some updates to Workfront Goals. The look and feel of Workfront Goals is now more similar to other areas in Workfront.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/goals-release-activity/goals-23-1-release/goals-jan.md">Updates to Workfront Goals</a></p>
+                        <p>To create a more consistent experience with the rest of Workfront, as well as make it easier to view and work with your goals, we've updated Workfront Goals. The look and feel of Workfront Goals is now more similar to other areas in Workfront. </p>
                         <p>Now, areas such as the header, lists, and details cards are familiar and consistent with your experience in Workfront.
 Individual goals open in their own page and we have added the following sections in the left panel for easy navigation and updating:</p>
                         <ul>
@@ -44,7 +44,6 @@ Sharing, editing, deleting, or copying a goal is similar to the way you perform 
                         <p>Sharing, editing, deleting, or copying a goal is similar to the way you perform these actions for other objects in Workfront.
 In addition, we have introduced a new commenting experience in the Updates section of a goal which now displays user comments and system activity notes in two separate tabs.</p>
                         <p><b>IMPORTANT</b>: With this update, we have removed the Check-in and Pulse sections in the Goals area. </p>
-                        <p>For more information about Workfront Goals, see the articles available in the <a href="/help/quicksilver/workfront-goals/workfront-goals.md">Workfront Goals</a> area of the Workfront Documentation.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
                      <p>
