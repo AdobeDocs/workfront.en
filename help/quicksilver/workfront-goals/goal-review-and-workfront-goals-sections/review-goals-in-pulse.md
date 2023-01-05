@@ -9,9 +9,17 @@ exl-id: 33873797-183d-4efc-9099-26eb907ca799
 ---
 # Review goals in the Adobe Workfront Goals Pulse section
 
-<!--drafted for the goal redesign. After the release to Prod, this article will need to be deleted: 
+<!--drafted for the goal redesign. After the release to Prod, this article will need to be deleted - also remove from TOC and change article's extension to .draft: 
 
-The Pulse section has been removed from the Preview environment. For information about the sections included in the Goals area in the Preview environment, see [Overview of Adobe Workfront Goals sections](FIX LINK: help\quicksilver\workfront-goals\goal-review-and-workfront-goals-sections\overview-of-wf-goals-sections.md.md). -->
+<div class="preview">
+
+The Pulse section has been removed from the Preview environment. 
+
+For information about the sections included in the Goals area in the Preview environment, see [Overview of Adobe Workfront Goals sections](../goal-review-and-workfront-goals-sections/overview-of-wf-goals-sections.md).
+
+</div>
+
+-->
 
 You can view all goals in your organization, regardless of who the owner is. For information about creating goals, see [Create goals in Adobe Workfront Goals](../../workfront-goals/goal-management/create-goals.md).
 

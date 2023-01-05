@@ -198,12 +198,17 @@ The Goal List opens.
 
    ![](assets/goal-close-confirmation-with-add-closing-notes-link.png)
 
-1. In the confirmation box, click **Add closing notes** to add comments about this goal and why you need to close it. 
+1. (Optional) In the confirmation box, click **Add closing notes** to add comments about this goal and why you need to close it. 
 1. Add closing notes, then click **Add notes**.
 
    ![](assets/add-closing-notes-box-unshimmed.png)
 
-   The comments display in the Updates section of the goal's page. (this was not working when I updated this doc - check again if this is where they show up??? - logged a bug for this)
+   The comments display in the Goal details section of the goal's page, in the Closing notes area. 
+
+   >[!NOTE]
+   >
+   >Workfront deletes the closing notes if you later reopen a closed goal. 
+
 
 </div>
 
@@ -262,7 +267,11 @@ Reopening goals differs depending on what environment you use.
    The goal page opens.
 1. Click the **More** menu ![](assets/more-icon.png) to the right of the goal name, then **Reopen **> **Reopen**. 
 
-   The goal is now open and it has a status of Active. The progress of the goal is recalculated starting with the current date.
+   The following things occur: 
+   * The goal is now open and it has a status of Active. 
+   * The progress of the goal is recalculated starting with the current date.
+   * Any closing notes are deleted from the Goal details page. Deleted closing notes cannot be recovered.  
+
 1. (Optional) Modify your filters again to display only active goals.
 
    The goals you opened display on the screen.

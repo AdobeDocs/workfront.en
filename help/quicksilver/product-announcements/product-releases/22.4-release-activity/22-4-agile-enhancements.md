@@ -24,7 +24,7 @@ Only one intake column is permitted on a board.
 
 For more information, see [Add an intake column to a board](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md)
 
-[View a video demonstration of this feature](https://vimeo.com/747832980){target=_blank}
+[View a video demonstration of this feature](https://video.tv.adobe.com/v/3412867/){target=_blank}
 
 ## Updated filter panel in boards
 
@@ -34,7 +34,7 @@ The filter and search icons on a board have been moved to the left of the screen
 
 For more information, see [Filter and search in a board](/help/quicksilver/agile/get-started-with-boards/filter-search-in-board.md).
 
-[View a video demonstration of this feature](https://vimeo.com/747833872){target=_blank}
+[View a video demonstration of this feature](https://video.tv.adobe.com/v/3412868/){target=_blank}
 
 ## Use groups on a board to create swimlanes
 
@@ -46,7 +46,7 @@ Any cards in the intake column are not included in a group.
 
 For more information, see [Use groups on a board](/help/quicksilver/agile/use-boards-agile-planning-tools/group-cards-on-board.md).
 
-[View a video demonstration of this feature.](https://vimeo.com/748837103)
+[View a video demonstration of this feature.](https://video.tv.adobe.com/v/3412869/){target=_blank}
 
 ## Enhancements to checklist items on boards
 
@@ -70,7 +70,7 @@ After you add the team to the board, you can assign the team to cards. On connec
 
 For more information, see [Add or remove members from a board](/help/quicksilver/agile/get-started-with-boards/add-members-to-board.md).
 
-[View a video demonstration of this feature.](https://vimeo.com/736269335)
+[View a video demonstration of this feature.](https://video.tv.adobe.com/v/3412870/){target=_blank}
 
 ## Work In Progress limit now available on board columns
 
@@ -82,7 +82,7 @@ You can now set a Work In Progress (WIP) limit for any column on a board. When y
 
 For more information, see [Manage board columns](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md).
 
-[View a video demonstration of this feature.](https://vimeo.com/731902045/c2cd2b6cf6)
+[View a video demonstration of this feature.](https://video.tv.adobe.com/v/3412871/){target=_blank}
 
 ## Estimation field added to cards
 
@@ -92,4 +92,4 @@ For more information, see [Manage board columns](/help/quicksilver/agile/get-sta
 
 A new Estimation field on both ad hoc and connected cards allows you to enter the estimated number of hours for the card to be completed. This is a manual entry, not a calculated value, and the value can't be more than 99. The estimate is displayed on the card on the board as well as in the card details.
 
-[View a video demonstration of this feature.](https://vimeo.com/731902610/313c4e2791)
+[View a video demonstration of this feature.](https://video.tv.adobe.com/v/3412872/){target=_blank}

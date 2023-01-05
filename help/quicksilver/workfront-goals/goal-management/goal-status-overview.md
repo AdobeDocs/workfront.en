@@ -26,7 +26,7 @@ Goal statuses indicate whether a goal is active and currently recording progress
 
 ## Consideration when updating goal statuses in Workfront Goals
 
-* You can update the status of goals you created or that were shared with you. 
+* You cannot manually update the status of goals you created or that were shared with you. The status of goals updates depending on the actions you take on the goal. For example, activating a goal changes the Draft status to Active. 
 * Some restrictions exist and sometimes you cannot change the status of a goal to another status, according to the following rules: 
 
   | From/ To |Draft |Active |Inactive |Closed |
