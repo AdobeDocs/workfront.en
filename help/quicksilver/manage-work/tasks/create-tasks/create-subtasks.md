@@ -9,11 +9,7 @@ exl-id: 3d970794-b5ea-422f-bc92-51846cb7db35
 ---
 # Create subtasks
 
-{{highlighted-preview}}
-
 In Workfront, tasks can have parent-child relationships. Child tasks are called subtasks. You can create subtasks on the tasks list by making a main task a subtask. You can also make a subtask a main task.
-
-<span class="preview">If you use Workfront Boards, subtasks are added to connected cards as checklist items. For more information, see [Use connected cards on boards](/help/quicksilver/agile/get-started-with-boards/connected-cards.md) and [Manage checklist items on cards](/help/quicksilver/agile/get-started-with-boards/manage-checklist-items.md).</span>
 
 ## Access requirements
 
