@@ -8,6 +8,8 @@ exl-id: 18aae496-b4ec-4056-a7f1-9600b5fb5421
 ---
 # Left navigation in [!DNL Adobe Workfront]
 
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> 
+
 Most areas and objects in WF use a simple navigation panel on the left side of the screen. The following are benefits of left panel navigation:
 
 * It allows better management of screen space.
@@ -63,6 +65,7 @@ The left panel is available for the following objects:
 * User
 * Team
 * Group
+* <span class="preview">Goal</span>
 
 >[!IMPORTANT]
 >
@@ -206,11 +209,15 @@ The following sections display in the left panel for the **[!UICONTROL Goals]** 
     </tr>
     <tr>
         <td><strong>[!UICONTROL Pulse]</strong></td>
-        <td>Displays a quick overview of all active goals and their progress. For more information, see <a href="../../workfront-goals/goal-review-and-workfront-goals-sections/review-goals-in-pulse.md">Review goals in the [!UICONTROL [!DNL Adobe Workfront Goals] Pulse] section</a>.</td>
+        <td>Displays a quick overview of all active goals and their progress. For more information, see <a href="../../workfront-goals/goal-review-and-workfront-goals-sections/review-goals-in-pulse.md">Review goals in the [!UICONTROL [!DNL Adobe Workfront Goals] Pulse] section</a>.
+        <p><span class="preview">This section has been removed from the Preview environment.</span></p>
+        </td>
     </tr>
     <tr>
         <td><strong>[!UICONTROL Check-in]</strong></td>
-        <td>Displays a quick overview of your active goals and their progress. For more information, see <a href="../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md">Update goals by using [!UICONTROL Check-in] in [!DNL Adobe Workfront Goals]</a>.</td>
+        <td>Displays a quick overview of your active goals and their progress. For more information, see <a href="../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md">Update goals by using [!UICONTROL Check-in] in [!DNL Adobe Workfront Goals]</a>.
+        <p><span class="preview">This section has been removed from the Preview environment.</span></p>
+        </td>
     </tr>
 </table>
 

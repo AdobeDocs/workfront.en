@@ -61,6 +61,8 @@ You must have the following access to perform the steps in this article:
 
 +++
 
+<!--drafted: this is no longer possible, since we removed Campaigns, but it might come back as part of Maestro: 
+
 ## Multi-object breadcrumbs
 
 >[!NOTE]
@@ -73,6 +75,8 @@ The multi-object listing in the breadcrumb (for example, the campaigns) displays
 
 
 ![Project with multiple campaigns in the breadcrumb](assets/project-with-multiple-campaigns-in-breadcrumb.png)
+
+-->
 
 ## Access a parent object from the breadcrumbs
 
