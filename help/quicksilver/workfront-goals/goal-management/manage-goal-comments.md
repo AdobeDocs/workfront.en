@@ -206,7 +206,7 @@ This opens the goal list.
    
    ![](assets/comment-box-empty-unshimmed.png)
 
-1. (Optional) In the **Notify** area, start typing the name of a user or a team that you would like to include in this comment, then select it when it displays in the list. 
+1. (Optional) In the **Notify** area, start typing the name or the email of a user, or a team that you would like to include in this comment, then select it when it displays in the list. 
 1. Click **Submit**. 
 1. (Optional) Click **Reply** to reply to an existing comment, then follow the steps 5-7 above. <!--insure this stays accurate-->
 1. (Optional) Click the **System Activity** tab to view updates logged by the system. When a goal is updated, Workfront generates a note about that update that and displays it in the System Activity tab. <!--ensure the casing on the tab has not changed-->

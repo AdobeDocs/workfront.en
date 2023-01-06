@@ -68,7 +68,7 @@ The Milestone view is available on project lists and project reports. This view 
 >
 >The Milestone view is not available in the following areas:
 >* Timesheets, in the project list when adding a project.
->* Campaigns, in the Projects section of a campaign. 
+>* <span class="preview">Campaigns, in the Projects section of a campaign.</span> 
 > <span class="preview">Campaigns are available only in the Preview environment when you participate in the Campaigns beta program. For more information about current available features and how to enroll, see [Campaigns beta](../../../product-announcements/betas/campaign-object-beta.md).</span>
 
 

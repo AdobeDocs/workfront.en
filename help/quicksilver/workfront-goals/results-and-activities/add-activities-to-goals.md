@@ -8,7 +8,7 @@ author: Alina
 feature: Workfront Goals
 exl-id: 4d6ef324-4b5c-402b-b64d-b1a2a7d2ab57
 ---
-# Add activities to goals in&nbsp;Adobe Workfront Goals
+# Add activities to goals in Adobe Workfront Goals
 
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span>
 
