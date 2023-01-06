@@ -9,13 +9,17 @@ exl-id: 5092f508-e52c-4934-a8c1-d0be04ecce13
 ---
 # Update goals by using Check-in in Adobe Workfront Goals
 
-<!--drafted for goal redesign: when this releases to Prod, change the title of the article to "Update goal progress in Adobe Workfront Goals"-->
-
-<!-- drafted content for goal redesign: <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span>-->
+<!--drafted for goal redesign: when this releases to PRODUCTION, change the title of the article to "Update goal progress in Adobe Workfront Goals"-->
 
 <!--take out Prod and Preview references at production-->
 
-You must review your goals periodically and update their progress to ensure that they are not falling behind or become in danger of not being achieved. When you use the Check-in functionality you can update the progress of your goals. <!--add this sentence for goal redesign preview: <div class="preview">Although you can still update the progress of your goals, the Check-in functionality is currently removed from the Preview environment.</div> And: take this last sentence out when you update this for goal redesign production.-->
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span>
+
+You must review your goals periodically and update their progress to ensure that they are not falling behind or become in danger of not being achieved. When you use the Check-in functionality you can update the progress of your goals. 
+
+<div class="preview">Although you can still update the progress of your goals, the Check-in functionality has been removed from the Preview environment.</div> 
+
+<!--And: take this last sentence ^^ out when you update this for goal redesign production.-->
 
 ## Access requirements
 
@@ -122,9 +126,11 @@ You must have the following before you can start:
 
 ## Considerations for updating goals
 
-<!--drafted for goal redesign: add this as a note in YELLOW: 
-<span class="preview">The check in functionality and the Check-in section have been removed from the Preview environment. For information, see the section "Update goal progress in the Preview environment" (insert link) in this article.</span> 
--->
+>[!IMPORTANT]
+>
+>
+><span class="preview">The check-in functionality and the Check-in section have been removed from the Preview environment. For information, see the section [Update goal progress in the Preview environment](#update-goal-progress-in-the-preview-environment) in this article.</span> 
+
 
 Consider the following when updating progress on goals:
 
@@ -153,9 +159,12 @@ Consider the following when updating progress on goals:
 
 * The first time you or someone else updates the progress of a result or activity on a goal, the goal Progress changes from New and Workfront Goals starts recording progress and progress status updates on the goal.
 
-## Update goal progress by using Check-in <!--in the Production environment-->
+## Update goal progress by using Check-in in the Production environment
 
-<!--drafted content for goal redesign: <span class="preview"> IMPORTANT: The Check-in functionality has been removed from the Preview environment and will be removed from Workfront Goals with the 23.1 release. See the "Update goal progress in the Prreview environment" section in this article to update goal progress in Preview. </span> -->
+>[!IMPORTANT]
+>
+> <span class="preview"> The Check-in functionality has been removed from the Preview environment and will be removed from Workfront Goals with the 23.1 release. See the [Update goal progress in the Preview environment](#update-goal-progress-in-the-preview-environment) section in this article to update goal progress in Preview. </span>
+
 
 You can check in on goals at the individual goal level, or you can check in on multiple goals from the Check-in section of Workfront Goals.
 
@@ -273,7 +282,7 @@ When you check in on a goal in the Check-in section, you can update the progress
 
 1. (Optional) Add a comment for your goal, then click **Post** to save your comment.
 
-<!--drafted for goals redesign: 
+
 
 <div class="preview">
 
@@ -281,7 +290,10 @@ When you check in on a goal in the Check-in section, you can update the progress
 
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) > **Goals** in the upper-right corner.
 
-   This opens the goal list. All goals display by default.
+   <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-review-and-workfront-goals-sections/assets/three-line-main-menu-icon.png) in the upper-left corner)
+   -->
+
+   This opens the goal list. All goals that you have access to view display by default.
 
    Alternatively, you can click Goal Alignment in the left panel.
 
@@ -306,4 +318,3 @@ When you check in on a goal in the Check-in section, you can update the progress
 
    The progress bar for the progress indicator in the Progress column and the progress of the goal in the goal header update immediately. 
 </div>
--->

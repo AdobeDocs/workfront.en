@@ -9,6 +9,8 @@ exl-id: bbb549c1-aea6-4f5e-8a6b-01fc04cf06ef
 ---
 # Close and reopen goals in Adobe Workfront Goals
 
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> 
+
 You can close a goal when you want to indicate the following:
 
 * The goal is done, either because you achieved it, or because the time period elapsed.
@@ -127,7 +129,6 @@ You must have the following before you can start:
   >
   >When closing a goal that has active contributing goals, its progress changes after closing to indicate the progress of the contributing active goals. For information about aligning goals, see [Align goals by connecting them in Adobe Workfront Goals](../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md).
 
-* Closing a goal removes it from your Check-in page, as you will no longer be responsible for updating the progress. <!--drafted for goal redesign - remove this when redesign releases. -->
 * Update the goal's progress indicators before you close the goal to ensure the goal closes with an accurate progress value. If all progress indicators have been achieved then the goal percent complete should be 100% and your goal has been achieved. For information about updating your goals, see [Update goals by using Check-in in Adobe Workfront Goals](../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md).
 * Leave any final comments as an update to the goals that you close. For information about adding comments to goals, see [Manage goal comments in Adobe Workfront Goals](../../workfront-goals/goal-management/manage-goal-comments.md). 
 * You can no longer update the progress of results and activities on a goal you close. 
@@ -136,12 +137,9 @@ You must have the following before you can start:
 
 ## Close goals
 
-<!--drafted for goal redesign: 
-
 Closing goals differs depending on what environment you use. 
 
 ### Close goals in the Production environment
--->
 
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) > **Goals** in the upper-right corner.
 
@@ -174,8 +172,6 @@ Closing goals differs depending on what environment you use.
 
 1. (Optional) Modify your filters again to display only closed goals. The goals you closed display on the screen.
 
-<!--drafted for goals redesign:
-
 <div class="preview">
 
 ### Close goals in the Preview environment
@@ -183,7 +179,12 @@ Closing goals differs depending on what environment you use.
 
 
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) > **Goals** in the upper-right corner. 
-The Goal List opens. 
+
+   The Goal List opens. 
+
+   <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-management/assets/three-line-main-menu-icon.png) in the upper-left corner)
+   -->
+
 1. (Optional) Modify your filters to display only goals that are active. 
 
    For information about filtering information in Workfront Goals, see [Filter information in Adobe Workfront Goals](../goal-management/filter-information-wf-goals.md).
@@ -212,20 +213,14 @@ The Goal List opens.
 
 </div>
 
--->
 
 ## Reopen goals
 
 You can reopen closed goals if you decide that they have become relevant again and that you need to continue updating their progress.
 
-<!--
-
 Reopening goals differs depending on what environment you use.
 
 ### Reopen goals in the Production environment
-
--->
-
 
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) > **Goals** in the upper-right corner.
 
@@ -245,19 +240,21 @@ Reopening goals differs depending on what environment you use.
 
 1. Click the **More icon** ![](assets/more-icon.png) to the right of the goal name, then click **Reopen** > **Reopen**.
 
-   This reopens the goal in a status of Active. The progress of the goal is recalculated starting with the current date. 
+   This reopens the goal and places it in a status of Active. The progress of the goal is recalculated starting with the current date. 
 
 1. (Optional) Modify your filters again to display only active goals. The goals you opened display on the screen.
 
-<!--drafted for goals redesign:
 
 <div class="preview">
-### Reopen goals in the Preview environment
 
+### Reopen goals in the Preview environment
 
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png)> **Goals** in the upper-right corner. 
 
    The Goal List opens.
+
+   <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-management/assets/three-line-main-menu-icon.png) in the upper-left corner)
+   -->
 
 1. (Optional) Modify your filters to display only goals that are closed. 
 
@@ -277,5 +274,3 @@ Reopening goals differs depending on what environment you use.
    The goals you opened display on the screen.
 
 </div>
-
--->

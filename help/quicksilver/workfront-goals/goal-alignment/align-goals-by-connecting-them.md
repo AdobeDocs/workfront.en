@@ -9,11 +9,7 @@ exl-id: 4276f1c9-2ee9-4f74-b011-ae1e19fefe35
 ---
 # Align goals by connecting them in Adobe Workfront Goals
 
-<!--drafted for goal redesign:
-
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span>
--->
-
 
 If you are an individual contributor who has a personal goal, you may want to align it to your team's goals in order to effectively display the progress of your own goal in the larger context of your organization's strategy.
 
@@ -27,15 +23,7 @@ There are two approaches to connecting goals in Adobe Workfront Goals:
 
 >[!IMPORTANT]
 >
->A goal cannot have more than a total of 50 activities, results, or aligned goals.
-
-<!-- drafted for the goal redesign: replace the IMPORTANT note above with this at the goal redesign release: 
-
->[!IMPORTANT]
->
 >In the Production environment, a goal cannot have more than a total of 50 activities, results, or aligned goals. <span class="preview">In the Preview environment, a goal can have a total of 1000 progress indicators.</span>
-
--->
 
 This article describes how you can align goals by connecting them to one another. For information about aligning goals by converting results and activities to goals, see [Align goals by converting results and activities to goals](../../workfront-goals/goal-alignment/align-goals-by-converting-results-activities.md).
 
@@ -145,13 +133,10 @@ You must have the following before you can start:
 
 ## Align goals by connecting them to one another
 
-<!-- drafted for goal redesign: 
 
 Aligning goals by connecting them differs depending on what environment you use. 
 
 ### Align goals by connecting them in the Production environment
-
--->
 
 1. Create two goals that you want to align. For information about creating goals, see [Create goals in Adobe Workfront Goals](../../workfront-goals/goal-management/create-goals.md).
 1. (Optional) Activate the goals that you want to align. You can align goals that have a Draft, Active, or Inactive status. For information about activating goals, see [Activate goals in Adobe Workfront Goals](../../workfront-goals/goal-management/activate-goals.md).
@@ -185,12 +170,9 @@ Aligning goals by connecting them differs depending on what environment you use.
 
 1. (Optional) Remove the alignment between two goals, when you consider that no longer is relevant to your organization's overall strategy For information about removing alignment between goals, see [Remove goal alignment in Adobe Workfront Goals](../../workfront-goals/goal-alignment/remove-goal-alignment.md).
 
-<!--drafted for the goal redesign:
-
 <div class="preview">
 
 ### Align goals by connecting them in the Preview environment
-
 
 1. Create two goals that you want to align. For information about creating goals, see [Create goals in Adobe Workfront Goals](../../workfront-goals/goal-management/create-goals.md).
 1. (Optional) Activate the goals that you want to align. You can align goals that have a Draft, Active, or Inactive status. For information about activating goals, see [Activate goals in Adobe Workfront Goals](../../workfront-goals/goal-management/activate-goals.md).
@@ -228,5 +210,3 @@ Aligning goals by connecting them differs depending on what environment you use.
 1. (Optional) Remove the alignment between two goals, when you consider that no longer is relevant to your organization's overall strategy For information about removing alignment between goals, see [Remove goal alignment in Adobe Workfront Goals](../../workfront-goals/goal-alignment/remove-goal-alignment.md).
 
 </div>
-
--->
