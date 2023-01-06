@@ -169,7 +169,7 @@ The enhancements on this page are available in the Preview environment. This pag
                         </p>
                         <ul>
                             <li>
-                                <p>Preview release: December 1, 2022<br /></p>
+                                <p>Preview release: December 1, 2022<br /><span style="color: #ff0000;"> This feature has been removed from Preview and will not be released with 23.1.</span></p>
                             </li>
                             <li>
                                 <p>Production release for early opt-in: Unavailable</p>
