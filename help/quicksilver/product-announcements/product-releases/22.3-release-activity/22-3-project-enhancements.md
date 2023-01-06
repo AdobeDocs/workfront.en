@@ -20,7 +20,7 @@ The following are some of the features we added with this update:
 
 *   A setting in the Tasks & Issues Preferences area of Setup for the System or Group Administrator to enable delegation in your environment.
     
-*   A new option for “Delegate tasks and issues” in the Home area for users with a Review or higher license to delegate their work items.
+*   A new option for "Delegate tasks and issues" in the Home area for users with a Review or higher license to delegate their work items.
     
 *   Indication in the Home and in the Assignments area of task and issue headers that items are delegated to others.
     
@@ -29,7 +29,7 @@ The following are some of the features we added with this update:
 
 >[!NOTE]
 >
->Only users with a Review or higher license can delegate their work to others. Work can be delegated to any user, regardless of their access level. Delegated users receive the same permissions as the assignees on the delegated items. If these permissions are lower than a user’s access level configuration, the delegated users might be prevented from performing some of the activities on the tasks and issues that are delegated to them.
+>Only users with a Review or higher license can delegate their work to others. Work can be delegated to any user, regardless of their access level. Delegated users receive the same permissions as the assignees on the delegated items. If these permissions are lower than a user's access level configuration, the delegated users might be prevented from performing some of the activities on the tasks and issues that are delegated to them.
 
 
 For more information, see [Delegate task and issue overview](/help/quicksilver/manage-work/delegate-work/delegate-work-overview.md).
@@ -71,7 +71,7 @@ For more information, see [Tag others on updates](/help/quicksilver/workfront-ba
 
 ## New syntax for calculations in custom fields
 
-To prepare for future enhancements that will help you add calculations to custom forms, we have standardized the syntax for referenced fields that you add to a calculation. It’s easy to use this new syntax because the system enters it for you when you start typing the name of a field and then select it.
+To prepare for future enhancements that will help you add calculations to custom forms, we have standardized the syntax for referenced fields that you add to a calculation. It's easy to use this new syntax because the system enters it for you when you start typing the name of a field and then select it.
 
 For more information, see the section "Build the calculation for your calculated custom field" in the [article Add calculated data to a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
 
@@ -83,7 +83,7 @@ To ensure accuracy of your data for approving work, we have made a change in the
 
 Some approval processes require approval from two different roles, and two different approvers might have one of those roles in common. Now when this happens, after the approval decisions are made, Workfront records each approver and their respective role associated with the approval process.
 
-Prior to this change, both approvals were recorded for the second user because they shared one of the approval roles with the first approver. In this case, the second approver was overwriting the first approver’s information.
+Prior to this change, both approvals were recorded for the second user because they shared one of the approval roles with the first approver. In this case, the second approver was overwriting the first approver's information.
 
 For more information about approval processes in Workfront, see [Approval process overview](/help/quicksilver/review-and-approve-work/manage-approvals/approval-process-in-workfront.md).
 
@@ -151,6 +151,10 @@ For more information about sharing folders, see [Share a top-level document fold
 [View a video demonstration of this feature.](https://vimeo.com/675978565/1901e4a8a1)
 
 ## Workfront Campaigns (Beta) – a new way to manage your work
+
+>
+>This feature is planned to be removed from Preview on January 9, 2023. For more information, see the [23.1 Release overview page](/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-release-overview.md).
+
 
 >[!NOTE]
 >

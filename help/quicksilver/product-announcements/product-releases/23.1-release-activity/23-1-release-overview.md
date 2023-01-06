@@ -63,7 +63,7 @@ The enhancements on this page are available in the Preview environment. This pag
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Relocation of the "Add users" option on a project</a></p>
                         <p>In preparation for the deprecation and removal of the Resource Scheduling tools, we have relocated the "Add users" option from the Scheduling section of a project to the People section. When adding users to a project, the users who are not associated with items on the project become part of the Project Team.</p>
-                        <p>The Resource Scheduler was removed from the Preview environment on October 20. It will be removed from the Production environment on November 10, 2022.</p>
+                        <p>The Resource Scheduler was removed from the Preview environment on October 20. It will be removed from the Production environment with the 23.1 release.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
                      <p>
