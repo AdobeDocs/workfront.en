@@ -288,7 +288,7 @@ These enhancements were made available in the Production environment the week of
   </tr> 
   <tr>
                     <td>
-                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">Workfront Campaigns (Beta)</a> </p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/22.3-release-activity/22-3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Workfront Campaigns (Beta)</a> </p>
                         <p>We are introducing a new object to Adobe Workfront that has the potential to change the way you manage work. </p>
                         <p>Workfront Campaigns enables you to organize projects from different portfolios and programs in a new work container.
 Campaigns were released to Preview beta with the 22.3 release, in July 2022. For more information, see <a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">22.3 Project enhancements</a> </p>
