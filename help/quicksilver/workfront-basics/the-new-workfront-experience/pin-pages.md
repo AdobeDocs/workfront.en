@@ -71,7 +71,7 @@ You can change the name of a pinned page to be more meaningful to you.
 >
 >In the Production environment, you can't rename pinned pages in the **[!UICONTROL More menu]** ![More menu](assets/more-icon-spectrum.png).
 
-1. Hover over the pinned page in the top navigation.
+1. Hover over the pinned page in the top navigation or **[!UICONTROL More menu]**.
 1. Click the arrow next to the pin name and select **[!UICONTROL Rename pin]**.
 
    ![Rename pin](assets/rename-remove-pin.png)
