@@ -10,15 +10,14 @@ exl-id: 101094be-ed04-4b22-8fac-80e7f3ffe983
 # Campaigns overview
 
 <!--drafted for campaign removal:  
-
 add this note when campaigns are removed (Jan 9), and take down the article altogether at 23.1 release (the week of Jan. 23 2023 ) 
 >[!IMPORTANT] 
 > 
->The functionality described in this article has been deprecated and removed from the Preview environment.  The Workfront Product team is going to review this functionality and include it in a future product release.  
+><span class="preview">The functionality described in this article has been deprecated and removed from the Preview environment.  The Workfront Product team is going to review this functionality and include it in a future product release. </span> 
 > 
->This article will also be removed with the 23.1 release. At this time, we recommend that you update any bookmarks accordingly.  
+> <span class="preview"> This article will also be removed with the 23.1 release. At this time, we recommend that you update any bookmarks accordingly. </span> 
 > 
->For information about current feature releases, visit the [Product releases](../../product-announcements/product-releases/product-releases.md) page. 
+> <span class="preview"> For information about current feature releases, visit the [Product releases](../../product-announcements/product-releases/product-releases.md) page.</span> 
 --> 
 
 >[!NOTE]

@@ -82,16 +82,10 @@ You can create a project from the Projects area in the Main Menu , or from the P
      >When you create a project using a template from a group, the group you create the project from displays in the Group field of the new project only when the Group field of the template is not specified. If the template Group field is specified, the Group field of the new project is that of the template.
 
    <!--
-   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this, above, is hyperlinked to the classic version of this article; the Milestone View steps are similar to creating a project in Classic than to the way you do it in NWE)</p>
+   <p>(this, above, is hyperlinked to the classic version of this article; the Milestone View steps are similar to creating a project in Classic than to the way you do it in NWE)</p>
    -->
 
    ![](assets/new-project-dropdown-nwe-350x358.png)
-
-   * In the Preview environment, go to a **Campaign** and expand **New Project**.
-
-    >[!NOTE]
-    >
-    >    Campaigns are available only in the Preview environment when you participate in the [!UICONTROL Campaigns] beta program. The functionality described here might not be fully available yet. For more information about current available features and how to enroll, see [Campaigns beta](../../../product-announcements/betas/campaign-object-beta.md). For information about adding projects to a campaign, see [Add objects to a campaign](../../campaigns/add-objects-to-a-campaign.md). 
 
 1. Click the name of a template in the **Favorite templates** list
 
