@@ -24,12 +24,12 @@ You must have the following:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
    <td> <p>Any </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td>Plan</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
+   <td>[!UICONTROL Plan]</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
@@ -46,13 +46,13 @@ You must have the following:
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this moved from create and manage job roles)</p>
 -->
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe] Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
+1. Click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe Workfront], then click **[!UICONTROL Setup]** ![](assets/gear-icon-settings.png).
 
-1. Click **Job Roles.**
-1. Select the job role that you want to delete, then click **Delete.**
+1. Click **[!UICONTROL Job Roles].**
+1. Select the job role that you want to delete, then click **[!UICONTROL Delete].**
 1. If there are any objects (users, tasks, issues) that are assigned to the job role, do one of the following:
 
-   * **Replace the job role with a different job role:** Select the [!UICONTROL new job] role from the drop-down list.
+   * **Replace the job role with a different job role:** Select the new job role from the drop-down list.
 
       Any current and past resource allocations that are associated with the deleted job role are transferred to the job role that you select.
 
@@ -66,4 +66,4 @@ You must have the following:
 
       &#x200B;For example, if a task or issue is assigned to only that job role, the task or issue is unassigned after the job role is deleted.
 
-1. Click  **Yes, Delete It**.
+1. Click  **[!UICONTROL Yes, Delete It]**.

@@ -24,12 +24,12 @@ You must have the following:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td role="rowheader">[!UICONTROL Adobe Workfront] plan*</td> 
    <td> <p>Any </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td>Plan</td> 
+   <td role="rowheader">[!UICONTROL Adobe Workfront] license*</td> 
+   <td>[!UICONTROL Plan]</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
@@ -44,26 +44,26 @@ You must have the following:
 
 If you deactivate a job role, it no longer displays in the following areas:
 
-* The [!UICONTROL Assignments typeahead] field (for tasks, template tasks, issues, approvals, and routing rules)
-* The Assignments fields in lists and reports
+* The [!UICONTROL Assignments] typeahead field (for tasks, template tasks, issues, approvals, and routing rules)
+* The [!UICONTROL Assignments] fields in lists and reports
 * User profiles
 
    >[!NOTE]
    >
    >When you add a new role to a user, a deactivated job role doesn't display. But it does continue to display in the [!UICONTROL Primary Role] and [!UICONTROL Other Roles] fields if the user was associated with the job role before it was deactivated.
 
-* The Sharing dialog box for objects, including layout template assignment
+* The [!UICONTROL Sharing] dialog box for objects, including layout template assignment
 * Typeahead fields in custom forms
 * The [!UICONTROL Pool Members] field in [!UICONTROL Resource Pools]
-* The Job Role field of a Billing Rate edit screen when a user is overriding billing rates for projects
+* The [!UICONTROL Job Role] field of a [!UICONTROL Billing Rate] edit screen when a user is overriding billing rates for projects
 * The [!UICONTROL Add assignment to Kanban board] dialog box in a project
-* The [!UICONTROL Job Role] field of a plan or an initiative when someone is using the Adobe Workfront Scenario Planner.
+* The [!UICONTROL Job Role] field of a plan or an initiative when someone is using the [!DNL Adobe Workfront Scenario Planner].
 
    The [!DNL Scenario Planner] is available only in the new [!DNL Adobe Workfront] experience and requires an additional license. For information about the [!DNL Workfront Scenario Planner], see [The [!DNL Scenario Planner] overview](../../../scenario-planner/scenario-planner-overview.md).
 
 >[!TIP]
 >
->Deactivated roles always display in filters in lists, reports, and other tools such as the [!DNL Workload] Balancer.
+>Deactivated roles always display in filters in lists, reports, and other tools such as the [!DNL Workload Balancer].
 
 ## Considerations before deactivating a job role
 
@@ -94,15 +94,15 @@ We recommend that you do the following before deactivating an unused job role:
 
 ## Deactivate a job role
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe] Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
+1. Click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe Workfront], then click **[!UICONTROL Setup]** ![](assets/gear-icon-settings.png).
 
-1. In the left panel, click&#x200B;**Job Roles.**
-1. (Optional) In the **Filter** drop-down menu, select **[!UICONTROL Active]** to display only active job roles.
+1. In the left panel, click&#x200B; **[!UICONTROL Job Roles].**
+1. (Optional) In the **[!UICONTROL Filter]** drop-down menu, select **[!UICONTROL Active]** to display only active job roles.
 1. Click the name of the job role that you want to deactivate.
-1. In the **Is Active** drop-down menu, select **No**.
+1. In the **[!UICONTROL Is Active]** drop-down menu, select **[!UICONTROL No]**.
 
    ![](assets/deactivate-job-role-edit-role-box-nwe.png)
 
-1. Click **Save Changes**.
+1. Click **[!UICONTROL Save Changes]**.
 
    The job role is deactivated and can no longer be assigned to work, associated with layout templates, and so on. For information about all uses of job roles in [!DNL Workfront], see [Job role overview](../../../administration-and-setup/set-up-workfront/organizational-setup/job-role-overview.md).
