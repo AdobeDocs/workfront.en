@@ -202,10 +202,7 @@ To assign a task or issue to an agile team:
 
 ### Move existing stories&nbsp;to the backlog {#move-existing-stories-to-the-backlog}
 
->[!ADMINISTRATION]
->
->If you decide that your team is not yet ready to work on a story, you can move the story to the backlog.
-
+If you decide that your team is not yet ready to work on a story, you can move the story to the backlog.
 
 For more information, see [Move an agile story](../../agile/work-in-an-agile-environment/move-an-agile-story.md).
 

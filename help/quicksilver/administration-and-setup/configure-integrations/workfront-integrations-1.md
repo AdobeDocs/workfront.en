@@ -232,8 +232,8 @@ Workfront provides the following built-in integrations at no additional cost:
    <td> 
     <ul> 
      <li>[!DNL Salesforce] administrator</li> 
-     <li>Workfront administrator</li> 
-    </ul> </td[!DNL ]> 
+     <li>[!DNL Workfront] administrator</li> 
+    </ul> </td> 
   </tr> 
   <tr> 
    <td> <p>[!DNL SharePoint]</p> <p> <img src="assets/sharepoint.png"> </p> </td> 
