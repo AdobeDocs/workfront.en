@@ -63,7 +63,7 @@ The enhancements on this page are available in the Preview environment. This pag
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Relocation of the "Add users" option on a project</a></p>
                         <p>In preparation for the deprecation and removal of the Resource Scheduling tools, we have relocated the "Add users" option from the Scheduling section of a project to the People section. When adding users to a project, the users who are not associated with items on the project become part of the Project Team.</p>
-                        <p>The Resource Scheduler was removed from the Preview environment on October 20. It will be removed from the Production environment on November 10, 2022.</p>
+                        <p>The Resource Scheduler was removed from the Preview environment on October 20. It will be removed from the Production environment with the 23.1 release.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
                      <p>
@@ -529,6 +529,17 @@ Explore the latest updates made to learning programs, learning paths, videos, an
 ### Functionality soon to be removed from Workfront
 
 The following functionality is soon to be removed from Workfront:
+
+#### **Deprecation and removal of the Campaigns (Beta) area from the Preview environment**
+
+We are removing the Campaigns (Beta) area from the Preview environment on January 9, 2023. Our Product team is going to review this functionality and include it in a future product release.
+
+At this time, we are making the following changes:
+
+* Remove the Campaigns (Beta) area from the Main Menu and from the Layout templates in the Preview environment. 
+* Remove the Campaigns (Beta) area from the Main Menu and from the Layout Templates in the Production environment for those customers who had it enabled by request. 
+
+Additionally, all articles describing this functionality will also be removed.
 
 #### **List Controls (from the Interface area in Setup)**
 
