@@ -530,6 +530,17 @@ Explore the latest updates made to learning programs, learning paths, videos, an
 
 The following functionality is soon to be removed from Workfront:
 
+#### **Deprecation and removal of the Campaigns (Beta) area from the Preview environment**
+
+We are removing the Campaigns (Beta) area from the Preview environment on January 9, 2023. Our Product team is going to review this functionality and include it in a future product release.
+
+At this time, we are making the following changes:
+
+* Remove the Campaigns (Beta) area from the Main Menu and from the Layout templates in the Preview environment. 
+* Remove the Campaigns (Beta) area from the Main Menu and from the Layout Templates in the Production environment for those customers who had it enabled by request. 
+
+Additionally, all articles describing this functionality will also be removed.
+
 #### **List Controls (from the Interface area in Setup)**
 
 List Controls in Setup > Interface will be removed with the 23.1 release. 
