@@ -26,12 +26,12 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
    <td>Any</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe [!DNL Workfront] license</td> 
-   <td>Plan</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] license</td> 
+   <td>[!UICONTROL Plan]</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
@@ -44,9 +44,9 @@ If you still don't have access, ask your [!DNL Workfront] administrator if they 
 
 ## Set timesheet and hour preferences
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe] Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
+1. Click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe Workfront], then click **[!UICONTROL Setup]** ![](assets/gear-icon-settings.png).
 
-1. Click **Timesheet & Hours** > **Preferences**.
+1. Click **[!UICONTROL Timesheet & Hours]** > **[!UICONTROL Preferences]**.
 
 1. On the page that displays, in the **[!UICONTROL General Preferences]** section, configure any of the following options:
 
@@ -55,7 +55,7 @@ If you still don't have access, ask your [!DNL Workfront] administrator if they 
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">Log time for future dates</td> 
+      <td role="rowheader">[!UICONTROL Log time for future dates]</td> 
       <td> <p>Allows users to log time for future dates throughout the system in:</p> 
        <ul> 
         <li>Any projects, tasks, and issues where they have access to log time</li> 
@@ -64,15 +64,15 @@ If you still don't have access, ask your [!DNL Workfront] administrator if they 
      </tr>
 
    <tr> 
-      <td role="rowheader">Assign Job Roles to hour entries manually</td> 
+      <td role="rowheader">[!UICONTROL Assign Job Roles to hour entries manually]</td> 
       <td> <p>Allow users to manually select any Job Role assigned in their user profile or assigned to the object.</p> <p><b>IMPORTANT</b>:  
         <ul> 
          <li>If you disable this setting after assigning job roles to hour entries, users must adjust hours logged under various roles on the [!UICONTROL Hours] tab of the project, task, or issue.</li> 
-         <li>If the user does not have a job role assigned in their profile and there is a task assigned as the Task Owner in the Advanced Assignments dialog box, that job role appears when the user logs time on the task.</li> 
+         <li>If the user does not have a job role assigned in their profile and there is a task assigned as the [!UICONTROL Task Owner] in the [!UICONTROL Advanced Assignments] dialog box, that job role appears when the user logs time on the task.</li> 
         </ul> </p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
-      <td role="rowheader">Restrict timesheet editing to owners and admins</td> 
+      <td role="rowheader">[!UICONTROL Restrict timesheet editing to owners and admins]</td> 
       <td> <p>Restrict editing to timesheet owners and [!DNL Workfront] administrators. When this option is disabled, timesheets can also be edited by:</p> 
        <ul> 
         <li> <p>Users with administrative access to timesheets and hours in their access level</p> </li> 
@@ -81,7 +81,7 @@ If you still don't have access, ask your [!DNL Workfront] administrator if they 
        </ul> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
-      <td role="rowheader">Restrict hour editing to owners and admins</td> 
+      <td role="rowheader">[!UICONTROL Restrict hour editing to owners and admins]</td> 
       <td>Restrict editing to the user who input the hours and [!DNL Workfront] administrators. This setting applies to the [!UICONTROL Hours] tab in a project or in an Hours report.</td> 
      </tr> 
     </tbody> 
@@ -91,7 +91,7 @@ If you still don't have access, ask your [!DNL Workfront] administrator if they 
 
    <table style="table-layout:auto">
     <tr>
-        <td>Log time directly on projects</td>
+        <td>[!UICONTROL Log time directly on projects]</td>
         <td>Allows users to log time on the project (both on the [!UICONTROL Updates] tab and timesheet). If users do not record time at the project level, this options should remain unchecked.</td>
     </tr>
     <tr>
@@ -111,19 +111,19 @@ If you still don't have access, ask your [!DNL Workfront] administrator if they 
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">Work that is within &lt;number of weeks> of the timesheet's work range</td> 
+      <td role="rowheader">[!UICONTROL Work that is within] &lt;number of weeks> [!UICONTROL of the timesheet's work range]</td> 
       <td> <p>Defines the number of weeks before and after the date range of the timesheet that contains dates of tasks and issues assigned to the user. The default setting is 1 week, and you can extend this range to 4 weeks. This means that the timesheet is pre-populated with tasks and issues which have dates anywhere between four weeks before the date range of the timesheet up to four weeks after the date range of the timesheet, if you select 4 weeks for your range. </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Tasks &amp; Issues that have been completed</td> 
+      <td role="rowheader">[!UICONTROL Tasks &amp; Issues that have been completed]</td> 
       <td>If multiple resources are typically assigned to a single task, we recommend this setting. This means when one resource records time against the task and marks it as complete, the other resources assigned to the task can still find the task or the issue in their timesheet, to record their hours.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Tasks &amp; Issues that have Planned Dates in timesheet's date range</td> 
+      <td role="rowheader">[!UICONTROL Tasks &amp; Issues that have Planned Dates in timesheet's date range]</td> 
       <td> <p>When selected, the timesheet includes tasks and issues that have either a Planned Start Date or Completion Date that falls within the date range of the timesheet.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"> Tasks that have Projected Dates in timesheet's date range</td> 
+      <td role="rowheader"> [!UICONTROL Tasks that have Projected Dates in timesheet's date range]</td> 
       <td> <p>When selected, the timesheet includes tasks that have either a Projected Start Date or Completion Date that falls within the time frame of the project, even if the planned date of the issue or task falls outside of the timesheet date range.</p> </td> 
      </tr> 
     </tbody> 
@@ -140,25 +140,25 @@ If you still don't have access, ask your [!DNL Workfront] administrator if they 
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">When deleting projects</td> 
+      <td role="rowheader">[!UICONTROL When deleting projects]</td> 
       <td> 
        <ul> 
-        <li><strong>Keep logged time already added to timesheets as general time</strong>: If this project is restored at a later time, the time remains on the timesheet.</li> 
-        <li><strong>Delete any logged time</strong>: If this project is later restored, time already logged is restored to the project.</li> 
+        <li><strong>[!UICONTROL Keep logged time already added to timesheets as general time]</strong>: If this project is restored at a later time, the time remains on the timesheet.</li> 
+        <li><strong>[!UICONTROL Delete any logged time]</strong>: If this project is later restored, time already logged is restored to the project.</li> 
        </ul> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">When deleting tasks or issues</td> 
+      <td role="rowheader">[!UICONTROL When deleting tasks or issues]</td> 
       <td> 
        <ul> 
-        <li><strong>Move any logged time to the project where the task or issue resides</strong>: If this task or issue is later restored, the time remains on the project.<br></li> 
-        <li> <p><strong>Delete any logged time</strong>: If this task or issue is later restored, logged time is restored to the task or issue.</p> <p>For more detailed information about these options, see <a href="../../../administration-and-setup/manage-workfront/manage-deleted-items/configure-how-hours-affected-when-obj-deleted-restored.md" class="MCXref xref">[!UICONTROL Configure affect] on hours when an object is deleted and restored</a>.</p> </li> 
+        <li><strong>[!UICONTROL Move any logged time to the project where the task or issue resides]</strong>: If this task or issue is later restored, the time remains on the project.<br></li> 
+        <li> <p><strong>[!UICONTROL Delete any logged time]</strong>: If this task or issue is later restored, logged time is restored to the task or issue.</p> <p>For more detailed information about these options, see <a href="../../../administration-and-setup/manage-workfront/manage-deleted-items/configure-how-hours-affected-when-obj-deleted-restored.md" class="MCXref xref">[!UICONTROL Configure affect] on hours when an object is deleted and restored</a>.</p> </li> 
        </ul> </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. Click **Save**.
+1. Click **[!UICONTROL Save]**.
 
 ## Unlock timesheet and hour preferences for groups
 
@@ -174,9 +174,9 @@ For information about how a group administrator configures timesheet and hour pr
 
 To unlock a project preference so that groups can configure it:
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe] Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
+1. Click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe] Workfront, then click **[!UICONTROL Setup]** ![](assets/gear-icon-settings.png).
 
-1. In the left panel, click **Timesheets & Hours**, then click **Preferences**.
+1. In the left panel, click **[!UICONTROL Timesheets & Hours]**, then click **[!UICONTROL Preferences]**.
 
 1. Do any of the following:
 
@@ -187,4 +187,4 @@ To unlock a project preference so that groups can configure it:
       >
       >We recommend that you communicate with the administrators and users in groups throughout the system to ensure that all needs are accounted for in the way you configure a locked preference. When you lock it, your configuration for it is inherited by all groups in the system. And if the preference has been unlocked for any period of time, your configuration replaces those that group administrators might have made.
 
-1. Click **Save**.
+1. Click **[!UICONTROL Save]**.

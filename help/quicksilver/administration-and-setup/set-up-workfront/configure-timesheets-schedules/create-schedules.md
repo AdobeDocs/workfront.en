@@ -3,7 +3,7 @@ user-type: administrator
 product-area: system-administration;timesheets
 navigation-topic: configure-timesheets-and-schedules
 title: Create a schedule
-description: You can define your users' [!UICONTROL work weeks] by using schedules. You can associate a schedule with a user or a project. This allows [!DNL Workfront] to calculate timelines and user availability.
+description: You can define your users' work weeks by using schedules. You can associate a schedule with a user or a project. This allows [!DNL Workfront] to calculate timelines and user availability.
 author: Caroline
 feature: System Setup and Administration
 role: Admin
@@ -37,12 +37,12 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan</td> 
+   <td role="rowheader">[!UICONTROL Adobe Workfront] plan</td> 
    <td>Any</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe [!DNL Workfront] license</td> 
-   <td>Plan</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] license</td> 
+   <td>[!UICONTROL Plan]</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
@@ -53,15 +53,15 @@ You must have the following access to perform the steps in this article:
 
 ## Create a schedule
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe] Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
-1. Click **Schedules**.
-1. Click **New Schedule**.
+1. Click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe] Workfront, then click **[!UICONTROL Setup]** ![](assets/gear-icon-settings.png).
+1. Click **[!UICONTROL Schedules]**.
+1. Click **[!UICONTROL New Schedule]**.
 1. Specify a name for the schedule.
 1. (Optional) Select **[!UICONTROL Default Schedule]** to identify this schedule as your default.
 
    You can have more than one schedule in [!DNL Workfront], but you can only have one default schedule.
 
-   You must have at least one schedule in Workfront. If you only have one, that is designated as the default schedule.
+   You must have at least one schedule in [!DNL Workfront]. If you only have one, that is designated as the default schedule.
 
    >[!NOTE]
    >
@@ -79,7 +79,7 @@ You must have the following access to perform the steps in this article:
 
    <table style="table-layout:auto">
     <tr>
-     <td>Group with Administration Access</td>
+     <td>[!UICONTROL Group with Administration Access]</td>
      <td><p>Indicate the group whose administrators have the permission to edit this schedule.</p>
      <p><b>IMPORTANT</b>:</p>
       <ul>
@@ -96,11 +96,11 @@ You must have the following access to perform the steps in this article:
      </td>
     </tr>
     <tr>
-     <td>Groups with View Access</td>
-     <td><p>Select the groups with View access which this schedule is visible to.</p>
+     <td>[!UICONTROL Groups with View Access]</td>
+     <td><p>Select the groups with [!UICONTROL View] access which this schedule is visible to.</p>
      <p>Only the users in the groups specified here can find the schedule in the drop-down menu when they are assigning it to users or projects.</p></tr>
     <tr>
-     <td>Time Zone</td>
+     <td>[!UICONTROL Time Zone]</td>
      <td><p>Select the time zone for your schedule.</p>
      <p>If you associate the schedule with a user, we recommend that the Time Zone of the schedule matches that of the user.For information about user's time zones, see <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">Edit a user's profile.
      </td>
@@ -124,7 +124,7 @@ You must have the following access to perform the steps in this article:
 
    ![partial-day-exception-on-schedules.png](assets/partial-day-exception-on-schedules.png)
 
-1. Click **Save**, then click **Save Changes**.
+1. Click **[!UICONTROL Save]**, then click **[!UICONTROL Save] Changes**.
 
 1. (Optional) Associate the schedule with a user.
 

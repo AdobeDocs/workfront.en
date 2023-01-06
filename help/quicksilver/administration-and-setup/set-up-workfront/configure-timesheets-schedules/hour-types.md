@@ -46,12 +46,12 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan</td> 
+   <td role="rowheader">[!UICONTROL Adobe Workfront] plan</td> 
    <td>Any</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe [!DNL Workfront] license</td> 
-   <td>Plan</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] license</td> 
+   <td>[!UICONTROL Plan]</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
@@ -66,12 +66,12 @@ Workfront comes with a set of built-in hour types. These hour types cannot be ed
 
 The hour types that come with [!DNL Workfront] are:
 
-* **Sick Time**: A general hour type that cannot be associated with hour entries on a project, task, or issue.
-* **Vacation Time**: A general hour type that cannot be associated with hour entries on a project, task, or issue.
+* **[!UICONTROL Sick Time]**: A general hour type that cannot be associated with hour entries on a project, task, or issue.
+* **[!UICONTROL Vacation Time]**: A general hour type that cannot be associated with hour entries on a project, task, or issue.
 * **[!UICONTROL General Overhead]**: A general hour type that cannot be associated with hour entries on a project, task, or issue. However, it can count as revenue in your project planning process.
-* **Project Time**: A general hour type that can be associated only with hour entries on a project.
-* **Task Time**: A general hour type that can be associated only with hour entries on a task.
-* **Issue Time**:A general hour type that can be associated only with hour entries on an issue.
+* **[!UICONTROL Project Time]**: A general hour type that can be associated only with hour entries on a project.
+* **[!UICONTROL Task Time]**: A general hour type that can be associated only with hour entries on a task.
+* **[!UICONTROL Issue Time]**:A general hour type that can be associated only with hour entries on an issue.
 
 ## Create hour types
 
@@ -79,39 +79,39 @@ As a [!DNL Workfront] administrator, you can create new hour types for your orga
 
 To create new hour types:
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe] Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
+1. Click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe] Workfront, then click **[!UICONTROL Setup]** ![](assets/gear-icon-settings.png).
 
-1. Click **Timesheet & Hours** > **Hour Types**.
+1. Click **[!UICONTROL Timesheet & Hours]** > **[!UICONTROL Hour Types]**.
 
-1. Click **New Hour Type.**
-1. Specify the following information on the **[!UICONTROL New Hour] Type** form:
+1. Click **[!UICONTROL New Hour Type].**
+1. Specify the following information on the **[!UICONTROL New Hour Type]** form:
 
    <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">Name</td> 
+      <td role="rowheader">[!UICONTROL Name]</td> 
       <td>Give your new hour type a name which is easily recognizable in the system.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Description</td> 
+      <td role="rowheader">[!UICONTROL Description]</td> 
       <td>Add a description for your hour type.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Scope</td> 
-      <td> <p>Define whether the hour type is a general or project-specific hour type by selecting the correct scope in the drop-down menu.</p> <p>General hour types are visible only in timesheets and cannot be associated with projects, tasks, or issues.</p> <p><b>IMPORTANT</b>: If you have a custom Hour Type that is Project Specific, then you change it to General, all the existing Task, Issues and Project hours are set to their system default types.</p> </td> 
+      <td role="rowheader">[!UICONTROL Scope]</td> 
+      <td> <p>Define whether the hour type is a general or project-specific hour type by selecting the correct scope in the drop-down menu.</p> <p>General hour types are visible only in timesheets and cannot be associated with projects, tasks, or issues.</p> <p><b>IMPORTANT</b>: If you have a custom Hour Type that is [!UICONTROL Project Specific], then you change it to [!UICONTROL General], all the existing Task, Issues and Project hours are set to their system default types.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Count As Revenue</td> 
+      <td role="rowheader">[!UICONTROL Count As Revenue]</td> 
       <td>Select this option if you want the hour entry associated with this hour type to affect your revenue calculations.</td> 
      </tr> 
     </tbody> 
    </table>
 
-   **Count As Revenue**: Select this option if you want the hour entry associated with this hour type to affect your revenue calculations.
+   **[!UICONTROL Count As Revenue]**: Select this option if you want the hour entry associated with this hour type to affect your revenue calculations.
 
-1. Click **Create Hour Type.**
+1. Click **[!UICONTROL Create Hour Type].**
 
 ## Deactivate hour types
 
@@ -123,8 +123,8 @@ To deactivate an hour type:
 
 1. Click **[!UICONTROL Setup]** near the upper-right corner of [!DNL Adobe Workfront] on the Global Navigation Bar.
 
-1. Expand **Timesheet & Hours Preferences**, then click **Hour Types**.
+1. Expand **[!UICONTROL Timesheet & Hours Preferences]**, then click **[!UICONTROL Hour Types]**.
 
 1. Select the hour type you want to deactivate.
 
-1. Click **Deactivate**.
+1. Click **[!UICONTROL Deactivate]**.

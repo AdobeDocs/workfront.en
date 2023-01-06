@@ -25,7 +25,7 @@ Consider the following when working with schedules in Workfront:
 
    For example, a schedule can be defined as: Monday through Friday, 8 AM to 5 PM, with an hour break for lunch.
 
-* Workfront uses the schedule to determine when the work day starts and ends.
+* [!DNL Workfront] uses the schedule to determine when the work day starts and ends.
 
    This does not prevent a user from working on or completing work in [!DNL Workfront] outside normal business hours. Generally, it's not necessary to create a new schedule or a schedule exception to focus on work planned in the evening.
 
@@ -43,7 +43,7 @@ Consider the following when working with schedules in Workfront:
 
    >[!IMPORTANT]
    >
-   >Workfront uses either the user or the project schedule to determine resource availability in the Resource Planner. Which schedule is used depends on what the Workfront administrator selected for the Calculate Resource Availability Using setting. For information about Resource Management settings, see [Configure Resource Management preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
+   >[!DNL Workfront] uses either the user or the project schedule to determine resource availability in the Resource Planner. Which schedule is used depends on what the [!DNL Workfront] administrator selected for the [!UICONTROL Calculate Resource Availability Using] setting. For information about Resource Management settings, see [Configure Resource Management preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
 
 ## Hierarchy of schedules
 
@@ -51,15 +51,15 @@ If a task is assigned to a user who is associated with a schedule, and resides o
 
 >[!IMPORTANT]
 >
->Workfront uses the schedule of a user only when the [!UICONTROL Calculate Resource Availability Using] setting is set to The User's Schedule in the Resource Management area of Setup. For information about how the [!UICONTROL Calculate Resource Availability Using] setting affects which schedule is used for Resource Management, see [Configure Resource Management preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
+>[!DNL Workfront] uses the schedule of a user only when the [!UICONTROL Calculate Resource Availability Using] setting is set to [!UICONTROL The User's Schedule] in the [!UICONTROL Resource Management] area of [!UICONTROL Setup]. For information about how the [!UICONTROL Calculate Resource Availability Using] setting affects which schedule is used for Resource Management, see [Configure Resource Management preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
 
 The order in which the schedules are used by the system when more than one exists is:
 
 * When a user is assigned to a task, [!DNL Workfront] uses the user's schedule for calculating the timeline of the task. This also includes the personal time of the user. The schedule of the project is ignored.
 
-   For more information about personal time, see [[!UICONTROL Configure personal time off] in Adobe Workfront](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md).
+   For more information about personal time, see [Configure personal time off in [!DNL Adobe Workfront]](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md).
 
-* When multiple users are assigned to a task, and the users have different schedules during the time frame of the task, [!DNL Workfront] uses either one of the following schedules, as defined in the [!UICONTROL Project Preferences] area of Setup:
+* When multiple users are assigned to a task, and the users have different schedules during the time frame of the task, [!DNL Workfront] uses either one of the following schedules, as defined in the [!UICONTROL Project Preferences] area of [!UICONTROL Setup]:
 
    * The schedule of the user who is designated as the Primary Assignee
    * The schedule associated with the project.
