@@ -11,9 +11,9 @@ exl-id: f5a94eaf-ebb8-424b-80ff-ba40cc985a6e
 ---
 # Lock or unlock project preferences for all groups in the system
 
-Groups in your organization might need a project preference configured differently for their unique workf lows. You can unlock the preference for all groups throughout the organization so that they can configure it on their own.
+Groups in your organization might need a project preference configured differently for their unique workflows. You can unlock the preference for all groups throughout the organization so that they can configure it on their own.
 
-When a preference is unlocked and the group administrator modifies it, the projects associated with the group acquire the configuration for that preference from the [!UICONTROL group-level] setting instead of from the [!UICONTROL system-level] setting.
+When a preference is unlocked and the group administrator modifies it, the projects associated with the group acquire the configuration for that preference from the group-level setting instead of from the system-level setting.
 
 ## Access requirements
 
@@ -24,12 +24,12 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
    <td>Any</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe [!DNL Workfront] license</td> 
-   <td>Plan</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] license</td> 
+   <td>[!UICONTROL Plan]</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
@@ -52,9 +52,9 @@ For instructions on locking or unlocking a system-level project, task, or issue 
 
 ## Unlock a project preference so that groups can configure it
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe] Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
+1. Click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe Workfront], then click **[!UICONTROL Setup]** ![](assets/gear-icon-settings.png).
 
-1. Click **Project Preferences**, then click **Projects**.
+1. Click **[!UICONTROL Project Preferences]**, then click **[!UICONTROL Projects]**.
 
 1. Do any of the following:
 
@@ -65,4 +65,4 @@ For instructions on locking or unlocking a system-level project, task, or issue 
       >
       >We recommend that you communicate with the administrators and users in groups throughout the system to ensure that all needs are accounted for in the way you configure a locked preference. When you lock it, your configuration for it is inherited by all groups in the system. And if the preference has been unlocked for any period of time, your configuration replaces those that group administrators might have made.
 
-1. Click **Save**.
+1. Click **[!UICONTROL Save]**.

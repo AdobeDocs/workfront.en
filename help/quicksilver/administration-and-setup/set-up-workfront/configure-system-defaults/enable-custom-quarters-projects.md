@@ -24,12 +24,12 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
    <td>Any</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe [!DNL Workfront] license</td> 
-   <td>Plan</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] license</td> 
+   <td>[!UICONTROL Plan]</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
@@ -40,11 +40,11 @@ You must have the following access to perform the steps in this article:
 
 ## Set up custom quarters for your [!DNL Workfront] system
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe] Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
+1. Click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe Workfront], then click **[!UICONTROL Setup]** ![](assets/gear-icon-settings.png).
 
 1. Click **[!UICONTROL Project Preferences]** > **[!UICONTROL Projects].**
 
-1. In the **Timelines** section, select **Enable Custom Quarters**.
+1. In the **[!UICONTROL Timelines]** section, select **[!UICONTROL Enable Custom Quarters]**.
 
 1. Type a name for the custom quarter, such as "Fiscal Q1 2021."
 1. Select start and end dates for the custom quarter.
@@ -62,4 +62,4 @@ You must have the following access to perform the steps in this article:
 
    For information about reporting elements, see [Reporting elements: filters, views, and groupings](../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md).
 
-   For information about creating filters, see [Create or edit filters in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/create-filters.md).
+   For information about creating filters, see [Create or edit filters in [!DNL Adobe Workfront]](../../../reports-and-dashboards/reports/reporting-elements/create-filters.md).

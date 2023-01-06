@@ -30,12 +30,12 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
    <td>Any</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe [!DNL Workfront] license</td> 
-   <td>Plan</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] license</td> 
+   <td>[!UICONTROL Plan]</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
@@ -50,13 +50,13 @@ You must have the following access to perform the steps in this article:
 
 1. Do any of the following, depending on whether you are creating or editing a filter, view, or grouping:
 
-   * Click **Interface** > **Filters**.
+   * Click **[!UICONTROL Interface]** > **[!UICONTROL Filters]**.
 
-   * Click **Interface >** **Views**.
+   * Click **[!UICONTROL Interface] >** **[!UICONTROL Views]**.
 
    * Click **[!UICONTROL Interface]** > **[!UICONTROL Groupings]**.
 
-1. If you're creating a filter, view, or grouping, click **[!UICONTROL New Filter]**, **[!UICONTROL New View]**, or **[!UICONTROL New Grouping]** <span class="preview">(or **Add Filter**, **Add View**, or **Add Grouping**)</span>, then select the object type you want to associate the new filter, view, or grouping with.
+1. If you're creating a filter, view, or grouping, click **[!UICONTROL New Filter]**, **[!UICONTROL New View]**, or **[!UICONTROL New Grouping]** <span class="preview">(or **[!UICONTROL Add Filter]**, **[!UICONTROL Add View]**, or **[!UICONTROL Add Grouping]**)</span>, then select the object type you want to associate the new filter, view, or grouping with.
 
    Or
 
@@ -80,9 +80,9 @@ You can make the filter, view, or grouping available to users in your system. Fo
 
 You can choose to show or hide filters, views, or groupings from the Layout Template. Visible filters are available for all users system-wide. You can use a Layout Template to hide visible filters for specific users or groups.
 
-1. Click **[!UICONTROL Interface]**, then click one of the following: **Filters**, **Views**, or **Groupings**.
+1. Click **[!UICONTROL Interface]**, then click one of the following: **[!UICONTROL Filters]**, **[!UICONTROL Views]**, or **[!UICONTROL Groupings]**.
 
-1. (Conditional) Select the filter, view, or grouping that you want to make available to users, then click **Enable system-wide**.
+1. (Conditional) Select the filter, view, or grouping that you want to make available to users, then click **[!UICONTROL Enable system-wide]**.
 
 ![](assets/enable-system-wide-fvg.png)
 
@@ -100,10 +100,10 @@ These steps explain how to make filters, views, and groupings available from the
 
 {{step-1-to-setup}}
 
-1. Click **[!UICONTROL Interface]**, then click one of the following: **Filters**, **Views**, or **Groupings**.
+1. Click **[!UICONTROL Interface]**, then click one of the following: **[!UICONTROL Filters]**, **[!UICONTROL Views]**, or **[!UICONTROL Groupings]**.
 
-1. Select the filter, view, or grouping that you want to make available to users, then click **[!UICONTROL Share]** <span class="preview">(or the Share icon ![Share icon](assets/share-icon.png))</span> to open the Filter Access, View Access, or Grouping Access form.
-1. (Conditional) To make the filter, view, or grouping available to all users in the system, click the **Gear** drop-down menu ![](assets/gear-menu-for-sharing-items.png), then click **[!UICONTROL Make this visible system-wide]**. All users in the system can now see the filter, view, or grouping.
+1. Select the filter, view, or grouping that you want to make available to users, then click **[!UICONTROL Share]** <span class="preview">(or the [!UICONTROL Share] icon ![Share icon](assets/share-icon.png))</span> to open the [!UICONTROL Filter Access], [!UICONTROL View Access], or [!UICONTROL Grouping Access] form.
+1. (Conditional) To make the filter, view, or grouping available to all users in the system, click the **[!UICONTROL Gear]** drop-down menu ![](assets/gear-menu-for-sharing-items.png), then click **[!UICONTROL Make this visible system-wide]**. All users in the system can now see the filter, view, or grouping.
 
    Or
 
@@ -111,7 +111,7 @@ These steps explain how to make filters, views, and groupings available from the
 
    For more information about sharing, see [Overview of sharing permissions on objects](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
-1. Click **Save**.
+1. Click **[!UICONTROL Save]**.
 
    Users that you specified can now see the default filter, view, or grouping when viewing the object type that you associated it with.
 

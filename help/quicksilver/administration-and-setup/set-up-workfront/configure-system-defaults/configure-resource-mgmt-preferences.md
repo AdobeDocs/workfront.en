@@ -9,13 +9,13 @@ feature: System Setup and Administration
 role: Admin
 exl-id: 7cde2238-cb34-4bee-baba-69d256a3912d
 ---
-# Configure Resource Management preferences
+# Configure [!UICONTROL Resource Management] preferences
 
 <!--Linked to lots of articles for resource planning and LINKED TO CONTEXT SENSITIVE HELP - DO NOT CHANGE OR REMOVE!</p>
 Edit the first part, once they add more settings in the Res Management Preferences - right now, only the FTE calculation is the
 -->
 
-As an [!DNL Adobe Workfront] administrator you can configure the Resource Management Preferences for your system. These Resource Management preferences determine how user availability or capacity and FTE are calculated for the [!DNL Workfront] resource scheduling and planning tools.
+As an [!DNL Adobe Workfront] administrator you can configure the [!UICONTROL Resource Management] Preferences for your system. These                  preferences determine how user availability or capacity and FTE are calculated for the [!DNL Workfront] resource scheduling and planning tools.
 
 For information about planning and scheduling resources in [!DNL Workfront], see [Get started with Resource Management](../../../resource-mgmt/resource-mgmt-overview/get-started-resource-management.md).
 
@@ -28,12 +28,12 @@ You must have the following to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
    <td>Any</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe [!DNL Workfront] license</td> 
-   <td>Plan</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] license</td> 
+   <td>[!UICONTROL Plan]</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
@@ -42,15 +42,15 @@ You must have the following to perform the steps in this article:
  </tbody> 
 </table>
 
-## Configure Resource Management preferences
+## Configure [!UICONTROL Resource Management] preferences
 
 >[!NOTE]
 >
 >Because this is a global setting, this selection affects all the calculations for the entire system, for all users, in all the resource management tools, and for all Resource Pools.
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
-1. Click **Resource Management**.
-1. Select one of the following methods to calculate the availability of users in Workfront:
+1. Click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Workfront], then click **[!UICONTROL Setup]** ![](assets/gear-icon-settings.png).
+1. Click **[!UICONTROL Resource Management]**.
+1. Select one of the following methods to calculate the availability of users in [!DNL Workfront]:
 
    * **The Default Schedule**: [!DNL Workfront] uses the Default Schedule of the system and the individual FTE of the user to calculate the Available Hours of the user in resource management tools.\
 
@@ -105,4 +105,4 @@ You must have the following to perform the steps in this article:
       User Weekly Available FTE = (30-2) / 40 = 0.70
       ```
 
-1. Click **Save**.
+1. Click **[!UICONTROL Save]**.

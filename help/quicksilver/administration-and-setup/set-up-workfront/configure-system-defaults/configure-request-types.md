@@ -24,12 +24,12 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
    <td>Any</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe [!DNL Workfront] license</td> 
-   <td>Plan</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] license</td> 
+   <td>[!UICONTROL Plan]</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
@@ -59,28 +59,28 @@ You must have at least one request type selected. You can select multiple reques
 
 As a [!DNL Workfront] administrator, you can configure the names of the request types in your system. The new names are visible in any area of [!DNL Workfront] where the **[!UICONTROL Issue Type]** or **[!UICONTROL Request Type]** fields display:
 
-* In the **[!UICONTROL Queue] Details** area of a project that will receive the issues or requests.
+* In the **[!UICONTROL Queue Details]** area of a project that will receive the issues or requests.
 * If more than one request type is selected for a Request Queue, in the **[!UICONTROL New Issue] Form** in the **[!UICONTROL Issue Type]** field, when you create a new issue or submit a new request.
 
    For more information about creating issues in [!DNL Workfront], see  [Create issues](../../../manage-work/issues/manage-issues/create-issues.md)
 
-   For more information about creating requests in [!DNL Workfront], see  [Create and submit [!DNL Adobe] Workfront requests](../../../manage-work/requests/create-requests/create-submit-requests.md).
+   For more information about creating requests in [!DNL Workfront], see  [Create and submit [!DNL Adobe Workfront] requests](../../../manage-work/requests/create-requests/create-submit-requests.md).
 
-* On the **Queue Topic Detail** form, when you configure the Queue Topic.\
+* On the **[!UICONTROL Queue Topic Detail]** form, when you configure the Queue Topic.\
    For more information about creating Queue Topics, see [Create Queue Topics](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
 
 To customize the names of the request types:
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe] Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
+1. Click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe Workfront], then click **[!UICONTROL Setup]** ![](assets/gear-icon-settings.png).
 
-1. Click **Project Preferences** > **Statuses**.
+1. Click **[!UICONTROL Project Preferences]** > **[!UICONTROL Statuses]**.
 
-1. Click the **Issues** tab.
-1. At the top of the **Issues** tab, hover over the name of a request type, then click the **Edit** icon that appears.
+1. Click the **[!UICONTROL Issues]** tab.
+1. At the top of the **[!UICONTROL Issues]** tab, hover over the name of a request type, then click the **[!UICONTROL Edit]** icon that appears.
 
    ![](assets/edit-request-type-name-nwe.png)
 
-1. In the box that appears, type a new name, then press **Enter**.
+1. In the box that appears, type a new name, then press **[!UICONTROL Enter]**.
 
 ## Configure issue statuses within different request types
 

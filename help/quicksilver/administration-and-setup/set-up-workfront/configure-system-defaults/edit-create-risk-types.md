@@ -24,12 +24,12 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
    <td>Any</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe [!DNL Workfront] license</td> 
-   <td>Plan</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] license</td> 
+   <td>[!UICONTROL Plan]</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
@@ -51,16 +51,16 @@ Some risk types are already in [!DNL Workfront], by default. To reflect the need
 
 ### Edit existing risk types {#edit-existing-risk-types}
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe] Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
+1. Click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe Workfront], then click **[!UICONTROL Setup]** ![](assets/gear-icon-settings.png).
 
-1. Click **Risk Types**.
+1. Click **[!UICONTROL Risk Types]**.
 1. Select the risk type you want to edit.
-1. Click **Edit**.
+1. Click **[!UICONTROL Edit]**.
 1. (Optional) Change the name and the description of the risk type.
 
-   There is a character limit of 50 characters for the **Name** and the **Description** fields.
+   There is a character limit of 50 characters for the **[!UICONTROL Name]** and the **[!UICONTROL Description]** fields.
 
-1. Click **Save Changes.**
+1. Click **[!UICONTROL Save Changes].**
 
 ### Create new risk types {#create-new-risk-types}
 
@@ -68,15 +68,15 @@ You can create new risk types, in addition to the default ones, to reflect the n
 
 To create a new risk type:
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe] Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
+1. Click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe Workfront], then click **[!UICONTROL Setup]** ![](assets/gear-icon-settings.png).
 
-1. Click **Risk Types**.
-1. Click **New Risk Type**.
-1. Type a **Name** (required) and a **Description** (optional) for the risk type.
+1. Click **[!UICONTROL Risk Types]**.
+1. Click **[!UICONTROL New Risk Type]**.
+1. Type a **[!UICONTROL Name]** (required) and a **[!UICONTROL Description]** (optional) for the risk type.
 
-   There is a character limit of 50 characters for the **Name** and the **Description** fields.
+   There is a character limit of 50 characters for the **[!UICONTROL Name]** and the **[!UICONTROL Description]** fields.
 
-1. Click **Create Risk Type**. If you used in-line edit to add your risk type, click **Enter** when you are done.
+1. Click **[!UICONTROL Create Risk Type]**. If you used in-line edit to add your risk type, click **[!UICONTROL Enter]** when you are done.
 
    >[!NOTE]
    >

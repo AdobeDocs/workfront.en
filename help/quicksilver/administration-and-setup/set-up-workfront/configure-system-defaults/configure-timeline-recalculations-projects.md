@@ -26,12 +26,12 @@ You must have the following to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
    <td>Any</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe [!DNL Workfront] license</td> 
-   <td>Plan</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] license</td> 
+   <td>[!UICONTROL Plan]</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
@@ -44,7 +44,7 @@ You must have the following to perform the steps in this article:
 
 As an [!DNL Adobe Workfront] administrator, you can configure when [!DNL Workfront] automatically recalculates project timelines. [!DNL Workfront] can recalculate project timelines either every night or when the project scope changes, or both.
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
+1. Click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) in the upper-right corner of Workfront, then click **[!UICONTROL Setup]** ![](assets/gear-icon-settings.png).
 
 1. Click **[!UICONTROL Project Preferences]** > **[!UICONTROL Projects].**
 
@@ -52,14 +52,14 @@ As an [!DNL Adobe Workfront] administrator, you can configure when [!DNL Workfro
 
    * **Every night:** [!DNL Workfront&#x200B;&#x200B;&#x200B;] recalculates timelines at night only for projects that have a status of [!UICONTROL Current] and were updated in the past three months.
 
-      In this case, [!DNL Workfront] recalculates the timeline for all projects that have an Update Type of Automatic or Automatic and On Change.
+      In this case, [!DNL Workfront] recalculates the timeline for all projects that have an [!UICONTROL Update Type] of [!UICONTROL Automatic] or [!UICONTROL Automatic and On Change].
 
    * **When a project's scope changes**: For information about what constitutes a project scope change, see [Recalculate project timelines](../../../manage-work/projects/manage-projects/recalculate-project-timeline.md).
 
-      In this case, [!DNL Workfront] recalculates the timeline for all projects that have an Update Type of [!UICONTROL Automatic] and On Change or On Change Only.
+      In this case, [!DNL Workfront] recalculates the timeline for all projects that have an Update Type of [!UICONTROL Automatic and On Change] or [!UICONTROL On Change Only].
    For information about project Update Types, see [Project Update Type overview](../../../manage-work/projects/planning-a-project/project-update-type-overview.md).
 
-1. Click **Save**.
+1. Click **[!UICONTROL Save]**.
 
    The timeline of all projects in the system recalculates automatically based on the Update Type of each project.
 
