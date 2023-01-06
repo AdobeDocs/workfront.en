@@ -152,6 +152,7 @@ For more information about sharing folders, see [Share a top-level document fold
 
 ## Workfront Campaigns (Beta) – a new way to manage your work
 
+>[!NOTE]
 >
 >This feature is planned to be removed from Preview on January 9, 2023. For more information, see the [23.1 Release overview page](/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-release-overview.md).
 
