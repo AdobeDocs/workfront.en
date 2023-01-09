@@ -58,10 +58,3 @@ Two new functions are now available in the mapping panel.
    * An array of elements that are contained in one array or the other, but not both.
 
   For more information, see [Array functions in Adobe Workfront Fusion](../../../workfront-fusion/functions/array-functions.md).
-
-<!--
-<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<p><iframe class="vimeo-player_0" src="assets/580431792?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe> </p>
-<p><a href="https://vimeo.com/580431792/7edc0f6d48" target="_blank">Watch a video demonstration of this feature.</a> </p>
-</div>
--->

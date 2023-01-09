@@ -35,15 +35,11 @@ For more information, see the section [Start creating a custom form](../../../ad
 >* For section breaks in custom forms, we've created a set of common viewing and editing permissions that work for all object types that you can configure for a form. In one scenario, we found that one of these permissions, Limited Edit, might cause errors on a form. This was fixed on March 24. For more information about section breaks, see [Add a section break to a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-section-break-to-a-custom-form.md).
 >
 
-[Watch a video demonstration of this feature.](https://vimeo.com/686898305/86fc383bc3)
-
 ## Blueprints catalog is available to all users, and administrators can allow requests
 
 All Adobe Workfront users can now browse the catalog of available blueprints. For more information, see [Browse the blueprints catalog and request installation of blueprints](../../../administration-and-setup/blueprints/browse-catalog.md).
 
 Additionally, the system administrator can enable access for users to request installation of blueprints. Assigning a request queue to store the requests allows users to make requests from the blueprints catalog. For more information, see [Configure access to blueprints](../../../administration-and-setup/blueprints/configure-access-to-blueprints.md).
-
-[Watch a video demonstration of this feature.](https://vimeo.com/686442426/10adf97900)
 
 ## Add an image to a custom form
 
@@ -59,11 +55,9 @@ Previously, custom forms were completely text based.
 
 For more information, see [Add or edit an asset widget in a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
 
-[Watch a video demonstration of this feature.](https://vimeo.com/687162516/4f765595de)
-
 ## New default access level configurations
 
-To better suit the needs of most administrators who create new access levels, we have changed the default configuration for the “Fine-tune your settings” options listed below. These display when you click the gear icon ![](assets/gear-icon-in-access-levels.png) on an Edit button.
+To better suit the needs of most administrators who create new access levels, we have changed the default configuration for the "Fine-tune your settings" options listed below. These display when you click the gear icon ![](assets/gear-icon-in-access-levels.png) on an Edit button.
 
 All of these changes disable an option that was previously enabled by default. If this doesn't suit the needs of your organization, you can enable them when you are setting up a new access level, or any time later.
 
@@ -86,8 +80,6 @@ All of these changes disable an option that was previously enabled by default. I
 
    * Share System-wide is now disabled for filters.
 
-[Watch a video demonstration of this feature.](https://vimeo.com/670799553/3446ee44df)
-
 ## Deactivate a group
 
 As your internal organizations change, you might need to stop using certain groups in Workfront and create new ones. To help with this, we have added the ability to deactivate a group without losing its historical data. For regular users who don't need to see them, inactive groups are cleared from group type-ahead fields.
@@ -97,8 +89,6 @@ You can still find and configure options, preferences, and object associations f
 Previously, it wasn't possible to deactivate a group.
 
 For more information, see [Deactivate or reactivate a group](../../../administration-and-setup/manage-groups/create-and-manage-groups/deactivate-or-reactivate-a-group.md).
-
-[Watch a video demonstration of this feature.](https://vimeo.com/686912349/0333c2a15a)
 
 ## Blueprints installation history enhancements
 

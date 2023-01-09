@@ -34,8 +34,6 @@ The following are some of the features we added with this update:
 
 For more information, see [Delegate task and issue overview](/help/quicksilver/manage-work/delegate-work/delegate-work-overview.md).
 
-[View a video demonstration of this feature.](https://vimeo.com/718488650/fe7b66130a)
-
 ## New experience when converting an issue to a task
 
 To make your use of Workfront consistent with the new Workfront experience, we have redesigned the interface for converting an issue to a task.
@@ -59,23 +57,17 @@ In addition to an updated user interface that matches the rest of the new Workfr
 
 For more information, see [Convert an issue to a project in Adobe Workfront](/help/quicksilver/manage-work/issues/convert-issues/convert-issue-to-project.md).
 
-[View a video demonstration of this feature.](https://vimeo.com/716452754/e03564fc4c)
-
 ## Smart tagging in the update stream
 
 We have improved tagging users in the update stream when you create a new update or reply to an existing one. Now, when you tag a user to include them in an update, in addition to their name and avatar, we also display their Primary Role and their email. This helps distinguish between multiple users with similar or identical names.
 
 For more information, see [Tag others on updates](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
 
-[View a video demonstration of this feature.](https://vimeo.com/711673770/c31a3a90a9)
-
 ## New syntax for calculations in custom fields
 
 To prepare for future enhancements that will help you add calculations to custom forms, we have standardized the syntax for referenced fields that you add to a calculation. It's easy to use this new syntax because the system enters it for you when you start typing the name of a field and then select it.
 
 For more information, see the section "Build the calculation for your calculated custom field" in the [article Add calculated data to a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
-
-[View a video demonstration of this feature.](https://vimeo.com/706579702/e18bec3c6d)
 
 ## Keep accurate information when two users with a common role are involved in an approval process
 
@@ -86,8 +78,6 @@ Some approval processes require approval from two different roles, and two diffe
 Prior to this change, both approvals were recorded for the second user because they shared one of the approval roles with the first approver. In this case, the second approver was overwriting the first approver's information.
 
 For more information about approval processes in Workfront, see [Approval process overview](/help/quicksilver/review-and-approve-work/manage-approvals/approval-process-in-workfront.md).
-
-[View a video demonstration of this feature.](https://vimeo.com/702155550/6502afacd2)
 
 ## Allocation hours will no longer be removed when making changes to assignments
 
@@ -108,8 +98,6 @@ The following changes have been made to tasks with a Simple Duration Type:
     
 
 For more information about Planned Hours, see [Planned Hours overview](/help/quicksilver/manage-work/tasks/task-information/planned-hours.md).
-
-[View a video demonstration of this feature.](https://vimeo.com/701739033/f3e79c6e4e)
 
 ## Boards enhancements
 
@@ -138,8 +126,6 @@ The following enhancements have been added to Adobe Workfront boards:
 
 For more information, see [Get started with boards in Adobe Workfront](/help/quicksilver/agile/get-started-with-boards/get-started-with-boards.md).
 
-[View a video demonstration of this feature.](https://vimeo.com/716563308/0035210326)
-
 ## Share folders only in the top five levels of a folder hierarchy
 
 To ensure the best performance for users sharing folders, we are currently limiting sharing to the top five levels in a folder hierarchy on an object.
@@ -147,8 +133,6 @@ To ensure the best performance for users sharing folders, we are currently limit
 Each folder at the sixth level or below inherits its sharing configurations from the folder directly above it.
 
 For more information about sharing folders, see [Share a top-level document folder](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/share-a-document-folder.md).
-
-[View a video demonstration of this feature.](https://vimeo.com/675978565/1901e4a8a1)
 
 ## Workfront Campaigns (Beta) – a new way to manage your work
 
@@ -190,4 +174,3 @@ The following features are included with this release:
 
 For more information about the Workfront Campaigns beta, as well as information about new features as they release to Preview, [Campaigns beta](/help/quicksilver/product-announcements/betas/campaign-object-beta.md).
 
-[View a video demonstration of this feature.](https://vimeo.com/718797040/8d8bf8b137)
