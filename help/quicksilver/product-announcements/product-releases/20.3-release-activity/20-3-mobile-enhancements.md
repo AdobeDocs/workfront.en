@@ -21,12 +21,6 @@ Previous Workfront Fusion customers can expect greater power, speed, usability, 
 
 For more information, see [Adobe Workfront Fusion](../../../workfront-fusion/workfront-fusion-2.md).
 
-## Zoom integration in the Updates area
-
-Make your video meetings a part of what you do in Workfront by starting Zoom meetings from the Updates area. Click the Zoom icon to insert a meeting URL into a comment and tag co-workers to notify them about the meeting. To join, they can simply click the link.
-
-For more information, see [Zoom integration overview](../../../workfront-integrations-and-apps/zoom-integration-with-wf/zoom-integration-overview.md).
-
 ## Introducing Workfront for MobileIron
 
 Workfront has partnered with MobileIron, a Mobile Device Management (MDM) platform, to provide organizations a more secure and controlled mobile experience.

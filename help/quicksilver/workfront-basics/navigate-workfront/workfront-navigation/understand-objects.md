@@ -44,7 +44,6 @@ The following are some of the most commonly used objects in [!DNL Workfront] and
 | [!UICONTROL Documents] | [!UICONTROL Tasks], [!UICONTROL Issues], [!UICONTROL Projects], [!UICONTROL Portfolios], [!UICONTROL Programs], [!UICONTROL Users] |  |
 | [!UICONTROL Plans]* |  | [!UICONTROL Initiatives] |
 | [!DNL Goals]* |  | [!UICONTROL Results], [!UICONTROL Activities] |
-| <span class="preview">[!UICONTROL Campaigns]</span>** | [!UICONTROL Portfolios], [!UICONTROL Programs] | [!UICONTROL Projects] |
 
 For a complete list of objects in [!DNL Workfront], see the [API Explorer](../../../wf-api/general/api-explorer.md).
 
@@ -52,7 +51,6 @@ For a complete list of objects in [!DNL Workfront], see the [API Explorer](../..
 
 *[!UICONTROL Goals] are the objects of [!DNL Workfront Goals]. For information about [!DNL Workfront Goals], see [[!DNL Adobe Workfront Goals] overview](../../../workfront-goals/goal-management/wf-goals-overview.md).
 
-**<span class="preview">[!UICONTROL Campaigns] are available only in the Preview environment when you participate in the [!UICONTROL Campaigns] beta program. The functionality described here might not be fully available yet. For more information about current available features and how to enroll, see [[!UICONTROL Campaigns] beta](../../../product-announcements/betas/campaign-object-beta.md).</span>
 
 ## Customize object names
 
@@ -95,9 +93,6 @@ As a [!DNL Workfront] administrator, you can customize the names of the followin
 
    **[!UICONTROL Initiatives], [!UICONTROL scenarios], and [!UICONTROL plans] are available only if your company purchased the [!DNL Workfront Scenario Planner]. For information about the [!DNL Scenario Planner], see [Get started with the [!DNL Scenario Planner]](../../../scenario-planner/get-started-with-scenario-planning.md).
 
-* <span class="preview">[!UICONTROL Campaigns]</span>
-
-   <span class="preview">[!UICONTROL Campaigns] are available only in the Preview environment when you participate in the Campaigns beta program. The functionality described here might not be fully available yet. For more information about current available features and how to enroll, see [Campaigns beta](../../../product-announcements/betas/campaign-object-beta.md).</span>
 
 For example, if the larger amount of work in your organization is known as a 'Engagement', you can replace the name '[!UICONTROL Project]' with 'Engagement'. Your [!DNL Workfront] interface shows 'Engagement' instead of '[!UICONTROL Project]' everywhere where the name '[!UICONTROL Project]' would appear.
 
@@ -156,7 +151,6 @@ The following is a list of objects and their corresponding icons in Workfront.
 
 | **Object** | **Icon** | **Customizable object name** |
 |---|---|---|
-| <span class="preview">[!UICONTROL Campaign]</span>* | <span class="preview">![](assets/campaing-icon-without-beta-in-color.png),![](assets/campaing-icon-without-beta-black-and-white.png)</span> | ✔ |
 | [!UICONTROL Company] | ![](assets/company-icon-nwe.png)  , ![](assets/nwe-company-icon-54x54.png) |  |
 | [!UICONTROL Dashboard] | ![](assets/dashboard-icon-nwe.png)  , ![](assets/nwe-dashboards-icon.png) |  |
 | [!UICONTROL Goal] | ![](assets/nwe-goal-icon.png) | ✔ |
@@ -171,8 +165,6 @@ The following is a list of objects and their corresponding icons in Workfront.
 | [!UICONTROL Task] | ![](assets/task-icon-new.png)  , ![](assets/nwe-tasks-icon.png) | ✔ |
 | [!UICONTROL Team] | ![](assets/team-icon-nwe.png), ![](assets/team-icon-nwe-color.png) , ![](assets/nwe-teams-icon.png) |  |
 | [!UICONTROL Template] | ![](assets/template-icon-nwe.png)  , ![](assets/nwe-templates-icon.png) |  |
-
-*<span class="preview">[!UICONTROL Campaigns] are available only in the Preview environment when you participate in the [!UICONTROL Campaigns] beta program. The functionality described here might not be fully available yet. For more information about current available features and how to enroll, see [[!UICONTROL Campaigns] beta](../../../product-announcements/betas/campaign-object-beta.md).</span>
 
 ## Reference Numbers of objects
 

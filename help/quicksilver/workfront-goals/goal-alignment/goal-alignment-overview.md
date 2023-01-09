@@ -91,25 +91,22 @@ Consider the following when working with children and parent goals:
 
 After aligning goals they are part of the same hierarchy and are visible in various areas of Workfront Goals.
 
-<!--drafted for the goal redesign:
-* In the Production enviroment: (and then indent the ones below further)-->
+* In the Production enviroment, you can view children and parent goals in the following areas:
 
-* You can view children and parent goals in the following areas:
+    * The Goal Details panel
+    * Goal List
+    * Goal Alignment section
+    * Check-in section
+    * Pulse section
+    * You can view all the parent goals of a goal in the Goal Hierarchy field of a Project or Goal report.
 
-   * The Goal Details panel
-   * Goal List
-   * Goal Alignment section
-   * Check-in section
-   * Pulse section
-
-* You can view all the parent goals of a goal in the Goal Hierarchy field of a Project or Goal report.
-
-<!--
 <div class="preview">
+
 * In the Preview environment, you can view children and parent goals in the following areas: 
 
   * The Progress Indicators section on a goal's page, under the Type:Goal grouping. 
   * Goal Alignment section of the Goals page. 
+
 </div>
-  -->
+  
   

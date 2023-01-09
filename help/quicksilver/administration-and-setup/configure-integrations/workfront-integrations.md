@@ -22,7 +22,6 @@ This section contains the following articles:
 * [Enable Adobe Workfront for Outlook](../../administration-and-setup/configure-integrations/enable-workfront-for-outlook.md) 
 * [Configure document integrations](../../administration-and-setup/configure-integrations/configure-document-integrations.md) 
 * [Disable document integrations](../../administration-and-setup/configure-integrations/disable-document-integrations.md) 
-* [Install the Zoom integration](../../administration-and-setup/configure-integrations/enable-zoom-integration.md) 
 * [Configure the SharePoint integration](../../administration-and-setup/configure-integrations/configure-sharepoint-integration.md) 
 * [Set up metadata mapping](../../administration-and-setup/configure-integrations/set-up-metadata-mapping.md)
 

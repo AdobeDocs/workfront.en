@@ -273,21 +273,6 @@ Workfront provides the following built-in integrations at no additional cost:
    <td>&nbsp;</td> 
    <td>&nbsp;</td> 
   </tr> 
-  <tr> 
-   <td> <p>Zoom</p> <p> <img src="assets/zoom-logo.png"> </p><p>NOTE: The Zoom integration will be deprecated with the 22.4 release (September 2022).</p> </td> 
-   <td> 
-    <ul> 
-     <li>Start a Zoom meeting as you collaborate in Workfront by inserting a Zoom link into a comment or a reply in the Updates area</li> 
-    </ul> <p>For more information, see <a href="../../workfront-integrations-and-apps/zoom-integration-with-wf/zoom-integration-overview.md" class="MCXref xref">Zoom integration overview</a>.</p> </td> 
-   <td> 
-    <ul> 
-     <li>Must be enabled in the Setup area by a Workfront administrator</li> 
-    </ul> </td> 
-   <td> 
-    <ul> 
-     <li>Workfront administrator </li> 
-    </ul> </td> 
-  </tr> 
  </tbody> 
 </table>
 
