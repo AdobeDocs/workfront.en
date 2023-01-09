@@ -31,11 +31,11 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
    <td>Any</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe [!DNL Workfront] license</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] license</td> 
    <td>Plan</td> 
   </tr> 
   <tr> 
@@ -47,11 +47,11 @@ You must have the following access to perform the steps in this article:
 
 ## Solution
 
-1. When editing the **ADFS INFO**, in the **Relying Party Trusts**> Select object >**[!UICONTROL Edit] Claim Rules.**
+1. When editing the **[!UICONTROL ADFS INFO]**, in the **[!UICONTROL Relying Party Trusts]** > Select object >**[!UICONTROL Edit Claim Rules]**.
 
-1. The **LDAP Attribute** (left column) should have **E-Mail Addresses** (or any unique identifier).
+1. The **[!UICONTROL LDAP Attribute]** (left column) should have **[!UICONTROL E-Mail Addresses]** (or any unique identifier).
 
-1. The **Outgoing Claim Type** (right column) should be **Name ID**.
+1. The **[!UICONTROL Outgoing Claim Type]** (right column) should be **[!UICONTROL Name ID]**.
 
    >[!NOTE]
    >

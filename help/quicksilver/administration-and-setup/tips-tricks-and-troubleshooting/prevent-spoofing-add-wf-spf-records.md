@@ -25,11 +25,11 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
    <td>Any</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe [!DNL Workfront] license</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] license</td> 
    <td>Plan</td> 
   </tr> 
   <tr> 
@@ -64,6 +64,6 @@ If you already added the IP addresses to your allowlist for your production envi
    * exists (https://dmarcian.com/spf-syntax-table/#exists)
    * include (https://dmarcian.com/spf-syntax-table/#include)
 
-   For example, “v=spf1 a mx include: [spf.workfront.com](http://spf.workfront.com/) -all”
+   For example, "v=spf1 a mx include: [spf.workfront.com](http://spf.workfront.com/) -all"
 
 If you cannot add SPF records to your firewall due to company policy, please work with your [!DNL Workfront] Support Representative.

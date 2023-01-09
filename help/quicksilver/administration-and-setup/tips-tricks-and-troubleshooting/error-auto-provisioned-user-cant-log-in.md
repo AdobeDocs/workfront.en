@@ -29,11 +29,11 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
    <td>Any</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe [!DNL Workfront] license</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] license</td> 
    <td>Plan</td> 
   </tr> 
   <tr> 
@@ -47,11 +47,11 @@ You must have the following access to perform the steps in this article:
 
 Create a basic access level with a Request license:
 
-1. Go to **[!UICONTROL Setup]** > **[!UICONTROL Access] Levels**.
+1. Go to **[!UICONTROL Setup]** > **[!UICONTROL Access Levels]**.
 
-1. Click **New Access Level**.
-1. Enter a **Name**.
-1. In the **License Type** drop-down menu, select Request.
-1. Click **Save Changes**.
+1. Click **[!UICONTROL New Access Level]**.
+1. Enter a **[!UICONTROL Name]**.
+1. In the **[!UICONTROL License Type]** drop-down menu, select Request.
+1. Click **[!UICONTROL Save Changes]**.
 
 After you create an access level with a Request license, have the user log in with their SSO credentials.

@@ -31,11 +31,11 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
    <td>Any</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe [!DNL Workfront] license</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] license</td> 
    <td>Plan</td> 
   </tr> 
   <tr> 
@@ -49,12 +49,12 @@ You must have the following access to perform the steps in this article:
 
 ### Solution
 
-1. In Windows, click **Start** > **Administration** > **ADFS 2.0 Management**.\
+1. In Windows, click **[!UICONTROL Start]** > **[!UICONTROL Administration]** > **[!UICONTROL ADFS 2.0 Management]**.\
    The ADFS 2.0 Management dialog box is displayed.
 
 1. Select **[!UICONTROL Trust Relationship]** > **[!UICONTROL Relying Party Trusts]** in the left-hand pane.
 
-1. Right-click on the relying party trust related to [!DNL Adobe Workfront], then select **Properties**.
+1. Right-click on the relying party trust related to [!DNL Adobe Workfront], then select **[!UICONTROL Properties]**.
 1. Click on the **[!UICONTROL Advanced]** tab, then select **[!UICONTROL SHA-1]** from the **[!UICONTROL Secure hash algorithm]** drop-down menu.\
    ![](assets/1-350x287.png)
 
@@ -62,24 +62,24 @@ You must have the following access to perform the steps in this article:
 
 ### Solution
 
-The [!UICONTROL Workfront SSO Setup] Page lists the certificate expiration date. If the certificate is about to expire, you need to manually pull the New Signing Certificate from the ADFS Server:
+The [!DNL Workfront] SSO Setup Page lists the certificate expiration date. If the certificate is about to expire, you need to manually pull the New Signing Certificate from the ADFS Server:
 
-1. In Windows, click **Start** > **Administration** > **ADFS 2.0 Management**.\
+1. In Windows, click **[!UICONTROL Start]** > **[!UICONTROL Administration]** > **[!UICONTROL ADFS 2.0 Management]**.\
    The ADFS 2.0 Management dialog box is displayed.
 
 1. Select **[!UICONTROL Trust Relationship]** > **[!UICONTROL Relying Party Trusts]** in the left-hand pane.
 
-1. Right-click on the relying party trust related to [!DNL Workfront], and select **Properties**.
-1. Click on the **Signature** tab.
-1. Click on the name of the Signing Certificate, and click **View**.
-1. Click Copy to **File**..., and select **Next**.
+1. Right-click on the relying party trust related to [!DNL Workfront], and select **[!UICONTROL Properties]**.
+1. Click on the **[!UICONTROL Signature]** tab.
+1. Click on the name of the Signing Certificate, and click **[!UICONTROL View]**.
+1. Click Copy to **[!UICONTROL File]**..., and select **[!UICONTROL Next]**.
 
-1. Select **Base-64 encoded x.509 (CER)**, and click **Next**.
+1. Select **[!UICONTROL Base-64 encoded x.509 (CER)]**, and click **[!UICONTROL Next]**.
 
-1. Specify the file name, and click **Next**.
-1. Click **Finish**.
+1. Specify the file name, and click **[!UICONTROL Next]**.
+1. Click **[!UICONTROL Finish]**.
 1. In [!DNL Workfront], navigate to **[!UICONTROL Setup]** > **[!UICONTROL System]** > **[!UICONTROL Single Sign-On (SSO)]** and manually upload the Signing Certificate.
 
 ## Cause 3: Certificate revocation check is failing
 
-The solution for this depends on the version of [!DNL Microsoft] ADFS that you are using. Consult Microsoft's documentation to obtain the appropriate commands for your version.
+The solution for this depends on the version of [!DNL Microsoft] ADFS that you are using. Consult [!DNL Microsoft]'s documentation to obtain the appropriate commands for your version.

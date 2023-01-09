@@ -37,28 +37,28 @@ This article explains how to find the object and then resolve the problem in one
 
 ## Find the object where the custom forms are attached {#find-the-object-where-the-custom-forms-are-attached}
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe] Workfront, then click **Users** ![](assets/users-icon-in-main-menu.png).
+1. Click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe Workfront], then click **[!UICONTROL Users]** ![](assets/users-icon-in-main-menu.png).
 
-1. Click **Custom Forms** > **Fields**.
-1. Apply the **Field List** view to find the calculated field you are trying to modify, and make note of every custom form on which it is used (e.g. Form 1, Form 2, Form 3) .
-1. Click **[!UICONTROL Forms]**, then apply the **Form List** view.
-1. Click the **Filter** drop-down list, then **New Filter**.
+1. Click **[!UICONTROL Custom Forms]** > **[!UICONTROL Fields]**.
+1. Apply the **[!UICONTROL Field List]** view to find the calculated field you are trying to modify, and make note of every custom form on which it is used (e.g. Form 1, Form 2, Form 3) .
+1. Click **[!UICONTROL Forms]**, then apply the **[!UICONTROL Form List]** view.
+1. Click the **[!UICONTROL Filter]** drop-down list, then **[!UICONTROL New Filter]**.
 
 1. Click **[!UICONTROL Add a Filter Rule]**, then start typing "custom form name" and select this value when it displays in the list.
 1. Select **[!UICONTROL Equal]** for the filter modifier, start typing the name of each form you made a note of in Step 1, then select it when it displays.
 
    **Example:** Custom Form Name Equals Form 1, Form 2, Form 3.
 
-1. Click **Save Filter**, then name the new filter, and click **Save Filter**.
+1. Click **[!UICONTROL Save Filter]**, then name the new filter, and click **[!UICONTROL Save Filter]**.
 
 1. In the list of forms, make note of the object type of the filter, such as Task or Issue, that displays in the **[!UICONTROL Type]** column.
 1. On each custom form you found in Step 1, create a new Checkbox custom field with a single default value of Yes.
 
    **Example:** Field 1 on Form 1 = Yes, Field 2 on Form 2 = Yes, Field 3 on Form 3 = Yes. This means "The Calculated Custom Field exists on Form 1," or "The Calculated Custom Field exists on Form 2," and so on.
 
-1. In the **Search icon** ![](assets/search-icon.png) in the upper-right corner of the screen, click **Advanced Search**.
-1. Click the object of your custom form (such as Issue), click **Filter your results**, then click **Add a filter**.
-1. Start typing the name of a Checkbox field in the **[!UICONTROL Start typing field name]** field and select it when it displays in the list, then select **[!UICONTROL Equal]** and type **Yes** (without quotation marks) in the following box.
+1. In the **[!UICONTROL Search icon]** ![](assets/search-icon.png) in the upper-right corner of the screen, click **[!UICONTROL Advanced Search]**.
+1. Click the object of your custom form (such as Issue), click **[!UICONTROL Filter your results]**, then click **[!UICONTROL Add a filter]**.
+1. Start typing the name of a Checkbox field in the **[!UICONTROL Start typing field name]** field and select it when it displays in the list, then select **[!UICONTROL Equal]** and type **[!UICONTROL Yes]** (without quotation marks) in the following box.
 
    **Example:** Field 1 Equal (Case Sensitive) Yes.
 
@@ -95,7 +95,7 @@ This article explains how to find the object and then resolve the problem in one
 
    This time, [!DNL Workfront] should not encounter a conflict.
 
-1. (Optional) Remove the Checkbox fields from the custom forms or delete them from Workfront.
+1. (Optional) Remove the Checkbox fields from the custom forms or delete them from [!DNL Workfront].
 
 ## Make identical edits in the calculation in all of the attached custom forms {#make-identical-edits-in-the-calculation-in-all-of-the-attached-custom-forms}
 
@@ -112,7 +112,7 @@ This article explains how to find the object and then resolve the problem in one
    >
    >The calculations must be identical in all of the attached custom forms.
 
-1. (Optional) Remove the Checkbox fields from the forms or delete them from Workfront.
+1. (Optional) Remove the Checkbox fields from the forms or delete them from [!DNL Workfront].
 
 ## Add a new calculated field containing the edited calculation to one or all of the attached custom forms {#add-a-new-calculated-field-containing-the-edited-calculation-to-one-or-all-of-the-attached-custom-forms}
 

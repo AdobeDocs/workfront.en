@@ -29,6 +29,7 @@ Your Account Executive can submit a request to our Database team to export a dat
 * **Pros**: You get your entire data load, including custom fields, as well as documents that are stored in the system.
 
 * **Cons**: The database file is hard to read: there is no way you can read this file unless you upload it to an [!DNL Postgres] database and re-establish the relationships between the tables. The documents are stored on a separate file server and must be extracted separately using a separate process by the AOS team. In doing so, there is no organization to the documents, and they are all referenced by their GUID.
+
 * **Cost**: There is a cost associated with this download, depending on how long it takes the team to create the file. Check with your AE/ CAE for more information or to get this process started.
 
 ## Export via Kick-Starts

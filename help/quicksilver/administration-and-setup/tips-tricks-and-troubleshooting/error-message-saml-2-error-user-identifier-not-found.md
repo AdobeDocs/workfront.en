@@ -35,11 +35,11 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
    <td>Any</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe [!DNL Workfront] license</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] license</td> 
    <td>Plan</td> 
   </tr> 
   <tr> 
@@ -53,12 +53,12 @@ You must have the following access to perform the steps in this article:
 
 On the ADFS server, make sure there is a claim for name ID:
 
-1. In Windows, click **Start** > **Administration** > **ADFS 2.0 Management**.\
+1. In Windows, click **[!UICONTROL Start]** > **[!UICONTROL Administration]** > **[!UICONTROL ADFS 2.0 Management]**.\
    The ADFS 2.0 Management dialog box is displayed.
 
 1. Select **[!UICONTROL Trust Relationship]** > **[!UICONTROL Relying Party Trusts]** in the left-hand pane.
 
-1. Right-click on the relying party trust related to Adobe Workfront, and select **Edit Claim Rules**.
-1. Verify the claim has an **Outgoing Claim Type** of **Name ID**.
+1. Right-click on the relying party trust related to Adobe Workfront, and select **[!UICONTROL Edit Claim Rules]**.
+1. Verify the claim has an **[!UICONTROL Outgoing Claim Type]** of **[!UICONTROL Name ID]**.
 
 ![1.png](assets/1-350x287.png)

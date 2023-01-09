@@ -18,7 +18,7 @@ I am unable to log in to [!DNL Workfront] and received one of the following erro
 
 * Sorry, you can't access [!DNL Workfront] through this login screen. [!DNL Workfront] is set up for Federated Single Sign-On with SAML 2.0. Please contact your [!DNL Workfront] administrator.
 * That username/password combination wasn't quite right. Make sure your caps lock isn't on and try again.
-* Sorry, you do not have access to Workfront. Please contact your Workfront administrator to get a username and password.
+* Sorry, you do not have access to [!DNL Workfront]. Please contact your [!DNL Workfront] administrator to get a username and password.
 
 ## Solution
 

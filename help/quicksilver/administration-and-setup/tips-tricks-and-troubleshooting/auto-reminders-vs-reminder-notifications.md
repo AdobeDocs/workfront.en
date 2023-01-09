@@ -19,7 +19,7 @@ This article describes the differences between automatic reminders and reminder 
 The following characteristics are specific to automatic reminders:
 
 * Can only be turned on and edited by a [!DNL Workfront] administrator
-* Are triggered on all tasks and issues when they are due, late ,or near the planned completion date
+* Are triggered on all tasks and issues when they are due, late, or near the planned completion date
 * Can only be sent to the assignee, assignee's manager, or the manager of the immediate manager.
 * Cannot not have an email template attached to them.
 

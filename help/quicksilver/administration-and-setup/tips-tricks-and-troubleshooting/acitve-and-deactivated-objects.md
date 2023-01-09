@@ -14,7 +14,7 @@ exl-id: a0617270-e233-4ebe-a5ee-8df7a8a85823
 
 As an [!DNL Adobe Workfront] administrator, you can activate or deactivate objects within the system. We recommend that you never delete the objects that you can deactivate. You should simply deactivate the object to prevent future use and to remove it from the drop-down menus of other objects.
 
-For example, in order to see a certain [!UICONTROL Hour Type], the Hour Type must be active. An inactive or disabled Hour Type does not appear in the Hour Type drop-down menu, but remains in the system to keep the historical record intact of where this Hour Type might have been used in the past.
+For example, in order to see a certain [!UICONTROL Hour Type], the [!UICONTROL Hour Type] must be active. An inactive or disabled [!UICONTROL Hour Type] does not appear in the [!UICONTROL Hour Type] drop-down menu, but remains in the system to keep the historical record intact of where this [!UICONTROL Hour Type] might have been used in the past.
 
 The term 'Active' is used to identify whether certain objects are enabled in the system. In this context, 'Active' is used for the following objects:
 
@@ -26,7 +26,7 @@ For information about activating or deactivating email notifications, see [Confi
 
 ## Hour types
 
-You can activate [!UICONTROL hour] types to allow them to be selected by users when logging time.
+You can activate hour types to allow them to be selected by users when logging time.
 
 For information about activating or deactivating hour types, see [Manage hour types](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/hour-types.md).
 
@@ -90,17 +90,17 @@ For information, see [Create and edit companies](../../administration-and-setup/
 
 A user must be active in order to appear in any type-ahead fields of all other objects when making assignments or sharing them.
 
-You can deactivate [!UICONTROL user]s from the user page, or as you are editing a user.
+You can deactivate users from the user page, or as you are editing a user.
 
 For information about deactivating users, see [Deactivate or reactivate a user](../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md).
 
 >[!IMPORTANT]
 >
->If your organization has been onboarded to the Adobe Business Platform, you must deactivate users through the Adobe Admin Console.
+>If your organization has been onboarded to the [!DNL Adobe Business Platform], you must deactivate users through the [!UICONTROL Adobe Admin Console].
 >
->For instructions on deactivating a user in the Adobe Admin Console, see the section "Remove users" in the article [Manage users individually](https://helpx.adobe.com/enterprise/using/manage-users-individually.html) or contact your Adobe Admin Console Administrator.
+>For instructions on deactivating a user in the [!UICONTROL Adobe Admin Console], see the section "Remove users" in the article [Manage users individually](https://helpx.adobe.com/enterprise/using/manage-users-individually.html) or contact your [!UICONTROL Adobe Admin Console] Administrator.
 >
->For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Business Platform, see [Platform-based administration differences (Adobe Workfront/Adobe Business Platform)](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+>For a list of procedures that differ based on whether your organization has been onboarded to the [!DNL Adobe Business Platform], see [Platform-based administration differences (Adobe Workfront/Adobe Business Platform)](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
 ## Teams
 

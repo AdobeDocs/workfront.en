@@ -25,11 +25,11 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
    <td>Any</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe [!DNL Workfront] license</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] license</td> 
    <td>Plan</td> 
   </tr> 
   <tr> 
@@ -41,7 +41,7 @@ You must have the following access to perform the steps in this article:
 
 ## Solution
 
-1. Go to **Setup** > **System** > **Preferences**.
+1. Go to **[!UICONTROL Setup]** > **[!UICONTROL System]** > **[!UICONTROL Preferences]**.
 
 1. In the **[!UICONTROL Security]** section, ensure the option **[!UICONTROL Collaborate with people without Workfront accounts by using their email address]** is enabled.
 

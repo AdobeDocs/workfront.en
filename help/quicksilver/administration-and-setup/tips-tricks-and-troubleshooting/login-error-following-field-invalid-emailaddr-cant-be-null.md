@@ -14,7 +14,7 @@ exl-id: 15b702cf-61b8-41dc-8253-77cadc69bd80
 
 ## Problem
 
-When I try to log into [!DNL Adobe] [!DNL Workfront] with my URL (https://customerdomain.my.workfront.com), I am redirected to the SAML login portal and then redirected back to Workfront with the following error:
+When I try to log into [!DNL Adobe Workfront] with my URL (https://customerdomain.my.workfront.com), I am redirected to the SAML login portal and then redirected back to [!DNL Workfront] with the following error:
 
 "Let's try that again. The following fields are invalid: emailAddr cannot be null."
 
@@ -24,4 +24,4 @@ This error is caused by an incorrect item in the Map User Attributes area of the
 
 ## Solution
 
-Update the Attribute Mapping for the email address, and click **Save**.
+Update the Attribute Mapping for the email address, and click **[!UICONTROL Save]**.

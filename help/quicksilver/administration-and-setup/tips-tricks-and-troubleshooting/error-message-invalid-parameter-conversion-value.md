@@ -28,7 +28,7 @@ For example, you have a Custom Field formatted as Text.  Now, you want to change
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p><a href="https://www.workfront.com/plans" target="_blank">[!DNL Workfront plan]</a>*</p> </td> 
+   <td role="rowheader"> <p><a href="https://www.workfront.com/plans" target="_blank">[!DNL Workfront] plan</a>*</p> </td> 
    <td>Any</td> 
   </tr> 
   <tr> 
