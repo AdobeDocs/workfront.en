@@ -10,19 +10,15 @@ exl-id: ac0c1271-930d-4e11-81cf-4129214b4178
 # Edit Campaigns
 
 <!--drafted for campaign removal:  
-add this note when campaigns are removed (Jan 9), and take down the article altogether at 23.1 release (the week of Jan. 23 2023 ) 
+take down the article altogether at 23.1 release (the week of Jan. 23 2023 ) -->
+
 >[!IMPORTANT] 
 > 
 ><span class="preview">The functionality described in this article has been deprecated and removed from the Preview environment.  The Workfront Product team is going to review this functionality and include it in a future product release. </span> 
 > 
-> <span class="preview"> This article will also be removed with the 23.1 release. At this time, we recommend that you update any bookmarks accordingly. </span> 
+> <span class="preview"> This article will also be removed with the 23.1 release, in January 2023. At this time, we recommend that you update any bookmarks accordingly. </span> 
 > 
-> <span class="preview"> For information about current feature releases, visit the [Product releases](../../product-announcements/product-releases/product-releases.md) page.</span> 
--->  
-
->[!NOTE]
->
-><span class="preview">The information in this article is available only in the Preview environment when you participate in the Campaigns beta program. The functionality described here might not be fully available yet. For more information about current available features and how to enroll, see [Campaigns beta](../../product-announcements/betas/campaign-object-beta.md).</span>
+> <span class="preview"> For information about current feature releases, visit the [Product releases](../../product-announcements/product-releases/product-releases.md) page.</span>
 
 You can edit information about a campaign after it is created.
 
@@ -108,4 +104,5 @@ Before you begin you must have the following:
    * [!UICONTROL **Entered By**]: This is the name of the user who created the campaign. You cannot edit the [!UICONTROL Entered By] field.
    * [!UICONTROL **Last Update Date**]: This is the date when the campaign was last updated. You cannot edit the [!UICONTROL Last Update Date].
    * [!UICONTROL **Last Updated By**]: This is the name of the user who updated the campaign last. You cannot edit the [!UICONTROL Last Updated By] field.
+
 1. Click [!UICONTROL **Save**].

@@ -3,7 +3,7 @@ content-type: overview
 product-previous: workfront-goals
 product-area: projects
 navigation-topic: results-and-activities
-title: Overview of connecting projects to goals in Adobe Workfront Goals
+title: Add projects to goals in Adobe Workfront Goals
 description: You can connect projects to goals to indicate how the goal progresses, based on the actual progress of the project. The project becomes a progress indicator for the goal. 
 author: Alina
 feature: Workfront Goals
@@ -225,7 +225,7 @@ The following project information is visible at the goal level in the Goal Detai
   <tr>
    <td><span class="preview">Condition</span>
    </td>
-   <td>&lt;span class="preview">The Project shows  a Condition of "New" if there is no progress on the project (when the percent complete of the project is 0%).  &lt;/span>
+   <td> <span class="preview">The Project shows  a Condition of "New" if there is no progress on the project (when the percent complete of the project is 0%).  </span>
    </td>
   </tr>
 </table>
