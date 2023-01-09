@@ -84,5 +84,3 @@ The following features are included with this release:
     
 
 For more information about the Workfront Campaigns beta, as well as information about new features as they release to Preview, [Campaigns beta](/help/quicksilver/product-announcements/betas/campaign-object-beta.md).
-
-[View a video demonstration of this feature.](https://vimeo.com/718797040/8d8bf8b137)

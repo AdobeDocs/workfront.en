@@ -8,6 +8,28 @@ exl-id: 9daa074e-94ce-4825-a058-722e53dbce51
 ---
 # Get started with Adobe Workfront Goals
 
+<!--drafted for P&P new model: the note at the top will need to be replaced with this:
+
+Your organization must have the following to use the functionality described in this article:
+
+* For the legacy plan and license structure: 
+
+  * A Pro or higher [Adobe Workfront plan](https://www.workfront.com/plans). 
+  * An Adobe Workfront Goals license in addition to a Workfront license.
+
+* For the current plan and license structure:
+
+  * An Ultimate plan 
+    
+    Or
+    
+    An additional license for Adobe Workfront Goals for the Prime or Select Adobe Workfront plans. <is there a link we can add here for the plans and what they contain?!>
+
+Contact your Workfront account manager to learn about a Workfront Goals license.
+
+For additional information about access to Workfront Goals, see [Requirements to use Workfront Goals](../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+-->
+
 >[!NOTE]
 >
 >Your organization must have the following to use the functionality described in this article:
@@ -133,9 +155,11 @@ Workfront Goals uses the following main objects:
 
 | Object |Description |
 |---|---|
-| Goal |The overall outcome you wish to achieve. You can create multiple goals for a defined period of time. Each goal has an owner, typically an individual or team (although you can also assign a goal to a group.) |
+| Goal |The overall outcome you wish to achieve. You can create multiple goals for a defined period of time. Each goal has an owner, typically an individual or team (although you can also assign a goal to a group.) You can align goals to one another, to show how the progress on several goals (children goals) influences the progress of another (parent goal). |
 | Result |A metric indicator of goal success. Each goal can have one or more results and their progress indicate the progress of the goal. |
-| Activity |A primary action that needs to take place to gain a result. You can add one or more activities to a goal in order to indicate what work has been planned to achieve that goal. Activities are also important, as this is how you align Workfront projects to goals.|
+| Activity |A primary action that needs to take place to gain a result. You can add one or more activities to a goal in order to indicate what work has been planned to achieve that goal.|
+
+In addition to results and activities, you can also connect projects with goals to show how the progress of projects can drive the progress of the goal.
 
 <!--
 (edit the above bullet when more objects will come)

@@ -17,7 +17,7 @@ The enhancements on this page are available in the Preview environment. This pag
 
 ## Adobe Workfront enhancements
     
-*   [Project enhancements](#project-enhancements)
+*   [Project and Resource Management enhancements](#project-and-resource-management-enhancements)
 
 *   [Agile enhancements](#agile-enhancements)
 
@@ -25,7 +25,7 @@ The enhancements on this page are available in the Preview environment. This pag
 
 *   [Other enhancements](#other-enhancements)
     
-### Project enhancements
+### Project and Resource Management enhancements
 
 <table>
             <col style="width: 50%;" />
@@ -41,11 +41,29 @@ The enhancements on this page are available in the Preview environment. This pag
                         </p>
                     </td>
                 </tr>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Secondary job roles added to the Other Assignments list when bulk assigning items in the Workload Balancer</a><span style="color: #ff0000;"> Coming soon!</span></p>
+                        <p>When bulk assigning users in the Workload Balancer after selecting a job role in the "Role assignment" field, the list of users that populates in the "Other Assignments" list in the "User to assign" field will now display all the job roles associated with each user under their name. Prior to this enhancement, only the user's primary role displayed.</p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                     <p>
+                        </p>
+                        <ul>
+                            <li>
+                                <p>Preview release: January 5, 2023<br /></p>
+                            </li>
+                            <li>
+                                <p><span class="preview">Production release: With the 23.1 release</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Relocation of the "Add users" option on a project</a></p>
                         <p>In preparation for the deprecation and removal of the Resource Scheduling tools, we have relocated the "Add users" option from the Scheduling section of a project to the People section. When adding users to a project, the users who are not associated with items on the project become part of the Project Team.</p>
-                        <p>The Resource Scheduler was removed from the Preview environment on October 20. It will be removed from the Production environment on November 10, 2022.</p>
+                        <p>The Resource Scheduler was removed from the Preview environment on October 20. It will be removed from the Production environment with the 23.1 release.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
                      <p>
@@ -151,7 +169,7 @@ The enhancements on this page are available in the Preview environment. This pag
                         </p>
                         <ul>
                             <li>
-                                <p>Preview release: December 1, 2022<br /></p>
+                                <p>Preview release: December 1, 2022<br /><span style="color: #ff0000;"> This feature has been removed from Preview and will not be released with 23.1.</span></p>
                             </li>
                             <li>
                                 <p>Production release for early opt-in: Unavailable</p>
@@ -512,11 +530,22 @@ Explore the latest updates made to learning programs, learning paths, videos, an
 
 The following functionality is soon to be removed from Workfront:
 
+#### **Deprecation and removal of the Campaigns (Beta) area from the Preview environment**
+
+We are removing the Campaigns (Beta) area from the Preview environment on January 9, 2023. Our Product team is going to review this functionality and include it in a future product release.
+
+At this time, we are making the following changes:
+
+* Remove the Campaigns (Beta) area from the Main Menu and from the Layout templates in the Preview environment. 
+* Remove the Campaigns (Beta) area from the Main Menu and from the Layout Templates in the Production environment for those customers who had it enabled by request. 
+
+Additionally, all articles describing this functionality will also be removed.
+
 #### **List Controls (from the Interface area in Setup)**
 
 List Controls in Setup > Interface will be removed with the 23.1 release. 
 
-Some list control funtionality is moving to the Setup > Interface > Filters/Views/Grouping areas. For more information, see [Create, edit, and share default filters, views, and groupings](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/create-and-share-default-fvgs.md).
+Some list control functionality is moving to the Setup > Interface > Filters/Views/Grouping areas. For more information, see [Create, edit, and share default filters, views, and groupings](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/create-and-share-default-fvgs.md).
 
 #### **Workfront extension for Illustrator and InDesign**
  
@@ -531,7 +560,7 @@ The functionality in this extension, along with several enhancements, is availab
 
 >[!NOTE]
 >
->The Resource Scheduler was removed from the Preview environment on October 20. It will be removed from the Production environment with the 23.1 release in January 2022.
+>The Resource Scheduler was removed from the Preview environment on October 20. It will be removed from the Production environment with the 23.1 release in January 2023.
 
 
 As part of the deprecation of the Resource Scheduling tools, we have removed the following areas: 

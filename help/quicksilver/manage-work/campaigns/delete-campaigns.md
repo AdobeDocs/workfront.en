@@ -8,9 +8,16 @@ exl-id: 01777d5d-6af9-4616-bf2b-a4d12e3332eb
 ---
 # Delete campaigns
 
->[!NOTE]
->
-><span class="preview">The information in this article is available only in the Preview environment when you participate in the Campaigns beta program. The functionality described in the following articles might not be fully available yet. For more information about current available features and how to enroll, see [Campaigns beta](../../product-announcements/betas/campaign-object-beta.md).</span>
+<!--drafted for campaign removal:  
+take down the article altogether at 23.1 release (the week of Jan. 23 2023 ) -->
+
+>[!IMPORTANT] 
+> 
+><span class="preview">The functionality described in this article has been deprecated and removed from the Preview environment.  The Workfront Product team is going to review this functionality and include it in a future product release. </span> 
+> 
+> <span class="preview"> This article will also be removed with the 23.1 release, in January 2023. At this time, we recommend that you update any bookmarks accordingly. </span> 
+> 
+> <span class="preview"> For information about current feature releases, visit the [Product releases](../../product-announcements/product-releases/product-releases.md) page.</span>
 
 You can delete campaigns that are no longer needed.
 
@@ -62,6 +69,7 @@ Before you begin, you must have the following:
 1. Click the [!UICONTROL **Main Menu**] icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Workfront], then click [!UICONTROL **Campaigns**].
 
    A list of all campaigns in the system displays.
+
 1. (Optional) Click the **[!UICONTROL search]** icon ![](assets/search-icon.png) to quickly search for a campaign using a keyword.
 1. Select a campaign, then click the **[!UICONTROL Delete]** icon at the top of the list
 
@@ -70,5 +78,7 @@ Before you begin, you must have the following:
    Click the name of a campaign to open it, then click [!UICONTROL **More**] >[!UICONTROL **Delete**].
 
    ![](assets/campaign-delete-and-edit-options-from-campaign-page.png)
+
 1. Click [!UICONTROL **Delete**].
+
 The campaign is deleted and cannot be recovered.

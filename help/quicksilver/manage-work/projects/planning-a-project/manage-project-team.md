@@ -78,9 +78,13 @@ If users that don't fulfill any role on the project want to be notified about ce
 
  For more information about what notifications can be enabled for users on the project team, see [Event notifications available in Adobe Workfront](../../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md). 
 
+ <!--drafted - this used to be the case, in the note below but this limitation was removed on Jan 5, 2023 - as a patch, not a release feature:
+
 >[!IMPORTANT]
 >
 >You can add to the Project Team only users that belong to the Group associated with the project. You cannot add users that belong to the Subgroups of the project's group. 
+
+-->
 
 1. Go to the project you want to add users to. 
 
@@ -92,7 +96,7 @@ If users that don't fulfill any role on the project want to be notified about ce
 
    ![add_users_dialog.png](assets/add-users-dialog-350x217.png)
 
-1. In the **Add users** box, begin typing the name of the user you want to add to the project team, then click the name when it appears in the drop-down list.
+1. In the **Add users** box, begin typing the name of an active Workfront user that you want to add to the project team, then click the name when it appears in the drop-down list.
 
    Repeat this step to add multiple users to the project team. The users must belong to the group associated with the project. 
 

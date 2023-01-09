@@ -44,7 +44,7 @@ For more information, see [Edit Projects](/help/quicksilver/manage-work/projects
 
 NOTE: Additional user fields for projects, tasks, and issues will be updated with this functionality in future releases.
 
-[View a video demonstration of this feature.](https://vimeo.com/743166837){target=_blank}
+[View a video demonstration of this feature.](https://video.tv.adobe.com/v/3412390/){target=_blank}
 
 ## Calculated date fields are always saved based on Coordinated Universal Time (UTC)
 
@@ -72,7 +72,7 @@ Based on your feedback, we've introduced the following enhancements to improve y
 
     For more information about the Quick Filter, see [Apply the quick filter to a list](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/apply-quick-filter-list.md).
 
-[View a video demonstration of this feature.](https://vimeo.com/736267039)
+[View a video demonstration of this feature.](https://video.tv.adobe.com/v/3412469/){target=_blank}
 
 ## Public Beta - New filter experience for projects, tasks, and issues
 
@@ -123,4 +123,4 @@ We want to deliver value to you iteratively so we will continue to deliver as th
 
 For more information, see [Filters overview in Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/filters-overview.md) and [Create or edit filters in Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-filters.md).
 
-[View a video demonstration of this feature.](https://vimeo.com/731900334/6b6668438f)
+[View a video demonstration of this feature.](https://video.tv.adobe.com/v/3412391/)

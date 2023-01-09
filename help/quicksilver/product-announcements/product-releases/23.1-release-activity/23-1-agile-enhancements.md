@@ -114,7 +114,7 @@ The list of filters on a board now includes the option to filter by connection, 
 
 For more information, see [Filter and search in a board](/help/quicksilver/agile/get-started-with-boards/filter-search-in-board.md).
 
-[View a video demonstration of this feature](https://vimeo.com/764598595){target=_blank}
+[View a video demonstration of this feature](https://video.tv.adobe.com/v/3412381/){target=_blank}
 
 ## Archive cards from a board on a schedule
 
@@ -128,4 +128,4 @@ If you want to display the cards again after they fall off the board, you can se
 
 For more information, see [Configure card falloff](/help/quicksilver/agile/use-boards-agile-planning-tools/configure-card-falloff.md).
 
-[View a video demonstration of this feature](https://vimeo.com/764601030){target=_blank}
+[View a video demonstration of this feature](https://video.tv.adobe.com/v/3412323/){target=_blank}

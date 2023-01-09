@@ -109,7 +109,7 @@ You can filter items in the [!UICONTROL Work List] to see only specific types of
          <li><a href="../../../review-and-approve-work/manage-approvals/view-approvals.md" class="MCXref xref">View approvals</a> </li> 
         </ul> 
         <ul> 
-         <li> <p><a href="../../../review-and-approve-work/manage-approvals/manage-approvals.md" class="MCXref xref">Manage approvals</a> </p> </li> 
+         <li> <p><a href="../../../review-and-approve-work/manage-approvals/manage-approvals.md" class="MCXref xref">Work approvals</a> </p> </li> 
         </ul> 
         <p>Note: Approvals that you submitted and where you are also one of the approvers are counted twice.</p> 
        </div> </td> 

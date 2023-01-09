@@ -30,8 +30,6 @@ We have made several enhancements to the Adobe Workfront top navigation bar.
 
 For more information, see [Top navigation bar overview](../../../workfront-basics/the-new-workfront-experience/global-navigation-overview.md).
 
-[Watch a video demonstration of this feature.](https://vimeo.com/686846367/1a3a08cc4e)
-
 ## Redesigned timesheet lists
 
 To make your use of Workfront consistent with the new Adobe Workfront experience, we have redesigned the timesheet lists in the Timesheets area. You can expect the same functionality in the timesheet list, only with a cleaner, more streamlined user experience.
@@ -43,4 +41,3 @@ Some of the highlights of this redesign are:
 
 For more information about creating timesheets using the new lists, see [Create a single-use timesheet](../../../timesheets/create-and-manage-timesheets/create-tmshts.md).
 
-[Watch a video demonstration of this feature.](https://vimeo.com/686854773/ad09d5d435)

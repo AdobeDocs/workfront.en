@@ -24,8 +24,6 @@ When you assign a group to a project template, all projects created from the tem
 
 Also, you can attach a group approval process to a template and its template tasks if the template is associated with your group. For more information, see [Associate a new or existing approval process with work](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md).
 
-[Watch a video demonstration of this feature.](https://vimeo.com/558295130/1eca3f7378)
-
 ## Easier editing of fields in the Details section
 
 >[!NOTE]
@@ -39,8 +37,6 @@ The following improvements allow you to more easily edit information in the Deta
 
 Prior to this enhancement it was not clear which fields were editable and you had to double-click to edit a field.
 
-[Watch a video demonstration of this feature.](https://vimeo.com/558564446/3c2245362f)
-
 ## Consider cross-project predecessors when calculating handoff dates
 
 With a new improvement in the way Adobe Workfront calculates handoff dates for tasks, the cross-project dependencies are now taken into account.
@@ -50,8 +46,6 @@ Previously, the handoff dates were calculated based only on the predecessors of 
 Now, to ensure you always have an accurate handoff date for a task with a cross-project predecessor, you must recalculate the timeline of the successor task's project. After recalculating the timeline, the handoff dates of the task calculates taking into account the cross-project dependencies of the tasks.
 
 For more information about handoff dates, see [Task Handoff Date overview](../../../manage-work/tasks/task-information/handoff-task-date.md).
-
-[Watch a video demonstration of this feature.](https://vimeo.com/559081014/62ba0a3fcb)
 
 ## Add existing stories and issues from the Scrum board
 
@@ -72,8 +66,6 @@ For more information, see [Add stories and issues from the Scrum board](../../..
 You can now create a new story or issue directly from the Scrum board. This makes it easier to quickly add a new story to your current iteration.
 
 For more information, see [Add stories and issues from the Scrum board](../../../agile/use-scrum-in-an-agile-team/scrum-board/add-story-from-scrum-board.md).
-
-[Watch a video demonstration of this feature.](https://vimeo.com/558298576/02a56bff72)
 
 ## Delete story or issue from the Kanban board
 
@@ -100,8 +92,6 @@ On Kanban and Scrum boards, the following enhancements are now available:
 
 For more information, see [Iterations overview](../../../agile/use-scrum-in-an-agile-team/iterations/iterations-overview.md).
 
-[Watch a video demonstration of this feature.](https://vimeo.com/558299624/9af1e4fdd9)
-
 ## Group project, task, and issue preferences
 
 As we communicated earlier, we rolled out group-level customizations for project, task, and issue preferences in phases leading up to June 24, 2021. Now the rollout is complete and they are available in Production for all customers.
@@ -123,8 +113,6 @@ Previously, you could add external users by email address only in Workfront Clas
 
 For more information, see [Request document approvals](../../../review-and-approve-work/manage-approvals/request-document-approvals.md).
 
-[Watch a video demonstration of this feature.](https://vimeo.com/552623152/acad14e57e)
-
 ## Export information from the Details section of a portfolio or program
 
 >[!NOTE]
@@ -139,8 +127,6 @@ You can now export to a .pdf file information from the Details section of portfo
 
 For information about exporting custom forms from an object, see [Export custom forms and object details](../../../workfront-basics/work-with-custom-forms/export-custom-forms-details.md).
 
-[Watch a video demonstration of this feature.](https://vimeo.com/552598277/c5de0a5c63)
-
 ## Added Planned Completion Date timestamp in the object's header
 
 >[!NOTE]
@@ -152,8 +138,6 @@ To facilitate easy access, convenience as well as accuracy, we have added the op
 Prior to this enhancement, when you updated the Planned Completion Date of an object, Workfront selected midnight as the default time. Now, you can customize the time as well as the completion date.
 
 For information about the object headers in the new Workfront experience, see [New object headers](../../../workfront-basics/the-new-workfront-experience/new-object-headers.md).
-
-[Watch a video demonstration of this feature.](https://vimeo.com/552963773/42e8a756cd)
 
 ## Add a custom form to an object without editing it
 
@@ -167,4 +151,3 @@ Previously, when you added a custom form to an object, the page went into editin
 
 For information about adding a custom form to an object, see [Add a custom form to an object](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
 
-[Watch a video demonstration of this feature.](https://vimeo.com/552596293/0aa3718e83)

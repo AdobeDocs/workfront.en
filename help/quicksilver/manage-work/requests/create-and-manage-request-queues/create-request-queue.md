@@ -2,7 +2,7 @@
 product-area: requests
 navigation-topic: create-and-manage-request-queues
 title: Create a Request Queue
-description: Create a Request Queue
+description: You can set up a Request Queue where users can enter occasional requests that are not planned work on a project.
 author: Alina
 feature: Work Management
 exl-id: 385420aa-0962-4b67-9d0d-b153dcf302cf
@@ -10,12 +10,45 @@ exl-id: 385420aa-0962-4b67-9d0d-b153dcf302cf
 # Create a Request Queue
 
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:&nbsp;THIS IS CONNECTED TO THE PRODUCT IN BLUEPRINTS. DO NOT MOVE/ CHANGE URL)</p>
+<THIS IS CONNECTED TO THE PRODUCT IN BLUEPRINTS. DO NOT MOVE/ CHANGE URL>
 -->
 
 You can set up a Request Queue where users can enter occasional requests that are not planned work on a project. For example, a help desk request queue can be set up to capture all user requests that come to an IT department.
 
 ## Access requirements
+
+<!--drafted for P&P: replace the table below with this:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td> <p>Any </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> 
+   <p>Current license: Stadard </p>
+   Or
+   <p>Legacy license: Plan </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations*</td> 
+   <td> <p>Edit access to Projects</p> <p><b>NOTE</b> 
+   
+   If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p> Manage permissions to the project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+&#42;To find out what plan, license type, or access you have, contact your Workfront administrator
+-->
 
 You must have the following access to perform the steps in this article:
 

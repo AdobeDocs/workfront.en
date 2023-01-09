@@ -20,8 +20,6 @@ Blueprints provides basic building blocks to help you create a work management s
 
 For more information, see [Blueprints overview](../../../administration-and-setup/blueprints/blueprints-overview.md).
 
-[Watch a video demonstration of this feature.](https://vimeo.com/566685401/de35d1c699)
-
 This feature is now included in the [Project templates in the new Workfront experience](https://one.workfront.com/s/learningpath4/project-templates-in-the-new-workfront-experience-MCGLS7GRNLDZDFPF6AEOGIDZFDG4) learning path on Workfront One.
 
 ## New for group administrators: Create and manage statuses for a group at any level
@@ -40,8 +38,6 @@ Previously, this functionality was available only for top-level groups.
 
 For more information, see [Manage group statuses](../../../administration-and-setup/manage-groups/manage-group-statuses/manage-group-statuses.md).
 
-[Watch a video demonstration of this feature.](https://vimeo.com/558294261/ed2ee01b99)
-
 ## New for administrators: Create a billing record custom form
 
 Now you can improve how users capture billing information by creating a billing record custom form. Users can attach the custom form to a billing record, fill it out, and run reports that include the information in the form.
@@ -50,4 +46,3 @@ For information about creating custom forms, see [Create or edit a custom form](
 
 For information about attaching a billing record custom form to a project, see [Add a custom form to an object](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
 
-[Watch a video demonstration of this feature.](https://vimeo.com/552593932/b80cee516f)

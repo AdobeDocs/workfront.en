@@ -25,16 +25,6 @@ Enhanced analytics can help you identify:
 
 To see use cases or learn more about managing current work and planning for future work with Enhanced analytics, see [Enhanced analytics Learning Paths](https://one.workfront.com/s/enhanced-analytics-program).
 
-## Walk-through
-
-View the following video to learn more about Enhanced analytics:
-
-<!--WRITER
-<iframe class="vimeo-player_0" src="assets/448606544?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
--->
-
-[Watch a video demonstration of this feature.](https://vimeo.com/448606544/d75dc842e4)
-
 ## Prerequisites
 
 To access the Enhanced analytics area, you must:

@@ -9,8 +9,6 @@ exl-id: c55e53b5-5559-4b6a-a8d7-5028be6af30f
 ---
 # Use the Milestone view
 
-<span class="preview">The highlighted information in this article is available only in the Preview environment when you participate in the [!UICONTROL Campaigns] beta program. The functionality described here might not be fully available yet. For more information about current available features and how to enroll, see  [Campaigns beta](../../../product-announcements/betas/campaign-object-beta.md).</span>
-
 The Milestone view is available when viewing a project list or project report.
 
 Before you can use the milestone view, Milestones need to be configured, Milestone Paths need to be added to projects, and Milestones need to be associated with tasks, as described in the articles [Create a milestone path](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md) and [Associate milestones with tasks](../../../manage-work/tasks/manage-tasks/associate-milestones-with-tasks.md).
@@ -68,8 +66,6 @@ The Milestone view is available on project lists and project reports. This view 
 >
 >The Milestone view is not available in the following areas:
 >* Timesheets, in the project list when adding a project.
->* Campaigns, in the Projects section of a campaign. 
-> <span class="preview">Campaigns are available only in the Preview environment when you participate in the Campaigns beta program. For more information about current available features and how to enroll, see [Campaigns beta](../../../product-announcements/betas/campaign-object-beta.md).</span>
 
 
 For information about how to switch to the Milestone view, see the section [Switch to the Milestone view](#switch-to-the-milestone-view) in this article.
