@@ -165,7 +165,7 @@ Before you begin, you must have the following:
 
    >[!TIP]
    >
-   >You can click the name of a goal from any section in the Goals area to open the Goal Details panel <span class="preview">or the goal page</span>-->.
+   >You can click the name of a goal from any section in the Goals area to open the Goal Details panel <span class="preview">or the goal page</span>.
 
    <!--above, remove "Goal Details panel" from above at Production--> 
 
