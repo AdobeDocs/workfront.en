@@ -200,9 +200,10 @@ A list of goals displays.
     * Click the **More icon** ![](assets/more-icon.png) to the right of the goal name, then click **Edit**. 
     * Click **Goal details** in the left panel and click the **Edit icon** ![](assets/edit-icon.png) in the upper-right corner, then click **Edit all**. Start updating fields in the Goal details section. 
     
-   >[!IMPORTANT]
-   >
-   >Not all fields that display in the areas mentioned above can be edited. Workfront calculates some of the fields and they are read-only. 
+      >[!IMPORTANT]
+      >
+      >Not all fields that display in the areas mentioned above can be edited. Workfront calculates some of the fields and they are read-only. 
+
 1. (Conditional) Depending on what you selected in the previous step, update the following information about the goal:
 
    * Update the following information in the goal header, then press Enter to save your changes:

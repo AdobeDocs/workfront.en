@@ -10,19 +10,15 @@ exl-id: 941af6ed-edf7-4ad3-a426-831bd3c05297
 # Campaigns beta
 
 <!--drafted for campaign removal:  
-add this note when campaigns are removed (Jan 9), and take down the article altogether at 23.1 release (the week of Jan. 23 2023 ) 
+take down the article altogether at 23.1 release (the week of Jan. 23 2023 ) -->
+
 >[!IMPORTANT] 
 > 
 ><span class="preview">The functionality described in this article has been deprecated and removed from the Preview environment.  The Workfront Product team is going to review this functionality and include it in a future product release. </span> 
 > 
-> <span class="preview"> This article will also be removed with the 23.1 release. At this time, we recommend that you update any bookmarks accordingly. </span> 
+> <span class="preview"> This article will also be removed with the 23.1 release, in January 2023. At this time, we recommend that you update any bookmarks accordingly. </span> 
 > 
-> <span class="preview"> For information about current feature releases, visit the [Product releases](../../product-announcements/product-releases/product-releases.md) page.</span> 
---> 
-
->[!NOTE]
->
-><span class="preview">The information in this article is available only in the Preview environment when you participate in the [!UICONTROL Campaign] beta program. The functionality described here might not be fully available yet.</span> 
+> <span class="preview"> For information about current feature releases, visit the [Product releases](../../product-announcements/product-releases/product-releases.md) page.</span>
 
 [!DNL Adobe Workfront Campaigns] offer a new way to manage your work. As a new object in Workfront, a campaign enables you to organize projects from different portfolios and programs in a new work container that will evolve and which will eventually include all work objects that you are currently managing in separate silos.
 

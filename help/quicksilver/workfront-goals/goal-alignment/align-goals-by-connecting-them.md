@@ -29,7 +29,7 @@ This article describes how you can align goals by connecting them to one another
 
 ## Access requirements
 
-<!-- drfated for the P&P release: 
+<!--drfated for the P&P release: 
 
 You must have the following:
 
