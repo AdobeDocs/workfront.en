@@ -19,8 +19,6 @@ We're excited to announce the launch of our new plugin: Workfront for Adobe XD. 
 To learn more about what you can do with Workfront for Adobe XD, see [Manage work with the Adobe Workfront plugin for Creative Cloud Applications](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-manage-work-toc.md).
 
 
-[Watch a video demonstration of this feature.](https://vimeo.com/542233908/c5a5ab87a7)
-
 ## Search for folders in document integrations
 
 To make it easier for you to navigate your document integrations, we've made it possible to search for folders. Now, when you enter a term in the search bar, Workfront will return documents, folders, and subfolders that contain the search term in their names.
@@ -37,4 +35,3 @@ When linking to, uploading, or creating files on Google Drive from the Documents
 
 Previously, files were accessed through a file dialog based in Workfront.
 
-[Watch a video demonstration of this feature.](https://vimeo.com/521967892/ab11b067b4)

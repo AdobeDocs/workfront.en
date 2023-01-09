@@ -25,8 +25,6 @@ Note that this functionality is available only in the updated lists. For more in
 
 For information about how a Workfront administrator creates text fields with formatting, see [Create or edit a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 
-[Watch a video demonstration of this feature.](https://vimeo.com/434818101/35b3eba8f7)
-
 ## Updated look and feel of several global headers
 
 >[!NOTE]
@@ -36,8 +34,6 @@ For information about how a Workfront administrator creates text fields with for
 The global areas of Projects, Portfolios, Programs and Templates now have an updated header that makes better use of the space on the screen. This update provides more space for the information you work with that you need to focus on.
 
 The Templates link from the Projects area has been removed. You can still access the Templates area from the Main Menu.
-
-[Watch a video demonstration of this feature.](https://vimeo.com/430816911/6a80ede459)
 
 ## New Edit Project box
 
@@ -54,12 +50,10 @@ In addition to an updated look and feel, the following improvements are availabl
 * Commenting functionality is removed from the edit project screen to eliminate redundancy with the Updates section.
 
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">For information about the new Edit Box box, see “New Edit Object box” (NEW ARTICLE, LINK LATER!!).</p>
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">For information about the new Edit Box box, see "New Edit Object box" (NEW ARTICLE, LINK LATER!!).</p>
 -->
 
 For information about the new Edit Project box, see [Edit projects](../../../manage-work/projects/manage-projects/edit-projects.md).
-
-[Watch a video demonstration of this feature.](https://vimeo.com/430814318/4b5e8e2bbf)
 
 ## New Summary panel and Updates improvements for the documents list
 
@@ -72,8 +66,6 @@ The new Summary panel to the right of the documents list is now available with a
 Some actions are currently unavailable but will be added in a future release. These actions include the proofing workflow.
 
 For more information, see [Summary for documents overview](../../../documents/managing-documents/summary-for-documents.md).
-
-[Watch a video demonstration of this feature.](https://vimeo.com/434793918/1fe4743845)
 
 ## Improvements in Document Details
 
@@ -90,8 +82,6 @@ Look for the following improvements in the Document Details page:
 
 For more information, see [Document Details overview](../../../documents/managing-documents/document-details-overview.md).
 
-[Watch a video demonstration of this feature.](https://vimeo.com/434794293/30304e155f)
-
 ## For administrators:&nbsp;Set project preferences at the group level
 
 >[!NOTE]
@@ -104,17 +94,13 @@ All project preferences are customizable at the group level, except for Timeline
 
 For more information about Group Project Preferences, see [Configure project preferences for a group](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md).
 
-[Watch a video demonstration of this feature.](https://vimeo.com/437230282/35f0020656)
-
 ## New for administrators: Create Custom Form fields where users can format text
 
 In a Custom Form, you can now create fields that include text formatting buttons. When users type in these fields, they can highlight and organize their text using bold, italics, and underline. The high character limit of 15,000 allows for plenty of text and formatting.
 
 For more information, see Create a Custom Form in the new Workfront experience.
 
-[Watch a video demonstration of this feature.](https://vimeo.com/430167004/473e27bf55)
-
-## New for administrators: Create both an internal name and a user-facing label for a Custom Form field
+ ## New for administrators: Create both an internal name and a user-facing label for a Custom Form field
 
 To give you more flexibility in labeling and relabeling Custom Form fields, you can now create an internal *name* for a field in addition to the user-facing *label* you've been using. This gives you the freedom to change the field label that your users see without changing the field name that the system sees.
 
@@ -122,4 +108,3 @@ In the past, the label was both displayed above the field for users and used by 
 
 For more information, see [Create or edit a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 
-[Watch a video demonstration of this feature.](https://vimeo.com/434803095/b6a32d6812)

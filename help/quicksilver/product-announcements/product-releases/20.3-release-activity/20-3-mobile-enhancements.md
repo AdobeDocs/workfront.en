@@ -27,8 +27,6 @@ Make your video meetings a part of what you do in Workfront by starting Zoom mee
 
 For more information, see [Zoom integration overview](../../../workfront-integrations-and-apps/zoom-integration-with-wf/zoom-integration-overview.md).
 
-[Watch a video demonstration of this feature.](https://vimeo.com/445059697/9a35e135a8)
-
 ## Introducing Workfront for MobileIron
 
 Workfront has partnered with MobileIron, a Mobile Device Management (MDM) platform, to provide organizations a more secure and controlled mobile experience.
@@ -55,4 +53,3 @@ You can use the pin feature to access saved virtual assistant commands as well a
 
 For more information about both of these features, see [Adobe Workfront mobile app virtual assistant](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mobile-virtual-assistant.md).
 
-[Watch a video demonstration of this feature.](https://vimeo.com/448649564/f04d00ea6d)
