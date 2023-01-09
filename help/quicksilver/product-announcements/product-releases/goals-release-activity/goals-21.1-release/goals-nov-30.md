@@ -22,4 +22,3 @@ To allow you to manage your email notifications in one place, we have moved the 
 
 For more information, see [Notifications: Goals](../../../../workfront-basics/using-notifications/notifications-goals.md).
 
-[Watch a video demonstration of this feature.](https://vimeo.com/486872553/4f503f1d66)

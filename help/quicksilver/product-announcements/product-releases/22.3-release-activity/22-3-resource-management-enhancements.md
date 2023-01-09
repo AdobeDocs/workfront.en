@@ -16,9 +16,9 @@ To improve your experience when using the Workload Balancer, we have introduced 
 
 *   Improved sorting in the Unassigned and Assigned sections.
     
-    You can now sort by users’ names or job roles (in the Unassigned Work area) and by project fields in both the Unassigned and Assigned Work areas.
+    You can now sort by users' names or job roles (in the Unassigned Work area) and by project fields in both the Unassigned and Assigned Work areas.
     
-*   Mousing over tasks or issues displays additional information (project name, Planned Start and End Dates, dependencies, Planned Hours, parent tasks’ names).
+*   Mousing over tasks or issues displays additional information (project name, Planned Start and End Dates, dependencies, Planned Hours, parent tasks' names).
     
 *   The project bars have a new look and feel to make them more easily distinguishable from tasks.
     
@@ -27,4 +27,3 @@ To improve your experience when using the Workload Balancer, we have introduced 
 
 For more information, see [Navigate the Workload Balancer](/help/quicksilver/resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
 
-[View this video in full-screen mode.](https://vimeo.com/716385898/5da48f5343)

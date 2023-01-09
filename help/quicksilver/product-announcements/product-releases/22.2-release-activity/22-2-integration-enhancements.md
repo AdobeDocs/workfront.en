@@ -86,8 +86,6 @@ Previously, all authentication in your custom OAuth2 applications used the user'
 
 For more information, see [Create OAuth2 applications for Workfront integrations](../../../administration-and-setup/configure-integrations/create-oauth-application.md).
 
-[Watch a video demonstration of this feature.](https://vimeo.com/677737747/8fe195bc17)
-
 ## Google G Suite integration now uses OAuth2
 
 For greater security, and to make a more consistent experience across integrations, we've updated the Google G Suite integration to use OAuth2 authentication, an industry-standard way to authenticate users. Now, when your users log in, they can see the specific actions and areas that the integrations have access to, and allow access. After this, they do not need to log in as frequently.

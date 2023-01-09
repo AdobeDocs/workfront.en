@@ -29,4 +29,3 @@ In addition to the insights you can gain, you can also complete actions on tasks
 
 For more information, see [Enhanced analytics overview](../../../enhanced-analytics/enhanced-analytics-overview.md).
 
-[Watch a video demonstration of this feature.](https://vimeo.com/439034612/2a36ac08b8)

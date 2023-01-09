@@ -56,4 +56,3 @@ Previously, you had to generate the proof, then go into the Proofing Workflow ar
 
 For more information, see [Create a proof for a document](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-proof-for-a-document.md).
 
-[Watch a video demonstration of this feature.](https://vimeo.com/434797920/4710a33ec1)

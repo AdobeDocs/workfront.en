@@ -29,8 +29,6 @@ To improve your experience when using the Workload Balancer, we have introduced 
 
 For more information, see [Navigate the Workload Balancer](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
 
-[Watch a video demonstration of this feature.](https://vimeo.com/652568021/b50f671736)
-
 ## Assign work in bulk using the Workload Balancer
 
 In continuing our effort to deprecate the Scheduling tools and replace them with the Workload Balancer, we have added the ability to manage assignments in bulk. You can now assign multiple work items at a time to multiple users, replace users from multiple work items with other users, and unassign users from multiple items at one time. You can perform all these with one action by using the new Bulk Assignment functionality in the Workload Balancer.
@@ -43,12 +41,9 @@ For more information, see [Overview of assigning work in the Workload Balancer](
 
 For information about the deprecation of the Scheduling tools, see [Deprecation of Resource Scheduling tools in Adobe Workfront](../../../resource-mgmt/resource-mgmt-overview/deprecate-resource-scheduling.md).
 
-[Watch a video demonstration of this feature.](https://vimeo.com/652571877/b334c56172)
-
 ## Override currency when managing job roles
 
 To help you easily manage cost and billing rates across global organizations, we have implemented overriding the currency of a job role. Using this feature, you can now set cost and billing rates for job roles in the currency that matches the job role's location. This will override the system currency in all financial calculations for the job role.
 
 For information, see [Create and manage job roles](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
 
-[Watch a video demonstration of this feature.](https://vimeo.com/652599823/847eb1bc31)

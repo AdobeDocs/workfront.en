@@ -31,8 +31,6 @@ For more information, see the articles:
 * [Copy and duplicate tasks](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md) 
 * [Move tasks](../../../manage-work/tasks/manage-tasks/move-tasks.md)
 
-[Watch a video demonstration of this feature.](https://vimeo.com/655521623/a837f8cefa)
-
 ## Updated toolbar on dashboard list and reports in dashboards
 
 The toolbar on four dashboard pages now has a modern look and feel that matches other Workfront lists such as projects, tasks, and issues. This intuitive toolbar now makes it easier to add, edit, share, copy, and delete dashboards.
@@ -46,8 +44,6 @@ The pages with the updated toolbar are:
 
 For more information, see [Create and manage dashboards](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-and-manage-dashboards.md).
 
-[Watch a video demonstration of this feature.](https://vimeo.com/655512195/8907676e19)
-
 ## Add and edit custom forms Summary panel for documents
 
 You can now add and edit custom forms directly in the document Summary panel.
@@ -57,8 +53,6 @@ With this change, you'll also see a new look and feel in the document Summary. T
 Previously, you had to go to the custom forms tab in the Document Details to make edits or add custom forms.
 
 For more information, see [Summary for documents overview](../../../documents/managing-documents/summary-for-documents.md).
-
-[Watch a video demonstration of this feature.](https://vimeo.com/647362235/d31257c503)
 
 ## New experience when copying one or multiple tasks
 
@@ -72,15 +66,11 @@ Some of the improvements include:
 
 For more information, see [Copy and duplicate tasks](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md).
 
-[Watch a video demonstration of this feature.](https://vimeo.com/647381042/d982eec1ce)
-
 ## New experience when moving one or multiple tasks from a list
 
 To offer a consistent experience when performing the same task, we have now updated the interface for moving one or multiple tasks from a list to match the experience when moving the task at the task level. (We had updated the experience for moving a task at the task level in a previous Preview release.)
 
 For more information, see [Move tasks](../../../manage-work/tasks/manage-tasks/move-tasks.md).
-
-[Watch a video demonstration of this feature.](https://vimeo.com/637948554/8766b69338)
 
 ## New experience when moving a task at the task level
 
@@ -93,8 +83,6 @@ Some of the improvements of this newly redesigned interface include:
 * Ability to request access for a project where you want to move the task without leaving the Move Task box.
 
 For more information, see [Move tasks](../../../manage-work/tasks/manage-tasks/move-tasks.md).
-
-[Watch a video demonstration of this feature.](https://vimeo.com/637948554/8766b69338)
 
 ## New experience when converting an issue to a project using a template at the issue level
 
@@ -110,8 +98,6 @@ The redesigned interface matches the experience when creating a project from a t
 
 For more information, see [Convert an issue to a project in Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issue-to-project.md).
 
-[Watch a video demonstration of this feature.](https://vimeo.com/655515076/9eceb34c4b)
-
 ## Convert issues to projects using a template from lists, reports, and dashboards
 
 >[!NOTE]
@@ -123,8 +109,6 @@ To increase the efficiency of your work and make it easier for you to convert is
 Prior to this enhancement, this functionality existed only when you converted the issue from the issue page.
 
 For more information, see [Convert an issue to a project in Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issue-to-project.md).
-
-[Watch a video demonstration of this feature.](https://vimeo.com/655516670/c76c22c044)
 
 ## Filter by user list on agile boards shows users with most assignments first
 
@@ -149,12 +133,9 @@ For instructions on sharing a template, see [Share project templates](../../../m
 
 For information about the new advanced setting Add Documents, see the section in the article [Sharing a template](../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md).
 
-[Watch a video demonstration of this feature.](https://vimeo.com/631405681/b1834b7ab6)
-
 ## Share a document folder
 
 Now you can share a document folder and its contents from the Documents area. Previously this was not possible—you had to share each document in a folder separately.
 
 For more information, see [Share a document folder](../../../workfront-basics/grant-and-request-access-to-objects/share-a-document-folder.md).
 
-[Watch a video demonstration of this feature.](https://vimeo.com/655509632/920d3db4fb)

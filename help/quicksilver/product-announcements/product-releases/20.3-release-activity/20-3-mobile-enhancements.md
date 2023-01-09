@@ -47,4 +47,3 @@ You can use the pin feature to access saved virtual assistant commands as well a
 
 For more information about both of these features, see [Adobe Workfront mobile app virtual assistant](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mobile-virtual-assistant.md).
 
-[Watch a video demonstration of this feature.](https://vimeo.com/448649564/f04d00ea6d)

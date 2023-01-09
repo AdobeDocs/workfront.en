@@ -36,10 +36,6 @@ Our folder syncing functionality lets you synchronize a [!DNL Box] folder with a
 * Enable your project team to collaborate and make decisions in real time on different media formats including print, digital, web, video and interactive content.
 * Use [!DNL Workfront Proof] to meet regulatory requirements and identify process improvements.
 
-## [!DNL Box] [!DNL Workfront Proof] Sync - Overview Video
-
-[[!DNL Box] [!DNL Workfront Proof] Sync - Overview Video](https://vimeo.com/61894774).
-
 ## Adding the [!DNL Workfront Proof] Sync App to Your [!DNL Box] Account
 
 Please follow the few simple steps below to add our app to your Box account:
@@ -50,6 +46,4 @@ Please follow the few simple steps below to add our app to your Box account:
 1. Click **[!UICONTROL Add]** to add the [!DNL Workfront Proof] Sync app to your Box account.
 1. In the confirmation box that appears, click **[!UICONTROL Okay]**.
 
-## Configuring the Integration - Video Tutorial
 
-[Configuring the Integration - Video Tutorial](https://vimeo.com/60652062)

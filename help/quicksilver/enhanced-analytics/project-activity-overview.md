@@ -133,8 +133,3 @@ To learn how to get the best data for this visualization, see [Enhanced analytic
    * **Chart (PNG)** 
    * **Data Table (XSLX)**
 
-## Video walk-through
-
-View the following video to learn more about the Project activity visualization. This video was recorded in the new Workfront experience. However, the content also applies to Workfront Classic.
-
-[ ![](assets/video-walk-through--350x197.png)](https://vimeo.com/441154105/7181a0dedf)

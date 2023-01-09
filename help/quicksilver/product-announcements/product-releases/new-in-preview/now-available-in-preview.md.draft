@@ -73,10 +73,10 @@ Future availability in the Production environment varies by feature. After a fea
 <ul>
 <li> <p>November 2019 with the 2019.4 release</p> <p>For more information about the 2019.4 release, see <a href="../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019.4-release-activity-overview.md" class="MCXref xref" xrefformat="{para}">2019.4 release overview</a></p> </li>
 </ul>
-</div> <p><iframe class="vimeo-player_0" src="assets/365346737?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe> </p> <p><a href="https://vimeo.com/365346737/5bd7c8c883" target="_blank">Watch a video demonstration of this feature.</a> </p> </td>
+</div>  </td>
 </tr>
 <tr>
-<td> <h3>Access existing Favorites and add new Favorites on mobile</h3> <p>You can now access the Favorites menu on the Workfront mobile app on both iOS and Android devices. You can access existing items from the Favorites menu and add new items to the Favorites menu.</p> <p>Previously, the Favorites menu was available only when accessing Workfront from a web browser.</p> <p>For more information about the features available when using Workfront on the iPad, see <a href="../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md" class="MCXref xref" xrefformat="{para}">Adobe Workfront for iOS</a> and <a href="../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-android.md" class="MCXref xref" xrefformat="{para}">Adobe Workfront for Android</a>.</p> <p><iframe class="vimeo-player_0" src="assets/368288121?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe> </p> </td>
+<td> <h3>Access existing Favorites and add new Favorites on mobile</h3> <p>You can now access the Favorites menu on the Workfront mobile app on both iOS and Android devices. You can access existing items from the Favorites menu and add new items to the Favorites menu.</p> <p>Previously, the Favorites menu was available only when accessing Workfront from a web browser.</p> </td>
 </tr>
 <tr>
 <td> <p>&nbsp;</p> </td>
@@ -146,8 +146,7 @@ Future availability in the Production environment varies by feature. After a fea
       <p>November 2019 with the 2019.4 release</p> 
       <p>For more information about the 2019.4 release, see <a href="../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019.4-release-activity-overview.md" class="MCXref xref" xrefformat="{para}">2019.4 release overview</a></p> 
      </div> 
-     <!--<p><iframe class="vimeo-player_0" src="assets/356667806?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe> </p> 
-     <p><a href="https://vimeo.com/356667806/bc273fcd89" target="_blank">Watch a video demonstration of this feature.</a> </p>--> 
+     
     </div> </td> 
   </tr> <!--
    <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
@@ -189,9 +188,7 @@ Future availability in the Production environment varies by feature. After a fea
        <li> <p>November 2019 with the 2019.4 release</p> <p>For more information about the 2019.4 release, see <a href="../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019.4-release-activity-overview.md" class="MCXref xref" xrefformat="{para}">2019.4 release overview</a></p> </li> 
       </ul> 
      </div> 
-     <!--<p><iframe class="vimeo-player_0" src="assets/364129192?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe> </p> 
-     <p><a href="https://vimeo.com/364129192/ea5b0625c6" target="_blank">Watch a video demonstration of this feature.</a> </p>--> 
-     <p><strong>Updated lists in reports</strong></p> 
+      <p><strong>Updated lists in reports</strong></p> 
      <p>The updated functionality of lists is now available in reports, for the same objects. When the reports display in a dashboard, the new list functionality is also available there.</p> 
      <p>For a complete list of what objects support the new list functionality, see <a href="../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md" class="MCXref xref" xrefformat="{para}">Get started with lists in&nbsp;Adobe Workfront</a>.</p> 
      <div class="workfront_plans"> 
@@ -232,7 +229,7 @@ Future availability in the Production environment varies by feature. After a fea
      <ul> 
       <li> <p> November 2019 with the 2019.4 release</p> <p>For more information about the 2019.4 release, see <a href="../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019.4-release-activity-overview.md" class="MCXref xref" xrefformat="{para}">2019.4 release overview</a></p> </li> 
      </ul> 
-    </div> <p><iframe class="vimeo-player_0" src="assets/356675385?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe> </p> <p><a href="https://vimeo.com/356675385/09ba51d717" target="_blank">Watch a video demonstration of this feature.</a> </p> </td> 
+    </div> </td> 
   </tr> 
   <tr> 
    <td> <p><strong>The Workload Balancer beta</strong></p> <p>The Workload Balancer provides a new interface for managing the workload of your resources. This is intended to replace the Resource Scheduler sometime in the future.</p> <p>In addition to benefiting from an improved design, you can now clearly view a person's availability and easily manage work assignments for the people in your teams. You can also update a task from the Workload Balancer using the Summary in the new Workfront experience.</p> <p>For information about the Workload Balancer, see the article Overview of the Workload Balancer.</p> 
@@ -246,7 +243,7 @@ Future availability in the Production environment varies by feature. After a fea
      <ul> 
       <li> <p>November 2019 with the 2019.4 release</p> <p>For more information about the 2019.4 release, see <a href="../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019.4-release-activity-overview.md" class="MCXref xref" xrefformat="{para}">2019.4 release overview</a></p> </li> 
      </ul> 
-    </div> <p><iframe class="vimeo-player_0" src="assets/365623344?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe> </p> <p><a href="https://vimeo.com/365623344/da11a6ad27" target="_blank">View in full-screen mode.</a> </p> </td> 
+    </div>  </td> 
   </tr> 
  </tbody> 
 </table>
@@ -274,7 +271,7 @@ Future availability in the Production environment varies by feature. After a fea
      <ul> 
       <li> October 18, 2019</li> 
      </ul> 
-    </div> <p><iframe class="vimeo-player_0" src="assets/364110112?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe> </p> <p><a href="https://vimeo.com/364110112/4972767789" target="_blank">Watch a video demonstration of this feature.</a> </p> </td> 
+    </div>  </td> 
   </tr> 
   <tr> 
    <td> 
@@ -298,9 +295,7 @@ Future availability in the Production environment varies by feature. After a fea
        <li> <p> November 2019 with the 2019.4 release</p> <p>For more information about the 2019.4 release, see <a href="../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019.4-release-activity-overview.md" class="MCXref xref" xrefformat="{para}">2019.4 release overview</a></p> </li> 
       </ul> 
      </div> 
-     <!--<p><iframe class="vimeo-player_0" src="assets/356675385?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe> </p> 
-     <p><a href="https://vimeo.com/356675385/09ba51d717" target="_blank">Watch a video demonstration of this feature.</a> </p>--> 
-    </div> </td> 
+     </div> </td> 
   </tr> 
   <tr> 
    <td> <p><strong>Updated look and feel of new lists</strong></p> <p>All new lists now have an updated look and feel. Some of the updates include:</p> 
@@ -352,7 +347,7 @@ Future availability in the Production environment varies by feature. After a fea
      <ul> 
       <li> <p>November 2019 with the 2019.4 release</p> <p>For more information about the 2019.4 release, see <a href="../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019.4-release-activity-overview.md" class="MCXref xref" xrefformat="{para}">2019.4 release overview</a></p> </li> 
      </ul> 
-    </div> <p><iframe class="vimeo-player_0" src="assets/355155531?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe> </p> <p><a href="https://vimeo.com/355155531/54e7f3db03" target="_blank">Watch a video demonstration of this feature.</a> </p> </td> 
+    </div>  </td> 
   </tr> 
  </tbody> 
 </table>
@@ -393,9 +388,7 @@ Future availability in the Production environment varies by feature. After a fea
        <li> <p>November 2019 with the 2019.4 release</p> <p>For more information about the 2019.4 release, see <a href="../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019.4-release-activity-overview.md" class="MCXref xref" xrefformat="{para}">2019.4 release overview</a></p> </li> 
       </ul> 
      </div> 
-     <!--<p><iframe class="vimeo-player_0" src="assets/356675385?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe> </p> 
-     <p><a href="https://vimeo.com/356675385/09ba51d717" target="_blank">Watch a video demonstration of this feature.</a> </p>--> 
-    </div> </td> 
+        </div> </td> 
   </tr> 
   <tr> 
    <td> 
@@ -419,9 +412,7 @@ Future availability in the Production environment varies by feature. After a fea
        <li> <p>November 2019 with the 2019.4 release</p> <p>For more information about the 2019.4 release, see <a href="../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019.4-release-activity-overview.md" class="MCXref xref" xrefformat="{para}">2019.4 release overview</a></p> </li> 
       </ul> 
      </div> 
-     <!--<p><iframe class="vimeo-player_0" src="assets/356664196?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe> </p> 
-     <p><a href="https://vimeo.com/356664196/08b23813d6" target="_blank">Watch a video demonstration of this feature.</a> </p>--> 
-    </div> </td> 
+         </div> </td> 
   </tr> 
  </tbody> 
 </table>

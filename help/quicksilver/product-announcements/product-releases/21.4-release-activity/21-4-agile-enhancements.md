@@ -29,8 +29,6 @@ This option applies only to Scrum teams and not to Kanban teams.
 
 For more information, see [Configure Scrum](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md).
 
-[Watch a video demonstration of this feature.](https://vimeo.com/601336640/d519107145)
-
 ## Changes to agile view on projects
 
 >[!NOTE]
@@ -54,4 +52,3 @@ You can now create a new story or issue directly from the Kanban board. This mak
 
 For more information, see [Add stories and issues from the Kanban board](../../../agile/use-kanban-in-an-agile-team/add-story-from-kanban-board.md).
 
-[Watch a video demonstration of this feature.](https://vimeo.com/578094546/cbdd9b0d72)

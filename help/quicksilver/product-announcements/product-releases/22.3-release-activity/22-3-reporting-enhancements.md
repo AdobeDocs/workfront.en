@@ -30,4 +30,3 @@ The following resource budgeting fields were removed from lists and reports beca
 
 For more information, see [Understand Budgeted Labor Cost and Budgeted Hours for projects](/help/quicksilver/manage-work/projects/project-finances/budgeted-labor-cost.md).
 
-[View a video demonstration of this feature.](https://vimeo.com/723745283/a517d38ef1)

@@ -19,16 +19,6 @@ At the top of the screen in the Enhanced analytics area, 4 key performance indic
 
 To learn how to add filters, see [Apply filters in Enhanced analytics](../enhanced-analytics/use-enhanced-analytics-filters.md).
 
-## Walk-through
-
-View the following video to learn more about the KPIs in the Enhanced analytics area:
-
-<!--WRITER
-<iframe class="vimeo-player_0" src="assets/441154701?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
--->
-
-[Watch a video demonstration of this feature.](https://vimeo.com/441154701/35a21d794f)
-
 ## Projects completed
 
 The Projects completed KPI shows how many projects within the filtered time period have been completed, as well as how the percentage increased or decreased since the previous time period. Below these numbers, you can see the number of projects completed in the previous time period, as well as the number of days in the previous time period.

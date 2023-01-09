@@ -29,8 +29,6 @@ In the Audit Logs area, you can now track and troubleshoot changes in more areas
 
 For more information, see [Audit logs](../../../administration-and-setup/add-users/create-and-manage-users/audit-logs.md).
 
-[Watch a video demonstration of this feature.](https://vimeo.com/539856733/e94e63570c)
-
 This feature is now included in the [Admin Fundamentals for the new Workfront experience, Part 2: Project Setup](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-1-project-workfl-MCTBVZ3Q3J5RHNLIPPZPFSQRLKUY) learning path on Workfront One.
 
 ## For group administrators: Improved controls for moving subgroups and an updated toolbar
@@ -41,13 +39,11 @@ This feature is now included in the [Admin Fundamentals for the new Workfront ex
 
 We have made the following improvements in the Subgroups area in Setup.
 
-* To give you a quick way to reorganize the groups you manage, we have added an “Add subgroups” toolbar button that allows you to create new subgroups and move existing ones.
+* To give you a quick way to reorganize the groups you manage, we have added an "Add subgroups" toolbar button that allows you to create new subgroups and move existing ones.
 
   For more information, see [Manage a subgroup](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md).
 
 * The toolbar in the Subgroups area now makes lists consistent with other modernized lists in the new Workfront experience. When you select groups, icons represent available functions in the toolbar.
-
-[Watch a video demonstration of this feature.](https://vimeo.com/539859377/84bd210185)
 
 ## New for administrators: Updated look and feel on Timesheets & Hours Preferences page
 
@@ -58,8 +54,6 @@ Sections and individual options are easier to read because they are separated by
 The labels for the 2 radio button options are broken up so they are not so long—the second part of each label is now an info message on a separate line.
 
 For information about Timesheets & Hours Preference, see [Configure timesheet and hour preferences](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
-
-[Watch a video demonstration of this feature.](https://vimeo.com/539860918/3624741d0f)
 
 ## For group administrators: List improvements in the Groups area
 
@@ -75,8 +69,6 @@ Two improvements in the Groups area in Setup make lists consistent with other mo
 For information about the modernized lists throughout Workfront, see [Modify how a list displays](../../../workfront-basics/navigate-workfront/use-lists/modify-list-display.md).
 
 For information about the Groups area, see [Manage groups](../../../administration-and-setup/manage-groups/manage-groups.md).
-
-[Watch a video demonstration of this feature.](https://vimeo.com/534946023/6d5d89d7b2)
 
 ## For group administrators: Create and edit programs from the Groups area in Setup
 
@@ -118,8 +110,6 @@ For more information, see the following articles:
 * [Create and modify a group's projects](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-portfolios.md) 
 * [Create and modify a group's teams](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-teams.md)
 
-[Watch a video demonstration of this feature.](https://vimeo.com/528565760/e545487892)
-
 ## New for group administrators: Assign group timesheet profiles
 
 Now it's easier to manage timesheet profiles for a group you administer. Not only can you create timesheet profiles, you can assign them to your groups or to individual members of your groups. This is true even when the Timesheets & hours option is not enabled in your access level.
@@ -130,8 +120,6 @@ For more information, see [Create, edit, and assign timesheet profiles](../../..
 
 For information about the Timesheets & hours option in an access level, see [Grant users administrative access to certain areas](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
 
-[Watch a video demonstration of this feature.](https://vimeo.com/522034916/0905893b78)
-
 ## For administrators: Set the Filter, View, and Grouping that users see in object lists
 
 Using a layout template in the new Workfront experience, you can now set the default Filter, View, and Grouping that users see in object lists throughout Workfront.
@@ -141,8 +129,6 @@ For example, instead of leaving the Filter list control set to All, you can chan
 Previously, these defaults couldn't be customized, so they were always set as All for Filters, Standard for Views, and Nothing for Groupings. One added bonus of the new functionality is that you can hide these three settings from your users if they don't need them.
 
 For more information, see [Customize Filters, Views, and Groupings using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md).
-
-[Watch a video demonstration of this feature.](https://vimeo.com/522039391/3a27a9499a)
 
 This feature is now included in the [Administrator Fundamentals in the new Workfront Experience, Part 3: Control and Interface Experience](https://one.workfront.com/s/learningpath3/administrator-fundamentals-control-and-interface-experience-MCNCSSMXLPDFEERGVEM4EWL2I4LI) learning path on Workfront One.
 
@@ -159,8 +145,6 @@ You can add a custom view in the Custom Forms area with a new Reports column tha
 Previously, without this column, you had to manually create a report using text mode or use another workaround to find out which custom fields were being used in reports. This was difficult and tedious if your organization uses many custom fields.
 
 For more information, [View all reports that use a particular custom field or widget](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/view-all-reports-that-use-a-particular-custom-field.md).
-
-[Watch a video demonstration of this feature.](https://vimeo.com/513506359/d243b2f5b8)
 
 ## For group administrators: View and manage a group and its objects in one place
 
@@ -179,12 +163,9 @@ For more information, see the following articles:
 * [Create and manage a group's timesheet profiles](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-timesheet-profiles.md) 
 * [View and manage subgroup members](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/view-and-manage-subgroup-members.md)
 
-[Watch a video demonstration of this feature.](https://vimeo.com/513509456/8b32fd6314)
-
 ## New for administrators: More text formatting options available in Custom Form fields
 
 When users type in Custom Form fields that allow formatting, they can now organize the text using bullets, numbering, hyperlinks, and block quotes, in addition to bold, italics, and underline.
 
 For more information, see [Create or edit a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 
-[Watch a video demonstration of this feature.](https://vimeo.com/513508726/a63186ec85)
