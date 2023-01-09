@@ -246,7 +246,7 @@ Updating goals in the Goal Details panel differs depending on where you access t
       >    * Parent goal progress
       >    * Parent goal owner. 
       >      
-      >    You must update this information on the parent goal itself. 
+      >You must update this information on the parent goal itself. 
 
    * **Period**: Click to update the time period for the goal  
       Or  
