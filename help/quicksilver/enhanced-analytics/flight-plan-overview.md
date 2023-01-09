@@ -141,8 +141,3 @@ For information on how to get the best data for this visualization, see [Enhance
    These visualizations can help you gain deeper insight into what caused the project to get off track. They also make it easy to check in on an in-progress project.  
    For more information on the Burndown visualization, see [View the Burndown visualization in Enhanced analytics](../enhanced-analytics/burndown-overview.md). For more information on the Tasks in flight visualization, see [View the Tasks in flight visualization in Enhanced analytics](../enhanced-analytics/tasks-in-flight-overview.md).
 
-## Video walk-through
-
-View the following video to learn more about the Flight plan visualization. This video was recorded in the new Workfront experience. However, the content also applies to Workfront Classic.
-
-[ ![](assets/video-walk-through--350x197.png)](https://vimeo.com/441153800/2a336ba497)

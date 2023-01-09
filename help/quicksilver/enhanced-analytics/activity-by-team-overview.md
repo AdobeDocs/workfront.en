@@ -130,8 +130,3 @@ To learn how to get the best data for this visualization, see [Enhanced analytic
    * **Chart (PNG)** 
    * **Data Table (XSLX)**
 
-## Video walk-through
-
-View the following video to learn more about the Activity by team visualization. This video was recorded in Workfront Classic. However, the content also applies to the new Workfront experience.
-
-[ ![](assets/video-walk-through--350x197.png)](https://vimeo.com/368319785/c8ec75887b)
