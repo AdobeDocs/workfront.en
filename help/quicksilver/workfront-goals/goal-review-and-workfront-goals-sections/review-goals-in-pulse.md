@@ -11,15 +11,14 @@ exl-id: 33873797-183d-4efc-9099-26eb907ca799
 
 <!--drafted for the goal redesign. After the release to Prod, this article will need to be deleted - also remove from TOC and change article's extension to .draft: -->
 
-<div class="preview">
+
 
 >[!IMPORTANT]
 >
->The Pulse section has been removed from the Preview environment and it will be removed from the Production environment with the 23.1 release. 
+><span class="preview">The Pulse section has been removed from the Preview environment and it will be removed from the Production environment with the 23.1 release. </span>
 >
->For information about the sections included in the Goals area in the Preview environment, see [Overview of Adobe Workfront Goals sections](../goal-review-and-workfront-goals-sections/overview-of-wf-goals-sections.md).
+><span class="preview">or information about the sections included in the Goals area in the Preview environment, see [Overview of Adobe Workfront Goals sections](../goal-review-and-workfront-goals-sections/overview-of-wf-goals-sections.md).</span>
 
-</div>
 
 You can view all goals in your organization, regardless of who the owner is. For information about creating goals, see [Create goals in Adobe Workfront Goals](../../workfront-goals/goal-management/create-goals.md).
 

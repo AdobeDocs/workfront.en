@@ -69,6 +69,7 @@ Before you begin, you must have the following:
 1. Click the [!UICONTROL **Main Menu**] icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Workfront], then click [!UICONTROL **Campaigns**].
 
    A list of all campaigns in the system displays.
+
 1. (Optional) Click the **[!UICONTROL search]** icon ![](assets/search-icon.png) to quickly search for a campaign using a keyword.
 1. Select a campaign, then click the **[!UICONTROL Delete]** icon at the top of the list
 
@@ -77,5 +78,7 @@ Before you begin, you must have the following:
    Click the name of a campaign to open it, then click [!UICONTROL **More**] >[!UICONTROL **Delete**].
 
    ![](assets/campaign-delete-and-edit-options-from-campaign-page.png)
+
 1. Click [!UICONTROL **Delete**].
+
 The campaign is deleted and cannot be recovered.

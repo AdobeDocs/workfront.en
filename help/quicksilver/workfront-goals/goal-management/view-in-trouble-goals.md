@@ -172,16 +172,17 @@ This article describes how to review goals in the Goal List.
    1. Click the down-pointing arrow to the left of the goal name in the list to view additional information about the goals and their contributing items. 
    1. A list of results, activities, and aligned goals displays under each goal. Now, you can view which contributing item delays the progress of your goal.
 
-   ![](assets/expanded-goal-w-contributing-items-attached-350x105.png)
+      ![](assets/expanded-goal-w-contributing-items-attached-350x105.png)
 
    1. (Optional) Click **Print** to export the list of the in-trouble goals in various formats and share it with others. For information about printing goal lists, see [Print the Goal List in Adobe Workfront Goals](../../workfront-goals/goal-management/print-the-goal-list.md). 
    1. Click a **goal name** to open the Goal Details panel, then click **Check in** to update the progress of the Results or Activities associated with the delayed goals. This updates the goal's progress as well. For information about updating the progress of results and activities to check in a goal, see [Update goals by using Check-in in Adobe Workfront Goals](../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md).
+
 1. <span class="preview">(Conditional) In the Preview environment, click a goal name to open the goal page, then click **Progress Indicators** in the left panel. View which progress indicator causes the goal to be behind and update the progress of the indicator inline, in the **Actual progress** column of the Progress indicators list. </span>
 
    ![](assets/actual-progress-editable-column-in-indicator-list-unshimmed.png)
 
    >[!NOTE]
    >
-   >   <span class="preview">You can update only results and activities in the Progress indicators list. You must update the progress indicators of children goals by accessing the goals and you must update the tasks on the connected projects to update the progress of the projects.</span>
+   ><span class="preview">You can update only results and activities in the Progress indicators list. You must update the progress indicators of children goals by accessing the goals and you must update the tasks on the connected projects to update the progress of the projects.</span>
 
 
