@@ -100,7 +100,7 @@ In a Custom Form, you can now create fields that include text formatting buttons
 
 For more information, see Create a Custom Form in the new Workfront experience.
 
- ## New for administrators: Create both an internal name and a user-facing label for a Custom Form field
+## New for administrators: Create both an internal name and a user-facing label for a Custom Form field
 
 To give you more flexibility in labeling and relabeling Custom Form fields, you can now create an internal *name* for a field in addition to the user-facing *label* you've been using. This gives you the freedom to change the field label that your users see without changing the field name that the system sees.
 

@@ -145,5 +145,3 @@ To learn how to get the best data for this visualization, see [Enhanced analytic
    * **Data Table (XSLX)**
 
 1. (Optional) To see details about the progress of tasks in the selected project, look at the Tasks in flight visualization that appears below the Burndown visualization.
-
-#
