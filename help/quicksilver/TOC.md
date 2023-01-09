@@ -656,7 +656,6 @@ feature-set: Workfront
     * [Enable Adobe Workfront for Outlook](administration-and-setup/configure-integrations/enable-workfront-for-outlook.md)
     * [Configure document integrations](administration-and-setup/configure-integrations/configure-document-integrations.md)
     * [Disable document integrations](administration-and-setup/configure-integrations/disable-document-integrations.md)
-    * [Install the Zoom integration](administration-and-setup/configure-integrations/enable-zoom-integration.md)
     * [Configure the SharePoint integration](administration-and-setup/configure-integrations/configure-sharepoint-integration.md)
     * [Set up metadata mapping](administration-and-setup/configure-integrations/set-up-metadata-mapping.md)
     * [Create OAuth2 applications for Workfront integrations](administration-and-setup/configure-integrations/create-oauth-application.md)
@@ -2183,11 +2182,6 @@ feature-set: Workfront
     * [Apply an Anaplan budget allocation to an Adobe Workfront project](workfront-integrations-and-apps/adobe-workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-projects.md)
     * [Create an Anaplan list item from an Adobe Workfront campaign request](workfront-integrations-and-apps/adobe-workfront-with-anaplan/create-an-anaplan-list-item-from-a-workfront-campaign-request.md)
     * [Apply an Anaplan budget allocation to an Adobe Workfront campaign request or campaign project](workfront-integrations-and-apps/adobe-workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-campaign-requests-and-projects.md)
-  * Workfront Zoom integration {#workfront-zoom-integration}
-    * [Zoom integration](workfront-integrations-and-apps/zoom-integration-with-wf/zoom-integration.md)
-    * [Zoom integration overview](workfront-integrations-and-apps/zoom-integration-with-wf/zoom-integration-overview.md)
-    * [Authorize the Zoom integration](workfront-integrations-and-apps/zoom-integration-with-wf/authorize-zoom-integration.md)
-    * [Uninstall the Zoom integration](workfront-integrations-and-apps/zoom-integration-with-wf/uninstall-zoom-integration.md)
 * Workfront Library {#workfront-library}
   * [Workfront Library](workfront-library/workfront-library.md)
   * Administration and setup of Workfront Library {#admin-setup-wf-library}
