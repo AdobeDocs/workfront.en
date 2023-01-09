@@ -16,7 +16,7 @@ There are two testing environments for [!DNL Workfront] that are replicas of you
 
 * The Preview Sandbox
 
-   The Preview Sandbox is a testing environment that serves as a replica of your live environment and is refreshed each weekend by Workfront. Data added to your live environment on Friday appears in your Preview Sandbox by the following Monday.
+   The Preview Sandbox is a testing environment that serves as a replica of your live environment and is refreshed each weekend by [!DNL Workfront]. Data added to your live environment on Friday appears in your Preview Sandbox by the following Monday.
 
    All support packages have access to the Preview Sandbox.
 
@@ -31,8 +31,8 @@ There are two testing environments for [!DNL Workfront] that are replicas of you
  <thead> 
   <tr> 
    <th> <p> </p> </th> 
-   <th> <p><strong>Standard Support Package</strong> </p> </th> 
-   <th> <p><strong>Plus, Preferred, and Enterprise Support Packages</strong> </p> </th> 
+   <th> <p><strong>[!UICONTROL Standard] Support Package</strong> </p> </th> 
+   <th> <p><strong>[!UICONTROL Plus], [!UICONTROL Preferred], and [!UICONTROL Enterprise] Support Packages</strong> </p> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -53,7 +53,7 @@ There are two testing environments for [!DNL Workfront] that are replicas of you
 
 The Preview Sandbox serves as an environment where users in your organization can safely test and work with data from the production environment without affecting the production environment.
 
-The [!UICONTROL Preview] Sandbox contains your actual production data; however, it refreshes every weekend so the data can be up to one week behind the production environment. Items created since the last refresh time are in the Preview Sandbox environment until the following refresh.
+The Preview Sandbox contains your actual production data; however, it refreshes every weekend so the data can be up to one week behind the production environment. Items created since the last refresh time are in the Preview Sandbox environment until the following refresh.
 
 Data flows uni-directionally, from Production to Preview, and not in reverse. A refresh of the Preview environment is always scheduled by [!DNL Workfront] each weekend. For more information on the specific day and time of the refresh, go to [status.adobe.com](https://status.adobe.com/).
 
@@ -65,7 +65,7 @@ The preview environment is ideal for running trainings, testing out new features
 >
 >When you access the Preview Sandbox, notice the blue banner at the top of the screen. The banner cannot be removed while you are working in this environment.
 >
->The name of the environment you are accessing (Preview) and the release version of the code display on the banner. Click **See what's new** for information about that release.
+>The name of the environment you are accessing (Preview) and the release version of the code display on the banner. Click **[!UICONTROL See what's new]** for information about that release.
 >
 >![](assets/preview-banner-nwe-350x161.png)
 
@@ -82,11 +82,11 @@ As a [!DNL Workfront] administrator, you can access the Preview Sandbox via the 
 
 To access the Preview Sandbox:
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe] Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
+1. Click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe Workfront], then click **[!UICONTROL Setup]** ![](assets/gear-icon-settings.png).
 
-1. Click **System** > **Preferences**.
+1. Click **[!UICONTROL System]** > **[!UICONTROL Preferences]**.
 
-1. In the **Test Environments** section, click **Sandbox Preview**.
+1. In the **[!UICONTROL Test Environments]** section, click **[!UICONTROL Sandbox Preview]**.
 
 1. Log in with your Preview credentials.
 
@@ -150,9 +150,9 @@ For more information about Single Sign-On, see [Overview of single sign-on in Ad
 
 >[!IMPORTANT]
 >
->The procedure described on this page applies only to organizations that have not yet been onboarded to the Admin Console. If your organization has been onboarded to the Adobe Admin Console, no action is necessary.
+>The procedure described on this page applies only to organizations that have not yet been onboarded to the [!DNL Adobe Admin Console]. If your organization has been onboarded to the [!DNL Adobe Admin Console], no action is necessary.
 >
->For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Admin Console, see [Platform-based administration differences (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+>For a list of procedures that differ based on whether your organization has been onboarded to the [!DNL Adobe Admin Console], see [Platform-based administration differences ([!UICONTROL Adobe Workfront]/[!UICONTROL Adobe Business Platform])](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
 
 If you want to configure your Preview Sandbox to work with a Single Sign-On solution, you can do so by configuring it separately from your Production environment. The SSO configuration in the Preview Sandbox is independent from your SSO configuration in the Production environment.
@@ -165,9 +165,9 @@ For more information about configuring [!DNL Workfront] with SSO, see [Overview 
 
 ## Preview environment performance and availability
 
-Workfront Preview environments are not intended for performance or load testing. Rather, use these environments to validate feature functionality with your organization's existing workflows.
+[!DNL Workfront] Preview environments are not intended for performance or load testing. Rather, use these environments to validate feature functionality with your organization's existing workflows.
 
-Workfront Preview environments are intended to be always available.
+[!DNL Workfront] Preview environments are intended to be always available.
 
 Any outage to a [!DNL Workfront] Preview environment during regular business hours will be a first priority immediately after any Production issues are resolved if any exist.
 

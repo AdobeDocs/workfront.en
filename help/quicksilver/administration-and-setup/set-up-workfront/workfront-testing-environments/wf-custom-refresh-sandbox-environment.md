@@ -19,7 +19,7 @@ The Custom Refresh Sandbox is an environment where you can test and work using d
 >This is different from the Preview Sandbox, which is also a testing environment that replicates your [!DNL Workfront] production environment.
 >
 >* New features are introduced to the Preview Sandbox before they become available in Production.
->* New features are not introduced to the [!UICONTROL Custom] Refresh Sandbox before they become available in Production.
+>* New features are not introduced to the Custom Refresh Sandbox before they become available in Production.
 >
 >  Also, there is an additional cost to obtain the Custom Refresh Sandbox that is not required for the Preview Sandbox.
 >
@@ -35,23 +35,23 @@ You must have the following:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Workfront plan</td> 
-   <td> <p>Business or higher</p> </td> 
+   <td role="rowheader">[!DNL Workfront] plan</td> 
+   <td> <p>[!UICONTROL Business] or higher</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p role="rowheader">Workfront license</p> </td> 
-   <td> <p>Plan </p> <p>You must be a [!DNL Workfront] administrator. For information on [!DNL Workfront] administrators, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>.</p> </td> 
+   <td role="rowheader"> <p role="rowheader">[!DNL Workfront] license</p> </td> 
+   <td> <p>[!UICONTROL Plan] </p> <p>You must be a [!DNL Workfront] administrator. For information on [!DNL Workfront] administrators, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Support package</td> 
-   <td> <p>Plus, [!UICONTROL Preferred], or [!UICONTROL Enterprise]</p> <p>The standard support package does not have access to the Custom Refresh Sandbox, but it does have access to the Preview Sandbox.</p> </td> 
+   <td> <p>[!UICONTROL Plus], [!UICONTROL Preferred], or [!UICONTROL Enterprise]</p> <p>The standard support package does not have access to the Custom Refresh Sandbox, but it does have access to the Preview Sandbox.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Refreshing the Custom Refresh Sandbox
 
-The Custom Refresh Sandbox contains your actual production data, it does not refresh until you schedule it to do so. You can schedule a refresh any time is convenient for you, as frequently as once a week.
+The Custom Refresh Sandbox contains your actual production data, and it does not refresh until you schedule it to do so. You can schedule a refresh any time is convenient for you, as frequently as once a week.
 
 >[!NOTE]
 >
@@ -73,15 +73,15 @@ As a [!DNL Workfront] administrator, you can access your Custom Refresh Sandbox 
 
 >[!NOTE]
 >
->If your account is on Cluster 4 (EMEA Cluster), you cannot access your [!UICONTROL Custom] Refresh Sandbox from the Production Environment. For more information about how you can access your [!UICONTROL Custom] Refresh Sandbox when you have an account on Cluster 4, see [Access the Custom Refresh Sandbox for Accounts on Cluster 4 (EMEA Accounts)](#access-the-custom-refresh-sandbox-for-accounts-on-cluster-4-emea-accounts) [Access the Custom Refresh Sandbox for Accounts on Cluster 4 (EMEA Accounts)](#access-the-custom-refresh-sandbox-for-accounts-on-cluster-4-emea-accounts).
+>If your account is on Cluster 4 (EMEA Cluster), you cannot access your Custom Refresh Sandbox from the Production Environment. For more information about how you can access your Custom Refresh Sandbox when you have an account on Cluster 4, see [Access the Custom Refresh Sandbox for Accounts on Cluster 4 (EMEA Accounts)](#access-the-custom-refresh-sandbox-for-accounts-on-cluster-4-emea-accounts) [Access the Custom Refresh Sandbox for Accounts on Cluster 4 (EMEA Accounts)](#access-the-custom-refresh-sandbox-for-accounts-on-cluster-4-emea-accounts).
 
 To access your Custom Refresh Sandbox:
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe] Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
+1. Click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe Workfront], then click **[!UICONTROL Setup]** ![](assets/gear-icon-settings.png).
 
-1. Click **System** >**Preferences**.
+1. Click **[!UICONTROL System]** >**[!UICONTROL Preferences]**.
 
-1. In the **Test Environment** section, click **Sandbox 1** or **Sandbox 2**.
+1. In the **[!UICONTROL Test Environment]** section, click **[!UICONTROL Sandbox 1]** or **[!UICONTROL Sandbox 2]**.
 
    Your support package specifies whether you have access to one or two Custom Refresh Sandboxes.
 
@@ -108,7 +108,7 @@ To access your Custom Refresh Sandbox using a URL:
 
    https://companyname.sb01.workfront.com (old URL:https://cr1.attasksandbox.com/.)
 
-   Or If you have two Custom Refresh Sandboxes, in addition to the URLs above, you can also Go to the following URL to access your second Custom Refresh Sandbox:
+   Or If you have two Custom Refresh Sandboxes, in addition to the URLs above, you can also go to the following URL to access your second Custom Refresh Sandbox:
 
    https://companyname.sb02.workfront.com (old URL:https://cr2.attasksandbox.com/)
 
@@ -155,7 +155,7 @@ To schedule a refresh of your Customer Refresh Sandbox:
 
 1. Log in to your Custom Refresh Sandbox.
 1. Click **[!UICONTROL Schedule]** in the banner at the top of the screen and select a date from the calendar.
-1. Select a date for when you want the refresh to happen, then click **Schedule Refresh**.
+1. Select a date for when you want the refresh to happen, then click **[!UICONTROL Schedule Refresh]**.
 
 ## Switch to Production from the Custom Refresh Sandbox
 
@@ -169,7 +169,7 @@ To schedule a refresh of your Customer Refresh Sandbox:
 
 ## Receive emails from the Custom Refresh Sandbox
 
-Workfront disables all email communication from the Custom Refresh Sandbox environment. If you want to receive email notifications from the Custom Refresh Sandbox environment, you must enable this functionality in your user settings. For more information about enabling email notifications in the Custom Refresh Sandbox environment, see [Enable delivery of emails from the Preview Sandbox environment](../../../workfront-basics/using-notifications/enable-delivery-emails-from-preview-sandbox-environment.md).
+[!DNL Workfront] disables all email communication from the Custom Refresh Sandbox environment. If you want to receive email notifications from the Custom Refresh Sandbox environment, you must enable this functionality in your user settings. For more information about enabling email notifications in the Custom Refresh Sandbox environment, see [Enable delivery of emails from the Preview Sandbox environment](../../../workfront-basics/using-notifications/enable-delivery-emails-from-preview-sandbox-environment.md).
 
 >[!NOTE]
 >
@@ -190,6 +190,6 @@ For more information about configuring [!DNL Workfront] with SSO, see [Overview 
 
 ## Intended use and availability
 
-Workfront Custom Refresh Sandbox environments are not intended for performance or load testing. Rather, use these environments to validate feature functionality with your organization's existing workflows.
+[!DNL Workfront] Custom Refresh Sandbox environments are not intended for performance or load testing. Rather, use these environments to validate feature functionality with your organization's existing workflows.
 
-Workfront Custom Refresh Sandbox environments are intended to be always available. Any outage to a Workfront Custom Refresh Sandbox environment during regular business hours will be a first priority immediately after any Production issues are resolved if any exist. Any outage to a Workfront Custom Refresh Sandbox environment on weekends (Saturdays and Sundays) will be addressed so that the environment is running for business hours on Monday.
+[!DNL Workfront] Custom Refresh Sandbox environments are intended to be always available. Any outage to a Workfront Custom Refresh Sandbox environment during regular business hours will be a first priority immediately after any Production issues are resolved if any exist. Any outage to a Workfront Custom Refresh Sandbox environment on weekends (Saturdays and Sundays) will be addressed so that the environment is running for business hours on Monday.
