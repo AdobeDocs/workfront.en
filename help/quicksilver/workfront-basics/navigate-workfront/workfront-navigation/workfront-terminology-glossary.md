@@ -1247,9 +1247,9 @@ The following table is a list of commonly used terms in Adobe Workfront:
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL Number of Linked Goals]</td> 
-   <td> <p>In a [!UICONTROL Project] report, this is the number of strategic goals that are associated with the project. For information about associating projects with strategic goals, see <a href="../../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md">Overview of connecting projects to goals in [!DNL Workfront Goals]</a>.</p> 
+   <td> <p>In a [!UICONTROL Project] report, this is the number of strategic goals that are associated with the project. For information about associating projects with strategic goals, see <a href="../../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md">Add projects to goals in  [!DNL Adobe Workfront Goals]</a>.</p> 
    <p>For information about strategic goals, also see "[!UICONTROL Goal]" in this article.</p> 
-   <p>This field is visible only if your organization has purchased [!DNL Workfront Goals]. For information about managing strategic goals using [!DNL Workfront Goals], see <a href="../../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md">Workfront Goals overview</a>. </p> </td> 
+   <p>This field is visible only if your organization has purchased [!DNL Workfront Goals]. For information about managing strategic goals using [!DNL Workfront Goals], see <a href="../../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md">Add projects to goals in [!UICONTROL Adobe Workfront Goals]</a>. </p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Object]</td> 
@@ -1560,7 +1560,7 @@ The following table is a list of commonly used terms in Adobe Workfront:
   </tr> 
   <tr data-mc-conditions=""> 
    <td><span>[!UICONTROL Progress]</span> </td> 
-   <td> <p>In a [!UICONTROL Goal] report, this displays the percent of how close a strategic goal is to completing. The percent of progress displays as a number. For information about strategic goals, also see "[!UICONTROL Goal]" in this table.</p> <p>This field is visible only if your organization has purchased [!DNL Workfront] Goals. For information about managing strategic goals using [!DNL Workfront Goals], see <a href="../../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md">[!DNL Workfront Goals] overview</a>. </p> </td> 
+   <td> <p>In a [!UICONTROL Goal] report, this displays the percent of how close a strategic goal is to completing. The percent of progress displays as a number. For information about strategic goals, also see "[!UICONTROL Goal]" in this table.</p> <p>This field is visible only if your organization has purchased [!DNL Workfront] Goals. For information about managing strategic goals using [!DNL Workfront Goals], see <a href="../../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md"> Add projects to goals in [!DNL Adobe Workfront Goals] </a>. </p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Progress Status]</td> 
@@ -1568,7 +1568,7 @@ The following table is a list of commonly used terms in Adobe Workfront:
     <ul> 
      <li> <p><a href="../../../manage-work/projects/planning-a-project/project-progress-status.md" class="MCXref xref">Project Progress Status overview</a> </p> </li> 
      <li> <p><a href="../../../manage-work/tasks/task-information/task-progress-status.md" class="MCXref xref">Task Progress Status overview</a> </p> </li> 
-     <li> <p><a href="../../../workfront-goals/goal-management/calculate-goal-progress.md">Calculate Goal Progress in [!DNL Workfront Goals]</a> </p>
+     <li> <p><a href="../../../workfront-goals/goal-management/calculate-goal-progress.md">Overview of goal progress and condition in [!DNL Adobe Workfront Goals]</a> </p>
      <p>The [!UICONTROL Goal] report and the [!UICONTROL Progress Status] for [!DNL goals] field are visible only if your organization has purchased [!DNL Workfront Goals]. For information about strategic goals in [!DNL Workfront Goals], see <a href="../../../workfront-goals/goal-management/wf-goals-overview.md">[!DNL Workfront Goals] overview</a>. </p> </li>
     </ul> </td> 
   </tr> 

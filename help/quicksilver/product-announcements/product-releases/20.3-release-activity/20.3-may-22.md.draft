@@ -40,8 +40,6 @@ The left sidebar in Setup is now faster and easier to use and leverages the basi
 
 For information about how to use the Setup area, see [Administration and setup](../../../administration-and-setup/administration-and-setup.md).
 
-[Watch a video demonstration of this feature.](https://vimeo.com/421243507/26ad60f0ef)
-
 ## Removed ability to create duplicate Event Subscriptions
 
 To prevent the delivery of duplicate messages, you can no longer create duplicate subscriptions. Additionally, any duplicate subscriptions created previously have been removed.

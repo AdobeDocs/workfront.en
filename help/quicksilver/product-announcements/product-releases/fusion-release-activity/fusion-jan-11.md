@@ -89,8 +89,6 @@ Previously, finding specific execution information required viewing each executi
 
 For more information, see [View a scenario's execution history in Adobe Workfront Fusion](../../../workfront-fusion/scenarios/view-scenario-execution-history.md).
 
-[Watch a video demonstration of this feature.](https://vimeo.com/499405293/16c7b06548)
-
 ## Updates to Fusion 2.0 Data Store
 
 To make it easier for you to customize your data stores, we've added some new functionality. Now when you're viewing a data store, you can:
@@ -100,8 +98,6 @@ To make it easier for you to customize your data stores, we've added some new fu
 * Add multiple rows
 
 For more information on Data Stores, see [Data store modules](../../../workfront-fusion/apps-and-their-modules/data-store-modules.md).
-
-[Watch a video demonstration of this feature.](https://vimeo.com/499406655/925cab56d5)
 
 ## Make an API Key authorization request through the HTTP connector
 

@@ -24,8 +24,6 @@ To make your Workfront Fusion Scenarios easier to work with, we've made it possi
 
 For more information, see [Copy modules or scenarios in Adobe Workfront Fusion](../../../workfront-fusion/scenarios/copy-modules-or-scenarios.md).
 
-[Watch a video demonstration of this feature.](https://vimeo.com/551492029/711caab03b)
-
 ## Select multiple modules in a Workfront Fusion scenario
 
 Now, when editing a scenario, you can select multiple modules at a time. You can then perform bulk actions on the selected modules.
@@ -41,8 +39,6 @@ For more information on editing scenarios, see [Create a scenario in Adobe Workf
 ## Modules now preserve unsaved information
 
 To make it easier to create scenarios, we've made it possible for modules to preserve field values when they are not in focus. Now, when you click away from a module without saving it, and then return to it, the fields show the previously entered values. When the module is closed, it displays an indicator that there are unsaved fields.
-
-[Watch a video demonstration of this feature.](https://vimeo.com/551494114/426ca80e2d)
 
 ## Azure AD connector now handles new and updated records separately
 

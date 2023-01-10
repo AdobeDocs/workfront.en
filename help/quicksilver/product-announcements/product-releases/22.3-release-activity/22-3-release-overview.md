@@ -48,7 +48,7 @@ These enhancements were made available in the Production environment the week of
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-admin-enhancements.md" class="MCXref xref" xrefformat="{para}">Use unlocked statuses in an approval processes
 </a></p></p> <p>This feature was removed from the 22.3 Production release. This feature is planned to release to Production at a future time.</p> 
-<p>To give you more control over the approval processes and statuses in your system, we’ve made it possible to create an approval process based on an unlocked system status. Moreover, you can now unlock any status that is already used in an approval process. Previously, a system status used in an approval process had to be locked. This made it available for all groups—without the possibility of removing or renaming it—so group administrators couldn’t streamline their group’s list of statuses to fit their specific needs.</p>   
+<p>To give you more control over the approval processes and statuses in your system, we've made it possible to create an approval process based on an unlocked system status. Moreover, you can now unlock any status that is already used in an approval process. Previously, a system status used in an approval process had to be locked. This made it available for all groups—without the possibility of removing or renaming it—so group administrators couldn't streamline their group's list of statuses to fit their specific needs.</p>   
    </td> 
     <td> <p><b>Available on these dates:</b> </p> 
     <ul> 
@@ -121,7 +121,7 @@ These enhancements were made available in the Production environment the week of
    <li><p>From the New Project option in a list of projects</p></li>
    <li><p>When converting an issue to a project from the issue page</p></li>
    </ul>
-   <p>The new setting is “Allow users to create projects without using a template” and it is enabled by default.</p> </td> 
+   <p>The new setting is "Allow users to create projects without using a template" and it is enabled by default.</p> </td> 
    <td> <p><b>Available on these dates:</b> </p> 
     <ul> 
      <li> <p>Preview release: May 19, 2022<br></p> </li> 
@@ -288,7 +288,7 @@ These enhancements were made available in the Production environment the week of
   </tr> 
   <tr>
                     <td>
-                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">Workfront Campaigns (Beta)</a> </p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/22.3-release-activity/22-3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Workfront Campaigns (Beta)</a> </p>
                         <p>We are introducing a new object to Adobe Workfront that has the potential to change the way you manage work. </p>
                         <p>Workfront Campaigns enables you to organize projects from different portfolios and programs in a new work container.
 Campaigns were released to Preview beta with the 22.3 release, in July 2022. For more information, see <a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">22.3 Project enhancements</a> </p>
@@ -298,7 +298,7 @@ Campaigns were released to Preview beta with the 22.3 release, in July 2022. For
                     <td><span class="bold">Available on these dates:</span>
                         <ul>
                             <li>
-                                <p>Preview release:&#160;Throughout the 22.4 release timeframe<br /></p>
+                                <p>Preview release:&#160;Throughout the 22.4 release timeframe<br /><span style="color: #ff0000; font-weight: bold;">This feature is planned to be removed from Preview on January 9, 2023. For more information, see the <a href="/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-release-overview.md">23.1 Release overview page.</a> </span></p>
                             </li>
                             <li>
                                 <p>Production release:&#160;TBD</p>
@@ -370,7 +370,7 @@ Campaigns were released to Preview beta with the 22.3 release, in July 2022. For
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Adobe Workfront for Experience Manager Assets integration</a> </p> <p>We are excited to announce that the Adobe Workfront Experience Manager Assets integration is now available for Cloud Service.</p>
-   <p>We’ve also introduced new functionality for both Cloud Service and Assets Essentials.</p> </td> 
+   <p>We've also introduced new functionality for both Cloud Service and Assets Essentials.</p> </td> 
    <td> <p><b>Available on these dates:</b> </p> 
     <ul> 
      <li> <p>Preview release: N/A<br></p> </li> 

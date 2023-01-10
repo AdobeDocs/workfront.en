@@ -34,8 +34,6 @@ For more information, see
 
 * [Change a user's access to Workfront Library](../../../workfront-library/administration-and-setup/user-access/change-user-access.md)
 
-[Watch a video demonstration of this feature.](https://vimeo.com/391362256/8c89677e28)
-
 ## Updates to removing users and user groupings from Workfront Library
 
 Use the More menu next the individual user's name to remove a user. You can no longer remove users in bulk, unless you are removing a job role, team, group, or company from Workfront Library.
@@ -54,4 +52,3 @@ Previously, when users with assets were removed from Workfront Library, these as
 
 For more information, see [Transfer ownership assets to another user](../../../workfront-library/administration-and-setup/manage-assets/transfer-ownership-to-others.md).
 
-[Watch a video demonstration of this feature.](https://vimeo.com/391362243/6581c1ef43)

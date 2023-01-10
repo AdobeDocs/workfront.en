@@ -20,8 +20,6 @@ Prior to this enhancement, you could only assign items by clicking the More menu
 
 For information about assigning work items in the Workload Balancer, see [Overview of assigning work in the Workload Balancer](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
 
-[Watch a video demonstration of this feature.](https://vimeo.com/601068019/12a45f567d)
-
 ## New default option for Workload Balancer
 
 As part of our effort to deprecate scheduling and make the Workload Balancer Workfront's main resource assignment tool, we have made the Workfront Balancer the default option for all new users. Currently, Scheduling is the default option. This change applies to all areas where you can access Scheduling from which include the Resourcing area (in the new Adobe Workfront experience) or in the People area (in Adobe Workfront Classic), as well as at the project and team level.
@@ -47,4 +45,3 @@ For more information, see [Manage filters in the Workload Balancer](../../../res
 >
 >With the filter updates, we have eliminated the **All work items** and **This project's work items** built-in filters in the Workload Balancer of a project.
 
-[Watch a video demonstration of this feature.](https://vimeo.com/600531468/314ff38a21)

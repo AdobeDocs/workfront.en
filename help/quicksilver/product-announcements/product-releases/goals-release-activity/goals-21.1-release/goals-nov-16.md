@@ -26,9 +26,7 @@ The number of Workfront Goals licenses associated with users. This is the number
 
 For information about managing your license count, see [Manage available licenses in your system](../../../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md).
 
-[Watch a video demonstration of this feature.](https://vimeo.com/481769970/14a32ce74d)
-
-## Eliminate the “My Teams” tab for users without teams
+## Eliminate the "My Teams" tab for users without teams
 
 To eliminate the confusion of displaying an empty tab, we have removed the "My Teams" tab from users who are not assigned to any teams. Prior to this change, if a user didn't belong to any teams, the My Teams tab was empty.
 

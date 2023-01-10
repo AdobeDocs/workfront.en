@@ -13,7 +13,7 @@ feature-set: Workfront
     * [Adobe Workfront release schedule and process](product-announcements/product-releases/workfront-release-schedule.md)
     * 23.1 Release {#release-23-1}
       * [23.1 Release overview](product-announcements/product-releases/23.1-release-activity/23-1-release-overview.md)
-      * [23.1 Project enhancements](product-announcements/product-releases/23.1-release-activity/23-1-project-enhancements.md)
+      * [23.1 Project and Resource Management enhancements](product-announcements/product-releases/23.1-release-activity/23-1-project-enhancements.md)
       * [23.1 Agile enhancements](product-announcements/product-releases/23.1-release-activity/23-1-agile-enhancements.md)
       * [23.1 Mobile enhancements](product-announcements/product-releases/23.1-release-activity/23-1-mobile-enhancements.md)
       * [23.1 Other enhancements](product-announcements/product-releases/23.1-release-activity/23-1-other-enhancements.md)
@@ -97,6 +97,7 @@ feature-set: Workfront
       * [21.1 Other enhancements](product-announcements/product-releases/21.1-release-activity/21-1-other-enhancements.md)
     * Adobe Workfront Fusion release activity {#fusion-release}
       * [Adobe Workfront Fusion release activity](product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)
+      * [Workfront Fusion release activity: Week of December 12, 2022](product-announcements/product-releases/fusion-release-activity/fusion-dec-12-22.md)
       * [Workfront Fusion release activity: Week of November 14, 2022](product-announcements/product-releases/fusion-release-activity/fusion-nov-14-22.md)
       * [Workfront Fusion release activity: Week of November 7, 2022](product-announcements/product-releases/fusion-release-activity/fusion-nov-9-22.md)
       * [Workfront Fusion release activity: Week of October 17, 2022](product-announcements/product-releases/fusion-release-activity/fusion-oct-17-22.md)
@@ -655,7 +656,6 @@ feature-set: Workfront
     * [Enable Adobe Workfront for Outlook](administration-and-setup/configure-integrations/enable-workfront-for-outlook.md)
     * [Configure document integrations](administration-and-setup/configure-integrations/configure-document-integrations.md)
     * [Disable document integrations](administration-and-setup/configure-integrations/disable-document-integrations.md)
-    * [Install the Zoom integration](administration-and-setup/configure-integrations/enable-zoom-integration.md)
     * [Configure the SharePoint integration](administration-and-setup/configure-integrations/configure-sharepoint-integration.md)
     * [Set up metadata mapping](administration-and-setup/configure-integrations/set-up-metadata-mapping.md)
     * [Create OAuth2 applications for Workfront integrations](administration-and-setup/configure-integrations/create-oauth-application.md)
@@ -680,6 +680,7 @@ feature-set: Workfront
     * [Prepare for the Adobe Admin Console](administration-and-setup/adobe-admin-console/prep-for-admin-console.md)    
   * Tips, tricks, and troubleshooting for administration and setup {#admin-setup-tips}
     * [Tips, tricks, and troubleshooting](administration-and-setup/tips-tricks-and-troubleshooting/ttt-admin-setup.md)
+    * [Group admins must have higher access than those they manage](administration-and-setup/tips-tricks-and-troubleshooting/group-admin-access-level.md)
     * [Active and deactivated objects](administration-and-setup/tips-tricks-and-troubleshooting/acitve-and-deactivated-objects.md)
     * [ADFS logout URL doesn't work](administration-and-setup/tips-tricks-and-troubleshooting/adfs-logout-url-doesnt-work.md)
     * [Administration and setup FAQ](administration-and-setup/tips-tricks-and-troubleshooting/admin-and-setup-faq.md)
@@ -1657,8 +1658,9 @@ feature-set: Workfront
     * [Update work items in the Workload Balancer using the Summary](resource-mgmt/workload-balancer/update-items-in-summary-panel-in-workload-balancer.md)
 * Review and approve work {#review-and-approve-work}
   * [Review and approve work](review-and-approve-work/review-and-approve-work.md)
-  * Manage approvals {#manage-approvals}
-    * [Manage approvals](review-and-approve-work/manage-approvals/manage-approvals.md)
+  * [Alpha Program – Document Approvals](review-and-approve-work/Documents/doc-approvals-alpha.md)
+  * Work approvals {#work-approvals}
+    * [Work approvals](review-and-approve-work/manage-approvals/manage-approvals.md)
     * [Approval process overview](review-and-approve-work/manage-approvals/approval-process-in-workfront.md)
     * [Request document approvals](review-and-approve-work/manage-approvals/request-document-approvals.md)
     * [Approving work](review-and-approve-work/manage-approvals/approving-work.md)
@@ -1841,7 +1843,7 @@ feature-set: Workfront
     * [Access and open goals in Adobe Workfront Goals](workfront-goals/goal-management/access-goals-in-wf-goals.md)
     * [Requirements to use Workfront Goals](workfront-goals/goal-management/access-needed-for-wf-goals.md)
     * [Activate goals in Adobe Workfront Goals](workfront-goals/goal-management/activate-goals.md)
-    * [Calculate goal progress in Adobe Workfront Goals](workfront-goals/goal-management/calculate-goal-progress.md)
+    * [Overview of goal progress and condition in Adobe Workfront Goals](workfront-goals/goal-management/calculate-goal-progress.md)
     * [Close and reopen goals in Adobe Workfront Goals](workfront-goals/goal-management/close-and-reopen-goals.md)
     * [Copy goals in Adobe Workfront Goals](workfront-goals/goal-management/copy-goals.md)
     * [Create goals in Adobe Workfront Goals](workfront-goals/goal-management/create-goals.md)
@@ -1872,7 +1874,7 @@ feature-set: Workfront
     * [Results and activities in Adobe Workfront Goals](workfront-goals/results-and-activities/results-and-activities.md)
     * [Add activities to goals in Adobe Workfront Goals](workfront-goals/results-and-activities/add-activities-to-goals.md)
     * [Add results to goals in Adobe Workfront Goals](workfront-goals/results-and-activities/add-results-to-goals.md)
-    * [Overview of connecting projects to goals in Adobe Workfront Goals](workfront-goals/results-and-activities/connect-projects-to-goals-overview.md)
+    * [Add projects to goals in Adobe Workfront Goals](workfront-goals/results-and-activities/connect-projects-to-goals-overview.md)
     * [Edit results and activities in Adobe Workfront Goals](workfront-goals/results-and-activities/edit-results-and-activities.md)
     * [Get started with results and activities in Adobe Workfront Goals](workfront-goals/results-and-activities/get-started-with-results-and-activities.md)
     * [Remove results, activities, and projects from goals in Adobe Workfront Goals](workfront-goals/results-and-activities/remove-results-activities-from-goals.md)
@@ -2096,6 +2098,7 @@ feature-set: Workfront
       * [Mark work items complete using the Adobe Workfront plugin](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-complete.md)
       * [Log time using the Adobe Workfront plugin](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-log-time.md)
     * Upload documents and proofs with the Adobe Workfront plugin for Creative Cloud Applications {#upload-docs-proofs-wf-cc}
+      * [Upload documents and proofs from the [!DNL Adobe Workfront plugin] to the [!DNL Creative Cloud]](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/upload-documents-and-proofs.md)
       * [Upload documents and proofs with the Adobe Workfront plugin for Creative Cloud Applications](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-docs-proofs-toc.md)
       * [Upload proofs from Photoshop](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-proofs-ps.md)
       * [Upload documents from Photoshop](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-docs-ps.md)
@@ -2179,11 +2182,6 @@ feature-set: Workfront
     * [Apply an Anaplan budget allocation to an Adobe Workfront project](workfront-integrations-and-apps/adobe-workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-projects.md)
     * [Create an Anaplan list item from an Adobe Workfront campaign request](workfront-integrations-and-apps/adobe-workfront-with-anaplan/create-an-anaplan-list-item-from-a-workfront-campaign-request.md)
     * [Apply an Anaplan budget allocation to an Adobe Workfront campaign request or campaign project](workfront-integrations-and-apps/adobe-workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-campaign-requests-and-projects.md)
-  * Workfront Zoom integration {#workfront-zoom-integration}
-    * [Zoom integration](workfront-integrations-and-apps/zoom-integration-with-wf/zoom-integration.md)
-    * [Zoom integration overview](workfront-integrations-and-apps/zoom-integration-with-wf/zoom-integration-overview.md)
-    * [Authorize the Zoom integration](workfront-integrations-and-apps/zoom-integration-with-wf/authorize-zoom-integration.md)
-    * [Uninstall the Zoom integration](workfront-integrations-and-apps/zoom-integration-with-wf/uninstall-zoom-integration.md)
 * Workfront Library {#workfront-library}
   * [Workfront Library](workfront-library/workfront-library.md)
   * Administration and setup of Workfront Library {#admin-setup-wf-library}
@@ -2512,6 +2510,7 @@ feature-set: Workfront
     * [Update integrations that use default API versioning](wf-api/api/update-default-api-versioning.md)
     * [Filter event subscription messages](wf-api/api/filter-event-sub-messages.md)
     * [Event subscription resource fields](wf-api/api/event-sub-resource-fields.md)
+    * [Event subscription certificates](wf-api/api/event-sub-certs.md)
     * [Specify an API Version in your integrations](wf-api/api/specify-api-version-integrations.md)
     * [Core API changes: Status search responses](wf-api/api/api-changes-search.md)
     * [API versioning and support schedule](wf-api/api/api-version-support-schedule.md)

@@ -9,13 +9,70 @@ exl-id: df2cdc12-9102-4759-9daa-1f8ae68f110b
 ---
 # Review in-trouble goals in&nbsp;Adobe Workfront Goals
 
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> 
+
 <!--
 <p>(NOTE: the status of goals in "red" used to be called At Risk. Now, it is "in trouble") </p>
 -->
 
-Goals with a Progress of In Trouble are in danger of not being achieved and are represented by a red progress bar in Adobe Workfront Goals. You should review your goals often and understand why the progress is lagging. For information about goal progress, see [Calculate goal progress in Adobe Workfront Goals](../../workfront-goals/goal-management/calculate-goal-progress.md).
+Goals with a Progress of In Trouble are in danger of not being achieved and are represented by a red progress bar in Adobe Workfront Goals. You should review your goals often and understand why the progress is lagging. For information about goal progress, see [Overview of goal progress and condition in Adobe Workfront Goals](../../workfront-goals/goal-management/calculate-goal-progress.md).
 
 ## Access requirements
+
+<!--drafted for P&P release: replace the existing requirements with this:
+
+You must have the following: 
+
+<table style="table-layout:auto">
+ <col>
+ </col>
+ <col>
+ </col>
+ <tbody>
+  <tr>
+   <td role="rowheader">Adobe Workfront plan*</td>
+   <td>
+   <p>Current plan: Select or higher</p>
+   Or
+   <p>Legacy plan: Pro or higher</p>
+   
+   </td>
+  </tr>
+  <tr>
+   <td role="rowheader">Adobe Workfront license*</td>
+   <td>
+   <p>Current license: Contributor or higher</p>
+   Or
+   <p>Legacy license: Request or higher</p> <p>For more information, see <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p> </td>
+  </tr>
+  <tr>
+   <td role="rowheader">Product</td>
+   <td>
+   <p> Current product requirement: If you have the Select or Prime Adobe Workfront plan, you must also buy an additional Adobe Workfront Goals license.  Workfront Goals are included in the Ultimate Workfront Plan.</p>
+   Or
+   <p>Legacy product requirement: You must purchase an additional license for the Adobe Workfront Goals to access functionality described in this article. </p> <p>For information, see <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requirements to use Workfront Goals</a>. </p> </td>
+  </tr>
+  <tr>
+   <td role="rowheader">Access level*</td>
+   <td> <p>Edit access to Goals</p> <p><b>NOTE</b><p>If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see:</p>
+     <ul>
+      <li> <p><a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a> </p> </li>
+      <li> <p><span href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md"><a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md" class="MCXref xref">Grant access to Adobe Workfront Goals</a></span> </p> </li>
+     </ul> </p> </td>
+  </tr>
+  <tr data-mc-conditions="">
+   <td role="rowheader">Object permissions</td>
+   <td>
+    <div>
+     <p>View or higher permissions to the goal to view it</p>
+     <p>Manage permissions to the goal to edit it</p>
+     <p>For information about sharing goals, see <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Share a goal in Workfront Goals</a>. </p>
+    </div> </td>
+  </tr>
+ </tbody>
+</table>
+
+-->
 
 You must have the following:
 
@@ -108,12 +165,24 @@ This article describes how to review goals in the Goal List.
 
 1. (Optional) Use the filters to find goals that belong to a specific owner.
 
-   In-trouble goals for the selected users display in the goal list. 
+   In-trouble goals for the selected users display in the goal list.
 
-1. Click the down-pointing arrow to the left of the goal name in the list to view additional information about the goals and their contributing items. 
-1. A list of results, activities, and aligned goals displays under each goal. Now, you can view which contributing item delays the progress of your goal.
+1. (Conditional) In the Production environment do the following: <!--remove this bullet and sub-bullets at Production goal redesign release-->
 
-   ![](assets/expanded-goal-w-contributing-items-attached-350x105.png)
+   1. Click the down-pointing arrow to the left of the goal name in the list to view additional information about the goals and their contributing items. 
+   1. A list of results, activities, and aligned goals displays under each goal. Now, you can view which contributing item delays the progress of your goal.
 
-1. (Optional) Click **Print** to export the list of the in-trouble goals in various formats and share it with others. For information about printing goal lists, see [Print the Goal List in Adobe Workfront Goals](../../workfront-goals/goal-management/print-the-goal-list.md). 
-1. Click a **goal name** to open the Goal Details panel, then click **Check in** to update the progress of the Results or Activities associated with the delayed goals. This updates the goals' progress as well. For information about updating the progress of results and activities to check in a goal, see [Update goals by using Check-in in Adobe Workfront Goals](../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md).
+      ![](assets/expanded-goal-w-contributing-items-attached-350x105.png)
+
+   1. (Optional) Click **Print** to export the list of the in-trouble goals in various formats and share it with others. For information about printing goal lists, see [Print the Goal List in Adobe Workfront Goals](../../workfront-goals/goal-management/print-the-goal-list.md). 
+   1. Click a **goal name** to open the Goal Details panel, then click **Check in** to update the progress of the Results or Activities associated with the delayed goals. This updates the goal's progress as well. For information about updating the progress of results and activities to check in a goal, see [Update goals by using Check-in in Adobe Workfront Goals](../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md).
+
+1. <span class="preview">(Conditional) In the Preview environment, click a goal name to open the goal page, then click **Progress Indicators** in the left panel. View which progress indicator causes the goal to be behind and update the progress of the indicator inline, in the **Actual progress** column of the Progress indicators list. </span>
+
+   ![](assets/actual-progress-editable-column-in-indicator-list-unshimmed.png)
+
+   >[!NOTE]
+   >
+   ><span class="preview">You can update only results and activities in the Progress indicators list. You must update the progress indicators of children goals by accessing the goals and you must update the tasks on the connected projects to update the progress of the projects.</span>
+
+

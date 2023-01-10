@@ -145,9 +145,3 @@ To learn how to get the best data for this visualization, see [Enhanced analytic
    * **Data Table (XSLX)**
 
 1. (Optional) To see details about the progress of tasks in the selected project, look at the Tasks in flight visualization that appears below the Burndown visualization.
-
-## Video walk-through
-
-View the following video to learn more about the Burndown visualization. This video was recorded in the new Workfront experience. However, the content also applies to Workfront Classic.
-
-[ ![](assets/video-walk-through--350x197.png)](https://vimeo.com/441154380/51a7bd4040)

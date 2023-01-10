@@ -127,8 +127,4 @@ To learn how to get the best data for this visualization, see [Enhanced analytic
 
    To learn more about the Team capacity visualization, see [View the Team capacity visualization in Enhanced analytics](../enhanced-analytics/team-capacity-overview.md).
 
-## Video walk-through
 
-View the following video to learn more about the Resource capacity visualization. This video was recorded in Workfront Classic. However, the content also applies to the new Workfront experience.
-
-[ ![](assets/video-walk-through--350x197.png)](https://vimeo.com/368320000/cc5bb66ac8)

@@ -103,15 +103,7 @@ You must have the following access to perform the steps in this article:
    1. Under **Text to display**, type or paste the link text.
    1. Click **Save**.
 
-1. (Optional) To insert a Zoom meeting URL in your update, click the **Zoom** icon ![](assets/zoom-icon-updates.png).
 
-   The recipients that you notify can join the meeting after they receive their instant notification in Workfront or via email. For more information on notifying users, see the Notify section below.
-
-   >[!NOTE]
-   >
-   >* The Zoom integration is available only if your Workfront administrator enabled it, as explained in [Install the Zoom integration](../../administration-and-setup/configure-integrations/enable-zoom-integration.md).
-   >* The first time you use this integration, you need to follow the prompts requesting you to connect Zoom to Workfront. You need to do this only once.
-   >* Although the integration uses your Zoom account, the Zoom meeting ID that you add to your update is a unique meeting URL, not your personal Zoom meeting room URL.
 
 1. (Optional) To attach an image to your update, click the **Image** icon ![](assets/addimageicon-35x32.png) and browse to the image on your computer.  
    Or  

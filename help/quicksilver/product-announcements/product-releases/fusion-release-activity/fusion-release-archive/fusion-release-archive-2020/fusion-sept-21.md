@@ -24,8 +24,6 @@ To help you use your Workfront scenarios more easily, we've introduced a new typ
 
 For more information, see [Adobe Workfront modules](../../../../../workfront-fusion/apps-and-their-modules/workfront-modules.md).
 
-[Watch a video demonstration of this feature.](https://vimeo.com/462776752/b869edeb69)
-
 ## Updates to Workfront > Watch Fields module
 
 To make it easier to set up the Workfront > Watch fields module, we've updated the module to only display fields that have actually been setup for tracking in your Workfront instance. Your Workfront administrator configures which object fields and actions Workfront tracks.

@@ -21,8 +21,6 @@ Only a Workfront administrator can opt in to the early features. When the admini
 
 For more information, see [Early feature opt-in for Adobe Workfront Boards](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md).
 
-[View a video demonstration of this feature.](https://vimeo.com/731901484/27e4ab8ec2)
-
 ## Work In Progress limit now available on board columns
 
 >[!NOTE]
@@ -33,8 +31,6 @@ You can now set a Work In Progress (WIP) limit for any column on a board. When y
 
 For more information, see [Manage board columns](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md).
 
-[View a video demonstration of this feature.](https://vimeo.com/731902045/c2cd2b6cf6)
-
 ## Estimation field added to cards
 
 >[!NOTE]
@@ -42,8 +38,6 @@ For more information, see [Manage board columns](/help/quicksilver/agile/get-sta
 >This feature is only available through the early feature opt-in for Workfront Boards.
 
 A new Estimation field on both ad hoc and connected cards allows you to enter the estimated number of hours for the card to be completed. This is a manual entry, not a calculated value, and the value can't be more than 99. The estimate is displayed on the card on the board as well as in the card details.
-
-[View a video demonstration of this feature.](https://vimeo.com/731902610/313c4e2791)
 
 ## Public Beta - New filter experience for projects, tasks, and issues
 
@@ -94,4 +88,3 @@ We want to deliver value to you iteratively so we will continue to deliver as th
 
 For more information, see [Filters overview in Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/filters-overview.md) and [Create or edit filters in Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-filters.md).
 
-[View a video demonstration of this feature.](https://vimeo.com/731900334/6b6668438f)

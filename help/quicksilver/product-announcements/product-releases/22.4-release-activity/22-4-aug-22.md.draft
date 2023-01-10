@@ -28,8 +28,6 @@ Existing layout templates automatically include the Blueprints icon, and adminis
 
 For more information, see [Configure access to Blueprints](/help/quicksilver/administration-and-setup/blueprints/configure-access-to-blueprints.md).
 
-[View a video demonstration of this feature](https://vimeo.com/743151838){target=_blank}
-
 ## Migration to Adobe Unified Experience
 
 If your organization has been onboarded to the Adobe Admin Console, your Workfront instance will be migrated to the Adobe Unified Experience with the 22.4 release.
@@ -43,8 +41,6 @@ The Adobe Unified Experience includes:
 * Navigation with options for Workfront pages, Adobe Experience Cloud preferences, and your Workfront profile
 
 For more information, see [Adobe Unified Experience for Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
-
-[View a video demonstration of this feature.](https://vimeo.com/743154706){target=_blank}
 
 ## Task header customization
 
@@ -61,8 +57,6 @@ This update includes the following enhancements:
 Prior to this release, only project headers could be customized. 
 
 For more information, see [Customize object headers using a Layout Template](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).
-
-[View a video demonstration of this feature.](https://vimeo.com/743171730){target=_blank}
 
 ## Workload Balancer enhancements for Work-license users and Issue settings 
 
@@ -96,4 +90,3 @@ Now, when you add a user to any of these fields in the Edit or Details areas, in
 
 For more information, see [Edit Projects](/help/quicksilver/manage-work/projects/manage-projects/edit-projects.md).
 
-[View a video demonstration of this feature.](https://vimeo.com/743166837){target=_blank}

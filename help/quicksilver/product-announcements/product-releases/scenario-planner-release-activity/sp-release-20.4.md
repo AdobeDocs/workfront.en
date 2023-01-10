@@ -21,7 +21,7 @@ A new capability in the Workfront Scenario Planner now allows you to publish a s
 
 Included in this new functionality are the following:
 
-* A new “Go to publish” button for the scenario that you decide to publish in the Scenario Planner
+* A new "Go to publish" button for the scenario that you decide to publish in the Scenario Planner
 * New Scenario Planner area in the Project Details section that captures information about the initiative linked to the project
 * Ability to add or remove the Scenario Planner area from Project Details using a Layout Template
 * A new filter (the Scenario Planner Projects filter) displays projects published from the Scenario Planner in the Projects area
@@ -32,11 +32,7 @@ For information about publishing a plan, see [Update or create projects by publi
 
 Watch the following video to understand how you can create a project by publishing a scenario:
 
-[Watch a video demonstration of this feature.](https://vimeo.com/468341019/0af7269c51)
-
 Watch the following video to understand how you can update a project previously imported on a plan by publishing a scenario:
-
-[Watch a video demonstration of this feature.](https://vimeo.com/468342122/11bb642ac6)
 
 ## Share plans in the Scenario Planner
 
@@ -44,4 +40,3 @@ To invite other users to collaborate with you when working in the Workfront Scen
 
 For information about sharing a plan in the Scenario Planner, see [Share a plan in the Scenario Planner](../../../scenario-planner/share-a-plan.md).
 
-[Watch a video demonstration of this feature.](https://vimeo.com/468347771/c38e5cd092)

@@ -29,7 +29,7 @@ With the current update, we have also deprecated the following features:
 
 *   Creating a task from an update has been removed. This feature has been removed since the 2018.2 release from the Updates areas of all other objects, but it was still available in the timesheet update stream.
     
-*   The “Add expenses from a timesheet. “preference has been removed from the Timesheet & Hours Preferences area of Setup and you can no longer log expenses from the timesheet. You can still log expenses from the task and project pages.
+*   The "Add expenses from a timesheet. "preference has been removed from the Timesheet & Hours Preferences area of Setup and you can no longer log expenses from the timesheet. You can still log expenses from the task and project pages.
     
 
 For more information, see the following articles:
@@ -39,8 +39,6 @@ For more information, see the following articles:
 *   [Configure timesheet and hour preferences](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md)
     
 
-[View a video demonstration of this feature.](https://vimeo.com/716391326/c0e27ca296)
-
 ## Enhancements to left navigation panel
 
 We have made several enhancements to the left navigation panel in Adobe Workfront.
@@ -48,8 +46,6 @@ We have made several enhancements to the left navigation panel in Adobe Workfron
 *   The look and feel of the left navigation panel was updated to Adobe design standards, including colors and fonts.
     
 *   The "Add custom section" link at the bottom of the panel has been renamed "Add dashboard" to better explain its function.
-
-[View a video demonstration of this feature.](https://vimeo.com/718489614/6fbe7df91b)
 
 ## Enable automatic refresh token rotation in your custom OAuth2 applications
 

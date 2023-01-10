@@ -545,10 +545,10 @@ By editing issue settings, you can prevent users from adding issues inline in th
 
 
    <!--drafted section below for the edit template story: 
-   remove this tag and add the Preview blurb at the top of this article in yellow, if it's not already there. Keep the "div span" tags below until 23.1 production: -->
+   remove this tag and add the Preview blurb at the top of this article in yellow, if it's not already there. Keep the "div class" tags below until 23.1 production: -->
 
 
-<div span="preview">
+<div class="preview">
 
 ### Edit a template in the Preview environment {#edit-a-template-in-the-preview-environment}
 
@@ -581,7 +581,10 @@ By editing issue settings, you can prevent users from adding issues inline in th
       * [Tasks Settings](#task-settings) 
       * [Issue Settings](#issue-settings) 
       * [Access](#access-preview) 
-      
+   
+</div>
+
+<div class="preview">
 
 #### Template Name{#template-name}
 
@@ -592,6 +595,10 @@ By editing issue settings, you can prevent users from adding issues inline in th
       Or
 
       Click **Save**.
+
+</div>
+
+<div class="preview">
 
 #### Overview {#overview-preview}
 
@@ -690,6 +697,10 @@ By editing issue settings, you can prevent users from adding issues inline in th
 
       Click **Save**.
 
+</div>
+
+<div class="preview">
+
 #### Finance {#finance-preview}
 
    1. Begin editing your template as described above.
@@ -746,6 +757,9 @@ By editing issue settings, you can prevent users from adding issues inline in th
 
       Click **Save**.
 
+</div>
+
+<div class="preview">
 
 #### Custom Forms {#custom-forms-preview}
 
@@ -773,6 +787,10 @@ By editing issue settings, you can prevent users from adding issues inline in th
       Or
 
       Click **Save**.
+
+</div>
+
+<div class="preview">
 
 #### Project Settings {#project-settings}
 
@@ -902,6 +920,10 @@ By editing issue settings, you can prevent users from adding issues inline in th
       Or
    1. Click **Save**.
 
+</div>
+
+<div class="preview">
+
 #### Task Settings {#task-settings}
 
    You can define the defaults that will be associated with all the new tasks when you add them to a project that is created from the template.
@@ -932,6 +954,10 @@ By editing issue settings, you can prevent users from adding issues inline in th
 
       Click **Save**.
 
+</div>
+
+<div class="preview">
+
 ### Issue Settings {#issue-settings}
 
    By editing issue settings, you can prevent users from adding issues inline in the future project created from the template.
@@ -961,6 +987,9 @@ By editing issue settings, you can prevent users from adding issues inline in th
 
       Click **Save**.
 
+</div>
+
+<div class="preview">
 
 #### Access {#access-preview}
 
