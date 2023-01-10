@@ -63,15 +63,21 @@ For more information, see [Grant a user full administrative access](../../../adm
 
 ### Standard access level
 
-Also attached to the Standard license, this access level is designed for:
+Also attached to the Standard license, this access level is designed for users who:
 
-* Managers of groups, teams, projects, and resources
-* Anyone who is responsible for planning, creating, and managing tasks, projects, portfolios, and programs
-* Anyone who is responsible for assigning work (tasks and issues) to other users
-* Users who build reports and who approve timesheets, work items, and documents
-* Users who need access to all areas in the  Main Menu ![](assets/main-menu-icon.png)
+* Plan, create, and track all projects in one place
+* Automate routine processes
+* Manage resources
+* Track and collaborate on requests
+* Track and report on project finances
+* Kickoff inbound work requests
+* Collaborate on projects, tasks, and issues
 
-You can create a custom version of the Standard built-in access level and adjust the amount of access it allows for the various Workfront object types. For information on creating a custom access level, see [Create or modify custom access levels](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+>[!NOTE]
+>
+>You can create a custom version of the Standard built-in access level and adjust the amount of access it allows for the various Workfront object types. For information on creating a custom access level, see [Create or modify custom access levels](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+
+#### **Access details**
 
 The following are the highest access settings available for objects in the Standard access level:
 
@@ -90,24 +96,37 @@ The following are the highest access settings available for objects in the Stand
 | Financial data |&nbsp; |&nbsp; |✓ |
 | Resource Management |&nbsp; |&nbsp; |✓ |
 | Scenario Planner  |&nbsp; |&nbsp; |✓ (The default setting is No Access.) |
-| Workfront Goals  |&nbsp; |&nbsp; |✓ (The default setting is No Access.) |
+| Boards |&nbsp; |&nbsp; |✓ | 
+| Home |&nbsp; |&nbsp; |✓|
+| Native integrations |&nbsp; |&nbsp; |✓ |
+| Goals  |&nbsp; |&nbsp; |✓ |
 
 {style="table-layout:auto"}
 
 ### Light access level
 
-Attached to the Light license, this access level <!-- need content from lauren -->
+Attached to the Light license, this access level is designed for users who:
 
+* View all items and updates tied to work
+* Approve projects, tasks, and issues
+* View dashboards and reports
+* Track time
+* Create and manage issues
+* Make updates on work
 
 Users with the Light access level:
 
-* Cannot be assigned work items or approve time sheets
-* Can access requests and documents in the  Main Menu ![](assets/main-menu-icon.png).
+* Cannot be assigned work items or approve timesheets
+* Can access requests and documents in the Main Menu ![](assets/main-menu-icon.png).
 * Have limited ability to create objects—they can't create projects, portfolios, programs, or reports.
 
-You can create a custom version of the Light built-in access level and adjust the amount of access it allows for the various Workfront object types. For information on creating a custom access level, see [Create or modify custom access levels](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+>[!NOTE]
+>
+>You can create a custom version of the Light built-in access level and adjust the amount of access it allows for the various Workfront object types. For information on creating a custom access level, see [Create or modify custom access levels](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
-More limited for projects and tasks than the light access level, the following are the highest access settings available for objects in the Light access level:
+#### **Access details**
+
+The following are the highest access settings available for objects in the Light access level:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -207,18 +226,43 @@ More limited for projects and tasks than the light access level, the following a
    <td>&nbsp;</td> 
    <td>✓ (The default setting is No Access.)</td> 
   </tr> 
+  <tr> 
+   <td>Boards </td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
+   <td>✓</td> 
+     <tr> 
+   <td>Home </td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
+   <td>✓</td> 
+  </tr> 
+    <tr> 
+   <td>Native integrations </td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
+   <td>✓</td> 
+  <tr>   
+   <td>Goals </td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
+   <td>✓</td> 
  </tbody> 
 </table>
 
 ### Light limited
 
-<!--copy of contrib? -->
+Attached to the ____ license, the Light (Limited) access level is for users when Contributor or External license users exceed their approval limit. For more information, see ____.
+
+[do we need a table outlining access to objects?]
 
 ### Contributor access level
 
-Attached to the Contributor license, this built-in access level is designed <!-- need content from Lauren -->
+Attached to the Contributor license, this access level is designed for users who:
 
-For example, a user can log issues to your organization's help desk request queue.
+* Submit requests
+* Tack requests
+* Update and review requests.
 
 Users with this built-in access level:
 
@@ -226,9 +270,13 @@ Users with this built-in access level:
 * Can upload and approve documents
 * Can review the status of issues they have submitted
 * Cannot be assigned to work items  
-* Can  access requests only from the Main Menu ![](assets/main-menu-icon.png). For more information about request queues, see [Create a Request Queue](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+* Can access requests only from the Main Menu ![](assets/main-menu-icon.png). For more information about request queues, see [Create a Request Queue](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
-You can create a custom version of the Contributor built-in access level and adjust the amount of access it allows for the various Workfront object types. For information on creating a custom access level, see [Create or modify custom access levels](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+>[!NOTE]
+>
+>You can create a custom version of the Contributor built-in access level and adjust the amount of access it allows for the various Workfront object types. For information on creating a custom access level, see [Create or modify custom access levels](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+
+#### **Access details**
 
 The following are the highest access settings available for objects in the Contributor access level:
 
@@ -248,6 +296,10 @@ The following are the highest access settings available for objects in the Contr
 | Financial data |✓ |&nbsp; |&nbsp; |
 | Resource Management |✓ |&nbsp; |&nbsp; |
 | Scenario Planner  |✓ |&nbsp; |&nbsp; |
+| Boards |&nbsp; |✓ (Connected cards) |✓ (Simple cards) | 
+| Home |&nbsp; |✓ (My updates) |&nbsp; |
+| Native integrations |✓ |&nbsp; |&nbsp; |
+| Goals  |&nbsp; |&nbsp; |✓ |
 
 {style="table-layout:auto"}
 
@@ -255,7 +307,7 @@ The following are the highest access settings available for objects in the Contr
 
 This access level is not attached to a paid Workfront license. It is the most restrictive access level, designed primarily for collaborators like external consultants who don't log into Workfront, but need to review, download, or view documents occasionally.
 
-Workfront users can assign tasks to external users even though external users can't log in to the system. But we advise against this because that work would remain unresolved in the system. <!--still true?-->
+Workfront users can assign tasks to external users even though external users can't log in to the system. But we advise against this because that work would remain unresolved in the system.
 
 Users with the External User access level:
 
@@ -269,6 +321,8 @@ You cannot modify this access level.
 >
 >External User is available only if the option "Collaborate with people without Workfront accounts by using their email address" is enabled in the System Preferences area in Setup. For more information, see [Configure system security preferences](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md). 
 
+#### **Access details**
+
 The following are the highest access settings available for objects in the External User access level.
 
 | Workfront object type |No access |View access |Edit access |
@@ -280,13 +334,17 @@ The following are the highest access settings available for objects in the Exter
 | Programs |✓ |&nbsp; |&nbsp; |
 | Reports (including dashboards and calendar reports) |&nbsp; |✓ (Only for calendar reports; no ability to share reports) |&nbsp; |
 | Filters, views, and groupings |✓ |&nbsp; |&nbsp; |
-| Document |&nbsp; |✓ (without the ability to share documents) |&nbsp; |
+| Document |&nbsp; |✓ (No ability to share documents) |&nbsp; |
 | User |&nbsp; |✓ |&nbsp; |
 | Teams |✓ |&nbsp; |&nbsp; |
 | Template |✓ |&nbsp; |&nbsp; |
 | Financial data |✓ |&nbsp; |&nbsp; |
 | Resource Management |✓ |&nbsp; |&nbsp; |
 | Scenario Planner  |✓ |&nbsp; |&nbsp; |
+| Boards |✓ |&nbsp; |&nbsp; | 
+| Home |✓ |&nbsp; |&nbsp; |
+| Native integrations |✓ |&nbsp; |&nbsp; |
+| Goals  |✓ |&nbsp; |&nbsp; |
 
 
 ## How access levels and permissions work together
