@@ -22,14 +22,6 @@ This process is broken up into 3 main tasks:
 
 Each of these procedures is outlined in the proper order in this article.
 
->[!IMPORTANT]
->
->If you use Legacy Workfront Fusion or Workfront Fusion, you must turn off your FLOs or scenarios before you can import data via Kick-Starts.
->
->For information on how to turn off FLOs in Legacy Workfront Fusion, see the Legacy Workfront Fusion [Getting Started](https://learn.fusion.workfront.com/quickstart-2019/) guide.
->
->For information on how to deactivate scenarios in Workfront Fusion, see [Activate or deactivate a scenario in Adobe Workfront Fusion](../../../workfront-fusion/scenarios/activate-or-inactivate-scenario.md).
-
 ## Access requirements
 
 You must have the following access to perform the steps in this article: 
@@ -66,10 +58,6 @@ You can import large numbers of objects into Workfront using a Kick-Start templa
 When you export a Kick-Start template you receive a blank Excel spreadsheet workbook. In subsequent procedures in this article, you will populate the workbook with your information and then import it back into Workfront.
 
 To export a Kick-Start template:
-
-1. (Conditional) If you are using Workfront Fusion, turn off active FLOs or scenarios.
-
-   For information on how to turn off FLOs in Legacy Workfront Fusion, see the Legacy Workfront Fusion [Getting Started](https://learn.fusion.workfront.com/quickstart-2019/) guide. For information on how to deactivate scenarios in Workfront Fusion, see [Activate or deactivate a scenario in Adobe Workfront Fusion](../../../workfront-fusion/scenarios/activate-or-inactivate-scenario.md).
 
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).  
 
@@ -444,12 +432,6 @@ The Kick-Start import supports the following file types:
 
 
 To import the template spreadsheet data into Workfront:
-
-1. (Conditional) If you are using Workfront Fusion, ensure that your FLOs or scenarios are turned off.
-
-   For information on how to turn off FLOs in Legacy Workfront Fusion, see the Legacy Workfront Fusion [Getting Started](https://learn.fusion.workfront.com/quickstart-2019/) guide.
-
-   For information on how to deactivate scenarios in Workfront Fusion, see [Activate or deactivate a scenario in Adobe Workfront Fusion](../../../workfront-fusion/scenarios/activate-or-inactivate-scenario.md).
 
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).  
 
