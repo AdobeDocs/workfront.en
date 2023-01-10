@@ -66,7 +66,7 @@ You must have the following access to perform the steps in this article:
     <tbody> 
      <tr> 
       <td role="rowheader">Name</td> 
-      <td> <p>Type a name for your access level. </p> <p>If you just copied an access level to create a new one, the default name is Access Level Name (Copy), where Access Level Name is the access level you copied.</p> <p><strong>Tip</strong>: We recommend that you include the original name of the access level in the name of the copy. For example, at ACME company, a copy of the Planner access level might be named ACME Planner.</p> </td> 
+      <td> <p>Type a name for your access level. </p> <p>If you just copied an access level to create a new one, the default name is Access Level Name (Copy), where Access Level Name is the access level you copied.</p> <p><strong>Tip</strong>: We recommend that you include the original name of the access level in the name of the copy. For example, at ACME company, a copy of the Standard access level might be named ACME Standard.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Description </td> 
@@ -118,7 +118,7 @@ You must have the following access to perform the steps in this article:
         <li>Add new job roles</li> 
         <li>Edit role billing and cost rates</li> 
        </ul> 
-       <p>For important information about access to financial data that is available to a Planner user with administrative access to job roles, see <a href="#planner-users-with-administrative-access-to-job-roles">Planner users with administrative access to job roles</a>.</p>
+       <p>For important information about access to financial data that is available to a Standard or Planner user with administrative access to job roles, see <a href="#planner-users-with-administrative-access-to-job-roles">Standard or Planner users with administrative access to job roles</a>.</p>
       </td> 
      </tr> 
      <tr> 
@@ -131,7 +131,7 @@ You must have the following access to perform the steps in this article:
      </tr> 
      <tr> 
       <td role="rowheader">Timesheets &amp; hours</td> 
-      <td> <p>Group administrators can assign timesheet profiles to users in the groups and subgroups they manage.</p> <p>Without this option enabled, group administrators cannot assign timesheet profiles to other users in the groups and subgroups they manage, although they can create them.</p> <p>All other users with a Plan license can view all hours and timesheets in Workfront.</p> <p>Without this option enabled, users can view hours only on:</p> 
+      <td> <p>Group administrators can assign timesheet profiles to users in the groups and subgroups they manage.</p> <p>Without this option enabled, group administrators cannot assign timesheet profiles to other users in the groups and subgroups they manage, although they can create them.</p> <p>All other users with a Standard or Plan license can view all hours and timesheets in Workfront.</p> <p>Without this option enabled, users can view hours only on:</p> 
        <ul> 
         <li>Projects, tasks or issues they manage</li> 
         <li>Their own timesheet</li> 
@@ -200,9 +200,9 @@ You must have the following access to perform the steps in this article:
    
    For information about how an Adobe administrator assigns a System Administrator access level to a users, see [Grant a user full administrative access](../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md).
 
-## Planner users with administrative access to job roles {#planner-users}
+## Standard or Planner users with administrative access to job roles {#planner-users}
 
-If you grant a Planner user administrative access to job roles, the Edit Role Billing &amp; Cost Rates setting is automatically enabled for the user automatically.
+If you grant a Standard or Planner user administrative access to job roles, the Edit Role Billing &amp; Cost Rates setting is automatically enabled for the user automatically.
 
 Later, if you disable administrative access to job roles for the user, job roles are still visible to the user because the Edit Role Billing &amp; Cost Rates setting is still enabled.
 
