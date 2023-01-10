@@ -648,7 +648,6 @@ feature-set: Workfront
   * Configure integrations {#configure-integrations}
     * [Configure integrations](administration-and-setup/configure-integrations/workfront-integrations.md)
     * [Adobe Workfront integrations](administration-and-setup/configure-integrations/workfront-integrations-1.md)
-    * [Slack app for Legacy Workfront Fusion](administration-and-setup/configure-integrations/legacy-fusion-slack-app.md)
     * [Configure Workfront with Adobe Experience Manager legacy connector](administration-and-setup/configure-integrations/configure-workfront-aem.md)
     * [Configure the Experience Manager Assets as a Cloud Service integration](administration-and-setup/configure-integrations/configure-aacs-integration.md)
     * [Configure the Experience Manager Assets Essentials integration](documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md)
@@ -662,8 +661,6 @@ feature-set: Workfront
     * [View and manage custom OAuth2 applications](administration-and-setup/configure-integrations/manage-custom-oauth2-apps.md)
     * [Configure the JumpSeat integration](/help/quicksilver/administration-and-setup/configure-integrations/configure-jumpseat.md)
     * [Access Help for Adobe Workfront DAM](administration-and-setup/configure-integrations/access-help-workfront-dam.md)
-    * [Legacy Workfront Fusion](administration-and-setup/configure-integrations/legacy-workfront-fusion.md)
-    * [Legacy Workfront Fusion service outages](administration-and-setup/configure-integrations/legacy-fusion-service-outages.md)
   * Blueprints {#blueprints}
     * [Blueprints](administration-and-setup/blueprints/blueprints.md)
     * [Blueprints overview](administration-and-setup/blueprints/blueprints-overview.md)

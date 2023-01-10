@@ -14,7 +14,6 @@ exl-id: 50088ae0-8460-4163-acab-ebb711acda5a
 This section contains the following articles:
 
 * [[!DNL Adobe Workfront] integrations](../../administration-and-setup/configure-integrations/workfront-integrations-1.md) 
-* [[!DNL Slack] app for Legacy [!DNL Workfront Fusion]](../../administration-and-setup/configure-integrations/legacy-fusion-slack-app.md) 
 * [Configure [!DNL Workfront] with [!DNL Adobe Experience Manager] legacy connector](../../administration-and-setup/configure-integrations/configure-workfront-aem.md) 
 * [Configure the [!DNL Experience Manager Assets as a Cloud Service] integration](../../administration-and-setup/configure-integrations/configure-aacs-integration.md)
 * [Configure the [!DNL Experience Manager Assets Essentials] integration](../../documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md)
@@ -34,5 +33,3 @@ This section contains the following articles:
   -->
 
 * [Configure the [!DNL JumpSeat] integration](/help/quicksilver/administration-and-setup/configure-integrations/configure-jumpseat.md)
-* [Legacy [!DNL Workfront Fusion]](../../administration-and-setup/configure-integrations/legacy-workfront-fusion.md) 
-* [Legacy [!DNL Workfront Fusion] service outages](../../administration-and-setup/configure-integrations/legacy-fusion-service-outages.md)
