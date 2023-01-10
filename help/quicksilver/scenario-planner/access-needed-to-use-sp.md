@@ -13,7 +13,7 @@ exl-id: d7f3c7fa-81aa-40c9-b506-fe1fe346e9ea
 The [!DNL Scenario Planner] requires an additional license. For information about the [!DNL Workfront Scenario Planner], see [The [!DNL Scenario Planner] overview](../scenario-planner/scenario-planner-overview.md).
 
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: might need to add information about the permissions to plans/ initiatives if those will be coming later?) </p>
+might need to add information about the permissions to plans/ initiatives if those will be coming later?
 -->
 
 Without correct access or permissions, you may not be able to view the [!UICONTROL Scenarios] area of[!DNL  Adobe Workfront] nor manage plans or initiatives for your organization. Managing plans and initiatives includes creating, editing, and deleting them.
@@ -33,8 +33,39 @@ Without correct access or permissions, you may not be able to view the [!UICONTR
 
 You must ensure that the following conditions are all met before you can access the [!DNL Workfront Scenario Planner]:
 
+<!--drafted for P&P:
+
+* Depending on whether you use the current or the legacy Workfront plans, your organization must have the following:
+
+  * For the current plans:  
+
+    * The [!UICONTROL Ultimate] [!DNL Workfront] plan.
+
+      Or
+  
+    * The [!UICONTROL Select] or [!UICONTROL Prime] [!DNL Workfront] plan, in addition to purchasing a separate [!DNL Scenario Planner] license.
+
+  * For the legacy plans: (indent the bullets below, before the NOTE)
+
+-->
+
 * Your organization must purchase a [!DNL Workfront] [!UICONTROL Business] or higher [!DNL Workfront] plan. For information about the [!DNL Workfront] plans, see [Workfront Plans](http://workfront.com/plans).
 * Your organization must purchase a [!DNL Workfront Scenario Planner] license, in addition to a [!DNL Workfront] license. Contact your [!DNL Workfront] Account Representative to learn about [!DNL Workfront Scenario Planner] licenses. 
+
+<!--drafted for P&P: 
+
+* Depending on whether you use the current or legacy licenses, your [!DNL Workfront] administrator must assign you a license of any of the following types: 
+
+  * For the current licenses: 
+    * [!UICONTROL Standard]
+    * [!UICONTROL Light]
+
+  * For the legacy licenses: (re-indent the licenses below and reword the sentence)
+
+-->   
+
+
+
 * Your [!DNL Workfront] administrator must assign you a license of any of the following [!DNL Workfront] types:
 
     * [!UICONTROL Plan]
@@ -45,13 +76,17 @@ You must ensure that the following conditions are all met before you can access 
   >
   >Users with a [!UICONTROL Request] or [!UICONTROL External] license type cannot access the [!DNL Workfront Scenario Planner].
 
+<!--drafted - replace the note above with this at P&P release: 
+  * When using the current licenses, users with a [!UICONTROL Contributor] or [!UICONTROL External] license type cannot access the [!DNL Scenario Planner].
+  * When using the legacy licenses, users with a Request or External license type cannot access the Scenario Planner. -->
+
 * Your [!DNL Workfront] administrator must give you [!UICONTROL View] or [!UICONTROL Edit] access to [!DNL Scenario Planner] in your access level.
 
   For information about granting access to the [!DNL Workfront Scenario Planner], see [Grant access to [!DNL Scenario Planner]](../administration-and-setup/add-users/configure-and-grant-access/grant-access-sp.md).
 
 * (Optional and recommended) To view or update financial information for your plans and initiatives, your [!DNL Workfront] administrator must also grant you access to [!UICONTROL Financial Data] in your access level. For information about granting financial data in your access level, see [Grant access to financial data](../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
 
-  <!--
+  <!--this used to be true but not anymore:
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p>(NOTE: this is no longer needed) </p> <p>Your Workfront administrator must assign you a layout template that includes the Scenarios area in the Main Menu. </p> <p>For information about customizing the Main Menu in a layout template, see <a href="../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md" class="MCXref xref" xrefformat="{para}">Customize the Main Menu using a layout template</a>. </p> <p>For information about assigning users to a Layout Template, see <a href="../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md" class="MCXref xref" xrefformat="{para}">Assign users to a layout template</a>.</p> </li>
   -->
 
