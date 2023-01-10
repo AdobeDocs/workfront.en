@@ -113,8 +113,8 @@ You must have the following access to perform the steps in this article:
       <p>If you click <strong>[!UICONTROL Mark Complete]</strong> at the top of the card, the status automatically changes to Complete.</p></td>
      </tr>
      <tr>
-      <td role="rowheader"><strong>[!UICONTROL Due date]</strong></td>
-      <td><p><span class="preview">Changing the due date also changes the planned completion date on the connected [!DNL Workfront] object.</span></p></td>
+      <td role="rowheader"><strong>[!UICONTROL Due date] / <span class="preview">[!UICONTROL Planned Completion]</span></strong></td>
+      <td><p><span class="preview">Changing this date also changes the planned completion date on the connected [!DNL Workfront] object.</span></p></td>
      </tr>
       <tr>
       <td role="rowheader"><strong>[!UICONTROL Estimation]</strong></td>
