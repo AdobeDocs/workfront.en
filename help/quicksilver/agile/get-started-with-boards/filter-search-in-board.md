@@ -20,7 +20,7 @@ You can filter a board to display:
 
 Searching also helps you locate a specific card on the board.
 
-When filters are applied, an indicator is displayed on the board ![Filter applied to board](assets/boards-filterapplied-30x30.png). Click **Clear All** to remove all filters from the board, and click **Hide filters** to close the filter panel.
+When filters are applied, an indicator is displayed on the board ![Filter applied to board](assets/boards-filterapplied-30x30.png). Click **[!UICONTROL Clear All]** to remove all filters from the board, and click **[!UICONTROL Hide filters]** to close the filter panel.
 
 ![Filter panel](assets/boards-all-filters-collapsed-1022.png)
 
@@ -33,37 +33,37 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront plan*</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront license*</strong></td> 
-   <td> <p>Request or higher</p> </td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] license*</strong></td> 
+   <td> <p>[!UICONTROL Request] or higher</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+&#42;To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
 
 ## Filter a board by assignees
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Boards**.
+1. Click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe Workfront], then click **[!UICONTROL Boards]**.
 1. Access a board. For information, see [Create or edit a board](../../agile/get-started-with-boards/create-edit-board.md).
-1. Click the filter icon ![Filter](assets/filter-icon-spectrum-25x25.png), expand the Members section, and select the person or people whose cards you want to see. You can also display unassigned cards.
+1. Click the filter icon ![Filter](assets/filter-icon-spectrum-25x25.png), expand the [!UICONTROL Members] section, and select the person or people whose cards you want to see. You can also display unassigned cards.
 
    ![Filter by member](assets/boards-filter-by-assignees-0822.png)
 
 ## Filter a board by tags
 
 1. Access the board.
-1. Click the filter icon ![Filter](assets/filter-icon-spectrum-25x25.png), expand the Tags section, and select the tags you want to see.
+1. Click the filter icon ![Filter](assets/filter-icon-spectrum-25x25.png), expand the [!UICONTROL Tags] section, and select the tags you want to see.
 
    ![Filter by tag](assets/boards-filter-by-tags-0822.png)
 
 ## Filter a board by status
 
 1. Access the board.
-1. Click the filter icon ![Filter](assets/filter-icon-spectrum-25x25.png), expand the Statuses section, and select the status types you want to see.
+1. Click the filter icon ![Filter](assets/filter-icon-spectrum-25x25.png), expand the [!UICONTROL Statuses] section, and select the status types you want to see.
 
    You can also hide completed cards.
 
@@ -72,7 +72,7 @@ You must have the following access to perform the steps in this article:
 ## Filter a board by due date
 
 1. Access the board.
-1. Click the filter icon ![Filter](assets/filter-icon-spectrum-25x25.png), expand the Due Date section, and select the date options you want to see.
+1. Click the filter icon ![Filter](assets/filter-icon-spectrum-25x25.png), expand the [!UICONTROL Due Date] section, and select the date options you want to see.
 
    Only cards in the selected date ranges are displayed.
 
@@ -83,18 +83,18 @@ You must have the following access to perform the steps in this article:
 By default, only active cards are displayed on a board. You can filter the board to also display any archived cards.
 
 1. Access the board.
-1. Click the filter icon ![Filter](assets/filter-icon-spectrum-25x25.png), expand the Archived Cards section, and select **Archived cards** to display any archived cards.
+1. Click the filter icon ![Filter](assets/filter-icon-spectrum-25x25.png), expand the [!UICONTROL Archived Cards] section, and select **[!UICONTROL Archived cards]** to display any archived cards.
 
    The filter shows the number of archived cards.
 
    ![Filter archived cards](assets/boards-filter-by-archived-cards_0822.png)
 
-1. Select **Archived cards** again to clear the option and display only active cards.
+1. Select **[!UICONTROL Archived cards]** again to clear the option and display only active cards.
 
 ## Filter a board by connection
 
 1. Access the board.
-1. Click the filter icon ![Filter](assets/filter-icon-spectrum-25x25.png), expand the Connection section, and select the Workfront projects for the connected cards you want to see.
+1. Click the filter icon ![Filter](assets/filter-icon-spectrum-25x25.png), expand the [!UICONTROL Connection] section, and select the [!DNL Workfront] projects for the connected cards you want to see.
 
    You can also display cards that are not connected to a project.
 
@@ -102,7 +102,7 @@ By default, only active cards are displayed on a board. You can filter the board
 
 >[!NOTE]
 >
->The option to filter by connection is available only via the early feature opt-in. For details, see [Early feature opt-in for Adobe Workfront Boards](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md).
+>The option to filter by connection is available only via the early feature opt-in. For details, see [Early feature opt-in for [!DNL Adobe Workfront] [!UICONTROL Boards]](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md).
 
 ## Search in a board
 
@@ -113,4 +113,4 @@ By default, only active cards are displayed on a board. You can filter the board
 
    Click the X to clear the search.
 
-   ![Search for cards in a board](assets/boards-searchbox.png)
+   ![[!UICONTROL Search for cards in a board]](assets/boards-searchbox.png)

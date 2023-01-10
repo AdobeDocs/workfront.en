@@ -16,7 +16,7 @@ You can use any or all of these tools in a way that works for you and your team,
 
 >[!NOTE]
 >
->Some of these features might be available only via the early feature opt-in. For details, see [Early feature opt-in for Adobe Workfront Boards](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md).
+>Some of these features might be available only via the early feature opt-in. For details, see [Early feature opt-in for [!DNL Adobe Workfront] [!UICONTROL Boards]](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md).
 
 This section contains the following articles:
 

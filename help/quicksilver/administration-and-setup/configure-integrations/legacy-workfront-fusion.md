@@ -3,7 +3,7 @@ title: Legacy Workfront Fusion
 user-type: administrator
 product-area: system-administration;workfront-integrations
 navigation-topic: administrator-integrations
-description: Legacy Workfront Fusion is not available as of March 31, 2021.
+description: Legacy [!DNL Workfront] Fusion is not available as of March 31, 2021.
 author: Becky, Caroline
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
@@ -13,7 +13,7 @@ exl-id: 5d7cc0cb-68ca-4e40-845f-69d243180f50
 
 >[!IMPORTANT]
 >
->Legacy Workfront Fusion is not available as of March 31, 2021.
+>Legacy [!DNL Workfront] Fusion is not available as of March 31, 2021.
 >
 >For information about Adobe Workfront Fusion, see [Adobe Workfront Fusion](../../workfront-fusion/workfront-fusion-2.md)
 

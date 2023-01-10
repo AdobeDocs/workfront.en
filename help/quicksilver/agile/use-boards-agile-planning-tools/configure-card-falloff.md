@@ -15,7 +15,7 @@ When a card falls off the board, it is archived. You can display archived cards 
 
 >[!NOTE]
 >
->Card falloff is available only via the early feature opt-in. For details, see [Early feature opt-in for Adobe Workfront Boards](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md).
+>Card falloff is available only via the early feature opt-in. For details, see [Early feature opt-in for [!DNL Adobe Workfront] Boards](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md).
 
 ## Access requirements
 
@@ -28,32 +28,32 @@ You must have the following access to perform the steps in this article:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront plan*</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront license*</strong></td> 
-   <td> <p>Request or higher</p> </td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] license*</strong></td> 
+   <td> <p>[!UICONTROL Request] or higher</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+&#42;To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
 
 ## Configure card falloff
 
-1. Click the **Main Menu** icon ![Main Menu](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Boards**.
+1. Click the **[!UICONTROL Main Menu]** icon ![Main Menu](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe Workfront], then click **[!UICONTROL Boards]**.
 1. Access a board. For information, see [Create or edit a board](../../agile/get-started-with-boards/create-edit-board.md).
-1. Click **Configure** on the right of the board to open the Configure panel.
-1. Expand **Cards**.
-1. Turn on **Automatically archive cards from the board**.
+1. Click **[!UICONTROL Configure]** on the right of the board to open the Configure panel.
+1. Expand **[!UICONTROL Cards]**.
+1. Turn on **[!UICONTROL Automatically archive cards from the board]**.
 
    ![Card falloff settings](assets/card-falloff-switch.png)
 
-1. Select when to archive cards from the board. You can choose up to 4 weeks or up to 30 days. 
+1. Select when to archive cards from the board. You can choose up to 4 weeks or up to 30 days.
 
    The date is determined from when the card was last modified.
 
 1. Select which column to remove cards from.
-1. Click **Save** on the confirmation message.
-1. Click **Hide configure** to close the Configure panel. The configuration settings are applied automatically when you refresh the board.
+1. Click **[!UICONTROL Save]** on the confirmation message.
+1. Click **[!UICONTROL Hide configure]** to close the [!UICONTROL Configure] panel. The configuration settings are applied automatically when you refresh the board.
