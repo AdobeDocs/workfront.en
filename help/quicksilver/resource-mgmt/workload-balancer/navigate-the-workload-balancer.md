@@ -18,6 +18,45 @@ For more information about where the Workload Balancer is located, see [Locate t
 
 ## Access requirements
 
+<!--drafted - replace table for P&P:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td> <p>Any </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+<td><p>Current license: Standard </p>
+    Or 
+<p>Legacy license:</p>
+    <ul>
+    <li><p>Plan, when using the Workload Balancer for a team or in the Resourcing area </p></li>
+    <li><p>Work, when using the Workload Balancer of a project </p></li>
+    </ul>
+ </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations*</td> 
+   <td> <p>View or higher access to the following:</p> 
+    <ul> 
+     <li> <p>Resource Management</p> </li> 
+     <li> <p>Projects</p> </li> 
+     <li> <p>Tasks</p> </li> 
+     <li> <p>Issues</p> </li> 
+    </ul> <p>If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>View or higher permissions to the projects, tasks, and issues </p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+-->
+
 You must have the following access to perform the steps in this article:
 
 <table style="table-layout:auto"> 
