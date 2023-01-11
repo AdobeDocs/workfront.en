@@ -799,7 +799,7 @@ feature-set: Workfront
     * [Share a project in Adobe Workfront](workfront-basics/grant-and-request-access-to-objects/share-a-project.md)
     * [Share a task](workfront-basics/grant-and-request-access-to-objects/share-a-task.md)
     * [Share an issue](workfront-basics/grant-and-request-access-to-objects/share-an-issue.md)
-    * [Sharing a template](workfront-basics/grant-and-request-access-to-objects/share-a-template.md)
+    * [Share a template](workfront-basics/grant-and-request-access-to-objects/share-a-template.md)
     * [Share financial permissions on an object](workfront-basics/grant-and-request-access-to-objects/share-financial-permissions-object.md)
     * [Share a portfolio](workfront-basics/grant-and-request-access-to-objects/share-a-portfolio..md)
     * [Share a program](workfront-basics/grant-and-request-access-to-objects/share-a-program.md)

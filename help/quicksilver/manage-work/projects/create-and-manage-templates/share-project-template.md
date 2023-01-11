@@ -15,7 +15,7 @@ When sharing an object in Adobe Workfront, you allow other users to view, contri
 
 For information about Workfront permissions, see [Overview of sharing permissions on objects](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
-For information about the permissions you can give users when sharing a template, see [Sharing a template](../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md).
+For information about the permissions you can give users when sharing a template, see [Share a template](../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md).
 
 ## Access requirements
 
@@ -83,7 +83,7 @@ To share a template:
 
    * **Manage**: Users with these permissions are able to edit or delete the template.
 
-     For information about the Advanced Settings ![](assets/gear-icon-in-access-levels.png) available here, see the section [Advanced Settings for template sharing](../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md#template-permissions) in the article [Sharing a template](../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md).
+     For information about the Advanced Settings ![](assets/gear-icon-in-access-levels.png) available here, see the section [Advanced Settings for template sharing](../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md#template-permissions) in the article [Share a template](../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md).
 
 1. Click **Save**.
 
