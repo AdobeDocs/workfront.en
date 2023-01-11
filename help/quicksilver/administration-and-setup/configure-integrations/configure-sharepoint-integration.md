@@ -19,21 +19,13 @@ exl-id: fd45e1bc-9a35-4960-a73a-ff845216afe4
 >
 >The new [!DNL SharePoint] integration was released to production with the 22.3 release (July 2022.) Although your users can still access documents linked through the legacy [!DNL SharePoint] integration, they must use the new [!DNL SharePoint] integration to link documents from SharePoint.
 >
->The new SharePoint integration does not requre configuration by an administrator, and can be set up by individual users. However, to ensure a smooth transition to the new SharePoint integration, a Workfront administrator must: 
+>* The new SharePoint integration does not requre configuration by an administrator, and can be set up by individual users. However, to ensure a smooth transition to the new SharePoint integration, a Workfront administrator must make some small settings changes in the Workfront Setup area.
 >
->1.  Disable the legacy [!DNL SharePoint] integration so that your users do not use it to link to new documents.
+>    For information and instructions, see [Configure the legacy SharePoint integration for continued access to documents](#configure-the-legacy-sharepoint-integration-for-continued-access-to-documents) in this article.
 >    
->     For instructions, see [Reconfigure access to the legacy [!DNL SharePoint] integration](#reconfigure-access-to-the-legacy-sharepoint-integration) in this article.
->
->1. Configure your legacy [!DNL SharePoint] Client Secret so that your users will continue to have access to documents linked through the legacy [!DNL SharePoint] integration. 
->
->    For more information, see [Configure the Client Secret for continued access to the legacy [!DNL SharePoint] integration](#configure-client-secret-for-continued-access-to-the-legacy-sharepoint-integration) in this article.
+>* We recommend that users link documents that are currently linked through the legacy [!DNL SharePoint] integration through the new integration.
 >    
->We recommend that users link documents that are currently linked through the legacy [!DNL SharePoint] integration through the new integration.
->    
->For instructions on linking documents, see [Link documents from external applications](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
->    
->The procedure described in this document was deprecated with the 22.3 release, and is here for your information only.
+>    For instructions on linking documents, see [Link documents from external applications](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
 
 You can integrate [!DNL Workfront] with [!DNL SharePoint Online], providing users with the ability to navigate to, link, and add [!DNL SharePoint] documents within Workfront. The functionality provided is similar to that of other [!DNL Workfront] integrations, such as [!DNL Google Drive], [!DNL Box], and [!DNL Dropbox].
 
@@ -76,7 +68,7 @@ For instructions on linking documents through the new SharePoint integration, se
 
 >[!NOTE]
 >
->The SharePoint integration for a user can connect to a single SharePoint instance. 
+>A SharePoint integration can connect to a single SharePoint instance. Therefore, a user can set up an integration for one SharePoint, but cannot set up an integration to a second SharePoint, even if they have permissions to and documents on the second SharePoint.
 
 ## Configure the legacy SharePoint integration for continued access to documents
 
@@ -127,7 +119,10 @@ Your [!DNL SharePoint] Client Secret expires once a year. To ensure continued ac
 
 ## Instructions for setting up the legacy SharePoint integration
 
-This integration has been deprecated. The instructions here are for information only and will be removed in the near future.
+>[!IMPORTANT]
+>
+>This integration has been deprecated. The instructions here are for information only and will be removed in the near future.
+
 
 Workfront connects to [!DNL SharePoint] Online using OAuth 2.0, a standard used by most web-based integrations for the authentication and authorization of users.
 
