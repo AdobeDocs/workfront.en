@@ -30,7 +30,7 @@ For more information about Progress Status of tasks, see [Task Progress Status o
 
 ## Tracking Mode options {#tracking-mode-options}
 
-As a task owner or a project manager, you can select how Workfront indicates the progress status on each task. For information about how to set&nbsp;Tracking Mode on your tasks, see [Set Tracking Mode for tasks](../../../manage-work/tasks/task-information/set-tracking-mode-for-tasks.md).
+As a task owner or a project manager, you can select how Workfront indicates the progress status on each task. For information about how to set Tracking Mode on your tasks, see [Set Tracking Mode for tasks](../../../manage-work/tasks/task-information/set-tracking-mode-for-tasks.md).
 
 You can select from the following options:
 
@@ -54,7 +54,8 @@ The Progress Status of a task will be On Time until it becomes Late. For example
 
 ### Auto Complete {#auto-complete}
 
-Workfront assumes tasks will be completed as scheduled and marks them as complete on their Due or Planned Completion Dates. Until then, Workfront uses Percent Complete and Actual Hours logged to determine the Progress Status. However, regardless of the Progress Status before the scheduled completion date, Workfront still marks the task completed.
+Workfront assumes tasks will be completed as scheduled and marks them as complete on their Due or Planned Completion Dates. Until then, Workfront uses Percent Complete and Actual Hours logged to determine the Progress Status. However, regardless of the Progress Status before the scheduled completion date, Workfront still marks the task completed. In case the task has incomplete predecessors, it will not be automatically completed until all its predecessors are completed. 
+
 
 >[!IMPORTANT]
 >
@@ -64,4 +65,4 @@ Workfront assumes tasks will be completed as scheduled and marks them as complet
 
 ### Predecessor {#predecessor}
 
-Workfront estimates the Projected Completion Date of a task according to its predecessor relationship. The Progress Status of a task is&nbsp;determined based on this estimation. For example, Task B has a Duration of 1 Day and is scheduled to complete two days after its predecessor, Task A,&nbsp;which should take five days. A user then updates Task B to 50% complete, but the predecessor, Task A, has not yet started. Workfront&nbsp;schedules the dependent Task B for completion six days after the start date of the predecessor task, allowing 5 days for Task A and&nbsp;1 day for Task B.
+Workfront estimates the Projected Completion Date of a task according to its predecessor relationship. The Progress Status of a task is determined based on this estimation. For example, Task B has a Duration of 1 Day and is scheduled to complete two days after its predecessor, Task A, which should take five days. A user then updates Task B to 50% complete, but the predecessor, Task A, has not yet started. Workfront chedules the dependent Task B for completion six days after the start date of the predecessor task, allowing 5 days for Task A and 1 day for Task B.

@@ -58,7 +58,7 @@ For information about what users in each access level can do with templates, see
 
 ## Access to shared templates
 
-As the owner or creator of an issue, you can share with other users by granting them permissions to it, as explained in [Sharing a template](../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md).
+As the owner or creator of an issue, you can share with other users by granting them permissions to it, as explained in [Share a template](../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md).
 
 <!--
 If you make changes here, make them also in the "Grant access to" articles where this snippet had to be converted to text:

@@ -132,7 +132,7 @@ You can convert an issue to a blank project or convert an issue to a project usi
       >
       >* Your system or group administrator can add or remove fields in the [!UICONTROL Convert to Project box] by updating the Project Details information in your [!UICONTROL Layout Template]. 
       >
-      >* To update fields in the [!UICONTROL Finance] section in the [!UICONTROL Convert to Project] box you must have [!UICONTROL Edit] access to [!UICONTROL Financial Data] in your access level. If you have [!UICONTROL View] access to [!UICONTROL Financial Data] in your access level all financial information from the template transfers to the new project and you cannot edit it while you convert the issue. For information, see [Grant access to financial data](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md) and [Sharing a template](../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md).
+      >* To update fields in the [!UICONTROL Finance] section in the [!UICONTROL Convert to Project] box you must have [!UICONTROL Edit] access to [!UICONTROL Financial Data] in your access level. If you have [!UICONTROL View] access to [!UICONTROL Financial Data] in your access level all financial information from the template transfers to the new project and you cannot edit it while you convert the issue. For information, see [Grant access to financial data](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md) and [Share a template](../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md).
 
    1. (Optional and conditional) Click [!UICONTROL **Options**] in the left panel, then select from the options that are available:
 

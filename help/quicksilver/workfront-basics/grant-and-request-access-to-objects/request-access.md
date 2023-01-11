@@ -9,21 +9,49 @@ exl-id: ad1c525c-42a8-4fb7-a2cd-7792e1c280ab
 ---
 # Request access to objects
 
-Your visibility to objects in&nbsp;Adobe Workfront depends on your access to that type of object as well as your permissions on an individual object.
+Your visibility to objects in Adobe Workfront depends on your access to that type of object as well as your permissions on an individual object.
 
 >[!NOTE]
 >
 >This article describes how you can request permissions to all objects except for plans in the Adobe Workfront Scenario Planner. For information about requesting access to plans, see [Request access to a plan in the Scenario Planner](../../scenario-planner/request-access-to-plan.md). This requires an additional license.
 
-Your Workfront administrator configures your access to a type of object in your access level.&nbsp;For more information, see [How access levels and permissions work together](../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md).
+Your Workfront administrator configures your access to a type of object in your access level. For more information, see [How access levels and permissions work together](../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md).
 
-If you need permissions to specific objects within Workfront, you can request access to them. Rather than sending&nbsp;an email to the&nbsp;Workfront administrator or&nbsp;object owner to explain your needs, you can request&nbsp;additional access (or permissions) within Workfront.
+If you need permissions to specific objects within Workfront, you can request access to them. Rather than sending email to the Workfront administrator or object owner to explain your needs, you can request additional access (or permissions) within Workfront.
 
 You can request initial access to objects if someone shares a link to the object with you, or you can request additional access to objects you cat at least view.
 
 For example, you might have View permissions to a project, but you need to add tasks to that project. In this case, you can request Contribute permissions to the project.
 
 ## Access requirements
+
+<!--drafted for P&P:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td> <p>Any </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Current license: Standard</p> 
+   Or
+   <p>Legacy license: Work or higher</p> 
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations*</td> 
+   <td> <p>View access or higher to the objects you request permissions to</p> <p><b>NOTE</b> 
+   
+   If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+-->
 
 You must have the following to share objects:
 
@@ -41,7 +69,9 @@ You must have the following to share objects:
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>View access or higher to the objects you request permissions to</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>View access or higher to the objects you request permissions to</p> <p><b>NOTE</b>
+   
+   If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
