@@ -80,7 +80,13 @@ You can make the filter, view, or grouping available to users in your system. Fo
 
 You can choose to show or hide filters, views, or groupings from the Layout Template. Visible filters are available for all users system-wide. You can use a Layout Template to hide visible filters for specific users or groups.
 
-1. Click **[!UICONTROL Interface]**, then click one of the following: **[!UICONTROL Filters]**, **[!UICONTROL Veiws]**, or **[!UICONTROL Groupings]**.
+>[!NOTE]
+>
+>If a user is actively using a filter, view, or grouping and then an administrator disables it, the user still has access until they choose a new filter, view, or grouping. After they choose a new filter, view, or grouping, they will no longer be able to revert to the hidden filter, view, or grouping.
+
+To show or hide filters, views, or groupings available from the Layout Template:
+
+1. Click **[!UICONTROL Interface]**, then click one of the following: **[!UICONTROL Filters]**, **[!UICONTROL Views]**, or **[!UICONTROL Groupings]**.
 
 1. (Conditional) Select the filter, view, or grouping that you want to make available to users, then click **[!UICONTROL Enable system-wide]**.
 
