@@ -37,4 +37,4 @@ If you'd like to follow along in the video, the following needs to be set up in 
 
 ## Send Feedback
 
-We value your input and believe that your perspective is crucial in helping us create the best product possible. As you have specific feedback on what would be required in order for your company to adopt of this solution in a coming release, please send it to jbarron@adobe.com.
+We value your input and believe that your perspective is crucial in helping us create the best product possible. As you have specific feedback on what would be required in order for your company to adopt this solution in Production, please send it to [jbarron@adobe.com](mailto:jbarron@adobe.com).

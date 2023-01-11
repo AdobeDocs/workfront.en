@@ -86,7 +86,7 @@ You can choose to show or hide filters, views, or groupings from the Layout Temp
 
 To show or hide filters, views, or groupings available from the Layout Template:
 
-1. Click **[!UICONTROL Interface]**, then click one of the following: **[!UICONTROL Filters]**, **[!UICONTROL Veiws]**, or **[!UICONTROL Groupings]**.
+1. Click **[!UICONTROL Interface]**, then click one of the following: **[!UICONTROL Filters]**, **[!UICONTROL Views]**, or **[!UICONTROL Groupings]**.
 
 1. (Conditional) Select the filter, view, or grouping that you want to make available to users, then click **[!UICONTROL Enable system-wide]**.
 
