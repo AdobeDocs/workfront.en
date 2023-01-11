@@ -68,9 +68,9 @@ Follow the steps below to run the installation process and authorize [!DNL Workf
 >
 >When a new version of [!DNL Workfront] for Slack is released, you must re-authorize the app in order to continue using it. 
 
-1. Click the following button to begin the installation process.
+1. Locate the [!DNL Adobe Workfront] add-on in the [[!DNL Slack] store](https://workfront.slack.com/apps/A7CLAMVNW-adobe-workfront?tab=more_info).
 
-   ![](assets/untitled-350x143.png)
+2. Click **[!UICONTROL Open in [!DNL Slack]]**.
 
 1. Sign in to your workspace by specifying your [!DNL Slack] URL and clicking **[!UICONTROL Continue]**.\
    ![Screen_Shot_2017-10-17_at_8.27.38_AM.png](assets/screen-shot-2017-10-17-at-8.27.38-am-350x432.png)
