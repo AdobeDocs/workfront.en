@@ -16,7 +16,6 @@ The 23.1 release webinar will be held on Tuesday, January 10, 2023. You can [reg
 
 <span class="preview">Off-cycle features (those releasing to Production prior to the 23.1 release date) are highlighted in yellow.</span>
 
-
 ## Adobe Workfront enhancements
     
 *   [Project and Resource Management enhancements](#project-and-resource-management-enhancements)
@@ -45,7 +44,7 @@ The 23.1 release webinar will be held on Tuesday, January 10, 2023. You can [reg
                 </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Secondary job roles added to the Other Assignments list when bulk assigning items in the Workload Balancer</a><span style="color: #ff0000;"> Coming soon!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Secondary job roles added to the Other Assignments list when bulk assigning items in the Workload Balancer</a></p>
                         <p>When bulk assigning users in the Workload Balancer after selecting a job role in the "Role assignment" field, the list of users that populates in the "Other Assignments" list in the "User to assign" field will now display all the job roles associated with each user under their name. Prior to this enhancement, only the user's primary role displayed.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
