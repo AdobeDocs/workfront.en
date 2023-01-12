@@ -69,3 +69,59 @@ For example, if you update the name of a connected card on a board in the mobile
    >You can select a different tag on the card but you can't create new tags in the mobile app.
 
 1. (Optional) To delete a card, select the [!UICONTROL **More**] menu ![More menu](assets/more-icon-spectrum.png) on the card and choose [!UICONTROL **Delete**]. Then, select [!UICONTROL **Delete**] on the confirmation message.
+
+## Work with ad hoc cards
+
+An ad hoc card is not connected to a Workfront task or issue. In the image below, the first card is an ad hoc card.
+
+![Ad hoc card](assets/mobile-types-of-cards.png)
+
+1. Select a card to see its name, description, column, assignees, status, due date, estimation, tags, and checklist items. When you edit any of these details they are saved automatically. Select the X to close the card and return to the board.
+
+   >[!NOTE]
+   >
+   >You can select a different tag on the card but you can't create new tags in the mobile app.
+
+1. (Optional) To add a new ad hoc card, select [!UICONTROL **New Card**] in the column where you want to add the card, and enter the card name. To add details, select the newly added card.
+
+1. (Optional) To copy a card, select the [!UICONTROL **More**] menu ![More menu](assets/more-icon-spectrum.png) on the card and choose [!UICONTROL **Copy**].
+
+1. (Optional) To delete a card, select the [!UICONTROL **More**] menu ![More menu](assets/more-icon-spectrum.png) on the card and choose [!UICONTROL **Delete**]. Then, select [!UICONTROL **Delete**] on the confirmation message.
+
+## Manage checklist items on cards
+
+Checklist items are available on both ad hoc and connected cards.
+
+1. To add a checklist item, open the card and select [!UICONTROL **New Checklist Item**]. Enter the checklist item name. The counter on the card is updated.
+1. (Optional) To copy a checklist item, open the card, select the [!UICONTROL **More**] menu ![More menu](assets/more-icon-spectrum.png) on the item, and choose [!UICONTROL **Copy**]. A copy of the item is added at the bottom of the list.
+1. (Optional) To delete a checklist item, open the card, select the [!UICONTROL **More**] menu ![More menu](assets/more-icon-spectrum.png) on the item, and choose [!UICONTROL **Delete**].
+1. To complete a checklist item, open the card and select the check box next to the item name.
+The item is marked complete, the counter on the card updates to show how many checklist items are complete.
+
+## Filter and search in a board
+
+You can filter a board to display cards assigned to certain people, or you can search to locate a specific card on the board.
+
+When filters are applied, an indicator is displayed on the board ![Filter applied to board](assets/boards-filterapplied-30x30.png). Select the filter icon and choose [!UICONTROL **Clear all**] to remove all filters from the board.
+
+### Filter a board by assignees
+
+1. Select the filter icon ![Filter](assets/filter-icon-spectrum-25x25.png).
+1. Select [!UICONTROL **Members**] and choose the person or people whose cards you want to see. You can also display unassigned cards.
+1. Select [!UICONTROL **Done**] or ![Done icon](assets/mobile-apply-icon-checkmark.png).
+
+### Filter a board by tags ([!DNL iOS] only)
+
+1. Select the filter icon ![Filter](assets/filter-icon-spectrum-25x25.png).
+1. Select [!UICONTROL **Tags**] and choose the tags you want to see.
+1. Select [!UICONTROL **Done**].
+
+### Search in a board
+
+1. Select the filter icon ![Filter](assets/filter-icon-spectrum-25x25.png).
+1. Type a search term in the box and select [!UICONTROL **Done**] or ![Done icon](assets/mobile-apply-icon-checkmark.png).
+
+   All cards that contain the search term in the title are displayed.
+   Select the X to clear the search.
+
+   ![Search for card](assets/mobile-search-for-card.png)
