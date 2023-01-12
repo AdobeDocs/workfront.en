@@ -78,7 +78,7 @@ You must have the following access to perform the steps in this article:
      </tr>
      <tr>
       <td role="rowheader">PNG</td>
-      <td>The artboards upoad as a PNG to the work item's [!UICONTROL Documents] tab in [!DNL Workfront]. </td>
+      <td>The artboards upload as a PNG to the work item's [!UICONTROL Documents] tab in [!DNL Workfront]. </td>
      </tr>
      <tr>
       <td role="rowheader">JPG</td>
@@ -129,7 +129,7 @@ You must have the following access to perform the steps in this article:
      </tr>
      <tr>
       <td role="rowheader">PNG</td>
-      <td>The artboard upoads as a PNG to the work item's [!UICONTROL Documents] tab in [!DNL Workfront]. </td>
+      <td>The artboard uploads as a PNG to the work item's [!UICONTROL Documents] tab in [!DNL Workfront]. </td>
      </tr>
      <tr>
       <td role="rowheader">JPG</td>
@@ -137,7 +137,7 @@ You must have the following access to perform the steps in this article:
      </tr>
      <tr>
       <td role="rowheader">SVG</td>
-      <td>The artboard uploads as a SVG to the work item's [!UICONTROL Documents] tab in [!DNL Workfront]. </td>
+      <td>The artboard uploads as an SVG to the work item's [!UICONTROL Documents] tab in [!DNL Workfront]. </td>
      </tr>
      <tr>
       <td role="rowheader">PDF</td>
