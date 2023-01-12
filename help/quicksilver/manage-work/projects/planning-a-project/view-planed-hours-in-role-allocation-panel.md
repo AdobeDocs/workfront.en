@@ -23,6 +23,36 @@ You can view role allocation for all job roles assigned to work items in a proje
 
 ## Access requirements
 
+<!--drafted for P&P:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td> <p>Any </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Current license: Light or higher</p> 
+   Or
+   <p>Legacy license: Review or higher</p> 
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations*</td> 
+   <td> <p>View or higher access to Projects</p> <p>If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>View or higher permissions on the project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+-->
+
 You must have the following:
 
 <table style="table-layout:auto"> 
@@ -69,9 +99,7 @@ You must have the following:
 1. Click one of the following in the left panel:
 
    * **Tasks** 
-   * Workload Balancer
-
-     You might need to click&nbsp;**Scheduling** > **Switch to Workload Balancer**.
+   * **Workload Balancer**
 
 1. Click the **Show role allocation** icon ![](assets/show-role-allocation-icon.png).
 
@@ -82,8 +110,8 @@ You must have the following:
 1. Review the following information in the **Role Allocation** panel:
    |Field | Description|
    |---|---|
-   | Job Role |Job roles assigned to tasks and issues on the project. These can be job roles assigned directly to tasks and issues or job roles associated with users assigned to tasks and issues on the project.  |
-   | Planned Hours |The total number of Planned Hours from tasks and issues assigned to job roles or users associated with a job role on the project.  |
+   | **Job Role** |Job roles assigned to tasks and issues on the project. These can be job roles assigned directly to tasks and issues or job roles associated with users assigned to tasks and issues on the project.  |
+   | **Planned Hours** |The total number of Planned Hours from tasks and issues assigned to job roles or users associated with a job role on the project.  |
 
 
 

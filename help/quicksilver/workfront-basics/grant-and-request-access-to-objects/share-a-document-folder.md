@@ -24,6 +24,38 @@ You can share a folder and its contents from the Documents area.
 
 ## Access requirements
 
+<!--drafted for P&P
+(I am putting Contributor and higher here because this is what I found in testing. Normally, Review equals Light but I found out that Contributor can also have manage rights to documents and can share them.)
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Current license: Contributor or higher</p> 
+   Or
+   <p>Legacy license: Review or higher</p>
+      </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations*</td> 
+   <td> <p>View access to Documents</p> <p><b>NOTE</b>
+   
+   If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>View access to an object</p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+-->
+
 You must have the following access to perform the steps in this article:
 
 <table style="table-layout:auto"> 
@@ -131,7 +163,7 @@ When you share an object that has a document folder, your recipients also get ac
   >
   >An attached document inherits permissions only from the object where it was attached. If you create a folder on the object and move the document into the folder, it inherits the folder's permissions. But, if you create a folder on a parent or grandparent object and move the document into that folder, it does not inherit that folder's permissions.
 
-* If the option “Never inherit document access from projects, tasks, issues, etc” is enabled in the recipient's access level, they will not inherit permissions to documents in a folder that you share with them. To give them access to a document in the folder, you must share the document.
+* If the option "Never inherit document access from projects, tasks, issues, etc" is enabled in the recipient's access level, they will not inherit permissions to documents in a folder that you share with them. To give them access to a document in the folder, you must share the document.
 
   For information about the "Never inherit" option, see [Configure access to Adobe Workfront](../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md).
 
