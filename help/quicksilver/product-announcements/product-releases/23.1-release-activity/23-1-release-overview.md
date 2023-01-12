@@ -12,6 +12,8 @@ This page provides information about functionality that is included in the 23.1 
 
 The enhancements on this page are available in the Preview environment. This page will be updated with additional enhancements as the 23.1 release nears its planned Production release, which is scheduled for January 18th and 19th.
 
+The 23.1 release webinar will be held on Tuesday, January 10, 2023. You can [register for the webinar here](https://event.on24.com/wcc/r/3995983/A5FC731C36313CE081AEBB3B1AA39C77).
+
 <span class="preview">Off-cycle features (those releasing to Production prior to the 23.1 release date) are highlighted in yellow.</span>
 
 
@@ -517,10 +519,6 @@ For information on API versions, see [API versioning and support schedule](/help
 ### Workfront Maintenance Updates
 
 For information about the maintenance updates made during the 22.3 release, see [Workfront Maintenance Updates](https://one.workfront.com/s/article/Workfront-Maintenance-Updates-1882317350).
-
-### 23.1 Release Webinar
-
-The 23.1 release webinar will be held on Tuesday, January 10, 2023. You can [register for the webinar here](https://event.on24.com/wcc/r/3995983/A5FC731C36313CE081AEBB3B1AA39C77).
 
 ### Training updates
 
