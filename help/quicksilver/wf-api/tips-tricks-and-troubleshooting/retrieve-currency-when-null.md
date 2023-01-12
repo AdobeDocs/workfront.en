@@ -1,8 +1,8 @@
 ---
 content-type: api;tips-tricks-troubleshooting
 navigation-topic: tips-tricks-and-troubleshooting-workfront-api
-title: Sorting query results in the API
-description: Sorting query results in the API
+title: Retrieve currency information for a project when currency is null
+description: Retrieve currency information for a project when currency is null
 author: Becky
 feature: Workfront API
 ---
@@ -29,7 +29,7 @@ This would return the following response body:
 }
 ```
 
-If the currency is not set for the project, this response would include a currency with the value `null:
+If the currency is not set for the project, this response would include a currency with the value `null`:
 
 ```
 {
