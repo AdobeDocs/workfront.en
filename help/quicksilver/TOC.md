@@ -2577,6 +2577,7 @@ feature-set: Workfront
     * [Update to emailAddr does not update the username](wf-api/tips-tricks-and-troubleshooting/update-email-addr-and-username.md)
     * [Add advanced proofing options when creating a proof through the Adobe Workfront API](wf-api/tips-tricks-and-troubleshooting/api-create-proof-options-json.md)
     * [Options configuration for OPTASK copyIssue](wf-api/tips-tricks-and-troubleshooting/copyissue-options.md)
+    * [Retrieve currency information for a project when currency is null (not assigned)](wf-api/tips-tricks-and-troubleshooting/retrieve-currency-when-null.md)
 * ProofHQ API {#proofhqpapi}
   * [ProofHQ API](proofhq-api/proofhq-api.md)
   * General {#general}

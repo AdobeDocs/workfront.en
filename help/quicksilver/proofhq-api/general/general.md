@@ -11,5 +11,5 @@ exl-id: 198bc562-bf07-4342-b9a8-6c45294076e6
 This section contains the following articles:
 
 * [Overview](../../proofhq-api/general/overview.md) 
-* [Code Samples](../../proofhq-api/general/code-samples.md) 
+<!--* [Code Samples](../../proofhq-api/general/code-samples.md) -->
 * [SOAP API FAQs](../../proofhq-api/general/soap-api-faqs.md)
