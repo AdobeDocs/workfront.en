@@ -1,16 +1,16 @@
 ---
 product-area: workfront-integrations;setup
 navigation-topic: adobe-workfront-for-creative-cloud
-title: Upload XD art boards as documents to Workfront
-description: You can upload your art boards as documents for a quick review and approval or simply to store in Adobe Workfront.
+title: Upload XD artboards as documents to Workfront
+description: You can upload your artboards as documents for a quick review and approval or simply to store in Adobe Workfront.
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: 710035f7-339c-457c-b9b0-e51bc0e0061d
 ---
 
-# Upload [!DNL XD] art boards as documents to [!DNL Workfront]
+# Upload [!DNL XD] artboards as documents to [!DNL Workfront]
 
-You can upload your art boards as documents for a quick review and approval or simply to store in [!DNL Adobe Workfront].
+You can upload your artboards as documents for a quick review and approval or simply to store in [!DNL Adobe Workfront].
 
 ## Access requirements
 
@@ -47,7 +47,7 @@ You must have the following access to perform the steps in this article:
 
 ## Prerequisites
 
-* You must install the [!DNL Workfront for Adobe XD] plugin before you can upload XD art boards as documents to Workfront.
+* You must install the [!DNL Workfront for Adobe XD] plugin before you can upload XD artboards as documents to Workfront.
 
  For instructions, see [Install [!DNL Workfront for Adobe XD]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-install.md).
 
@@ -61,12 +61,12 @@ You must have the following access to perform the steps in this article:
 1. Click the **[!UICONTROL Document]** icon ![](assets/documents.png) in the navigation bar. 
 
 1. Click **[!UICONTROL New File]** near the bottom of the plugin.
-1. Select the art board you wish to upload.
+1. Select the artboard you wish to upload.
 
    >[!TIP]
    >
-   >To select more than one art board, click and drag the mouse over the art boards you want.
-
+   >To select more than one artboard, click and drag the mouse over the artboards you want.
+1. (Optional) Type a comment in the **[!UICONTROL Updates]** area. 
 1. Choose the **[!UICONTROL Asset Type]** from the drop-down menu:  
 
    <table style="table-layout:auto">
@@ -78,28 +78,24 @@ You must have the following access to perform the steps in this article:
      </tr>
      <tr>
       <td role="rowheader">PNG</td>
-      <td>The art board upoads as a PNG to the work item's [!UICONTROL Documents] tab in [!DNL Workfront]. </td>
+      <td>The artboards upoad as a PNG to the work item's [!UICONTROL Documents] tab in [!DNL Workfront]. </td>
      </tr>
      <tr>
       <td role="rowheader">JPG</td>
-      <td>The art board uploads as a JPG to the work item's [!UICONTROL Documents] tab in [!DNL Workfront]. <br></td>
+      <td>The artboards upload as a JPG to the work item's [!UICONTROL Documents] tab in [!DNL Workfront]. <br></td>
      </tr>
      <tr>
       <td role="rowheader">SVG</td>
-      <td>The art board uploads as an SVG to the work item's [!UICONTROL Documents] tab in [!DNL Workfront]. </td>
+      <td>The artboards upload as an SVG to the work item's [!UICONTROL Documents] tab in [!DNL Workfront]. </td>
      </tr>
      <tr>
       <td role="rowheader">PDF</td>
-      <td>The art board uploads as a PDF to the work item's [!UICONTROL Documents] tab in [!DNL Workfront].</td>
+      <td>Choose if you want the selected artboards to upload as a <strong>Single PDF file</strong> or <strong>Multiple PDF files</strong>. The artboards uploads as a PDF to the work item's [!UICONTROL Documents] tab in [!DNL Workfront].</td>
      </tr>
     </tbody>
    </table>
 
-   >[!NOTE]
-   >
-   >If you add an approver, the art board uploads to Workfront as a Proof.
 
-1. (Optional) Type a comment in the **[!UICONTROL Updates]** area. 
 1. Click **[!UICONTROL Upload]**.  
    The document appears in the [!UICONTROL Documents] area in the plugin and the desktop app.
 
@@ -114,11 +110,13 @@ You must have the following access to perform the steps in this article:
 
 1. Click on the document you want to add a new version to.
 1. Click **[!UICONTROL New version]** near the bottom of the plugin.
-1. Select the art board you wish to upload.
+1. Select the artboards you wish to upload.
 
    >[!NOTE]
    >
-   >If you want to upload a new version of an SVG, PNG, or JPG, you can upload only one art board.
+   >If you want to upload a new version of an SVG, PNG, or JPG, you can upload only one artboard.
+
+1. (Optional) Type a comment in the **[!UICONTROL Updates]** area. 
 
 1. Choose the **[!UICONTROL Asset Type]** from the drop-down menu:  
 
@@ -131,27 +129,22 @@ You must have the following access to perform the steps in this article:
      </tr>
      <tr>
       <td role="rowheader">PNG</td>
-      <td>The art board upoads as a PNG to the work item's [!UICONTROL Documents] tab in [!DNL Workfront]. </td>
+      <td>The artboard upoads as a PNG to the work item's [!UICONTROL Documents] tab in [!DNL Workfront]. </td>
      </tr>
      <tr>
       <td role="rowheader">JPG</td>
-      <td>The art board uploads as a JPG to the work item's [!UICONTROL Documents] tab in [!DNL Workfront]. <br></td>
+      <td>The artboard uploads as a JPG to the work item's [!UICONTROL Documents] tab in [!DNL Workfront]. <br></td>
      </tr>
      <tr>
       <td role="rowheader">SVG</td>
-      <td>The art board uploads as a SVG to the work item's [!UICONTROL Documents] tab in [!DNL Workfront]. </td>
+      <td>The artboard uploads as a SVG to the work item's [!UICONTROL Documents] tab in [!DNL Workfront]. </td>
      </tr>
      <tr>
       <td role="rowheader">PDF</td>
-      <td>The art board uploads as a PDF to the work item's [!UICONTROL Documents] tab in [!DNL Workfront].</td>
+      <td>The artboards upload as a PDF to the work item's [!UICONTROL Documents] tab in [!DNL Workfront].</td>
      </tr>
     </tbody>
    </table>
 
-   >[!NOTE]
-   >
-   >If you add an approver, the art board uploads to Workfront as a Proof.
-
-1. (Optional) Type a comment in the **[!UICONTROL Updates]** area. 
 1. Click **[!UICONTROL Upload]**.  
    The document appears in the [!UICONTROL Documents] area in the plugin and the desktop app.
