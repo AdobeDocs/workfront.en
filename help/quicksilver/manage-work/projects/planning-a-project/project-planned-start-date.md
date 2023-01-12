@@ -18,13 +18,13 @@ exl-id: a1223d81-3fb8-42d1-9a7d-c58d1f0fcd36
 </div>
 -->
 
-The Planned Start and the Planned Completion Dates of a project rely on the dates of the tasks on the project.&nbsp;This article describes the Planned Start Date of a project. For information about the task Planned Start Date, see [Overview of the task Planned Start Date](../../../manage-work/tasks/task-information/task-planned-start-date.md).
+The Planned Start and the Planned Completion Dates of a project rely on the dates of the tasks on the project. This article describes the Planned Start Date of a project. For information about the task Planned Start Date, see [Overview of the task Planned Start Date](../../../manage-work/tasks/task-information/task-planned-start-date.md).
 
-The Planned Start Date of a project can be set manually or automatically, depending on whether you schedule the project from the Start or from the Completion Date.&nbsp;
+The Planned Start Date of a project can be set manually or automatically, depending on whether you schedule the project from the Start or from the Completion Date. 
 
 ## Manually set the Planned Start Date of a project
 
-You must manually set the Planned Start Date of a project when you schedule the project from Start Date.&nbsp;
+You must manually set the Planned Start Date of a project when you schedule the project from Start Date. 
 
 For information about setting the project's Planned Start Date, see [Edit projects](../../../manage-work/projects/manage-projects/edit-projects.md).
 
@@ -47,21 +47,21 @@ For information about setting the project's Planned Start Date, see [Edit projec
 
 The Planned Start Date of a project is automatically set when you create the project in the following ways:
 
-* from scratch and when you schedule the project from Completion Date.&nbsp;
+* from scratch and when you schedule the project from Completion Date.
 
   The Planned Start Date is automatically calculated by Adobe Workfront, based on the date you select for the Completion Date and the durations of all the tasks on the project.
 
   For information about creating a project from scratch, see [Create a project](../../../manage-work/projects/create-projects/create-project.md). 
 
-* import it from&nbsp;Microsoft Project.
+* import it from Microsoft Project.
 
-  The Planned Start&nbsp;Date is the Start&nbsp;Date of the project in Microsoft Project.
+  The Planned Start Date is the Start Date of the project in Microsoft Project.
 
-  For information about importing a project from&nbsp;Microsoft Project, see [Import a project from Microsoft Project](../../../manage-work/projects/create-projects/import-project-from-ms-project.md).
+  For information about importing a project from Microsoft Project, see [Import a project from Microsoft Project](../../../manage-work/projects/create-projects/import-project-from-ms-project.md).
 
 * import it using Workfront Kick-Starts, when you are a Workfront administrator.
 
-  The Planned Start&nbsp;Date always matches your computer's time and date, unless you specify otherwise in the setPlannedStartDate field on the Project sheet of the kick-start file.
+  The Planned Start Date always matches your computer's time and date, unless you specify otherwise in the setPlannedStartDate field on the Project sheet of the kick-start file.
 
   For information about importing data using kick-starts, see [Import data into Adobe Workfront using a Kick-Start template](../../../administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).
 
@@ -84,9 +84,9 @@ The Planned Start Date of a project is automatically set when you create the pro
 
 ## The Planned Start Date of a task
 
-You can either specify the Planned Start Date of a task, or you can leave it up to Workfront to calculate it depending on certain criteria.&nbsp;
+You can either specify the Planned Start Date of a task, or you can leave it up to Workfront to calculate it depending on certain criteria.
 
-For information about the Planned Start&nbsp;Date of a task, see [Overview of the task Planned Start Date](../../../manage-work/tasks/task-information/task-planned-start-date.md).
+For information about the Planned Start Date of a task, see [Overview of the task Planned Start Date](../../../manage-work/tasks/task-information/task-planned-start-date.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
