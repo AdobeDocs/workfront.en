@@ -89,5 +89,3 @@ For more information, see [Create or edit a custom form](../../../../administrat
 **Add-On available for download: April 2016**
 
 The Workfront Extension for&nbsp;Adobe Creative Cloud is designed to allow you to save and&nbsp;export assets you create&nbsp;in the Creative Cloud to Workfront, thereby&nbsp;speeding up the approval and review process.
-
-For more information, see [Workfront Extension for Adobe Creative Cloud.](../../../../documents/workfront-for-adobe-creative-cloud/workfront-for-adobe-creative-loud.md)&nbsp;
