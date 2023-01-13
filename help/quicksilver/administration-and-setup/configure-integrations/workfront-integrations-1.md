@@ -77,23 +77,6 @@ We understand that the available built-in (native) integrations might not meet a
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>[!DNL Adobe Creative Cloud] </p> <p> <img src="assets/adobecclogo.png"> </p> </td> 
-   <td> 
-    <ul> 
-     <li>Integrate [!DNL Workfront] comments and approvals with [!DNL InDesign], [!DNL Illustrator], and [!DNL Photoshop] </li> 
-     <li>Download/install from [!DNL Adobe Exchange] or manually</li> 
-    </ul> <p>For more information, see <a href="../../documents/workfront-for-adobe-creative-cloud/installl-wf-adobe-cc.md" class="MCXref xref">Install the [!DNL Workfront Extension for Illustrator and InDesign]</a>.</p> </td> 
-   <td> 
-    <ul> 
-     <li> 2017 and newer versions of [!DNL Adobe CC] </li> 
-     <li>[!DNL Creative Cloud] Sync enabled</li> 
-    </ul> </td> 
-   <td> 
-    <ul> 
-     <li>[!DNL Adobe CC] user</li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
    <td> <p>[!DNL Box]</p> <p> <img src="assets/box,-inc.-logo.png"> </p> </td> 
    <td> 
     <ul> 
