@@ -546,7 +546,7 @@ Some list control functionality is moving to the Setup > Interface > Filters/Vie
 
 #### **Workfront extension for Illustrator and InDesign**
  
-We are replacing the [Workfront extension for Illustrator and InDesign](/help/quicksilver/documents/workfront-for-adobe-creative-cloud/workfront-for-adobe-creative-loud.md) with updated Creative Cloud plugins. Starting late 2022, this extension will no longer be available to install in the Adobe Exchange.
+We are replacing the [Workfront extension for Illustrator and InDesign](/help/quicksilver/documents/workfront-for-adobe-creative-cloud/use-wf-adobe-cc.md) with updated Creative Cloud plugins. Starting late 2022, this extension will no longer be available to install in the Adobe Exchange.
  
 The functionality in this extension, along with several enhancements, is available in the updated Adobe Workfront for Creative Cloud Plugins:
 * [Adobe Workfront for Photoshop](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-ps.md)

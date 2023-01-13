@@ -2106,8 +2106,6 @@ feature-set: Workfront
       * [Upload proofs from [!DNL Illustrator]](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-proofs-ai.md)
       * [Upload documents from [!DNL Illustrator]](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-ai-docs.md)
     * Workfront Extension for Illustrator and InDesign {#workfront-for-illustrator-indesign}
-      * [Workfront Extension for Illustrator and InDesign](documents/workfront-for-adobe-creative-cloud/workfront-for-adobe-creative-loud.md)
-      * [Install the Workfront Extension for Illustrator and InDesign](documents/workfront-for-adobe-creative-cloud/installl-wf-adobe-cc.md)
       * [Use the Workfront Extension for Illustrator and InDesign](documents/workfront-for-adobe-creative-cloud/use-wf-adobe-cc.md)
   * Adobe Workfront for Jira {#workfront-for-jira}
     * [Adobe Workfront for Jira](workfront-integrations-and-apps/use-workfront-with-jira/workfront-for-jira.md)
