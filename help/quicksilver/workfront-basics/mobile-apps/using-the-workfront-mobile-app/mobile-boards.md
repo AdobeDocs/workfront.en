@@ -102,23 +102,23 @@ The item is marked complete, the counter on the card updates to show how many ch
 
 You can filter a board to display cards assigned to certain people, or you can search to locate a specific card on the board.
 
-When filters are applied, an indicator is displayed on the board ![Filter applied to board](assets/boards-filterapplied-30x30.png). Select the filter icon and choose [!UICONTROL **Clear all**] to remove all filters from the board.
+When filters are applied, an indicator is displayed on the board ![Filter applied to board](assets/active-filter-mobile-boards.png). Select the filter icon and choose [!UICONTROL **Clear all**] to remove all filters from the board.
 
 ### Filter a board by assignees
 
-1. Select the filter icon ![Filter](assets/filter-icon-spectrum-25x25.png).
+1. Select the filter and search icon ![Filter and search](assets/filter-search-icon-mobile-boards.png).
 1. Select [!UICONTROL **Members**] and choose the person or people whose cards you want to see. You can also display unassigned cards.
 1. Select [!UICONTROL **Done**] or ![Done icon](assets/mobile-apply-icon-checkmark.png).
 
 ### Filter a board by tags ([!DNL iOS] only)
 
-1. Select the filter icon ![Filter](assets/filter-icon-spectrum-25x25.png).
+1. Select the filter and search icon ![Filter and search](assets/filter-search-icon-mobile-boards.png).
 1. Select [!UICONTROL **Tags**] and choose the tags you want to see.
 1. Select [!UICONTROL **Done**].
 
 ### Search in a board
 
-1. Select the filter icon ![Filter](assets/filter-icon-spectrum-25x25.png).
+1. Select the filter and search icon ![Filter and search](assets/filter-search-icon-mobile-boards.png).
 1. Type a search term in the box and select [!UICONTROL **Done**] or ![Done icon](assets/mobile-apply-icon-checkmark.png).
 
    All cards that contain the search term in the title are displayed.
