@@ -18,4 +18,5 @@ This section contains the following articles:
 * [Add advanced proofing options when creating a proof through the Adobe Workfront API](../../wf-api/tips-tricks-and-troubleshooting/api-create-proof-options-json.md)
 * [Options configuration for OPTASK copyIssue](../../wf-api/tips-tricks-and-troubleshooting/copyissue-options.md)
 * [Retrieve currency information for a project when currency is null (not assigned)](../../wf-api/tips-tricks-and-troubleshooting/retrieve-currency-when-null.md)
+* [Using the API to add a linked folder is not supported](../../wf-api/tips-tricks-and-troubleshooting/linked-folders-for-docu-not-supported.md)
 
