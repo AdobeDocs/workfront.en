@@ -88,34 +88,38 @@ The following table outlines major features of boards along with their current r
   </tr>
   <tr>
    <td>Filter connected cards by project</td>
-   <td>Partially released</td>
+   <td>Released</td>
   </tr>
   <tr>
    <td>Define card falloff</td>
-   <td>Partially released</td>
+   <td>Released</td>
   </tr>
   <tr>
    <td>Search for a board and sort the dashboard</td>
-   <td>Partially released</td>
+   <td>Released</td>
   </tr>
   <tr>
    <td>Display the status on a card</td>
-   <td>Partially released</td>
+   <td>Released</td>
   </tr>
   <tr>
    <td>Use a card counter on columns</td>
-   <td>Partially released</td>
-  </tr> 
-  <tr>
-   <td>Import subtasks as checklist items on cards</td>
-   <td>Planned (this feature was removed from Preview on January 5, 2023)</td>
+   <td>Released</td>
   </tr>
   <tr>
    <td>Map card due date to task planned completion date</td>
-   <td>Partially released (in Preview only)</td>
+   <td>Released</td>
   </tr>
   <tr>
    <td>Create iterations</td>
+   <td>Planned</td>
+  </tr>
+  <tr>
+   <td>Define backlog</td>
+   <td>Planned</td>
+  </tr>
+  <tr>
+   <td>Import subtasks as checklist items on cards</td>
    <td>Planned</td>
   </tr>
  </tbody> 

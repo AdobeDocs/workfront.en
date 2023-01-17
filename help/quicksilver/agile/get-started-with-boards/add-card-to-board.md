@@ -96,12 +96,6 @@ An ad hoc card is not connected to a work item in [!DNL Adobe Workfront].
 
    The assignees, tags, due date, checklist counter, estimated hours, and status are displayed on the card.
 
-   ![Card added to board](assets/boards-sample-card-on-board-110922.png)
-
-   >[!NOTE]
-   >
-   >Showing the status on a card is available only via the early feature opt-in. For details, see [Early feature opt-in for [!DNL Adobe Workfront] Boards](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md).
-
 ## Quick add an ad hoc card
 
 You can add ad hoc cards with only a title to quickly populate your board.
