@@ -40,7 +40,6 @@ You must have the following access to perform the steps in this article:
 
 Metadata for documents in [!DNL Workfront] can include information such as the related project name, task description, or Planned Completion Date. As a [!DNL Workfront] administrator, you can configure [!DNL Workfront] to include metadata with documents sent from [!DNL Workfront] to the following [!DNL Workfront] applications:
 
-* [!DNL Workfront Library]
 * [!DNL Workfront DAM]
 
 Before metadata can be sent with documents, you must first specify, or map, the metadata that you want included. You can map any field used in [!DNL Workfront]. Once you set up metadata mapping, all documents uploaded to a [!DNL Workfront] application will include the mapped metadata.
@@ -49,9 +48,9 @@ When a user sends a document from [!DNL Workfront] to a [!DNL Workfront] applica
 
 >[!NOTE]
 >
->You can map metadata only in one direction: from [!DNL Workfront] to [!DNL Workfront DAM] or [!DNL Workfront Library]. Metadata for documents linked to [!DNL Workfront] from [!DNL Workfront Library] or [!DNL Workfront DAM] cannot be transferred to Workfront.
+>You can map metadata only in one direction: from [!DNL Workfront] to [!DNL Workfront DAM]. Metadata for documents linked to [!DNL Workfront] from [!DNL Workfront DAM] cannot be transferred to Workfront.
 
-You can map the same [!DNL Workfront] field to various metadata fields in [!DNL Workfront Library] or [!DNL Workfront DAM], but you cannot use a metadata field in either of those applications for multiple [!DNL Workfront] metadata fields.
+You can map the same [!DNL Workfront] field to various metadata fields in [!DNL Workfront DAM], but you cannot use a metadata field in either of those applications for multiple [!DNL Workfront] metadata fields.
 
 To configure multiple [!DNL Workfront] fields to export to one metadata field in a [!DNL Workfront] application, first create a calculated custom field in [!DNL Workfront] to display all the individual custom fields of an object. Then, map the calculated [!DNL Workfront] field to a metadata field in the [!DNL Workfront] application. For more information about calculated custom fields, see [Add calculated data to a custom form](../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
 
@@ -65,14 +64,14 @@ Before you can map fields for the metadata mapping process, you must enable the 
 
    ![](assets/metadata-mapping.png)
 
-1. In the **[!UICONTROL Select Source Field for Mapping]** box, begin typing the name of the Workfront field you want to map to [!DNL Workfront Library] or [!DNL Workfront DAM], then select it when you see it in the list.
+1. In the **[!UICONTROL Select Source Field for Mapping]** box, begin typing the name of the Workfront field you want to map to [!DNL Workfront DAM], then select it when you see it in the list.
 1. In the **[!UICONTROL Select Target Field for Mapping]** box, select the field you want to populate with the information in the selected [!DNL Workfront] field.
 
 1. Click **[!UICONTROL Add Mapping]**.
 
    The mapped field displays in the mapped fields listed at the bottom of the page.
 
-1. Repeat Steps 5 and 6 until you add all the desired [!DNL Workfront] fields and their corresponding [!DNL Workfront Library] or [!DNL Workfront DAM] fields.
+1. Repeat Steps 5 and 6 until you add all the desired [!DNL Workfront] fields and their corresponding [!DNL Workfront DAM] fields.
 
 ## Delete mapped fields
 
@@ -84,6 +83,6 @@ Before you can map fields for the metadata mapping process, you must enable the 
 1. In the list of mapped fields, select the fields you want to remove from metadata mapping.
 1. Click **[!UICONTROL Delete]**.
 
-   The designated fields are no longer mapped. Now when a user sends a document from [!DNL Workfront] to [!DNL Workfront Library] or [!DNL Workfront DAM], the metadata contained within the deleted fields is not transferred with the document.
+   The designated fields are no longer mapped. Now when a user sends a document from [!DNL Workfront] to [!DNL Workfront DAM], the metadata contained within the deleted fields is not transferred with the document.
 
    A document sent prior to you deleting the mapped fields retains the original metadata sent with it, including the metadata for the deleted fields.
