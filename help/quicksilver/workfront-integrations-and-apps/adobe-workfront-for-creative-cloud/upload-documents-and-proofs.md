@@ -12,7 +12,7 @@ hidefromtoc: yes
 
 # Upload documents and proofs from the [!DNL Adobe Workfront plugin] to the [!DNL Creative Cloud]
 
-You can use  
+You can upload your projects as documents for a quick review and approval or simply to store in [!DNL Adobe Workfront]. 
 
 >[!NOTE]
 >
@@ -23,15 +23,13 @@ You can use
 
 This section outlines known document limitations in the [!DNL Workfront for Adobe Creative Cloud plugins]. 
 
-Intro text 
-
 ### New document versions accept only one file for upload 
 
 Because [!DNL Workfront] documents cannot contain multiple files, certain settings must be disabled in order to upload new document versions to Workfront. 
 
 >[!NOTE]
 >
->If you must generate multiple files, you can upload a proof instead. The new proof will not be associated with the original document.
+>If you must generate multiple files, you can create a proof instead. The new proof will not be associated with the original document.
 
 
 
