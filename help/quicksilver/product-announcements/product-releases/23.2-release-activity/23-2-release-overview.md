@@ -12,7 +12,7 @@ This page provides information about functionality that is included in the 23.2 
 
 The enhancements on this page are available in the Preview environment. This page will be updated with additional enhancements as the 23.2 release nears its planned Production release.
 
-<!-- The 23.2 release webinar will be held on Tuesday, January 10, 2023. You can [register for the webinar here](https://event.on24.com/wcc/r/3995983/A5FC731C36313CE081AEBB3B1AA39C77). -->
+<!-- The 23.2 release webinar will be held on ___. You can [register for the webinar here](link). -->
 
 <span class="preview">Off-cycle features (those releasing to Production prior to the 23.2 release date) are highlighted in yellow.</span>
 
