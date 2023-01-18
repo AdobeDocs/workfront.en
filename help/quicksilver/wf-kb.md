@@ -23,7 +23,6 @@ description: .
 * [Timesheets](timesheets/timesheets-all.md) 
 * [Adobe Workfront integrations](workfront-integrations-and-apps/workfront-integrations.md) 
 <!--* [Adobe Workfront API](wf-api/workfront-api.md) -->
-* [Workfront Library Basics](workfront-library/content-management/basics/basics.md) 
 * [Workfront Proof](workfront-proof/workfront-proof.md) 
 * [Product announcements](product-announcements/product-announcements.md)
 
