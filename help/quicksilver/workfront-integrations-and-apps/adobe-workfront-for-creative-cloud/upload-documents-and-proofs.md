@@ -21,7 +21,7 @@ You can use
 
 ## Document limitations 
 
-Workfront documents cannot contain multiple files.  
+This section outlines known document limitations in the [!DNL Workfront for Adobe Creative Cloud plugins]. 
 
 Intro text 
 
@@ -29,9 +29,12 @@ Intro text
 
 Because [!DNL Workfront] documents cannot contain multiple files, certain settings must be disabled in order to upload new document versions to Workfront. 
 
-* [!DNL InDesign]: 
-* [!DNL Photoshop]: 
-* [!DNL XD]:
-* [!DNL Illustrator]: 
+To change your switch back to a single file in [!DNL InDesign]:
 
-## Proof limitations
+1. Open the Set Export File Settings dialog box. 
+
+1. 
+
+
+If you must genrate multipple files, you can upload a proof instead. The new proof will not be associated with the original document. Settings that generate multiple files are as follows:
+* 
