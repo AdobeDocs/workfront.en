@@ -52,8 +52,6 @@ You must have the following to perform the steps in this article:
 
 You can configure the following integrations for managing documents:
 
-* [!DNL Workfront Library]
-
    <!--
   Experience Manager Assets Essentials </p>
   -->
@@ -100,7 +98,7 @@ In addition, you can enhance your [!DNL Workfront] document experience with a na
 1. Select the integrations you want enabled.
 1. Click **[!UICONTROL Save]**.
 
-If you are setting up integrations with [!DNL Workfront Library] or [!DNL Workfront DAM], you can enable [!DNL Workfront] to include metadata with documents. For information about mapping metadata, see [Set up metadata mapping](../../administration-and-setup/configure-integrations/set-up-metadata-mapping.md).
+If you are setting up integrations with [!DNL Workfront DAM], you can enable [!DNL Workfront] to include metadata with documents. For information about mapping metadata, see [Set up metadata mapping](../../administration-and-setup/configure-integrations/set-up-metadata-mapping.md).
 
 ## Configure custom document integrations
 
@@ -185,8 +183,6 @@ After the custom document integration is built, you can make it available to use
 1. Click **[!UICONTROL Save]** to create the integration.
 
 ## Use document integrations
-
-For information about how users can use [!DNL Workfront Library], see [Add a [!DNL Workfront Library] asset to Workfront](../../workfront-library/content-management/add-a-wf-library-asset.md).
 
 For information about how users can use [!DNL Workfront DAM], see [Managing Documents with [!DNL Adobe Workfront DAM]](../../documents/workfront-dam-within-workfront/manage-docs-with-wf-dam.md).
 
