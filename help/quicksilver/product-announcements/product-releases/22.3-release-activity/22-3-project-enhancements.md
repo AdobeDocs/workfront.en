@@ -140,10 +140,10 @@ For more information about sharing folders, see [Share a top-level document fold
 >
 >This feature is planned to be removed from Preview on January 9, 2023. For more information, see the [23.1 Release overview page](/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-release-overview.md).
 
-
 >[!NOTE]
 >
 >This feature will not be included with the 22.3 Production release. It will be released to Production with a future release.
+
 
 >[!NOTE]
 >
