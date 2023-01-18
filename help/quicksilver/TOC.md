@@ -293,7 +293,6 @@ feature-set: Workfront
         * [R1 release webinars](product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-release-webinars.md)
   * Announcements {#announcements}
     * [Announcements](product-announcements/announcements/announcements.md)
-    * [Learn about the latest improvements in Adobe Workfront One](product-announcements/announcements/latest-improvements-wfone.md)
     * [Custom form enhancements](product-announcements/announcements/custom-form-enhancements.md)
     * [Schedule of features no longer supported](product-announcements/announcements/feature-removal-timeline.md)
     * [Remove custom SMTP as an outgoing email option](product-announcements/announcements/remove-custom-smtp.md)
