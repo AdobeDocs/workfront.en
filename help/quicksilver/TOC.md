@@ -172,15 +172,6 @@ feature-set: Workfront
         * [Adobe Workfront Goals 21.1 release activity: Week of November 16, 2020](product-announcements/product-releases/goals-release-activity/goals-21.1-release/goals-nov-16.md)
       * [Workfront Goals with the 20.4 release](product-announcements/product-releases/goals-release-activity/goals-release-20-4.md)
       * [Workfront Goals with the 20.3 release - August 14, 2020](product-announcements/product-releases/goals-release-activity/goals-release-20.3.md)
-    * Workfront Library release activity {#library-release}
-      * [Workfront Library release activity](product-announcements/product-releases/library-release-activity/workfront-library-release-activity.md)
-      * [Workfront Library release activity - April 18, 2019](product-announcements/product-releases/library-release-activity/library-release-activity-apr-18-2019.md)
-      * [Workfront Library release activity - August 15, 2019](product-announcements/product-releases/library-release-activity/library-release-activity-aug-15-2019.md)
-      * [Workfront Library release activity - February 13, 2020](product-announcements/product-releases/library-release-activity/library-release-activity-feb-13-2020.md)
-      * [Workfront Library release activity - January 29, 2020](product-announcements/product-releases/library-release-activity/library-release-activity-jan-29-2020.md)
-      * [Workfront Library release activity - June 19, 2019](product-announcements/product-releases/library-release-activity/library-release-activity-jun-19-2019.md)
-      * [Workfront Library release activity - May 3, 2019](product-announcements/product-releases/library-release-activity/library-release-activity-may-3-2019.md)
-      * [Workfront Library release activity - October 11, 2019](product-announcements/product-releases/library-release-activity/library-release-activity-oct-11-2019.md)
     * Workfront Proof release activity {#proof-release}
       * [Workfront Proof release activity: Week of May 17, 2021](product-announcements/product-releases/workfront-proof-release-activity/wp-release-may-17.md)
       * [Workfront Proof release activity: Week of November 29, 2021](product-announcements/product-releases/workfront-proof-release-activity/wp-release-22-1.md)
@@ -302,7 +293,6 @@ feature-set: Workfront
         * [R1 release webinars](product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-release-webinars.md)
   * Announcements {#announcements}
     * [Announcements](product-announcements/announcements/announcements.md)
-    * [Learn about the latest improvements in Adobe Workfront One](product-announcements/announcements/latest-improvements-wfone.md)
     * [Custom form enhancements](product-announcements/announcements/custom-form-enhancements.md)
     * [Schedule of features no longer supported](product-announcements/announcements/feature-removal-timeline.md)
     * [Remove custom SMTP as an outgoing email option](product-announcements/announcements/remove-custom-smtp.md)
@@ -322,7 +312,6 @@ feature-set: Workfront
     * Reporting Canvas beta {#reporting-canvas-beta}
       * [Reporting Canvas beta overview](product-announcements/betas/reporting-canvas-beta/reporting-canvas-beta-overview.md)
       * [Reporting Canvas beta: release activity](product-announcements/betas/reporting-canvas-beta/reporting-canvas-release-activity.md)
-    * [Campaigns beta](product-announcements/betas/campaign-object-beta.md)
 * Administration and setup {#administration-and-setup}
   * [Administration and setup](administration-and-setup/administration-and-setup.md)
   * Get started with administration {#get-started-administration}
@@ -2177,93 +2166,6 @@ feature-set: Workfront
     * [Apply an Anaplan budget allocation to an Adobe Workfront project](workfront-integrations-and-apps/adobe-workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-projects.md)
     * [Create an Anaplan list item from an Adobe Workfront campaign request](workfront-integrations-and-apps/adobe-workfront-with-anaplan/create-an-anaplan-list-item-from-a-workfront-campaign-request.md)
     * [Apply an Anaplan budget allocation to an Adobe Workfront campaign request or campaign project](workfront-integrations-and-apps/adobe-workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-campaign-requests-and-projects.md)
-* Workfront Library {#workfront-library}
-  * [Workfront Library](workfront-library/workfront-library.md)
-  * Administration and setup of Workfront Library {#admin-setup-wf-library}
-    * [Administration and setup of Workfront Library](workfront-library/administration-and-setup/administration-and-setup-library.md)
-    * Workfront Library Setup {#wf-library-setup}
-      * [Workfront Library Setup](workfront-library/administration-and-setup/workfront-library-setup/workfront-library-setup.md)
-      * [Required configuration to authenticate to Workfront Library](workfront-library/administration-and-setup/workfront-library-setup/required-configuration-to-authenticate-to-library.md)
-      * [Set up a portal in Workfront Library](workfront-library/administration-and-setup/workfront-library-setup/set-up-a-portal-in-library.md)
-      * [Set up content expiration in Workfront Library](workfront-library/administration-and-setup/workfront-library-setup/set-up-content-expiration-in-library.md)
-    * User access in Workfront Library {#user-access-wf-library}
-      * [User access in Workfront Library](workfront-library/administration-and-setup/user-access/user-access.md)
-      * [Overview of user access to Workfront Library](workfront-library/administration-and-setup/user-access/user-access-overview.md)
-      * [Give users access to Workfront Library](workfront-library/administration-and-setup/user-access/give-users-access-to-library.md)
-      * [Change a user's access to Workfront Library](workfront-library/administration-and-setup/user-access/change-user-access.md)
-      * [Remove a user's access to Workfront Library](workfront-library/administration-and-setup/user-access/remove-a-users-access-library.md)
-      * [Give users access to a Workfront Library portal](workfront-library/administration-and-setup/user-access/give-users-access-portal.md)
-      * [Permissions in Workfront Library](workfront-library/administration-and-setup/user-access/permissions-in-workfront-library.md)
-    * Metadata in Workfront Library {#metadata-wf-library}
-      * [Metadata in Workfront Library](workfront-library/administration-and-setup/metadata/metadata.md)
-      * [Overview of metadata in Workfront Library](workfront-library/administration-and-setup/metadata/metadata-overview.md)
-      * [Overview of taxonomy metadata in Workfront Library](workfront-library/administration-and-setup/metadata/taxonomy-metadata-overview.md)
-      * [Overview of taxonomy field types](workfront-library/administration-and-setup/metadata/taxonomy-field-types-overview.md)
-      * [Set up taxonomy metadata for Workfront Library](workfront-library/administration-and-setup/metadata/set-up-taxonomy-metadata.md)
-      * [Edit a taxonomy metadata field in Workfront Library](workfront-library/administration-and-setup/metadata/edit-the-taxonomy.md)
-      * [Determine the display order of taxonomy fields in Workfront Library](workfront-library/administration-and-setup/metadata/determine-display-order-of-taxonomy-fields.md)
-      * [Delete a taxonomy field in Workfront Library](workfront-library/administration-and-setup/metadata/delete-a-taxonomy-field-in-workfront-library.md)
-      * [Overview of keyword metadata in Workfront Library](workfront-library/administration-and-setup/metadata/keyword-metadata-overview.md)
-      * [Add keywords to metadata in Workfront Library](workfront-library/administration-and-setup/metadata/add-keywords-to-metadata.md)
-      * [Rename a keyword in Workfront Library](workfront-library/administration-and-setup/metadata/edit-keyword-pick-list.md)
-      * [Delete a keyword from the picklist in Workfront Library](workfront-library/administration-and-setup/metadata/delete-keyword-from-metadata.md)
-      * [Format your CSV file for metadata import in Workfront Library](workfront-library/administration-and-setup/metadata/format-your-csv-file-for-metadata-import.md)
-      * [Use Workfront Library's import tool to add metadata to content](workfront-library/administration-and-setup/metadata/import-metadata-for-content.md)
-    * Manage assets {#manage-assets}
-      * [Manage assets](workfront-library/administration-and-setup/manage-assets/manage-assets.md)
-      * [Manage assets for other users](workfront-library/administration-and-setup/manage-assets/manage-assets-for-other-users.md)
-      * [Transfer ownership assets to another user](workfront-library/administration-and-setup/manage-assets/transfer-ownership-to-others.md)
-  * Content management in Workfront Library {#content-management-wf-library}
-    * [Content management in Workfront Library](workfront-library/content-management/content-management.md)
-    * Workfront Library Basics {#wf-library-basics}
-      * [Workfront Library Basics](workfront-library/content-management/basics/basics.md)
-      * [Get started with Workfront Library](workfront-library/content-management/basics/get-started-with-library.md)
-      * [Access content in Workfront Library](workfront-library/content-management/basics/access-content.md)
-      * [Open items in Workfront Library](workfront-library/content-management/basics/open-items-in-library.md)
-      * [Search for items in Workfront Library](workfront-library/content-management/basics/search-for-items-in-workfront-library.md)
-      * [Sort content in Workfront Library](workfront-library/content-management/basics/sort-content-in-library.md)
-      * [Filter content displayed in Workfront Library](workfront-library/content-management/basics/filter-content-displayed.md)
-      * [Download items from Workfront Library](workfront-library/content-management/basics/download-content-from-library.md)
-      * [Create a request in Workfront Library](workfront-library/content-management/basics/create-a-request-in-wf-library.md)
-      * [View Workfront Library work requests](workfront-library/content-management/basics/view-work-requests-in-library.md)
-      * [Open a Workfront Library portal](workfront-library/content-management/basics/open-a-portal.md)
-    * Collections in Workfront Library {#collections-in-wf-library}
-      * [Collections in Workfront Library](workfront-library/content-management/collections/collections.md)
-      * [Overview of collections in Workfront Library](workfront-library/content-management/collections/collections-overview.md)
-      * [Create a collection in Workfront Library](workfront-library/content-management/collections/create-a-collection.md)
-      * [Add items to a collection in Workfront Library](workfront-library/content-management/collections/add-items-to-a-collection.md)
-      * [Edit a Workfront Library collection](workfront-library/content-management/collections/edit-a-collection.md)
-      * [Open a collection in Workfront Library](workfront-library/content-management/collections/open-a-collection.md)
-      * [Remove items from a collection in Workfront Library](workfront-library/content-management/collections/remove-items-from-a-collection.md)
-    * Folders in Workfront Library {#folders-in-wf-library}
-      * [Folders in Workfront Library](workfront-library/content-management/folders/folders.md)
-      * [Overview of folders in Workfront Library](workfront-library/content-management/folders/folders-overview-library.md)
-      * [Create a folder in Workfront Library](workfront-library/content-management/folders/create-a-folder-library.md)
-      * [Add items to a folder in Workfront Library](workfront-library/content-management/folders/add-items-to-a-folder-library.md)
-    * [Upload content to Workfront Library](workfront-library/content-management/upload-new-content.md)
-    * [Send documents from Workfront to Workfront Library](workfront-library/content-management/send-documents-from-wf-to-library.md)
-    * [Add a Workfront Library asset to Workfront](workfront-library/content-management/add-a-wf-library-asset.md)
-    * [Share a Workfront Library item with other users](workfront-library/content-management/share-an-asset-with-users.md)
-    * [Rename items in Workfront Library](workfront-library/content-management/rename-items.md)
-    * [Change the cover image on an item in Workfront Library](workfront-library/content-management/change-cover-image-of-folder.md)
-    * [Bulk edit metadata in Workfront Library](workfront-library/content-management/bulk-edit-metadata.md)
-    * [Create and manage views in Workfront Library](workfront-library/content-management/create-and-manage-views.md)
-    * [Hide and unhide content in Workfront Library](workfront-library/content-management/hide-and-unhide-content.md)
-    * [Delete items from Workfront Library](workfront-library/content-management/delete-items.md)
-    * [Relocate assets in Workfront Library](workfront-library/content-management/relocate-assets.md)
-    * Content Versioning in Workfront Library {#content-versioning-in-wf-library}
-      * [Content Versioning in Workfront Library](workfront-library/content-management/content-versioning/content-versioning.md)
-      * [Overview of content versioning in Workfront Library](workfront-library/content-management/content-versioning/content-versioning-overview.md)
-      * [Upload a new version of content in Workfront Library](workfront-library/content-management/content-versioning/upload-new-version-of-content.md)
-      * [Access older versions of content in Workfront Library](workfront-library/content-management/content-versioning/view-older-versions-of-content-library.md)
-    * Filters in Workfront Library {#filters-in-wf-library}
-      * [Filters in Workfront Library](workfront-library/content-management/filters/filters.md)
-      * [Filter for expired content in Workfront Library](workfront-library/content-management/filters/filter-for-expired-content.md)
-      * [Filter for hidden content in Workfront Library](workfront-library/content-management/filters/filter-hidden-content.md)
-    * Manage portals {#manage-portals-wf-library}
-      * [Manage portals](workfront-library/content-management/portals/portals.md)
-      * [Overview of Workfront Library portals](workfront-library/content-management/portals/portals-overview.md)
-    * [Export asset metadata from Workfront Library](workfront-library/content-management/export-asset-metadata.md)
 * Workfront Proof {#workfront-proof}
   * [Workfront Proof](workfront-proof/workfront-proof.md)
   * Get started with Workfront Proof {#get-started-wf-proof}

@@ -41,7 +41,7 @@ You must have the following to perform the steps in this article:
 
 ## Disable cloud provider integrations
 
-To disable document integrations for [!UICONTROL Workfront DAM], [!DNL Workfront Library], [!DNL Box], [!DNL Dropbox], [!DNL Google Drive], [!DNL Microsoft OneDrive], [!DNL WebDAM]:
+To disable document integrations for [!UICONTROL Workfront DAM], [!DNL Box], [!DNL Dropbox], [!DNL Google Drive], [!DNL Microsoft OneDrive], [!DNL WebDAM]:
 
 1. Log in to [!DNL Workfront] as a [!DNL Workfront] administrator.
 1. Click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe Workfront], then click **[!UICONTROL Setup]** ![](assets/gear-icon-settings.png).
