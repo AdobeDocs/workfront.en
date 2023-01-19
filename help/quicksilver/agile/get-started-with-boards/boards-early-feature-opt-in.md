@@ -115,7 +115,7 @@ The following table outlines major features of boards along with their current r
    <td>Planned</td>
   </tr>
   <tr>
-   <td>Define backlog</td>
+   <td>Define card list or backlog</td>
    <td>Planned</td>
   </tr>
   <tr>
