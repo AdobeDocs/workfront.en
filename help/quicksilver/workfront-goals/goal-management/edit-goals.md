@@ -136,6 +136,7 @@ You must have the following before you can start:
   * Results and activities
 
 ## Edit goals
+
 <!--
 Editing goals differs depending on what environment you use.
 
