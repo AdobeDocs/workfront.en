@@ -15,8 +15,6 @@ exl-id: 32eb825c-ba50-4820-a659-adc924a6ae52
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">***DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **</p>
 -->
 
-{{highlighted-preview}}
-
 You can create default filters, views, and groupings, then make them available to users in your organization.
 
 When you create default filters, views, and groupings as described in this article, users who you share them with are able to leverage them when viewing their lists. Users can create their own filters, views, and groupings based on those you create, but they cannot directly change those you create.
@@ -74,7 +72,7 @@ You must have the following access to perform the steps in this article:
 
 You can make the filter, view, or grouping available to users in your system. For more information about sharing filters, views or groupings with other users, see the section [Make filters, views, or groupings available to users](#make-filters-views-or-groupings-available-to-users) in this article.
 
-<div class="preview">
+
 
 ## Show or hide filters, views, or groupings available from the Layout Template
 
@@ -98,7 +96,6 @@ To show or hide filters, views, or groupings available from the Layout Template:
 
 1. (Conditional) Select the filter, view, or grouping that you want to make hide from users, then click **[!UICONTROL Disable system-wide]**. Once disabled, the filter, view, or grouping will be hidden from the layout template as well as users across the system.
 
-</div>
 
 ## Make filters, views, or groupings available to all users {#make-filters-views-or-groupings-available-to-users}
 
