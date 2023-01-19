@@ -58,7 +58,7 @@ For more information, see [Create a team](/help/quicksilver/people-teams-and-gro
 
 >[!NOTE]
 >
->This functionality is available only as a beta and is currently under construction. We will continue to add features for the Campaign workflow with future releases. Participation in the beta program for Workfront Campaigns is voluntary. For more information about participating in the beta program, see [Campaigns beta](/help/quicksilver/product-announcements/betas/campaign-object-beta.md).
+>This functionality is available only as a beta and is currently under construction. We will continue to add features for the Campaign workflow with future releases. Participation in the beta program for Workfront Campaigns is voluntary. 
 
 We are introducing a new object to Adobe Workfront that has the potential to change the way you manage work.
 
@@ -83,4 +83,3 @@ The following features are included with this release:
     Workfront system and group administrators can add the Campaigns (Beta) area in the Main Menu of a Layout template. This makes it available for all users assigned to the template. After it's available, anyone in Workfront can create a campaign.
     
 
-For more information about the Workfront Campaigns beta, as well as information about new features as they release to Preview, [Campaigns beta](/help/quicksilver/product-announcements/betas/campaign-object-beta.md).
