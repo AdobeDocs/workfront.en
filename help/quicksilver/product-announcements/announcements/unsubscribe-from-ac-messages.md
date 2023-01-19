@@ -26,7 +26,7 @@ To unsubscribe from receiving Announcement Center messages:
 
    ![](assets/announcements-page-qs-350x210.png)
 
-1. Click **Settings** in the upper-right corner of the Announcements page, then select **New Releases** or Training, depending on the type of announcements you no longer want to receive.
+1. Click **Settings** in the upper-right corner of the Announcements page, then select **New Releases** or **Training**, depending on the type of announcements you no longer want to receive.
 
    ![](assets/announcementcenter-settings-350x187.png)
 
