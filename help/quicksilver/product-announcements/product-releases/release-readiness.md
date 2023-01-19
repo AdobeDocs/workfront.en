@@ -19,7 +19,11 @@ For a detailed description of the Workfront release process, see [Adobe Workfron
 
 We recommend that you consider some or all of the following actions that can help you prepare your organization for upcoming releases.
 
-<!--Add TOC-->
+[Stay up to date with release notes](#stay-up-to-date-with-release-notes)
+[Watch the Workfront Announcement Center](#watch-the-workfront-announcement-center)
+[Explore the Preview Sandbox Environment](#explore-the-preview-sandbox-environment)
+[Attend the release webinar](#attend-the-release-webinar)
+[Offer feedback to Workfront](#offer-feedback-to-workfront)
 
 ### Stay up to date with release notes
 
@@ -72,9 +76,11 @@ preview - if you like earlier access to features of interest, you may consider b
 
 -->
 
-## Offer feedback to Workfront
+### Offer feedback to Workfront
 
-As you explore and test new features
+Some new features may have a "Provide Feedback" button. We take this feedback into account when preparing to release the feature to Production.
+
+In addition, if you find a bug or have a problem with new features, please contact Workfront Support. For more information, see [Contact Customer Support](../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).
 
 ## Communicate release information to your users
 
@@ -84,8 +90,8 @@ You can communicate changes to your users directly. You are in the best position
 * Email
 * Announcement Center messages (forwarded from Workfront or created by you)
 * Announcements on collaboration tools such as Slack or Microsoft Teams
-* Internal webinars or training videos
+* Internal webinars or training
 
-You can choose the balance between Workfront resources (such as documentation, release notes, and training) with information that is more tailored to the needs and workflows of your organization. Showing users how new features can improve their work or save time and energy will help your users embrace the changes, but you don't need to create demos or documentation already available through Workfront.
+You can choose the balance between Workfront resources (such as documentation, release notes, and training) with information that is more tailored to the needs and workflows of your organization. Showing users how new features can improve their work or save time and energy will help your users embrace the changes, but you can save time by using the demos or documentation already available through Workfront.
 
 Over time, you will recognize the communication that is most effective for your organization. We recommend documenting your processes, assessing success, and refining your communication for the next release.
