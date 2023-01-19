@@ -13,10 +13,6 @@ You can configure a board so that cards are archived, or "fall off" the board, o
 
 When a card falls off the board, it is archived. You can display archived cards with a filter. For more information, see [Filter and search in a board](/help/quicksilver/agile/get-started-with-boards/filter-search-in-board.md).
 
->[!NOTE]
->
->Card falloff is available only via the early feature opt-in. For details, see [Early feature opt-in for [!DNL Adobe Workfront] Boards](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md).
-
 ## Access requirements
 
 You must have the following access to perform the steps in this article:
