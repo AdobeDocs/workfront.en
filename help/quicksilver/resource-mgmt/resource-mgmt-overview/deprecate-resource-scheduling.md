@@ -11,6 +11,17 @@ exl-id: 7fa644cd-cf6a-40f8-ae28-bf222bb45d3f
 ---
 # Deprecation of Resource Scheduling tools in Adobe Workfront
 
+>[!IMPORTANT]  
+>  
+><span class="preview">The Scheduling functionality described in this article has been deprecated and removed from Adobe Workfront starting with the 23.1 release in January 2023.   </span>  
+>  
+> <span class="preview"> This article will also be removed shortly after the 23.1 release, in early 2023. At this time, we recommend that you update any bookmarks accordingly. </span> 
+> 
+><span class="preview"> You can now use the Workload Balancer to schedule work for your resources. </span>  
+>  
+> <span class="preview">For information about scheduling resources using the Workload Balancer, see the section [The Workload Balancer](../../resource-mgmt/workload-balancer/workload-balancer.md). </span>  
+
+<!--
 We are currently in the process of removing all Scheduling tools from Adobe Workfront and replacing them with the Workload Balancer.
 
 >[!IMPORTANT]
@@ -24,6 +35,7 @@ We have been announcing a more exact timeline through the Announcement Center at
 >[!NOTE]
 >
 >The changes described in this article do not affect any other resource management tools. For example, they do not affect the [!UICONTROL Resource Planner] or the [!UICONTROL Utilization] report.
+-->
 
 ## How you should prepare
 

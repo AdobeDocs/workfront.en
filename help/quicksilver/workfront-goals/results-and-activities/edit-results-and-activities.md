@@ -120,7 +120,7 @@ You must have the following:
 
 You must have the following before you can start:
 
-* A Layout Template that includes the Goals area in the Main&nbsp;Menu.
+* A Layout Template that includes the Goals area in the Main Menu.
 
 ## Considerations when editing results and activities
 
@@ -150,6 +150,7 @@ According to Vazgen, access levels will add more considerations.)
 
 ## Edit results
 
+<!--
 Editing results differs depending on which environment you use.
 
 ### Edit results in the Production environment
@@ -171,10 +172,8 @@ Editing results differs depending on which environment you use.
    | Target |The desired value when the result is completed. |
 
 1. Click **Save**.
+-->
 
-<div class="preview">
-
-### Edit results in the Preview environment
 
 1. Click the **Main Menu** ![](assets/main-menu-icon.png), then **Goals**. 
 1. From the Goal List, click the name of a goal to open the goal page.
@@ -186,19 +185,17 @@ Editing results differs depending on which environment you use.
    ![](assets/edit-result-box-unshimmed.png)
 
 1. Edit the following information:
-    1. **Result name**: The name of the result. Use a descriptive name that illustrates what result you need to obtain in order to complete the goal. 
-    1. **Result owner**: The owner of the result. The owner must be an active Workfront user. 
-    1. **Value type**: How you measure the progress of the result.
-    1. **Initial Value**: The original value of the result.
-    1. **Target Value**: The desired value when the result is completed. 
+    * **Result name**: The name of the result. Use a descriptive name that illustrates what result you need to obtain in order to complete the goal. 
+    * **Result owner**: The owner of the result. The owner must be an active Workfront user. 
+    * **Value type**: How you measure the progress of the result.
+    * **Initial Value**: The original value of the result.
+    * **Target Value**: The desired value when the result is completed. 
 For more information about result fields, see [Add results to goals](../results-and-activities/add-results-to-goals.md).  
 1. Click **Save**.
 
-</div>
-
-
 ## Edit activities
 
+<!--
 Editing activities differs depending on which environment you use.
 
 ### Edit activities in the Production environment
@@ -221,11 +218,7 @@ Editing activities differs depending on which environment you use.
    | Owner |The owner of activity.  |
 
 1. Click **Save**.
-
-
-<div class="preview">
-
-### Edit activities in the Preview environment
+-->
 
 1. Click the **Main Menu** ![](assets/main-menu-icon.png), then **Goals**. 
 1. From the Goal List, click the name of a goal to open the goal page.
@@ -237,9 +230,9 @@ Editing activities differs depending on which environment you use.
    ![](assets/edit-activity-box-unshimmed.png)
 
 1. Edit the following information:
-    1. **Activity name**: The name of the activity. Use a descriptive name that illustrates what activity you should perform to indicate that the goal completes. 
-    1. **Activity owner:** The owner of the activity. The owner must be an active Workfront user.  
+   * **Activity name**: The name of the activity. Use a descriptive name that illustrates what activity you should perform to indicate that the goal completes. 
+    * **Activity owner:** The owner of the activity. The owner must be an active Workfront user.  
 For more information about activity fields, see [Add activities to goals](../results-and-activities/add-activities-to-goals.md). 
 1. Click **Save**.
 
-</div>
+
