@@ -5,7 +5,6 @@ title: Release readiness
 description: Follow these tips to smoothly update your organization for each new Workfront release.
 author: Becky
 feature: Product Announcements
-exl-id: 505a9602-580c-4932-a85c-6c9a7c8af457
 ---
 # Prepare for a Workfront quarterly release
 
