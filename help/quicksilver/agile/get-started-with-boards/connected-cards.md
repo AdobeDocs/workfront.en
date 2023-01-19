@@ -9,8 +9,6 @@ exl-id: c6d979dd-e4a4-48a5-a91b-b31d7ef848d1
 ---
 # Use connected cards on boards
 
-{{highlighted-preview}}
-
 You can add a card on your board that is connected to existing tasks and issues in [!DNL Workfront].
 
 When any one of the following details is updated for the card in one location, it is automatically updated in the other location:
@@ -19,7 +17,7 @@ When any one of the following details is updated for the card in one location, i
 * [!UICONTROL Description]
 * [!UICONTROL Assignees]
 * [!UICONTROL Status]
-* <span class="preview">[!UICONTROL Due date] / [!UICONTROL Planned completion date]</span>
+* [!UICONTROL Planned completion date]
 
 >[!NOTE]
 >A single connected task or issue can only be added once per board. The same task or issue can be connected to multiple boards.
@@ -113,8 +111,8 @@ You must have the following access to perform the steps in this article:
       <p>If you click <strong>[!UICONTROL Mark Complete]</strong> at the top of the card, the status automatically changes to Complete.</p></td>
      </tr>
      <tr>
-      <td role="rowheader"><strong>[!UICONTROL Due date] / <span class="preview">[!UICONTROL Planned Completion]</span></strong></td>
-      <td><p><span class="preview">Changing this date also changes the planned completion date on the connected [!DNL Workfront] object.</span></p></td>
+      <td role="rowheader"><strong>[!UICONTROL Planned Completion]</strong></td>
+      <td><p>Changing this date also changes the planned completion date on the connected [!DNL Workfront] object.</p></td>
      </tr>
       <tr>
       <td role="rowheader"><strong>[!UICONTROL Estimation]</strong></td>
@@ -136,10 +134,6 @@ You must have the following access to perform the steps in this article:
    The connected object, assignees, tags, due date, checklist counter, estimated hours, and status are displayed on the card.
    
    ![Card added to board](assets/boards-connected-card-details-110922.png)
-
-   >[!NOTE]
-   >
-   >Showing the status on a card is available only via the early feature opt-in. For details, see [Early feature opt-in for Adobe Workfront Boards](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md).
 
 ## Disconnect a connected card
 
