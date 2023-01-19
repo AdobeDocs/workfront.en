@@ -19,11 +19,11 @@ For a detailed description of the Workfront release process, see [Adobe Workfron
 
 We recommend that you consider some or all of the following actions that can help you prepare your organization for upcoming releases.
 
-[Stay up to date with release notes](#stay-up-to-date-with-release-notes)
-[Watch the Workfront Announcement Center](#watch-the-workfront-announcement-center)
-[Explore the Preview Sandbox Environment](#explore-the-preview-sandbox-environment)
-[Attend the release webinar](#attend-the-release-webinar)
-[Offer feedback to Workfront](#offer-feedback-to-workfront)
+* [Stay up to date with release notes](#stay-up-to-date-with-release-notes)
+* [Watch the Workfront Announcement Center](#watch-the-workfront-announcement-center)
+* [Explore the Preview Sandbox Environment](#explore-the-preview-sandbox-environment)
+* [Attend the release webinar](#attend-the-release-webinar)
+* [Offer feedback to Workfront](#offer-feedback-to-workfront)
 
 ### Stay up to date with release notes
 
