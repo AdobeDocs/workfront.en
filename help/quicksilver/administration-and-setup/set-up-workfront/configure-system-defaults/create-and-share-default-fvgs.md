@@ -73,7 +73,6 @@ You must have the following access to perform the steps in this article:
 You can make the filter, view, or grouping available to users in your system. For more information about sharing filters, views or groupings with other users, see the section [Make filters, views, or groupings available to users](#make-filters-views-or-groupings-available-to-users) in this article.
 
 
-
 ## Show or hide filters, views, or groupings available from the Layout Template
 
 You can choose to show or hide filters, views, or groupings from the Layout Template. Visible filters are available for all users system-wide. You can use a Layout Template to hide visible filters for specific users or groups.

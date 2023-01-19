@@ -12,7 +12,7 @@ This page provides information about functionality that is included in the 23.1 
 
 These enhancements were made available in the Production environment with the 23.1 release on January 18th and 19th, 2023.
 
-The 23.1 release webinar was held on Tuesday, January 10, 2023. You can [register for the webinar here](https://event.on24.com/wcc/r/3995983/A5FC731C36313CE081AEBB3B1AA39C77).
+The 23.1 release webinar was held on Tuesday, January 10, 2023. You can [register for the webinar to view a recording here](https://event.on24.com/wcc/r/3995983/A5FC731C36313CE081AEBB3B1AA39C77).
 
 <span class="preview">Off-cycle features (those releasing to Production prior to the 23.1 release date) are highlighted in yellow.</span>
 
