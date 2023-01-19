@@ -293,12 +293,12 @@ These enhancements were made available in the Production environment the week of
                         <p>Workfront Campaigns enables you to organize projects from different portfolios and programs in a new work container.
 Campaigns were released to Preview beta with the 22.3 release, in July 2022. For more information, see <a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">22.3 Project enhancements</a> </p>
 <p>This new container will evolve in future releases to connect work objects that are currently managed in separate silos.</p>
-<p>For more information about the Workfront Campaigns beta, as well as information about new features as they release to Preview, see <a href="../../../product-announcements/betas/campaign-object-beta.md" class="MCXref xref" xrefformat="{para}">Campaigns beta</a> </p>
-                    </td>
+
+  </td>
                     <td><span class="bold">Available on these dates:</span>
                         <ul>
                             <li>
-                                <p>Preview release:&#160;Throughout the 22.4 release timeframe<br /><span style="color: #ff0000; font-weight: bold;">This feature is planned to be removed from Preview on January 9, 2023. For more information, see the <a href="/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-release-overview.md">23.1 Release overview page.</a> </span></p>
+                                <p>Preview release:&#160;Throughout the 22.4 release timeframe<br /><span style="color: #ff0000; font-weight: bold;">This feature is planned to be removed from Preview on January 9, 2023. For more information, see the <a href="../23.1-release-activity/23-1-release-overview.md">23.1 Release overview page.</a> </span></p>
                             </li>
                             <li>
                                 <p>Production release:&#160;TBD</p>
