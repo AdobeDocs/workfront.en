@@ -38,7 +38,7 @@ This change will go into effect in the Preview and Sandbox environments on Augus
 
 ### When accessing Workfront via the browser {#when-accessing-workfront-via-the-browser}
 
-Ensure that users in your organization are accessing Workfront via a supported browser.&nbsp;(For information about supported browsers, see [Adobe Workfront browser requirements](../../workfront-basics/workfront-browser-requirements.md).)
+Ensure that users in your organization are accessing Workfront via a supported browser.&nbsp;(For information about supported browsers, see [Adobe Workfront browser requirements](../../../workfront-basics/workfront-browser-requirements.md).)
 
 All browsers supported by Workfront are compatible&nbsp;with TLS 1.2.
 

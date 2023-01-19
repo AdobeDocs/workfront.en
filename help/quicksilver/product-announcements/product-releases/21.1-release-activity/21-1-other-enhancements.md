@@ -38,7 +38,7 @@ Email is automatically disabled in all Preview environments. To enable email for
 
 For more information, see [Enable users to email an issue into a Request Queue project](/help/quicksilver/manage-work/requests/create-requests/enable-email-issues-into-projects.md).
 
-For more information about why we are making this change, see [New Adobe Workfront managed system to replace POP email for Request Queues with 21.1](../../../product-announcements/announcements/pop-removal-request-queue.md).
+For more information about why we are making this change, see [New Adobe Workfront managed system to replace POP email for Request Queues with 21.1](../../../product-announcements/announcements/announcement-archive/pop-removal-request-queue.md).
 
 This feature is now included in the [Queue Management in the new Workfront experience](https://one.workfront.com/s/learningpath4/queue-management-MCYCJRWK36QZBP7PGMNDMSPRN3LE) learning path on Workfront One.
 
