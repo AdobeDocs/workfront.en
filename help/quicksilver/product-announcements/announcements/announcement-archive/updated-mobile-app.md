@@ -49,4 +49,4 @@ Starting with the&nbsp;new version of the mobile app, you will be able to approv
 
 Prior to this update, you were able to perform project, task, issue, and document approvals using the mobile app. You will require a Proof HQ license to approve document proofs on the mobile app.&nbsp;
 
-For more information about proofing within Workfront, see the [Proofing](../../review-and-approve-work/proofing/proofing.md) section.&nbsp;
+For more information about proofing within Workfront, see the [Proofing](../../../review-and-approve-work/proofing/proofing.md) section.&nbsp;
