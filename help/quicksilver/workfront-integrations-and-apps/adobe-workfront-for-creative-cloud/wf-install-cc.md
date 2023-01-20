@@ -1,15 +1,19 @@
 ---
 product-area: workfront-integrations;setup
 navigation-topic: adobe-workfront-for-creative-cloud
-title: Install Adobe Workfront for InDesign
+title: Install and open the [!DNL Adobe Workfront for design and video] plugin
 description: You can install Workfront for Creative Cloud plugin from the Adobe Marketplace.
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: f4fbae93-b54b-4d08-82c3-72a9a760c317
 ---
-# Install [!DNL Adobe Workfront for design and video]
+# Install and open the [!DNL Adobe Workfront for design and video] plugin
 
-You can install the [!DNL Adobe Workfront for design and video] plugin from the [!DNL Adobe Marketplace]. The plugin supports the following languages:
+You can install the [!DNL Adobe Workfront for design and video] plugin from the [!DNL Adobe Marketplace]. This plugin supports the following Creative Cloud applications: 
+
+{{#cc-plugin-app-list}} 
+
+The plugin supports the following languages:
 
 * English
 * French
@@ -56,12 +60,13 @@ You must have the following access to perform the steps in this article:
 
 * You must install the [!DNL Creative Cloud] app you wish to use before installing the plugin. 
 
-## Install the [!DNL Adobe Workfront for design and video] plugin
+## Install the [!DNL Adobe Workfront for design and video] plugin 
 
 >[!TIP]
 >
 >If you are an [!DNL Adobe Admin Console] administrator, you can include the plugin in [!DNL Creative Cloud] deployment packages. For more information, see [Including plugins in your package](https://helpx.adobe.com/in/enterprise/using/manage-extensions.html).
 
+To install the [!DNL Adobe Workfront for design and video] plugin:
 
 1. Open the [!DNL Adobe Creative Cloud] app.
 1. Click the **[!UICONTROL Marketplace]** tab near the top of the window.
@@ -76,6 +81,16 @@ You must have the following access to perform the steps in this article:
    <!-- new screen -->
 
 1. Continue to the following section for information on how to log in to the plugin.
+
+## Open the [!DNL Adobe Workfront for design and video] plugin
+
+1. Open the Creative Cloud plugin you wish to use.
+
+1. Create a new project, or open an existing one.  
+
+1. Open the plugin panel. This process is different depending on the Creative Cloud app you are using:
+
+
 
 ## Log In to [!DNL Adobe Workfront for design and video]
 
@@ -104,3 +119,4 @@ You must have the following access to perform the steps in this article:
 
 1. Click **[!UICONTROL Allow Access]** to finish logging in.
 1. Go back to [!DNL Adobe Photoshop] to see your work.
+
