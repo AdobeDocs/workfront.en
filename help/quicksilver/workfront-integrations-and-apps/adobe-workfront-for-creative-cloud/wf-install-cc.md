@@ -11,7 +11,7 @@ exl-id: f4fbae93-b54b-4d08-82c3-72a9a760c317
 
 You can install the [!DNL Adobe Workfront for design and video] plugin from the [!DNL Adobe Marketplace]. This plugin supports the following Creative Cloud applications: 
 
-{{#cc-plugin-app-list}} 
+{{cc-plugin-app-list}} 
 
 The plugin supports the following languages:
 
