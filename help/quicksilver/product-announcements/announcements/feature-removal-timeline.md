@@ -43,7 +43,7 @@ Various features are being phased out of the Adobe Workfront product. Following 
    <td>Removed from the Workfront platform on March 31, 2021</td> 
   </tr> 
   <tr> 
-   <td> <p>Flash</p> <p>Various tools are now available in Workfront to as replacements for each Flash-based tool. For more detailed information, see <a href="../../product-announcements/announcements/replace-flash-tools.md" class="MCXref xref">Replacement of Flash-based tools in Adobe Workfront</a>.</p> </td> 
+   <td> <p>Flash</p> <p>Various tools are now available in Workfront to as replacements for each Flash-based tool. For more detailed information, see <a href="../../product-announcements/announcements/announcement-archive/replace-flash-tools.md" class="MCXref xref">Replacement of Flash-based tools in Adobe Workfront</a>.</p> </td> 
    <td>&nbsp;</td> 
    <td> <p>&nbsp;</p> <p>Removed from the Workfront platform on November 19, 2020</p> </td> 
   </tr> <!--

@@ -33,7 +33,7 @@ For email:
 * 54.240.60.174
 * 54.240.60.175
 
-Please ensure your allowlist IP blocks are updated by May 13, 2019. For more information, see [Configure your firewall's allowlist](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
+Please ensure your allowlist IP blocks are updated by May 13, 2019. For more information, see [Configure your firewall's allowlist](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
 
 Thank you for your continued support of Workfront as we work to create a more reliable and robust experience for our customers.
 
