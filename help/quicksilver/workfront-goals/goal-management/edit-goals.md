@@ -9,9 +9,6 @@ exl-id: 74db534c-6897-40c2-bea9-a9d30a40f61c
 ---
 # Edit goals in Adobe Workfront Goals
 
-<!--edits drafted for the new design in this document:https://docs.google.com/document/d/1mRjC95sBSrpxa2X97UtitcSTDT3-Msi5gp0S8-PvLNQ/edit# -->
-
-
 You can edit existing goals from any time period and in any status.
 
 ## Access requirements
@@ -67,7 +64,6 @@ You can edit existing goals from any time period and in any status.
  </tbody>
 </table>
 -->
-
 
 You must have the following:
 
@@ -216,7 +212,7 @@ A list of goals displays.
 
       * **Goal owner**
       * **Description**: Add or update information about the goal. 
-   * Update or review information in the Goal details section. For more information, see [Update goals in the Goal Details panel in Adobe Workfront Goals](../goal-management/update-goals-in-goal-details-panel.md). 
+   * Update or review information in the Goal details section. For more information, see [Update goals in the Goal details section in Adobe Workfront Goals](../goal-management/update-goals-in-goal-details-panel.md). 
 
    <!-- (should you update the title here after changing it at production??? - change it to Update goals in the goal Details section)-->
 

@@ -9,8 +9,6 @@ exl-id: e79ced31-4680-4af7-b083-3d615c747af8
 ---
 # Navigate the Goal Alignment section in Adobe Workfront Goals
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> 
-
 Use the Goal Alignment section to display a holistic view of goal alignment across the entire organization in a flowchart. Aligned goals display on cards that interconnect in a hierarchical tree.
 
 For information about goal alignment and how to achieve it, also see the following articles:
@@ -229,9 +227,7 @@ You must have the following before you can start:
     </tbody> 
    </table>
 
-1. Click a goal card to open the Goal Details panel and edit information about or update the progress of the goal. For information about editing existing goals, see [Edit goals in Adobe Workfront Goals](../../workfront-goals/goal-management/edit-goals.md). For information about updating progress for goals, see [Update goals by using Check-in in Adobe Workfront Goals](../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md).
-
-   <span class="preview">In the Preview environment, clicking a goal card opens the goal page.</span>
+1. Click a goal card to open the goal page. For information about editing existing goals, see [Edit goals in Adobe Workfront Goals](../../workfront-goals/goal-management/edit-goals.md). For information about updating progress for goals, see [Update goal progress in Adobe Workfront Goals](../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md).
 
 1. Click the the upward-pointing arrow of the current-level goal to return to the previous level in the hierarchy of the chart.
 
