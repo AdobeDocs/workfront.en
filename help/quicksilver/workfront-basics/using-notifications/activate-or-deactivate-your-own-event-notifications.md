@@ -23,8 +23,6 @@ For information about email notifications, see [[!DNL Adobe Workfront] notificat
 >* The [!DNL Workfront] administrator or a group administrator cannot configure notifications for [!DNL Workfront Goals]. For more information about what notifications the [!DNL Workfront] administrator can configure, see [Configure event notifications for everyone in the system](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md). For information about configuring individual notifications for [!DNL Workfront Goals] continue to read this article.
 >
 
-
-
 ## Access requirements
 
 You must have the following access to perform the steps in this article:
@@ -41,7 +39,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] license*</strong></td> 
-   <td> <p>[!UICONTROL Request] or higher</p> </td> 
+   <td> <p>[!UICONTROL Work] or higher</p> </td> 
   </tr> 
  </tbody> 
 </table>

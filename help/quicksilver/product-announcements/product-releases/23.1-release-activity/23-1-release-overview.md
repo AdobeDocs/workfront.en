@@ -10,10 +10,11 @@ exl-id: e86524d3-5f57-45b6-8582-102d2de92be4
 
 This page provides information about functionality that is included in the 23.1 release.
 
-The enhancements on this page are available in the Preview environment. This page will be updated with additional enhancements as the 23.1 release nears its planned Production release, which is scheduled for January 18th and 19th.
+These enhancements were made available in the Production environment with the 23.1 release on January 18 and 19, 2023.
+
+The 23.1 release webinar was held on Tuesday, January 10, 2023. You can [register for the webinar to view an on-demand recording here](https://event.on24.com/wcc/r/3995983/A5FC731C36313CE081AEBB3B1AA39C77).
 
 <span class="preview">Off-cycle features (those releasing to Production prior to the 23.1 release date) are highlighted in yellow.</span>
-
 
 ## Adobe Workfront enhancements
     
@@ -43,7 +44,7 @@ The enhancements on this page are available in the Preview environment. This pag
                 </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Secondary job roles added to the Other Assignments list when bulk assigning items in the Workload Balancer</a><span style="color: #ff0000;"> Coming soon!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Secondary job roles added to the Other Assignments list when bulk assigning items in the Workload Balancer</a></p>
                         <p>When bulk assigning users in the Workload Balancer after selecting a job role in the "Role assignment" field, the list of users that populates in the "Other Assignments" list in the "User to assign" field will now display all the job roles associated with each user under their name. Prior to this enhancement, only the user's primary role displayed.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
@@ -518,10 +519,6 @@ For information on API versions, see [API versioning and support schedule](/help
 
 For information about the maintenance updates made during the 22.3 release, see [Workfront Maintenance Updates](https://one.workfront.com/s/article/Workfront-Maintenance-Updates-1882317350).
 
-### 23.1 Release Webinar
-
-The 23.1 release webinar will be held on Tuesday, January 10, 2023. You can [register for the webinar here](https://event.on24.com/wcc/r/3995983/A5FC731C36313CE081AEBB3B1AA39C77).
-
 ### Training updates
 
 Explore the latest updates made to learning programs, learning paths, videos, and guides for each Adobe Workfront product release. For more information, see the [Training release updates page](https://one.workfront.com/s/training-release-updates).
@@ -549,7 +546,7 @@ Some list control functionality is moving to the Setup > Interface > Filters/Vie
 
 #### **Workfront extension for Illustrator and InDesign**
  
-We are replacing the [Workfront extension for Illustrator and InDesign](/help/quicksilver/documents/workfront-for-adobe-creative-cloud/workfront-for-adobe-creative-loud.md) with updated Creative Cloud plugins. Starting late 2022, this extension will no longer be available to install in the Adobe Exchange.
+We are replacing the [Workfront extension for Illustrator and InDesign](/help/quicksilver/documents/workfront-for-adobe-creative-cloud/use-wf-adobe-cc.md) with updated Creative Cloud plugins. Starting late 2022, this extension will no longer be available to install in the Adobe Exchange.
  
 The functionality in this extension, along with several enhancements, is available in the updated Adobe Workfront for Creative Cloud Plugins:
 * [Adobe Workfront for Photoshop](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-ps.md)

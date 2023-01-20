@@ -14,7 +14,16 @@ exl-id: e09363dc-ddaf-4595-9abd-cd721512442b
 (SEE IF THERE ARE STILL ANY LINKS TO THIS:  ****LINKED TO THE PRODUCT FOR RESOURCE SCHEDULING AREAS) </p>
 -->
 
-<!-- drafted for res scheduling deprecation blurb for preview release--> 
+>[!IMPORTANT]  
+>  
+><span class="preview">The Scheduling functionality described in this article has been deprecated and removed from Adobe Workfront starting with the 23.1 release in January 2023.   </span>  
+>  
+> <span class="preview"> This article will also be removed shortly after the 23.1 release, in early 2023. At this time, we recommend that you update any bookmarks accordingly. </span> 
+> 
+><span class="preview"> You can now use the Workload Balancer to schedule work for your resources. </span>  
+>  
+> <span class="preview">For information about scheduling resources using the Workload Balancer, see the section [The Workload Balancer](../../resource-mgmt/workload-balancer/workload-balancer.md). </span>  
+<!--  
 
 >[!CAUTION] 
 > 
@@ -25,6 +34,8 @@ exl-id: e09363dc-ddaf-4595-9abd-cd721512442b
 >* <span class="preview"> For information about scheduling resources using the Workload Balancer, see the section [The Workload Balancer](../../resource-mgmt/workload-balancer/workload-balancer.md).</span> 
 > 
 >* <span class="preview"> For more information about the deprecation and removal of the Scheduling tools, see [Deprecation of Resource Scheduling tools in Adobe Workfront](../../resource-mgmt/resource-mgmt-overview/deprecate-resource-scheduling.md).</span> 
+
+-->
 
 The following articles explain how to assign tasks and issues to users and manage their allocations by using the Scheduling tools available in Adobe Workfront. 
 

@@ -78,10 +78,6 @@ You must have the following access to perform the steps in this article:
 
 You can use a configuration setting to display the number of cards in each column.
 
->[!NOTE]
->
->The card counter is available only via the early feature opt-in. For details, see [Early feature opt-in for [!DNL Adobe Workfront] [!UICONTROL Boards]](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md).
-
 If you are using the WIP limit on a column, a separate card counter is not added. For more information on WIP limits, see [Manage the [!UICONTROL Work in Progress] (WIP) limit on a board](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-wip-limit-on-board.md).
 
 1. Access the board.

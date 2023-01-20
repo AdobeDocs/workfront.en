@@ -140,14 +140,14 @@ For more information about sharing folders, see [Share a top-level document fold
 >
 >This feature is planned to be removed from Preview on January 9, 2023. For more information, see the [23.1 Release overview page](/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-release-overview.md).
 
-
 >[!NOTE]
 >
 >This feature will not be included with the 22.3 Production release. It will be released to Production with a future release.
 
+
 >[!NOTE]
 >
->This functionality is available only as a beta and is currently under construction. We will continue to add features for the Campaign workflow with future releases. Participation in the beta program for Workfront Campaigns is voluntary. For more information about participating in the beta program, see [Campaigns beta](/help/quicksilver/product-announcements/betas/campaign-object-beta.md).
+>This functionality is available only as a beta and is currently under construction. We will continue to add features for the Campaign workflow with future releases. Participation in the beta program for Workfront Campaigns is voluntary. 
 
 We are introducing a new object to Adobe Workfront that has the potential to change the way you manage work.
 
@@ -172,5 +172,5 @@ The following features are included with this release:
     Workfront system and group administrators can add the Campaigns (Beta) area in the Main Menu of a Layout template. This makes it available for all users assigned to the template. After it's available, anyone in Workfront can create a campaign.
     
 
-For more information about the Workfront Campaigns beta, as well as information about new features as they release to Preview, [Campaigns beta](/help/quicksilver/product-announcements/betas/campaign-object-beta.md).
+
 

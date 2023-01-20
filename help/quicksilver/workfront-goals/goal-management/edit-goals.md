@@ -12,13 +12,11 @@ exl-id: 74db534c-6897-40c2-bea9-a9d30a40f61c
 <!--edits drafted for the new design in this document:https://docs.google.com/document/d/1mRjC95sBSrpxa2X97UtitcSTDT3-Msi5gp0S8-PvLNQ/edit# -->
 
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> 
-
 You can edit existing goals from any time period and in any status.
 
 ## Access requirements
 
-<!--drafted - replace the table below with this one when P&P releases: 
+<!--drafted - for P&P releases: 
 
 <table style="table-layout:auto">
  <col>
@@ -139,6 +137,7 @@ You must have the following before you can start:
 
 ## Edit goals
 
+<!--
 Editing goals differs depending on what environment you use.
 
 ### Edit goals in the Production environment
@@ -164,9 +163,9 @@ Editing goals differs depending on what environment you use.
 
 1. (Conditional) Select a start and an end date for your goal, if you clicked **Define custom dates**.
 
-   <!--
+   
    <p>(NOTE: these fields don't yet have a name) </p>
-   -->
+   
 
    >[!CAUTION]
    >
@@ -182,11 +181,7 @@ Editing goals differs depending on what environment you use.
 1. (Conditional) Start typing the name of a user, team, group, or the name of your organization in the **Owner** field, then select it when it displays in the list. You can have only one owner for a goal. 
 1. Update the **Description** of the goal, then click **Save**.
 
-
-<div class="preview">
-
-### Edit goals in the Preview environment
-
+-->
 
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png), then click **Goals**.  
 A list of goals displays.
@@ -223,7 +218,7 @@ A list of goals displays.
       * **Description**: Add or update information about the goal. 
    * Update or review information in the Goal details section. For more information, see [Update goals in the Goal Details panel in Adobe Workfront Goals](../goal-management/update-goals-in-goal-details-panel.md). 
 
-   <!-- (should you update the title here after changing it at production???)-->
+   <!-- (should you update the title here after changing it at production??? - change it to Update goals in the goal Details section)-->
 
 1. (Optional)  Click **Progress Indicators** in the left panel to add results, activities, or projects to the goal. By adding progress indicators, you ensure you can track the goal's progress.
 For more information, see the following articles: 

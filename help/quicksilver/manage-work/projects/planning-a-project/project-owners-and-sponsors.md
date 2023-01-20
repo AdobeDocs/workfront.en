@@ -3,14 +3,14 @@ content-type: overview
 product-area: projects;user-management
 navigation-topic: plan-a-project
 title: Overview of project owners and sponsors
-description: You can designate a Project Owner and a Project Sponsor for a project.
+description: You can designate a Project Owner and a Project Sponsor for a project. 
 author: Alina
 feature: Work Management
 exl-id: e3e8be3f-105f-4702-8c93-ae8092f5d5d3
 ---
 # Overview of project owners and sponsors
 
-You can designate a Project&nbsp;Owner and a Project Sponsor for a project.
+You can designate a Project Owner and a Project Sponsor for a project.
 
 The Project Owner is the individual responsible for the completion of the project on time and on budget.
 
@@ -20,13 +20,13 @@ For information about how to update the Project Owner or Sponsor for a project, 
 
 ## Project owners
 
-You can designate the manager of a project by specifying a Project Owner on a project or a template.&nbsp;
+You can designate the manager of a project by specifying a Project Owner on a project or a template.
 
-You can define only one Project Owner for a project.&nbsp;
+You can define only one Project Owner for a project.
 
-The following are possible using the Project Owner field:&nbsp;
+The following are possible using the Project Owner field:
 
-* You can designate only one user as the Project&nbsp;Owner. 
+* You can designate only one user as the Project Owner. 
 * You can designate Project Owners as the hours approver for the project.
 * You can designate the Project Owner as a generic approver when defining project, task, or issue approvals processes. For information about approvals, see [Edit an approval process](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/edit-an-approval-process.md).
 
@@ -34,13 +34,7 @@ The following are possible using the Project Owner field:&nbsp;
   >
   >When you assign an approval to the Project Owner and no one is designated as the owner of a project, the approval is reassigned to the main Workfront administrator as indicated in the Customer Info section in the Setup area. For information, see [Configure basic information for your system](../../../administration-and-setup/get-started-wf-administration/configure-basic-info.md).
   >
-  >
-  >&nbsp;
-  >
-  >
-  >&nbsp;
-  >
-  >
+ 
 
 * You can enable certain notifications that are delivered only to the Project Owner.
 
@@ -56,9 +50,7 @@ The following are possible using the Project Owner field:&nbsp;
   ownerID=$$USER.ID
   ```
 
-  &nbsp;
-
-  For more information about creating reports, see the article [Create a custom report](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+ For more information about creating reports, see the article [Create a custom report](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -76,11 +68,11 @@ The following are possible using the Project Owner field:&nbsp;
 
 ## Project sponsors
 
-You can designate any user in the system as a Project Sponsor.&nbsp;The Project Sponsor is usually a manager, executive, or stakeholder who needs to know what is happening with the project.
+You can designate any user in the system as a Project Sponsor. The Project Sponsor is usually a manager, executive, or stakeholder who needs to know what is happening with the project.
 
 Consider the following when assigning a Project Sponsor:
 
-* The Project Sponsor does not&nbsp;gain&nbsp;any additional access to the project but is added to the email notifications of the project. For information about notifications, see the article [Configure event notifications for everyone in the system](../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
+* The Project Sponsor does not gain any additional access to the project but is added to the email notifications of the project. For information about notifications, see the article [Configure event notifications for everyone in the system](../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
 
 * You can designate only one Project Sponsor.
 * You can designate the Project Sponsor as a generic approver when defining project, task, or issue approvals processes. For information about approvals, see [Edit an approval process](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/edit-an-approval-process.md).
@@ -89,11 +81,11 @@ Consider the following when assigning a Project Sponsor:
   >
   >When you assign an approval to the Project Sponsor and no one is designated as the sponsor of a project, the approval is reassigned to the Project Owner. If no one is designated as the owner of the project, the approval is assigned to the Workfront administrator.
 
-* You can display the Project&nbsp;Sponsor field in a report or list.
+* You can display the Project Sponsor field in a report or list.
 
   You can also display the Project Sponsor field in a view, grouping, or prompt.
 
-  For example, you can copy the following text mode expression into a filter to display projects sponsored by the logged in user:&nbsp;
+  For example, you can copy the following text mode expression into a filter to display projects sponsored by the logged in user:
 
   ```
   sponsorID=$$USER.ID
