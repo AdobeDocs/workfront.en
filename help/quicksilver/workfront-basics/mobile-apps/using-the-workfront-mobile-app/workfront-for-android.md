@@ -44,7 +44,15 @@ The [!UICONTROL Home] area allows you to work directly on tasks, issues, and app
 
 For more information, see [[!UICONTROL Home] area widgets](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/home-area-widgets-mobile.md) and [[!UICONTROL My Work] section in the mobile app](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/my-work-section-mobile.md).
 
-![Home area](assets/mobile-home-area-not-boards.png)
+![Home area](assets/mobile-home-area.png)
+
+## [!UICONTROL Boards]
+
+The [!UICONTROL Boards] area allows you to access your [!DNL Workfront] boards.
+
+![Boards area](assets/mobile-all-boards-displayed.png)
+
+For more information, see [[!DNL Adobe Workfront] [!UICONTROL Boards] for mobile](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/mobile-boards.md).
 
 ## [!UICONTROL Projects]
 
