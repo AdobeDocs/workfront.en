@@ -1,15 +1,15 @@
 ---
 product-area: workfront-integrations;setup
 navigation-topic: adobe-workfront-for-creative-cloud
-title: Install Workfront for Adobe Photoshop
-description: You can install the Workfront for Adobe Photoshop plugin from the Adobe Marketplace.
+title: Install and open the [!DNL Adobe Workfront for Photoshop] plugin
+description: You can install the Adobe Workfront for Photoshop plugin from the Adobe Marketplace.
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: f5e9f121-a711-4b75-8564-54f29c5cfa48
 ---
-# Install [!DNL Adobe Workfront for Photoshop]
+# Install and open the [!DNL Adobe Workfront for Photoshop] plugin
 
-You can install the [!DNL Adobe Workfront for Adobe Photoshop] plugin from the [!DNL Adobe Marketplace]. The plugin supports the following languages:
+You can install the [!DNL Adobe Workfront for Photoshop] plugin from the [!DNL Adobe Marketplace]. The plugin supports the following languages:
 
 * English
 * French
@@ -51,7 +51,7 @@ You must have the following access to perform the steps in this article:
 
 * You must install the [!DNL Adobe Photoshop] app before you install the [!DNL Workfront] plugin.
 
-## Install the [!DNL Workfront for Adobe Photoshop] plugin
+## Install the [!DNL Adobe Workfront for Photoshop] plugin
 
 >[!TIP]
 >
@@ -66,13 +66,28 @@ You must have the following access to perform the steps in this article:
 
 1. When Adobe Workfront for Photoshop plugin appears in the search results, click **[!UICONTROL Get]**.
 1. Read the information in the dialog box, then click **[!UICONTROL OK]**.
-1. Once the plugin in installed, open [!DNL Adobe Photoshop] and locate the [!DNL Workfront] plugin in the plugin panel.
 
-   ![](assets/photoshop-plugin-350x789.png)
+1. Continue to the following section for information on how to open the plugin.
 
-1. Continue to the following section for information on how to log in to the plugin.
+## Open the [!DNL Adobe Workfront for Photoshop] plugin
 
-## Log In to [!DNL Workfront for Adobe Photoshop]
+1. Open [!DNL Photoshop].
+
+1. Create a new file, or open an existing one.  
+
+1. In the top menu, click **[!UICONTROL Plugins]** > **[!UICONTROL Plugins Panel]**.
+
+![](assets/plugins-panel-ps.png)
+
+1. In the **[!UICONTROL Plugins Panel]**, choose the **[!UICONTROL Plugins]** tab and find **[!UICONTROL Workfront for Adobe Photoshop]**.
+
+   >[!TIP]
+   >
+   >If you don't see the plugin after opening it from the [!UICONTROL Plugins Panel], it could be behind the Photoshop app. Try minimizing the Photoshop to find the plugin.      
+
+1. Continue to the following section for information on how to log in to the plugin.           
+
+## Log In to [!DNL Adobe Workfront for Photoshop]
 
 1. From the **[!UICONTROL Plugins]** menu at the top of the screen, select **[!UICONTROL Plugin Panel]**.
 1. Select **[!DNL Adobe Workfront for Photoshop]**.

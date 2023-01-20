@@ -1,15 +1,15 @@
 ---
 product-area: workfront-integrations;setup
 navigation-topic: adobe-workfront-for-creative-cloud
-title: Install Workfront for Adobe XD
-description: You can install the Workfront for Adobe XD plugin from the Adobe Marketplace.
+title: Install Adobe Workfront for XD
+description: You can install the Adobe Workfront for XD plugin from the Adobe Marketplace.
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: d4971977-b5bd-4bb4-a1c2-44829a67d32d
 ---
-# Install [!DNL Adobe Workfront for Adobe XD]
+# Install [!DNL Adobe Adobe Workfront for XD]
 
-You can install the [!DNL Adobe Workfront for Adobe XD] plugin from the Adobe Marketplace. The plugin supports the following languages:
+You can install the [!DNL Adobe Adobe Workfront for XD] plugin from the Adobe Marketplace. The plugin supports the following languages:
 
 * English
 * French
@@ -53,7 +53,7 @@ You must have the following access to perform the steps in this article:
 
 * You must install the [!DNL Adobe XD] app before installing the Workfront plugin.
 
-## Install the [!DNL Workfront for Adobe XD] plugin
+## Install the [!DNL Adobe Workfront for XD] plugin
 
 >[!TIP]
 >
@@ -66,17 +66,28 @@ You must have the following access to perform the steps in this article:
 
    ![](assets/adobe-marketplace-350x218.png)
 
-1. When [!DNL Workfront for Adobe XD] plugin appears in the search results, click **[!UICONTROL Get]**.
+1. When [!DNL Adobe Workfront for XD] plugin appears in the search results, click **[!UICONTROL Get]**.
 1. Read the information in the dialog box, then click **[!UICONTROL OK]**.
-1. Once the plugin in installed, open [!DNL Adobe XD] and locate the [!DNL Workfront] plugin in the plugin window.
 
-   ![](assets/xd-plugin-window-350x620.png)
+1. Continue to the following section for information on how to open the plugin.
 
-1. Continue to the following section for information on how to log in to the plugin.
+## Open the [!DNL Adobe Workfront for XD] plugin
 
-## Log In to [!DNL Workfront for Adobe XD]
+1. Open [!DNL Adobe XD].
 
-1. Ensure the Plugin panel is open, then click **[!DNL Workfront for Adobe XD]**.
+1. Create a new file, or open an existing one.  
+
+1. In the bottom-left corner, click the **Plugins** icon.
+
+ ![](assets/xd-plugin-window-350x620.png)
+
+1. In the **[!UICONTROL Pluigns Panel]**, find **[!UICONTROL Adobe Workfront for XD]**.
+
+1. Continue to the following section for information on how to log in to the plugin.       
+
+## Log In to [!DNL Adobe Workfront for XD]
+
+1. Ensure the Plugin panel is open, then click **[!DNL Adobe Workfront for XD]**.
 1. Enter your domain, then click **[!UICONTROL Log in]**. A browser page opens.
 
    >[!TIP]

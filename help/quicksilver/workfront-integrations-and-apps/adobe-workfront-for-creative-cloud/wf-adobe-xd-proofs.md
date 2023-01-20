@@ -46,9 +46,9 @@ You must have the following access to perform the steps in this article:
 
 ## Prerequisites
 
-* You must install the [!DNL Workfront for Adobe XD] plugin before you can upload proofs in [!DNL Adobe XD].
+* You must install the [!DNL Adobe Workfront for XD] plugin before you can upload proofs in [!DNL Adobe XD].
 
-  For instructions, see [Install [!DNL Workfront for Adobe XD]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-install.md).
+  For instructions, see [Install [!DNL Adobe Workfront for XD]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-install.md).
 
 ## Upload a static Proof
 
