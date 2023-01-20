@@ -9,8 +9,6 @@ exl-id: 690a6030-ee29-4e50-869f-cd014050b364
 ---
 # Copy goals in Adobe Workfront Goals
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> 
-
 You can copy goals in Adobe Workfront Goals to create a goal. Some of the original goal information transfers to the new goal.
 
 ## Access requirements
@@ -144,6 +142,7 @@ Consider the following when copying goals:
 
 ## Copy goals
 
+<!--
 Copying goals differs depending on what environment you use. 
 
 To copy goals in the Production environment:
@@ -204,18 +203,15 @@ To copy goals in the Production environment:
    * Check-in (after it is activated)
    * Goal Alignment section (after it is activated) 
    * Pulse
-
-<!--drafted - this was important when we could not update the goal timeframe in the past but we can do that now - not needed
+(!--drafted - this was important when we could not update the goal timeframe in the past but we can do that now - not needed
 1. (Optional and conditional) If you have copied a goal that was not achieved in a previous time period to continue working on it in the following time period, do the following:
 
    1. Go to the original goal in the Goal List, Check-in page, or Pulse section and comment on the goal, to indicate that this goal was copied to another, more current goal. For information about commenting on a goal, see [Manage goal comments in Adobe Workfront Goals](../../workfront-goals/goal-management/manage-goal-comments.md).
    1. Close the original goal, to preserve the progress in its original time period. For information about closing goals, see [Close and reopen goals in Adobe Workfront Goals](../../workfront-goals/goal-management/close-and-reopen-goals.md). 
-   1. Update the the **Initial** value of the new Result to match the **End At** value of the previous result, so that your new goal progress will start calculating from the point you achieved in the previous period.-->
+   1. Update the the **Initial** value of the new Result to match the **End At** value of the previous result, so that your new goal progress will start calculating from the point you achieved in the previous period.
+   
+-->
 
-
-<div class="preview">
-
-To copy goals in the Preview environment: 
 
 1. Go to a goal and click the **More** menu ![](assets/more-icon.png), then click **Copy Goal**.  
 
@@ -255,6 +251,4 @@ To copy goals in the Preview environment:
    >* [Align goals by connecting them in Adobe Workfront Goals](../goal-alignment/align-goals-by-connecting-them.md)
    >
    >For information about activating goals, see [Activate goals](../goal-management/activate-goals.md). 
-
-</div>
 

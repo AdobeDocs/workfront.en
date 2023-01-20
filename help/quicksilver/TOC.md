@@ -1842,9 +1842,8 @@ feature-set: Workfront
     * [Filter information in Adobe Workfront Goals](workfront-goals/goal-management/filter-information-wf-goals.md)
     * [Goal status overview in Adobe Workfront Goals](workfront-goals/goal-management/goal-status-overview.md)
     * [Manage goal comments in Adobe Workfront Goals](workfront-goals/goal-management/manage-goal-comments.md)
-    * [Move goals from one time period to another in Adobe Workfront Goals](workfront-goals/goal-management/move-goals-to-another-period.md)
     * [Print the Goal List in Adobe Workfront Goals](workfront-goals/goal-management/print-the-goal-list.md)
-    * [Update goals in the Goal Details panel in Adobe Workfront Goals](workfront-goals/goal-management/update-goals-in-goal-details-panel.md)
+    * [Update goals in the Goal details section in Adobe Workfront Goals](workfront-goals/goal-management/update-goals-in-goal-details-panel.md)
     * [Review in-trouble goals in Adobe Workfront Goals](workfront-goals/goal-management/view-in-trouble-goals.md)
   * Goal alignment in Adobe Workfront Goals {#goal-alignment}
     * [Goal alignment in Adobe Workfront Goals](workfront-goals/goal-alignment/goal-alignment.md)
@@ -1856,7 +1855,7 @@ feature-set: Workfront
   * Goal review and the Adobe Workfront Goals sections {#goal-review-and-adobe-workfront-goals-sections}
     * [Goal review and the Adobe Workfront Goals sections](workfront-goals/goal-review-and-workfront-goals-sections/goal-review-wf-goals-sections.md)
     * [Overview of the Adobe Workfront Goals sections](workfront-goals/goal-review-and-workfront-goals-sections/overview-of-wf-goals-sections.md)
-    * [Update goals by using Check-in in Adobe Workfront Goals](workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md)
+    * [Update goal progress in Adobe Workfront Goals](workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md)
     * [Manage goals in the Goal List of Adobe Workfront Goals](workfront-goals/goal-review-and-workfront-goals-sections/manage-goals-in-goal-list.md)
     * [Review graphs to understand goal progress trends in Adobe Workfront Goals](workfront-goals/goal-review-and-workfront-goals-sections/review-goal-graphs.md)
     * [Review goals in the Adobe Workfront Goals Pulse section](workfront-goals/goal-review-and-workfront-goals-sections/review-goals-in-pulse.md)

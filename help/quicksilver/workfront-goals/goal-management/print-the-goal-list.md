@@ -11,8 +11,9 @@ exl-id: 66488d2f-ed35-4571-93e3-e0e025da7b33
 
 >[!IMPORTANT]
 >
-><span class="preview"> The ability to print or export the Goal List has been removed from the Preview environment and will be removed from Workfront Goals with the 23.1 release. The information in this article refers to features available only in the Production environment</span>
-
+>The functionality described in this article has been removed from Workfront, starting with the 23.1 release. 
+>
+>This article will also be removed shortly after the 23.1 release, in early 2023. At this time, we recommend that you update any bookmarks accordingly.
 
 You can print a list of goals from the Goal List section of Adobe Workfront Goals. Printing sends a file to your printer or produces a .pdf file if your browser's printing Destination is set to Save as PDF.
 

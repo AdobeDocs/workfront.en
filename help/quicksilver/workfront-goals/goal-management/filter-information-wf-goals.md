@@ -9,9 +9,6 @@ exl-id: ec9b6789-fffe-425c-8316-eefe670ad0d6
 ---
 # Filter information in Adobe Workfront Goals
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> 
-
-
 You can view goals that you or anyone else added in Adobe Workfront Goals. For information about creating goals, see [Create goals in Adobe Workfront Goals](../../workfront-goals/goal-management/create-goals.md). When viewing goals, you can filter information in Workfront Goals to view only goals that are important to you.
 
 ## Access requirements
@@ -126,16 +123,6 @@ You can locate and filter for goals in following sections of the Goals area in W
 * Goal List 
 * Graphs
 * Goal Alignment
-   
-   <span class="preview">The Goal Alignment section has been removed from the Preview environment.</span>
-* Pulse 
-
-   <span class="preview">The Pulse section has been removed from the Preview environment.</span>
-
-
->[!TIP]
->
->You cannot filter information in the Check-in section. Only active goals for whose progress you are responsible display in this section. <span class="preview">The Check-in section has been removed from the Preview environment.</span>
 
 For information about the sections of the Goals area, see [Overview of the Adobe Workfront Goals sections](../../workfront-goals/goal-review-and-workfront-goals-sections/overview-of-wf-goals-sections.md).
 
@@ -145,9 +132,6 @@ For information about the sections of the Goals area, see [Overview of the Adobe
 
 Consider the following when working with filters in Workfront Goals:
 
-* You can filter by information that belongs to a goal, a result or an activity in the Goal List section. You can only filter by information that belongs to goals in the Goal Alignment, Graphs, or Pulse sections. For example, you can filter by the result owner's name and the goals as well as the results that they own display in the Goal List. 
-
-   <span class="preview">The Pulse section has been removed in the Preview environment. You can only filter by information that belongs to goals in the Goal List, Graphs, and the Goal Alignment sections in the Preview Environment.</span>
 * You can create and apply a filter without saving it, or you can save a filter to reuse at a later time.
 
   The following scenarios exist:
@@ -158,15 +142,11 @@ Consider the following when working with filters in Workfront Goals:
 * You can only view and apply filters you created. Filters created by other users display only for those users. 
 * You cannot share filters you created with other users.
 
-<div class="preview">
-
 ## Apply a quick filter in Workfront Goals
 
 You can use a quick filter in a list of goals to help you locate only items that are important to you. You cannot save quick filters and they are not persistent. Workfront clears the results of a quick filter when you refresh the page.
 
 For more information, see [Apply the quick filter to a list](../../workfront-basics/navigate-workfront/use-lists/apply-quick-filter-list.md). 
-
-</div>
 
 ## Create and apply a filter in Workfront Goals
 
@@ -301,7 +281,7 @@ You can create a filter from scratch or edit one of the built-in filters.
 
    The list of goals is filtered by your filter criteria. 
 
-1. (Optional) If you want to view the filtered out goals, click **Show them** in the list of goals in the Goal Alignment section. 
+1. (Optional and conditional) When viewing goals in the Goal Alignment section,  click **Show them** if you want to view the filtered out goals.  
 
    ![](assets/show-them-link-on-filtered-items-goal-list-350x109.png)
 
@@ -309,10 +289,7 @@ You can create a filter from scratch or edit one of the built-in filters.
 
    ![](assets/filter-yellow-outline-next-to-reapply-filter-link-350x118.png)
 
-   >[!TIP]
-   >
-   >Displaying items that are hidden by filters is not possible in the Graphs and Pulse sections. <span class="preview">The Pulse section has been removed from the Preview environment.</span>
 
-1. Click **Reapply filter** to apply the filter and omit the items you displayed in the previous step.
+1. (Optional and conditional) Click **Reapply filter** to apply the filter and omit the items you displayed in the previous step.
 
 

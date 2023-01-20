@@ -9,7 +9,7 @@ exl-id: 2a2c1240-f796-4cb8-b8a6-2ad5853916b9
 ---
 # Manage goals in the Goal List of Adobe Workfront Goals
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> 
+<!-- printing or exporting goals is no longer possible, but see if they add it later-->
 
 After you or other users create goals, you can review their progress and information in the Goal List. For information about creating goals, see [Create goals in Adobe Workfront Goals](../../workfront-goals/goal-management/create-goals.md).
 
@@ -118,8 +118,6 @@ You can view and manage goals in the following sections of Workfront Goals:
 
 * Goal List 
 * Goal Alignment 
-* Pulse 
-* Check-in
 
 Each section displays goals in slightly different formats. Which section you use depends on the purpose you want to achieve as you are working with goals.
 
@@ -130,18 +128,15 @@ This article describes how to review goals in the Goal List.
 Consider the following when reviewing the Goal List:
 
 * You can view goals that you or anyone else in your organization created in the Goal List. You must have Manage permissions on goals to be able to edit them.
-* In the Production environment, this is a combined list that displays goals, as well as results, activities, or projects associated with the goals.
 
-   <span class="preview">In the Preview environment, you can view only goals in the Goal List.</span> <!--at Production, remove this whole sentence and bullet--> 
-
-Managing the goal list differs depending on which environment you use.
+<!--
 
 ### Manage the Goal List in the Production environment
 
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner, then click **Goals**.
 
-   <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-review-and-workfront-goals-sections/assets/three-line-main-menu-icon.png) in the upper-left corner)
-   -->
+   (!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-review-and-workfront-goals-sections/assets/three-line-main-menu-icon.png) in the upper-left corner)
+   --)
 
    The Goal List section displays by default. You can view goals regardless of their status, period, or owner, by default.
 
@@ -209,7 +204,7 @@ Managing the goal list differs depending on which environment you use.
 
      For information about activities, see [Add activities to goals in Adobe Workfront Goals](../../workfront-goals/results-and-activities/add-activities-to-goals.md).
 
-1. Click the name of a goal to open the **Goal Details** panel on the right and review more information about the goal as well as manage it. For information about reviewing individual goals, see [Update goals in the Goal Details panel in Adobe Workfront Goals](../../workfront-goals/goal-management/update-goals-in-goal-details-panel.md).
+1. Click the name of a goal to open the **Goal Details** panel on the right and review more information about the goal as well as manage it. For information about reviewing individual goals, see [Update goals in the Goal details section in Adobe Workfront Goals](../../workfront-goals/goal-management/update-goals-in-goal-details-panel.md).
 1. (Optional) Expand the **Goals per page** drop-down menu and select from the following options to display additional goals:
 
    * 20  
@@ -228,11 +223,7 @@ Managing the goal list differs depending on which environment you use.
    For more information, see [Print the Goal List in Adobe Workfront Goals](../../workfront-goals/goal-management/print-the-goal-list.md). 
 
 1. Click the **Alignment icon** ![](assets/align-icon.png) next to an aligned to open the goal's card in the Goal Alignment section. For more information, see [Navigate the Goal Alignment section in Adobe Workfront Goals](../../workfront-goals/goal-alignment/navigate-goal-alignment-chart.md).
-
-
-<div class="preview">
-
-### Manage the Goal List in the Preview environment
+-->
 
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png)  in the upper-right corner, then click **Goals**.
 
@@ -265,11 +256,11 @@ Managing the goal list differs depending on which environment you use.
       * At Risk
       * In Trouble
 
-      For information about goal conditions, see [Calculate goal progress in Adobe Workfront Goals](../goal-management/calculate-goal-progress.md). <!--at production: Change the title of this article to say "Overview of goal progress and condition in Adobe Workfront Goals."-->
+      For information about goal conditions, see [Overview of goal progress and condition in Adobe Workfront Goals](../goal-management/calculate-goal-progress.md). 
 
    * **Progress**: The progress indicator for the goal as a percentage value. The color of the progress indicator matches the color of the goal's Condition. 
 
-      For information, see [Calculate goal progress in Adobe Workfront Goals](../goal-management/calculate-goal-progress.md). <!--at production: Change the title of this article to say "Overview of goal progress and condition in Adobe Workfront Goals."-->
+      For information, see [Calculate goal progress in Adobe Workfront Goals](../goal-management/calculate-goal-progress.md). 
 
 1. Click the filter icon ![](assets/filter-icon.png) in the upper-right corner of the goal list and apply filters to display only goals that are important to you. 
 
@@ -286,7 +277,7 @@ An arrow displays to the right of the field by which the list is sorted.
    * **Open alignment** icon ![](assets/align-icon-unshimmed.png) to open the Goal Alignment area. This option displays only when the goal you select is aligned to another goal. 
    * **Delete** icon ![](assets/delete-icon.png) to delete the goal, then click **Delete** to confirm.  For information, see [Delete and deactivate goals in Adobe Workfront Goals](../goal-management/delete-and-deactivate-goals.md).
 
-   <!-- printing or exporting goals is no longer possible, but see if they add it later-->
+   
 
 
 
