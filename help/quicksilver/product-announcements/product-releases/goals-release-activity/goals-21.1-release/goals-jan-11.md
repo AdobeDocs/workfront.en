@@ -22,7 +22,7 @@ We have updated the names of the goal Progress field to match that of the Projec
 * The current Behind goal Progress has been renamed to At Risk (yellow indicator)
 * The current At Risk goal Progress has been renamed to In Trouble (green indicator)
 
-For information about how Workfront calculates goal progress, see [Calculate goal progress in Adobe Workfront Goals](../../../../workfront-goals/goal-management/calculate-goal-progress.md).
+For information about how Workfront calculates goal progress, see [Overview of goal progress and condition in Adobe Workfront Goals](../../../../workfront-goals/goal-management/calculate-goal-progress.md).
 
 ## Consistent navigation and toolbar with new filter experience in Workfront Goals
 

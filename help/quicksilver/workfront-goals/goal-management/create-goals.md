@@ -9,8 +9,6 @@ exl-id: 14bf48b6-eb0c-4b00-a1a4-0d070ccc1392
 ---
 # Create goals in Adobe Workfront Goals
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> 
-
 Whether you are a CEO, a manager, or an individual contributor, you can create goals in Adobe Workfront Goals to align your work with your goals and the goals that outline the strategy of your organization.
 
 ## Access requirements
@@ -131,6 +129,7 @@ You can create a strategic goal in one of the following ways:
 
 ### Create a goal from scratch {#create-a-goal-from-scratch}
 
+<!--
 Creating goals differs depending on what environment you use.
 
 #### Create a goal from scratch in the Production environment 
@@ -138,8 +137,8 @@ Creating goals differs depending on what environment you use.
 
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper right corner, then click **Goals**.
 
-   <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-management/assets/three-line-main-menu-icon.png) in the upper-left corner)
-   -->
+   (!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-management/assets/three-line-main-menu-icon.png) in the upper-left corner)
+   -)
 
    The Goal List displays.
 
@@ -205,10 +204,7 @@ Creating goals differs depending on what environment you use.
 
 1. Click the **X** icon in the upper-right of the Goal Details panel to close it.
 
-
-<div class="preview">
-
-#### Create a goal from scratch in the Preview environment
+-->
 
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper right corner, then click **Goals**. 
 
@@ -226,13 +222,13 @@ Creating goals differs depending on what environment you use.
     * **Goal name**: Enter a name for the goal. This is a required field.
     * **Period**: Select a predefined quarter or year from the **Period** drop-down field
    
-   Or
+      Or
 
-   Select the **Enable custom dates** option, then select a **Start** and **End date** for the goal.  
+      Select the **Enable custom dates** option, then select a **Start** and **End date** for the goal.  
    
-   The previous, current, and following years and their respective quarters are listed as predefined options in the Period drop-down field.  
+      The previous, current, and following years and their respective quarters are listed as predefined options in the Period drop-down field.  
    
-   The Period of the goal indicates the time frame when you expect the goal to complete.
+      The Period of the goal indicates the time frame when you expect the goal to complete.
 
     * **Goal owner**: Start typing the name of a user, a team, a group, or of your organization to indicate who is the owner of the goal. You are selected as the owner of the goal by default. 
     * **Description**: Enter additional information about the goal.
@@ -252,8 +248,6 @@ Creating goals differs depending on what environment you use.
     * Align another goal to it
     
       For information about aligning goals, see [Align goals by connecting them in Adobe Workfront Goals](../goal-alignment/align-goals-by-connecting-them.md). 
-
-</div>
 
 
 ### Copy an existing goal {#copy-an-existing-goal}

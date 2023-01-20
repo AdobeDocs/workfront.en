@@ -9,8 +9,6 @@ exl-id: a6196356-ca11-4759-9cff-64850a60208e
 ---
 # Remove goal alignment in Adobe Workfront Goals
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> 
-
 You can remove the alignment between two goals if it no longer makes sense for them to be connected.
 
 For information about aligning goals, see the following articles:
@@ -130,6 +128,7 @@ Consider the following when removing alignment between two goals:
 
 ## Remove goal alignment
 
+<!--
 Removing goal alignment differs depending on which environment you use.
 
 ### Remove goal alignment in the Production environment
@@ -148,11 +147,7 @@ Removing goal alignment differs depending on which environment you use.
 
    * [Add activities to goals in Adobe Workfront Goals](../../workfront-goals/results-and-activities/add-activities-to-goals.md) 
    * [Add results to goals in Adobe Workfront Goals](../../workfront-goals/results-and-activities/add-results-to-goals.md)
-
-
-<div class="preview">
-
-### Remove goal alignment in the Preview environment
+-->
 
 1. Access the **Goals** area in Workfront and click the name of a goal to open the goal's page. 
 1. From the goal's page of a parent goal, click **Progress Indicators** in the left panel.
@@ -167,5 +162,3 @@ Removing goal alignment differs depending on which environment you use.
    The goal becomes a standalone goal and it is no longer listed as a progress indicator of the original goal. The progress of the disconnected goal no longer influences the progress of the original goal.
    
    A success message displays in the upper-right corner of the page to confirm that the goal was disconnected. 
-
-</div>

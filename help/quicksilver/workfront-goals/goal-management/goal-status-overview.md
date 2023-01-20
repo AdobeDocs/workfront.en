@@ -89,9 +89,8 @@ Goals can have one of the following statuses in Workfront Goals:
 * Drafted goals display in the following areas of Workfront Goals:
 
    * Goal List
-   * Check-in section (only as an aligned goal)
    * Goal Alignment section (only as an aligned goal)
-   * Pulse section
+ 
 
 >[!IMPORTANT]
 >
@@ -105,9 +104,7 @@ Goals can have one of the following statuses in Workfront Goals:
 * Active goals display in the following areas of Workfront Goals:
 
    * Goal List
-   * Check-in section
    * Goal Alignment section
-   * Pulse section
    * The progress of active goals displays in graphs
 
 * You can re-activate a Closed or Inactive goal.
@@ -128,7 +125,6 @@ Goals can have one of the following statuses in Workfront Goals:
 
    * Goal List
    * Goal Alignment section (only as aligned goals)
-   * Pulse
 
 ### Closed {#closed}
 
@@ -145,7 +141,5 @@ Goals can have one of the following statuses in Workfront Goals:
 * Closed goals display in the following area of Workfront Goals:
 
    * Goal List
-   * Check-in section (only as aligned goals)
    * Goal Alignment section (only as aligned goals)
-   * Pulse
    * Information from closed goals is also taken into account in the Graphs section.

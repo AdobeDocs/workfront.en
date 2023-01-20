@@ -9,15 +9,10 @@ exl-id: 33873797-183d-4efc-9099-26eb907ca799
 ---
 # Review goals in the Adobe Workfront Goals Pulse section
 
-<!--drafted for the goal redesign. After the release to Prod, this article will need to be deleted - also remove from TOC and change article's extension to .draft: -->
-
-
-
->[!IMPORTANT]
->
-><span class="preview">The Pulse section has been removed from the Preview environment and it will be removed from the Production environment with the 23.1 release. </span>
->
-><span class="preview">or information about the sections included in the Goals area in the Preview environment, see [Overview of Adobe Workfront Goals sections](../goal-review-and-workfront-goals-sections/overview-of-wf-goals-sections.md).</span>
+>[!IMPORTANT] 
+> 
+>The functionality described in this article has been removed from Workfront, starting with the 23.1 release.  
+>This article will also be removed shortly after the 23.1 release, in early 2023. At this time, we recommend that you update any bookmarks accordingly.
 
 
 You can view all goals in your organization, regardless of who the owner is. For information about creating goals, see [Create goals in Adobe Workfront Goals](../../workfront-goals/goal-management/create-goals.md).
@@ -148,7 +143,7 @@ You must have the following before you can start:
 1. Click **Add a comment** to add a comment for the goal, then click **Post**. The comment is visible in the Check-in area, as well as the Updates tab of the Goal Details panel. We recommend that you use the Pulse section to comment on goals that have not been updated in a while and ask the goal owner for an update. 
 
 1. (Optional) Click **Show all updates** to display all goal updates. This opens the Updates tab in the Goal&nbsp;Details panel on the right. 
-1. Click the name of a goal to open the **Goal Details** panel on the right and review more information about the goal as well as manage it and its results and activities. For information about reviewing individual goals, see [Update goals in the Goal Details panel in Adobe Workfront Goals](../../workfront-goals/goal-management/update-goals-in-goal-details-panel.md).
+1. Click the name of a goal to open the **Goal Details** panel on the right and review more information about the goal as well as manage it and its results and activities. For information about reviewing individual goals, see [Update goals in the Goal details section in Adobe Workfront Goals](../../workfront-goals/goal-management/update-goals-in-goal-details-panel.md).
 1. (Optional and conditional) Click **the alignment icon** ![](assets/align-icon.png) to open the goal in the Goal Alignment section, if the goal is aligned to other goals. 
 
 1. (Optional) Expand the **Goals per page** drop-down menu and select from the following options to display additional goals:
@@ -157,6 +152,4 @@ You must have the following before you can start:
    * 50
    * 100
 
-&nbsp;
 
-&nbsp;

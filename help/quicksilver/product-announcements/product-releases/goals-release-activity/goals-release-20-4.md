@@ -62,7 +62,7 @@ Based on the feedback we have received so far, we have made the following improv
 For information, see the following articles:
 
 * [Activate goals in Adobe Workfront Goals](../../../workfront-goals/goal-management/activate-goals.md) 
-* [Check in on goals in Adobe Workfront Goals](../../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md) 
+* [Update goal progress in Adobe Workfront Goals](../../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md) 
 * [Create goals in Adobe Workfront Goals](../../../workfront-goals/goal-management/create-goals.md)
 
 >[!NOTE]
