@@ -65,7 +65,7 @@ These enhancements were made available in the Production environment with the 22
                                 <p>Preview release: N/A<br /></p>
                             </li>
                             <li>
-                                <p>Production release: With the 22.4 release <span style="color: #ff0000;">This migration has been postponed to mid to late-October. Any affected customers will be notified at that time. </span></p>
+                                <p>Production release: With the 22.4 release <span style="color: #ff0000;">This migration has been postponed to Q1-Q2 of 2023. </span></p>
                             </li>
                         </ul>
                     </td>
