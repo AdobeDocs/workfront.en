@@ -94,7 +94,7 @@ To install the [!DNL Adobe Workfront for design and video] plugin:
    >
    >If you're using Premiere Pro, you must have a project open to access this menu. 
 
-![](assets/adobe-workfront-menu.png)
+   ![](assets/adobe-workfront-menu.png)
 
 
    >[!TIP]
