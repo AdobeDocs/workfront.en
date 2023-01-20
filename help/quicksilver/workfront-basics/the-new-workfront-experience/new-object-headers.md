@@ -908,7 +908,7 @@ The goal header displays the following information:
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Status]</td> 
-   <td>Indicates whether the goal is active, new, or closed. You cannot manually update the goal Status. For more information, see <a href="../../workfront-goals/goal-management/goal-status-overview.md.md" class="MCXref xref">Goal Status overview in [!DNL Adobe Workfront Goals]</a></td> 
+   <td>Indicates whether the goal is active, new, or closed. You cannot manually update the goal Status. For more information, see <a href="../../workfront-goals/goal-management/goal-status-overview.md" class="MCXref xref">Goal Status overview in [!DNL Adobe Workfront Goals]</a></td> 
   </tr> 
  </tbody> 
 </table>
