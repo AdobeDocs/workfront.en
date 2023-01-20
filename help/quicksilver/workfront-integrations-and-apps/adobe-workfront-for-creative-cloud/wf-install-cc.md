@@ -1,13 +1,13 @@
 ---
 product-area: workfront-integrations;setup
 navigation-topic: adobe-workfront-for-creative-cloud
-title: Install and open the [!DNL Adobe Workfront for design and video] plugin
+title: Install and open [!DNL Adobe Workfront for design and video]
 description: You can install Workfront for Creative Cloud plugin from the Adobe Marketplace.
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: f4fbae93-b54b-4d08-82c3-72a9a760c317
 ---
-# Install and open the [!DNL Adobe Workfront for design and video] plugin
+# Install and open [!DNL Adobe Workfront for design and video]
 
 You can install the [!DNL Adobe Workfront for design and video] plugin from the [!DNL Adobe Marketplace]. This plugin supports the following Creative Cloud applications: 
 

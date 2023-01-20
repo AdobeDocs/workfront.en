@@ -1,15 +1,15 @@
 ---
 product-area: workfront-integrations;setup
 navigation-topic: adobe-workfront-for-creative-cloud
-title: Install Adobe Workfront for XD
+title: Install and open Adobe Workfront for XD
 description: You can install the Adobe Workfront for XD plugin from the Adobe Marketplace.
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: d4971977-b5bd-4bb4-a1c2-44829a67d32d
 ---
-# Install [!DNL Adobe Adobe Workfront for XD]
+# Install and open [!DNL Adobe Workfront for XD]
 
-You can install the [!DNL Adobe Adobe Workfront for XD] plugin from the Adobe Marketplace. The plugin supports the following languages:
+You can install the [!DNL Adobe Workfront for XD] plugin from the Adobe Marketplace. The plugin supports the following languages:
 
 * English
 * French
@@ -81,7 +81,7 @@ You must have the following access to perform the steps in this article:
 
  ![](assets/xd-plugin-window-350x620.png)
 
-1. In the **[!UICONTROL Pluigns Panel]**, find **[!UICONTROL Adobe Workfront for XD]**.
+1. In the **[!UICONTROL Plugins Panel]**, find **[!UICONTROL Adobe Workfront for XD]**.
 
 1. Continue to the following section for information on how to log in to the plugin.       
 

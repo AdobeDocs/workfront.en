@@ -1,13 +1,13 @@
 ---
 product-area: workfront-integrations;setup
 navigation-topic: adobe-workfront-for-creative-cloud
-title: Install and open the [!DNL Adobe Workfront for Photoshop] plugin
+title: Install and open [!DNL Adobe Workfront for Photoshop] 
 description: You can install the Adobe Workfront for Photoshop plugin from the Adobe Marketplace.
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: f5e9f121-a711-4b75-8564-54f29c5cfa48
 ---
-# Install and open the [!DNL Adobe Workfront for Photoshop] plugin
+# Install and open [!DNL Adobe Workfront for Photoshop]
 
 You can install the [!DNL Adobe Workfront for Photoshop] plugin from the [!DNL Adobe Marketplace]. The plugin supports the following languages:
 
