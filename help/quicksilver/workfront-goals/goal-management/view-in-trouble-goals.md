@@ -9,8 +9,6 @@ exl-id: df2cdc12-9102-4759-9daa-1f8ae68f110b
 ---
 # Review in-trouble goals in&nbsp;Adobe Workfront Goals
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> 
-
 <!--
 <p>(NOTE: the status of goals in "red" used to be called At Risk. Now, it is "in trouble") </p>
 -->
@@ -121,12 +119,12 @@ You must have the following before you can start:
 
 ## Recommendations for preventing goals to reach a progress of In&nbsp;Trouble
 
-Before goals reach a progress of In&nbsp;Trouble, you can monitor them often and adjust their progress when they reach a progress of At Risk. Goals that are at risk are in danger of becoming in trouble.&nbsp;For more information about goal progress, see [Calculate goal progress in Adobe Workfront Goals](../../workfront-goals/goal-management/calculate-goal-progress.md)
+Before goals reach a progress of In&nbsp;Trouble, you can monitor them often and adjust their progress when they reach a progress of At Risk. Goals that are at risk are in danger of becoming in trouble.&nbsp;For more information about goal progress, see [Overview of goal progress and condition in Adobe Workfront Goals](../../workfront-goals/goal-management/calculate-goal-progress.md)
 
 Before your goals reach a progress of In Trouble, we recommend the following:
 
-* Review goals that are have a progress of At Risk often that are assigned to you as well as organizational goals that are assigned to your teams, groups, or to your organization which might be affected by the progress of your goals. At-risk goals are in danger of becoming in-trouble goals. The at-risk goals are marked by a yellow progress bar. Use the Goal List and the Pulse sections to view goals that belong to you, your teams, groups, or your organization. 
-* Review at-risk goals in the Check-in section if you want to view just goals where you are the owner and check in on them to update their progress.&nbsp;For information about checking in on goals, see [Update goals by using Check-in in Adobe Workfront Goals](../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md).
+* Review goals that are have a condition of At Risk often that are assigned to you as well as organizational goals that are assigned to your teams, groups, or to your organization which might be affected by the progress of your goals. At-risk goals are in danger of becoming in-trouble goals. The at-risk goals are marked by a yellow progress bar. Use the Goal List to view goals that belong to you, your teams, groups, or your organization. 
+
 
 ## Review in-trouble goals in the Goal List
 
@@ -161,28 +159,20 @@ This article describes how to review goals in the Goal List.
 
 1. Hover over the progress bar indicator to see what the actual progress percentage is and what the expected value is for the current day.
 
-   ![](assets/in-trouble-goal-progress-expanded.png)
+   ![](assets/goal-progress-hover-over-detail-unshimmed.png)
 
 1. (Optional) Use the filters to find goals that belong to a specific owner.
 
    In-trouble goals for the selected users display in the goal list.
 
-1. (Conditional) In the Production environment do the following: <!--remove this bullet and sub-bullets at Production goal redesign release-->
+1. Click a goal name to open the goal page, then click **Progress Indicators** in the left panel. View which progress indicator causes the goal to be behind and update the progress of the indicator inline, in the **Actual progress** column of the Progress indicators list. 
 
-   1. Click the down-pointing arrow to the left of the goal name in the list to view additional information about the goals and their contributing items. 
-   1. A list of results, activities, and aligned goals displays under each goal. Now, you can view which contributing item delays the progress of your goal.
-
-      ![](assets/expanded-goal-w-contributing-items-attached-350x105.png)
-
-   1. (Optional) Click **Print** to export the list of the in-trouble goals in various formats and share it with others. For information about printing goal lists, see [Print the Goal List in Adobe Workfront Goals](../../workfront-goals/goal-management/print-the-goal-list.md). 
-   1. Click a **goal name** to open the Goal Details panel, then click **Check in** to update the progress of the Results or Activities associated with the delayed goals. This updates the goal's progress as well. For information about updating the progress of results and activities to check in a goal, see [Update goals by using Check-in in Adobe Workfront Goals](../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md).
-
-1. <span class="preview">(Conditional) In the Preview environment, click a goal name to open the goal page, then click **Progress Indicators** in the left panel. View which progress indicator causes the goal to be behind and update the progress of the indicator inline, in the **Actual progress** column of the Progress indicators list. </span>
+   For information about updating results and activities, see [Update goal progress in Adobe Workfront Goals](../goal-review-and-workfront-goals-sections/check-in-goals.md)
 
    ![](assets/actual-progress-editable-column-in-indicator-list-unshimmed.png)
 
    >[!NOTE]
    >
-   ><span class="preview">You can update only results and activities in the Progress indicators list. You must update the progress indicators of children goals by accessing the goals and you must update the tasks on the connected projects to update the progress of the projects.</span>
+   >You can update only results and activities in the Progress indicators list. You must update the progress indicators of children goals by accessing the goals and you must update the tasks on the connected projects to update the progress of the projects.
 
 

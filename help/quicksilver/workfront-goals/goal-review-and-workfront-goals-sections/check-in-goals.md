@@ -1,23 +1,15 @@
 ---
 product-previous: workfront-goals
 navigation-topic: goal-review-and-sections
-title: Check in on goals in Adobe Workfront Goals
-description: You must review your goals periodically and update their progress to ensure that they are not falling behind or become in danger of not being achieved. You update the progress of your goals by providing a check-in for them.
+title: Update goal progress in Adobe Workfront Goals
+description: You must review your goals periodically and update their progress to ensure that they are not falling behind or become in danger of not being achieved.
 author: Alina
 feature: Workfront Goals
 exl-id: 5092f508-e52c-4934-a8c1-d0be04ecce13
 ---
-# Update goals by using Check-in in Adobe Workfront Goals
+# Update goal progress in Adobe Workfront Goals
 
-<!--drafted for goal redesign: when this releases to PRODUCTION, change the title of the article to "Update goal progress in Adobe Workfront Goals"-->
-
-<!--take out Prod and Preview references at production-->
-
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span>
-
-You must review your goals periodically and update their progress to ensure that they are not falling behind or become in danger of not being achieved. When you use the Check-in functionality you can update the progress of your goals. 
-
-<div class="preview">Although you can still update the progress of your goals, the Check-in functionality has been removed from the Preview environment.</div> 
+You must review your goals periodically and update their progress to ensure that they are not falling behind or become in danger of not being achieved. 
 
 <!--And: take this last sentence ^^ out when you update this for goal redesign production.-->
 
@@ -126,19 +118,13 @@ You must have the following before you can start:
 
 ## Considerations for updating goals
 
->[!IMPORTANT]
->
->
-><span class="preview">The check-in functionality and the Check-in section have been removed from the Preview environment. For information, see the section [Update goal progress in the Preview environment](#update-goal-progress-in-the-preview-environment) in this article.</span> 
-
-
 Consider the following when updating progress on goals:
 
-* Workfront Goals automatically calculates the progress of a goal when you manually update the progress of the results and activities of the goal.
+* Workfront Goals automatically calculates the progress of a goal when you  update the progress of its progress indicators.
 
   >[!TIP]
   >
-  >You cannot update progress directly on a goal. You must update the progress of the goal's progress indicators (activities, results, connected projects) which in turn update the progress of the goal.
+  >You cannot update progress directly on a goal. You must update the progress of the goal's progress indicators (activities, results, connected projects) which in turn updates the progress of the goal. To update the progress on projects, you must update the tasks on the project. 
 
   See also the following articles:
 
@@ -158,6 +144,8 @@ Consider the following when updating progress on goals:
   >You cannot update the progress of goals that are drafted, closed, or inactive.
 
 * The first time you or someone else updates the progress of a result or activity on a goal, the goal Progress changes from New and Workfront Goals starts recording progress and progress status updates on the goal.
+
+<!--
 
 ## Update goal progress by using Check-in in the Production environment
 
@@ -179,8 +167,8 @@ For information about how to update additional information about results and act
 
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) > **Goals** in the upper-right corner.
 
-   <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-review-and-workfront-goals-sections/assets/three-line-main-menu-icon.png) in the upper-left corner)
-   -->
+   (!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-review-and-workfront-goals-sections/assets/three-line-main-menu-icon.png) in the upper-left corner)
+   --)
 
    This opens the Workfront Goals area.
 
@@ -241,8 +229,8 @@ When you check in on a goal in the Check-in section, you can update the progress
 
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) > **Goals** in the upper-right corner.
 
-   <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-review-and-workfront-goals-sections/assets/three-line-main-menu-icon.png) in the upper-left corner)
-   -->
+   (!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-review-and-workfront-goals-sections/assets/three-line-main-menu-icon.png) in the upper-left corner)
+   --)
 
    This opens the Workfront Goals area and the Goal List section displays by default. 
 
@@ -282,11 +270,9 @@ When you check in on a goal in the Check-in section, you can update the progress
 
 1. (Optional) Add a comment for your goal, then click **Post** to save your comment.
 
+-->
 
-
-<div class="preview">
-
-## Update goal progress in the Preview environment
+To update progress on goals:
 
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) > **Goals** in the upper-right corner.
 
@@ -306,15 +292,15 @@ When you check in on a goal in the Check-in section, you can update the progress
    >
    >  * You can only update results and activities. 
    >   
-   >   * You must update the progress indicators of children goals to show progress on the children goals. 
-   >   * You must update the tasks on the connected projects to show progress on the projects. 
+   >  * You must update the progress indicators of children goals to show progress on the children goals. 
+   >  * You must update the tasks on the connected projects to show progress on the projects. 
    >   
-   >     In turn, the children goals' progress and projects' progress drive the progress of the selected goal. 
+   >    In turn, the children goals' progress and projects' progress drive the progress of the selected goal. 
 
 
-1. To update the progress of a result or activity, click the value inside the **Actual Progress** column of the result or activity to update its progress, then press Enter.
+1. To update the progress of a result or activity, click the value inside the **Actual Progress** column of the result or activity and type a number to update its value, then press Enter.
 
    ![](assets/actual-progress-result-updating-highlighted-unshimmed.png)
 
    The progress bar for the progress indicator in the Progress column and the progress of the goal in the goal header update immediately. 
-</div>
+

@@ -118,19 +118,15 @@ Do the following:
 
   Activities can either be basic activities created within the goal itself, or activities can be linked Workfront projects. 
 
-* Check in periodically on your goals. This is a time where you report back on the progress of a goal.
-
-For information about activating, aligning, and checking in on goals, see the following articles:
-
-We recommend the following:
-
 * Establish a cadence for how frequently you will review and set quarterly or incremental goals in the future. We recommend that you set goals for each planning period but not to map them out too far in advance, so you can remain nimble and responsive to shifts in the business.
 
-For information about activating, adding activities, and checking in on your goals see the following articles:
+* Update your goals periodically. This is a time where you report back on the progress of a goal.
 
-* [Activate goals in Adobe Workfront Goals](../../workfront-goals/goal-management/activate-goals.md) 
-* [Add activities to goals in Adobe Workfront Goals](../../workfront-goals/results-and-activities/add-activities-to-goals.md) 
-* [CUpdate goals by using Check-in in Adobe Workfront Goals](../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md)
+  For information about activating, adding activities, and updating goals,  see the following articles:
+
+    * [Activate goals in Adobe Workfront Goals](../../workfront-goals/goal-management/activate-goals.md) 
+    * [Add activities to goals in Adobe Workfront Goals](../../workfront-goals/results-and-activities/add-activities-to-goals.md) 
+    * [Update goal progress in Adobe Workfront Goals](../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md)
 
 ## Guidelines for setting up Workfront Goals
 

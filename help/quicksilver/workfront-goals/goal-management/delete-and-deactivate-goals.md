@@ -9,8 +9,6 @@ exl-id: 3089adeb-3e56-492a-82fe-536f57079b73
 ---
 # Delete and deactivate goals in Adobe Workfront Goals
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> 
-
 When you start working on a goal and it becomes irrelevant in your organization, we recommend deactivating it, instead of deleting it. Deactivating a goal keeps its historical information and gives you a chance to reactivate it at a later time. There are times, however, when deleting a goal might make sense, to keep your goal list accurate.
 
 ## Access requirements
@@ -115,7 +113,7 @@ You must have the following:
 
 You must have the following before you can start:
 
-* A Layout Template that includes the Goals area in the Main&nbsp;Menu.
+* A Layout Template that includes the Goals area in the Main Menu.
 
 ## Deactivate goals
 
@@ -135,10 +133,9 @@ Remember the following when deactivating goals:
   >You cannot deactivate goals in a Draft status.
 
 * Workfront stops calculating the progress of deactivated goals. 
-* Inactive goals no longer display on or are taken into account in the following areas of Workfront Goals:
+* Inactive goals no longer display on or are taken into account in the Graphs section of Workfront Goals. For information about Workfront Goals graphs, see [Review graphs to understand goal progress trends in Adobe Workfront Goals](../../workfront-goals/goal-review-and-workfront-goals-sections/review-goal-graphs.md).
 
-   * The Check-in section. For information about the Check-in page, see [Update goals by using Check-in in Adobe Workfront Goals](../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md). 
-   * The Graphs section. For information about Workfront Goals graphs, see [Review graphs to understand goal progress trends in Adobe Workfront Goals](../../workfront-goals/goal-review-and-workfront-goals-sections/review-goal-graphs.md).
+   <!--* The Check-in section. For information about the Check-in page, see [Update goal progress in Adobe Workfront Goals](../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md). -->
 
 * You can no longer make updates on deactivated goals. 
 * You can edit information about the goal and its alignment. 
@@ -146,6 +143,7 @@ Remember the following when deactivating goals:
 
 ### Deactivate goals
 
+<!--
 Deactivating goals differs depending on which environment you use.
 
 ### Deactivate goals in the Production environment
@@ -168,10 +166,7 @@ Deactivating goals differs depending on which environment you use.
    The goal status changes to Inactive. 
 
 1. Click the **X** icon in the upper-right to close Goal Details.
-
-<div class="preview">
-
-#### Deactivate goals in the Preview environment
+-->
 
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper right corner, then click **Goals**.
 
@@ -194,8 +189,6 @@ Deactivating goals differs depending on which environment you use.
 
 1. The goal is deactivated and its status becomes Inactive. 
 
-</div>
-
 ## Delete goals
 
 You can delete goals that are no longer or might never be relevant.
@@ -212,6 +205,7 @@ You can delete goals that are no longer or might never be relevant.
 
 ### Delete goals
 
+<!--
 Deleting  goals differs depending on which environment you use.
 
 #### Delete goals in the Production environment
@@ -229,11 +223,7 @@ Deleting  goals differs depending on which environment you use.
 1. Click **Yes, delete**.
 
    The goal is removed from the Goal List and cannot be recovered.
-
-
-<div class="preview">
-
-#### Delete goals in the Preview environment
+-->
 
 1. Click the Main Menu icon ![](assets/main-menu-icon.png) in the upper right corner, then click **Goals**.
 
@@ -246,5 +236,4 @@ Deleting  goals differs depending on which environment you use.
 
    The goal and its activities and results are also deleted and cannot be recovered. Projects that were associated with the goal or children goals are not deleted. 
 
-</div>
 

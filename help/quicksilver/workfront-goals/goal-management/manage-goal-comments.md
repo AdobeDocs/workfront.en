@@ -209,7 +209,7 @@ This opens the goal list.
 <div class="preview">
 
 The Check-in section has been removed from the Preview environment. You can update goals by accessing the goal page. For information, see 
-[Update goals in the Goal Details panel in Adobe Workfront Goals](../goal-management/update-goals-in-goal-details-panel.md). 
+[Update goals in the Goal details section in Adobe Workfront Goals](../goal-management/update-goals-in-goal-details-panel.md). 
 
 
 </div>
@@ -218,7 +218,7 @@ The Check-in section has been removed from the Preview environment. You can upda
 >
 >You must have access to Edit Goals in your access level to view the Check-in section.
 
-You can add comments to goals in the Check-in section of Workfront Goals, as part of updating your list of goals. For information about updating goals, see [Update goals by using Check-in in Adobe Workfront Goals](../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md).
+You can add comments to goals in the Check-in section of Workfront Goals, as part of updating your list of goals. For information about updating goals, see [Update goal progress in Adobe Workfront Goals](../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md).
 
 You can also like goal comments that other users have added to mark your approval of them in the Check-in section.
 
@@ -254,7 +254,7 @@ You can also like goal comments that other users have added to mark your approva
 <div class="preview">
 
 The Pulse section has been removed from the Preview environment. You can update goals by accessing the goal page. For information, see 
-[Update goals in the Goal Details panel in Adobe Workfront Goals](../goal-management/update-goals-in-goal-details-panel.md). 
+[Update goals in the Goal details section in Adobe Workfront Goals](../goal-management/update-goals-in-goal-details-panel.md). 
 
 </div>
 
