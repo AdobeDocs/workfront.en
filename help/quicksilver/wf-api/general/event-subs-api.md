@@ -223,7 +223,6 @@ The subscription resource&nbsp;contains the following fields.
       * CREATE
       * DELETE&nbsp;
       * UPDATE
-      * SHARE (This event type will be removed in November 2022)
 
 * url (required)
 
