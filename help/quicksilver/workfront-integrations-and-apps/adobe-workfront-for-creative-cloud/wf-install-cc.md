@@ -91,6 +91,11 @@ To install the [!DNL Adobe Workfront for design and video] plugin:
 1. Open the plugin panel. This process is different depending on the Creative Cloud app you are using:
 
 
+>[!TIP]
+>
+>If you don't see the plugin after opening it from the Extensions menu, it could be behind the Creative Cloud app. Try minimizing the app to find the plugin. 
+
+
 
 ## Log In to [!DNL Adobe Workfront for design and video]
 
