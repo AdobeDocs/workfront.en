@@ -25,7 +25,7 @@ Starting with the 21.1 release in early February, you'll have 60 days to transit
 
 ## How can I test this in Preview?
 
-To test this change in preview, you need to enable emails in your Preview environment. To do this, follow the instructions in the Managing emails in preview section in [Enable delivery of emails from the Preview Sandbox environment](../../workfront-basics/using-notifications/enable-delivery-emails-from-preview-sandbox-environment.md).
+To test this change in preview, you need to enable emails in your Preview environment. To do this, follow the instructions in the Managing emails in preview section in [Enable delivery of emails from the Preview Sandbox environment](../../../workfront-basics/using-notifications/enable-delivery-emails-from-preview-sandbox-environment.md).
 
 >[!IMPORTANT]
 >

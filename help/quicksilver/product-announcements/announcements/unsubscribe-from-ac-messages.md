@@ -1,7 +1,7 @@
 ---
 content-type: reference
 navigation-topic: announcements
-title: Unsubscribe from Announcement Center Messagesin the new Adobe Workfront experience
+title: Unsubscribe from Announcement Center Messages
 description: Announcement Center messages are messages that are sent from Adobe Workfront to the Workfront customer base. You can unsubscribe from the following types of Announcement Center messages - EDIT ME.
 author: Luke
 feature: Product Announcements
