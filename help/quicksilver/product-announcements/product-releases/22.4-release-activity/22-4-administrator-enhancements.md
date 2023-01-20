@@ -102,7 +102,7 @@ For more information, see [Add calculated data to a custom form](/help/quicksilv
 
 ## Migration to Adobe Unified Experience
 
-NOTE: This migration has been postponed to mid to late-October. Any affected customers will be notified at that time.
+NOTE: This migration has been postponed to Q1-Q2 of 2023. Any affected customers will be notified at that time.
 
 If your organization has been onboarded to the Adobe Admin Console, your Workfront instance will be migrated to the Adobe Unified Experience with the 22.4 release.
 

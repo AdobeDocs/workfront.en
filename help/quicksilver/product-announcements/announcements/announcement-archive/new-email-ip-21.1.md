@@ -27,7 +27,7 @@ Add the following IP addresses to your allowlist to ensure your users continue t
 * 23.251.239.98
 * 23.251.239.99
 
-(For additional context about the allowlist and other IP addresses that might already be added to your allowlist, see [Configure your firewall's allowlist](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).)
+(For additional context about the allowlist and other IP addresses that might already be added to your allowlist, see [Configure your firewall's allowlist](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).)
 
 When does this need to be done?
 
