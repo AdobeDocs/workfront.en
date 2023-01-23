@@ -85,7 +85,7 @@ Consider the following when working with children and parent goals:
 
 ## Locate aligned goals
 
-After aligning goals they are part of the same hierarchy and are visible in various areas of Workfront Goals.
+After aligning goals, they are part of the same hierarchy and are visible in various areas of Workfront Goals.
 
 <!--
 * In the Production enviroment, you can view children and parent goals in the following areas:

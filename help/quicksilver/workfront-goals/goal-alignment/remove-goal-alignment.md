@@ -152,7 +152,8 @@ Removing goal alignment differs depending on which environment you use.
 1. Access the **Goals** area in Workfront and click the name of a goal to open the goal's page. 
 1. From the goal's page of a parent goal, click **Progress Indicators** in the left panel.
 
-   ![](assets/progress-indicators-list-with-goals-results-activities-unshimmed.png)
+   ![](assets/remove-goal-alignment-from-list-unshimmed.png)
+   
 1. In the **Type: Goal** grouping, select a goal, then click the **Disconnect** icon ![](assets/disconnect-goal-to-remove-alignment-icon-unshimmed.png) at the top of the list.
 
    The Disconnect box displays. 
