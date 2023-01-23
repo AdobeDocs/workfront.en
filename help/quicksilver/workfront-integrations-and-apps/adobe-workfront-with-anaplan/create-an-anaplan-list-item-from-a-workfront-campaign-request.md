@@ -13,6 +13,10 @@ This integration scenario links an [!DNL Adobe Workfront] project with an [!DNL 
 
 This scenario watches for new campaign requests added to a request queue. As soon as a campaign request is recorded, a budget line item is added in [!DNL Anaplan] to start the funding process.
 
+>[!IMPORTANT]
+>
+>"Campaign" in this article refers to the marketing campaign use case that this scenario represents, and is in no way connected to the [!DNL Workfront Fusion] Adobe Campaign connector or to the recently deprecated [!UICONTROL Campaign] object in [!DNL Workfront].
+
 ## Access requirements
 
 You must have the following access to use the functionality in this article:
@@ -110,7 +114,7 @@ You must have the following in [!DNL Workfront] to use this scenario:
 
 You must have the following in [!DNL Anaplan] to use this scenario:
 
-* A user profile in [!DNL Anaplan] named **[!UICONTROL [!DNL Workfront]  Integration]**, that has system administrator rights.
+* A user profile in [!DNL Anaplan] named **[!UICONTROL [!DNL Workfront] Integration]**, that has system administrator rights.
 * The [!DNL Anaplan] Model that you want to use for this scenario.
 * The List within the [!DNL Anaplan] Model that captures campaign budgets.
 

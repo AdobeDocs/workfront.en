@@ -13,6 +13,10 @@ This integration scenario shares actual hours details captured on an [!DNL Adobe
 
 This scenario template delivers a list of hours summarized by project, day, and role recorded on active projects over then last 3 months.
 
+>[!IMPORTANT]
+>
+>"Campaign" in this article refers to the marketing campaign use case that this scenario represents, and is in no way connected to the [!DNL Workfront Fusion] Adobe Campaign connector or to the recently deprecated [!UICONTROL Campaign] object in [!DNL Workfront].
+
 ## Access requirements
 
 You must have the following access to use the functionality in this article:

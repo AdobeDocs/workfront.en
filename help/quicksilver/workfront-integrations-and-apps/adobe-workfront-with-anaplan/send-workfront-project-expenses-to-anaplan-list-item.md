@@ -11,6 +11,10 @@ exl-id: f9198017-9bbb-4776-86aa-3f78705dbb22
 
 This integration scenario shares expense-related details from an [!DNL Adobe Workfront] project with an [!DNL Anaplan] budget list item. Sharing this information allows you to take better advantage of the spend optimization and financial analysis that [!DNL Anaplan] provides.
 
+>[!IMPORTANT]
+>
+>"Campaign" in this article refers to the marketing campaign use case that this scenario represents, and is in no way connected to the [!DNL Workfront Fusion] Adobe Campaign connector or to the recently deprecated [!UICONTROL Campaign] object in [!DNL Workfront].
+
 ## Access requirements
 
 You must have the following access to use the functionality in this article:
