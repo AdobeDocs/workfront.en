@@ -1253,13 +1253,6 @@ feature-set: Workfront
       * [Modify issue assignments overview](manage-work/issues/manage-issues/modify-issue-assignments-overview.md)
       * [Modify user assignments for multiple issues in a list](manage-work/issues/manage-issues/edit-assignments-for-multiple-issues.md)
       * [Automatically update issue statuses from Awaiting Feedback to In Progress](manage-work/issues/manage-issues/turn-issue-status-from-awf-to-inp-automatically.md)
-  * Campaigns {#campaigns}
-    * [Campaigns](manage-work/campaigns/campaigns-section-toc.md)
-    * [Campaigns overview](manage-work/campaigns/campaigns-overview.md)
-    * [Edit campaigns](manage-work/campaigns/edit-campaigns.md)
-    * [Create campaigns](manage-work/campaigns/create-campaigns.md)
-    * [Add objects to a campaign](manage-work/campaigns/add-objects-to-a-campaign.md)
-    * [Delete campaigns](manage-work/campaigns/delete-campaigns.md)
   * The Gantt Chart {#the-gantt-chart} 
     * The Gantt Chart {#the-gantt-chart}
     * [The Gantt Chart](manage-work/gantt-chart/the-gantt-chart.md)
