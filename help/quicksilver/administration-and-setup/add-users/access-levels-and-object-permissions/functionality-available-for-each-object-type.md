@@ -6,7 +6,7 @@ keywords: access,model,funnel,diagram,levels,permissions
 navigation-topic: access-levels
 title: Functionality available for each object type
 description: The following tables lists the functionality available for each object type in the various access levels.
-author: Caroline
+author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: 91b1b448-5a0b-4e64-a59e-458c8387ecbc
@@ -564,7 +564,4 @@ Only users with a Plan license can have full access to [select object or area]. 
 | View the Goal List section in the left panel |✓ |✓ |
 | View the Graphs section in the left panel |✓ |✓ |
 | View the Goal Alignment section in the left panel |✓ |✓ |
-| View the Pulse section in the left panel |✓ |✓ |
-| View the Check-in area in the left panel |&nbsp; |✓ |
-| View the Settings area in the left panel |✓ |✓  |
-| Print a list of goals |✓ |✓  |
+

@@ -9,8 +9,6 @@ exl-id: 747449cf-9092-4b9f-9add-db2e7d3fab48
 ---
 # Share a goal in Adobe Workfront Goals
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span>
-
 When you share a goal you give Manage permissions to a goal to someone who did not create it.
 
 ## Access requirements
@@ -158,24 +156,11 @@ Before you begin, you must have the following:
 
    The Goal List displays. 
 
-1. Click the name of a goal in the list. The Goal Details panel opens.
-
-   In the Production environment, the Goal Details panel opens on the right. 
-   <span class="preview">In the Preview environment, the goal page opens.</span>
-
-   >[!TIP]
-   >
-   >You can click the name of a goal from any section in the Goals area to open the Goal Details panel <span class="preview">or the goal page</span>.
-
-   <!--above, remove "Goal Details panel" from above at Production--> 
+1. Click the name of a goal in the list. The goal page opens. 
 
 1. Click the **More icon** next to the goal name, then click **Share**.
 
-   <div class="preview">
-
    ![](assets/more-menu-highlighted-goal-details-panel-with-share-link-350x156.png)
-
-   </div>
 
    The Goal Access box displays.
 

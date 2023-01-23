@@ -10,8 +10,6 @@ exl-id: 4d6ef324-4b5c-402b-b64d-b1a2a7d2ab57
 ---
 # Add activities to goals in Adobe Workfront Goals
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span>
-
 Activities measure the progress of a goal. Without associating results, activities, projects, or aligned goals, you cannot activate a goal and you cannot record progress on it. 
 
 ## Access requirements
@@ -120,12 +118,13 @@ You must have the following before you can start:
 
 >[!IMPORTANT]
 >
->A goal cannot have more than a total of 50 activities, results, or aligned goals.
+>A goal cannot have more than a total of 1000 activities, results, or aligned goals.
 
 For more information about activities, see [Get started with results and activities in Adobe Workfront Goals](../../workfront-goals/results-and-activities/get-started-with-results-and-activities.md).
 
 ## Add an activity to a goal
 
+<!--
 Adding activities to goals differs depending on which environment you use.
 
 ### Add an activity to a goal in the Production environment
@@ -173,14 +172,8 @@ Adding activities to goals differs depending on which environment you use.
 
    The activity is saved for the selected goal. After you activate the goal, the progress of the goal automatically updates when you update the progress of an activity or when the percent complete of a project updates. For information about activating a goal, see [Activate goals in Adobe Workfront Goals](../../workfront-goals/goal-management/activate-goals.md).
 
+-->
 
-<div class="preview">
-
-### Add an activity to a goal in the Preview environment
-
-You can add only activities that are progress bars in the Preview environment. For information about adding projects to a goal, see  [Add projects to goals in Adobe Workfront Goals](../results-and-activities/connect-projects-to-goals-overview.md). 
-
-<!--(fix the above statement with the PRODUCTION release to remove Preview and to not mention "manual progress" bar - there is only ONE type of activity now)--> 
 
 1. Click the **Main Menu** ![](assets/main-menu-icon.png), then **Goals**. 
 1. From the Goal List, click the name of a goal to open the goal's page.
@@ -202,7 +195,6 @@ You can add only activities that are progress bars in the Preview environment. F
 
    The activity displays in the Progress indicators section of the goal page, under the Activity grouping. 
 
-</div>
 
  
  
