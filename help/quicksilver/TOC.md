@@ -11,7 +11,7 @@ feature-set: Workfront
   * Product releases {#product-releases}
     * [Product releases overview](product-announcements/product-releases/product-releases.md)
     * [Adobe Workfront release schedule and process](product-announcements/product-releases/workfront-release-schedule.md)
-    * [Release readiness](product-announcements/product-releases/release-readiness.md)
+    * [Prepare for an Adobe Workfront quarterly release](product-announcements/product-releases/release-readiness.md)
     * 23.1 Release {#release-23-1}
       * [23.1 Release overview](product-announcements/product-releases/23.1-release-activity/23-1-release-overview.md)
       * [23.1 Project and Resource Management enhancements](product-announcements/product-releases/23.1-release-activity/23-1-project-enhancements.md)
@@ -1253,13 +1253,6 @@ feature-set: Workfront
       * [Modify issue assignments overview](manage-work/issues/manage-issues/modify-issue-assignments-overview.md)
       * [Modify user assignments for multiple issues in a list](manage-work/issues/manage-issues/edit-assignments-for-multiple-issues.md)
       * [Automatically update issue statuses from Awaiting Feedback to In Progress](manage-work/issues/manage-issues/turn-issue-status-from-awf-to-inp-automatically.md)
-  * Campaigns {#campaigns}
-    * [Campaigns](manage-work/campaigns/campaigns-section-toc.md)
-    * [Campaigns overview](manage-work/campaigns/campaigns-overview.md)
-    * [Edit campaigns](manage-work/campaigns/edit-campaigns.md)
-    * [Create campaigns](manage-work/campaigns/create-campaigns.md)
-    * [Add objects to a campaign](manage-work/campaigns/add-objects-to-a-campaign.md)
-    * [Delete campaigns](manage-work/campaigns/delete-campaigns.md)
   * The Gantt Chart {#the-gantt-chart} 
     * The Gantt Chart {#the-gantt-chart}
     * [The Gantt Chart](manage-work/gantt-chart/the-gantt-chart.md)

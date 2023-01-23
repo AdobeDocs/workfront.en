@@ -20,7 +20,7 @@ To provide feedback on mobile boards, select the **[!UICONTROL Send]** ![Send fe
 
 1. Select [!UICONTROL **Boards**] on the home page to view a list of all boards you created or have been added to in the desktop version of [!DNL Workfront].
 
-![List of boards](assets/mobile-all-boards-displayed.png)
+   ![List of boards](assets/mobile-all-boards-displayed.png)
 
 1. To sort or filter the list of boards, select [!UICONTROL **More Filters**].
 1. Select from these options:

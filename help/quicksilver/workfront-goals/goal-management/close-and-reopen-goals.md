@@ -255,7 +255,7 @@ Reopening goals differs depending on what environment you use.
 1. Click the name of a closed goal. 
    
    The goal page opens.
-1. Click the **More** menu ![](assets/more-icon.png) to the right of the goal name, then **Reopen **> **Reopen**. 
+1. Click the **More** menu ![](assets/more-icon.png) to the right of the goal name, then **Reopen** > **Reopen**. 
 
    The following things occur: 
    * The goal is now open and it has a status of Active. 

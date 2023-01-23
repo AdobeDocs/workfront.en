@@ -8,9 +8,9 @@ author: Alina
 feature: Workfront Goals
 exl-id: 922a05f9-2995-4401-a6d2-e5a331270fd3
 ---
-# Edit results and activities in&nbsp;Adobe Workfront Goals
+# Edit results and activities in Adobe Workfront Goals
 
-After your Adobe Workfront administrator has granted you the correct access to Adobe Workfront Goals, you can create and edit goals, results, and activities.&nbsp;
+After your Adobe Workfront administrator has granted you the correct access to Adobe Workfront Goals, you can create and edit goals, results, and activities.
 
 For information about creating goals, results and activities, see the following articles:
 
@@ -144,7 +144,7 @@ According to Vazgen, access levels will add more considerations.)
 
 * You can delete results and activities from goals when they are no longer relevant to the goal progress. Deleted results and activities cannot be recovered. For information about deleting results and activities, see [Remove results, activities, and projects from goals in Adobe Workfront Goals](../../workfront-goals/results-and-activities/remove-results-activities-from-goals.md).
 * You can edit results and activities associated with goals from any time period, including in the past. 
-* Editing results and activities updates their settings and does not update their progress. You must update the progress of results and activities. For information about updating progress on goals, results, and activities, see [Update goal progress in Adobe Workfront Goals](../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md). <!--drafted: fix the title of the linked file above to take "check in" out of there-->
+* Editing results and activities updates their settings and does not update their progress. You must update the progress of results and activities. For information about updating progress on goals, results, and activities, see [Update goal progress in Adobe Workfront Goals](../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md). 
 
 ## Edit results
 

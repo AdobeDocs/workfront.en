@@ -188,7 +188,7 @@ To learn how to use the left panel in the [!UICONTROL Timesheets] area, see the 
 
 >[!NOTE]
 >
->This requires an additional license. For information about [!DNL Workfront Goals], see [[!DNL Adobe Workfront Goals] overview](../../workfront-goals/goal-management/wf-goals-overview.md).
+>Accessing goals requires an additional license. For information about [!DNL Workfront Goals], see [[!DNL Adobe Workfront Goals] overview](../../workfront-goals/goal-management/wf-goals-overview.md).
 
 The following sections display in the left panel for the **[!UICONTROL Goals]** area:
 
