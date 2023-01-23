@@ -455,7 +455,7 @@ GET /search
    <td>parentId</td> 
    <td> <p>(optional) The folder ID from which the search executed. Note: This is a placeholder for a future feature in Workfront. Currently, workfront does not pass this parameter.&nbsp;</p> </td> 
   </tr> 
- </tbody> 
+  </tbody> 
 </table>
 
 The Document Webhooks API does not currently support pagination.
