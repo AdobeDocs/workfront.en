@@ -291,7 +291,6 @@ To update progress on goals:
    >[!NOTE]
    >
    >  * You can only update results and activities. 
-   >   
    >  * You must update the progress indicators of children goals to show progress on the children goals. 
    >  * You must update the tasks on the connected projects to show progress on the projects. 
    >   

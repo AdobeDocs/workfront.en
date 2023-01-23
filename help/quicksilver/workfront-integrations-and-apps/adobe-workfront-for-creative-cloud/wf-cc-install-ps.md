@@ -77,13 +77,13 @@ You must have the following access to perform the steps in this article:
 
 1. In the top menu, click **[!UICONTROL Plugins]** > **[!UICONTROL Plugins Panel]**.
 
-![](assets/plugins-panel-ps.png)
+   ![](assets/plugins-panel-ps.png)
 
 1. In the **[!UICONTROL Plugins Panel]**, choose the **[!UICONTROL Plugins]** tab and find **[!UICONTROL Workfront for Adobe Photoshop]**.
 
    >[!TIP]
    >
-   >If you don't see the plugin after opening it from the [!UICONTROL Plugins Panel], it could be behind the Photoshop app. Try minimizing the Photoshop to find the plugin.      
+   >   If you don't see the plugin after opening it from the [!UICONTROL Plugins Panel], it could be behind the Photoshop app. Try minimizing the Photoshop to find the plugin.      
 
 1. Continue to the following section for information on how to log in to the plugin.           
 

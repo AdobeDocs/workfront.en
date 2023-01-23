@@ -10,8 +10,6 @@ exl-id: 64fa0aef-cb92-465a-9b74-d863fc232fd1
 ---
 # Get started with results and activities in Adobe Workfront Goals
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> 
-
 <!--drafted for P&P new model: the note at the top will need to be replaced with this:    
     
 Your organization must have the following to use the functionality described in this article:    
@@ -60,10 +58,7 @@ After at least one of these items is added, you may activate the goal. You must 
 
 >[!IMPORTANT]
 >
->In the production environment, a goal cannot have more than a total of 50 activities, results, or aligned goals.
-><span class="preview">In the Preview environment, a goal cannot have more than a total of 1000 activities, results, projects, or aligned goals.</span>
-
-
+> A goal cannot have more than a total of 1000 activities, results, projects, or aligned goals.</span>
 
 This article gives an overview of activities and results. For information about aligning goals, see [Goal alignment in Adobe Workfront Goals](../../workfront-goals/goal-alignment/goal-alignment.md). For information about connecting projects to goals, see [Add projects to goals in Adobe Workfront Goals](../results-and-activities/connect-projects-to-goals-overview.md).
 
@@ -107,6 +102,9 @@ For information about adding activities to goals, see [Add activities to goals i
 Consider the following when associating activities with your goals:
 
 * They answer the question, "What will I achieve when the goal is complete?" 
+* Activities are custom entries that can be thought of more in terms of complete or incomplete. They must be manually updated to indicate what percentage of the activity has been completes thus far. 
+
+<!--
 * You can associate the following activities with goals:
 
   <table style="table-layout:auto"> 
@@ -125,14 +123,18 @@ Consider the following when associating activities with your goals:
     </tr> 
    </tbody> 
   </table>
-
+--> 
 <!--drafted for goal redesign: For THE PRODUCTION RELEASE: remove the projects in this article altogether.-->
 
 For more information about results and activities, see the list of similarities between results and activities in the section [Similarities between results, activities, and projects](#similarities-between-results-activities-and-projects) in this article.
 
 ## Similarities between results, activities, and projects {#similarities-between-results-activities-and-projects}
 
-Results, activities and projects are goal progress indicators. Although you connect a project to a goal the same way you connect an activity, there are some differences in the way you manage projects versus the way you manage activities. For information about adding projects to goals, see [Add activities to goals in Adobe Workfront Goals](../../workfront-goals/results-and-activities/add-activities-to-goals.md).&nbsp;For information about projects connected to goals, see [Add projects to goals in Adobe Workfront Goals](../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md).
+Results, activities and projects are goal progress indicators. 
+
+There are some differences in the way you manage projects versus the way you manage results and activities. For information about adding projects to goals, see [Add activities to goals in Adobe Workfront Goals](../../workfront-goals/results-and-activities/add-activities-to-goals.md). For information about projects connected to goals, see [Add projects to goals in Adobe Workfront Goals](../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md).
+
+In addition to results, activities, and projects, you can also associate children goals to a goal. Children goals are also a type of progress indicator for a goal. For information, see [Align goals by connecting them in Adobe Workfront Goals](../goal-alignment/align-goals-by-connecting-them.md). The progress of the children goal's progress indicators also drives the progress of the parent goal.
 
 The following table displays similarities and differences between results, activities, and projects, as goal indicators: 
 
@@ -149,13 +151,13 @@ The following table displays similarities and differences between results, activ
    <td> <p><strong>Projects</strong> </p> <p>&nbsp;</p> </td> 
   </tr> 
   <tr> 
-   <td><span style="font-weight: normal;">You can customize their name in the Workfront interface</span> </td> 
+   <td><span style="font-weight: normal;">You can customize the object name in the Workfront interface</span> </td> 
    <td>✔</td> 
    <td>✔</td> 
    <td>✔</td> 
   </tr> 
   <tr> 
-   <td>You cannot add them to past goals.</td> 
+   <td>You can add them to past goals.</td> 
    <td>✔</td> 
    <td>✔</td> 
    <td>✔</td> 
