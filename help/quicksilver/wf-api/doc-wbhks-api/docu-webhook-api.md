@@ -390,9 +390,9 @@ GET /files
 |---|---|
 | parentId&nbsp; |The folder ID. To get the metadata of the root directory, use the value '/'. |
 
-The Document Webhooks API does not currently support pagination.
-
 {style="table-layout:auto"}
+
+The Document Webhooks API does not currently support pagination.
 
 **Response**
 
