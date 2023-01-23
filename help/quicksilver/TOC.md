@@ -11,7 +11,7 @@ feature-set: Workfront
   * Product releases {#product-releases}
     * [Product releases overview](product-announcements/product-releases/product-releases.md)
     * [Adobe Workfront release schedule and process](product-announcements/product-releases/workfront-release-schedule.md)
-    * [Release readiness](product-announcements/product-releases/release-readiness.md)
+    * [Prepare for an Adobe Workfront quarterly release](product-announcements/product-releases/release-readiness.md)
     * 23.1 Release {#release-23-1}
       * [23.1 Release overview](product-announcements/product-releases/23.1-release-activity/23-1-release-overview.md)
       * [23.1 Project and Resource Management enhancements](product-announcements/product-releases/23.1-release-activity/23-1-project-enhancements.md)
