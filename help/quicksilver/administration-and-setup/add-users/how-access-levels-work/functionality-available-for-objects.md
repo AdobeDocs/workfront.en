@@ -83,7 +83,6 @@ It also indicates which actions Workfront administrators can disable or enable u
 | View finance                   | ✓        | ✓      | &nbsp;      | &nbsp;        |
 | Updates/comments               | ✓        | ✓      | &nbsp;      | &nbsp;        |
 
-
 {style="table-layout:auto"}
 
 &#42; Using an access level, Workfront administrators can disable or enable this functionality. 
@@ -266,6 +265,7 @@ Users with a Standard license can have full access to reports. All other Access 
 | View all teams                          | ✓         | ✓          | ✓           | &nbsp;           |
 | View teams associated with their groups | ✓         | ✓          |  ✓          | &nbsp;           |
 
+{style="table-layout:auto"}
 
 &#42; Using an access level, Workfront administrators can disable or enable this functionality.
 
@@ -353,6 +353,7 @@ Only users with a Standard license can have full access to resource management. 
 &#42; In order for users to view financial data in a plan or initiative, they need access to Financial Data. For more information, see [Grant access to financial data](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
 
 ## Workfront Goals area
+
 <!-- ask Alina about this section -->
 
 | Actions |View |Edit |
