@@ -304,7 +304,6 @@ Only users with a Standard license can have full access to financial data.
 | Create risks on projects                                     | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
 | View risks on projects                                       | ✓        | ✓      | &nbsp;      | &nbsp;        |
 
-
 {style="table-layout:auto"}
 
 &#42; Using an access level, Workfront administrators can disable or enable this functionality.
@@ -323,7 +322,6 @@ Only users with a Standard license can have full access to resource management. 
 | View Resource Pools                                            | ✓&#42;   | ✓&#42; | &nbsp;      | &nbsp;        |
 | Budget resources in the Resource Planning tools&#42;&#42;      | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
 | Attach Resource Pools to projects, templates, and users        | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
-
 
 {style="table-layout:auto"}
 
