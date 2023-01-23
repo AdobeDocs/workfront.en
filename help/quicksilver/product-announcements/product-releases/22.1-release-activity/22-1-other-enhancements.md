@@ -28,8 +28,6 @@ Prior to these enhancements, you could group your items only by Planned Completi
 
 For more information, see [Display items in the Work List in the Home area](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md).
 
-[Watch a video demonstration of this feature.](https://vimeo.com/652578109/1397c75bf3)
-
 ## Add the My Updates area for all licensed users
 
 As part of our efforts to create parity between Workfront Classic and the new Workfront experience, we have reintroduced the My Updates area for all users.
@@ -44,10 +42,6 @@ When you open the My Updates area, you can now quickly find the following inform
 * Comments in which you have been included display in the lower half of the My Updates page, in the Mentions section.
 
 For more information, see [Use the My Updates area](../../../workfront-basics/using-home/using-the-home-area/my-updates-area.md).
-
-[Watch a video demonstration of this feature.](https://vimeo.com/652562003/e10dfffff3)
-
-[Watch a video demonstration of this feature.](https://vimeo.com/652564287/a303bc84d7)
 
 ## Improvements to timesheets
 
@@ -64,8 +58,6 @@ For more information, see the following articles:
 
 * [Understand the Timesheet layout](../../../timesheets/timesheets/timesheet-layout.md) 
 * [Log time](../../../timesheets/create-and-manage-timesheets/log-time.md)
-
-[Watch a video demonstration of this feature.](https://vimeo.com/652558251/3c194ca33a)
 
 ## New toolbar for Users lists
 

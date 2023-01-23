@@ -12,14 +12,12 @@ exl-id: 82279305-d758-4ab3-b77c-8e65a3d19a9f
 
 This page describes all Integration enhancements made with the 21.2 release to the Preview environment. These enhancements will be made available in the Production environment the week of May 10, 2021. For a list of all changes available with the 21.2 release, see [21.2 Release overview](../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md).
 
-## Introducing Workfront for Adobe XD
+## Introducing Adobe Workfront for XD
 
-We're excited to announce the launch of our new plugin: Workfront for Adobe XD. This plugin allows you to access work item details, collaborate with coworkers in the Updates area, and submit proofs for review--all without leaving XD. Head over to the Adobe XD marketplace to download the plugin today.
+We're excited to announce the launch of our new plugin: Adobe Workfront for XD. This plugin allows you to access work item details, collaborate with coworkers in the Updates area, and submit proofs for review--all without leaving XD. Head over to the Adobe XD marketplace to download the plugin today.
 
-To learn more about what you can do with Workfront for Adobe XD, see [Manage work with the Adobe Workfront plugin for Creative Cloud Applications](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-manage-work-toc.md).
+To learn more about what you can do with Adobe Workfront for XD, see [Manage work with the Adobe Workfront plugin for Creative Cloud Applications](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-manage-work-toc.md).
 
-
-[Watch a video demonstration of this feature.](https://vimeo.com/542233908/c5a5ab87a7)
 
 ## Search for folders in document integrations
 
@@ -37,4 +35,3 @@ When linking to, uploading, or creating files on Google Drive from the Documents
 
 Previously, files were accessed through a file dialog based in Workfront.
 
-[Watch a video demonstration of this feature.](https://vimeo.com/521967892/ab11b067b4)

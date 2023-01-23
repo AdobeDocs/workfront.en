@@ -48,7 +48,7 @@ This section contains the following subsections:
 * [Results and activities in Adobe Workfront Goals](../workfront-goals/results-and-activities/results-and-activities.md)
 
   <!--
-  <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Tips, tricks, and troubleshooting for Workfront Goals (might come after GA)</li>
+  <li>Tips, tricks, and troubleshooting for Workfront Goals (might come after GA)</li>
   -->
 
 * [Adobe Workfront Goals settings](../workfront-goals/workfront-goals-settings/wf-goals-settings.md)

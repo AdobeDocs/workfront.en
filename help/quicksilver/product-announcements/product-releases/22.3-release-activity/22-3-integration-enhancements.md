@@ -44,8 +44,6 @@ Workfront Administrators can enable and disable SharePoint and legacy SharePoint
 
 For more information see [Configure the Legacy SharePoint integration](/help/quicksilver/administration-and-setup/configure-integrations/configure-sharepoint-integration.md).
 
-[View a video demonstration of this feature.](https://vimeo.com/716405303/a3fdff19ea)
-
 ## Combine multiple files in a single proof in the Creative Cloud plugin
 
 You can now upload outside files with the content you've created in the Adobe Workfront for Creative Cloud plugin to create multi-file proofs in Workfront. Outside files appear as additional proof pages inside Workfront. With this enhancement, we've also updated the look and feel of the proof creation experience.

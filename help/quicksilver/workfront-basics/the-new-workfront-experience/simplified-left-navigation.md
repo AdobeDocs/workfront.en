@@ -63,6 +63,7 @@ The left panel is available for the following objects:
 * User
 * Team
 * Group
+* Goal
 
 >[!IMPORTANT]
 >
@@ -204,16 +205,25 @@ The following sections display in the left panel for the **[!UICONTROL Goals]** 
         <td><strong>[!UICONTROL Goal Alignment]</strong></td>
         <td>Displays the alignment of goals with each other in a hierarchy. For more information, see <a href="../../workfront-goals/goal-alignment/goal-alignment-overview.md">Goal alignment overview in [!DNL Adobe Workfront Goals]</a>.</td>
     </tr>
+    </table>
+   
+   <!--
+   Drafted - removed from UI 
+   <table>
     <tr>
         <td><strong>[!UICONTROL Pulse]</strong></td>
-        <td>Displays a quick overview of all active goals and their progress. For more information, see <a href="../../workfront-goals/goal-review-and-workfront-goals-sections/review-goals-in-pulse.md">Review goals in the [!UICONTROL [!DNL Adobe Workfront Goals] Pulse] section</a>.</td>
+        <td>Displays a quick overview of all active goals and their progress. For more information, see <a href="../../workfront-goals/goal-review-and-workfront-goals-sections/review-goals-in-pulse.md">Review goals in the [!UICONTROL [!DNL Adobe Workfront Goals] Pulse] section</a>.
+        <p><span class="preview">This section has been removed from the Preview environment.</span></p>
+        </td>
     </tr>
     <tr>
         <td><strong>[!UICONTROL Check-in]</strong></td>
-        <td>Displays a quick overview of your active goals and their progress. For more information, see <a href="../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md">Update goals by using [!UICONTROL Check-in] in [!DNL Adobe Workfront Goals]</a>.</td>
+        <td>Displays a quick overview of your active goals and their progress. For more information, see <a href="../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md">Update goal progress in [!DNL Adobe Workfront Goals]</a>.
+        <p><span class="preview">This section has been removed from the Preview environment.</span></p>
+        </td>
     </tr>
 </table>
-
+-->
 To learn how to use the left panel in the [!UICONTROL Goals] area, see the section [Use the left navigation panel](#use-the-left-navigation-panel) in this article.
 
 ## Use the left navigation panel 

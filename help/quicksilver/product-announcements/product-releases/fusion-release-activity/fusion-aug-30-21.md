@@ -38,4 +38,3 @@ For a list of recent bug fixes in Workfront Fusion, see the [Workfront Maintenan
 
 For more information on event filters in the Workfront > Watch events module, see [Adobe Workfront modules](../../../workfront-fusion/apps-and-their-modules/workfront-modules.md).
 
-[Watch a video demonstration of this feature.](https://vimeo.com/594670449/76ee783470)

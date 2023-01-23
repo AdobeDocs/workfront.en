@@ -351,7 +351,7 @@ You can define default custom forms to be automatically attached to tasks when t
    >Depending on how your Workfront administrator set the permissions for the sections in your custom form, not everyone can view or edit the same fields on a given custom form. The permissions to edit fields within a section of a custom form depend on the permissions you have on the template task or the future task.   
    >For information about setting permissions on sections of a custom form, see [Share a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md).   
    >For information about setting task permissions, see [Share a task](../../../workfront-basics/grant-and-request-access-to-objects/share-a-task.md).   
-   >For information about setting template permissions, see [Sharing a template](../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md).
+   >For information about setting template permissions, see [Share a template](../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md).
 
 1. (Optional) Continue editing the following section, depending on the information you want to modify.
 

@@ -2,14 +2,16 @@
 product-area: templates
 navigation-topic: templates-navigation-topic
 title: Edit project templates
-description: Edit project templatesWorking with Resource Pools" article)"
+description: You can edit project templates to reflect changes in project processes and settings.
 author: Alina
 feature: Work Management
 exl-id: da0fca31-6a50-4862-ad9a-a453ef968773
 ---
 # Edit project templates
 
+<!--drafted
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> 
+-->
 
 <!--
 <The Resource Pools part also duplicates in the "Working with Resource Pools" article</p>
@@ -43,7 +45,7 @@ You must have the following access to perform the steps in this article:
     <ul> 
      <li> <p>Contribute permissions to a template to edit it in the Template Details tab</p> </li> 
      <li> <p>Manage permissions to a template to edit it in the Edit Template box</p> </li> 
-    </ul> <p> For information about template permissions, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md" class="MCXref xref">Sharing a template</a>. </p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+    </ul> <p> For information about template permissions, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md" class="MCXref xref">Share a template</a>. </p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -52,7 +54,7 @@ You must have the following access to perform the steps in this article:
 
 ## Edit a template {#edit-a-template}
 
-
+<!--
 Editing a template differs depending on what environment you choose. 
 
 ### Edit a template in the Production environment {#edit-a-template-in-the-production-environment} 
@@ -545,12 +547,11 @@ By editing issue settings, you can prevent users from adding issues inline in th
 
 
    <!--drafted section below for the edit template story: 
-   remove this tag and add the Preview blurb at the top of this article in yellow, if it's not already there. Keep the "div class" tags below until 23.1 production: -->
+   remove this tag and add the Preview blurb at the top of this article in yellow, if it's not already there. Keep the "div class" tags below until 23.1 production: 
 
-
-<div class="preview">
 
 ### Edit a template in the Preview environment {#edit-a-template-in-the-preview-environment}
+-->
 
    1. Go to the template you want to edit.
    1. (Conditional) To edit limited information about the template,  click **Template Details** in the left panel, then go to the areas listed in the left panel to edit information for each area. 
@@ -582,11 +583,8 @@ By editing issue settings, you can prevent users from adding issues inline in th
       * [Issue Settings](#issue-settings) 
       * [Access](#access-preview) 
    
-</div>
 
-<div class="preview">
-
-#### Template Name{#template-name}
+### Template Name{#template-name}
 
    1. Begin editing your template as described above.
    1. In the **Edit Template** box, click **Template Name**.
@@ -596,11 +594,9 @@ By editing issue settings, you can prevent users from adding issues inline in th
 
       Click **Save**.
 
-</div>
 
-<div class="preview">
 
-#### Overview {#overview-preview}
+### Overview {#overview-preview}
 
    1. Begin editing your template as described above.
    1. In the **Edit Template** box, click **Overview**.
@@ -697,11 +693,7 @@ By editing issue settings, you can prevent users from adding issues inline in th
 
       Click **Save**.
 
-</div>
-
-<div class="preview">
-
-#### Finance {#finance-preview}
+### Finance {#finance-preview}
 
    1. Begin editing your template as described above.
    1. In the **Edit Template** box, click **Finance**.
@@ -757,11 +749,7 @@ By editing issue settings, you can prevent users from adding issues inline in th
 
       Click **Save**.
 
-</div>
-
-<div class="preview">
-
-#### Custom Forms {#custom-forms-preview}
+### Custom Forms {#custom-forms-preview}
 
    1. Begin editing your template as described above.
    1. In the **Edit Template** box, click **Custom Forms**.
@@ -788,11 +776,7 @@ By editing issue settings, you can prevent users from adding issues inline in th
 
       Click **Save**.
 
-</div>
-
-<div class="preview">
-
-#### Project Settings {#project-settings}
+### Project Settings {#project-settings}
 
    1. Begin editing your template as described above.
    1. In the **Edit Template** box, click **Project Settings**.
@@ -920,11 +904,7 @@ By editing issue settings, you can prevent users from adding issues inline in th
       Or
    1. Click **Save**.
 
-</div>
-
-<div class="preview">
-
-#### Task Settings {#task-settings}
+### Task Settings {#task-settings}
 
    You can define the defaults that will be associated with all the new tasks when you add them to a project that is created from the template.
 
@@ -953,10 +933,6 @@ By editing issue settings, you can prevent users from adding issues inline in th
       Or
 
       Click **Save**.
-
-</div>
-
-<div class="preview">
 
 ### Issue Settings {#issue-settings}
 
@@ -987,11 +963,7 @@ By editing issue settings, you can prevent users from adding issues inline in th
 
       Click **Save**.
 
-</div>
-
-<div class="preview">
-
-#### Access {#access-preview}
+### Access {#access-preview}
 
    1. Begin editing your template as described above.
    1. In the **Edit Template** box, click **Access**.
@@ -1047,8 +1019,6 @@ By editing issue settings, you can prevent users from adding issues inline in th
 
       Now, when you use this template to create a project all these settings will transfer to the new project.
 
-
-</div>
 
 ## Edit templates in bulk
 

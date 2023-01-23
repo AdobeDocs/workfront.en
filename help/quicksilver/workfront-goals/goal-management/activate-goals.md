@@ -9,11 +9,6 @@ exl-id: fc556073-fe63-4f13-a313-505ca0ef1f9b
 ---
 # Activate goals in Adobe Workfront Goals
 
-
-<!--drafted for goal redesign:
-
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> -->
-
 When you create a goal, Adobe Workfront Goals saves it with a status of Draft. Drafted goals are not part of goal management.
 
 To keep track of how close you are to achieving a goal by updating its progress, you must activate it. This changes its status to Active. 
@@ -141,7 +136,7 @@ Do at least one of the following to be able to activate a goal:
 
 * Connect a project to the goal
 
-  For information, see [Add projects to goals in Adobe Workfront Goals](../results-and-activities/connect-projects-to-goals-overview.md). <!--drafted for goal redesign: update the title of the article here, when goal redesign releases-->
+  For information, see [Add projects to goals in Adobe Workfront Goals](../results-and-activities/connect-projects-to-goals-overview.md). 
 
 * Align another goal to the goal you want to activate
 
@@ -151,19 +146,10 @@ Do at least one of the following to be able to activate a goal:
 
 You can activate goals you created or a goal that you have Manage permissions to.
 
-1. Go to a goal that you want to activate.
+1. Go to a goal that you want to activate. The goal page opens.
 
-   For example, go to the Goal List and click the name of a goal. The Goal Details panel opens on the right.
+1. Click the **More** menu ![](../goal-management/assets/more-icon.png) to the right of the goal name, then click **Activate**.
 
-   <!-- drafted for goal redesign: replace the last sentence above with this at preview: 
-   In the Production environment, the Goal Details pabel opens on the right.
-   <span class="preview">In the Preview environment, the goal page opens.</span> --> 
-
-1. Click the **More** menu ![](../goal-management/assets/more-icon.png) to the right of the goal name in the Goal Details panel<!--drafted for goal redesign: <span class="preview">or on the goal page</span>-->, then click **Activate**.
-
-   Or
-
-   <!--drafted for goal redesign: In the Production environment,click--> 
-   Click **Activate** in the Goal Details panel.
-
-   The goal status changes to Active. You can now track progress on the goal and the goal displays in the Check-in section as well as is taken into account in the Graphs sections of Workfront Goals
+    ![](assets/more-menu-on-goal-expanded-with-activate-unshimmed.png)
+   
+    The goal status changes to Active. You can now track progress on the goal and the goal displays in the Check-in section as well as is taken into account in the Graphs sections of Workfront Goals

@@ -37,7 +37,7 @@ For information about editing and creating goals, see:
 
 To create a cohesive experience for you, we have introduced several updates to the Goal List in Workfront Goals. The new list looks and feels closer to the rest of the Workfront lists. Some improvements that you can see in the new Goal list include:
 
-* Collapsing and expanding the goals is managed from the upper-left icon in the toolbar. The “Expand goals” icon has been removed.
+* Collapsing and expanding the goals is managed from the upper-left icon in the toolbar. The "Expand goals" icon has been removed.
 * The functionality of the filters matches that in the Goal Alignment section. You can temporarily show items hidden by the filter, then reapply it to exclude them from displaying.
 * The name of some of the columns has been updated.
 
@@ -55,4 +55,3 @@ You can now share a goal you create or which was shared with you and control who
 
 For information about sharing goals, see [Share a goal in Workfront Goals](../../../../workfront-goals/workfront-goals-settings/share-a-goal.md).
 
-[Watch a video demonstration of this feature.](https://vimeo.com/539894647/9d9ce20149)

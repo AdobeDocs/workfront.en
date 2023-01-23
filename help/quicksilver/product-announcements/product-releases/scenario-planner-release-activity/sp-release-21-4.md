@@ -19,4 +19,3 @@ For information, see the following articles:
 * [Create and edit plans in the Scenario Planner](../../../scenario-planner/create-and-edit-plans.md) 
 * [Update or create projects by publishing initiatives in the Scenario Planner](../../../scenario-planner/publish-scenarios-update-projects.md)
 
-[Watch a video demonstration of this feature.](https://vimeo.com/600497231/06cce5cc96) 

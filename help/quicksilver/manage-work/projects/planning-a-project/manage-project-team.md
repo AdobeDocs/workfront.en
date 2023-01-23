@@ -13,6 +13,36 @@ The Project Team consists of users who are associated with the project. The memb
 
 ## Access requirements
 
+<!--drafted for P&P:
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Current license: Standard </p>
+   Or
+   <p>Legacy license: Plan </p>
+    </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations*</td> 
+   <td> <p>Edit access to Projects</p> <p>View or higher access to Users</p> <p><b>NOTE</b> 
+   
+   If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>View or higher permissions to the project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+-->
+
 You must have the following access to perform the steps in this article:
 
 <table style="table-layout:auto"> 
@@ -26,10 +56,6 @@ You must have the following access to perform the steps in this article:
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
    <td> <p>Plan </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">&nbsp;</td> 
-   <td>&nbsp;</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
@@ -78,12 +104,13 @@ If users that don't fulfill any role on the project want to be notified about ce
 
  For more information about what notifications can be enabled for users on the project team, see [Event notifications available in Adobe Workfront](../../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md). 
 
- <!--drafted for remove the projet group limitation story -23.1:
- Take out the IMPORTANT note below - this is a patch so no preview needed--> 
+ <!--drafted - this used to be the case, in the note below but this limitation was removed on Jan 5, 2023 - as a patch, not a release feature:
 
 >[!IMPORTANT]
 >
 >You can add to the Project Team only users that belong to the Group associated with the project. You cannot add users that belong to the Subgroups of the project's group. 
+
+-->
 
 1. Go to the project you want to add users to. 
 

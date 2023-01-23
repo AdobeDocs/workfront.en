@@ -116,7 +116,7 @@ You must have the following to perform the activities described in this article:
 
 You must have the following before you can start:
 
-* A Layout Template that includes the Goals area in the Main&nbsp;Menu.
+* A Layout Template that includes the Goals area in the Main Menu.
 
 ## Navigate the Goal Alignment section
 
@@ -136,11 +136,11 @@ You must have the following before you can start:
     <tbody> 
      <tr> 
       <td role="rowheader">Time period dates </td> 
-      <td> <p>This is the period for which the goal is open.&nbsp;The goal must be achieved by the end date of the period. Workfront Goals calculates progress on the goal based on the duration of the goal's period and the current date.</p> </td> 
+      <td> <p>This is the period for which the goal is open. The goal must be achieved by the end date of the period. Workfront Goals calculates progress on the goal based on the duration of the goal's period and the current date.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Progress indicators</td> 
-      <td>The number of progress indicators for the goal.&nbsp;Progress indicators can be aligned goals, results, or activities. </td> 
+      <td>The number of progress indicators for the goal. Progress indicators can be aligned goals, results, or activities. </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Owner name</td> 
@@ -152,7 +152,7 @@ You must have the following before you can start:
      </tr> 
      <tr> 
       <td role="rowheader">Goal Progress bar <span>and Progress</span></td> 
-      <td> <p>The goal progress indicates how much of the goal has currently been achieved.&nbsp;This is an automatic calculation of the average of the progress of all aligned goals, results, and activities for the goal based on the time elapsed since the start of the goal's time period. For information about calculating progress on goals, see <a href="../../workfront-goals/goal-management/calculate-goal-progress.md" class="MCXref xref">Overview of goal progress and condition in Adobe Workfront Goals</a>. </p> 
+      <td> <p>The goal progress indicates how much of the goal has currently been achieved. This is an automatic calculation of the average of the progress of all aligned goals, results, and activities for the goal based on the time elapsed since the start of the goal's time period. For information about calculating progress on goals, see <a href="../../workfront-goals/goal-management/calculate-goal-progress.md" class="MCXref xref">Overview of goal progress and condition in Adobe Workfront Goals</a>. </p> 
        <div> 
         <p>The actual progress of the goal by the current date.&nbsp;The following progress values and colors indicate how likely the goal is to being achieved on time: </p> 
         <ul> 
@@ -227,9 +227,8 @@ You must have the following before you can start:
     </tbody> 
    </table>
 
-1. Click a goal card to open the Goal Details panel and edit information about or update the progress of the goal. For information about editing existing goals, see [Edit goals in Adobe Workfront Goals](../../workfront-goals/goal-management/edit-goals.md). For information about updating progress for goals, see [Update goals by using Check-in in Adobe Workfront Goals](../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md).
+1. Click a goal card to open the goal page. For information about editing existing goals, see [Edit goals in Adobe Workfront Goals](../../workfront-goals/goal-management/edit-goals.md). For information about updating progress for goals, see [Update goal progress in Adobe Workfront Goals](../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md).
 
-   <!--drafted for goal redesign: above, we need to change the sentence to say: <span class="preview">In the Preview environment, click a goal card to open the goal page.</span>-->
 1. Click the the upward-pointing arrow of the current-level goal to return to the previous level in the hierarchy of the chart.
 
    Or

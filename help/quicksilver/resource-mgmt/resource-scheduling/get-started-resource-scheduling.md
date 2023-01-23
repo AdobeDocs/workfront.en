@@ -10,7 +10,17 @@ exl-id: 1858f6af-92e7-4d32-a401-40004eeb0cef
 ---
 # Get started with Resource Scheduling
 
-<!-- drafted for res scheduling deprecation blurb for preview release-->  
+>[!IMPORTANT]  
+>  
+><span class="preview">The Scheduling functionality described in this article has been deprecated and removed from Adobe Workfront starting with the 23.1 release in January 2023.   </span>  
+>  
+> <span class="preview"> This article will also be removed shortly after the 23.1 release, in early 2023. At this time, we recommend that you update any bookmarks accordingly. </span> 
+> 
+><span class="preview"> You can now use the Workload Balancer to schedule work for your resources. </span>  
+>  
+> <span class="preview">For information about scheduling resources using the Workload Balancer, see the section [The Workload Balancer](../../resource-mgmt/workload-balancer/workload-balancer.md). </span>
+
+<!--  
 
 >[!CAUTION] 
 > 
@@ -21,7 +31,7 @@ exl-id: 1858f6af-92e7-4d32-a401-40004eeb0cef
 >* <span class="preview"> For information about scheduling resources using the Workload Balancer, see the section [The Workload Balancer](../../resource-mgmt/workload-balancer/workload-balancer.md).</span> 
 > 
 >* <span class="preview"> For more information about the deprecation and removal of the Scheduling tools, see [Deprecation of Resource Scheduling tools in Adobe Workfront](../../resource-mgmt/resource-mgmt-overview/deprecate-resource-scheduling.md).</span> 
-
+-->
 
 <!--
 <p>(NOTE: LINKED TO THE PRODUCT FROM: ALL SCHEDULING TOOLS: GLOBAL, TEAM, PROJECT STAFFING *** LINKED TO LOTS OF ARTICLES, AS WELL!) </p>
@@ -68,7 +78,7 @@ By default, assignments can be made only to users who have a role defined on the
 
 <!--
 <note type="note">  If Workfront has not removed the Use New Scheduling Area option from your Scheduling settings, users must have a Plan license and Manage permissions to the project to view the Scheduling timeline. For more information about the removal of the Use New Scheduling Area option, see the article
-<a href="../../product-announcements/announcements/replace-flash-tools.md" class="MCXref xref">Replacement of Flash-based tools in Adobe Workfront</a>.
+<a href="../../product-announcements/announcements/announcement-archive/replace-flash-tools.md" class="MCXref xref">Replacement of Flash-based tools in Adobe Workfront</a>.
 </note>
 -->
 

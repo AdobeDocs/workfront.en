@@ -24,23 +24,23 @@ You are unable to establish a successful connection to ADFS.
 
 ## Access requirements
 
-You must have the following access to perform the steps in this article: 
+You must have the following access to perform the steps in this article:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
    <td>Any</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] license</td> 
    <td>Plan</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
-   <td> <p>You must be a Workfront administrator. For more information, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>.</p> <p><b>NOTE</b>: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>You must be a [!DNL Workfront] administrator. For more information, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>.</p> <p><b>NOTE</b>: If you still don't have access, ask your [!DNL Workfront] administrator if they set additional restrictions in your access level. For information on how a [!DNL Workfront] administrator can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -51,24 +51,24 @@ You must have the following access to perform the steps in this article:
 
 Manually retrieve the Signing Certificate from the ADFS Server:
 
-1. In Windows, click **Start** > **Administration** > **ADFS 2.0 Management**.  
+1. In [!DNL Windows], click **[!UICONTROL Start]** > **[!UICONTROL Administration]** > **[!UICONTROL ADFS 2.0 Management]**.\
    The ADFS 2.0 Management dialog box is displayed.
 
-1. Select **Trust Relationship** > **Relying Party Trusts** in the left-hand pane.
+1. Select **[!UICONTROL Trust Relationship]** > **[!UICONTROL Relying Party Trusts]** in the left-hand pane.
 
-1. Right-click on **Relying Party Trust**, and select **Properties**.
+1. Right-click on **[!UICONTROL Relying Party Trust]**, and select **[!UICONTROL Properties]**.
 
-1. Click on the **Signature** tab.
-1. Click on the name of the Signing Certificate, and click **View**.
-1. Click Copy to **File**..., and select **Next**.
+1. Click on the **[!UICONTROL Signature]** tab.
+1. Click on the name of the Signing Certificate, and click **[!UICONTROL View]**.
+1. Click Copy to **[!UICONTROL File]**..., and select **[!UICONTROL Next]**.
 
-1. Select **Base-64 encoded x.509 (CER)**, and click **Next**.
+1. Select **[!UICONTROL Base-64 encoded x.509 (CER)]**, and click **[!UICONTROL Next]**.
 
-1. Specify the file name, and click **Next**.
-1. Click **Finish**.
-1. In Adobe Workfront, navigate to **Setup** > **System** > **Single Sign-On (SSO)** and manually upload the Signing Certificate.
+1. Specify the file name, and click **[!UICONTROL Next]**.
+1. Click **[!UICONTROL Finish]**.
+1. In [!DNL Adobe Workfront], navigate to **[!UICONTROL Setup]** > **[!UICONTROL System]** > **[!UICONTROL Single Sign-On (SSO)]** and manually upload the Signing Certificate.
 
-## Cause 2: The certificate is signed using DSA when Workfront is expecting an RSA signature
+## Cause 2: The certificate is signed using DSA when [!DNL Workfront] is expecting an RSA signature
 
 ### Solution
 

@@ -22,11 +22,11 @@ Consider the following when working with commit dates:
 * If you are assigned to a task or issue, you can set the Commit Date by doing one of the following:
 
    * Let Workfront set the Commit Date to match the existing Planned Completion Date of the task or issue by clicking Work On It, Start Issue, or Start Task on the task or issue. For information about replacing the Work On It button with a Start button, see  [Replace the Work On It button with a Start button](../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md).
-   * Manually set the Commit Date yourself according to when you believe the task or issue might be completed. This&nbsp;is your estimation&nbsp;and commitment, as the assignee, to the Project Manager&nbsp;that you will have the task or issue completed by a particular date.
+   * Manually set the Commit Date yourself according to when you believe the task or issue might be completed. This is your estimation and commitment, as the assignee, to the Project Manager that you will have the task or issue completed by a particular date.
 
 >[!NOTE]
 >
->You must be the Task&nbsp;Owner of a task to change the Commit Date. The following users cannot change the Commit Date of a task:
+>You must be the Task Owner of a task to change the Commit Date. The following users cannot change the Commit Date of a task:
 >
 >* Project Owner
 >* Project Sponsor

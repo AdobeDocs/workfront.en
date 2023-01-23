@@ -24,24 +24,24 @@ You must have the following access to perform the steps in this article:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront plan*</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront license*</strong></td> 
-   <td> <p>Request or higher</p> </td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] license*</strong></td> 
+   <td> <p>[!UICONTROL Request] or higher</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+&#42;To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
 
 ## Add a column to a board
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Boards**.
+1. Click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe Workfront], then click **[!UICONTROL Boards]**.
 1. Access a board. For information, see [Create or edit a board](../../agile/get-started-with-boards/create-edit-board.md).
-1. Click **Add Column** to the right of the existing columns.
-1. In the new column, type a name and click **Add Column**.
+1. Click **[!UICONTROL Add Column]** to the right of the existing columns.
+1. In the new column, type a name and click **[!UICONTROL Add Column]**.
 
    ![Add new column](assets/boards-add-column.png)
 
@@ -60,15 +60,15 @@ You must have the following access to perform the steps in this article:
 
 1. Access the board.
 1. Click on the column name, type the new name, and press Enter.
-   
+
    Or
-   
-   Click the **More** menu ![More menu](assets/more-icon-spectrum.png) on the column and select **Edit**. In the Settings area, type the new name in the **Column name** field, and click **Close**.
+
+   Click the **[!UICONTROL More]** menu ![More menu](assets/more-icon-spectrum.png) on the column and select **[!UICONTROL Edit]**. In the Settings area, type the new name in the **[!UICONTROL Column name]** field, and click **[!UICONTROL Close]**.
 
 ## Delete a board column
 
 1. Access the board.
-1. Click the **More** menu ![More menu](assets/more-icon-spectrum.png) on the column, and select **Delete**.
+1. Click the **[!UICONTROL More]** menu ![More menu](assets/more-icon-spectrum.png) on the column, and select **[!UICONTROL Delete]**.
 
    >[!NOTE]
    >
@@ -78,80 +78,76 @@ You must have the following access to perform the steps in this article:
 
 You can use a configuration setting to display the number of cards in each column.
 
->[!NOTE]
->
->The card counter is available only via the early feature opt-in. For details, see [Early feature opt-in for Adobe Workfront Boards](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md).
-
-If you are using the WIP limit on a column, a separate card counter is not added. For more information on WIP limits, see [Manage the Work in Progress (WIP) limit on a board](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-wip-limit-on-board.md).
+If you are using the WIP limit on a column, a separate card counter is not added. For more information on WIP limits, see [Manage the [!UICONTROL Work in Progress] (WIP) limit on a board](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-wip-limit-on-board.md).
 
 1. Access the board.
-1. Click **Configure** on the right of the board to open the Configure panel.
-1. Expand **Column**.
-1. Turn on **Display a column card count**.
+1. Click **[!UICONTROL Configure]** on the right of the board to open the Configure panel.
+1. Expand **[!UICONTROL Column]**.
+1. Turn on **[!UICONTROL Display a column card count]**.
 
    ![Turn on card counter](assets/display-card-count.png)
 
    The card counter appears at the top of each column.
 
-1. Click **Hide configure** to close the Configure panel.
+1. Click **[!UICONTROL Hide configure]** to close the [!UICONTROL Configure] panel.
 
 ## Define column settings and policies
 
 1. Access the board.
-1. Click the **More** menu ![More menu](assets/more-icon-spectrum.png) on the column, and select **Edit**.
+1. Click the **[!UICONTROL More]** menu ![More menu](assets/more-icon-spectrum.png) on the column, and select **[!UICONTROL Edit]**.
 
-   The Settings area appears. The **Column name** lets you know which column you are defining settings for.
+   The [!UICONTROL Settings] area appears. The **[!UICONTROL Column name]** lets you know which column you are defining settings for.
 
-1. Enable the **Update field values automatically** policy to change certain field values automatically when a card is moved to this column.
+1. Enable the **[!UICONTROL Update field values automatically]** policy to change certain field values automatically when a card is moved to this column.
 
    ![Column settings and policies](assets/boards-column-policies-enabled.png)
 
 1. (Optional) Set a value for the card status:
 
-   1. Select the **Status** check box.
+   1. Select the **[!UICONTROL Status]** check box.
 
    1. Select the status to apply to a card when it is moved to this column.
 
       ![Status for columns](assets/boards-column-status.png)
 
-      The status translation options for connected cards are also displayed. (Status translation does not apply to ad hoc cards.) These options determine the status applied to the task or issue in Workfront when a connected card is moved to this column.
+      The status translation options for connected cards are also displayed. (Status translation does not apply to ad hoc cards.) These options determine the status applied to the task or issue in [!DNL Workfront] when a connected card is moved to this column.
 
-   1. To change the default status translation selections, click the **Edit** icon ![Edit icon](assets/edit-icon-spectrum.png).
-   1. Select a status for tasks and a status for issues. Only the default Workfront statuses are available, not custom statuses.  
+   1. To change the default status translation selections, click the **[!UICONTROL Edit]** icon ![Edit icon](assets/edit-icon-spectrum.png).
+   1. Select a status for tasks and a status for issues. Only the default [!DNL Workfront] statuses are available, not custom statuses.
 
    >[!NOTE]
    >
-   >If you do use custom statuses in Workfront, the first time you move a connected card into this column you will be prompted to choose a status. For example, if the connected project has multiple status types that all correspond to Completed, you must choose which status to use in Workfront. You can set your choice as the default so you don't have to make the selection every time you move a card to the column.
+   >If you do use custom statuses in [!DNL Workfront], the first time you move a connected card into this column you will be prompted to choose a status. For example, if the connected project has multiple status types that all correspond to [!UICONTROL Completed], you must choose which status to use in [!DNL Workfront]. You can set your choice as the default so you don't have to make the selection every time you move a card to the column.
    >For more information on statuses, see [Statuses overview](/help/quicksilver/administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/statuses-overview.md).
 
 1. (Optional) Set a value for the card assignees:
 
-   1. Select the **Assignees** check box.
+   1. Select the **[!UICONTROL Assignees]** check box.
    1. Select an action.
 
-      * **Add on assignees:** The assignees you select are added to the existing list of assignees on a card when it is moved to this column.
-      * **Override assignees:** The assignees you select override all other assignees, and become the only assignees on a card when it is moved to this column.
-
+      * **[!UICONTROL Add on assignees]:** The assignees you select are added to the existing list of assignees on a card when it is moved to this column.
+      * **[!UICONTROL Override assignees]:** The assignees you select override all other assignees, and become the only assignees on a card when it is moved to this column.
    1. Select the assignees from the drop-down list. Only members on the board are available to choose from. For more information, see [Add or remove members from a board](/help/quicksilver/agile/get-started-with-boards/add-members-to-board.md).
 
       ![Assignees for column](assets/boards-column-assignees.png)
 
+
 1. (Optional) Set a value for the card tags:
 
-   1. Select the **Cards** check box.
+   1. Select the **[!UICONTROL Cards]** check box.
    1. Select an action.
 
-      * **Add on tags:** The tags you select are added to the existing list of tags on a card when it is moved to this column.
-      * **Override tags:** The tags you select override all other tags, and become the only tags on a card when it is moved to this column.
-
-   1. Select the tags from the drop-down list. Only tags already created in the Tag Manager are available to choose from. For information on adding new tags, see [Add tags](/help/quicksilver/agile/get-started-with-boards/add-tags.md).
+      * **[!UICONTROL Add on tags]:** The tags you select are added to the existing list of tags on a card when it is moved to this column.
+      * **[!UICONTROL Override tags]:** The tags you select override all other tags, and become the only tags on a card when it is moved to this column.
+   1. Select the tags from the drop-down list. Only tags already created in the [!UICONTROL Tag Manager] are available to choose from. For information on adding new tags, see [Add tags](/help/quicksilver/agile/get-started-with-boards/add-tags.md).
 
       ![Tags for column](assets/boards-column-tags.png)
 
-1. Enable the **Work in progress limit** policy to limit the number of cards that can be added to the column. Then, type the limit number in the **Set limit** field.
+
+1. Enable the **[!UICONTROL Work in progress limit]** policy to limit the number of cards that can be added to the column. Then, type the limit number in the **[!UICONTROL Set limit]** field.
 
    ![WIP limit for column](assets/boards-wip-limit-in-column.png)
-   
+
    For more information, see [Manage the Work in Progress (WIP) limit on a board](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-wip-limit-on-board.md).
 
-1. Click **Close** to exit the Settings area and view the column and its cards.
+1. Click **[!UICONTROL Close]** to exit the Settings area and view the column and its cards.

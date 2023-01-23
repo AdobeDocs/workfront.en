@@ -22,9 +22,7 @@ We have updated the names of the goal Progress field to match that of the Projec
 * The current Behind goal Progress has been renamed to At Risk (yellow indicator)
 * The current At Risk goal Progress has been renamed to In Trouble (green indicator)
 
-For information about how Workfront calculates goal progress, see [Calculate goal progress in Adobe Workfront Goals](../../../../workfront-goals/goal-management/calculate-goal-progress.md).
-
-[Watch a video demonstration of this feature.](https://vimeo.com/500529208/7cbd6e5435)
+For information about how Workfront calculates goal progress, see [Overview of goal progress and condition in Adobe Workfront Goals](../../../../workfront-goals/goal-management/calculate-goal-progress.md).
 
 ## Consistent navigation and toolbar with new filter experience in Workfront Goals
 
@@ -39,22 +37,18 @@ For an overview of the Workfront Goals sections, see [Overview of the Adobe Work
 
 For information on filters in Workfront Goals, see [Filter information in Adobe Workfront Goals](../../../../workfront-goals/goal-management/filter-information-wf-goals.md).
 
-[Watch a video demonstration of this feature.](https://vimeo.com/500513083/8bdeda1257)
-
 ## Improvements to updating results in the Goal Details panel
 
 To incorporate some of the feedback we have received from you, we have made improvements to adding and editing results in the Goal Details panel. These improvements include:
 
 * Renamed the Measured Value, Starting At, and Ending At fields to Value, Initial, and Target, respectively
 * Made the Initial field editable after you save the result
-* Removed the result “Type” field
+* Removed the result "Type" field
 
 For information about adding and editing results, see the following articles:
 
 * [Add results to goals in Adobe Workfront Goals](../../../../workfront-goals/results-and-activities/add-results-to-goals.md) 
 * [Edit results and activities in Adobe Workfront Goals](../../../../workfront-goals/results-and-activities/edit-results-and-activities.md)
-
-[Watch a video demonstration of this feature.](https://vimeo.com/500527458/c5805ad86d)
 
 ## Redesigned Goal Alignment section
 
@@ -67,4 +61,3 @@ To improve your interaction with it and make it more user-friendly, we have rede
 
 For information about navigating the Goal Alignment section, see [Navigate the Goal Alignment section in Adobe Workfront Goals](../../../../workfront-goals/goal-alignment/navigate-goal-alignment-chart.md).
 
-[Watch a video demonstration of this feature.](https://vimeo.com/500518626/5adb573096)

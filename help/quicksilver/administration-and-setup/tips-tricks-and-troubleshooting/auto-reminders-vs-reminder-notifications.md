@@ -4,7 +4,7 @@ content-type: reference
 product-area: system-administration
 navigation-topic: tips-tricks-troubleshooting-setup-admin
 title: Automatic reminders vs. reminder notifications
-description: This article describes the differences between automatic reminders and reminder notifications and provides scenarios for each. For more information on all Adobe Workfront notifications, seeAdobe Workfront notifications.
+description: This article describes the differences between automatic reminders and reminder notifications and provides scenarios for each. For more information on all [!DNL Adobe Workfront] notifications, seeAdobe [!DNL Workfront] notifications.
 author: Caroline
 feature: System Setup and Administration
 role: Admin
@@ -12,14 +12,14 @@ exl-id: 26c6fa2c-5c3a-4f53-bd7e-e49a623ff60d
 ---
 # Automatic reminders vs. reminder notifications
 
-This article describes the differences between automatic reminders and reminder notifications and provides scenarios for each. For more information on all Adobe Workfront notifications, see [Adobe Workfront notifications](../../workfront-basics/using-notifications/wf-notifications.md).
+This article describes the differences between automatic reminders and reminder notifications and provides scenarios for each. For more information on all [!DNL Adobe Workfront] notifications, see [[!DNL Adobe Workfront] notifications](../../workfront-basics/using-notifications/wf-notifications.md).
 
 ## Automatic reminders
 
 The following characteristics are specific to automatic reminders:
 
-* Can only be turned on and edited by a Workfront administrator
-* Are triggered on all tasks and issues when they are due, late ,or near the planned completion date
+* Can only be turned on and edited by a [!DNL Workfront] administrator
+* Are triggered on all tasks and issues when they are due, late, or near the planned completion date
 * Can only be sent to the assignee, assignee's manager, or the manager of the immediate manager.
 * Cannot not have an email template attached to them.
 

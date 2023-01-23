@@ -222,7 +222,7 @@ The following table is a list of commonly used terms in Adobe Workfront:
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL BAU]</td> 
-   <td>"Business as usual" work that contributes to running the everday primary business goals.</td> 
+   <td>"Business as usual" work that contributes to running the everyday primary business goals.</td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL Backlog]</td> 
@@ -1560,7 +1560,7 @@ The following table is a list of commonly used terms in Adobe Workfront:
   </tr> 
   <tr data-mc-conditions=""> 
    <td><span>[!UICONTROL Progress]</span> </td> 
-   <td> <p>In a [!UICONTROL Goal] report, this displays the percent of how close a strategic goal is to completing. The percent of progress displays as a number. For information about strategic goals, also see "[!UICONTROL Goal]" in this table.</p> <p>This field is visible only if your organization has purchased [!DNL Workfront] Goals. For information about managing strategic goals using [!DNL Workfront Goals], see <a href="../../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md"> Add projects to goals in[!DNL Adobe Workfront Goals] </a>. </p> </td> 
+   <td> <p>In a [!UICONTROL Goal] report, this displays the percent of how close a strategic goal is to completing. The percent of progress displays as a number. For information about strategic goals, also see "[!UICONTROL Goal]" in this table.</p> <p>This field is visible only if your organization has purchased [!DNL Workfront] Goals. For information about managing strategic goals using [!DNL Workfront Goals], see <a href="../../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md"> Add projects to goals in [!DNL Adobe Workfront Goals] </a>. </p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Progress Status]</td> 
@@ -1746,7 +1746,7 @@ The following table is a list of commonly used terms in Adobe Workfront:
   </tr> -->
   <tr> 
    <td>[!UICONTROL Resource Management]</td> 
-   <td> <p>[!UICONTROL Resource Management] is an enterprise set of tool that allows you to accurately forecast the use of your resources based on their availability so that the work that must be done is completed on time and on budget. </p> <p>With Resource Management tools you can plan long term capacity and short term scheduling needs for your resources. </p> <p>For information about Resource Management in [!DNL Workfront], see <a href="../../../resource-mgmt/resource-mgmt-overview/get-started-resource-management.md">Get started with Resource Management</a>.</p> </td> 
+   <td> <p>[!UICONTROL Resource Management] is an enterprise set of tools that allows you to accurately forecast the use of your resources based on their availability so that the work that must be done is completed on time and on budget. </p> <p>With Resource Management tools you can plan long term capacity and short term scheduling needs for your resources. </p> <p>For information about Resource Management in [!DNL Workfront], see <a href="../../../resource-mgmt/resource-mgmt-overview/get-started-resource-management.md">Get started with Resource Management</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Resource Manager IDs]</td> 

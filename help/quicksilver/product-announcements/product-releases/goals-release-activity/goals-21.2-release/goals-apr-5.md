@@ -42,4 +42,3 @@ For information about locating goal information on projects, see [Add projects t
 
 For information about goal fields visible in reports, see [Glossary of Adobe Workfront terminology](../../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
 
-[Watch a video demonstration of this feature.](https://vimeo.com/534933839/6b978ed2a5)

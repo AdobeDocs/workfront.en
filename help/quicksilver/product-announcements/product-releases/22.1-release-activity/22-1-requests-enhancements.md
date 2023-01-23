@@ -40,8 +40,6 @@ With this change, users who can view requests that others submitted can also cop
 
 For more information, see [Copy and submit requests](../../../manage-work/requests/create-requests/copy-and-submit-requests.md).
 
-[Watch a video demonstration of this feature.](https://vimeo.com/647433535/32c681ac04)
-
 ## Updated Summary panel experience in the Submitted section of the Requests area
 
 >[!NOTE]

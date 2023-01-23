@@ -34,8 +34,6 @@ For more information, see the following articles:
 * [Customize user interface terminology using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-terminology.md) 
 * [Import projects to plans in the Scenario Planner](../../../scenario-planner/import-projects-to-plans.md)
 
-[Watch a video demonstration of this feature.](https://vimeo.com/539863715/e851ec323a)
-
 ## Connection between the Scenario Planner, Workload Balancer, and task list
 
 To help you with the strategic planning of your projects and ensure they align with the bigger-picture initiatives of the Scenario Planner, we have created a new area on the project that displays job role requirements from the initiatives as well as planned hours estimated on the project's work items. This area is available for the project-level Workload Balancer as well as for the task list in the new Workfront experience. In the classic experience this is available only for the project Workload Balancer.
@@ -47,4 +45,3 @@ For information, see the following articles:
 
 For information, see [Overview of reconciling resource allocations between projects and initiatives](../../../scenario-planner/overview-reconcile-allocations-between-projects-initiatives.md).
 
-[Watch a video demonstration of this feature.](https://vimeo.com/539890235/7127d1d666)

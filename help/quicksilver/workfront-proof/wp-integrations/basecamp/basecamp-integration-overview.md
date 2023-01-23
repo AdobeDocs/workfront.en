@@ -19,8 +19,6 @@ exl-id: 8794a76a-c782-4038-9680-73e72697b21d
 
 The [!DNL Workfront Proof] integration with [!DNL Basecamp] helps you significantly improve review and approval of creative assets in [!DNL Basecamp] by enabling online proofing functionality right inside your [!DNL Basecamp] account. When you create proofs in [!DNL Workfront Proof] account you can connect them to a project in [!DNL Basecamp]. Reviewers will be able to use [!DNL Workfront Proof]'s rich commenting and markup tools and make decisions directly inside [!DNL Basecamp]. [!DNL Workfront Proof] helps you to speed up your creative project delivery, reduce the time you spend managing approvals and reduce the number of design revisions.
 
-[This video](https://vimeo.com/77216478) provides an overview of the [!DNL Basecamp] integration with [!DNL Workfront Proof].
-
 ## Key Benefits
 
 * **Save Time:** Easily track the status of comments, feedback and decisions.

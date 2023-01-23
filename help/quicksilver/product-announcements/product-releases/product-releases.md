@@ -13,6 +13,8 @@ Following are links to the release notes for current and past releases.
 
 For information about the Adobe Workfront release schedule, see [Adobe Workfront release schedule and process](../../product-announcements/product-releases/workfront-release-schedule.md).
 
+For information on helping your organization adjust smoothly to new releases, see [Release readiness](../../product-announcements/product-releases/release-readiness.md).
+
 <table style="table-layout:auto"> 
  <col> 
  <col> 

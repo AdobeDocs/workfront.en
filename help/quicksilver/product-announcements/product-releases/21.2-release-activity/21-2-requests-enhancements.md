@@ -22,14 +22,12 @@ We have changed the way the Assignments field functions when creating a new requ
 
 When you enable the Assigned To, Job Role, or Team fields to be visible when setting up a request queue, requestors will see the same Assignments field that can accommodate all or any of these three assignment types.
 
-There is an indication in the Assignments field about which types of assignments are allowed. For example, when you enabled the Assigned To and Team fields when setting up the request queue, you will be prompted to “Search people or teams” instead of “Search people, roles, or teams.”
+There is an indication in the Assignments field about which types of assignments are allowed. For example, when you enabled the Assigned To and Team fields when setting up the request queue, you will be prompted to "Search people or teams" instead of "Search people, roles, or teams."
 
 For more information, see the following articles:
 
 * [Create and submit Adobe Workfront requests](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md) 
 * [Create a Request Queue](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md)
-
-[Watch a video demonstration of this feature.](https://vimeo.com/534936462/5bc0cd18f2)
 
 ## Improvements to creating requests and managing drafts
 
@@ -40,12 +38,10 @@ For more information, see the following articles:
 As we continue to incorporate your feedback about creating requests in the new Workfront experience, we made several improvements to the new requests workflow. These include:
 
 * Clearly indicate with a Show options icon that the fields for Request Types, Topic Groups, and Queue Topics are drop-down lists from which you can choose an option that was previously defined.
-* Clearly indicate with an “x” icon that a choice for Request Type, Topic Group, or Queue Topic can be removed after it's been selected.
-* Provide a Close button when creating a new request to leave the request without losing the draft. In addition to this change, the “Discard” button has been renamed to “Discard draft.”
+* Clearly indicate with an "x" icon that a choice for Request Type, Topic Group, or Queue Topic can be removed after it's been selected.
+* Provide a Close button when creating a new request to leave the request without losing the draft. In addition to this change, the "Discard" button has been renamed to "Discard draft."
 
 For information about creating new requests, see [Create and submit Adobe Workfront requests](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md).
-
-[Watch a video demonstration of this feature.](https://vimeo.com/534942833/015c804c90)
 
 This feature is now included in the [Collaborator Fundamentals for the new Workfront Experience](https://one.workfront.com/s/learningpath1/collaborator-fundamentals-for-the-new-workfront-experience-MCY5AMOQQTGFDVZB4ODS6TXCYE2A) learning path on Workfront One.
 
@@ -61,8 +57,6 @@ As we continue to listen to and incorporate your feedback, we have added several
 * Sorting the Submitted requests list by one of the columns is now preserved when you navigate away from the page. For more information, see [Locate submitted requests](../../../manage-work/requests/create-requests/locate-submitted-requests.md).
 * When creating a new request, the Submit and Cancel buttons are now located at the bottom of the New request form. For more information, see [Create and submit Workfront requests](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md).
 
-[Watch a video demonstration of this feature.](https://vimeo.com/529398888/a1f8b351d2)
-
 This feature is now included in the [Collaborator Fundamentals for the new Workfront Experience](https://one.workfront.com/s/learningpath1/collaborator-fundamentals-for-the-new-workfront-experience-MCY5AMOQQTGFDVZB4ODS6TXCYE2A) learning path on Workfront One.
 
 ## Open Summary Panel in the Submitted section of the Requests area
@@ -74,8 +68,6 @@ This feature is now included in the [Collaborator Fundamentals for the new Workf
 To make your experience consistent across all areas of Adobe Workfront, we have added the Open Summary icon to the Submitted section of the Requests area. Now, you can open the Summary panel for submitted issues and see more information about the issues, assign them, or add a document or a comment.
 
 For information about the submitted requests, see [Locate submitted requests](../../../manage-work/requests/create-requests/locate-submitted-requests.md).
-
-[Watch a video demonstration of this feature.](https://vimeo.com/525633302/3a24c51f28)
 
 This feature is now included in the [Collaborator Fundamentals for the new Workfront Experience](https://one.workfront.com/s/learningpath1/collaborator-fundamentals-for-the-new-workfront-experience-MCY5AMOQQTGFDVZB4ODS6TXCYE2A) learning path on Workfront One.
 
@@ -105,8 +97,6 @@ Ability to share a link to the request queue, topic group, or queue topic as you
 
 For information about submitting requests, see [Create and submit Workfront requests](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md).
 
-[Watch a video demonstration of this feature.](https://vimeo.com/500718803/3cac0e333d)
-
 This feature is now included in the [Collaborator Fundamentals for the new Workfront Experience](https://one.workfront.com/s/learningpath1/collaborator-fundamentals-for-the-new-workfront-experience-MCY5AMOQQTGFDVZB4ODS6TXCYE2A) learning path on Workfront One.
 
 ## Share a link to a request queue when submitting a request
@@ -120,7 +110,5 @@ We have now made it possible to share a link to a request queue, topic group, or
 Before you submit a new request, you can copy a link to the request queue, topic group, or queue topic of the request and share it with other users, or embed it in a dashboard.
 
 For information about sharing a link to a request queue when submitting a request, see [Share a link to a request queue](../../../manage-work/requests/create-requests/share-link-to-request-queue.md).
-
-[Watch a video demonstration of this feature.](https://vimeo.com/500718523/bc6600e610)
 
 This feature is now included in the [Collaborator Fundamentals for the new Workfront Experience](https://one.workfront.com/s/learningpath1/collaborator-fundamentals-for-the-new-workfront-experience-MCY5AMOQQTGFDVZB4ODS6TXCYE2A) learning path on Workfront One.

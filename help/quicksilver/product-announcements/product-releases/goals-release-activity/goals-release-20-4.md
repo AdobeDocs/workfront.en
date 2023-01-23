@@ -62,16 +62,8 @@ Based on the feedback we have received so far, we have made the following improv
 For information, see the following articles:
 
 * [Activate goals in Adobe Workfront Goals](../../../workfront-goals/goal-management/activate-goals.md) 
-* [Check in on goals in Adobe Workfront Goals](../../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md) 
+* [Update goal progress in Adobe Workfront Goals](../../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md) 
 * [Create goals in Adobe Workfront Goals](../../../workfront-goals/goal-management/create-goals.md)
-
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode"><iframe class="vimeo-player_0" src="assets/461495600?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe> </p>
--->
-
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="https://vimeo.com/461495600/87acace0fa">Watch a video demonstration of this feature.</a> </p>
--->
 
 >[!NOTE]
 >

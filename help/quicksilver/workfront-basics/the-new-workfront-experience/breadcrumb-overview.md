@@ -61,11 +61,13 @@ You must have the following access to perform the steps in this article:
 
 +++
 
+<!--drafted: this is no longer possible, since we removed Campaigns, but it might come back as part of Maestro: 
+
 ## Multi-object breadcrumbs
 
 >[!NOTE]
 >
->The information in this article is available only in the Preview environment when you participate in the [!UICONTROL Campaigns] beta program. The functionality described here might not be fully available yet. For more information about current available features and how to enroll, see [Campaigns beta](../../product-announcements/betas/campaign-object-beta.md).
+>The information in this article is available only in the Preview environment when you participate in the [!UICONTROL Campaigns] beta program. The functionality described here might not be fully available yet. For more information about current available features and how to enroll, see [Campaigns beta].
 
 Some objects can belong to multiple parent objects. For example, a project can belong to multiple campaigns. In this case, all the campaigns that the project belongs to display in the breadcrumb.
 
@@ -73,6 +75,8 @@ The multi-object listing in the breadcrumb (for example, the campaigns) displays
 
 
 ![Project with multiple campaigns in the breadcrumb](assets/project-with-multiple-campaigns-in-breadcrumb.png)
+
+-->
 
 ## Access a parent object from the breadcrumbs
 

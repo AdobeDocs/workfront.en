@@ -9,12 +9,6 @@ exl-id: 48371389-952c-4732-b519-9774cd4d1b93
 ---
 # Align goals by converting results and activities to goals
 
-<!--drafted for goal redesign: 
-
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> 
-
--->
-
 You can manually align two goals or you can convert the results and activities of an existing goal to another goal. The converted result or activity becomes the child goal of the original goal. 
 For information about manually aligning two goals, see [Align goals by connecting them in Adobe Workfront Goals](../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md).
 
@@ -94,7 +88,8 @@ You must have the following:
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Goals or higher</p> <p>Note:  <p>If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see:</p> 
+   <td> <p>Edit access to Goals or higher</p> <p><b>NOTE</b> 
+   <p>If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see:</p> 
      <ul> 
       <li> <p><a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a> </p> </li> 
       <li> <p><span href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md"><a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md" class="MCXref xref">Grant access to Adobe Workfront Goals</a></span> </p> </li> 
@@ -124,10 +119,9 @@ You must have the following before you can start:
 
 >[!IMPORTANT]
 >
->A goal cannot have more than a total of 50 activities, results, or aligned goals.
+>A goal can have up to 1000 progress indicators.
 
-<!--drafted for goal redesign: update at goal redesign PREVIEW: Add this sentence: A goal cannot have more than a total of 50 activities, results, <div class="preview">or aligned goals in the Production environment and more than 1000 activities, results, aligned goals, or projects in the Preview environment.</div> 
-At PRODUCTION: update the sentence to remove Production/ Preview references-->
+   <!--drafted for goal redesign: At PRODUCTION: update the sentence above to remove Production/ Preview references-->
 
 ## Considerations when converting results and activities into goals
 
@@ -141,12 +135,10 @@ Consider the following when converting results and activities to goals:
 
 ## Convert a result or activity to a goal
 
-<!--drafted for goal redesign: 
-
+<!--
 <span class="preview">Converting results and activities differs depending on what environment you use. </span>
 
 ### Convert a result or activity to a goal in the Production environment
--->
 
 1. Go to a goal that has a result or an activity that you want to convert to a goal.
 1. Click the name of the goal to open the **Goal Details** panel.
@@ -159,12 +151,7 @@ Consider the following when converting results and activities to goals:
 1. (Optional) Remove the name of the original activity or result owner from the **Goal Owner** field and replace it with another user, team, group, or your organization's name. By default, Workfront selects the owner of the result or the activity as the goal owner. 
 1. Click **Convert**. The activity or result displays as an aligned goal in the Goal Details panel of the original goal and the original activity or result is removed from the original goal and transferred to the second goal. By default, the new goal has the same name as the original converted result or activity. 
 1. (Optional) Click the name of the new goal to open the **Goal Details** panel and edit the name of the goal. For information about editing any information for an existing goal, see [Edit goals in Adobe Workfront Goals](../../workfront-goals/goal-management/edit-goals.md).
-
-<!--drafted for goal redesign:
-
-<div class="preview">
-
-### Convert a result or activity to a goal in the Preview environment
+-->
 
 1. Go to a goal that has a result or an activity that you want to convert to a goal.
 1. From the goal's page, click **Progress indicators** in the left panel. 
@@ -178,8 +165,7 @@ Consider the following when converting results and activities to goals:
     * **Description**: Add more information about the new goal. 
 1. Click **Save**
   
-    The result or activity is now converted to a child goal of the original goal. It is listed as a goal in the Progress Indicators list of the original goal. (insert shot here)
+    The result or activity is now converted to a child goal of the original goal. It is listed as a goal in the Progress indicators list of the original goal.
 
- 
-</div>
--->
+
+

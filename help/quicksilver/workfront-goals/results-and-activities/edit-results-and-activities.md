@@ -10,8 +10,6 @@ exl-id: 922a05f9-2995-4401-a6d2-e5a331270fd3
 ---
 # Edit results and activities in&nbsp;Adobe Workfront Goals
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> 
-
 After your Adobe Workfront administrator has granted you the correct access to Adobe Workfront Goals, you can create and edit goals, results, and activities.&nbsp;
 
 For information about creating goals, results and activities, see the following articles:
@@ -120,7 +118,7 @@ You must have the following:
 
 You must have the following before you can start:
 
-* A Layout Template that includes the Goals area in the Main&nbsp;Menu.
+* A Layout Template that includes the Goals area in the Main Menu.
 
 ## Considerations when editing results and activities
 
@@ -146,10 +144,11 @@ According to Vazgen, access levels will add more considerations.)
 
 * You can delete results and activities from goals when they are no longer relevant to the goal progress. Deleted results and activities cannot be recovered. For information about deleting results and activities, see [Remove results, activities, and projects from goals in Adobe Workfront Goals](../../workfront-goals/results-and-activities/remove-results-activities-from-goals.md).
 * You can edit results and activities associated with goals from any time period, including in the past. 
-* Editing results and activities updates their settings and does not update their progress. You must update the progress of results and activities. For information about updating progress on goals, results, and activities, see [Update goals by using Check-in in Adobe Workfront Goals](../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md). <!--drafted: fix the title of the linked file above to take "check in" out of there-->
+* Editing results and activities updates their settings and does not update their progress. You must update the progress of results and activities. For information about updating progress on goals, results, and activities, see [Update goal progress in Adobe Workfront Goals](../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md). <!--drafted: fix the title of the linked file above to take "check in" out of there-->
 
 ## Edit results
 
+<!--
 Editing results differs depending on which environment you use.
 
 ### Edit results in the Production environment
@@ -171,10 +170,8 @@ Editing results differs depending on which environment you use.
    | Target |The desired value when the result is completed. |
 
 1. Click **Save**.
+-->
 
-<div class="preview">
-
-### Edit results in the Preview environment
 
 1. Click the **Main Menu** ![](assets/main-menu-icon.png), then **Goals**. 
 1. From the Goal List, click the name of a goal to open the goal page.
@@ -186,19 +183,17 @@ Editing results differs depending on which environment you use.
    ![](assets/edit-result-box-unshimmed.png)
 
 1. Edit the following information:
-    1. **Result name**: The name of the result. Use a descriptive name that illustrates what result you need to obtain in order to complete the goal. 
-    1. **Result owner**: The owner of the result. The owner must be an active Workfront user. 
-    1. **Value type**: How you measure the progress of the result.
-    1. **Initial Value**: The original value of the result.
-    1. **Target Value**: The desired value when the result is completed. 
+    * **Result name**: The name of the result. Use a descriptive name that illustrates what result you need to obtain in order to complete the goal. 
+    * **Result owner**: The owner of the result. The owner must be an active Workfront user. 
+    * **Value type**: How you measure the progress of the result.
+    * **Initial Value**: The original value of the result.
+    * **Target Value**: The desired value when the result is completed. 
 For more information about result fields, see [Add results to goals](../results-and-activities/add-results-to-goals.md).  
 1. Click **Save**.
 
-</div>
-
-
 ## Edit activities
 
+<!--
 Editing activities differs depending on which environment you use.
 
 ### Edit activities in the Production environment
@@ -221,11 +216,7 @@ Editing activities differs depending on which environment you use.
    | Owner |The owner of activity.  |
 
 1. Click **Save**.
-
-
-<div class="preview">
-
-### Edit activities in the Preview environment
+-->
 
 1. Click the **Main Menu** ![](assets/main-menu-icon.png), then **Goals**. 
 1. From the Goal List, click the name of a goal to open the goal page.
@@ -237,9 +228,9 @@ Editing activities differs depending on which environment you use.
    ![](assets/edit-activity-box-unshimmed.png)
 
 1. Edit the following information:
-    1. **Activity name**: The name of the activity. Use a descriptive name that illustrates what activity you should perform to indicate that the goal completes. 
-    1. **Activity owner:** The owner of the activity. The owner must be an active Workfront user.  
+   * **Activity name**: The name of the activity. Use a descriptive name that illustrates what activity you should perform to indicate that the goal completes. 
+    * **Activity owner:** The owner of the activity. The owner must be an active Workfront user.  
 For more information about activity fields, see [Add activities to goals](../results-and-activities/add-activities-to-goals.md). 
 1. Click **Save**.
 
-</div>
+

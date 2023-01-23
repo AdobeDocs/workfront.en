@@ -846,3 +846,69 @@ The plan header displays the following information:
   </tr> 
  </tbody> 
 </table>
+
+
+## Goal header overview 
+
+![](assets/goal-header.png)
+
+You can create strategic goals when your company has access to Workfront Goals. For more information about [!DNL Workfront Goals], see [Get started with [!DNL Adobe Workfront Goals]](../../workfront-goals/goal-management/getting-started-with-wf-goals.md). 
+
+The goal header displays the following information:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <thead> 
+  <tr> 
+   <th>Header Information</th> 
+   <th>Notes</th> 
+  </tr> 
+ </thead> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Object icon </td> 
+   <td> <p>The purple [!UICONTROL Goal] icon <img src="assets/goal-icon.png" >displays to the left of the goal name.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Name of the goal</td> 
+   <td>You can edit the goal name in the header.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Name of the object type</td> 
+   <td> <p>The text "[!UICONTROL GOAL]" displays above the goal name in the header.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">The actions area of the goal</td> 
+   <td> <p>Next to the name of the goal, the actions area displays.</p> <p> <img src="assets/nwe-general-actions-area.png"> </p>
+   You can perform the following actions from the actions area of the goal:
+   <ul><li>[!UICONTROL Edit]</li>
+   <li>[!UICONTROL Copy goal]</li>
+   <li>[!UICONTROL Delete goal]</li>
+   <li>[!UICONTROL Share]</li>
+   <li>[!UICONTROL Activate] or [!UICONTROL Deactivate]</li>
+   <li>[!UICONTROL Close] or [!UICONTROL Reopen]</li>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Progress]</td> 
+   <td>The percentage of the progress goal, indicating how much of the goal has been completed. You cannot update the goal progress. Workfront calculates it based on the progress of each progress indicator on the goal.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Owner]</td> 
+   <td>This is the owner of the goal. You can manually update the goal owner. Users, teams, grooups, or your organization can be goal owners.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Period]</td> 
+   <td>The time frame during which the goal must be completed. </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Condition]</td> 
+   <td>The goal condition indicates whether the goal is on target to complete on time, or it's lagging behind </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Status]</td> 
+   <td>Indicates whether the goal is active, new, or closed. You cannot manually update the goal Status. For more information, see <a href="../../workfront-goals/goal-management/goal-status-overview.md" class="MCXref xref">Goal Status overview in [!DNL Adobe Workfront Goals]</a></td> 
+  </tr> 
+ </tbody> 
+</table>

@@ -14,9 +14,9 @@ exl-id: 4d868625-e976-47b4-9e80-f1eca84a2768
 
 >[!IMPORTANT]
 >
->The procedure described on this page applies only to organizations that are not yet onboarded to the Adobe Admin Console.
+>The procedure described on this page applies only to organizations that are not yet onboarded to the [!UICONTROL Adobe Admin Console].
 >
->If your organization has been onboarded to the Adobe Admin Console, see [Platform-based administration differences (Adobe Workfront/Adobe Business Platform)](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+>If your organization has been onboarded to the [!UICONTROL Adobe Admin Console], see [Platform-based administration differences ([!DNL Adobe Workfront]/[!DNL Adobe Business Platform])](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
 ## Problem
 
@@ -26,7 +26,7 @@ If the problem persists, contact the administrator of this site and provide the 
 
 ## Access requirements
 
-You must have the following access to perform the steps in this article: 
+You must have the following access to perform the steps in this article:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -37,22 +37,22 @@ You must have the following access to perform the steps in this article:
    <td>Any</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license</td> 
+   <td role="rowheader">Adobe [!DNL Workfront] license</td> 
    <td>Plan</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
-   <td> <p>You must be a Workfront administrator. For more information, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>.</p> <p><b>NOTE</b>: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>You must be a [!DNL Workfront] administrator. For more information, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>.</p> <p><b>NOTE</b>: If you still don't have access, ask your [!DNL Workfront] administrator if they set additional restrictions in your access level. For information on how a [!DNL Workfront] administrator can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Solution
 
-1. In your ADFS manager server, go to **Trust Relationships** > **Relying Party Trusts** > `<your party trust>` properties.
+1. In your ADFS manager server, go to **[!UICONTROL Trust Relationships]** > **[!UICONTROL Relying Party Trusts]** > `<your party trust>` properties.
 
-1. Under the **Endpoints** tab, click **Add**.
+1. Under the **[!UICONTROL Endpoints]** tab, click **[!UICONTROL Add]**.
 
-1. **Endpoint Type** = SAML Logout, Binding = POST, URL = https://myadfsserver.domain.net/adfs/ls/?wa=wsignout1.0
+1. **[!UICONTROL Endpoint Type]** = SAML Logout, Binding = POST, URL = https://myadfsserver.domain.net/adfs/ls/?wa=wsignout1.0
 
    You can set a response URL if you want it to redirect to another page. But we recommend the ADFS site because it warns that you are logged off, but you should still close your browser.

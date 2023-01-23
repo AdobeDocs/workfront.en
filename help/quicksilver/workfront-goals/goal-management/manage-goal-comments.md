@@ -9,8 +9,6 @@ exl-id: 6cf2d2d2-5ba5-40f2-a803-01359c338541
 ---
 # Manage goal comments in Adobe Workfront Goals
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> 
-
 You can add comments to all goals you can view in Adobe Workfront Goals.
 
 <!--drafted for P&P:
@@ -114,6 +112,7 @@ You must have the following before you can start:
 
 ## Locate the Comments area
 
+<!--
 Locating goal comments differs depending on what environment you use. 
 
 ### Locate goal comments in the Production environment
@@ -130,16 +129,9 @@ Although the process for adding comments to goals is similar in these areas, the
 >
 >You cannot add comments to results and activities.
 
-<div class="preview">
+-->
 
-### Locate goal comments in the Preview environment
-
-You can comment on a goal from the goal page when accessing goals in the Preview environment. 
-
-For information, see the section [Add comments to goals in the Preview environment](#add-comments-to-goals-in-the-preview-environment) in this article.
-
-</div>
-
+<!--
 ## Add comments to goals in the Goal Details panel
 
 Adding comments to goals differs depending on what environment you use.
@@ -153,8 +145,8 @@ You can edit or delete a comment that you entered in this area, or you can like 
 
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) > **Goals** in the upper-right corner.
 
-   <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-management/assets/three-line-main-menu-icon.png) in the upper-left corner)
-   -->
+   (Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-management/assets/three-line-main-menu-icon.png) in the upper-left corner))
+   
 
    This opens the Workfront Goals area. 
 
@@ -182,16 +174,14 @@ You can edit or delete a comment that you entered in this area, or you can like 
 
    <!--
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this functionality might change)</p>
-   -->
+   
 
    ![](assets/list-of-likes-users-350x121.png)
 
 1. (Conditional) Click **Back to Updates** to return to the Updates tab of the Goal Details panel, or click the **X icon** in the upper-right corner to close the right panel.
 
+-->
 
-<div class="preview">
-
-### Add comments to goals in the Preview environment
 
 You can add comments to goals in the Updates section of a goal's page.
 
@@ -206,19 +196,20 @@ This opens the goal list.
    
    ![](assets/comment-box-empty-unshimmed.png)
 
-1. (Optional) In the **Notify** area, start typing the name of a user or a team that you would like to include in this comment, then select it when it displays in the list. 
+1. (Optional) In the **Notify** area, start typing the name or the email of a user, or a team that you would like to include in this comment, then select it when it displays in the list. 
 1. Click **Submit**. 
 1. (Optional) Click **Reply** to reply to an existing comment, then follow the steps 5-7 above. <!--insure this stays accurate-->
-1. (Optional) Click the **System Activity** tab to view updates logged by the system. When a goal is updated, Workfront generates a note about that update that and displays it in the System Activity tab. <!--ensure the casing on the tab has not changed-->
+1. (Optional) Click the **Like** icon![](assets/like-icon.png) to like a comment that someone else added. The icon updates with the number of likes.
+1. (Optional) To add rich text formatting to your update, use any attributes on the Rich Text toolbar as you type. For more information, see [Update work](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). 
+1. (Optional) Click the **System Activity** tab to view updates logged by the system. When a goal is updated, Workfront generates a note about that update that and displays it in the System Activity tab. Workfront also records a system update when a result, activity, or project is added to the goal or when it is updated. <!--ensure the casing on the tab has not changed-->
 
-</div>
-
+<!--
 ## Add comments to goals in the Check-in section
 
 <div class="preview">
 
 The Check-in section has been removed from the Preview environment. You can update goals by accessing the goal page. For information, see 
-[Update goals in the Goal Details panel in Adobe Workfront Goals](../goal-management/update-goals-in-goal-details-panel.md). 
+[Update goals in the Goal details section in Adobe Workfront Goals](../goal-management/update-goals-in-goal-details-panel.md). 
 
 
 </div>
@@ -227,14 +218,13 @@ The Check-in section has been removed from the Preview environment. You can upda
 >
 >You must have access to Edit Goals in your access level to view the Check-in section.
 
-You can add comments to goals in the Check-in section of Workfront Goals, as part of updating your list of goals. For information about updating goals, see [Update goals by using Check-in in Adobe Workfront Goals](../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md).
+You can add comments to goals in the Check-in section of Workfront Goals, as part of updating your list of goals. For information about updating goals, see [Update goal progress in Adobe Workfront Goals](../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md).
 
 You can also like goal comments that other users have added to mark your approval of them in the Check-in section.
 
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) > **Goals** in the upper-right corner.
 
-   <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-management/assets/three-line-main-menu-icon.png) in the upper-left corner)
-   -->
+   ( Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-management/assets/three-line-main-menu-icon.png) in the upper-left corner))
 
    This opens the Workfront Goals area. 
 
@@ -264,7 +254,7 @@ You can also like goal comments that other users have added to mark your approva
 <div class="preview">
 
 The Pulse section has been removed from the Preview environment. You can update goals by accessing the goal page. For information, see 
-[Update goals in the Goal Details panel in Adobe Workfront Goals](../goal-management/update-goals-in-goal-details-panel.md). 
+[Update goals in the Goal details section in Adobe Workfront Goals](../goal-management/update-goals-in-goal-details-panel.md). 
 
 </div>
 
@@ -274,8 +264,7 @@ You can also like goal comments that other users have added to mark your approva
 
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) > **Goals** in the upper-right corner.
 
-   <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-management/assets/three-line-main-menu-icon.png) in the upper-left corner)
-   -->
+   (Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-management/assets/three-line-main-menu-icon.png) in the upper-left corner))
 
    This opens the Workfront Goals area. 
 
@@ -298,3 +287,5 @@ You can also like goal comments that other users have added to mark your approva
    ![](assets/list-of-likes-users-350x121.png)
 
 1. (Conditional) Click **Back to Updates** to return to the Updates tab of the Goal Details panel, or click the **X icon** in the upper-right corner to close the right panel.
+
+-->

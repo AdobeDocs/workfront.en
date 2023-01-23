@@ -18,11 +18,9 @@ For a list of all changes available for all areas of Workfront at this point in 
 
 ## New workflow for aligning goals
 
-We have improved the way aligning a goal works. Now, you can see a new “Align to another goal” link in the Goal Details panel where you can align your goal to a parent goal. Prior to this improvement, the option to align a goal was not readily visible. Instead, it was one of the options listed in the gear icon of the “Align to” section of Goal Details.
+We have improved the way aligning a goal works. Now, you can see a new "Align to another goal" link in the Goal Details panel where you can align your goal to a parent goal. Prior to this improvement, the option to align a goal was not readily visible. Instead, it was one of the options listed in the gear icon of the "Align to" section of Goal Details.
 
 For information about aligning goals, see [Align goals by connecting them in Adobe Workfront Goals](../../../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md).
-
-[Watch a video demonstration of this feature.](https://vimeo.com/492156053/19a48b8339)
 
 ## Updated the color for the Draft status of goals
 

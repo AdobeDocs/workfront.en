@@ -15,7 +15,7 @@ exl-id: c6495ce5-fe70-499b-87f5-6a1f2e93a3f4
 
 Resource budgeting and scheduling are part of project planning.
 
-Ensure you do the following as you finalize planning for your projects in&nbsp;Adobe Workfront:
+Ensure you do the following as you finalize planning for your projects in Adobe Workfront:
 
 * Budget your resources (users and job roles) for your projects. When you budget resources you estimate, at a high level, when and for how long those resources will be used on projects.
 

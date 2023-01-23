@@ -77,8 +77,9 @@ To run a report with the access rights of another user:
 
 >[!IMPORTANT]
 >
->We do not recommend using a different user other than the logged-in user for the **Run this report with the Access Rights of:** field if the report contains a filter that uses a wildcard referring to the logged-in user. This can create confusion for the users looking at the report, as the report displays according to what is defined in the filter. This means that the report displays differently for each user, according to the filter, and disregards the value specified in the **Run this report with the Access Rights of:** field.  
->For more information about wildcards for user fields, see the "User-based variables" section in the [Wildcard filter variables](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
+>Entering a user other than the logged-in user for the **Run this report with the Access Rights of:** field impacts the information displayed in the report if the report contains a filter that uses a wildcard referring to the logged-in user. The report displays according to the value specified in the **Run this report with the Access Rights of:** field rather than what is defined in the wildcard filter.  
+>
+>For more information about wildcards for user fields, see the "User-based variables" section in [Wildcard filter variables](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
 
 ## Deliver a report with the access rights of another user
 
@@ -112,8 +113,3 @@ To deliver a report with the access rights of another user:
    Or  
    Click **Make Repeating Delivery** to schedule a recurring delivery for the report.  
    For more information about report deliveries, see the article [Report delivery overview](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md).
-
->[!IMPORTANT]
->
->We do not recommend using a different user other than the user who schedules the delivery for the **Deliver this report with the Access Rights of:** field, if the report contains a filter that uses a wildcard referring to the logged in user. This can create confusion for the users receiving the report, as the delivered report displays as it would for the user who is scheduling the report for delivery. In this case, the delivered report disregards the value specified in the **Deliver this report with the Access Rights of:** field.  
->For more information about wildcards for user fields, see the "User-Based Variables" section in the [Wildcard filter variables](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).

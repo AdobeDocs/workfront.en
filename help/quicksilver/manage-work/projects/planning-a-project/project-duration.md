@@ -10,7 +10,7 @@ exl-id: b558eaad-669b-4079-b61a-07df227edfa2
 ---
 # Overview of project Duration
 
-Adobe Workfront calculates the Duration of a project by taking into account the Start Date of the earliest task and the Completion Date of the latest task and counts the number of days between the two dates.&nbsp;
+Adobe Workfront calculates the Duration of a project by taking into account the Start Date of the earliest task and the Completion Date of the latest task and counts the number of days between the two dates. 
 
 ## Project Duration
 
@@ -28,7 +28,7 @@ The duration of the project counts the number of days between the two task dates
 
 ## Types of project Duration
 
-There are two types of Project Duration and the formulas by which&nbsp;Workfront calculates them:
+There are two types of Project Duration and the formulas by which Workfront calculates them:
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Check these formulas? Should they be divided by the hours per day?!) </p>
@@ -54,6 +54,6 @@ You can locate the Project Planned and Actual Durations in the following areas o
 
   For more information about the Overview sub-tab of a project, see the article [Manage information in the project Overview area](../../../manage-work/projects/manage-projects/understand-project-overview-area.md).
 
-* In a Project report, by including the Duration or the Actual&nbsp;Duration fields in the report.
+* In a Project report, by including the Duration or the Actual Duration fields in the report.
 
   For more information about creating reports, see the article [Create a custom report](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).

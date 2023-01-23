@@ -22,4 +22,3 @@ This section contains the following articles:
 * [[!DNL Adobe Workfront] for Microsoft Teams](../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/use-workfront-with-ms-teams.md)
 * [[!DNL Adobe Workfront] for [!DNL Salesforce]](../workfront-integrations-and-apps/using-workfront-with-salesforce/workfront-for-salesforce.md)
 * [[!DNL Adobe Workfront] for Slack](../workfront-integrations-and-apps/using-workfront-with-slack/use-workfront-for-slack.md)
-* [Zoom integration](../workfront-integrations-and-apps/zoom-integration-with-wf/zoom-integration.md)

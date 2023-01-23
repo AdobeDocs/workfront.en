@@ -7,12 +7,7 @@ author: Alina
 feature: Workfront Goals
 exl-id: e9df0d98-05a1-4977-b7f1-426b8f5b3eae
 ---
-# Update goals in the Goal Details panel in Adobe Workfront Goals
-
-<!--drafted for goal redesign: 
-
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> 
--->
+# Update goals in the Goal details section in Adobe Workfront Goals
 
 <!--drafted for the goal redesign:
 - change the title for Production to Update goals in the Goal details section in Adobe Workfront Goals. 
@@ -128,22 +123,20 @@ You must have the following before you can start:
 
 * A Layout Template that includes the Goals area in the Main Menu.
 
-## Update goals in the Goal Details panel
+## Update goals in the Goal details section
 
 You can access an individual goal from a list of goals. 
 
-<!--drafted for goal redesign: 
+<!--
 
 Updating goals in the Goal Details panel differs depending on where you access the goal from. 
 
 ### Update goals in the Goal Details panel in the Production environment
 
--->
-
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) > **Goals** in the upper-right corner.
 
-   <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-management/assets/three-line-main-menu-icon.png) in the upper-left corner)
-   -->
+   (!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-management/assets/three-line-main-menu-icon.png) in the upper-left corner)
+   --)
 
    This opens the Goals area in Workfront. 
 
@@ -160,7 +153,7 @@ Updating goals in the Goal Details panel differs depending on where you access t
    >Add this to the TIP above with goal redesign: 
    >
    >The Check-in and Pulse sections have been removed from the Preview environment.
-   >-->
+   >
 
 1. On the Summary tab, click the **More icon** ![](assets/more-icon.png), then click any of the following options:
 
@@ -192,7 +185,7 @@ Updating goals in the Goal Details panel differs depending on where you access t
    
    1. (Conditional) If you clicked any of the options between steps a-i above except Delete or Reopen, click **Save**.    
    
-      <!--ensure this is accurate)-->
+      (!--ensure this is accurate)--)
 
 1. Click **Align to another goal** in the upper-right of the Summary tab, then specify the name of a goal in the **Align to** **another goal** field that you want to align the current goal to. The current goal becomes the child of the goal you align it to. For information about child and parent goals, see [Align goals by connecting them in Adobe Workfront Goals](../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md). 
 1. Click **Add results**. Results drive the progress of your goal. For information about adding results, see [Add results to goals in Adobe Workfront Goals](../../workfront-goals/results-and-activities/add-results-to-goals.md).
@@ -215,11 +208,9 @@ Updating goals in the Goal Details panel differs depending on where you access t
 
    ![](assets/update-details-in-updates-tab-expanded-highlighted-350x139.png)
 
-<!--drafted for goal redesign: 
+-->
 
-<div class="preview">
 
-### Update goals in the Goal details section in the Preview environment
 
 1. Click the name of a goal in the Goal List, then click the name of a goal.
 
@@ -227,13 +218,15 @@ Updating goals in the Goal Details panel differs depending on where you access t
 
    ![](assets/goal-page-unshimmed.png)
 
-1. Click the **Edit icon** ![](assets/edit-icon.png) in the upper-right corner, then click **Edit all** or Overview
-Or
-Start typing information in one of the editable fields in the Goal details section. The section becomes editable. 
+1. Click the **Edit icon** ![](assets/edit-icon.png) in the upper-right corner, then click **Edit all** or **Overview**
 
-   >[!IMPORTANT]
+   Or
+
+   Start typing information in one of the editable fields in the Goal details section. The section becomes editable. 
+
+      >[!IMPORTANT]
       >
-      >* Not all fields that display in the Goal details section can be edited. Workfront calculates some of the fields and they are read-only. 
+      >Not all fields that display in the Goal details section can be edited. Workfront calculates some of the fields and they are read-only. 
 
 1. Update or review the following fields:  
 
@@ -253,15 +246,11 @@ Start typing information in one of the editable fields in the Goal details secti
       >    * Parent goal progress
       >    * Parent goal owner. 
       >      
-      >    You must update this information on the parent goal itself. 
+      >You must update this information on the parent goal itself. 
 
    * **Period**: Click to update the time period for the goal  
       Or  
-      Select **Enable custom dates** to specify dates for the goal's **Start **and** End dates**.
+      Select **Enable custom dates** to specify dates for the goal's **Start** and **End dates**.
    * **Closing notes**: This field is visible only for goals with a status of Closed. Closed goals cannot be edited. Reopening a closed goal permantently deletes the closing notes. 
 
-
-</div>
-
--->
 

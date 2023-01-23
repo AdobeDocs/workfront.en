@@ -20,5 +20,4 @@ The Workfront Extension is an Adobe Extension designed to allow you to save and 
 
 This section contains the following articles:
 
-* [Install the Workfront Extension for Illustrator and InDesign](../../documents/workfront-for-adobe-creative-cloud/installl-wf-adobe-cc.md) 
 * [Use the Workfront Extension for Illustrator and InDesign](../../documents/workfront-for-adobe-creative-cloud/use-wf-adobe-cc.md)

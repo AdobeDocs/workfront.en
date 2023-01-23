@@ -9,19 +9,17 @@ exl-id: ae2a89e7-8049-4ee6-9b28-ce247d3f2a6f
 ---
 # Designate Resource Managers for a project or template
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span>
-
 <!--
 <p This article might have to be deleted when the Resource Manager field/ requirement will be forever removed from the system; right now it's still a requirement for Scheduler - January 2023/p>
 -->
 
 <!-- remove Prod and Prev references with Prod release - Jan 2023-->
 
-You can designate Resource Managers for a project to indicate who is responsible for managing resources on the project. This is an informational field and it is not connected to any resource management tools, <span class="preview">in the Preview environment</span>. 
+You can designate Resource Managers for a project to indicate who is responsible for managing resources on the project. This is an informational field and it is not connected to any resource management tools. 
 
+<!-- drafted for res scheduling deprecation blurb for preview release
 Designating Resource Managers for a project is a prerequisite for using the Scheduling tools in Adobe Workfront, in the Production environment.
-
-<!-- drafted for res scheduling deprecation blurb for preview release-->  
+  
 >[!CAUTION]  
 >  
 >  
@@ -31,9 +29,44 @@ Designating Resource Managers for a project is a prerequisite for using the Sche
 >* <span class="preview"> For information about scheduling resources using the Workload Balancer, see the section [The Workload Balancer](../../../resource-mgmt/workload-balancer/workload-balancer.md).</span>  
 >  
 >* <span class="preview"> For more information about the deprecation and removal of the Scheduling tools, see [Deprecation of Resource Scheduling tools in Adobe Workfront](../../../resource-mgmt/resource-mgmt-overview/deprecate-resource-scheduling.md).</span> 
-
+-->
 
 ## Access requirements
+
+<!--drafted for P&P:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Current license: Standard </p> 
+   Or
+   <p>Legacy license: Plan </p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations*</td> 
+   <td> <p>Edit access to Projects and Templates</p> <p><b>NOTE</b> 
+   
+   If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>Manage permissions on the project or template</p> 
+   
+   <p><b>NOTE</b>
+   
+   Users who are added as Resource Managers to a project or a template immediately gain Manage permissions on the project or the template</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+-->
 
 You must have the following access to perform the steps in this article:
 
@@ -76,6 +109,7 @@ You must have the following access to perform the steps in this article:
 
 * You can designate up to 30 users as Resource Managers for an individual project or template.
 
+<!--
 * In the Production environment,designating Resource Managers on projects is a prerequisite to allowing users to schedule resources for work on the project when using the Scheduling tools.
 
   For information about resource scheduling, see [Resource Scheduling](../../../resource-mgmt/resource-scheduling/resource-scheduling-overview.md). 
@@ -86,7 +120,7 @@ You must have the following access to perform the steps in this article:
 
   For information about the Workload Balancer, see [Overview of the Workload Balancer](../../../resource-mgmt/workload-balancer/overview-workload-balancer.md). 
 
-  <!--drafted for scheduling deprecation: remove the bullet above at the production release for sched. deprecation-->
+ -->
 
 * You cannot designate teams or groups as resource managers. You can only designate users as resource managers.
 

@@ -18,27 +18,27 @@ When an auto-provisioned user tries to log in for the first time, they receive t
 
 The system is not assigning the new user an access level.
 
-By default, auto-provisioning uses the Request license type. When no access levels with a Request license exists, the system cannot assign the user an access level. 
+By default, auto-provisioning uses the Request license type. When no access levels with a Request license exists, the system cannot assign the user an access level.
 
 ## Access requirements
 
-You must have the following access to perform the steps in this article: 
+You must have the following access to perform the steps in this article:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
    <td>Any</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] license</td> 
    <td>Plan</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
-   <td> <p>You must be a Workfront administrator. For more information, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>.</p> <p><b>NOTE</b>: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>You must be a [!DNL Workfront] administrator. For more information, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>.</p> <p><b>NOTE</b>: If you still don't have access, ask your [!DNL Workfront] administrator if they set additional restrictions in your access level. For information on how a [!DNL Workfront] administrator can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -47,11 +47,11 @@ You must have the following access to perform the steps in this article:
 
 Create a basic access level with a Request license:
 
-1. Go to **Setup** > **Access Levels**.
+1. Go to **[!UICONTROL Setup]** > **[!UICONTROL Access Levels]**.
 
-1. Click **New Access Level**.
-1. Enter a **Name**.
-1. In the **License Type** drop-down menu, select Request.
-1. Click **Save Changes**.
+1. Click **[!UICONTROL New Access Level]**.
+1. Enter a **[!UICONTROL Name]**.
+1. In the **[!UICONTROL License Type]** drop-down menu, select Request.
+1. Click **[!UICONTROL Save Changes]**.
 
 After you create an access level with a Request license, have the user log in with their SSO credentials.

@@ -118,19 +118,15 @@ Do the following:
 
   Activities can either be basic activities created within the goal itself, or activities can be linked Workfront projects. 
 
-* Check in periodically on your goals. This is a time where you report back on the progress of a goal.
-
-For information about activating, aligning, and checking in on goals, see the following articles:
-
-We recommend the following:
-
 * Establish a cadence for how frequently you will review and set quarterly or incremental goals in the future. We recommend that you set goals for each planning period but not to map them out too far in advance, so you can remain nimble and responsive to shifts in the business.
 
-For information about activating, adding activities, and checking in on your goals see the following articles:
+* Update your goals periodically. This is a time where you report back on the progress of a goal.
 
-* [Activate goals in Adobe Workfront Goals](../../workfront-goals/goal-management/activate-goals.md) 
-* [Add activities to goals in Adobe Workfront Goals](../../workfront-goals/results-and-activities/add-activities-to-goals.md) 
-* [CUpdate goals by using Check-in in Adobe Workfront Goals](../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md)
+  For information about activating, adding activities, and updating goals,  see the following articles:
+
+    * [Activate goals in Adobe Workfront Goals](../../workfront-goals/goal-management/activate-goals.md) 
+    * [Add activities to goals in Adobe Workfront Goals](../../workfront-goals/results-and-activities/add-activities-to-goals.md) 
+    * [Update goal progress in Adobe Workfront Goals](../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md)
 
 ## Guidelines for setting up Workfront Goals
 
@@ -157,12 +153,9 @@ Workfront Goals uses the following main objects:
 |---|---|
 | Goal |The overall outcome you wish to achieve. You can create multiple goals for a defined period of time. Each goal has an owner, typically an individual or team (although you can also assign a goal to a group.) You can align goals to one another, to show how the progress on several goals (children goals) influences the progress of another (parent goal). |
 | Result |A metric indicator of goal success. Each goal can have one or more results and their progress indicate the progress of the goal. |
-| Activity |A primary action that needs to take place to gain a result. You can add one or more activities to a goal in order to indicate what work has been planned to achieve that goal. Activities are also important, as this is how you align Workfront projects to goals.|
+| Activity |A primary action that needs to take place to gain a result. You can add one or more activities to a goal in order to indicate what work has been planned to achieve that goal.|
 
-<!--drafted for goal redesign:
-Take this sentence out of the last row (Activities are also important, as this is how you align Workfront projects to goals.) and do the following immediately after the table: 
-
-In addition to results and activities, you can also connect projects with goals to show how the progress of projects can drive the progress of the goal.-->
+In addition to results and activities, you can also connect projects with goals to show how the progress of projects can drive the progress of the goal.
 
 <!--
 (edit the above bullet when more objects will come)

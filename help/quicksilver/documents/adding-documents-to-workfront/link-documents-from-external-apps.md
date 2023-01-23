@@ -248,8 +248,6 @@ Users without Workfront access can see the document in the external application 
 
    ![doc_with_google_drive_link_highlight__1_.png](assets/doc-with-google-drive-link-highlight--1--350x66.png)
 
-   You can also send documents from Workfront to Workfront Library. For information, see in [Send documents from Workfront to Workfront Library](../../workfront-library/content-management/send-documents-from-wf-to-library.md).
-
 ## Link folders
 
 When you link a folder between Workfront and an external cloud&nbsp;provider, the folder and all of its contents are linked. If users without Workfront access add, remove, and modify files from the external&nbsp;document application, their changes are synchronized to Workfront. The following sections describe how to link&nbsp;folders and subfolders:
@@ -353,4 +351,4 @@ If you want the name to match in Workfront and in the external application, you 
 
 >[!IMPORTANT]
 >
->Do not rename a document in Workfront that is linked&nbsp;to Dropbox; doing so renders the file in Workfront inaccessible. Instead, rename the file in Dropbox, then re-synchronize the file, as described in [Link documents from external applications](#synchronizing-changes-made-on-a-linked-document).
+>Do not rename a document in Workfront that is linked to Dropbox; doing so renders the file in Workfront inaccessible. Instead, rename the file in Dropbox, then re-synchronize the file, as described in [Link documents from external applications](#synchronizing-changes-made-on-a-linked-document).
