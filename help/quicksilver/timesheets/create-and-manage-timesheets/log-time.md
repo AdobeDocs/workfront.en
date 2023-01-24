@@ -9,6 +9,8 @@ exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
 ---
 # Log time
 
+<!-- some areas are "drafted for acccessibility" in this article - look for this phrase in the document and undraft them for accessibility release; this is going to preview and prod at the same time, so no yellow highlight-->
+
 You can log time for work items in Adobe Workfront to indicate the number of hours you spend working on them. You can also log time that is not related to work, like vacation, sick time, or time you spend in meetings. The time you log displays in your timesheet.
 
 For more information about the type of hours you can log in Workfront, see [Manage hour types](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/hour-types.md).
@@ -141,12 +143,36 @@ You can log general hours or project-specific hours on a timesheet.
    Or 
    Click **Cancel** to stop the adding of the selected items, then **Cancel** to close the list of items. 
 
+   Tasks and issues are listed under the name of the project. 
+
    >[!NOTE]
    >
    >The items that you manually add to the timesheet are pinned and will stay on the current and future timesheets until you manually unpin them to remove them. For information about unpinning items to remove them from the timesheet, continue with Step 10. 
 
    <!--(ensure this stays accurate)-->
+
+1. (Optional) Click the **Collapse** ![](assets/collapse-icon.png) or **Expand** ![](assets/expand-icon.png) icons next to the project name  to either display or hide the list of tasks and issues for the project.   
+
+<!--drafted for accessibility: 
+   >[!TIP]
+   >
+   >   When using a standard QWERTY keyboard, and after clicking the name of a project in the timesheet, press the following set of keys to collapse or expand the project:
+   >   * To expand the project and display its work items:
+   >     * Shift + Alt + Up arrow for Windows computers
+   >     * Shift + Option + Up arrow for Mac computers
+   >   * To collapse the project and hide its work items:
+   >     * Shift + Alt + Down arrow  for Windows computers
+   >     * Shift + Option + Down arrow for Mac computers.
+   -->
    
+1. (Optional) To manually pin an item that displays on the timesheet automatically, hover over the name of the item, then click the **pin** icon ![](assets/empty-pin-icon.png).
+
+   <!--drafted for accessibility: 
+   >[!TIP]
+   >
+   >   When using a standard QWERTY keyboard after clicking an item in the timesheet, press the following set of keys to pin an item:
+   >   * Option + P for both Windows and Mac computers. 
+   -->
 1. (Optional) Click the search icon ![](assets/search-icon.png) and start typing a keyword to find a project, task, or an issue on the timesheet. 
 
 1. (Optional) You can remove an item (project, task, or issue) from the timesheet if you manually added the item (as described in Steps 3-6), and if you have not yet logged time against it by unpinning it. <!--ensure this stays accurate-->
@@ -156,7 +182,14 @@ You can log general hours or project-specific hours on a timesheet.
    To remove an item from the timesheet that was manually added:
 
    1. Ensure that no time is logged against the item.
-   1. Click the pin icon ![Pin an item](assets/pin-icon.png) next to the item to unpin the item from the timesheet.
+   1. Click the **unpin** icon ![Pin an item](assets/pin-icon.png) next to the item to unpin the item from the timesheet.
+
+   <!--drafted for accessibility: 
+   >[!TIP]
+   >
+   >   When using a standard QWERTY keyboard after clicking an item in the timesheet, press the following set of keys to unpin an item:
+   >   * Option + P for both Windows and Mac computers. 
+   -->
 
    The item is removed from the timesheet after you refresh the page.
   
@@ -165,11 +198,17 @@ You can log general hours or project-specific hours on a timesheet.
    ![Log time for multiple roles in timesheet](assets/job-role-plus-sign-and-boxes-in-redesigned-timesheet.png)
 
 
-1. Click the **delete** icon  ![](assets/delete.png) next to the job role to remove it. Any time logged for the role is also removed. 
-
-1. (Optional) Click the **+** icon, then select a new hour type from the drop-down menu in the [!UICONTROL Hour Type] column to log time for a different hour type.
+1. (Optional) Click the **+** icon to add another row, then select a new hour type from the drop-down menu in the [!UICONTROL Hour Type] column to log time for a different hour type.
 
    ![Hour type drop-down menu](assets/hour-type-drop-down-expanded-redesigned-timesheet.png)
+
+   <!--drafted for accessibility: 
+   >[!TIP]
+   >
+   >   Depending on your operating system or browser and when using a standard QWERTY keyboard, press the following set of keys to add another row:
+   >   * Ctrl + Option + + for Windows computers 
+   >   * Cmd + Option + + for Mac computers
+   -->
 
    Hour types are available depending on what has been defined at the system, project, and user levels, as described in [Define hour types and availability for timesheets](define-hour-types-and-availability.md).
 
@@ -180,6 +219,16 @@ You can log general hours or project-specific hours on a timesheet.
    >If you previously logged time and the hour type you selected is now deactivated, the entire row for the logged time is dimmed. Selecting another hour type and refreshing the page removes the deactivated hour type option from the drop-down list so you cannot add additional hours to that hour type. 
    >
    >Consider adding a new line for the work item you want to log additional time  for and selecting a new hour type, if you want to keep the deactivated hour type associated with the past logged time. 
+
+1. Click the **delete** icon  ![](assets/delete.png) next to the job role to remove it. Any time logged for the role is also removed. 
+
+   <!--drafted for accessibility: 
+   >[!TIP]
+   >
+   >   Depending on your operating system or browser and when using a standard QWERTY keyboard, press the following set of keys to delete a row:
+   >   * Ctrl + Option + - for Windows computers 
+   >   * Cmd + Option + - for Mac computers
+   -->
 
 1. Specify the amount of time you want to log on any given day in the timeline section of the timesheet, then click outside the hour box to save the hour entry. The hours are saved automatically. The row for which you log time is highlighted in light blue and the hour entry box is outlined in dark blue.
 
@@ -199,9 +248,26 @@ You can log general hours or project-specific hours on a timesheet.
    >
    >You cannot log a larger number of overtime hours than the current total hours on the timesheet. For example, if you logged 7 hours on the timesheet so far, you cannot log 8 hours of overtime.
 
-1. (Optional) Click **Comment** to add a comment for your hour entry, then click **Done**.
+1. (Optional) Click **Comment** to add a comment for your hour entry. 
 
    ![](assets/commment-button-on-hour-log-redesigned-timesheet.png)
+
+   <!--drafted for accessibility: 
+   >[!TIP]
+   >
+   >   When using a standard QWERTY keyboard after clicking the hour entry box, press the following set of keys to open the comment box:
+   >   * Shift + F2 for both Windows and Mac computers. 
+   -->
+
+1. Click **Done** to save the comment.
+
+   <!--drafted for accessibility: 
+   >[!TIP]
+   >
+   >   When using a standard QWERTY keyboard, from inside the comment box, press the following set of keys to save the comment:
+   >   * Ctrl + Enter for Windows computers
+   >   * Cmd + Return for Mac computers
+   -->.
 
 1. (Optional) Click **Show comments** in the toolbar to display hour entry comments under the work item.
 

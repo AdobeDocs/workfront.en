@@ -80,7 +80,7 @@ The following sections illustrate where you can access the Workload Balancer wit
 1. Click the **Main menu** icon ![](assets/main-menu-icon.png), then click **Resourcing**. 
 1. Click **Workload Balancer** in the left panel. 
   
-    ![](assets/nwe-balancer-global-350x154.png)
+    ![](assets/nwe-balancer-global.png)
 
     The Workload Balancer displays the following by information in the Resourcing area, by default:
 
