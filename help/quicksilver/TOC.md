@@ -391,6 +391,7 @@ feature-set: Workfront
       * [View user login information](administration-and-setup/add-users/create-and-manage-users/view-user-login-info.md)
       * [Adobe Admin Console](administration-and-setup/add-users/create-and-manage-users/admin-console.md)
     * How access levels work {#access-levels}
+      * [How access levels work](administration-and-setup/add-users/how-access-levels-work/access-levels-toc.md)
       * [Access levels overview](administration-and-setup/add-users/how-access-levels-work/access-level-overview.md)
       * [Licenses overview](administration-and-setup/add-users/how-access-levels-work/licenses-overview.md)
       * [Access to objects and areas by license type](administration-and-setup/add-users/how-access-levels-work/access-to-objects-areas-license-types.md)
