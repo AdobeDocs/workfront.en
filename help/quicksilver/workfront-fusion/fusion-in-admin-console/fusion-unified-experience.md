@@ -33,7 +33,10 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] license**</td> 
-   <td> <p>[!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p> <p>[!UICONTROL [!DNL Workfront Fusion] for Work Automation] </p>  </td> 
+   <td>
+   <p>Current license requirement: No [!DNL Workfront Fusion] license requirement.</p>
+   <p>Or</p>
+   <p>Legacy license requirement: [!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
