@@ -84,7 +84,7 @@ For more information, see [[!UICONTROL Email] modules](../../workfront-fusion/ap
 
 ### Answer
 
-Common scenarios are run at intervals according to the schedule you specify (for example, every hour, every 5 minutes, once a month, and the like). There are special triggers, called instant triggers (webhooks), that can start your scenario immediately after they receive data from a given service. Instant triggers can be extremely useful. We recommend to use them whenever possible. They help to reduce the number of operations. Received data is processed immediately without waiting for the next scheduled run. For example, the [!DNL Google Sheets] module [!UICONTROL Watch Changes] starts a scenario immediately after a cell us updated.
+Common scenarios are run at intervals according to the schedule you specify (for example, every hour, every 5 minutes, once a month, and the like). There are special triggers, called instant triggers (webhooks), that can start your scenario immediately after they receive data from a given service. Instant triggers can be extremely useful. We recommend to use them whenever possible. They help to reduce the number of operations. Received data is processed immediately without waiting for the next scheduled run. For example, the [!DNL Google Sheets] module [!UICONTROL Watch Changes] starts a scenario immediately after a cell is updated.
 
 ## What are aggregators?
 
@@ -104,7 +104,7 @@ An operation is any task performed by a module. An operation occurs, for example
 
 ### Answer
 
-Data transfer refers to the amount of data transferred through your scenario. For example, suppose you have a scenario that retrieves a 100KB image from FTP and reduces its size to 50KB and saves both images to [!DNL Dropbox]. The amount of data used in this scenario is 150KB.
+Data transfer refers to the amount of data transferred through your scenario. For example, suppose you have a scenario that retrieves a 100KB image from FTP and reduces its size to 50KB and saves both images to [!DNL Dropbox]. The amount of data used in this scenario is 250KB.
 
 ## What is a connection?
 

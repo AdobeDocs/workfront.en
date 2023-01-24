@@ -58,9 +58,7 @@ To find out what plan, license type, or access you have, contact your [!DNL Work
 
 ## Organizations
 
-[!DNL Workfront Fusion] users belong to an organization. Your [!DNL Fusion] license determines how many active scenarios and connectors are available in your organization.
-
-[!DNL Fusion] licensing determines the number of active scenarios and active apps that are available to an organization. [!DNL Fusion] displays the current "Active scenarios" and "Active apps" count on the organization dashboard.
+[!DNL Workfront Fusion] users belong to an organization.
 
 * [Organization roles](#organization-roles)
 * [Inviting users to an organization](#inviting-users-to-an-organization)
