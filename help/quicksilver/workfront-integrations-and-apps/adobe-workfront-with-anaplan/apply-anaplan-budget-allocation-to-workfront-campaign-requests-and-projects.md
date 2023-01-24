@@ -9,7 +9,12 @@ exl-id: 8ae28911-fa18-459a-aa50-cfb347e70e61
 ---
 # Apply an [!DNL Anaplan] budget allocation to an [!DNL Adobe Workfront] campaign request or campaign project
 
-This integration scenario syncs any budget allocations that have been made in [!DNL Anaplan] back to [!DNL Workfront]. The scenario pulls all linked campaign budget items, then passes the budged value to the linked Workfront project if the budget value has been changed.
+This integration scenario syncs any budget allocations that have been made in [!DNL Anaplan] back to [!DNL Workfront]. The scenario pulls all linked campaign budget items, then passes the budget value to the linked [!DNL Workfront] project if the budget value has been changed.
+
+>[!IMPORTANT]
+>
+>"Campaign" in this article refers to the marketing campaign use case that this scenario represents, and is in no way connected to the [!DNL Workfront Fusion] Adobe Campaign connector or to the recently deprecated [!UICONTROL Campaign] object in [!DNL Workfront].
+
 
 ## Access requirements
 
