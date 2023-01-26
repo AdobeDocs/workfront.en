@@ -18,6 +18,62 @@ The enhancements on this page are available in the Preview environment. This pag
 
 ## Adobe Workfront enhancements
 
+* [Agile enhancements](#agile-enhancements)
+
+## Agile enhancements
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">Feature</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Release dates</span>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-mobile-enhancements.md" class="MCXref xref" xrefformat="{para}">Estimation field on connected cards maps to Story Points field on Workfront objects</a><span style="color: #ff0000;"> New in Preview!</span></p>
+                        <p>The Estimation field on connected cards in Workfront Boards now maps to the Story Points field for the associated Workfront object. </p>
+                        <p>The new Story Points field is an editable, free form field that you can add to a view in a list or report for tasks or issues. It is not tied to planned hours or team assignments.</p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                        <ul>
+                            <li>
+                                <p>Preview release: January 26, 2023<br /></p>
+                            </li>
+                            <li>
+                                 <p>Production release for early opt-in: February 2, 2023 <span style="color: #ff0000;"> This feature is available in Production on this date only through the early feature opt-in for Workfront Boards.</span></p>
+                                <p>Production release for all customers: With the 23.2 release</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-mobile-enhancements.md" class="MCXref xref" xrefformat="{para}">Preview card in intake column</a><span style="color: #ff0000;"> New in Preview!</span></p>
+                        <p>You can now click on a connected card in the intake column to see a view-only version of its contents. You can't edit the card contents until the card is moved out of the intake column to another column on the board.</p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                        <ul>
+                            <li>
+                                <p>Preview release: January 26, 2023<br /></p>
+                            </li>
+                            <li>
+                                 <p>Production release for early opt-in: February 2, 2023 <span style="color: #ff0000;"> This feature is available in Production on this date only through the early feature opt-in for Workfront Boards.</span></p>
+                                <p>Production release for all customers: With the 23.2 release</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+            </tbody>
+        </table>  
 
 
 
@@ -49,7 +105,7 @@ For information on API versions, see [API versioning and support schedule](/help
 
 ### Workfront Maintenance Updates
 
-For information about the maintenance updates made during the 22.3 release, see [Workfront Maintenance Updates](https://one.workfront.com/s/article/Workfront-Maintenance-Updates-1882317350).
+For information about the maintenance updates made during the 23.2 release, see [Workfront Maintenance Updates](https://one.workfront.com/s/article/Workfront-Maintenance-Updates-1882317350).
 
 ### Training updates
 
