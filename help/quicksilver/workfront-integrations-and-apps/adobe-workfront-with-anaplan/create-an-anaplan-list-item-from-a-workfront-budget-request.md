@@ -11,6 +11,10 @@ exl-id: e6505ece-21aa-4397-8d68-543bf89d2f00
 
 This integration scenario links an [!DNL Adobe Workfront] project (campaign) with an [!DNL Anaplan] budget list item. This is accomplished by adding a budget request to the [!DNL Workfront] project that needs to receive funding. This scenario watches for unprocessed budget requests, then executes a process to create an empty budget list item in [!DNL Anaplan] to kick off budget allocation processes in [!DNL Anaplan].
 
+>[!IMPORTANT]
+>
+>"Campaign" in this article refers to the marketing campaign use case that this scenario represents, and is in no way connected to the [!DNL Workfront Fusion] Adobe Campaign connector or to the recently deprecated [!UICONTROL Campaign] object in [!DNL Workfront].
+
 ## Access requirements
 
 You must have the following access to use the functionality in this article:

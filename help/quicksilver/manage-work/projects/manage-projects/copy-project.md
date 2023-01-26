@@ -9,8 +9,10 @@ exl-id: 1bb133a8-eb76-46b8-969f-37f57f9453b4
 ---
 # Copy a project
 
+<!--some areas are drafted for the 23.2 release story-->
+
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: LINKED TO THE PRODUCT IN THE COPY PROJECT BOX)</p>
+<(LINKED TO THE PRODUCT IN THE COPY PROJECT BOX)</p>
 -->
 
 You can copy a project rather than create one from scratch. You can copy only one project at a time. You cannot copy projects in bulk.
@@ -25,6 +27,7 @@ You can copy a project rather than create one from scratch. You can copy only on
 >* Notes  
 >* Hours
 >* Cross-project predecessors
+>* Budgeted hours <!-- drafted for release 23.2: take this out and move it to the one below IF there is no UI component for the story that allows you to check/uncheck this information as you copy the project. If there is a UI component, take this out of here and just add it to the new screen shot below. -->
 >
 >The following items are always copied from an existing project to a new one:
 >
@@ -95,6 +98,7 @@ To copy a project:
    By default, the **Status** matches that of the original project.
 
 1. (Optional) Deselect the items that you don't want to copy to the new project.&nbsp;The following table describes what happens when you deselect the items:
+<!--drafted for story for the 23.2 release: add another line in the table below for "Budgeted hours" if they do add it as an option with this story-->
 
    <table style="table-layout:auto"> 
     <col> 

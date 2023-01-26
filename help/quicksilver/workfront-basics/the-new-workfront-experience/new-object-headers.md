@@ -868,7 +868,7 @@ The goal header displays the following information:
  <tbody> 
   <tr> 
    <td role="rowheader">Object icon </td> 
-   <td> <p>The purple [!UICONTROL Goal] icon <img src="assets/goal-icon.png" >displays to the left of the goal name.</p> </td> 
+   <td> <p>The purple [!UICONTROL Goal] icon <img src="assets/goal-icon.png" > displays to the left of the goal name.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Name of the goal</td> 
