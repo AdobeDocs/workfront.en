@@ -83,7 +83,7 @@ The enhancements on this page are available in the Preview environment. This pag
 
 New features in Workfront Fusion are available in Production at a cadence outside of the 23.2 release schedule. For more information about the latest features, see [Adobe Workfront Fusion release activity](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
-### WorkfrontScenario Planner enhancements
+### Workfront Scenario Planner enhancements
 
 There are no Scenario Planner updates at this point in the release. This area will be updated when updates are available.
 
