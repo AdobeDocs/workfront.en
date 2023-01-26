@@ -182,6 +182,8 @@ You can edit or delete a comment that you entered in this area, or you can like 
 
 -->
 
+>[!IMPORTANT]
+>The content on this page refers to functionality that is part of the new Unified Commenting Experience, currently available only in Adobe Workfront Goals. For more information on the Unified Commenting Experience, see [Unified Commenting Experience](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/unified-commenting-experience.md).
 
 You can add comments to goals in the Updates section of a goal's page.
 
