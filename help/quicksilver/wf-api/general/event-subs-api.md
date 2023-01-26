@@ -661,7 +661,7 @@ This connector makes the filter apply to the new state or old state of the objec
 >The subscription below with the given filter will only return messages where the name of the task contains `again` on the `oldState`, what it was before an update was made on the task.
 >A use case for this would be to find the objCode messages that changed from one thing to another. For example, to find out all of the tasks that changed from "Research Some name" to "Research TeamName Some name"
 
-#### filterConnector
+### Using connector fields
 
 The `filterConnector` field on the subscription payload allows you to choose how the filters should be applied. The default is "AND", where the filters must all be `true` for the subscription message to come through. If "OR" is specified then only one filter must match for the subscription message to come through.
 
@@ -685,39 +685,6 @@ The `filterConnector` field on the subscription payload allows you to choose how
     ],
     "filterConnector": "AND"
 }
-```
-
-### Using connector fields
-
-You can make several AND or OR statements in a single filter by specifying a connector field. When used along with the filter field, this determines which type of operation you want to perform between different filters in your subscription.
-
-**Example:** JSON object defining an event subscription that fires when an optask is updated, with filter parameter set to filter by **projectID**, **enteredByID**, and a custom field specified by **parameterValues** called **customField** with a value equal to **customValue**.
-
-<!-- [Copy](javascript:void(0);) --> 
-
-```
-{
-                "objCode": "OPTASK",
-                "eventType": "UPDATE",
-                "url": "https://eventfilter.yourendpoint.com",
-                "authToken": "EauthTokenWorkfrontRocks1234_",
-                "filters": [
-                {
-                "fieldName": "projectID",
-                "fieldValue": "5db1e0ec007696247fcf2290ecf8a339"
-                },
-                {
-                "fieldName": "enteredByID",
-                "fieldValue": "5a456f460328289a0cd2c21b34c54741"
-                },
-                {
-                "fieldName": "parameterValues",
-                "fieldValue": {
-                "DE: customField": "customValue"
-                }
-                }
-                ]
-                }
 ```
 
 ## Deleting Event Subscriptions
