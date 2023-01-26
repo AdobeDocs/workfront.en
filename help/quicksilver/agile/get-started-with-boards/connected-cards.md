@@ -9,6 +9,8 @@ exl-id: c6d979dd-e4a4-48a5-a91b-b31d7ef848d1
 ---
 # Use connected cards on boards
 
+{{highlighted-preview}}
+
 You can add a card on your board that is connected to existing tasks and issues in [!DNL Workfront].
 
 When any one of the following details is updated for the card in one location, it is automatically updated in the other location:
@@ -18,6 +20,7 @@ When any one of the following details is updated for the card in one location, i
 * [!UICONTROL Assignees]
 * [!UICONTROL Status]
 * [!UICONTROL Planned completion date]
+* <span class="preview">[!UICONTROL Estimation] / [!UICONTROL Story Points]</span>
 
 >[!NOTE]
 >A single connected task or issue can only be added once per board. The same task or issue can be connected to multiple boards.
@@ -116,7 +119,7 @@ You must have the following access to perform the steps in this article:
      </tr>
       <tr>
       <td role="rowheader"><strong>[!UICONTROL Estimation]</strong></td>
-      <td><p>Type the estimated number of hours for the card to be completed. This is a manual entry only and cannot be more than 99.</p></td>
+      <td><p>The number of hours for the card to be completed. This value cannot be more than 99.</p><p><span class="preview">In the Preview environment, changing the estimation also changes the story points value on the connected Workfront object.</span></p><p>In the Production environment, this is a manual entry only.</p><p>NOTE: The connection with the story points value is available only through the early feature opt-in for Workfront Boards.</p></td>
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Tags]</strong></td>
