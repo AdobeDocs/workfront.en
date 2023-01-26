@@ -10,17 +10,20 @@ feature: Product Announcements
 
 [!DNL Adobe Workfront] releases major updates to the Production environment quarterly. As a [!DNL Workfront] administrator, you have the opportunity to ensure that your organization has a smooth transition to each new version of the [!DNL Workfront] product. 
 
->[!TIP]
->
->We recommend creating a project template to track work related to [!DNL Workfront] quarterly releases.
->
->For more information, see [Use a [!DNL Workfront] project to track release work](#use-a-workfront-project-to-track-release-work) in this article.
+[Watch a video about ways you can prepare for an [!DNL Adobe Workfront] quarterly release.](https://video.tv.adobe.com/v/3413544){target=_blank}
 
 ## Understand the [!DNL Workfront] release process
 
 For a detailed description of the [!DNL Workfront] release process, see [[!DNL Adobe Workfront] release schedule and process](workfront-release-schedule.md).
 
 ## Prepare for a [!DNL Workfront] quarterly release
+
+>[!TIP]
+>
+>You can create a project template to track work related to [!DNL Workfront] quarterly releases.
+>
+>For more information, see [Use a [!DNL Workfront] project to track release work](#use-a-workfront-project-to-track-release-work) in this article.
+
 
 We recommend that you consider some or all of the following actions that can help you prepare your organization for upcoming releases:
 

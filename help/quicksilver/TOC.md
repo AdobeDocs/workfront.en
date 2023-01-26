@@ -12,6 +12,9 @@ feature-set: Workfront
     * [Product releases overview](product-announcements/product-releases/product-releases.md)
     * [Adobe Workfront release schedule and process](product-announcements/product-releases/workfront-release-schedule.md)
     * [Prepare for an Adobe Workfront quarterly release](product-announcements/product-releases/release-readiness.md)
+    * 23.2 Release {#release-23-2}
+      * [23.2 Release overview](product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md) 
+      * [23.2 release activity: Week of January 23, 2023](product-announcements/product-releases/23.2-release-activity/23-1-jan-23.md)
     * 23.1 Release {#release-23-1}
       * [23.1 Release overview](product-announcements/product-releases/23.1-release-activity/23-1-release-overview.md)
       * [23.1 Project and Resource Management enhancements](product-announcements/product-releases/23.1-release-activity/23-1-project-enhancements.md)
@@ -754,6 +757,7 @@ feature-set: Workfront
     * [Tag others on updates](workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md)
     * [View all updates in a Note report](workfront-basics/updating-work-items-and-viewing-updates/view-all-updates-in-a-report.md)
     * [Work On It and Done button overview](workfront-basics/updating-work-items-and-viewing-updates/work-on-it-and-done-buttons-accept-complete-work.md)
+    * [Unified Commenting Experience](workfront-basics/updating-work-items-and-viewing-updates/unified-commenting-experience.md)
   * Work with custom forms {#work-with-custom-forms}
     * [Work with custom forms](workfront-basics/work-with-custom-forms/work-with-custom-forms.md)
     * [Add a custom form to an object](workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md)
