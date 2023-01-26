@@ -225,6 +225,8 @@ Consider the following when reviewing the Goal List:
 1. Click the **Alignment icon** ![](assets/align-icon.png) next to an aligned to open the goal's card in the Goal Alignment section. For more information, see [Navigate the Goal Alignment section in Adobe Workfront Goals](../../workfront-goals/goal-alignment/navigate-goal-alignment-chart.md).
 -->
 
+To manage goals in the Goal List: 
+
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png)  in the upper-right corner, then click **Goals**.
 
    <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-review-and-workfront-goals-sections/assets/three-line-main-menu-icon.png) in the upper-left corner)

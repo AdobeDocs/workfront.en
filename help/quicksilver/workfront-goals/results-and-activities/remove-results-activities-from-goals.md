@@ -13,8 +13,6 @@ exl-id: 0e064dbd-6168-47b4-98ab-b5c0481e839e
 <!-- for goal redesign PRODUCTION RELEASE: Should this article be called "Remove or disconnect progress indicators from goals" when this is available to ALL progress indicators (including "disconnect goals")-- if yes, updte the title everywhere else where this is linked?
 -->
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> 
-
 You can remove results, activities, and projects from goals if they are no longer relevant.
 
 For information about creating goals, and adding results and activities to them, see the following articles:
@@ -23,6 +21,10 @@ For information about creating goals, and adding results and activities to them,
 * [Add activities to goals in Adobe Workfront Goals](../../workfront-goals/results-and-activities/add-activities-to-goals.md) 
 * [Add results to goals in Adobe Workfront Goals](../../workfront-goals/results-and-activities/add-results-to-goals.md) 
 * [Edit results and activities in Adobe Workfront Goals](../../workfront-goals/results-and-activities/edit-results-and-activities.md)
+
+Goals can also be aligned to parent goals, becoming children goals. Children goals are also progress indicators of the parent goals.
+
+You can remove the alignment between goals by removing the connection between them. For information, see [Remove goal alignment in Adobe Workfront Goals](../goal-alignment/remove-goal-alignment.md).
 
 ## Access requirements
 
@@ -126,19 +128,21 @@ You must have the following before you can start:
 
 ## Considerations for removing results, activities, and disconnecting projects from goals
 
-* You can remove results and activities only from active goals that are in a current or future time period. 
+* You can remove results and activities only from active goals. 
 * You can remove results and activities from a goal by deleting them. Deleted results and activities cannot be recovered. 
 * When you remove the result or activity from a goal, the progress of the removed result or the activity affects the overall progress of the goal. 
 * You cannot delete a project from a goal, but you can disconnect it from the goal. By disconnecting the project from the goal the percent complete of the project no longer affects the progress of the goal.
 
   For information about how projects affect goal progress, see [Add projects to goals in Adobe Workfront Goals](../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md). 
 
-* You cannot remove a result or an activity from a goal, and you cannot disconnect a goal if they are the last progress indicator for the goal. 
-* If a project is the last progress indicator of a goal and it is deleted from the Projects area, the goal becomes Inactive.
+* You cannot remove a result or an activity from a goal, and you cannot disconnect a child goal or a project, if they are the last progress indicator for the goal. 
+* If a project is deleted from the Projects area and it is the last progress indicator of a goal, the goal becomes Inactive.
 
 ## Delete results and activities from goals
 
 You remove results and activities from a goal by deleting them. Deleting results and activities from a goal is identical. 
+
+<!--
 How you delete results and activities differs depending on the environment you use.
 
 ### Delete results and activities in the Production environment
@@ -146,8 +150,8 @@ How you delete results and activities differs depending on the environment you u
 
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) > **Goals** in the upper-right corner.
 
-   <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../results-and-activities/assets/three-line-main-menu-icon.png) in the upper-left corner)
-   -->
+   (!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../results-and-activities/assets/three-line-main-menu-icon.png) in the upper-left corner)
+   --)
 
    This opens the Workfront Goals area and the Goal List displays by default. 
 
@@ -163,10 +167,7 @@ How you delete results and activities differs depending on the environment you u
 
    The result or activity is deleted and cannot be recovered. The percent complete of the goal updates to exclude the deleted activity or result.
 
-
-<span class="preview">
-
-### Delete results and activities in the Preview environment
+-->
 
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner, then click **Goals**.
 
@@ -184,10 +185,10 @@ How you delete results and activities differs depending on the environment you u
 
 1. Click **Delete** to confirm the deletion. The result or activity is deleted and cannot be recovered. The percent complete of the goal updates to exclude the deleted activity or result.
 
-</div>
 
-## Disconnect projects from goals
+## Remove projects from goals
 
+<!--
 Dsconnecting projects from goals differs depending on the environment you use.
 
 ### Disconnect projects from goals in the Production environment
@@ -195,8 +196,8 @@ Dsconnecting projects from goals differs depending on the environment you use.
 
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) > **Goals** in the upper-right corner.
 
-   <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../results-and-activities/assets/three-line-main-menu-icon.png) in the upper-left corner)
-   -->
+   (!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../results-and-activities/assets/three-line-main-menu-icon.png) in the upper-left corner)
+   --)
 
    This opens the Workfront Goals area and the Goal List displays by default. 
 
@@ -210,10 +211,8 @@ Dsconnecting projects from goals differs depending on the environment you use.
    ![](assets/disconnect-project-goal-details-350x94.png)
 
    The project is disconnected from the goal. The percent complete of the goal updates to exclude the percent complete of the disconnected project.
+-->
 
-<div class="preview">
-
-### Disconnect projects from goals in the Preview environment
 
 1. Click the **Main Menu** icon  in the upper-right corner, then click **Goals**.
 
@@ -231,4 +230,3 @@ Dsconnecting projects from goals differs depending on the environment you use.
 
    The project is no longer connected to the goal. The percent complete of the goal updates to exclude the disconnected project. 
 
-</div>
