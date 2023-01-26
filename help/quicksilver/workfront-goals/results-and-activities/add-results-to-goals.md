@@ -10,8 +10,6 @@ exl-id: 30e22482-22e2-432d-bb73-7f9a9160aba2
 ---
 # Add results to goals in Adobe Workfront Goals
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span>
-
 Results measure the progress of a goal. Without associating results, activities, or aligned goals to a goal, you cannot activate the goal and you cannot record progress on it.
 
 ## Access requirements
@@ -120,11 +118,11 @@ You must have the following before you can start:
   For information about creating goals, see [Create goals in Adobe Workfront Goals](../../workfront-goals/goal-management/create-goals.md).
 
 >[!IMPORTANT]
->
->In the production environment, a goal cannot have more than a total of 50 activities, results, or aligned goals.
-><span class="preview">In the Preview environment, a goal cannot have more than a total of 1000 activities, results, projects, or aligned goals.</span>
+>A goal cannot have more than a total of 1000 activities, results, projects, or aligned goals.
 
 ## Add a result to a goal
+
+<!--
 
 Adding results to goals differs depending on which environment you use.
 
@@ -166,9 +164,7 @@ Adding results to goals differs depending on which environment you use.
 
    The result is saved for the selected goal. The progress of the goal automatically updates when you update the progress of a result.
 
-<div class="preview">
-
-### Add a result to a goal in the Preview environment
+-->
 
 1. Click the Main Menu ![](assets/main-menu-icon.png), then **Goals**. 
 
@@ -205,8 +201,3 @@ Adding results to goals differs depending on which environment you use.
    The result displays in the Progress indicators section of the goal page, unde the Result grouping.
    
    After you activate the goal, the progress of the goal automatically updates when you update the progress of a result. For information about activating a goal, see [Activate goals in Adobe Workfront Goals](../goal-management/activate-goals.md). 
-
-</div>
-
-
-

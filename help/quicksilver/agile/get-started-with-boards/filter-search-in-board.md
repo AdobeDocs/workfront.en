@@ -100,10 +100,6 @@ By default, only active cards are displayed on a board. You can filter the board
 
    ![Filter by connection](assets/boards-filter-by-connection.png)
 
->[!NOTE]
->
->The option to filter by connection is available only via the early feature opt-in. For details, see [Early feature opt-in for [!DNL Adobe Workfront] [!UICONTROL Boards]](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md).
-
 ## Search in a board
 
 1. Access the board.

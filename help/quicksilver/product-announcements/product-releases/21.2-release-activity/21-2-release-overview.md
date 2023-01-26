@@ -341,7 +341,7 @@ For specific release dates and times for each cluster, see the
    <td> <p><strong>Release dates and environments</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p style="color: #dc143c;"><a href="../../../product-announcements/product-releases/21.2-release-activity/21-2-integration-enhancements.md#introduc" class="MCXref xref" xrefformat="{para}">Introducing Workfront for Adobe XD</a> </p> <p>We're excited to announce the launch of our new plugin: Workfront for Adobe XD. This plugin allows you to access work item details, collaborate with coworkers in the Updates area, and submit proofs for review--all without leaving XD. Head over to the Adobe XD marketplace to download the plugin today.</p> </td> 
+   <td> <p style="color: #dc143c;"><a href="../../../product-announcements/product-releases/21.2-release-activity/21-2-integration-enhancements.md#introduc" class="MCXref xref" xrefformat="{para}">Introducing Adobe Workfront for XD</a> </p> <p>We're excited to announce the launch of our new plugin: Adobe Workfront for XD. This plugin allows you to access work item details, collaborate with coworkers in the Updates area, and submit proofs for review--all without leaving XD. Head over to the Adobe XD marketplace to download the plugin today.</p> </td> 
    <td><strong>Available on these dates:</strong> <p>Beta Preview release:&nbsp;April 27, 2021<br></p> <p>Production release:&nbsp;April 27, 2021</p> <p><strong>Available in these environments:</strong> </p> <p>The new Adobe Workfront experience </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 

@@ -9,7 +9,9 @@ exl-id: fb0f80d3-7da4-4f5f-857d-3fb518ba12e2
 ---
 # Assign work in bulk using the Workload Balancer
 
+<!--drafted
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> 
+-->
 
 You can manually assign work items to users using the Adobe Workfront Workload Balancer.
 
@@ -154,7 +156,7 @@ To assign a user to work items previously assigned to job roles:
 
    >[!TIP]
    >
-   >   <span class="preview">All the roles of the user display in the list, under the user's name.</span>
+   >All the roles of the user display in the list, under the user's name.
 
 
 1. Click **Assign**.

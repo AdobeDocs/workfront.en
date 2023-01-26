@@ -71,9 +71,9 @@ The following functionality is currently included with Workfront Goals:
 
   For information about associating projects with goals, see [Add projects to goals in Adobe Workfront Goals](../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md).
 
-* Update goals, results, and activities to trigger the updating of the progress of goals.
+* Update goals, results, and activities to keep your goals on track towards being completing. 
 
-  For information about updating goal progress, see [Update goals by using Check-in in Adobe Workfront Goals](../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md).
+  For information about updating goal progress, see [Update goal progress in Adobe Workfront Goals](../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md).
 
 * Align goals to one another to clearly define your organization's strategy and make every goal count.
 
@@ -82,12 +82,6 @@ The following functionality is currently included with Workfront Goals:
 * Review your organization's goal hierarchy in the Goal Alignment flowchart.
 
   For information about the Goal Alignment chart, see [Navigate the Goal Alignment section in Adobe Workfront Goals](../../workfront-goals/goal-alignment/navigate-goal-alignment-chart.md).
-
-* Collaborate across the organization by reviewing goal updates and comments in Pulse.
-
-  <!--drafted for goal redesign: delete this bullet point when we release redesign-->
-
-  For information about Workfront Goals Pulse, see [Review goals in the Adobe Workfront Goals Pulse section](../../workfront-goals/goal-review-and-workfront-goals-sections/review-goals-in-pulse.md).
 
 * Review trends in goal progress in graphs.
 

@@ -8,8 +8,6 @@ exl-id: c391dabc-8dc4-4c4b-b0fc-7ccc4244cb8a
 ---
 # Pin pages to customize your workspace
 
-{{highlighted-preview}}
-
 You can pin your most important work in [!DNL Adobe Workfront] for increased visibility, better organization, and quicker access. Pinned pages are always accessible from the top of any page in Workfront.
 
 You might be assigned to a layout template that has pages already pinned (as described in [Customize pinned pages using a layout template](../../administration-and-setup/customize-workfront/use-layout-templates/customize-pinned-pages.md)). These predefined pins cannot be renamed or removed. Any pages you pin display to the right of the predefined pins.
@@ -65,12 +63,6 @@ You must have the following access to perform the steps in this article:
 
 You can change the name of a pinned page to be more meaningful to you.
 
->[!NOTE]
->
-><span class="preview">In the Preview environment, you can rename pinned pages in the **[!UICONTROL More menu]** ![More menu](assets/more-icon-spectrum.png).</span>
->
->In the Production environment, you can't rename pinned pages in the **[!UICONTROL More menu]** ![More menu](assets/more-icon-spectrum.png).
-
 1. Hover over the pinned page in the top navigation or **[!UICONTROL More menu]**.
 1. Click the arrow next to the pin name and select **[!UICONTROL Rename pin]**.
 
@@ -85,12 +77,6 @@ You can change the name of a pinned page to be more meaningful to you.
 ## Reorder pinned pages
 
 You can rearrange the order that pinned pages appear.
-
->[!NOTE]
->
-><span class="preview">In the Preview environment, you can reorder pinned pages in the **[!UICONTROL More menu]** ![More menu](assets/more-icon-spectrum.png).</span>
->
->In the Production environment, you can't reorder pinned pages in the **[!UICONTROL More menu]** ![More menu](assets/more-icon-spectrum.png).
 
 1. Hover over the pinned page in the top navigation or **[!UICONTROL More menu]**. When you see the hand cursor, click and drag the pin to the desired order.
 

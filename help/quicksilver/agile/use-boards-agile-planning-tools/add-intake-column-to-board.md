@@ -10,6 +10,8 @@ exl-id: 4991f4f7-6f3d-4e15-ae8d-96433ed46557
 ---
 # Add an intake column to a board
 
+{{highlighted-preview}}
+
 You can optionally add an intake column to your board that automatically pulls in tasks and issues as connected cards when they are added in [!DNL Workfront], based on filters that you define. The intake column can serve as a backlog column for a Kanban team, an intake location for a support team to see issues as they are added to a request queue, or any other purpose you need.
 
 Only one intake column is permitted on a board, and it always appears as the left-most column.
@@ -81,16 +83,21 @@ You must have the following access to perform the steps in this article:
 
    ![Saved filter](assets/intake-filter-dialog8.png)
 
-   >[!NOTE]
-   >
-   >The new filter is only visible and editable to the user who created it. Other members on the board will not see the filter in their list of saved filters.
-
+1. (Optional) To share the filter with others, hover over the saved filter, click the **[!UICONTROL More]** menu ![More menu icon](assets/more-icon-spectrum.png), and select **[!UICONTROL Share]**. Choose the users or teams to share with in the Filter sharing box. For more information, see [Share a filter, view, or grouping](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
 1. (Optional) To include both tasks and issues on the intake column, click **[!UICONTROL Filter sources]** and select the other object to create another filter.
 1. When you are finished adding filters, review the intake column to verify that the correct tasks and issues appear.
 
    ![Intake column](assets/intake-column-added3.png)
 
-   Cards in the intake column are not editable until you move them into other board columns. You can <!--click on the card to open it in a read-only view, or -->click ![Open task or issue](assets/boards-launch-icon.png) to open the task or issue in a new browser tab.
+   Cards in the intake column are not editable until you move them into other board columns. You can <span class="preview">click on the card to open it in a read-only view</span>, or click ![Open task or issue](assets/boards-launch-icon.png) to open the task or issue in a new browser tab.
+
+   <span class="preview">
+
+   >[!NOTE]
+   >
+   >The read-only view for cards in the intake column is available only through the early feature opt-in for [!DNL Workfront] [!UICONTROL Boards].
+
+   </span>
    
    You can manually re-order the items on the intake column.
 

@@ -65,7 +65,7 @@ These enhancements were made available in the Production environment with the 22
                                 <p>Preview release: N/A<br /></p>
                             </li>
                             <li>
-                                <p>Production release: With the 22.4 release <span style="color: #ff0000;">This migration has been postponed to mid to late-October. Any affected customers will be notified at that time. </span></p>
+                                <p>Production release: With the 22.4 release <span style="color: #ff0000;">This migration has been postponed to Q1-Q2 of 2023. </span></p>
                             </li>
                         </ul>
                     </td>
@@ -654,7 +654,7 @@ Note: This functionality is not currently available in the Workload Balancer in 
                         <p>Workfront Campaigns enables you to organize projects from different portfolios and programs in a new work container.
 Campaigns were released to Preview beta with the 22.3 release, in July 2022.</p>
 <p>This new container will evolve in future releases to connect work objects that are currently managed in separate silos.</p>
-<p>For more information about the Workfront Campaigns beta, as well as information about new features as they release to Preview, see <a href="../../../product-announcements/betas/campaign-object-beta.md" class="MCXref xref" xrefformat="{para}">Campaigns beta</a> </p>
+
                     </td>
                     <td><p><b>Available on these dates:</b></p>
                         <ul>
