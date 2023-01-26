@@ -111,6 +111,18 @@ The following table outlines major features of boards along with their current r
    <td>Released</td>
   </tr>
   <tr>
+   <td>View-only cards in intake column</td>
+   <td>Partially released</td>
+  </tr>
+  <tr>
+   <td>Map Estimation field on card to Story Points field on task</td>
+   <td>Partially released</td>
+  </tr>
+  <tr>
+   <td>Create collections of boards</td>
+   <td>Planned</td>
+  </tr>
+  <tr>
    <td>Create iterations</td>
    <td>Planned</td>
   </tr>
