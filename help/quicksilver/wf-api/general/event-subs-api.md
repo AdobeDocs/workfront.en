@@ -485,10 +485,43 @@ For example, an **UPDATE - TASK** event subscription can be set to trigger only 
 
 You can specify a comparison field along with the filter field. Use a comparison operator in this to field to filter for comparative results. For example, you can can create an UPDATE - TASK subscription that only sends a payload if the task status does NOT equal current. You can use the following comparison operators:
 
-* eq: equal
-* ne: not equal
-* gt: greater than
-* lt: less than
+#### eq: equal
+
+
+
+#### ne: not equal
+
+
+
+#### gt: greater than
+
+
+#### gte: greater than or equal to
+
+
+
+#### lt: less than
+
+
+
+#### lte: less than or equal to
+
+
+
+#### contains
+
+
+
+#### change
+
+
+
+#### state
+
+
+
+#### filterConnector
+
 
 ### Using connector fields
 
