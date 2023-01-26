@@ -10,6 +10,8 @@ exl-id: 4991f4f7-6f3d-4e15-ae8d-96433ed46557
 ---
 # Add an intake column to a board
 
+{{highlighted-preview}}
+
 You can optionally add an intake column to your board that automatically pulls in tasks and issues as connected cards when they are added in [!DNL Workfront], based on filters that you define. The intake column can serve as a backlog column for a Kanban team, an intake location for a support team to see issues as they are added to a request queue, or any other purpose you need.
 
 Only one intake column is permitted on a board, and it always appears as the left-most column.
@@ -87,7 +89,15 @@ You must have the following access to perform the steps in this article:
 
    ![Intake column](assets/intake-column-added3.png)
 
-   Cards in the intake column are not editable until you move them into other board columns. You can <!--click on the card to open it in a read-only view, or -->click ![Open task or issue](assets/boards-launch-icon.png) to open the task or issue in a new browser tab.
+   Cards in the intake column are not editable until you move them into other board columns. You can <span class="preview">click on the card to open it in a read-only view</span>, or click ![Open task or issue](assets/boards-launch-icon.png) to open the task or issue in a new browser tab.
+
+   <span class="preview">
+
+   >[!NOTE]
+   >
+   >The read-only view for cards in the intake column is available only through the early feature opt-in for [!DNL Workfront] [!UICONTROL Boards].
+
+   </span>
    
    You can manually re-order the items on the intake column.
 
