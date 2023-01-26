@@ -7,10 +7,13 @@ author: Nolan
 feature: Get Started with Workfront
 exl-id: 
 ---
+
 # New Commenting Experience
+
 An update to the commenting experience in Adobe Workfront is currently in development, including a new interface, new features, and improved performance. While currently only implemented in Adobe Workfont Goals, this new experience will eventually unify commenting across Adobe Workfront and beyond throughout the Adobe Experience Cloud. 
 
 ## Features
+
 The new commenting experience includes improvements and changes to the existing update stream.
 
 >[!IMPORTANT]
