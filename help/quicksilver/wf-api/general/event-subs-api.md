@@ -659,10 +659,8 @@ This connector makes the filter apply to the new state or old state of the objec
 >[!NOTE]
 >
 >The subscription below with the given filter will only return messages where the name of the task contains `again` on the `oldState`, what it was before an update was made on the task.
->
 >A use case for this would be to find the objCode messages that changed from one thing to another. For example, to find out all of the tasks that changed from "Research Some name"
 to "Research TeamName Some name"
-
 
 #### filterConnector
 
