@@ -39,7 +39,7 @@ The license attached to an access level determines the overall scope of function
 
 You can copy a default access level and customize the copy as needed for your users. Within the scope of functionality allowed by the license for the copied access level, you can adjust access settings to meet the needs of the user.
 
-For more information, see [Access levels overview](help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md) and [Create or modify custom access levels](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+For more information, see [Access levels overview](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md) and [Create or modify custom access levels](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
 ## License count
 
