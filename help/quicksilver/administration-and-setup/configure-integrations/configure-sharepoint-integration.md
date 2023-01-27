@@ -62,13 +62,17 @@ You must have any necessary access or permissions in [!DNL SharePoint] to modify
 
 ## Link documents through the new SharePoint integration
 
-Individual users can link documents through the new SharePoint integration. The integration does not require administrator configuration. Instead, the user logs onto their Microsoft account when linking a document, which enables the integration to access documents available in the user's SharePoint.
+Individual users can link documents through the new [!DNL SharePoint] integration. The integration does not require administrator configuration. Instead, the user logs onto their [!DNL Microsoft] account when linking a document, which enables the integration to access documents available in the user's [!DNL SharePoint].
 
-For instructions on linking documents through the new SharePoint integration, see [Link an external document to Workfront](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md#link-an-external-document-to-workfront)
+The first time a user connects the [!DNL Workfront] [!DNL SharePoint] integration to their [!DNL SharePoint] account, they will see and agree to all of the permissions that [!DNL Workfront] uses when interacting with their [!UICONTROL SharePoint] account. Read permissions allow [!DNL Workfront] to see and access files on [!DNL SharePoint], and write permissions allow the user to upload files to [!DNL SharePoint].
+
+For instructions on linking documents through the new [!DNL SharePoint] integration, see [Link an external document to [!DNL Workfront]](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md#link-an-external-document-to-workfront)
 
 >[!NOTE]
 >
->A SharePoint integration can connect to a single SharePoint instance. Therefore, a user can set up an integration for one SharePoint, but cannot set up an integration to a second SharePoint, even if they have permissions to and documents on the second SharePoint.
+>* A [!DNL SharePoint] integration can connect to a single [!DNL SharePoint] instance. Therefore, a user can set up an integration for one [!DNL SharePoint], but cannot set up an integration to a second [!DNL SharePoint], even if they have permissions to and documents on the second [!DNL SharePoint].
+>
+>* A user has access to the same sites, collections, folders, subfolders, and files through the [!DNL Workfront] [!DNL SharePoint] integration as they have in their [!DNL SharePoint] account.
 
 ## Configure the legacy SharePoint integration for continued access to documents
 

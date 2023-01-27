@@ -96,7 +96,7 @@ Before you begin, you must do the following:
 
 >[!IMPORTANT]
 >
->You can budget your resources for a period of 15 years. If you budget resources for a project with a duration longer than 15 years the budgeting information might not be accurate.>
+>You can budget your resources for a period of 15 years. If you budget resources for a project with a duration longer than 15 years the budgeting information might not be accurate.
 ><!--
 ><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">>
 >(is this still accurate for the Scenario Planner?)>

@@ -18,7 +18,7 @@ For more information about billing records, see the article [Create billing reco
 
 >[!NOTE]
 >
->Enabling this option does not remove a timesheet approver's ability to approve time on the timesheet. If the Project Owner doesn't approve or reject time, a timesheet approver can&nbsp;still approve the time on a timesheet. &nbsp;
+>Enabling this option does not remove a timesheet approver's ability to approve time on the timesheet. If the Project Owner doesn't approve or reject time, a timesheet approver can still approve the time on a timesheet. 
 
 ## Access requirements
 
@@ -34,11 +34,15 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Review or higher</p> </td> 
+   <td> <p>Plan to require time to be approved on the project</p>
+   <p>Review or higher to approve hours logged on a project</p>
+    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Projects or higher</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>Edit access to Projects or higher</p> <p><b>NOTE</b>
+   
+   If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
