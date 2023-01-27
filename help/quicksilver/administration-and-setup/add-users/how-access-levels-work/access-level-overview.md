@@ -250,12 +250,6 @@ The following are the highest access settings available for objects in the Light
  </tbody> 
 </table>
 
-### Light limited
-
-Attached to the ____ license, the Light (Limited) access level is for users when Contributor or External license users exceed their approval limit. For more information, see ____.
-
-[do we need a table outlining access to objects?]
-
 ### Contributor access level
 
 Attached to the Contributor license, this access level is designed for users who:
