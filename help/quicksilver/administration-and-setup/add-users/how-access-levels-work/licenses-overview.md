@@ -33,8 +33,6 @@ This table and diagram show the main levels of access to Workfront:
 >
 >The External license is not a paid license. It is designed primarily for sharing documents with people who don't use Workfront. For more information, see [Access levels overview](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md).
 
-![](assets/licenses-and-access-levels.png)
-
 ## How a license defines an access level
 
 The license attached to an access level determines the overall scope of functionality available in the access level.

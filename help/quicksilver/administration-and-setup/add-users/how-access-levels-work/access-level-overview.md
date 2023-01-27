@@ -57,7 +57,7 @@ Attached to the Standard license, this built-in access level is designed for a u
 
 Users with the System Administrator access level can do everything within Workfront. They can view and edit all Workfront objects and information entered in Workfront by all other users.
 
-They also have access to the complete Setup area, where they can change any setting at the system level. And they can access all areas in the  Main Menu ![](assets/main-menu-icon.png).
+They also have access to the complete Setup area, where they can change any setting at the system level. And they can access all areas in the  Main Menu.
 
 For more information, see [Grant a user full administrative access](../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md).
 
@@ -117,7 +117,7 @@ Attached to the Light license, this access level is designed for users who:
 Users with the Light access level:
 
 * Cannot be assigned work items or approve timesheets
-* Can access requests and documents in the Main Menu ![](assets/main-menu-icon.png).
+* Can access requests and documents in the Main Menu.
 * Have limited ability to create objects—they can't create projects, portfolios, programs, or reports.
 
 >[!NOTE]
@@ -270,7 +270,7 @@ Users with this built-in access level:
 * Can upload and approve documents
 * Can review the status of issues they have submitted
 * Cannot be assigned to work items  
-* Can access requests only from the Main Menu ![](assets/main-menu-icon.png). For more information about request queues, see [Create a Request Queue](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+* Can access requests only from the Main Menu. For more information about request queues, see [Create a Request Queue](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
 >[!NOTE]
 >
