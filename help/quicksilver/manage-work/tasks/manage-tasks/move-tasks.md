@@ -202,10 +202,7 @@ In addition to moving tasks from a list of tasks, you can also move a task at th
     </tbody> 
    </table>
 
-
-
-  
-  
+ 
 
 1. (Optional) Click **Select Parent** in the left panel
 
