@@ -9,7 +9,11 @@ feature: Work Management
 
 # Limited document and proof decision for non-paid users overview
 
-Proof and document decisions are limited for all non-paid Workfront licenses. Limits reset on a per-user basis each month.  
+Proof and document decisions are limited for all non-paid Workfront licenses. Limits reset on a per-user basis each month.
+
+>[!IMPORTANT]
+>
+>Proof and document decision limits do not apply to users on [legacy Workfront licenses and access levels](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md). 
 
 The decision limits for each license differ depending on the plan you're on: 
 
@@ -66,8 +70,8 @@ Once a user with a Contributor license reaches their decision limit, they will b
 
 >[!NOTE]
 >
->Both the Workfront administrator and the user will receive an email notification regarding this change. 
+>Both the Workfront administrator and the user will receive an email notification regarding this upgrade. 
 
 ## View the number of decisions for a user
 
-You can view the number of decicions for a user in the Users area of Workfront. For more information, see <!-- new article -->
+You can view the number of decisions for a user in the Users area of Workfront. For more information, see [View the number of decisions for all users](/help/quicksilver/review-and-approve-work/tips-tricks-troubleshooting-approvals/view-number-of-decisions-for-users.md).
