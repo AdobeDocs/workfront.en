@@ -15,7 +15,7 @@ You can view the number of proof and document decisions made by users in your Wo
 
 To view the number of decisions for a user: 
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Users** ![](assets/users-icon-in-main-menu.png). 
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Users** ![](assets/users-icon-in-main-menu.png.png). 
 
 1. Open the **Views** area. 
     ![](assets/new-view-users-area.png)
