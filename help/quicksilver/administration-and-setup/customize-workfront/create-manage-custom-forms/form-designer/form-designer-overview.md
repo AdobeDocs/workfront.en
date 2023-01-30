@@ -1,27 +1,26 @@
 ---
-title: Custom forms overview
+title: From Designer overview
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
-description: You can build a custom form that users can attach to a Workfront object. Users who work on the object can fill out the custom form to supply information about the object.
-author: Caroline
+description: You can design a form that users can attach to a Workfront object. Users who work on the object can fill out the custom form to supply information about the object.
+author: Courtney
 feature: System Setup and Administration
 role: Admin
-exl-id: b04ed2e8-c60e-4978-8a9d-b9e087987ef4
 ---
-# Custom forms overview
+# Form Designer overview
 
-You can build a custom form that users can attach to a Workfront object. Users who work on the object can fill out the custom form to supply information about the object.
+You can design a form that users can attach to a Workfront object. Users who work on the object can fill out the custom form to supply information about the object.
 
-For example, a user can attach the following custom form to a project so that users on the project can request marketing content for the project:
+For example, a user can attach the following form to a project so that users on the project can request marketing content for the project:
 
 ![](assets/see-image-details-page.png)
 
 ## Custom fields and widgets
 
-Workfront provides many built-in fields for each object type. In a custom form, you can create additional fields that prompt users for information that is unique to their workflows. These custom fields are the building blocks of a custom form.
+Workfront provides many built-in fields for each object type. In a form, you can create additional fields that prompt users for information that is unique to their workflows. These custom fields are the building blocks of a form.
 
-You can add the following types of custom fields to a custom form in Workfront:
+You can add the following types of custom fields to a form in Workfront:
 
 * Single line text field
 * Paragraph text field
