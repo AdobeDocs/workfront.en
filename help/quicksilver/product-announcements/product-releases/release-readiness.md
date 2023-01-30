@@ -12,6 +12,8 @@ feature: Product Announcements
 
 [Watch a video about ways you can prepare for an [!DNL Adobe Workfront] quarterly release.](https://video.tv.adobe.com/v/3413544){target=_blank}
 
+>[!VIDEO](https://video.tv.adobe.com/v/3413544/?quality=12)
+
 ## Understand the [!DNL Workfront] release process
 
 For a detailed description of the [!DNL Workfront] release process, see [[!DNL Adobe Workfront] release schedule and process](workfront-release-schedule.md).
