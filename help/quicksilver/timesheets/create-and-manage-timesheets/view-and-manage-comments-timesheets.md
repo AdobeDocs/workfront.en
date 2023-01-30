@@ -92,7 +92,14 @@ You can make general comments about the timesheet.
 
 1. Click **Timesheets**.
 1. Go to the timesheet where you want to make a comment and click **Timesheet** in the left panel.
-1. Click in the hour entry field where you want to make a comment and do one of the following:
+1. Click in the hour entry field where you want to make a comment and click **Comment** to add a comment for your hour entry. 
+
+   >[!TIP]
+   >
+   >   When using a standard QWERTY keyboard after clicking the hour entry box, press the following set of keys to open the comment box:
+   >   * Shift + F2 for both Windows and Mac computers. 
+
+   Do one of the following:
 
    * Type a new comment and click **Done**.
    * Edit an existing comment and click **Done**, or click **Cancel** to discard the changes.
@@ -101,6 +108,13 @@ You can make general comments about the timesheet.
       A blue marker appears in the upper-right corner of the hour entry box to indicate that there are comments logged with the time entry.
 
    ![](assets/commment-button-on-hour-log-redesigned-timesheet.png)
+
+   >[!TIP]
+   >
+   >   When using a standard QWERTY keyboard, from inside the comment box, press the following set of keys to save the comment:
+   >   * Ctrl + Enter for Windows computers.
+   >   * Cmd + Return for Mac computers.
+   
 
 1. (Optional) To configure hour-entry comments to display in the timesheet, see the section [View hour-entry comments on a timesheet](#view-hour-entry-comments-on-a-timesheet) in this article.
 
