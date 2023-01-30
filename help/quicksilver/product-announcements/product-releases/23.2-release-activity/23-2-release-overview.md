@@ -12,7 +12,7 @@ This page provides information about functionality that is included in the 23.2 
 
 The enhancements on this page are available in the Preview environment. This page will be updated with additional enhancements as the 23.2 release nears its planned Production release.
 
-For tips on preparing for the upcoming release, see (Prepare for an [!DNL Adobe Workfront] quarterly release)[/help/quicksilver/product-announcements/product-releases/release-readiness.md].
+For tips on preparing for the upcoming release, see [Prepare for an Adobe Workfront quarterly release](/help/quicksilver/product-announcements/product-releases/release-readiness.md).
 
 <!-- The 23.2 release webinar will be held on ___. You can [register for the webinar here](link). -->
 
