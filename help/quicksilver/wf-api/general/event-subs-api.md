@@ -661,6 +661,23 @@ This connector makes the filter apply to the new state or old state of the objec
 >The subscription below with the given filter will only return messages where the name of the task contains `again` on the `oldState`, what it was before an update was made on the task.
 >A use case for this would be to find the objCode messages that changed from one thing to another. For example, to find out all of the tasks that changed from "Research Some name" to "Research TeamName Some name"
 
+```
+{
+    "objCode": "TASK",
+    "eventType": "UPDATE",
+    "authToken": "token",
+    "url": "https://domain-for-subscription.com/API/endpoint/UpdatedTasks",
+    "filters": [
+        {
+            "fieldName": "name",
+            "fieldValue": "again",
+            "comparison": "contains",
+            "state": "oldState"
+        }
+    ]
+}
+```
+
 ### Using connector fields
 
 The `filterConnector` field on the subscription payload allows you to choose how the filters should be applied. The default is "AND", where the filters must all be `true` for the subscription message to come through. If "OR" is specified then only one filter must match for the subscription message to come through.
