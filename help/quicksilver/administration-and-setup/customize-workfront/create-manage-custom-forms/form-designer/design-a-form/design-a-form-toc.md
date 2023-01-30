@@ -1,5 +1,5 @@
 ---
-title: Form Designer
+title: Design a form
 user-type: administrator
 content-type: reference
 product-area: system-administration
@@ -9,10 +9,5 @@ author: Courtney
 feature: System Setup and Administration
 role: Admin
 ---
-# Form Designer
-
-* [Form Designer overview](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/form-designer-overview.md)
-* [Design a form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form-toc.md)
-* [Manage a form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/manage-a-form-toc.md)
-* [Manage custom fields with the Form Designer](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-custom-fields/manage-custom-fields-toc.md)
+# Design a form
 
