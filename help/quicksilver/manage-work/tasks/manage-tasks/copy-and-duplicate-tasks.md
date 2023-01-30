@@ -51,7 +51,7 @@ Consider the following when copying a task:
 
 You can copy a task in the following areas of the Adobe Workfront web application:
 
-* At the task level, from the **More icon** ![](assets/qs-more-menu-19x7.png) to the left of the task name.
+* At the task level, from the **More icon** ![](assets/qs-more-menu-19x7.png) to the right of the task name.
 
   For information, see the [Copy a task at the task level](#copy-a-task-at-the-task-level) section in this article.
 
