@@ -192,7 +192,7 @@ When you are configuring this module, the following fields display.
   </tr> 
   <tr> 
    <td>[!UICONTROL Proof Type]</td> 
-   <td> <p>Specify whether you want the proof that is created to have a basic workflow or an [!UICONTROL Automated Workflow].</p> <p>Then fill out the fields that display for the proof type you chose. For example, if you chose [!UICONTROL Automated Workflow], fill out the <strong>[!UICONTROL Workflow Stages]</strong> field to configure the stages.</p> <p>You can use output from the [!UICONTROL Build] module here if you include and run that module earlier in the scenario. For more information, see <a href="#build" class="MCXref xref">[!UICONTROL Build]</a> in this article.</p> </td> 
+   <td> <p>Specify whether you want the proof that is created to have a basic workflow or an [!UICONTROL Automated Workflow].</p> <p>Then fill out the fields that display for the proof type you chose. For example, if you chose [!UICONTROL Automated Workflow], fill out the <strong>[!UICONTROL Workflow Stages]</strong> field to configure the stages.</p></td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL Allow original file to be downloaded]</td> 
