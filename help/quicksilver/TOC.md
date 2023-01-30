@@ -1651,7 +1651,7 @@ feature-set: Workfront
     * [Update work items in the Workload Balancer using the Summary](resource-mgmt/workload-balancer/update-items-in-summary-panel-in-workload-balancer.md)
 * Review and approve work {#review-and-approve-work}
   * [Review and approve work](review-and-approve-work/review-and-approve-work.md)
-  * * [Limited document and proof decision for non-paid users overview](review-and-approve-work/proof-doc-decision-limits.md)
+  * [Limited document and proof decision for non-paid users overview](review-and-approve-work/proof-doc-decision-limits.md)
   * [Alpha Program – Document Approvals](review-and-approve-work/Documents/doc-approvals-alpha.md)
   * Work approvals {#work-approvals}
     * [Work approvals](review-and-approve-work/manage-approvals/manage-approvals.md)
@@ -1777,7 +1777,7 @@ feature-set: Workfront
       * [Disable sharing proof via public URL or embed code](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/disable-public-proofs.md)
       * [FAQ: proofing within Adobe Workfront - US to EMEA migration](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/faq-proofing-in-wf-us-to-emea-migration.md)
     * Tips, tricks, and troubleshooting for approvals {#ttt-approvals}
-      * [Tips, tricks, and troubleshooting for approvals](eview-and-approve-work/tips-tricks-troubleshooting-approvals/tips-tricks-troubleshooting-approvals.md)
+      * [Tips, tricks, and troubleshooting for approvals](review-and-approve-work/tips-tricks-troubleshooting-approvals/tips-tricks-troubleshooting-approvals.md)
       * [View the number of decisions for all users](review-and-approve-work/tips-tricks-troubleshooting-approvals/view-number-of-decisions-for-users.md)
 * Timesheets {#timesheets}
   * [Timesheets](timesheets/timesheets-all.md)
