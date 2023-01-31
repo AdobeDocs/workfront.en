@@ -107,7 +107,7 @@ Consider the following when copying a template task:
       
       The following are examples of date-specific constraints:
       <ul>
-      <li> Start On</li>
+      <li> Must Start On</li>
       <li> Must Finish On</li>
       <li> Start No Earlier Than</li>
       <li> Start No Later Than</li>
