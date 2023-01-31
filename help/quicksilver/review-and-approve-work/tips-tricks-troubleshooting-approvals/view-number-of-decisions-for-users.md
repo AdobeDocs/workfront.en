@@ -29,3 +29,4 @@ To view the number of decisions for a user:
     >You can also add this field to a report. For more information on creating reports, see [Create a custom report](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
 1.  Click **Save view**.
+
