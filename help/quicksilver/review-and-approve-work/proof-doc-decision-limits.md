@@ -74,6 +74,7 @@ Once a user with a Contributor license reaches their decision limit, they will b
 >
 >Both the Workfront administrator and the user will receive an email notification regarding this upgrade. 
 
+<!-- 
 ## View the number of decisions for a user
 
-You can view the number of decisions for a user in the Users area of Workfront. For more information, see [View the number of decisions for all users](/help/quicksilver/review-and-approve-work/tips-tricks-troubleshooting-approvals/view-number-of-decisions-for-users.md).
+You can view the number of decisions for a user in the Users area of Workfront. For more information, see [View the number of decisions for all users](/help/quicksilver/review-and-approve-work/tips-tricks-troubleshooting-approvals/view-number-of-decisions-for-users.md). -->
