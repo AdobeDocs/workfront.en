@@ -68,7 +68,7 @@ If an external user reaches their decision limit, they will not lose access to W
 
 ## Contributor users 
 
-Once a user with a Contributor license reaches their decision limit, they will be automatically upgraded to the Light license with unlimited proof and document decisions. For more information about the Light license, see the [Light access level](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md) section in the [Access levels overview](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md) article.
+Once a user with a Contributor license reaches their decision limit, they will be automatically upgraded to the Light license with unlimited proof and document decisions. <!-- For more information about the Light license, see the [Light access level](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md) section in the [Access levels overview](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md) article.-->
 
 >[!NOTE]
 >
