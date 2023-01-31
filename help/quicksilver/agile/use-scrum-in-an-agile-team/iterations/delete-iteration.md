@@ -11,6 +11,10 @@ exl-id: db7fbafd-9d22-4035-a130-60ec2e4ad347
 
 You can delete an iteration for your agile team if it is no longer needed.
 
+>[!NOTE]
+>
+>Any iterations you delete cannot be recovered.
+
 ## Access requirements
 
 You must have the following access to perform the steps in this article:

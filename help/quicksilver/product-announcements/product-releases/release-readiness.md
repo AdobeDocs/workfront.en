@@ -10,7 +10,13 @@ feature: Product Announcements
 
 [!DNL Adobe Workfront] releases major updates to the Production environment quarterly. As a [!DNL Workfront] administrator, you have the opportunity to ensure that your organization has a smooth transition to each new version of the [!DNL Workfront] product. 
 
+<!--
 [Watch a video about ways you can prepare for an [!DNL Adobe Workfront] quarterly release.](https://video.tv.adobe.com/v/3413544){target=_blank}
+-->
+
+Watch the video below to learn about ways you can prepare for an [!DNL Adobe Workfront] quarterly release.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3413544/?quality=12)
 
 ## Understand the [!DNL Workfront] release process
 
