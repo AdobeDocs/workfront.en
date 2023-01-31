@@ -10,5 +10,7 @@ exl-id: c88c09aa-166f-4ae1-bcfc-89b678590f51
 ---
 # Review and approve work
 
+This section contains the following subsections:
+
 * [Work approvals](../review-and-approve-work/manage-approvals/manage-approvals.md) 
 * [Proofing](../review-and-approve-work/proofing/proofing.md)
