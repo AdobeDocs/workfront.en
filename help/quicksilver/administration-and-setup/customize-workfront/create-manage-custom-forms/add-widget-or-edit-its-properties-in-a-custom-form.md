@@ -93,17 +93,7 @@ You must have the following to perform the steps in this article:
       <li> <p>Link to video with MP4 and MOV extension</p> </li> 
       <li> <p>Link to video already uploaded to the Documents area in your Workfront instance. For instructions, see <a href="#add-a-video-widget-to-a-custom-form-from-the-documents-area" class="MCXref xref">Add a video widget to a custom form from the Documents area</a> in this article.</p> </li> 
       </ul> 
-       <p><b>NOTE</b>:  <p>When a custom form containing a widget is attached to an object, users who work with the object can see it in the following areas:</p> 
-       <ul> 
-      <li> <p>The object's Details area (for example, for a project, the Project Details area)​</p> </li> 
-      <li> <p>The Edit box for the object, if it has the new Adobe Workfront experience look and feel (for example, the Edit Project and Edit Task boxes)​</p> </li> 
-      </ul> <p>Currently, users cannot see the widget in the following areas:​</p> 
-      <ul> 
-      <li> <p>Lists and reports</p> </li> 
-      <li> <p>Home and Summary</p> </li> 
-      <li> <p>The Edit box for the object, if it doesn't have the new Adobe Workfront experience look and feel (for example, the Edit Expense box)</p> </li> 
-      <li> <p>​The Workfront Mobile app</p> </li> 
-      </ul> </td> 
+       </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Instructions</td> 
