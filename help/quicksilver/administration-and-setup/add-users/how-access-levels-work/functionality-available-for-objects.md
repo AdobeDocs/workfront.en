@@ -80,7 +80,7 @@ It also indicates which actions Workfront administrators can disable or enable u
 | Edit finances                  | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
 | Add/edit expenses              | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
 | View finance                   | ✓        | ✓      | &nbsp;      | &nbsp;        |
-| Updates/comments               | ✓        | ✓      | &nbsp;      | &nbsp;        |
+| Add updates/comments           | ✓        | ✓      | &nbsp;      | &nbsp;        |
 
 {style="table-layout:auto"}
 
@@ -255,7 +255,7 @@ Users with a Standard license can have full access to reports. All other Access 
 
 ## Teams
 
-|  Action                                 |  Planner  |  Reviewer  |  Requestor  |  External user*  |
+|  Action                                 |  Standard  |  Light  |  Contributor  |  External user*  |
 |-----------------------------------------|-----------|------------|-------------|------------------|
 | Create                                  | ✓*        | &nbsp;     | &nbsp;      | &nbsp;           |
 | Delete                                  | ✓*        | &nbsp;     | &nbsp;      | &nbsp;           |

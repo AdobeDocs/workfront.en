@@ -57,7 +57,7 @@ Attached to the Standard license, this built-in access level is designed for a u
 
 Users with the System Administrator access level can do everything within Workfront. They can view and edit all Workfront objects and information entered in Workfront by all other users.
 
-They also have access to the complete Setup area, where they can change any setting at the system level. And they can access all areas in the  Main Menu.
+They also have access to the complete Setup area, where they can change any setting at the system level, and they can access all areas in the  Main Menu.
 
 For more information, see [Grant a user full administrative access](../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md).
 
@@ -98,7 +98,6 @@ The following are the highest access settings available for objects in the Stand
 | Scenario Planner  |&nbsp; |&nbsp; |✓ (The default setting is No Access.) |
 | Boards |&nbsp; |&nbsp; |✓ | 
 | Home |&nbsp; |&nbsp; |✓|
-| Native integrations |&nbsp; |&nbsp; |✓ |
 | Goals  |&nbsp; |&nbsp; |✓ |
 
 {style="table-layout:auto"}
@@ -237,11 +236,6 @@ The following are the highest access settings available for objects in the Light
    <td>&nbsp;</td> 
    <td>✓</td> 
   </tr> 
-    <tr> 
-   <td>Native integrations </td> 
-   <td>&nbsp;</td> 
-   <td>&nbsp;</td> 
-   <td>✓</td> 
   <tr>   
    <td>Goals </td> 
    <td>&nbsp;</td> 
@@ -255,7 +249,7 @@ The following are the highest access settings available for objects in the Light
 Attached to the Contributor license, this access level is designed for users who:
 
 * Submit requests
-* Tack requests
+* Track requests
 * Update and review requests.
 
 Users with this built-in access level:
@@ -281,7 +275,7 @@ The following are the highest access settings available for objects in the Contr
 | Issue |&nbsp; |&nbsp; |✓ |
 | Portfolios |✓ |&nbsp; |&nbsp; |
 | Programs |✓ |&nbsp; |&nbsp; |
-| Reports (including dashboards and calendar reports) |&nbsp; |✓ (Only the Details page) |&nbsp; |
+| Reports (including dashboards and calendar reports) |&nbsp; |✓ (Only the Details tab) |&nbsp; |
 | Filters, views, and groupings |&nbsp; |&nbsp; |✓ |
 | Document |&nbsp; |&nbsp; |✓ |
 | User |&nbsp; |✓ |&nbsp; |
@@ -292,7 +286,6 @@ The following are the highest access settings available for objects in the Contr
 | Scenario Planner  |✓ |&nbsp; |&nbsp; |
 | Boards |&nbsp; |✓ (Connected cards) |✓ (Simple cards) | 
 | Home |&nbsp; |✓ (My updates) |&nbsp; |
-| Native integrations |✓ |&nbsp; |&nbsp; |
 | Goals  |&nbsp; |&nbsp; |✓ |
 
 {style="table-layout:auto"}
@@ -306,7 +299,7 @@ Workfront users can assign tasks to external users even though external users ca
 Users with the External User access level:
 
 * Can view only documents and calendar reports that are shared with them
-* See the users who share documents and calendar reports with them
+* View the users who share documents and calendar reports with them
 * Approve the documents that are shared with them
 
 You cannot modify this access level.
@@ -337,13 +330,12 @@ The following are the highest access settings available for objects in the Exter
 | Scenario Planner  |✓ |&nbsp; |&nbsp; |
 | Boards |✓ |&nbsp; |&nbsp; | 
 | Home |✓ |&nbsp; |&nbsp; |
-| Native integrations |✓ |&nbsp; |&nbsp; |
 | Goals  |✓ |&nbsp; |&nbsp; |
 
 
 ## How access levels and permissions work together
 
-Access levels define what users can see and do with general object types and areas in the system, such as projects, tasks, and issues. Permissions define what you have access to on specificIf oudn objects created by other people in the system like a project created to run a marketing campaign.
+Access levels define what users can see and do with general object types and areas in the system, such as projects, tasks, and issues. Permissions define what you have access to on specific objects created by other people in the system like a project created to run a marketing campaign.
 
 The following table compares a user's general access to objects (defined by the user's access level) to permissions for a specific shared object:
 
@@ -397,24 +389,20 @@ A user can grant the recipient any of the following permissions to the individua
 
   * System-wide so that all users can see it (not available for all objects)
   * With external users who don't have a Workfront license (not available for all objects)
-  * With an email address (available only for documents)
+  * With an email address (available only for documents and calendars)
 
 * **Contribute**: (not available for all objects)
 * **Manage**: When someone shares an object, the recipient's rights to the object are determined by a combination of the recipient's access level and the permissions to the object that were granted by the sharer. The lowest degree of access available in that combination is what determines what the recipient can do with the object.
 
-  >[!INFO]
-  >
-  >**Example:** If the recipient's access level doesn't allow project editing, that person can't edit or delete a project even if the sharer granted permissions to manage it.
-  >
-  >Or, if the recipient's access level allows project editing, but the sharer granted view-only permissions to a project, the user cannot edit or delete the project.
+### Example scenarios
 
+#### **Scenario 1**
 
+If the recipient's access level doesn't allow project editing, that person can't edit or delete a project even if the sharer granted permissions to manage it.
 
+Or, if the recipient's access level allows project editing, but the sharer granted view-only permissions to a project, the user cannot edit or delete the project.
 
-
->
-
-### More example scenarios
+#### **Scenario 2**
 
 When Olivia shares a Workfront project with Tony, Tony's access to it is determined by a combination of two things:
 
