@@ -75,3 +75,26 @@ You can also specify the `class="preview"` syntax in `<p>`, `<td>`, `<tr>`, and 
   </tr> 
  </tbody> 
 </table>
+
+Video with quality = 12
+
+>[!VIDEO](https://video.tv.adobe.com/v/3413544/?quality=12)
+
+Video with quality = 6
+
+>[!VIDEO](https://video.tv.adobe.com/v/3413544/?quality=6)
+
+Video inside HTML table
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Does this video work?</td> 
+   <td><iframe width="560" height="315" src="https://video.tv.adobe.com/v/3413544" frameborder="10">
+      </iframe> </td> 
+  </tr> 
+ </tbody> 
+</table>
