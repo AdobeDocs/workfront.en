@@ -93,8 +93,7 @@ Video inside HTML table
   </tr> 
   <tr> 
    <td role="rowheader">Does this video work?</td> 
-   <td><iframe width="560" height="315" src="https://video.tv.adobe.com/v/3413544" frameborder="10">
-      </iframe> </td> 
+   <td>No it does not </td> 
   </tr> 
  </tbody> 
 </table>
