@@ -72,28 +72,102 @@ You must have the following to perform the steps in this article:
 
 ## Add fields
 
-<table>
+You can add the following text fields to a custom form:
+
++++ **Descriptions of available text fields**
+* **Single Line Text Field**: Allows users to type a single line of text in the field.
+* **Paragraph Text Field**: Allows users to type multiple lines of text in the field.
+* **Text Field with Formatting**: Allows users to type multiple lines of text in the field and format the text with bold, italics, underline, bullets, numbering, hyperlinks, and block quotes. This is available in Home, the Updates area, lists, and the Details area for Workfront objects. A character limit of 15,000 allows for plenty of text and formatting.
+
+    For information about accessing this field through the API, see Rich text field storage in the API.
+
+    >[!NOTE]
+    >
+    >Text fields with formatting are not available for Workfront mobile apps (available in coming releases).
+
++++
+
+To add a text field, 
+
+1. Select 
+
+1. 
+   <table style="table-layout:auto"> 
+    <col> 
+    <col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader">Label</td> 
+      <td> <p>Type a descriptive label to display above the widget. You can change the label at any time.</p> <p><b>IMPORTANT</b>: Avoid using special characters in this label. They don't display correctly in reports.</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Name</td> 
+      <td> <p>(Required) This name is how the system identifies the widget.</p> <p>When you are configuring the widget for the first time and you type the label, the Name field populates automatically to match it. But the Label and Name fields are not synchronized—this gives you the freedom to change the label that your users see without having to change the name that the system sees.</p> <p><b>IMPORTANT</b>: Though it's possible to do so, we recommend that you do not change this name after you or other users start using the custom form in widget. If you do, the system will no longer recognize the widget where it might now be referenced in other areas of Workfront. </p> <p>Each widget name must be unique in your organization's Workfront instance. This way, you can reuse one that was already created for another custom form. </p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">URL</td> 
+      <td> <p>(Required) Type or paste the URL of the widget where it is stored on the internet.</p> 
+      <p>If you are adding a video widget, currently you can do so by adding the following in the URL box:</p> 
+      <ul> 
+      <li> <p>YouTube or Vimeo link</p> </li> 
+      <li> <p>Google Drive video link</p> </li> 
+      <li> <p>Link to video with MP4 and MOV extension</p> </li> 
+      <li> <p>Link to video already uploaded to the Documents area in your Workfront instance. For instructions, see <a href="#add-a-video-widget-to-a-custom-form-from-the-documents-area" class="MCXref xref">Add a video widget to a custom form from the Documents area</a> in this article.</p> </li> 
+      </ul> 
+       <p><b>NOTE</b>:  <p>When a custom form containing a widget is attached to an object, users who work with the object can see it in the following areas:</p> 
+       <ul> 
+      <li> <p>The object's Details area (for example, for a project, the Project Details area)​</p> </li> 
+      <li> <p>The Edit box for the object, if it has the new Adobe Workfront experience look and feel (for example, the Edit Project and Edit Task boxes)​</p> </li> 
+      </ul> <p>Currently, users cannot see the widget in the following areas:​</p> 
+      <ul> 
+      <li> <p>Lists and reports</p> </li> 
+      <li> <p>Home and Summary</p> </li> 
+      <li> <p>The Edit box for the object, if it doesn't have the new Adobe Workfront experience look and feel (for example, the Edit Expense box)</p> </li> 
+      <li> <p>​The Workfront Mobile app</p> </li> 
+      </ul> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Instructions</td> 
+      <td> <p>Type any additional information about the widget. When users fill out the custom form, they can hover over the question mark icon to view a tool tip containing the information you type here.</p> </td> 
+     </tr>
+    </tbody> 
+   </table>
+
+   <table>
     <tr>
-        <td>Field</td>
-        <td>Uses</td>
+        <td>Input into</td>
+        <td>Description</td>
+        <td>Available for </td>
     </tr>
     <tr>
-        <td>Single Line Text Field</td>
-        <td>Allows users to type a single line of text in the field.</td>
+        <td>Label</td>
+        <td>Type a descriptive label to display above the widget. You can change the label at any time.&lt;/p&gt; &lt;p&gt;&lt;b&gt;IMPORTANT&lt;/b&gt;: Avoid using special characters in this label. They don't display correctly in reports.</td>
+        <td>Single line text, Paragraph text, Text with formatting</td>
     </tr>
     <tr>
-        <td>Paragraph Text Field</td>
-        <td>Allows users to type multiple lines of text in the field.</td>
+        <td>Name</td>
+        <td>(Required) This name is how the system identifies the widget.&lt;/p&gt; &lt;p&gt;When you are configuring the widget for the first time and you type the label, the Name field populates automatically to match it. But the Label and Name fields are not synchronized—this gives you the freedom to change the label that your users see without having to change the name that the system sees.</td>
+        <td>Single line text, Paragraph text, Text with formatting, Descriptive text</td>
     </tr>
     <tr>
-        <td>Text Field with Formatting</td>
-        <td><p>Allows users to type multiple lines of text in the field and format the text with bold, italics, underline, bullets, numbering, hyperlinks, and block quotes. This is available in Home, the Updates area, lists, and the Details area for Workfront objects. A character limit of 15,000 allows for plenty of text and formatting.<p>
-        <p>For information about accessing this field through the API, see Rich text field storage in the API.</p>
-        <p><strong>Note</strong>: Text fields with formatting are not available for Workfront mobile apps (available in coming releases).</p></td>
+        <td>Instructions</td>
+        <td>Type any additional information about the widget. When users fill out the custom form, they can hover over the question mark icon to view a tool tip containing the information you type here.</td>
+        <td>Single line text, Paragraph text, Text with formatting</td>
     </tr>
     <tr>
-        <td>Descriptive Text</td>
-        <td>Allows you to include instructions and link to pages outside Workfront.</td>
+        <td>Format</td>
+        <td>Choose formatting for the text box</td>
+        <td>Single line text, Paragraph text</td>
+    </tr>
+    <tr>
+        <td>Display Type</td>
+        <td>Switch between single line and paragraph text</td>
+        <td>Single line text, Paragraph text</td>
+    </tr>
+    <tr>
+        <td>Hyperlink</td>
+        <td>Add a hyperlink for the text</td>
+        <td>Descriptive text</td>
     </tr>
 </table>
 
