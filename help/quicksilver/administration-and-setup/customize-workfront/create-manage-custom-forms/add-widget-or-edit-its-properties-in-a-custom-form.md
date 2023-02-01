@@ -17,6 +17,19 @@ You can add or edit the properties of any of the following asset widgets in a cu
 
 This is useful when you need to include visual content such as branding images, an instructional video, or an interactive prototype for an app you are designing.  
 
+When a custom form containing a widget is attached to an object, users who work with the object can see it in the following areas:
+
+* The object's Details area (for example, for a project, the Project Details area) 
+* The Edit box for the object, if it has the new Adobe Workfront experience look and feel (for example, the Edit Project and Edit Task boxes)
+
+Currently, users cannot see the widget in the following areas:​ 
+
+* Lists and reports
+* Home and Summary
+* The Edit box for the object, if it doesn't have the new Adobe Workfront experience look and feel (for example, the Edit Expense box)
+* The Workfront Mobile app
+ 
+
 ## Access requirements
 
 You must have the following to perform the steps in this article:
@@ -135,20 +148,9 @@ You must have the following to perform the steps in this article:
      </tr> 
      <tr> 
       <td role="rowheader">URL</td> 
-      <td> <p>(Required) Type or paste the URL of the widget where it is stored on the internet.</p> 
-     
-      </ul> 
-       <p><b>NOTE</b>:When a custom form containing a widget is attached to an object, users who work with the object can see it in the following areas:
-       <ul> 
-      <li> <p>The object's Details area (for example, for a project, the Project Details area)​</p> </li> 
-      <li> <p>The Edit box for the object, if it has the new Adobe Workfront experience look and feel (for example, the Edit Project and Edit Task boxes)​</p> </li> 
-      </ul> <p>Currently, users cannot see the widget in the following areas:​</p> 
-      <ul> 
-      <li> <p>Lists and reports</p> </li> 
-      <li> <p>Home and Summary</p> </li> 
-      <li> <p>The Edit box for the object, if it doesn't have the new Adobe Workfront experience look and feel (for example, the Edit Expense box)</p> </li> 
-      <li> <p>​The Workfront Mobile app</p> </li> 
-      </ul> </td> 
+      <td> <p>(Required) Type or paste a valid XD prototype link.</p> 
+      <p>Note: The Link Access setting on the Share tab in Adobe XD must be set to Anyone with the link. Otherwise, users will not be able to view the prototype. 
+   </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Instructions</td> 
