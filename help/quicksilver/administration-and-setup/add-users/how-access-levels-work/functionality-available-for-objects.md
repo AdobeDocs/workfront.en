@@ -25,7 +25,7 @@ It also indicates which actions Workfront administrators can disable or enable u
 | Delete                       | ✓&#42;   | &nbsp; | &nbsp;      | &nbsp;        |
 | Share                        | ✓&#42;   | &nbsp; | &nbsp;      | &nbsp;        |
 | Share system-wide            | ✓&#42;   | &nbsp; | &nbsp;      | &nbsp;        |
-| View                         | ✓&#42;   | ✓&#42; | &nbsp;      | &nbsp;        |
+| View                         | ✓&#42;   | ✓&#42; | ✓&#42;      | &nbsp;        |
 | Add a custom form            | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
 | Update custom fields         | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
 | Add an approval process      | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
@@ -35,7 +35,7 @@ It also indicates which actions Workfront administrators can disable or enable u
 | Add tasks                    | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
 | Give updates/comments        | ✓        | ✓      | &nbsp;      | &nbsp;        |
 | Change status                | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
-| Log hours                    | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
+| Log hours                    | ✓        | ✓      | &nbsp;      | &nbsp;        |
 | Edit assignments             | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
 | Manage a baseline            | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
 | Manage risks                 | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
