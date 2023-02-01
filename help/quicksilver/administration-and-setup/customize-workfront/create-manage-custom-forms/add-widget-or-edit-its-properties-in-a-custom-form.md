@@ -60,7 +60,7 @@ You must have the following to perform the steps in this article:
 1. Begin working on a custom form, as described in [Create or edit a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 1. With the **Add a field** tab open, do one of the following:
 
-   * If you are adding a new widget, select **Image**, **PDF**, **Video**, or **Adobe XD** to add it at the bottom of the form, or drag it where you want it on the form.
+   * If you are adding a new widget, select **Image**, **PDF**, or **Video** to add it at the bottom of the form, or drag it where you want it on the form.
 
      ![](assets/add-widget.png)
 
@@ -131,7 +131,7 @@ You must have the following to perform the steps in this article:
 ## Add an XD file to a custom form
 
 1. Begin working on a custom form, as described in [Create or edit a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
-1. With the **Add a field** tab open, select Adobe XD.
+1. With the **Add a field** tab open, select **Adobe XD**.
 1. Type or edit any of the following properties for the widget:
 
    <table style="table-layout:auto"> 
@@ -154,14 +154,24 @@ You must have the following to perform the steps in this article:
      </tr> 
      <tr> 
       <td role="rowheader">Instructions</td> 
-      <td> <p>Type any additional information about the widget. When users fill out the custom form, they can hover over the question mark icon to view a tool tip containing the information you type here.</p> </td> 
+      <td> <p>(Optional) Type any additional information about the widget. When users fill out the custom form, they can hover over the question mark icon to view a tool tip containing the information you type here.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Size</td> 
-      <td>Change the display size of the widget as needed.</td> 
+      <td>(Optional) Change the display size of the widget as needed.</td> 
      </tr> 
     </tbody> 
    </table>
+
+1. If you want to continue building your custom form in other ways, continue on to one of the following articles:
+
+   * [Position custom fields and widgets in a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/position-fields-in-a-custom-form.md) 
+   * [Add a custom field to a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md) 
+   * [Reuse a custom field or widget in a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/reuse-an-existing-field.md) 
+   * [Add calculated data to a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md) 
+   * [Reuse an existing calculated custom field in a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/use-existing-calc-field-new-custom-form.md) 
+   * [Add display logic and skip logic to a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/display-or-skip-logic-custom-form.md) 
+   * [Preview and complete a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/preview-and-complete-a-custom-form.md)
 
 ## Add a video widget to a custom form from the Documents area {#add-a-video-widget-to-a-custom-form-from-the-documents-area}
 
