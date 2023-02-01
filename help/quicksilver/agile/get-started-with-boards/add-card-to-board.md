@@ -73,11 +73,11 @@ An ad hoc card is not connected to a work item in [!DNL Adobe Workfront].
      </tr>
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Estimation]</strong></td> 
-      <td><p>Type the estimated number of hours for the card to be completed. This is a manual entry only and cannot be more than 99.</p></td>
+      <td><p>Type the estimated number of hours for the card to be completed. This is a manual entry only.</p></td>
      </tr>
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Due date]</strong></td> 
-      <td>Select a due date for the card. </td> 
+      <td>Select a due date for the card. </td>
      </tr>
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Tags]</strong></td> 
