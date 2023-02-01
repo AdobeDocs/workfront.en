@@ -48,9 +48,9 @@ You must have the following to perform the steps in this article:
 
 1. Click **Custom Forms** in the left panel.
 
-    >[!TIP]
+   <!-- >[!TIP]
     >
-    >In the view that appears, you can review all custom forms and custom fields that have been created for your organization. You can also see who created each form and the fields that are associated with it.
+    >In the view that appears, you can review all custom forms and custom fields that have been created for your organization. You can also see who created each form and the fields that are associated with it. -->
 
 1. Click **New Custom Form.**
 1. Select which object types you'd like to attach the custom form to, then click **Continue**.
@@ -58,11 +58,7 @@ You must have the following to perform the steps in this article:
    ![](assets/choose-object-type.jpg)
 
 1. In the **Title is required** area, type the custom form title.
-1. (Optional) If you want to add more object types to the form so that it can be attached to more objects, click the plus sign + after **Object Types**, then select the type you want in the menu that displays.
-
-   ![](assets/add-object-type-existing-form.png)
-
-   You can repeat this to add as many object types as you want. 
+1. (Optional) If you want to add more object types to the form so that it can be attached to more objects, click the **Add** icon ![](assets/add-objects-icon.png) after **Object Types**, then select the type you want in the menu that displays. You can repeat this to add as many object types as you want. 
    
    You can also click the X on an object type to delete it from the form. This should be done with caution when you want to delete an object type from a custom form you have already saved. For more information, see [Delete object types on a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/delete-object-type-on-a-custom-form.md).
 
