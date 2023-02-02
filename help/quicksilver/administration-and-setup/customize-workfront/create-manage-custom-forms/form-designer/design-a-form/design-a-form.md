@@ -72,7 +72,9 @@ You must have the following to perform the steps in this article:
 
 ## Add fields
 
-You can add several different text fields to a custom form. 
+ ### Add text fields
+
+ You can add several different text fields to a custom form. 
 
 +++ **See descriptions of available text fields**
 
@@ -132,7 +134,7 @@ To add a text field:
     </tr>
     <tr>
     <td>Format</td>
-    <td>Choose formatting for the text box</td>
+    <td>Choose how you want the text to be formatted: text, currency, or number. </td>
     <td><ul>
     <li>Single line text</li>
     <li>Paragraph text</li>
@@ -140,7 +142,7 @@ To add a text field:
     </tr>
     <tr>
     <td>Display Type</td>
-    <td>Switch between single line and paragraph text</td>
+    <td>Switch between single line and paragraph text.</td>
     <td><ul>
     <li>Single line text</li>
     <li>Paragraph text</li>
@@ -149,13 +151,10 @@ To add a text field:
     </tr>
     <tr>
     <td>Hyperlink</td>
-    <td>Add a hyperlink for the text</td>
+    <td>Paste a link in the URL field to make your description a hyperlink.</td>
     <td><ul><li>Descriptive text</li></ul></td>
     </tr>
 </table>
-
-
- ### Add text fields
 
  ### Add calculated fields
 
@@ -167,5 +166,40 @@ To add a text field:
 
  ### Add Adobe XD files
 
+ You can add an Adobe XD prototype directly to a custom form. 
+
+ To add an Adobe XD file:
+
+1. On the left side of the screen, find **Adobe XD** and drag it to a section on the canvas. 
+1. Type or edit any of the following properties for the widget:
+
+   <table style="table-layout:auto"> 
+    <col> 
+    <col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader">Label</td> 
+      <td> <p>(Required) Type a descriptive label to display above the widget. You can change the label at any time.</p> <p><b>IMPORTANT</b>: Avoid using special characters in this label. They don't display correctly in reports.</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Name</td> 
+      <td> <p>(Required) This name is how the system identifies the widget.</p> <p>When you are configuring the widget for the first time and you type the label, the Name field populates automatically to match it. But the Label and Name fields are not synchronized—this gives you the freedom to change the label that your users see without having to change the name that the system sees.</p> <p><b>IMPORTANT</b>: Though it's possible to do so, we recommend that you do not change this name after you or other users start using the custom form in widget. If you do, the system will no longer recognize the widget where it might now be referenced in other areas of Workfront. </p> <p>Each widget name must be unique in your organization's Workfront instance. This way, you can reuse one that was already created for another custom form. </p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">URL</td> 
+      <td> <p>(Required) Type or paste a valid XD prototype link.</p> 
+      <p>Note: The Link Access setting on the Share tab in Adobe XD must be set to Anyone with the link. Otherwise, users will not be able to view the prototype. 
+   </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Instructions</td> 
+      <td> <p>(Optional) Type any additional information about the widget. When users fill out the custom form, they can hover over the question mark icon to view a tool tip containing the information you type here.</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Size</td> 
+      <td>(Optional) Change the display size of the widget as needed.</td> 
+     </tr> 
+    </tbody> 
+   </table>
 
  ## Organize your form
