@@ -50,7 +50,7 @@ For tips on preparing for the upcoming release, see [Prepare for an Adobe Workfr
                                 <p>Preview release: January 26, 2023<br /></p>
                             </li>
                             <li>
-                                 <p>Production release for early opt-in: February 2, 2023 <span style="color: #ff0000;"> This feature is available in Production on this date only through the early feature opt-in for Workfront Boards.</span></p>
+                                 <p>Production release for early opt-in: This feature was delayed and is releasing February 9. <span style="color: #ff0000;">This feature is available in Production on this date only through the early feature opt-in for Workfront Boards.</span></p>
                                 <p>Production release for all customers: With the 23.2 release</p>
                             </li>
                         </ul>
