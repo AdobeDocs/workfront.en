@@ -13,10 +13,6 @@ The boards dashboard shows the list of boards that you have access to, including
 
 On the boards dashboard you can archive a board, filter the list of boards, sort the list by board name or date modified, and search for a specific board. You can also archive an individual board or delete it. For information about creating a new board or editing an existing board, see [Create or edit a board](../../agile/get-started-with-boards/create-edit-board.md).
 
->[!IMPORTANT]
->
->[!UICONTROL Boards] does not appear in the [!UICONTROL Main Menu] by default. Your [!DNL Workfront] administrator must add [!UICONTROL Boards] to your layout template to make it available in the [!UICONTROL Main Menu]. For information, see [Customize the [!UICONTROL Main Menu] using a layout template](../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
-
 ## Access requirements
 
 You must have the following access to perform the steps in this article:
