@@ -2044,6 +2044,7 @@ feature-set: Workfront
     * [Microsoft OneDrive modules](workfront-fusion/apps-and-their-modules/microsoft-onedrive-modules.md)
     * [Microsoft Power BI modules](workfront-fusion/apps-and-their-modules/powerbi-modules.md)
     * [Microsoft SQL Server modules](workfront-fusion/apps-and-their-modules/microsoft-sql-server-modules.md)
+    * [Microsoft Word Templates modules](workfront-fusion/apps-and-their-modules/microsoft-word-templates-modules.md)
     * [MIME modules](workfront-fusion/apps-and-their-modules/mime.md)
     * [NetSuite modules](workfront-fusion/apps-and-their-modules/netsuite.md)
     * [Qualtrics modules](workfront-fusion/apps-and-their-modules/qualtrics-modules.md)
