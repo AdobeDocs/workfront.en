@@ -121,6 +121,7 @@ This section contains the following articles:
 * [[!DNL Microsoft OneDrive for Business]](../../workfront-fusion/apps-and-their-modules/microsoft-onedrive-for-business-modules.md) 
 * [[!DNL Microsoft Power BI] modules](../../workfront-fusion/apps-and-their-modules/powerbi-modules.md)
 * [[!DNL Microsoft SQL Server] modules](../../workfront-fusion/apps-and-their-modules/microsoft-sql-server-modules.md) 
+* [[!DNL Microsoft Word Template] modules](../../workfront-fusion/apps-and-their-modules/microsoft-word-templates-modules.md) 
 * [[!UICONTROL MIME] modules](../../workfront-fusion/apps-and-their-modules/mime.md) 
 * [[!DNL NetSuite] modules](../../workfront-fusion/apps-and-their-modules/netsuite.md) 
 * [[!DNL Qualtrics] modules](../../workfront-fusion/apps-and-their-modules/qualtrics-modules.md) 
