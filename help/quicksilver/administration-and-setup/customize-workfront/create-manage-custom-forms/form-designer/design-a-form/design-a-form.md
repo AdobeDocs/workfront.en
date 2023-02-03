@@ -443,25 +443,69 @@ To add radio buttons and checkboxes:
 
  +++ **See descriptions of available fields**
 
-* **Typeahead**: Allows users to type the name of an object that exists in Workfront. A list of suggestions appears when the user starts typing. This field type supports the following objects:
-    * User
-    * Group
-    * Job Role
-    * Portfolio
-    * Program
-    * Project
-    * Team
-    * Template
-    * Company
-* **Dropdown**: Provides a list of drop-down choices.
-* **Date Field**: Displays a calendar where users can select a date and time.
+* **Image**: Allows users to add _____ image files.
+* **PDF**: Allows users to add PDFs
+* **Videos**: Allows users to add ____ video files.
 
 +++
 
- To add an Adobe XD file:
+ To add an images, PDFs, or videos:
 
-1. On the left side of the screen, find **Adobe XD** and drag it to a section on the canvas. 
+1. On the left side of the screen, find one of the following fields and drag it to a section on the canvas.
+
+   * Image
+   * PDF
+   * Video
+
+   ![](assets/drag-field-to-section.png)
+
 1. Type or edit any of the following properties for the widget:
+
+   <table style="table-layout:auto"> 
+    <col> 
+    <col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader">Label</td> 
+      <td> <p>(Required) Type a descriptive label to display above the widget. You can change the label at any time.</p> <p><b>IMPORTANT</b>: Avoid using special characters in this label. They don't display correctly in reports.</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Name</td> 
+      <td> <p>(Required) This name is how the system identifies the widget.</p> <p>When you are configuring the widget for the first time and you type the label, the Name field populates automatically to match it. But the Label and Name fields are not synchronized—this gives you the freedom to change the label that your users see without having to change the name that the system sees.</p> <p><b>IMPORTANT</b>: Though it's possible to do so, we recommend that you do not change this name after you or other users start using the custom form in widget. If you do, the system will no longer recognize the widget where it might now be referenced in other areas of Workfront. </p> <p>Each widget name must be unique in your organization's Workfront instance. This way, you can reuse one that was already created for another custom form. </p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">URL</td> 
+      <td> <p>(Required) Type or paste the URL of the widget where it is stored on the internet.</p> 
+      <p>If you are adding a video widget, currently you can do so by adding the following in the URL box:</p> 
+      <ul> 
+      <li> <p>YouTube or Vimeo link</p> </li> 
+      <li> <p>Google Drive video link</p> </li> 
+      <li> <p>Link to video with MP4 and MOV extension</p> </li> 
+      <li> <p>Link to video already uploaded to the Documents area in your Workfront instance. For instructions, see <a href="#add-a-video-widget-to-a-custom-form-from-the-documents-area" class="MCXref xref">Add a video widget to a custom form from the Documents area</a> in this article.</p> </li> 
+      </ul> 
+       </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Instructions</td> 
+      <td> <p>Type any additional information about the widget. When users fill out the custom form, they can hover over the question mark icon to view a tool tip containing the information you type here.</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Size</td> 
+      <td>Change the display size of the widget as needed.</td> 
+     </tr> 
+    </tbody> 
+   </table>
+
+#### **Add a video widget to a custom form from the Documents area**{#add-a-video-widget-to-a-custom-form-from-the-documents-area}
+
+>[!IMPORTANT]
+>
+>When you add a video to a custom form this way, only the permissions set for the custom form apply to the video when users access the form on an object, not the permissions that were set for the video in the Documents area.
+
+1. Go to the video in the Documents area and generate a proof for it, as described in [Create an interactive proof for a website or other web content](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-interactive-proof-for-website-or-other-web-content.md).
+1. Open the proof.
+1. Right-click anywhere on the video, then select **Copy Video Address**.
+1. In the custom form where you are adding the video widget, paste the copied address in the **URL** box.
 
  ### Add Adobe XD files
 
