@@ -63,12 +63,12 @@ You must have the following to perform the steps in this article:
    You can also click the X on an object type to delete it from the form. This should be done with caution when you want to delete an object type from a custom form you have already saved. For more information, see [Delete object types on a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/delete-object-type-on-a-custom-form.md).
 
 1. Next, you can start adding fields to your custom form. See the following sections: 
-    * Add text fields 
-    * Add calculated fields
-    * Add radio buttons and checkboxes
-    * Add typeahead, drop-down, and date fields
-    * Add images, PDFs, and Videos
-    * Add Adobe XD files
+    * [Add text fields](#add-text-fields)
+    * [Add calculated fields](#add-calculated-fields)
+    * [Add radio buttons and checkboxes](#add-radio-buttons-and-checkboxes)
+    * [Add typeahead, drop-down, and date fields](#add-typeahead-drop-down-and-date-fields)
+    * [Add images, PDFs, and Videos](#add-images-pdfs-and-videos)
+    * [Add Adobe XD files](#add-adobe-xd-files)
 
 ## Add fields to your custom form
 
@@ -438,6 +438,30 @@ To add radio buttons and checkboxes:
    </table>
 
  ### Add images, PDFs, and Videos
+
+ You can add an images, PDFs, and Videos to a custom form.
+
+ +++ **See descriptions of available fields**
+
+* **Typeahead**: Allows users to type the name of an object that exists in Workfront. A list of suggestions appears when the user starts typing. This field type supports the following objects:
+    * User
+    * Group
+    * Job Role
+    * Portfolio
+    * Program
+    * Project
+    * Team
+    * Template
+    * Company
+* **Dropdown**: Provides a list of drop-down choices.
+* **Date Field**: Displays a calendar where users can select a date and time.
+
++++
+
+ To add an Adobe XD file:
+
+1. On the left side of the screen, find **Adobe XD** and drag it to a section on the canvas. 
+1. Type or edit any of the following properties for the widget:
 
  ### Add Adobe XD files
 
