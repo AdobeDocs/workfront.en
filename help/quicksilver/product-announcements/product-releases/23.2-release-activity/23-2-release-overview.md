@@ -40,7 +40,7 @@ For tips on preparing for the upcoming release, see [Prepare for an Adobe Workfr
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-mobile-enhancements.md" class="MCXref xref" xrefformat="{para}">Estimation field on connected cards maps to Story Points field on Workfront objects</a><span style="color: #ff0000;"> New in Preview!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-1-jan-23.md" class="MCXref xref" xrefformat="{para}">Estimation field on connected cards maps to Story Points field on Workfront objects</a><span style="color: #ff0000;"> New in Preview!</span></p>
                         <p>The Estimation field on connected cards in Workfront Boards now maps to the Story Points field for the associated Workfront object. </p>
                         <p>The new Story Points field is an editable, free form field that you can add to a view in a list or report for tasks or issues. It is not tied to planned hours or team assignments.</p>
                     </td>
@@ -59,7 +59,7 @@ For tips on preparing for the upcoming release, see [Prepare for an Adobe Workfr
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-mobile-enhancements.md" class="MCXref xref" xrefformat="{para}">Preview card in intake column</a><span style="color: #ff0000;"> New in Preview!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-1-jan-23.md" class="MCXref xref" xrefformat="{para}">Preview card in intake column</a><span style="color: #ff0000;"> New in Preview!</span></p>
                         <p>You can now click on a connected card in the intake column to see a view-only version of its contents. You can't edit the card contents until the card is moved out of the intake column to another column on the board.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
