@@ -439,7 +439,17 @@ To add radio buttons and checkboxes:
 
  ### Add images, PDFs, and Videos
 
- You can add an images, PDFs, and Videos to a custom form.
+ You can add an images, PDFs, and Videos to a custom form. Users who work with the object the custom form is attached to can see the image, PDF, or video only in the following areas:
+
+* The object's Details area (for example, for a project, the Project Details area)
+* The Edit box for the object, if it has the new Adobe Workfront experience look and feel (for example, the Edit Project and Edit Task boxes)
+
+<!-- Do we need to tell them where they can't see it if we tell them where they can see it?
+Currently, users cannot see the widget in the following areas:​
+Lists and reports
+Home and Summary
+The Edit box for the object, if it doesn't have the new Adobe Workfront experience look and feel (for example, the Edit Expense box)
+The Workfront Mobile app -->
 
  +++ **See descriptions of available fields**
 
@@ -509,7 +519,10 @@ To add radio buttons and checkboxes:
 
  ### Add Adobe XD files
 
- You can add an Adobe XD prototype directly to a custom form. 
+ You can add an Adobe XD prototype directly to a custom form. Users who work with the object the custom form is attached to can see the Adobe XD file only in the following areas:
+
+* The object's Details area (for example, for a project, the Project Details area)
+* The Edit box for the object, if it has the new Adobe Workfront experience look and feel (for example, the Edit Project and Edit Task boxes)
 
  To add an Adobe XD file:
 
