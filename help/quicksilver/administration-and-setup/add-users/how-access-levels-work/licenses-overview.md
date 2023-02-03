@@ -5,14 +5,14 @@ content-type: reference
 product-area: system-administration
 keywords: license,type
 navigation-topic: access-levels
-description: Your organization purchased a certain number of licenses when it acquired Adobe Workfront. As a Workfront administrator, you give one of 3 types of paid Workfront licenses to each user when you assign the user an access level.
+description: Your organization purchased a certain number of licenses when it purchased Adobe Workfront. As a Workfront administrator, you give one of 3 types of paid Workfront licenses to each user when you assign the user an access level.
 author: Courtney
 feature: System Setup and Administration
 role: Admin
 ---
 # Licenses overview
 
-Your organization purchased a certain number of licenses when it acquired Adobe Workfront. As a Workfront administrator, you give one of 3 types of paid Workfront licenses to each user when you assign the user an access level.
+Your organization purchased a certain number of licenses when it purchased Adobe Workfront. As a Workfront administrator, you give one of 3 types of paid Workfront licenses to each user when you assign the user an access level.
 
 ## How Workfront licenses and access levels are tied together
 
@@ -45,7 +45,7 @@ For more information, see [Access levels overview](/help/quicksilver/administrat
 
 When you assign an access level to a user, your available license count is reduced by 1.
 
-For example, if you assign the Planner access level to a user, your number of available Plan licenses is reduced by 1.
+For example, if you assign the Standard access level to a user, your number of available Standard licenses is reduced by 1.
 
 You can view the licenses and access levels assigned to your users. For more information, see [List your users' access levels and licenses](../../../administration-and-setup/add-users/access-levels-and-object-permissions/list-access-levels-and-licenses-for-your-users.md).<!-- MAY NEED NEW LINK -->
 
