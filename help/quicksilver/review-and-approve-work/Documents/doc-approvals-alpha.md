@@ -25,6 +25,8 @@ Watch our [video walk-through](https://video.tv.adobe.com/v/3413941/){target=_bl
 
 With this Alpha 2 release you are able to add individuals and teams as reviewers or approvers and make approval decisions directly from the document details page.
 
+---
+
 ### Alpha Release 1 - Nov. 2022
 
 Watch our [video walk-through](https://video.tv.adobe.com/v/3412837){target=_blank} and feel free to follow along if you'd like!
