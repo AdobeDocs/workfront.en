@@ -70,9 +70,9 @@ It also indicates which actions Workfront administrators can disable or enable u
 | Add documents                  | ✓        | ✓      | &nbsp;      | &nbsp;        |
 | Copy a task                    | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
 | Move a task                    | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
-| Log hours                      | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
+| Log hours                      | ✓        | ✓      | &nbsp;      | &nbsp;        |
 | Accept an assignment           | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
-| Make an assignment             | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
+| Make an assignment             | ✓        | ✓      | &nbsp;      | &nbsp;        |
 | Attach a custom form           | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
 | Edit custom fields             | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
 | Create an approval process     | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
@@ -224,7 +224,7 @@ Users with a Standard license can have full access to reports. All other Access 
 | Upload new version             | ✓        | ✓      | ✓           | &nbsp;        |
 | Delete a version               | ✓        | ✓      | ✓           | &nbsp;        |
 | Preview                        | ✓        | ✓      | ✓           | ✓             |
-| Proof                          | ✓        | ✓      | ✓           | &nbsp;        |
+| Proof                          | ✓        | ✓      | ✓           | ✓             |
 | Generate proof                 | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
 | Remove proof                   | ✓        | ✓      | ✓           | &nbsp;        |
 | Add/Remove&#42;&#42;           | ✓        | ✓      | ✓           | &nbsp;        |
