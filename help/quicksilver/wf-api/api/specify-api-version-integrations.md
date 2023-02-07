@@ -18,11 +18,10 @@ New versions of the API are released on a biannual basis--every six to eight mon
 
 For more information on the release cadence and deprecation schedule of Workfront APIs, see [API versioning and support schedule](../../wf-api/api/api-version-support-schedule.md).
 
-Workfront deprecated the Default Version of the API as of July 2017. This means Workfront no longer designates a specific version of the API to be the Default Version. All future API URIs must specify a version of the API in order to be valid.
-
 >[!IMPORTANT]
 >
-> Any integrations using the Default API version must be updated to call a specific supported API version by July 1, 2018.
+>The default version of the API is the most recent version. Any API call without the version specified will use the default version. When Workfront releases a new version of the API, any API calls that use the default version should be checked to make sure that the functionality is still supported.
+
 
 ## Determining the API Version You Are Using
 
@@ -36,7 +35,7 @@ If a URI does not specify a version, then it is using the Default Version of the
 
 >[!IMPORTANT]
 >
-> Integrations that do not specify a version of the API in the URI are automatically routed to the Default Version of the API and will fail to work after July 1, 2018. 
+> Integrations that do not specify a version of the API in the URI are automatically routed to the Default Version of the API. 
 
 ## Updating Integrations to Use Supported API Versions
 

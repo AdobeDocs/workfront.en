@@ -9,6 +9,8 @@ exl-id: ac394b41-63cb-481a-a858-30d8d7f840bb
 ---
 # Update integrations that use default API versioning
 
+<!-- This article is going to need a complete revamp or to be removed-->
+
 We release new versions of the Adobe Workfront API on a biannual basis. Each version is supported for three years after its release, with an additional year in a deprecated state where the version is available but not supported.
 
 Integrations that do not specify a version of the API in the URI are automatically routed to Default, which has been deprecated. In order for your Workfront integrations to be valid, you must specify a supported API version in your Workfront API requests.
