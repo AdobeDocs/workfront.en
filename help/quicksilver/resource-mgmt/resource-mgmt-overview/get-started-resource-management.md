@@ -10,22 +10,17 @@ exl-id: b10ef503-60ea-4450-b63e-b2918e9bcc11
 ---
 # Get started with Resource Management
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> 
-
-<!--remove Preview and Production references at Production deprecation of scheduling-->
-
 <!--
 <p>(NOTE: DO NOT DELETE THIS ARTICLE. MANY ARTICLES MENTIONING RES MANAGEMENT ARE AND STILL SHOULD / WILL BE LINKED TO IT.) </p>
 <p>(NOTE: Alina: ***As functionality is removed from Legacy and added to Res Planning - this will be continually updated: remove the Legacy Res Planning when that functionality is removed from the system.) </p>
 </div>
 -->
 
-
 Resource Management allows you to configure your system to accurately forecast the use of your resources based on their availability so that the work that must be done is completed on time and on budget.
 
 ## Overview of Resource Management in Adobe Workfront
 
-Resource Management refers to all the activities performed by the Adobe Workfront administrator, the resource manager, and the Project Owner to plan (Resource or Scenario Planning) and schedule (Resource Scheduling) an organization's resources and assign them to the work that needs to be done, taking into account their availability. Additionally, resource management also refers to viewing information about the planned and actual resource allocations in a report view (Utilization report). 
+Resource Management refers to all the activities performed by the Adobe Workfront administrator, the resource manager, and the Project Owner to plan (Resource or Scenario Planning) and schedule (Workload Balancer) an organization's resources and assign them to the work that needs to be done, taking into account their availability. Additionally, resource management also refers to viewing information about the planned and actual resource allocations in a report view (Utilization report). 
 
 Workfront has several sets of tools used to manage resources. Each tool has an individual scope. Currently, you can use the following Resource Management tools in Workfront, depending on which stage of resource management you are in:
 
@@ -43,12 +38,14 @@ Workfront has several sets of tools used to manage resources. Each tool has an i
      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: when more functionality is added, maybe we add that we recommend to start here if this is available for them?!) </p>   
      -->
 
-* To schedule or assign resources to actual work (tasks and issues), use the following tools:
+* To schedule or assign resources to actual work (tasks and issues), use the following tool:
 
-  * **The Workload Balancer** (recommended): This belongs to a lower-level stage of resource management, where you can assign your resources to the actual work (tasks and issues) that they must complete, based on the amount of hours needed to complete them and their availability. Using the Workload Balancer you can assign users to actual work that is currently unassigned or assigned to job roles.
+  * **The Workload Balancer**: This belongs to a lower-level stage of resource management, where you can assign your resources to the actual work (tasks and issues) that they must complete, based on the amount of hours needed to complete them and their availability. Using the Workload Balancer you can assign users to actual work that is currently unassigned or assigned to job roles.
 
      For information about the Workfront Balancer, see the section [The Workload Balancer](../../resource-mgmt/workload-balancer/workload-balancer.md). 
-   
+  
+<!--
+
   * **Scheduling** (deprecated <span class="preview">and removed from the Preview environment</span>): Refers to assigning actual work to users by matching the job roles assigned to the tasks and issues with the job roles they can fulfill, or assigning actual work to users on tasks and issues which are currently unassigned. This happens at a lower-level in the process of managing resources, where you can assign your resources to the actual work (tasks and issues) that they must fulfill, according to the hours needed in the project plan to fulfill them.  
 
      For more information about resource scheduling, see the section [Resource Scheduling](../../resource-mgmt/resource-scheduling/resource-scheduling-overview.md).
@@ -64,7 +61,7 @@ Workfront has several sets of tools used to manage resources. Each tool has an i
     >
     >* For more information about the timeline for removing the Resource Scheduling tools and replacing them with the Workload Balancer, see [Deprecation of Resource Scheduling tools in Adobe Workfront](../../resource-mgmt/resource-mgmt-overview/deprecate-resource-scheduling.md).
 
-
+--> 
 * To analyze budgeted, planned, and actual allocations across multiple projects, use the following tool:
 
    * **Utilization Report**: Use this report to view the utilization of resources for projects. You can compare budgeted, planned, and actual allocations for your projects and their impact on the cost and revenue of the projects. 
@@ -109,16 +106,19 @@ The process of managing resources in Workfront includes the following stages:
 
      For more information, see [Configure Resource Management preferences](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
 
-* **Resource allocation**: As a resource manager, or a Project Owner, you can define allocation of resources for your projects as well as assign work. For this step, you can manage the allocation of your resources at the project level using the Resource Planner. 
+* **Resource allocation**: As a resource manager, or a Project Owner, you can define allocation of resources for your projects as well as assign work. For this step, you can manage the estimate the allocation of your resources using the Resource Planner or the Scenario Planner, and assign actual work to users in the Workload Balancer. 
 
-  For more information about resource planning, see the following sections:
+  For more information about resource planning and assigning work, see the following sections:
 
    * [Resource Planning in Adobe Workfront](../../resource-mgmt/resource-planning/resource-planning-overview.md)
    * [Adobe Workfront Scenario Planner](../../scenario-planner/scenario-planning.md)
+   * [The Workload Balancer](../../resource-mgmt/workload-balancer/workload-balancer.md)
 
+<!--
 * **Resource scheduling**: After generally planning for resources to use on your projects at a high level, you can start assigning work items (tasks and issues) to users based on their job roles using the Workload Balancer.
 
   For more information, see [Overview of the Workload Balancer](../workload-balancer/overview-workload-balancer.md). 
+-->
 
 * **Analysis**: As a resource manager, Project Owner, or people manager, review the Utilization Report to understand how the budgeted and planned allocations of your resources compare to the actual ones. Review information by hours, cost, or revenue. For information about the Utilization report, see [View resource utilization information](../../resource-mgmt/resource-utilization/view-utilization-information.md).
 

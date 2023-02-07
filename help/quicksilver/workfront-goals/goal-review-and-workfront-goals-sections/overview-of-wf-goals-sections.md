@@ -10,9 +10,6 @@ exl-id: 915f8c62-e35a-41a0-8a63-40c28468c55a
 ---
 # Overview of the Adobe Workfront Goals sections
 
-<!--take Preview and Prod references out at release-->
-
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> 
 
 >[!NOTE]
 >
@@ -33,16 +30,14 @@ You can apply filters to display only the goals that are important to you in eac
 
 >[!TIP]
 >
->Filters updated in one section are automatically applied to the Goal List, Graphs , Goal Alignment, and Pulse sections. This way, you can update them only once. For more information, see [Filter information in Adobe Workfront Goals](../../workfront-goals/goal-management/filter-information-wf-goals.md).
+>Filters updated in one section are automatically applied to the Goal List, Graphs , and Goal Alignment sections. This way, you can update them only once. For more information, see [Filter information in Adobe Workfront Goals](../../workfront-goals/goal-management/filter-information-wf-goals.md).
 
 Following is a brief overview of the sections of Workfront Goals and the options available for managing goals. For more information about additional actions that you can perform within each section of Workfront Goals, we also recommend the following articles:
 
 * [Create goals in Adobe Workfront Goals](../../workfront-goals/goal-management/create-goals.md) 
-* [Update goals by using Check-in in Adobe Workfront Goals](../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md) 
+* [Update goal progress in Adobe Workfront Goals](../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md) 
 * [Filter information in Adobe Workfront Goals](../../workfront-goals/goal-management/filter-information-wf-goals.md) 
-* [Print the Goal List in Adobe Workfront Goals](../../workfront-goals/goal-management/print-the-goal-list.md)
 
-<!--drafted: at production, take out the link above to check-in article-->
 
 ## Goal List
 
@@ -50,28 +45,21 @@ You can use the Goal List to review goals that belong to you, your teams, groups
 
 For information about navigating the Goal List and managing goals, see [Manage goals in the Goal List of Adobe Workfront Goals](../../workfront-goals/goal-review-and-workfront-goals-sections/manage-goals-in-goal-list.md).
 
-![](assets/goals-list-section-350x103.png)
+![](assets/goal-list-unshimmed.png)
 
 Use the Goal List to do the following:
 
 * View goals that belong to you, your teams, groups, or organization. 
-* Review goals including aligned goals, their results, and activities, in the Production environment. <span class="preview">In the Preview environment, you can only view goals without their progress indicators in the Goal list.</span>. 
+* Review goals and their information (for example, name, owner, progress, or condition). 
 * Add new goals.
 
   For more information, see [Create goals in Adobe Workfront Goals](../../workfront-goals/goal-management/create-goals.md).
 
-* Access the Goal Details panel and edit and update the goal, its results, or activities, in the Production environment.
-
-* <span class="preview">Access a goal's page. </span>
+* Access a goal's page and edit and update the goal, its results, or activities
 
   For more information, see [Edit goals in Adobe Workfront Goals](../../workfront-goals/goal-management/edit-goals.md).
 
-* Edit goals
-
-* Print or export a list of goals, in the Production environment. 
-  <!--draft the sentence above at Prod because this is not possible in Preview but might be possible later-->
-
-  For more information, see [Print the Goal List in Adobe Workfront Goals](../../workfront-goals/goal-management/print-the-goal-list.md).
+* Edit goals.
 
 ## Graphs
 
@@ -79,20 +67,17 @@ You can use the Graphs section to gain a holistic view of the health of goals th
 
 For information about using the Graphs section, see [Review graphs to understand goal progress trends in Adobe Workfront Goals](../../workfront-goals/goal-review-and-workfront-goals-sections/review-goal-graphs.md).
 
-![](assets/graphs-section-350x136.png)
+![](assets/graphs-section-unshimmed.png)
 
 Use the Graphs section to do the following:
 
 * View the performance of goals that belong to you, your teams, groups, or organization. 
 * View the number of goals with a given progress status.
 * Understand how your goals perform on a weekly basis. 
-* Add new goals, in the Production environment. 
-
-<!--draft the last sentence with Prod - this is not possible in the unshimmed UI but might come later?-->
 
 ## Goal Alignment
 
-If your goals are aligned, you can use the Goal Alignment section to display and review all goals in your organization and their alignment to one another. Goals that are aligned display here on connected cards to illustrate their alignment to one another. Parent goals display first, and children goals are stacked behind them. You can view goals in any status and from any time period in this section.
+If your goals are aligned to each other, you can use the Goal Alignment section to display and review all goals in your organization and their alignment to one another. Goals that are aligned display here on connected cards to illustrate their alignment to one another. Parent goals display first, and children goals are stacked behind them. You can view goals in any status and from any time period in this section.
 
 For information about navigating the Goal Alignment section to manage goals, see [Navigate the Goal Alignment section in Adobe Workfront Goals](../../workfront-goals/goal-alignment/navigate-goal-alignment-chart.md).
 
@@ -101,14 +86,15 @@ For information about aligning goals, see the following articles:
 * [Align goals by connecting them in Adobe Workfront Goals](../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md) 
 * [Align goals by converting results and activities to goals](../../workfront-goals/goal-alignment/align-goals-by-converting-results-activities.md)
 
-![](assets/goal-alignment-section-350x140.png)
+![](assets/goal-alignment-section-unshimmed.png)
 
 Use the Goal Alignment section to do the following:
 
 * View goals that belong to you or your organization in a card format. 
 * Display goal hierarchy and view aligned children goals. 
-* Access the Goal Details panel in the Production environment, or the <span class="preview">goal page in the Preview environment</span> and update the goal, its results, or activities.
+* Access the goal page and update the goal, its results, or activities.
 
+<!--
 ## Pulse
 
 <span class="preview"> The Pulse section has been removed from the Preview environment and will be removed from Workfront Goals with the 23.1 release. Use the Goal List area to review goals that you or your teams are responsible for.</span> 
@@ -157,7 +143,7 @@ For information about managing goals in the Goal List, see [Manage goals in the 
 Use the Check-in section to do the following:
 
 * Review goal progress and updates, including aligned goals, their results, and activities. 
-* Update the progress on the results and activities that are assigned to you. For information about updating goals by checking in on them, see [Update goals by using Check-in in Adobe Workfront Goals](../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md).
+* Update the progress on the results and activities that are assigned to you. For information about updating goals by checking in on them, see [Update goal progress in Adobe Workfront Goals](../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md).
 
   >[!IMPORTANT]
   >
@@ -166,3 +152,4 @@ Use the Check-in section to do the following:
 * Add a comment to a goal, then click Post to make or ask for updates to a goal. 
 * Access the Goal Details panel and edit and update the goal, its results, or activities.
 * Add new goals.
+-->

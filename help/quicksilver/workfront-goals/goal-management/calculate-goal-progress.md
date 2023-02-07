@@ -144,13 +144,13 @@ The table below lists the goal condition labels and the goal progress percentage
   </tr> 
   <tr> 
    <td>New</td> 
-   <td> <p>The goal is newly created and it is not recording progress yet. A goal progress displays as New until someone checks in on it for the first time. </p> <p>For information about checking a goal in, see <a href="../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md" class="MCXref xref">Update goals by using Check-in in Adobe Workfront Goals</a>.</p> </td> 
+   <td> <p>The goal is newly created and it is not recording progress yet. A goal progress displays as New until someone updates its progress for the first time. </p> <p>For information about updating goal progress, see <a href="../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md" class="MCXref xref">Update goal progress in Adobe Workfront Goals</a>.</p> </td> 
    <td>No percentage</td> 
    <td>No bar</td> 
    <td><img src="assets/new-goal-icon-condition.png" alt="new_goal_icon_condition.png"></td>
   </tr> 
   <tr> 
-   <td> <p><span>On&nbsp;Target</span> </p> </td> 
+   <td> <p><span>On Target</span> </p> </td> 
    <td>The goal is performing as expected and there is a great likelihood that it will complete on time. </td> 
    <td>90-100%</td> 
    <td>Green</td> 
@@ -164,7 +164,7 @@ The table below lists the goal condition labels and the goal progress percentage
    <td><img src="assets/at-risk-icon-condition.png" alt="at_risk_icon_condition.png"></td> 
   </tr> 
   <tr> 
-   <td> <p><span>In&nbsp;Trouble</span> </p> </td> 
+   <td> <p><span>In Trouble</span> </p> </td> 
    <td> <p>It is very likely that the goal will not complete on time. </p> </td> 
    <td>0-69.99%</td> 
    <td>Red</td> 

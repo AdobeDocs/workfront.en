@@ -69,7 +69,7 @@ To move a task displayed in a task list:
 
 1. (Conditional) Select the task or tasks that you want to move and do one of the following:
 
-   * Click the More menu ![](assets/qs-more-menu.png) at the top of the task list, then click **Move to**. 
+   * Click the **More** menu ![](assets/qs-more-menu.png) at the top of the task list, then click **Move to**. 
    * Right click the selected tasks, then click **Move to**.
    * When selecting one task, click the **More** menu ![](assets/more-icon-task-list.png) next to the task name in the list, then click&nbsp;**Move to**.
 
@@ -202,10 +202,7 @@ In addition to moving tasks from a list of tasks, you can also move a task at th
     </tbody> 
    </table>
 
-
-
-  
-  
+ 
 
 1. (Optional) Click **Select Parent** in the left panel
 

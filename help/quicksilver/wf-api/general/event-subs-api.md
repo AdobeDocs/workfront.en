@@ -223,7 +223,6 @@ The subscription resource&nbsp;contains the following fields.
       * CREATE
       * DELETE&nbsp;
       * UPDATE
-      * SHARE (This event type will be removed in November 2022)
 
 * url (required)
 
@@ -486,42 +485,223 @@ For example, an **UPDATE - TASK** event subscription can be set to trigger only 
 
 You can specify a comparison field along with the filter field. Use a comparison operator in this to field to filter for comparative results. For example, you can can create an UPDATE - TASK subscription that only sends a payload if the task status does NOT equal current. You can use the following comparison operators:
 
-* eq: equal
-* ne: not equal
-* gt: greater than
-* lt: less than
+#### eq: equal
 
-### Using connector fields
-
-You can make several AND or OR statements in a single filter by specifying a connector field. When used along with the filter field, this determines which type of operation you want to perform between different filters in your subscription.
-
-**Example:** JSON object defining an event subscription that fires when an optask is updated, with filter parameter set to filter by **projectID**, **enteredByID**, and a custom field specified by **parameterValues** called **customField** with a value equal to **customValue**.
-
-<!-- [Copy](javascript:void(0);) --> 
+This filter allows messages to come through if the change that occurred matches `fieldValue` in the filter exactly. The `fieldValue` value is case-sensitive.
 
 ```
 {
-                "objCode": "OPTASK",
-                "eventType": "UPDATE",
-                "url": "https://eventfilter.yourendpoint.com",
-                "authToken": "EauthTokenWorkfrontRocks1234_",
-                "filters": [
-                {
-                "fieldName": "projectID",
-                "fieldValue": "5db1e0ec007696247fcf2290ecf8a339"
-                },
-                {
-                "fieldName": "enteredByID",
-                "fieldValue": "5a456f460328289a0cd2c21b34c54741"
-                },
-                {
-                "fieldName": "parameterValues",
-                "fieldValue": {
-                "DE: customField": "customValue"
-                }
-                }
-                ]
-                }
+    "objCode": "TASK",
+    "eventType": "UPDATE",
+    "authToken": "token",
+    "url": "https://domain-for-subscription.com/API/endpoint/UpdatedTasks",
+    "filters": [
+        {
+            "fieldName": "name",
+            "fieldValue": "again",
+            "comparison": "eq"
+        }
+    ]
+}
+```
+
+#### ne: not equal
+
+This filter allows messages to come through if the change that occurred does not match `fieldValue` in the filter exactly. The `fieldValue` value is case-sensitive.
+
+```
+{
+    "objCode": "TASK",
+    "eventType": "UPDATE",
+    "authToken": "token",
+    "url": "https://domain-for-subscription.com/API/endpoint/UpdatedTasks",
+    "filters": [
+        {
+            "fieldName": "name",
+            "fieldValue": "again",
+            "comparison": "ne"
+        }
+    ]
+}
+
+```
+
+#### gt: greater than
+
+This filter allows messages to come through if the update on the specified `fieldName` is greater than the value for `fieldValue`.
+
+```
+{
+    "objCode": "TASK",
+    "eventType": "UPDATE",
+    "authToken": "token",
+    "url": "https://domain-for-subscription.com/API/endpoint/UpdatedTasks",
+    "filters": [
+        {
+            "fieldName": "plannedCompletionDate",
+            "fieldValue": "2022-12-11T16:00:00.000-0800",
+            "comparison": "gt"
+        }
+    ]
+}
+```
+
+#### gte: greater than or equal to
+
+This filter allows messages to come through if the update on the specified `fieldName` is greater than or equal to the value for `fieldValue`.
+
+```
+{
+    "objCode": "TASK",
+    "eventType": "UPDATE",
+    "authToken": "token",
+    "url": "https://domain-for-subscription.com/API/endpoint/UpdatedTasks",
+    "filters": [
+        {
+            "fieldName": "plannedCompletionDate",
+            "fieldValue": "2022-12-11T16:00:00.000-0800",
+            "comparison": "gte"
+        }
+    ]
+}
+```
+
+#### lt: less than
+
+This filter allows messages to come through if the update on the specified `fieldName` is less than the value for `fieldValue`.
+
+```
+{
+    "objCode": "TASK",
+    "eventType": "UPDATE",
+    "authToken": "token",
+    "url": "https://domain-for-subscription.com/API/endpoint/UpdatedTasks",
+    "filters": [
+        {
+            "fieldName": "plannedCompletionDate",
+            "fieldValue": "2022-12-18T16:00:00.000-0800",
+            "comparison": "lt"
+        }
+    ]
+}
+
+```
+
+#### lte: less than or equal to
+
+This filter allows messages to come through if the update on the specified `fieldName` is less than or equal to the value for `fieldValue`.
+
+```
+{
+    "objCode": "TASK",
+    "eventType": "UPDATE",
+    "authToken": "token",
+    "url": "https://domain-for-subscription.com/API/endpoint/UpdatedTasks",
+    "filters": [
+        {
+            "fieldName": "plannedCompletionDate",
+            "fieldValue": "2022-12-18T16:00:00.000-0800",
+            "comparison": "lte"
+        }
+    ]
+}
+```
+
+#### contains
+
+This filter allows messages to come through if the change that occurred contains the `fieldValue` in the filter. The `fieldValue` value is case-sensitive
+
+```
+{
+    "objCode": "TASK",
+    "eventType": "UPDATE",
+    "authToken": "token",
+    "url": "https://domain-for-subscription.com/API/endpoint/UpdatedTasks",
+    "filters": [
+        {
+            "fieldName": "name",
+            "fieldValue": "again",
+            "comparison": "contains"
+        }
+    ]
+}
+```
+
+#### change
+
+This filter allows messages to come through only if the specified field (`fieldName`) has a different value in oldstate and newstate. Updating other fields besides the one specified (`fieldName`) will not return that change. 
+
+>[!NOTE]
+>
+>`fieldValue` in the filters array below has no effect.
+
+```
+{
+    "objCode": "TASK",
+    "eventType": "UPDATE",
+    "authToken": "token",
+    "url": "https://domain-for-subscription.com/API/endpoint/UpdatedTasks",
+    "filters": [
+        {
+            "fieldName": "name",
+            "fieldValue": "",
+            "comparison": "changed"
+        }
+    ]
+}
+```
+
+#### state
+
+This connector makes the filter apply to the new state or old state of the object that was created or updated. This is helpful when you want to know where a change was made from something to another.
+`oldState` is not possible on CREATE `eventTypes`.
+
+>[!NOTE]
+>
+>The subscription below with the given filter will only return messages where the name of the task contains `again` on the `oldState`, what it was before an update was made on the task.
+>A use case for this would be to find the objCode messages that changed from one thing to another. For example, to find out all of the tasks that changed from "Research Some name" to "Research TeamName Some name"
+
+```
+{
+    "objCode": "TASK",
+    "eventType": "UPDATE",
+    "authToken": "token",
+    "url": "https://domain-for-subscription.com/API/endpoint/UpdatedTasks",
+    "filters": [
+        {
+            "fieldName": "name",
+            "fieldValue": "again",
+            "comparison": "contains",
+            "state": "oldState"
+        }
+    ]
+}
+```
+
+### Using connector fields
+
+The `filterConnector` field on the subscription payload allows you to choose how the filters should be applied. The default is "AND", where the filters must all be `true` for the subscription message to come through. If "OR" is specified then only one filter must match for the subscription message to come through.
+
+```
+{
+    "objCode": "TASK",
+    "eventType": "UPDATE",
+    "authToken": "token",
+    "url": "https://domain-for-subscription.com/API/endpoint/UpdatedTasks",
+    "filters": [
+        {
+            "fieldName": "name",
+            "fieldValue": "again",
+            "comparison": "contains"
+        },
+        {
+            "fieldName": "name",
+            "fieldValue": "also",
+            "comparison": "contains"
+        }
+    ],
+    "filterConnector": "AND"
+}
 ```
 
 ## Deleting Event Subscriptions

@@ -13,6 +13,8 @@ Following are links to the release notes for current and past releases.
 
 For information about the Adobe Workfront release schedule, see [Adobe Workfront release schedule and process](../../product-announcements/product-releases/workfront-release-schedule.md).
 
+For information on helping your organization adjust smoothly to new releases, see [Release readiness](../../product-announcements/product-releases/release-readiness.md).
+
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -24,6 +26,7 @@ For information about the Adobe Workfront release schedule, see [Adobe Workfront
   <tr data-mc-conditions=""> 
    <td> <p>Releases in 2023</p> 
     <ul> 
+    <li> <p><a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md" class="MCXref xref" xrefformat="{para}">23.2 Release overview</a> </p> </li>
     <li> <p><a href="../../product-announcements/product-releases/23.1-release-activity/23-1-release-overview.md" class="MCXref xref" xrefformat="{para}">23.1 Release overview</a> </p> </li>
     </ul> </td> 
    <td>&nbsp;</td> 

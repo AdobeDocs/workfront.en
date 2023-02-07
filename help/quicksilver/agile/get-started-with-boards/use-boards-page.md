@@ -13,10 +13,6 @@ The boards dashboard shows the list of boards that you have access to, including
 
 On the boards dashboard you can archive a board, filter the list of boards, sort the list by board name or date modified, and search for a specific board. You can also archive an individual board or delete it. For information about creating a new board or editing an existing board, see [Create or edit a board](../../agile/get-started-with-boards/create-edit-board.md).
 
->[!IMPORTANT]
->
->[!UICONTROL Boards] does not appear in the [!UICONTROL Main Menu] by default. Your [!DNL Workfront] administrator must add [!UICONTROL Boards] to your layout template to make it available in the [!UICONTROL Main Menu]. For information, see [Customize the [!UICONTROL Main Menu] using a layout template](../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
-
 ## Access requirements
 
 You must have the following access to perform the steps in this article:
@@ -49,10 +45,6 @@ You can filter the boards dashboard to show active boards, archived boards, or a
 
 ## Sort boards
 
->[!NOTE]
->
->Sorting the dashboard is available only via the early feature opt-in. For details, see [Early feature opt-in for [!DNL Adobe Workfront] [!UICONTROL Boards]](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md).
-
 1. Click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe Workfront], then click **[!UICONTROL Boards]**.
 1. To sort the list of boards, click the sort icon ![Sort icon](assets/sort-boards-icon.png). The default sort option for the page is by **[!UICONTROL Date modified]**. You can also sort the page by board **[!UICONTROL Name]**.
 
@@ -61,10 +53,6 @@ You can filter the boards dashboard to show active boards, archived boards, or a
    When a sort other than the default is applied on the dashboard, an indicator is displayed on the sort icon ![Sort applied](assets/sort-applied-boards.png).
 
 ## Search for a board
-
->[!NOTE]
->
->Searching in the dashboard is available only via the early feature opt-in. For details, see [Early feature opt-in for [!DNL Adobe Workfront] [!UICONTROL Boards]](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md).
 
 1. Click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe Workfront], then click **[!UICONTROL Boards]**.
 1. Click the search icon ![Search icon](assets/search-icon.png) and type a search term. Then, press Enter.

@@ -11,6 +11,10 @@ exl-id: 9b8add8f-1978-4ab4-87ac-f1159e7d6cbb
 
 This integration scenario syncs any budget allocations that have been made in [!DNL Anaplan] back to [!DNL Workfront]. The scenario pulls all linked campaign budget items, then passes the budged value to the linked [!DNL Workfront] project if the budget value has been changed.
 
+>[!IMPORTANT]
+>
+>"Campaign" in this article refers to the marketing campaign use case that this scenario represents, and is in no way connected to the [!DNL Workfront Fusion] Adobe Campaign connector or to the recently deprecated [!UICONTROL Campaign] object in [!DNL Workfront].
+
 ## Access requirements
 
 You must have the following access to use the functionality in this article:

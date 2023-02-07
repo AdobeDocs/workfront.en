@@ -75,3 +75,31 @@ You can also specify the `class="preview"` syntax in `<p>`, `<td>`, `<tr>`, and 
   </tr> 
  </tbody> 
 </table>
+
+Video with quality = 12
+
+>[!VIDEO](https://video.tv.adobe.com/v/3413544/?quality=12)
+
+Video with quality = 6
+
+>[!VIDEO](https://video.tv.adobe.com/v/3413544/?quality=6)
+
+Video inside HTML table
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Does this video work?</td> 
+   <td>No it does not </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+Video inside markdown table
+
+|Column1|Column2|
+|---|---|
+|Does this work?|Also no|

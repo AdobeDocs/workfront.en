@@ -46,9 +46,9 @@ You must have the following access to perform the steps in this article:
 
 ## Prerequisites
 
-* You must install the [!DNL Workfront for Adobe Photoshop] plugin before you can upload proofs from [!DNL Adobe Photoshop].
+* You must install the [!DNL Adobe Workfront for Photoshop] plugin before you can upload proofs from [!DNL Adobe Photoshop].
 
-  For instructions, see [Install [!DNL Workfront for Adobe Photoshop]](../../workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-ps.md).
+  For instructions, see [Install [!DNL Adobe Workfront for Photoshop]](../../workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-ps.md).
 
 ## Upload a Basic Proof
 

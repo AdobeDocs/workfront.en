@@ -11,23 +11,18 @@ exl-id: 683c9cd9-6c7b-4d50-b326-b4000c9863e8
 ---
 # Add projects to goals in Adobe Workfront Goals
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> 
+<!--
+THIS MIGHT NEED TO BE RENAMED BECAUSE THERE WILL BE OTHER OBJECTS CONNECTED TO GOALS IN THE FUTURE
+-->
 
 You can connect projects to goals to indicate how the goal progresses, based on the actual progress of the project. The project becomes a progress indicator for the goal. 
 
-By connecting projects to goals you can tie your organization's strategic planning (goals) to the actual work your people are performing and completing every day. 
+By connecting projects to goals you can tie your organization's strategic planning (goals) to the actual work your people are performing and completing every day (projects). 
 
 >[!IMPORTANT]
 >
 >Project-level goals created in the Business Case area of a project are not connected to strategic goals created in Workfront Goals. For information about Business Case project goals, see [Create Business Case goals](../../manage-work/projects/define-a-business-case/create-business-case-goals.md).
 
-<!-- drafted for the goal redesign: 
-
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> -->
-
-<!--
-THIS MIGHT NEED TO BE RENAMED BECAUSE THERE WILL BE OTHER OBJECTS CONNECTED TO GOALS IN THE FUTURE
--->
 
 ## Access requirements
 
@@ -128,12 +123,6 @@ For additional information about access to Workfront Goals, see [Requirements to
 
 ## Considerations about connecting projects to goals
 
-* Adding a project to a goal is identical to adding activities to a goal, in the Production environment. <!--take this bullet out with Production, goal redesign-->
-  
-  <span class="preview">In the Preview environment, a project is a standalone progress indicator for the goal, and not a type of activity.</span>
-
-  For information about adding activities to goals, see [Add activities to goals in Adobe Workfront Goals](../../workfront-goals/results-and-activities/add-activities-to-goals.md). For information about disconnecting projects from goals, see the "Disconnect projects from goals" section in the article [Remove results, activities, and projects from goals in Adobe Workfront Goals](../../workfront-goals/results-and-activities/remove-results-activities-from-goals.md). 
-
 * You can add a project that meets the following criteria to a goal:
 
    * You must have at least permissions to View it.
@@ -147,10 +136,14 @@ For additional information about access to Workfront Goals, see [Requirements to
 * You can associate multiple projects with a goal.
 * You can associate the same project with multiple goals. 
 * You cannot manually update the progress of a project from the goal that the project is attached to. Instead, Workfront calculates the percent complete of the project and Workfront Goals calculates the goal progress using this percent complete. This updates the goal in real time after the project percent updates. 
-* The owner of the project becomes the owner of this activity, in the Production environment. <!--take this out with Production-->
-* The project duration can be outside the time period of a goal. If a project lasts longer than the goal's deadline, you can still close your goal and consider it completed, but the goal percent complete will not be 100%. The percent complete of the project no longer updates on the goal. There is an indication on the goal list that the project no longer updates progress for the goal.
+* The project duration can be outside the time period of a goal. If a project lasts longer than the goal's deadline, you can still close your goal and consider it completed, but the goal percent complete will not be 100%. The percent complete of the project no longer updates on the goal. 
+
+<!--this is no longer visible in the new redesigned interface for goals: logged a bug for this: https://experience.adobe.com/#/@adobeinternalworkfront/so:hub-Hub/workfront/issue/63ceb049000080d30022aab9a359f6f1/updates - but confirmed that this will not be brought back at least for now - Jan 2023. 
+
+There is an indication on the goal list that the project no longer updates progress for the goal.
 
   ![](assets/goal-closed-project-active-warning-goal-list-350x94.png)
+-->
 
 * When you delete a project attached to a goal, the project is also deleted from the goal.
 
@@ -158,8 +151,6 @@ For additional information about access to Workfront Goals, see [Requirements to
   >
   >If the goal was active before you deleted the project and there are no other progress indicators on the goal, the goal becomes Inactive.
 
-
-<div class="preview">
 
 ## Add projects to goals
 
@@ -177,12 +168,11 @@ For additional information about access to Workfront Goals, see [Requirements to
     
     After you activate the goal, the progress of the goal automatically updates when the progress of a project updates. For information about activating a goal, see [Activate goals in Adobe Workfront Goals](../goal-management/activate-goals.md).
 
-</div>
-
 ## Locate project information on goals
 
 <p>
-The following project information is visible at the goal level in the Goal Details panel, or <span class="preview"> in the Progress indicators section of a goal's page </span>:
+The following project information is visible at the goal level in the  Progress indicators section of a goal's page:
+
 </p>
 
 <table>
@@ -195,39 +185,22 @@ The following project information is visible at the goal level in the Goal Detai
   <tr>
    <td>Project Owner
    </td>
-   <td>If the project has no owner, then the activity has no owner. Any changes in the project owner also reflect in the connected project.
+   <td>Any changes in the project owner also reflect in the connected project.
+   </td>
+  </tr>
+    <tr>
+   <td>Actual Progress
+   </td>
+   <td> <p>The percent complete of the project. You cannot manually update the project percent complete from the goal. Workfront automatically calculates it based on the percent complete of the tasks. </p>
    </td>
   </tr>
   <tr>
-   <td>Project Percent Complete (in the Production environment)
-<p>
-<span class="preview">Progress (in the Preview environment)</span>
+   <td>Progress
    </td>
-   <td>This is the percent complete of the project. Any change in the percent complete of the project automatically updates the goal progress unless the goal is closed.
+   <td>The percent complete of the project represented by a bar. Any change in the percent complete of the project automatically updates the goal progress unless the goal is closed.
    </td>
   </tr>
-  <tr>
-   <td>Due Date (in the Production environment)
-<p>
-<span class="preview">Period (in the Preview environment) </span>
-   </td>
-   <td>The Due Date is the project's Planned Completion Date. A project's due date can be earlier than the goal's start date, or later than the goal's end date. The Due Date of the project is visible at the goal level.
-<p>
-<span class="preview">In the Preview environment, the Due Date of the project displays in the Period column in the Progress indicators section of the goal page.</span>
-   </td>
-  </tr>
-  <tr>
-   <td><span class="preview">Status </span>
-   </td>
-   <td><span class="preview">This is the status of the project.</span>
-   </td>
-  </tr>
-  <tr>
-   <td><span class="preview">Condition</span>
-   </td>
-   <td> <span class="preview">The Project shows  a Condition of "New" if there is no progress on the project (when the percent complete of the project is 0%).  </span>
-   </td>
-  </tr>
+
 </table>
 
 ## Locate goal information on projects
@@ -236,6 +209,6 @@ The following goal information is visible in a project list or report:
 
 | Goal information  |Description  |
 |---|---|
-| Goals  |A list of all goals that have a project as one of their activities.  |
+| Goals  |A list of all goals that have a project associated with them.  |
 | Goal Hierarchy |The hierarchy that a goal belongs to. Only the parents of the goal and the goal display in this field. Children goals do not display.  |
 | Number of Linked Goals |The number of goals linked to one project. |

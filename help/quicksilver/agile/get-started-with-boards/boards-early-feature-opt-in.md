@@ -88,34 +88,50 @@ The following table outlines major features of boards along with their current r
   </tr>
   <tr>
    <td>Filter connected cards by project</td>
-   <td>Partially released</td>
+   <td>Released</td>
   </tr>
   <tr>
    <td>Define card falloff</td>
-   <td>Partially released</td>
+   <td>Released</td>
   </tr>
   <tr>
    <td>Search for a board and sort the dashboard</td>
-   <td>Partially released</td>
+   <td>Released</td>
   </tr>
   <tr>
    <td>Display the status on a card</td>
-   <td>Partially released</td>
+   <td>Released</td>
   </tr>
   <tr>
    <td>Use a card counter on columns</td>
-   <td>Partially released</td>
-  </tr> 
-  <tr>
-   <td>Import subtasks as checklist items on cards</td>
-   <td>Planned (this feature was removed from Preview on January 5, 2023)</td>
+   <td>Released</td>
   </tr>
   <tr>
    <td>Map card due date to task planned completion date</td>
-   <td>Partially released (in Preview only)</td>
+   <td>Released</td>
+  </tr>
+  <tr>
+   <td>View-only cards in intake column</td>
+   <td>Partially released</td>
+  </tr>
+  <tr>
+   <td>Map Estimation field on card to Story Points field on task</td>
+   <td>Partially released</td>
+  </tr>
+  <tr>
+   <td>Create collections of boards</td>
+   <td>Planned</td>
   </tr>
   <tr>
    <td>Create iterations</td>
+   <td>Planned</td>
+  </tr>
+  <tr>
+   <td>Define card list or backlog</td>
+   <td>Planned</td>
+  </tr>
+  <tr>
+   <td>Import subtasks as checklist items on cards</td>
    <td>Planned</td>
   </tr>
  </tbody> 
@@ -130,10 +146,6 @@ Early features for boards are available to all organizations. Involvement is com
 ### Opt in
 
 Only [!DNL Workfront] administrators can opt in to early features for boards. When a [!DNL Workfront] administrator enables early features, all users in the organization are opted in.
-
->[!IMPORTANT]
->
->If you are not already using boards, the [!UICONTROL Boards] option might not appear in the [!UICONTROL Main Menu]. A [!DNL Workfront] administrator must add [!UICONTROL Boards] to your layout template to make it available in the [!UICONTROL Main Menu]. For information, see [Customize the [!UICONTROL Main Menu] using a layout template](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
 
 1. Click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe Workfront], then click **[!UICONTROL Boards]**.
 1. Click **[!UICONTROL Early feature opt-in]** at the top of the dashboard screen.

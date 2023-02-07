@@ -11,6 +11,10 @@ feature-set: Workfront
   * Product releases {#product-releases}
     * [Product releases overview](product-announcements/product-releases/product-releases.md)
     * [Adobe Workfront release schedule and process](product-announcements/product-releases/workfront-release-schedule.md)
+    * [Prepare for an Adobe Workfront quarterly release](product-announcements/product-releases/release-readiness.md)
+    * 23.2 Release {#release-23-2}
+      * [23.2 Release overview](product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md) 
+      * [23.2 release activity: Week of January 23, 2023](product-announcements/product-releases/23.2-release-activity/23-1-jan-23.md)
     * 23.1 Release {#release-23-1}
       * [23.1 Release overview](product-announcements/product-releases/23.1-release-activity/23-1-release-overview.md)
       * [23.1 Project and Resource Management enhancements](product-announcements/product-releases/23.1-release-activity/23-1-project-enhancements.md)
@@ -172,15 +176,6 @@ feature-set: Workfront
         * [Adobe Workfront Goals 21.1 release activity: Week of November 16, 2020](product-announcements/product-releases/goals-release-activity/goals-21.1-release/goals-nov-16.md)
       * [Workfront Goals with the 20.4 release](product-announcements/product-releases/goals-release-activity/goals-release-20-4.md)
       * [Workfront Goals with the 20.3 release - August 14, 2020](product-announcements/product-releases/goals-release-activity/goals-release-20.3.md)
-    * Workfront Library release activity {#library-release}
-      * [Workfront Library release activity](product-announcements/product-releases/library-release-activity/workfront-library-release-activity.md)
-      * [Workfront Library release activity - April 18, 2019](product-announcements/product-releases/library-release-activity/library-release-activity-apr-18-2019.md)
-      * [Workfront Library release activity - August 15, 2019](product-announcements/product-releases/library-release-activity/library-release-activity-aug-15-2019.md)
-      * [Workfront Library release activity - February 13, 2020](product-announcements/product-releases/library-release-activity/library-release-activity-feb-13-2020.md)
-      * [Workfront Library release activity - January 29, 2020](product-announcements/product-releases/library-release-activity/library-release-activity-jan-29-2020.md)
-      * [Workfront Library release activity - June 19, 2019](product-announcements/product-releases/library-release-activity/library-release-activity-jun-19-2019.md)
-      * [Workfront Library release activity - May 3, 2019](product-announcements/product-releases/library-release-activity/library-release-activity-may-3-2019.md)
-      * [Workfront Library release activity - October 11, 2019](product-announcements/product-releases/library-release-activity/library-release-activity-oct-11-2019.md)
     * Workfront Proof release activity {#proof-release}
       * [Workfront Proof release activity: Week of May 17, 2021](product-announcements/product-releases/workfront-proof-release-activity/wp-release-may-17.md)
       * [Workfront Proof release activity: Week of November 29, 2021](product-announcements/product-releases/workfront-proof-release-activity/wp-release-22-1.md)
@@ -302,27 +297,27 @@ feature-set: Workfront
         * [R1 release webinars](product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-release-webinars.md)
   * Announcements {#announcements}
     * [Announcements](product-announcements/announcements/announcements.md)
-    * [Learn about the latest improvements in Adobe Workfront One](product-announcements/announcements/latest-improvements-wfone.md)
     * [Custom form enhancements](product-announcements/announcements/custom-form-enhancements.md)
     * [Schedule of features no longer supported](product-announcements/announcements/feature-removal-timeline.md)
-    * [Remove custom SMTP as an outgoing email option](product-announcements/announcements/remove-custom-smtp.md)
-    * [Customers on Clusters 1, 2, and 3 must update any allowlist IP blocks to prevent the blocking of Adobe Workfront services](product-announcements/announcements/clusters-1-3-update-whitelist.md)
-    * [Email spoofing and POP reply removal](product-announcements/announcements/email-spoofing-pop-reply-message.md)
     * [Maintenance Window FAQ](product-announcements/announcements/maintenance-window-faq.md)
-    * [New IP addresses for Adobe Workfront email with the 21.1 release](product-announcements/announcements/new-email-ip-21.1.md)
-    * [New Adobe Workfront managed system to replace POP email for Request Queues with 21.1](product-announcements/announcements/pop-removal-request-queue.md)
     * [Change required for adding proofs to your allowlist](product-announcements/announcements/proofhq-domain-change-workfront.md)
-    * [Replacement of Flash-based tools in Adobe Workfront](product-announcements/announcements/replace-flash-tools.md)
-    * [TLS 1.2 to be required in Adobe Workfront](product-announcements/announcements/tls-1-disabled.md)
     * [Unsubscribe from Announcement Center Messagesin the new Adobe Workfront experience](product-announcements/announcements/unsubscribe-from-ac-messages.md)
-    * [Updated Mobile App for iOS and Android (Early August, 2017)](product-announcements/announcements/updated-mobile-app.md)
-    * [Outlook 365 Add-In Is Now Available](product-announcements/outlook-365-add-in/outlook-365-add-in-now-available.md)
+    * Announcement archive {#announcement-archive}
+      * [Announcement archive](product-announcements/announcements/announcement-archive/announcement-archive.md)
+      * [Updated Mobile App for iOS and Android (Early August, 2017)](product-announcements/announcements/announcement-archive/updated-mobile-app.md)
+      * [TLS 1.2 to be required in Adobe Workfront](product-announcements/announcements/announcement-archive/tls-1-disabled.md)
+      * [Outlook 365 Add-In Is Now Available](product-announcements/outlook-365-add-in/outlook-365-add-in-now-available.md)
+      * [Replacement of Flash-based tools in Adobe Workfront](product-announcements/announcements/announcement-archive/replace-flash-tools.md)
+      * [New Adobe Workfront managed system to replace POP email for Request Queues with 21.1](product-announcements/announcements/announcement-archive/pop-removal-request-queue.md)
+      * [New IP addresses for Adobe Workfront email with the 21.1 release](product-announcements/announcements/announcement-archive/new-email-ip-21.1.md)
+      * [Email spoofing and POP reply removal](product-announcements/announcements/announcement-archive/email-spoofing-pop-reply-message.md)
+      * [Customers on Clusters 1, 2, and 3 must update any allowlist IP blocks to prevent the blocking of Adobe Workfront services](product-announcements/announcements/announcement-archive/clusters-1-3-update-whitelist.md)
+      * [Remove custom SMTP as an outgoing email option](product-announcements/announcements/announcement-archive/remove-custom-smtp.md)
   * Beta programs {#beta}
     * [Beta programs](product-announcements/betas/betas.md)
     * Reporting Canvas beta {#reporting-canvas-beta}
       * [Reporting Canvas beta overview](product-announcements/betas/reporting-canvas-beta/reporting-canvas-beta-overview.md)
       * [Reporting Canvas beta: release activity](product-announcements/betas/reporting-canvas-beta/reporting-canvas-release-activity.md)
-    * [Campaigns beta](product-announcements/betas/campaign-object-beta.md)
 * Administration and setup {#administration-and-setup}
   * [Administration and setup](administration-and-setup/administration-and-setup.md)
   * Get started with administration {#get-started-administration}
@@ -584,6 +579,7 @@ feature-set: Workfront
       * [Import data using a Kick-Start template](administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md)
       * [Kick-Starts data importer](administration-and-setup/manage-workfront/using-kick-starts/kick-starts-data-importer.md)
       * [Kick-Starts scenario: Company and group](administration-and-setup/manage-workfront/using-kick-starts/kick-starts-scenario-company-group-role-user-prep.md)
+      * [Kick-Starts scenario: Import multiple-option custom-fields into Workfront](administration-and-setup/manage-workfront/using-kick-starts/kick-starts-scenario-multiple-option-custom-field-import.md)
       * [Kick-Starts scenario: Object import](administration-and-setup/manage-workfront/using-kick-starts/kick-starts-scenario-simple-project-task-import-prep.md)
       * [Kick-Starts FAQ](administration-and-setup/manage-workfront/using-kick-starts/frequently-asked-questions-about-kick-starts.md)
   * Manage groups {#manage-groups}
@@ -729,6 +725,7 @@ feature-set: Workfront
     * [Breadcrumbs overview](workfront-basics/the-new-workfront-experience/breadcrumb-overview.md)
     * [Object headers overview](workfront-basics/the-new-workfront-experience/new-object-headers.md)
     * [Pin pages to customize your workspace](workfront-basics/the-new-workfront-experience/pin-pages.md)
+    * [Create custom sections](workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md)
     * [Access Adobe Workfront help](workfront-basics/navigate-workfront/workfront-navigation/access-workfront-help.md)
     * [Understand objects in Adobe Workfront](workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)
     * [Understand the navigation for a Work-license user](workfront-basics/navigate-workfront/workfront-navigation/worker-global-navigation-bar.md)
@@ -762,6 +759,7 @@ feature-set: Workfront
     * [Tag others on updates](workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md)
     * [View all updates in a Note report](workfront-basics/updating-work-items-and-viewing-updates/view-all-updates-in-a-report.md)
     * [Work On It and Done button overview](workfront-basics/updating-work-items-and-viewing-updates/work-on-it-and-done-buttons-accept-complete-work.md)
+    * [Unified Commenting Experience](workfront-basics/updating-work-items-and-viewing-updates/unified-commenting-experience.md)
   * Work with custom forms {#work-with-custom-forms}
     * [Work with custom forms](workfront-basics/work-with-custom-forms/work-with-custom-forms.md)
     * [Add a custom form to an object](workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md)
@@ -813,7 +811,6 @@ feature-set: Workfront
       * [Configure your User Profile](workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-user-profile.md)
       * [Configure My Settings](workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md)
       * [Configure personal time off in Adobe Workfront](workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md)
-      * [Create custom sections](workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md)
     * Manage your Adobe Workfront account {#manage-workfront-account}
       * [Manage your Adobe Workfront account](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/manage-workfront-account.md)
       * [Log in to Adobe Workfront](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/log-in-to-workfront.md)
@@ -831,6 +828,7 @@ feature-set: Workfront
       * [Be an iOS beta tester](workfront-basics/mobile-apps/using-the-workfront-mobile-app/ios-beta-tester.md)
       * [Home area widgets](workfront-basics/mobile-apps/using-the-workfront-mobile-app/home-area-widgets-mobile.md)
       * [My Work section in the mobile app](workfront-basics/mobile-apps/using-the-workfront-mobile-app/my-work-section-mobile.md)
+      * [Adobe Workfront Boards for mobile](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/mobile-boards.md)
       * [Review and make decisions on proofs in the Adobe Workfront mobile app](workfront-basics/mobile-apps/using-the-workfront-mobile-app/work-with-proofs-in-mobile-app.md)
       * [Share and download proofs in the Adobe Workfront mobile app](workfront-basics/mobile-apps/using-the-workfront-mobile-app/share-proofs-mobile.md)
       * [Comment on proofs in Android](workfront-basics/mobile-apps/using-the-workfront-mobile-app/comment-on-proofs-android.md)
@@ -1260,13 +1258,6 @@ feature-set: Workfront
       * [Modify issue assignments overview](manage-work/issues/manage-issues/modify-issue-assignments-overview.md)
       * [Modify user assignments for multiple issues in a list](manage-work/issues/manage-issues/edit-assignments-for-multiple-issues.md)
       * [Automatically update issue statuses from Awaiting Feedback to In Progress](manage-work/issues/manage-issues/turn-issue-status-from-awf-to-inp-automatically.md)
-  * Campaigns {#campaigns}
-    * [Campaigns](manage-work/campaigns/campaigns-section-toc.md)
-    * [Campaigns overview](manage-work/campaigns/campaigns-overview.md)
-    * [Edit campaigns](manage-work/campaigns/edit-campaigns.md)
-    * [Create campaigns](manage-work/campaigns/create-campaigns.md)
-    * [Add objects to a campaign](manage-work/campaigns/add-objects-to-a-campaign.md)
-    * [Delete campaigns](manage-work/campaigns/delete-campaigns.md)
   * The Gantt Chart {#the-gantt-chart} 
     * The Gantt Chart {#the-gantt-chart}
     * [The Gantt Chart](manage-work/gantt-chart/the-gantt-chart.md)
@@ -1656,6 +1647,7 @@ feature-set: Workfront
 * Review and approve work {#review-and-approve-work}
   * [Review and approve work](review-and-approve-work/review-and-approve-work.md)
   * [Alpha Program – Document Approvals](review-and-approve-work/Documents/doc-approvals-alpha.md)
+  * [Limited document and proof decision for non-paid users overview](review-and-approve-work/proof-doc-decision-limits.md)
   * Work approvals {#work-approvals}
     * [Work approvals](review-and-approve-work/manage-approvals/manage-approvals.md)
     * [Approval process overview](review-and-approve-work/manage-approvals/approval-process-in-workfront.md)
@@ -1849,9 +1841,8 @@ feature-set: Workfront
     * [Filter information in Adobe Workfront Goals](workfront-goals/goal-management/filter-information-wf-goals.md)
     * [Goal status overview in Adobe Workfront Goals](workfront-goals/goal-management/goal-status-overview.md)
     * [Manage goal comments in Adobe Workfront Goals](workfront-goals/goal-management/manage-goal-comments.md)
-    * [Move goals from one time period to another in Adobe Workfront Goals](workfront-goals/goal-management/move-goals-to-another-period.md)
     * [Print the Goal List in Adobe Workfront Goals](workfront-goals/goal-management/print-the-goal-list.md)
-    * [Update goals in the Goal Details panel in Adobe Workfront Goals](workfront-goals/goal-management/update-goals-in-goal-details-panel.md)
+    * [Update goals in the Goal details section in Adobe Workfront Goals](workfront-goals/goal-management/update-goals-in-goal-details-panel.md)
     * [Review in-trouble goals in Adobe Workfront Goals](workfront-goals/goal-management/view-in-trouble-goals.md)
   * Goal alignment in Adobe Workfront Goals {#goal-alignment}
     * [Goal alignment in Adobe Workfront Goals](workfront-goals/goal-alignment/goal-alignment.md)
@@ -1863,7 +1854,7 @@ feature-set: Workfront
   * Goal review and the Adobe Workfront Goals sections {#goal-review-and-adobe-workfront-goals-sections}
     * [Goal review and the Adobe Workfront Goals sections](workfront-goals/goal-review-and-workfront-goals-sections/goal-review-wf-goals-sections.md)
     * [Overview of the Adobe Workfront Goals sections](workfront-goals/goal-review-and-workfront-goals-sections/overview-of-wf-goals-sections.md)
-    * [Update goals by using Check-in in Adobe Workfront Goals](workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md)
+    * [Update goal progress in Adobe Workfront Goals](workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md)
     * [Manage goals in the Goal List of Adobe Workfront Goals](workfront-goals/goal-review-and-workfront-goals-sections/manage-goals-in-goal-list.md)
     * [Review graphs to understand goal progress trends in Adobe Workfront Goals](workfront-goals/goal-review-and-workfront-goals-sections/review-goal-graphs.md)
     * [Review goals in the Adobe Workfront Goals Pulse section](workfront-goals/goal-review-and-workfront-goals-sections/review-goals-in-pulse.md)
@@ -2054,6 +2045,7 @@ feature-set: Workfront
     * [Microsoft OneDrive modules](workfront-fusion/apps-and-their-modules/microsoft-onedrive-modules.md)
     * [Microsoft Power BI modules](workfront-fusion/apps-and-their-modules/powerbi-modules.md)
     * [Microsoft SQL Server modules](workfront-fusion/apps-and-their-modules/microsoft-sql-server-modules.md)
+    * [Microsoft Word Templates modules](workfront-fusion/apps-and-their-modules/microsoft-word-templates-modules.md)
     * [MIME modules](workfront-fusion/apps-and-their-modules/mime.md)
     * [NetSuite modules](workfront-fusion/apps-and-their-modules/netsuite.md)
     * [Qualtrics modules](workfront-fusion/apps-and-their-modules/qualtrics-modules.md)
@@ -2084,9 +2076,9 @@ feature-set: Workfront
     * [Adobe Workfront for Creative Cloud](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-cc.md)
     * Install the Adobe Workfront plugin for Creative Cloud Applications {#install-wf-cc}
       * [Install Adobe Workfront for Creative Cloud Applications](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-toc.md)
-      * [Install Adobe Workfront for Photoshop](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-ps.md)
-      * [Install Adobe Workfront for XD](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-install.md)
-      * [Install Adobe Workfront for design and video](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-install-cc.md)
+      * [Install and open Adobe Workfront for Photoshop](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-ps.md)
+      * [Install and open Adobe Workfront for XD](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-install.md)
+      * [Install and open [!DNL Adobe Workfront for design and video]](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-install-cc.md)
     * Manage work with the Adobe Workfront plugin for Creative Cloud Applications {#manage-wf-cc}
       * [Manage work with the Adobe Workfront plugin for Creative Cloud Applications](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-manage-work-toc.md)
       * [Find your work using the Adobe Workfront plugin](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-find-work.md)
@@ -2106,8 +2098,6 @@ feature-set: Workfront
       * [Upload proofs from [!DNL Illustrator]](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-proofs-ai.md)
       * [Upload documents from [!DNL Illustrator]](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-ai-docs.md)
     * Workfront Extension for Illustrator and InDesign {#workfront-for-illustrator-indesign}
-      * [Workfront Extension for Illustrator and InDesign](documents/workfront-for-adobe-creative-cloud/workfront-for-adobe-creative-loud.md)
-      * [Install the Workfront Extension for Illustrator and InDesign](documents/workfront-for-adobe-creative-cloud/installl-wf-adobe-cc.md)
       * [Use the Workfront Extension for Illustrator and InDesign](documents/workfront-for-adobe-creative-cloud/use-wf-adobe-cc.md)
   * Adobe Workfront for Jira {#workfront-for-jira}
     * [Adobe Workfront for Jira](workfront-integrations-and-apps/use-workfront-with-jira/workfront-for-jira.md)
@@ -2179,93 +2169,6 @@ feature-set: Workfront
     * [Apply an Anaplan budget allocation to an Adobe Workfront project](workfront-integrations-and-apps/adobe-workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-projects.md)
     * [Create an Anaplan list item from an Adobe Workfront campaign request](workfront-integrations-and-apps/adobe-workfront-with-anaplan/create-an-anaplan-list-item-from-a-workfront-campaign-request.md)
     * [Apply an Anaplan budget allocation to an Adobe Workfront campaign request or campaign project](workfront-integrations-and-apps/adobe-workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-campaign-requests-and-projects.md)
-* Workfront Library {#workfront-library}
-  * [Workfront Library](workfront-library/workfront-library.md)
-  * Administration and setup of Workfront Library {#admin-setup-wf-library}
-    * [Administration and setup of Workfront Library](workfront-library/administration-and-setup/administration-and-setup-library.md)
-    * Workfront Library Setup {#wf-library-setup}
-      * [Workfront Library Setup](workfront-library/administration-and-setup/workfront-library-setup/workfront-library-setup.md)
-      * [Required configuration to authenticate to Workfront Library](workfront-library/administration-and-setup/workfront-library-setup/required-configuration-to-authenticate-to-library.md)
-      * [Set up a portal in Workfront Library](workfront-library/administration-and-setup/workfront-library-setup/set-up-a-portal-in-library.md)
-      * [Set up content expiration in Workfront Library](workfront-library/administration-and-setup/workfront-library-setup/set-up-content-expiration-in-library.md)
-    * User access in Workfront Library {#user-access-wf-library}
-      * [User access in Workfront Library](workfront-library/administration-and-setup/user-access/user-access.md)
-      * [Overview of user access to Workfront Library](workfront-library/administration-and-setup/user-access/user-access-overview.md)
-      * [Give users access to Workfront Library](workfront-library/administration-and-setup/user-access/give-users-access-to-library.md)
-      * [Change a user's access to Workfront Library](workfront-library/administration-and-setup/user-access/change-user-access.md)
-      * [Remove a user's access to Workfront Library](workfront-library/administration-and-setup/user-access/remove-a-users-access-library.md)
-      * [Give users access to a Workfront Library portal](workfront-library/administration-and-setup/user-access/give-users-access-portal.md)
-      * [Permissions in Workfront Library](workfront-library/administration-and-setup/user-access/permissions-in-workfront-library.md)
-    * Metadata in Workfront Library {#metadata-wf-library}
-      * [Metadata in Workfront Library](workfront-library/administration-and-setup/metadata/metadata.md)
-      * [Overview of metadata in Workfront Library](workfront-library/administration-and-setup/metadata/metadata-overview.md)
-      * [Overview of taxonomy metadata in Workfront Library](workfront-library/administration-and-setup/metadata/taxonomy-metadata-overview.md)
-      * [Overview of taxonomy field types](workfront-library/administration-and-setup/metadata/taxonomy-field-types-overview.md)
-      * [Set up taxonomy metadata for Workfront Library](workfront-library/administration-and-setup/metadata/set-up-taxonomy-metadata.md)
-      * [Edit a taxonomy metadata field in Workfront Library](workfront-library/administration-and-setup/metadata/edit-the-taxonomy.md)
-      * [Determine the display order of taxonomy fields in Workfront Library](workfront-library/administration-and-setup/metadata/determine-display-order-of-taxonomy-fields.md)
-      * [Delete a taxonomy field in Workfront Library](workfront-library/administration-and-setup/metadata/delete-a-taxonomy-field-in-workfront-library.md)
-      * [Overview of keyword metadata in Workfront Library](workfront-library/administration-and-setup/metadata/keyword-metadata-overview.md)
-      * [Add keywords to metadata in Workfront Library](workfront-library/administration-and-setup/metadata/add-keywords-to-metadata.md)
-      * [Rename a keyword in Workfront Library](workfront-library/administration-and-setup/metadata/edit-keyword-pick-list.md)
-      * [Delete a keyword from the picklist in Workfront Library](workfront-library/administration-and-setup/metadata/delete-keyword-from-metadata.md)
-      * [Format your CSV file for metadata import in Workfront Library](workfront-library/administration-and-setup/metadata/format-your-csv-file-for-metadata-import.md)
-      * [Use Workfront Library's import tool to add metadata to content](workfront-library/administration-and-setup/metadata/import-metadata-for-content.md)
-    * Manage assets {#manage-assets}
-      * [Manage assets](workfront-library/administration-and-setup/manage-assets/manage-assets.md)
-      * [Manage assets for other users](workfront-library/administration-and-setup/manage-assets/manage-assets-for-other-users.md)
-      * [Transfer ownership assets to another user](workfront-library/administration-and-setup/manage-assets/transfer-ownership-to-others.md)
-  * Content management in Workfront Library {#content-management-wf-library}
-    * [Content management in Workfront Library](workfront-library/content-management/content-management.md)
-    * Workfront Library Basics {#wf-library-basics}
-      * [Workfront Library Basics](workfront-library/content-management/basics/basics.md)
-      * [Get started with Workfront Library](workfront-library/content-management/basics/get-started-with-library.md)
-      * [Access content in Workfront Library](workfront-library/content-management/basics/access-content.md)
-      * [Open items in Workfront Library](workfront-library/content-management/basics/open-items-in-library.md)
-      * [Search for items in Workfront Library](workfront-library/content-management/basics/search-for-items-in-workfront-library.md)
-      * [Sort content in Workfront Library](workfront-library/content-management/basics/sort-content-in-library.md)
-      * [Filter content displayed in Workfront Library](workfront-library/content-management/basics/filter-content-displayed.md)
-      * [Download items from Workfront Library](workfront-library/content-management/basics/download-content-from-library.md)
-      * [Create a request in Workfront Library](workfront-library/content-management/basics/create-a-request-in-wf-library.md)
-      * [View Workfront Library work requests](workfront-library/content-management/basics/view-work-requests-in-library.md)
-      * [Open a Workfront Library portal](workfront-library/content-management/basics/open-a-portal.md)
-    * Collections in Workfront Library {#collections-in-wf-library}
-      * [Collections in Workfront Library](workfront-library/content-management/collections/collections.md)
-      * [Overview of collections in Workfront Library](workfront-library/content-management/collections/collections-overview.md)
-      * [Create a collection in Workfront Library](workfront-library/content-management/collections/create-a-collection.md)
-      * [Add items to a collection in Workfront Library](workfront-library/content-management/collections/add-items-to-a-collection.md)
-      * [Edit a Workfront Library collection](workfront-library/content-management/collections/edit-a-collection.md)
-      * [Open a collection in Workfront Library](workfront-library/content-management/collections/open-a-collection.md)
-      * [Remove items from a collection in Workfront Library](workfront-library/content-management/collections/remove-items-from-a-collection.md)
-    * Folders in Workfront Library {#folders-in-wf-library}
-      * [Folders in Workfront Library](workfront-library/content-management/folders/folders.md)
-      * [Overview of folders in Workfront Library](workfront-library/content-management/folders/folders-overview-library.md)
-      * [Create a folder in Workfront Library](workfront-library/content-management/folders/create-a-folder-library.md)
-      * [Add items to a folder in Workfront Library](workfront-library/content-management/folders/add-items-to-a-folder-library.md)
-    * [Upload content to Workfront Library](workfront-library/content-management/upload-new-content.md)
-    * [Send documents from Workfront to Workfront Library](workfront-library/content-management/send-documents-from-wf-to-library.md)
-    * [Add a Workfront Library asset to Workfront](workfront-library/content-management/add-a-wf-library-asset.md)
-    * [Share a Workfront Library item with other users](workfront-library/content-management/share-an-asset-with-users.md)
-    * [Rename items in Workfront Library](workfront-library/content-management/rename-items.md)
-    * [Change the cover image on an item in Workfront Library](workfront-library/content-management/change-cover-image-of-folder.md)
-    * [Bulk edit metadata in Workfront Library](workfront-library/content-management/bulk-edit-metadata.md)
-    * [Create and manage views in Workfront Library](workfront-library/content-management/create-and-manage-views.md)
-    * [Hide and unhide content in Workfront Library](workfront-library/content-management/hide-and-unhide-content.md)
-    * [Delete items from Workfront Library](workfront-library/content-management/delete-items.md)
-    * [Relocate assets in Workfront Library](workfront-library/content-management/relocate-assets.md)
-    * Content Versioning in Workfront Library {#content-versioning-in-wf-library}
-      * [Content Versioning in Workfront Library](workfront-library/content-management/content-versioning/content-versioning.md)
-      * [Overview of content versioning in Workfront Library](workfront-library/content-management/content-versioning/content-versioning-overview.md)
-      * [Upload a new version of content in Workfront Library](workfront-library/content-management/content-versioning/upload-new-version-of-content.md)
-      * [Access older versions of content in Workfront Library](workfront-library/content-management/content-versioning/view-older-versions-of-content-library.md)
-    * Filters in Workfront Library {#filters-in-wf-library}
-      * [Filters in Workfront Library](workfront-library/content-management/filters/filters.md)
-      * [Filter for expired content in Workfront Library](workfront-library/content-management/filters/filter-for-expired-content.md)
-      * [Filter for hidden content in Workfront Library](workfront-library/content-management/filters/filter-hidden-content.md)
-    * Manage portals {#manage-portals-wf-library}
-      * [Manage portals](workfront-library/content-management/portals/portals.md)
-      * [Overview of Workfront Library portals](workfront-library/content-management/portals/portals-overview.md)
-    * [Export asset metadata from Workfront Library](workfront-library/content-management/export-asset-metadata.md)
 * Workfront Proof {#workfront-proof}
   * [Workfront Proof](workfront-proof/workfront-proof.md)
   * Get started with Workfront Proof {#get-started-wf-proof}
@@ -2577,6 +2480,8 @@ feature-set: Workfront
     * [Update to emailAddr does not update the username](wf-api/tips-tricks-and-troubleshooting/update-email-addr-and-username.md)
     * [Add advanced proofing options when creating a proof through the Adobe Workfront API](wf-api/tips-tricks-and-troubleshooting/api-create-proof-options-json.md)
     * [Options configuration for OPTASK copyIssue](wf-api/tips-tricks-and-troubleshooting/copyissue-options.md)
+    * [Retrieve currency information for a project when currency is null (not assigned)](wf-api/tips-tricks-and-troubleshooting/retrieve-currency-when-null.md)
+    * [Using the API to add a linked folder is not supported](wf-api/tips-tricks-and-troubleshooting/linked-folders-for-docu-not-supported.md)
 * ProofHQ API {#proofhqpapi}
   * [ProofHQ API](proofhq-api/proofhq-api.md)
   * General {#general}

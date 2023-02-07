@@ -46,9 +46,9 @@ You must have the following access to perform the steps in this article:
 
 ## Prerequisites
 
-* You must install the [!DNL Workfront for Adobe Photoshop] plugin before you can upload [!DNL Adobe Photoshop] projects to [!DNL Workfront].
+* You must install the [!DNL Adobe Workfront for Photoshop] plugin before you can upload [!DNL Adobe Photoshop] projects to [!DNL Workfront].
 
-  For instructions, see [Install Workfront for Adobe Photoshop](../../workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-ps.md).
+  For instructions, see [Install Adobe Workfront for Photoshop](../../workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-ps.md).
 
 ## Upload documents to [!DNL Adobe Photoshop]
 

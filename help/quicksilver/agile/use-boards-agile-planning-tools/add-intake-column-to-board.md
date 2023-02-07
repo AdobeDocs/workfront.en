@@ -81,16 +81,17 @@ You must have the following access to perform the steps in this article:
 
    ![Saved filter](assets/intake-filter-dialog8.png)
 
-   >[!NOTE]
-   >
-   >The new filter is only visible and editable to the user who created it. Other members on the board will not see the filter in their list of saved filters.
-
+1. (Optional) To share the filter with others, hover over the saved filter, click the **[!UICONTROL More]** menu ![More menu icon](assets/more-icon-spectrum.png), and select **[!UICONTROL Share]**. Choose the users or teams to share with in the Filter sharing box. For more information, see [Share a filter, view, or grouping](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
 1. (Optional) To include both tasks and issues on the intake column, click **[!UICONTROL Filter sources]** and select the other object to create another filter.
 1. When you are finished adding filters, review the intake column to verify that the correct tasks and issues appear.
 
    ![Intake column](assets/intake-column-added3.png)
 
-   Cards in the intake column are not editable until you move them into other board columns. You can <!--click on the card to open it in a read-only view, or -->click ![Open task or issue](assets/boards-launch-icon.png) to open the task or issue in a new browser tab.
+   Cards in the intake column are not editable until you move them into other board columns. You can click on the card to open it in a read-only view, or click ![Open task or issue](assets/boards-launch-icon.png) to open the task or issue in a new browser tab.
+
+   >[!NOTE]
+   >
+   >The read-only view for cards in the intake column is available only through the early feature opt-in for [!DNL Workfront] [!UICONTROL Boards].
    
    You can manually re-order the items on the intake column.
 

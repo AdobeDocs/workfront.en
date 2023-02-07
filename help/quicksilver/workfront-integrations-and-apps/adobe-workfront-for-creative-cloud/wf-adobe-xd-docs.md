@@ -47,9 +47,13 @@ You must have the following access to perform the steps in this article:
 
 ## Prerequisites
 
+<<<<<<< HEAD
 * You must install the [!DNL Workfront for Adobe XD] plugin before you can upload XD artboards as documents to Workfront.
+=======
+* You must install the [!DNL Adobe Workfront for XD] plugin before you can upload XD art boards as documents to Workfront.
+>>>>>>> main
 
- For instructions, see [Install [!DNL Workfront for Adobe XD]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-install.md).
+ For instructions, see [Install [!DNL Adobe Workfront for XD]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-install.md).
 
 ## Add a new document
 
