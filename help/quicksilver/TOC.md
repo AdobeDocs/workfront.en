@@ -579,6 +579,7 @@ feature-set: Workfront
       * [Import data using a Kick-Start template](administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md)
       * [Kick-Starts data importer](administration-and-setup/manage-workfront/using-kick-starts/kick-starts-data-importer.md)
       * [Kick-Starts scenario: Company and group](administration-and-setup/manage-workfront/using-kick-starts/kick-starts-scenario-company-group-role-user-prep.md)
+      * [Kick-Starts scenario: Import multiple-option custom-fields into Workfront](administration-and-setup/manage-workfront/using-kick-starts/kick-starts-scenario-multiple-option-custom-field-import.md)
       * [Kick-Starts scenario: Object import](administration-and-setup/manage-workfront/using-kick-starts/kick-starts-scenario-simple-project-task-import-prep.md)
       * [Kick-Starts FAQ](administration-and-setup/manage-workfront/using-kick-starts/frequently-asked-questions-about-kick-starts.md)
   * Manage groups {#manage-groups}
