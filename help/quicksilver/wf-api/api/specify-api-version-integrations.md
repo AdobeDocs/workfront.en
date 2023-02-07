@@ -9,22 +9,22 @@ exl-id: 2971749d-1d34-42a4-9eda-411aa8c3a2ab
 ---
 # Specify an API Version in your integrations
 
-All Adobe Workfront URIs are required to reference a specific version of the API after the “attask/api” portion of the URI. The following example calls Version 7.0:
+All Adobe Workfront URIs are required to reference a specific version of the API after the "attask/api" portion of the URI. The following example calls Version 7.0:
 `attask/api/v7.0/<objectName>/<objectId>` Please ensure all your integrations call currently-supported Workfront APIs.
 
 ## Release and Deprecation Schedule of Workfront APIs
 
-New versions of the API are&nbsp;released on a biannual basis--every six to eight months. Each version is&nbsp;supported for three years after its&nbsp;release date, with an additional year in a deprecated state where the version is&nbsp;available but not supported.
+New versions of the API are released on a biannual basis--every six to eight months. Each version is supported for three years after its release date, with an additional year in a deprecated state where the version is available but not supported.
 
 For more information on the release cadence and deprecation schedule of Workfront APIs, see [API versioning and support schedule](../../wf-api/api/api-version-support-schedule.md).
 
-Workfront deprecated the Default Version of the API as of July 2017.&nbsp;This means Workfront no longer designates a specific version of the API to be the Default Version. All future&nbsp;API URIs must specify a version of the API in order to be valid.
+Workfront deprecated the Default Version of the API as of July 2017. This means Workfront no longer designates a specific version of the API to be the Default Version. All future API URIs must specify a version of the API in order to be valid.
 
 >[!IMPORTANT]
 >
->&nbsp;Any integrations using the Default API version must be updated to call a specific supported API version by July 1, 2018.
+> Any integrations using the Default API version must be updated to call a specific supported API version by July 1, 2018.
 
-## Determining the API Version You Are&nbsp;Using
+## Determining the API Version You Are Using
 
 You can determine the version of the API you are using by checking the URI of an HTTP request sent to the Workfront API. The following example shows a Workfront request URI that specifies Version 7 of the API:
 
@@ -36,7 +36,7 @@ If a URI does not specify a version, then it is using the Default Version of the
 
 >[!IMPORTANT]
 >
->&nbsp;Integrations that do not specify a version of the API in the URI are&nbsp;automatically routed to the Default Version of the API and will&nbsp;fail to work after July 1, 2018.&nbsp;
+> Integrations that do not specify a version of the API in the URI are automatically routed to the Default Version of the API and will fail to work after July 1, 2018. 
 
 ## Updating Integrations to Use Supported API Versions
 
