@@ -126,8 +126,12 @@ To copy a project:
 
    By default, the **Status** matches that of the original project.
 
-1. (Optional) Deselect the items that you don't want to copy to the new project.&nbsp;The following table describes what happens when you deselect the items:
-<!--drafted for story for the 23.2 release: add another line in the table below for "Budgeted hours" if they do add it as an option with this story-->
+1. (Optional) Deselect the items that you don't want to copy to the new project. The following table describes what happens when you deselect the items:
+      <!--drafted for story for the 23.2 release: add another line in the table below for "Budgeted hours" and add this information to that row:
+      Removes the hours budgeted in the Resource Planning area of the project's Business Case from the copied project. 
+      <b>NOTE</b>
+      Hours budgeted using the Scenario Planner are never copied to the new project because the new project is not linked to an initiative in the Scenario Planner. For more information, see <a href="../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md">Budget resources in the Business Case using the Scenario Planner</a>
+      -->
 
    <table style="table-layout:auto"> 
     <col> 
@@ -135,7 +139,9 @@ To copy a project:
     <tbody> 
      <tr> 
       <td role="rowheader">Select all</td> 
-      <td> <p>Selects all options and clears all the fields and objects listed from the new project.</p> <p>Tip: Deselecting <strong>Select all</strong> deselects all items. </p> </td> 
+      <td> <p>Selects all options and clears all the fields and objects listed from the new project.</p> <p><b>TIP</b>
+      
+   Deselecting <strong>Select all</strong> deselects all items. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Assignments</td> 
@@ -151,8 +157,10 @@ To copy a project:
        <ul> 
         <li>Tasks</li> 
         <li>Expenses</li> 
-        <li> <p>Documents</p> </li> 
-       </ul> <p>Note: The custom forms remain attached to the tasks, expenses, documents, and the project, but the information in the custom fields of the forms is not copied to the new project. </p> </td> 
+        <li> Documents</li> 
+       </ul> <p><b>NOTE</b>
+      
+   The custom forms remain attached to the tasks, expenses, documents, and the project, but the information in the custom fields of the forms is not copied to the new project. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Documents</td> 

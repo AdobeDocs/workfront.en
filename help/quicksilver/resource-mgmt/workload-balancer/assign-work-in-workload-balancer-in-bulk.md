@@ -84,7 +84,9 @@ If you still don't have access, ask your Workfront administrator if they set add
 
    The Bulk Assignments panel opens to the right of the Workload Balancer. 
 
-1. (Conditional) If you are accessing the Workload Balancer from the Resourcing area or for a team, expand the **Project: Name** drop-down menu to select the project or projects that you want to make assignments for. You can select projects by name (this is the default option) or by status.
+1. (Conditional) If you are accessing the Workload Balancer from the Resourcing area or for a team, expand the **Project: Name** drop-down menu and use the filter modifiers to select the project or projects that you want to make assignments for. You can select projects by Name (this is the default option) or by Status. 
+
+For information about Workfront filter modifiers, see [Filters and condition modifiers](../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md). 
 
    >[!NOTE]
    >
@@ -92,7 +94,9 @@ If you still don't have access, ask your Workfront administrator if they set add
 
    ![](assets/project-name-status-dropdown-bulk-assignments-wb-nwe-350x133.png)
 
-1. (Optional) Click **Select project tasks** to select the task or tasks that you want to make assignments for, then in the **Task: Name** drop-down menu, select tasks by name (this is the default option) or status.
+1. (Optional) Click **Select project tasks** to select the task or tasks that you want to make assignments for, then in the **Task: Name** drop-down menu, select tasks by Name (this is the default option) or Status and use the filter modifiers to search for specific tasks. 
+
+For information about Workfront filter modifiers, see [Filters and condition modifiers](../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
 
    >[!NOTE]
    >
