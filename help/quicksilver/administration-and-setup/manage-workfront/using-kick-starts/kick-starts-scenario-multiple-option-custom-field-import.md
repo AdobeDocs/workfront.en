@@ -225,7 +225,7 @@ To populate the Excel spreadsheet with information for the new custom fields:
 1. Save the spreadsheet as an .xls or .xlsx file on your computer. Your Excel spreadsheet is filled out and is now ready for importing into Workfront.  
 
 
-## Upload the Excel Spreadsheet to Workfront 
+## Upload the Excel spreadsheet to Workfront 
 
 After performing the steps described in the previous sections, continue with the following to upload the new fields and forms into Workfront:  
 
@@ -257,20 +257,6 @@ After performing the steps described in the previous sections, continue with the
 
 1. (Conditional) Depending on what the problem is, as stated in the error message, some information might already be imported. You must do one of the following before you can import the sheet again: 
 
-    * Delete the information that was successfully imported from Workfront from the Custom Forms area and re-import the Excel file after you have corrected it.  
-    * Update the Excel file and indicate that a field or a form is already in the system. 
+    * Delete the information that was successfully imported from Workfront from the Custom Forms area, then make the correction indicated by the error message.  
+    * Indicate that a field or a form is already in the system for those fields or forms that have already imported, then make the correction. 
     To indicate that a field or a custom form is already in Workfront, you must ensure that the `inNew` field is marked as `FALSE` in sheets that contain information about the form (`CTGY`) or the field (`PARAM`) on the kick-start importing sheet.  
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
