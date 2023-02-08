@@ -77,7 +77,40 @@ For tips on preparing for the upcoming release, see [Prepare for an Adobe Workfr
             </tbody>
         </table>  
 
+## Other enhancements 
 
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">Feature</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Release dates</span>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-6.md" class="MCXref xref" xrefformat="{para}">Export artboards as single PDF or multiple PDF files in Adobe Workfront for XD</span></a><span style="color: #ff0000;"> New in Production!</span>
+                        <p>In the Adobe Workfront for XD plugin, you can now choose to export your artboards as a single PDF file or multiple PDF files.</p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                        <ul>
+                            <li>
+                                <p>Preview release: N/A<br /></p>
+                            </li>
+                            <li>
+                                 <p>Production release: February 6, 2023</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+            </tbody>
+        </table>  
 
 ## Announcements
 
