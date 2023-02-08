@@ -109,6 +109,22 @@ For tips on preparing for the upcoming release, see [Prepare for an Adobe Workfr
                         </ul>
                     </td>
                 </tr>
+                <tr>
+                    <td>
+                        <a href="help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-look-and-feel.md" class="MCXref xref" xrefformat="{para}">Look-and-feel updates during the 23.2 release timeframe</a></p>
+                        <p>Minor updates to the look and feel of various areas of the Adobe Workfront application are being made within the 23.2 release timeframe. These enhancements will be made available in the Production environment a minimum of 2 weeks after releasing to Preview. </p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                        <ul>
+                            <li>
+                                <p>Preview release:&#160;Throughout the 23.2 release timeframe<br /></p>
+                            </li>
+                            <li>
+                                <p><span class="preview">Production release: A minimum of 2 weeks after releasing to Preview (unless otherwise specified)</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
             </tbody>
         </table>  
 
