@@ -27,7 +27,7 @@ You must follow the steps outlined in the sections below, in this order, to impo
 
 1. Export existing Custom Data from Workfront (optional step)
 1. Export the Kick-Starts Template for Custom Data
-1. Populate the Excel kick-start spreadsheet
+1. Populate the Excel Kick-Starts spreadsheet
 1. Upload the Excel Spreadsheet to Workfront
 
 ## Export existing Custom Data from Workfront (optional step)
@@ -36,14 +36,14 @@ If you are not familiar with the Workfront database structure, or if you are not
 
 For example, if you want to import custom forms or custom fields, you must export a kick-start file with existing Custom Data first.  
 
-Exporting your existing data first, gives you an opportunity to scan it and see how your new data needs to be formatted.  
+Exporting your existing data first allows you to scan it and see how your new data needs to be formatted.  
 
 If you have a good understanding of the Workfront database objects and structure, you can continue with the section below.  
 
 To export existing data from Workfront: 
 
 1. Click **Main Menu > Setup** on the upper-right corner of the Workfront interface.  
-1. Expand the **System** menu to the left, then click **Export Data (Kick-starts)**. 
+1. Expand the **System** menu to the left, then click **Export Data (Kick-Starts)**. 
 
     ![](assets/export-data-kick-starts-link-in-setup.png)
 
@@ -65,7 +65,7 @@ To export existing data from Workfront:
 
 1. Examine the downloaded file and make note of the following details:  
 
-    * The file contains several sheets. You might not need to know the information in every sheet, but you will use some of the sheets to import your information. Take some time to familiarize yourself with their content and especially with the format of the content in each sheets.  
+    * The file contains several sheets. You might not need to know the information in every sheet, but you will use some of the sheets to import your information. Take some time to familiarize yourself with their content and especially with the format of the content in each sheet.  
     * Pay special attention to the column names and to the format in which the data in each column displays.  
     * You must not change the names or the order of the columns in any of the sheets. The column headers indicate fields that you need to fill out with your information, in each row. If the column header displays in bold, it is a required field, so you must have information in that column.
     
@@ -77,7 +77,7 @@ To export existing data from Workfront:
  
 ## Export the Kick-Starts template for Custom Data
 
-After scanning the information about existing custom fields in you system, you can download a new kick-start template for your import.  
+After scanning the information about existing custom fields in your system, you can download a new kick-start template for your import.  
 
 1. Click **Main Menu > Setup** on the upper-right corner of the Workfront interface. 
 
@@ -97,7 +97,7 @@ After scanning the information about existing custom fields in you system, you c
     >
     >The number of sheets in the file, their names, and the number of and names of the columns in each sheet should be identical to the ones from the kick-start downloaded in the above section which contained your existing custom data. 
 
-## Populate the Excel kick-start spreadsheet
+## Populate the Excel Kick-Starts spreadsheet
 
 Before populating the excel spreadsheet, download the kick-start template as described in the above section.  
 
@@ -122,7 +122,7 @@ To populate the Excel spreadsheet with information for the new custom fields:
 
 1. Ensure the following information is formatted correctly:  
 
-    * The first row of every sheet must remain empty, otherwise the import will generate an error.  
+    * The first row of every sheet must remain empty, otherwise the import generates an error.  
     * The column headers in each sheet represent attributes of the objects that can be set during an import. All column headers must remain in the same order you find them when you export the sheet and they cannot be renamed.  
     * The column headers in bold are required fields and they must have a value. 
 
@@ -139,7 +139,7 @@ To populate the Excel spreadsheet with information for the new custom fields:
         >    If a line represents an existing field already in Workfront, you would enter **`isNew`** = **`FALSE`**. 
 
     * **`ID`** = must be a unique number for each line that represents a new field. You can use any number starting with 1, as long as each new field has  a unique number.  
-    * **`setDataType`** = for each line that represents a new field, enter the data type that the field will support. The Data Type must be entered as it would appear in the database. Select from the following data types: 
+    * **`setDataType`** = for each line that represents a new field, enter the data type that the field supports. The Data Type must be entered as it would appear in the database. Select from the following data types: 
         * **`NMBR`** for Number 
         * **`CURC`** for Currency 
         * **`TEXT`** for Text 
@@ -185,7 +185,7 @@ To populate the Excel spreadsheet with information for the new custom fields:
         >You can only have one default option for each field.  
 
     * **`setParameterID`** = the options corresponding to the _Brand_ custom field  have a **`setParameterID`** of 1, and the options corresponding to the _Media_ have a **`setParameterID`**of 2. The `PARAM` and `POPT` sheets cross-reference each other to indicate which options belong to which custom field.  
-    * **`setDisplayOrder`**=  the display order column will indicate the order in which the options will display in your custom field. You can start with 1 and continue in ascending order for all the options, regardless of which fields they will belong to. The important thing here is to have unique numbers for each option.  
+    * **`setDisplayOrder`**=  the display order column indicates the order in which the options will display in your custom field. You can start with 1 and continue in ascending order for all the options, regardless of which fields they will belong to. The important thing here is to have unique numbers for each option.  
     * The **`setLabel`** and the `**setValue`** columns usually contain the same information and they should reflect the names desired in the Workfront UI. The value of an option is the name that displays in reports, for example, whereas the label displays in the custom forms when attached to an object. For more information, see [Add a custom field to a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md).  
     * **`setIsHidden`** = enter `TRUE` if you want any of the options to be hidden.  
 
@@ -216,7 +216,7 @@ To populate the Excel spreadsheet with information for the new custom fields:
 
         >[!NOTE]
         >
-        >For multi-object forms, enter the first object you would select when creating a form in the UI. For example, set the `setCatObjCode` to `TASK`, if you would select Task in the Workfront interface and then, Issue, Portfolio, etc, but you do not want the form to be available to Projects.  
+        >For multi-object forms, enter the first object you would select when creating a form in the UI. For example, set the `setCatObjCode` to `TASK`, if you would select Task in the Workfront interface and then, Issue, Portfolio, etc., but you do not want the form to be available to Projects.  
 
     * **`setName`** = this is the name of the custom form as you would like it to appear in the Workfront interface.   
 
