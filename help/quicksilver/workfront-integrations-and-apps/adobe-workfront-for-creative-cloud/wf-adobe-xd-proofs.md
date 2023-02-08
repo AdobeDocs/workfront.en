@@ -95,13 +95,16 @@ You must have the following access to perform the steps in this article:
 
 1. (Optional) Type a comment in the **[!UICONTROL Updates]** area.
 
-   ![](assets/proof-approvals-xd-350x396.png) <!-- new screenshot -->
+   ![](assets/proof-approvals-xd-350x396.png)
 
 1. Choose the export format from the **[!UICONTROL Asset Type]** drop-down menu.
 
-   ![](assets/create-a-proof-xd-350x202.png)
 
 1. (Optional) If you select PDF as the asset type and have more than one artboard selected, choose if you want to export your artboards as **[!UICONTROL Single PDF file]s** or **M[!UICONTROL ultiple PDF files]**.
+
+1. (Optional) Name the PDF. 
+
+   ![](assets/pdf-options.png)
 
 1. Click **[!UICONTROL Upload]**.  
    The document appears in the [!UICONTROL Documents] area in the plugin and the desktop app.
@@ -227,9 +230,13 @@ You can upload a new version of a proof. The plugin remembers the proofing workf
 
 1. (Optional) Type a comment in the **[!UICONTROL Updates]** area.
 
-   ![](assets/proof-approvals-xd-350x396.png) <!--new screenshot -->
+   ![](assets/proof-approvals-xd-350x396.png) 
 
 1. (Optional) If you select PDF as the asset type and have more than one artboard selected, choose if you want to export your artboards as **[!UICONTROL Single PDF file]s** or **M[!UICONTROL ultiple PDF files]**.
+
+1. (Optional) Name the PDF. 
+
+   ![](assets/pdf-options.png)
 
 1. Click **[!UICONTROL Upload]**.  
    The document appears in the [!UICONTROL Documents] area in the plugin and the desktop app.
