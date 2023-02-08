@@ -8,7 +8,6 @@ description: You can update the auto-upgrade option in access levels.
 author: Courtney
 feature: System Setup and Administration
 role: Admin
-exl-id: 4d868625-e976-47b4-9e80-f1eca84a2768
 hide: yes
 hidefromtoc: yes
 ---
