@@ -76,7 +76,7 @@ You must have the following to perform the steps in this article:
 
  You can add several different text fields to a custom form. 
 
-+++ **See descriptions of available text fields**
++++ **Expand to see descriptions of available text fields**
 
 * **Single Line Text Field**: Allows users to type a single line of text in the field.
 * **Paragraph Text Field**: Allows users to type multiple lines of text in the field.
@@ -185,7 +185,7 @@ To add a text field:
 
  In a custom form, you can add a calculated custom field that uses existing data to generate new data when the custom form is attached to an object. 
 
- +++ **See the types of calculations a custom field can contain**
+ +++ **Expand to see the types of calculations a custom field can contain**
 
 * A simple reference to a single built-in field.
 
@@ -249,7 +249,7 @@ To add a text field:
 
       Each field must be surrounded with curly brackets. When you start typing the name of a field, the system makes suggestions and you can select one to insert it into your calculation.
 
-      +++ **See syntax required in calculated custom fields**
+      +++ **Expand to see syntax required in calculated custom fields**
 
       Each field must use the syntax explained below, with curly brackets around each field name. When you start typing the name of a field, the system makes suggestions and you can select one  to insert it into your calculation. If you enter data in a calculation incorrectly, a warning messages alerts you. You cannot save the form unless you edit your calculation to contain valid fields and a valid calculated expression.
 
@@ -359,7 +359,7 @@ To add a text field:
 
       If you type an opening parenthesis, the closing parenthesis is added automatically.
 
-      +++ **View helpful tips**
+      +++ **Expand to see helpful tips**
       >[!TIP]
       >
       >You can do any of the following to get help with your calculation:
@@ -413,7 +413,7 @@ To add a text field:
 
  You can add radio buttons and checkboxes to a custom form. 
 
-+++ **See descriptions of available fields**
++++ **Expand to see descriptions of available fields**
 
 * **Radio buttons**: Requires users to select only one choice.
 * **Checkbox Group**: Allows users to select multiple choices.
@@ -528,7 +528,7 @@ To add radio buttons and checkboxes:
 
  You can add typeahead, drop-down, and date fields to a custom form. 
 
-+++ **See descriptions of available fields**
++++ **Expand to see descriptions of available fields**
 
 * **Typeahead**: Allows users to type the name of an object that exists in Workfront. A list of suggestions appears when the user starts typing. This field type supports the following objects:
     * User
@@ -689,7 +689,7 @@ Home and Summary
 The Edit box for the object, if it doesn't have the new Adobe Workfront experience look and feel (for example, the Edit Expense box)
 The Workfront Mobile app -->
 
- +++ **See descriptions of available fields**
+ +++ **Expand to see descriptions of available fields**
 
 * **Image**: Allows users to add _____ image files.
 * **PDF**: Allows users to add PDFs
