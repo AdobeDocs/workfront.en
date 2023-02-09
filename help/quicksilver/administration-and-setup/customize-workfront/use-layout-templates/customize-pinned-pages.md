@@ -64,9 +64,9 @@ To perform them for a group, you must be a manager of that group.</p> <p><b>NOTE
 
 1. Repeat the previous step to pin any other pages.
 
-1. (Optional) <span class="preview">To rename a pin, hover over the pin, click the arrow next to the pin name, and select **Rename pin**. Type the new pin name, and click the check mark icon or press Enter.</span>
+1. <span class="preview"> (Optional) To rename a pin, hover over the pin, click the arrow next to the pin name, and select **Rename pin**. Type the new pin name, and click the check mark icon or press Enter.</span>
 
-   <span class="preview">A small pop-up window appears for several seconds after you click the check mark or press Enter, allowing you to undo the pin name change before it is saved.</span>
+   <span class="preview"> A small pop-up window appears for several seconds after you click the check mark or press Enter, allowing you to undo the pin name change before it is saved.</span>
 
 1. Continue customizing the layout template.
 
