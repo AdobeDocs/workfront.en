@@ -32,3 +32,7 @@ Additional user information now displays when you add users in the following are
 Now, when you add a user to the areas listed above, in addition to the user's name and avatar, their Primary Role and their email also display. This helps distinguish between multiple users with similar or identical names.
 
 For more information, and to view a video demonstration of a similar feature, see "Smart user selection for project roles in the Edit and Details areas" in [22.4 Project enhancements](/help/quicksilver/product-announcements/product-releases/22.4-release-activity/22-4-project-enhancements.md).
+
+## Updated Document version icon in Document Details
+
+We've updated the look-and-feel of the Document version icon. The icon now displays a red dot noting when you're on a past version as well as a hover that says "Past version."
