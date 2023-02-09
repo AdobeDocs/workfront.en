@@ -535,7 +535,6 @@ feature-set: Workfront
     * Configure reports {#configure-reports}
       * [Configure reports](administration-and-setup/manage-workfront/configure-reports/configure-reports.md)
       * [Hide reports](administration-and-setup/manage-workfront/configure-reports/hide-built-in-reports.md)
-      * [Edit filters, views, and groupings](administration-and-setup/manage-workfront/configure-reports/edit-list-controls-filters-views-groupings.md)
     * Emails {#emails}
       * [Emails](administration-and-setup/manage-workfront/emails/emails.md)
       * [Email Notifications](administration-and-setup/manage-workfront/emails/email-notifications-page.md)
