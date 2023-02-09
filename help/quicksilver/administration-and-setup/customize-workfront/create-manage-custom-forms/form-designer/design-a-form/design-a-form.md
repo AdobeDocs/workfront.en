@@ -820,3 +820,5 @@ The Workfront Mobile app -->
     Click **Save and Close**. 
 
  ## Organize your custom form
+
+ For information on how to organize your form, see [Organize a form with the Form Designer](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md). 
