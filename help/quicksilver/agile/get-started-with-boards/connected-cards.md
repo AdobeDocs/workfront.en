@@ -117,7 +117,7 @@ You must have the following access to perform the steps in this article:
      </tr>
       <tr>
       <td role="rowheader"><strong>[!UICONTROL Estimation]</strong></td>
-      <td><p>The number of hours for the card to be completed.</p><p>If you use the early feature opt-in for [!DNL Workfront] [!UICONTROL Boards], changing the estimation also changes the story points value on the connected [!DNL Workfront] object.</p><p>If you are not opting in to early features, this field is a manual entry only.</p></td>
+      <td><p>The number of hours for the card to be completed.</p><p>If you use the early feature opt-in for [!DNL Workfront] [!UICONTROL Boards], changing the estimation also changes the story points value on the connected [!DNL Workfront] object.</p><p>If you are not opting in to early features, this field is a manual entry only and the value cannot be more than 99.</p></td>
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Tags]</strong></td>
