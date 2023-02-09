@@ -20,9 +20,46 @@ For tips on preparing for the upcoming release, see [Prepare for an Adobe Workfr
 
 ## Adobe Workfront enhancements
 
+* [Administrator enhancements](#administrator-enhancements)
 * [Agile enhancements](#agile-enhancements)
+* [Other enhancements](#other-enhancements)
 
-## Agile enhancements
+### Administrator enhancements
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">Feature</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Release dates</span>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-6.md" class="MCXref xref" xrefformat="{para}">Rename pins in layout template</span></a><span style="color: #ff0000;"> New in Preview!</span>
+                        <p>You can now rename pins in a layout template to be more meaningful to your users, instead of using the default name for the pinned page. Pins that administrators create are displayed for all users assigned to the layout template, and users can't rename those pins.</p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                        <ul>
+                            <li>
+                                <p>Preview release: February 9, 2023<br /></p>
+                            </li>
+                            <li>
+                                 <p>Production release: With the 23.2 release</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+            </tbody>
+        </table>  
+
+### Agile enhancements
 
 <table>
             <col style="width: 50%;" />
@@ -77,7 +114,7 @@ For tips on preparing for the upcoming release, see [Prepare for an Adobe Workfr
             </tbody>
         </table>  
 
-## Other enhancements 
+### Other enhancements 
 
 <table>
             <col style="width: 50%;" />
@@ -105,6 +142,22 @@ For tips on preparing for the upcoming release, see [Prepare for an Adobe Workfr
                             </li>
                             <li>
                                  <p>Production release: February 6, 2023</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-look-and-feel.md" class="MCXref xref" xrefformat="{para}">Look-and-feel updates during the 23.2 release timeframe</a></p>
+                        <p>Minor updates to the look and feel of various areas of the Adobe Workfront application are being made within the 23.2 release timeframe. These enhancements will be made available in the Production environment a minimum of 2 weeks after releasing to Preview. </p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                        <ul>
+                            <li>
+                                <p>Preview release:&#160;Throughout the 23.2 release timeframe<br /></p>
+                            </li>
+                            <li>
+                                <p><span class="preview">Production release: A minimum of 2 weeks after releasing to Preview (unless otherwise specified)</span></p>
                             </li>
                         </ul>
                     </td>
