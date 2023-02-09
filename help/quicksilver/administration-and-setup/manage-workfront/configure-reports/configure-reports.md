@@ -13,5 +13,4 @@ exl-id: 4b865423-803f-4758-b466-c4fc9a7268dc
 
 This section contains the following articles:
 
-* [Edit list controls: filters, views, and groupings](../../../administration-and-setup/manage-workfront/configure-reports/edit-list-controls-filters-views-groupings.md) 
 * [Hide built-in reports](../../../administration-and-setup/manage-workfront/configure-reports/hide-built-in-reports.md)

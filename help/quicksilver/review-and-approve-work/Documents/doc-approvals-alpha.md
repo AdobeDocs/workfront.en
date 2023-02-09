@@ -17,7 +17,15 @@ We are excited to announce the launch of our Alpha program for document approval
 
 In order to participate in this Alpha release, please ensure you have been added to Alpha in Preview by the product team. If not, please contact your Customer Success or Account Manager and request to be added.
 
-## Releases
+## Latest release
+
+### Alpha Release 2 - Jan. 2023
+
+Watch our [video walk-through](https://video.tv.adobe.com/v/3413941/){target=_blank} to see this release and feel free to follow along!
+
+With this Alpha 2 release you are able to add individuals and teams as reviewers or approvers and make approval decisions directly from the document details page.
+
+## _Past releases_
 
 ### Alpha Release 1 - Nov. 2022
 
