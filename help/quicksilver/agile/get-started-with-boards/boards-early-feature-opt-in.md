@@ -147,10 +147,6 @@ Early features for boards are available to all organizations. Involvement is com
 
 Only [!DNL Workfront] administrators can opt in to early features for boards. When a [!DNL Workfront] administrator enables early features, all users in the organization are opted in.
 
->[!IMPORTANT]
->
->If you are not already using boards, the [!UICONTROL Boards] option might not appear in the [!UICONTROL Main Menu]. A [!DNL Workfront] administrator must add [!UICONTROL Boards] to your layout template to make it available in the [!UICONTROL Main Menu]. For information, see [Customize the [!UICONTROL Main Menu] using a layout template](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
-
 1. Click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe Workfront], then click **[!UICONTROL Boards]**.
 1. Click **[!UICONTROL Early feature opt-in]** at the top of the dashboard screen.
 1. Click **[!UICONTROL Enable]**.

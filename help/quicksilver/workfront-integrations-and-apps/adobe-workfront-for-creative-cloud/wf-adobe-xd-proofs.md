@@ -1,15 +1,15 @@
 ---
 product-area: workfront-integrations;setup
 navigation-topic: adobe-workfront-for-xd
-title: Upload XD art boards as proofs to Workfront
-description: You can upload your art boards as proofs directly to Adobe Workfront for a thorough review and approval.
+title: Upload XD artboards as proofs to Workfront
+description: You can upload your artboards as proofs directly to Adobe Workfront for a thorough review and approval.
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: d6699fd7-f130-4231-8713-0cfa8dc3c910
 ---
-# Upload [!DNL XD] art boards as proofs to [!DNL Workfront]
+# Upload [!DNL XD] artboards as proofs to [!DNL Workfront]
 
-You can upload your art boards as proofs directly to [!DNL Adobe Workfront] for a thorough review and approval.
+You can upload your artboards as proofs directly to [!DNL Adobe Workfront] for a thorough review and approval.
 
 ## Access requirements
 
@@ -60,89 +60,15 @@ You must have the following access to perform the steps in this article:
 1. Click the **[!UICONTROL Document]** icon ![](assets/documents.png) in the navigation bar. 
 
 1. Click **[!UICONTROL New File]** near the bottom of the plugin.
-1. Select the art boards you wish to upload.
+1. Select the artboards you wish to upload.
 
    >[!TIP]
    >
-   >To select more than one art board, click and drag the mouse over the art boards you want.
+   >To select more than one artboard, click and drag the mouse over the artboards you want.
 
 1. Enable **[!UICONTROL Create a Proof]**.
-1. Choose the export format from the **[!UICONTROL Asset Type]** drop-down menu.
 
-   ![](assets/create-a-proof-xd-350x202.png)
-
-1. Choose the type of proof approval you want:
-
-   <table style="table-layout:auto"> 
-    <col> 
-    <col> 
-    <tbody> 
-     <tr> 
-      <td role="rowheader">[!UICONTROL Basic]: </td> 
-      <td> <p>Basic approval processes are ad-hoc and can include different reviewers as needed: </p> 
-       <ul> 
-        <li> <p>(Optional) Add <strong>Approvers</strong> in the box.</p> </li> 
-       </ul> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">[!UICONTROL Automated]</td> 
-      <td> <p>Automated approval processes are pre-built by administrators and include specific reviewers and stages. For more information, see <a href="../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md" class="MCXref xref">Automated Workflow overview</a>.</p> 
-       <ul> 
-        <li> <p>Choose a [!UICONTROL Workflow Template] from the drop-down menu.</p> </li> 
-       </ul> </td> 
-     </tr> 
-    </tbody> 
-   </table>
-
-<!-- {{adjust-proof-settings}} check this placement -->
-
-1. (Optional) Type a comment in the **[!UICONTROL Updates]** area.
-
-   ![](assets/proof-approvals-xd-350x396.png) <!-- new screenshot -->
-
-1. Click **[!UICONTROL Upload]**.  
-   The document appears in the [!UICONTROL Documents] area in the plugin and the desktop app.
-
-## Upload an interactive proof {#upload-an-interactive-proof}
-
-You can create an interactive proof for your art boards with the [!DNL Workfront for Adobe] plugin. It is a 2-step process. First you need to create an interactive link, then you need to upload the proof to a work item.
-
-### Create an interactive link for your art board  {#create-an-interactive-link-for-your-art-board}
-
-1. Open your art board, then click **[!UICONTROL Share]** in the top-left area of the screen.
-1. Specify the link settings:
-
-   1. Name the link.
-   1. Choose a view setting.
-   1. In the **[!UICONTROL Link Access]** section, ensure **[!UICONTROL Anyone with this link]** is selected.
-
-      You must enable this type of access in order to generate an interactive proof. 
-   
-   1. Click **[!UICONTROL Create Link]**.
-
-1. Click back to **[!UICONTROL Design]** in the top-left area of the screen. Continue to the [Upload an interactive proof](#upload-an-interactive-proof) section below.
-
-   >[!NOTE]
-   >
-   >You may need to reopen the plugin panel in the bottom-left corner of the screen.
-
-### Upload an interactive proof
-
-1. Click the **[!UICONTROL Menu]** icon in the top-right corner, then select **[!UICONTROL Work List]**. You can also use the menu to navigate to parent objects.
-
-   ![](assets/menu-350x440.png)
-
-1. Go to the work item where you want to upload an interactive proof.
-1. Click the **[!UICONTROL Document]** icon ![](assets/documents.png) in the navigation bar. 
-
-1. Click **[!UICONTROL New File]** near the bottom of the plugin.
-1. Enable **[!UICONTROL Create a Proof]**.
-1. In the **[!UICONTROL Asset Type]** drop-down menu, choose the link you just created under the **Shared links** tab. For more information, see [Create an interactive link for your art board](#create-an-interactive-link-for-your-art-board).  
-   ![](assets/shared-links-xd-350x870.png)
-
-   <!--
-   <img src="assets/shared-links-xd-350x483.png" style="width: 350;height: 483;" data-mc-conditions="QuicksilverOrClassic.Draft mode">
-   -->
+1. Name the proof.
 
 1. Choose the type of proof approval you want:
 
@@ -171,36 +97,52 @@ You can create an interactive proof for your art boards with the [!DNL Workfront
 
    ![](assets/proof-approvals-xd-350x396.png)
 
-1. Click **[!UICONTROL Upload]**.
+1. Choose the export format from the **[!UICONTROL Asset Type]** drop-down menu.
 
+
+1. (Optional) If you select PDF as the asset type and have more than one artboard selected, choose if you want to export your artboards as **[!UICONTROL Single PDF file]s** or **M[!UICONTROL ultiple PDF files]**.
+
+1. (Optional) Name the PDF. 
+
+   ![](assets/pdf-options.png)
+
+1. Click **[!UICONTROL Upload]**.  
    The document appears in the [!UICONTROL Documents] area in the plugin and the desktop app.
 
-   >[!IMPORTANT]
+## Upload an interactive proof {#upload-an-interactive-proof}
+
+You can create an interactive proof for your artboards with the [!DNL Workfront for Adobe] plugin. It is a 2-step process. First you need to create an interactive link, then you need to upload the proof to a work item.
+
+### Create an interactive link for your artboard  {#create-an-interactive-link-for-your-art-board}
+
+1. Open your artboard, then click **[!UICONTROL Share]** in the top-left area of the screen.
+1. Specify the link settings:
+
+   1. Name the link.
+   1. Choose a view setting.
+   1. In the **[!UICONTROL Link Access]** section, ensure **[!UICONTROL Anyone with this link]** is selected.
+
+      You must enable this type of access in order to generate an interactive proof. 
+   
+   1. Click **[!UICONTROL Create Link]**.
+
+1. Click back to **[!UICONTROL Design]** in the top-left area of the screen. Continue to the [Upload an interactive proof](#upload-an-interactive-proof) section below.
+
+   >[!NOTE]
    >
-   >Users must have access to the [!UICONTROL Desktop Proofing Viewer] to review and approve interactive proofs. For more information, see [Install the [!UICONTROL Desktop Proofing Viewer]](../../review-and-approve-work/proofing/use-the-desktop-proofing-viewer/installing-desktop-proofing-viewer.md).
+   >You may need to reopen the plugin panel in the bottom-left corner of the screen.
 
-## Upload a new proof version
-
-You can upload a new version of a proof. The plugin remembers the proofing workflow set on the previous version, but you can change this if you wish.
+### Upload an interactive proof
 
 1. Click the **[!UICONTROL Menu]** icon in the top-right corner, then select **[!UICONTROL Work List]**. You can also use the menu to navigate to parent objects.
 
    ![](assets/menu-350x440.png)
 
-1. Go to the work item you need to upload a document to.
-1. Click the **[!UICONTROL Document]** icon ![](assets/documents.png)in the navigation bar. 
+1. Go to the work item where you want to upload an interactive proof.
+1. Click the **[!UICONTROL Document]** icon ![](assets/documents.png) in the navigation bar. 
 
-1. Click **[!UICONTROL New Version]** near the bottom of the plugin.
+1. Click **[!UICONTROL New File]** near the bottom of the plugin.
 1. Enable **[!UICONTROL Create a Proof]**.
-1. Select the art boards you wish to upload.
-
-   >[!NOTE]
-   >
-   >If you want to upload a new version of an .svg, .png, or .jpg, you can upload only one art board.
-
-1. Choose the export format from the **[!UICONTROL Asset Type]** drop-down menu.
-
-   ![](assets/create-a-proof-xd-350x202.png)
 
 1. Choose the type of proof approval you want:
 
@@ -225,11 +167,76 @@ You can upload a new version of a proof. The plugin remembers the proofing workf
     </tbody> 
    </table>
 
-{{adjust-proof-settings}} <!--check placement -->
+1. (Optional) Type a comment in the **[!UICONTROL Updates]** area.
+
+   ![](assets/proof-approvals-xd-350x396.png)
+
+1. In the **[!UICONTROL Asset Type]** drop-down menu, choose the link you just created under the **Shared links** tab. For more information, see [Create an interactive link for your artboard](#create-an-interactive-link-for-your-artboard).  
+   ![](assets/shared-links-xd-350x870.png)
+
+1. Click **[!UICONTROL Upload]**.
+
+   The document appears in the [!UICONTROL Documents] area in the plugin and the desktop app.
+
+   >[!IMPORTANT]
+   >
+   >Users must have access to the [!UICONTROL Desktop Proofing Viewer] to review and approve interactive proofs. For more information, see [Install the [!UICONTROL Desktop Proofing Viewer]](../../review-and-approve-work/proofing/use-the-desktop-proofing-viewer/installing-desktop-proofing-viewer.md).
+
+## Upload a new proof version
+
+You can upload a new version of a proof. The plugin remembers the proofing workflow set on the previous version, but you can change this if you wish.
+
+1. Click the **[!UICONTROL Menu]** icon in the top-right corner, then select **[!UICONTROL Work List]**. You can also use the menu to navigate to parent objects.
+
+   ![](assets/menu-350x440.png)
+
+1. Go to the work item you need to upload a document to.
+1. Click the **[!UICONTROL Document]** icon ![](assets/documents.png)in the navigation bar. 
+
+1. Click **[!UICONTROL New Version]** near the bottom of the plugin.
+1. Enable **[!UICONTROL Create a Proof]**.
+1. Select the artboards you wish to upload.
+
+   >[!NOTE]
+   >
+   >If you want to upload a new version of an .svg, .png, or .jpg, you can upload only one artboard.
+
+1. Choose the type of proof approval you want:
+
+   <table style="table-layout:auto"> 
+    <col> 
+    <col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader">[!UICONTROL Basic]: </td> 
+      <td> <p>Basic approval processes are ad-hoc and can include different reviewers as needed: </p> 
+       <ul> 
+        <li> <p>(Optional) Add <strong>Approvers</strong> in the box.</p> </li> 
+       </ul> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">[!UICONTROL Automated]</td> 
+      <td> <p>Automated approval processes are pre-built by administrators and include specific reviewers and stages. For more information, see <a href="../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md" class="MCXref xref">Automated Workflow overview</a>.</p> 
+       <ul> 
+        <li> <p>Choose a [!UICONTROL Workflow Template] from the drop-down menu.</p> </li> 
+       </ul> </td> 
+     </tr> 
+    </tbody> 
+   </table>
+
+1. Choose the export format from the **[!UICONTROL Asset Type]** drop-down menu.
+
+   ![](assets/create-a-proof-xd-350x202.png)
 
 1. (Optional) Type a comment in the **[!UICONTROL Updates]** area.
 
-   ![](assets/proof-approvals-xd-350x396.png) <!--new screenshot -->
+   ![](assets/proof-approvals-xd-350x396.png) 
+
+1. (Optional) If you select PDF as the asset type and have more than one artboard selected, choose if you want to export your artboards as **[!UICONTROL Single PDF file]s** or **M[!UICONTROL ultiple PDF files]**.
+
+1. (Optional) Name the PDF. 
+
+   ![](assets/pdf-options.png)
 
 1. Click **[!UICONTROL Upload]**.  
    The document appears in the [!UICONTROL Documents] area in the plugin and the desktop app.
