@@ -77,7 +77,6 @@ You must have the following to perform the steps in this article:
    >
    >The My Timesheet Approvals and My Timesheets options do not display at the top of the timesheet list or in the list of filters if your Workfront administrator or a group administrator removed the My Timesheet Approvals and the My Timesheets filters from either the List Controls in the Setup area or from your Layout Template. For more information see the following articles:
    > 
-   >   * [Edit list controls: filters, views, and groupings](../../administration-and-setup/manage-workfront/configure-reports/edit-list-controls-filters-views-groupings.md) 
    >   * [Customize Filters, Views, and Groupings using a layout template](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md) 
    
 

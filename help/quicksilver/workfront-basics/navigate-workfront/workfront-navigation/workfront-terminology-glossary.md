@@ -1162,7 +1162,7 @@ The following table is a list of commonly used terms in Adobe Workfront:
   </tr> 
   <tr> 
    <td>[!UICONTROL List Controls]</td> 
-   <td> <p>A part of [!UICONTROL Interface Setup] that allows linking custom Filters, Views, and Groupings to individual Users or globally to all Users.</p> <p>For more information, see <a href="../../../administration-and-setup/manage-workfront/configure-reports/edit-list-controls-filters-views-groupings.md" class="MCXref xref">Edit list controls: filters, views, and groupings</a>.</p> </td> 
+   <td> <p>A part of [!UICONTROL Interface Setup] that allows linking custom Filters, Views, and Groupings to individual Users or globally to all Users.</p> </td> 
   </tr> 
  </tbody> 
 </table>
