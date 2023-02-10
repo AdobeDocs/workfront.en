@@ -21,9 +21,9 @@ In order to participate in this Alpha release, please ensure you have been added
 
 ### Alpha Release 2 - Jan. 2023
 
-Watch our [video walk-through](https://video.tv.adobe.com/v/3413941/){target=_blank} to see this release and feel free to follow along!
-
 With this Alpha 2 release you are able to add individuals and teams as reviewers or approvers and make approval decisions directly from the document details page.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3413941/?quality=12)
 
 ## _Past releases_
 
