@@ -41,7 +41,10 @@ In an Adobe Workfront Fusion scenario, you can automate workflows that use Airta
 * [Get a record](#get-a-record) 
 * [Search Records](#search-records) 
 * [Update a Record](#update-a-record) 
+* [Upsert a Record](#upsert-a-record) 
 * [Watch Records](#watch-records)
+* [Watch Responses](#watch-responses)
+* [Make an API call](#make-an-api-call)
 
 #### Create a Record {#create-a-record}
 
@@ -59,7 +62,7 @@ When you are configuring this module, the following fields display.
  <tbody> 
   <tr> 
    <td>Connection </td> 
-   <td> <p>For instructions about connecting your [Fusion App] account to Workfront Fusion, see <a href="#connect-airtable-to-workfront-fusion" class="MCXref xref">Connect Airtable to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your Airtable account to Workfront Fusion, see <a href="#connect-airtable-to-workfront-fusion" class="MCXref xref">Connect Airtable to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td>Base </td> 
@@ -119,7 +122,7 @@ When you are configuring this module, the following fields display.
  <tbody> 
   <tr> 
    <td>Connection </td> 
-   <td> <p>For instructions about connecting your [Fusion App] account to Workfront Fusion, see <a href="#connect-airtable-to-workfront-fusion" class="MCXref xref">Connect Airtable to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your Airtable account to Workfront Fusion, see <a href="#connect-airtable-to-workfront-fusion" class="MCXref xref">Connect Airtable to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td>Base </td> 
@@ -127,7 +130,7 @@ When you are configuring this module, the following fields display.
   </tr> 
   <tr> 
    <td>Table </td> 
-   <td> <p>Select the that contains the record you want to delete.</p> </td> 
+   <td> <p>Select the table that contains the record you want to delete.</p> </td> 
   </tr> 
   <tr> 
    <td>Record ID</td> 
@@ -146,7 +149,7 @@ This action module retrieves record details.
  <tbody> 
   <tr> 
    <td>Connection </td> 
-   <td> <p>For instructions about connecting your [Fusion App] account to Workfront Fusion, see <a href="#connect-airtable-to-workfront-fusion" class="MCXref xref">Connect Airtable to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your Airtable account to Workfront Fusion, see <a href="#connect-airtable-to-workfront-fusion" class="MCXref xref">Connect Airtable to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td>Base </td> 
@@ -177,7 +180,7 @@ When you are configuring this module, the following fields display.
  <tbody> 
   <tr> 
    <td>Connection </td> 
-   <td> <p>For instructions about connecting your [Fusion App] account to Workfront Fusion, see <a href="#connect-airtable-to-workfront-fusion" class="MCXref xref">Connect Airtable to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your Airtable account to Workfront Fusion, see <a href="#connect-airtable-to-workfront-fusion" class="MCXref xref">Connect Airtable to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td>Base </td> 
@@ -225,14 +228,20 @@ When you are configuring this module, the following fields display.
    <td> <p style="font-weight: normal;">Establish a connection to your Airtable account. (See <a href="#connect-airtable-to-workfront-fusion" class="MCXref xref">Connect Airtable to Workfront Fusion</a>.)</p> </td> 
   </tr> 
   <tr> 
+   <td>Base </td> 
+   <td> <p>Select the base that contains the record you want to update.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>Table </td> 
+   <td> <p>Select the table that contains the record you want to update.</p> </td> 
+  </tr> 
+  <tr> 
    <td>Record ID </td> 
    <td> <p>Enter or map the unique Airtable ID of the record that you want the module to update. You can retrieve the ID, for example, using the Search Records module.</p> </td> 
   </tr> 
   <tr> 
-   <td> <p style="font-weight: bold;">Record</p> </td> 
-   <td> <p>Enter the values for the new record.</p> <p>In order to delete the content of the field, use the erase function. </p> <!--
-     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">screenshot</p>
-    --> <p>Field types (via airtable.com/api):</p> 
+   <td> <p>Record</p> </td> 
+   <td> <p>Enter the values for the new record. Available fields depend on the table you selected.</p> <!--<p>In order to delete the content of the field, use the erase function. </p>  <p>Field types (via airtable.com/api):</p> 
     <ul> 
      <li> <p><strong>Text</strong>: string</p> <p>A single line of text.</p> </li> 
      <li> <p><strong>Long text</strong>: string</p> <p>The string can contain multiple lines of text with "mention tokens." For example:</p><pre>&lt;airtable:mention id="menE1i9oBaGX3DseR"&gt;@Alex&lt;/airtable:mention&gt;</pre> </li> 
@@ -243,11 +252,11 @@ When you are configuring this module, the following fields display.
      <li><strong>Collaborator</strong>: Enter the email that uniquely identifies a user in Airtable who this base is shared with.</li> 
      <li><strong>Date</strong>: UTC date, for example, 2019-09-05. (ISO 8601 formatted date)</li> 
      <li><strong>Phone number</strong>: A telephone number, for example, (415) 555-9876.</li> 
-     <li><strong>Email</strong>: A valid email address.</li> 
-     <li><strong>URL</strong>: A valid URL such as airtable.com or https://airtable.com/universe.</li> 
-     <li><strong>Number</strong>: Enter a number.</li> 
-     <li><strong>Currency</strong>: Currency value.</li> 
-     <li><strong>Percent</strong>: A percentage value; must be equal to or more than 0.</li> 
+     <li><strong>Email</strong>valid email address.</li> 
+     <li><strong>URL</strong>: lid URL such as airtable.com or https://airtable.coiverse.</li> 
+     <li><strong>Number</strongnter a number.</li> 
+     <li><strong>Currency</stro Currency value.</li> 
+     <li><strong>Percent</stronA percentage value; must be equal to or more than 0i> 
      <li><strong>Duration</strong>: Enter the duration time. If you need help, see the information about the duration field type in the Airtable support documentation.</li> 
      <li><strong>Rating</strong>: Enter the number. For example, "3 stars" is 3. A rating cannot be 0.</li> 
      <li><strong>Link</strong>: Enter the linked records IDs from the table. The order of record IDs is reversed compared to what you see in the app.</li> 
@@ -255,7 +264,71 @@ When you are configuring this module, the following fields display.
      <li><strong>Lookup</strong>: Array of long text fields</li> 
      <li><strong>Autonumber</strong>: Automatically incremented unique counter for each record.</li> 
      <li> <p><strong>Barcode</strong>: The barcode object may contain the following two properties, both of which are optional.</p> <p>Barcode data (text)</p> <p>Barcode symbology, for example, "upce" or "code39" (type)</p> </li> 
-    </ul> </td> 
+    </ul> --></td> 
+  </tr> 
+  <tr> 
+   <td>Smart links</td> 
+   <td> <p>Enter names instead of record IDs to fields that link to another table. The record is automatically created in the linked table if there is no match.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### Upsert a record
+
+This action module updates or inserts a particular record.
+
+You specify the ID of the record and the new data you want it to contain.
+
+The module returns any standard fields associated with the record, along with any custom fields and values that the connection accesses. You can map this information in subsequent modules in the scenario.
+
+When you are configuring this module, the following fields display.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td>Connection </td> 
+   <td> <p style="font-weight: normal;">Establish a connection to your Airtable account. (See <a href="#connect-airtable-to-workfront-fusion" class="MCXref xref">Connect Airtable to Workfront Fusion</a>.)</p> </td> 
+  </tr> 
+  <tr> 
+   <td>Base </td> 
+   <td> <p>Select the base that contains the record you want to update.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>Table </td> 
+   <td> <p>Select the table that contains the record you want to update.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>Record ID </td> 
+   <td> <p>If you are updating a record, enter or map the unique Airtable ID of the record that you want the module to update. You can retrieve the ID, for example, using the Search Records module.</p> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>Record</p> </td> 
+   <td> <p>Enter the values for the new record. Available fields depend on the table you selected.</p> <!-- <p>In order to delete the content of the field, use the erase function. </p>  <p>Field types (via airtable.com/api):</p> 
+    <ul> 
+     <li> <p><strong>Text</strong>: string</p> <p>A single line of text.</p> </li> 
+     <li> <p><strong>Long text</strong>: string</p> <p>The string can contain multiple lines of text with "mention tokens." For example:</p><pre>&lt;airtable:mention id="menE1i9oBaGX3DseR"&gt;@Alex&lt;/airtable:mention&gt;</pre> </li> 
+     <li><strong>Attachment</strong>: Add the attachment. Airtable will download the file from the provided url and keep its own copy of it. If the File name field is left empty, Airtable will generate the name automatically.</li> 
+     <li><strong>Checkbox</strong>: Select one of the options.</li> 
+     <li><strong>Multiple select</strong>: Select multiple options in the checklist.</li> 
+     <li><strong>Single select</strong>: Select one option from the drop-down menu.</li> 
+     <li><strong>Collaborator</strong>: Enter the email that uniquely identifies a user in Airtable who this base is shared with.</li> 
+     <li><strong>Date</strong>: UTC date, for example, 2019-09-05. (ISO 8601 formatted date)</li> 
+     <li><strong>Phone number</strong>: A telephone number, for example, (415) 555-9876.</li> 
+     <li><strong>Email</strong>valid email address.</li> 
+     <li><strong>URL</strong>: lid URL such as airtable.com or https://airtable.coiverse.</li> 
+     <li><strong>Number</strongnter a number.</li> 
+     <li><strong>Currency</stro Currency value.</li> 
+     <li><strong>Percent</stronA percentage value; must be equal to or more than 0i> 
+     <li><strong>Duration</strong>: Enter the duration time. If you need help, see the information about the duration field type in the Airtable support documentation.</li> 
+     <li><strong>Rating</strong>: Enter the number. For example, "3 stars" is 3. A rating cannot be 0.</li> 
+     <li><strong>Link</strong>: Enter the linked records IDs from the table. The order of record IDs is reversed compared to what you see in the app.</li> 
+     <li><strong>Rollup</strong>: Computed value: COUNT(values)</li> 
+     <li><strong>Lookup</strong>: Array of long text fields</li> 
+     <li><strong>Autonumber</strong>: Automatically incremented unique counter for each record.</li> 
+     <li> <p><strong>Barcode</strong>: The barcode object may contain the following two properties, both of which are optional.</p> <p>Barcode data (text)</p> <p>Barcode symbology, for example, "upce" or "code39" (type)</p> </li> 
+    </ul> --></td> 
   </tr> 
   <tr> 
    <td>Smart links</td> 
@@ -278,23 +351,31 @@ This trigger module executes a scenario when a new record is added or updated in
  <tbody> 
   <tr> 
    <td>Connection </td> 
-   <td> <p>For instructions about connecting your [Fusion App] account to Workfront Fusion, see <a href="#connect-airtable-to-workfront-fusion" class="MCXref xref">Connect Airtable to Workfront Fusion</a> in this article.</p> </td> 
+   <td> <p>For instructions about connecting your Airtable account to Workfront Fusion, see <a href="#connect-airtable-to-workfront-fusion" class="MCXref xref">Connect Airtable to Workfront Fusion</a> in this article.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>Base </td> 
+   <td> <p>Select the base you want to watch for new records.</p> </td> 
   </tr> 
   <tr> 
    <td>Table </td> 
    <td> <p>Select the table you want to watch for new records.</p> </td> 
   </tr> 
   <tr> 
-   <td> <p style="font-weight: bold;">Trigger configuration</p> </td> 
-   <td> <p style="font-weight: bold;">Trigger field</p> <p>A <code>Created Time</code> field that is used to sort records. If you do not have a <code>Created Time</code> field in your schema, you need to create one. </p> <p style="font-weight: bold;">Label field</p> <p>A field that is used as a label for a record, for example, in the Choose where to start dialog.</p> </td> 
+   <td> <p>Trigger configuration</p> </td> 
+   <td> <p>Trigger field</p> <p>A <code>Created Time</code> or <code>Last Modified Time</code> field that is used to sort records. If you do not have a <code>Created Time</code> or <code>Last Modified Time</code> field in your schema, you need to create one. </p> <p>Label field</p> <p>A field that is used as a label for a record, for example, in the Choose where to start dialog.</p> </td> 
   </tr> 
   <tr> 
-   <td> <p style="font-weight: bold;">Formula</p> </td> 
-   <td> <p>A formula used to filter records. The formula is evaluated for each record, and if the result is not <code>0</code>, <code>false</code>, <code>""</code>, <code>NaN</code>, <code>[]</code>, or <code>#Error!</code> the record is included in the response.</p> <p>If combined with the <code>view</code>, only records in that view which satisfy the formula are returned.</p> <p>For example, to only include records where Name isn't empty, pass in:<code> NOT({Name} = '')</code></p> <p>To learn more, see the information about formula field references in the Airtable support documentation.</p> </td> 
-  </tr> 
-  <tr> 
-   <td>Max Records</td> 
+   <td>Limit</td> 
    <td> <p>Enter or map the maximum number of records you want the module to watch during each scenario execution cycle.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>View</td> 
+   <td> <p>Select the view that you want to use.</p> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>Formula</p> </td> 
+   <td> <p>A formula used to filter records. The formula is evaluated for each record, and if the result is not <code>0</code>, <code>false</code>, <code>""</code>, <code>NaN</code>, <code>[]</code>, or <code>#Error!</code> the record is included in the response.</p> <p>If combined with the <code>view</code>, only records in that view which satisfy the formula are returned.</p> <p>For example, to only include records where Name isn't empty, pass in:<code> NOT({Name} = '')</code></p> <p>To learn more, see the information about formula field references in the Airtable support documentation.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -326,3 +407,47 @@ The webhook URL needs to be generated in Workfront Fusion and then added to form
 1. Add the Airtable > Get a Record module just after the Airtable > Watch Responses module and map the record_id to the Record ID field.
 
 Now, every time the form is submitted, the Watch Responses module in your Workfront Fusion scenario is triggered, and the Get a Record module returns the submitted form details.
+
+#### Make an API call
+
+#### Custom API Call 
+
+This action module lets you make a custom authenticated call to the [!DNL Airtable] API. This way, you can create a data flow automation that can't be accomplished by the other [!DNL Airtable] modules.
+
+The action is based on the entity type (Allocadia object type) you specify.
+
+When you are configuring this module, the following fields display.
+
+<table style="table-layout:auto">
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader"> <p>Connection</p> </td> 
+   <td> <p>For instructions about connecting your Airtable account to Workfront Fusion, see <a href="#connect-airtable-to-workfront-fusion" class="MCXref xref">Connect Airtable to Workfront Fusion</a> in this article.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">URL</td> 
+   <td>Enter a path relative to <code>https://api.airtable.com/}</code>. Example: <code>v0/{base}/{table}</code> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Method</td> 
+   <td> <p>Select the HTTP request method you need to configure the API call. For more information, see <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">HTTP request methods in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Headers</td> 
+   <td> <p>Add the headers of the request in the form of a standard JSON object.</p> <p>For example, <code>{"Content-type":"application/json"}</code></p> <p>[!DNL Workfront Fusion] adds the authorization headers for you.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Query String</td> 
+   <td> <p>Add the query for the API call in the form of a Key and Value</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Body</td> 
+   <td> <p>Add the body content for the API call in the form of a standard JSON object.</p> <p>Note:  <p>When using conditional statements such as <code>if</code> in your JSON, put the quotation marks outside of the conditional statement.</p> 
+     <div class="example" data-mc-autonum="<b>Example: </b>"> 
+      <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
+     </div> </p> </td> 
+  </tr> 
+ </tbody> 
+</table>
