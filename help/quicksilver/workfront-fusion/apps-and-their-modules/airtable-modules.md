@@ -25,7 +25,8 @@ In an Adobe Workfront Fusion scenario, you can automate workflows that use Airta
 1. Log in to your Airtable account.
 1. Open your account overview and generate the API key.
 1. Open Workfront Fusion and the **Create a connection** dialog of the desired module.
-1. Enter the generated API key in the **API** token field.
+1. Enter a name for the connection.
+1. Enter the generated API key in the **API token** field.
 
    ![](assets/airtable-create-a-connection-350x263.png)
 
@@ -61,8 +62,16 @@ When you are configuring this module, the following fields display.
    <td> <p>For instructions about connecting your [Fusion App] account to Workfront Fusion, see <a href="#connect-airtable-to-workfront-fusion" class="MCXref xref">Connect Airtable to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
-   <td> <p style="font-weight: bold;">Record</p> </td> 
-   <td> <p>Enter the values for the new record.</p> <p>For more information on field types, search for "Field types reference" in the Airtable documentation.</p> 
+   <td>Base </td> 
+   <td> <p>Select the base that the new record will belong to.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>Table </td> 
+   <td> <p>Select the table that the new record will belong to.</p> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>Record</p> </td> 
+   <td> <p>Enter the values for the new record. Available fields are based on the table you selected.</p> <!--<p>For more information on field types, search for "Supported field types" in the Airtable documentation.</p> 
     <ul> 
      <li> <p><strong>Text</strong>: string</p> <p>A single line of text.</p> </li> 
      <li> <p><strong>Long text</strong>: string</p> <p>Multiple lines of text, which may contain "mention tokens", for example:</p><pre>&lt;airtable:mention id="menE1i9oBaGX3DseR"&gt;@Alex&lt;/airtable:mention&gt;</pre> </li> 
@@ -85,11 +94,11 @@ When you are configuring this module, the following fields display.
      <li><strong>Lookup</strong>: Array of long text fields</li> 
      <li><strong>Autonumber</strong>: Automatically incremented unique counter for each record.</li> 
      <li> <p><strong>Barcode</strong>: The barcode object may contain the following two properties, both of which are optional.</p> <p>Barcode data (text)</p> <p>Barcode symbology, for example, "upce" or "code39" (type)</p> </li> 
-    </ul> </td> 
+    </ul> --></td> 
   </tr> 
   <tr> 
    <td>Smart links</td> 
-   <td> <p>Enter names instead of record IDs to fields that link to another table. The record is automatically created in the linked table if there is no match.</p> </td> 
+   <td> <p>Enable this option to enter names instead of record IDs to fields that link to another table. The record is automatically created in the linked table if there is no match.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -113,8 +122,12 @@ When you are configuring this module, the following fields display.
    <td> <p>For instructions about connecting your [Fusion App] account to Workfront Fusion, see <a href="#connect-airtable-to-workfront-fusion" class="MCXref xref">Connect Airtable to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
+   <td>Base </td> 
+   <td> <p>Select the base that contains the record you want to delete.</p> </td> 
+  </tr> 
+  <tr> 
    <td>Table </td> 
-   <td> <p>Select the table you want to delete the record from.</p> </td> 
+   <td> <p>Select the that contains the record you want to delete.</p> </td> 
   </tr> 
   <tr> 
    <td>Record ID</td> 
@@ -167,12 +180,16 @@ When you are configuring this module, the following fields display.
    <td> <p>For instructions about connecting your [Fusion App] account to Workfront Fusion, see <a href="#connect-airtable-to-workfront-fusion" class="MCXref xref">Connect Airtable to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
+   <td>Base </td> 
+   <td> <p>Select the base you want to search for records.</p> </td> 
+  </tr> 
+  <tr> 
    <td>Table </td> 
    <td> <p>Select the table you want to search for records.</p> </td> 
   </tr> 
   <tr> 
-   <td> <p style="font-weight: bold;">Formula</p> </td> 
-   <td> <p>A formula used to filter records. The formula is evaluated for each record, and if the result is not <code>0</code>, <code>false</code>, <code>""</code>, <code>NaN</code>, <code>[]</code>, or <code>#Error!</code> the record is included in the response.</p> <p>If combined with the <code>view</code>, only records in that view which satisfy the formula are returned.</p> <p>For example, to only include records where Name isn't empty, pass in:<code> NOT({Name} = '')</code></p> <p>To learn more, see the information about formula field references in the Airtable support documentation.</p> </td> 
+   <td> <p>Formula</p> </td> 
+   <td> <p>A formula used to filter records. The formula is evaluated for each record, and if the result is not <code>0</code>, <code>false</code>, <code>""</code>, <code>NaN</code>, <code>[]</code>, or <code>#Error!</code> the record is included in the response.</p> <p>If combined with the <code>view</code>, only records in that view which satisfy the formula are returned.</p> <p>For example, to only include records where Name isn't empty, pass in:<code> NOT({Name} = '')</code></p> <p>To learn more, search for information about formula field references in the Airtable support documentation.</p> </td> 
   </tr> 
   <tr> 
    <td>Sort </td> 
@@ -183,7 +200,7 @@ When you are configuring this module, the following fields display.
    <td> <p>Select the view you want to search for records.</p> </td> 
   </tr> 
   <tr> 
-   <td>Max Records</td> 
+   <td>Limit</td> 
    <td> <p>Enter or map the maximum number of records you want the module to return during each scenario execution cycle.</p> </td> 
   </tr> 
  </tbody> 
