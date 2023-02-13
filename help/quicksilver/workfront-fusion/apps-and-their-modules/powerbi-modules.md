@@ -5,7 +5,7 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 keywords: connector
 navigation-topic: apps-and-their-modules
-title: Power BI Modules
+title: Power BI modules
 description: Adobe Workfront Fusion requires an Adobe Workfront Fusion license in addition to an Adobe Workfront license.
 author: Becky
 hidefromtoc: true
