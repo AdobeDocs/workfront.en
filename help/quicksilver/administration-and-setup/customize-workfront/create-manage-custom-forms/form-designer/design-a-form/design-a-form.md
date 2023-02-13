@@ -12,7 +12,7 @@ exl-id: 5712e82d-bd1d-4d8a-9a2a-1e19b562b9d1
 
 # Design a form
 
-You can design a custom form with the Form Designer. You can attach custom forms to different Workfornt objects. 
+You can design a custom form with the Form Designer. You can attach custom forms to different Workfront objects to capture data about those objects.
 
 ## Access requirements
 
@@ -60,7 +60,13 @@ You must have the following to perform the steps in this article:
 1. In the **Title is required** area, type the custom form title.
 1. (Optional) If you want to add more object types to the form so that it can be attached to more objects, click the **Add** icon ![](assets/add-objects-icon.png) after **Object Types**, then select the type you want in the menu that displays. You can repeat this to add as many object types as you want. 
    
-   You can also click the X on an object type to delete it from the form. This should be done with caution when you want to delete an object type from a custom form you have already saved. For more information, see [Delete object types on a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/delete-object-type-on-a-custom-form.md).
+   You can also click the X on an object type to delete it from the form. 
+
+   >[!CAUTION]
+   >
+   >Deleting a custom form also deletes all custom data on the objects associated with the form. The deleted data cannot be recovered. Consider deactivating a custom form instead—when deactivate a custom form you no longer use, you retain all of the associated historical data.
+   >
+   >For more information, see [Delete object types on a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/delete-object-type-on-a-custom-form.md).
 
 1. Next, you can start adding fields to your custom form. See the following sections: 
     * [Add text fields](#add-text-fields)
@@ -122,7 +128,7 @@ To add a text field:
     </tr>
     <tr>
      <td>Name</td>
-    <td><p>(Required) This name is how the system identifies the widget. When you are configuring the widget for the first time and you type the label, the Name field populates automatically to match it. But the Label and Name fields are not synchronized—this gives you the freedom to change the label that your users see without having to change the name that the system sees.</p>
+    <td><p>(Required) This name is how the system identifies the field. When you are configuring the widget for the first time and you type the label, the Name field populates automatically to match it. But the Label and Name fields are not synchronized—this gives you the freedom to change the label that your users see without having to change the name that the system sees.</p>
     <p><b>IMPORTANT</b>:   
       <ul> 
       <li>Though it's possible to do so, we recommend that you do not change this name after you or other users start using the custom form in Workfront. If you do, the system will no longer recognize the custom field where it might now be referenced in other areas of Workfront. <p>For example, if you add the custom field to a report and later change its name, Workfront doesn't recognize it in the report and it will stop functioning correctly there unless you re-add it to the report using the new name.</p> </li>
@@ -161,11 +167,10 @@ To add a text field:
     </tr>
     <tr>
     <td>Display Type</td>
-    <td>Switch the type of option selection you want for the field.</td>
+    <td>Switch between single line and paragraph text fields.</td>
     <td><ul>
     <li>Single line text</li>
     <li>Paragraph text</li>
-    <li>Text with formatting</li>
     </ul></td>
     </tr>
     <tr>
@@ -237,7 +242,7 @@ To add a text field:
      </tr> 
      <tr> 
       <td role="rowheader">Format</td> 
-      <td> <p>The format in which you want the results of the field are stored and displayed.</p> <p>If the field will be used in mathematical calculations, always use a <strong>Number</strong> or a <strong>Currency</strong> format. When you select Number or Currency, the system automatically truncates numbers that start with 0.</p> 
+      <td> <p>The format in which you want the results of the field to be stored and displayed.</p> <p>If the field will be used in mathematical calculations, always use a <strong>Number</strong> or a <strong>Currency</strong> format. When you select Number or Currency, the system automatically truncates numbers that start with 0.</p> 
       <p><b>IMPORTANT</b>: Before you choose a format, consider the correct format for the new field. The format field cannot be edited after the custom form is saved. And selecting the wrong format could impact future calculations and aggregate values in report and list groupings.</p> </td> 
      </tr> 
     </tbody> 
@@ -251,11 +256,11 @@ To add a text field:
 
       +++ **Expand to see syntax required in calculated custom fields**
 
-      Each field must use the syntax explained below, with curly brackets around each field name. When you start typing the name of a field, the system makes suggestions and you can select one  to insert it into your calculation. If you enter data in a calculation incorrectly, a warning messages alerts you. You cannot save the form unless you edit your calculation to contain valid fields and a valid calculated expression.
+      Each field must use the syntax explained below, with curly brackets around each field name. When you start typing the name of a field, the system makes suggestions and you can select one  to insert it into your calculation. If you enter data in a calculation incorrectly, a warning message alerts you. You cannot save the form unless you edit your calculation to contain valid fields and a valid calculated expression.
 
       >[!NOTE]
       >
-      >Currently, the system makes suggestions only when you starting typing the name of a field you want to reference on an object that the custom form will be attached to, not on the object's parent.
+      >Currently, the system makes suggestions only when you start typing the name of a field you want to reference on an object that the custom form will be attached to. Fields from the parent object are not suggested. 
 
       **Surround field names with curly brackets**
 
@@ -281,7 +286,7 @@ To add a text field:
          
          `{project}.{DE:profit}`
 
-         If you're not sure what the object type of the parent object will be because the custom for is configured for multiple object types, you can use the wildcard filter variable `$$OBJCODE` to allow the calculation to work for each of the possible types. For more information, see the Calculated custom fields in multi-object custom forms section below.
+         If you're not sure what the object type of the parent object will be because the custom form is configured for multiple object types, you can use the wildcard filter variable `$$OBJCODE` to allow the calculation to work for each of the possible types. For more information, see the Calculated custom fields in multi-object custom forms section below.
 
          **Separate items with periods**
 
@@ -291,7 +296,7 @@ To add a text field:
 
          `{project}.{porfolio}.{owner}`
 
-         This would determine the following: From the object of the custom form (a task), you can access the next object related to the task (a project). From there, you can access the next related object to the project (a portfolio), then the next related object to the portfolio (the owner).
+         This would determine the following: From the object of the custom form (a task), you can access the next object related to the task (a project). From there, you can access the next related object to the project (a portfolio), then to the project (a portfolio), then reference the fields defined for portfolio object (the owner)
 
          **Name syntax for referencing a custom field**
 
@@ -545,7 +550,7 @@ To add radio buttons and checkboxes:
 
 +++
 
-To add radio buttons and checkboxes:
+To add typeahead and date fields:
 
 1. On the left side of the screen, find one of the following fields and drag it to a section on the canvas.
 
