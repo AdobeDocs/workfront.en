@@ -71,8 +71,8 @@ You must have the following to perform the steps in this article:
 1. Next, you can start adding fields to your custom form. See the following sections: 
     * [Add text fields](#add-text-fields)
     * [Add calculated fields](#add-calculated-fields)
-    * [Add radio buttons and checkboxes](#add-radio-buttons-and-checkboxes)
-    * [Add typeahead, drop-down, and date fields](#add-typeahead-drop-down-and-date-fields)
+    * [Add radio buttons, checkbox group, and dropdowns](#add-radio-buttons-checkboxes-and-dropdowns)
+    * [Add typeahead and date fields](#add-typeahead-and-date-fields)
     * [Add images, PDFs, and Videos](#add-images-pdfs-and-videos)
     * [Add Adobe XD files](#add-adobe-xd-files)
 
@@ -86,7 +86,7 @@ You must have the following to perform the steps in this article:
 
 * **Single Line Text Field**: Allows users to type a single line of text in the field.
 * **Paragraph Text Field**: Allows users to type multiple lines of text in the field.
-* **Text Field with Formatting**: Allows users to type multiple lines of text in the field and format the text with bold, italics, underline, bullets, numbering, hyperlinks, and block quotes. This is available in Home, the Updates area, lists, and the Details area for Workfront objects. A character limit of 15,000 allows for plenty of text and formatting.
+* **Text Field with Formatting**: Allows users to type multiple lines of text in the field and format the text with bold, italics, underline, bullets, numbering, hyperlinks, and block quotes. A character limit of 15,000 allows for plenty of text and formatting.
 
     For information about accessing this field through the API, see Rich text field storage in the API.
 
@@ -175,7 +175,7 @@ To add a text field:
     </tr>
     <tr>
     <td>Hyperlink</td>
-    <td> If you want to apply a hyperlink to the Descriptive Text you have typed, add it here.</td>
+    <td> If you want to apply a hyperlink to the Descriptive Text you have typed, add it here. The Descriptive text displays as a link on objects where the form is attached.</td>
     <td><ul><li>Descriptive text</li></ul></td>
     </tr>
    </table>
@@ -266,9 +266,11 @@ To add a text field:
 
       * If you want the calculation to reference a built-in field, the name of the field must be surrounded by curly brackets.
 
-      For example: `{actualRevenue}`
+         For example: `{actualRevenue}`
 
-      Field names are case-sensitive and must appear in the calculation exactly how they appear in the Workfront system.
+         Field names are case-sensitive and must appear in the calculation exactly how they appear in the Workfront system.
+
+         Navigate to the [Workfront API explorer](https://developer.adobe.com/workfront/api-explorer/) to identify the field names that can be used in calculations.
 
       * If you want the calculation to reference a custom field, the name of the field must be surrounded by curly brackets, and preceded by `DE:` within the brackets.
 
@@ -395,7 +397,7 @@ To add a text field:
     <tbody> 
      <tr> 
       <td role="rowheader">Add Logic</td> 
-      <td>You can add Display Logic to determine whether the calculated field displays, based on at least one choice that a user makes in a preceding multiple choice field (Dropdown, Checkboxes, or Radio Buttons) when filling out the form. For more information, see <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/display-or-skip-logic-custom-form.md" class="MCXref xref">Add display logic and skip logic to a custom form</a>. <p>This is available only when at least one checkbox, radio button, or a drop-down field precedes the calculated custom field on the form. </p> <p>Skip Logic is unavailable for calculated custom fields.</p> </td> 
+      <td>You can add Display Logic to determine whether the calculated field displays, based on at least one choice that a user makes in a preceding multiple choice field (Dropdown, Checkboxes, or Radio Buttons) when filling out the form. For more information, see <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/display-or-skip-logic-custom-form.md" class="MCXref xref">Add display logic and skip logic to a custom form</a>. <p>This is available only when at least one checkbox, radio button, or a dropdown field precedes the calculated custom field on the form. </p> <p>Skip Logic is unavailable for calculated custom fields.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Update previous calculations</td> 
@@ -414,14 +416,15 @@ To add a text field:
 
     Click **Save and Close**. 
 
- ### Add radio buttons and checkboxes
+ ### Add radio buttons, checkboxes, and dropdowns
 
- You can add radio buttons and checkboxes to a custom form. 
+ You can add radio buttons, checkboxes, and dropdowns to a custom form. 
 
 +++ **Expand to see descriptions of available fields**
 
 * **Radio buttons**: Requires users to select only one choice.
 * **Checkbox Group**: Allows users to select multiple choices.
+* **Dropdown**: Provides a list of dropdown choices.
 
 +++
 
@@ -431,6 +434,7 @@ To add radio buttons and checkboxes:
 
     * Radio buttons
     * Checkbox Group
+    * Dropdown
 
     ![](assets/drag-field-to-section.png)
 
@@ -449,6 +453,7 @@ To add radio buttons and checkboxes:
      <td><ul>
     <li>Radio buttons</li>
     <li>Checkbox Group</li>
+    <li>Dropdown</li>
     </ul></td>
      </tr> 
      <tr> 
@@ -463,6 +468,7 @@ To add radio buttons and checkboxes:
      <td><ul>
     <li>Radio buttons</li>
     <li>Checkbox Group</li>
+    <li>Dropdown</li>
     </ul></td>
     </tr> 
     <tr> 
@@ -473,6 +479,7 @@ To add radio buttons and checkboxes:
     <td><ul>
     <li>Radio buttons</li>
     <li>Checkbox Group</li>
+    <li>Dropdown</li>
     </ul></td>
     </tr> 
     <tr> 
@@ -485,14 +492,16 @@ To add radio buttons and checkboxes:
      <td><ul>
     <li>Radio buttons</li>
     <li>Checkbox Group</li>
+    <li>Dropdown</li>
     </ul></td>
     </tr> 
     <tr> 
      <td role="rowheader">Display Type</td> 
-    <td>(Dropdown, checkboxes, and radio buttons only) Switch the type of option selection you want for the field.</td> 
+    <td>Switch between radio buttons, checkbox groups, or dropdowns for the field.</td> 
     <td><ul>
     <li>Radio buttons</li>
     <li>Checkbox Group</li>
+    <li>Dropdown</li>
     </ul></td>
     </tr> 
      <tr> 
@@ -501,6 +510,7 @@ To add radio buttons and checkboxes:
     <td><ul>
     <li>Radio buttons</li>
     <li>Checkbox Group</li>
+    <li>Dropdown</li>
     </ul></td>
      </tr> 
     <tr> 
@@ -524,14 +534,15 @@ To add radio buttons and checkboxes:
     <td><ul>
     <li>Radio buttons</li>
     <li>Checkbox Group</li>
+    <li>Dropdown</li>
     </ul></td>
      </tr> 
     </tbody> 
     </table>
 
- ### Add typeahead, drop-down, and date fields
+ ### Add typeahead and date fields
 
- You can add typeahead, drop-down, and date fields to a custom form. 
+ You can add typeahead and date fields to a custom form. 
 
 +++ **Expand to see descriptions of available fields**
 
@@ -545,17 +556,15 @@ To add radio buttons and checkboxes:
     * Team
     * Template
     * Company
-* **Dropdown**: Provides a list of drop-down choices.
 * **Date Field**: Displays a calendar where users can select a date and time.
 
 +++
 
-To add typeahead and date fields:
+To add typeahead date fields:
 
 1. On the left side of the screen, find one of the following fields and drag it to a section on the canvas.
 
     * Typeahead
-    * Dropdown
     * Date Field
 
     ![](assets/drag-field-to-section.png)
@@ -574,7 +583,6 @@ To add typeahead and date fields:
       <td> <p>(Required) Type a descriptive label to display above the custom field. You can change the label at any time.</p> <p><b>IMPORTANT</b>: Avoid using special characters in this label. They don't display correctly in reports.</p> </td> 
        <td><ul>
     <li>Typeahead</li>
-    <li>Dropdown</li>
     <li>Date Field</li>
     </ul></td>
      </tr> 
@@ -589,7 +597,6 @@ To add typeahead and date fields:
       </ul> <p>Each custom field name must be unique in your organization's Workfront instance. This way, you can reuse one that was already created for another custom form. For more information, see <a href="#Add" class="MCXref xref">Add a custom field to a custom form</a> in this article.</p> </td>
          <td><ul>
     <li>Typeahead</li>
-    <li>Dropdown</li>
     <li>Date Field</li>
     </ul></td>
      </tr> 
@@ -600,26 +607,7 @@ To add typeahead and date fields:
       </td> 
          <td><ul>
     <li>Typeahead</li>
-    <li>Dropdown</li>
     <li>Date Field</li>
-    </ul></td>
-     </tr> 
-     <tr> 
-      <td role="rowheader">Format</td> 
-      <td> <p>Select the type of data that will be captured in the custom field.</p> <p><b>NOTE</b>:   
-        <ul> 
-         <li>This field cannot be edited after the form is saved. If you intend to use your field in mathematical calculations, ensure that you select a Number or Currency format.<br></li> 
-         <li>When you select Number or Currency, the system automatically truncates numbers that start with 0.</li> 
-        </ul></p></td> 
-           <td><ul>
-    <li>Dropdown</li>
-    </ul></td>
-     </tr> 
-     <tr> 
-      <td role="rowheader">Display Type</td> 
-      <td>Switch the type of option selection you want for the field.</td> 
-       <td><ul>
-    <li>Dropdown</li>
     </ul></td>
      </tr> 
      <tr> 
@@ -633,7 +621,7 @@ To add typeahead and date fields:
       <td role="rowheader">Referenced Object Type</td> 
       <td> <p>Select the object type that you want to associate with the field.</p> <p>Once you have clicked Apply or Save+Close, you cannot change the object type for the field.</p> <p><b>NOTE</b>:   
         <ul> 
-         <li>If your Workfront administrator customized the name for Portfolios, Programs, or Projects in the Workfront user interface, the default Workfront name for the object appears in this drop-down list, not the customized name. See your Workfront administrator if you need help with this.<br></li> 
+         <li>If your Workfront administrator customized the name for Portfolios, Programs, or Projects in the Workfront user interface, the default Workfront name for the object appears in this dropdown list, not the customized name. See your Workfront administrator if you need help with this.<br></li> 
          <li>The following object types are supported in the iOS and Android Workfront Mobile Apps: User, Company, Group, Job Role, Portfolio, Program, Project, and Template.</li> 
         </ul> </p> </td> 
          <td><ul>
@@ -645,30 +633,7 @@ To add typeahead and date fields:
       <td>Select this option if you want the field to be required in order for the user to complete the custom form. </td> 
        <td><ul>
     <li>Typeahead</li>
-    <li>Dropdown</li>
     <li>Date Field</li>
-    </ul></td>
-     </tr> 
-     <tr> 
-      <td role="rowheader">Choices </td> 
-      <td>  
-       <ol> 
-        <li> <p>Click <b>Options</b>, then enable any of the following:</p> 
-           <ul> 
-            <li><strong>Show Values</strong>: Shows the values of each choice in the field. The label of each choice shows by default.</li> 
-            <li><strong>Sort Choices A-Z</strong>: Sorts the choices you add alphabetically in the field.</li> 
-           </ul> 
-        </li> 
-        <li> <p>For each choice you add for the user, click the gear icon <img src="assets/gear-icon-settings.png">, then select one of the following options:</p> 
-           <ul> 
-            <li><strong>Select by Default</strong>: Select the choice by default in the field.</li> 
-            <li> <p><strong>Hide Choice</strong>: Hide the choice in the field. Hidden choices remain accessible in reports.</p> </li> 
-            <li> <p><strong>Remove Choice</strong>: Remove the choice from the field.</p> <p><b>WARNING</b>:  If you have current objects using this choice, do not remove it from the field. Removing it will cause historic data to be lost. Instead, select the option to hide it, which prevents users from selecting it in the future.</p> </li> 
-           </ul> 
-        </li> 
-       </ol> </td> 
-        <td><ul>
-    <li>Dropdown</li>
     </ul></td>
      </tr> 
     </tbody> 
