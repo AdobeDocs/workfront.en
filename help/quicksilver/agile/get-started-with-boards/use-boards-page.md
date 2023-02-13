@@ -9,9 +9,23 @@ exl-id: bb275f4f-efaf-4dcc-b184-40e015f089b6
 ---
 # Use the boards dashboard
 
-The boards dashboard shows the list of boards that you have access to, including boards you have created and boards that you have been added to.
+{{highlighted-preview}}
 
-On the boards dashboard you can archive a board, filter the list of boards, sort the list by board name or date modified, and search for a specific board. You can also archive an individual board or delete it. For information about creating a new board or editing an existing board, see [Create or edit a board](../../agile/get-started-with-boards/create-edit-board.md).
+The boards dashboard shows the list of boards <span class="preview">and collections</span> that you have access to, including boards you have created and boards that you have been added to. <span class="preview">Individual boards you have access to that are not part of a collection are displayed first.</span>
+
+>[!NOTE]
+>
+>Collections are available only through the early feature opt-in for [!DNL Workfront] [!UICONTROL Boards].
+
+On the dashboard you can do the following for boards and <span class="preview">collections</span>:
+
+* Archive a board (collections can't be archived)
+* Filter the list
+* Sort the list by board/collection name or date modified
+* Search for a board or collection
+* Delete a board or collection
+
+For information about creating a new board or editing an existing board, see [Create or edit a board](../../agile/get-started-with-boards/create-edit-board.md). <span class="preview">For information about creating a new collection, see [Manage collections](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md).</span>
 
 ## Access requirements
 
@@ -80,14 +94,35 @@ Archiving a board sends it to the archive and you can restore it later.
 
 1. To restore an archived board, click the **[!UICONTROL More]** menu ![More menu icon](assets/more-icon-spectrum.png) on the board and select **[!UICONTROL Restore]**.
 
-## Delete a board
+## Delete a board <span class="preview">or collection</span>
 
 When you delete a board, it is permanently removed from [!DNL Workfront] and can't be restored. Any cards on the board are also deleted along with the board.
 
+<span class="preview">Deleting a collection deletes all of the boards in the collection.</span>
+
 >[!NOTE]
 >
->You can only delete boards that you created, not boards that you were added to.
+>You can only delete boards and collections that you created, not boards and collections that you were added to.
 
 1. Click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe Workfront], then click **[!UICONTROL Boards]**.
-1. Click the **[!UICONTROL More]** menu ![[!UICONTROL More menu]](assets/more-icon-spectrum.png) on the board, and select **[!UICONTROL Delete]**.
-1. Click **[!UICONTROL Delete board]** on the confirmation message.
+1. Click the **[!UICONTROL More]** menu ![[!UICONTROL More menu]](assets/more-icon-spectrum.png) on the board or collection, and select **[!UICONTROL Delete]**.
+1. Click **[!UICONTROL Delete board]** or [!UICONTROL **Delete collection**] on the confirmation message.
+
+<div class="preview">
+
+## Move a board to a collection
+
+You can move a standalone board into a collection.
+
+>[!NOTE]
+>
+>You can only move boards that you created, not boards that you were added to.
+
+1. Click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe Workfront], then click **[!UICONTROL Boards]**.
+1. Click the **[!UICONTROL More]** menu ![[!UICONTROL More menu]](assets/more-icon-spectrum.png) on the board, and select [!UICONTROL **Move to collection**].
+1. Select which collection to add the board to, and click [!UICONTROL **Move**].
+
+   The board is moved into the collection and no longer appears in the [!UICONTROL Boards] area.
+   If you have not created a collection yet, you are prompted to create one to move the board into.
+
+</div>

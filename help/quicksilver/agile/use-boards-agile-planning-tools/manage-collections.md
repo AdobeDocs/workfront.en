@@ -54,7 +54,6 @@ You must have the following access to perform the steps in this article:
 1. Click **[!UICONTROL Create new]** on the [!UICONTROL Boards] tab of the collection.
 1. Select a template for the board.
 
-
 | Template | Description |
 |---------|----------|
 | Basic board | Three default columns are provided on the board. You can add new columns and rename or delete the default columns. <p>Three default columns are provided on the board. You can add new columns and rename or delete the default columns. |
