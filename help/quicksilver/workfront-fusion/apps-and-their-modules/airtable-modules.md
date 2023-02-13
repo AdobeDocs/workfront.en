@@ -225,7 +225,7 @@ When you are configuring this module, the following fields display.
  <tbody> 
   <tr> 
    <td>Connection </td> 
-   <td> <p style="font-weight: normal;">Establish a connection to your Airtable account. (See <a href="#connect-airtable-to-workfront-fusion" class="MCXref xref">Connect Airtable to Workfront Fusion</a>.)</p> </td> 
+   <td> <p>For instructions about connecting your Airtable account to Workfront Fusion, see <a href="#connect-airtable-to-workfront-fusion" class="MCXref xref">Connect Airtable to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td>Base </td> 
@@ -289,7 +289,7 @@ When you are configuring this module, the following fields display.
  <tbody> 
   <tr> 
    <td>Connection </td> 
-   <td> <p style="font-weight: normal;">Establish a connection to your Airtable account. (See <a href="#connect-airtable-to-workfront-fusion" class="MCXref xref">Connect Airtable to Workfront Fusion</a>.)</p> </td> 
+   <td> <p>For instructions about connecting your Airtable account to Workfront Fusion, see <a href="#connect-airtable-to-workfront-fusion" class="MCXref xref">Connect Airtable to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td>Base </td> 

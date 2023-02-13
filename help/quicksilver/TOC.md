@@ -103,6 +103,7 @@ feature-set: Workfront
       * [21.1 Other enhancements](product-announcements/product-releases/21.1-release-activity/21-1-other-enhancements.md)
     * Adobe Workfront Fusion release activity {#fusion-release}
       * [Adobe Workfront Fusion release activity](product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)
+      * [Workfront Fusion release activity: Week of February 13, 2023](product-announcements/product-releases/fusion-release-activity/fusion-2023-2-13.md)
       * [Workfront Fusion release activity: Week of December 12, 2022](product-announcements/product-releases/fusion-release-activity/fusion-dec-12-22.md)
       * [Workfront Fusion release activity: Week of November 14, 2022](product-announcements/product-releases/fusion-release-activity/fusion-nov-14-22.md)
       * [Workfront Fusion release activity: Week of November 7, 2022](product-announcements/product-releases/fusion-release-activity/fusion-nov-9-22.md)
@@ -1989,6 +1990,7 @@ feature-set: Workfront
     * [Adobe Experience Manager Assets modules](workfront-fusion/apps-and-their-modules/aem-assets-modules.md)    
     * [Adobe Journey Optimizer modules](workfront-fusion/apps-and-their-modules/adobe-journey-optimizer-modules.md)
     * [Adobe PDF Services modules](workfront-fusion/apps-and-their-modules/pdf-modules.md)
+    * [Airtable modules](workfront-fusion/apps-and-their-modules/airtable-modules.md)
     * [Adobe Target modules](workfront-fusion/apps-and-their-modules/adobe-target-modules.md)
     * [Allocadia modules](workfront-fusion/apps-and-their-modules/allocadia-modules.md)
     * [Anaplan Modules](workfront-fusion/apps-and-their-modules/anaplan-modules.md)

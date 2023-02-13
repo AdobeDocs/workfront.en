@@ -17,6 +17,11 @@ For information about how to use Workfront Fusion, see [Adobe Workfront Fusion](
 
 ## Recent releases 
 
+### February 2023
+
+* [Workfront Fusion release activity: Week of February 13, 2023](../../../product-announcements/product-releases/fusion-release-activity/fusion-2023-2-13.md)
+
+
 ### December 2022
 
 * [Workfront Fusion release activity: Week of December 12, 2022](../../../product-announcements/product-releases/fusion-release-activity/fusion-dec-12-22.md)
