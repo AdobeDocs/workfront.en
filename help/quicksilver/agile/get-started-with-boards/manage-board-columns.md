@@ -9,6 +9,8 @@ exl-id: a736cdfe-5ddc-4bf4-82a1-a78d16c0d70b
 ---
 # Manage board columns
 
+{{highlighted-preview}}
+
 A new board contains three columns by default. You can add more columns, change the order of the columns, rename columns, and delete any columns that you don't need.
 
 Column settings include policies, which allow you to define options for what happens to a card when it is moved into that column.
@@ -113,12 +115,18 @@ If you are using the WIP limit on a column, a separate card counter is not added
       The status translation options for connected cards are also displayed. (Status translation does not apply to ad hoc cards.) These options determine the status applied to the task or issue in [!DNL Workfront] when a connected card is moved to this column.
 
    1. To change the default status translation selections, click the **[!UICONTROL Edit]** icon ![Edit icon](assets/edit-icon-spectrum.png).
-   1. Select a status for tasks and a status for issues. Only the default [!DNL Workfront] statuses are available, not custom statuses.
+   1. <span class="preview">In the Preview environment: Select a [!UICONTROL **Custom**] status and a [!UICONTROL **System**] status to apply to the card, for both tasks and issues.</span>
 
-   >[!NOTE]
-   >
-   >If you do use custom statuses in [!DNL Workfront], the first time you move a connected card into this column you will be prompted to choose a status. For example, if the connected project has multiple status types that all correspond to [!UICONTROL Completed], you must choose which status to use in [!DNL Workfront]. You can set your choice as the default so you don't have to make the selection every time you move a card to the column.
-   >For more information on statuses, see [Statuses overview](/help/quicksilver/administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/statuses-overview.md).
+      <span class="preview">When a card is moved to this column, [!DNL Workfront] first tries to apply the custom status (for example, Resolved). If the custom status is not available for that card, Workfront will apply the system status instead (for example, Closed).</span>
+
+      <span class="preview">Also, if the status on the connected task or issue is changed to the custom or system status set in the column policy, the card is automatically moved to the column.</span>
+
+   1. In the Production envrionment: Select a status for tasks and a status for issues. Only the default [!DNL Workfront] statuses are available, not custom statuses.
+
+      >[!NOTE]
+      >
+      >If you do use custom statuses in [!DNL Workfront], the first time you move a connected card into this column you will be prompted to choose a status. For example, if the connected project has multiple status types that all correspond to [!UICONTROL Completed], you must choose which status to use in [!DNL Workfront]. You can set your choice as the default so you don't have to make the selection every time you move a card to the column.
+      For more information on statuses, see [Statuses overview](/help/quicksilver/administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/statuses-overview.md).
 
 1. (Optional) Set a value for the card assignees:
 
