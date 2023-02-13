@@ -4,7 +4,7 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 keywords: connector
 navigation-topic: apps-and-their-modules
-title: Anaplan Modules
+title: Anaplan modules
 description: In an [!DNL Adobe Workfront Fusion] scenario, you can automate workflows that use Anaplan, as well as connect it to multiple third-party applications and services.
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
