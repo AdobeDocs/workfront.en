@@ -11,3 +11,8 @@ role: Admin
 ---
 # Design a form
 
+* [Design a form with the Form Designer](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)
+* [Design a form from a copy with the Form Designer](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-from-copy.md)
+* [Add calculated data to a form with the Form Designer]
+* [Organize and preview a form with the Form Designer](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md)
+

@@ -1,5 +1,5 @@
 ---
-title: Design a form
+title: Design a form with the Form Designer
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
@@ -10,7 +10,7 @@ role: Admin
 exl-id: 5712e82d-bd1d-4d8a-9a2a-1e19b562b9d1
 ---
 
-# Design a form
+# Design a form with the Form Designer
 
 You can design a custom form with the Form Designer. You can attach custom forms to different Workfront objects to capture data about those objects.
 
@@ -68,7 +68,8 @@ You must have the following to perform the steps in this article:
    >
    >For more information, see [Delete object types on a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/delete-object-type-on-a-custom-form.md).
 
-1. Next, you can start adding fields to your custom form. See the following sections: 
+1. Next, you can start adding fields to your custom form. See the following sections:
+    * [Reuse an existing field or widget already used in another custom form](#reuse-an-existing-field-or-widget-already-used-in-another-custom-form)
     * [Add text fields](#add-text-fields)
     * [Add calculated fields](#add-calculated-fields)
     * [Add radio buttons, checkbox group, and dropdowns](#add-radio-buttons-checkboxes-and-dropdowns)
@@ -76,7 +77,29 @@ You must have the following to perform the steps in this article:
     * [Add images, PDFs, and Videos](#add-images-pdfs-and-videos)
     * [Add Adobe XD files](#add-adobe-xd-files)
 
-## Add fields to your custom form
+## Add new or existing fields to your custom form
+
+You can use new or existing fields when designing your custom form. 
+
+## Reuse an existing field or widget already used in another custom form
+
+1. On the top-left side of the screen, click **Field library**.
+
+1. Drag the field or widget here you want it in the custom form.
+1. (Optional) Repeat the previous step to add any other fields or widgets.
+
+   >[!NOTE]
+   >
+   >You can add up to 500 fields and widgets on a single custom form. However, performance degradation can occur when more than 100 exist on a form, depending on its complexity. 
+   >
+   >
+   >Examples of complex forms include forms with cascading parameters, calculated custom data fields, and multiple value options in a single field.
+
+1. To save your changes, click **Apply** and move on to another section to continue building your form.
+
+    or
+
+    Click **Save and Close**. 
 
  ### Add text fields
 
@@ -789,6 +812,6 @@ The Workfront Mobile app -->
 
     Click **Save and Close**. 
 
- ## Organize your custom form
+ ## Organize and preview a form with the Form Designer
 
- For information on how to organize your form, see [Organize a form with the Form Designer](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md). 
+ For information on how to organize and see a preview of your form, see [Organize and preview a form with the Form Designer](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md). 
