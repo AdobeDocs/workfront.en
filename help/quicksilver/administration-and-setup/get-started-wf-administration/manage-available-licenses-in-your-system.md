@@ -54,7 +54,7 @@ To view license information in your system:
 
 1. (Conditional) If you see the message **To set a maximum, you must add a Home Group**, add a Home Groups in your system as explained in the section [Add or remove a Home Group to the Licenses page](#add-or-remove-a-home-group-to-the-licenses-page) in this article.
 
-## Viewing information about licenses for Workfront add-ons
+## View information about licenses for Workfront add-ons
 
 In the screen shot below, **5 of 10 Proof licenses** indicates that this organization has the paid Workfront Proof add-on and is currently using 5 of the 10 Workfront Proof licenses they purchased.
 
