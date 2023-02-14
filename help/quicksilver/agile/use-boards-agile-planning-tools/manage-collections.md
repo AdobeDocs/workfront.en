@@ -48,7 +48,7 @@ You must have the following access to perform the steps in this article:
 
    You can add boards to the collection or click [!UICONTROL **All Boards**] to return to the dashboard.
 
-## Add a board in a collection
+## Add a board to a collection
 
 1. If you are not already in a collection, click [!UICONTROL **View collection**] on the dashboard to open an existing collection.
 1. Click **[!UICONTROL Create new]** on the [!UICONTROL Boards] tab of the collection.
@@ -63,6 +63,12 @@ You must have the following access to perform the steps in this article:
 For more information on setting up the board, see [Create or edit a board](/help/quicksilver/agile/get-started-with-boards/create-edit-board.md).
 
 ## Add members to a collection
+
+People and teams must be added to the collection as members before they can view the collection and its contents. A collection member can add and remove members on the collection and see which boards are in the collection.
+
+>[!NOTE]
+>
+>A collection member can't open a board on a collection until they are added to that specific board as a member.
 
 1. Click the **[!UICONTROL Main Menu]** icon ![Main Menu](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe Workfront], then click **[!UICONTROL Boards]**.
 1. On the dashboard, click [!UICONTROL **View collection**] to open a collection.
