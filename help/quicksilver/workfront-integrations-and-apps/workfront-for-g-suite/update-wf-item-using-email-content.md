@@ -10,6 +10,10 @@ exl-id: 2ac392f5-98a3-4ab6-a0e3-cda378f0f68b
 ---
 # Update an [!DNL Adobe Workfront] item from [!DNL G Suite] using email content
 
+>[!NOTE]
+>
+>There is a [known issue](https://experienceleague.adobe.com/docs/workfront-known-issues/issues/new-workfront-experience/wf-current/wf-integrations-error-when-opening-wf-for-gsuite.html?lang=en) with the current version of [!DNL Workfront for G Suite] not working as expected. We are working on a new version and expect it to be released to the [!DNL Google Marketplace] in the near future. 
+
 You can update an existing project, task, or issue with information from a non-[!DNL Adobe Workfront] email.
 
 ## Access requirements
