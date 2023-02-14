@@ -204,13 +204,13 @@ For information about planning and scheduling resources in [!DNL Workfront], see
       The Available hours for the user is calculated by the following formula:
 
       ```
-      User Available Hours = (Hours from the [!UICONTROL Schedule] of the User - Time off hours) * [!UICONTROL Work Time]
+      User Available Hours = (Hours from the [!UICONTROL Schedule] of the User - Schedule Exceptions - Time off hours) * [!UICONTROL Work Time]
       ```    
 
       The Available [!UICONTROL FTE] for the user is calculated by the following formula:
 
       ```
-      User Available [!UICONTROL FTE] = [(Hours from the [!UICONTROL Schedule] of the User - Time off hours) * [!UICONTROL Work Time]] / [!UICONTROL Default Schedule] hours
+      User Available [!UICONTROL FTE] = [(Hours from the [!UICONTROL Schedule] of the User - Schedule Exceptions - Time off hours) * [!UICONTROL Work Time]] / [!UICONTROL Default Schedule] hours
       ```
 
       >[!INFO]
