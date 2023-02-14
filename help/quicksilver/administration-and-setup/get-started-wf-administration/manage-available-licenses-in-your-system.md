@@ -85,6 +85,20 @@ If an organization has other paid add-on products, their license information als
 >To learn more about creating a report, see [Create a custom report](../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 >
 
+## View information about monthly proof and document decision allotments
+
+Proof and document decisions are limited for all non-paid Workfront licenses. Limits reset on a per-user basis each month.
+
+>[!IMPORTANT]
+>
+>Proof and document decision limits do not apply to users on [legacy Workfront licenses and access levels](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md). 
+
+The decision limits for each license differ depending on the plan you're on. You can view your monthly allotment in Setup > Licenses.
+
+For more information about proof and document decision limits, see [Limited document and proof decision for non-paid users overview](/help/quicksilver/review-and-approve-work/proof-doc-decision-limits.md).
+
+![](assets/monthly-decision-allotment.png)
+
 ## Add or remove a Home Group to the Licenses page {#add-or-remove-a-home-group-to-the-licenses-page}
 
 A Business or Enterprise Workfront Plan is required to use this feature. For more information about the various plans available, see [Workfront Plans.](https://www.workfront.com/plans)
