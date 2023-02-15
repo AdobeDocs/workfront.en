@@ -9,8 +9,8 @@ exl-id: 2971749d-1d34-42a4-9eda-411aa8c3a2ab
 ---
 # Specify an API Version in your integrations
 
-All Adobe Workfront URIs are required to reference a specific version of the API after the "attask/api" portion of the URI. The following example calls Version 7.0:
-`attask/api/v7.0/<objectName>/<objectId>` Please ensure all your integrations call currently-supported Workfront APIs.
+All Adobe Workfront URIs are required to reference a specific version of the API after the "attask/api" portion of the URI. The following example calls Version 15.0:
+`attask/api/v15.0/<objectName>/<objectId>` Please ensure all your integrations call currently-supported Workfront APIs.
 
 ## Release and Deprecation Schedule of Workfront APIs
 
@@ -21,13 +21,15 @@ For more information on the release cadence and deprecation schedule of Workfron
 >[!IMPORTANT]
 >
 >The default version of the API is the most recent version. Any API call without the version specified will use the default version. When Workfront releases a new version of the API, any API calls that use the default version should be checked to make sure that the functionality is still supported.
+>
+>To see the most recent version of the API,  see [API versioning and support schedule](../../wf-api/api/api-version-support-schedule.md). 
 
 
 ## Determining the API Version You Are Using
 
 You can determine the version of the API you are using by checking the URI of an HTTP request sent to the Workfront API. The following example shows a Workfront request URI that specifies Version 7 of the API:
 
-`https://<domainname>.my.workfront.com/attask/api/v7.0/proj/4c7c08b20000002de5ca1ebc19edf2d5` 
+`https://<domainname>.my.workfront.com/attask/api/v15.0/proj/4c7c08b20000002de5ca1ebc19edf2d5` 
 
 If a URI does not specify a version, then it is using the Default Version of the API, as shown in the following example:
 

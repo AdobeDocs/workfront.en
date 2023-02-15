@@ -49,7 +49,7 @@ When this request is made, you receive a response with JSON encoded text that sp
 
 To turn a Default API request into a versioned API request, simply call a supported API version. For example, the following URI requests Version 9:
 
-`https://davidwhite.my.workfront.com/attask/api/`**v9.0**`/project/metadata`
+`https://davidwhite.my.workfront.com/attask/api/`**v15.0**`/project/metadata`
 
 When updating your Workfront API requests, you can specify any supported version of our API. To learn more about referencing a specific API, see [Specify an API Version in your integrations](../../wf-api/api/specify-api-version-integrations.md).
 
