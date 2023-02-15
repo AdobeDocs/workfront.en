@@ -36,3 +36,19 @@ For more information, and to view a video demonstration of a similar feature, se
 ## Updated Document version icon in Document Details
 
 We've updated the look-and-feel of the Document version icon. The icon now displays a red dot noting when you're on a past version as well as a hover that says "Past version."
+
+## New experience when copying one or multiple template tasks
+
+>[!NOTE]
+>
+>Preview release: February 16, 2023; Planned Production release: March 2, 2023
+
+To make your use of Adobe Workfront consistent everywhere in the application, we have redesigned the interface when copying or moving a template task. This is currently available when copying a template task at the task level or copying a task or multiple tasks in a list.
+
+Some of the improvements include:
+
+* All information that you must update before you copy or move the template task displays on one continuous page.
+* Workfront checks whether you have access to the destination template immediately after choosing the template. Prior to this enhancement, a warning message indicating that you don't have the correct access showed after you confirmed the copy or the move, which resulted in extra steps and the action not being allowed.
+* Ability to request access for a template where you want to copy or move the template task without leaving the Copy or Move Template Task box.
+
+For more information, see [Copy and move template tasks] help\quicksilver\manage-work\projects\create-and-manage-templates\copy-and-move-template-tasks.md. <!-- article is drafted -->
