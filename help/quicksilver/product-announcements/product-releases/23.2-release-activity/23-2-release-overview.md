@@ -77,6 +77,57 @@ For tips on preparing for the upcoming release, see [Prepare for an Adobe Workfr
                 </tr>
                 <tr>
                     <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-13.md" class="MCXref xref" xrefformat="{para}">Customize display of fields on a card</a></p>
+                        <p>Customization is now available to configure which fields are displayed on a card, both in the the full view when the card is open, and in the condensed card view on the board. When you disable a field is is not displayed in either view. You can also enable a field in the full view and hide it from the condensed view.</p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                        <ul>
+                            <li>
+                                <p>Preview release: February 16, 2023<br /></p>
+                            </li>
+                            <li>
+                                 <p>Production release for early opt-in: February 23, 2023 <span style="color: #ff0000;"> This feature is available in Production on this date only through the early feature opt-in for Workfront Boards.</span></p>
+                                <p>Production release for all customers: With the 23.2 release</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-13.md" class="MCXref xref" xrefformat="{para}">Define a default status for cards moved into a board column</a></p>
+                        <p>You can now set a default status to apply to cards moved into a specific column, by selecting a custom status and a system status in the column policies. When you move a card into the column, Workfront first tries to apply the custom status (for example, Awaiting Feedback). If the custom status is not available for that card, Workfront will apply the system status instead (for example, On Hold). Also, if the status on the connected task or issue is changed to the custom or system status set in the column policy, the card is automatically moved to the column.</p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                        <ul>
+                            <li>
+                                <p>Preview release: February 16, 2023<br /></p>
+                            </li>
+                            <li>
+                                 <p>Production release for early opt-in: February 23, 2023 <span style="color: #ff0000;"> This feature is available in Production on this date only through the early feature opt-in for Workfront Boards.</span></p>
+                                <p>Production release for all customers: With the 23.2 release</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-13.md" class="MCXref xref" xrefformat="{para}">Collections now available in Adobe Workfront Boards</a></p>
+                        <p>You can now create collections on the boards dashboard. A collection is a group of boards for collaborating on work. Once you have named the collection, you can add boards to the collection using a set of templates that offer predefined settings such as column names.</p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                        <ul>
+                            <li>
+                                <p>Preview release: February 16, 2023<br /></p>
+                            </li>
+                            <li>
+                                 <p>Production release for early opt-in: February 23, 2023 <span style="color: #ff0000;"> This feature is available in Production on this date only through the early feature opt-in for Workfront Boards.</span></p>
+                                <p>Production release for all customers: With the 23.2 release</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-1-jan-23.md" class="MCXref xref" xrefformat="{para}">Estimation field on connected cards maps to Story Points field on Workfront objects</a></p>
                         <p>The Estimation field on connected cards in Workfront Boards now maps to the Story Points field for the associated Workfront object. </p>
                         <p>The new Story Points field is an editable, free form field that you can add to a view in a list or report for tasks or issues. It is not tied to planned hours or team assignments.</p>
@@ -92,7 +143,6 @@ For tips on preparing for the upcoming release, see [Prepare for an Adobe Workfr
                             </li>
                         </ul>
                     </td>
-                </tr>
                 </tr>
                 <tr>
                     <td>
