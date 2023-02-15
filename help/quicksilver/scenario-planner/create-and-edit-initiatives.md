@@ -127,13 +127,18 @@ To create initiatives from scratch:
      </tr> 
      <tr> 
       <td role="rowheader">Required Job Roles Section </td> 
-      <td> <p>Click the <strong>[!UICONTROL Start typing job role]</strong> field and select a role from the list or start typing the name of a<span>n active</span> job role. </p> <p><span>Depending on whether the plan is set up to use FTEs or hours,</span> add the number of job roles needed for this initiative in FTE <span><span>or hours</span></span><span> for each month in the initiative</span>. <span>The first three months of the initiative display by default.</span></p> <p><span>Updating the job role information for the initiative also updates the Required job role information for the plan.</span> </p> <p>For information about setting up the plan to use FTE or hours, see <a href="../scenario-planner/create-and-edit-plans.md" class="MCXref xref">Create and edit plans in the [!DNL Scenario Planner]</a>. </p> <p>Tip:  
-        <ul> 
-         <li> <p><span>Use the [!UICONTROL Tab] key to move to the next month.</span> </p> </li> 
-         <li> <p> All <span>active</span> job roles in the system are listed when you click this field. </p> </li> 
-         <li> <p>The job roles that have already been added to the Available job roles of the plan display first. For information about adding available job roles to a plan, see <a href="../scenario-planner/create-and-edit-plans.md" class="MCXref xref">Create and edit plans in the Scenario Planner</a>. </p> </li> 
-         <li> <p>[!DNL Workfront] considers that a full-time equivalent is 160 hours for a month. </p> </li> 
-        </ul> </p> <p>You can enter a number lower than 1 FTE or decimal numbers for FTE <span>or</span> <span data-mc-edit-date="2021-04-22T16:51:21.5923499-04:00" data-mc-editor="alinawilson" data-mc-comment=" yellow" data-mc-initials="AL" data-mc-creator="alinawilson" data-mc-create-date="2021-04-19T13:45:00.3159349-04:00">hours</span>. For example, a 0.5 Consultant job role would mean that a consultant would dedicate half of his FTE (typically, 4 hours, where 8 hours is 1 FTE) to working on this initiative. </p> <p>For all calculations in the Scenario Planner, Workfront uses the following value: 1 FTE = 8 Hours. </p> </td> 
+      <td> <p>Click the <strong>[!UICONTROL Start typing job role]</strong> field and select a role from the list or start typing the name of a<span>n active</span> job role. </p> <p><span>Depending on whether the plan is set up to use FTEs or hours,</span> add the number of job roles needed for this initiative in FTE <span><span>or hours</span></span><span> for each month in the initiative</span>. <span>The first three months of the initiative display by default.</span></p> <p><span>Updating the job role information for the initiative also updates the Required job role information for the plan.</span> </p> <p>For information about setting up the plan to use FTE or hours, see <a href="../scenario-planner/create-and-edit-plans.md" class="MCXref xref">Create and edit plans in the [!DNL Scenario Planner]</a>. </p>
+      <p><b>IMPORTANT</b></p>  
+      <p>For all calculations in the [!DNL Scenario Planner], [!DNL Workfront] uses the following value: 1 FTE = 8 Hours. </p> 
+      
+      <p><b>TIP</b></p>
+
+      <ul> 
+       <li> <p><span>Use the [!UICONTROL Tab] key to move to the next month.</span> </p> </li> 
+      <li> <p> All <span>active</span> job roles in the system are listed when you click this field. </p> </li> 
+       <li> <p>The job roles that have already been added to the Available job roles of the plan display first. For information about adding available job roles to a plan, see <a href="../scenario-planner/create-and-edit-plans.md" class="MCXref xref">Create and edit plans in the Scenario Planner</a>. </p> </li> 
+       <li> <p>[!DNL Workfront] considers that a full-time equivalent is 160 hours for a month. </p> <p>For all calculations in the Scenario Planner, Workfront uses the following value: 1 FTE = 8 Hours. </p></li> 
+      </ul> </p> <p>You can enter a number lower than 1 FTE or decimal numbers for FTE <span>or</span> <span>hours</span>. For example, a 0.5 Consultant job role would mean that a consultant would dedicate half of his FTE (typically, 4 hours, where 8 hours is 1 FTE) to working on this initiative. </p>  </td> 
      </tr> 
      <tr> 
       <td rowspan="3" role="rowheader">Costs section</td> 
