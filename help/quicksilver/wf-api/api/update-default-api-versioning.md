@@ -19,7 +19,9 @@ Integrations that do not specify a version of the API in the URI are automatical
 
 >[!NOTE]
 >
->If your organization is currently using the deprecated Default API, your Workfront administrator has received an Annoucement Center message with further instructions regarding the Default API.
+>* If your organization is currently using the deprecated Default API, your Workfront administrator has received an Annoucement Center message with further instructions regarding the Default API.
+>
+>* The Default API in the Preview environment is set to the most recent version. The Default API in the Production environment will be set to the most recent version after the 23.2 release (April 2023).
 
 <!--
 Integrations that do not specify a version of the API in the URI are automatically routed to Default, which has been deprecated. In order for your Workfront integrations to be valid, you must specify a supported API version in your Workfront API requests.
