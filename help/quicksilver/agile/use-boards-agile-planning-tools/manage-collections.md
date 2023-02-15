@@ -48,7 +48,7 @@ You must have the following access to perform the steps in this article:
 
    You can add boards to the collection or click [!UICONTROL **All Boards**] to return to the dashboard.
 
-## Add a board to a collection
+## Create a new board in a collection
 
 1. If you are not already in a collection, click [!UICONTROL **View collection**] on the dashboard to open an existing collection.
 1. Click **[!UICONTROL Create new]** on the [!UICONTROL Boards] tab of the collection.
