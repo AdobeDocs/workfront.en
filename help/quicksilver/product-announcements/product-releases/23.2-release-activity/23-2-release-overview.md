@@ -20,9 +20,11 @@ For tips on preparing for the upcoming release, see [Prepare for an Adobe Workfr
 
 ## Adobe Workfront enhancements
 
+* [Administrator enhancements](#administrator-enhancements)
 * [Agile enhancements](#agile-enhancements)
+* [Other enhancements](#other-enhancements)
 
-## Agile enhancements
+### Administrator enhancements
 
 <table>
             <col style="width: 50%;" />
@@ -40,7 +42,42 @@ For tips on preparing for the upcoming release, see [Prepare for an Adobe Workfr
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-mobile-enhancements.md" class="MCXref xref" xrefformat="{para}">Estimation field on connected cards maps to Story Points field on Workfront objects</a><span style="color: #ff0000;"> New in Preview!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-6.md" class="MCXref xref" xrefformat="{para}">Rename pins in layout template</span></a><span style="color: #ff0000;"> New in Preview!</span>
+                        <p>You can now rename pins in a layout template to be more meaningful to your users, instead of using the default name for the pinned page. Pins that administrators create are displayed for all users assigned to the layout template, and users can't rename those pins.</p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                        <ul>
+                            <li>
+                                <p>Preview release: February 9, 2023<br /></p>
+                            </li>
+                            <li>
+                                 <p>Production release: With the 23.2 release</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+            </tbody>
+        </table>  
+
+### Agile enhancements
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">Feature</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Release dates</span>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-1-jan-23.md" class="MCXref xref" xrefformat="{para}">Estimation field on connected cards maps to Story Points field on Workfront objects</a></p>
                         <p>The Estimation field on connected cards in Workfront Boards now maps to the Story Points field for the associated Workfront object. </p>
                         <p>The new Story Points field is an editable, free form field that you can add to a view in a list or report for tasks or issues. It is not tied to planned hours or team assignments.</p>
                     </td>
@@ -50,7 +87,7 @@ For tips on preparing for the upcoming release, see [Prepare for an Adobe Workfr
                                 <p>Preview release: January 26, 2023<br /></p>
                             </li>
                             <li>
-                                 <p>Production release for early opt-in: February 2, 2023 <span style="color: #ff0000;"> This feature is available in Production on this date only through the early feature opt-in for Workfront Boards.</span></p>
+                                 <p>Production release for early opt-in: This feature was delayed and is releasing February 9. <span style="color: #ff0000;">This feature is available in Production on this date only through the early feature opt-in for Workfront Boards.</span></p>
                                 <p>Production release for all customers: With the 23.2 release</p>
                             </li>
                         </ul>
@@ -59,7 +96,7 @@ For tips on preparing for the upcoming release, see [Prepare for an Adobe Workfr
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-mobile-enhancements.md" class="MCXref xref" xrefformat="{para}">Preview card in intake column</a><span style="color: #ff0000;"> New in Preview!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-1-jan-23.md" class="MCXref xref" xrefformat="{para}">Preview card in intake column</a></p>
                         <p>You can now click on a connected card in the intake column to see a view-only version of its contents. You can't edit the card contents until the card is moved out of the intake column to another column on the board.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
@@ -77,7 +114,56 @@ For tips on preparing for the upcoming release, see [Prepare for an Adobe Workfr
             </tbody>
         </table>  
 
+### Other enhancements 
 
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">Feature</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Release dates</span>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-6.md" class="MCXref xref" xrefformat="{para}">Export artboards as single PDF or multiple PDF files in Adobe Workfront for XD</span></a><span style="color: #ff0000;"> New in Production!</span>
+                        <p>In the Adobe Workfront for XD plugin, you can now choose to export your artboards as a single PDF file or multiple PDF files.</p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                        <ul>
+                            <li>
+                                <p>Preview release: N/A<br /></p>
+                            </li>
+                            <li>
+                                 <p>Production release: February 6, 2023</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-look-and-feel.md" class="MCXref xref" xrefformat="{para}">Look-and-feel updates during the 23.2 release timeframe</a></p>
+                        <p>Minor updates to the look and feel of various areas of the Adobe Workfront application are being made within the 23.2 release timeframe. These enhancements will be made available in the Production environment a minimum of 2 weeks after releasing to Preview. </p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                        <ul>
+                            <li>
+                                <p>Preview release:&#160;Throughout the 23.2 release timeframe<br /></p>
+                            </li>
+                            <li>
+                                <p><span class="preview">Production release: A minimum of 2 weeks after releasing to Preview (unless otherwise specified)</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+            </tbody>
+        </table>  
 
 ## Announcements
 
@@ -132,7 +218,7 @@ Explore the latest updates made to learning programs, learning paths, videos, an
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-mobile-enhancements.md" class="MCXref xref" xrefformat="{para}">Title</a><span style="color: #ff0000;"> Coming soon!</span></p>
+                        <a href="ADD LINK" class="MCXref xref" xrefformat="{para}">Title</a><span style="color: #ff0000;"> Coming soon!</span></p>
                         <p>Body</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>

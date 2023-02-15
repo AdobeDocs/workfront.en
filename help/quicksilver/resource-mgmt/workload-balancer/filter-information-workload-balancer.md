@@ -192,7 +192,7 @@ You can create a filter from scratch or edit one of the predefined filters. For 
       >* **Suggested fields**: the fields most commonly used.
       
 
-   1. Select a modifier from the second drop-down menu.
+   1. Select a modifier from the second drop-down menu. For information about Workfront filter modifiers, see [Filters and condition modifiers](../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md). 
    1. Select or type a value for the field you are filtering for. 
    
       >[!NOTE]
