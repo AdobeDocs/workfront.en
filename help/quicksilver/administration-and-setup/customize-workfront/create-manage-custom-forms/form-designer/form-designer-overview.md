@@ -20,6 +20,22 @@ For example, a user can attach the following custom form to a project so that us
 
 We've added the ability to 
 
+* Copy field – you can now copy existing fields by clicking on the copy icon on the fields from the canvas 
+
+* Size for Descriptive texts - You can now assign small, medium or large size to Descriptive text fields and use them on the same row with other fields 
+
+* Default section – In case the user has not added a section at the top of the form, Default section is visible, so that users can adjust the permissions for fields that have no custom section assigned. Default section is not visible within objects, once the form is attached to the object.  
+
+## Coming soon
+
+
+## Removed
+
+
+
+
+
+
 ## Custom fields and widgets
 
 Workfront provides many built-in fields for each object type. In a custom form, you can create additional fields that prompt users for information that is unique to their workflows. These custom fields are the building blocks of a custom form.
