@@ -77,7 +77,7 @@ For tips on preparing for the upcoming release, see [Prepare for an Adobe Workfr
                         </p>
                     </td>
                 </tr>
-                <tr>
+              <!--  <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-13.md" class="MCXref xref" xrefformat="{para}">Customize display of fields on a card</a><span style="color: #ff0000;"> New in Preview!</span></p>
                         <p>Customization is now available to configure which fields are displayed on a card, both in the the full view when the card is open, and in the condensed card view on the board. When you disable a field is is not displayed in either view. You can also enable a field in the full view and hide it from the condensed view.</p>
@@ -127,7 +127,7 @@ For tips on preparing for the upcoming release, see [Prepare for an Adobe Workfr
                             </li>
                         </ul>
                     </td>
-                </tr>
+                </tr> -->
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-1-jan-23.md" class="MCXref xref" xrefformat="{para}">Estimation field on connected cards maps to Story Points field on Workfront objects</a></p>
