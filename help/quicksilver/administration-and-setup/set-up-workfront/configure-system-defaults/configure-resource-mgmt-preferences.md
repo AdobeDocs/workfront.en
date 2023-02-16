@@ -15,7 +15,7 @@ exl-id: 7cde2238-cb34-4bee-baba-69d256a3912d
 Edit the first part, once they add more settings in the Res Management Preferences - right now, only the FTE calculation is the
 -->
 
-<!--drafted for Work time field: <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> -->
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> 
 
 As an [!DNL Adobe Workfront] administrator you can configure the [!UICONTROL Resource Management] Preferences for your system. These preferences determine how user hour or FTE availability or capacity are calculated for the [!DNL Workfront] resource scheduling and planning tools.
 
@@ -73,9 +73,7 @@ You must have the following to perform the steps in this article:
  </tbody> 
 </table>
 
-<!--drafted for Work time field: 
-
-## Information taken into account when calculating user's capacity
+## Information taken into account when calculating a user's capacity
 
 When calculating a user's capacity, Workfront takes into account the following information:
 
@@ -83,16 +81,10 @@ When calculating a user's capacity, Workfront takes into account the following i
 * [!UICONTROL Schedule] [!UICONTROL Exceptions] (depending on which [!UICONTROL Schedule] is used, it can be the exceptions of the user's schedule, or those associated with the [!DNL Workfront] [!UICONTROL Default Schedule])
 * User's time off
 * The value of the Full Time Equivalent ([!UICONTROL FTE]) of the user or that of the [!DNL Workfront] system. The [!UICONTROL FTE] equals 1 when the user works full time, as defined in the schedule. 
-
-<!-drafted for Work Time field  
-
 * <span class="preview">The value of [!UICONTROL Work Time] for the user which refers to time that the user spends on project-related work. This does not include overhead time, like meetings and training. The [!UICONTROL Work Time] equals 1 when the user is available for work the entire time as indicated by the [!UICONTROL FTE] or the schedule, which means they don't spend any time on non-project-related work like meetings or trainings.</span>
-
--->
 
 For information about planning and scheduling resources in [!DNL Workfront], see [Get started with Resource Management](../../../resource-mgmt/resource-mgmt-overview/get-started-resource-management.md).
 
--->
 
 ## Configure [!UICONTROL Resource Management] preferences
 
@@ -112,10 +104,9 @@ For information about planning and scheduling resources in [!DNL Workfront], see
 
       Workfront calculates the Available Hours of a user using the following formula when the Workfront administrator chooses The [!UICONTROL Default Schedule]:
       
-      <!--drafted for Work Time field:
+     
       In the Production environment: 
-      -->
-
+    
       ```
       User Available Hours = ([!UICONTROL Default Schedule] Hours - Exceptions) * FTE - Time off hours
       ```
@@ -129,8 +120,6 @@ For information about planning and scheduling resources in [!DNL Workfront], see
       >User Available Hours = [(40 - 0) * 0.5)] - 1 = 19 hours
       >```
       
-   <!--drafted for Work Time field
-
       <div class="preview">
       
       In the Preview environment: 
@@ -151,7 +140,6 @@ For information about planning and scheduling resources in [!DNL Workfront], see
 
       </div>
 
-   -->
       
       <!--      
       <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><p>In the Production environment: (NOTE: this is the old way it was working, before the 22.2 release)</p><p><code>User Available Hours = (Default Schedule Hours - (Schedule Exceptions + Time off hours)) * User FTE value</code></p>      
@@ -175,9 +163,8 @@ For information about planning and scheduling resources in [!DNL Workfront], see
       >
       >If the user is not associated with a schedule, the Available Hours for the user are calculated using only the [!UICONTROL Default Schedule].
 
-      <!--drafted for Work Time field:
       In the Production environment: 
-      -->
+      
 
       The Available hours for the user are calculated by the following formula:
 
@@ -200,8 +187,6 @@ For information about planning and scheduling resources in [!DNL Workfront], see
       >```
       >User Weekly Available [!UICONTROL FTE] = (30-2) / 40 = 0.70
       >```
-
-      <!--drafted for Work Time field:
 
       <div class="preview">
 
@@ -230,5 +215,5 @@ For information about planning and scheduling resources in [!DNL Workfront], see
       >```
       
       </div>
-      -->
+   
 1. Click **[!UICONTROL Save]**.

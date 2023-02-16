@@ -9,6 +9,8 @@ feature: Work Management
 
 # Copy and move template tasks
 
+<span class="preview">Copying and moving a template task is available in the Production environemnt. However, the steps outlined on this page refer to functionality only in the Preview environment. This functionality will be available in Production on March 2, 2023.</span> 
+
 You can copy a template task from a template to another template, or you can move it either to another template or to another place in the same template. 
 
 ## Access requirements

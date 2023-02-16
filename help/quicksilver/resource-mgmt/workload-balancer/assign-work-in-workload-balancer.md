@@ -9,9 +9,7 @@ exl-id: 98779b67-b975-4501-8426-63e255b1d7df
 ---
 # Overview of assigning work in the Workload Balancer
 
-<!--drafted for Work Time story:
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> 
--->
 
 As a resource manager, you can use the Adobe Workfront Workload Balancer to view work items that have not yet been assigned to users as well as assign these items to them.
 
@@ -47,8 +45,7 @@ Workfront uses the following information to calculate the capacity of the user i
 
   For more information, see [Configure personal time off in Adobe Workfront](../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md).
 
-<!--drafted for Work Time: 
-* The user's Work Time. This indicates the percentage of FTE time that the user is available to perform actual project-related work, not including overhead. Set the Work Time value to  1 to indicate that the user is available for project-related work their entire full-time equivalent. -->
+* <span class="preview">The user's Work Time. This indicates the percentage of FTE time that the user is available to perform actual project-related work, not including overhead. Set the Work Time value to  1 to indicate that the user is available for project-related work their entire full-time equivalent.</span>
 
 ## Assign work in the Workload Balancer
 
