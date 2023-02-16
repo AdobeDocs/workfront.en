@@ -9,7 +9,7 @@ exl-id: 1bb133a8-eb76-46b8-969f-37f57f9453b4
 ---
 # Copy a project
 
-<!--some areas are drafted for the 23.2 release story-->
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> 
 
 <!--
 <(LINKED TO THE PRODUCT IN THE COPY PROJECT BOX)</p>
@@ -27,7 +27,7 @@ You can copy a project rather than create one from scratch. You can copy only on
 >* Notes  
 >* Hours
 >* Cross-project predecessors
->* Budgeted hours <!-- drafted for release 23.2: take this out and move it to the one below IF there is no UI component for the story that allows you to check/uncheck this information as you copy the project. If there is a UI component, take this out of here and just add it to the new screen shot below. -->
+>* <span class="preview">Budgeted hours</span> 
 >
 >The following items are always copied from an existing project to a new one:
 >
@@ -129,11 +129,7 @@ To copy a project:
    By default, the **Status** matches that of the original project.
 
 1. (Optional) Deselect the items that you don't want to copy to the new project. The following table describes what happens when you deselect the items:
-      <!--drafted for story for the 23.2 release: add another line in the table below for "Budgeted hours" and add this information to that row:
-      Removes the hours budgeted in the Resource Planning area of the project's Business Case from the copied project. 
-      <b>NOTE</b>
-      Hours budgeted using the Scenario Planner are never copied to the new project because the new project is not linked to an initiative in the Scenario Planner. For more information, see <a href="../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md">Budget resources in the Business Case using the Scenario Planner</a>
-      -->
+      
 
    <table style="table-layout:auto"> 
     <col> 
@@ -143,7 +139,7 @@ To copy a project:
       <td role="rowheader">Select all</td> 
       <td> <p>Selects all options and clears all the fields and objects listed from the new project.</p> <p><b>TIP</b>
       
-   Deselecting <strong>Select all</strong> deselects all items. </p> </td> 
+    Deselecting <strong>Select all</strong> deselects all items. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Assignments</td> 
@@ -154,7 +150,7 @@ To copy a project:
       <td>Removes the progress on all the tasks and they display as New. </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Custom&nbsp;Data</td> 
+      <td role="rowheader">Custom Data</td> 
       <td> <p>Removes the information from the custom form on the project, as well as the information on the custom forms associated with the following items:</p> 
        <ul> 
         <li>Tasks</li> 
@@ -162,7 +158,7 @@ To copy a project:
         <li> Documents</li> 
        </ul> <p><b>NOTE</b>
       
-   The custom forms remain attached to the tasks, expenses, documents, and the project, but the information in the custom fields of the forms is not copied to the new project. </p> </td> 
+      The custom forms remain attached to the tasks, expenses, documents, and the project, but the information in the custom fields of the forms is not copied to the new project. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Documents</td> 
@@ -170,9 +166,20 @@ To copy a project:
      </tr> 
      <tr> 
       <td role="rowheader">All Predecessors</td> 
-      <td> <p>Removes all predecessor relationships between the tasks on the project. </p> <p>Tip: Cross-project predecessors never transfer to the new project, regardless of whether this is selected or not. </p> </td> 
-     </tr> 
-     <tr> 
+      <td> <p>Removes all predecessor relationships between the tasks on the project. </p> <p><b>TIP</b>
+      
+      Cross-project predecessors never transfer to the new project, regardless of whether this is selected or not. </p> </td> 
+     </tr>
+
+  <tr> 
+      <td role="rowheader"><span class="preview">Budgeted hours</span></td> 
+      <td> <p><span class="preview">Removes the hours budgeted in the Resource Planning area of the project's Business Case from the copied project. <span class="preview"></p> 
+    
+   <b>NOTE</b>
+    
+   <span class="preview">Hours budgeted using the Scenario Planner are never copied to the new project because the new project is not linked to an initiative in the Scenario Planner. For more information, see <a href="../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md">Budget resources in the Business Case using the Scenario Planner</a></span>
+   </tr></td>
+    <tr> 
       <td role="rowheader">Financial Information</td> 
       <td> <p>Removes the information in the following areas: </p> 
        <ul> 
