@@ -69,7 +69,7 @@ Consider the following when copying a template task:
     ![](assets/copy-template-task-box-unshimmed.png)
 1. (Optional) Rename the template task in the **Template Task Name** field.
 
-    >[!TIP]
+   >[!TIP]
    >
    >This field is dimmed and not editable when selecting to copy multiple template tasks in a list. You can hover over the Template Task Name field and a list of all selected template tasks displays.
 
@@ -195,7 +195,7 @@ In addition to copying template tasks, you can also move a template task either 
 
 1. (Optional) Rename the template task in the **Template Task Name** field.
 
-    >[!TIP]
+   >[!TIP]
    >
    >This field is dimmed and not editable when selecting to move multiple template tasks in a list. You can hover over the template task Name field and a list of all selected template tasks displays.
 

@@ -896,6 +896,7 @@ The following table is a list of commonly used terms in Adobe Workfront:
 FTE
 The designated full time equivalency for users. A full-time user should have 100% FTE and part-time user should have a percentage that equals their working hours. 
 --> 
+
 ## G - I
 
 <table style="table-layout:auto"> 
