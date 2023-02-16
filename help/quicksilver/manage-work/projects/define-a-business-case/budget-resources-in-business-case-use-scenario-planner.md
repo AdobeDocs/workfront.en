@@ -8,6 +8,10 @@ exl-id: d5f3e348-dc7d-4265-a5ce-8eef152db410
 ---
 # Budget resources in the Business Case using the Scenario Planner
 
+<!--drafted for the Budgeted Hours story: 
+
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> -->
+
 As part of resource planning, you can use the Adobe Workfront Scenario Planner to budget the job roles necessary for completing the work in a project when you build the business case.
 
 For more information about creating a business case, see [Create a Business Case for a project](../../../manage-work/projects/define-a-business-case/create-business-case.md).
@@ -120,11 +124,15 @@ Before you begin, you must do the following:
 
      ![](assets/business-case-rp-selected-change-option-to-switch-to-sp-highlighted-350x37.png)
 
-     Workfront uses the required job role hours from the linked initiative to calculate the project's Budgeted Labor Cost. This is the recommended option. Cost displays in the Business Case in the currency of the project.
+     Workfront uses the required job role hours from the linked initiative to calculate the project's Budgeted Labor Cost and Budgeted Hours. This is the recommended option. Cost displays in the Business Case in the currency of the project.
+
+     <!--drafted for Budgeted Hours: 
+   <span class="preview">When you copy a project, and you select to copy the Budgeted Hours to the new project, the hours budgeted using the Scenario Planner are not copied to the new project. Only hours budgeted in the Resource Planner are copied. For more information, see [Copy a project](../manage-projects/copy-project.md)</span>
+   -->
 
      >[!IMPORTANT]
      >
-     >When you use the Scenario Planner to budget resources for the project, the Budgeted Labor&nbsp;Cost displays in the following areas of Workfront:
+     >When you use the Scenario Planner to budget resources for the project, the Budgeted Labor Cost displays in the following areas of Workfront:
      >
      >   
      >   
@@ -133,7 +141,7 @@ Before you begin, you must do the following:
      >   
      >
 
-1. (Optional)&nbsp;Click&nbsp;**View in Scenario Planner** to open the plan that contains the initiative linked to the project. This opens the Scenario Planner in a new browser tab. 
+1. (Optional) Click **View in Scenario Planner** to open the plan that contains the initiative linked to the project. This opens the Scenario Planner in a new browser tab. 
 1. (Optional) Update information on the initiative. For more information, see [Create and edit initiatives in the Scenario Planner](../../../scenario-planner/create-and-edit-initiatives.md).
 
    >[!NOTE]

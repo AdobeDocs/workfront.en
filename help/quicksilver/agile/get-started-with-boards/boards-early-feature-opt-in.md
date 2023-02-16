@@ -137,6 +137,10 @@ The following table outlines major features of boards along with their current r
   <tr>
    <td>Customize display of fields on a card</td>
    <td>Partially released</td>
+  </tr>  
+  <tr>
+   <td>Define a default status for cards moved into columns</td>
+   <td>Partially released</td>
   </tr>
  </tbody> 
 </table>

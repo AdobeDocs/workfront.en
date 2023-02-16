@@ -11,6 +11,10 @@ exl-id: dfced3e9-0338-446e-bf70-fa5d07f3ac1f
 ---
 # [!DNL Adobe Workfront for G Suite]
 
+>[!NOTE]
+>
+>There is a [known issue](https://experienceleague.adobe.com/docs/workfront-known-issues/issues/new-workfront-experience/wf-current/wf-integrations-error-when-opening-wf-for-gsuite.html?lang=en) with the current version of [!DNL Workfront for G Suite] not working as expected. We are working on a new version and expect it to be released to the [!DNL Google Marketplace] in the near future. 
+
 [!DNL Adobe Workfront for G Suite] connects you to your most important work and allows you to collaborate with others while staying within [!DNL Gmail], [!DNL Google Calendar], and [!DNL Google Drive]. Without leaving these applications, you can capture emailed requests or work updates and add them to [!DNL Workfront]. You can check what's happening in [!DNL Workfront], including due dates, priority, documents, updates and additional context, without leaving your inbox. You can make approval decisions, reply to comments, or accept new work requests. And you can convert your emails to either personal project tasks or assign work and priority to others.
 
 These Help articles can help you get started using [!DNL Workfront for G Suite]:
@@ -22,7 +26,7 @@ These explain how to manage [!DNL Workfront] objects without leaving [!DNL G Sui
 
 * [Access [!DNL Adobe Workfront] Home content from [!DNL G Suite]](../../workfront-integrations-and-apps/workfront-for-g-suite/access-wf-home-content-from-g-suite.md)
 * [Update an [!DNL Adobe Workfront] object from [!DNL G Suite]](../../workfront-integrations-and-apps/workfront-for-g-suite/update-a-workfront-object-in-gsuite.md)
-* [View and manage documents from [!DNL G Suit]e](../../workfront-integrations-and-apps/workfront-for-g-suite/view-and-manage-documents-in-gsuite.md)
+* [View and manage documents from [!DNL G Suite]](../../workfront-integrations-and-apps/workfront-for-g-suite/view-and-manage-documents-in-gsuite.md)
 * [View and manage [!DNL Adobe Workfront] object details from [!UICONTROL G Suite]](../../workfront-integrations-and-apps/workfront-for-g-suite/view-manage-work-item-details-in-gsuite.md)
 * [View [!DNL Adobe Workfront] object updates from [!UICONTROL G Suite]](../../workfront-integrations-and-apps/workfront-for-g-suite/view-object-updates-in-gsuite.md)
 

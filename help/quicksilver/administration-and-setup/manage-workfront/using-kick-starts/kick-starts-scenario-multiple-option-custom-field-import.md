@@ -19,16 +19,19 @@ Examples of custom fields with multiple options are:
 * Multi-Select Dropdown 
 * Dropdown 
 * Checkboxes 
-* Radio Buttons.  
+* Radio Buttons  
 
 These fields can sometimes have many (sometimes hundreds) of options. Importing them using the Kick-Start functionality can save you, as the Workfront administrator, a lot of time and ensure you avoid errors.  
 
-You must follow the steps outlined in the sections below, in this order, to import custom fields with multiple options using a kick-start: 
+>[!IMPORTANT]
+>
+>You must follow the steps outlined in the sections below, in this order, to import custom fields with multiple options using a kick-start: 
+>
+>1. Export existing Custom Data from Workfront (optional step)
+>1. Export the Kick-Starts Template for Custom Data
+>1. Populate the Excel Kick-Starts spreadsheet
+>1. Upload the Excel Spreadsheet to Workfront
 
-1. Export existing Custom Data from Workfront (optional step)
-1. Export the Kick-Starts Template for Custom Data
-1. Populate the Excel Kick-Starts spreadsheet
-1. Upload the Excel Spreadsheet to Workfront
 
 ## Export existing Custom Data from Workfront (optional step)
 
@@ -109,15 +112,20 @@ To populate the Excel spreadsheet with information for the new custom fields:
 
 1. Open the Excel spreadsheet you downloaded in the previous section, and notice a number of sheets. Each sheet represents an object in the application. 
 
-    For example: **Parameter** (which refers to Custom Field), **Parameter Option**(which refers to Custom Field option ), **Category** (which refers to Custom Form). 
+    >[!INFO]
+    >
+    >For example, **Parameter** (which refers to Custom Field), **Parameter Option**(which refers to Custom Field option), **Category** (which refers to Custom Form). 
+    >
+    >You must write the names of the objects and their attributes in the format supported by the Workfront database.
+    >
+    >For information about the meaning of these objects, see the [Workfront glossary](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md). 
+    >
+    >For information about the names of the objects in the Workfront database, see the [API Explorer](../../../wf-api/general/api-explorer.md). 
+    >
+    >![](assets/sheets-included-in-custom-data-export-kick-start-file.png)
     
-    You must write the names of the objects and their attributes in the format supported by the Workfront database.
-    
-    For information about the meaning of these objects, see the [Workfront glossary](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md). 
-    
-    For information about the names of the objects in the Workfront database, see the [API Explorer](../../../wf-api/general/api-explorer.md). 
 
-    ![](assets/sheets-included-in-custom-data-export-kick-start-file.png)
+
 
 
 1. Ensure the following information is formatted correctly:  
@@ -159,7 +167,9 @@ To populate the Excel spreadsheet with information for the new custom fields:
 
     * **`setName`** = enter the name of the custom fields as you wish it displays in Workfront.
     
-        For example, we might import two custom fields, called _Brand_, a checkbox field, and _Media_, a radio button field.  
+        >[!INFO]
+        >
+        >For example, we might import two custom fields, called _Brand_, a checkbox field, and _Media_, a radio button field.  
 
     * The **`setName`** and the **`setValue`** columns usually contain the same information and they should reflect the names desired in the Workfront interface for your new field. 
     
