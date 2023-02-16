@@ -51,4 +51,4 @@ Some of the improvements include:
 * Workfront checks whether you have access to the destination template immediately after choosing the template. Prior to this enhancement, a warning message indicating that you don't have the correct access showed after you confirmed the copy or the move, which resulted in extra steps and the action not being allowed.
 * Ability to request access for a template where you want to copy or move the template task without leaving the Copy or Move Template Task box.
 
-For more information, see [Copy and move template tasks] help\quicksilver\manage-work\projects\create-and-manage-templates\copy-and-move-template-tasks.md. <!-- article is drafted -->
+<!-- For more information, see [Copy and move template tasks](/help\quicksilver\manage-work\projects\create-and-manage-templates\copy-and-move-template-tasks.md). this is currently drafted -->
