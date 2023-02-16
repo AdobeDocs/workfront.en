@@ -9,7 +9,13 @@ exl-id: 214a83f6-ecc1-4e4d-aba5-d6483dcabd27
 ---
 # Delete or archive a board
 
-You can delete or archive a board in [!DNL Workfront]. Deleting a board permanently removes it from [!DNL Workfront], while archiving a board retains all cards and allows it to be restored at a later time.
+{{highlighted-preview}}
+
+You can delete or archive a board in [!DNL Workfront]. Deleting a board permanently removes it from [!DNL Workfront], while archiving a board retains all cards and allows it to be restored at a later time. <span class="preview">These options apply both to standalone boards and boards that are part of collections.</span>
+
+>[!NOTE]
+>
+>Collections are available only through the early feature opt-in for Workfront Boards.
 
 ## Access requirements
 
