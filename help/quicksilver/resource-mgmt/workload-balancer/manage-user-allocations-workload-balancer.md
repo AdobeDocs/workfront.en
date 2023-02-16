@@ -200,7 +200,12 @@ As part of assigning work to users, you can modify user allocations in the Workl
       >Modifying allocations when this setting is enabled makes the total number in the user line decrease.
 
    1. **Project** in the **Select color theme** section. This displays each project and its respective work items in unique colors and makes it easier to understand which items belong to which project. 
-   1. **Percentage** in the **Display user allocation in** section.&nbsp;This displays allocations as a percentage value. The user's capacity according to their schedule is considered to be 100%. For example, if a user is associated with a schedule of 8 hours per day, 8 hours equals 100% capacity. If you want to allocate the user to work 4 hours in a day, you would update his allocation to 50%.
+   1. **Percentage** in the **Display user allocation in** section. This displays allocations as a percentage value. The user's capacity according to the schedule is considered to be 100%. For example, if a user is associated with a schedule of 8 hours per day, 8 hours equals 100% capacity. If you want to allocate the user to work 4 hours in a day, you would update his allocation to 50%. 
+
+      >[!NOTE]
+      >
+      >The Workfront administrator decides which schedule to use across your system for calculating user's capacity in the Resource Managament area of Setup. For more information, see [Configure Resource Management preferences](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
+
 
 1. Click the **More** menu ![](assets/qs-more-menu.png) for a work item, then click **Edit allocations**.
 

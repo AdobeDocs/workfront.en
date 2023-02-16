@@ -140,6 +140,8 @@ You must have the following access to perform the steps in this article:
 
 1. (Optional) Select the User view to notice any user overallocations or underutilization between the Available and the Planned Hours for each user. Budgeted Hours are not visible in the User view.
 
+    For information about how Workfront calculates a user's availability, see [Configure Resource Management preferences](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md). 
+
 ### Budget resources in the Role View {#budget-resources-in-the-role-view}
 
 <!--
