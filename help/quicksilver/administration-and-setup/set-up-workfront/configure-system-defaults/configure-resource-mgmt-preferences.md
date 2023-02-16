@@ -86,7 +86,7 @@ When calculating a user's capacity, Workfront takes into account the following i
 
 <!-drafted for Work Time field  
 
-* <span class="preview">The value of [!UICONTROL Work Time] for the user which refers to time that the user spends on project-related work. This does not include overhead time, like meetings and training. The [!UICONTROL Work Time] equals 1 when the user is available for work the entire time as indicated by the [!UICONTROL FTE] or the schedule, which means they don't spend any time in non-project-related work like meetings or trainings.</span>
+* <span class="preview">The value of [!UICONTROL Work Time] for the user which refers to time that the user spends on project-related work. This does not include overhead time, like meetings and training. The [!UICONTROL Work Time] equals 1 when the user is available for work the entire time as indicated by the [!UICONTROL FTE] or the schedule, which means they don't spend any time on non-project-related work like meetings or trainings.</span>
 
 -->
 
@@ -98,7 +98,7 @@ For information about planning and scheduling resources in [!DNL Workfront], see
 
 >[!NOTE]
 >
->Because this is a global setting, this selection affects all the calculations for the entire system, for all users, in all the resource management tools, and for all Resource Pools.
+>Because this is a global setting, this selection affects all the calculations for the entire system, for all users, in all the resource management tools.
 
 1. Click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Workfront], then click **[!UICONTROL Setup]** ![](assets/gear-icon-settings.png).
 1. Click **[!UICONTROL Resource Management]**.
@@ -108,7 +108,7 @@ For information about planning and scheduling resources in [!DNL Workfront], see
 
       For more information about schedules, see [Create a schedule](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
 
-      For more information about the value of the user [!UICONTROL FTE], see  [Edit a user's profile](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+      For more information about locating the value of the user's [!UICONTROL FTE], see  [Edit a user's profile](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
       Workfront calculates the Available Hours of a user using the following formula when the Workfront administrator chooses The [!UICONTROL Default Schedule]:
       
@@ -173,16 +173,22 @@ For information about planning and scheduling resources in [!DNL Workfront], see
 
       >[!NOTE]
       >
-      >If the user is not associated with a schedule, the Available Hours for the user are calculated using the [!UICONTROL Default Schedule].
+      >If the user is not associated with a schedule, the Available Hours for the user are calculated using only the [!UICONTROL Default Schedule].
 
       <!--drafted for Work Time field:
       In the Production environment: 
       -->
 
+      The Available hours for the user are calculated by the following formula:
+
+      ```
+      User Available Hours = Hours from the [!UICONTROL Schedule] of the User - [!UICONTROL Schedule Exceptions] - Time off hours
+      ```  
+
       The Available [!UICONTROL FTE] for the user is calculated by the following formula:
 
       ```
-      User Available [!UICONTROL FTE] = (Hours from the [!UICONTROL Schedule] of the User - Time off hours) / [!UICONTROL Default Schedule] hours
+      User Available [!UICONTROL FTE] = (Hours from the [!UICONTROL Schedule] of the User - [!UICONTROL Schedule Exceptions] - Time off hours) / [!UICONTROL Default Schedule] hours
       ```
 
       >[!INFO]
@@ -222,8 +228,7 @@ For information about planning and scheduling resources in [!DNL Workfront], see
       >```
       >User Weekly Available FTE = [(30-2) * 0.5] / 40 = 0.35
       >```
-      (************ checking this second other with Dev/ Artur - not sure where Exceptions fit in **********)
-
+      
       </div>
       -->
 1. Click **[!UICONTROL Save]**.
