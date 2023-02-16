@@ -126,7 +126,7 @@ If you are using the WIP limit on a column, a separate card counter is not added
       >[!NOTE]
       >
       >If you do use custom statuses in [!DNL Workfront], the first time you move a connected card into this column you will be prompted to choose a status. For example, if the connected project has multiple status types that all correspond to [!UICONTROL Completed], you must choose which status to use in [!DNL Workfront]. You can set your choice as the default so you don't have to make the selection every time you move a card to the column.
-      For more information on statuses, see [Statuses overview](/help/quicksilver/administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/statuses-overview.md).
+      >For more information on statuses, see [Statuses overview](/help/quicksilver/administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/statuses-overview.md).
 
 1. (Optional) Set a value for the card assignees:
 
