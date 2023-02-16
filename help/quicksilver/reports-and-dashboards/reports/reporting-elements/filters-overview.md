@@ -10,6 +10,8 @@ exl-id: 3daacfba-9da7-4c04-be98-ec5f953c3c34
 ---
 # Filters overview in Adobe Workfront
 
+<span class="preview">Note that in the Preview environment, the enhanced filter experience (previously called "beta") is now the default. These filters are now called "standard" and the older filter experience is called "legacy."</span>
+
 You can use filters in Adobe Workfront to reduce the amount of information you display on the screen in lists, reports, or other areas.
 
 >[!NOTE]
