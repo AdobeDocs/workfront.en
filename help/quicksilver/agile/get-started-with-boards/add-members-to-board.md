@@ -41,7 +41,7 @@ You must have the following access to perform the steps in this article:
 1. Click the **[!UICONTROL Add member]** icon ![Add members](assets/boards-addmember-spectrum-25x25.png).
 1. In the **[!UICONTROL Add members]** box, start typing a name, then select it when it displays in the list.
 
-   You can select an individual member or a team. If you choose a team, the team itself is added to the board. Individual team members are then available to assign to a card.
+   You can select an individual member or a team. If you choose a team, the team itself is added to the board. The full team and its individual team members are then available to assign to a card.
 
    >[!NOTE]
    >

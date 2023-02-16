@@ -216,10 +216,21 @@ The following table is a list of commonly used terms in Adobe Workfront:
    <td>[!UICONTROL Automatic And On Change]</td> 
    <td> <p>One of the [!UICONTROL Project Update] types. This will recalculate the Project's Projected and Planned timelines when the nightly recalculation process runs and when any update is made to the Project or Tasks within the Project. </p> <p>For more information, see <a href="../../../manage-work/projects/manage-projects/select-project-update-type.md" class="MCXref xref">Select the project Update Type </a>.</p> </td> 
   </tr> 
+  
+  <tr> 
+   <td><p>Availability</p></td> 
+   <td> <p>This term is used in relation to "user availability" or "resource availability" and it illustrates the amount of time that the resource (user or job role) is available to work. </p> 
+   <p>Workfront calculates user availability using several fields and depending on what the settings of the Resource Management preferences are in your system. For more information, see <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md">Configure Resource Management preferences</a>. </p>
+   <p>For more information about resource availability, see <a href="../../../resource-mgmt/resource-mgmt-overview/get-started-resource-management.md">Get started with Resource Management</a></p>
+   Alternately, "capacity" is also used to refer to resource availability. 
+   </td> 
+  </tr> 
+
   <tr> 
    <td>[!UICONTROL Automatic Only]</td> 
    <td> <p>One of the [!UICONTROL Project Update] types. This will recalculate Projected and Planned timelines when the nightly recalculation process runs.</p> <p>For more information, see <a href="../../../manage-work/projects/manage-projects/select-project-update-type.md" class="MCXref xref">Select the project Update Type</a>.</p> </td> 
   </tr> 
+  
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL BAU]</td> 
    <td>"Business as usual" work that contributes to running the everyday primary business goals.</td> 
@@ -688,7 +699,7 @@ The following table is a list of commonly used terms in Adobe Workfront:
 
 ## D - F
 
-<table style="table-layout:auto"> 
+ <table style="table-layout:auto"> 
  <col> 
  <col> 
  <thead> 
@@ -767,11 +778,10 @@ The following table is a list of commonly used terms in Adobe Workfront:
      <li>[!UICONTROL Calculated Work]</li> 
      <li>[!UICONTROL Effort Driven]</li> 
      <li>[!UICONTROL Simple]</li> 
-    </ul> <p>For more information, see <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Overview of Task [!UICONTROL Duration] and [!UICONTROL Duration Type]</a>.</p> <!--
-     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Task field used by the planner to set how the work required is allocated to the assignees across the duration.</p>
+    </ul> <p>For more information, see <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Overview of Task [!UICONTROL Duration] and [!UICONTROL Duration Type]</a>.</p> 
     --> </td> 
-  </tr> 
-  <tr> 
+   </tr> 
+   <tr> 
    <td>[!UICONTROL Duration Unit]</td> 
    <td>The unit that is used to measure time in a power search.</td> 
   </tr> 
@@ -852,15 +862,40 @@ The following table is a list of commonly used terms in Adobe Workfront:
   </tr> 
   <tr> 
    <td>[!UICONTROL Folder]</td> 
-   <td>Folders are used to organize documents or reports associated with an object.</td> 
-  </tr> <!--
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode,SnippetConitions_MaturityModel.Integrated"> 
-    <td>FTE</td> 
-    <td>The designated full time equivalency for users. A full-time user should have 100% FTE and part-time user should have a percentage that equals their working hours.</td> 
-   </tr>
-  --> 
- </tbody> 
-</table>
+   <td>Folders are used to organize documents or reports associated with an object.</td> </tr>
+  <tr>
+  <td>FTE (Full Time Equivalent)</td> 
+   <td>This is the Full Time Equivalent which indicates the amount of time that a resource is available for work. 
+   The FTE field displays in the following areas: 
+  <ul>
+   <li> User's profile, when editing or creating the user </li>
+   <li> Resource Planner </li>
+   <li> Scenario Planner (requires additional license for the Workfront Scenario Planner) </li>
+   <li> User lists and reports </li> </ul>
+    
+   <p>The FTE must be a decimal number up to 1, and it cannot be 0. </p>
+   <p> An FTE of 1 (which is the default for a user's FTE field, as defined in their profile) means that a resource (user or role) works the entire number of hours, based on the schedule that calculates their availability. </p>
+   <p>Your Workfront administrator decides which schedule to use in determining user's availability.  </p>
+   <ul>
+   <li> When the Default Schedule is used, Workfront uses the FTE of the user found in their profile to calculate availability. </li>
+   <li> When the User's Schedule is used, Workfront uses the user's time off, <span class="preview">Work Time value</span>, and Default Schedule's hours to calculate the user's FTE. </li> </ul>
+    
+   <p>For more information, see <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md">Configure Resource Management preferences</a>.  </p>
+   <p>For more information about creating schedules in Workfront, see <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md">Create a schedule</a>. </p>
+
+   <p><b>NOTE</b></p>
+   <p>For all calculations in the Scenario Planner, Workfront uses the following value: 1 FTE = 8 Hours.</p>
+   <p>For more information, see <a href="../../../scenario-planner/get-started-with-scenario-planning.md">Get started with the Scenario Planner</a>. </p>
+   </td> </tr> 
+   </tbody> 
+   </table>
+
+<!--
+     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Task field used by the planner to set how the work required is allocated to the assignees across the duration.</p>
+<!--
+FTE
+The designated full time equivalency for users. A full-time user should have 100% FTE and part-time user should have a percentage that equals their working hours. 
+--> 
 
 ## G - I
 
@@ -2282,10 +2317,26 @@ The following table is a list of commonly used terms in Adobe Workfront:
   <tr> 
    <td>[!UICONTROL Workflow template]</td> 
    <td>In the [!UICONTROL Proof Approval] report, this field displays any workflow templates attached to a proof. If there are no templates attached, the column is blank.</td> 
+  </tr>
+
+  <tr> 
+   <td>[!UICONTROL Work Time]</td> 
+   <td>  
+ 
+   <p><span class="preview">Represents the percentage of the Full Time Equivalent (FTE) time that the user is available for actual work, not including overhead. Work Time must be a decimal number up to 1, and it cannot be 0. For example, a 20% availability for actual work would be 0.2.</span>  </p>
+   </p><span class="preview">The field's default is 1, indicating that a user spends their entire FTE on actual, project-related work.</span>   </p>
+   <p><span class="preview">The system uses this number to calculate the availability of the user for actual, project-related work. </span></p>
+   <p> <span class="preview">Schedule exceptions and time off might also affect the user capacity.</span> </p>
+   <p><span class="preview">For more information about creating schedules in Workfront, see Create a schedule. (INSERT LINK)</span> </p>
+    <p>Workfront calculates a user's availability depending on the Resource Management preferences in your Setup area. For more information, see <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md/">Configure Resource Management preferences</a>. </p> 
+   <p><span class="preview">You can update the Work Time of a user when you edit or create the user. For information, see <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md">Edit a user's profile</a></span></p> 
+   <b>TIP</b> 
+   <p><span class="preview">Set the Work Time value to  1 to indicate that the user is available for project-related work their entire full-time equivalent.</span></p> 
+   </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Working time]</td> 
-   <td>The data that makes up your schedules.</td> 
+   <td>In Workfront documentation, this term is used to describe the time allocated to work, according to a schedule.</td> 
   </tr> 
   <tr> 
    <td><code>[!UICONTROL workRequiredExpression]</code> </td> 

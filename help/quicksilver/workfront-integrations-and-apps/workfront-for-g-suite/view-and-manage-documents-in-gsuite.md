@@ -10,6 +10,10 @@ exl-id: 20c9e1a6-fce0-44a2-a4c3-f89c94db6635
 ---
 # View and manage documents from [!DNL G Suite]
 
+>[!NOTE]
+>
+>There is a [known issue](https://experienceleague.adobe.com/docs/workfront-known-issues/issues/new-workfront-experience/wf-current/wf-integrations-error-when-opening-wf-for-gsuite.html?lang=en) with the current version of [!DNL Workfront for G Suite] not working as expected. We are working on a new version and expect it to be released to the [!DNL Google Marketplace] in the near future. 
+
 You can view and manage documents associated with a [!DNL Adobe Workfront] object without leaving [!DNL G Suite].
 
 ## Access requirements
