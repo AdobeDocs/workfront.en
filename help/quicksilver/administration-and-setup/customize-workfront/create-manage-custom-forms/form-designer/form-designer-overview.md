@@ -8,7 +8,7 @@ author: Courtney
 feature: System Setup and Administration
 role: Admin
 ---
-# Form Designer overview
+# Form designer overview
 
 You can design a custom form that users can attach to a Workfront object. Users who work on the object can fill out the custom form to supply information about the object.
 
@@ -16,25 +16,25 @@ For example, a user can attach the following custom form to a project so that us
 
 ![](assets/see-image-details-page.png)
 
-## New funtionality available with the Form Designer
+## New funtionality available with the form designer
 
-We've added the ability to 
+With the new form designer, we've added the ability to 
 
-* Copy field – you can now copy existing fields by clicking on the copy icon on the fields from the canvas 
+* **Copy a field**: You can now copy existing fields by clicking on the copy icon on the fields from the canvas 
 
-* Size for Descriptive texts - You can now assign small, medium or large size to Descriptive text fields and use them on the same row with other fields 
+* **Change the size for Descriptive text**: You can now assign small, medium or large size to Descriptive text fields and use them on the same row with other fields. 
 
-* Default section – In case the user has not added a section at the top of the form, Default section is visible, so that users can adjust the permissions for fields that have no custom section assigned. Default section is not visible within objects, once the form is attached to the object.  
+* **Use a Default section**: In case the user has not added a section at the top of the form,a Default section is visible, so that users can adjust the permissions for fields that have no custom section assigned. Default section is not visible within objects once the form is attached to the object.  
 
-## Coming soon
-
-
-## Removed
+## Functionality coming soon
 
 
+## Functionlity removed from the form designer
 
 
-## Existing 
+
+
+<!--
 
 ## Custom fields and widgets
 
@@ -76,3 +76,4 @@ Users can attach custom forms to the following object types:
 For instructions, see [Add a custom form to an object](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
 
 Users who create a custom form can configure it to work with more than one object type. For more information, see [Create or edit a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+-->
