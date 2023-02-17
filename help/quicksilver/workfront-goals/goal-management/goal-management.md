@@ -59,6 +59,5 @@ Review the following articles to learn where you start with Workfront Goals, the
 * [Overview of goal progress and condition in Adobe Workfront Goals](../../workfront-goals/goal-management/calculate-goal-progress.md) 
 * [Filter information in Adobe Workfront Goals](../../workfront-goals/goal-management/filter-information-wf-goals.md) 
 * [Manage goal comments in Adobe Workfront Goals](../../workfront-goals/goal-management/manage-goal-comments.md) 
-* [Print the Goal List in Adobe Workfront Goals](../../workfront-goals/goal-management/print-the-goal-list.md) 
 * [Update goals in the Goal details section in Adobe Workfront Goals](../../workfront-goals/goal-management/update-goals-in-goal-details-panel.md) 
 * [Review in-trouble goals in Adobe Workfront Goals](../../workfront-goals/goal-management/view-in-trouble-goals.md)

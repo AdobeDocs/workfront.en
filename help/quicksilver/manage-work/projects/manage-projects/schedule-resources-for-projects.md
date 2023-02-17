@@ -53,7 +53,7 @@ To access the Scheduling tool in a project:
 1. Go to the project for which you want to schedule resources.
 1. Click the **Scheduling** or Workload Balancer section in the left panel. The Scheduling or Workload Balancer section might be located under **Show More**.
 
-   For information about scheduling resources using the Scheduling tool in a project, see the [Modify user assignments and allocations](../../../resource-mgmt/resource-scheduling/get-started-resource-scheduling.md#modify) section in the article [Get started with Resource Scheduling](../../../resource-mgmt/resource-scheduling/get-started-resource-scheduling.md).
+   For information about scheduling resources using the Scheduling tool in a project, see the "Modify user assignments and allocations" section in the article "Get started with Resource Scheduling".
 
 1. (Conditional and recommended) If you clicked Scheduling, click **Switch to Workload Balancer** to schedule resources using the Workload Balancer.
 
