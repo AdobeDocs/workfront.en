@@ -22,6 +22,8 @@ For tips on preparing for the upcoming release, see [Prepare for an Adobe Workfr
 
 * [Administrator enhancements](#administrator-enhancements)
 * [Agile enhancements](#agile-enhancements)
+* [Project management enhancements](#project-management-enhancements)
+* [Resource management enhancements](#resource-management-enhancements)
 * [Other enhancements](#other-enhancements)
 
 ### Administrator enhancements
@@ -75,6 +77,57 @@ For tips on preparing for the upcoming release, see [Prepare for an Adobe Workfr
                         </p>
                     </td>
                 </tr>
+              <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-13.md" class="MCXref xref" xrefformat="{para}">Customize display of fields on a card</a><span style="color: #ff0000;"> New in Preview!</span></p>
+                        <p>Customization is now available to configure which fields are displayed on a card, both in the the full view when the card is open, and in the condensed card view on the board. When you disable a field is is not displayed in either view. You can also enable a field in the full view and hide it from the condensed view.</p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                        <ul>
+                            <li>
+                                <p>Preview release: February 16, 2023<br /></p>
+                            </li>
+                            <li>
+                                 <p>Production release for early opt-in: February 23, 2023 <span style="color: #ff0000;"> This feature is available in Production on this date only through the early feature opt-in for Workfront Boards.</span></p>
+                                <p>Production release for all customers: With the 23.2 release</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-13.md" class="MCXref xref" xrefformat="{para}">Define a default status for cards moved into a board column</a><span style="color: #ff0000;"> New in Preview!</span></p>
+                        <p>You can now set a default status to apply to cards moved into a specific column, by selecting a custom status and a system status in the column policies. When you move a card into the column, Workfront first tries to apply the custom status (for example, Awaiting Feedback). If the custom status is not available for that card, Workfront will apply the system status instead (for example, On Hold). Also, if the status on the connected task or issue is changed to the custom or system status set in the column policy, the card is automatically moved to the column.</p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                        <ul>
+                            <li>
+                                <p>Preview release: February 16, 2023<br /></p>
+                            </li>
+                            <li>
+                                 <p>Production release for early opt-in: February 23, 2023 <span style="color: #ff0000;"> This feature is available in Production on this date only through the early feature opt-in for Workfront Boards.</span></p>
+                                <p>Production release for all customers: With the 23.2 release</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-13.md" class="MCXref xref" xrefformat="{para}">Collections now available in Adobe Workfront Boards</a><span style="color: #ff0000;"> New in Preview!</span></p>
+                        <p>You can now create collections on the boards dashboard. A collection is a group of boards for collaborating on work. Once you have named the collection, you can add boards to the collection using a set of templates that offer predefined settings such as column names.</p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                        <ul>
+                            <li>
+                                <p>Preview release: February 16, 2023<br /></p>
+                            </li>
+                            <li>
+                                 <p>Production release for early opt-in: February 23, 2023 <span style="color: #ff0000;"> This feature is available in Production on this date only through the early feature opt-in for Workfront Boards.</span></p>
+                                <p>Production release for all customers: With the 23.2 release</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-1-jan-23.md" class="MCXref xref" xrefformat="{para}">Estimation field on connected cards maps to Story Points field on Workfront objects</a></p>
@@ -93,7 +146,6 @@ For tips on preparing for the upcoming release, see [Prepare for an Adobe Workfr
                         </ul>
                     </td>
                 </tr>
-                </tr>
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-1-jan-23.md" class="MCXref xref" xrefformat="{para}">Preview card in intake column</a></p>
@@ -107,6 +159,77 @@ For tips on preparing for the upcoming release, see [Prepare for an Adobe Workfr
                             <li>
                                  <p>Production release for early opt-in: February 2, 2023 <span style="color: #ff0000;"> This feature is available in Production on this date only through the early feature opt-in for Workfront Boards.</span></p>
                                 <p>Production release for all customers: With the 23.2 release</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+            </tbody>
+        </table>  
+
+### Project management enhancements
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">Feature</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Release dates</span>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-13.md" class="MCXref xref" xrefformat="{para}">Copy Budgeted Hours when copying a project</a><span style="color: #ff0000;"> New in Preview!</span>
+                        <p>Now, you have the option to copy the hours budgeted in the Resource Budgeting area of the Business Case or the Resource Planner when you copy a project. Prior to this enhancement, the hours budgeted for the project were not transferred to the copied project.</p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                        <ul>
+                            <li>
+                                <p>Preview release: February 16, 2023<br /></p>
+                            </li>
+                            <li>
+                                 <p><span class="preview">Production release: March 2, 2023 (Off-cycle)</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+            </tbody>
+        </table>  
+
+### Resource management enhancements
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">Feature</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Release dates</span>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-13.md" class="MCXref xref" xrefformat="{para}">Introducing the Work Time field to accurately calculate user capacity</a><span style="color: #ff0000;"> New in Preview!</span>
+                        <p>To allow resource managers to accurately calculate the availability of their users and account for the time users devote to actual, project-related work, we are introducing the Work Time concept to Adobe Workfront.</p>
+                        <p>You can define the value of the Work Time field for every user, when you create or edit their profile.</p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                        <ul>
+                            <li>
+                                <p>Preview release: February 16, 2023<br /></p>
+                            </li>
+                            <li>
+                                 <p><span class="preview">Production release: March 2, 2023 (Off-cycle)</span></p>
                             </li>
                         </ul>
                     </td>
@@ -132,7 +255,7 @@ For tips on preparing for the upcoming release, see [Prepare for an Adobe Workfr
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-6.md" class="MCXref xref" xrefformat="{para}">Export artboards as single PDF or multiple PDF files in Adobe Workfront for XD</span></a><span style="color: #ff0000;"> New in Production!</span>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-6.md" class="MCXref xref" xrefformat="{para}">Export artboards as single PDF or multiple PDF files in Adobe Workfront for XD</span></a>
                         <p>In the Adobe Workfront for XD plugin, you can now choose to export your artboards as a single PDF file or multiple PDF files.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>

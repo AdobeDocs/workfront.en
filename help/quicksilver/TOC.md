@@ -14,6 +14,7 @@ feature-set: Workfront
     * [Prepare for an Adobe Workfront quarterly release](product-announcements/product-releases/release-readiness.md)
     * 23.2 Release {#release-23-2}
       * [23.2 Release overview](product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md) 
+      * [23.2 release activity: Week of February 13, 2023](product-announcements/product-releases/23.2-release-activity/23-2-feb-13.md)
       * [23.2 release activity: Week of February 6, 2023](product-announcements/product-releases/23.2-release-activity/23-2-feb-6.md)
       * [23.2 release activity: Week of January 23, 2023](product-announcements/product-releases/23.2-release-activity/23-1-jan-23.md)
       * [Look and feel updates during the 23.2 release time frame](product-announcements/product-releases/23.2-release-activity/23-2-look-and-feel.md)
@@ -885,6 +886,7 @@ feature-set: Workfront
     * [Use connected cards on boards](agile/get-started-with-boards/connected-cards.md)
     * [Manage cards](agile/get-started-with-boards/move-board-items.md)
     * [Manage checklist items on cards](/help/quicksilver/agile/get-started-with-boards/manage-checklist-items.md)
+    * [Customize which fields are displayed on a card](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md)
     * [Delete or archive a card from a board](agile/get-started-with-boards/delete-board-items.md)
     * [Filter and search in a board](agile/get-started-with-boards/filter-search-in-board.md)
     * [Add tags](agile/get-started-with-boards/add-tags.md)
@@ -894,6 +896,7 @@ feature-set: Workfront
     * [Add an intake column to a board](agile/use-boards-agile-planning-tools/add-intake-column-to-board.md)
     * [Use groups on a board](agile/use-boards-agile-planning-tools/group-cards-on-board.md)
     * [Configure card falloff](agile/use-boards-agile-planning-tools/configure-card-falloff.md)
+    * [Manage collections](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md)
   * Kanban in an agile team {#kanban}
     * [Kanban in an agile team](agile/use-kanban-in-an-agile-team/using-kanban-in-an-agile-team.md)
     * [Kanban overview](agile/use-kanban-in-an-agile-team/kanban-overview.md)
@@ -1081,6 +1084,7 @@ feature-set: Workfront
       * [Browse the blueprints catalog and request installation of blueprints](administration-and-setup/blueprints/browse-catalog.md)
       * [Copy a project template](manage-work/projects/create-and-manage-templates/copy-template.md)
       * [Attach a template to a project](manage-work/projects/create-and-manage-templates/attach-template-to-project.md)
+      * [Copy and move template tasks](manage-work/projects/create-and-manage-templates/copy-and-move-template-tasks.md)
       * [Edit project templates](manage-work/projects/create-and-manage-templates/edit-templates.md)
       * [Edit a template task](manage-work/projects/create-and-manage-templates/edit-template-task.md)
       * [Create template from project](manage-work/projects/create-and-manage-templates/create-template-from-project.md)
