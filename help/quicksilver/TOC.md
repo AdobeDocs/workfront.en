@@ -482,20 +482,23 @@ feature-set: Workfront
           * [Add display logic and skip logic](administration-and-setup/customize-workfront/create-manage-custom-forms/display-or-skip-logic-custom-form.md)
           * [Share a custom form](administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md)
           * [Preview and complete a custom form](administration-and-setup/customize-workfront/create-manage-custom-forms/preview-and-complete-a-custom-form.md)
-          * [Delete or deactivate a custom form](administration-and-setup/customize-workfront/create-manage-custom-forms/delete-or-deactivate-a-custom-form.md)
           * [Delete object types on a custom form](administration-and-setup/customize-workfront/create-manage-custom-forms/delete-object-type-on-a-custom-form.md)
       * Form Designer {#form-designer}
         * Design a custom form {#design-a-form}
           * [Design a form](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form-toc.md)
         * Manage a form {#manage-a-form}
           * [Manage a form](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/manage-a-form-toc.md)
-      * [Reference custom forms in reports](administration-and-setup/customize-workfront/create-manage-custom-forms/reference-custom-forms-in-report.md)
-      * [View reports that use a custom field or widget](administration-and-setup/customize-workfront/create-manage-custom-forms/view-all-reports-that-use-a-particular-custom-field.md)
-      * [View custom forms that use a custom field or widget](administration-and-setup/customize-workfront/create-manage-custom-forms/view-all-custom-forms-that-use-a-particular-custom-field.md)
-      * [Transfer custom form data when converting an object](administration-and-setup/customize-workfront/create-manage-custom-forms/transfer-custom-form-data-larger-item.md)
-      * [Edit properties of a custom field, section break, or widget](administration-and-setup/customize-workfront/create-manage-custom-forms/edit-a-custom-field.md)
-      * [Delete a custom field or widget from the system](administration-and-setup/customize-workfront/create-manage-custom-forms/delete-a-custom-field.md)
-      * [Rich text field storage in the API](administration-and-setup/customize-workfront/create-manage-custom-forms/rich-text-field-storage-in-the-api.md)
+      * Manage custom forms {#manage-custom-forms}
+        * [Manage custom forms](administration-and-setup/customize-workfront/create-manage-custom-forms/manage-custom-forms-toc.md)
+        * [Reactivate or deactivate a custom form](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/activate-deactivate-form.md)
+        * [Reference custom forms in reports](administration-and-setup/customize-workfront/create-manage-custom-forms/reference-custom-forms-in-report.md)
+        * [View reports that use a custom field or widget](administration-and-setup/customize-workfront/create-manage-custom-forms/view-all-reports-that-use-a-particular-custom-field.md)
+        * [View custom forms that use a custom field or widget](administration-and-setup/customize-workfront/create-manage-custom-forms/view-all-custom-forms-that-use-a-particular-custom-field.md)
+        * [Transfer custom form data when converting an object](administration-and-setup/customize-workfront/create-manage-custom-forms/transfer-custom-form-data-larger-item.md)
+        * [Edit properties of a custom field, section break, or widget](administration-and-setup/customize-workfront/create-manage-custom-forms/edit-a-custom-field.md)
+        * [Delete a custom field or widget from the system](administration-and-setup/customize-workfront/create-manage-custom-forms/delete-a-custom-field.md)
+        * [Delete a custom form](administration-and-setup/customize-workfront/create-manage-custom-forms/delete-or-deactivate-a-custom-form.md)
+        * [Rich text field storage in the API](administration-and-setup/customize-workfront/create-manage-custom-forms/rich-text-field-storage-in-the-api.md)
     * Statuses and priority labels {#statuses-priority-labels}
       * [Create custom statuses and priority labels](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-custom-status-and-priority-labels.md)
       * [Statuses overview](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/statuses-overview.md)
