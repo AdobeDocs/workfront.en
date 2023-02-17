@@ -13,7 +13,11 @@ The following features were made available in the Preview environment in 2016. T
 
 ## Resource Scheduling Improvements
 
-Now you can see all tasks on projects for which you are the Resource Manager, enabling&nbsp;you to be more informed when making scheduling decisions.&nbsp;
+>[!NOTE]
+>
+>The Resource Scheduling tools have been deprecated and removed from Workfront with the 23.1 release. For information about scheduling resources using the Workload Balancer, see [Overview of the Workload Balancer](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md). 
+
+Now you can see all tasks on projects for which you are the Resource Manager, enabling you to be more informed when making scheduling decisions.
 
 For general information about the tools available for scheduling resources, see [Get started with Resource Scheduling](../../../../resource-mgmt/resource-scheduling/get-started-resource-scheduling.md)
 

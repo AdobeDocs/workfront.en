@@ -18,6 +18,11 @@ We continue to make improvements to the way you use Workfront Goals based on the
 
   For information about printing goals, see [Print the Goal List in Adobe Workfront Goals](../../../workfront-goals/goal-management/print-the-goal-list.md).
 
+  >[!NOTE]
+  >
+  >  The functionality to print goals has been deprecated and removed from Workfront.
+
+
 * Added additional information about Results and Activities in the Goal Details panel, so you can clearly understand the difference between them.
 
   For information about adding activities to goals, see [Add activities to goals in Adobe Workfront Goals](../../../workfront-goals/results-and-activities/add-activities-to-goals.md).

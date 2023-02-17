@@ -25,6 +25,10 @@ For more information, see&nbsp; [Link documents from external applications](../.
 
 ## Updated&nbsp;Team Working On Calendar
 
+>[!NOTE]
+>
+>The Resource Scheduling tools have been deprecated and removed from Workfront with the 23.1 release. For information about scheduling resources using the Workload Balancer, see [Overview of the Workload Balancer](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
+
 The Working On calendar available for teams now contains additional functionality and an updated look and feel. The team Working On calendar now functions similar to the resource scheduling tool for projects.
 
 The updated team Working On calendar includes the following improvements:
@@ -56,6 +60,10 @@ The scheduling timeline includes the following enhancements:
 * [Users Remain on the Timeline after Being Assigned a Task](#users-remain-on-the-timeline-after-being-assigned-a-task)
 
 ### Use the Filter to Control Which Users Are Displayed on the Scheduling Timeline {#use-the-filter-to-control-which-users-are-displayed-on-the-scheduling-timeline}
+
+>[!NOTE]
+>
+>The Resource Scheduling tools have been deprecated and removed from Workfront with the 23.1 release. For information about scheduling resources using the Workload Balancer, see [Overview of the Workload Balancer](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
 
 The filter can now be used to control which users are displayed on the scheduling timeline, in addition to which tasks and issues are displayed in the Unassigned area. When users are selected in the filter, only the users you select are displayed, regardless of whether they have a role assignment that matches the role assignment of tasks in the Unassigned area. All tasks currently assigned to that user are also displayed.
 

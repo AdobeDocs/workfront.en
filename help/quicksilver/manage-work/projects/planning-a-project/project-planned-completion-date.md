@@ -92,7 +92,7 @@ To schedule a project from Completion Date:
 
 1. Select **Project Details** in the left panel, then click the **Edit Project** icon in the upper-right corner. 
 
-1. In the **Schedule From** field, select **Completion Date**.
+1. In the **Schedule Mode** field, select **Completion Date**.
 
 1. Specify the **Planned Completion Date** of the project.
 1. Click **Save Changes**.
@@ -113,7 +113,7 @@ To schedule a project from Start Date:
 
 1. Select **Project Details** in the left panel, then click the **Edit Project** icon in the upper-right corner. 
 
-1. In the **Schedule From** field, select **Start Date**.
+1. In the **Schedule Mode** field, select **Start Date**.
 
 1. Specify the **Planned Start Date** of the project.
 1. Click **Save Changes**.
