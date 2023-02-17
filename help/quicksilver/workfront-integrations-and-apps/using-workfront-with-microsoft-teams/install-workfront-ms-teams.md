@@ -54,8 +54,6 @@ As a team owner in [!DNL Microsoft Teams], you can install the [!DNL Workfront f
 1. Select the team for whom you want to install the [!DNL Workfront for Microsoft Teams] app. 
 1. Click **[!UICONTROL Store]** on the side navigation bar.
 
-   ![ms_teams_Store_icon.png](assets/ms-teams-store-icon-319x809.png)
-
 1. In the **[!UICONTROL Search all]** box, type *[!DNL Workfront]*.
 
 1. Click the **[!DNL Workfront]** card and follow the instructions in the wizard.
@@ -63,9 +61,7 @@ As a team owner in [!DNL Microsoft Teams], you can install the [!DNL Workfront f
 
    ![ms_teams_add_to_a_team_option.png](assets/ms-teams-add-to-a-team-option-350x122.png)
 
-1. Select **[!UICONTROL General]** to use the app in that channel for the selected team, then click **[!UICONTROL Set up]**.
-
-   ![teams_select_which_channel_to_use_the_app_install.PNG](assets/teams-select-which-channel-to-use-the-app-install-350x330.png)
+1. For the channel, select **[!UICONTROL General]** to use the app in that channel for the selected team, then click **[!UICONTROL Set up]** for the featues you want.
 
 1. When the install completes, a notification that the install was successful appears in the [!UICONTROL General] channel of the team you selected. All members of the team can see this notification.
 1. (Optional) Pin your [!DNL Workfront] app for easier access:
@@ -73,8 +69,6 @@ As a team owner in [!DNL Microsoft Teams], you can install the [!DNL Workfront f
    1. Click the **[!UICONTROL More]** icon under the message field in the [!UICONTROL General] channel.
 
    1. Mouse over the [!DNL Workfront] app in the list, then click the **[!UICONTROL More]** icon to the right of it.
-
-      ![teams_pin_workfront_link.PNG](assets/teams-pin-workfront-link-350x80.png)
 
    1. Click **[!UICONTROL Pin]**.
 
@@ -98,18 +92,14 @@ To install [!DNL Workfront for Microsoft Teams] from a private file:
 1. Log in to [!DNL Microsoft Teams] as a [!DNL Microsoft] team owner.
 1. Click the **[!UICONTROL More]** icon for the team for which you want to install [!DNL Workfront for Microsoft Teams].
 
-   ![ms_teams_more_icon_for_team.png](assets/ms-teams-more-icon-for-team-350x177.png)
-
 1. Click **[!UICONTROL Manage Team]**.
 1. Select the **[!UICONTROL Apps]** tab, then click **[!UICONTROL Upload a custom app]** in the lower-right corner of the screen.
 
 1. Browse for the private file that you saved on your computer, then follow the installation steps to install [!DNL Workfront for Microsoft Teams].
 1. When the install completes, a notification that the install was successful appears in the General channel of the team you selected. All members of the team can see this notification.
-1. (Optional) Click the **[!UICONTROL More]** icon under the **[!UICONTROL Type your questions here]** field.
+1. (Optional) Click the **[!UICONTROL More]** (three dot) icon under the **[!UICONTROL Type your questions here]** field.
 
 1. (Optional) Mouse over the [!DNL Workfront] app in the list, then click the **[!UICONTROL More]** icon to the right of it.
-
-   ![teams_pin_workfront_link.PNG](assets/teams-pin-workfront-link-350x80.png)
 
 1. (Optional) Click **[!UICONTROL Pin]**.
 
@@ -132,15 +122,11 @@ To log in to [!DNL Workfront] from [!DNL Microsoft Teams]:
 
    The [!DNL Workfront] bot chat channel is added to your [!DNL Microsoft Teams] chat channels.
 
-   ![teams_workfront_bot_channel_highlighted.PNG](assets/teams-workfront-bot-channel-highlighted-350x220.png)
-
 1. Go to the [!DNL Workfront] bot chat channel in [!DNL Microsoft Teams] and type *[!UICONTROL log in]* in the **[!UICONTROL Type your questions here]** field.
 
    Or
 
    Click **[!UICONTROL Log in]**.
-
-   ![](assets/ms-teams-log-in-prompt-with-4-tabs-350x139.png)
 
    A new browser tab opens.
 

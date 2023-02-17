@@ -43,9 +43,7 @@ Your [!DNL Microsoft Teams] team owner must install [!DNL Workfront] for [!DNL M
 
 ## Submit [!DNL Workfront] requests from [!DNL Microsoft Teams]
 
-1. Click the **[!UICONTROL More added apps]** icon on the left navigation bar in Microsoft Teams.
-
-   ![](assets/ms-teams-more-added-apps-icon.png)
+1. Click the **[!UICONTROL More added apps]** (three-dot) icon on the left navigation bar in [!DNL Microsoft Teams].
 
 1. Click **[!DNL Workfront]** in the list that appears.
 1. Click the **[!UICONTROL Requests]** tab.
@@ -83,14 +81,10 @@ Your [!DNL Microsoft Teams] team owner must install [!DNL Workfront] for [!DNL M
 
 ## View [!DNL Workfront] requests you submitted in [!DNL Microsoft Teams]
 
-1. Click the **[!UICONTROL More added apps]** icon on the left navigation bar in Microsoft Teams.
-
-   ![](assets/ms-teams-more-added-apps-icon.png)
+1. Click the **[!UICONTROL More added apps]** (three-dot) icon on the left navigation bar in [!DNL Microsoft Teams].
 
 1. Click **[!DNL Workfront]** in the list that appears.
 1. Click the **[!UICONTROL Requests]** tab.
-
-   ![](assets/ms-teams-requests-page-with-count-350x198.png)
 
    Requests you submitted are listed in the [!UICONTROL My submitted requests] area of the [!UICONTROL Requests] tab. You cannot configure the information displayed in this tab about the requests you submitted.
 
