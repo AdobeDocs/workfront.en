@@ -50,14 +50,14 @@ Differences from the resource scheduling tool when scheduling resources for proj
 * Issues are displayed by default on the team Working On calendar.  
   When scheduling resources for projects, issues are not displayed by default.
 
-For more information about using the updated team Working On calendar, see [Resource Scheduling](../../../../resource-mgmt/resource-scheduling/resource-scheduling-overview.md).
+For more information about using the updated team Working On calendar, see "Resource Scheduling".
 
 ## Resource Scheduling Enhancements
 
 The scheduling timeline includes the following enhancements:
 
-* [Use the Filter to Control Which Users Are Displayed on the Scheduling Timeline](#use-the-filter-to-control-which-users-are-displayed-on-the-scheduling-timeline) 
-* [Users Remain on the Timeline after Being Assigned a Task](#users-remain-on-the-timeline-after-being-assigned-a-task)
+* "Use the Filter to Control Which Users Are Displayed on the Scheduling Timeline"
+* "Users Remain on the Timeline after Being Assigned a Task"
 
 ### Use the Filter to Control Which Users Are Displayed on the Scheduling Timeline {#use-the-filter-to-control-which-users-are-displayed-on-the-scheduling-timeline}
 
@@ -69,7 +69,7 @@ The filter can now be used to control which users are displayed on the schedulin
 
 Prior to this change, the filter controlled only which tasks and issues were displayed in the Unassigned area. Users were displayed in the scheduling timeline only if the user matched the role assignment of a task in the Unassigned area.
 
-For more information about using the filter to control what is displayed on the scheduling timeline, see&nbsp; [Filter information in the Scheduling area](../../../../resource-mgmt/resource-scheduling/filter-scheduling-area.md), and&nbsp; [Manually assign unassigned tasks and issues in the Scheduling areas](../../../../resource-mgmt/resource-scheduling/manually-assign-items-scheduling-areas.md#automatically-assigning-unassigned-tasks-and-issues) in [Manually assign unassigned tasks and issues in the Scheduling areas](../../../../resource-mgmt/resource-scheduling/manually-assign-items-scheduling-areas.md).
+For more information about using the filter to control what is displayed on the scheduling timeline, see "Filter information in the Scheduling area", and "Manually assign unassigned tasks and issues in the Scheduling areas".
 
 ### Users Remain on the Timeline after Being Assigned a Task {#users-remain-on-the-timeline-after-being-assigned-a-task}
 
@@ -77,7 +77,7 @@ Users remain on the scheduling timeline after they are assigned a task or issue,
 
 Prior to this change, users would disappear from the scheduling timeline immediately after being assigned a task or issue if there were no remaining tasks or issue in the Unassigned area with a matching role assignment.
 
-For more information, see&nbsp; [Manually assign unassigned tasks and issues in the Scheduling areas](../../../../resource-mgmt/resource-scheduling/manually-assign-items-scheduling-areas.md#automatically-assigning-unassigned-tasks-and-issues) in [Manually assign unassigned tasks and issues in the Scheduling areas](../../../../resource-mgmt/resource-scheduling/manually-assign-items-scheduling-areas.md).
+For more information, see "Manually assign unassigned tasks and issues in the Scheduling areas".
 
 ## Customize Workfront Terminology by Changing Object Names
 

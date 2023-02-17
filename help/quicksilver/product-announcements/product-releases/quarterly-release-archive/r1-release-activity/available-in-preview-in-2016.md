@@ -19,17 +19,17 @@ The following features were made available in the Preview environment in 2016. T
 
 Now you can see all tasks on projects for which you are the Resource Manager, enabling you to be more informed when making scheduling decisions.
 
-For general information about the tools available for scheduling resources, see [Get started with Resource Scheduling](../../../../resource-mgmt/resource-scheduling/get-started-resource-scheduling.md)
+For general information about the tools available for scheduling resources, see "Get started with Resource Scheduling".
 
-To adjust the information that is displayed on the scheduling timeline, create a filter, as described in [Filter information in the Scheduling area](../../../../resource-mgmt/resource-scheduling/filter-scheduling-area.md)
+To adjust the information that is displayed on the scheduling timeline, create a filter, as described in "Filter information in the Scheduling area".
 
-In addition to viewing tasks on the projects you are responsible for, you can use the scheduling timeline to make changes to resourcing assignments. For information about how to manage user assignments on the scheduling timeline, see [Manually assign unassigned tasks and issues in the Scheduling areas](../../../../resource-mgmt/resource-scheduling/manually-assign-items-scheduling-areas.md)
+In addition to viewing tasks on the projects you are responsible for, you can use the scheduling timeline to make changes to resourcing assignments. For information about how to manage user assignments on the scheduling timeline, see "Manually assign unassigned tasks and issues in the Scheduling areas".
 
 ## Manage User Allocations on the Scheduling Timeline
 
 Now when scheduling resources with the new resource scheduling tools, you can determine how the&nbsp;planned hours for a task or issue are allocated to users. You can divide hours across days in the task duration and among assigned users.
 
-For more information, see [Manage user allocations in the Scheduling areas](../../../../resource-mgmt/resource-scheduling/manage-allocations-scheduling-areas.md)
+For more information, see "Manage user allocations in the Scheduling areas".
 
 ## User Allocations Are Disabled by Default
 
@@ -37,7 +37,8 @@ User allocation shading&nbsp;on the scheduling timeline when scheduling resource
 
 Previously, allocation shading was displayed by default and could not be disabled.
 
-For more information about how to enable user allocation options, see [Manage user allocations in the Scheduling areas](../../../../resource-mgmt/resource-scheduling/manage-allocations-scheduling-areas.md) in&nbsp; [Manage user allocations in the Scheduling areas](../../../../resource-mgmt/resource-scheduling/manage-allocations-scheduling-areas.md)
+For more information about how to enable user allocation options, see 
+"Manage user allocations in the Scheduling areas".
 
 ## Layout Template Determines Whether the New or&nbsp;Legacy Calendar Displays in the My Work Area
 

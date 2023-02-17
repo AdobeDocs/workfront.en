@@ -16,7 +16,7 @@ We continue to make improvements to the way you use Workfront Goals based on the
 
 * Updated the experience of printing a list of goals with a more intuitive Print link in the Goal List section.
 
-  For information about printing goals, see [Print the Goal List in Adobe Workfront Goals](../../../workfront-goals/goal-management/print-the-goal-list.md).
+  For information about printing goals, see "Print the Goal List in Adobe Workfront Goals".
 
   >[!NOTE]
   >
