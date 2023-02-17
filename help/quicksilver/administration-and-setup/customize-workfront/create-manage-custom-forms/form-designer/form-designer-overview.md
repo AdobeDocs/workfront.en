@@ -26,12 +26,35 @@ With the new form designer, we've added the ability to
 
 * **Use a Default section**: In case the user has not added a section at the top of the form,a Default section is visible, so that users can adjust the permissions for fields that have no custom section assigned. Default section is not visible within objects once the form is attached to the object.  
 
+* **Updated layout**: Add new/existing fields 
+
+Form canvas 
+
+Field settings 
+
+All 3 sections are visible together at all times
+
 ## Functionality coming soon
 
+Below functionalities are not available right now in the form designer and will be added shortly. The existing configurations for logic and typeahead filters will not be affected when you work with the new form designer.  
+
+* Display/Skip logic  
+
+* Filter for typeahead fields 
 
 ## Functionlity removed from the form designer
 
+We've removed the following functionality from the form designer:
 
+* Form Settings, Form Sharing, Field Sharing tabs  
+
+    * Form settings are now available at the top of the canvas. 
+
+    * Form Sharing main tab and Field Sharing subtab available in Add Field tab of the legacy builder are not available in the new form designer.  
+
+    * You can control the form and field sharing from the forms/fields list toolbar.  
+
+* Track field changes in update feeds – available in Setup > Interface > Update Feeds 
 
 
 <!--
