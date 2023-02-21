@@ -57,8 +57,6 @@ Before you can access your favorites and recent items from [!DNL Slack], you mus
    >
    >The user who is sharing the link must have at least [!UICONTROL View] permissions to the project in order for you to see additional information about it.
 
-   ![slack_project_details.png](assets/slack-project-details-350x199.png)
-
 1. (Optional) Click the name of the project to open it in [!DNL Workfront] in a new browser tab. 
 1. Consider reviewing the following additional information about the project: 
 

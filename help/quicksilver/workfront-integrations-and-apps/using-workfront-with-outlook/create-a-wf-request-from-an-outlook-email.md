@@ -50,14 +50,10 @@ To create a [!DNL Workfront] Request from [!DNL Outlook]:
 1. Click the **[!DNL Workfront]** icon in the upper-right corner of the email message to display the Workfront add-in.\
    You might need to click the down-pointing arrow in the upper right of your email to access the [!DNL Workfront] icon.
 
-1. Click the **[!UICONTROL Menu]** icon to display the list of available [!DNL Workfront] options.
-
-   ![o365_addin_menu2_icon.png](assets/o365-addin-menu2-icon.png)
+1. Click the **[!UICONTROL Menu]** icon ![o365_addin_menu2_icon.png](assets/o365-addin-menu2-icon.png) to display the list of available [!DNL Workfront] options.
 
 1. Click **[!UICONTROL Submit Request]**.
 1. In the **[!UICONTROL Select a Request Type]** field, select the request queue where you want to submit the request.
-
-   ![o365_addin_submitrequest.png](assets/o365-addin-submitrequest.png)
 
 1. Specify the following information:\
    Depending on how the request queue was set up, available fields might vary. For a complete list and description of possible fields, see [Create and submit [!DNL Adobe Workfront] requests](../../manage-work/requests/create-requests/create-submit-requests.md) article.
@@ -73,4 +69,3 @@ To create a [!DNL Workfront] Request from [!DNL Outlook]:
 
 1. (Optional) Navigate back to [!DNL Outlook], and select the original email.\
    At the top of the [!DNL Workfront] add-in panel, notice the confirmation with a link that the email was added to Workfront as a request. The link includes the date on which it was converted.\
-   ![outlook_submitted_as_a_request.png](assets/outlook-submitted-as-a-request-350x130.png)

@@ -64,7 +64,6 @@ You must have the following access to use the functionality described in this ar
    Click **[!UICONTROL New]** to add a new layout. 
 
 1. (Optional) Drag the **[!UICONTROL Section]** component to the layout and drop it in the desired position.\
-   ![salesforce_new_section_properties.png](assets/salesforce-new-section-properties-350x210.png)
 
 1. (Optional) Specify a name for the new section.
 
@@ -77,15 +76,13 @@ You must have the following access to use the functionality described in this ar
 1. Click **[!UICONTROL OK]**.
 1. In the **[!UICONTROL Layout]** area, click **[!UICONTROL Visualforce Pages].**
 
-1. Drag and drop the **[!UICONTROL WorfrontOpportunities]** component to the new section in the **[!UICONTROL Opportunities]** Layout.
+1. Drag and drop the **[!UICONTROL WorkfrontOpportunities]** component to the new section in the **[!UICONTROL Opportunities]** Layout.
 
    Or
 
    Drag and drop the **[!UICONTROL WorkfrontAccounts]** component to the new section in the  **[!UICONTROL Account]** Layout.\
-   ![[!DNL WorkfrontAccounts_component].png](assets/workfrontaccounts-component-350x139.png)
 
 1. Click the **[!UICONTROL Properties]** icon in the upper right of the newly added component.\
-   ![](assets/salesforce-visualforce-page-properties-350x174.png)
 
 1. To achieve an optimal display, specify the following properties for the [!DNL Workfront Visualforce] page:
 
@@ -99,8 +96,6 @@ You must have the following access to use the functionality described in this ar
    All users who have this layout assigned to them are now able to see the [!DNL Workfront] section on their [!UICONTROL Opportunities] or [!UICONTROL Accounts] objects.
 
    Users see a [!DNL Workfront] login screen on the [!DNL Workfront] section. If they do not have a [!DNL Workfront] account, they can collapse the section, but not remove it from their layout. 
-
-   ![[!DNL salesforce_classic_opportunity_with_workfront_panel].png](assets/salesforce-classic-opportunity-with-workfront-panel-350x161.png)
 
 ## Configure the [!DNL Workfront] section in the [!DNL Salesforce Lightning Experience] framework
 
@@ -139,15 +134,12 @@ You can add the [!DNL Workfront] section to the layout of a [!DNL Salesforce] [!
 1. Go to an **[!UICONTROL Opportunity]** or **[!UICONTROL Account]**.
 
 1. Click the **[!UICONTROL Setup]** icon, then click **[!UICONTROL Edit Page]**.\
-   ![salesforce_lightning_opportunity_edit_area.png](assets/salesforce-lightning-opportunity-edit-area-350x116.png)
 
 1. Expand the **[!UICONTROL Custom-Managed]** section.
 1. Drag and drop the **[!DNL Workfront]** component on your [!UICONTROL Opportunity] or Account
  page.
 
    We recommend using the full width of the page for the [!DNL Workfront] section instead of one of the columns of the layout.
-
-   ![[!DNL salesforce_lightning_builder].png](assets/salesforce-lightning-builder-350x229.png)
 
 1. Click **[!UICONTROL Save]**.
 
@@ -157,4 +149,3 @@ You can add the [!DNL Workfront] section to the layout of a [!DNL Salesforce] [!
    >
    >Users see a [!DNL Workfront] login screen on the [!DNL Workfront] section. If they do not have a [!DNL Workfront] account, they can collapse the section, but not remove it from their layout. Users can log in using the authentication method you have enabled: Enhanced Authentication or your Security Assertion Markup Language (SAML) URL.
 
-   ![[!DNL salesforce_lightning__workfront_panel].png](assets/salesforce-lightning--workfront-panel-350x127.png)

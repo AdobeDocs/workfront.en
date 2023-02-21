@@ -9,7 +9,7 @@ exl-id: 71d83723-daea-4b7b-8e5b-cfcf414611fe
 ---
 # Search for and share [!DNL Adobe Workfront] items in [!DNL Microsoft Teams]
 
-You can search for [!DNL Workfront] items in any [!DNL Adobe WorkfrontWorkfront] channel in [!DNL Microsoft Teams] and share these items with members of your teams. 
+You can search for [!DNL Workfront] items in any [!DNL Adobe Workfront] channel in [!DNL Microsoft Teams] and share these items with members of your teams. 
 
 * [Prerequisites for sharing [!DNL Workfront] items in [!DNL Microsoft Teams]](#prerequisites-for-sharing-workfront-items-in-microsoft-teams-prerequisites-for-sharing-workfront-items-in-microsoft-teams)
 * [Search for and share [!DNL Workfront] items in [!DNL Microsoft Teams]](#search-for-and-share-adobe-workfront-items-in-microsoft-teams)
@@ -88,5 +88,5 @@ To search for a [!DNL Workfront] item from [!DNL Microsoft Teams] and share it w
    This sends the message including the [!DNL Workfront] item to your channel.\
    All members of the channel can see this message, including the information on the [!DNL Workfront] card.
 
-1. Click **[!UICONTROL View in Workfront]** to view the item in Workfront.\
-   Only users who have a [!DNL Workfront] license can view an item in Workfront. 
+1. Click **[!UICONTROL View in Workfront]** to view the item in [!DNL Workfront].\
+   Only users who have a [!DNL Workfront] license can view an item in [!DNL Workfront]. 

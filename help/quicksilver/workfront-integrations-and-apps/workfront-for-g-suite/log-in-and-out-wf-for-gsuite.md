@@ -63,8 +63,6 @@ Before you can log in or out of [!DNL Workfront for G Suite], you must
 1. If the [!UICONTROL Workfront for G Suite] panel is not displayed, click the [!DNL Workfront] icon ![](assets/wf-lion-icon.png) in the [!DNL G Suite] add-ons sidebar at the far-right of the page.
 1. Click the **[!UICONTROL More actions]** icon at the top of the [!DNL Workfront for G Suite] panel.
 
-   ![](assets/more-actions-icon.png)
-
 1. Click **[!UICONTROL Logout]** in the menu that appears.
 
    This does not log you out of [!DNL G Suite].
