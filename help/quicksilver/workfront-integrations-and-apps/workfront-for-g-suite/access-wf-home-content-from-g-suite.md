@@ -50,11 +50,7 @@ Before you can access [!UICONTROL Home] content from [!DNL G Suite], you must
 1. If the [!UICONTROL Workfront for G Suite] panel is not displayed, click the [!DNL Workfront] icon ![](assets/wf-lion-icon.png) in the [!DNL G Suite] add-ons sidebar at the far-right of the page.
 1. If you see a left arrow at the top of [!DNL Workfront] for [!DNL G Suite], click the arrow to go to the [!UICONTROL Home] area.
 
-   ![](assets/left-arrow-to-home.png)
-
 1. In the **[!UICONTROL Sort by]** area, click the expand arrow ![](assets/dropdown-arrow.png), then click an option to specify how you want to group your work items so you can find the one you want.
-
-   ![](assets/sort-by-area.png)
 
    When you sort by **[!UICONTROL Commit date]** or **[!UICONTROL Planned completion]** date, the oldest work items are at the top.
 

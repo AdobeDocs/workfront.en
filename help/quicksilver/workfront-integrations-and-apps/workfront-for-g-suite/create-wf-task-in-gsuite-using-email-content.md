@@ -53,8 +53,6 @@ Before you can create a [!DNL Workfront] task in [!DNL G Suite], you must
 1. If the [!UICONTROL Workfront for G Suite] panel is not displayed, click the [!DNL Workfront] icon ![](assets/wf-lion-icon.png) in the [!DNL G Suite] add-ons sidebar at the far-right of the page.
 1. With the email message open in [!DNL G Suite], click an option in [!DNL Workfront for G Suite] to convert the email to a new [!DNL Workfront] task.
 
-   ![](assets/convert-email-task-issue-update.png)
-
 1. Select a **[!UICONTROL Create new]** option to indicate whether the task is going to be part of a project or a personal task that is independent of a project.
 1. If you want to attach the task to a parent project, click **[!UICONTROL Project name]**, start typing the name of the project where you want the task, then click the project name when it appears in the list below.
 1. Make any of these changes:
@@ -101,8 +99,6 @@ Before you can create a [!DNL Workfront] task in [!DNL G Suite], you must
    At the bottom of the **[!UICONTROL Details]** tab, you can also click **[!UICONTROL View in [!DNL Workfront]]** to go to the new task in Workfront.
 
    When you refresh your browser, a message with a link at the bottom of the [!DNL Workfront for G Suite] panel confirms that you have converted the email to an task:
-
-   ![](assets/email-was-converted.png)
 
    You can click the link to go to the Details view, within the [!DNL Workfront for G Suite] panel, for the task you've created.
 
