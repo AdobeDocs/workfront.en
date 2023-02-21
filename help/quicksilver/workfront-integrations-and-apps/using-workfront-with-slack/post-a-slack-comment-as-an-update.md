@@ -39,9 +39,7 @@ Before you can post a [!DNL Slack] comment as an update, you must
 
 ## Post a [!DNL Slack] comment as an update in [!DNL Workfront]
 
-1. Hover over a comment you added in a [!DNL Slack] channel, then click the **[!UICONTROL More actions]** icon.
-
-   ![](assets/slack-more-icon.png)
+1. Hover over a comment you added in a [!DNL Slack] channel, then click the **[!UICONTROL More actions]** (three-dot) icon.
 
 1. Click **[!UICONTROL Post an update] ... `<the name of your Workfront app>`**. 
 
@@ -50,8 +48,6 @@ Before you can post a [!DNL Slack] comment as an update, you must
    >You may need to click **[!UICONTROL More message shortcuts]** and scroll down to locate the **[!UICONTROL Post an update]** option.
    >
    >
-   >![](assets/slack-more-message-shortcuts.png)
-
 1. In the **[!UICONTROL Project, task or issue]** box, start typing the name of a project, task, or issue where you want to add the update then click the name of the project, task, or issue when it appears on the list. You must have access to view an object before it appears in the list. 
 1. (Optional) In the **[!UICONTROL Include another user]** box, start typing the name of a user you can view that you want to include in your update, then click it when it appears on the list. 
 1. Click **[!UICONTROL Submit]**.
@@ -60,6 +56,6 @@ Before you can post a [!DNL Slack] comment as an update, you must
 
 1. (Optional) Click the name of the project, task, or issue where you posted the update to access it in [!DNL Workfront].
 
-   There is an indication in [!DNL Workfront] that the update originated in [!DNL Slack]. 
+   When a comment originated in [!DNL Slack], the comment displays the message "[!UICONTROL Posted from [!DNL Slack]]" in [!DNL Workfront].
 
    ![](assets/slack-update-posted-from-slack-350x112.png)

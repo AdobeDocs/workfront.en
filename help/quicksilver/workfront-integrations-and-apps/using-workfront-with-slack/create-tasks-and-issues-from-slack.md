@@ -56,8 +56,7 @@ Before you can create tasks and issues from [!DNL Slack], you must
    >
    >Commands are case sensitive. You can start your command with `/wf` instead of `/workfront`.
    >  
-   >The Task Name must be entered as it will appear in the [!DNL Workfront] interface, without brackets or quotation marks.\
-   >![add_task_to_project.png](assets/add-task-to-project-350x63.png)
+   >The Task Name must be entered as it will appear in the [!DNL Workfront] interface, without brackets or quotation marks.                               
 
 1. (Optional) Start typing the name of a project with which you want to associate the new task and select it when it appears in the list.\
    You receive a confirmation indicating that the task was added to the selected project.
@@ -75,8 +74,7 @@ Before you can create tasks and issues from [!DNL Slack], you must
    >[!NOTE]
    >
    >Commands are case sensitive. You can start your command with '/wf' instead of '/workfront.' \
-   >The Issue Name must be entered as it will appear in the [!DNL Workfront] interface, without brackets or quotation marks.\
-   >![slack_add_issue_to_project.png](assets/slack-add-issue-to-project-350x88.png)
+   >The Issue Name must be entered as it will appear in the [!DNL Workfront] interface, without brackets or quotation marks.
 
 1. (Optional) Start typing the name of a project with which you want to associate the new issue and select it when it appears in the list.\
    You receive a confirmation indicating that the issue was added to the selected project. 

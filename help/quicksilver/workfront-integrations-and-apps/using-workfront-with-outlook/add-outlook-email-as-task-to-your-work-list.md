@@ -42,11 +42,10 @@ Your [!DNL Workfront] administrator must enable [!DNL Outlook for Office] with [
 1. Click the **[!DNL Workfront]** icon in the upper-right corner of the email message to display the [!DNL Workfront] add-in.\
    You might need to click the down-pointing arrow in the upper right of your email to access the [!DNL Workfront] icon.
 
-1. Click the **[!UICONTROL Menu]** icon to display the list of available [!DNL Workfront] options.\
-   ![o365_addin_menu_icon.png](assets/o365-addin-menu-icon.png)
+1. Click the **[!UICONTROL Menu]** ![o365_addin_menu_icon.png](assets/o365-addin-menu2-icon.png) icon to display the list of available [!DNL Workfront] options.\
+   
 
 1. Click **[!UICONTROL Add to Work]**.\
-   ![outlook_add_to_work_menu.png](assets/outlook-add-to-work-menu-242x337.png)
 
 1. Deselect the **[!UICONTROL Add to Project]** field. 
 1. (Optional) You can update the following information from the email before it is saved as a task:
@@ -62,4 +61,3 @@ Your [!DNL Workfront] administrator must enable [!DNL Outlook for Office] with [
 
 1. (Optional) Navigate back to [!DNL Outlook], and select the original email.\
    At the top of the [!DNL Workfront] add-in panel, notice the confirmation with a link that the email was added to Workfront as a task. The link includes the date on which it was converted.\
-   ![outlook_standalone_task_added.png](assets/outlook-standalone-task-added-350x123.png)

@@ -97,8 +97,6 @@ Before you can create an issue from [!DNL G Suite], you must
 
    When you refresh your browser, a message with a link at the bottom of the [!UICONTROL Workfront for G Suite] panel confirms that you have converted the email to an issue:
 
-   ![](assets/email-was-converted.png)
-
    You can click the link to go to the Details view, within the [!DNL Workfront for G Suite] panel, for the issue you've created.
 
    You can repeat these steps to convert the same email to multiple issues. When you refresh your browser or return to the email at another time, all links you have created for the email are listed at the bottom of the [!UICONTROL Workfront for G Suite] panel.

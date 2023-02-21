@@ -54,9 +54,8 @@ Before you can search for [!DNL Workfront] items from [!DNL Slack], you must
 
    >[!NOTE]
    >
-   >Commands are case sensitive. The keyword is not case sensitive and it must be entered without brackets or quotation marks.\
-   >![slack_search_result_select_object_box.png](assets/slack-search-result-select-object-box-350x30.png)   >
-
+   >Commands are case sensitive. The keyword is not case sensitive and it must be entered without brackets or quotation marks.
+   
 1. In the field that appears, select an object type from the following:
 
    * Project
