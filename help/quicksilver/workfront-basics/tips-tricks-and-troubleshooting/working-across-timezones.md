@@ -86,10 +86,7 @@ You can help users working more easily across several time zones in several ways
 
    For instructions on assigning a schedule to a project or a user, see [Create a schedule](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
 
-   For information about how the time zone configured in your schedule affects the distribution of [!UICONTROL Planned Hours] in the [!UICONTROL Scheduling] tools and in the [!DNL Workload Balancer], see the following:
-
-   * [Manage user allocations in the [!UICONTROL Scheduling] areas](../../resource-mgmt/resource-scheduling/manage-allocations-scheduling-areas.md)
-   * [Manage user allocations in the [!DNL Workload Balancer]](../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md)
+   For information about how the time zone configured in your schedule affects the distribution of [!UICONTROL Planned Hours] in the [!DNL Workload Balancer], see [Manage user allocations in the [!DNL Workload Balancer]](../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
 
 
 ### Use calculated time fields in a custom form {#use-calculated-time-fields-in-a-custom-form}
