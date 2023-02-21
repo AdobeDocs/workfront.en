@@ -65,9 +65,7 @@ Consider the following when working with [!DNL Workfront] notifications from [!D
 
 To manage the [!DNL Workfront] notifications that you can receive in [!DNL Microsoft Teams]:
 
-1. Click the **[!UICONTROL More added]** apps icon on the left navigation bar in [!DNL Microsoft Teams].
-
-   ![](assets/ms-teams-more-added-apps-icon.png)
+1. Click the **[!UICONTROL More added]** (three-dot) apps icon on the left navigation bar in [!DNL Microsoft Teams].
 
 1. Click [!DNL Workfront] in the list that appears.
 1. Select the **[!UICONTROL Settings]** tab.

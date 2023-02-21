@@ -117,8 +117,6 @@ For more information about setting up the [!DNL Workfront] add-in for [!DNL Outl
 
 1. Search for **[!DNL Workfront]** in the **[!UICONTROL Search add-ins]** field, then press **[!UICONTROL Enter]**.
 
-   ![workfront_for_outlook_on_the_web.png](assets/workfront-for-outlook-on-the-web-350x116.png)
-
 1. When it appears on the list, click **Add**.
 
 ### [!DNL Workfront for Outlook] on [!UICONTROL Windows] or [!DNL Mac] {#workfront-for-outlook-on-windows-or-mac}
@@ -126,8 +124,6 @@ For more information about setting up the [!DNL Workfront] add-in for [!DNL Outl
 1. Click **[!UICONTROL Home]** > **[!UICONTROL Store]** on the ribbon.
 
 1. Search for **[!DNL Workfront]** in the **[!UICONTROL Search]** field, then press **[!UICONTROL Enter]**.
-
-   ![o365_addin_search.png](assets/o365-addin-search-350x158.png)
 
 1. Click the toggle to enable the **[!UICONTROL [!DNL Workfront] add-in]**.
 

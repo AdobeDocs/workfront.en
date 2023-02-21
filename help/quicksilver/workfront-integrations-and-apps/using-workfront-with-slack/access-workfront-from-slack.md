@@ -89,8 +89,6 @@ To log in to [!DNL Workfront] from [!DNL Slack]:
 
       Displays buttons from which you can access lists of your tasks, issues, and approvals. Clicking one of the buttons displays the first 20 items of each list in [!DNL Slack].
 
-      ![](assets/slack-home-buttons-350x80.png)
-
       For more information about managing [!DNL Workfront] work items from [!DNL Slack], see [Manage your work and approvals from [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/manage-your-work-and-approvals-from-slack.md).
 
    * `/wf add task <TaskName>`
@@ -196,8 +194,6 @@ For more information about accessing [!DNL Workfront] from a shared link, see [A
    Or
 
    `/wf settings`
-
-   ![](assets/slack-configuring-settings-350x302.png)
 
    All settings are enabled by default.
 

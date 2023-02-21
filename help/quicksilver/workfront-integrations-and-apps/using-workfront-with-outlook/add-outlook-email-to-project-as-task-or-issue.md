@@ -43,13 +43,11 @@ Your [!DNL Workfront] administrator must enable [!DNL Outlook for Office] with [
 
    You might need to click the down-pointing arrow in the upper right of your email to access the [!DNL Workfront] icon.
 
-1. Click the **[!UICONTROL Menu]** icon to display the list of available [!DNL Workfront] options.
+1. Click the **[!UICONTROL Menu]** icon ![o365_addin_menu_icon.png](assets/o365-addin-menu2-icon.png) to display the list of available [!DNL Workfront] options.
 
-   ![o365_addin_menu_icon.png](assets/o365-addin-menu-icon.png)
+   
 
 1. Click **[!UICONTROL Add to Work]**.
-
-   ![outlook___add_to_work.png](assets/outlook---add-to-work-302x413.png)
 
 1. Select the **[!UICONTROL Add to Project]** field.
 1. Start typing the name of a project in the **[!UICONTROL Project]** field, then select it when it appears in the list. 
@@ -89,4 +87,3 @@ Your [!DNL Workfront] administrator must enable [!DNL Outlook for Office] with [
 
    At the top of the [!DNL Workfront] add-in panel, notice the confirmation with a link that the email was added to [!DNL Workfront] as a task or an issue. The link includes the date on which it was converted.
 
-   ![outlook_this_email_was_added_as_an_issue.png](assets/outlook-this-email-was-added-as-an-issue-350x126.png)

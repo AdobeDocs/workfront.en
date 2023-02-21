@@ -135,8 +135,6 @@ To configure triggers for automatically creating items in [!DNL Jira]:
 
    The **[!UICONTROL Triggers]** tab is selected by default.
 
-   ![Triggers_tab_Jira_WF.png](assets/new-triggers-tab-jira-wf-1373x754.png)
-
 1. Click **[!UICONTROL Add trigger]** to add a new trigger.
 1. In the **[!UICONTROL Workfront team/user/role]** field, specify the name of a [!DNL Workfront] team, user, or job role, then click to select it when it displays in the list. 
 
@@ -172,8 +170,6 @@ To define what fields should automatically synchronize on items linked between t
 1. Click **[!UICONTROL Configure]**.
 1. Log in to [!DNL Workfront] as a Workfront administrator.
 1. Click the **[!UICONTROL Setup]** tab.
-
-   ![](assets/new-jira-newsetuptab-1205x1145.png)
 
 1. In the **[!UICONTROL Synchronize from Jira to Workfront]** section, select the fields that you want to update in [!DNL Jira] when they are updated in Workfront. 
 
@@ -297,7 +293,7 @@ To define what fields should automatically synchronize on items linked between t
            <li>When you select <strong>[!UICONTROL Always]</strong> you enable the integration to create a new Workfront user every time a [!DNL Jira] user without a [!DNL Workfront] account performs the following actions on a linked [!DNL Jira] issue:
             <ul>
              <li>Is assigned to a [!DNL Jira] issue</li>
-             <li><p>Logs time to a [!DNL Jira] issue</p><p>This new user does not occupy a [!DNL Workfront] license. The default setting is Always. The user created this way in [!DNL Workfront] has "[!UICONTROL Jira]" added to their name.</p><p><img src="assets/jira-wf-indication-of-user-created-by-jira-350x66.png" style="width: 350;height: 66;"></p></li>
+             <li><p>Logs time to a [!DNL Jira] issue</p><p>This new user does not occupy a [!DNL Workfront] license. The default setting is Always. The user created this way in [!DNL Workfront] has "[!UICONTROL Jira]" added to their name.</p></li>
             </ul></li>
            <li>When you select <strong>[!UICONTROL Never]</strong>, the following things happen:
             <ul>
