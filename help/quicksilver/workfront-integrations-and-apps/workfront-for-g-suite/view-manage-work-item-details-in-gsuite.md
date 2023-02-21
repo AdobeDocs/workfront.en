@@ -51,7 +51,6 @@ Before you can view and manage work item details in [!DNL G Suite], you must
 
    When you select a task or issue, the **[!UICONTROL Details]** tab is open. The area above the **[!UICONTROL Details]** tab displays the name of the parent object, the name of the task or issue, and the [!UICONTROL Due date] (if it's a task) or [!UICONTROL Priority date] (if it's an issue).
 
-   ![](assets/details-tab.png)
 
    You can do various tasks on this tab without leaving [!DNL G Suite], including the following:
 
