@@ -177,7 +177,13 @@ After you have created an ad hoc card, you can convert it to a connected card. F
 
 1. Click **[!UICONTROL Close]** to return to the board.
 
+<div class="preview">
+
 ## Log hours on a connected card
+
+>[!NOTE]
+>
+>This feature is available only through the early feature opt-in for Workfront Boards.
 
 You must have the correct permissions to log hours on the connected task or issue.
 
@@ -192,3 +198,5 @@ The time logging fields are not displayed on connected cards by default. You mus
    The time logged on the card is also saved on the connected task or issue.
 
 Logging time on the card is the same as logging time on a task or issue. For more information, see "Log time on a project, task, or issue" in the article [Log time](/help/quicksilver/timesheets/create-and-manage-timesheets/log-time.md).
+
+</div>
