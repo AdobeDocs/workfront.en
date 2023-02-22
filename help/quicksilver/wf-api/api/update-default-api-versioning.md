@@ -78,7 +78,7 @@ For example, the following Workfront API request does not specify an API version
 
 When this request is made, you receive a response with JSON encoded text that specifies data from your Workfront instance. Because no API version is specified in this URI, the call goes to Default. 
 
-To turn a Default API request into a versioned API request, simply call a supported API version. For example, the following URI requests Version 9:
+To turn a Default API request into a versioned API request, simply call a supported API version. For example, the following URI requests Version 15:
 
 `https://davidwhite.my.workfront.com/attask/api/`**v15.0**`/project/metadata`
 
