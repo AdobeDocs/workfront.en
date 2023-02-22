@@ -49,7 +49,7 @@ For example, if you need to track sensitive information that only system adminis
 
 The access settings you select for a section are directly tied to the permissions users have on the Workfront object where the custom form is attached. You can hide or show a section based on whether the user has access to view, contribute to, or manage that object. Or you can set a section to Admin Only so that only users with a system administrator access level can access it.
 
-For information about permissions on objects, see [Overview of sharing permissions on objects](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
+For information about permissions on objects, see [Overview of sharing permissions on objects](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
 For information about custom fields and widgets in custom forms, see [Design a form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
@@ -99,7 +99,7 @@ For information about custom fields and widgets in custom forms, see [Design a f
           <li><b>Admin only</b>: System Administrator access level</li> 
          </ul> </li> 
        </ul> 
-       <p>For information about permissions on objects, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md" class="MCXref xref">Overview of sharing permissions on objects</a>.</p> 
+       <p>For information about permissions on objects, see <a href="/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md" class="MCXref xref">Overview of sharing permissions on objects</a>.</p> 
        <p><b>NOTE</b>:  
        <ul> 
        <li> <p>Users without the permissions you specify here can't see the custom fields and widgets in the section. </p> <p>This is also true if you display the fields' values in reports or use them in calculated fields in text mode reporting.</p> </li> 

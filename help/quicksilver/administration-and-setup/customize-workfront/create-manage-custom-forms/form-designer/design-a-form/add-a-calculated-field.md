@@ -225,7 +225,7 @@ To reuse an existing calcualted custom field:
          >
          >`IF($$OBJCODE="PROJ",{owner}.{name},{assignedTo}.{name})`
 
-         For more information about variables like `$$OBJCODE,` see [Wildcard filter variables](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
+         For more information about variables like `$$OBJCODE,` see [Wildcard filter variables](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
 
          **Automatic updates of calculated custom fields**
 
@@ -252,7 +252,7 @@ To reuse an existing calcualted custom field:
       >
       >You can do any of the following to get help with your calculation:
       > 
-      >* Hover over an expression in your calculation to see a description, an example showing how it can be used, and a "Learn More" link to more information in the article [Calculated data expressions](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+      >* Hover over an expression in your calculation to see a description, an example showing how it can be used, and a "Learn More" link to more information in the article [Calculated data expressions](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
       >  ![](assets/hover-expression-help-text.jpg)
       >* Use the color coding to identify the components you have added. Expressions display in blue and fields display in green.
       >  ![](assets/colors-fields-expressions.jpg)
