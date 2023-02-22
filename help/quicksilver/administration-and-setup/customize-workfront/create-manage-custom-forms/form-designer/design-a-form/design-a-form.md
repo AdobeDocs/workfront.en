@@ -103,7 +103,7 @@ You can use new or existing fields when designing your custom form.
 
     Click **Save and Close**. 
 
- ### Add text fields
+### Add text fields
 
  You can add several different text fields to a custom form. 
 
@@ -211,13 +211,13 @@ To add a text field:
 
     Click **Save and Close**. 
 
- ### Add calculated fields
+### Add calculated fields
 
  In a custom form, you can add a calculated custom field that uses existing data to generate new data when the custom form is attached to an object. 
 
 To add a calcuated field, see [Add calculated fields with the form designer](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
 
- ### Add radio buttons, checkboxes, and dropdowns
+### Add radio buttons, checkboxes, and dropdowns
 
  You can add radio buttons, checkboxes, and dropdowns to a custom form. 
 
@@ -341,7 +341,7 @@ To add radio buttons and checkboxes:
     </tbody> 
     </table>
 
- ### Add typeahead and date fields
+### Add typeahead and date fields
 
  You can add typeahead and date fields to a custom form. 
 
@@ -446,7 +446,7 @@ To add typeahead date fields:
 
     Click **Save and Close**. 
 
- ### Add images, PDFs, and Videos
+### Add images, PDFs, and Videos
 
  You can add an images, PDFs, and Videos to a custom form. Users who work with the object the custom form is attached to can see the image, PDF, or video only in the following areas:
 
@@ -537,7 +537,7 @@ The Workfront Mobile app -->
 
     Click **Save and Close**. 
 
- ### Add Adobe XD files
+### Add Adobe XD files
 
  You can add an Adobe XD prototype directly to a custom form. Users who work with the object the custom form is attached to can see the Adobe XD file only in the following areas:
 
@@ -590,6 +590,6 @@ The Workfront Mobile app -->
 
     Click **Save and Close**. 
 
- ## Organize and preview a form with the form designer
+## Organize and preview a form with the form designer
 
  For information on how to organize and see a preview of your form, see [Organize and preview a form with the form designer](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md). 
