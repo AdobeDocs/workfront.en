@@ -339,12 +339,21 @@ For information about the maintenance updates made during the 23.2 release, see 
 
 Explore the latest updates made to learning programs, learning paths, videos, and guides for each Adobe Workfront product release. For more information, see the [Training release updates page](https://one.workfront.com/s/training-release-updates).
 
-<!-- ### Functionality soon to be removed from Workfront
+### Functionality soon to be removed from Workfront
 
 The following functionality is soon to be removed from Workfront:
 
+#### **Changes to the Workfront Default API**
 
--->
+To ensure that API calls can take advantage of the most up-to-date Workfront API functionality, we're updating the Default API. When an API call does not specify a version of the API, the call is made to the Default API. 
+
+Now, the Default API will reflect the most recent version of the API. Moving forward, we will update the Default API each time a new API version is released, so that calls to the Default API will always use the most recent version of the API.
+
+Previously, the Default API used Workfront API version 2.0, which has been deprecated.
+
+If your organization is currently using the deprecated Default API, your Workfront administrator has received an Announcement Center message with further instructions regarding the Default API. 
+
+For more information, see [Update integrations that use default API versioning](/help/quicksilver/wf-api/api/update-default-api-versioning.md).
 
 
 <!--
