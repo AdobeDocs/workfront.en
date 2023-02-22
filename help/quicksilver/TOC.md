@@ -468,7 +468,7 @@ feature-set: Workfront
       * [Custom forms overview](administration-and-setup/customize-workfront/create-manage-custom-forms/custom-forms-overview.md)
       * Legacy custom form builder {#custom-form-builder}
         * Use the custom form builder {#custom-form-builder}
-          [Use the legacy custom form builder](administration-and-setup/customize-workfront/create-manage-custom-forms/use-the-custom-form-builder.md)
+          * [Use the legacy custom form builder](administration-and-setup/customize-workfront/create-manage-custom-forms/use-the-custom-form-builder.md)
           * [Create or edit a custom form](administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)
           * [Copy a custom form to create a new one](administration-and-setup/customize-workfront/create-manage-custom-forms/copy-custom-form-to-create-a-new-one.md)
           * [Add a custom field](administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md)

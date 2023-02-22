@@ -7,7 +7,6 @@ description: You can design a custom form with the form designer.
 author: Courtney
 feature: System Setup and Administration
 role: Admin
-exl-id: 5712e82d-bd1d-4d8a-9a2a-1e19b562b9d1
 ---
 
 # Design a form with the form designer
