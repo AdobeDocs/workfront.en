@@ -7,12 +7,15 @@ author: John
 feature: Workfront API
 exl-id: 2971749d-1d34-42a4-9eda-411aa8c3a2ab
 ---
-# Specify an API Version in your integrations
+# Specify an API version in your integrations
 
 {{#highlighted-preview}}
 
 All Adobe Workfront URIs are required to reference a specific version of the API after the "attask/api" portion of the URI. The following example calls Version 15.0:
-`attask/api/v15.0/<objectName>/<objectId>` Please ensure all your integrations call currently-supported Workfront APIs.
+
+`attask/api/v15.0/<objectName>/<objectId>`
+
+ Please ensure all your integrations call currently-supported Workfront APIs.
 
 ## Release and Deprecation Schedule of Workfront APIs
 
@@ -22,21 +25,18 @@ For more information on the release cadence and deprecation schedule of Workfron
 
 >[!IMPORTANT]
 >
->After the 23.2 release, the default version of the API will be set to the most recent version. Any API call without the version specified will use the default version. Each time Workfront releases a new version of the API, the default version will be updated to the latest version. Therefore, after a new version of the Workfront API is released, any API calls that use the default version should be checked to make sure that the functionality is still supported.
+>* After the 23.2 release, the default version of the API will be set to the most recent version. Any API call without the version specified will use the default version. Each time Workfront releases a new version of the API, the default version will be updated to the latest version. Therefore, after a new version of the Workfront API is released, any API calls that use the default version should be checked to make sure that the functionality is still supported.
 >
->To see the most recent version of the API,  see [API versioning and support schedule](../../wf-api/api/api-version-support-schedule.md). 
-
->[!NOTE]
->
->* If your organization is currently using the deprecated Default API, your Workfront administrator has received an Annoucement Center message with further instructions regarding the Default API. 
+>* If your organization is currently using the deprecated Default API, your Workfront administrator has received an Announcement Center message with further instructions regarding the Default API. 
 >
 >* <span class="preview">The Default API in the Preview environment is set to the most recent version. The Default API in the Production environment will be set to the most recent version after the 23.2 release (April 2023)</span>.
 >
->    To see the most recent version of the API,  see [API versioning and support schedule](../../wf-api/api/api-version-support-schedule.md). 
+>To see the most recent version of the API,  see [API versioning and support schedule](../../wf-api/api/api-version-support-schedule.md). 
+
 
 ## Determining the API Version You Are Using
 
-You can determine the version of the API you are using by checking the URI of an HTTP request sent to the Workfront API. The following example shows a Workfront request URI that specifies Version 7 of the API:
+You can determine the version of the API you are using by checking the URI of an HTTP request sent to the Workfront API. The following example shows a Workfront request URI that specifies Version 15 of the API:
 
 `https://<domainname>.my.workfront.com/attask/api/v15.0/proj/4c7c08b20000002de5ca1ebc19edf2d5` 
 
