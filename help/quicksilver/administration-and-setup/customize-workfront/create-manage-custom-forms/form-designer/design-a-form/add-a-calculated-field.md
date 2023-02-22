@@ -9,8 +9,9 @@ feature: System Setup and Administration
 role: Admin
 ---
 
-
 # Add calculated fields with the form designer
+
+{{highlighted-preview-article-level}}
 
 You can add a calculated custom field that uses existing data to generate new data when the custom form is attached to an object. 
 
