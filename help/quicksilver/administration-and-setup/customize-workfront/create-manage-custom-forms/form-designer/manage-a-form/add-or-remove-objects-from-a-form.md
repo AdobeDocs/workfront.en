@@ -1,17 +1,19 @@
 ---
-title: Add or delete object types from an existing custom form with the Form Designer
+title: Add or delete object types from an existing custom form with the form designer
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
-description: You can add or remove object types from custom forms with the Form Designer. 
+description: You can add or remove object types from custom forms with the form designer. 
 author: Courtney
 feature: System Setup and Administration
 role: Admin
 ---
 
-# Add or delete object types from an existing custom form with the Form Designer
+# Add or delete object types from an existing custom form with the form designer
 
-You can add or delete object types from an existing custom form with the Form Designer. 
+{{highlighted-preview-article-level}}
+
+You can add or delete object types from an existing custom form with the form designer. 
 
 ## Access requirements
 

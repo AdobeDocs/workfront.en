@@ -9,11 +9,13 @@ feature: System Setup and Administration
 role: Admin
 ---
 
-# Organize and preview a form with the Form Designer
+# Organize and preview a form with the form designer
 
- You can organize a custom form with the Form Designer.
+{{highlighted-preview-article-level}}
 
- ## Access requirements
+ You can organize a custom form with the form designer.
+
+## Access requirements
 
 You must have the following to perform the steps in this article:
 
@@ -39,7 +41,7 @@ You must have the following to perform the steps in this article:
  </tbody> 
 </table>
 
- ## Add a section break
+## Add a section break
 
 You can group the custom fields and widgets in a custom form into sections with headings. This is useful for presenting an organized experience to users who will fill out the form. Also, if you need to limit access to certain custom fields and widgets to certain users, you can place them in a section and then grant access to the section to only those users.
 
@@ -132,7 +134,7 @@ In a custom form with a section break configured with the Limited Edit permissio
 >An on-screen message prompts you to switch to the Edit permission, which is the most similar option to Limited Edit, and compatible with both the Project object type and the Portfolio object type.
 
 
- ## Position custom fields and widgets in a custom form
+## Position custom fields and widgets in a custom form
 
  
 1. Begin creating or editing a custom form, as described in [Design a form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).

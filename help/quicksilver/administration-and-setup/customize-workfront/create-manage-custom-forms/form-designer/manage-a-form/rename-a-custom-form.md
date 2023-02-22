@@ -1,17 +1,19 @@
 ---
-title: Rename a custom form with the Form Designer
+title: Rename a custom form with the form designer
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
-description: You can rename existing custom forms with the Form Designer.
+description: You can rename existing custom forms with the form designer.
 author: Courtney
 feature: System Setup and Administration
 role: Admin
 ---
 
-# Rename a custom form with the Form Designer 
+# Rename a custom form with the form designer 
 
-You can rename a custom form any time after it has been created with the Form Designer.
+{{highlighted-preview-article-level}}
+
+You can rename a custom form any time after it has been created with the form designer.
 
 ## Access requirements
 
@@ -41,7 +43,7 @@ You must have the following to perform the steps in this article:
 
 &#42;To find out what plan, license type, or access level configurations you have, contact your Workfront administrator.
 
-## Rename a custom form with the Form Designer 
+## Rename a custom form with the form designer 
 
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
 

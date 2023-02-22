@@ -1,15 +1,17 @@
 ---
-title: Design a form from a copy with the Form Designer
+title: Design a form from a copy with the form designer
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
-description: You can design a custom form from a copy with the Form Designer.
+description: You can design a custom form from a copy with the form designer.
 author: Courtney
 feature: System Setup and Administration
 role: Admin
 ---
 
-# Design a form from a copy with the Form Designer
+# Design a form from a copy with the form designer
+
+{{highlighted-preview-article-level}}
 
 You can design a new custom form that is based on an existing one. You can attach custom forms to different Workfront objects to capture data about those objects.
 
