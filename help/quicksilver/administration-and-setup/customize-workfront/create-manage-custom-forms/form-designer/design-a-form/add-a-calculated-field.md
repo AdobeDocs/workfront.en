@@ -33,7 +33,6 @@ A calculated custom field can contain:
   >
   >In the steps below, you can see how this example can be carried out.
 
-For information about creating custom forms for your organization and understanding the type of fields you can associate with them, see [Create or edit a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 
 ## Access requirements
 
@@ -78,7 +77,7 @@ You can also have a different calculation for the same field, on the new form. K
 
 To reuse an existing calcualted custom field:
 
-1. Begin creating or editing a custom form, as described in [Create or edit a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).  
+1. Begin creating or editing a custom form, as described in [Design a form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md). 
 
 1. On the top-left side of the screen, click **Field library**.
 
@@ -118,9 +117,9 @@ To reuse an existing calcualted custom field:
       <td role="rowheader" id="instructions">Instructions</td> 
       <td> By default, the formula you create for the field is stored here. You can add text to provide additional information about the field and the formula in it. This can be useful in two ways: 
        <ul> 
-        <li> <p>As a reminder of what the formula is and how it works. This is especially helpful if you plan to use this calculated custom field on multiple forms.</p> </li> 
-        <li> <p>As a tooltip users can see when they hover over the field. You add any text here that you want them to see in the tooltip.</p> <p>If you don't want them to see the formula in the tooltip, which might be confusing for them, you can hide it. For instructions, see the table row "Display formula in instructions" in the section <a href="#build-the-calculation-for-your-calculated-custom-field" class="MCXref xref">Build the calculation for your calculated custom field</a> in this article.</p> </li> 
-       </ul> <p>For information about using the same calculated custom field on a new form, see <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/use-existing-calc-field-new-custom-form.md#using-an-existing-calculated-custom-field-on-a-new-form" class="MCXref xref">Reuse an existing calculated custom field in a custom form</a>.</p> </td> 
+      <li><p>As a reminder of what the formula is and how it works. This is especially helpful if you plan to use this calculated custom field on multiple forms.</p> </li> 
+      <li> <p>As a tooltip users can see when they hover over the field. You add any text here that you want them to see in the tooltip.</p> <p>If you don't want them to see the formula in the tooltip, which might be confusing for them, you can hide it.</li> 
+       </ul> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Format</td> 
@@ -279,7 +278,7 @@ To reuse an existing calcualted custom field:
     <tbody> 
      <tr> 
       <td role="rowheader">Add Logic</td> 
-      <td>You can add Display Logic to determine whether the calculated field displays, based on at least one choice that a user makes in a preceding multiple choice field (Dropdown, Checkboxes, or Radio Buttons) when filling out the form. For more information, see <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/display-or-skip-logic-custom-form.md" class="MCXref xref">Add display logic and skip logic to a custom form</a>. <p>This is available only when at least one checkbox, radio button, or a dropdown field precedes the calculated custom field on the form. </p> <p>Skip Logic is unavailable for calculated custom fields.</p> </td> 
+      <td>You can add Display Logic to determine whether the calculated field displays, based on at least one choice that a user makes in a preceding multiple choice field (Dropdown, Checkboxes, or Radio Buttons) when filling out the form. <!-- For more information, see <a href="Need to add link for new article when it's written" class="MCXref xref">Add display logic and skip logic to a custom form</a>.--> <p>This is available only when at least one checkbox, radio button, or a dropdown field precedes the calculated custom field on the form. </p> <p>Skip Logic is unavailable for calculated custom fields.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Update previous calculations</td> 
