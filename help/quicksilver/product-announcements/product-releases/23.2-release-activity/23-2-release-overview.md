@@ -44,7 +44,7 @@ For tips on preparing for the upcoming release, see [Prepare for an Adobe Workfr
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-6.md" class="MCXref xref" xrefformat="{para}">Rename pins in layout template</span></a><span style="color: #ff0000;"> New in Preview!</span>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-6.md" class="MCXref xref" xrefformat="{para}">Rename pins in layout template</span></a>
                         <p>You can now rename pins in a layout template to be more meaningful to your users, instead of using the default name for the pinned page. Pins that administrators create are displayed for all users assigned to the layout template, and users can't rename those pins.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
@@ -77,9 +77,26 @@ For tips on preparing for the upcoming release, see [Prepare for an Adobe Workfr
                         </p>
                     </td>
                 </tr>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-20.md" class="MCXref xref" xrefformat="{para}">Log hours on connected cards on a board</a><span style="color: #ff0000;"> New in Preview!</span></p>
+                        <p>You can now log hours on connected cards, the same way you would on a task or issue. You must have the correct permissions to the task or issue to log the time.</p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                        <ul>
+                            <li>
+                                <p>Preview release: February 23, 2023<br /></p>
+                            </li>
+                            <li>
+                                 <p>Production release for early opt-in: March 2, 2023 <span style="color: #ff0000;"> This feature is available in Production on this date only through the early feature opt-in for Workfront Boards.</span></p>
+                                <p>Production release for all customers: With the 23.2 release</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
               <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-13.md" class="MCXref xref" xrefformat="{para}">Customize display of fields on a card</a><span style="color: #ff0000;"> New in Preview!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-13.md" class="MCXref xref" xrefformat="{para}">Customize display of fields on a card</a></p>
                         <p>Customization is now available to configure which fields are displayed on a card, both in the the full view when the card is open, and in the condensed card view on the board. When you disable a field is is not displayed in either view. You can also enable a field in the full view and hide it from the condensed view.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
@@ -96,7 +113,7 @@ For tips on preparing for the upcoming release, see [Prepare for an Adobe Workfr
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-13.md" class="MCXref xref" xrefformat="{para}">Define a default status for cards moved into a board column</a><span style="color: #ff0000;"> New in Preview!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-13.md" class="MCXref xref" xrefformat="{para}">Define a default status for cards moved into a board column</a></p>
                         <p>You can now set a default status to apply to cards moved into a specific column, by selecting a custom status and a system status in the column policies. When you move a card into the column, Workfront first tries to apply the custom status (for example, Awaiting Feedback). If the custom status is not available for that card, Workfront will apply the system status instead (for example, On Hold). Also, if the status on the connected task or issue is changed to the custom or system status set in the column policy, the card is automatically moved to the column.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
@@ -113,7 +130,7 @@ For tips on preparing for the upcoming release, see [Prepare for an Adobe Workfr
                 </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-13.md" class="MCXref xref" xrefformat="{para}">Collections now available in Adobe Workfront Boards</a><span style="color: #ff0000;"> New in Preview!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-13.md" class="MCXref xref" xrefformat="{para}">Collections now available in Adobe Workfront Boards</a></p>
                         <p>You can now create collections on the boards dashboard. A collection is a group of boards for collaborating on work. Once you have named the collection, you can add boards to the collection using a set of templates that offer predefined settings such as column names.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
@@ -184,7 +201,7 @@ For tips on preparing for the upcoming release, see [Prepare for an Adobe Workfr
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-13.md" class="MCXref xref" xrefformat="{para}">Copy Budgeted Hours when copying a project</a><span style="color: #ff0000;"> New in Preview!</span>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-13.md" class="MCXref xref" xrefformat="{para}">Copy Budgeted Hours when copying a project</a>
                         <p>Now, you have the option to copy the hours budgeted in the Resource Budgeting area of the Business Case or the Resource Planner when you copy a project. Prior to this enhancement, the hours budgeted for the project were not transferred to the copied project.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
@@ -219,7 +236,7 @@ For tips on preparing for the upcoming release, see [Prepare for an Adobe Workfr
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-13.md" class="MCXref xref" xrefformat="{para}">Introducing the Work Time field to accurately calculate user capacity</a><span style="color: #ff0000;"> New in Preview!</span>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-13.md" class="MCXref xref" xrefformat="{para}">Introducing the Work Time field to accurately calculate user capacity</a>
                         <p>To allow resource managers to accurately calculate the availability of their users and account for the time users devote to actual, project-related work, we are introducing the Work Time concept to Adobe Workfront.</p>
                         <p>You can define the value of the Work Time field for every user, when you create or edit their profile.</p>
                     </td>
@@ -322,6 +339,12 @@ For information about the maintenance updates made during the 23.2 release, see 
 
 Explore the latest updates made to learning programs, learning paths, videos, and guides for each Adobe Workfront product release. For more information, see the [Training release updates page](https://one.workfront.com/s/training-release-updates).
 
+<!-- ### Functionality soon to be removed from Workfront
+
+The following functionality is soon to be removed from Workfront:
+
+
+-->
 
 
 <!--
@@ -341,7 +364,7 @@ Explore the latest updates made to learning programs, learning paths, videos, an
                 </tr>
                 <tr>
                     <td>
-                        <a href="ADD LINK" class="MCXref xref" xrefformat="{para}">Title</a><span style="color: #ff0000;"> Coming soon!</span></p>
+                        <a href="ADD LINK" class="MCXref xref" xrefformat="{para}">Title</a><span style="color: #ff0000;"> New in Preview!</span></p>
                         <p>Body</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>

@@ -16,7 +16,7 @@ For a list of all changes available with the 23.2 release, see [23.2 Release ove
 
 >[!NOTE]
 >
->Preview release: February 9, 2023; Planned Production release: February 23, 2023
+>Preview release: February 9, 2023; Planned Production release: March 2, 2023
 
 Additional user information now displays when you add users in the following areas:
 
