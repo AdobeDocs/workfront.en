@@ -94,7 +94,7 @@ To reuse an existing calcualted custom field:
 
 ## Add a calculated field
 
- >[!IMPORTANT]
+>[!IMPORTANT]
 >
 >Before you create a new calculated custom field, identify the existing fields that you want to include so that you are sure that the data necessary for the calculation is present in Workfront.
 
