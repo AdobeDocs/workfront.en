@@ -11,7 +11,7 @@ exl-id: b072704c-a34c-4a17-aca3-ab93a016dfc8
 
  
 
-Adobe Workfront releases new API versions on a biannual basis, every six to eight months. API versions are supported for 3 years after release. API versions older than 3 years are no longer supported.
+Adobe Workfront regularly releases new API versions, usually twice a year. API versions are supported for 3 years after release. API versions older than 3 years are no longer supported.
 
 The following table shows the release and support schedule for the Workfront API. 
 
