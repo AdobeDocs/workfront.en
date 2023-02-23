@@ -19,7 +19,7 @@ All Adobe Workfront URIs are required to reference a specific version of the API
 
 ## Release and Deprecation Schedule of Workfront APIs
 
-New versions of the API are released on a biannual basis--every six to eight months. Each version is supported for three years after its release date, with an additional year in a deprecated state where the version is available but not supported.
+New versions of the API are released regularly, usually twice a year. Each version is supported for three years after its release date, with an additional year in a deprecated state where the version is available but not supported.
 
 For more information on the release cadence and deprecation schedule of Workfront APIs, see [API versioning and support schedule](../../wf-api/api/api-version-support-schedule.md).
 
@@ -27,7 +27,7 @@ For more information on the release cadence and deprecation schedule of Workfron
 >
 >* After the 23.2 release, the default version of the API will be set to the most recent version. Any API call without the version specified will use the default version. Each time Workfront releases a new version of the API, the default version will be updated to the latest version. Therefore, after a new version of the Workfront API is released, any API calls that use the default version should be checked to make sure that the functionality is still supported.
 >
->* If your organization is currently using the deprecated Default API, your Workfront administrator has received an Announcement Center message with further instructions regarding the Default API. 
+>* If your organization is currently using the Default API, your Workfront administrator has received an Announcement Center message with further instructions regarding the Default API. 
 >
 >* <span class="preview">The Default API in the Preview environment is set to the most recent version. The Default API in the Production environment will be set to the most recent version after the 23.2 release (April 2023)</span>.
 >

@@ -15,11 +15,11 @@ exl-id: ac394b41-63cb-481a-a858-30d8d7f840bb
 
 We release new versions of the Adobe Workfront API on a biannual basis. Each version is supported for three years after its release, with an additional year in a deprecated state where the version is available but not supported.
 
-Integrations that do not specify a version of the API in the URI are automatically routed to Default, which has been deprecated. In order for your Workfront integrations to be valid, you must specify a supported API version in your Workfront API requests.
+Integrations that do not specify a version of the API in the URI are automatically routed to Default. If you want your API call to use a specific version of the API, you must specify that version in your Workfront API requests.
 
 >[!NOTE]
 >
->If your organization is currently using the deprecated Default API, your Workfront administrator has received an Announcement Center message with further instructions regarding the Default API.
+>If your organization is currently using the Default API, your Workfront administrator has received an Announcement Center message with further instructions regarding the Default API.
 
 
 <!--
@@ -27,16 +27,6 @@ Integrations that do not specify a version of the API in the URI are automatical
 -->
 
 To learn about specifying a version in your API requests, see [Specify an API Version in your integrations](../../wf-api/api/specify-api-version-integrations.md).
-
-## Understanding the Default Version of the API
-
-The original intent of the "default API", or Default, was to map it to the latest version of the Workfront API. This would allow customers with basic integrations that called Default to never have to update their API requests. 
-
-In 2011, Workfront released Version 3.0 of the API. Default was automatically moved to Version 3.0, which broke many customer integrations that were too complex to utilize Version 3.0 without being updated. As a result, Workfront rolled back this change and left the default version at Version 2.
-
-Since 2011, Workfront has substantially increased API functionality. Because of this, we have deprecated older versions of our API. In 2017, rather than update Default, we removed the concept of a default version entirely. This was to encourage our customers to use stable versions of our APIs and to maintain their integrations on a cycle of, at most, three years.  
-
-Workfront is now reinstating the Default API version. The Default API is set to the most recent version of the Workfront API, and will be updated to the most recent version each time a new version is released.
 
 ## Considerations when using the Default API
 
@@ -81,4 +71,14 @@ To turn a Default API request into a versioned API request, simply call a suppor
 When updating your Workfront API requests, you can specify any supported version of our API. To learn more about referencing a specific API, see [Specify an API Version in your integrations](../../wf-api/api/specify-api-version-integrations.md).
 
 To ensure the maximum support window, you should call the latest version. You can find a list of supported APIs in [API versioning and support schedule](../../wf-api/api/api-version-support-schedule.md).
+
+## History of the Default Version of the API
+
+The original intent of the "default API", or Default, was to map it to the latest version of the Workfront API. This would allow customers with basic integrations that called Default to never have to update their API requests. 
+
+In 2011, Workfront released Version 3.0 of the API. Default was automatically moved to Version 3.0, which broke many customer integrations that were too complex to utilize Version 3.0 without being updated. As a result, Workfront rolled back this change and left the default version at Version 2.
+
+Since 2011, Workfront has substantially increased API functionality. Because of this, we have deprecated older versions of our API. In 2017, rather than update Default, we removed the concept of a default version entirely. This was to encourage our customers to use stable versions of our APIs and to maintain their integrations on a cycle of, at most, three years.  
+
+Workfront is now reinstating the Default API version. The Default API is set to the most recent version of the Workfront API, and will be updated to the most recent version each time a new version is released.
 
