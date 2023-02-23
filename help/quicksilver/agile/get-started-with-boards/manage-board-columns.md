@@ -9,8 +9,6 @@ exl-id: a736cdfe-5ddc-4bf4-82a1-a78d16c0d70b
 ---
 # Manage board columns
 
-{{highlighted-preview}}
-
 A new board contains three columns by default. You can add more columns, change the order of the columns, rename columns, and delete any columns that you don't need.
 
 Column settings include policies, which allow you to define options for what happens to a card when it is moved into that column.
@@ -115,13 +113,17 @@ If you are using the WIP limit on a column, a separate card counter is not added
       The status translation options for connected cards are also displayed. (Status translation does not apply to ad hoc cards.) These options determine the status applied to the task or issue in [!DNL Workfront] when a connected card is moved to this column.
 
    1. To change the default status translation selections, click the **[!UICONTROL Edit]** icon ![Edit icon](assets/edit-icon-spectrum.png).
-   1. <span class="preview">In the Preview environment: Select a [!UICONTROL **Custom**] status and a [!UICONTROL **System**] status to apply to the card, for both tasks and issues.</span>
+   1. If you are using the early feature opt-in: Select a [!UICONTROL **Custom**] status to apply to the card, for both tasks and issues.
 
-      <span class="preview">When a card is moved to this column, [!DNL Workfront] first tries to apply the custom status (for example, Resolved). If the custom status is not available for that card, Workfront will apply the system status instead (for example, Closed).</span>
+      When a card is moved to this column, [!DNL Workfront] first tries to apply the custom status (for example, Resolved). If the custom status is not available for that card, Workfront will apply the system status instead (for example, Closed). The system status is the status you selected in step b above.
 
-      <span class="preview">Also, if the status on the connected task or issue is changed to the custom or system status set in the column policy, the card is automatically moved to the column.</span>
+      Also, if the status on the connected task or issue is changed to the custom or system status set in the column policy, the card is automatically moved to the column.
 
-   1. In the Production envrionment: Select a status for tasks and a status for issues. Only the default [!DNL Workfront] statuses are available, not custom statuses.
+      >[!NOTE]
+      >
+      >Setting a default custom status for the column is available only via the early feature opt-in. For details, see [Early feature opt-in for Adobe Workfront Boards](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md).
+
+   1. If you are not using the early feature opt-in: Select a status for tasks and a status for issues. Only the default [!DNL Workfront] statuses are available, not custom statuses.
 
       >[!NOTE]
       >
