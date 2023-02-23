@@ -56,7 +56,6 @@ Before you can manage your work and approvals from [!DNL Slack], you must
    >* You can start your command with `/wf` instead of `/workfront`.
 
    The buttons from which you can access lists of your tasks, issues, and approvals display. Clicking one of the buttons displays the first 20 items of each list in [!DNL Slack].  
-   ![](assets/slack-home-buttons-350x80.png) 
 
 1. (Optional) Click **[!UICONTROL Tasks]** to display all your tasks.
 
@@ -88,7 +87,6 @@ Before you can manage your work and approvals from [!DNL Slack], you must
    >* You can start your command with `/wf` instead of `/workfront`.
 
    The first 20 tasks on your list display.  
-   ![](assets/slack-two-tasks-350x286.png)
 
 1. Click **[!UICONTROL +`<remaining number>` more]** to display additional tasks.
 1. Consider reviewing the following information about your work items:
@@ -132,7 +130,6 @@ Before you can manage your work and approvals from [!DNL Slack], you must
    >* You can start your command with `/wf` instead of `/workfront`.
 
    The first 20 issues in your list display.  
-   ![](assets/slack-two-issues-350x323.png)  
 
 1. Click **[!UICONTROL + remaining `<number>` more]** to display additional items.
 1. Consider reviewing the following information about your work items:
@@ -168,13 +165,7 @@ Before you can manage your work and approvals from [!DNL Slack], you must
    The first 20 items on your **[!UICONTROL Approvals]** list display. Additional information about the items also displays, like the name of the user who requested it or the name of the project the item belongs to. 
 
 1. Click **[!UICONTROL + remaining `<number>` more]** to display additional items.
-
-   ![slack_access_approvals_list.png](assets/slack-access-approvals-list-350x213.png)
-
-   ![](assets/slack-approve-a-document-350x362.png)
-   
-   ![](assets/slack-approve-task-notification-350x105.png)
-
+ 
 1. Consider managing approvals for the following objects: 
 
    * **Projects** 

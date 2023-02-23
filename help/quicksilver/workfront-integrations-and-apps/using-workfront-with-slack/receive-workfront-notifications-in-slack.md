@@ -60,8 +60,6 @@ Before you can receive [!DNL Workfront] notifications in [!DNL Slack], you must
 
    `/wf settings`
 
-   <img src="assets/slack-configuring-settings-350x302.png" style="width: 350;height: 302;">
-
 1. All notifications are enabled, by default.\
    Disable any of the following notifications: 
 
@@ -101,25 +99,15 @@ To manage your [!DNL Workfront] notifications for [!DNL Slack]:
 
    * Click **[!UICONTROL Work on it]** to accept to work on a task.
 
-      <!--   
-     <img src="assets/slack-assigned-to-a-task-notification-350x198.png" alt="slack_assigned_to_a_task_notification.png" style="width: 350;height: 198;" data-mc-conditions="QuicksilverOrClassic.Draft mode">   
-     -->
+   * (Conditional and optional) Click **[!UICONTROL Reply in [!DNL Workfront]]** to reply to a comment, type your reply, and click **[!UICONTROL Reply]**.
 
-   * (Conditional and optional) Click **[!UICONTROL Reply in [!DNL Workfront]]** to reply to a comment, type your reply, and click **[!UICONTROL Reply]**.\
+   * (Conditional and optional) Click **[!UICONTROL Approve]** or **[!UICONTROL Reject]** to approve or reject a task, issue, or project that are pending your approval.
 
-      ![slack_tagged_in_a_comment_notification.png](assets/slack-tagged-in-a-comment-notification.png)
+   * (Conditional and optional) Click **[!UICONTROL Approve]**, **[!UICONTROL Changes]**, or **[!UICONTROL Reject]**, to approve, approve with changes, or reject a document.
 
-   * (Conditional and optional) Click **[!UICONTROL Approve]** or **[!UICONTROL Reject]** to approve or reject a task, issue, or project that are pending your approval.\
-
-      ![slack_approve_task_notification.png](assets/slack-approve-task-notification-350x105.png)
-
-   * (Conditional and optional) Click **[!UICONTROL Approve]**, **[!UICONTROL Changes]**, or **[!UICONTROL Reject]**, to approve, approve with changes, or reject a document.\
-
-      ![slack_approve_a_document.png](assets/slack-approve-a-document-350x362.png)\
       You can also mouse over the thumbnail of the document and click the magnifying glass icon to view a larger preview of the document, before you approve it.\
       Only the approved Slack [file types](https://api.slack.com/types/file) can be previewed. 
 
    * (Conditional and optional) Click **[!UICONTROL Grant]** or **[!UICONTROL Ignore]** to grant or ignore the request for more access from another user.\
 
-      ![](assets/slack-access-approvals-list-350x213.png)\
       You receive a confirmation that your action has been completed in [!DNL Workfront], for every decision you make within your notifications.  

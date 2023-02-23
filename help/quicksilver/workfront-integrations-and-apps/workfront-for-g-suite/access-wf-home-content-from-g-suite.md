@@ -10,6 +10,10 @@ exl-id: da2ecaf1-5cfb-470e-90a1-fbb386db8670
 ---
 # Access [!DNL Adobe Workfront] [!UICONTROL Home] content from [!DNL G Suite]
 
+>[!NOTE]
+>
+>There is a [known issue](https://experienceleague.adobe.com/docs/workfront-known-issues/issues/new-workfront-experience/wf-current/wf-integrations-error-when-opening-wf-for-gsuite.html?lang=en) with the current version of [!DNL Workfront for G Suite] not working as expected. We are working on a new version and expect it to be released to the [!DNL Google Marketplace] in the near future. 
+
 You can access your [!DNL Adobe Workfront] [!UICONTROL Home] content, including all tasks, issues, approvals, and access requests assigned to you, without leaving G Suite.
 
 ## Access requirements
@@ -46,11 +50,7 @@ Before you can access [!UICONTROL Home] content from [!DNL G Suite], you must
 1. If the [!UICONTROL Workfront for G Suite] panel is not displayed, click the [!DNL Workfront] icon ![](assets/wf-lion-icon.png) in the [!DNL G Suite] add-ons sidebar at the far-right of the page.
 1. If you see a left arrow at the top of [!DNL Workfront] for [!DNL G Suite], click the arrow to go to the [!UICONTROL Home] area.
 
-   ![](assets/left-arrow-to-home.png)
-
 1. In the **[!UICONTROL Sort by]** area, click the expand arrow ![](assets/dropdown-arrow.png), then click an option to specify how you want to group your work items so you can find the one you want.
-
-   ![](assets/sort-by-area.png)
 
    When you sort by **[!UICONTROL Commit date]** or **[!UICONTROL Planned completion]** date, the oldest work items are at the top.
 

@@ -9,6 +9,8 @@ feature: Work Management
 
 # Copy and move template tasks
 
+<span class="preview">Copying and moving a template task is available in the Production environemnt. However, the steps outlined on this page refer to functionality only in the Preview environment. This functionality will be available in Production on March 2, 2023.</span> 
+
 You can copy a template task from a template to another template, or you can move it either to another template or to another place in the same template. 
 
 ## Access requirements
@@ -67,9 +69,9 @@ Consider the following when copying a template task:
     ![](assets/copy-template-task-box-unshimmed.png)
 1. (Optional) Rename the template task in the **Template Task Name** field.
 
-    >[!TIP]
+   >[!TIP]
    >
-   >This field is dimmed and not editable when selecting to copy multiple template tasks in a list. You can hover over the template Template Task Name field and a list of all selected template tasks displays.
+   >This field is dimmed and not editable when selecting to copy multiple template tasks in a list. You can hover over the Template Task Name field and a list of all selected template tasks displays.
 
 1. Start typing the name of the **Destination Template** where you want to copy the template task in the **Select Destination Template** field, then select it when it displays in the list. 
 
@@ -79,7 +81,7 @@ Consider the following when copying a template task:
    >
    >You can also start typing the Reference Number or enter the ID of the template. This might help you distinguish between templates with identical names. 
 
-1. (Conditional) Click **request access** to request access to the template, if you don't have access to the selected template.
+1. (Conditional) Click **request access** to request access to the destination template, if you don't have access to the selected template.
 1. (Conditional) Continue to copy the template task to the selected destination template without requesting access if you have access to add template tasks to one of the template tasks on the destination template.
 
 1. Click **Options** in the left panel, then deselect the template task attributes that you do not want to copy with the template task. All options are selected by default.
@@ -172,7 +174,7 @@ Consider the following when copying a template task:
 
    If you do not select a parent template task, the template tasks are copied as main template tasks rather than subtasks and they are placed at the end of the template task list on the destination template. 
 
-1. Click **Copy Template Task**
+1. Click **Copy Template Task**.
 
    The copied template tasks are now on the specified template and are either subtasks to the selected parent template task, or the last template tasks on the template.
 
@@ -193,7 +195,7 @@ In addition to copying template tasks, you can also move a template task either 
 
 1. (Optional) Rename the template task in the **Template Task Name** field.
 
-    >[!TIP]
+   >[!TIP]
    >
    >This field is dimmed and not editable when selecting to move multiple template tasks in a list. You can hover over the template task Name field and a list of all selected template tasks displays.
 
@@ -203,7 +205,7 @@ In addition to copying template tasks, you can also move a template task either 
    >
    >You can also start typing the Reference Number or enter the ID of the template. This might help you distinguish between templates with identical names. 
 
-1. (Conditional) Click **request access** to request access to the template, if you don't have access to the selected template.
+1. (Conditional) Click **request access** to request access to the template, if you don't have access to the destination template.
 1. (Conditional) Continue to move the template task to the selected destination template without requesting access if you have access to add template tasks to one of the template tasks on the destination template.
 
 1. Click **Options** in the left panel, then deselect the template task attributes that you do not want to copy with the template task. All options are selected by default.
@@ -307,7 +309,7 @@ In addition to copying template tasks, you can also move a template task either 
 
    If you do not select a parent template task, the template tasks are moved as main template tasks rather than subtasks and they are placed at the end of the template task list on the destination template. 
 
-1. Click **Move Template Task**
+1. Click **Move Template Task**. 
 
    The moved template tasks are now on the specified template and are either subtasks to the selected parent template task, or the last template tasks on the template.
 

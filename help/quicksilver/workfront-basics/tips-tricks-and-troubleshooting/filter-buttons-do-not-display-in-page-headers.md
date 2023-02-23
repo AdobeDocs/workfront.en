@@ -69,7 +69,7 @@ The filter buttons in the [!UICONTROL Projects and Timesheets] area do not displ
 
 >[!NOTE]
 >
->Sometimes the filters are removed from the [!UICONTROL List Controls] area in [!UICONTROL Setup]. The [!DNL Workfront] administrator must include them in the lists in this area for them to be available in the layout templates. For information, see [Edit list controls: filters, views, and groupings](../../administration-and-setup/manage-workfront/configure-reports/edit-list-controls-filters-views-groupings.md).
+>Sometimes the filters are removed from the [!UICONTROL List Controls] area in [!UICONTROL Setup]. The [!DNL Workfront] administrator must include them in the lists in this area for them to be available in the layout templates.
 
 1. Verify that the layout template displays the following filters:
 

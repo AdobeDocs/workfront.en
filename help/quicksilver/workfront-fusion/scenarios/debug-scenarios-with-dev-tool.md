@@ -47,7 +47,7 @@ For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Work
 
 To use the [!DNL Workfront Fusion] DevTool, you first need to install it.
 
-1. Click [this link](https://cdn.experience.workfront.com/Documentation/Workfront+Fusion/workfront-fusion-devtool.zip) to download the extension.
+1. Click [this link](assets/workfront-fusion-devtool-2023-feb.zip) to download the extension.
 1. When the files have downloaded, extract them to a folder of your choice.
 1. Open a tab in [!DNL Chrome]
 1. In the search bar of the tab, enter `chrome://extensions`.
