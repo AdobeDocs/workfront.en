@@ -33,8 +33,8 @@ The following example shows URI that calls API-Unsupported:
 https://<domainname>.my.workfront.com/attask/api/api-unsupported/proj/4c70...
 ```
 
-The following example shows a URI that calls Version 7.0 of the API: 
+The following example shows a URI that calls Version 15.0 of the API: 
 
 ```
-https://<domainname>.my.workfront.com/attask/api/v7.0/proj/4c70…
+https://<domainname>.my.workfront.com/attask/api/v15.0/proj/4c70…
 ```
