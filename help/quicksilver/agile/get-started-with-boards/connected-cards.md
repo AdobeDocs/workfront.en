@@ -187,7 +187,7 @@ After you have created an ad hoc card, you can convert it to a connected card. F
 
 You must have the correct permissions to log hours on the connected task or issue.
 
-The time logging fields are not displayed on connected cards by default. You must enable [!UICONTROL **Hours**] in the [!UICONTROL Configure] area under [!UICONTROL Cards]. For more information, see [Customize which fields are displayed on a card]( /help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md).
+The time logging fields are not displayed on connected cards by default. You must enable [!UICONTROL **Hours**] in the [!UICONTROL Configure] area under [!UICONTROL Cards]. For more information, see [Customize which fields are displayed on a card](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md).
 
 1. Enter the number of hours for the task or issue.
 1. Select an [!UICONTROL Hour Type] from the drop-down menu, if it is different than the default.
