@@ -11,7 +11,7 @@ exl-id: ac394b41-63cb-481a-a858-30d8d7f840bb
 
 <!-- This article is going to need a complete revamp or to be removed-->
 
-{{#highlighted-preview}}
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.</span>
 
 We release new versions of the Adobe Workfront API on a biannual basis. Each version is supported for three years after its release, with an additional year in a deprecated state where the version is available but not supported.
 

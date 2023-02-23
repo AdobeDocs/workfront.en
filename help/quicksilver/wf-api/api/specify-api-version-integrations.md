@@ -9,7 +9,7 @@ exl-id: 2971749d-1d34-42a4-9eda-411aa8c3a2ab
 ---
 # Specify an API version in your integrations
 
-{{#highlighted-preview}}
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.</span>
 
 All Adobe Workfront URIs are required to reference a specific version of the API after the "attask/api" portion of the URI. The following example calls Version 15.0:
 
