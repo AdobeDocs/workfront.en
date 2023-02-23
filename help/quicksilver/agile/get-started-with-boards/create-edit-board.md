@@ -9,11 +9,9 @@ exl-id: 5f755177-c8ea-4509-a34f-57ffcfd8ba7f
 ---
 # Create or edit a board
 
-{{highlighted-preview}}
-
 From the [!UICONTROL boards] dashboard, you can create a new board or edit an existing board.
 
-<span class="preview">To add a board to a collection, see [Manage collections](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md).</span>
+To add a board to a collection, see [Manage collections](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md).
 
 ## Access requirements
 
@@ -39,15 +37,13 @@ You must have the following access to perform the steps in this article:
 ## Create a new board
 
 1. Click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe Workfront], then click **[!UICONTROL Boards]**.
-1. To create a standalone board, click **[!UICONTROL Create New]** in the [!UICONTROL Boards] area. <span class="preview">To add a board to a collection, see [Manage collections](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md).</span>
+1. To create a standalone board, click **[!UICONTROL Create New]** in the [!UICONTROL Boards] area. To add a board to a collection, see [Manage collections](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md).
 
    >[!NOTE]
    >
    > Collections are available only through the early feature opt-in for [!DNL Workfront] [!UICONTROL Boards].
 
-1. <span class="preview">Select a template for the board.</span>
-
-   <div class="preview">
+1. Select a template for the board.
 
    | Template | Description |
    |---------|----------|
@@ -58,8 +54,6 @@ You must have the following access to perform the steps in this article:
    >[!NOTE]
    >
    > Board templates are available only through the early feature opt-in for [!DNL Workfront] [!UICONTROL Boards].
-
-   </div>
 
 1. Type a name for the board in the **[!UICONTROL Board]** field and press Enter.
 1. Configure the board as needed.

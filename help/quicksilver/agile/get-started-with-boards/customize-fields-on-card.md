@@ -9,11 +9,9 @@ feature: Agile
 
 # Customize which fields are displayed on a card
 
-{{highlighted-preview-article-level}}
-
 >[!NOTE]
 >
->This feature is available only through the early feature opt-in for Workfront Boards.
+>This feature is available only through the early feature opt-in for [!DNL Workfront] [!UICONTROL Boards]. For details, see [Early feature opt-in for Adobe Workfront Boards](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md).
 
 By default, all available fields are displayed on a card, both in the the full view when the card is open, and in the condensed card view on the board. You can customize which fields are displayed by:
 
@@ -56,7 +54,7 @@ You must have the following access to perform the steps in this article:
 1. Click [!UICONTROL **Configure**] on the right of the board to open the Configure panel.
 1. Expand [!UICONTROL **Cards**].
 
-   All of the fields are enabled by default.
+   Most fields are enabled by default.
 
 1. Turn off a field to disable it in both card views.
 1. Click the Hide icon ![Hide icon](assets/eye-hide-icon.png) next to a field to hide it on the condensed view.
