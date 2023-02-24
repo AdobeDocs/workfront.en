@@ -35,25 +35,10 @@ You can add the following types of custom fields to a custom form in Workfront:
 
 ## How to create a custom form
 
-There are two options to create a custom form in [!DNL Workfront]. You can use the Legacy custom form builder or the new form designer 
+There are two options to create a custom form in [!DNL Workfront]. You can use the Legacy custom form builder or the new form designer:
 
-### Legacy custom form builder
-
-* For more information, see [Add a custom field to a custom form with the legacy form builder](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md).
-
-* You can also add visual asset widgets to a custom form. This is useful when you need to include content such as branding images or visual instructions. For more information, see [Add or edit an asset widget in a custom form with the legacy form builder](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
-
-* For instructions on creating a custom form, see [Create or edit a custom form with the legacy form builder](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
-
-<div class="preview">
-
-### Form designer
-
-* articles
-* artilces
-* articles 
-
-</div>
+* [Legacy custom form builder](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/use-the-custom-form-builder.md)
+* [Form designer](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/form-designer-toc.md)
 
 ## Objects where users can attach a custom form
 

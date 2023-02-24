@@ -1,9 +1,9 @@
 ---
-title: Re-activate or deactivate a custom form with the form designer
+title: Reactivate or deactivate a custom form with the form designer
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
-description: You can re-activate or deactivate a custom form. We recommend deactivating custom forms rather than deleting forms you no longer use to retain historical data.
+description: You can reactivate or deactivate a custom form. We recommend deactivating custom forms rather than deleting forms you no longer use to retain historical data.
 author: Courtney
 feature: System Setup and Administration
 role: Admin
@@ -40,7 +40,7 @@ You must have the following to perform the steps in this article:
 
 ## Reactivate a custom form
 
-If you reactiveate a custom form, it retains the settings it had before and users can interact with it as if it was never deactivated.
+If you reactivate a custom form, it retains the settings it had before and users can interact with it as if it was never deactivated.
 
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
 

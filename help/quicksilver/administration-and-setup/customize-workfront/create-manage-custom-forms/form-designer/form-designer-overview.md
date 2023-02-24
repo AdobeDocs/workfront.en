@@ -1,5 +1,5 @@
 ---
-title: From designer overview
+title: Form designer overview
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
@@ -18,7 +18,7 @@ The new form designer has a new canvas-style workspace that allows you to view t
 
 <!-- add screenshot when field settings empty state is ready -->
 
-## New funtionality available with the form designer
+## New functionality available with the form designer
 
 With the new form designer, we've added the ability to 
 
@@ -34,7 +34,7 @@ With the new form designer, we've added the ability to
 
 ## Functionality coming soon
 
-The folloiwng are not currently available in the form designer but will be added soon:
+The following are not currently available in the form designer but will be added soon:
 
 * Display/Skip logic  
 
@@ -44,7 +44,7 @@ The folloiwng are not currently available in the form designer but will be added
 >
 >The existing configurations for logic and typeahead filters will not be affected when you work with the new form designer.
 
-## Functionlity removed from the form designer
+## Functionality removed from the form designer
 
 We've removed the following functionality from inside form designer. You can still access it in **Setup** > **Custom Forms**.
 
@@ -67,6 +67,6 @@ We've removed the following functionality from inside form designer. You can sti
 
 ## How to access the new form designer
 
-There is a new button at the top of both the new form designer and the legacy form builder. You can ues this button to switch between the legacy builder and the new designer.
+There is a new button at the top of both the new form designer and the legacy form builder. You can use this button to switch between the legacy builder and the new designer.
 
 <!-- screenshot if this button text is updated -->

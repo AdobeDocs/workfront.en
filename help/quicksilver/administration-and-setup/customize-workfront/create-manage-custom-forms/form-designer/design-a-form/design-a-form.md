@@ -215,7 +215,7 @@ To add a text field:
 
  In a custom form, you can add a calculated custom field that uses existing data to generate new data when the custom form is attached to an object. 
 
-To add a calcuated field, see [Add calculated fields with the form designer](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
+To add a calculated field, see [Add calculated fields with the form designer](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
 
 ### Add radio buttons, checkboxes, and dropdowns
 
