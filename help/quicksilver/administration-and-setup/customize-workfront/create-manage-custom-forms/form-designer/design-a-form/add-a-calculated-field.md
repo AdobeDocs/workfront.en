@@ -77,11 +77,22 @@ You can also have a different calculation for the same field, on the new form. K
 
 To reuse an existing calcualted custom field:
 
-1. Begin creating or editing a custom form, as described in [Design a form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md). 
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
+
+1. Click **Custom Forms** in the left panel.
+
+   <!-- >[!TIP]
+    >
+    >In the view that appears, you can review all custom forms and custom fields that have been created for your organization. You can also see who created each form and the fields that are associated with it. -->
+
+1. Click **New Custom Form.**
+1. Select which object types you'd like to attach the custom form to, then click **Continue**.
 
 1. On the top-left side of the screen, click **Field library**.
 
-1. Drag the field or widget here you want it in the custom form.
+   ![](assets/field-library.png)
+
+1. Find the **Calculated** section, then drag the field or widget here you want it in the custom form.
 1. (Optional) Repeat the previous step to add any other fields or widgets.
 
    >[!NOTE]
@@ -91,11 +102,28 @@ To reuse an existing calcualted custom field:
    >
    >Examples of complex forms include forms with cascading parameters, calculated custom data fields, and multiple value options in a single field.
 
-## Add a calculated field
+1. To save your changes, click **Apply** and move on to another section to continue building your form.
+
+    or
+
+    Click **Save and Close**. 
+
+## Add a new calculated field
 
 >[!IMPORTANT]
 >
 >Before you create a new calculated custom field, identify the existing fields that you want to include so that you are sure that the data necessary for the calculation is present in Workfront.
+
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
+
+1. Click **Custom Forms** in the left panel.
+
+   <!-- >[!TIP]
+    >
+    >In the view that appears, you can review all custom forms and custom fields that have been created for your organization. You can also see who created each form and the fields that are associated with it. -->
+
+1. Click **New Custom Form.**
+1. Select which object types you'd like to attach the custom form to, then click **Continue**.
 
 1. On the left side of the screen, find **Calculated** and drag it to a section on the canvas.
 
@@ -296,3 +324,5 @@ To reuse an existing calcualted custom field:
     or
 
     Click **Save and Close**. 
+
+    
