@@ -12,37 +12,37 @@ role: Admin
 
 {{highlighted-preview-article-level}}
 
-You can design a custom form that users can attach to a Workfront object. Users who work on the object can fill out the custom form to supply information about the object.
+You can use the new form designer to design a custom form that users can attach to a Workfront object. Users who work on the object can fill out the custom form to supply information about the object.
 
-For example, a user can attach the following custom form to a project so that users on the project can request marketing content for the project:
+The new form designer has a new canvas-style workspace that allows you to view the fields, canvas, and field settings all at the same time. It also allows you to drag-and-drop fields within the sections while designing your form. 
 
-![](assets/see-image-details-page.png)
+<!-- add screenshot when field settings empty state is ready -->
 
 ## New funtionality available with the form designer
 
 With the new form designer, we've added the ability to 
 
-* **Copy a field**: You can now copy existing fields by clicking on the copy icon on the fields from the canvas 
+* **Copy a field**: You can now copy existing fields by clicking on the Copy icon on the fields directly from the canvas. 
 
-* **Change the size for Descriptive text**: You can now assign small, medium or large size to Descriptive text fields and use them on the same row with other fields. 
+* **Change the size for Descriptive text**: You can now assign small, medium, or large sizes to Descriptive text fields. You can also use them on the same row with other fields. 
 
-* **Use a Default section**: In case the user has not added a section at the top of the form,a Default section is visible, so that users can adjust the permissions for fields that have no custom section assigned. Default section is not visible within objects once the form is attached to the object.  
+* **Use a Default section**: If the form creator has not added a section at the top of the form, a Default section is now visible in the canvas, so that users can adjust the permissions for fields that have no custom section assigned. 
 
-* **Updated layout**: Add new/existing fields 
-
-Form canvas 
-
-Field settings 
-
-All 3 sections are visible together at all times
+    >[!NOTE]
+    >
+    >Default section is not visible within objects once the form is attached to the object.  
 
 ## Functionality coming soon
 
-Below functionalities are not available right now in the form designer and will be added shortly. The existing configurations for logic and typeahead filters will not be affected when you work with the new form designer.  
+The folloiwng are not currently available in the form designer but will be added soon:
 
 * Display/Skip logic  
 
 * Filter for typeahead fields 
+
+>[!IMPORTANT]
+>
+>The existing configurations for logic and typeahead filters will not be affected when you work with the new form designer.
 
 ## Functionlity removed from the form designer
 
@@ -52,8 +52,14 @@ We've removed the following functionality from the form designer:
 
     * Form settings are now available at the top of the canvas. 
 
-    * Form Sharing main tab and Field Sharing subtab available in Add Field tab of the legacy builder are not available in the new form designer.  
+    * Form Sharing main tab and Field Sharing subtab available in Add Field tab of the legacy builder are not available in the new form designer.
 
     * You can control the form and field sharing from the forms/fields list toolbar.  
 
 * Track field changes in update feeds – available in Setup > Interface > Update Feeds 
+
+## How to access the new form designer
+
+There is a new button at the top of both the new form designer and the legacy form builder. You can ues this button to switch between the legacy builder and the new designer.
+
+<!-- screenshot if this button text is updated -->
