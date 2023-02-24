@@ -46,17 +46,24 @@ The folloiwng are not currently available in the form designer but will be added
 
 ## Functionlity removed from the form designer
 
-We've removed the following functionality from the form designer:
+We've removed the following functionality from inside form designer. You can still access it in **Setup** > **Custom Forms**.
+
 
 * Form Settings, Form Sharing, Field Sharing tabs  
 
-    * Form settings are now available at the top of the canvas. 
+    * Form settings are now available at the top of the canvas
 
-    * Form Sharing main tab and Field Sharing subtab available in Add Field tab of the legacy builder are not available in the new form designer.
+    * Form Sharing main tab and Field Sharing subtab
 
-    * You can control the form and field sharing from the forms/fields list toolbar.  
+    >[!NOTE]
+    >
+    >You can control the form and field sharing from Setup > Custom Forms > Forms or Fields tab.  
 
-* Track field changes in update feeds – available in Setup > Interface > Update Feeds 
+* Track field changes in update feeds
+    >[!NOTE]
+    >
+    >You can find this in Setup > Interface > Update Feeds 
+
 
 ## How to access the new form designer
 
