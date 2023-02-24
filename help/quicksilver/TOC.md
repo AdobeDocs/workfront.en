@@ -467,7 +467,7 @@ feature-set: Workfront
       * [Custom forms](administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md)
       * [Custom forms overview](administration-and-setup/customize-workfront/create-manage-custom-forms/custom-forms-overview.md)
       * Legacy custom form builder {#custom-form-builder}
-        * Use the custom form builder {#custom-form-builder}
+        * Use the custom form builder {#use-the-custom-form-builder}
           * [Use the legacy custom form builder](administration-and-setup/customize-workfront/create-manage-custom-forms/use-the-custom-form-builder.md)
           * [Create or edit a custom form](administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)
           * [Copy a custom form to create a new one](administration-and-setup/customize-workfront/create-manage-custom-forms/copy-custom-form-to-create-a-new-one.md)
@@ -481,7 +481,6 @@ feature-set: Workfront
           * [Sharing for custom fields and widgets](administration-and-setup/customize-workfront/create-manage-custom-forms/configure-sharing-for-a-custom-field.md)
           * [Reuse a custom field or widget](administration-and-setup/customize-workfront/create-manage-custom-forms/reuse-an-existing-field.md)
           * [Add display logic and skip logic](administration-and-setup/customize-workfront/create-manage-custom-forms/display-or-skip-logic-custom-form.md)
-          * [Share a custom form](administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md)
           * [Preview and complete a custom form](administration-and-setup/customize-workfront/create-manage-custom-forms/preview-and-complete-a-custom-form.md)
           * [Delete object types on a custom form](administration-and-setup/customize-workfront/create-manage-custom-forms/delete-object-type-on-a-custom-form.md)
       * Form designer {#form-designer}
@@ -498,7 +497,8 @@ feature-set: Workfront
           * [Add or delete object types from an existing custom form with the form designer](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/add-or-remove-objects-from-a-form.md)
           * [Rename a custom form with the form designer](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/rename-a-custom-form.md)
       * Manage custom forms {#manage-custom-forms}
-        * [Manage custom forms](administration-and-setup/customize-workfront/create-manage-custom-forms/manage-custom-forms-toc.md)
+        * [Manage custom forms and fields](administration-and-setup/customize-workfront/create-manage-custom-forms/manage-custom-forms-toc.md)
+        * [Share a custom form](administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md)
         * [Reactivate or deactivate a custom form](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/activate-deactivate-form.md)
         * [Reference custom forms in reports](administration-and-setup/customize-workfront/create-manage-custom-forms/reference-custom-forms-in-report.md)
         * [View reports that use a custom field or widget](administration-and-setup/customize-workfront/create-manage-custom-forms/view-all-reports-that-use-a-particular-custom-field.md)

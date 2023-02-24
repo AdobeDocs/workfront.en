@@ -1,5 +1,5 @@
 ---
-title: Manage custom forms
+title: Manage custom forms and fields
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
@@ -9,7 +9,7 @@ feature: System Setup and Administration
 role: Admin
 ---
 
-# Manage custom forms
+# Manage custom forms and fields
 
 * [Share a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md)
 * [Reactivate or deactivate a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/activate-deactivate-form.md)
