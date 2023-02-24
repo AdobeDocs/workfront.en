@@ -75,7 +75,7 @@ You can also have a different calculation for the same field, on the new form. K
 >* Select the Recalculate Custom Expressions option when editing objects in bulk.
 >* Select the Update previous calculations option when editing a Calculated Custom Field on a custom form.
 
-To reuse an existing calcualted custom field:
+To reuse an existing calculated custom field:
 
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
 
