@@ -9,6 +9,8 @@ feature: Agile
 ---
 # Manage collections
 
+{{highlighted-preview-article-level}}
+
 A collection is a configurable group of boards for collaborating on work. Collections can include different types of boards created from templates.
 
 Collections appear on the dashboard along with individual boards you have access to that are not part of a collection. For information about the boards dashboard, see [Use the boards dashboard](/help/quicksilver/agile/get-started-with-boards/use-boards-page.md). You can click any board name on the dashboard to open it.
@@ -54,7 +56,7 @@ You must have the following access to perform the steps in this article:
 
 | Template | Description |
 |---------|----------|
-| Basic board | Three default columns are provided on the board. You can add new columns and rename or delete the default columns. <p>Three default columns are provided on the board. You can add new columns and rename or delete the default columns. |
+| Basic board | Three default columns are provided on the board. You can add new columns and rename or delete the default columns. <p>No column policies are applied. |
 | Kanban board | The following columns are provided on the board: Backlog, New, In Progress, Complete, and On Hold. You can add new columns and rename or delete the default columns.<p>To use the backlog, you must set up filters for the intake column. For information, see [Add an intake column to a board](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md). <p>To review the default policies for each column, click the [!UICONTROL **More** menu] on a column and select [!UICONTROL **Edit**]. You can change any of these pre-set policies. For information, see [Manage board columns](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md). |
 | Retrospective board | The following columns are provided on the board: What went well? What could be improved? Who should we celebrate? What can we do to move faster? You can add new columns and rename or delete the default columns. <p>No column policies are applied. |
 
