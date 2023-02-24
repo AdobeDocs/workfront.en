@@ -527,7 +527,7 @@ For information on API versions, see [API versioning and support schedule](../..
 
 ## Workfront Maintenance Updates
 
-For information about the maintenance updates made during the 22.3 release, see [Workfront Maintenance Updates](https://one.workfront.com/s/article/Workfront-Maintenance-Updates-1882317350).
+For information about the maintenance updates made during the 22.3 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 ## 22.3 Release Webinar
 
