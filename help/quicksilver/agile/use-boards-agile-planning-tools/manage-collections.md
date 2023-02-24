@@ -9,15 +9,13 @@ feature: Agile
 ---
 # Manage collections
 
-{{highlighted-preview-article-level}}
+>[!NOTE]
+>
+>Collections are available only through the early feature opt-in for [!UICONTROL [!DNL Workfront] Boards]. For details, see [Early feature opt-in for Adobe Workfront Boards](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md).
 
 A collection is a configurable group of boards for collaborating on work. Collections can include different types of boards created from templates.
 
 Collections appear on the dashboard along with individual boards you have access to that are not part of a collection. For information about the boards dashboard, see [Use the boards dashboard](/help/quicksilver/agile/get-started-with-boards/use-boards-page.md). You can click any board name on the dashboard to open it.
-
->[!NOTE]
->
->Collections are available only through the early feature opt-in for [!UICONTROL [!DNL Workfront] Boards].
 
 ## Access requirements
 
