@@ -3,7 +3,7 @@ content-type: api;tips-tricks-troubleshooting
 navigation-topic: tips-tricks-and-troubleshooting-workfront-api
 title: Sorting query results in the API
 description: Sorting query results in the API
-author: John
+author: Becky
 feature: Workfront API
 exl-id: f001adb8-6295-4646-b9f1-78244a8c44a6
 ---

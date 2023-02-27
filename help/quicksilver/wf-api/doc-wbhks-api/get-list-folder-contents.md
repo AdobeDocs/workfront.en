@@ -4,7 +4,7 @@ product-area: documents
 navigation-topic: documents-webhooks-api
 title: Lists metadata for files or folders
 description: Lists metadata for files or folders
-author: John
+author: Becky
 feature: Workfront API
 exl-id: 9c9f9222-59ac-4643-8297-d4939bec7e64
 ---

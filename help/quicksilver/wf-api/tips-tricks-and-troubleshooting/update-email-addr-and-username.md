@@ -3,7 +3,7 @@ content-type: api;tips-tricks-troubleshooting
 navigation-topic: workfront-api
 title: Update to emailAddr does not update the username
 description: Update to emailAddr does not update the usernam
-author: John
+author: Becky
 feature: Workfront API
 exl-id: 2d24d1b8-9504-484f-9cc0-d2f1abd6391a
 ---

@@ -3,7 +3,7 @@ content-type: api
 navigation-topic: api-navigation-topic
 title: What's New in API Version 6
 description: What's New in API Version 6
-author: John
+author: Becky
 feature: Workfront API
 exl-id: e671a881-b8c2-4234-a3a0-76b1fbfafd32
 ---

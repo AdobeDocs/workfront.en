@@ -4,7 +4,7 @@ product-area: documents
 navigation-topic: documents-webhooks-api
 title: File upload via Document Webhooks
 description: File upload via Document Webhooks
-author: John
+author: Becky
 feature: Workfront API
 exl-id: 2c5727ee-bf8f-4664-a9b1-c5da356d94f5
 ---

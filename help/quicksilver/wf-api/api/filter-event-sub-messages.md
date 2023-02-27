@@ -4,7 +4,7 @@ content-type: api
 navigation-topic: api-navigation-topic
 title: Filter event subscription messages
 description: Filter event subscription messages
-author: John
+author: Becky
 feature: Workfront API
 exl-id: 8364c4b9-5604-47ab-8b4b-db6836dcd8ca
 ---
