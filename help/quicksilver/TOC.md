@@ -14,6 +14,8 @@ feature-set: Workfront
     * [Prepare for an Adobe Workfront quarterly release](product-announcements/product-releases/release-readiness.md)
     * 23.2 Release {#release-23-2}
       * [23.2 Release overview](product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md) 
+      * [23.2 release activity: Week of February 20, 2023](product-announcements/product-releases/23.2-release-activity/23-2-feb-20.md)
+      * [23.2 release activity: Week of February 13, 2023](product-announcements/product-releases/23.2-release-activity/23-2-feb-13.md)
       * [23.2 release activity: Week of February 6, 2023](product-announcements/product-releases/23.2-release-activity/23-2-feb-6.md)
       * [23.2 release activity: Week of January 23, 2023](product-announcements/product-releases/23.2-release-activity/23-1-jan-23.md)
       * [Look and feel updates during the 23.2 release time frame](product-announcements/product-releases/23.2-release-activity/23-2-look-and-feel.md)
@@ -891,6 +893,7 @@ feature-set: Workfront
     * [Use connected cards on boards](agile/get-started-with-boards/connected-cards.md)
     * [Manage cards](agile/get-started-with-boards/move-board-items.md)
     * [Manage checklist items on cards](/help/quicksilver/agile/get-started-with-boards/manage-checklist-items.md)
+    * [Customize which fields are displayed on a card](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md)
     * [Delete or archive a card from a board](agile/get-started-with-boards/delete-board-items.md)
     * [Filter and search in a board](agile/get-started-with-boards/filter-search-in-board.md)
     * [Add tags](agile/get-started-with-boards/add-tags.md)
@@ -900,6 +903,7 @@ feature-set: Workfront
     * [Add an intake column to a board](agile/use-boards-agile-planning-tools/add-intake-column-to-board.md)
     * [Use groups on a board](agile/use-boards-agile-planning-tools/group-cards-on-board.md)
     * [Configure card falloff](agile/use-boards-agile-planning-tools/configure-card-falloff.md)
+    * [Manage collections](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md)
   * Kanban in an agile team {#kanban}
     * [Kanban in an agile team](agile/use-kanban-in-an-agile-team/using-kanban-in-an-agile-team.md)
     * [Kanban overview](agile/use-kanban-in-an-agile-team/kanban-overview.md)
@@ -1087,6 +1091,7 @@ feature-set: Workfront
       * [Browse the blueprints catalog and request installation of blueprints](administration-and-setup/blueprints/browse-catalog.md)
       * [Copy a project template](manage-work/projects/create-and-manage-templates/copy-template.md)
       * [Attach a template to a project](manage-work/projects/create-and-manage-templates/attach-template-to-project.md)
+      * [Copy and move template tasks](manage-work/projects/create-and-manage-templates/copy-and-move-template-tasks.md)
       * [Edit project templates](manage-work/projects/create-and-manage-templates/edit-templates.md)
       * [Edit a template task](manage-work/projects/create-and-manage-templates/edit-template-task.md)
       * [Create template from project](manage-work/projects/create-and-manage-templates/create-template-from-project.md)
@@ -1622,18 +1627,6 @@ feature-set: Workfront
     * [Export information from the Resource Planner](resource-mgmt/resource-planning/export-resource-planner.md)
     * [Report on Resource Planner Budgeted Hours](resource-mgmt/resource-planning/report-on-budgeted-hours.md)
     * [Resource Planner display limitations](resource-mgmt/resource-planning/resource-planner-display-limitations.md)
-  * Resource Scheduling {#resource-scheduling}
-    * [Resource Scheduling](resource-mgmt/resource-scheduling/resource-scheduling-overview.md)
-    * [Get started with Resource Scheduling](resource-mgmt/resource-scheduling/get-started-resource-scheduling.md)
-    * [Overview of the Scheduling areas](resource-mgmt/resource-scheduling/overview-scheduling-areas.md)
-    * [Configure settings in the Scheduling areas](resource-mgmt/resource-scheduling/configure-settings-scheduling-areas.md)
-    * [Allow user assignments regardless of role and group membership in the Scheduling areas](resource-mgmt/resource-scheduling/assignments-regardless-of-role-or-group-scheduling-areas.md)
-    * [Automatically assign unassigned tasks and issues in the Scheduling areas](resource-mgmt/resource-scheduling/automatically-assign-items-scheduling-areas.md)
-    * [Configure how Workfront calculates resource hour and FTE availability for the Scheduling area](resource-mgmt/resource-scheduling/calculate-hours-fte-scheduling-area.md)
-    * [Filter information in the Scheduling area](resource-mgmt/resource-scheduling/filter-scheduling-area.md)
-    * [Manage user allocations in the Scheduling areas](resource-mgmt/resource-scheduling/manage-allocations-scheduling-areas.md)
-    * [Manually assign unassigned tasks and issues in the Scheduling areas](resource-mgmt/resource-scheduling/manually-assign-items-scheduling-areas.md)
-    * [Modify multiple users assignments to tasks in the Scheduling areas](resource-mgmt/resource-scheduling/modify-multipl-assignments-scheduling-areas.md)
   * Resource Utilization {#resource-utilization}
     * [Resource Utilization](resource-mgmt/resource-utilization/resource-utilization.md)
     * [View resource utilization information](resource-mgmt/resource-utilization/view-utilization-information.md)
@@ -1852,7 +1845,6 @@ feature-set: Workfront
     * [Filter information in Adobe Workfront Goals](workfront-goals/goal-management/filter-information-wf-goals.md)
     * [Goal status overview in Adobe Workfront Goals](workfront-goals/goal-management/goal-status-overview.md)
     * [Manage goal comments in Adobe Workfront Goals](workfront-goals/goal-management/manage-goal-comments.md)
-    * [Print the Goal List in Adobe Workfront Goals](workfront-goals/goal-management/print-the-goal-list.md)
     * [Update goals in the Goal details section in Adobe Workfront Goals](workfront-goals/goal-management/update-goals-in-goal-details-panel.md)
     * [Review in-trouble goals in Adobe Workfront Goals](workfront-goals/goal-management/view-in-trouble-goals.md)
   * Goal alignment in Adobe Workfront Goals {#goal-alignment}
@@ -1868,7 +1860,6 @@ feature-set: Workfront
     * [Update goal progress in Adobe Workfront Goals](workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md)
     * [Manage goals in the Goal List of Adobe Workfront Goals](workfront-goals/goal-review-and-workfront-goals-sections/manage-goals-in-goal-list.md)
     * [Review graphs to understand goal progress trends in Adobe Workfront Goals](workfront-goals/goal-review-and-workfront-goals-sections/review-goal-graphs.md)
-    * [Review goals in the Adobe Workfront Goals Pulse section](workfront-goals/goal-review-and-workfront-goals-sections/review-goals-in-pulse.md)
   * Results and activities in Adobe Workfront Goals {#results-activities-adobe-workfront-goals}
     * [Results and activities in Adobe Workfront Goals](workfront-goals/results-and-activities/results-and-activities.md)
     * [Add activities to goals in Adobe Workfront Goals](workfront-goals/results-and-activities/add-activities-to-goals.md)
@@ -1876,7 +1867,7 @@ feature-set: Workfront
     * [Add projects to goals in Adobe Workfront Goals](workfront-goals/results-and-activities/connect-projects-to-goals-overview.md)
     * [Edit results and activities in Adobe Workfront Goals](workfront-goals/results-and-activities/edit-results-and-activities.md)
     * [Get started with results and activities in Adobe Workfront Goals](workfront-goals/results-and-activities/get-started-with-results-and-activities.md)
-    * [Remove results, activities, and projects from goals in Adobe Workfront Goals](workfront-goals/results-and-activities/remove-results-activities-from-goals.md)
+    * [Remove progress indicators from goals in Adobe Workfront Goals](workfront-goals/results-and-activities/remove-results-activities-from-goals.md)
   * Adobe Workfront Goals settings {#adobe-workfront-goal-settings}
     * [Adobe Workfront Goals settings](workfront-goals/workfront-goals-settings/wf-goals-settings.md)
     * [Customize Adobe Workfront Goals terminology](workfront-goals/workfront-goals-settings/customize-wf-goals-terminology.md)

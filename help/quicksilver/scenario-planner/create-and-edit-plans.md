@@ -121,11 +121,13 @@ To create or edit a plan:
       <td role="rowheader"><span>FTE ([!UICONTROL Full Time Equivalent]) or [!UICONTROL Hours]</span> </td> 
       <td> <p><span>Select one of the following options to indicate how you want to estimate job role information for this plan:</span> </p> 
        <ul> 
-        <li> <p><span><strong>FTE</strong>. This is the default </span> </p> <!--
-          <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: snippet below: this is per Ani; it does NOT look at the system FTE.) </p>
-         --> <p>For all calculations in the [!DNL Scenario Planner], [!DNL Workfront] uses the following value: 1 FTE = 8 Hours. </p> </li> 
-        <li> <p><strong>[!UICONTROL Hours]</strong> </p> </li> 
-       </ul> <p>Important: <span>The option you select here determines how job role information displays for the plan, the plan's scenarios, and initiatives.</span> </p> </td> 
+      <li> <p><span><strong>FTE</strong>. This is the default </span> </p> 
+      <p><b>IMPORTANT</b></p>  
+      <p>For all calculations in the [!DNL Scenario Planner], [!DNL Workfront] uses the following value: 1 FTE = 8 Hours. </p> </li> 
+      <li> <p><strong>[!UICONTROL Hours]</strong> </p> </li> 
+       </ul> <p><b>IMPORTANT</b></p>
+       
+      The option you select here determines how job role information displays for the plan, the plan's scenarios, and initiatives</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Start date]</td> 
@@ -142,6 +144,8 @@ To create or edit a plan:
      </tr> 
     </tbody> 
    </table>
+
+<!--for table above - how FTE is calcualted: NOTE: snippet below: this is per Ani; it does NOT look at the system FTE.) </p>-->
 
 1. (Conditional) Click **[!UICONTROL Next]**.
 

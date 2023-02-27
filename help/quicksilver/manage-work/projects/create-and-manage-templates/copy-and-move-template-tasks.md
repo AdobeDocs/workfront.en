@@ -9,6 +9,8 @@ feature: Work Management
 
 # Copy and move template tasks
 
+<span class="preview">Copying and moving a template task is available in the Production environemnt. However, the steps outlined on this page refer to functionality only in the Preview environment. This functionality will be available in Production on March 2, 2023.</span> 
+
 You can copy a template task from a template to another template, or you can move it either to another template or to another place in the same template. 
 
 ## Access requirements
@@ -67,7 +69,7 @@ Consider the following when copying a template task:
     ![](assets/copy-template-task-box-unshimmed.png)
 1. (Optional) Rename the template task in the **Template Task Name** field.
 
-    >[!TIP]
+   >[!TIP]
    >
    >This field is dimmed and not editable when selecting to copy multiple template tasks in a list. You can hover over the Template Task Name field and a list of all selected template tasks displays.
 
@@ -193,7 +195,7 @@ In addition to copying template tasks, you can also move a template task either 
 
 1. (Optional) Rename the template task in the **Template Task Name** field.
 
-    >[!TIP]
+   >[!TIP]
    >
    >This field is dimmed and not editable when selecting to move multiple template tasks in a list. You can hover over the template task Name field and a list of all selected template tasks displays.
 

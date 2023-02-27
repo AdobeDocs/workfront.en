@@ -100,7 +100,7 @@ The following list shows which [!DNL Workfront] fields synchronize with [!DNL Ji
   </tr> 
   <tr> 
    <td>Custom Forms and Custom Fields</td> 
-   <td> <p> Display in the [!DNL Workfront] right panel of the [!DNL Jira] issue. <br>Only the Custom Fields that have an actual value display in the panel.<br><img src="assets/new-custom-form-in-workfront-side-panel-1012x1314.png" alt="custom_form_in_workfront_side_panel.png" style="width: 1012;height: 1014;"></p> <p>Note: Custom Form sections are displayed with the access level of the [!DNL Workfront] administrator. </p> </td> 
+   <td> <p> Display in the [!DNL Workfront] right panel of the [!DNL Jira] issue. <br>Only the Custom Fields that have an actual value display in the panel.<br></p> <p>Note: Custom Form sections are displayed with the access level of the [!DNL Workfront] administrator. </p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Issue or Task Priority]</td> 
@@ -195,8 +195,7 @@ To log time for an item in [!DNL Jira] and have it recorded both in [!DNL Jira] 
 
 1. Log into [!DNL Jira].
 1. Go to the [!DNL Jira] issue which is linked to the [!DNL Workfront] item.
-1. Expand the **[!UICONTROL More]** menu and click **[!UICONTROL Log work]**.\
-   ![log_time_from_More_menu_in_Jira.png](assets/new-log-time-from-more-menu-in-jira-994x594.png)
+1. Expand the **[!UICONTROL More]** menu and click **[!UICONTROL Log work]**.
 
 1. In the **[!UICONTROL Time Spent]** field, specify the amount of time spent working on this issue. You must specify the time using the following time periods:
 
@@ -219,8 +218,6 @@ You can log time just to the linked [!DNL Workfront] item from the [!DNL Jira] i
 
 1. Click the **[!UICONTROL Log Time]** icon.
 
-   ![Log_time_in_Jira.png](assets/log-time-in-jira.png)
-
 1. Specify the amount of **[!UICONTROL Hours]** and **[!UICONTROL Minutes]** you want to log for the issue.
 
 1. Click **[!UICONTROL Log Time]**.
@@ -240,7 +237,7 @@ To comment from [!DNL Jira] to a [!DNL Workfront] item:
 
    The details of the [!DNL Workfront] item should display in the [!DNL Workfront] right panel of the issue.
 
-1. Click the **[!UICONTROL Comments]** icon in the [!DNL Workfront] panel or n the **[!UICONTROL Comments]** tab. ![Jira_comments_icon.png](assets/jira-comments-icon.png)
+1. Click the **[!UICONTROL Comments]** icon in the [!DNL Workfront] panel or on the **[!UICONTROL Comments]** tab.
 
 1. Start typing a comment, then click **[!UICONTROL Send]**.
 

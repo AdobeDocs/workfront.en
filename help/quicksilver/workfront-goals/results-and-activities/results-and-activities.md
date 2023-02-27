@@ -44,6 +44,8 @@ For additional information about access to Workfront Goals, see [Requirements to
 >
 >For additional information about access to Workfront Goals, see [Requirements to use Workfront Goals](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
+To record progress on Workfront Goals, you must associate progress indicators to goals. In addition to results and activities, you can also associate projects or children goals to a goal to record progress. 
+
 This section contains the following articles:
 
 * [Get started with results and activities in Adobe Workfront Goals](../../workfront-goals/results-and-activities/get-started-with-results-and-activities.md) 
