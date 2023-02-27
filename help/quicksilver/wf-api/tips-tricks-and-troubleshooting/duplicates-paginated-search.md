@@ -3,7 +3,7 @@ content-type: api;tips-tricks-troubleshooting
 navigation-topic: tips-tricks-and-troubleshooting-workfront-api
 title: Duplicates returned during a large paginated search
 description: Duplicates returned during a large paginated search
-author: John
+author: Becky
 feature: Workfront API
 exl-id: 0359d6ba-b219-4d11-9f6f-cec2ff9ee058
 ---

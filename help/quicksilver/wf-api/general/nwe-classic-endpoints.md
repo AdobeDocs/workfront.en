@@ -1,7 +1,7 @@
 ---
 title: nwe-classic-endpoints
 description: nwe-classic-endpoints
-author: John
+author: Becky
 draft: Probably
 ---
 # nwe-classic-endpoints

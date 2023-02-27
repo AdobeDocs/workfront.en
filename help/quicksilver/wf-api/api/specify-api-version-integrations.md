@@ -3,7 +3,7 @@ content-type: api
 navigation-topic: api-navigation-topic
 title: Specify an API Version in your integrations
 description: Specify an API Version in your integrations
-author: John
+author: Becky
 feature: Workfront API
 exl-id: 2971749d-1d34-42a4-9eda-411aa8c3a2ab
 ---

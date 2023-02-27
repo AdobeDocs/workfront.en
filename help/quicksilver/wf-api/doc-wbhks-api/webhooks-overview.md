@@ -4,7 +4,7 @@ product-area: documents
 navigation-topic: documents-webhooks-api
 title: Webhooks Overview
 description: Webhooks Overview
-author: John
+author: Becky
 feature: Workfront API
 exl-id: 30a3d0cb-51dc-4770-88be-36d8bf232b98
 ---

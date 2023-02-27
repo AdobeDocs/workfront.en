@@ -3,7 +3,7 @@ content-type: api
 navigation-topic: api-navigation-topic
 title: Event subscription resource fields
 description: Event subscription resource fields
-author: John
+author: Becky
 feature: Workfront API
 exl-id: 54859930-7619-4b93-8dff-29b10e43d6d5
 ---
