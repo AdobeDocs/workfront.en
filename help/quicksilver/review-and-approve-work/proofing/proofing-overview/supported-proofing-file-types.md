@@ -172,6 +172,7 @@ Workfront has the following limits:
 * MPEG-2
 * H.263
 * H.264
+* H.265
 * All MPEG-4 implementations (Xvid, 3vix, etc.)
 * AVI
 * Flash (VP6, Sorenson Spark/H.263+, H.264)
@@ -208,7 +209,7 @@ You can create static web page proofs. For more information, see [Create a stati
 
 ## Zip files
 
-We do not support or extract files from ZIP&nbsp;files for security reasons. Unzip the files before uploading them. If you do not do this, the upload will not be unsuccessful.
+We do not support or extract files from ZIP files for security reasons. Unzip the files before uploading them. If you do not do this, the upload will not be unsuccessful.
 
 You can submit zip files only if they contain a complete interactive project and your account has interactive features enabled (Premium plans).
 
