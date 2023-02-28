@@ -55,4 +55,10 @@ To find out what plan, license type, or access you have, contact your [!DNL Work
 1. From the **[!UICONTROL Work List]**, select the task or issue you wish to mark complete. 
 1. Click **[!UICONTROL Done]**.  
    This marks the item complete in Workfront.  
-   ![](assets/complete-work-350x529.png)
+
+   >[!NOTE]
+   >
+   >If the work item has enforced predecessors, the Done button is gray until those predecessors are marked complete. To view enforced predecessors inside of [!DNL Workfront], click on the task name.
+   >![](assets/navigate-to-workfront.png)
+
+  <!-- I dont think we need this one ![](assets/complete-work-350x529.png) -->
