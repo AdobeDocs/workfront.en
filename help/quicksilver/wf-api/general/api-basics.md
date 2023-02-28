@@ -3,7 +3,7 @@ content-type: api
 navigation-topic: general-api
 title: API basics
 description: API basics
-author: John
+author: Becky
 feature: Workfront API
 exl-id: d8c27915-8e1b-4804-9ef8-3a2efd57caac
 ---

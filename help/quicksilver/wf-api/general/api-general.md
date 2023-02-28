@@ -4,7 +4,7 @@ content-type: api
 navigation-topic: workfront-api
 title: API General topics
 description: API General topics
-author: John
+author: Becky
 exl-id: 4025002b-4b11-4105-81d6-5d493a0f2255
 ---
 

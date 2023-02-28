@@ -4,7 +4,7 @@ product-area: user-management
 navigation-topic: general-api
 title: Deactivate a User via the API
 description: Deactivate a User via the API
-author: John
+author: Becky
 feature: Workfront API
 exl-id: 45b06cce-4622-4739-b9f3-2edb9101c099
 ---

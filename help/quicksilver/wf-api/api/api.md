@@ -4,7 +4,7 @@ content-type: api;reference
 navigation-topic: api-navigation-topic
 title: API
 description: Workfront API Articles
-author: John
+author: Becky
 exl-id: 90e00a71-1a3a-4e3f-99d8-47700052a9dc
 ---
 # API

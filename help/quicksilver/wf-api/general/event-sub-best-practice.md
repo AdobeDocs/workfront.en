@@ -3,7 +3,7 @@ content-type: api
 navigation-topic: general-api
 title: Event subscription best practices
 description: Event subscription best practices
-author: John
+author: Becky
 feature: Workfront API
 exl-id: 2c6e3567-d5eb-4528-a393-dbf235958ed2
 ---

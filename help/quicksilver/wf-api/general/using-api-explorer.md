@@ -3,7 +3,7 @@ content-type: api
 navigation-topic: general-api
 title: Using the API Explorer
 description: Using the API Explorer
-author: John
+author: Becky
 feature: Workfront API
 exl-id: dcb7dadb-4dd8-48da-a559-cbe8ad99ff9e
 ---
