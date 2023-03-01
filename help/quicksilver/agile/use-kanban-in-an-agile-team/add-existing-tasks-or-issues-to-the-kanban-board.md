@@ -52,10 +52,10 @@ To add a task or issue to a [!UICONTROL Kanban] board:
 1. Click **[!UICONTROL More]** > **[!UICONTROL Add to]** > **[!UICONTROL Kanban Board]**.
 1. In the [!UICONTROL Add Stories] dialog box, type the name of the Kanban team.
 
->[!NOTE]
->
->If you add multiple teams, the task or issue can display only on one team's [!DNL kanban] board. This is the board you choose in step 5.
+   >[!NOTE]
+   >
+   >If you add multiple teams, the task or issue can display only on one team's [!DNL kanban] board. This is the board you choose in step 5.
 
-1. If you are adding tasks, click **[!UICONTROL Add Stories]**.\
-   Or\
+1. If you are adding tasks, click **[!UICONTROL Add Stories]**.
+   Or
    If you are adding issues, click **[!UICONTROL Add Issues]**.
