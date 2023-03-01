@@ -10,9 +10,12 @@ exl-id: 342f9282-b6f5-425e-a7ef-e23bd011d284
 ---
 # Run Reports in [!DNL Workfront Proof]
 
+
 >[!IMPORTANT]
 >
->This article refers to functionality in the standalone product [!DNL Workfront Proof]. For information on proofing inside [!DNL Adobe Workfront], see [Proofing](../../../review-and-approve-work/proofing/proofing.md).
+>* <span class="previe">Reporting functionality is no longer available in [!DNL Workfront Proof]. The reporting tab still displays, but the data is not accurate.</span>
+> 
+>* This article refers to functionality in the standalone product [!DNL Workfront Proof]. For information on proofing inside [!DNL Adobe Workfront], see [Proofing](../../../review-and-approve-work/proofing/proofing.md).
 
 Workfront Proof enables you to view reports so you can track the work progress and efficiencies of your teams.
 
