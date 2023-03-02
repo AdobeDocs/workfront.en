@@ -90,7 +90,7 @@ You can log time in the following areas in Workfront:
 * [Home](#home) 
 * [Project, task, or issue](#project-task-or-issue) 
 * [Summary panel](#summary-panel)
-* <span class="preview">[Boards](#boards)</span>
+* [Boards](#boards)
 * [Mobile app](#mobile-app)
 
 ### Timesheet {#timesheet}
