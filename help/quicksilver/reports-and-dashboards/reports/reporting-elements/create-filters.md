@@ -9,7 +9,7 @@ exl-id: 2e912e32-7924-418d-9d55-ce3c09f67d3e
 ---
 # Create or edit filters in Adobe Workfront
 
-<span class="preview">Note that in the Preview environment, the enhanced filter experience (previously called "beta") is now the default. These filters are now called "standard" and the older filter experience is called "legacy."</span>
+<span class="preview">Note that in the Preview environment, the enhanced filter experience (previously called "beta") is now the default. These enhanced filters are now "standard" and the older filter experience is "legacy."</span>
 
 You can limit the amount of information you display on the screen in a list of items with a filter. You can define certain criteria based on particular pieces of information about an object and only display the objects that meet those criteria.
 

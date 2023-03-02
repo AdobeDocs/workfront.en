@@ -16,7 +16,7 @@ exl-id: 63a6db90-d52c-4147-a442-7904ef9e9d49
 </div>
 -->
 
-<span class="preview">Note that in the Preview environment, the enhanced filter experience (previously called "beta") is now the default. These filters are now called "standard" and the older filter experience is called "legacy."</span>
+<span class="preview">Note that in the Preview environment, the enhanced filter experience (previously called "beta") is now the default. These enhanced filters are now "standard" and the older filter experience is "legacy."</span>
 
 Your Adobe Workfront administrator grants users access to view or edit objects when they assign access levels. For more information about granting access to objects, see [Create or modify custom access levels](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
