@@ -44,8 +44,9 @@ Workfront uses the following information to calculate the capacity of the user i
 * The user's time off. This indicates which days the user is planning to take off.
 
   For more information, see [Configure personal time off in Adobe Workfront](../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md).
-
-* <span class="preview">The user's Work Time. This indicates the percentage of FTE time that the user is available to perform actual project-related work, not including overhead. Set the Work Time value to  1 to indicate that the user is available for project-related work their entire full-time equivalent.</span>
+<div class="preview">
+* The user's Work Time. This indicates the percentage of FTE time that the user is available to perform actual project-related work, not including overhead. Set the Work Time value to  1 to indicate that the user is available for project-related work their entire full-time equivalent.
+</div>
 
 ## Assign work in the Workload Balancer
 

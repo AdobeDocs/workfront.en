@@ -4,7 +4,7 @@ product-area: documents
 navigation-topic: documents-webhooks-api
 title: Test Webhook connections
 description: Test Webhook connections
-author: John
+author: Becky
 feature: Workfront API
 exl-id: 7452ebfc-7c72-4fea-99ac-7f76b12404b8
 ---

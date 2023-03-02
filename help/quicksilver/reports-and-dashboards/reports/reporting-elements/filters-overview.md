@@ -78,9 +78,6 @@ You can use either built-in filters or build custom filters in the following are
 
   For information, see the section [Filter utilization information](../../../resource-mgmt/resource-utilization/view-utilization-information.md#filtering-utilization-information) in the article [View resource utilization information](../../../resource-mgmt/resource-utilization/view-utilization-information.md). 
 
-* Resource Scheduling areas  
-  For information, see the article [Filter information in the Scheduling area](../../../resource-mgmt/resource-scheduling/filter-scheduling-area.md).
-
 * Workload Balancer
 
   For information, see [Filter information in the Workload Balancer](../../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md).

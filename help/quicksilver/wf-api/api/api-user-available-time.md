@@ -3,7 +3,7 @@ content-type: api
 navigation-topic: wf-api
 title: Get users available time API
 description: Get users available time API
-author: John
+author: Becky
 feature: Workfront API
 exl-id: fa37920a-c08b-4af3-9896-7e4044834860
 ---

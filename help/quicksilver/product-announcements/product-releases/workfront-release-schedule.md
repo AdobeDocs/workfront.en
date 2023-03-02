@@ -22,7 +22,7 @@ Usually, features in Preview are made available in the Production environment wi
 
 ### Maintenance updates
 
-Issue fixes to the Adobe Workfront product are made available in the Production environment each week. See the [Workfront maintenance updates](https://one.workfront.com/s/article/Workfront-Maintenance-Updates-1882317350) page to see what's been fixed recently.
+Issue fixes to the Adobe Workfront product are made available in the Production environment each week. See the [Workfront maintenance updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) page to see what's been fixed recently.
 
 ## Features removed from a quarterly release
 

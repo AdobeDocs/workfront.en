@@ -4,7 +4,7 @@ keywords: API,data,sync,journal,entry,object
 navigation-topic: general-api
 title: Use the API to sync data for programs and services
 description: Use the API to sync data for programs and services
-author: John
+author: Becky
 feature: Workfront API
 exl-id: 1d0583fc-1573-4279-a3fa-a912d9a4213c
 ---
@@ -42,7 +42,7 @@ Both the date that an object is created and the last date that the object was mo
 
 ```
 GET
-https://<domain>.my.workfront.com/attask/api/v11.0/OPTASK/search?fields=ID,name,lastUpdateDate&$$LIMIT=200&lastUpdateDate=2020-05-13T18:18:37.255Z&lastUpdateDate_Mod=gte
+https://<domain>.my.workfront.com/attask/api/v15.0/OPTASK/search?fields=ID,name,lastUpdateDate&$$LIMIT=200&lastUpdateDate=2020-05-13T18:18:37.255Z&lastUpdateDate_Mod=gte
 ```
 
 ### Journal Entry Object
@@ -53,7 +53,7 @@ When a field is setup to be logged as a part of the Journal Entry object a corre
 
 <!-- [Copy](javascript:void(0);) --> 
 
-<pre><code>GET https://&#123;&#123;domain&#125;&#125;.my.workfront.com/attask/api/v11.0/JRNLE/search?fields=newTextVal,oldTextVal,newDateVal,oldDateVal,newNumberVal,oldNumberVal,entryDate,objObjCode,objID,fieldName&fieldName=name&objObjCode=OPTASK&entryDate=2020-05-13T18:18:37.255Z&entryDate_Mod=gte</code></pre>
+<pre><code>GET https://&#123;&#123;domain&#125;&#125;.my.workfront.com/attask/api/v15.0/JRNLE/search?fields=newTextVal,oldTextVal,newDateVal,oldDateVal,newNumberVal,oldNumberVal,entryDate,objObjCode,objID,fieldName&fieldName=name&objObjCode=OPTASK&entryDate=2020-05-13T18:18:37.255Z&entryDate_Mod=gte</code></pre>
 
 >[!NOTE]
 >

@@ -51,8 +51,6 @@ Before you can update a [!DNL Workfront] item using email content from [!DNL G S
 1. Under **[!UICONTROL Type]**, click the drop-down arrow, then click the type of object where you want to add the update.
 1. Click the **[!UICONTROL Search for]** option, start typing the name of the object where you want to add the update, then select the item when it appears in the list below.
 
-   ![](assets/click-search-for-task-issue.png)
-
    This option varies, depending on what you selected in step 3. It might be **[!UICONTROL Search for a project]**, **[!UICONTROL Search for a task]**, or **[!UICONTROL Search for an issue]**.
 
    >[!NOTE]
@@ -84,8 +82,6 @@ Before you can update a [!DNL Workfront] item using email content from [!DNL G S
 1. Click **[!UICONTROL Update]**.
 
    When you refresh your browser, a message with a link at the bottom of the [!DNL Workfront for G Suite] panel confirms that you have converted the email to an update:
-
-   ![](assets/email-was-converted-as-update.png)
 
    You can click the link to go to the [!UICONTROL Updates] tab in [!DNL Workfront] for the object you specified in step 4.
 

@@ -71,7 +71,7 @@ For more information about these profiles and permissions, see [Proof Permission
 1. Click **[!UICONTROL Tags]** > **[!UICONTROL Manage Tags]** just above the list.
 
 1. On the [!UICONTROL Tags] tab that appears, manage your tags as described above in [Creating, Editing, or Deleting a Tab.](https://support.workfront.com/knowledge/articles/115004379508/en-us?brand_id=662728&return_to=%2Fhc%2Fen-us%2Farticles%2F115004379508#CreatingEditingDeletingTag)\
-   A tag is applied to all the selected items when the check in the check box next to the tag is dark grey. If it's light grey, only some of the items in a selected batch are tagged with it. If you want to remove a tag from all of the selected items make sure the tick-box next to the tag is empty.\
+   A tag is applied to all the selected items when the check box next to the tag is dark grey. If it's light grey, only some of the items in a selected batch are tagged with it. If you want to remove a tag from all of the selected items make sure the tick-box next to the tag is empty.\
    ![Tags_menu_-_Dark_and_light_checks.png](assets/tags-menu---dark-and-light-checks-350x217.png)
 
 ## Managing Tags From Proof Details or File Details

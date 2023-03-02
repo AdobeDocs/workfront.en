@@ -9,6 +9,8 @@ exl-id: c6d979dd-e4a4-48a5-a91b-b31d7ef848d1
 ---
 # Use connected cards on boards
 
+{{highlighted-preview}}
+
 You can add a card on your board that is connected to existing tasks and issues in [!DNL Workfront].
 
 When any one of the following details is updated for the card in one location, it is automatically updated in the other location:
@@ -174,3 +176,27 @@ After you have created an ad hoc card, you can convert it to a connected card. F
    The project name displays in the Connection area on the card details.
 
 1. Click **[!UICONTROL Close]** to return to the board.
+
+<div class="preview">
+
+## Log hours on a connected card
+
+>[!NOTE]
+>
+>This feature is available only through the early feature opt-in for Workfront Boards.
+
+You must have the correct permissions to log hours on the connected task or issue.
+
+The time logging fields are not displayed on connected cards by default. You must enable [!UICONTROL **Hours**] in the [!UICONTROL Configure] area under [!UICONTROL Cards]. For more information, see [Customize which fields are displayed on a card](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md).
+
+1. Enter the number of hours for the task or issue.
+1. Select an [!UICONTROL Hour Type] from the drop-down menu, if it is different than the default.
+1. Click [!UICONTROL **Log Time**].
+   
+   ![Log hours on card](assets/log-hours-on-card.png)
+
+   The time logged on the card is also saved on the connected task or issue.
+
+Logging time on the card is the same as logging time on a task or issue. For more information, see "Log time on a project, task, or issue" in the article [Log time](/help/quicksilver/timesheets/create-and-manage-timesheets/log-time.md).
+
+</div>

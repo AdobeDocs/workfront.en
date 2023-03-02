@@ -475,6 +475,12 @@ The following table is a list of commonly used terms in Adobe Workfront:
     <td>The total availability (measure in either hours or FTE) of a designated user, resource pool, team, rob role, or company.</td> 
    </tr>
   --> 
+  
+  <tr> 
+   <td> <p>Capacity</p> </td> 
+   <td> <p>A resource's available time when they can be allocated to work. See "Availability". </p></td> 
+  </tr> 
+    
   <tr> 
    <td> <p>[!UICONTROL Category]</p> </td> 
    <td> <p>A category is a custom form. You can build reports for this object and you can show it in other object reports, as well. Not all objects can have a custom form, or category. The following objects can have a custom form: <br></p> 
@@ -864,28 +870,28 @@ The following table is a list of commonly used terms in Adobe Workfront:
    <td>[!UICONTROL Folder]</td> 
    <td>Folders are used to organize documents or reports associated with an object.</td> </tr>
   <tr>
-  <td>FTE (Full Time Equivalent)</td> 
+  <td>[!UICONTROL FTE] (Full Time Equivalent)</td> 
    <td>This is the Full Time Equivalent which indicates the amount of time that a resource is available for work. 
-   The FTE field displays in the following areas: 
+   The [!UICONTROL FTE] field displays in the following areas: 
   <ul>
    <li> User's profile, when editing or creating the user </li>
-   <li> Resource Planner </li>
-   <li> Scenario Planner (requires additional license for the Workfront Scenario Planner) </li>
+   <li> [!UICONTROL Resource Planner] </li>
+   <li> [!UICONTROL Scenario Planner] (requires additional license for the Workfront Scenario Planner) </li>
    <li> User lists and reports </li> </ul>
     
-   <p>The FTE must be a decimal number up to 1, and it cannot be 0. </p>
-   <p> An FTE of 1 (which is the default for a user's FTE field, as defined in their profile) means that a resource (user or role) works the entire number of hours, based on the schedule that calculates their availability. </p>
+   <p>The [!UICONTROL FTE] must be a decimal number up to 1, and it cannot be 0. </p>
+   <p> An [!UICONTROL FTE] of 1 (which is the default for a user's [!UICONTROL FTE] field, as defined in their profile) means that a resource (user or role) works the entire number of hours, based on the schedule that calculates their availability. </p>
    <p>Your Workfront administrator decides which schedule to use in determining user's availability.  </p>
    <ul>
-   <li> When the Default Schedule is used, Workfront uses the FTE of the user found in their profile to calculate availability. </li>
-   <li> When the User's Schedule is used, Workfront uses the user's time off, <span class="preview">Work Time value</span>, and Default Schedule's hours to calculate the user's FTE. </li> </ul>
+   <li> When the [!UICONTROL Default Schedule] is used, Workfront uses the [!UICONTROL FTE] of the user found in their profile to calculate availability. </li>
+   <li> When the User's Schedule is used, Workfront uses the user's time off, <span class="preview">[!UICONTROL Work Time] value</span>, and [!UICONTROL Default Schedule]'s hours to calculate the user's [!UICONTROL FTE]. </li> </ul>
     
    <p>For more information, see <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md">Configure Resource Management preferences</a>.  </p>
-   <p>For more information about creating schedules in Workfront, see <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md">Create a schedule</a>. </p>
+   <p>For more information about creating schedules in [!DNL Workfront], see <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md">Create a schedule</a>. </p>
 
    <p><b>NOTE</b></p>
-   <p>For all calculations in the Scenario Planner, Workfront uses the following value: 1 FTE = 8 Hours.</p>
-   <p>For more information, see <a href="../../../scenario-planner/get-started-with-scenario-planning.md">Get started with the Scenario Planner</a>. </p>
+   <p>For all calculations in the [!UICONTROL Scenario Planner], Workfront uses the following value: 1 [!UICONTROL FTE] = 8 Hours.</p>
+   <p>For more information, see <a href="../../../scenario-planner/get-started-with-scenario-planning.md">Get started with the [!UICONTROL Scenario Planner]</a>. </p>
    </td> </tr> 
    </tbody> 
    </table>
@@ -1445,7 +1451,7 @@ The designated full time equivalency for users. A full-time user should have 100
   </tr> 
   <tr> 
    <td>[!UICONTROL Planned]</td> 
-   <td> <p>The time frame within which something is scheduled to occur. When you create projects, tasks, or issues in [!DNL Workfront], you establish the planned start and end dates, as well as the planned timeframe during which they occur. These values represent your original intention or estimate of how long a work time should take to complete. </p></td> 
+   <td> <p>The time frame within which something is scheduled to occur. When you create projects, tasks, or issues in [!DNL Workfront], you establish the planned start and end dates, as well as the planned timeframe during which they occur. These values represent your original intention or estimate of how long an item should take to complete. </p></td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Planned Benefit]</td> 
@@ -1898,7 +1904,7 @@ The designated full time equivalency for users. A full-time user should have 100
   </tr> 
   <tr> 
    <td>[!UICONTROL Schedule Exemption]</td> 
-   <td>Also known as a [!UICONTROL Modified Shift]. Days scheduled in contrast to the regular weekly work times as defined by the schedule. For example, a Saturday scheduled to work, when the Schedule is set up to only Work Monday Through Friday, would be a [!UICONTROL Schedule Exemption].</td> 
+   <td>Also known as a [!UICONTROL Modified Shift]. Days scheduled in contrast to the regular weekly working times as defined by the schedule. For example, a Saturday scheduled to work, when the Schedule is set up to only Work Monday Through Friday, would be a [!UICONTROL Schedule Exemption].</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Scheduled Report]</td> 
@@ -2323,15 +2329,15 @@ The designated full time equivalency for users. A full-time user should have 100
    <td>[!UICONTROL Work Time]</td> 
    <td>  
  
-   <p><span class="preview">Represents the percentage of the Full Time Equivalent (FTE) time that the user is available for actual work, not including overhead. Work Time must be a decimal number up to 1, and it cannot be 0. For example, a 20% availability for actual work would be 0.2.</span>  </p>
-   </p><span class="preview">The field's default is 1, indicating that a user spends their entire FTE on actual, project-related work.</span>   </p>
+   <p><span class="preview">Represents the percentage of the Full Time Equivalent ([!UICONTROL FTE]) time that the user is available for actual work, not including overhead. [!UICONTROL Work Time] must be a decimal number up to 1, and it cannot be 0. For example, a 20% availability for actual work would be 0.2.</span>  </p>
+   </p><span class="preview">The field's default is 1, indicating that a user spends their entire [!UICONTROL FTE] on actual, project-related work.</span>   </p>
    <p><span class="preview">The system uses this number to calculate the availability of the user for actual, project-related work. </span></p>
    <p> <span class="preview">Schedule exceptions and time off might also affect the user capacity.</span> </p>
-   <p><span class="preview">For more information about creating schedules in Workfront, see Create a schedule. (INSERT LINK)</span> </p>
-    <p>Workfront calculates a user's availability depending on the Resource Management preferences in your Setup area. For more information, see <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md/">Configure Resource Management preferences</a>. </p> 
-   <p><span class="preview">You can update the Work Time of a user when you edit or create the user. For information, see <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md">Edit a user's profile</a></span></p> 
+   <p><span class="preview">For more information about creating schedules in Workfront, see <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md">Create a schedule</a>.</span> </p>
+    <p>Workfront calculates a user's availability depending on the Resource Management preferences in your [!UICONTROL Setup] area. For more information, see <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md/">Configure Resource Management preferences</a>. </p> 
+   <p><span class="preview">You can update the [!UICONTROL Work Time] of a user when you edit or create the user. For information, see <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md">Edit a user's profile</a></span></p> 
    <b>TIP</b> 
-   <p><span class="preview">Set the Work Time value to  1 to indicate that the user is available for project-related work their entire full-time equivalent.</span></p> 
+   <p><span class="preview">Set the [!UICONTROL Work Time] value to  1 to indicate that the user is available for project-related work their entire full-time equivalent.</span></p> 
    </td> 
   </tr> 
   <tr> 

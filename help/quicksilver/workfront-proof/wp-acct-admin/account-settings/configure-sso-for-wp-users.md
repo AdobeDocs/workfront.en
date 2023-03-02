@@ -30,7 +30,7 @@ The Single Sign-On functionality can be enabled on the [!UICONTROL Single sign-o
 
 As a Service Provider we have published our Entity ID here:
 
-[https://yoursubdomain.my.workfront.com/proof/saml/module.php/saml/sp/metadata.php/phq](https://yoursubdomain.my.workfront.com/proof/saml/module.php/saml/sp/metadata.php/phq) (where "yoursubdomain" is your account's sub domain)
+[https://yoursubdomain.proofhq.com/saml/module.php/saml/sp/metadata.php/phq](https://yoursubdomain.proofhq.com/saml/module.php/saml/sp/metadata.php/phq) (where "yoursubdomain" is your account's sub domain)
 
 [!DNL Workfront Proof] requires the user's email address as their unique identifier, which can be passed as one of the following attributes:
 

@@ -2,13 +2,13 @@
 product-previous: workfront-goals
 product-area: projects
 navigation-topic: results-and-activities
-title: Remove results, activities, and projects from goals in Adobe Workfront Goals
+title: Remove progress indicators from goals in Adobe Workfront Goals
 description: You can remove results, activities, and projects from goals in Adobe Workfront Goals, when they are no longer relevant. 
 author: Alina
 feature: Workfront Goals
 exl-id: 0e064dbd-6168-47b4-98ab-b5c0481e839e
 ---
-# Remove results, activities, and projects from goals in Adobe Workfront Goals
+# Remove progress indicators from goals in Adobe Workfront Goals
 
 <!-- for goal redesign PRODUCTION RELEASE: Should this article be called "Remove or disconnect progress indicators from goals" when this is available to ALL progress indicators (including "disconnect goals")-- if yes, updte the title everywhere else where this is linked?
 -->

@@ -3,7 +3,7 @@ content-type: api
 navigation-topic: api-navigation-topic
 title: Escaped characters in API Responses
 description: Escaped characters in API Responses
-author: John
+author: Becky
 feature: Workfront API
 exl-id: 1477b98e-1cdc-4661-b3ee-0b6ab1e8c3ee
 ---

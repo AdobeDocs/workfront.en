@@ -3,7 +3,7 @@ content-type: api
 navigation-topic: general-api
 title: Rich text fields in the Adobe Workfront API
 description: Rich text fields in the Adobe Workfront API
-author: John
+author: Becky
 feature: Workfront API
 exl-id: 67fc34dc-0722-4419-8254-0371ad5abfc3
 ---

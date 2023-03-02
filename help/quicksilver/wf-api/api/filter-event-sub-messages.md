@@ -4,7 +4,7 @@ content-type: api
 navigation-topic: api-navigation-topic
 title: Filter event subscription messages
 description: Filter event subscription messages
-author: John
+author: Becky
 feature: Workfront API
 exl-id: 8364c4b9-5604-47ab-8b4b-db6836dcd8ca
 ---
@@ -295,7 +295,7 @@ We recommend that during the startup of your service you implement a query askin
 public static List<Map<String, Object>> projectGroupFilteringStartupRecoveryQuery(LambdaLogger logger) {
     HttpClient httpClient = HttpClientBuilder.create().build();
 
-    // Produces a URL of https://<my-domain>.workfront.com/attask/api/v9.0/PROJ/search?groupID=<DESIRED_GROUP_ID>
+    // Produces a URL of https://<my-domain>.workfront.com/attask/api/v15.0/PROJ/search?groupID=<DESIRED_GROUP_ID>
     replacing <...> with the appropriate values
     URI projectGroupQueryUri = generateProjectRecoveryQueryURI(logger);
 

@@ -4,7 +4,7 @@ product-area: documents
 navigation-topic: documents-webhooks-api
 title: Search via Document Webhooks
 description: Search via Document Webhooks
-author: John
+author: Becky
 feature: Workfront API, Digital Content and Documents
 exl-id: 8a3bf0c4-4a20-4311-8c05-15f4ef3a1d42
 ---

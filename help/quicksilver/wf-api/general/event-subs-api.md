@@ -3,7 +3,7 @@ content-type: api
 navigation-topic: general-api
 title: Event Subscription API
 description: Event Subscription API
-author: John
+author: Becky
 feature: Workfront API
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
 ---
@@ -77,7 +77,7 @@ To create, query, or delete an event subscription, your Workfront user needs the
 **Request URL:** 
 
 ```
-PUT https://<HOSTNAME>/attask/api/v7.0/USER?action=getApiKey&username=<USERNAME>&password=<PASSWORD>
+PUT https://<HOSTNAME>/attask/api/v15.0/USER?action=getApiKey&username=<USERNAME>&password=<PASSWORD>
 ```
 
 **Request Headers:** 
@@ -124,7 +124,7 @@ PUT https://<HOSTNAME>/attask/api/v7.0/USER?action=getApiKey&username=<USERNAME>
 
 
 ```
-PUT https://<HOSTNAME>/attask/api/v7.0/USER/generateApiKey?username=<USERNAME>&password=<PASSWORD>
+PUT https://<HOSTNAME>/attask/api/v15.0/USER/generateApiKey?username=<USERNAME>&password=<PASSWORD>
 ```
 
 ## Forming the Subscription&nbsp;Resource
