@@ -76,7 +76,7 @@ For tips on preparing for the upcoming release, see [Prepare for an Adobe Workfr
                         <p><span class="bold">Release dates</span>
                         </p>
                     </td>
-                </tr>
+                </tr><!--
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-27.md" class="MCXref xref" xrefformat="{para}">Add tasks and issues to Workfront Boards from lists and reports</a><span style="color: #ff0000;"> New in Preview!</span></p>
@@ -92,7 +92,7 @@ For tips on preparing for the upcoming release, see [Prepare for an Adobe Workfr
                             </li>
                         </ul>
                     </td>
-                </tr>
+                </tr>-->
                  <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-20.md" class="MCXref xref" xrefformat="{para}">Log hours on connected cards on a board</a></p>
