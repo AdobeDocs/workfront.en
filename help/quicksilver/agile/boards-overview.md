@@ -27,4 +27,6 @@ For information about how to use the basic boards features, see [Get started wit
 
 You can also access boards in the mobile app. For information, see [[!DNL Adobe Workfront] [!UICONTROL Boards] for mobile](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/mobile-boards.md).
 
+For video walkthroughs of boards features, see [[!DNL Adobe Workfront] [!UICONTROL Boards] video demonstrations](/help/quicksilver/agile/get-started-with-boards/boards-video-demonstrations.md).
+
 For information about additional agile tools in [!DNL Workfront], see [Agile overview](../agile/agile-overview.md).
