@@ -3,7 +3,7 @@ content-type: api
 navigation-topic: api-navigation-topic
 title: Deprecation of API-Internal
 description: Deprecation of API-Internal
-author: John
+author: Becky
 feature: Workfront API
 exl-id: 45b42fe8-7ce3-441d-8fbc-b8db7f9b254e
 ---

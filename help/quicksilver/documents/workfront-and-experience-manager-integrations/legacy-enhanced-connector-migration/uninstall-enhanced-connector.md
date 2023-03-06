@@ -56,6 +56,7 @@ You must uninstall the Workfront with Adobe Experience Manager enhanced connecto
         <target>/apps/<path-to-project-install-folder>/install</target>
     </embedded>
     ```
+
 1. Remove the following embedded from the pom.xml file of  the project's submodule named all.
 
     ```

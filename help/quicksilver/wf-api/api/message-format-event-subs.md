@@ -3,7 +3,7 @@ content-type: api
 navigation-topic: api-navigation-topic
 title: Outbound message format for event subscriptions
 description: Outbound message format for event subscriptions
-author: John
+author: Becky
 feature: Workfront API
 exl-id: addcf5bc-a101-4bb0-93a6-46b4af67c848
 ---

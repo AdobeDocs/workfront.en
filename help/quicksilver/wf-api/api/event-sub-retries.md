@@ -3,7 +3,7 @@ content-type: api
 navigation-topic: api-navigation-topic
 title: Event subscription retries
 description: Event subscription retries
-author: John
+author: Becky
 feature: Workfront API
 exl-id: b698cb60-4cff-4ccc-87d7-74afb5badc49
 ---

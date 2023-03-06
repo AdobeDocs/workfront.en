@@ -884,7 +884,7 @@ The following table is a list of commonly used terms in Adobe Workfront:
    <p>Your Workfront administrator decides which schedule to use in determining user's availability.  </p>
    <ul>
    <li> When the [!UICONTROL Default Schedule] is used, Workfront uses the [!UICONTROL FTE] of the user found in their profile to calculate availability. </li>
-   <li> When the User's Schedule is used, Workfront uses the user's time off, <span class="preview">[!UICONTROL Work Time] value</span>, and [!UICONTROL Default Schedule]'s hours to calculate the user's [!UICONTROL FTE]. </li> </ul>
+   <li> When the User's Schedule is used, Workfront uses the user's time off, [!UICONTROL Work Time] value, and [!UICONTROL Default Schedule]'s hours to calculate the user's [!UICONTROL FTE]. </li> </ul>
     
    <p>For more information, see <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md">Configure Resource Management preferences</a>.  </p>
    <p>For more information about creating schedules in [!DNL Workfront], see <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md">Create a schedule</a>. </p>
@@ -2329,15 +2329,15 @@ The designated full time equivalency for users. A full-time user should have 100
    <td>[!UICONTROL Work Time]</td> 
    <td>  
  
-   <p><span class="preview">Represents the percentage of the Full Time Equivalent ([!UICONTROL FTE]) time that the user is available for actual work, not including overhead. [!UICONTROL Work Time] must be a decimal number up to 1, and it cannot be 0. For example, a 20% availability for actual work would be 0.2.</span>  </p>
-   </p><span class="preview">The field's default is 1, indicating that a user spends their entire [!UICONTROL FTE] on actual, project-related work.</span>   </p>
-   <p><span class="preview">The system uses this number to calculate the availability of the user for actual, project-related work. </span></p>
-   <p> <span class="preview">Schedule exceptions and time off might also affect the user capacity.</span> </p>
-   <p><span class="preview">For more information about creating schedules in Workfront, see <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md">Create a schedule</a>.</span> </p>
+   <p>Represents the percentage of the Full Time Equivalent ([!UICONTROL FTE]) time that the user is available for actual work, not including overhead. [!UICONTROL Work Time] must be a decimal number up to 1, and it cannot be 0. For example, a 20% availability for actual work would be 0.2.</p>
+   </p>The field's default is 1, indicating that a user spends their entire [!UICONTROL FTE] on actual, project-related work.  </p>
+   <p>The system uses this number to calculate the availability of the user for actual, project-related work. </p>
+   <p> Schedule exceptions and time off might also affect the user capacity. </p>
+   <p>For more information about creating schedules in Workfront, see <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md">Create a schedule</a>. </p>
     <p>Workfront calculates a user's availability depending on the Resource Management preferences in your [!UICONTROL Setup] area. For more information, see <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md/">Configure Resource Management preferences</a>. </p> 
-   <p><span class="preview">You can update the [!UICONTROL Work Time] of a user when you edit or create the user. For information, see <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md">Edit a user's profile</a></span></p> 
+   <p>You can update the [!UICONTROL Work Time] of a user when you edit or create the user. For information, see <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md">Edit a user's profile</a></p> 
    <b>TIP</b> 
-   <p><span class="preview">Set the [!UICONTROL Work Time] value to  1 to indicate that the user is available for project-related work their entire full-time equivalent.</span></p> 
+   <p>Set the [!UICONTROL Work Time] value to  1 to indicate that the user is available for project-related work their entire full-time equivalent.</p> 
    </td> 
   </tr> 
   <tr> 

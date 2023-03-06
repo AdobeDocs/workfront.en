@@ -3,7 +3,7 @@ content-type: api
 navigation-topic: api-navigation-topic
 title: Ending support for JSONP
 description: Ending support for JSONP
-author: John
+author: Becky
 feature: Workfront API
 exl-id: 681336c2-2f41-4746-8cba-be077f556742
 ---

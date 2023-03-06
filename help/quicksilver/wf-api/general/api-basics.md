@@ -3,7 +3,7 @@ content-type: api
 navigation-topic: general-api
 title: API basics
 description: API basics
-author: John
+author: Becky
 feature: Workfront API
 exl-id: d8c27915-8e1b-4804-9ef8-3a2efd57caac
 ---
@@ -430,11 +430,17 @@ To ensure optimum performance the following table shows the limitations placed&n
 
 ### Using Paginated Responses {#using-paginated-responses}
 
-To override the Default Number of Results query limitation and allow 200 results, you can include the $$LIMIT=200 filter in your query, as shown in the following example:
-<pre>GET /attask/api/v15.0/project/search?$$LIMIT=200</pre>In order to ensure reliability and performance for other tenants in the system, the maximum allowed results limit per query is 2000 objects. Attempting to specify a larger limit will result in an IllegalArgumentException error message.&nbsp;
+To override the Default Number of Results query limitation and allow 200 results, you can include the `$$LIMIT=200` filter in your query, as shown in the following example:
+<pre>GET /attask/api/v15.0/project/search?$$LIMIT=200</pre>
 
-Therefore, we recommend you consider using paginated responses for large datasets. To specify the first result that should be returned, add the $$FIRST filter. For example, the following request returns results 201-250 for a query:
-<pre>GET /attask/api/v15.0/project/search?$$FIRST=201&$$LIMIT=50</pre>
+To ensure reliability and performance for other tenants in the system, the maximum allowed results limit per query is 2000 objects. Attempting to specify a larger limit will result in an `IllegalArgumentException` error message.&nbsp;
+
+Therefore, we recommend you consider using paginated responses for large datasets. To specify the first result that should be returned, add the `$$FIRST` filter. For example, the following request returns results 201-250 for a query:
+<pre>GET /attask/api/v15.0/project/search?$$FIRST=200&$$LIMIT=50</pre>
+
+Note that in the above example, `$$FIRST=200` returns the 201st result. `$$FIRST=0` would return the first result. It may help to think of the $$FIRST value as the number of results you want to skip before returning results.
+
+To make sure your results are properly paginated, use a sorting parameter. This allows the results to be returned in the same order, so that the pagination does not repeat or skip results. For example, to sort using the object ID, use `ID_Sort=asc`.
 
 ### Creating an Access Rule
 
@@ -526,11 +532,11 @@ DELETE removes an object. In every case, the URI may include the parameter force
 ## Bulk Updates
 
 A bulk update statement updates multiple objects at the same time within a single API call. A bulk create API call is built similarly to a normal update call, as shown in the following examples:
-<pre>PUT /attask/api/v15.0/proj?updates=[{“name”:”Test_Project_1”},{“name”:”Test_Project_2”}]&method=POST&apiKey=123ab-cxxxxxxxxxxxxxxxxxxxxxxxxxx</pre>which results in a return similar to the following:
-<pre>data: [{<br>&nbsp;&nbsp;&nbsp;&nbsp;ID: “53ff8d3d003b438b57a8a784df38f6b3”,<br>&nbsp;&nbsp;&nbsp;&nbsp;name: “Test_Project_1”,<br>&nbsp;&nbsp;&nbsp;&nbsp;objCode: “PROJ”,<br>&nbsp;&nbsp;&nbsp;&nbsp;percentComplete: 0,<br>&nbsp;&nbsp;&nbsp;&nbsp;plannedCompletionDate: “2014-08-28T11:00:00:000-0400”,<br>&nbsp;&nbsp;&nbsp;&nbsp;plannedStartDate: “2014-08-28T11:00:00:000-0400”,<br>&nbsp;&nbsp;&nbsp;&nbsp;priority: 0,<br>&nbsp;&nbsp;&nbsp;&nbsp;projectedCompletionDate: “2014-08-28T16:12:00:000-0400”,<br>&nbsp;&nbsp;&nbsp;&nbsp;status: “CUR”<br>},<br>{<br>&nbsp;&nbsp;&nbsp;&nbsp;ID: “53ff8d49003b43a2562aa34eea3b6b10”,<br>&nbsp;&nbsp;&nbsp;&nbsp;name: “Test_Project_2”,<br>&nbsp;&nbsp;&nbsp;&nbsp;objCode: “PROJ”,<br>&nbsp;&nbsp;&nbsp;&nbsp;percentComplete: 0usi,<br>&nbsp;&nbsp;&nbsp;&nbsp;plannedCompletionDate: “2014-08-28T11:00:00:000-0400”,<br>&nbsp;&nbsp;&nbsp;&nbsp;plannedStartDate: “2014-08-28T11:00:00:000-0400”,<br>&nbsp;&nbsp;&nbsp;&nbsp;priority: 0,<br>&nbsp;&nbsp;&nbsp;&nbsp;projectedCompletionDate: “2014-08-28T16:12:00:000-0400”,<br>&nbsp;&nbsp;&nbsp;&nbsp;status: “CUR”<br>}]</pre>You also can do a bulk update similar to the following:
+<pre>PUT /attask/api/v15.0/proj?updates=[{"name":"Test_Project_1"},{"name":"Test_Project_2"}]&method=POST&apiKey=123ab-cxxxxxxxxxxxxxxxxxxxxxxxxxx</pre>which results in a return similar to the following:
+<pre>data: [{<br>&nbsp;&nbsp;&nbsp;&nbsp;ID: "53ff8d3d003b438b57a8a784df38f6b3",<br>&nbsp;&nbsp;&nbsp;&nbsp;name: "Test_Project_1",<br>&nbsp;&nbsp;&nbsp;&nbsp;objCode: "PROJ",<br>&nbsp;&nbsp;&nbsp;&nbsp;percentComplete: 0,<br>&nbsp;&nbsp;&nbsp;&nbsp;plannedCompletionDate: "2014-08-28T11:00:00:000-0400",<br>&nbsp;&nbsp;&nbsp;&nbsp;plannedStartDate: "2014-08-28T11:00:00:000-0400",<br>&nbsp;&nbsp;&nbsp;&nbsp;priority: 0,<br>&nbsp;&nbsp;&nbsp;&nbsp;projectedCompletionDate: "2014-08-28T16:12:00:000-0400",<br>&nbsp;&nbsp;&nbsp;&nbsp;status: "CUR"<br>},<br>{<br>&nbsp;&nbsp;&nbsp;&nbsp;ID: "53ff8d49003b43a2562aa34eea3b6b10",<br>&nbsp;&nbsp;&nbsp;&nbsp;name: "Test_Project_2",<br>&nbsp;&nbsp;&nbsp;&nbsp;objCode: "PROJ",<br>&nbsp;&nbsp;&nbsp;&nbsp;percentComplete: 0usi,<br>&nbsp;&nbsp;&nbsp;&nbsp;plannedCompletionDate: "2014-08-28T11:00:00:000-0400",<br>&nbsp;&nbsp;&nbsp;&nbsp;plannedStartDate: "2014-08-28T11:00:00:000-0400",<br>&nbsp;&nbsp;&nbsp;&nbsp;priority: 0,<br>&nbsp;&nbsp;&nbsp;&nbsp;projectedCompletionDate: "2014-08-28T16:12:00:000-0400",<br>&nbsp;&nbsp;&nbsp;&nbsp;status: "CUR"<br>}]</pre>You also can do a bulk update similar to the following:
 <pre>PUT /attask/api/v15.0/proj?Umethod=PUT&updates=[{"ID":"123abcxxxxxxxxxxxxxxxxxxxxxxxxxx","name":"Test_Project_1_ Edit"},{"ID":"123abcxxxxxxxxxxxxxxxxxxxxxxxxxx","name":"Test_Project_2_Edit"}]&apiKey=123abcxxxxxxxxxxxxxxxxxxxxxxxxxx</pre>which results in a return similar to the following:
-<pre>data: [ {<br>&nbsp;&nbsp;&nbsp;&nbsp; ID: "53ff8e15003b461d4560f7f65a440078",<br>&nbsp;&nbsp;&nbsp;&nbsp; name: "Test_Project_1_Edit",<br>&nbsp;&nbsp;&nbsp;&nbsp; objCode: "PROJ",<br>&nbsp;&nbsp;&nbsp;&nbsp; percentComplete: 0,<br>&nbsp;&nbsp;&nbsp;&nbsp; plannedCompletionDate: "2014-08-28T11:00:00:000-0400",<br>&nbsp;&nbsp;&nbsp;&nbsp; plannedStartDate: "2014-08-28T11:00:00:000-0400",<br>&nbsp;&nbsp;&nbsp;&nbsp; priority: 0,<br>&nbsp;&nbsp;&nbsp;&nbsp; projectedCompletionDate: “2014-08-28T16:16:00:000-0400”,<br>&nbsp;&nbsp;&nbsp;&nbsp; status: “CUR”<br>},<br>{<br>&nbsp;&nbsp;&nbsp;&nbsp;ID: “53ff8e19003b46238a58d303608de502”,<br>&nbsp;&nbsp;&nbsp;&nbsp;name: “Test_Project_2_Edit”,<br>&nbsp;&nbsp;&nbsp;&nbsp;objCode: “PROJ”,<br>&nbsp;&nbsp;&nbsp;&nbsp;percentComplete: 0,<br>&nbsp;&nbsp;&nbsp;&nbsp;plannedCompletionDate: “2014-08-28T11:00:00:000-0400”,<br>&nbsp;&nbsp;&nbsp;&nbsp;plannedStartDate: “2014-08-28T11:00:00:000-0400”,<br>&nbsp;&nbsp;&nbsp;&nbsp;priority: 0,<br>&nbsp;&nbsp;&nbsp;&nbsp;projectedCompletionDate: “2014-08-28T16:16:00:000-0400”,<br>&nbsp;&nbsp;&nbsp;&nbsp;status: “CUR”<br>}]</pre>If you want all operations to happen in the same transaction, add “atomic=true” to your batch API call as a request parameter. This way, if any of the operations fail, all of the operations rolled back.
+<pre>data: [ {<br>&nbsp;&nbsp;&nbsp;&nbsp; ID: "53ff8e15003b461d4560f7f65a440078",<br>&nbsp;&nbsp;&nbsp;&nbsp; name: "Test_Project_1_Edit",<br>&nbsp;&nbsp;&nbsp;&nbsp; objCode: "PROJ",<br>&nbsp;&nbsp;&nbsp;&nbsp; percentComplete: 0,<br>&nbsp;&nbsp;&nbsp;&nbsp; plannedCompletionDate: "2014-08-28T11:00:00:000-0400",<br>&nbsp;&nbsp;&nbsp;&nbsp; plannedStartDate: "2014-08-28T11:00:00:000-0400",<br>&nbsp;&nbsp;&nbsp;&nbsp; priority: 0,<br>&nbsp;&nbsp;&nbsp;&nbsp; projectedCompletionDate: "2014-08-28T16:16:00:000-0400",<br>&nbsp;&nbsp;&nbsp;&nbsp; status: "CUR"<br>},<br>{<br>&nbsp;&nbsp;&nbsp;&nbsp;ID: "53ff8e19003b46238a58d303608de502",<br>&nbsp;&nbsp;&nbsp;&nbsp;name: "Test_Project_2_Edit",<br>&nbsp;&nbsp;&nbsp;&nbsp;objCode: "PROJ",<br>&nbsp;&nbsp;&nbsp;&nbsp;percentComplete: 0,<br>&nbsp;&nbsp;&nbsp;&nbsp;plannedCompletionDate: "2014-08-28T11:00:00:000-0400",<br>&nbsp;&nbsp;&nbsp;&nbsp;plannedStartDate: "2014-08-28T11:00:00:000-0400",<br>&nbsp;&nbsp;&nbsp;&nbsp;priority: 0,<br>&nbsp;&nbsp;&nbsp;&nbsp;projectedCompletionDate: "2014-08-28T16:16:00:000-0400",<br>&nbsp;&nbsp;&nbsp;&nbsp;status: "CUR"<br>}]</pre>If you want all operations to happen in the same transaction, add "atomic=true" to your batch API call as a request parameter. This way, if any of the operations fail, all of the operations rolled back.
 
 >[!NOTE]
 >
->Atomic batch operations can only return “success: true” or an error.
+>Atomic batch operations can only return "success: true" or an error.
