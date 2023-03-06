@@ -57,9 +57,9 @@ For information about custom fields and widgets in custom forms, see [Design a f
 
 1. Begin creating or editing a custom form and adding fields, as described in [Design a form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
-1. Once you've added all of your fields, click **Section Break** and drag it into the desired position on the canvas.
+1. Click **Section Break** and drag it into the desired position on the canvas.
 
-1. On the **Field Settings** tab, configure the options you want for the section:
+1. In the right panel, configure the options you want for the section:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -109,9 +109,7 @@ For information about custom fields and widgets in custom forms, see [Design a f
     </tbody> 
    </table>
 
-1. Drag or add at least one custom field or widget to the new section.
-
-   This is required before you save the section.
+1. Drag or add at least one custom field or widget to the new section. This is required before you save the section.
 
 1. Click **Done**.
 
@@ -131,7 +129,7 @@ In a custom form with a section break configured with the Limited Edit permissio
 >
 >You add the Portfolio object type to the form, which means that the Limited Edit permission option is no longer available for the section break in the form.
 >
->An on-screen message prompts you to switch to the Edit permission, which is the most similar option to Limited Edit, and compatible with both the Project object type and the Portfolio object type.
+>An on-screen message prompts you to switch to the Edit permission, which is the least level of permissions compatible with both the Project object type and the Portfolio object type.
 
 
 ## Position custom fields and widgets in a custom form
@@ -153,7 +151,6 @@ Courtney, this is a story that got postponed after I did the work. Slated for so
    >[!NOTE]
    >
    >* You can use the **Preview** button in the upper-right corner to get an idea of how the custom fields and widgets will display in the form.
-   >* Descriptive Text fields cannot share a row. 
    >* Custom fields and widgets may not always display the same way in the form, depending on how much screen space is available when a user is viewing it. For example, the third field in a row of fields may wrap to the next row of fields if horizontal space is limited.
 
 1. (Optional)To position a custom field or widget above or below another one, drag it above or below until a horizontal blue line appears between the items.
