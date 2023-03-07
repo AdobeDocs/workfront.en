@@ -6,7 +6,9 @@ title: Adobe Workfront Boards video demonstrations
 description: These videos will introduce you to the different types of boards available in Adobe Workfront and show examples of how you can use boards in your daily work.
 author: Lisa
 ---
-# Adobe Workfront Boards video demonstrations 
+# Adobe Workfront Boards video demonstrations
+
+These videos will introduce you to the different types of boards available in Adobe Workfront and show examples of how you can use boards in your daily work.
 
 ## Types of boards
 
