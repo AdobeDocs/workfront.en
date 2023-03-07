@@ -121,7 +121,7 @@ Your [!DNL SharePoint] Client Secret expires once a year. To ensure continued ac
 1. Enter the new Client Secret into the **[!UICONTROL Client Secret]** field.
 1. Click **[!UICONTROL Save]**.
 
-
+<!--
 
 ## Instructions for setting up the legacy SharePoint integration
 
@@ -330,10 +330,11 @@ For instructions, see [Link an external document to [!DNL Workfront]](../../docu
 >If the user who linked a folder no longer has access to the external application, [!DNL Workfront] can no longer access the contents of the folder. This may happen, for example, if the user who originally linked the folder leaves the company. To ensure continued access, a user with access to the folder must re-link the folder.
 > 
 
+-->
+
 ## Troubleshooting
 
 * [Problem: Users experience authentication-based errors when using the [!DNL SharePoint] integration.](#problem-users-experience-authentication-based-errors-when-using-the-sharepoint-integration) 
-* [Problem: As a [!DNL Workfront] user, I am unable to provision a new [!DNL SharePoint] instance. When I attempt to do I see an error.](#problem-as-a-workfront-user-i-am-unable-to-provision-a-new-sharepoint-instance-when-i-attempt-to-do-i-see-an-error) 
 * [Problem: When attempting to browse [!DNL SharePoint] files in [!DNL Workfront], I do not see any or all of my site collections.](#problem-when-attempting-to-browse-sharepoint-files-in-workfront-i-do-not-see-any-or-all-of-my-site-collections) 
 * [Problem: I cannot access previously linked folders and documents in [!DNL SharePoint].](#problem-i-cannot-access-previously-linked-folders-and-documents-in-sharepoint)
 
@@ -341,7 +342,7 @@ For instructions, see [Link an external document to [!DNL Workfront]](../../docu
 
 Solutions:
 
-Users must be a member of a group that has appropriate permissions to the [!DNL SharePoint] site.
+Users must have appropriate permissions to the [!DNL SharePoint] site.
 
 Users with [!UICONTROL Full Control] access have all necessary permissions for your [!DNL SharePoint] integration. If you do not want to grant Full Control access to your users, you must grant the following permissions:
 
@@ -370,6 +371,8 @@ Users with [!UICONTROL Full Control] access have all necessary permissions for y
 
 For instructions on creating and editing permissions levels, see [How to create and edit permission levels](https://docs.microsoft.com/en-us/sharepoint/how-to-create-and-edit-permission-levels) in the Microsoft documentation.
 
+<!--
+
 ### Problem: As a [!DNL Workfront] user, I am unable to provision a new [!DNL SharePoint] instance. When I attempt to do I see an error. {#problem-as-a-workfront-user-i-am-unable-to-provision-a-new-sharepoint-instance-when-i-attempt-to-do-i-see-an-error}
 
 Solutions:
@@ -380,11 +383,15 @@ This can be caused by a number of things, originating in either [!DNL Workfront]
 * The user has [!UICONTROL Full Control] permission to the Site Collection used for authentication.
 * The Site App is listed under [!UICONTROL Site App Permissions] for the [!UICONTROL Site Collection] used for authentication.
 
+-->
+
 ### Problem: When attempting to browse [!DNL SharePoint] files in [!DNL Workfront], I do not see any or all of my site collections. {#problem-when-attempting-to-browse-sharepoint-files-in-workfront-i-do-not-see-any-or-all-of-my-site-collections}
 
 Solutions:
 
 To see a site collection in [!DNL Workfront], the following conditions must be met:
+
+<!--
 
 * The site collection must be registered in the [!DNL Workfront] [!DNL SharePoint] Integration instance.
 
@@ -393,10 +400,12 @@ To see a site collection in [!DNL Workfront], the following conditions must be m
    1. Go to [!UICONTROL Setup] > [!UICONTROL Documents] > [!UICONTROL [!DNL SharePoint] Integration].
    1. Edit the [!DNL SharePoint] Integration instance information.
    1. Verify that the site collection is listed under [!UICONTROL Visible Site Collections].
+   -->
 
 * The user must have view access to the site collection in [!DNL SharePoint].
-* To verify this in [!DNL SharePoint], go to [!DNL SharePoint], and open the site collection > [!UICONTROL Settings] > [!UICONTROL Site permissions].
-* The [!DNL SharePoint] Site App must have access to the site collection.
+
+  To verify this in [!DNL SharePoint], go to [!DNL SharePoint], and open the site collection > [!UICONTROL Settings] > [!UICONTROL Site permissions].
+<!--* The [!DNL SharePoint] Site App must have access to the site collection.
 
   To verify this in [!DNL SharePoint]:
 
@@ -405,6 +414,8 @@ To see a site collection in [!DNL Workfront], the following conditions must be m
    1. (Conditional) If the Site App is not listed, add to the site collection using _layouts/15/appinv.aspx.
 
       For information about adding the site collection, see Granting Write Permissions To The Site App.
+      
+-->
 
 ### Problem: I cannot access previously linked folders and documents in [!DNL SharePoint]. {#problem-i-cannot-access-previously-linked-folders-and-documents-in-sharepoint}
 
@@ -416,8 +427,10 @@ To ensure continued access, a user with access to the folder must re-link the fo
 
 For information on linking folders from external providers, see [Link documents from external applications](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
 
+<!--
+
 ### Problem: I see a "404 not found" error when attempting to add a document from [!DNL Sharepoint]
 
 #### Solution:
 
-This error might occur if one of the sites configured in the [!UICONTROL Visible Site Collections] list has been deleted in Sharepoint. Check the [!UICONTROL Visible Site Collections] list, and remove any sites that have been deleted in Sharepoint.
+This error might occur if one of the sites configured in the [!UICONTROL Visible Site Collections] list has been deleted in Sharepoint. Check the [!UICONTROL Visible Site Collections] list, and remove any sites that have been deleted in Sharepoint.-->
