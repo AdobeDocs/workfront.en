@@ -11,6 +11,7 @@ exl-id: f9b8b721-d4ba-4ed5-b7a4-ad3610cbc18e
 
 This section contains the following articles:
 
+* [Adobe Workfront Boards video demonstrations](/help/quicksilver/agile/get-started-with-boards/boards-video-demonstrations.md)
 * [Boards early feature opt-in](../../agile/get-started-with-boards/boards-early-feature-opt-in.md)
 * [Use the boards dashboard](../../agile/get-started-with-boards/use-boards-page.md)
 * [Create or edit a board](../../agile/get-started-with-boards/create-edit-board.md)
