@@ -12,6 +12,7 @@ role: Admin
 # Manage custom forms and fields
 
 * [Share a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md)
+* [Access for a shared custom field you want to use](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/access-for-a-shared-custom-form-you-want-to-use.md) 
 * [Reactivate or deactivate a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/activate-deactivate-form.md)
 * [Reference custom forms in reports](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/reference-custom-forms-in-report.md)
 * [View reports that use a custom field or widget](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/view-all-reports-that-use-a-particular-custom-field.md)

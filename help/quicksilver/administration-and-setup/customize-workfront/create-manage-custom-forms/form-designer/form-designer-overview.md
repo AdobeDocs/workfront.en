@@ -18,6 +18,12 @@ The new form designer has a new canvas-style workspace that allows you to view t
 
 <!-- add screenshot when field settings empty state is ready -->
 
+## How to access the new form designer
+
+There is a new button at the top of both the new form designer and the legacy form builder. You can use this button to switch between the legacy builder and the new designer.
+
+<!-- screenshot if this button text is updated -->
+
 ## New functionality available with the form designer
 
 With the new form designer, we've added the ability to 
@@ -36,6 +42,8 @@ With the new form designer, we've added the ability to
 
 The following are not currently available in the form designer but will be added soon:
 
+* Adjust the size of descriptive text
+
 * Display/Skip logic  
 
 * Filter for typeahead fields 
@@ -46,7 +54,7 @@ The following are not currently available in the form designer but will be added
 
 ## Functionality removed from the form designer
 
-We've removed the following functionality from inside form designer. You can still access it in **Setup** > **Custom Forms**.
+We've removed the following functionality from inside form designer:
 
 
 * Form Settings, Form Sharing, Field Sharing tabs  
@@ -63,10 +71,3 @@ We've removed the following functionality from inside form designer. You can sti
     >[!NOTE]
     >
     >You can find this in Setup > Interface > Update Feeds 
-
-
-## How to access the new form designer
-
-There is a new button at the top of both the new form designer and the legacy form builder. You can use this button to switch between the legacy builder and the new designer.
-
-<!-- screenshot if this button text is updated -->
