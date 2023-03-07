@@ -52,7 +52,7 @@ You must have the following to perform the steps in this article:
    In the view that appears, you can review all custom forms that have been created for your organization. You can also see who created each form, which object type it works with, and whether it is active.
 
 1. Select the custom form you want to rename, then click **Edit**.
-1. To change the title, click **Edit** icon ![](assets/edit-icon.png) next to the form name.
+1. To change the title, click on the form name.
 1. To change the description, click into the description textbox.
 
 1. Click **Save and Close**.

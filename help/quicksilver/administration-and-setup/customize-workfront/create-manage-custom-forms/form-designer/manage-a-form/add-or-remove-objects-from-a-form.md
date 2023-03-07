@@ -45,7 +45,14 @@ You must have the following to perform the steps in this article:
 
 ## Add object types to an existing custom form 
 
-You can add additional object types to the form so that it can be attached to more objects.
+You can add additional object types to the form so that it can be attached to multiple objects. 
+
+>[!NOTE]
+>
+>Section break permissions can be impacted by the object type. The Limited Edit permission for custom form section breaks is available for only the Project, Task, Issue, and User object types.
+>
+>For more information, see [How multiple object types can affect section break permissions](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md#how-multiple-object-types-can-affect-section-break-permissions).
+
 
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
 

@@ -92,8 +92,9 @@ To reuse an existing calculated custom field:
 
    ![](assets/field-library.png)
 
-1. Find the **Calculated** section, then drag the field or widget here you want it in the custom form.
-1. (Optional) Repeat the previous step to add any other fields or widgets.
+1. Use the search box or expand the **Calculated** section to locate the calculated field you need, then drag the field where you want it to appear in the custom form.
+
+1. (Optional) Repeat the previous step to add any other fields.
 
    >[!NOTE]
    >
@@ -207,11 +208,11 @@ To reuse an existing calculated custom field:
 
          `{project}.{porfolio}.{owner}`
 
-         This would determine the following: From the object of the custom form (a task), you can access the next object related to the task (a project). From there, you can access the next related object to the project (a portfolio), then to the project (a portfolio), then reference the fields defined for portfolio object (the owner)
+         This would determine the following: From the object of the custom form (a task), you can access the next object related to the task (a project). From there, you can access the next related object to the project (a portfolio), then reference the fields defined for portfolio object (the owner)
 
          **Name syntax for referencing a custom field**
 
-         When you reference another custom field in a calculated custom field, you need to enter the name of the field appears as it displays in the Workfront user interface.
+         When you reference another custom field in a calculated custom field, you need to enter the name of the field as it displays in the Workfront user interface.
 
          For example, to reference the selected option in a custom field labeled Executive sponsor, you would type the following:
 
@@ -293,10 +294,6 @@ To reuse an existing calculated custom field:
 
       +++
    1. Click **Minimize** when you are finished creating the calculation for the calculated custom field.
-
-      >[!NOTE] 
-      >
-      >In the display area on the right, the field displays *12345.* This is merely an indicator to remind you that the field is a calculated custom field while you are creating or editing the custom form. When the form is attached to an object and users are filling it out, they see the result of the calculation in the field, never the *12345* indicator.
 
    1. (Optional) Use any of the following options to further configure your calculated custom field:
 
