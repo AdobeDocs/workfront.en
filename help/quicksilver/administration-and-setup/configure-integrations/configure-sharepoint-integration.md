@@ -66,7 +66,7 @@ Individual users can link documents through the new [!DNL SharePoint] integratio
 
 The first time a user connects the [!DNL Workfront] [!DNL SharePoint] integration to their [!DNL SharePoint] account, they will see and agree to all of the permissions that [!DNL Workfront] uses when interacting with their [!UICONTROL SharePoint] account. Read permissions allow [!DNL Workfront] to see and access files on [!DNL SharePoint], and write permissions allow the user to upload files to [!DNL SharePoint].
 
-![Sharepoint permissions](assets/sharepoint-permissions.png)![](undefined)
+![Sharepoint permissions](assets/sharepoint-permissions.png)
 
 For instructions on linking documents through the new [!DNL SharePoint] integration, see [Link an external document to [!DNL Workfront]](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md#link-an-external-document-to-workfront)
 
