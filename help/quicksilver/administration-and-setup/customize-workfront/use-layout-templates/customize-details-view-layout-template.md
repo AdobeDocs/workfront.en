@@ -34,7 +34,7 @@ The changes you make to the Details view for an object also determine the availa
 
 <!--drafted for bulk editing proejcts - make this bullet live and in yellow at Preview: 
 
-* <span class="preview">"Edit objects" screens, such as Edit Projects, when editing projects in bulk</span>
+* <span class="preview">"Edit objects" screens when editing projects in bulk, like Edit Projects</span>
 
   <span>![](assets/customize-edit-projects-in-bulk-box-with-layout-template.png)</span>
   -->
