@@ -25,7 +25,7 @@ A new Canvas Dashboards option on the left panel of the existing dashboards land
 
 ### Add Canvas Dashboards to the Dashboards left panel
 
-> [!IMPORTANT]
+>[!IMPORTANT]
 >
 >You must have at least View rights for Reports and Dashboards in order to toggle the Canvas Dashboards item in the Layout Template.
 
