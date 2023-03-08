@@ -142,6 +142,10 @@ The following table outlines major features of boards along with their current r
    <td>Define a default status for cards moved into columns</td>
    <td>Partially released</td>
   </tr>
+  <tr>
+   <td>Log hours on connected cards</td>
+   <td>Partially released</td>
+  </tr>
  </tbody> 
 </table>
 

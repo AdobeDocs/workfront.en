@@ -3,7 +3,7 @@ content-type: api
 navigation-topic: api-navigation-topic
 title: What's New in API Version 10
 description: Updated Resources
-author: John
+author: Becky
 feature: Workfront API
 exl-id: 8ac384ae-5d65-4c0e-98c1-cf38cfbff460
 ---

@@ -9,6 +9,8 @@ exl-id: 422d262e-e19d-4070-85f1-77ecb7430342
 ---
 # Remove filters, views, and groupings
 
+<span class="preview">Note that in the Preview environment, the enhanced filter experience (previously called "beta") is now the default. These enhanced filters are now "standard" and the older filter experience is "legacy."</span>
+
 You can remove a filter, view, or grouping from lists and reports if you created them or they have been shared with you. You cannot remove default filters, views, or groupings.
 
 ## Access requirements

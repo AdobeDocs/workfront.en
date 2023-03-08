@@ -4,7 +4,7 @@ product-area: documents
 navigation-topic: documents-webhooks-api
 title: Rename a document or folder (not yet implemented)
 description: Rename a document or folder
-author: John
+author: Becky
 feature: Workfront API, Digital Content and Documents
 exl-id: 5b1a4a02-a7fd-41f2-9adb-74b40606270b
 ---

@@ -3,7 +3,7 @@ content-type: api
 navigation-topic: general-api
 title: Event Subscription delivery requirements
 description: Event Subscription delivery requirements
-author: John
+author: Becky
 feature: Workfront API
 exl-id: 1b621b35-6c8b-4f6a-bcba-ed6cbfe83a8c
 ---

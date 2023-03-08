@@ -4,7 +4,7 @@ product-area: documents
 navigation-topic: documents-webhooks-api
 title: Get OAuth2 Tokens
 description: Get OAuth2 Tokens
-author: John
+author: Becky
 feature: Workfront API
 exl-id: f3a2630d-d34e-4d36-b2bb-707ba0d3258e
 ---

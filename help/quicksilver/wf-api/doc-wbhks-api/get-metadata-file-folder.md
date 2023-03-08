@@ -4,7 +4,7 @@ product-area: documents
 navigation-topic: documents-webhooks-api
 title: Get metadata for a file or folder
 description: Get metadata for a file or folder
-author: John
+author: Becky
 feature: Workfront API
 exl-id: 7b594df5-c87f-45d4-b84a-cae17171e906
 ---
