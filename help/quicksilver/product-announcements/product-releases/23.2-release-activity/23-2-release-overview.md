@@ -375,6 +375,10 @@ Explore the latest updates made to learning programs, learning paths, videos, an
 
 The following functionality is soon to be removed from Workfront:
 
+#### **Dashboard external pages no longer support dashboard URLs**
+
+To improve dashboard stability and load times, external pages in dashboards will no longer be able to reference dashboard URLs. System administrators for accounts that contain any external pages referencing dashboards will receive an in-app notification to alert them of this change. For more information, see [Embed an external page in a dashboard](/help/quicksilver/reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md).
+
 #### **Changes to the Workfront Default API**
 
 To ensure that API calls can take advantage of the most up-to-date Workfront API functionality, we're updating the Default API. When an API call does not specify a version of the API, the call is made to the Default API. 
