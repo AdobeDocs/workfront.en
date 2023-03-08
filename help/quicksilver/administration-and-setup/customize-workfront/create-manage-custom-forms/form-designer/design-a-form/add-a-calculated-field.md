@@ -69,7 +69,7 @@ You can also have a different calculation for the same field, on the new form. K
 
 >[!IMPORTANT]
 >
->Calculated custom fields can become outdated over time. To ensure that you always view the up-to-date calculation in these fields, do one of the following:
+>Changes in calculated expressions can cause the field value on objects to become outdated. To ensure that you always view the up-to-date calculation in these fields, do one of the following:
 >
 >* After saving an object where you have edited data in an attached custom form, click the More icon ![](assets/more-icon.png) on the object's main page, then Recalculate Custom Expressions.
 >* Select the Recalculate Custom Expressions option when editing objects in bulk.
@@ -198,8 +198,6 @@ To reuse an existing calculated custom field:
          
          `{project}.{DE:profit}`
 
-         If you're not sure what the object type of the parent object will be because the custom form is configured for multiple object types, you can use the wildcard filter variable `$$OBJCODE` to allow the calculation to work for each of the possible types. For more information, see the Calculated custom fields in multi-object custom forms section below.
-
          **Separate items with periods**
 
          When you reference a related object in a calculated custom field, you must separate object names and attributes with periods.
@@ -229,22 +227,20 @@ To reuse an existing calculated custom field:
 
          **Calculated custom fields in multi-object custom forms**
 
-         In a multi-object custom form, the selected object types must be compatible with all fields referenced in the form's calculated custom fields. If there is an incompatibility, a message alerts you to make adjustments.
+         In a multi-object custom form, the selected object types must be compatible with at lesat one field referenced in the form's calculated custom fields. Fields not compatable with the object will display N/A on the form. 
+
+         To ensure the calculated field is showing a correct result for all object types, you must use `$$OBJCODE` to define a calculation for each object type.
 
          >[!INFO]
          >
          >**Example:**
          >
-         >In a custom form configured to work with the Task object type, you create a calculated custom field named In Charge. You configure it to reference the built-in field so that it can show the name of the primary assignee in charge whenever the form is attached to a task:
+         >In a custom form configured to work with projects, tasks, and issues, you can use the following formula to display the object type:
          >
-         >`{assignedTo}.{name}`
+         >`IF($$OBJCODE="PROJ","This is a project",IF($$OBJCODE="TASK","This is a task","This is an issue"))`
          >
-         >Later, you add the Project object type to the custom form. A warning message tells you that the Project object type is incompatible with the calculated custom field.
-
-         When this occurs, you can do one of the following:
-
-         * Remove one of the two incompatible items from the custom form—either the object type or the referenced calculated custom field.
-         * Keep both items and use the wildcard filter variable `$$OBJCODE` as a condition in an IF expression to create two different versions of the In Charge field. This allows the field to function successfully, no matter which type of object the form is attached to. 
+         >On a project the field will show "This is a project", on a task it will show "This is a task", and on an issue it will say "This is an issue".
+         
 
          >[!INFO]
          >

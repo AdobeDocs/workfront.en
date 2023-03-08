@@ -22,7 +22,7 @@ The new form designer has a new canvas-style workspace that allows you to view t
 
 There is a new button at the top of both the new form designer and the legacy form builder. You can use this button to switch between the legacy builder and the new designer.
 
-<!-- screenshot if this button text is updated -->
+![](assets/switch-views.png)
 
 ## New functionality available with the form designer
 
