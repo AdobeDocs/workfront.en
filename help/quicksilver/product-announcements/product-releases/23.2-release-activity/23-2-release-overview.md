@@ -16,11 +16,11 @@ For tips on preparing for the upcoming release, see [Prepare for an Adobe Workfr
 
 ## Release webinar
 
-There will not be a release webinar for 23.2. Instead, we invite you to register for Adobe Summit to watch the following Workfront sessions: 
+In lieu of a release webinar, we invite you to register for Adobe Summit to watch the following Workfront sessions: 
 
-[Impactful Experiences: From Content Creation to Personalization](https://reg.adobe.com/flow/adobe/as23/sessions/page/catalog/session/1661982243928001D5Z9) =on March 21, 2023, to learn new ways to create, manage, and personalize content and deliver impactful experiences with greater efficiency. This session will be live streamed for virtual audiences.  
+[Impactful Experiences: From Content Creation to Personalization](https://reg.adobe.com/flow/adobe/as23/sessions/page/catalog/session/1661982243928001D5Z9) on March 21, 2023, to learn new ways to create, manage, and personalize content and deliver impactful experiences with greater efficiency. This session will be live streamed for virtual audiences.  
 
-[The Future of Adobe Workfront](https://reg.adobe.com/flow/adobe/as23/sessions/page/catalog/session/1661982239896001DoHU)on March 23, 2023, to see the vision for Workfront and its place within the Adobe ecosystem and get a sneak peek of the future roadmap. This session will be recorded and available later as on-demand content.  
+[The Future of Adobe Workfront](https://reg.adobe.com/flow/adobe/as23/sessions/page/catalog/session/1661982239896001DoHU) on March 23, 2023, to see the vision for Workfront and its place within the Adobe ecosystem and get a sneak peek of the future roadmap. This session will be recorded and available later as on-demand content.  
 
 <span class="preview">Off-cycle features (those releasing to Production prior to the 23.2 release date) are highlighted in yellow.</span>
 
