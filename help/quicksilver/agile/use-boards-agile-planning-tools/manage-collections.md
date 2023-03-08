@@ -41,7 +41,7 @@ You must have the following access to perform the steps in this article:
 ## Create a collection
 
 1. Click the **[!UICONTROL Main Menu]** icon ![Main Menu](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe Workfront], then click **[!UICONTROL Boards]**.
-1. Click **[!UICONTROL Create new]** in the [!UICONTROL Collections] area of the dashboard.
+1. Click **[!UICONTROL Add collection]** in the [!UICONTROL Collections] area of the dashboard.
 1. Type a name to replace **[!UICONTROL Untitled Collection]** and press Enter.
 
    You can add boards to the collection or click [!UICONTROL **All Boards**] to return to the dashboard.
@@ -49,7 +49,7 @@ You must have the following access to perform the steps in this article:
 ## Create a new board in a collection
 
 1. If you are not already in a collection, click [!UICONTROL **View collection**] on the dashboard to open an existing collection.
-1. Click **[!UICONTROL Create new]** on the [!UICONTROL Boards] tab of the collection.
+1. Click **[!UICONTROL Add board]** on the [!UICONTROL Boards] tab of the collection.
 1. Select a template for the board.
 
 | Template | Description |
