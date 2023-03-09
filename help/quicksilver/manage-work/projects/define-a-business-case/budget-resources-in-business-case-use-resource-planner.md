@@ -8,10 +8,6 @@ exl-id: 51ebb940-111c-442f-a8a6-287a04d2db68
 ---
 # Budget resources in the Business Case using the Resource Planner
 
-<!--drafted for the Budgeted Hours story: 
-
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> -->
-
 As part of resource planning, you can use the project-level Resource Planner to budget the job roles necessary for completing the work in a project when you build the business case.
 
 For more information about creating a business case, see [Create a Business Case for a project](../../../manage-work/projects/define-a-business-case/create-business-case.md).
@@ -182,6 +178,4 @@ To apply Resource Pools and budget project resources in the Business Case for a 
 
    The budgeting information specified in the Business Case is also displayed in the Resource Planner.
 
-   <!--drafted for Budgeted Hours: 
-   <span class="preview">When you copy a project, you have the option to also copy the Budgeted Hours to the new project. Only hours budgeted in the Resource Planner are copied. For more information, see [Copy a project](../manage-projects/copy-project.md)</span>
-   -->
+   When you copy a project, you have the option to also copy the Budgeted Hours to the new project. Only hours budgeted in the Resource Planner are copied. For more information, see [Copy a project](../manage-projects/copy-project.md).

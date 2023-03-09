@@ -9,8 +9,6 @@ exl-id: 1bb133a8-eb76-46b8-969f-37f57f9453b4
 ---
 # Copy a project
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> 
-
 <!--
 <(LINKED TO THE PRODUCT IN THE COPY PROJECT BOX)</p>
 -->
@@ -27,7 +25,7 @@ You can copy a project rather than create one from scratch. You can copy only on
 >* Notes  
 >* Hours
 >* Cross-project predecessors
->* <span class="preview">Budgeted hours</span> 
+>* Budgeted hours 
 >
 >The following items are always copied from an existing project to a new one:
 >
@@ -172,12 +170,12 @@ To copy a project:
      </tr>
 
   <tr> 
-      <td role="rowheader"><span class="preview">Budgeted hours</span></td> 
-      <td> <p><span class="preview">Removes the hours budgeted in the Resource Planning area of the project's Business Case from the copied project. <span class="preview"></p> 
+      <td role="rowheader">Budgeted hours</td> 
+      <td> <p>Removes the hours budgeted in the Resource Planning area of the project's Business Case from the copied project.</p> 
     
    <b>NOTE</b>
     
-   <span class="preview">Hours budgeted using the Scenario Planner are never copied to the new project because the new project is not linked to an initiative in the Scenario Planner. For more information, see <a href="../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md">Budget resources in the Business Case using the Scenario Planner</a></span>
+   Hours budgeted using the Scenario Planner are never copied to the new project because the new project is not linked to an initiative in the Scenario Planner. For more information, see <a href="../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md">Budget resources in the Business Case using the Scenario Planner</a>
    </tr></td>
     <tr> 
       <td role="rowheader">Financial Information</td> 

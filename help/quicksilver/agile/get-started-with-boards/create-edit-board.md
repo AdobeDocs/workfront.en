@@ -37,7 +37,7 @@ You must have the following access to perform the steps in this article:
 ## Create a new board
 
 1. Click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe Workfront], then click **[!UICONTROL Boards]**.
-1. To create a standalone board, click **[!UICONTROL Create New]** in the [!UICONTROL Boards] area. To add a board to a collection, see [Manage collections](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md).
+1. To create a standalone board, click **[!UICONTROL Add board]** in the [!UICONTROL Boards] area. To add a board to a collection, see [Manage collections](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md).
 
    >[!NOTE]
    >
