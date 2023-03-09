@@ -13,7 +13,7 @@ exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
 
 <!--
 <p>***Linked to many articles,</p>
-<p>The Resource Pools part also duplicates in the "Working with Resource Pools" article -</p>
+<p>The Resource Pools part also duplicates in the "Working with Resource Pools" article </p>
 <p>The Update Type section is also documented in Selecting the Project Update Type article</p>
 <p>Keep the reference link to the other article that also documents the Update Type) </p>
 <p>(NOTE 2: information described here also exists in these articles:</p>
@@ -104,7 +104,7 @@ Consider the following when editing projects:
 
 ## Edit a project
 
-Editing a project allows you to modify information and settings for the project, as well as tasks and issues on the project.
+By editing a project you can modify information and settings for the project, as well as tasks and issues on the project.
 
 Some settings mentioned in this article might be modified from their default status by their state in the template from which the project was created. For information about editing templates, see [Edit project templates](../../../manage-work/projects/create-and-manage-templates/edit-templates.md).
 
