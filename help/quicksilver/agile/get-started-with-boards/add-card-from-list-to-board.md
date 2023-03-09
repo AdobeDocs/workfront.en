@@ -30,7 +30,7 @@ You must have the following access to perform the steps in this article:
   </tr>
   <tr>
    <td role="rowheader"><strong>Object permissions</strong></td>
-   <td> <p>[!UICONTROL View] or higher permissions to the task or issue</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td>
+   <td> <p>[!UICONTROL View] or higher permissions to the task or issue</p> <p>For information on requesting additional access, see <a href="/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td>
   </tr>
  </tbody>
 </table>
