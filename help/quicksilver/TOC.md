@@ -1576,6 +1576,7 @@ feature-set: Workfront
       * [Print a dashboard](reports-and-dashboards/dashboards/creating-and-managing-dashboards/print-dashboard.md)
       * [Share a dashboard](reports-and-dashboards/dashboards/creating-and-managing-dashboards/share-dashboard.md)
       * [Remove an External Page from a dashboard](reports-and-dashboards/dashboards/creating-and-managing-dashboards/remove-external-page-from-dashboard.md)
+      * [Canvas Dashboards overview](reports-and-dashboards/dashboards/creating-and-managing-dashboards/canvas-dashboards-overview.md)
   * Enhanced analytics {#enhanced-analytics}
     * [Enhanced analytics](enhanced-analytics/enhanced-analytics.md)
     * [Enhanced analytics overview](enhanced-analytics/enhanced-analytics-overview.md)
