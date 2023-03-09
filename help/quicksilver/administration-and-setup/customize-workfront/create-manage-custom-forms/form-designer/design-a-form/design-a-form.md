@@ -217,8 +217,12 @@ To add a text field:
     </tr>
    </table>
 
-1. (Optional) Repeat the previous step to add any other fields or widgets.
-    {{copy-field}}
+1. (Optional) Repeat the previous step to add any other fields or widgets. 
+
+or
+
+To copy a field, hover over a field, and click the copy icon.
+![copy icon](assets/copy-field.png)
 
 1. To save your changes, click **Apply** and move on to another section to continue building your form.
 
