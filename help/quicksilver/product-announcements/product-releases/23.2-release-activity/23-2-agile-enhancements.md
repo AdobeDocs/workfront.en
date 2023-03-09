@@ -17,7 +17,7 @@ You can now add existing tasks or issues to a Workfront board directly from a li
 
 Also, the Boards field is now available to add to lists and reports for tasks or issues. This field displays all boards that a task or issue has been added to.
 
-For more information, see [Add existing tasks or issues to a board](/help/quicksilver/agile/get-started-with-boards/add-card-from-list-to-board.md). <!--This article will not be available until I verify the feature is released to Preview and publish the article. -->
+For more information, see [Add existing tasks or issues to a board](/help/quicksilver/agile/get-started-with-boards/add-card-from-list-to-board.md).
 
 ## Log hours on connected cards on a board
 
