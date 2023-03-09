@@ -56,8 +56,8 @@ In lieu of a release webinar, we invite you to register for Adobe Summit to watc
                         <p>With the new form designer, we've added the ability to 
                         <ul>
                         <li><strong>Copy a field</strong>: You can now copy existing fields by clicking on the Copy icon on the fields directly from the canvas.</li>
-                        <li><strong>Change the size for Descriptive text</strong>: You can now assign small, medium, or large sizes to Descriptive text fields. You can also use them on the same row with other fields. </li>
                         <li><strong>Use a Default section</strong>: If the form creator has not added a section at the top of the form, a Default section is now visible in the canvas, so that users can adjust the permissions for fields that have no custom section assigned. </li>
+                        <li><strong>Change the size for Descriptive text</strong>: You can now assign small, medium, or large sizes to Descriptive text fields. You can also use them on the same row with other fields. <span style="color: #ff0000;"> Changing the size for the descriptive text has been delayed temporarily but is coming soon.</span></li> 
                         </ul>
                         </p>
                     </td>
@@ -256,7 +256,7 @@ In lieu of a release webinar, we invite you to register for Adobe Summit to watc
                                 <p>Preview release: March 9, 2023<br /></p>
                             </li>
                             <li>
-                                 <p><span class="preview">Production release: Starting March 23, this will release to production in a phased rollout.</span></p><!-- confirm date with Alina-->
+                                 <p><span class="preview">Production release: Starting March 23, this will release to production in a phased rollout that will complete on May 11, 2023</span></p>
                             </li>
                         </ul>
                     </td>

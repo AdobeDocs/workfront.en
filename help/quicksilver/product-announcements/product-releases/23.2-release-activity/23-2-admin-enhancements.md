@@ -19,9 +19,9 @@ With the new form designer, we've added the ability to
 
 * **Copy a field**: You can now copy existing fields by clicking on the Copy icon on the fields directly from the canvas. 
 
-* **Change the size for Descriptive text**: You can now assign small, medium, or large sizes to Descriptive text fields. You can also use them on the same row with other fields. 
-
 * **Use a Default section**: If the form creator has not added a section at the top of the form, a Default section is now visible in the canvas, so that users can adjust the permissions for fields that have no custom section assigned. 
+
+* **Change the size for Descriptive text**: You can now assign small, medium, or large sizes to Descriptive text fields. You can also use them on the same row with other fields. <span style="color: #ff0000;"> Changing the size for the descriptive text has been delayed temporarily but is coming soon.</span></li> 
 
 For more information, see [Form designer overview](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/form-designer-overview.md).<!--link is to new article-->
 
