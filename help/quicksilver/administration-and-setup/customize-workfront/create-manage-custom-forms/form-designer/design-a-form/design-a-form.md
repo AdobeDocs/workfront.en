@@ -118,7 +118,9 @@ You can use new or existing fields when designing your custom form.
     >[!NOTE]
     >
     >Text fields with formatting are not available for Workfront mobile apps (available in coming releases).
+
 * **Descriptive text**: Allows you to include instructions and link to pages outside Workfront.
+
 +++
 
 To add a text field: 
@@ -128,7 +130,7 @@ To add a text field:
     * Single Line Text:
     * Paragraph Text
     * Text field with formatting
-    * Descriptive texts
+    * Descriptive text
 
     ![](assets/drag-field-to-section.png)
 
@@ -139,6 +141,17 @@ To add a text field:
     <td>Input into</td>
     <td>Description</td>
     <td>Available for </td>
+    </tr>
+    <tr>
+    <td>Size</td>
+    <td><p>Change the size of the text fields on the form.<p>
+   </td>
+    <td><ul>
+    <li>Single line text</li>
+    <li>Paragraph text</li>
+    <li>Text with formatting</li>
+    <li>Descriptive text - Coming soon</li>
+    </ul></td>
     </tr>
     <tr>
     <td>Label</td>
