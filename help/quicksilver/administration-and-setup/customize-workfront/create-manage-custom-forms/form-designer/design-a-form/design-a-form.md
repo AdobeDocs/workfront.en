@@ -219,10 +219,11 @@ To add a text field:
 
 1. (Optional) Repeat the previous step to add any other fields or widgets. 
 
-or
+    or
 
-To copy a field, hover over a field, and click the copy icon.
-![copy icon](assets/copy-field.png)
+    To copy a field, hover over a field, and click the copy icon.
+
+    ![copy icon](assets/copy-field.png)
 
 1. To save your changes, click **Apply** and move on to another section to continue building your form.
 
@@ -359,6 +360,20 @@ To add radio buttons and checkboxes:
      </tr> 
     </tbody> 
     </table>
+
+1. (Optional) Repeat the previous step to add any other fields or widgets. 
+
+    or
+
+    To copy a field, hover over a field, and click the copy icon.
+    
+    ![copy icon](assets/copy-field.png)
+
+1. To save your changes, click **Apply** and move on to another section to continue building your form.
+
+    or
+
+    Click **Save and Close**. 
 
 ### Add typeahead and date fields
 
