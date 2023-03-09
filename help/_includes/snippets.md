@@ -58,9 +58,10 @@ You can make sure you are associating the right group with the team by hovering 
 
 ## Copy a field {#copy-field}
 
-To copy a field, hover over a field, and click the copy icon.
-
-![copy icon](assets/copy-field.png)
+>[!TIP]
+>
+>To copy a field, hover over a field, and click the copy icon.
+>![copy icon](assets/copy-field.png)
 
 <!-- Agile -->
 
