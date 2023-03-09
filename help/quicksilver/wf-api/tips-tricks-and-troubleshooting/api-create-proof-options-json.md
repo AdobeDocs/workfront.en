@@ -38,7 +38,7 @@ For an overview of the ProofHQ&nbsp;API, see the [PoofHQ Overview](../../proofhq
 
    >[!NOTE]
    >
-   >When creating the proof, do not include a value for the advancedProofingOptions parameter.
+   >When creating the proof, set `{}` as the value for the `advancedProofingOptions` parameter.
 
 1. After the proof is created, use the ProofHQ&nbsp;API to add any advanced options.
 
