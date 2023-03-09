@@ -118,7 +118,9 @@ You can use new or existing fields when designing your custom form.
     >[!NOTE]
     >
     >Text fields with formatting are not available for Workfront mobile apps (available in coming releases).
+
 * **Descriptive text**: Allows you to include instructions and link to pages outside Workfront.
+
 +++
 
 To add a text field: 
@@ -128,7 +130,7 @@ To add a text field:
     * Single Line Text:
     * Paragraph Text
     * Text field with formatting
-    * Descriptive texts
+    * Descriptive text
 
     ![](assets/drag-field-to-section.png)
 
@@ -139,6 +141,17 @@ To add a text field:
     <td>Input into</td>
     <td>Description</td>
     <td>Available for </td>
+    </tr>
+    <tr>
+    <td>Size</td>
+    <td><p>Change the size of the text fields on the form.<p>
+   </td>
+    <td><ul>
+    <li>Single line text</li>
+    <li>Paragraph text</li>
+    <li>Text with formatting</li>
+    <li>Descriptive text - Coming soon</li>
+    </ul></td>
     </tr>
     <tr>
     <td>Label</td>
@@ -203,6 +216,14 @@ To add a text field:
     <td><ul><li>Descriptive text</li></ul></td>
     </tr>
    </table>
+
+1. (Optional) Repeat the previous step to add any other fields or widgets. 
+
+    or
+
+    To copy a field, hover over a field, and click the copy icon.
+
+    ![copy icon](assets/copy-field.png)
 
 1. To save your changes, click **Apply** and move on to another section to continue building your form.
 
@@ -340,6 +361,20 @@ To add radio buttons and checkboxes:
     </tbody> 
     </table>
 
+1. (Optional) Repeat the previous step to add any other fields or widgets. 
+
+    or
+
+    To copy a field, hover over a field, and click the copy icon.
+    
+    ![copy icon](assets/copy-field.png)
+
+1. To save your changes, click **Apply** and move on to another section to continue building your form.
+
+    or
+
+    Click **Save and Close**. 
+
 ### Add typeahead and date fields
 
  You can add typeahead and date fields to a custom form. 
@@ -439,6 +474,14 @@ To add typeahead date fields:
     </tbody> 
    </table>
 
+1. (Optional) Repeat the previous step to add any other fields or widgets. 
+
+    or
+
+    To copy a field, hover over a field, and click the copy icon.
+
+    ![copy icon](assets/copy-field.png)
+
 1. To save your changes, click **Apply** and move on to another section to continue building your form.
 
     or
@@ -514,6 +557,14 @@ The Workfront Mobile app -->
     </tbody> 
    </table>
 
+1. (Optional) Repeat the previous step to add any other fields or widgets. 
+
+    or
+
+    To copy a field, hover over a field, and click the copy icon.
+
+    ![copy icon](assets/copy-field.png)
+
 1. To save your changes, click **Apply** and move on to another section to continue building your form.
 
     or
@@ -582,6 +633,14 @@ The Workfront Mobile app -->
      </tr> 
     </tbody> 
    </table>
+
+1. (Optional) Repeat the previous step to add any other fields or widgets. 
+
+    or
+
+    To copy a field, hover over a field, and click the copy icon.
+
+    ![copy icon](assets/copy-field.png)
 
 1. To save your changes, click **Apply** and move on to another section to continue building your form.
 
