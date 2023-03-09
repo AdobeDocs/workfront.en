@@ -11,8 +11,6 @@ exl-id: cb709b2f-659e-4110-81ac-a1ef967d534c
 ---
 # Edit user profiles in bulk
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> 
-
 >[!IMPORTANT]
 >
 >The procedure described on this page applies only to organizations that have not yet been onboarded to the Admin Console. If your organization has been onboarded to the Adobe Admin Console, you must perform this action through the Adobe Admin Console.
@@ -138,21 +136,21 @@ You must have the following to perform the steps in this article:
        <ul> 
       
       <li>
-       <b><span class="preview">Work Time</span></b>: <span class="preview">Represents the percentage of the Full Time Equivalent (FTE) time that the user is available for actual work, not including overhead. Work Time must be a decimal number up to 1, and it cannot be 0. For example, a 20% availability for actual work would be 0.2.</span> 
+       <b>Work Time</b>: Represents the percentage of the Full Time Equivalent (FTE) time that the user is available for actual work, not including overhead. Work Time must be a decimal number up to 1, and it cannot be 0. For example, a 20% availability for actual work would be 0.2.
 
-      <span class="preview">The field's default is 1, indicating that a user spends their entire FTE on actual, project-related work.</span>  
+      The field's default is 1, indicating that a user spends their entire FTE on actual, project-related work. 
 
-      <span class="preview">The system uses this number to calculate the availability of the user for actual, project-related work. </span> 
+      The system uses this number to calculate the availability of the user for actual, project-related work. 
 
-      <span class="preview">For more information about creating schedules in Workfront, see <a href="../../set-up-workfront/configure-timesheets-schedules/create-schedules.md">Create a schedule</a>.</span>
+      For more information about creating schedules in Workfront, see <a href="../../set-up-workfront/configure-timesheets-schedules/create-schedules.md">Create a schedule</a>.
 
-      <span class="preview">Schedule exceptions and time off might also affect the user capacity. 
+      Schedule exceptions and time off might also affect the user capacity. 
 
       Workfront calculates a user's availability depending on the Resource Management preferences in your Setup area. For more information, see <a href="../../set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md">Configure Resource Management preferences</a>. 
 
       <b>TIP</b>
 
-      <span class="preview">Set the Work Time value to  1 to indicate that the user is available for project-related work their entire full-time equivalent.</span>
+      Set the Work Time value to  1 to indicate that the user is available for project-related work their entire full-time equivalent.
       </li> 
 
       <li><b>Schedule Deactivation</b>: Check this box if you want to schedule users to be deactivated after a period of time.</li> 
@@ -189,7 +187,7 @@ You must have the following to perform the steps in this article:
 
       The field's default is 1.
 
-      Schedule exceptions, time off might, <span class="preview">and the value of Work Time</span> may affect the availability of the user. 
+      Schedule exceptions, time off might, and the value of Work Time may affect the availability of the user. 
 
       Workfront calculates a user's availability depending on the Resource Management preferences in your Setup area.
 

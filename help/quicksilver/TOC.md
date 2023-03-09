@@ -14,6 +14,7 @@ feature-set: Workfront
     * [Prepare for an Adobe Workfront quarterly release](product-announcements/product-releases/release-readiness.md)
     * 23.2 Release {#release-23-2}
       * [23.2 Release overview](product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md) 
+      * [23.2 release activity: Week of February 27, 2023](product-announcements/product-releases/23.2-release-activity/23-2-feb-27.md)
       * [23.2 release activity: Week of February 20, 2023](product-announcements/product-releases/23.2-release-activity/23-2-feb-20.md)
       * [23.2 release activity: Week of February 13, 2023](product-announcements/product-releases/23.2-release-activity/23-2-feb-13.md)
       * [23.2 release activity: Week of February 6, 2023](product-announcements/product-releases/23.2-release-activity/23-2-feb-6.md)
@@ -877,6 +878,7 @@ feature-set: Workfront
     * [Configure Scrum](agile/get-started-with-agile-in-workfront/configure-scrum.md)
   * Get started with boards in Adobe Workfront {#boards-in-workfront}
     * [Get started with boards in Adobe Workfront](agile/get-started-with-boards/get-started-with-boards.md)
+    * [Adobe Workfront Boards video demonstrations](/help/quicksilver/agile/get-started-with-boards/boards-video-demonstrations.md)
     * [Boards early feature opt-in](agile/get-started-with-boards/boards-early-feature-opt-in.md)
     * [Use the boards dashboard](agile/get-started-with-boards/use-boards-page.md)
     * [Create or edit a board](agile/get-started-with-boards/create-edit-board.md)
@@ -1575,6 +1577,7 @@ feature-set: Workfront
       * [Print a dashboard](reports-and-dashboards/dashboards/creating-and-managing-dashboards/print-dashboard.md)
       * [Share a dashboard](reports-and-dashboards/dashboards/creating-and-managing-dashboards/share-dashboard.md)
       * [Remove an External Page from a dashboard](reports-and-dashboards/dashboards/creating-and-managing-dashboards/remove-external-page-from-dashboard.md)
+      * [Canvas Dashboards overview](reports-and-dashboards/dashboards/creating-and-managing-dashboards/canvas-dashboards-overview.md)
   * Enhanced analytics {#enhanced-analytics}
     * [Enhanced analytics](enhanced-analytics/enhanced-analytics.md)
     * [Enhanced analytics overview](enhanced-analytics/enhanced-analytics-overview.md)
