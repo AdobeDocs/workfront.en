@@ -386,6 +386,23 @@ In lieu of a release webinar, we invite you to register for Adobe Summit to watc
                 </tr>
                 <tr>
                     <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">New commenting experience for issues Beta</a><span style="color: #ff0000;"> New in Preview!</span>
+                        <p>An update to the commenting experience in Adobe Workfront is currently in development. This update includes a new interface, new features, and improved performance in the Updates section of some objects.</p>
+                        <p>This new experience will eventually unify commenting across Adobe Workfront and beyond, throughout the Adobe Experience Cloud.</p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                        <ul>
+                            <li>
+                                <p>Preview release: March 9, 2023<br /></p>
+                            </li>
+                            <li>
+                                 <p><span class="preview">Production release: With the 23.2 release </span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Net new customers to be onboarded to Adobe Unified Experience</a><span style="color: #ff0000;"> Coming soon!</span></p>
                         <p>The Adobe Unified Experience includes:
                         <ul>
