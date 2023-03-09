@@ -119,7 +119,6 @@ You can use new or existing fields when designing your custom form.
     >
     >Text fields with formatting are not available for Workfront mobile apps (available in coming releases).
 * **Descriptive text**: Allows you to include instructions and link to pages outside Workfront.
-
 +++
 
 To add a text field: 
