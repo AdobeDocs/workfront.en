@@ -106,6 +106,7 @@ feature-set: Workfront
       * [21.1 Other enhancements](product-announcements/product-releases/21.1-release-activity/21-1-other-enhancements.md)
     * Adobe Workfront Fusion release activity {#fusion-release}
       * [Adobe Workfront Fusion release activity](product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)
+      * [Workfront Fusion release activity: Week of March 6, 2023](product-announcements/product-releases/fusion-release-activity/fusion-2023-3-6.md)    
       * [Workfront Fusion release activity: Week of December 12, 2022](product-announcements/product-releases/fusion-release-activity/fusion-dec-12-22.md)
       * [Workfront Fusion release activity: Week of November 14, 2022](product-announcements/product-releases/fusion-release-activity/fusion-nov-14-22.md)
       * [Workfront Fusion release activity: Week of November 7, 2022](product-announcements/product-releases/fusion-release-activity/fusion-nov-9-22.md)
@@ -906,6 +907,7 @@ feature-set: Workfront
     * [Manage board columns](agile/get-started-with-boards/manage-board-columns.md)
     * [Add an ad hoc card to a board](agile/get-started-with-boards/add-card-to-board.md)
     * [Use connected cards on boards](agile/get-started-with-boards/connected-cards.md)
+    * [Add existing tasks or issues to a board](/help/quicksilver/agile/get-started-with-boards/add-card-from-list-to-board.md)
     * [Manage cards](agile/get-started-with-boards/move-board-items.md)
     * [Manage checklist items on cards](/help/quicksilver/agile/get-started-with-boards/manage-checklist-items.md)
     * [Customize which fields are displayed on a card](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md)
@@ -1595,6 +1597,7 @@ feature-set: Workfront
       * [Print a dashboard](reports-and-dashboards/dashboards/creating-and-managing-dashboards/print-dashboard.md)
       * [Share a dashboard](reports-and-dashboards/dashboards/creating-and-managing-dashboards/share-dashboard.md)
       * [Remove an External Page from a dashboard](reports-and-dashboards/dashboards/creating-and-managing-dashboards/remove-external-page-from-dashboard.md)
+      * [Canvas Dashboards overview](reports-and-dashboards/dashboards/creating-and-managing-dashboards/canvas-dashboards-overview.md)
   * Enhanced analytics {#enhanced-analytics}
     * [Enhanced analytics](enhanced-analytics/enhanced-analytics.md)
     * [Enhanced analytics overview](enhanced-analytics/enhanced-analytics-overview.md)
