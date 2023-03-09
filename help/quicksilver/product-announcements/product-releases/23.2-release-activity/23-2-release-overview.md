@@ -248,7 +248,7 @@ In lieu of a release webinar, we invite you to register for Adobe Summit to watc
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-project-enhancements.md" class="MCXref xref" xrefformat="{para}">New experience when editing projects in bulk</a><span style="color: #ff0000;"> New in Preview!</span>
-                        <p>The enhanced filter experience will be generally available and become the standard filter builder in Preview on March 2, 2023. A phased rollout in Production will also begin on March 2, with availability for all customers in the 23.2 release.</p>
+                        <p>As part of updating the look and feel of the Workfront experience, we have redesigned the Edit Projects box, when editing several projects at the same time, In bulk. You can access the new Edit Projects box when selecting several projects at the same time in a list of projects.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
                         <ul>
