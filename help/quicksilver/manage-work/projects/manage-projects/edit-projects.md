@@ -9,8 +9,7 @@ exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
 ---
 # Edit projects
 
-<!--drafted for bulk editing projects: 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> -->
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span>
 
 <!--
 <p>***Linked to many articles,</p>
@@ -687,16 +686,14 @@ The following fields are included in the project header, by default.
 
 You can edit projects in bulk and update information for all selected projects at the same time.
 
-<!--
-The information you are changing on all the projects selected will overwrite the existing information on individual projects, except for the Resource Manager field. 
+
+The information you are changing on all the projects selected overwrites the existing information on individual projects, except for the Resource Manager field. 
 
 Adding a new resource manager when editing projects in bulk adds that manager to all the selected projects. If other resource managers are associated with the selected projects, they remain on the projects in addition to the one added through bulk edit.
 
 Editing projects in bulk differs depending on what environment you choose to update them in. 
 
 ### Edit projects in bulk in the Production environment
-
--->
 
 To edit projects in bulk:
 
@@ -787,8 +784,6 @@ To edit projects in bulk:
 1. Click **Save Changes**.
 
    All changes you made are now visible on all the selected projects.
-
-<!--drafted for bulk editing projects:  
 
 <div class="preview">
 
@@ -889,4 +884,3 @@ For more information about editing the Access area, see the section [Access](#ac
 1. Click **Save**. 
 
 <div>
--->
