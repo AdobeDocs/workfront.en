@@ -20,4 +20,8 @@ For a list of all changes available at this point in the 23.2 release cycle, see
 
 Biometric login is now an option for faster login to the mobile app! Once biometric verification has been set up after an initial login, users will be able to use fingerprint or facial recognition to quickly re-login to the app with only occasional password reverification. Additionally, there will be a number of look-and-feel improvements to the general login experience arriving in a later update.
 
+For more information, see [Log in to [!DNL Adobe Workfront]](/help/quicksilver/workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/log-in-to-workfront.md).
+
 Boards collections are also now supported in the mobile app, allowing mobile users to view any collections they have access to in the desktop version from their mobile Boards list.
+
+For more information, see [[!DNL Adobe Workfront] [!UICONTROL Boards] for mobile](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/mobile-boards.md).

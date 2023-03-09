@@ -109,7 +109,7 @@ In lieu of a release webinar, we invite you to register for Adobe Summit to watc
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-27.md" class="MCXref xref" xrefformat="{para}">Add tasks and issues to Workfront Boards from lists and reports</a><span style="color: #ff0000;"> New in Preview!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Add tasks and issues to Workfront Boards from lists and reports</a><span style="color: #ff0000;"> New in Preview!</span></p>
                         <p>You can now add existing tasks or issues to a Workfront board directly from a list or report view. Any items you add to the board will become connected cards.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
@@ -279,7 +279,7 @@ In lieu of a release webinar, we invite you to register for Adobe Summit to watc
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-project-enhancements" class="MCXref xref" xrefformat="{para}">Copy Budgeted Hours when copying a project</a>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Copy Budgeted Hours when copying a project</a>
                         <p>Now, you have the option to copy the hours budgeted in the Resource Budgeting area of the Business Case or the Resource Planner when you copy a project. Prior to this enhancement, the hours budgeted for the project were not transferred to the copied project.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
