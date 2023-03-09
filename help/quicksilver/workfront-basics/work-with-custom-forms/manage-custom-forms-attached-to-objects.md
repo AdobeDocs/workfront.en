@@ -9,8 +9,7 @@ exl-id: e5570a09-32cb-43e3-9c1d-4421db42fa24
 ---
 # Manage custom forms attached to objects
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span>  -->
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span>
 
 You can update the order in which the custom forms attached to one object display, remove them, or bulk-edit the way custom forms display on multiple objects.
 
@@ -92,13 +91,11 @@ You might have the same field appear on multiple custom forms attached to the sa
 ## Manage multiple custom forms when bulk-editing objects
 
 <!--
-drafted for bulk-editing projects. When it releases to Prod for projects, take "in the preview environment" and the yellow tags out. Add additional objects here in the same way when they become available:
+drafted for bulk-editing projects. When it releases to Prod for projects, take "in the preview environment" and the yellow tags out. Add additional objects here in the same way when they become available:-->
 
 >[!NOTE]
 >
 ><span class="preview">For information about managing custom forms on projects in bulk in the Preview environment, see the article [Edit projects](../../manage-work/projects/manage-projects/edit-projects.md)</span>.
-
--->
 
 When you are bulk editing objects that have multiple custom forms applied, you can edit the way custom forms are displayed on those objects, as well as edit common fields among the custom forms.
 
