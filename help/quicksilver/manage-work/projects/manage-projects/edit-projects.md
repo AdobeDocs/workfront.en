@@ -877,3 +877,5 @@ For more information about editing the Access area, see the section [Access](#ac
 
 1. (Optional) Click **Cancel** at the bottom of the **Edit projects** page to remove all the changes made to all projects. 
 1. Click **Save**. 
+
+</div>
