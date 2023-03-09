@@ -56,6 +56,12 @@ You can make sure you are associating the right group with the team by hovering 
 
 1. Click the **[!UICONTROL Main Menu]** icon ![Main Menu](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, or (if available), click the **[!UICONTROL Main Menu]** icon ![Main Menu](assets/main-menu-icon-left-nav.png) in the upper-left corner, then click **[!UICONTROL Users]** ![](assets/users-icon-in-main-menu.png).
 
+## Copy a field {#copy-field}
+
+To copy a field, hover over a field, and click the copy icon.
+
+![copy icon](assets/copy-field.png)
+
 <!-- Agile -->
 
 ## Step 1 - Getting to Boards - {#step1-to-boards}
