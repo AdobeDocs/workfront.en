@@ -31,6 +31,8 @@ In addition to an updated look and feel of the interface, the following changes 
 
 For information, see [Edit projects](/help/quicksilver/manage-work/projects/manage-projects/edit-projects.md).
 
+[View a video demonstration of this feature](https://video.tv.adobe.com/v/3416587/){target=_blank}
+
 ## Enhanced filter experience generally available in Adobe Workfront
 
 An upgrade to the filter experience was released to public beta on project, task, and issue lists in August 2022. Most lists now offer the enhanced filters. (To review all of these lists, see the [23.1 look-and-feel updates release note](/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-look-and-feel-updates.md).) The enhanced filter experience will be generally available and become the standard filter builder in Preview on March 2, 2023. A phased rollout in Production will also begin on March 2, with availability for all customers in the 23.2 release.
