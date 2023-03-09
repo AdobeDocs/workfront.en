@@ -76,6 +76,51 @@ For instructions on linking documents through the new [!DNL SharePoint] integrat
 >
 >* A user has access to the same sites, collections, folders, subfolders, and files through the [!DNL Workfront] [!DNL SharePoint] integration as they have in their [!DNL SharePoint] account.
 
+## Security, access, and permissions information for the SharePoint integration
+
+### Access and permissions
+
+The first time a user adds a document to Workfront from SharePoint, they are directed to a screen that requests the following permissions:
+
+* Have full access to your files
+* Read items in all site collections
+* Edit or delete items in all site collections
+* Maintain access to data you have given it access to
+* Sign in and read user profile
+
+
+| Access | Reason |
+|---|---|
+| Have full access to your files | Allows Workfront to access a user's files to link access. When documents are sent from Workfront to SharePoint, Workfront requires access to create the asset. |
+| Read items in all site collections | Allows Workfront to read assets to enable user navigation. | 
+| Edit or delete items in all site collections | Allows Workfront to create assets in sites and site collection. Delete is used only when cleaning up after unsuccessful link attempts.|
+| Maintain access to data you have given it access to | Allows Workfront to generate a refresh token. |
+| Sign in and read user profile | Allows Workfront to authorize. |
+
+This access is granted by the user the first time they use the integration, and can be revoked at any time.
+
+Consider the following regarding access to SharePoint through the Workfront SharePoint integration:
+
+* Workfront requests the minimum access required to perform operations in the integration.
+* Access to view, edit, or delete an Adobe Workfront document linked to SharePoint is based on the user's access in Workfront. However, any navigation, downloading, or editing of a SharePoint file or folder requires access to SharePoint, and access to these actions is controlled by SharePoint. 
+* Users can view thumbnails and preview images sourced from SharePoint, and can see file and folder names in SharePoint, without logging into SharePoint.
+<!--
+* A user's access token is used only when the user is offline and another user views the contents of a folder that is linked to Workfront. The access token is used to discover if any documents in the folder have been added, removed, or edited.
+-->
+
+### Authentication and authorization
+
+Workfront uses OAuth2 to retrieve an access token and a refresh token. This access token is used for authorization with all SharePoint areas.
+
+### Security
+
+All communication between Workfront and SharePoint is conducted over HTTPS, which encrypts the information.
+
+Workfront does not store, copy, or duplicate data from SharePoint, with the following exceptions:
+
+* Workfront stores thumbnails from SharePoint to display in the list view and in Preview.
+* If the asset was first uploaded to Workfront, and then sent to SharePoint, Workfront retains the first file because users can download a previous version of a Workfront document. If a document was created in SharePoint, Workfront does not store that file.
+
 ## Configure the legacy SharePoint integration for continued access to documents
 
 To ensure that your users have continued access to documents linked to Workfront through the legacy SharePoint integration, you must reconfigure access to the legacy SharePoint integration and keep the SharePoint Client Secret up to date.
