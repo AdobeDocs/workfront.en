@@ -29,6 +29,8 @@ In addition to an updated look and feel of the interface, the following changes 
 
 * We have removed the commenting functionality from the Edit Projects box.  
 
+* We have eliminated the Recalculate Scorecards option when bulk-editing projects.
+
 For information, see [Edit projects](/help/quicksilver/manage-work/projects/manage-projects/edit-projects.md).
 
 [View a video demonstration of this feature](https://video.tv.adobe.com/v/3416587/){target=_blank}
