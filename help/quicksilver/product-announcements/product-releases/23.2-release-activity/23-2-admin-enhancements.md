@@ -11,9 +11,9 @@ This page describes all administrator enhancements made with the 23.2 release to
 
 For a list of all changes available at this point in the 23.2 release cycle, see [23.2 Release overview](/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md).
 
-## Create custom forms with the new form designer
+## Create custom forms with the new form designer beta
 
-The new form designer has a new canvas-style workspace that allows you to view the fields, canvas, and field settings all at the same time.
+Now available in a public beta, the new form designer has a new canvas-style workspace that allows you to view the fields, canvas, and field settings all at the same time.
 
 With the new form designer, we've added the ability to 
 
