@@ -35,7 +35,7 @@ The changes you make to the Details view for an object also determine the availa
 * <span class="preview">"Edit objects" screens when editing projects in bulk, like Edit Projects</span>
 
   <span>![](assets/customize-edit-projects-in-bulk-box-with-layout-template.png)</span>
-  -->
+  
 
 * Summary ![](assets/summary-panel-icon.png) panel for lists of tasks and issues
 

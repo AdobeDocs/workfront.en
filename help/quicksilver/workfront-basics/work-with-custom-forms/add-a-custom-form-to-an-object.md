@@ -111,7 +111,6 @@ drafted for bulk-editing projects. When it releases to Prod for projects, take "
 >
 ><span class="preview">For information about adding custom forms to projects in bulk in the Preview environment, see the article [Edit projects](../../manage-work/projects/manage-projects/edit-projects.md)</span>.
 
--->
 
 1. Navigate to a list of objects.
 1. Select multiple objects in the list.  
