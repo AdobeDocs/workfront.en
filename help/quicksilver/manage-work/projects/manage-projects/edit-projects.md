@@ -782,7 +782,7 @@ To edit projects in bulk:
 
 <div class="preview">
 
-### Edit projects in the Preview environment
+### Edit projects in buk in the Preview environment
 
 Consider the following when editing projects in bulk in the Preview environment:
 
