@@ -51,7 +51,7 @@ In lieu of a release webinar, we invite you to register for Adobe Summit to watc
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-admin-enhancements.md" class="MCXref xref" xrefformat="{para}">Create custom forms with the new form designer</a><span style="color: #ff0000;"> New in Preview!</span>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-admin-enhancements.md" class="MCXref xref" xrefformat="{para}">Create custom forms with the new form designer beta</a><span style="color: #ff0000;"> New in Preview!</span>
                         <p>The new form designer has a new canvas-style workspace that allows you to view the fields, canvas, and field settings all at the same time.</p>
                         <p>With the new form designer, we've added the ability to 
                         <ul>
