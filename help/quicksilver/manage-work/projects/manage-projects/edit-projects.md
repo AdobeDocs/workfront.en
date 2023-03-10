@@ -9,12 +9,11 @@ exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
 ---
 # Edit projects
 
-<!--drafted for bulk editing projects: 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> -->
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span>
 
 <!--
 <p>***Linked to many articles,</p>
-<p>The Resource Pools part also duplicates in the "Working with Resource Pools" article -</p>
+<p>The Resource Pools part also duplicates in the "Working with Resource Pools" article </p>
 <p>The Update Type section is also documented in Selecting the Project Update Type article</p>
 <p>Keep the reference link to the other article that also documents the Update Type) </p>
 <p>(NOTE 2: information described here also exists in these articles:</p>
@@ -59,6 +58,7 @@ You can edit a project in Adobe Workfront as often as needed. We recommend that 
  </tbody> 
 </table>
 -->
+
 You must have the following access to perform the steps in this article:
 
 <table style="table-layout:auto"> 
@@ -105,7 +105,7 @@ Consider the following when editing projects:
 
 ## Edit a project
 
-Editing a project allows you to modify information and settings for the project, as well as tasks and issues on the project.
+By editing a project you can modify information and settings for the project, as well as tasks and issues on the project.
 
 Some settings mentioned in this article might be modified from their default status by their state in the template from which the project was created. For information about editing templates, see [Edit project templates](../../../manage-work/projects/create-and-manage-templates/edit-templates.md).
 
@@ -227,10 +227,10 @@ Some settings mentioned in this article might be modified from their default sta
      <tr> 
       <td role="rowheader"><strong>Condition Type</strong> </td> 
       <td> <p>Select between the following Condition Types: 
-        <ul> 
-         <li><strong>Manual:</strong> The project owner sets the condition on the project manually.</li> 
-         <li><strong>Progress Status:</strong> Workfront automatically sets the condition based on the Progress Status of tasks on the Critical Path. For more information about understanding Progress Status, see <a href="../../../manage-work/tasks/task-information/task-progress-status.md" class="MCXref xref">Task Progress Status overview</a>.</li> 
-        </ul><p>Your Workfront administrator<span> or a group administrator</span> selects the default for how the projects' condition is calculated for your system <span>or your group</span>. For information about setting project defaults, see <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configure system-wide project preferences</a>. </p></p> </td> 
+       <ul> 
+       <li><strong>Manual:</strong> The project owner sets the condition on the project manually.</li> 
+       <li><strong>Progress Status:</strong> Workfront automatically sets the condition based on the Progress Status of tasks on the Critical Path. For more information about understanding Progress Status, see <a href="../../../manage-work/tasks/task-information/task-progress-status.md" class="MCXref xref">Task Progress Status overview</a>.</li> 
+       </ul><p>Your Workfront administrator<span> or a group administrator</span> selects the default for how the projects' condition is calculated for your system <span>or your group</span>. For information about setting project defaults, see <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configure system-wide project preferences</a>. </p></p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Condition</strong> </td> 
@@ -239,10 +239,10 @@ Some settings mentioned in this article might be modified from their default sta
      <tr> 
       <td role="rowheader"><strong>Schedule Mode</strong> </td> 
       <td> <p>Specify whether the project is scheduled from the Start Date, or from the Completion Date. This selection determines the planned dates of the tasks on the project. 
-        <ul> 
-         <li><strong>Start Date</strong>: The first task of the project has the same Planned Start Date as the project by default. For information about the task Planned Start Date, see <a href="../../../manage-work/tasks/task-information/task-planned-start-date.md" class="MCXref xref">Overview of the task Planned Start Date</a>. The project timeline calculates from the Start Date and the Completion Date of the project is calculated by the system, based on the duration of all the tasks. </li> 
-         <li><strong>Completion Date</strong>: The last task of the project has the same Planned Completion Date as the project. The project timeline calculates from the Completion Date and the Start Date of the project is calculated by the system, by subtracting the duration of all the tasks from the Completion Date of the project. </li> 
-        </ul><p>Your Workfront administrator<span> or a group administrator</span> selects the default Schedule Mode setting for your system or your group. For information about setting project defaults, see <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configure system-wide project preferences</a>.</p></p> </td> 
+       <ul> 
+       <li><strong>Start Date</strong>: The first task of the project has the same Planned Start Date as the project by default. For information about the task Planned Start Date, see <a href="../../../manage-work/tasks/task-information/task-planned-start-date.md" class="MCXref xref">Overview of the task Planned Start Date</a>. The project timeline calculates from the Start Date and the Completion Date of the project is calculated by the system, based on the duration of all the tasks. </li> 
+       <li><strong>Completion Date</strong>: The last task of the project has the same Planned Completion Date as the project. The project timeline calculates from the Completion Date and the Start Date of the project is calculated by the system, by subtracting the duration of all the tasks from the Completion Date of the project. </li> 
+       </ul><p>Your Workfront administrator<span> or a group administrator</span> selects the default Schedule Mode setting for your system or your group. For information about setting project defaults, see <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configure system-wide project preferences</a>.</p></p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Planned Start Date and time</strong> </td> 
@@ -263,10 +263,10 @@ Some settings mentioned in this article might be modified from their default sta
      <tr> 
       <td role="rowheader"><strong>Group</strong></td> 
       <td> <p> <p>Specify the name of the group associated with the project. </p>This is a required field. You cannot have a project which is not associated with a group. </p> <p>You can make sure you are selecting the right group by hovering over it and clicking the information icon <img src="assets/info-icon.png"> that displays next to it. This displays a tooltip listing information about the group, such as the hierarchy of groups above it and its administrators.</p> By default, one of the following groups is automatically associated with a project when it is created, unless you specify a different group:</p> 
-        <ul> 
-         <li> <p><span>When the project is created from the Projects area, the Home Group of the project creator is associated with the project.</span> </p> <p>This is also true when the project is created from the Projects  section  in a portfolio or program.</p> </li> 
-         <li> <p>When the project is created from a group's main page in the Setup area, that group is associated with the project.</p> </li> 
-        </ul> </p> <p> <img src="assets/group-details-widget-350x351.png" style="width: 350;height: 351;"> </p> <p>If the project, or its tasks or issues are already associated with a group-level approval process using group-level custom statuses, changing the group might create a conflict between the approval statuses of the previous group and those existing at the system level. Consider removing the group-level approval processes on the project, or its tasks or issues before updating the group. For information about creating group-level approval processes, see <a href="../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-groups-approval-processes.md" class="MCXref xref">Group-level approval processes</a>. For information about creating a group-level custom status, see <a href="../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md" class="MCXref xref">Create or edit a group status</a></p> </td> 
+       <ul> 
+       <li> <p><span>When the project is created from the Projects area, the Home Group of the project creator is associated with the project.</span> </p> <p>This is also true when the project is created from the Projects  section  in a portfolio or program.</p> </li> 
+       <li> <p>When the project is created from a group's main page in the Setup area, that group is associated with the project.</p> </li> 
+       </ul> </p> <p> <img src="assets/group-details-widget-350x351.png" style="width: 350;height: 351;"> </p> <p>If the project, or its tasks or issues are already associated with a group-level approval process using group-level custom statuses, changing the group might create a conflict between the approval statuses of the previous group and those existing at the system level. Consider removing the group-level approval processes on the project, or its tasks or issues before updating the group. For information about creating group-level approval processes, see <a href="../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-groups-approval-processes.md" class="MCXref xref">Group-level approval processes</a>. For information about creating a group-level custom status, see <a href="../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md" class="MCXref xref">Create or edit a group status</a></p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Company</strong> </td> 
@@ -290,7 +290,7 @@ Some settings mentioned in this article might be modified from their default sta
 
    >[!TIP]
    >
-   >   When updating the Project Owner, Project Sponsor, and Resource Manager fields, notice the avatar, the user's Primary Role, or their email address to distinguish between users with identical names. Users must be associated with at least one job role to view it as you add them.
+   >When updating the Project Owner, Project Sponsor, and Resource Manager fields, notice the avatar, the user's Primary Role, or their email address to distinguish between users with identical names. Users must be associated with at least one job role to view it as you add them.
 
 1. (Optional) Continue editing the following sections, depending on the information you want to modify. 
 
@@ -299,7 +299,6 @@ Some settings mentioned in this article might be modified from their default sta
    Click **Save**.
 
 ### Custom Forms {#custom-forms}
-
 
 Depending on your access level and on your permission on the project, the following scenarios exist:
 
@@ -330,7 +329,7 @@ To edit information on custom forms:
 
    >[!NOTE]
    >
-   >   You must build the custom forms before they are available to select in this field. Only active custom forms appear in the list. For more information about building custom forms, see [Create or edit a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md). You can add up to ten custom forms to a project. 
+   >You must build the custom forms before they are available to select in this field. Only active custom forms appear in the list. For more information about building custom forms, see [Create or edit a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md). You can add up to ten custom forms to a project. 
 
 
 1. (Conditional) If you attached a custom form to the project, edit any fields on the form. You must specify all required fields before you can save the project.
@@ -511,17 +510,12 @@ To edit fields in the Finance area:
        <td> <p>Select the approval process you want to associate with the project. Your Workfront administrator must define system-level Approval Processes before you can associate them with projects. <span>A user with administrative access to Approval processes can also create group-specific approval processes.</span> For more information about creating approval processes, see <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md" class="MCXref xref">Create an approval process for work items</a>.</p> <p>Consider the following when adding approval processes: </p> 
        <ul> 
        <li>Only active approval processes display in the list. </li> 
-       <li> <p>System-wide and group-specific approval processes display in the list. An approval process associated with a group other than that of the project does not display in the list.</p> <p>If the group associated with the project changes, the group-specific approval process becomes a single-use approval process. For more information about how changes to the group of the project or changes in the approval process affect approval settings, see <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md" class="MCXref xref">How group and approval process changes affect assigned approval processes</a>. </p> </li> 
-         
-   <!--(NOTE: this bullet stays here although the sections it might appear in are QS only, so we can use the snippet for both Qs and classic)-->
-         
-   <p>When bulk-editing projects, the following scenarios exist:</p> 
-            
-   <ul> 
-   <li> <p>When you select projects from the same group, both system-level and group-level approval processes display in this field.</p> </li> 
-   <li> <p>When you select projects from different groups, only system-level approval processes display in this field.</p> </li> 
-   <li> <p>When any of the projects have a single-use approval process attached, it is replaced by the system-level or group-level approval process you select. </p> </li> 
-   </ul> 
+       <li> <p>System-wide and group-specific approval processes display in the list. An approval process associated with a group other than that of the project does not display in the list.</p> <p>If the group associated with the project changes, the group-specific approval process becomes a single-use approval process. For more information about how changes to the group of the project or changes in the approval process affect approval settings, see <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md" class="MCXref xref">How group and approval process changes affect assigned approval processes</a>. </p> </li> <!--(NOTE: this bullet stays here although the sections it might appear in are QS only, so we can use the snippet for both Qs and classic)-->
+       <p>When bulk-editing projects, the following scenarios exist:</p> 
+       <ul> 
+       <li> <p>When you select projects from the same group, both system-level and group-level approval processes display in this field.</p> </li> 
+       <li> <p>When you select projects from different groups, only system-level approval processes display in this field.</p> </li> 
+       <li> <p>When any of the projects have a single-use approval process attached, it is replaced by the system-level or group-level approval process you select. </p> </li> 
       </ul> </td> 
       </tr> 
       <tr> 
@@ -687,16 +681,14 @@ The following fields are included in the project header, by default.
 
 You can edit projects in bulk and update information for all selected projects at the same time.
 
-<!--
-The information you are changing on all the projects selected will overwrite the existing information on individual projects, except for the Resource Manager field. 
+
+The information you are changing on all the projects selected overwrites the existing information on individual projects, except for the Resource Manager field. 
 
 Adding a new resource manager when editing projects in bulk adds that manager to all the selected projects. If other resource managers are associated with the selected projects, they remain on the projects in addition to the one added through bulk edit.
 
 Editing projects in bulk differs depending on what environment you choose to update them in. 
 
 ### Edit projects in bulk in the Production environment
-
--->
 
 To edit projects in bulk:
 
@@ -788,8 +780,6 @@ To edit projects in bulk:
 
    All changes you made are now visible on all the selected projects.
 
-<!--drafted for bulk editing projects:  
-
 <div class="preview">
 
 ### Edit projects in the Preview environment
@@ -867,7 +857,7 @@ Depending on how your Workfront administrator or Group administrator modified yo
 
    >[!CAUTION]
    >
-   >   Removing custom forms causes all existing custom field information on the forms to be lost. This cannot be recovered. 
+   >Removing custom forms causes all existing custom field information on the forms to be lost. This cannot be recovered. 
 
    For more information about editing custom forms, see the section [Custom Forms](#custom-forms) in this article.
 
@@ -888,5 +878,5 @@ For more information about editing the Access area, see the section [Access](#ac
 1. (Optional) Click **Cancel** at the bottom of the **Edit projects** page to remove all the changes made to all projects. 
 1. Click **Save**. 
 
-<div>
--->
+</div>
+
