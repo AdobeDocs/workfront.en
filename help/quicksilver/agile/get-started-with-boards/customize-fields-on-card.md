@@ -76,7 +76,13 @@ You must have the following access to perform the steps in this article:
 1. Access a board and click [!UICONTROL **Configure**] to open the Configure panel.
 1. Expand [!UICONTROL **Cards**].
 1. Under [!UICONTROL Card Fields], click [!UICONTROL **Add custom field**].
-1. Search for and select the field name.
+1. Select [!UICONTROL **Task**] or [!UICONTROL **Issue**].
+
+   The categories of available fields for tasks or issues appear. Expand a category to see all of the fields. You can also search for a field.
+
+   ![Search for custom field](assets/boards-search-for-custom-field.png)
+
+1. Select the field name.   
 
    The custom field is added to the list of available fields and is enabled by default. You can disable or hide the custom field following the steps in the "Configure cards" section above, or delete it from the board.
 
