@@ -254,7 +254,7 @@ When querying Workfront's HTTP use the GET method. There are two ways to query f
 
 ### Query All Events Subscriptions
 
-You can query all events subscriptions for a customer as specified by the apiKey value. You can also use the following options to manage the response:
+You can query all events subscriptions for a customer, or use the following to manage the response. You can also use the following options to manage the response:
 
 * **page**: query parameter option to specify the number of pages to return. The default is 1.
 * **limit**: query parameter option to specify the number of results to return per page. The default is 100 with a max of 1000.
