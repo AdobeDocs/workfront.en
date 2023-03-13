@@ -393,7 +393,7 @@ In lieu of a release webinar, we invite you to register for Adobe Summit to watc
                     <td><p><b>Available on these dates:</b></p>
                         <ul>
                             <li>
-                                <p>Preview release: March 9, 2023<br /></p>
+                                <p>Preview release: March 20, 2023<br /></p>
                             </li>
                             <li>
                                  <p><span class="preview">Production release: With the 23.2 release </span></p>
