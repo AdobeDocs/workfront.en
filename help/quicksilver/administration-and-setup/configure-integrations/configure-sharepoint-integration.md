@@ -66,6 +66,8 @@ Individual users can link documents through the new [!DNL SharePoint] integratio
 
 The first time a user connects the [!DNL Workfront] [!DNL SharePoint] integration to their [!DNL SharePoint] account, they will see and agree to all of the permissions that [!DNL Workfront] uses when interacting with their [!UICONTROL SharePoint] account. Read permissions allow [!DNL Workfront] to see and access files on [!DNL SharePoint], and write permissions allow the user to upload files to [!DNL SharePoint].
 
+![Sharepoint permissions](assets/sharepoint-permissions.png)
+
 For instructions on linking documents through the new [!DNL SharePoint] integration, see [Link an external document to [!DNL Workfront]](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md#link-an-external-document-to-workfront)
 
 >[!NOTE]
@@ -74,9 +76,44 @@ For instructions on linking documents through the new [!DNL SharePoint] integrat
 >
 >* A user has access to the same sites, collections, folders, subfolders, and files through the [!DNL Workfront] [!DNL SharePoint] integration as they have in their [!DNL SharePoint] account.
 
-## Configure the legacy SharePoint integration for continued access to documents
+## Security, access, and authorization information for the [!DNL SharePoint] integration
 
-To ensure that your users have continued access to documents linked to Workfront through the legacy SharePoint integration, you must reconfigure access to the legacy SharePoint integration and keep the SharePoint Client Secret up to date.
+### Authentication and authorization
+
+[!DNL Workfront] uses OAuth2 to retrieve an access token and a refresh token. This access token is used for authorization with all [!DNL SharePoint] areas.
+
+### Access and permissions
+
+The first time a user adds a document to [!DNL Workfront] from [!DNL SharePoint], they are directed to a screen that requests the following permissions:
+
+| Access | Reason |
+|---|---|
+| Have full access to your files | Allows [!DNL Workfront] to access a user's files to link asset. When documents are sent from [!DNL Workfront] to [!DNL SharePoint], [!DNL Workfront] requires access to create the asset. |
+| Read items in all site collections | Allows [!DNL Workfront] to read assets to enable user navigation. | 
+| Edit or delete items in all site collections | Allows [!DNL Workfront] to create assets in sites and site collection. Delete is used only when cleaning up after unsuccessful link attempts.|
+| Maintain access to data you have given it access to | Allows [!DNL Workfront] to generate a refresh token. |
+| Sign in and read user profile | Allows [!DNL Workfront] to use the access token to act of behalf of the user, through the OAuth2 login flow. |
+
+This access is granted by the user the first time they use the integration, and can be revoked at any time.
+
+Consider the following regarding access to [!DNL SharePoint] through the [!DNL Workfront] [!DNL SharePoint] integration:
+
+* [!DNL Workfront] requests the minimum access required to perform operations in the integration.
+* Access to view, edit, or delete an [!DNL Adobe Workfront] document linked to [!DNL SharePoint] is based on the user's access in [!DNL Workfront]. However, any navigation, downloading, or editing of a [!DNL SharePoint] file or folder requires access to [!DNL SharePoint], and access to these actions is controlled by [!DNL SharePoint]. 
+* Users can view thumbnails and preview images sourced from [!DNL SharePoint], and can see file and folder names in [!DNL SharePoint], without logging into [!DNL SharePoint].
+* A user's access token is used only when the user is offline and another user views the contents of a folder that is linked to [!DNL Workfront]. The access token is used to discover if any documents in the folder have been added, removed, or edited.
+
+### Security
+
+All communication between [!DNL Workfront] and [!DNL SharePoint] is conducted over HTTPS, which encrypts the information.
+
+[!DNL Workfront] does not store, copy, or duplicate data from [!DNL SharePoint]. The only exception is that [!DNL Workfront] stores thumbnails from [!DNL SharePoint] to display in the list view and in Preview.
+
+If an asset was first uploaded to [!DNL Workfront], and then sent to [!DNL SharePoint], [!DNL Workfront] retains the data for the first file because users can download a previous version of a [!DNL Workfront] document. If a document was created in [!DNL SharePoint], [!DNL Workfront] does not store that file data.
+
+## Configure the legacy [!DNL SharePoint] integration for continued access to documents
+
+To ensure that your users have continued access to documents linked to Workfront through the legacy [!DNL SharePoint] integration, you must reconfigure access to the legacy [!DNL SharePoint] integration and keep the SharePoint Client Secret up to date.
 
 * [Reconfigure access to the legacy [!DNL SharePoint] integration](#reconfigure-access-to-the-legacy-dnl-sharepoint-integration)
 * [Configure the Client Secret for continued access to the legacy [!DNL SharePoint] integration](#configure-the-client-secret-for-continued-access-to-the-legacy-dnl-sharepoint-integration)
@@ -119,7 +156,7 @@ Your [!DNL SharePoint] Client Secret expires once a year. To ensure continued ac
 1. Enter the new Client Secret into the **[!UICONTROL Client Secret]** field.
 1. Click **[!UICONTROL Save]**.
 
-
+<!--
 
 ## Instructions for setting up the legacy SharePoint integration
 
@@ -328,10 +365,11 @@ For instructions, see [Link an external document to [!DNL Workfront]](../../docu
 >If the user who linked a folder no longer has access to the external application, [!DNL Workfront] can no longer access the contents of the folder. This may happen, for example, if the user who originally linked the folder leaves the company. To ensure continued access, a user with access to the folder must re-link the folder.
 > 
 
+-->
+
 ## Troubleshooting
 
 * [Problem: Users experience authentication-based errors when using the [!DNL SharePoint] integration.](#problem-users-experience-authentication-based-errors-when-using-the-sharepoint-integration) 
-* [Problem: As a [!DNL Workfront] user, I am unable to provision a new [!DNL SharePoint] instance. When I attempt to do I see an error.](#problem-as-a-workfront-user-i-am-unable-to-provision-a-new-sharepoint-instance-when-i-attempt-to-do-i-see-an-error) 
 * [Problem: When attempting to browse [!DNL SharePoint] files in [!DNL Workfront], I do not see any or all of my site collections.](#problem-when-attempting-to-browse-sharepoint-files-in-workfront-i-do-not-see-any-or-all-of-my-site-collections) 
 * [Problem: I cannot access previously linked folders and documents in [!DNL SharePoint].](#problem-i-cannot-access-previously-linked-folders-and-documents-in-sharepoint)
 
@@ -339,7 +377,7 @@ For instructions, see [Link an external document to [!DNL Workfront]](../../docu
 
 Solutions:
 
-Users must be a member of a group that has appropriate permissions to the [!DNL SharePoint] site.
+Users must have appropriate permissions to the [!DNL SharePoint] site.
 
 Users with [!UICONTROL Full Control] access have all necessary permissions for your [!DNL SharePoint] integration. If you do not want to grant Full Control access to your users, you must grant the following permissions:
 
@@ -368,6 +406,8 @@ Users with [!UICONTROL Full Control] access have all necessary permissions for y
 
 For instructions on creating and editing permissions levels, see [How to create and edit permission levels](https://docs.microsoft.com/en-us/sharepoint/how-to-create-and-edit-permission-levels) in the Microsoft documentation.
 
+<!--
+
 ### Problem: As a [!DNL Workfront] user, I am unable to provision a new [!DNL SharePoint] instance. When I attempt to do I see an error. {#problem-as-a-workfront-user-i-am-unable-to-provision-a-new-sharepoint-instance-when-i-attempt-to-do-i-see-an-error}
 
 Solutions:
@@ -378,11 +418,15 @@ This can be caused by a number of things, originating in either [!DNL Workfront]
 * The user has [!UICONTROL Full Control] permission to the Site Collection used for authentication.
 * The Site App is listed under [!UICONTROL Site App Permissions] for the [!UICONTROL Site Collection] used for authentication.
 
+-->
+
 ### Problem: When attempting to browse [!DNL SharePoint] files in [!DNL Workfront], I do not see any or all of my site collections. {#problem-when-attempting-to-browse-sharepoint-files-in-workfront-i-do-not-see-any-or-all-of-my-site-collections}
 
 Solutions:
 
 To see a site collection in [!DNL Workfront], the following conditions must be met:
+
+<!--
 
 * The site collection must be registered in the [!DNL Workfront] [!DNL SharePoint] Integration instance.
 
@@ -391,10 +435,12 @@ To see a site collection in [!DNL Workfront], the following conditions must be m
    1. Go to [!UICONTROL Setup] > [!UICONTROL Documents] > [!UICONTROL [!DNL SharePoint] Integration].
    1. Edit the [!DNL SharePoint] Integration instance information.
    1. Verify that the site collection is listed under [!UICONTROL Visible Site Collections].
+   -->
 
 * The user must have view access to the site collection in [!DNL SharePoint].
-* To verify this in [!DNL SharePoint], go to [!DNL SharePoint], and open the site collection > [!UICONTROL Settings] > [!UICONTROL Site permissions].
-* The [!DNL SharePoint] Site App must have access to the site collection.
+
+  To verify this in [!DNL SharePoint], go to [!DNL SharePoint], and open the site collection > [!UICONTROL Settings] > [!UICONTROL Site permissions].
+<!--* The [!DNL SharePoint] Site App must have access to the site collection.
 
   To verify this in [!DNL SharePoint]:
 
@@ -403,6 +449,8 @@ To see a site collection in [!DNL Workfront], the following conditions must be m
    1. (Conditional) If the Site App is not listed, add to the site collection using _layouts/15/appinv.aspx.
 
       For information about adding the site collection, see Granting Write Permissions To The Site App.
+      
+-->
 
 ### Problem: I cannot access previously linked folders and documents in [!DNL SharePoint]. {#problem-i-cannot-access-previously-linked-folders-and-documents-in-sharepoint}
 
@@ -414,8 +462,10 @@ To ensure continued access, a user with access to the folder must re-link the fo
 
 For information on linking folders from external providers, see [Link documents from external applications](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
 
+<!--
+
 ### Problem: I see a "404 not found" error when attempting to add a document from [!DNL Sharepoint]
 
 #### Solution:
 
-This error might occur if one of the sites configured in the [!UICONTROL Visible Site Collections] list has been deleted in Sharepoint. Check the [!UICONTROL Visible Site Collections] list, and remove any sites that have been deleted in Sharepoint.
+This error might occur if one of the sites configured in the [!UICONTROL Visible Site Collections] list has been deleted in Sharepoint. Check the [!UICONTROL Visible Site Collections] list, and remove any sites that have been deleted in Sharepoint.-->
