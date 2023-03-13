@@ -58,7 +58,7 @@ Workfront uses the following rules for calculating the Handoff Date of a task:
 >
 >For information about recalculating the project's timeline, see [Recalculate project timelines](../../../manage-work/projects/manage-projects/recalculate-project-timeline.md).
 
-* **When the task has a forced constraint for the Planned Dates**: The Handoff Date is always the same as the date set by the constraint, regardless of any other condition.   
+* **When the task has a forced constraint for the Planned Dates**: The Handoff Date varies depending on the type of constraint and whether the task has an Actual Start Date or not.   
   The following are forced constraints on tasks:
 
    * Must Start On
@@ -66,6 +66,12 @@ Workfront uses the following rules for calculating the Handoff Date of a task:
    * Start No Earlier Than
    * Start No Later Than
    * Fixed Date
+
+  The following scenarios exist: 
+
+   * When the task has a constraint of Must Start On or Strat No Earlier Than, the Handoff Date is the Constraint date, unless there is an Actual Start Date on the task. If there is an Actual Start Date on the task, the Handoff Date is the Actual Completion Date of the predecessor. 
+   * When the task has a constraint of Must Finish On or Start No Later Than, the Handoff Date is always the Actual Completion Date of the predecessor, regardless of whether there is an Actual Start Date on the task or not. 
+   * When the task has a constraint of Fixed Dates, the Handoff Date is the Planned Start Date of the task, regardless of whether it has a predecessor or not and regardless of whether the predecessor is completed or not.
 
 ## Locate the Handoff Date
 
