@@ -53,7 +53,7 @@ You can filter the boards dashboard to show active boards, archived boards, or a
 1. Click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe Workfront], then click **[!UICONTROL Boards]**.
 1. Click [!UICONTROL **Filter**] and select **[!UICONTROL All]**, **[!UICONTROL Active boards]**, or **[!UICONTROL Archived boards]**.
 
-   When a filter other than the default is applied on the dashboard, an indicator is displayed on the filter icon ![[!UICONTROL Filter applied to] dashboard](assets/boards-filterapplied-30x30.png).
+   When a filter other than the default is applied on the dashboard, an indicator is displayed on the filter icon ![Filter applied to dashboard](assets/boards-filterapplied-30x30.png).
 
 ## Sort boards
 
