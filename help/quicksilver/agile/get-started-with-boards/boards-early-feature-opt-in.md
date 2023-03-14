@@ -124,11 +124,11 @@ The following table outlines major features of boards along with their current r
   </tr>
   <tr>
    <td>Create iterations</td>
-   <td>Planned</td>
+   <td>Partially released (available in Preview)</td>
   </tr>
   <tr>
    <td>Define card list or backlog</td>
-   <td>Planned</td>
+   <td>Partially released (available in Preview)</td>
   </tr>
   <tr>
    <td>Import subtasks as checklist items on cards</td>

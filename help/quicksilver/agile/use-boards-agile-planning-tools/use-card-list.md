@@ -43,7 +43,7 @@ You must have the following access to perform the steps in this article:
 1. To open a workstream, click [!UICONTROL **View workstream**].
 1. Click the [!UICONTROL **Card List**] tab.
 1. Click [!UICONTROL **Add card**].
-1. In the [!UICONTROL Create/Edit Card] dialog, add the following information:
+1. In the [!UICONTROL **Create/Edit Card**] dialog, add the following information:
 
    <table style="table-layout:auto"> 
     <tbody> 
@@ -86,6 +86,8 @@ To edit an existing card, select it in the list and click [!UICONTROL **Edit**].
 To delete a card, select it in the list and click [!UICONTROL **Delete**].
 
 ### Filter cards
+
+Cards can only be archived from the iteration board. When a card is archived, it is not displayed in the card list unless you filter to show archived cards. For information about archiving a card, see [Delete or archive a card from a board](/help/quicksilver/agile/get-started-with-boards/delete-board-items.md).
 
 1. Access the card list for the workstream.
 1. Click [!UICONTROL **Filter**] and select [!UICONTROL **All**], [!UICONTROL **Active cards**], or [!UICONTROL **Archived cards**].
