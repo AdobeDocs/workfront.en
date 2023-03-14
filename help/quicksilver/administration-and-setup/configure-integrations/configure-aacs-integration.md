@@ -95,7 +95,6 @@ You can map [!DNL Workfront] object data to asset media fields in [!DNL Experien
 >You can map metadata only in one direction: from [!DNL Workfront] to [!DNL Experience Manager]. Metadata for documents linked to [!DNL Workfront] from [!DNL Experience Manager] cannot be transferred to [!DNL Workfront].
 
 
-
 ### Configure metadata fields
 
 Before you begin mapping metadata fields, you must configure metadata fields in both Workfront and Experience Manager Assets. You can configure metadat for the following:
