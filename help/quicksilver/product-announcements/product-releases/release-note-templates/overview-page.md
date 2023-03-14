@@ -23,7 +23,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
     
 *   <!-- add product areas -->
     
-### Project and Resource Management enhancements
+### <!--add product area name -->
 
 <table>
             <col style="width: 50%;" />
@@ -39,57 +39,18 @@ The <add release> release webinar will be held on <date>. You can [register for 
                         </p>
                     </td>
                 </tr>
-                 <tr>
-                    <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Secondary job roles added to the Other Assignments list when bulk assigning items in the Workload Balancer</a></p>
-                        <p>When bulk assigning users in the Workload Balancer after selecting a job role in the "Role assignment" field, the list of users that populates in the "Other Assignments" list in the "User to assign" field will now display all the job roles associated with each user under their name. Prior to this enhancement, only the user's primary role displayed.</p>
-                    </td>
-                    <td><p><b>Available on these dates:</b></p>
-                     <p>
-                        </p>
-                        <ul>
-                            <li>
-                                <p>Preview release: January 5, 2023<br /></p>
-                            </li>
-                            <li>
-                                <p><span class="preview">Production release: With the 23.1 release</span></p>
-                            </li>
-                        </ul>
-                    </td>
-                </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Relocation of the "Add users" option on a project</a></p>
-                        <p>In preparation for the deprecation and removal of the Resource Scheduling tools, we have relocated the "Add users" option from the Scheduling section of a project to the People section. When adding users to a project, the users who are not associated with items on the project become part of the Project Team.</p>
-                        <p>The Resource Scheduler was removed from the Preview environment on October 20. It will be removed from the Production environment with the 23.1 release.</p>
+                        <a href="ADD LINK" class="MCXref xref" xrefformat="{para}">Title</a><span style="color: #ff0000;"> New in Preview!</span></p>
+                        <p>Body</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
-                     <p>
-                        </p>
                         <ul>
                             <li>
-                                <p>Preview release: October 20, 2022<br /></p>
+                                <p>Preview release:<br /></p>
                             </li>
                             <li>
-                                <p><span class="preview">Production release: October 27, 2022 (off-cycle)</span></p>
-                            </li>
-                        </ul>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Copy a direct link to a document folder</a></p>
-                        <p>You can now copy and share document folder links to provide quick access to the folder. Users must have at least View access to the object to view the folder.</p>
-                    </td>
-                    <td><p><b>Available on these dates:</b></p>
-                     <p>
-                        </p>
-                        <ul>
-                            <li>
-                                <p>Preview release: October 13, 2022<br /></p>
-                            </li>
-                            <li>
-                                <p>Production release: With the 23.1 release</p>
+                                <p><span class="preview">Production release: </span></p>
                             </li>
                         </ul>
                     </td>
@@ -140,7 +101,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
 
 There are no Workfront Fusion updates at this point in the release. This area will be updated when updates are available.
 
-### WorkfrontScenario Planner enhancements
+### Workfront Scenario Planner enhancements
 
 There are no Scenario Planner updates at this point in the release. This area will be updated when updates are available.
 
@@ -176,3 +137,43 @@ The following functionality is soon to be removed from Workfront:
 
 -->
 
+
+
+
+<!-- HTML you might need
+
+New row for table 
+
+<tr>
+  <td>
+    <a href="ADD%20LINK">Title</a> New in Preview!
+    <p>Body</p>
+  </td>
+  <td>
+    <p><strong>Available on these dates:</strong></p>
+    <ul>
+      <li>
+        <p>Preview release:</p>
+      </li>
+      <li>
+        <p>Production release:</p>
+      </li>
+    </ul>
+  </td>
+</tr>
+
+Off-cycle note for weekly pages
+
+>[!NOTE]
+>
+>Preview release: February 9, 2023; Planned Production release: February 23, 2023
+
+
+New in preview, prod, and coming soon text
+
+<span style="color: #ff0000;"> New in Preview!</span>
+<span style="color: #ff0000;"> New in Production!</span>
+<span style="color: #ff0000;"> Coming soon!</span>
+
+
+-->
