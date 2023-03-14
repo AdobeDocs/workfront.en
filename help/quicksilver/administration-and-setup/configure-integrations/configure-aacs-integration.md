@@ -98,17 +98,21 @@ You can map [!DNL Workfront] object data to asset media fields in [!DNL Experien
 
 ### Configure metadata fields
 
+Before you begin mapping metadata fields, you must configure metadata fields in both Workfront and Experience Manager Assets. You can configure metadat for the following:
+
+* Custom fields
+* AEM Tags
+* Workfront drop-down & multi-select fields
+
 1. Configure a metadata schema in [!DNL Experience Manager Assets] as explained in [Configure asset metadata mapping between Adobe [!DNL Workfront] and [!DNL Experience Manager Assets]](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping.html?lang=en).
+
+
 1. Configure custom form fields in Workfront. [!DNL Workfront] has many built-in custom fields you can use. However, you can also create your own custom fields as explained in [Create or edit a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 
 
-### Assets
+### Map metadata for assets
 
-Metadata maps when an asset is pushed from [!DNL Workfront] for the first time. Documents with the built-in or custom fields automatically map to the specified fields the first time an asset is sent to [!DNL Experience Manager Assets]. 
-
->[!NOTE]
->
->This integration does not support custom metadata from [!DNL Adobe Experience Manager].
+Metadata maps when an asset is pushed from [!DNL Workfront] for the first time. Documents with the built-in or custom fields automatically map to the specified fields the first time an asset is sent to [!DNL Experience Manager Assets].
 
 To map metadata for assets: 
 
@@ -124,7 +128,7 @@ To map metadata for assets:
 ![metadata fields](assets/asset-metadata.png)
 1. Click [!UICONTROL Save] or move on to the [Folders](#folders) section in this article.
 
-### Folders
+### Map metadata for folders
 
 When users create a linked folder on a project, the associated project, portfolio, and program data is mapped to folder metadata fields in [!DNL Experience Manager Assets].
 
