@@ -51,7 +51,7 @@ In lieu of a release webinar, we invite you to register for Adobe Summit to watc
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-admin-enhancements.md" class="MCXref xref" xrefformat="{para}">Create custom forms with the new form designer beta</a><span style="color: #ff0000;"> New in Preview!</span>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-admin-enhancements.md" class="MCXref xref" xrefformat="{para}">Create custom forms with the new form designer beta</a>
                         <p>The new form designer has a new canvas-style workspace that allows you to view the fields, canvas, and field settings all at the same time.</p>
                         <p>With the new form designer, we've added the ability to 
                         <ul>
@@ -109,7 +109,29 @@ In lieu of a release webinar, we invite you to register for Adobe Summit to watc
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Add tasks and issues to Workfront Boards from lists and reports</a><span style="color: #ff0000;"> New in Preview!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Iteration functionality available in Adobe Workfront Boards</a><span style="color: #ff0000;"> New in Preview!</span></p>
+                        <p>Several new features available in Workfront Boards make it possible to use agile Scrum functionality. These features include:
+                        <ul>
+                        <li>Workstreams for grouping boards related to the same team, and collaborating on work</li>
+                        <li>A list of cards, or backlog of work, with the option to use sources to connect cards to Workfront tasks and issues</li>
+                        <li>Iteration planning and iteration process boards</li>
+                        </ul>
+                        </p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                        <ul>
+                            <li>
+                                <p>Preview release: March 16, 2023<br /></p>
+                            </li>
+                            <li>
+                                <p>Production release: With the 23.2 release</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Add tasks and issues to Workfront Boards from lists and reports</a></p>
                         <p>You can now add existing tasks or issues to a Workfront board directly from a list or report view. Any items you add to the board will become connected cards.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
@@ -247,7 +269,7 @@ In lieu of a release webinar, we invite you to register for Adobe Summit to watc
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-project-enhancements.md" class="MCXref xref" xrefformat="{para}">New experience when editing projects in bulk</a><span style="color: #ff0000;"> New in Preview!</span>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-project-enhancements.md" class="MCXref xref" xrefformat="{para}">New experience when editing projects in bulk</a>
                         <p>As part of updating the look and feel of the Workfront experience, we have redesigned the Edit Projects box, when editing several projects at the same time, In bulk. You can access the new Edit Projects box when selecting several projects at the same time in a list of projects.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
@@ -386,7 +408,7 @@ In lieu of a release webinar, we invite you to register for Adobe Summit to watc
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">New commenting experience for issues Beta</a><span style="color: #ff0000;"> New in Preview!</span>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">New commenting experience for issues Beta</a>
                         <p>An update to the commenting experience in Adobe Workfront is currently in development. This update includes a new interface, new features, and improved performance in the Updates section of some objects.</p>
                         <p>This new experience will eventually unify commenting across Adobe Workfront and beyond, throughout the Adobe Experience Cloud.</p>
                     </td>
