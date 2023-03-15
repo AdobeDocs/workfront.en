@@ -11,6 +11,12 @@ This page describes all agile enhancements made with the 23.2 release to the Pre
 
 For a list of all changes available at this point in the 23.2 release cycle, see [23.2 Release overview](/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md).
 
+## Add tasks and issues to Boards workstreams from lists and reports
+
+You can now add existing tasks or issues to a workstream in Workfront Boards directly from a list or report view. Any items you add to the workstream are added to the card list as unplanned cards.
+
+For more information, see [Add existing tasks or issues to a board](/help/quicksilver/agile/get-started-with-boards/add-card-from-list-to-board.md).
+
 ## Iteration functionality available in Adobe Workfront Boards
 
 Several new features available in Workfront Boards make it possible to use agile Scrum functionality. These features include:
