@@ -92,7 +92,7 @@ Cards can only be archived from the iteration board. When a card is archived, it
 1. Access the card list for the workstream.
 1. Click [!UICONTROL **Filter**] and select [!UICONTROL **All**], [!UICONTROL **Active cards**], or [!UICONTROL **Archived cards**].
 
-   When a filter other than the default is applied on the card list, an indicator is displayed on the filter icon ![Filter applied to dashboard](assets/boards-filterapplied-30x30.png).
+   When a filter other than the default is applied on the card list, an indicator is displayed on the filter icon ![Filter applied](assets/boards-filterapplied-30x30.png).
 
 ### Search in the card list
 

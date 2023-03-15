@@ -21,7 +21,7 @@ The boards dashboard shows the list of boards and workstreams that you have acce
 On the dashboard you can do the following for boards and workstreams:
 
 * Archive a board <span class="preview">or workstream</span>
-* Filter the boards list
+* Filter the boards <span class="preview">and workstreams</span>
 * Sort the boards list by board name or date modified
 * Search for a board or workstream
 * Delete a board or workstream
@@ -49,7 +49,7 @@ You must have the following access to perform the steps in this article:
 
 &#42;To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
 
-## Filter boards and workstreams {#filter-boards}
+## Filter boards <span class="preview">and workstreams</span> {#filter-boards}
 
 You can filter the boards dashboard to show active, archived, or all boards or workstreams.
 
