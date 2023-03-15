@@ -46,7 +46,7 @@ You must have the following access to perform the steps in this article:
 1. Click [!UICONTROL **More**] > [!UICONTROL **Add to Boards**].
 1. In the [!UICONTROL Add To] dialog box, select the board to add the items to.
 
-   Only standalone boards are available, not boards that are part of workstreams.
+   Only standalone boards are available with this option, not boards that are part of workstreams.
 
 1. Click [!UICONTROL **Add**].
    
