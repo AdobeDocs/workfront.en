@@ -34,7 +34,7 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-## Review iteration metrics
+## Review iteration metrics on the iteration board
 
 {{step1-to-boards}}
 
@@ -46,3 +46,10 @@ You must have the following access to perform the steps in this article:
 
 1. (Optional) Click the [!UICONTROL **Iteration details**] icon ![Iteration details](assets/iteration-details-button.png) to open the details dialog for the selected iteration.
 
+## Review iteration metrics on the dashboard
+
+{{step1-to-boards}}
+
+  The following metrics are displayed on the dashboard for the workstream's current iteration: total number of points assigned to the iteration, the number of points completed, and the remaining points not yet completed in the iteration.
+
+  To review metrics for other iterations, you must open the iteration board.
