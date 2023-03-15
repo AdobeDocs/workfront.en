@@ -97,7 +97,7 @@ You can map [!DNL Workfront] object data to asset media fields in [!DNL Experien
 
 ### Configure metadata fields
 
-Before you begin mapping metadata fields, you must configure metadata fields in both Workfront and Experience Manager Assets. You can configure metadat for the following:
+Before you begin mapping metadata fields, you must configure metadata fields in both Workfront and Experience Manager Assets. You can configure metadata for the following:
 
 * Custom fields
 * AEM Tags
