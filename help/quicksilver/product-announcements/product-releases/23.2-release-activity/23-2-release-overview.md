@@ -391,10 +391,10 @@ In lieu of a release webinar, we invite you to register for Adobe Summit to watc
                 </tr>
                 <tr>
                     <td>
-                        <a href="help/quicksilver/product-announcements/product-releases/23.2-release-activity/reports-dashboards-enhancements.md" class="MCXref xref" xrefformat="{para}">Canvas Dashboards</a><span style="color: #ff0000;"> New in Preview!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/reports-dashboards-enhancements.md" class="MCXref xref" xrefformat="{para}">Canvas Dashboards</a><span style="color: #ff0000;"> New in Preview!</span></p>
                         <p>Canvas Dashboards has been added as a work-in-progress feature for Dashboards that can be enabled in layout templates. Canvas Dashboards will allow Reporting Canvas visualizations to be combined with existing reports in addition to new layout options. Currently only list reports are supported, but more options will be added as development continues.</p>
                     </td>
-                    <td><p><b>Available on these dates: March 13, 2023</b></p>
+                    <td><p><b>Available on these dates: N/A</b></p>
                         <ul>
                             <li>
                                 <p>Preview release:<br /></p>
