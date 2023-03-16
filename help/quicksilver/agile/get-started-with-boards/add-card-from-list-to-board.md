@@ -52,6 +52,8 @@ You must have the following access to perform the steps in this article:
    
    The task or issue is added to the board. If the board has column policies applied for status, the card is added in the column corresponding to its status. Otherwise, it appears in the first column on the left, not including the intake column.
 
+   For information on column policies, see [Manage board columns](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md).
+
 ## Add existing tasks or issues to a workstream
 
 1. Click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe Workfront].
