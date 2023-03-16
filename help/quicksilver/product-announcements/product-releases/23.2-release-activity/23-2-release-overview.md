@@ -400,7 +400,7 @@ In lieu of a release webinar, we invite you to register for Adobe Summit to watc
                                 <p>Preview release:<br /></p>
                             </li>
                             <li>
-                                <p><span class="preview">Production release: With the 23.2 release </span></p>
+                                <p><span class="preview">Production release: With the 23.2 release</span></p>
                             </li>
                         </ul>
                     </td>
