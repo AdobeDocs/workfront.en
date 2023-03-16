@@ -371,7 +371,7 @@ In lieu of a release webinar, we invite you to register for Adobe Summit to watc
             </tbody>
         </table>  
 
-
+<!--
 ### Reports and Dashboards enhancements
 
 
@@ -407,6 +407,8 @@ In lieu of a release webinar, we invite you to register for Adobe Summit to watc
                 </tr>
             </tbody>
         </table>
+
+        -->
 
 ### Mobile enhancements
 
