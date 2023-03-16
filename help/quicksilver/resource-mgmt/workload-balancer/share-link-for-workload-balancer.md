@@ -25,7 +25,8 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Plan or higher</p> </td> 
+   <td> <p>Plan, when using the Workload Balancer in the Resourcing area</p>
+   <p>Work, when using the Workload Balancer of a team or project</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 

@@ -25,8 +25,8 @@ You must have the following:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Plan, when using the Workload Balancer for a team or in the Resourcing area </p>
-   <p>Work, when using the Workload Balancer of a project </p>
+   <td> <p>Plan, when using the Workload Balancer in the Resourcing area</p>
+   <p>Work, when using the Workload Balancer of a team or project</p>
  </td> 
   </tr> 
   <tr> 
