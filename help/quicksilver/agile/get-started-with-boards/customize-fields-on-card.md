@@ -51,7 +51,7 @@ You must have the following access to perform the steps in this article:
 
 &#42;To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
 
-## Configure cards
+## Configure cards {#configure-cards}
 
 1. Click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe Workfront], then click **[!UICONTROL Boards]**.
 1. Access a board. For information, see [Create or edit a board](../../agile/get-started-with-boards/create-edit-board.md).
@@ -84,6 +84,6 @@ You must have the following access to perform the steps in this article:
 
 1. Select the field name.   
 
-   The custom field is added to the list of available fields and is enabled by default. You can disable or hide the custom field following the steps in the "Configure cards" section above, or delete it from the board.
+   The custom field is added to the list of available fields and is enabled by default. You can disable or hide the custom field following the steps in the [Configure cards](customize-fields-on-card.md#configure-cards) section above, or delete it from the board.
 
 </div>

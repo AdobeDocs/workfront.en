@@ -148,7 +148,7 @@ The following table outlines major features of boards along with their current r
   </tr>
   <tr>
    <td>Add custom fields to connected cards</td>
-   <td>Partially released</td>
+   <td>Partially released (available in Preview)</td>
   </tr>
  </tbody> 
 </table>
