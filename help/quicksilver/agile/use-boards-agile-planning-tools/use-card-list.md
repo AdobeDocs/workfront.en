@@ -79,7 +79,9 @@ You must have the following access to perform the steps in this article:
 
 ## View cards
 
-When you access the card list for a workstream, the list view is selected by default. To view the cards grouped by iteration, click [!UICONTROL **Iteration view**]. Unplanned cards are displayed in their own group.
+To view all cards for the workstream in a single list, click [!UICONTROL **List view**] on the Card List tab.
+
+To view all cards for the workstream grouped by iteration, click [!UICONTROL **Iteration view**]. Unplanned cards are displayed in their own group.
 
 To edit an existing card, select it in the list and click [!UICONTROL **Edit**].
 
