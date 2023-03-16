@@ -15,8 +15,7 @@ The boards dashboard shows the list of boards and workstreams that you have acce
 
 >[!NOTE]
 >
->The previous version of workstreams, called collections, are available only through the early feature opt-in for [!UICONTROL [!DNL Workfront] Boards]. For details, see [Early feature opt-in for Adobe Workfront Boards](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md).
->Workstreams are available to everyone in the Preview environment.
+>Workstreams are available in the Preview environment, and in Production through the early feature opt-in for [!UICONTROL [!DNL Workfront] Boards]. For details, see [Early feature opt-in for Adobe Workfront Boards](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md).
 
 On the dashboard you can do the following for boards and workstreams:
 

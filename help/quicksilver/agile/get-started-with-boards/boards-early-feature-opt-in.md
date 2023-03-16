@@ -119,7 +119,7 @@ The following table outlines major features of boards along with their current r
    <td>Partially released</td>
   </tr>
   <tr>
-   <td>Create collections of boards</td>
+   <td>Create workstreams and add boards to workstreams</td>
    <td>Partially released</td>
   </tr>
   <tr>

@@ -41,8 +41,7 @@ You must have the following access to perform the steps in this article:
 
    >[!NOTE]
    >
-   >The previous version of workstreams, called collections, are available only through the early feature opt-in for [!UICONTROL [!DNL Workfront] Boards]. For details, see [Early feature opt-in for Adobe Workfront Boards](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md).
-   >Workstreams are available to everyone in the Preview environment.
+   >Workstreams are available in the Preview environment, and in Production through the early feature opt-in for [!UICONTROL [!DNL Workfront] Boards]. For details, see [Early feature opt-in for Adobe Workfront Boards](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md).
 
 1. Select a template for the board.
 
