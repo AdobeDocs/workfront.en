@@ -22,7 +22,7 @@ The following table illustrates the connection between the Workfront plan your c
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Workfront Plan</td> 
+   <td role="rowheader"><p>Workfront Plan</p></td> 
    <td> <p>Areas where you can access the Workload Balancer</p> </td> 
   </tr> 
   <tr> 
@@ -50,7 +50,8 @@ You must have the following access to view the Workload Balancer:
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Plan </p> </td> 
+   <td> <p>Plan to view the Workload Balancer in the Resourcing area</p>
+   <p>Work to view the Workload Balancer of a team or project</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
@@ -77,8 +78,8 @@ You must have the following access to manage the Workload Balancer:
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Plan </p> 
-   <p>Work, to manage resources in the Workload Balancer of a project</p>
+   <td> <p>Plan to manage assignments in the Workload Balancer in the Resourcing area</p>
+   <p>Work to manage assignments in the Workload Balancer of a team or project</p>
    </td> 
   </tr> 
   <tr> 
