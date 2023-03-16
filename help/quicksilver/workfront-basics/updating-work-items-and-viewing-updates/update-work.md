@@ -11,11 +11,15 @@ exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
 
 <!-- Drafted for commenting experience: 
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for a limited number of objects.</span> -->
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only for a limited number of objects when you opt in to the new commenting experience Beta.</span> -->
 
-You can add an update on a Adobe Workfront object (project, task, or issue) to communicate about progress on the object. Users who are assigned or subscribed to the object can view your update. You can also tag users to bring their attention to the update. 
+You can add comments to several objects in Workfront. For more information, see [Updates tab overview](../updating-work-items-and-viewing-updates/updates-tab-overview.md). 
 
-You can add updates to an object from the following areas of Workfront:
+You can add an update on a Adobe Workfront object (project, task, or issue) to communicate about progress on the object, in addition to commenting on it. Users who are assigned or subscribed to the object can view your update. You can also tag users to bring their attention to the update. 
+
+The information on this page refers to updating work for projects, tasks, or issues. For information about adding comments and updaes to goals, see [Manage goal comments in Adobe Workfront Goals](../../workfront-goals/goal-management/manage-goal-comments.md).
+
+You can update project, tasks, and issues from the following areas of Workfront:
 
 * From a Workfront object, in the Updates  section  
 * From the Home area (for tasks and issues)
