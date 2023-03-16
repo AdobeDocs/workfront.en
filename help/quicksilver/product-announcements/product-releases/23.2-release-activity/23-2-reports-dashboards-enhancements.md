@@ -5,7 +5,7 @@ author: Courtney
 draft: Probably
 feature: Product Announcements
 ---
-# 23.2 Administrator enhancements
+# 23.2 Administrator enhancements 
 
 This page describes all Reports and Dashboards enhancements made with the 23.2 release to the Preview environment. These enhancements will be made available in the Production environment with the 23.2 release. 
 
