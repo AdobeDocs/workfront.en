@@ -108,7 +108,7 @@ In lieu of a release webinar, we invite you to register for Adobe Summit to watc
                         </p>
                     </td>
                 </tr>
-              <!-->  <tr>
+              <!-- <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Add tasks and issues to Boards workstreams from lists and reports</a><span style="color: #ff0000;"> New in Preview!</span></p>
                         <p>You can now add existing tasks or issues to a workstream in Workfront Boards directly from a list or report view. Any items you add to the workstream are added to the card list as unplanned cards.</p>

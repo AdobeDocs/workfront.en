@@ -11,7 +11,8 @@ This page describes all agile enhancements made with the 23.2 release to the Pre
 
 For a list of all changes available at this point in the 23.2 release cycle, see [23.2 Release overview](/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md).
 
-<!-->
+<!--
+
 ## Iteration functionality available in Adobe Workfront Boards
 
 Several new features available in Workfront Boards make it possible to use agile Scrum functionality. These features include:
