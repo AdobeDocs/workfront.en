@@ -23,7 +23,7 @@ Note that collections have been renamed to workstreams. Workstreams help you vis
 
 For more information, see [Manage workstreams](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md), [Create an iteration](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration.md), and [Use the card list](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md). Second two articles will not be available in Main until I publish my branch.
 
-## Add tasks and issues to Boards workstreams from lists and reports
+## Add tasks and issues from lists and reports to a workstream card list
 
 You can now add existing tasks or issues to a workstream in Workfront Boards directly from a list or report view. Any items you add to the workstream are added to the card list as unplanned cards.
 
@@ -39,7 +39,7 @@ Any data from the custom field on the card is read-only.
 
 For more information, see [Customize which fields are displayed on a card](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md).
 
-## Add tasks and issues to Workfront Boards from lists and reports
+## Add tasks and issues from lists and reports to a Workfront board
 
 You can now add existing tasks or issues to a Workfront board directly from a list or report view. Any items you add to the board will become connected cards.
 
