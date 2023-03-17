@@ -6,11 +6,11 @@ description: You can add any task or issue to a board in Adobe Workfront from a 
 author: Lisa
 feature: Agile
 ---
-# Add existing tasks or issues to an [!DNL Adobe Workfront] board
+# Add existing tasks or issues to an [!DNL Adobe Workfront] board or workstream
 
 {{highlighted-preview-article-level}}
 
-You can add any task or issue to a board in [!DNL Adobe Workfront] from a list or report view.
+You can add any task or issue to a board or a workstream in [!DNL Adobe Workfront] from a list or report view.
 
 ## Access requirements
 
@@ -46,11 +46,25 @@ You must have the following access to perform the steps in this article:
 1. Click [!UICONTROL **More**] > [!UICONTROL **Add to Boards**].
 1. In the [!UICONTROL Add To] dialog box, select the board to add the items to.
 
-   Only standalone boards are available, not boards that are part of collections.
+   Only standalone boards are available with this option, not boards that are part of workstreams.
 
 1. Click [!UICONTROL **Add**].
    
    The task or issue is added to the board. If the board has column policies applied for status, the card is added in the column corresponding to its status. Otherwise, it appears in the first column on the left, not including the intake column.
+
+   For information on column policies, see [Manage board columns](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md).
+
+## Add existing tasks or issues to a workstream
+
+1. Click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe Workfront].
+1. Choose one of the following: **[!UICONTROL Projects]**, **[!UICONTROL Reporting]**, or **[!UICONTROL Dashboards]**.
+1. Go to the project, report, or dashboard that contains the task or issue you want to add to the workstream.
+1. Select one or more tasks or issues.
+1. Click [!UICONTROL **More**] > [!UICONTROL **Add to Workstream**].
+1. In the [!UICONTROL Add To] dialog box, select the workstream to add the items to.
+1. Click [!UICONTROL **Add**].
+
+   The task or issue is added to the workstream's card list as an unplanned card.
 
 ## Show the boards associated to a task or issue
 
