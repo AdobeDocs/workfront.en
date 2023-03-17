@@ -23,9 +23,27 @@ Note that collections have been renamed to workstreams. Workstreams help you vis
 
 For more information, see [Manage workstreams](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md), [Create an iteration](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration.md), and [Use the card list](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md). Second two articles will not be available in Main until I publish my branch.
 
-## Add tasks and issues to Boards workstreams from lists and reports
+## Add tasks and issues from lists and reports to a workstream card list
 
 You can now add existing tasks or issues to a workstream in Workfront Boards directly from a list or report view. Any items you add to the workstream are added to the card list as unplanned cards.
+
+For more information, see [Add existing tasks or issues to a board](/help/quicksilver/agile/get-started-with-boards/add-card-from-list-to-board.md).
+
+## Add custom fields to cards on a board
+
+You can now include custom fields on Adobe Workfront Boards. The field must already be created in Workfront. You can't design and create new custom fields within a board.
+
+Like the default fields, you can choose to display the custom field on the full view of a card and the condensed view on the board.
+
+Any data from the custom field on the card is read-only.
+
+For more information, see [Customize which fields are displayed on a card](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md).
+
+## Add tasks and issues from lists and reports to a Workfront board
+
+You can now add existing tasks or issues to a Workfront board directly from a list or report view. Any items you add to the board will become connected cards.
+
+Also, the Boards field is now available to add to lists and reports for tasks or issues. This field displays all boards that a task or issue has been added to.
 
 For more information, see [Add existing tasks or issues to a board](/help/quicksilver/agile/get-started-with-boards/add-card-from-list-to-board.md).
 
@@ -42,13 +60,6 @@ The time logging fields are not displayed on connected cards by default. You mus
 
 For more information, see [Use connected cards on boards](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
 
-## Add tasks and issues to Workfront Boards from lists and reports
-
-You can now add existing tasks or issues to a Workfront board directly from a list or report view. Any items you add to the board will become connected cards.
-
-Also, the Boards field is now available to add to lists and reports for tasks or issues. This field displays all boards that a task or issue has been added to.
-
-For more information, see [Add existing tasks or issues to a board](/help/quicksilver/agile/get-started-with-boards/add-card-from-list-to-board.md).
 
 ## Customize display of fields on a card
 

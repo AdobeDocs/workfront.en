@@ -132,7 +132,7 @@ In lieu of a release webinar, we invite you to register for Adobe Summit to watc
                 </tr> 
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Add tasks and issues to Boards workstreams from lists and reports</a><span style="color: #ff0000;"> New in Preview!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Add tasks and issues from lists and reports to a workstream card list</a><span style="color: #ff0000;"> New in Preview!</span></p>
                         <p>You can now add existing tasks or issues to a workstream in Workfront Boards directly from a list or report view. Any items you add to the workstream are added to the card list as unplanned cards.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
@@ -164,7 +164,7 @@ In lieu of a release webinar, we invite you to register for Adobe Summit to watc
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Add tasks and issues to Workfront Boards from lists and reports</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Add tasks and issues from lists and reports to a Workfront board</a></p>
                         <p>You can now add existing tasks or issues to a Workfront board directly from a list or report view. Any items you add to the board will become connected cards.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
