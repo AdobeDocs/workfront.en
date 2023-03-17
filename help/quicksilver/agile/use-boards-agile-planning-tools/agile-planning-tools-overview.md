@@ -10,9 +10,27 @@ exl-id: c1d28eeb-e920-4f57-a94b-ffd928b384a4
 ---
 # Agile planning tools overview
 
-As you create a board using ad hoc and connected cards, you might want to take advantage of additional agile planning tools, including column WIP limits, grouping cards into swimlanes, an intake column that can be used for a backlog, and collections of boards.
+{{highlighted-preview}}
 
-You can use any or all of these tools in a way that works for you and your team, without committing to a specific agile methodology such as Kanban or Scrum.
+As you create a board using ad hoc and connected cards, you might want to take advantage of additional agile planning tools.
+
+Tools useful for Kanban include:
+
+* WIP limits on columns
+* Grouping cards into swimlanes
+* An intake column that can be used for a backlog
+
+<div class="preview">
+
+Tools useful for Scrum include:
+
+* Workstreams and iteration boards
+* Card list or backlog
+* Iteration metrics
+
+</div>
+
+You can use any or all of these tools in a way that works for you and your team, without committing to a specific agile methodology.
 
 This section contains the following articles:
 
@@ -20,4 +38,7 @@ This section contains the following articles:
 * [Add an intake column to a board](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md)
 * [Use groups on a board](/help/quicksilver/agile/use-boards-agile-planning-tools/group-cards-on-board.md)
 * [Configure card falloff](/help/quicksilver/agile/use-boards-agile-planning-tools/configure-card-falloff.md)
-* [Manage collections](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md)
+* [Manage workstreams](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md)
+* [Use the card list](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md)
+* [Create an iteration](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration.md)
+* [Review iteration metrics](/help/quicksilver/agile/use-boards-agile-planning-tools/review-iteration-metrics.md)

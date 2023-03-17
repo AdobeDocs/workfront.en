@@ -922,7 +922,10 @@ feature-set: Workfront
     * [Add an intake column to a board](agile/use-boards-agile-planning-tools/add-intake-column-to-board.md)
     * [Use groups on a board](agile/use-boards-agile-planning-tools/group-cards-on-board.md)
     * [Configure card falloff](agile/use-boards-agile-planning-tools/configure-card-falloff.md)
-    * [Manage collections](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md)
+    * [Manage workstreams](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md)
+    * [Use the card list](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md)
+    * [Create an iteration](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration.md)
+    * [Review iteration metrics](/help/quicksilver/agile/use-boards-agile-planning-tools/review-iteration-metrics.md)
   * Kanban in an agile team {#kanban}
     * [Kanban in an agile team](agile/use-kanban-in-an-agile-team/using-kanban-in-an-agile-team.md)
     * [Kanban overview](agile/use-kanban-in-an-agile-team/kanban-overview.md)

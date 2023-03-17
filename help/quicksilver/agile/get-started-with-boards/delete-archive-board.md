@@ -9,11 +9,12 @@ exl-id: 214a83f6-ecc1-4e4d-aba5-d6483dcabd27
 ---
 # Delete or archive a board
 
-You can delete or archive a board in [!DNL Workfront]. Deleting a board permanently removes it from [!DNL Workfront], while archiving a board retains all cards and allows it to be restored at a later time. These options apply both to standalone boards and boards that are part of collections.
+You can delete or archive a board in [!DNL Workfront]. Deleting a board permanently removes it from [!DNL Workfront], while archiving a board retains all cards and allows it to be restored at a later time. These options apply both to standalone boards and boards that are part of workstreams.
 
 >[!NOTE]
 >
->Collections are available only through the early feature opt-in for Workfront Boards.
+>The previous version of workstreams, called collections, are available only through the early feature opt-in for [!UICONTROL [!DNL Workfront] Boards]. For details, see [Early feature opt-in for Adobe Workfront Boards](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md).
+>Workstreams are available to everyone in the Preview environment.
 
 ## Access requirements
 
