@@ -8,6 +8,8 @@ exl-id: 21cf5493-147d-4b8d-8b16-2891eb7e0491
 ---
 # Apply a scorecard to a project and generate an Alignment Score
 
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> 
+
 You can use a scorecard to measure how well a project aligns with the previously established criteria of a portfolio. A scorecard often reflects the mission, values, and strategic goals of an organization.
 
 For more information about scorecards and how you can create one, see [Create a scorecard](../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md).

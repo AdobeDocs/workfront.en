@@ -18,6 +18,7 @@ feature-set: Workfront
       * [23.2 Agile enhancements](product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md)
       * [23.2 Project management enhancements](product-announcements/product-releases/23.2-release-activity/23-2-project-enhancements.md)
       * [23.2 Resource management enhancements](product-announcements/product-releases/23.2-release-activity/23-2-resource-management-enhancements.md)
+      * [23.2 Reports and Dashboards enhancements](product-announcements/product-releases/23.2-release-activity/23-2-reports-dashboards.md)
       * [23.2 Mobile enhancements](product-announcements/product-releases/23.2-release-activity/23-2-mobile-enhancements.md)
       * [23.2 Other enhancements](product-announcements/product-releases/23.2-release-activity/23-2-other-enhancements.md)
       * [Look and feel updates during the 23.2 release time frame](product-announcements/product-releases/23.2-release-activity/23-2-look-and-feel.md)
