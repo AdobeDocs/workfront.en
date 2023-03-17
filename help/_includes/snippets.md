@@ -56,6 +56,7 @@ You can make sure you are associating the right group with the team by hovering 
 
 1. Click the **[!UICONTROL Main Menu]** icon ![Main Menu](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, or (if available), click the **[!UICONTROL Main Menu]** icon ![Main Menu](assets/main-menu-icon-left-nav.png) in the upper-left corner, then click **[!UICONTROL Users]** ![](assets/users-icon-in-main-menu.png).
 
+
 <!-- Agile -->
 
 ## Step 1 - Getting to Boards - {#step1-to-boards}
@@ -231,7 +232,7 @@ You must install the correct plugin for the Adobe Creative Cloud application you
 
 ## Latest DPV Version {#latest-version}
 
-**Latest version**: 2.1.20 as of 1/11/2023
+**Latest version**: 2.1.22 as of 3/10/2023
 
 <!-- Release -->
 

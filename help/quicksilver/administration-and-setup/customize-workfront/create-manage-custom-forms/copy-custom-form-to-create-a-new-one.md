@@ -3,14 +3,14 @@ user-type: administrator
 product-area: system-administration
 keywords: create,custom,form,copy,base,another
 navigation-topic: create-and-manage-custom-forms
-title: Copy a custom form to create a new one
+title: Copy a custom form to create a new one with the legacy builder
 description: You can create a new custom form that is based on an existing one.
 author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 946a726e-af88-413c-abe3-55fbc7486380
 ---
-# Copy a custom form to create a new one
+# Copy a custom form to create a new one with the legacy builder
 
 You can create a new custom form that is based on an existing one.
 
@@ -74,12 +74,12 @@ You must have the following to perform the steps in this article:
 1. Select the form that you just copied, then click **Edit**.
 1. Make any changes to the form, as explained in the following articles:
 
-   * [Copy a custom form to create a new one](#Add2) 
-   * [Add calculated data to a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md) 
-   * [Position custom fields and widgets in a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/position-fields-in-a-custom-form.md) 
-   * [Add or edit an asset widget in a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md) 
-   * [Reuse an existing calculated custom field in a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/use-existing-calc-field-new-custom-form.md) 
-   * [Add display logic and skip logic to a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/display-or-skip-logic-custom-form.md) 
-   * [Preview and complete a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/preview-and-complete-a-custom-form.md)
+   * [Copy a custom form to create a new one with the legacy form builder](#Add2) 
+   * [Add calculated data to a custom form with the legacy form builder](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md) 
+   * [Position custom fields and widgets in a custom form with the legacy form builder](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/position-fields-in-a-custom-form.md) 
+   * [Add or edit an asset widget in a custom form with the legacy form builder](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md) 
+   * [Reuse an existing calculated custom field in a custom form with the legacy form builder](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/use-existing-calc-field-new-custom-form.md) 
+   * [Add display logic and skip logic to a custom form with the legacy form builder](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/display-or-skip-logic-custom-form.md) 
+   * [Preview and complete a custom form with the legacy form builder](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/preview-and-complete-a-custom-form.md)
 
 1. (Optional) After you click **Save+Close**, attach the form to the object where you want to use it, as described in [Add a custom form to an object](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).

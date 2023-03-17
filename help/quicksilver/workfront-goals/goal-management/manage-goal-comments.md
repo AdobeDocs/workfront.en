@@ -182,9 +182,6 @@ You can edit or delete a comment that you entered in this area, or you can like 
 
 -->
 
->[!IMPORTANT]
->The content on this page refers to functionality that is part of the new Unified Commenting Experience, currently available only in Adobe Workfront Goals. For more information on the Unified Commenting Experience, see [Unified Commenting Experience](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/unified-commenting-experience.md).
-
 You can add comments to goals in the Updates section of a goal's page.
 
 You can reply to or like a comment that you or others added in this area. 
@@ -194,11 +191,15 @@ This opens the goal list.
 1. Locate the goal you want to add comments to, then click its name to open the goal page. 
 1. Click  **Updates** in the left panel. 
 1. Click the **Comments** tab in the upper-left corner of the Updates area.
-1. Start entering a comment in the **Write a comment** box. 
+1. Start entering a comment in the **New comment** box. 
    
    ![](assets/comment-box-empty-unshimmed.png)
 
-1. (Optional) In the **Notify** area, start typing the name or the email of a user, or a team that you would like to include in this comment, then select it when it displays in the list. 
+   >[!TIP]
+   >
+   >Navigating away from the Updates section before you finish typing and submitting a comment keeps the comment on the page in draft mode even after you log off and log back on. Drafted comments are only visible to the user entering them.
+
+1. (Optional) In the **Tag people or teams** area, start typing the name or the email of a user, or a team that you would like to include in this comment, then select it when it displays in the list. 
 1. Click **Submit**. 
 1. (Optional) Click **Reply** to reply to an existing comment, then follow the steps 5-7 above. <!--insure this stays accurate-->
 1. (Optional) Click the **Like** icon![](assets/like-icon.png) to like a comment that someone else added. The icon updates with the number of likes.
