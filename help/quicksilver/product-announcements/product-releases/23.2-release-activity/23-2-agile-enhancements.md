@@ -11,8 +11,6 @@ This page describes all agile enhancements made with the 23.2 release to the Pre
 
 For a list of all changes available at this point in the 23.2 release cycle, see [23.2 Release overview](/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md).
 
-<!--
-
 ## Iteration functionality available in Adobe Workfront Boards
 
 Several new features available in Workfront Boards make it possible to use agile Scrum functionality. These features include:
@@ -31,7 +29,6 @@ You can now add existing tasks or issues to a workstream in Workfront Boards dir
 
 For more information, see [Add existing tasks or issues to a board](/help/quicksilver/agile/get-started-with-boards/add-card-from-list-to-board.md).
 
--->
 
 ## Log hours on connected cards on a board
 
@@ -44,6 +41,14 @@ You can now log hours on connected cards, the same way you would on a task or is
 The time logging fields are not displayed on connected cards by default. You must enable **Hours** in the Configure area under Cards.
 
 For more information, see [Use connected cards on boards](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
+
+## Add tasks and issues to Workfront Boards from lists and reports
+
+You can now add existing tasks or issues to a Workfront board directly from a list or report view. Any items you add to the board will become connected cards.
+
+Also, the Boards field is now available to add to lists and reports for tasks or issues. This field displays all boards that a task or issue has been added to.
+
+For more information, see [Add existing tasks or issues to a board](/help/quicksilver/agile/get-started-with-boards/add-card-from-list-to-board.md).
 
 ## Customize display of fields on a card
 
