@@ -23,6 +23,12 @@ Note that collections have been renamed to workstreams. Workstreams help you vis
 
 For more information, see [Manage workstreams](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md), [Create an iteration](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration.md), and [Use the card list](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md).
 
+## Add tasks and issues to Boards workstreams from lists and reports
+
+You can now add existing tasks or issues to a workstream in Workfront Boards directly from a list or report view. Any items you add to the workstream are added to the card list as unplanned cards.
+
+For more information, see [Add existing tasks or issues to a board](/help/quicksilver/agile/get-started-with-boards/add-card-from-list-to-board.md).
+
 ## Add custom fields to cards on a board
 
 You can now include custom fields on Adobe Workfront Boards. The field must already be created in Workfront. You can't design and create new custom fields within a board.
