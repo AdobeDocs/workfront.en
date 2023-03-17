@@ -132,9 +132,9 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
       <li>If multiple roles are assigned and at least one of them matches one of the user's other roles, the task or issue is assigned to the user (the role is selected randomly if there are multiple matches), along with any additional roles that are assigned</li>
       <li>If at least one job role is assigned and there are no matches to the user's job roles, the task or issue is assigned to both the role or roles and to the user.</li>
      </ul>
-   <p>For information about a user's primary role and other roles, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Edit a user's profile</a>.</p>
-   </td>
-  </tr>
+   <p>For information about a user's primary role and other roles, see <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md">Edit a user's profile</a>.</p>
+   </td> 
+     </tr>
   </tbody>
   </table> 
 
