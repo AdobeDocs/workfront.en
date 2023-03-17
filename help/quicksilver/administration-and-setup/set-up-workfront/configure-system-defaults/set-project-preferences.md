@@ -173,8 +173,15 @@ Configure any of the following preferences for newly created projects throughout
        <ul> 
         <li>Have a status of [!UICONTROL Current]</li> 
         <li>Have had an update in the past 3 months</li> 
-       </ul> </p> </li> 
-     <li> <p><strong>When a project's scope changes</strong>: Select this to recalculate project timelines immediately as a project scope change occurs. For information about what constitutes a project scope change, see <a href="../../../manage-work/projects/manage-projects/recalculate-project-timeline.md" class="MCXref xref" data-mc-variable-override="">Recalculate project timelines</a>.</p> </li> 
+        <li>Have had an Update Type of one of the following:</li>
+        <ul>
+        <li>Automatic and On Change</li>
+        <li>Change Only</li>
+        <li>Automatic Only</li> 
+      </ul>       
+    <b>TIP</b>
+    <p>Projects that have an Update Type of Manual Only are not affected by this setting.</p>
+    <li> <p><strong>When a project's scope changes</strong>: Select this to recalculate project timelines immediately as a project scope change occurs. For information about what constitutes a project scope change, see <a href="../../../manage-work/projects/manage-projects/recalculate-project-timeline.md" class="MCXref xref" data-mc-variable-override="">Recalculate project timelines</a>.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 

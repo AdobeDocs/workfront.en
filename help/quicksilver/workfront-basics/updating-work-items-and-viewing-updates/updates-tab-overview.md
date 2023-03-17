@@ -10,7 +10,13 @@ exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
 ---
 # Updates tab overview
 
-The Updates tab shows up to 200 of the most recent updates made within the past 90 days. You can reply to updates on the following objects:
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only for a limited number of objects when you opt in to the new commenting experience Beta.</span> -->
+
+<!-- for preview commenting beta: at the release of commenting beta: change the title to: Updates section overview - also update ALL articles from which this is linked-->
+
+The Updates tab shows up to 200 of the most recent updates made within the past 90 days. 
+
+You can make comments and reply to updates on the following objects:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -19,21 +25,22 @@ The Updates tab shows up to 200 of the most recent updates made within the past 
   <tr> 
    <td> 
     <ul> 
+     <li>Documents</li> 
+     <li>Goals</li> 
+     <li>Issues</li> 
+     <li>Iterations</li> 
      <li>Projects</li> 
-     <li>Portfolios</li> 
      <li>Programs</li> 
-     <li>Templates</li> 
-     <li>Template Tasks</li> 
-     <li>Tasks</li> 
+     <li>Portfolios</li> 
     </ul> </td> 
    <td> 
     <ul> 
-     <li>Issues</li> 
-     <li>Iterations</li> 
      <li>Stories</li> 
-     <li>Users</li> 
-     <li>Documents</li> 
+     <li>Tasks</li> 
+     <li>Templates</li> 
+     <li>Template Tasks</li> 
      <li>Timesheets</li> 
+     <li>Users</li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -95,14 +102,22 @@ For example, when you add an update to a task, the update appears on the Updates
    <td>Iteration</td> 
    <td>Team</td> 
   </tr> 
+
+<tr> 
+   <td>Goals</td> 
+   <td>Result, Activity</td> 
+  </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
 >Replies added to system updates do not roll up to the parent object. Only direct replies on a child object and replies added to existing updates roll up to parent objects.
+>
+>For information about the object hierarchy in Adobe Workfront, see [Understand objects in Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
-For informatics about the object hierarchy in Adobe Workfront, see [Understand objects in Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+<!-- drafted for the new commenting experience for issues in beta: Add this paragraph to the note above: 
+><span class="preview"> It is not possible to reply to system updates in the new commenting experience Beta. For more information, see [New commenting experience](../updating-work-items-and-viewing-updates/unified-commenting-experience.md).</span> -->
 
 ## Limitations of the Updates tab
 

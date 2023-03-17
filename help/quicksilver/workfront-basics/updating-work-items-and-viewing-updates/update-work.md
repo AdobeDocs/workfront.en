@@ -11,11 +11,15 @@ exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
 
 <!-- Drafted for commenting experience: 
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for a limited number of objects.</span> -->
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only for a limited number of objects when you opt in to the new commenting experience Beta.</span> -->
 
-You can add an update on a Adobe Workfront object (project, task, or issue) to communicate about progress on the object. Users who are assigned or subscribed to the object can view your update. You can also tag users to bring their attention to the update.
+You can add comments to several objects in Workfront. For more information, see [Updates tab overview](../updating-work-items-and-viewing-updates/updates-tab-overview.md). 
 
-You can add updates to an object from the following areas of Workfront:
+You can add an update on a Adobe Workfront object (project, task, or issue) to communicate about progress on the object, in addition to commenting on it. Users who are assigned or subscribed to the object can view your update. You can also tag users to bring their attention to the update. 
+
+The information on this page refers to updating work for projects, tasks, or issues. For information about adding comments and updaes to goals, see [Manage goal comments in Adobe Workfront Goals](../../workfront-goals/goal-management/manage-goal-comments.md).
+
+You can update project, tasks, and issues from the following areas of Workfront:
 
 * From a Workfront object, in the Updates  section  
 * From the Home area (for tasks and issues)
@@ -97,7 +101,7 @@ Adding an update to a work item differs depending on what environment and what o
 
 >[!NOTE]
 >
->The following functionality is available for all objects except for goals, in the Production and Preview environements. You must have an additional license to access Workfront Goals. For information about commenting on goals, see [Manage goal comments in Adobe Workfront Goals](../../workfront-goals/goal-management/manage-goal-comments.md)
+>The following functionality is available for all objects except for goals, in the Production and Preview environments. You must have an additional license to access Workfront Goals. For information about commenting on goals, see [Manage goal comments in Adobe Workfront Goals](../../workfront-goals/goal-management/manage-goal-comments.md)
 
 -->
 
@@ -277,12 +281,10 @@ Adding an update to a work item differs depending on what environment and what o
 1. Click **Submit**. 
 1. (Optional) Click **Reply** to reply to an existing comment, then follow the steps 5-7 above. (**************insure this stays accurate***********)
 1. (Optional) Click the **Like** icon![](assets/like-icon.png) to like a comment that someone else added. The icon updates with the number of likes.
-
-1. (Optional) Click the **System Activity** tab to view updates logged by the system. When a goal is updated, Workfront generates a note about that update that and displays it in the System Activity tab. Workfront also records a system update when a result, activity, or project is added to the goal or when it is updated. 
-
 1. (Conditional and Optional) If you included additional people in your comment, click on the number of members included in the update to display a list of entities that the comment you entered is shared with. 
 
    ![](assets/members-icons-expanded-unshimmed.png)
+1. (Optional) Click the **System Activity** tab to view updates logged by the system. When a goal is updated, Workfront generates a note about that update that and displays it in the System Activity tab. Workfront also records a system update when a result, activity, or project is added to the goal or when it is updated. 
 
 -->
  
@@ -361,7 +363,7 @@ No Workfront user (including the Workfront administrator) can delete updates mad
 
 ## Enable or disable system updates
 
-The Updates tab for a Workfront object displays two types of information:
+The Updates section for a Workfront object displays two types of information:
 
 * **User updates:** User updates are comments that you and other users in your system enter.
 
@@ -383,3 +385,4 @@ To enable or disable system updates:
    ![](assets/show-system-updates-qs-350x55.png)
 
    This option is persistent across all objects throughout Workfront and remains in the position you select, even if you log out of Workfront.
+
