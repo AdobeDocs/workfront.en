@@ -23,7 +23,7 @@ Note that collections have been renamed to workstreams. Workstreams help you vis
 
 For more information, see [Manage workstreams](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md), [Create an iteration](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration.md), and [Use the card list](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md).
 
-## Add tasks and issues to Boards workstreams from lists and reports
+## Add tasks and issues from lists and reports to a workstream card list
 
 You can now add existing tasks or issues to a workstream in Workfront Boards directly from a list or report view. Any items you add to the workstream are added to the card list as unplanned cards.
 
@@ -39,14 +39,14 @@ Any data from the custom field on the card is read-only.
 
 For more information, see [Customize which fields are displayed on a card](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md).
 
-
-## Add tasks and issues to Workfront Boards from lists and reports
+## Add tasks and issues from lists and reports to a Workfront board
 
 You can now add existing tasks or issues to a Workfront board directly from a list or report view. Any items you add to the board will become connected cards.
 
 Also, the Boards field is now available to add to lists and reports for tasks or issues. This field displays all boards that a task or issue has been added to.
 
-For more information, see [Add existing tasks or issues to a board](/help/quicksilver/agile/get-started-with-boards/add-card-from-list-to-board.md). 
+For more information, see [Add existing tasks or issues to a board](/help/quicksilver/agile/get-started-with-boards/add-card-from-list-to-board.md).
+
 
 ## Log hours on connected cards on a board
 
@@ -59,6 +59,7 @@ You can now log hours on connected cards, the same way you would on a task or is
 The time logging fields are not displayed on connected cards by default. You must enable **Hours** in the Configure area under Cards.
 
 For more information, see [Use connected cards on boards](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
+
 
 ## Customize display of fields on a card
 

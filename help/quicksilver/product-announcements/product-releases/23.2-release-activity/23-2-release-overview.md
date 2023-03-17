@@ -110,7 +110,61 @@ In lieu of a release webinar, we invite you to register for Adobe Summit to watc
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Add tasks and issues to Workfront Boards from lists and reports</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Iteration functionality available in Adobe Workfront Boards</a><span style="color: #ff0000;"> New in Preview!</span></p>
+                        <p>Several new features available in Workfront Boards make it possible to use agile Scrum functionality. These features include:
+                        <ul>
+                        <li>Workstreams for grouping boards related to the same team, and collaborating on work</li>
+                        <li>A list of cards, or backlog of work, with the option to use sources to connect cards to Workfront tasks and issues</li>
+                        <li>Iteration planning and iteration process boards</li>
+                        </ul>
+                        </p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                        <ul>
+                            <li>
+                                <p>Preview release: March 17, 2023<br /></p>
+                            </li>
+                            <li>
+                                <p>Production release: With the 23.2 release</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr> 
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Add tasks and issues from lists and reports to a workstream card list</a><span style="color: #ff0000;"> New in Preview!</span></p>
+                        <p>You can now add existing tasks or issues to a workstream in Workfront Boards directly from a list or report view. Any items you add to the workstream are added to the card list as unplanned cards.</p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                        <ul>
+                            <li>
+                                <p>Preview release: March 17, 2023<br /></p>
+                            </li>
+                            <li>
+                                <p>Production release: With the 23.2 release</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Add custom fields to cards on a board</a><span style="color: #ff0000;"> New in Preview!</span></p>
+                        <p>You can now include custom fields on Adobe Workfront Boards. The field must already be created in Workfront. You can't design and create new custom fields within a board.</p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                        <ul>
+                            <li>
+                                <p>Preview release: March 17, 2023<br /></p>
+                            </li>
+                            <li>
+                                <p>Production release: With the 23.2 release</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Add tasks and issues from lists and reports to a Workfront board</a></p>
                         <p>You can now add existing tasks or issues to a Workfront board directly from a list or report view. Any items you add to the board will become connected cards.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
