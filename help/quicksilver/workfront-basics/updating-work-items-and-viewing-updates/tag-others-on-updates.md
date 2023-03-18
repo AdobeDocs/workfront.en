@@ -19,7 +19,7 @@ exl-id: c4c0d74f-ac50-4fc5-89d6-28f004c25b29
 >[!NOTE]
 >
 >We are currently redesigning the commenting experience in Adobe Workfront.
-For more information about the new updating experience, see [New commenting experience](../updating-work-items-and-viewing-updates/unified-commenting-experience.md). 
+>For more information about the new updating experience, see [New commenting experience](../updating-work-items-and-viewing-updates/unified-commenting-experience.md). 
 >
 >You can access the new design for the following objects:
 > * <span class="preview">Issues, when enabling the commenting Beta. </span>
