@@ -69,6 +69,8 @@ You must have the following access to perform the steps in this article:
 
 ## Copy a card
 
+Copying an ad hoc card duplicates all fields on the card, including checklist items.
+
 >[!NOTE]
 >
 >You can't copy connected cards.
