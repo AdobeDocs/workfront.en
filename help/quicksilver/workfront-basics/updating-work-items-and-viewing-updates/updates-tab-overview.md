@@ -2,21 +2,50 @@
 content-type: overview
 product-area: projects
 navigation-topic: update-work-items-and-view-updates
-title: Updates tab overview
-description: The Updates tab shows up to 200 of the most recent updates made within the past 90 days.
+title: Updates section overview
+description: The Updates section shows up to 200 of the most recent updates made within the past 90 days.
 author: Lisa and Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
 ---
-# Updates tab overview
+# Updates section overview
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only for a limited number of objects when you opt in to the new commenting experience Beta.</span> -->
+<!--take "Beta" references out when we remove the beta-->
 
-<!-- for preview commenting beta: at the release of commenting beta: change the title to: Updates section overview - also update ALL articles from which this is linked-->
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> 
 
-The Updates tab shows up to 200 of the most recent updates made within the past 90 days. 
+>[!NOTE]
+>
+>We are currently redesigning the Updates section of an object. You can access the new design by enabling the commenting Beta. 
+Currently, the Beta is available for <span class="preview">issues</span>. 
+For more information about the new commenting  experience, see [New commenting experience](../updating-work-items-and-viewing-updates/unified-commenting-experience.md). 
 
-You can make comments and reply to updates on the following objects:
+-->
+
+The Updates section of an object displays comments that users make on the object or system updates that track changes to the object.
+
+## Overview of the Updates section
+
+<!--drafted for the commenting beta for issues: 
+The information is organized differently in the Updates section, depending on which environment you access it from. 
+
+###  Overview of the current Updates section 
+-->
+
+The Updates section of an object shows up to 200 of the most recent updates made within the past 90 days. 
+
+<!--drafted for the commenting beta for issues: 
+The current Updates section shows the following information:
+
+************** AND REMOVE THE SENTENCE BELOW WHEN MAKING THIS LIVE:
+-->
+
+The Updates section shows the following information:
+
+* Comments made by users and replies to those comments. 
+* System updates which are informational messages that Workfront creates to record certain events on an objects. For example, you can capture changes in status, name, or custom fields with system updates. Your Workfront or group administrator can enable system updates for your ojects. For more information, see [Configure system updates](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
+
+The Updates section displays for the following objects:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -46,11 +75,43 @@ You can make comments and reply to updates on the following objects:
  </tbody> 
 </table>
 
+<!--drafted for the commenting beta for issues: 
+###  Overview of the Updates section in the Beta commenting experience
+
+The Updates section displays information in the following tabs in the Beta commenting experience: 
+
+* **Updates**: Displays comments made by users and replies to those comments. 
+* **System Activity**: Displays system updates which are informational messages that Workfront creates to record certain events on an objects. For example, you can capture changes in status, name, or custom fields with system updates. Your Workfront or group administrator can enable system updates for your ojects. For more information, see [Configure system updates](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
+
+Currenlty, you can make comments and reply to updates using the Beta commenting experience on the following objects:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td> 
+    <ul> 
+     <li>Goals</li> 
+     </ul> </td> 
+   <td> 
+    <ul> 
+     <li><span class="preview">Issues</span></li> 
+     </ul> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+>[!NOTE]
+>
+>The commenting experience Beta is the default current experience for goals. You must have an additional license to access Workfront Goals. For information, see [Requirements to use Workfront Goals](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+-->
+
 ## Updates that also appear on higher-rank objects
 
-As shown in the following table, replies made to updates on certain objects also appear on the Updates tab of higher-ranked objects.
+As shown in the following table, replies made to updates on certain objects also appear on the Updates section of higher-ranked objects.
 
-For example, when you add an update to a task, the update appears on the Updates tab for the task and on the Updates tab for the project containing the task.
+For example, when you add an update to a task, the update appears on the Updates section for the task and on the Updates section for the project containing the task.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -119,18 +180,18 @@ For example, when you add an update to a task, the update appears on the Updates
 <!-- drafted for the new commenting experience for issues in beta: Add this paragraph to the note above: 
 ><span class="preview"> It is not possible to reply to system updates in the new commenting experience Beta. For more information, see [New commenting experience](../updating-work-items-and-viewing-updates/unified-commenting-experience.md).</span> -->
 
-## Limitations of the Updates tab
+## Limitations of the Updates section
 
 ### Limitations for users and teams
 
-You cannot make updates on teams. The Updates tab for teams is populated by updates entered on the following objects:
+You cannot make updates on teams. The Updates section for teams is populated by updates entered on the following objects:
 
 * Users
 * Timesheets
 * Stories
 * Iterations
 
-On the Updates tab for users and teams, you can view the updates that have been entered in the past 90 days.
+On the Updates section for users and teams, you can view the updates that have been entered in the past 90 days.
 
 If you want to see all the updates made on a user or a team, beyond the 90-day limit, you can build a report for notes. The report should not have a time filter that displays all updates made for users or teams. For more information, see [Create a custom report](../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 

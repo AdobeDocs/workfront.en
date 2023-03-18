@@ -20,7 +20,7 @@ An update to the commenting experience in Adobe Workfront is currently in develo
 >
 >The new commenting experience is only available for the Updates section of select objects. 
 >
->For information about what objects include the Updates section, see [Updates tab overview](../../workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md). 
+>For information about what objects include the Updates section, see [Updates section overview](../../workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md). 
 >The new commenting experience is not available for other areas of Workfront that display updates. For example, the new experience is not availabe for the following areas:
 >
 >* Home
