@@ -478,7 +478,7 @@ In lieu of a release webinar, we invite you to register for Adobe Summit to watc
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">New commenting experience for issues Beta</a>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">New commenting experience for issues Beta<span style="color: #ff0000;"> New in Preview!</span></a>
                         <p>An update to the commenting experience in Adobe Workfront is currently in development. This update includes a new interface, new features, and improved performance in the Updates section of some objects. </p>
                         <p>This new experience will eventually unify commenting across Adobe Workfront and beyond, throughout the Adobe Experience Cloud. </p>
                     </td>
