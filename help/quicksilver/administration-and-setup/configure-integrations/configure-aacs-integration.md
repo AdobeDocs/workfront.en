@@ -109,16 +109,18 @@ To configure metadata fields:
 
 **AEM Tags**
 
-You can map any workfront supported field to the Tags field in Experience Manager Assets. To do this, you must create tag values in Experience Manager Assets that match Workfront exactly. Tag and workfront field values must be an exact match in case, spelling, and format. 
+You can map any Workfront supported field to a tag in Experience Manager Assets. To do this, you must ensure that tag values in Experience Manager Assets match Workfront exactly. Tags and Workfront field values must be an exact match in case, spelling, and format. The field value in Workfront must also include the folder structure of the Experience Manager Assets tag.
 
 >[!INFO]
 >
->**Example**:  Include an example with the folder structure
+>**Example**:  To match the tag shown in the folder structure here, the field value in Workfront would be `landscapes:Trees/Spruce`.
+
+![Folder structure in AEM](assets/aem-folder-structure-with-red-boxes.png)
 
 
-Once you have created the tags in Experience Manager Assets, they will appear under the Tags drop-down in the Metadata section (link?). The field name is xcm:keywords
+After you have created the tags in Experience Manager Assets, they will appear under the Tags drop-down in the Metadata section. To link a field to a tag, select `xcm:keywords` in the Experience Manager Assets field dropdown in the metadata mapping area.
 
-
+For more information on tags in Experience Manager Assets, including how to create and manage tags, see [Administering Tags]( https://experienceleague.adobe.com/docs/experience-manager-64/administering/contentmanagement/tags.html?lang=en).
 
 <!--
 **AEM custom fields**
@@ -127,16 +129,18 @@ Once you have created the tags in Experience Manager Assets, they will appear un
 
 **Workfront fields**
 
-You can map both built-in and custom Workfront fields to Experience Manager Assets. The folloiwng field values must match in both case and spelling between Workfront and Experience Manager Assets:
+You can map both built-in and custom Workfront fields to Experience Manager Assets. The following field values must match in both case and spelling between Workfront and Experience Manager Assets:
 
 * Drop-down fields
 * Multi-select fields
 
 >[!TIP]
 >
-> To check if the field values matche exactly, go to 
+> To check if the field values match exactly, go to 
 > * Setup > Custom Forms in Workfront or the field in the object
-> * Assets > metadata schemas in Experience Manager Assets 
+> * Assets > metadata schemas in Experience Manager Assets
+
+<!-- Do we want to add a link to the AEM article about metadata?-->
 
 
 +++
@@ -153,6 +157,7 @@ To map metadata for assets:
     >[!NOTE]
     >
     >You can map a single [!DNL Workfront] field to multiple [!UICONTROL Experience Manager Assets] fields. You can't map multiple [!DNL Workfront] fields to a single [!DNL Experience Manager Assets] field.
+    ><!--To map a Workfront field to an Experience Manager Assets tag, see -->
 
 1. In the [!DNL Experience Manager Assets] field, search through the pre-populated categories or enter at least two letters in the search field to access additional categories.
 1. Repeat steps 2 and 3 as needed.
