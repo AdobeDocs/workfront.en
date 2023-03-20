@@ -17,8 +17,10 @@ exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
 >[!NOTE]
 >
 >We are currently redesigning the Updates section of an object. You can access the new design by enabling the commenting Beta. 
-Currently, the Beta is available for <span class="preview">issues</span>. 
-For more information about the new commenting  experience, see [New commenting experience](../updating-work-items-and-viewing-updates/unified-commenting-experience.md). 
+>
+>Currently, the Beta is available for <span class="preview">issues</span>. 
+>
+>For more information about the new commenting  experience, see [New commenting experience](../updating-work-items-and-viewing-updates/unified-commenting-experience.md). 
 
 The Updates section of an object displays comments that users make on the object or system updates that track changes to the object.
 
@@ -26,7 +28,7 @@ The Updates section of an object displays comments that users make on the object
 
 The information in the Updates section is organized differently, depending on which environment you access it from. 
 
-###  Overview of the current Updates section 
+### Overview of the current Updates section 
 
 The Updates section of an object shows up to 200 of the most recent updates made within the past 90 days. 
 
@@ -67,7 +69,7 @@ The Updates section displays for the following objects:
  </tbody> 
 </table>
 
-###  Overview of the Updates section in the Beta commenting experience
+### Overview of the Updates section in the Beta commenting experience
 
 ![](assets/updates-tab-after-unified-experience-for-issues.png)
 

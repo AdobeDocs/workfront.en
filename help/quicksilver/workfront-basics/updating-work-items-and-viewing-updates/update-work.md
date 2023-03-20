@@ -16,13 +16,16 @@ exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
 >[!NOTE]
 >
 >We are currently redesigning the way you update work when using the Updates section of an object. 
+>
 >You can access the new design by enabling the commenting Beta. 
+>
 >Currently, the Beta is available for <span class="preview">issues</span>. 
-For more information about the new updating experience, see [New commenting experience](../updating-work-items-and-viewing-updates/unified-commenting-experience.md). 
+>
+>For more information about the new updating experience, see [New commenting experience](../updating-work-items-and-viewing-updates/unified-commenting-experience.md). 
 
 You can add comments to most objects in Adobe Workfront in the Updates section. For more information about which objects display the Updates section, see [Updates section overview](../updating-work-items-and-viewing-updates/updates-tab-overview.md). 
 
-You can add an update on an Workfront object (project, task, or issue) to communicate about progress on the object, as you comment on the object. Users who are assigned or subscribed to the object can view your update. You can also tag users to bring their attention to the update. Tagged users will receive an in-app notification and an email about your update. 
+You can add an update on an Workfront object (project, task, or issue) to communicate about progress on the object, as you comment on the object. Users who are assigned or subscribed to the object can view your update. You can also tag users to bring their attention to the update. Tagged users receive an in-app notification and an email about your update. 
 
 The information on this page describes how you can comment on Workfront objects and how you update projects, tasks, and issues. For information about commenting on goals, see [Manage goal comments in Adobe Workfront Goals](../../workfront-goals/goal-management/manage-goal-comments.md). You must have an additional license to access Workfront Goals. 
 
@@ -123,7 +126,7 @@ Adding an update to a work item differs depending on what version of the Updates
     <tbody> 
      <tr> 
       <td role="rowheader"><strong>Notify</strong></td> 
-      <td>Identify users who need to be notified of the update. Users assigned or subscribed to the object automatically receive notification when an update is made.<br><p>For information about how to include others on an update, see <a href="../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md" class="MCXref xref">Tag others on updates</a>.</p></td> 
+      <td>Identify users who must be notified of the update. Users assigned or subscribed to the object automatically receive notification when an update is made.<br><p>For information about how to include others on an update, see <a href="../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md" class="MCXref xref">Tag others on updates</a>.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Commit Date</strong></td> 
@@ -135,7 +138,7 @@ Adding an update to a work item differs depending on what version of the Updates
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Status</strong></td> 
-      <td>Click the arrow beside the current status, then select the desired status from the drop-down menu. For information about setting a Status, see <a href="../../manage-work/projects/updating-work-in-a-project/update-task-status.md" class="MCXref xref">Update task status</a>.<p>Updating the status of a work item does not automatically change the status of a project. Depending on how your project is set up, you might need to make updates to the project status separately. For more information on the various project update types, see <a href="../../manage-work/projects/manage-projects/select-project-update-type.md" class="MCXref xref">Select the project Update Type </a>.</p><p><b>NOTE</b>
+      <td>Click the arrow beside the current status, then select the desired status from the drop-down menu. For information about setting a Status, see <a href="../../manage-work/projects/updating-work-in-a-project/update-task-status.md" class="MCXref xref">Update task status</a>.<p>Updating the status of a work item does not automatically change the status of a project. Depending on how your project is set up, you might must make updates to the project status separately. For more information on the various project update types, see <a href="../../manage-work/projects/manage-projects/select-project-update-type.md" class="MCXref xref">Select the project Update Type </a>.</p><p><b>NOTE</b>
       
       You cannot change the status of a work item while it is in a Pending Approval status.</p></td> 
      </tr> 
