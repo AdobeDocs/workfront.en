@@ -15,13 +15,22 @@ exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
 
 >[!NOTE]
 >
->We are currently redesigning the way you update work when using the Updates section of an object. 
->
->You can access the new design by enabling the commenting Beta. 
->
->Currently, the Beta is available for <span class="preview">issues</span>. 
->
+>We are currently redesigning the commenting experience in Adobe Workfront.
 >For more information about the new updating experience, see [New commenting experience](../updating-work-items-and-viewing-updates/unified-commenting-experience.md). 
+>
+>You can access the new design for the following objects:
+> * <span class="preview">Issues, when enabling the commenting Beta. </span>
+>
+>     <span class="preview">This functionality is available only for the Updates section of issues, and it is not available for the following areas:</span>
+>
+>     * <span class="preview">Home</span>
+>     * <span class="preview">Summary panel in lists</span>
+>     * <span class="preview">Summary panel in timesheets</span>
+>
+> * Goals
+>   The new commenting experience is the default for goals. You must have an additional license to access Workfront Goals. For more information, see [Requirements to uses Workfront Goals](../../workfront-goals/goal-management/access-needed-for-wf-goals.md). 
+>
+>    For information about commenting on goals, see [Manage goal comments in Adobe    Workfront Goals](../../workfront-goals/goal-management/manage-goal-comments.md).
 
 You can add comments to most objects in Adobe Workfront in the Updates section. For more information about which objects display the Updates section, see [Updates section overview](../updating-work-items-and-viewing-updates/updates-tab-overview.md). 
 
@@ -167,24 +176,6 @@ Adding an update to a work item differs depending on what version of the Updates
 1. To reply to an update, see [Reply to updates](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).
 
 ### Add an update to a work item using the commenting Beta experience
-
-
->[!NOTE]
->
->The functionality described in this section is available for the following objects:
->
->* <span class="preview">Issues, when you enable the commenting Beta experience.</span>
->
->   <span class="preview">This functionality is available only for the Updates section of issues, and it is not available for the following areas:</span>
->
->   * <span class="preview">Home</span>
->   * <span class="preview">Summary panel in lists</span>
->   * <span class="preview">Summary panel in timesheets</span>
->* Goals
->
->   The new commenting experience is the default current experience for goals.
->   You must have an additional license to access Workfront Goals. For information, see [Requirements to use Workfront Goals](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
-
 
 1. Locate the object you want to update, then click its name to open the object's page.
 1. Click  **Updates** in the left panel. 

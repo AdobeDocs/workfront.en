@@ -11,10 +11,8 @@ exl-id: c4c0d74f-ac50-4fc5-89d6-28f004c25b29
 
 <!--take "Beta" references out when we remove the beta-->
 
-<!-- Drafted for commenting experience: 
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> 
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.
 
 >[!NOTE]
 >
@@ -23,10 +21,19 @@ exl-id: c4c0d74f-ac50-4fc5-89d6-28f004c25b29
 >
 >You can access the new design for the following objects:
 > * <span class="preview">Issues, when enabling the commenting Beta. </span>
+>
+>     <span class="preview">This functionality is available only for the Updates section of issues, and it is not available for the following areas:</span>
+>
+>     * <span class="preview">Home</span>
+>     * <span class="preview">Summary panel in lists</span>
+>     * <span class="preview">Summary panel in timesheets</span>
+>
 > * Goals
 >   The new commenting experience is the default for goals. You must have an additional license to access Workfront Goals. For more information, see [Requirements to uses Workfront Goals](../../workfront-goals/goal-management/access-needed-for-wf-goals.md). 
+>
+>    For information about commenting on goals, see [Manage goal comments in Adobe    Workfront Goals](../../workfront-goals/goal-management/manage-goal-comments.md). 
 
--->
+
 You can tag users when making an update to an object if you want to draw their attention to an object they might otherwise not follow. 
 Rather than include those users on the object by assigning them to it or making them subscribe to it, you can tag them on the update to share it with them. Tagged users receive a notification about the update you enter. 
 
@@ -78,11 +85,9 @@ You must have the following access to perform the steps in this article:
 
 ## Tag others on updates
 
-<!--
 Tagging others in an update differs depending on which experience and which object you select.
 
 ### Tag others on updates in the current Updates section
--->
 
 1. Begin updating a work item, as described in [Update work](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 1. In the **Notify** field, begin typing the name of the user or team you want to include, then click the name when it appears in the drop-down list.
@@ -118,18 +123,16 @@ Tagging others in an update differs depending on which experience and which obje
 
    For information about the additional functionality that is available when updating a work item, see [Update work](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-<!--
 <div class="preview">
 
 ### Tag others on updates in the commenting Beta experience
 
 1. Begin updating a work item, as described in [Update work](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 1. In the **Tag people or teams** field, begin typing the name of the user or team you want to include, then click the name when it appears in the drop-down list.
-
-   <!- ********************* this doesn't seem to work in Beta - keep drafted for now: 
+ 
    Or
 
-   Type the @ symbol in the **Start a new update** area, begin typing the name of the user or team you want to include on the update, then click the name when it appears in the drop-down list. ************close draft
+   Type the @ symbol in the **Write a comment** area, begin typing the name of the user or team you want to include on the update, then click the name when it appears in the drop-down list. 
 
    >[!TIP]
    >
@@ -137,15 +140,14 @@ Tagging others in an update differs depending on which experience and which obje
 
    ![](assets/tag-others-unified-commenting.png)
 
-      <!-******************* this might not be there for issues yet - keep drafted if not: 
-      1. (Optional) To make the update private, enable **Private to my company** in the lower-right corner of the update box. This makes the update visible just to users in your company.
+1. (Optional) To make the update private, enable **Private to my company** in the lower-right corner of the update box. This makes the update visible just to users in your company.
 
-         >[!NOTE]
-         >
-         >* This option displays only when the user is associated with a Company.
-         >* Tagged users outside the company could still receive an in-app notification or email, even though they will not see the private comments on the Updates tab. We recommend not to tag external users on an update if you do not want to share the information with them. - ************close draft 
+   >[!NOTE]
+   >
+   >* This option displays only when the user is associated with a Company.
+   >* Tagged users outside the company could still receive an in-app notification or email, even though they will not see the private comments on the Updates tab. We recommend not to tag external users on an update if you do not want to share the information with them.
       
-1. (Optional) To add multiple users and teams, repeat step 2.
+1. (Optional) To add multiple users and teams, repeat step 2. <!--insure this stays accurate-->
 
    >[!NOTE]
    >
@@ -155,10 +157,8 @@ Tagging others in an update differs depending on which experience and which obje
    Users included in the update are automatically granted View permission to the object and can view and respond to updates made to the object.
 
    You can see who has been tagged in each reply under the text of the update, in the Members area. These users, along with any users subscribed to the object, receive a notification whenever an update or reply is made on the object.
-1. (Optional) Cick the number of members included in the update to display a list of entities that the update you entered is shared with. 
+1. (Optional) Cick the number of **Members** included in the update to display a list of entities that the update you entered is shared with. 
 
    ![](assets/members-icons-expanded-unshimmed.png)
 
    For information about the additional functionality that is available when updating a work item, see [Update work](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
-
--->

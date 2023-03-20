@@ -22,8 +22,8 @@ The following table illustrates the connection between the Workfront plan your c
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><p>Workfront Plan</p></td> 
-   <td> <p>Areas where you can access the Workload Balancer</p> </td> 
+   <td role="rowheader"><p><b>Workfront Plan</b></p></td> 
+   <td> <p><b>Areas where you can access the Workload Balancer</b></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Team or higher </td> 
