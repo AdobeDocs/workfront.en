@@ -98,6 +98,7 @@ This access is granted by the user the first time they use the integration, and 
 
 Consider the following regarding access to [!DNL SharePoint] through the [!DNL Workfront] [!DNL SharePoint] integration:
 
+* The permissions requested for this integration are **delegated** permissions.
 * [!DNL Workfront] requests the minimum access required to perform operations in the integration.
 * Access to view, edit, or delete an [!DNL Adobe Workfront] document linked to [!DNL SharePoint] is based on the user's access in [!DNL Workfront]. However, any navigation, downloading, or editing of a [!DNL SharePoint] file or folder requires access to [!DNL SharePoint], and access to these actions is controlled by [!DNL SharePoint]. 
 * Users can view thumbnails and preview images sourced from [!DNL SharePoint], and can see file and folder names in [!DNL SharePoint], without logging into [!DNL SharePoint].

@@ -266,7 +266,15 @@ Some settings mentioned in this article might be modified from their default sta
        <ul> 
        <li> <p><span>When the project is created from the Projects area, the Home Group of the project creator is associated with the project.</span> </p> <p>This is also true when the project is created from the Projects  section  in a portfolio or program.</p> </li> 
        <li> <p>When the project is created from a group's main page in the Setup area, that group is associated with the project.</p> </li> 
-       </ul> </p> <p> <img src="assets/group-details-widget-350x351.png" style="width: 350;height: 351;"> </p> <p>If the project, or its tasks or issues are already associated with a group-level approval process using group-level custom statuses, changing the group might create a conflict between the approval statuses of the previous group and those existing at the system level. Consider removing the group-level approval processes on the project, or its tasks or issues before updating the group. For information about creating group-level approval processes, see <a href="../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-groups-approval-processes.md" class="MCXref xref">Group-level approval processes</a>. For information about creating a group-level custom status, see <a href="../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md" class="MCXref xref">Create or edit a group status</a></p> </td> 
+       </ul> </p> <p> <img src="assets/group-details-widget-350x351.png" style="width: 350;height: 351;"> </p> 
+       <p><b>NOTES</b></p>
+      
+      <ul>
+      <li><p>If the project, or its tasks or issues are associated with a group-level custom Status, changing the Group of the project might cause the Status of the project, tasks, or issues to change to match the new group.</p></li>
+      <li><p>If the project, or its tasks or issues are already associated with a group-level approval process using group-level custom statuses, changing the group might create a conflict between the approval statuses of the previous group and those existing at the system level.</p>
+      <p>Consider removing the group-level approval processes on the project, or its tasks or issues before updating the group.</p>
+      <p>For information about creating group-level approval processes, see <a href="../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-groups-approval-processes.md" class="MCXref xref">Group-level approval processes</a>.</p>
+      <p>For information about creating a group-level custom status, see <a href="../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md" class="MCXref xref">Create or edit a group status</a></p></li></ul> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Company</strong> </td> 
