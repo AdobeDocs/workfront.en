@@ -16,11 +16,27 @@ exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
 
 >[!NOTE]
 >
->We are currently redesigning the Updates section of an object. You can access the new design by enabling the commenting Beta. 
+>We are currently redesigning the Updates section of an object. 
 >
->Currently, the Beta is available for <span class="preview">issues</span>. 
+>For more information about the new updating experience, see [New commenting experience](../updating-work-items-and-viewing-updates/unified-commenting-experience.md).  
 >
->For more information about the new commenting  experience, see [New commenting experience](../updating-work-items-and-viewing-updates/unified-commenting-experience.md). 
+>You can access the new design from the following objects and in following environments:
+>
+>* <span class="preview">When you enable the commenting Beta experience for the following objects:</span>
+>
+>     * <span class="preview">Issues</span>
+>     
+>     <span class="preview">This functionality is available only for the Updates section of issues, and it is not available for the following areas:</span>
+>
+>     * <span class="preview">Home</span>
+>     * <span class="preview">Summary panel in lists</span>
+>     * <span class="preview">Summary panel in timesheets</span>
+>
+>* By default, as the current commenting experience for the following objects: 
+>
+>     * Goals
+>
+>     You must have an additional license to access Workfront Goals. For information, see [Requirements to use Workfront Goals](../../workfront-goals/goal-management/access-needed-for-wf-goals.md). For information about commenting on goals, see [Manage goal comments in Adobe Workfront Goals](../../workfront-goals/goal-management/manage-goal-comments.md).
 
 The Updates section of an object displays comments that users make on the object or system updates that track changes to the object.
 
@@ -73,9 +89,9 @@ The Updates section displays for the following objects:
 
 ![](assets/updates-tab-after-unified-experience-for-issues.png)
 
-The Updates section displays information in the following tabs in the Beta commenting experience: 
+The Updates section displays information in the following tabs in the new commenting experience: 
 
-* **Updates**: Displays comments made by users and replies to those comments. For information about updating objects in the new commenting experience, see [Update work](../updating-work-items-and-viewing-updates/update-work.md). 
+* **Comments**: Displays comments made by users and replies to those comments. For information about updating objects in the new commenting experience, see [Update work](../updating-work-items-and-viewing-updates/update-work.md). 
 * **System Activity**: Displays system updates which are informational messages that Workfront creates to record certain events on an objects. For example, you can capture changes in status, name, or custom fields with system updates. Your Workfront or group administrator can enable system updates for your ojects. For more information, see [Configure system updates](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
 
 Currenlty, you can make comments and reply to updates using the Beta commenting experience on the following objects:
@@ -96,14 +112,6 @@ Currenlty, you can make comments and reply to updates using the Beta commenting 
   </tr> 
  </tbody> 
 </table>
-
->[!NOTE]
->
->The commenting experience Beta is the default current experience for goals. You must have an additional license to access Workfront Goals. 
->
->For information, see [Requirements to use Workfront Goals](../../workfront-goals/goal-management/access-needed-for-wf-goals.md). 
->
->For information about commenting on goals, see [Manage goal comments in Adobe Workfront Goals](../../workfront-goals/goal-management/manage-goal-comments.md). 
 
 ## Updates that also appear on higher-rank objects
 

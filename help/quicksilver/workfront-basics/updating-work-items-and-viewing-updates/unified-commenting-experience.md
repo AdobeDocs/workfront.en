@@ -241,7 +241,8 @@ The following table illustrates the features that will be available in the new c
    </td>
    <td> 
    </td>
-   <td>✓ 
+   <td><span class="preview">✓</span>
+   <p><span class="preview">This feature should be available with the 23.2 and has been temporarily delayed.</span> 
    </td>
    <td> 
    </td>

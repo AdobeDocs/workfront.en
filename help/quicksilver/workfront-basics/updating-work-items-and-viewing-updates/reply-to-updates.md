@@ -11,10 +11,7 @@ exl-id: a8271f3c-7a08-4eb3-aaff-deb250f5af73
 
 <!--take "Beta" references out when we remove the beta-->
 
-<!-- Drafted for commenting experience: 
-
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> 
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.
 
 >[!NOTE]
 >
@@ -23,10 +20,17 @@ exl-id: a8271f3c-7a08-4eb3-aaff-deb250f5af73
 >
 >You can access the new design for the following objects:
 > * <span class="preview">Issues, when enabling the commenting Beta. </span>
+>
+>     <span class="preview">This functionality is available only for the Updates section of issues, and it is not available for the following areas:</span>
+>
+>     * <span class="preview">Home</span>
+>     * <span class="preview">Summary panel in lists</span>
+>     * <span class="preview">Summary panel in timesheets</span>
+>
 > * Goals
 >   The new commenting experience is the default for goals. You must have an additional license to access Workfront Goals. For more information, see [Requirements to uses Workfront Goals](../../workfront-goals/goal-management/access-needed-for-wf-goals.md). 
-
--->
+>
+>    For information about commenting on goals, see [Manage goal comments in Adobe    Workfront Goals](../../workfront-goals/goal-management/manage-goal-comments.md). 
 
 When someone replies to a comment or a system update on a work object, their reply appears in the communication thread in the Updates section for the object. 
 
@@ -64,11 +68,10 @@ You must have the following access to perform the steps in this article:
 
 ## Reply to an update or a reply
 
-<!--
 Replying to a comment or reply differs depending on which experience and which object you select.
 
 ### Reply to an update or reply in the current Updates section
--->
+
 1. Go to the object to which you want to add a reply.
 1. On the **Updates** tab for the object, find the update or reply to which you want to reply.
 
@@ -86,25 +89,24 @@ Replying to a comment or reply differs depending on which experience and which o
 1. (Optional) Use formatting, emojis, include links, or images as explained in the section "Use Rich Text in a Workfront update" in the article [Update work](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 1. Click **Reply** to save the reply.
 
-<!--
-
 <div class="preview">
+
 ### Reply to a comment when using the commenting Beta experience
 
 1. Go to the object to which you want to add a reply.
 1. Click **Updates**, then click the **Comments** tab for the object and find the comment or reply to which you want to reply. 
 1. Click **Reply**. 
 
-   You can see the users who are actively engaged in the conversation at the bottom of the **New comment** box and you can add more. These users, along with any users subscribed to the object, receive a notification whenever an update or reply is made on the object. You can also tag more users to include them in your reply.  To tag more users, see [Tag others on updates](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
+   You can see the users who are actively engaged in the conversation at the bottom of the **New comment** box and you can add more, or remove the ones that are no longer relevant. These users, along with any users subscribed to the object, receive a notification whenever an update or reply is made on the object. You can also tag more users to include them in your reply.  To tag more users, see [Tag others on updates](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
 
 1. Start typing your reply and use any additional options from the Rich Text toolbar. For information about using Rich Text, see the "Use Rich Text in a Workfront update" section in [Update work](../updating-work-items-and-viewing-updates/update-work.md). 
 
 <!--this is not yet available in beta, leave drafted:  
-1. (Optional) To include text from a previous update in your reply, click the **More** menu next to the update or reply you want to quote, then click **Quote Reply**. Text from the previous update appears in the input area, marked with a gray line. -***********close the draft here************
+1. (Optional) To include text from a previous update in your reply, click the **More** menu next to the update or reply you want to quote, then click **Quote Reply**. Text from the previous update appears in the input area, marked with a gray line. -***********close the draft here************-->
 
 1. Click **Submit** to save the reply.
 </div>
--->
+
 
 
 ## Reply to an update via email notification
