@@ -3,8 +3,8 @@ content-type: overview
 product-area: projects
 navigation-topic: update-work-items-and-view-updates
 title: Updates section overview
-description: The Updates section shows up to 200 of the most recent updates made within the past 90 days.
-author: Lisa and Alina
+description: The Updates section of an object displays comments that users make on the object or system updates that track changes to the object.
+author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
 ---
@@ -12,35 +12,29 @@ exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
 
 <!--take "Beta" references out when we remove the beta-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> 
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> 
 
 >[!NOTE]
 >
 >We are currently redesigning the Updates section of an object. You can access the new design by enabling the commenting Beta. 
-Currently, the Beta is available for <span class="preview">issues</span>. 
-For more information about the new commenting  experience, see [New commenting experience](../updating-work-items-and-viewing-updates/unified-commenting-experience.md). 
-
--->
+>
+>Currently, the Beta is available for <span class="preview">issues</span>. 
+>
+>For more information about the new commenting  experience, see [New commenting experience](../updating-work-items-and-viewing-updates/unified-commenting-experience.md). 
 
 The Updates section of an object displays comments that users make on the object or system updates that track changes to the object.
 
 ## Overview of the Updates section
 
-<!--drafted for the commenting beta for issues: 
-The information is organized differently in the Updates section, depending on which environment you access it from. 
+The information in the Updates section is organized differently, depending on which environment you access it from. 
 
-###  Overview of the current Updates section 
--->
+### Overview of the current Updates section 
 
 The Updates section of an object shows up to 200 of the most recent updates made within the past 90 days. 
 
-<!--drafted for the commenting beta for issues: 
+![](assets/updates-tab-before-unified-experience-for-issues.png)
+
 The current Updates section shows the following information:
-
-************** AND REMOVE THE SENTENCE BELOW WHEN MAKING THIS LIVE:
--->
-
-The Updates section shows the following information:
 
 * Comments made by users and replies to those comments. 
 * System updates which are informational messages that Workfront creates to record certain events on an objects. For example, you can capture changes in status, name, or custom fields with system updates. Your Workfront or group administrator can enable system updates for your ojects. For more information, see [Configure system updates](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
@@ -75,12 +69,13 @@ The Updates section displays for the following objects:
  </tbody> 
 </table>
 
-<!--drafted for the commenting beta for issues: 
-###  Overview of the Updates section in the Beta commenting experience
+### Overview of the Updates section in the Beta commenting experience
+
+![](assets/updates-tab-after-unified-experience-for-issues.png)
 
 The Updates section displays information in the following tabs in the Beta commenting experience: 
 
-* **Updates**: Displays comments made by users and replies to those comments. 
+* **Updates**: Displays comments made by users and replies to those comments. For information about updating objects in the new commenting experience, see [Update work](../updating-work-items-and-viewing-updates/update-work.md). 
 * **System Activity**: Displays system updates which are informational messages that Workfront creates to record certain events on an objects. For example, you can capture changes in status, name, or custom fields with system updates. Your Workfront or group administrator can enable system updates for your ojects. For more information, see [Configure system updates](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
 
 Currenlty, you can make comments and reply to updates using the Beta commenting experience on the following objects:
@@ -104,8 +99,11 @@ Currenlty, you can make comments and reply to updates using the Beta commenting 
 
 >[!NOTE]
 >
->The commenting experience Beta is the default current experience for goals. You must have an additional license to access Workfront Goals. For information, see [Requirements to use Workfront Goals](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
--->
+>The commenting experience Beta is the default current experience for goals. You must have an additional license to access Workfront Goals. 
+>
+>For information, see [Requirements to use Workfront Goals](../../workfront-goals/goal-management/access-needed-for-wf-goals.md). 
+>
+>For information about commenting on goals, see [Manage goal comments in Adobe Workfront Goals](../../workfront-goals/goal-management/manage-goal-comments.md). 
 
 ## Updates that also appear on higher-rank objects
 
@@ -176,11 +174,12 @@ For example, when you add an update to a task, the update appears on the Updates
 >Replies added to system updates do not roll up to the parent object. Only direct replies on a child object and replies added to existing updates roll up to parent objects.
 >
 >For information about the object hierarchy in Adobe Workfront, see [Understand objects in Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
-
-<!-- drafted for the new commenting experience for issues in beta: Add this paragraph to the note above: 
-><span class="preview"> It is not possible to reply to system updates in the new commenting experience Beta. For more information, see [New commenting experience](../updating-work-items-and-viewing-updates/unified-commenting-experience.md).</span> -->
+>
+><span class="preview"> It is not possible to reply to system updates in the new commenting Beta experience. For more information, see [New commenting experience](../updating-work-items-and-viewing-updates/unified-commenting-experience.md).</span>
 
 ## Limitations of the Updates section
+
+There are some limitations in the Updates section of a team and when entering updates on behalf of other users. 
 
 ### Limitations for users and teams
 
