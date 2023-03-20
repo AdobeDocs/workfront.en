@@ -3,17 +3,15 @@ product-area: projects
 navigation-topic: update-work-items-and-view-updates
 title: Update work
 description: You can add an update on a Adobe Workfront object (project, task, or issue) to communicate about progress on the object. Users who are assigned or subscribed to the object can view your update. You can also tag users to bring their attention to the update.
-author: Lisa and Alina
+author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
 ---
 # Update work
 
-<!-- Drafted for commenting experience: 
-
 <!--take "Beta" references out when we remove the beta-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> 
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> 
 
 >[!NOTE]
 >
@@ -21,8 +19,6 @@ exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
 >You can access the new design by enabling the commenting Beta. 
 >Currently, the Beta is available for <span class="preview">issues</span>. 
 For more information about the new updating experience, see [New commenting experience](../updating-work-items-and-viewing-updates/unified-commenting-experience.md). 
-
--->
 
 You can add comments to most objects in Adobe Workfront in the Updates section. For more information about which objects display the Updates section, see [Updates section overview](../updating-work-items-and-viewing-updates/updates-tab-overview.md). 
 
@@ -105,7 +101,7 @@ You must have the following access to perform the steps in this article:
 
 ## Add an update to a work item
 
-<!--drafted for the commenting experience - change the NOTE at the top of the following section with every new release to other objects
+<!--drafted for the commenting experience - change the NOTE at the top of the following section with every new release to other objects -->
 
 Adding an update to a work item differs depending on what version of the Updates section and what object you choose. 
 
@@ -114,8 +110,6 @@ Adding an update to a work item differs depending on what version of the Updates
 >[!NOTE]
 >
 >The following functionality is available for all objects except for goals. You must have an additional license to access Workfront Goals. For information about commenting on goals, see [Manage goal comments in Adobe Workfront Goals](../../workfront-goals/goal-management/manage-goal-comments.md)
-
--->
 
 1. Go to the work item for which you want to provide an update (such as a project, task, or issue).
 1. Click the **Updates** section.
@@ -169,8 +163,6 @@ Adding an update to a work item differs depending on what version of the Updates
 
 1. To reply to an update, see [Reply to updates](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).
 
-<!--
-
 ### Add an update to a work item using the commenting Beta experience
 
 
@@ -187,13 +179,13 @@ Adding an update to a work item differs depending on what version of the Updates
 >   * <span class="preview">Summary panel in timesheets</span>
 >* Goals
 >
->   The commenting experience Beta is the default current experience for goals.
+>   The new commenting experience is the default current experience for goals.
 >   You must have an additional license to access Workfront Goals. For information, see [Requirements to use Workfront Goals](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
 
 1. Locate the object you want to update, then click its name to open the object's page.
 1. Click  **Updates** in the left panel. 
-1. Click **Try out the commenting Beta** button in the lower-right corner of the Updates area, then click **Agree** on the Beta agreement. This switches the Updates area to the commenting Beta experience. 
+1. <span class="preview">Click **Try out the commenting Beta** button in the lower-right corner of the Updates area, then click **Agree** on the Beta agreement. This switches the Updates area to the commenting Beta experience. </span>
    The **Comments** tab is selected by default. 
 1. Start entering a comment in the **New comment** box. 
    
@@ -212,17 +204,15 @@ Adding an update to a work item differs depending on what version of the Updates
    * Link
    * Bulleted List
    * Numbered List
-   * Add attachment (mark this parenthesis as draft: ************ this might be renamed)
+   * Add attachment <!--(mark this parenthesis as draft: ************ this might be renamed to "Add image")-->
    
-   For more information, see the "Use Rich Text in a Workfront update" section in this article.
+   For more information, see the "Use Rich Text in a Workfront update" section in this article. <!--remove this list, above, when we get to parity for Rich Text-->
 
-   >[!TIP]
-   >
-   >   If another user submits a comment to the same item you are updating, there will be a red line with a "New" indicator to inform you of the newer comments. The indicator only displays only after the comment was submitted on the item, and not when the comment is still composed. 
-   >
-   > ![](assets/real-time-new-red-indicator-unified-commenting.png)
-
-
+      <!--not available yet in preview - should be live with production: format this as a TIP: 
+      * If another user submits a comment to the same item you are updating, there will be a red line with a "New" indicator to inform you of the newer comments. 
+      * The indicator only displays only after the comment was submitted on the item, and not when the comment is still composed. 
+      * The "New" indicator displays only when both the user that entered a new update as well as the user who is currently entering an update are using the new commenting experience. 
+      ![](assets/real-time-new-red-indicator-unified-commenting.png)-->   
 
 1. Click **Submit** to add the update to the Workfront object. 
 1. (Optional) To edit a comment, click the **More** menu ![](assets/more-menu.png) to the right of the Like icon, then click **Edit**. 
@@ -234,7 +224,7 @@ Adding an update to a work item differs depending on what version of the Updates
    >[!TIP]
    >
    >   An email is generated to notify users of your update only when you submit the original update. No email is generated after you edited your update.
-1. (Optional) Click **Reply** to reply to an existing comment, then follow the steps 5-7 above. (**************insure this stays accurate***********). For information about replying to an update, see [Reply to updates](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).
+1. (Optional) Click **Reply** to reply to an existing comment, then follow the steps 4-7 above. <!--(**************insure this stays accurate***********)-->. For information about replying to an update, see [Reply to updates](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).
 1. (Optional) Click the **Like** icon![](assets/like-icon.png). The icon updates with the number of likes.
 1. (Conditional and Optional) If you included additional people in your comment, click the number of members included in the update to display a list of entities that the comment you entered is shared with. 
 
@@ -246,17 +236,15 @@ Adding an update to a work item differs depending on what version of the Updates
    >[!TIP]
    >
    >You cannot add a comment to a system update.
--->
- 
 
+ 
 ## Use Rich Text in a Workfront update 
 
-<!--remove this top note when we get to parity with the current version, OR change the note to mention that some options are ONLY available in the Beta version and not the current one.
+<!--remove this top note when we get to parity with the current version, OR change the note to mention that some options are ONLY available in the Beta version and not the current one.-->
 
 >[!NOTE]
 >
->Some of the options in the Rich Text toolbar are not available for the commenting Beta experience.-->
-
+>Some of the options in the Rich Text toolbar might not be available for the commenting Beta experience.
 
 You can enhance your updates by using Rich Text, or adding various items to it, like emojis, links, or images. 
 
@@ -317,17 +305,16 @@ You can enhance your updates by using Rich Text, or adding various items to it, 
    >* The maximum image file size is 7 MB. Supported image file types are .jpg, .gif, and .png.
    >* Images are accessible only from the Updates tab on an object, and they are not available on the Documents tab.
    >* You can send an update with an image and no text.
-1. Click **Update**  <!--<span class="preview">or **Submit**</span>, in the commenting Beta experience-->. 
+1. Click **Update**  <span class="preview">or **Submit**</span>, in the commenting Beta experience. 
 
 
 ## Copy update information
 
-<!--drafted for beta release toggle - remove when copying an update will be available: 
+<!--drafted for beta release toggle - remove when copying an update will be available:--> 
 
 >[!NOTE]
 >
 >Copying an update is not possible when using the Beta commenting experience.
--->
 
 There are several ways you can copy an update. After copying a link, you can share the link with others to direct them to the update.
 
@@ -373,7 +360,7 @@ No Workfront user (including the Workfront administrator) can delete updates mad
 
    ![](assets/update-stream-comment-menu-marked-350x152.png)
 
-1. In the message that appears, click **Confirm** <!--<span class="preview">or **Delete**</span>, in the commenting Beta experience-->.
+1. In the message that appears, click **Confirm** <span class="preview">or **Delete**</span>, in the commenting Beta experience.
 
 >[!NOTE]
 >
@@ -400,16 +387,16 @@ No Workfront user (including the Workfront administrator) can delete updates mad
 
 ## Enable or disable system updates
 
-<!--remove preview with 23.2 production: 
+<!--remove the preview tag with 23.2 production, but keep the note till we remove Beta and it becomed the only exprience: -->
 
-<div class="preview">
+
+
 >[!NOTE]
 >
->It is not possible to disable system updates when using the Beta commenting experience. 
->The information in this section refers only to functionality available in the current Updtes section. 
->For more information about system updates in the Beta version, see [Updates section overview](../updating-work-items-and-viewing-updates/updates-tab-overview.md) 
-</div>
--->
+><span class="preview">It is not possible to disable system updates when using the Beta commenting experience. </span>
+><span class="preview">The information in this section refers only to functionality available in the current Updtes section. </span>
+><span class="preview">For more information about system updates in the Beta version, see [Updates section overview](../updating-work-items-and-viewing-updates/updates-tab-overview.md). </span>
+
 
 The Updates section for a Workfront object displays two types of information:
 
