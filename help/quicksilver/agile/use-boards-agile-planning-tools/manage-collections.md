@@ -17,7 +17,7 @@ feature: Agile
 
 A workstream is a configurable group of boards and cards for collaborating on work. Workstreams can include different types of boards created from templates, <span class="preview">and a card list of work items. In a workstream, you can track work in iterations or sprints.</span>
 
-<span class="preview">For more information, see [Use the card list](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md) and [Create an iteration](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration.md).</span>
+<span class="preview">For more information, see [Use the card list](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md) and [Create an iteration in a workstream](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md).</span>
 
 Workstreams appear on the dashboard along with individual boards you have access to that are not part of a workstream. For information about the boards dashboard, see [Use the boards dashboard](/help/quicksilver/agile/get-started-with-boards/use-boards-page.md). You can click any board name on the dashboard to open it.
 
@@ -105,7 +105,7 @@ People and teams must be added to the workstream as members before they can view
 
    The total number of cards, number of cards pointed, and number of iterations are displayed in the Card List section. Click [!UICONTROL **View list**] to open the list and add cards. For more information, see [Use the card list](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md).
 
-   If an iteration has been defined, its start date, number of cards, and number of points are displayed. Click [!UICONTROL **View iteration board**] to open the board. For more information, see [Create an iteration](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration.md).
+   If an iteration has been defined, its start date, number of cards, and number of points are displayed. Click [!UICONTROL **View iteration board**] to open the board. For more information, see [Create an iteration in a workstream](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md).
 
 1. Click [!UICONTROL **Add source**] to define a source to import cards into the workstream. At this time, the only available source is [!DNL Adobe Workfront].
 1. Add filters to import tasks and issues from Workfront as cards.

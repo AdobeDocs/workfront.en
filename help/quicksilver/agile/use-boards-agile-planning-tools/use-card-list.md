@@ -110,7 +110,7 @@ Cards can only be archived from the iteration board. When a card is archived, it
 
 >[!NOTE]
 >
->You must create an iteration before you can add cards to it. For information, see [Create an iteration](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration.md).
+>You must create an iteration before you can add cards to it. For information, see [Create an iteration in a workstream](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md).
 
 1. Access the card list for the workstream.
 1. Select the [!UICONTROL **Iteration view**] to see which cards are assigned to an iteration and which are unplanned.
