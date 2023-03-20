@@ -40,5 +40,5 @@ This section contains the following articles:
 * [Configure card falloff](/help/quicksilver/agile/use-boards-agile-planning-tools/configure-card-falloff.md)
 * [Manage workstreams](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md)
 * [Use the card list](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md)
-* [Create an iteration](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration.md)
+* [Create an iteration in a workstream](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md)
 * [Review iteration metrics](/help/quicksilver/agile/use-boards-agile-planning-tools/review-iteration-metrics.md)
