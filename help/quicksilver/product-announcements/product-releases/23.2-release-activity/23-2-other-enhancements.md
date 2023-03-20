@@ -40,6 +40,8 @@ More features will be added in future releases, as these enhancements continue t
 
 For information about what the new commenting experience offers, see [Unified commenting experience](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/unified-commenting-experience.md).
 
+[View a video demonstration of this feature.](https://video.tv.adobe.com/v/3416962/){target=_blank}
+
 ## Export artboards as single PDF or multiple PDF files in Adobe Workfront for XD
 
 In the Adobe Workfront for XD plugin, you can now choose to export your artboards as a single PDF file or multiple PDF files.
