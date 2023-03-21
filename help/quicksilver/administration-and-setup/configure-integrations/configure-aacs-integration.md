@@ -115,6 +115,7 @@ You can map any Workfront supported field to a tag in Experience Manager Assets.
 * Workfront field values that are mapped to experience Manager assets tags must be all lowercase, even if the tag in Experience Manager Assets appears to have uppercase letters.
 * Workfront field values must not include spaces.
 * The field value in Workfront must also include the folder structure of the Experience Manager Assets tag.
+* To map to more than one tag, enter a comma-separated list of Workfront field values.
 
 >[!INFO]
 >
