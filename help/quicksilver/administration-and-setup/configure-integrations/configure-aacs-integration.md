@@ -105,9 +105,9 @@ To configure metadata fields:
 
 1. Configure custom form fields in Workfront. [!DNL Workfront] has many built-in custom fields you can use. However, you can also create your own custom fields as explained in [Create or edit a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 
-+++ **Supported Workfront and Experience Manager Assets fields** 
++++ **Expand to see more information about supported Workfront and Experience Manager Assets fields** 
 
-**AEM Tags**
+**Experience Manager Assets Tags**
 
 You can map any Workfront supported field to a tag in Experience Manager Assets. To do this, you must ensure that tag values in Experience Manager Assets match Workfront. 
 
@@ -129,6 +129,13 @@ You can map any Workfront supported field to a tag in Experience Manager Assets.
 After you have created the tags in Experience Manager Assets, they will appear under the Tags drop-down in the Metadata section. To link a field to a tag, select `xcm:keywords` in the Experience Manager Assets field dropdown in the metadata mapping area.
 
 For more information on tags in Experience Manager Assets, including how to create and manage tags, see [Administering Tags]( https://experienceleague.adobe.com/docs/experience-manager-64/administering/contentmanagement/tags.html?lang=en).
+
+<!-->
+**Experience Manager Assets custom metadata schema fields**
+
+You can map both built-in and custom Workfront fields to ustom metadata schema fields in Experience Manager Assets.
+
+-->
 
 **Workfront fields**
 
