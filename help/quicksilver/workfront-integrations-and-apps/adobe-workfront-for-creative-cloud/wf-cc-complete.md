@@ -58,7 +58,7 @@ To find out what plan, license type, or access you have, contact your [!DNL Work
 
    >[!NOTE]
    >
-   >If the work item has enforced predecessors, the Done button is gray until those predecessors are marked complete. To view enforced predecessors inside of [!DNL Workfront], click on the task name.
+   >If the work item has predecessors, the Done button is gray until those predecessors are marked complete. To view predecessors inside of [!DNL Workfront], click on the task name.
    >![](assets/navigate-to-workfront.png)
 
   <!-- I dont think we need this one ![](assets/complete-work-350x529.png) -->
