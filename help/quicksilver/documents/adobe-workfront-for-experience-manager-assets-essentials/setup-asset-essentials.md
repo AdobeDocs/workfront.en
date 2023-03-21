@@ -108,33 +108,9 @@ Before you begin, you must
 
 You can map any Workfront supported field to a tag in Experience Manager Assets Essentials. 
 
-<!--To do this, you must ensure that tag values in Experience Manager Assets match Workfront. 
-
-* Tags and Workfront field values must be an exact match in spelling, and format. 
-* Workfront field values that are mapped to experience Manager assets tags must be all lowercase, even if the tag in Experience Manager Assets appears to have uppercase letters.
-* Workfront field values must not include spaces.
-* The field value in Workfront must also include the folder structure of the Experience Manager Assets tag.
-
->[!INFO]
->
->**Example**:  To match the tag shown in the folder structure here, the field value in Workfront would be `landscapes:trees/spruce`. Note the lowercase letters in the Workfront field value.
->
->If you want the tag to be leftmost item in the tag tree, it must be followed by a colon. In this example, to map to the landscapes tag, the field value in Workfront would be `landscapes:`.
->
->![Folder structure in AEM](assets/aem-folder-structure-with-red-boxes.png)
-
-
-After you have created the tags in Experience Manager Assets, they will appear under the Tags drop-down in the Metadata section. 
-
--->
 To link a field to a tag, select `dc:subject` in the Experience Manager Assets field dropdown in the metadata mapping area. To map to more than one tag, enter a comma-separated list of Workfront field values.
 
 For more information on tags in Experience Manager Assets, including how to create and manage tags, see [Administering Tags]( https://experienceleague.adobe.com/docs/experience-manager-64/administering/contentmanagement/tags.html?lang=en).
-
-<!--
-**AEM custom fields**
-
--->
 
 **Workfront fields**
 
