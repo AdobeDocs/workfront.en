@@ -20,7 +20,20 @@ The following objects associated with projects have the following limits:
  <tbody> 
   <tr> 
    <td role="rowheader"><p>Tasks</p></td> 
-   <td>  <p>The maximum number of tasks per project is 5,000. A warning message displays when the number of tasks approaches this maximum. When the maximum is reached, an error message displays and additional tasks cannot be added to the project.</p> <p>To avoid reaching this maximum, move tasks that are closed to another project designated for closed tasks. Reports on these projects may need to be adjusted.</p> </td> 
+   <td>  <p>The maximum number of tasks per project is 5,000. A warning message displays when the number of tasks approaches this maximum. When the maximum is reached, an error message displays and additional tasks cannot be added to the project.</p> <p>To avoid reaching this maximum, move tasks that are closed to another project designated for closed tasks. Reports on these projects may need to be adjusted.</p> 
+   
+   <b>IMPORTANT</b>
+
+   For projects where tasks have a lot of dependencies, we recommend that the number of tasks in the projects should be much lower than the maximum allowed of 5,000 tasks. 
+   
+   Some examples of task dependencies that might influence or prevent recalculating the project's timeline are:
+
+   <ul><li>Number of children</li>
+   <li>Multiple levels of task indentation</li>
+   <li>Number of predecessors</li>
+   <li>Multiple assignments</li>
+   </ul>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>Issues</p></td> 
