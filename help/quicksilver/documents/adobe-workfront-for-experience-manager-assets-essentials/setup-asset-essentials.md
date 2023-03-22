@@ -108,7 +108,9 @@ Before you begin, you must
 
 You can map any Workfront supported field to a tag in Experience Manager Assets Essentials. 
 
-To link a field to a tag, select `dc:subject` in the Experience Manager Assets field dropdown in the metadata mapping area. To map to more than one tag, enter a comma-separated list of Workfront field values.
+To link a field to a tag, select `dc:subject` in the Experience Manager Assets field dropdown in the metadata mapping area. 
+
+To map multiple single-line text fields to tags, enter a comma-separated list of the tag values into the Workfront side of the metadata mapping, and xcm:keywords on the Experience Manager Assets side. Each field value maps to a separate tag. You can use a calculated field to combine multiple Workfront fields into a single comma-separated text field.
 
 For more information on tags in Experience Manager Assets, including how to create and manage tags, see [Administering Tags]( https://experienceleague.adobe.com/docs/experience-manager-64/administering/contentmanagement/tags.html?lang=en).
 
@@ -124,6 +126,8 @@ You can map both built-in and custom Workfront fields to Experience Manager Asse
 > To check if the field values match exactly, go to 
 > * Setup > Custom Forms in Workfront or the field in the object
 > * Assets > metadata schemas in Experience Manager Assets
+
+To map values from drop-down, radio button, or checkbox fields by entering a comma-separated list of the available values in that field.
 
 +++
 
