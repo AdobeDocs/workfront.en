@@ -56,7 +56,40 @@ A given work item, such as a task, document, or timesheet, may require that a su
 
 A CustomerPreferences object represents the set of preferences that a customer has set for their instance of Workfront.
 
-
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">Direct fields</td>
+      <td>
+        <ul>
+          <li>
+            <p><b>name</b>
+            </p>
+            <p>Added the following possible values:</p>
+            <ul>
+              <li>
+                <p><code>customer:config.general.autoupgradedisabled</code></p>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">actions</td>
+      <td>
+        <ul>
+          <li>
+            <p><b>getIsAutoUpgradeDisabled</b>
+            </p>
+            <p>This action returns a boolean that describes whether the customer has disabled the option to auto-upgrade Contributer license holders.</p>
+         </li>
+        </ul>
+      </td>
+    </tr>  </tbody>
+</table>
 
 ### ExternalSection (EXTSEC)
 
@@ -102,7 +135,7 @@ A Rate object represents a billing rate in Workfront.
 
 A RichTextNote object is a comment or update made on a Workfront object, that includes rich text such as bold or italicized text.
 
-
+The RichTextNote object removed the flag `REPORTABLE`.
 
 ### Role / Job Role (ROLE)
 
@@ -120,16 +153,125 @@ A Task object represents a work item that must be performed as a step toward ach
 
 
 
-
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">Direct fields</td>
+      <td>
+        <ul>
+          <li>
+            <p><b>layoutType</b>
+            </p>
+            <p>Added the following possible value:</p>
+            <ul>
+              <li>
+                <p><code>WLIST</code></p>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">actions</td>
+      <td>
+        <ul>
+          <li>
+            <p><b>disableSystemWideVisibility
+</b>
+            </p>
+            <p><b>enableSystemWideVisibility </b>
+            </p>
+            <p>These actions support the ability to share filters, views, and groupings system-wide.</p><p>For more information, see <a href="https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/set-up-wf/configure-system-defaults/create-and-share-default-fvgs.html?lang=en#make-filters-views-or-groupings-available-to-users">Make filters, views, or groupings available to all users</a>.</p>
+         </li>
+        </ul>
+      </td>
+    </tr>  </tbody>
+</table>
 
 ### UIGroupBy / Grouping (UIGB)
 
 
-
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">Direct fields</td>
+      <td>
+        <ul>
+          <li>
+            <p><b>layoutType</b>
+            </p>
+            <p>Added the following possible value:</p>
+            <ul>
+              <li>
+                <p><code>WLIST</code></p>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">actions</td>
+      <td>
+        <ul>
+          <li>
+            <p><b>disableSystemWideVisibility
+</b>
+            </p>
+            <p><b>enableSystemWideVisibility </b>
+            </p>
+            <p>These actions support the ability to share filters, views, and groupings system-wide.</p><p>For more information, see <a href="https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/set-up-wf/configure-system-defaults/create-and-share-default-fvgs.html?lang=en#make-filters-views-or-groupings-available-to-users">Make filters, views, or groupings available to all users</a>.</p>
+         </li>
+        </ul>
+      </td>
+    </tr>  </tbody>
+</table>
 
 
 ### UIView / View (UIVW)
 
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">Direct fields</td>
+      <td>
+        <ul>
+          <li>
+            <p><b>layoutType</b>
+            </p>
+            <p>Added the following possible value:</p>
+            <ul>
+              <li>
+                <p><code>WLIST</code></p>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">actions</td>
+      <td>
+        <ul>
+          <li>
+            <p><b>disableSystemWideVisibility
+</b>
+            </p>
+            <p><b>enableSystemWideVisibility </b>
+            </p>
+            <p>These actions support the ability to share filters, views, and groupings system-wide.</p><p>For more information, see <a href="https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/set-up-wf/configure-system-defaults/create-and-share-default-fvgs.html?lang=en#make-filters-views-or-groupings-available-to-users">Make filters, views, or groupings available to all users</a>.</p>
+         </li>
+        </ul>
+      </td>
+    </tr>  </tbody>
+</table>
 
 
 
