@@ -82,12 +82,13 @@ To configure [!DNL Workfront for Jira]:
 
    >[!NOTE]
    >
-   >[!UICONTROL Workfront] connects to [!DNL Jira] using OAuth 2.0, a standard used by most web-based integrations for the authentication and authorization of users.
+   >The user must have a valid `apiKey` in [!UICONTROL Workfront] to create a successful connection.
 
    You must log in to [!DNL Workfront] as a [!DNL Workfront] administrator to continue the configuration.
 
    >[!NOTE]
    >
+   >* [!UICONTROL Workfront] connects to [!DNL Jira] using OAuth 2.0, a standard used by most web-based integrations for the authentication and authorization of users.
    >* When you are prompted to enter the domain of your [!DNL Workfront] account, type it using this format: *yourCompany'sDomain.my.workfront.com*. Your company's domain is usually the name of your company.
    >* Enhanced Authentication is not available until a [!DNL Workfront] administrator enables it for this integration.
 
