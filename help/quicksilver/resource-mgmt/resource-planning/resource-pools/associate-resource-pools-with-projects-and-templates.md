@@ -15,14 +15,12 @@ exl-id: bbfe8257-ff02-4f06-9763-3f2ae4871c9d
 Also - take out all the references to Preview and Prod at prod final
 -->
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> 
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers in the Preview environment and for a select group of customers in the Production environment.</span>
 
 
 <!--
-<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <p>The sections about how to add resource pools to templates, projects are duplicated from the articles listed in those sections (Editing Projects, Creating a Template, etc).</p>
 <p>***I decided to keep these steps here, though, because it's hard to parse through those much lunger articles for just updating this one field.)</p>
-</div>
 -->
 
 Resource pools are collections of users what help you manage resources in Adobe Workfront.
