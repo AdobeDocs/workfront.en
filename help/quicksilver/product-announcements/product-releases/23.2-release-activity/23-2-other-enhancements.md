@@ -28,9 +28,6 @@ Some of the features included with this update are:
 * Better performance 
 
 * Real-time indicator for new comments. 
-    >[!NOTE]
-    >
-    >The release of the real-time indicator has been delayed.
 
 * Editing comments after they are submitted.  
 
