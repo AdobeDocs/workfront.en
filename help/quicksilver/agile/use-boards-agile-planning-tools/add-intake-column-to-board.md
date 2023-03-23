@@ -58,6 +58,8 @@ You must have the following access to perform the steps in this article:
    >[!NOTE]
    >
    >You can filter the intake column to include both tasks and issues, but you must set up the filters separately for each object type.
+   >
+   >Also, saved filters and system default filters are available for you to select.
 
 1. On the filter panel, click **[!UICONTROL New filter]** to get started.
 
