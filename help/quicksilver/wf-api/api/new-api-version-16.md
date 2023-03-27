@@ -44,13 +44,52 @@ UserNote (USRNOT)
 
 An AccessLevel object is associated with users, and describes the set of AccessLevelPermissions that determine what the user can access.
 
-
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">Direct fields</td>
+      <td>
+        <ul>
+          <li>
+            <p><b>LicenseType</b>
+            </p>
+            <p>Added the following possible values:</p>
+            <ul>
+              <li>
+                <p><code><!--x--></code></p>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </td>
+    </tr>
+ </tbody>
+</table>
 
 ### Approval (APPROVAL)
 
 A given work item, such as a task, document, or timesheet, may require that a supervisor or other user sign off on the work item. An Approval object represents the action of signing off on a work item.
 
-
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">Direct fields</td>
+      <td>
+        <ul>
+          <li>
+            <p><b>resourcePlannerBudgetedHours</b>
+            </p>
+            <p>Added</p>
+          </li>
+        </ul>
+      </td>
+    </tr>
+ </tbody>
+</table>
 
 ### CustomerPreferences (CUSTPR)
 
@@ -95,7 +134,28 @@ A CustomerPreferences object represents the set of preferences that a customer h
 
 An ExternalSection object is an external web page that is embedded in a Workfront report.
 
-
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">actions</td>
+      <td>
+        <ul>
+           <li>
+            <p><b>calculateIframeURL</b>
+            </p>
+            <p><!--x--></p>
+         </li>
+          <li>
+            <p><b>calculateIframeURLS</b>
+            </p>
+            <p><!--x--></p>
+         </li>
+        </ul>
+      </td>
+    </tr>  </tbody>
+</table>
 
 ### Hour (HOUR)
 
@@ -117,7 +177,23 @@ A Note object is a comment or update made on a Workfront object.
 
 An OpTask object is commonly known as an Issue. An issue is a work item that usually indicates that there is a problem preventing the completion of a task or project. An Issue can also be a Help Desk request. Change Orders, Requests, and Bugs are also Issues.
 
-
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">actions</td>
+      <td>
+        <ul>
+           <li>
+            <p><b>assignMultiple</b>
+            </p>
+            <p>This action added the field <code>teamIDs</code> to support the functionality of assigning multiple teams to a task or issue.</p>
+         </li>
+        </ul>
+      </td>
+    </tr>  </tbody>
+</table>
 
 ### Project (PROJ)
 
@@ -147,7 +223,23 @@ A Role object (job role) represents a functional capacity or a skill set a user 
 
 A Task object represents a work item that must be performed as a step toward achieving a final goal (completing a Project).
 
-
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">actions</td>
+      <td>
+        <ul>
+           <li>
+            <p><b>assignMultiple</b>
+            </p>
+            <p>This action added the field <code>teamIDs</code> to support the functionality of assigning multiple teams to a task or issue.</p>
+         </li>
+        </ul>
+      </td>
+    </tr>  </tbody>
+</table>
 
 ### UIFilter / Filter (UIFT)
 
@@ -158,27 +250,15 @@ A Task object represents a work item that must be performed as a step toward ach
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">Direct fields</td>
-      <td>
-        <ul>
-          <li>
-            <p><b>layoutType</b>
-            </p>
-            <p>Added the following possible value:</p>
-            <ul>
-              <li>
-                <p><code>WLIST</code></p>
-              </li>
-            </ul>
-          </li>
-        </ul>
-      </td>
-    </tr>
-    <tr>
       <td role="rowheader">actions</td>
       <td>
         <ul>
           <li>
+            <p><b>addJoinForNullableFields</b>
+            </p>
+            <p><!--x--></p>
+         </li>
+         <li>
             <p><b>disableSystemWideVisibility
 </b>
             </p>
@@ -198,23 +278,6 @@ A Task object represents a work item that must be performed as a step toward ach
   <col/>
   <col/>
   <tbody>
-    <tr>
-      <td role="rowheader">Direct fields</td>
-      <td>
-        <ul>
-          <li>
-            <p><b>layoutType</b>
-            </p>
-            <p>Added the following possible value:</p>
-            <ul>
-              <li>
-                <p><code>WLIST</code></p>
-              </li>
-            </ul>
-          </li>
-        </ul>
-      </td>
-    </tr>
     <tr>
       <td role="rowheader">actions</td>
       <td>
@@ -286,5 +349,26 @@ A User object represents a person with an account in Workfront that can log in a
 
 A UserNote object is a notification.
 
-
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">Queries</td>
+      <td>
+        <ul>
+          <li>
+            <p><b>myAllObjectTypesUnreadNotifications</b>
+            </p>
+            <p>Added the following possible value:
+            <ul>
+            <li>
+            includeAll
+            </li>
+            </ul>
+         </li>
+        </ul>
+      </td>
+    </tr>  </tbody>
+</table>
 
