@@ -159,13 +159,55 @@ An ExternalSection object is an external web page that is embedded in a Workfron
 
 ### Hour (HOUR)
 
+An Hour object represents an hour logged by a user on a timesheet.
+
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">Direct fields</td>
+      <td>
+        <ul>
+          <li>
+            <p><b>timesheetHourIdentifier</b>
+            </p>
+            <p>Added. This parameter <!--x-->. </p>
+           </li>
+        </ul>
+      </td>
+    </tr>
+ </tbody>
+</table>
 
 
+### LayoutTemplate (UITMPL)
 
-### LayoutTemplate (LYTMPL)
+Adobe Workfront administrators or group administrators can create templates to customize the layout elements in Adobe Workfront. A LayoutTemplate object represents one of these templates.
 
-
-
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">Direct fields</td>
+      <td>
+        <ul>
+          <li>
+            <p><b>LicenseType</b>
+            </p>
+            <p>Added the following possible values:</p>
+            <ul>
+              <li>
+                <p><code><!--x--></code></p>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </td>
+    </tr>
+ </tbody>
+</table>
 
 ### Note (NOTE)
 
@@ -201,7 +243,7 @@ Projects are work items within Workfront, and are a main building block in the w
 
 
 
-## Rate (RATE)
+### Rate (RATE)
 
 A Rate object represents a billing rate in Workfront.
 
@@ -343,7 +385,29 @@ A Task object represents a work item that must be performed as a step toward ach
 
 A User object represents a person with an account in Workfront that can log in and interact with the system.
 
-
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">Direct fields</td>
+      <td>
+        <ul>
+          <li>
+            <p><b>LicenseType</b>
+            </p>
+            <p>Added the following possible values:</p>
+            <ul>
+              <li>
+                <p><code><!--x--></code></p>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </td>
+    </tr>
+ </tbody>
+</table>
 
 ### UserNote (USRNOT)
 
