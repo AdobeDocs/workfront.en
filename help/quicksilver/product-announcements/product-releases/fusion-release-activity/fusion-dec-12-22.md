@@ -7,7 +7,7 @@ hidefromtoc: yes
 ---
 # Workfront Fusion release activity: Week of December 12, 2022
 
-This page describes all enhancements made in Adobe Workfront Fusion the week of February 14, 2022.
+This page describes all enhancements made in Adobe Workfront Fusion the week of December 12, 2022.
 
 For a list of all recent changes, see [Adobe Workfront Fusion release activity](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
@@ -22,4 +22,4 @@ We're currently working on:
 
 * Moving further on using Adobe Identity Management System (IMS) for future Workfront Fusion Authentication.
 * Changing the way Workfront Fusion handles unused webhooks, to prevent them from affecting performance as Fusion scales up.
-* Other infrastucture enhancements.
+* Other infrastructure enhancements.

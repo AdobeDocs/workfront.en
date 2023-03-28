@@ -110,12 +110,11 @@ If you are using the WIP limit on a column, a separate card counter is not added
 
       ![Status for columns](assets/boards-column-status.png)
 
-      The status translation options for connected cards are also displayed. (Status translation does not apply to ad hoc cards.) These options determine the status applied to the task or issue in [!DNL Workfront] when a connected card is moved to this column.
+      The status translation options for connected cards are also displayed. (Status translation does not apply to ad hoc cards.) These options determine the custom status applied to the task or issue in [!DNL Workfront] when a connected card is moved to this column.
 
-   1. To change the default status translation selections, click the **[!UICONTROL Edit]** icon ![Edit icon](assets/edit-icon-spectrum.png).
-   1. If you are using the early feature opt-in: Select a [!UICONTROL **Custom**] status to apply to the card, for both tasks and issues.
+   1. If you are using the early feature opt-in: Select a [!UICONTROL **Custom**] status to apply to the card for tasks and for issues.
 
-      When a card is moved to this column, [!DNL Workfront] first tries to apply the custom status (for example, Resolved). If the custom status is not available for that card, Workfront will apply the system status instead (for example, Closed). The system status is the status you selected in step b above.
+      When a card is moved to this column, [!DNL Workfront] first tries to apply the custom status (for example, Resolved). If the selected custom status is not available for that card, you are prompted to choose another status that corresponds to the system status (from step b above).
 
       Also, if the status on the connected task or issue is changed to the custom or system status set in the column policy, the card is automatically moved to the column.
 

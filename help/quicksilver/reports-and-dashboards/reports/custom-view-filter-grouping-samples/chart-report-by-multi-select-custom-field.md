@@ -10,6 +10,8 @@ exl-id: cda77319-dce6-409d-8f59-53838820cafb
 ---
 # Chart a report by a multi-select custom field
 
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers in the Preview environment and for a select group of customers in the Production environment.</span>
+
 You cannot chart a report by a multi-select custom field. You need to create an additional calculated field that refers to the multi-select custom field to also chart the report by the value of the multi-select custom field.
 
 ## Access requirements
@@ -97,7 +99,12 @@ To build the calculated custom field that references the multi-select custom fie
 
 1. (Optional) To ensure that all the calculated fields that you want to chart by are populated with values, select all the objects in your report that contain the custom form with both the multi-select custom field and the calculated custom field, then click **Edit**. 
 1. (Optional and conditional) Enable the **Recalculate Custom Expressions** field, then click **Save Changes**.  
-   ![](assets/recalculate-custom-expressions-350x259.png)  
+   ![](assets/recalculate-custom-expressions-350x259.png) 
+
+   >[!NOTE]
+   >
+   ><span class="preview">This option has been eliminated from editing projects in bulk in the Preview environment.  You can still recalculate expressions for projects in bulk by clicking **More** ![](assets/more-icon-45x33.png) at the top of a project list, then **Recalculate Expressions**. </span>
+
 
 1. Go to the report where you want to add the chart for the calculated field that references the multi-select custom field. 
 1. Click **Report Actions**, then **Edit**. 

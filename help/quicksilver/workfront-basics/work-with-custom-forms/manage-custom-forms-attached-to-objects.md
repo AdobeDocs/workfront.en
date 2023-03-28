@@ -9,6 +9,8 @@ exl-id: e5570a09-32cb-43e3-9c1d-4421db42fa24
 ---
 # Manage custom forms attached to objects
 
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers in the Preview environment and for a select group of customers in the Production environment.</span>
+
 You can update the order in which the custom forms attached to one object display, remove them, or bulk-edit the way custom forms display on multiple objects.
 
 ## Access requirements
@@ -42,7 +44,7 @@ You must have the following access to perform the actions described in this arti
 
 ## Prerequisites
 
-* Your Workfront administrator or a Plan user with administrative access to&nbsp;custom forms must create custom forms in your environment. For more information, see [Create or edit a custom form](../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+* Your Workfront administrator or a Plan user with administrative access to custom forms must create custom forms in your environment. For more information, see [Create or edit a custom form](../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 * You must have custom forms attached to an object.
 
   For information about how to apply custom forms to an object, see [Add a custom form to an object](../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
@@ -86,11 +88,14 @@ You might have the same field appear on multiple custom forms attached to the sa
 
 * If you have the same calculated fields on two different objects, their calculations must be identical to avoid errors. For information about adding calculated fields to custom forms including multiple forms, see [Add calculated data to a custom form](../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md) .
 
-## Edit multiple custom forms when bulk-editing objects
+## Manage multiple custom forms when bulk-editing objects
 
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this section will need to be edited when the bulk Edit box is released to NWE; add some screen shots for NWE) </p>
--->
+drafted for bulk-editing projects. When it releases to Prod for projects, take "in the preview environment" and the yellow tags out. Add additional objects here in the same way when they become available:-->
+
+>[!NOTE]
+>
+><span class="preview">For information about managing custom forms on projects in bulk in the Preview environment, see the article [Edit projects](../../manage-work/projects/manage-projects/edit-projects.md)</span>.
 
 When you are bulk editing objects that have multiple custom forms applied, you can edit the way custom forms are displayed on those objects, as well as edit common fields among the custom forms.
 
@@ -111,12 +116,12 @@ To edit multiple custom forms when editing objects in bulk:
 
    If a field is included on more than one custom form, all values of those fields are updated on each form when you update the field on one of the forms.
 
-1. Click&nbsp;the **Make a selection** drop-down menu and select&nbsp;additional forms to add to all the selected objects.
+1. Click the **Make a selection** drop-down menu and select additional forms to add to all the selected objects.
 
    Consider the following when applying additional forms:
 
    * Objects can have up to 10 custom forms.
-   * You can apply forms only when the form is not&nbsp;already applied to any of the objects that you are editing. A form that is already attached to one of the objects does not appear in the drop-down menu.
+   * You can apply forms only when the form is not already applied to any of the objects that you are editing. A form that is already attached to one of the objects does not appear in the drop-down menu.
    * After you apply an additional form, any fields that form has in common with other forms are displayed in the **Common Fields** section, and they can be edited.
 
 1. (Optional) If you added custom forms to all the objects, but you have not saved the objects yet, you can change the order in which the custom forms appear on the objects.

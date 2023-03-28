@@ -1,5 +1,5 @@
 ---
-title: Hidden test file
+title: Hidden file
 description: Hidden from search and from left nav
 hidefromtoc: yes
 hide: yes

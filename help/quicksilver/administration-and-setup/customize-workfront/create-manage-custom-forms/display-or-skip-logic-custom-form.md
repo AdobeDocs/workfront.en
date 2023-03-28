@@ -1,5 +1,5 @@
 ---
-title: Add display logic and skip logic to a custom form
+title: Add display logic and skip logic to a custom form with the legacy form builder
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
@@ -9,7 +9,7 @@ feature: System Setup and Administration
 role: Admin
 exl-id: c687c4a8-a99d-4ac0-b785-5bfe503a7e2c
 ---
-# Add display logic and skip logic to a custom form
+# Add display logic and skip logic to a custom form with the legacy form builder
 
 You can decide which sections of a custom form should be displayed or skipped based on the choices that a user makes when filling it out.
 
@@ -42,7 +42,7 @@ You must have the following to perform the steps in this article:
 
 * To add display logic on a custom field, widget, or section break, at least one multiple choice field (radio buttons, dropdown, or checkboxes) must be positioned prior to it on the form.
 
-  For information about custom fields and widgets in custom forms, see [Add a custom field to a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md) and [Add or edit an asset widget in a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
+  For information about custom fields and widgets in custom forms, see [Add a custom field to a custom form with the legacy form builder](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md) and [Add or edit an asset widget in a custom form with the legacy form builder](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
 
 * You cannot add skip logic to a widget or section break. You can add it only to a multiple choice field (radio buttons, dropdown, or checkboxes).   
 

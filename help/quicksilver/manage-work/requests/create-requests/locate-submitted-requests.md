@@ -115,7 +115,11 @@ To locate requests that you or other users have submitted:
 
    If an issue was converted to a task or project and the issue was deleted in the conversion process, the Summary panel is blank. For information about converting issues, see [Overview of converting issues in Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issues.md). 
 
-1. From the **Filter icon** ![](assets/filter-nwepng.png) in the top right of the list, select any of the following filters: 
+1. From the **Filter icon** ![](assets/filter-nwepng.png) in the top right of the list, select any of the filters listed in the table below.
+
+   >[!TIP]
+   >
+   >You cannot modify filters in the Requests area. Additionally, there are no options to modify or change the view of the Requests area. 
 
    <table style="table-layout:auto"> 
     <col> 

@@ -12,8 +12,6 @@ exl-id: 0343fe74-1be4-43e2-9e3d-8aa1f7ea26fa
 # Edit a user's profile
 
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> 
-
 >[!IMPORTANT]
 >
 >The procedure described on this page applies only to organizations that have not yet been onboarded to the Admin Console. If your organization has been onboarded to the Adobe Admin Console, you must perform this action through the Adobe Admin Console.
@@ -87,10 +85,16 @@ You must have the following to perform the steps in this article:
       <td role="rowheader">Preferences </td> 
       <td> 
        <ul> 
-        <li> <p><b>Time Zone:</b> The user's time zone.</p> <p>For information about helping users collaborate in Workfront across time zones, see <a href="../../../workfront-basics/tips-tricks-and-troubleshooting/working-across-timezones.md" class="MCXref xref">Working across time zones</a>.</p> </li> 
-        <li><b>Email Locale</b>: The user's preferred email locale. This affects the format of numbers and dates in the emails that come from Workfront.</li> 
-        <li><b>Show percent complete on update status</b>: Check this option if you want to display a percent complete bar inside the Update area of this user's tasks.</li> 
-        <li><b>Send work I assign to myself to my Working On tab</b>: Check this option if you want everything that the user assigns to themselves to appear directly on the Working On tab. The default is to list everything assigned to a user on their Work Request tab.</li> 
+      <li> <p><b>Time Zone:</b> The user's time zone.</p> <p>For information about helping users collaborate in Workfront across time zones, see <a href="../../../workfront-basics/tips-tricks-and-troubleshooting/working-across-timezones.md" class="MCXref xref">Working across time zones</a>.</p> </li> 
+       <li><b>Email Locale</b>: The user's preferred email locale. This affects the format of numbers and dates in the emails that come from Workfront.</li> 
+      
+      <li><b>Receive emails from this test environment</b>: Check this option if you want to receive email notifications from the environment that you are currently logged in.
+      <p><b>NOTE</b></p>
+      This option is available only in the Preview and Sandbox environments. Email notifications are enabled in the Production environment by default. 
+      </li> 
+      
+      <li><b>Show percent complete on update status</b>: Check this option if you want to display a percent complete bar inside the Update area of this user's tasks.</li> 
+       <li><b>Send work I assign to myself to my Working On tab</b>: Check this option if you want everything that the user assigns to themselves to appear directly on the Working On tab. The default is to list everything assigned to a user on their Work Request tab.</li> 
        </ul> </td> 
      </tr> 
      <tr> 
@@ -131,21 +135,21 @@ You must have the following to perform the steps in this article:
       <td> 
        <ul>
        <li>
-       <b><span class="preview">Work Time</span></b>: <span class="preview">Represents the percentage of the Full Time Equivalent (FTE) time that the user is available for actual work, not including overhead. Work Time must be a decimal number up to 1, and it cannot be 0. For example, a 20% availability for actual work would be 0.2.</span> 
+       <b>Work Time</b>: Represents the percentage of the Full Time Equivalent (FTE) time that the user is available for actual work, not including overhead. Work Time must be a decimal number up to 1, and it cannot be 0. For example, a 20% availability for actual work would be 0.2.
 
-      <span class="preview">The field's default is 1, indicating that a user spends their entire FTE on actual, project-related work.</span>  
+      The field's default is 1, indicating that a user spends their entire FTE on actual, project-related work.  
 
-      <span class="preview">The system uses this number to calculate the availability of the user for actual, project-related work. </span> 
+      The system uses this number to calculate the availability of the user for actual, project-related work. 
 
-      <span class="preview">For more information about creating schedules in Workfront, see <a href="../../set-up-workfront/configure-timesheets-schedules/create-schedules.md">Create a schedule</a>.</span>
+      For more information about creating schedules in Workfront, see <a href="../../set-up-workfront/configure-timesheets-schedules/create-schedules.md">Create a schedule</a>.
 
-      <span class="preview">Schedule exceptions and time off might also affect the user capacity. 
+      Schedule exceptions and time off might also affect the user capacity. 
 
       Workfront calculates a user's availability depending on the Resource Management preferences in your Setup area. For more information, see <a href="../../set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md">Configure Resource Management preferences</a>. 
 
       <b>TIP</b>
 
-      <span class="preview">Set the Work Time value to  1 to indicate that the user is available for project-related work their entire full-time equivalent.</span>
+      Set the Work Time value to  1 to indicate that the user is available for project-related work their entire full-time equivalent.
       </li> 
       <li> <b>Schedule Deactivation</b>: Check this box if you want to schedule this user to be deactivated after a period of time. </li> 
        <li><b>Scheduled Deactivation Date</b>: The date after which the user becomes deactivated. For information about scheduling users for deactivation, see the <a href="../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md#scheduling-users-for-deactivation" class="MCXref xref">Schedule users for deactivation</a> in <a href="../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md" class="MCXref xref">Deactivate or reactivate a user</a>.</li> 
@@ -172,7 +176,7 @@ You must have the following to perform the steps in this article:
 
       The field's default is 1.
 
-      Schedule exceptions, time off might, <span class="preview">and the value of Work Time</span> may affect the availability of the user. 
+      Schedule exceptions, time off might, and the value of Work Time may affect the availability of the user. 
 
       Workfront calculates a user's availability depending on the Resource Management preferences in your Setup area.
 
