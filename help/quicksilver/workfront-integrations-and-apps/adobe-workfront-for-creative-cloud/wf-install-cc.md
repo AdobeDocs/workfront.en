@@ -24,7 +24,7 @@ The plugin supports the following languages:
 * Portuguese 
 * Simplified Chinese
 * Traditional Chinese
-<!-- * Korean -->
+* Korean 
 
 >[!NOTE]
 >
