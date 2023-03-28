@@ -22,7 +22,6 @@ No resources were removed for API version 16
 ## Modified resources
 
 AccessLevel (ACSLVL)
-Approval (APPROVAL)
 CustomerPreferences (CUSTPR)
 ExternalSection (EXTSEC)
 Hour (HOUR)
@@ -34,6 +33,7 @@ Rate (RATE)
 RichTextNote (RHNOTE)
 Role / Job Role (ROLE)
 Task (TASK)
+Timesheet (TSHET)
 UIFilter / Filter (UIFT)
 UIGroupBy / Grouping (UIGB)
 UIView / View (UIVW)
@@ -61,29 +61,6 @@ An AccessLevel object is associated with users, and describes the set of AccessL
                 <p><code><!--x--></code></p>
               </li>
             </ul>
-          </li>
-        </ul>
-      </td>
-    </tr>
- </tbody>
-</table>
-
-### Approval (APPROVAL)
-
-A given work item, such as a task, document, or timesheet, may require that a supervisor or other user sign off on the work item. An Approval object represents the action of signing off on a work item.
-
-<table>
-  <col/>
-  <col/>
-  <tbody>
-    <tr>
-      <td role="rowheader">Direct fields</td>
-      <td>
-        <ul>
-          <li>
-            <p><b>resourcePlannerBudgetedHours</b>
-            </p>
-            <p>Added</p>
           </li>
         </ul>
       </td>
@@ -145,12 +122,12 @@ An ExternalSection object is an external web page that is embedded in a Workfron
            <li>
             <p><b>calculateIframeURL</b>
             </p>
-            <p><!--x--></p>
+            <p>This was added, and calculates the URL of an iFrame embedded in a report.</p>
          </li>
           <li>
             <p><b>calculateIframeURLS</b>
             </p>
-            <p><!--x--></p>
+            <p>This was added, and calculates the URLs of  iFrames embedded in a report.</p>
          </li>
         </ul>
       </td>
@@ -172,7 +149,7 @@ An Hour object represents an hour logged by a user on a timesheet.
           <li>
             <p><b>timesheetHourIdentifier</b>
             </p>
-            <p>Added. This parameter <!--x-->. </p>
+            <p>Added. This parameter is used to identify the hours created with <code>batchSave</code>. </p>
            </li>
         </ul>
       </td>
@@ -213,7 +190,24 @@ Adobe Workfront administrators or group administrators can create templates to c
 
 A Note object is a comment or update made on a Workfront object.
 
-
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">Collection fields</td>
+      <td>
+        <ul>
+          <li>
+            <p><b>attachedDocuments</b>
+            </p>
+            <p>This field was added, and represents a list of documents attached to the comment.</p>
+          </li>
+        </ul>
+      </td>
+    </tr>
+ </tbody>
+</table>
 
 ### OpTask / Issue (OPTASK)
 
@@ -241,13 +235,63 @@ An OpTask object is commonly known as an Issue. An issue is a work item that usu
 
 Projects are work items within Workfront, and are a main building block in the way Workfront helps people to do work. A Project object represents a group of tasks with a common, specific goal.
 
-
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">Direct fields</td>
+      <td>
+        <ul>
+          <li>
+            <p><b>resourcePlannerBudgetedHours</b>
+            </p>
+            <p>This field was added, and represents the sum of all Budgeted Hours on the project.</p>
+          </li>
+        </ul>
+      </td>
+    </tr>
+ </tbody>
+</table>
 
 ### Rate (RATE)
 
 A Rate object represents a billing rate in Workfront.
 
-
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">Direct fields</td>
+      <td>
+        <ul>
+          <li>
+             <p><b>costPerHour</b></p>
+            <p><b>LocalBillingPerHour</b></p>
+            <p><b>localCostPerHour</b></p>
+            <p><b>localCurrency</b></p>
+           <p>These parameters have been moved to the Rate object from the Role object, so that Role and User objects can have multiple values (for separate date ranges).</p>
+          </li>
+          <li><p><b>objID</b></p><p><b>objObjCode</b></p>
+          <p>These parameters represent the ID and the object code of the object that the Rate is attached to.
+          </li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">Actions</td>
+      <td>
+        <ul>
+          <li>
+             <p><b>setRateForObject</b></p>
+           <p>This action has been added, and attaches Rate objects to the given Object. This endpoint works for all Rate Attachable objects.</p>
+          </li>
+        </ul>
+      </td>
+    </tr>
+ </tbody>
+</table>
 
 ### RichTextNote (RHNOTE)
 
@@ -259,7 +303,23 @@ The RichTextNote object removed the flag `REPORTABLE`.
 
 A Role object (job role) represents a functional capacity or a skill set a user might fill, such as Designer or Product Manager.
 
-
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">Collection fields</td>
+      <td>
+        <ul>
+           <li>
+            <p><b>rates</b>
+            </p>
+            <p>This has been added, and represents the Rate objects attached to this role.</p>
+         </li>
+        </ul>
+      </td>
+    </tr>  </tbody>
+</table>
 
 ### Task (TASK)
 
@@ -282,6 +342,40 @@ A Task object represents a work item that must be performed as a step toward ach
       </td>
     </tr>  </tbody>
 </table>
+
+
+### Timesheet (TSHET)
+
+A Timesheet object represents a virtual timecard that allows Users to enter actual hours worked for Tasks, Projects, and overhead Hour Types.
+
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">Direct Fields</td>
+      <td>
+        <ul>
+           <li>
+            <p><b>availableActions</b>
+            </p>
+            <p>This parameter removed the flag <code>READ_ONLY</code>.</p>
+         </li>
+           <li>
+            <p><b>isEditable</b>
+            </p>
+            <p>This parameter removed the flag <code>READ_ONLY</code>.</p>
+         </li>
+           <li>
+            <p><b>totalDays</b>
+            </p>
+            <p>This parameter was added, and stores the timesheets duration in days regardless of changes to "Equivalent Hours for Full Workday."  For example, if Equivalent Hours is set to 6, and one day is logged, then Equivalent Hours is changed to 8 hours, <code>totalDays</code> still has a value of 1.</p>
+         </li>
+        </ul>
+      </td>
+    </tr>  </tbody>
+</table>
+
 
 ### UIFilter / Filter (UIFT)
 
@@ -406,7 +500,18 @@ A User object represents a person with an account in Workfront that can log in a
         </ul>
       </td>
     </tr>
- </tbody>
+    <tr>
+      <td role="rowheader">Collection fields</td>
+      <td>
+        <ul>
+           <li>
+            <p><b>rates</b>
+            </p>
+            <p>This has been added, and represents the Rate objects attached to this user.</p>
+         </li>
+        </ul>
+      </td>
+    </tr>  </tbody>
 </table>
 
 ### UserNote (USRNOT)
