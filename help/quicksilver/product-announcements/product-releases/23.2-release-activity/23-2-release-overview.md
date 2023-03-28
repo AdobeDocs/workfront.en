@@ -494,6 +494,26 @@ In lieu of a release webinar, we invite you to register for Adobe Summit to watc
                 </tr>
                 <tr>
                     <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">New to the Workfront for Creative Cloud plugins</a>
+                        <p>We've added the following changes to the Workfront for Creative Cloud plugins:
+                        <ul>
+                        <li>The plugin now notifies you when a task has a predecessor</li>
+                        <li>Korean is now a supported language</li>
+                        </ul> </p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                        <ul>
+                            <li>
+                                <p>Preview release: N/A<br /></p>
+                            </li>
+                            <li>
+                                 <p><span class="preview">Production release: March 23, 2023 </span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">New commenting experience for issues Beta</a>
                         <p>An update to the commenting experience in Adobe Workfront is currently in development. This update includes a new interface, new features, and improved performance in the Updates section of some objects. </p>
                         <p>This new experience will eventually unify commenting across Adobe Workfront and beyond, throughout the Adobe Experience Cloud. </p>
