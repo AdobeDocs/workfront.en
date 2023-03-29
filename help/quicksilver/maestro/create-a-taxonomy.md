@@ -1,6 +1,6 @@
 ---
-title: Create a taxonomy
-description: Taxonomies are a specific type of reusable record types that you can use to capture attribute information about the record. 
+title: Create a taxononomy 
+description: Taxonomies are a type of reusable record types that captures attributes about an operational record type in Adobe Workfront Maestro.
 hidefromtoc: yes
 hide: yes
 ---
@@ -9,9 +9,9 @@ hide: yes
 
 # Create a taxonomy
 
-Taxonomies are a specific type of reusable objects that captures attributes about a record type in Adobe Workfront Maestro. 
+Taxonomies are a type of reusable record types that captures attributes about operational record types in Adobe Workfront Maestro. 
 
-For example, Campaign can be a record type. The following are taxonomies which capture attributes about the Campaign record type: Region, Address, Audience, Country. 
+For example, Campaign can be an operational record type. The following are taxonomies which capture attributes about the Campaign record type: Region, Address, Audience, Country. 
 
 
 ## Access requirements

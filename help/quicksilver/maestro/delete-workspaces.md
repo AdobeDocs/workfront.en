@@ -1,16 +1,15 @@
 ---
-title: Create a record type
-description: You can create custom record types. Record types are Maestro objects. 
+title: Delete workspaces
+description: You can delete workspaces when they are no longer relevant. 
 hidefromtoc: yes
 hide: yes
 ---
 
 <!--udpate the metadata with real information when making this avilable in TOC and in the left nav-->
 
-
-# Create a record type
+# Delete workspaces
 
 ## Access requirements
 
-## Create a record type
+## Considerations when deleting workspaces
 
