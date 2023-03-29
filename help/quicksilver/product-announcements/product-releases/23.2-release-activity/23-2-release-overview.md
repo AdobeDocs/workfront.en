@@ -8,7 +8,7 @@ feature: Product Announcements
 
 # 23.2 Release overview
 
-This page provides information about functionality that is included in the 23.2 release scheduled for April 2023. 
+This page provides information about functionality that is included in the 23.2 release scheduled for the week of April 3, 2023. 
 
 The enhancements on this page are available in the Preview environment. This page will be updated with additional enhancements as the 23.2 release nears its planned Production release.
 
