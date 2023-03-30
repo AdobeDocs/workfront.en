@@ -134,8 +134,10 @@ Consider the following:
   * The Group of the new project is the Group of the template. If the template is not associated with a Group, then the Group of the project is the Home Group of the user who creates the project.
 
   * The statuses available for a new project match the statuses of the Group of the project which is either the Group of the template, or the Home Group of the user who creates the project. 
-  
-  ## Create a project from scratch
+
+  * The group of a new project created by converting an issue to a project is the Group of the issue's existing project. If the user converting the issue does not have access to the issue's project, the Group of the new project is the Home Group of the user converting the issue. The new project's statuses match the group statuses of the group associated with the project which is either the Group of the original project or the Home Group of the user converting the issue. 
+
+## Create a project from scratch
 
 1. Do one of the following:
 
