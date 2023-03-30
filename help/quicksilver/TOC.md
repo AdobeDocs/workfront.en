@@ -891,9 +891,6 @@ feature-set: Workfront
   * [Agile](agile/agile.md)
   * [Agile overview](agile/agile-overview.md)
   * [Boards overview](agile/boards-overview.md)
-  * Agile in projects {#agile-in-projects}
-    * [Agile in projects](agile/agile-in-projects/agile-in-projects.md)
-    * [Agile Project](agile/agile-in-projects/use-agile-on-a-project.md)
   * Get started with agile in Adobe Workfront {#agile-in-workfront}  
     * [Get started with agile in Adobe Workfront](agile/get-started-with-agile-in-workfront/get-started-with-agile.md)
     * [Create an agile team](agile/get-started-with-agile-in-workfront/create-an-agile-team.md)
