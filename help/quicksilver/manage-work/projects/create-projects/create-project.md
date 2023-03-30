@@ -2,7 +2,7 @@
 product-area: projects
 navigation-topic: create-projects
 title: Create a project
-description: (NOTE:this is linked from the UI from the Projects global nav section in classic. Do not change/ remove)
+description: A project is a large unit of work in Adobe Workfront. You can create projects from scratch, use a template, or by converting issues or tasks to projects. 
 author: Alina
 feature: Work Management
 exl-id: d4e28fa6-25f9-4765-b051-8960c8873d5a
@@ -121,15 +121,21 @@ Consider the following:
 * Workfront applies the settings of the group, if there are any, before it applies those set by the Workfront administrator. 
 * If you create a project using a template, the settings from the template take precedence over the settings established by the Workfront or group administrator.
 
->[!NOTE]
->
->We recommend that the default status for a new project is Planning. As you are making changes to the new project, this ensures that notifications do not trigger to the users assigned to the project.
+  >[!NOTE]
+  >
+  >We recommend that the default status for a new project is Planning. As you are making changes to the new project, this ensures that notifications do not trigger to the users assigned to the project.
+  >
+  >For more information about setting up the default status and other default settings for a new project, see [Configure system-wide project preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) or [Configure project preferences for a group](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md).
 
-For more information about setting up the default status and other default settings for a new project, see [Configure system-wide project preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+* Workfront defines the Group and Status of the new project as follows:
 
+  * The default status of a new project created from a template corresponds with the status defined by your Workfront administrator in the main Project Preferences area or by a group administrator (or Workfront administrator) in the Project Preferences area for a group. 
 
+  * The Group of the new project is the Group of the template. If the template is not associated with a Group, then the Group of the project is the Home Group of the user who creates the project.
 
-## Create a project from scratch
+  * The statuses available for a new project match the statuses of the Group of the project which is either the Group of the template, or the Home Group of the user who creates the project. 
+  
+  ## Create a project from scratch
 
 1. Do one of the following:
 
@@ -174,7 +180,7 @@ For more information about setting up the default status and other default setti
 
    For more information about editing a project, see [Edit projects](../../../manage-work/projects/manage-projects/edit-projects.md).
 
-1. (Optional) After configuring the project settings and add the tasks, you can change the status of the project to **Current**.
+1. (Optional) After configuring the project settings and adding the tasks, you can change the status of the project to **Current**.
 
    This indicates that the project is now ready to start and users assigned to the tasks can now start working on them.
 
