@@ -21,24 +21,24 @@ No resources were removed for API version 16
 
 ## Modified resources
 
-AccessLevel (ACSLVL)
-CustomerPreferences (CUSTPR)
-ExternalSection (EXTSEC)
-Hour (HOUR)
-LayoutTemplate (LYTMPL)
-Note (NOTE)
-OpTask / Issue (OPTASK)
-Project (PROJ)
-Rate (RATE)
-RichTextNote (RHNOTE)
-Role / Job Role (ROLE)
-Task (TASK)
-Timesheet (TSHET)
-UIFilter / Filter (UIFT)
-UIGroupBy / Grouping (UIGB)
-UIView / View (UIVW)
-User (USER)
-UserNote (USRNOT)
+* [AccessLevel (ACSLVL)](#accesslevel-acslvl)
+* [CustomerPreferences (CUSTPR)](#customerpreferences-custpr)
+* [ExternalSection (EXTSEC)](#externalsection-extsec)
+* [Hour (HOUR)](#hour-hour)
+* [LayoutTemplate (UITMPL)](#layouttemplate-uitmpl)
+* [Note (NOTE)](#note-note)
+* [OpTask / Issue (OPTASK)](#note-note)
+* [Project (PROJ)](#project-proj)
+* [Rate (RATE)](#rate-rate)
+* [RichTextNote (RHNOTE)](#richtextnote-rhnote)
+* [Role / Job Role (ROLE)](#role--job-role-role)
+* [Task (TASK)](#task-task)
+* [Timesheet (TSHET)](#timesheet-tshet)
+* [UIFilter / Filter (UIFT)](#uifilter--filter-uift)
+* [UIGroupBy / Grouping (UIGB)](#uigroupby--grouping-uigb)
+* [UIView / View (UIVW)](#uiview--view-uivw)
+* [User (USER)](#user-user)
+* [UserNote (USRNOT)](#usernote-usrnot)
 
 ### AccessLevel (ACSLVL)
 
@@ -392,7 +392,7 @@ A Timesheet object represents a virtual timecard that allows Users to enter actu
           <li>
             <p><b>addJoinForNullableFields</b>
             </p>
-            <p><!--x--></p>
+            <p>This action was added, and takes a filter query map and adds the <code>allowingnull</code> join for nullable fields.</p>
          </li>
          <li>
             <p><b>disableSystemWideVisibility
