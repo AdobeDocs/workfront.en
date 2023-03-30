@@ -6,7 +6,7 @@ description:
 author: Courtney,Becky
 feature: Workfront Integrations and Apps, Digital Content and Documents
 ---
-# Manage [!DNL Adobe Workfront] notifications in Adobe Creative Cloud
+# Manage [!DNL Adobe Workfront] notifications from Adobe Creative Cloud
 
 You can receive notifications in the Adobe Creative Cloud from [!DNL Adobe Workfront] about items you need to approve, assignments you've been given, or comments and changes to items you're associated with.
 
@@ -34,5 +34,19 @@ Notifications are available in the following Adobe Creative Cloud apps:
 
 <!--Where is it on the page? Is there any configuration necessary? Any considerations? See similar article about MSTeams.-->
 
+<!--
+
+Available notifications as of Mar 30
 
 
+M (wanted you to know...) Someone includes me on a directed update / When comment is added on user
+UC (wanted you to know.)  When comment is added on user
+MT (wanted your team to know...) - would need to add @team
+DAA (approved your document)A document approval request is completed
+DAH (approved your document with changes)A document approval request is completed
+DAR (rejected your document)A document approval request is completed
+U (commented on something you did.)
+T (commented on an update you're in.)
+WIC (commented on your work item.)
+
+-->
