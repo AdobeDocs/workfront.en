@@ -10,8 +10,6 @@ exl-id: 3daacfba-9da7-4c04-be98-ec5f953c3c34
 ---
 # Filters overview in Adobe Workfront
 
-<span class="preview">Note that in the Preview environment, the enhanced filter experience (previously called "beta") is now the default. These enhanced filters are now "standard" and the older filter experience is "legacy."</span>
-
 You can use filters in Adobe Workfront to reduce the amount of information you display on the screen in lists, reports, or other areas.
 
 >[!NOTE]
@@ -163,11 +161,11 @@ When you build a filter, you connect multiple elements together that make up fil
 
 This is an example of the standard filter builder:
 
-![Standard filter builder](assets/filter-statements-with-or-and-and-nwe.png)
+![Standard filter builder](assets/filter-sample-with-or.png)
 
-This is an example of the beta filter builder:
+This is an example of the legacy filter builder:
 
-![Beta filter builder](assets/filter-sample-with-or.png)
+![Legacy filter builder](assets/filter-statements-with-or-and-and-nwe.png)
 
 A filter contains the following elements:
 
@@ -227,13 +225,13 @@ For more information about filter modifiers, see [Filter and condition modifiers
 
 ## Create filters in the builder interface
 
-You can create a filter using the standard or beta builder interface in the following ways:
+You can create a filter using the standard or legacy builder interface in the following ways:
 
 * From scratch
 * Modify an existing filter
 * Copy an existing filter
 
-For information about creating a filter using the standard or beta builder interface, see [Create or edit filters in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/create-filters.md).
+For information about creating a filter using the standard or legacy builder interface, see [Create or edit filters in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/create-filters.md).
 
 ## Create filters using the text mode interface
 
