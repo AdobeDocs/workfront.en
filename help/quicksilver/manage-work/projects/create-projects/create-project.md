@@ -117,9 +117,9 @@ When you create a project, Workfront applies a set of default settings to it. Fo
 
 Consider the following:
 
-* As a Workfront administrator or a group administrator, you can configure the default settings for a new project when configuring Project Preferences.
+* As a Workfront administrator or a group administrator, you can configure the default settings for a new project when configuring Project Preferences for your Workfront instance or for a group.
 * Workfront applies the settings of the group, if there are any, before it applies those set by the Workfront administrator. 
-* If you create a project using a template, the settings from the template take precedence over the settings established by the Workfront or group administrator.
+* The default Status of a new project corresponds with the status defined by your Workfront administrator in the main Project Preferences area or by a group administrator (or Workfront administrator) in the Project Preferences area for a group. 
 
   >[!NOTE]
   >
@@ -127,15 +127,23 @@ Consider the following:
   >
   >For more information about setting up the default status and other default settings for a new project, see [Configure system-wide project preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) or [Configure project preferences for a group](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md).
 
-* Workfront defines the Group and Status of the new project as follows:
+* The following scenarios exist for how Workfront defines the Group and Status of a new project:
 
-  * The default status of a new project created from a template corresponds with the status defined by your Workfront administrator in the main Project Preferences area or by a group administrator (or Workfront administrator) in the Project Preferences area for a group. 
+  * If you create a project from scratch, the Group of the project is your Home Group. 
+  
+    The Status of the project is the default status in the Project Preferences of your Home Group, if there is one, or of your Workfront instance. You can change the default status when creating the project to any status available for the Group of the project. 
 
-  * The Group of the new project is the Group of the template. If the template is not associated with a Group, then the Group of the project is the Home Group of the user who creates the project.
+  * If you create a project using a template, the settings from the template take precedence over the settings established by the Workfront or group administrator.
+    
+    The Group of the new project is the Group of the template. If the template is not associated with a Group, then the Group of the project is the Home Group of the user who creates the project.
 
-  * The statuses available for a new project match the statuses of the Group of the project which is either the Group of the template, or the Home Group of the user who creates the project. 
+    The default status of a new project created from a template corresponds with the status defined by your Workfront administrator in the main Project Preferences area or by a group administrator (or Workfront administrator) in the Project Preferences area for the group. You can change the default status when creating a project from a template, to any of the statuses of the Group of the project which is either the Group of the template, or the Home Group of the user who creates the project. 
 
-  * The group of a new project created by converting an issue to a project is the Group of the issue's existing project. If the user converting the issue does not have access to the issue's project, the Group of the new project is the Home Group of the user converting the issue. The new project's statuses match the group statuses of the group associated with the project which is either the Group of the original project or the Home Group of the user converting the issue. 
+  * If you create a project by converting an issue, the group of a new project is the Group of the issue's existing project. If the user converting the issue does not have access to the issue's project or if the issue's project does not have a Group, the Group of the new project is the Home Group of the user converting the issue. 
+    
+    The new project's statuses match the group statuses of the group associated with the project which is either the Group of the original project or the Home Group of the user converting the issue. 
+
+    If you are using a template when you're creating the project by converting the issue, refer to the second scenario above to understand which Group and which Status Workfront applies to the new project. 
 
 ## Create a project from scratch
 
