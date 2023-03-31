@@ -28,7 +28,12 @@ Notifications are available in the following Adobe Creative Cloud apps:
 
 ## View and manage [!DNL Workfront] Notifications in Adobe Creative Cloud
 
-1. Click on the Notifications icon ![Notifications icon](assets/cc-plugin-notifications-icon.png) near the top of the plugin panel. A blue dot on the icon indicates that you have unread notifications.
+1. Click on the **[!UICONTROL Notifications]** icon ![Notifications icon](assets/cc-plugin-notifications-icon.png) near the top of the plugin panel. A blue dot on the icon indicates that you have unread notifications.
+1. (Optional) To mark all notifications as seen, click **[!UICONTROL Mark all as seen]**. 
+
+   This marks notifications as seen in the plugin as well as in Workfront. Seen notifications are no longer visible on the list of notifications in the plugin. 
+
+1. To go to the work item mentioned in a notification, click the notification?
 
 
 
@@ -50,3 +55,4 @@ T (commented on an update you're in.)
 WIC (commented on your work item.)
 
 -->
+
