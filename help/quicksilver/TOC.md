@@ -889,13 +889,7 @@ feature-set: Workfront
     * [Filter buttons do not display in page headers](workfront-basics/tips-tricks-and-troubleshooting/filter-buttons-do-not-display-in-page-headers.md)
 * Agile {#agile}
   * [Agile](agile/agile.md)
-  * [Agile overview](agile/agile-overview.md)
   * [Boards overview](agile/boards-overview.md)
-  * Get started with agile in Adobe Workfront {#agile-in-workfront}  
-    * [Get started with agile in Adobe Workfront](agile/get-started-with-agile-in-workfront/get-started-with-agile.md)
-    * [Create an agile team](agile/get-started-with-agile-in-workfront/create-an-agile-team.md)
-    * [Configure Kanban](agile/get-started-with-agile-in-workfront/configure-kanban.md)
-    * [Configure Scrum](agile/get-started-with-agile-in-workfront/configure-scrum.md)
   * Get started with boards in Adobe Workfront {#boards-in-workfront}
     * [Get started with boards in Adobe Workfront](agile/get-started-with-boards/get-started-with-boards.md)
     * [Adobe Workfront Boards video demonstrations](/help/quicksilver/agile/get-started-with-boards/boards-video-demonstrations.md)
@@ -924,6 +918,12 @@ feature-set: Workfront
     * [Use the card list](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md)
     * [Create an iteration in a workstream](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md)
     * [Review iteration metrics](/help/quicksilver/agile/use-boards-agile-planning-tools/review-iteration-metrics.md)
+  * [Agile overview](agile/agile-overview.md)
+  * Get started with agile in Adobe Workfront {#agile-in-workfront}  
+    * [Get started with agile in Adobe Workfront](agile/get-started-with-agile-in-workfront/get-started-with-agile.md)
+    * [Create an agile team](agile/get-started-with-agile-in-workfront/create-an-agile-team.md)
+    * [Configure Kanban](agile/get-started-with-agile-in-workfront/configure-kanban.md)
+    * [Configure Scrum](agile/get-started-with-agile-in-workfront/configure-scrum.md)
   * Kanban in an agile team {#kanban}
     * [Kanban in an agile team](agile/use-kanban-in-an-agile-team/using-kanban-in-an-agile-team.md)
     * [Kanban overview](agile/use-kanban-in-an-agile-team/kanban-overview.md)
