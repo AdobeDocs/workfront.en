@@ -91,9 +91,8 @@ When you share a link to a request type, the request type is selected for the us
 
    The code should look similar to the following:
 
-   `https://<yourdomain>.my.workfront.com/requests/new?activeTab=tab-new-helpRequest&projectID=50062d6f000849c95ab3513c0e84a51e&path=
-   `
-
+   `https://<yourdomain>.my.workfront.com/requests/new?activeTab=tab-new-helpRequest&projectID=50062d6f000849c95ab3513c0e84a51e&path=`
+   
    This is the link to the request queue associated with the selected project. The Request Type is preselected.
 
    Users can select any topic group or queue topic they need, or they can choose another request type.
