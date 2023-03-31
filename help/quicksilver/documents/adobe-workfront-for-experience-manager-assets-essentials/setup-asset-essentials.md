@@ -114,12 +114,16 @@ To map multiple single-line text fields to tags, enter a comma-separated list of
 
 For more information on tags in Experience Manager Assets, including how to create and manage tags, see [Administering Tags]( https://experienceleague.adobe.com/docs/experience-manager-64/administering/contentmanagement/tags.html?lang=en).
 
+<!-->
+
 **Workfront fields**
 
 You can map both built-in and custom Workfront fields to Experience Manager Assets. The following field values must match in both case and spelling between Workfront and Experience Manager Assets:
 
 * Drop-down fields
 * Multi-select fields
+
+-->
 
 >[!TIP]
 >
