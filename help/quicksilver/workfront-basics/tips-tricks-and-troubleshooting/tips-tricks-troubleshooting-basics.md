@@ -19,5 +19,4 @@ This section contains the following articles:
 * [Duplicate approval processes showing in the [!UICONTROL Home Work List]](../../workfront-basics/tips-tricks-and-troubleshooting/duplicate-apprval-processes-home.md)
 * [Filter buttons do not display in page headers](../../workfront-basics/tips-tricks-and-troubleshooting/filter-buttons-do-not-display-in-page-headers.md)
 * [Change the format for dates in [!DNL Adobe Workfront]](../tips-tricks-and-troubleshooting/change-date-format-chrome.md)
-
-
+* [Projects I'm On filter includes unexpected results](../tips-tricks-and-troubleshooting/projects-im-on-filter-including-unexpected-results.md)
