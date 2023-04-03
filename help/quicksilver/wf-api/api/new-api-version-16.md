@@ -21,7 +21,7 @@ No resources were removed for API version 16
 
 ## Modified resources
 
-* [AccessLevel (ACSLVL)](#accesslevel-acslvl)
+* <!--[AccessLevel (ACSLVL)](#accesslevel-acslvl)-->
 * [CustomerPreferences (CUSTPR)](#customerpreferences-custpr)
 * [ExternalSection (EXTSEC)](#externalsection-extsec)
 * [Hour (HOUR)](#hour-hour)
@@ -39,6 +39,8 @@ No resources were removed for API version 16
 * [UIView / View (UIVW)](#uiview--view-uivw)
 * [User (USER)](#user-user)
 * [UserNote (USRNOT)](#usernote-usrnot)
+
+<!--
 
 ### AccessLevel (ACSLVL)
 
@@ -58,7 +60,7 @@ An AccessLevel object is associated with users, and describes the set of AccessL
             <p>Added the following possible values:</p>
             <ul>
               <li>
-                <p><code><!--x--></code></p>
+                <p><code>x</code></p>
               </li>
             </ul>
           </li>
@@ -67,6 +69,8 @@ An AccessLevel object is associated with users, and describes the set of AccessL
     </tr>
  </tbody>
 </table>
+
+-->
 
 ### CustomerPreferences (CUSTPR)
 
