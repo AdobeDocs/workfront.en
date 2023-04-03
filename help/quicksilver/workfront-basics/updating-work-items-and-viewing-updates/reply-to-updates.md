@@ -101,13 +101,11 @@ Replying to a comment or reply differs depending on which experience and which o
 
 1. Start typing your reply and use any additional options from the Rich Text toolbar. For information about using Rich Text, see the "Use Rich Text in a Workfront update" section in [Update work](../updating-work-items-and-viewing-updates/update-work.md). 
 
-<!--this is not yet available in beta, leave drafted:  
-1. (Optional) To include text from a previous update in your reply, click the **More** menu next to the update or reply you want to quote, then click **Quote Reply**. Text from the previous update appears in the input area, marked with a gray line. -***********close the draft here************-->
-
 1. Click **Submit** to save the reply.
+
+1. (Optional) Click the **More** menu ![](assets/more-menu.png) next to the update for more options to manage the  reply. For more information, see [Update work](../updating-work-items-and-viewing-updates/update-work.md). 
+
 </div>
-
-
 
 ## Reply to an update via email notification
 

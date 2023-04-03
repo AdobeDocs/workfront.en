@@ -181,7 +181,7 @@ Adding an update to a work item differs depending on what version of the Updates
 
 1. Locate the object you want to update, then click its name to open the object's page.
 1. Click  **Updates** in the left panel. 
-1. Click **Try out the commenting Beta** button in the lower-right corner of the Updates area, then click **Agree** on the Beta agreement. This switches the Updates area to the commenting Beta experience. 
+1. Enable the **Commenting Beta** toggle in the upper-right corner of the Updates area, then click **Agree** on the Beta agreement. This switches the Updates area to the commenting Beta experience. 
    The **Comments** tab is selected by default. 
 1. Start entering a comment in the **New comment** box. 
    
@@ -216,7 +216,7 @@ Adding an update to a work item differs depending on what version of the Updates
 
 1. Click **Submit** to add the update to the Workfront object. 
 1. (Optional) To edit a comment, click the **More** menu ![](assets/more-menu.png) to the right of the Like icon, then click **Edit**.
-1. Edit the information in the comment, or remove any of the tagged users. 
+1. Edit the information in the comment, or remove any of the tagged users. <!--check to make sure you can still remove the users in preview or production. At one point, they were removing this functionality-->
    You can edit your comment within 15 from submitting it. An "Edited" indicator is added to the left of the date stamp that displays when the comment was updated. 
 
    ![](assets/edited-tag-on-comment-unified-commenting.png)
@@ -311,11 +311,12 @@ You can enhance your updates by using Rich Text, or adding various items to it, 
 
 ## Copy update information
 
-<!--drafted for beta release toggle - remove when copying an update will be available:--> 
+<!--drafted for beta release toggle - remove when copying an update will be available:
 
 >[!NOTE]
 >
 >Copying an update is not possible when using the Beta commenting experience.
+-->
 
 There are several ways you can copy an update. After copying a link, you can share the link with others to direct them to the update.
 
@@ -337,7 +338,7 @@ This option copies the text from a specific update to the clipboard.
 This option copies the full thread link to the clipboard so you can share the thread with other users.
 
 1. Go to the update thread you want to copy.
-1. Click the **More** menu, then click **Copy thread link**.
+1. Click the **More** menu, then click **Copy thread link** <span class="preview">or **Copy link** when using the Beta experience</span>.
 
    ![](assets/update-stream-comment-menu-marked-350x152.png)
 
@@ -346,7 +347,7 @@ This option copies the full thread link to the clipboard so you can share the th
 This option copies a specific update link to the clipboard. When you share the update link, the user who follows it sees a border around the update.
 
 1. Go to the update or reply you want to copy.
-1. Click the **More** menu next to the individual update, then click **Copy update link**.
+1. Click the **More** menu next to the individual update, then click **Copy update link** <span class="preview">or **Copy link** when using the Beta experience</span>.
 
    ![](assets/update-stream-reply-menu-marked-350x182.png)
 
