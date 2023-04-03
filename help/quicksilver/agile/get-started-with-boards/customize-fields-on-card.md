@@ -9,8 +9,6 @@ feature: Agile
 
 # Customize which fields are displayed on a card
 
-{{highlighted-preview}}
-
 >[!NOTE]
 >
 >This feature is available only through the early feature opt-in for [!DNL Workfront] [!UICONTROL Boards]. For details, see [Early feature opt-in for Adobe Workfront Boards](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md).
@@ -65,8 +63,6 @@ You must have the following access to perform the steps in this article:
 1. To display all of the fields in both views, click [!UICONTROL **Restore all fields to default**].
 1. Click [!UICONTROL **Hide configure**] to close the Configure panel.
 
-<div class="preview">
-
 ## Add custom fields to cards
 
 >[!NOTE]
@@ -86,4 +82,3 @@ You must have the following access to perform the steps in this article:
 
    The custom field is added to the list of available fields and is enabled by default. You can disable or hide the custom field following the steps in the [Configure cards](customize-fields-on-card.md#configure-cards) section above, or delete it from the board.
 
-</div>
