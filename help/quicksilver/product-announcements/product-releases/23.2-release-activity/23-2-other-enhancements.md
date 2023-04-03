@@ -11,6 +11,13 @@ This page describes all other enhancements made with the 23.2 release to the Pre
 
 For a list of all changes available at this point in the 23.2 release cycle, see [23.2 Release overview](/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md).
 
+## New to the Workfront for Creative Cloud plugins
+
+We've added the following changes to the Workfront for Creative Cloud plugins:
+
+* The plugin now notifies you when a task has a predecessor
+* Korean is now a supported language
+
 ## New commenting experience for issues Beta
 
 An update to the commenting experience in Adobe Workfront is currently in development. This update includes a new interface, new features, and improved performance in the Updates section of some objects. 

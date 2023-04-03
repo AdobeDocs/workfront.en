@@ -8,7 +8,7 @@ feature: Product Announcements
 
 # 23.2 Release overview
 
-This page provides information about functionality that is included in the 23.2 release scheduled for April 2023. 
+This page provides information about functionality that is included in the 23.2 release scheduled for the week of April 3, 2023. 
 
 The enhancements on this page are available in the Preview environment. This page will be updated with additional enhancements as the 23.2 release nears its planned Production release.
 
@@ -490,6 +490,26 @@ In lieu of a release webinar, we invite you to register for Adobe Summit to watc
                     <td>
                         <p><span class="bold">Release dates</span>
                         </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">New to the Workfront for Creative Cloud plugins</a>
+                        <p>We've added the following changes to the Workfront for Creative Cloud plugins:
+                        <ul>
+                        <li>The plugin now notifies you when a task has a predecessor</li>
+                        <li>Korean is now a supported language</li>
+                        </ul> </p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                        <ul>
+                            <li>
+                                <p>Preview release: N/A<br /></p>
+                            </li>
+                            <li>
+                                 <p><span class="preview">Production release: March 23, 2023 </span></p>
+                            </li>
+                        </ul>
                     </td>
                 </tr>
                 <tr>
