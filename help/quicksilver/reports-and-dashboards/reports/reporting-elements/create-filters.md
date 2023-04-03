@@ -123,7 +123,7 @@ Consider the following when creating filters using the different interfaces:
   >
   >   `(A OR B) AND C`
   >
-  >1. Switch back to the legacy builder and edit the filter using the syntax of the legacy builder as described in the [Create or edit a filter in the legacy builder](#create-filter-in-legacy-builder) section in this article. The syntax for the legacy builder displays the filter statements as follows:
+  >1. Switch to the legacy builder and edit the filter using the syntax of the legacy builder as described in the [Create or edit a filter in the legacy builder](#create-filter-in-legacy-builder) section in this article. The syntax for the legacy builder displays the filter statements as follows:
   >
   >   `A AND C`
   >   `OR`
@@ -140,65 +140,19 @@ Consider the following when creating filters using the different interfaces:
   > 
   >   This happens because the filter was modified in the legacy interface.
 
-## Create or edit a filter in the beta builder
+## Create or edit a filter in the standard builder
 
-Consider the following when creating filters using the different interfaces:
+You can create filters using the standard builder interface in the following ways:
 
-* You can find the beta builder in the same places you find the standard filter interface for the areas listed in the table above.
-* You can switch back and forth between the standard and the beta builder interface, where the beta option is available.
-* After you have enabled the beta builder in one area, it is the default experience for all areas where it is available. For example, if you enable the beta builder in a project list, it is the default experience for building task and issue filters in lists as well.
-* You can create filters using the beta builder interface in the following ways:
+* From scratch
+* Edit an existing filter
+* Duplicate an existing filter
+* Duplicate an existing filter, edit it, and save it as a new filter
 
-  * From scratch
-  * Edit an existing filter
-  * Duplicate an existing filter
-  * Duplicate an existing filter, edit it, and save it as a new filter
-
-* Saved filters are available in both builders, regardless of which experience you used to originally build them. For example, if you created a filter using the standard builder, you can find and modify it in the beta builder interface as well.
-
-  >[!TIP]
-  >
-  >An "All" filter is not included with the beta builder because all list items are displayed when no filters are applied. Click **Clear all** on the top right of the builder to clear any active filters and display all items. If **Clear all** is dimmed, then no filters are applied.
-
-* The standard and beta builders have a slightly different syntax when building multiple-statement filters that combine the AND and OR operators. As a result, these filters may display differently when you switch from one builder to another.
-
-  >[!INFO]
-  >
-  >The following scenario exists:
-  >
-  >1. Use the beta builder to create a filter that has the following syntax:
-  >
-  >   `(A OR B) AND C`
-  >
-  >1. Switch back to the standard builder and edit the filter using the syntax of the standard builder as described in the [Create or edit a filter in the standard builder](#create-filter-in-standard-builder) section in this article. The syntax for the standard builder displays the filter statements as follows:
-  >
-  >   `A AND C`
-  >   `OR`
-  >   `B AND C`
-  >
-  >1. Make a change to the filter in the standard interface.
-  >1. Switch back to the beta builder. The filter statement displays according to the logic supported in the standard builder, as described above.
-  >
-  >   The filter displays in the beta builder interface as follows:
-  >  
-  >   `A AND C`
-  >   `OR`
-  >   `B AND C`
-  > 
-  >   This happens because the filter was modified in the standard interface.
-
-Create a filter using the beta builder interface:
+Create a filter using the standard builder interface:
 
 1. Go to a list where you want to create a filter or that contains the filter you want to customize.
-1. Click the **Filter** icon ![Filter icon](assets/filter-nwepng.png), then enable the **Beta setting** ![Beta setting](assets/beta-toggle-white-on-existing-filters.png) to access the beta builder. It is disabled by default.
- 
-   Next, agree to the beta agreement if required. You only have to agree once, and the beta builder stays enabled.
-
-   This opens the beta filter builder interface.
-
-   >[!TIP]
-   >
-   >The header of the filter builder interface changes to blue when you enable the beta builder. After you enable the beta builder interface, Workfront keeps it enabled for all areas where it is available.
+1. Click the **Filter** icon ![Filter icon](assets/filter-nwepng.png), to open the builder interface.
 
    ![Beta filter builder](assets/new-filters-all-filter-types.png)
 
