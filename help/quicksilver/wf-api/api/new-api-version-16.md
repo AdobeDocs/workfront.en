@@ -22,6 +22,8 @@ No resources were removed for API version 16
 ## Modified resources
 
 * <!--[AccessLevel (ACSLVL)](#accesslevel-acslvl)-->
+* [Approval (APPROVAL)](#approval-approval)
+* 
 * [CustomerPreferences (CUSTPR)](#customerpreferences-custpr)
 * [ExternalSection (EXTSEC)](#externalsection-extsec)
 * [Hour (HOUR)](#hour-hour)
@@ -71,6 +73,82 @@ An AccessLevel object is associated with users, and describes the set of AccessL
 </table>
 
 -->
+
+### Approval (APPROVAL)
+
+A given work item, such as a task, document, or timesheet, may require that a supervisor or other user sign off on the work item. An Approval object represents the action of signing off on a work item.
+
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">Direct fields</td>
+      <td>
+        <ul>
+          <li>
+            <p><b>workPerDate</b>
+            </p>
+            <p>Added</p>
+          </li>
+        </ul>
+      </td>
+    </tr>
+ </tbody>
+</table>
+
+### Assignment (ASSGN)
+
+An assignment object represents the connection between a work item and the user, team, or group that is assigned to work on it.
+
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">Direct fields</td>
+      <td>
+        <ul>
+          <li>
+            <p><b>workPerDate</b>
+            </p>
+            <p>Added</p>
+          </li>
+          <li>
+            <p><b>isCountoured</b>
+            </p>
+            <p>Added</p>
+          </li>
+        </ul>
+      </td>
+    </tr>
+ </tbody>
+</table>
+
+
+### CustomEnum (CSTEM)
+
+The CustomEnum object aids with converting status codes into human-readable text.
+
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">Actions</td>
+      <td>
+        <ul>
+          <li>
+            <p><b>getDefaultProjectStatusEnumForGroup
+</b>
+            </p>
+            <p></p>
+          </li>
+        </ul>
+      </td>
+    </tr>
+ </tbody>
+</table>
 
 ### CustomerPreferences (CUSTPR)
 
@@ -222,6 +300,18 @@ An OpTask object is commonly known as an Issue. An issue is a work item that usu
   <col/>
   <tbody>
     <tr>
+      <td role="rowheader">Direct fields</td>
+      <td>
+        <ul>
+          <li>
+            <p><b>workPerDate</b>
+            </p>
+            <p>Added</p>
+          </li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
       <td role="rowheader">actions</td>
       <td>
         <ul>
@@ -232,7 +322,8 @@ An OpTask object is commonly known as an Issue. An issue is a work item that usu
          </li>
         </ul>
       </td>
-    </tr>  </tbody>
+    </tr>
+   </tbody>
 </table>
 
 ### Project (PROJ)
@@ -334,6 +425,18 @@ A Task object represents a work item that must be performed as a step toward ach
   <col/>
   <tbody>
     <tr>
+      <td role="rowheader">Direct fields</td>
+      <td>
+        <ul>
+          <li>
+            <p><b>workPerDate</b>
+            </p>
+            <p>Added</p>
+          </li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
       <td role="rowheader">actions</td>
       <td>
         <ul>
@@ -379,7 +482,6 @@ A Timesheet object represents a virtual timecard that allows Users to enter actu
       </td>
     </tr>  </tbody>
 </table>
-
 
 ### UIFilter / Filter (UIFT)
 
@@ -545,3 +647,25 @@ A UserNote object is a notification.
     </tr>  </tbody>
 </table>
 
+### Work (WORK)
+
+A Work object is a common interface that both Task and OpTask inherit, and shares common code between the two.
+
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">Direct fields</td>
+      <td>
+        <ul>
+          <li>
+            <p><b>workPerDate</b>
+            </p>
+            <p>Added</p>
+          </li>
+        </ul>
+      </td>
+    </tr>
+ </tbody>
+</table>
