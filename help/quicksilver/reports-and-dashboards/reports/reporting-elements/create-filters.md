@@ -3,7 +3,7 @@ product-area: reporting
 navigation-topic: reporting-elements
 title: Create or edit filters in Adobe Workfront
 description: You can limit the amount of information you display on the screen in a list of items with a filter. You can define certain criteria based on particular pieces of information about an object and only display the objects that meet those criteria.
-author: Lisa
+author: Nolan
 feature: Reports and Dashboards
 exl-id: 2e912e32-7924-418d-9d55-ce3c09f67d3e
 ---
@@ -154,7 +154,7 @@ Create a filter using the standard builder interface:
 1. Go to a list where you want to create a filter or that contains the filter you want to customize.
 1. Click the **Filter** icon ![Filter icon](assets/filter-nwepng.png) to open the builder interface.
 
-   ![Beta filter builder](assets/new-filters-all-filter-types.png)
+   ![Standard filter builder](assets/new-filters-all-filter-types.png)
 
 1. Review the following lists of filters:
 
@@ -248,7 +248,7 @@ Create a filter using the standard builder interface:
 
    >[!INFO]
    >
-   >When you filter for project that contain "marketing" in the name that are either not complete and are not On Hold, you can use the following multiple filter groups:
+   >When you filter for projects that contain "marketing" in the name that are either not complete and are not On Hold, you can use the following multiple filter groups:
    >`(Project: Name Contains Marketing AND Project: Percent Complete Does not equal 100)`
    >`OR`
    >`(Project: Name Contains Marketing AND Project: Status Does not equal On Hold)`
@@ -343,7 +343,7 @@ Regardless of the method you use to create filters, creating a filter from scrat
 
    ![Filter drop-down](assets/filter-drop-down-expanded-nwe.png)
 
-1. Click **New Filter** at the top of the list of filters
+1. Click **New Filter** at the top of the list of filters.
 
    Or
 
