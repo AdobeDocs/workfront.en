@@ -312,11 +312,11 @@ The following table illustrates the features that will be available in the new c
    </td>
    <td>✓ 
    </td>
+   <td> <span class="preview">✓</span>
+   </td>
    <td> 
    </td>
-   <td>✓ 
-   </td>
-   <td>Q2, 2023 
+   <td> 
    </td>
    <td> 
    </td>
@@ -340,11 +340,11 @@ The following table illustrates the features that will be available in the new c
    </td>
    <td>✓ 
    </td>
+   <td> <span class="preview">✓</span>
+   </td>
    <td> 
    </td>
-   <td>✓ 
-   </td>
-   <td>Q2, 2023 
+   <td>
    </td>
    <td> 
    </td>
