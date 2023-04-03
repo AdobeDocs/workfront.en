@@ -152,7 +152,7 @@ You can create filters using the standard builder interface in the following way
 Create a filter using the standard builder interface:
 
 1. Go to a list where you want to create a filter or that contains the filter you want to customize.
-1. Click the **Filter** icon ![Filter icon](assets/filter-nwepng.png), to open the builder interface.
+1. Click the **Filter** icon ![Filter icon](assets/filter-nwepng.png) to open the builder interface.
 
    ![Beta filter builder](assets/new-filters-all-filter-types.png)
 
@@ -225,7 +225,7 @@ Create a filter using the standard builder interface:
 
    >[!TIP]
    >
-   >As you build the filter, the results appear immediately in the list. If the filter panel covers the list, you can close it to see the display. The information you entered remains in the beta builder when you open the panel again.
+   >As you build the filter, the results appear immediately in the list. If the filter panel covers the list, you can close it to see the display. The information you entered remains in the builder when you open the panel again.
 
 1. Start typing the value of a field you want to filter by. For example, start typing the name of an issue, if you want to filter by `Issue:Name`. Select the value when it displays in the list.
 
@@ -264,15 +264,15 @@ Create a filter using the standard builder interface:
 
    >[!TIP]
    >
-   >We recommend building as much of the filter as possible using the beta builder interface and only using text mode when you must make modifications to the filter that are only supported in text mode.
+   >We recommend building as much of the filter as possible using the standard builder interface and only using text mode when you must make modifications to the filter that are only supported in text mode.
 
    For more information about creating a filter using the text mode interface, see [Edit a filter using text mode](/help/quicksilver/reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md).
 
-1. Click **Exit text mode** to return to the beta builder interface.
+1. Click **Exit text mode** to return to the standard builder interface.
 
    >[!WARNING]
    >
-   >Some text mode statements are not supported in the beta builder or the standard interface. Exiting text mode when you have created these types of statements might generate a warning message.
+   >Some text mode statements are not supported in the standard builder or the legacy interface. Exiting text mode when you have created these types of statements might generate a warning message.
 
 1. (Optional) Click **Apply** to apply the filter to the list and see the results.
 
@@ -398,234 +398,4 @@ Regardless of the method you use to create filters, creating a filter from scrat
    * Share filters you create with other users, or make them available system-wide. For information, see [Share a filter, view, or grouping](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
    * Remove filters you no longer want to display in the list. For information, see [Remove filters, views, and groupings](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/remove-filters-views-groupings.md).
 
-## Create or edit a filter in the beta builder
-
-Consider the following when creating filters using the different interfaces:
-
-* You can find the beta builder in the same places you find the standard filter interface for the areas listed in the table above.
-* You can switch back and forth between the standard and the beta builder interface, where the beta option is available.
-* After you have enabled the beta builder in one area, it is the default experience for all areas where it is available. For example, if you enable the beta builder in a project list, it is the default experience for building task and issue filters in lists as well.
-* You can create filters using the beta builder interface in the following ways:
-
-  * From scratch
-  * Edit an existing filter
-  * Duplicate an existing filter
-  * Duplicate an existing filter, edit it, and save it as a new filter
-
-* Saved filters are available in both builders, regardless of which experience you used to originally build them. For example, if you created a filter using the standard builder, you can find and modify it in the beta builder interface as well.
-
-  >[!TIP]
-  >
-  >An "All" filter is not included with the beta builder because all list items are displayed when no filters are applied. Click **Clear all** on the top right of the builder to clear any active filters and display all items. If **Clear all** is dimmed, then no filters are applied.
-
-* The standard and beta builders have a slightly different syntax when building multiple-statement filters that combine the AND and OR operators. As a result, these filters may display differently when you switch from one builder to another.
-
-  >[!INFO]
-  >
-  >The following scenario exists:
-  >
-  >1. Use the beta builder to create a filter that has the following syntax:
-  >
-  >   `(A OR B) AND C`
-  >
-  >1. Switch back to the standard builder and edit the filter using the syntax of the standard builder as described in the [Create or edit a filter in the standard builder](#create-filter-in-standard-builder) section in this article. The syntax for the standard builder displays the filter statements as follows:
-  >
-  >   `A AND C`
-  >   `OR`
-  >   `B AND C`
-  >
-  >1. Make a change to the filter in the standard interface.
-  >1. Switch back to the beta builder. The filter statement displays according to the logic supported in the standard builder, as described above.
-  >
-  >   The filter displays in the beta builder interface as follows:
-  >  
-  >   `A AND C`
-  >   `OR`
-  >   `B AND C`
-  > 
-  >   This happens because the filter was modified in the standard interface.
-
-Create a filter using the beta builder interface:
-
-1. Go to a list where you want to create a filter or that contains the filter you want to customize.
-1. Click the **Filter** icon ![Filter icon](assets/filter-nwepng.png), then enable the **Beta setting** ![Beta setting](assets/beta-toggle-white-on-existing-filters.png) to access the beta builder. It is disabled by default.
- 
-   Next, agree to the beta agreement if required. You only have to agree once, and the beta builder stays enabled.
-
-   This opens the beta filter builder interface.
-
-   >[!TIP]
-   >
-   >The header of the filter builder interface changes to blue when you enable the beta builder. After you enable the beta builder interface, Workfront keeps it enabled for all areas where it is available.
-
-   ![Beta filter builder](assets/new-filters-all-filter-types.png)
-
-1. Review the following lists of filters:
-
-   <table style="table-layout:auto">
-   <col>
-   <col>
-   <tbody>
-   <tr>
-   <td role="rowheader"><strong>Favorited</strong></td>
-   <td>Filters that you marked as favorites. When you favorite a filter, its original location is shown below the filter name, and it is hidden from the original list unless you remove it as a favorite.</td>
-   </tr>
-   <tr>
-   <td role="rowheader"><strong>Saved</strong></td>
-   <td>Filters that you built and saved yourself.</td>
-   </tr>
-   <tr>
-   <td role="rowheader"><strong>System defaults</strong></td>
-   <td>Workfront system default filters, as well as filters that the Workfront administrator added to your list of filters, either at the system level or in your layout template.</td>
-   </tr>
-   <tr>
-   <td role="rowheader"><strong>Shared with me</strong></td>
-   <td>Filters that others created and shared with you or that are shared system-wide.</td>
-   </tr>
-   </tbody>
-   </table>
-
-1. Do one of the following:
-   
-   * Click **New filter** to create a filter from scratch.
-   * Hover over an existing filter that you have permissions to manage and click the **Edit** icon ![Edit icon](assets/edit-icon.png) to edit it.
-     
-     Or
-
-     Hover over an existing filter that you have permissions to view, click the **More** menu ![More menu](assets/more-icon-spectrum.png), and click **Duplicate** to copy the existing filter and edit a copy.
-
-   ![More menu options](assets/new-filters-more-menu-options-with-delete.png)
-
-1. (Conditional) Depending on whether you want to find objects that match all or any of the statements in a filter group, select from the following options:
-
-   <table style="table-layout:auto">
-   <col>
-   <col>
-   <tbody>
-   <tr>
-   <td role="rowheader"><strong>Include if all are true</strong></td>
-   <td>The objects found by the filter must match all filter criteria in a filter group. In this case, the filter statements are connected by the AND operator. This is the default selection.</td>
-   </tr>
-   <tr>
-   <td role="rowheader"><strong>Include if any are true</strong></td>
-   <td>The objects found by the filter must match any filter criteria in a filter group. In this case, the filter statements are connected by the OR operator.</td>
-   </tr>
-   </tbody>
-   </table>
-
-   ![Include if all or any or true drop-down menu](assets/new-filters-all-or-any-are-true-drop-down-menu-nwe.png)
-
-   For more information about filter operators, see [Filters overview in Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/filters-overview.md).
-
-1. Click the field drop-down menu to view a list of recently used fields, and suggested fields to filter by. The suggested fields are currently displayed in the list you are filtering.
-
-   You can also select **Browse fields** to view a list of all fields you can filter by. The fields in the advanced search are grouped by object category.
-
-   ![Locate a field to filter by](assets/new-filter-search-for-field.png)
-
-1. Click the modifier drop-down menu to select a modifier. The default modifier is "Equals." 
-
-   For more information, see [Filter and condition modifiers](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
-
-   >[!TIP]
-   >
-   >As you build the filter, the results appear immediately in the list. If the filter panel covers the list, you can close it to see the display. The information you entered remains in the beta builder when you open the panel again.
-
-1. Start typing the value of a field you want to filter by. For example, start typing the name of an issue, if you want to filter by `Issue:Name`. Select the value when it displays in the list.
-
-   >[!TIP]
-   >
-   >Depending on what modifier you selected, you can select multiple values.
-
-1. Click **Add filter** to select another field and add a new filtering criteria to the filter statement.
-1. (Optional) Click the **Delete** icon ![Delete icon](assets/delete.png) to remove existing filter statements.
-
-   Or
-   
-   Click **Clear all** to clear all filtering criteria.
-
-1. (Optional) Click **Add filter group** to add another set of filtering criteria. The default operator between the sets is AND. Click the operator to change it to OR.
-
-   >[!TIP]
-   >
-   >You might want to user another filter group when you want the groups to be connected by a different operator than the operator in a filter statement.
-
-   >[!INFO]
-   >
-   >When you filter for project that contain "marketing" in the name that are either not complete and are not On Hold, you can use the following multiple filter groups:
-   >`(Project: Name Contains Marketing AND Project: Percent Complete Does not equal 100)`
-   >`OR`
-   >`(Project: Name Contains Marketing AND Project: Status Does not equal On Hold)`
-   >In this case, each filter statement is connected by an AND, and the filter groups are connected by an OR.
-
-1. (Optional) Click **Text mode** to continue building the filter using text mode.
-
-   ![Select text mode](assets/new-filter-select-text-mode.png)
-
-   The text mode interface opens.
-
-   ![Text mode interface](assets/text-mode-interface-for-beta-filters-nwe.png)
-
-   >[!TIP]
-   >
-   >We recommend building as much of the filter as possible using the beta builder interface and only using text mode when you must make modifications to the filter that are only supported in text mode.
-
-   For more information about creating a filter using the text mode interface, see [Edit a filter using text mode](/help/quicksilver/reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md).
-
-1. Click **Exit text mode** to return to the beta builder interface.
-
-   >[!WARNING]
-   >
-   >Some text mode statements are not supported in the beta builder or the standard interface. Exiting text mode when you have created these types of statements might generate a warning message.
-
-1. (Optional) Click **Apply** to apply the filter to the list and see the results.
-
-   If the filter produces no results, the list will be empty.
-
-1. Click **Save as new** to save the filter for future use.
-
-   ![Name and save the filter](assets/save-as-untitled-filter-ui-nwe.png)
-
-1. Select **Untitled Filter** and type the name of the new filter instead.   
-
-   >[!TIP]
-   >
-   >Be sure to name the filter so that you can find it later. If you do not name the filter, it will be called Untitled Filter in the system.
-
-1. Select an icon for the new filter from the **Icon** drop-down menu.
-
-   ![Select an icon for the filter](assets/new-filter-select-icon.png)
-
-1. (Optional) Add a description for the filter to indicate what is unique about it. The description displays under the filter name in the list of filters.
-
-   >[!TIP]
-   >
-   >Clicking **Cancel** at any time takes you back to the filter building area.
-
-1. Click **Save**. The filter is saved in the Saved list and is applied to the list of items.
-1. (Optional) To move a filter to the Favorited list, hover over any filter in the filter drawer and click the Favorite icon ![Favorite icon](assets/favorites-icon-small.png).
-
-   Or
-   
-   Hover over any filter in the filter drawer, click the More menu ![More menu](assets/more-icon-spectrum.png), and click **Favorite**.
-
-1. (Optional) Click the **Stack filters** button to activate stacked filters. This option allows you to apply more than one saved filter. The filter rules are applied in the order you select them.
-
-   >[!TIP]
-   >
-   >There is no limit to the number of filters you can select.
-   >
-   >When you select multiple filters, all of their conditions must be met simultaneously to display matching results.
-
-   ![Stack filters](assets/new-filter-stack-filters.png)
-
-   The number of filters you selected displays next to the filter icon at the top of the list of items.
-
-   ![Number of filters selected](assets/number-of-filters-selected.png)
-
-1. (Optional) Do one of the following:
-   
-   * Share the filter with others, or make it available system-wide. For more information, see [Share a filter, view, or grouping](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
-
-   * Delete the filter if it is no longer valid or a duplicate. You can only delete filters that you own. You can remove filters that were shared with you. For information, see [Remove filters, views, and groupings](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/remove-filters-views-groupings.md).
 
