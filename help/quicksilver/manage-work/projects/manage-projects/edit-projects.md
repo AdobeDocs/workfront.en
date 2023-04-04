@@ -9,7 +9,7 @@ exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
 ---
 # Edit projects
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span>
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers in the Preview environment and for a select group of customers in the Production environment.</span>
 
 <!--
 <p>***Linked to many articles,</p>
@@ -266,7 +266,15 @@ Some settings mentioned in this article might be modified from their default sta
        <ul> 
        <li> <p><span>When the project is created from the Projects area, the Home Group of the project creator is associated with the project.</span> </p> <p>This is also true when the project is created from the Projects  section  in a portfolio or program.</p> </li> 
        <li> <p>When the project is created from a group's main page in the Setup area, that group is associated with the project.</p> </li> 
-       </ul> </p> <p> <img src="assets/group-details-widget-350x351.png" style="width: 350;height: 351;"> </p> <p>If the project, or its tasks or issues are already associated with a group-level approval process using group-level custom statuses, changing the group might create a conflict between the approval statuses of the previous group and those existing at the system level. Consider removing the group-level approval processes on the project, or its tasks or issues before updating the group. For information about creating group-level approval processes, see <a href="../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-groups-approval-processes.md" class="MCXref xref">Group-level approval processes</a>. For information about creating a group-level custom status, see <a href="../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md" class="MCXref xref">Create or edit a group status</a></p> </td> 
+       </ul> </p> <p> <img src="assets/group-details-widget-350x351.png" style="width: 350;height: 351;"> </p> 
+       <p><b>NOTES</b></p>
+      
+      <ul>
+      <li><p>If the project, or its tasks or issues are associated with a group-level custom Status, changing the Group of the project might cause the Status of the project, tasks, or issues to change to match the new group.</p></li>
+      <li><p>If the project, or its tasks or issues are already associated with a group-level approval process using group-level custom statuses, changing the group might create a conflict between the approval statuses of the previous group and those existing at the system level.</p>
+      <p>Consider removing the group-level approval processes on the project, or its tasks or issues before updating the group.</p>
+      <p>For information about creating group-level approval processes, see <a href="../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-groups-approval-processes.md" class="MCXref xref">Group-level approval processes</a>.</p>
+      <p>For information about creating a group-level custom status, see <a href="../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md" class="MCXref xref">Create or edit a group status</a></p></li></ul> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Company</strong> </td> 
@@ -311,6 +319,7 @@ When selecting more than one project to edit them in bulk, the following scenari
 * If you don't have Edit Custom Form permissions on at least one of the selected projects, you cannot edit the fields on any of the attached custom forms. You can only view the fields on the attached custom forms
 * If you have View (and not Edit) access to a section on a custom form, you cannot edit the fields in that section. You can only view the fields in that section. 
 * If you have no access to a section on one of the custom forms attached to at least one of the projects, the section does not display in the Edit Projects box. 
+* If you have required fields on any of the custom forms attached to all the projects, and you select one field without actually editing it, you must discard your changes on that field or add information to it before you can save the projects you selected. If you don't select a required field at all, you can save the projects you selected even if the required field is blank. 
 
 For information about custom form access, see the following articles: 
 

@@ -89,7 +89,7 @@ Information can be exported in the following formats:
 ### Export limits {#export-limits}
 
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Alina: [! This information is shared between "Exporting Data" and "Setting Up Report Deliveries."])</p>
+NOTE: Alina: [! This information is shared between "Exporting Data" and "Setting Up Report Deliveries."]
 -->
 
 There are several limitations around the way reports display in Workfront as well as the way they export through a manual export, a delivered report, or through the API.
@@ -98,13 +98,18 @@ There are several limitations around the way reports display in Workfront as wel
 
   * For Excel .xls files, this limit is **65,000 rows**.  
   * For Excel .xlsx files, this limit is **100,000 rows**.  
-  * These limits exclude the column headings, as well as rows for groupings in the report. For instance, if you have 6 groupings in a report, and 50,000&nbsp;rows or data, the exported file will have 50,000&nbsp;rows.
+  * These limits exclude the column headings, as well as rows for groupings in the report. For instance, if you have 6 groupings in a report, and 50,000 rows or data, the exported file will have 50,000 rows.
 
-  >[!NOTE]
+  >[!IMPORTANT]
   >
-  >If your report has more items than these limits, you receive an error that the export is not successful. Reduce the number of items you see on the screen to a number less than or equal to these limits to be able to export the results.
+  >Exporting a report that includes a collection reference within a column may result in an error, even if the report is otherwise within the listed export limits. If the referenced collection is too large, the export process times out and subsequently results in an error.
+  >
+  >To avoid this error, either exclude columns that reference large collections or reduce the size of the referenced collections before exporting.
+  >
+  
+  If your report has more items than these limits, you receive an error that the export is not successful. Reduce the number of items you see on the screen to a number less than or equal to these limits to be able to export the results.
 
-  If your report has more than 50,000/ 65,000/ 100,000 rows and you want to export all the data, we suggest that you use filters or prompts to obtain smaller loads&nbsp;of data, and perform multiple exports.
+  If your report has more than 50,000/ 65,000/ 100,000 rows and you want to export all the data, we suggest that you use filters or prompts to obtain smaller loads of data, and perform multiple exports.
 
   For information on using filters, see [Filters overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).  
   

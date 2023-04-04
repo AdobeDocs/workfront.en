@@ -119,16 +119,16 @@ The following table outlines major features of boards along with their current r
    <td>Partially released</td>
   </tr>
   <tr>
-   <td>Create collections of boards</td>
+   <td>Create workstreams and add boards to workstreams</td>
    <td>Partially released</td>
   </tr>
   <tr>
    <td>Create iterations</td>
-   <td>Planned</td>
+   <td>Partially released (available in Preview)</td>
   </tr>
   <tr>
    <td>Define card list or backlog</td>
-   <td>Planned</td>
+   <td>Partially released (available in Preview)</td>
   </tr>
   <tr>
    <td>Import subtasks as checklist items on cards</td>
@@ -145,6 +145,10 @@ The following table outlines major features of boards along with their current r
   <tr>
    <td>Log hours on connected cards</td>
    <td>Partially released</td>
+  </tr>
+  <tr>
+   <td>Add custom fields to connected cards</td>
+   <td>Partially released (available in Preview)</td>
   </tr>
  </tbody> 
 </table>

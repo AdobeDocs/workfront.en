@@ -3,52 +3,23 @@ product-area: projects
 navigation-topic: update-work-items-and-view-updates
 title: Unified Commenting Experience
 description: The new Unified Commenting Experience will
-author: Nolan
+author: Alina
 feature: Get Started with Workfront
 ---
 
 # New commenting experience
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> -->
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span>
 
-An update to the commenting experience in Adobe Workfront is currently in development. This update includes a new interface, new features, and improved performance in the Updates section of some objects. 
+An update to the commenting experience in Adobe Workfront is currently in development. This update includes a new interface, new features, and improved performance in the Updates section of select objects. 
 
-For information about what objects include the Updates section, see [Updates tab overview](../../workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md). 
-
-While currently only implemented in Adobe Workfont Goals, this new experience will eventually unify commenting across Adobe Workfront and beyond throughout the Adobe Experience Cloud. 
-
-<!--when we release to Preview for issues with a toggle, we need to remove the last sentence above and replace it with this: 
-
-The new commenting experience is currently supported for the following objects in Workfront:
-
-By default, in the Preview and Production environments for all customers: 
-
-* Goals
-
-    >[!NOTE]
-    >
-    >You must have an additional license to Adobe Workfront Goals to be able to access this area of Workfront. For more information, see [Requirements to use Workfront Goals](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
-
-    For more information about managing updates for goals, see [Manage goal comments in Adobe Workfront Goals](../../workfront-goals/goal-management/manage-goal-comments.md). 
-
-
-<div class="preview">
-
-By enabling the Beta toggle, in the Preview environment: 
-
-* Issues
-
-    For more informatiob about managing updates for other objects, including issues, see [Update work](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). 
-
-</div>
-
-This new experience will slowly become available for the objects with an Updates section in Workfront, and later it will unify the commenting experience across all the Adobe Experience Cloud applications.
--->
+The new commenting experience will slowly become available for all the objects with an Updates section in Workfront, and later it will expand to other Adobe Experience Cloud applications.
 
 ## Features
 
 The new commenting experience includes improvements and changes to the existing update stream.
+
+<!-- Previous content here - replaced with the table below: 
 
 >[!IMPORTANT]
 >The Unified Commenting Experience features listed below are currently only available in Adobe Workfront Goals.
@@ -65,17 +36,20 @@ The new commenting experience includes improvements and changes to the existing 
     
     System-generated updates for an object are now listed seperately from comments made in the update tab. For more information on viewing the System Activity stream, see step 11 of [Manage goal comments](/help/quicksilver/workfront-goals/goal-management/manage-goal-comments.md).
 
-<!-- When releasing this to Issues - preview with 23.2 - remove all the content above in the "Features" section and replace it with this: 
-
-One of the main differences between the current and the new commenting experience is the separation of user-submitted comments and system updates with the introduction of the System Activity tab. There are no changes to the system updates functionality.
+--> 
 
 Among the improvements included in the new commenting experience are the following:
 
-* Better, faster performance 
-* Real-time updates
-* Edit comments after submitting them. 
+* Improved performance and user experience
+* Separation of user comments from the system activity updates. There are no changes in the way the system updates function. 
+* Real-time indicator when new comments are added to an object
+* Editing comments after submitting them. 
 
-The following table illustrates the features that will be available in the new commenting experience as well as their availability now in areas where they are supported: 
+The following features have been removed from the new experience:
+
+* Comment on a system update. 
+
+The following table illustrates the features that will be available in the new commenting experience as well as their availability in areas where they are supported: 
 
 <table>
   <tr>
@@ -96,9 +70,7 @@ The following table illustrates the features that will be available in the new c
    <td>Create/read/reply/delete comments 
    </td>
    <td>✓ 
- <p>
- 
-   </td>
+  </td>
    <td>✓ 
    </td>
    <td> 
@@ -109,11 +81,11 @@ The following table illustrates the features that will be available in the new c
    </td>
   </tr>
   <tr>
-   <td>Rich text 
+   <td>Rich text (exludes quoting and emojis)
    </td>
    <td>✓ 
    </td>
-   <td>✓ 
+   <td><span class="preview">✓</span> 
    </td>
    <td> 
    </td>
@@ -123,6 +95,22 @@ The following table illustrates the features that will be available in the new c
    </td>
   </tr>
   <tr>
+ <tr>
+   <td>Rich text (quoting and emojis)
+   </td>
+   <td>✓ 
+   </td>
+   <td> 
+   </td>
+   <td> ✓
+   </td>
+   <td> Q2, 2023
+   </td>
+   <td> 
+   </td>
+  </tr>
+  <tr>
+
    <td>React to comments (Like) 
    </td>
    <td>✓ 
@@ -169,7 +157,7 @@ The following table illustrates the features that will be available in the new c
    </td>
    <td> 
    </td>
-   <td>✓ 
+   <td><span class="preview">✓ </span>
    </td>
    <td> 
    </td>
@@ -197,7 +185,7 @@ The following table illustrates the features that will be available in the new c
    </td>
    <td>✓ 
    </td>
-   <td>Replaced with edit comment 
+   <td><span class="preview">Replaced with edit comment </span>
    </td>
    <td> 
    </td>
@@ -225,7 +213,7 @@ The following table illustrates the features that will be available in the new c
    </td>
    <td> 
    </td>
-   <td>✓ 
+   <td><span class="preview">✓</span> 
    </td>
    <td> 
    </td>
@@ -253,7 +241,8 @@ The following table illustrates the features that will be available in the new c
    </td>
    <td> 
    </td>
-   <td>✓ 
+   <td><span class="preview">✓</span>
+   <p><span class="preview">This feature should be available with the 23.2 and has been temporarily delayed.</span> 
    </td>
    <td> 
    </td>
@@ -323,11 +312,11 @@ The following table illustrates the features that will be available in the new c
    </td>
    <td>✓ 
    </td>
+   <td> <span class="preview">✓</span>
+   </td>
    <td> 
    </td>
-   <td>✓ 
-   </td>
-   <td>Q2, 2023 
+   <td> 
    </td>
    <td> 
    </td>
@@ -351,11 +340,11 @@ The following table illustrates the features that will be available in the new c
    </td>
    <td>✓ 
    </td>
+   <td> <span class="preview">✓</span>
+   </td>
    <td> 
    </td>
-   <td>✓ 
-   </td>
-   <td>Q2, 2023 
+   <td>
    </td>
    <td> 
    </td>
@@ -390,4 +379,45 @@ The following table illustrates the features that will be available in the new c
   </tr>
 </table>
 
--->
+
+## Locate the new commenting experience
+
+The new commenting experience is currently supported for the following objects, when viewing the Updates section in the following versions:
+
+* When enabling the Beta experience in the Updates section: 
+
+    <div class="preview">
+
+    * Issues.  
+
+    For more information about managing updates for Workfront objects, see [Update work](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). 
+
+    </div>
+
+* By default, as the main commenting experience:
+
+    * Goals
+
+    >[!NOTE]
+    >
+    >You must have an additional license to Adobe Workfront Goals to be able to access this area of Workfront. For more information, see [Requirements to use Workfront Goals](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+
+    For more information about managing updates for goals, see [Manage goal comments in Adobe Workfront Goals](../../workfront-goals/goal-management/manage-goal-comments.md). 
+
+
+<div class="preview">
+
+To enable the new commenting exprience Beta: 
+
+1. Go to an object you want to activate the new commenting exprience for, then click **Updates** in the left panel.
+1. Enable the **Commenting Beta** toggle in the upper-right corner of the Updates area. 
+1. Click **Agree** in the Beta agreement box. This enables the new commenting exprience for the selected object. 
+1. Start typing an update in the **Comments** tab. The Comments tab should be the default tab when the new experience opens
+
+    Or
+
+    Click the  **System Activity** tab to view the activity updates generated by Workfront. 
+    
+    For more information about updating objects in the new commenting exprience, see [Update work](../updating-work-items-and-viewing-updates/update-work.md). 
+
+</div>
