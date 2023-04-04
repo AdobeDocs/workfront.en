@@ -24,7 +24,6 @@ Workfront has 6 built-in access levels:
 * System Administrator
 * Standard
 * Light
-* Light Limited
 * Contributor
 * External
 
