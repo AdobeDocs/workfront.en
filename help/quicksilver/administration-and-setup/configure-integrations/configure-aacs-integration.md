@@ -134,12 +134,14 @@ For more information on tags in Experience Manager Assets, including how to crea
 
 **Experience Manager Assets custom metadata schema fields**
 
-You can map both built-in and custom Workfront fields to custom metadata schema fields in Experience Manager Assets.
+You can map both built-in and custom Workfront fields to custom metadata schema fields in Experience Manager Assets. 
+
+Custom metadata fields created in Experience Manager Assets are organized in their own section in the Metadata setup area.
+
+![custom metadata section](assets/custom-metadata.png)
 
 <!-- 
-link to documentation about creating schema
-Show the csutome metadata option and how if you open it it'll show thing that are in AEM
-add screenshot of custom metadata area
+link to documentation about creating schema - waiting on response from Anuj about best article to link to
 -->
 
 **Workfront fields**
