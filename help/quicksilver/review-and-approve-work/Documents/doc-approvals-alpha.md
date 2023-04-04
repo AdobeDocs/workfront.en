@@ -19,13 +19,21 @@ In order to participate in this Alpha release, please ensure you have been added
 
 ## Latest release
 
+### Alpha Release 3 - Mar. 2023
+
+In this 3rd Alpha release, we have incorporated your feedback by introducing success messages that display upon completing actions like adding or removing approvers and reviewers. Additionally, this release offers enhanced visibility of pending approvals, which can now be viewed on the Home and My Updates pages, enabling users to easily approve documents directly from these pages.
+
+Check out the full video walk-through below:
+
+>[!VIDEO](https://video.tv.adobe.com/v/3417854/)
+
+## _Past releases_
+
 ### Alpha Release 2 - Jan. 2023
 
 With this Alpha 2 release you are able to add individuals and teams as reviewers or approvers and make approval decisions directly from the document details page.
 
->[!VIDEO](https://video.tv.adobe.com/v/3413941/?quality=12)
-
-## _Past releases_
+Watch the [video walk-through](https://video.tv.adobe.com/v/3413941/?quality=12){target=_blank}.
 
 ### Alpha Release 1 - Nov. 2022
 
