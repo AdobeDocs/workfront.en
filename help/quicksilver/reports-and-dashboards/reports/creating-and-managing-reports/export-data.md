@@ -102,7 +102,7 @@ There are several limitations around the way reports display in Workfront as wel
 
   >[!IMPORTANT]
   >
-  >Exporting a report that includes a collection reference within a column may result in an error, even if the report is otherwise within the listed export limits. If the referenced collection is too large, the export process times-out and subsequently results in an error.
+  >Exporting a report that includes a collection reference within a column may result in an error, even if the report is otherwise within the listed export limits. If the referenced collection is too large, the export process times out and subsequently results in an error.
   >
   >To avoid this error, either exclude columns that reference large collections or reduce the size of the referenced collections before exporting.
   >
