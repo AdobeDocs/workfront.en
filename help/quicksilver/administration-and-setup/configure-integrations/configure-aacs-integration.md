@@ -132,13 +132,9 @@ After you have created the tags in Experience Manager Assets, they will appear u
 
 For more information on tags in Experience Manager Assets, including how to create and manage tags, see [Administering Tags]( https://experienceleague.adobe.com/docs/experience-manager-64/administering/contentmanagement/tags.html?lang=en).
 
-<!--
-
 **Experience Manager Assets custom metadata schema fields**
 
 You can map both built-in and custom Workfront fields to custom metadata schema fields in Experience Manager Assets.
-
-
 
 **Workfront fields**
 
@@ -150,13 +146,9 @@ You can map both built-in and custom Workfront fields to Experience Manager Asse
 >[!TIP]
 >
 > To check if the field values match exactly, go to 
+>
 > * Setup > Custom Forms in Workfront or the field in the object
 > * Assets > metadata schemas in Experience Manager Assets
-
--->
-
-<!-- Do we want to add a link to the AEM article about metadata?-->
-
 
 +++
 
