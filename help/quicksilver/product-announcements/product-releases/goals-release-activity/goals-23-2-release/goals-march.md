@@ -2,14 +2,14 @@
 product-previous: workfront-goals
 content-type: release-notes
 navigation-topic: goals-release-activity
-title: Adobe Workfront Goals 23.2 release activity Week of April 3, 2023
-description: This page describes all enhancements made with the 23.2 release for Adobe Workfront Goals to the Preview environment. These enhancements will be made available in the Production environment the week of April 3, 2023.
+title: Adobe Workfront Goals 23.2 release activity Week of March 20, 2023
+description: This page describes all enhancements made with the 23.2 release for Adobe Workfront Goals to the Preview environment. These enhancements will be made available in the Production environment the week of March 20, 2023.
 author: Courtney
 feature: Product Announcements, Workfront Goals
 ---
-# Adobe Workfront Goals 23.2 release activity: Week of April 3, 2023
+# Adobe Workfront Goals 23.2 release activity: Week of March 20, 2023
 
-This page describes all enhancements made with the 23.2 release for Adobe Workfront Goals to the Preview environment in April. 
+This page describes all enhancements made with the 23.2 release for Adobe Workfront Goals to the Preview environment in March 20, 2023. 
 
 These enhancements will be made available in the Production environment with the 23.2 release, which is scheduled for the week of April 3, 2023.
 
