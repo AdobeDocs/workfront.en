@@ -111,7 +111,7 @@ Deleting a workstream also deletes all of the boards in the workstream.
 
 1. Click **[!UICONTROL Delete board]** or [!UICONTROL **Delete workstream**] on the confirmation message.
 
-## Move a board to a workstream
+<!-- ## Move a board to a workstream
 
 You can move a standalone board into a workstream, or move a board from one workstream to another workstream.
 
@@ -125,3 +125,4 @@ You can move a standalone board into a workstream, or move a board from one work
 
    The board is moved into the workstream and no longer appears in the [!UICONTROL Boards] area.
    If you have not created a workstream yet, you are prompted to create one to move the board into.
+-->
