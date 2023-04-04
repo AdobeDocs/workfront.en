@@ -9,10 +9,6 @@ feature: Agile
 
 # Customize which fields are displayed on a card
 
->[!NOTE]
->
->This feature is available only through the early feature opt-in for [!DNL Workfront] [!UICONTROL Boards]. For details, see [Early feature opt-in for Adobe Workfront Boards](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md).
-
 By default, all available fields are displayed on a card, both in the the full view when the card is open, and in the condensed card view on the board. You can customize which fields are displayed by:
 
 * Disabling a field so it is not displayed in either view
