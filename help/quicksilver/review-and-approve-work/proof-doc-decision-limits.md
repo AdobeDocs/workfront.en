@@ -72,7 +72,7 @@ Once a user with a Contributor license reaches their decision limit, they will b
 
 >[!NOTE]
 >
->Both the Workfront administrator and the user will receive an email notification regarding this upgrade. 
+>The Workfront administrator will receive an email notification regarding this upgrade. 
 
 <!-- 
 ## View the number of decisions for a user

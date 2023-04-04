@@ -283,7 +283,7 @@ The following are the highest access settings available for objects in the Contr
 | Financial data |✓ |&nbsp; |&nbsp; |
 | Resource Management |✓ |&nbsp; |&nbsp; |
 | Scenario Planner  |✓ |&nbsp; |&nbsp; |
-| Boards |&nbsp; |✓ (Connected cards) |✓ (Simple cards) | 
+| Boards |&nbsp; | &nbsp; |✓ (Simple cards) | 
 | Home |&nbsp; |✓ (My updates) |&nbsp; |
 | Goals  |&nbsp; |&nbsp; |✓ |
 
