@@ -104,31 +104,18 @@ Before you begin, you must
 
 +++ **Supported Workfront and Experience Manager Assets fields** 
 
-**AEM Tags**
+**AEM Keyword**
 
-You can map any Workfront supported field to a tag in Experience Manager Assets Essentials. 
+You can map any Workfront supported field to a keyword in Experience Manager Assets Essentials. 
 
-To link a field to a tag, select `dc:subject` in the Experience Manager Assets field dropdown in the metadata mapping area. 
+To link a field to a keyword, select `dc:subject` in the Experience Manager Assets field dropdown in the metadata mapping area. 
 
-To map multiple single-line text fields to tags, enter a comma-separated list of the tag values into the Workfront side of the metadata mapping, and xcm:keywords on the Experience Manager Assets side. Each field value maps to a separate tag. You can use a calculated field to combine multiple Workfront fields into a single comma-separated text field.
+To map multiple single-line text fields to keywords, enter a comma-separated list of the keyword values into the Workfront side of the metadata mapping, and `dc:subject` on the Experience Manager Assets side. Each field value maps to a separate keyword. You can use a calculated field to combine multiple Workfront fields into a single comma-separated text field.
 
-For more information on tags in Experience Manager Assets, including how to create and manage tags, see [Administering Tags]( https://experienceleague.adobe.com/docs/experience-manager-64/administering/contentmanagement/tags.html?lang=en).
-
-**Workfront fields**
-
-You can map both built-in and custom Workfront fields to Experience Manager Assets. The following field values must match in both case and spelling between Workfront and Experience Manager Assets:
-
-* Drop-down fields
-* Multi-select fields
-
->[!TIP]
->
-> To check if the field values match exactly, go to 
-
-> * Setup > Custom Forms in Workfront or the field in the object
-> * Assets > metadata schemas in Experience Manager Assets
-
-To map values from drop-down, radio button, or checkbox fields by entering a comma-separated list of the available values in that field.
+<!--
+Look for essentials article
+For more information on keywords in Experience Manager Assets, including how to create and manage keywords, see [Administering Tags]( https://experienceleague.adobe.com/docs/experience-manager-64/administering/contentmanagement/tags.html?lang=en).
+-->
 
 +++
 
