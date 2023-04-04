@@ -224,6 +224,7 @@ Adding an update to a work item differs depending on what version of the Updates
    >[!TIP]
    >
    >   An email is generated to notify users of your update only when you submit the original update. No email is generated after you edited your update.
+
 1. (Optional) Click **Reply** to reply to an existing comment, then follow the steps 4-7 above. <!--(**************insure this stays accurate***********)-->. For information about replying to an update, see [Reply to updates](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).
 1. (Optional) Click the **Like** icon![](assets/like-icon.png). The icon updates with the number of likes.
 1. (Conditional and Optional) If you included additional people in your comment, click the number of members included in the update to display a list of entities that the comment you entered is shared with. 
@@ -338,7 +339,12 @@ This option copies the text from a specific update to the clipboard.
 This option copies the full thread link to the clipboard so you can share the thread with other users.
 
 1. Go to the update thread you want to copy.
-1. Click the **More** menu, then click **Copy thread link** <span class="preview">or **Copy link** when using the Beta experience</span>.
+
+1. Click the **More** menu, then click **Copy thread link** 
+
+   or
+   
+   <span class="preview">**Copy link** when using the Beta experience</span>.
 
    ![](assets/update-stream-comment-menu-marked-350x152.png)
 
@@ -347,7 +353,11 @@ This option copies the full thread link to the clipboard so you can share the th
 This option copies a specific update link to the clipboard. When you share the update link, the user who follows it sees a border around the update.
 
 1. Go to the update or reply you want to copy.
-1. Click the **More** menu next to the individual update, then click **Copy update link** <span class="preview">or **Copy link** when using the Beta experience</span>.
+1. Click the **More** menu next to the individual update, then click **Copy update link**    
+
+   or 
+
+   <span class="preview">**Copy link** when using the Beta experience</span>.
 
    ![](assets/update-stream-reply-menu-marked-350x182.png)
 
@@ -362,7 +372,11 @@ No Workfront user (including the Workfront administrator) can delete updates mad
 
    ![](assets/update-stream-comment-menu-marked-350x152.png)
 
-1. In the message that appears, click **Confirm** <span class="preview">or **Delete**</span>, in the commenting Beta experience.
+1. In the message that appears, click **Confirm** 
+
+   or
+
+   <span class="preview"> **Delete**, in the commenting Beta experience</span>.
 
 >[!NOTE]
 >

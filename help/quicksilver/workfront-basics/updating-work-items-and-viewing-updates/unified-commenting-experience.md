@@ -410,7 +410,7 @@ The new commenting experience is currently supported for the following objects, 
 To enable the new commenting exprience Beta: 
 
 1. Go to an object you want to activate the new commenting exprience for, then click **Updates** in the left panel.
-1. Click **Try out the Commenting Beta** in the lower-right corner of the Updates area. 
+1. Enable the **Commenting Beta** toggle in the upper-right corner of the Updates area. 
 1. Click **Agree** in the Beta agreement box. This enables the new commenting exprience for the selected object. 
 1. Start typing an update in the **Comments** tab. The Comments tab should be the default tab when the new experience opens
 
