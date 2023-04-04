@@ -619,7 +619,7 @@ There are no Workfront Proof updates at this point in the release. This area wil
 
 ### Workfront Goals enhancements
 
-There are no Workfront Goals updates at this point in the release. This area will be updated when updates are available.
+New features coming to Workfront Goals release with the 23.2 release. For information about these new features now available in Preview, see [Adobe Workfront Goals with the 23.2 release](/help/quicksilver/product-announcements/product-releases/goals-release-activity/goals-23-2-release/goals-23-2-release.md).
 
 ### API version 15
 
