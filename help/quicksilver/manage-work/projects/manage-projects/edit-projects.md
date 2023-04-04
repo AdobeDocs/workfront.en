@@ -319,6 +319,7 @@ When selecting more than one project to edit them in bulk, the following scenari
 * If you don't have Edit Custom Form permissions on at least one of the selected projects, you cannot edit the fields on any of the attached custom forms. You can only view the fields on the attached custom forms
 * If you have View (and not Edit) access to a section on a custom form, you cannot edit the fields in that section. You can only view the fields in that section. 
 * If you have no access to a section on one of the custom forms attached to at least one of the projects, the section does not display in the Edit Projects box. 
+* If you have required fields on any of the custom forms attached to all the projects, and you select one field without actually editing it, you must discard your changes on that field or add information to it before you can save the projects you selected. If you don't select a required field at all, you can save the projects you selected even if the required field is blank. 
 
 For information about custom form access, see the following articles: 
 
