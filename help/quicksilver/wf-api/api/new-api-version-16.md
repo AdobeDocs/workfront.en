@@ -57,7 +57,7 @@ An AccessLevel object is associated with users, and describes the set of AccessL
       <td>
         <ul>
           <li>
-            <p><b>LicenseType</b>
+            <p><b>licenseType</b>
             </p>
             <p>Added the following possible values:</p>
             <ul>
@@ -89,7 +89,7 @@ A given work item, such as a task, document, or timesheet, may require that a su
           <li>
             <p><b>workPerDate</b>
             </p>
-            <p>Added</p>
+            <p>This field has been added, and shows the number of minutes of work per day that you need to do. It has the format <code>YYYY-MM-DD: (number of minutes)</code>, and takes timezone into account.</p>
           </li>
         </ul>
       </td>
@@ -112,12 +112,12 @@ An assignment object represents the connection between a work item and the user,
           <li>
             <p><b>workPerDate</b>
             </p>
-            <p>Added</p>
+            <p>This field has been added, and shows the number of minutes of work per day that you need to do. It has the format <code>YYYY-MM-DD: (number of minutes)</code>, and takes timezone into account.</p>
           </li>
           <li>
-            <p><b>isCountoured</b>
+            <p><b>isContoured</b>
             </p>
-            <p>Added</p>
+            <p>This field has been added, and is a boolean that reflects whether the assignment is contoured. If the assignment's minutes per day has been edited in the Workload Balancer, then the assignment has been contoured.</p>
           </li>
         </ul>
       </td>
@@ -239,6 +239,7 @@ An Hour object represents an hour logged by a user on a timesheet.
  </tbody>
 </table>
 
+<!--
 
 ### LayoutTemplate (UITMPL)
 
@@ -253,12 +254,12 @@ Adobe Workfront administrators or group administrators can create templates to c
       <td>
         <ul>
           <li>
-            <p><b>LicenseType</b>
+            <p><b>licenseType</b>
             </p>
             <p>Added the following possible values:</p>
             <ul>
               <li>
-                <p><code><!--x--></code></p>
+                <p><code>x</code></p>
               </li>
             </ul>
           </li>
@@ -267,6 +268,7 @@ Adobe Workfront administrators or group administrators can create templates to c
     </tr>
  </tbody>
 </table>
+-->
 
 ### Note (NOTE)
 
@@ -306,7 +308,7 @@ An OpTask object is commonly known as an Issue. An issue is a work item that usu
           <li>
             <p><b>workPerDate</b>
             </p>
-            <p>Added</p>
+            <p>This field has been added, and shows the number of minutes of work per day that you need to do. It has the format <code>YYYY-MM-DD: (number of minutes)</code>, and takes timezone into account.</p>
           </li>
         </ul>
       </td>
@@ -431,7 +433,7 @@ A Task object represents a work item that must be performed as a step toward ach
           <li>
             <p><b>workPerDate</b>
             </p>
-            <p>Added</p>
+            <p>This field has been added, and shows the number of minutes of work per day that you need to do. It has the format <code>YYYY-MM-DD: (number of minutes)</code>, and takes timezone into account.</p>
           </li>
         </ul>
       </td>
@@ -578,9 +580,6 @@ A Timesheet object represents a virtual timecard that allows Users to enter actu
     </tr>  </tbody>
 </table>
 
-
-
-
 ### User (USER)
 
 A User object represents a person with an account in Workfront that can log in and interact with the system.
@@ -590,22 +589,22 @@ A User object represents a person with an account in Workfront that can log in a
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">Direct fields</td>
+      <!--td role="rowheader">Direct fields</td>
       <td>
         <ul>
           <li>
-            <p><b>LicenseType</b>
+            <p><b>licenseType</b>
             </p>
             <p>Added the following possible values:</p>
             <ul>
               <li>
-                <p><code><!--x--></code></p>
+                <p><code>x/code></p>
               </li>
             </ul>
           </li>
         </ul>
       </td>
-    </tr>
+    </tr>-->
     <tr>
       <td role="rowheader">Collection fields</td>
       <td>
@@ -662,7 +661,7 @@ A Work object is a common interface that both Task and OpTask inherit, and share
           <li>
             <p><b>workPerDate</b>
             </p>
-            <p>Added</p>
+            <p>This field has been added, and shows the number of minutes of work per day that you need to do. It has the format <code>YYYY-MM-DD: (number of minutes)</code>, and takes timezone into account.</p>
           </li>
         </ul>
       </td>
