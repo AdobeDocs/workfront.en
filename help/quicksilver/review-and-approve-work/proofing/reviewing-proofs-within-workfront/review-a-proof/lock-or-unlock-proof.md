@@ -29,7 +29,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Proof role</td> 
-   <td>Owner, Author, Moderator</td> 
+   <td>Owner or Moderator</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Proof Permission Profile </td> 

@@ -144,17 +144,12 @@ This opens the goal list.
    >
    >   <span class="preview">An email is generated to notify users of your update only when you submit the original update. No email is generated after you edited your update.</span>
 
-   <!-- <div class="preview">
    1. (Optional) Click the **More** menu ![](assets/more-icon.png), then click any of the following options to copy information from a comment to the clipboard:
 
-      * **Copy update link** to copy the link of an update, without the replies.
-      * **Copy thread link** to copy the link of an update, including the replies.
+      * **Copy link** to copy the link of an update, without the replies.
       * **Copy body text** to copy the text of an update. 
 
          For more information, see [Update work](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). 
-
-   </div>
-   -->
 
 1. Click **Submit**. 
 
@@ -167,6 +162,7 @@ This opens the goal list.
       >The "New" indicator displays only when both the user that entered a new update as well as the user who is currently entering an update are using the new commenting experience. 
       >![](assets/real-time-new-red-indicator-unified-commenting.png)
 
+1. <span class="preview">(Optional) Click the **More** menu ![](assets/more-icon.png) to the right of a comment, then click **Delete** to delete a comment you added. </span>
 1. (Optional) Click **Reply** to reply to an existing comment, then follow the steps 5-9 above. <!--insure this stays accurate-->
 1. (Optional) Click the **Like** icon![](assets/like-icon.png) to like a comment that someone else added. The icon updates with the number of likes.
 1. (Optional) To add rich text formatting to your update, use any attributes on the Rich Text toolbar as you type. For more information, see [Update work](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). 
