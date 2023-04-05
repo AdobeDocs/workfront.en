@@ -11,8 +11,6 @@ role: Admin
 
 # Design a form with the form designer
 
-{{highlighted-preview-article-level}}
-
 You can design a custom form with the form designer. You can attach custom forms to different Workfront objects to capture data about those objects.
 
 ## Access requirements
