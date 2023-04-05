@@ -74,7 +74,11 @@ You must have the following access to perform the steps in this article:
 
    ![Search for custom field](assets/boards-search-for-custom-field.png)
 
+   >[!NOTE]
+   >
+   >The following field types are not available to add to cards: Adobe XD, Image, PDF, Video.
+
 1. Select the field name.   
 
-   The custom field is added to the list of available fields and is enabled by default. You can disable or hide the custom field following the steps in the [Configure cards](customize-fields-on-card.md#configure-cards) section above, or delete it from the board.
+   The custom field is added to the list of available fields and is enabled by default. You can disable or hide the custom field following the steps in the [Configure cards](customize-fields-on-card.md#configure-cards) section above, edit the field to change it to a different field, or delete the field from the board.
 
