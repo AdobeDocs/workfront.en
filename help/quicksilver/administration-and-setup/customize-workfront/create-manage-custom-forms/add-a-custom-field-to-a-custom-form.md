@@ -150,11 +150,12 @@ You must have the following to perform the steps in this article:
      </tr> 
      <tr> 
       <td role="rowheader">Format</td> 
-      <td> <p>Select the type of data that will be captured in the custom field.</p> <p><b>NOTE</b>:   
-        <ul> 
-         <li>This field cannot be edited after the form is saved. If you intend to use your field in mathematical calculations, ensure that you select a Number or Currency format.<br></li> 
-         <li>When you select Number or Currency, the system automatically truncates numbers that start with 0.</li> 
-        </ul> </p> </td> 
+      <td> <p>Select the type of data that will be captured in the custom field. You can change the format selection after saving the form, but the new format must support the value entered.</p> 
+      
+      <p><strong>Example:</strong> If you have Text as the selected format, enter a number value in the field, then later change the format to Currency, you will not encounter an error. </p>
+      <p>If you have a number value and text in the field and try to change it to Currency, you will get an error because text is not supported by the Currency format. </p>
+      
+      </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Display Type</td> 
