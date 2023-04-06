@@ -1,7 +1,7 @@
 ---
 title: Edit existing groupings
 description: Edit existing groupings
-author: Lisa
+author: Nolan
 feature: Reports and Dashboards
 exl-id: bd9e6794-3196-4a73-a86a-9ba6048e613b
 ---
