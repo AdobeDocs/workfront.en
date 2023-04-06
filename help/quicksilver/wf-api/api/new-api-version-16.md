@@ -587,23 +587,6 @@ A User object represents a person with an account in Workfront that can log in a
   <col/>
   <col/>
   <tbody>
-   <!-- <tr>
-      <td role="rowheader">Direct fields</td>
-      <td>
-        <ul>
-          <li>
-            <p><b>licenseType</b>
-            </p>
-            <p>Added the following possible values:</p>
-            <ul>
-              <li>
-                <p><code>x/code></p>
-              </li>
-            </ul>
-          </li>
-        </ul>
-      </td>
-    </tr>-->
     <tr>
       <td role="rowheader">Collection fields</td>
       <td>
