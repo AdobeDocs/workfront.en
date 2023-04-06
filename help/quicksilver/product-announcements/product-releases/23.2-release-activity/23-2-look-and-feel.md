@@ -12,6 +12,21 @@ This page describes minor updates to the look and feel of various areas of the A
 
 For a list of all changes available with the 23.2 release, see [23.2 Release overview](/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md).
 
+## Updates to the look and feel of the Drafts list in the Requests area
+
+>[!NOTE]
+>
+>Preview release: April 4, 2023; Planned Production release: April 18, 2023
+
+We have updated the Drafts list in the Requests area to make it consistent with more recent lists in Workfront.
+Some of the updates include the following:
+
+* Replaced the "Filter by request type" filter with the standard quick filter
+* Removed the image from the Drafts list when the list doesn't contain any requests
+* Added pagination and column sorting to the list. 
+
+For more information, see [Create requests from drafts](/help/quicksilver/manage-work/requests/create-requests/delete-request-draft.md).
+
 ## Smart user selection available in additional areas of Workfront
 
 >[!NOTE]
