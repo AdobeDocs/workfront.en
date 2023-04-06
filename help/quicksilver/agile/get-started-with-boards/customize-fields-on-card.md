@@ -9,12 +9,6 @@ feature: Agile
 
 # Customize which fields are displayed on a card
 
-{{highlighted-preview}}
-
->[!NOTE]
->
->This feature is available only through the early feature opt-in for [!DNL Workfront] [!UICONTROL Boards]. For details, see [Early feature opt-in for Adobe Workfront Boards](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md).
-
 By default, all available fields are displayed on a card, both in the the full view when the card is open, and in the condensed card view on the board. You can customize which fields are displayed by:
 
 * Disabling a field so it is not displayed in either view
@@ -65,13 +59,13 @@ You must have the following access to perform the steps in this article:
 1. To display all of the fields in both views, click [!UICONTROL **Restore all fields to default**].
 1. Click [!UICONTROL **Hide configure**] to close the Configure panel.
 
-<div class="preview">
-
 ## Add custom fields to cards
+
+Custom fields are available on connected cards. They are only visible on the full card view, not the condensed view on the board.
 
 >[!NOTE]
 >
->When you add a custom field to your cards, the data on the card is read-only. Also, custom fields are only available on connected cards.
+>When you add a custom field to your cards, the data on the card is read-only.
 
 1. Access a board and click [!UICONTROL **Configure**] to open the Configure panel.
 1. Expand [!UICONTROL **Cards**].
@@ -82,8 +76,16 @@ You must have the following access to perform the steps in this article:
 
    ![Search for custom field](assets/boards-search-for-custom-field.png)
 
-1. Select the field name.   
+   >[!NOTE]
+   >
+   >The following field types are not available to add to cards: Adobe XD, Image, PDF, Video.
 
-   The custom field is added to the list of available fields and is enabled by default. You can disable or hide the custom field following the steps in the [Configure cards](customize-fields-on-card.md#configure-cards) section above, or delete it from the board.
+1. Select the field name.
+1. (Optional) Click in the **[!UICONTROL Field value]** field to change this custom field to a different one.
+1. (Optional) Change the **[!UICONTROL Field label]** to the field name you want to appear on cards.
+1. When you are finished making changes, click [!UICONTROL **Save field**].
 
-</div>
+   ![Custom field value and label](assets/save-custom-field-value-label.png)
+
+   The custom field is added to the list of available fields and is enabled by default. You can disable the custom field following the steps in the [Configure cards](customize-fields-on-card.md#configure-cards) section above, edit the field, or delete it from all cards.
+

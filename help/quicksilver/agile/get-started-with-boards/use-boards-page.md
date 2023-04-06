@@ -9,18 +9,12 @@ exl-id: bb275f4f-efaf-4dcc-b184-40e015f089b6
 ---
 # Use the boards dashboard
 
-{{highlighted-preview}}
-
 The boards dashboard shows the list of boards and workstreams that you have access to, including boards you have created and boards that you have been added to. Individual boards you have access to that are not part of a workstream are displayed first.
-
->[!NOTE]
->
->Workstreams are available in the Preview environment, and in Production through the early feature opt-in for [!UICONTROL [!DNL Workfront] Boards]. For details, see [Early feature opt-in for Adobe Workfront Boards](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md).
 
 On the dashboard you can do the following for boards and workstreams:
 
-* Archive a board <span class="preview">or workstream</span>
-* Filter the boards <span class="preview">and workstreams</span>
+* Archive a board or workstream
+* Filter the boards and workstreams
 * Sort the boards list by board name or date modified
 * Search for a board or workstream
 * Delete a board or workstream
@@ -48,7 +42,7 @@ You must have the following access to perform the steps in this article:
 
 &#42;To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
 
-## Filter boards <span class="preview">and workstreams</span> {#filter-boards}
+## Filter boards and workstreams {#filter-boards}
 
 You can filter the boards dashboard to show active, archived, or all boards or workstreams.
 
@@ -79,7 +73,7 @@ You can search in the Boards area for a specific board, or search in the Workstr
 
    ![Search for boards on the dashboard](assets/boards-searchbox.png)
 
-## Archive a board <span class="preview">or a workstream</span>
+## Archive a board or a workstream
 
 Archiving a board or a workstream sends it to the archive and you can restore it later.
 
@@ -117,7 +111,7 @@ Deleting a workstream also deletes all of the boards in the workstream.
 
 1. Click **[!UICONTROL Delete board]** or [!UICONTROL **Delete workstream**] on the confirmation message.
 
-## Move a board to a workstream
+<!-- ## Move a board to a workstream
 
 You can move a standalone board into a workstream, or move a board from one workstream to another workstream.
 
@@ -131,3 +125,4 @@ You can move a standalone board into a workstream, or move a board from one work
 
    The board is moved into the workstream and no longer appears in the [!UICONTROL Boards] area.
    If you have not created a workstream yet, you are prompted to create one to move the board into.
+-->

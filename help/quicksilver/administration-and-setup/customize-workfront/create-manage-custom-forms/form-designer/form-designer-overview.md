@@ -10,8 +10,6 @@ role: Admin
 ---
 # Form designer overview
 
-{{highlighted-preview-article-level}}
-
 You can use the new form designer to design a custom form that users can attach to a Workfront object. Users who work on the object can fill out the custom form to supply information about the object.
 
 The new form designer has a new canvas-style workspace that allows you to view the fields, canvas, and field settings all at the same time. It also allows you to drag-and-drop fields within the sections while designing your form. 

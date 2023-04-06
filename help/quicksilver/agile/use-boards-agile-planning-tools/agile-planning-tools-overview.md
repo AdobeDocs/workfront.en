@@ -10,8 +10,6 @@ exl-id: c1d28eeb-e920-4f57-a94b-ffd928b384a4
 ---
 # Agile planning tools overview
 
-{{highlighted-preview}}
-
 As you create a board using ad hoc and connected cards, you might want to take advantage of additional agile planning tools.
 
 Tools useful for Kanban include:
@@ -20,15 +18,11 @@ Tools useful for Kanban include:
 * Grouping cards into swimlanes
 * An intake column that can be used for a backlog
 
-<div class="preview">
-
 Tools useful for Scrum include:
 
 * Workstreams and iteration boards
 * Card list or backlog
 * Iteration metrics
-
-</div>
 
 You can use any or all of these tools in a way that works for you and your team, without committing to a specific agile methodology.
 

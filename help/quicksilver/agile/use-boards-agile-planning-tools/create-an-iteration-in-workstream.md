@@ -9,8 +9,6 @@ feature: Agile
 ---
 # Create an iteration in a workstream
 
-{{highlighted-preview-article-level}}
-
 An iteration is a set amount of time reserved for completing work. Some agile teams may refer to an iteration as a sprint.
 
 ## Access requirements
