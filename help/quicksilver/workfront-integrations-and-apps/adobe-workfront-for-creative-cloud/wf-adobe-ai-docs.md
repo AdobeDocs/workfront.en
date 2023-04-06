@@ -60,7 +60,10 @@ You must have the following access to perform the steps in this article:
 1. Click the **[!UICONTROL Document]** icon ![](assets/documents.png) in the navigation bar. 
 
 1. Click **[!UICONTROL New File]** near the bottom of the plugin.
-1. Choose the **[!UICONTROL Asset Type]** from the drop-down menu.
 1. (Optional) Type a comment in the **[!UICONTROL Updates]** area. 
-1. Click **[!UICONTROL Upload]**, then configure any desired export options based on the asset type chosen above. 
+1. Choose the **[!UICONTROL Asset Type]** from the drop-down menu.
+1. Open the **[!UICONTROL Set Export File Settings]** dialog boxthen configure any desired export options based on the asset type chosen above. 
+
+    ![](assets/file-export-settings.png)
+1. Click **[!UICONTROL Upload]**.
    The document appears in the [!UICONTROL Documents] area in the plugin and the desktop app.

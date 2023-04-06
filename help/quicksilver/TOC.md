@@ -169,6 +169,9 @@ feature-set: Workfront
       * [Workfront Scenario Planner with the 20.3 release - August 14, 2020](product-announcements/product-releases/scenario-planner-release-activity/sp-release-20-3.md)
     * Adobe Workfront Goals release activity {#goals-release}
       * [Adobe Workfront Goals release activity](product-announcements/product-releases/goals-release-activity/goals-release-activity.md)
+      * Goals with 23.1 release {#goals-23-2}
+        * [Adobe Workfront Goals with the 23.2 release](product-announcements/product-releases/goals-release-activity/goals-23-2-release/goals-23-2-release.md)
+        * [Adobe Workfront Goals 23.2 release activity: Week of March 20, 2023](product-announcements/product-releases/goals-release-activity/goals-23-2-release/goals-march.md)
       * Goals with 23.1 release {#goals-23-1}
         * [Adobe Workfront Goals with the 23.1 release](product-announcements/product-releases/goals-release-activity/goals-23-1-release/goals-23-1-release.md)
         * [Adobe Workfront Goals 23.1 release activity: Week of December 5, 2023](product-announcements/product-releases/goals-release-activity/goals-23-1-release/goals-jan.md)
@@ -2440,6 +2443,7 @@ feature-set: Workfront
     * [Configure and use your organization's custom OAuth 2 applications using JWT flow](wf-api/api/oauth-app-jwt-flow.md)
     * [Configure and use your organization's custom OAuth 2 applications using PKCE flow](wf-api/api/oauth-app-pkce-flow.md)    
     * [Deprecation of API-Internal](wf-api/api/deprecation-api-internal.md)
+    * [What's new in API version 16](wf-api/api/new-api-version-16.md)
     * [What's new in API version 15](wf-api/api/new-api-version-15.md)
     * [What's new in API version 14](wf-api/api/new-api-version-14.md)
     * [What's new in API version 13](wf-api/api/new-api-version-13.md)

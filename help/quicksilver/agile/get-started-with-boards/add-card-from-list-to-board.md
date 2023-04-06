@@ -8,8 +8,6 @@ feature: Agile
 ---
 # Add existing tasks or issues to an [!DNL Adobe Workfront] board or workstream
 
-{{highlighted-preview-article-level}}
-
 You can add any task or issue to a board or a workstream in [!DNL Adobe Workfront] from a list or report view, or from the object details.
 
 ## Access requirements
