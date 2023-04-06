@@ -23,7 +23,6 @@ No resources were removed for API version 16
 
 * <!--[AccessLevel (ACSLVL)](#accesslevel-acslvl)-->
 * [Approval (APPROVAL)](#approval-approval)
-* 
 * [CustomerPreferences (CUSTPR)](#customerpreferences-custpr)
 * [ExternalSection (EXTSEC)](#externalsection-extsec)
 * [Hour (HOUR)](#hour-hour)
@@ -588,8 +587,8 @@ A User object represents a person with an account in Workfront that can log in a
   <col/>
   <col/>
   <tbody>
-    <tr>
-      <!--td role="rowheader">Direct fields</td>
+   <!-- <tr>
+      <td role="rowheader">Direct fields</td>
       <td>
         <ul>
           <li>
