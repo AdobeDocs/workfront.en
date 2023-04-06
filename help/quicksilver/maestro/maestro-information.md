@@ -23,3 +23,4 @@ This section contains the following articles:
 * [Delete record types](delete-record-types.md)
 * [Edit records](edit-records.md)
 * [Add record fields](add-record-fields.md)
+* [Manage record views](manage-record-views.md)
