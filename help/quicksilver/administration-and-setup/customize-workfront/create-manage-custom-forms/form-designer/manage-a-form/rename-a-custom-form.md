@@ -11,8 +11,6 @@ role: Admin
 
 # Rename a custom form with the form designer 
 
-{{highlighted-preview-article-level}}
-
 You can rename a custom form any time after it has been created with the form designer.
 
 ## Access requirements
