@@ -10,7 +10,7 @@ exl-id: c06666a7-ab78-4311-8fcb-1d1a68034133
 ---
 # Add a custom form to an object
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers in the Preview environment and for a select group of customers in the Production environment.</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers in the Preview environment and for a select group of customers in the Production environment.</span>-->
 
 You can add an existing custom form to any of the objects listed below. A custom form contains custom fields where you can store information about the object.
 
@@ -109,18 +109,21 @@ drafted for bulk-editing projects. When it releases to Prod for projects, take "
 
 >[!NOTE]
 >
-><span class="preview">For information about adding custom forms to projects in bulk in the Preview environment, see the article [Edit projects](../../manage-work/projects/manage-projects/edit-projects.md)</span>.
+>Adding custom forms to objects is identical for all objects except for projects. 
+>
+>For information about adding custom forms to projects in bulk, see the article [Edit projects](../../manage-work/projects/manage-projects/edit-projects.md).
 
 
 1. Navigate to a list of objects.
 1. Select multiple objects in the list.  
 
-1. Click the **More** menu ![](assets/more-icon.png), then click the **Edit** icon  ![](assets/edit-icon.png), or just click the **Edit** icon ![](assets/edit-icon.png).
+1. Click the **More** menu ![](assets/more-icon.png), then click the **Edit** icon  ![](assets/edit-icon.png), or just click the **Edit** icon ![](assets/edit-icon.png) at the top of the list.
 1. Click **Custom Forms** in the left panel.
 1. Select the form you want to associate with all the selected objects in the **Make a selection** drop-down menu.
    >[!NOTE]
    >
    >If you cannot find the form in the drop-down menu, this means that at least one of the objects has the form already associated with it. Determine which object that is, and eliminate it from your selection, before you can add the form to the remaining objects.
+   
 
 1. Click **Save Changes**.
 

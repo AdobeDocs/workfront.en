@@ -8,8 +8,6 @@ exl-id: 21cf5493-147d-4b8d-8b16-2891eb7e0491
 ---
 # Apply a scorecard to a project and generate an Alignment Score
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers in the Preview environment and for a select group of customers in the Production environment.</span>
-
 You can use a scorecard to measure how well a project aligns with the previously established criteria of a portfolio. A scorecard often reflects the mission, values, and strategic goals of an organization.
 
 For more information about scorecards and how you can create one, see [Create a scorecard](../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md).
@@ -89,6 +87,8 @@ To apply a scorecard to a project:
 
    The scorecard is now associated with the project and the project is scored.
 
+<!--This functionality was removed when we redesigned bulk editing projects with 23.2: 
+
 1. (Conditional) When changes occur in the values of scorecard questions, you must recalculate the scorecard to reflect the new values for the project score. To recaulate the scorecard, do the following: 
 
    1. Go to a list of projects and select all projects in the list. 
@@ -98,8 +98,9 @@ To apply a scorecard to a project:
 
       >[!NOTE]
       >
-      >   <span class="preview">The option to recalculate scorecards has been removed from the Preview environment, when editing projects in bulk. </span>
+      >   The option to recalculate scorecards has been removed from the Preview environment, when editing projects in bulk. 
 
+-->
 
 ## Generate an Alignment Score
 
