@@ -4,7 +4,7 @@ product-area: reporting
 navigation-topic: reporting-elements
 title: Groupings overview in Adobe Workfront
 description: You can add groupings to manage the layout of the information in your reports and lists.
-author: Lisa
+author: Nolan
 feature: Reports and Dashboards
 exl-id: d050372e-c4a0-4c49-b220-5b35334ab8d0
 ---

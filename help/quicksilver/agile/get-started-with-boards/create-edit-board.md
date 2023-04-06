@@ -39,10 +39,6 @@ You must have the following access to perform the steps in this article:
 1. Click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe Workfront], then click **[!UICONTROL Boards]**.
 1. To create a standalone board, click **[!UICONTROL Add board]** in the [!UICONTROL Boards] area. To add a board to a workstream, see [Manage workstreams](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md).
 
-   >[!NOTE]
-   >
-   >Workstreams are available in the Preview environment, and in Production through the early feature opt-in for [!UICONTROL [!DNL Workfront] Boards]. For details, see [Early feature opt-in for Adobe Workfront Boards](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md).
-
 1. Select a template for the board.
 
    | Template | Description |
@@ -50,10 +46,6 @@ You must have the following access to perform the steps in this article:
    | Basic board | Three default columns are provided on the board. You can add new columns and rename or delete the default columns. <p>Three default columns are provided on the board. You can add new columns and rename or delete the default columns. |
    | Kanban board | The following columns are provided on the board: Backlog, New, In Progress, Complete, and On Hold. You can add new columns and rename or delete the default columns.<p>To use the backlog, you must set up filters for the intake column. For information, see [Add an intake column to a board](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md). <p>To review the default policies for each column, click the [!UICONTROL **More** menu] on a column and select [!UICONTROL **Edit**]. You can change any of these pre-set policies. For information, see [Manage board columns](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md). |
    | Retrospective board | The following columns are provided on the board: What went well? What could be improved? Who should we celebrate? What can we do to move faster? You can add new columns and rename or delete the default columns. <p>No column policies are applied. |
-
-   >[!NOTE]
-   >
-   > Board templates are available only through the early feature opt-in for [!DNL Workfront] [!UICONTROL Boards]. Otherwise, you are limited to the basic board.
 
 1. Type a name for the board in the **[!UICONTROL Board]** field and press Enter.
 1. Configure the board as needed.

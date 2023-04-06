@@ -11,8 +11,6 @@ role: Admin
 
 # Organize and preview a form with the form designer
 
-{{highlighted-preview-article-level}}
-
  You can organize a custom form with the form designer.
 
 ## Access requirements
