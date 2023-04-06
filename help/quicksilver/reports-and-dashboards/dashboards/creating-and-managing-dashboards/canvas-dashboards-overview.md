@@ -18,7 +18,6 @@ This feature is in development, and does not yet support:
 * prompted reports
 * distribution through layout templates
 
-
 ## Access Canvas Dashboards
 
 A new Canvas Dashboards option on the left panel of the existing dashboards landing page can be enabled to access Canvas Dashboards. This menu option is toggled off by default and must be turned on to gain access. See instructions below for information on enabling the menu option and navigating to it.
