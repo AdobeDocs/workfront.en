@@ -112,23 +112,23 @@ The following table outlines major features of boards along with their current r
   </tr>
   <tr>
    <td>View-only cards in intake column</td>
-   <td>Partially released</td>
+   <td>Released</td>
   </tr>
   <tr>
    <td>Map Estimation field on card to Story Points field on task</td>
-   <td>Partially released</td>
+   <td>Released</td>
   </tr>
   <tr>
    <td>Create workstreams and add boards to workstreams</td>
-   <td>Partially released</td>
+   <td>Released</td>
   </tr>
   <tr>
    <td>Create iterations</td>
-   <td>Partially released (available in Preview)</td>
+   <td>Released</td>
   </tr>
   <tr>
    <td>Define card list or backlog</td>
-   <td>Partially released (available in Preview)</td>
+   <td>Released</td>
   </tr>
   <tr>
    <td>Import subtasks as checklist items on cards</td>
@@ -136,19 +136,31 @@ The following table outlines major features of boards along with their current r
   </tr>
   <tr>
    <td>Customize display of fields on a card</td>
-   <td>Partially released</td>
+   <td>Released</td>
   </tr>  
   <tr>
    <td>Define a default status for cards moved into columns</td>
-   <td>Partially released</td>
+   <td>Released</td>
   </tr>
   <tr>
    <td>Log hours on connected cards</td>
-   <td>Partially released</td>
+   <td>Released</td>
   </tr>
   <tr>
    <td>Add custom fields to connected cards</td>
-   <td>Partially released (available in Preview)</td>
+   <td>Released</td>
+  </tr>
+  <tr>
+   <td>Define email notifications for Boards</td>
+   <td>Planned</td>
+  </tr>
+  <tr>
+   <td>Migrate legacy Kanban cards to Boards</td>
+   <td>Planned</td>
+  </tr>
+  <tr>
+   <td>Create dynamic boards</td>
+   <td>Planned</td>
   </tr>
  </tbody> 
 </table>

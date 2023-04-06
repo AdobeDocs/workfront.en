@@ -11,8 +11,6 @@ role: Admin
 
 # Add or delete object types from an existing custom form with the form designer
 
-{{highlighted-preview-article-level}}
-
 You can add or delete object types from an existing custom form with the form designer. 
 
 ## Access requirements

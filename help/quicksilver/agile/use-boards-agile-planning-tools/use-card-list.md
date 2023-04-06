@@ -9,8 +9,6 @@ feature: Agile
 ---
 # Use the card list
 
-{{highlighted-preview-article-level}}
-
 You can create a card list on a workstream and add the cards to iterations.
 
 The card list can function as a backlog of work for the workstream.
