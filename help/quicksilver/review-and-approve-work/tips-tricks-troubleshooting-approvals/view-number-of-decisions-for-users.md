@@ -19,7 +19,7 @@ To view the number of decisions for a user:
 
 1. Click the **Main Menu** icon in the upper-right corner of Adobe Workfront, then click **Users**. 
 
-1. Open the **Views** area, then choose **Licenses**. 
+1. Open the **Views** area, then choose the **Licenses** view. 
 
 1. Find the coloumn **Approvals this month** to view the number of decsions each user has made in the month.
 
