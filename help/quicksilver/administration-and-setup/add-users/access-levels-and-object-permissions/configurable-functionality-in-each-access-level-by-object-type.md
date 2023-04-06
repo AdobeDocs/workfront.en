@@ -1,20 +1,20 @@
 ---
-title: Configurable access to functionality for each object type
-description: This article explains what you can allow as an Adobe Workfront administrator for each object type, in each access level. It also explains what the default configuration is for each type of access level.
-author: Caroline
+title: Configurable legacy access to functionality for each object type
+description: This article explains what you can allow as an Adobe Workfront administrator for each object type, in each legacy access level. It also explains what the default configuration is for each type of legacy access level.
+author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: 94e0b205-140c-41c9-bb5a-f89b4c3aaea0
 ---
-# Configurable access to functionality for each object type
+# Configurable legacy access to functionality for each object type
 
-This article explains what you can allow as an Adobe Workfront administrator for each object type, in each access level. It also explains what the default configuration is for each type of access level.
+This article explains what you can allow as an Adobe Workfront administrator for each object type, in each legacy access level. It also explains what the default configuration is for each type of legacy access level.
 
 For information about all functionality available for an object type in each access level, see [Functionality available for each object type](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md).
 
 ## Projects
 
-In each access level, you can configure the following options for projects:
+In each legacy access level, you can configure the following options for projects:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -77,7 +77,7 @@ In each access level, you can configure the following options for projects:
 
 ## Tasks
 
-In each access level, you can configure the following options for tasks:
+In each legacy access level, you can configure the following options for tasks:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -143,7 +143,7 @@ In each access level, you can configure the following options for tasks:
 
 ## Issues
 
-In each access level, you can configure the following options for issues:
+In each legacy access level, you can configure the following options for issues:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -221,7 +221,7 @@ In each access level, you can configure the following options for issues:
 
 ## Portfolios
 
-In each access level, you can configure the following options for portfolios:
+In each legacy access level, you can configure the following options for portfolios:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -277,7 +277,7 @@ In each access level, you can configure the following options for portfolios:
 
 ## Programs
 
-In each access level, you can configure the following options for programs:
+In each legacy access level, you can configure the following options for programs:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -333,7 +333,7 @@ In each access level, you can configure the following options for programs:
 
 ## Reports, dashboards, and calendars
 
-In each access level, you can configure the following options for reports, dashboards, and calendars:
+In each legacy access level, you can configure the following options for reports, dashboards, and calendars:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -407,7 +407,7 @@ In each access level, you can configure the following options for reports, dashb
 
 ## Filters, views, and groupings
 
-In each access level, you can configure the following options for filters, views, and groupings:
+In each legacy access level, you can configure the following options for filters, views, and groupings:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -484,7 +484,7 @@ In each access level, you can configure the following options for filters, views
 
 ## Documents
 
-In each access level, you can configure the following options for documents:
+In each legacy access level, you can configure the following options for documents:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -567,7 +567,7 @@ In each access level, you can configure the following options for documents:
 
 ## Users
 
-In each access level, you can configure the following options for users:
+In each legacy access level, you can configure the following options for users:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -623,7 +623,7 @@ In each access level, you can configure the following options for users:
 
 ## Teams
 
-In each access level, you can configure the following options for teams:
+In each legacy access level, you can configure the following options for teams:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -705,7 +705,7 @@ In each access level, you can configure the following options for teams:
 
 ## Templates
 
-In each access level, you can configure the following options for templates:
+In each legacy access level, you can configure the following options for templates:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -762,7 +762,7 @@ In each access level, you can configure the following options for templates:
 
 ## Financial data
 
-In each access level, you can configure the following options for financial data:
+In each legacy access level, you can configure the following options for financial data:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -827,7 +827,7 @@ In each access level, you can configure the following options for financial data
 
 ## Resource Management
 
-In each access level, you can configure the following options for Resource Management:
+In each legacy access level, you can configure the following options for Resource Management:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -885,7 +885,7 @@ In each access level, you can configure the following options for Resource Manag
 
 ## Scenario Planner area
 
-The default setting for all access levels is No Access. A Workfront administrator can change this to View or Edit access for any Planner, Worker, and Reviewer access level. 
+The default setting for all legacy access levels is No Access. A Workfront administrator can change this to View or Edit access for any Planner, Worker, and Reviewer access level. 
 
 <!--
 DRAFTED IN FLARE:
@@ -899,6 +899,6 @@ Alina says: This will change overtime for some of the access levels, but right n
 
 ## Workfront Goals area
 
-All six of the default access levels (and all 4 of the license types) can edit and view Workfront Goals.
+All six of the default legacy access levels (and all 4 of the license types) can edit and view Workfront Goals.
 
 Edit is the default option.

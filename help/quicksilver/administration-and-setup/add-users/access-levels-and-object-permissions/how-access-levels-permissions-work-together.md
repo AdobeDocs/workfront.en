@@ -11,7 +11,7 @@ feature: System Setup and Administration
 role: Admin
 exl-id: 594e002c-19e3-4baa-b5f8-223c3fdf8ca8
 ---
-# How access levels and permissions work together
+# How legacy access levels and permissions work together
 
 The Adobe Workfront administrator determines what access level each user should have. That access level defines what users can see and do with object types and areas in the system.
 
@@ -25,11 +25,11 @@ For example, if your access level says that you can create tasks, but the permis
 
 This article explains how this combination works.
 
-## Access level
+## Legacy access level
 
 The access level assigned to each user by a Workfront administrator is required for logging in to Workfront.
 
-The default access levels are:
+The default legacy access levels are:
 
 * System Administrator (attached to the Plan license)
 * Planner (attached to the Plan license)

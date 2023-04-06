@@ -406,15 +406,21 @@ feature-set: Workfront
       * [View user login information](administration-and-setup/add-users/create-and-manage-users/view-user-login-info.md)
       * [Adobe Admin Console](administration-and-setup/add-users/create-and-manage-users/admin-console.md)
     * How access levels work {#access-levels}
-      * [How access levels work](administration-and-setup/add-users/access-levels-and-object-permissions/access-levels.md)
-      * [Access levels overview](administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md)
-      * [Licenses overview](administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md)
-      * [Access levels and permissions](administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md)
-      * [Access to objects by license type](administration-and-setup/add-users/access-levels-and-object-permissions/access-to-objects-and-areas-by-license-type.md)
+      * [How access levels work](administration-and-setup/add-users/how-access-levels-work/access-levels-toc.md)
+      * [Access levels overview](administration-and-setup/add-users/how-access-levels-work/access-level-overview.md)
+      * [Licenses overview](administration-and-setup/add-users/how-access-levels-work/licenses-overview.md)
+      * [Access to objects and areas by license type](administration-and-setup/add-users/how-access-levels-work/access-to-objects-areas-license-types.md)
+      * [Functionality available for each object type](administration-and-setup/add-users/how-access-levels-work/functionality-available-for-objects.md)
+    * How legacy access levels work {#legacy-access-levels}
+      * [How access legacy levels work](administration-and-setup/add-users/access-levels-and-object-permissions/access-levels.md)
+      * [Legacy access levels overview](administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md)
+      * [Legacy licenses overview](administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md)
+      * [Legacy access levels and permissions](administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md)
+      * [Legacy access to objects by license type](administration-and-setup/add-users/access-levels-and-object-permissions/access-to-objects-and-areas-by-license-type.md)
       * [Functionality for each object type](administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md)
-      * [Configurable access for each  object type](administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md)
-      * [Built-in access levels](administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md)
-      * [List users' access levels and licenses](administration-and-setup/add-users/access-levels-and-object-permissions/list-access-levels-and-licenses-for-your-users.md)
+      * [Configurable legacy access for each  object type](administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md)
+      * [Built-in legacy access levels](administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md)
+      * [List users' legacy access levels and licenses](administration-and-setup/add-users/access-levels-and-object-permissions/list-access-levels-and-licenses-for-your-users.md)
     * Configure access to Workfront {#configure-access}
       * [Configure access](administration-and-setup/add-users/configure-and-grant-access/configure-access.md)
       * [Create or modify custom access levels](administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)
@@ -1797,6 +1803,9 @@ feature-set: Workfront
       * [Edit the Proof Permission Profile field in Bulk](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/edit-proof-profile-bulk.md)
       * [Disable sharing proof via public URL or embed code](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/disable-public-proofs.md)
       * [FAQ: proofing within Adobe Workfront - US to EMEA migration](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/faq-proofing-in-wf-us-to-emea-migration.md)
+  * Tips, tricks, and troubleshooting for approvals {#ttt-approvals}
+    * [Tips, tricks, and troubleshooting for approvals](review-and-approve-work/tips-tricks-troubleshooting-approvals/tips-tricks-troubleshooting-approvals.md)
+    * [View the number of decisions for all users](review-and-approve-work/tips-tricks-troubleshooting-approvals/view-number-of-decisions-for-users.md)
 * Timesheets {#timesheets}
   * [Timesheets](timesheets/timesheets-all.md)
   * Timesheet details {#details}
