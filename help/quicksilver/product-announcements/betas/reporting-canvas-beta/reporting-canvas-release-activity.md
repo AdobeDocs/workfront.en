@@ -68,7 +68,7 @@ For general information on the Reporting Canvas beta, see [Reporting Canvas beta
 * #Value! is shown in cell when a calculation can not be performed on a per row basis
 * Added validation when dragging and dropping certain data types into certain function in Field builder
 
-# Planned features
+## Planned features
 
 In developing Reporting Canvas, we have radically redesigned some features—and created some new ones from the ground up—for the purpose of streamlining report making. The following table outlines major features of Reporting Canvas in comparison to existing reporting tools, as well as their current release status:
 
