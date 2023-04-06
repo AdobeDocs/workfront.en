@@ -12,7 +12,7 @@ exl-id: c4c0d74f-ac50-4fc5-89d6-28f004c25b29
 <!--take "Beta" references out when we remove the beta-->
 
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.-->
 
 >[!NOTE]
 >
@@ -20,15 +20,16 @@ exl-id: c4c0d74f-ac50-4fc5-89d6-28f004c25b29
 >For more information about the new updating experience, see [New commenting experience](../updating-work-items-and-viewing-updates/unified-commenting-experience.md). 
 >
 >You can access the new design for the following objects:
-> * <span class="preview">Issues, when enabling the commenting Beta. </span>
+> * Issues, when enabling the commenting Beta.
 >
->     <span class="preview">This functionality is available only for the Updates section of issues, and it is not available for the following areas:</span>
+>     This functionality is available only for the Updates section of issues, and it is not available for the following areas:
 >
->     * <span class="preview">Home</span>
->     * <span class="preview">Summary panel in lists</span>
->     * <span class="preview">Summary panel in timesheets</span>
+>     * Home
+>     * Summary panel in lists
+>     * Summary panel in timesheets
 >
 > * Goals
+>
 >   The new commenting experience is the default for goals. You must have an additional license to access Workfront Goals. For more information, see [Requirements to uses Workfront Goals](../../workfront-goals/goal-management/access-needed-for-wf-goals.md). 
 >
 >    For information about commenting on goals, see [Manage goal comments in Adobe    Workfront Goals](../../workfront-goals/goal-management/manage-goal-comments.md). 
@@ -122,8 +123,6 @@ Tagging others in an update differs depending on which experience and which obje
    ![](assets/tagging-transparency-350x192.png)
 
    For information about the additional functionality that is available when updating a work item, see [Update work](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
-
-<div class="preview">
 
 ### Tag others on updates in the commenting Beta experience
 

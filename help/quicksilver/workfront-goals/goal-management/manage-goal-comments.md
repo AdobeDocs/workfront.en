@@ -11,7 +11,7 @@ exl-id: 6cf2d2d2-5ba5-40f2-a803-01359c338541
 
 <!--consider retiring this article when goals and all objects are in parity - after the new commenting experience goes to production GA-->
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span>-->
 
 You can add comments to all goals you can view in Adobe Workfront Goals.
 
@@ -134,27 +134,22 @@ This opens the goal list.
    >Navigating away from the Updates section before you finish typing and submitting a comment keeps the comment on the page in draft mode even after you log off and log back on. Drafted comments are only visible to the user entering them.
 
 1. (Optional) In the **Tag people or teams** area, start typing the name or the email of a user, or a team that you would like to include in this comment, then select it when it displays in the list. 
-1. <span class="preview">(Optional) To edit a comment, click the **More** menu ![](assets/more-icon.png) to the right of the Like icon, then click **Edit**. </span>
-1. <span class="preview">Edit the information in the comment, or remove any of the tagged users. </span>
-   <span class="preview">You can edit your comment within 15 from submitting it. An "Edited" indicator is added to the left of the date stamp that displays when the comment was updated.</span> 
+1. (Optional) To edit a comment, click the **More** menu ![](assets/more-icon.png) to the right of the Like icon, then click **Edit**. 
+1. Edit the information in the comment<<!--, or remove any of the tagged users-->.
+   You can edit your comment within 15 from submitting it. An "Edited" indicator is added to the left of the date stamp that displays when the comment was updated.
 
-   <span class="preview">![](assets/edited-tag-on-comment-unified-commenting.png)</span>
+   ![](assets/edited-tag-on-comment-unified-commenting.png)
 
    >[!TIP]
    >
-   >   <span class="preview">An email is generated to notify users of your update only when you submit the original update. No email is generated after you edited your update.</span>
+   > An email is generated to notify users of your update only when you submit the original update. No email is generated after you edited your update.
 
-   <!-- <div class="preview">
    1. (Optional) Click the **More** menu ![](assets/more-icon.png), then click any of the following options to copy information from a comment to the clipboard:
 
-      * **Copy update link** to copy the link of an update, without the replies.
-      * **Copy thread link** to copy the link of an update, including the replies.
+      * **Copy link** to copy the link of an update, without the replies.
       * **Copy body text** to copy the text of an update. 
 
          For more information, see [Update work](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). 
-
-   </div>
-   -->
 
 1. Click **Submit**. 
 
@@ -167,6 +162,7 @@ This opens the goal list.
       >The "New" indicator displays only when both the user that entered a new update as well as the user who is currently entering an update are using the new commenting experience. 
       >![](assets/real-time-new-red-indicator-unified-commenting.png)
 
+1. (Optional) Click the **More** menu ![](assets/more-icon.png) to the right of a comment, then click **Delete** to delete a comment you added. 
 1. (Optional) Click **Reply** to reply to an existing comment, then follow the steps 5-9 above. <!--insure this stays accurate-->
 1. (Optional) Click the **Like** icon![](assets/like-icon.png) to like a comment that someone else added. The icon updates with the number of likes.
 1. (Optional) To add rich text formatting to your update, use any attributes on the Rich Text toolbar as you type. For more information, see [Update work](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). 
