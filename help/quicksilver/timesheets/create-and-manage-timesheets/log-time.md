@@ -391,10 +391,6 @@ For more information, see [Summary overview](../../workfront-basics/the-new-work
 
 ### Boards {#boards}
 
->[!NOTE]
->
->This feature is available only through the early feature opt-in for Workfront Boards.
-
 You can log time on connected cards on a Workfront board. This is the same process as logging time on a task or issue, and the hours logged on the card are saved on the connected task or issue.
 For more information, see [Use connected cards on boards](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
 
