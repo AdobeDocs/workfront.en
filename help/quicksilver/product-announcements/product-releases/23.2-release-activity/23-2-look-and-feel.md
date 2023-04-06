@@ -16,7 +16,7 @@ For a list of all changes available with the 23.2 release, see [23.2 Release ove
 
 >[!NOTE]
 >
->Preview release: April 4, 2023; Planned Production release: April 18, 2023
+>Preview release: April 4, 2023; Planned Production release: April 20, 2023
 
 We have updated the Drafts list in the Requests area to make it consistent with more recent lists in Workfront.
 Some of the updates include the following:

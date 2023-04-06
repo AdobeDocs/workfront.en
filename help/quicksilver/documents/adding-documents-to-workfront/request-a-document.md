@@ -52,7 +52,7 @@ You must have the following:
 
    >[!NOTE]
    >
-   >If you have the [Adobe Workfront licenses overview](../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md) enabled on your account, you can send a request to any email address. There is a setting in the [Configure system security preferences](../../administration-and-setup/manage-workfront/security/configure-security-preferences.md) that determines whether or not these external email users need to create a password before interacting with Workfront.&nbsp;
+   >If you have the [Legacy licenses overview](../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md) enabled on your account, you can send a request to any email address. There is a setting in the [Configure system security preferences](../../administration-and-setup/manage-workfront/security/configure-security-preferences.md) that determines whether or not these external email users need to create a password before interacting with Workfront.&nbsp;
 
 1. Describe the reason you are requesting the document.
 1. Click **Send Request**.

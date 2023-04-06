@@ -11,8 +11,6 @@ role: Admin
 
 # Design a form from a copy with the form designer
 
-{{highlighted-preview-article-level}}
-
 You can design a new custom form that is based on an existing one. You can attach custom forms to different Workfront objects to capture data about those objects.
 
 ## Access requirements
