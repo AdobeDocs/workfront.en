@@ -22,7 +22,9 @@ For example, if your organization has a web-based document repository, wiki, or 
 
 >[!IMPORTANT]
 >
->Dashboard pages are no longer supported as embeded external pages in Dashboards. Specifically, the following Workfront.com subdomains are no longer supported:
+>Dashboard pages are no longer supported as embeded external pages in Dashboards. While existing dashboards will not be automatically modified to remove these external pages, any modification to a dashboard that includes such a reference will not be able to be saved until the reference is removed or changed.
+>
+>Specifically, the following Workfront.com subdomains are no longer supported:
 >
 >* /dashboards​
 >* /dashboard/:ID​
@@ -38,6 +40,8 @@ For example, if your organization has a web-based document repository, wiki, or 
 >* /requests/:ID/content-dashboard__:dashboardID​
 >* /group/:ID/content-dashboard__:dashboardID​
 >* /billingrecord/:ID/content-dashboard__:dashboardID
+>
+>As an alternative solution, consider including a list report in your dashboard as explained in [Add a report to a Dashboard](/help/quicksilver/reports-and-dashboards/dashboards/creating-and-managing-dashboards/add-report-dashboard.md)
 
 ## Access requirements
 

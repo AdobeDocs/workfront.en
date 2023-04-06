@@ -8,7 +8,7 @@ feature: Product Announcements
 
 # 23.2 Release overview
 
-This page provides information about functionality that is included in the 23.2 release scheduled for April 2023. 
+This page provides information about functionality that is included in the 23.2 release scheduled for the week of April 3, 2023. 
 
 The enhancements on this page are available in the Preview environment. This page will be updated with additional enhancements as the 23.2 release nears its planned Production release.
 
@@ -110,7 +110,23 @@ In lieu of a release webinar, we invite you to register for Adobe Summit to watc
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Iteration functionality available in Adobe Workfront Boards</a><span style="color: #ff0000;"> New in Preview!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Add tasks and issues from object details to a Workfront board or workstream</a><span style="color: #ff0000;"> New in Preview!</span></p>
+                        <p>You can now add existing tasks or issues to a Workfront board or workstream card list directly from the object details. Any items you add to a board will become connected cards, and any items added to a workstream are added to the card list as unplanned cards.</p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                        <ul>
+                            <li>
+                                <p>Preview release: March 23, 2023<br /></p>
+                            </li>
+                            <li>
+                                <p>Production release: With the 23.2 release</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr> 
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Iteration functionality available in Adobe Workfront Boards</a></p>
                         <p>Several new features available in Workfront Boards make it possible to use agile Scrum functionality. These features include:
                         <ul>
                         <li>Workstreams for grouping boards related to the same team, and collaborating on work</li>
@@ -132,7 +148,7 @@ In lieu of a release webinar, we invite you to register for Adobe Summit to watc
                 </tr> 
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Add tasks and issues from lists and reports to a workstream card list</a><span style="color: #ff0000;"> New in Preview!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Add tasks and issues from lists and reports to a workstream card list</a></p>
                         <p>You can now add existing tasks or issues to a workstream in Workfront Boards directly from a list or report view. Any items you add to the workstream are added to the card list as unplanned cards.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
@@ -148,7 +164,7 @@ In lieu of a release webinar, we invite you to register for Adobe Summit to watc
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Add custom fields to cards on a board</a><span style="color: #ff0000;"> New in Preview!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Add custom fields to cards on a board</a></p>
                         <p>You can now include custom fields on Adobe Workfront Boards. The field must already be created in Workfront. You can't design and create new custom fields within a board.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
@@ -478,7 +494,27 @@ In lieu of a release webinar, we invite you to register for Adobe Summit to watc
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">New commenting experience for issues Beta<span style="color: #ff0000;"> New in Preview!</span></a>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">New to the Workfront for Creative Cloud plugins</a>
+                        <p>We've added the following changes to the Workfront for Creative Cloud plugins:
+                        <ul>
+                        <li>The plugin now notifies you when a task has a predecessor</li>
+                        <li>Korean is now a supported language</li>
+                        </ul> </p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                        <ul>
+                            <li>
+                                <p>Preview release: N/A<br /></p>
+                            </li>
+                            <li>
+                                 <p><span class="preview">Production release: March 23, 2023 </span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">New commenting experience for issues Beta</a>
                         <p>An update to the commenting experience in Adobe Workfront is currently in development. This update includes a new interface, new features, and improved performance in the Updates section of some objects. </p>
                         <p>This new experience will eventually unify commenting across Adobe Workfront and beyond, throughout the Adobe Experience Cloud. </p>
                     </td>
@@ -583,7 +619,7 @@ There are no Workfront Proof updates at this point in the release. This area wil
 
 ### Workfront Goals enhancements
 
-There are no Workfront Goals updates at this point in the release. This area will be updated when updates are available.
+New features coming to Workfront Goals release with the 23.2 release. For information about these new features now available in Preview, see [Adobe Workfront Goals with the 23.2 release](/help/quicksilver/product-announcements/product-releases/goals-release-activity/goals-23-2-release/goals-23-2-release.md).
 
 ### API version 15
 

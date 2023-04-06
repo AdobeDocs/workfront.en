@@ -24,7 +24,7 @@ The plugin supports the following languages:
 * Portuguese 
 * Simplified Chinese
 * Traditional Chinese
-<!-- * Korean -->
+* Korean 
 
 >[!NOTE]
 >
@@ -68,17 +68,11 @@ You must have the following access to perform the steps in this article:
 
 To install the [!DNL Adobe Workfront for design and video] plugin:
 
-1. Open the [!DNL Adobe Creative Cloud] app.
-1. Click the **[!UICONTROL Marketplace]** tab near the top of the window.
-1. In the **[!UICONTROL Search All Plugins]** box, type *Workfront*, then press **[!UICONTROL Enter]**.
-
-   ![](assets/adobe-marketplace-350x218.png)
-
-1. When [!DNL Adobe Workfront for design and video] plugin appears in the search results, click **[!UICONTROL Get]**.
+1. Go to the [Adobe Workfront for Design and Video install page](https://adobe.com/go/cc_plugins_discover_plugin?pluginId=108938&workflow=share) on the Adobe Exchange.
+1. In the dialog that appears, click **Open [!DNL Adobe Creative Cloud] desktop app**.
+1. Once [!DNL Adobe Creative Cloud] plugin manager opens, click **[!UICONTROL Install]**.
 1. Read the information in the dialog box, then click **[!UICONTROL OK]**.
-1. Once the plugin in installed, open the [!DNL Creative Cloud] application you need and locate the Workfront plugin in the plugin panel.
-
-   <!-- new screen -->
+1. Once the plugin in installed, open the [!DNL Creative Cloud] app you need and locate the Workfront plugin in the plugin panel.
 
 1. Continue to the following section for information on how to open the plugin.
 
@@ -112,9 +106,10 @@ To install the [!DNL Adobe Workfront for design and video] plugin:
 
    >[!TIP]
    >
-   >To find your domain, open a browser, navigate to your [!DNL Workfront] instance, and copy the first part of the URL:  
-   >![](assets/domain-350x50.png)   >
+   >* To find your domain, open a browser, navigate to your [!DNL Workfront] instance, and copy the first part of the URL:  
+   >![](assets/domain-350x50.png)   
    >
+   > * If your Workfront instance is integrated with Experience Cloud, ask your admin to provide you with the Workfront domain found under Product > Workfront in the Admin Console.
 
 1. In the browser, enter your [!DNL Workfront] credentials, then click **[!UICONTROL Log in]**. If your company uses a single sign-on (SSO), you'll be directed to your SSO provider's page to log in.
 

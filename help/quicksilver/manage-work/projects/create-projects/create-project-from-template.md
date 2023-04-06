@@ -2,20 +2,26 @@
 product-area: projects;templates
 navigation-topic: create-projects
 title: Create a project using a template
-description: You can use templates as a framework to create new projects. If you have projects that repeat often, using templates for the general timeline of the new project saves you from having to build the same projects repeatedly.
+description: You can use templates as a framework to create projects. If you have projects that repeat often, using templates for the general timeline of the new project saves you from having to build the same projects repeatedly.
 author: Alina
 feature: Work Management
 exl-id: 622cbfe0-b8c0-4045-bef2-9e21d45bfda0
 ---
 # Create a project using a template
 
-You can use templates as a framework to create new projects. If you have projects that repeat often, using templates for the general timeline of the new project saves you from having to build the same projects repeatedly.
+You can use templates as a framework to create projects. If you have projects that repeat often, using templates for the general timeline of the new project saves you from having to build the same projects repeatedly.
 
-Templates provide you with a way to capture all of the repeatable processes, information, and settings associated with your projects. All of the information associated with a template is transferred to the project. This includes tasks, assignments, durations, documents, financial details, risks, and custom forms.
+Templates provide you with a way to capture repeatable processes, information, and settings associated with your projects. The information associated with a template is transferred to the project. This includes tasks, assignments, durations, documents, financial details, risks, and custom forms.
 
 >[!TIP]
 >
->The status of a new project created from a template corresponds with the status defined by your Workfront administrator in the main Project Preferences area or by a group administrator (or Workfront administrator) in the Project Preferences area for a group. For information about configuring project preferences, see [Configure system-wide project preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) or [Configure project preferences for a group](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md).
+>Workfront defines the Group and Status of the new project as follows:
+>
+>* The default status of a new project created from a template corresponds with the status defined by your Workfront administrator in the main Project Preferences area or by a group administrator (or Workfront administrator) in the Project Preferences area for a group. For information about configuring project preferences, see [Configure system-wide project preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) or [Configure project preferences for a group](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md). 
+>
+>* The Group of the new project is the Group of the template. If the template is not associated with a Group, then the Group of the project is the Home Group of the user who creates the project.
+>
+>* The statuses available for a new project match the statuses of the Group of the project which is either the Group of the template, or the Home Group of the user who creates the project. 
 
 You have the following options for creating a project from a template:
 
@@ -82,7 +88,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>View permissions to a template</p> <p>When you create a project you automatically receive Manage permissions to the project </p> <p> For information about project permissions, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Share a project in Adobe Workfront</a>.</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+   <td> <p>View permissions to a template</p> <p>When you create a project, you automatically receive Manage permissions to the project </p> <p> For information about project permissions, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Share a project in Adobe Workfront</a>.</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
