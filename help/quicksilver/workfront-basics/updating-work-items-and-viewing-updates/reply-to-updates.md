@@ -11,7 +11,7 @@ exl-id: a8271f3c-7a08-4eb3-aaff-deb250f5af73
 
 <!--take "Beta" references out when we remove the beta-->
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.-->
 
 >[!NOTE]
 >
@@ -19,15 +19,16 @@ exl-id: a8271f3c-7a08-4eb3-aaff-deb250f5af73
 >For more information about the new updating experience, see [New commenting experience](../updating-work-items-and-viewing-updates/unified-commenting-experience.md). 
 >
 >You can access the new design for the following objects:
-> * <span class="preview">Issues, when enabling the commenting Beta. </span>
+> * Issues, when enabling the commenting Beta.
 >
->     <span class="preview">This functionality is available only for the Updates section of issues, and it is not available for the following areas:</span>
+>     This functionality is available only for the Updates section of issues, and it is not available for the following areas:
 >
->     * <span class="preview">Home</span>
->     * <span class="preview">Summary panel in lists</span>
->     * <span class="preview">Summary panel in timesheets</span>
+>     * Home
+>     * Summary panel in lists
+>     * Summary panel in timesheets
 >
 > * Goals
+>
 >   The new commenting experience is the default for goals. You must have an additional license to access Workfront Goals. For more information, see [Requirements to uses Workfront Goals](../../workfront-goals/goal-management/access-needed-for-wf-goals.md). 
 >
 >    For information about commenting on goals, see [Manage goal comments in Adobe    Workfront Goals](../../workfront-goals/goal-management/manage-goal-comments.md). 
@@ -89,8 +90,6 @@ Replying to a comment or reply differs depending on which experience and which o
 1. (Optional) Use formatting, emojis, include links, or images as explained in the section "Use Rich Text in a Workfront update" in the article [Update work](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 1. Click **Reply** to save the reply.
 
-<div class="preview">
-
 ### Reply to a comment when using the commenting Beta experience
 
 1. Go to the object to which you want to add a reply.
@@ -101,12 +100,9 @@ Replying to a comment or reply differs depending on which experience and which o
 
 1. Start typing your reply and use any additional options from the Rich Text toolbar. For information about using Rich Text, see the "Use Rich Text in a Workfront update" section in [Update work](../updating-work-items-and-viewing-updates/update-work.md). 
 
-<!--this is not yet available in beta, leave drafted:  
-1. (Optional) To include text from a previous update in your reply, click the **More** menu next to the update or reply you want to quote, then click **Quote Reply**. Text from the previous update appears in the input area, marked with a gray line. -***********close the draft here************-->
-
 1. Click **Submit** to save the reply.
-</div>
 
+1. (Optional) Click the **More** menu ![](assets/more-menu.png) next to the update for more options to manage the  reply. For more information, see [Update work](../updating-work-items-and-viewing-updates/update-work.md). 
 
 
 ## Reply to an update via email notification

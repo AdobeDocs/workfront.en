@@ -15,6 +15,8 @@ You can convert an issue to a new project or you can convert it to a project usi
 
 For general information about converting issues, see [Overview of converting issues in Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issues.md).
 
+When creating a project from an issue, some of the fields on the project populate from other objects. For more information, see the "New project default settings" section in the article [Create a project](../../../manage-work/projects/create-projects/create-project.md). 
+
 ## Access requirements
 
 You must have the following access to perform the steps in this article:
@@ -74,7 +76,7 @@ You can convert an issue to a blank project or convert an issue to a project usi
      >[!TIP]
      >   
      >* If the issue was created using a request queue, the new project inherits the request queue's Group. 
-     >* If the issue was created by adding it to the Issues section of the project, the new project inherits the Group if the issue's project.
+     >* If the issue was created by adding it to the Issues section of the project, the new project inherits the Group of the issue's project.
 
    * To convert an issue to a project using a template, do one of the following:
 
@@ -136,7 +138,7 @@ You can convert an issue to a blank project or convert an issue to a project usi
 
    1. (Optional and conditional) Click [!UICONTROL **Options**] in the left panel, then select from the options that are available:
 
-      * [!UICONTROL **Keep the original issue and tie its resolution to the this project**]
+      * [!UICONTROL **Keep the original issue and tie its resolution to this project**]
 
         When deselected, the original issue is deleted.
 

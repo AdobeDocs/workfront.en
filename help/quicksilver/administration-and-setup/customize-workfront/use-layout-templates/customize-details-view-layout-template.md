@@ -11,7 +11,7 @@ exl-id: 1474e1dd-9b10-476e-9526-6577efa8d1c2
 ---
 # Customize the Details view using a layout template
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers in the Preview environment and for a select group of customers in the Production environment.</span>-->
 
 As an Adobe Workfront administrator, you can use a layout template to determine what information appears when a user clicks the Details icon ![](assets/project-details-icon.png) in the left panel while viewing a task, issue, document, program, or portfolio.
 
@@ -32,9 +32,9 @@ The changes you make to the Details view for an object also determine the availa
   ![](assets/edit-task-screen.png)
 
 
-* <span class="preview">"Edit objects" screens when editing projects in bulk, like Edit Projects</span>
+* "Edit objects" screens when editing objects in bulk. Currently this is supported for editing projects in bulk.
 
-  <span>![](assets/customize-edit-projects-in-bulk-box-with-layout-template.png)</span>
+  ![](assets/customize-edit-projects-in-bulk-box-with-layout-template.png)
   
 
 * Summary ![](assets/summary-panel-icon.png) panel for lists of tasks and issues
