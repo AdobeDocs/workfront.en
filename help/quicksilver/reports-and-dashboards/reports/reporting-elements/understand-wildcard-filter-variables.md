@@ -4,7 +4,7 @@ product-area: reporting
 navigation-topic: reporting-elements
 title: Wildcard filter variables
 description: By using wildcards in filters, you can reference a generic user or date instead of a specific user or date. In this way, the elements you build are dynamic and the results change depending on the context in which they are used.
-author: Lisa
+author: Nolan
 feature: Reports and Dashboards
 exl-id: f99cd99e-c4c1-471d-8428-c680f0e73336
 ---

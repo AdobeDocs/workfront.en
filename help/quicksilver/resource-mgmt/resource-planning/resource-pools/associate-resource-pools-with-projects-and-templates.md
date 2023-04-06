@@ -15,7 +15,7 @@ exl-id: bbfe8257-ff02-4f06-9763-3f2ae4871c9d
 Also - take out all the references to Preview and Prod at prod final
 -->
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers in the Preview environment and for a select group of customers in the Production environment.</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers in the Preview environment and for a select group of customers in the Production environment.</span>-->
 
 
 <!--
@@ -98,9 +98,9 @@ To associate resource pools with several projects in bulk:
 
    >[!NOTE]
    >
-   >* In the Production environment, when you edit projects or templates in bulk, only the resource pools that are common to all the projects or templates selected appear in this field. If the projects selected have no shared resource pools, this field will be empty. The resource pools you specify here will overwrite the individual resource pools of the projects or templates.
+   >* When you edit templates in bulk, only the resource pools that are common to all the templates selected appear in this field. If the templates selected have no shared resource pools, this field is empty. The resource pools you specify here overwrite the individual resource pools of the projects or templates.
    >
-   >* <span class="preview">In the Preview environment, when you edit projects in bulk, there is a "Multiple values" indicator if the selected projects have different resource pools. If you add resource pools in bulk, all the pools will be added to the selected project, overwriting the original resource pools.</span> 
+   >* When you edit projects in bulk, there is a "Multiple values" indicator if the selected projects have different resource pools. If you add resource pools in bulk for projects, all the pools are added to the selected project, overwriting the original resource pools.</span> 
 
     <span class="preview">![add_resource_pools_to_multiple_projects.png](assets/add-resource-pools-to-multiple-projects-350x358.png)</span>
 

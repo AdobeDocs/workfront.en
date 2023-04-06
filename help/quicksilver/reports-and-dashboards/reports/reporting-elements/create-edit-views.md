@@ -3,7 +3,7 @@ product-area: reporting
 navigation-topic: reporting-elements
 title: Create or edit views in Adobe Workfront
 description: You can customize the type of information you display on the screen using views. You can use several types of views in Adobe Workfront.
-author: Lisa
+author: Nolan
 feature: Reports and Dashboards
 exl-id: 8fcd6320-c939-4195-8972-5c31575f78cb
 ---
