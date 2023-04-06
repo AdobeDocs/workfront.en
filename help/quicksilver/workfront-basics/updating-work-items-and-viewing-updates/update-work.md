@@ -11,7 +11,7 @@ exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
 
 <!--take "Beta" references out when we remove the beta-->
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> 
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> -->
 
 >[!NOTE]
 >
@@ -19,15 +19,16 @@ exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
 >For more information about the new updating experience, see [New commenting experience](../updating-work-items-and-viewing-updates/unified-commenting-experience.md). 
 >
 >You can access the new design for the following objects:
-> * <span class="preview">Issues, when enabling the commenting Beta. </span>
+> * Issues, when enabling the commenting Beta.
 >
->     <span class="preview">This functionality is available only for the Updates section of issues, and it is not available for the following areas:</span>
+>     This functionality is available only for the Updates section of issues, and it is not available for the following areas:
 >
->     * <span class="preview">Home</span>
->     * <span class="preview">Summary panel in lists</span>
->     * <span class="preview">Summary panel in timesheets</span>
+>     * Home
+>     * Summary panel in lists
+>     * Summary panel in timesheets
 >
 > * Goals
+>
 >   The new commenting experience is the default for goals. You must have an additional license to access Workfront Goals. For more information, see [Requirements to uses Workfront Goals](../../workfront-goals/goal-management/access-needed-for-wf-goals.md). 
 >
 >    For information about commenting on goals, see [Manage goal comments in Adobe    Workfront Goals](../../workfront-goals/goal-management/manage-goal-comments.md).
@@ -175,8 +176,6 @@ Adding an update to a work item differs depending on what version of the Updates
 
 1. To reply to an update, see [Reply to updates](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).
 
-<div class="preview">
-
 ### Add an update to a work item using the commenting Beta experience
 
 1. Locate the object you want to update, then click its name to open the object's page.
@@ -216,7 +215,7 @@ Adding an update to a work item differs depending on what version of the Updates
 
 1. Click **Submit** to add the update to the Workfront object. 
 1. (Optional) To edit a comment, click the **More** menu ![](assets/more-menu.png) to the right of the Like icon, then click **Edit**.
-1. Edit the information in the comment, or remove any of the tagged users. <!--check to make sure you can still remove the users in preview or production. At one point, they were removing this functionality-->
+1. Edit the information in the comment <!--or remove any of the tagged users-->. 
    You can edit your comment within 15 from submitting it. An "Edited" indicator is added to the left of the date stamp that displays when the comment was updated. 
 
    ![](assets/edited-tag-on-comment-unified-commenting.png)
@@ -224,6 +223,7 @@ Adding an update to a work item differs depending on what version of the Updates
    >[!TIP]
    >
    >   An email is generated to notify users of your update only when you submit the original update. No email is generated after you edited your update.
+
 1. (Optional) Click **Reply** to reply to an existing comment, then follow the steps 4-7 above. <!--(**************insure this stays accurate***********)-->. For information about replying to an update, see [Reply to updates](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).
 1. (Optional) Click the **Like** icon![](assets/like-icon.png). The icon updates with the number of likes.
 1. (Conditional and Optional) If you included additional people in your comment, click the number of members included in the update to display a list of entities that the comment you entered is shared with. 
@@ -237,7 +237,6 @@ Adding an update to a work item differs depending on what version of the Updates
    >
    >You cannot add a comment to a system update.
 
- </div>
  
 ## Use Rich Text in a Workfront update 
 
@@ -306,7 +305,7 @@ You can enhance your updates by using Rich Text, or adding various items to it, 
    >* The maximum image file size is 7 MB. Supported image file types are .jpg, .gif, and .png.
    >* Images are accessible only from the Updates tab on an object, and they are not available on the Documents tab.
    >* You can send an update with an image and no text.
-1. Click **Update**  <span class="preview">or **Submit**</span>, in the commenting Beta experience. 
+1. Click **Update**  or **Submit**, when using the commenting Beta experience. 
 
 
 ## Copy update information
@@ -338,7 +337,8 @@ This option copies the text from a specific update to the clipboard.
 This option copies the full thread link to the clipboard so you can share the thread with other users.
 
 1. Go to the update thread you want to copy.
-1. Click the **More** menu, then click **Copy thread link** <span class="preview">or **Copy link** when using the Beta experience</span>.
+
+1. Click the **More** menu, then click **Copy thread link** or **Copy link**, when using the Beta experience.
 
    ![](assets/update-stream-comment-menu-marked-350x152.png)
 
@@ -347,7 +347,7 @@ This option copies the full thread link to the clipboard so you can share the th
 This option copies a specific update link to the clipboard. When you share the update link, the user who follows it sees a border around the update.
 
 1. Go to the update or reply you want to copy.
-1. Click the **More** menu next to the individual update, then click **Copy update link** <span class="preview">or **Copy link** when using the Beta experience</span>.
+1. Click the **More** menu next to the individual update, then click **Copy update link** or **Copy link**, when using the Beta experience.
 
    ![](assets/update-stream-reply-menu-marked-350x182.png)
 
@@ -362,7 +362,7 @@ No Workfront user (including the Workfront administrator) can delete updates mad
 
    ![](assets/update-stream-comment-menu-marked-350x152.png)
 
-1. In the message that appears, click **Confirm** <span class="preview">or **Delete**</span>, in the commenting Beta experience.
+1. In the message that appears, click **Confirm** or **Delete**, when using the commenting Beta experience.
 
 >[!NOTE]
 >
@@ -391,13 +391,11 @@ No Workfront user (including the Workfront administrator) can delete updates mad
 
 <!--remove the preview tag with 23.2 production, but keep the note till we remove Beta and it becomed the only exprience: -->
 
-
-
 >[!NOTE]
 >
-><span class="preview">It is not possible to disable system updates when using the Beta commenting experience. </span>
-><span class="preview">The information in this section refers only to functionality available in the current Updtes section. </span>
-><span class="preview">For more information about system updates in the Beta version, see [Updates section overview](../updating-work-items-and-viewing-updates/updates-tab-overview.md). </span>
+>It is not possible to disable system updates when using the Beta commenting experience.
+>The information in this section refers only to functionality available in the current Updtes section.
+>For more information about system updates in the Beta version, see [Updates section overview](../updating-work-items-and-viewing-updates/updates-tab-overview.md). 
 
 
 The Updates section for a Workfront object displays two types of information:

@@ -71,7 +71,7 @@ You must have the following access to perform the steps in this article:
 
    This example shows a filter for tasks from a specific project that are in the status of [!UICONTROL New] or [!UICONTROL In Progress], and are assigned to me.
 
-   For details about building a filter, see the section "Create or edit a filter in the beta builder" in the article [Create or edit filters in [!DNL Adobe Workfront]](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-filters.md).
+   For details about building a filter, see the section "Create or edit a filter in the standard builder" in the article [Create or edit filters in [!DNL Adobe Workfront]](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-filters.md).
 
 1. Name the filter and click **[!UICONTROL Save]**.
 

@@ -3,7 +3,7 @@ product-area: reporting
 navigation-topic: reporting-elements
 title: Share a filter, view, or grouping
 description: You can share filters, views, and groupings that you have access to view with other users.
-author: Lisa
+author: Nolan
 feature: Reports and Dashboards
 exl-id: 63a6db90-d52c-4147-a442-7904ef9e9d49
 ---
@@ -15,8 +15,6 @@ exl-id: 63a6db90-d52c-4147-a442-7904ef9e9d49
 <p>(NOTE: This is linked from the TOC article in WF Basics > permissions section)&nbsp;</p>
 </div>
 -->
-
-<span class="preview">Note that in the Preview environment, the enhanced filter experience (previously called "beta") is now the default. These enhanced filters are now "standard" and the older filter experience is "legacy."</span>
 
 Your Adobe Workfront administrator grants users access to view or edit objects when they assign access levels. For more information about granting access to objects, see [Create or modify custom access levels](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
@@ -67,94 +65,20 @@ You must have the following:
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: when the beta filters/ groupings come out either consider splitting this in different kinds of FVGs or splitting this article in FVGs for showing sharing on each one of them??)</p>
 -->
 
-You can share filters in select lists using the following interfaces:
+Sharing filters in select lists is different depending on which interface you use to share the filter from: standard or legacy. For information about the types of filter-building interfaces, see [Create or edit filters in Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-filters.md).
 
-* Standard interface
-* Beta builder interface
+You can share views and groupings only in the legacy interface.
 
-Sharing filters in select lists is different depending on which interface you use to share the filter from. For information about the types of filter-building interfaces, see [Create or edit filters in Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-filters.md).
+### Sharing filters using the standard builder interface
 
-You can share views and groupings only in the standard interface.
+You can share a filter in the standard interface from lists of projects, tasks, issues, portfolios, programs, users, templates, or groups. The standard builder interface for filters is not available for any other objects, or for views or groupings.
 
-* [Sharing filters, views, and groupings using the standard interface](#share-with-standard-interface)
-* [Sharing filters using the beta builder interface](#share-with-beta-builder-interface)
-
-### Sharing filters, views, and groupings using the standard interface {#share-with-standard-interface}
-
-Sharing filters, views, and groupings in the standard interface is identical.
-
-1. Go to a list of objects or a report.
-1. (Conditional) From a list, click the **Filter**, **View**, or **Grouping** icon, then hover over the filter, view, or grouping you want to share, click the **More** icon ![More icon](assets/more-icon.png), then **Share**.
-
-   From a report, click the **Filter**, **View**, or **Grouping** drop-down menu, then select the filter, view, or grouping you want to share.
-
-1. (Conditional) If sharing from a report, click the **Filter**, **View**, or **Grouping** drop-down menu again, then click **Share Filter**, **Share View**, or **Share Grouping**.  
-   The **Filter Access**, **View Access**, or **Grouping Access** dialog box displays.
-
-   ![Share filter](assets/share-filter-people-box-nwe-350x458.png)
-
-1. Complete either of the following, depending on who you want to share with:
-
-   **To share with individual users, teams, roles, groups, or companies:** In the provided field, begin typing the name of the user, team, role, group, or company you want to share with, then click the name when it appears in the drop-down list.  
-   Repeat this process to share access with multiple users, teams, roles, groups, or companies.
-
-      >[!TIP]
-      >
-      >Sharing with groups gives permissions to the filter, view, or grouping to the members of the group and of all the subgroups. 
-
-
-   **To share with all users in the system:** Click the **Settings** icon, then click **Make this visible system-wide**.  
-   Your administrator must select the Share System-wide option for this option to be available. For more information, see the articles [Create or modify custom access levels](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md) and [Share reports, dashboards, and calendars](../../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md).
-
-1. (Conditional) If you are sharing with individual users, teams, roles, groups, or companies, click the drop-down menu to define the level of access you want to grant.
-
-   You can select from the following options:
-
-   <table style="table-layout:auto"> 
-    <col> 
-    <col> 
-    <tbody> 
-     <tr> 
-      <td role="rowheader"><strong>View it</strong></td> 
-      <td> <p>Select this option to allow the share recipients only to use the shared Filter, View, or Grouping. When this option is selected, recipients cannot make any modifications to the shared item.</p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"><strong>Manage it</strong></td> 
-      <td> <p>Select this option to allow the share recipients to use and modify the shared Filter, View, or Grouping.</p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"><strong>Share it</strong></td> 
-      <td> <p>Click <strong>Advanced Settings</strong>, then select or clear the <strong>Share</strong> option, depending on whether you want the recipients to be able to share with others.</p> </td> 
-     </tr> 
-    </tbody> 
-   </table>
-
-1. Click **Save**.
-
-   Users with whom you shared the filter, view, or grouping can access it by clicking the **Filter**, **View**, or **Grouping** drop-down menu or icon and scrolling down to the **Shared with me** section.
-
-### Sharing filters using the beta builder interface {#share-with-beta-builder-interface}
-
-When sharing filters from lists of projects, tasks, or issues, you can share them using the beta builder interface instead of the standard interface.
-
-The beta builder interface is not available for any other objects in Workfront.
-
-You cannot build filters in the beta builder interface when building reports.
-
-Share a filter using the beta builder interface:
+Share a filter using the standard builder interface:
 
 1. Go to a list of projects, tasks, or issues.
-1. Click the **Filter** icon ![Filter icon](assets/filter-nwepng.png), then enable the **Beta setting** ![Beta setting](assets/beta-toggle-white-on-existing-filters.png) to access the beta builder. It is disabled by default.
-
-   Next, agree to the beta agreement if required.
-
-   This opens the beta filter builder interface.
-
-   >[!TIP]
-   >
-   >The header of the builder interface changes to blue when you enable the beta builder. After you enable the beta builder interface, Workfront keeps it enabled for all areas where it is available.
+1. Click the **Filter** icon ![Filter icon](assets/filter-nwepng.png).
    
-   ![Beta filter builder](assets/new-filters-all-filter-types.png)
+   ![Standard filter builder](assets/new-filters-all-filter-types.png)
 
 1. Review the following lists of filters:
 
@@ -187,7 +111,7 @@ Share a filter using the beta builder interface:
 
    The Filter sharing box displays.
 
-1. Enable the View system wide setting. This gives anyone in Workfront permission to view the filter.
+1. Enable the **View system-wide** setting. This gives anyone in Workfront permission to view the filter.
    
    >[!IMPORTANT]
    >
@@ -224,4 +148,58 @@ Share a filter using the beta builder interface:
    The filters you shared display in the **Shared with me** section of the filter panel for those entities.
 
    ![Filters shared with me](assets/new-filters-shared-with-me.png)
+
+### Share filters, views, and groupings using the legacy interface
+
+Sharing filters, views, and groupings in the legacy interface is identical.
+
+1. Go to a list of objects or a report.
+1. (Conditional) From a list, click the **Filter**, **View**, or **Grouping** icon, then hover over the filter, view, or grouping you want to share, click the **More** icon ![More icon](assets/more-icon.png), then **Share**.
+
+   From a report, click the **Filter**, **View**, or **Grouping** drop-down menu, then select the filter, view, or grouping you want to share.
+
+1. (Conditional) If sharing from a report, click the **Filter**, **View**, or **Grouping** drop-down menu again, then click **Share Filter**, **Share View**, or **Share Grouping**.  
+   The **Filter Access**, **View Access**, or **Grouping Access** dialog box displays.
+
+   ![Share filter](assets/share-filter-people-box-nwe-350x458.png)
+
+1. Complete either of the following, depending on who you want to share with:
+
+   **To share with individual users, teams, roles, groups, or companies:** In the provided field, begin typing the name of the user, team, role, group, or company you want to share with, then click the name when it appears in the drop-down list.  
+   Repeat this process to share access with multiple users, teams, roles, groups, or companies.
+
+      >[!TIP]
+      >
+      >Sharing with groups gives permissions to the filter, view, or grouping to the members of the group and of all the subgroups. 
+
+   **To share with all users in the system:** Click the **Settings** icon, then click **Make this visible system-wide**.  
+   Your administrator must select the Share System-wide option for this option to be available. For more information, see the articles [Create or modify custom access levels](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md) and [Share reports, dashboards, and calendars](../../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md).
+
+1. (Conditional) If you are sharing with individual users, teams, roles, groups, or companies, click the drop-down menu to define the level of access you want to grant.
+
+   You can select from the following options:
+
+   <table style="table-layout:auto"> 
+    <col> 
+    <col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader"><strong>View it</strong></td> 
+      <td> <p>Select this option to allow the share recipients only to use the shared Filter, View, or Grouping. When this option is selected, recipients cannot make any modifications to the shared item.</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><strong>Manage it</strong></td> 
+      <td> <p>Select this option to allow the share recipients to use and modify the shared Filter, View, or Grouping.</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><strong>Share it</strong></td> 
+      <td> <p>Click <strong>Advanced Settings</strong>, then select or clear the <strong>Share</strong> option, depending on whether you want the recipients to be able to share with others.</p> </td> 
+     </tr> 
+    </tbody> 
+   </table>
+
+1. Click **Save**.
+
+   Users with whom you shared the filter, view, or grouping can access it by clicking the **Filter**, **View**, or **Grouping** drop-down menu or icon and scrolling down to the **Shared with me** section.
+
 
