@@ -12,7 +12,7 @@ exl-id: 50aca40a-f971-42f2-b20f-fa4fff22335e
 ---
 # [!DNL Adobe Workfront] integrations
 
-You can integrate Adobe Workfront with third-party applications. Integrations can extend the utility of Workfront and tailor it to the needs of your organization.
+You can integrate Adobe Workfront with third-party applications, as well as other [!DNL Adobe] products. Integrations can extend the utility of Workfront and tailor it to the needs of your organization.
 
 The integrations for [!DNL Workfront] fall into the following categories:
 
