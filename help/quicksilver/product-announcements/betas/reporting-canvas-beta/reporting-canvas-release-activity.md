@@ -1,11 +1,7 @@
 ---
-content-type: reference
-navigation-topic: betas
 title: 'Reporting Canvas beta: release activity'
 description: Weekly release activity for the Adobe Workfront Reporting Canvas beta
-author: Nolan
-feature: Product Announcements
-exl-id: 41742569-d4bb-48c0-b0a1-f3af57a6c4e5
+hidefromtoc: true
 ---
 
 # Reporting Canvas beta: release activity
@@ -71,3 +67,152 @@ For general information on the Reporting Canvas beta, see [Reporting Canvas beta
 
 * #Value! is shown in cell when a calculation can not be performed on a per row basis
 * Added validation when dragging and dropping certain data types into certain function in Field builder
+
+## Planned features
+
+In developing Reporting Canvas, we have radically redesigned some features—and created some new ones from the ground up—for the purpose of streamlining report making. The following table outlines major features of Reporting Canvas in comparison to existing reporting tools, as well as their current release status:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <th>Feature Description</th> 
+   <th>Legacy Terminology </th> 
+   <th>Reporting Canvas Terminology</th> 
+   <th>Status</th> 
+  </tr> 
+  <tr> 
+   <td>Reports</td> 
+   <td>Report</td> 
+   <td>Reporting canvas</td> 
+   <td>Released</td> 
+  </tr> 
+  <tr> 
+   <td>Dashboards</td> 
+   <td>Dashboard</td> 
+   <td>Reporting canvas</td> 
+   <td>Released</td> 
+  </tr> 
+  <tr> 
+   <td>Tables</td> 
+   <td>Details tab</td> 
+   <td>Table block</td> 
+   <td>Released</td> 
+  </tr> 
+  <tr> 
+   <td>Charts</td> 
+   <td>Chart tab</td> 
+   <td>Visualization block</td> 
+   <td>Released</td> 
+  </tr> 
+  <tr> 
+   <td>Subtotals</td> 
+   <td>Summary tab</td> 
+   <td>KPI&nbsp;visualization</td> 
+   <td>Released</td> 
+  </tr> 
+  <tr> 
+   <td>Drill path</td> 
+   <td>Report viewer modal</td> 
+   <td>Report viewer overlay</td> 
+   <td>Released</td> 
+  </tr> 
+  <tr> 
+   <td>Columns</td> 
+   <td>View tab</td> 
+   <td>Table editing</td> 
+   <td>Released</td> 
+  </tr> 
+  <tr> 
+   <td>Filters</td> 
+   <td>Filter tab</td> 
+   <td>Table editing</td> 
+   <td>Released</td> 
+  </tr> 
+  <tr> 
+   <td>Groups</td> 
+   <td>Group tab</td> 
+   <td>Table editing</td> 
+   <td>Released</td> 
+  </tr> 
+  <tr> 
+   <td>Field configuration<br>(aggregations and conditional formatting)</td> 
+   <td>View tab</td> 
+   <td>Table editing (column selected)</td> 
+   <td>Released</td> 
+  </tr> 
+  <tr> 
+   <td>Resizing columns</td> 
+   <td>Text mode</td> 
+   <td>Table editing (column selected)</td> 
+   <td>Released</td> 
+  </tr> 
+   <tr> 
+   <td>External content</td> 
+   <td>External page</td> 
+   <td>Web content block</td> 
+   <td>Released</td> 
+  </tr> 
+   <tr> 
+   <td>Exporting</td> 
+   <td>Report actions</td> 
+   <td><strong>More</strong> menu in viewer</td> 
+   <td>Partially Released</td> 
+  </tr> 
+  <tr> 
+   <td>Sharing columns</td> 
+   <td>Text mode</td> 
+   <td>Field builder</td> 
+   <td>Partially Released</td> 
+  </tr> 
+  <tr> 
+   <td>Calculated columns</td> 
+   <td>Text mode</td> 
+   <td>Field builder</td> 
+   <td>Partially Released</td> 
+  </tr> 
+  <tr> 
+   <td>Chart styling</td> 
+   <td>Chart tab</td> 
+   <td>Visualization block (Style tab)</td> 
+   <td>Planned</td> 
+  </tr> 
+  <tr> 
+   <td>Scheduled delivery</td> 
+   <td>Report actions</td> 
+   <td><strong>More</strong> menu in viewer</td> 
+   <td>Planned</td> 
+  </tr> 
+  <tr> 
+   <td>Granting report access</td> 
+   <td>Report actions</td> 
+   <td><strong>More</strong> menu in viewer</td> 
+   <td>Planned</td> 
+  </tr> 
+  <tr> 
+   <td>Unauthenticated dashboard access</td> 
+   <td>Dashboard actions</td> 
+   <td><strong>More</strong> menu in viewer</td> 
+   <td>Planned</td> 
+  </tr> 
+  <tr> 
+   <td>Editing report data</td> 
+   <td>In-line editing</td> 
+   <td>Summary pane</td> 
+   <td>Planned</td> 
+  </tr> 
+  <tr> 
+   <td>Page filtering</td> 
+   <td>N/A</td> 
+   <td>Canvas filter</td> 
+   <td>Planned</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+>[!NOTE]
+>
+>The features listed here will be released as part of a tiered product release scheme. Features you have access to in this beta may not be available in the full release, based on your organization's plan.
