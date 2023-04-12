@@ -816,7 +816,7 @@ feature-set: Workfront
     * [Notifications: Action needed](workfront-basics/using-notifications/notifications-action-needed.md)
     * [Notifications: Approval information](workfront-basics/using-notifications/notifications-approval-information.md)
     * [Notifications: Communication](workfront-basics/using-notifications/notifications-communication.md)
-    * [Notifiocations: Delegation](workfront-basics/using-notifications/notifications-delegation.md)
+    * [Notifications: Delegation](workfront-basics/using-notifications/notifications-delegation.md)
     * [Notifications: Goals](workfront-basics/using-notifications/notifications-goals.md)
     * [Notifications: Information about projects I own](workfront-basics/using-notifications/notifications-information-about-projects-i-own.md)
     * [Notifications: Information about projects I sponsor](workfront-basics/using-notifications/notifications-information-about-projects-i-sponsor.md)
