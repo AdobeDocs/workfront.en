@@ -91,7 +91,7 @@ You can add a workflow when creating a project, or add a workflow to an existing
    For instructions, see [Create a project using a template](/help/quicksilver/manage-work/projects/create-projects/create-project-from-template.md).
 
 1. When selecting a template for the project, select the template that contains the workflows you want to use for this project.
-1. (Optional) Edit any workflow values for the project, as described in <!--X-->.
+1. (Optional) Edit any workflow values for the project, as described in [Edit workflow values in a project](#edit-workflow-values-in-a-project)..
 
 ### Add a workflow to an existing project
 
@@ -100,7 +100,7 @@ You can add a workflow when creating a project, or add a workflow to an existing
    For instructions, see [Attach a template to a project](/help/quicksilver/manage-work/projects/create-and-manage-templates/attach-template-to-project.md).
 
 1. When selecting a template for the project, select the template that contains the workflows you want to use for this project.
-1. (Optional) Edit any workflow values for the project, as described in <!--X-->.
+1. (Optional) Edit any workflow values for the project, as described in [Edit workflow values in a project](#edit-workflow-values-in-a-project).
 
 ### Edit workflow values in a project
 
@@ -111,9 +111,19 @@ All workflow values can be found in:
 * The Workflows section of the Create project or Edit project window.
 * The Adobe Experience Manager section of the left navigation.
 
+
+   >[!NOTE]
+   >
+   >If these areas are not visible, your Workfront administrator has not enabled Workflows for your organization.
+
 #### Linked folders
 
-|Field|Instructions|
-|---|---|
-|
+To edit the workflow for linked folders:
 
+1. Toggle the **[!UICONTROL Create Linked folder]** on.
+1. Choose a folder path to indicate where you want all linked folders associated with this integration. 
+1. Click Save if you are using the Create Project or Edit project window.
+    
+   Or
+
+   If you are in the Adobe Experience Manager area, your changes save automatically. <!--Do they though?-->
