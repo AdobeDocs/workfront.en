@@ -6,6 +6,7 @@ title: Manage workstreams
 description: A workstream is a configurable group of boards  and cards for collaborating on work.
 author: Lisa
 feature: Agile
+exl-id: c46c42e8-e14d-414d-b883-c4d885338e42
 ---
 # Manage workstreams
 
@@ -103,4 +104,3 @@ People and teams must be added to the workstream as members before they can view
 1. Add filters to import tasks and issues from Workfront as cards.
 
    Adding filters for workstream sources is the same as adding filters for an intake column on a basic board or Kanban board. For more information, see [Add an intake column to a board](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md).
-

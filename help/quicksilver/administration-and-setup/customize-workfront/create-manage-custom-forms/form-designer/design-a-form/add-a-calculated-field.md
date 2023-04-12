@@ -7,8 +7,8 @@ description: You can add a calculated custom field that uses existing data to ge
 author: Courtney
 feature: System Setup and Administration
 role: Admin
+exl-id: 407aae49-4bc3-4364-a794-7e170a57a6d3
 ---
-
 # Add calculated fields with the form designer
 
 You can add a calculated custom field that uses existing data to generate new data when the custom form is attached to an object. 
@@ -314,6 +314,4 @@ To reuse an existing calculated custom field:
 
     or
 
-    Click **Save and Close**. 
-
-    
+    Click **Save and Close**.

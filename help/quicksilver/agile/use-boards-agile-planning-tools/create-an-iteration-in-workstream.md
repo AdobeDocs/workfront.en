@@ -6,6 +6,7 @@ title: Create an iteration in a workstream
 description: An iteration is a set amount of time reserved for completing work. Some agile teams may refer to an iteration as a sprint.
 author: Lisa
 feature: Agile
+exl-id: 37b8810d-8439-4a7a-89d5-7c2560422ace
 ---
 # Create an iteration in a workstream
 

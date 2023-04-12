@@ -4,14 +4,14 @@ content-type: tips-tricks-troubleshooting
 product-area: system-administration
 navigation-topic: tips-tricks-troubleshooting-setup-admin
 title: Update auto-upgrade options in access levels
-description: You can update the auto-upgrade option in access levels. 
+description: You can update the auto-upgrade option in access levels.
 author: Courtney
 feature: System Setup and Administration
 role: Admin
 hide: yes
 hidefromtoc: yes
+exl-id: 1f7fce86-0ba9-4407-842d-5f8625c9de70
 ---
-
 # Update auto-upgrade options in access levels
 
 Contributors on the new license model must have an auto-upgrade option assigned. You can update the auto-upgrade option in access levels. 

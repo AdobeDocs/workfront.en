@@ -8,6 +8,7 @@ description: The table below tells you the highest level of access (Edit or View
 author: Courtney
 feature: System Setup and Administration
 role: Admin
+exl-id: 87fb5673-6e36-4182-958a-d69a56fe7b68
 ---
 # Access to objects and areas by license type
 

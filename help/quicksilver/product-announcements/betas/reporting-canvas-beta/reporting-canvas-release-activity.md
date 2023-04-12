@@ -2,8 +2,8 @@
 title: 'Reporting Canvas beta: release activity'
 description: Weekly release activity for the Adobe Workfront Reporting Canvas beta
 hidefromtoc: true
+exl-id: 41742569-d4bb-48c0-b0a1-f3af57a6c4e5
 ---
-
 # Reporting Canvas beta: release activity
 
 This page lists new features that are added and issues that are resolved for the Reporting Canvas beta on a weekly basis.

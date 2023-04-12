@@ -4,8 +4,8 @@ description: 23.2 release overview
 author: Courtney
 draft: Probably
 feature: Product Announcements
+exl-id: b0e2ce08-d9f7-4fb5-b35c-ba979ab9d03e
 ---
-
 # 23.2 Release overview
 
 This page provides information about functionality that is included in the 23.1 release. These enhancements were made available in the Production environment with the 23.2 release on April 6 and 7, 2023. 
