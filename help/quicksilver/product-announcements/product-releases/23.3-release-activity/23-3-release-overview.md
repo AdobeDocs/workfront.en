@@ -1,29 +1,28 @@
 ---
-title: <!-- add release --> release overview
-description: <!-- add release --> release overview
-author: Luke
-draft: Probably
+title: 23.3 release overview
+description: 23.3 release overview
+author: Becky
 feature: Product Announcements
 ---
 
-# <!-- add release --> release overview
+# 23.3 release overview
 
-This page provides information about functionality that is included in the <!-- add release --> release scheduled for <!-- add month and year-->. 
+This page provides information about functionality that is included in the 23.3 release scheduled for July 2023. 
 
-The enhancements on this page are available in the Preview environment. This page will be updated with additional enhancements as the <!-- add release --> release nears its planned Production release.
+The enhancements on this page are available in the Preview environment. This page will be updated with additional enhancements as the 23.3 release nears its planned Production release.
 
 
 <!-- Keep commented until Final Preview release.
 
 The <add release> release webinar will be held on <date>. You can [register for the webinar here <get link from product ops>. -->
 
-<span class="preview">Off-cycle features (those releasing to Production prior to the <!-- add release --> release date) are highlighted in yellow.</span>
+<span class="preview">Off-cycle features (those releasing to Production prior to the 23.3 release date) are highlighted in yellow.</span>
 
 ## Adobe Workfront enhancements
     
-*   <!-- add product areas -->
+*   [Agile enhancements](#agile-enhancements)
     
-### <!--add product area name -->
+### Agile enhancements
 
 <table>
             <col style="width: 50%;" />
@@ -78,13 +77,13 @@ The <add release> release webinar will be held on <date>. You can [register for 
                 </tr>
                  <tr>
                     <td>
-                        <a href="add look and feel link" class="MCXref xref" xrefformat="{para}">Look-and-feel updates during the <!-- add release--> release timeframe</a></p>
-                        <p>Minor updates to the look and feel of various areas of the Adobe Workfront application are being made within the <!-- add release--> release timeframe. These enhancements will be made available in the Production environment a minimum of 2 weeks after releasing to Preview. </p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">Look-and-feel updates during the 23.3 release timeframe</a></p>
+                        <p>Minor updates to the look and feel of various areas of the Adobe Workfront application are being made within the 23.3 release timeframe. These enhancements will be made available in the Production environment a minimum of 2 weeks after releasing to Preview. </p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
                         <ul>
                             <li>
-                                <p>Preview release:&#160;Throughout the <!-- add release--> release timeframe<br /></p>
+                                <p>Preview release:&#160;Throughout the 23.3 release timeframe<br /></p>
                             </li>
                             <li>
                                 <p><span class="preview">Production release:&#160;A minimum of 2 weeks after releasing to Preview (unless otherwise specified)</span></p>
