@@ -62,19 +62,29 @@ Before you begin, you must:
    ![](assets/qs-issue-details-icon-expanded-with-overview-section-350x462.png)
 
 1. Go to the **Overview** area in the **Issue Details** section. 
-1. Click the **Resolved By** field, and select from the following types of resolving objects: &nbsp;
+1. Click the **Resolved By** field, and select from the following types of resolving objects: 
 
    * **Project**
    * **Task**
    * **Issue**
 
-1. The field for the resolving object displays. 
-1. After selecting the object, start typing the name of a specific project, task, or issue in the available field and select it when it appears in the drop-down list. 
-1. Click **Save**&nbsp;**Changes**.  
+   Depending on which object you selected, the following fields display:
+ 
+   * **Resolving Project**
+   * **Resolving Task**
+   * **Resolving Issue**
+
+1. Start typing the name of a specific project, task, or issue in the **Resolving Project**, **Task**, or **Issue** field, then click it when it appears in the list. 
+
+      >[!NOTE]
+      >
+      >You cannot tie the resolution of an issue to the task or the project where the issue is located. The task or project of the issue do not display in the Resolving Task or the Resolving Task fields.
+
+
+1. Click **Save Changes**.  
+
    The original issue becomes the Resolvable Object for the project, task, or issue you selected in step 4 and 5. This means that the original issue completes when the resolving object (the project, task, or issue you linked it to) is completed.
 
    >[!NOTE]
    >
    >One project, task, or issue may have multiple issues as Resolvable Objects.
-
-&nbsp;
