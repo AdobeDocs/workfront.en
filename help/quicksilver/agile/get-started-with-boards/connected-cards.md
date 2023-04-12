@@ -9,6 +9,8 @@ exl-id: c6d979dd-e4a4-48a5-a91b-b31d7ef848d1
 ---
 # Use connected cards on boards
 
+{{highlighted-preview}}
+
 You can add a card on your board that is connected to existing tasks and issues in [!DNL Workfront].
 
 When any one of the following details is updated for the card in one location, it is automatically updated in the other location:
@@ -130,6 +132,12 @@ You must have the following access to perform the steps in this article:
      </tr>
     </tbody> 
    </table>
+
+   <span class="preview">Use the navigation panel on the left to move between groups of fields on the card details.</span>
+
+   >[!NOTE]
+   >
+   >The left navigation panel is available only through the early feature opt-in for Workfront Boards.
 
 1. Click **[!UICONTROL Close]** to return to the board.
    The connected object, assignees, tags, due date, checklist counter, estimated hours, and status are displayed on the card.

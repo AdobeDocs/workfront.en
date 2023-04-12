@@ -9,6 +9,8 @@ exl-id: 9bc1f92a-85b0-44fd-b5de-09a69af6def5
 ---
 # Add an ad hoc card to a board
 
+{{highlighted-preview}}
+
 You can quickly add a card to a board and assign it to a member on the board. The card can represent a task, issue, person, group, or any type of item that you want to include on the board.
 
 >[!NOTE]
@@ -89,8 +91,17 @@ An ad hoc card is not connected to a work item in [!DNL Adobe Workfront].
      </tr> 
     </tbody> 
    </table>
-
+   
+   Sample card details image in the Production environment:
    ![Ad hoc card details](assets/boards-edit-ad-hoc-card-071822.png)
+
+   Sample card details image in the Preview environment:
+
+   <span class="preview">Use the navigation panel on the left to move between groups of fields on the card details.</span>
+
+   >[!NOTE]
+   >
+   >The left navigation panel is available only through the early feature opt-in for Workfront Boards.
 
 1. Click **[!UICONTROL Close]** to add the card to the board.
 
