@@ -60,18 +60,18 @@ For information on requesting additional access, see <strong>Request access to o
 
 Before you begin,
 
-* Your Workfront Administrator must configure Workflows in an Adobe Experience Manager integration. For more information, see [Configure the Experience Manager Assets as a Cloud Service integration](help\quicksilver\administration-and-setup\configure-integrations\configure-aacs-integration.md).
+* Your Workfront administrator must configure workflows in an Adobe Experience Manager integration. For more information, see [Configure the Experience Manager Assets as a Cloud Service integration](../../administration-and-setup/configure-integrations/configure-aacs-integration.md#set-up-workflows-optional).
 
-## Add a workflow to a template
+## Add a workflow to a Project Template 
 
-You can add a workflow to a template. The workflow will be applied to any projects created from the template.
+You can add a workflow to a Project Template. The workflow will be applied to any projects created from the template.
 
 1. <!-- main menu snippet??--> Open a template by clicking Templates in the Main Menu, then selecting the template from the list.
 1. Click **Experience Manager Assets** in the left navigation panel.
 
    >[!NOTE]
    >
-   >If the Experience Manager Assets section is not visible in the left navigation, your Workfront administrator has not enabled Workflows for your organization.
+   >If the Experience Manager Assets section is not visible in the left navigation, your Workfront administrator has not enabled workflows for your organization. <!--Is this right?-->
 
 1. In the **Select an integration for automated workflows field**, select the integration with the workflows you want to use for projects created from this template.
 1. (Optional) Edit any workflow values that you want to apply to projects created from this template. 
@@ -91,7 +91,7 @@ You can add a workflow when creating a project, or add a workflow to an existing
    For instructions, see [Create a project using a template](/help/quicksilver/manage-work/projects/create-projects/create-project-from-template.md).
 
 1. When selecting a template for the project, select the template that contains the workflows you want to use for this project.
-1. (Optional) Edit any workflow values for the project, as described in [Edit workflow values in a project](#edit-workflow-values-in-a-project)..
+1. (Optional) Edit any workflow values for the project, as described in [Edit workflow values in a project](#edit-workflow-values-in-a-project).
 
 ### Add a workflow to an existing project
 
