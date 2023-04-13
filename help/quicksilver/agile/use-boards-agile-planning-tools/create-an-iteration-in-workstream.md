@@ -6,6 +6,7 @@ title: Create an iteration in a workstream
 description: An iteration is a set amount of time reserved for completing work. Some agile teams may refer to an iteration as a sprint.
 author: Lisa
 feature: Agile
+exl-id: 37b8810d-8439-4a7a-89d5-7c2560422ace
 ---
 # Create an iteration in a workstream
 
@@ -79,4 +80,9 @@ You must have the following access to perform the steps in this article:
 1. Edit the iteration as needed, and click [!UICONTROL **Save**].
 
    Once an iteration has started, you can only change the iteration name.
-   
+
+## Delete an iteration
+
+1. Click the [!UICONTROL **Card List**] tab on the workstream and open the iteration view.
+1. Click the **Delete** icon next to the iteration.
+1. Click [!UICONTROL **Delete iteration**] on the confirmation message.

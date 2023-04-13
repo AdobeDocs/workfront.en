@@ -5,8 +5,8 @@ title: View the number of decisions for all users
 description: You can view the number of proof and document decisions made by users in your Workfront instance.
 author: Courtney
 feature: Work Management
+exl-id: e7b1ee0a-3306-49a8-aa4f-142b9d894834
 ---
-
 # View the number of decisions for all users
 
 You can view the number of proof and document decisions made by users in your Workfront instance.
@@ -22,4 +22,3 @@ To view the number of decisions for a user:
 1. Open the **Views** area, then choose the **Licenses** view. 
 
 1. Find the coloumn **Approvals this month** to view the number of decsions each user has made in the month.
-

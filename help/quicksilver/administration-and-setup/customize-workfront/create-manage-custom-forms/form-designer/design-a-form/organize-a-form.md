@@ -7,8 +7,8 @@ description: You can organize a custom form with the Form Designer.
 author: Courtney
 feature: System Setup and Administration
 role: Admin
+exl-id: 08de894a-82f0-4440-a350-680d6648f01e
 ---
-
 # Organize and preview a form with the form designer
 
  You can organize a custom form with the form designer.
@@ -163,4 +163,4 @@ Courtney, this is a story that got postponed after I did the work. Slated for so
 
 1. Begin creating or editing a custom form and adding fields, as described in [Design a form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
-1. Click **Preview** in the top-left corner to see how the form will look when being used, then click **End Preview** to return to editing the form. 
+1. Click **Preview** in the top-left corner to see how the form will look when being used, then click **End Preview** to return to editing the form.

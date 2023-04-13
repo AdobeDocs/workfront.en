@@ -5,8 +5,8 @@ title: Customize which fields are displayed on a card
 description: You can customize which fields are displayed on a card by disabling a field so it is not displayed in the full card or condensed view, or hiding a field on the condensed card view.
 author: Lisa
 feature: Agile
+exl-id: 28fa6455-04dd-4115-9ead-cb3e7c26289e
 ---
-
 # Customize which fields are displayed on a card
 
 By default, all available fields are displayed on a card, both in the the full view when the card is open, and in the condensed card view on the board. You can customize which fields are displayed by:
@@ -88,4 +88,3 @@ Custom fields are available on connected cards. They are only visible on the ful
    ![Custom field value and label](assets/save-custom-field-value-label.png)
 
    The custom field is added to the list of available fields and is enabled by default. You can disable the custom field following the steps in the [Configure cards](customize-fields-on-card.md#configure-cards) section above, edit the field, or delete it from all cards.
-

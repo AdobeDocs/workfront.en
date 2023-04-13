@@ -5,8 +5,8 @@ title: Canvas Dashboards Overview
 description: You can create Canvas Dashboards that integrate Reporting Canvas visualizations with traitional reports and feature new layout options.
 author: Nolan
 feature: Reports and Dashboards
+exl-id: b02ca181-e3c3-41e9-ab45-b1b606909127
 ---
-
 # Canvas Dashboards Overview
 
 Canvas Dashboards, a feature currently in development for Dashboards, offers a new option for building effective dashboards in Workfront. Canvas Dashboards will allow Reporting Canvas visualizations to be easily included with existing reports, providing increased flexibility as well as new layout options.
@@ -17,7 +17,6 @@ This feature is in development, and does not yet support:
 * calendar integration
 * prompted reports
 * distribution through layout templates
-
 
 ## Access Canvas Dashboards
 

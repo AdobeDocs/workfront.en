@@ -4,12 +4,12 @@ product-area: system-administration;user-management
 keywords: kickstart,kick-start,kickstarts,kick-starts
 navigation-topic: use-kick-starts
 title: 'Kick-Starts Scenario: Import multiple-option custom fields into Workfront'
-description: You can import custom fields with multiple options in Adobe Workfront using the Kick-Start functionality. 
+description: You can import custom fields with multiple options in Adobe Workfront using the Kick-Start functionality.
 author: Courtney
 feature: System Setup and Administration
 role: Admin
+exl-id: 70f3dac7-f449-4dc8-9d7d-a5284b37f9ec
 ---
-
 # Kick-Starts scenario: Import multiple-option custom fields into Workfront
 
 You can import custom fields with multiple options in Adobe Workfront using the Kick-Start functionality. 
@@ -269,4 +269,4 @@ After performing the steps described in the previous sections, continue with the
 
     * Delete the information that was successfully imported from Workfront from the Custom Forms area, then make the correction indicated by the error message.  
     * Indicate that a field or a form is already in the system for those fields or forms that have already imported, then make the correction. 
-    To indicate that a field or a custom form is already in Workfront, you must ensure that the `inNew` field is marked as `FALSE` in sheets that contain information about the form (`CTGY`) or the field (`PARAM`) on the kick-start importing sheet.  
+    To indicate that a field or a custom form is already in Workfront, you must ensure that the `inNew` field is marked as `FALSE` in sheets that contain information about the form (`CTGY`) or the field (`PARAM`) on the kick-start importing sheet.

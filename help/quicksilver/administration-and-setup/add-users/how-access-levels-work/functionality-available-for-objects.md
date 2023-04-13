@@ -9,6 +9,7 @@ description: The following tables lists the functionality available for each obj
 author: Courtney
 feature: System Setup and Administration
 role: Admin
+exl-id: a419e4fe-7781-48ac-8765-bd605fa44bc9
 ---
 # Functionality available for each object type for various access levels
 

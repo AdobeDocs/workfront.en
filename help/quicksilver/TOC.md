@@ -816,7 +816,7 @@ feature-set: Workfront
     * [Notifications: Action needed](workfront-basics/using-notifications/notifications-action-needed.md)
     * [Notifications: Approval information](workfront-basics/using-notifications/notifications-approval-information.md)
     * [Notifications: Communication](workfront-basics/using-notifications/notifications-communication.md)
-    * [Notifiocations: Delegation](workfront-basics/using-notifications/notifications-delegation.md)
+    * [Notifications: Delegation](workfront-basics/using-notifications/notifications-delegation.md)
     * [Notifications: Goals](workfront-basics/using-notifications/notifications-goals.md)
     * [Notifications: Information about projects I own](workfront-basics/using-notifications/notifications-information-about-projects-i-own.md)
     * [Notifications: Information about projects I sponsor](workfront-basics/using-notifications/notifications-information-about-projects-i-sponsor.md)
@@ -927,6 +927,7 @@ feature-set: Workfront
     * [Manage workstreams](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md)
     * [Use the card list](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md)
     * [Create an iteration in a workstream](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md)
+    * [Configure the backlog on a workstream board](/help/quicksilver/agile/use-boards-agile-planning-tools/configure-backlog-workstream-board.md)
     * [Review iteration metrics](/help/quicksilver/agile/use-boards-agile-planning-tools/review-iteration-metrics.md)
   * [Agile overview](agile/agile-overview.md)
   * Get started with agile in Adobe Workfront {#agile-in-workfront}  
@@ -2142,6 +2143,7 @@ feature-set: Workfront
   * Adobe Workfront for G Suite {#workfront-for-g-suite}
     * [Adobe Workfront for G Suite](workfront-integrations-and-apps/workfront-for-g-suite/workfront-for-gsuite.md)
     * [Install Adobe Workfront for G Suite](workfront-integrations-and-apps/workfront-for-g-suite/install-workfront-for-gsuite.md)
+    * [Privacy and permissions in Workfront for G Suite](workfront-integrations-and-apps/workfront-for-g-suite/privacy-and-permissions-in-g-suite.md)
     * [Log in and out of Adobe Workfront for G Suite](workfront-integrations-and-apps/workfront-for-g-suite/log-in-and-out-wf-for-gsuite.md)
     * [Access Adobe Workfront Home content from G Suite](workfront-integrations-and-apps/workfront-for-g-suite/access-wf-home-content-from-g-suite.md)
     * [Update a Adobe Workfront object from G Suite](workfront-integrations-and-apps/workfront-for-g-suite/update-a-workfront-object-in-gsuite.md)

@@ -9,6 +9,7 @@ description: Your organization purchased a certain number of licenses when it pu
 author: Courtney
 feature: System Setup and Administration
 role: Admin
+exl-id: 10a5c04d-adbf-4985-a81c-1b33868ce260
 ---
 # Licenses overview
 
@@ -50,4 +51,3 @@ For example, if you assign the Standard access level to a user, your number of a
 You can view the licenses and access levels assigned to your users. For more information, see [List your users' access levels and licenses](../../../administration-and-setup/add-users/access-levels-and-object-permissions/list-access-levels-and-licenses-for-your-users.md).<!-- MAY NEED NEW LINK -->
 
 For information about managing your licenses, see [Manage available licenses in your system](../../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md).<!-- MAY NEED NEW LINK -->
-

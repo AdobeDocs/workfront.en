@@ -5,6 +5,7 @@ title: Add existing tasks or issues to an Adobe Workfront board or workstream
 description: You can add any task or issue to a board in Adobe Workfront from a list or report view.
 author: Lisa
 feature: Agile
+exl-id: 5e6fd681-8068-4091-9f42-0364b17e0465
 ---
 # Add existing tasks or issues to an [!DNL Adobe Workfront] board or workstream
 

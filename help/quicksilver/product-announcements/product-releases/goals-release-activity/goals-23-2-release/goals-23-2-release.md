@@ -6,6 +6,7 @@ title: Adobe Workfront Goals with the 23.2 release
 description: This page provides information about functionality for Adobe Workfront Goals in the new Adobe Workfront experience that is releasing to the Production environment with the 23.2 release.
 author: Courtney
 feature: Product Announcements, Workfront Goals
+exl-id: 7f543c35-d4e3-4d17-be21-1f09eb7c4df3
 ---
 # Adobe Workfront Goals with the 23.2 release
 
