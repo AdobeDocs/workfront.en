@@ -2143,6 +2143,7 @@ feature-set: Workfront
   * Adobe Workfront for G Suite {#workfront-for-g-suite}
     * [Adobe Workfront for G Suite](workfront-integrations-and-apps/workfront-for-g-suite/workfront-for-gsuite.md)
     * [Install Adobe Workfront for G Suite](workfront-integrations-and-apps/workfront-for-g-suite/install-workfront-for-gsuite.md)
+    * [Privacy and permissions in Workfront for G Suite](workfront-integrations-and-apps/workfront-for-g-suite/install-workfront-for-gsuite.md)
     * [Log in and out of Adobe Workfront for G Suite](workfront-integrations-and-apps/workfront-for-g-suite/log-in-and-out-wf-for-gsuite.md)
     * [Access Adobe Workfront Home content from G Suite](workfront-integrations-and-apps/workfront-for-g-suite/access-wf-home-content-from-g-suite.md)
     * [Update a Adobe Workfront object from G Suite](workfront-integrations-and-apps/workfront-for-g-suite/update-a-workfront-object-in-gsuite.md)
