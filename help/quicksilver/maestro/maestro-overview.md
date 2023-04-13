@@ -6,6 +6,7 @@ hide: yes
 ---
 
 <!--udpate the metadata with real information when making this avilable in TOC and in the left nav-->
+<!--see the separate article I wrote to have the PMs vet it for this: https://adobe-my.sharepoint.com/personal/alinaw_adobe_com/_layouts/15/doc.aspx?sourcedoc={79f94807-3d73-4015-afc0-5c016fc63cfc}&action=edit-->
 
 # Maestro overview
 

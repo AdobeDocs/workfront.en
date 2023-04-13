@@ -24,3 +24,4 @@ This section contains the following articles:
 * [Edit records](edit-records.md)
 * [Add record fields](add-record-fields.md)
 * [Manage record views](manage-record-views.md)
+* [Create record type fields](create-record-type-fields.md)
