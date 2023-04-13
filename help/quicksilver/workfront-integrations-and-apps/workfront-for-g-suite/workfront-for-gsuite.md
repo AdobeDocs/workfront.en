@@ -20,6 +20,7 @@ exl-id: dfced3e9-0338-446e-bf70-fa5d07f3ac1f
 These Help articles can help you get started using [!DNL Workfront for G Suite]:
 
 * [Install [!DNL Adobe Workfront for G Suite]](../../workfront-integrations-and-apps/workfront-for-g-suite/install-workfront-for-gsuite.md)
+* [Privacy and permissions in Workfront for G Suite](../../workfront-integrations-and-apps/workfront-for-g-suite/privacy-and-permissions-in-g-suite.md)
 * [Log in and out of [!DNL Adobe Workfront for G Suite]](../../workfront-integrations-and-apps/workfront-for-g-suite/log-in-and-out-wf-for-gsuite.md)
 
 These explain how to manage [!DNL Workfront] objects without leaving [!DNL G Suite]:
