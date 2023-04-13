@@ -3,12 +3,12 @@ filename: configure-backlog-workstream-board.md
 content-type: reference
 navigation-topic: boards
 title: Configure the backlog on a workstream board
-description: You can choose to display a backlog column on an board in a workstream, and define a query for the cards that are pulled into the board backlog from the workstream card list.
+description: You can choose to display a backlog column on a board in a workstream, and define a query for the cards that are pulled into the board backlog from the workstream card list.
 author: Lisa
 ---
 # Configure the backlog on a workstream board
 
-You can choose to display a backlog column on an board in a workstream, and define a query for the cards that are pulled into the board backlog from the workstream card list. These options are not available on standalone boards. For information about adding an intake column to a standalone board, see [Add an intake column to a board](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md).
+You can choose to display a backlog column on a board in a workstream, and define a query for the cards that are pulled into the board backlog from the workstream card list. These options are not available on standalone boards. For information about adding an intake column to a standalone board, see [Add an intake column to a board](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md).
 
 ## Access requirements
 
