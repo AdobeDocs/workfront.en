@@ -6,6 +6,7 @@ title: Privacy and permissions in Workfront for G Suite
 description: Privacy and permissions in Workfront for G Suite
 author: Becky
 feature: Workfront Integrations and Apps
+exl-id: abb8ffa1-1da6-46dd-a929-18b17014839a
 ---
 # Privacy and permissions in Workfront for G Suite
 
@@ -20,4 +21,3 @@ We require the following permissions so the Workfront for G Suite plug-in can de
 * **Connect to an external service permission:** Ultimately, the plug-in needs to connect to the Workfront API, which is the backbone of the plug-in value. The Workfront API is a service external to Google, so the plug-in requires the `Connect to an external service permission` to make the plug-in work.
 
 For more information on Adobe Workfront's dedication to customer privacy, see [Workfront's Privacy Notice](https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/Privacy-Notice-and-Privacy-Shield-Statement-Adobe-Workfront.pdf).
-
