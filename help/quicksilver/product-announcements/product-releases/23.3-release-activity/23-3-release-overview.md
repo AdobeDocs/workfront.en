@@ -40,7 +40,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
                 </tr>
                 <tr>
                     <td>
-                        <a href="help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-17.md" class="MCXref xref" xrefformat="{para}">Boards email notifications and preferences</a><span style="color: #ff0000;"> New in Preview!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-17.md" class="MCXref xref" xrefformat="{para}">Boards email notifications and preferences</a><span style="color: #ff0000;"> New in Preview!</span></p>
                         <p>Email notifications are now available for Adobe Workfront Boards. The notifications are turned on by default and you can select in your preferences which emails you want to receive. You will receive an email when you are added to a board and when a card is assigned to you.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
