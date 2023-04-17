@@ -164,6 +164,11 @@ This opens the goal list.
 
 1. (Optional) Click the **More** menu ![](assets/more-icon.png) to the right of a comment, then click **Delete** to delete a comment you added. 
 1. (Optional) Click **Reply** to reply to an existing comment, then follow the steps 5-9 above. <!--insure this stays accurate-->
+1. (Conditional and optional) If other users have added comments that display outside of the visible area in the Updates section, click **View** inside the blue **new comments banner** at the bottom of the screen  to display these comments.
+   
+   ![](assets/blue-new-comments-banner-with-view-button.png)
+   
+   Additional comments display at the bottom of the screen.
 1. (Optional) Click the **Like** icon![](assets/like-icon.png) to like a comment that someone else added. The icon updates with the number of likes.
 1. (Optional) To add rich text formatting to your update, use any attributes on the Rich Text toolbar as you type. For more information, see [Update work](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). 
 1. (Optional) Click the **System Activity** tab to view updates logged by the system. When a goal is updated, Workfront generates a note about that update that and displays it in the System Activity tab. Workfront also records a system update when a result, activity, or project is added to the goal or when it is updated. <!--ensure the casing on the tab has not changed-->
