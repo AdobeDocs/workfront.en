@@ -40,16 +40,18 @@ The <add release> release webinar will be held on <date>. You can [register for 
                 </tr>
                 <tr>
                     <td>
-                        <a href="ADD LINK" class="MCXref xref" xrefformat="{para}">Title</a><span style="color: #ff0000;"> New in Preview!</span></p>
-                        <p>Body</p>
+                        <a href="help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-17.md" class="MCXref xref" xrefformat="{para}">Boards email notifications and preferences</a><span style="color: #ff0000;"> New in Preview!</span></p>
+                        <p>Email notifications are now available for Adobe Workfront Boards. The notifications are turned on by default and you can select in your preferences which emails you want to receive. You will receive an email when you are added to a board and when a card is assigned to you.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
                         <ul>
                             <li>
-                                <p>Preview release:<br /></p>
+                                <p>Preview release: April 13, 2023<br /></p>
                             </li>
                             <li>
-                                <p><span class="preview">Production release: </span></p>
+                                <p><span class="preview">
+                                 <p>Production release for early opt-in: April 13, 2023 <span style="color: #ff0000;"> This feature is available in Production only through the early feature opt-in for Workfront Boards.</span></p>
+                                <p>Production release for all customers: With the 23.3 release</p></span></p>
                             </li>
                         </ul>
                     </td>
@@ -208,7 +210,7 @@ New in preview, prod, and coming soon text
 
 Test for boards early access stuff
 
-Production release for early opt-in: March 2, 2023 This feature is available in Production on this date only through the early feature opt-in for Workfront Boards.
+Production release for early opt-in: March 2, 2023 This feature is available in Production only through the early feature opt-in for Workfront Boards.
 
 Production release for all customers: With the 23.2 release
 
