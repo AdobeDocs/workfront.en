@@ -91,11 +91,11 @@ You must have the following access to perform the steps in this article:
     <tbody> 
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Name]</strong></td> 
-      <td> <p>Changing the name also changes the name on the connected [!DNL Workfront] object.</p> </td> 
+      <td>Changing the name also changes the name on the connected [!DNL Workfront] object.</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Description]</strong></td> 
-      <td> <p>Changing the description also changes the description on the connected [!DNL Workfront] object.</p> </td> 
+      <td>Changing the description also changes the description on the connected [!DNL Workfront] object. <span class="preview">You can add URLs in the description and they will become clickable links when the card is saved.</span></td> 
      </tr> 
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Assignees]</strong></td>
@@ -105,7 +105,7 @@ You must have the following access to perform the steps in this article:
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Column]</strong></td>
-      <td><p>Select the column for the card.</p></td>
+      <td>Select the column for the card.</td>
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Status]</strong></td>
@@ -115,7 +115,7 @@ You must have the following access to perform the steps in this article:
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Planned Completion]</strong></td>
-      <td><p>Changing this date also changes the planned completion date on the connected [!DNL Workfront] object.</p></td>
+      <td>Changing this date also changes the planned completion date on the connected [!DNL Workfront] object.</td>
      </tr>
       <tr>
       <td role="rowheader"><strong>[!UICONTROL Estimation]</strong></td>
@@ -137,7 +137,7 @@ You must have the following access to perform the steps in this article:
 
    >[!NOTE]
    >
-   >The left navigation panel is available only through the early feature opt-in for Workfront Boards.
+   >The left navigation panel and the ability to add clickable links in the Description field are available only through the early feature opt-in for Workfront Boards.
 
 1. Click **[!UICONTROL Close]** to return to the board.
    The connected object, assignees, tags, due date, checklist counter, estimated hours, and status are displayed on the card.

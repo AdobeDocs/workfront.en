@@ -59,7 +59,7 @@ An ad hoc card is not connected to a work item in [!DNL Adobe Workfront].
      </tr> 
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Description]</strong> </td> 
-      <td>A description of the card.</td> 
+      <td>A description of the card. <span class="preview">You can add URLs in the description and they will become clickable links when the card is saved.</span></td>
      </tr> 
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Assignees]</strong> </td> 
@@ -95,13 +95,14 @@ An ad hoc card is not connected to a work item in [!DNL Adobe Workfront].
    Sample card details image in the Production environment:
    ![Ad hoc card details](assets/boards-edit-ad-hoc-card-071822.png)
 
-   Sample card details image in the Preview environment:
+   <span class="preview">Sample card details image in the Preview environment:
+   ![Ad hoc card details](assets/boards-edit-ad-hoc-card-041723.png)</span>
 
    <span class="preview">Use the navigation panel on the left to move between groups of fields on the card details.</span>
 
    >[!NOTE]
    >
-   >The left navigation panel is available only through the early feature opt-in for Workfront Boards.
+   >The left navigation panel and the ability to add clickable links in the Description field are available only through the early feature opt-in for Workfront Boards.
 
 1. Click **[!UICONTROL Close]** to add the card to the board.
 

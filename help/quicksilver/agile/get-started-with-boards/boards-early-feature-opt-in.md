@@ -162,6 +162,10 @@ The following table outlines major features of boards along with their current r
    <td>Create dynamic boards</td>
    <td>Planned</td>
   </tr>
+  <tr>
+   <td>Use left navigation on card details</td>
+   <td>Partially released</td>
+  </tr>
  </tbody> 
 </table>
 
