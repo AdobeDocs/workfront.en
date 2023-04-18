@@ -1,5 +1,5 @@
 ---
-title: Access levels overview
+title: New access levels overview
 user-type: administrator
 content-type: reference
 product-area: system-administration
@@ -18,9 +18,9 @@ As an Adobe Workfront administrator, you assign an access level to a user for 2 
 * Every user must have an access level in order to log in and work in Workfront. 
 * You use the access level to control what a user can see and do with certain Workfront objects and areas.
 
-## Built-in access levels in Adobe Workfront {#built-in-access}
+## New built-in access levels in Adobe Workfront {#built-in-access}
 
-Workfront has 6 built-in access levels:
+Workfront has 6 new built-in access levels:
 
 * System Administrator
 * Standard
