@@ -112,6 +112,7 @@ You can build a template in a process similar to building a scenario. Fusion adm
 
 1. (Optional) Click **[!UICONTROL Run once]** to test your template.
 1. Click the **[!UICONTROL Save]** icon ![](assets/save-icon.png).
+
 ## Set up [!UICONTROL Wizard] functionality {#set-up-wizard-functionality}
 
 The [!DNL Workfront Fusion template] [!UICONTROL Wizard] allows you to provide future users of your template with instructions or information related to the specific fields used in modules.
