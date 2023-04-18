@@ -3,8 +3,8 @@ title: 23.3 release overview
 description: 23.3 release overview
 author: Becky
 feature: Product Announcements
+exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
 ---
-
 # 23.3 release overview
 
 This page provides information about functionality that is included in the 23.3 release scheduled for July 2023. 
