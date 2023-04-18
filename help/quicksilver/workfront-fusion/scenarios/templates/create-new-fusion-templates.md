@@ -49,6 +49,13 @@ For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Work
 
 ## Create a new template
 
+You can build a template in a process similar to building a scenario. Fusion administrators can also create templates from existing scenarios.
+
+* [Build a template](#build-a-template)
+* [Create a template from a scenario](#create-a-template-from-a-scenario)
+
+### Build a template
+
 1. Click **[!UICONTROL Templates]** ![](assets/fusion-template-icon.png) in the left navigation panel.
 1. Click **[!UICONTROL Create a new template]** in the upper-right corner.
 1. (Optional) Rename the template by replacing the default **[!UICONTROL New template name]** in the upper-left corner.
@@ -76,6 +83,35 @@ For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Work
 >
 >By saving your template you make it visible for all your team members. If you want your template to be accessible outside of your team you need to publish it and then use a shared link, or ask your administrator to approve and publish the template.
 
+### Create a template from a scenario
+
+>[!NOTE]
+>
+>You must be a Fusion administrator to create a template from a scenario. 
+
+1. Open the scenario details page for the scenario that you want to create a scenario from.
+1. Click the **Admin** drop down near the upper-right corner of the page.
+1. Select **Clone as template**.
+   
+   The scenario is copied into a New template page.
+1. (Optional) Rename the template by replacing the default **[!UICONTROL New template name]** in the upper-left corner.
+1. (Optional) To change the language of your template, click **[!UICONTROL Set up a template]** ![](assets/fusion-scenario-settings-icon.png) and select the language from the Language drop-down.
+
+   >[!IMPORTANT]
+   >
+   >The Languages selection corresponds to the languages available in the system settings and concerns only the name of the public template and its description. You can't change a template language once the template has been saved.
+
+1. (Optional) To enter a description of the template, click **[!UICONTROL Set up a template]** ![](assets/fusion-scenario-settings-icon.png) and enter the description.
+1. Edit apps, modules, and tools in the same way as you would do when editing a standard scenario.
+
+   To add contextual help to the modules, see [Set up [!UICONTROL Wizard] functionality](#set-up-wizard-functionality) in this article.
+
+   >[!NOTE]
+   >
+   >If your template includes modules that require adding the connection, credentials, or other privacy-sensitive information, this information is not shared with the template users.
+
+1. (Optional) Click **[!UICONTROL Run once]** to test your template.
+1. Click the **[!UICONTROL Save]** icon ![](assets/save-icon.png).
 ## Set up [!UICONTROL Wizard] functionality {#set-up-wizard-functionality}
 
 The [!DNL Workfront Fusion template] [!UICONTROL Wizard] allows you to provide future users of your template with instructions or information related to the specific fields used in modules.
