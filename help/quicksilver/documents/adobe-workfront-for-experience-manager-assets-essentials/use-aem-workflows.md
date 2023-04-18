@@ -62,11 +62,11 @@ Before you begin,
 
 * Your Workfront administrator must configure workflows in an Adobe Experience Manager integration. For more information, see [Configure the Experience Manager Assets as a Cloud Service integration](../../administration-and-setup/configure-integrations/configure-aacs-integration.md#set-up-workflows-optional).
 
-## Add a workflow to a Project Template 
+## Add a workflow to a template 
 
-You can add a workflow to a Project Template. The workflow will be applied to any projects created from the template.
+You can add a workflow to a project template. The workflow will be applied to any projects created from the template.
 
-1. <!-- main menu snippet??--> Open a template by clicking Templates in the Main Menu, then selecting the template from the list.
+1. <!-- main menu snippet??--> Open a template by clicking **Templates** in the Main Menu, then selecting the template from the list.
 1. Click **Experience Manager Assets** in the left navigation panel.
 
    >[!NOTE]
@@ -77,6 +77,8 @@ You can add a workflow to a Project Template. The workflow will be applied to an
 1. (Optional) Edit any workflow values that you want to apply to projects created from this template. 
 
    For example, to create a linked folder in a location other than the default value, enter the linked folder location.
+
+   Only workflows that have been activated in the Experience Manager area of Setup are available in templates or projects.
 
 1. Your changes save automatically. <!-- do they though??-->
 
@@ -92,6 +94,9 @@ You can add a workflow when creating a project, or add a workflow to an existing
 
 1. When selecting a template for the project, select the template that contains the workflows you want to use for this project.
 1. (Optional) Edit any workflow values for the project, as described in [Edit workflow values in a project](#edit-workflow-values-in-a-project).
+
+   Only workflows that have been activated in the Experience Manager area of Setup are available in templates or projects.
+
 
 ### Add a workflow to an existing project
 

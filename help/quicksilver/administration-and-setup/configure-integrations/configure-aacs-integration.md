@@ -166,7 +166,7 @@ A workflow is a set of actions that connect Workfront to Adobe Experience Manage
 
 The default workflow values that you set in the integration can be overridden at the Project Template and Project levels.
 
-### Set up a workflow for linked folders
+### Set up a workflow for the creation of Adobe Experience Manager linked folders
 
 1. Toggle the **[!UICONTROL Create Linked folder]** on.
 1. Choose a folder path to indicate where you want all linked folders associated with this integration. 
