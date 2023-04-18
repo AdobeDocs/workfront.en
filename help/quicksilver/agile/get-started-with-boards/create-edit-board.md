@@ -50,7 +50,9 @@ You must have the following access to perform the steps in this article:
    | Retrospective board | The following columns are provided on the board: What went well? What could be improved? Who should we celebrate? What can we do to move faster? You can add new columns and rename or delete the default columns. <p>No column policies are applied. |
    | <span class="preview">Dynamic board</span> | <span class="preview">The following columns are provided on the board: Unselected, New, In Progress, On Hold, and Complete. You can add new columns and rename or delete the default columns. (The Unselected column can be renamed but not deleted. This column holds all cards with a status that doesn't match any of the other column statuses.) <p>The default column policies assign cards to columns based on their status. For information, see [Manage board columns](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md).</span> |
 
-1. For a dynamic board only, follow the setup wizard steps:
+1. <span class="preview">For a dynamic board only, follow the setup wizard steps:</span>
+
+   <div class="preview">
 
    1. Type a name for the board and click [!UICONTROL **Next**].
    1. Click [!UICONTROL **Add source**].
@@ -66,7 +68,9 @@ You must have the following access to perform the steps in this article:
 
       This is the same process as creating a filter on an intake column. For more information, see [Add an intake column to a board](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md).
 
-   1. After adding the filters, click [!UICONTROL **Create board**].
+   1. After adding the filters, click [!UICONTROL **Create board**].  
+
+   </div>
 
 1. Type a name for the board in the **[!UICONTROL Board]** field and press Enter.
 1. Configure the board as needed.
