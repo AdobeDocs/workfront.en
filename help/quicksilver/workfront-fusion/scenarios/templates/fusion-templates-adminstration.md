@@ -93,4 +93,4 @@ Approving a template makes it visible in the [!UICONTROL Public templates] tab a
 
 As an administrator, you have the ability to clone a scenario as a template.
 
-For instructions on cloning a scenario as a template, see [Create new templates in [!DNL Adobe Workfront Fusion]](../../../workfront-fusion/scenarios/templates/create-new-fusion-templates.md#create)in [Create new templates in [!DNL Adobe Workfront Fusion]](../../../workfront-fusion/scenarios/templates/create-new-fusion-templates.md)
+For instructions on cloning a scenario as a template, see [Create a template from a scenario](../../../workfront-fusion/scenarios/templates/create-new-fusion-templates.md#create-a-template-from-a-scenario) in [Create new templates in [!DNL Adobe Workfront Fusion]](../../../workfront-fusion/scenarios/templates/create-new-fusion-templates.md)
