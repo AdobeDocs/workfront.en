@@ -160,7 +160,7 @@ The following table outlines major features of boards along with their current r
   </tr>
   <tr>
    <td>Create dynamic boards</td>
-   <td>Planned</td>
+   <td>Partially released</td>
   </tr>
  </tbody> 
 </table>
