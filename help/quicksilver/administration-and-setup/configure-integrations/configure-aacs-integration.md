@@ -170,6 +170,7 @@ The default workflow values that you set in the integration can be overridden at
 
 1. Toggle the **[!UICONTROL Create Linked folder]** on.
 1. Choose a folder path to indicate where you want all linked folders associated with this integration. 
+   ![Linked folder navigation](assets/select-folder-aem-integration.png)
 1. Enable the **Append Portfolio and Program Names** option to automatically include Portfolio and Program names at the end of the linked folder's name.
 1. Click **Save** or move on to the [Set up linked folders (Optional)](#set-up-linked-folders-optional) section in this article.
 
