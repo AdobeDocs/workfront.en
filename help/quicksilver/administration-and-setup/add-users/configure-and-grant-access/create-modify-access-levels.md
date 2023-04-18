@@ -15,8 +15,8 @@ exl-id: d2a73d24-51d3-42e2-9c09-7f4bc30b2caa
 
 As an Adobe Workfront administrator, you can create custom access levels and apply them to users. As you work with access levels, it is important to understand how they work together with the object permissions that users grant when they share objects with each other. For more information about access levels, see
 
-* [Access levels overview](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md)
-* [Legacy access levels overview](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
+* [New access levels overview](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md)
+* [Access levels overview](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
 
 >[!IMPORTANT]
 >

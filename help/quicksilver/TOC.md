@@ -422,7 +422,7 @@ feature-set: Workfront
       * [Access levels and permissions](administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md)
       * [Access to objects and areas by license type](administration-and-setup/add-users/access-levels-and-object-permissions/access-to-objects-and-areas-by-license-type.md)
       * [Functionality for each object type](administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md)
-      * [Configurable legacy access for each  object type](administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md)
+      * [Configurable access for each  object type](administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md)
       * [Built-in access levels](administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md)
       * [List users' access levels and licenses](administration-and-setup/add-users/access-levels-and-object-permissions/list-access-levels-and-licenses-for-your-users.md)
     * Configure access to Workfront {#configure-access}
