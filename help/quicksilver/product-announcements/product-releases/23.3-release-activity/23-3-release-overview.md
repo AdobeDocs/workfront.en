@@ -20,7 +20,8 @@ The <add release> release webinar will be held on <date>. You can [register for 
 
 ## Adobe Workfront enhancements
     
-*   [Agile enhancements](#agile-enhancements)
+* [Agile enhancements](#agile-enhancements)
+* [Other enhancements](#other-enhancements)
     
 ### Agile enhancements
 
@@ -134,7 +135,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
                  <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3--apr-17.md" class="MCXref xref" xrefformat="{para}">Profiles without avatars now display user initials</a><span style="color: #ff0000;"> New in Preview!</span></p>
-                        <p>To make it easier to find specific users within large lists or without profile pictures, profiles without customized avatars now display the user's initials on a colored background in lists and legacy reports. This is a minor cosmetic change, and does not apply if an avatar photo is already being used or the user is deactivated.</p>
+                        <p>To make it easier to find specific users within large lists, profiles without customized avatars now display the user's initials on a colored background in lists and legacy reports. This is a minor cosmetic change, and does not apply if an avatar photo is already being used or the user is deactivated.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
                         <ul>
