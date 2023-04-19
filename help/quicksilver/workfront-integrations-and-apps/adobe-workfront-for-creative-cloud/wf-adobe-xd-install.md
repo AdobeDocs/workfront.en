@@ -57,6 +57,8 @@ You must have the following access to perform the steps in this article:
 
 If you are an [!DNL Adobe Admin Console] administrator, you can include the plugin in [!DNL Creative Cloud] deployment packages. For more information, see [Including plugins in your package](https://helpx.adobe.com/in/enterprise/using/manage-extensions.html).
 
+[View a video tutorial here](https://www.youtube.com/watch?v=zzvXNLIBzrc){target=_blank}.
+
 ## Install the [!DNL Adobe Workfront for XD] plugin individually
 
 You can install the [!DNL Adobe Workfront for XD] plugin for yourself from the [!DNL Adobe Exchange].
