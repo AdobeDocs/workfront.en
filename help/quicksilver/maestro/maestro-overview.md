@@ -33,7 +33,8 @@ With Maestro, you can design workspaces that fit the following needs of each of 
   <tr>
    <td role="rowheader">Adobe Workfront plan*</td>
    <td>
-   <p>Any</p>
+   <p>Current plan: Prime or Ultimate</p>
+<p>Legacy plan: Enterprise</p>
    </td>
   </tr>
   <tr>
