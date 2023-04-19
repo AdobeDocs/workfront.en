@@ -1,15 +1,15 @@
 ---
 product-area: projects
 navigation-topic: update-work-items-and-view-updates
-title: Unified Commenting Experience
+title: New commenting experience
 description: The new Unified Commenting Experience will
 author: Alina
 feature: Get Started with Workfront
+exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
 ---
-
 # New commenting experience
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span>-->
 
 An update to the commenting experience in Adobe Workfront is currently in development. This update includes a new interface, new features, and improved performance in the Updates section of select objects. 
 
@@ -85,7 +85,7 @@ The following table illustrates the features that will be available in the new c
    </td>
    <td>✓ 
    </td>
-   <td><span class="preview">✓</span> 
+   <td>✓
    </td>
    <td> 
    </td>
@@ -157,9 +157,8 @@ The following table illustrates the features that will be available in the new c
    </td>
    <td> 
    </td>
-   <td><span class="preview">✓ </span>
-   </td>
-   <td> 
+   <td>
+   <td>✓ 
    </td>
    <td> 
    </td>
@@ -185,7 +184,7 @@ The following table illustrates the features that will be available in the new c
    </td>
    <td>✓ 
    </td>
-   <td><span class="preview">Replaced with edit comment </span>
+   <td>Replaced with edit comment 
    </td>
    <td> 
    </td>
@@ -199,7 +198,7 @@ The following table illustrates the features that will be available in the new c
    </td>
    <td>✓ 
    </td>
-   <td>Replaced with Activity tab 
+   <td>Replaced with the Activity tab 
    </td>
    <td> 
    </td>
@@ -213,7 +212,7 @@ The following table illustrates the features that will be available in the new c
    </td>
    <td> 
    </td>
-   <td><span class="preview">✓</span> 
+   <td> ✓
    </td>
    <td> 
    </td>
@@ -241,8 +240,7 @@ The following table illustrates the features that will be available in the new c
    </td>
    <td> 
    </td>
-   <td><span class="preview">✓</span>
-   <p><span class="preview">This feature should be available with the 23.2 and has been temporarily delayed.</span> 
+   <td>✓
    </td>
    <td> 
    </td>
@@ -298,9 +296,9 @@ The following table illustrates the features that will be available in the new c
    </td>
    <td>✓ 
    </td>
-   <td> 
+   <td> Replaced with Copy link
    </td>
-   <td>✓ 
+   <td> 
    </td>
    <td>Q2, 2023 
    </td>
@@ -312,11 +310,11 @@ The following table illustrates the features that will be available in the new c
    </td>
    <td>✓ 
    </td>
+   <td> Replaced with Copy link
+   </td>
    <td> 
    </td>
-   <td>✓ 
-   </td>
-   <td>Q2, 2023 
+   <td> 
    </td>
    <td> 
    </td>
@@ -340,11 +338,11 @@ The following table illustrates the features that will be available in the new c
    </td>
    <td>✓ 
    </td>
+   <td> ✓
+   </td>
    <td> 
    </td>
-   <td>✓ 
-   </td>
-   <td>Q2, 2023 
+   <td>
    </td>
    <td> 
    </td>
@@ -382,17 +380,14 @@ The following table illustrates the features that will be available in the new c
 
 ## Locate the new commenting experience
 
-The new commenting experience is currently supported for the following objects, when viewing the Updates section in the following versions:
+The new commenting experience is currently supported for the following objects, when viewing the Updates section in the following versions of Workfront:
 
 * When enabling the Beta experience in the Updates section: 
 
-    <div class="preview">
-
-    * Issues.  
+    * Issues 
 
     For more information about managing updates for Workfront objects, see [Update work](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). 
-
-    </div>
+ 
 
 * By default, as the main commenting experience:
 
@@ -405,12 +400,10 @@ The new commenting experience is currently supported for the following objects, 
     For more information about managing updates for goals, see [Manage goal comments in Adobe Workfront Goals](../../workfront-goals/goal-management/manage-goal-comments.md). 
 
 
-<div class="preview">
-
 To enable the new commenting exprience Beta: 
 
 1. Go to an object you want to activate the new commenting exprience for, then click **Updates** in the left panel.
-1. Click **Try out the Commenting Beta** in the lower-right corner of the Updates area. 
+1. Enable the **Commenting Beta** toggle in the upper-right corner of the Updates area. 
 1. Click **Agree** in the Beta agreement box. This enables the new commenting exprience for the selected object. 
 1. Start typing an update in the **Comments** tab. The Comments tab should be the default tab when the new experience opens
 
@@ -418,6 +411,4 @@ To enable the new commenting exprience Beta:
 
     Click the  **System Activity** tab to view the activity updates generated by Workfront. 
     
-    For more information about updating objects in the new commenting exprience, see [Update work](../updating-work-items-and-viewing-updates/update-work.md). 
-
-</div>
+    For more information about updating objects in the new commenting exprience, see [Update work](../updating-work-items-and-viewing-updates/update-work.md).

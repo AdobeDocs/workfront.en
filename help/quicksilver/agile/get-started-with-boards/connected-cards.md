@@ -117,7 +117,7 @@ You must have the following access to perform the steps in this article:
      </tr>
       <tr>
       <td role="rowheader"><strong>[!UICONTROL Estimation]</strong></td>
-      <td><p>The number of hours for the card to be completed.</p><p>If you use the early feature opt-in for [!DNL Workfront] [!UICONTROL Boards], changing the estimation also changes the story points value on the connected [!DNL Workfront] object.</p><p>If you are not opting in to early features, this field is a manual entry only and the value cannot be more than 99.</p></td>
+      <td><p>The number of hours for the card to be completed.</p><p>Changing the estimation also changes the story points value on the connected [!DNL Workfront] object.</p></td>
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Tags]</strong></td>
@@ -176,10 +176,6 @@ After you have created an ad hoc card, you can convert it to a connected card. F
 1. Click **[!UICONTROL Close]** to return to the board.
 
 ## Log hours on a connected card
-
->[!NOTE]
->
->This feature is available only through the early feature opt-in for Workfront Boards.
 
 You must have the correct permissions to log hours on the connected task or issue.
 

@@ -87,7 +87,7 @@ You must have the following access to perform the steps in this article:
 
    Click the **[!UICONTROL More]** menu ![[!UICONTROL More menu]](assets/more-icon-spectrum.png) on the card and select **[!UICONTROL Edit]**.
 
-1. Find the tag you want to remove from the card, then click the **[!UICONTROL Remove]**&#x200B;icon ![Remove tag](assets/copy-of-boards-remove-30x23.png).
+1. Find the tag you want to remove from the card, then click the **[!UICONTROL Remove]** icon ![Remove tag](assets/copy-of-boards-remove-30x23.png).
 1. Click **[!UICONTROL Close]**.
 
 ## Delete a tag

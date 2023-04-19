@@ -5,6 +5,7 @@ title: Announcement archive
 description: This section contains past announcements for reference
 author: Luke
 feature: Product Announcements
+exl-id: d2962100-3a64-47a9-a67c-5ebf6a594711
 ---
 # Announcement archive
 
@@ -18,4 +19,3 @@ feature: Product Announcements
 * [Email Spoofing & POP Reply](email-spoofing-pop-reply-message.md)
 * [Customers on Clusters 1, 2, and 3 must update any allowlist IP blocks to prevent the blocking of Adobe Workfront services](clusters-1-3-update-whitelist.md)
 * [Remove custom SMTP as an outgoing email option](remove-custom-smtp.md)
-

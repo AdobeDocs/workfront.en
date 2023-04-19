@@ -12,6 +12,10 @@ feature-set: Workfront
     * [Product releases overview](product-announcements/product-releases/product-releases.md)
     * [Adobe Workfront release schedule and process](product-announcements/product-releases/workfront-release-schedule.md)
     * [Prepare for an Adobe Workfront quarterly release](product-announcements/product-releases/release-readiness.md)
+    * 23.3 Release {#release-23-3}
+      * [23.3 Release overview](product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md) 
+      * [Look and feel updates during the 23.3 release time frame](product-announcements/product-releases/23.3-release-activity/23-3-look-and-feel-updates.md)
+      * [23.3 release activity week of April 17, 2023](product-announcements/product-releases/23.3-release-activity/23-3-apr-17.md) 
     * 23.2 Release {#release-23-2}
       * [23.2 Release overview](product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md) 
       * [23.2 Administrator enhancements](product-announcements/product-releases/23.2-release-activity/23-2-admin-enhancements.md)
@@ -169,6 +173,9 @@ feature-set: Workfront
       * [Workfront Scenario Planner with the 20.3 release - August 14, 2020](product-announcements/product-releases/scenario-planner-release-activity/sp-release-20-3.md)
     * Adobe Workfront Goals release activity {#goals-release}
       * [Adobe Workfront Goals release activity](product-announcements/product-releases/goals-release-activity/goals-release-activity.md)
+      * Goals with 23.1 release {#goals-23-2}
+        * [Adobe Workfront Goals with the 23.2 release](product-announcements/product-releases/goals-release-activity/goals-23-2-release/goals-23-2-release.md)
+        * [Adobe Workfront Goals 23.2 release activity: Week of March 20, 2023](product-announcements/product-releases/goals-release-activity/goals-23-2-release/goals-march.md)
       * Goals with 23.1 release {#goals-23-1}
         * [Adobe Workfront Goals with the 23.1 release](product-announcements/product-releases/goals-release-activity/goals-23-1-release/goals-23-1-release.md)
         * [Adobe Workfront Goals 23.1 release activity: Week of December 5, 2023](product-announcements/product-releases/goals-release-activity/goals-23-1-release/goals-jan.md)
@@ -403,15 +410,21 @@ feature-set: Workfront
       * [View user login information](administration-and-setup/add-users/create-and-manage-users/view-user-login-info.md)
       * [Adobe Admin Console](administration-and-setup/add-users/create-and-manage-users/admin-console.md)
     * How access levels work {#access-levels}
-      * [How access levels work](administration-and-setup/add-users/access-levels-and-object-permissions/access-levels.md)
-      * [Access levels overview](administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md)
-      * [Licenses overview](administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md)
-      * [Access levels and permissions](administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md)
-      * [Access to objects by license type](administration-and-setup/add-users/access-levels-and-object-permissions/access-to-objects-and-areas-by-license-type.md)
+      * [How access levels work](administration-and-setup/add-users/how-access-levels-work/access-levels-toc.md)
+      * [Access levels overview](administration-and-setup/add-users/how-access-levels-work/access-level-overview.md)
+      * [Licenses overview](administration-and-setup/add-users/how-access-levels-work/licenses-overview.md)
+      * [Access to objects and areas by license type](administration-and-setup/add-users/how-access-levels-work/access-to-objects-areas-license-types.md)
+      * [Functionality available for each object type](administration-and-setup/add-users/how-access-levels-work/functionality-available-for-objects.md)
+    * How legacy access levels work {#legacy-access-levels}
+      * [How access legacy levels work](administration-and-setup/add-users/access-levels-and-object-permissions/access-levels.md)
+      * [Legacy access levels overview](administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md)
+      * [Legacy licenses overview](administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md)
+      * [Legacy access levels and permissions](administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md)
+      * [Legacy access to objects by license type](administration-and-setup/add-users/access-levels-and-object-permissions/access-to-objects-and-areas-by-license-type.md)
       * [Functionality for each object type](administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md)
-      * [Configurable access for each  object type](administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md)
-      * [Built-in access levels](administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md)
-      * [List users' access levels and licenses](administration-and-setup/add-users/access-levels-and-object-permissions/list-access-levels-and-licenses-for-your-users.md)
+      * [Configurable legacy access for each  object type](administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md)
+      * [Built-in legacy access levels](administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md)
+      * [List users' legacy access levels and licenses](administration-and-setup/add-users/access-levels-and-object-permissions/list-access-levels-and-licenses-for-your-users.md)
     * Configure access to Workfront {#configure-access}
       * [Configure access](administration-and-setup/add-users/configure-and-grant-access/configure-access.md)
       * [Create or modify custom access levels](administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)
@@ -807,7 +820,7 @@ feature-set: Workfront
     * [Notifications: Action needed](workfront-basics/using-notifications/notifications-action-needed.md)
     * [Notifications: Approval information](workfront-basics/using-notifications/notifications-approval-information.md)
     * [Notifications: Communication](workfront-basics/using-notifications/notifications-communication.md)
-    * [Notifiocations: Delegation](workfront-basics/using-notifications/notifications-delegation.md)
+    * [Notifications: Delegation](workfront-basics/using-notifications/notifications-delegation.md)
     * [Notifications: Goals](workfront-basics/using-notifications/notifications-goals.md)
     * [Notifications: Information about projects I own](workfront-basics/using-notifications/notifications-information-about-projects-i-own.md)
     * [Notifications: Information about projects I sponsor](workfront-basics/using-notifications/notifications-information-about-projects-i-sponsor.md)
@@ -909,6 +922,7 @@ feature-set: Workfront
     * [Delete or archive a card from a board](agile/get-started-with-boards/delete-board-items.md)
     * [Filter and search in a board](agile/get-started-with-boards/filter-search-in-board.md)
     * [Add tags](agile/get-started-with-boards/add-tags.md)
+    * [Boards email notifications and preferences](/help/quicksilver/agile/get-started-with-boards/boards-emails.md)
   * Use agile planning tools in boards {#agile-planning-boards}
     * [Agile planning tools overview](agile/use-boards-agile-planning-tools/agile-planning-tools-overview.md)
     * [Manage the work in progress (WIP) limit on a board](agile/use-boards-agile-planning-tools/manage-wip-limit-on-board.md)
@@ -918,6 +932,7 @@ feature-set: Workfront
     * [Manage workstreams](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md)
     * [Use the card list](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md)
     * [Create an iteration in a workstream](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md)
+    * [Configure the backlog on a workstream board](/help/quicksilver/agile/use-boards-agile-planning-tools/configure-backlog-workstream-board.md)
     * [Review iteration metrics](/help/quicksilver/agile/use-boards-agile-planning-tools/review-iteration-metrics.md)
   * [Agile overview](agile/agile-overview.md)
   * Get started with agile in Adobe Workfront {#agile-in-workfront}  
@@ -1794,6 +1809,9 @@ feature-set: Workfront
       * [Edit the Proof Permission Profile field in Bulk](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/edit-proof-profile-bulk.md)
       * [Disable sharing proof via public URL or embed code](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/disable-public-proofs.md)
       * [FAQ: proofing within Adobe Workfront - US to EMEA migration](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/faq-proofing-in-wf-us-to-emea-migration.md)
+  * Tips, tricks, and troubleshooting for approvals {#ttt-approvals}
+    * [Tips, tricks, and troubleshooting for approvals](review-and-approve-work/tips-tricks-troubleshooting-approvals/tips-tricks-troubleshooting-approvals.md)
+    * [View the number of decisions for all users](review-and-approve-work/tips-tricks-troubleshooting-approvals/view-number-of-decisions-for-users.md)
 * Timesheets {#timesheets}
   * [Timesheets](timesheets/timesheets-all.md)
   * Timesheet details {#details}
@@ -2130,6 +2148,7 @@ feature-set: Workfront
   * Adobe Workfront for G Suite {#workfront-for-g-suite}
     * [Adobe Workfront for G Suite](workfront-integrations-and-apps/workfront-for-g-suite/workfront-for-gsuite.md)
     * [Install Adobe Workfront for G Suite](workfront-integrations-and-apps/workfront-for-g-suite/install-workfront-for-gsuite.md)
+    * [Privacy and permissions in Workfront for G Suite](workfront-integrations-and-apps/workfront-for-g-suite/privacy-and-permissions-in-g-suite.md)
     * [Log in and out of Adobe Workfront for G Suite](workfront-integrations-and-apps/workfront-for-g-suite/log-in-and-out-wf-for-gsuite.md)
     * [Access Adobe Workfront Home content from G Suite](workfront-integrations-and-apps/workfront-for-g-suite/access-wf-home-content-from-g-suite.md)
     * [Update a Adobe Workfront object from G Suite](workfront-integrations-and-apps/workfront-for-g-suite/update-a-workfront-object-in-gsuite.md)
@@ -2440,6 +2459,7 @@ feature-set: Workfront
     * [Configure and use your organization's custom OAuth 2 applications using JWT flow](wf-api/api/oauth-app-jwt-flow.md)
     * [Configure and use your organization's custom OAuth 2 applications using PKCE flow](wf-api/api/oauth-app-pkce-flow.md)    
     * [Deprecation of API-Internal](wf-api/api/deprecation-api-internal.md)
+    * [What's new in API version 16](wf-api/api/new-api-version-16.md)
     * [What's new in API version 15](wf-api/api/new-api-version-15.md)
     * [What's new in API version 14](wf-api/api/new-api-version-14.md)
     * [What's new in API version 13](wf-api/api/new-api-version-13.md)

@@ -5,6 +5,7 @@ title: Event subscription certificates
 description: Event subscription certificates
 author: Becky
 feature: Workfront API
+exl-id: 3606b6c3-b373-47ea-9cb5-813bd3af8da7
 ---
 # Configure Client TLS for Event Subscription
 
@@ -103,5 +104,4 @@ Click the following links to download the client certificates.
 
 >[!NOTE]
 >
->You can use the same client certificate for both Sandbox environments. 
-
+>You can use the same client certificate for both Sandbox environments.
