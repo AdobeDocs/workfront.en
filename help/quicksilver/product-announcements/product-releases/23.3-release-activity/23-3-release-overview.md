@@ -40,7 +40,43 @@ The <add release> release webinar will be held on <date>. You can [register for 
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-17.md" class="MCXref xref" xrefformat="{para}">Boards email notifications and preferences</a><span style="color: #ff0000;"> New in Preview!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-17.md" class="MCXref xref" xrefformat="{para}">Migrate agile team Kanban cards to Boards</a><span style="color: #ff0000;"> New in Preview!</span></p>
+                        <p>A new Add to Boards button on agile team Kanban boards allows you to add all cards from the Kanban board to a Workfront board. You can choose to create a new Workfront board or add the cards to an existing board.</p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                        <ul>
+                            <li>
+                                <p>Preview release: April 20, 2023<br /></p>
+                            </li>
+                            <li>
+                                <p><span class="preview">
+                                 <p>Production release for early opt-in: April 27, 2023 <span style="color: #ff0000;"> This feature is available in Production only through the early feature opt-in for Workfront Boards.</span></p>
+                                <p>Production release for all customers: With the 23.3 release</p></span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-17.md" class="MCXref xref" xrefformat="{para}">Left navigation added to card details on Boards</a><span style="color: #ff0000;"> New in Preview!</span></p>
+                        <p>As more field options are added to cards on Workfront Boards, the card details have grown longer. A new navigation panel on the left of the card details allows you to select a section and move automatically to that group of fields.</p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                        <ul>
+                            <li>
+                                <p>Preview release: April 20, 2023<br /></p>
+                            </li>
+                            <li>
+                                <p><span class="preview">
+                                 <p>Production release for early opt-in: April 27, 2023 <span style="color: #ff0000;"> This feature is available in Production only through the early feature opt-in for Workfront Boards.</span></p>
+                                <p>Production release for all customers: With the 23.3 release</p></span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-10.md" class="MCXref xref" xrefformat="{para}">Boards email notifications and preferences</a></p>
                         <p>Email notifications are now available for Adobe Workfront Boards. The notifications are turned on by default and you can select in your preferences which emails you want to receive. You will receive an email when you are added to a board and when a card is assigned to you.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
@@ -75,6 +111,22 @@ The <add release> release webinar will be held on <date>. You can [register for 
                     <td>
                         <p><span class="bold">Release dates</span>
                         </p>
+                    </td>
+                </tr>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3--apr-17.md" class="MCXref xref" xrefformat="{para}">Profiles without avatars now display user initials</a><span style="color: #ff0000;"> New in Preview!</span></p>
+                        <p>To make it easier to find specific users within large lists or without profile pictures, profiles without customized avatars now display the user's initials on a colored background in lists and legacy reports. This is a minor cosmetic change, and does not apply if an avatar photo is already being used or the user is deactivated.</p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                        <ul>
+                            <li>
+                                <p>Preview release:&#160;April 20, 2023<br /></p>
+                            </li>
+                            <li>
+                                <p><span class="preview">Production release:&#160;With the 23.3 release</span></p>
+                            </li>
+                        </ul>
                     </td>
                 </tr>
                  <tr>
