@@ -225,6 +225,17 @@ Adding an update to a work item differs depending on what version of the Updates
    >   An email is generated to notify users of your update only when you submit the original update. No email is generated after you edited your update.
 
 1. (Optional) Click **Reply** to reply to an existing comment, then follow the steps 4-7 above. <!--(**************insure this stays accurate***********)-->. For information about replying to an update, see [Reply to updates](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).
+1. (Conditional and optional) If other users have added comments that display outside of the visible area in the Updates section, click **View** inside the blue **new comments banner** at the bottom of the screen  to display these comments.
+
+   ![](assets/blue-new-comments-banner-with-view-button.png)
+
+   Additional comments display at the bottom of the screen.
+
+   >[!NOTE]
+   >
+   >   The "new comments" indicator and "View" button display only when both the users that entered the new updates as well as the user currently looking at the Updates section are using the new commenting experience.
+
+   
 1. (Optional) Click the **Like** icon![](assets/like-icon.png). The icon updates with the number of likes.
 1. (Conditional and Optional) If you included additional people in your comment, click the number of members included in the update to display a list of entities that the comment you entered is shared with. 
 

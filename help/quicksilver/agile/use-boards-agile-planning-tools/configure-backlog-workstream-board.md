@@ -46,6 +46,11 @@ You must have the following access to perform the steps in this article:
    The backlog column is added on the left of the board. It remains blank until you apply a query to it.
 
 1. Expand [!UICONTROL **Backlog query**].
+
+   >[!NOTE]
+   >
+   >A default query may already be applied to the backlog, showing all work items from the card list that do not belong to an iteration and are not in Complete status.
+
 1. Click [!UICONTROL **Add condition**] and click in the "empty" field.
 1. Select the field to query by.
 
@@ -53,13 +58,13 @@ You must have the following access to perform the steps in this article:
 
 1. Select the query modifier.
 
-   The options are: equals, does not equal, exists, and does not exist.
-
-   Example: If you choose Due date and exists, the backlog will display cards with assigned due dates. Any card without a due date will not be pulled in to the backlog.
+   The modifier options depend on the fields they can apply to. For example, the "name" field does not have "greater than" or "less than" as modifier choices because those modifiers only apply to numbers.
 
 1. Select the value.
 
-   The value is only available when you use equals or not equals as the modifier.
+   The value is not available when you use "exists" or "not exists" as the modifier.
+
+   For example, if you choose "Due date" and "exists," the backlog will display cards with assigned due dates. Any card without a due date will not be pulled in to the backlog.
 
 1. (Optional) Click [!UICONTROL **Add condition**] to add another condition to the query.
 
