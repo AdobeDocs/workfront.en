@@ -31,3 +31,4 @@ You can use the [!DNL Adobe Workfront] for [!DNL Creative Cloud] plugin to
 * [Manage work with the [!DNL Adobe Workfront] plugin for [!DNL Creative Cloud] Applications](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-manage-work-toc.md)
 * [Upload documents and proofs with the [!DNL Adobe Workfront] plugin for [!DNL Creative Cloud] Applications](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-docs-proofs-toc.md)
 * [Video tutorial: Use [!DNL Adobe Workfront] plugins for [!DNL Creative Cloud]](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/integrations/adobe-creative-cloud/use-adobe-workfront-extensions-for-creative-cloud.html)
+* [Video tutorial: Creating and managing packages, deploying updates, and troubleshooting installation errors](https://www.youtube.com/watch?v=zzvXNLIBzrc)
