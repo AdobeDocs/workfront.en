@@ -131,10 +131,10 @@ The <add release> release webinar will be held on <date>. You can [register for 
                         <p><span class="bold">Release dates</span>
                         </p>
                     </td>
-                </tr><!--
+                </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3--apr-17.md" class="MCXref xref" xrefformat="{para}">Profiles without avatars now display user initials</a><span style="color: #ff0000;"> New in Preview!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-17.md" class="MCXref xref" xrefformat="{para}">Profiles without avatars now display user initials</a><span style="color: #ff0000;"> New in Preview!</span></p>
                         <p>To make it easier to find specific users within large lists, profiles without customized avatars now display the user's initials on a colored background in lists and legacy reports. This is a minor cosmetic change, and does not apply if an avatar photo is already being used or the user is deactivated.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
@@ -147,7 +147,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
                             </li>
                         </ul>
                     </td>
-                </tr>-->
+                </tr>
                  <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">Look-and-feel updates during the 23.3 release timeframe</a></p>
