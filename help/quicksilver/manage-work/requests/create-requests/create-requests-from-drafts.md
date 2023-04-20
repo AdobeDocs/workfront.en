@@ -67,7 +67,7 @@ You must do the following before you can create a request from a draft:&nbsp;
 
 1. (Optional) Using the quick filter in the upper-right corner of the Drafts list, start typing the name of a drafted request, request queue, queue topic, or topic group, then click the name of a draft to open it.
 
-    >[!TIP]
+   >[!TIP]
    >
    >You cannot apply permanent filters in the Drafts section of the Requests area. Additionally, there are no options to modify or change the view of the drafts list.  
 
