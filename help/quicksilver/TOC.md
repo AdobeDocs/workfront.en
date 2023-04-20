@@ -15,7 +15,8 @@ feature-set: Workfront
     * 23.3 Release {#release-23-3}
       * [23.3 Release overview](product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md) 
       * [Look and feel updates during the 23.3 release time frame](product-announcements/product-releases/23.3-release-activity/23-3-look-and-feel-updates.md)
-      * [23.3 release activity week of April 17, 2023](product-announcements/product-releases/23.3-release-activity/23-3-apr-17.md) 
+      * [23.3 release activity week of April 17, 2023](product-announcements/product-releases/23.3-release-activity/23-3-apr-10.md) 
+     * [23.3 release activity week of April 17, 2023](product-announcements/product-releases/23.3-release-activity/23-3-apr-17.md) 
     * 23.2 Release {#release-23-2}
       * [23.2 Release overview](product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md) 
       * [23.2 Administrator enhancements](product-announcements/product-releases/23.2-release-activity/23-2-admin-enhancements.md)
@@ -929,6 +930,7 @@ feature-set: Workfront
     * [Add an intake column to a board](agile/use-boards-agile-planning-tools/add-intake-column-to-board.md)
     * [Use groups on a board](agile/use-boards-agile-planning-tools/group-cards-on-board.md)
     * [Configure card falloff](agile/use-boards-agile-planning-tools/configure-card-falloff.md)
+    * [Migrate agile team Kanban cards to Workfront boards](/help/quicksilver/agile/use-boards-agile-planning-tools/migrate-kanban-cards-to-boards.md)
     * [Manage workstreams](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md)
     * [Use the card list](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md)
     * [Create an iteration in a workstream](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md)
