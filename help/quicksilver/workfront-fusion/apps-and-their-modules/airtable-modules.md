@@ -13,8 +13,43 @@ hidefromtoc: true
 
 # Airtable modules
 
-Adobe Workfront Fusion requires an Adobe Workfront Fusion license in addition to an Adobe Workfront license.
-In an Adobe Workfront Fusion scenario, you can automate workflows that use Airtable, as well as connect it to multiple third-party applications and services.
+
+With the [!DNL Airtable] connector for [!DNL Adobe Workfront Fusion], you can start a scenario based on events in your [!DNL Airtable] account, create, upload, and update records, search records, and make custom API calls to the Airtable API.
+
+## Access requirements
+
+You must have the following access to use the functionality in this article:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan*</td>
+  <td> <p>[!UICONTROL Pro] or higher</p> </td>
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">[!DNL Adobe Workfront] license*</td>
+   <td> <p>[!UICONTROL Plan], [!UICONTROL Work]</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront Fusion] license**</td> 
+   <td> <p>[!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Product</td> 
+   <td>Your organization must purchase [!DNL Adobe Workfront Fusion] as well as [!DNL Adobe Workfront] to use functionality described in this article.</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
+
+For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Workfront Fusion] licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+
+## Prerequisites
+
+You must have an Airtable account to use the functionality in this article.
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">For more information, see the tutorial .</p>
@@ -22,15 +57,15 @@ In an Adobe Workfront Fusion scenario, you can automate workflows that use Airta
 
 ## Connect Airtable to Workfront Fusion {#connect-airtable-to-workfront-fusion}
 
+<!--
+
 1. Log in to your Airtable account.
 1. Open your account overview and generate the API key.
+-->
 1. Open Workfront Fusion and the **Create a connection** dialog of the desired module.
 1. Enter a name for the connection.
-1. Enter the generated API key in the **API token** field.
-
-   ![](assets/airtable-create-a-connection-350x263.png)
-
-1. Click the **Continue** button. The connection is now established.
+1. (Optional) Click Show advancet settings, and enter your Airtable Client ID and Client Secret.
+1. Click the **Continue** button to create the connection and return to the module.
 
 ## Airtable modules and their fields
 
@@ -339,11 +374,11 @@ When you are configuring this module, the following fields display.
 
 #### Watch Records {#watch-records}
 
-This trigger module executes a scenario when a new record is added or updated in the table. The module returns all standard fields associated with the record or records, along with any custom fields and values that the connection accesses. You can map this information in subsequent modules in the scenario.
+This trigger module starts a scenario when a record is created or updated in the specified table.
 
 >[!NOTE]
 >
->In order to use this module, the Created Time field must be created in your table.
+>In order to use this module, the Created Time field or Last Modified Time field must be created in your table.
 
 <table style="table-layout:auto"> 
  <col> 
