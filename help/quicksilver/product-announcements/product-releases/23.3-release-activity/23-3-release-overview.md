@@ -60,7 +60,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-17.md" class="MCXref xref" xrefformat="{para}">Migrate agile team Kanban cards to Boards</a><span style="color: #ff0000;"> New in Preview!</span></p>
-                        <p>A new Add to Boards button on agile team Kanban boards allows you to add all cards from the Kanban board to a Workfront board. You can choose to create a new Workfront board or add the cards to an existing board.</p>
+                        <p>A new <b>Add to Boards</b> button on agile team Kanban boards allows you to add all cards from the Kanban board to a Workfront board. You can choose to create a new Workfront board or add the cards to an existing board.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
                         <ul>
