@@ -34,19 +34,7 @@ This section contains the following articles:
 * [[!DNL Adobe Journey Optimizer] modules](../../workfront-fusion/apps-and-their-modules/adobe-journey-optimizer-modules.md) 
 * [[!DNL Adobe PDF Services] modules](../../workfront-fusion/apps-and-their-modules/pdf-modules.md) 
 * [[!DNL Adobe Target] modules](../../workfront-fusion/apps-and-their-modules/adobe-target-modules.md) 
-
-  <!--
-  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../workfront-fusion/apps-and-their-modules/adobe-analytics-modules.md" class="MCXref xref" xrefformat="{para}">Adobe Analytics Modules</a> </li>
-  -->
-
-  <!--
-  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../workfront-fusion/apps-and-their-modules/active-campaign-modules.md" class="MCXref xref" xrefformat="{para}">ActiveCampaign modules</a> </li>
-  -->
-
-  <!--
-  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../workfront-fusion/apps-and-their-modules/airtable-modules.md" class="MCXref xref" xrefformat="{para}">Airtable modules</a> </li>
-  -->
-
+* [[!DNL Airtable] modules](../../workfront-fusion/apps-and-their-modules/airtable-modules.md) 
 * [[!DNL Allocadia] modules](../../workfront-fusion/apps-and-their-modules/allocadia-modules.md) 
 * [[!DNL Anaplan] Modules](../../workfront-fusion/apps-and-their-modules/anaplan-modules.md) 
 * [[!UICONTROL Archive] modules](../../workfront-fusion/apps-and-their-modules/archive-modules.md) 
