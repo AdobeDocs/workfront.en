@@ -152,15 +152,15 @@ The following table outlines major features of boards along with their current r
   </tr>
   <tr>
    <td>Define email notifications for Boards</td>
-   <td>Planned</td>
+   <td>Partially released</td>
   </tr>
   <tr>
    <td>Migrate legacy Kanban cards to Boards</td>
-   <td>Planned</td>
+   <td>Partially released</td>
   </tr>
   <tr>
    <td>Create dynamic boards</td>
-   <td>Planned</td>
+   <td>Partially released</td>
   </tr>
   <tr>
    <td>Use left navigation on card details</td>

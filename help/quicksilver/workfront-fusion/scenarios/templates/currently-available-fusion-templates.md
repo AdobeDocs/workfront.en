@@ -44,6 +44,10 @@ This template captures a project baseline upon any project status change noted i
 
 This template captures a project baseline on a weekly basis every Monday at 6am ET on projects filtered by portfolio, and creates an update in the update stream for logging.
 
+### Find project templates not used in policy time and notify
+
+Once a month, review your project templates using your own policy with this easy to manage template that notifies appropriate users on templates in violation of your policy.
+
 ## Workfront - Workfront Proof templates
 
 These templates automate workflows that combine Workfront with Workfront Proof.

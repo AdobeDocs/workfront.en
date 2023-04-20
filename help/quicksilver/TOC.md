@@ -12,6 +12,10 @@ feature-set: Workfront
     * [Product releases overview](product-announcements/product-releases/product-releases.md)
     * [Adobe Workfront release schedule and process](product-announcements/product-releases/workfront-release-schedule.md)
     * [Prepare for an Adobe Workfront quarterly release](product-announcements/product-releases/release-readiness.md)
+    * 23.3 Release {#release-23-3}
+      * [23.3 Release overview](product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md) 
+      * [Look and feel updates during the 23.3 release time frame](product-announcements/product-releases/23.3-release-activity/23-3-look-and-feel-updates.md)
+      * [23.3 release activity week of April 17, 2023](product-announcements/product-releases/23.3-release-activity/23-3-apr-17.md) 
     * 23.2 Release {#release-23-2}
       * [23.2 Release overview](product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md) 
       * [23.2 Administrator enhancements](product-announcements/product-releases/23.2-release-activity/23-2-admin-enhancements.md)
@@ -918,15 +922,18 @@ feature-set: Workfront
     * [Delete or archive a card from a board](agile/get-started-with-boards/delete-board-items.md)
     * [Filter and search in a board](agile/get-started-with-boards/filter-search-in-board.md)
     * [Add tags](agile/get-started-with-boards/add-tags.md)
+    * [Boards email notifications and preferences](/help/quicksilver/agile/get-started-with-boards/boards-emails.md)
   * Use agile planning tools in boards {#agile-planning-boards}
     * [Agile planning tools overview](agile/use-boards-agile-planning-tools/agile-planning-tools-overview.md)
     * [Manage the work in progress (WIP) limit on a board](agile/use-boards-agile-planning-tools/manage-wip-limit-on-board.md)
     * [Add an intake column to a board](agile/use-boards-agile-planning-tools/add-intake-column-to-board.md)
     * [Use groups on a board](agile/use-boards-agile-planning-tools/group-cards-on-board.md)
     * [Configure card falloff](agile/use-boards-agile-planning-tools/configure-card-falloff.md)
+    * [Migrate agile team Kanban cards to Workfront boards](/help/quicksilver/agile/use-boards-agile-planning-tools/migrate-kanban-cards-to-boards.md)
     * [Manage workstreams](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md)
     * [Use the card list](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md)
     * [Create an iteration in a workstream](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md)
+    * [Configure the backlog on a workstream board](/help/quicksilver/agile/use-boards-agile-planning-tools/configure-backlog-workstream-board.md)
     * [Review iteration metrics](/help/quicksilver/agile/use-boards-agile-planning-tools/review-iteration-metrics.md)
   * [Agile overview](agile/agile-overview.md)
   * Get started with agile in Adobe Workfront {#agile-in-workfront}  
@@ -2142,6 +2149,7 @@ feature-set: Workfront
   * Adobe Workfront for G Suite {#workfront-for-g-suite}
     * [Adobe Workfront for G Suite](workfront-integrations-and-apps/workfront-for-g-suite/workfront-for-gsuite.md)
     * [Install Adobe Workfront for G Suite](workfront-integrations-and-apps/workfront-for-g-suite/install-workfront-for-gsuite.md)
+    * [Privacy and permissions in Workfront for G Suite](workfront-integrations-and-apps/workfront-for-g-suite/privacy-and-permissions-in-g-suite.md)
     * [Log in and out of Adobe Workfront for G Suite](workfront-integrations-and-apps/workfront-for-g-suite/log-in-and-out-wf-for-gsuite.md)
     * [Access Adobe Workfront Home content from G Suite](workfront-integrations-and-apps/workfront-for-g-suite/access-wf-home-content-from-g-suite.md)
     * [Update a Adobe Workfront object from G Suite](workfront-integrations-and-apps/workfront-for-g-suite/update-a-workfront-object-in-gsuite.md)
