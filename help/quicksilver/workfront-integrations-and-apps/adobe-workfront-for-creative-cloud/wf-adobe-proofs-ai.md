@@ -5,8 +5,8 @@ title: Upload proofs from Illustrator
 description: You can upload your art boards as documents for a quick review and approval or simply to store in Adobe Workfront.
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
+exl-id: e98f27d4-7c07-44cc-8df5-e04472ec946e
 ---
-
 # Upload proofs from [!DNL Illustrator]
 
 You can upload your art boards as proofs directly to [!DNL Adobe Workfront] for a thorough review and approval.

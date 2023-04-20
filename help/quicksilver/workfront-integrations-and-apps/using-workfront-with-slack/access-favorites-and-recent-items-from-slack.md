@@ -50,8 +50,6 @@ Before you can access your favorites and recent items from [!DNL Slack], you mus
 
    A list of your Favorites displays.
 
-* ![slack_favorites_with_show_more_button.png](assets/slack-favorites-with-show-more-button-350x202.png)
-
 1. (Optional) Click **[!UICONTROL Show more]** to list more Favorites.
 1. Click the name of a favorite to open it in [!DNL Workfront] in a new browser tab.
 
@@ -67,7 +65,6 @@ Before you can access your favorites and recent items from [!DNL Slack], you mus
    >Commands are case sensitive. You can start your command with `/wf` instead of `/workfront`.
 
    A list of your Recent Items displays, in the order they were accessed last, with the most recent at the top. The items are listed three at a time and are grouped by object type.\
-   ![slack_recent_items.png](assets/slack-recent-items-350x249.png)
 
 1. (Optional) Click **[!UICONTROL Show more]** to list more Recent Items.
 1. (Optional) Click the name of an item you have recently accessed to open it in [!DNL Workfront] in a new browser tab.

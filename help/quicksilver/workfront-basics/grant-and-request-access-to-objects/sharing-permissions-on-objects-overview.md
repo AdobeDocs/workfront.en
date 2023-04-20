@@ -15,9 +15,7 @@ exl-id: 7c14702e-ac55-4266-88a7-f31618f84218
 
 You do not have to be an Adobe Workfront administrator to share permissions on objects that you have access to, but permissions on objects work within the access levels set by the Workfront administrator.
 
-For more information about access levels and permissions, see [How access levels and permissions work together](../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md).
-
-You can share or remove permissions to an object you created or an object that was shared with you. When you are not the creator of the object, you must have Share access on the object that you want to share in your access level in addition to Share permissions on the object. For information about access levels, see [Access levels overview](../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
+You can share or remove permissions to an object you created or an object that was shared with you. When you are not the creator of the object, you must have Share access on the object that you want to share in your access level in addition to Share permissions on the object. For information about access levels, see [Access levels overview](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md) or [Legacy access levels overview](../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
 
 >[!NOTE]
 >
@@ -25,7 +23,7 @@ You can share or remove permissions to an object you created or an object that w
 
 ## Objects that you can share in Workfront
 
-You can share the following objects in&nbsp;Workfront with other users:
+You can share the following objects in Workfront with other users:
 
 * **Projects**: For more information, see [Share a project in Adobe Workfront](../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md).
 
@@ -67,7 +65,7 @@ You can share the following objects in&nbsp;Workfront with other users:
 
   For example, if you have Contribute permissions on the object, you cannot grant another user Manage permissions on that object.
 
-* You cannot share an object with a permission level higher than the access level of a user.&nbsp;For example, if a user has View access to Projects in their access level, you cannot give them Manage permissions on a project. 
+* You cannot share an object with a permission level higher than the access level of a user. For example, if a user has View access to Projects in their access level, you cannot give them Manage permissions on a project. 
 * A user with permissions to at least View an object can share that object with someone else.
 * You can share objects with active users, job roles, teams, groups, or companies.
 

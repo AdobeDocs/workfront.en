@@ -206,8 +206,6 @@ To view projects created from an [!UICONTROL Opportunity] or Account
    All projects created by defined triggers are listed in this tab. Any user in [!DNL Salesforce] who also has a [!DNL Workfront] account and who might have permissions to see these projects in [!DNL Workfront] can also see them in [!DNL Salesforce] for the [!UICONTROL Opportunity] or the Account
  that generated them.
 
-   ![[!DNL salesforce_projects_tab_with_projects_listed].png](assets/salesforce-projects-tab-with-projects-listed-350x150.png)
-
    You can view the following information about the projects created by the integration:
 
    * Project Name 

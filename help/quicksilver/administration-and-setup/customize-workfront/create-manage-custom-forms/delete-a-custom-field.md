@@ -39,7 +39,7 @@ You must have the following to perform the steps in this article:
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Administrative access to custom forms</p> <p>For information about how Workfront administrators grants this access, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Grant users administrative access to certain areas</a>.</p> </td> 
+   <td> <p>Administrative access to custom forms</p> <p>For information about how Workfront administrators grant this access, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Grant users administrative access to certain areas</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -62,9 +62,13 @@ You must have the following to perform the steps in this article:
 >Removing a custom field from a custom form that has over 500 fields and widgets cannot be undone. If you remove the field, you can't re-add it until the form has fewer than 500 fields and widgets.
 
 1. Determine which custom fields you want to remove from the original custom form, but do not remove them at this point.
-1. Create a new custom form, as described in [Create or edit a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+1. Create a new custom form: 
 
-   1. Add the custom fields to the new form that you want to remove from the original custom form, as described in [Reuse a custom field or widget in a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/reuse-an-existing-field.md).
+   1. Add the custom fields to the new form that you want to remove from the original custom form. 
+   
+      * If you are using the custom form builder, see [Reuse a custom field or widget in a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/reuse-an-existing-field.md).
+      * If you are used the form designer, see [Add new or existing fields to your custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-new-or-existing-fields-to-your-custom-form).
+   
    1. Save the new custom form.
 
 1. Limit access to the custom form to only users with administrative access, as described in [Share a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md). 

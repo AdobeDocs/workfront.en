@@ -10,6 +10,10 @@ exl-id: 2ac392f5-98a3-4ab6-a0e3-cda378f0f68b
 ---
 # Update an [!DNL Adobe Workfront] item from [!DNL G Suite] using email content
 
+>[!NOTE]
+>
+>There is a [known issue](https://experienceleague.adobe.com/docs/workfront-known-issues/issues/new-workfront-experience/wf-current/wf-integrations-error-when-opening-wf-for-gsuite.html?lang=en) with the current version of [!DNL Workfront for G Suite] not working as expected. We are working on a new version and expect it to be released to the [!DNL Google Marketplace] in the near future. 
+
 You can update an existing project, task, or issue with information from a non-[!DNL Adobe Workfront] email.
 
 ## Access requirements
@@ -47,8 +51,6 @@ Before you can update a [!DNL Workfront] item using email content from [!DNL G S
 1. Under **[!UICONTROL Type]**, click the drop-down arrow, then click the type of object where you want to add the update.
 1. Click the **[!UICONTROL Search for]** option, start typing the name of the object where you want to add the update, then select the item when it appears in the list below.
 
-   ![](assets/click-search-for-task-issue.png)
-
    This option varies, depending on what you selected in step 3. It might be **[!UICONTROL Search for a project]**, **[!UICONTROL Search for a task]**, or **[!UICONTROL Search for an issue]**.
 
    >[!NOTE]
@@ -80,8 +82,6 @@ Before you can update a [!DNL Workfront] item using email content from [!DNL G S
 1. Click **[!UICONTROL Update]**.
 
    When you refresh your browser, a message with a link at the bottom of the [!DNL Workfront for G Suite] panel confirms that you have converted the email to an update:
-
-   ![](assets/email-was-converted-as-update.png)
 
    You can click the link to go to the [!UICONTROL Updates] tab in [!DNL Workfront] for the object you specified in step 4.
 

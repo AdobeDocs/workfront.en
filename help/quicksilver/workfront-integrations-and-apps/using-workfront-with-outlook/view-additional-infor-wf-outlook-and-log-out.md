@@ -42,8 +42,6 @@ Your [!DNL Workfront] administrator must enable [!DNL Outlook for Office] with [
 1. Click **[!DNL Workfront]** icon to display the Workfront add-in.
 1. Click the drop-down arrow next to your user name.
 
-   ![outlook_additional_information_for_the_app.png](assets/outlook-additional-information-for-the-app-249x341.png)
-
 1. Click one of the following options:
 
    * **[!UICONTROL About]:** View information about the Workfront add-in, including the current version, what's new, and a link to how-to information on the Workfront Help site.

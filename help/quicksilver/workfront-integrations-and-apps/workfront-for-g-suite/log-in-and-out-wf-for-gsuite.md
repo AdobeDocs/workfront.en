@@ -10,6 +10,10 @@ exl-id: 8a91f1d9-bc67-4c27-a6c0-2482488c670b
 ---
 # Log in and out of [!DNL Adobe Workfront for G Suite]
 
+>[!NOTE]
+>
+>There is a [known issue](https://experienceleague.adobe.com/docs/workfront-known-issues/issues/new-workfront-experience/wf-current/wf-integrations-error-when-opening-wf-for-gsuite.html?lang=en) with the current version of [!DNL Workfront for G Suite] not working as expected. We are working on a new version and expect it to be released to the [!DNL Google Marketplace] in the near future. 
+
 ## Access requirements
 
 You must have the following access to perform the steps in this article:
@@ -58,8 +62,6 @@ Before you can log in or out of [!DNL Workfront for G Suite], you must
 
 1. If the [!UICONTROL Workfront for G Suite] panel is not displayed, click the [!DNL Workfront] icon ![](assets/wf-lion-icon.png) in the [!DNL G Suite] add-ons sidebar at the far-right of the page.
 1. Click the **[!UICONTROL More actions]** icon at the top of the [!DNL Workfront for G Suite] panel.
-
-   ![](assets/more-actions-icon.png)
 
 1. Click **[!UICONTROL Logout]** in the menu that appears.
 

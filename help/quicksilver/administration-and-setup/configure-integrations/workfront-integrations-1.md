@@ -12,7 +12,7 @@ exl-id: 50aca40a-f971-42f2-b20f-fa4fff22335e
 ---
 # [!DNL Adobe Workfront] integrations
 
-You can integrate Adobe Workfront with third-party applications. Integrations can extend the utility of Workfront and tailor it to the needs of your organization.
+You can integrate Adobe Workfront with third-party applications, as well as other [!DNL Adobe] products. Integrations can extend the utility of Workfront and tailor it to the needs of your organization.
 
 The integrations for [!DNL Workfront] fall into the following categories:
 
@@ -76,6 +76,24 @@ We understand that the available built-in (native) integrations might not meet a
   </tr> 
  </thead> 
  <tbody> 
+  <tr> 
+   <td role="rowheader"> <p>Adobe Creative Cloud </p> <p> <img src="assets/creative-cloud-logo.png"> </p> </td> 
+   <td> 
+    <ul> 
+     <li>Integrate [!DNL Workfront] comments and approvals with the following Adobe Creative Cloud applications: 
+     <ul>
+     <li>InDesign </li>
+     <li>Illustrator </li>
+     <li>Photoshop </li>
+     <li>XD </li>
+     <li>Premiere Pro </li>
+     <li>After Effects </li>
+     </ul>
+     <li><p>Download/install from <a href="https://exchange.adobe.com/apps/browse/cc?page=1&product=All&q=workfront&sort=RELEVANCE" class="MCXref xref">Adobe Exchange</a>.</p></li></ul>
+     <p>For information and instructions, see <a href="https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-integrations/workfront-for-creative-cloud/install-wf-cc/wf-cc-install-toc.html" class="MCXref xref">Install the  [!DNL Adobe Workfront] plugin for [!DNL Creative Cloud] Applications</a></p> 
+     </td>  <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
+  </tr> 
   <tr> 
    <td> <p>[!DNL Box]</p> <p> <img src="assets/box,-inc.-logo.png"> </p> </td> 
    <td> 
@@ -271,8 +289,8 @@ We understand that the available built-in (native) integrations might not meet a
 
   For more information, see [[!DNL Adobe Workfront Fusion] overview](../../workfront-fusion/get-started/workfront-fusion-overview.md).
 
-* Adobe Experience Manager Assets
-[!DNL ]
+* [!DNL Adobe Experience Manager Assets]
+
   For more information, see [Configure [!DNL Workfront] with [!DNL Adobe Experience Manager] legacy connector](../../administration-and-setup/configure-integrations/configure-workfront-aem.md).
 
 ## Partner integrations

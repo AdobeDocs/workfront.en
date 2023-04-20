@@ -9,6 +9,8 @@ exl-id: 9bc1f92a-85b0-44fd-b5de-09a69af6def5
 ---
 # Add an ad hoc card to a board
 
+{{highlighted-preview}}
+
 You can quickly add a card to a board and assign it to a member on the board. The card can represent a task, issue, person, group, or any type of item that you want to include on the board.
 
 >[!NOTE]
@@ -57,7 +59,7 @@ An ad hoc card is not connected to a work item in [!DNL Adobe Workfront].
      </tr> 
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Description]</strong> </td> 
-      <td>A description of the card.</td> 
+      <td>A description of the card. <span class="preview">You can add URLs in the description and they will become clickable links when the card is saved.</span></td>
      </tr> 
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Assignees]</strong> </td> 
@@ -73,7 +75,7 @@ An ad hoc card is not connected to a work item in [!DNL Adobe Workfront].
      </tr>
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Estimation]</strong></td> 
-      <td><p>Type the estimated number of hours for the card to be completed. This is a manual entry only.</p></td>
+      <td>Type the estimated number of hours for the card to be completed. This is a manual entry only.</td>
      </tr>
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Due date]</strong></td> 
@@ -89,8 +91,18 @@ An ad hoc card is not connected to a work item in [!DNL Adobe Workfront].
      </tr> 
     </tbody> 
    </table>
-
+   
+   Sample card details image in the Production environment:
    ![Ad hoc card details](assets/boards-edit-ad-hoc-card-071822.png)
+
+   <span class="preview">Sample card details image in the Preview environment:
+   ![Ad hoc card details](assets/boards-edit-ad-hoc-card-041723.png)</span>
+
+   <span class="preview">Use the navigation panel on the left to move between groups of fields on the card details.</span>
+
+   >[!NOTE]
+   >
+   >The left navigation panel and the ability to add clickable links in the Description field are available only through the early feature opt-in for Workfront Boards.
 
 1. Click **[!UICONTROL Close]** to add the card to the board.
 

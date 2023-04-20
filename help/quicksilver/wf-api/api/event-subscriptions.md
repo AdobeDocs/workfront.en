@@ -2,7 +2,7 @@
 content-type: api
 navigation-topic: Event Subscriptions resources
 description: Event Subscriptions resources
-author: John
+author: Becky
 feature: Workfront API
 ---
 # Event Subscriptions

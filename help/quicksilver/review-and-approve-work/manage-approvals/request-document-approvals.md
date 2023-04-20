@@ -33,7 +33,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>View or higher access to the object associated with the request access or approval </p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+   <td> <p>Manage access to the object associated with the request access or approval </p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -55,7 +55,7 @@ You must have the following access to perform the steps in this article:
 
 ## Resubmit an approval on a new version
 
-Document approval decisions are not automatically reset when you upload a new version. For example, if your document is approved with changes, the decision will show “changes” as the decision, even if you upload a new version with the specified changes. You can clear the decision on a new version if you manually resubmit the approval.
+Document approval decisions are not automatically reset when you upload a new version. For example, if your document is approved with changes, the decision will show "changes" as the decision, even if you upload a new version with the specified changes. You can clear the decision on a new version if you manually resubmit the approval.
 
 1. Go to the project, task, or issue that contains the document, then select **Documents**.
 1. Find the document you need.

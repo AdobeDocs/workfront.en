@@ -37,3 +37,7 @@ To begin using advanced agile in Workfront:
 1. Add tasks from projects to the backlog or the story board for the team.
 
    For information, see [Manage the agile backlog](../agile/work-in-an-agile-environment/manage-the-agile-backlog.md), [Add existing tasks or issues to the [!UICONTROL Kanban] board](../agile/use-kanban-in-an-agile-team/add-existing-tasks-or-issues-to-the-kanban-board.md), and [Add stories to an existing iteration](../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md).
+
+## Use agile on a project
+
+You can leverage agile functionality for your project without the administrative challenges that typically accompany agile practices (such as managing a team backlog, creating iterations, and so forth). For more information, see [Manage a project in the Agile View](/help/quicksilver/manage-work/projects/manage-projects/manage-projects-in-agile-view.md).

@@ -13,13 +13,14 @@ exl-id: d2a73d24-51d3-42e2-9c09-7f4bc30b2caa
 
 <!--Don't delete, draft, or change the title of this article. The UI links to it via context-sensitive help.-->
 
-As an Adobe Workfront administrator, you can create custom access levels and apply them to users, as explained in [Access levels overview](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
+As an Adobe Workfront administrator, you can create custom access levels and apply them to users. As you work with access levels, it is important to understand how they work together with the object permissions that users grant when they share objects with each other. For more information about access levels, see
 
-As you work with access levels, it is important to understand how they work together with the object permissions that users grant when they share objects with each other. For more information, see [How access levels and permissions work together](../../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md).
+* [Access levels overview](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md)
+* [Legacy access levels overview](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
 
 >[!IMPORTANT]
 >
->We strongly recommend that you leave the built-in access levels unchanged so that you can refer to them after you set up your users. To customize an access level, copy the default access level and modify the copy. (You can do this for every access level except for System Administrator and External User.)
+>We strongly recommend that you leave the built-in access levels unchanged so that you can refer to them after you set up your users. To customize an access level, copy the default access level and modify the copy. You can do this for every access level except for System Administrator and External User.
 
 ## Access requirements
 
@@ -35,11 +36,13 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 
-   <td>Plan</td> 
+   <td>Current plan: Standard
+   <p>or</p>
+   <p>Legacy plan: Plan</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
-   <td> <p>You must be a Workfront administrator.</p> <p><b>NOTE</b>: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="#" class="MCXref xref selected">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>You must be a Workfront administrator.</p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -63,7 +66,7 @@ You must have the following access to perform the steps in this article:
     <tbody> 
      <tr> 
       <td role="rowheader">Name</td> 
-      <td> <p>Type a name for your access level. </p> <p>If you just copied an access level to create a new one, the default name is Access Level Name (Copy), where Access Level Name is the access level you copied.</p> <p><strong>Tip</strong>: We recommend that you include the original name of the access level in the name of the copy. For example, at ACME company, a copy of the Planner access level might be named ACME Planner.</p> </td> 
+      <td> <p>Type a name for your access level. </p> <p>If you just copied an access level to create a new one, the default name is Access Level Name (Copy), where Access Level Name is the access level you copied.</p> <p><strong>Tip</strong>: We recommend that you include the original name of the access level in the name of the copy. For example, at ACME company, a copy of the Standard access level might be named ACME Standard.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Description </td> 
@@ -71,12 +74,12 @@ You must have the following access to perform the steps in this article:
      </tr> 
      <tr> 
       <td role="rowheader">License Type</td> 
-      <td>Make sure that the license selected here is the one that is most closely associated with the type of access level you are creating or editing. The selected license determines what settings are available for the access level. For more information, see <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</td> 
+      <td>Make sure that the license selected here is the one that is most closely associated with the type of access level you are creating or editing. The selected license determines what settings are available for the access level. For more information, see <a href="/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md" class="MCXref xref">Legacy licenses overview</a> or <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront legacy licenses overview</a>.</td> 
      </tr> 
     </tbody> 
    </table>
 
-1. (Conditional) If **Plan** is selected in the **License Type** box, scroll to the section **Allow administrative access for** and select administrative access permissions for those who will have this access level.
+1. (Conditional) If **Standard** or **Plan** is selected in the **License Type** box, scroll to the section **Allow administrative access for** and select administrative access permissions for those who will have this access level.
 
    <table style="table-layout:auto"> 
     <col> 
@@ -115,7 +118,7 @@ You must have the following access to perform the steps in this article:
         <li>Add new job roles</li> 
         <li>Edit role billing and cost rates</li> 
        </ul> 
-       <p>For important information about access to financial data that is available to a Planner user with administrative access to job roles, see <a href="#planner-users-with-administrative-access-to-job-roles">Planner users with administrative access to job roles</a>.</p>
+       <p>For important information about access to financial data that is available to a Standard or Planner user with administrative access to job roles, see <a href="#planner-users-with-administrative-access-to-job-roles">Standard or Planner users with administrative access to job roles</a>.</p>
       </td> 
      </tr> 
      <tr> 
@@ -128,7 +131,7 @@ You must have the following access to perform the steps in this article:
      </tr> 
      <tr> 
       <td role="rowheader">Timesheets &amp; hours</td> 
-      <td> <p>Group administrators can assign timesheet profiles to users in the groups and subgroups they manage.</p> <p>Without this option enabled, group administrators cannot assign timesheet profiles to other users in the groups and subgroups they manage, although they can create them.</p> <p>All other users with a Plan license can view all hours and timesheets in Workfront.</p> <p>Without this option enabled, users can view hours only on:</p> 
+      <td> <p>Group administrators can assign timesheet profiles to users in the groups and subgroups they manage.</p> <p>Without this option enabled, group administrators cannot assign timesheet profiles to other users in the groups and subgroups they manage, although they can create them.</p> <p>All other users with a Standard or Plan license can view all hours and timesheets in Workfront.</p> <p>Without this option enabled, users can view hours only on:</p> 
        <ul> 
         <li>Projects, tasks or issues they manage</li> 
         <li>Their own timesheet</li> 
@@ -197,9 +200,9 @@ You must have the following access to perform the steps in this article:
    
    For information about how an Adobe administrator assigns a System Administrator access level to a users, see [Grant a user full administrative access](../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md).
 
-## Planner users with administrative access to job roles {#planner-users}
+## Standard or Planner users with administrative access to job roles {#planner-users}
 
-If you grant a Planner user administrative access to job roles, the Edit Role Billing &amp; Cost Rates setting is automatically enabled for the user automatically.
+If you grant a Standard or Planner user administrative access to job roles, the Edit Role Billing &amp; Cost Rates setting is automatically enabled for the user automatically.
 
 Later, if you disable administrative access to job roles for the user, job roles are still visible to the user because the Edit Role Billing &amp; Cost Rates setting is still enabled.
 

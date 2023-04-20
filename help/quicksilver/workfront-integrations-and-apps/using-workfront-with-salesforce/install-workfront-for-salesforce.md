@@ -65,15 +65,13 @@ To install the app before it's available:
 
 1. In your Production environment, go to
 
-   `https://login.salesforce.com/packaging/installPackage.apexp?p0=04t4K000002aUZY`
+   `https://login.salesforce.com/packaging/installPackage.apexp?p0=04t4K000002eRjb`
 
    In your Sandbox environment, go to
 
-   `https://test.salesforce.com/packaging/installPackage.apexp?p0=04t4K000002aUZY`
+   `https://test.salesforce.com/packaging/installPackage.apexp?p0=04t4K000002eRjb`
 
 1. Check the **[!UICONTROL Yes, grant access to these third-party web sites]** box.
-
-   ![salesforce_grant_access.png](assets/salesforce-grant-access-350x249.png)
 
    A loading screen displays and the installation might take a while.
 
@@ -117,11 +115,9 @@ To install the app before it's available:
 
    The [!DNL Workfront] app is listed under **[!UICONTROL Installed Packages]**.
 
-   ![salesforce_classic_Installed_Packages.png](assets/salesforce-classic-installed-packages-350x129.png)
 
 1. Navigate to **[!UICONTROL Setup>Security Controls>Remote Site Settings]**.
 1. (Conditional) If you do not see your [!DNL Workfront] URL listed in the **[!UICONTROL All Remote Sites]** list, click **[!UICONTROL New Remote Site]**.\
-   ![salesforce_remote_site_edit.png](assets/salesforce-remote-site-edit-350x176.png)
 
 1. Specify the **[!UICONTROL Remote Site Name]**.\
    For example, *[!DNL Workfront]*.
@@ -161,15 +157,11 @@ To install the app before it's available:
 
    The [!DNL Workfront] app is listed under **[!UICONTROL Installed Packages]**.
 
-     ![salesforce_lightning_Installed_packages.png](assets/salesforce-lightning-installed-packages-350x171.png)
-
 1. Navigate to **[!UICONTROL Setup].**
 1. In the **[!UICONTROL SETTINGS]** section, expand&#x200B;**[!UICONTROL Security].**
 
 1. Click **[!UICONTROL Remote Site Settings]**.
 1. (Conditional) If you do not see your [!DNL Workfront] URL listed in the **[!UICONTROL All Remote Sites]** list, click **[!UICONTROL New Remote Site]**.
-
-   ![Salesforce_remote_site_settings_lightning.png](assets/salesforce-remote-site-settings-lightning-350x136.png)
 
 1. Specify the **[!UICONTROL Remote Site Name]**.
 

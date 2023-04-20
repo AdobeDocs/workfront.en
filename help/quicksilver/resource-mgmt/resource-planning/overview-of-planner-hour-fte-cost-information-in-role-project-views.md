@@ -122,7 +122,8 @@ The following tables show the allocation and availability information that displ
      <li>hours budgeted for other projects. </li> 
     </ul> <p>The Available Hours, FTEs, or Cost for a user change according the following: </p> 
     <ul> 
-     <li>how their schedule and FTE are calculated based on the Resource Management Preferences at the system level.<br>For more information about calculating user and job role availability, see the article <a href="../../resource-mgmt/resource-planning/calculate-hours-fte-for-users-roles-resource-planner.md" class="MCXref xref">Overview of calculating hours and FTE for users and roles in the Resource Planner</a>.</li> 
+     <li>how their schedule and FTE are calculated based on the Resource Management Preferences at the system level.<br><p>For more information about calculating user and job role availability, see the article <a href="../../resource-mgmt/resource-planning/calculate-hours-fte-for-users-roles-resource-planner.md" class="MCXref xref">Overview of calculating hours and FTE for users and roles in the Resource Planner</a>.</p>
+     For more information about configuring Resource Management preferences in Workfront, see <a href="../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md">Configure Resource Management preferences</a></li> 
     </ul> 
     <ul> 
      <li>the <strong>Project Planning Priority</strong>, if the user is budgeted for work.<br>For more information about how Project Planning Priority affects the Available Hours of a user, see <a href="../../resource-mgmt/resource-planning/resource-planner-navigation.md" class="MCXref xref">Resource Planner navigation overview </a>. </li> 
@@ -130,6 +131,8 @@ The following tables show the allocation and availability information that displ
   </tr> 
  </tbody> 
 </table>
+
+
 
 ### The PLN (Planned)&nbsp;column {#the-pln-planned-column}
 
@@ -298,7 +301,7 @@ Consider the following when working with Budgeted Hours:
       <li> <p>The difference between the Available time or cost and the Budgeted time or cost for the role:</p> <p><code>Role Net Hours, FTE, or Cost = Role Available Hours, FTE, or Cost - Role Budgeted Hours, FTE, or Cost</code> </p> </li> 
       <li> <p><span>The difference between the Available time or cost and the Planned time or cost for the role, when the Use Planned (PLN) values in NET calculations setting is enabled:</span> </p> <p><span><code>Role Net Hours, FTE, or Cost = Role Available Hours, FTE, or Cost - Role Planned Hours, FTE, or Cost</code></span> </p> <p><b>TIP</b> <span>
       
-  This option is applied only when you customize the view in the Display selected items section.</span> </p> <p><span>For more information, see</span><a href="../../resource-mgmt/resource-planning/resource-availability-allocation-resource-planner.md" class="MCXref xref">Review resource availability and allocation using the Adobe Workfront Resource Planner</a> </p> </li> 
+  This option is applied only when you customize the view in the Display selected items section.</span> </p> <p><span>For more information, see </span><a href="../../resource-mgmt/resource-planning/resource-availability-allocation-resource-planner.md" class="MCXref xref">Review resource availability and allocation using the Adobe Workfront Resource Planner</a> </p> </li> 
      </ul> 
     </div> </td> 
   </tr> 
@@ -311,7 +314,7 @@ Consider the following when working with Budgeted Hours:
       <li> <p>The difference between the Available time or cost and the Budgeted time or cost for the user:</p> <p><code>User Net Hours, FTE, or Cost = USer Available Hours, FTE, or Cost - User Budgeted Hours, FTE, or Cost</code> </p> </li> 
       <li> <p><span>The difference between the Available time or cost and the Planned time or cost for the user, when the Use Planned (PLN) values in NET calculations setting is enabled:</span> </p> <p><span><code>User Net Hours, FTE, or Cost = User Available Hours, FTE, or Cost - User Planned Hours, FTE, or Cost</code></span> </p> <p><b>TIP</b> <span>
   
-  This option is applied only when you customize the view in the Display selected items section.</span> </p> <p><span>For more information, see</span><a href="../../resource-mgmt/resource-planning/resource-availability-allocation-resource-planner.md" class="MCXref xref">Review resource availability and allocation using the Adobe Workfront Resource Planner</a> </p> </li> 
+  This option is applied only when you customize the view in the Display selected items section.</span> </p> <p><span>For more information, see </span><a href="../../resource-mgmt/resource-planning/resource-availability-allocation-resource-planner.md" class="MCXref xref">Review resource availability and allocation using the Adobe Workfront Resource Planner</a> </p> </li> 
      </ul> 
     </div> </td> 
   </tr> 

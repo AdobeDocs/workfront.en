@@ -4,7 +4,7 @@ product-area: documents
 navigation-topic: documents-webhooks-api
 title: Create a Folder with Document Webhooks
 description: Create a Folder with Document Webhooks
-author: John
+author: Becky
 feature: Workfront API
 exl-id: 50905915-58c9-4b50-b8a1-133833884a88
 ---

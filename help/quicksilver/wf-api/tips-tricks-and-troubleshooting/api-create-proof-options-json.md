@@ -3,7 +3,7 @@ content-type: api;tips-tricks-troubleshooting
 navigation-topic: tips-tricks-and-troubleshooting-workfront-api
 title: Add advanced proofing options with Adobe Workfront API
 description: Add advanced proofing options with Adobe Workfront API
-author: John
+author: Becky
 feature: Workfront API, Workfront Proof
 exl-id: 5fcdf07e-d077-4d6a-bc3f-973983877c7c
 ---
@@ -38,7 +38,7 @@ For an overview of the ProofHQ&nbsp;API, see the [PoofHQ Overview](../../proofhq
 
    >[!NOTE]
    >
-   >When creating the proof, do not include a value for the advancedProofingOptions parameter.
+   >When creating the proof, set `{}` as the value for the `advancedProofingOptions` parameter.
 
 1. After the proof is created, use the ProofHQ&nbsp;API to add any advanced options.
 
