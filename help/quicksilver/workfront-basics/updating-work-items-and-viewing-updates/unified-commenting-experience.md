@@ -157,8 +157,9 @@ The following table illustrates the features that will be available in the new c
    </td>
    <td> 
    </td>
-   <td>
-   <td>✓ 
+   <td>✓
+   </td>
+   <td> 
    </td>
    <td> 
    </td>
@@ -236,7 +237,7 @@ The following table illustrates the features that will be available in the new c
    </td>
   </tr>
   <tr>
-   <td>See new comments in real time 
+   <td>See new comments in real time (includes seeing when a comment is deleted)
    </td>
    <td> 
    </td>

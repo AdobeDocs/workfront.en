@@ -103,7 +103,7 @@ Tagging others in an update differs depending on which experience and which obje
 
    ![](assets/tag-users-in-update.png)
 
-1. (Optional) To make the update private, enable **Private to my company** in the lower-right corner of the update box. This makes the update visible just to users in your company.
+1. (Optional) To make the update private, enable **Private to my company** in the lower-right corner of the update box. This makes the update visible just to users in your company. The **Private to my company** option is available only when a Company is specified in your Workfront profile. 
 
    >[!NOTE]
    >
@@ -126,6 +126,8 @@ Tagging others in an update differs depending on which experience and which obje
 
 ### Tag others on updates in the commenting Beta experience
 
+You can tag others on updates in the commenting Beta experience. You can also remove users who are tagged by mistake when you edit a comment. 
+
 1. Begin updating a work item, as described in [Update work](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 1. In the **Tag people or teams** field, begin typing the name of the user or team you want to include, then click the name when it appears in the drop-down list.
  
@@ -139,7 +141,7 @@ Tagging others in an update differs depending on which experience and which obje
 
    ![](assets/tag-others-unified-commenting.png)
 
-1. (Optional) To make the update private, enable **Private to my company** in the lower-right corner of the update box. This makes the update visible just to users in your company.
+1. (Optional) To make the update private, enable **Private to my company** in the lower-right corner of the update box. This makes the update visible just to users in your company. The **Private to my company** option is available only when a Company is specified in your Workfront profile. 
 
    >[!NOTE]
    >
@@ -161,3 +163,5 @@ Tagging others in an update differs depending on which experience and which obje
    ![](assets/members-icons-expanded-unshimmed.png)
 
    For information about the additional functionality that is available when updating a work item, see [Update work](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+
+1. (Optional) Click the **More** menu ![](assets/more-menu.png) to the right of the Like icon, then click **Edit**. Remove any of the tagged users, then click **Submit**. You can edit a comment only within 15 minutes after you have entered it. You can only edit the comments you added.
