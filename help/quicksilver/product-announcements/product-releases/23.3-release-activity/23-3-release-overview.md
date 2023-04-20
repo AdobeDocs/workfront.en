@@ -131,7 +131,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
                         <p><span class="bold">Release dates</span>
                         </p>
                     </td>
-                </tr>
+                </tr><!--
                  <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3--apr-17.md" class="MCXref xref" xrefformat="{para}">Profiles without avatars now display user initials</a><span style="color: #ff0000;"> New in Preview!</span></p>
@@ -147,7 +147,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
                             </li>
                         </ul>
                     </td>
-                </tr>
+                </tr>-->
                  <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">Look-and-feel updates during the 23.3 release timeframe</a></p>
@@ -171,7 +171,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
 
 ### Workfront Fusion enhancements
 
-There are no Workfront Fusion updates at this point in the release. This area will be updated when updates are available.
+New features in Workfront Fusion are available in Production at a cadence outside of the 23.3 release schedule. For more information about the latest features, see [Adobe Workfront Fusion release activity](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
 ### Workfront Scenario Planner enhancements
 
