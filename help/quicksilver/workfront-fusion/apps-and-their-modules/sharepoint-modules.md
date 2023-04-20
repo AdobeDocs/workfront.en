@@ -114,7 +114,7 @@ This action module creates a new file in SharePoint.
    <td role="rowheader">[!UICONTROL Enter Site, Drive, and Folder IDs]</td> 
    <td> <p>Select how you want to identify the location of the file you want to create.</p> 
     <ul> 
-     <li> <p><strong>[!UICONTROL Enter manually]</strong> </p> <p>Enter or map the <strong>[!UICONTROL Site ID]</strong>, <strong>[!UICONTROL List ID]</strong>, and <strong>[!UICONTROL Item ID]</strong> in the fields that appear.</p> </li> 
+     <li> <p><strong>[!UICONTROL Enter manually]</strong> </p> <p>Enter or map the <strong>[!UICONTROL Site ID]</strong>, <strong>[!UICONTROL List ID]</strong>, and <strong>[!UICONTROL Folder ID]</strong> in the fields that appear.</p> </li> 
      <li> <p><strong>[!UICONTROL Select from the list that you follow]</strong> </p> <p>Select the location where you want to create the file. </p> </li> 
     </ul> </td> 
   </tr> 
@@ -140,19 +140,66 @@ This action module creates a new folder in SharePoint.
    <td role="rowheader">[!UICONTROL Enter Site, Drive, and Folder IDs]</td> 
    <td> <p>Select how you want to identify the location of the folder you want to create.</p> 
     <ul> 
-     <li> <p><strong>[!UICONTROL Enter manually]</strong> </p> <p>Enter or map the <strong>[!UICONTROL Site ID]</strong>, <strong>[!UICONTROL List ID]</strong>, and <strong>[!UICONTROL Item ID]</strong> in the fields that appear.</p> </li> 
-     <li> <p><strong>[!UICONTROL Select from the list that you follow]</strong> </p> <p>Select the location where you want to create the file. </p> </li> 
+     <li> <p><strong>[!UICONTROL Enter manually]</strong> </p> <p>Enter or map the <strong>[!UICONTROL Site ID]</strong>, <strong>[!UICONTROL List ID]</strong>, and <strong>[!UICONTROL Folder ID]</strong> in the fields that appear.</p> </li> 
+     <li> <p><strong>[!UICONTROL Select from the list that you follow]</strong> </p> <p>Select the location where you want to create the folder. </p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Source file]</td> 
-   <td>Select a source file from a previous module, or map the source file's name and data.</td> 
-  </tr>  </tbody> 
+   <td role="rowheader">[!UICONTROL Folder name]</td> 
+   <td>Enter or map a name for the new folder.</td> 
+  </tr>
+  </tbody> 
 </table>
 
 #### Get a file
 
+This action module retrieves the specified SharePoint file.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td> <p>For instructions about connecting your [!DNL SharePoint] account to [!DNL Workfront Fusion], see <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Connect [!DNL SharePoint] to [!DNL Workfront Fusion]</a> in this article.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Enter Site, Drive, and Folder IDs]</td> 
+   <td> <p>Select how you want to identify the location of the file you want to get.</p> 
+    <ul> 
+     <li> <p><strong>[!UICONTROL Enter manually]</strong> </p> <p>Enter or map the <strong>[!UICONTROL Site ID]</strong>, <strong>[!UICONTROL List ID]</strong>, and <strong>[!UICONTROL File ID]</strong> in the fields that appear.</p> </li> 
+     <li> <p><strong>[!UICONTROL Select from the list that you follow]</strong> </p> <p>Select the location of the file. </p> </li> 
+    </ul> </td> 
+  </tr> 
+</tbody> 
+</table>
+
 #### Watch folder items
+
+This trigger module starts a scenario when an item is updated in a folder you select.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td> <p>For instructions about connecting your [!DNL SharePoint] account to [!DNL Workfront Fusion], see <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Connect [!DNL SharePoint] to [!DNL Workfront Fusion]</a> in this article.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Enter Site, Drive, and Folder IDs]</td> 
+   <td> <p>Select how you want to identify the location of the file you want to get.</p> 
+    <ul> 
+     <li> <p><strong>[!UICONTROL Enter manually]</strong> </p> <p>Enter or map the <strong>[!UICONTROL Site ID]</strong>, <strong>[!UICONTROL List ID]</strong>, and <strong>[!UICONTROL folder ID]</strong> in the fields that appear.</p> </li> 
+     <li> <p><strong>[!UICONTROL Select from the list that you follow]</strong> </p> <p>Select the location of the folder you want to watch. </p> </li> 
+    </ul> </td> 
+  </tr> 
+   <td role="rowheader">[!UICONTROL Limit]</td> 
+   <td>Enter the maximum number of items [!DNL Workfront Fusion] should return during one scenario execution cycle.</td> 
+  <tr>
+  </tr>
+</tbody> 
+</table>
 
 ### Item
 
