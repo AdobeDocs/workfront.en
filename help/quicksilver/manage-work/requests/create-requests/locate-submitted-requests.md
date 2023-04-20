@@ -119,7 +119,7 @@ To locate requests that you or other users have submitted:
 
    >[!TIP]
    >
-   >You cannot modify filters in the Submitted section of the Requests area. Additionally, there are no options to modify or change the view of the submitted requests list. 
+   >You cannot modify filters in the Submitted section of the Requests area.
 
    <table style="table-layout:auto"> 
     <col> 
