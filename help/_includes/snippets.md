@@ -158,8 +158,6 @@ You must install the correct plugin for the Adobe Creative Cloud application you
 
       <li>In the Add new recipient box, begin typing the user’s name.
 
-      Note: You can't add external recipients via email from the plugin. 
-
       <li>Specify the Proof Role.
 
       <li>Choose the type of email alerts for the recipient. 
