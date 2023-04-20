@@ -105,34 +105,3 @@ Video inside markdown table
 |Does this work?|Also no|
 
 
-
-
-## Upload an Automated Proof
-
-1. Click the **[!UICONTROL Menu]** icon in the top-right corner, then select **[!UICONTROL Work List]**. You can also use the menu to navigate to parent objects.
-
-   ![](assets/go-back-to-work-list-350x314.png)
-
-1. Go to the work item where you want to upload a proof.
-1. Click the **[!UICONTROL Document]** icon ![](assets/documents.png) in the navigation bar. 
-
-1. Click **[!UICONTROL New File]** near the bottom of the plugin.
-1. Enable the **[!UICONTROL Create a proof]** toggle, then choose the **[!UICONTROL Asset Type]** from the drop-down menu.
-
-   ![](assets/plugin-create-proof-350x182.png)
-
-1. In the **[!UICONTROL Proof Approvals]** section, select **[!UICONTROL Automated]**.
-1. (Optional) In the **[!UICONTROL Workflow Template]** box, type the name of a proof workflow template.
-
-{{adjust-proof-settings}}
-
-1. (Optional) Type a comment in the **[!UICONTROL Updates]** area.
-
-   ![](assets/copy-of-proof-approvals-advanced-350x424.png) <!-- new screenshot -->
-
-1. (Optional) Type a name for the proof in the **[!UICONTROL Proof Name]** text box.
-1. (Optional) Select **[!UICONTROL Add outside file]** to add a file from your computer.
-1. Click **[!UICONTROL Upload]**, then configure any desired export options based on the asset type chosen above. 
-
-   ![](assets/plugin-files-350x307.png)   
-   The document appears in the [!UICONTROL Documents] area in the plugin and the desktop app.
