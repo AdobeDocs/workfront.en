@@ -48,9 +48,20 @@ A workspace is a collection of operational record types and taxonomies used by t
  </tbody>
 </table>
 
+## Considerations about workspaces
+
+* You can create workspaces for specific organizational units within your organization, to match the unique way each unit works. 
+* The record types and taxonomies that a workspace contains should reflect the work lifecycle of an organizational unit. 
+* When you create a workspace, everyone in your organization can view, edit, or delete it.  <!--this will change with access levels and permissions-->
+* You can have a maximum of 1,000 workspaces in your organization. 
+
 ## Create a workspace
 
-1. Click the **Main Menu** ![](assets/main-menu-workfront.png) in the upper-right corner of Workfront, then click **Maestro** ![](assets/maestro-icon.png). 
+1. (Conditional) If you don't have any workspaces in your system, click the **Main Menu** ![](assets/main-menu-workfront.png) in the upper-right corner of Workfront, then click **Maestro** ![](assets/maestro-icon.png)
+
+    Or, from an existing workspace, click the downward-pointing to the right of the workspace name, then click **Create workspace**. 
+
+    ![](assets/workspace-drop-down-right-menu.png)
 
     This opens the Workspaces area of Maestro. 
 1. (Optional) Click **Preview** inside any of the following predefined workspace templates:
@@ -69,12 +80,14 @@ A workspace is a collection of operational record types and taxonomies used by t
 
     Click the **x** icon to close the template preview and return to the Workspaces area. 
 
-1. Click **Create workspace** to create a workspace from scratch
+1. Click **Create workspace**, then **Create workspace** to create a workspace from scratch
     
     Or 
 
     Click **Use template** to create a workspace from an existing template. 
 1. Click inside the name of the workspace in the header of the new workspace to rename it, then press Enter. 
+    
+    You can also click the **More** menu ![](assets/more-menu.png), then **Rename**.
 1. (Optional) Click **Add record type** to add record types to the workspace.
     
     For information, see [Create record types](../maestro/delete-record-types.md).
