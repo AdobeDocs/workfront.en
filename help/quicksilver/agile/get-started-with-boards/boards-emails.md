@@ -9,8 +9,6 @@ exl-id: 7ec9f9cc-274c-4253-8441-d7ffe9afd78d
 ---
 # Boards email notifications and preferences
 
-{{highlighted-preview-article-level}}
-
 [!DNL Adobe Workfront] [!UICONTROL Boards] sends you an email when you are added to a board and when a card is assigned to you. The notifications are turned on by default and you can select in your Boards preferences which emails you want to receive.
 
 >[!NOTE]

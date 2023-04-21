@@ -9,8 +9,6 @@ exl-id: 118677e9-a13f-47e6-96a3-6f5e93b005e9
 ---
 # [!DNL Adobe Workfront] notifications
 
-{{highlighted-preview}}
-
 [!DNL Adobe Workfront] sends email notifications, in-app notifications, and notifications on your mobile device.
 
 ## Email notifications
@@ -124,15 +122,11 @@ Reminder notifications are sent from the email address that the [!DNL Workfront]
 
 For information about setting up and enabling reminder notifications, see [Set up reminder notifications](../../administration-and-setup/manage-workfront/emails/set-up-reminder-notifications.md).
 
-<span class="preview">
-
 ### Boards notifications
 
 [!DNL Adobe Workfront] [!UICONTROL Boards] sends you an email when you are added to a board and when a card is assigned to you.
 
 You can select which emails you want to receive in your Boards preferences. For more information, see [Boards email notifications and preferences](/help/quicksilver/agile/get-started-with-boards/boards-emails.md).
-
-</span>
 
 ### Other [!DNL Workfront] emails 
 

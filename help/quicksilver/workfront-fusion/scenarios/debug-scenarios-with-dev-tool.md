@@ -62,8 +62,8 @@ To use the [!DNL Workfront Fusion] DevTool, you first need to install it.
 You can add the [!DNL Workfront Fusion] DevTool to [!DNL Chrome] through the [!UICONTROL [!DNL Chrome] Web Store].
 
 1. Click [this link](https://chrome.google.com/webstore/detail/workfront-fusion-devtool/hkimbmkkmmejdnhbhoaefggkpkndfjnn/related) to go to the [!DNL Workfront Fusion] DevTool on the [!UICONTROL [!DNL Chrome] Web Store].
-1. Click [!UICONTROL Add to [!DNL Chrome]].
-1. In the window that opens, examine permissions. If you agree with the permissions, click [!UICONTROL Add Extension].
+1. Click **[!UICONTROL Add to [!DNL Chrome]]**.
+1. In the window that opens, examine permissions. If you agree with the permissions, click **[!UICONTROL Add Extension]**.
 
 The [!DNL Workfront Fusion] DevTool extension is added to your [!DNL Chrome] extensions.
 
