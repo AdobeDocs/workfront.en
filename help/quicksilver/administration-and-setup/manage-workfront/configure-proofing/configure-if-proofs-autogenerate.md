@@ -25,7 +25,7 @@ You must have the following:
    <td>Any</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Legacy licenses overview</a>*</td> 
+   <td role="rowheader"><a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Licenses overview</a>*</td> 
    <td>Plan</td> 
   </tr> 
   <tr> 

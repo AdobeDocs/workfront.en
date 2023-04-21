@@ -17,6 +17,10 @@ For information about how to use Workfront Fusion, see [Adobe Workfront Fusion](
 
 ## Recent releases 
 
+### April 2023
+
+* [Workfront Fusion release activity: Week of April 17, 2023](../../../product-announcements/product-releases/fusion-release-activity/fusion-2023-4-20.md)
+
 ### March 2023
 
 * [Workfront Fusion release activity: Week of March 20, 2023](../../../product-announcements/product-releases/fusion-release-activity/fusion-2023-3-21.md)
@@ -78,6 +82,10 @@ For information about how to use Workfront Fusion, see [Adobe Workfront Fusion](
 
 * [Workfront Fusion release activity: Week of January 3, 2022](../../../product-announcements/product-releases/fusion-release-activity/fusion-jan-3-22.md)
 
+## Fusion releases in 2021
+
++++**Click to open**
+
 ### November 2021
 
 * [Workfront Fusion release activity: Week of November 29, 2021](../../../product-announcements/product-releases/fusion-release-activity/fusion-nov-29-21.md) 
@@ -136,6 +144,12 @@ For information about how to use Workfront Fusion, see [Adobe Workfront Fusion](
 * [Workfront Fusion release activity: Week of January 11, 2021](../../../product-announcements/product-releases/fusion-release-activity/fusion-jan-11.md) 
 * [Workfront Fusion release activity: Week of January 4, 2021](../../../product-announcements/product-releases/fusion-release-activity/fusion-jan-4.md)
 
++++
+
+## Fusion releases in 2020
+
++++**Click to open**
+
 ### December 2020
 
 * [Workfront Fusion release activity: Week of December 7, 2020](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-archive/fusion-release-archive-2020/fusion-dec-7.md)
@@ -154,3 +168,5 @@ For information about how to use Workfront Fusion, see [Adobe Workfront Fusion](
 
 * [Workfront Fusion release activity: Week of August 24, 2020](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-archive/fusion-release-archive-2020/fusion-aug-24.md) 
 * [Workfront Fusion release activity: Week of August 17, 2020](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-archive/fusion-release-archive-2020/fusion-aug-17.md)
+
++++

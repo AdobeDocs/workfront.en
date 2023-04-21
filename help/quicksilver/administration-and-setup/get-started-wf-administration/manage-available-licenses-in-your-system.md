@@ -46,7 +46,7 @@ To view license information in your system:
 
 1. At the bottom of the left panel, click **System** > **Licenses**.
 
-   For more information about the licenses listed on this page, see [Legacy licenses overview](../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md).
+   For more information about the licenses listed on this page, see [Licenses overview](../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md).
 
    >[!NOTE]
    >
@@ -87,11 +87,11 @@ If an organization has other paid add-on products, their license information als
 
 ## View information about monthly proof and document decision allotments
 
-Proof and document decisions are limited for all non-paid Workfront licenses. Limits reset on a per-user basis each month.
-
 >[!IMPORTANT]
 >
->Proof and document decision limits do not apply to users on [legacy Workfront licenses and access levels](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md). 
+>Proof and document decision limits apply only to users on the new licenses. For more information, see [New licenses overview](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md).
+
+Proof and document decisions are limited for all non-paid Workfront licenses. Limits reset on a per-user basis each month.
 
 The decision limits for each license differ depending on the plan you're on. You can view your monthly allotment in Setup > Licenses.
 

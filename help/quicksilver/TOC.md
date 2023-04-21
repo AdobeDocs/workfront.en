@@ -15,6 +15,7 @@ feature-set: Workfront
     * 23.3 Release {#release-23-3}
       * [23.3 Release overview](product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md) 
       * [Look and feel updates during the 23.3 release time frame](product-announcements/product-releases/23.3-release-activity/23-3-look-and-feel-updates.md)
+      * [23.3 release activity week of April 10, 2023](product-announcements/product-releases/23.3-release-activity/23-3-apr-10.md) 
       * [23.3 release activity week of April 17, 2023](product-announcements/product-releases/23.3-release-activity/23-3-apr-17.md) 
     * 23.2 Release {#release-23-2}
       * [23.2 Release overview](product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md) 
@@ -112,6 +113,7 @@ feature-set: Workfront
       * [21.1 Other enhancements](product-announcements/product-releases/21.1-release-activity/21-1-other-enhancements.md)
     * Adobe Workfront Fusion release activity {#fusion-release}
       * [Adobe Workfront Fusion release activity](product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)
+      * [Workfront Fusion release activity: Week of April 17, 2023](product-announcements/product-releases/fusion-release-activity/fusion-2023-4-20.md)
       * [Workfront Fusion release activity: Week of March 20, 2023](product-announcements/product-releases/fusion-release-activity/fusion-2023-3-21.md)
       * [Workfront Fusion release activity: Week of March 6, 2023](product-announcements/product-releases/fusion-release-activity/fusion-2023-3-6.md)    
       * [Workfront Fusion release activity: Week of December 12, 2022](product-announcements/product-releases/fusion-release-activity/fusion-dec-12-22.md)
@@ -409,22 +411,22 @@ feature-set: Workfront
       * [View and export audit logs](administration-and-setup/add-users/create-and-manage-users/view-and-export-audit-logs.md)
       * [View user login information](administration-and-setup/add-users/create-and-manage-users/view-user-login-info.md)
       * [Adobe Admin Console](administration-and-setup/add-users/create-and-manage-users/admin-console.md)
-    * How access levels work {#access-levels}
-      * [How access levels work](administration-and-setup/add-users/how-access-levels-work/access-levels-toc.md)
-      * [Access levels overview](administration-and-setup/add-users/how-access-levels-work/access-level-overview.md)
-      * [Licenses overview](administration-and-setup/add-users/how-access-levels-work/licenses-overview.md)
-      * [Access to objects and areas by license type](administration-and-setup/add-users/how-access-levels-work/access-to-objects-areas-license-types.md)
-      * [Functionality available for each object type](administration-and-setup/add-users/how-access-levels-work/functionality-available-for-objects.md)
-    * How legacy access levels work {#legacy-access-levels}
-      * [How access legacy levels work](administration-and-setup/add-users/access-levels-and-object-permissions/access-levels.md)
-      * [Legacy access levels overview](administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md)
-      * [Legacy licenses overview](administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md)
-      * [Legacy access levels and permissions](administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md)
-      * [Legacy access to objects by license type](administration-and-setup/add-users/access-levels-and-object-permissions/access-to-objects-and-areas-by-license-type.md)
+    * How new access levels work {#access-levels}
+      * [How new access levels work](administration-and-setup/add-users/how-access-levels-work/access-levels-toc.md)
+      * [New access levels overview](administration-and-setup/add-users/how-access-levels-work/access-level-overview.md)
+      * [New licenses overview](administration-and-setup/add-users/how-access-levels-work/licenses-overview.md)
+      * [Access to objects and areas by for new licenses](administration-and-setup/add-users/how-access-levels-work/access-to-objects-areas-license-types.md)
+      * [Functionality available for each object type for new access levels](administration-and-setup/add-users/how-access-levels-work/functionality-available-for-objects.md)
+    * How access levels work {#legacy-access-levels}
+      * [How access levels work](administration-and-setup/add-users/access-levels-and-object-permissions/access-levels.md)
+      * [Access overview](administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md)
+      * [Licenses overview](administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md)
+      * [Access levels and permissions](administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md)
+      * [Access to objects and areas by license type](administration-and-setup/add-users/access-levels-and-object-permissions/access-to-objects-and-areas-by-license-type.md)
       * [Functionality for each object type](administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md)
-      * [Configurable legacy access for each  object type](administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md)
-      * [Built-in legacy access levels](administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md)
-      * [List users' legacy access levels and licenses](administration-and-setup/add-users/access-levels-and-object-permissions/list-access-levels-and-licenses-for-your-users.md)
+      * [Configurable access for each  object type](administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md)
+      * [Built-in access levels](administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md)
+      * [List users' access levels and licenses](administration-and-setup/add-users/access-levels-and-object-permissions/list-access-levels-and-licenses-for-your-users.md)
     * Configure access to Workfront {#configure-access}
       * [Configure access](administration-and-setup/add-users/configure-and-grant-access/configure-access.md)
       * [Create or modify custom access levels](administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)
@@ -800,7 +802,7 @@ feature-set: Workfront
     * [Tag others on updates](workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md)
     * [View all updates in a Note report](workfront-basics/updating-work-items-and-viewing-updates/view-all-updates-in-a-report.md)
     * [Work On It and Done button overview](workfront-basics/updating-work-items-and-viewing-updates/work-on-it-and-done-buttons-accept-complete-work.md)
-    * [Unified Commenting Experience](workfront-basics/updating-work-items-and-viewing-updates/unified-commenting-experience.md)
+    * [New commenting experience](workfront-basics/updating-work-items-and-viewing-updates/unified-commenting-experience.md)
   * Work with custom forms {#work-with-custom-forms}
     * [Work with custom forms](workfront-basics/work-with-custom-forms/work-with-custom-forms.md)
     * [Add a custom form to an object](workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md)
@@ -929,6 +931,7 @@ feature-set: Workfront
     * [Add an intake column to a board](agile/use-boards-agile-planning-tools/add-intake-column-to-board.md)
     * [Use groups on a board](agile/use-boards-agile-planning-tools/group-cards-on-board.md)
     * [Configure card falloff](agile/use-boards-agile-planning-tools/configure-card-falloff.md)
+    * [Migrate agile team Kanban cards to Workfront boards](/help/quicksilver/agile/use-boards-agile-planning-tools/migrate-kanban-cards-to-boards.md)
     * [Manage workstreams](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md)
     * [Use the card list](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md)
     * [Create an iteration in a workstream](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md)
@@ -1811,7 +1814,7 @@ feature-set: Workfront
       * [FAQ: proofing within Adobe Workfront - US to EMEA migration](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/faq-proofing-in-wf-us-to-emea-migration.md)
   * Tips, tricks, and troubleshooting for approvals {#ttt-approvals}
     * [Tips, tricks, and troubleshooting for approvals](review-and-approve-work/tips-tricks-troubleshooting-approvals/tips-tricks-troubleshooting-approvals.md)
-    * [View the number of decisions for all users](review-and-approve-work/tips-tricks-troubleshooting-approvals/view-number-of-decisions-for-users.md)
+    * [View the number of proof and document decisions for all users](review-and-approve-work/tips-tricks-troubleshooting-approvals/view-number-of-decisions-for-users.md)
 * Timesheets {#timesheets}
   * [Timesheets](timesheets/timesheets-all.md)
   * Timesheet details {#details}
@@ -2026,6 +2029,7 @@ feature-set: Workfront
     * [Adobe Experience Manager Assets modules](workfront-fusion/apps-and-their-modules/aem-assets-modules.md)    
     * [Adobe Journey Optimizer modules](workfront-fusion/apps-and-their-modules/adobe-journey-optimizer-modules.md)
     * [Adobe PDF Services modules](workfront-fusion/apps-and-their-modules/pdf-modules.md)
+    * [Airtable modules](workfront-fusion/apps-and-their-modules/airtable-modules.md)
     * [Adobe Target modules](workfront-fusion/apps-and-their-modules/adobe-target-modules.md)
     * [Allocadia modules](workfront-fusion/apps-and-their-modules/allocadia-modules.md)
     * [Anaplan Modules](workfront-fusion/apps-and-their-modules/anaplan-modules.md)
