@@ -83,20 +83,20 @@ Note that an error handler route is composed of transparent circles, while a reg
 
 The directives are briefly explained below. For more information, see [Directives for error handling in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/errors/directives-for-error-handling.md).
 
-There are a total of five directives which can be grouped into the following categories based on whether a scenario execution should continue or not:
+There are a total of five directives which can be grouped into the following categories based on whether a scenario execution should continue or not.
 
 The following directives ensure that a scenario execution continues:
 
-* **[!UICONTROL Resume]** allows you to specify a substitute output for the module with the error and the scenario execution status is marked as success
-* **[!UICONTROL Ignore]** simply ignores the error and the scenario execution status is marked as success
-* **[!UICONTROL Break]** stores the input to the queue of incomplete executions and the scenario execution status is marked as warning. For more information, see [View and resolve incomplete executions in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/view-and-resolve-incomplete-executions.md).
+* **[!UICONTROL Resume]**: Allows you to specify a substitute output for the module with the error. The scenario execution status is marked as success
+* **[!UICONTROL Ignore]**: ignores the error. The scenario execution status is marked as success
+* **[!UICONTROL Break]**: Stores the input to the queue of incomplete executions. The scenario execution status is marked as warning. For more information, see [View and resolve incomplete executions in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/view-and-resolve-incomplete-executions.md).
 
-On the other hand, if a scenario execution should be stopped, you must use one of the following directives:
+If a scenario execution should stop when an error occurs, use one of the following directives:
 
-* **[!UICONTROL Rollback]** stops the scenario execution immediately and marks its status as error
-* **[!UICONTROL Commit]** stops the scenario execution immediately and marks its status as success
+* **[!UICONTROL Rollback]**: Stops the scenario execution immediately and marks its status as error
+* **[!UICONTROL Commit]**: Stops the scenario execution immediately and marks its status as success
 
-## Additional Resources
+For more information on error handling, see:
 
 * [Directives for error handling in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/errors/directives-for-error-handling.md)
-* [Advanced error handling in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/errors/advanced-error-handling.md) (includes the set up of the Dropbox Scenario referenced above)
+* [Advanced error handling in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/errors/advanced-error-handling.md) 
