@@ -65,11 +65,11 @@ For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Work
 * The minimum retry interval is one minute.
 * If the module is processing multiple bundles and the processing of a bundle fails, the partial execution (only the bundle that caused the error) is moved to the incomplete executions folder and scheduled for retries according to the [!UICONTROL Break] directive settings. However, the current execution continues and the module continues to process the subsequent bundles. You can enable the "[!UICONTROL Sequential processing]" option in the [!UICONTROL Scenario settings] to prevent the scenario from executing again until the execution stored in the the Incomplete executions folder has been successfully resolved.
 
-For more information on incomplete executions, see [View and resolve incomplete executions in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/view-and-resolve-incomplete-executions.md).
+    For more information on incomplete executions, see [View and resolve incomplete executions in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/view-and-resolve-incomplete-executions.md).
 
 ### Use the [!UICONTROL Repeater] module
 
-1. Employ the **[!UICONTROL Repeater]** module and set its [!UICONTROL Repeats] field to the maximum number of attempts.
+1. Employ the **[!UICONTROL Repeater]** module and set its **[!UICONTROL Repeats]** field to the maximum number of attempts.
 1. Link the potentially failing module to the **[!UICONTROL Repeater]** module.
 1. Attach an error handler route to this module (see [Error handling in [!DNL Adobe Workfront Fusio]n](../../workfront-fusion/errors/error-handling.md)).
 1. Link the **[!UICONTROL Tools] > [!UICONTROL Sleep]** module to the error handler route and set its **[!UICONTROL Delay]** field to the number of seconds between the attempts.
@@ -92,7 +92,7 @@ For more information on incomplete executions, see [View and resolve incomplete 
 >
 >![](assets/http-make-request-350x116.png)
 >
->If the result of the potentially failing module is too complex to be stored in a simple variable, you may employ a data store to store/retrieve the result. The data store would contain just one record. The record's key can be, for example, `Result`.
+>If the result of the potentially failing module is too complex to be stored in a simple variable, you can employ a data store to store/retrieve the result. The data store would contain just one record. The record's key can be, for example, `Result`.
 >
 >For more information on data stores, see [Data Stores in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/data-stores.md)
 
