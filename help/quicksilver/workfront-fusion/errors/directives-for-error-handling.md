@@ -77,7 +77,12 @@ For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Work
 
 >[!NOTE]
 >
->Currently the error handling directives cannot be used out of the scope of an error handling route and [!DNL Workfront Fusion] currently does not offer a Throw module that would enable you to easily conditionally generate (throw) errors, though a workaround can be employed to mimic its functionality. For more information, see [Error handler route](../../workfront-fusion/errors/error-handling.md#error) in the article [Error handling in Adobe Workfront Fusion](../../workfront-fusion/errors/error-handling.md). Also see [Workaround for Throw](../../workfront-fusion/errors/throw.md#workarou) in the article [Throw error handling in Adobe Workfront Fusion](../../workfront-fusion/errors/throw.md).
+>* Currently the error handling directives cannot be used outside of an error handling route.
+>
+>   For more information, see [Error handler route](../../workfront-fusion/errors/error-handling.md#error) in the article [Error handling in Adobe Workfront Fusion](../../workfront-fusion/errors/error-handling.md).
+>* [!DNL Workfront Fusion] currently does not offer a Throw module that would enable you to easily conditionally generate (throw) errors, though a workaround can be employed to mimic its functionality.
+>
+>   For more information, see [Workaround for Throw](../../workfront-fusion/errors/throw.md#workarou) in the article [Throw error handling in Adobe Workfront Fusion](../../workfront-fusion/errors/throw.md).
 
 ## Break {#break}
 
