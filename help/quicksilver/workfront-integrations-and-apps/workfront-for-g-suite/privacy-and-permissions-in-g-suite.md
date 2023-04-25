@@ -10,7 +10,7 @@ exl-id: abb8ffa1-1da6-46dd-a929-18b17014839a
 ---
 # Privacy and permissions in Workfront for G Suite
 
-Because customer privacy is important, Adobe Workfront does not store or collect any identifying customer data that results from third-party authorization of a Google plug-in app. Workfront for G Suite's use and transfer of information received from Google APIs to any other app will adhere with the Google API Services User Data Policy, including the Limited Use requirements.
+Because customer privacy is important, Adobe Workfront does not store or collect any identifying customer data that results from third-party authorization of a Google plug-in app. Workfront for G Suite's use and transfer of information received from Google APIs to any other app will adhere with the [Google API Services User Data Policy](https://developers.google.com/terms/api-services-user-data-policy), including the Limited Use requirements.
 
 We require the following permissions so the Workfront for G Suite plug-in can deliver its maximum value:
 
