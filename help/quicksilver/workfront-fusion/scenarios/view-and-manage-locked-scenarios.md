@@ -64,6 +64,7 @@ Locked scenarios will unlock 2-4 hours from the time they were locked. You can u
 >
 >Unlocking a scenario manually can cause errors in a scenario's executions. 
 
-1. Locate the Locked scenario button ![](assets/locked-scenario-icon.png) as described in [View the Locked scenario icon](#view-the-locked-scenario-icon).
-2. Click the Locked scenario button.
-3. Click **[!UICONTROL Unlock]**.
+1. Go the Scenario details page of the locked scenario.
+1. Click **[!UICONTROL Options]** in the upper-right corner of the screen.
+1. Select **[!UICONTROL Unlock execution]**.
+1. Click **[!UICONTROL Unlock]**.
