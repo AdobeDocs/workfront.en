@@ -42,7 +42,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
                 </tr>
                                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-24.md" class="MCXref xref" xrefformat="{para}">Simple filters added to dynamic board template</a><span style="color: #ff0000;"> New in Preview!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-24.md" class="MCXref xref" xrefformat="{para}">Simple filters added to the dynamic board template</a><span style="color: #ff0000;"> New in Preview!</span></p>
                         <p>The filters on the dynamic board template have been simplified to allow you to create a board more quickly.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
