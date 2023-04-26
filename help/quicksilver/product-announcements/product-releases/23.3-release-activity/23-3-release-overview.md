@@ -151,7 +151,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
                 </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-24.md" class="MCXref xref" xrefformat="{para}">Adjust automated proof workflow template settings in the Adobe Workfront for Creative Cloud</a><span style="color: #ff0000;"> New in Preview!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-24.md" class="MCXref xref" xrefformat="{para}">Adjust automated proof workflow template settings using Adobe Workfront for Creative Cloud</a><span style="color: #ff0000;"> New in Preview!</span></p>
                         <p>You can now adjust existing automated workflow template settings directly in the Creative Cloud.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
