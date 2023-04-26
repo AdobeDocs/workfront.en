@@ -49,12 +49,12 @@ For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Work
 
 ## View the Locked scenario icon
 
-If a scenario is locked, it will display the Locked scenario button ![](assets/locked-scenario-icon.png). You can find the button in the following areas of [!DNL Workfront Fusion]:
+If a scenario is locked, it will display the Locked scenario icon ![](assets/locked-scenario-icon.png). You can find the icon in the following areas of [!DNL Workfront Fusion]:
 
 * The header of the [!UICONTROL Scenario details] page for the affected scenario.
 * The [!UICONTROL Scenarios] list, in the line for the affected scenario.
 
-If the button is visible, the scenario is locked.
+If the icon is visible, the scenario is locked.
 
 ## Unlock a locked scenario
 
