@@ -19,6 +19,8 @@ You can use the [!DNL Adobe Workfront] for [!DNL Creative Cloud] plugin to
 * View projects and tasks
 * and more
 
+[View a video overview of the functionality available in the [!DNL Adobe Workfront] for [!DNL Creative Cloud] plugin](https://video.tv.adobe.com/v/3418801/){target=_blank}.
+
 ## Install and use the plugin
 
  The [!DNL Adobe Workfront] for [!DNL Creative Cloud] plugin is available in the following Creative Cloud apps

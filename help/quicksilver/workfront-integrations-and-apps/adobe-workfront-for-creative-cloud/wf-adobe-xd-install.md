@@ -42,7 +42,7 @@ You must have the following access to perform the steps in this article:
   </tr> -->
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>You must have an [!DNL Adobe Creative Cloud] license in addition to a [!DNL Workfront] license.</td> 
+   <td><p>You must have an [!DNL Adobe Creative Cloud] license in addition to a [!DNL Workfront] license.</p><p>For more information, see <a href="https://helpx.adobe.com/support/programs/cc-support-policy.html#cce" class="MCXref xref" xrefformat="{para}">Creative Cloud Support Policy</a>.</p></td> 
   </tr> 
  </tbody> 
 </table>
