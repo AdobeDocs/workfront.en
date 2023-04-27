@@ -50,7 +50,7 @@ You must have the following access to perform the steps in this article:
 
   For instructions, see [Install [!DNL Adobe Workfront for Photoshop]](../../workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-ps.md).
 
-  ## Upload a Basic Proof
+## Upload a Basic Proof
 
 1. Click the **[!UICONTROL Menu]** icon in the top-right corner, then select **[!UICONTROL Work List]**. You can also use the menu to navigate to parent objects.
 
