@@ -5,7 +5,6 @@ title: Projects I'm On filter including unexpected results
 description: Read this article to troubleshoot the Projects I'm On filter including unexpected results.
 feature: Get Started with Workfront
 author: Nolan
-exl-id: 4701464a-4cf5-4be1-bcc0-0892019986ec
 ---
 # Projects I'm On filter includes unexpected results 
 
@@ -42,7 +41,7 @@ The [!UICONTROL **Projects I'm On**] filter includes projects that contain the u
 
 1. Check the [!UICONTROL **Project Details**] for each unexpected project included by the filter, and remove your name from all fields.
 
-OR
+   OR
 
 1. Try using a similar filter, such as [!UICONTROL **Projects I Own**], which only includes projects that are specifically assigned to you.
 
