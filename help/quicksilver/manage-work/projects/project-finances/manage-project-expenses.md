@@ -46,9 +46,9 @@ You must have the following access to perform the steps in this article:
 
 1. Go to the project where you want to enter expenses.  
    If you want to add expenses to a task, navigate to a task instead.&nbsp;
-1. Click **Show**** More**, then click **Expenses.**
-1. Click **Add an Expense.** 
-   The **Add an Expense**&nbsp;dialog box is displayed.
+1. Click **Show More**, then click **Expenses**.
+1. Click **Add an Expense** .
+   The **Add an Expense** dialog box is displayed.
 1. Update the following:
 
    * **Description:** Description of the expense.  
@@ -69,12 +69,12 @@ You must have the following access to perform the steps in this article:
 
 1. Select a **Custom Form** and specify any additional information required. You must create a custom form before you can associate it with an expense. Only active custom forms display in the list. For information about creating custom forms, see the article [Create or edit a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 
-1. Click **Save Changes.**
+1. Click **Save Changes**.
 
 ## Delete Expenses
 
 1. Go to the&nbsp;project where you want to delete expenses.
-1. Click**Show****More**, then click **Expenses.**
+1. Click**Show More**, then click **Expenses**.
 1. Select the expenses that you want to delete, then click **Delete** ![Delete](assets/delete.png).
 
-1. Click&nbsp;**Yes, Delete It** to confirm deletion.&nbsp;
+1. Click **Yes, Delete It** to confirm deletion.

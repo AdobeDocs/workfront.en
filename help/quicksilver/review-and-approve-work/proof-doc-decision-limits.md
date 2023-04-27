@@ -9,13 +9,9 @@ exl-id: f3e68fd8-723a-4e49-9cf1-823e36d04e55
 ---
 # Limited document and proof decision for non-paid users overview
 
-Proof and document decisions are limited for all non-paid Workfront licenses. Limits reset on a per-user basis each month.
+Proof and document decisions are limited for all non-paid Workfront licenses on the new plans. For more information, see [New licenses overview](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md). 
 
->[!IMPORTANT]
->
->Proof and document decision limits do not apply to users on [legacy Workfront licenses and access levels](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md). 
-
-The decision limits for each license differ depending on the plan you're on: 
+Limits reset on a per-user basis each month. The decision limits for each license differ depending on the plan you're on: 
 
 <table>
   <tr>
