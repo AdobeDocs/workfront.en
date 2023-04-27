@@ -52,7 +52,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
                             </li>
                             <li>
                                 <p><span class="preview">
-                                 <p>Production release for early opt-in: April 27, 2023 <span style="color: #ff0000;"> This feature is available in Production only through the early feature opt-in for Workfront Boards.</span></p>
+                                 <p>Production release for early opt-in: April 28, 2023 <span style="color: #ff0000;"> This feature is available in Production only through the early feature opt-in for Workfront Boards.</span></p>
                                 <p>Production release for all customers: With the 23.3 release</p></span></p>
                             </li>
                         </ul>
@@ -70,7 +70,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
                             </li>
                             <li>
                                 <p><span class="preview">
-                                 <p>Production release for early opt-in: April 27, 2023 <span style="color: #ff0000;"> This feature is available in Production only through the early feature opt-in for Workfront Boards.</span></p>
+                                 <p>Production release for early opt-in: April 28, 2023 <span style="color: #ff0000;"> This feature is available in Production only through the early feature opt-in for Workfront Boards.</span></p>
                                 <p>Production release for all customers: With the 23.3 release</p></span></p>
                             </li>
                         </ul>
@@ -88,7 +88,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
                             </li>
                             <li>
                                 <p><span class="preview">
-                                 <p>Production release for early opt-in: April 27, 2023 <span style="color: #ff0000;"> This feature is available in Production only through the early feature opt-in for Workfront Boards.</span></p>
+                                 <p>Production release for early opt-in: April 28, 2023 <span style="color: #ff0000;"> This feature is available in Production only through the early feature opt-in for Workfront Boards.</span></p>
                                 <p>Production release for all customers: With the 23.3 release</p></span></p>
                             </li>
                         </ul>
@@ -106,7 +106,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
                             </li>
                             <li>
                                 <p><span class="preview">
-                                 <p>Production release for early opt-in: April 27, 2023 <span style="color: #ff0000;"> This feature is available in Production only through the early feature opt-in for Workfront Boards.</span></p>
+                                 <p>Production release for early opt-in: April 28, 2023 <span style="color: #ff0000;"> This feature is available in Production only through the early feature opt-in for Workfront Boards.</span></p>
                                 <p>Production release for all customers: With the 23.3 release</p></span></p>
                             </li>
                         </ul>
