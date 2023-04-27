@@ -46,7 +46,7 @@ The following table is a list of commonly used terms in Adobe Workfront:
    <td>[!UICONTROL Actual Expense Cost]</td> 
    <td> <p>The sum of the [!UICONTROL Actual Amounts] for all expenses logged for a project or a task.</p> <b>EXAMPLE </b>
    <p>If you create an expense for Task 1 and enter $600.00 in the [!UICONTROL Actual Amount] field, the [!UICONTROL Actual Expense Cost] for this task is $600.00. </p> 
-   <p>For a project, [!DNL Workfront] uses the following formula to calculate [!UICONTROL Actual Expense Cost]:</p> <p><code>Project Actual Expense Cost = SUM (All Project Actual Expense Costs) + SUM (All Tasks Actual Expense Costs)</code> <br> </p> 
+   <p>For a project, [!DNL Workfront] uses the following formula to calculate [!UICONTROL Actual Expense Cost]:</p> <p><code>Project Actual Expense Cost = SUM (All Project Actual Expense Costs) + SUM (All Tasks Actual Expense Costs) + Project Fixed Cost</code> <br> </p> 
    <!--
      <p>Important: If the value in the Actual Amount field for an expense is negative, Workfront will ignore that expense record. For example, if the value in the Planned Amount field is $200.00 but the value in the Actual Amount field is -$300.00, the system will ignore this entire expense record which means you would not include the $200.00 planned value or the -$300.00 actual value in any calculations for Planned Expense Cost or Actual Expense Cost. (drafting this because not sure if this is still correct)</p>
     --> </td> 
