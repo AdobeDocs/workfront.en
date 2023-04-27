@@ -9,8 +9,6 @@ exl-id: c6d979dd-e4a4-48a5-a91b-b31d7ef848d1
 ---
 # Use connected cards on boards
 
-{{highlighted-preview}}
-
 You can add a card on your board that is connected to existing tasks and issues in [!DNL Workfront].
 
 When any one of the following details is updated for the card in one location, it is automatically updated in the other location:
@@ -95,7 +93,7 @@ You must have the following access to perform the steps in this article:
      </tr> 
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Description]</strong></td> 
-      <td>Changing the description also changes the description on the connected [!DNL Workfront] object. <span class="preview">You can add URLs in the description and they will become clickable links when the card is saved.</span></td> 
+      <td>Changing the description also changes the description on the connected [!DNL Workfront] object. You can add URLs in the description and they will become clickable links when the card is saved.</td> 
      </tr> 
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Assignees]</strong></td>
@@ -133,7 +131,7 @@ You must have the following access to perform the steps in this article:
     </tbody> 
    </table>
 
-   <span class="preview">Use the navigation panel on the left to move between groups of fields on the card details.</span>
+   Use the navigation panel on the left to move between groups of fields on the card details.
 
    >[!NOTE]
    >
