@@ -11,9 +11,9 @@ feature: System Setup and Administration
 role: Admin
 exl-id: 5cb42dd8-1557-4fa4-ab3d-8278ce9afd96
 ---
-# Built-in legacy access levels in Adobe Workfront
+# Built-in access levels in Adobe Workfront
 
-Each of the six built-in legacy access levels are designed for a particular type of user:
+Each of the six built-in access levels are designed for a particular type of user:
 
 * System Administrator
 * Planner
@@ -22,7 +22,7 @@ Each of the six built-in legacy access levels are designed for a particular type
 * Requestor
 * External User
 
-Depending on the legacy access level, up to 3 settings are available for most of the Workfront object types:
+Depending on the access level, up to 3 settings are available for most of the Workfront object types:
 
 <table style="table-layout:auto">
     <tr>
@@ -39,25 +39,25 @@ Depending on the legacy access level, up to 3 settings are available for most of
     </tr>
 </table>
 
-If you need a custom Planner, Worker, Requester, or Reviewer access level, you can copy the built-in legacy access level and determine the amount of access you want it to allow for the various Workfront object types. For information on creating a custom access level or modifying one of the built-in legacy access levels, see [Create or modify custom access levels](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+If you need a custom Planner, Worker, Requester, or Reviewer access level, you can copy the built-in access level and determine the amount of access you want it to allow for the various Workfront object types. For information on creating a custom access level or modifying one of the built-in access levels, see [Create or modify custom access levels](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
 >[!IMPORTANT]
 >
->We strongly recommend that you leave the built-in legacy access levels unchanged so that you can refer to them after you set up your users.
+>We strongly recommend that you leave the built-in access levels unchanged so that you can refer to them after you set up your users.
 
 For general information about these access levels, see [Access levels overview](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
 
-## System Administrator legacy access level
+## System Administrator access level
 
-Attached to the Plan license, this built-in legacy access level is designed for a user who is in charge of administering the Adobe Workfront system. You cannot modify this built-in access level.
+Attached to the Plan license, this built-in access level is designed for a user who is in charge of administering the Adobe Workfront system. You cannot modify this built-in access level.
 
-Users with the System Administrator legacy access level can do everything within Workfront. They can view and edit all Workfront objects and information entered in Workfront by all other users.
+Users with the System Administrator access level can do everything within Workfront. They can view and edit all Workfront objects and information entered in Workfront by all other users.
 
 They also have access to the complete Setup area, where they can change any setting at the system level. And they can access all areas in the  Main Menu ![](assets/main-menu-icon.png).
 
 For more information, see [Grant a user full administrative access](../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md).
 
-## Planner legacy access level
+## Planner access level
 
 Also attached to the Plan license, this access level is designed for:
 
@@ -67,9 +67,9 @@ Also attached to the Plan license, this access level is designed for:
 * Users who build reports and who approve timesheets, work items, and documents
 * Users who need access to all areas in the  Main Menu ![](assets/main-menu-icon.png)
 
-You can create a custom version of the Planner built-in legacy access level and determine the amount of access it allows for the various Workfront object types. For more information, see [Built-in access levels in Adobe Workfront](#Customiz) in this article.
+You can create a custom version of the Planner built-in access level and determine the amount of access it allows for the various Workfront object types. For more information, see [Built-in access levels in Adobe Workfront](#Customiz) in this article.
 
-The following are the highest access settings available for objects in the Planner legacy access level:
+The following are the highest access settings available for objects in the Planner access level:
 
 | Workfront object type |No access |View access |Edit access |
 |---|---|---|---|
@@ -90,7 +90,7 @@ The following are the highest access settings available for objects in the Plann
 
 {style="table-layout:auto"}
 
-## Worker legacy access level
+## Worker access level
 
 Attached to the Work license, this access level is designed for users who for perform the work in Workfront. They do not plan the work; they complete it.
 
@@ -103,7 +103,7 @@ Users with this access level:
 * Can access all the areas in the Main Menu ![](assets/main-menu-icon.png), but their  "Users"  area is named Teams. In the Teams area, users with this access level can view only teams that they belong to, along with the work assigned to those teams.
 * Have limited ability to create objects—they can't create projects, portfolios, programs, or reports.
 
-You can create a custom version of the Worker built-in legacy access level and determine the amount of access it allows for the various Workfront object types. For more information, see [Built-in access levels in Adobe Workfront](#Customiz) in this article.
+You can create a custom version of the Worker built-in access level and determine the amount of access it allows for the various Workfront object types. For more information, see [Built-in access levels in Adobe Workfront](#Customiz) in this article.
 
 The following are the highest access settings available for objects in the Worker access level:
 
@@ -126,7 +126,7 @@ The following are the highest access settings available for objects in the Worke
 
 {style="table-layout:auto"}
 
-## Reviewer legacy access level
+## Reviewer access level
 
 Attached to the Review license, this access level is designed for executives who request work from other users and who review and approve work. These are not project owners or team members, but they need access to Workfront to see the work items that they oversee.
 
@@ -138,7 +138,7 @@ Users with the Reviewer access level:
 * Can access requests and documents in the  Main Menu ![](assets/main-menu-icon.png).
 * Have limited ability to create objects—they can't create projects, portfolios, programs, or reports.
 
-You can create a custom version of the Reviewer built-in legacy access level and determine the amount of access it allows for the various Workfront object types. For more information, see [Built-in access levels in Adobe Workfront](#Customiz) in this article.
+You can create a custom version of the Reviewer built-in access level and determine the amount of access it allows for the various Workfront object types. For more information, see [Built-in access levels in Adobe Workfront](#Customiz) in this article.
 
 More limited for projects and tasks than the Worker access level, the following are the highest access settings available for objects in the Reviewer access level:
 
@@ -243,7 +243,7 @@ More limited for projects and tasks than the Worker access level, the following 
  </tbody> 
 </table>
 
-## Requestor legacy access level
+## Requestor access level
 
 Attached to the Request license, this access level is designed for users who make and receive simple work requests in Workfront. By default, they are limited to the Requests area.
 
@@ -257,7 +257,7 @@ Users with this access level:
 * Cannot be assigned to work items  
 * Can  access requests only from the Main Menu ![](assets/main-menu-icon.png). For more information about request queues, see [Create a Request Queue](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
-You can create a custom version of the Requester built-in legacy access level and determine the amount of access it allows for the various Workfront object types. For more information, see [Built-in access levels in Adobe Workfront](#Customiz) in this article.
+You can create a custom version of the Requester built-in access level and determine the amount of access it allows for the various Workfront object types. For more information, see [Built-in access levels in Adobe Workfront](#Customiz) in this article.
 
 The following are the highest access settings available for objects in the Requestor access level:
 
@@ -280,7 +280,7 @@ The following are the highest access settings available for objects in the Reque
 
 {style="table-layout:auto"}
 
-## External User legacy access level
+## External User access level
 
 This access level is not attached to a paid Workfront license. It is the most restrictive access level, designed primarily for collaborators such as external consultants who don't log into Workfront, but need to review, download, or view documents occasionally.
 
