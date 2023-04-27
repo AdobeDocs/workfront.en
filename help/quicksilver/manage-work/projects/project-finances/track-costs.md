@@ -112,7 +112,7 @@ For example, you have the following expenses in the Expenses tab of a task: a $1
 The Planned Cost of the project is calculated as follows:
 
 ```
-$100 (Consulting Expense) + $100 (Marketing Expense) + $50 (Administrative Expense)+$15(Hourly Rate)*5(Planned Hours Logged) + $200 (Fixed Cost)= $525
+$100 (Consulting Expense) + $100 (Marketing Expense) + $50 (Administrative Expense) + $15(Hourly Rate)*5(Planned Hours Logged) + $200 (Fixed Cost) = $525
 ```
 
 #### Budgeted Cost {#budgeted-cost}
@@ -147,8 +147,15 @@ For example, you have the following expenses in the Expenses tab of a task: a Ma
 The Actual Cost of the project is calculated as follows:
 
 ```
-$100 (Consulting Expense) + $110 (Marketing Expense) + $40 (Administrative Expense) +$15 (Hourly Rate)*6 (Actual Hours Logged) + $20 (Cost per Hour rate for the user logging time on the project)*10 (hours the user logs on the project) + $200 (Fixed Cost)= $740
+$100 (Consulting Expense) + $110 (Marketing Expense) + $40 (Administrative Expense) +$15 (Hourly Rate)*6 (Actual Hours Logged) + $20 (Cost per Hour rate for the user logging time on the project)*10 (hours the user logs on the project) + $200 (Fixed Cost) = $740
 ```
+
+>[!NOTE]
+>
+>The Actual Expense Cost of the project is calculated as follows:
+>`SUM (All Project Actual Expense Costs) + SUM (All Tasks Actual Expense Costs) + Project Fixed Cost`
+>
+>These costs are not duplicated in the Actual Cost calculation. For example, if a Fixed Cost is part of the Actual Expense Cost of the project, it is not added separately to the Actual Cost.
 
 >[!NOTE]
 >
@@ -157,7 +164,6 @@ $100 (Consulting Expense) + $110 (Marketing Expense) + $40 (Administrative Expen
 >* By default, Workfront uses the Cost per Hour rate of the user to calculate Actual Labor Cost.
 >* If the user logging the time is not associated with any cost, then Workfront uses the Cost per Hour rate of the user's Primary Role.
 >* If your Workfront administrator enabled the **Assign Job Roles to hour entries manually** setting in the Timesheets & Hours Preferences area, and the user logging time on the project selects a different role to associate with this time, the Actual Cost of the project calculates based on the role specified when the hours were logged. For information about enabling logging time for a specific job role, see the article [Configure timesheet and hour preferences](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
->
 
 ### How Workfront calculates Cost Types for tasks {#how-workfront-calculates-cost-types-for-tasks}
 

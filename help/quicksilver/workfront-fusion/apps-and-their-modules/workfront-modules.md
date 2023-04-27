@@ -767,7 +767,7 @@ When you are configuring this module, the following fields display.
   </tr> 
   <tr> 
    <td>[!UICONTROL Search criteria]</td> 
-   <td> <p>Enter the field that you want to search by, the operator you want to use in your query, and the value that you are searching for in the field.</p> <p>Note: Do not use <code>username </code>in your search criteria. Including <code>username </code>in an API query to [!DNL Workfront] logs the user into Workfront, and the search will not be successful.</p> </td> 
+   <td> <p>Enter the field that you want to search by, the operator you want to use in your query, and the value that you are searching for in the field.</p> <p>Note: Do not use <code>username </code>in your search criteria. Including <code>username </code>in an API query to [!DNL Workfront] logs the user into Workfront, and the search will not be successful.</p> <p>Note: <code>In</code> and <code>NotIn</code>work with arrays. The inputs should be in array format.</p></td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL Outputs]</td> 

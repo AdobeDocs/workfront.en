@@ -11,7 +11,7 @@ exl-id: 2d4d104a-1465-43e2-8184-83dd63d9681c
 ---
 # Transfer custom form data when converting an object
 
-Depending on the business needs of your organization, the work defined in a task or an issue might become too large to manage it within the task or the issue. In this case, you can convert them to a larger work item:
+Depending on the business needs of your organization, the work defined in a task or an issue might become too large to manage within the task or the issue. In this case, you can convert them to a larger work item:
 
 * You can convert issues to tasks, or to projects
 * You can convert tasks to projects
@@ -45,6 +45,36 @@ You must have the following to perform the steps in this article:
 
 &#42;To find out what plan, license type, or access level configurations you have, contact your Workfront administrator.
 
+## First: Add additonal objects to the custom form
+
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
+
+1. Click **Custom Forms**.
+1. Find the form you need, then click **Edit**.
+1. At the top of the form, add the object you plan to convert the task or issue to. 
+   >[!INFO]
+   >
+   >**Example**: If you want to transfer the custom form data to a project, select Project.
+
+1. Click **Apply** at the bottom of the form.
+
+1. Continue on to [Second: Convert the issue or task and transfer the custom form data](#second-convert-the-issue-or-task-and-transfer-the-custom-form-data).
+
+## Second: Convert the issue or task and transfer the custom form data {#second-convert-the-issue-or-task-and-transfer-the-custom-form-data}
+
+1. Add additional objects to the custom form on the issue or task you are converting, as explained in the section [First: Add additional objects to the custom form](#first-add-additonal-objects-to-the-custom-form) in this article.
+1. Convert the issue or task using the **Custom Forms** option in the box that displays to select the custom form you need. For instructions, see the following articles:
+
+   * [Convert an issue to a project in Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issue-to-project.md)
+   * [Convert an issue to a task in Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issue-to-task.md)
+   * [Convert a task to a project](../../../manage-work/tasks/manage-tasks/convert-task-to-project.md)
+
+1. In the **Convert to (object type)** dialog box that displays, click the **Add Forms** drop-down menu and select the form you copied in the previous section.
+
+   The information captured in the custom fields of the issue is now transferred to the custom form on the task.
+
+
+<!--
 ## First: Copy the custom form {#first-copy-the-custom-form}
 
 First you need to make sure that you retain any custom form data on a task or issue you want to convert. Because the custom form data must be an exact match on the converted item, it is best practice to duplicate the form so that you can attach it to the new object.
@@ -68,17 +98,4 @@ First you need to make sure that you retain any custom form data on a task or is
    This copied custom form can now be attached to a task or project.
 
 1. Continue on to [Second: Convert the issue or task and transfer the custom form data](#second-convert-the-issue-or-task-and-transfer-the-custom-form-data).
-
-## Second: Convert the issue or task and transfer the custom form data {#second-convert-the-issue-or-task-and-transfer-the-custom-form-data}
-
-1. Copy the custom form on the issue or task you are converting, as explained in the section [First: Copy the custom form](#first-copy-the-custom-form) in this article.
-1. Convert the issue or task using the **Custom Forms** option in the box that displays to select the custom form you copied. For instructions, see the following articles:
-
-   * [Convert an issue to a project in Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issue-to-project.md)
-   * [Convert an issue to a task in Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issue-to-task.md)
-   * [Convert a task to a project](../../../manage-work/tasks/manage-tasks/convert-task-to-project.md)
-
-1. In the **Convert to (object type)** dialog box that displays, click the **Add Forms** drop-down menu and select the form you copied in the previous section.
-
-   The information captured in the custom fields of the issue is now transferred to the custom form on the task.
-
+-->
