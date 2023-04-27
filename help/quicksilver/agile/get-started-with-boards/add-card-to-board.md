@@ -89,18 +89,10 @@ An ad hoc card is not connected to a work item in [!DNL Adobe Workfront].
      </tr> 
     </tbody> 
    </table>
-   
-   Sample card details image in the Production environment without early feature access enabled:
-   ![Ad hoc card details](assets/boards-edit-ad-hoc-card-071822.png)
 
-   Sample card details image in the Production environment with early feature access enabled:
    ![Ad hoc card details](assets/boards-edit-ad-hoc-card-041723.png)
 
    Use the navigation panel on the left to move between groups of fields on the card details.
-
-   >[!NOTE]
-   >
-   >The left navigation panel and the ability to add clickable links in the Description field are available only through the early feature opt-in for Workfront Boards.
 
 1. Click **[!UICONTROL Close]** to add the card to the board.
 
