@@ -32,7 +32,7 @@ For example, you have a Custom Field formatted as Text.  Now, you want to change
    <td>Any</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p><a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Legacy licenses overview</a>*</p> </td> 
+   <td role="rowheader"> <p><a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Licenses overview</a>*</p> </td> 
    <td>Plan</td> 
   </tr> 
   <tr data-mc-conditions=""> 

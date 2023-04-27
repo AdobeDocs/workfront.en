@@ -4,14 +4,14 @@ content-type: reference
 product-area: system-administration
 keywords: access,model,funnel,diagram,levels,permissions
 navigation-topic: access-levels
-title: Functionality available for each object type
+title: Functionality available for each object type for new access levels
 description: The following tables lists the functionality available for each object type in the various access levels.
 author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: a419e4fe-7781-48ac-8765-bd605fa44bc9
 ---
-# Functionality available for each object type for various access levels
+# Functionality available for each object type for new access levels
 
 The following tables lists the functionality available for each object type in the various access levels.
 
