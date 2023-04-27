@@ -60,6 +60,12 @@ The following are types of beta programs available from Workfront:
 
 For information about product release notes, see [Product releases](../../product-announcements/product-releases/product-releases.md). 
 
+##  Other releases
+
+At times, Workfront might release features that might not be documented in the release notes, maintenance updates, or in any of the actual documentation articles. This happens in an effort to test new features before making them permanent. Usually, these tests are released to a limited number of customers, but there might be a time when they might be released to everyone. 
+
+If you come across something in the system that doesn't match documentation, we ask that you contant our Customer Support team. For more information, see [Contact Customer Support](../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md). 
+
 ## Release notes
 
 Use the release notes for the upcoming quarterly release to see which new features are available in Preview and when they will be released to Production.

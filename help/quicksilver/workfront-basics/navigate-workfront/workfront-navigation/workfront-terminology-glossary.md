@@ -838,10 +838,31 @@ The following table is a list of commonly used terms in Adobe Workfront:
    <td>[!UICONTROL External]</td> 
    <td> <p>Typically, a license type, or a user with such a license, which only has the ability to review information in the system.</p> <p>For more information, see <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">[!DNL Adobe Workfront] licenses overview</a>.</p> </td> 
   </tr> 
-  <tr data-mc-conditions="SnippetConitions_MaturityModel.Optimized"> 
+  <tr> 
    <td>[!UICONTROL External System]</td> 
    <td>Any services or software that is stored and governed outside the designated system of record.</td> 
   </tr> 
+
+ <tr> 
+   <td>[!UICONTROL Field]</td> 
+   <td><p>Any Workfront object or the information associated with it, as it appears in the database. </p>
+   <p>For example, "project", "user", "hour" are both Workfront objects as well as fields. "Name", "status", "owner", "start date" are Workfront fields that are associated with the above objects. </p>
+
+   <p>When referring to objects, the tems "objects" and "fields" can be used interchangeably.</p>
+   <p>In the scope of reporting, the "fields" refer to the objects or the information about the object that you want to capture in the report.</p>
+   
+   <p><b>NOTE</b></p>
+
+  <p>In text-more reporting, fields refer to the the objects or their information as it appears in the database.</p>
+   <p>Sometimes the name that you see in the user interface is different than the name of the field in the database. For example, "issue" is the name of the object in the Workfront interface, but "opTask" is the name of the object (or the field) in the Workfront database. </p> 
+   <p> It's important to use the field as it appears in the databse when writing a text-mode report, view, filter, or grouping, or when creating a calculated field.</p>
+
+   <p>For more information, see <a href="../../../wf-api/general/api-explorer.md">API Explorer</a> and <a href="../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md">Text Mode overview</a>.</p>  
+
+   <p>By default, Workfront comes with a set of fields that define both objects and their information. You can also create custom fields to define objects, but you cannot create custom objects.</p> 
+   </td> 
+  </tr>
+
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Ad hoc"> 
    <td>[!UICONTROL Filter]</td> 
    <td> <p>One of the main building blocks of a report or a list element that defines what information displays on the screen. For more information about reporting elements, see <a href="../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md" class="MCXref xref">Reporting elements: filters, views, and groupings</a>.</p> <p>The Filter determines the results that display in a report or on an [!DNL Workfront] panel listing, like projects, tasks, or issues.</p> </td> 
@@ -1294,7 +1315,7 @@ The designated full time equivalency for users. A full-time user should have 100
   </tr> 
   <tr> 
    <td>[!UICONTROL Object]</td> 
-   <td> <p>An organization's work items and reports, as well as the groups of users that manage them in [!UICONTROL Workfront]. Objects can be:</p> 
+   <td> <p>The information you display in [!DNL Adobe Workfront] is represented by objects which are stored in the [!DNL Workfront] database. The objects are what drives the information in Workfront. Some examples of objects are:</p> 
     <ul> 
      <li>[!UICONTROL Portfolios]</li> 
      <li>[!UICONTROL Programs]</li> 
@@ -1308,7 +1329,17 @@ The designated full time equivalency for users. A full-time user should have 100
      <li>[!UICONTROL Teams]</li> 
      <li>[!UICONTROL Users]</li> 
      <li>[!UICONTROL Companies]</li> 
-    </ul> <p>For more information, see <a href="../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md" class="MCXref xref">Understand objects in [!UICONTROL Adobe Workfront]</a>.</p> </td> 
+     <li>[!UICONTROL Custom forms]</li>
+     <li>[!UICONTROL Custom fields]</li>  
+     <li>[!UICONTROL Hours]</li> 
+     <li>[!UICONTROL Billing Rates]</li> 
+     <li>[!UICONTROL Templates]</li> 
+     <li>[!UICONTROL Template tasks]</li> 
+
+  <p><b>NOTE</b></p>
+  <p>This is not an extensive list. </p>
+
+  </ul> <p>For more information, see <a href="../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md" class="MCXref xref">Understand objects in [!UICONTROL Adobe Workfront]</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Object Types]</td> 

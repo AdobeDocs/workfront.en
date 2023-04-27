@@ -215,7 +215,7 @@ Adding an update to a work item differs depending on what version of the Updates
 
 1. Click **Submit** to add the update to the Workfront object. 
 1. (Optional) To edit a comment, click the **More** menu ![](assets/more-menu.png) to the right of the Like icon, then click **Edit**.
-1. Edit the information in the comment or remove any of the tagged users. 
+1. Edit the information in the comment, add or remove images or remove any of the tagged users. 
    You can edit your comment within 15 from submitting it. An "Edited" indicator is added to the left of the date stamp that displays when the comment was updated. 
 
    ![](assets/edited-tag-on-comment-unified-commenting.png)
