@@ -55,12 +55,6 @@ For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Work
 
    If you want to edit an existing scenario, click the scenario.
 
-1. (Conditional) If you are creating a new scenario, under **[!UICONTROL What services do you want to integrate]**, select apps you want to work with in the scenario, then click **[!UICONTROL Continue]**.
-
-   Or
-
-   Click **[!UICONTROL Skip]** if you would rather choose the apps from within the scenario editor.
-
    In the scenario editor that displays, you can do everything listed in the table below. For more information, see [Create a scenario in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
 
 1. When you finish editing a scenario (or at any time while you are editing), click the [!UICONTROL Save] icon. ![](assets/save-icon.gif)
@@ -70,6 +64,8 @@ For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Work
    >After saving your scenario, a new version will be available under the three-dot menu in case you need to access it in the future. Previously saved scenario versions are only available for 60 days.
 
 ## Available scenario editor actions
+
+The following actions are available in the Scenario editor:
 
 <table style="table-layout:auto"> 
 <tbody>
