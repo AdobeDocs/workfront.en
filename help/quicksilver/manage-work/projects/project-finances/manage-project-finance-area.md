@@ -183,22 +183,18 @@ To edit information on the Project Finance subtab:
       <td>Specify the budget for this project.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Fixed Cost</strong> </td> 
+      <td role="rowheader">Fixed Cost</td> 
       <td>Specify the fixed cost for this project. This should not include any labor or expense costs.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Fixed Revenue</strong> </td> 
+      <td role="rowheader">Fixed Revenue</td> 
       <td> <p>Specify the fixed revenue of this project. This should not include revenue coming from any billing records billed to partners or third parties.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Project Currency</td> 
       <td> <p>Specify a currency for this project, if it is different from the default currency in your system. The default currency in your system is defined by your Workfront administrator. For more information about setting up exchange rates in Workfront, see the article <a href="../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref">Set up exchange rates</a>.</p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">&nbsp;</td> 
-      <td>&nbsp;</td> 
-     </tr> 
+     </tr>
     </tbody> 
    </table>
 
-1. Click **Save****Changes**.
+1. Click **Save Changes**.

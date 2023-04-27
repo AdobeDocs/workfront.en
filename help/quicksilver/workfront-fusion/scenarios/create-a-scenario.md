@@ -56,12 +56,6 @@ For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Work
 1. Click **[!UICONTROL Scenarios]** ![](assets/scenarios-icon.png) in the left panel.
 
 1. Click **[!UICONTROL Create a new scenario]** in the upper-right corner of the page.
-1. (Optional) Under **[!UICONTROL What services do you want to integrate]**, if you are creating a new scenario, select apps you want to work with in the scenario, then click **[!UICONTROL Continue]**.
-
-   Or
-
-   Click **[!UICONTROL Skip]** if you want to choose the apps from within the scenario editor.
-
 1. In the screen that appears (the scenario editor), if you are creating a new scenario, click **[!UICONTROL New scenario]** in the upper-left corner and type a name for the scenario.
 1. Continue on to [Add a module in a scenario](#add-a-module-in-a-scenario).
 
