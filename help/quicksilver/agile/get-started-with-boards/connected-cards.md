@@ -133,10 +133,6 @@ You must have the following access to perform the steps in this article:
 
    Use the navigation panel on the left to move between groups of fields on the card details.
 
-   >[!NOTE]
-   >
-   >The left navigation panel and the ability to add clickable links in the Description field are available only through the early feature opt-in for Workfront Boards.
-
 1. Click **[!UICONTROL Close]** to return to the board.
    The connected object, assignees, tags, due date, checklist counter, estimated hours, and status are displayed on the card.
    
