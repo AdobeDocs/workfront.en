@@ -93,6 +93,8 @@ You must have the following access to perform the steps in this article:
     </tbody> 
    </table>
 
+{{adjust-proof-settings}}
+
 1. (Optional) Type a comment in the **[!UICONTROL Updates]** area.
 
    ![](assets/proof-approvals-xd-350x396.png)
@@ -167,6 +169,8 @@ You can create an interactive proof for your artboards with the [!DNL Workfront 
     </tbody> 
    </table>
 
+{{adjust-proof-settings}}
+
 1. (Optional) Type a comment in the **[!UICONTROL Updates]** area.
 
    ![](assets/proof-approvals-xd-350x396.png)
@@ -223,6 +227,8 @@ You can upload a new version of a proof. The plugin remembers the proofing workf
      </tr> 
     </tbody> 
    </table>
+
+{{adjust-proof-settings}}
 
 1. Choose the export format from the **[!UICONTROL Asset Type]** drop-down menu.
 
