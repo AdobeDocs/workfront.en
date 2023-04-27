@@ -15,7 +15,7 @@ exl-id: 7c14702e-ac55-4266-88a7-f31618f84218
 
 You do not have to be an Adobe Workfront administrator to share permissions on objects that you have access to, but permissions on objects work within the access levels set by the Workfront administrator.
 
-You can share or remove permissions to an object you created or an object that was shared with you. When you are not the creator of the object, you must have Share access on the object that you want to share in your access level in addition to Share permissions on the object. For information about access levels, see [Access levels overview](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md) or [Legacy access levels overview](../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
+You can share or remove permissions to an object you created or an object that was shared with you. When you are not the creator of the object, you must have Share access on the object that you want to share in your access level in addition to Share permissions on the object. For information about access levels, see [New access levels overview](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md) or [Access levels overview](../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
 
 >[!NOTE]
 >

@@ -188,7 +188,7 @@ Adding an update to a work item differs depending on what version of the Updates
 
    >[!TIP]
    >
-   >Navigating away from the Updates section before you finish typing and submitting a comment keeps the comment on the page in draft mode even after you log off and log back on. Drafted comments are only visible to the user entering them.
+   >Navigating away from the Updates section before you finish typing and submitting a comment keeps the comment on the page in draft mode even after you log off and log back on. Any images that are added to the comment are also saved in the draft. Drafts are saved for 7 days after which they are discarded and cannot be recovered. Drafted comments are only visible to the user entering them.
 
 1. (Optional) In the **Tag people or teams** area, start typing the name or the email of a user, or a team that you would like to include in this comment, then select it when it displays in the list. 
 1. (Optional) To add rich text formatting to your update, use any of the following options from the **Rich Text** toolbar to enhance your text: 
@@ -215,7 +215,7 @@ Adding an update to a work item differs depending on what version of the Updates
 
 1. Click **Submit** to add the update to the Workfront object. 
 1. (Optional) To edit a comment, click the **More** menu ![](assets/more-menu.png) to the right of the Like icon, then click **Edit**.
-1. Edit the information in the comment <!--or remove any of the tagged users-->. 
+1. Edit the information in the comment, add or remove images or remove any of the tagged users. 
    You can edit your comment within 15 from submitting it. An "Edited" indicator is added to the left of the date stamp that displays when the comment was updated. 
 
    ![](assets/edited-tag-on-comment-unified-commenting.png)
@@ -225,6 +225,17 @@ Adding an update to a work item differs depending on what version of the Updates
    >   An email is generated to notify users of your update only when you submit the original update. No email is generated after you edited your update.
 
 1. (Optional) Click **Reply** to reply to an existing comment, then follow the steps 4-7 above. <!--(**************insure this stays accurate***********)-->. For information about replying to an update, see [Reply to updates](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).
+1. (Conditional and optional) If other users have added comments that display outside of the visible area in the Updates section, click **View** inside the blue **new comments banner** at the bottom of the screen  to display these comments.
+
+   ![](assets/blue-new-comments-banner-with-view-button.png)
+
+   Additional comments display at the bottom of the screen.
+
+   >[!NOTE]
+   >
+   >   The "new comments" indicator and "View" button display only when both the users that entered the new updates as well as the user currently looking at the Updates section are using the new commenting experience.
+
+   
 1. (Optional) Click the **Like** icon![](assets/like-icon.png). The icon updates with the number of likes.
 1. (Conditional and Optional) If you included additional people in your comment, click the number of members included in the update to display a list of entities that the comment you entered is shared with. 
 
@@ -295,9 +306,13 @@ You can enhance your updates by using Rich Text, or adding various items to it, 
    1. Under **Text to display**, type or paste the link text.
    1. Click **Save**.
 
-1. (Optional) To attach an image to your update, click the **Image** icon ![](assets/addimageicon-35x32.png) and browse to the image on your computer.  
-   Or  
-   Drag the image into the update area.
+1. (Optional) To attach an image to your update, do one of the following, depending on the environment you use:
+
+   * Click the **Image** icon ![](assets/addimageicon-35x32.png) and browse to the image on your computer or drag the image into the update area, when using the current updating experience
+
+   Or
+
+   Click the **Add attachment** icon ![](assets/add-image-paperclip-icon.png) and browse to the image on your computer, when using the commenting Beta experience. 
 
    >[!NOTE]
    >
@@ -362,11 +377,19 @@ No Workfront user (including the Workfront administrator) can delete updates mad
 
    ![](assets/update-stream-comment-menu-marked-350x152.png)
 
-1. In the message that appears, click **Confirm** or **Delete**, when using the commenting Beta experience.
+1. In the message that appears, click **Confirm** or click **Delete**, when using the commenting Beta experience.
 
->[!NOTE]
->
->Deleting an update with an attached image deletes both the comment and the image.
+   >[!NOTE]
+   >
+   >Deleting an update with an attached image deletes both the comment and the image.
+
+   When the comment you delete has replies associated with it, there is an indication that the comment was removed with the name of the user who removed it.
+
+   ![](assets/removed-comment-indicator-new-experience.png) 
+
+   When using the commenting Beta experience, deleted comments are removed immediately from Workfront. A user using the Updates section sees a comment being deleted by another user in real time.
+
+   <!--when we remove the beta, take out the first part of the sentence above about only when commenting in beta experience. Leave the rest though-->
 
 ## Add an update on a Timesheet
 

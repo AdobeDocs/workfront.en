@@ -4,7 +4,7 @@ keywords: release
 navigation-topic: product-announcements
 title: Adobe Workfront release schedule and process
 description: The Preview environment is updated once a week with new features. These features are communicated in the release notes for the upcoming quarterly release.
-author: Luke
+author: Alina
 feature: Product Announcements
 exl-id: 4cc72e55-8105-420a-9609-e965222399e3
 ---
@@ -26,7 +26,7 @@ Issue fixes to the Adobe Workfront product are made available in the Production 
 
 ## Features removed from a quarterly release
 
-All features associated with a given quarterly release are available to test in Preview 2-4 weeks prior to the final release to Production. If features are removed from the quarterly release before this time, the following actions are taken to inform customers:
+All features associated with a given quarterly release are available to test in Preview for a minimum of 2-4 weeks prior to the final release to Production. If features are removed from the quarterly release before this time, the following actions are taken to inform customers:
 
 * The release notes for the quarterly release (found from the [Product releases](../../product-announcements/product-releases/product-releases.md) page) are updated to indicate that the feature was removed.
 
@@ -35,6 +35,36 @@ If features are removed from the quarterly release after all features are availa
 * The release notes for the quarterly release (found from the [Product releases](../../product-announcements/product-releases/product-releases.md) page) are updated to indicate that the feature was removed. 
 * A post is added to the Workfront Community stating that the feature was removed.
 * A message is sent to all customers via the Announcement Center stating that the feature was removed. (The Announcement Center is Workfront's in-app notification center. For more information, see [Send announcements](../../administration-and-setup/get-started-wf-administration/view-send-announcements.md).)
+
+## Beta releases
+
+At times, Workfront releases new features as part of a beta program. 
+The specific information about each beta, including how to participate, releases when each beta program launches and all beta programs are different. 
+
+The following are types of beta programs available from Workfront:
+
+* **Closed or private beta**: The following are characteristics of a closed or private beta release:
+
+    * Features are available to a small group of customers, carefully selected by Workfront.
+    * Participants typically work with a Product Manager and provide feedback on a regular basis. 
+    * New features that are part of the beta can be released to either Preview or Production, or to a separate environment made available for the purpose of the beta program. Closed beta features are released at random intervals and with no warning. 
+    * There is no release information for closed betas on the Product release pages. 
+
+* **Open or public beta**: The following are characteristics of an open or public beta release:
+
+    * The features are available to all Workfront customers, but are in a beta state. They might not always be fully functional and feedback is always welcome.
+    * The participation in a public beta is optional and customers can decide whether to turn the beta features on themselves. 
+    * New features that are part of the beta can be released to either Preview or Production. 
+    * Features might release more often than the regular release patterns for Workfront. 
+    * Information about when features are released to a public beta is included in the Product release pages. 
+
+For information about product release notes, see [Product releases](../../product-announcements/product-releases/product-releases.md). 
+
+## Other releases
+
+At times, Workfront might release features that might not be documented in the release notes, maintenance updates, or in any of the actual documentation articles. This happens in an effort to test new features before making them permanent. Usually, these tests are released to a limited number of customers, but there might be a time when they might be released to everyone. 
+
+If you come across something in the system that doesn't match documentation, we ask that you contant our Customer Support team. For more information, see [Contact Customer Support](../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md). 
 
 ## Release notes
 

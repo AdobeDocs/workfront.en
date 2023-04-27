@@ -60,22 +60,21 @@ You must have the following access to perform the steps in this article:
 1. Click the **[!UICONTROL Document]** icon ![](assets/documents.png) in the navigation bar. 
 1. Click **[!UICONTROL New File]** near the bottom of the plugin.
 1. Enable the **[!UICONTROL Create a proof]** toggle.
-1. Choose the **[!UICONTROL Asset Type]** from the drop-down menu.
-
-   ![](assets/plugin-create-proof-350x182.png)
-
+1. (Optional) Type a name for the proof in the **[!UICONTROL Proof Name]** text box.
 1. In the **[!UICONTROL Proof Approvals]** section, select **[!UICONTROL Basic]**.
 1. (Optional) Add approvers.
 1. (Optional) Type a comment in the **[!UICONTROL Updates]** area.
 
-   ![](assets/plugin-proof-approvals-350x450.png)
+   ![](assets/add-comment.png)
 
-1. (Optional) Type a name for the proof in the **[!UICONTROL Proof Name]** text box.
+1. Choose the **[!UICONTROL Asset Type]** from the drop-down menu.
+
 1. (Optional) Select **[!UICONTROL Add outside file]** to add a file from your computer.
 1. Click **[!UICONTROL Upload]**, then configure any desired export options based on the asset type chosen above. 
 
    ![](assets/plugin-files-350x307.png)   
    The document appears in the [!UICONTROL Documents] area in the plugin and the desktop app.
+
 
 ## Upload an Automated Proof
 
@@ -87,26 +86,26 @@ You must have the following access to perform the steps in this article:
 1. Click the **[!UICONTROL Document]** icon ![](assets/documents.png) in the navigation bar. 
 
 1. Click **[!UICONTROL New File]** near the bottom of the plugin.
-1. Enable the **[!UICONTROL Create a proof]** toggle, then choose the **[!UICONTROL Asset Type]** from the drop-down menu.
-
-   ![](assets/plugin-create-proof-350x182.png)
-
+1. Enable the **[!UICONTROL Create a proof]** toggle.
+1. (Optional) Type a name for the proof in the **[!UICONTROL Proof Name]** text box.
 1. In the **[!UICONTROL Proof Approvals]** section, select **[!UICONTROL Automated]**.
 1. (Optional) In the **[!UICONTROL Workflow Template]** box, type the name of a proof workflow template.
 
 {{adjust-proof-settings}}
 
+>[!NOTE]
+>
+> If there are any blank required fields in the workflow template, the automated proof settings open automatically, and you are required to populate those fields in order to upload the proof.
+
+
 1. (Optional) Type a comment in the **[!UICONTROL Updates]** area.
 
-   ![](assets/copy-of-proof-approvals-advanced-350x424.png) <!-- new screenshot -->
+   ![](assets/add-comment-automated-approval.png) 
 
-1. (Optional) Type a name for the proof in the **[!UICONTROL Proof Name]** text box.
+1. Choose the **[!UICONTROL Asset Type]** from the drop-down menu.
 1. (Optional) Select **[!UICONTROL Add outside file]** to add a file from your computer.
 1. Click **[!UICONTROL Upload]**, then configure any desired export options based on the asset type chosen above. 
-
-   ![](assets/plugin-files-350x307.png)   
    The document appears in the [!UICONTROL Documents] area in the plugin and the desktop app.
-
 
 ## Upload a new proof version
 
@@ -120,15 +119,13 @@ You can upload a new version of a proof. The plugin remembers the proofing workf
 1. Click the **[!UICONTROL Document]** icon ![](assets/documents.png)in the navigation bar. 
 
 1. Click **[!UICONTROL New Version]** near the bottom of the plugin.
-1. Choose the **[!UICONTROL Asset Type]** from the drop-down menu.
-1. Enable the **[!UICONTROL Create a proof]** toggle, then choose the **[!UICONTROL Asset Type]** from the drop-down menu.
-
-   ![](assets/plugin-create-proof-350x182.png)
+1. Enable the **[!UICONTROL Create a proof]** toggle.
 
 1. In the *[!UICONTROL *Proof approvals]** section, choose **[!UICONTROL Basic]** or **[!UICONTROL Automated]**.
 
 1. Add **[!UICONTROL Reviewers]** or a **[!UICONTROL Workflow template]** based on the approval type you selected in step 7.
 
 1. (Optional) Type a comment in the **[!UICONTROL Updates]** area.
+1. Choose the **[!UICONTROL Asset Type]** from the drop-down menu.
 1. Click **[!UICONTROL Upload]**, then configure any desired export options based on the asset type chosen above. 
    The document appears in the [!UICONTROL Documents] area in the plugin and the desktop app.

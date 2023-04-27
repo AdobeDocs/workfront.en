@@ -99,7 +99,9 @@ Currenlty, you can make comments and reply to updates using the Beta commenting 
   <tr> 
    <td> 
     <ul> 
-     <li>Goals</li> 
+     <li><p>Goals</p>
+     <p>This is the default experience for goals</p>
+     </li> 
      </ul> </td> 
    <td> 
     <ul> 

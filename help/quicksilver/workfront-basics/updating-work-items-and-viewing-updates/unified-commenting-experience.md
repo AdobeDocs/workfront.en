@@ -1,7 +1,7 @@
 ---
 product-area: projects
 navigation-topic: update-work-items-and-view-updates
-title: Unified Commenting Experience
+title: New commenting experience
 description: The new Unified Commenting Experience will
 author: Alina
 feature: Get Started with Workfront
@@ -157,8 +157,9 @@ The following table illustrates the features that will be available in the new c
    </td>
    <td> 
    </td>
-   <td>
-   <td>✓ 
+   <td>✓
+   </td>
+   <td> 
    </td>
    <td> 
    </td>
@@ -198,7 +199,7 @@ The following table illustrates the features that will be available in the new c
    </td>
    <td>✓ 
    </td>
-   <td>Replaced with Activity tab 
+   <td>Replaced with the Activity tab 
    </td>
    <td> 
    </td>
@@ -236,7 +237,7 @@ The following table illustrates the features that will be available in the new c
    </td>
   </tr>
   <tr>
-   <td>See new comments in real time 
+   <td>See new comments in real time (includes seeing when a comment is deleted)
    </td>
    <td> 
    </td>
@@ -296,7 +297,7 @@ The following table illustrates the features that will be available in the new c
    </td>
    <td>✓ 
    </td>
-   <td> ✓
+   <td> Replaced with Copy link
    </td>
    <td> 
    </td>
@@ -310,7 +311,7 @@ The following table illustrates the features that will be available in the new c
    </td>
    <td>✓ 
    </td>
-   <td> ✓
+   <td> Replaced with Copy link
    </td>
    <td> 
    </td>

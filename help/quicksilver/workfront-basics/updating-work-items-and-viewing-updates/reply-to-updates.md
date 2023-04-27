@@ -98,7 +98,7 @@ Replying to a comment or reply differs depending on which experience and which o
 
    You can see the users who are actively engaged in the conversation at the bottom of the **New comment** box and you can add more, or remove the ones that are no longer relevant. These users, along with any users subscribed to the object, receive a notification whenever an update or reply is made on the object. You can also tag more users to include them in your reply.  To tag more users, see [Tag others on updates](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
 
-1. Start typing your reply and use any additional options from the Rich Text toolbar. For information about using Rich Text, see the "Use Rich Text in a Workfront update" section in [Update work](../updating-work-items-and-viewing-updates/update-work.md). 
+1. Start typing your reply and use any additional options from the Rich Text toolbar. For information about using Rich Text or other updating capabilities, see [Update work](../updating-work-items-and-viewing-updates/update-work.md). 
 
 1. Click **Submit** to save the reply.
 
