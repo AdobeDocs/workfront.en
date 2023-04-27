@@ -21,6 +21,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
 ## Adobe Workfront enhancements
     
 * [Agile enhancements](#agile-enhancements)
+* [Integration enhancements](#integration-enhancements)
 * [Other enhancements](#other-enhancements)
     
 ### Agile enhancements
@@ -39,9 +40,27 @@ The <add release> release webinar will be held on <date>. You can [register for 
                         </p>
                     </td>
                 </tr>
+                                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-24.md" class="MCXref xref" xrefformat="{para}">Simple filters added to the dynamic board template</a><span style="color: #ff0000;"> New in Preview!</span></p>
+                        <p>The filters on the dynamic board template have been simplified to allow you to create a board more quickly.</p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                        <ul>
+                            <li>
+                                <p>Preview release: April 27, 2023<br /></p>
+                            </li>
+                            <li>
+                                <p><span class="preview">
+                                 <p>Production release for early opt-in: April 28, 2023 <span style="color: #ff0000;"> This feature is available in Production only through the early feature opt-in for Workfront Boards.</span></p>
+                                <p>Production release for all customers: With the 23.3 release</p></span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-17.md" class="MCXref xref" xrefformat="{para}">Dynamic board template</a><span style="color: #ff0000;"> New in Preview!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-17.md" class="MCXref xref" xrefformat="{para}">Dynamic board template</a></p>
                         <p>A new template, dynamic board, is now available for standalone boards. This template is not available for boards inside of a workstream.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
@@ -51,7 +70,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
                             </li>
                             <li>
                                 <p><span class="preview">
-                                 <p>Production release for early opt-in: April 27, 2023 <span style="color: #ff0000;"> This feature is available in Production only through the early feature opt-in for Workfront Boards.</span></p>
+                                 <p>Production release for early opt-in: April 28, 2023 <span style="color: #ff0000;"> This feature is available in Production only through the early feature opt-in for Workfront Boards.</span></p>
                                 <p>Production release for all customers: With the 23.3 release</p></span></p>
                             </li>
                         </ul>
@@ -59,7 +78,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-17.md" class="MCXref xref" xrefformat="{para}">Migrate agile team Kanban cards to Boards</a><span style="color: #ff0000;"> New in Preview!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-17.md" class="MCXref xref" xrefformat="{para}">Migrate agile team Kanban cards to Boards</a></p>
                         <p>A new <b>Add to Boards</b> button on agile team Kanban boards allows you to add all cards from the Kanban board to a Workfront board. You can choose to create a new Workfront board or add the cards to an existing board.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
@@ -69,7 +88,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
                             </li>
                             <li>
                                 <p><span class="preview">
-                                 <p>Production release for early opt-in: April 27, 2023 <span style="color: #ff0000;"> This feature is available in Production only through the early feature opt-in for Workfront Boards.</span></p>
+                                 <p>Production release for early opt-in: April 28, 2023 <span style="color: #ff0000;"> This feature is available in Production only through the early feature opt-in for Workfront Boards.</span></p>
                                 <p>Production release for all customers: With the 23.3 release</p></span></p>
                             </li>
                         </ul>
@@ -77,7 +96,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-17.md" class="MCXref xref" xrefformat="{para}">Left navigation added to card details on Boards</a><span style="color: #ff0000;"> New in Preview!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-17.md" class="MCXref xref" xrefformat="{para}">Left navigation added to card details on Boards</a></p>
                         <p>As more field options are added to cards on Workfront Boards, the card details have grown longer. A new navigation panel on the left of the card details allows you to select a section and move automatically to that group of fields.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
@@ -87,7 +106,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
                             </li>
                             <li>
                                 <p><span class="preview">
-                                 <p>Production release for early opt-in: April 27, 2023 <span style="color: #ff0000;"> This feature is available in Production only through the early feature opt-in for Workfront Boards.</span></p>
+                                 <p>Production release for early opt-in: April 28, 2023 <span style="color: #ff0000;"> This feature is available in Production only through the early feature opt-in for Workfront Boards.</span></p>
                                 <p>Production release for all customers: With the 23.3 release</p></span></p>
                             </li>
                         </ul>
@@ -114,7 +133,40 @@ The <add release> release webinar will be held on <date>. You can [register for 
             </tbody>
         </table>
 
+### Integration enhancements
 
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">Feature</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Release dates</span>
+                        </p>
+                    </td>
+                </tr>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-24.md" class="MCXref xref" xrefformat="{para}">Adjust automated proof workflow template settings using Adobe Workfront for Creative Cloud</a><span style="color: #ff0000;"> New in Preview!</span></p>
+                        <p>You can now adjust existing automated workflow template settings directly in the Creative Cloud.</p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                        <ul>
+                            <li>
+                                <p>Preview release: April 27, 2023</p>
+                            </li>
+                            <li>
+                                <p><span class="preview">Production release: April 27, 2023</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+            </tbody>
+        </table>   
 
 ### Other enhancements
 
@@ -134,7 +186,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
                 </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-17.md" class="MCXref xref" xrefformat="{para}">Profiles without avatars now display user initials</a><span style="color: #ff0000;"> New in Preview!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-17.md" class="MCXref xref" xrefformat="{para}">Profiles without avatars now display user initials</a></p>
                         <p>To make it easier to find specific users within large lists, profiles without customized avatars now display the user's initials on a colored background in lists and legacy reports. This is a minor cosmetic change, and does not apply if an avatar photo is already being used or the user is deactivated.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
@@ -143,7 +195,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
                                 <p>Preview release:&#160;April 20, 2023<br /></p>
                             </li>
                             <li>
-                                <p><span class="preview">Production release:&#160;With the 23.3 release</span></p>
+                                <p><span class="preview">Production release: May 4, 2023</span></p>
                             </li>
                         </ul>
                     </td>
