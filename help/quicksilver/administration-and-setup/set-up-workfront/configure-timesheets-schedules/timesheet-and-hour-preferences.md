@@ -48,7 +48,7 @@ If you still don't have access, ask your [!DNL Workfront] administrator if they 
 
 1. Click **[!UICONTROL Timesheet & Hours]** > **[!UICONTROL Preferences]**.
 
-1. On the page that displays, in the **[!UICONTROL General Preferences]** section, configure any of the following options:
+1. On the page that displays, in the **[!UICONTROL General preferences]** section, configure any of the following options:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -87,7 +87,7 @@ If you still don't have access, ask your [!DNL Workfront] administrator if they 
     </tbody> 
    </table>
 
-1. In the **[!UICONTROL Logging Time]** section, configure any of the following options:
+1. In the **[!UICONTROL Where users can log time]** section, configure any of the following options:
 
    <table style="table-layout:auto">
     <tr>
@@ -104,7 +104,7 @@ If you still don't have access, ask your [!DNL Workfront] administrator if they 
     </tr>
    </table>
 
-1. In the **[!UICONTROL Pre-Populate timesheets with]**&#x200B;section, configure any of the following options:
+1. In the **[!UICONTROL Pre-populate timesheets]** section, configure any of the following options:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -129,11 +129,7 @@ If you still don't have access, ask your [!DNL Workfront] administrator if they 
     </tbody> 
    </table>
 
-1. In the **[!UICONTROL Project, Task or Issue Deletion Preferences]** section, specify the following:
-
-   <!--
-   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Better title would be Deleting projects, tasks, and issues</p>
-   -->
+1. In the **[!UICONTROL Deleted projects, tasks, and issues]** section, specify the following:
 
    <table style="table-layout:auto"> 
     <col> 
