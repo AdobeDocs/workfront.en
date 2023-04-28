@@ -39,8 +39,6 @@ The new Bulk Assignments also include new filtering capabilities by Project and 
 
 For more information, see [Overview of assigning work in the Workload Balancer](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
 
-For information about the deprecation of the Scheduling tools, see [Deprecation of Resource Scheduling tools in Adobe Workfront](../../../resource-mgmt/resource-mgmt-overview/deprecate-resource-scheduling.md).
-
 ## Override currency when managing job roles
 
 To help you easily manage cost and billing rates across global organizations, we have implemented overriding the currency of a job role. Using this feature, you can now set cost and billing rates for job roles in the currency that matches the job role's location. This will override the system currency in all financial calculations for the job role.
