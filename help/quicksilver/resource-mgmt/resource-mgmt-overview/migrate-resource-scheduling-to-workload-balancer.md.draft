@@ -1,11 +1,8 @@
 ---
-filename: migrate-resource-scheduling-to-workload-balancer
-product-area: resource-management
-navigation-topic: resource-management-overview
 title: Migrate from Resource Scheduling to the [!UICONTROL Workload Balancer]
 description: We want you to experience as little work disruption as possible by helping you design a migration plan. The steps below will help you get your team trained and determine the best time for you to switch to the Workload Balancer.
-author: Alina
-exl-id: 4bc08d5f-99c7-40e2-85d6-1de0b585aef8
+hidefromtoc: yes
+hide: yes
 ---
 # Migrate from Resource [!UICONTROL Scheduling] to the [!UICONTROL Workload Balancer]
 
@@ -22,8 +19,6 @@ exl-id: 4bc08d5f-99c7-40e2-85d6-1de0b585aef8
 ><span class="preview"> For information about scheduling resources using the Workload Balancer, see the section [The Workload Balancer](../../resource-mgmt/workload-balancer/workload-balancer.md).</span>  
 
 The information in this article applies to you only if you have managed the scheduling of your resources in the Resource [!UICONTROL Scheduling] areas of Adobe Workfront. Workfront started the deprecation of the [!UICONTROL Scheduling] tools in November 2020 and has replaced them with the [!UICONTROL Workload Balancer].   
-
-For information about the deprecation plan for the [!UICONTROL Resource Scheduling] tools and the timeline for their replacement with the [!UICONTROL Workload Balancer], see [Deprecation of Resource Scheduling tools in Adobe Workfront](../../resource-mgmt/resource-mgmt-overview/deprecate-resource-scheduling.md).
 
 We want you to experience as little work disruption as possible by helping you design a migration plan. The steps below will help you get your team trained and determine the best time for you to switch to the [!UICONTROL Workload Balancer].
 

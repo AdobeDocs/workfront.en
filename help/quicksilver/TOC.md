@@ -1639,8 +1639,6 @@ feature-set: Workfront
   * Resource Management {#resource-management}
     * [Resource Management](resource-mgmt/resource-mgmt-overview/resource-management-overview.md)
     * [Get started with Resource Management](resource-mgmt/resource-mgmt-overview/get-started-resource-management.md)
-    * [Deprecation of Resource Scheduling tools in Adobe Workfront](resource-mgmt/resource-mgmt-overview/deprecate-resource-scheduling.md)
-    * [Migrate from Resource Scheduling to the Workload Balancer](resource-mgmt/resource-mgmt-overview/migrate-resource-scheduling-to-workload-balancer.md)
   * Resource Planning in Adobe Workfront {#resource-planning-in-adobe-workfront}
     * [Resource Planning in Adobe Workfront](resource-mgmt/resource-planning/resource-planning-overview.md)
     * Resource Pools {#resource-pools}

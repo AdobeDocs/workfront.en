@@ -100,11 +100,12 @@ You must have the following access to perform the steps in this article:
 
 1. (Optional) Click [!UICONTROL **Custom Forms**] and attach a custom form for the new task.
 
-   >[!TIP]
-   >
-   >If a multi-object custom form attached to the issue is configured for use with both issues and tasks, the form is attached by default. All information saved in the issue form is retained for the task when you make the conversion.
-   >
-   >If the destination project has any default forms defined in the Task Default Custom Forms field when editing the project, those task forms are also added to the new task. Any custom fields that are common between the original issue and the fields on the default task forms are pre-populated with information from the issue fields. 
+      >[!TIP]
+        >
+        >* If a multi-object custom form attached to the issue is configured for use with both issues and tasks, all information saved in the form is retained when you make the conversion if the fields exist both on the issue as well as the task's custom forms.
+        >* If a multi-object custom form with a calculated field is attached to the issue as well as to the task, the issue and the task must be compatible with all fields referenced in the form's calculated custom fields. If there is an incompatibility, a message alerts you to make adjustments. For more information, see the "Calculated custom fields in multi-object custom forms" section in the [Add calculated data to a custom form with the legacy form builder](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md). 
+        >* If the destination project has any default forms defined in the Task Default Custom Forms field when editing the project, those task forms are also added to the new task. Any custom fields that are common between the original issue and the fields on the default task forms are pre-populated with information from the issue fields.
+       
 
 1. Click [!UICONTROL **Convert to task**]. 
 
