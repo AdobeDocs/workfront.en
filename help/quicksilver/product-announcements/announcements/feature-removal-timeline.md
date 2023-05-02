@@ -58,10 +58,9 @@ Various features are being phased out of the Adobe Workfront product. Following 
       <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Split</p>
      --> <!--
       <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Email Service updated (MailGun)</p>
-     --> <p>&nbsp;</p> </td> 
-    <td>&nbsp;</td> 
-    <td>Q4</td> 
+     --> </td> 
+    
    </tr>
-  --> 
+  
  </tbody> 
 </table>

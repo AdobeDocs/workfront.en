@@ -16,7 +16,7 @@ exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
 >[!NOTE]
 >
 >We are currently redesigning the commenting experience in Adobe Workfront.
->For more information about the new updating experience, see [New commenting experience](../updating-work-items-and-viewing-updates/unified-commenting-experience.md). 
+>For more information about the new updating experience, see [New commenting experience](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). 
 >
 >You can access the new design for the following objects:
 > * Issues, when enabling the commenting Beta.
@@ -418,7 +418,7 @@ No Workfront user (including the Workfront administrator) can delete updates mad
 >
 >It is not possible to disable system updates when using the Beta commenting experience.
 >The information in this section refers only to functionality available in the current Updtes section.
->For more information about system updates in the Beta version, see [Updates section overview](../updating-work-items-and-viewing-updates/updates-tab-overview.md). 
+>For more information about system updates in the Beta version, see [Updates section overview](../updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
 
 The Updates section for a Workfront object displays two types of information:

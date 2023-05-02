@@ -43,7 +43,7 @@ With this redesign, we have removed adding comments to system updates.
 
 More features will be added in future releases, as these enhancements continue to be added to other objects. 
 
-For information about what the new commenting experience offers, see [New commenting experience](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/unified-commenting-experience.md).
+For information about what the new commenting experience offers, see [New commenting experience](../../betas/new-commenting-experience-beta/unified-commenting-experience.md). 
 
 [View a video demonstration of this feature.](https://video.tv.adobe.com/v/3416962/){target=_blank}
 

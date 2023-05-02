@@ -17,7 +17,7 @@ exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
 >[!NOTE]
 >
 >We are currently redesigning the commenting experience in Adobe Workfront.
->For more information about the new updating experience, see [New commenting experience](../updating-work-items-and-viewing-updates/unified-commenting-experience.md). 
+>For more information about the new updating experience, see [New commenting experience](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). 
 >
 >You can access the new design for the following objects:
 > * Issues, when enabling the commenting Beta.
@@ -181,7 +181,7 @@ For example, when you add an update to a task, the update appears on the Updates
 >
 >For information about the object hierarchy in Adobe Workfront, see [Understand objects in Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 >
-> It is not possible to reply to system updates in the new commenting Beta experience. For more information, see [New commenting experience](../updating-work-items-and-viewing-updates/unified-commenting-experience.md).
+> It is not possible to reply to system updates in the new commenting Beta experience. For more information, see [New commenting experience](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
 ## Limitations of the Updates section
 
