@@ -11,13 +11,13 @@ feature: Product Announcements
 
 The information on this page refers to the release activity on a weekly basis of the new commenting beta experience. The page includes new features that are added and issues that are resolved for the new commenting beta experience. 
 
-For general information on the new commenting beta experience, including a list of features that are currently available or in research, see [New commenting experience](../../betas/new-commenting-experience-beta/unified-commenting-experience.md). 
+For general information on the new commenting beta experience, including a list of features that are currently available or in research, see [New commenting experience](../new-commenting-experience-beta/unified-commenting-experience.md). 
 
 <!--the sections below are copied from the former Canvas beta - replace with real new commenting beta experience content when it becomes available; also, add links to pertinent articles when you add the features for each release, and the year for the week; thought: should we separate these by release in additional sections?! first by release and then by week?!-->
 
 >[!IMPORTANT]
 >
->The new commenting experience launched in Beta with the 23.2 release. For information about the original release, see [23.2 Release overview](../product-releases/23.2-release-activity/23-2-release-overview.md). 
+>The new commenting experience launched in Beta with the 23.2 release. For information about the original release, see [23.2 Release overview](../../product-releases/23.2-release-activity/23-2-release-overview.md). 
 >
 >Commenting features that are released to the beta experience for Workfront objects are also released to the Updates section of Workfront Goals. 
 
@@ -60,4 +60,4 @@ Show new comments outside of the visible screen area in the Updates section of i
 ## Week of April 6, 2023
 
 The new commenting beta experience launched for issues. 
-The same features that are released for the commenting beta for Workfront objects are released at the same time for goals for all users who have access to Workfront Goals. For information, see [23.2 Release overview](../product-releases/23.2-release-activity/23-2-release-overview.md).
+The same features that are released for the commenting beta for Workfront objects are released at the same time for goals for all users who have access to Workfront Goals. For information, see [23.2 Release overview](../../product-releases/23.2-release-activity/23-2-release-overview.md).

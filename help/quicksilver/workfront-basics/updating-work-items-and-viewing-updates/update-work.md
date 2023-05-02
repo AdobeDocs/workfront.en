@@ -418,7 +418,7 @@ No Workfront user (including the Workfront administrator) can delete updates mad
 >
 >It is not possible to disable system updates when using the Beta commenting experience.
 >The information in this section refers only to functionality available in the current Updtes section.
->For more information about system updates in the Beta version, see [Updates section overview](../updating-work-items-and-viewing-updates/updates-tab-overview.md). 
+>For more information about system updates in the Beta version, see [Updates section overview](../updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
 
 The Updates section for a Workfront object displays two types of information:
