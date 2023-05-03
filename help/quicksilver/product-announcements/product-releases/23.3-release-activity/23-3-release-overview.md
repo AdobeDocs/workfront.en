@@ -85,8 +85,10 @@ The <add release> release webinar will be held on <date>. You can [register for 
                                 <p>Preview release: April 20, 2023<br /></p>
                             </li>
                             <li>
-                                 <p>Production release for early opt-in: April 28, 2023 <span style="color: #ff0000;"> This feature is available in Production only through the early feature opt-in for Workfront Boards.</span></p>
-                                <p>Production release for all customers: With the 23.3 release</p>
+                                 <s><p>Production release for early opt-in: April 28, 2023 <span style="color: #ff0000;"> This feature is available in Production only through the early feature opt-in for Workfront Boards.</span></p></s>
+                                 </li>
+                                 <li>
+                                <p>Production release for all customers: May 18, 2023</p>
                             </li>
                         </ul>
                     </td>
