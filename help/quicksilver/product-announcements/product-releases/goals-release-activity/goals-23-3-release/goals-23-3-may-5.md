@@ -11,7 +11,7 @@ feature: Product Announcements, Workfront Goals
 
 This page describes all enhancements made with the 23.3 release for Adobe Workfront Goals to the Preview environment on May 3, 2023. 
 
-These enhancements will be made available in the Production environment with the 23.3 release.
+These enhancements will be made available in the Production environment with the 23.3 release, unless otherwise specified.
 
 ## Updates section enhancements
 

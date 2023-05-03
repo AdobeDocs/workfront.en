@@ -213,7 +213,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
                  <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/betas/new-commenting-experience-beta\new-commenting-experience-beta-release-activity.md" class="MCXref xref" xrefformat="{para}">New commenting beta experience enhancements</a></p>
-                        <p>Enhancements to the Updates section are being made available within the 23.3 release timeframe for the new commenting beta experience. These enhancements will be made available in the Production environment shortly after releasing to Preview. 
+                        <p>Enhancements to the Updates section are being made available within the 23.3 release timeframe for the new commenting beta experience. These enhancements will be made available in the Production environment with the 23.3 release, unless otherwise specified. 
  </p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
@@ -222,7 +222,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
                                 <p>Preview release:&#160;Throughout the 23.3 release timeframe<br /></p>
                             </li>
                             <li>
-                                <p><span class="preview">Production release:&#160;A minimum of 2 weeks after releasing to Preview (unless otherwise specified)</span></p>
+                                <p><span class="preview">Production release:&#160;With the 23.3 release, unless otherwise specified</span></p>
                             </li>
                         </ul>
                     </td>
@@ -246,7 +246,7 @@ There are no Workfront Proof updates at this point in the release. This area wil
 
 ### Workfront Goals enhancements
 
-New features coming to Workfront Goals release with the 23.2 release. For information about these new features now available in Preview, see [Adobe Workfront Goals with the 23.3 release](/help/quicksilver/product-announcements/product-releases/goals-release-activity/goals-23-2-release/goals-23-3-release.md).
+New features coming to Workfront Goals release within the 23.3 release timeframe. For information about these new features now available in Preview, see [Adobe Workfront Goals with the 23.3 release](/help/quicksilver/product-announcements/product-releases/goals-release-activity/goals-23-2-release/goals-23-3-release.md).
 
 ### API version 16
 
