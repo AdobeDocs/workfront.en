@@ -16,7 +16,7 @@ exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
 >[!NOTE]
 >
 >We are currently redesigning the commenting experience in Adobe Workfront.
->For more information about the new updating experience, see [New commenting experience](../updating-work-items-and-viewing-updates/unified-commenting-experience.md). 
+>For more information about the new updating experience, see [New commenting experience](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). 
 >
 >You can access the new design for the following objects:
 > * Issues, when enabling the commenting Beta.
@@ -215,7 +215,7 @@ Adding an update to a work item differs depending on what version of the Updates
 
 1. Click **Submit** to add the update to the Workfront object. 
 1. (Optional) To edit a comment, click the **More** menu ![](assets/more-menu.png) to the right of the Like icon, then click **Edit**.
-1. Edit the information in the comment or remove any of the tagged users. 
+1. Edit the information in the comment, add or remove images or remove any of the tagged users. 
    You can edit your comment within 15 from submitting it. An "Edited" indicator is added to the left of the date stamp that displays when the comment was updated. 
 
    ![](assets/edited-tag-on-comment-unified-commenting.png)
@@ -418,7 +418,7 @@ No Workfront user (including the Workfront administrator) can delete updates mad
 >
 >It is not possible to disable system updates when using the Beta commenting experience.
 >The information in this section refers only to functionality available in the current Updtes section.
->For more information about system updates in the Beta version, see [Updates section overview](../updating-work-items-and-viewing-updates/updates-tab-overview.md). 
+>For more information about system updates in the Beta version, see [Updates section overview](../updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
 
 The Updates section for a Workfront object displays two types of information:

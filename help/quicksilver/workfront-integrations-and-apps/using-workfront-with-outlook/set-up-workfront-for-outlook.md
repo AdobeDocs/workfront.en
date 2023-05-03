@@ -82,11 +82,11 @@ When configuring the client, the user must select one of the following account t
 
 The mail server requirements are met by default when you connect to [!DNL Office 365] or [!DNL Outlook.com]. However, if you are connected to an on-premise installation of [!DNL Exchange Server], the following requirements apply:
 
-* We support [!DNL Exchange 2016 On-Premise] 
+* We support all [!DNL Exchange On-Premise] servers
 * [!DNL Exchange Web Services] (EWS) must be enabled and must be exposed to the internet. 
 * The server must have a valid authentication certificate in order for the server to issue valid identity tokens. New installations of [!DNL Exchange Server] include a default authentication certificate.
 
-   For more information, see [Digital certificates and encryption in [!DNL Exchange 2016]](https://technet.microsoft.com/en-us/library/dd351044(v=exchg.160).aspx) and [Set-AuthConfig](https://technet.microsoft.com/en-us/library/jj215766(v=exchg.160).aspx).
+   <!--this used to be here but Dev asked for it to be taken out - logged issue for editing this article on 4-26-2023: For more information, see [Digital certificates and encryption in [!DNL Exchange 2016]](https://technet.microsoft.com/en-us/library/dd351044(v=exchg.160).aspx) and [Set-AuthConfig](https://technet.microsoft.com/en-us/library/jj215766(v=exchg.160).aspx).-->
 
 * In order to access the [!DNL Workfront] add-in from the [[!DNL Office] Store](https://store.office.com/), your client access servers must be able to communicate with  [https://store.office.com](https://store.office.com/).
 
