@@ -378,12 +378,9 @@ The following table illustrates the features that will be available in the new c
   </tr>
 </table>
 
-
-<!--
 ## New commenting beta experience release activity
 
-For information about the features recently released, see [New commenting beta exprience release activity] (**********insert link after you move this file to the right folder in Betas**********)
----> 
+For information about the features recently released, see [New commenting beta exprience release activity](../../betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md).  
 
 ## Locate the new commenting experience
 
