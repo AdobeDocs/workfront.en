@@ -33,9 +33,7 @@ We are changing the way attachments work when removing or editing a comment that
 
 Available for issue commenting Beta experience and for Workfront Goals on the following dates:
 
-* Preview: May 3, 2023
-* Production: May 4, 2023
-
+* Preview and Production: May 4, 2023
 -->
 
 ## April 27, 2023
