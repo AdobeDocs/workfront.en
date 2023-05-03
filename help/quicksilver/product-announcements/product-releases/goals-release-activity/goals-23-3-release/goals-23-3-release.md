@@ -38,10 +38,10 @@ For a list of all changes available for all areas of Workfront at this point in 
                         </p>
                         <ul>
                             <li>
-                                <p>Preview release: May 3, 2023<br /></p>
+                                <p>Preview release:&#160;Throughout the 23.3 release timeframe<br /></p>
                             </li>
                             <li>
-                                <p>May 4, 2023</p>
+                                <p><span class="preview">Production release:&#160;With the 23.3 release, unless otherwise specified</span></p>
                             </li>
                         </ul>
                     </td>
