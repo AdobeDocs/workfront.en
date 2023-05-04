@@ -20,4 +20,4 @@ Starting with the 23.1 release, we have introduced a new commenting experience f
 
 Starting with the 23.2 release, the commenting experience for goals will match the new commenting experience Beta which was released for issues. We continue to release updates in this area during all releases in 2023. 
 
-For information about what features are available in the commenting experience Beta, see [New commenting experience](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/unified-commenting-experience.md).
+For information about what features are available in the commenting experience Beta, see [New commenting experience](../../../betas/new-commenting-experience-beta/unified-commenting-experience.md).

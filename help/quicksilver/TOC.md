@@ -341,6 +341,10 @@ feature-set: Workfront
     * Reporting Canvas beta {#reporting-canvas-beta}
       * [Reporting Canvas beta overview](product-announcements/betas/reporting-canvas-beta/reporting-canvas-beta-overview.md)
       * [Reporting Canvas beta: release activity](product-announcements/betas/reporting-canvas-beta/reporting-canvas-release-activity.md)
+    * New commenting experience beta {#new-commenting-experience-beta}
+      * [New commenting beta experience information](product-announcements/betas/new-commenting-experience-beta/new-commenting-beta-experience-information.md)
+      * [New commenting experience](product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md)
+      * [New commenting beta experience release activity](product-announcements/betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md)
 * Administration and setup {#administration-and-setup}
   * [Administration and setup](administration-and-setup/administration-and-setup.md)
   * Get started with administration {#get-started-administration}
@@ -807,7 +811,6 @@ feature-set: Workfront
     * [Tag others on updates](workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md)
     * [View all updates in a Note report](workfront-basics/updating-work-items-and-viewing-updates/view-all-updates-in-a-report.md)
     * [Work On It and Done button overview](workfront-basics/updating-work-items-and-viewing-updates/work-on-it-and-done-buttons-accept-complete-work.md)
-    * [New commenting experience](workfront-basics/updating-work-items-and-viewing-updates/unified-commenting-experience.md)
   * Work with custom forms {#work-with-custom-forms}
     * [Work with custom forms](workfront-basics/work-with-custom-forms/work-with-custom-forms.md)
     * [Add a custom form to an object](workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md)
@@ -2006,6 +2009,7 @@ feature-set: Workfront
     * [Scenario execution, cycles, and phases in Adobe Workfront Fusion](workfront-fusion/scenarios/scenario-execution-cycles-phases.md)
     * [View a scenario's execution history in Adobe Workfront Fusion](workfront-fusion/scenarios/view-scenario-execution-history.md)
     * [View and resolve incomplete executions in Adobe Workfront Fusion](workfront-fusion/scenarios/view-and-resolve-incomplete-executions.md)
+    * [View and manage locked scenarios in [!DNL Adobe Workfront Fusion]](workfront-fusion/scenarios/view-and-manage-locked-scenarios.md) 
     * [Schedule a scenario in Adobe Workfront Fusion](workfront-fusion/scenarios/schedule-a-scenario.md)
     * [Activate or deactivate a scenario in Adobe Workfront Fusion](workfront-fusion/scenarios/activate-or-inactivate-scenario.md)
     * [Add a filter to a scenario in Adobe Workfront Fusion](workfront-fusion/scenarios/add-a-filter-to-a-scenario.md)
@@ -2630,6 +2634,7 @@ other dupes
     * [Event subscription resource fields](wf-api/api/event-sub-resource-fields.md)
 
     * [Filter event subscription messages](wf-api/api/filter-event-sub-messages.md)
+
 
 
 -->
