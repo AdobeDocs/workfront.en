@@ -320,7 +320,7 @@ You can enhance your updates by using Rich Text, or adding various items to it, 
    >* Your Workfront administrator must enable adding images in the Update Feeds Preferences section of the Workfront Interface area before you can see the Image or the Add attachment icons. For information, see [Configure preferences for user updates](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-preferences-user-updates.md). 
    >* The maximum image file size is 7 MB. Supported image file types are .jpg, .gif, and .png.
    >* Images are accessible from the Updates section on an object and they are also available in the Documents area. 
-    >* You can send an update with an image and no text.
+   >* You can send an update with an image and no text.
    >* When you delete a comment that contains an image, the following scenarios exist depending on which experience you choose: 
    >
    >     * In the current commenting experience, the image remains in the Documents area but is no longer visible in the Updates section.
