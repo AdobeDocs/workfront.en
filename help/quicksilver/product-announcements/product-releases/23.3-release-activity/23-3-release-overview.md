@@ -24,6 +24,41 @@ The <add release> release webinar will be held on <date>. You can [register for 
 * [Integration enhancements](#integration-enhancements)
 * [Other enhancements](#other-enhancements)
     
+### Administrator enhancements
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">Feature</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Release dates</span>
+                        </p>
+                    </td>
+                </tr>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-4.md" class="MCXref xref" xrefformat="{para}">Group-level control available for "Where users can log time" timesheet and hour preference</a> <span style="color: #ff0000;"> New in Preview!</span></p>
+                        <p>The system administrator can now lock and unlock the "Where users can log time" timesheet and hour preference. When this preference is unlocked, group administrators can configure the "Where users can log time" settings separately for each group.</p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                        <ul>
+                            <li>
+                                <p>Preview release: May 4, 2023</p>
+                            </li>
+                            <li>
+                                <p><span class="preview">Production release: With the 23.3 release</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+            </tbody>
+        </table>   
+
 ### Agile enhancements
 
 <table>
@@ -42,7 +77,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
                 </tr>
                                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-24.md" class="MCXref xref" xrefformat="{para}">Simple filters added to the dynamic board template</a><span style="color: #ff0000;"> New in Preview!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-24.md" class="MCXref xref" xrefformat="{para}">Simple filters added to the dynamic board template</a></p>
                         <p>The filters on the dynamic board template have been simplified to allow you to create a board more quickly.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
