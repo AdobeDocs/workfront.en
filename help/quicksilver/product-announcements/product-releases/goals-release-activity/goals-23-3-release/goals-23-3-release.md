@@ -12,7 +12,7 @@ feature: Product Announcements, Workfront Goals
 
 This page provides information about functionality for Adobe Workfront Goals that is releasing to the Production environment within the 23.3 release timeframe.
 
-For a list of all changes available for all areas of Workfront at this point in the 23.3 release cycle, see [23.3 Release overview](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-2-release-overview.md).
+For a list of all changes available for all areas of Workfront at this point in the 23.3 release cycle, see [23.3 Release overview](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md).
 
 <table>
             <col style="width: 50%;" />
