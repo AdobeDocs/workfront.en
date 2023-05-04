@@ -13,8 +13,6 @@ The information on this page refers to the release activity on a weekly basis of
 
 For general information on the new commenting beta experience, including a list of features that are currently available or in research, see [New commenting experience](../new-commenting-experience-beta/unified-commenting-experience.md). 
 
-<!--the sections below are copied from the former Canvas beta - replace with real new commenting beta experience content when it becomes available; also, add links to pertinent articles when you add the features for each release, and the year for the week; thought: should we separate these by release in additional sections?! first by release and then by week?!-->
-
 >[!IMPORTANT]
 >
 >The new commenting experience launched in Beta with the 23.2 release. For information about the original release, see [23.2 Release overview](../../product-releases/23.2-release-activity/23-2-release-overview.md). 
@@ -23,18 +21,16 @@ For general information on the new commenting beta experience, including a list 
 
 The following sections list features that have been added after the original release, starting with the ones released most recently. 
 
-<!--
-
 ## Week of May 2, 2023
 
 ### Images are removed from the Documents area when attachments are removed from comments or when comments containing an attachment are removed
 
 We are changing the way attachments work when removing or editing a comment that contains an attachment. Now, when you edit a comment and remove the attachment, or when you delete a comment that contains an attachment, the attachment is also removed from your Documents area. Prior to this change, in the previous commenting experience, the attachments remained in your Documents area. For information, see [Update work](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). 
 
-Available for issue commenting Beta experience and for Workfront Goals on the following dates:
+Available for issue commenting Beta experience and for Workfront Goals, by default, on the following dates:
 
 * Preview and Production: May 4, 2023
--->
+
 
 ## April 27, 2023
 
