@@ -47,21 +47,6 @@ To find out what plan, license type, or access you have, contact your [!DNL Work
 
 For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Workfront Fusion] licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
-<!--## Locate a locked scenario
-
-If a scenario is locked, it will display the Locked scenario icon ![](assets/locked-scenario-icon.png). 
-
-To locate a locked scenario:
-
-1. Open the Scenarios list by clicking Scenarios ![](assets/scenarios-icon.png) in the left navigaion.
-
-* The header of the [!UICONTROL Scenario details] page for the affected scenario.
-* The [!UICONTROL Scenarios] list, in the line for the affected scenario.
-
-If the icon is visible, the scenario is locked.
-
--->
-
 ## Unlock a locked scenario
 
 Locked scenarios will unlock 2-4 hours from the time they were locked. You can unlock a scenario manually before it is scheduled to unlock automatically. 
