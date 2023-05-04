@@ -13,10 +13,12 @@ feature-set: Workfront
     * [Adobe Workfront release schedule and process](product-announcements/product-releases/workfront-release-schedule.md)
     * [Prepare for an Adobe Workfront quarterly release](product-announcements/product-releases/release-readiness.md)
     * 23.3 Release {#release-23-3}
-      * [23.3 Release overview](product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md) 
-      * [Look and feel updates during the 23.3 release time frame](product-announcements/product-releases/23.3-release-activity/23-3-look-and-feel-updates.md)
+      * [23.3 Release overview](product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md)
       * [23.3 release activity week of April 10, 2023](product-announcements/product-releases/23.3-release-activity/23-3-apr-10.md) 
-      * [23.3 release activity week of April 17, 2023](product-announcements/product-releases/23.3-release-activity/23-3-apr-17.md) 
+      * [23.3 release activity week of April 17, 2023](product-announcements/product-releases/23.3-release-activity/23-3-apr-17.md)
+      * [23.3 release activity week of April 24, 2023](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-24.md)
+      * [23.3 release activity week of May 1, 2023](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-4.md)
+      * [Look and feel updates during the 23.3 release time frame](product-announcements/product-releases/23.3-release-activity/23-3-look-and-feel-updates.md)
     * 23.2 Release {#release-23-2}
       * [23.2 Release overview](product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md) 
       * [23.2 Administrator enhancements](product-announcements/product-releases/23.2-release-activity/23-2-admin-enhancements.md)
@@ -113,6 +115,7 @@ feature-set: Workfront
       * [21.1 Other enhancements](product-announcements/product-releases/21.1-release-activity/21-1-other-enhancements.md)
     * Adobe Workfront Fusion release activity {#fusion-release}
       * [Adobe Workfront Fusion release activity](product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)
+      * [Workfront Fusion release activity: Week of  May 1, 2023](product-announcements/product-releases/fusion-release-activity/fusion-2023-5-2.md)
       * [Workfront Fusion release activity: Week of April 17, 2023](product-announcements/product-releases/fusion-release-activity/fusion-2023-4-20.md)
       * [Workfront Fusion release activity: Week of March 20, 2023](product-announcements/product-releases/fusion-release-activity/fusion-2023-3-21.md)
       * [Workfront Fusion release activity: Week of March 6, 2023](product-announcements/product-releases/fusion-release-activity/fusion-2023-3-6.md)    
@@ -175,7 +178,10 @@ feature-set: Workfront
       * [Workfront Scenario Planner with the 20.3 release - August 14, 2020](product-announcements/product-releases/scenario-planner-release-activity/sp-release-20-3.md)
     * Adobe Workfront Goals release activity {#goals-release}
       * [Adobe Workfront Goals release activity](product-announcements/product-releases/goals-release-activity/goals-release-activity.md)
-      * Goals with 23.1 release {#goals-23-2}
+      * Goals with 23.3 release {#goals-23-3}
+        * [Adobe Workfront Goals with the 23.3 release](product-announcements/product-releases/goals-release-activity/goals-23-3-release/goals-23-3-release.md)
+        * [Adobe Workfront Goals 23.3 release activity: Week of May 1, 2023](product-announcements/product-releases/goals-release-activity/goals-23-3-release/goals-23-3-may-5.md)
+      * Goals with 23.2 release {#goals-23-2}
         * [Adobe Workfront Goals with the 23.2 release](product-announcements/product-releases/goals-release-activity/goals-23-2-release/goals-23-2-release.md)
         * [Adobe Workfront Goals 23.2 release activity: Week of March 20, 2023](product-announcements/product-releases/goals-release-activity/goals-23-2-release/goals-march.md)
       * Goals with 23.1 release {#goals-23-1}
@@ -336,6 +342,10 @@ feature-set: Workfront
     * Reporting Canvas beta {#reporting-canvas-beta}
       * [Reporting Canvas beta overview](product-announcements/betas/reporting-canvas-beta/reporting-canvas-beta-overview.md)
       * [Reporting Canvas beta: release activity](product-announcements/betas/reporting-canvas-beta/reporting-canvas-release-activity.md)
+    * New commenting experience beta {#new-commenting-experience-beta}
+      * [New commenting beta experience information](product-announcements/betas/new-commenting-experience-beta/new-commenting-beta-experience-information.md)
+      * [New commenting experience](product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md)
+      * [New commenting beta experience release activity](product-announcements/betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md)
 * Administration and setup {#administration-and-setup}
   * [Administration and setup](administration-and-setup/administration-and-setup.md)
   * Get started with administration {#get-started-administration}
@@ -802,7 +812,6 @@ feature-set: Workfront
     * [Tag others on updates](workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md)
     * [View all updates in a Note report](workfront-basics/updating-work-items-and-viewing-updates/view-all-updates-in-a-report.md)
     * [Work On It and Done button overview](workfront-basics/updating-work-items-and-viewing-updates/work-on-it-and-done-buttons-accept-complete-work.md)
-    * [New commenting experience](workfront-basics/updating-work-items-and-viewing-updates/unified-commenting-experience.md)
   * Work with custom forms {#work-with-custom-forms}
     * [Work with custom forms](workfront-basics/work-with-custom-forms/work-with-custom-forms.md)
     * [Add a custom form to an object](workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md)
@@ -1638,8 +1647,6 @@ feature-set: Workfront
   * Resource Management {#resource-management}
     * [Resource Management](resource-mgmt/resource-mgmt-overview/resource-management-overview.md)
     * [Get started with Resource Management](resource-mgmt/resource-mgmt-overview/get-started-resource-management.md)
-    * [Deprecation of Resource Scheduling tools in Adobe Workfront](resource-mgmt/resource-mgmt-overview/deprecate-resource-scheduling.md)
-    * [Migrate from Resource Scheduling to the Workload Balancer](resource-mgmt/resource-mgmt-overview/migrate-resource-scheduling-to-workload-balancer.md)
   * Resource Planning in Adobe Workfront {#resource-planning-in-adobe-workfront}
     * [Resource Planning in Adobe Workfront](resource-mgmt/resource-planning/resource-planning-overview.md)
     * Resource Pools {#resource-pools}
@@ -2003,6 +2010,7 @@ feature-set: Workfront
     * [Scenario execution, cycles, and phases in Adobe Workfront Fusion](workfront-fusion/scenarios/scenario-execution-cycles-phases.md)
     * [View a scenario's execution history in Adobe Workfront Fusion](workfront-fusion/scenarios/view-scenario-execution-history.md)
     * [View and resolve incomplete executions in Adobe Workfront Fusion](workfront-fusion/scenarios/view-and-resolve-incomplete-executions.md)
+    * [View and manage locked scenarios in [!DNL Adobe Workfront Fusion]](workfront-fusion/scenarios/view-and-manage-locked-scenarios.md) 
     * [Schedule a scenario in Adobe Workfront Fusion](workfront-fusion/scenarios/schedule-a-scenario.md)
     * [Activate or deactivate a scenario in Adobe Workfront Fusion](workfront-fusion/scenarios/activate-or-inactivate-scenario.md)
     * [Add a filter to a scenario in Adobe Workfront Fusion](workfront-fusion/scenarios/add-a-filter-to-a-scenario.md)
@@ -2627,6 +2635,7 @@ other dupes
     * [Event subscription resource fields](wf-api/api/event-sub-resource-fields.md)
 
     * [Filter event subscription messages](wf-api/api/filter-event-sub-messages.md)
+
 
 
 -->

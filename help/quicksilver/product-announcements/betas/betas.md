@@ -13,7 +13,7 @@ The articles linked from this page describe the current beta programs available 
 The following articles contain information about features currently in beta: 
 
 * [Reporting Canvas beta: overview](/help/quicksilver/product-announcements/betas/reporting-canvas-beta/reporting-canvas-beta-overview.md)
-* [New commenting experience](../../workfront-basics/updating-work-items-and-viewing-updates/unified-commenting-experience.md)
+* [New commenting beta experience](../betas/new-commenting-experience-beta/new-commenting-beta-experience-information.md)
 * [Form designer overview](../../administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/form-designer-overview.md)
 
 
@@ -30,8 +30,8 @@ The features described in this page are currently available as part of beta prog
 
 ## New commenting exprience Beta
 
-* [New commenting experience](../../workfront-basics/updating-work-items-and-viewing-updates/unified-commenting-experience.md)
-* [New commenting experience beta release activity](../betas/new-commenting-experience-beta-release-activity.md)
+* [New commenting experience](../betas/new-commenting-experience-beta/unified-commenting-experience.md)
+* [New commenting experience beta release activity](../betas/new-commenting-experience-beta/new-commenting-beta-experience-information.md)
 
 ## New form designer Beta
 

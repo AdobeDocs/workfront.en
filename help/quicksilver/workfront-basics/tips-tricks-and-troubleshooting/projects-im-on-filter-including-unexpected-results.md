@@ -42,7 +42,7 @@ The [!UICONTROL **Projects I'm On**] filter includes projects that contain the u
 
 1. Check the [!UICONTROL **Project Details**] for each unexpected project included by the filter, and remove your name from all fields.
 
-OR
+   OR
 
 1. Try using a similar filter, such as [!UICONTROL **Projects I Own**], which only includes projects that are specifically assigned to you.
 

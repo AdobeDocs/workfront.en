@@ -156,7 +156,7 @@ The following table outlines major features of boards along with their current r
   </tr>
   <tr>
    <td>Migrate legacy Kanban cards to Boards</td>
-   <td>Partially released</td>
+   <td>This feature will be available in Production on May 4, 2023 and is not part of the early feature opt-in.</td>
   </tr>
   <tr>
    <td>Create dynamic boards</td>
