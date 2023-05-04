@@ -62,9 +62,9 @@ For information about product release notes, see [Product releases](../../produc
 
 ## Other releases
 
-At times, Workfront might release features that might not be documented in the release notes, maintenance updates, or in any of the actual documentation articles. This happens in an effort to test new features before making them permanent. Usually, these tests are released to a limited number of customers, but there might be a time when they might be released to everyone. 
+At times, Workfront might release features that might not be documented in the release notes, maintenance updates, or in any of the documentation articles. This happens in an effort to test new features before making them permanent. Usually, these tests are released to a limited number of customers, but there might be a time when they might be released to everyone. They can be released to either the Preview or the Production environments. 
 
-If you come across something in the system that doesn't match documentation, we ask that you contant our Customer Support team. For more information, see [Contact Customer Support](../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md). 
+If you come across something in the system that doesn't match documentation and about which you might have questions, we ask that you contact our Customer Support team. For more information, see [Contact Customer Support](../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md). 
 
 ## Release notes
 

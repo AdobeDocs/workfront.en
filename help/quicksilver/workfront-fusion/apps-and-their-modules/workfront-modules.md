@@ -1661,7 +1661,25 @@ By using event subscription filters, Fusion users can create event subscriptions
 
 This is different from setting up a filter in the [!DNL Workfront Fusion] scenario. Without an event subscription filter, your webhook receives all events related to the object type you select. Most of these events would be irrelevant to the scenario, and must be filtered out before the scenario can continue.
 
+The following operators are avaialble in the Workfront > Watch events filter:
+
+* Equals
+* Not equals
+* Greater than
+* Less than
+* Greater than or equal to
+* Less than or equal to
+* Contains
+* Exists
+* Does not exist
+* Changed
+
 >[!NOTE]
+>
+> * The `Exists`, `Does not exist`, and `Changed` operators do not require a value, and the value field is absent from these options.
+> * The `Changed` operator ignores the State field.
+
+>[!IMPORTANT]
 >
 >You cannot edit filters in existing [!DNL Workfront] webhooks. To set up different filters for [!DNL Workfront] event subscriptions, remove the current webhook and create a new one.
 
