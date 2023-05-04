@@ -47,7 +47,7 @@ To find out what plan, license type, or access you have, contact your [!DNL Work
 
 For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Workfront Fusion] licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
-## Locate a locked scenario
+<!--## Locate a locked scenario
 
 If a scenario is locked, it will display the Locked scenario icon ![](assets/locked-scenario-icon.png). 
 
@@ -59,6 +59,8 @@ To locate a locked scenario:
 * The [!UICONTROL Scenarios] list, in the line for the affected scenario.
 
 If the icon is visible, the scenario is locked.
+
+-->
 
 ## Unlock a locked scenario
 
