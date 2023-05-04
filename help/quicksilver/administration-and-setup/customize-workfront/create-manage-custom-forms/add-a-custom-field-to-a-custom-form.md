@@ -150,11 +150,12 @@ You must have the following to perform the steps in this article:
      </tr> 
      <tr> 
       <td role="rowheader">Format</td> 
-      <td> <p>Select the type of data that will be captured in the custom field.</p> <p><b>NOTE</b>:   
-        <ul> 
-         <li>This field cannot be edited after the form is saved. If you intend to use your field in mathematical calculations, ensure that you select a Number or Currency format.<br></li> 
-         <li>When you select Number or Currency, the system automatically truncates numbers that start with 0.</li> 
-        </ul> </p> </td> 
+      <td> <p>Select the type of data that will be captured in the custom field. You can change the format selection after saving the form, but the new format must support the value entered.</p> 
+      
+      <p><strong>Example:</strong> If you save a numeric value for a field with Text format on at least one object and later change the format to Number or Currency, you will not encounter an error. </p>
+      <p>However, if you save an alphanumeric value in a field with Text format on at least one object and then try to change the format to Number or Currency, you will encounter an error because the saved alphanumeric value is not compatible with the Number or Currency formats. </p>
+      
+      </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Display Type</td> 

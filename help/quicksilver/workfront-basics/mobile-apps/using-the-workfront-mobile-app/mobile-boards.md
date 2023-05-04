@@ -5,6 +5,7 @@ title: Adobe Workfront Boards for mobile
 description: In the [!DNL Workfront] mobile app, you can see all of the boards you created or have been added to in the desktop version of [!DNL Workfront].
 author: Lisa
 feature: Get Started with Workfront
+exl-id: 34a009f6-6b4f-43ee-9689-2b9d1876db07
 ---
 # [!DNL Adobe Workfront] [!UICONTROL Boards] for mobile
 

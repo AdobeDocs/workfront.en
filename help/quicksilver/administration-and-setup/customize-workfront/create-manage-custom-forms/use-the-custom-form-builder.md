@@ -1,5 +1,5 @@
 ---
-title: Use the legacy custom form builder 
+title: Use the legacy custom form builder
 user-type: administrator
 content-type: reference
 product-area: system-administration
@@ -8,8 +8,8 @@ description: You can build a custom form that users can attach to a Workfront ob
 author: Caroline
 feature: System Setup and Administration
 role: Admin
+exl-id: 9268fe04-1ad2-481f-822d-6e2b8ac23e26
 ---
-
 # Use the legacy custom form builder
 
 * [Create or edit a custom form with the legacy form builder](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md) 

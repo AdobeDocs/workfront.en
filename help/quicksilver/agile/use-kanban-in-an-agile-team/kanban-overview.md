@@ -10,7 +10,9 @@ exl-id: d7daa6c1-dae2-4e5c-a765-6a6ebdfaa331
 ---
 # Kanban overview
 
-The following sections enable you to better understand how the [!UICONTROL Kanban] board functions:
+The following sections enable you to better understand how the [!UICONTROL Kanban] board functions.
+
+If you are interested in migrating from an agile team [!UICONTROL Kanban] board to [!DNL Workfront] [!UICONTROL Boards], see [Migrate agile team [!UICONTROL Kanban] cards to [!DNL Workfront] boards](/help/quicksilver/agile/use-boards-agile-planning-tools/migrate-kanban-cards-to-boards.md).
 
 ## [!UICONTROL Kanban] board layout and functions
 

@@ -3,7 +3,7 @@ product-area: projects
 navigation-topic: update-work-items-and-view-updates
 title: Tag others on updates
 description: When providing update comments on a Adobe Workfront object, all users on the project can see the information submitted. However, there may be times when users who are not on the project would benefit from viewing this information. Rather than include those users on the project, you can tag them on the update to share it with them. Tagged users receive an event notification.
-author: Lisa and Alina
+author: Alina
 feature: Get Started with Workfront
 exl-id: c4c0d74f-ac50-4fc5-89d6-28f004c25b29
 ---
@@ -12,26 +12,28 @@ exl-id: c4c0d74f-ac50-4fc5-89d6-28f004c25b29
 <!--take "Beta" references out when we remove the beta-->
 
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.-->
 
 >[!NOTE]
 >
 >We are currently redesigning the commenting experience in Adobe Workfront.
->For more information about the new updating experience, see [New commenting experience](../updating-work-items-and-viewing-updates/unified-commenting-experience.md). 
 >
->You can access the new design for the following objects:
-> * <span class="preview">Issues, when enabling the commenting Beta. </span>
+>For more information about the new commenting experience, see [New commenting experience](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). 
 >
->     <span class="preview">This functionality is available only for the Updates section of issues, and it is not available for the following areas:</span>
+>You can access the new experience for the following objects:
+> * Issues, when enabling the commenting Beta.
 >
->     * <span class="preview">Home</span>
->     * <span class="preview">Summary panel in lists</span>
->     * <span class="preview">Summary panel in timesheets</span>
+>     This functionality is available only for the Updates section of issues, and it is not available for the following areas:
+>
+>     * Home
+>     * Summary panel in lists
+>     * Summary panel in timesheets
 >
 > * Goals
+>
 >   The new commenting experience is the default for goals. You must have an additional license to access Workfront Goals. For more information, see [Requirements to uses Workfront Goals](../../workfront-goals/goal-management/access-needed-for-wf-goals.md). 
 >
->    For information about commenting on goals, see [Manage goal comments in Adobe    Workfront Goals](../../workfront-goals/goal-management/manage-goal-comments.md). 
+>    For information about commenting on goals, see [Manage goal comments in Adobe    Workfront Goals](../../workfront-goals/goal-management/manage-goal-comments.md).  
 
 
 You can tag users when making an update to an object if you want to draw their attention to an object they might otherwise not follow. 
@@ -39,11 +41,7 @@ Rather than include those users on the object by assigning them to it or making 
 
 >[!NOTE]
 >
->An event notification must be enabled in order for a user to receive  the email notification. Administrators can enable notifications for the whole system or for a top-level group. A user can also enable and disable individual event notifications in their own user profile. For more information, see the following:
->
->* [Configure event notifications for everyone in the system](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
->* [View and configure event notifications for a group](../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-configure-event-notifications-group.md) 
->* [Activate or deactivate your own event notifications](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+>The user must enable a personal notification in their profile in order for them to receive the email notification. For more information, see [Activate or deactivate your own event notifications](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 >
 
 For information about adding updates to Workfront objects, see [Update work](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
@@ -102,7 +100,7 @@ Tagging others in an update differs depending on which experience and which obje
 
    ![](assets/tag-users-in-update.png)
 
-1. (Optional) To make the update private, enable **Private to my company** in the lower-right corner of the update box. This makes the update visible just to users in your company.
+1. (Optional) To make the update private, enable **Private to my company** in the lower-right corner of the update box. This makes the update visible just to users in your company. The **Private to my company** option is available only when a Company is specified in your Workfront profile. 
 
    >[!NOTE]
    >
@@ -123,9 +121,9 @@ Tagging others in an update differs depending on which experience and which obje
 
    For information about the additional functionality that is available when updating a work item, see [Update work](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-<div class="preview">
-
 ### Tag others on updates in the commenting Beta experience
+
+You can tag others on updates in the commenting Beta experience. You can also remove users who are tagged by mistake when you edit a comment. 
 
 1. Begin updating a work item, as described in [Update work](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 1. In the **Tag people or teams** field, begin typing the name of the user or team you want to include, then click the name when it appears in the drop-down list.
@@ -140,7 +138,7 @@ Tagging others in an update differs depending on which experience and which obje
 
    ![](assets/tag-others-unified-commenting.png)
 
-1. (Optional) To make the update private, enable **Private to my company** in the lower-right corner of the update box. This makes the update visible just to users in your company.
+1. (Optional) To make the update private, enable **Private to my company** in the lower-right corner of the update box. This makes the update visible just to users in your company. The **Private to my company** option is available only when a Company is specified in your Workfront profile. 
 
    >[!NOTE]
    >
@@ -162,3 +160,5 @@ Tagging others in an update differs depending on which experience and which obje
    ![](assets/members-icons-expanded-unshimmed.png)
 
    For information about the additional functionality that is available when updating a work item, see [Update work](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+
+1. (Optional) Click the **More** menu ![](assets/more-menu.png) to the right of the Like icon, then click **Edit**. Remove any of the tagged users, then click **Submit**. You can edit a comment only within 15 minutes after you have entered it. You can only edit the comments you added.

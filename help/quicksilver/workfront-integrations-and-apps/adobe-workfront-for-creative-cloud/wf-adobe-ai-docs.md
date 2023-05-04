@@ -5,8 +5,8 @@ title: Upload documents from Illustrator
 description: You can upload your art boards as documents for a quick review and approval or simply to store in Adobe Workfront.
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
+exl-id: faec4197-acc3-47d4-bb7a-cc0664c4e9ea
 ---
-
 # Upload documents from [!DNL Illustrator]
 
 You can upload your projects as documents for a quick review and approval or simply to store in [!DNL Adobe Workfront].

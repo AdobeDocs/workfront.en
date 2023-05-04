@@ -12,31 +12,28 @@ exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
 
 <!--take "Beta" references out when we remove the beta-->
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> 
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> -->
 
 >[!NOTE]
 >
->We are currently redesigning the Updates section of an object. 
+>We are currently redesigning the commenting experience in Adobe Workfront.
 >
->For more information about the new updating experience, see [New commenting experience](../updating-work-items-and-viewing-updates/unified-commenting-experience.md).  
+>For more information about the new commenting experience, see [New commenting experience](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). 
 >
->You can access the new design from the following objects and in following environments:
+>You can access the new experience for the following objects:
+> * Issues, when enabling the commenting Beta.
 >
->* <span class="preview">When you enable the commenting Beta experience for the following objects:</span>
+>     This functionality is available only for the Updates section of issues, and it is not available for the following areas:
 >
->     * <span class="preview">Issues</span>
->     
->     <span class="preview">This functionality is available only for the Updates section of issues, and it is not available for the following areas:</span>
+>     * Home
+>     * Summary panel in lists
+>     * Summary panel in timesheets
 >
->     * <span class="preview">Home</span>
->     * <span class="preview">Summary panel in lists</span>
->     * <span class="preview">Summary panel in timesheets</span>
+> * Goals
 >
->* By default, as the current commenting experience for the following objects: 
+>   The new commenting experience is the default for goals. You must have an additional license to access Workfront Goals. For more information, see [Requirements to uses Workfront Goals](../../workfront-goals/goal-management/access-needed-for-wf-goals.md). 
 >
->     * Goals
->
->     You must have an additional license to access Workfront Goals. For information, see [Requirements to use Workfront Goals](../../workfront-goals/goal-management/access-needed-for-wf-goals.md). For information about commenting on goals, see [Manage goal comments in Adobe Workfront Goals](../../workfront-goals/goal-management/manage-goal-comments.md).
+>    For information about commenting on goals, see [Manage goal comments in Adobe    Workfront Goals](../../workfront-goals/goal-management/manage-goal-comments.md).
 
 The Updates section of an object displays comments that users make on the object or system updates that track changes to the object.
 
@@ -103,11 +100,13 @@ Currenlty, you can make comments and reply to updates using the Beta commenting 
   <tr> 
    <td> 
     <ul> 
-     <li>Goals</li> 
+     <li><p>Goals</p>
+     <p>This is the default experience for goals</p>
+     </li> 
      </ul> </td> 
    <td> 
     <ul> 
-     <li><span class="preview">Issues</span></li> 
+     <li>Issues</li> 
      </ul> </td> 
   </tr> 
  </tbody> 
@@ -183,7 +182,7 @@ For example, when you add an update to a task, the update appears on the Updates
 >
 >For information about the object hierarchy in Adobe Workfront, see [Understand objects in Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 >
-><span class="preview"> It is not possible to reply to system updates in the new commenting Beta experience. For more information, see [New commenting experience](../updating-work-items-and-viewing-updates/unified-commenting-experience.md).</span>
+> It is not possible to reply to system updates in the new commenting Beta experience. For more information, see [New commenting experience](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
 ## Limitations of the Updates section
 

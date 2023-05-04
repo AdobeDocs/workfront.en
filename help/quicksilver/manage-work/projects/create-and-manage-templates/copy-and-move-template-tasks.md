@@ -2,11 +2,11 @@
 product-area: templates
 navigation-topic: templates-navigation-topic
 title: Copy and move template tasks
-description: You can copy or move a template task to the same template or to another template. 
+description: You can copy or move a template task to the same template or to another template.
 author: Alina
 feature: Work Management
+exl-id: a2e09e63-5c88-460c-9996-3a39fbb82150
 ---
-
 # Copy and move template tasks
 
 You can copy a template task from a template to another template, or you can move it either to another template or to another place in the same template. 
@@ -310,5 +310,3 @@ In addition to copying template tasks, you can also move a template task either 
 1. Click **Move Template Task**. 
 
    The moved template tasks are now on the specified template and are either subtasks to the selected parent template task, or the last template tasks on the template.
-
-
