@@ -2006,6 +2006,7 @@ feature-set: Workfront
     * [Scenario execution, cycles, and phases in Adobe Workfront Fusion](workfront-fusion/scenarios/scenario-execution-cycles-phases.md)
     * [View a scenario's execution history in Adobe Workfront Fusion](workfront-fusion/scenarios/view-scenario-execution-history.md)
     * [View and resolve incomplete executions in Adobe Workfront Fusion](workfront-fusion/scenarios/view-and-resolve-incomplete-executions.md)
+    * [View and manage locked scenarios in [!DNL Adobe Workfront Fusion]](workfront-fusion/scenarios/view-and-manage-locked-scenarios.md) 
     * [Schedule a scenario in Adobe Workfront Fusion](workfront-fusion/scenarios/schedule-a-scenario.md)
     * [Activate or deactivate a scenario in Adobe Workfront Fusion](workfront-fusion/scenarios/activate-or-inactivate-scenario.md)
     * [Add a filter to a scenario in Adobe Workfront Fusion](workfront-fusion/scenarios/add-a-filter-to-a-scenario.md)
@@ -2630,6 +2631,7 @@ other dupes
     * [Event subscription resource fields](wf-api/api/event-sub-resource-fields.md)
 
     * [Filter event subscription messages](wf-api/api/filter-event-sub-messages.md)
+
 
 
 -->
