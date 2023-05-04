@@ -25,7 +25,7 @@ The following sections list features that have been added after the original rel
 
 ### Images are removed from the Documents area when attachments are removed from comments or when comments containing an attachment are removed
 
-We are changing the way attachments work when removing or editing a comment that contains an attachment. Now, when you edit a comment and remove the attachment, or when you delete a comment that contains an attachment, the attachment is also removed from your Documents area. Prior to this change, in the previous commenting experience, the attachments remained in your Documents area. For information, see [Update work](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). 
+We are changing the way attachments work when removing or editing a comment that contains an attachment. Now, when you edit a comment and remove the attachment, or when you delete a comment that contains an attachment, the attachment is also removed from your Documents area. Prior to this change, in the previous commenting experience, the attachments remained in your Documents area. For information, see [Update work](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). 
 
 Available for issue commenting Beta experience and for Workfront Goals, by default, on the following dates:
 
