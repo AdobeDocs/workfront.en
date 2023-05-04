@@ -214,7 +214,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
                 </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/new-commenting-beta-release-activity.md" class="MCXref xref" xrefformat="{para}">New commenting beta experience enhancements</a></p>
+                        <a href="/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md" class="MCXref xref" xrefformat="{para}">New commenting beta experience enhancements</a></p>
                         <p>Enhancements to the Updates section are being made available within the 23.3 release timeframe for the new commenting beta experience. These enhancements will be made available in the Production environment with the 23.3 release, unless otherwise specified. 
  </p>
                     </td>
