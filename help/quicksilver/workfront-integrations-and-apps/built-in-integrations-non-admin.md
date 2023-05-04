@@ -9,7 +9,7 @@ exl-id: ca51cb23-9332-4ce5-aefb-f333455cfc7c
 ---
 # Adobe Workfront built-in integrations overview
 
-You can integrate [!DNL Adobe Workfront] with third-party applications. These integrations can extend the utility of [!DNL Workfront] and tailor it to the needs of your organization. For example, if you are a creative worker in the marketing industry, you can use the Adobe Creative Cloud add-in to export assets directly from Photoshop to Workfront.
+You can integrate [!DNL Adobe Workfront] with third-party applications, as well as other [!DNL Adobe] products. These integrations can extend the utility of [!DNL Workfront] and tailor it to the needs of your organization. For example, if you are a creative worker in the marketing industry, you can use the [!DNL Adobe Workfront] plugin for [!DNL Creative Cloud] applications to export assets directly from Photoshop to Workfront.
 
 Your [!DNL Workfront] administrator must enable and configure built-in integrations before you can use them. To learn which built-in integrations are used within your organization, contact your [!DNL Workfront] administrator.
 
@@ -22,12 +22,20 @@ The following built-in integrations are currently available in Workfront.
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>Adobe Creative Cloud </p> <p> <img src="assets/adobecclogo.png"> </p> </td> 
+   <td role="rowheader"> <p>Adobe Creative Cloud </p> <p> <img src="assets/creative-cloud-logo.png"> </p> </td> 
    <td> 
     <ul> 
-     <li>Integrate [!DNL Workfront] comments and approvals with InDesign, Illustrator, and Photoshop </li> 
-     <li>Download/install from Adobe Exchange or manually</li> 
-    </ul> </td> 
+     <li>Integrate [!DNL Workfront] comments and approvals with the following Adobe Creative Cloud applications: 
+     <ul>
+     <li>InDesign </li>
+     <li>Illustrator </li>
+     <li>Photoshop </li>
+     <li>XD </li>
+     <li>Premiere Pro </li>
+     <li>After Effects </li>
+     </ul>
+     <li><p>Download/install from <a href="https://exchange.adobe.com/apps/browse/cc?page=1&product=All&q=workfront&sort=RELEVANCE" class="MCXref xref">Adobe Exchange</a>.</p></li></ul>
+     <p>For information and instructions, see <a href="https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-integrations/workfront-for-creative-cloud/install-wf-cc/wf-cc-install-toc.html" class="MCXref xref">Install the  [!DNL Adobe Workfront] plugin for [!DNL Creative Cloud] Applications</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Box</p> <p> <img src="assets/box,-inc.-logo.png"> </p> </td> 

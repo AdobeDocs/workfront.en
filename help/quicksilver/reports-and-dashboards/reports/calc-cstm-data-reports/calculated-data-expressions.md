@@ -98,11 +98,11 @@ The lists below define the available expressions you can use when you are buildi
  <tbody> 
   <tr> 
    <td><strong>ADDDAYS</strong> </td> 
-   <td> <p>This expression adds the number of days to the date and is formatted as follows:</p><pre>ADDDAYS(date, number)</pre> </td> 
+   <td> <p>This expression adds the number of days to the date. The number value can include partial days (e.g., 1.5 will add one and a half days to the date).</p> <p>The expression is formatted as follows:</p><pre>ADDDAYS(date, number)</pre> </td> 
   </tr> 
   <tr> 
    <td><strong>ADDWEEKDAYS</strong> </td> 
-   <td> <p>This expression adds the number of weekdays to the date and is formatted as follows:</p><pre>ADDWEEKDAYS(date, number)</pre> </td> 
+   <td> <p>This expression adds the number of weekdays to the date. This expression only adds whole integer values to the date, rounding down. </p> <p>The expression is formatted as follows:</p><pre>ADDWEEKDAYS(date, number)</pre> </td> 
   </tr> 
   <tr> 
    <td><strong>ADDMONTHS</strong> </td> 

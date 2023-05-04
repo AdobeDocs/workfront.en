@@ -4,13 +4,11 @@ description: 23.2 release overview
 author: Courtney
 draft: Probably
 feature: Product Announcements
+exl-id: b0e2ce08-d9f7-4fb5-b35c-ba979ab9d03e
 ---
-
 # 23.2 Release overview
 
-This page provides information about functionality that is included in the 23.2 release scheduled for the week of April 3, 2023. 
-
-The enhancements on this page are available in the Preview environment. This page will be updated with additional enhancements as the 23.2 release nears its planned Production release.
+This page provides information about functionality that is included in the 23.1 release. These enhancements were made available in the Production environment with the 23.2 release on April 6 and 7, 2023. 
 
 For tips on preparing for the upcoming release, see [Prepare for an Adobe Workfront quarterly release](/help/quicksilver/product-announcements/product-releases/release-readiness.md).
 
@@ -110,7 +108,7 @@ In lieu of a release webinar, we invite you to register for Adobe Summit to watc
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Add tasks and issues from object details to a Workfront board or workstream</a><span style="color: #ff0000;"> New in Preview!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Add tasks and issues from object details to a Workfront board or workstream</a></p>
                         <p>You can now add existing tasks or issues to a Workfront board or workstream card list directly from the object details. Any items you add to a board will become connected cards, and any items added to a workstream are added to the card list as unplanned cards.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
@@ -423,7 +421,7 @@ In lieu of a release webinar, we invite you to register for Adobe Summit to watc
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-reports-dashboards.md" class="MCXref xref" xrefformat="{para}">Canvas Dashboards</a><span style="color: #ff0000;"> Coming soon!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-reports-dashboards.md" class="MCXref xref" xrefformat="{para}">Canvas Dashboards</a></p>
                         <p>Canvas Dashboards has been added as a work-in-progress feature for Dashboards that can be enabled in layout templates. Canvas Dashboards will allow Reporting Canvas visualizations to be combined with existing reports in addition to new layout options. Currently only list reports are supported, but more options will be added as development continues.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
@@ -458,7 +456,7 @@ In lieu of a release webinar, we invite you to register for Adobe Summit to watc
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-mobile-enhancements.md" class="MCXref xref" xrefformat="{para}">Biometric login and Boards collections in the mobile app</span></a><span style="color: #ff0000;"> Coming soon!</span>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-mobile-enhancements.md" class="MCXref xref" xrefformat="{para}">Biometric login and Boards collections in the mobile app</span></a>
                         <p>Biometric login is now an option for faster login to the mobile app! Once biometric verification has been set up after an initial login, users will be able to use fingerprint or facial recognition to quickly re-login to the app with only occasional password reverification. Additionally, there will be a number of look-and-feel improvements to the general login experience arriving in a later update.</p>
                         <p>Boards collections are also now supported in the mobile app, allowing mobile users to view any collections they have access to in the desktop version from their mobile Boards list.</p>
                     </td>
@@ -531,7 +529,7 @@ In lieu of a release webinar, we invite you to register for Adobe Summit to watc
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Net new customers to be onboarded to Adobe Unified Experience</a><span style="color: #ff0000;"> Coming soon!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Net new customers to be onboarded to Adobe Unified Experience</a></p>
                         <p>The Adobe Unified Experience includes:
                         <ul>
                         <li>A single login for all Adobe applications through Adobe Experience Cloud</li>
@@ -553,7 +551,7 @@ In lieu of a release webinar, we invite you to register for Adobe Summit to watc
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">The proofing viewer opens in a new tab for users on the Unified Experience</a><span style="color: #ff0000;"> Coming soon!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">The proofing viewer opens in a new tab for users on the Unified Experience</a></p>
                         <p>The proofing viewer now opens in a new tab for users on the Unified Experience.
                         </p>
                     </td>
@@ -621,11 +619,11 @@ There are no Workfront Proof updates at this point in the release. This area wil
 
 New features coming to Workfront Goals release with the 23.2 release. For information about these new features now available in Preview, see [Adobe Workfront Goals with the 23.2 release](/help/quicksilver/product-announcements/product-releases/goals-release-activity/goals-23-2-release/goals-23-2-release.md).
 
-### API version 15
+### API version 16
 
-For API version 15, we've modified some resources and endpoints. Some of the changes support new functionality, and others make it easier for you to use the information available through the API.
+API version 16 will be released with the 22.3 release. For API version 16, we've modified some resources and endpoints. Some of the changes support new functionality, and others make it easier for you to use the information available through the API.
 
-For information on what's new and updated, see [What's new in API version 15](/help/quicksilver/wf-api/api/new-api-version-15.md).
+For information on what's new and updated, see [What's new in API version 16](/help/quicksilver/wf-api/api/new-api-version-16.md).
 
 For information on API versions, see [API versioning and support schedule](/help/quicksilver/wf-api/api/api-version-support-schedule.md).
 

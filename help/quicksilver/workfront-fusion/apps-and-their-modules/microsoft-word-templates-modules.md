@@ -8,8 +8,8 @@ navigation-topic: apps-and-their-modules
 title: Microsoft Word Template modules
 description: In an Adobe Workfront Fusion scenario, you can automate workflows that use MIcrosoft Word Templates, as well as connect it to multiple third-party applications and services.
 author: Becky
+exl-id: 889b417c-04a9-4dbf-9a34-0dab65f11f03
 ---
-
 # [!DNL Microsoft Word Template] modules
 
 In an [!DNL Adobe Workfront Fusion] scenario, you can automate workflows that use [!DNL Microsoft Word Templates], as well as connect it to multiple third-party applications and services.
@@ -287,4 +287,3 @@ This aggregator module is especially useful for creating lists or reports.
   </tr> 
  </tbody> 
 </table>
-

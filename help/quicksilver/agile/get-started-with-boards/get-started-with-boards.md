@@ -27,3 +27,4 @@ This section contains the following articles:
 * [Delete or archive a card from a board](../../agile/get-started-with-boards/delete-board-items.md)
 * [Filter and search in a board](../../agile/get-started-with-boards/filter-search-in-board.md)
 * [Add tags](../../agile/get-started-with-boards/add-tags.md)
+* [Boards email notifications and preferences](/help/quicksilver/agile/get-started-with-boards/boards-emails.md)

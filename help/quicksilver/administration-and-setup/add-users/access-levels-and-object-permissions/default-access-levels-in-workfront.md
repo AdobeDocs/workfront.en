@@ -92,7 +92,7 @@ The following are the highest access settings available for objects in the Plann
 
 ## Worker access level
 
-Attached to the Work license, this built-in access level is designed for users who for perform the work in Workfront. They do not plan the work; they complete it.
+Attached to the Work license, this access level is designed for users who for perform the work in Workfront. They do not plan the work; they complete it.
 
 Users with this access level:
 
@@ -245,11 +245,11 @@ More limited for projects and tasks than the Worker access level, the following 
 
 ## Requestor access level
 
-Attached to the Request license, this built-in access level is designed for users who make and receive simple work requests in Workfront. By default, they are limited to the Requests area.
+Attached to the Request license, this access level is designed for users who make and receive simple work requests in Workfront. By default, they are limited to the Requests area.
 
 For example, a user can log issues to your organization's help desk request queue.
 
-Users with this built-in access level:
+Users with this access level:
 
 * Can make requests and update those requests
 * Can upload and approve documents

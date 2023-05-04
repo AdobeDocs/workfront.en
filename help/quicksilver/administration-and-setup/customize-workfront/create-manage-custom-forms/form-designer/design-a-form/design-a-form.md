@@ -7,11 +7,9 @@ description: You can design a custom form with the form designer.
 author: Courtney
 feature: System Setup and Administration
 role: Admin
+exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
 ---
-
 # Design a form with the form designer
-
-{{highlighted-preview-article-level}}
 
 You can design a custom form with the form designer. You can attach custom forms to different Workfront objects to capture data about those objects.
 
@@ -650,4 +648,4 @@ The Workfront Mobile app -->
 
 ## Organize and preview a form with the form designer
 
- For information on how to organize and see a preview of your form, see [Organize and preview a form with the form designer](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md). 
+ For information on how to organize and see a preview of your form, see [Organize and preview a form with the form designer](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md).
