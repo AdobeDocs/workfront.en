@@ -222,7 +222,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
                                 <p>Preview release:&#160;Throughout the 23.3 release timeframe<br /></p>
                             </li>
                             <li>
-                                <p><span class="preview">Production release:&#160;With the 23.3 release, unless otherwise specified</span></p>
+                                <p><span class="preview">Production release:&#160;With the 23.3 release (unless otherwise specified)</span></p>
                             </li>
                         </ul>
                     </td>
