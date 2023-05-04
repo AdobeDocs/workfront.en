@@ -7,7 +7,7 @@ description: View and manage locked scenarios in [!DNL Adobe Workfront Fusion]
 author: Becky
 feature: Workfront Fusion
 ---
-# View and manage locked scenarios in [!DNL Adobe Workfront Fusion]
+# Manage locked scenarios in [!DNL Adobe Workfront Fusion]
 
 In some cases, a scenario might be temporarily locked by the [!DNL Workfront Fusion] engineering team because the scenario is causing performance or other issues. Locked executions will be automatically unlocked within 2-4 hours. You can also unlock scenarios manually.
 
