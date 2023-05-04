@@ -30,7 +30,10 @@ For information on helping your organization adjust smoothly to new releases, se
     <li> <p><a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md" class="MCXref xref" xrefformat="{para}">23.2 Release overview</a> </p> </li>
     <li> <p><a href="../../product-announcements/product-releases/23.1-release-activity/23-1-release-overview.md" class="MCXref xref" xrefformat="{para}">23.1 Release overview</a> </p> </li>
     </ul> </td> 
-   <td>&nbsp;</td> 
+   <td>    <ul> 
+     <li> <p><a href="../../product-announcements/product-releases/goals-release-activity/goals-23-3-release/goals-23-3-release.md" class="MCXref xref" xrefformat="{para}">Adobe Workfront Goals with the 23.3 release</a> </p> </li> 
+     <li> <p><a href="../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md" class="MCXref xref" xrefformat="{para}">Adobe Workfront Fusion release activity</a> </p> </li> 
+    </ul></td> 
   </tr>
   <tr data-mc-conditions=""> 
    <td> <p>Releases in 2022</p> 
