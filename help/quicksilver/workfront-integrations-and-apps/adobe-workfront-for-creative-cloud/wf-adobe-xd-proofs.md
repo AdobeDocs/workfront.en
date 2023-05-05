@@ -64,7 +64,8 @@ You must have the following access to perform the steps in this article:
 
    >[!TIP]
    >
-   >To select more than one artboard, click and drag the mouse over the artboards you want.
+   >* Artboards will appear in the proof in the order they were selected. The first selected artboard will be the first page in the proof, and so on.
+   >* To quickly select more than one artboard, click and drag the mouse over the artboards you want. This does not allow you to control the order of artboards in the proof.
 
 1. Enable **[!UICONTROL Create a Proof]**.
 
