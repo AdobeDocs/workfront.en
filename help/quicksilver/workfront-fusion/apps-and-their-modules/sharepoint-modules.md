@@ -203,7 +203,7 @@ This trigger module starts a scenario when an item is updated in a folder you se
 
 ### Item
 
-* [[!UICONTROL Watch Items]](#watch-items)
+* [[!UICONTROL Watch Items] (Scheduled)](#watch-items)
 * [[!UICONTROL List Items]](#list-items)
 * [[!UICONTROL Get an Item]](#get-an-item)
 * [[!UICONTROL Create an item]](#create-an-item)
@@ -240,6 +240,9 @@ This trigger module starts a scenario when an item is created or modified.
   </tr> 
  </tbody> 
 </table>
+
+#### 
+
 
 #### [!UICONTROL List Items]
 
