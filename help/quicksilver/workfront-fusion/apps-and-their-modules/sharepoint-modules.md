@@ -203,14 +203,18 @@ This trigger module starts a scenario when an item is updated in a folder you se
 
 ### Item
 
-* [[!UICONTROL Watch Items] (Scheduled)](#watch-items)
+* [[!UICONTROL Watch Items] (Scheduled)](watch-items-scheduled)
+* [[!UICONTROL Watch Items] (Instant)](watch-items-instant)
 * [[!UICONTROL List Items]](#list-items)
 * [[!UICONTROL Get an Item]](#get-an-item)
 * [[!UICONTROL Create an item]](#create-an-item)
 * [[!UICONTROL Update an item]](#update-an-item)
 * [[!UICONTROL Delete an item]](#delete-an-item)
+* [[!UICONTROL Copy an Item]](#copy-an-item)
+* [[!UICONTROL Move an Item]](#move-an-item)
 
-#### [!UICONTROL Watch Items]
+
+#### [!UICONTROL Watch Items] (Scheduled)
 
 This trigger module starts a scenario when an item is created or modified.
 
@@ -241,7 +245,7 @@ This trigger module starts a scenario when an item is created or modified.
  </tbody> 
 </table>
 
-#### 
+#### [!UICONTROL Watch Items] (Instant)
 
 
 #### [!UICONTROL List Items]
@@ -370,6 +374,10 @@ This action module deletes an existing item in a SharePoint list.
   </tr> 
  </tbody> 
 </table>
+
+#### [!UICONTROL Copy an Item]
+
+#### [!UICONTROL Move an Item]
 
 ### List
 
