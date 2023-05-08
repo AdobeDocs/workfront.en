@@ -62,6 +62,11 @@ You must have the following access to perform the steps in this article:
 1. (Optional) Search for and select [!DNL Workfront] [!UICONTROL **Projects**].
 1. (Optional) Search for and select user or team [!UICONTROL **Assignments**].
 1. Select [!UICONTROL **Include completed work**] to display tasks and issues with a Complete status in the intake column.
+
+   >[!NOTE]
+   >
+   >If this option is not selected, when cards in other statuses are marked complete, they will "fall off" the board and no longer be displayed.
+
 1. Click [!UICONTROL **Apply**].
 
    All objects appear in the board intake column as connected cards.
