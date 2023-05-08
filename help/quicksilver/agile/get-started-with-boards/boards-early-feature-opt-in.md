@@ -168,7 +168,7 @@ The following table outlines major features of boards along with their current r
   </tr>
   <tr>
    <td>Use simplified filters on the intake column</td>
-   <td>Planned</td>
+   <td>Partially released</td>
   </tr>
  </tbody> 
 </table>
