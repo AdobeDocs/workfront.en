@@ -156,7 +156,7 @@ The following table outlines major features of boards along with their current r
   </tr>
   <tr>
    <td>Migrate legacy Kanban cards to Boards</td>
-   <td>This feature will be available in Production on May 4, 2023 and is not part of the early feature opt-in.</td>
+   <td>This feature will be available in Production on May 18, 2023 and is not part of the early feature opt-in.</td>
   </tr>
   <tr>
    <td>Create dynamic boards</td>
@@ -165,6 +165,10 @@ The following table outlines major features of boards along with their current r
   <tr>
    <td>Use left navigation on card details</td>
    <td>Partially released</td>
+  </tr>
+  <tr>
+   <td>Use simplified filters on the intake column</td>
+   <td>Planned</td>
   </tr>
  </tbody> 
 </table>
