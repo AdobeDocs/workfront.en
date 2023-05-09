@@ -17,6 +17,22 @@ hide: yes
 
 You must create record types before you can create fields to associate with them.
 
+The following are default fields that Workfront creates by default:
+
+* Name
+* Description
+* Start Date
+* End Date
+* Status. The default values for record statuses are:
+    * Development
+    * Planned
+    * Active
+    * Completed
+    * On Hold
+
+    You can add more values or rename the existing ones. 
+
+
 ## Access requirements
 
-## Create fields in a record type table
+## Create fields in a table
