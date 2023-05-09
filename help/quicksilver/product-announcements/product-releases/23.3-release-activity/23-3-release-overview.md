@@ -51,7 +51,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
                                 <p>Preview release: May 4, 2023</p>
                             </li>
                             <li>
-                                <p><span class="preview">Production release: With the 23.3 release</span></p>
+                                <p><span class="preview">Production release: May 18, 2023</span></p>
                             </li>
                         </ul>
                     </td>
