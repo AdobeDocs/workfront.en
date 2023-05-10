@@ -16,7 +16,7 @@ For a list of all changes available at this point in the 23.2 release cycle, see
 
 >[!NOTE]
 >
->Starting March 23, this will release to production in a phased rollout that will complete on May 11, 2023.
+>Starting March 23, this will release to production in a phased rollout that will complete after May 11, 2023.
 
 As part of updating the look and feel of the Workfront experience, we have redesigned the Edit Projects box, when editing several projects at the same time, In bulk. You can access the new Edit Projects box when selecting several projects at the same time in a list of projects.   
 
