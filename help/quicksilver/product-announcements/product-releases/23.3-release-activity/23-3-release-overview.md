@@ -75,7 +75,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
                         </p>
                     </td>
                 </tr>
-                <!--<tr>
+                <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-10.md" class="MCXref xref" xrefformat="{para}">Simple filters available on board intake columns</a><span style="color: #ff0000;"> New in Preview!</span></p>
                         <p>Simplified filters have been added to the intake column setup to allow you to define the intake column more quickly. The available filters are Workfront projects and assignments by team or user. You can switch to the advanced filters if you prefer.</p>
@@ -83,15 +83,15 @@ The <add release> release webinar will be held on <date>. You can [register for 
                     <td><p><b>Available on these dates:</b></p>
                         <ul>
                             <li>
-                                <p>Preview release: May 11, 2023<br /></p>
+                                <p>Preview release: May 10, 2023<br /></p>
                             </li>
                             <li>
-                                 <p>Production release for early opt-in: May 11, 2023 <span style="color: #ff0000;"> This feature is available in Production only through the early feature opt-in for Workfront Boards.</span></p>
+                                 <p>Production release for early opt-in: May 10, 2023 <span style="color: #ff0000;"> This feature is available in Production only through the early feature opt-in for Workfront Boards.</span></p>
                                 <p>Production release for all customers: With the 23.3 release</p>
                             </li>
                         </ul>
                     </td>
-                </tr>-->
+                </tr>
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-24.md" class="MCXref xref" xrefformat="{para}">Simple filters added to the dynamic board template</a></p>
@@ -328,7 +328,7 @@ There are no Scenario Planner updates at this point in the release. This area wi
 
 ### Workfront Proof enhancements
 
-There are no Workfront Proof updates at this point in the release. This area will be updated when updates are available.
+New features coming to Workfront Proof release within the 23.3 release timeframe. For information about these new features now available in Preview, see [Adobe Workfront Proof with the 23.3 release](/help/quicksilver/product-announcements/product-releases/workfront-proof-release-activity/proof-23-3-release/proof-23-3-overview.md).
 
 ### Workfront Goals enhancements
 
