@@ -12,16 +12,6 @@ This page describes all administrator enhancements made with the 23.2 release to
 
 For a list of all changes available at this point in the 23.2 release cycle, see [23.2 Release overview](/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md).
 
-## Map Workfront field values to tags in Experience Manager Assets
-
-Now, you can categorize and quickly find assets based on data from Workfront.  You can map this data as part of your metadata configuration in the Workfront for Experience Manager Assets integration.
-
-Previously, mapping Workfront data to Experience Manager Assets tags was unavailable.
-
-For more information on this functionality in Experience Manager Assets as a Cloud Service, [Configure the [!UICONTROL Experience Manager Assets as a Cloud Service] integration](help\quicksilver\administration-and-setup\configure-integrations\configure-aacs-integration.md).
-
-For more information on this functionality in Experience Manager Assets Essentials, [Configure the Experience Manager Assets Essentials integration](help\quicksilver\documents\adobe-workfront-for-experience-manager-assets-essentials\setup-asset-essentials.md).
-
 ## Create custom forms with the new form designer beta
 
 Now available in a public beta, the new form designer has a new canvas-style workspace that allows you to view the fields, canvas, and field settings all at the same time.
