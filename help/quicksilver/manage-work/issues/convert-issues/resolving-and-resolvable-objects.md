@@ -163,7 +163,8 @@ When you change the status of the task or project to a custom status, the status
 
 You can create custom statuses with the same key for both issues and projects or tasks. When the project or task (as a Resolving Object) are changed to the custom status, the change also reflects on the status of the issue. The status key must be the same for the issue and project or task statuses.
 
-For example, create a project custom status named "Launched" with the three letter code "LCD" which equates with "Current". Also, create an issue custom status named "Project Launched", also with the letter code "LCD" which equates with "In Progress". When you mark the project as "Launched", the issue will automatically change the status to "Project Launched". If the "Automatically****set issue statuses to match the resolvable object using the Status keys" setting were not enabled, the issue status would change to "In Progress" instead (the default status).
+For example, create a project custom status named "Launched" with the three letter code "LCD" which equates with "Current". Also, create an issue custom status named "Project Launched", also with the letter code "LCD" which equates with "In Progress". When you mark the project as "Launched", the issue will automatically change the status to "Project Launched". If the "
+Automatically update Resolvable Issue status when the status of the Resolving Object changes" setting were not enabled, the issue status would change to "In Progress" instead (the default status).
 
 For more information about creating a custom status, see [Create or edit a status](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
 
