@@ -9,7 +9,7 @@ exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
 ---
 # Edit projects
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers in the Preview environment and for a select group of customers in the Production environment.</span>-->
 
 <!--
 <p>***Linked to many articles,</p>
@@ -266,7 +266,15 @@ Some settings mentioned in this article might be modified from their default sta
        <ul> 
        <li> <p><span>When the project is created from the Projects area, the Home Group of the project creator is associated with the project.</span> </p> <p>This is also true when the project is created from the Projects  section  in a portfolio or program.</p> </li> 
        <li> <p>When the project is created from a group's main page in the Setup area, that group is associated with the project.</p> </li> 
-       </ul> </p> <p> <img src="assets/group-details-widget-350x351.png" style="width: 350;height: 351;"> </p> <p>If the project, or its tasks or issues are already associated with a group-level approval process using group-level custom statuses, changing the group might create a conflict between the approval statuses of the previous group and those existing at the system level. Consider removing the group-level approval processes on the project, or its tasks or issues before updating the group. For information about creating group-level approval processes, see <a href="../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-groups-approval-processes.md" class="MCXref xref">Group-level approval processes</a>. For information about creating a group-level custom status, see <a href="../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md" class="MCXref xref">Create or edit a group status</a></p> </td> 
+       </ul> </p> <p> <img src="assets/group-details-widget-350x351.png" style="width: 350;height: 351;"> </p> 
+       <p><b>NOTES</b></p>
+      
+      <ul>
+      <li><p>If the project, or its tasks or issues are associated with a group-level custom Status, changing the Group of the project might cause the Status of the project, tasks, or issues to change to match the new group.</p></li>
+      <li><p>If the project, or its tasks or issues are already associated with a group-level approval process using group-level custom statuses, changing the group might create a conflict between the approval statuses of the previous group and those existing at the system level.</p>
+      <p>Consider removing the group-level approval processes on the project, or its tasks or issues before updating the group.</p>
+      <p>For information about creating group-level approval processes, see <a href="../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-groups-approval-processes.md" class="MCXref xref">Group-level approval processes</a>.</p>
+      <p>For information about creating a group-level custom status, see <a href="../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md" class="MCXref xref">Create or edit a group status</a></p></li></ul> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Company</strong> </td> 
@@ -311,6 +319,7 @@ When selecting more than one project to edit them in bulk, the following scenari
 * If you don't have Edit Custom Form permissions on at least one of the selected projects, you cannot edit the fields on any of the attached custom forms. You can only view the fields on the attached custom forms
 * If you have View (and not Edit) access to a section on a custom form, you cannot edit the fields in that section. You can only view the fields in that section. 
 * If you have no access to a section on one of the custom forms attached to at least one of the projects, the section does not display in the Edit Projects box. 
+* If you have required fields on any of the custom forms attached to all the projects, and you select one field without actually editing it, you must discard your changes on that field or add information to it before you can save the projects you selected. If you don't select a required field at all, you can save the projects you selected even if the required field is blank. 
 
 For information about custom form access, see the following articles: 
 
@@ -681,12 +690,107 @@ The following fields are included in the project header, by default.
 
 You can edit projects in bulk and update information for all selected projects at the same time.
 
+Consider the following when editing projects in bulk:
 
-The information you are changing on all the projects selected overwrites the existing information on individual projects, except for the Resource Manager field. 
+* The information you are changing on all the projects selected overwrites the existing information on individual projects, except for the Resource Manager field. 
 
-Adding a new resource manager when editing projects in bulk adds that manager to all the selected projects. If other resource managers are associated with the selected projects, they remain on the projects in addition to the one added through bulk edit.
+   Adding a new resource manager when editing projects in bulk adds that manager to all the selected projects. If other resource managers are associated with the selected projects, they remain on the projects in addition to the one added through bulk edit.
 
-Editing projects in bulk differs depending on what environment you choose to update them in. 
+* When you select projects that have different values for the same field, the field displays a "Multiple values" indicator in the Edit projects box. Fields that are checkboxes, radio buttons, and toggles have a "Multiple values" indicator next to them.
+
+   ![](assets/multiple-values-indicator-dates-bulk-edit-projects.png)
+
+* In addition to the "Multiple values" indicator, when the chosen options are different on at least one of the selected projects, fields that have multiple options display in one of the following ways:  
+
+    * Checkbox fields have a line instead of a checkbox for the option that is checked for some but not for all the selected projects.
+
+      ![](assets/multiple-values-indicator-check-boxes-bulk-edit-projects.png)
+
+    * Toggle-type fields display dimmed, with the toggle in the middle for the option that is enabled for some but not for all the selected projects. 
+
+    ![](assets/multiple-values-highlighted-bulk-edit-projects.png)
+
+    * Radio button-type fields that have some options selected but not all, display all radio buttons as empty. 
+
+      ![](assets/multiple-values-indicator-radio-buttons-bulk-edit-projects.png)
+
+* When you update one option in a multiple-option field (such as a field that displays as a set of toggles or checkboxes), all other options must match between the selected projects. 
+
+   >[!IMPORTANT]
+   >
+   >For example, you might have a checkbox field with three checkboxes (Option1, Option 2, and Option 3) and Option 1 is unchecked for all projects, and Option 2 and 3 are checked for some and unchecked for other projects that you selected. If you want to check Option 1 for all projects, you must also make Option 2 and 3 match for all the selected projects before you can save your changes, so you must either select them or deselect them so that they can match on all the selected projects. If you do not change any of the options, you can save the field as is, and the projects maintain their current selection for all options. 
+
+* When you select multiple projects that belong to different groups, the statuses that display in the Status field are system-level statuses and not group-level statuses. 
+
+To edit projects in bulk: 
+
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront.
+1. Click **Projects**.
+1. Select several projects in the list.
+1. Click the **Edit** icon ![](assets/edit-icon.png) at the top of the list. 
+The **Edit Projects** dialog box opens. 
+
+   ![](assets/edit-projects-in-bulk-modal-unshimmed.png)
+
+Depending on how your Workfront administrator or Group administrator modified your Layout Template, the areas in the left panel of the Edit Project box or any fields listed in these areas might be rearranged or not display. For information, see [Customize the Details view using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md). 
+
+1. Click **Overview** to edit general information about the selected projects.  For more information about editing the Overview area, see the section [Overview](#overview) in this article.
+
+   >[!TIP]
+   >
+   >Fields that you edit display with a light purple background.
+
+1. Click **Custom Forms** to edit, add, or replace custom forms associated with the selected projects. 
+
+   The custom forms that are attached to all the selected projects display in the **Custom forms in common** subsection in the **Custom Forms** area.
+
+   ![](assets/custom-forms-in-common-unshimmed.png) 
+
+   >[!TIP]
+   >
+   >   The names of the forms that are common to all selected projects display in the left panel of the Edit Projects box.
+
+1. Start typing the name of a custom form in the **Add custom form** field.
+
+
+   ![](assets/forms-already-attached-indication-in-bulk-editing-projects-unshimmed.png)
+
+   The custom forms that are already attached to the selected projects display in the **Attached forms** subsection in the **Add custom form** field. 
+   
+   Additional custom forms that can be associated with projects but are not attached to any of the selected projects display in the **Forms to add** subsection in the **Add custom form** field. 
+   
+1. Click to select additional custom forms in the **Add custom form** or **Forms to add** subsections when it displays in the list. 
+
+   When a custom form is already attached to some of the selected projects, there is an indication next to the name of the form about how many projects already have the form attached, when adding a form.  
+
+1. (Optional) Click the **x** icon to the right of a custom form's name, then click **Remove** to remove it from all the selected projects.
+
+   >[!CAUTION]
+   >
+   >Removing custom forms causes all existing custom field information on the forms to be lost. This cannot be recovered. 
+
+   For more information about editing custom forms, see the section [Custom Forms](#custom-forms) in this article.
+
+1. Click **Finance** to edit financial information for all selected projects.
+For more information about editing the Finance area, see the section [Finance](#finance) in this article. 
+1. Click **Project Settings** to edit the settings for all selected projects.
+For more information about editing the Project Settings area, see the section [Project Settings](#project-settings) in this article. 
+1. Click **Task Settings** to edit the task settings for all selected projects. 
+For more information about editing the Task Settings area, see the section [Task Settings](#task-settings) in this article.
+1. Click **Issue Settings** to edit the issue settings for all selected projects.
+For more information about editing the Issue Settings area, see the section [Issue Settings](#issue-settings) in this article.
+1. Click **Access** to edit the access settings for all selected projects.
+For more information about editing the Access area, see the section [Access](#access) in this article.
+1. (Optional) To remove any of the information you added in the Edit Projects box, hover over an edited field, then click the **x** discard icon to the upper-right of the field. 
+
+   ![](assets/discard-icon-for-field-edit-projects-in-bulk-unshimmed.png)
+
+1. (Optional) Click **Cancel** at the bottom of the **Edit projects** page to remove all the changes made to all projects. 
+1. Click **Save**. 
+
+
+
+<!-- Old information for how to bulk edit in classic/ before project bulk edit redesign: 
 
 ### Edit projects in bulk in the Production environment
 
@@ -730,7 +834,7 @@ To edit projects in bulk:
 
      <!--   
      <p>(NOTE:&nbsp;make sure this stays accurate)</p>   
-     -->
+     
 
    * **Tasks**
 
@@ -746,7 +850,7 @@ To edit projects in bulk:
 
      <!--   
      <p>(NOTE: ensure this step stays accurate)</p>   
-     -->
+     
 
 
 1. (Optional) In the Settings area, select any of the following options:
@@ -780,103 +884,4 @@ To edit projects in bulk:
 
    All changes you made are now visible on all the selected projects.
 
-<div class="preview">
-
-### Edit projects in buk in the Preview environment
-
-Consider the following when editing projects in bulk in the Preview environment:
-
-* When you select projects that have different values for the same field, the field displays a "Multiple values" indicator in the Edit projects box. Fields that are checkboxes, radio buttons, and toggles have a "Multiple values" indicator next to them.
-
-   ![](assets/multiple-values-indicator-dates-bulk-edit-projects.png)
-
-* In addition to the "Multiple values" indicator, when the chosen options are different on at least one of the selected projects, fields that have multiple options display in one of the following ways:  
-
-    * Checkbox fields have a line instead of a checkbox for the option that is checked for some but not for all the selected projects.
-
-      ![](assets/multiple-values-indicator-check-boxes-bulk-edit-projects.png)
-
-    * Toggle-type fields display dimmed, with the toggle in the middle for the option that is enabled for some but not for all the selected projects. 
-
-    ![](assets/multiple-values-highlighted-bulk-edit-projects.png)
-
-    * Radio button-type fields that have some options selected but not all, display all radio buttons as empty. 
-
-      ![](assets/multiple-values-indicator-radio-buttons-bulk-edit-projects.png)
-
-* When you update one option in a multiple-option field (such as a field that displays as a set of toggles or checkboxes), all other options must match between the selected projects. 
-
-   >[!IMPORTANT]
-   >
-   >For example, you might have a checkbox field with three checkboxes (Option1, Option 2, and Option 3) and Option 1 is unchecked for all projects, and Option 2 and 3 are checked for some and unchecked for other projects that you selected. If you want to check Option 1 for all projects, you must also make Option 2 and 3 match for all the selected projects before you can save your changes, so you must either select them or deselect them so that they can match on all the selected projects. If you do not change any of the options, you can save the field as is, and the projects maintain their current selection for all options. 
-
-* When you select multiple projects that belong to different groups, the statuses that display in the Status field are system-level statuses and not group-level statuses. 
-
-To edit projects in the Preview environment: 
-
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront.
-1. Click **Projects**.
-1. Select several projects in the list.
-1. Click the **Edit** icon ![](assets/edit-icon.png) at the top of the list. 
-The **Edit Projects** dialog box opens. 
-
-   ![](assets/edit-projects-in-bulk-modal-unshimmed.png)
-
-Depending on how your Workfront administrator or Group administrator modified your Layout Template, the areas in the left panel of the Edit Project box or any fields listed in these areas might be rearranged or not display. For information, see [Customize the Details view using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md). 
-
-1. Click **Overview** to edit general information about the selected projects.  For more information about editing the Overview area, see the section [Overview](#overview) in this article.
-
-   >[!TIP]
-   >
-   >Fields that you edit display with a light purple background.
-
-1. Click **Custom Forms** to edit, add, or replace custom forms associated with the selected projects. 
-
-   The custom forms that are attached to all the selected projects display in the **Custom forms in common** subsection in the **Custom Forms** area.
-
-   ![](assets/custom-forms-in-common-unshimmed.png) 
-
-   >[!TIP]
-   >
-   >   The names of the forms that are common to all selected projects display in the left panel of the Edit Projects box.
-
-1. Start typing the name of a custom form in the **Add custom form** field.
-
-
-   ![](assets/forms-already-attached-indication-in-bulk-editing-projects-unshimmed.png)
-
-   The custom forms that are already attached to the selected projects display in the **Attached forms** subsection in the **Add custom form** field. 
-   
-   Additional custom forms that can be associated with projects but are not attached to any of the selected projects display in the **Forms to add** subsection in the **Add custom form** field. 
-   
-1. Click to select the additional custom form in the **Add custom form** or **Forms to add** subsections when it displays in the list. 
-
-   When a custom form is already attached to some of the selected projects, there is an indication next to the name of the form how many projects already have the form selected, when adding a form.  
-
-1. (Optional) Click the **x** icon to the right of a custom form's name, then click **Remove** to remove it from all the selected projects.
-
-   >[!CAUTION]
-   >
-   >Removing custom forms causes all existing custom field information on the forms to be lost. This cannot be recovered. 
-
-   For more information about editing custom forms, see the section [Custom Forms](#custom-forms) in this article.
-
-1. Click **Finance** to edit financial information for all selected projects.
-For more information about editing the Finance area, see the section [Finance](#finance) in this article. 
-1. Click **Project Settings** to edit the settings for all selected projects.
-For more information about editing the Project Settings area, see the section [Project Settings](#project-settings) in this article. 
-1. Click **Task Settings** to edit the task settings for all selected projects. 
-For more information about editing the Task Settings area, see the section [Task Settings](#task-settings) in this article.
-1. Click **Issue Settings** to edit the issue settings for all selected projects.
-For more information about editing the Issue Settings area, see the section [Issue Settings](#issue-settings) in this article.
-1. Click **Access** to edit the access settings for all selected projects.
-For more information about editing the Access area, see the section [Access](#access) in this article.
-1. (Optional) To remove any of the information you added in the Edit Projects box, hover over an edited field, then click the **x** discard icon to the upper-right of the field. 
-
-   ![](assets/discard-icon-for-field-edit-projects-in-bulk-unshimmed.png)
-
-1. (Optional) Click **Cancel** at the bottom of the **Edit projects** page to remove all the changes made to all projects. 
-1. Click **Save**. 
-
-</div>
-
+-->

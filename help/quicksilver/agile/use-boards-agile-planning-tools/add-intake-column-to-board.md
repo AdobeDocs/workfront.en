@@ -14,6 +14,8 @@ You can optionally add an intake column to your board that automatically pulls i
 
 Only one intake column is permitted on a board, and it always appears as the left-most column.
 
+The intake column is not available on a dynamic board.
+
 The intake column is limited to 300 tasks and 300 issues. They are sorted by the priority defined on the items. For information about priority, see [Update task priority](/help/quicksilver/manage-work/tasks/task-information/task-priority.md) and [Update issue priority](/help/quicksilver/manage-work/issues/issue-information/update-issue-priority.md).
 
 For more information on columns, see [Manage board columns](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md). For information on connected cards, see [Use connected cards on boards](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
@@ -58,6 +60,8 @@ You must have the following access to perform the steps in this article:
    >[!NOTE]
    >
    >You can filter the intake column to include both tasks and issues, but you must set up the filters separately for each object type.
+   >
+   >Also, saved filters and system default filters are available for you to select.
 
 1. On the filter panel, click **[!UICONTROL New filter]** to get started.
 
@@ -69,7 +73,7 @@ You must have the following access to perform the steps in this article:
 
    This example shows a filter for tasks from a specific project that are in the status of [!UICONTROL New] or [!UICONTROL In Progress], and are assigned to me.
 
-   For details about building a filter, see the section "Create or edit a filter in the beta builder" in the article [Create or edit filters in [!DNL Adobe Workfront]](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-filters.md).
+   For details about building a filter, see the section "Create or edit a filter in the standard builder" in the article [Create or edit filters in [!DNL Adobe Workfront]](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-filters.md).
 
 1. Name the filter and click **[!UICONTROL Save]**.
 
@@ -88,10 +92,6 @@ You must have the following access to perform the steps in this article:
    ![Intake column](assets/intake-column-added3.png)
 
    Cards in the intake column are not editable until you move them into other board columns. You can click on the card to open it in a read-only view, or click ![Open task or issue](assets/boards-launch-icon.png) to open the task or issue in a new browser tab.
-
-   >[!NOTE]
-   >
-   >The read-only view for cards in the intake column is available only through the early feature opt-in for [!DNL Workfront] [!UICONTROL Boards].
    
    You can manually re-order the items on the intake column.
 

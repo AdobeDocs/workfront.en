@@ -6,10 +6,9 @@ title: Use the card list
 description: You can create a card list on a workstream and add the cards to iterations.
 author: Lisa
 feature: Agile
+exl-id: 2976f7e8-be84-4d27-9d70-8430392d5331
 ---
 # Use the card list
-
-{{highlighted-preview-article-level}}
 
 You can create a card list on a workstream and add the cards to iterations.
 
@@ -110,7 +109,7 @@ Cards can only be archived from the iteration board. When a card is archived, it
 
 >[!NOTE]
 >
->You must create an iteration before you can add cards to it. For information, see [Create an iteration](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration.md).
+>You must create an iteration before you can add cards to it. For information, see [Create an iteration in a workstream](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md).
 
 1. Access the card list for the workstream.
 1. Select the [!UICONTROL **Iteration view**] to see which cards are assigned to an iteration and which are unplanned.
@@ -126,4 +125,3 @@ Cards can only be archived from the iteration board. When a card is archived, it
 >[!TIP]
 >
 >If you have created an iteration process board, all unplanned cards on the card list appear in the [!UICONTROL Backlog] column. When a card is moved into another column, it becomes part of the active iteration. Cards that you add to the iteration in the card list are added to a column based on their status.
-

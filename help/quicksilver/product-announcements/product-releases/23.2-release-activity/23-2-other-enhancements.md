@@ -4,6 +4,7 @@ description: 23.2 Other enhancements
 author: Courtney
 draft: Probably
 feature: Product Announcements
+exl-id: 565c365b-d611-4a9a-80a9-bfb7a5b0f319
 ---
 # 23.2 Other enhancements
 
@@ -11,23 +12,40 @@ This page describes all other enhancements made with the 23.2 release to the Pre
 
 For a list of all changes available at this point in the 23.2 release cycle, see [23.2 Release overview](/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md).
 
+## New to the Workfront for Creative Cloud plugins
+
+We've added the following changes to the Workfront for Creative Cloud plugins:
+
+* The plugin now notifies you when a task has a predecessor
+* Korean is now a supported language
+
 ## New commenting experience for issues Beta
 
-An update to the commenting experience in Adobe Workfront is currently in development. This update includes a new interface, new features, and improved performance in the Updates section of some objects.
+An update to the commenting experience in Adobe Workfront is currently in development. This update includes a new interface, new features, and improved performance in the Updates section of some objects. 
 
-This new experience will eventually unify commenting across Adobe Workfront and beyond, throughout the Adobe Experience Cloud.
+This new experience will eventually unify commenting across Adobe Workfront and beyond, throughout the Adobe Experience Cloud. 
 
-As part of this update, we are introducing the new commenting experience to the Updates section of issues. With the current release, there will be a toggle available to each user to enable this experience in their own environment, in a beta mode. After accepting the beta agreement, the new Updates section displays and they can continue to manage their work in that section as they do now.
-Similar functionality was released to Workfront Goals with the 23.1 release.
+As part of this update, we are introducing the new commenting experience to the Updates section of issues. With the current release, there will be a toggle available to each user to enable this experience in their own environment, in beta mode. After accepting the beta agreement, the new Updates section displays, and they can continue to manage their work in that section as they do now. 
 
-Some of the features included with this update are:
+Similar functionality was released to Workfront Goals with the 23.1 release. 
 
-* Separate tabs for comments and system updates
-* Better performance
+Some of the features included with this update are: 
 
-More features will be added in future releases, as the functionality will be added to other objects as well.
+* Separate tabs for comments and system updates 
 
-For information about what the new commenting experience offers, see [Unified commenting experience](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/unified-commenting-experience.md).
+* Better performance 
+
+* Real-time indicator for new comments. 
+
+* Editing comments after they are submitted.  
+
+With this redesign, we have removed adding comments to system updates.  
+
+More features will be added in future releases, as these enhancements continue to be added to other objects. 
+
+For information about what the new commenting experience offers, see [New commenting experience](../../betas/new-commenting-experience-beta/unified-commenting-experience.md). 
+
+[View a video demonstration of this feature.](https://video.tv.adobe.com/v/3416962/){target=_blank}
 
 ## Export artboards as single PDF or multiple PDF files in Adobe Workfront for XD
 

@@ -29,8 +29,8 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Plan to assign work in the Workload Balancer in the Resourcing area</p>
-   <p>Work to assign work in the Workload Balancer of a team or project</p>
+   <td> <p>Plan, to assign work in the Workload Balancer in the Resourcing area</p>
+   <p>Work, to assign work in the Workload Balancer of a team or project</p>
  </td> 
   </tr> 
   <tr> 

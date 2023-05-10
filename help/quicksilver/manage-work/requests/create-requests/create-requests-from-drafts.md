@@ -47,11 +47,13 @@ You must do the following before you can create a request from a draft:&nbsp;
 ## Create requests from drafts
 
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Workfront.
-1. Click&nbsp;**Requests** > **Drafts**.
+1. Click **Requests** > **Drafts**.
 
    A draft for each queue topic of each request queue displays in this list.
 
    ![](assets/nwe-drafts-section-with-list-of-drafts-350x169.png)
+
+1. (Optional) Click a column header to sort the list by that column. 
 
 1. Review the information about each draft in the following columns of the Drafts list:
 
@@ -59,12 +61,16 @@ You must do the following before you can create a request from a draft:&nbsp;
    |---|---|
    | Path |The name of the request queue, topic groups, and queue topics where you originally intended to submit the request. |
    | Entry Date |The date when you initiated creating the request. |
-   | Last Update Date |The last of your last update. If you did not update it since you first started the request the&nbsp;Entry Date and the Last Update Date should be the same.  |
+   | Last Update Date |The last of your last update. If you did not update it since you first started the request the Entry Date and the Last Update Date should be the same.  |
 
    {style="table-layout:auto"}
 
-1. (Optional) Click **Filter by request type** in the upper-right corner of the list of drafts, then select the request queue that contains the drafts you want to display. 
-1. Click the name of a draft to open it. 
+1. (Optional) Using the quick filter in the upper-right corner of the Drafts list, start typing the name of a drafted request, request queue, queue topic, or topic group, then click the name of a draft to open it.
+
+   >[!TIP]
+   >
+   >You cannot apply permanent filters in the Drafts section of the Requests area. Additionally, there are no options to modify or change the view of the drafts list.  
+
 1. Update the information for the request as described in [Create and submit Adobe Workfront requests](../../../manage-work/requests/create-requests/create-submit-requests.md).
 1. (Optional and conditional) At any point during entering the request, click **Discard** draft if you want to delete the draft. This deletes the draft which cannot be recovered. For more information about deleting drafts, see [Delete a request draft](../../../manage-work/requests/create-requests/delete-request-draft.md). 
 
@@ -72,7 +78,7 @@ You must do the following before you can create a request from a draft:&nbsp;
 
 1. After completing the information for the request, do one of the following:
 
-   * Click **Submit** if you are ready to submit the request. The request is saved in the Submitted section. Depending on the Routing Rule of the Request Queue, this request might be routed to a different project than the one designated&nbsp;as a Request Queue. For information about routing rules, see [Create Routing Rules](../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md).
+   * Click **Submit** if you are ready to submit the request. The request is saved in the Submitted section. Depending on the Routing Rule of the Request Queue, this request might be routed to a different project than the one designated as a Request Queue. For information about routing rules, see [Create Routing Rules](../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md).
 
      Or
 

@@ -7,8 +7,8 @@ description: You can manage custom forms in the Setup area.
 author: Courtney
 feature: System Setup and Administration
 role: Admin
+exl-id: b15e5a75-1675-48d2-9c88-e7def24ac550
 ---
-
 # Manage custom forms and fields
 
 * [Share a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md)

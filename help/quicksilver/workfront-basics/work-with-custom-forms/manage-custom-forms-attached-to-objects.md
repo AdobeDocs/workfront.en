@@ -9,7 +9,7 @@ exl-id: e5570a09-32cb-43e3-9c1d-4421db42fa24
 ---
 # Manage custom forms attached to objects
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers in the Preview environment and for a select group of customers in the Production environment.</span>-->
 
 You can update the order in which the custom forms attached to one object display, remove them, or bulk-edit the way custom forms display on multiple objects.
 
@@ -44,7 +44,7 @@ You must have the following access to perform the actions described in this arti
 
 ## Prerequisites
 
-* Your Workfront administrator or a Plan user with administrative access to&nbsp;custom forms must create custom forms in your environment. For more information, see [Create or edit a custom form](../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+* Your Workfront administrator or a Plan user with administrative access to custom forms must create custom forms in your environment. For more information, see [Create or edit a custom form](../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 * You must have custom forms attached to an object.
 
   For information about how to apply custom forms to an object, see [Add a custom form to an object](../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
@@ -95,7 +95,9 @@ drafted for bulk-editing projects. When it releases to Prod for projects, take "
 
 >[!NOTE]
 >
-><span class="preview">For information about managing custom forms on projects in bulk in the Preview environment, see the article [Edit projects](../../manage-work/projects/manage-projects/edit-projects.md)</span>.
+>Managing custom forms to objects is identical for all objects except for projects. 
+>
+>For information about adding custom forms to projects in bulk, see the article [Edit projects](../../manage-work/projects/manage-projects/edit-projects.md).
 
 When you are bulk editing objects that have multiple custom forms applied, you can edit the way custom forms are displayed on those objects, as well as edit common fields among the custom forms.
 

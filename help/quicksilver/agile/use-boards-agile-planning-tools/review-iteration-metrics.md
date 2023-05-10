@@ -6,12 +6,11 @@ title: Review iteration metrics
 description: Metrics are available for each iteration in a workstream, on the iteration process board.
 author: Lisa
 feature: Agile
+exl-id: 09743566-161d-4850-9a1a-b96da6d537a7
 ---
 # Review iteration metrics
 
-{{highlighted-preview-article-level}}
-
-Metrics are available for each iteration in a workstream, on the iteration process board.
+Metrics are available for each iteration in a workstream, on the iteration process board and the dashboard.
 
 ## Access requirements
 
@@ -50,6 +49,6 @@ You must have the following access to perform the steps in this article:
 
 {{step1-to-boards}}
 
-  The following metrics are displayed on the dashboard for the workstream's current iteration: total number of points assigned to the iteration, the number of points completed, and the remaining points not yet completed in the iteration.
+   The following metrics are displayed on the dashboard for the workstream's current iteration: total number of points assigned to the iteration, the number of points completed, and the remaining points not yet completed in the iteration.
 
-  To review metrics for other iterations, you must open the iteration board.
+   To review metrics for other iterations, you must open the iteration board.
