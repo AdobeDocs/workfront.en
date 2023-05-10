@@ -2,18 +2,18 @@
 product-area: workfront-integrations;setup
 navigation-topic: adobe-workfront-for-creative-cloud
 title: Install and open [!DNL Adobe Workfront for design and video]
-description: You can install Workfront for Creative Cloud plugin from the Adobe Marketplace.
+description: You can install [!DNL Adobe Workfront for design and video] from the Adobe Marketplace.
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: f4fbae93-b54b-4d08-82c3-72a9a760c317
 ---
 # Install and open [!DNL Adobe Workfront for design and video]
 
-You can install the [!DNL Adobe Workfront for design and video] plugin from the [!DNL Adobe Marketplace]. This plugin supports the following Creative Cloud applications: 
+You can install [!DNL Adobe Workfront for design and video] from the [!DNL Adobe Marketplace]. This plugin supports the following Creative Cloud applications: 
 
 {{cc-plugin-app-list}} 
 
-The plugin supports the following languages:
+[!DNL Adobe Workfront for design and video] supports the following languages:
 
 * English
 * French
@@ -58,27 +58,27 @@ You must have the following access to perform the steps in this article:
 
 ## Prerequisites
 
-* You must install the [!DNL Creative Cloud] app you wish to use before installing the plugin. 
+* You must install the [!DNL Creative Cloud] app you wish to use before installing the Workfront plugin for that app. 
 
-## Install the [!DNL Adobe Workfront for design and video] plugin for you organization
+## Install [!DNL Workfront for design and video] for your organization
 
-If you are an [!DNL Adobe Admin Console] administrator, you can include the plugin in [!DNL Creative Cloud] deployment packages. For more information, see [Including plugins in your package](https://helpx.adobe.com/in/enterprise/using/manage-extensions.html).
+If you are an [!DNL Adobe Admin Console] administrator, you can include [!DNL Adobe Workfront for design and video] in [!DNL Creative Cloud] deployment packages. For more information, see [Including plugins in your package](https://helpx.adobe.com/in/enterprise/using/manage-extensions.html).
 
 [View a video tutorial here](https://www.youtube.com/watch?v=zzvXNLIBzrc){target=_blank}.
 
-## Install the [!DNL Adobe Workfront for design and video] plugin individually
+## Install [!DNL Workfront for design and video] individually
 
-You can install the [!DNL Adobe Workfront for design and video] plugin for yourself from the [!DNL Adobe Exchange].
+You can install [!DNL Adobe Workfront for design and video] for yourself from the [!DNL Adobe Exchange].
 
 1. Go to the [Adobe Workfront for Design and Video install page](https://adobe.com/go/cc_plugins_discover_plugin?pluginId=108938&workflow=share) on the Adobe Exchange.
 1. In the dialog that appears, click **Open [!DNL Adobe Creative Cloud] desktop app**.
 1. Once [!DNL Adobe Creative Cloud] plugin manager opens, click **[!UICONTROL Install]**.
 1. Read the information in the dialog box, then click **[!UICONTROL OK]**.
-1. Once the plugin in installed, open the [!DNL Creative Cloud] app you need and locate the Workfront plugin in the plugin panel.
+1. Once [!DNL Workfront for design and video] in installed, open the [!DNL Creative Cloud] app you need and locate the [!DNL Workfront] plugin in the plugin panel.
 
-1. Continue to the following section for information on how to open the plugin.
+1. Continue to the following section for information on how to open [!DNL Workfront for design and video].
 
-## Open the [!DNL Adobe Workfront for design and video] plugin
+## Open [!DNL Adobe Workfront for design and video]
 
 1. Open the Creative Cloud plugin you wish to use.
 
@@ -95,9 +95,9 @@ You can install the [!DNL Adobe Workfront for design and video] plugin for yours
 
    >[!TIP]
    >
-   >If you don't see the plugin after opening it from the Extensions menu, it could be behind the Creative Cloud app. Try minimizing the app to find the plugin. 
+   >If you don't see [!DNL Adobe Workfront for design and video] after opening it from the Extensions menu, it could be behind the Creative Cloud app. Try minimizing the app to find the plugin. 
 
-1. Continue to the following section for information on how to log in to the plugin.
+1. Continue to the following section for information on how to log in to [!DNL Adobe Workfront for design and video].
 
 
 ## Log In to [!DNL Adobe Workfront for design and video]

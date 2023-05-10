@@ -46,7 +46,7 @@ You must have the following access to perform the steps in this article:
 
 ## Prerequisites
 
-* You must install the [!DNL Adobe Workfront for design and video] plugin before you can upload proofs from [!DNL Illustrator].
+* You must install [!DNL Adobe Workfront for design and video] before you can upload proofs from [!DNL Illustrator].
 
   For instructions, see [Install [!DNL Adobe Workfront for design and video]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-install-cc.md).
 

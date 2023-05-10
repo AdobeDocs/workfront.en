@@ -37,7 +37,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>Edit access to [!UICONTROL Documents]</p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+   <td> <p>Edit access to [!UICONTROL Documents]</p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -46,7 +46,7 @@ You must have the following access to perform the steps in this article:
 
 ## Prerequisites
 
-* You must install the [!DNL Adobe Workfront for Photoshop] plugin before you can upload proofs from [!DNL Adobe Photoshop].
+* You must install [!DNL Adobe Workfront for Photoshop] before you can upload proofs from [!DNL Adobe Photoshop].
 
   For instructions, see [Install [!DNL Adobe Workfront for Photoshop]](../../workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-ps.md).
 
@@ -58,7 +58,7 @@ You must have the following access to perform the steps in this article:
 
 1. Go to the work item where you want to upload a proof.
 1. Click the **[!UICONTROL Document]** icon ![](assets/documents.png) in the navigation bar. 
-1. Click **[!UICONTROL New File]** near the bottom of the plugin.
+1. Click **[!UICONTROL New File]** near the bottom of the [!DNL Workfront] panel.
 1. Enable the **[!UICONTROL Create a proof]** toggle.
 1. (Optional) Type a name for the proof in the **[!UICONTROL Proof Name]** text box.
 1. In the **[!UICONTROL Proof Approvals]** section, select **[!UICONTROL Basic]**.
@@ -73,7 +73,7 @@ You must have the following access to perform the steps in this article:
 1. Click **[!UICONTROL Upload]**, then configure any desired export options based on the asset type chosen above. 
 
    ![](assets/plugin-files-350x307.png)   
-   The document appears in the [!UICONTROL Documents] area in the plugin and the desktop app.
+   The document appears in the [!UICONTROL Documents] area in the [!DNL Workfront] panel in [!DNL Photoshop] and in the [!DNL Workfront] desktop app.
 
 
 ## Upload an Automated Proof
@@ -85,7 +85,7 @@ You must have the following access to perform the steps in this article:
 1. Go to the work item where you want to upload a proof.
 1. Click the **[!UICONTROL Document]** icon ![](assets/documents.png) in the navigation bar. 
 
-1. Click **[!UICONTROL New File]** near the bottom of the plugin.
+1. Click **[!UICONTROL New File]** near the bottom of the [!DNL Workfront] panel.
 1. Enable the **[!UICONTROL Create a proof]** toggle.
 1. (Optional) Type a name for the proof in the **[!UICONTROL Proof Name]** text box.
 1. In the **[!UICONTROL Proof Approvals]** section, select **[!UICONTROL Automated]**.
@@ -105,7 +105,7 @@ You must have the following access to perform the steps in this article:
 1. Choose the **[!UICONTROL Asset Type]** from the drop-down menu.
 1. (Optional) Select **[!UICONTROL Add outside file]** to add a file from your computer.
 1. Click **[!UICONTROL Upload]**, then configure any desired export options based on the asset type chosen above. 
-   The document appears in the [!UICONTROL Documents] area in the plugin and the desktop app.
+   The document appears in the [!UICONTROL Documents] area in the [!DNL Workfront] panel in [!DNL Photoshop] and in the [!DNL Workfront] desktop app.
 
 ## Upload a new proof version
 
@@ -118,7 +118,7 @@ You can upload a new version of a proof. The plugin remembers the proofing workf
 1. Go to the work item you need to upload a document to.
 1. Click the **[!UICONTROL Document]** icon ![](assets/documents.png)in the navigation bar. 
 
-1. Click **[!UICONTROL New Version]** near the bottom of the plugin.
+1. Click **[!UICONTROL New Version]** near the bottom of the [!DNL Workfront] panel.
 1. Enable the **[!UICONTROL Create a proof]** toggle.
 
 1. In the *[!UICONTROL *Proof approvals]** section, choose **[!UICONTROL Basic]** or **[!UICONTROL Automated]**.
@@ -128,4 +128,4 @@ You can upload a new version of a proof. The plugin remembers the proofing workf
 1. (Optional) Type a comment in the **[!UICONTROL Updates]** area.
 1. Choose the **[!UICONTROL Asset Type]** from the drop-down menu.
 1. Click **[!UICONTROL Upload]**, then configure any desired export options based on the asset type chosen above. 
-   The document appears in the [!UICONTROL Documents] area in the plugin and the desktop app.
+   The document appears in the [!UICONTROL Documents] area in the [!DNL Workfront] panel in [!DNL Photoshop] and in the [!DNL Workfront] desktop app.
