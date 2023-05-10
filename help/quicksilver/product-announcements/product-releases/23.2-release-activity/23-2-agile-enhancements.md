@@ -4,12 +4,19 @@ description: 23.2 Agile enhancements
 author: Courtney
 draft: Probably
 feature: Product Announcements
+exl-id: dc97f4a2-9c51-4ccd-8121-c00fd1ac6988
 ---
 # 23.2 Agile enhancements
 
 This page describes all agile enhancements made with the 23.2 release to the Preview environment. These enhancements will be made available in the Production environment with the 23.2 release. 
 
 For a list of all changes available at this point in the 23.2 release cycle, see [23.2 Release overview](/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md).
+
+## Add tasks and issues from object details to a Workfront board or workstream
+
+You can now add existing tasks or issues to a Workfront board or workstream card list directly from the object details. Any items you add to a board will become connected cards, and any items added to a workstream are added to the card list as unplanned cards.
+
+For more information, see [Add existing tasks or issues to a board](/help/quicksilver/agile/get-started-with-boards/add-card-from-list-to-board.md).
 
 ## Iteration functionality available in Adobe Workfront Boards
 
@@ -21,7 +28,9 @@ Several new features available in Workfront Boards make it possible to use agile
 
 Note that collections have been renamed to workstreams. Workstreams help you visualize data in different ways. You can display items on cards in a list, on a board, or on an iteration. Cards in a workstream can also be shared among multiple boards. You can easily facilitate workflows using cards and boards in a workstream.
 
-For more information, see [Manage workstreams](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md), [Create an iteration](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration.md), and [Use the card list](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md).
+For more information, see [Manage workstreams](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md), [Create an iteration in a workstream](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md), and [Use the card list](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md). Second two articles will not be available in Main until I publish my branch.
+
+[View a video demonstration of this feature](https://video.tv.adobe.com/v/3417059/){target=_blank} 
 
 ## Add tasks and issues from lists and reports to a workstream card list
 

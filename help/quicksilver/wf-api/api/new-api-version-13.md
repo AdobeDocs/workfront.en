@@ -450,7 +450,7 @@ A&nbsp;Timesheet object represents a virtual timecard that allows Users to enter
 
 ### UITemplate {#uitemplate}
 
-Adobe Workfront administrators or group administrators can create templates to customize the layout elements in Adobe Workfront. The LayoutTemplate object is specific to the new Adobe Workfront experience.
+Adobe Workfront administrators or group administrators can create templates to customize the layout elements in Adobe Workfront. The UITemplate object is specific to the new Adobe Workfront experience.
 
 For the object that represents layout templates in Adobe Workfront Classic, see [LayoutTemplate](#layouttemplate).
 

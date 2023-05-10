@@ -1,5 +1,5 @@
 ---
-title: Hidden file
+title: Enhanced Authentication overview
 description: Hidden from search and from left nav
 hidefromtoc: yes
 hide: yes

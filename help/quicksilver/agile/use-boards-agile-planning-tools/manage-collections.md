@@ -6,18 +6,13 @@ title: Manage workstreams
 description: A workstream is a configurable group of boards  and cards for collaborating on work.
 author: Lisa
 feature: Agile
+exl-id: c46c42e8-e14d-414d-b883-c4d885338e42
 ---
 # Manage workstreams
 
-{{highlighted-preview}}
+A workstream is a configurable group of boards and cards for collaborating on work. Workstreams can include different types of boards created from templates and a card list of work items. In a workstream, you can track work in iterations or sprints.
 
->[!NOTE]
->
->Workstreams are available in the Preview environment, and in Production through the early feature opt-in for [!UICONTROL [!DNL Workfront] Boards]. For details, see [Early feature opt-in for Adobe Workfront Boards](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md).
-
-A workstream is a configurable group of boards and cards for collaborating on work. Workstreams can include different types of boards created from templates, <span class="preview">and a card list of work items. In a workstream, you can track work in iterations or sprints.</span>
-
-<span class="preview">For more information, see [Use the card list](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md) and [Create an iteration](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration.md).</span>
+For more information, see [Use the card list](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md) and [Create an iteration in a workstream](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md).
 
 Workstreams appear on the dashboard along with individual boards you have access to that are not part of a workstream. For information about the boards dashboard, see [Use the boards dashboard](/help/quicksilver/agile/get-started-with-boards/use-boards-page.md). You can click any board name on the dashboard to open it.
 
@@ -62,7 +57,7 @@ You must have the following access to perform the steps in this article:
 | Basic board | Three default columns are provided on the board. You can add new columns and rename or delete the default columns. <p>No column policies are applied. |
 | Kanban board | The following columns are provided on the board: Backlog, New, In Progress, Complete, and On Hold. You can add new columns and rename or delete the default columns.<p>To use the backlog, you must set up filters for the intake column. For information, see [Add an intake column to a board](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md). <p>To review the default policies for each column, click the [!UICONTROL **More** menu] on a column and select [!UICONTROL **Edit**]. You can change any of these pre-set policies. For information, see [Manage board columns](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md). |
 | Retrospective board | The following columns are provided on the board: What went well? What could be improved? Who should we celebrate? What can we do to move faster? You can add new columns and rename or delete the default columns. <p>No column policies are applied. |
-| <span class="preview">Iteration process</span> | <span class="preview">This is the board used to define and run an iteration. <p>The following columns are provided on the board: Backlog, New, In Progress, Complete, and On Hold. You cannot add any columns to the board. <p>To review the default policies for each column, click the [!UICONTROL **More**] menu on a column and select [!UICONTROL **Edit**]. You can change any of these pre-set policies. For information, see [Manage board columns](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md).</span> |
+| Iteration process | This is the board used to define and run an iteration. <p>The following columns are provided on the board: Backlog, New, In Progress, Complete, and On Hold. You cannot add any columns to the board. <p>To review the default policies for each column, click the [!UICONTROL **More**] menu on a column and select [!UICONTROL **Edit**]. You can change any of these pre-set policies. For information, see [Manage board columns](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md). |
 
 For more information on setting up the board, see [Create or edit a board](/help/quicksilver/agile/get-started-with-boards/create-edit-board.md).
 
@@ -93,8 +88,6 @@ People and teams must be added to the workstream as members before they can view
    
    This is the same process as adding members to a board. For more information, see [Add or remove members from a board](/help/quicksilver/agile/get-started-with-boards/add-members-to-board.md).
 
-<div class="preview">
-
 ## Configure a workstream
 
 {{step1-to-boards}}
@@ -105,11 +98,9 @@ People and teams must be added to the workstream as members before they can view
 
    The total number of cards, number of cards pointed, and number of iterations are displayed in the Card List section. Click [!UICONTROL **View list**] to open the list and add cards. For more information, see [Use the card list](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md).
 
-   If an iteration has been defined, its start date, number of cards, and number of points are displayed. Click [!UICONTROL **View iteration board**] to open the board. For more information, see [Create an iteration](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration.md).
+   If an iteration has been defined, its start date, number of cards, and number of points are displayed. Click [!UICONTROL **View iteration board**] to open the board. For more information, see [Create an iteration in a workstream](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md).
 
 1. Click [!UICONTROL **Add source**] to define a source to import cards into the workstream. At this time, the only available source is [!DNL Adobe Workfront].
 1. Add filters to import tasks and issues from Workfront as cards.
 
    Adding filters for workstream sources is the same as adding filters for an intake column on a basic board or Kanban board. For more information, see [Add an intake column to a board](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md).
-
-</div>

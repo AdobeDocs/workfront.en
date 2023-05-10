@@ -4,7 +4,7 @@ product-area: reporting
 navigation-topic: reports
 title: Reporting elements overview
 description: All Adobe Workfront reports and lists are a combination of three essential elements - views, filters, and groupings.
-author: Lisa
+author: Nolan
 feature: Reports and Dashboards
 exl-id: 5b5385ac-3b75-4500-bf4d-ec6ad4bf727a
 ---

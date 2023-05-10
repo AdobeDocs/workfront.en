@@ -4,13 +4,28 @@ description: Look and feel updates during the 23.2 release time frame
 author: Courtney
 draft: Probably
 feature: Product Announcements
+exl-id: 2120636a-9464-4121-b8ba-f9d0af022b37
 ---
-
 # Look and feel updates during the 23.2 release time frame
 
 This page describes minor updates to the look and feel of various areas of the Adobe Workfront application that were made within the 23.2 release timeframe. These enhancements will be made available in the Production environment a minimum of 2 weeks after releasing to Preview.
 
 For a list of all changes available with the 23.2 release, see [23.2 Release overview](/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md).
+
+## Updates to the look and feel of the Drafts list in the Requests area
+
+>[!NOTE]
+>
+>Preview release: April 4, 2023; Planned Production release: April 20, 2023
+
+We have updated the Drafts list in the Requests area to make it consistent with more recent lists in Workfront.
+Some of the updates include the following:
+
+* Replaced the "Filter by request type" filter with the standard quick filter
+* Removed the image from the Drafts list when the list doesn't contain any requests
+* Added pagination and column sorting to the list. 
+
+For more information, see [Create requests from drafts](/help/quicksilver/manage-work/requests/create-requests/delete-request-draft.md).
 
 ## Smart user selection available in additional areas of Workfront
 

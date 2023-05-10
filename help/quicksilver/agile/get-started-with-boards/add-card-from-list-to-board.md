@@ -1,16 +1,15 @@
 ---
 product-area: agile-and-teams
 navigation-topic: get-started-with-boards
-title: Add existing tasks or issues to an Adobe Workfront board
+title: Add existing tasks or issues to an Adobe Workfront board or workstream
 description: You can add any task or issue to a board in Adobe Workfront from a list or report view.
 author: Lisa
 feature: Agile
+exl-id: 5e6fd681-8068-4091-9f42-0364b17e0465
 ---
 # Add existing tasks or issues to an [!DNL Adobe Workfront] board or workstream
 
-{{highlighted-preview-article-level}}
-
-You can add any task or issue to a board or a workstream in [!DNL Adobe Workfront] from a list or report view.
+You can add any task or issue to a board or a workstream in [!DNL Adobe Workfront] from a list or report view, or from the object details.
 
 ## Access requirements
 
@@ -37,36 +36,45 @@ You must have the following access to perform the steps in this article:
 
 &#42;To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
 
-## Add existing tasks or issues to a board
+## Add existing tasks or issues to a board or a workstream from a list
 
 1. Click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe Workfront].
 1. Choose one of the following: **[!UICONTROL Projects]**, **[!UICONTROL Reporting]**, or **[!UICONTROL Dashboards]**.
-1. Go to the project, report, or dashboard that contains the task or issue you want to add to the board.
+1. Go to the project, report, or dashboard that contains the task or issue you want to add to the board or workstream.
 1. Select one or more tasks or issues.
-1. Click [!UICONTROL **More**] > [!UICONTROL **Add to Boards**].
-1. In the [!UICONTROL Add To] dialog box, select the board to add the items to.
+1. Click [!UICONTROL **More**] > [!UICONTROL **Add to Boards**] or [!UICONTROL **Add to Workstreams**].
+1. In the [!UICONTROL Add To] dialog box, select the board or workstream to add the items to.
 
-   Only standalone boards are available with this option, not boards that are part of workstreams.
+   For a board, only standalone boards are available, not boards that are part of workstreams.
 
 1. Click [!UICONTROL **Add**].
    
-   The task or issue is added to the board. If the board has column policies applied for status, the card is added in the column corresponding to its status. Otherwise, it appears in the first column on the left, not including the intake column.
+   For a board: The task or issue is added to the board. If the board has column policies applied for status, the card is added in the column corresponding to its status. Otherwise, it appears in the first column on the left, not including the intake column.
 
    For information on column policies, see [Manage board columns](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md).
 
-## Add existing tasks or issues to a workstream
+   For a workstream: The task or issue is added to the workstream's card list as an unplanned card.
+
+## Add existing task or issues to a board or a workstream from the object details
 
 1. Click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe Workfront].
-1. Choose one of the following: **[!UICONTROL Projects]**, **[!UICONTROL Reporting]**, or **[!UICONTROL Dashboards]**.
-1. Go to the project, report, or dashboard that contains the task or issue you want to add to the workstream.
-1. Select one or more tasks or issues.
-1. Click [!UICONTROL **More**] > [!UICONTROL **Add to Workstream**].
-1. In the [!UICONTROL Add To] dialog box, select the workstream to add the items to.
+1. Click [!UICONTROL **Projects**], then click the name of a project to open it.
+1. Click [!UICONTROL **Tasks**] or [!UICONTROL **Issues**] in the left panel.
+1. Click the task or issue you want to add to a board or workstream.
+1. Click the **[!UICONTROL More]** menu next to the object name and select [!UICONTROL **Add to Boards**] or [!UICONTROL **Add to Workstreams**].
+1. In the [!UICONTROL Add To] dialog box, select the board or workstream to add the items to.
+
+   For a board, only standalone boards are available, not boards that are part of workstreams.
+
 1. Click [!UICONTROL **Add**].
+   
+   For a board: The task or issue is added to the board. If the board has column policies applied for status, the card is added in the column corresponding to its status. Otherwise, it appears in the first column on the left, not including the intake column.
 
-   The task or issue is added to the workstream's card list as an unplanned card.
+   For information on column policies, see [Manage board columns](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md).
 
-## Show the boards associated to a task or issue
+   For a workstream: The task or issue is added to the workstream's card list as an unplanned card.
+
+## Show the boards associated to a task or issue from a list
 
 1. Go to the project, report, or dashboard that contains the task or issue you want to see boards information for.
 1. Select a view that includes the Boards column, or create a new view with the Boards column.

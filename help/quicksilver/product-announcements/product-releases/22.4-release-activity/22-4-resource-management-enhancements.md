@@ -50,4 +50,3 @@ For more information, see the following articles:
 
 * [Manage user allocations in the Workload Balancer](/help/quicksilver/resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md). 
 
-For more information about the deprecation of Scheduling, see [Deprecation of Resource Scheduling tools in Adobe Workfront](/help/quicksilver/resource-mgmt/resource-mgmt-overview/deprecate-resource-scheduling.md).

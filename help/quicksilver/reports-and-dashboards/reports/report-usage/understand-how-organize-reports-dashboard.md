@@ -56,10 +56,13 @@ You must have the following access to perform the steps in this article:
 
 ## Display dashboard information in the View of a report list
 
+>[!WARNING]
+>
+>Including the Dashboards column in a report list can significantly increase load times, especially for long report lists.
+
 To build a view with dashboard information for a report list:
 
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Workfront, then click **Reports**.  
-
 1. On the list of reports, click the **View** drop-down menu.
 1. Click **New View**.
 1. Click **Add Column**.

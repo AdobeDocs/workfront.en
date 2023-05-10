@@ -5,6 +5,7 @@ title: Prepare for an [!DNL Adobe Workfront] quarterly release
 description: Follow these tips to smoothly update your organization for each new Workfront release.
 author: Becky
 feature: Product Announcements
+exl-id: 411ad0b1-efb2-40e9-a04c-d06840b9cdce
 ---
 # Prepare for an [!DNL Adobe Workfront] quarterly release
 
