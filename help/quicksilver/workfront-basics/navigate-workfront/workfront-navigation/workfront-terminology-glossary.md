@@ -259,7 +259,7 @@ The following table is a list of commonly used terms in Adobe Workfront:
 
   <tr> 
    <td>[!UICONTROL Branding]</td> 
-   <td>The process of customizing [!DNL Workfront] to give the interface an appearance that mirrors your company by using your colors and logos.</td> 
+   <td><p>The process of customizing [!DNL Workfront] to give the interface an appearance that mirrors your company by using your colors and logos.</p><p><strong>NOTE</strong><br>If your organization has been onboarded to [!DNL Adobe Experience Cloud], branding is not available.</p></td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Breadcrumbs]</td> 

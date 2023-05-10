@@ -3,7 +3,7 @@ content-type: overview
 title: Top navigation bar overview
 description: The top navigation bar—which appears at the top of your screen in the new [!DNL Adobe Workfront] experience—allows you to easily find and navigate to other areas of the platform.
 feature: Get Started with Workfront
-author: Lisa
+author: Nolan
 exl-id: 6262d0ff-4be0-41ac-b2e7-5eaa6b2795dc
 ---
 # Top navigation bar overview
@@ -15,8 +15,6 @@ The top navigation bar—which appears at the top of your screen in [!DNL Adobe 
 ## [!UICONTROL Home] icon
 
 The **[!UICONTROL Home]** icon ![](assets/home-icon.png) takes you to the [!UICONTROL Home] page, which is the default landing page. To learn more about Home, see [Use the [!UICONTROL Home] area](../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md).
-
-An [!DNL Adobe Workfront] administrator can customize the [!UICONTROL Home] icon to match your company's brand. For more information, see [Brand your [!DNL Adobe Workfront] instance](../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md).
 
 ## Pinned pages
 
@@ -53,6 +51,12 @@ The **[!UICONTROL Search]** icon ![](assets/search-icon.png) in the top-right co
 To learn more about search, see [Search [!DNL Adobe Workfront]](../../workfront-basics/navigate-workfront/search/search-workfront.md).
 
 ## [!UICONTROL Main Menu]
+
+>[!IMPORTANT]
+>
+>The Main Menu described on this page applies only to organizations that are not yet onboarded to [!DNL Adobe Experience Cloud].
+>
+> If your organization has been onboarded to [!DNL Adobe Experience Cloud], see [[!DNL Adobe Unified Experience] for [!DNL Workfront]](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
 
 The **[!UICONTROL Main Menu]** icon ![Main Menu](assets/main-menu-icon.png) opens the [!UICONTROL Main Menu], which allows you to navigate to a different area of Workfront.
 
