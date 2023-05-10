@@ -341,7 +341,7 @@ In lieu of a release webinar, we invite you to register for Adobe Summit to watc
                                 <p>Preview release: March 9, 2023<br /></p>
                             </li>
                             <li>
-                                 <p><span class="preview">Production release: Starting March 23, this will release to production in a phased rollout that will complete on May 11, 2023</span></p>
+                                 <p><span class="preview">Production release: Starting March 23, this will release to production in a phased rollout that will complete after May 11, 2023</span></p>
                             </li>
                         </ul>
                     </td>
