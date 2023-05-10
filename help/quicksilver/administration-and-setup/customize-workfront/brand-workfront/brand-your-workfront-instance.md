@@ -15,6 +15,12 @@ exl-id: 94603393-bdea-4673-9256-08da14f6916e
 **DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **
 -->
 
+>[!IMPORTANT]
+>
+>The procedure described on this page applies only to organizations that are not yet onboarded to [!DNL Adobe Experience Cloud].
+>
+> If your organization has been onboarded to [!DNL Adobe Experience Cloud], branding is not available.
+
 As a Workfront administrator, you can brand Workfront with logos in the following places:
 
 * Login screen
