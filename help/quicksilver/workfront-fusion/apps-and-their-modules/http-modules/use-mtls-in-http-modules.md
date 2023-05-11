@@ -86,8 +86,8 @@ You can use the following links to download the Workfront Fusion public certific
 >   * Bookmark this page to easily find the new certificates.
 >
 >* These are non-wildcard mTLS certificates.
->
-* [Download [!DNL Workfront Fusion] Certificate 2023](/help/quicksilver/workfront-fusion/apps-and-their-modules/http-modules/assets/fusion-prod-us-mtls-certificate.pem)
+
+* [Download [!DNL Workfront Fusion] Certificate 2023](/help/quicksilver/workfront-fusion/apps-and-their-modules/http-modules/assets/fusion-prod-eu-mtls-certificate.pem)
 * [Download [!DNL Workfront Fusion] EU Certificate 2023](/help/quicksilver/workfront-fusion/apps-and-their-modules/http-modules/assets/fusion-prod-eu-mtls-certificate.pem)
 
    For use in the EU 
