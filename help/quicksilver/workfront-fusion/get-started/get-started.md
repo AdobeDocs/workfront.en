@@ -24,3 +24,4 @@ This section contains the following articles:
 * [[!DNL Adobe Workfront Fusion] performance guardrails](../../workfront-fusion/get-started/fusion-performance-guardrails.md)
 * [IP Addresses for accessing [!DNL Adobe Workfront Fusion]](../../workfront-fusion/get-started/ip-addresses-for-fusion.md)
 * [[!DNL Adobe Workfront Fusion] licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
+* [Operations in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/get-started/operations-in-workfront-fusion.md)
