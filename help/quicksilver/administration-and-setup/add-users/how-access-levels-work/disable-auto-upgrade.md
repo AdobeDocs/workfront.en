@@ -48,11 +48,10 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-
 ## Disable auto-upgrades for non-paid users
 
 {{step-1-to-setup}}
 
 1.  Scroll down to [!UICONTROL **Preferences**].
-1. In the [!UICONTROL **General Preferences**] section, check the D[!UICONTROL **isable auto-upgrade within Access Levels**] box.
+1. In the [!UICONTROL **General Preferences**] section, check the [!UICONTROL **Disable auto-upgrade within Access Levels**] box.
 1. Click [!UICONTROL **Save**].
