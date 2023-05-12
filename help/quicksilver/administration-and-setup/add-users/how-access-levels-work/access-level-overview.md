@@ -20,7 +20,7 @@ As an Adobe Workfront administrator, you assign an access level to a user for 2 
 
 ## New built-in access levels in Adobe Workfront {#built-in-access}
 
-Workfront has 6 new built-in access levels:
+Workfront has 5 new built-in access levels:
 
 * System Administrator
 * Standard
