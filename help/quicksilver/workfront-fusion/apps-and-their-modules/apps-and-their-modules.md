@@ -25,12 +25,14 @@ exl-id: 7075a649-ab0c-4dfc-b726-c5702c90b457
 
 This section contains the following articles:
 
+
 * [[!DNL Adobe Workfront] modules](../../workfront-fusion/apps-and-their-modules/workfront-modules.md) 
 * [[!DNL Workfront Proof] modules](../../workfront-fusion/apps-and-their-modules/workfront-proof-modules.md) 
 * [[!DNL Adobe Acrobat Sign] modules](../../workfront-fusion/apps-and-their-modules/adobe-sign-modules.md)
 * [[!DNL Adobe Campaign Classic] modules](../../workfront-fusion/apps-and-their-modules/adobe-campaign-classic-connector.md) 
 * [[!DNL Adobe Creative Cloud Libraries] modules](../../workfront-fusion/apps-and-their-modules/creative-cloud-libraries-modules.md) 
 * [[!DNL Adobe Experience Manager Assets] modules](../../workfront-fusion/apps-and-their-modules/aem-assets-modules.md)
+* [Adobe I/O Events module](../../workfront-fusion/apps-and-their-modules/adobe-io-events-modules.md) 
 * [[!DNL Adobe Journey Optimizer] modules](../../workfront-fusion/apps-and-their-modules/adobe-journey-optimizer-modules.md) 
 * [[!DNL Adobe PDF Services] modules](../../workfront-fusion/apps-and-their-modules/pdf-modules.md) 
 * [[!DNL Adobe Target] modules](../../workfront-fusion/apps-and-their-modules/adobe-target-modules.md) 
