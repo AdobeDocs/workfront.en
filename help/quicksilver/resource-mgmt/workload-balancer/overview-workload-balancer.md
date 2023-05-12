@@ -3,7 +3,7 @@ content-type: overview
 product-area: resource-management
 navigation-topic: the-workload-balancer
 title: Overview of the Workload Balancer
-description: Overview of the Workload Balancer
+description: After project managers plan the work on projects and create tasks, you can use the Workload Balancer to assign this work to users in your teams.
 author: Alina
 feature: Resource Management
 exl-id: 9398bd04-9df7-4b77-8361-fdb5bdce6829
@@ -11,10 +11,10 @@ exl-id: 9398bd04-9df7-4b77-8361-fdb5bdce6829
 # Overview of the Workload Balancer
 
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this is linked from the UI for the Workload Balancer page. DO NOT CHANGE TITLE OR LINK) </p>
+<p>(NOTE: this is linked from the UI for the Workload Balancer page. DO NOT CHANGE TITLE OR LINK) </p>
 -->
 
-After project managers plan the work on projects and create tasks, you can use the Workload Balancer to assign this work to users in your teams.
+After project managers plan the work on projects and create tasks, you can use the Workload Balancer to assign this work to users.
 
 >[!IMPORTANT]
 >
@@ -22,28 +22,13 @@ After project managers plan the work on projects and create tasks, you can use t
 >
 >You must use the Resource Planner and not the Workload Balancer to estimate job role allocations for your projects, at a high level. For more information about the Resource Planner, see [Resource Planner overview](../../resource-mgmt/resource-planning/get-started-resource-planner.md).
 
-This article describes the general purpose for the&nbsp;Workload Balancer and some of the best practices for how you can set up your projects and resources to successfully use it.
+This article describes the general purpose for the Workload Balancer and some of the best practices for how you can set up your projects and resources to successfully use it.
 
->[!IMPORTANT]
->
->The Workload Balancer is a resource scheduling tool that is replacing the Scheduling areas which are currently deprecated. 
->
->For more information about removing the resource scheduling tools and replacing them with the Workload Balancer, see [Deprecation of Resource Scheduling tools in Adobe Workfront](../../resource-mgmt/resource-mgmt-overview/deprecate-resource-scheduling.md).
->
->We recommend that you use the Workload Balancer for scheduling your resources.
-
-## Resource scheduling areas and tools
+## Locate the Workload Balancer
 
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: This will be taken out when all we will have is one tool - should be replaced by a blurb that says you can add this tool anywhere, in any custom tab, etc (long term dev promise)) </p>
+<p>(NOTE: This will be taken out when all we will have is one tool - should be replaced by a blurb that says you can add this tool anywhere, in any custom tab, etc (long term dev promise)) </p>
 -->
-
->[!CAUTION]
->
->
->Although you may find the Scheduling areas in Workfront, we do not recommend that you use the Scheduling areas to schedule resources for work, as these areas are currently depreacated and will be removed from the system. We recommend that you use the Workload Balancer for resource scheduling. 
-
-For information about using the Workload Balancer, continue reading this article and all articles in this section. 
 
 We recommend using the Workload Balancer in the following areas for scheduling resources: 
 
@@ -55,12 +40,10 @@ For more information about locating the Workload Balancer, see [Locate the Workl
 
 ## Benefits of the Workload Balancer
 
-At the system level, you can access the Workload Balancer in addition to the existing resource scheduling tools. For information about accessing the Workload Balancer, see [Navigate the Workload Balancer](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
-
 Consider the following benefits when using the Workload Balancer:
 
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Add about the what-if scenarios as a benefit when they become available) </p>
+<p> Add about the what-if scenarios as a benefit when they become available </p>
 -->
 
 * Access a clear visual mapping of resource overallocation and underutilization which is transparent to all stakeholders. 
@@ -73,10 +56,13 @@ Consider the following benefits when using the Workload Balancer:
 
 * Executives can make timely staffing decisions through transparency into how people in their organization are utilized. 
 * Team members benefit from better collaboration, as they can all view what their coworkers are working on at any given time. For information about the access needed to view or manage resources in the Workload Balancer, see [Access needed to manage resources in the Workload Balancer](../../resource-mgmt/workload-balancer/access-needed-manage-resources-balancer.md).
-* Share it with anyone that does not have access to the Resourcing area by embedding a link to it in a custom tab.&nbsp;For information, see [Share the Workload Balancer with a link](../../resource-mgmt/workload-balancer/share-link-for-workload-balancer.md)
+* Share it with anyone that does not have access to the Resourcing area by embedding a link to it in a custom tab. For information, see [Share the Workload Balancer with a link](../../resource-mgmt/workload-balancer/share-link-for-workload-balancer.md)
 * Visualize and manage people's workloads and demand in one view at the global, project, or team level, depending on your role. When managing projects, this includes not only resource allocation for the project, but also visualizing the allocation of resources from the Adobe Workfront Scenario Planner. People managers use the Workfront Scenario Planner to manage job skills across the organization. The Scenario Planner is only available in the new Adobe Workfront experience.
 
-  The Scenario Planner is available only in the new Adobe Workfront experience and requires an additional license. For information about the Workfront Scenario Planner, see [The Scenario Planner overview](../../scenario-planner/scenario-planner-overview.md).
+  >[!NOTE]
+  >
+  >  The Scenario Planner requires an additional license. For information about the Workfront Scenario Planner, see [The Scenario Planner overview](../../scenario-planner/scenario-planner-overview.md).
+
 
 ## Best practices for using the Workload Balancer
 
@@ -90,7 +76,7 @@ We recommend the following best practices for planning projects, configuring use
 
 We recommend that you use filters so you can display only the information that is pertinent to you for both unassigned and assigned work items.
 
-For information about creating and using filters in the Workload Balancer, see [Manage filters in the Workload Balancer](../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md).
+For information about creating and using filters in the Workload Balancer, see [Filter information in the Workload Balancer](../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md).
 
 ### Best practices for setting up users
 
@@ -132,9 +118,14 @@ Ensure the following task and issue setup exists before starting assigning work 
 
 * You can use the Workload Balancer to assign work and manage daily allocations for users in your organization.
 
-  This article walks you through how to navigate the Workload Balancer to perform these actions. 
+  This article walks you through how to navigate the Workload Balancer to perform these actions: [Navigate the Workload Balancer](../workload-balancer/navigate-the-workload-balancer.md). 
 
-* The Workload Balancer can be located in several different areas of Workfront.&nbsp;For information about where you can find the Workload Balancer, see [Locate the Workload Balancer](../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
+  The following articles walk you through how you assign work and manage user allocations:
+  
+  * [Overview of assigning work in the Workload Balancer](../workload-balancer/assign-work-in-workload-balancer.md).
+  * [Manage user allocations in the Workload Balancer](../workload-balancer/manage-user-allocations-workload-balancer.md). 
+
+* The Workload Balancer can be located in several different areas of Workfront. For information about where you can find the Workload Balancer, see [Locate the Workload Balancer](../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
 
 ## Access needed to use the Workload Balancer
 

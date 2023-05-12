@@ -12,7 +12,7 @@ As part of resource planning, you can budget the job roles necessary for complet
 
 >[!NOTE]
 >
->Budgeting resources is not the same as scheduling resources for a project. When you budget resources you estimate the roles that might be necessary to complete the work on a project. For actually scheduling or assigning users to the work on a project, see [Get started with Resource Scheduling](../../../resource-mgmt/resource-scheduling/get-started-resource-scheduling.md). For information about resource planning in Adobe Workfront, see [Get started with Resource Planning](../../../resource-mgmt/resource-planning/get-started-resource-planning.md).
+>Budgeting resources is not the same as scheduling resources for a project. When you budget resources you estimate the roles that might be necessary to complete the work on a project. For actually scheduling or assigning users to the work on a project, see [Manage user allocations in the Workload Balancer](../../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md)
 
 You must associate job roles with the project before you can budget the resources for it. The following are ways of allocating job roles to a project:
 

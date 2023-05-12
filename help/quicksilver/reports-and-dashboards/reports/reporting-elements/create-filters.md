@@ -3,7 +3,7 @@ product-area: reporting
 navigation-topic: reporting-elements
 title: Create or edit filters in Adobe Workfront
 description: You can limit the amount of information you display on the screen in a list of items with a filter. You can define certain criteria based on particular pieces of information about an object and only display the objects that meet those criteria.
-author: Lisa
+author: Nolan
 feature: Reports and Dashboards
 exl-id: 2e912e32-7924-418d-9d55-ce3c09f67d3e
 ---
@@ -68,16 +68,16 @@ You can create filters using the types of filter builders described in the table
 </tr>
 <tr>
 <td>Standard builder</td>
-<td>All objects </td>
-<td>Lists and reports</td>
-</tr>
-<tr>
-<td>Beta builder</td>
 <td>
 <ul>
 <li> <p>Projects</p> </li>
 <li> <p>Tasks </p> </li>
 <li> <p>Issues</p> </li>
+<li> <p>Portfolios</p> </li>
+<li> <p>Programs</p> </li>
+<li> <p>Users</p> </li>
+<li> <p>Templates</p> </li>
+<li> <p>Groups</p> </li>
 </ul>
 </td>
 <td>
@@ -87,148 +87,74 @@ You can create filters using the types of filter builders described in the table
 <ul>
 <li> <p>The Projects list in the Scenario Planner</p> <p>The Scenario Planner requires an additional license. For information about the Workfront Scenario Planner, see <a href="../../../scenario-planner/scenario-planner-overview.md">The Scenario Planner overview</a>. </p> </li>
 </ul>
-<p>NOTE: Beta builders for filters are not available in reports.
+<p>NOTE: Standard builders for filters are not available in reports.
 </td>
+</tr>
+<tr>
+<td>Legacy builder</td>
+<td>All objects </td>
+<td>Lists and reports</td>
 </tr>
 </tbody>
 </table>
 
 For information about Workfront objects, see [Understand objects in Adobe Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
-## Create or edit a filter in the standard builder {#create-filter-in-standard-builder}
-
-You can create filters in lists and reports in the following ways:
-
-* From scratch
-* Edit an existing filter and save it as a new filter
-
-Regardless of the method you use to create filters, creating a filter from scratch or from an existing filter is similar.
-
-1. Go to a list or a report that contains the filter that you want to customize.
-1. Click the **Filter** icon ![Filter icon](assets/filter-nwepng.png).
-
-   >[!TIP]
-   >
-   >The report creator must allow for filters to be edited in order to view the Filter drop-down list on a report. The Report Default filter is applied to a report by default. The Report Default filter can be customized only when you edit the report.
-
-   ![Filter drop-down](assets/filter-drop-down-expanded-nwe.png)
-
-1. Click **New Filter** at the top of the list of filters
-
-   Or
-
-   Hover over the filter you want to modify and click the **Edit** icon ![](assets/edit-icon.png). 
-   
-   The builder for customizing the filter launches.
-
-1. Do any of the following:
-
-   * Modify existing filter rules by clicking the existing rule and selecting a new option.
-   * Add a filter rule by clicking **Add another Filter Rule**, begin typing the name of the option for which you want to add a rule in the **Start typing field name** box, then click it when it appears in the drop-down list.
-
-     Fields associated with the object of your filter are listed in the **Start typing field name** box. 
-   
-   * Click **AND** or **OR** when adding a new filter rule.  
-     When adding filter rules, use the filter modifiers to establish the condition of your filter. For more information about filter modifiers, see [Filter and condition modifiers](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
-
-     >[!NOTE]
-     >
-     >When you connect a group of AND statements by multiple OR statements, you must repeat the fields that are not changing between the OR statements for each group of statements. 
-     >
-     >![Connected filter statements](assets/filters-and-statements-connected-by-or-statements-builder-ui-old-filters-2022.png)
-     >
-     >When you build a filter for tasks that contain the word "marketing" and are in projects with a status of Current or Planning, you must have the following filter rules:
-     >
-     >`Task: Name Contains Marketing`
-     >`AND`
-     >`Project: Status Equals Current`
-     >`OR`
-     >`Task: Name Contains Marketing`
-     >`AND`
-     >`Project: Status Equals Planning` 
-     >
-     >Although Task: Name Contains "marketing" does not change between the two AND filter groups, it must be repeated in the second group.
-
-   * Delete an existing filter rule by clicking the "X" icon.
-
-1. (Optional) Click **Switch to Text Mode** to add a filter using the Text Mode interface.
-
-   For more information about creating a filter using the text mode interface, see [Edit a filter using text mode](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md). 
-
-1. Click **Save Filter** to create a new filter or replace the selected one with your changes.
-   
-   Or
-   
-   Click **Save as New Filter** to create a new filter from the selected one. 
-   
-   The new filter displays in the list of filters and it is automatically applied to the list or report you selected.
-
-1. (Optional) Do one of the following:
-
-   * Share filters you create with other users, or make them available system-wide. For information, see [Share a filter, view, or grouping](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
-   * Remove filters you no longer want to display in the list. For information, see [Remove filters, views, and groupings](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/remove-filters-views-groupings.md).
-
-## Create or edit a filter in the beta builder
-
 Consider the following when creating filters using the different interfaces:
 
-* You can find the beta builder in the same places you find the standard filter interface for the areas listed in the table above.
-* You can switch back and forth between the standard and the beta builder interface, where the beta option is available.
-* After you have enabled the beta builder in one area, it is the default experience for all areas where it is available. For example, if you enable the beta builder in a project list, it is the default experience for building task and issue filters in lists as well.
-* You can create filters using the beta builder interface in project, task, and issue lists in the following ways:
+* You can find the standard builder in the same places you find the legacy filter interface for the areas listed in the table above.
+* The standard builder is the default experience for all areas where it is available. To switch to the legacy filter builder, click the **More** menu next to [!UICONTROL **Filters**] and select [!UICONTROL **Go back to Legacy Filters**].
+   
+  ![Go back to Legacy Filters](assets/use-legacy-filters.png)
 
-  * From scratch
-  * Edit an existing filter
-  * Duplicate an existing filter
-  * Duplicate an existing filter, edit it, and save it as a new filter
-
-* Saved filters are available in both builders, regardless of which experience you used to originally build them. For example, if you created a filter using the standard builder, you can find and modify it in the beta builder interface as well.
+* Saved filters are available in both builders, regardless of which experience you used to originally build them. For example, if you created a filter using the legacy builder, you can find and modify it in the standard builder interface as well.
 
   >[!TIP]
   >
-  >An "All" filter is not included with the beta builder because all list items are displayed when no filters are applied. Click **Clear all** on the top right of the builder to clear any active filters and display all items. If **Clear all** is dimmed, then no filters are applied.
+  >An "All" filter is not included with the standard builder because all list items are displayed when no filters are applied. Click [!UICONTROL **Clear all**] on the top right of the builder to clear any active filters and display all items. If [!UICONTROL **Clear all**] is dimmed, then no filters are applied.
 
-* The standard and beta builders have a slightly different syntax when building multiple-statement filters that combine the AND and OR operators. As a result, these filters may display differently when you switch from one builder to another.
+* The standard and legacy builders have a slightly different syntax when building multiple-statement filters that combine the AND and OR operators. As a result, these filters may display differently when you switch from one builder to another.
 
   >[!INFO]
   >
   >The following scenario exists:
   >
-  >1. Use the beta builder to create a filter that has the following syntax:
+  >1. Use the standard builder to create a filter that has the following syntax:
   >
   >   `(A OR B) AND C`
   >
-  >1. Switch back to the standard builder and edit the filter using the syntax of the standard builder as described in the [Create or edit a filter in the standard builder](#create-filter-in-standard-builder) section in this article. The syntax for the standard builder displays the filter statements as follows:
+  >1. Switch to the legacy builder and edit the filter using the syntax of the legacy builder as described in the [Create or edit a filter in the legacy builder](#create-filter-in-legacy-builder) section in this article. The syntax for the legacy builder displays the filter statements as follows:
   >
   >   `A AND C`
   >   `OR`
   >   `B AND C`
   >
-  >1. Make a change to the filter in the standard interface.
-  >1. Switch back to the beta builder. The filter statement displays according to the logic supported in the standard builder, as described above.
+  >1. Make a change to the filter in the legacy interface.
+  >1. Switch back to the standard builder. The filter statement displays according to the logic supported in the legacy builder, as described above.
   >
-  >   The filter displays in the beta builder interface as follows:
+  >   The filter displays in the standard builder interface as follows:
   >  
   >   `A AND C`
   >   `OR`
   >   `B AND C`
   > 
-  >   This happens because the filter was modified in the standard interface.
+  >   This happens because the filter was modified in the legacy interface.
 
-Create a filter using the beta builder interface:
+## Create or edit a filter in the standard builder
 
-1. Go to a project, task, or issue list where you want to create a filter or that contains the filter you want to customize.
-1. Click the **Filter** icon ![Filter icon](assets/filter-nwepng.png), then enable the **Beta setting** ![Beta setting](assets/beta-toggle-white-on-existing-filters.png) to access the beta builder. It is disabled by default.
- 
-   Next, agree to the beta agreement if required. You only have to agree once, and the beta builder stays enabled.
+You can create filters using the standard builder interface in the following ways:
 
-   This opens the beta filter builder interface.
+* From scratch
+* Edit an existing filter
+* Duplicate an existing filter
+* Duplicate an existing filter, edit it, and save it as a new filter
 
-   >[!TIP]
-   >
-   >The header of the filter builder interface changes to blue when you enable the beta builder. After you enable the beta builder interface, Workfront keeps it enabled for all areas where it is available.
+Create a filter using the standard builder interface:
 
-   ![Beta filter builder](assets/new-filters-all-filter-types.png)
+1. Go to a list where you want to create a filter or that contains the filter you want to customize.
+1. Click the **Filter** icon ![Filter icon](assets/filter-nwepng.png) to open the builder interface.
+
+   ![Standard filter builder](assets/new-filters-all-filter-types.png)
 
 1. Review the following lists of filters:
 
@@ -299,7 +225,7 @@ Create a filter using the beta builder interface:
 
    >[!TIP]
    >
-   >As you build the filter, the results appear immediately in the list. If the filter panel covers the list, you can close it to see the display. The information you entered remains in the beta builder when you open the panel again.
+   >As you build the filter, the results appear immediately in the list. If the filter panel covers the list, you can close it to see the display. The information you entered remains in the builder when you open the panel again.
 
 1. Start typing the value of a field you want to filter by. For example, start typing the name of an issue, if you want to filter by `Issue:Name`. Select the value when it displays in the list.
 
@@ -322,7 +248,7 @@ Create a filter using the beta builder interface:
 
    >[!INFO]
    >
-   >When you filter for project that contain "marketing" in the name that are either not complete and are not On Hold, you can use the following multiple filter groups:
+   >When you filter for projects that contain "marketing" in the name that are either not complete and are not On Hold, you can use the following multiple filter groups:
    >`(Project: Name Contains Marketing AND Project: Percent Complete Does not equal 100)`
    >`OR`
    >`(Project: Name Contains Marketing AND Project: Status Does not equal On Hold)`
@@ -338,15 +264,15 @@ Create a filter using the beta builder interface:
 
    >[!TIP]
    >
-   >We recommend building as much of the filter as possible using the beta builder interface and only using text mode when you must make modifications to the filter that are only supported in text mode.
+   >We recommend building as much of the filter as possible using the standard builder interface and only using text mode when you must make modifications to the filter that are only supported in text mode.
 
    For more information about creating a filter using the text mode interface, see [Edit a filter using text mode](/help/quicksilver/reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md).
 
-1. Click **Exit text mode** to return to the beta builder interface.
+1. Click **Exit text mode** to return to the standard builder interface.
 
    >[!WARNING]
    >
-   >Some text mode statements are not supported in the beta builder or the standard interface. Exiting text mode when you have created these types of statements might generate a warning message.
+   >Some text mode statements are not supported in the standard builder or the legacy interface. Exiting text mode when you have created these types of statements might generate a warning message.
 
 1. (Optional) Click **Apply** to apply the filter to the list and see the results.
 
@@ -398,4 +324,78 @@ Create a filter using the beta builder interface:
    * Share the filter with others, or make it available system-wide. For more information, see [Share a filter, view, or grouping](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
 
    * Delete the filter if it is no longer valid or a duplicate. You can only delete filters that you own. You can remove filters that were shared with you. For information, see [Remove filters, views, and groupings](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/remove-filters-views-groupings.md).
+
+## Create or edit a filter in the legacy builder {#create-filter-in-legacy-builder}
+
+You can create legacy filters in lists and reports in the following ways:
+
+* From scratch
+* Edit an existing filter and save it as a new filter
+
+Regardless of the method you use to create filters, creating a filter from scratch or from an existing filter is similar.
+
+1. Go to a list or a report that contains the filter that you want to customize.
+1. Click the **Filter** icon ![Filter icon](assets/filter-nwepng.png).
+
+   >[!TIP]
+   >
+   >The report creator must allow for filters to be edited in order to view the Filter drop-down list on a report. The Report Default filter is applied to a report by default. The Report Default filter can be customized only when you edit the report.
+
+   ![Filter drop-down](assets/filter-drop-down-expanded-nwe.png)
+
+1. Click **New Filter** at the top of the list of filters.
+
+   Or
+
+   Hover over the filter you want to modify and click the **Edit** icon ![](assets/edit-icon.png). 
+   
+   The builder for customizing the filter launches.
+
+1. Do any of the following:
+
+   * Modify existing filter rules by clicking the existing rule and selecting a new option.
+   * Add a filter rule by clicking **Add another Filter Rule**, begin typing the name of the option for which you want to add a rule in the **Start typing field name** box, then click it when it appears in the drop-down list.
+
+     Fields associated with the object of your filter are listed in the **Start typing field name** box. 
+   
+   * Click **AND** or **OR** when adding a new filter rule.  
+     When adding filter rules, use the filter modifiers to establish the condition of your filter. For more information about filter modifiers, see [Filter and condition modifiers](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
+
+     >[!NOTE]
+     >
+     >When you connect a group of AND statements by multiple OR statements, you must repeat the fields that are not changing between the OR statements for each group of statements. 
+     >
+     >![Connected filter statements](assets/filters-and-statements-connected-by-or-statements-builder-ui-old-filters-2022.png)
+     >
+     >When you build a filter for tasks that contain the word "marketing" and are in projects with a status of Current or Planning, you must have the following filter rules:
+     >
+     >`Task: Name Contains Marketing`
+     >`AND`
+     >`Project: Status Equals Current`
+     >`OR`
+     >`Task: Name Contains Marketing`
+     >`AND`
+     >`Project: Status Equals Planning` 
+     >
+     >Although Task: Name Contains "marketing" does not change between the two AND filter groups, it must be repeated in the second group.
+
+   * Delete an existing filter rule by clicking the "X" icon.
+
+1. (Optional) Click **Switch to Text Mode** to add a filter using the Text Mode interface.
+
+   For more information about creating a filter using the text mode interface, see [Edit a filter using text mode](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md). 
+
+1. Click **Save Filter** to create a new filter or replace the selected one with your changes.
+   
+   Or
+   
+   Click **Save as New Filter** to create a new filter from the selected one. 
+   
+   The new filter displays in the list of filters and it is automatically applied to the list or report you selected.
+
+1. (Optional) Do one of the following:
+
+   * Share filters you create with other users, or make them available system-wide. For information, see [Share a filter, view, or grouping](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
+   * Remove filters you no longer want to display in the list. For information, see [Remove filters, views, and groupings](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/remove-filters-views-groupings.md).
+
 

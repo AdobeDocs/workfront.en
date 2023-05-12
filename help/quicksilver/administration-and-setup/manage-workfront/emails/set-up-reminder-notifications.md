@@ -1,7 +1,7 @@
 ---
 title: Set up reminder notifications
 description: Set up reminder notifications
-author: Lisa, Caroline
+author: Alina, Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 6c0fa8af-cd89-4941-a6f6-aa4e84a7dc67
@@ -87,7 +87,15 @@ For information about how to create an email template, see [Configure email temp
      </tr> 
      <tr> 
       <td role="rowheader">Timing</td> 
-      <td> <p>Select the event that triggers the reminder notification to be scheduled.</p> <p>If the reminder notification is intended for projects, tasks, or issues, the available options are related to the Completion Date or Start Date. The reminder notification takes into account the time stamp on the Completion and Start Dates of projects, tasks and issues.</p> <p>If the reminder notification is intended for Timesheets, the available options are related to the End Date, Start Date, or Last Update Date. The reminder notification for Timesheets takes into account the time stamp of the timesheet End, Start and Last Update Date. The Timesheet starts at midnight on the day of the Start Date (12:00 AM) and ends right before midnight on the End Date (11:59 PM).</p> </td> 
+      <td> <p>Select the event that triggers the reminder notification to be scheduled.</p> <p>If the reminder notification is intended for projects, tasks, or issues, the available options are related to the Completion Date or Start Date. The reminder notification takes into account the time stamp on the Completion and Start Dates of projects, tasks and issues.</p> 
+      
+      <p>If the reminder notification is intended for Timesheets, the available options are related to the End Date, Start Date, or Last Update Date. The reminder notification for Timesheets takes into account the time stamp of the timesheet End, Start and Last Update Date. The Timesheet starts at midnight on the day of the Start Date (12:00 AM) and ends right before midnight on the End Date (11:59 PM).</p> 
+      
+      <p><b>NOTE</b></p>
+      <p>Timesheet reminder notifications are only distributed once every 24 hours.</p> <p>When you set up multiple reminder notifications within a 24-hour period, Workfront sends out one notification email with all the reminders included in that notification.</p>
+      <p>For example, if you configure three reminder notifications to trigger 10 hours before, 2 hours before, and 1 hour before a due date, the three reminders would all be combined in the same notification if they occur during the same day.</p> <p>However, if you set a reminder notification for 26 hours before and another one for 1 hour before a due date, users would receive two separate notifications. </p> 
+        
+      </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Criteria</td> 

@@ -16,13 +16,11 @@ For a list of all changes available with the 21.4 release, see [21.4 Release ove
 
 To make finding request queues faster and easier when submitting requests, we have improved the search algorithm to now find queues that might contain any special characters.
 
-For example, you can find a request queue named “&#42;Workfront” by typing either “&#42;Workfront” or “Workfront” in the Request Type field.
+For example, you can find a request queue named "&#42;Workfront" by typing either "&#42;Workfront" or "Workfront" in the Request Type field.
 
 All special characters are supported.
 
 For information about submitting requests, see [Create and submit Adobe Workfront requests](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md).
-
-[Watch a video demonstration of this feature.](https://vimeo.com/601077860/d8c1f869c4)
 
 ## New look and feel for embedded request queues in the new Workfront experience
 
@@ -34,4 +32,3 @@ To keep the look and feel for submitting requests the same everywhere in the new
 
 For information, see [Embed a request queue in a dashboard](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-request-queue-dashboard.md).
 
-[Watch a video demonstration of this feature.](https://vimeo.com/592770628/30397bbb82)

@@ -16,15 +16,13 @@ This page describes all enhancements made in Adobe Workfront Fusion the week of 
 
 For a list of all recent changes, see [Adobe Workfront Fusion release activity](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
-For a list of recent bug fixes in Workfront Fusion, see the [Workfront Maintenance Updates](https://one.workfront.com/s/article/Workfront-Maintenance-Updates-1882317350) page and check for any updates labeled Workfront Fusion Maintenance Update.
+For a list of recent bug fixes in Workfront Fusion, see the [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) page and check for any updates labeled Workfront Fusion Maintenance Update.
 
 ## Copy modules in Workfront Fusion scenarios
 
 To make your Workfront Fusion Scenarios easier to work with, we've made it possible to copy and paste modules. Now, you can copy a module or group of modules and paste them into the same or a different scenario. Copying modules preserves the field values in that module.
 
 For more information, see [Copy modules or scenarios in Adobe Workfront Fusion](../../../workfront-fusion/scenarios/copy-modules-or-scenarios.md).
-
-[Watch a video demonstration of this feature.](https://vimeo.com/551492029/711caab03b)
 
 ## Select multiple modules in a Workfront Fusion scenario
 
@@ -41,8 +39,6 @@ For more information on editing scenarios, see [Create a scenario in Adobe Workf
 ## Modules now preserve unsaved information
 
 To make it easier to create scenarios, we've made it possible for modules to preserve field values when they are not in focus. Now, when you click away from a module without saving it, and then return to it, the fields show the previously entered values. When the module is closed, it displays an indicator that there are unsaved fields.
-
-[Watch a video demonstration of this feature.](https://vimeo.com/551494114/426ca80e2d)
 
 ## Azure AD connector now handles new and updated records separately
 

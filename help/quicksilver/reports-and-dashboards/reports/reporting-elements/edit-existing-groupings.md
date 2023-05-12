@@ -2,7 +2,6 @@
 title: Edit existing groupings
 description: Edit existing groupings
 author: Nolan
-draft: Probably
 feature: Reports and Dashboards
 exl-id: bd9e6794-3196-4a73-a86a-9ba6048e613b
 ---
@@ -49,14 +48,6 @@ You must create a grouping before you can edit it.
 
 For information on creating a grouping, see [Create groupings in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/create-groupings.md).
 
-## Walk-through
-
-View the following video to learn how to edit existing groupings.
-
-This video was recorded in Adobe Workfront Classic. However, the content also applies to the new Workfront experience.
-
-[ ![](assets/video-edit-grouping-350x198.png)](https://workfront-video.wistia.com/medias/0sey4fel5d)
-
 ## How-to steps
 
 1. Go to a list of objects that contains the grouping that you want to customize.
@@ -70,9 +61,9 @@ This video was recorded in Adobe Workfront Classic. However, the content also ap
 1. In the **Grouping Preview** section, click **Add Grouping** to define how you want information in the report to be organized. A preview of what the grouping looks like in the report is shown below.
 
 1. Begin typing the name of the field that represents the way that you want to organize information in the report, then click it when it appears in the drop-down list.
-1. (Optional and conditional) When viewing an updated list, select **Collapse this grouping by default** if you want the results in the grouping to display collapsed rather than expanded.&nbsp;This setting is disabled by default and the results of the grouping always display in the expanded list.
+1. (Optional and conditional) When viewing an updated list, select **Collapse this grouping by default** if you want the results in the grouping to display collapsed rather than expanded. This setting is disabled by default and the results of the grouping always display in the expanded list.
 
-   For information about updated and legacy lists, see the section "The difference between updated and legacy lists"&nbsp;in the article [Get started with lists in Adobe Workfront](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
+   For information about updated and legacy lists, see the section "The difference between updated and legacy lists" in the article [Get started with lists in Adobe Workfront](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
 
    <!--
    <p data-mc-conditions="QuicksilverOrClassic.Quicksilver,QuicksilverOrClassic.Draft mode">(NOTE: the tips repeat in the Create grouping article and Common uses of text mode)</p>
@@ -86,13 +77,4 @@ This video was recorded in Adobe Workfront Classic. However, the content also ap
 1. Repeat Steps 4, 5, and 6 to define additional groupings.  
    You can define up to three groupings for organizing information. You can further organize your information with up to four groupings by creating a matrix report. For more information on matrix reports, see [Create a matrix report](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md).
 
-1. Click **Save** **as New****Grouping** to replace the current grouping with your changes.
-
-## Additional information
-
-See also:
-
-* [Basic Report Creation Program for the new Workfront experience](https://one.workfront.com/s/basic-report-creation-program) 
-* [Reporting elements: filters, views, and groupings](../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md) 
-* [Groupings overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md) 
-* [Create groupings in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/create-groupings.md)
+1. Click **Save as New Grouping** to replace the current grouping with your changes.

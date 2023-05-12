@@ -92,7 +92,7 @@ Workfront can track Planned Revenue automatically when tasks are created based o
 
 It can also track Actual Revenue automatically when Actual Hours are logged on the tasks, issues, and on the project.
 
-There following table shows the types of revenue associated with tasks, issues, and projects. 
+The following table shows the types of revenue associated with tasks, issues, and projects. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -100,9 +100,10 @@ There following table shows the types of revenue associated with tasks, issues, 
  <tbody> 
   <tr> 
    <td role="rowheader">Planned Revenue</td> 
-   <td> <p>For tasks, this is the revenue associated with the Planned Hours of tasks. The Planned Hours from all tasks roll up to the Planned Hours of the project to contribute to the calculation of the project Planned Hours. </p> <p>For more information about Planned Hours in Workfront, see <a href="../../../manage-work/tasks/task-information/planned-hours.md" class="MCXref xref">Planned Hours overview</a>. </p> <p>Workfront calculates Planned Revenue for tasks and projects using the following formulas:</p> <p><code>Task Planned Revenue = Planned Hours * Billing hourly rate</code> </p> <p><code>Project Planned Revenue = SUM (All tasks Planned Revenue) +&nbsp;Fixed Revenue</code> </p> <!--
-     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(the note below is duplicated in this article: /Content/Resource Mgmt/Resource utilization/view-utilization-information.htm and in the glossary)</p>
-    --> <p>Note:  <p>The project Planned Revenue that displays in the Project&nbsp;Details area and in project reports differs from the Planned Revenue that displays in the Utilization&nbsp;report. </p> <p>The Planned Revenue in the Project Details area reflects the task revenue associated with the task Planned Hours as well as the Fixed&nbsp;Revenue of the project. The Planned Revenue in the Utilization&nbsp;Report displays Planned Revenue associated only with the Planned Hours from the task assignments on the project. </p> 
+   <td> <p>For tasks, this is the revenue associated with the Planned Hours of tasks. The Planned Hours from all tasks roll up to the Planned Hours of the project to contribute to the calculation of the project Planned Hours. </p> <p>For more information about Planned Hours in Workfront, see <a href="../../../manage-work/tasks/task-information/planned-hours.md" class="MCXref xref">Planned Hours overview</a>. </p> <p>Workfront calculates Planned Revenue for tasks and projects using the following formulas:</p> <p><code>Task Planned Revenue = Planned Hours * Billing hourly rate</code> </p> <p><code>Project Planned Revenue = SUM (All tasks Planned Revenue) + Fixed Revenue</code> </p> 
+   <p><b>NOTE</b>
+   
+   <p>The project Planned Revenue that displays in the Project Details area and in project reports differs from the Planned Revenue that displays in the Utilization report. </p> <p>The Planned Revenue in the Project Details area reflects the task revenue associated with the task Planned Hours as well as the Fixed Revenue of the project. The Planned Revenue in the Utilization Report displays Planned Revenue associated only with the Planned Hours from the task assignments on the project. </p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p>If the project has 1 task with 10 hours, assigned to a Consultant with $20 hourly rate, and the project has $100 Fixed Revenue, the Utilization report displays $200 for Planned Revenue (the Planned Revenue associated with the hours on the task). The Project&nbsp;Details section displays $300 (the Planned Revenue from the task and the Fixed Revenue for the project.) </p> 
      </div> </p> <p>Task Planned Revenue is calculated using the Billing hourly rate of the users or job roles assigned to the tasks. The Revenue Type of the tasks influences which rate (user or role) is used for calculating Planned Revenue.&nbsp;For more information, see the following sections in this article:</p> 
@@ -113,12 +114,18 @@ There following table shows the types of revenue associated with tasks, issues, 
   </tr> 
   <tr> 
    <td role="rowheader">Actual Revenue*</td> 
-   <td> <p>Associated with the Actual Hours of tasks, issues, and projects. </p> <p>Generally, Workfront calculates Actual Revenue using this formula:</p> <p><code>Planned Revenue = Planned Hours * Billing rate</code> </p> <p>For information on Actual Revenue calculations in the Utilization Report, see <a href="../../../resource-mgmt/resource-utilization/view-utilization-information.md" class="MCXref xref">View resource utilization information </a>. </p> <p>Tip: You cannot view Actual Revenue at the issue level, but the revenue associated with the Actual Hours on the issues contribute to the Actual Revenue of the project. </p> </td> 
+   <td> <p>Associated with the Actual Hours of tasks, issues, and projects. </p> <p>Generally, Workfront calculates Actual Revenue using this formula:</p> <p><code>Actual Revenue = Actual Hours * Billing rate</code> </p> <p>For information on Actual Revenue calculations in the Utilization Report, see <a href="../../../resource-mgmt/resource-utilization/view-utilization-information.md" class="MCXref xref">View resource utilization information </a>. </p> <p><b>TIP</b>
+   
+   You cannot view Actual Revenue at the issue level, but the revenue associated with the Actual Hours on the issues contribute to the Actual Revenue of the project. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42; For Actual Hours, the user's rates always refer to the user who logs the hours or to the rates of their job roles. For information about when Workfront uses the rates of the user and when it uses the rates of their job roles, see the <!--[](#)--> section in this article.
+*For Actual Hours, the user's rates always refer to the user who logs the hours or to the rates of their job roles. For information about when Workfront uses the rates of the user and when it uses the rates of their job roles, see the [Revenue calculations](#revenue-calculations) section in this article.
+
+<!--Note from the table for Planned Revenue line: 
+     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(the note below is duplicated in this article: /Content/Resource Mgmt/Resource utilization/view-utilization-information.htm and in the glossary)</p>
+    -->
 
 For example, if a task with User Hourly Revenue Type is planned to take 2 hours and the user assigned to it has an hourly rate of $30 an hour, then the Planned Revenue of the task is $60. When the task is completed, if the user logs just 1.5 hours as the actual time spent to finish the task, the Actual Revenue amount is $45. If another user who is not assigned to the task logs the time, the Actual Revenue is calculated based on that user's Billing Rates.
 
@@ -161,7 +168,9 @@ You can apply the following Revenue Types to your tasks or projects:
   </tr> 
   <tr> 
    <td> <p>User Hourly</p> </td> 
-   <td> <p>This type can be used for tasks only. </p> <p>The billing rate that you set for a specific user multiplied by the number of the Planned Hours for that task becomes the Planned Revenue amount of the task. The billing rate that you set for a specific user multiplied by the number of hours that user logs against the task is the Actual Revenue amount of the task. <br>For example, when you create a user and you set $20 for their Billing Per Hour field, then if the user submits 5 hours for a task on the timesheet, then the Actual Billing amount of the task is $100.</p> <p>Tip: This is the default Revenue Type when you create a task.</p> </td> 
+   <td> <p>This type can be used for tasks only. </p> <p>The billing rate that you set for a specific user multiplied by the number of the Planned Hours for that task becomes the Planned Revenue amount of the task. The billing rate that you set for a specific user multiplied by the number of hours that user logs against the task is the Actual Revenue amount of the task. <br>For example, when you create a user and you set $20 for their Billing Per Hour field, then if the user submits 5 hours for a task on the timesheet, then the Actual Billing amount of the task is $100.</p> <p><b>TIP</b> 
+   
+   This is the default Revenue Type when you create a task.</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Role Hourly</p> </td> 
@@ -245,14 +254,20 @@ The following scenarios exist when calculating task revenue based on the Revenue
     <tr> 
      <td role="rowheader">Billing per hour rate for Planned Revenue</td> 
      <td>$0.00</td> 
-     <td> If a user has a billing rate in their profile, then that rate is used to calculate Planned Revenue. Otherwise, the system billing rate of their primary job role is used. <br><p>Note:  The user can be assigned to the task with one of their secondary job roles, but the rate of the primary job role is used here instead.</p></td> 
+     <td> If a user has a billing rate in their profile, then that rate is used to calculate Planned Revenue. Otherwise, the system billing rate of their primary job role is used. <br><p><b>NOTE</b>  The user can be assigned to the task with one of their secondary job roles, but the rate of the primary job role is used here instead.</p></td> 
      <td>The system billing rate of the job role assigned to the task is used to calculate Planned Revenue. </td> 
     </tr> 
     <tr> 
      <td role="rowheader">Billing per hour rate for Actual Revenue</td> 
-     <td>If the user logging the hours has a billing rate in their profile, that rate is used. <br>Otherwise, the billing rate of their primary job role is used. If there is no billing rate associated with the user or their primary role, the Actual Revenue is $0.00. <br><p>Note:  Only the rates associated with the user logging the time are taken into account for the calculation, even when another user is assigned to the task.</p></td> 
-     <td>If the user logging the hours has a billing rate in their profile, that rate is used. <br>Otherwise, the billing rate of their primary job role is used. If there is no billing rate associated with the user or their primary role, the Actual Revenue is $0.00. <br><p>Note:  Only the rates associated with the user logging the time are taken into account for the calculation, even when another user is assigned to the task.</p></td> 
-     <td>If the user logging the hours has a billing rate in their profile, that rate is used. Otherwise, the billing rate of their primary job role is used.<br><p>Note:  If the user logging time has no billing rate associated with them, and they do not have a job role or a billing rate for their job role, then the rate from the job role associated with the task is used. If there is no billing rate for this role, the revenue is $0.00</p></td> 
+     <td>If the user logging the hours has a billing rate in their profile, that rate is used. <br>Otherwise, the billing rate of their primary job role is used. If there is no billing rate associated with the user or their primary role, the Actual Revenue is $0.00. <br><p><b>NOTE</b>
+     
+     Only the rates associated with the user logging the time are taken into account for the calculation, even when another user is assigned to the task.</p></td> 
+     <td>If the user logging the hours has a billing rate in their profile, that rate is used. <br>Otherwise, the billing rate of their primary job role is used. If there is no billing rate associated with the user or their primary role, the Actual Revenue is $0.00. <br><p><b>NOTE</b>
+     
+     Only the rates associated with the user logging the time are taken into account for the calculation, even when another user is assigned to the task.</p></td> 
+     <td>If the user logging the hours has a billing rate in their profile, that rate is used. Otherwise, the billing rate of their primary job role is used.<br><p><b>NOTE</b>
+     
+     If the user logging time has no billing rate associated with them, and they do not have a job role or a billing rate for their job role, then the rate from the job role associated with the task is used. If there is no billing rate for this role, the revenue is $0.00</p></td> 
     </tr> 
    </tbody> 
   </table>

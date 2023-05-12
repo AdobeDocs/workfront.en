@@ -3,7 +3,7 @@ content-type: api
 navigation-topic: api-navigation-topic
 title: Authorization code flow for custom OAuth 2 applications
 description: Authorization code flow for custom OAuth 2 applications
-author: John
+author: Becky
 feature: Workfront API
 exl-id: a1ab60c4-4255-4d80-87f1-f36d325254c2
 ---
@@ -41,8 +41,9 @@ Your users need to log in to authorize this integration in their own account. Th
 
 The URL for the authorization page is therefore: 
 
-<!-- [Copy](javascript:void(0);) --> 
-<pre><code>https://<span style="color: #63a35c; "><URL of your organization's domain></span>/integrations/oauth2/authorize?client_id=<span style="color: #63a35c; "><Your ClientID></span>&redirect_uri=<span style="color: #63a35c; "><Your redirect URL></span>&response_type=code<br></code></pre>
+```
+https://<URL of your organization's domain>/integrations/oauth2/authorize?client_id=<Your ClientID>&redirect_uri=<Your redirect URL>&response_type=code
+```
 
 >[!NOTE]
 >
@@ -86,26 +87,22 @@ To log your users in with OAuth2, use the following process:
 1. If the user Allows the access, the page is redirected to the `redirect_url`. The redirect must include the following query parameters:
 
 * `code`: The authorization code which is required for getting the access/refresh token.
-
 * `domain`: Your organization's domain. Example: in `myorganization.my.workfront.com`, the domain is `myorganization`.
-
 * `lane`: the lane of the request. Example: in `myorganization.preview.workfront.com`, the lane is `preview`.
 
    >[!IMPORTANT]
    >
    >The `code` is only valid for 2 minutes. Therefore, you must get the refresh and access tokens within that time.
 
-
-
 1. When you have a code, you can request refresh and access tokens by sending the code along with client app credentials to the `/integrations/oauth2/api/v1/token` endpoint.
 
-    The full token request URL is 
+   The full token request URL is 
 
    ```
    https://<URL of your organization's domain></span>/integrations/oauth2/api/v1/token
    ```
   
-   >**Examples:**  Example of CURL call to token endpoint: 
+   **Examples:**  Example of CURL call to token endpoint: 
 
    Example 1
 
@@ -118,7 +115,6 @@ To log your users in with OAuth2, use the following process:
       "grant_type": "**authorization_code**",
       "redirect_uri": "**<redirect_url>**"
       }'
-
    ```
    
    Example 2
@@ -138,8 +134,7 @@ To log your users in with OAuth2, use the following process:
    >
    > The Client secret was generated when registering the app in Workfront. You should store it in a secure place, because it cannot be recovered if it is lost.
 
-
-   <br>When all passed parameters are correct the token endpoint returns the following payload:
+   When all passed parameters are correct the token endpoint returns the following payload:
 
    ```
    {
@@ -202,4 +197,4 @@ It will return the following result:
 }
 ```
 
-And again the access token is the ```sessionID``` which can be used to make an API request to Workfront.
+And again the access token is the `sessionID` which can be used to make an API request to Workfront.

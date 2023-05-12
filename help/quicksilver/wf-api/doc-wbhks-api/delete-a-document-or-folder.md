@@ -4,7 +4,7 @@ product-area: documents
 navigation-topic: documents-webhooks-api
 title: Delete a document or folder
 description: Delete a document or folder
-author: John
+author: Becky
 feature: Workfront API
 exl-id: b56ec13a-1ee1-4bef-b39b-e625d00e4952
 ---

@@ -4,7 +4,7 @@ product-area: documents
 navigation-topic: documents-webhooks-api
 title: Register a Webhook Integration
 description: Register a Webhook Integration
-author: John
+author: Becky
 feature: Workfront API
 exl-id: 9a4f8dbe-967f-4a41-a42c-8e3acb604972
 ---

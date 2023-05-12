@@ -2,16 +2,16 @@
 product-area: resource-management
 navigation-topic: the-workload-balancer
 title: Assign work in bulk using the Workload Balancer
-description: Assign work in bulk using the Workload Balancer
+description: You can manually assign work items to users using the Adobe Workfront Workload Balancer.
 author: Alina
 feature: Resource Management
 exl-id: fb0f80d3-7da4-4f5f-857d-3fb518ba12e2
 ---
 # Assign work in bulk using the Workload Balancer
 
-<!--remove production and preview preferences at release-->
-
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> 
+<!--drafted
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> 
+-->
 
 You can manually assign work items to users using the Adobe Workfront Workload Balancer.
 
@@ -31,8 +31,10 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Plan, in the Production environment</p>
-   <p><span class="preview">Work, in the Preview environment</span> </p> </td> 
+   <td> <p>Plan, when using the Workload Balancer in the Resourcing area</p>
+   <p>Work, when using the Workload Balancer of a team or project</p>
+
+ </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level*</td> 
@@ -82,7 +84,9 @@ If you still don't have access, ask your Workfront administrator if they set add
 
    The Bulk Assignments panel opens to the right of the Workload Balancer. 
 
-1. (Conditional) If you are accessing the Workload Balancer from the Resourcing area or for a team, expand the **Project: Name** drop-down menu to select the project or projects that you want to make assignments for. You can select projects by name (this is the default option) or by status.
+1. (Conditional) If you are accessing the Workload Balancer from the Resourcing area or for a team, expand the **Project: Name** drop-down menu and use the filter modifiers to select the project or projects that you want to make assignments for. You can select projects by Name (this is the default option) or by Status. 
+
+For information about Workfront filter modifiers, see [Filters and condition modifiers](../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md). 
 
    >[!NOTE]
    >
@@ -90,7 +94,9 @@ If you still don't have access, ask your Workfront administrator if they set add
 
    ![](assets/project-name-status-dropdown-bulk-assignments-wb-nwe-350x133.png)
 
-1. (Optional) Click **Select project tasks** to select the task or tasks that you want to make assignments for, then in the **Task: Name** drop-down menu, select tasks by name (this is the default option) or status.
+1. (Optional) Click **Select project tasks** to select the task or tasks that you want to make assignments for, then in the **Task: Name** drop-down menu, select tasks by Name (this is the default option) or Status and use the filter modifiers to search for specific tasks. 
+
+For information about Workfront filter modifiers, see [Filters and condition modifiers](../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
 
    >[!NOTE]
    >
@@ -133,27 +139,37 @@ When you assign a user using Bulk Assignments in the Workload Balancer, the foll
 To assign a user to work items previously assigned to job roles:
 
 1. Start assigning work items using Bulk Assignments in the Workload Balancer as described above and select **Assign**. 
-1. In the **Task role assignment** field, click the drop-down arrow to choose from a list of roles. Only roles currently assigned within the specified projects are displayed. This is a required field. 
 
-   <!--
-   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-   (NOTE: ensure this stays Task and not chages to "Work item"?? if it changes, change the screen shot below)
-   </MadCap:conditionalText>
-   -->
+1. In the **Role assignment** field, click the drop-down arrow to choose from a list of roles. Only roles currently assigned within the specified projects are displayed. This is a required field. 
 
-   ![](assets/bulk-assignments-workload-balancer-assign-selected-350x330.png)
+   ![](assets/bulk-assignments-workload-balancer-assign-selected.png)
 
-1. In the **User to assign** field, click the drop-down arrow to choose from a list of suggested users or to type another user name. Users listed in the list by default match the criteria for Smart Assignments.&nbsp;For more information, see [Smart assignments overview](../../manage-work/tasks/assign-tasks/smart-assignments.md).
+1. In the **User to assign** field, click the drop-down arrow to choose from a list of suggested users or to type another user's name.
 
-   Workfront displays a note about the number of items where the user you specified will be assigned and what job role they will replace.
+   Select users from the following areas:
 
-   ![](assets/bulk-assign-user-confirmation-before-assigning-nwe-350x83.png)
+   * **Suggested Assignments**: Users who can fulfill the selected role and who match the criteria for Smart Assignments. For more information, see [Smart assignments overview](../../manage-work/tasks/assign-tasks/smart-assignments.md).
+   * **Other Assignments**: All users in the system who can fulfill the selected role. 
+   
+      >[!TIP]
+      >
+      >Only the first 50 users are listed in the Other Assignments area.
+
+
+   After selecting a user, Workfront displays a note about the number of items where the user you specified will be assigned and what job role they will replace.
+
+   >[!TIP]
+   >
+   >All the roles of the user display in the list, under the user's name.
+
 
 1. Click **Assign**.
 
-   The specified roles are replaced with the user you selected.
+   The specified roles are replaced with the users you selected.
 
    You receive a confirmation about how many work items have had the selected role replaced with the selected user.
+
+   ![](assets/bulk-assign-user-confirmation-before-assigning-nwe-350x83.png)
 
 ### Replace user {#replace-user}
 

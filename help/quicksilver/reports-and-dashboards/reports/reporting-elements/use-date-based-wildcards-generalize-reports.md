@@ -56,14 +56,6 @@ You must create a report before you can add wildcard variables to it.
 
 For information on creating a report, see [Create a report](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-report.md).
 
-## Walk-through
-
-View the following video to learn how you can generalize the information in your reports and adapt them to the date when they are run by using date-based wildcards.
-
-This video was recorded in Adobe Workfront Classic. However, the content also applies to the new Workfront experience.
-
-[ ![](assets/video-date-based-wildcards-350x198.png)](https://workfront-video.wistia.com/medias/poww2vz0r4)
-
 ## How-to steps
 
 To insert a date-based wildcard in a report:
@@ -102,7 +94,7 @@ To insert a date-based wildcard in a report:
 
 See also:
 
-* [Basic Report Creation Program for the new Workfront experience](https://one.workfront.com/s/basic-report-creation-program) 
+* [Basic Report Creation Program](https://one.workfront.com/s/basic-report-creation-program) 
 * [Wildcard filter variables](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md) 
 * [Create or edit filters in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/create-filters.md) 
 * [Add a prompt to a report](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md) 

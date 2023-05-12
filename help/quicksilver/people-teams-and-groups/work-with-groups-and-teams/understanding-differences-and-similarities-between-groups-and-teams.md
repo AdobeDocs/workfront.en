@@ -8,9 +8,9 @@ author: Lisa
 feature: People Teams and Groups
 exl-id: 28eb1967-390b-4500-abfc-8ed68ff14a16
 ---
-# Groups vs. teams in Adobe Workfront
+# Groups vs. teams in [!DNL Adobe Workfront]
 
-Groups and teams are collections of users in Adobe Workfront.
+Groups and teams are collections of users in [!DNL Adobe Workfront].
 
 Although you can designate just one Home Group and one Home Team per user, each user can belong to an unlimited number of teams or groups. However, to avoid confusion, we recommend that each user belong to a limited number of teams and groups.
 
@@ -38,24 +38,26 @@ The following table illustrates differences and similarities between groups and 
 
 | **Functionality** |**Group** |**Team** |
 |---|---|---|
-| A Planner can create |&nbsp; |✓ |
-| Only a Workfront administrator can create |✓ |&nbsp; |
-| Share objects&nbsp; |✓ |✓ |
-| Assign a task |&nbsp; |✓ |
-| Assign an issue |&nbsp; |✓ |
-| Associate with a project |✓ |&nbsp; |
-| Designate as an Approver in an Approval Process |&nbsp; |✓ |
-| Notifications trigger for all members at one time |&nbsp; |✓ |
-| Tag in a comment&nbsp;&nbsp; |&nbsp; |✓ |
-| View in the People or Teams area |&nbsp; |✓ |
-| View Working On List |&nbsp; |✓ |
-| Filter users in the Resource Planner |&nbsp; |✓ |
-| Visibility of Milestone Paths for a Project or Template |✓ |&nbsp; |
-| Visibility of Custom Forms&nbsp; |✓&nbsp; |&nbsp; |
-| Visibility of Schedules |✓ |&nbsp; |
-| Assign Timesheet Profiles&nbsp; |✓ |✓ |
+| A Planner can create |  |✓ |
+| Only a Workfront administrator can create |✓ |  |
+| Share objects |✓ |✓ |
+| Assign a task |  |✓ |
+| Assign an issue |  |✓ |
+| Associate with a project |✓ |  |
+| Designate as an Approver in an Approval Process |  |✓ |
+| Notifications trigger for all members at one time |  |✓ |
+| Tag in a comment   |  |✓ |
+| View in the People or Teams area |  |✓ |
+| View Working On List |  |✓ |
+| Filter users in the Resource Planner |✓ |✓ |
+| Filter users in the Workload Balancer |✓ |✓ |
+| Filter users in the Utilization report |✓ |✓ |
+| Visibility of Milestone Paths for a Project or Template |✓ |  |
+| Visibility of Custom Forms  |✓  |  |
+| Visibility of Schedules |✓ |  |
+| Assign Timesheet Profiles  |✓ |✓ |
 | Assign Layout Templates |✓ |✓ |
-| Any user with a Plan license can assign it to another user |&nbsp; | &nbsp;✓  |
-| Customize Statuses |✓&nbsp; |&nbsp; |
-| Customize the Done button |&nbsp; |✓ |
-| Track licenses |✓ |&nbsp; |
+| Any user with a Plan license can assign it to another user |  |  ✓  |
+| Customize Statuses |✓  |  |
+| Customize the [!UICONTROL Done] button |  |✓ |
+| Track licenses |✓ |  |

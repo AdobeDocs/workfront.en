@@ -9,7 +9,7 @@ exl-id: 3d970794-b5ea-422f-bc92-51846cb7db35
 ---
 # Create subtasks
 
-In Workfront, tasks can have&nbsp;parent-child relationships. Child tasks are called subtasks. You can create subtasks&nbsp;on the tasks list by making a main task a subtask.&nbsp;You can also make a subtask a main task.
+In Workfront, tasks can have parent-child relationships. Child tasks are called subtasks. You can create subtasks on the tasks list by making a main task a subtask. You can also make a subtask a main task.
 
 ## Access requirements
 
@@ -47,13 +47,13 @@ You must have the following access to perform the steps in this article:
 
 ### Create subtasks from the task list {#create-subtasks-from-the-task-list}
 
-1. Go to the&nbsp;project where you want to create&nbsp;subtasks.
+1. Go to the project where you want to create subtasks.
 1. Click the **Tasks** section in the left panel.
 1. (Conditional) If the task that you want to make the child task is not already located directly beneath the task that you want make the parent, drag it to the appropriate location in the task list.
-1. Select the&nbsp;task that you want to make a subtask and do one of the following:
+1. Select the task that you want to make a subtask and do one of the following:
 
-   * Click the **Indent** icon ![](assets/indent-icon-nwe-33x29.png) to make the selected task a subtask&nbsp;to the task directly above it.
-   * When using a standard QWERTY keyboard, press Option +&nbsp;> (Mac) or Alt +&nbsp;> (Windows) on your keyboard.
+   * Click the **Indent** icon ![](assets/indent-icon-nwe-33x29.png) to make the selected task a subtask to the task directly above it.
+   * When using a standard English QWERTY keyboard, press Option + > (Mac) or Alt + > (Windows) on your keyboard. Other languages might use the commands Option + , (Mac) or Alt + , (Windows) to indent.
 
      >[!TIP]
      >
@@ -63,11 +63,11 @@ You must have the following access to perform the steps in this article:
 
    >[!NOTE]
    >
-   >You can&nbsp;indent tasks only when the list of tasks is sorted by Task Number and when there are no groupings applied to the task list.&nbsp;
+   >You can indent tasks only when the list of tasks is sorted by Task Number and when there are no groupings applied to the task list.
 
 ### Create subtasks from the task Subtasks section {#create-subtasks-from-the-task-subtasks-section}
 
-1. Go to the&nbsp;project where you want to create&nbsp;subtasks.
+1. Go to the project where you want to create subtasks.
 1. Click the **Tasks** section in the left panel.
 1. Click the name of the task where you want to create a subtask.
 1. Click the **Subtasks** section in the left panel.
@@ -79,15 +79,15 @@ You must have the following access to perform the steps in this article:
 
 ## Make a subtask a main task
 
-1. Go to the&nbsp;project where you want to make a subtask a main task.
+1. Go to the project where you want to make a subtask a main task.
 1. Click the **Tasks** section in the left panel. 
 1. Select the subtask that you want to make a main task.
 1. Click the **Outdent** icon ![](assets/outdent-icon-nwe-31x29.png) to make the subtask a main task.
 
    Or
 
-   Press Option +&nbsp;< (Mac) or Alt +&nbsp;< (Windows) on your keyboard.
+   On a standard English QWERTY keyboard, press Option + < (Mac) or Alt + < (Windows). Other languages might use the commands Option + . (Mac) or Alt + . (Windows) to outdent.
 
    >[!NOTE]
    >
-   >You can&nbsp;outdent tasks only when the list of tasks is sorted by Task Number and when there are no groupings applied to the task list.
+   >You can outdent tasks only when the list of tasks is sorted by Task Number and when there are no groupings applied to the task list.

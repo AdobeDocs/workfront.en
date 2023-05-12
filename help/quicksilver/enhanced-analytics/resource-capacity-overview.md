@@ -10,6 +10,43 @@ exl-id: 5bb45ef6-9e49-4063-8e53-c9f3bc994870
 ---
 # View the Resource capacity visualization in Enhanced analytics
 
+The Resource capacity visualization shows whether a team is over, under, or at capacity. 
+
+## Access requirements
+
+You must have the following:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">Adobe Workfront plan</a>*</td> 
+   <td> <p>Business or higher</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><a href="../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>*</td> 
+   <td> <p>Review or higher</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations*</td> 
+   <td> <p>View access to Projects</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level.<br>For information on how a Workfront administrator can change your access level, see <a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>View</p> <p>For information on requesting additional access, see <a href="../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+
+## Prerequisites
+
+For prerequisites to using Enhanced Analytics, see the "Prerequisites" section in [Enhanced analytics overview](../enhanced-analytics/enhanced-analytics-overview.md).
+
+## Understand the Resource capacity visualization
+
 The Resource capacity visualization shows whether a team is over, under, or at capacity. This calculation is based on:
 
 * **Available capacity**: The total amount of hours a home team has available to work in the filtered period of time
@@ -52,39 +89,6 @@ Seeing this information helps you determine:
 
 To learn how to get the best data for this visualization, see [Enhanced analytics overview](../enhanced-analytics/enhanced-analytics-overview.md).
 
-## Access requirements
-
-You must have the following:
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">Adobe Workfront plan</a>*</td> 
-   <td> <p>Business or higher</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><a href="../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>*</td> 
-   <td> <p>Review or higher</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p>View access to Projects</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level.<br>For information on how a Workfront administrator can change your access level, see <a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Object permissions</td> 
-   <td> <p>View</p> <p>For information on requesting additional access, see <a href="../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
-
-## Prerequisites
-
-For prerequisites to using Enhanced Analytics, see [Prerequisites](../enhanced-analytics/enhanced-analytics-overview.md#prerequi) in [Enhanced analytics overview](../enhanced-analytics/enhanced-analytics-overview.md).
-
 ## View the Resource capacity visualization
 
 1. Click the Main Menu icon ![](assets/main-menu-icon-16x12.png), then select **Analytics**.
@@ -123,8 +127,4 @@ For prerequisites to using Enhanced Analytics, see [Prerequisites](../enhanced-a
 
    To learn more about the Team capacity visualization, see [View the Team capacity visualization in Enhanced analytics](../enhanced-analytics/team-capacity-overview.md).
 
-## Video walk-through
 
-View the following video to learn more about the Resource capacity visualization. This video was recorded in Workfront Classic. However, the content also applies to the new Workfront experience.
-
-[ ![](assets/video-walk-through--350x197.png)](https://vimeo.com/368320000/cc5bb66ac8)

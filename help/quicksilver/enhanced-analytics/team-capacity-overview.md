@@ -14,35 +14,6 @@ The Team capacity visualization shows the total amount of capacity a home team h
 
 ![](assets/team-capacity-350x110.png)
 
-The Team capacity visualization displays the volume of work assigned to the home team on a given day.
-
-* **Burnout**: When the darker blue fill color is above the dotted line, the home team has more work hours assigned to them than they can complete in the number of hours the team is available to work. This indicates that the team is overallocated and may be approaching burnout.
-
-  ![](assets/team-capacity-over-capacity.png)
-
-* **Unchallenged**: When the darker blue fill color is below the dotted line, the home team has more hours available to work than the amount of work assigned to them. This indicates that the team is underallocated and may be unchallenged.
-
-  ![](assets/team-capacity-under-capacity.png)
-
-* **Balance**: When the lighter or more transparent blue fill color is just above, just below, or at the dotted line, the home team has an amount of work hours assigned to them that they should be able to complete within their available work hours. This indicates that the team's workload is more balanced.
-
-  ![](assets/team-capacity-at-capacity.png)
-
-Hovering over any point on the visualization shows the following details for a given day:
-
-* **Scheduled hours**: This is the number of planned hours of work the team needs to complete.
-* **Available hours**: This is the number of work hours the team is available to work.
-* **Capacity**: In addition to a capacity percentage, the designations At capacity, Under capacity, or Over capacity also display.
-
-Seeing this information helps you determine:
-
-* When the home team was overallocated or underallocated.
-* If the home team is overallocated or underallocated on a daily basis.
-* How consistent a home team's workload is from day to day.
-* If you're creating capacity issues with new work.
-
-To learn how to get the best data for this visualization, see [Enhanced analytics overview](../enhanced-analytics/enhanced-analytics-overview.md).
-
 ## Access requirements
 
 You must have the following:
@@ -74,7 +45,38 @@ You must have the following:
 
 ## Prerequisites
 
-For prerequisites to using Enhanced Analytics, see [Prerequisites](../enhanced-analytics/enhanced-analytics-overview.md#prerequi) in [Enhanced analytics overview](../enhanced-analytics/enhanced-analytics-overview.md).
+For prerequisites to using Enhanced Analytics, see the "Prerequisites" section in [Enhanced analytics overview](../enhanced-analytics/enhanced-analytics-overview.md).
+
+## Understand the Team capacity visualization
+
+The Team capacity visualization displays the volume of work assigned to the home team on a given day.
+
+* **Burnout**: When the darker blue fill color is above the dotted line, the home team has more work hours assigned to them than they can complete in the number of hours the team is available to work. This indicates that the team is overallocated and may be approaching burnout.
+
+  ![](assets/team-capacity-over-capacity.png)
+
+* **Unchallenged**: When the darker blue fill color is below the dotted line, the home team has more hours available to work than the amount of work assigned to them. This indicates that the team is underallocated and may be unchallenged.
+
+  ![](assets/team-capacity-under-capacity.png)
+
+* **Balance**: When the lighter or more transparent blue fill color is just above, just below, or at the dotted line, the home team has an amount of work hours assigned to them that they should be able to complete within their available work hours. This indicates that the team's workload is more balanced.
+
+  ![](assets/team-capacity-at-capacity.png)
+
+Hovering over any point on the visualization shows the following details for a given day:
+
+* **Scheduled hours**: This is the number of planned hours of work the team needs to complete.
+* **Available hours**: This is the number of work hours the team is available to work.
+* **Capacity**: In addition to a capacity percentage, the designations At capacity, Under capacity, or Over capacity also display.
+
+Seeing this information helps you determine:
+
+* When the home team was overallocated or underallocated.
+* If the home team is overallocated or underallocated on a daily basis.
+* How consistent a home team's workload is from day to day.
+* If you're creating capacity issues with new work.
+
+To learn how to get the best data for this visualization, see [Enhanced analytics overview](../enhanced-analytics/enhanced-analytics-overview.md).
 
 ## View the Team capacity visualization
 
@@ -116,8 +118,3 @@ For prerequisites to using Enhanced Analytics, see [Prerequisites](../enhanced-a
    * **Chart (PNG)** 
    * **Data Table (XSLX)**
 
-## Video walk-through
-
-View the following video to learn more about the Team capacity visualization. This video was recorded in Workfront Classic. However, the content also applies to the new Workfront experience.
-
-[ ![](assets/video-walk-through--350x197.png)](https://vimeo.com/368320039/6551197797)

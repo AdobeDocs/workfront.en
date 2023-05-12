@@ -329,7 +329,7 @@ For information about the maintenance updates made during the 20.3 release, see 
 
 At the end of 2020, Adobe and all major browsers finalize deprecating Adobe Flash technology, which means these tools will stop functioning.
 
-Workfront aims to assist you with moving to the newer technology by providing a suite of new solutions that do not rely on Flash. Find out more about replacement solutions for each specific Flash-based tool in the following article: [Replacement of Flash-based tools in Adobe Workfront](../../../product-announcements/announcements/replace-flash-tools.md).
+Workfront aims to assist you with moving to the newer technology by providing a suite of new solutions that do not rely on Flash. Find out more about replacement solutions for each specific Flash-based tool in the following article: [Replacement of Flash-based tools in Adobe Workfront](../../../product-announcements/announcements/announcement-archive/replace-flash-tools.md).
 
 All Flash-based tools will be removed from all products on November 19, 2020. We recommend that you start using the new tools and retire the Flash tools before then, to increase the security of your instance. If you would like us to disable the Flash tools before November 19, you can contact Customer Support.
 

@@ -21,30 +21,6 @@ The Project activity visualization shows an aggregate view of activities on the 
 [![](assets/project-activity-350x114.png)](../Resources/Images/Analytics/Activity by Team.png)
 -->
 
-Project activities display in different colors to summarize specific events in a project over a period of time:
-
-* **Users logged in**: Purple boxes show that people assigned to the project logged in on that day. A darker shade indicates a higher number of people logging in.
-
-  ![](assets/project-activity-users-logged-in.png)
-
-* **Task status change**: Pink boxes show that people changed the status of a task for the project on that day. A darker shade indicates a higher number of task statuses changing.
-
-  ![](assets/project-activity-task-status-changes.png)
-
-* **Tasks completed**: Blue boxes show that people completed a task for the project. A darker shade indicates a higher number of tasks being completed.
-
-  ![](assets/project-activity-tasks-completed.png)
-
-Hovering over a box shows the exact number of times the action was completed in a given day. You can select a project to see a breakdown of these activities by each individual contributor on the project.
-
-Seeing this information helps you determine:
-
-* The activity on a specific project.
-* The activity of one project compared to other projects.
-* Which users are working on a project and at what frequency.
-
-To learn how to get the best data for this visualization, see [Enhanced analytics overview](../enhanced-analytics/enhanced-analytics-overview.md).
-
 ## Access requirements
 
 You must have the following:
@@ -76,7 +52,33 @@ You must have the following:
 
 ## Prerequisites
 
-For prerequisites to using Enhanced Analytics, see [Prerequisites](../enhanced-analytics/enhanced-analytics-overview.md#prerequi) in [Enhanced analytics overview](../enhanced-analytics/enhanced-analytics-overview.md).
+For prerequisites to using Enhanced Analytics, see the "Prerequisites" section in [Enhanced analytics overview](../enhanced-analytics/enhanced-analytics-overview.md).
+
+## Understand the Project activity visualization
+
+Project activities display in different colors to summarize specific events in a project over a period of time:
+
+* **Users logged in**: Purple boxes show that people assigned to the project logged in on that day. A darker shade indicates a higher number of people logging in.
+
+  ![](assets/project-activity-users-logged-in.png)
+
+* **Task status change**: Pink boxes show that people changed the status of a task for the project on that day. A darker shade indicates a higher number of task statuses changing.
+
+  ![](assets/project-activity-task-status-changes.png)
+
+* **Tasks completed**: Blue boxes show that people completed a task for the project. A darker shade indicates a higher number of tasks being completed.
+
+  ![](assets/project-activity-tasks-completed.png)
+
+Hovering over a box shows the exact number of times the action was completed in a given day. You can select a project to see a breakdown of these activities by each individual contributor on the project.
+
+Seeing this information helps you determine:
+
+* The activity on a specific project.
+* The activity of one project compared to other projects.
+* Which users are working on a project and at what frequency.
+
+To learn how to get the best data for this visualization, see [Enhanced analytics overview](../enhanced-analytics/enhanced-analytics-overview.md).
 
 ## View the Project activity visualization
 
@@ -131,8 +133,3 @@ For prerequisites to using Enhanced Analytics, see [Prerequisites](../enhanced-a
    * **Chart (PNG)** 
    * **Data Table (XSLX)**
 
-## Video walk-through
-
-View the following video to learn more about the Project activity visualization. This video was recorded in the new Workfront experience. However, the content also applies to Workfront Classic.
-
-[ ![](assets/video-walk-through--350x197.png)](https://vimeo.com/441154105/7181a0dedf)

@@ -14,38 +14,6 @@ The Burndown visualization shows a specific project's burndown over time and hel
 
 ![](assets/burndown-350x112.png)
 
-The solid blue line shows the planned velocity from the start date to the planned completion date. This line adjusts as work is added, removed, or updated and it changes to a dashed vertical line when the project reaches the planned completion date.
-
-![](assets/burndown-planned-line.png)
-
-The actual line shows the number of hours—or days—spent on the project over time. The color of this line indicates the condition of the project each day:
-
-* **Green**: The project is on target.
-
-  ![](assets/burndown-green.png)
-
-* **Orange**: The project is at risk.
-
-  ![](assets/burndown-orange.png)
-
-* **Red**: The project is in trouble.
-
-  ![](assets/burndown-red.png)
-
-For more information on these project conditions, see [Overview of Project Condition and Condition Type](../manage-work/projects/manage-projects/project-condition-and-condition-type.md).
-
-When the actual line moves upward vertically, work has been added to the project. When the line moves downward vertically, work has been removed or completed for the project.
-
-Below the x axis of the visualization, you can see more information about how tasks and hours—or days—changed on a given day (the amount added, the amount completed, and the difference between the two).
-
-Seeing all of this information in the Burndown visualization helps you determine:
-
-* The health of the individual project over time
-* How problems coming in (or unplanned work) impacted the planned work.
-* Which events extended your project past the original completion date.
-
-To learn how to get the best data for this visualization, see [Enhanced analytics overview](../enhanced-analytics/enhanced-analytics-overview.md).
-
 ## Access requirements
 
 You must have the following:
@@ -77,7 +45,41 @@ You must have the following:
 
 ## Prerequisites
 
-For prerequisites to using Enhanced Analytics, see [Prerequisites](../enhanced-analytics/enhanced-analytics-overview.md#prerequi) in [Enhanced analytics overview](../enhanced-analytics/enhanced-analytics-overview.md).
+For prerequisites to using Enhanced Analytics, see the "Prerequisites" section in [Enhanced analytics overview](../enhanced-analytics/enhanced-analytics-overview.md).
+
+## Understand the Burndown visualization
+
+The solid blue line shows the planned velocity from the start date to the planned completion date. This line adjusts as work is added, removed, or updated and it changes to a dashed vertical line when the project reaches the planned completion date.
+
+![](assets/burndown-planned-line.png)
+
+The actual line shows the number of hours—or days—spent on the project over time. The color of this line indicates the condition of the project each day:
+
+* **Green**: The project is on target.
+
+  ![](assets/burndown-green.png)
+
+* **Orange**: The project is at risk.
+
+  ![](assets/burndown-orange.png)
+
+* **Red**: The project is in trouble.
+
+  ![](assets/burndown-red.png)
+
+For more information on these project conditions, see [Overview of Project Condition and Condition Type](../manage-work/projects/manage-projects/project-condition-and-condition-type.md).
+
+When the actual line moves upward vertically, work has been added to the project. When the line moves downward vertically, work has been removed or completed for the project.
+
+Below the x axis of the visualization, you can see more information about how tasks and hours—or days—changed on a given day (the amount added, the amount completed, and the difference between the two).
+
+Seeing all of this information in the Burndown visualization helps you determine:
+
+* The health of the individual project over time
+* How problems coming in (or unplanned work) impacted the planned work.
+* Which events extended your project past the original completion date.
+
+To learn how to get the best data for this visualization, see [Enhanced analytics overview](../enhanced-analytics/enhanced-analytics-overview.md).
 
 ## View the Burndown visualization
 
@@ -143,9 +145,3 @@ For prerequisites to using Enhanced Analytics, see [Prerequisites](../enhanced-a
    * **Data Table (XSLX)**
 
 1. (Optional) To see details about the progress of tasks in the selected project, look at the Tasks in flight visualization that appears below the Burndown visualization.
-
-## Video walk-through
-
-View the following video to learn more about the Burndown visualization. This video was recorded in the new Workfront experience. However, the content also applies to Workfront Classic.
-
-[ ![](assets/video-walk-through--350x197.png)](https://vimeo.com/441154380/51a7bd4040)

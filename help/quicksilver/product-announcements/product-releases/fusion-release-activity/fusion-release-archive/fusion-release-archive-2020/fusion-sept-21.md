@@ -16,15 +16,13 @@ This page describes all enhancements made in Adobe Workfront Fusion the week of 
 
 For a list of all recent changes, see [Adobe Workfront Fusion release activity](../../../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
-For a list of recent bug fixes in Workfront Fusion, see the [Workfront Maintenance Updates](https://one.workfront.com/s/article/Workfront-Maintenance-Updates-1882317350) page and check for any updates labeled Workfront Fusion Maintenance Update.
+For a list of recent bug fixes in Workfront Fusion, see the [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) page and check for any updates labeled Workfront Fusion Maintenance Update.
 
 ## Select input fields when using the Workfront > Update Record or Workfront > Create Record modules
 
 To help you use your Workfront scenarios more easily, we've introduced a new type of field. The "Select fields to map" field allows you to choose which fields you want to have available to modify on a given object. This makes it easier for you to enter information or troubleshoot, since you don't have to scroll through as many fields. Limiting the available fields also prevents problems that were occasionally encountered when objects with many custom fields could become too big to run efficiently.
 
 For more information, see [Adobe Workfront modules](../../../../../workfront-fusion/apps-and-their-modules/workfront-modules.md).
-
-[Watch a video demonstration of this feature.](https://vimeo.com/462776752/b869edeb69)
 
 ## Updates to Workfront > Watch Fields module
 

@@ -25,7 +25,8 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Plan or higher</p> </td> 
+   <td> <p>Plan, when using the Workload Balancer in the Resourcing area</p>
+   <p>Work, when using the Workload Balancer of a team or project</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
@@ -109,7 +110,7 @@ You need the following access to view information in the Workload Balancer from 
 
    * Apply filters to the Unassigned and Assigned Work areas.
 
-     For information about filtering information in the Workload Balancer, see [Manage filters in the Workload Balancer](../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md).
+     For information about filtering information in the Workload Balancer, see [Filter information in the Workload Balancer](../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md).
 
 1. Click the **link icon** ![](assets/wb-shearable-link-icon-small.png).
 

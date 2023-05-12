@@ -70,8 +70,6 @@ For example, if a task is set to start at 4 PM and the schedule has one hour lef
 >
 >The Planned Hours per Day or the daily allocation is the allocation of Planned Hours for each day during the Duration of the task. If the task has one assignment, then this number represents the Planned Hours per Day per assignment. If the task has multiple assignments, the Planned Hours per Day per assignment is different than the Planned Hours per Day for the task. There is no visual representation in Workfront for the Planned Hours per Day per assignment, for tasks with multiple assignments.
 
-&nbsp;
-
 ## Locate and understand Planned Hours values
 
 You can find Planned Hours values in various areas of Workfront.&nbsp;
@@ -83,7 +81,6 @@ You can locate Planned Hours in the following areas of Workfront:
 * [The Details section of a project, task or issue](#the-details-section-of-a-project-task-or-issue) 
 * [The Edit Task or Edit Issue box](#the-edit-task-or-edit-issue-box) 
 * [Reports](#reports) 
-* [The Scheduling areas](#the-scheduling-areas) 
 * [The Workload Balancer](#the-workload-balancer) 
 * [The Resource Planner](#the-resource-planner) 
 * [The Utilization report](#the-utilization-report) 
@@ -123,8 +120,9 @@ For information about creating reports, see [Create a custom report](../../../re
 
 >[!NOTE]
 >
->If you create a Project (Financial&nbsp;Data) report and group it by date, the Planned Hours might display a portion of the Planned Hours of the project depending on the timeline of the tasks on the project. By default, Workfront distributes the Planned Hours of tasks equally for each day of the task Duration. The Planned Hours for a certain time frame match the equal distribution set by&nbsp;Workfront for that time frame in the Project (Financial Data) report.
+>If you create a Project (Financial Data) report and group it by date, the Planned Hours might display a portion of the Planned Hours of the project depending on the timeline of the tasks on the project. By default, Workfront distributes the Planned Hours of tasks equally for each day of the task Duration. The Planned Hours for a certain time frame match the equal distribution set by Workfront for that time frame in the Project (Financial Data) report.
 
+<!--
 ### The Scheduling areas  {#the-scheduling-areas}
 
 ![](assets/task-detail-expanded-in-scheduler-with-planned-hours-and-adjusted-daily-allocations-nwe-350x323.png)
@@ -133,12 +131,13 @@ The Planned Hours for tasks and issues display in the Scheduling areas in the Pl
 
 You can view the daily allocation of Planned Hours for each user assigned to a task or an issue in the Scheduling areas.
 
-The daily hour amount represents one of the following:&nbsp;
+The daily hour amount represents one of the following:
 
 * the default amount equally distributed by Workfront for each day of the Duration of the tasks or issues
 * the adjusted daily allocation managed by resource managers.
 
   For information about adjusting daily allocations in the Scheduling tools, see [Manage user allocations in the Scheduling areas](../../../resource-mgmt/resource-scheduling/manage-allocations-scheduling-areas.md).
+-->
 
 ### The Workload Balancer {#the-workload-balancer}
 

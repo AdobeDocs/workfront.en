@@ -15,6 +15,8 @@ You can convert an issue to a new project or you can convert it to a project usi
 
 For general information about converting issues, see [Overview of converting issues in Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issues.md).
 
+When creating a project from an issue, some of the fields on the project populate from other objects. For more information, see the "New project default settings" section in the article [Create a project](../../../manage-work/projects/create-projects/create-project.md). 
+
 ## Access requirements
 
 You must have the following access to perform the steps in this article:
@@ -74,7 +76,7 @@ You can convert an issue to a blank project or convert an issue to a project usi
      >[!TIP]
      >   
      >* If the issue was created using a request queue, the new project inherits the request queue's Group. 
-     >* If the issue was created by adding it to the Issues section of the project, the new project inherits the Group if the issue's project.
+     >* If the issue was created by adding it to the Issues section of the project, the new project inherits the Group of the issue's project.
 
    * To convert an issue to a project using a template, do one of the following:
 
@@ -132,11 +134,11 @@ You can convert an issue to a blank project or convert an issue to a project usi
       >
       >* Your system or group administrator can add or remove fields in the [!UICONTROL Convert to Project box] by updating the Project Details information in your [!UICONTROL Layout Template]. 
       >
-      >* To update fields in the [!UICONTROL Finance] section in the [!UICONTROL Convert to Project] box you must have [!UICONTROL Edit] access to [!UICONTROL Financial Data] in your access level. If you have [!UICONTROL View] access to [!UICONTROL Financial Data] in your access level all financial information from the template transfers to the new project and you cannot edit it while you convert the issue. For information, see [Grant access to financial data](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md) and [Sharing a template](../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md).
+      >* To update fields in the [!UICONTROL Finance] section in the [!UICONTROL Convert to Project] box you must have [!UICONTROL Edit] access to [!UICONTROL Financial Data] in your access level. If you have [!UICONTROL View] access to [!UICONTROL Financial Data] in your access level all financial information from the template transfers to the new project and you cannot edit it while you convert the issue. For information, see [Grant access to financial data](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md) and [Share a template](../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md).
 
    1. (Optional and conditional) Click [!UICONTROL **Options**] in the left panel, then select from the options that are available:
 
-      * [!UICONTROL **Keep the original issue and tie its resolution to the this project**]
+      * [!UICONTROL **Keep the original issue and tie its resolution to this project**]
 
         When deselected, the original issue is deleted.
 
@@ -169,8 +171,8 @@ You can convert an issue to a blank project or convert an issue to a project usi
 
         >[!TIP]
         >
-        >* If a multi-object custom form attached to the issue is configured for use with both issues and projects, all information saved in the form is retained when you make the conversion.
-        >
+        >* If a multi-object custom form attached to the issue is configured for use with both issues and projects, all information saved in the form is retained when you make the conversion if the fields exist both on the issue as well as the project's custom forms.
+        >* If a multi-object custom form with a calculated field is attached to the issue as well as to the project, the issue and the project must be compatible with all fields referenced in the form's calculated custom fields. If there is an incompatibility, a message alerts you to make adjustments. For more information, see the "Calculated custom fields in multi-object custom forms" section in the [Add calculated data to a custom form with the legacy form builder](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md). 
         >* If you are using a template for the conversion and a custom form attached to the template contains a custom field also found in a custom form attached to the issue, the field value from the issue is used for the new project. However, if the custom field is blank on the issue, the value from the template is used.
 
    1. Click [!UICONTROL **Convert to project**].

@@ -2,7 +2,7 @@
 product-area: projects
 navigation-topic: update-work-in-a-project
 title: Interactions between the Commit Date and the Planned Completion Date
-description: Interactions between the Commit Date and the Planned Completion Date
+description: Both the Planned Completion and the Commit Dates indicate when the task should be completed. But they differ because of who sets each date.
 author: Alina
 feature: Work Management
 exl-id: 1709c60c-ac75-48eb-9226-ec2cf556ebf0
@@ -10,13 +10,13 @@ exl-id: 1709c60c-ac75-48eb-9226-ec2cf556ebf0
 # Interactions between the Commit Date and the Planned Completion Date
 
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this article has mostly information that is repeated from the articles linked from here. I left it in here for searchability's sake.) </p>
+this article has mostly information that is repeated from the articles linked from here. I left it in here for searchability's sake.
 -->
 
 Both the Planned Completion and the Commit Dates indicate when the task should be completed. But they differ because of who sets each date.
 
-## Overview of the Commit Date and Planned&nbsp;Completion Date
-
+## Overview of the Commit Date and Planned Completion Date
+ 
 Planned Completion and Commit Dates exist on both tasks and issues.
 
 The following table contains information about the difference between the Commit and Planned Completion dates:

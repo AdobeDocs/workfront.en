@@ -15,6 +15,10 @@ This file is hidden from search (`hide: yes`) and from the left nav (`hidefromto
 
 <p class="preview">This file is **hidden** from search (`hide: yes`) and from the left nav (`hidefromtoc: yes`).</p>
 
+## Image test
+
+![image test](assets/get-started.png){width="50" align="center"}
+
 ## Test of preview highlighting
 
 **Use DIV for blocks of components.**
@@ -71,3 +75,33 @@ You can also specify the `class="preview"` syntax in `<p>`, `<td>`, `<tr>`, and 
   </tr> 
  </tbody> 
 </table>
+
+Video with quality = 12
+
+>[!VIDEO](https://video.tv.adobe.com/v/3413544/?quality=12)
+
+Video with quality = 6
+
+>[!VIDEO](https://video.tv.adobe.com/v/3413544/?quality=6)
+
+Video inside HTML table
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Does this video work?</td> 
+   <td>No it does not </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+Video inside markdown table
+
+|Column1|Column2|
+|---|---|
+|Does this work?|Also no|
+
+

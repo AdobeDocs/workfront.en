@@ -2,15 +2,19 @@
 product-area: workfront-integrations
 keywords: google,doc,document,sheet,slide
 navigation-topic: workfront-for-g-suite
-title: Access Adobe Workfront Home content from G Suite
-description: You can access your Adobe Workfront Home content, including all tasks, issues, approvals, and access requests assigned to you, without leaving G Suite.
+title: Access [!DNL Adobe Workfront] Home content from G Suite
+description: You can access your [!DNL Adobe Workfront] Home content, including all tasks, issues, approvals, and access requests assigned to you, without leaving G Suite.
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: da2ecaf1-5cfb-470e-90a1-fbb386db8670
 ---
-# Access Adobe Workfront Home content from G Suite
+# Access [!DNL Adobe Workfront] [!UICONTROL Home] content from [!DNL G Suite]
 
-You can access your Adobe Workfront Home content, including all tasks, issues, approvals, and access requests assigned to you, without leaving G Suite.
+>[!NOTE]
+>
+>There is a [known issue](https://experienceleague.adobe.com/docs/workfront-known-issues/issues/new-workfront-experience/wf-current/wf-integrations-error-when-opening-wf-for-gsuite.html?lang=en) with the current version of [!DNL Workfront for G Suite] not working as expected. We are working on a new version and expect it to be released to the [!DNL Google Marketplace] in the near future. 
+
+You can access your [!DNL Adobe Workfront] [!UICONTROL Home] content, including all tasks, issues, approvals, and access requests assigned to you, without leaving G Suite.
 
 ## Access requirements
 
@@ -21,51 +25,47 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Work, Plan</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
+   <td> <p>[!UICONTROL Work], [!UICONTROL Plan]</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+&#42;To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
 
 ## Prerequisites
 
-Before you can access Home content from G Suite, you must
+Before you can access [!UICONTROL Home] content from [!DNL G Suite], you must
 
-* Install Workfront for G suite  
-  For instructions, see [Install Adobe Workfront for G Suite](../../workfront-integrations-and-apps/workfront-for-g-suite/install-workfront-for-gsuite.md).
+* Install [!DNL Workfront for G suite]\
+   For instructions, see [Install [!DNL Adobe Workfront for G Suite]](../../workfront-integrations-and-apps/workfront-for-g-suite/install-workfront-for-gsuite.md).
 
-## Access Workfront Home from G Suite
+## Access [!DNL Workfront] [!UICONTROL Home] from [!DNL G Suite]
 
-1. Make sure you are logged in to Workfront.
-1. If the Workfront for G Suite panel is not displayed, click the&nbsp;Workfront icon ![](assets/wf-lion-icon.png) in the G Suite add-ons sidebar at the far-right of the page. 
-1. If you see a left arrow at the top of Workfront for G&nbsp;Suite, click the arrow to go to the Home area.
+1. Make sure you are logged in to [!DNL Workfront].
+1. If the [!UICONTROL Workfront for G Suite] panel is not displayed, click the [!DNL Workfront] icon ![](assets/wf-lion-icon.png) in the [!DNL G Suite] add-ons sidebar at the far-right of the page.
+1. If you see a left arrow at the top of [!DNL Workfront] for [!DNL G Suite], click the arrow to go to the [!UICONTROL Home] area.
 
-   ![](assets/left-arrow-to-home.png)
+1. In the **[!UICONTROL Sort by]** area, click the expand arrow ![](assets/dropdown-arrow.png), then click an option to specify how you want to group your work items so you can find the one you want.
 
-1. In the **Sort by** area, click the expand arrow ![](assets/dropdown-arrow.png), then click an option to specify how you want to group your work items so you can find the one you want.
+   When you sort by **[!UICONTROL Commit date]** or **[!UICONTROL Planned completion]** date, the oldest work items are at the top.
 
-   ![](assets/sort-by-area.png)
-
-   When you sort by **Commit date** or **Planned completion** date, the oldest work items are at the top.
-
-   When you sort by **Project**, work items appear in the order of their parent projects, listed alphabetically from A to Z. Work items without a parent project display under **No Project**.
+   When you sort by **[!UICONTROL Project]**, work items appear in the order of their parent projects, listed alphabetically from A to Z. Work items without a parent project display under **[!UICONTROL No Project]**.
 
 1. Click the expand arrow ![](assets/dropdown-arrow.png) for the grouping you want to view.
 
-   The number of items contained within each group displays in parenthesis. When you click the expand arrow, all the work items in the group display.
+   The number of items contained within each group displays in parenthesis. When you click the [!UICONTROL expand] arrow, all the work items in the group display.
 
    Work items appear as follows:
 
    * ![](assets/task-icon.png) **Tasks** display the parent project name, task name, and planned completion date.
-   
+
    * ![](assets/issue-icon.png) **Issues** display the parent project name, issue name, and planned completion date.
-   
+
    * ![](assets/document-icon.png)  **Approvals** display the requester's name, document name, and submission date.
    * **Access requests** display the requester's name, object name, and submission date. The icon for the object type displays on the left.
 

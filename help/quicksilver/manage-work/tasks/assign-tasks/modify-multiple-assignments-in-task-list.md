@@ -2,7 +2,7 @@
 product-area: projects;user-management
 navigation-topic: assign-tasks
 title: Modify multiple user assignments in a task list
-description: Modify multiple user assignments in a task list
+description: When managing task assignments, you can simultaneously modify them for multiple tasks at a time by using the bulk editing feature in a list of tasks. 
 author: Alina
 feature: Work Management
 exl-id: 04f7761f-da94-4858-85c5-8dc97bd78bee
@@ -10,14 +10,13 @@ exl-id: 04f7761f-da94-4858-85c5-8dc97bd78bee
 # Modify multiple user assignments in a task list
 
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: There is a similar article in Resource Scheduling and a similar one for Issues; when things change, you might need to update all 3)</p>
+<p>There is a similar article in Resource Scheduling and a similar one for Issues; when things change, you might need to update all 3</p>
 -->
 
 When managing task assignments, you can simultaneously modify them for multiple tasks at a time by using the bulk editing feature in a list of tasks. 
 
 This article refers to modifying multiple user assignments for multiple tasks in a task list. Also see the following articles for modifying assignments on multiple tasks in other areas:
 
-* For information about modifying assignments on multiple tasks in the Scheduling area, see [Modify multiple users assignments to tasks in the Scheduling areas](../../../resource-mgmt/resource-scheduling/modify-multipl-assignments-scheduling-areas.md).
 * For information about assigning tasks using the Workload Balancer, see [Overview of assigning work in the Workload Balancer](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
 
 For information about assigning a task to one resource in a list, see [Assign tasks](../../../manage-work/tasks/assign-tasks/assign-tasks.md).
@@ -122,14 +121,18 @@ When assigning users to work, their availability according to their schedules af
       
       1. Start typing the name of a user, role, or team, then select it when it displays in the list. The assignment is added and does not replace the current assignments on the selected tasks.
 
-         >[!TIP]
-         >
-         >You can assign multiple users or job roles, and you can assign only one team. You can assign only active users, job roles, and teams.
-         >
-         >If a user, job role, or a team was assigned before they were deactivated, they remain assigned to the work item. In this case, we recommend the following:
-         >
-         >* Reassign the work item to active resources.
-         >* Associate the users in a deactivated team with an active team and reassign the work item to the active team.
+
+      >[!TIP]
+      >
+      > * You can assign multiple users, job roles, or teams. You can assign only active users, job roles, and teams.
+      >   
+      > * When adding a user assignment, notice the avatar, the user's Primary Role, or their email address to distinguish between users with identical names. Users must be associated with at least one job role to view it as you add them.
+      > 
+      >   If a user, job role, or a team was assigned before they were deactivated, they remain assigned to the work item. In this case, we recommend the following:
+      >   
+      >     * Reassign the work item to active resources.
+      >     * Associate the users in a deactivated team with an active team and reassign the work item to the active team.
+
 
    * To remove individual assignees:
 

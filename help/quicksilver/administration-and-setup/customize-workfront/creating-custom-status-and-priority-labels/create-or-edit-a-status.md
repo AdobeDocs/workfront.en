@@ -106,9 +106,9 @@ When you create a custom status for the entire organization, you can configure i
       <td role="rowheader">Lock for all groups</td> 
       <td>
        <p>When a status is locked, users throughout the system can see and use it and group administrators cannot customize it for their groups.</p> 
-       <p>When a status is locked, group administrators can customize it for their individual groups.</p>
+       <p>When a status is unlocked, group administrators can customize it for their individual groups.</p>
 
-       <!--
+      <div>
        <p>You can use both locked and unlocked statuses in a system approval process. If you create a system approval process with an unlocked system status, users throughout the system can attach the approval process to any project, task, or issue in the system.</p>
        <p> In the following scenarios, warning messages display to help you and your users understand outcomes of unlocking a status:</p>
        <ul>
@@ -116,9 +116,8 @@ When you create a custom status for the entire organization, you can configure i
        <li>A user starts to edit an approval process that uses an unlocked status. A message alerts the user about the unlocked status so they can evaluate whether it would be a good idea to re-lock or replace it.</li>
        <li>A system-level approval process with an unlocked status is attached on an object, and the status was deleted for the group assigned to the object. When a group member goes to the Approvals section for the object, a message explains that the approval process can't be initiated for the object.</li>
        </ul>
-       -->
-       
        <p>For more information about locking statuses, see <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/lock-or-unlock-a-custom-system-level-status.md" class="MCXref xref">Locked and unlocked system-level statuses</a>.</p>
+       </div>
       </td>
      </tr> 
     </tbody> 

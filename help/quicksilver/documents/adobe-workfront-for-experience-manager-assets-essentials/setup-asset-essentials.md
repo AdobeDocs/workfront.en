@@ -15,6 +15,7 @@ Connect your work with your content in Experience Manager Assets Essentials​:
 * Link assets from Experience Manager Assets Essentials to your projects and tasks in Workfront​
 * Facilitate versioning workflows for assets pushed to Experience Manager Assets Essentials
 
+You can also connect several Experience Manager Assets repositories to one Workfront environment, or several Workfront environments to one Experience Manager Assets repository across Organization IDs. Follow the configuration instructions in this article for each integration you'd like to set up. 
 
 ## Access requirements
 
@@ -31,6 +32,12 @@ You must have the following:
    <td><strong>Adobe Workfront licenses*</strong>
    </td>
    <td>Plan
+   </td>
+  </tr>
+  <tr>
+   <td><strong>Experience Manager license</strong>
+   </td>
+   <td>Standard
    </td>
   </tr>
   <tr>
@@ -96,6 +103,23 @@ Before you begin, you must
 * Configure a metadata schema in Experience Manager Assets Essentials as explained in [Configure asset metadata mapping between Adobe Workfront and Experience Manager Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping.html?lang=en).
 * (Optional) Configure custom form fields in Workfront. Workfront has many built-in custom fields you can use. However, you can also create your own custom fields. For more information, see [Create or edit a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 
++++ **Supported Workfront and Experience Manager Assets fields** 
+
+**AEM Keyword**
+
+You can map any Workfront supported field to a keyword in Experience Manager Assets Essentials. 
+
+To link a field to a keyword, select `dc:subject` in the Experience Manager Assets field dropdown in the metadata mapping area. 
+
+To map multiple single-line text fields to keywords, enter a comma-separated list of the keyword values into the Workfront side of the metadata mapping, and `dc:subject` on the Experience Manager Assets side. Each field value maps to a separate keyword. You can use a calculated field to combine multiple Workfront fields into a single comma-separated text field.
+
+<!--
+Look for essentials article
+For more information on keywords in Experience Manager Assets, including how to create and manage keywords, see [Administering Tags]( https://experienceleague.adobe.com/docs/experience-manager-64/administering/contentmanagement/tags.html?lang=en).
+-->
+
++++
+
 
 ### Assets
 
@@ -106,6 +130,8 @@ Metadata maps when an asset is pushed from Workfront for the first time. Documen
    >
    >You can map a single Workfront field to multiple Experience Manager Assets fields. You can't map multiple Workfront fields to a single Experience Manager Assets field.
 1. In the **Experience Manager** field, choose an Experience Manager Assets field.
+   
+   To map a Workfront field to an Experience Manager Assets tag, select `dc:subject`.
 1. Repeat steps 1 and 2 as needed.
 ![enable metadata](assets/metadata-assets-essentials.png)
 1. Click **Save** or move on to the [Set up linked folders (optional)](#set-up-linked-folders-optional) section in this article.

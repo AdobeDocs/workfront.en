@@ -52,7 +52,10 @@ We recommend that group administrators have Edit access to users so that they ca
 * Log in as other users in the groups and subgroups they manage.
 * Reset the password of another user in the groups they manage.
 
-For instructions on granting this access, see [Create or modify custom access levels](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+>[!IMPORTANT]
+>
+>Group admins must have higher access than those they manage; otherwise, they will not be able to view or modify lower access levels.
+>For instructions on granting this access, see [Create or modify custom access levels](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
 For a group administrator who needs to assign timesheet profiles to users in their groups and subgroups, we also recommend Administrative access to timesheets and hours. For instructions on granting this access, see [Grant users administrative access to certain areas](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
 

@@ -34,11 +34,9 @@ For information about how a Workfront administrator unlocks a timesheet and hour
 
 For information about how a group administrator configures unlocked task and issue preferences for a group, see [Configure timesheet and hour preferences for a group](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-timesheet-hour-preferences-group.md).
 
-[Watch a video demonstration of this feature.](https://vimeo.com/600488692/f2722950ee)
-
 ## New for Workfront administrators: Configure layout templates for auto-provisioned users in the new Workfront experience
 
-Now you can configure layout templates in the new Workfront experience for auto-provisioned users. In the Workfront User Attribute drop-down menu where you map user attributes (Setup > System > Single Sign-On), a new “NWE Layout Template” menu item is now available for making this configuration. Previously, you were able to configure layout templates for auto-provisioned users only in Workfront Classic.
+Now you can configure layout templates in the new Workfront experience for auto-provisioned users. In the Workfront User Attribute drop-down menu where you map user attributes (Setup > System > Single Sign-On), a new "NWE Layout Template" menu item is now available for making this configuration. Previously, you were able to configure layout templates for auto-provisioned users only in Workfront Classic.
 
 For instructions on mapping user attributes, see [Map user attributes and auto-provision new users](../../../administration-and-setup/add-users/create-and-manage-users/map-user-attributes.md).
 
@@ -47,8 +45,6 @@ For instructions on mapping user attributes, see [Map user attributes and auto-p
 Now it's easy to find out which groups your users belong to. In a report or view that lists users, you can create a column using the new Other Groups field. This field lists the groups where each user is a member.
 
 For information about using reports and views, see [Create a custom report](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) and [Views overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
-
-[Watch a video demonstration of this feature.](https://vimeo.com/600493894/16b96b33a5)
 
 ## Blueprints details page now displays an image
 
@@ -68,8 +64,6 @@ Note that using these preferences does not make the projects created from the te
 
 For more information, see [Configure a blueprint](../../../administration-and-setup/blueprints/configure-template-package.md).
 
-[Watch a video demonstration of this feature.](https://vimeo.com/601113312/f4561ecf28)
-
 ## New for group administrators: View and manage a group's recently deleted and restored items
 
 >[!NOTE]
@@ -79,8 +73,6 @@ For more information, see [Configure a blueprint](../../../administration-and-se
 We are continuing to make it easier to manage your groups and their associated objects in one place. Now you can view and work with a group's recently deleted and restored items from the Groups area. This saves you from having to go to the Recently Deleted or Recently Restored area in Setup to manage those items. And it keeps the list of group items you're working with separate from the other deleted and restored items in the system.
 
 For more information, see [View and manage a group's recently deleted items](../../../administration-and-setup/manage-groups/work-with-group-objects/view-manage-groups-recently-deleted-objects.md) and [View and manage a group's recently restored items](../../../administration-and-setup/manage-groups/work-with-group-objects/view-manage-groups-recently-restored-objects.md).
-
-[Watch a video demonstration of this feature.](https://vimeo.com/592790676/ec5e69f70e)
 
 ## New for group administrators: Group preferences now affect group templates
 
@@ -105,15 +97,11 @@ If you create a template or template task without a group—for example, from th
 
 For more information, see the section How preferences apply to templates and template tasks in the article [Create and modify a group's project templates](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md).
 
-[Watch a video demonstration of this feature.](https://vimeo.com/592786526/d1d6ded612)
-
 ## New for administrators: Find out which custom forms are using a custom field
 
 Now it's easier to change a custom field in a custom form. With a single click in the custom form, you can find out about any other custom forms that are also using the field. It's important to assess whether those forms will need adjustments in order to keep working properly after you make the change.
 
 For more information, see [View all custom forms that use a particular custom field or widget](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/view-all-custom-forms-that-use-a-particular-custom-field.md).
-
-[Watch a video demonstration of this feature.](https://vimeo.com/588949432/c527dc4072)
 
 ## New for group administrators: Lock and unlock project, task, and issue preferences for a group
 
@@ -129,8 +117,6 @@ Now you can ensure that everyone in the subgroups below your group is using the 
 
   For more information, see [Configure project preferences for a group](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md) and [Configure task and issue preferences for a group](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md).
 
-[Watch a video demonstration of this feature.](https://vimeo.com/586020054/00090701bf)
-
 ## New for group administrators: Create and edit templates from the Groups area
 
 >[!NOTE]
@@ -140,8 +126,6 @@ Now you can ensure that everyone in the subgroups below your group is using the 
 We're continuing to make it easier to manage your groups and their associated objects in one place. Now you can view and work with a group's templates from the Groups area in Setup. This saves you from having to go to the Templates area to manage a group's templates. And it keeps the list of group templates you're working on separate from the others throughout the system.
 
 For more information, see [Create and modify a group's project templates](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md).
-
-[Watch a video demonstration of this feature.](https://vimeo.com/586023814/1f7230e263)
 
 ## Enter and save information in one attached custom form at a time
 
@@ -154,10 +138,6 @@ It's now easier to supply information in the Details section for an object: Type
 Previously, when you entered information in one custom form or expandable area for an object, all custom forms attached to the object went into edit mode and all their required fields had to be completed before you could save your changes. This was a problem if you couldn't complete a required field because it was intended for another user.
 
 If you do want to edit all custom forms and expandable areas in the Details section for an object, you can click Edit all on the new Edit menu that we added to the Edit icon. Or, on the same menu, you can click a name to scroll to the custom form or section where you want to make changes
-
-[Watch a video demonstration of this feature.](https://vimeo.com/577660078/70db05b492)
-
-## New for group administrators: Create and manage statuses for a group at any level
 
 >[!NOTE]
 >
@@ -177,8 +157,6 @@ Previously, this functionality was available only for top-level groups.
 
 For more information, see [Manage group statuses](../../../administration-and-setup/manage-groups/manage-group-statuses/manage-group-statuses.md).
 
-[Watch a video demonstration of this feature.](https://vimeo.com/558294261/ed2ee01b99)
-
 ## New for Workfront administrators: Migrate layout templates from Workfront Classic to the new Workfront experience on your own
 
 >[!NOTE]
@@ -188,8 +166,6 @@ For more information, see [Manage group statuses](../../../administration-and-se
 To help you manage layout templates while your users switch to using the new Workfront experience, we have created a button you can use to migrate layout templates from Workfront Classic to the new experience without relying on Workfront Customer Support.
 
 Previously, only Workfront Customer Support could migrate your layout templates from Workfront Classic to the new Workfront experience.
-
-[Watch a video demonstration of this feature.](https://vimeo.com/574937296/eb4fa79f0c)
 
 ## When associating a template with a group, select a group approval process in Queue Details and Queue Topics
 

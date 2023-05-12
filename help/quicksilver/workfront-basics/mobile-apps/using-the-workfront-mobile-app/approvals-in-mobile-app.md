@@ -1,15 +1,15 @@
 ---
 product-previous: mobile
 navigation-topic: use-the-workfront-mobile-app
-title: Approvals in the Adobe Workfront mobile app
-description: You can manage approvals assigned or delegated to you from the Approvals area in the Adobe Workfront mobile app.
+title: Approvals in the [!DNL Adobe Workfront] mobile app
+description: You can manage approvals assigned or delegated to you from the [!UICONTROL Approvals] area in the [!DNL Adobe Workfront] mobile app.
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 92259a17-209b-4bc1-8c14-826969b08a63
 ---
-# Approvals in the Adobe Workfront mobile app
+# Approvals in the [!DNL Adobe Workfront] mobile app
 
-You can manage approvals assigned or delegated to you from the Approvals area in the Adobe Workfront mobile app. From the approvals area, you can approve:
+You can manage approvals assigned or delegated to you from the [!UICONTROL Approvals] area in the [!DNL Adobe Workfront] mobile app. From the [!UICONTROL approvals] area, you can approve:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -31,13 +31,13 @@ You can manage approvals assigned or delegated to you from the Approvals area in
  </tbody> 
 </table>
 
-Proofs follow a separate approval process. You cannot approve a proof from a work item or document approval. For information on reviewing and approving proofs, see [Review and make decisions on proofs in the Adobe Workfront mobile app](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/work-with-proofs-in-mobile-app.md).
+Proofs follow a separate approval process. You cannot approve a proof from a work item or document approval. For information on reviewing and approving proofs, see [Review and make decisions on proofs in the [!DNL Adobe Workfront] mobile app](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/work-with-proofs-in-mobile-app.md).
 
 ## Review an approval
 
-1. Select **Show all approvals** in the Approvals area of My Work.
+1. Select **[!UICONTROL Show all approvals]** in the [!UICONTROL Approvals] area of [!UICONTROL My Work].
 
-   For information about My Work in the mobile app, see [My Work section in the mobile app](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/my-work-section-mobile.md).
+   For information about [!UICONTROL My Work] in the mobile app, see [[!UICONTROL My Work] section in the mobile app](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/my-work-section-mobile.md).
 
 1. Select an approval in the list.
 
@@ -54,15 +54,15 @@ Proofs follow a separate approval process. You cannot approve a proof from a wor
 1. Open the approval.
 1. Select a decision. The list of decision options depends on the type of approval you are viewing.
 
-   |Icon|Decision|
+   | Icon | Decision |
    |---|---|
-   |  ![Approve proof from task](assets/mobile-approveprooffromtask.png) |Approve |
-   |  ![Approve proof with changes from task](assets/mobile-approveproofwithcommentsfromtask.png)|Approve with changes (only available for documents) |
-   |  ![Reject proof from task](assets/mobile-rejectprooffromtask.png)|Reject |
+   | ![Approve proof from task](assets/mobile-approveprooffromtask.png) | [!UICONTROL Approve] |
+   | ![Approve proof with changes from task](assets/mobile-approveproofwithcommentsfromtask.png) | [!UICONTROL Approve with changes] (only available for documents) |
+   | ![Reject proof from task](assets/mobile-rejectprooffromtask.png) | [!UICONTROL Reject] |
 
    {style="table-layout:auto"}
 
-1. (Optional) Select **Add comment** on the confirmation message at the bottom of the screen to add comments to the decision. These comments appear in the updates for the approval.  
-   ![Add comment](assets/mobile-addcommenttoapproval-350x123.png)  
-   Or  
-   Select the arrow on the top left of the approval to go back to the Approvals page.
+1. (Optional) Select **[!UICONTROL Add comment]** on the confirmation message at the bottom of the screen to add comments to the decision. These comments appear in the updates for the approval.\
+   ![Add comment](assets/mobile-addcommenttoapproval-350x123.png)\
+   Or\
+   Select the arrow on the top left of the approval to go back to the [!UICONTROL Approvals] page.

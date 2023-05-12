@@ -2,14 +2,14 @@
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
-title: Position custom fields and widgets in a custom form
+title: Position custom fields and widgets in a custom form with the legacy form builder
 description: You can reposition custom fields and widgets in a custom form.
 author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: f96425e3-8e20-43ac-8340-915538ae5886
 ---
-# Position custom fields and widgets in a custom form
+# Position custom fields and widgets in a custom form with the legacy form builder
 
 You can reposition custom fields and widgets in a custom form.
 
@@ -42,8 +42,8 @@ You must have the following to perform the steps in this article:
 
 ## Position custom fields and widgets in a custom form
 
-1. Begin creating or editing a custom form, as described in [Create or edit a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
-1. Add custom fields and widgets to the form, as described in [Add a custom field to a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md) and [Add or edit an asset widget in a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
+1. Begin creating or editing a custom form, as described in [Create or edit a custom form with the legacy form builder](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+1. Add custom fields and widgets to the form, as described in [Add a custom field to a custom form with the legacy form builder](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md) and [Add or edit an asset widget in a custom form with the legacy form builder](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
 
 1. (Optional) To position custom fields and widgets on the same row, drag one next to the other until a line appears between them.
 
@@ -66,9 +66,9 @@ Courtney, this is a story that got postponed after I did the work. Slated for so
 1. Click **Apply**.
 1. If you want to continue building your custom form in other ways, continue on to one of the following articles:
 
-   * [Add a custom field to a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md#add2) 
-   * [Add or edit an asset widget in a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md) 
-   * [Add calculated data to a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md) 
-   * [Add a section break to a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-section-break-to-a-custom-form.md) 
-   * [Add display logic and skip logic to a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/display-or-skip-logic-custom-form.md) 
-   * [Preview and complete a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/preview-and-complete-a-custom-form.md)
+   * [Add a custom field to a custom form with the legacy form builder](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md#add2) 
+   * [Add or edit an asset widget in a custom form with the legacy form builder](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md) 
+   * [Add calculated data to a custom form with the legacy form builder](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md) 
+   * [Add a section break to a custom form with the legacy form builder](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-section-break-to-a-custom-form.md) 
+   * [Add display logic and skip logic to a custom form with the legacy form builder](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/display-or-skip-logic-custom-form.md) 
+   * [Preview and complete a custom form with the legacy form builder](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/preview-and-complete-a-custom-form.md)

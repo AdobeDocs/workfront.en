@@ -4,7 +4,7 @@ product-area: documents
 navigation-topic: documents-webhooks-api
 title: Authentication for Document Webhooks
 description: Authentication for Document Webhooks
-author: John
+author: Becky
 feature: Workfront API
 exl-id: 2303c202-27c7-4922-a613-e9824910504c
 ---

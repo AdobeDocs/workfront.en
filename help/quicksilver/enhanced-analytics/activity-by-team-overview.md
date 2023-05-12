@@ -19,30 +19,6 @@ The Activity by team visualization shows activities that happen during a specifi
 
 ![](assets/activity-by-team-350x113.png)
 
-The different activities display in different colors to summarize specific events over the filtered time period:
-
-* **Users logged in**: Purple boxes show that people on the home team logged in on that day. A darker shade indicates a higher number of people logging in.
-
-  ![](assets/project-activity-users-logged-in.png)
-
-* **Task status change**: Pink boxes show that people on the home team changed the status of a task on that day. A darker shade indicates a higher number of task statuses changing.
-
-  ![](assets/project-activity-task-status-changes.png)
-
-* **Tasks completed**: Blue boxes show that people on the home team completed a task on that day. A darker shade indicates a higher number of tasks being completed.
-
-  ![](assets/project-activity-tasks-completed.png)
-
-Hovering over a box shows the exact number of times the action was completed in a given day. You can select a team to see a breakdown of these activities by each person on the home team.
-
-Seeing this information helps you determine:
-
-* What activities are occurring within a home team and at what rate.
-* What home teams are being overworked or are using the system more.
-* If the distribution of work is appropriate for the home team.
-
-To learn how to get the best data for this visualization, see [Enhanced analytics overview](../enhanced-analytics/enhanced-analytics-overview.md).
-
 ## Access requirements
 
 You must have the following:
@@ -74,7 +50,33 @@ You must have the following:
 
 ## Prerequisites
 
-For prerequisites to using Enhanced Analytics, see [Prerequisites](../enhanced-analytics/enhanced-analytics-overview.md#prerequi) in [Enhanced analytics overview](../enhanced-analytics/enhanced-analytics-overview.md).
+For prerequisites to using Enhanced Analytics, see the "Prerequisites" section in [Enhanced analytics overview](../enhanced-analytics/enhanced-analytics-overview.md).
+
+## Understand the Activity by team visualization
+
+The different activities display in different colors to summarize specific events over the filtered time period:
+
+* **Users logged in**: Purple boxes show that people on the home team logged in on that day. A darker shade indicates a higher number of people logging in.
+
+  ![](assets/project-activity-users-logged-in.png)
+
+* **Task status change**: Pink boxes show that people on the home team changed the status of a task on that day. A darker shade indicates a higher number of task statuses changing.
+
+  ![](assets/project-activity-task-status-changes.png)
+
+* **Tasks completed**: Blue boxes show that people on the home team completed a task on that day. A darker shade indicates a higher number of tasks being completed.
+
+  ![](assets/project-activity-tasks-completed.png)
+
+Hovering over a box shows the exact number of times the action was completed in a given day. You can select a team to see a breakdown of these activities by each person on the home team.
+
+Seeing this information helps you determine:
+
+* What activities are occurring within a home team and at what rate.
+* What home teams are being overworked or are using the system more.
+* If the distribution of work is appropriate for the home team.
+
+To learn how to get the best data for this visualization, see [Enhanced analytics overview](../enhanced-analytics/enhanced-analytics-overview.md).
 
 ## View the Activity by team visualization
 
@@ -128,8 +130,3 @@ For prerequisites to using Enhanced Analytics, see [Prerequisites](../enhanced-a
    * **Chart (PNG)** 
    * **Data Table (XSLX)**
 
-## Video walk-through
-
-View the following video to learn more about the Activity by team visualization. This video was recorded in Workfront Classic. However, the content also applies to the new Workfront experience.
-
-[ ![](assets/video-walk-through--350x197.png)](https://vimeo.com/368319785/c8ec75887b)

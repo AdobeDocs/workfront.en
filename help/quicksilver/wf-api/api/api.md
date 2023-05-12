@@ -4,7 +4,7 @@ content-type: api;reference
 navigation-topic: api-navigation-topic
 title: API
 description: Workfront API Articles
-author: John
+author: Becky
 exl-id: 90e00a71-1a3a-4e3f-99d8-47700052a9dc
 ---
 # API
@@ -15,6 +15,7 @@ This section contains the following articles:
 * [Ending support for JSONP](../../wf-api/api/ending-support-jsonp.md) 
 * [Filter event subscription messages](../../wf-api/api/filter-event-sub-messages.md) 
 * [Event subscription retries](../../wf-api/api/event-sub-retries.md) 
+* [Event subscription certificates](../../wf-api/api/event-sub-certs.md) 
 * [Specify an API Version in your integrations](../../wf-api/api/specify-api-version-integrations.md) 
 
 * [Core API changes: Status search responses](../../wf-api/api/api-changes-search.md) 
@@ -25,6 +26,8 @@ This section contains the following articles:
 * [Configure and use your organization's custom OAuth 2 applications using authorization code flow](../../wf-api/api/oauth-app-code-token-flow.md)
 * [Configure and use your organization's custom OAuth 2 applications using JWT flow](../../wf-api/api/oauth-app-jwt-flow.md)
 * [Configure and use your organization's custom OAuth 2 applications using PKCE flow](../../wf-api/api/oauth-app-pkce-flow.md)
+* [What's new in API version 16](../../wf-api/api/new-api-version-16.md) 
+* [What's new in API version 15](../../wf-api/api/new-api-version-15.md) 
 * [What's new in API version 14](../../wf-api/api/new-api-version-14.md) 
 * [What's new in API version 13](../../wf-api/api/new-api-version-13.md) 
 * [What's new in API version 12](../../wf-api/api/new-api-version-12.md) 

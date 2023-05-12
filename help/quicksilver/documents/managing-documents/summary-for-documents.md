@@ -96,7 +96,7 @@ Use the Versions section to view the number of versions created for a specific d
 
 * Open a proof
 * Download a proof or document
-* Preview a proof or document
+* Preview a browser-supported document
 * Go to the Document Details
 * Delete a proof or document
 

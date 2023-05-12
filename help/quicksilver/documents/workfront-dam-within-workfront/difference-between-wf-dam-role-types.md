@@ -29,7 +29,7 @@ You use licensing to determine what a user can see and do in Workfront. There ar
 * Request
 * External
 
-See [Adobe Workfront licenses overview](../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md) for a description of the different license types in&nbsp;Workfront.
+See [Legacy licenses overview](../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md) for a description of the different license types in&nbsp;Workfront.
 
 ## Workfront DAM Role Types
 

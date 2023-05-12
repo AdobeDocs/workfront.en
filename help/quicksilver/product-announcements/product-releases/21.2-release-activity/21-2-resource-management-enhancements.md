@@ -18,8 +18,6 @@ To help you manage the allocation of resources for larger periods of time, we ha
 
 For information, see [Navigate the Workload Balancer](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
 
-[Watch a video demonstration of this feature.](https://vimeo.com/539893609/a86dd40f4f)
-
 ## Connection between the Scenario Planner, Workload Balancer, and task list
 
 >[!NOTE]
@@ -37,8 +35,6 @@ For information, see the following articles:
 >
 >This new functionality is visible to all users, in both the new and the classic Workfront experience. This is also visible to customers who have not purchased a Workfront Scenario Planner license.
 
-[Watch a video demonstration of this feature.](https://vimeo.com/539890235/7127d1d666)
-
 ## Use Planned Hours when calculating Net values in the Resource Planner
 
 A new setting in the Resource Planner allows you to use Planned Hours when calculating Net values.
@@ -47,15 +43,11 @@ Prior to this enhancement, Workfront calculated Net values only using Budgeted H
 
 For information, see [Overview of hours, FTE, and cost information in the Project and Role views of the Resource Planner](../../../resource-mgmt/resource-planning/overview-of-planner-hour-fte-cost-information-in-role-project-views.md).
 
-[Watch a video demonstration of this feature.](https://vimeo.com/522026737/0cb6ce8144)
-
 ## 12-week view in the Workload Balancer
 
 You can now view up to 12 weeks of information in the Workload Balancer. Prior to this enhancement, you could view 2,4, and 6 weeks of information.
 
 For information about viewing the Workload Balancer, see [Navigate the Workload Balancer](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md)Navigate the Workload Balancer.
-
-[Watch a video demonstration of this feature.](https://vimeo.com/521971867/daebeb2c7f)
 
 ## Change in the way the Job Role filter works in the Unassigned area of the Workload Balancer
 

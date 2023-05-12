@@ -9,15 +9,9 @@ exl-id: 3a75c78d-faed-41cd-a0a4-59504bb981af
 ---
 # Remove users from projects
 
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: This also links here - some information is duplicated between these 2 articles, so update both:&nbsp;https://support.workfront.com/hc/en-us/articles/217301267-Understanding-the-Project-Team-and-Projects-I-m-On-) </p>
--->
-
-You can remove users from a project when they are no longer involved in completing work on the project. Removing users from projects has implications on task and issue assignments, as well as on project roles.
+You can remove users from a project when they are no longer involved in completing work on the project. Removing users from projects has implications on task and issue assignments, as well as on project roles. Removed users stop receiving notifications intended for the Project Team. For more information about notifications for the project teams, see [Event notifications available in Adobe Workfront](../../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).
 
 The users associated with a project are listed in the People area of a project. They represent the Project Team. For more information about the Project Team, see [Project Team overview](../../../manage-work/projects/planning-a-project/project-team-overview.md).
-
-You can assign work to the users on the project in the People area of a project.
 
 ## Access requirements
 
@@ -52,25 +46,31 @@ You must have the following access to perform the steps in this article:
 
 ## How removing a user affects existing tasks, issues, and projects
 
-When a user is removed from a project, any tasks or issues assigned to them might be affected, depending on whether the task or issue was in an Active or Complete state when the user was removed:
+When a user is removed from a project, any tasks or issues assigned to them might be affected, depending on whether the task or issue was completed when the user was removed:
 
-* **If the item is in an Active state when the user is removed:** The item is re-assigned to a Job Role if a Job Role was already assigned. If the item did not have a Job Role assigned, you must manually re-assign the item. An item in an Active state is any item that has not completed yet.
-* **If the item is in a Complete state when the user is removed:** The name of the removed user remains on the item.
-* If the user removed is also the creator of a project, the project is not removed from their **Projects I'm On** list in the Projects area. The project is removed from the lists for all other users that filter for that project by the Entered By field.
+* **If the item is not completed when the user is removed:** The item is re-assigned to a job role if a job role was already assigned, or it is assigned to the job role the user was fulfilling on the item. If the item or the user did not have a job role assigned, you must manually re-assign the item. 
+* **If the item is completed when the user is removed:** The name of the removed user remains on the item.
+* **If the user removed is also the creator of a project:** The project is not removed from their **Projects I'm On** list in the Projects area. The project is removed from the lists for all other users that filter for that project by the Entered By field.
+* **If the user is the project Owner or Sponsor:** The user remains in their roles as sponsor or owner of the project. 
 
 ## Remove users from a project and Project Team
 
-When you remove a user from the project, the user is also removed from the project team. Likewise, when you remove a user from the project team, the user is also removed from the project.
+You can remove users from a project by removing them from the Project Team. 
 
-You can remove users from a project from the People sectionof the project.
+When users fulfill roles on a project, they become part of the Project Team. 
 
-* [Remove users from a project from the People area](#remove-users-from-a-project-from-the-people-area)
+When you remove users from their roles on the project, they remain part of the project team. 
 
-### Remove users from a project from the People area {#remove-users-from-a-project-from-the-people-area}
+For information about users' roles on a project, see [Manage the Project Team](../planning-a-project/manage-project-team.md). 
+
+To remove users from the Project Team: 
 
 1. Go to the project where you want to remove the users.
-1. Click **People** in the left panel, then select the users you want to remove. This might be located under the **Show More** area.   
+
+1. Click **People** in the left panel, then select the users you want to remove. You might need to click **Show More**, then **People**.   
 
 1. Click the **Remove** icon  ![Remove item](assets/remove-icon---x-in-circle.png) at the top of the list of users.
 
 1. Click **Yes, Remove Selected Users** to confirm removal.
+
+    The users are removed from the project team and from any incomplete tasks or issues that they might be assigned to. They no longer receive notifications intended for the Project Team. 

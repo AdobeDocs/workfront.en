@@ -19,6 +19,30 @@ For example, if your organization has a web-based document repository, wiki, or 
 >![](assets/qs-empty-external-page-report-350x165.png)  
 >To allow embedding for a website you own, work with your web administrator to adjust the **X-Frame-Options** setting. For more information, see [X-Frame-Options](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Frame-Options).
 
+
+>[!IMPORTANT]
+>
+>Dashboard pages are no longer supported as embeded external pages in Dashboards. While existing dashboards will not be automatically modified to remove these external pages, any modification to a dashboard that includes such a reference will not be able to be saved until the reference is removed or changed.
+>
+>Specifically, the following Workfront.com subdomains are no longer supported:
+>
+>* /dashboards​
+>* /dashboard/:ID​
+>* /portfolio/:ID/content-dashboard__:dashboardID​
+>* /program/:ID/content-dashboard__:dashboardID​
+>* /project/:ID/content-dashboard__:dashboardID​
+>* /task/:ID/content-dashboard__:dashboardID​
+>* /template/:ID/content-dashboard__:dashboardID​
+>* /templatetask/:ID/content-dashboard__:dashboardID​
+>* /resourcemanagement/:ID/content-dashboard__:dashboardID​
+>* /team/:ID/content-dashboard__:dashboardID​
+>* /iteration/:ID/content-dashboard__:dashboardID​
+>* /requests/:ID/content-dashboard__:dashboardID​
+>* /group/:ID/content-dashboard__:dashboardID​
+>* /billingrecord/:ID/content-dashboard__:dashboardID
+>
+>As an alternative solution, consider including a list report in your dashboard as explained in [Add a report to a Dashboard](/help/quicksilver/reports-and-dashboards/dashboards/creating-and-managing-dashboards/add-report-dashboard.md)
+
 ## Access requirements
 
 You must have the following:

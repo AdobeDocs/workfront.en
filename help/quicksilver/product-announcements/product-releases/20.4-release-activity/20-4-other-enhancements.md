@@ -20,8 +20,6 @@ In the new Workfront experience, the option Switch to Classic appears in the Mai
 
 In Workfront Classic, the option Switch to the new experience appears in the menu that displays when clicking the profile picture in the top-right corner of the Global Navigation Bar.
 
-[Watch a video demonstration of this feature.](https://vimeo.com/466353836/c1f3faa632)
-
 This feature is now included in the [Administrator Fundamentals, Part 1 learning path](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-20Y0z000000bmAXEAY) on Workfront One.
 
 ## Improved encryption for Workfront Proof
@@ -40,8 +38,6 @@ To improve the readability and overall experience, the following email templates
 
 To enable email for testing purposes in your Preview environment, see the Managing emails in preview section in [Activate or deactivate your own event notifications](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
-[Watch a video demonstration of this feature.](https://vimeo.com/468333260/3d58c57706)
-
 ## New email notifications for teams
 
 We've added the following email notification for teams:
@@ -58,8 +54,6 @@ Now, with a single click, you can enable or disable an event email notification 
 Also, notice our modern styling now improving the experience of configuring event notifications in the Email Notifications area.
 
 For information about configuring email notifications, see [Configure event notifications for everyone in the system](../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
-
-[Watch a video demonstration of this feature.](https://vimeo.com/466660243/af773312e4)
 
 This feature is now included in the [Email and in-app notifications learning path](https://one.workfront.com/s/learningpath2/email-and-in-app-notifications-in-the-new-workfront-experience-20Y4X000000CaZGUA0) on Workfront One.
 

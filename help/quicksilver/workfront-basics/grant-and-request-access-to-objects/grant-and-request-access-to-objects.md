@@ -21,7 +21,7 @@ This section contains the following articles about how you can grant and request
 * [Share a project in Adobe Workfront](../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md) 
 * [Share a task](../../workfront-basics/grant-and-request-access-to-objects/share-a-task.md) 
 * [Share an issue](../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md) 
-* [Sharing a template](../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md) 
+* [Share a template](../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md) 
 * [Share project templates](../../manage-work/projects/create-and-manage-templates/share-project-template.md) 
 * [Share financial permissions on an object](../../workfront-basics/grant-and-request-access-to-objects/share-financial-permissions-object.md) 
 * [Share a portfolio](../../workfront-basics/grant-and-request-access-to-objects/share-a-portfolio..md) 

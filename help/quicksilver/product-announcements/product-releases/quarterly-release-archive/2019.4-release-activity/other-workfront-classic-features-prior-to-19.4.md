@@ -28,7 +28,7 @@ For information about the release time frame and all functionality available wit
      <ul> 
       <li> October 18, 2019</li> 
      </ul> 
-    </div> <!--<p><iframe class="vimeo-player_0" src="assets/364110112?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe> </p> <p><a href="https://vimeo.com/364110112/4972767789" target="_blank">Watch a video demonstration of this feature.</a> </p>--> </td> 
+    </div>  </td> 
   </tr> 
   <tr> 
    <td> 
@@ -50,9 +50,7 @@ For information about the release time frame and all functionality available wit
        <li>August 9, 2019</li> 
       </ul> 
      </div> 
-     <!--<p><iframe class="vimeo-player_0" src="assets/352814469?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe> </p> 
-     <p><a href="https://vimeo.com/352814469/e267c80c31" target="_blank">Watch a video demonstration of this feature.</a> </p>--> 
-    </div> </td> 
+     </div> </td> 
   </tr> 
   <tr> 
    <td> 
@@ -70,9 +68,7 @@ For information about the release time frame and all functionality available wit
        <li>August 9, 2019</li> 
       </ul> 
      </div> 
-     <!--<p><iframe class="vimeo-player_0" src="assets/352816307?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe> </p> 
-     <p><a href="https://vimeo.com/352816307/c9988ec54c" target="_blank">Watch a video demonstration of this feature.</a> </p>--> 
-    </div> </td> 
+     </div> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -62,7 +62,7 @@ You can share a project in the following ways:
 
      For information about viewing inherited permissions on an object, see [View inherited permissions on objects](../../workfront-basics/grant-and-request-access-to-objects/view-inherited-permissions-on-objects.md).
 
-   * Add entities to Project Sharing on a template used to create the project. For information about sharing projects from templates, see [Sharing a template](../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md). 
+   * Add entities to Project Sharing on a template used to create the project. For information about sharing projects from templates, see [Share a template](../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md). 
    * Define the project access template.
 
      To define the project access template, see [Share an object](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md).

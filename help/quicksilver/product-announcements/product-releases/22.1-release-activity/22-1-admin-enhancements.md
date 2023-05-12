@@ -40,15 +40,11 @@ This does not change your users' existing access to teams.
 For more information, see [Grant access to teams](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-teams.md).
 -->
 
-[Watch a video demonstration of this feature.](https://vimeo.com/652603175/5693e7dafa)
-
 ## Group mapping now available in blueprints
 
 Some blueprints now include groups, which you can customize before installing the blueprint. You can map a group in the blueprint to an existing group in your Workfront instance, or create a new group if needed.
 
 For more information, see [Configure a blueprint](../../../administration-and-setup/blueprints/configure-template-package.md).
-
-[Watch a video demonstration of this feature.](https://vimeo.com/652608333/804c3ab1f6)
 
 ## Styling updates in the Custom Forms area
 
@@ -66,11 +62,9 @@ Creating calculated custom fields is now much easier with these additions in the
 * When you start typing an expression or field name, a list of available items displays so that you can choose the one you want. And, when you type an open parenthesis, the closing parenthesis is added automatically.
 * You can preview the result of your calculation using an existing object without leaving the calculation editor.
 
-Also, in the customizable “Instructions” hover text for a calculated custom field, you can display or hide the field's formula. This is useful if you think that the users who will fill out the custom form won't need that information.
+Also, in the customizable "Instructions" hover text for a calculated custom field, you can display or hide the field's formula. This is useful if you think that the users who will fill out the custom form won't need that information.
 
 For more information about creating a calculated custom field, see [Add calculated data to a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
-
-[Watch a video demonstration of this feature.](https://vimeo.com/652968756/9f99cf0faf)
 
 ## View audit log information about statuses and companies
 
@@ -93,8 +87,6 @@ The following Blueprints enhancements are now available:
 
 For more information, see [Configure a blueprint](../../../administration-and-setup/blueprints/configure-template-package.md).
 
-[Watch a video demonstration of this feature.](https://vimeo.com/642333705/76d3ed60db)
-
 ## Manage company memberships more easily
 
 In the Companies area, an updated toolbar makes it easy to add existing Workfront users to a company and to remove company members.
@@ -104,8 +96,6 @@ Previously, these actions were available only in the Edit Company box.
 The updated toolbar also contains all of the actions that were available in the previous toolbar, such as editing members' user profile information and deactivating them in the system.
 
 For more information, see [Manage company memberships](../../../administration-and-setup/set-up-workfront/organizational-setup/manage-company-memberships.md).
-
-[Watch a video demonstration of this feature.](https://vimeo.com/642385873/bda6bec5ce)
 
 ## Select expressions and fields in the new calculated field window
 
@@ -127,8 +117,6 @@ For information about how a Workfront administrator unlocks a timesheet and hour
 
 For information about how a group administrator configures unlocked task and issue preferences for a group, see [Configure timesheet and hour preferences for a group](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-timesheet-hour-preferences-group.md).
 
-[Watch a video demonstration of this feature.](https://vimeo.com/600488692/f2722950ee)
-
 ## Select multiple notifications that you want to unlock or re-lock for groups
 
 It's now faster and easier to unlock or re-lock email notifications for groups. Now you can select multiple notifications, check your selections to make sure they're correct, then click the new Unlock or Lock button that displays in the toolbar.
@@ -136,8 +124,6 @@ It's now faster and easier to unlock or re-lock email notifications for groups. 
 Previously, you had to unlock and re-lock notifications one at a time. Workfront currently has 95 notifications, so this took a while if you had to do it for all or many of them.
 
 For more information, see [Unlock or lock configuration of event notifications for all groups](../../../administration-and-setup/manage-workfront/emails/unlock-configuration-of-event-notifications-for-groups.md).
-
-[Watch a video demonstration of this feature.](https://vimeo.com/631397855/4f9152ba44)
 
 ## For group administrators: Easier to select a replacement group when you delete a group
 
@@ -147,8 +133,6 @@ When you are deleting a group, two improvements in the Delete Group box make it 
 * You can use the new info icon to make sure you are selecting the replacement group you want. Hovering over the icon displays a tooltip listing information about the group, such as the hierarchy of groups above it and the names of its administrators.
 
 For more information, see [Delete a group](../../../administration-and-setup/manage-groups/create-and-manage-groups/delete-a-group.md).
-
-[Watch a video demonstration of this feature.](https://vimeo.com/631401157/fc78779cfc)
 
 ## Larger area for creating calculated fields
 
@@ -168,8 +152,6 @@ Custom forms are now supported for the Group object. This makes it easier for gr
 
 For information about custom forms, see [Custom forms](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md).
 
-[Watch a video demonstration of this feature.](https://vimeo.com/655513230/51811d7775)
-
 ## Create OAuth2 apps to integrate applications with Workfront
 
 Now you can integrate Workfront with other applications that Workfront doesn't offer a built-in integration for. By creating an OAuth2 app for the application you want to integrate with, you can allow that application to access Workfront, while knowing that your data is protected by the secure, industry-standard OAuth2 authentication protocol.
@@ -180,6 +162,6 @@ For more information, see [Create OAuth2 applications for Workfront integrations
 
 ## Interface text improvements in Companies area
 
-In the Companies area in Setup, new confirmation messages and slight wording changes make it easier to manage company memberships. For example, the section name “People” in the left panel is now “Company Members.”
+In the Companies area in Setup, new confirmation messages and slight wording changes make it easier to manage company memberships. For example, the section name "People" in the left panel is now "Company Members."
 
 For information about managing company memberships, see [Manage company memberships](../../../administration-and-setup/set-up-workfront/organizational-setup/manage-company-memberships.md).

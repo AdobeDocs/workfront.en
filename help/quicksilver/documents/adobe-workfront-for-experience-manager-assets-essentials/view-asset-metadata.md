@@ -10,7 +10,7 @@ exl-id: cfad5855-033c-4a15-b5a2-7ff32ed65fe9
 ---
 # View mapped metadata for Experience Manager Assets or Assets Essentials
 
-You can see a real-time view of mapped metadata in the Document Details and Summary for documents panel. Metadata fields are first mapped when you send an asset from Workfront to Experience Manager Assets or Assets Essentials. Project fields remain up to date if they are changed in either application.
+You can see a real-time view of mapped metadata in the Document Details and Summary for documents panel. Metadata fields are first mapped when you send an asset from Workfront to Experience Manager Assets or Assets Essentials. If your Workfront administrator has enabled object metadata sync, fields remain up to date if they are changed in either application.
 
 ## Access requirements
 

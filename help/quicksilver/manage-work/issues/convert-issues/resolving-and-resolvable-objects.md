@@ -14,7 +14,7 @@ A Resolvable Object is an issue whose resolution is tied to a Resolving Object. 
 
 When you convert an issue to a task or a project, the issue becomes the Resolvable Object of the task or the project.   
 
-You can also manually link an issue to a Resolving Object, which can be a task, project, or issue.&nbsp;For information, see [Manually tie the resolution of an issue to other issues, tasks, or projects](../../../manage-work/issues/convert-issues/manually-tie-resolution-of-issue-to-ptis.md).   
+You can also manually link an issue to a Resolving Object, which can be a task, project, or issue. For information, see [Manually tie the resolution of an issue to other issues, tasks, or projects](../../../manage-work/issues/convert-issues/manually-tie-resolution-of-issue-to-ptis.md).   
 
 The original issue becomes the Resolvable Object of the task, project, or issue, in this scenario.
 
@@ -125,7 +125,7 @@ When an issue is the Resolvable Object of a task or a project, the changes in th
 
 #### Synchronize the Default Status of the Resolving Object with the Default Status of the Resolvable Object {#synchronize-the-default-status-of-the-resolving-object-with-the-default-status-of-the-resolvable-object}
 
-Regardless of whether the "Automatically set issue statuses to match the resolvable object using the Status keys" option is selected, every time the default status changes on the Resolving Objects (projects or tasks), the status of the Resolvable Object (issues) changes, accordingly. Only default statuses are already mapped to trigger such a change.
+Regardless of whether the "Automatically update Resolvable Issue status when the status of the Resolving Object changes" option is selected, every time the default status changes on the Resolving Objects (projects or tasks), the status of the Resolvable Object (issues) changes, accordingly. Only default statuses are already mapped to trigger such a change.
 
 The following default statuses for tasks trigger the following changes in the default statuses for issues, when the issue is set as the resolving object of a task:
 
@@ -157,13 +157,14 @@ The following default statuses for projects trigger the following changes in the
 
 When you change the status of the task or project to a custom status, the status of the issue changes to a custom issue status only if the following two conditions are met:
 
-* The "Automatically set issue statuses to match the resolvable object using the Status keys" option is selected. For more information about how to enable this setting, see [Set up Adobe Workfront to handle Resolvable Objects](#set-up-adobe-workfront-to-handle-resolvable-objects).
+* The "Automatically update Resolvable Issue status when the status of the Resolving Object changes" option is selected. For more information about how to enable this setting, see [Set up Adobe Workfront to handle Resolvable Objects](#set-up-adobe-workfront-to-handle-resolvable-objects).
 
 * The custom status of the project or task has the same three letter code as the custom status of the issue.
 
 You can create custom statuses with the same key for both issues and projects or tasks. When the project or task (as a Resolving Object) are changed to the custom status, the change also reflects on the status of the issue. The status key must be the same for the issue and project or task statuses.
 
-For example, create a project custom status named "Launched" with the three letter code "LCD" which equates with "Current". Also, create an issue custom status named "Project Launched", also with the letter code "LCD" which equates with "In Progress". When you mark the project as "Launched", the issue will automatically change the status to "Project Launched". If the "Automatically****set issue statuses to match the resolvable object using the Status keys" setting were not enabled, the issue status would change to "In Progress" instead (the default status).
+For example, create a project custom status named "Launched" with the three letter code "LCD" which equates with "Current". Also, create an issue custom status named "Project Launched", also with the letter code "LCD" which equates with "In Progress". When you mark the project as "Launched", the issue will automatically change the status to "Project Launched". If the "
+Automatically update Resolvable Issue status when the status of the Resolving Object changes" setting were not enabled, the issue status would change to "In Progress" instead (the default status).
 
 For more information about creating a custom status, see [Create or edit a status](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
 

@@ -3,7 +3,7 @@ content-type: api
 navigation-topic: api-navigation-topic
 title: Using JWT flow for custom OAuth 2 applications 
 description: Using JWT flow for custom OAuth 2 applications
-author: John
+author: Becky
 feature: Workfront API
 exl-id: 4bd56fe6-1f36-4c36-82cd-96de748ad680
 ---

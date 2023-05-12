@@ -9,13 +9,9 @@ exl-id: dfc73b58-482e-46c7-a8c2-46070ee617f9
 ---
 # Update work items in the Workload Balancer using the Summary
 
-<!--remove production and preview preferences at release-->
-
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> 
-
 You can use the Summary panel of a task or an issue to update important information for that item. in the Workload Balancer.
 
-The Summary panel is available for tasks <span class="preview">and issues</span> in both the Assigned and Unassigned Work areas of the Workload Balancer.
+The Summary panel is available for tasks and issuesin both the Assigned and Unassigned Work areas of the Workload Balancer.
 
 ## Access requirements
 
@@ -31,8 +27,9 @@ You must have the following:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Plan, in the Production environment</p>
-   <p><span class="preview">Work, in the Preview environment</span> </p> </td> 
+   <td> <p>Plan, when using the Workload Balancer in the Resourcing area</p>
+   <p>Work, when using the Workload Balancer of a team or project</p> 
+ </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 

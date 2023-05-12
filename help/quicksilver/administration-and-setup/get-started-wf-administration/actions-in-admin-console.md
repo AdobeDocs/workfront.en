@@ -99,7 +99,8 @@ As an Adobe Workfront administrator, your administration responsibilities and pr
     </ul> </td> 
    <td> 
     <ul> 
-     <li> <p>The section "Permanently delete users" in <a href="https://helpx.adobe.com/enterprise/using/manage-directory-users.html">Manage directory users</a></p> </li> 
+     <li> <p>The section "Permanently delete users" in <a href="https://helpx.adobe.com/enterprise/using/manage-directory-users.html">Manage directory users</a>
+     </p><p>Note: Deleting a user from the [!DNL Adobe Admin Console] deactivates the user in [!DNL Workfront], but does not delete them from [!DNL Workfront].</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -161,16 +162,11 @@ As an Adobe Workfront administrator, your administration responsibilities and pr
 
 Because the Adobe Business Platform controls Single Sign-On (SSO) for users, the following actions and functionality are handled automatically through the Adobe Business Platform. If your organization has not yet been onboarded to the Adobe Business Platform, you must perform these actions in Workfront.
 
-* [Configure Adobe Workfront with Active Directory](../../administration-and-setup/add-users/single-sign-on/configure-workfront-ad.md) 
-* [Configure Adobe Workfront with Azure Active Directory](../../administration-and-setup/add-users/single-sign-on/configure-workfront-azure-ad.md) 
-* [Configure Adobe Workfront with LDAP](../../administration-and-setup/add-users/single-sign-on/configure-workfront-ldap.md) 
-* [Configure Adobe Workfront with SAML 1.1](../../administration-and-setup/add-users/single-sign-on/configure-workfront-saml-1.1.md) 
+
 * [Configure Adobe Workfront with SAML 2.0](../../administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2.md) 
 * [Configure Adobe Workfront with SAML 2.0 using ADFS](../../administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2-adfs.md) 
 * [Deactivate single sign-on in Adobe Workfront](../../administration-and-setup/add-users/single-sign-on/deactivate-sso.md) 
 * [Update SAML 2.0 metadata in your identity provider](../../administration-and-setup/add-users/single-sign-on/update-saml-2-metadata-ip.md) 
-* [Update SAML 2.0 metadata in your IDP when using enhanced authentication](../../administration-and-setup/add-users/single-sign-on/update-saml-2-metadata-ip-eauth-.md) 
 * [Update users for single sign-on](../../administration-and-setup/add-users/single-sign-on/update-users-sso.md) 
 * [Configure password policies for authentication](../../administration-and-setup/manage-workfront/security/configure-password-policies-authentication.md) 
 * [Configure system security preferences](../../administration-and-setup/manage-workfront/security/configure-security-preferences.md) 
-* [Set up Azure Active Directory with Enhanced Authentication](../../administration-and-setup/manage-workfront/security/set-up-azure-active-directory-enhanced-authentication.md)

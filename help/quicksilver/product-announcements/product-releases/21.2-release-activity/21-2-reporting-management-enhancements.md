@@ -75,4 +75,3 @@ Previously, you could report on system updates only via the Workfront API.
 
 To learn more about this report and what you can use it for, see [Report on the Updates area](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md).
 
-[Watch a video demonstration of this feature.](https://vimeo.com/513511262/466fe94246)

@@ -22,7 +22,6 @@ exl-id: 264eed40-6d90-498b-83cc-2500c8b19c84
 If your firewall or mail server is configured to allow access to only certain vendors, you must add certain IP addresses to its allowlist. This opens communication between your environment and the Adobe Workfront servers and allows the following processes:
 
 * Sending messages from the Workfront application
-* Using single sign-on (SSO) with Active Directory or Lightweight Directory Access Protocol (LDAP)
 
   >[!NOTE]
   >
@@ -101,7 +100,7 @@ If your Production environment is on Cluster 1, 2, 3, 5, or 7 you must allow the
      <li>52.14.70.114</li> 
      <li>52.15.230.220</li> 
      <li>54.71.252.65</li> 
-    </ul> <p>For information about the following IP addresses, see <a href="../../product-announcements/announcements/new-email-ip-21.1.md" class="MCXref xref">New IP addresses for Adobe Workfront email with the 21.1 release</a></p> 
+    </ul> <p>For information about the following IP addresses, see <a href="../../product-announcements/announcements/announcement-archive/new-email-ip-21.1.md" class="MCXref xref">New IP addresses for Adobe Workfront email with the 21.1 release</a></p> 
     <ul> 
      <li>23.251.237.107</li> 
      <li>23.251.237.108</li> 
@@ -135,7 +134,7 @@ If your Production environment is on Cluster 4, add the following IP addresses f
 * 54.220.93.204
 * 34.254.76.122
 
-For information about the following IP addresses, see [New IP addresses for Adobe Workfront email with the 21.1 release](../../product-announcements/announcements/new-email-ip-21.1.md)
+For information about the following IP addresses, see [New IP addresses for Adobe Workfront email with the 21.1 release](../../product-announcements/announcements/announcement-archive/new-email-ip-21.1.md)
 
 * 23.251.239.98
 * 23.251.239.99
