@@ -56,7 +56,7 @@ To create a connection for your Adobe I/O Events modules:
 
 1.  Click Add next to the Connection box.
     
-2.  Fill in the following fields:
+1.  Fill in the following fields:
     
     <table style="table-layout:auto"> 
     <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column1">
