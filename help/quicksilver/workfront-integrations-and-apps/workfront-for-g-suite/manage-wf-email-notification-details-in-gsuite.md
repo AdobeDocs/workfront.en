@@ -2,19 +2,23 @@
 product-area: workfront-integrations
 keywords: google,doc,document,sheet,slide
 navigation-topic: workfront-for-g-suite
-title: Manage Adobe Workfront notification details from G Suite
-description: In G Suite, when you open a notification email Adobe Workfront has sent, you can view the associated work item details and respond without leaving your Inbox. If actions are available, such as approving a request, you can perform those actions directly from Workfront for G Suite.
+title: Manage [!DNL Adobe Workfront] notification details from G Suite
+description: In G Suite, when you open a notification email Adobe [!DNL Workfront] has sent, you can view the associated work item details and respond without leaving your Inbox. If actions are available, such as approving a request, you can perform those actions directly from Workfront for G Suite.
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: d5ca31d8-3667-4405-a523-3dc248a94746
 ---
-# Manage Adobe Workfront notification details from G Suite
-
-In G&nbsp;Suite, when you open a notification email Adobe Workfront has sent, you can view the associated work item details and respond without leaving your Inbox. If actions are available, such as approving a request, you can perform those actions directly from Workfront for G Suite.
+# Manage [!DNL Adobe Workfront] notification details from [!DNL G Suite]
 
 >[!NOTE]
 >
->Workfront for G&nbsp;Suite supports almost every type of email notification you can receive from Workfront (about 120 different types). Daily digest emails sent from Workfront do not appear in Workfront for G&nbsp;Suite. For information about the Workfront email notification types, see [Activate or deactivate your own event notifications](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+>There is a [known issue](https://experienceleague.adobe.com/docs/workfront-known-issues/issues/new-workfront-experience/wf-current/wf-integrations-error-when-opening-wf-for-gsuite.html?lang=en) with the current version of [!DNL Workfront for G Suite] not working as expected. We are working on a new version and expect it to be released to the [!DNL Google Marketplace] in the near future. 
+
+In [!DNL G Suite], when you open a notification email [!DNL Adobe Workfront] has sent, you can view the associated work item details and respond without leaving your [!UICONTROL Inbox]. If actions are available, such as approving a request, you can perform those actions directly from [!DNL Workfront for G Suite].
+
+>[!NOTE]
+>
+> [!DNL Workfront for G Suite] supports almost every type of email notification you can receive from [!DNL Workfront] (about 120 different types). [!UICONTROL Daily digest] emails sent from [!DNL Workfront] do not appear in [!DNL Workfront for G Suite]. For information about the [!DNL Workfront] email notification types, see [Activate or deactivate your own event notifications](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 ## Access requirements
 
@@ -25,53 +29,34 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Work, Plan</p> </td> 
-  </tr> <!--
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td role="rowheader">Access level configurations*</td> 
-    <td> <p>[Insert any access level configurations needed]
-       <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-        Example: Edit access to Documents
-       </MadCap:conditionalText>
-      </p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> 
-      <p data-mc-conditions="QuicksilverOrClassic.Draft mode"> You must be a Workfront administrator. For information on Workfront administrators, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>.</p>
-      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a group administrator. For more information on group administrators, see <a href="../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Group administrators</a>.</p>
-     </td> 
-   </tr>
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td role="rowheader">Object permissions</td> 
-    <td> <p>[Insert permissions needed and specify the object]
-       <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-        Example: View access or higher on Documents
-       </MadCap:conditionalText>
-      </p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
-   </tr>
-  --> </tbody> 
+   <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
+   <td> <p>[!UICONTROL Work], [!UICONTROL Plan]</p> </td> 
+  </tr> 
+  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+&#42;To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
 
 ## Prerequisites
 
-Before you can manage notification details from G Suite, you must
+Before you can manage notification details from [!DNL G Suite], you must
 
-* Install Workfront for G suite  
-  For instructions, see [Install Adobe Workfront for G Suite](../../workfront-integrations-and-apps/workfront-for-g-suite/install-workfront-for-gsuite.md).
+* Install [!DNL Workfront for G suite]\
+   For instructions, see [Install [!DNL Adobe Workfront for G Suite]](../../workfront-integrations-and-apps/workfront-for-g-suite/install-workfront-for-gsuite.md).
 
-## Manage Adobe Workfront notification details from G Suite
+## Manage [!DNL Adobe Workfront] notification details from [!DNL G Suite]
 
-1. If the Workfront for G Suite panel is not displayed, click the&nbsp;Workfront icon ![](assets/wf-lion-icon.png) in the G Suite add-ons sidebar at the far-right of the page. 
-1. In G&nbsp;Suite, open a Workfront notification email.
-1. Click **View all updates** if it is displayed near the top of the panel.
-1. Click **Details**.
+1. If the [!DNL Workfront for G Suite] panel is not displayed, click the [!DNL Workfront] icon ![](assets/wf-lion-icon.png) in the [!DNL G Suite] add-ons sidebar at the far-right of the page.
+1. In [!DNL G Suite], open a [!DNL Workfront] notification email.
+1. Click **[!UICONTROL View all updates]** if it is displayed near the top of the panel.
+1. Click **[!UICONTROL Details]**.
 1. Click any available options.
 
-   The options that might display relate to the type of email notification you have opened. For example, if it's an email notification asking you to approve a task, you see **Approve** and **Reject** instead of options such as **Work on It** or **Done**:
+   The options that might display relate to the type of email notification you have opened. For example, if it's an email notification asking you to approve a task, you see **[!UICONTROL Approve]** and **[!UICONTROL Reject]** instead of options such as **[!UICONTROL Work on It]** or **[!UICONTROL Done]**:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -85,23 +70,23 @@ Before you can manage notification details from G Suite, you must
     <tbody> 
      <tr> 
       <td>Task or issue</td> 
-      <td><strong>Approve</strong> it, <strong>Reject</strong> it, <strong>Grant</strong> access to it, <strong>Ignore</strong> a request for access to it, <strong>Work on it</strong>, or click an option to indicate that you are <strong>Done</strong> with it</td> 
+      <td><strong>[!UICONTROL Approve]</strong> it, <strong>[!UICONTROL Reject]</strong> it, <strong>[!UICONTROL Grant]</strong> access to it, <strong>[!UICONTROL Ignore]</strong> a request for access to it, <strong>[!UICONTROL Work on it]</strong>, or click an option to indicate that you are <strong>[!UICONTROL Done]</strong> with it</td> 
      </tr> 
      <tr> 
       <td>Project</td> 
-      <td><strong>Approve</strong> it, <strong>Reject</strong> it, <strong>Grant</strong> access to it, or <strong>Ignore</strong> a request for access to it</td> 
+      <td><strong>[!UICONTROL Approve]</strong> it, <strong>[!UICONTROL Reject]</strong> it, <strong>[!UICONTROL Grant]</strong> access to it, or <strong>[!UICONTROL Ignore]</strong> a request for access to it</td> 
      </tr> 
      <tr> 
       <td>Document</td> 
-      <td><strong>Approve</strong> it, <strong>Reject</strong> it, <strong>Grant</strong> access to it, or <strong>Ignore</strong> a request for access to it</td> 
+      <td><strong>[!UICONTROL Approve]</strong> it, <strong>[!UICONTROL Reject]</strong> it, <strong>[!UICONTROL Grant]</strong> access to it, or <strong>[!UICONTROL Ignore]</strong> a request for access to it</td> 
      </tr> 
      <tr> 
       <td>Update </td> 
-      <td> <p>View any part of the entire list of updates for the item so that you have the context you need to <strong>Post</strong> a new update or a <strong>Reply</strong>. You can click <strong>Notify</strong> to alert particular users about your reply. </p> <p>For more information, see <a href="../../workfront-integrations-and-apps/workfront-for-g-suite/reply-to-wf-update-notification-from-gsuite.md" class="MCXref xref">Reply to a Adobe Workfront update notification from G Suite</a>.</p> </td> 
+      <td> <p>View any part of the entire list of updates for the item so that you have the context you need to <strong>[!UICONTROL Post]</strong> a new update or a <strong>[!UICONTROL Reply]</strong>. You can click <strong>[!UICONTROL Notify]</strong> to alert particular users about your reply. </p> <p>For more information, see <a href="../../workfront-integrations-and-apps/workfront-for-g-suite/reply-to-wf-update-notification-from-gsuite.md" class="MCXref xref">Reply to a [!DNL Adobe Workfront] update notification from [!DNL G Suite]</a>.</p> </td> 
      </tr> 
      <tr> 
       <td>Approval request</td> 
-      <td><strong>Approve</strong> or <strong>Reject</strong> it (you can change your mind by clicking the other option), download it, view its owner, or view its reference number</td> 
+      <td><strong>[!UICONTROL Approve]</strong> or <strong>[!UICONTROL Reject]</strong> it (you can change your mind by clicking the other option), download it, view its owner, or view its reference number</td> 
      </tr> 
      <tr> 
       <td>A change in a project's status</td> 

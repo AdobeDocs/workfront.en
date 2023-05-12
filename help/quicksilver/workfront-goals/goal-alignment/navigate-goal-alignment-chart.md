@@ -18,6 +18,61 @@ For information about goal alignment and how to achieve it, also see the followi
 
 ## Access requirements
 
+<!-- drafted for P&P release: 
+
+You must have the following to perform the activities described in this article:
+
+<table style="table-layout:auto">
+ <col>
+ </col>
+ <col>
+ </col>
+ <tbody>
+  <tr>
+   <td role="rowheader">Adobe Workfront plan*</td>
+   <td>
+   <p>Current plan: Select or higher</p>
+   Or
+   <p>Legacy plan: Pro or higher</p>
+   
+   </td>
+  </tr>
+  <tr>
+   <td role="rowheader">Adobe Workfront license*</td>
+   <td>
+   <p>Current license: Contributor or higher</p>
+   Or
+   <p>Legacy license: Request or higher</p> <p>For more information, see <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p> </td>
+  </tr>
+  <tr>
+   <td role="rowheader">Product</td>
+   <td>
+   <p> Current product requirement: If you have the Select or Prime Adobe Workfront plan, you must also buy an additional Adobe Workfront Goals license.  Workfront Goals are included in the Ultimate Workfront Plan.</p>
+   Or
+   <p>Legacy product requirement: You must purchase an additional license for the Adobe Workfront Goals to access functionality described in this article. </p> <p>For information, see <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requirements to use Workfront Goals</a>. </p> </td>
+  </tr>
+  <tr>
+   <td role="rowheader">Access level*</td>
+   <td> <p>Edit access to Goals</p> <p><b>NOTE</b><p>If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see:</p>
+     <ul>
+      <li> <p><a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a> </p> </li>
+      <li> <p><span href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md"><a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md" class="MCXref xref">Grant access to Adobe Workfront Goals</a></span> </p> </li>
+     </ul> </p> </td>
+  </tr>
+  <tr data-mc-conditions="">
+   <td role="rowheader">Object permissions</td>
+   <td>
+    <div>
+     <p>View or higher permissions to the goal to view it</p>
+     <p>Manage permissions to the goal to edit it</p>
+     <p>For information about sharing goals, see <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Share a goal in Workfront Goals</a>. </p>
+    </div> </td>
+  </tr>
+ </tbody>
+</table>
+
+-->
+
 You must have the following to perform the activities described in this article:
 
 <table style="table-layout:auto"> 
@@ -61,7 +116,7 @@ You must have the following to perform the activities described in this article:
 
 You must have the following before you can start:
 
-* A Layout Template that includes the Goals area in the Main&nbsp;Menu.
+* A Layout Template that includes the Goals area in the Main Menu.
 
 ## Navigate the Goal Alignment section
 
@@ -81,11 +136,11 @@ You must have the following before you can start:
     <tbody> 
      <tr> 
       <td role="rowheader">Time period dates </td> 
-      <td> <p>This is the period for which the goal is open.&nbsp;The goal must be achieved by the end date of the period. Workfront Goals calculates progress on the goal based on the duration of the goal's period and the current date.</p> </td> 
+      <td> <p>This is the period for which the goal is open. The goal must be achieved by the end date of the period. Workfront Goals calculates progress on the goal based on the duration of the goal's period and the current date.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Progress indicators</td> 
-      <td>The number of progress indicators for the goal.&nbsp;Progress indicators can be aligned goals, results, or activities. </td> 
+      <td>The number of progress indicators for the goal. Progress indicators can be aligned goals, results, or activities. </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Owner name</td> 
@@ -97,7 +152,7 @@ You must have the following before you can start:
      </tr> 
      <tr> 
       <td role="rowheader">Goal Progress bar <span>and Progress</span></td> 
-      <td> <p>The goal progress indicates how much of the goal has currently been achieved.&nbsp;This is an automatic calculation of the average of the progress of all aligned goals, results, and activities for the goal based on the time elapsed since the start of the goal's time period. For information about calculating progress on goals, see <a href="../../workfront-goals/goal-management/calculate-goal-progress.md" class="MCXref xref">Calculate goal progress in Adobe Workfront Goals</a>. </p> 
+      <td> <p>The goal progress indicates how much of the goal has currently been achieved. This is an automatic calculation of the average of the progress of all aligned goals, results, and activities for the goal based on the time elapsed since the start of the goal's time period. For information about calculating progress on goals, see <a href="../../workfront-goals/goal-management/calculate-goal-progress.md" class="MCXref xref">Overview of goal progress and condition in Adobe Workfront Goals</a>. </p> 
        <div> 
         <p>The actual progress of the goal by the current date.&nbsp;The following progress values and colors indicate how likely the goal is to being achieved on time: </p> 
         <ul> 
@@ -146,7 +201,7 @@ You must have the following before you can start:
 
      A Reapply filter link displays to the left of the filter name.
 
-1. (Optional)&nbsp;Click **Reapply filter** to return to the original results and display the goal hierarchy.
+1. (Optional) Click **Reapply filter** to return to the original results and display the goal hierarchy.
 1. (Optional) Hover over the progress indicator to understand where the goal progress should be for the current day.
 
    ![](assets/progress-mouse-over-alignment-chart-350x163.png)
@@ -172,13 +227,12 @@ You must have the following before you can start:
     </tbody> 
    </table>
 
-1. Click a goal card to open the Goal&nbsp;Details panel and edit information about or check in on the goal. For information about editing existing goals, see [Edit goals in Adobe Workfront Goals](../../workfront-goals/goal-management/edit-goals.md). For information about checking in on goals, see [Check in on goals in Adobe Workfront Goals](../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md).
+1. Click a goal card to open the goal page. For information about editing existing goals, see [Edit goals in Adobe Workfront Goals](../../workfront-goals/goal-management/edit-goals.md). For information about updating progress for goals, see [Update goal progress in Adobe Workfront Goals](../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md).
+
 1. Click the the upward-pointing arrow of the current-level goal to return to the previous level in the hierarchy of the chart.
 
    Or
 
-   (Optional)&nbsp;Click **Exit goal hierarchy** to display the cards of all the goals that match the current filter, without displaying their connection to each other.
+   (Optional) Click **Exit goal hierarchy** to display the cards of all the goals that match the current filter, without displaying their connection to each other.
 
-   &nbsp;
 
-&nbsp;

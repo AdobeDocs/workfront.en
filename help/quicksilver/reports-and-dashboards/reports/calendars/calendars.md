@@ -14,8 +14,8 @@ This section contains the following articles:
 
 * [Calendar reports overview](../../../reports-and-dashboards/reports/calendars/calendar-reports-overview.md) 
 * [Use custom date fields in a calendar report](../../../reports-and-dashboards/reports/calendars/use-custom-dates.md) 
-* [Use Planned Dates in a calendar report](../../../reports-and-dashboards/reports/calendars/use-planned-dates.md) 
-* [Use Projected Dates in a calendar report](../../../reports-and-dashboards/reports/calendars/use-projected-dates.md) 
+* [Use [!UICONTROL Planned Dates] in a calendar report](../../../reports-and-dashboards/reports/calendars/use-planned-dates.md) 
+* [Use [!UICONTROL Projected Dates] in a calendar report](../../../reports-and-dashboards/reports/calendars/use-projected-dates.md) 
 * [View calendar reports and event details](../../../reports-and-dashboards/reports/calendars/view-calendar-reports-and-event-details.md) 
 * [Share a calendar report](../../../reports-and-dashboards/reports/calendars/share-a-calendar-report.md) 
 * [Edit an existing calendar report](../../../reports-and-dashboards/reports/calendars/edit-an-existing-calendar-report.md) 

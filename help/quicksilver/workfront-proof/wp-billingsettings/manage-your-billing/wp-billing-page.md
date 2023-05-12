@@ -3,23 +3,23 @@ content-type: overview
 product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: manage-your-billing-workfront-proof
-title: The Workfront Proof Billing Page
-description: To access the Billing page, open the Settings menu it the top right of the screen and choose Billing in the drop-down menu.
+title: The [!DNL Workfront] Proof Billing Page
+description: To access the [!UICONTROL Billing] page, open the Settings menu it the top right of the screen and choose Billing in the drop-down menu.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: f3828671-e950-4649-9f6d-881101100a96
 ---
-# The Workfront Proof Billing Page
+# The [!DNL Workfront Proof] Billing Page
 
 >[!IMPORTANT]
 >
->This article refers to functionality in the standalone product Workfront Proof. For information on proofing inside Adobe Workfront, see [Proofing](../../../review-and-approve-work/proofing/proofing.md).
+>This article refers to functionality in the standalone product [!DNL Workfront Proof]. For information on proofing inside [!DNL Adobe Workfront], see [Proofing](../../../review-and-approve-work/proofing/proofing.md).
 
 ## The Billing Page
 
-To access the Billing page, open the **Settings** menu it the top right of the screen and choose **Billing** in the drop-down menu.
+To access the [!UICONTROL Billing] page, open the **[!UICONTROL Settings]** menu at the top right of the screen and choose **[!UICONTROL Billing]** in the drop-down menu.
 
-The Billing page contains the following:
+The [!UICONTROL Billing] page contains the following:
 
 * Account name (1)
 * Accounts list (e.g. if you have Satellite accounts)(2)
@@ -33,9 +33,9 @@ The Billing page contains the following:
 * Billing history (10)
 * Billing activity (11)
 
-  ![Billing_page.jpg](assets/billing-page-350x315.jpg)
+   ![Billing_page.jpg](assets/billing-page-350x315.jpg)
 
-## Current Plan
+## [!UICONTROL Current Plan]
 
 This section (7) shows the details of your current plan, including the following:
 
@@ -45,9 +45,9 @@ This section (7) shows the details of your current plan, including the following
 * Next plan type
 * Next plan payment method
 
-  For more information, see [Choosing Your Payment Method in Workfront Proof](../../../workfront-proof/wp-billingsettings/manage-your-billing/choose-payment-method-in-wp.md).
+   For more information, see [Choosing Your Payment Method in [!DNL Workfront Proof]](../../../workfront-proof/wp-billingsettings/manage-your-billing/choose-payment-method-in-wp.md).
 
-## Billing Contact and Address
+## [!UICONTROL Billing Contact and Address]
 
 This section (8) shows the main billing contact and address details for your account.
 
@@ -57,7 +57,7 @@ The Billing contact can be selected only from the users set up as the Billing Ad
 
 >[!NOTE]
 >
->&nbsp;You can have multiple Billing Administrators on your account, but only one of them, selected in the Billing contact field, will be receiving all the billing notifications and account usage alerts.
+> You can have multiple Billing Administrators on your account, but only one of them, selected in the [!UICONTROL Billing contact] field, will be receiving all the billing notifications and account usage alerts.
 
 This includes the following notification emails:
 
@@ -67,21 +67,21 @@ This includes the following notification emails:
 * Late payment/Account suspension alert
 * Credit card failure
 
-  ![Billin_CC.png](assets/billin-cc-350x103.png)
+   ![Billin_CC.png](assets/billin-cc-350x103.png)
 
-The Billing CC field also allows you to add an email address to be copied on all billing-related emails. Click on the filed to activate incline editing and enter an email address of your choice (this can be an existing user's email address too).
+The [!UICONTROL Billing CC] field also allows you to add an email address to be copied on all billing-related emails. Click on the filed to activate incline editing and enter an email address of your choice (this can be an existing user's email address too).
 
-## Billing Address
+## [!UICONTROL Billing Address]
 
-This section&nbsp;uses inline editing so simply click on the fields to enter/edit&nbsp;the text.
+This section uses inline editing so simply click on the fields to enter/edit the text.
 
 >[!NOTE]
 >
->&nbsp;We include this address on&nbsp;your subscription invoices so make sure this data is always&nbsp;up-to-date.
+> We include this address on your subscription invoices so make sure this data is always up-to-date.
 
-![Billing_Address.png](assets/billing-address-350x199.png) 
+![Billing_Address.png](assets/billing-address-350x199.png)
 
-## Usage Statistics
+## [!UICONTROL Usage Statistics]
 
 This section shows the usage statistics for your account within the current billing period, including the following:
 
@@ -89,22 +89,22 @@ This section shows the usage statistics for your account within the current bill
 * Proofs used
 * Users limit used
 
-![Usage_Statistics.png](assets/usage-statistics-350x51.png) 
+![Usage_Statistics.png](assets/usage-statistics-350x51.png)
 
-### Usage Warnings
+### [!UICONTROL Usage Warnings]
 
-The [Proof Permissions Profiles in Workfront Proof](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md) set as the Billing Contact (1) on your account will be notified via email when your account reaches:
+The [[!UICONTROL Proof Permissions Profiles] in [!DNL Workfront] Proof](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md) set as the Billing Contact (1) on your account will be notified via email when your account reaches:
 
 * 75% and then 98% of your storage capacity
 * 75% and then 100% of your proof limit
 
 ![Billing_Contact__1_.png](assets/billing-contact--1--350x74.png)
 
-Once the proofs or storage limits are reached you will also see the alerts at the top of the Billing page:
+Once the proofs or storage limits are reached you will also see the alerts at the top of the [!UICONTROL Billing] page:
 
 * For the proofs limit reached
 
-&nbsp; ![Proofs_limit_reached.png](assets/proofs-limit-reached-350x65.png)
+  ![Proofs_limit_reached.png](assets/proofs-limit-reached-350x65.png)
 
 * For the storage limit reached
 
@@ -114,22 +114,22 @@ Once the proofs or storage limits are reached you will also see the alerts at th
 >
 >Your proof count is used up when proofs are created in your account and cannot be restored by removing the proofs.
 
-Storage space can be freed by deleting the proofs and files and emptying the Trash afterwards.
+Storage space can be freed by deleting the proofs and files and emptying the [!UICONTROL Trash] afterwards.
 
-Please remember that if you need more proofs, storage, or users you can upgrade your account&nbsp;at any time; and it takes immediate effect.
+Please remember that if you need more proofs, storage, or users you can upgrade your account at any time; and it takes immediate effect.
 
-## Billing History
+## [!UICONTROL Billing History]
 
 This section shows the activity for any recent billing periods. You can also download your invoices from this section.
 
-For more information, see " [Downloading Your Workfront Proof Invoice](../../../workfront-proof/wp-billingsettings/manage-your-billing/download-wp-invoice.md)."
+For more information, see " [Downloading Your [!DNL Workfront Proof] Invoice](../../../workfront-proof/wp-billingsettings/manage-your-billing/download-wp-invoice.md)."
 
-## Billing Activity
+## [!UICONTROL Billing Activity]
 
-This section shows recent changes to your billing set up, e.g., subscriptions, upgrades, downgrades, and renewals of your Workfront Proof Plan.
+This section shows recent changes to your billing set up, e.g., subscriptions, upgrades, downgrades, and renewals of your [!DNL Workfront Proof] Plan.
 
 If you change your plan to one with a lower user limit (1), users exceeding the new limit will automatically be deactivated when the new plan starts. This activity will also be captured in your Account logs (2).
 
 ![Billing_Downgrade_log.png](assets/billing-downgrade-log-350x45.png)
 
-&nbsp; ![Account_Activity_-_Deleted_users.png](assets/account-activity---deleted-users-350x94.png)
+  ![Account_Activity_-_Deleted_users.png](assets/account-activity---deleted-users-350x94.png)

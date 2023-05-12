@@ -2,7 +2,7 @@
 product-area: projects
 navigation-topic: manage-projects
 title: Copy a project
-description: Copy a project
+description: You can copy a project rather than create one from scratch. You can copy only one project at a time. You cannot copy projects in bulk.
 author: Alina
 feature: Work Management
 exl-id: 1bb133a8-eb76-46b8-969f-37f57f9453b4
@@ -10,10 +10,10 @@ exl-id: 1bb133a8-eb76-46b8-969f-37f57f9453b4
 # Copy a project
 
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: LINKED TO THE PRODUCT IN THE COPY PROJECT BOX)</p>
+<(LINKED TO THE PRODUCT IN THE COPY PROJECT BOX)</p>
 -->
 
-You can copy a project rather than create one from scratch. You can copy only one project. You cannot copy projects in bulk.
+You can copy a project rather than create one from scratch. You can copy only one project at a time. You cannot copy projects in bulk.
 
 >[!IMPORTANT]
 >
@@ -25,6 +25,7 @@ You can copy a project rather than create one from scratch. You can copy only on
 >* Notes  
 >* Hours
 >* Cross-project predecessors
+>* Budgeted hours 
 >
 >The following items are always copied from an existing project to a new one:
 >
@@ -39,6 +40,35 @@ You can copy a project rather than create one from scratch. You can copy only on
 
 ## Access requirements
 
+<!-- drafted for P&P:
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td> <p>Adobe Workfront plan*</p> </td> 
+   <td>Any</td> 
+  </tr> 
+  <tr> 
+   <td> <p>Adobe Workfront license*</p> </td> 
+   <td> <p>Current license: Standard </p> 
+   Or
+   <p>Legacy license: Plan </p>
+   </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td><strong>Access level configurations*</strong> </td> 
+   <td> <p>Edit access to Projects with ability to Create <span>and Copy</span> projects</p> <p><b>NOTE</b>
+   
+   If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td> <p><strong>Object permissions</strong> </p> </td> 
+   <td> <p>View permissions or higher to the project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+-->
 You must have the following:
 
 <table style="table-layout:auto"> 
@@ -55,7 +85,9 @@ You must have the following:
   </tr> 
   <tr data-mc-conditions=""> 
    <td><strong>Access level configurations*</strong> </td> 
-   <td> <p>Edit access to Projects with ability to Create <span>and Copy</span> projects</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>Edit access to Projects with ability to Create <span>and Copy</span> projects</p> <p><b>NOTE</b>
+   
+   If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><strong>Object permissions</strong> </p> </td> 
@@ -94,7 +126,8 @@ To copy a project:
 
    By default, the **Status** matches that of the original project.
 
-1. (Optional) Deselect the items that you don't want to copy to the new project.&nbsp;The following table describes what happens when you deselect the items:
+1. (Optional) Deselect the items that you don't want to copy to the new project. The following table describes what happens when you deselect the items:
+      
 
    <table style="table-layout:auto"> 
     <col> 
@@ -102,7 +135,9 @@ To copy a project:
     <tbody> 
      <tr> 
       <td role="rowheader">Select all</td> 
-      <td> <p>Selects all options and clears all the fields and objects listed from the new project.</p> <p>Tip: Deselecting <strong>Select all</strong> deselects all items. </p> </td> 
+      <td> <p>Selects all options and clears all the fields and objects listed from the new project.</p> <p><b>TIP</b>
+      
+    Deselecting <strong>Select all</strong> deselects all items. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Assignments</td> 
@@ -113,13 +148,15 @@ To copy a project:
       <td>Removes the progress on all the tasks and they display as New. </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Custom&nbsp;Data</td> 
+      <td role="rowheader">Custom Data</td> 
       <td> <p>Removes the information from the custom form on the project, as well as the information on the custom forms associated with the following items:</p> 
        <ul> 
         <li>Tasks</li> 
         <li>Expenses</li> 
-        <li> <p>Documents</p> </li> 
-       </ul> <p>Note: The custom forms remain attached to the tasks, expenses, documents, and the project, but the information in the custom fields of the forms is not copied to the new project. </p> </td> 
+        <li> Documents</li> 
+       </ul> <p><b>NOTE</b>
+      
+      The custom forms remain attached to the tasks, expenses, documents, and the project, but the information in the custom fields of the forms is not copied to the new project. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Documents</td> 
@@ -127,9 +164,20 @@ To copy a project:
      </tr> 
      <tr> 
       <td role="rowheader">All Predecessors</td> 
-      <td> <p>Removes all predecessor relationships between the tasks on the project. </p> <p>Tip: Cross-project predecessors never transfer to the new project, regardless of whether this is selected or not. </p> </td> 
-     </tr> 
-     <tr> 
+      <td> <p>Removes all predecessor relationships between the tasks on the project. </p> <p><b>TIP</b>
+      
+      Cross-project predecessors never transfer to the new project, regardless of whether this is selected or not. </p> </td> 
+     </tr>
+
+  <tr> 
+      <td role="rowheader">Budgeted hours</td> 
+      <td> <p>Removes the hours budgeted in the Resource Planning area of the project's Business Case from the copied project.</p> 
+    
+   <b>NOTE</b>
+    
+   Hours budgeted using the Scenario Planner are never copied to the new project because the new project is not linked to an initiative in the Scenario Planner. For more information, see <a href="../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md">Budget resources in the Business Case using the Scenario Planner</a>
+   </tr></td>
+    <tr> 
       <td role="rowheader">Financial Information</td> 
       <td> <p>Removes the information in the following areas: </p> 
        <ul> 

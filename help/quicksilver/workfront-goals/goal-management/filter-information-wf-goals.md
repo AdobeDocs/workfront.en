@@ -9,9 +9,61 @@ exl-id: ec9b6789-fffe-425c-8316-eefe670ad0d6
 ---
 # Filter information in Adobe Workfront Goals
 
-You can view goals that you or anyone else added in&nbsp;Adobe Workfront Goals. For information about creating goals, see [Create goals in Adobe Workfront Goals](../../workfront-goals/goal-management/create-goals.md). When viewing goals, you can filter information in Workfront Goals to view only goals that are important to you.
+You can view goals that you or anyone else added in Adobe Workfront Goals. For information about creating goals, see [Create goals in Adobe Workfront Goals](../../workfront-goals/goal-management/create-goals.md). When viewing goals, you can filter information in Workfront Goals to view only goals that are important to you.
 
 ## Access requirements
+
+<!--drafted - replace the table below with this one when P&P releases: 
+
+<table style="table-layout:auto">
+ <col>
+ </col>
+ <col>
+ </col>
+ <tbody>
+  <tr>
+   <td role="rowheader">Adobe Workfront plan*</td>
+   <td>
+   <p>Current plan: Select or higher</p>
+   Or
+   <p>Legacy plan: Pro or higher</p>
+   
+   </td>
+  </tr>
+  <tr>
+   <td role="rowheader">Adobe Workfront license*</td>
+   <td>
+   <p>Current license: Contributor or higher</p>
+   Or
+   <p>Legacy license: Request or higher</p> <p>For more information, see <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p> </td>
+  </tr>
+  <tr>
+   <td role="rowheader">Product</td>
+   <td>
+   <p> Current product requirement: If you have the Select or Prime Adobe Workfront plan, you must also buy an additional Adobe Workfront Goals license.  Workfront Goals are included in the Ultimate Workfront Plan.</p>
+   Or
+   <p>Legacy product requirement: You must purchase an additional license for the Adobe Workfront Goals to access functionality described in this article. </p> <p>For information, see <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requirements to use Workfront Goals</a>. </p> </td>
+  </tr>
+  <tr>
+   <td role="rowheader">Access level*</td>
+   <td> <p>Edit access to Goals</p> <p><b>NOTE</b><p>If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see:</p>
+     <ul>
+      <li> <p><a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a> </p> </li>
+      <li> <p><span href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md"><a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md" class="MCXref xref">Grant access to Adobe Workfront Goals</a></span> </p> </li>
+     </ul> </p> </td>
+  </tr>
+  <tr data-mc-conditions="">
+   <td role="rowheader">Object permissions</td>
+   <td>
+    <div>
+     <p>View or higher permissions to the goal to view it</p>
+     <p>Manage permissions to the goal to edit it</p>
+     <p>For information about sharing goals, see <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Share a goal in Workfront Goals</a>. </p>
+    </div> </td>
+  </tr>
+ </tbody>
+</table>
+-->
 
 You must have the following access to perform the actions described in this article:
 
@@ -33,7 +85,9 @@ You must have the following access to perform the actions described in this arti
   </tr> 
   <tr> 
    <td role="rowheader">Access level*</td> 
-   <td> <p>View or higher access to&nbsp;Goals</p> <p>Note:   <p>If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see:</p> 
+   <td> <p>View or higher access to Goals</p> <p><b>NOTE</b>
+   
+   <p>If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see:</p> 
      <ul> 
       <li> <p><a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a> </p> </li> 
       <li> <p><span href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md"><a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md" class="MCXref xref">Grant access to Adobe Workfront Goals</a></span> </p> </li> 
@@ -50,37 +104,27 @@ You must have the following access to perform the actions described in this arti
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+*To find out what plan, license type, or access you have, contact your Workfront administrator.
 
 ## Prerequisites
 
 You must have the following before you can start:
 
-* A Layout Template that includes the Goals area in the Main&nbsp;Menu.
+* A Layout Template that includes the Goals area in the Main Menu.
 
-## Overview of filters in&nbsp;Workfront Goals
+## Overview of filters in Workfront Goals
 
 >[!NOTE]
 >
->To efficiently find and focus on the right goals, we recommend that you use filters in Workfront Goals. This allows you to display the correct information before you start managing goals that are important to you. By default, Workfront Goals displays all goals in the system. >
-><!--
-><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">>
->(NOTE: this might change with sharing; sharing allows everyone to VIEW everything but not manage everything.)>
-></MadCap:conditionalText>>
->-->
+>To efficiently find and focus on the right goals, we recommend that you use filters in Workfront Goals. This allows you to display the correct information before you start managing goals that are important to you. By default, Workfront Goals displays all goals in the system. 
 
-You can locate and filter for goals in several sections of the&nbsp;Goals area in&nbsp;Workfront:
+You can locate and filter for goals in following sections of the Goals area in Workfront:
 
 * Goal List 
 * Graphs
 * Goal Alignment
-* Pulse
 
->[!TIP]
->
->You cannot filter information in the Check-in section. Only active goals for whose progress you are responsible display in this section.
-
-For information about sections of the Goals area, see [Overview of the Adobe Workfront Goals sections](../../workfront-goals/goal-review-and-workfront-goals-sections/overview-of-wf-goals-sections.md).
+For information about the sections of the Goals area, see [Overview of the Adobe Workfront Goals sections](../../workfront-goals/goal-review-and-workfront-goals-sections/overview-of-wf-goals-sections.md).
 
 >[!IMPORTANT]
 >
@@ -97,6 +141,12 @@ Consider the following when working with filters in Workfront Goals:
 
 * You can only view and apply filters you created. Filters created by other users display only for those users. 
 * You cannot share filters you created with other users.
+
+## Apply a quick filter in Workfront Goals
+
+You can use a quick filter in a list of goals to help you locate only items that are important to you. You cannot save quick filters and they are not persistent. Workfront clears the results of a quick filter when you refresh the page.
+
+For more information, see [Apply the quick filter to a list](../../workfront-basics/navigate-workfront/use-lists/apply-quick-filter-list.md). 
 
 ## Create and apply a filter in Workfront Goals
 
@@ -140,7 +190,9 @@ You can create a filter from scratch or edit one of the built-in filters.
        </tr> 
        <tr> 
         <td>My teams</td> 
-        <td> <p>The goals for which any of your teams is selected as the owner. </p> <p>Tip: No goals display when you are not assigned to any teams. </p> </td> 
+        <td> <p>The goals for which any of your teams is selected as the owner. </p> <p><b>TIP</b>
+        
+        No goals display when you are not assigned to any teams. </p> </td> 
        </tr> 
        <tr> 
         <td>My groups</td> 
@@ -148,7 +200,8 @@ You can create a filter from scratch or edit one of the built-in filters.
        </tr> 
        <tr> 
         <td>Company</td> 
-        <td> <p>The goals associated with your organization. </p> <p>Tip:   <p>In Adobe Workfront Goals, the Company filter displays the goals for which your organization is selected as the owner. </p> <p>You cannot search for companies using this field. Only your organization who is the owner of your Workfront instance is selected by default. </p> </p> </td> 
+        <td> <p>The goals associated with your organization. </p> <p><b>TIP</b>
+        <p>In Adobe Workfront Goals, the Company filter displays the goals for which your organization is selected as the owner. </p> <p>You cannot search for companies using this field. Only your organization who is the owner of your Workfront instance is selected by default. </p> </p> </td> 
        </tr> 
       </tbody> 
      </table>
@@ -196,7 +249,7 @@ You can create a filter from scratch or edit one of the built-in filters.
       </tbody> 
      </table>
 
-1. (Optional) Click **Reset** to clear out all the fields you have selected and start building the filter from scratch. 
+1. (Optional) Click **Reset** in the lower-right corner of the filter box to clear out all the fields you have selected and start building the filter from scratch. 
 1. (Optional) Click **Apply** to apply the filter without saving.
 
    The filter displays in the **Unsaved** area of the filter builder as **New Filter**.
@@ -216,7 +269,7 @@ You can create a filter from scratch or edit one of the built-in filters.
    The last saved and applied filter displays by default next time you log back in to Workfront
 
 1. (Optional) Click the **left-pointing arrow** next to **New Filter** to exit the filter builder and return to the list of filters. 
-1. (Optional) Hover over the name of a filter, click the **More** menu, then click&nbsp;**Delete**, then&nbsp;**Delete**. This deletes the filter and you cannot recover it.
+1. (Optional) Hover over the name of a custom filter, click the **More** menu, then click **Delete**, then **Delete**. This deletes the filter and you cannot recover it.
 
    >[!TIP]
    >
@@ -228,18 +281,15 @@ You can create a filter from scratch or edit one of the built-in filters.
 
    The list of goals is filtered by your filter criteria. 
 
-1. (Optional) If you want to view the filtered out results, click&nbsp;**Show them** in the list of goals in the Goal List or the Goal Alignment section.
+1. (Optional and conditional) When viewing goals in the Goal Alignment section,  click **Show them** if you want to view the filtered out goals.  
 
    ![](assets/show-them-link-on-filtered-items-goal-list-350x109.png)
 
-   The filter name is outlined in yellow to indicate that it is being ignored.
+   The filter name is outlined in yellow to indicate that it is being ignored. 
 
    ![](assets/filter-yellow-outline-next-to-reapply-filter-link-350x118.png)
 
-   >[!TIP]
-   >
-   >Displaying items that are hidden by filters is not possible in the Graphs and Pulse sections.
 
-1. Click&nbsp;**Reapply filter** to apply the filter and omit the items you displayed in the previous step.
+1. (Optional and conditional) Click **Reapply filter** to apply the filter and omit the items you displayed in the previous step.
 
-&nbsp;
+

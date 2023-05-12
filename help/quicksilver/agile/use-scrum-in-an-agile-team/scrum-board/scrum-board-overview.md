@@ -8,9 +8,9 @@ author: Lisa
 feature: Agile
 exl-id: 584288bb-2d98-4b69-8deb-d3b8e54d328c
 ---
-# Scrum board overview
+# [!UICONTROL Scrum] board overview
 
-The Scrum agile story board displays together with the completion status and the burndown chart. These agile components are available in the following situations in Adobe Workfront:
+The [!UICONTROL Scrum] agile story board displays together with the completion status and the burndown chart. These agile components are available in the following situations in [!UICONTROL Adobe Workfront]:
 
 * On agile iterations. For more details about using the agile story board, burndown chart, and completion status in a pure agile environment (with backlogs and an iteration), see [Work in an agile environment](../../../agile/work-in-an-agile-environment/work-in-an-agile-environment.md).
 * When viewing a project in an agile view. For information about how you can leverage the agile story board, burndown chart, and completion status within an existing project, see [Manage a project in the Agile View](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md).
@@ -23,29 +23,29 @@ The Scrum agile story board displays together with the completion status and the
 
 The story board consists of the following elements:
 
-* **Parent Story Column:** Unlike the other columns on the story board, the  Parent Story  column is not a task status, but rather exists to house any stories that contain subtasks in the iteration or project. Only parent stories that have at least one subtask on the story board can reside in this column. The parent stories themselves do not move from status to status across the story board.
+* **[!UICONTROL Parent Story] Column:** Unlike the other columns on the story board, the  [!UICONTROL Parent Story]  column is not a task status, but rather exists to house any stories that contain subtasks in the iteration or project. Only parent stories that have at least one subtask on the story board can reside in this column. The parent stories themselves do not move from status to status across the story board.
 
-  In an iteration, this column appears on the story board only when one or more stories on the story board contains at least one subtask that meets the following requirements:
+   In an iteration, this column appears on the story board only when one or more stories on the story board contains at least one subtask that meets the following requirements:
 
-  * Assigned to the same agile team as the parent task
-  * Belongs to the iteration
+    * Assigned to the same agile team as the parent task
+    * Belongs to the iteration
 
-     In a project, this column appears any time a task has at least one subtask.
+      In a project, this column appears any time a task has at least one subtask.
 
-     ![Parent story column](assets/agile-parentstory-swimlane.png)
+      ![Parent story column](assets/agile-parentstory-swimlane.png)
 
 * **Task Statuses:** Indicate how a story is progressing through the iteration or project based on which status column the story is in.
 
-  Task statuses can be customized for the project by modifying the agile view, as described in [Create or customize an Agile view](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md#customizing-an-agile-view) in [Views overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+   Task statuses can be customized for the project by modifying the agile view, as described in [Create or customize an Agile view](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md#customizing-an-agile-view) in [Views overview in [!UICONTROL Adobe Workfront]](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
 * **Swim Lane:** When a parent story and its subtasks appear on the story board, a swim lane is created specifically for the story and its subtasks. This provides a visual distinction to better view how a story's subtasks are progressing across the story board.
 
-  In an iteration, swim lanes appear on the story board only when a story on the story board contains at least one subtask that meets the following requirements:
+   In an iteration, swim lanes appear on the story board only when a story on the story board contains at least one subtask that meets the following requirements:
 
-  * Assigned to the same agile team as the parent task
-  * Belongs to the iteration
+    * Assigned to the same agile team as the parent task
+    * Belongs to the iteration
 
-  In a project, swim lanes appear any time a task has at least one subtask or one parent task.
+   In a project, swim lanes appear any time a task has at least one subtask or one parent task.
 
 * **Individual Stories:** Individual stories and issues are displayed below any swim lanes on the story board. This provides a visual distinction from the stories that are part of a swim lane.
 
@@ -61,7 +61,7 @@ This same logic applies to second-level subtasks (subtasks of subtasks). If a su
 
 >[!NOTE]
 >
->The information in this section applies only to agile views on an iteration; agile views on a project do not use a backlog. (For more information about the differences between agile views on an iteration and a project, see "Differences When Using the Agile View on a Project verses on an Iteration" in [Manage a project in the Agile View](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md).)
+>The information in this section applies only to agile views on an iteration; agile views on a project do not use a backlog. (For more information about the differences between agile views on an iteration and a project, see "Differences When Using the [!UICONTROL Agile] View on a Project verses on an Iteration" in [Manage a project in the Agile View](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md).)
 
 The iteration backlog shows only stories or subtasks where you can set an estimate. If a parent story has subtasks that are displayed on the story board (because they are assigned to the same agile team and belong to the iteration), the parent task is not displayed on the backlog. In this situation, only the subtasks are displayed on the backlog, while the subtasks and the parent story are displayed on the story board.
 

@@ -15,7 +15,7 @@ In a layout template, you can pin the pages that you want users to always have a
 
 Any pins that your users have added on their own are displayed to the right of the pins you add in the layout template.
 
-For more information about pinning pages, see [Pin pages to customize your workspace in the new Adobe Workfront experience](../../../workfront-basics/the-new-workfront-experience/pin-pages.md).
+For more information about pinning pages, see [Pin pages to customize your workspace](../../../workfront-basics/the-new-workfront-experience/pin-pages.md).
 
 For more information about layout templates, see [Create and manage layout templates](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 
@@ -61,6 +61,11 @@ To perform them for a group, you must be a manager of that group.</p> <p><b>NOTE
    * Click **Add a Dashboard**, then type a descriptive **Custom section title** and add the dashboard.
 
 1. Repeat the previous step to pin any other pages.
+
+1. (Optional) To rename a pin, hover over the pin, click the arrow next to the pin name, and select **Rename pin**. Type the new pin name, and click the check mark icon or press Enter.
+
+   A small pop-up window appears for several seconds after you click the check mark or press Enter, allowing you to undo the pin name change before it is saved.
+
 1. Continue customizing the layout template.
 
    Or
@@ -69,4 +74,4 @@ To perform them for a group, you must be a manager of that group.</p> <p><b>NOTE
 
    >[!TIP]
    >
-   >You can click Save at any time to save your progress, then continue to modify the template later.
+   >You can click **Save** at any time to save your progress, then continue to modify the template later.

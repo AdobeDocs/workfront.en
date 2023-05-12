@@ -16,6 +16,35 @@ When you submit similar requests frequently you can copy an existing submitted r
 
 ## Access requirements
 
+<!--drafted - replace table with P&P:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td><p>Current license: Contributor or higher</p> 
+   Or
+   <p>Legacy license: Request or higher</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations*</td> 
+   <td> <p>Edit access to Issues</p> <p><b>NOTE</b> 
+   
+   If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>Access to add requests to a request queue</p> <p>View or higher permissions on the existing request</p> <p>For information on setting up a request queue, see <a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">Create a Request Queue</a>. </p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+-->
 You must have the following access to perform the steps in this article:
 
 <table style="table-layout:auto"> 
@@ -156,7 +185,7 @@ You must have a request that you or someone in your organization previously subm
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader"><span><strong>Assignments</strong></span> </td> 
-      <td> <p>Indicate the name of an active user, job role, or a team that the request should be assigned to. </p> <p> You can specify only one team. </p> <p>Depending on how the request queue was set up, you might be able to only assign the request to one or two types of resources, instead of all three. </p> <p>We recommend using Routing Rules for your Request Queues so that they can be automatically routed to the appropriate resources. </p> </td> 
+      <td> <p>Indicate the name of an active user, job role, or team that the request should be assigned to. </p> <p> You can specify more than one user, job role, or team. </p> <p>Depending on how the request queue was set up, you might be able to only assign the request to one or two types of resources, instead of all three. </p> <p>We recommend using Routing Rules for your Request Queues so that they can be automatically routed to the appropriate resources. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader" colspan="2"> <p><p style="font-weight: normal;">Depending on how the request queue was set up, you might be able to only assign one type of resource to the request (for example, users). If a routing rule is also associated to the request queue and it automatically routes the request to a different type of resource (for example, a team), your request is assigned to both the entity that you manually specify when submitting the request (users) and the resource specified in the routing rule (the team.)</p> <p style="font-weight: normal;">For more information, see the following articles:</p> 

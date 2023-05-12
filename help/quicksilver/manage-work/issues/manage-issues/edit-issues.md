@@ -31,7 +31,9 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Access level*</td> 
-   <td> <p>Edit access to Issues</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information about access to issues in your Access Level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md" class="MCXref xref">Grant access to issues</a>. For information on how a Workfront administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>. </p> </td> 
+   <td> <p>Edit access to Issues</p> <p><b>NOTE</b> 
+   
+   If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information about access to issues in your Access Level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md" class="MCXref xref">Grant access to issues</a>. For information on how a Workfront administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>. </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -185,7 +187,14 @@ You can edit an issue using the Edit Issue or Issue Details areas. The following
      </tr> 
      <tr> 
       <td role="rowheader">Primary Contact</td> 
-      <td>By default, the Primary Contact is the creator of the issue. To modify this, start typing the name of any active user in Workfront, then select it from the list. An issue can have only one Primary Contact.<br> If you change the Primary Contact, the user who was the primary contact still has Manage access to the issue. You must manually remove this access under <strong>Project Actions</strong> &gt; <strong>Sharing</strong>.</td> 
+      <td>By default, the Primary Contact is the creator of the issue. To modify this, start typing the name of any active user in Workfront, then select it from the list. An issue can have only one Primary Contact.<br> If you change the Primary Contact, the original primary contact still has Manage access to the issue. You must manually remove this access from the Issue Access box, when sharing an issue.
+      
+      <b>TIP</b>
+
+      When adding a Primary Contact user, notice the avatar, the user's Primary Role, and their email address to distinguish between users with identical names. Users must be associated with at least one job role to view it as you add them.
+
+      
+      </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Commit Date and time</td> 
@@ -209,17 +218,43 @@ You can edit an issue using the Edit Issue or Issue Details areas. The following
      </tr> 
      <tr> 
       <td role="rowheader">Resolved By</td> 
-      <td> <p>This shows whether the issue is resolved by another object. You can select whether this issue is resolved by a task, a project, or another issue from the drop-down menu, then start typing the name of the task, project, or issue that will resolve the issue. Select it when it appears in the list.<br></p> <p>Note:  When you select an object to resolve an issue, the issue status is linked to the status of the resolving object and cannot be changed on the issue. For more information about resolving objects, see <a href="../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md" class="MCXref xref">Overview of Resolving and Resolvable Objects </a>.</p> </td> 
+      <td> <p>This shows whether the issue is resolved by another object. You can select whether this issue is resolved by a task, a project, or another issue from the drop-down menu, then start typing the name of the task, project, or issue that will resolve the issue. Select it when it appears in the list.</p> 
+      
+      <b>NOTE</b>
+          
+      When you select an object to resolve an issue, the issue status is linked to the status of the resolving object and cannot be changed on the issue. For more information about resolving objects, see <a href="../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md" class="MCXref xref">Overview of Resolving and Resolvable Objects </a>. 
+      
+      <b>TIP</b>
+
+      When your system or group administrator adds the "Resolved By" field to an issue custom header, the field changes to "Resolving Issue", "Resolving Task", or "Resolving Project" when there is a resolving object associated with the issue.
+
+      You cannot edit this field when it displays in the issue header. For more information about customizing issue headers, see <a href="../../../administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md">Customize object headers using a layout template </a>
+      </td> 
+     </tr>
+
+     <tr> 
+      <td role="rowheader">Resolving Issue, Resolving Task, or Resolving Project</td> 
+      <td>The linked name of the issue, task, or issue that resolves the issue.  </td> 
      </tr> 
+      <tr> 
+      <td role="rowheader">This Resolves</td> 
+      <td>The linked name of the issue which completes when the issue you are accessing is resolved.  </td> 
+     </tr> 
+
+
     </tbody> 
    </table>
+
+    
+    
+  
 
 1. Click **Save** or continue editing the following sections.
 
 #### Assignments {#assignments}
 
 1. Begin editing the issue as described above.
-1. Click&nbsp;**Assignments** in the left panel.
+1. Click **Assignments** in the left panel.
 
    ![](assets/assignments-section-edit-issue-box-nwe-350x230.png)
 
@@ -233,14 +268,12 @@ You can edit an issue using the Edit Issue or Issue Details areas. The following
    >
    >If the user's name contains a special character, you must include the special character in the search field.
 
-   You can assign multiple users or job roles to a task. You can assign only one team to a task.
-
    >[!TIP]
    >
-   >You can assign multiple users or job roles, and you can assign only one team. You can assign only active users, job roles, and teams.
+   >You can assign multiple users, job roles, or teams. You can assign only active users, job roles, and teams.
    >
    >
-   >If a user, job role, or a team was assigned before they were deactivated, they remain assigned to the work item. In this case, we recommend the following: 
+   >If a user, job role, or team was assigned before they were deactivated, they remain assigned to the work item. In this case, we recommend the following: 
    >
    >* Reassign the work item to active resources. 
    >* Associate the users in a deactivated team with an active team and reassign the work item to the active team. 
@@ -260,7 +293,9 @@ You can edit an issue using the Edit Issue or Issue Details areas. The following
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">Assignee's Role</td> 
-      <td> <p>Select a role from the <strong>Assignee's Role</strong> drop-down menu when you selected a person as an assignee. This is the role that the assignee can fulfill on this issue. </p> <p>Tip: Only the job roles associated with each assignee in their profile appear in the drop-down menu.</p> </td> 
+      <td> <p>Select a role from the <strong>Assignee's Role</strong> drop-down menu when you selected a person as an assignee. This is the role that the assignee can fulfill on this issue. </p> <p><b>TIP</b>
+      
+      Only the job roles associated with each assignee in their profile appear in the drop-down menu.</p> </td> 
      </tr> 
     </tbody> 
    </table>
@@ -329,15 +364,13 @@ You can edit an issue using the Edit Issue or Issue Details areas. The following
 
 ## Edit an issue in the issue header (limited)
 
-You can edit a limited amount of information in the issue header.
+You can edit a limited amount of information in the issue header. 
 
-<!--drafted for 22.4 release <span class="preview">Your system or group administrator can customize the fields you see in the issue header.</span>-->
+Your system or group administrator can customize the fields you see in the issue header. For information, see [Customize object headers using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).
 
 ![](assets/issue-header-350x19.png)
 
-You can edit the following fields in the issue header:
-
-<!--drafted for the 22.4 release - replace the one above with this: <span class="preview">The following fields are included in the project header, by default.</span>-->
+The following fields are included in the issue header, by default:
 
 * Issue name
 * Percent complete

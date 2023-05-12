@@ -3,7 +3,7 @@ content-type: overview
 product-area: resource-management
 navigation-topic: resource-planning
 title: Resource Planner overview
-description: '(Alina: this used to be the beginning of Planning in the Resource Planner - consider restructuring it further? Merging some of this information with information about Understanding Navigation in the RP?!)'
+description: You can estimate and budget the allocation of your resources to the projects they are assigned to and forecast their availability for future work using the Resource Planner.
 author: Alina
 feature: Resource Management
 exl-id: 06cd2226-f94d-4b6a-8692-6d35210782f2
@@ -30,7 +30,7 @@ You can use the Resource Planner to easily understand the availability of users 
 You can view information in the Resource Planner using three separate views. You can use each view to fulfill one of the following purposes:
 
 * To budget the time or cost of your resources for the work that needs to be accomplished using the Project and Role views. This is the main purpose of the Resource Planner.   
-  For more information about budgeting in the Resource Planner, see the article [Use the Project and Role Views to budget resources](#use-the-project-and-role-views-to-budget-resources).
+  For more information about budgeting in the Resource Planner, see the article [Budget resources in the Resource Planner using the Project and Role views](../resource-planning/budget-resources-project-role-views-resource-planner.md).
 
 * To view the following information using the User view:
 
@@ -68,7 +68,7 @@ You can view information in the Resource Planner using three separate views. You
 
   For information about how you can budget resources for a single project, see the article [Budget resources in the Business Case](../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md).
 
-  For information about how you can budget resources in the Resource Planner for multiple projects at a time, see the section "Budget resources in the Resource Planner" in the article [ [Budget resources in the Resource Planner using the Project and Role views](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md)](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md).
+  For information about how you can budget resources in the Resource Planner for multiple projects at a time, see the section "Budget resources in the Resource Planner" in the article [Budget resources in the Resource Planner using the Project and Role views](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md).
 
 ## Prerequisites for working in the Resource Planner {#prerequisites-for-working-in-the-resource-planner}
 

@@ -1,16 +1,16 @@
 ---
 product-area: resource-management
 navigation-topic: the-workload-balancer
-title: Manage filters in the Workload Balancer
-description: 'NOTE: when they add custom fields to filtering, add the caveat you added for the Resource Planner : only field NAMES and not LABELS are to be found in the drop-down &gt;&gt; ADD THIS IN THE STEP BELOW WHEN ADDING A FILTER)'
+title: Filter information in the Workload Balancer
+description: To efficiently find work items and to focus on the users or items you manage, we strongly recommend that you use filters in the Workload Balancer.
 author: Alina
 feature: Resource Management
 exl-id: f8ffb40e-4e71-45fe-bcae-801d45d75a21
 ---
-# Manage filters in the Workload Balancer
+# Filter information in the Workload Balancer
 
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">NOTE: when they add custom fields to fitlering, add the caveat you added for the Resource Planner : only field NAMES and not LABELS are to be found in the drop-down >> ADD THIS IN THE STEP BELOW WHEN ADDING A FILTER) </p>
+(when they add custom fields to fitlering, add the caveat you added for the Resource Planner : only field NAMES and not LABELS are to be found in the drop-down >> ADD THIS IN THE STEP BELOW WHEN ADDING A FILTER)
 -->
 
 As a resource manager, you can use the Workload Balancer to view and manage the workload of your users. For more general information about the Workload Balancer, see the following articles:
@@ -18,7 +18,12 @@ As a resource manager, you can use the Workload Balancer to view and manage the 
 * [Overview of the Workload Balancer](../../resource-mgmt/workload-balancer/overview-workload-balancer.md) 
 * [Navigate the Workload Balancer](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md)
 
-To efficiently find work items and to focus on the users you manage, we strongly recommend that you use filters in the Workload Balancer. This allows you to display the correct information before you start managing the assignments of your resources.
+>[!IMPORTANT]
+>
+>To efficiently find work items and to focus on the users or items you manage, we strongly recommend that you use filters in the Workload Balancer. This allows you to display the correct information before you start managing the assignments of your resources.
+>
+>When you save and apply a new filter then navigate away from the Workload Balancer, the filter is preserved even after you log off and log back on. 
+
 
 This article contains information about filters in the Workload Balancer. For information about filters in Workfront, see [Filters overview in Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
@@ -38,7 +43,9 @@ You must have the following:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Plan or higher</p> </td> 
+   <td> <p>Plan, when using the Workload Balancer in the Resourcing area</p>
+   <p>Work, when using the Workload Balancer of a team or project</p>
+ </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level*</td> 
@@ -49,7 +56,9 @@ You must have the following:
      <li> <p>Tasks</p> </li> 
      <li> <p>Issues</p> </li> 
      <li data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <p>Filters, Views, and Groupings</p> </li> 
-    </ul> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"><span>Edit access to Filters, Views, and Groupings when building or editing filters</span> </p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+    </ul> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"><span>Edit access to Filters, Views, and Groupings when building or editing filters</span> </p> <p><b>NOTE</b> 
+    
+   If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -71,7 +80,6 @@ Consider the following when working with filters in the Workload Balancer:
 * When you apply a filter without saving it, you can revert to the original lists by refreshing your page. 
 * You can view filters you created or filters that other users created and shared with you. 
 * When you delete or edit a shared filter, the filter is also deleted or edited for everyone with whom it is shared. 
-* When you save and apply a new filter then navigate away from the Workload Balancer, the filter is preserved even after you log off and log back on. 
 * When you create filters in the Workload Balancer in one area, they are not available in other areas. 
 
   For example, filters created in the Resourcing area are not available in the Workload Balancer of a project or a team.
@@ -93,6 +101,9 @@ The Workload Balancer displays information in two separate areas:
 >
 >Each area of the Workload Balancer has its own set of filters which work independently from one another. You must configure both filters to indicate what information you want to see in each area.
 
+The Workload Balancer displays users and their work items. 
+The work items assigned to the users only display when the dates of the items match the time frame displayed on the screen. 
+
 Depending on where you access the Workload Balancer from, the Unassigned and Assigned areas are already filtered by certain criteria, as described in the following table:
 
 <table style="table-layout:auto"> 
@@ -108,22 +119,27 @@ Depending on where you access the Workload Balancer from, the Unassigned and Ass
   <tr> 
    <td role="rowheader">The Resourcing area</td> 
    <td>No items display here by default. You must customize filters to view work items in this area.</td> 
-   <td>Users who are members of any of your teams and their work items.</td> 
+   <td>Users who are members of any of your teams and their work items. </td> 
   </tr> 
   <tr> 
    <td role="rowheader">A team</td> 
    <td>Work items that are assigned to the team or the team and a job role. </td> 
-   <td> <p>Users who are members of the selected team and their work items that match the timeline selected on the screen.</p> </td> 
+   <td> <p>Users who are members of the selected team and their work items.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">A project</td> 
    <td> <p>Unassigned work items or items assigned to teams or job roles in the selected project display in this area.</p> </td> 
-   <td> <p>Users that are assigned to at least one work item on the selected project and their work items on the selected project or on other projects that match the timeline selected on the screen.</p> </td> 
+   <td> <p>Users that are assigned to at least one work item on the selected project and their work items on the project when the system default filter <b>This project's work items</b> is selected. </p> 
+   
+   <p>When the system default filter <b>This project's work items</b> is deselected, the Assigned Work area of a project displays all the work items of the users assigned to at least one item on the selected project.  </p> This filter is deselected by default.
+   
+   <b>NOTE</b>
+   <p>You can enable the Show all users option in the Workload Balancer of a project to display all users in the system. For more information, see <a href="../workload-balancer/navigate-the-workload-balancer.md" class="MCXref xref">Navigate the Workload Balancer</a></p> 
+   
+   </td> 
   </tr> 
  </tbody> 
 </table>
-
-&nbsp;
 
 ## Create Workload Balancer filters
 
@@ -176,7 +192,7 @@ You can create a filter from scratch or edit one of the predefined filters. For 
       >* **Suggested fields**: the fields most commonly used.
       
 
-   1. Select a modifier from the second drop-down menu.
+   1. Select a modifier from the second drop-down menu. For information about Workfront filter modifiers, see [Filters and condition modifiers](../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md). 
    1. Select or type a value for the field you are filtering for. 
    
       >[!NOTE]

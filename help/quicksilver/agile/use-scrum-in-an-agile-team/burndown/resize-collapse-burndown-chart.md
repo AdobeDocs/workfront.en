@@ -24,33 +24,33 @@ You must have the following access to perform the steps in this article:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront plan*</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront license*</strong></td> 
-   <td> <p>Review or higher</p> </td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] license*</strong></td> 
+   <td> <p>[!UICONTROL Review] or higher</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan or license type you have, contact your Workfront administrator.
+&#42;To find out what plan or license type you have, contact your [!DNL Workfront] administrator.
 
 ## Resize the burndown chart
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Teams**.
+1. Click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe Workfront], then click **[!UICONTROL Teams]**.
 
-1. (Optional) Click the **Switch team** icon ![Switch team icon](assets/switch-team-icon.png), then either select a new Scrum team from the drop-down menu or search for a team in the search bar.
+1. (Optional) Click the **[!UICONTROL Switch team]** icon ![Switch team icon](assets/switch-team-icon.png), then either select a new [!UICONTROL Scrum] team from the drop-down menu or search for a team in the search bar.
 
 1. Go to the iteration that contains the burndown chart you want to resize.
-1. Hover over the bottom line of the burndown chart, then drag the chart to the desired size.  
+1. Hover over the bottom line of the burndown chart, then drag the chart to the desired size.\
    ![](assets/burndown-resize.png)
 
 ## Collapse the burndown chart
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Teams**.
+1. Click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe Workfront], then click **[!UICONTROL Teams]**.
 
-1. (Optional) Click the **Switch team** icon ![Switch team icon](assets/switch-team-icon.png), then either select a new Scrum team from the drop-down menu or search for a team in the search bar.
+1. (Optional) Click the **[!UICONTROL Switch team]** icon ![Switch team icon](assets/switch-team-icon.png), then either select a new [!UICONTROL Scrum] team from the drop-down menu or search for a team in the search bar.
 
 1. Go to the iteration that contains the burndown chart you want to collapse.
-1. Click the arrow icon in the left of the Percent Complete status bar.
+1. Click the arrow icon in the left of the [!UICONTROL Percent Complete] status bar.

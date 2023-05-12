@@ -9,7 +9,7 @@ exl-id: 634e4c0f-aa1d-4197-92e3-54f414344ac0
 ---
 # Deactivate a team
 
-You can deactivate teams you no longer use while retaining the associated historical data. Adobe Workfront administrators can reactivate a team at any time from the Teams area in Setup. If you deactivate a team, the team no longer displays in the following areas:
+You can deactivate teams you no longer use while retaining the associated historical data. [!DNL Adobe Workfront] administrators can reactivate a team at any time from the Teams area in Setup. If you deactivate a team, the team no longer displays in the following areas:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -22,19 +22,19 @@ You can deactivate teams you no longer use while retaining the associated histor
     </ul> 
     <ul> 
      <li> <p>Sharing dialog for objects</p> </li> 
-     <li> <p>User Profile*</p> </li> 
+     <li> <p>[!UICONTROL User Profile]*</p> </li> 
     </ul> </td> 
    <td> 
     <ul> 
-     <li> <p>Main selection drop-down menu in the Teams area</p> </li> 
-     <li> <p>Assignments typeahead</p> </li> 
-     <li> <p>Add to Kanban board dialog in a project</p> </li> 
+     <li> <p>Main selection drop-down menu in the [!UICONTROL Teams] area</p> </li> 
+     <li> <p>[!UICONTROL Assignments] typeahead</p> </li> 
+     <li> <p>[!UICONTROL Add to Kanban] board dialog in a project</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Deactivated teams don't appear when you search for a team, but will still display in Home Team and Other Teams if the user was assigned to the team prior to deactivation.
+Deactivated teams don't appear when you search for a team, but will still display in [!UICONTROL Home Team] and Other Teams if the user was assigned to the team prior to deactivation.[!UICONTROL ]
 
 ## Access requirements
 
@@ -45,17 +45,17 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront plan*</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront license*</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] license*</strong></td> 
    <td> <p>Plan</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan or license type you have, contact your Workfront administrator.
+&#42;To find out what plan or license type you have, contact your [!DNL Workfront] administrator.
 
 ## Deactivate a team
 
@@ -67,17 +67,17 @@ Any work assigned to the team prior to deactivation remains assigned. We recomme
 
 When using request queues, if you deactivate a team assigned as the default team in a routing rule, the team remains and requests are still routed to the deactivated team. We recommend updating routing rules with active teams before you deactivate the team.
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Teams**.
-1. Click the **Switch team** icon, then either select a new team from the drop-down menu or search for a team in the search bar.
-1. Click the **More** menu, then select **Edit**.
+1. Click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **[!UICONTROL Teams]**.
+1. Click the **[!DNL Switch team]** icon, then either select a new team from the drop-down menu or search for a team in the search bar.
+1. Click the **[!UICONTROL More]** menu, then select **[!UICONTROL Edit]**.
 
    ![](assets/edit-team-settings-350x205.png)
 
-1. Clear the **Is Active** check box.
-1. Click **Save changes**.
+1. Clear the **[!UICONTROL Is Active]** check box.
+1. Click **[!UICONTROL Save changes]**.
 
 ## Known limitations
 
 Deactivated teams display in the following areas:
 
-* The Owner field in Workfront Goals. This requires an additional license for Adobe Workfront Goals. For more information, see [Get started with Adobe Workfront Goals](../../workfront-goals/goal-management/getting-started-with-wf-goals.md).
+* The Owner field in [!DNL Workfront Goals]. This requires an additional license for [!DNL Adobe Workfront Goals]. For more information, see [Get started with [!DNL Adobe Workfront Goals]](../../workfront-goals/goal-management/getting-started-with-wf-goals.md).

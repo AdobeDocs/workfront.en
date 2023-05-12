@@ -2,18 +2,18 @@
 product-area: reporting
 navigation-topic: reporting-elements
 title: Use the Milestone view
-description: The Milestone view is available when viewing a project list or project report.
-author: Nolan
+description: You can apply the Milestone view to a project list or report.
+author: Alina
 feature: Reports and Dashboards
 exl-id: c55e53b5-5559-4b6a-a8d7-5028be6af30f
 ---
 # Use the Milestone view
 
-The Milestone view is available when viewing a project list or project report.
+You can apply the Milestone view to a project list or report.
 
-Before you can use the milestone view, Milestones need to be configured, Milestone Paths need to be added to projects, and Milestones need to be associated with tasks, as described in&nbsp;the articles [Create a milestone path](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md)&nbsp;and&nbsp; [Associate milestones with tasks](../../../manage-work/tasks/manage-tasks/associate-milestones-with-tasks.md).
+Before you can use the milestone view, Milestones need to be configured, Milestone Paths need to be added to projects, and Milestones need to be associated with tasks, as described in the articles [Create a milestone path](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md) and [Associate milestones with tasks](../../../manage-work/tasks/manage-tasks/associate-milestones-with-tasks.md).
 
-The Milestone view is available when viewing a project list or&nbsp;project report. The following sections describe how to view and use the milestone view.
+The Milestone view is available when viewing a project list or project report. The following sections describe how to view and use the milestone view.
 
 ## Access requirements
 
@@ -35,7 +35,9 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Access level configurations*</strong></td> 
-   <td> <p>View or higher access to&nbsp;Reports,&nbsp;Dashboards,&nbsp;Calendars</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>View or higher access to&nbsp;Reports,&nbsp;Dashboards, Calendars</p> <p><b>NOTE</b> 
+   
+   If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Object permissions</strong></td> 
@@ -69,6 +71,22 @@ The Milestone view is available on project lists and project reports. This view 
 For information about how to switch to the Milestone view, see the section [Switch to the Milestone view](#switch-to-the-milestone-view) in this article.
 
 ![Project with milestone view](assets/project-with-milestone-view-with-complete.png)
+
+### Milestone view sections
+
+When applying the Milestone view to a list of projects, the projects display in the following sections:
+
+* The projects that are associated with a Milestone Path display first, listed under the name of their respective Milestone Paths. 
+
+   Workfront sorts the projects in the first section by the following criteria, in this order:
+
+   1. Milestone Path ID. You can view the Milestone Path ID in a Milestone Path report. 
+   
+   2. The field selected as the first sorting field for the project list in the view previously applied to the project list, before you selected the Milestone view.
+
+* The projects not associated with a Milestobe Path display next, in the Unassigned section. Workfront sorts the projects in the Unassiged section by the field selected as the first sorting field for the project list in the view previously applied to the project list, before you selected the Milestone view.
+
+### Project information in the Milestone view
 
 When viewing a project list or project report in the Milestone view, the following information is available:
 

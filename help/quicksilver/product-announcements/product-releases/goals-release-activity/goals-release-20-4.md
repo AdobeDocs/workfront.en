@@ -16,7 +16,12 @@ We continue to make improvements to the way you use Workfront Goals based on the
 
 * Updated the experience of printing a list of goals with a more intuitive Print link in the Goal List section.
 
-  For information about printing goals, see [Print the Goal List in Adobe Workfront Goals](../../../workfront-goals/goal-management/print-the-goal-list.md).
+  For information about printing goals, see "Print the Goal List in Adobe Workfront Goals".
+
+  >[!NOTE]
+  >
+  >  The functionality to print goals has been deprecated and removed from Workfront.
+
 
 * Added additional information about Results and Activities in the Goal Details panel, so you can clearly understand the difference between them.
 
@@ -62,16 +67,8 @@ Based on the feedback we have received so far, we have made the following improv
 For information, see the following articles:
 
 * [Activate goals in Adobe Workfront Goals](../../../workfront-goals/goal-management/activate-goals.md) 
-* [Check in on goals in Adobe Workfront Goals](../../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md) 
+* [Update goal progress in Adobe Workfront Goals](../../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md) 
 * [Create goals in Adobe Workfront Goals](../../../workfront-goals/goal-management/create-goals.md)
-
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode"><iframe class="vimeo-player_0" src="assets/461495600?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe> </p>
--->
-
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="https://vimeo.com/461495600/87acace0fa">Watch a video demonstration of this feature.</a> </p>
--->
 
 >[!NOTE]
 >

@@ -11,15 +11,12 @@ exl-id: cbeaa0d7-a61a-4806-a871-96663d9ce124
 ---
 # Customize object headers using a layout template
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> 
-
 As an Adobe Workfront administrator or a group administrator, you can use a layout template to configure the fields users see in the object header when they open an object's page.
 
 >[!IMPORTANT]
 >
->Customizing object headers is currently available for projects <span class="preview">and tasks</span>.
+>Customizing object headers is currently available for projects, tasks, and issues.
 
-<!--drafted for task AND issue headers: replace above with this when issue custom headers are coming too: Customizing object headers is currently available for projects <span class="preview">, tasks</span>, and <span class="preview">issues</span>. -->
 
 For information about layout templates for groups, see [Create and modify a group's layout templates](../../manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md). 
 
@@ -44,7 +41,7 @@ You must have the following access to perform the steps in this article:
    </td>
   </tr>
   <tr>
-   <td>Access level configurations*
+   <td><strong>Access level configurations</strong>
    </td>
    <td>You must be a Workfront or a group administrator.
 <p>
@@ -57,9 +54,9 @@ If you still don't have access, ask your Workfront administrator if they set add
 ## Customize object headers
 
 1. Begin working on a layout template, as described in [Create and manage layout templates](../../customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
-1. In the **Customize what users see** drop-down menu, select **Projects**.
+1. In the **Customize what users see** drop-down menu, select **Projects**, **Tasks** or **Issues**.
 
-    <!--(NOTE: when more objects are supported, update this to say "select an object you want to customize in the Customize what users see drop-down menu). -->
+    <!--when this will be possible for more than 3 objects, at production, make this more general: update the sentence above to say "select an object you want to customize in the Customize what users see drop-down menu). -->
 
 1. In the [!UICONTROL Header fields] section, mouse over the fields displayed and do one of the following:
     * Click the **x** icon to remove a field
@@ -78,9 +75,11 @@ If you already have five fields selected, you must remove a field before you can
 
     >[!TIP]
     >
-    >* Non-editable fields are fields that users cannot manually edit. They are automatically calculated by Workfront. You can only add fields that display in the Overview area of the object's Details section. 
+    >* You can only add fields that display in the Overview area of the object's Details section and which are non-editable. Non-editable fields are fields that users cannot manually edit. They are automatically calculated by Workfront. 
     >
-    >* Editable fields that are already part of the default headers (for example, Project Owner, <span class="preview">Status, Percent Complete, Assignments</span>) are allowed.
+    >* You can add editable fields that are already part of the default headers (for example, Project Owner, Status, Percent Complete, Assignments).
+    >
+    >* When you add the "Resolved By" field to the header of an issue, the field changes to "Resolving Issue, Task, or Project", when there is a resolving object associated with the issue.  
 
    
     ![](assets/add-field-to-header-in-lt-list.png)  

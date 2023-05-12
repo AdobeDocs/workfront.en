@@ -30,6 +30,7 @@ Before you begin, you must enroll in the Reporting Canvas beta. For more informa
 1. In the new page that opens, click the **Edit** icon ![](assets/edit-icon.png) next to the field name in the top-left corner to change the name of the formula field.
 1. Drag **Functions** or **Fields** from the left panel onto the field builder in the center to add them to your formula field.
 
+
    >[!TIP]
    >
    >As you build your formula field, the **Field preview** on the right displays examples of the resulting field.
@@ -38,11 +39,16 @@ Before you begin, you must enroll in the Reporting Canvas beta. For more informa
 
    | Function |Description |Output |
    |---|---|---|
+   | IF | Compare two arguments based on a selected modifier, then perform a specified action based on the resulting True (Is True:) or False (Is False:) value. Note: currently, the second argument cannot be a static True or False value. Instead, you can use a nested function like ISBLANK(Project Name) that always returns False as a workaround. |True/False, Date, Number, or String |
    | CONCAT |Merge two or more strings together end-to-end to create a new string. |String |
    | CONTAINS |Evaluate if a string argument field (Find text) is contained within another string argument field (Within text). |True/False |
+   | IN |Evaluate if the value of an argument field (Find) matches the value of at least one other argument field (Within) |True/False |
    | ISBLANK |Evaluate if an argument field is blank. |True/False |
    | LEN |Measure the length (in number of characters) of an argument field. |Number |
    | ROUND |Returns a rounded number based on the selected precision. |Number |
+   | FLOOR |Returns the nearest whole number, rounded down. |Number |
+   | NUMBER |Returns the greatest interger less than the value of a numerical argument (identical to a Floor function). |Number |
+   | STRING |Converts the contents of an argument field into a string |String |
    | SUBSTR |Create a new string from a larger string, which contains the characters between one index number (Start) through another (End). |String |
    | LEFT |Create a new string from a larger string, which contains characters starting with the left-most and counting right a number of characters (Length). |String |
    | RIGHT |Create a new string from a larger string, which contains characters starting with the right-most and counting left a number of characters (Length). |String |

@@ -3,7 +3,7 @@ content-type: api;faq
 navigation-topic: general-api
 title: FAQs - Event Subscriptions
 description: FAQs - Event Subscriptions
-author: John
+author: Becky
 feature: Workfront API
 exl-id: a6120939-5d76-4f46-a304-125de6b22502
 ---

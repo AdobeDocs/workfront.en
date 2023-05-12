@@ -9,11 +9,41 @@ exl-id: a0e80c4d-29a8-4bf8-aa19-0c2d493236c6
 ---
 # Delete projects
 
-You&nbsp;can delete a project if the project and its data are no longer needed.&nbsp;
+You can delete a project if the project and its data are no longer needed.
 
-As an alternative to deleting a project, Adobe Workfront recommends&nbsp;editing the project and changing the status to Complete or Dead. This removes all current tasks related to the project from a user's task list, but saves all data associated with the project.
+As an alternative to deleting a project, we recommend editing the project and changing the status to Complete or Dead. This removes all current tasks related to the project from a user's task list, but saves all data associated with the project.
 
 ## Access requirements
+
+<!-- drafted for P&P:
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td> <p>Adobe Workfront plan*</p> </td> 
+   <td>Any</td> 
+  </tr> 
+  <tr> 
+   <td> <p>Adobe Workfront license*</p> </td> 
+   <td> <p>Current license: Standard </p> 
+   Or
+   <p>Legacy license: Plan </p>
+   </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td><strong>Access level configurations*</strong> </td> 
+   <td> <p>Edit access to Projects with ability to Create <span>and Delete</span> projects</p> <p><b>NOTE</b>
+   
+   If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td> <p><strong>Object permissions</strong> </p> </td> 
+   <td> <p>Edit access to Projects, Tasks,&nbsp;Issues with ability to Delete projects, tasks, and issues</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+-->
 
 You must have the following to perform the steps in this article:
 
@@ -104,7 +134,7 @@ You can delete a project in a project list or at the project level.
 
      This requires an additional license. For information about Workfront Goals, see [Adobe Workfront Goals overview](../../../workfront-goals/goal-management/wf-goals-overview.md).
 
-     For information about associating projects with goals, see [Overview of connecting projects to goals in Adobe Workfront Goals](../../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md).
+     For information about associating projects with goals, see [Add projects to goals in Adobe Workfront Goals](../../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md).
 
 ## Delete a project in a list
 
@@ -113,21 +143,21 @@ You can delete projects from a list of projects.
 1. Go to a list of projects or a project report.
 1. Select the project you want to delete, then click **Delete** at the top of the list.  
 
-1. Click **Yes, Delete It** to confirm the deletion.&nbsp;
+1. Click **Yes, Delete It** to confirm the deletion.
 
    The project is deleted and stored in the Recycle Bin for 30 days. Your Workfront administrator can restore it from the Recycle Bin during this time.
 
 ## Delete a project at the project level
 
 1. Go to the project you want to delete. 
-1. &nbsp;Click the **More** icon ![](assets/qs-more-menu.png).
+1. Click the **More** icon ![](assets/qs-more-menu.png).
 
-1. Click&nbsp;**Delete** **Project****.** 
+1. Click **Delete Project**. 
 
-1. Click **Yes,****Delete it**. &nbsp;
+1. Click **Yes, Delete it**. 
 
    The project is deleted and stored in the Recycle Bin for 30 days. Your Workfront administrator can restore it from the Recycle Bin during this time.
 
 ## Restoring Deleted Projects
 
-A system or group administrator can restore projects&nbsp;within 30 days after they are deleted, as described in the article [Restore deleted items](../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md).
+A system or group administrator can restore projects within 30 days after they are deleted, as described in the article [Restore deleted items](../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md).

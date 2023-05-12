@@ -13,7 +13,7 @@ The integration between Workfront and Experience Manager Assets or Assets Essent
 
 >[!IMPORTANT]
 >
->Adobe does not support using the legacy or enhanced connectors and Experience Manger integration in parallel.
+>Adobe does not support using the legacy or enhanced connectors and Experience Manager integration in parallel.
 
 ## Key features
 
@@ -22,13 +22,13 @@ With the native Experience Manager integration, you can
 * Quickly set up the integration inside of Workfront
 * Automatically create folders linked between Workfront and Experience Manager
 * Easily sync metadata for existing linked assets
-* Automatically update project metadata when it’s changed in Workfront
+* Automatically update portfolio, program, project, task, issue, and document metadata when it's changed in Workfront
 * Smoothly connect several Experience Manager Assets repositories to one Workfront environment, or several Workfront environments to one Experience Manager Assets repository across Organization IDs.
 
 
 ## Prerequisites
 
-* Workfront must be in the Admin Console with an assigned Organization ID.
+* Workfront must be in an Admin Console with an assigned Organization ID.
 * Workfront and Experience Manger Assets or Assets Essentials must be assigned as a product to the user configuring the integration.
 
 

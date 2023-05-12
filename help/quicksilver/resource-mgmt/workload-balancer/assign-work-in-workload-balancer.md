@@ -43,6 +43,9 @@ Workfront uses the following information to calculate the capacity of the user i
 
   For more information, see [Configure personal time off in Adobe Workfront](../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md).
 
+* The user's Work Time. This indicates the percentage of FTE time that the user is available to perform actual project-related work, not including overhead. Set the Work Time value to  1 to indicate that the user is available for project-related work their entire full-time equivalent.
+
+
 ## Assign work in the Workload Balancer
 
 You can assign work items that have not yet been assigned to a user or reassign items that have been assigned to users in the Workload Balancer.
@@ -59,7 +62,7 @@ You can assign work in the Workload Balancer in the following ways:
 
   For more information, see [Assign work in the Workload Balancer by dragging and dropping](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-by-drag-and-drop.md).
 
-* Multiple items at a time, by using the Bulk Assignments option to define rules by which items are assigned to multiple users at a time.
+* Multiple items at a time, by using the Bulk Assignments option. You can define rules by which items are assigned to multiple users at a time.
 
   For more information, see [Assign work in bulk using the Workload Balancer](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-in-bulk.md).
 
@@ -83,7 +86,7 @@ The following table describes which items display in each area based on their as
  <tbody> 
   <tr> 
    <td><strong>Type of assignment</strong> </td> 
-   <td colspan="2"><strong>Visible in the:</strong> </td> 
+   <td colspan="2"><strong>Areas in which the assignments are visible</strong> </td> 
   </tr> 
   <tr> 
    <td>&nbsp;</td> 

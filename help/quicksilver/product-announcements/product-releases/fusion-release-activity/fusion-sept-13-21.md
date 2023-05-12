@@ -13,7 +13,7 @@ This page describes all enhancements made in Adobe Workfront Fusion the week of 
 
 For a list of all recent changes, see [Adobe Workfront Fusion release activity](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
-For a list of recent bug fixes in Workfront Fusion, see the [Workfront Maintenance Updates](https://one.workfront.com/s/article/Workfront-Maintenance-Updates-1882317350) page and check for any updates labeled Workfront Fusion Maintenance Update.
+For a list of recent bug fixes in Workfront Fusion, see the [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) page and check for any updates labeled Workfront Fusion Maintenance Update.
 
 ## Filter and sort Workfront Fusion scenario execution history
 
@@ -35,8 +35,6 @@ We've also made it possible to sort the scenario execution history. You can sort
 * Amount of data transferred
 
 For more information on filtering and sorting execution history, see [View a scenario's execution history in Adobe Workfront Fusion](../../../workfront-fusion/scenarios/view-scenario-execution-history.md).
-
-[Watch a video demonstration of this feature.](https://vimeo.com/606779136/deaf2e810c)
 
 ## Help links in Fusion now lead to specific articles
 

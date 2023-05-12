@@ -84,7 +84,7 @@ The lists below define the available expressions you can use when you are buildi
 
 >[!NOTE]
 >
->If you create a date and time calculation that doesn’t include a time portion, or that uses the date wildcards $$TODAY or $$NOW, the system uses the date according to the Coordinated Universal Time (UTC) zone, not according your local timezone. This can cause an unexpected date result.
+>If you create a date and time calculation that doesn't include a time portion, or that uses the date wildcards $$TODAY or $$NOW, the system uses the date according to the Coordinated Universal Time (UTC) zone, not according your local timezone. This can cause an unexpected date result.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -98,11 +98,11 @@ The lists below define the available expressions you can use when you are buildi
  <tbody> 
   <tr> 
    <td><strong>ADDDAYS</strong> </td> 
-   <td> <p>This expression adds the number of days to the date and is formatted as follows:</p><pre>ADDDAYS(date, number)</pre> </td> 
+   <td> <p>This expression adds the number of days to the date. The number value can include partial days (e.g., 1.5 will add one and a half days to the date).</p> <p>The expression is formatted as follows:</p><pre>ADDDAYS(date, number)</pre> </td> 
   </tr> 
   <tr> 
    <td><strong>ADDWEEKDAYS</strong> </td> 
-   <td> <p>This expression adds the number of weekdays to the date and is formatted as follows:</p><pre>ADDWEEKDAYS(date, number)</pre> </td> 
+   <td> <p>This expression adds the number of weekdays to the date. This expression only adds whole integer values to the date, rounding down. </p> <p>The expression is formatted as follows:</p><pre>ADDWEEKDAYS(date, number)</pre> </td> 
   </tr> 
   <tr> 
    <td><strong>ADDMONTHS</strong> </td> 
@@ -307,7 +307,7 @@ The lists below define the available expressions you can use when you are buildi
   </tr> 
   <tr> 
    <td><strong>IF</strong> </td> 
-   <td> <p>This expression evaluates a condition that you specify and returns the value of the trueExpression if it is true, or the value of the falseExpression if it is false.</p> <p>The expression is formatted as follows:</p><pre>IF(condition, trueExpression, falseExpression)</pre> <p>For example, you can compare two different date fields followed by a True/False result as a data string:</p><pre>IF({projectedCompletionDate}&gt;{plannedCompletionDate},"Off Track","On Track")</pre> <p>In everyday speech, this statement means: “IF the Projected Completion Date of my object is ‘Greater Than' the Planned Completion Date of my same object, then display the words ‘Off Track' in this field; otherwise, display the words ‘On Track.'”</p> <p>If you do not want to label the true or false expressions, you must insert a blank label in your statement, such as:</p><pre>IF({projectedCompletionDate}&gt;{plannedCompletionDate},"","On Track")</pre> <p>Or</p><pre>IF({projectedCompletionDate}&gt;{plannedCompletionDate},"Off Track","")</pre> <p>For more information about building "IF" statements, see <a href="../../../reports-and-dashboards/reports/calc-cstm-data-reports/if-statements-overview.md" class="MCXref xref">"IF" statements overview</a>.</p> </td> 
+   <td> <p>This expression evaluates a condition that you specify and returns the value of the trueExpression if it is true, or the value of the falseExpression if it is false.</p> <p>The expression is formatted as follows:</p><pre>IF(condition, trueExpression, falseExpression)</pre> <p>For example, you can compare two different date fields followed by a True/False result as a data string:</p><pre>IF({projectedCompletionDate}&gt;{plannedCompletionDate},"Off Track","On Track")</pre> <p>In everyday speech, this statement means: "IF the Projected Completion Date of my object is 'Greater Than' the Planned Completion Date of my same object, then display the words 'Off Track' in this field; otherwise, display the words 'On Track.'"</p> <p>If you do not want to label the true or false expressions, you must insert a blank label in your statement, such as:</p><pre>IF({projectedCompletionDate}&gt;{plannedCompletionDate},"","On Track")</pre> <p>Or</p><pre>IF({projectedCompletionDate}&gt;{plannedCompletionDate},"Off Track","")</pre> <p>For more information about building "IF" statements, see <a href="../../../reports-and-dashboards/reports/calc-cstm-data-reports/if-statements-overview.md" class="MCXref xref">"IF" statements overview</a>.</p> </td> 
   </tr> 
   <tr> 
    <td><strong>IFIN</strong> </td> 
@@ -359,7 +359,7 @@ The lists below define the available expressions you can use when you are buildi
   </tr> 
   <tr> 
    <td><strong>SUBSTR</strong> </td> 
-   <td> <p>This expression return characters of a string based upon the start and end index specified and is formatted as follows:</p><pre>SUBSTR({string}, number of start position, length of string)</pre> </td> 
+   <td> <p>This expression return characters of a string based upon the start and end index specified and is formatted as follows:</p><pre>SUBSTR({string}, number of start position, number of end position)</pre> </td> 
   </tr> 
   <tr> 
    <td><strong>TRIM</strong> </td> 

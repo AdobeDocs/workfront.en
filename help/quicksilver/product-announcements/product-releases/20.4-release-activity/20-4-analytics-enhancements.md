@@ -22,6 +22,4 @@ To allow you to view the information you want to see without having to apply res
 
 Previously, the Enhanced analytics area limited the amount of projects that you could look at to 50.
 
-[Watch a video demonstration of this feature.](https://vimeo.com/466354598/60776d7280)
-
 This feature is now included in the [Enhanced Analytics, Part 1 learning path](https://one.workfront.com/s/learningpath2/enhanced-analytics-part-1-overview-20Y0z000000bmgOEAQ) on Workfront One.

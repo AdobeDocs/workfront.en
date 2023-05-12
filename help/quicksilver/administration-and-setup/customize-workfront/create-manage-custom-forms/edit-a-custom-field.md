@@ -46,15 +46,11 @@ You must have the following to perform the steps in this article:
 
 1. Click **Custom Forms.**
 1. Click the **Fields** tab.
-
-   <!--
-   Or
-   If you are editing the properties for an image or video widget, click the <b>Widget Library</b> tab.</p>
-   -->
-
 1. Select the custom field, section break, or widget, then click **Edit**.
 1. In the box that displays, change any of the options available for the item you are editing.
 
-   For information about these options, see [Add a custom field to a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md) or [Add or edit an asset widget in a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
+   See more information about these options
+   * If you are using the custom form builder, see [Add a custom field to a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md) or [Add or edit an asset widget in a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
+   * If you are used the form designer, see [Design a form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 1. When you are finished, click **Save + Close**.

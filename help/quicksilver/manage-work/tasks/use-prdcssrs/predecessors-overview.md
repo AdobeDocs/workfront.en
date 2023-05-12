@@ -3,18 +3,16 @@ content-type: overview
 product-area: projects
 navigation-topic: use-predecessors
 title: Overview of task predecessors
-description: CONTEXT SENSITIVE HELP article. DO NOT CHANGE THE NAME OF THE ARTICLE/ DO NOT MOVE OR DELETE!
+description: A predecessor is the task another task (called a successor or dependent task) depends on. Adobe Workfront supports five types of predecessor dependencies.
 author: Alina
 feature: Work Management
 exl-id: b2020a50-0921-4ed2-8a34-1a0411992b99
 ---
 # Overview of task predecessors
 
-{{highlighted-preview}}
+<!-- 
 
-<!--
-<p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">CONTEXT SENSITIVE HELP article. DO NOT CHANGE THE NAME OF THE ARTICLE/ DO NOT MOVE OR DELETE!</p>
--->
+CONTEXT SENSITIVE HELP article. DO NOT CHANGE THE NAME OF THE ARTICLE/ DO NOT MOVE OR DELETE! --> 
 
 A predecessor is the task another task (called a successor or dependent task) depends on. Adobe Workfront supports five types of predecessor dependencies. To understand predecessor dependencies, see [Overview of task dependency types](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md).
 
@@ -70,15 +68,7 @@ To find the predecessors of a task do one of the following:
 
       The number in the **#** column shows the predecessor task number. For example "6" means the sixth task in the project.
 
-      Sample image in the Production environment:
-      ![](assets/nwe-predecessors-tab-with-task-header-350x56.png)
-
-      <div class="preview">
-
-      Sample image in the Preview environment:
       ![Predecessors section of task](assets/predecessors-area-with-task-header.png)
-
-      </div>
 
 * Go to the project you are working on and do the following:
 
@@ -89,10 +79,10 @@ To find the predecessors of a task do one of the following:
       For a cross-project predecessor, the Predecessors column shows the reference number of the project the predecessor belongs to and the number of the task, separated by a colon.
 
       The predecessor icon turns green when the predecessor task is marked complete. This signals that the dependent task is ready for work.
+      
+      Hover over this value to get more information on the predecessor, the project, and the dates.
 
-      Hover over this value to get more information on the predecessor, the project and the dates.
-
-      ![](assets/cross-project-predecessor-in-task-view-350x165.png)
+      ![Predecessor details](assets/predecessor-details-in-task-list.png)
 
 ## Examples of predecessor values in a task list {#examples-of-predecessor-values-in-a-task-list}
 

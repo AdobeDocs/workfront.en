@@ -99,10 +99,6 @@ You must have the following access to perform the steps in this article:
       <td role="rowheader">Automatically log mobile users out after </td> 
       <td>Lets you specify when a user is logged out of the Workfront application, after a period of inactivity. By default, users are logged out after 7 days of inactivity. <p>This option also affects Workfront customers who are using a single sign-on solution.</p></td> 
      </tr> 
-     <tr> 
-      <td role="rowheader"><strong>Enable Zoom integration in the updates stream</strong> </td> 
-      <td> <p>Lets you enable or disable the Zoom integration in the Updates area for all users in the organization.<br>The Zoom integration allows users to add a Zoom meeting URL to a comment or reply in the Updates area. For more information, see <a href="https://one.workfront.com/s/article/Using-the-Zoom-integration?language=en_US">Using the Zoom integration</a>. Also see the section <a href="../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md#add" class="MCXref xref">Add an update to a work item</a> in the article<a href="../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md" class="MCXref xref">Update work</a>.</p> <p>Users can uninstall the Zoom integration in their personal instance of Workfront. For more information, see <a href="https://one.workfront.com/s/article/Uninstalling-the-Zoom-integration?language=en_US">Uninstalling the Zoom integration</a>.</p> </td> 
-     </tr> 
     </tbody> 
    </table>
 

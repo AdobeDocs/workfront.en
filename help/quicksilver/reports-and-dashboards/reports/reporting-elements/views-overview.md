@@ -4,7 +4,7 @@ product-area: reporting
 navigation-topic: reporting-elements
 title: Views overview in Adobe Workfront
 description: You can customize the type of information you display in a list or report by managing the view of the list or report. You can display objects and their attributes in a view.
-author: Lisa
+author: Nolan
 feature: Reports and Dashboards
 exl-id: 18016417-e24d-4797-9422-00915db47bb9
 ---

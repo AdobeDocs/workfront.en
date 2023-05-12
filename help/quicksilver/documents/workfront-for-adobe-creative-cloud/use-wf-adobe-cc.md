@@ -9,6 +9,11 @@ exl-id: 40945eac-e8de-42af-b6ba-f3082c208e02
 ---
 # Use the Workfront Extension for Illustrator and InDesign
 
+>[!IMPORTANT]
+>
+>We are replacing the Workfront extension for Illustrator and InDesign with [updated Creative Cloud plugins](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-toc.md). Starting late 2022, this extension will no longer be supported and is available as-is.
+
+
 You can use the Workfront Extension to export digital content you save and create in Adobe Illustrator and Adobe InDesign to Workfront. This speeds up the document review and approval process.
 
 The Workfront&nbsp;Extension is supported for Adobe Creative Cloud 2017 and newer in the following applications:
@@ -19,9 +24,7 @@ The Workfront&nbsp;Extension is supported for Adobe Creative Cloud 2017 and newe
 
   >[!NOTE]
   >
-  >We recommend using the new [Adobe Workfront for Photoshop](../../workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/workfront-for-photoshop.md) plugin.
-
-The following sections describe how to use the Workfront Extension after you have installed it. For information about how to install the extension, see [Install the Workfront Extension for Illustrator and InDesign](../../documents/workfront-for-adobe-creative-cloud/installl-wf-adobe-cc.md).
+  >We recommend using the new [Adobe Workfront for Photoshop](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-ps.md) plugin.
 
 ## Access requirements
 
@@ -57,8 +60,6 @@ You must have the following access to perform the steps in this article:
 When you log in to Workfront from one of the supported Adobe applications, you are logged in to all supported Adobe applications.
 
 1. Go to the Adobe application where you want to use the Workfront extension.
-
-   For information about installing the extension, see [Install the Workfront Extension for Illustrator and InDesign](../../documents/workfront-for-adobe-creative-cloud/installl-wf-adobe-cc.md).
 
    For a list of supported formats for each supported application, see [Supported exported file formats](#supported-exported-file-formats) in this article.
 

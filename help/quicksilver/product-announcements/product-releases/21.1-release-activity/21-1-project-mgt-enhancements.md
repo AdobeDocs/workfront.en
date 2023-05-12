@@ -28,15 +28,11 @@ We have updated the way the percent complete of issues works for issues that hav
 
 For information about converting issues, see [Overview of Resolving and Resolvable Objects](../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md).
 
-[Watch a video demonstration of this feature.](https://vimeo.com/500719034/87fc33b58d)
-
 ## New Submitted Requests list
 
 To allow you to manage your Submitted Requests in an easier, more consistent way, we have removed the Requests I've Submitted and All Requests sections in the Requests area and replaced them with a new Submitted list. The list has a familiar look and feel that matches all other lists in the system, allowing you to filter for different categories of submitted requests and quick search for a request that might be hard to find.
 
 For information about how to locate submitted requests, see [Locate submitted requests](../../../manage-work/requests/create-requests/locate-submitted-requests.md).
-
-[Watch a video demonstration of this feature.](https://vimeo.com/486869995/53b63d4053)
 
 This feature is now included in the [Collaborator Fundamentals for the new Workfront Experience](https://one.workfront.com/s/learningpath1/collaborator-fundamentals-for-the-new-workfront-experience-MCY5AMOQQTGFDVZB4ODS6TXCYE2A) learning path on Workfront One.
 
@@ -64,8 +60,6 @@ We have replaced the Assigned To, Job Role, and Team fields with the new Assignm
 
 For information about defining New Issue Fields for a project, see [Create a Request Queue](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
-[Watch a video demonstration of this feature.](https://vimeo.com/500720751/63bdf6ac91)
-
 ## New experience when submitting requests in the Requests area
 
 >[!NOTE]
@@ -82,8 +76,6 @@ Ability to share a link to the request queue, topic group, or queue topic as you
 
 For information about submitting requests, see [Create and submit Workfront requests](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md).
 
-[Watch a video demonstration of this feature.](https://vimeo.com/500718803/3cac0e333d)
-
 ## Share a link to a request queue when submitting a request
 
 >[!NOTE]
@@ -96,8 +88,6 @@ Before you submit a new request, you can copy a link to the request queue, topic
 
 For information about sharing a link to a request queue when submitting a request, see [Share a link to a request queue](../../../manage-work/requests/create-requests/share-link-to-request-queue.md).
 
-[Watch a video demonstration of this feature.](https://vimeo.com/500718523/bc6600e610)
-
 ## Search for a group you want to assign to a project and view its details
 
 It's now easier to make sure you identify the right group when you are assigning a group to a project. Hover over the name of a group you find in the Group box, then click the info icon that displays next to the name to view the Group Details tooltip.
@@ -109,8 +99,6 @@ Depending on the details configured for the group, you might also see the group'
 With this information, you can be assured that you are selecting the right group to assign to the project.
 
 For more information, see [Manage information in the project Overview area](../../../manage-work/projects/manage-projects/understand-project-overview-area.md).
-
-[Watch a video demonstration of this feature.](https://vimeo.com/492153020/dfaa5b708a)
 
 ## New User Delegation report
 

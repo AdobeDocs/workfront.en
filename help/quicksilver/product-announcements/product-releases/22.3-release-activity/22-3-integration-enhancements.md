@@ -14,7 +14,7 @@ This page describes all Integration enhancements made with the 22.3 release to t
 
 We are excited to announce that the Adobe Workfront Experience Manager Assets integration is now available for Cloud Service.
 
-We’ve also introduced new functionality for both Cloud Service and Assets Essentials: This integration allows users to
+We've also introduced new functionality for both Cloud Service and Assets Essentials: This integration allows users to
 
 *   Automatically create linked AEM folders from within Workfront
     
@@ -44,14 +44,12 @@ Workfront Administrators can enable and disable SharePoint and legacy SharePoint
 
 For more information see [Configure the Legacy SharePoint integration](/help/quicksilver/administration-and-setup/configure-integrations/configure-sharepoint-integration.md).
 
-[View a video demonstration of this feature.](https://vimeo.com/716405303/a3fdff19ea)
-
 ## Combine multiple files in a single proof in the Creative Cloud plugin
 
-You can now upload outside files with the content you’ve created in the Adobe Workfront for Creative Cloud plugin to create multi-file proofs in Workfront. Outside files appear as additional proof pages inside Workfront. With this enhancement, we’ve also updated the look and feel of the proof creation experience.
+You can now upload outside files with the content you've created in the Adobe Workfront for Creative Cloud plugin to create multi-file proofs in Workfront. Outside files appear as additional proof pages inside Workfront. With this enhancement, we've also updated the look and feel of the proof creation experience.
 
 For more information, see
 
-*   [Upload proofs from Adobe Photoshop](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-proofs.md)
+*   [Upload proofs from Adobe Photoshop](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-proofs-ps.md)
     
-*   [Upload XD art boards as proofs to Workfront](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-xd/wf-adobe-xd-proofs.md)
+*   [Upload XD art boards as proofs to Workfront](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-proofs.md)

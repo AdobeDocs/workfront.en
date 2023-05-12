@@ -10,180 +10,27 @@ exl-id: cc0adf28-08ab-4330-b901-219ab687f02f
 
 # Reporting Canvas beta: overview
 
-## The Reporting Canvas beta
+## Reporting Canvas
 
-A complete reimagination of reporting in Workfront, the new Reporting Canvas tool is nearing completion and will soon be available for public testing. In developing Reporting Canvas, we have worked hard to provide an experience that offers maximal flexibility coupled with an intuitive, modular design—so that users like you can most effectively leverage your own data in making and sharing reports. Through a new, unified report type that allows you to drag-and-drop nearly every element onto a limitless canvas, creating a visual data masterpiece will soon be easier than ever before.
+A complete reimagination of reporting in Workfront, the new Reporting Canvas tool is currently in development. In designing Reporting Canvas, we have worked hard to provide an experience that offers maximal flexibility coupled with an intuitive, modular design—so that users like you can most effectively leverage your own data in making and sharing reports. Through a new, unified report type that allows you to drag-and-drop nearly every element onto a limitless canvas, creating a visual data masterpiece will soon be easier than ever before.
 
-This article contains information about how the beta will function and how your organization can help us improve Reporting Canvas before its official launch.
+This article contains information about the current private beta, which is limited to specific customers. New Reporting Canvas features are now being deployed through Canvas Dashboards. See **Development plan** below for more information.
 
-### Release schedule
+### Develpment plan
 
-* Public beta launch: Starting Q3 2022
+We are in the final stages of resolving a data quality issue we observed early in the Reporting Canvas beta. We will soon resume work to provide new visualizations, expand the selection of reportable Workfront objects, and improve the report creation and distribution experiences, all of which are integral to realizing our goals for Reporting Canvas.
 
-  >[!NOTE]
-  >
-  >We are excited to begin our roll-out of the Reporting Canvas beta. Over the past few weeks, we have had tremendous interest from customers to join the beta. Due to the volume of customers joining the beta, we are limiting the ability of any additional customers to join at this time. Starting July 19, 2022, any customers who have not already joined the Reporting Canvas beta by accepting the terms will have the beta icon removed from their Workfront production instance. We will ensure more customers can join this beta later in 2022 and will announce updates as the beta becomes available to more customers.
-
-* Official release: TBD
-
-### Features
-
-In developing Reporting Canvas, we have radically redesigned some features—and created some new ones from the ground up—for the purpose of streamlining report making. The following table outlines major features of Reporting Canvas in comparison to existing reporting tools, as well as their current release status:
-
->[!NOTE]
->
->For a chronological list of added features and resolved issues, see [Reporting Canvas beta: release activity](/help/quicksilver/product-announcements/betas/reporting-canvas-beta/reporting-canvas-release-activity.md). 
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <th>Feature Description</th> 
-   <th>Legacy Terminology </th> 
-   <th>Reporting Canvas Terminology</th> 
-   <th>Status</th> 
-  </tr> 
-  <tr> 
-   <td>Reports</td> 
-   <td>Report</td> 
-   <td>Reporting canvas</td> 
-   <td>Released</td> 
-  </tr> 
-  <tr> 
-   <td>Dashboards</td> 
-   <td>Dashboard</td> 
-   <td>Reporting canvas</td> 
-   <td>Released</td> 
-  </tr> 
-  <tr> 
-   <td>Tables</td> 
-   <td>Details tab</td> 
-   <td>Table block</td> 
-   <td>Released</td> 
-  </tr> 
-  <tr> 
-   <td>Charts</td> 
-   <td>Chart tab</td> 
-   <td>Visualization block</td> 
-   <td>Released</td> 
-  </tr> 
-  <tr> 
-   <td>Subtotals</td> 
-   <td>Summary tab</td> 
-   <td>KPI&nbsp;visualization</td> 
-   <td>Released</td> 
-  </tr> 
-  <tr> 
-   <td>Drill path</td> 
-   <td>Report viewer modal</td> 
-   <td>Report viewer overlay</td> 
-   <td>Released</td> 
-  </tr> 
-  <tr> 
-   <td>Columns</td> 
-   <td>View tab</td> 
-   <td>Table editing</td> 
-   <td>Released</td> 
-  </tr> 
-  <tr> 
-   <td>Filters</td> 
-   <td>Filter tab</td> 
-   <td>Table editing</td> 
-   <td>Released</td> 
-  </tr> 
-  <tr> 
-   <td>Groups</td> 
-   <td>Group tab</td> 
-   <td>Table editing</td> 
-   <td>Released</td> 
-  </tr> 
-  <tr> 
-   <td>Field configuration<br>(aggregations and conditional formatting)</td> 
-   <td>View tab</td> 
-   <td>Table editing (column selected)</td> 
-   <td>Released</td> 
-  </tr> 
-  <tr> 
-   <td>Resizing columns</td> 
-   <td>Text mode</td> 
-   <td>Table editing (column selected)</td> 
-   <td>Released</td> 
-  </tr> 
-   <tr> 
-   <td>External content</td> 
-   <td>External page</td> 
-   <td>Web content block</td> 
-   <td>Released</td> 
-  </tr> 
-   <tr> 
-   <td>Exporting</td> 
-   <td>Report actions</td> 
-   <td><strong>More</strong> menu in viewer</td> 
-   <td>Partially Released</td> 
-  </tr> 
-  <tr> 
-   <td>Sharing columns</td> 
-   <td>Text mode</td> 
-   <td>Field builder</td> 
-   <td>Partially Released</td> 
-  </tr> 
-  <tr> 
-   <td>Calculated columns</td> 
-   <td>Text mode</td> 
-   <td>Field builder</td> 
-   <td>Partially Released</td> 
-  </tr> 
-  <tr> 
-   <td>Chart styling</td> 
-   <td>Chart tab</td> 
-   <td>Visualization block (Style tab)</td> 
-   <td>Planned</td> 
-  </tr> 
-  <tr> 
-   <td>Scheduled delivery</td> 
-   <td>Report actions</td> 
-   <td><strong>More</strong> menu in viewer</td> 
-   <td>Planned</td> 
-  </tr> 
-  <tr> 
-   <td>Granting report access</td> 
-   <td>Report actions</td> 
-   <td><strong>More</strong> menu in viewer</td> 
-   <td>Planned</td> 
-  </tr> 
-  <tr> 
-   <td>Unauthenticated dashboard access</td> 
-   <td>Dashboard actions</td> 
-   <td><strong>More</strong> menu in viewer</td> 
-   <td>Planned</td> 
-  </tr> 
-  <tr> 
-   <td>Editing report data</td> 
-   <td>In-line editing</td> 
-   <td>Summary pane</td> 
-   <td>Planned</td> 
-  </tr> 
-  <tr> 
-   <td>Page filtering</td> 
-   <td>N/A</td> 
-   <td>Canvas filter</td> 
-   <td>Planned</td> 
-  </tr> 
- </tbody> 
-</table>
-
->[!NOTE]
->
->The features listed here will be released as part of a tiered product release scheme. Features you have access to in this beta may not be available in the full release, based on your organization's plan.
+We will deliver these new experiences incrementally, beginning with the 23.2 release, through the new Canvas Dashboards page that is now available in your Preview environment. Canvas Dashboards allow you to display existing reports alongside the new reporting capabilities we are building, and will serve as our primary environment for deploying and testing new features for Reporting Canvas. For more information on enabling and using Canvas Dashboards, see [Canvas Dashboards overview](/help/quicksilver/reports-and-dashboards/dashboards/creating-and-managing-dashboards/canvas-dashboards-overview.md).
 
 ## Participate in the beta
 
+>[!IMPORTANT]
+>
+>The beta information below is for administrators that have already been included in the Reporting Canvas beta, which is no longer accepting new participants. If you would like to test new features of Reporting Canvas as they are added, see **Development plan** above for information on enabling Canvas Dashboards.
+
 ### Availability
 
-The Reporting Canvas beta will be available to all organizations that are on AWS, regardless of region.
+The Reporting Canvas beta is available to all organizations that are on AWS, regardless of region.
 
 ### Join the beta
 
@@ -212,11 +59,8 @@ To opt in other users that are not Workfront administrators:
 
 ### Submit feedback
 
-For information about known beta issues, see [Reporting Canvas beta: known issues](/help/quicksilver/product-announcements/betas/reporting-canvas-beta/reporting-canvas-known-issues.md).
-
 To submit feedback about the beta:
 
-1. Check the list of currently known issues above to make sure it hasn't already been submitted.
 1. While in Reporting Canvas in Workfront, click the **Send Feedback** button.
 1. Fill out the form, then click **Submit**.
 

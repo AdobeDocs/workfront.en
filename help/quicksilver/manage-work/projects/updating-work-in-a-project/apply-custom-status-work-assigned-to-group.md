@@ -2,7 +2,7 @@
 product-area: projects
 navigation-topic: update-work-in-a-project
 title: Apply statuses to work that is associated with a group
-description: 'CO: Alina, I moved this out of an admin article about statuses (Create and customize statuses)'
+description: If a project is associated with a group, you can apply both system-level statuses as well as a custom status associated with that group to the project, task or issues on that project.
 author: Alina
 feature: Work Management
 exl-id: 7564ab6a-8ddf-4e76-8e45-d59f9cf8d38b
@@ -10,16 +10,47 @@ exl-id: 7564ab6a-8ddf-4e76-8e45-d59f9cf8d38b
 # Apply statuses to work that is associated with a group
 
 <!--
-<p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">CO: Alina, I moved this out of an admin article about statuses (Create and customize statuses)</p>
+Alina, I moved this out of an admin article about statuses (Create and customize statuses)
 -->
 
-If a project is associated with a group, you can apply both system-level statuses as well as a custom status associated with that group to the project, or tasks and issues on that project. For information about group statuses in&nbsp;Adobe Workfront, see [Create or edit a status](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
+If a project is associated with a group, you can apply both system-level statuses as well as a custom status associated with that group to the project, or tasks and issues on that project. For information about group statuses in Adobe Workfront, see [Create or edit a status](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
 
 >[!TIP]
 >
->You can associate only projects with groups.&nbsp;Issues and tasks inherit the group from the project they belong to.
+>You can associate only projects with groups. Issues and tasks inherit the group from the project they belong to.
 
 ## Access requirements
+
+<!--drafted for P&P:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Current license: Standard </p> 
+   Or
+   <p>Legacy license: Plan </p> 
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations*</td> 
+   <td> <p>Edit access to Projects</p> <p><b>NOTE</b>
+   
+   If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>Manage permissions to the project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+-->
 
 You must have the following access to perform the steps in this article:
 
@@ -37,7 +68,9 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Projects</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>Edit access to Projects</p> <p><b>NOTE</b>
+   
+   If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 

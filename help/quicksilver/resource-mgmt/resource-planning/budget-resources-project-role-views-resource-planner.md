@@ -2,7 +2,7 @@
 product-area: resource-management
 navigation-topic: resource-planning
 title: Budget resources in the Resource Planner using the Project and Role views
-description: Budget resources in the Resource Planner using the Project and Role views
+description: You can budget resources in the Adobe Workfront Resource Planner using the Project and Role views. You cannot budget resourcing using the User view in the Resource Planner. 
 author: Alina
 feature: Resource Management
 exl-id: b1b48529-68e7-4aee-aaa1-d78e91fbb39c
@@ -139,6 +139,8 @@ You must have the following access to perform the steps in this article:
    For more information about understanding the Resource Budgeting area of the Business Case, see the section "Resource Budgeting" in the article [Overview of the Areas of the Business Case](../../manage-work/projects/define-a-business-case/areas-of-business-case.md).
 
 1. (Optional) Select the User view to notice any user overallocations or underutilization between the Available and the Planned Hours for each user. Budgeted Hours are not visible in the User view.
+
+    For information about how Workfront calculates a user's availability, see [Configure Resource Management preferences](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md). 
 
 ### Budget resources in the Role View {#budget-resources-in-the-role-view}
 

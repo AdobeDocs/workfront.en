@@ -5,7 +5,7 @@ product-area: system-administration
 navigation-topic: access-levels
 title: Access to objects and areas by license type
 description: The table below tells you the highest level of access (Edit or View) that each of the Adobe Workfront licenses allow for the objects and areas in Workfront.
-author: Caroline
+author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: d8f2a295-c053-4763-bf6e-6e836087a839
@@ -43,7 +43,7 @@ The table below tells you the highest level of access (Edit or View) that each o
 
 >[!NOTE]
 >
->Users with a Review license or a Request license has limited sharing capabilities. For more information, see [Adobe Workfront licenses overview](../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md).
+>Users with a Review license or a Request license has limited sharing capabilities. For more information, see [Adobe Workfront licenses overview](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md) or [Adobe Workfront licenses overview](../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md).
 >
 >External users cannot search for items in Workfront. They can view documents and calendars that are specifically shared with them. They can also see the users that share items with them.
 

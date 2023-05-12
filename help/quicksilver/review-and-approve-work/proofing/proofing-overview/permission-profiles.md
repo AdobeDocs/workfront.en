@@ -34,15 +34,116 @@ Proof Permission Profiles determine what overall permissions users have over all
 
 The following table displays the permissions available with each Proof Permission Profile.
 
-| **Own Items** | | | | | **Other Users' Items** | | | **Admin** | **Billing** |
-|---|---|---|---|---|---|---|---|---|---|
-| &nbsp; |**Add** |**View** |**Edit** |**Delete** |**View** |**Edit** |**Delete** |**Edit and Delete** |**Edit** |
-| Admin | ![](assets/cleaner2.png)| ![](assets/cleaner2.png)| ![](assets/cleaner2.png)| ![](assets/cleaner2.png)| ![](assets/cleaner2.png)| ![](assets/cleaner2.png)| ![](assets/cleaner2.png)| ![](assets/cleaner2.png)| |
-| Supervisor | ![](assets/cleaner2.png)| ![](assets/cleaner2.png)| ![](assets/cleaner2.png)| ![](assets/cleaner2.png)| ![](assets/cleaner2.png)| ![](assets/cleaner2.png)| ![](assets/cleaner2.png)|&nbsp; |&nbsp; |
-| Manager | ![](assets/cleaner2.png)| ![](assets/cleaner2.png)| ![](assets/cleaner2.png)| ![](assets/cleaner2.png)|&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
-| Observer |&nbsp; | ![](assets/cleaner2.png)|&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
-
-{style="table-layout:auto"}
+<table>
+  <tr>
+   <td colspan="5" ><strong>Own Items</strong>
+   </td>
+   <td colspan="3" ><strong>Other users' items</strong>
+   </td>
+   <td><strong>Admin</strong>
+   </td>
+  </tr>
+  <tr>
+   <td>
+   </td>
+   <td><strong>Add</strong>
+   </td>
+   <td><strong>View</strong>
+   </td>
+   <td><strong>Edit</strong>
+   </td>
+   <td><strong>Delete</strong>
+   </td>
+   <td><strong>View</strong>
+   </td>
+   <td><strong>Edit</strong>
+   </td>
+   <td><strong>Delete</strong>
+   </td>
+   <td><strong>Edit and Delete</strong>
+   </td>
+  </tr>
+  <tr>
+   <td>Admin
+   </td>
+   <td>x
+   </td>
+   <td>x
+   </td>
+   <td>x
+   </td>
+   <td>x
+   </td>
+   <td>x
+   </td>
+   <td>x
+   </td>
+   <td>x
+   </td>
+   <td>x
+   </td>
+  </tr>
+  <tr>
+   <td>Supervisor
+   </td>
+   <td>x
+   </td>
+   <td>x
+   </td>
+   <td>x
+   </td>
+   <td>x
+   </td>
+   <td>x
+   </td>
+   <td>x
+   </td>
+   <td>x
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td>Manager
+   </td>
+   <td>x
+   </td>
+   <td>x
+   </td>
+   <td>x
+   </td>
+   <td>x
+   </td>
+   <td>
+   </td>
+   <td>
+   </td>
+   <td>
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td>Observer
+   </td>
+   <td>
+   </td>
+   <td>x
+   </td>
+   <td>
+   </td>
+   <td>
+   </td>
+   <td>
+   </td>
+   <td>
+   </td>
+   <td>
+   </td>
+   <td>
+   </td>
+  </tr>
+</table>
 
 ### Administrator
 

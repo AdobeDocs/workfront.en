@@ -177,3 +177,5 @@ To apply Resource Pools and budget project resources in the Business Case for a 
    >Cost displays in the Business Case in the currency of the project.
 
    The budgeting information specified in the Business Case is also displayed in the Resource Planner.
+
+   When you copy a project, you have the option to also copy the Budgeted Hours to the new project. Only hours budgeted in the Resource Planner are copied. For more information, see [Copy a project](../manage-projects/copy-project.md).

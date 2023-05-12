@@ -12,11 +12,42 @@ exl-id: 996398c5-de92-445e-8e86-36b2efdcf6b5
 
 The Planned Completion Date of a project is the date by which the project is set to complete.
 
-The Planned Start and the Planned Completion Dates of a project rely on the dates of the tasks on the project.&nbsp;This article describes how you can manually or automatically set the Planned Completion Date of a project.&nbsp;For more information about the Planned Completion Date of a task, see [Overview of the task Planned Completion Date](../../../manage-work/tasks/task-information/task-planned-completion-date.md).
+The Planned Start and the Planned Completion Dates of a project rely on the dates of the tasks on the project. This article describes how you can manually or automatically set the Planned Completion Date of a project. For more information about the Planned Completion Date of a task, see [Overview of the task Planned Completion Date](../../../manage-work/tasks/task-information/task-planned-completion-date.md).
 
-The Planned Completion Date of a project can be set manually or automatically, depending on whether you schedule the project from the Start or from the Completion Date.&nbsp;
+The Planned Completion Date of a project can be set manually or automatically, depending on whether you schedule the project from the Start or from the Completion Date.
 
 ## Access requirements
+
+<!--drafted for P&P:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Current license: Standard </p>
+   Or
+   <p>Legacy license: Plan </p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations*</td> 
+   <td> <p>Edit access to Projects</p> <p><b>NOTE</b>
+   
+   If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>Manage permissions to the project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+-->
 
 You must have the following access to perform the steps in this article:
 
@@ -34,7 +65,9 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Projects</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>Edit access to Projects</p> <p><b>NOTE</b>
+   
+   If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -59,7 +92,7 @@ To schedule a project from Completion Date:
 
 1. Select **Project Details** in the left panel, then click the **Edit Project** icon in the upper-right corner. 
 
-1. In the **Schedule From** field, select **Completion Date**.
+1. In the **Schedule Mode** field, select **Completion Date**.
 
 1. Specify the **Planned Completion Date** of the project.
 1. Click **Save Changes**.
@@ -80,7 +113,7 @@ To schedule a project from Start Date:
 
 1. Select **Project Details** in the left panel, then click the **Edit Project** icon in the upper-right corner. 
 
-1. In the **Schedule From** field, select **Start Date**.
+1. In the **Schedule Mode** field, select **Start Date**.
 
 1. Specify the **Planned Start Date** of the project.
 1. Click **Save Changes**.

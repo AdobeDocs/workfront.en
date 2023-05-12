@@ -1,5 +1,5 @@
 ---
-title: Create or edit a custom form
+title: Create or edit a custom form with the legacy form builder
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
@@ -9,11 +9,11 @@ feature: System Setup and Administration
 role: Admin
 exl-id: 5712e82d-bd1d-4d8a-9a2a-1e19b562b9d1
 ---
-# Create or edit a custom form
+# Create or edit a custom form with the legacy form builder
 
 You can create or edit new custom form. Both tasks are explained in this article.
 
-For information about creating a new custom form from an existing one, see [Copy a custom form to create a new one](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/copy-custom-form-to-create-a-new-one.md).
+For information about creating a new custom form from an existing one, see [Copy a custom form to create a new one with the legacy form builder](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/copy-custom-form-to-create-a-new-one.md).
 
 ## Access requirements
 

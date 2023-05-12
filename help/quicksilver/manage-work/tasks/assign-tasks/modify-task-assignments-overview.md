@@ -14,7 +14,7 @@ You can assign tasks to or unassign tasks from users, teams, or job roles. You c
 
 >[!TIP]
 >
->You can assign multiple users or job roles, and you can assign only one team. You can assign only active users, job roles, and teams.
+>You can assign multiple users, job roles, or teams. You can assign only active users, job roles, and teams.
 >
 >If a user, job role, or a team was assigned before they were deactivated, they remain assigned to the work item. In this case, we recommend the following: 
 >
@@ -26,7 +26,7 @@ This article contains general information about the impact of modifying task ass
 
 * For information about assigning tasks, see [Assign tasks](../../../manage-work/tasks/assign-tasks/assign-tasks.md) and [Modify multiple user assignments in a task list](../../../manage-work/tasks/assign-tasks/modify-multiple-assignments-in-task-list.md). 
 
-* For information about modifying assignments on multiple tasks in the Scheduling area, see [Modify multiple users assignments to tasks in the Scheduling areas](../../../resource-mgmt/resource-scheduling/modify-multipl-assignments-scheduling-areas.md).
+* For information about modifying assignments on multiple tasks in the Scheduling area, see "Modify multiple users assignments to tasks in the Scheduling areas".
 * For information about assigning tasks using the Workload Balancer, see [Overview of assigning work in the Workload Balancer](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
 
 Some information in this article also applies to assignments to issues. For more information about assigning issues, and additional considerations, see [Modify issue assignments overview](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md).

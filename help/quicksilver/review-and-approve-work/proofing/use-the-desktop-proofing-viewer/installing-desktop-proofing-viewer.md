@@ -28,16 +28,16 @@ You must have the following access to perform the steps in this article:
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>Current plan: Pro or Higher</p> <p>or</p> <p>Legacy plan: Select or Premium</p> <p>For more information about proofing access with the different plans, see .</p> </td> 
+   <td> <p>Current plan: Pro or Higher</p> <p>or</p> <p>Legacy plan: Select or Premium</p> <p>For more information about proofing access with the different plans, see <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Access to proofing functionality in Workfront</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
+   <td role="rowheader">Adobe Workfront license</td> 
    <td> <p>Any</p> <p>Legacy plan: Any (You must have proofing enabled for the user)</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, role, or Proof Permission Profile you have, contact your Workfront or Workfront Proof administrator.
+{{latest-version}}
 
 ## Install the Desktop Proofing Viewer on Mac
 
@@ -47,8 +47,8 @@ If this is not the case, you can follow the steps below.
 
 1. Do one of the following to download the app:
 
-   * If you are using the Production environment, click&nbsp; [Mac Production Download for the Desktop Proofing Viewer.](https://cdn.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof.pkg)
-   * If you are using the Preview environment, click&nbsp; [Mac Preview Download for the Desktop Proofing Viewer.](https://cdn.preview.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Preview.pkg)
+   * If you are using the Production environment, click&nbsp; [Mac Production Download for the Desktop Proofing Viewer.](https://assets.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof-2.1.23.pkg)
+   * If you are using the Preview environment, click&nbsp; [Mac Preview Download for the Desktop Proofing Viewer.](https://assets.preview.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Preview-2.1.23.pkg)
 
 1. Open the file you have just downloaded to start the installation.
 1. On the installation box that appears, click **Continue**, then click **Install**.
@@ -67,12 +67,12 @@ If your Workfront or Workfront Proof administrator has downloaded the app on you
 
 >[!TIP]
 >
->You can use the command line to install the Desktop Proofing Viewer by running `Workfront Proof Setup 2.1.9.exe" /S` 
+>You can use the command line to install the Desktop Proofing Viewer by running `Workfront Proof Setup 2.1.20.exe" /S` 
 
 1. Do one of the following to download the app:
 
-   * In the Production environment, click&nbsp; [Windows Production download for the Desktop Proofing Viewer.](https://cdn.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof.exe)
-   * In the Preview environment, click&nbsp; [Windows Preview download for the Desktop Proofing Viewer](https://cdn.preview.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Preview.exe).
+   * In the Production environment, click&nbsp; [Windows Production download for the Desktop Proofing Viewer.](https://assets.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Setup+2.1.23.exe)
+   * In the Preview environment, click&nbsp; [Windows Preview download for the Desktop Proofing Viewer](https://assets.preview.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Preview+Setup+2.1.23.exe).
 
 1. Open the file you have just downloaded to start the installation.
 1. In the installation box that appears, open the file you have just downloaded to start the installation.

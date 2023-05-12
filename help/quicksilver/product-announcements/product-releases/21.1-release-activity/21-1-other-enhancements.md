@@ -38,7 +38,7 @@ Email is automatically disabled in all Preview environments. To enable email for
 
 For more information, see [Enable users to email an issue into a Request Queue project](/help/quicksilver/manage-work/requests/create-requests/enable-email-issues-into-projects.md).
 
-For more information about why we are making this change, see [New Adobe Workfront managed system to replace POP email for Request Queues with 21.1](../../../product-announcements/announcements/pop-removal-request-queue.md).
+For more information about why we are making this change, see [New Adobe Workfront managed system to replace POP email for Request Queues with 21.1](../../../product-announcements/announcements/announcement-archive/pop-removal-request-queue.md).
 
 This feature is now included in the [Queue Management in the new Workfront experience](https://one.workfront.com/s/learningpath4/queue-management-MCYCJRWK36QZBP7PGMNDMSPRN3LE) learning path on Workfront One.
 
@@ -50,8 +50,6 @@ Previously, users with the Timesheets & Hours option enabled in their access lev
 
 For more information, see [Configure timesheet and hour preferences](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
-[Watch a video demonstration of this feature.](https://vimeo.com/503072105/3693d605ae)
-
 ## Improved filters and views in the Timesheets area
 
 We've added the following improvements when you add a Project, Task, or Issue to a Timesheet:
@@ -61,8 +59,6 @@ We've added the following improvements when you add a Project, Task, or Issue to
 
 For more information, see [Log time](../../../timesheets/create-and-manage-timesheets/log-time.md).
 
-[Watch a video demonstration of this feature.](https://vimeo.com/492165497/788e290e2f)
-
 ## Hide the overtime box in Timesheets
 
 You can now hide the overtime box to ease user confusion if you do not track overtime in Workfront. You can hide the overtime box for a single-use timesheet or in the Timesheet Profile:
@@ -71,8 +67,6 @@ You can now hide the overtime box to ease user confusion if you do not track ove
 * Timesheet profile: When you opt to hide the overtime box in the Timesheet Profile, all future timesheets created for the user(s) assigned to that profile will not see the overtime box. For more information, see [Create, edit, and assign timesheet profiles](../../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md).
 
 Previously, you could not hide the overtime box on timesheets.
-
-[Watch a video demonstration of this feature.](https://vimeo.com/486452500/3a26bb615b)
 
 ## Expand or collapse items in the breadcrumb navigation
 
@@ -84,8 +78,6 @@ Previously, you had to click the ellipsis to display any truncated objects in a 
 
 To view all items in the breadcrumb, click "more" at the beginning of the breadcrumb to expand the items. Once expanded, you can click "Less" to collapse the items again.
 
-[Watch a video demonstration of this feature.](https://vimeo.com/498066614/099bb49d44)
-
 ## New look and feel to breadcrumb navigation
 
 To help users to better identify where they are in Workfront and more easily navigate between objects, we've made the following improvements to breadcrumb navigation:
@@ -95,4 +87,3 @@ To help users to better identify where they are in Workfront and more easily nav
 * Keyboard navigation and screen reader navigation are now available for the breadcrumbs.
 * Additional minor styling changes
 
-[Watch a video demonstration of this feature.](https://vimeo.com/489471468/f4d97efe6a)

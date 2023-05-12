@@ -2,14 +2,14 @@
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
-title: Add a custom field to a custom form
+title: Add a custom field to a custom form with the legacy form builder
 description: When you are working on a custom form, you can create a new custom field and add it to a custom form. You can also add a custom field that was already added to another custom form.
 author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 3579ae0f-1d2e-4ff5-bbdf-58fdd20d01d7
 ---
-# Add a custom field to a custom form
+# Add a custom field to a custom form with the legacy form builder
 
 When you are working on a custom form, you can create a new custom field and add it to a custom form.
 
@@ -79,7 +79,19 @@ You must have the following to perform the steps in this article:
      </tr> 
      <tr> 
       <td role="rowheader">Typeahead </td> 
-      <td>Allows users to type the name of an object that exists in Workfront. A list of suggestions appears when the user starts typing.</td> 
+      <td>Allows users to type the name of an object that exists in Workfront. A list of suggestions appears when the user starts typing.
+      This field type supports the following objects:
+      <ul><li>User</li>
+      <li>Group</li>
+      <li>Job Role</li>
+      <li>Portfolio</li>
+      <li>Program</li>
+      <li>Project</li>
+      <li>Team</li>
+      <li>Template</li>
+      <li>Company</li>
+      </ul>      
+      </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Calculated</td> 
@@ -125,9 +137,10 @@ You must have the following to perform the steps in this article:
       <td> <p>(Required) This name is how the system identifies the custom field when you add it to various areas throughout Workfront, such as reports, Home, and API interactions.</p> <p>When you are configuring the custom field for the first time and you type the label, the Name field populates automatically to match it. But the Label and Name fields are not synchronized—this gives you the freedom to change the label that your users see without having to change the name that the system sees.</p> 
       <p><b>IMPORTANT</b>:   
       <ul> 
-      <li>Though it's possible to do so, we recommend that you do not change this name after you or other users start using the custom form in Workfront. If you do, the system will no longer recognize the custom field where it might now be referenced in other areas of Workfront. <p>For example, if you add the custom field to a report and later change its name, Workfront doesn't recognize it in the report and it will stop functioning correctly there unless you re-add it to the report using the new name.</p> </li> 
-      <li> <p>We recommend that you do not type a name that is already used for built-in Workfront fields.</p> </li> 
-      </ul> <p>Each custom field name must be unique in your organization's Workfront instance. This way, you can reuse one that was already created for another custom form. For more information, see <a href="#Add" class="MCXref xref">Add a custom field to a custom form</a> in this article.</p> </td> 
+      <li>Though it's possible to do so, we recommend that you do not change this name after you or other users start using the custom form in Workfront. If you do, the system will no longer recognize the custom field where it might now be referenced in other areas of Workfront. <p>For example, if you add the custom field to a report and later change its name, Workfront doesn't recognize it in the report and it will stop functioning correctly there unless you re-add it to the report using the new name.</p> </li>
+      <li> <p>We recommend that you do not type a name that is already used for built-in Workfront fields.</p> </li>
+      <li><p>We recommend that you do not use the period/dot character in the custom field name, to prevent errors when using the field in different areas of Workfront.</p></li>
+      </ul> <p>Each custom field name must be unique in your organization's Workfront instance. This way, you can reuse one that was already created for another custom form. For more information, see <a href="#Add" class="MCXref xref">Add a custom field to a custom form</a> in this article.</p> </td>
      </tr> 
      <tr> 
       <td role="rowheader">Instructions</td> 
@@ -137,11 +150,12 @@ You must have the following to perform the steps in this article:
      </tr> 
      <tr> 
       <td role="rowheader">Format</td> 
-      <td> <p>Select the type of data that will be captured in the custom field.</p> <p><b>NOTE</b>:   
-        <ul> 
-         <li>This field cannot be edited after the form is saved. If you intend to use your field in mathematical calculations, ensure that you select a Number or Currency format.<br></li> 
-         <li>When you select Number or Currency, the system automatically truncates numbers that start with 0.</li> 
-        </ul> </p> </td> 
+      <td> <p>Select the type of data that will be captured in the custom field. You can change the format selection after saving the form, but the new format must support the value entered.</p> 
+      
+      <p><strong>Example:</strong> If you save a numeric value for a field with Text format on at least one object and later change the format to Number or Currency, you will not encounter an error. </p>
+      <p>However, if you save an alphanumeric value in a field with Text format on at least one object and then try to change the format to Number or Currency, you will encounter an error because the saved alphanumeric value is not compatible with the Number or Currency formats. </p>
+      
+      </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Display Type</td> 
@@ -170,7 +184,7 @@ You must have the following to perform the steps in this article:
         <li>They belong to a group or groups that you specify</li> 
         <li>They are associated with a role or job title you specify</li> 
         <li>They belong to the same group as the person using the field</li> 
-       </ul> <p>You must define the filter for the object type you selected using Text Mode syntax. For instructions on creating a filter, see <a href="#add-a-custom-field-to-a-custom-form" class="MCXref xref">Add a custom field to a custom form</a> in the article <a href="#" class="MCXref xref" xrefformat="{para}">Add a custom field to a custom form</a>. For information about creating a filter using Text Mode, see the section <a href="../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md#editing2" class="MCXref xref">Edit text mode in a filter</a> in the article <a href="../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md" class="MCXref xref">Text Mode overview</a>. </p> <p><b>NOTE</b>:   
+       </ul> <p>You must define the filter for the object type you selected using Text Mode syntax. For information about creating a filter using Text Mode, see the section <a href="../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md#editing2" class="MCXref xref">Edit text mode in a filter</a> in the article <a href="../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md" class="MCXref xref">Text Mode overview</a>. </p> <p><b>NOTE</b>:   
         <ul> 
          <li>If you are editing an existing custom form, adding a filter to a Typeahead field does not remove any objects (outside the scope of the filter) that users have already added using the field.</li> 
          <li>This filter is not available on mobile devices. If you use the filter for a Typeahead field, the field will appear on users' mobile devices unaffected by the filter.</li> 

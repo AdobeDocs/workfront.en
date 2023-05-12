@@ -3,19 +3,19 @@ content-type: reference
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: modules
-title: Data structures in Adobe Workfront Fusion
+title: Data structures in [!DNL Adobe Workfront Fusion]
 description: A data structure is a document that describes in detail the format of the data being transferred to Adobe Workfront Fusion. Based on this document, the scenario editor is able to figure out which module returns or receives which kind of data. The data structure documents are most commonly used for serializing/parsing data formats such as JSON, XML, CSV and others.
 author: Becky
 feature: Workfront Fusion
 exl-id: 35a7e906-7ca2-433d-87a9-bbb01babffb0
 ---
-# Data structures in Adobe Workfront Fusion
+# Data structures in [!DNL Adobe Workfront Fusion]
 
-A data structure is a document that describes in detail the format of the data being transferred to Adobe Workfront Fusion. Based on this document, the scenario editor is able to figure out which module returns or receives which kind of data. The data structure documents are most commonly used for serializing/parsing data formats such as JSON, XML, CSV and others.
+A data structure is a document that describes in detail the format of the data being transferred to [!DNL Adobe Workfront Fusion]. Based on this document, the scenario editor is able to figure out which module returns or receives which kind of data. The data structure documents are most commonly used for serializing/parsing data formats such as JSON, XML, CSV and others.
 
-You can create a data structure by clicking the Create a new data structure button in the Data structure overview section or in the settings of the module that requires data structure specification.
+You can create a data structure by clicking the [!UICONTROL Create a new data structure] button in the [!UICONTROL Data structure overview] section or in the settings of the module that requires data structure specification.
 
-Supported data types are described in the [Types of modules](../../workfront-fusion/modules/module-types.md) article.
+Supported data types are described in the [[!UICONTROL Types of modules]](../../workfront-fusion/modules/module-types.md) article.
 
 ## Access requirements
 
@@ -26,27 +26,27 @@ You must have the following access to use the functionality in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>Pro or higher</p> </td> 
+    <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
+   <td> <p>[!DNL Pro] or higher</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Plan, Work</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
+   <td> <p>[!UICONTROL Plan], [!UICONTROL Work]</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront Fusion license**</td> 
-   <td> <p>Workfront Fusion for Work Automation and Integration </p>  </td> 
+   <td role="rowheader">[!UICONTROL Adobe Workfront Fusion] license**</td> 
+   <td> <p>[!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
+   <td>Your organization must purchase [!DNL Adobe Workfront Fusion] as well as [!DNL Adobe Workfront] to use functionality described in this article.</td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
 
-&#42;&#42;For information on Adobe Workfront Fusion licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
+For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Workfront Fusion] licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## Data structure generator
 

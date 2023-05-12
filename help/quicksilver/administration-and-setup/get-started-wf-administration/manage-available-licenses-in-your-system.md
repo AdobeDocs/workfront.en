@@ -46,7 +46,7 @@ To view license information in your system:
 
 1. At the bottom of the left panel, click **System** > **Licenses**.
 
-   For more information about the licenses listed on this page, see [Adobe Workfront licenses overview](../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md).
+   For more information about the licenses listed on this page, see [Licenses overview](../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md).
 
    >[!NOTE]
    >
@@ -54,11 +54,11 @@ To view license information in your system:
 
 1. (Conditional) If you see the message **To set a maximum, you must add a Home Group**, add a Home Groups in your system as explained in the section [Add or remove a Home Group to the Licenses page](#add-or-remove-a-home-group-to-the-licenses-page) in this article.
 
-## Viewing information about licenses for Workfront addons
+## View information about licenses for Workfront add-ons
 
 In the screen shot below, **5 of 10 Proof licenses** indicates that this organization has the paid Workfront Proof add-on and is currently using 5 of the 10 Workfront Proof licenses they purchased.
 
-![](assets/license-count-paid-add-on.png)
+![](assets/updated-licenses-page.png)
 
 If your organization has purchased Workfront Goals, the license information for this product also displays here. In this case, you can view the following information:
 
@@ -84,6 +84,20 @@ If an organization has other paid add-on products, their license information als
 >
 >To learn more about creating a report, see [Create a custom report](../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 >
+
+## View information about monthly proof and document decision allotments
+
+>[!IMPORTANT]
+>
+>Proof and document decision limits apply only to users on the new licenses. For more information, see [New licenses overview](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md).
+
+Proof and document decisions are limited for all non-paid Workfront licenses. Limits reset on a per-user basis each month.
+
+The decision limits for each license differ depending on the plan you're on. You can view your monthly allotment in Setup > Licenses.
+
+For more information about proof and document decision limits, see [Limited document and proof decision for non-paid users overview](/help/quicksilver/review-and-approve-work/proof-doc-decision-limits.md).
+
+![](assets/monthly-decision-allotment.png)
 
 ## Add or remove a Home Group to the Licenses page {#add-or-remove-a-home-group-to-the-licenses-page}
 
@@ -135,7 +149,7 @@ To set the maximum license count for a Home group:
 1. In the **Max** column of the group, click the value that you want to set a maximum for.
 1. Type the maximum number, then press Enter.
 
-   ![](assets/Screen4.png)
+   ![](assets/updated-max.png)
 
    >[!NOTE]
    >
