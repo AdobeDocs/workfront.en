@@ -12,12 +12,23 @@ feature-set: Workfront
     * [Product releases overview](product-announcements/product-releases/product-releases.md)
     * [Adobe Workfront release schedule and process](product-announcements/product-releases/workfront-release-schedule.md)
     * [Prepare for an Adobe Workfront quarterly release](product-announcements/product-releases/release-readiness.md)
+    * 23.3 Release {#release-23-3}
+      * [23.3 Release overview](product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md)
+      * [23.3 release activity week of April 10, 2023](product-announcements/product-releases/23.3-release-activity/23-3-apr-10.md) 
+      * [23.3 release activity week of April 17, 2023](product-announcements/product-releases/23.3-release-activity/23-3-apr-17.md)
+      * [23.3 release activity week of April 24, 2023](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-24.md)
+      * [23.3 release activity week of May 1, 2023](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-4.md)
+      * [23.3 release activity week of May 8, 2023](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-10.md)
+      * [Look and feel updates during the 23.3 release time frame](product-announcements/product-releases/23.3-release-activity/23-3-look-and-feel-updates.md)
     * 23.2 Release {#release-23-2}
       * [23.2 Release overview](product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md) 
-      * [23.2 release activity: Week of February 20, 2023](product-announcements/product-releases/23.2-release-activity/23-2-feb-20.md)
-      * [23.2 release activity: Week of February 13, 2023](product-announcements/product-releases/23.2-release-activity/23-2-feb-13.md)
-      * [23.2 release activity: Week of February 6, 2023](product-announcements/product-releases/23.2-release-activity/23-2-feb-6.md)
-      * [23.2 release activity: Week of January 23, 2023](product-announcements/product-releases/23.2-release-activity/23-1-jan-23.md)
+      * [23.2 Administrator enhancements](product-announcements/product-releases/23.2-release-activity/23-2-admin-enhancements.md)
+      * [23.2 Agile enhancements](product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md)
+      * [23.2 Project management enhancements](product-announcements/product-releases/23.2-release-activity/23-2-project-enhancements.md)
+      * [23.2 Resource management enhancements](product-announcements/product-releases/23.2-release-activity/23-2-resource-management-enhancements.md)
+      * [23.2 Reports and Dashboards enhancements](product-announcements/product-releases/23.2-release-activity/23-2-reports-dashboards.md)
+      * [23.2 Mobile enhancements](product-announcements/product-releases/23.2-release-activity/23-2-mobile-enhancements.md)
+      * [23.2 Other enhancements](product-announcements/product-releases/23.2-release-activity/23-2-other-enhancements.md)
       * [Look and feel updates during the 23.2 release time frame](product-announcements/product-releases/23.2-release-activity/23-2-look-and-feel.md)
     * 23.1 Release {#release-23-1}
       * [23.1 Release overview](product-announcements/product-releases/23.1-release-activity/23-1-release-overview.md)
@@ -105,6 +116,10 @@ feature-set: Workfront
       * [21.1 Other enhancements](product-announcements/product-releases/21.1-release-activity/21-1-other-enhancements.md)
     * Adobe Workfront Fusion release activity {#fusion-release}
       * [Adobe Workfront Fusion release activity](product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)
+      * [Workfront Fusion release activity: Week of  May 1, 2023](product-announcements/product-releases/fusion-release-activity/fusion-2023-5-2.md)
+      * [Workfront Fusion release activity: Week of April 17, 2023](product-announcements/product-releases/fusion-release-activity/fusion-2023-4-20.md)
+      * [Workfront Fusion release activity: Week of March 20, 2023](product-announcements/product-releases/fusion-release-activity/fusion-2023-3-21.md)
+      * [Workfront Fusion release activity: Week of March 6, 2023](product-announcements/product-releases/fusion-release-activity/fusion-2023-3-6.md)    
       * [Workfront Fusion release activity: Week of December 12, 2022](product-announcements/product-releases/fusion-release-activity/fusion-dec-12-22.md)
       * [Workfront Fusion release activity: Week of November 14, 2022](product-announcements/product-releases/fusion-release-activity/fusion-nov-14-22.md)
       * [Workfront Fusion release activity: Week of November 7, 2022](product-announcements/product-releases/fusion-release-activity/fusion-nov-9-22.md)
@@ -164,6 +179,12 @@ feature-set: Workfront
       * [Workfront Scenario Planner with the 20.3 release - August 14, 2020](product-announcements/product-releases/scenario-planner-release-activity/sp-release-20-3.md)
     * Adobe Workfront Goals release activity {#goals-release}
       * [Adobe Workfront Goals release activity](product-announcements/product-releases/goals-release-activity/goals-release-activity.md)
+      * Goals with 23.3 release {#goals-23-3}
+        * [Adobe Workfront Goals with the 23.3 release](product-announcements/product-releases/goals-release-activity/goals-23-3-release/goals-23-3-release.md)
+        * [Adobe Workfront Goals 23.3 release activity: Week of May 1, 2023](product-announcements/product-releases/goals-release-activity/goals-23-3-release/goals-23-3-may-5.md)
+      * Goals with 23.2 release {#goals-23-2}
+        * [Adobe Workfront Goals with the 23.2 release](product-announcements/product-releases/goals-release-activity/goals-23-2-release/goals-23-2-release.md)
+        * [Adobe Workfront Goals 23.2 release activity: Week of March 20, 2023](product-announcements/product-releases/goals-release-activity/goals-23-2-release/goals-march.md)
       * Goals with 23.1 release {#goals-23-1}
         * [Adobe Workfront Goals with the 23.1 release](product-announcements/product-releases/goals-release-activity/goals-23-1-release/goals-23-1-release.md)
         * [Adobe Workfront Goals 23.1 release activity: Week of December 5, 2023](product-announcements/product-releases/goals-release-activity/goals-23-1-release/goals-jan.md)
@@ -181,6 +202,9 @@ feature-set: Workfront
       * [Workfront Goals with the 20.4 release](product-announcements/product-releases/goals-release-activity/goals-release-20-4.md)
       * [Workfront Goals with the 20.3 release - August 14, 2020](product-announcements/product-releases/goals-release-activity/goals-release-20.3.md)
     * Workfront Proof release activity {#proof-release}
+      * Proof with 23.3 release {#proof-23-3-release}
+        * [Adobe Workfront Proof with the 23.3 release](/help/quicksilver/product-announcements/product-releases/workfront-proof-release-activity/proof-23-3-release/proof-23-3-overview.md)
+        * [Adobe Workfront Proof 23.3 release activity: Week of May 8, 2023](/help/quicksilver/product-announcements/product-releases/workfront-proof-release-activity/proof-23-3-release/proof-23-3-may-8.md)
       * [Workfront Proof release activity: Week of May 17, 2021](product-announcements/product-releases/workfront-proof-release-activity/wp-release-may-17.md)
       * [Workfront Proof release activity: Week of November 29, 2021](product-announcements/product-releases/workfront-proof-release-activity/wp-release-22-1.md)
     * Quarterly release archive {#quarterly-release}
@@ -322,6 +346,10 @@ feature-set: Workfront
     * Reporting Canvas beta {#reporting-canvas-beta}
       * [Reporting Canvas beta overview](product-announcements/betas/reporting-canvas-beta/reporting-canvas-beta-overview.md)
       * [Reporting Canvas beta: release activity](product-announcements/betas/reporting-canvas-beta/reporting-canvas-release-activity.md)
+    * New commenting experience beta {#new-commenting-experience-beta}
+      * [New commenting beta experience information](product-announcements/betas/new-commenting-experience-beta/new-commenting-beta-experience-information.md)
+      * [New commenting experience](product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md)
+      * [New commenting beta experience release activity](product-announcements/betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md)
 * Administration and setup {#administration-and-setup}
   * [Administration and setup](administration-and-setup/administration-and-setup.md)
   * Get started with administration {#get-started-administration}
@@ -397,12 +425,18 @@ feature-set: Workfront
       * [View and export audit logs](administration-and-setup/add-users/create-and-manage-users/view-and-export-audit-logs.md)
       * [View user login information](administration-and-setup/add-users/create-and-manage-users/view-user-login-info.md)
       * [Adobe Admin Console](administration-and-setup/add-users/create-and-manage-users/admin-console.md)
-    * How access levels work {#access-levels}
+    * How new access levels work {#access-levels}
+      * [How new access levels work](administration-and-setup/add-users/how-access-levels-work/access-levels-toc.md)
+      * [New access levels overview](administration-and-setup/add-users/how-access-levels-work/access-level-overview.md)
+      * [New licenses overview](administration-and-setup/add-users/how-access-levels-work/licenses-overview.md)
+      * [Access to objects and areas by for new licenses](administration-and-setup/add-users/how-access-levels-work/access-to-objects-areas-license-types.md)
+      * [Functionality available for each object type for new access levels](administration-and-setup/add-users/how-access-levels-work/functionality-available-for-objects.md)
+    * How access levels work {#legacy-access-levels}
       * [How access levels work](administration-and-setup/add-users/access-levels-and-object-permissions/access-levels.md)
-      * [Access levels overview](administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md)
+      * [Access overview](administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md)
       * [Licenses overview](administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md)
       * [Access levels and permissions](administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md)
-      * [Access to objects by license type](administration-and-setup/add-users/access-levels-and-object-permissions/access-to-objects-and-areas-by-license-type.md)
+      * [Access to objects and areas by license type](administration-and-setup/add-users/access-levels-and-object-permissions/access-to-objects-and-areas-by-license-type.md)
       * [Functionality for each object type](administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md)
       * [Configurable access for each  object type](administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md)
       * [Built-in access levels](administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md)
@@ -467,29 +501,48 @@ feature-set: Workfront
     * Custom forms {#custom-forms}
       * [Custom forms](administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md)
       * [Custom forms overview](administration-and-setup/customize-workfront/create-manage-custom-forms/custom-forms-overview.md)
-      * [Create or edit a custom form](administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)
-      * [Copy a custom form to create a new one](administration-and-setup/customize-workfront/create-manage-custom-forms/copy-custom-form-to-create-a-new-one.md)
-      * [Add a custom field](administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md)
-      * [Add an image or other asset widget to a custom form](administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md)
-      * [Add a section break](administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-section-break-to-a-custom-form.md)
-      * [Access to custom fields](administration-and-setup/customize-workfront/create-manage-custom-forms/access-for-a-shared-custom-form-you-want-to-use.md)
-      * [Add calculated data](administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md)
-      * [Reuse an existing calculated custom field](administration-and-setup/customize-workfront/create-manage-custom-forms/use-existing-calc-field-new-custom-form.md)
-      * [Position custom fields and widgets](administration-and-setup/customize-workfront/create-manage-custom-forms/position-fields-in-a-custom-form.md)
-      * [Sharing for custom fields and widgets](administration-and-setup/customize-workfront/create-manage-custom-forms/configure-sharing-for-a-custom-field.md)
-      * [Reuse a custom field or widget](administration-and-setup/customize-workfront/create-manage-custom-forms/reuse-an-existing-field.md)
-      * [Add display logic and skip logic](administration-and-setup/customize-workfront/create-manage-custom-forms/display-or-skip-logic-custom-form.md)
-      * [Share a custom form](administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md)
-      * [Preview and complete a custom form](administration-and-setup/customize-workfront/create-manage-custom-forms/preview-and-complete-a-custom-form.md)
-      * [Reference custom forms in reports](administration-and-setup/customize-workfront/create-manage-custom-forms/reference-custom-forms-in-report.md)
-      * [View reports that use a custom field or widget](administration-and-setup/customize-workfront/create-manage-custom-forms/view-all-reports-that-use-a-particular-custom-field.md)
-      * [View custom forms that use a custom field or widget](administration-and-setup/customize-workfront/create-manage-custom-forms/view-all-custom-forms-that-use-a-particular-custom-field.md)
-      * [Transfer custom form data when converting an object](administration-and-setup/customize-workfront/create-manage-custom-forms/transfer-custom-form-data-larger-item.md)
-      * [Delete or deactivate a custom form](administration-and-setup/customize-workfront/create-manage-custom-forms/delete-or-deactivate-a-custom-form.md)
-      * [Edit properties of a custom field, section break, or widget](administration-and-setup/customize-workfront/create-manage-custom-forms/edit-a-custom-field.md)
-      * [Delete a custom field or widget from the system](administration-and-setup/customize-workfront/create-manage-custom-forms/delete-a-custom-field.md)
-      * [Rich text field storage in the API](administration-and-setup/customize-workfront/create-manage-custom-forms/rich-text-field-storage-in-the-api.md)
-      * [Delete object types on a custom form](administration-and-setup/customize-workfront/create-manage-custom-forms/delete-object-type-on-a-custom-form.md)
+      * Legacy custom form builder {#custom-form-builder}
+        * Use the custom form builder {#use-the-custom-form-builder}
+          * [Use the legacy custom form builder](administration-and-setup/customize-workfront/create-manage-custom-forms/use-the-custom-form-builder.md)
+          * [Create or edit a custom form with the legacy builder](administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)
+          * [Copy a custom form to create a new one with the legacy builder](administration-and-setup/customize-workfront/create-manage-custom-forms/copy-custom-form-to-create-a-new-one.md)
+          * [Add a custom field](administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md)
+          * [Add an image or other asset widget to a custom form with the legacy builder](administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md)
+          * [Add a section break with the legacy builder](administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-section-break-to-a-custom-form.md)
+          * [Add calculated data with the legacy builder](administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md)
+          * [Reuse an existing calculated custom field with the legacy builder](administration-and-setup/customize-workfront/create-manage-custom-forms/use-existing-calc-field-new-custom-form.md)
+          * [Position custom fields and widgets with the legacy builder](administration-and-setup/customize-workfront/create-manage-custom-forms/position-fields-in-a-custom-form.md)
+          * [Sharing for custom fields and widgets with the legacy builder](administration-and-setup/customize-workfront/create-manage-custom-forms/configure-sharing-for-a-custom-field.md)
+          * [Reuse a custom field or widget with the legacy builder](administration-and-setup/customize-workfront/create-manage-custom-forms/reuse-an-existing-field.md)
+          * [Add display logic and skip logic with the legacy builder](administration-and-setup/customize-workfront/create-manage-custom-forms/display-or-skip-logic-custom-form.md)
+          * [Preview and complete a custom form with the legacy builder](administration-and-setup/customize-workfront/create-manage-custom-forms/preview-and-complete-a-custom-form.md)
+          * [Delete object types on a custom form with the legacy builder](administration-and-setup/customize-workfront/create-manage-custom-forms/delete-object-type-on-a-custom-form.md)
+      * Form designer {#form-designer}
+        * [Form designer](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/form-designer-toc.md)
+        * [Form designer overview](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/form-designer-overview.md)
+        * Design a custom form {#design-a-form}
+          * [Design a form](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form-toc.md)
+          * [Design a form with the form designer](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)
+          * [Design a form from a copy with the form designer](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-from-copy.md)
+          * [Add calculated fields with the form designer](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md)
+          * [Organize and preview a form with the form designer](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md)
+        * Manage a form {#manage-a-form}
+          * [Manage a form](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/manage-a-form-toc.md)
+          * [Add or delete object types from an existing custom form with the form designer](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/add-or-remove-objects-from-a-form.md)
+          * [Rename a custom form with the form designer](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/rename-a-custom-form.md)
+      * Manage custom forms {#manage-custom-forms}
+        * [Manage custom forms and fields](administration-and-setup/customize-workfront/create-manage-custom-forms/manage-custom-forms-toc.md)
+        * [Share a custom form](administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md)
+         * [Access to custom fields](administration-and-setup/customize-workfront/create-manage-custom-forms/access-for-a-shared-custom-form-you-want-to-use.md)
+        * [Deactivate or reactivate a custom form](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/activate-deactivate-form.md)
+        * [Reference custom forms in reports](administration-and-setup/customize-workfront/create-manage-custom-forms/reference-custom-forms-in-report.md)
+        * [View reports that use a custom field or widget](administration-and-setup/customize-workfront/create-manage-custom-forms/view-all-reports-that-use-a-particular-custom-field.md)
+        * [View custom forms that use a custom field or widget](administration-and-setup/customize-workfront/create-manage-custom-forms/view-all-custom-forms-that-use-a-particular-custom-field.md)
+        * [Transfer custom form data when converting an object](administration-and-setup/customize-workfront/create-manage-custom-forms/transfer-custom-form-data-larger-item.md)
+        * [Edit properties of a custom field, section break, or widget](administration-and-setup/customize-workfront/create-manage-custom-forms/edit-a-custom-field.md)
+        * [Delete a custom field or widget from the system](administration-and-setup/customize-workfront/create-manage-custom-forms/delete-a-custom-field.md)
+        * [Delete a custom form](administration-and-setup/customize-workfront/create-manage-custom-forms/delete-or-deactivate-a-custom-form.md)
+        * [Rich text field storage in the API](administration-and-setup/customize-workfront/create-manage-custom-forms/rich-text-field-storage-in-the-api.md)
     * Statuses and priority labels {#statuses-priority-labels}
       * [Create custom statuses and priority labels](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-custom-status-and-priority-labels.md)
       * [Statuses overview](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/statuses-overview.md)
@@ -755,7 +808,7 @@ feature-set: Workfront
       * [Use the My Updates area](workfront-basics/using-home/using-the-home-area/my-updates-area.md)
   * Update work items and view updates {#update-work-items-view-updates}
     * [Update work items and view updates](workfront-basics/updating-work-items-and-viewing-updates/update-work-items-and-view-updates.md)
-    * [Updates tab overview](workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md)
+    * [Updates section overview](workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md)
     * [Update work](workfront-basics/updating-work-items-and-viewing-updates/update-work.md)
     * [Character limits in fields](workfront-basics/updating-work-items-and-viewing-updates/character-limits-in-fields.md)
     * [Reply to updates](workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md)
@@ -763,7 +816,6 @@ feature-set: Workfront
     * [Tag others on updates](workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md)
     * [View all updates in a Note report](workfront-basics/updating-work-items-and-viewing-updates/view-all-updates-in-a-report.md)
     * [Work On It and Done button overview](workfront-basics/updating-work-items-and-viewing-updates/work-on-it-and-done-buttons-accept-complete-work.md)
-    * [Unified Commenting Experience](workfront-basics/updating-work-items-and-viewing-updates/unified-commenting-experience.md)
   * Work with custom forms {#work-with-custom-forms}
     * [Work with custom forms](workfront-basics/work-with-custom-forms/work-with-custom-forms.md)
     * [Add a custom form to an object](workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md)
@@ -783,7 +835,7 @@ feature-set: Workfront
     * [Notifications: Action needed](workfront-basics/using-notifications/notifications-action-needed.md)
     * [Notifications: Approval information](workfront-basics/using-notifications/notifications-approval-information.md)
     * [Notifications: Communication](workfront-basics/using-notifications/notifications-communication.md)
-    * [Notifiocations: Delegation](workfront-basics/using-notifications/notifications-delegation.md)
+    * [Notifications: Delegation](workfront-basics/using-notifications/notifications-delegation.md)
     * [Notifications: Goals](workfront-basics/using-notifications/notifications-goals.md)
     * [Notifications: Information about projects I own](workfront-basics/using-notifications/notifications-information-about-projects-i-own.md)
     * [Notifications: Information about projects I sponsor](workfront-basics/using-notifications/notifications-information-about-projects-i-sponsor.md)
@@ -863,20 +915,13 @@ feature-set: Workfront
     * [Workfront Proof Manager permissions troubleshooting](workfront-basics/tips-tricks-and-troubleshooting/wp-manager-permissions-troubleshooting.md)
     * [Duplicate approval processes showing in the Home Work List](workfront-basics/tips-tricks-and-troubleshooting/duplicate-apprval-processes-home.md)
     * [Filter buttons do not display in page headers](workfront-basics/tips-tricks-and-troubleshooting/filter-buttons-do-not-display-in-page-headers.md)
+    * [Projects I'm On filter includes unexpected results](workfront-basics/tips-tricks-and-troubleshooting/projects-im-on-filter-including-unexpected-results.md)
 * Agile {#agile}
   * [Agile](agile/agile.md)
-  * [Agile overview](agile/agile-overview.md)
   * [Boards overview](agile/boards-overview.md)
-  * Agile in projects {#agile-in-projects}
-    * [Agile in projects](agile/agile-in-projects/agile-in-projects.md)
-    * [Agile Project](agile/agile-in-projects/use-agile-on-a-project.md)
-  * Get started with agile in Adobe Workfront {#agile-in-workfront}  
-    * [Get started with agile in Adobe Workfront](agile/get-started-with-agile-in-workfront/get-started-with-agile.md)
-    * [Create an agile team](agile/get-started-with-agile-in-workfront/create-an-agile-team.md)
-    * [Configure Kanban](agile/get-started-with-agile-in-workfront/configure-kanban.md)
-    * [Configure Scrum](agile/get-started-with-agile-in-workfront/configure-scrum.md)
   * Get started with boards in Adobe Workfront {#boards-in-workfront}
     * [Get started with boards in Adobe Workfront](agile/get-started-with-boards/get-started-with-boards.md)
+    * [Adobe Workfront Boards video demonstrations](/help/quicksilver/agile/get-started-with-boards/boards-video-demonstrations.md)
     * [Boards early feature opt-in](agile/get-started-with-boards/boards-early-feature-opt-in.md)
     * [Use the boards dashboard](agile/get-started-with-boards/use-boards-page.md)
     * [Create or edit a board](agile/get-started-with-boards/create-edit-board.md)
@@ -885,19 +930,32 @@ feature-set: Workfront
     * [Manage board columns](agile/get-started-with-boards/manage-board-columns.md)
     * [Add an ad hoc card to a board](agile/get-started-with-boards/add-card-to-board.md)
     * [Use connected cards on boards](agile/get-started-with-boards/connected-cards.md)
+    * [Add existing tasks or issues to a board](/help/quicksilver/agile/get-started-with-boards/add-card-from-list-to-board.md)
     * [Manage cards](agile/get-started-with-boards/move-board-items.md)
     * [Manage checklist items on cards](/help/quicksilver/agile/get-started-with-boards/manage-checklist-items.md)
     * [Customize which fields are displayed on a card](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md)
     * [Delete or archive a card from a board](agile/get-started-with-boards/delete-board-items.md)
     * [Filter and search in a board](agile/get-started-with-boards/filter-search-in-board.md)
     * [Add tags](agile/get-started-with-boards/add-tags.md)
+    * [Boards email notifications and preferences](/help/quicksilver/agile/get-started-with-boards/boards-emails.md)
   * Use agile planning tools in boards {#agile-planning-boards}
     * [Agile planning tools overview](agile/use-boards-agile-planning-tools/agile-planning-tools-overview.md)
     * [Manage the work in progress (WIP) limit on a board](agile/use-boards-agile-planning-tools/manage-wip-limit-on-board.md)
     * [Add an intake column to a board](agile/use-boards-agile-planning-tools/add-intake-column-to-board.md)
     * [Use groups on a board](agile/use-boards-agile-planning-tools/group-cards-on-board.md)
     * [Configure card falloff](agile/use-boards-agile-planning-tools/configure-card-falloff.md)
-    * [Manage collections](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md)
+    * [Migrate agile team Kanban cards to Workfront boards](/help/quicksilver/agile/use-boards-agile-planning-tools/migrate-kanban-cards-to-boards.md)
+    * [Manage workstreams](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md)
+    * [Use the card list](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md)
+    * [Create an iteration in a workstream](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md)
+    * [Configure the backlog on a workstream board](/help/quicksilver/agile/use-boards-agile-planning-tools/configure-backlog-workstream-board.md)
+    * [Review iteration metrics](/help/quicksilver/agile/use-boards-agile-planning-tools/review-iteration-metrics.md)
+  * [Agile overview](agile/agile-overview.md)
+  * Get started with agile in Adobe Workfront {#agile-in-workfront}  
+    * [Get started with agile in Adobe Workfront](agile/get-started-with-agile-in-workfront/get-started-with-agile.md)
+    * [Create an agile team](agile/get-started-with-agile-in-workfront/create-an-agile-team.md)
+    * [Configure Kanban](agile/get-started-with-agile-in-workfront/configure-kanban.md)
+    * [Configure Scrum](agile/get-started-with-agile-in-workfront/configure-scrum.md)
   * Kanban in an agile team {#kanban}
     * [Kanban in an agile team](agile/use-kanban-in-an-agile-team/using-kanban-in-an-agile-team.md)
     * [Kanban overview](agile/use-kanban-in-an-agile-team/kanban-overview.md)
@@ -1574,6 +1632,7 @@ feature-set: Workfront
       * [Print a dashboard](reports-and-dashboards/dashboards/creating-and-managing-dashboards/print-dashboard.md)
       * [Share a dashboard](reports-and-dashboards/dashboards/creating-and-managing-dashboards/share-dashboard.md)
       * [Remove an External Page from a dashboard](reports-and-dashboards/dashboards/creating-and-managing-dashboards/remove-external-page-from-dashboard.md)
+      * [Canvas Dashboards overview](reports-and-dashboards/dashboards/creating-and-managing-dashboards/canvas-dashboards-overview.md)
   * Enhanced analytics {#enhanced-analytics}
     * [Enhanced analytics](enhanced-analytics/enhanced-analytics.md)
     * [Enhanced analytics overview](enhanced-analytics/enhanced-analytics-overview.md)
@@ -1592,8 +1651,6 @@ feature-set: Workfront
   * Resource Management {#resource-management}
     * [Resource Management](resource-mgmt/resource-mgmt-overview/resource-management-overview.md)
     * [Get started with Resource Management](resource-mgmt/resource-mgmt-overview/get-started-resource-management.md)
-    * [Deprecation of Resource Scheduling tools in Adobe Workfront](resource-mgmt/resource-mgmt-overview/deprecate-resource-scheduling.md)
-    * [Migrate from Resource Scheduling to the Workload Balancer](resource-mgmt/resource-mgmt-overview/migrate-resource-scheduling-to-workload-balancer.md)
   * Resource Planning in Adobe Workfront {#resource-planning-in-adobe-workfront}
     * [Resource Planning in Adobe Workfront](resource-mgmt/resource-planning/resource-planning-overview.md)
     * Resource Pools {#resource-pools}
@@ -1766,6 +1823,9 @@ feature-set: Workfront
       * [Edit the Proof Permission Profile field in Bulk](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/edit-proof-profile-bulk.md)
       * [Disable sharing proof via public URL or embed code](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/disable-public-proofs.md)
       * [FAQ: proofing within Adobe Workfront - US to EMEA migration](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/faq-proofing-in-wf-us-to-emea-migration.md)
+  * Tips, tricks, and troubleshooting for approvals {#ttt-approvals}
+    * [Tips, tricks, and troubleshooting for approvals](review-and-approve-work/tips-tricks-troubleshooting-approvals/tips-tricks-troubleshooting-approvals.md)
+    * [View the number of proof and document decisions for all users](review-and-approve-work/tips-tricks-troubleshooting-approvals/view-number-of-decisions-for-users.md)
 * Timesheets {#timesheets}
   * [Timesheets](timesheets/timesheets-all.md)
   * Timesheet details {#details}
@@ -1954,6 +2014,7 @@ feature-set: Workfront
     * [Scenario execution, cycles, and phases in Adobe Workfront Fusion](workfront-fusion/scenarios/scenario-execution-cycles-phases.md)
     * [View a scenario's execution history in Adobe Workfront Fusion](workfront-fusion/scenarios/view-scenario-execution-history.md)
     * [View and resolve incomplete executions in Adobe Workfront Fusion](workfront-fusion/scenarios/view-and-resolve-incomplete-executions.md)
+    * [View and manage locked scenarios in [!DNL Adobe Workfront Fusion]](workfront-fusion/scenarios/view-and-manage-locked-scenarios.md) 
     * [Schedule a scenario in Adobe Workfront Fusion](workfront-fusion/scenarios/schedule-a-scenario.md)
     * [Activate or deactivate a scenario in Adobe Workfront Fusion](workfront-fusion/scenarios/activate-or-inactivate-scenario.md)
     * [Add a filter to a scenario in Adobe Workfront Fusion](workfront-fusion/scenarios/add-a-filter-to-a-scenario.md)
@@ -1982,6 +2043,7 @@ feature-set: Workfront
     * [Adobe PDF Services modules](workfront-fusion/apps-and-their-modules/pdf-modules.md)
     * [Adobe Photoshop modules](workfront-fusion/apps-and-their-modules/adobe-photoshop-modules.md)
     * [Adobe Target modules](workfront-fusion/apps-and-their-modules/adobe-target-modules.md)
+    * [Airtable modules](workfront-fusion/apps-and-their-modules/airtable-modules.md)
     * [Allocadia modules](workfront-fusion/apps-and-their-modules/allocadia-modules.md)
     * [Anaplan Modules](workfront-fusion/apps-and-their-modules/anaplan-modules.md)
     * [Archive modules](workfront-fusion/apps-and-their-modules/archive-modules.md)
@@ -2103,6 +2165,7 @@ feature-set: Workfront
   * Adobe Workfront for G Suite {#workfront-for-g-suite}
     * [Adobe Workfront for G Suite](workfront-integrations-and-apps/workfront-for-g-suite/workfront-for-gsuite.md)
     * [Install Adobe Workfront for G Suite](workfront-integrations-and-apps/workfront-for-g-suite/install-workfront-for-gsuite.md)
+    * [Privacy and permissions in Workfront for G Suite](workfront-integrations-and-apps/workfront-for-g-suite/privacy-and-permissions-in-g-suite.md)
     * [Log in and out of Adobe Workfront for G Suite](workfront-integrations-and-apps/workfront-for-g-suite/log-in-and-out-wf-for-gsuite.md)
     * [Access Adobe Workfront Home content from G Suite](workfront-integrations-and-apps/workfront-for-g-suite/access-wf-home-content-from-g-suite.md)
     * [Update a Adobe Workfront object from G Suite](workfront-integrations-and-apps/workfront-for-g-suite/update-a-workfront-object-in-gsuite.md)
@@ -2413,6 +2476,7 @@ feature-set: Workfront
     * [Configure and use your organization's custom OAuth 2 applications using JWT flow](wf-api/api/oauth-app-jwt-flow.md)
     * [Configure and use your organization's custom OAuth 2 applications using PKCE flow](wf-api/api/oauth-app-pkce-flow.md)    
     * [Deprecation of API-Internal](wf-api/api/deprecation-api-internal.md)
+    * [What's new in API version 16](wf-api/api/new-api-version-16.md)
     * [What's new in API version 15](wf-api/api/new-api-version-15.md)
     * [What's new in API version 14](wf-api/api/new-api-version-14.md)
     * [What's new in API version 13](wf-api/api/new-api-version-13.md)
@@ -2576,6 +2640,7 @@ other dupes
     * [Event subscription resource fields](wf-api/api/event-sub-resource-fields.md)
 
     * [Filter event subscription messages](wf-api/api/filter-event-sub-messages.md)
+
 
 
 -->

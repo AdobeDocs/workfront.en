@@ -1,5 +1,5 @@
 ---
-title: Add calculated data to a custom form
+title: Add calculated data to a custom form with the legacy form builder
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
@@ -9,7 +9,7 @@ feature: System Setup and Administration
 role: Admin
 exl-id: 9174c4ef-3beb-4d47-9c5c-363f52105a2c
 ---
-# Add calculated data to a custom form
+# Add calculated data to a custom form with the legacy form builder
 
 In a custom form, you can add a calculated custom field that uses existing data to generate new data when the custom form is attached to an object. 
 

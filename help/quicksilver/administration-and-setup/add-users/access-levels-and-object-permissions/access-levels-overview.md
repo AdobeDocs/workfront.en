@@ -6,7 +6,7 @@ product-area: system-administration
 keywords: access,level,system,administrator,planner,worker,reviewer,requestor,external,user
 navigation-topic: access-levels
 description: Every user must have an access level in order to log in and work in Workfront. You use the access level to control what a user can see and do with certain Workfront objects and areas. Each of the six built in access levels is attached to one of the five Workfront licenses, which are Plan, Work, Review, Request, and External.
-author: Caroline
+author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: 7c323af9-8c33-48ad-9aff-96758e96b40b
@@ -36,7 +36,7 @@ For information on related topics, see the following articles:
  <tbody> 
   <tr> 
    <td>Licenses</td> 
-   <td> <p>The license attached to an access level determines how the access level can be configured.</p> <p>For more information, see <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p> <p><strong>Tip</strong>: You can see which access level and license is assigned to each user by viewing a user list or report. For instructions, see <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/list-access-levels-and-licenses-for-your-users.md" class="MCXref xref">List your users' access levels and licenses</a>.</p> </td> 
+   <td> <p>The license attached to an access level determines how the access level can be configured.</p> <p>For more information, see <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Licenses overview</a>.</p> <p><strong>Tip</strong>: You can see which access level and license is assigned to each user by viewing a user list or report. For instructions, see <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/list-access-levels-and-licenses-for-your-users.md" class="MCXref xref">List your users' access levels and licenses</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>Built-in access levels</td> 

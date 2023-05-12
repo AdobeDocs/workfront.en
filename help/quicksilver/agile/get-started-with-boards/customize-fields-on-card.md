@@ -5,13 +5,9 @@ title: Customize which fields are displayed on a card
 description: You can customize which fields are displayed on a card by disabling a field so it is not displayed in the full card or condensed view, or hiding a field on the condensed card view.
 author: Lisa
 feature: Agile
+exl-id: 28fa6455-04dd-4115-9ead-cb3e7c26289e
 ---
-
 # Customize which fields are displayed on a card
-
->[!NOTE]
->
->This feature is available only through the early feature opt-in for [!DNL Workfront] [!UICONTROL Boards]. For details, see [Early feature opt-in for Adobe Workfront Boards](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md).
 
 By default, all available fields are displayed on a card, both in the the full view when the card is open, and in the condensed card view on the board. You can customize which fields are displayed by:
 
@@ -19,6 +15,8 @@ By default, all available fields are displayed on a card, both in the the full v
 * Hiding a field on the condensed card view
 
 If a field contains a value and you disable the field, the value is retained if you enable the field again later.
+
+You can also display custom fields that were previously created. You can't design and create new custom fields within a board.
 
 >[!NOTE]
 >
@@ -47,7 +45,7 @@ You must have the following access to perform the steps in this article:
 
 &#42;To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
 
-## Configure cards
+## Configure cards {#configure-cards}
 
 1. Click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe Workfront], then click **[!UICONTROL Boards]**.
 1. Access a board. For information, see [Create or edit a board](../../agile/get-started-with-boards/create-edit-board.md).
@@ -60,3 +58,33 @@ You must have the following access to perform the steps in this article:
 1. Click the Hide icon ![Hide icon](assets/eye-hide-icon.png) next to a field to hide it on the condensed view.
 1. To display all of the fields in both views, click [!UICONTROL **Restore all fields to default**].
 1. Click [!UICONTROL **Hide configure**] to close the Configure panel.
+
+## Add custom fields to cards
+
+Custom fields are available on connected cards. They are only visible on the full card view, not the condensed view on the board.
+
+>[!NOTE]
+>
+>When you add a custom field to your cards, the data on the card is read-only.
+
+1. Access a board and click [!UICONTROL **Configure**] to open the Configure panel.
+1. Expand [!UICONTROL **Cards**].
+1. Under [!UICONTROL Card Fields], click [!UICONTROL **Add custom field**].
+1. Select [!UICONTROL **Task**] or [!UICONTROL **Issue**].
+
+   The categories of available fields for tasks or issues appear. Expand a category to see all of the fields. You can also search for a field.
+
+   ![Search for custom field](assets/boards-search-for-custom-field.png)
+
+   >[!NOTE]
+   >
+   >The following field types are not available to add to cards: Adobe XD, Image, PDF, Video.
+
+1. Select the field name.
+1. (Optional) Click in the **[!UICONTROL Field value]** field to change this custom field to a different one.
+1. (Optional) Change the **[!UICONTROL Field label]** to the field name you want to appear on cards.
+1. When you are finished making changes, click [!UICONTROL **Save field**].
+
+   ![Custom field value and label](assets/save-custom-field-value-label.png)
+
+   The custom field is added to the list of available fields and is enabled by default. You can disable the custom field following the steps in the [Configure cards](customize-fields-on-card.md#configure-cards) section above, edit the field, or delete it from all cards.

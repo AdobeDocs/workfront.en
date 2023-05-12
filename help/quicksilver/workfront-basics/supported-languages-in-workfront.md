@@ -15,15 +15,16 @@ Workfront terminology is updated for the supported languages with every Workfron
 
 Workfront supports the following languages:
 
-* Chinese - Simplified (zh-CN)
-* Chinese - Traditional (zh-TW)
 * English (en-US)
 * French (fr-FR)
 * German (de-DE)
-* Italian (it_IT)
 * Japanese (ja)
+* Spanish (es)
+* Italian (it_IT)
 * Portuguese (pt-BR)
-* Spanish - Latin America
+* Korean (ko)
+* Chinese - Simplified (zh-CN)
+* Chinese - Traditional (zh-TW)
 
 The language used to view Workfront in your browser is controlled by your browser language settings. Ensure you select a language for your browser which is listed in the supported languages list.
 

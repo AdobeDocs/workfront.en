@@ -20,7 +20,7 @@ You can install the [!DNL Adobe Workfront for XD] plugin from the Adobe Marketpl
 * Japanese
 * Simplified Chinese
 * Traditional Chinese
-<!-- * Korean -->
+* Korean
 
 ## Access requirements
 
@@ -42,7 +42,7 @@ You must have the following access to perform the steps in this article:
   </tr> -->
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>You must have an [!DNL Adobe Creative Cloud] license in addition to a [!DNL Workfront] license.</td> 
+   <td><p>You must have an [!DNL Adobe Creative Cloud] license in addition to a [!DNL Workfront] license.</p><p>For more information, see <a href="https://helpx.adobe.com/support/programs/cc-support-policy.html#cce" class="MCXref xref" xrefformat="{para}">Creative Cloud Support Policy</a>.</p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -53,22 +53,20 @@ You must have the following access to perform the steps in this article:
 
 * You must install the [!DNL Adobe XD] app before installing the Workfront plugin.
 
-## Install the [!DNL Adobe Workfront for XD] plugin
+## Install the [!DNL Adobe Workfront for XD] plugin for you organization
 
->[!TIP]
->
->If you are an [!DNL Adobe Admin Console] administrator, you can include the plugin in [!DNL Creative Cloud] deployment packages. For more information, see [Including plugins in your package](https://helpx.adobe.com/in/enterprise/using/manage-extensions.html).
+If you are an [!DNL Adobe Admin Console] administrator, you can include the plugin in [!DNL Creative Cloud] deployment packages. For more information, see [Including plugins in your package](https://helpx.adobe.com/in/enterprise/using/manage-extensions.html).
 
+[View a video tutorial here](https://www.youtube.com/watch?v=zzvXNLIBzrc){target=_blank}.
 
-1. Open the [!DNL Adobe Creative Cloud] app.
-1. Click the **[!UICONTROL Marketplace]** tab near the top of the window.
-1. In the **[!UICONTROL Search All Plugins]** box, type *Workfront*, then press **[!UICONTROL Enter]**.
+## Install the [!DNL Adobe Workfront for XD] plugin individually
 
-   ![](assets/adobe-marketplace-350x218.png)
+You can install the [!DNL Adobe Workfront for XD] plugin for yourself from the [!DNL Adobe Exchange].
 
-1. When [!DNL Adobe Workfront for XD] plugin appears in the search results, click **[!UICONTROL Get]**.
+1. Go to the [Adobe Workfront for XD install page](https://exchange.adobe.com/apps/cc/4c3566f9?pluginId=4c3566f9&workflow=share) on the Adobe Exchange.
+1. In the dialog that appears, click **Open [!DNL Adobe Creative Cloud] desktop app**.
+1. Once [!DNL Adobe XD] plugin manager opens, click **[!UICONTROL Install]**.
 1. Read the information in the dialog box, then click **[!UICONTROL OK]**.
-
 1. Continue to the following section for information on how to open the plugin.
 
 ## Open the [!DNL Adobe Workfront for XD] plugin
@@ -92,9 +90,10 @@ You must have the following access to perform the steps in this article:
 
    >[!TIP]
    >
-   >To find your domain, open a browser, navigate to your [!DNL Workfront] instance, and copy the first part of the URL:  
-   >![](assets/domain-350x50.png)   >
+   >* To find your domain, open a browser, navigate to your [!DNL Workfront] instance, and copy the first part of the URL:  
+   >![](assets/domain-350x50.png)   
    >
+   > * If your Workfront instance is integrated with Experience Cloud, ask your admin to provide you with the Workfront domain found under Product > Workfront in the Admin Console.
 
 1. In the browser, enter your [!DNL Workfront] credentials, then click **[!DNL Log in]**. If your company uses a single sign-on (SSO), you'll be directed to your SSO provider's page to log in.
 

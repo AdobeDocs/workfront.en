@@ -24,8 +24,6 @@ For information about assigning work items in the Workload Balancer, see [Overvi
 
 As part of our effort to deprecate scheduling and make the Workload Balancer Workfront's main resource assignment tool, we have made the Workfront Balancer the default option for all new users. Currently, Scheduling is the default option. This change applies to all areas where you can access Scheduling from which include the Resourcing area (in the new Adobe Workfront experience) or in the People area (in Adobe Workfront Classic), as well as at the project and team level.
 
-For information about deprecating Scheduling, see [Deprecation of Resource Scheduling tools in Adobe Workfront](../../../resource-mgmt/resource-mgmt-overview/deprecate-resource-scheduling.md)
-
 ## New filter experience in the Workload Balancer
 
 >[!NOTE]

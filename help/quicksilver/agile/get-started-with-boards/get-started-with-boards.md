@@ -11,6 +11,7 @@ exl-id: f9b8b721-d4ba-4ed5-b7a4-ad3610cbc18e
 
 This section contains the following articles:
 
+* [Adobe Workfront Boards video demonstrations](/help/quicksilver/agile/get-started-with-boards/boards-video-demonstrations.md)
 * [Boards early feature opt-in](../../agile/get-started-with-boards/boards-early-feature-opt-in.md)
 * [Use the boards dashboard](../../agile/get-started-with-boards/use-boards-page.md)
 * [Create or edit a board](../../agile/get-started-with-boards/create-edit-board.md)
@@ -19,9 +20,11 @@ This section contains the following articles:
 * [Manage board columns](../../agile/get-started-with-boards/manage-board-columns.md)
 * [Add an ad hoc card to a board](../../agile/get-started-with-boards/add-card-to-board.md)
 * [Use connected cards on boards](/help/quicksilver/agile/get-started-with-boards/connected-cards.md)
+* [Add existing tasks or issues to a board](/help/quicksilver/agile/get-started-with-boards/add-card-from-list-to-board.md)
 * [Manage cards](../../agile/get-started-with-boards/move-board-items.md)
 * [Manage checklist items on cards](/help/quicksilver/agile/get-started-with-boards/manage-checklist-items.md)
 * [Customize which fields are displayed on a card](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md)
 * [Delete or archive a card from a board](../../agile/get-started-with-boards/delete-board-items.md)
 * [Filter and search in a board](../../agile/get-started-with-boards/filter-search-in-board.md)
 * [Add tags](../../agile/get-started-with-boards/add-tags.md)
+* [Boards email notifications and preferences](/help/quicksilver/agile/get-started-with-boards/boards-emails.md)

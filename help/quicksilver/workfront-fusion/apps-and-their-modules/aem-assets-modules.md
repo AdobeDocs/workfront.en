@@ -65,7 +65,7 @@ To create a connection for your [!DNL Adobe Experience Manager Assets] modules:
 
       This configuration requires information from the [!DNL Adobe Admin Console].
 
-   * **[!DNL AEM Assets Basic]**
+   * **[!DNL AEM Assets Basic] ([!DNL Adobe Managed Services])**
 
       This configuration requires a username and password.
 
@@ -73,7 +73,7 @@ To create a connection for your [!DNL Adobe Experience Manager Assets] modules:
 
    For [!DNL AEM Assets as a Cloud Service], see [Configure the connection for [!DNL AEM Assets as a Cloud Service]](#configure-the-connection-for-aem-assets-as-a-cloud-service).
 
-   For [!UICONTROL AEM Assets Basic], see [Configure the connection for [!UICONTROL AEM Assets Basic]](#configure-the-connection-for-aem-assets-basic).
+   For [!UICONTROL AEM Assets Basic] ([!DNL Adobe Managed Services]), see [Configure the connection for [!UICONTROL AEM Assets Basic]](#configure-the-connection-for-aem-assets-basic).
 
 4. Click **[!UICONTROL Continue]** to save the connection and return to the module.
 
@@ -129,7 +129,7 @@ To create a connection for your [!DNL Adobe Experience Manager Assets] modules:
       </table>
 
 
-### Configure the connection for [!DNL AEM Assets Basic]
+### Configure the connection for [!DNL AEM Assets Basic] ([!DNL Adobe Managed Services])
 
 <table style="table-layout:auto"> 
         <col/>

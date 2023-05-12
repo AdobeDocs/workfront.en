@@ -56,6 +56,7 @@ You can make sure you are associating the right group with the team by hovering 
 
 1. Click the **[!UICONTROL Main Menu]** icon ![Main Menu](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, or (if available), click the **[!UICONTROL Main Menu]** icon ![Main Menu](assets/main-menu-icon-left-nav.png) in the upper-left corner, then click **[!UICONTROL Users]** ![](assets/users-icon-in-main-menu.png).
 
+
 <!-- Agile -->
 
 ## Step 1 - Getting to Boards - {#step1-to-boards}
@@ -129,83 +130,82 @@ You must install the correct plugin for the Adobe Creative Cloud application you
 
 ## Adjust automated proof settings {#adjust-proof-settings}
 
-1. (Optional) Adjust automated proof settings
+1. (Optional) Adjust automated proof workflow settings
 
-   <table>
-   <tr>
-      <td colspan="2" ><strong>Proof stages</strong>
-      </td>
-   </tr>
-   <tr>
-      <td>Disable stages
-      </td>
-      <td>
-   <ol>
+      <table>
+      <tr>
+         <td colspan="2" ><strong>Proof stages</strong>
+         </td>
+      </tr>
+      <tr>
+         <td>Disable stages
+         </td>
+         <td>
+      <ol>
 
-   <li>Toggle Select all to disable all stages. 
-   <p>Or</p></li>
-   <li>Toggle individual stages.</li>
+      <li>Toggle Select all to disable all stages. 
+      <p>Or</p></li>
+      <li>Toggle individual stages.</li>
 
-   </ol>
-      </td>
-   </tr>
-   <tr>
-      <td>Add recipients
-      </td>
-      <td>
-   <ol>
+      </ol>
+         </td>
+      </tr>
+      <tr>
+         <td>Add recipients
+         </td>
+         <td>
+      <ol>
 
-   <li>In the Add new recipient box, begin typing the user’s name.
+      <li>In the Add new recipient box, begin typing the user’s name.
 
-   Note: You can't add external recipients via email from the plugin. 
+      <li>Specify the Proof Role.
 
-   <li>Specify the Proof Role.
+      <li>Choose the type of email alerts for the recipient. 
+      </li>
+      </ol>
+         </td>
+      </tr>
+      <tr>
+         <td>Set a deadline
+         </td>
+         <td>
+      <ol>
 
-   <li>Choose the type of email alerts for the recipient. 
-   </li>
-   </ol>
-      </td>
-   </tr>
-   <tr>
-      <td>Set a deadline
-      </td>
-      <td>
-   <ol>
+      <li>Choose a deadline.
+      </li>
+      </ol>
+         </td>
+      </tr>
+      <tr>
+         <td colspan="2" ><strong>Email notifications</strong>
+         </td>
+      </tr>
+      <tr>
+         <td>Notify recipients about the proof
+         </td>
+         <td>
+      <ol>
 
-   <li>Choose a deadline.
-   </li>
-   </ol>
-      </td>
-   </tr>
-   <tr>
-      <td colspan="2" ><strong>Email notifications</strong>
-      </td>
-   </tr>
-   <tr>
-      <td>Notify recipients about the proof
-      </td>
-      <td>
-   <ol>
+      <li>Enable the checkbox to notify users when the proof is created.
+      </li>
+      </ol>
+         </td>
+      </tr>
+      <tr>
+         <td>Add a custom message
+         </td>
+         <td>
+      <ol>
 
-   <li>Enable the checkbox to notify users when the proof is created.
-   </li>
-   </ol>
-      </td>
-   </tr>
-   <tr>
-      <td>Add a custom message
-      </td>
-      <td>
-   <ol>
+      <li>Type a subject.
 
-   <li>Type a subject.
+      <li>Type the custom message.
+      </li>
+      </ol>
+         </td>
+      </tr>
+      </table>
 
-   <li>Type the custom message.
-   </li>
-   </ol>
-      </td>
-   </tr>
-   </table>
   
 
 
@@ -231,7 +231,7 @@ You must install the correct plugin for the Adobe Creative Cloud application you
 
 ## Latest DPV Version {#latest-version}
 
-**Latest version**: 2.1.20 as of 1/11/2023
+**Latest version**: 2.1.23 as of 3/23/2023
 
 <!-- Release -->
 

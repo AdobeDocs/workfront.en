@@ -9,8 +9,6 @@ exl-id: c6d979dd-e4a4-48a5-a91b-b31d7ef848d1
 ---
 # Use connected cards on boards
 
-{{highlighted-preview}}
-
 You can add a card on your board that is connected to existing tasks and issues in [!DNL Workfront].
 
 When any one of the following details is updated for the card in one location, it is automatically updated in the other location:
@@ -91,11 +89,11 @@ You must have the following access to perform the steps in this article:
     <tbody> 
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Name]</strong></td> 
-      <td> <p>Changing the name also changes the name on the connected [!DNL Workfront] object.</p> </td> 
+      <td>Changing the name also changes the name on the connected [!DNL Workfront] object.</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Description]</strong></td> 
-      <td> <p>Changing the description also changes the description on the connected [!DNL Workfront] object.</p> </td> 
+      <td>Changing the description also changes the description on the connected [!DNL Workfront] object. You can add URLs in the description and they will become clickable links when the card is saved.</td> 
      </tr> 
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Assignees]</strong></td>
@@ -105,7 +103,7 @@ You must have the following access to perform the steps in this article:
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Column]</strong></td>
-      <td><p>Select the column for the card.</p></td>
+      <td>Select the column for the card.</td>
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Status]</strong></td>
@@ -115,11 +113,11 @@ You must have the following access to perform the steps in this article:
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Planned Completion]</strong></td>
-      <td><p>Changing this date also changes the planned completion date on the connected [!DNL Workfront] object.</p></td>
+      <td>Changing this date also changes the planned completion date on the connected [!DNL Workfront] object.</td>
      </tr>
       <tr>
       <td role="rowheader"><strong>[!UICONTROL Estimation]</strong></td>
-      <td><p>The number of hours for the card to be completed.</p><p>If you use the early feature opt-in for [!DNL Workfront] [!UICONTROL Boards], changing the estimation also changes the story points value on the connected [!DNL Workfront] object.</p><p>If you are not opting in to early features, this field is a manual entry only and the value cannot be more than 99.</p></td>
+      <td><p>The number of hours for the card to be completed.</p><p>Changing the estimation also changes the story points value on the connected [!DNL Workfront] object.</p></td>
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Tags]</strong></td>
@@ -132,6 +130,8 @@ You must have the following access to perform the steps in this article:
      </tr>
     </tbody> 
    </table>
+
+   Use the navigation panel on the left to move between groups of fields on the card details.
 
 1. Click **[!UICONTROL Close]** to return to the board.
    The connected object, assignees, tags, due date, checklist counter, estimated hours, and status are displayed on the card.
@@ -177,13 +177,7 @@ After you have created an ad hoc card, you can convert it to a connected card. F
 
 1. Click **[!UICONTROL Close]** to return to the board.
 
-<div class="preview">
-
 ## Log hours on a connected card
-
->[!NOTE]
->
->This feature is available only through the early feature opt-in for Workfront Boards.
 
 You must have the correct permissions to log hours on the connected task or issue.
 
@@ -199,4 +193,3 @@ The time logging fields are not displayed on connected cards by default. You mus
 
 Logging time on the card is the same as logging time on a task or issue. For more information, see "Log time on a project, task, or issue" in the article [Log time](/help/quicksilver/timesheets/create-and-manage-timesheets/log-time.md).
 
-</div>

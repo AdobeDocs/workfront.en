@@ -87,6 +87,21 @@ To apply a scorecard to a project:
 
    The scorecard is now associated with the project and the project is scored.
 
+<!--This functionality was removed when we redesigned bulk editing projects with 23.2: 
+
+1. (Conditional) When changes occur in the values of scorecard questions, you must recalculate the scorecard to reflect the new values for the project score. To recaulate the scorecard, do the following: 
+
+   1. Go to a list of projects and select all projects in the list. 
+   1. Click the **Edit** icon at the top of the list. 
+   1. Click **Settings** in the left panel, then check the **Recalculate Scorecards** option at the end of the Settings area. 
+   1. Click Save. This recalculates the score value based on the scorecards attached for all the selected projects.  
+
+      >[!NOTE]
+      >
+      >   The option to recalculate scorecards has been removed from the Preview environment, when editing projects in bulk. 
+
+-->
+
 ## Generate an Alignment Score
 
 * [Generate an Alignment Score for a project](#generate-an-alignment-score-for-a-project) 

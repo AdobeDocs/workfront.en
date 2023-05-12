@@ -26,6 +26,7 @@ You can receive the following email notifications from [!DNL Workfront]:
 * [Notification of posted comments](#notification-of-posted-comments)
 * [Automatic reminders](#automatic-reminders)
 * [Reminder notifications](#reminder-notifications)
+* [Boards notifications](#boards-notifications)
 * [Other [!DNL Workfront] emails](#other-workfront-emails)
 
 ### Event notifications 
@@ -120,6 +121,12 @@ A [!DNL Workfront] administrator (or a user with a [!UICONTROL Planner] access l
 Reminder notifications are sent from the email address that the [!DNL Workfront] administrator selected to handle outgoing emails.
 
 For information about setting up and enabling reminder notifications, see [Set up reminder notifications](../../administration-and-setup/manage-workfront/emails/set-up-reminder-notifications.md).
+
+### Boards notifications
+
+[!DNL Adobe Workfront] [!UICONTROL Boards] sends you an email when you are added to a board and when a card is assigned to you.
+
+You can select which emails you want to receive in your Boards preferences. For more information, see [Boards email notifications and preferences](/help/quicksilver/agile/get-started-with-boards/boards-emails.md).
 
 ### Other [!DNL Workfront] emails 
 

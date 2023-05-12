@@ -46,7 +46,7 @@ The following table is a list of commonly used terms in Adobe Workfront:
    <td>[!UICONTROL Actual Expense Cost]</td> 
    <td> <p>The sum of the [!UICONTROL Actual Amounts] for all expenses logged for a project or a task.</p> <b>EXAMPLE </b>
    <p>If you create an expense for Task 1 and enter $600.00 in the [!UICONTROL Actual Amount] field, the [!UICONTROL Actual Expense Cost] for this task is $600.00. </p> 
-   <p>For a project, [!DNL Workfront] uses the following formula to calculate [!UICONTROL Actual Expense Cost]:</p> <p><code>Project Actual Expense Cost = SUM (All Project Actual Expense Costs) + SUM (All Tasks Actual Expense Costs)</code> <br> </p> 
+   <p>For a project, [!DNL Workfront] uses the following formula to calculate [!UICONTROL Actual Expense Cost]:</p> <p><code>Project Actual Expense Cost = SUM (All Project Actual Expense Costs) + SUM (All Tasks Actual Expense Costs) + Project Fixed Cost</code> <br> </p> 
    <!--
      <p>Important: If the value in the Actual Amount field for an expense is negative, Workfront will ignore that expense record. For example, if the value in the Planned Amount field is $200.00 but the value in the Actual Amount field is -$300.00, the system will ignore this entire expense record which means you would not include the $200.00 planned value or the -$300.00 actual value in any calculations for Planned Expense Cost or Actual Expense Cost. (drafting this because not sure if this is still correct)</p>
     --> </td> 
@@ -259,7 +259,7 @@ The following table is a list of commonly used terms in Adobe Workfront:
 
   <tr> 
    <td>[!UICONTROL Branding]</td> 
-   <td>The process of customizing [!DNL Workfront] to give the interface an appearance that mirrors your company by using your colors and logos.</td> 
+   <td><p>The process of customizing [!DNL Workfront] to give the interface an appearance that mirrors your company by using your colors and logos.</p><p><strong>NOTE</strong><br>If your organization has been onboarded to [!DNL Adobe Experience Cloud], branding is not available.</p></td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Breadcrumbs]</td> 
@@ -838,10 +838,31 @@ The following table is a list of commonly used terms in Adobe Workfront:
    <td>[!UICONTROL External]</td> 
    <td> <p>Typically, a license type, or a user with such a license, which only has the ability to review information in the system.</p> <p>For more information, see <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">[!DNL Adobe Workfront] licenses overview</a>.</p> </td> 
   </tr> 
-  <tr data-mc-conditions="SnippetConitions_MaturityModel.Optimized"> 
+  <tr> 
    <td>[!UICONTROL External System]</td> 
    <td>Any services or software that is stored and governed outside the designated system of record.</td> 
   </tr> 
+
+ <tr> 
+   <td>[!UICONTROL Field]</td> 
+   <td><p>Any Workfront object or the information associated with it, as it appears in the database. </p>
+   <p>For example, "project", "user", "hour" are both Workfront objects as well as fields. "Name", "status", "owner", "start date" are Workfront fields that are associated with the above objects. </p>
+
+   <p>When referring to objects, the tems "objects" and "fields" can be used interchangeably.</p>
+   <p>In the scope of reporting, the "fields" refer to the objects or the information about the object that you want to capture in the report.</p>
+   
+   <p><b>NOTE</b></p>
+
+  <p>In text-more reporting, fields refer to the the objects or their information as it appears in the database.</p>
+   <p>Sometimes the name that you see in the user interface is different than the name of the field in the database. For example, "issue" is the name of the object in the Workfront interface, but "opTask" is the name of the object (or the field) in the Workfront database. </p> 
+   <p> It's important to use the field as it appears in the databse when writing a text-mode report, view, filter, or grouping, or when creating a calculated field.</p>
+
+   <p>For more information, see <a href="../../../wf-api/general/api-explorer.md">API Explorer</a> and <a href="../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md">Text Mode overview</a>.</p>  
+
+   <p>By default, Workfront comes with a set of fields that define both objects and their information. You can also create custom fields to define objects, but you cannot create custom objects.</p> 
+   </td> 
+  </tr>
+
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Ad hoc"> 
    <td>[!UICONTROL Filter]</td> 
    <td> <p>One of the main building blocks of a report or a list element that defines what information displays on the screen. For more information about reporting elements, see <a href="../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md" class="MCXref xref">Reporting elements: filters, views, and groupings</a>.</p> <p>The Filter determines the results that display in a report or on an [!DNL Workfront] panel listing, like projects, tasks, or issues.</p> </td> 
@@ -884,7 +905,7 @@ The following table is a list of commonly used terms in Adobe Workfront:
    <p>Your Workfront administrator decides which schedule to use in determining user's availability.  </p>
    <ul>
    <li> When the [!UICONTROL Default Schedule] is used, Workfront uses the [!UICONTROL FTE] of the user found in their profile to calculate availability. </li>
-   <li> When the User's Schedule is used, Workfront uses the user's time off, <span class="preview">[!UICONTROL Work Time] value</span>, and [!UICONTROL Default Schedule]'s hours to calculate the user's [!UICONTROL FTE]. </li> </ul>
+   <li> When the User's Schedule is used, Workfront uses the user's time off, [!UICONTROL Work Time] value, and [!UICONTROL Default Schedule]'s hours to calculate the user's [!UICONTROL FTE]. </li> </ul>
     
    <p>For more information, see <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md">Configure Resource Management preferences</a>.  </p>
    <p>For more information about creating schedules in [!DNL Workfront], see <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md">Create a schedule</a>. </p>
@@ -1294,7 +1315,7 @@ The designated full time equivalency for users. A full-time user should have 100
   </tr> 
   <tr> 
    <td>[!UICONTROL Object]</td> 
-   <td> <p>An organization's work items and reports, as well as the groups of users that manage them in [!UICONTROL Workfront]. Objects can be:</p> 
+   <td> <p>The information you display in [!DNL Adobe Workfront] is represented by objects which are stored in the [!DNL Workfront] database. The objects are what drives the information in Workfront. Some examples of objects are:</p> 
     <ul> 
      <li>[!UICONTROL Portfolios]</li> 
      <li>[!UICONTROL Programs]</li> 
@@ -1308,7 +1329,17 @@ The designated full time equivalency for users. A full-time user should have 100
      <li>[!UICONTROL Teams]</li> 
      <li>[!UICONTROL Users]</li> 
      <li>[!UICONTROL Companies]</li> 
-    </ul> <p>For more information, see <a href="../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md" class="MCXref xref">Understand objects in [!UICONTROL Adobe Workfront]</a>.</p> </td> 
+     <li>[!UICONTROL Custom forms]</li>
+     <li>[!UICONTROL Custom fields]</li>  
+     <li>[!UICONTROL Hours]</li> 
+     <li>[!UICONTROL Billing Rates]</li> 
+     <li>[!UICONTROL Templates]</li> 
+     <li>[!UICONTROL Template tasks]</li> 
+
+  <p><b>NOTE</b></p>
+  <p>This is not an extensive list. </p>
+
+  </ul> <p>For more information, see <a href="../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md" class="MCXref xref">Understand objects in [!UICONTROL Adobe Workfront]</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Object Types]</td> 
@@ -2329,15 +2360,15 @@ The designated full time equivalency for users. A full-time user should have 100
    <td>[!UICONTROL Work Time]</td> 
    <td>  
  
-   <p><span class="preview">Represents the percentage of the Full Time Equivalent ([!UICONTROL FTE]) time that the user is available for actual work, not including overhead. [!UICONTROL Work Time] must be a decimal number up to 1, and it cannot be 0. For example, a 20% availability for actual work would be 0.2.</span>  </p>
-   </p><span class="preview">The field's default is 1, indicating that a user spends their entire [!UICONTROL FTE] on actual, project-related work.</span>   </p>
-   <p><span class="preview">The system uses this number to calculate the availability of the user for actual, project-related work. </span></p>
-   <p> <span class="preview">Schedule exceptions and time off might also affect the user capacity.</span> </p>
-   <p><span class="preview">For more information about creating schedules in Workfront, see <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md">Create a schedule</a>.</span> </p>
+   <p>Represents the percentage of the Full Time Equivalent ([!UICONTROL FTE]) time that the user is available for actual work, not including overhead. [!UICONTROL Work Time] must be a decimal number up to 1, and it cannot be 0. For example, a 20% availability for actual work would be 0.2.</p>
+   </p>The field's default is 1, indicating that a user spends their entire [!UICONTROL FTE] on actual, project-related work.  </p>
+   <p>The system uses this number to calculate the availability of the user for actual, project-related work. </p>
+   <p> Schedule exceptions and time off might also affect the user capacity. </p>
+   <p>For more information about creating schedules in Workfront, see <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md">Create a schedule</a>. </p>
     <p>Workfront calculates a user's availability depending on the Resource Management preferences in your [!UICONTROL Setup] area. For more information, see <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md/">Configure Resource Management preferences</a>. </p> 
-   <p><span class="preview">You can update the [!UICONTROL Work Time] of a user when you edit or create the user. For information, see <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md">Edit a user's profile</a></span></p> 
+   <p>You can update the [!UICONTROL Work Time] of a user when you edit or create the user. For information, see <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md">Edit a user's profile</a></p> 
    <b>TIP</b> 
-   <p><span class="preview">Set the [!UICONTROL Work Time] value to  1 to indicate that the user is available for project-related work their entire full-time equivalent.</span></p> 
+   <p>Set the [!UICONTROL Work Time] value to  1 to indicate that the user is available for project-related work their entire full-time equivalent.</p> 
    </td> 
   </tr> 
   <tr> 

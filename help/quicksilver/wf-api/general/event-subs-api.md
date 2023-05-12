@@ -67,65 +67,10 @@ For a list of fields supported by event subscription objects, see [Event subscri
 
 To create, query, or delete an event subscription, your Workfront user needs the following:
 
-* An access level of "System Administrator" 
-* An apiKey
+* An access level of "System Administrator" is required to use Event Subscriptions.
+* A `sessionID`  header is required to use the Event Subscriptions API
 
-  >[!NOTE]
-  >
-  >If your user is already utilizing Workfront's API, your user should already have an apiKey. You can retrieve the apiKey via the following HTTP request:
-
-**Request URL:** 
-
-```
-PUT https://<HOSTNAME>/attask/api/v15.0/USER?action=getApiKey&username=<USERNAME>&password=<PASSWORD>
-```
-
-**Request Headers:** 
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <thead> 
-  <tr> 
-   <th> <p>Header Name</p> </th> 
-   <th> <p>Header Value</p> </th> 
-  </tr> 
- </thead> 
- <tbody> 
-  <tr> 
-   <td> <p>Content-type</p> </td> 
-   <td> <p>text/html</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-**Response Codes:** 
-
-| Response Code |Description |
-|---|---|
-| 200 (OK) |The request was processed successfully, and the existing apiKey for the user should be returned in the response body. |
-| 401 (Unauthorized) |The server acknowledges the request but was unable to process it because the requesting apiKey/user does not have access to make this request. |
-
-{style="table-layout:auto"}
-
-**Response Body Example:** 
-
-```
-{
-               "data"{
-               "result": "rekxqndrw9783j4v79yhdsakl56bu1jn"
-               }
-      }
-```
-
->[!NOTE]
->
->&nbsp;If this is your first time using the Workfront API, then you need to generate an apiKey which you can do via this link:
-
-
-```
-PUT https://<HOSTNAME>/attask/api/v15.0/USER/generateApiKey?username=<USERNAME>&password=<PASSWORD>
-```
+   For more information, see [Authentication](api-basics.md#authentication) in [API Basics](api-basics.md).
 
 ## Forming the Subscription&nbsp;Resource
 
@@ -262,8 +207,8 @@ POST https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions
    <td> <p>application/json</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Authorization</p> </td> 
-   <td> <p>apiKey value</p> </td> 
+   <td> <p>sessionID</p> </td> 
+   <td> <p>sessionID value</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -285,8 +230,8 @@ POST https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions
 |---|---|
 | 201 (Created) |The event subscription was successfully created. |
 | 400 (Bad Request) |The URL field of the subscription resource&nbsp;was deemed invalid. |
-| 401 (Unauthorized) |The apiKey provided was empty or deemed invalid. |
-| 403 (Forbidden) |The user, which matches the provided apiKey, does not have administrator access. |
+| 401 (Unauthorized) |The sessionID provided was empty or deemed invalid. |
+| 403 (Forbidden) |The user that matches the provided sessionID does not have administrator access. |
 
 Passing a&nbsp;subscription resource&nbsp;as the body of a&nbsp;request (with the content-type being&nbsp;"application/json") results in an event subscription being created for the object specified. A response code of 201 (Created) indicates the subscription was created. A response code other than 201 means the subscription was **NOT** created.
 
@@ -309,7 +254,7 @@ When querying Workfront's HTTP use the GET method. There are two ways to query f
 
 ### Query All Events Subscriptions
 
-You can query all events subscriptions for a customer as specified by the apiKey value. You can also use the following options to manage the response:
+You can query all events subscriptions for a customer, or use the following to manage the response. You can also use the following options to manage the response:
 
 * **page**: query parameter option to specify the number of pages to return. The default is 1.
 * **limit**: query parameter option to specify the number of results to return per page. The default is 100 with a max of 1000.
@@ -337,8 +282,8 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>Authorization</p> </td> 
-   <td> <p>apiKey value</p> </td> 
+   <td> <p>sessionID</p> </td> 
+   <td> <p>sessionID value</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -347,9 +292,9 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions
 
 | Response Code |Description |
 |---|---|
-| 200 (OK)  |The request returned with all event subscriptions found for the customer matching the provided apiKey. |
-| 401 (Unauthorized) |The apiKey provided was empty. |
-| 403 (Forbidden) |The user, which matches the provided apiKey, does not have administrator access. |
+| 200 (OK)  |The request returned with all event subscriptions found for the customer matching the provided sessionID. |
+| 401 (Unauthorized) |The sessionID provided was empty. |
+| 403 (Forbidden) |The user, which matches the provided sessionID, does not have administrator access. |
 
 
 **Response Headers Example:** 
@@ -430,8 +375,8 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRIPTI
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>Authorization</p> </td> 
-   <td> <p>apiKey value</p> </td> 
+   <td> <p>sessionID</p> </td> 
+   <td> <p>sessionID value</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -441,8 +386,8 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRIPTI
 | Response Code |Description |
 |---|---|
 | 200 (OK) |The request returned with the event subscription matching the provided subscription ID.  |
-| 401 (Unauthorized)  |The apiKey provided was empty. |
-| 403 (Forbidden) |The user, which matches the provided apiKey, does not have administrator access. |
+| 401 (Unauthorized)  |The sessionID provided was empty. |
+| 403 (Forbidden) |The user, which matches the provided sessionID, does not have administrator access. |
 
 
 **Response Body Example:** 
@@ -729,8 +674,8 @@ DELETE https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRI
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>Authorization</p> </td> 
-   <td> <p> User's apiKey </p> </td> 
+   <td> <p>sessionID</p> </td> 
+   <td> <p> sessionID value </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -753,11 +698,11 @@ DELETE https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRI
   </tr> 
   <tr> 
    <td>401 (Unauthorized)</td> 
-   <td>The apiKey provided was empty.</td> 
+   <td>The sessionID provided was empty.</td> 
   </tr> 
   <tr> 
    <td>403 (Forbidden)</td> 
-   <td>The User which matches the provided apiKey does not have administrator access.</td> 
+   <td>The user that matches the provided sessionID does not have administrator access.</td> 
   </tr> 
   <tr> 
    <td>404 (Not Found)</td> 
@@ -951,7 +896,7 @@ The following is an example of a request that uses the base64Encoding field:
 
 The following API endpoint is deprecated and should not be used for new implementations. We also recommend transitioning old implementations to the method in the **Querying Event Subscriptions** section described above.
 
-You can query all event subscriptions for a customer as specified by the apiKey value. The request syntax for listing all event subscriptions for a specific customer is the following URL:
+You can query all event subscriptions for a customer as specified by the sessionID value. The request syntax for listing all event subscriptions for a specific customer is the following URL:
 
 <!-- [Copy](javascript:void(0);) --> 
 
@@ -972,8 +917,8 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/list
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>Authorization</p> </td> 
-   <td> <p> User's apiKey </p> </td> 
+   <td> <p>sessionID</p> </td> 
+   <td> <p> sessionID value </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -996,11 +941,11 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/list
   </tr> 
   <tr> 
    <td>401 (Unauthorized)</td> 
-   <td>The apiKey provided was empty.</td> 
+   <td>The sessionID provided was empty.</td> 
   </tr> 
   <tr> 
    <td>403 (Forbidden)</td> 
-   <td>The User which matches the provided apiKey does not have administrator access.</td> 
+   <td>The User which matches the provided sessionID does not have administrator access.</td> 
   </tr> 
  </tbody> 
 </table>

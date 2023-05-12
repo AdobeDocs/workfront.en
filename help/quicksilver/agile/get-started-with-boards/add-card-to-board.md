@@ -57,7 +57,7 @@ An ad hoc card is not connected to a work item in [!DNL Adobe Workfront].
      </tr> 
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Description]</strong> </td> 
-      <td>A description of the card.</td> 
+      <td>A description of the card. You can add URLs in the description and they will become clickable links when the card is saved.</td>
      </tr> 
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Assignees]</strong> </td> 
@@ -73,7 +73,7 @@ An ad hoc card is not connected to a work item in [!DNL Adobe Workfront].
      </tr>
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Estimation]</strong></td> 
-      <td><p>Type the estimated number of hours for the card to be completed. This is a manual entry only.</p></td>
+      <td>Type the estimated number of hours for the card to be completed. This is a manual entry only.</td>
      </tr>
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Due date]</strong></td> 
@@ -90,7 +90,9 @@ An ad hoc card is not connected to a work item in [!DNL Adobe Workfront].
     </tbody> 
    </table>
 
-   ![Ad hoc card details](assets/boards-edit-ad-hoc-card-071822.png)
+   ![Ad hoc card details](assets/boards-edit-ad-hoc-card-041723.png)
+
+   Use the navigation panel on the left to move between groups of fields on the card details.
 
 1. Click **[!UICONTROL Close]** to add the card to the board.
 
