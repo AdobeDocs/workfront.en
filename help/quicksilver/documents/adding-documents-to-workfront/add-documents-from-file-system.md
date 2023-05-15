@@ -105,8 +105,13 @@ The Workfront site prevents viruses and other malicious content from entering th
 
 ### How Workfront detects corrupted files {#how-workfront-detects-corrupted-files}
 
-Workfront scans for viruses when a document is uploaded. If you attempt to upload a corrupted document, Workfront discontinues the upload process and a message appears&nbsp;indicating the file is corrupt. You also receive an email notification when Workfront detects potentially malicious content and the file is slated for removal.  
-All corrupted files are removed within 24 hours of detection unless you remove it manually. If you delete a corrupted file, Workfront tracks this action as an update. If you allow Workfront to remove it, then no updates are recorded.
+Document scanning is enabled for your organization only upon request.
+
+If document scanning is enabled, files under 25 MB are scanned when they are uploaded. Files over 25 MB are not scanned.
+
+If Workfront detects a corrupted document, Workfront discontinues the upload process and a message appears&nbsp;indicating that the file is corrupt. You also receive an email notification when Workfront detects potentially malicious content and the file is slated for removal.
+
+Corrupted files are removed within 24 hours of detection unless you remove it manually. If you delete a corrupted file, Workfront tracks this action as an update. If you allow Workfront to remove it, then no updates are recorded.
 
 ### File name restrictions {#file-name-restrictions}
 
