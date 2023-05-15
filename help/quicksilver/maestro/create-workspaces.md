@@ -11,7 +11,7 @@ hide: yes
 
 In Adobe Maestro, workspaces are centralized locations for teams to plan work. 
 
-A workspace is a collection of operational record types and taxonomies used by the team and represents the team's work lifecycle. 
+A workspace is a collection of operational record types and taxonomies used by a team and represents the team's work lifecycle. 
 
 ## Access requirements
 
@@ -57,14 +57,14 @@ A workspace is a collection of operational record types and taxonomies used by t
 
 ## Create a workspace
 
-1. (Conditional) If you don't have any workspaces in your system, click the **Main Menu** ![](assets/main-menu-workfront.png) in the upper-right corner of Workfront, then click **Maestro** ![](assets/maestro-icon.png)
+1. (Conditional) If you don't have any workspaces in your system, click the **Main Menu** icon ![](assets/main-menu-workfront.png) in the upper-right corner of Workfront, <!---or the **Main menu** icon ![](assets/main-menu-shell.png)  in the upper-left corner, if available--> then click **Maestro** ![](assets/maestro-icon.png).
 
     Or, from an existing workspace, click the downward-pointing to the right of the workspace name, then click **Create workspace**. 
 
     ![](assets/workspace-drop-down-right-menu.png)
 
     This opens the Workspaces area of Maestro. 
-1. (Optional) Click **Preview** inside any of the following predefined workspace templates:
+1. (Optional and conditional) Click **Preview** inside any of the following predefined workspace templates:
 
     * Marketing management
     * Sales management
@@ -78,13 +78,8 @@ A workspace is a collection of operational record types and taxonomies used by t
 
     Or
 
-    Click the **x** icon to close the template preview and return to the Workspaces area. 
-
-1. Click **Create workspace**, then **Create workspace** to create a workspace from scratch
-    
-    Or 
-
-    Click **Use template** to create a workspace from an existing template. 
+    Click **Create workspace** to create a workspace from scratch
+     
 1. Click inside the name of the workspace in the header of the new workspace to rename it, then press Enter. 
     
     You can also click the **More** menu ![](assets/more-menu.png), then **Rename**.
