@@ -23,7 +23,7 @@ The new form designer has a new canvas-style workspace that allows you to view t
 
 There is a new button at the top of both the new form designer and the legacy form builder. You can use this button to switch between the legacy builder and the new designer.
 
-![](assets/switch-views.png)
+![Switch to new form designer](assets/switch-views.png)
 
 ## New functionality available with the form designer
 
@@ -59,11 +59,15 @@ Although you can't add display/skip logic when designing a new custom form, you 
 
 Icons on a field in the form designer indicate that logic is applied to the field.
 
-   The X icon means that the field is the target field for display logic (if a selection is made on the form, then this field is displayed). The Y icon means that the field is used to define display logic (a specific selection or value on this field will display another field).
+   The ![Display logic icon for target field](assets/display-logic-2.png) icon on the bottom left means that the field is the target field for display logic (if a specific selection is made on the form, then this field is displayed). The ![Display logic icon for defining field](assets/display-logic-1.png) icon on the bottom right means that the field is used to define display logic (a specific selection or value on this field will display the target field).
 
-   The A icon means that the field is the target field for skip logic (if a selection is made on the form, then the form skips ahead to this field). The B icon means that the field is used to define skip logic (a specific selection or value on this field will skip other fields and go directly to the target field).
+   The ![Skip logic icon for target field](assets/skip-logic-2.png) icon on the bottom left means that the field is the target field for skip logic (if a selection is made on the form, then the form skips ahead to this field). The ![Skip logic icon for defining field](assets/skip-logic-1.png) icon on the bottom right means that the field is used to define skip logic (a specific selection or value on this field will skip other fields and go directly to the target field).
+
+   ![Logic indicators](assets/logic-icons-1.png)
 
 Selecting a field with logic applied displays the existing logic rules in the field settings.
+
+   ![Logic rules](assets/form-designer-view-only-logic.png)
 
 </div>
 
