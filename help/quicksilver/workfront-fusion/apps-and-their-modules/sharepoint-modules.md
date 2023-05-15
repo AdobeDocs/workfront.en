@@ -204,14 +204,13 @@ This trigger module starts a scenario when an item is updated in a folder you se
 ### Item
 
 * [[!UICONTROL Watch Items] (Scheduled)](watch-items-scheduled)
-* [[!UICONTROL Watch Items] (Instant)](watch-items-instant)
 * [[!UICONTROL List Items]](#list-items)
 * [[!UICONTROL Get an Item]](#get-an-item)
 * [[!UICONTROL Create an item]](#create-an-item)
 * [[!UICONTROL Update an item]](#update-an-item)
 * [[!UICONTROL Delete an item]](#delete-an-item)
-* [[!UICONTROL Copy an Item]](#copy-an-item)
-* [[!UICONTROL Move an Item]](#move-an-item)
+* [[!UICONTROL Copy Item]](#copy-an-item)
+* [[!UICONTROL Move Item]](#move-an-item)
 
 
 #### [!UICONTROL Watch Items] (Scheduled)
@@ -244,9 +243,6 @@ This trigger module starts a scenario when an item is created or modified.
   </tr> 
  </tbody> 
 </table>
-
-#### [!UICONTROL Watch Items] (Instant)
-
 
 #### [!UICONTROL List Items]
 
@@ -375,9 +371,67 @@ This action module deletes an existing item in a SharePoint list.
  </tbody> 
 </table>
 
-#### [!UICONTROL Copy an Item]
+#### [!UICONTROL Copy Item]
+
+This action module copies an existing item in a SharePoint list.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td> <p>For instructions about connecting your [!DNL SharePoint] account to [!DNL Workfront Fusion], see <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Connect [!DNL SharePoint] to [!DNL Workfront Fusion]</a> in this article.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Enter Site, Drive, and Folder IDs</td> 
+   <td> <p>Select how you want to identify the site and list that contain the item you want to copy.</p> 
+    <ul> 
+     <li> <p><strong>[!UICONTROL Enter manually]</strong> </p> <p>Enter or map the <strong>[!UICONTROL Site ID]</strong>, <strong>[!UICONTROL List ID]</strong>, and <strong>[!UICONTROL Item ID]</strong> in the fields that appear.</p> </li> 
+     <li> <p><strong>[!UICONTROL Select from list that you follow]</strong> </p> <p>In the Copy Item Type field, select whether you are moving a field or a folder.  Select the site that contains the item you want to copy, then select the list, then select the item. </p> </li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Destination ID]</td> 
+   <td>  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL New name]</td> 
+   <td>Enter or map a name for the new copy of the item. </td> 
+  </tr> 
+ </tbody> 
+</table>
 
 #### [!UICONTROL Move an Item]
+
+This action module copies an existing item in a SharePoint list.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td> <p>For instructions about connecting your [!DNL SharePoint] account to [!DNL Workfront Fusion], see <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Connect [!DNL SharePoint] to [!DNL Workfront Fusion]</a> in this article.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Enter Site, Drive, and Folder IDs</td> 
+   <td> <p>Select how you want to identify the site and list that contain the item you want to move.</p> 
+    <ul> 
+     <li> <p><strong>[!UICONTROL Enter manually]</strong> </p> <p>Enter or map the <strong>[!UICONTROL Site ID]</strong>, <strong>[!UICONTROL List ID]</strong>, and <strong>[!UICONTROL Item ID]</strong> in the fields that appear.</p> </li> 
+     <li> <p><strong>[!UICONTROL Select from list that you follow]</strong> </p> <p>In the Copy Item Type field, select whether you are moving a field or a folder. Select the site that contains the item you want to copy, then select the list, then select the item. </p> </li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Destination ID]</td> 
+   <td>  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL New name]</td> 
+   <td>Enter or map a name for the moved item. </td> 
+  </tr> 
+ </tbody> 
+</table>
 
 ### List
 
@@ -622,6 +676,28 @@ This module allows you to perform a custom API call.
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### Watch events
+
+This instant trigger module starts a scenario when an 
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+  <!--
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td> <p>For instructions about connecting your [!DNL SharePoint] account to [!DNL Workfront Fusion], see <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Connect [!DNL SharePoint] to [!DNL Workfront Fusion]</a> in this article.</p> </td> 
+  </tr> 
+  -->
+  <tr> 
+   <td role="rowheader">[!UICONTROL Webhook]</td> 
+   <td> <p>Select an existing webhook, or click Add to creat a new webhook.</p> 
+   </td> 
   </tr> 
  </tbody> 
 </table>
