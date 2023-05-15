@@ -4,12 +4,14 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 description: You can design a custom form that users can attach to a Workfront object. Users who work on the object can fill out the custom form to supply information about the object.
-author: Courtney
+author: Courtney / Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: c2e2901b-0558-4a63-ae3c-4c3a6edf0ff0
 ---
 # Form designer overview
+
+{{highlighted-preview}}
 
 You can use the new form designer to design a custom form that users can attach to a Workfront object. Users who work on the object can fill out the custom form to supply information about the object.
 
@@ -50,6 +52,20 @@ The following are not currently available in the form designer but will be added
 >[!IMPORTANT]
 >
 >The existing configurations for logic and typeahead filters will not be affected when you work with the new form designer.
+
+<div class="preview">
+
+Although you can't add display/skip logic when designing a new custom form, you can view existing display/skip logic on forms that were created in the legacy form builder.
+
+Icons on a field in the form designer indicate that logic is applied to the field.
+
+   The X icon means that the field is the target field for display logic (if a selection is made on the form, then this field is displayed). The Y icon means that the field is used to define display logic (a specific selection or value on this field will display another field).
+
+   The A icon means that the field is the target field for skip logic (if a selection is made on the form, then the form skips ahead to this field). The B icon means that the field is used to define skip logic (a specific selection or value on this field will skip other fields and go directly to the target field).
+
+Selecting a field with logic applied displays the existing logic rules in the field settings.
+
+</div>
 
 ## Functionality removed from the form designer
 
