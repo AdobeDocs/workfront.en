@@ -21,4 +21,4 @@ To view the number of decisions for a user:
 
 1. Open the **Views** area, then choose the **Licenses** view. 
 
-1. Find the coloumn **Approvals this month** to view the number of decsions each user has made in the month.
+1. Find the column **Decisions this month** to view the number of decsions each user has made in the month.
