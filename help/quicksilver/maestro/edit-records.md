@@ -13,6 +13,51 @@ hide: yes
 
 ## Access requirements
 
+<table style="table-layout:auto">
+ <col>
+ </col>
+ <col>
+ </col>
+ <tbody>
+  <tr>
+   <td role="rowheader"><p>Adobe Workfront plan*</p></td>
+   <td>
+<p>Any</p>
+<!--the above is only for closed beta; when going to GA - activate the following plans:    
+<p>Current plan: Prime and Ultimate</p>
+<p>Legacy plan: Enterprise</p>-->
+   </td>
+  </tr>
+  <tr>
+   <td role="rowheader"><p>Adobe Workfront license*</p></td>
+   <td>
+   <p>Any</p> 
+  <p>For more information, see <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p> </td>
+  </tr>
+  <tr>
+   <td role="rowheader"><p>Product</p></td>
+   <td>
+   <p> Adobe Workfront</p> </td>
+  </tr>
+  <tr>
+   <td role="rowheader">Access level*</td>
+   <td> <p>Any</p>  
+</td>
+  </tr>
+<tr>
+   <td role="rowheader">Layout template</td>
+   <td> <p>Your system administrator must add the Maestro area in your layout template. For information, see the "Enable Maestro for the users in your Workfront instance" section in the article <a href="../maestro/maestro-overview.md">Adobe Maestro overview</a>. </p>  
+</td>
+  </tr>
+ </tbody>
+</table>
+
+>[!NOTE]
+>
+>*If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see [Create or modify custom access levels](../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+
 ## Edit records in a table
+
+<!--describe every type of field and mention the hotkey navigation here - ??-->
 
 ## Edit records in the Details section

@@ -67,6 +67,12 @@ Additionally, Maestro can link to object types from other systems, creating a co
    <td> <p>Any</p>  
 </td>
   </tr>
+
+<tr>
+   <td role="rowheader">Layout template</td>
+   <td> <p>Your system administrator must add the Maestro area in your layout template. For information, see the "Enable Maestro for the users in your Workfront instance" section in this article. </p>  
+</td>
+  </tr>
  </tbody>
 </table>
 
