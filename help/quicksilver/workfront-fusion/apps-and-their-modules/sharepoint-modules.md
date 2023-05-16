@@ -98,9 +98,9 @@ If you see the map button above a field or function, you can use it to set varia
 * [Get a file](#get-a-file)
 * [Watch folder items](#watch-folder-items)
 
-#### Create a file
+#### Get Changes
 
-This action module creates a new file in SharePoint.
+This module returns changes that have been made in SharePoint.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -112,15 +112,15 @@ This action module creates a new file in SharePoint.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Enter Site, Drive, and Folder IDs]</td> 
-   <td> <p>Select how you want to identify the location of the file you want to create.</p> 
+   <td> <p>Select how you want to identify the location of the folder that you want to retrieve changes in.</p> 
     <ul> 
      <li> <p><strong>[!UICONTROL Enter manually]</strong> </p> <p>Enter or map the <strong>[!UICONTROL Site ID]</strong>, <strong>[!UICONTROL List ID]</strong>, and <strong>[!UICONTROL Folder ID]</strong> in the fields that appear.</p> </li> 
-     <li> <p><strong>[!UICONTROL Select from the list that you follow]</strong> </p> <p>Select the location where you want to create the file. </p> </li> 
+     <li> <p><strong>[!UICONTROL Select from the list that you follow]</strong> </p> <p>Select the location where you want to retrieve changes. </p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Source file]</td> 
-   <td>Select a source file from a previous module, or map the source file's name and data.</td> 
+   <td role="rowheader">[!UICONTROL Token]</td> 
+   <td> </td> 
   </tr>  </tbody> 
 </table>
 
@@ -637,6 +637,12 @@ This action module searches for sites by a parameter you specify.
 </table>
 
 ### Other
+
+#### Create a File
+
+This action module creates a new file in your SharePoint account.
+
+
 
 #### [!UICONTROL Make an API Call]
 
