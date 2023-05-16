@@ -203,50 +203,19 @@ This trigger module starts a scenario when an item is updated in a folder you se
 
 ### Item
 
-* [[!UICONTROL Watch Items] (Scheduled)](watch-items-scheduled)
-* [[!UICONTROL List Items]](#list-items)
-* [[!UICONTROL Get an Item]](#get-an-item)
-* [[!UICONTROL Create an item]](#create-an-item)
-* [[!UICONTROL Update an item]](#update-an-item)
-* [[!UICONTROL Delete an item]](#delete-an-item)
 * [[!UICONTROL Copy Item]](#copy-an-item)
+* [[!UICONTROL Create an item]](#create-an-item)
+* [[!UICONTROL Delete an item]](#delete-an-item)
+* [[!UICONTROL Get an Item]](#get-an-item)
+* [[!UICONTROL List Items]](#list-items)
 * [[!UICONTROL Move Item]](#move-an-item)
+* [[!UICONTROL Update an item]](#update-an-item)
+* [[!UICONTROL Watch Items] (Scheduled)](#watch-items-scheduled)
 
 
-#### [!UICONTROL Watch Items] (Scheduled)
+#### [!UICONTROL Copy Item]
 
-This trigger module starts a scenario when an item is created or modified.
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>For instructions about connecting your [!DNL SharePoint] account to [!DNL Workfront Fusion], see <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Connect [!DNL SharePoint] to [!DNL Workfront Fusion]</a> in this article.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Watch Lists]</td> 
-   <td>Select whether you want to watch lists by creation time (new items) or by modification time (updated items).</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Enter Site and List ID]</td> 
-   <td> <p>Select how you want to identify the site and list that you want to watch.</p> 
-    <ul> 
-     <li> <p><strong>[!UICONTROL Enter manually]</strong> </p> <p>Enter or map the <strong>[!UICONTROL Site ID]</strong> and <strong>[!UICONTROL List ID]</strong> in the fields that appear.</p> </li> 
-     <li> <p><strong>[!UICONTROL Select from the list that you follow]</strong> </p> <p>Select the site that you want to watch, then select the list. These drop-downs only retrieve followed sites.</p> </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Limit]</td> 
-   <td> <p>Enter or map the maximum number of items you want the module to return during each scenario execution cycle.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-#### [!UICONTROL List Items]
-
-This action module retrieves a list of all items in a specified list.
+This action module copies an existing item in a SharePoint list.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -257,39 +226,20 @@ This action module retrieves a list of all items in a specified list.
    <td> <p>For instructions about connecting your [!DNL SharePoint] account to [!DNL Workfront Fusion], see <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Connect [!DNL SharePoint] to [!DNL Workfront Fusion]</a> in this article.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL List Items]</td> 
-   <td> <p>Select how you want to identify the list that you want to retrieve items from.</p> 
-    <ul> 
-     <li> <p><strong>[!UICONTROL Enter manually]</strong> </p> <p>Enter or map the <strong>[!UICONTROL Site ID]</strong> and <strong>[!UICONTROL List ID]</strong> in the fields that appear.</p> </li> 
-     <li> <p><strong>[!UICONTROL Select from the list]</strong> </p> <p>Select the site that contains the list you want to retrieve items from, then select the list. </p> </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Limit]</td> 
-   <td> <p>Enter or map the maximum number of items you want the module to return during each scenario execution cycle.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-#### [!UICONTROL Get an Item]
-
-This action module returns the data of a specified item.
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>For instructions about connecting your [!DNL SharePoint] account to [!DNL Workfront Fusion], see <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Connect [!DNL SharePoint] to [!DNL Workfront Fusion]</a> in this article.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Get an Item]</td> 
-   <td> <p>Select how you want to identify the site and list that contain the item you want to get.</p> 
+   <td role="rowheader">Enter Site, Drive, and Folder IDs</td> 
+   <td> <p>Select how you want to identify the site and list that contain the item you want to copy.</p> 
     <ul> 
      <li> <p><strong>[!UICONTROL Enter manually]</strong> </p> <p>Enter or map the <strong>[!UICONTROL Site ID]</strong>, <strong>[!UICONTROL List ID]</strong>, and <strong>[!UICONTROL Item ID]</strong> in the fields that appear.</p> </li> 
-     <li> <p><strong>[!UICONTROL Select from the list]</strong> </p> <p>Select the site that contains the list you want to retrieve an item from, then select the list, then select the item. </p> </li> 
+     <li> <p><strong>[!UICONTROL Select from list that you follow]</strong> </p> <p>In the Copy Item Type field, select whether you are moving a field or a folder.  Select the site that contains the item you want to copy, then select the list, then select the item. </p> </li> 
     </ul> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Destination ID]</td> 
+   <td>  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL New name]</td> 
+   <td>Enter or map a name for the new copy of the item. </td> 
   </tr> 
  </tbody> 
 </table>
@@ -321,33 +271,6 @@ This action module creates a new item in a SharePoint list.
  </tbody> 
 </table>
 
-#### [!UICONTROL Update an item]
-
-This action module updates an existing item in a SharePoint list.
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>For instructions about connecting your [!DNL SharePoint] account to [!DNL Workfront Fusion], see <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Connect [!DNL SharePoint] to [!DNL Workfront Fusion]</a> in this article.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Update an Item]</td> 
-   <td> <p>Select how you want to identify the site and list that contain the item you want to update.</p> 
-    <ul> 
-     <li> <p><strong>[!UICONTROL Enter manually]</strong> </p> <p>Enter or map the <strong>[!UICONTROL Site ID]</strong>, <strong>[!UICONTROL List ID]</strong>, and <strong>[!UICONTROL Item ID]</strong> in the fields that appear.</p> </li> 
-     <li> <p><strong>[!UICONTROL Select from the list]</strong> </p> <p>Select the site that contains the item you want to update, then select the list, then select the item. </p> </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Fields]</td> 
-   <td>For each field that you want to update for the new item, enter the field's key (identifies the field), and the new value that you want the item to have for that field.</td> 
-  </tr> 
- </tbody> 
-</table>
-
 #### [!UICONTROL Delete an item]
 
 This action module deletes an existing item in a SharePoint list.
@@ -371,9 +294,9 @@ This action module deletes an existing item in a SharePoint list.
  </tbody> 
 </table>
 
-#### [!UICONTROL Copy Item]
+#### [!UICONTROL Get an Item]
 
-This action module copies an existing item in a SharePoint list.
+This action module returns the data of a specified item.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -384,20 +307,39 @@ This action module copies an existing item in a SharePoint list.
    <td> <p>For instructions about connecting your [!DNL SharePoint] account to [!DNL Workfront Fusion], see <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Connect [!DNL SharePoint] to [!DNL Workfront Fusion]</a> in this article.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Enter Site, Drive, and Folder IDs</td> 
-   <td> <p>Select how you want to identify the site and list that contain the item you want to copy.</p> 
+   <td role="rowheader">[!UICONTROL Get an Item]</td> 
+   <td> <p>Select how you want to identify the site and list that contain the item you want to get.</p> 
     <ul> 
      <li> <p><strong>[!UICONTROL Enter manually]</strong> </p> <p>Enter or map the <strong>[!UICONTROL Site ID]</strong>, <strong>[!UICONTROL List ID]</strong>, and <strong>[!UICONTROL Item ID]</strong> in the fields that appear.</p> </li> 
-     <li> <p><strong>[!UICONTROL Select from list that you follow]</strong> </p> <p>In the Copy Item Type field, select whether you are moving a field or a folder.  Select the site that contains the item you want to copy, then select the list, then select the item. </p> </li> 
+     <li> <p><strong>[!UICONTROL Select from the list]</strong> </p> <p>Select the site that contains the list you want to retrieve an item from, then select the list, then select the item. </p> </li> 
+    </ul> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### [!UICONTROL List Items]
+
+This action module retrieves a list of all items in a specified list.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td> <p>For instructions about connecting your [!DNL SharePoint] account to [!DNL Workfront Fusion], see <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Connect [!DNL SharePoint] to [!DNL Workfront Fusion]</a> in this article.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL List Items]</td> 
+   <td> <p>Select how you want to identify the list that you want to retrieve items from.</p> 
+    <ul> 
+     <li> <p><strong>[!UICONTROL Enter manually]</strong> </p> <p>Enter or map the <strong>[!UICONTROL Site ID]</strong> and <strong>[!UICONTROL List ID]</strong> in the fields that appear.</p> </li> 
+     <li> <p><strong>[!UICONTROL Select from the list]</strong> </p> <p>Select the site that contains the list you want to retrieve items from, then select the list. </p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Destination ID]</td> 
-   <td>  </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL New name]</td> 
-   <td>Enter or map a name for the new copy of the item. </td> 
+   <td role="rowheader">[!UICONTROL Limit]</td> 
+   <td> <p>Enter or map the maximum number of items you want the module to return during each scenario execution cycle.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -433,16 +375,36 @@ This action module copies an existing item in a SharePoint list.
  </tbody> 
 </table>
 
-### List
+#### [!UICONTROL Update an item]
 
-* [[!UICONTROL Watch Lists]](#watch-lists)
-* [[!UICONTROL List Lists]](#list-lists)
-* [[!UICONTROL Get a List]](#get-a-list)
-* [[!UICONTROL Create a List]](#create-a-list)
+This action module updates an existing item in a SharePoint list.
 
-#### [!UICONTROL Watch Lists]
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td> <p>For instructions about connecting your [!DNL SharePoint] account to [!DNL Workfront Fusion], see <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Connect [!DNL SharePoint] to [!DNL Workfront Fusion]</a> in this article.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Update an Item]</td> 
+   <td> <p>Select how you want to identify the site and list that contain the item you want to update.</p> 
+    <ul> 
+     <li> <p><strong>[!UICONTROL Enter manually]</strong> </p> <p>Enter or map the <strong>[!UICONTROL Site ID]</strong>, <strong>[!UICONTROL List ID]</strong>, and <strong>[!UICONTROL Item ID]</strong> in the fields that appear.</p> </li> 
+     <li> <p><strong>[!UICONTROL Select from the list]</strong> </p> <p>Select the site that contains the item you want to update, then select the list, then select the item. </p> </li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Fields]</td> 
+   <td>For each field that you want to update for the new item, enter the field's key (identifies the field), and the new value that you want the item to have for that field.</td> 
+  </tr> 
+ </tbody> 
+</table>
 
-This trigger module starts a scenario when a list is created or modified.
+#### [!UICONTROL Watch Items] (Scheduled)
+
+This trigger module starts a scenario when an item is created or modified.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -460,66 +422,23 @@ This trigger module starts a scenario when a list is created or modified.
    <td role="rowheader">[!UICONTROL Enter Site and List ID]</td> 
    <td> <p>Select how you want to identify the site and list that you want to watch.</p> 
     <ul> 
-     <li> <p><strong>[!UICONTROL Enter manually]</strong> </p> <p>Enter or map the <strong>[!UICONTROL Site ID]</strong> where the list you want to watch is located.</p> </li> 
-     <li> <p><strong>[!UICONTROL Select from the list that you follow]</strong> </p> <p>Select the site that you want to watch. The drop-down only retrieves site you follow.</p> </li> 
+     <li> <p><strong>[!UICONTROL Enter manually]</strong> </p> <p>Enter or map the <strong>[!UICONTROL Site ID]</strong> and <strong>[!UICONTROL List ID]</strong> in the fields that appear.</p> </li> 
+     <li> <p><strong>[!UICONTROL Select from the list that you follow]</strong> </p> <p>Select the site that you want to watch, then select the list. These drop-downs only retrieve followed sites.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Limit]</td> 
-   <td> <p>Enter or map the maximum number of lists you want the module to return during each scenario execution cycle.</p> </td> 
+   <td> <p>Enter or map the maximum number of items you want the module to return during each scenario execution cycle.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-#### [!UICONTROL List Lists]
+### List
 
-This action module retrieves a list of all items in a specified list.
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>For instructions about connecting your [!DNL SharePoint] account to [!DNL Workfront Fusion], see <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Connect [!DNL SharePoint] to [!DNL Workfront Fusion]</a> in this article.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL List Lists]</td> 
-   <td> <p>Select how you want to identify the site that you want to retrieve lists from.</p> 
-    <ul> 
-     <li> <p><strong>[!UICONTROL Enter manually]</strong> </p> <p>Enter or map the <strong>[!UICONTROL Site ID]</strong>.</p> </li> 
-     <li> <p><strong>[!UICONTROL Select from the list]</strong> </p> <p>Select the site that contains the lists you want to retrieve. The drop-down retrieves only sites you follow.</p> </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Limit]</td> 
-   <td> <p>Enter or map the maximum number of lists you want the module to return during each scenario execution cycle.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-#### [!UICONTROL Get a List]
-
-This action module returns the data of a specified list.
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>For instructions about connecting your [!DNL SharePoint] account to [!DNL Workfront Fusion], see <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Connect [!DNL SharePoint] to [!DNL Workfront Fusion]</a> in this article.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Get a List]</td> 
-   <td> <p>Select how you want to identify the site and list that contain the item you want to get.</p> 
-    <ul> 
-     <li> <p><strong>[!UICONTROL Enter manually]</strong> </p> <p>Enter or map the <strong>[!UICONTROL Site ID]</strong> and <strong>List ID</strong> in the fields that appear.</p> </li> 
-     <li> <p><strong>[!UICONTROL Select from the list]</strong> </p> <p>Select the site that contains the list you want to retrieve, then select the list. </p> </li> 
-    </ul> </td> 
-  </tr> 
- </tbody> 
-</table>
+* [[!UICONTROL Create a List]](#create-a-list)
+* [[!UICONTROL Get a List]](#get-a-list)
+* [[!UICONTROL List Lists]](#list-lists)
+* [[!UICONTROL Watch Lists]](#watch-lists)
 
 #### [!UICONTROL Create a List]
 
@@ -552,6 +471,87 @@ This action module creates a new list in SharePoint.
   <tr> 
    <td role="rowheader">[!UICONTROL Add Columns]</td> 
    <td>For each column that you want to set for the new list, enter a <strong>[!UICONTROL Name]</strong> for the field, and select the <strong>[!UICONTROL Type]</strong> of value that you want the new column to have.</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### [!UICONTROL Get a List]
+
+This action module returns the data of a specified list.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td> <p>For instructions about connecting your [!DNL SharePoint] account to [!DNL Workfront Fusion], see <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Connect [!DNL SharePoint] to [!DNL Workfront Fusion]</a> in this article.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Get a List]</td> 
+   <td> <p>Select how you want to identify the site and list that contain the item you want to get.</p> 
+    <ul> 
+     <li> <p><strong>[!UICONTROL Enter manually]</strong> </p> <p>Enter or map the <strong>[!UICONTROL Site ID]</strong> and <strong>List ID</strong> in the fields that appear.</p> </li> 
+     <li> <p><strong>[!UICONTROL Select from the list]</strong> </p> <p>Select the site that contains the list you want to retrieve, then select the list. </p> </li> 
+    </ul> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### [!UICONTROL List Lists]
+
+This action module retrieves a list of all items in a specified list.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td> <p>For instructions about connecting your [!DNL SharePoint] account to [!DNL Workfront Fusion], see <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Connect [!DNL SharePoint] to [!DNL Workfront Fusion]</a> in this article.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL List Lists]</td> 
+   <td> <p>Select how you want to identify the site that you want to retrieve lists from.</p> 
+    <ul> 
+     <li> <p><strong>[!UICONTROL Enter manually]</strong> </p> <p>Enter or map the <strong>[!UICONTROL Site ID]</strong>.</p> </li> 
+     <li> <p><strong>[!UICONTROL Select from the list]</strong> </p> <p>Select the site that contains the lists you want to retrieve. The drop-down retrieves only sites you follow.</p> </li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Limit]</td> 
+   <td> <p>Enter or map the maximum number of lists you want the module to return during each scenario execution cycle.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### [!UICONTROL Watch Lists]
+
+This trigger module starts a scenario when a list is created or modified.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td> <p>For instructions about connecting your [!DNL SharePoint] account to [!DNL Workfront Fusion], see <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Connect [!DNL SharePoint] to [!DNL Workfront Fusion]</a> in this article.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Watch Lists]</td> 
+   <td>Select whether you want to watch lists by creation time (new items) or by modification time (updated items).</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Enter Site and List ID]</td> 
+   <td> <p>Select how you want to identify the site and list that you want to watch.</p> 
+    <ul> 
+     <li> <p><strong>[!UICONTROL Enter manually]</strong> </p> <p>Enter or map the <strong>[!UICONTROL Site ID]</strong> where the list you want to watch is located.</p> </li> 
+     <li> <p><strong>[!UICONTROL Select from the list that you follow]</strong> </p> <p>Select the site that you want to watch. The drop-down only retrieves site you follow.</p> </li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Limit]</td> 
+   <td> <p>Enter or map the maximum number of lists you want the module to return during each scenario execution cycle.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -656,7 +656,7 @@ This module allows you to perform a custom API call.
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Method]</p> </td> 
-   td> <p>Select the HTTP request method you need to configure the API call. For more information, see <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">HTTP request methods in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>Select the HTTP request method you need to configure the API call. For more information, see <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">HTTP request methods in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Headers]</td> 
