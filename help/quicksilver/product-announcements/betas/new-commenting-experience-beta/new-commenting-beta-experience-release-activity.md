@@ -23,7 +23,7 @@ The following sections list features that have been added after the original rel
 
 ## Week of May 15, 2023
 
-### Improved experience when adding hyperlinks to comments (title) 
+### Improved experience when adding hyperlinks to comments
 
 You can now add hyperlinks to comments using the following shortcut keys: 
 
