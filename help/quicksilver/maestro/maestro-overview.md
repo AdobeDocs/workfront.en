@@ -15,7 +15,7 @@ hide: yes
 
 ## Introduction to Adobe Maestro
 
-Adobe Maestro is a new offering from Adobe Workfront whose purpose is to unlock comprehensive visibility into the operations details of an organization, and answer critical business questions at each stage of the work management lifecycle.  
+Adobe Maestro is a new offering from Adobe Workfront. The purpose of Maestro is to unlock comprehensive visibility into the operations details of an organization, and answer critical business questions at each stage of the work management lifecycle.  
 
 Teams and leadership need clear answers to questions like:  
 
@@ -23,11 +23,11 @@ Teams and leadership need clear answers to questions like:
 
 * Which work should I prioritize next to have highest return on investment?  
 
-To answer these questions, leadership needs a solution that can ensure a holistic view of every stage of work from planning to execution, from delivery to measuring the results. Currently, organizations have tools that can cover some part of the process, but not many have good connections to all phases of work nor can reliably provide end results.  
+To answer these questions, leadership needs a solution that can ensure a holistic view of every stage of work from planning to execution, from delivery to measuring the results. Currently, organizations have tools that can cover some part of the process, but many do not have good connections to all phases of work, nor can they reliably provide end results.  
 
 Maestro wants to solve the problem of managing work across all phases and for all the stakeholders that participate in the work process.  
 
-With Maestro, you can fully customize your workflows, from deciding what object types your organization uses to deciding how these objects link to one another.  
+With Maestro, you can fully customize your workflows, from deciding what object types your organization uses to configuring how these objects link to one another.  
 
 Additionally, Maestro can link to object types from other systems, creating a coherent framework for all your processes.  
 
@@ -85,13 +85,13 @@ Additionally, Maestro can link to object types from other systems, creating a co
 
 ## Maestro terminology
 
-Although Maestro is part of Workfront, it comes with proprietary concepts and terminology. Ensure you are familiar with the Maestro concepts before embarking in setting up Maestro for your organization. 
+Although Maestro is part of Workfront, it comes with proprietary concepts and terminology. Ensure you are familiar with the Maestro concepts before embarking on setting up Maestro for your organization. 
 
 The work frame for Maestro is fully customizable. You can create all object types, their attributes and any fields associated with them to suit the exact needs of your organization. 
 
 The following are the main Maestro objects and concepts: 
 
-* **Workspace**: A collection of record types and taxonomies that defines the workflow in a certain organization. This is the work frame of an organizational unit. 
+* **Workspace**: A collection of record types and taxonomies that define the workflow in a certain organization. This is the work frame of an organizational unit. 
 
     ![](assets/workspaces-page-with-templates-thumbnails.png)
     
@@ -144,11 +144,11 @@ The following are the main Maestro objects and concepts:
     
     <!--For more information, see [Create records](../maestro/create-records.md). -->
 
-* **Workspace template**: Templates define the initial workspaces, record types, taxonomies, fields and are created by Workfront for a customer after the onboarding questions are answered. 
+* **Workspace template**: You can create a workspace using predefined templates. You can use the prededined record types, taxonomies, and fields that come in a template, or you can add your own. 
 
     ![](assets/workspaces-page-with-templates-thumbnails.png)
 
-    Maestro comes with a Sales, Marketing, and Product Management workspace template. 
+    Maestro comes with a Sales, Marketing, and a Product Management workspace template. 
     
     <!--For more information, see [Create workspaces](../maestro/create-workspaces.md). -->
 
@@ -180,7 +180,7 @@ The following are the main Maestro objects and concepts:
     * Date 
     * Relationship
 
-    >[!NOTE]
+    >[!TIP]
     >
     >    * You can establish a connection between record types by adding a Relationship-type field to a record type. With this connection, you can reference the records and the fields of the linked record types from the original record type. 
     >
@@ -214,7 +214,7 @@ The following table shows the limits for how many objects you can create in Maes
 |     Number of Record Types for one workspace                                            |   1,000 (this includes taxonomies for the workspace, or objects that you import from third-party applications)  |
 |     Number of records for one record type                                               |   10,000                                                                                                        |
 |     Number of fields for one record type or taxonomy                            |   500                                                                                                           |
-|     Number of characters for a text fields                                                               |   1,000 characters                                                                                              |
+|     Number of characters for a text field                                                               |   1,000 characters                                                                                              |
 |     Size of file that you can paste in a record type table                    |   1MB                                                                                                           |
 |     Size of file that you can import through the API for a record type table  |   1.5MB                                                                                                         |
 |     Rate at which API requests can be made                                    |   200 requests per minute                                                                                       |
@@ -223,14 +223,14 @@ The following table shows the limits for how many objects you can create in Maes
 
 ## Features currently available in Maestro
 
-The following table illustrates the features that will be available in Maestro as well as a timeline of their availability:
+The following table illustrates the features that will be available in Maestro, as well as a timeline of their availability:
 
 |       Feature                                      |     Available in closed beta  |     Available after closed beta  |     In research  |
 |----------------------------------------------------|:-----------------------------:|:--------------------------------:|:----------------:|
 |     Create workspaces                              |   ✓                           |                                  |                  |
 |     Create operational record types                |   ✓                           |                                  |                  |
 |     Create taxonomies                              |   ✓                           |                                  |                  |
-|     Create individual  records and taxonomies      |   ✓                           |                                  |                  |
+|     Create individual, named records and taxonomies|   ✓                           |                                  |                  |
 |     Create record custom fields                    |   ✓                           |                                  |                  |
 |     Link records                                   |   ✓                           |                                  |                  |
 |     View records in a table                        |   ✓                           |                                  |                  |
@@ -250,7 +250,7 @@ The following table illustrates the features that will be available in Maestro a
 
 ## Enable Maestro for the users in your Workfront instance
 
-First, contact your account manager to obtain access to the current Maestro closed beta program. After your organization has been enrolled in the Maestro beta program, you can add the Maestro area to other users by using a layout template. 
+First, contact your account manager to obtain access to the current Maestro closed beta program. After your organization has been enrolled in the Maestro beta program, you can add the Maestro area for other users by using a layout template. 
 
 To share the Maestro area using a layout template: 
 

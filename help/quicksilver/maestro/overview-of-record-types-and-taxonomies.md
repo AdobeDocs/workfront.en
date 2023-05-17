@@ -9,13 +9,13 @@ hide: yes
 
 # Overview of Adobe Maestro record types
 
-Unlike Workfront where the object types were predefined, in Adobe Maestro, you can create your own object types. For example, in Workfront the object types of Program, Portfolio, Project, Task, or Issue are already created. 
+Unlike Workfront where the object types are predefined, in Adobe Maestro, you can create your own object types. For example, in Workfront the object types of Program, Portfolio, Project, Task, or Issue are already created. 
 
 Maestro object types are called "record types". Record types are the building blocks of a Maestro workspace. For information about workspaces, see [Create workspaces](../maestro/create-workspaces.md). 
     
 ## Record type overview
     
-In Maestro, you can create custom object types that meet your organization's workflows.
+In Maestro, you can create custom object types that meet your organization's needs.
 
 You can also import record types from other applications.
 
@@ -36,7 +36,7 @@ An operational record type is a Maestro record type that represents work objects
 
 You can do the following to add operational record types to a Maestro workspace: 
 
-* Create an operational record type from scratch. For example, Campaign, Activity, Program can be operational record types that you create from scratch in Maestro. 
+* Create an operational record type from scratch. For example, Campaign, Activity, or Program can be operational record types that you create from scratch in Maestro. 
 * Import the following object types from other applications and they become Maestro operational record types:
 
     * Projects from Adobe Workfront <!--add to this list when we could import more objects from other apps-->
