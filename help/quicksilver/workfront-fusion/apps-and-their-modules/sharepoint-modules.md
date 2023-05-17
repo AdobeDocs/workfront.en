@@ -638,12 +638,6 @@ This action module searches for sites by a parameter you specify.
 
 ### Other
 
-#### Create a File
-
-This action module creates a new file in your SharePoint account.
-
-
-
 #### [!UICONTROL Make an API Call]
 
 This module allows you to perform a custom API call.
@@ -688,7 +682,7 @@ This module allows you to perform a custom API call.
 
 #### Watch events
 
-This instant trigger module starts a scenario when an 
+This instant trigger module starts a scenario when an item is added, updated, or deleted in SharePoint.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -702,7 +696,7 @@ This instant trigger module starts a scenario when an
   -->
   <tr> 
    <td role="rowheader">[!UICONTROL Webhook]</td> 
-   <td> <p>Select an existing webhook, or click Add to creat a new webhook.</p> 
+   <td> <p>Select an existing webhook, or click Add to create a new webhook.</p> 
    </td> 
   </tr> 
  </tbody> 
