@@ -50,6 +50,22 @@ In lieu of a release webinar, we invite you to register for Adobe Summit to watc
                 </tr>
                 <tr>
                     <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-admin-enhancements.md" class="MCXref xref" xrefformat="{para}">Map Workfront field values to tags in Experience Manager Assets</a>
+                        <p>Now, you can categorize and quickly find assets based on data from Workfront.  You can map this data as part of your metadata configuration in the Workfront for Experience Manager Assets integration.</p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                        <ul>
+                            <li>
+                                <p>Preview release: N/A<br /></p>
+                            </li>
+                            <li>
+                                 <p>Production release:March 30, 2023</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-admin-enhancements.md" class="MCXref xref" xrefformat="{para}">Create custom forms with the new form designer beta</a>
                         <p>The new form designer has a new canvas-style workspace that allows you to view the fields, canvas, and field settings all at the same time.</p>
                         <p>With the new form designer, we've added the ability to 
@@ -325,7 +341,7 @@ In lieu of a release webinar, we invite you to register for Adobe Summit to watc
                                 <p>Preview release: March 9, 2023<br /></p>
                             </li>
                             <li>
-                                 <p><span class="preview">Production release: Starting March 23, this will release to production in a phased rollout that will complete on May 11, 2023</span></p>
+                                 <p><span class="preview">Production release: Starting March 23, this will release to production in a phased rollout that will complete after May 11, 2023</span></p>
                             </li>
                         </ul>
                     </td>
