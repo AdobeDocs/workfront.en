@@ -19,6 +19,7 @@ feature-set: Workfront
       * [23.3 release activity week of April 24, 2023](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-24.md)
       * [23.3 release activity week of May 1, 2023](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-4.md)
       * [23.3 release activity week of May 8, 2023](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-10.md)
+      * [23.3 release activity week of May 15, 2023](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-15.md)
       * [Look and feel updates during the 23.3 release time frame](product-announcements/product-releases/23.3-release-activity/23-3-look-and-feel-updates.md)
     * 23.2 Release {#release-23-2}
       * [23.2 Release overview](product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md) 
@@ -116,6 +117,7 @@ feature-set: Workfront
       * [21.1 Other enhancements](product-announcements/product-releases/21.1-release-activity/21-1-other-enhancements.md)
     * Adobe Workfront Fusion release activity {#fusion-release}
       * [Adobe Workfront Fusion release activity](product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)
+      * [Workfront Fusion release activity: Week of  May 15, 2023](product-announcements/product-releases/fusion-release-activity/fusion-2023-5-15.md)
       * [Workfront Fusion release activity: Week of  May 1, 2023](product-announcements/product-releases/fusion-release-activity/fusion-2023-5-2.md)
       * [Workfront Fusion release activity: Week of April 17, 2023](product-announcements/product-releases/fusion-release-activity/fusion-2023-4-20.md)
       * [Workfront Fusion release activity: Week of March 20, 2023](product-announcements/product-releases/fusion-release-activity/fusion-2023-3-21.md)
@@ -1063,6 +1065,7 @@ feature-set: Workfront
       * [Send a Document to Experience Manager Assets or Assets Essentials](documents/adobe-workfront-for-experience-manager-assets-essentials/send-to-aem.md)
       * [Proof a linked asset for Experience Manager Assets or Asset Essentials](documents/adobe-workfront-for-experience-manager-assets-essentials/proof-linked-asset-aem.md)
       * [Create a folder linked with Experience Manager Assets or Assets Essentials](documents/adobe-workfront-for-experience-manager-assets-essentials/create-linked-folder.md)
+      * [Use workflows in the Experience Manager Assets Essentials integration](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-aem-workflows.md)
   * Migrate from the legacy or enhanced connectors {#migrate-from-legacy-enhanced-connectors}
     * [Migrate from the legacy or enhanced connectors](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/migrate-from-legacy-enhanced-connectors.md)
     * [Migrate from the legacy or enhanced connector to Workfront for Adobe Experience Mangaer as a Cloud Service integration](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/migrate-to-workfont-integration.md)

@@ -9,7 +9,7 @@ exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
 ---
 # Edit projects
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers in the Preview environment and for a select group of customers in the Production environment.</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers in the Preview environment and for a select group of customers in the Production environment.</span>-->
 
 <!--
 <p>***Linked to many articles,</p>
@@ -686,8 +686,6 @@ The following fields are included in the project header, by default.
 * Status
 * Make approval decisions if you are set as the approver in a current approval process
 
-<div class="preview">
-
 ## Edit projects in bulk
 
 You can edit projects in bulk and update information for all selected projects at the same time.
@@ -790,7 +788,6 @@ For more information about editing the Access area, see the section [Access](#ac
 1. (Optional) Click **Cancel** at the bottom of the **Edit projects** page to remove all the changes made to all projects. 
 1. Click **Save**. 
 
-</div>
 
 <!-- Old information for how to bulk edit in classic/ before project bulk edit redesign: 
 
