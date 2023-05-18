@@ -638,6 +638,33 @@ This action module searches for sites by a parameter you specify.
 
 ### Other
 
+#### Get Changes
+
+This module retrieves additions, updates, and deletions made in the SharePoint folder.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td> <p>For instructions about connecting your [!DNL SharePoint] account to [!DNL Workfront Fusion], see <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Connect [!DNL SharePoint] to [!DNL Workfront Fusion]</a> in this article.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Enter Site, Drive, and Folder IDs]</td> 
+   <td> <p>Select how you want to identify the site and list that contain the item you want to update.</p> 
+    <ul> 
+     <li> <p><strong>[!UICONTROL Enter manually]</strong> </p> <p>Enter or map the <strong>[!UICONTROL Site ID]</strong>, <strong>[!UICONTROL Drive ID]</strong>, and <strong>[!UICONTROL Folder ID]</strong> in the fields that appear.</p> </li> 
+     <li> <p><strong>[!UICONTROL Select from the list]</strong> </p> <p>Select the site that contains the item you want to update, then select the drive, then select the folder. </p> </li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Token]</td> 
+   <td>  </td> 
+  </tr> 
+ </tbody> 
+</table>
+
 #### [!UICONTROL Make an API Call]
 
 This module allows you to perform a custom API call.
