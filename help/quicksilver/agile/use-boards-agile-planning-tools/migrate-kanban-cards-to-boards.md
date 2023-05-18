@@ -8,8 +8,6 @@ exl-id: c40b6453-5869-437b-a1e0-f20dd833d2b8
 ---
 # Migrate agile team Kanban cards to Workfront boards
 
-{{highlighted-preview-article-level}}
-
 You can migrate your work items from an agile team Kanban board to a new or existing Workfront board. When you run the migration, all of the cards on the Kanban board are copied to the Workfront board. You are not permitted to choose specific cards.
 
 The placement of cards on the Workfront board is based on column policies. (For example, a policy could move all cards with a status of "In Progress" to a specific column. For more information on column policies, see [Manage board columns](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md).) If there are no policies or the cards don't match the policies, the cards are placed in the leftmost column on the board. At this time, cards in the Backlog column on the legacy board are not added to the Workfront board.

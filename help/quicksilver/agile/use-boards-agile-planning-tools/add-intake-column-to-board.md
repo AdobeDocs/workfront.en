@@ -84,7 +84,7 @@ You must have the following access to perform the steps in this article:
    The intake column is added on the left of the board. It remains blank until you apply filters to it.
 
 1. Click [!UICONTROL **Use advanced filters**].
-1. Click **[!UICONTROL Filter sources]** and select **[!UICONTROL Tasks]** or **[!UICONTROL Issues]**.
+1. Click **[!UICONTROL Add filter sources]** and select **[!UICONTROL Tasks]** or **[!UICONTROL Issues]**.
 
    ![Intake column advanced filter options](assets/intake-column-advanced-filters1.png)
 
