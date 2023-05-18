@@ -15,17 +15,18 @@ hide: yes
 
 ## Introduction to Adobe Maestro
 
-Adobe Maestro is a new offering from Adobe Workfront. The purpose of Maestro is to unlock comprehensive visibility into the operations details of an organization, and answer critical business questions at each stage of the work management lifecycle.  
+Adobe Maestro is a new offering from Adobe Workfront. The purpose of Maestro is to unlock comprehensive visibility into the operational details of an organization, and answer critical business questions at each stage of the work management lifecycle.  
 
 Teams and leadership need clear answers to questions like:  
 
-* How are my campaigns, current sales, or current developing products doing? Are we on track? 
+* How many Campaigns are we running in EMEA for Q4?
+* Do we have any audience overlaps between concurrent Campaigns?
+* How well are the awareness programs doing right now?
+* What do the assets look like for a particular Campaign? Which of them still need to be approved?
 
-* Which work should I prioritize next to have highest return on investment?  
+To answer these questions, leadership needs a solution that can provide a holistic view of every stage of work from planning to execution, from delivery to measuring the results. Currently, organizations have tools that can cover some parts of the process, but many do not have good connections to all phases of work, nor can they reliably provide end results.  
 
-To answer these questions, leadership needs a solution that can ensure a holistic view of every stage of work from planning to execution, from delivery to measuring the results. Currently, organizations have tools that can cover some part of the process, but many do not have good connections to all phases of work, nor can they reliably provide end results.  
-
-Maestro wants to solve the problem of managing work across all phases and for all the stakeholders that participate in the work process.  
+Maestro wants to solve the problem of managing work across all stages and for all the stakeholders that participate in the work process.  
 
 With Maestro, you can fully customize your workflows, from deciding what object types your organization uses to configuring how these objects link to one another.  
 
