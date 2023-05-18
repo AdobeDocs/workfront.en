@@ -51,7 +51,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
                                 <p>Preview release: May 4, 2023</p>
                             </li>
                             <li>
-                                <p><span class="preview">Production release: With the 23.3 release</span></p>
+                                <p><span class="preview">Production release: May 18, 2023</span></p>
                             </li>
                         </ul>
                     </td>
@@ -75,7 +75,24 @@ The <add release> release webinar will be held on <date>. You can [register for 
                         </p>
                     </td>
                 </tr>
-                                <tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-10.md" class="MCXref xref" xrefformat="{para}">Simple filters available on board intake columns</a><span style="color: #ff0000;"> New in Preview!</span></p>
+                        <p>Simplified filters have been added to the intake column setup to allow you to define the intake column more quickly. The available filters are Workfront projects and assignments by team or user. You can switch to the advanced filters if you prefer.</p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                        <ul>
+                            <li>
+                                <p>Preview release: May 10, 2023<br /></p>
+                            </li>
+                            <li>
+                                 <p>Production release for early opt-in: May 10, 2023 <span style="color: #ff0000;"> This feature is available in Production only through the early feature opt-in for Workfront Boards.</span></p>
+                                <p>Production release for all customers: With the 23.3 release</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-24.md" class="MCXref xref" xrefformat="{para}">Simple filters added to the dynamic board template</a></p>
                         <p>The filters on the dynamic board template have been simplified to allow you to create a board more quickly.</p>
@@ -180,6 +197,38 @@ The <add release> release webinar will be held on <date>. You can [register for 
                         </p>
                     </td>
                 </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-10.md" class="MCXref xref" xrefformat="{para}">Map Workfront field values to tags in Experience Manager Assets</a><span style="color: #ff0000;"> New in Production!</span></p>
+                        <p>Now, you can categorize and quickly find assets based on data from Workfront. You can map this data as part of your metadata configuration in the Workfront for Experience Manager Assets integration.</p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                        <ul>
+                            <li>
+                                <p>Preview release: May 10, 2023</p>
+                            </li>
+                            <li>
+                                <p><span class="preview">Production release: May 10, 2023</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-10.md" class="MCXref xref" xrefformat="{para}">Map Workfront fields to custom Experience Manager Assets metadata fields</a><span style="color: #ff0000;"> New in Production!</span></p>
+                        <p>With the native integration, you can now map both native and built-in Workfront fields to custom metadata schema fields in Experience Manager Assets as a Cloud Service.</p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                        <ul>
+                            <li>
+                                <p>Preview release: May 10, 2023</p>
+                            </li>
+                            <li>
+                                <p><span class="preview">Production release: May 10, 2023</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
                  <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-24.md" class="MCXref xref" xrefformat="{para}">Adjust automated proof workflow template settings using Adobe Workfront for Creative Cloud</a></p>
@@ -279,7 +328,7 @@ There are no Scenario Planner updates at this point in the release. This area wi
 
 ### Workfront Proof enhancements
 
-There are no Workfront Proof updates at this point in the release. This area will be updated when updates are available.
+New features coming to Workfront Proof release within the 23.3 release timeframe. For information about these new features now available in Preview, see [Adobe Workfront Proof with the 23.3 release](/help/quicksilver/product-announcements/product-releases/workfront-proof-release-activity/proof-23-3-release/proof-23-3-overview.md).
 
 ### Workfront Goals enhancements
 
