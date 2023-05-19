@@ -1983,7 +1983,20 @@ The designated full time equivalency for users. A full-time user should have 100
   </tr> 
   <tr> 
    <td>[!UICONTROL Source]</td> 
-   <td> <p>Indicates the parent object of another object. For example, a document attached to a task has the name of the task in the [!UICONTROL Source] field of a [!UICONTROL Document] report or view; an issue logged under a project has the name of the project in the [!UICONTROL Source] field of an Issue report or view. </p> </td> 
+   <td> <p>Indicates the parent object of another object. For example, a document attached to a task has the name of the task in the [!UICONTROL Source] field of a [!UICONTROL Document] report or view; an issue logged under a project has the name of the project in the [!UICONTROL Source] field of an Issue report or view. </p> 
+   <p>The following reports display a Source column where you can view information about the parent object:</p>
+  <ul><li>Issue reports</li>
+    <li>Hour reports</li>
+    <li>Document reports </li>
+    </ul>
+   <p>If users don't have permissions to the parent object of an issue, hour, or document, the Source column of the report displays empty, even when the report is configured to display, or to be delivered with the access rights of another user. </p>
+   <p> In order to show information about the parent object in the report, we recommend adding a column for the parent object where you can display the name of the parent. </p>
+    <p>For example, you can add any of the following to a report with a Source column: </p>
+    <ul><li>The Project Name, Task Name, or Issue Name columns to a document or hour report.</li>
+    <li>The Project Name or Task Name columns to an issue report. </li> </ul>
+    For more information, see <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/run-deliver-report-access-rights-another-user.md">Run and deliver a report with the access rights of another user</a> 
+   
+   </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Start Date]</td> 

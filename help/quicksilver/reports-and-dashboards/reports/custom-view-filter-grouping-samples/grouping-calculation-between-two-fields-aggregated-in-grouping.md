@@ -73,7 +73,9 @@ You must have the following access to perform the steps in this article:
    textmode=true
    valuefield=workRequired
    namekey=workrequired
-   valueexpression=CONCAT(ROUND(({workRequired}-{actualWorkRequired})/60,2)," Hours") viewalias=workrequired displayname=Work Balance
+   valueexpression=CONCAT(ROUND(({workRequired}-{actualWorkRequired})/60,2)," Hours") 
+   viewalias=workrequired 
+   displayname=Work Balance
    ```
 
    >[!TIP]
