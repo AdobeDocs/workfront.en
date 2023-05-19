@@ -5,6 +5,8 @@ title: Adobe Workfront API Developer forum
 description: Adobe Workfront API Developer forum
 author: Becky
 feature: Workfront API
+hide: yes
+hidefromtoc: yes
 exl-id: fba505a7-7fea-49e6-bee0-39bee9bc7043
 ---
 
