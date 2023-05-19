@@ -13,26 +13,32 @@ hide: yes
 
 <!--all the links are hidden for now, so I can share this with customer zero. Activate the links before making this public. -->
 
+<!-- remove the references to closed beta from the entire article-->
+
+>[!IMPORTANT]
+>
+>Currently, Adobe Maestro is part of a closed beta program which is open to a limited number of customers. 
+
 ## Introduction to Adobe Maestro
 
-Adobe Maestro is a new offering from Adobe Workfront. The purpose of Maestro is to unlock comprehensive visibility into the operational details of an organization, and answer critical business questions at each stage of the work management lifecycle.  
+Adobe Maestro is a new offering from Adobe Workfront. The purpose of Maestro is to unlock comprehensive visibility into the operational details of an organization, and answer critical business questions at each stage of the work management lifecycle. 
 
 Teams and leadership need clear answers to questions like:  
 
 * How many Campaigns are we running in EMEA for Q4?
 * Do we have any audience overlaps between concurrent Campaigns?
 * How well are the awareness programs doing right now?
-* What do the assets look like for a particular Campaign? Which of them still need to be approved?
+* What do the assets look like for a particular Campaign? Which of them must still be approved?
 
 To answer these questions, leadership needs a solution that can provide a holistic view of every stage of work from planning to execution, from delivery to measuring the results. Currently, organizations have tools that can cover some parts of the process, but many do not have good connections to all phases of work, nor can they reliably provide end results.  
 
 Maestro wants to solve the problem of managing work across all stages and for all the stakeholders that participate in the work process.  
 
-With Maestro, you can fully customize your workflows, from deciding what object types your organization uses to configuring how these objects link to one another.  
+With Maestro, you can fully customize your workflows, from deciding what object types (or record types) your organization uses to configuring how these objects link to one another.  
 
 Additionally, Maestro can link to object types from other systems, creating a coherent framework for all your processes.  
 
-## Access required to use Maestro
+## Access required to use Maestro during the closed beta program
 
 <!-- the table will change after we implement access levels/ permissions for Maestro-->
 <!-- fix the formatting on the table - some lines are way too spaced out-->
@@ -88,33 +94,33 @@ Additionally, Maestro can link to object types from other systems, creating a co
 
 Although Maestro is part of Workfront, it comes with proprietary concepts and terminology. Ensure you are familiar with the Maestro concepts before embarking on setting up Maestro for your organization. 
 
-The work frame for Maestro is fully customizable. You can create all object types, their attributes and any fields associated with them to suit the exact needs of your organization. 
+The work frame for Maestro is fully customizable. You can create all record types, their attributes, and any fields associated with them to suit the exact needs of your organization. 
 
 The following are the main Maestro objects and concepts: 
 
-* **Workspace**: A collection of record types and taxonomies that define the workflow in a certain organization. This is the work frame of an organizational unit. 
+* **Workspace**: A collection of record types and taxonomies that define the operational lifecycle of a certain organization. A workspace is the work frame of an organizational unit. 
 
-    ![](assets/workspaces-page-with-templates-thumbnails.png)
-    
-    One Workfront instance may have 1,000 workspaces. 
+    One Workfront instance can have a maximum of 1,000 workspaces.
+
+    ![](assets/workspaces-page-with-templates-thumbnails.png) 
     
     <!--For more information, see [Create workspaces](../maestro/create-workspaces.md).-->
 
 * **Record Type**: The Maestro main object type.  
     
-    Unlike Workfront where the object types were predefined, in Maestro, you can create your own object types.  
+    Unlike Workfront where the object types are predefined, in Maestro, you can create your own object types.  
     
     For example, in Workfront the object types of Program, Portfolio, Project, Task, or Issue are already created.  
     
-    In Maestro, you can create any object types that meet your organization's workflows. Later, you will be able to define how the record types relate to one another or form dependencies. 
+    In Maestro, you can create any record types that meet your organization's workflows. Later, you can define how the record types relate to one another or form dependencies. 
     
     <!--For more information, see [Overview of operational record types and taxonomies](../maestro/overview-of-record-types-and-taxonomies.md). -->
 
     Maestro has the following record types: 
 
-    * **Operational Record Type**: A record type that represents work objects.  
+    * **Operational Record Type**: A record type that represents strategic plans, initiatives, or executed work.  
 
-        ![](assets/operational-record-tyoe-blank.png)
+        ![](assets/operational-record-type-blank.png)
 
         For example, Campaign, Activity, Program can be operational record types.  
 
@@ -124,7 +130,7 @@ The following are the main Maestro objects and concepts:
 
         ![](assets/taxonomy-record-type-blank.png)
 
-        Although creating taxonomies is identical with creating operational record types,Maestro distinguishes between an operational record type and a taxonomy record type. The purpose of taxonomies is to enhance operational record types. <!--this is no longer true, but might be later?!: A taxonomy is a record without dates, like a static list of attributes.-->  
+        Although creating taxonomies is identical with creating operational record types, Maestro distinguishes between an operational record type and a taxonomy record type. The purpose of taxonomies is to enhance operational record types. <!--this is no longer true, but might be later?!: A taxonomy is a record without dates, like a static list of attributes.-->  
 
         For example, Audience, Region, or Address can be taxonomy-type record types.  
 
@@ -135,7 +141,7 @@ The following are the main Maestro objects and concepts:
     ![](assets/records-highlighted-in-campaign-record-type-list.png)
     ![](assets/records-highlighted-in-region-taxonomy-type-list.png)
     
-    When a record type is added to a workspace, all its records also become visible in the record type's page. 
+    After adding a record type to a workspace, you can start adding records of that type on the record type's page. 
 
     For example, "Campaign" can be an operational record type and "Summer Campaign for EMEA" is a record of the Campaign record type 
     
@@ -145,11 +151,11 @@ The following are the main Maestro objects and concepts:
     
     <!--For more information, see [Create records](../maestro/create-records.md). -->
 
-* **Workspace template**: You can create a workspace using predefined templates. You can use the prededined record types, taxonomies, and fields that come in a template, or you can add your own. 
+* **Workspace template**: You can create a workspace using predefined templates. You can use the predefined record types, taxonomies, and fields that come in a template, or you can add your own. 
 
     ![](assets/workspaces-page-with-templates-thumbnails.png)
 
-    Maestro comes with a Sales, Marketing, and a Product Management workspace template. 
+    Maestro comes with Sales, Marketing, and Product Management workspace template. 
     
     <!--For more information, see [Create workspaces](../maestro/create-workspaces.md). -->
 
@@ -157,17 +163,19 @@ The following are the main Maestro objects and concepts:
 
     ![](assets/drop-down-list-of-record-fields.png)
 
-    The fields added for a record type automatically become associated with all records of that type and can be used to capture data in those records. 
+    The fields added for a record type automatically become associated with all records of that type and can be used to capture data about those records. 
 
     Fields display in the view applied to the records (in columns, if the table view is applied) as well as on the Details page of the record. 
     
-    When you create a record type, it comes with the following predefined fields: 
+    A new operational record type is associated with the following predefined fields: 
 
     * Name
     * Description
     * Start Date
     * End Date
     * Status
+
+    A new taxonomy record type is associated with a Name field. 
 
     The following are types of fields you can associate with Maestro record types:  
 
@@ -193,14 +201,12 @@ The following are the main Maestro objects and concepts:
 
     ![](assets/view-types-drop-down-from-record-type-list.png)
 
-    Views contain personalized settings of a specific view type, such as the list of fields (columns), a list of records (rows), their order (sort), an applied or applicable filter and grouping, or a timeline.  
+    Views contain personalized settings of a specific view type, such as the list of fields (columns), a list of records (rows), their order (sort), an applied or applicable filter and grouping.  
     
-    The following are views of records on the page of a record type: 
+    The following are view types that you can apply to the record type page: 
 
     * Table view. This is the default. 
     * Timeline view 
-
-    Views include the filters and the groupings that are applied to the records displayed on the page.  
 
     <!--For more information, see [Manage record views](../maestro/manage-record-views.md). -->
 
@@ -251,7 +257,9 @@ The following table illustrates the features that will be available in Maestro, 
 
 ## Enable Maestro for the users in your Workfront instance
 
-First, contact your account manager to obtain access to the current Maestro closed beta program. After your organization has been enrolled in the Maestro beta program, you can add the Maestro area for other users by using a layout template. 
+<!--First, contact your account manager to obtain access to the current Maestro closed beta program.--> 
+
+After your organization has been enrolled in the Maestro beta program, you can add the Maestro area for other users by using a layout template. 
 
 To share the Maestro area using a layout template: 
 
@@ -280,7 +288,7 @@ To locate Maestro:
 
 1. Click the **Main Menu** ![](assets/main-menu-workfront.png) in the upper-right corner, or click the **Main Menu** ![](assets/main-menu-shell.png) in the upper-left corner, if it's available. 
 
-1. Click **Maestro**. 
+1. Click **Maestro** ![](assets/maestro-icon.png). 
 
     The Maestro Workspaces area opens. 
 
