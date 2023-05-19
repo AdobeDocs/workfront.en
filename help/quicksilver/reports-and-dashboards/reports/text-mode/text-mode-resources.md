@@ -47,4 +47,4 @@ This section contains the following articles:
 * [Reference collections in a report](../../../reports-and-dashboards/reports/text-mode/reference-collections-report.md) 
 * [Create "OR" statements in text mode filters](../../../reports-and-dashboards/reports/text-mode/create-or-statements-in-filters-text-mode.md) 
 * [Create complex Text Mode filters using EXISTS statements](../../../reports-and-dashboards/reports/text-mode/create-complex-text-mode-filters-using-exists-statements.md) 
-* [Basic Report Creation Program for the new Workfront experience](https://one.workfront.com/s/basic-report-creation-program)
+<!--outdated link: * [Basic Report Creation Program for the new Workfront experience](https://one.workfront.com/s/basic-report-creation-program)-->
