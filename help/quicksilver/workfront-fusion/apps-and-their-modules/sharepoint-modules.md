@@ -230,12 +230,12 @@ This action module copies an existing item in a SharePoint list.
    <td> <p>Select how you want to identify the site and list that contain the item you want to copy.</p> 
     <ul> 
      <li> <p><strong>[!UICONTROL Enter manually]</strong> </p> <p>Enter or map the <strong>[!UICONTROL Site ID]</strong>, <strong>[!UICONTROL List ID]</strong>, and <strong>[!UICONTROL Item ID]</strong> in the fields that appear.</p> </li> 
-     <li> <p><strong>[!UICONTROL Select from list that you follow]</strong> </p> <p>In the Copy Item Type field, select whether you are moving a field or a folder.  Select the site that contains the item you want to copy, then select the list, then select the item. </p> </li> 
+     <li> <p><strong>[!UICONTROL Select from list that you follow]</strong> </p> <p>In the Item Type field, select whether you are moving a field or a folder.  Select the site that contains the item you want to copy, then select the list, then select the item. </p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Destination ID]</td> 
-   <td>  </td> 
+   <td> Enter or map the ID of the folder you want to copy the item to. </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL New name]</td> 
@@ -361,12 +361,12 @@ This action module copies an existing item in a SharePoint list.
    <td> <p>Select how you want to identify the site and list that contain the item you want to move.</p> 
     <ul> 
      <li> <p><strong>[!UICONTROL Enter manually]</strong> </p> <p>Enter or map the <strong>[!UICONTROL Site ID]</strong>, <strong>[!UICONTROL List ID]</strong>, and <strong>[!UICONTROL Item ID]</strong> in the fields that appear.</p> </li> 
-     <li> <p><strong>[!UICONTROL Select from list that you follow]</strong> </p> <p>In the Copy Item Type field, select whether you are moving a field or a folder. Select the site that contains the item you want to copy, then select the list, then select the item. </p> </li> 
+     <li> <p><strong>[!UICONTROL Select from list that you follow]</strong> </p> <p>In the Item Type field, select whether you are moving a field or a folder. Select the site that contains the item you want to copy, then select the list, then select the item. </p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Destination ID]</td> 
-   <td>  </td> 
+   <td> Enter or map the ID of the folder you want to move the item to. </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL New name]</td> 
@@ -660,7 +660,7 @@ This module retrieves additions, updates, and deletions made in the SharePoint f
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Token]</td> 
-   <td>  </td> 
+   <td> The token identifies from what point the module should begin retrieving changes.  </td> 
   </tr> 
  </tbody> 
 </table>
