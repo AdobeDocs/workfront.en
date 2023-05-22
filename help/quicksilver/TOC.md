@@ -17,6 +17,9 @@ feature-set: Workfront
       * [23.3 release activity week of April 10, 2023](product-announcements/product-releases/23.3-release-activity/23-3-apr-10.md) 
       * [23.3 release activity week of April 17, 2023](product-announcements/product-releases/23.3-release-activity/23-3-apr-17.md)
       * [23.3 release activity week of April 24, 2023](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-24.md)
+      * [23.3 release activity week of May 1, 2023](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-4.md)
+      * [23.3 release activity week of May 8, 2023](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-10.md)
+      * [23.3 release activity week of May 15, 2023](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-15.md)
       * [Look and feel updates during the 23.3 release time frame](product-announcements/product-releases/23.3-release-activity/23-3-look-and-feel-updates.md)
     * 23.2 Release {#release-23-2}
       * [23.2 Release overview](product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md) 
@@ -114,6 +117,7 @@ feature-set: Workfront
       * [21.1 Other enhancements](product-announcements/product-releases/21.1-release-activity/21-1-other-enhancements.md)
     * Adobe Workfront Fusion release activity {#fusion-release}
       * [Adobe Workfront Fusion release activity](product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)
+      * [Workfront Fusion release activity: Week of  May 15, 2023](product-announcements/product-releases/fusion-release-activity/fusion-2023-5-15.md)
       * [Workfront Fusion release activity: Week of  May 1, 2023](product-announcements/product-releases/fusion-release-activity/fusion-2023-5-2.md)
       * [Workfront Fusion release activity: Week of April 17, 2023](product-announcements/product-releases/fusion-release-activity/fusion-2023-4-20.md)
       * [Workfront Fusion release activity: Week of March 20, 2023](product-announcements/product-releases/fusion-release-activity/fusion-2023-3-21.md)
@@ -177,7 +181,10 @@ feature-set: Workfront
       * [Workfront Scenario Planner with the 20.3 release - August 14, 2020](product-announcements/product-releases/scenario-planner-release-activity/sp-release-20-3.md)
     * Adobe Workfront Goals release activity {#goals-release}
       * [Adobe Workfront Goals release activity](product-announcements/product-releases/goals-release-activity/goals-release-activity.md)
-      * Goals with 23.1 release {#goals-23-2}
+      * Goals with 23.3 release {#goals-23-3}
+        * [Adobe Workfront Goals with the 23.3 release](product-announcements/product-releases/goals-release-activity/goals-23-3-release/goals-23-3-release.md)
+        * [Adobe Workfront Goals 23.3 release activity: Week of May 1, 2023](product-announcements/product-releases/goals-release-activity/goals-23-3-release/goals-23-3-may-5.md)
+      * Goals with 23.2 release {#goals-23-2}
         * [Adobe Workfront Goals with the 23.2 release](product-announcements/product-releases/goals-release-activity/goals-23-2-release/goals-23-2-release.md)
         * [Adobe Workfront Goals 23.2 release activity: Week of March 20, 2023](product-announcements/product-releases/goals-release-activity/goals-23-2-release/goals-march.md)
       * Goals with 23.1 release {#goals-23-1}
@@ -197,6 +204,9 @@ feature-set: Workfront
       * [Workfront Goals with the 20.4 release](product-announcements/product-releases/goals-release-activity/goals-release-20-4.md)
       * [Workfront Goals with the 20.3 release - August 14, 2020](product-announcements/product-releases/goals-release-activity/goals-release-20.3.md)
     * Workfront Proof release activity {#proof-release}
+      * Proof with 23.3 release {#proof-23-3-release}
+        * [Adobe Workfront Proof with the 23.3 release](/help/quicksilver/product-announcements/product-releases/workfront-proof-release-activity/proof-23-3-release/proof-23-3-overview.md)
+        * [Adobe Workfront Proof 23.3 release activity: Week of May 8, 2023](/help/quicksilver/product-announcements/product-releases/workfront-proof-release-activity/proof-23-3-release/proof-23-3-may-8.md)
       * [Workfront Proof release activity: Week of May 17, 2021](product-announcements/product-releases/workfront-proof-release-activity/wp-release-may-17.md)
       * [Workfront Proof release activity: Week of November 29, 2021](product-announcements/product-releases/workfront-proof-release-activity/wp-release-22-1.md)
     * Quarterly release archive {#quarterly-release}
@@ -1056,6 +1066,7 @@ feature-set: Workfront
       * [Send a Document to Experience Manager Assets or Assets Essentials](documents/adobe-workfront-for-experience-manager-assets-essentials/send-to-aem.md)
       * [Proof a linked asset for Experience Manager Assets or Asset Essentials](documents/adobe-workfront-for-experience-manager-assets-essentials/proof-linked-asset-aem.md)
       * [Create a folder linked with Experience Manager Assets or Assets Essentials](documents/adobe-workfront-for-experience-manager-assets-essentials/create-linked-folder.md)
+      * [Use workflows in the Experience Manager Assets Essentials integration](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-aem-workflows.md)
   * Migrate from the legacy or enhanced connectors {#migrate-from-legacy-enhanced-connectors}
     * [Migrate from the legacy or enhanced connectors](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/migrate-from-legacy-enhanced-connectors.md)
     * [Migrate from the legacy or enhanced connector to Workfront for Adobe Experience Mangaer as a Cloud Service integration](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/migrate-to-workfont-integration.md)
@@ -2007,6 +2018,7 @@ feature-set: Workfront
     * [Scenario execution, cycles, and phases in Adobe Workfront Fusion](workfront-fusion/scenarios/scenario-execution-cycles-phases.md)
     * [View a scenario's execution history in Adobe Workfront Fusion](workfront-fusion/scenarios/view-scenario-execution-history.md)
     * [View and resolve incomplete executions in Adobe Workfront Fusion](workfront-fusion/scenarios/view-and-resolve-incomplete-executions.md)
+    * [View and manage locked scenarios in [!DNL Adobe Workfront Fusion]](workfront-fusion/scenarios/view-and-manage-locked-scenarios.md) 
     * [Schedule a scenario in Adobe Workfront Fusion](workfront-fusion/scenarios/schedule-a-scenario.md)
     * [Activate or deactivate a scenario in Adobe Workfront Fusion](workfront-fusion/scenarios/activate-or-inactivate-scenario.md)
     * [Add a filter to a scenario in Adobe Workfront Fusion](workfront-fusion/scenarios/add-a-filter-to-a-scenario.md)
@@ -2631,6 +2643,7 @@ other dupes
     * [Event subscription resource fields](wf-api/api/event-sub-resource-fields.md)
 
     * [Filter event subscription messages](wf-api/api/filter-event-sub-messages.md)
+
 
 
 -->

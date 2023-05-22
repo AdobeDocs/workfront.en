@@ -789,7 +789,6 @@ For more information about editing the Access area, see the section [Access](#ac
 1. Click **Save**. 
 
 
-
 <!-- Old information for how to bulk edit in classic/ before project bulk edit redesign: 
 
 ### Edit projects in bulk in the Production environment

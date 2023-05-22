@@ -8,6 +8,8 @@ exl-id: bc58cc77-a177-417f-a5a4-eec51e305219
 ---
 # Configure the [!UICONTROL Experience Manager Assets as a Cloud Service] integration
 
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.</span>
+
 You can connect your work with your content in [!DNL Experience Manager Assets]​:
 
 * Push assets and metadata from [!DNL Adobe Workfront] to [!DNL Experience Manager Assets]​
@@ -95,21 +97,75 @@ You can map [!DNL Workfront] object data to asset media fields in [!DNL Experien
 >
 >You can map metadata only in one direction: from [!DNL Workfront] to [!DNL Experience Manager]. Metadata for documents linked to [!DNL Workfront] from [!DNL Experience Manager] cannot be transferred to [!DNL Workfront].
 
-
-
 ### Configure metadata fields
 
+Before you begin mapping metadata fields, you must configure metadata fields in both Workfront and Experience Manager Assets.
+
+To configure metadata fields:
+
 1. Configure a metadata schema in [!DNL Experience Manager Assets] as explained in [Configure asset metadata mapping between Adobe [!DNL Workfront] and [!DNL Experience Manager Assets]](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping.html?lang=en).
+
+
 1. Configure custom form fields in Workfront. [!DNL Workfront] has many built-in custom fields you can use. However, you can also create your own custom fields as explained in [Create or edit a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 
++++ **Expand to see more information about supported Workfront and Experience Manager Assets fields** 
 
-### Assets
+**Experience Manager Assets Tags**
 
-Metadata maps when an asset is pushed from [!DNL Workfront] for the first time. Documents with the built-in or custom fields automatically map to the specified fields the first time an asset is sent to [!DNL Experience Manager Assets]. 
+You can map any Workfront supported field to a tag in Experience Manager Assets. To do this, you must ensure that tag values in Experience Manager Assets match Workfront. 
 
->[!NOTE]
+* Tags and Workfront field values must be an exact match in spelling, and format. 
+* Workfront field values that are mapped to experience Manager assets tags must be all lowercase, even if the tag in Experience Manager Assets appears to have uppercase letters.
+* Workfront field values must not include spaces.
+* The field value in Workfront must also include the folder structure of the Experience Manager Assets tag.
+* To map multiple single-line text fields to tags, enter a comma-separated list of the tag values into the Workfront side of the metadata mapping, and `xcm:keywords` on the Experience Manager Assets side. Each field value maps to a separate tag. You can use a calculated field to combine multiple Workfront fields into a single comma-separated text field.
+* You can map values from drop-down, radio button, or checkbox fields by entering a comma-separated list of the available values in that field.
+
+
+>[!INFO]
 >
->This integration does not support custom metadata from [!DNL Adobe Experience Manager].
+>**Example**:  To match the tag shown in the folder structure here, the field value in Workfront would be `landscapes:trees/spruce`. Note the lowercase letters in the Workfront field value.
+>
+>If you want the tag to be leftmost item in the tag tree, it must be followed by a colon. In this example, to map to the landscapes tag, the field value in Workfront would be `landscapes:`.
+>
+>![Folder structure in AEM](assets/aem-folder-structure-with-red-boxes.png)
+
+
+After you have created the tags in Experience Manager Assets, they will appear under the Tags drop-down in the Metadata section. To link a field to a tag, select `xcm:keywords` in the Experience Manager Assets field dropdown in the metadata mapping area.
+
+For more information on tags in Experience Manager Assets, including how to create and manage tags, see [Administering Tags](https://experienceleague.adobe.com/docs/experience-manager-64/administering/contentmanagement/tags.html).
+
+**Experience Manager Assets custom metadata schema fields**
+
+You can map both built-in and custom Workfront fields to custom metadata schema fields in Experience Manager Assets. 
+
+Custom metadata fields created in Experience Manager Assets are organized in their own section in the Metadata setup area.
+
+![custom metadata section](assets/custom-metadata.png)
+
+<!-- 
+link to documentation about creating schema - waiting on response from Anuj about best article to link to
+-->
+
+**Workfront fields**
+
+You can map both built-in and custom Workfront fields to Experience Manager Assets. The following field values must match in both case and spelling between Workfront and Experience Manager Assets:
+
+* Drop-down fields
+* Multi-select fields
+
+>[!TIP]
+>
+> To check if the field values match exactly, go to 
+>
+> * Setup > Custom Forms in Workfront or the field in the object
+> * Assets > metadata schemas in Experience Manager Assets
+
++++
+
+### Map metadata for assets
+
+Metadata maps when an asset is pushed from [!DNL Workfront] for the first time. Documents with the built-in or custom fields automatically map to the specified fields the first time an asset is sent to [!DNL Experience Manager Assets].
 
 To map metadata for assets: 
 
@@ -119,13 +175,14 @@ To map metadata for assets:
     >[!NOTE]
     >
     >You can map a single [!DNL Workfront] field to multiple [!UICONTROL Experience Manager Assets] fields. You can't map multiple [!DNL Workfront] fields to a single [!DNL Experience Manager Assets] field.
+    ><!--To map a Workfront field to an Experience Manager Assets tag, see -->
 
 1. In the [!DNL Experience Manager Assets] field, search through the pre-populated categories or enter at least two letters in the search field to access additional categories.
 1. Repeat steps 2 and 3 as needed.
 ![metadata fields](assets/asset-metadata.png)
 1. Click [!UICONTROL Save] or move on to the [Folders](#folders) section in this article.
 
-### Folders
+### Map metadata for folders
 
 When users create a linked folder on a project, the associated project, portfolio, and program data is mapped to folder metadata fields in [!DNL Experience Manager Assets].
 
@@ -157,7 +214,29 @@ An [!DNL Experience Manager] fields that is mapped to [!DNL Workfront] portfolio
 >Users must have write access in [!DNL Experience Manager] for assets living in the object in order for the metadata to sync when it's updated.
 
 1. Enable the **[!UICONTROL Sync object metadata]** field.
-1. Click Save or move on to the [Set up linked folders (Optional)](#set-up-linked-folders-optional) section in this article.
+1. Click **Save** or move on to the [Set up workflows (Optional)](#set-up-workflows-optional) section in this article.
+
+<!--Courtney start here-->
+
+<div class=preview>
+
+## Set up workflows (Optional)
+
+A workflow is a set of actions that connect Workfront to Adobe Experience Manager as a Cloud Service. As a Workfront administrator, you can configure workflows in Workfront, then assign them to Project Templates. When a Project is created using a Project Template to which a workflow is assigned, the actions defined in the workflow are triggered. 
+
+The default workflow values that you set in the integration can be overridden at the Project Template and Project levels.
+
+### Set up a workflow for the creation of Adobe Experience Manager linked folders
+
+1. Toggle the **[!UICONTROL Create Linked folder]** on.
+1. Choose a folder path to indicate where you want all linked folders associated with this integration. 
+   ![Linked folder navigation](assets/select-folder-aem-integration.png)
+1. Enable the **Append Portfolio and Program Names** option to automatically include Portfolio and Program names at the end of the linked folder's name.
+1. Click **Save** or move on to the [Set up linked folders (Optional)](#set-up-linked-folders-optional) section in this article.
+
+</div>
+
+<!--Courtney end here-->
 
 ## Set up linked folders (Optional)
 
