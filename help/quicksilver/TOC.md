@@ -433,6 +433,7 @@ feature-set: Workfront
       * [New licenses overview](administration-and-setup/add-users/how-access-levels-work/licenses-overview.md)
       * [Access to objects and areas by for new licenses](administration-and-setup/add-users/how-access-levels-work/access-to-objects-areas-license-types.md)
       * [Functionality available for each object type for new access levels](administration-and-setup/add-users/how-access-levels-work/functionality-available-for-objects.md)
+      * [Disable the auto-upgrade option for non-paid users on the new licensing plan](administration-and-setup/add-users/how-access-levels-work/disable-auto-upgrade.md)
     * How access levels work {#legacy-access-levels}
       * [How access levels work](administration-and-setup/add-users/access-levels-and-object-permissions/access-levels.md)
       * [Access overview](administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md)

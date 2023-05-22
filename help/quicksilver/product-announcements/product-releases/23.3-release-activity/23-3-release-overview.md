@@ -77,6 +77,22 @@ The <add release> release webinar will be held on <date>. You can [register for 
                 </tr>
                 <tr>
                     <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-15.md" class="MCXref xref" xrefformat="{para}">Enhancements to the Boards tag manager</a></p>
+                        <p>The tag manager interface has been improved, allowing you to create new tags quickly and apply them to cards. You can also create tags for workstreams.</p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                        <ul>
+                            <li>
+                                <p>Preview release: May 19, 2023</p>
+                            </li>
+                            <li>
+                                 <p><span class="preview">Production release: May 19, 2023</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-10.md" class="MCXref xref" xrefformat="{para}">Simple filters available on board intake columns</a></p>
                         <p>Simplified filters have been added to the intake column setup to allow you to define the intake column more quickly. The available filters are Workfront projects and assignments by team or user. You can switch to the advanced filters if you prefer.</p>
                     </td>
