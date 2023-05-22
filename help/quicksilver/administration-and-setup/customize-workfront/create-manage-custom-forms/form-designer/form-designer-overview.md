@@ -41,8 +41,6 @@ With the new form designer, we've added the ability to
 
 The following are not currently available in the form designer but will be added soon:
 
-* Adjust the size of descriptive text
-
 * Display/Skip logic  
 
 * Filter for typeahead fields 
