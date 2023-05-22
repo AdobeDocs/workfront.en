@@ -16,7 +16,8 @@ As an Adobe Workfront administrator, you can grant users access to view or edit 
 * [New access levels overview](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md)
 * [New licenses overview](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md)
 * [Access to objects and areas by for new licenses](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-to-objects-areas-license-types.md)
-* [Functionality available for each object type](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/functionality-available-for-objects.md) <!--need to change name here or in legacy article -->
+* [Functionality available for each object type](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/functionality-available-for-objects.md) 
+* [Disable the auto-upgrade option for non-paid users on the new licensing plan](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/disable-auto-upgrade.md)
 
 ## See also
 
