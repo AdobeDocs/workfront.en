@@ -93,16 +93,6 @@ The <add release> release webinar will be held on <date>. You can [register for 
                 </tr>
                 <tr>
                     <td>
-                        <p><span class="bold">Feature</span>
-                        </p>
-                    </td>
-                    <td>
-                        <p><span class="bold">Release dates</span>
-                        </p>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-10.md" class="MCXref xref" xrefformat="{para}">Simple filters available on board intake columns</a></p>
                         <p>Simplified filters have been added to the intake column setup to allow you to define the intake column more quickly. The available filters are Workfront projects and assignments by team or user. You can switch to the advanced filters if you prefer.</p>
                     </td>
