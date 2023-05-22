@@ -15,6 +15,8 @@ exl-id: bfd1d49f-72cd-466d-8b35-8ae9848646be
 
 You can edit a filter in a list or report using text mode to access fields that are not available in the standard interface and create more complex filters.
 
+For more text-mode examples when creating a filter, also see the section "Samples of custom filters" in the article [Custom View, Filter, and Grouping samples](../custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
+
 ## Access requirements
 
 You must have the following access to perform the steps in this article:
@@ -56,7 +58,7 @@ For more information, see:
 
 ## Edit text mode in a filter
 
-Editing a filter using text mode is identical for reports and lists.&nbsp;Accessing the view from a report or from a list differs.
+Editing a filter using text mode is identical for reports and lists. Accessing the filter from a report or from a list differs.
 
 >[!TIP]
 >
@@ -81,17 +83,19 @@ For information about creating a report, see [Create a custom report](../../../r
     <col> 
     <tbody> 
      <tr> 
-      <td>Filter line/information</td> 
-      <td>Example</td> 
+      <td><b>Filter line/information</b></td> 
+      <td><b>Example</b></td> 
      </tr> 
      <tr> 
       <td> <p>Field name and the value that it equals to as they appear in the Workfront database.</p> <p>This line is mandatory.</p> <p> For more information about how objects and fields appear in the database, see <a href="../../../wf-api/general/api-explorer.md" class="MCXref xref">API Explorer</a>.</p> </td> 
-      <td> <p><code>&lt;field name in camel case&gt;=&lt;value&gt;</code> </p> <p>To filter for tasks in a status of In Progress, use the following line:</p> <p><code>status=INP</code> </p> <p>Tip: When filtering for statuses, you must use the three-letter code of the status and not the name.</p> </td> 
+      <td> <p><code>&lt;field name in camel case&gt;=&lt;value&gt;</code> </p> <p>To filter for tasks in a status of In Progress, use the following line:</p> <p><code>status=INP</code> </p> <p><b>TIP</b> 
+      
+      When filtering for statuses, you must use the three-letter code of the status and not the name.</p> </td> 
      </tr> 
      <tr> 
       <td> <p>Field name modifier and what the modifier equals to. This indicates what conditions the field you are filtering by must fulfill.</p> <p>This line is mandatory.</p> </td> 
       <td> <p><code>&lt;field name in camel case&gt;_Mod=&lt;modifier value&gt;</code> </p> <p>To indicate that the status of the tasks you filter for must be equal to In&nbsp;Progress, use the following line in addition to the one above:</p> <p><code>status_Mod=in</code> </p> <p>If the modifier is a range, there are two lines to indicate the modifier.</p> 
-       <div class="example" data-mc-autonum="<b>Example: </b>"> <span class="autonumber"><span><b>Example: </b></span></span> 
+       <div> <span class="autonumber"><span><b>EXAMPLE </b></span></span> 
         <p>This is a text mode filter that looks for tasks that are in progress, that have a Planned Completion&nbsp;Date within the current month, and are assigned to a user with a specific GUID:</p> 
         <p><code>assignedToID=580a55a4000701f4b2d7dee1e7a9d427</code> </p> 
         <p><code>assignedToID_Mod=in</code> </p> 
@@ -110,7 +114,7 @@ For information about creating a report, see [Create a custom report](../../../r
          <li> <p>When you change your operator from&nbsp;AND&nbsp;to OR, the number of list items may increase.</p> </li> 
         </ul> </p> </td> 
       <td> <p><code>&lt;first field name in camel case&gt;=&lt;value&gt;</code> </p> <p><code>&lt;first field name in camel case&gt;_Mod=&lt;modifier value&gt;</code> </p> <p><code>OR:1:&lt;second field name in camel case&gt;=&lt;value&gt;</code> </p> <p><code>OR:1:&lt;second field name in camel case&gt;_Mod=&lt;modifier value&gt;</code> </p> 
-       <div class="example" data-mc-autonum="<b>Example: </b>"> <span class="autonumber"><span><b>Example: </b></span></span> 
+       <div> <span class="autonumber"><span><b>EXAMPLE </b></span></span> 
         <p>To filter for tasks in a status of In&nbsp;Progress or with a Planned Completion Date of Today, use the following: </p> 
         <p><code>status=INP</code> </p> 
         <p><code>status_Mod=in</code> </p> 
@@ -121,7 +125,7 @@ For information about creating a report, see [Create a custom report](../../../r
      <tr> 
       <td> <p>A wildcard which allows you to generalize the information in a filter and reference the current time or the user who is logged in.</p> <p>Wildcards are optional.</p> <p>Tip:   <p>We recommend using wildcards whenever possible to make your filters more dynamic and not duplicate the same filters for each user or similar time frames.</p> <p>For information about filter wildcards, see <a href="../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md" class="MCXref xref">Wildcard filter variables</a>.</p> </p> </td> 
       <td> <p><code>&lt;first field name in camel case&gt;=&lt;wildcard&gt;</code> </p> <p><code>&lt;first field name in camel case&gt;_Mod=&lt;modifier value&gt;</code> </p> 
-       <div class="example" data-mc-autonum="<b>Example: </b>"> <span class="autonumber"><span><b>Example: </b></span></span> 
+       <div class="example" data-mc-autonum="<b>Example: </b>"> <span class="autonumber"><span><b>EXAMPLE</b></span></span> 
         <p>To filter for tasks that are assigned to the user that is currently logged in, use the following:</p> 
         <p><code>assignedToID=$$USER.ID</code> </p> 
         <p><code>assignedToID_Mod=in</code> </p> 
@@ -170,3 +174,5 @@ For information about creating a report, see [Create a custom report](../../../r
 
 1. Click **Done** if you want to save your changes and continue editing the report or the filter.
 1. Click **Save + Close** to save your report or **Save Filter** to save the filter in the list.
+
+
