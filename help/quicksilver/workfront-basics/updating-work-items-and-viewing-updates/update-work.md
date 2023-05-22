@@ -11,7 +11,7 @@ exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
 
 <!--take "Beta" references out when we remove the beta-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> -->
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span>-->
 
 >[!NOTE]
 >
@@ -263,17 +263,19 @@ You can enhance your updates by using Rich Text, or adding various items to it, 
 1. Go to the Updates area and start typing a comment. 
 1. (Optional) To add rich text formatting to your update, use any attributes on the **Rich Text** toolbar as you type.
 
-   | **Attribute** |**Toolbar Button** |**Mac Shortcut Keys** |**PC Shortcut Keys** |
+   | **Attribute** |**Toolbar button** |**Mac shortcut keys** |**Windows shortcut keys** |
    |---|---|---|---|
    | Bold | ![mceclip10.png](assets/mceclip10.png)|⌘+b |Ctrl+B |
    | Italics | ![mceclip9.png](assets/mceclip9.png)|⌘+i |Ctrl+I |
    | Underline | ![mceclip8.png](assets/mceclip8.png)|⌘+u |Ctrl+U |
-   | Hyperlink | ![mceclip7.png](assets/mceclip7.png)|⌘+K |Ctrl+K |
+   | Hyperlink | ![mceclip7.png](assets/mceclip7.png)| <br>To open the Create Links or Add links box: ⌘+K</br> <br>In the commenting beta experience, to paste a link over the selected text: ⌘+V</br>  | <br>To open the Create Links or Add links box: Ctrl+K</br> <br>In the commenting beta experience, to paste a link over the selected text: Ctrl+V</br> |
    | Bulleted List | ![mceclip6.png](assets/mceclip6.png)|⌘+Shift+8 |Ctrl+Shift+8 |
    | Numbered List | ![mceclip5.png](assets/mceclip5.png)|⌘+Shift+7 |Ctrl+Shift+7 |
    | Block Quote | ![](assets/block-quote-icon-large.png)|⌘+Shift+9 |Ctrl+Shift+9 |
 
     To stop formatting text, deselect the attribute on the **Rich Text** toolbar.
+
+   <!-- in the table above: take "Create Links" verbiage from the hyperlink when the old commenting is removed and the commenting beta is the only way to comment-->
 
    >[!NOTE]
    >

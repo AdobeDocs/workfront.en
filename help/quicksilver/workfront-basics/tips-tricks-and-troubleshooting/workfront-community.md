@@ -49,7 +49,7 @@ If you do not remember your password for the Community site, reach out to [!DNL 
 
 ### What's the URL for the [!DNL Workfront] Community?
 
-The [!DNL Workfront] Community is available on the [!DNL Workfront One] website at the following URL:  [https://one.workfront.com/s/community](https://one.workfront.com/s/community).
+The [!DNL Workfront] Community is available on the [!DNL Adobe Experience League] website at the following URL:  [[!DNL Workfront] Community](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront).
 
 ### What's my subdomain? {#what-s-my-subdomain}
 

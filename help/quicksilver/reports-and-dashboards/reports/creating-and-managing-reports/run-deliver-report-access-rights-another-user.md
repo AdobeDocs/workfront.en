@@ -99,7 +99,7 @@ To deliver a report with the access rights of another user:
 
    >[!NOTE]
    >
-   >Users with a lower access level that are allowed to build reports do not have the ability to select a user other then themselves for the **Deliver this Report with the Access Rights of:** field.
+   >Users with a lower access level that are allowed to build reports do not have the ability to select a user other than themselves for the **Deliver this Report with the Access Rights of:** field.
 
 1. Select the **Format** you want the report to display in the email:
 
@@ -113,3 +113,39 @@ To deliver a report with the access rights of another user:
    Or  
    Click **Make Repeating Delivery** to schedule a recurring delivery for the report.  
    For more information about report deliveries, see the article [Report delivery overview](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md).
+
+## Limitations for reports with a Source column
+
+The following reports display a Source column where you can view information about the parent object:
+
+* Issue reports
+* Hour reports
+* Document reports 
+
+If users don't have permissions to the parent object of an issue, hour, or document, the Source column of the report displays empty, even when the report is configured to display, or to be delivered with the access rights of another user. 
+
+In order to show information about the parent object in the report, we recommend adding a column for the parent object where you can display the name of the parent. 
+
+For example, you can add any of the following to a report with a Source column: 
+
+* The Project Name, Task Name, or Issue Name columns to a document or hour report.
+* The Project Name or Task Name columns to an issue report. 
+* A column using text-mode expressions that references all three objects. The following is an example for an hour report: 
+
+   `displayname=Custom Source`
+
+   `linkedname=opTask`
+   
+   `namekey=view.relatedcolumn`
+   
+   `namekeyargkey.0=opTask`
+   
+   `namekeyargkey.1=name`
+   
+   `textmode=true`
+   
+   `valueexpression=IF(!ISBLANK({opTaskID}),{opTask}.{name},IF(!ISBLANK({taskID}),{task}.{name},IF(!ISBLANK({projectID}),{project}.{name},IF(!ISBLANK({timesheetID}),CONCAT({owner}.{name}," ",{timesheet}.{startDate}," - ",{timesheet}.{endDate}),""))))`
+  
+   `valueformat=HTML`
+
+   For information about text mode views, see [Edit a view using text mode](../text-mode/edit-text-mode-in-view.md).

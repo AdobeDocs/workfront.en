@@ -42,7 +42,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
                 </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-4.md" class="MCXref xref" xrefformat="{para}">Group-level control available for "Where users can log time" timesheet and hour preference</a> <span style="color: #ff0000;"> New in Preview!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-4.md" class="MCXref xref" xrefformat="{para}">Group-level control available for "Where users can log time" timesheet and hour preference</a></p>
                         <p>The system administrator can now lock and unlock the "Where users can log time" timesheet and hour preference. When this preference is unlocked, group administrators can configure the "Where users can log time" settings separately for each group.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
@@ -77,7 +77,23 @@ The <add release> release webinar will be held on <date>. You can [register for 
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-10.md" class="MCXref xref" xrefformat="{para}">Simple filters available on board intake columns</a><span style="color: #ff0000;"> New in Preview!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-15.md" class="MCXref xref" xrefformat="{para}">Enhancements to the Boards tag manager</a></p>
+                        <p>The tag manager interface has been improved, allowing you to create new tags quickly and apply them to cards. You can also create tags for workstreams.</p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                        <ul>
+                            <li>
+                                <p>Preview release: May 19, 2023</p>
+                            </li>
+                            <li>
+                                 <p><span class="preview">Production release: May 19, 2023</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-10.md" class="MCXref xref" xrefformat="{para}">Simple filters available on board intake columns</a></p>
                         <p>Simplified filters have been added to the intake column setup to allow you to define the intake column more quickly. The available filters are Workfront projects and assignments by team or user. You can switch to the advanced filters if you prefer.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
@@ -199,7 +215,23 @@ The <add release> release webinar will be held on <date>. You can [register for 
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-10.md" class="MCXref xref" xrefformat="{para}">Map Workfront field values to tags in Experience Manager Assets</a><span style="color: #ff0000;"> New in Production!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-15.md" class="MCXref xref" xrefformat="{para}">Automatically create linked folders to Adobe Experience Manager Assets when creating a project</a><span style="color: #ff0000;"> New in Production!</span></p>
+                        <p>With the new Create linked folder workflow for the Adobe Experience Manager integration, you can configure the integration with a path to an Adobe Experience Manager Assets folder. When the integration is added to a project template, any projects created from the template will automatically create a linked subfolder in Experience Manager Assets in the specified folder. </p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                        <ul>
+                            <li>
+                                <p>Preview release: May 11, 2023</p>
+                            </li>
+                            <li>
+                                <p><span class="preview">Production release: May 18, 2023</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-10.md" class="MCXref xref" xrefformat="{para}">Map Workfront field values to tags in Experience Manager Assets</a></p>
                         <p>Now, you can categorize and quickly find assets based on data from Workfront. You can map this data as part of your metadata configuration in the Workfront for Experience Manager Assets integration.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
@@ -215,7 +247,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-10.md" class="MCXref xref" xrefformat="{para}">Map Workfront fields to custom Experience Manager Assets metadata fields</a><span style="color: #ff0000;"> New in Production!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-10.md" class="MCXref xref" xrefformat="{para}">Map Workfront fields to custom Experience Manager Assets metadata fields</a></p>
                         <p>With the native integration, you can now map both native and built-in Workfront fields to custom metadata schema fields in Experience Manager Assets as a Cloud Service.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
@@ -348,7 +380,7 @@ For information about the maintenance updates made during the 22.3 release, see 
 
 ### Training updates
 
-Explore the latest updates made to learning programs, learning paths, videos, and guides for each Adobe Workfront product release. For more information, see the [Training release updates page](https://one.workfront.com/s/training-release-updates).
+Explore the latest updates made to learning programs, learning paths, videos, and guides for each Adobe Workfront product release. For more information, see the [Training release updates page](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html).
 
 <!-- Uncomment if there are any deprecations
 

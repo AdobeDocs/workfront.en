@@ -9,7 +9,7 @@ feature: Product Announcements
 
 # New commenting beta experience release activity
 
-The information on this page refers to the release activity on a weekly basis of the new commenting beta experience. The page includes new features that are added and issues that are resolved for the new commenting beta experience. 
+The information on this page refers to the release activity on a weekly basis of the features included in the new commenting beta experience. The page lists new features that are added and issues that are resolved for the new commenting beta experience. 
 
 For general information on the new commenting beta experience, including a list of features that are currently available or in research, see [New commenting experience](../new-commenting-experience-beta/unified-commenting-experience.md). 
 
@@ -17,11 +17,26 @@ For general information on the new commenting beta experience, including a list 
 >
 >The new commenting experience launched in Beta with the 23.2 release. For information about the original release, see [23.2 Release overview](../../product-releases/23.2-release-activity/23-2-release-overview.md). 
 >
->Commenting features that are released to the beta experience for Workfront objects are also released to the Updates section of Workfront Goals. 
+>Commenting features that are released to the beta experience for Workfront objects are also released to the Updates section of a goal object in Workfront Goals. 
 
 The following sections list features that have been added after the original release, starting with the ones released most recently. 
 
-## Week of May 2, 2023
+## Week of May 15, 2023
+
+### Improved experience when adding hyperlinks to comments
+
+You can now add hyperlinks to comments using the following shortcut keys: 
+
+* CTRL + V (CMD + V for Mac) pastes a link over selected text 
+* CTRL + K (CMD + K for Mac) opens the Add links box.  
+
+Prior to these enhancements, you could add hyperlinks only by clicking the link icon in the Rich Text toolbar. For more information, see [Update work](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). 
+
+Preview: May 17, 2023 
+
+Production: May 18, 2023 
+
+## Week of May 1, 2023
 
 ### Images are removed from the Documents area when attachments are removed from comments or when comments containing an attachment are removed
 
