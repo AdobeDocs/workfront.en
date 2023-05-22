@@ -61,4 +61,10 @@ You can have the following type of records:
 >
 >*If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see [Create or modify custom access levels](../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
-## Create records <!--in a record type table (I don't think you can create them elsewhere right now)-->
+## Create records by manually adding them to a record type <!--in a record type table (I don't think you can create them elsewhere right now)-->
+
+## Creating records by importing them from another application
+
+You must link a Maestro record type to a third-party application's object types before you can import new records from another application. 
+
+For example, you must create a Maestro record type by linking it to the Workfront project object type, before importing projects from Workfront into the Maestro record type. 

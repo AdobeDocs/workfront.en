@@ -62,20 +62,20 @@ For more information about Maestro record types, see [Overview of Adobe Maestro 
 
 ## Considerations about taxonomies
 
-* Taxonomies are a kind of record type in Maestro. 
+* Like operational record types, taxonomies are building blocks of workspaces in Maestro. The record types should reflect the work lifecycle of an organizational unit. For information about workspaces, see [Create workspaces](../maestro/create-workspaces.md).  
+* Taxonomies are record types that capture attributes about operational record types. We recommend to not create taxonomies that refer to work and instead to use operational record types to identify work-related information. 
+* When you create a taxonomy record type, everyone in your organization can view, edit, or delete it. <!--this will change with access levels and permissions-->
+<!--this is not possible yet:
+* You can taxonomies to a workspace by doing one of the following:
+    * Create them from scratch.
+    * Link them from other systems. For example, you can create record types by linking them to teams in Workfront. - update this sentence when you can import taxonomies as well as operational records-->
+* You must create a workspace before you can create taxonomies for the workspace. 
+* All newly created taxonomies come with the following set of fields: 
 
-    Operational record types are record types that define work. Taxonomies are record types that capture attributes about operational record types. We recommend to not create taxonomies that refer to work. 
-* You must create a workspace before you can create a taxonomy.
-* When you create a taxonomy, everyone in your organization can view, edit or delete it.
-* You can link taxonomies with operational record types by using relationship-type fields. In addition, you can create custom fields for taxonomies. For more information, see [Create fields for Maestro records](../maestro/create-fields.md). 
-* All newly created taxonomies come with the following set of fields:
+    * Name <!--if there won't be any more fields, consider rephrasing this-->
 
-    * Name
-    * Description
-    * Start Date
-    * End Date
-    * Status
-
+    Additionally, you can add custom fields to taxonomies. For more information, see [Create fields for Maestro records](../maestro/create-fields.md).  
+* You can have a combined total of 1,000 operational record types and taxonomies in one workspace. This includes record types or taxonomies that you create from scratch or that you import from other systems. 
 
 ## Create a taxonomy
 
