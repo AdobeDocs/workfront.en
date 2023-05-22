@@ -20,7 +20,7 @@ You can disable the auto-upgrade option from the setup area. To learn more about
 
 >[!IMPORTANT]
 >
->Once disabled, any non-paid user who goes over their allotted number of decisions will not be upgraded automatically and will lose the ability to make decisions on proofs and documents.
+>Once disabled, any non-paid user who goes over their allotted number of decisions will not be upgraded automatically.
 
 
 ## Access requirements
