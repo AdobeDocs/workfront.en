@@ -12,7 +12,7 @@ role: Admin
 
 ---
 
-## Disable the auto-upgrade option for non-paid users on the new licensing plan 
+# Disable the auto-upgrade option for non-paid users on the new licensing plan 
 
 Proof and document decisions are limited for all non-paid Workfront licenses on the new plans. When users reach their allotted number of decisions, they are upgraded to a Light license by default.
 
