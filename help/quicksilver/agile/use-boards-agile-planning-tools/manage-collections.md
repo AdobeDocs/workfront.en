@@ -95,6 +95,7 @@ People and teams must be added to the workstream as members before they can view
 1. On the dashboard, click [!UICONTROL **View workstream**] to open a workstream.
 1. Click [!UICONTROL **Configure**] to open the [!UICONTROL Configure Workstream] panel.
 1. (Optional) Type a description of the workstream. This description displays on the dashboard.
+1. (Optional) Add tags to the workstream. For more information, see [Add tags](/help/quicksilver/agile/get-started-with-boards/add-tags.md).
 
    The total number of cards, number of cards pointed, and number of iterations are displayed in the Card List section. Click [!UICONTROL **View list**] to open the list and add cards. For more information, see [Use the card list](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md).
 

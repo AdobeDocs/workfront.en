@@ -11,14 +11,15 @@ exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
 
 <!--take "Beta" references out when we remove the beta-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> -->
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span>-->
 
 >[!NOTE]
 >
 >We are currently redesigning the commenting experience in Adobe Workfront.
->For more information about the new updating experience, see [New commenting experience](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). 
 >
->You can access the new design for the following objects:
+>For more information about the new commenting experience, see [New commenting experience](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). 
+>
+>You can access the new experience for the following objects:
 > * Issues, when enabling the commenting Beta.
 >
 >     This functionality is available only for the Updates section of issues, and it is not available for the following areas:
@@ -127,7 +128,7 @@ Adding an update to a work item differs depending on what version of the Updates
 1. Go to the work item for which you want to provide an update (such as a project, task, or issue).
 1. Click the **Updates** section.
 1. Click **Start a new update,** then type your update.  
-1. (Optional) Use Rich Text, or add emojis, links, or images to your update, to enhance your content. For more information, see the "Use Rich Text in a Workfront update" section in this article
+1. (Optional) Use Rich Text, or add emojis, links, or images to your update, to enhance your content. For more information, see the [Use Rich Text in a Workfront update](#use-rich-text-in-a-workfront-update) section in this article
 1. (Optional) Update any of the following information about the work item:
 
    <table style="table-layout:auto"> 
@@ -201,7 +202,7 @@ Adding an update to a work item differs depending on what version of the Updates
    * Numbered List
    * Add attachment <!--(mark this parenthesis as draft: ************ this might be renamed to "Add image")-->
    
-   For more information, see the "Use Rich Text in a Workfront update" section in this article. <!--remove this list, above, when we get to parity for Rich Text-->
+   For more information, see the [Use Rich Text in a Workfront update](#use-rich-text-in-a-workfront-update) section in this article. <!--remove this list, above, when we get to parity for Rich Text-->
 
       >[!TIP]
       >
@@ -249,7 +250,7 @@ Adding an update to a work item differs depending on what version of the Updates
    >You cannot add a comment to a system update.
 
  
-## Use Rich Text in a Workfront update 
+## Use Rich Text in a Workfront update{#use-rich-text-in-a-workfront-update} 
 
 <!--remove this top note when we get to parity with the current version, OR change the note to mention that some options are ONLY available in the Beta version and not the current one.-->
 
@@ -262,17 +263,19 @@ You can enhance your updates by using Rich Text, or adding various items to it, 
 1. Go to the Updates area and start typing a comment. 
 1. (Optional) To add rich text formatting to your update, use any attributes on the **Rich Text** toolbar as you type.
 
-   | **Attribute** |**Toolbar Button** |**Mac Shortcut Keys** |**PC Shortcut Keys** |
+   | **Attribute** |**Toolbar button** |**Mac shortcut keys** |**Windows shortcut keys** |
    |---|---|---|---|
    | Bold | ![mceclip10.png](assets/mceclip10.png)|⌘+b |Ctrl+B |
    | Italics | ![mceclip9.png](assets/mceclip9.png)|⌘+i |Ctrl+I |
    | Underline | ![mceclip8.png](assets/mceclip8.png)|⌘+u |Ctrl+U |
-   | Hyperlink | ![mceclip7.png](assets/mceclip7.png)|⌘+K |Ctrl+K |
+   | Hyperlink | ![mceclip7.png](assets/mceclip7.png)| <br>To open the Create Links or Add links box: ⌘+K</br> <br>In the commenting beta experience, to paste a link over the selected text: ⌘+V</br>  | <br>To open the Create Links or Add links box: Ctrl+K</br> <br>In the commenting beta experience, to paste a link over the selected text: Ctrl+V</br> |
    | Bulleted List | ![mceclip6.png](assets/mceclip6.png)|⌘+Shift+8 |Ctrl+Shift+8 |
    | Numbered List | ![mceclip5.png](assets/mceclip5.png)|⌘+Shift+7 |Ctrl+Shift+7 |
    | Block Quote | ![](assets/block-quote-icon-large.png)|⌘+Shift+9 |Ctrl+Shift+9 |
 
     To stop formatting text, deselect the attribute on the **Rich Text** toolbar.
+
+   <!-- in the table above: take "Create Links" verbiage from the hyperlink when the old commenting is removed and the commenting beta is the only way to comment-->
 
    >[!NOTE]
    >
@@ -312,14 +315,20 @@ You can enhance your updates by using Rich Text, or adding various items to it, 
 
    Or
 
-   Click the **Add attachment** icon ![](assets/add-image-paperclip-icon.png) and browse to the image on your computer, when using the commenting Beta experience. 
+   Click the **Add attachment** icon ![](assets/add-image-paperclip-icon.png) and browse to the image on your computer, when using the commenting Beta experience. <!--the name of the icon and the icon for it might change-->
 
    >[!NOTE]
    >
-   >* Your Workfront administrator must enable adding images before you can see the Image icon.
+   >* Your Workfront administrator must enable adding images in the Update Feeds Preferences section of the Workfront Interface area before you can see the Image or the Add attachment icons. For information, see [Configure preferences for user updates](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-preferences-user-updates.md). 
    >* The maximum image file size is 7 MB. Supported image file types are .jpg, .gif, and .png.
-   >* Images are accessible only from the Updates tab on an object, and they are not available on the Documents tab.
+   >* Images are accessible from the Updates section on an object and they are also available in the Documents area. 
    >* You can send an update with an image and no text.
+   >* When you delete a comment that contains an image, the following scenarios exist depending on which experience you choose: 
+   >
+   >     * In the current commenting experience, the image remains in the Documents area but is no longer visible in the Updates section.
+   >     * In the new commenting experience, the image is removed from the Updates section as well as from the Documents area. The image is also deleted from the Documents area when you edit a comment and delete the image. 
+   >* When someone deletes an image attached to a comment from the Documents area, it is also removed from the comment. 
+  
 1. Click **Update**  or **Submit**, when using the commenting Beta experience. 
 
 
@@ -381,7 +390,7 @@ No Workfront user (including the Workfront administrator) can delete updates mad
 
    >[!NOTE]
    >
-   >Deleting an update with an attached image deletes both the comment and the image.
+   >Deleting an update with an attached image deletes both the comment and the image. For more information, see the [Use rich text in a Workfront update](#use-rich-text-in-a-workfront-update) section in this article.
 
    When the comment you delete has replies associated with it, there is an indication that the comment was removed with the name of the user who removed it.
 

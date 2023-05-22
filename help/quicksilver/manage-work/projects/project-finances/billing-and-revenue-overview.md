@@ -92,7 +92,7 @@ Workfront can track Planned Revenue automatically when tasks are created based o
 
 It can also track Actual Revenue automatically when Actual Hours are logged on the tasks, issues, and on the project.
 
-There following table shows the types of revenue associated with tasks, issues, and projects. 
+The following table shows the types of revenue associated with tasks, issues, and projects. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -100,7 +100,7 @@ There following table shows the types of revenue associated with tasks, issues, 
  <tbody> 
   <tr> 
    <td role="rowheader">Planned Revenue</td> 
-   <td> <p>For tasks, this is the revenue associated with the Planned Hours of tasks. The Planned Hours from all tasks roll up to the Planned Hours of the project to contribute to the calculation of the project Planned Hours. </p> <p>For more information about Planned Hours in Workfront, see <a href="../../../manage-work/tasks/task-information/planned-hours.md" class="MCXref xref">Planned Hours overview</a>. </p> <p>Workfront calculates Planned Revenue for tasks and projects using the following formulas:</p> <p><code>Task Planned Revenue = Planned Hours * Billing hourly rate</code> </p> <p><code>Project Planned Revenue = SUM (All tasks Planned Revenue) +&nbsp;Fixed Revenue</code> </p> 
+   <td> <p>For tasks, this is the revenue associated with the Planned Hours of tasks. The Planned Hours from all tasks roll up to the Planned Hours of the project to contribute to the calculation of the project Planned Hours. </p> <p>For more information about Planned Hours in Workfront, see <a href="../../../manage-work/tasks/task-information/planned-hours.md" class="MCXref xref">Planned Hours overview</a>. </p> <p>Workfront calculates Planned Revenue for tasks and projects using the following formulas:</p> <p><code>Task Planned Revenue = Planned Hours * Billing hourly rate</code> </p> <p><code>Project Planned Revenue = SUM (All tasks Planned Revenue) + Fixed Revenue</code> </p> 
    <p><b>NOTE</b>
    
    <p>The project Planned Revenue that displays in the Project Details area and in project reports differs from the Planned Revenue that displays in the Utilization report. </p> <p>The Planned Revenue in the Project Details area reflects the task revenue associated with the task Planned Hours as well as the Fixed Revenue of the project. The Planned Revenue in the Utilization Report displays Planned Revenue associated only with the Planned Hours from the task assignments on the project. </p> 
@@ -114,7 +114,7 @@ There following table shows the types of revenue associated with tasks, issues, 
   </tr> 
   <tr> 
    <td role="rowheader">Actual Revenue*</td> 
-   <td> <p>Associated with the Actual Hours of tasks, issues, and projects. </p> <p>Generally, Workfront calculates Actual Revenue using this formula:</p> <p><code>Planned Revenue = Planned Hours * Billing rate</code> </p> <p>For information on Actual Revenue calculations in the Utilization Report, see <a href="../../../resource-mgmt/resource-utilization/view-utilization-information.md" class="MCXref xref">View resource utilization information </a>. </p> <p><b>TIP</b>
+   <td> <p>Associated with the Actual Hours of tasks, issues, and projects. </p> <p>Generally, Workfront calculates Actual Revenue using this formula:</p> <p><code>Actual Revenue = Actual Hours * Billing rate</code> </p> <p>For information on Actual Revenue calculations in the Utilization Report, see <a href="../../../resource-mgmt/resource-utilization/view-utilization-information.md" class="MCXref xref">View resource utilization information </a>. </p> <p><b>TIP</b>
    
    You cannot view Actual Revenue at the issue level, but the revenue associated with the Actual Hours on the issues contribute to the Actual Revenue of the project. </p> </td> 
   </tr> 

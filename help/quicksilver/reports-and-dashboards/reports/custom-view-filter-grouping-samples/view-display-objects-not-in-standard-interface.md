@@ -13,7 +13,7 @@ exl-id: c0138730-494b-4443-865a-44f8f00d5342
 You can display in a view objects that are not included in the standard mode interface. You can do this only by referencing them via text mode.  
 You can determine which fields can be included in a view in either of the following ways:
 
-* Use the [API Explorer](https://one.workfront.com/s/api-explorer) to discover other objects that can be referenced via text mode.  
+* Use the [API Explorer](../../../wf-api/general/api-explorer.md) to discover other objects that can be referenced via text mode.  
   Not all the fields documented in the API Explorer are valid fields for text mode. Some fields are only reportable through the API.
 
 * Find the object 's ID field in a column. Most objects that have a field ID also have a corresponding column or field name which may not be accessible through the standard mode interface.
