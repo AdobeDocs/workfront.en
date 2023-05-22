@@ -18,9 +18,9 @@ As an authenticated user, you can:
 
 To vote on an idea:
 
-1. Log in to the [!DNL Adobe Workfront] Community on the [!DNL Workfront One] site at the following URL:  [https://one.workfront.com/s/community](https://one.workfront.com/s/community).
+1. Log in to the [!DNL Adobe Workfront] Community on the [!DNL Adobe Experience League] site at the following URL:  [[!DNL Adobe Workfront] Community](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront).
 
-1. Click the **[!UICONTROL Collaboration]** tab, then click **[!UICONTROL Innovation Lab]**.
+1. Click the **[!UICONTROL Ideas]** tab.
 
 1. Search for the idea you would like to vote on.
 1. Click on the idea.
