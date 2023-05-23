@@ -55,7 +55,7 @@ The Preview Sandbox serves as an environment where users in your organization ca
 
 The Preview Sandbox contains your actual production data; however, it refreshes every weekend so the data can be up to one week behind the production environment. Items created since the last refresh time are in the Preview Sandbox environment until the following refresh.
 
-Data flows uni-directionally, from Production to Preview, and not in reverse. A refresh of the Preview environment is always scheduled by [!DNL Workfront] each weekend. For more information on the specific day and time of the refresh, go to [status.adobe.com](https://status.adobe.com/).
+Data flows uni-directionally, from Production to Preview, and not in reverse. A refresh of the Preview environment is always scheduled by [!DNL Workfront] each weekend. 
 
 Preview Sandbox also allows [!DNL Workfront] to deploy new features in a safe environment, before they are ready to be deployed to Production. You can test the new features and give [!DNL Workfront] feedback on their functionality by accessing the Preview Sandbox. For this reason, the code of the Preview Sandbox is always ahead of the Production code, although your data is refreshed weekly.
 
