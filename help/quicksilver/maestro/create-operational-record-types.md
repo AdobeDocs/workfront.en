@@ -80,7 +80,7 @@ This article describes how to create operational record types. However, creating
     * End Date
     * Status
 
-    Additionally, you can add custom fields. For more information, see [Create fields for Maestro records](../maestro/create-fields.md).  
+    Additionally, you can add custom fields. For more information, see [Create Maestro fields](../maestro/create-fields.md).  
 * You can have a combined total of 1,000 operational record types and taxonomies in one workspace. This includes record types or taxonomies that you create from scratch or that you import from other systems. 
 
 ## Create a record type from scratch
@@ -104,7 +104,7 @@ This article describes how to create operational record types. However, creating
     * End Date
     * Status
 1. Update the name of the record type in the header of the page, then press Enter. By default, the name of a new record type is **Untitled Operational Record Type**. You can also expand the **More** icon ![](assets/more-menu.png) to the right of the record type name, then click **Edit**. <!--asking Lilit if we can rename this link to "Rename" to match the workspace button-->
-1. (Optional) Click the **+** icon in the upper-right corner of the table to add more fields to the record type. For more information, see [Create fields for Maestro records](../maestro/create-fields.md).  
+1. (Optional) Click the **+** icon in the upper-right corner of the table to add more fields to the record type. For more information, see [Create Maestro fields](../maestro/create-fields.md).  
 
 1. (Optional) Click the left-pointing arrow to the left of the record type name to go back to the selected workspace. 
 

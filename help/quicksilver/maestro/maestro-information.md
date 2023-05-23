@@ -24,4 +24,4 @@ This section contains the following articles:
 * [Edit records](edit-records.md)
 * [Add record fields](add-record-fields.md)
 * [Manage record views](manage-record-views.md)
-* [Create fields for Maestro records](create-fields.md)
+* [Create Maestro fields](create-fields.md)

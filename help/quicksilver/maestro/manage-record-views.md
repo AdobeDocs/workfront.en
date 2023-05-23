@@ -114,7 +114,7 @@ You can display record fields (or columns) in both a table and a timeline view. 
 
 You must create fields before you can display them in a view. 
 
-You can add up to 500 fields (or columns) in a table view. Adding columns to a table view is identical to adding fields. For information, see [Create fields for Maestro records](../maestro/create-fields.md). 
+You can add up to 500 fields (or columns) in a table view. Adding columns to a table view is identical to adding fields. For information, see [Create Maestro fields](../maestro/create-fields.md). 
 
 ### Add rows {#add-rows}
 

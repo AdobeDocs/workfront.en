@@ -195,7 +195,7 @@ The following are the main Maestro objects and concepts:
     >
     >    <!--not yet:* Fields are reusable across Record Types.  -->
 
-    <!--For more information, see [Create record type fields](../maestro/create-fields.md).-->   
+    <!--For more information, see [Create Maestro fields](../maestro/create-fields.md).-->   
 
 * **Views**: Records display under their respective record type page in different types of views. 
 

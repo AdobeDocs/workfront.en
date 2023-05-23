@@ -1,21 +1,19 @@
 ---
-title: Create fields for Maestro records
-description: You must create record types before you can create fields to associate with them.
+title: Create Maestro fields
+description: In Adobe Maestro, you can create custom fields for each kind of operational record type or taxonomy. You can then associate the field with Maestro records.
 hidefromtoc: yes
 hide: yes
 ---
 
 <!--udpate the metadata with real information when making this avilable in TOC and in the left nav-->
 
-<!--udpate the metadata with real information when making this avilable in TOC and in the left nav-->
-
 <!--Should the structure of this article be like this one: https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/custom-form-builder/use-the-custom-form-builder/add-a-custom-field-to-a-custom-form.html?lang=en ??-->
 
-<!--will this cover adding fields in a table?! or just custom fields?! -->
+<!--will they add a way to create fields elsewhere than in a table?! - how will that change the structure of this article? -->
 
-# Create fields for Maestro records
+# Create Maestro fields
 
-In Adobe Maestro, you can create custom fields for each kind of operational record type or taxonomy. 
+In Adobe Maestro, you can create custom fields for operational record type or taxonomy. You can then associate the fields with Maestro records to enhance the information you store about records. 
 
 You must create record types before you can create fields to associate with them. For information, see [Create operational record types](../maestro/create-operational-record-types.md). 
 
@@ -60,16 +58,15 @@ You must create record types before you can create fields to associate with them
  </tbody>
 </table>
 
->[!NOTE]
->
->*If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see [Create or modify custom access levels](../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
-
+*If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see [Create or modify custom access levels](../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
 ## Considerations about Maestro fields
 
-* The fields associated with a record type are available to be associated with all the records of that type. 
+* The fields associated with a record type are available to be associated with all the records of that type. <!--will this change and will the fields be available for other record types, too?! Also, the next bullet might need to change too if this one changes -->
 
-* Maestro creates a set of fields by default every time you create a record type. The following are standard fields created by default for each new record type:
+* Fields associated with a record type cannot be added to another record type. <!-- this will change when they open the Field library tab when creating a field-->
+
+* Maestro creates fields by default every time you create a record type. The following are standard fields created by default for each new operational record type:
 
     * Name
     * Description
@@ -82,18 +79,26 @@ You must create record types before you can create fields to associate with them
         * Completed
         * On Hold
 
+    The following are the fields created by default for each new taxonomy record type:
+
+    * Name <!--will more be added? If not, consider rephrasing this bullet-->
+
     You can add more values or rename the existing ones. 
 
 * You can view and update all the fields that any other user added to any record type. <!--this will change with access/ permissions-->
-* You can create custom fields or automatically add them by doing one of the following:
-    * Linking to another record type and accessing their fields
-    * Importing record types from other applications and accessing their fields
-    <!--* Importing record types with fields using a CSV or an Excel file. - this is not available yet-->
+
+* You can also automatically create field by doing one of the following:
+    * Linking existing record types together and accessing the fields from the linked record type, when using Relationship-type fields. 
+    
+        For more information, see the [Create fields by linking record types](#create-fields-by-linking-record-types) section in this article. 
+    * Linking new Maestro record types to objects from other applications and accessing their fields. 
+        <!--* Importing record types with fields using a CSV or an Excel file. - this is not available yet-->
+
+        For more information about creating Maestro records by linking them to objects from other applications, see [Create operational record types](../maestro/create-operational-record-types.md).
 * You cannot have more than 500 fields for one record type.
 * Field names can have up to 250 characters.
-* Fields associated with a record type cannot be added to another record type. <!-- this will change when they open the Field library tab when creating a field-->
-* You can create fields on the record type page, in the Table view. The columns of the table are record fields. They are the same fields that display on a record's Details page. 
-* When deleting a record type, taxonomy, or workspace, all fields associated with them are also deleted and cannot be recovered. 
+* You can create fields on the record type page, in the Table view. The columns of the table are the fields associated with the record type. They are the same fields that display on a record's Details page. 
+* When deleting an operational record type, taxonomy, or workspace, all fields associated with them are also deleted and cannot be recovered. <!-- this might change with a possible recycle bin solution?!-->
 
 
 ## Create fields from scratch {#create-fields-from-scratch} <!--in a table (not sure if this can be done elsewhere?!-->
@@ -102,10 +107,15 @@ You must create record types before you can create fields to associate with them
 
     The last-accessed workspace should open by default. 
 
-1. (Optional) Expand the downward-pointing arrow to the right of an existing workspace name and select the workspace that you want to create records for.
-1. Click the record type you want to create fields for. 
+1. (Optional) Expand the downward-pointing arrow to the right of an existing workspace name and select the workspace whose record types you want to create fields for, then click the record type. 
 
-    All records associated with the record type display in the table view, by default. 
+    Any existing records associated with the record type display in the table view, by default. 
+
+    >[!TIP]
+    >
+    >    If no records display, you might not have any records yet, or you might have a filter applied that limits what you see on the screen.
+
+    
 1. Click the **+** icon to the upper-right corner of the table view to add new fields.
 1. In the **New field** tab, select from the following field types: 
 
@@ -122,38 +132,38 @@ You must create record types before you can create fields to associate with them
 
 ### Number {#number}
 
-You can use number fields to capture information in a number format. 
+Number field types capture information in a number format. 
 
 1. Start creating a field as described in the section [Create fields from scratch](#create-fields-from-scratch) in this article, then select the **Number** field type.
 
     ![](assets/number-field-type.png)
 1. Add the following information:
 
-    * **Name**: The name of the field type, as it will appear in a table or the Details page of the record. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
+    * **Name**: The name of the field type, as it will appear in a table or the Details page of the record. 
     * **Description**: Additional information about the field.
     * **Precision**: The number of decimals that you want to record for the field. You can display up to 6 decimals.
-    * **Allow negative numbers**: Select this option if you want to allow negative numbers in this field. This option is deselected by default.
+    * **Allow negative numbers**: Select this option if you want to allow negative numbers in this field. This option is deselected by default. <!--Add this if they added this functionality: You cannot edit this option after you save the field.-->
 1. Click **Create**.
 
     The new number field is added as a column to the record type and its values can be associated with records. The field also displays on the Details page of a record.  
 
 ### Percentage {#percentage}
 
-You can use number fields to capture information in a percentage format. 
+Percentage field types capture information in a percentage format. 
 
 1. Start creating a field as described in the section [Create fields from scratch](#create-fields-from-scratch) in this article, then select the **Percentage** field type.
 
     ![](assets/percentage-field-type.png)
 
 1. Add the following information:
-     * **Name**: The name of the field type, as it will appear in a table or the Details page of the record. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
+     * **Name**: The name of the field type, as it will appear in a table or the Details page of the record. 
      * **Description**: Additional information about the field.
     * **Precision**: The number of decimals that you want to record for the field. You can display up to 6 decimals.
-    * **Allow negative numbers**: Select this option if you want to allow negative percentage values in this field. This option is deselected by default.
+    * **Allow negative numbers**: Select this option if you want to allow negative percentage values in this field. This option is deselected by default. <!--Add this if they added this functionality: You cannot edit this option after you save the field.-->
 1. Click **Create**. 
 
     The new percentage field is added as a column to the record type and its values can be associated with records. The field also displays on the Details page of a record. 
-
+<!--LEFT HERE ON MAY 24-->
 ### Currency {#currency}
 
 You can use number fields to capture information in a currency format. 
@@ -328,7 +338,7 @@ You can create fields on a record type by linking it to another record type's fi
 
         `The name of the original field on the linked record (from The name of your linked field)`
 
-### Example of creating a relationship-type field
+### Example of creating a Relationship-type field
 
 This section describes an example of how to create a field by linking record types together. 
 
