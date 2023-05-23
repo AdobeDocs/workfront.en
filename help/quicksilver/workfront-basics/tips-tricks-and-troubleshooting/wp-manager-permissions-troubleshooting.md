@@ -4,7 +4,7 @@ product-previous: workfront;workfront-proof
 product-area: user-management
 navigation-topic: tips-tricks-and-troubleshooting-workfront-basics
 title: Workfront Proof Manager permissions troubleshooting
-description: Following are the permission profiles available in [!DNL Adobe] Workfront for proofing users - EDIT ME.
+description: The permission profiles available in [!DNL Adobe] Workfront for proofing users are Administrator, Supervisor, and Manager.
 feature: Get Started with Workfront
 exl-id: 913241d0-f5b0-4674-b078-9a1ad3682aff
 ---

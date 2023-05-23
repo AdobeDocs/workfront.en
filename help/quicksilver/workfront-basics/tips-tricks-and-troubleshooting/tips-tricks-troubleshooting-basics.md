@@ -1,7 +1,7 @@
 ---
 title: Tips, Tricks, and Troubleshooting for [!DNL Adobe Workfront] Basics
 description: Tips, Tricks, and Troubleshooting for [!DNL Adobe Workfront] Basics
-author: Lisa
+author: Nolan
 feature: Get Started with Workfront
 exl-id: 89a1ac84-123b-487e-8c91-615a36e246c3
 ---
