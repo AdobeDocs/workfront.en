@@ -41,7 +41,7 @@ If features are removed from the quarterly release after all features are availa
 At times, Workfront releases new features as part of a beta program. 
 The specific information about each beta, including how to participate, releases when each beta program launches and all beta programs are different. 
 
-The following are types of beta programs available from Workfront:
+The following beta programs are available from Workfront:
 
 * **Closed or private beta**: The following are characteristics of a closed or private beta release:
 
@@ -53,7 +53,7 @@ The following are types of beta programs available from Workfront:
 * **Open or public beta**: The following are characteristics of an open or public beta release:
 
     * The features are available to all Workfront customers, but are in a beta state. They might not always be fully functional and feedback is always welcome.
-    * The participation in a public beta is optional and customers can decide whether to turn the beta features on themselves. 
+    * The participation in a public beta is optional and customers can decide whether to turn on the beta features themselves. 
     * New features that are part of the beta can be released to either Preview or Production. 
     * Features might release more often than the regular release patterns for Workfront. 
     * Information about when features are released to a public beta is included in the Product release pages. 
@@ -76,7 +76,6 @@ The release notes provide a table with a list of features in the left column, wi
 
 * Preview release date
 * Production release date
-* Availability in the new Adobe Workfront experience and/or Adobe Workfront Classic
 
 For example:
 
