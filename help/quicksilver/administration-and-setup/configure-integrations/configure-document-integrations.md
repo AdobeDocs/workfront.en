@@ -73,6 +73,7 @@ You can configure the following integrations for managing documents:
     * [!DNL Dropbox Business]
     * [!DNL WebDAM]
     * [!DNL Microsoft OneDrive]
+    * [!DNL Microsoft SharePoint]
     * [!UICONTROL Google Drive]
 
       <!--Quip-->
