@@ -24,6 +24,10 @@ For more information on this functionality in Experience Manager Assets Essentia
 
 ## Create custom forms with the new form designer beta
 
+>[!IMPORTANT]
+>
+>The form designer beta was temporarily disabled on May 24, 2023. You can use the legacy form builder to create and edit your custom forms. See [Create or edit a custom form with the legacy form builder](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/use-the-custom-form-builder.md).
+
 Now available in a public beta, the new form designer has a new canvas-style workspace that allows you to view the fields, canvas, and field settings all at the same time.
 
 With the new form designer, we've added the ability to 

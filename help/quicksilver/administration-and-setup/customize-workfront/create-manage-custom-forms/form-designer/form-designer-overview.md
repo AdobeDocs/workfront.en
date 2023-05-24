@@ -11,6 +11,10 @@ exl-id: c2e2901b-0558-4a63-ae3c-4c3a6edf0ff0
 ---
 # Form designer overview
 
+>[!IMPORTANT]
+>
+>The form designer was temporarily disabled on May 24, 2023. You can use the legacy form builder to create and edit your custom forms. See [Create or edit a custom form with the legacy form builder](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/use-the-custom-form-builder.md).
+
 You can use the new form designer to design a custom form that users can attach to a Workfront object. Users who work on the object can fill out the custom form to supply information about the object.
 
 The new form designer has a new canvas-style workspace that allows you to view the fields, canvas, and field settings all at the same time. It also allows you to drag-and-drop fields within the sections while designing your form. 
