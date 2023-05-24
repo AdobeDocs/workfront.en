@@ -5,7 +5,7 @@ keywords: group,preferences,task,groups,issue,unlock
 navigation-topic: create-and-manage-groups
 title: Configure timesheet and hour preferences for a group
 description: At the system level, an Adobe Workfront administrator can unlock the timesheet and hour preference sections General Preferences and Pre-Populate timesheets with. This allows group administrators to configure the options in those sections independently for their own groups.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 1ee9343e-9452-4e41-a9ff-a6c865d4813b
@@ -14,15 +14,15 @@ exl-id: 1ee9343e-9452-4e41-a9ff-a6c865d4813b
 
 An Adobe Workfront administrator can unlock the following sections of timesheet and hour preferences at the system level so that group administrators can configure them independently for their own groups:
 
-* General Preferences
-* Pre-Populate timesheets with
+* General preferences
+* Where users can log time
+* Pre-Populate timesheets
 
 If there are any groups above the group you manage, their administrators can also do this for your group. The same is true for Workfront administrators (for any group).
 
 The following sections on the Timesheet and Hours Preferences page are configurable only at the system level and can't be unlocked for groups:
 
-* Logging Time 
-* Project, Task or Issue Deletion Preferences
+* Deleted projects, tasks, and issues
 
 For information about how a Workfront administrator unlocks a timesheet and hour preference, see the section [Unlock timesheet and hour preferences for groups](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md#lock) in the article [Configure timesheet and hour preferences](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
@@ -78,7 +78,7 @@ Consider the following information about configuring an unlocked timesheet or ho
 1. Click the name of the group whose timesheet or hour preferences you want to configure.
 1. In the left panel, click **Timesheets & Hours**.
 
-1. On the page that displays, in the **General Preferences** section, configure any of the following options:
+1. On the page that displays, in the **General preferences** section, configure any of the following options:
 
    >[!TIP]
    >
@@ -117,7 +117,7 @@ Consider the following information about configuring an unlocked timesheet or ho
       <td> <p>Restrict editing to timesheet owners, regardless of project's group and Workfront administrators. When this option is disabled, timesheets can also be edited by:</p> 
        <ul> 
         <li> <p>Users with administrative access to timesheets and hours in their access level</p> </li> 
-        <li> <p>Timesheet approvers if “Can edit hours” is enabled on the timesheet</p> </li> 
+        <li> <p>Timesheet approvers if "Can edit hours" is enabled on the timesheet</p> </li> 
         <li> <p>The manager of the timesheet owner</p> </li> 
        </ul> </td> 
      </tr> 
@@ -128,7 +128,32 @@ Consider the following information about configuring an unlocked timesheet or ho
     </tbody> 
    </table>
 
-1. In the **Pre-Populate timesheets with** section, configure any of the following options: 
+1. In the **Where users can log time** section, configure any of the following options:
+
+   <table style="table-layout:auto">
+    <col>
+    <col>
+    <tbody>
+     <tr>
+      <td role="rowheader">Log time directly on projects</td> 
+      <td>Allows users to log time on the project (both on the Updates tab and timesheet). If you want to restrict your users from recording time at the project level, leave this option unchecked.</td>
+     </tr>
+     <tr>
+      <td role="rowheader">Log time on projects that are complete</td>
+      <td>Allows users to record time on a project that has been marked complete. If this option is disabled, users cannot record time for the work they have completed on projects in the Complete status.</td>
+     </tr>
+     <tr>
+      <td role="rowheader">Log time on projects that are dead</td> 
+      <td>When this option is enabled, users can log hours on projects with a Dead status.</td>
+     </tr>
+    </tbody>
+   </table>
+
+   >[!NOTE]
+   >
+   >This preference is applied based on configuration of the user's Home Group preferences. If these settings are enabled in the user's Home Group preferences, they will be able to log time directly on projects, including completed or dead projects, regardless of whether the project's group preferences allow it or not.
+
+1. In the **Pre-Populate timesheets** section, configure any of the following options: 
 
    <table style="table-layout:auto"> 
     <col> 

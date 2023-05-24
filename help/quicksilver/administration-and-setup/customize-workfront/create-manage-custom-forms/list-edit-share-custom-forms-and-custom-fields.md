@@ -2,8 +2,8 @@
 title: List and edit custom forms and widgets added to custom forms
 description: When you view a list of your organization's custom forms and the custom fields and widgets that have been added to them, you can use options in the toolbar to edit their properties, limit who they are shared with, copy them, and delete them. You can also view other information in the columns that display, such as which object types each custom form is associated with.
 author: Caroline
-
 ---
+
 # List and edit custom forms and widgets added to custom forms
 
 When you view a list of your organization's custom forms and the custom fields and widgets that have been added to them, you can use options in the toolbar to edit their properties, limit who they are shared with, copy them, and delete them. You can also view other information in the columns that display, such as which object types each custom form is associated with.

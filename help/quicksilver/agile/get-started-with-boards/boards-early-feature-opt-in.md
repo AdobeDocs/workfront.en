@@ -112,27 +112,63 @@ The following table outlines major features of boards along with their current r
   </tr>
   <tr>
    <td>View-only cards in intake column</td>
-   <td>Partially released</td>
+   <td>Released</td>
   </tr>
   <tr>
    <td>Map Estimation field on card to Story Points field on task</td>
-   <td>Partially released</td>
+   <td>Released</td>
   </tr>
   <tr>
-   <td>Create collections of boards</td>
-   <td>Planned</td>
+   <td>Create workstreams and add boards to workstreams</td>
+   <td>Released</td>
   </tr>
   <tr>
    <td>Create iterations</td>
-   <td>Planned</td>
+   <td>Released</td>
   </tr>
   <tr>
    <td>Define card list or backlog</td>
-   <td>Planned</td>
+   <td>Released</td>
   </tr>
   <tr>
    <td>Import subtasks as checklist items on cards</td>
    <td>Planned</td>
+  </tr>
+  <tr>
+   <td>Customize display of fields on a card</td>
+   <td>Released</td>
+  </tr>  
+  <tr>
+   <td>Define a default status for cards moved into columns</td>
+   <td>Released</td>
+  </tr>
+  <tr>
+   <td>Log hours on connected cards</td>
+   <td>Released</td>
+  </tr>
+  <tr>
+   <td>Add custom fields to connected cards</td>
+   <td>Released</td>
+  </tr>
+  <tr>
+   <td>Define email notifications for Boards</td>
+   <td>Partially released</td>
+  </tr>
+  <tr>
+   <td>Migrate legacy Kanban cards to Boards</td>
+   <td>This feature will be available in Production on May 18, 2023 and is not part of the early feature opt-in.</td>
+  </tr>
+  <tr>
+   <td>Create dynamic boards</td>
+   <td>Partially released</td>
+  </tr>
+  <tr>
+   <td>Use left navigation on card details</td>
+   <td>Partially released</td>
+  </tr>
+  <tr>
+   <td>Use simplified filters on the intake column</td>
+   <td>Partially released</td>
   </tr>
  </tbody> 
 </table>
@@ -148,7 +184,7 @@ Early features for boards are available to all organizations. Involvement is com
 Only [!DNL Workfront] administrators can opt in to early features for boards. When a [!DNL Workfront] administrator enables early features, all users in the organization are opted in.
 
 1. Click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe Workfront], then click **[!UICONTROL Boards]**.
-1. Click **[!UICONTROL Early feature opt-in]** at the top of the dashboard screen.
+1. Click ![Early feature opt-in](assets/early-feature-opt-in-not-enabled.png) ([!UICONTROL Early feature opt-in]) at the top of the dashboard screen.
 1. Click **[!UICONTROL Enable]**.
 1. Start using the early features of boards.
 
@@ -178,5 +214,5 @@ However, the [!DNL Workfront] administrator can hide the Boards option from the 
 Only [!DNL Workfront] administrators can opt out of receiving early features. If a [!DNL Workfront] administrator disables the early features, all users in the organization are opted out.
 
 1. Click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe Workfront], then click **[!UICONTROL Boards]**.
-1. Click **[!UICONTROL Early feature opt-in enabled]** at the top of the dashboard screen.
+1. Click ![Early feature opt-in enabled](assets/early-feature-opt-in-enabled.png) ([!UICONTROL Early feature opt-in enabled]) at the top of the dashboard screen.
 1. Click **[!UICONTROL Disable]**.

@@ -3,7 +3,7 @@ product-area: reporting
 navigation-topic: reporting-elements
 title: Use date-based wildcards to generalize reports
 description: You can generalize a report by using wildcards instead of specific information when building certain reporting elements.
-author: Lisa
+author: Nolan
 feature: Reports and Dashboards
 exl-id: 759b0bea-729e-4206-808c-0a7216ded4ff
 ---
@@ -94,7 +94,7 @@ To insert a date-based wildcard in a report:
 
 See also:
 
-* [Basic Report Creation Program](https://one.workfront.com/s/basic-report-creation-program) 
+<!--outdated: * [Basic Report Creation Program](https://one.workfront.com/s/basic-report-creation-program) -->
 * [Wildcard filter variables](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md) 
 * [Create or edit filters in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/create-filters.md) 
 * [Add a prompt to a report](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md) 

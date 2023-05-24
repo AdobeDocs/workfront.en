@@ -89,11 +89,11 @@ You must have the following access to perform the steps in this article:
     <tbody> 
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Name]</strong></td> 
-      <td> <p>Changing the name also changes the name on the connected [!DNL Workfront] object.</p> </td> 
+      <td>Changing the name also changes the name on the connected [!DNL Workfront] object.</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Description]</strong></td> 
-      <td> <p>Changing the description also changes the description on the connected [!DNL Workfront] object.</p> </td> 
+      <td>Changing the description also changes the description on the connected [!DNL Workfront] object. You can add URLs in the description and they will become clickable links when the card is saved.</td> 
      </tr> 
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Assignees]</strong></td>
@@ -103,7 +103,7 @@ You must have the following access to perform the steps in this article:
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Column]</strong></td>
-      <td><p>Select the column for the card.</p></td>
+      <td>Select the column for the card.</td>
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Status]</strong></td>
@@ -113,11 +113,11 @@ You must have the following access to perform the steps in this article:
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Planned Completion]</strong></td>
-      <td><p>Changing this date also changes the planned completion date on the connected [!DNL Workfront] object.</p></td>
+      <td>Changing this date also changes the planned completion date on the connected [!DNL Workfront] object.</td>
      </tr>
       <tr>
       <td role="rowheader"><strong>[!UICONTROL Estimation]</strong></td>
-      <td><p>The number of hours for the card to be completed.</p><p>If you use the early feature opt-in for [!DNL Workfront] [!UICONTROL Boards], changing the estimation also changes the story points value on the connected [!DNL Workfront] object.</p><p>If you are not opting in to early features, this field is a manual entry only and the value cannot be more than 99.</p></td>
+      <td><p>The number of hours for the card to be completed.</p><p>Changing the estimation also changes the story points value on the connected [!DNL Workfront] object.</p></td>
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Tags]</strong></td>
@@ -130,6 +130,8 @@ You must have the following access to perform the steps in this article:
      </tr>
     </tbody> 
    </table>
+
+   Use the navigation panel on the left to move between groups of fields on the card details.
 
 1. Click **[!UICONTROL Close]** to return to the board.
    The connected object, assignees, tags, due date, checklist counter, estimated hours, and status are displayed on the card.
@@ -174,3 +176,20 @@ After you have created an ad hoc card, you can convert it to a connected card. F
    The project name displays in the Connection area on the card details.
 
 1. Click **[!UICONTROL Close]** to return to the board.
+
+## Log hours on a connected card
+
+You must have the correct permissions to log hours on the connected task or issue.
+
+The time logging fields are not displayed on connected cards by default. You must enable [!UICONTROL **Hours**] in the [!UICONTROL Configure] area under [!UICONTROL Cards]. For more information, see [Customize which fields are displayed on a card](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md).
+
+1. Enter the number of hours for the task or issue.
+1. Select an [!UICONTROL Hour Type] from the drop-down menu, if it is different than the default.
+1. Click [!UICONTROL **Log Time**].
+   
+   ![Log hours on card](assets/log-hours-on-card.png)
+
+   The time logged on the card is also saved on the connected task or issue.
+
+Logging time on the card is the same as logging time on a task or issue. For more information, see "Log time on a project, task, or issue" in the article [Log time](/help/quicksilver/timesheets/create-and-manage-timesheets/log-time.md).
+

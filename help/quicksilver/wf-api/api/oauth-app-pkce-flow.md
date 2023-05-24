@@ -3,7 +3,7 @@ content-type: api
 navigation-topic: api-navigation-topic
 title: Using PKCE flow for OAuth 2 applications
 description: Using PKCE flow for OAuth 2 applications
-author: John
+author: Becky
 feature: Workfront API
 exl-id: 61fe77b6-c6d7-4f23-bfb6-617bccaa1989
 ---

@@ -3,7 +3,7 @@ content-type: api
 navigation-topic: api-navigation-topic
 title: What's New in API Version 7
 description: Collections
-author: John
+author: Becky
 feature: Workfront API
 exl-id: 8c575251-677b-474d-84aa-02b637ef7760
 ---

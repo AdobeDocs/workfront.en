@@ -4,7 +4,7 @@ product-area: reporting
 navigation-topic: reports
 title: Reporting elements overview
 description: All Adobe Workfront reports and lists are a combination of three essential elements - views, filters, and groupings.
-author: Lisa
+author: Nolan
 feature: Reports and Dashboards
 exl-id: 5b5385ac-3b75-4500-bf4d-ec6ad4bf727a
 ---
@@ -24,7 +24,7 @@ For information about creating a chart in a report, see [Add a chart to a report
 
 This section contains the following articles:
 
-* [Basic Report Creation Program](https://one.workfront.com/s/basic-report-creation-program)
+<!--outdated: * [Basic Report Creation Program](https://one.workfront.com/s/basic-report-creation-program)-->
 * [Reporting elements: filters, views, and groupings](../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md)
 * [Filters overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md) 
 * [Create or edit filters in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/create-filters.md) 

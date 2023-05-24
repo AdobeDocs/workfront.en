@@ -517,11 +517,11 @@ For information on API versions, see [API versioning and support schedule](/help
 
 ### Workfront Maintenance Updates
 
-For information about the maintenance updates made during the 22.3 release, see [Workfront Maintenance Updates](https://one.workfront.com/s/article/Workfront-Maintenance-Updates-1882317350).
+For information about the maintenance updates made during the 22.3 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 ### Training updates
 
-Explore the latest updates made to learning programs, learning paths, videos, and guides for each Adobe Workfront product release. For more information, see the [Training release updates page](https://one.workfront.com/s/training-release-updates).
+Explore the latest updates made to learning programs, learning paths, videos, and guides for each Adobe Workfront product release. For more information, see the [Training release updates page](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html).
 
 ### Functionality soon to be removed from Workfront
 
@@ -568,11 +568,7 @@ As part of the deprecation of the Resource Scheduling tools, we have removed the
 
 * The Scheduling section of a project's page 
   
-The Workload Balancer is replacing the Resource Scheduler. For more information about the deprecation and how you can prepare to use the Workload Balancer, see the following resources:
-
-* [Deprecation of Resource Scheduling tools in Adobe Workfront](/help/quicksilver/resource-mgmt/resource-mgmt-overview/deprecate-resource-scheduling.md)
-
-* [Migrate from Resource Scheduling to the Workload Balancer](/help/quicksilver/resource-mgmt/resource-mgmt-overview/migrate-resource-scheduling-to-workload-balancer.md)
+The Workload Balancer is replacing the Resource Scheduler. 
 
 #### **The SHARE event type in the Event Subscriptions API.** 
   

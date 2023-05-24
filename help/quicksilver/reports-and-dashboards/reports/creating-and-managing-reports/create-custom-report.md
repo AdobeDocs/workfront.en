@@ -124,7 +124,8 @@ To watch a video of how to create a report, see this [Create a custom report](#W
    >
    >If you add a field that references an object that is too far removed from the object that you're reporting on, you may not be able to sort by this field.  
    >For example, an issue report cannot sort by the Project Owner field because it references 3 additional objects: Project, Owner, and Name. However, you can still add this field to an issue report and see the information for it.  
-   >To learn more about cross-object references in reports, see the section "Advanced Reporting Part 1 of 3" in the [Reports and Dashboards Learning Path](https://one.workfront.com/s/learningpath2/workfront-reporting-MC7MZT2BOL2ZC2LMJ4MA3EMHOCNY?tabset-dc70e=2).
+   
+   <!--outdated: To learn more about cross-object references in reports, see the section "Advanced Reporting Part 1 of 3" in the [Reports and Dashboards Learning Path](https://one.workfront.com/s/learningpath2/workfront-reporting-MC7MZT2BOL2ZC2LMJ4MA3EMHOCNY?tabset-dc70e=2).-->
 
 1. (Optional) If you are using groupings and you want to summarize (aggregate) the information in a column, click the **Summarize this column by** drop-down list in the **Column Settings** area, then select the option you want to use to aggregate the information in the column.
 

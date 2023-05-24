@@ -28,7 +28,9 @@ For more information about the type of hours you can log in Workfront, see [Mana
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
    <td> <p>Current license: Light or higher</p>
-   <p>Legacy license: Review or higher</p> </td> 
+   <p>Legacy license: 
+   <ul><li>Review or higher to log General Hours in a timesheet</li>
+   <li>Work or higher to log hours on a project, task, or issue</li></ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
@@ -54,7 +56,9 @@ You must have the following access to perform the steps in this article and log 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Review or higher</p> </td> 
+   <td> <ul><li>Review or higher to log General Hours in a timesheet</li>
+   <li> Work or higher to log hours on a project, task, or issue</li></ul>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
@@ -62,7 +66,7 @@ You must have the following access to perform the steps in this article and log 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>Contribute or higher permissions on the work item you log time for that includes permissions to Log Hours</p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+   <td> <p>Contribute or higher permissions on the work item you log time for that includes permissions to Log Hours.</p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -90,6 +94,7 @@ You can log time in the following areas in Workfront:
 * [Home](#home) 
 * [Project, task, or issue](#project-task-or-issue) 
 * [Summary panel](#summary-panel)
+* [Boards](#boards)
 * [Mobile app](#mobile-app)
 
 ### Timesheet {#timesheet}
@@ -232,9 +237,16 @@ You can log general hours or project-specific hours on a timesheet.
 
    >[!IMPORTANT]
    >
-   >If a job role for which you logged time has changed and the **Assign job roles to hour entries manually** setting has been disabled, you must manually save your time entries. The timesheet will again save your time automatically only when there is no longer any time logged for the job role that has changed. 
+   >You must save the timesheet manually if any of the following scenarios occur:
    >
-   >If the role has changed and the **Assign job roles to hour entries manually** setting is enabled, you can log time or update the role and your changes are saved automatically. 
+   >* The job role associated with time that you previously logged has changed and the **Assign job roles to hour entries manually** setting has been disabled. Logging time for new dates will associate it with a different job role.
+   >   
+   >   If the role has changed and the **Assign job roles to hour entries manually** setting is enabled, you can log time or update the role and your changes are saved automatically.
+   >
+   >* The job role assigned to a task or issue is different than the job role the timesheet owner is logging time with <!--or assigned to them_ this last  piece came from a Support note but but sure what role it's referring to. Leaving it out for now.-->.
+   >
+   >The timesheet will again save the time automatically when there are no more conflicting entries between the two roles.
+   >
 
 1. (Optional) Specify the amount of overtime in the Overtime field in the timesheet's header. 
 
@@ -384,7 +396,12 @@ For more information, see [Summary overview](../../workfront-basics/the-new-work
 
 ![](assets/summary-hour-log.png)
 
+### Boards {#boards}
+
+You can log time on connected cards on a Workfront board. This is the same process as logging time on a task or issue, and the hours logged on the card are saved on the connected task or issue.
+For more information, see [Use connected cards on boards](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
 
 ### Mobile app {#mobile-app}
 
 You can log time from the Workfront mobile app.
+For more information, see [Adobe Workfront for Android](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-android.md) or [Adobe Workfront for iOS](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md).

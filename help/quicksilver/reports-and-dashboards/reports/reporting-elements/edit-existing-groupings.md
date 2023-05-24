@@ -1,7 +1,7 @@
 ---
 title: Edit existing groupings
 description: Edit existing groupings
-author: Lisa
+author: Nolan
 feature: Reports and Dashboards
 exl-id: bd9e6794-3196-4a73-a86a-9ba6048e613b
 ---
@@ -27,7 +27,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Adobe Workfront license*</strong></td> 
-   <td> <p>Plan </p> </td> 
+   <td> <p>Request or higher </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Access level configurations*</strong></td> 

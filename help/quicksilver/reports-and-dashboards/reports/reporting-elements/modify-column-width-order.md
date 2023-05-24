@@ -3,7 +3,7 @@ product-area: reporting
 navigation-topic: reporting-elements
 title: Modify column width and order
 description: Review this article to learn about column width guidelines and how to chang the column width and order in Workfront.
-author: Lisa
+author: Nolan
 feature: Reports and Dashboards
 exl-id: ece3f908-a0da-45d4-9f4f-0b34c69ce8fa
 ---
@@ -42,7 +42,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Adobe Workfront license*</strong></td> 
-   <td> <p>Plan </p> </td> 
+   <td> <p>Request or higher </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Access level configurations*</strong></td> 

@@ -46,7 +46,7 @@ The following table is a list of commonly used terms in Adobe Workfront:
    <td>[!UICONTROL Actual Expense Cost]</td> 
    <td> <p>The sum of the [!UICONTROL Actual Amounts] for all expenses logged for a project or a task.</p> <b>EXAMPLE </b>
    <p>If you create an expense for Task 1 and enter $600.00 in the [!UICONTROL Actual Amount] field, the [!UICONTROL Actual Expense Cost] for this task is $600.00. </p> 
-   <p>For a project, [!DNL Workfront] uses the following formula to calculate [!UICONTROL Actual Expense Cost]:</p> <p><code>Project Actual Expense Cost = SUM (All Project Actual Expense Costs) + SUM (All Tasks Actual Expense Costs)</code> <br> </p> 
+   <p>For a project, [!DNL Workfront] uses the following formula to calculate [!UICONTROL Actual Expense Cost]:</p> <p><code>Project Actual Expense Cost = SUM (All Project Actual Expense Costs) + SUM (All Tasks Actual Expense Costs) + Project Fixed Cost</code> <br> </p> 
    <!--
      <p>Important: If the value in the Actual Amount field for an expense is negative, Workfront will ignore that expense record. For example, if the value in the Planned Amount field is $200.00 but the value in the Actual Amount field is -$300.00, the system will ignore this entire expense record which means you would not include the $200.00 planned value or the -$300.00 actual value in any calculations for Planned Expense Cost or Actual Expense Cost. (drafting this because not sure if this is still correct)</p>
     --> </td> 
@@ -216,10 +216,21 @@ The following table is a list of commonly used terms in Adobe Workfront:
    <td>[!UICONTROL Automatic And On Change]</td> 
    <td> <p>One of the [!UICONTROL Project Update] types. This will recalculate the Project's Projected and Planned timelines when the nightly recalculation process runs and when any update is made to the Project or Tasks within the Project. </p> <p>For more information, see <a href="../../../manage-work/projects/manage-projects/select-project-update-type.md" class="MCXref xref">Select the project Update Type </a>.</p> </td> 
   </tr> 
+  
+  <tr> 
+   <td><p>Availability</p></td> 
+   <td> <p>This term is used in relation to "user availability" or "resource availability" and it illustrates the amount of time that the resource (user or job role) is available to work. </p> 
+   <p>Workfront calculates user availability using several fields and depending on what the settings of the Resource Management preferences are in your system. For more information, see <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md">Configure Resource Management preferences</a>. </p>
+   <p>For more information about resource availability, see <a href="../../../resource-mgmt/resource-mgmt-overview/get-started-resource-management.md">Get started with Resource Management</a></p>
+   Alternately, "capacity" is also used to refer to resource availability. 
+   </td> 
+  </tr> 
+
   <tr> 
    <td>[!UICONTROL Automatic Only]</td> 
    <td> <p>One of the [!UICONTROL Project Update] types. This will recalculate Projected and Planned timelines when the nightly recalculation process runs.</p> <p>For more information, see <a href="../../../manage-work/projects/manage-projects/select-project-update-type.md" class="MCXref xref">Select the project Update Type</a>.</p> </td> 
   </tr> 
+  
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL BAU]</td> 
    <td>"Business as usual" work that contributes to running the everyday primary business goals.</td> 
@@ -248,7 +259,7 @@ The following table is a list of commonly used terms in Adobe Workfront:
 
   <tr> 
    <td>[!UICONTROL Branding]</td> 
-   <td>The process of customizing [!DNL Workfront] to give the interface an appearance that mirrors your company by using your colors and logos.</td> 
+   <td><p>The process of customizing [!DNL Workfront] to give the interface an appearance that mirrors your company by using your colors and logos.</p><p><strong>NOTE</strong><br>If your organization has been onboarded to [!DNL Adobe Experience Cloud], branding is not available.</p></td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Breadcrumbs]</td> 
@@ -464,6 +475,12 @@ The following table is a list of commonly used terms in Adobe Workfront:
     <td>The total availability (measure in either hours or FTE) of a designated user, resource pool, team, rob role, or company.</td> 
    </tr>
   --> 
+  
+  <tr> 
+   <td> <p>Capacity</p> </td> 
+   <td> <p>A resource's available time when they can be allocated to work. See "Availability". </p></td> 
+  </tr> 
+    
   <tr> 
    <td> <p>[!UICONTROL Category]</p> </td> 
    <td> <p>A category is a custom form. You can build reports for this object and you can show it in other object reports, as well. Not all objects can have a custom form, or category. The following objects can have a custom form: <br></p> 
@@ -688,7 +705,7 @@ The following table is a list of commonly used terms in Adobe Workfront:
 
 ## D - F
 
-<table style="table-layout:auto"> 
+ <table style="table-layout:auto"> 
  <col> 
  <col> 
  <thead> 
@@ -767,11 +784,10 @@ The following table is a list of commonly used terms in Adobe Workfront:
      <li>[!UICONTROL Calculated Work]</li> 
      <li>[!UICONTROL Effort Driven]</li> 
      <li>[!UICONTROL Simple]</li> 
-    </ul> <p>For more information, see <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Overview of Task [!UICONTROL Duration] and [!UICONTROL Duration Type]</a>.</p> <!--
-     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Task field used by the planner to set how the work required is allocated to the assignees across the duration.</p>
+    </ul> <p>For more information, see <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Overview of Task [!UICONTROL Duration] and [!UICONTROL Duration Type]</a>.</p> 
     --> </td> 
-  </tr> 
-  <tr> 
+   </tr> 
+   <tr> 
    <td>[!UICONTROL Duration Unit]</td> 
    <td>The unit that is used to measure time in a power search.</td> 
   </tr> 
@@ -822,10 +838,31 @@ The following table is a list of commonly used terms in Adobe Workfront:
    <td>[!UICONTROL External]</td> 
    <td> <p>Typically, a license type, or a user with such a license, which only has the ability to review information in the system.</p> <p>For more information, see <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">[!DNL Adobe Workfront] licenses overview</a>.</p> </td> 
   </tr> 
-  <tr data-mc-conditions="SnippetConitions_MaturityModel.Optimized"> 
+  <tr> 
    <td>[!UICONTROL External System]</td> 
    <td>Any services or software that is stored and governed outside the designated system of record.</td> 
   </tr> 
+
+ <tr> 
+   <td>[!UICONTROL Field]</td> 
+   <td><p>Any Workfront object or the information associated with it, as it appears in the database. </p>
+   <p>For example, "project", "user", "hour" are both Workfront objects as well as fields. "Name", "status", "owner", "start date" are Workfront fields that are associated with the above objects. </p>
+
+   <p>When referring to objects, the tems "objects" and "fields" can be used interchangeably.</p>
+   <p>In the scope of reporting, the "fields" refer to the objects or the information about the object that you want to capture in the report.</p>
+   
+   <p><b>NOTE</b></p>
+
+  <p>In text-more reporting, fields refer to the the objects or their information as it appears in the database.</p>
+   <p>Sometimes the name that you see in the user interface is different than the name of the field in the database. For example, "issue" is the name of the object in the Workfront interface, but "opTask" is the name of the object (or the field) in the Workfront database. </p> 
+   <p> It's important to use the field as it appears in the databse when writing a text-mode report, view, filter, or grouping, or when creating a calculated field.</p>
+
+   <p>For more information, see <a href="../../../wf-api/general/api-explorer.md">API Explorer</a> and <a href="../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md">Text Mode overview</a>.</p>  
+
+   <p>By default, Workfront comes with a set of fields that define both objects and their information. You can also create custom fields to define objects, but you cannot create custom objects.</p> 
+   </td> 
+  </tr>
+
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Ad hoc"> 
    <td>[!UICONTROL Filter]</td> 
    <td> <p>One of the main building blocks of a report or a list element that defines what information displays on the screen. For more information about reporting elements, see <a href="../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md" class="MCXref xref">Reporting elements: filters, views, and groupings</a>.</p> <p>The Filter determines the results that display in a report or on an [!DNL Workfront] panel listing, like projects, tasks, or issues.</p> </td> 
@@ -852,15 +889,40 @@ The following table is a list of commonly used terms in Adobe Workfront:
   </tr> 
   <tr> 
    <td>[!UICONTROL Folder]</td> 
-   <td>Folders are used to organize documents or reports associated with an object.</td> 
-  </tr> <!--
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode,SnippetConitions_MaturityModel.Integrated"> 
-    <td>FTE</td> 
-    <td>The designated full time equivalency for users. A full-time user should have 100% FTE and part-time user should have a percentage that equals their working hours.</td> 
-   </tr>
-  --> 
- </tbody> 
-</table>
+   <td>Folders are used to organize documents or reports associated with an object.</td> </tr>
+  <tr>
+  <td>[!UICONTROL FTE] (Full Time Equivalent)</td> 
+   <td>This is the Full Time Equivalent which indicates the amount of time that a resource is available for work. 
+   The [!UICONTROL FTE] field displays in the following areas: 
+  <ul>
+   <li> User's profile, when editing or creating the user </li>
+   <li> [!UICONTROL Resource Planner] </li>
+   <li> [!UICONTROL Scenario Planner] (requires additional license for the Workfront Scenario Planner) </li>
+   <li> User lists and reports </li> </ul>
+    
+   <p>The [!UICONTROL FTE] must be a decimal number up to 1, and it cannot be 0. </p>
+   <p> An [!UICONTROL FTE] of 1 (which is the default for a user's [!UICONTROL FTE] field, as defined in their profile) means that a resource (user or role) works the entire number of hours, based on the schedule that calculates their availability. </p>
+   <p>Your Workfront administrator decides which schedule to use in determining user's availability.  </p>
+   <ul>
+   <li> When the [!UICONTROL Default Schedule] is used, Workfront uses the [!UICONTROL FTE] of the user found in their profile to calculate availability. </li>
+   <li> When the User's Schedule is used, Workfront uses the user's time off, [!UICONTROL Work Time] value, and [!UICONTROL Default Schedule]'s hours to calculate the user's [!UICONTROL FTE]. </li> </ul>
+    
+   <p>For more information, see <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md">Configure Resource Management preferences</a>.  </p>
+   <p>For more information about creating schedules in [!DNL Workfront], see <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md">Create a schedule</a>. </p>
+
+   <p><b>NOTE</b></p>
+   <p>For all calculations in the [!UICONTROL Scenario Planner], Workfront uses the following value: 1 [!UICONTROL FTE] = 8 Hours.</p>
+   <p>For more information, see <a href="../../../scenario-planner/get-started-with-scenario-planning.md">Get started with the [!UICONTROL Scenario Planner]</a>. </p>
+   </td> </tr> 
+   </tbody> 
+   </table>
+
+<!--
+     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Task field used by the planner to set how the work required is allocated to the assignees across the duration.</p>
+<!--
+FTE
+The designated full time equivalency for users. A full-time user should have 100% FTE and part-time user should have a percentage that equals their working hours. 
+--> 
 
 ## G - I
 
@@ -1253,7 +1315,7 @@ The following table is a list of commonly used terms in Adobe Workfront:
   </tr> 
   <tr> 
    <td>[!UICONTROL Object]</td> 
-   <td> <p>An organization's work items and reports, as well as the groups of users that manage them in [!UICONTROL Workfront]. Objects can be:</p> 
+   <td> <p>The information you display in [!DNL Adobe Workfront] is represented by objects which are stored in the [!DNL Workfront] database. The objects are what drives the information in Workfront. Some examples of objects are:</p> 
     <ul> 
      <li>[!UICONTROL Portfolios]</li> 
      <li>[!UICONTROL Programs]</li> 
@@ -1267,7 +1329,17 @@ The following table is a list of commonly used terms in Adobe Workfront:
      <li>[!UICONTROL Teams]</li> 
      <li>[!UICONTROL Users]</li> 
      <li>[!UICONTROL Companies]</li> 
-    </ul> <p>For more information, see <a href="../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md" class="MCXref xref">Understand objects in [!UICONTROL Adobe Workfront]</a>.</p> </td> 
+     <li>[!UICONTROL Custom forms]</li>
+     <li>[!UICONTROL Custom fields]</li>  
+     <li>[!UICONTROL Hours]</li> 
+     <li>[!UICONTROL Billing Rates]</li> 
+     <li>[!UICONTROL Templates]</li> 
+     <li>[!UICONTROL Template tasks]</li> 
+
+  <p><b>NOTE</b></p>
+  <p>This is not an extensive list. </p>
+
+  </ul> <p>For more information, see <a href="../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md" class="MCXref xref">Understand objects in [!UICONTROL Adobe Workfront]</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Object Types]</td> 
@@ -1410,7 +1482,7 @@ The following table is a list of commonly used terms in Adobe Workfront:
   </tr> 
   <tr> 
    <td>[!UICONTROL Planned]</td> 
-   <td> <p>The time frame within which something is scheduled to occur. When you create projects, tasks, or issues in [!DNL Workfront], you establish the planned start and end dates, as well as the planned timeframe during which they occur. These values represent your original intention or estimate of how long a work time should take to complete. </p></td> 
+   <td> <p>The time frame within which something is scheduled to occur. When you create projects, tasks, or issues in [!DNL Workfront], you establish the planned start and end dates, as well as the planned timeframe during which they occur. These values represent your original intention or estimate of how long an item should take to complete. </p></td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Planned Benefit]</td> 
@@ -1863,7 +1935,7 @@ The following table is a list of commonly used terms in Adobe Workfront:
   </tr> 
   <tr> 
    <td>[!UICONTROL Schedule Exemption]</td> 
-   <td>Also known as a [!UICONTROL Modified Shift]. Days scheduled in contrast to the regular weekly work times as defined by the schedule. For example, a Saturday scheduled to work, when the Schedule is set up to only Work Monday Through Friday, would be a [!UICONTROL Schedule Exemption].</td> 
+   <td>Also known as a [!UICONTROL Modified Shift]. Days scheduled in contrast to the regular weekly working times as defined by the schedule. For example, a Saturday scheduled to work, when the Schedule is set up to only Work Monday Through Friday, would be a [!UICONTROL Schedule Exemption].</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Scheduled Report]</td> 
@@ -1911,7 +1983,20 @@ The following table is a list of commonly used terms in Adobe Workfront:
   </tr> 
   <tr> 
    <td>[!UICONTROL Source]</td> 
-   <td> <p>Indicates the parent object of another object. For example, a document attached to a task has the name of the task in the [!UICONTROL Source] field of a [!UICONTROL Document] report or view; an issue logged under a project has the name of the project in the [!UICONTROL Source] field of an Issue report or view. </p> </td> 
+   <td> <p>Indicates the parent object of another object. For example, a document attached to a task has the name of the task in the [!UICONTROL Source] field of a [!UICONTROL Document] report or view; an issue logged under a project has the name of the project in the [!UICONTROL Source] field of an Issue report or view. </p> 
+   <p>The following reports display a Source column where you can view information about the parent object:</p>
+  <ul><li>Issue reports</li>
+    <li>Hour reports</li>
+    <li>Document reports </li>
+    </ul>
+   <p>If users don't have permissions to the parent object of an issue, hour, or document, the Source column of the report displays empty, even when the report is configured to display, or to be delivered with the access rights of another user. </p>
+   <p> In order to show information about the parent object in the report, we recommend adding a column for the parent object where you can display the name of the parent. </p>
+    <p>For example, you can add any of the following to a report with a Source column: </p>
+    <ul><li>The Project Name, Task Name, or Issue Name columns to a document or hour report.</li>
+    <li>The Project Name or Task Name columns to an issue report. </li> </ul>
+    For more information, see <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/run-deliver-report-access-rights-another-user.md">Run and deliver a report with the access rights of another user</a> 
+   
+   </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Start Date]</td> 
@@ -2282,10 +2367,26 @@ The following table is a list of commonly used terms in Adobe Workfront:
   <tr> 
    <td>[!UICONTROL Workflow template]</td> 
    <td>In the [!UICONTROL Proof Approval] report, this field displays any workflow templates attached to a proof. If there are no templates attached, the column is blank.</td> 
+  </tr>
+
+  <tr> 
+   <td>[!UICONTROL Work Time]</td> 
+   <td>  
+ 
+   <p>Represents the percentage of the Full Time Equivalent ([!UICONTROL FTE]) time that the user is available for actual work, not including overhead. [!UICONTROL Work Time] must be a decimal number up to 1, and it cannot be 0. For example, a 20% availability for actual work would be 0.2.</p>
+   </p>The field's default is 1, indicating that a user spends their entire [!UICONTROL FTE] on actual, project-related work.  </p>
+   <p>The system uses this number to calculate the availability of the user for actual, project-related work. </p>
+   <p> Schedule exceptions and time off might also affect the user capacity. </p>
+   <p>For more information about creating schedules in Workfront, see <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md">Create a schedule</a>. </p>
+    <p>Workfront calculates a user's availability depending on the Resource Management preferences in your [!UICONTROL Setup] area. For more information, see <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md/">Configure Resource Management preferences</a>. </p> 
+   <p>You can update the [!UICONTROL Work Time] of a user when you edit or create the user. For information, see <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md">Edit a user's profile</a></p> 
+   <b>TIP</b> 
+   <p>Set the [!UICONTROL Work Time] value to  1 to indicate that the user is available for project-related work their entire full-time equivalent.</p> 
+   </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Working time]</td> 
-   <td>The data that makes up your schedules.</td> 
+   <td>In Workfront documentation, this term is used to describe the time allocated to work, according to a schedule.</td> 
   </tr> 
   <tr> 
    <td><code>[!UICONTROL workRequiredExpression]</code> </td> 

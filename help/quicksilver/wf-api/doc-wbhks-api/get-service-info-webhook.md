@@ -4,7 +4,7 @@ product-area: documents
 navigation-topic: documents-webhooks-api
 title: Get information about the service
 description: Get information about the service
-author: John
+author: Becky
 feature: Workfront API
 exl-id: a3a423ff-29a6-466e-a568-f64e02dcb484
 ---

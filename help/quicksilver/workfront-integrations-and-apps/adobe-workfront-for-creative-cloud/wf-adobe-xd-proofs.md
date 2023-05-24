@@ -64,7 +64,8 @@ You must have the following access to perform the steps in this article:
 
    >[!TIP]
    >
-   >To select more than one artboard, click and drag the mouse over the artboards you want.
+   >* Artboards will appear in the proof in the order they were selected. The first selected artboard will be the first page in the proof, and so on.
+   >* To quickly select more than one artboard, click and drag the mouse over the artboards you want. This does not allow you to control the order of artboards in the proof.
 
 1. Enable **[!UICONTROL Create a Proof]**.
 
@@ -92,6 +93,8 @@ You must have the following access to perform the steps in this article:
      </tr> 
     </tbody> 
    </table>
+
+{{adjust-proof-settings}}
 
 1. (Optional) Type a comment in the **[!UICONTROL Updates]** area.
 
@@ -167,6 +170,8 @@ You can create an interactive proof for your artboards with the [!DNL Workfront 
     </tbody> 
    </table>
 
+{{adjust-proof-settings}}
+
 1. (Optional) Type a comment in the **[!UICONTROL Updates]** area.
 
    ![](assets/proof-approvals-xd-350x396.png)
@@ -223,6 +228,8 @@ You can upload a new version of a proof. The plugin remembers the proofing workf
      </tr> 
     </tbody> 
    </table>
+
+{{adjust-proof-settings}}
 
 1. Choose the export format from the **[!UICONTROL Asset Type]** drop-down menu.
 
