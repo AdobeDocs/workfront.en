@@ -128,6 +128,12 @@ You must create record types before you can create fields to associate with them
     * [Multi-select](#multi-select) 
     * [Date](#date)
     * [Relationship](#relationship)
+
+    >[!IMPORTANT]
+    >
+    >    You cannot change the type of the field after you save it. 
+
+    
 1. Continue with adding each field, as described in the sections below. 
 
 ### Number {#number}
@@ -140,7 +146,7 @@ Number field types capture information in a number format.
 1. Add the following information:
 
     * **Name**: The name of the field type, as it will appear in a table or the Details page of the record. 
-    * **Description**: Additional information about the field.
+    * **Description**: Additional information about the field. The description of a field displays when you hover over the field's column in a table. 
     * **Precision**: The number of decimals that you want to record for the field. You can display up to 6 decimals.
     * **Allow negative numbers**: Select this option if you want to allow negative numbers in this field. This option is deselected by default. <!--Add this if they added this functionality: You cannot edit this option after you save the field.-->
 1. Click **Create**.
@@ -149,7 +155,7 @@ Number field types capture information in a number format.
 
 ### Percentage {#percentage}
 
-Percentage field types capture information in a percentage format. 
+Percentage field types capture information in a number format followed by a percentage sign. 
 
 1. Start creating a field as described in the section [Create fields from scratch](#create-fields-from-scratch) in this article, then select the **Percentage** field type.
 
@@ -157,16 +163,16 @@ Percentage field types capture information in a percentage format.
 
 1. Add the following information:
      * **Name**: The name of the field type, as it will appear in a table or the Details page of the record. 
-     * **Description**: Additional information about the field.
+     * **Description**: Additional information about the field. The description of a field displays when you hover over the field's column in a table. 
     * **Precision**: The number of decimals that you want to record for the field. You can display up to 6 decimals.
     * **Allow negative numbers**: Select this option if you want to allow negative percentage values in this field. This option is deselected by default. <!--Add this if they added this functionality: You cannot edit this option after you save the field.-->
 1. Click **Create**. 
 
     The new percentage field is added as a column to the record type and its values can be associated with records. The field also displays on the Details page of a record. 
-<!--LEFT HERE ON MAY 24-->
+
 ### Currency {#currency}
 
-You can use number fields to capture information in a currency format. 
+Currency field types capture information in a number format preceded by a currency symbol. 
 
 1. Start creating a field as described in the section [Create fields from scratch](#create-fields-from-scratch) in this article, then select the **Currency** field type.
 
@@ -174,17 +180,17 @@ You can use number fields to capture information in a currency format.
 
 1. Add the following information:
      * **Name**: The name of the field type, as it will appear in a table or the Details page of the record. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
-     * **Description**: Additional information about the field.
-     * **Currency**: The type of currency you want to display in this field.
+     * **Description**: Additional information about the field. The description of a field displays when you hover over the field's column in a table.
+     * **Currency**: The type of currency you want to display in this field. <!--asked the teams where this list is coming from. If you know, add a note here-->
       * **Precision**: The number of decimals that you want to record for the field. You can display up to 6 decimals.
-    * **Allow negative numbers**: Select this option if you want to allow negative currency values in this field. This option is deselected by default.
+    * **Allow negative numbers**: Select this option if you want to allow negative currency values in this field. This option is deselected by default. <!--Add this if they added this functionality: You cannot edit this option after you save the field.-->
 1. Click **Create**. 
 
     The new currency field is added as a column to the record type and its values can be associated with records. The field also displays on the Details page of a record. 
 
 ### Single-line text {#single-line-text}
 
-You can use the single-line text field to capture limited alphanumeric information like Owner, Stakeholder, Team, or Organizational unit.
+Single-line text fields capture limited alphanumeric information like Owner, Stakeholder, Team, or Organizational unit. The content of a single-line text field can have up to 250 characters. <!-- asked Lilit if we can change this to "Single-line" since this can have numbers and text.-->
 
 1. Start creating a field as described in the section [Create fields from scratch](#create-fields-from-scratch) in this article, then select the **Single-line text** field type.
 
@@ -192,14 +198,14 @@ You can use the single-line text field to capture limited alphanumeric informati
 
 1. Add the following information:
      * **Name**: The name of the field type, as it will appear in a table or the Details page of the record. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
-     * **Description**: Additional information about the field.
+     * **Description**: Additional information about the field. The description of a field displays when you hover over the field's column in a table.
 1. Click **Create**. 
 
     The new single-line field is added as a column to the record type and its values can be associated with records. The field also displays on the Details page of a record. 
 
 ### Paragraph {#paragraph}
 
-You can use a paragraph field to capture additional lenghty alphanumeric information, similar to the Description field. 
+Paragraph fields capture additional alphanumeric information, similar to the Description field. The content of a paragraph field can have up to 1,000 characters. 
 
 1. Start creating a field as described in the section [Create fields from scratch](#create-fields-from-scratch) in this article, then select the **Paragraph** field type.
 
@@ -208,14 +214,14 @@ You can use a paragraph field to capture additional lenghty alphanumeric informa
 
 1. Add the following information:
      * **Name**: The name of the field type, as it will appear in a table or the Details page of the record. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
-     * **Description**: Additional information about the field.
+     * **Description**: Additional information about the field. The description of a field displays when you hover over the field's column in a table.
 1. Click **Create**. 
 
     The new paragraph field is added as a column to the record type and its values can be associated with records. The field also displays on the Details page of a record. 
 
 ### Single-select {#single-select}
 
-You can use a single-select field to capture additional information in any format by selecting one option from a drop-down menu. 
+Single-select fields capture additional information in any format by selecting one option from a drop-down menu. 
 
 1. Start creating a field as described in the section [Create fields from scratch](#create-fields-from-scratch) in this article, then select the **Single-select** field type.
 
@@ -224,8 +230,8 @@ You can use a single-select field to capture additional information in any forma
 
 1. Add the following information:
      * **Name**: The name of the field type, as it will appear in a table or the Details page of the record. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
-     * **Description**: Additional information about the field.
-     * **Choices**: The options  available to select from the drop-down menu after the field is saved. You can have both numbers and letters for the name of each choice. Manually drag and drop each choice in the desired order, or select the **Sort choices A-Z** option if you want the choices to be automatically listed in alphabetical order.
+     * **Description**: Additional information about the field. The description of a field displays when you hover over the field's column in a table.
+     * **Choices**: The options  available to select from the drop-down menu after the field is saved. You can have both numbers and letters for the name of each choice. Manually drag and drop each choice in the desired order, or select the **Sort choices A-Z** option if you want the choices to be automatically listed in alphabetical order. <!--Add this if they added this functionality: You cannot edit this option after you save the field.-->
 1. Click **Add choice** to add as many choices or options as needed.      
 1. Click the **x** icon to the right of a choice to remove it.
 1. Click the color swatch to the left of a choice to expand the color selector and customize the color of each option. 
@@ -242,8 +248,8 @@ You can use a multi-select field to capture additional information in any format
 
 1. Add the following information:
      * **Name**: The name of the field type, as it will appear in a table or the Details page of the record. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
-     * **Description**: Additional information about the field.
-     * **Choices**: The options  available to select from the drop-down menu after the field is saved. You can have both numbers and letters for the name of each choice. Manually drag and drop each choice in the desired order, or select the **Sort choices A-Z** option if you want the choices to be automatically listed in alphabetical order.
+     * **Description**: Additional information about the field. The description of a field displays when you hover over the field's column in a table.
+     * **Choices**: The options  available to select from the drop-down menu after the field is saved. You can have both numbers and letters for the name of each choice. Manually drag and drop each choice in the desired order, or select the **Sort choices A-Z** option if you want the choices to be automatically listed in alphabetical order. <!--Add this if they added this functionality: You cannot edit this option after you save the field.-->
 1. Click **Add choice** to add as many choices or options as needed.      
 1. Click the **x** icon to the right of a choice to remove it.
 1. Click the color swatch to the left of a choice to expand the color selector and customize the color of each option. 
@@ -261,7 +267,7 @@ You can use a date field to capture additional information in date and time form
 
 1. Add the following information:
      * **Name**: The name of the field type, as it will appear in a table or the Details page of the record. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
-     * **Description**: Additional information about the field.
+     * **Description**: Additional information about the field. The description of a field displays when you hover over the field's column in a table.
      * **Date format**: The type of date format you want to display in this field.
         
         Select from the following formats:
@@ -303,7 +309,7 @@ You can create fields on a record type by linking it to another record type's fi
     >
     >We recommend that you include the name of the record you are linking to in the name of the relationship-type field to capture what record type the new field is coming from. 
 
-     * **Description**: Additional information about the relationship-type field.
+     * **Description**: Additional information about the relationship-type field. The description of a field displays when you hover over the field's column in a table. 
      * **Find a record type**: The record type that you want to link to. This is the linked record. 
      * **Allow multiple records**: This allows users to select multiple records when the linked record type field displays on the original records. This is selected by default.
 
@@ -386,3 +392,26 @@ To do this:
 In addition to the fields created automatically by Maestro when adding record types from another application, you can also add fields from the connected object. 
 
 For information about adding record types from other applications, see [Create operational record types](../maestro/create-operational-record-types.md). 
+
+
+## Edit fields
+
+You can edit information on fields that are already created. 
+
+Consider the following when editing fields: 
+
+* You can edit a field in the record type table. You cannot edit a field from the Details page of a record. 
+* You cannot edit the field type after the field is saved. 
+* You cannot edit the options, or the special format of the following fields, after they are saved:
+
+    * Allow negative numbers option from a Number, Percentage, or Currency field. 
+    * The Options of a Single-select or a Multi-select field.
+
+
+To edit a field:
+
+1. Go to the record type you want to edit a for. 
+1. Find the field you want to edit in the column headers, hover over the column heard, then click the downward-pointing arrow after the field name. 
+1. Click **Edit** field. 
+
+<!--LEFT HERE ON MAY 24, 2023 >
