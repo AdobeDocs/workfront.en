@@ -8,8 +8,6 @@ exl-id: bc58cc77-a177-417f-a5a4-eec51e305219
 ---
 # Configure the [!UICONTROL Experience Manager Assets as a Cloud Service] integration
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.</span>
-
 You can connect your work with your content in [!DNL Experience Manager Assets]​:
 
 * Push assets and metadata from [!DNL Adobe Workfront] to [!DNL Experience Manager Assets]​
@@ -218,8 +216,6 @@ An [!DNL Experience Manager] fields that is mapped to [!DNL Workfront] portfolio
 
 <!--Courtney start here-->
 
-<div class=preview>
-
 ## Set up workflows (Optional)
 
 A workflow is a set of actions that connect Workfront to Adobe Experience Manager as a Cloud Service. As a Workfront administrator, you can configure workflows in Workfront, then assign them to Project Templates. When a Project is created using a Project Template to which a workflow is assigned, the actions defined in the workflow are triggered. 
@@ -233,8 +229,6 @@ The default workflow values that you set in the integration can be overridden at
    ![Linked folder navigation](assets/select-folder-aem-integration.png)
 1. Enable the **Append Portfolio and Program Names** option to automatically include Portfolio and Program names at the end of the linked folder's name.
 1. Click **Save** or move on to the [Set up linked folders (Optional)](#set-up-linked-folders-optional) section in this article.
-
-</div>
 
 <!--Courtney end here-->
 
