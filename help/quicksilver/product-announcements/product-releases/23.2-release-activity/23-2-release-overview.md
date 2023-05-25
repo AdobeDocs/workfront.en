@@ -650,7 +650,7 @@ For information about the maintenance updates made during the 23.2 release, see 
 
 ### Training updates
 
-Explore the latest updates made to learning programs, learning paths, videos, and guides for each Adobe Workfront product release. For more information, see the [Training release updates page](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html).
+Explore the latest updates made to learning programs, learning paths, videos, and guides for each Adobe Workfront product release. For more information, see the "What's New" section of the [Workfront Tutorials page](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html).
 
 ### Functionality soon to be removed from Workfront
 
