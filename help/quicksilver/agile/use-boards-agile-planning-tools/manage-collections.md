@@ -97,7 +97,7 @@ A source determines where the cards in the workstream come from.
 1. Click the [!UICONTROL **Sources**] icon ![Sources icon](assets/sources-icon.png) to define a source to import cards into the workstream. At this time, the only available source is [!DNL Adobe Workfront].
 1. Add filters to import tasks and issues from Workfront as cards.
 
-   Adding filters for workstream sources is the same as addin advanced filters for an intake column on a basic board or Kanban board. For more information, see [Add an intake column to a board](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md).
+   Adding filters for workstream sources is the same as adding advanced filters for an intake column on a basic board or Kanban board. For more information, see [Add an intake column to a board](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md).
 
 ## Configure a workstream
 
