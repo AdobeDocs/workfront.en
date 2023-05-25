@@ -13,7 +13,7 @@ hide: yes
 
 # Create Maestro fields
 
-In Adobe Maestro, you can create custom fields for operational record type or taxonomy. You can then associate the fields with Maestro records to enhance the information you store about records. 
+In Adobe Maestro, you can create custom fields for operational record types or taxonomies. You can then associate the fields with Maestro records to enhance the information you store about records. 
 
 You must create record types before you can create fields to associate with them. For information, see [Create operational record types](../maestro/create-operational-record-types.md). 
 
@@ -66,38 +66,53 @@ You must create record types before you can create fields to associate with them
 
 * Fields associated with a record type cannot be added to another record type. <!-- this will change when they open the Field library tab when creating a field-->
 
-* Maestro creates fields by default every time you create a record type. The following are standard fields created by default for each new operational record type:
+* You can create fields in Maestro manually or automatically in the following ways:
 
-    * Name
-    * Description
-    * Start Date
-    * End Date
-    * Status. The default values for record statuses are:
-        * Development
-        * Planned
-        * Active
-        * Completed
-        * On Hold
+    * Automatically create Maestro fields: 
 
-    The following are the fields created by default for each new taxonomy record type:
+        * Maestro creates fields by default every time you create a record type. 
 
-    * Name <!--will more be added? If not, consider rephrasing this bullet-->
+            The following are standard fields created by default for each new operational record type:
 
-    You can add more values or rename the existing ones. 
+            * Name
+            * Description
+            * Start Date
+            * End Date
+            * Status. The default values for record statuses are:
+                * Development
+                * Planned
+                * Active
+                * Completed
+                * On Hold
 
-* You can view and update all the fields that any other user added to any record type. <!--this will change with access/ permissions-->
+                You can add more values or rename the existing ones. 
 
-* You can also automatically create field by doing one of the following:
-    * Linking existing record types together and accessing the fields from the linked record type, when using Relationship-type fields. 
-    
-        For more information, see the [Create fields by linking record types](#create-fields-by-linking-record-types) section in this article. 
-    * Linking new Maestro record types to objects from other applications and accessing their fields. 
-        <!--* Importing record types with fields using a CSV or an Excel file. - this is not available yet-->
+            The following are the fields created by default for each new taxonomy record type:
 
-        For more information about creating Maestro records by linking them to objects from other applications, see [Create operational record types](../maestro/create-operational-record-types.md).
-* You cannot have more than 500 fields for one record type.
+            * Name <!--will more be added? If not, consider rephrasing this bullet-->
+
+
+
+        * Link existing record types together and access the fields from the linked record type, when using Relationship fields. 
+            
+            For more information, see the [Create fields by linking record types](#create-fields-by-linking-record-types) section in this article. 
+        
+        * Link new Maestro record types to object types from other applications and access the fields of the linked object types. 
+        
+            <!--* Importing record types with fields using a CSV or an Excel file. - this is not available yet-->
+
+            For more information about creating Maestro record types by linking them to object types from other applications, see [Create operational record types](../maestro/create-operational-record-types.md).
+
+    * Manually, create Maestro fields from scratch:
+
+        * You can manually create fields on the record type page, in the Table view. The columns of the table are the fields associated with the record type. They are the same fields that display on a record's Details page. You cannot create fields from the Details page of a record. 
+
+* You can view and update the settings for fields that you or any other user created. <!--this will change with access/ permissions-->
+
+* You can have up to 500 fields for one record type.
+
 * Field names can have up to 250 characters.
-* You can create fields on the record type page, in the Table view. The columns of the table are the fields associated with the record type. They are the same fields that display on a record's Details page. 
+
 * When deleting an operational record type, taxonomy, or workspace, all fields associated with them are also deleted and cannot be recovered. <!-- this might change with a possible recycle bin solution?!-->
 
 
@@ -133,8 +148,9 @@ You must create record types before you can create fields to associate with them
     >
     >    You cannot change the type of the field after you save it. 
 
-    
 1. Continue with adding each field, as described in the sections below. 
+
+<!--LEFT HERE - MAY 25, 2023-->
 
 ### Number {#number}
 
@@ -387,31 +403,9 @@ To do this:
     >![](assets/example-multiple-values-separated-by-commas-no-aggregator.png)
 
 
-## Create fields by adding record types from other applications
+## Create Maestro fields when adding record types from other applications
 
-In addition to the fields created automatically by Maestro when adding record types from another application, you can also add fields from the connected object. 
+You can create Maestro fields when you create Maestro record types by linking them to object types from other applications.
 
 For information about adding record types from other applications, see [Create operational record types](../maestro/create-operational-record-types.md). 
 
-
-## Edit fields
-
-You can edit information on fields that are already created. 
-
-Consider the following when editing fields: 
-
-* You can edit a field in the record type table. You cannot edit a field from the Details page of a record. 
-* You cannot edit the field type after the field is saved. 
-* You cannot edit the options, or the special format of the following fields, after they are saved:
-
-    * Allow negative numbers option from a Number, Percentage, or Currency field. 
-    * The Options of a Single-select or a Multi-select field.
-
-
-To edit a field:
-
-1. Go to the record type you want to edit a for. 
-1. Find the field you want to edit in the column headers, hover over the column heard, then click the downward-pointing arrow after the field name. 
-1. Click **Edit** field. 
-
-<!--LEFT HERE ON MAY 24, 2023 >

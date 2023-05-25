@@ -22,6 +22,7 @@ This section contains the following articles:
 * [Delete workspaces](delete-workspaces.md)
 * [Delete record types](delete-record-types.md)
 * [Edit records](edit-records.md)
-* [Add record fields](add-record-fields.md)
 * [Manage record views](manage-record-views.md)
 * [Create Maestro fields](create-fields.md)
+* [Edit Maestro fields](edit-fields.md)
+* [Delete Maestro fields](delete-fields.md)
