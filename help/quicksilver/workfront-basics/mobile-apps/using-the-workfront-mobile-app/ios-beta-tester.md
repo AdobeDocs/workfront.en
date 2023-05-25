@@ -3,7 +3,7 @@ product-previous: mobile
 navigation-topic: use-the-workfront-mobile-app
 title: Be an iOS beta tester
 description: Review this article to become an iOS beta tester for the [!DNL Adobe Workfront] mobile app.
-author: Lisa
+author: Nolan
 feature: Get Started with Workfront
 exl-id: b02119ab-f4ea-4249-8d2c-b26df47e770d
 ---
