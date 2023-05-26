@@ -3,7 +3,7 @@ product-previous: mobile
 navigation-topic: use-the-workfront-mobile-app
 title: Review and make decisions on proofs in the [!DNL Adobe Workfront] mobile app
 description: When a proof is assigned to you for approval, it appears in your list of approvals in the mobile app. You can review the proof directly in the app and make a decision on it.
-author: Lisa
+author: Nolan
 feature: Get Started with Workfront
 exl-id: 4ab8dfd0-0a1f-425d-9e05-8e8134ce930a
 ---

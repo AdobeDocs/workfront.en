@@ -3,7 +3,7 @@ product-previous: mobile
 navigation-topic: use-workfront-view
 title: Get started with Adobe Workfront View
 description: You can keep track of the progress on your projects when you are on the go by using the [!DNL Adobe Workfront] View mobile app.
-author: Lisa
+author: Nolan
 feature: Get Started with Workfront
 exl-id: cca4d969-8237-49df-98fb-f70ee40a7e93
 ---
