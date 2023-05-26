@@ -1,0 +1,150 @@
+---
+title: Manage Relationship-type fields in Adobe Maestro
+description: You can use a Relationship-type field to link record types and their fields. By doing this, you can display fields from the linked record on another record.
+hidefromtoc: yes
+hide: yes
+---
+
+<!--udpate the metadata with real information when making this avilable in TOC and in the left nav-->
+
+
+# Manage Relationship-type fields in Adobe Maestro
+
+You can use a Relationship-type field to link record types and their fields. By doing this, you can display fields from the linked record on another record.
+
+## Access requirements
+
+<table style="table-layout:auto">
+ <col>
+ </col>
+ <col>
+ </col>
+ <tbody>
+  <tr>
+   <td role="rowheader"><p>Adobe Workfront plan*</p></td>
+   <td>
+<p>Any</p>
+<!--the above is only for closed beta; when going to GA - activate the following plans:    
+<p>Current plan: Prime and Ultimate</p>
+<p>Legacy plan: Enterprise</p>-->
+   </td>
+  </tr>
+  <tr>
+   <td role="rowheader"><p>Adobe Workfront license*</p></td>
+   <td>
+   <p>Any</p> 
+  <p>For more information, see <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p> </td>
+  </tr>
+  <tr>
+   <td role="rowheader"><p>Product</p></td>
+   <td>
+   <p> Adobe Workfront</p> </td>
+  </tr>
+  <tr>
+   <td role="rowheader">Access level*</td>
+   <td> <p>Any</p>  
+</td>
+  </tr>
+<tr>
+   <td role="rowheader">Layout template</td>
+   <td> <p>Your system administrator must add the Maestro area in your layout template. For information, see the "Enable Maestro for the users in your Workfront instance" section in the article <a href="../maestro/maestro-overview.md">Adobe Maestro overview</a>. </p>  
+</td>
+  </tr>
+ </tbody>
+</table>
+
+*If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see [Create or modify custom access levels](../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+
+
+## Create a Relationship-type field
+
+You can create fields on a record type by linking it to another record type's fields by creating a Relationship-type field. 
+
+1. Start creating a field for a record type, as described in the article [Create Maestro fields](../maestro/create-fields.md), then select the **Relationship** field type. This is the original record type. <!--check screen shot - logged a bug for a couple of changes here-->
+
+    ![](assets/relationship-field-type.png)
+
+1. Add the following information:
+     * **Name**: The name of relationship-type field, as it will appear in the table view or the Details page of a record of the original record type. This creates the linked record column in the table view of the original record type or the linked record field for the original records. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
+
+    >[!TIP]
+    >
+    >We recommend that you include the name of the record you are linking to in the name of the relationship-type field to capture what record type the new field is coming from. The name of the linked record is not visible in the new linked field. 
+
+     * **Description**: Additional information about the relationship-type field. The description of a field displays when you hover over the field's column in a table. 
+     * **Find a record type**: The record type that you want to link to. This is the linked record. <!-- logged a bug to rename this to Linked record type-->
+     * **Allow multiple records**: This allows users to select multiple records when the linked record type field displays on the original records. This is selected by default.
+
+1. (Optional) Select the fields that belong to the linked record type that you want to display as linked fields on the original records. Use the **search** icon ![](assets/search-icon.png) to search for a field. 
+
+    This creates the linked record field column in the table view of the record type or the linked record fields for the original records. A column or a linked field is added for each field you add from the linked record. 
+
+    If you don't select any of the fields, the name of the linked record is the only visible field in the original record's table view and in the Details page of the record. This is the linked record column or field for the original record type. 
+
+1. (Optional and conditional) For number, currency, percentage, or date-type fields, select how you want the values for the linked field to be aggregated. 
+
+    ![](assets/linked-field-aggregators-for-relationship-fields.png)
+
+    Select from the following:
+
+    * **MAX**: Displays the maximum value in a string of values.
+    * **MIN**: Displays the minimum value in  a string of values.
+    * **SUM**: Adds all the values of the linked fields. 
+    * **AVG**: Calculates the average of the values of the linked fields.
+
+    >[!TIP]
+    >
+    >If you do not select an aggregator, individual values display separated by commas.
+
+1. Click **Create**.
+
+    The following fields (or columns) are added to the original record type in the table view:
+        
+    * The linked record field with the name you selected in step 2. <!--ensure this stays accurate--> 
+    * The linked field from the linked record which is named according to this pattern: 
+
+        `<Name of the original field on the linked record> (from <Name of your linked field>)`
+
+### Example of creating and updating a Relationship-type field
+
+This section describes an example of how to create a field by linking record types together, as well as how to populate a linked field.  
+
+For example, you have a record type named Campaign as your original record type. 
+
+You also have another record type called Program which has a currency field called Budget. 
+
+You want to create a field on the record type of Campaign where you can show the values that users select for the Budget field on the record type Product. 
+
+To do this:
+
+1. Start by opening the table view for the Campaign record type. 
+1. Click the **+** icon in the upper-right corner of the table view to add a new field, then expand the **Field type** drop down menu and select **Relationship**. 
+1. Add the following information, for example:
+
+    * **Name**: Program Budget. This is the name of the linked record field. 
+    * **Description**: This is the budget of the program associated with this campaign. 
+    * * **Allow multiple records**: Leave this option selected. This allows users to select multiple records when the linked record type field displays on the original records.
+1. From the list of fields associated with the **Program**, select the **Budget** field. This creates a field called **Budget (from Program Budget)** which is the name of the linked field. 
+1. (Optional and conditional) Select **SUM** in the drop-down menu to the right of the field name. When users select multiple programs in the **Program Budget** linked record field, the **Budget (from Program Budget)** field adds all their Budget values together and displays the total. <!-- check the shot below - added a bug with a couple of UI changes here-->
+
+    ![](assets/example-of-relationship-field-program-budget-with-sum.png)
+
+    This generates two fields in the Campaign record table view and two fields in the Details page of a campaign: 
+
+    * Program Budget (the linked record field)
+    * Budget (from Program Budget) (the linked field) 
+1. To populate the **Program Budget** field, go to the **Campaign** record type table view. 
+1. Create a campaign by adding a new row in the table, then expand the **Program Budget** field. Select a program or multiple programs from the list. 
+
+    ![](assets/program-budget-example-multiple-values-selected.png)
+
+1. Click outside the **Program Budget** field to save the values.
+    The values for the **Budget** field on the programs selected displays as a total in the **Budget (from Program Budget)** field on the campaign. The same fields display on the Details page of a campaign.
+
+    ![](assets/example-of-linked-fields-on-details-page-of-campaign.png)
+
+    >[!TIP]
+    >
+    >When you do not select an aggregator for the multiple values, all values display separated by commas. 
+    >
+    >![](assets/example-multiple-values-separated-by-commas-no-aggregator.png)

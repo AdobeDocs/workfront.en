@@ -164,7 +164,12 @@ Number field types capture information in a number format.
     * **Name**: The name of the field type, as it will appear in a table or the Details page of the record. 
     * **Description**: Additional information about the field. The description of a field displays when you hover over the field's column in a table. 
     * **Precision**: The number of decimals that you want to record for the field. You can display up to 6 decimals.
-    * **Allow negative numbers**: Select this option if you want to allow negative numbers in this field. This option is deselected by default. <!--Add this if they added this functionality: You cannot edit this option after you save the field.-->
+    * **Allow negative numbers**: Select this option if you want to allow negative numbers in this field. This option is deselected by default. 
+    
+    >[!NOTE]
+    >
+    >    You cannot deselect the Allow negative numbers setting that was previously selected when you create and save the field, if there are already negative values stored on the records it is attached to.  
+
 1. Click **Create**.
 
     The new number field is added as a column to the record type and its values can be associated with records. The field also displays on the Details page of a record.  
@@ -181,7 +186,12 @@ Percentage field types capture information in a number format followed by a perc
      * **Name**: The name of the field type, as it will appear in a table or the Details page of the record. 
      * **Description**: Additional information about the field. The description of a field displays when you hover over the field's column in a table. 
     * **Precision**: The number of decimals that you want to record for the field. You can display up to 6 decimals.
-    * **Allow negative numbers**: Select this option if you want to allow negative percentage values in this field. This option is deselected by default. <!--Add this if they added this functionality: You cannot edit this option after you save the field.-->
+    * **Allow negative numbers**: Select this option if you want to allow negative percentage values in this field. This option is deselected by default. 
+
+    >[!NOTE]
+    >
+    >    You cannot deselect the Allow negative numbers setting that was previously selected when you create and save the field, if there are already negative values stored on the records it is attached to. 
+
 1. Click **Create**. 
 
     The new percentage field is added as a column to the record type and its values can be associated with records. The field also displays on the Details page of a record. 
@@ -197,16 +207,21 @@ Currency field types capture information in a number format preceded by a curren
 1. Add the following information:
      * **Name**: The name of the field type, as it will appear in a table or the Details page of the record. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
      * **Description**: Additional information about the field. The description of a field displays when you hover over the field's column in a table.
-     * **Currency**: The type of currency you want to display in this field. <!--asked the teams where this list is coming from. If you know, add a note here-->
+     * **Currency**: The type of currency you want to display in this field. This is a list of currencies according to the International Organizaton of Standardization (ISO). 
       * **Precision**: The number of decimals that you want to record for the field. You can display up to 6 decimals.
-    * **Allow negative numbers**: Select this option if you want to allow negative currency values in this field. This option is deselected by default. <!--Add this if they added this functionality: You cannot edit this option after you save the field.-->
+    * **Allow negative numbers**: Select this option if you want to allow negative currency values in this field. This option is deselected by default. 
+
+    >[!NOTE]
+    >
+    >    You cannot deselect the Allow negative numbers setting that was previously selected when you create and save the field, if there are already negative values stored on the records it is attached to. 
+
 1. Click **Create**. 
 
     The new currency field is added as a column to the record type and its values can be associated with records. The field also displays on the Details page of a record. 
 
 ### Single-line text {#single-line-text}
 
-Single-line text fields capture limited alphanumeric information like Owner, Stakeholder, Team, or Organizational unit. The content of a single-line text field can have up to 250 characters. <!-- asked Lilit if we can change this to "Single-line" since this can have numbers and text.-->
+Single-line text fields capture limited alphanumeric information. For example,  you can capture the Owner, Stakeholder, Team, or Organizational unit information in a single-line text field. The content of a single-line text field can have up to 250 characters. <!-- asked Lilit if we can change this to "Single-line" since this can have numbers and text.-->
 
 1. Start creating a field as described in the section [Create fields from scratch](#create-fields-from-scratch) in this article, then select the **Single-line text** field type.
 
@@ -221,7 +236,7 @@ Single-line text fields capture limited alphanumeric information like Owner, Sta
 
 ### Paragraph {#paragraph}
 
-Paragraph fields capture additional alphanumeric information, similar to the Description field. The content of a paragraph field can have up to 1,000 characters. 
+Paragraph fields capture additional alphanumeric information about a record, similar to the Description field. The content of a paragraph field can have up to 1,000 characters. 
 
 1. Start creating a field as described in the section [Create fields from scratch](#create-fields-from-scratch) in this article, then select the **Paragraph** field type.
 
@@ -300,108 +315,17 @@ You can use a date field to capture additional information in date and time form
 
 ### Relationship {#relationship}
 
-You can use a relationship field to link record types and their fields to one another. By doing this, you can display fields from the linked record on another record.
+You can use a relationship field to link record types and their fields. By doing this, you can display fields from the linked record on another record.
 
 >[!IMPORTANT]
 >
->    You cannot manually update the values of linked fields from linked record types. They are automatically updated from their original records.
+>    You cannot manually update the values of linked fields from the original records. They are automatically updated from their linked records.
 
 
-For more information about creating a relationship field, see the section [Create fields by linking record types](#create-fields-by-linking-record-types) in this article.  
+For more information about creating a relationship field, see 
 
 
-## Create fields by linking record types {#create-fields-by-linking-record-types}
-
-You can create fields on a record type by linking it to another record type's fields by creating a Relationship-type field. 
-
-1. Start creating a field for a record type, as described in the section [Create fields from scratch](#create-fields-from-scratch) in this article, then select the **Relationship** field type. This is the original record type. 
-
-    ![](assets/relationship-field-type.png)
-
-1. Add the following information:
-     * **Name**: The name of relationship-type field, as it will appear in the table view or the Details page of a record of the original record type. This creates the linked record column in the table view of the original record type or the linked record field for the original records. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
-
-    >[!TIP]
-    >
-    >We recommend that you include the name of the record you are linking to in the name of the relationship-type field to capture what record type the new field is coming from. 
-
-     * **Description**: Additional information about the relationship-type field. The description of a field displays when you hover over the field's column in a table. 
-     * **Find a record type**: The record type that you want to link to. This is the linked record. 
-     * **Allow multiple records**: This allows users to select multiple records when the linked record type field displays on the original records. This is selected by default.
-
-1. (Optional) Select the fields that belong to the linked record type that you want to display as linked fields on the original records. Use the **search** icon ![](assets/search-icon.png) to search for a field. 
-
-    This creates the linked record field column in the table view of the record type or the linked record fields for the original records. A column or a linked field is added for each field you add from the linked record. 
-
-    If you don't select any of the fields, the name of the linked record is the only visible field in the original record's table view and in the Details page of the record. This is the linked record column or field for the original record type. 
-
-1. (Optional and conditional) For number, currency, percentage, or date-type fields, select how you want the values for the linked field to be aggregated. 
-
-    ![](assets/linked-field-aggregators-for-relationship-fields.png)
-
-    Select from the following:
-
-    * **MAX**: Displays the maximum value in a string of values.
-    * **MIN**: Displays the minimum value in  a string of values.
-    * **SUM**: Adds all the values of the linked fields. 
-    * **AVG**: Calculates the average of the values of the linked fields.
-
-    >[!TIP]
-    >
-    >If you do not select an aggregator, individual values display separated by commas.
-
-
-1. Click **Create**.
-
-    The following fields (or columns) are added to the original record type in the table view:
-        
-    * The linked record field with the name you selected in step 2. <!--ensure this stays accurate--> 
-    * The linked field from the linked record which is named according to this pattern: 
-
-        `The name of the original field on the linked record (from The name of your linked field)`
-
-### Example of creating a Relationship-type field
-
-This section describes an example of how to create a field by linking record types together. 
-
-For example, you have a record type named Campaign as your original record type. 
-
-You also have another record type called Program which has a currency field called Budget. 
-
-You want to create a field on the record type of Campaign where you can show the values that users select for the Budget field on the record type Product. 
-
-To do this:
-
-1. Start by opening the table view for the Campaign record type. 
-1. Click the **+** icon in the upper-right corner of the table view to add a new field, then expand the **Field type** drop down menu and select **Relationship**. 
-1. Add the following information, for example:
-
-    * **Name**: Program Budget. This is the name of the linked record field. 
-    * **Description**: This is the budget of the program associated with this campaign. 
-    * * **Allow multiple records**: Leave this option selected. This allows users to select multiple records when the linked record type field displays on the original records.
-1. From the list of fields associated with the **Program**, select the **Budget** field. This creates a field called **Budget (from Program Budget)** which is the name of the linked field. 
-1. (Optional and conditional) Select **SUM** in the drop-down menu to the right of the field name. When users select multiple programs in the **Program Budget** linked record field, the **Budget (from Program Budget)** field adds all their Budget values together and displays the total. 
-
-    ![](assets/example-of-relationship-field-program-budget-with-sum.png)
-
-    This generates two fields in the Campaign record table view and two fields in the Details page of a campaign: 
-
-    * Program Budget (the linked record field)
-    * Budget (from Program Budget) (the linked field) 
-1. To populate the **Program Budget** field, go to the **Campaign** record type table view, then expand the **Program Budget** field. Select a program or multiple programs from the list. 
-
-    ![](assets/program-budget-example-multiple-values-selected.png)
-1. Click outside the **Program Budget** field to save the values.
-    The values for the **Budget** field on the programs selected displays as a total in the **Budget (from Program Budget)** field on the campaign. The same fields display on the Details page of a campaign.
-
-    ![](assets/example-of-linked-fields-on-details-page-of-campaign.png)
-
-    >[!TIP]
-    >
-    >When you do not select an aggregator for the multiple values, all values display separated by commas. 
-    >
-    >![](assets/example-multiple-values-separated-by-commas-no-aggregator.png)
-
+<!-- left here: should the next section be in the manage relationship fields article?? or here?! -->
 
 ## Create Maestro fields when adding record types from other applications
 
