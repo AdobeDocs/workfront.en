@@ -63,7 +63,7 @@ If you deactivate a job role, it no longer displays in the following areas:
 
 >[!TIP]
 >
->Deactivated roles always display in filters in lists, reports, and other tools such as the [!IUCONTROL Workload Balancer].
+>Deactivated roles always display in filters in lists, reports, and other tools such as the [!UICONTROL Workload Balancer].
 
 ## Considerations before deactivating a job role
 

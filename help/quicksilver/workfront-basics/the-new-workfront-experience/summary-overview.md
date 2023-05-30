@@ -25,7 +25,7 @@ The following table displays the areas where you can locate and use the [!UICONT
     </ul> </td> 
   </tr> 
   <tr> 
-   <td>Tasks in the [!UICONTROL Unassigned] and [!UICONTROL Assigned] Work areas of the [!IUCONTROL Workload Balancer]</td> 
+   <td>Tasks in the [!UICONTROL Unassigned] and [!UICONTROL Assigned] Work areas of the [!UICONTROL Workload Balancer]</td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>Issues</td> 
@@ -39,7 +39,7 @@ The following table displays the areas where you can locate and use the [!UICONT
     </ul> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>Issues in the [!UICONTROL Assigned Work] area of the [!IUCONTROL Workload Balancer]</td> 
+   <td>Issues in the [!UICONTROL Assigned Work] area of the [!UICONTROL Workload Balancer]</td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>Issues in the [!UICONTROL Submitted] section of the [!UICONTROL Requests] area</td> 
@@ -62,7 +62,7 @@ The following table displays the areas where you can locate and use the [!UICONT
 
 This article describes how to access and use the [!UICONTROL Summary] panel for tasks and issues in lists.
 
-For information about accessing the [!UICONTROL Summary] in the [!IUCONTROL Workload Balancer], see [Update work items in the [!IUCONTROL Workload Balancer] using the [!UICONTROL Summary]](../../resource-mgmt/workload-balancer/update-items-in-summary-panel-in-workload-balancer.md).
+For information about accessing the [!UICONTROL Summary] in the [!UICONTROL Workload Balancer], see [Update work items in the [!UICONTROL Workload Balancer] using the [!UICONTROL Summary]](../../resource-mgmt/workload-balancer/update-items-in-summary-panel-in-workload-balancer.md).
 
 For information about accessing the [!UICONTROL Summary] for documents, see [[!UICONTROL Summary] for documents overview](../../documents/managing-documents/summary-for-documents.md).
 
