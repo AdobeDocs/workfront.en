@@ -7,7 +7,7 @@ author: Alina
 feature: Workfront Scenario Planner
 exl-id: cdc3a1b0-7021-4853-9b51-c3682fd55430
 ---
-# Show role allocation for projects and initiatives in the [!DNL Workload Balancer]
+# Show role allocation for projects and initiatives in the [!IUCONTROL Workload Balancer]
 
 >[!IMPORTANT]
 >
@@ -52,9 +52,9 @@ You need to following:
 
 &#42;To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
 
-## Show role allocation for projects and initiatives in the [!DNL Workload Balancer]
+## Show role allocation for projects and initiatives in the [!IUCONTROL Workload Balancer]
 
-If your company has purchased a [!DNL Workfront Scenario Planner] license, you can reconcile the resource allocations between the initiative and the project linked to it in the project-level [!DNL Workload Balancer].
+If your company has purchased a [!DNL Workfront Scenario Planner] license, you can reconcile the resource allocations between the initiative and the project linked to it in the project-level [!IUCONTROL Workload Balancer].
 
 1. (Conditional) Connect a project with an initiative using one of the methods described in the following articles:
 
@@ -66,7 +66,7 @@ If your company has purchased a [!DNL Workfront Scenario Planner] license, you c
    >If you make changes to resources on the initiative, you must re-publish the scenario that the initiative belongs to in order for the latest resource information from the initiative to update on the project.
 
 1. Go to the project where you want to review the allocation of job roles for the project as well as for the associated initiative. 
-1. Click [!DNL Workload Balancer] in the left panel.
+1. Click [!IUCONTROL Workload Balancer] in the left panel.
 
    You might have to click **[!UICONTROL Scheduling]**, then **[!UICONTROL Switch to Workload Balancer]**. 
 

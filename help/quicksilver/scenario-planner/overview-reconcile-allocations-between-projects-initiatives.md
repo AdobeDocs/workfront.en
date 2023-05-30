@@ -73,9 +73,9 @@ Both processes create a connection between the projects and their corresponding 
 
    * The [!UICONTROL Role Allocation] panel in the following areas:
 
-      * [!DNL Workload Balancer] of the project
+      * [!IUCONTROL Workload Balancer] of the project
 
-        For information about how to view and reconcile the allocations of roles between the initiative and the linked project in the [!DNL Workload Balancer], see [Show role allocation for projects and initiatives in the [!DNL Workload Balancer]](../scenario-planner/show-role-allocation-workload-balancer.md). 
+        For information about how to view and reconcile the allocations of roles between the initiative and the linked project in the [!IUCONTROL Workload Balancer], see [Show role allocation for projects and initiatives in the [!IUCONTROL Workload Balancer]](../scenario-planner/show-role-allocation-workload-balancer.md). 
       
       * [!UICONTROL Tasks] section
 

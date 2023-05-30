@@ -128,7 +128,7 @@ The following sections display in the left panel for the **[!UICONTROL Resourcin
    <td>Displays the Resource Planner. Use this area to plan your resources across multiple projects. For information about using the Resource Planner, see <a href="../../resource-mgmt/resource-planning/get-started-resource-planning.md" class="MCXref xref">Get started with Resource Planning</a>.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Workload Balancer]</strong></td> 
+   <td role="rowheader"><strong>[!IUCONTROL Workload Balancer]</strong></td> 
    <td>Displays the Workload Balancer. Use this area to assign actual work to your resources. <br>
    For information about using scheduling resources, see <a href="../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md" class="MCXref xref">Overview of assigning work in the Workload Balancer</a>.</td> 
   </tr> 
