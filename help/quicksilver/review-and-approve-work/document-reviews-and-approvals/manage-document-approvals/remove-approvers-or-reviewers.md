@@ -33,11 +33,11 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>View or higher access to Projects, Tasks, Issues, Templates, Portfolios, Programs, Reports, Dashboards, and Calendars, Documents</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>View or higher access to Projects, Tasks, Issues, Templates, Portfolios, Programs, Reports, Dashboards, and Calendars, Documents</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>Manage access to the object associated with the request access or approval </p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+   <td> <p>Manage access to the object associated with the request access or approval </p> <p>For information on requesting additional access, see <a href="/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -50,7 +50,7 @@ You must have the following access to perform the steps in this article:
 
 1. Select **Approvals** in the left pane.
 
-1. Hover over the name of the approver or reviewer you would like to remove, then click on the **Delete** icon ![](assets/delete.png) that appears after their name.
+1. Hover over the name of the approver or reviewer you would like to remove, then click on the **Delete** icon ![](../assets/delete.png) that appears after their name.
 
     The approval or review request is removed and the approver receives a notification that their approval is no longer needed. Their approval-related share access is also removed.
 
@@ -66,7 +66,7 @@ You must have the following access to perform the steps in this article:
 
 1. Select the version of the document you would like to remove an approver or reviewer for in the version dropdown. The latest version will be selected by default.
 
-1. Scroll down to the **Approvals** section in the Document Summary pane. Hover over the name of the approver or reviewer you would like to remove, then click on the **Delete** icon ![](assets/delete.png) that appears after their name.
+1. Scroll down to the **Approvals** section in the Document Summary pane. Hover over the name of the approver or reviewer you would like to remove, then click on the **Delete** icon ![](../assets/delete.png) that appears after their name.
 
     The approval or review request is removed and the approver receives a notification that their approval is no longer needed. Their approval-related share access is also removed.
 

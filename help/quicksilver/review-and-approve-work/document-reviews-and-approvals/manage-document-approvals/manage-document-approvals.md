@@ -16,6 +16,6 @@ feature: Work Management
 
 This section contains the following articles:
 
-* [Create a document approval](../../review-and-approve-work/document-reviews-and-approvals/create-document-approvals/create-a-document-approval.md)
-* [Add additional reviewers or approvers to a document](../../review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/add-additional-reviewers-or-approvers.md)
-* [Remove approvers or reviewers from a document](../../review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/remove-approvers-or-reviewers.md)
+* [Create a document approval](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)
+* [Add additional reviewers or approvers to a document](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/add-additional-reviewers-or-approvers.md)
+* [Remove approvers or reviewers from a document](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/remove-approvers-or-reviewers.md)

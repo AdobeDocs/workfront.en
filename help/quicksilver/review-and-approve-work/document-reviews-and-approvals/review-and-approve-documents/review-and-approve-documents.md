@@ -16,5 +16,5 @@ feature: Work Management
 
 This section contains the following articles:
 
-* [Review a document](../../review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-a-document.md)
-* [Approve a document](../../review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/approve-a-document.md)
+* [Review a document](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-a-document.md)
+* [Approve a document](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/approve-a-document.md)

@@ -11,7 +11,7 @@ feature: Work Management
 
 If you are assigned as an approver to a document, there are multiple ways you can make your approval decision.
 
-For information about creating a new document approval, see [Create a document approval](../../review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).
+For information about creating a new document approval, see [Create a document approval](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).
 
 >[!IMPORTANT]
 >
@@ -35,11 +35,11 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>View or higher access to the objects associated with approvals</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>View or higher access to the objects associated with approvals</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>View or higher permissions to the objects associated with approvals</p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+   <td> <p>View or higher permissions to the objects associated with approvals</p> <p>For information on requesting additional access, see <a href="/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -48,7 +48,7 @@ You must have the following access to perform the steps in this article:
 
 ## Approve a document from Home
 
-1. Click the **Home** icon ![](assets/home-icon-30x29.png) in the upper-left corner of Adobe Workfront.
+1. Click the **Home** icon ![](../assets/home-icon-30x29.png) in the upper-left corner of Adobe Workfront.
 
    >[!NOTE]
    >
@@ -56,7 +56,7 @@ You must have the following access to perform the steps in this article:
    >
    >* Replace it with an image customized to illustrate your organization. In this case, the icon will look different that shown in this article.
    >
-   >* Replace the page linked to it with a different page. In this case, click the **Main Menu** ![](assets/main-menu-icon.png) in the upper-right corner of the page, then click **Home**.
+   >* Replace the page linked to it with a different page. In this case, click the **Main Menu** ![](../assets/main-menu-icon.png) in the upper-right corner of the page, then click **Home**.
 
 1. Click **Filters** at the top left of the page and ensure that **Approvals** is checked.
   
@@ -92,7 +92,7 @@ You must have the following access to perform the steps in this article:
 
    If the currently selected version of the document has a pending approval for you, the approval decision buttons are displayed in the top-right corner of the page; if other versions of the document have pending approvals for you, the version dropdown menu displays a red dot.
 
-   ![](assets/version-dropdown-red-dot.png)   
+   ![](../assets/version-dropdown-red-dot.png)   
 
 1. Click one of the following two approval options in the top-right corner of the page:
    
@@ -114,7 +114,7 @@ You must have the following access to perform the steps in this article:
 
    If the currently selected version of the document has a pending approval for you, the approval decision buttons are displayed in the top-right corner of the Document Summary pane; if other versions of the document have pending approvals for you, the version dropdown menu displays a red dot.
 
-   ![](assets/version-dropdown-red-dot.png)   
+   ![](../assets/version-dropdown-red-dot.png)   
 
 1. Click one of the following two approval options in the top-right corner of the Document Summary pane:
    
