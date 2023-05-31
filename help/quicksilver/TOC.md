@@ -1716,6 +1716,17 @@ feature-set: Workfront
     * [Delegate approval request](review-and-approve-work/manage-approvals/delegate-approval-requests.md)
     * [Associate a new or existing approval process with work](review-and-approve-work/manage-approvals/associate-approval-with-work.md)
     * [Recall submitted approvals](review-and-approve-work/manage-approvals/recall-submitted-approvals.md)
+  * Document reviews and approvals {#document-reviews-and-approvals}
+    * [Document reviews and approvals](review-and-approve-work/document-reviews-and-approvals/document-reviews-and-approvals.md)
+    * Manage document approvals {#manage-document-approvals}
+      * [Manage document approvals](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/manage-document-approvals.md)
+      * [Create a document approval](review-and-approve-work/document-reviews-and-approvals/create-document-approvals/create-a-document-approval.md)
+      * [Add additional reviewers or approvers to a document](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/add-additional-reviewers-or-approvers.md)
+      * [Remove approvers or reviewers from a document](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/remove-approvers-or-reviewers.md)
+    * Review and approve documents {#review-and-approve-documents}
+      * [Review and approve documents](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-and-approve-documents.md)
+      * [Review a document](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-a-document.md)
+      * [Approve a document](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/approve-a-document.md)
   * Proofing {#proofing}
     * [Proofing](review-and-approve-work/proofing/proofing.md)
     * Proofing overview {#proofing-overview}
