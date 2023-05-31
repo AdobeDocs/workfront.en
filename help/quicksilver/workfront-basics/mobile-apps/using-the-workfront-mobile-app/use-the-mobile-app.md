@@ -15,7 +15,7 @@ Accelerate engagement and streamline work for teams and individuals in your orga
 * Keep your workflow going with one-step actions
 * Stay productive on the go
 
-You can download and install the app from the [Apple App Store](https://www.apple.com/app-store/) or the [Google Play store](https://play.google.com/store/apps;).
+You can download and install the app from the [Apple App Store](https://apps.apple.com/us/app/adobe-workfront/id1033282981) or the [Google Play store](https://play.google.com/store/apps/details?id=com.workfront.android.aware).
 
 In the mobile app, you can complete work items and view information like you do in the browser version of [!DNL Workfront]. These features and more are available:
 
