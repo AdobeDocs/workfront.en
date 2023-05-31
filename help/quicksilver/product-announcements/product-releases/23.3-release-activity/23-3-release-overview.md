@@ -338,7 +338,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
                  <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-29.md" class="MCXref xref" xrefformat="{para}">New commenting Beta experience for projects, tasks, and issues</a> <span style="color: #ff0000;"> New in Preview!</span></p>
-                        <p>TThe new commenting Beta experience is now available for projects, tasks, and documents. Prior to this update, the commenting Beta experience was available only for issues and goals.</p>
+                        <p>The new commenting Beta experience is now available for projects, tasks, and documents. Prior to this update, the commenting Beta experience was available only for issues and goals.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
                         <ul>
