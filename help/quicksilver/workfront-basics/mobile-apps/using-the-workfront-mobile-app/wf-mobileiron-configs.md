@@ -3,7 +3,7 @@ product-previous: mobile
 navigation-topic: use-the-workfront-mobile-app
 title: Configure [!DNL Adobe Workfront] for MobileIron
 description: In the Adobe Workfront for MobileIron app, we support default configurations provided by MobileIron for both Android and iOS.
-author: Lisa
+author: Nolan
 feature: Get Started with Workfront
 exl-id: 294fd42d-89a8-44c2-a97c-95ea5dd876d4
 ---

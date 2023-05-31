@@ -255,13 +255,13 @@ The following table illustrates the features that will be available in the new c
    </td>
    <td>✓ 
    </td>
-   <td> 
+   <td> ✓
    </td>
    <td> 
    </td>
    <td> 
    </td>
-   <td>✓ 
+   <td> 
    </td>
   </tr>
   <tr>
@@ -376,6 +376,21 @@ The following table illustrates the features that will be available in the new c
    <td>✓ 
    </td>
   </tr>
+
+<tr>
+   <td>Reply to system updates 
+   </td>
+   <td> ✓
+   </td>
+   <td> 
+   </td>
+   <td> 
+   </td>
+   <td>
+   </td>
+   <td> 
+   </td>
+  </tr>
 </table>
 
 ## New commenting beta experience release activity
@@ -388,7 +403,7 @@ The new commenting experience is currently supported for the following objects, 
 
 * When enabling the Beta experience in the Updates section: 
 
-    * Issues 
+    * Issues<!--, <span class="preview">projects, tasks, and documents</span>-->
 
     For more information about managing updates for Workfront objects, see [Update work](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). 
  

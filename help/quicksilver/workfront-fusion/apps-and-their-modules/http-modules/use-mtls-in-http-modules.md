@@ -92,6 +92,8 @@ You can use the following links to download the Workfront Fusion public certific
 
    For use in the EU 
 
+<!--
+
 ### Certificates for November 14, 2022 - July 15, 2023
 
 >[!IMPORTANT]
@@ -103,6 +105,8 @@ You can use the following links to download the Workfront Fusion public certific
 * [Download [!DNL Workfront Fusion] EU Certificate 2023](https://cdn.experience.workfront.com/Documentation/Workfront+Fusion/app-eu_workfrontfusion_com-jul-15-2023.cer)
 
    For use in the EU 
+
+   -->
 
 ## Enabling Mutual TLS&nbsp;in [!DNL Workfront Fusion] HTTP modules
 

@@ -3,7 +3,7 @@ product-previous: mobile
 navigation-topic: use-the-workfront-mobile-app
 title: Approvals in the [!DNL Adobe Workfront] mobile app
 description: You can manage approvals assigned or delegated to you from the [!UICONTROL Approvals] area in the [!DNL Adobe Workfront] mobile app.
-author: Lisa
+author: Nolan
 feature: Get Started with Workfront
 exl-id: 92259a17-209b-4bc1-8c14-826969b08a63
 ---

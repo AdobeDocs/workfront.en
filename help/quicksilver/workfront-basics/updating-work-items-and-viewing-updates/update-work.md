@@ -20,9 +20,9 @@ exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
 >For more information about the new commenting experience, see [New commenting experience](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). 
 >
 >You can access the new experience for the following objects:
-> * Issues, when enabling the commenting Beta.
+> * Issues, <!--<span class="preview">projects, tasks, and documents</span>,--> when enabling the commenting Beta.
 >
->     This functionality is available only for the Updates section of issues, and it is not available for the following areas:
+>     This functionality is available only for the Updates section, and it is not available for the following areas:
 >
 >     * Home
 >     * Summary panel in lists
@@ -223,7 +223,8 @@ Adding an update to a work item differs depending on what version of the Updates
 
    >[!TIP]
    >
-   >   An email is generated to notify users of your update only when you submit the original update. No email is generated after you edited your update.
+   >* An email is generated to notify users of your update only when you submit the original update. No email is generated after you edited your update.
+   >* The date stamp next to the comment is the date of the original comment, not the date of the last edit. 
 
 1. (Optional) Click **Reply** to reply to an existing comment, then follow the steps 4-7 above. <!--(**************insure this stays accurate***********)-->. For information about replying to an update, see [Reply to updates](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).
 1. (Conditional and optional) If other users have added comments that display outside of the visible area in the Updates section, click **View** inside the blue **new comments banner** at the bottom of the screen  to display these comments.
