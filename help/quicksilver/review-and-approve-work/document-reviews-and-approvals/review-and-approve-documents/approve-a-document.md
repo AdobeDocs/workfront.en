@@ -104,7 +104,7 @@ You must have the following access to perform the steps in this article:
    
    * **Needs work** indicates that the document version is not approved and requires significant changes.  
 
-## Review a document from the Document Summary pane
+## Approve a document from the Document Summary pane
 
 1. Go to the project, task, or issue that contains the document, then select **Documents**.
 

@@ -63,6 +63,8 @@ Add once functionality is added
 
     Click **Download** to download a local copy of the document onto your device.
 
+1. (Optional) Once you have reviewed the document, you can leave a comment for the requester in the document's **Updates** section. For more information on commenting, see [Update work](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+
 ## Review a document from the Document Summary pane
 
 1. Go to the project, task, or issue that contains the document, then select **Documents**.
@@ -78,5 +80,7 @@ Add once functionality is added
     OR 
 
     Click **Download** to download a local copy of the document onto your device.
+
+1. (Optional) Once you have reviewed the document, you can leave a comment for the requester in the document's **Updates** section. For more information on commenting, see [Update work](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 1. (Optional) You can also preview or download a specific version of the document by scrolling down to the **Versions** section of the Document Summary pane, then clicking on the More icon ![](assets/more-icon.png) next to the version you would like to review and selecting **Download** or **Preview**.
