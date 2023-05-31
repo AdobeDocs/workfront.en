@@ -23,15 +23,48 @@ The following sections list features that have been added after the original rel
 
 ## Week of May 29, 2023
 
-Comments from children objects now roll up to a parent object
+### New look and feel of the "edited" tag after editing a comment 
 
-When enabling the commenting Beta experience, the comments associated with a child object now roll up to the parent object. For example, comments from issues, tasks, or documents now display on the project associated with these objects. Both the child and the parent object must have the commenting Beta experience enabled to see the new experience.
+When editing a comment in the new commenting Beta experience, an "edited" tag is added to the comment. This tag now has a newer look and feel than the one originally released. The date and time stamps of the comment are those of the original comment. They are not the date and time stamps of when the edit was made.  For more information, see [Update work](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). 
 
-For more information, see [Update work items and view updates]( https://experienceleague.adobe.com/docs/workfront/using/basics/update-work-items-view-updates/updates-tab-overview.html?lang=en).
+Preview: May 31, 2023
 
-Preview: June 1, 2023
+Production: June 1, 2023
 
-Production: With the 23.3 Release 
+<!--
+
+### Comments from children objects now roll up to a parent object  
+
+When enabling the commenting Beta experience, the comments associated with a child object now roll up to the parent object. For example, comments from documents now display on the issue where the documents are attached. For information, see [Update section overview](../../../workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md). 
+
+Preview, for issues, projects, and tasks: June 1, 2023  
+
+Production, for issues: June 1, 2023 
+
+Production, for projects, and tasks: with the 23.3 release 
+--> 
+
+<!--
+### Log time in the new commenting Beta experience 
+
+You can log time for issues, tasks, and projects from the Updates area, when using the new commenting Beta experience. For more information, see [Log time](../../../timesheets/create-and-manage-timesheets/log-time.md).  
+
+Preview: June 1, 2023 
+
+Production: June 15, 2023
+
+-->
+
+<!--
+
+### New commenting Beta experience for projects, tasks, and issues  
+
+The new commenting Beta experience is now available for projects, tasks, and documents. Prior to this update, the commenting Beta experience was available only for issues and goals.  
+
+Preview: June 1, 2023 
+
+Production: with the 23.3 release 
+--> 
 
 ## Week of May 15, 2023
 
