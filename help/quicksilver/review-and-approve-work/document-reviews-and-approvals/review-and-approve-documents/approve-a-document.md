@@ -7,15 +7,15 @@ author: Nolan
 feature: Work Management
 ---
 
->[!IMPORTANT]
->
->The content of this article refers to updated document approval functionality that is only available for specific accounts. For information on standard approval processes, see the articles listed in [Work approvals](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md).
-
 # Approve a document
 
 If you are assigned as an approver to a document, there are multiple ways you can make your approval decision.
 
 For information about creating a new document approval, see [Create a document approval](../../review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).
+
+>[!IMPORTANT]
+>
+>The content of this article refers to updated document approval functionality that is only available for specific accounts. For information on standard approval processes, see the articles listed in [Work approvals](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md).
 
 ## Access requirements
 
