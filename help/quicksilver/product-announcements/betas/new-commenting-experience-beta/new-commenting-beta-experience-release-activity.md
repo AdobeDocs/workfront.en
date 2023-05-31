@@ -21,6 +21,18 @@ For general information on the new commenting beta experience, including a list 
 
 The following sections list features that have been added after the original release, starting with the ones released most recently. 
 
+## Week of May 29, 2023
+
+Comments from children objects now roll up to a parent object
+
+When enabling the commenting Beta experience, the comments associated with a child object now roll up to the parent object. For example, comments from issues, tasks, or documents now display on the project associated with these objects. Both the child and the parent object must have the commenting Beta experience enabled to see the new experience.
+
+For more information, see [Update work items and view updates]( https://experienceleague.adobe.com/docs/workfront/using/basics/update-work-items-view-updates/updates-tab-overview.html?lang=en).
+
+Preview: June 1, 2023
+
+Production: With the 23.3 Release 
+
 ## Week of May 15, 2023
 
 ### Improved experience when adding hyperlinks to comments
