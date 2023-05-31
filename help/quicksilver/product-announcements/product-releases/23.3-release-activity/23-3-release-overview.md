@@ -216,7 +216,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-15.md" class="MCXref xref" xrefformat="{para}">Automatically create linked folders to Adobe Experience Manager Assets when creating a project</a><span style="color: #ff0000;"> New in Production!</span></p>
-                        <p>With the new Create linked folder workflow for the Adobe Experience Manager integration, you can configure the integration with a path to an Adobe Experience Manager Assets folder. When the integration is added to a project template, any projects created from the template will automatically create a linked subfolder in Experience Manager Assets in the specified folder. </p>
+                        <p>With the new Create linked folder workflow for the Adobe Experience Manager integration, you can configure the integration with a path to an Adobe Experience Manager Assets folder. When the integration is added to a project template, any projects created from the template will automatically create a linked subfolder in Experience Manager Assets in the specified folder. </p><p>This functionality is available only with an Adobe Experience Manager as a Cloud Service integration within Workfront.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
                         <ul>
