@@ -154,13 +154,15 @@ This opens the goal list.
       
 1. (Optional) To edit a comment, click the **More** menu ![](assets/more-icon.png) to the right of the Like icon, then click **Edit**. 
 1. Edit the information in the comment, add or remove images, or remove any of the tagged users. 
-   You can edit your comment within 15 minutes from submitting it. An "Edited" indicator is added to the left of the date stamp that displays when the comment was updated.
+   You can edit your comment within 15 minutes from submitting it. An "edited" indicator is added to the left of the date stamp that displays when the comment was updated.
 
    ![](assets/edited-tag-on-comment-unified-commenting.png)
 
    >[!TIP]
    >
-   > An email is generated to notify users of your update only when you submit the original update. No email is generated after you edited your update.
+   > * An email is generated to notify users of your update only when you submit the original update. No email is generated after you edited your update.
+   >
+   > * The date stamp is the date of the original comment and not the date of the latest update. 
 
    1. (Optional) Click the **More** menu ![](assets/more-icon.png), then click any of the following options to copy information from a comment to the clipboard:
 
