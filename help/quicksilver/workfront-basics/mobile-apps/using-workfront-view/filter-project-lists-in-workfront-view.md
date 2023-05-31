@@ -5,7 +5,7 @@ navigation-topic: use-workfront-view
 title: Filter project lists in [!DNL Adobe Workfront] View
 feature: Get Started with Workfront
 description: By default, [!DNL Adobe Workfront] View displays the [!UICONTROL All Projects] list in [!DNL Workfront], so all the projects you have access to view are listed, regardless of their status.
-author: Lisa
+author: Nolan
 exl-id: 78efce1a-f144-4e47-bd7e-c0347e016bea
 ---
 # Filter project lists in [!DNL Adobe Workfront View]

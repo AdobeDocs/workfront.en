@@ -6,6 +6,7 @@ title: View and manage locked scenarios in [!DNL Adobe Workfront Fusion]
 description: View and manage locked scenarios in [!DNL Adobe Workfront Fusion]
 author: Becky
 feature: Workfront Fusion
+exl-id: 014434dc-7548-42d1-bacd-89ddf627b647
 ---
 # Manage locked scenarios in [!DNL Adobe Workfront Fusion]
 
