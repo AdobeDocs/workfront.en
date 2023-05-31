@@ -5,6 +5,7 @@ title: Use workflows in the Experience Manager Assets Essentials integration
 description: Use workflows in the Experience Manager Assets Essentials integration
 author: Courtney, Becky
 feature: Digital Content and Documents, Workfront Integrations and Apps
+exl-id: 7fa6559d-5111-4576-9480-85bb9abcd5a7
 ---
 # Use workflows in the Experience Manager Assets integration
 
@@ -132,4 +133,3 @@ To edit the workflow for linked folders:
    Or
 
    If you are in the Adobe Experience Manager area, your changes save automatically. <!--Do they though?-->
- 

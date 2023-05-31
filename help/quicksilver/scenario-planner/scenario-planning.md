@@ -31,6 +31,6 @@ This section contains the following articles:
 * [Update or create projects by publishing initiatives in the [!DNL Scenario Planner]](../scenario-planner/publish-scenarios-update-projects.md) 
 * [Overview of reconciling resource allocations between projects and initiatives](../scenario-planner/overview-reconcile-allocations-between-projects-initiatives.md) 
 * [Show role allocation for projects and initiatives in the task list](../scenario-planner/show-role-allocation-task-list-nwe.md) 
-* [Show role allocation for projects and initiatives in the [!DNL Workload Balancer]](../scenario-planner/show-role-allocation-workload-balancer.md)
+* [Show role allocation for projects and initiatives in the [!UICONTROL Workload Balancer]](../scenario-planner/show-role-allocation-workload-balancer.md)
 
 &nbsp;

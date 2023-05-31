@@ -1,12 +1,12 @@
 ---
 product-area: betas
 navigation-topic: new-commenting-exprience-beta
-title: 'New commenting experience beta release activity'
-description: Review the weekly release activity for the Adobe Workfront new commenting Beta experience. 
+title: New commenting experience beta release activity
+description: Review the weekly release activity for the Adobe Workfront new commenting Beta experience.
 author: Alina
 feature: Product Announcements
+exl-id: 1c0cb547-ac99-4cdf-8a74-2c47ad5a10ad
 ---
-
 # New commenting beta experience release activity
 
 The information on this page refers to the release activity on a weekly basis of the features included in the new commenting beta experience. The page lists new features that are added and issues that are resolved for the new commenting beta experience. 
