@@ -344,6 +344,19 @@ In order to log hours on a project, task, or issue, you need to have specific pe
 
 ##### Updates tab{#updates-tab} 
 
+<!--
+
+>[!NOTE]
+>
+>When enabling the new commenting Beta experience, logging time is available only for the following objects in the following environments:
+>
+>* In the Preview and Production environments for issues. 
+>* <span class="preview">In the Preview environment for tasks and projects.</span> 
+>
+>For more information, see [New commenting experience](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+
+--> 
+
 The following are required before you can log hours on the Updates tab of a project, task, or issue:
 
 * You must have a Work or Plan license.
@@ -352,6 +365,34 @@ The following are required before you can log hours on the Updates tab of a proj
 
 * If you want to log time directly to a project, your Workfront administrator must enable the Log time directly on projects setting under [!UICONTROL **Timesheet & Hours** ]> [!UICONTROL **Preferences**].  
   For more information about allowing users to log hours directly to projects, see [Configure timesheet and hour preferences](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+
+To log time in the Updates tab of a project, task, or issue:
+
+1. Go to a project, task, or issue.
+1. In the left panel, select **Updates**.
+1. Click **Log Time**.
+
+   The Enter Hours dialog box displays. 
+   
+   >[!TIP]
+   >
+   >   If your profile's preference is set to log time in days, the Enter Days box displays. 
+   >   
+   >   There is an indication in the upper-right corner of the Enter Days box of how many hours are included in a day. 
+
+   ![](assets/log-time-box-in-updates-stream.png)
+
+1. Specify the following information:
+
+   * **Hour Type**: Select an Hour Type from the drop-down menu, if it is different from the one displayed by default.
+
+     Depending on what hour types are configured in your system, the options here might vary. For more information about configuring hour types, see [Define hour types and availability for timesheets](../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md).
+
+   * **Job Role**: (Conditional) If your Workfront or group administrator has enabled the **Assign job roles to hour entries manually** setting, select a **Job Role** from the drop-down menu. The Role specified when you are assigned to the object displays by default. If you are not assigned a Role on the object, your Primary Role displays as the default. For more information on this setting, see the article [Configure timesheet and hour preferences](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+
+   * **Hours**: Enter the number of hours for the project, task, or issue.
+
+1. Click **Log Time**.
 
 ##### Hours tab{#hours-tab}
 
@@ -365,9 +406,9 @@ Or you must have all of the following:
 * You must have at least Contribute permissions to the project with access to Log Hours. For more information about granting permissions on projects, see [Share a project in Adobe Workfront](../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md).
 * If you want to log time directly to a project, your Workfront administrator must enable the Log time directly on projects setting under Timesheet & Hours > Preferences. For more information about allowing users to log hours directly to projects, see [Configure timesheet and hour preferences](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
-To log time on a project, task, or issue:
+To log time in the Hours tab of a project, task, or issue:
 
-1. Navigate to a project, task, or issue.
+1. Go to a project, task, or issue.
 1. In the left panel, select **Hours**.
 1. Click **Log Time**.
 

@@ -21,9 +21,9 @@ exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
 >For more information about the new commenting experience, see [New commenting experience](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). 
 >
 >You can access the new experience for the following objects:
-> * Issues, when enabling the commenting Beta.
+> * Issues, <!--<span class="preview">projects, tasks, and documents</span>,--> when enabling the commenting Beta. 
 >
->     This functionality is available only for the Updates section of issues, and it is not available for the following areas:
+>     This functionality is available only for the Updates section, and it is not available for the following areas:
 >
 >     * Home
 >     * Summary panel in lists
@@ -103,7 +103,7 @@ Currenlty, you can make comments and reply to updates using the Beta commenting 
      <li><p>Goals</p>
      <p>This is the default experience for goals</p>
      </li> 
-     </ul> </td> 
+      </ul> </td> 
    <td> 
     <ul> 
      <li>Issues</li> 
@@ -112,11 +112,50 @@ Currenlty, you can make comments and reply to updates using the Beta commenting 
  </tbody> 
 </table>
 
+<!--replace table above with this: 
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td> 
+    <ul> 
+     <li><p>Goals</p>
+     <p>This is the default experience for goals</p>
+     </li> 
+     <li><span class="preview">Projects</span></li>
+     </ul> </td> 
+   <td> 
+    <ul> 
+     <li>Issues</li> 
+     <li><span class="preview">Tasks</span></li>
+     <li><span class="preview">Documents</span></li>
+     </ul> </td> 
+  </tr> 
+ </tbody> 
+</table>
+-->
+
 ## Updates that also appear on higher-rank objects
 
-As shown in the following table, replies made to updates on certain objects also appear on the Updates section of higher-ranked objects.
+Comments or replies made to updates on certain objects also appear on the Updates section of higher-ranked objects.
 
 For example, when you add an update to a task, the update appears on the Updates section for the task and on the Updates section for the project containing the task.
+
+<!--
+>[!NOTE]
+>
+>When enabling the new commenting Beta experience, comments display on the following higher-ranking objects and in the following environments: 
+>
+>* Issues, in the Preview and Production environments
+>* <span class="preview">Projects and tasks, in the Preview environment</span>
+>
+>For more information, see [New commenting experience](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). 
+
+--> 
+
+The following table shows the objects whose comments also display on their higher-ranking objects: 
 
 <table style="table-layout:auto"> 
  <col> 

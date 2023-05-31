@@ -20,9 +20,9 @@ exl-id: a8271f3c-7a08-4eb3-aaff-deb250f5af73
 >For more information about the new commenting experience, see [New commenting experience](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). 
 >
 >You can access the new experience for the following objects:
-> * Issues, when enabling the commenting Beta.
+> * Issues, <!--<span class="preview">projects, tasks, and documents</span>,--> when enabling the commenting Beta.
 >
->     This functionality is available only for the Updates section of issues, and it is not available for the following areas:
+>     This functionality is available only for the Updates section, and it is not available for the following areas:
 >
 >     * Home
 >     * Summary panel in lists
@@ -35,6 +35,10 @@ exl-id: a8271f3c-7a08-4eb3-aaff-deb250f5af73
 >    For information about commenting on goals, see [Manage goal comments in Adobe    Workfront Goals](../../workfront-goals/goal-management/manage-goal-comments.md). 
 
 When someone replies to a comment or a system update on a work object, their reply appears in the communication thread in the Updates section for the object. 
+
+>[!IMPORTANT]
+>
+>It is not possible to reply to system updates in the new commenting Beta experience. For more information, see [New commenting experience](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
 
 ## Access requirements
