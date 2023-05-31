@@ -227,34 +227,6 @@ The following table shows the limits for how many objects you can create in Maes
 |     Rate at which API requests can be made                                    |   200 requests per minute                                                                                       |
 | Size of CSV of Excel file you can import in a table | 10MB |
 
-
-## Features currently available in Maestro
-
-The following table illustrates the features that will be available in Maestro, as well as a timeline of their availability:
-
-|       Feature                                      |     Available in closed beta  |     Available after closed beta  |     In research  |
-|----------------------------------------------------|:-----------------------------:|:--------------------------------:|:----------------:|
-|     Create workspaces                              |   ✓                           |                                  |                  |
-|     Create operational record types                |   ✓                           |                                  |                  |
-|     Create taxonomies                              |   ✓                           |                                  |                  |
-|     Create individual, named records and taxonomies|   ✓                           |                                  |                  |
-|     Create record custom fields                    |   ✓                           |                                  |                  |
-|     Link records                                   |   ✓                           |                                  |                  |
-|     View records in a table                        |   ✓                           |                                  |                  |
-|     View records in a timeline                     |   ✓                           |                                  |                  |
-|     Filter records                                 |   ✓                           |                                  |                  |
-|     Group records in the timeline view             |   ✓                           |                                  |                  |
-|     Group records in the table view                |                               |   ✓                              |                  |
-|     Sort records                                   |                               |   ✓                              |                  |
-|     Link workspaces                                |                               |   ✓                              |                  |
-|     Connect Maestro records to Workfront projects  |                               |   ✓                              |                  |
-|     Record details page                            |   ✓                           |                                  |                  |
-|     Update record details page layout              |                               |   ✓                              |                  |
-| Access levels and permissions | | | ✓ |
-|     Submit requests                                |                               |                                  |   ✓              |
-|     Creative brief                                 |                               |                                  |   ✓              |
-
-
 ## Enable Maestro for the users in your Workfront instance
 
 <!--First, contact your account manager to obtain access to the current Maestro closed beta program.--> 
@@ -313,5 +285,48 @@ To locate Maestro:
     1. Create a Timeline view from the **View** drop-down menu in the upper-right corner of the record type page. 
 
     1. Customize the timeline view by updating Filters, Groupings, or Settings. 
+
+
+## Features currently available in Maestro
+
+The following table illustrates the main features that will be available in Maestro, as well as a timeline of their availability. The list does not include all features.  
+
+|       Feature                                      |     Available in closed beta (May 22, 2023) |     Available after closed beta   |     In research  |
+|----------------------------------------------------|:-----------------------------:|:--------------------------------:|:----------------:|
+|     Create workspaces                              |   ✓                           |                                  |                  |
+|     Create operational record types                |   ✓                           |                                  |                  |
+|     Create taxonomies                              |   ✓                           |                                  |                  |
+|     Create individual, named records and taxonomies|   ✓                           |                                  |                  |
+|     Create record custom fields                    |   ✓                           |                                  |                  |
+|     Link records                                   |   ✓                           |                                  |                  |
+|     View records in a table                        |   ✓                           |                                  |                  |
+|     View records in a timeline                     |   ✓                           |                                  |                  |
+|     Filter records                                 |   ✓                           |                                  |                  |
+|     Group records in the timeline view             |   ✓                           |                                  |                  |
+|     Group records in the table view                |                               |   ✓                              |                  |
+|     Sort records                                   |                               |   ✓                              |                  |
+|     Link workspaces                                |                               |   ✓                              |                  |
+|     Connect Maestro records to Workfront projects  |                               |   ✓                              |                  |
+|     Record details page                            |   ✓                           |                                  |                  |
+|     Update record details page layout              |                               |   ✓                              |                  |
+| Access levels and permissions | | | ✓ |
+|     Submit requests                                |                               |                                  |   ✓              |
+|     Creative brief                                 |                               |                                  |   ✓              |
+
+## Maestro release activity 
+
+This section lists the features and patches that have been released after the launch of the Maestro closed beta program, on May 22, 2023. 
+
+The features are released weekly and are listed in the order of their release, with the most recent first. 
+
+### Week of May 29, 2023
+
+#### **Two-date requirement for creating a Timeline view** 
+
+Preview and production: May 31, 2023  
+
+You must have at least two date fields associated with a record type in order to create a Timeline view. 
+
+
 
     

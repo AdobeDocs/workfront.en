@@ -258,10 +258,13 @@ To sort grouped records:
 
 <!--insert screen shot of timeline view-->
 
-When creating a timeline view, all records of the selected record type display in a table (on the left of the screen) and also in a timeline (on the right of the screen). 
+When creating a timeline view, all records of the selected record type display in a chronological timeline.
 
 Consider the following: 
 
+* You can create a Timeline view only when you have at least two date fields associated with a record type. When you have one or no date fields associated with a record type, the Timeline view option is dimmed. 
+
+<!--these are NOT available now because there won't be a table for the timeline view for the near future, per Andy: 
 * Each row in the table and each bar on the timeline represent the same record. 
 * Each column in the table is a record field. 
 * Only a limited number of fields (or columns) display in the timeline view table. 
@@ -269,6 +272,7 @@ Consider the following:
      * Add rows or records
      * Add columns or fields
      * Edit record information
+--> 
 
 Manage the timeline view: 
 
