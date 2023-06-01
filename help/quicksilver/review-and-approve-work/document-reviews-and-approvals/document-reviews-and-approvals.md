@@ -13,7 +13,7 @@ feature: Work Management
 >
 >The content of this article refers to updated document approval functionality that is only available for specific accounts. For information on standard approval processes, see the articles listed in [Work approvals](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md).
 
-This section contains the following articles:
+This section contains the following sections:
 
-* [Manage document approvals](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals.md) 
-* [Review and approve documents](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents.md)
+* [Manage document approvals](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/manage-document-approvals.md) 
+* [Review and approve documents](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-and-approve-documents.md)
