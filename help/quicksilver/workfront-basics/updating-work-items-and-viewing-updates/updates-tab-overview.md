@@ -21,7 +21,9 @@ exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
 >For more information about the new commenting experience, see [New commenting experience](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). 
 >
 >You can access the new experience for the following objects:
-> * Issues, <span class="preview">projects</span>, <span class="preview">tasks</span>, and <span class="preview">documents</span>, when enabling the commenting Beta.
+> * Issues, <span class="preview">projects, tasks, and documents</span>.
+>
+>     This is available when you enable the commenting Beta experience.
 >
 >     This functionality is available only for the Updates section, and it is not available for the following areas:
 >
