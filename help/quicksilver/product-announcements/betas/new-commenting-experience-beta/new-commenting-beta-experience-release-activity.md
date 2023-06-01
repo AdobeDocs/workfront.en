@@ -23,7 +23,7 @@ The following sections list features that have been added after the original rel
 
 ## Week of May 29, 2023
 
-### New commenting Beta experience for projects, tasks, and issues  
+### New commenting Beta experience for projects, tasks, and documents  
 
 The new commenting Beta experience is now available for projects, tasks, and documents. Prior to this update, the commenting Beta experience was available only for issues and goals.  
 

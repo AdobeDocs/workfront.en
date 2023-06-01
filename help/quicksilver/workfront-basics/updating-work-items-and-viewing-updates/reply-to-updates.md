@@ -11,7 +11,7 @@ exl-id: a8271f3c-7a08-4eb3-aaff-deb250f5af73
 
 <!--take "Beta" references out when we remove the beta-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.-->
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.
 
 >[!NOTE]
 >
@@ -20,7 +20,7 @@ exl-id: a8271f3c-7a08-4eb3-aaff-deb250f5af73
 >For more information about the new commenting experience, see [New commenting experience](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). 
 >
 >You can access the new experience for the following objects:
-> * Issues, <!--<span class="preview">projects, tasks, and documents</span>,--> when enabling the commenting Beta.
+> * Issues, <span class="preview">projects, tasks, and documents</span>, when enabling the commenting Beta.
 >
 >     This functionality is available only for the Updates section, and it is not available for the following areas:
 >
