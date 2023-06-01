@@ -12,7 +12,7 @@ exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
 
 <!--take "Beta" references out when we remove the beta-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> -->
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span>
 
 >[!NOTE]
 >
@@ -21,7 +21,7 @@ exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
 >For more information about the new commenting experience, see [New commenting experience](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). 
 >
 >You can access the new experience for the following objects:
-> * Issues, <!--<span class="preview">projects, tasks, and documents</span>,--> when enabling the commenting Beta. 
+> * Issues, <span class="preview">projects, tasks, and documents</span> when enabling the commenting Beta. 
 >
 >     This functionality is available only for the Updates section, and it is not available for the following areas:
 >
@@ -50,7 +50,7 @@ The Updates section of an object shows up to 200 of the most recent updates made
 The current Updates section shows the following information:
 
 * Comments made by users and replies to those comments. 
-* System updates which are informational messages that Workfront creates to record certain events on an objects. For example, you can capture changes in status, name, or custom fields with system updates. Your Workfront or group administrator can enable system updates for your ojects. For more information, see [Configure system updates](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
+* System updates which are informational messages that Workfront creates to record certain events on an objects. For example, you can capture changes in status, name, or custom fields with system updates. Your Workfront or group administrator can enable system updates for your objects. For more information, see [Configure system updates](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
 
 The Updates section displays for the following objects:
 
@@ -89,30 +89,9 @@ The Updates section displays for the following objects:
 The Updates section displays information in the following tabs in the new commenting experience: 
 
 * **Comments**: Displays comments made by users and replies to those comments. For information about updating objects in the new commenting experience, see [Update work](../updating-work-items-and-viewing-updates/update-work.md). 
-* **System Activity**: Displays system updates which are informational messages that Workfront creates to record certain events on an objects. For example, you can capture changes in status, name, or custom fields with system updates. Your Workfront or group administrator can enable system updates for your ojects. For more information, see [Configure system updates](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
+* **System Activity**: Displays system updates which are informational messages that Workfront creates to record certain events on an objects. For example, you can capture changes in status, name, or custom fields with system updates. Your Workfront or group administrator can enable system updates for your objects. For more information, see [Configure system updates](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
 
-Currenlty, you can make comments and reply to updates using the Beta commenting experience on the following objects:
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td> 
-    <ul> 
-     <li><p>Goals</p>
-     <p>This is the default experience for goals</p>
-     </li> 
-      </ul> </td> 
-   <td> 
-    <ul> 
-     <li>Issues</li> 
-     </ul> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-<!--replace table above with this: 
+Currently, you can add comments and reply to updates using the Beta commenting experience on the following objects:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -135,7 +114,6 @@ Currenlty, you can make comments and reply to updates using the Beta commenting 
   </tr> 
  </tbody> 
 </table>
--->
 
 ## Updates that also appear on higher-rank objects
 
@@ -143,17 +121,15 @@ Comments or replies made to updates on certain objects also appear on the Update
 
 For example, when you add an update to a task, the update appears on the Updates section for the task and on the Updates section for the project containing the task.
 
-<!--
 >[!NOTE]
 >
 >When enabling the new commenting Beta experience, comments display on the following higher-ranking objects and in the following environments: 
 >
->* Issues, in the Preview and Production environments
->* <span class="preview">Projects and tasks, in the Preview environment</span>
+>* Issues
+>* <span class="preview">Projects</span>
+>* <span class="preview">Tasks</span>
 >
 >For more information, see [New commenting experience](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). 
-
---> 
 
 The following table shows the objects whose comments also display on their higher-ranking objects: 
 

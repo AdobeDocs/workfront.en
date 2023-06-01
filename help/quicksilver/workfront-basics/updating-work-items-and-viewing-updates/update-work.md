@@ -11,7 +11,7 @@ exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
 
 <!--take "Beta" references out when we remove the beta-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span>-->
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span>
 
 >[!NOTE]
 >
@@ -20,7 +20,7 @@ exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
 >For more information about the new commenting experience, see [New commenting experience](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). 
 >
 >You can access the new experience for the following objects:
-> * Issues, <!--<span class="preview">projects, tasks, and documents</span>,--> when enabling the commenting Beta.
+> * Issues, <span class="preview">projects, tasks, and documents</span>, when enabling the commenting Beta.
 >
 >     This functionality is available only for the Updates section, and it is not available for the following areas:
 >
@@ -185,7 +185,7 @@ Adding an update to a work item differs depending on what version of the Updates
    The **Comments** tab is selected by default. 
 1. Start entering a comment in the **New comment** box. 
    
-   ![](assets/comment-box-empty-unshimmed.png)
+   <span class="preview">![](assets/comment-box-empty-unshimmed.png)</span>
 
    >[!TIP]
    >
@@ -303,7 +303,7 @@ You can enhance your updates by using Rich Text, or adding various items to it, 
 1. (Optional) To add a URL link to additional information sources:
 
    1. Click in your update where you want to insert a link.
-   1. On the **Rich Text** toolbar, click the **Hyperlink** icon. ![](assets/link-icon.png)  
+   1. On the **Rich Text** toolbar, click the **Hyperlink** icon ![](assets/link-icon.png).  
 
    1. In the **Create Link** box that appears, under **URL**, type or paste the URL of the source to which you want to link.
    
