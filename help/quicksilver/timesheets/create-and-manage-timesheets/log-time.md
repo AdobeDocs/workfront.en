@@ -342,7 +342,7 @@ You can log project-specific time on a project, task, or issue in the following 
 * [Updates section](#updates-section) 
 * [Hours section](#hours-section)
 
-##### Updates section{#updates-section} 
+#### Updates section{#updates-section} 
 
 <!--remove the note below when we can log time for projects and tasks in production with the 23.3 release. Also, update the screen shot for the Enter Hours box-->
 
@@ -390,7 +390,7 @@ To log time in the Updates section of a project, task, or issue:
 
 1. Click **Log Time**.
 
-##### Hours section{#hours-section}
+#### Hours section{#hours-section}
 
 You must be a Workfront administrator to log time for projects, tasks, and issues in the Hours section, 
 
