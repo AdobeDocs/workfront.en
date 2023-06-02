@@ -41,12 +41,12 @@ You can use a Relationship-type field to link record types and their fields. By 
    <p> Adobe Workfront</p> </td>
   </tr>
   <tr>
-   <td role="rowheader">Access level*</td>
+   <td role="rowheader"><p>Access level*</p></td>
    <td> <p>Any</p>  
 </td>
   </tr>
 <tr>
-   <td role="rowheader">Layout template</td>
+   <td role="rowheader"><p>Layout template</p></td>
    <td> <p>Your system administrator must add the Maestro area in your layout template. For information, see the "Enable Maestro for the users in your Workfront instance" section in the article <a href="../maestro/maestro-overview.md">Adobe Maestro overview</a>. </p>  
 </td>
   </tr>
@@ -56,9 +56,17 @@ You can use a Relationship-type field to link record types and their fields. By 
 *If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see [Create or modify custom access levels](../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
 
+## Considerations about Relationship-type fields
+
+* You can view fields other users create and fields created by you are visible to everyone who has access to Maestro. 
+* A relationship-type field is a connection from one record type to another. The relationship-type field displays the record type you connect to. For this reason, we will refer to the relationship-type field as the "linked record type field."
+* You can add fields from the record types you connect to and those become "linked fields".
+* You can select the records you link to in the linked record type field. 
+* You cannot select the values for the linked fields, as they automatically populate from the original record type they belong to.  
+
 ## Create a Relationship-type field
 
-You can create fields on a record type by linking it to another record type's fields by creating a Relationship-type field. 
+You can create fields for a record type by linking new fields to another record type's fields. You can use the Relationship-type field to link record fields together, from one record type to another. 
 
 1. Start creating a field for a record type, as described in the article [Create Maestro fields](../maestro/create-fields.md), then select the **Relationship** field type. This is the original record type. <!--check screen shot - logged a bug for a couple of changes here-->
 

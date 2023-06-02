@@ -64,7 +64,9 @@ This article describes how to create operational record types. However, creating
 >
 >*If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see [Create or modify custom access levels](../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
-## Considerations about operational record types
+## Considerations about operational record types 
+
+<!--*********************************REVISE THIS - THE WORKFRONT CONNECTION IS NOT RIGHT HERE**************************-->
 
 * Operational record types are building blocks of workspaces in Maestro. The record types should reflect the work lifecycle of an organizational unit. For information about workspaces, see [Create workspaces](../maestro/create-workspaces.md).  
 * When you create an operational record type, everyone in your organization can view, edit, or delete it. <!--this will change with access levels and permissions-->

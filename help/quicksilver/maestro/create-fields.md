@@ -322,7 +322,7 @@ You can use a relationship field to link record types and their fields. By doing
 >    You cannot manually update the values of linked fields from the original records. They are automatically updated from their linked records.
 
 
-For more information about creating a relationship field, see 
+For more information about creating a relationship field, see [Manage Relationship-type fields in Adobe Maestro](../maestro/manage-relationship-fields.md).
 
 
 <!-- left here: should the next section be in the manage relationship fields article?? or here?! -->
