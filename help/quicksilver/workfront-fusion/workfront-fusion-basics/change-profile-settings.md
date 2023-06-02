@@ -45,7 +45,25 @@ For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Work
 
 ## Change profile settings
 
-To change information in your account profile:
+The process for changing profile setting differs based on whether your organization is on the Adobe Unified Shell.
+
+* [Change profile settings on the Unified Shell](#change-profile-settings-on-the-unified-shell)
+* [Change profile settings without the Unified Shell](#change-profile-settings-without-the-unified-shell)
+
+### Change profile settings on the Unified Shell
+
+If your organization is on the Adobe Unified Shell, you can  access your profile and preference options by clicking your profile picture in the top navigation area.
+
+This menu allows you to:
+
+* Choose **[!UICONTROL Dark theme]** formatting for [!DNL Adobe Experience Cloud].
+* Set **[!UICONTROL Preferences]** for [!DNL Adobe Experience Cloud], including primary and secondary language preferences.
+* Access your **[!UICONTROL [!DNL Workfront] Profile]**. Once you are on the profile, click the **[!UICONTROL More]** menu ![](assets/more-icon.png) and select **[!UICONTROL Edit]**. For more information about the profile, see [Configure My Settings](/help/quicksilver/workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md).
+* **[!UICONTROL Sign out]** of Adobe Experience Cloud.
+
+### Change profile settings without the Unified Shell
+
+To change information in your account profile in organizations that do not use the Adobe Unified ShellS:
 
 1. Click your avatar at the bottom of the left panel, then click **[!UICONTROL Profile]**.
 1. Click: **[!UICONTROL General Options]**, then change any of the following options: 
