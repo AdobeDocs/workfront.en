@@ -9,7 +9,7 @@ exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
 ---
 # New commenting experience
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span>-->
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span>
 
 An update to the commenting experience in Adobe Workfront is currently in development. This update includes a new interface, new features, and improved performance in the Updates section of select objects. 
 
@@ -41,7 +41,7 @@ The new commenting experience includes improvements and changes to the existing 
 Among the improvements included in the new commenting experience are the following:
 
 * Improved performance and user experience
-* Separation of user comments from the system activity updates. There are no changes in the way the system updates function. 
+* Separation of user comments from the system activity updates.
 * Real-time indicator when new comments are added to an object
 * Editing comments after submitting them. 
 
@@ -255,7 +255,7 @@ The following table illustrates the features that will be available in the new c
    </td>
    <td>✓ 
    </td>
-   <td> ✓
+   <td><span class="preview">✓</span>
    </td>
    <td> 
    </td>
@@ -403,7 +403,7 @@ The new commenting experience is currently supported for the following objects, 
 
 * When enabling the Beta experience in the Updates section: 
 
-    * Issues<!--, <span class="preview">projects, tasks, and documents</span>-->
+    * Issues, <span class="preview">projects, tasks, and documents</span>
 
     For more information about managing updates for Workfront objects, see [Update work](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). 
  
