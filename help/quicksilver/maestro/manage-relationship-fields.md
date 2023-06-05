@@ -66,7 +66,7 @@ You can use a Relationship-type field to link record types and their fields. By 
 
 ## Create a Relationship-type field
 
-You can create fields for a record type by linking new fields to another record type's fields. You can use the Relationship-type field to link record fields together, from one record type to another. 
+You create a Relationship-type field to link two record types and their fields together. 
 
 1. Start creating a field for a record type, as described in the article [Create Maestro fields](../maestro/create-fields.md), then select the **Relationship** field type. This is the original record type. <!--check screen shot - logged a bug for a couple of changes here-->
 
@@ -81,7 +81,7 @@ You can create fields for a record type by linking new fields to another record 
 
      * **Description**: Additional information about the relationship-type field. The description of a field displays when you hover over the field's column in a table. 
      * **Find a record type**: The record type that you want to link to. This is the linked record. <!-- logged a bug to rename this to Linked record type-->
-     * **Allow multiple records**: This allows users to select multiple records when the linked record type field displays on the original records. This is selected by default.
+     * **Allow multiple records**: This allows you to select multiple records when the linked record type field displays on the original records. This is selected by default.
 
 1. (Optional) Select the fields that belong to the linked record type that you want to display as linked fields on the original records. Use the **search** icon ![](assets/search-icon.png) to search for a field. 
 
@@ -109,7 +109,7 @@ You can create fields for a record type by linking new fields to another record 
     The following fields (or columns) are added to the original record type in the table view:
         
     * The linked record field with the name you selected in step 2. <!--ensure this stays accurate--> 
-    * The linked field from the linked record which is named according to this pattern: 
+    * The linked field from the linked record, which is named according to this pattern: 
 
         `<Name of the original field on the linked record> (from <Name of your linked field>)`
 
@@ -119,20 +119,20 @@ This section describes an example of how to create a field by linking record typ
 
 For example, you have a record type named Campaign as your original record type. 
 
-You also have another record type called Program which has a currency field called Budget. 
+You also have another record type called Program, which has a currency field called Budget. 
 
 You want to create a field on the record type of Campaign where you can show the values that users select for the Budget field on the record type Product. 
 
 To do this:
 
 1. Start by opening the table view for the Campaign record type. 
-1. Click the **+** icon in the upper-right corner of the table view to add a new field, then expand the **Field type** drop down menu and select **Relationship**. 
+1. Click the **+** icon in the upper-right corner of the table view to add a new field, then expand the **Field type** drop-down menu and select **Relationship**. 
 1. Add the following information, for example:
 
     * **Name**: Program Budget. This is the name of the linked record field. 
     * **Description**: This is the budget of the program associated with this campaign. 
     * * **Allow multiple records**: Leave this option selected. This allows users to select multiple records when the linked record type field displays on the original records.
-1. From the list of fields associated with the **Program**, select the **Budget** field. This creates a field called **Budget (from Program Budget)** which is the name of the linked field. 
+1. From the list of fields associated with the **Program**, select the **Budget** field. This creates a field called **Budget (from Program Budget)**, which is the name of the linked field. 
 1. (Optional and conditional) Select **SUM** in the drop-down menu to the right of the field name. When users select multiple programs in the **Program Budget** linked record field, the **Budget (from Program Budget)** field adds all their Budget values together and displays the total. <!-- check the shot below - added a bug with a couple of UI changes here-->
 
     ![](assets/example-of-relationship-field-program-budget-with-sum.png)

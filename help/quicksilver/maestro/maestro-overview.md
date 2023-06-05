@@ -291,7 +291,7 @@ To locate Maestro:
 
 The following table illustrates the main features that will be available in Maestro, as well as a timeline of their availability. The list does not include all features.  
 
-|       Feature                                      |     Available in closed beta (May 22, 2023) |     Available after closed beta   |     In research  |
+|       Feature                                      |     Available now  |     Available soon   |     In research  |
 |----------------------------------------------------|:-----------------------------:|:--------------------------------:|:----------------:|
 |     Create workspaces                              |   ✓                           |                                  |                  |
 |     Create operational record types                |   ✓                           |                                  |                  |
@@ -306,7 +306,7 @@ The following table illustrates the main features that will be available in Maes
 |     Group records in the table view                |                               |   ✓                              |                  |
 |     Sort records                                   |                               |   ✓                              |                  |
 |     Link workspaces                                |                               |   ✓                              |                  |
-|     Connect Maestro records to Workfront projects  |                               |   ✓                              |                  |
+|     Connect Maestro records to Workfront projects  |   ✓                            |                                 |                  |
 |     Record details page                            |   ✓                           |                                  |                  |
 |     Update record details page layout              |                               |   ✓                              |                  |
 | Access levels and permissions | | | ✓ |
@@ -318,6 +318,18 @@ The following table illustrates the main features that will be available in Maes
 This section lists the features and patches that have been released after the launch of the Maestro closed beta program, on May 22, 2023. 
 
 The features are released weekly and are listed in the order of their release, with the most recent first. 
+
+### Week of June 5, 2023
+
+#### **Connect Maestro records with Workfront projects**
+
+Preview and production: June 5, 2023
+
+You can now connect a Maestro record with Workfront projects. You must first create a connector Maestro record type to establish the connection between Maestro records and Workfront projects. Then, you can connect any Maestro records from all other record types to the connector record using the Relationship field. Consider the following:
+
+* You must have a connector record type for each Workspace. 
+* You can connect multiple Maestro records to the same Workfront project, and multiple projects to the same Maestro record. 
+* All project changes in Workfront are visible in Maestro, when reviewing the linked records. 
 
 ### Week of May 29, 2023
 
