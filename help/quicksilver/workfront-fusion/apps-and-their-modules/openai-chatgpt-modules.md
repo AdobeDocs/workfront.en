@@ -47,3 +47,112 @@ You must have the following access to use the functionality in this article:
 To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
 
 For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Workfront Fusion] licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+
+## Prerequisites
+
+To use [!DNL OpenAI(ChatGPT)] modules, you must have an [!DNL OpenAI(ChatGPT)] account, including an API key and Organization ID.
+
+## Connecting [!DNL OpenAI(ChatGPT)] to [!DNL Workfront Fusion]
+
+You can create a connection to your [!DNL OpenAI(ChatGPT)] account directly from inside an [!DNL OpenAI(ChatGPT)] module.
+
+1. In any [!DNL OpenAI(ChatGPT)] module, click **[!UICONTROL Add]** next to the [!UICONTROL Connection] field.
+1. Enter the following information:
+
+   <table style="table-layout:auto"> 
+    <col> 
+    <col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader"> <p>[!UICONTROL Connection name]</p> </td> 
+      <td> <p>Enter a name for the new connection.</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">[!UICONTROL API Key]</td> 
+      <td>You can locate your API key in your OpenAI user settings.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">[!UICONTROL Organization ID] </td> 
+      <td>You can locate your Organization ID on your Organization Settings page in OpenAI.</td> 
+     </tr> 
+    </tbody> 
+   </table>
+
+1. Click **[!UICONTROL Continue]** to create the connection and go back to the module.
+
+
+## [!DNL OpenAI(ChatGPT)] modules and their fields
+
+When you configure [!DNL OpenAI(ChatGPT)] modules, [!DNL Workfront Fusion] displays the fields listed below. Along with these, additional [!DNL OpenAI(ChatGPT)] fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
+
+If you see the map button above a field or function, you can use it to set variables and functions for that field. For more information, see [Map information from one module to another in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
+
+![](assets/map-toggle-350x74.png)
+
+### Create a Completion
+
+This action module creates a completion for the provided prompt or chat.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td> <p>For instructions about connecting your [!DNL OpenAI(ChatGPT)] account to Workfront Fusion, see<a href="#create-a-connection-to-netsuite-in-a-workfront-fusion-netsuite-module" class="MCXref xref">Create a connection to [!DNL NetSuite] in a Workfront Fusion NetSuite module</a> in this article.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL URL]</td> 
+   <td> <p>Use the following URL format:</p> <p><code>https://{accountID}.suitetalk.api.netsuite.com/services/rest/record/{version}/{resource}?{query-parameters}</code> </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Method]</td> 
+   td> <p>Select the HTTP request method you need to configure the API call. For more information, see <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">HTTP request methods in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Headers]</td> 
+   <td> <p>Add the headers of the request in the form of a standard JSON object.</p> <p>For example, <code>{"Content-type":"application/json"}</code></p> <p>Workfront Fusion adds the authorization headers for you.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Query String]</td> 
+   <td> <p>Add the query for the API call in the form of a standard JSON object.</p> <p>For example: <code>{"name":"something-urgent"}</code></p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Body]</td> 
+   <td> <p>Add the body content for the API call in the form of a standard JSON object.</p> <p>Note:  <p>When using conditional statements such as <code>if</code> in your JSON, put the quotation marks outside of the conditional statement.</p> 
+     <div class="example" data-mc-autonum="<b>Example: </b>"> 
+      <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
+     </div> </p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+### Create an Edit
+
+This action module returns an edited version of a prompt you provide, following your instructions.
+
+
+
+### Create Chat Completion
+
+Given a list of messages describing a conversation, this action module returns a response.
+
+
+
+### Create a Custom API Call
+
+This action module a custom HTTP request to the OpenAI API.
+
+
+
+### Generate Images
+
+This action module generates or manipulates images with Dall-E models.
+
+
+
+### Get Models
+
+This module lists and describes the various models available in the OpenAI API.
+
+
