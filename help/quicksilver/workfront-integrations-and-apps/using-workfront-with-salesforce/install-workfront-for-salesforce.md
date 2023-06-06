@@ -65,11 +65,11 @@ To install the app before it's available:
 
 1. In your Production environment, go to
 
-   `https://login.salesforce.com/packaging/installPackage.apexp?p0=04t4K000002eRjb`
+   [https://login.salesforce.com/packaging/installPackage.apexp?p0=04t4K000002SDg2](https://login.salesforce.com/packaging/installPackage.apexp?p0=04t4K000002SDg2)
 
    In your Sandbox environment, go to
 
-   `https://test.salesforce.com/packaging/installPackage.apexp?p0=04t4K000002eRjb`
+   [https://test.salesforce.com/packaging/installPackage.apexp?p0=04t4K000002SDg2](https://test.salesforce.com/packaging/installPackage.apexp?p0=04t4K000002SDg2)
 
 1. Check the **[!UICONTROL Yes, grant access to these third-party web sites]** box.
 
