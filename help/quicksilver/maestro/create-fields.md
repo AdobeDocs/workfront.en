@@ -131,7 +131,7 @@ You must create record types before you can create fields to associate with them
     >    If no records display, you might not have any records yet, or you might have a filter applied that limits what you see on the screen.
 
     
-1. Click the **+** icon to the upper-right corner of the table view to add new fields.
+1. Click the **+** icon in the upper-right corner of the table view to add new fields.
 1. In the **New field** tab, select from the following field types: 
 
     * [Number](#number) 
@@ -164,11 +164,11 @@ Number field types capture information in a number format.
     * **Name**: The name of the field type, as it will appear in a table or the Details page of the record. 
     * **Description**: Additional information about the field. The description of a field displays when you hover over the field's column in a table. 
     * **Precision**: The number of decimals that you want to record for the field. You can display up to 6 decimals.
-    * **Allow negative numbers**: Select this option if you want to allow negative numbers in this field. This option is deselected by default. 
+    * **Allow negative numbers**: Select this option if you want to allow negative numbers in this field. This option is unselected by default. 
     
     >[!NOTE]
     >
-    >    You cannot deselect the Allow negative numbers setting that was previously selected when you create and save the field, if there are already negative values stored on the records it is attached to.  
+    >    If you select Allow negative numbers, and negative values are stored on the records the field is attached to, then you can no longer deselect the setting.
 
 1. Click **Create**.
 
@@ -186,11 +186,11 @@ Percentage field types capture information in a number format followed by a perc
      * **Name**: The name of the field type, as it will appear in a table or the Details page of the record. 
      * **Description**: Additional information about the field. The description of a field displays when you hover over the field's column in a table. 
     * **Precision**: The number of decimals that you want to record for the field. You can display up to 6 decimals.
-    * **Allow negative numbers**: Select this option if you want to allow negative percentage values in this field. This option is deselected by default. 
+    * **Allow negative numbers**: Select this option if you want to allow negative percentage values in this field. This option is unselected by default. 
 
     >[!NOTE]
     >
-    >    You cannot deselect the Allow negative numbers setting that was previously selected when you create and save the field, if there are already negative values stored on the records it is attached to. 
+    >    If you select Allow negative numbers, and negative values are stored on the records the field is attached to, then you can no longer deselect the setting.
 
 1. Click **Create**. 
 
@@ -209,11 +209,11 @@ Currency field types capture information in a number format preceded by a curren
      * **Description**: Additional information about the field. The description of a field displays when you hover over the field's column in a table.
      * **Currency**: The type of currency you want to display in this field. This is a list of currencies according to the International Organizaton of Standardization (ISO). 
       * **Precision**: The number of decimals that you want to record for the field. You can display up to 6 decimals.
-    * **Allow negative numbers**: Select this option if you want to allow negative currency values in this field. This option is deselected by default. 
+    * **Allow negative numbers**: Select this option if you want to allow negative currency values in this field. This option is unselected by default. 
 
     >[!NOTE]
     >
-    >    You cannot deselect the Allow negative numbers setting that was previously selected when you create and save the field, if there are already negative values stored on the records it is attached to. 
+    >    If you select Allow negative numbers, and negative values are stored on the records the field is attached to, then you can no longer deselect the setting. 
 
 1. Click **Create**. 
 
@@ -270,7 +270,7 @@ Single-select fields capture additional information in any format by selecting o
 
 ### Multi-select {#multi-select}
 
-You can use a multi-select field to capture additional information in any format by selecting more than option from a drop-down menu. 
+You can use a multi-select field to capture additional information in any format by selecting more than one option from a drop-down menu. 
 
 1. Start creating a field as described in the section [Create fields from scratch](#create-fields-from-scratch) in this article, then select the **Multi-select** field type.
 
@@ -304,14 +304,14 @@ You can use a date field to capture additional information in date and time form
         Select from the following formats:
         * **Locale**: Matches the locale of your browser.
         * **Standard**: 05/16/2023
-        * **Friendly**: May 16, 2023
+        * **Friendly**: May 16, 2023 <!-- is this still called this??? I asked Lusine if I can log a bug - also see the screen shot to ensure the UI text is not changes for these options and their casing-->
         * **European**: 16/05/2023
         * **ISO**: 2023-05-16
     * Include a time field: Select this option if you want to inclue a time stamp. Select from the following options:
         * **24hr**: 18:00
         * **12hr**: 6:00 PM
 
-        This is deselected by default.
+        This is unselected by default.
 
 ### Relationship {#relationship}
 

@@ -171,7 +171,7 @@ For more information, also see the article [Manage Relationship-type fields in A
 
     ![](assets/linked-field-aggregators-for-relationship-fields.png)
 
-1. Click **Create**.
+1. Click **Create**. <!-- is this the right button? I asked Lusine to replace with "add"-->
 
     The relationship-ype field is created with the new name you selected in step 5. <!--ensure this stays accurate-->
     A new linked field is created for every linked field that you selected for the Workfront object type. The linked field from the linked Workfront object type is named according to this pattern: 
