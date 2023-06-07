@@ -263,7 +263,7 @@ Files are used to upload documents that can be used with features like the Fine-
  </tbody> 
 
  -->
- 
+
 ### Fine-tunes
 
 Manage fine-tuning jobs to tailor a model to your specific training data.
@@ -274,10 +274,51 @@ Manage fine-tuning jobs to tailor a model to your specific training data.
 
 This action module generates or manipulates images with Dall-E models.
 
-
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td> <p>For instructions about connecting your [!DNL OpenAI (ChatGPT)] account to Workfront Fusion, see <a href="#connecting-openaichatgpt-to-workfront-fusion" class="MCXref xref">Connecting [!DNL OpenAI (ChatGPT)] to [!DNL Workfront Fusion]</a> in this article.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Select the method]</td> 
+   <td> Select how you want to create the image.
+    <ul>
+    <li><p><b>Generate image from scratch </b></p><p>Enter or map a text description of the desired image.</p></li>
+    <li><p><b>Create edits of an existing image </b></p><p>Enter or map the image that you want to edit, and a text description of the desired edits. </p></li>
+    <li><p><b>Create variations of an existing image </b></p><p>Enter or map the image that you want to generate images from.</p></li>
+   </ul>
+   NOTE: Images must be a valid PNG file, less than 4MB, and square. If mask is not provided, the image must have transparency, which will be used as the mask. 
+ </td> 
+  </tr> 
+   <tr> 
+   <td role="rowheader">[!UICONTROL Advanced settings]</td> 
+   <td> <p>For information about the optional advanced settings in this module, see the information about "Images" in the <a href="https://platform.openai.com/docs/api-reference" class="MCXref xref">OpenAI API documentation</a>.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
 
 ### Get Models
 
 This module lists and describes the various models available in the OpenAI API.
 
-
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td> <p>For instructions about connecting your [!DNL OpenAI (ChatGPT)] account to Workfront Fusion, see <a href="#connecting-openaichatgpt-to-workfront-fusion" class="MCXref xref">Connecting [!DNL OpenAI (ChatGPT)] to [!DNL Workfront Fusion]</a> in this article.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Avtion]</td> 
+   <td> Select whether you want to get all models or retrieve a specific model.
+    <ul>
+    <li><p><b>List models </b></p><p>This action ists the currently available models, and provides basic information about each one such as the owner and availability.</p></li>
+    <li><p><b>Retrieve model </b></p><p>Enter or map the ID of the model you want to retrieve. </p></li>
+   </ul>
+ </td> 
+ </tbody> 
+</table>
