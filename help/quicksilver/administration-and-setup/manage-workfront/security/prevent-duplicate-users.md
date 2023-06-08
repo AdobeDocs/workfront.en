@@ -36,14 +36,6 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-## Walkthrough
-
-<!--WRITER
-<iframe class="vimeo-player_0" src="assets/371505632?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>
--->
-
-[Watch a video demonstration of this feature.](https://vimeo.com/371505632/2e6938ce06)
-
 ## Create users with unique email addresses
 
 Beginning with the 2019.4 release, when creating a new user in Workfront, you can no longer use an email address that is already being used by another user, even if the email address varies by case. For example, you cannot create one user with the email address of JohnDoe@example.com if another user has the email address of johndoe@example.com.
