@@ -313,23 +313,6 @@ The <add release> release webinar will be held on <date>. You can [register for 
                         <p><span class="bold">Release dates</span>
                         </p>
                     </td>
-                </tr>
-                 <tr>
-                    <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-jun-5.md" class="MCXref xref" xrefformat="{para}">Changing support for Microsoft Office proofs</a> </p>
-                        <p>To maintain a robust and scalable proof processing solution, we are changing our supported Microsoft Office file types and file size limits.</p>
-                    </td>
-                    <td><p><b>Available on these dates:</b></p>
-                        <ul>
-                            <li>
-                                <p>Preview release:&#160;June 8, 2023<br /></p>
-                            </li>
-                            <li>
-                                <p><span class="preview">Production release: June 8, 2023</span></p>
-                            </li>
-                        </ul>
-                    </td>
-                </tr>
                  <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-29.md" class="MCXref xref" xrefformat="{para}">New document approvals</a> </p>
@@ -365,6 +348,23 @@ The <add release> release webinar will be held on <date>. You can [register for 
                     <td>
                         <p><span class="bold">Release dates</span>
                         </p>
+                    </td>
+                </tr>
+                </tr>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-jun-5.md" class="MCXref xref" xrefformat="{para}">Changing support for Microsoft Office proofs</a> </p>
+                        <p>To maintain a robust and scalable proof processing solution, we are changing our supported Microsoft Office file types and file size limits.</p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                        <ul>
+                            <li>
+                                <p>Preview release:&#160;June 8, 2023<br /></p>
+                            </li>
+                            <li>
+                                <p><span class="preview">Production release: June 8, 2023 (EU)</span></p><p><span class="preview">Production release: June 22, 2023 (US, GCP)</p>
+                            </li>
+                        </ul>
                     </td>
                 </tr>
                  <tr>
