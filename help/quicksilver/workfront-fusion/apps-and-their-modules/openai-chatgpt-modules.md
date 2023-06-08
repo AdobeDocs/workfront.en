@@ -103,7 +103,7 @@ This action module creates a completion for the provided prompt or chat.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Model]</td> 
-   <td> Enter or map the ID of the model to use. You can use the Get models module to see all of your available models </td> 
+   <td> Enter or map the ID of the model to use. You can use the Get models module to see all of your available models. </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Temperature]</td> 
@@ -112,6 +112,29 @@ This action module creates a completion for the provided prompt or chat.
   <tr> 
    <td role="rowheader">[!UICONTROL Advanced settings]</td> 
    <td> <p>For information about the optional advanced settings in this module, see the information about "Completions" in the <a href="https://platform.openai.com/docs/api-reference" class="MCXref xref">OpenAI API documentation</a>.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+### Create a Moderation
+
+This action module determines whether text violates OpenAI's Content Policy.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td> <p>For instructions about connecting your [!DNL OpenAI (ChatGPT)] account to Workfront Fusion, see <a href="#connecting-openaichatgpt-to-workfront-fusion" class="MCXref xref">Connecting [!DNL OpenAI (ChatGPT)] to [!DNL Workfront Fusion]</a> in this article.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Input]</td> 
+   <td> For each section of text that you want to include, click <b>Add item</b> and enter or map the text.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Model]</td> 
+   <td> Enter or map the ID of the model to use. You can use the Get models module to see all of your available models. </td> 
   </tr> 
  </tbody> 
 </table>
@@ -130,7 +153,7 @@ This action module returns an edited version of a prompt you provide, following 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Model]</td> 
-   <td> Enter or map the ID of the model to use. You can use the Get models module to see all of your available models </td> 
+   <td> Enter or map the ID of the model to use. You can use the Get models module to see all of your available models. </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Input]</td> 
@@ -151,6 +174,37 @@ This action module returns an edited version of a prompt you provide, following 
  </tbody> 
 </table>
 
+### Create an Embedding
+
+This action module creates an embedding vector representing the input text.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td> <p>For instructions about connecting your [!DNL OpenAI (ChatGPT)] account to Workfront Fusion, see <a href="#connecting-openaichatgpt-to-workfront-fusion" class="MCXref xref">Connecting [!DNL OpenAI (ChatGPT)] to [!DNL Workfront Fusion]</a> in this article.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Model]</td> 
+   <td> Enter or map the ID of the model to use. You can use the Get models module to see all of your available models. </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Input text to embed]</td> 
+   <td> Enter or map the text that you want to embed. </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Limit]</td> 
+   <td> Enter or map the maximum number of edits you want the module to work with during each scenario execution cycle.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Advanced settings]</td> 
+   <td> <p>For information about the optional advanced settings in this module, see the information about "Embeddings" in the <a href="https://platform.openai.com/docs/api-reference" class="MCXref xref">OpenAI API documentation</a>.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
 ### Create Chat Completion
 
 Given a list of messages describing a conversation, this action module returns a response.
@@ -165,7 +219,7 @@ Given a list of messages describing a conversation, this action module returns a
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Model]</td> 
-   <td> Enter or map the ID of the model to use. You can use the Get models module to see all of your available models </td> 
+   <td> Enter or map the ID of the model to use. You can use the Get models module to see all of your available models. </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Messages]</td> 
