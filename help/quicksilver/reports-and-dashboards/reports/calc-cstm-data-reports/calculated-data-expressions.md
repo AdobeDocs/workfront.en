@@ -241,7 +241,11 @@ The lists below define the available expressions you can use when you are buildi
   </tr> 
   <tr> 
    <td><strong>PROD</strong> </td> 
-   <td>This expression multiplies all the numbers and is formatted as follows:<pre>PROD(number1, number2, ....)</pre></td> 
+   <td>This expression multiplies all the numbers and is formatted as follows:<pre>PROD(number1, number2, ....)</pre>
+   <b>NOTE</b>
+
+   When multiplying fields that contain hours, ensure that you understand whether the hours in the selected fields are saved in minutes, hours, or seconds in the database. If the hours are saved in minutes or seconds but display in hours in the Workfront interface, you might need to account for the conversion from minutes or seconds to hours when writing an expression using this calculation. 
+   </td> 
   </tr> 
   <tr> 
    <td><strong>ROUND</strong> </td> 
