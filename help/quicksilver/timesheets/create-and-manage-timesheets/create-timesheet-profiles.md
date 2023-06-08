@@ -11,7 +11,7 @@ exl-id: 8f4826bd-82b4-4157-a7d4-a7c94b8fc879
 
 You can create, edit, and assign timesheet profiles that generate recurring timesheets for your users without any further intervention from you. This saves you time and ensures that the following are consistent between users:
 
-* Timesheet time frame
+* Timesheet time frame 
 * Approvers
 * General hour types
 
@@ -134,7 +134,8 @@ You must have the following to perform the steps in this article:
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Available Hour Types</strong> </td> 
-      <td>By default, users see all general hours on a timesheet. However, if your organization wants only specific general hours to be shown for a particular set of users, you can select the general hours that they need to see in their timesheets by selecting them in their timesheet profile in this field. If you want to disable all general hours, deselect all hour types to generate the timesheet without a section for general hours.</td> 
+      <td><p>This setting refers only to General Hour Types, and not to project-specific hour types. </p>
+      <p>By default, users see all general hours on a timesheet. However, if your organization wants only specific general hours to be shown for a particular set of users, you can select the general hours that they need to see in their timesheets by selecting them in their timesheet profile in this field. If you want to disable all general hours, deselect all hour types to generate the timesheet without a section for general hours.</p></td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader"><span style="font-weight: bold;">Overtime</span> </td> 

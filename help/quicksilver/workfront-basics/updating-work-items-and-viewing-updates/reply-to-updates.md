@@ -23,13 +23,13 @@ exl-id: a8271f3c-7a08-4eb3-aaff-deb250f5af73
 >
 >* Issues, <span class="preview">projects, tasks, and documents</span>.
 >
->  This is available when you enable the commenting Beta experience.   
+>     This is available when you enable the commenting Beta experience.   
 >
->  This functionality is available only for the Updates section, and it is not available for the following areas:
+>     This functionality is available only for the Updates section, and it is not available for the following areas:
 >
->  * Home
->  * Summary panel in lists
->  * Summary panel in timesheets
+>     * Home
+>     * Summary panel in lists
+>     * Summary panel in timesheets
 >
 >* Goals
 >
