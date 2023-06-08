@@ -130,7 +130,7 @@ This action module determines whether text violates OpenAI's Content Policy.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Input]</td> 
-   <td> For each section of text that you want to include, click <b>Add item</b> and enter or map the text.</td> 
+   <td> For each sample of text that you want to include, click <b>Add item</b> and enter or map the text. Include the entire text sample.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Model]</td> 
