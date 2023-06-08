@@ -434,7 +434,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
                 </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md" class="MCXref xref" xrefformat="{para}">New Canvas Dashboard experience enhancements</a></p>
+                        <a href="/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-release-activity.md" class="MCXref xref" xrefformat="{para}">New Canvas Dashboard experience enhancements</a></p>
                         <p>Enhancements to the Canvas Dashboard are being made available within the 23.3 release timeframe. These enhancements will be made available in the Production environment with the 23.3 release, unless otherwise specified. 
  </p>
                     </td>
