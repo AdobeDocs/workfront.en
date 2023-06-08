@@ -103,6 +103,9 @@ You can log time in the following areas in Workfront:
 
 ### Timesheet {#timesheet}
 
+
+#### Log time on a timesheet {#log-time-on-a-timesheet}
+
 You can log general hours or project-specific hours on a timesheet.
 
 >[!NOTE]
@@ -182,23 +185,6 @@ You can log general hours or project-specific hours on a timesheet.
 
 1. (Optional) Click the search icon ![](assets/search-icon.png) and start typing a keyword to find a project, task, or an issue on the timesheet. 
 
-1. (Optional) You can remove an item (project, task, or issue) from the timesheet if you manually added the item (as described in Steps 3-6), and if you have not yet logged time against it by unpinning it. <!--ensure this stays accurate-->
-
-   You cannot remove items that are included in the timesheet automatically according to the timesheet preferences in your Workfront system or group that are configured to pre-populate the timesheets (as described in [Configure timesheet and hour preferences](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md). 
-
-   To remove an item from the timesheet that was manually added:
-
-   1. Ensure that no time is logged against the item.
-   1. Click the **unpin** icon ![Pin an item](assets/pin-icon.png) next to the item to unpin the item from the timesheet.
-
-   >[!TIP]
-   >
-   >   When using a standard QWERTY keyboard after clicking an item in the timesheet, press the following set of keys to unpin an item:
-   >   * Option + P for both Windows and Mac computers. 
-   
-
-   The item is removed from the timesheet after you refresh the page.
-  
 1. (Conditional) If your Workfront or group administrator has enabled the **Assign job roles to hour entries manually** setting, select a job role from the drop-down menu. The role specified when you are assigned to the work item displays by default. If you are not assigned a role on the object, your Primary Role displays as the default. For more information on this setting, see the article [Configure timesheet and hour preferences](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
    ![Log time for multiple roles in timesheet](assets/job-role-plus-sign-and-boxes-in-redesigned-timesheet.png)
@@ -316,6 +302,35 @@ You can log general hours or project-specific hours on a timesheet.
 
    * **Re-Open**: This option is available for timesheets that you have already closed and which have no approvers, or timesheets that have already been approved. Reopen the timesheet to modify hour entries. 
    * **Recall**: This option is available for timesheets that have been submitted for approval but have not been approved or rejected yet. Click **Recall** to reopen the timesheet and modify hour entries.
+
+#### Remove an item from the timesheet
+
+You can remove an hour entry or an item (project, task, or issue) from a timesheet. 
+
+To remove an hour entry from a timesheet: 
+
+1. Go to the timesheet and find the hour entry you want to remvoe. 
+1. Replace the hours entered with 0
+      Or
+   Remove the hours and replace them with 0, then press Enter. 
+
+   The hours are removed and the timesheet is saved automatically.
+
+You can remove an item (project, task, or issue) from the timesheet by unpinning it, if you have not yet logged time for it, and if you manually added the item (as described in Steps 4-8 in the [Log time on a timesheet](#log-time-on-a-timesheet) section in this article). <!--ensure this stays accurate-->
+
+You cannot remove items that are included in the timesheet automatically according to the timesheet preferences in your Workfront system or group that are configured to pre-populate the timesheets (as described in [Configure timesheet and hour preferences](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md)). The items stop pre-populating the timesheet when the dates of the items are outside of the time frame of the timesheet. 
+
+To remove an item from the timesheet that was manually added:
+
+1. Ensure that no time is logged against the item.
+1. Click the **unpin** icon ![Pin an item](assets/pin-icon.png) next to the item to unpin the item from the timesheet.
+
+   >[!TIP]
+   >
+   >   When using a standard QWERTY keyboard after clicking an item in the timesheet, press the following set of keys to unpin an item:
+   > * Option + P for both Windows and Mac computers. 
+
+   The item is removed from the timesheet after you refresh the page.
 
 ### Home {#home}
 
