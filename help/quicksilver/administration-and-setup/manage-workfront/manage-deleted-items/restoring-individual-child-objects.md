@@ -30,7 +30,7 @@ You can import the exported data in the following ways:
 
 The Preview Sandbox environment is refreshed during our maintenance windows over the weekend.
 
-For more information about the windows of maintenance for the Preview Sandbox environment, see [trust.workfront.com](https://trust.workfront.com/).
+For more information about the windows of maintenance for the Preview Sandbox environment, see [the Adobe status site](https://status.adobe.com).
 
 >[!IMPORTANT]
 >
