@@ -50,7 +50,7 @@ Additionally, Maestro can link to object types from other systems, creating a co
  </col>
  <tbody>
   <tr>
-   <td role="rowheader"><p>Adobe Workfront plan*</p></td>
+   <td role="rowheader"><p>Adobe Workfront plan</p></td>
    <td>
 <p>Any</p>
 <!--the above is only for closed beta; when going to GA - activate the following plans:    
@@ -59,7 +59,7 @@ Additionally, Maestro can link to object types from other systems, creating a co
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Adobe Workfront license*</p></td>
+   <td role="rowheader"><p>Adobe Workfront license</p></td>
    <td>
    <p>Any</p> 
   <!--<p>For more information, see <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p>--> </td>
@@ -70,7 +70,7 @@ Additionally, Maestro can link to object types from other systems, creating a co
    <p> Adobe Workfront</p> </td>
   </tr>
   <tr>
-   <td role="rowheader">Access level*</td>
+   <td role="rowheader">Access level</td>
    <td> <p>Any</p>  
 </td>
   </tr>
@@ -327,9 +327,9 @@ Preview and production: June 5, 2023
 
 You can now connect a Maestro record with Workfront projects. You must first create a connector Maestro record type to establish the connection between Maestro records and Workfront projects. Then, you can connect any Maestro records from all other record types to the connector record using the Relationship field. Consider the following:
 
-* You must have a connector record type for each Workspace. 
+* You must have a connector record type for Workfront for each Workspace. 
 * You can connect multiple Maestro records to the same Workfront project, and multiple projects to the same Maestro record. 
-* All project changes in Workfront are visible in Maestro, when reviewing the linked records. 
+* You cannot edit projects in Maestro. All project changes performed in Workfront are visible in Maestro, when reviewing the linked records. 
 
 ### Week of May 29, 2023
 
