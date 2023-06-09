@@ -111,7 +111,7 @@ You can move a document to a linked folder in Experience Manager Assets if both 
 
 The document options are not available while the document is in the process of moving. After the document is moved to Experience Manager Assets, is no longer visible in the document list in Workfront.
 
->[NOTE]
+>[!NOTE]
 >
 > Any actions or edits you make on the document while it is moving will not appear on the document in Experience Manager Assets, and will therefore be lost.
 
