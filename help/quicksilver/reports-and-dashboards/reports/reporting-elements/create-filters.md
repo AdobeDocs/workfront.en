@@ -168,7 +168,7 @@ Create a filter using the standard builder interface:
    </tr>
    <tr>
    <td role="rowheader"><strong>Saved</strong></td>
-   <td>Filters that you built and saved yourself.</td>
+   <td>Filters that you built and saved yourself. By default this list displays saved filters in order of most recently saved, but the filter names can be dragged to manually reorder the list.</td>
    </tr>
    <tr>
    <td role="rowheader"><strong>System defaults</strong></td>

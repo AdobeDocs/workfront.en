@@ -1,12 +1,12 @@
 ---
 product-area: betas
 navigation-topic: new-commenting-exprience-beta
-title: 'New commenting experience beta release activity'
-description: Review the weekly release activity for the Adobe Workfront new commenting Beta experience. 
+title: New commenting experience beta release activity
+description: Review the weekly release activity for the Adobe Workfront new commenting Beta experience.
 author: Alina
 feature: Product Announcements
+exl-id: 1c0cb547-ac99-4cdf-8a74-2c47ad5a10ad
 ---
-
 # New commenting beta experience release activity
 
 The information on this page refers to the release activity on a weekly basis of the features included in the new commenting beta experience. The page lists new features that are added and issues that are resolved for the new commenting beta experience. 
@@ -20,6 +20,44 @@ For general information on the new commenting beta experience, including a list 
 >Commenting features that are released to the beta experience for Workfront objects are also released to the Updates section of a goal object in Workfront Goals. 
 
 The following sections list features that have been added after the original release, starting with the ones released most recently. 
+
+## Week of May 29, 2023
+
+### New commenting Beta experience for projects, tasks, and documents  
+
+The new commenting Beta experience is now available for projects, tasks, and documents. Prior to this update, the commenting Beta experience was available only for issues and goals.  
+
+Preview: June 1, 2023 
+
+Production: with the 23.3 release 
+
+>[!NOTE]
+>
+>Any features released to the new commenting Beta experience starting with June 1, 2023 will be available in Production for projects, tasks, and documents after the 23.3 release to Production. For information, see [23.3 release overview](../../../product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md).
+
+### New look and feel of the "edited" tag after editing a comment 
+
+When editing a comment in the new commenting Beta experience, an "edited" tag is added to the comment. This tag now has a new look and feel from the one originally released. The date and time stamps of the comment are those of the original comment. They are not the date and time stamps of when the edit was made.  For more information, see [Update work](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). 
+
+Preview: May 31, 2023
+
+Production: June 1, 2023
+
+### Comments from children objects roll up to a parent object  
+
+When enabling the commenting Beta experience, the comments associated with a child object now roll up to the parent object. For example, comments from documents now display on the issue where the documents are attached. For information, see [Update section overview](../../../workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md). 
+
+Preview: June 1, 2023  
+
+Production: June 1, 2023 
+
+### Log time in the new commenting Beta experience 
+
+You can log time for issues, tasks, and projects from the Updates area, when using the new commenting Beta experience. For more information, see [Log time](../../../timesheets/create-and-manage-timesheets/log-time.md).  
+
+Preview: June 1, 2023 
+
+Production: To be announced
 
 ## Week of May 15, 2023
 

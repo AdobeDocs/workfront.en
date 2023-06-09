@@ -3,7 +3,7 @@ product-previous: mobile
 navigation-topic: use-the-workfront-mobile-app
 title: My Work section in the mobile app
 description: The [!UICONTROL My Work] section of the [!UICONTROL Home] area displays your tasks, issues, projects, approvals, requests, and timesheets.
-author: Lisa
+author: Nolan
 feature: Get Started with Workfront
 exl-id: 006f6f5e-fe10-4530-a22a-4ab33a4e0da5
 ---

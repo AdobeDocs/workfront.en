@@ -20,6 +20,10 @@ To view available templates, click the **Templates** icon ![](assets/fusion-temp
 
 These templates automate Workfront processes and workflows.
 
+### Workfront - Copy Program Custom Forms and Field Data to Associated New Projects
+
+This automation watches for new projects in programs with custom forms. It then adds those program custom forms and fields to the new projects.
+
 ### Workfront - Convert approved issue to project
 
 This template converts Issues to Projects. You can modify it to meet your organization's standards.

@@ -20,6 +20,8 @@ feature-set: Workfront
       * [23.3 release activity week of May 1, 2023](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-4.md)
       * [23.3 release activity week of May 8, 2023](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-10.md)
       * [23.3 release activity week of May 15, 2023](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-15.md)
+      * [23.3 release activity week of May 29, 2023](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-29.md)
+      * [23.3 release activity week of June 5, 2023](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-jun-5.md)
       * [Look and feel updates during the 23.3 release time frame](product-announcements/product-releases/23.3-release-activity/23-3-look-and-feel-updates.md)
     * 23.2 Release {#release-23-2}
       * [23.2 Release overview](product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md) 
@@ -206,6 +208,7 @@ feature-set: Workfront
     * Workfront Proof release activity {#proof-release}
       * Proof with 23.3 release {#proof-23-3-release}
         * [Adobe Workfront Proof with the 23.3 release](/help/quicksilver/product-announcements/product-releases/workfront-proof-release-activity/proof-23-3-release/proof-23-3-overview.md)
+        * [Adobe Workfront Proof 23.3 release activity: Week of June 5, 2023](/help/quicksilver/product-announcements/product-releases/workfront-proof-release-activity/proof-23-3-release/proof-23-3-jun-5.md)
         * [Adobe Workfront Proof 23.3 release activity: Week of May 8, 2023](/help/quicksilver/product-announcements/product-releases/workfront-proof-release-activity/proof-23-3-release/proof-23-3-may-8.md)
       * [Workfront Proof release activity: Week of May 17, 2021](product-announcements/product-releases/workfront-proof-release-activity/wp-release-may-17.md)
       * [Workfront Proof release activity: Week of November 29, 2021](product-announcements/product-releases/workfront-proof-release-activity/wp-release-22-1.md)
@@ -345,9 +348,9 @@ feature-set: Workfront
       * [Remove custom SMTP as an outgoing email option](product-announcements/announcements/announcement-archive/remove-custom-smtp.md)
   * Beta programs {#beta}
     * [Beta programs](product-announcements/betas/betas.md)
-    * Reporting Canvas beta {#reporting-canvas-beta}
-      * [Reporting Canvas beta overview](product-announcements/betas/reporting-canvas-beta/reporting-canvas-beta-overview.md)
-      * [Reporting Canvas beta: release activity](product-announcements/betas/reporting-canvas-beta/reporting-canvas-release-activity.md)
+    * Canvas Dashboards beta {#canvas-dashboards-beta}
+      * [Reporting Canvas beta overview](product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md)
+      * [Canvas Dashboards beta: release activity](product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-release-activity.md)
     * New commenting experience beta {#new-commenting-experience-beta}
       * [New commenting beta experience information](product-announcements/betas/new-commenting-experience-beta/new-commenting-beta-experience-information.md)
       * [New commenting experience](product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md)
@@ -433,6 +436,7 @@ feature-set: Workfront
       * [New licenses overview](administration-and-setup/add-users/how-access-levels-work/licenses-overview.md)
       * [Access to objects and areas by for new licenses](administration-and-setup/add-users/how-access-levels-work/access-to-objects-areas-license-types.md)
       * [Functionality available for each object type for new access levels](administration-and-setup/add-users/how-access-levels-work/functionality-available-for-objects.md)
+      * [Disable the auto-upgrade option for non-paid users on the new licensing plan](administration-and-setup/add-users/how-access-levels-work/disable-auto-upgrade.md)
     * How access levels work {#legacy-access-levels}
       * [How access levels work](administration-and-setup/add-users/access-levels-and-object-permissions/access-levels.md)
       * [Access overview](administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md)
@@ -1715,6 +1719,17 @@ feature-set: Workfront
     * [Delegate approval request](review-and-approve-work/manage-approvals/delegate-approval-requests.md)
     * [Associate a new or existing approval process with work](review-and-approve-work/manage-approvals/associate-approval-with-work.md)
     * [Recall submitted approvals](review-and-approve-work/manage-approvals/recall-submitted-approvals.md)
+  * Document reviews and approvals {#document-reviews-and-approvals}
+    * [Document reviews and approvals](review-and-approve-work/document-reviews-and-approvals/document-reviews-and-approvals.md)
+    * Manage document approvals {#manage-document-approvals}
+      * [Manage document approvals](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/manage-document-approvals.md)
+      * [Create a document approval](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)
+      * [Add additional reviewers or approvers to a document](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/add-additional-reviewers-or-approvers.md)
+      * [Remove approvers or reviewers from a document](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/remove-approvers-or-reviewers.md)
+    * Review and approve documents {#review-and-approve-documents}
+      * [Review and approve documents](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-and-approve-documents.md)
+      * [Review a document](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-a-document.md)
+      * [Approve a document](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/approve-a-document.md)
   * Proofing {#proofing}
     * [Proofing](review-and-approve-work/proofing/proofing.md)
     * Proofing overview {#proofing-overview}
@@ -2498,7 +2513,6 @@ feature-set: Workfront
     * [API Explorer](wf-api/general/api-explorer.md)
     * [Using the API Explorer](wf-api/general/using-api-explorer.md)
     * [Rich text fields in the Adobe Workfront API](wf-api/general/rich-text-field-api.md)
-    * [Adobe Workfront API Developer forum](wf-api/general/api-developer-forum.md)
     * [API example scripts](wf-api/general/api-example-scripts.md)
     * [Using the API to sync data for programs and services](wf-api/general/api-sync-data.md)
     * [Deactivate a User via the API](wf-api/general/deactivate-user-api.md)
