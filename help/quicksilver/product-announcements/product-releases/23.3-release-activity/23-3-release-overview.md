@@ -350,24 +350,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
                         </p>
                     </td>
                 </tr>
-                </tr>
-                 <tr>
-                    <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-jun-5.md" class="MCXref xref" xrefformat="{para}">Changing support for Microsoft Office proofs</a> </p>
-                        <p>To maintain a robust and scalable proof processing solution, we are changing our supported Microsoft Office file types and file size limits.</p>
-                    </td>
-                    <td><p><b>Available on these dates:</b></p>
-                        <ul>
-                            <li>
-                                <p>Preview release:&#160;June 8, 2023<br /></p>
-                            </li>
-                            <li>
-                                <p><span class="preview">Production release: June 8, 2023 (EU)</span></p><p><span class="preview">Production release: June 22, 2023 (US, GCP)</p>
-                            </li>
-                        </ul>
-                    </td>
-                </tr>
-                 <tr>
+            <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-29.md" class="MCXref xref" xrefformat="{para}">New commenting Beta experience for projects, tasks, and documents</a> </p>
                         <p>The new commenting Beta experience is now available for projects, tasks, and documents. Prior to this update, the commenting Beta experience was available only for issues and goals.</p>
