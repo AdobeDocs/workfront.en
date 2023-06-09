@@ -115,5 +115,9 @@ The [!UICONTROL Video Asset Production] package contains a template that organiz
 **[!UICONTROL Video Asset Production] (Managed)**
 The [!UICONTROL Video Asset Production] package contains a template that organizes the work for a standard video production process. This package is intended as an entry point for managing video asset creation in Workfront. Use this package to create a foundation for video content creation, then customize it to meet the needs of other creative processes for specialized types of video materials.
 
+**[!UICONTROL [!DNL Workfront] Communication and Launch Template]**
+
+This blueprint contains a single template that organizes the work that a [!DNL Workfront] customer will need to do in order to have a stellar rollout of the [!DNL Workfront] application.
+
 **[!DNL Workfront Usage Dashboard]**
 This blueprint contains a single dashboard with 11 reports to assist system administrators and governance teams understand whether their configuration is being used as expected.

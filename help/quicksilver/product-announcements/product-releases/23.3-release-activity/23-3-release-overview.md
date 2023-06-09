@@ -20,8 +20,10 @@ The <add release> release webinar will be held on <date>. You can [register for 
 
 ## Adobe Workfront enhancements
     
+* [Administrator enhancements](#administrator-enhancements)
 * [Agile enhancements](#agile-enhancements)
 * [Integration enhancements](#integration-enhancements)
+* [Project enhancements](#project-enhancements)
 * [Other enhancements](#other-enhancements)
     
 ### Administrator enhancements
@@ -73,6 +75,22 @@ The <add release> release webinar will be held on <date>. You can [register for 
                     <td>
                         <p><span class="bold">Release dates</span>
                         </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-15.md" class="MCXref xref" xrefformat="{para}">Enhancements to the Boards tag manager</a></p>
+                        <p>The tag manager interface has been improved, allowing you to create new tags quickly and apply them to cards. You can also create tags for workstreams.</p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                        <ul>
+                            <li>
+                                <p>Preview release: May 19, 2023</p>
+                            </li>
+                            <li>
+                                 <p><span class="preview">Production release: May 19, 2023</span></p>
+                            </li>
+                        </ul>
                     </td>
                 </tr>
                 <tr>
@@ -199,7 +217,23 @@ The <add release> release webinar will be held on <date>. You can [register for 
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-15.md" class="MCXref xref" xrefformat="{para}">Automatically create linked folders to Adobe Experience Manager Assets when creating a project</a><span style="color: #ff0000;"> New in Production!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-jun-5.md" class="MCXref xref" xrefformat="{para}">Improved experience when moving a document to a linked folder with drag and drop</a><span style="color: #ff0000;"> New in Preview!</span></p> 
+                        <p>We've added some transparency to the process of dragging and dropping a document into a linked folder. Now, the document that you moved to a linked folder remains in the document list until it has fully moved. The document options are disabled, but you can still open the document for view while it is moving. When the document has completed the transfer, it disappears from the document list, because it is now fully located in the linked folder. </p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                        <ul>
+                            <li>
+                                <p>Preview release: June 7, 2023</p>
+                            </li>
+                            <li>
+                                <p><span class="preview">Production release: June 15, 2023</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-15.md" class="MCXref xref" xrefformat="{para}">Automatically create linked folders to Adobe Experience Manager Assets when creating a project</a></p>
                         <p>With the new Create linked folder workflow for the Adobe Experience Manager integration, you can configure the integration with a path to an Adobe Experience Manager Assets folder. When the integration is added to a project template, any projects created from the template will automatically create a linked subfolder in Experience Manager Assets in the specified folder. </p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
@@ -208,7 +242,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
                                 <p>Preview release: May 11, 2023</p>
                             </li>
                             <li>
-                                <p><span class="preview">Production release: May 18, 2023</span></p>
+                                <p><span class="preview">Production release: May 24, 2023</span></p>
                             </li>
                         </ul>
                     </td>
@@ -264,6 +298,42 @@ The <add release> release webinar will be held on <date>. You can [register for 
             </tbody>
         </table>   
 
+### Project enhancements
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">Feature</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Release dates</span>
+                        </p>
+                    </td>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-29.md" class="MCXref xref" xrefformat="{para}">New document approvals</a> </p>
+                        <p>Document approvals are being redesigned in a phased rollout that will be made available to more users with each release.</p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                        <ul>
+                            <li>
+                                <p>Preview release:&#160;May 31, 2023<br /></p>
+                            </li>
+                            <li>
+                                <p><span class="preview">Production release: June 14, 2023</span></p>
+                            </li>
+                        </ul>
+                        <p><span style="color: #ff0000;">This feature is part of a phased release and is currently only available for specific customers.</span></p>
+                    </td>
+                </tr>
+           </tbody>
+        </table>   
+
+
 ### Other enhancements
 
 <table>
@@ -280,6 +350,22 @@ The <add release> release webinar will be held on <date>. You can [register for 
                         </p>
                     </td>
                 </tr>
+            <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-29.md" class="MCXref xref" xrefformat="{para}">New commenting Beta experience for projects, tasks, and documents</a> </p>
+                        <p>The new commenting Beta experience is now available for projects, tasks, and documents. Prior to this update, the commenting Beta experience was available only for issues and goals.</p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                        <ul>
+                            <li>
+                                <p>Preview release:&#160;June 1, 2023<br /></p>
+                            </li>
+                            <li>
+                                <p>Production release: With the 23.3 release</p>
+                            </li>
+                        </ul>
+                    </td>
+                 </tr>
                  <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-17.md" class="MCXref xref" xrefformat="{para}">Profiles without avatars now display user initials</a></p>
@@ -329,6 +415,25 @@ The <add release> release webinar will be held on <date>. You can [register for 
                         </ul>
                     </td>
                 </tr>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-release-activity.md" class="MCXref xref" xrefformat="{para}">New Canvas Dashboard experience enhancements</a></p>
+                        <p>Enhancements to the Canvas Dashboard are being made available within the 23.3 release timeframe. These enhancements will be made available in the Production environment with the 23.3 release, unless otherwise specified. 
+ </p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                        <ul>
+                            <li>
+                                <p>Preview release:&#160;Throughout the 23.3 release timeframe<br /></p>
+                            </li>
+                            <li>
+                                <p><span class="preview">Production release:&#160;With the 23.3 release (unless otherwise specified)</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+           </tbody>
+        </table>   
            </tbody>
         </table>   
 
@@ -364,7 +469,7 @@ For information about the maintenance updates made during the 22.3 release, see 
 
 ### Training updates
 
-Explore the latest updates made to learning programs, learning paths, videos, and guides for each Adobe Workfront product release. For more information, see the [Training release updates page](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html).
+Explore the latest updates made to learning programs, learning paths, videos, and guides for each Adobe Workfront product release. For more information, see the "What's New" section of the [Workfront Tutorials page](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html).
 
 <!-- Uncomment if there are any deprecations
 

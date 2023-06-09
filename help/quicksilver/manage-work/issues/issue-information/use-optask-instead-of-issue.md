@@ -11,7 +11,7 @@ exl-id: 91107c04-616c-49b2-aa78-10e373d11f6b
 
 The name of an issue appears as `opTask` in the Adobe Workfront database. Although there are times when you need to use the `issue` field name to refer to issues, most of the time you must use the `opTask` field name instead of `issue` when referencing issues.
 
-For more information about how objects appear in the Workfront database, refer to the [API Explorer](https://one.workfront.com/s/api-explorer).
+For more information about how objects appear in the Workfront database, refer to the [API Explorer](https://developer.adobe.com/workfront/api-explorer/).
 
 ## `opTask` filename
 
@@ -40,7 +40,7 @@ For information about reporting on collections, see [Reference collections in a 
 <!--
 <note type="tip">
 For information about how issues appear in a collection, see the
-<a href="https://one.workfront.com/s/api-explorer" target="_blank">API Explorer</a> and select the API Unsupported option from the upper-right corner of the page.
+<a href="https://developer.adobe.com/workfront/api-explorer/" target="_blank">API Explorer</a> and select the API Unsupported option from the upper-right corner of the page.
 <br>(NOTE: Drafted because this might not be needed.)
 </note>
 -->
