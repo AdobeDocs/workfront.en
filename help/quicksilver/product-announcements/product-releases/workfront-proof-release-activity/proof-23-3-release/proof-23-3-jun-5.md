@@ -27,4 +27,3 @@ The PowerPoint and Word file size limit is now 512MB.
 
 For more information, see [Supported proofing file types and size limits overview](/help/quicksilver/review-and-approve-work/proofing/proofing-overview/supported-proofing-file-types.md).
 
- 
