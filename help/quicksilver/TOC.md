@@ -21,6 +21,7 @@ feature-set: Workfront
       * [23.3 release activity week of May 8, 2023](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-10.md)
       * [23.3 release activity week of May 15, 2023](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-15.md)
       * [23.3 release activity week of May 29, 2023](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-29.md)
+      * [23.3 release activity week of June 5, 2023](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-jun-5.md)
       * [Look and feel updates during the 23.3 release time frame](product-announcements/product-releases/23.3-release-activity/23-3-look-and-feel-updates.md)
     * 23.2 Release {#release-23-2}
       * [23.2 Release overview](product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md) 
@@ -207,6 +208,7 @@ feature-set: Workfront
     * Workfront Proof release activity {#proof-release}
       * Proof with 23.3 release {#proof-23-3-release}
         * [Adobe Workfront Proof with the 23.3 release](/help/quicksilver/product-announcements/product-releases/workfront-proof-release-activity/proof-23-3-release/proof-23-3-overview.md)
+        * [Adobe Workfront Proof 23.3 release activity: Week of June 5, 2023](/help/quicksilver/product-announcements/product-releases/workfront-proof-release-activity/proof-23-3-release/proof-23-3-jun-5.md)
         * [Adobe Workfront Proof 23.3 release activity: Week of May 8, 2023](/help/quicksilver/product-announcements/product-releases/workfront-proof-release-activity/proof-23-3-release/proof-23-3-may-8.md)
       * [Workfront Proof release activity: Week of May 17, 2021](product-announcements/product-releases/workfront-proof-release-activity/wp-release-may-17.md)
       * [Workfront Proof release activity: Week of November 29, 2021](product-announcements/product-releases/workfront-proof-release-activity/wp-release-22-1.md)
@@ -346,9 +348,9 @@ feature-set: Workfront
       * [Remove custom SMTP as an outgoing email option](product-announcements/announcements/announcement-archive/remove-custom-smtp.md)
   * Beta programs {#beta}
     * [Beta programs](product-announcements/betas/betas.md)
-    * Reporting Canvas beta {#reporting-canvas-beta}
-      * [Reporting Canvas beta overview](product-announcements/betas/reporting-canvas-beta/reporting-canvas-beta-overview.md)
-      * [Reporting Canvas beta: release activity](product-announcements/betas/reporting-canvas-beta/reporting-canvas-release-activity.md)
+    * Canvas Dashboards beta {#canvas-dashboards-beta}
+      * [Reporting Canvas beta overview](product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md)
+      * [Canvas Dashboards beta: release activity](product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-release-activity.md)
     * New commenting experience beta {#new-commenting-experience-beta}
       * [New commenting beta experience information](product-announcements/betas/new-commenting-experience-beta/new-commenting-beta-experience-information.md)
       * [New commenting experience](product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md)

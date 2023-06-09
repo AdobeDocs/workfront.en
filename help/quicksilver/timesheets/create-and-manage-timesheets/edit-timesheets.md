@@ -13,6 +13,11 @@ As a user with administrative access to Timesheets, you can edit information on 
 
 You can edit information on a single timesheet, or you can edit multiple timesheets in bulk.
 
+>[!IMPORTANT]
+>
+>If users are associated with Timesheet Profiles and the timesheets are automatically generated, the changes you make to existing timesheets do not reflect on timesheets that will be generated for future dates. All timesheets generated automatically have the settings established in the Timesheet Profiles. For more information, see [Create timesheet profiles](../create-and-manage-timesheets/create-timesheet-profiles.md)
+
+
 ## Access requirements
 
 You must have the following to perform the steps in this article:
@@ -31,7 +36,9 @@ You must have the following to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>You must have administrative access to Timesheets. </p> <p>For more information, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Grant users administrative access to certain areas</a>.</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>You must have administrative access to Timesheets. </p> <p>For more information, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Grant users administrative access to certain areas</a>.</p> <p><b>NOTE</b>
+   
+   If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -369,8 +369,6 @@ styledef.case.0.comparison.trueproperty.1.value=bold
 >
 >When including more than one conditional formatting expression, it is necessary to numerically identify each expression in the statement. Notice that expression 0 and expression 1 have been identified.
 
-![](assets/screen-shot-2013-08-15-at-3.18.45-pm-350x198.png)
-
 #### Apply text {#apply-text}
 
 If you want to replace the default values that populate in a column with a value of your choosing, it is possible when applying text to the column.
