@@ -17,7 +17,7 @@ This feature is in development, and does not yet support:
 * prompted reports
 * distribution through layout templates
 
-For a complete list of features that have been added to Canvas Dashboards, see (Canvas Dashboards: release activity)[/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-release-activity.md]
+For a complete list of features that have been added to Canvas Dashboards, see [Canvas Dashboards: release activity](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-release-activity.md)
 
 ## Access Canvas Dashboards
 
