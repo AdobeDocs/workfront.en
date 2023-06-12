@@ -12,11 +12,12 @@ exl-id: b02ca181-e3c3-41e9-ab45-b1b606909127
 Canvas Dashboards, a feature currently in development for Dashboards, offers a new option for building effective dashboards in Workfront. Canvas Dashboards will allow Reporting Canvas visualizations to be easily included with existing reports, providing increased flexibility as well as new layout options.
 
 This feature is in development, and does not yet support:
-* chart reports
 * external pages
 * calendar integration
 * prompted reports
 * distribution through layout templates
+
+For a complete list of features that have been added to Canvas Dashboards, see (Canvas Dashboards: release activity)[/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-release-activity.md]
 
 ## Access Canvas Dashboards
 
