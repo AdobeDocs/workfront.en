@@ -10,7 +10,12 @@ hide: yes
 
 # Manage Relationship-type fields in Adobe Maestro
 
-You can use a Relationship-type field to link record types and their fields. By doing this, you can display fields from the linked record on another record.
+You can use a Relationship-type field to connect the following: 
+
+* Maestro record types and their fields. 
+* Maestro record types with objects from another applications and their fields. For more information, see [Connect Maestro records to Workfront objects](../maestro/connect-maestro-records-to-workfront-objects.md). <!--consider renaming this article to maybe something generic when we can link from other apps as well-->
+
+By doing this, you can display fields from the linked record or object on another Maestro record.
 
 ## Access requirements
 
@@ -59,16 +64,17 @@ You can use a Relationship-type field to link record types and their fields. By 
 ## Considerations about Relationship-type fields
 
 * You can view fields other users create and fields created by you are visible to everyone who has access to Maestro. 
-* A relationship-type field is a connection from one record type to another. The relationship-type field displays the record type you connect to. For this reason, we will refer to the relationship-type field as the "linked record type field."
-* You can add fields from the record types you connect to and those become "linked fields".
-* You can select the records you link to in the linked record type field. 
+* A relationship-type field is a connection from one record type to another. The relationship-type field displays the record type you connect to. For this reason, we will refer to the relationship-type field as the "linked record field."
+* You can add fields from the record types you connect. For this reason, we will refer to the fields that belong to the connected record types as "linked fields".
+* You can select the records you connect to in the linked record type field. 
 * You cannot select the values for the linked fields, as they automatically populate from the original record type they belong to.  
+* You can edit linked record fields. You cannot edit linked fields. 
 
 ## Create a Relationship-type field
 
-You create a Relationship-type field to link two record types and their fields together. 
+You can create a Relationship-type field to connect two record types and their fields together. 
 
-1. Start creating a field for a record type, as described in the article [Create Maestro fields](../maestro/create-fields.md), then select the **Relationship** field type. This is the original record type. <!--check screen shot - logged a bug for a couple of changes here-->
+1. Start creating a field for a record type, as described in the article [Create fields in Adobe Maestro](../maestro/create-fields.md), then select the **Relationship** field type. <!--check screen shot - logged a bug for a couple of changes here-->
 
     ![](assets/relationship-field-type.png)
 
@@ -77,7 +83,7 @@ You create a Relationship-type field to link two record types and their fields t
 
     >[!TIP]
     >
-    >We recommend that you include the name of the record you are linking to in the name of the relationship-type field to capture what record type the new field is coming from. The name of the linked record is not visible in the new linked field. 
+    >We recommend that you include the name of the record you are linking to in the name of the relationship-type field to capture what record type the new field is coming from. The name of the linked record is not visible in the new linked record field or its linked fields. 
 
      * **Description**: Additional information about the relationship-type field. The description of a field displays when you hover over the field's column in a table. 
      * **Find a record type**: The record type that you want to link to. This is the linked record. <!-- logged a bug to rename this to Linked record type-->
@@ -85,24 +91,31 @@ You create a Relationship-type field to link two record types and their fields t
 
 1. (Optional) Select the fields that belong to the linked record type that you want to display as linked fields on the original records. Use the **search** icon ![](assets/search-icon.png) to search for a field. 
 
-    This creates the linked record field column in the table view of the record type or the linked record fields for the original records. A column or a linked field is added for each field you add from the linked record. 
+    This creates the linked field columns in the table view of the record type. A column or a linked field is added for each field you add from the linked record. 
 
-    If you don't select any of the fields, the name of the linked record is the only visible field in the original record's table view and in the Details page of the record. This is the linked record column or field for the original record type. 
+    If you don't select any of the fields, the Name of the linked record is the only visible field in the original record's table view and in the Details page of the record.  
 
-1. (Optional and conditional) For number, currency, percentage, or date-type fields, select how you want the values for the linked field to be aggregated. 
+1. (Optional and conditional) If you select to link a number, currency, percentage, or date-type field, also select how you want the values for the linked fields to be displayed, when users select more than one linked record in the linked record field. 
 
     ![](assets/linked-field-aggregators-for-relationship-fields.png)
 
     Select from the following:
 
-    * **MAX**: Displays the maximum value in a string of values.
-    * **MIN**: Displays the minimum value in  a string of values.
-    * **SUM**: Adds all the values of the linked fields. 
-    * **AVG**: Calculates the average of the values of the linked fields.
+    * **None**: Displays the values that come from multiple records separated by commas. This is the default selection. 
+    * **MAX**: Displays the highest value from all the values that come from multiple records selected in the linked record field. 
+    * **MIN**: Displays the lowest value from all the values that come from multiple records selected in the linked record field. 
+    * **SUM**:  Displays the total of all the values that come from multiple records selected in the linked record field.
+    * **AVG**: Displays the average of all the values that come from multiple records selected in the linked record field.
 
-    >[!TIP]
+    >[!NOTE]
     >
-    >If you do not select an aggregator, individual values display separated by commas.
+    >For example, you can link the Program record (linked record) from the Campaign record (original record). You also choose to link the Program Budget field from the Campaign record, and you select Program 1 with a Budget of $120,000 and Program 2 with a Budget of $100,000. You can view the following Budget information in the linked field from the original record, depending on which aggregator you choose: 
+    >
+    >* **None**: $120, 000, $100,000
+    >* **MAX**: $120,000
+    >* **MIN**: $100,000
+    >* **SUM**: $220,000
+    >* **AVG**: $110,000  <!--LEFT HERE on June 12-->
 
 1. Click **Create**.
 

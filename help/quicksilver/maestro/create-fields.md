@@ -1,5 +1,5 @@
 ---
-title: Create Maestro fields
+title: Create fields in Adobe Maestro
 description: In Adobe Maestro, you can create custom fields for each kind of operational record type or taxonomy. You can then associate the field with Maestro records.
 hidefromtoc: yes
 hide: yes
@@ -11,7 +11,7 @@ hide: yes
 
 <!--will they add a way to create fields elsewhere than in a table?! - how will that change the structure of this article? -->
 
-# Create Maestro fields
+# Create fields in Adobe Maestro
 
 In Adobe Maestro, you can create custom fields for operational record types or taxonomies. You can then associate the fields with Maestro records to enhance the information you store about records. 
 
@@ -66,9 +66,9 @@ You must create record types before you can create fields to associate with them
 
 * Fields associated with a record type cannot be added to another record type. <!-- this will change when they open the Field library tab when creating a field-->
 
-* You can create fields in Maestro manually or automatically in the following ways:
+* You can create fields manually or automatically in the following ways:
 
-    * Automatically create Maestro fields: 
+    * Automatically: 
 
         * Maestro creates fields by default every time you create a record type. 
 
@@ -93,21 +93,21 @@ You must create record types before you can create fields to associate with them
 
 
 
-        * Link existing record types together and access the fields from the linked record type, when using Relationship fields. 
+        * Connect existing record types together and access the fields from the linked record type, when using Relationship fields. 
             
-            For more information, see the [Create fields by linking record types](#create-fields-by-linking-record-types) section in this article. 
+            For more information, see [Manage Relationship-type fields in Adobe Maestro](../maestro/manage-relationship-fields.md)
         
-        * Link new Maestro record types to object types from other applications and access the fields of the linked object types. 
+        * Connect Maestro record types to object types from other applications and access the fields of the linked object types. 
         
             <!--* Importing record types with fields using a CSV or an Excel file. - this is not available yet-->
 
-            For more information about creating Maestro record types by linking them to object types from other applications, see [Create operational record types](../maestro/create-operational-record-types.md).
+            For more information about creating Maestro record types by connecting them to object types from other applications, see [Connect Maestro records to Workfront objects](../maestro/connect-maestro-records-to-workfront-objects.md).
 
-    * Manually, create Maestro fields from scratch:
+    * Manually:
 
-        * You can manually create fields on the record type page, in the Table view. The columns of the table are the fields associated with the record type. They are the same fields that display on a record's Details page. You cannot create fields from the Details page of a record. 
+        * You can manually create fields on the record type page, in the Table view. The columns of the table are the fields associated with the record type. They are the same fields that display on a record's Details page. You cannot create fields from the Details page of a record. This article describes how to manually create fields. 
 
-* You can view and update the settings for fields that you or any other user created. <!--this will change with access/ permissions-->
+* You can view and update the settings for the fields that you or any other user created. <!--this will change with access/ permissions-->
 
 * You can have up to 500 fields for one record type.
 
@@ -124,11 +124,13 @@ You must create record types before you can create fields to associate with them
 
 1. (Optional) Expand the downward-pointing arrow to the right of an existing workspace name and select the workspace whose record types you want to create fields for, then click the record type. 
 
-    Any existing records associated with the record type display in the table view, by default. 
+    All existing records associated with the record type display in the rows of the table view. 
 
     >[!TIP]
     >
     >    If no records display, you might not have any records yet, or you might have a filter applied that limits what you see on the screen.
+
+    All existing fields associated with the record type display in the columns of the table view. <!--caveat this for when we can hide the fields; mention that they can be hidden if they are not visible by default-->
 
     
 1. Click the **+** icon in the upper-right corner of the table view to add new fields.
@@ -149,8 +151,6 @@ You must create record types before you can create fields to associate with them
     >    You cannot change the type of the field after you save it. 
 
 1. Continue with adding each field, as described in the sections below. 
-
-<!--LEFT HERE - MAY 25, 2023-->
 
 ### Number {#number}
 
@@ -262,11 +262,15 @@ Single-select fields capture additional information in any format by selecting o
 1. Add the following information:
      * **Name**: The name of the field type, as it will appear in a table or the Details page of the record. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
      * **Description**: Additional information about the field. The description of a field displays when you hover over the field's column in a table.
-     * **Choices**: The options  available to select from the drop-down menu after the field is saved. You can have both numbers and letters for the name of each choice. Manually drag and drop each choice in the desired order, or select the **Sort choices A-Z** option if you want the choices to be automatically listed in alphabetical order. <!--Add this if they added this functionality: You cannot edit this option after you save the field.-->
+     * **Choices**: The options  available to select from the drop-down menu after the field is saved. You can have both numbers and letters for the name of each choice. 
+     
+1. (Optional) Manually drag and drop each choice in the desired order, or select the **Sort choices A-Z** option if you want the choices to be automatically listed in alphabetical order. <!--Add this if they added this functionality: You cannot edit this option after you save the field.-->
 1. Click **Add choice** to add as many choices or options as needed.      
 1. Click the **x** icon to the right of a choice to remove it.
 1. Click the color swatch to the left of a choice to expand the color selector and customize the color of each option. 
 1. Click **Create**. 
+
+    The new single-select field is added as a column to the record type and its values can be associated with records. The field also displays on the Details page of a record.
 
 ### Multi-select {#multi-select}
 
@@ -280,11 +284,14 @@ You can use a multi-select field to capture additional information in any format
 1. Add the following information:
      * **Name**: The name of the field type, as it will appear in a table or the Details page of the record. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
      * **Description**: Additional information about the field. The description of a field displays when you hover over the field's column in a table.
-     * **Choices**: The options  available to select from the drop-down menu after the field is saved. You can have both numbers and letters for the name of each choice. Manually drag and drop each choice in the desired order, or select the **Sort choices A-Z** option if you want the choices to be automatically listed in alphabetical order. <!--Add this if they added this functionality: You cannot edit this option after you save the field.-->
+     * **Choices**: The options  available to select from the drop-down menu after the field is saved. You can have both numbers and letters for the name of each choice. 
+1. (Optional) Manually drag and drop each choice in the desired order, or select the **Sort choices A-Z** option if you want the choices to be automatically listed in alphabetical order. <!--Add this if they added this functionality: You cannot edit this option after you save the field.-->
 1. Click **Add choice** to add as many choices or options as needed.      
 1. Click the **x** icon to the right of a choice to remove it.
 1. Click the color swatch to the left of a choice to expand the color selector and customize the color of each option. 
 1. Click **Create**. 
+
+    The new multi-select field is added as a column to the record type and its values can be associated with records. The field also displays on the Details page of a record.
 
 
 ### Date {#date}
@@ -304,18 +311,22 @@ You can use a date field to capture additional information in date and time form
         Select from the following formats:
         * **Locale**: Matches the locale of your browser.
         * **Standard**: 05/16/2023
-        * **Friendly**: May 16, 2023 <!-- is this still called this??? I asked Lusine if I can log a bug - also see the screen shot to ensure the UI text is not changes for these options and their casing-->
+        * **Long**: May 16, 2023
         * **European**: 16/05/2023
         * **ISO**: 2023-05-16
-    * Include a time field: Select this option if you want to inclue a time stamp. Select from the following options:
-        * **24hr**: 18:00
-        * **12hr**: 6:00 PM
+    * Include a time field: Select this option if you want to include a time stamp. Select from the following options:
+        * **24hr**: For example: 18:00
+        * **12hr**: For example: 6:00 PM
 
         This is unselected by default.
 
+1. Click **Create**. 
+
+    The new date field is added as a column to the record type and its values can be associated with records. The field also displays on the Details page of a record.
+
 ### Relationship {#relationship}
 
-You can use a relationship field to link record types and their fields. By doing this, you can display fields from the linked record on another record.
+You can use a relationship field to connect record types and their fields. By doing this, you can display fields from the linked record on another record.
 
 >[!IMPORTANT]
 >
@@ -323,13 +334,4 @@ You can use a relationship field to link record types and their fields. By doing
 
 
 For more information about creating a relationship field, see [Manage Relationship-type fields in Adobe Maestro](../maestro/manage-relationship-fields.md).
-
-
-<!-- left here: should the next section be in the manage relationship fields article?? or here?! -->
-
-## Create Maestro fields when adding record types from other applications
-
-You can create Maestro fields when you create Maestro record types by linking them to object types from other applications.
-
-For information about adding record types from other applications, see [Create operational record types](../maestro/create-operational-record-types.md). 
 

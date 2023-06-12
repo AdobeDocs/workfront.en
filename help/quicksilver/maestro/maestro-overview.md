@@ -102,7 +102,7 @@ The following are the main Maestro objects and concepts:
 
     One Workfront instance can have a maximum of 1,000 workspaces.
 
-    ![](assets/workspaces-page-with-templates-thumbnails.png) 
+    ![](assets/marketing-workspace-with-record-type-taxonomies-opening-page.png) 
     
     <!--For more information, see [Create workspaces](../maestro/create-workspaces.md).-->
 
@@ -206,7 +206,12 @@ The following are the main Maestro objects and concepts:
     The following are view types that you can apply to the record type page: 
 
     * Table view. This is the default. 
+
+        ![](assets/table-view-example.png)
+
     * Timeline view 
+
+        ![](assets/timeline-view-example.png)
 
     <!--For more information, see [Manage record views](../maestro/manage-record-views.md). -->
 
