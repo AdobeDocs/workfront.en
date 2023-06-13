@@ -21,6 +21,24 @@ For general information on the new commenting beta experience, including a list 
 
 The following sections list features that have been added after the original release, starting with the ones released most recently. 
 
+## Week of June 13, 2023
+
+### Improved experience when editing comments   
+
+You can now use the following shortcut keys when editing comments: 
+
+* CTRL + Z (CMD + Z for Mac) to undo a change 
+
+* CTRL + Y (CMD + Y for Mac) to redo a change 
+
+Prior to these enhancements, you could not undo or redo changes while editing a comment. For more information, see [Update work](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). 
+
+Preview: June 13, 2023 
+
+Production: June 13, 2023 
+
+<!--I used the date when I found them in Prod. Not sure when these released, but it could have been before this date-->
+
 ## Week of May 29, 2023
 
 ### New commenting Beta experience for projects, tasks, and documents  
