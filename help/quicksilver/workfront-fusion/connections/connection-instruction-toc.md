@@ -141,10 +141,6 @@ The following apps do not follow the basic configuration for [!DNL Workfront Fus
    <td><a href="../../workfront-fusion/apps-and-their-modules/gmail-modules.md#connect3" class="MCXref xref">Connect [!DNL Gmail] to [!DNL Workfront Fusion]</a> in <a href="../../workfront-fusion/apps-and-their-modules/gmail-modules.md" class="MCXref xref">[!DNL Gmail] modules</a></td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!DNL Intacct]</p> </td> 
-   <td><a href="../../workfront-fusion/apps-and-their-modules/intacct-modules.md#connecti" class="MCXref xref">Connect [!DNL Intacct] to [!DNL Workfront Fusion]</a> in <a href="../../workfront-fusion/apps-and-their-modules/intacct-modules.md" class="MCXref xref">[!DNL Intacct] modules</a></td> 
-  </tr> 
-  <tr> 
    <td role="rowheader">[!DNL Jira Cloud]</td> 
    <td><a href="../../workfront-fusion/apps-and-their-modules/jira-software-modules.md#connect" class="MCXref xref">Connect [!DNL Jira Cloud] to [!DNL Workfront Fusion]</a> in <a href="../../workfront-fusion/apps-and-their-modules/jira-software-modules.md" class="MCXref xref">[!DNL Jira Software] modules</a></td> 
   </tr> 
