@@ -67,6 +67,8 @@ You must have the following access to perform the steps in this article:
 
 ## Delete a board column
 
+When you delete a column from a board, it can't be recovered.
+
 1. Access the board.
 1. Click the **[!UICONTROL More]** menu ![More menu](assets/more-icon-spectrum.png) on the column, and select **[!UICONTROL Delete]**.
 
