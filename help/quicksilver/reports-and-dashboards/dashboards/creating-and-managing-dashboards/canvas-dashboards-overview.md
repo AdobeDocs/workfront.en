@@ -44,3 +44,15 @@ A new Canvas Dashboards option on the left panel of the existing dashboards land
 1. Click the Main Menu icon ![](assets/main-menu-icon.png), then click **Dashboards**.
 
 1. In the left panel, click **Canvas Dashboards**.
+
+## Using Canvas Dashboards
+
+### Add a report to a Canvas Dashboard
+
+1. Navigate to the 
+
+### Edit widgets on a Canvas Dashboard
+
+To resize a widget:
+
+To reposition a widget:

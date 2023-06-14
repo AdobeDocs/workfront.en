@@ -92,7 +92,9 @@ You must have the following access to perform the steps in this article:
 
    If the currently selected version of the document has a pending approval for you, the approval decision buttons are displayed in the top-right corner of the page; if other versions of the document have pending approvals for you, the version dropdown menu displays a red dot.
 
+   <!--
    ![](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/assets/version-dropdown-red-dot.png)
+   -->
 
 1. Click one of the following two approval options in the top-right corner of the page:
    
@@ -114,7 +116,9 @@ You must have the following access to perform the steps in this article:
 
    If the currently selected version of the document has a pending approval for you, the approval decision buttons are displayed in the top-right corner of the Document Summary pane; if other versions of the document have pending approvals for you, the version dropdown menu displays a red dot.
 
-   ![](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/assets/version-dropdown-red-dot.png)   
+   <!--
+   ![](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/assets/version-dropdown-red-dot.png)
+   -->   
 
 1. Click one of the following two approval options in the top-right corner of the Document Summary pane:
    
