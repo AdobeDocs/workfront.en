@@ -30,9 +30,9 @@ exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
 >     * Summary panel in lists
 >     * Summary panel in timesheets
 >
-> * Goals
+> * Goals<!--, <span class="preview">Cards in the Boards area</span>-->
 >
->   The new commenting experience is the default for goals. You must have an additional license to access Workfront Goals. For more information, see [Requirements to uses Workfront Goals](../../workfront-goals/goal-management/access-needed-for-wf-goals.md). 
+>   The new commenting experience is the default for goals <!--<span class="preview">and cards</span>-->. You must have an additional license to access Workfront Goals. For more information, see [Requirements to uses Workfront Goals](../../workfront-goals/goal-management/access-needed-for-wf-goals.md). 
 >
 >    For information about commenting on goals, see [Manage goal comments in Adobe    Workfront Goals](../../workfront-goals/goal-management/manage-goal-comments.md).
 
@@ -277,7 +277,7 @@ You can enhance your updates by using Rich Text, or adding various items to it, 
    | Hyperlink | ![mceclip7.png](assets/mceclip7.png)| <br>To open the Create Links or Add links box: ⌘+K</br> <br>In the commenting beta experience, to paste a link over the selected text: ⌘+V</br>  | <br>To open the Create Links or Add links box: Ctrl+K</br> <br>In the commenting beta experience, to paste a link over the selected text: Ctrl+V</br> |
    | Bulleted List | ![mceclip6.png](assets/mceclip6.png)|⌘+Shift+8 |Ctrl+Shift+8 |
    | Numbered List | ![mceclip5.png](assets/mceclip5.png)|⌘+Shift+7 |Ctrl+Shift+7 |
-   | Block Quote | ![](assets/block-quote-icon-large.png)|⌘+Shift+9 |Ctrl+Shift+9 |
+   | Block Quote | <span class="preview">![](assets/block-quote-icon-large.png)</span>|⌘+Shift+9 |Ctrl+Shift+9 |
 
     To stop formatting text, deselect the attribute on the **Rich Text** toolbar.
 

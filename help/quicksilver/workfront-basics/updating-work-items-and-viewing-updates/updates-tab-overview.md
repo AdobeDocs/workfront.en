@@ -31,9 +31,9 @@ exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
 >     * Summary panel in lists
 >     * Summary panel in timesheets
 >
-> * Goals
+> * Goals<!--, <span class="preview">Cards in the Boards area</span>-->
 >
->   The new commenting experience is the default for goals. You must have an additional license to access Workfront Goals. For more information, see [Requirements to uses Workfront Goals](../../workfront-goals/goal-management/access-needed-for-wf-goals.md). 
+>   The new commenting experience is the default for goals <!--<span class="preview">and cards</span>-->. You must have an additional license to access Workfront Goals. For more information, see [Requirements to uses Workfront Goals](../../workfront-goals/goal-management/access-needed-for-wf-goals.md). 
 >
 >    For information about commenting on goals, see [Manage goal comments in Adobe    Workfront Goals](../../workfront-goals/goal-management/manage-goal-comments.md).
 
