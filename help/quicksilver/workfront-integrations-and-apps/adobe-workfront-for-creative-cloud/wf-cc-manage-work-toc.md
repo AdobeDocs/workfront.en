@@ -13,4 +13,4 @@ exl-id: a859e843-38e7-4743-9920-62a76da9caeb
 * [Update your work using the [!DNL Adobe Workfront] plugin](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-update.md)
 * [Mark work items complete using the [!DNL Adobe Workfront] plugin](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-complete.md)
 * [Log time using the [!DNL Adobe Workfront] plugin](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-log-time.md)
-* [View and Manage [!DNL Adobe Workfront] notifications from Adobe Creative Cloud](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-notifications.md)
+* [View and Manage [!DNL Adobe Workfront] notifications from [!DNL Adobe Creative Cloud]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-notifications.md)

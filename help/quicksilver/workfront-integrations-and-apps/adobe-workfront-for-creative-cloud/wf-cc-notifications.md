@@ -6,7 +6,7 @@ description:
 author: Courtney,Becky
 feature: Workfront Integrations and Apps, Digital Content and Documents
 ---
-# View and Manage [!DNL Adobe Workfront] notifications from Adobe Creative Cloud
+# View and Manage [!DNL Adobe Workfront] notifications from [!DNL Adobe Creative Cloud]
 
 You can receive notifications in the Adobe Creative Cloud from [!DNL Adobe Workfront] about items you need to approve, assignments you've been given, or comments and changes to items you're associated with.
 
