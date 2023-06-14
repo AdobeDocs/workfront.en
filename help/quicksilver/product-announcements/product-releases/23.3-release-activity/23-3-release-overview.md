@@ -79,6 +79,23 @@ The <add release> release webinar will be held on <date>. You can [register for 
                 </tr>
                 <tr>
                     <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-jun-12.md" class="MCXref xref" xrefformat="{para}">Add comments to cards on boards</a> <span style="color: #ff0000;"> New in Preview!</span></p>
+                        <p>You can now add comments to both ad hoc and connected cards on boards, and tag other users on the comments. Comments are available in the card details. The comment feature for boards uses the new Adobe Workfront commenting experience.</p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                        <ul>
+                            <li>
+                                <p>Preview release: June 15, 2023</p>
+                            </li>
+                            <li>
+                                 <p>Production release for early opt-in: June 22, 2023 <span style="color: #ff0000;"> This feature is available in Production only through the early feature opt-in for Workfront Boards.</span></p>
+                                <p>Production release for all customers: With the 23.3 release</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-15.md" class="MCXref xref" xrefformat="{para}">Enhancements to the Boards tag manager</a></p>
                         <p>The tag manager interface has been improved, allowing you to create new tags quickly and apply them to cards. You can also create tags for workstreams.</p>
                     </td>
@@ -217,7 +234,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-jun-5.md" class="MCXref xref" xrefformat="{para}">Improved experience when moving a document to a linked folder with drag and drop</a><span style="color: #ff0000;"> New in Preview!</span></p> 
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-jun-5.md" class="MCXref xref" xrefformat="{para}">Improved experience when moving a document to a linked folder with drag and drop</a></p> 
                         <p>We've added some transparency to the process of dragging and dropping a document into a linked folder. Now, the document that you moved to a linked folder remains in the document list until it has fully moved. The document options are disabled, but you can still open the document for view while it is moving. When the document has completed the transfer, it disappears from the document list, because it is now fully located in the linked folder. </p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
@@ -378,22 +395,6 @@ The <add release> release webinar will be held on <date>. You can [register for 
                             </li>
                             <li>
                                 <p><span class="preview">Production release: May 4, 2023</span></p>
-                            </li>
-                        </ul>
-                    </td>
-                </tr>
-                 <tr>
-                    <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">Look-and-feel updates during the 23.3 release timeframe</a></p>
-                        <p>Minor updates to the look and feel of various areas of the Adobe Workfront application are being made within the 23.3 release timeframe. These enhancements will be made available in the Production environment a minimum of 2 weeks after releasing to Preview. </p>
-                    </td>
-                    <td><p><b>Available on these dates:</b></p>
-                        <ul>
-                            <li>
-                                <p>Preview release:&#160;Throughout the 23.3 release timeframe<br /></p>
-                            </li>
-                            <li>
-                                <p><span class="preview">Production release:&#160;A minimum of 2 weeks after releasing to Preview (unless otherwise specified)</span></p>
                             </li>
                         </ul>
                     </td>
