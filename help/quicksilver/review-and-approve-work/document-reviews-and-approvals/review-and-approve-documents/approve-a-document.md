@@ -91,9 +91,8 @@ You must have the following access to perform the steps in this article:
 1. Select the version of the document that is pending your approval in the version dropdown next to the document's name. The latest version will be selected by default.
 
    If the currently selected version of the document has a pending approval for you, the approval decision buttons are displayed in the top-right corner of the page; if other versions of the document have pending approvals for you, the version dropdown menu displays a red dot.
-   <!--
-   ![](../assets/version-dropdown-red-dot.png)   
-   -->
+
+   ![](../assets/version-dropdown-red-dot.png)
 
 1. Click one of the following two approval options in the top-right corner of the page:
    
@@ -114,9 +113,8 @@ You must have the following access to perform the steps in this article:
 1. Select the version of the document you would like review in the version dropdown. The latest version will be selected by default.
 
    If the currently selected version of the document has a pending approval for you, the approval decision buttons are displayed in the top-right corner of the Document Summary pane; if other versions of the document have pending approvals for you, the version dropdown menu displays a red dot.
-   <!--
+
    ![](../assets/version-dropdown-red-dot.png)   
-   -->
 
 1. Click one of the following two approval options in the top-right corner of the Document Summary pane:
    
