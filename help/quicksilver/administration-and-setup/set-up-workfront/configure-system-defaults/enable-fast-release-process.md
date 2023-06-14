@@ -2,13 +2,13 @@
 user-type: administrator
 product-area: system-administration;projects
 navigation-topic: configure-system-defaults
-title: Enable cfast releases for your organization
+title: Enable or disable fast releases for your organization
 description: You can select whether you want to receive new Workfront functionality on a monthly or quarterly basis.
 author: Becky
 feature: System Setup and Administration
 role: Admin
 ---
-# Enable fast releases for your organization
+# Enable or disable fast releases for your organization
 
 Adobe Wworkfront has two models for releasing new features and updates. You can choose whether to receive new functionality on a quarterly basis, or on a faster release schedule. 
 
