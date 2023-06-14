@@ -21,7 +21,27 @@ For general information on the new commenting beta experience, including a list 
 
 The following sections list features that have been added after the original release, starting with the ones released most recently. 
 
-## Week of June 13, 2023
+## Week of June 12, 2023
+
+### New commenting Beta experience for cards in the Boards area 
+
+The new commenting Beta experience is now available for cards in the Boards area. For more information, see [23.3 release overview](../../product-releases/23.3-release-activity/23-3-release-overview.md). 
+
+Preview: June 15, 2023 
+
+Production release for early opt-in: June 22, 2023
+
+Production for all customers: with the 23.3 release 
+
+### Add block quotes to a comment  
+
+You can now add block quotes to a comment using a Rich Text toolbar option in the new commenting Beta experience.  
+
+For more information, see [Update work](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). 
+
+Preview: June 14, 2023 
+
+Production: June 15, 2023 
 
 ### Improved experience when editing comments   
 
