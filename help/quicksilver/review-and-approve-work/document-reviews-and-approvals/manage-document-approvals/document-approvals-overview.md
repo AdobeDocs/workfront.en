@@ -19,7 +19,7 @@ Continue reading below for more information on planned features and releases for
 
 ## New features and design goals
 
-VIDEO EMBED
+>[!VIDEO](https://video.tv.adobe.com/v/3420544/)  
 
 * **Inclusive stakeholder participation**\
     New Document Approvals allow the inclusion of both individual contributors and entire teams in the approval process. Facilitating this broader participation ensures comprehensive stakeholder engagement and fosters a more informed and collaborative decision-making environment.
@@ -36,6 +36,8 @@ VIDEO EMBED
 ## Release plan
 
 We are making New Document Approvals available to users over the course of several releases. In addition to adding new features, we will also expand the number of accounts for which New Document Approvals are available with each release. Account administrators will receive an Announcement Center email informing them of the change prior to being included.
+
+If you would like to have New Document Approvals enabled in you production environment, please reach out to your Customer Success or Strategic Account Manager.
 
 **Release 1**\
     Preview: May 31st, 2023\
