@@ -10,7 +10,7 @@ role: Admin
 ---
 # Enable or disable fast releases for your organization
 
-Adobe Wworkfront has two models for releasing new features and updates. You can choose whether to receive new functionality on a quarterly basis, or on a faster release schedule. 
+Adobe Workfront has two models for releasing new features and updates. You can choose whether to receive new functionality on a quarterly basis, or on a faster release schedule. 
 
 Both models offer the same features and updates. The only difference is in the timing. 
 
@@ -30,8 +30,14 @@ As a Workfront administrator, you can enable or disable the fast release process
 
 Consider the following when enabling or disabling the fast release process:
 
-<!--What about if they enable it in the middle of the quarter. Will they just have access to whatever's been released that quarter?-->
+* Enabling the fast release process in the middle of a quarter gives your organization access to features and functionality that have already been released to the fast release. 
+   
+   For example, if feature A is released in August, and feature B is released in September, any organization that enables the fast release process in September will immediately have access to features A and B.
 * Disabling the fast release process does not take effect until the next quarterly release. 
+   
+    For example, if a organization that has enabled fast release disables it in August, they will still receive the fast release features in September, because they will not move to the quarterly release until the next quarterly release occurs.
+
+To enable or disable the fast release process:
 
 1. Click the **Main Menu icon**, then click **Setup**.
 1. Expand **System** in the left navigation, then click **Preferences**.
