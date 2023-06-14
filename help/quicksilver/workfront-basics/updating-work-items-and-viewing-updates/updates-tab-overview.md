@@ -117,6 +117,13 @@ Currently, you can add comments and reply to updates using the Beta commenting e
  </tbody> 
 </table>
 
+<!--for 23.3 preview - June 15: 
+Add this to the table for 23.3 preview - under Goals:
+
+<li><span class="preview">Cards in the Boards area</span></li>
+This is the default experience for goals <span class="preview">and cards</span>. 
+-->
+
 ## Updates that also appear on higher-rank objects
 
 Comments or replies made to updates on certain objects also appear on the Updates section of higher-ranked objects.
