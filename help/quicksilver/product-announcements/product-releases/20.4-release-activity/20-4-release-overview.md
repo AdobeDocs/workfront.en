@@ -9,7 +9,7 @@ exl-id: 7cf7f6ed-fe85-4c86-bb4b-dd93197338cf
 ---
 # 20.4 release overview
 
-The 20.4 release was made available in the Production environment the week of November 9, 2020. For specific release dates and times for each cluster, see the [Workfront Status Site](https://status.workfront.com/).
+The 20.4 release was made available in the Production environment the week of November 9, 2020.
 
 This page provides information about functionality for both Adobe Workfront Classic and the new Adobe Workfront experience that is included in the 20.4 release. 
 
@@ -242,7 +242,7 @@ This page provides information about functionality for both Adobe Workfront Clas
    <td><strong>Available on these dates:</strong> <p>Beta Preview release:&nbsp;TBD</p> <p>Production release:&nbsp;With the 20.4 release <strong>(Postponed to December 2020 or early 2021)</strong></p> <p><strong>Available in these environments:</strong> </p> <p>The new Adobe Workfront experience </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/20.4-release-activity/20-4-mobile-enhancements.md#get" class="MCXref xref" xrefformat="{para}">Get help with Workfront mobile's virtual assistant commands</a> </p> <p>While in the mobile app, you can ask the virtual assistant to help you with commands by saying What can I do?” an “Help me with commands.”</p> <p>These commands display a list of the different things you can ask the assistant about.</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/20.4-release-activity/20-4-mobile-enhancements.md#get" class="MCXref xref" xrefformat="{para}">Get help with Workfront mobile's virtual assistant commands</a> </p> <p>While in the mobile app, you can ask the virtual assistant to help you with commands by saying What can I do?" an "Help me with commands."</p> <p>These commands display a list of the different things you can ask the assistant about.</p> </td> 
    <td><strong>Available on these dates:</strong> <p>Beta Preview release:&nbsp;N/A</p> <p>Production release:&nbsp;With the 20.4 release </p> <p><strong>Available in these environments:</strong> </p> <p>The new Adobe Workfront experience </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 

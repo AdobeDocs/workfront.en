@@ -21,6 +21,44 @@ For general information on the new commenting beta experience, including a list 
 
 The following sections list features that have been added after the original release, starting with the ones released most recently. 
 
+## Week of June 12, 2023
+
+### New commenting Beta experience for cards in the Boards area 
+
+The new commenting Beta experience is now available for cards in the Boards area. For more information, see [23.3 release overview](../../product-releases/23.3-release-activity/23-3-release-overview.md). 
+
+Preview: June 15, 2023 
+
+Production release for early opt-in: June 22, 2023
+
+Production for all customers: with the 23.3 release 
+
+### Add block quotes to a comment  
+
+You can now add block quotes to a comment using a Rich Text toolbar option in the new commenting Beta experience.  
+
+For more information, see [Update work](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). 
+
+Preview: June 14, 2023 
+
+Production: June 15, 2023 
+
+### Improved experience when editing comments   
+
+You can now use the following shortcut keys when editing comments: 
+
+* CTRL + Z (CMD + Z for Mac) to undo a change 
+
+* CTRL + Y (CMD + Y for Mac) to redo a change 
+
+Prior to these enhancements, you could not undo or redo changes while editing a comment. For more information, see [Update work](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). 
+
+Preview: June 13, 2023 
+
+Production: June 13, 2023 
+
+<!--I used the date when I found them in Prod. Not sure when these released, but it could have been before this date-->
+
 ## Week of May 29, 2023
 
 ### New commenting Beta experience for projects, tasks, and documents  

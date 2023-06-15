@@ -39,4 +39,4 @@ GET /download
 
 The raw bytes of the document.
 
-**Example:**:&nbsp; [https://www.acme.com/api/download?id=123456](https://www.acme.com/api/download?id=123456)
+**Example**:&nbsp; `https://www.acme.com/api/download?id=123456`

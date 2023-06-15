@@ -74,7 +74,7 @@ You can create a connection to your [!DNL Qualtrics] account directly from insid
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL API Key]</td> 
-      <td>To locate your API key, see <a href="https://api.qualtrics.com/instructions/docs/Instructions/api-key-authentication.md">API Token Authentication</a> in the [!DNL Qualtrics] documentation.</td> 
+      <td>To locate your API key, see  the [!DNL Qualtrics] documentation.</td> 
      </tr> 
     </tbody> 
    </table>
