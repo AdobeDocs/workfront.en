@@ -47,7 +47,7 @@ Notifications are available in the following Adobe Creative Cloud apps:
 
 {{cc-install-prereq}}
 
-* You have enabled instant notifications in [!DNL Workfront]. For information on enabling instant notifications, see [Activate or deactivate your own event notifications](help\quicksilver\workfront-basics\using-notifications\activate-or-deactivate-your-own-event-notifications.md).
+* You have enabled instant notifications in [!DNL Workfront]. For information on enabling instant notifications, see [Activate or deactivate your own event notifications](/help/quicksilver/workfront-basics/using-notifications/attach-reminder-notification-object.mdactivate-or-deactivate-your-own-event-notifications.md).
 
 ## View and manage [!DNL Workfront] notifications in Adobe Creative Cloud
 
