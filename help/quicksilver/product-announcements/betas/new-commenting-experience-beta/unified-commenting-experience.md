@@ -96,7 +96,22 @@ The following table illustrates the features that will be available in the new c
   </tr>
   <tr>
  <tr>
-   <td>Rich text (quoting and emojis)
+   <td>Rich text (block quotes)
+   </td>
+   <td>✓ 
+   </td>
+   <td> ✓
+   </td>
+   <td> 
+   </td>
+   <td> Q2, 2023
+   </td>
+   <td> 
+   </td>
+  </tr>
+  <tr>
+<tr>
+   <td> Quote comments
    </td>
    <td>✓ 
    </td>
@@ -110,7 +125,6 @@ The following table illustrates the features that will be available in the new c
    </td>
   </tr>
   <tr>
-
    <td>React to comments (Like) 
    </td>
    <td>✓ 
