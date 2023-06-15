@@ -119,6 +119,7 @@ feature-set: Workfront
       * [21.1 Other enhancements](product-announcements/product-releases/21.1-release-activity/21-1-other-enhancements.md)
     * Adobe Workfront Fusion release activity {#fusion-release}
       * [Adobe Workfront Fusion release activity](product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)
+      * [Workfront Fusion release activity: Week of  June 12, 2023](product-announcements/product-releases/fusion-release-activity/fusion-2023-6-12.md)
       * [Workfront Fusion release activity: Week of  May 15, 2023](product-announcements/product-releases/fusion-release-activity/fusion-2023-5-15.md)
       * [Workfront Fusion release activity: Week of  May 1, 2023](product-announcements/product-releases/fusion-release-activity/fusion-2023-5-2.md)
       * [Workfront Fusion release activity: Week of April 17, 2023](product-announcements/product-releases/fusion-release-activity/fusion-2023-4-20.md)
@@ -1721,6 +1722,7 @@ feature-set: Workfront
     * [Recall submitted approvals](review-and-approve-work/manage-approvals/recall-submitted-approvals.md)
   * Document reviews and approvals {#document-reviews-and-approvals}
     * [Document reviews and approvals](review-and-approve-work/document-reviews-and-approvals/document-reviews-and-approvals.md)
+    * [Document approvals overview](review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md)
     * Manage document approvals {#manage-document-approvals}
       * [Manage document approvals](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/manage-document-approvals.md)
       * [Create a document approval](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)
