@@ -1721,9 +1721,9 @@ feature-set: Workfront
     * [Recall submitted approvals](review-and-approve-work/manage-approvals/recall-submitted-approvals.md)
   * Document reviews and approvals {#document-reviews-and-approvals}
     * [Document reviews and approvals](review-and-approve-work/document-reviews-and-approvals/document-reviews-and-approvals.md)
+    * [Document approvals overview](review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md)
     * Manage document approvals {#manage-document-approvals}
       * [Manage document approvals](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/manage-document-approvals.md)
-      * [Document approvals overview](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approvals-overview.md)
       * [Create a document approval](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)
       * [Add additional reviewers or approvers to a document](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/add-additional-reviewers-or-approvers.md)
       * [Remove approvers or reviewers from a document](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/remove-approvers-or-reviewers.md)
