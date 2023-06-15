@@ -9,6 +9,8 @@ exl-id: c6d979dd-e4a4-48a5-a91b-b31d7ef848d1
 ---
 # Use connected cards on boards
 
+{{highlighted-preview}}
+
 You can add a card on your board that is connected to existing tasks and issues in [!DNL Workfront].
 
 When any one of the following details is updated for the card in one location, it is automatically updated in the other location:
@@ -94,12 +96,6 @@ You must have the following access to perform the steps in this article:
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Description]</strong></td> 
       <td>Changing the description also changes the description on the connected [!DNL Workfront] object. You can add URLs in the description and they will become clickable links when the card is saved.</td> 
-     </tr> 
-     <tr>
-      <td role="rowheader"><strong>[!UICONTROL Assignees]</strong></td>
-      <td><p>To assign more people or a team to the card, start typing a name in the search field, then select it when it displays in the list. You can add both individuals and teams. Only one team assignment is allowed on a connected card.</p>
-      <p>Assignees must be members on the board or they will not appear in the selection list. When a team is a member on the board, then the individual team members can be assigned to the card.</p>
-      <p>Any assignees you select are also assigned to the task or issue in [!DNL Workfront].</p></td>
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Column]</strong></td>
@@ -120,18 +116,42 @@ You must have the following access to perform the steps in this article:
       <td><p>The number of hours for the card to be completed.</p><p>Changing the estimation also changes the story points value on the connected [!DNL Workfront] object.</p></td>
      </tr>
      <tr>
+      <td role="rowheader"><strong>[!UICONTROL Assignees]</strong></td>
+      <td><p>To assign more people or a team to the card, start typing a name in the search field, then select it when it displays in the list. You can add both individuals and teams. Only one team assignment is allowed on a connected card.</p>
+      <p>Assignees must be members on the board or they will not appear in the selection list. When a team is a member on the board, then the individual team members can be assigned to the card.</p>
+      <p>Any assignees you select are also assigned to the task or issue in [!DNL Workfront].</p></td>
+     </tr>
+     <tr>
       <td role="rowheader"><strong>[!UICONTROL Tags]</strong></td>
       <td><p>Search for and select tags for the card.</p>
       <p>For information on creating new tags, see <a href="../../agile/get-started-with-boards/add-tags.md" class="MCXref xref">Add tags</a>.</p></td>
      </tr>
+     <tr>
+      <td role="rowheader"><strong>[!UICONTROL Custom fields]</strong></td>
+      <td><p>Any custom fields you add are displayed in this area.</p>
+      <p>For more information, see <a href="/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md">Customize which fields are displayed on a card</a>.</p></td>
+     </tr>
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL Checklist Items]</strong> </td> 
+      <td role="rowheader"><strong>[!UICONTROL Checklist]</strong> </td> 
       <td> <p>Click <strong>[!UICONTROL Add checklist item]</strong>. Then, type the title of the item and press Enter. Another item is automatically added. Continue entering titles to add more items.</p> <p>The counter at the top of the checklist shows the number of completed items and the total number of items.</p> <p>For more information about checklist items, see <a href="/help/quicksilver/agile/get-started-with-boards/manage-checklist-items.md">Manage checklist items on cards</a>.</p></td>
      </tr>
+     <tr>
+      <td role="rowheader"><strong>[!UICONTROL Hours]</strong></td>
+      <td>See "Log hours on a connected card," below.</td>
+     </tr>
+     <tr>
+      <td role="rowheader"><span class="preview"><strong>[!UICONTROL Comments]</strong></span> </td>
+      <td><span class="preview"><p>Click in the <strong>[!UICONTROL New comment]</strong> field and type your comment. Use the formatting tools to format the text, and click the <strong>Add attachment</strong> icon <img src="assets/attachment-icon.png" alt="Attachment icon"> to attach a file to the comment. To tag a person or team, use the search box at the bottom of the commenting area. The user does not have to be a member on the board. Tagged users on connected cards will receive email notifications.</p><p>Click <strong>[!UICONTROL Submit]</strong> to add the comment to the card.</p>
+      <p><strong>NOTE:</strong> The commenting area on cards uses the new Adobe Workfront commenting experience. For more information, see <a href="/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md">New commenting experience</a>.</p></span></td>
+     </tr>
+     <tr> 
+      <td role="rowheader"><span class="preview"><strong>[!UICONTROL System activity]</strong></span> </td> 
+      <td><span class="preview"><p>If you have <strong>System activity</strong> enabled as a card section, the activity is displayed in this area.</p> <p>For more information, see <a href="/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md">Customize which fields are displayed on a card</a> and <a href="/help/quicksilver/administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md">System-tracked updates</a>.</p></span></td>
+     </tr>     
     </tbody> 
    </table>
 
-   Use the navigation panel on the left to move between groups of fields on the card details.
+   Use the left navigation panel to move between sections of fields on the card details.
 
 1. Click **[!UICONTROL Close]** to return to the board.
    The connected object, assignees, tags, due date, checklist counter, estimated hours, and status are displayed on the card.

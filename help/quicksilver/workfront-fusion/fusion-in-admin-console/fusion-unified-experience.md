@@ -12,7 +12,9 @@ exl-id: ea89cf36-f08d-4f4c-b89f-4895b5947e7a
 
 Accessing [!DNL Workfront Fusion] through [!DNL Adobe Experience Cloud] gives you a seamless, unified experience for managing all of your Ad[!DNL ]obe applications. Single identity management gives you one place to log in, without multiple URLs or login IDs.
 
-For a video describing navigation in [!DNL Fusion] in the [!DNL Adobe Experience Cloud], see [[!DNL Fusion] on the [!DNL Unified Shell]](https://video.tv.adobe.com/v/3412392/){target=_blank}
+For a video describing navigation in [!DNL Fusion] in the [!DNL Adobe Experience Cloud], see:
+
+ [[!DNL Fusion] on the [!DNL Unified Shell]](https://video.tv.adobe.com/v/3412392/){target=_blank}
 
 ## Access requirements
 
