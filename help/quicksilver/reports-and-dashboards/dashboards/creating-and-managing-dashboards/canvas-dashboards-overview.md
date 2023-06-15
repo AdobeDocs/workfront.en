@@ -47,12 +47,41 @@ A new Canvas Dashboards option on the left panel of the existing dashboards land
 
 ## Using Canvas Dashboards
 
+### Create a new Canvas Dashboard
+
+1. Open Canvas Dashboards as described in **Open Canvas Dashboards** above.
+
+1. Click **+ New Dashboard**
+
+1. Click **Untitled** in the top-left corner to enter a name for the dashboard.
+
+1. Click **Done** in the top-right corner to save your new dashboard, or begin adding widgets as described in **Add a report to a Canvas Dashboard** below.
+
 ### Add a report to a Canvas Dashboard
 
-1. Navigate to the 
+1. Open Canvas Dashboards as described in **Open Canvas Dashboards** above.
 
-### Edit widgets on a Canvas Dashboard
+1. Click on the dashboard to which you would like to add a report from the list of dashboards.
 
-To resize a widget:
+1. Click **Manage Widgets** in the top-right corner, then click **Add Widget**.
 
-To reposition a widget:
+1. Hover over the type of report widget you would like to add, then click on the checkbox that appears.
+
+1. When you have selected all of the widgets you would like to add, click **Add** in the top-right corner.
+
+1. The selected widgets will appear on the dashboard. Click **Configuration** in the center of a widget to choose which report it will display.
+
+1. Begin typing in the name of the report you would like to display in the **Find Report** field. When you see the report in the list, click either the **List Report** or **Chart Report** icon next to its name to display the information from that report in your chosen format.
+
+>[!WARNING]
+> While adding multiple widgets that display information from the same report is currently possible, we recommend only displaying each report once as it can affect dashboard performance.
+
+### Edit a widget in a Canvas Dashboard
+
+1. Open Canvas Dashboards as described in **Open Canvas Dashboards** above.
+
+1. Click the dashboard that you would like to edit from the list of dashboards.
+
+1. (Optional) To resize a widget, drag and drop the **Resize** icon in the bottom-left corner of the widget to your desired size.
+
+1. (Optional) To reposition a widget, drag the bordering white space of the widget and drag it to your desired relative position on the dashboard.
