@@ -2,7 +2,7 @@
 product-area: workfront-integrations;setup
 navigation-topic: adobe-workfront-for-creative-cloud
 title: View and Manage [!DNL Adobe Workfront] notifications in Adobe Creative Cloud
-description: 
+description: You can receive notifications in the Adobe Creative Cloud from [!DNL Adobe Workfront] about items you need to approve, assignments you've been given, or comments and changes to items you're associated with.
 author: Courtney,Becky
 feature: Workfront Integrations and Apps, Digital Content and Documents
 ---
