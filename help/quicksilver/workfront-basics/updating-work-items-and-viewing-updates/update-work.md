@@ -30,11 +30,11 @@ exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
 >     * Summary panel in lists
 >     * Summary panel in timesheets
 >
-> * Goals<!--, <span class="preview">Cards in the Boards area</span>-->
+> * Goals, <span class="preview">cards in the Boards area</span>
 >
->   The new commenting experience is the default for goals <!--<span class="preview">and cards</span>-->. You must have an additional license to access Workfront Goals. For more information, see [Requirements to uses Workfront Goals](../../workfront-goals/goal-management/access-needed-for-wf-goals.md). 
+>   The new commenting experience is the only experience for goals <span class="preview">and cards</span>. You must have an additional license to access Workfront Goals. For more information, see [Requirements to uses Workfront Goals](../../workfront-goals/goal-management/access-needed-for-wf-goals.md). 
 >
->    For information about commenting on goals, see [Manage goal comments in Adobe    Workfront Goals](../../workfront-goals/goal-management/manage-goal-comments.md).
+>     You can add and view updates to cards in the Board areas when you enable the Comments and System Activity sections on a card. For more information, see [Add an ad hoc card to a board](../../agile/get-started-with-boards/add-card-to-board.md).
 
 You can add comments to most objects in Adobe Workfront in the Updates section. For more information about which objects display the Updates section, see [Updates section overview](../updating-work-items-and-viewing-updates/updates-tab-overview.md). 
 
@@ -125,7 +125,9 @@ Adding an update to a work item differs depending on what version of the Updates
 
 >[!NOTE]
 >
->The following functionality is available for all objects except for goals. You must have an additional license to access Workfront Goals. For information about commenting on goals, see [Manage goal comments in Adobe Workfront Goals](../../workfront-goals/goal-management/manage-goal-comments.md)
+>The following functionality is available for all objects except for goals and cards. You must have an additional license to access Workfront Goals. For information about commenting on goals, see [Manage goal comments in Adobe Workfront Goals](../../workfront-goals/goal-management/manage-goal-comments.md).
+>
+>You can add and view updates to cards in the Board areas when you enable the Comments and System Activity sections on a card. For more information, see [Add an ad hoc card to a board](../../agile/get-started-with-boards/add-card-to-board.md).
 
 1. Go to the work item for which you want to provide an update (such as a project, task, or issue).
 1. Click the **Updates** section.
@@ -277,7 +279,7 @@ You can enhance your updates by using Rich Text, or adding various items to it, 
    | Hyperlink | ![mceclip7.png](assets/mceclip7.png)| <br>To open the Create Links or Add links box: ⌘+K</br> <br>In the commenting beta experience, to paste a link over the selected text: ⌘+V</br>  | <br>To open the Create Links or Add links box: Ctrl+K</br> <br>In the commenting beta experience, to paste a link over the selected text: Ctrl+V</br> |
    | Bulleted List | ![mceclip6.png](assets/mceclip6.png)|⌘+Shift+8 |Ctrl+Shift+8 |
    | Numbered List | ![mceclip5.png](assets/mceclip5.png)|⌘+Shift+7 |Ctrl+Shift+7 |
-   | Block Quote | <span class="preview">![](assets/block-quote-icon-large.png)</span>|⌘+Shift+9 |Ctrl+Shift+9 |
+   | Block Quote | ![](assets/block-quote-icon-large.png)|⌘+Shift+9 |Ctrl+Shift+9 |
 
     To stop formatting text, deselect the attribute on the **Rich Text** toolbar.
 
@@ -340,20 +342,17 @@ You can enhance your updates by using Rich Text, or adding various items to it, 
 
 ## Copy update information
 
-<!--drafted for beta release toggle - remove when copying an update will be available:
-
->[!NOTE]
->
->Copying an update is not possible when using the Beta commenting experience.
--->
-
 There are several ways you can copy an update. After copying a link, you can share the link with others to direct them to the update.
+
+Copying an update differs depending on which commenting experience you use. 
+
+### Copy an update in the current commenting experience
 
 * [Copy the update](#copy-the-update) 
 * [Copy the thread link](#copy-the-thread-link) 
 * [Copy the update link](#copy-the-update-link)
 
-### Copy the update {#copy-the-update}
+#### Copy the update {#copy-the-update}
 
 This option copies the text from a specific update to the clipboard.
 
@@ -362,24 +361,47 @@ This option copies the text from a specific update to the clipboard.
 
    ![Select Copy body text](assets/update-stream-copy-body-text-350x152.png)
 
-### Copy the thread link {#copy-the-thread-link}
+#### Copy the thread link {#copy-the-thread-link}
 
 This option copies the full thread link to the clipboard so you can share the thread with other users.
 
 1. Go to the update thread you want to copy.
 
-1. Click the **More** menu, then click **Copy thread link** or **Copy link**, when using the Beta experience.
+1. Click the **More** menu, then click **Copy thread link**.
 
    ![](assets/update-stream-comment-menu-marked-350x152.png)
 
-### Copy the update link {#copy-the-update-link}
+#### Copy the update link {#copy-the-update-link}
 
 This option copies a specific update link to the clipboard. When you share the update link, the user who follows it sees a border around the update.
 
 1. Go to the update or reply you want to copy.
-1. Click the **More** menu next to the individual update, then click **Copy update link** or **Copy link**, when using the Beta experience.
+1. Click the **More** menu next to the individual update, then click **Copy update link**.
 
    ![](assets/update-stream-reply-menu-marked-350x182.png)
+
+
+### Copy an update in the new commenting experience   
+
+<!--when we remove and deprecate the legacy stream, add screen shots in the secitons below-->
+
+* [Copy link](#copy-link)
+* [Copy body text](#copy-body-text)
+
+#### Copy link 
+
+This option copies the comment or thread link to the clipboard so you can share the comment or the entire thread with other users.
+
+1. Go to the update whose link you want to copy.
+
+1. Click the **More** menu, then click **Copy link**.
+
+#### Copy body text
+
+This option copies the text from a specific update to the clipboard.
+
+1. Go to the update or reply you want to copy.
+1. Click the **More** menu, then click **Copy body text**.
 
 ## Delete an update or reply
 
