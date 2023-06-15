@@ -20,22 +20,21 @@ exl-id: a8271f3c-7a08-4eb3-aaff-deb250f5af73
 >For more information about the new commenting experience, see [New commenting experience](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). 
 >
 >You can access the new experience for the following objects:
+> * Issues, <span class="preview">projects, tasks, and documents</span>.
 >
->* Issues, <span class="preview">projects, tasks, and documents</span>.
+>     This is available when you enable the commenting Beta experience.
 >
->  This is available when you enable the commenting Beta experience.   
+>     This functionality is available only for the Updates section, and it is not available for the following areas:
 >
->  This functionality is available only for the Updates section, and it is not available for the following areas:
+>     * Home
+>     * Summary panel in lists
+>     * Summary panel in timesheets
 >
->  * Home
->  * Summary panel in lists
->  * Summary panel in timesheets
+> * Goals<!--, <span class="preview">Cards in the Boards area</span>-->
 >
->* Goals
+>   The new commenting experience is the default for goals <!--<span class="preview">and cards</span>-->. You must have an additional license to access Workfront Goals. For more information, see [Requirements to uses Workfront Goals](../../workfront-goals/goal-management/access-needed-for-wf-goals.md). 
 >
->  The new commenting experience is the default for goals. You must have an additional license to access Workfront Goals. For more information, see [Requirements to uses Workfront Goals](../../workfront-goals/goal-management/access-needed-for-wf-goals.md). 
->
->  For information about commenting on goals, see [Manage goal comments in Adobe    Workfront Goals](../../workfront-goals/goal-management/manage-goal-comments.md). 
+>    For information about commenting on goals, see [Manage goal comments in Adobe    Workfront Goals](../../workfront-goals/goal-management/manage-goal-comments.md). 
 
 When someone replies to a comment or a system update on a work object, their reply appears in the communication thread in the Updates section for the object. 
 

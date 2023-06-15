@@ -56,7 +56,7 @@ You can add new documents to Workfront from the file system on your workstation.
 To add a document:
 
 1. Go to the project, task, or issue where you want to add a new document.
-1. Click the **Documents**&nbsp;tab, then click the **Add New** drop-down menu.
+1. Click the **Documents** tab, then click the **Add New** drop-down menu.
 
    ![](assets/add-new-350x138.png)
 
@@ -70,16 +70,17 @@ To add a document:
       <td role="rowheader">Upload documents from your file system on your workstation</td> 
       <td> 
        <ol> 
-        <li value="1">From the <strong>Add New</strong> drop-down menu, select&nbsp;<strong>Document.</strong></li> 
+        <li value="1">From the <strong>Add New</strong> drop-down menu, select <strong>Document.</strong></li> 
         <li value="2"> <p>Browse to and select the document that you want to add from the file system on your workstation.<br></p> <p>You can select multiple documents by pressing the Shift key as you select additional files.</p> </li> 
         <li value="3">Click <strong>Open</strong>.</li> 
-       </ol> </td> 
+       </ol> 
+       <p><b>NOTE</b>: You can also drag and drop files directly from your file manager into the document list.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Upload documents from&nbsp;a third-party application such as Google Drive or SharePoint</td> 
+      <td role="rowheader">Upload documents from a third-party application such as Google Drive or SharePoint</td> 
       <td> 
        <ol> 
-        <li value="1"> <p>From the <strong>Add New</strong> drop-down menu, select&nbsp;<strong>From &lt;name_of_third-party_application&gt;</strong>.</p> <p>For example, to upload a document from Google Drive, click <strong>From Google Drive</strong>.</p> </li> 
+        <li value="1"> <p>From the <strong>Add New</strong> drop-down menu, select <strong>From &lt;name_of_third-party_application&gt;</strong>.</p> <p>For example, to upload a document from Google Drive, click <strong>From Google Drive</strong>.</p> </li> 
         <li value="2"> <p>Follow the prompts to select the document in the third-party application.<br></p> <p>For more information about linked documents, see <a href="../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md" class="MCXref xref">Link documents from external applications</a>.</p> </li> 
        </ol> </td> 
      </tr> 
@@ -87,7 +88,7 @@ To add a document:
       <td role="rowheader">Request a document from another Workfront user</td> 
       <td> 
        <ol> 
-        <li value="1">From the <strong>Add New</strong> drop-down menu, select&nbsp;<strong>Request a Document</strong>.</li> 
+        <li value="1">From the <strong>Add New</strong> drop-down menu, select <strong>Request a Document</strong>.</li> 
         <li value="2">In the <strong>Who are you requesting it from</strong> box, type the name of the user from whom you are requesting the document.</li> 
         <li value="3">In the <strong>Tell them what you're requesting</strong> box, type the name of the document.</li> 
         <li value="4"> <p>Click <strong>Send Request</strong>.</p> <p>Your request displays on your Documents tab.</p> <p> <img src="assets/request-a-document-350x110.png" style="width: 350;height: 110;" data-mc-conditions="QuicksilverOrClassic.Quicksilver"> </p> <p>For more information about requesting documents, see <a href="../../documents/adding-documents-to-workfront/request-a-document.md" class="MCXref xref">Request a Document</a>.</p> </li> 
@@ -98,7 +99,7 @@ To add a document:
 
 ## Document security
 
-The Workfront site prevents viruses and other malicious content from entering the site via documents&nbsp;in the following ways:
+The Workfront site prevents viruses and other malicious content from entering the site via documents in the following ways:
 
 * [How Workfront detects corrupted files](#how-workfront-detects-corrupted-files) 
 * [File name restrictions](#file-name-restrictions)
@@ -109,7 +110,7 @@ Document scanning is enabled for your organization only upon request.
 
 If document scanning is enabled, files under 25 MB are scanned when they are uploaded. Files over 25 MB are not scanned.
 
-If Workfront detects a corrupted document, Workfront discontinues the upload process and a message appears&nbsp;indicating that the file is corrupt. You also receive an email notification when Workfront detects potentially malicious content and the file is slated for removal.
+If Workfront detects a corrupted document, Workfront discontinues the upload process and a message appears indicating that the file is corrupt. You also receive an email notification when Workfront detects potentially malicious content and the file is slated for removal.
 
 Corrupted files are removed within 24 hours of detection unless you remove it manually. If you delete a corrupted file, Workfront tracks this action as an update. If you allow Workfront to remove it, then no updates are recorded.
 

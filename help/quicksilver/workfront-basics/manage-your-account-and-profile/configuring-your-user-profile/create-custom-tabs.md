@@ -3,7 +3,7 @@ product-area: user-management
 navigation-topic: configure-your-user-profile
 title: Create custom sections
 description: The information you see in the [!DNL Workfront] web application is often displayed in the sections in the left panel by default. Each section contains different information about a [!DNL Workfront] area or object.
-author: Lisa
+author: Nolan
 feature: Get Started with Workfront
 exl-id: 68f4b83b-a8b4-4304-930f-62551cb06a92
 ---
