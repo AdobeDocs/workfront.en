@@ -6,7 +6,6 @@ title: Adobe Unified Experience for Workfront Fusion
 description: Accessing Workfront Fusion through Adobe Experience Cloud gives you a seamless, unified experience for managing all of your Adobe applications.
 author: Becky
 feature: Workfront Fusion
-hidefromtoc: yes
 exl-id: ea89cf36-f08d-4f4c-b89f-4895b5947e7a
 ---
 # [!DNL Adobe Unified Experience] for [!DNL Workfront Fusion]
@@ -88,3 +87,4 @@ This menu allows you to:
 * Set **[!UICONTROL Preferences]** for [!DNL Adobe Experience Cloud], including primary and secondary language preferences.
 * Access your **[!UICONTROL [!DNL Workfront Fusion] Profile]**. Once you are on the profile, click the **[!UICONTROL More]** menu ![](assets/more-icon.png) and select **[!UICONTROL Edit]**. For more information about the profile, see [Configure My Settings](/help/quicksilver/workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md).
 * **[!UICONTROL Sign out]** of Adobe Experience Cloud.
+ 
