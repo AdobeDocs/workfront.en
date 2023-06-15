@@ -12,7 +12,7 @@ exl-id: 0b86c760-691a-436e-9beb-31e9ac36440a
 
 The Planned Hours associated with a task, issue, or project represent the amount of time required for the assigned users to complete the task, issue, or project.
 
-## Considerations about Planned Hours in&nbsp;Adobe Workfront
+## Considerations about Planned Hours in Adobe Workfront
 
 * Planned Hours are primarily associated with work items (tasks and issues) in Adobe Workfront. The Planned Hours from work items roll up to the Planned Hours of their projects. 
 * By default, Workfront distributes task and issue Planned Hours equally to all the days in the Duration of the task or issue. 
@@ -39,7 +39,7 @@ This section describes differences between the task and project Planned Hours. I
 
 The Planned Hours of a task indicate the amount of time estimated that the actual work on the task might take. By default, Workfront distributes the total amount of planned hours evenly for each day within the duration of each task. The daily amount of planned hours becomes the daily allocations for the task. If the task is assigned to multiple resources, each resource is allocated an equal amount of daily hours, by default.
 
-Using the Workload Balancer, you can modify the daily allocations for the users assigned to the tasks.&nbsp;This can also update the Planned Hours of the task when the task Duration&nbsp;Type is Simple. For more information, see the "Update task Planned Hours when managing user allocations" section in the article [Manage user allocations in the Workload Balancer](../../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
+Using the Workload Balancer, you can modify the daily allocations for the users assigned to the tasks. This can also update the Planned Hours of the task when the task Duration Type is Simple. For more information, see the "Update task Planned Hours when managing user allocations" section in the article [Manage user allocations in the Workload Balancer](../../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
 
 When a task contains subtasks, the Planned Hours of the parent task is the sum of all Planned Hours on any subtasks. You cannot update the Planned Hours of a parent task.
 
@@ -54,11 +54,11 @@ You cannot edit the amount of Planned Hours on a project. Planned Hours on a pro
 
 Whether issues are included in the calculation for Planned Hours depends on the location within the project where you are viewing Planned Hours. You can view project Planned Hours in the following locations within a project:
 
-* **Project Details** **section** ****and the**Edit Project**box**:** Only the Planned Hours for the tasks on the project are taken into account. The Planned Hours for the issues on the project are not taken into account when viewing the total number of Planned Hours for the project in the Project Details  section  or the&nbsp;Edit Project box.
+* **Project Details section and the Edit Project box**: Only the Planned Hours for the tasks on the project are taken into account. The Planned Hours for the issues on the project are not taken into account when viewing the total number of Planned Hours for the project in the Project Details  section  or the Edit Project box.
 
-* **The **Workload Balancer: Only the Planned Hours associated with the tasks visible in the Workload Balancer display in the Workload Balancer for projects. User daily allocations can change the project&nbsp;daily Planned Hours in the Workload Balancer. 
-* **Utilization section :** The Planned Hours associated with the users assigned to the tasks and the issues on the project are taken into account when viewing the total number of Planned Hours for the project in the Utilization  section .
-* **Role Allocation panel** in the task list : The Planned Hours for the tasks and the issues on the project that are assigned to a job role or a user associated with a job role display in this area. Planned Hours associated with tasks and issues that are unassigned or assigned to teams do not display in this area. For more information, see [View project Planned Hours in the Role Allocation panel](../../../manage-work/projects/planning-a-project/view-planed-hours-in-role-allocation-panel.md).
+* **The Workload Balancer**: Only the Planned Hours associated with the tasks visible in the Workload Balancer display in the Workload Balancer for projects. User daily allocations can change the project&nbsp;daily Planned Hours in the Workload Balancer. 
+* **Utilization section**: The Planned Hours associated with the users assigned to the tasks and the issues on the project are taken into account when viewing the total number of Planned Hours for the project in the Utilization section.
+* **Role Allocation panel** in the task list: The Planned Hours for the tasks and the issues on the project that are assigned to a job role or a user associated with a job role display in this area. Planned Hours associated with tasks and issues that are unassigned or assigned to teams do not display in this area. For more information, see [View project Planned Hours in the Role Allocation panel](../../../manage-work/projects/planning-a-project/view-planed-hours-in-role-allocation-panel.md).
 
 ## Distribution of Planned Hours across the Duration of a task
 
@@ -159,7 +159,7 @@ The daily hour amount of Planned Hours represents one of the following:&nbsp;
 * the default amount equally distributed by Workfront for each day of the Duration of the tasks, issues, or the project
 * the adjusted daily allocation managed by resource managers.
 
-  For information about adjusting daily allocations in the Workload Balancer , see [Manage user allocations in the Workload Balancer](../../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
+  For information about adjusting daily allocations in the Workload Balancer, see [Manage user allocations in the Workload Balancer](../../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
 
 ### The Resource Planner {#the-resource-planner}
 
@@ -175,7 +175,7 @@ You can view weekly allocations of Planned Hours for the users and job roles ass
 
 The number of Planned Hours for each object differ depending on which view you apply to the&nbsp;Resource Planner. For more information, see [Overview of hours, FTE, and cost information in the Project and Role views of the Resource Planner](../../../resource-mgmt/resource-planning/overview-of-planner-hour-fte-cost-information-in-role-project-views.md).
 
-The weekly hour amount of Planned Hours for tasks and issues represents one of the following:&nbsp;
+The weekly hour amount of Planned Hours for tasks and issues represents one of the following:
 
 * the default weekly amount equally distributed by Workfront for each day of the Duration of the tasks or issues 
 * the adjusted weekly allocation managed by resource managers in the Workload Balancer.

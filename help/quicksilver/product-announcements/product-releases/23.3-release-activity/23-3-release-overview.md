@@ -217,6 +217,22 @@ The <add release> release webinar will be held on <date>. You can [register for 
                 </tr>
                 <tr>
                     <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-jun-5.md" class="MCXref xref" xrefformat="{para}">Improved experience when moving a document to a linked folder with drag and drop</a><span style="color: #ff0000;"> New in Preview!</span></p> 
+                        <p>We've added some transparency to the process of dragging and dropping a document into a linked folder. Now, the document that you moved to a linked folder remains in the document list until it has fully moved. The document options are disabled, but you can still open the document for view while it is moving. When the document has completed the transfer, it disappears from the document list, because it is now fully located in the linked folder. </p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                        <ul>
+                            <li>
+                                <p>Preview release: June 7, 2023</p>
+                            </li>
+                            <li>
+                                <p><span class="preview">Production release: June 15, 2023</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-15.md" class="MCXref xref" xrefformat="{para}">Automatically create linked folders to Adobe Experience Manager Assets when creating a project</a></p>
                         <p>With the new Create linked folder workflow for the Adobe Experience Manager integration, you can configure the integration with a path to an Adobe Experience Manager Assets folder. When the integration is added to a project template, any projects created from the template will automatically create a linked subfolder in Experience Manager Assets in the specified folder. </p>
                     </td>
@@ -297,10 +313,9 @@ The <add release> release webinar will be held on <date>. You can [register for 
                         <p><span class="bold">Release dates</span>
                         </p>
                     </td>
-                </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-29.md" class="MCXref xref" xrefformat="{para}">New document approvals</a> <span style="color: #ff0000;"> New in Preview!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-29.md" class="MCXref xref" xrefformat="{para}">New document approvals</a> </p>
                         <p>Document approvals are being redesigned in a phased rollout that will be made available to more users with each release.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
@@ -335,9 +350,9 @@ The <add release> release webinar will be held on <date>. You can [register for 
                         </p>
                     </td>
                 </tr>
-                 <tr>
+            <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-29.md" class="MCXref xref" xrefformat="{para}">New commenting Beta experience for projects, tasks, and documents</a> <span style="color: #ff0000;"> New in Preview!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-29.md" class="MCXref xref" xrefformat="{para}">New commenting Beta experience for projects, tasks, and documents</a> </p>
                         <p>The new commenting Beta experience is now available for projects, tasks, and documents. Prior to this update, the commenting Beta experience was available only for issues and goals.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
@@ -346,7 +361,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
                                 <p>Preview release:&#160;June 1, 2023<br /></p>
                             </li>
                             <li>
-                                <p>Production release:With the 23.3 release</p>
+                                <p>Production release: With the 23.3 release</p>
                             </li>
                         </ul>
                     </td>
@@ -400,6 +415,25 @@ The <add release> release webinar will be held on <date>. You can [register for 
                         </ul>
                     </td>
                 </tr>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-release-activity.md" class="MCXref xref" xrefformat="{para}">New Canvas Dashboard experience enhancements</a></p>
+                        <p>Enhancements to the Canvas Dashboard are being made available within the 23.3 release timeframe. These enhancements will be made available in the Production environment with the 23.3 release, unless otherwise specified. 
+ </p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                        <ul>
+                            <li>
+                                <p>Preview release:&#160;Throughout the 23.3 release timeframe<br /></p>
+                            </li>
+                            <li>
+                                <p><span class="preview">Production release:&#160;With the 23.3 release (unless otherwise specified)</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+           </tbody>
+        </table>   
            </tbody>
         </table>   
 
