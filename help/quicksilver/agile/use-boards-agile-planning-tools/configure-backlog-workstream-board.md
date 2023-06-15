@@ -9,7 +9,13 @@ exl-id: fd2f6eeb-a565-4461-a153-0504ad3c07d7
 ---
 # Configure the backlog on a workstream board
 
-You can choose to display a backlog column on a board in a workstream, and define a query for the cards that are pulled into the board backlog from the workstream card list. These options are not available on standalone boards. For information about adding an intake column to a standalone board, see [Add an intake column to a board](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md).
+You can choose to display a backlog column on a board in a workstream, and define a query for the cards that are pulled into the board backlog from the workstream card list.
+
+>[!NOTE]
+>
+>If you add a new card in the backlog column that does not match the query criteria, the card will disappear from the backlog when the board is refreshed and it will only be available in the card list. You can change the query at any time to adjust which cards appear in the backlog column.
+
+The backlog column and query are not available on standalone boards. For information about adding an intake column to a standalone board, see [Add an intake column to a board](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md).
 
 ## Access requirements
 
@@ -49,7 +55,7 @@ You must have the following access to perform the steps in this article:
 
    >[!NOTE]
    >
-   >A default query may already be applied to the backlog, showing all work items from the card list that do not belong to an iteration and are not in Complete status.
+   >A default query may already be applied to the backlog, showing all work items from the card list that have a status and the status is not Complete.
 
 1. Click [!UICONTROL **Add condition**] and click in the "empty" field.
 1. Select the field to query by.
