@@ -20,4 +20,4 @@ Enhancements to the Updates section of goals are being made available within the
 
 Commenting enhancements made available to goals are the same as those released with the new commenting beta experience for other Workfront objects.
 
-For more details, see [New commenting beta experience release activity](/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md).
+For more details, see [New commenting experience release activity](/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md).

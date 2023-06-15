@@ -31,11 +31,11 @@ exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
 >     * Summary panel in lists
 >     * Summary panel in timesheets
 >
-> * Goals<!--, <span class="preview">Cards in the Boards area</span>-->
+> * Goals, <span class="preview">cards in the Boards area</span>
 >
->   The new commenting experience is the default for goals <!--<span class="preview">and cards</span>-->. You must have an additional license to access Workfront Goals. For more information, see [Requirements to uses Workfront Goals](../../workfront-goals/goal-management/access-needed-for-wf-goals.md). 
+>   The new commenting experience is the only experience for goals <span class="preview">and cards</span>. You must have an additional license to access Workfront Goals. For more information, see [Requirements to uses Workfront Goals](../../workfront-goals/goal-management/access-needed-for-wf-goals.md). 
 >
->    For information about commenting on goals, see [Manage goal comments in Adobe    Workfront Goals](../../workfront-goals/goal-management/manage-goal-comments.md).
+>     You can add and view updates to cards in the Board areas when you enable the Comments and System Activity sections on a card. For more information, see [Add an ad hoc card to a board](../../agile/get-started-with-boards/add-card-to-board.md).
 
 The Updates section of an object displays comments that users make on the object or system updates that track changes to the object.
 
@@ -78,7 +78,7 @@ The Updates section displays for the following objects:
      <li>Templates</li> 
      <li>Template Tasks</li> 
      <li>Timesheets</li> 
-     <li>Users</li> 
+     <li>Users</li>
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -93,7 +93,7 @@ The Updates section displays information in the following tabs in the new commen
 * **Comments**: Displays comments made by users and replies to those comments. For information about updating objects in the new commenting experience, see [Update work](../updating-work-items-and-viewing-updates/update-work.md). 
 * **System Activity**: Displays system updates which are informational messages that Workfront creates to record certain events on an objects. For example, you can capture changes in status, name, or custom fields with system updates. Your Workfront or group administrator can enable system updates for your objects. For more information, see [Configure system updates](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
 
-Currently, you can add comments and reply to updates using the Beta commenting experience on the following objects:
+Currently, you can add comments and reply to updates using the new commenting experience on the following objects:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -103,10 +103,11 @@ Currently, you can add comments and reply to updates using the Beta commenting e
    <td> 
     <ul> 
      <li><p>Goals</p>
-     <p>This is the default experience for goals</p>
+     <li><span class="preview">Cards in the Boards area</span></li>
+      This is the only experience for goals <span class="preview">and cards</span>.
      </li> 
      <li><span class="preview">Projects</span></li>
-     </ul> </td> 
+    </ul> </td> 
    <td> 
     <ul> 
      <li>Issues</li> 
@@ -117,12 +118,10 @@ Currently, you can add comments and reply to updates using the Beta commenting e
  </tbody> 
 </table>
 
-<!--for 23.3 preview - June 15: 
-Add this to the table for 23.3 preview - under Goals:
 
-<li><span class="preview">Cards in the Boards area</span></li>
-This is the default experience for goals <span class="preview">and cards</span>. 
--->
+>[!NOTE]
+>
+>You can add and view updates to cards in the Board areas when you enable the Comments and System Activity sections on a card. For more information, see [Add an ad hoc card to a board](../../agile/get-started-with-boards/add-card-to-board.md). 
 
 ## Updates that also appear on higher-rank objects
 
