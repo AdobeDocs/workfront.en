@@ -5,8 +5,8 @@ title: New Document Approvals overview
 description: You can add additional approvers or reviewers to a document that already has pending approvals.
 author: Nolan
 feature: Work Management
+exl-id: d6f12031-c90a-4d42-95b5-4b0c7220282d
 ---
-
 # New Document Approvals overview
 
 New Document Approvals is a wholistic redesign of the existing approvals process that is currently in development for Adobe Workfront. Currently available in limited release, it is designed to be a practical and effective solution for businesses requiring comprehensive stakeholder engagement and version-specific document approvals. Its thoughtful design and purposeful new features facilitate collaboration, role clarity, and version control in the approval process, enhancing efficiency and accountability.

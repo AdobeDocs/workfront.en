@@ -5,8 +5,8 @@ title: Create a document approval
 description: You can request approval from other users for a document in Adobe Workfront.
 author: Nolan
 feature: Work Management
+exl-id: 9c12556a-3cf2-4771-b93d-c877f77143c3
 ---
-
 # Create a document approval request
 
 You can request approval from other users or teams for a document in Adobe Workfront, or request they review a document without needing to approve it.
