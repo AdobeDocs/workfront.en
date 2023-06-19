@@ -38,10 +38,9 @@ The following is a planned timeline for the release of the new commenting experi
     * New commenting experience for templates, template tasks, programs, portfolios, teams, users, and timesheets (as the only experience)
 * With the 23.4 release (early October, 2023)
     * New commenting experience for templates, template tasks, programs, portfolios, teams, users, and timesheets (as the only experience)
-    <!--wait for Ani to confirm this after June 19, 2023: * Add the new commenting experience to Home and the Summary panel. -->
+    <!--wait for Anna to confirm this after the teams are starting to work on this and will be closer to finish line; QBR is June 19, 2023, but wait until MUCH after this: * Add the new commenting experience to Home and the Summary panel. -->
 * End of 2023: 
-    * Remove the legacy experience from the objects that still have it. 
-    * The following objects have the new commenting experience as the only experience: projects, tasks, issues, stories, documents, templates, template tasks, programs, portfolios, teams, users, and timesheets, goals, cards.  
+    * The following objects have the new commenting experience as the default experience: projects, tasks, issues, stories, documents, templates, template tasks, programs, portfolios, teams, users, and timesheets, goals, cards. The legacy commenting experience will remain as an option. 
 
     >[!NOTE]
     >
