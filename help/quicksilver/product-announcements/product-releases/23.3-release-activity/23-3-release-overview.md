@@ -92,7 +92,7 @@ The 23.3 release webinar will be held on June 29, 2023. You can [register for th
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Project Agile view uses boards</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Project Agile view uses boards</a><span style="color: #ff0000;"> New in Preview!</span></p>
                         <p>release note</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
@@ -108,7 +108,7 @@ The 23.3 release webinar will be held on June 29, 2023. You can [register for th
                 </tr>                
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Dark mode now available on Adobe Workfront Boards</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Dark mode now available on Adobe Workfront Boards</a><span style="color: #ff0000;"> New in Preview!</span></p>
                         <p>You can now display all of your boards and workstreams in dark mode. The new setting is available through the preferences on the Boards dashboard.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
@@ -124,7 +124,7 @@ The 23.3 release webinar will be held on June 29, 2023. You can [register for th
                 </tr>                
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Enhancements to workstream iterations in Adobe Workfront Boards</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Enhancements to workstream iterations in Adobe Workfront Boards</a><span style="color: #ff0000;"> New in Preview!</span></p>
                         <p>We have added the ability to add goals to an iteration, without having to list the goals on a card. Goals are added in a checklist format and can be marked complete. The metrics area on the top right of the iteration shows how many goals exist and how many have been completed. Also, the Next Iteration column is now available on iteration boards.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
@@ -140,7 +140,7 @@ The 23.3 release webinar will be held on June 29, 2023. You can [register for th
                 </tr>                
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Sort by board columns</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Sort by board columns</a><span style="color: #ff0000;"> New in Preview!</span></p>
                         <p>We have added the ability to sort the cards in the columns on a board. When you select an option to sort by, all columns are sorted. You can't sort a single column, and the backlog or intake column is not sorted.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
@@ -498,7 +498,7 @@ The 23.3 release webinar will be held on June 29, 2023. You can [register for th
                 </tr>
             <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-other-enhancements.md" class="MCXref xref" xrefformat="{para}">TITLE FOR HOME</a> </p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-other-enhancements.md" class="MCXref xref" xrefformat="{para}">TITLE FOR HOME</a><span style="color: #ff0000;"> New in Preview!</span></p>
                         <p>Release note.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
