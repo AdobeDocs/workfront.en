@@ -10,6 +10,14 @@ This page describes all project enhancements made with the 23.3 release to the P
 
 For a list of all changes available at this point in the 23.3 release cycle, see [23.3 Release overview](/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-3-release-overview.md).
 
+## Date effective cost and billing rates
+
+Date effective cost and billing rates are now available on company, user, and job role records. When date effective rates are applied to a project, and hours are logged on project tasks, the costs and revenue are calculated using the specified rates for each time period.
+
+A new feature, rate cards, allows you to define multiple billing rates per job role, based on location. A billing rate for a job role and location can also include effective dates.
+
+These features will be released sometime after the 23.3 release, and updated user documentation will be available at that time.
+
 ## New document approvals
 
 Document approvals are being redesigned in a phased rollout that will be made available to more users with each release.

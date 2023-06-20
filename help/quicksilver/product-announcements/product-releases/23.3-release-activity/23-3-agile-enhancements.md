@@ -42,6 +42,16 @@ The "user order" option returns the cards to the order they were manually set, b
 
 For more information, see [Filter and search in a board](/help/quicksilver/agile/get-started-with-boards/filter-search-in-board.md).
 
+## Add comments to cards on boards
+
+>[!NOTE]
+>
+>This feature is available only through the early feature opt-in for Workfront Boards.
+
+You can now add comments to both ad hoc and connected cards on boards, and tag other users on the comments. Comments are available in the card details. The comment feature for boards uses the new Adobe Workfront commenting experience.
+
+For more information, see [Add an ad hoc card to a board](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md) and [Use connected cards on boards](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
+
 ## Enhancements to the Boards tag manager
 
 The tag manager interface has been improved, allowing you to create new tags quickly and apply them to cards. You can also create tags for workstreams.
