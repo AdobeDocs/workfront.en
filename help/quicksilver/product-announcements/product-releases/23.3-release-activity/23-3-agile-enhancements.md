@@ -10,6 +10,38 @@ This page describes all agile enhancements made with the 23.3 release to the Pre
 
 For a list of all changes available at this point in the 23.3 release cycle, see [23.3 Release overview](/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-3-release-overview.md).
 
+## Project Agile view uses boards
+
+release note
+
+## Dark mode now available on Adobe Workfront Boards
+
+You can now display all of your boards and workstreams in dark mode. The new setting is available through the preferences on the Boards dashboard.
+
+>[!NOTE]
+>
+>If your organization's instance of Workfront has been onboarded to the Adobe Unified Experience, you can enable dark theme formatting for all of Adobe Experience Cloud through your preferences menu (your profile picture), and you will not see a separate dark mode option for Workfront Boards.
+
+For more information, see [Boards email notifications and preferences](/help/quicksilver/agile/get-started-with-boards/boards-emails.md).
+
+## Enhancements to workstream iterations in Adobe Workfront Boards
+
+We have added the ability to add goals to an iteration, without having to list the goals on a card. Goals are added in a checklist format and can be marked complete. The metrics area on the top right of the iteration shows how many goals exist and how many have been completed.
+
+Also, the Next Iteration column is now available on iteration boards. When you place a card in this column, it is automatically carried to the next iteration and does not return to the backlog. On the next iteration, the card appears in the column that corresponds with its status.
+
+For more information on both of these features, see [Create an iteration in a workstream](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md).
+
+## Sort by board columns
+
+We have added the ability to sort the cards in the columns on a board. When you select an option to sort by, all columns are sorted. You can't sort a single column, and the backlog or intake column is not sorted.
+
+You can sort in ascending or descending order by card name, due date, estimation, status, or connection (project name). Connection applies to connected cards only, and the other options will sort both connected and ad hoc cards in the column.
+
+The "user order" option returns the cards to the order they were manually set, before any other sort options were applied. This is the default sort for the columns.
+
+For more information, see [Filter and search in a board](/help/quicksilver/agile/get-started-with-boards/filter-search-in-board.md).
+
 ## Enhancements to the Boards tag manager
 
 The tag manager interface has been improved, allowing you to create new tags quickly and apply them to cards. You can also create tags for workstreams.
