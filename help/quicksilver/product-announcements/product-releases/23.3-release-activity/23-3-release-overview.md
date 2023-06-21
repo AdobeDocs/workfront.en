@@ -93,7 +93,7 @@ The 23.3 release webinar will be held on June 29, 2023. You can [register for th
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Project Agile view uses boards</a><span style="color: #ff0000;"> New in Preview!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Project Agile view uses boards</a><span style="color: #ff0000;"> Coming soon!</span></p>
                         <p>release note</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
