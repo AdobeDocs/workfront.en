@@ -18,7 +18,6 @@ feature-set: Workfront
       * [23.3 Agile enhancements](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md)
       * [23.3 Integration enhancements](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-integration-enhancements.md)
       * [23.3 Project enhancements](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-project-enhancements.md)
-      * [23.3 Proofing enhancements](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-proofing-enhancements.md)
       * [23.3 Mobile enhancements](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-mobile-enhancements.md)
       * [23.3 Other enhancements](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-other-enhancements.md)
       * [Look and feel updates during the 23.3 release time frame](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-look-and-feel-updates.md)
@@ -208,6 +207,7 @@ feature-set: Workfront
     * Workfront Proof release activity {#proof-release}
       * Proof with 23.3 release {#proof-23-3-release}
         * [Adobe Workfront Proof with the 23.3 release](/help/quicksilver/product-announcements/product-releases/workfront-proof-release-activity/proof-23-3-release/proof-23-3-overview.md)
+        * [Adobe Workfront Proof 23.3 release activity: Week of July 17, 2023](/help/quicksilver/product-announcements/product-releases/workfront-proof-release-activity/proof-23-3-release/proof-23-3-jul-17.md)
         * [Adobe Workfront Proof 23.3 release activity: Week of June 5, 2023](/help/quicksilver/product-announcements/product-releases/workfront-proof-release-activity/proof-23-3-release/proof-23-3-jun-5.md)
         * [Adobe Workfront Proof 23.3 release activity: Week of May 8, 2023](/help/quicksilver/product-announcements/product-releases/workfront-proof-release-activity/proof-23-3-release/proof-23-3-may-8.md)
       * [Workfront Proof release activity: Week of May 17, 2021](product-announcements/product-releases/workfront-proof-release-activity/wp-release-may-17.md)

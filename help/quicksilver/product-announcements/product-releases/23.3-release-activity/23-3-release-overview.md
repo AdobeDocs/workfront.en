@@ -21,7 +21,6 @@ The 23.3 release webinar will be held on June 29, 2023. You can [register for th
 * [Agile enhancements](#agile-enhancements)
 * [Integration enhancements](#integration-enhancements)
 * [Project enhancements](#project-enhancements)
-* [Proofing enhancements](#proofing-enhancements)
 * [Other enhancements](#other-enhancements)
     
 ### Administrator enhancements
@@ -444,7 +443,7 @@ The 23.3 release webinar will be held on June 29, 2023. You can [register for th
                  <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Date effective cost and billing rates</a><span style="color: #ff0000;"> Coming soon!</span> </p>
-                        <p>Date effective cost and billing rates are now available on company, user, and job role records. When date effective rates are applied to a project, and hours are logged on project tasks, the costs and revenue are calculated using the specified rates for each time period.</p>
+                        <p>Date effective cost and billing rates are now available on the company, user, and job role objects in Workfront. When date effective rates are applied to a project, and hours are logged on project tasks, the costs and revenue are calculated using the specified rates for each time period.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
                         <ul>
@@ -475,41 +474,6 @@ The 23.3 release webinar will be held on June 29, 2023. You can [register for th
                         <p><span style="color: #ff0000;">This feature is part of a phased release and is currently only available for specific customers.</span></p>
                     </td>
                 </tr>
-           </tbody>
-        </table>   
-
-### Proofing enhancements
-
-<table>
-            <col style="width: 50%;" />
-            <col style="width: 50%;" />
-            <tbody>
-                <tr>
-                    <td>
-                        <p><span class="bold">Feature</span>
-                        </p>
-                    </td>
-                    <td>
-                        <p><span class="bold">Release dates</span>
-                        </p>
-                    </td>
-                 </tr>   
-                 <tr>
-                    <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-proofing-enhancements.md" class="MCXref xref" xrefformat="{para}">Postpone updates for the Desktop Proofing Viewer</a> </p>
-                        <p>Based on user feedback, we are adding the option to postpone updates for the Desktop Proofing Viewer. Users can now opt to delay an update and continue with their work, but will be reminded that an update is available each time they open the Desktop Proofing Viewer.</p>
-                    </td>
-                    <td><p><b>Available on these dates:</b></p>
-                        <ul>
-                            <li>
-                                <p>Preview release: With the 23.3 release</p>
-                            </li>
-                            <li>
-                                <p>Production release: With the 23.3 release</p>
-                            </li>
-                        </ul>
-                    </td>
-                </tr>               
            </tbody>
         </table>
 

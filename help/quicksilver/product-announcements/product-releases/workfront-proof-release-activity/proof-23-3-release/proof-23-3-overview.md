@@ -28,10 +28,25 @@ For a list of all changes available for all areas of Workfront at this point in 
                         </p>
                     </td>
                 </tr>
-                </tr>
-                 <tr>
+                <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/workfront-proof-release-activity/proof-23-3-release/proof-23-3-jun-5.md" class="MCXref xref" xrefformat="{para}">Changing support for Microsoft Office proofs</a><span style="color: #ff0000;"> New in Production!</span> </p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/workfront-proof-release-activity/proof-23-3-release/proof-23-3-jul-17.md" class="MCXref xref" xrefformat="{para}">Postpone updates for the Desktop Proofing Viewer</a> </p>
+                        <p>Based on user feedback, we are adding the option to postpone updates for the Desktop Proofing Viewer. Users can now opt to delay an update and continue with their work, but will be reminded that an update is available each time they open the Desktop Proofing Viewer.</p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                        <ul>
+                            <li>
+                                <p>Preview release: With the 23.3 release</p>
+                            </li>
+                            <li>
+                                <p>Production release: With the 23.3 release</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>                
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/workfront-proof-release-activity/proof-23-3-release/proof-23-3-jun-5.md" class="MCXref xref" xrefformat="{para}">Changing support for Microsoft Office proofs</a></p>
                         <p>To maintain a robust and scalable proof processing solution, we are changing our supported Microsoft Office file types and file size limits.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
@@ -44,7 +59,8 @@ For a list of all changes available for all areas of Workfront at this point in 
                             </li>
                         </ul>
                     </td>
-                </tr>                <tr>
+                </tr>                
+                <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/workfront-proof-release-activity/proof-23-3-release/proof-23-3-may-8.md">Desktop Proofing Viewer update</a></p>
                         <p>The Desktop Proofing Viewer has been updated to version 2.1.24! This update includes Chrome v100 support for reviewing interactive proofs, as well as a number of isssue fixes.</p>
