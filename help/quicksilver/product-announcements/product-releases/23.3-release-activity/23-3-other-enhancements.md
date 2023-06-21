@@ -24,12 +24,6 @@ New Home will be the default experience for all users upon its release. However,
 
 Documentation for New Home will be made available with its release to preview on June 23rd.
 
-## The new commenting experience is the default experience
-
-We are making the new commenting experience the default experience for the following objects: projects, tasks, issues, and documents.  
-
-For more information, see [New commenting experience release activity](/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md).
-
 ## New commenting experience for additional objects
 
 The new commenting experience will be available for the following objects, shortly after the 23.3 release to Production: template tasks, templates, timesheets, teams, users, programs, portfolios.  

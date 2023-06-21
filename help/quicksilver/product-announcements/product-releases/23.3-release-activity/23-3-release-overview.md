@@ -579,24 +579,8 @@ The 23.3 release webinar will be held on June 29, 2023. You can [register for th
                             </li>
                         </ul>
                     </td>
-                 </tr>
-            <tr>
-                    <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-other-enhancements.md" class="MCXref xref" xrefformat="{para}">The new commenting experience is the default experience</a></p>
-                        <p>We are making the new commenting experience the default experience for the following objects: projects, tasks, issues, and documents.</p>
-                    </td>
-                    <td><p><b>Available on these dates:</b></p>
-                        <ul>
-                            <li>
-                                <p>Preview release: To be announced</p>
-                            </li>
-                            <li>
-                                <p>Production release: With the 23.3 release</p>
-                            </li>
-                        </ul>
-                    </td>
-                 </tr>                                  
-            <tr>
+                 </tr>                                 
+                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-other-enhancements.md" class="MCXref xref" xrefformat="{para}">New commenting experience for additional objects</a> </p>
                         <p>The new commenting experience will be available for the following objects, shortly after the 23.3 release to Production: template tasks, templates, timesheets, teams, users, programs, portfolios.</p>
