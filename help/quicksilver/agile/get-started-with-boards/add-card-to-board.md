@@ -95,7 +95,7 @@ An ad hoc card is not connected to a work item in [!DNL Adobe Workfront].
       <td role="rowheader"><strong>[!UICONTROL Comments]</strong></td>
       <td><p>Click in the <strong>[!UICONTROL New comment]</strong> field and type your comment. Use the formatting tools to format the text, and click the <strong>Add attachment</strong> icon <img src="assets/attachment-icon.png" alt="Attachment icon"> to attach a file to the comment. To tag a person or team, use the search box at the bottom of the commenting area. The user does not have to be a member on the board.</p><p><strong>NOTE:</strong> At this time, users tagged in comments on ad hoc cards do not receive an email notification.
       </p><p>Click <strong>[!UICONTROL Submit]</strong> to add the comment to the card.</p>
-      <p><strong>NOTE:</strong> The commenting area on cards uses the new Adobe Workfront commenting experience. For more information, see <a href="/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md">New commenting experience</a>.</p><p><strong>NOTE:</strong> Comments on cards are available only through the early feature opt-in for Workfront Boards.</p></td>
+      <p><strong>NOTE:</strong> The commenting area on cards uses the new Adobe Workfront commenting experience. For more information, see <a href="/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md">Update work</a>.</p><p><strong>NOTE:</strong> Comments on cards are available only through the early feature opt-in for Workfront Boards.</p></td>
      </tr>
     </tbody> 
    </table>
