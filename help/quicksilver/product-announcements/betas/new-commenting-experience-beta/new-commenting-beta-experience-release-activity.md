@@ -94,8 +94,8 @@ Preview release: To be announced, after the 23.3 Production release (July 20, 20
 Production release for the Fast release customers: To be announced, after the 23.3 Production release  
 
 Production release for all customers: with the 23.4 release 
-
 -->
+
 ### Week of June 12, 2023
 
 #### New commenting experience for cards in the Boards area 
