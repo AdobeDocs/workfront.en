@@ -32,11 +32,9 @@ For more information, see [New commenting experience release activity](/help/qui
 
 ## New commenting experience for additional objects
 
-The new commenting experience will be available for the following objects, shortly after the 23.3 release to Production: template tasks, templates, timesheets, teams, users, program, portfolios.  
+The new commenting experience will be available for the following objects, shortly after the 23.3 release to Production: template tasks, templates, timesheets, teams, users, programs, portfolios.  
 
-This will be the only commenting experience for these objects, as the legacy commenting experience is removed.  
-
-With this change, the new commenting experience will also be the default experience for issues, projects, tasks, and documents. The legacy commenting experience will also be available for these objects.   
+This will be the only commenting experience for these objects, as the legacy commenting experience is removed.
 
 For more information, see [New commenting experience release activity](/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md).
 

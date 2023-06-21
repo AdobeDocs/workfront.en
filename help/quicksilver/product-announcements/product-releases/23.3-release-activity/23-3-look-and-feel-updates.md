@@ -24,7 +24,7 @@ The improvements are:
 * there is now a loading indicator when the page uploads;
 * the Copy icon is persistent and accompanied by text and it becomes disabled when no requests are selected.
 
-For more information, see [Create and submit Adobe Workfront requests](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md).
+For more information, see [Copy and submit requests](/help/quicksilver/manage-work/requests/create-requests/copy-and-submit-requests.md).
 
 ## Updated design when submitting a new request
 
