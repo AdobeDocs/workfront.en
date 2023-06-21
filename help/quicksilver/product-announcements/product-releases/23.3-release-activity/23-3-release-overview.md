@@ -502,10 +502,10 @@ The 23.3 release webinar will be held on June 29, 2023. You can [register for th
                     <td><p><b>Available on these dates:</b></p>
                         <ul>
                             <li>
-                                <p>Preview release: TBD</p>
+                                <p>Preview release: With the 23.3 release</p>
                             </li>
                             <li>
-                                <p>Production release: TBD</p>
+                                <p>Production release: With the 23.3 release</p>
                             </li>
                         </ul>
                     </td>
@@ -540,7 +540,7 @@ The 23.3 release webinar will be held on June 29, 2023. You can [register for th
                                 <p>Preview release: N/A</p>
                             </li>
                             <li>
-                                <p><span class="preview">Production release: Available in the Apple App Store and Google Play Store in July 2023</span></p>
+                                <p><span class="preview">Production release: Available in the Apple App Store and Google Play Store on June 21, 2023</span></p>
                             </li>
                         </ul>
                     </td>
@@ -592,7 +592,7 @@ The 23.3 release webinar will be held on June 29, 2023. You can [register for th
                             </li>
                             <li>
                                 <p>Production release for the Fast release customers: To be announced, after the 23.3 Production release </p>
-                                <p>Production release for all customers: With the 23.3 release</p>
+                                <p>Production release for all customers: With the 23.4 release</p>
                             </li>
                         </ul>
                     </td>
@@ -721,11 +721,11 @@ Explore the latest updates made to learning programs, learning paths, videos, an
 
 The following functionality is soon to be removed from Workfront:
 
-#### Deprecation of the Workfront Proof mobile app with 23.4
+#### Deprecation of the Proof mobile app with 23.4
 
-We will be officially deprecating the Workfront Proof mobile app with the 23.4 release. The general Workfront mobile app has been enhanced with new proofing functionality (see the release note under Workfront Mobile enhancements for more information), and users are advised to begin using it for proofing work as soon as possible.
+We will be officially deprecating the Proof mobile app with the 23.4 release. The general Workfront mobile app has been enhanced with new proofing functionality (see the release note under Workfront Mobile enhancements for more information), and users are advised to begin using it for proofing work as soon as possible.
 
-Note that the Workfront mobile app requires a Workfront login. External users and guests can continue to use the Workfront Proof app for proofing work; however, it is no longer supported and will become unavailable with 23.4.
+Note that the Workfront mobile app requires a Workfront login. External users and guests can continue to use the Proof app for proofing work; however, it is no longer supported and will become unavailable with 23.4.
 
 
 <!-- HTML you might need

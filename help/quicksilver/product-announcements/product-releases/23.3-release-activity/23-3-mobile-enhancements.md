@@ -14,7 +14,7 @@ For a list of all changes available at this point in the 23.3 release cycle, see
 
 >[!NOTE]
 >
->These features will be generally available in the Apple App Store and Google Play Store in July 2023.
+>These features will be generally available in the Apple App Store and Google Play Store on June 21, 2023.
 
 With the deprecation of the standalone Workfront Proof app in 23.4, the primary Workfront mobile app has had  proofing features added to allow for proofing on mobile to continue. New functionality includes:
 
