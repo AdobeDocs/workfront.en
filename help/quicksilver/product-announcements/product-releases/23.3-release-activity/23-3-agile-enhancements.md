@@ -10,9 +10,17 @@ This page describes all agile enhancements made with the 23.3 release to the Pre
 
 For a list of all changes available at this point in the 23.3 release cycle, see [23.3 Release overview](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md).
 
-## Project Agile view uses boards
+## Agile View of a project displays a board
 
-release note
+The Agile View of a project now displays a Workfront board, instead of the legacy agile view. You can manipulate your tasks and issues on the board just as you would on a board that you created in the Boards area.
+
+>[!NOTE]
+>
+>The Agile View is a temporary board for this project only, and you can't access it from the Boards dashboard.
+
+While you are in the board, you can opt to switch to the legacy agile view.
+
+Documentation for the updated Project Agile view will be made available with its release to preview.
 
 ## Dark mode now available on Adobe Workfront Boards
 

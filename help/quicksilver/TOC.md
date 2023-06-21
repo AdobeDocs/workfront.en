@@ -334,7 +334,7 @@ feature-set: Workfront
     * [Schedule of features no longer supported](product-announcements/announcements/feature-removal-timeline.md)
     * [Maintenance Window FAQ](product-announcements/announcements/maintenance-window-faq.md)
     * [Change required for adding proofs to your allowlist](product-announcements/announcements/proofhq-domain-change-workfront.md)
-    * [Unsubscribe from Announcement Center Messagesin the new Adobe Workfront experience](product-announcements/announcements/unsubscribe-from-ac-messages.md)
+    * [Unsubscribe from Announcement Center Messages in the new Adobe Workfront experience](product-announcements/announcements/unsubscribe-from-ac-messages.md)
     * Announcement archive {#announcement-archive}
       * [Announcement archive](product-announcements/announcements/announcement-archive/announcement-archive.md)
       * [Updated Mobile App for iOS and Android (Early August, 2017)](product-announcements/announcements/announcement-archive/updated-mobile-app.md)
@@ -539,7 +539,7 @@ feature-set: Workfront
       * Manage custom forms {#manage-custom-forms}
         * [Manage custom forms and fields](administration-and-setup/customize-workfront/create-manage-custom-forms/manage-custom-forms-toc.md)
         * [Share a custom form](administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md)
-         * [Access to custom fields](administration-and-setup/customize-workfront/create-manage-custom-forms/access-for-a-shared-custom-form-you-want-to-use.md)
+        * [Access to custom fields](administration-and-setup/customize-workfront/create-manage-custom-forms/access-for-a-shared-custom-form-you-want-to-use.md)
         * [Deactivate or reactivate a custom form](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/activate-deactivate-form.md)
         * [Reference custom forms in reports](administration-and-setup/customize-workfront/create-manage-custom-forms/reference-custom-forms-in-report.md)
         * [View reports that use a custom field or widget](administration-and-setup/customize-workfront/create-manage-custom-forms/view-all-reports-that-use-a-particular-custom-field.md)

@@ -14,9 +14,9 @@ For a list of all changes available at this point in the 23.3 release cycle, see
 
 Date effective cost and billing rates are now available on the company, user, and job role objects in Workfront. When date effective rates are applied to a project, and hours are logged on project tasks, the costs and revenue are calculated using the specified rates for each time period.
 
-Also, date effective job roles are now available on the user profile. These date effective assignments are used in financial calculations if the user's job role changes during a project.
+Also, date effective job role sets are now available on the user profile. These date effective role associations are considered in financial calculations if the user's job role changes during a project.
 
-A new feature, rate cards, allows you to define multiple billing rates per job role, based on location. A billing rate for a job role and location can also include effective dates. Rate cards can be attached to projects to apply all of the rate information at once for the specific job role and location.
+A new feature, rate cards, allows you to define multiple billing rates per job role, based on location. A billing rate for a job role and location can also include effective dates. Rate cards can be attached to projects to apply all of the rate information at once for the specific job role and location. Location based roles can also be assigned to tasks with a possibility to override their rates on the assignment level.
 
 All of these features will be released to Preview in July 2023, and updated user documentation will be available at that time.
 

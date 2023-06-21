@@ -92,8 +92,8 @@ The 23.3 release webinar will be held on June 29, 2023. You can [register for th
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Project Agile view uses boards</a><span style="color: #ff0000;"> Coming soon!</span></p>
-                        <p>release note</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Agile View of a project displays a board</a><span style="color: #ff0000;"> Coming soon!</span></p>
+                        <p>The Agile View of a project now displays a Workfront board, instead of the legacy agile view. You can manipulate your tasks and issues on the board just as you would on a board that you created in the Boards area.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
                         <ul>
