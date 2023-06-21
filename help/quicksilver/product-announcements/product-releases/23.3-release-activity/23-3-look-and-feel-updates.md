@@ -25,3 +25,13 @@ The improvements are:
 * the Copy icon is persistent and accompanied by text and it becomes disabled when no requests are selected.
 
 For more information, see [Create and submit Adobe Workfront requests](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md).
+
+## Updated design when submitting a new request
+
+>[!NOTE]
+>
+>Preview release: to be announced (with 23.3); Planned Production release: to be announced (with 23.3)
+
+We have updated the New request box which displays when submitting a new request. Now, the interface matches the New issue box which displays when adding a new issue to a project.
+
+For more information, see [Create and submit Adobe Workfront requests](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md).

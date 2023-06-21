@@ -10,6 +10,30 @@ This page describes all integration enhancements made with the 23.3 release to t
 
 For a list of all changes available at this point in the 23.3 release cycle, see [23.3 Release overview](/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-3-release-overview.md).
 
+## Adobe Creative Cloud integrations now support multiple assigned users
+
+The Adobe Creative Cloud integration now supports the ability to choose between "Done with my part" and "Complete" (or "Resolved") when a task or issue has multiple assigned users.
+
+Previously, the integration allowed users to mark a task as done, without specifying "Done with my part" Or "Complete"/"Resolved."
+
+To take advantage of this functionality, download and install the newest Workfront for Creative Cloud plugins.
+
+For more information on the functionality, see [Mark work items complete using the Adobe Workfront plugin](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-complete.md).
+
+For information on installing the Workfront for Creative Cloud plugins, see [Install the Adobe Workfront plugin for Creative Cloud Applications](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-toc.md).
+
+## View and manage Workfront notifications from the Workfront for Creative Cloud plugins
+
+To make it easier for you to receive the notifications you need, we've made it possible to view and manage Workfront notifications without leaving the Adobe Creative Cloud. Now, you can view notifications, as well as access the work items and comments related to those notifications, directly from the Workfront plugin window within the Creative Cloud application.
+
+Previously, notifications were only available within Workfront and through email.
+
+To take advantage of this functionality, download and install the newest Workfront for Creative Cloud plugins.
+
+For more information, see [View and Manage [!DNL Adobe Workfront] notifications from Adobe Creative Cloud](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-notifications.md).
+
+For information on installing the Workfront for Creative Cloud plugins, see [Install the Adobe Workfront plugin for Creative Cloud Applications](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-toc.md).
+
 ## Improved experience when moving a document to a linked folder with drag and drop
 
 We've added some transparency to the process of dragging and dropping a document into a linked folder. Now, the document that you moved to a linked folder remains in the document list until it has fully moved. The document options are disabled, but you can still open the document for view while it is moving. When the document has completed the transfer, it disappears from the document list, because it is now fully located in the linked folder.

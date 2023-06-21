@@ -21,6 +21,7 @@ The 23.3 release webinar will be held on June 29, 2023. You can [register for th
 * [Agile enhancements](#agile-enhancements)
 * [Integration enhancements](#integration-enhancements)
 * [Project enhancements](#project-enhancements)
+* [Proofing enhancements](#proofing-enhancements)
 * [Other enhancements](#other-enhancements)
     
 ### Administrator enhancements
@@ -311,6 +312,38 @@ The 23.3 release webinar will be held on June 29, 2023. You can [register for th
                 </tr>
                 <tr>
                     <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Adobe Creative Cloud integrations now support multiple assigned users</a></p> 
+                        <p>The Adobe Creative Cloud integration now supports the ability to choose between "Done with my part" and "Complete" (or "Resolved") When a task or issue has multiple assigned users.</p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                        <ul>
+                            <li>
+                                <p>Preview release: N/A</p>
+                            </li>
+                            <li>
+                                <p><span class="preview">Production release: June 22, 2023</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>                
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">View and manage Workfront notifications from the Workfront for Creative Cloud plugins</a></p> 
+                        <p>To make it easier for you to receive the notifications you need, we've made it possible to view and manage Workfront notifications without leaving the Adobe Creative Cloud. Now, you can view notifications, as well as access the work items and comments related to those notifications, directly from the Workfront plugin window within the Creative Cloud application.</p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                        <ul>
+                            <li>
+                                <p>Preview release: N/A</p>
+                            </li>
+                            <li>
+                                <p><span class="preview">Production release: June 22, 2023</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>                
+                <tr>
+                    <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Improved experience when moving a document to a linked folder with drag and drop</a></p> 
                         <p>We've added some transparency to the process of dragging and dropping a document into a linked folder. Now, the document that you moved to a linked folder remains in the document list until it has fully moved. The document options are disabled, but you can still open the document for view while it is moving. When the document has completed the transfer, it disappears from the document list, because it is now fully located in the linked folder. </p>
                     </td>
@@ -445,6 +478,41 @@ The 23.3 release webinar will be held on June 29, 2023. You can [register for th
            </tbody>
         </table>   
 
+### Proofing enhancements
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">Feature</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Release dates</span>
+                        </p>
+                    </td>
+                 </tr>   
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-proofing-enhancements.md" class="MCXref xref" xrefformat="{para}">Postpone updates for the Desktop Proofing Viewer</a> </p>
+                        <p>Based on user feedback, we are adding the option to postpone updates for the Desktop Proofing Viewer. Users can now opt to delay an update and continue with their work, but will be reminded that an update is available each time they open the Desktop Proofing Viewer.</p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                        <ul>
+                            <li>
+                                <p>Preview release: TBD</p>
+                            </li>
+                            <li>
+                                <p>Production release: TBD</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>               
+           </tbody>
+        </table>
+
 ### Mobile enhancements
 
 <table>
@@ -463,16 +531,16 @@ The 23.3 release webinar will be held on June 29, 2023. You can [register for th
                  </tr>   
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-mobile-enhancements.md" class="MCXref xref" xrefformat="{para}">MOBILE TITLE</a> </p>
-                        <p>Release note description.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-mobile-enhancements.md" class="MCXref xref" xrefformat="{para}">New proof functionality in the Workfront mobile app</a> </p>
+                        <p>With the deprecation of the standalone Workfront Proof app in 23.4, the primary Workfront mobile app has had  proofing features added to allow for proofing on mobile to continue.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
                         <ul>
                             <li>
-                                <p>Preview release: NA<br /></p>
+                                <p>Preview release: N/A</p>
                             </li>
                             <li>
-                                <p>Production release: DATE</p>
+                                <p><span class="preview">Production release: Available in the Apple App Store and Google Play Store in July 2023</span></p>
                             </li>
                         </ul>
                     </td>
@@ -498,8 +566,8 @@ The 23.3 release webinar will be held on June 29, 2023. You can [register for th
                 </tr>
             <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-other-enhancements.md" class="MCXref xref" xrefformat="{para}">TITLE FOR HOME</a><span style="color: #ff0000;"> New in Preview!</span></p>
-                        <p>Release note.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-other-enhancements.md" class="MCXref xref" xrefformat="{para}">New Home experience</a><span style="color: #ff0000;"> New in Preview!</span></p>
+                        <p>To better enable users of all types to utilize Workfront for their specific needs, Home has received a major update! The New Home experience offers visual and content customization for your Home page, providing the flexibility to display only the information that is most relevant to your work.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
                         <ul>
@@ -511,7 +579,23 @@ The 23.3 release webinar will be held on June 29, 2023. You can [register for th
                             </li>
                         </ul>
                     </td>
-                 </tr>                 
+                 </tr>
+            <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-other-enhancements.md" class="MCXref xref" xrefformat="{para}">The new commenting experience is the default experience</a></p>
+                        <p>We are making the new commenting experience the default experience for the following objects: projects, tasks, issues, and documents.</p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                        <ul>
+                            <li>
+                                <p>Preview release: To be announced</p>
+                            </li>
+                            <li>
+                                <p>Production release: With the 23.3 release</p>
+                            </li>
+                        </ul>
+                    </td>
+                 </tr>                                  
             <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-other-enhancements.md" class="MCXref xref" xrefformat="{para}">New commenting experience for additional objects</a> </p>
@@ -649,15 +733,15 @@ For information about the maintenance updates made during the 22.3 release, see 
 
 Explore the latest updates made to learning programs, learning paths, videos, and guides for each Adobe Workfront product release. For more information, see the "What's New" section of the [Workfront Tutorials page](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html).
 
-<!-- Uncomment if there are any deprecations
-
 ### Functionality soon to be removed from Workfront
 
 The following functionality is soon to be removed from Workfront:
 
--->
+#### Deprecation of the Workfront Proof mobile app with 23.4
 
+We will be officially deprecating the Workfront Proof mobile app with the 23.4 release. The general Workfront mobile app has been enhanced with new proofing functionality (see the release note under Workfront Mobile enhancements for more information), and users are advised to begin using it for proofing work as soon as possible.
 
+Note that the Workfront mobile app requires a Workfront login. External users and guests can continue to use the Workfront Proof app for proofing work; however, it is no longer supported and will become unavailable with 23.4.
 
 
 <!-- HTML you might need

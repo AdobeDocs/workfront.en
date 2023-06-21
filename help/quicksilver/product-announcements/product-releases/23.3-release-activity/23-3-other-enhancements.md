@@ -10,9 +10,25 @@ This page describes all other enhancements made with the 23.3 release to the Pre
 
 For a list of all changes available at this point in the 23.3 release cycle, see [23.3 Release overview](/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-3-release-overview.md).
 
-## Home page
+## New Home experience
 
-release note
+To better enable users of all types to utilize Workfront for their specific needs, Home has received a major update! The New Home experience offers visual and content customization for your Home page, providing the flexibility to display only the information that is most relevant to your work. With New Home, you can:
+
+* Select from an array of widgets that contain the information that's most important to you, complete with relevant tools you can access directly from certain widgets
+* Customize the look and layout of your Home page; personalize your Home with a colorful banner or by moving and resizing widgets as you see fit
+* Create custom to-do lists, and more!
+
+New Home is a major new feature that we are excited to continue developing and improving. Please share your experience using the New Home with us through the in-app feedback button.
+
+New Home will be the default experience for all users upon its release. However, you can choose to revert to the existing Home experience as we continue developing its capabilities.
+
+Documentation for New Home will be made available with its release to preview on June 23rd.
+
+## The new commenting experience is the default experience
+
+We are making the new commenting experience the default experience for the following objects: projects, tasks, issues, and documents.  
+
+For more information, see [New commenting experience release activity](/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md).
 
 ## New commenting experience for additional objects
 
