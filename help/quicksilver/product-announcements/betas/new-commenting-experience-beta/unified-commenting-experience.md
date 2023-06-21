@@ -419,7 +419,7 @@ The new commenting experience is currently supported for the following objects, 
 
 * When enabling the Beta experience in the Updates section: 
 
-    * Issues, <span class="preview">projects, tasks, stories, and documents</span>
+    * Issues, <span class="preview">projects, tasks, and documents</span>
 
     For more information about managing updates for Workfront objects, see [Update work](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). 
  
