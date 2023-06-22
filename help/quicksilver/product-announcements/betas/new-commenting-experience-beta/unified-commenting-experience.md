@@ -9,7 +9,7 @@ exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
 ---
 # New commenting experience
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span>
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers only in the Preview environment.</span>
 
 An update to the commenting experience in Adobe Workfront is currently in development. This update includes a new interface, new features, and improved performance in the Updates section of select objects. 
 
@@ -426,7 +426,7 @@ The new commenting experience is currently supported for the following objects, 
 
 * By default, as the main commenting experience:
 
-    * Goals, <span class="preview">cards in the Boards area</span>
+    * Goals, cards in the Boards area
 
     >[!NOTE]
     >
