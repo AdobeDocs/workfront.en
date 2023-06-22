@@ -5,8 +5,8 @@ title: Approve a document
 description: If you are assigned as an approver to a document, there are multiple ways you can make your approval decision.
 author: Nolan
 feature: Work Management
+exl-id: 4a8bdfe8-df63-43a2-a177-cf99f6001f59
 ---
-
 # Approve a document
 
 If you are assigned as an approver to a document, there are multiple ways you can make your approval decision.
