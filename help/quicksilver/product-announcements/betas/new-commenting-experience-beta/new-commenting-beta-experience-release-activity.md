@@ -54,8 +54,12 @@ The following section contains a list of features that have been added after the
 
 The following information refers to the release activity on a weekly basis of the features included in the new commenting beta experience. The page lists new features that are added and issues that are resolved for the new commenting experience.
 
-<!--
-### Week of June 19, 2023
+
+### Features released after June 19, 2023
+
+<!--restructure this section with actual weeks and dates, when we know them-->
+
+The features listed in this section are planned to release shortly after the week of June 19, 2023. 
 
 #### Quote comment content in a new reply 
 
@@ -63,13 +67,7 @@ Now, you have the ability to copy the content of a comment and add it as a new q
 
 For more information, see [Update work](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). 
 
-Preview and Production: June 22, 2023 
-
-### Upcoming releases, after June 19, 2023
-
-<!--*****************CLOSE THIS COMMENT: restructure this section with actual weeks and dates, when we know them--
-
-The features described in this section are planned to release shortly after the week of June 19, 2023. 
+Preview and Production: Planned for June 29, 2023 
 
 #### Add emojis to an update
 
@@ -77,7 +75,7 @@ You can now add emojis to a comment using a Rich Text toolbar option in the new 
 
 For more information, see [Update work](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-Preview: To be announced 
+Preview: To be announced (during the 23.3 release)
 
 Production: To be announced. Before the 23.3 release.
 
@@ -94,7 +92,6 @@ Preview release: To be announced, after the 23.3 Production release (July 20, 20
 Production release for the Fast release customers: To be announced, after the 23.3 Production release  
 
 Production release for all customers: with the 23.4 release 
--->
 
 ### Week of June 12, 2023
 
