@@ -448,7 +448,7 @@ The 23.3 release webinar will be held on June 29, 2023. You can [register for th
                     <td><p><b>Available on these dates:</b></p>
                         <ul>
                             <li>
-                                <p>Preview release: To be announced</p>
+                                <p>Preview release: June 29, 2023</p>
                             </li>
                             <li>
                                 <p>Production release for the Fast release customers: To be announced, after the 23.3 Production release</p>
