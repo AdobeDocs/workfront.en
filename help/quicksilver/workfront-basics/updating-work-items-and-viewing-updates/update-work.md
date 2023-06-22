@@ -183,6 +183,8 @@ Adding an update to a work item differs depending on what version of the Updates
 
 ### Add an update to a work item using the commenting Beta experience
 
+For information about what features are available for the new commenting experience and for what objects, see [New commenting experience](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). 
+
 1. Locate the object you want to update, then click its name to open the object's page.
 1. Click  **Updates** in the left panel. 
 1. Enable the **Commenting Beta** toggle in the upper-right corner of the Updates area, then click **Agree** on the Beta agreement. This switches the Updates area to the commenting Beta experience. 
@@ -382,6 +384,8 @@ This option copies a specific update link to the clipboard. When you share the u
 
 
 ### Copy an update in the new commenting experience   
+
+For information about what features are available for the new commenting experience and for what objects, see [New commenting experience](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). 
 
 <!--when we remove and deprecate the legacy stream, add screen shots in the secitons below-->
 
