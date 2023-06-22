@@ -56,6 +56,7 @@ To find out what plan, license type, or access you have, contact your [!DNL Work
 
 * [Organization roles](#organization-roles)
 * [Inviting users to an organization](#inviting-users-to-an-organization)
+* [Switch between organizations](#switch-between-organizations)
 
 ### Organization roles
 
@@ -94,6 +95,12 @@ The invitation will expire in a day.
 >[!NOTE]
 >
 >If the user is new to [!DNL Fusion], [!DNL Fusion] automatically creates an account for them and sends an email with a temporary password, directing the new user to log in and change their password.
+
+### Switch between organizations
+
+You may be part of more than one organization in Fusion. Resources are not shared between organizations.
+
+You can switch organizations within the Adobe Unified Experience by clicking the organization name in the upper-right corner and selecting the new organization from the dropdown. Only organizations that have a Fusion account will appear in the dropdown, even if you are a member of other organizations in Adobe.
 
 ## Teams
 
@@ -173,6 +180,14 @@ Email notification options are set on the team level.
 </table>
 
 Changes to notification options save automatically
+
+#### Switch between teams
+
+You may be part of more than one team in Fusion. Since teams do not share resources, you may need to switch teams to access specific scenarios or other resources.
+
+If your organization is not on the Adobe Unified Experience, you can switch teams by clicking the team name in the left navigation, then selecting a team from the dropdown.
+
+If your team is on the Adobe Unified Experience, you can select a new team by clicking on the team name in the header, then selecting a team from the dropdown. This option is available from all pages that are specific to a certain team, such as a scenario page or the Connections page.
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode"> <img src="assets/organization-add-team-350x181.png" style="width: 350;height: 181;"> </p>

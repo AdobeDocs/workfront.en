@@ -6,8 +6,8 @@ title: Create document approvals
 description: This section contains articles about managing document approvals in Adobe Workfront.
 author: Nolan
 feature: Work Management
+exl-id: e4cb2316-8fd6-4b63-9254-fac1f0ce4ae3
 ---
-
 # Manage document approvals
 
 >[!IMPORTANT]

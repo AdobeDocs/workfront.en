@@ -6,6 +6,7 @@ title: Document reviews and approvals
 description: This section contains articles about document approvals in Adobe Workfront.
 author: Nolan
 feature: Work Management
+exl-id: e7a7f6b4-8629-4911-8d96-8fd4f59ebda1
 ---
 # Document reviews and approvals
 
@@ -15,5 +16,6 @@ feature: Work Management
 
 This section contains the following sections:
 
+* [Document approvals overview](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md)
 * [Manage document approvals](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/manage-document-approvals.md) 
 * [Review and approve documents](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-and-approve-documents.md)

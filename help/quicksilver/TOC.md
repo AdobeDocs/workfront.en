@@ -22,7 +22,7 @@ feature-set: Workfront
       * [23.3 release activity week of May 15, 2023](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-15.md)
       * [23.3 release activity week of May 29, 2023](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-29.md)
       * [23.3 release activity week of June 5, 2023](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-jun-5.md)
-      * [Look and feel updates during the 23.3 release time frame](product-announcements/product-releases/23.3-release-activity/23-3-look-and-feel-updates.md)
+      * [23.3 release activity week of June 12, 2023](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-jun-12.md)
     * 23.2 Release {#release-23-2}
       * [23.2 Release overview](product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md) 
       * [23.2 Administrator enhancements](product-announcements/product-releases/23.2-release-activity/23-2-admin-enhancements.md)
@@ -119,6 +119,7 @@ feature-set: Workfront
       * [21.1 Other enhancements](product-announcements/product-releases/21.1-release-activity/21-1-other-enhancements.md)
     * Adobe Workfront Fusion release activity {#fusion-release}
       * [Adobe Workfront Fusion release activity](product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)
+      * [Workfront Fusion release activity: Week of  June 12, 2023](product-announcements/product-releases/fusion-release-activity/fusion-2023-6-12.md)
       * [Workfront Fusion release activity: Week of  May 15, 2023](product-announcements/product-releases/fusion-release-activity/fusion-2023-5-15.md)
       * [Workfront Fusion release activity: Week of  May 1, 2023](product-announcements/product-releases/fusion-release-activity/fusion-2023-5-2.md)
       * [Workfront Fusion release activity: Week of April 17, 2023](product-announcements/product-releases/fusion-release-activity/fusion-2023-4-20.md)
@@ -354,7 +355,7 @@ feature-set: Workfront
     * New commenting experience beta {#new-commenting-experience-beta}
       * [New commenting beta experience information](product-announcements/betas/new-commenting-experience-beta/new-commenting-beta-experience-information.md)
       * [New commenting experience](product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md)
-      * [New commenting beta experience release activity](product-announcements/betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md)
+      * [New commenting experience release activity](product-announcements/betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md)
 * Administration and setup {#administration-and-setup}
   * [Administration and setup](administration-and-setup/administration-and-setup.md)
   * Get started with administration {#get-started-administration}
@@ -1721,6 +1722,7 @@ feature-set: Workfront
     * [Recall submitted approvals](review-and-approve-work/manage-approvals/recall-submitted-approvals.md)
   * Document reviews and approvals {#document-reviews-and-approvals}
     * [Document reviews and approvals](review-and-approve-work/document-reviews-and-approvals/document-reviews-and-approvals.md)
+    * [Document approvals overview](review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md)
     * Manage document approvals {#manage-document-approvals}
       * [Manage document approvals](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/manage-document-approvals.md)
       * [Create a document approval](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)
@@ -2103,7 +2105,6 @@ feature-set: Workfront
       * [Use Mutual TLS in HTTP modules in Adobe Workfront Fusion](workfront-fusion/apps-and-their-modules/http-modules/use-mtls-in-http-modules.md)
     * [HubSpot CRM modules](workfront-fusion/apps-and-their-modules/hubspot-crm-modules.md)
     * [Image modules](workfront-fusion/apps-and-their-modules/image-module.md)
-    * [Intacct modules](workfront-fusion/apps-and-their-modules/intacct-modules.md)
     * [Jira Software modules](workfront-fusion/apps-and-their-modules/jira-software-modules.md)
     * [JSON modules](workfront-fusion/apps-and-their-modules/json-modules.md)
     * [MariaDB modules](workfront-fusion/apps-and-their-modules/mariadb-modules.md)
@@ -2159,6 +2160,7 @@ feature-set: Workfront
       * [Update your work using the Adobe Workfront plugin](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-update.md)
       * [Mark work items complete using the Adobe Workfront plugin](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-complete.md)
       * [Log time using the Adobe Workfront plugin](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-log-time.md)
+      * [Manage [!DNL Adobe Workfront] notifications from Adobe Creative Cloud](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-notifications.md)
     * Upload documents and proofs with the Adobe Workfront plugin for Creative Cloud Applications {#upload-docs-proofs-wf-cc}
       * [Upload documents and proofs from the [!DNL Adobe Workfront plugin] to the [!DNL Creative Cloud]](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/upload-documents-and-proofs.md)
       * [Upload documents and proofs with the Adobe Workfront plugin for Creative Cloud Applications](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-docs-proofs-toc.md)

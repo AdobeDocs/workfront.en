@@ -41,13 +41,15 @@ The new commenting experience includes improvements and changes to the existing 
 Among the improvements included in the new commenting experience are the following:
 
 * Improved performance and user experience
-* Separation of user comments from the system activity updates.
+* Separation of user comments from the system activity updates
 * Real-time indicator when new comments are added to an object
-* Editing comments after submitting them. 
+* Editing comments after submitting them
 
 The following features have been removed from the new experience:
 
-* Comment on a system update. 
+* Comment on a system update
+* Ability to edit status, condition, commit date while commenting
+* Edit custom form
 
 The following table illustrates the features that will be available in the new commenting experience as well as their availability in areas where they are supported: 
 
@@ -96,7 +98,22 @@ The following table illustrates the features that will be available in the new c
   </tr>
   <tr>
  <tr>
-   <td>Rich text (quoting and emojis)
+   <td>Rich text (block quotes)
+   </td>
+   <td>✓ 
+   </td>
+   <td> ✓
+   </td>
+   <td> 
+   </td>
+   <td> Q2, 2023
+   </td>
+   <td> 
+   </td>
+  </tr>
+  <tr>
+<tr>
+   <td> Quote comments
    </td>
    <td>✓ 
    </td>
@@ -110,7 +127,6 @@ The following table illustrates the features that will be available in the new c
    </td>
   </tr>
   <tr>
-
    <td>React to comments (Like) 
    </td>
    <td>✓ 
@@ -275,7 +291,7 @@ The following table illustrates the features that will be available in the new c
    </td>
    <td> 
    </td>
-   <td>✓ 
+   <td> 
    </td>
   </tr>
   <tr>
@@ -289,7 +305,7 @@ The following table illustrates the features that will be available in the new c
    </td>
    <td> 
    </td>
-   <td>✓ 
+   <td>
    </td>
   </tr>
   <tr>
@@ -393,9 +409,9 @@ The following table illustrates the features that will be available in the new c
   </tr>
 </table>
 
-## New commenting beta experience release activity
+## Release timeline 
 
-For information about the features recently released, see [New commenting beta exprience release activity](../../betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md).  
+For information about the features recently released to the new commenting experience, as well as a release timeline, see [New commenting beta exprience release activity](../../betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md).  
 
 ## Locate the new commenting experience
 
@@ -410,14 +426,11 @@ The new commenting experience is currently supported for the following objects, 
 
 * By default, as the main commenting experience:
 
-    * Goals
+    * Goals, <span class="preview">cards in the Boards area</span>
 
     >[!NOTE]
     >
     >You must have an additional license to Adobe Workfront Goals to be able to access this area of Workfront. For more information, see [Requirements to use Workfront Goals](../../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
-
-    For more information about managing updates for goals, see [Manage goal comments in Adobe Workfront Goals](../../../workfront-goals/goal-management/manage-goal-comments.md). 
-
 
 To enable the new commenting experience Beta: 
 

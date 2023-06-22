@@ -24,17 +24,18 @@ exl-id: c4c0d74f-ac50-4fc5-89d6-28f004c25b29
 > * Issues, <span class="preview">projects, tasks, and documents</span>.
 >
 >     This is available when you enable the commenting Beta experience.
+>
 >     This functionality is available only for the Updates section, and it is not available for the following areas:
 >
 >     * Home
 >     * Summary panel in lists
 >     * Summary panel in timesheets
 >
-> * Goals
+> * Goals, <span class="preview">cards in the Boards area</span>
 >
->   The new commenting experience is the default for goals. You must have an additional license to access Workfront Goals. For more information, see [Requirements to uses Workfront Goals](../../workfront-goals/goal-management/access-needed-for-wf-goals.md). 
+>   The new commenting experience is the only experience for goals <span class="preview">and cards</span>. You must have an additional license to access Workfront Goals. For more information, see [Requirements to uses Workfront Goals](../../workfront-goals/goal-management/access-needed-for-wf-goals.md). 
 >
->    For information about commenting on goals, see [Manage goal comments in Adobe    Workfront Goals](../../workfront-goals/goal-management/manage-goal-comments.md).  
+>     You can add and view updates to cards in the Boards area when you enable the Comments and System Activity sections on a card. For more information, see [Add an ad hoc card to a board](../../agile/get-started-with-boards/add-card-to-board.md).
 
 
 You can tag users when making an update to an object if you want to draw their attention to an object they might otherwise not follow. 

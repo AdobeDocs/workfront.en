@@ -5,8 +5,8 @@ title: Approve a document
 description: If you are assigned as an approver to a document, there are multiple ways you can make your approval decision.
 author: Nolan
 feature: Work Management
+exl-id: 4a8bdfe8-df63-43a2-a177-cf99f6001f59
 ---
-
 # Approve a document
 
 If you are assigned as an approver to a document, there are multiple ways you can make your approval decision.
@@ -91,8 +91,9 @@ You must have the following access to perform the steps in this article:
 1. Select the version of the document that is pending your approval in the version dropdown next to the document's name. The latest version will be selected by default.
 
    If the currently selected version of the document has a pending approval for you, the approval decision buttons are displayed in the top-right corner of the page; if other versions of the document have pending approvals for you, the version dropdown menu displays a red dot.
+
    <!--
-   ![](../assets/version-dropdown-red-dot.png)   
+   ![](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/assets/version-dropdown-red-dot.png)
    -->
 
 1. Click one of the following two approval options in the top-right corner of the page:
@@ -114,9 +115,10 @@ You must have the following access to perform the steps in this article:
 1. Select the version of the document you would like review in the version dropdown. The latest version will be selected by default.
 
    If the currently selected version of the document has a pending approval for you, the approval decision buttons are displayed in the top-right corner of the Document Summary pane; if other versions of the document have pending approvals for you, the version dropdown menu displays a red dot.
+
    <!--
-   ![](../assets/version-dropdown-red-dot.png)   
-   -->
+   ![](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/assets/version-dropdown-red-dot.png)
+   -->   
 
 1. Click one of the following two approval options in the top-right corner of the Document Summary pane:
    
