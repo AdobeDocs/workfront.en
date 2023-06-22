@@ -9,6 +9,8 @@ exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
 ---
 # Locate submitted requests
 
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> -->
+
 You can locate the following types of requests that you or someone else submitted, or requests you started but you never finished submitting. You can locate these requests in the following areas of Adobe Workfront:
 
 * **Submitted section**: All requests that you or someone else submitted and you have access to at least View. 
@@ -63,6 +65,8 @@ To locate requests that you or other users have submitted:
    >You cannot customize the columns in the Submitted request list.
 
    ![](assets/nwe-submitted-requests-new-list-350x57.png)
+
+   <!--update the shot above when we release the new Copy button to preview - for or after the 23.3 release-->
 
 1. The following columns display by default:
 

@@ -73,7 +73,7 @@ The Updates section displays for the following objects:
     </ul> </td> 
    <td> 
     <ul> 
-     <li>Stories</li> 
+     <li>Stories*</li> 
      <li>Tasks</li> 
      <li>Templates</li> 
      <li>Template Tasks</li> 
@@ -83,10 +83,13 @@ The Updates section displays for the following objects:
   </tr> 
  </tbody> 
 </table>
+*Stories are tasks. All information that is related to tasks is also available for stories. 
 
 ### Overview of the Updates section in the Beta commenting experience
 
 ![](assets/updates-tab-after-unified-experience-for-issues.png)
+
+For information about what features are available for the new commenting experience and for what objects, see [New commenting experience](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
 The Updates section displays information in the following tabs in the new commenting experience: 
 
@@ -103,7 +106,7 @@ Currently, you can add comments and reply to updates using the new commenting ex
    <td> 
     <ul> 
      <li><p>Goals</p>
-     <li><span class="preview">Cards in the Boards area</span></li>
+     <li><span class="preview">Cards in the Boards area*</span></li>
       This is the only experience for goals <span class="preview">and cards</span>.
      </li> 
      <li><span class="preview">Projects</span></li>
@@ -118,10 +121,7 @@ Currently, you can add comments and reply to updates using the new commenting ex
  </tbody> 
 </table>
 
-
->[!NOTE]
->
->You can add and view updates to cards in the Board areas when you enable the Comments and System Activity sections on a card. For more information, see [Add an ad hoc card to a board](../../agile/get-started-with-boards/add-card-to-board.md). 
+*You can add and view updates to cards in the Board areas when you enable the Comments and System Activity sections on a card. For more information, see [Add an ad hoc card to a board](../../agile/get-started-with-boards/add-card-to-board.md). 
 
 ## Updates that also appear on higher-rank objects
 
