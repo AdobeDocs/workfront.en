@@ -53,8 +53,14 @@ To find out what plan, license type, or access you have, contact your [!DNL Work
    ![](assets/go-back-to-work-list-350x314.png)
 
 1. From the **[!UICONTROL Work List]**, select the task or issue you wish to mark complete. 
-1. Click **[!UICONTROL Done]**.  
-   This marks the item complete in Workfront.  
+1. Click **[!UICONTROL Done]**.  If you are the only user assigned to this task or issue, this marks the item [!UICONTROL Complete] or [!UICONTROL Resolved] in [!DNL Workfront].
+1. (Conditional) If multiple users are assigned to this task or issue, clicking [!UICONTROL Done] opens a dropdown. You can then:
+
+   Click **[!UICONTROL Done with my part]** if other users must also do their work for the task or issue to be complete.
+
+   Or
+
+   Click **[!UICONTROL Complete]** (for tasks) or **[!UICONTROL Resolved]** (for issues) if no further work needs to be done on the task or issue. This marks the item [!UICONTROL Complete] or [!UICONTROL Resolved] in [!DNL Workfront].  
 
    >[!NOTE]
    >
