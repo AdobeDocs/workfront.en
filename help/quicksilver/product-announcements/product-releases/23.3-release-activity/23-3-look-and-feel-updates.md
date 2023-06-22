@@ -15,7 +15,7 @@ For a list of all changes available with the 23.3 release, see [23.3 Release ove
 
 >[!NOTE]
 >
->Preview release: to be announced (with 23.3); Planned Production release: to be announced (with 23.3)
+>Preview and Production releases: To be announced (before the 23.3 release)
 
 We have made improvements to the interface of the Submitted requests list.
 
@@ -30,7 +30,7 @@ For more information, see [Copy and submit requests](/help/quicksilver/manage-wo
 
 >[!NOTE]
 >
->Preview release: to be announced (with 23.3); Planned Production release: to be announced (with 23.3)
+>Preview release: to be announced (before the 23.3 release); Production release: with the 23.3 release
 
 We have updated the New request box which displays when submitting a new request. Now, the interface matches the New issue box which displays when adding a new issue to a project.
 

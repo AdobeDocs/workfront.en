@@ -14,9 +14,9 @@ For a list of all changes available at this point in the 23.3 release cycle, see
 
 To better enable users of all types to utilize Workfront for their specific needs, Home has received a major update! The New Home experience offers visual and content customization for your Home page, providing the flexibility to display only the information that is most relevant to your work. With New Home, you can:
 
-* Select from an array of widgets that contain the information that's most important to you, complete with relevant tools you can access directly from certain widgets
-* Customize the look and layout of your Home page; personalize your Home with a colorful banner or by moving and resizing widgets as you see fit
-* Create custom to-do lists, and more!
+* Select from an array of productivity widgets that contain the information that's most important to you, complete with relevant tools you can access directly from certain widgets
+* Customize the look and layout of your Home page; personalize your Home with a colorful banner or by moving and resizing widgets on the dynamic canvas as you see fit
+* Filter widget information based on when work is due, create custom to-do lists, and more!
 
 New Home is a major new feature that we are excited to continue developing and improving. Please share your experience using the New Home with us through the in-app feedback button.
 
