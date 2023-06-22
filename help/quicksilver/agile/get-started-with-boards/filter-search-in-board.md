@@ -9,6 +9,8 @@ exl-id: 26abce82-dcd9-4865-96f4-c710f7f0a0d8
 ---
 # Filter and search in a board
 
+{{highlighted-preview}}
+
 You can filter a board to display:
 
 * Cards assigned to certain people
@@ -17,6 +19,8 @@ You can filter a board to display:
 * Cards due in a certain time frame
 * Archived cards
 * Cards connected to a specific project
+
+<span class="preview">Sorting the board sorts all of the cards in the columns. You can't sort a single column, and the backlog or intake column is not sorted.</span>
 
 Searching also helps you locate a specific card on the board.
 
@@ -99,6 +103,29 @@ By default, only active cards are displayed on a board. You can filter the board
    You can also display cards that are not connected to a project.
 
    ![Filter by connection](assets/boards-filter-by-connection.png)
+
+<div class="preview">
+
+## Sort on a board
+
+When you select an option to sort by, all columns are sorted. You can't sort a single column, and the backlog or intake column is not sorted.
+
+1. Access the board.
+1. Click [!UICONTROL **Sort by**] and select [!UICONTROL **Name**], [!UICONTROL **Due date**], [!UICONTROL **Estimation**], [!UICONTROL **Status**], or [!UICONTROL **Connection**].
+
+   Connection (project name) applies to connected cards only, and the other options will sort both connected and ad hoc cards in the columns.
+
+   The "user order" option returns the cards to the order they were manually set, before any other sort options were applied. This is the default sort for the columns.
+
+1. Select [!UICONTROL **Reverse order**] to sort the columns in reverse order of the sort option.
+
+   The arrow on the sort icon indicates whether the columns are sorted in ascending or descending order.
+
+   When a sort other than the default is applied, an indicator is displayed on the sort icon ![Sort applied](assets/sort-applied-boards.png).
+
+   ![Sort by columns on a board](assets/sort-by-columns-in-board.png)
+
+</div>
 
 ## Search in a board
 
