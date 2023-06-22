@@ -105,7 +105,23 @@ The 23.3 release webinar will be held on June 29, 2023. You can [register for th
                             </li>
                         </ul>
                     </td>
-                </tr>                
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Sort by board columns</a><span style="color: #ff0000;"> Coming soon!</span></p>
+                        <p>We have added the ability to sort the cards in the columns on a board. When you select an option to sort by, all columns are sorted. You can't sort a single column, and the backlog or intake column is not sorted.</p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                        <ul>
+                            <li>
+                                <p>Preview release: June 22, 2023</p>
+                            </li>
+                            <li>
+                                <p>Production release for all customers: With the 23.3 release</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>                             
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Dark mode now available on Adobe Workfront Boards</a><span style="color: #ff0000;"> New in Preview!</span></p>
@@ -124,24 +140,8 @@ The 23.3 release webinar will be held on June 29, 2023. You can [register for th
                 </tr>                
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Enhancements to workstream iterations in Adobe Workfront Boards</a><span style="color: #ff0000;"> New in Preview!</span></p>
-                        <p>We have added the ability to add goals to an iteration, without having to list the goals on a card. Goals are added in a checklist format and can be marked complete. The metrics area on the top right of the iteration shows how many goals exist and how many have been completed. Also, the Next Iteration column is now available on iteration boards.</p>
-                    </td>
-                    <td><p><b>Available on these dates:</b></p>
-                        <ul>
-                            <li>
-                                <p>Preview release: June 22, 2023</p>
-                            </li>
-                            <li>
-                                <p>Production release for all customers: With the 23.3 release</p>
-                            </li>
-                        </ul>
-                    </td>
-                </tr>                
-                <tr>
-                    <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Sort by board columns</a><span style="color: #ff0000;"> New in Preview!</span></p>
-                        <p>We have added the ability to sort the cards in the columns on a board. When you select an option to sort by, all columns are sorted. You can't sort a single column, and the backlog or intake column is not sorted.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Goals available on workstream iterations in Adobe Workfront Boards</a><span style="color: #ff0000;"> New in Preview!</span></p>
+                        <p>We have added the ability to add goals to an iteration, without having to list the goals on a card. Goals are added in a checklist format and can be marked complete. The metrics area on the top right of the iteration shows how many goals exist and how many have been completed.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
                         <ul>
