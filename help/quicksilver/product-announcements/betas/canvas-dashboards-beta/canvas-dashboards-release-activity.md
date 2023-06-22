@@ -5,8 +5,8 @@ title: 'Canvas Dashboards beta: release activity'
 description: Weekly release activity for the Adobe Workfront Canvas Dashboards beta
 author: Nolan
 feature: Product Announcements
+exl-id: e3dc4e29-011b-46ae-95c5-c5c7f74eb94f
 ---
-
 # Canvas Dashboards beta: release activity
 
 This page lists development updates released for the Canvas Dashboards beta on a weekly basis.

@@ -34,7 +34,7 @@ exl-id: a8271f3c-7a08-4eb3-aaff-deb250f5af73
 >
 >   The new commenting experience is the only experience for goals <span class="preview">and cards</span>. You must have an additional license to access Workfront Goals. For more information, see [Requirements to uses Workfront Goals](../../workfront-goals/goal-management/access-needed-for-wf-goals.md). 
 >
->     You can add and view updates to cards in the Board areas when you enable the Comments and System Activity sections on a card. For more information, see [Add an ad hoc card to a board](../../agile/get-started-with-boards/add-card-to-board.md).
+>     You can add and view updates to cards in the Boards area when you enable the Comments and System Activity sections on a card. For more information, see [Add an ad hoc card to a board](../../agile/get-started-with-boards/add-card-to-board.md).
 
 
 When someone replies to a comment or a system update on a work object, their reply appears in the communication thread in the Updates section for the object. 
@@ -101,8 +101,11 @@ Replying to a comment or reply differs depending on which experience and which o
 
 ### Reply to a comment when using the commenting Beta experience
 
+For information about what features are available for the new commenting experience and for what objects, see [New commenting experience](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). 
+
 1. Go to the object to which you want to add a reply.
-1. Click **Updates**, then click the **Comments** tab for the object and find the comment or reply to which you want to reply. 
+1. Click **Updates**, then click the **Comments** tab for the object and find the comment or reply to which you want to reply.
+<!-- Ensure this link is called and cased the same way as  before: 1. (Optional) To include text from a previous update in your reply, click the **More** menu next to the update or reply you want to quote, then click **Quote Reply**. Text from the previous update appears in the input area, marked with a vertical gray line.-->
 1. Click **Reply**. 
 
    You can see the users who are actively engaged in the conversation at the bottom of the **New comment** box and you can add more, or remove the ones that are no longer relevant. These users, along with any users subscribed to the object, receive a notification whenever an update or reply is made on the object. You can also tag more users to include them in your reply.  To tag more users, see [Tag others on updates](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
