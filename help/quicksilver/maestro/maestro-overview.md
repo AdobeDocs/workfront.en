@@ -313,7 +313,7 @@ The following table illustrates the main features that will be available in Maes
 |     Link workspaces                                |                               |   ✓                              |                  |
 |     Connect Maestro records to Workfront projects  |   ✓                            |                                 |                  |
 |     Record details page                            |   ✓                           |                                  |                  |
-|     Update record details page layout              |                               |   ✓                              |                  |
+|     Update the layout of the record Details page              |                               |   ✓                              |                  |
 | Access levels and permissions | | | ✓ |
 |     Submit requests                                |                               |                                  |   ✓              |
 |     Creative brief                                 |                               |                                  |   ✓              |
@@ -322,7 +322,13 @@ The following table illustrates the main features that will be available in Maes
 
 This section lists the features and patches that have been released after the launch of the Maestro closed beta program, on May 22, 2023. 
 
-The features are released weekly and are listed in the order of their release, with the most recent first. 
+The features are released weekly and are listed in the order of their release, with the most recent first. Customers who are participating in the Maestro closed beta program can access all features in their Preview and Production environments. 
+
+### Week of June 19, 2023
+
+#### Record field names are unique
+
+We have introduced a requirement now that the field names of a Maestro record type should have unique names. Fields that belong to different record types do not have to have unique names.  
 
 ### Week of June 5, 2023
 
