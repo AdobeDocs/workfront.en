@@ -9,8 +9,6 @@ exl-id: 9bc1f92a-85b0-44fd-b5de-09a69af6def5
 ---
 # Add an ad hoc card to a board
 
-{{highlighted-preview}}
-
 You can quickly add a card to a board and assign it to a member on the board. The card can represent a task, issue, person, group, or any type of item that you want to include on the board.
 
 >[!NOTE]
@@ -94,18 +92,18 @@ An ad hoc card is not connected to a work item in [!DNL Adobe Workfront].
       <td> <p>Click <strong>[!UICONTROL Add checklist item]</strong>. Then, type the title of the item and press Enter. Another item is automatically added. Continue entering titles to add more items.</p> <p>The counter at the top of the checklist shows the number of completed items and the total number of items.</p> <p>For more information about checklist items, see <a href="/help/quicksilver/agile/get-started-with-boards/manage-checklist-items.md">Manage checklist items on cards</a>.</p> </td> 
      </tr>
      <tr>
-      <td role="rowheader"><span class="preview"><strong>[!UICONTROL Comments]</strong></span> </td>
-      <td><span class="preview"><p>Click in the <strong>[!UICONTROL New comment]</strong> field and type your comment. Use the formatting tools to format the text, and click the <strong>Add attachment</strong> icon <img src="assets/attachment-icon.png" alt="Attachment icon"> to attach a file to the comment. To tag a person or team, use the search box at the bottom of the commenting area. The user does not have to be a member on the board.</p><p><strong>NOTE:</strong> At this time, users tagged in comments on ad hoc cards do not receive an email notification.
+      <td role="rowheader"><strong>[!UICONTROL Comments]</strong></td>
+      <td><p>Click in the <strong>[!UICONTROL New comment]</strong> field and type your comment. Use the formatting tools to format the text, and click the <strong>Add attachment</strong> icon <img src="assets/attachment-icon.png" alt="Attachment icon"> to attach a file to the comment. To tag a person or team, use the search box at the bottom of the commenting area. The user does not have to be a member on the board.</p><p><strong>NOTE:</strong> At this time, users tagged in comments on ad hoc cards do not receive an email notification.
       </p><p>Click <strong>[!UICONTROL Submit]</strong> to add the comment to the card.</p>
-      <p><strong>NOTE:</strong> The commenting area on cards uses the new Adobe Workfront commenting experience. For more information, see <a href="/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md">New commenting experience</a>.</p></span></td>
+      <p><strong>NOTE:</strong> The commenting area on cards uses the new Adobe Workfront commenting experience. For more information, see <a href="/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md">Update work</a>.</p><p><strong>NOTE:</strong> Comments on cards are available only through the early feature opt-in for Workfront Boards.</p></td>
      </tr>
     </tbody> 
    </table>
    
-   Sample image in the Production environment:
+   Sample image in the Production environment when the early feature opt-in is not used:
    ![Ad hoc card details](assets/boards-edit-ad-hoc-card-041723.png)
 
-   <span class="preview">Sample image in the Preview environment:</span>
+   Sample image in the Production environment when the early feature opt-in is enabled:
    ![Ad hoc card details](assets/ad-hoc-card-details-with-comments.png)
 
    Use the left navigation panel to move between sections of fields on the card details.
