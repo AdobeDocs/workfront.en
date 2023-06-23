@@ -13,6 +13,8 @@ A new board contains three columns by default. You can add more columns, change 
 
 Column settings include policies, which allow you to define options for what happens to a card when it is moved into that column.
 
+For information about sorting the cards in columns, see [Filter and search in a board](/help/quicksilver/agile/get-started-with-boards/filter-search-in-board.md).
+
 ## Access requirements
 
 You must have the following access to perform the steps in this article:
