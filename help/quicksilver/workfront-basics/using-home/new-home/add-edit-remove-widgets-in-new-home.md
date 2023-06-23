@@ -1,10 +1,9 @@
 ---
-product-area: setup
+product-area: home
 navigation-topic: new-home
 title: Add, edit, or remove widgets in New Home
 description: You can choose from a number of widgets to customize the content that appears on your Home page. These widgets can be resized and arranged on your Home page.
 author: Nolan
-feature: Home
 ---
 
 # Add, edit, or remove widgets in New Home

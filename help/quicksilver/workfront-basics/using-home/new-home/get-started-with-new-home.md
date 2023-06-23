@@ -1,10 +1,9 @@
 ---
-product-area: calendars;setup
+product-area: home
 navigation-topic: use-the-home-area
 title: Get started with New Home in Adobe Workfront
 description: New Home is a powerful new feature for managing your work.
 author: Nolan
-feature: Get Started with Workfront
 ---
 
 # Get started with New Home in Adobe Workfront
