@@ -19,8 +19,10 @@ The 23.3 release webinar will be held on June 29, 2023. You can [register for th
     
 * [Administrator enhancements](#administrator-enhancements)
 * [Agile enhancements](#agile-enhancements)
+* [Financial Management enhancements](#financial-management-enhancements)
 * [Integration enhancements](#integration-enhancements)
 * [Project enhancements](#project-enhancements)
+* [Mobile enhancements](#mobile-enhancements)
 * [Other enhancements](#other-enhancements)
     
 ### Administrator enhancements
