@@ -18,4 +18,4 @@ Also, date effective job role sets are now available on the user profile. These 
 
 A new feature, rate cards, allows you to define multiple billing rates per job role, based on location. A billing rate for a job role and location can also include effective dates. Rate cards can be attached to projects to apply all of the rate information at once for the specific job role and location. Location based roles can also be assigned to tasks with a possibility to override their rates on the assignment level.
 
-All of these features will be released to Preview in July 2023, and updated user documentation will be available at that time.
+All of these features will be released to Preview on July 29, 2023, and updated user documentation will be available at that time.
