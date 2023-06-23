@@ -797,6 +797,10 @@ feature-set: Workfront
     * [Overview of the Project, Task, and Issue dates in Adobe Workfront](workfront-basics/navigate-workfront/workfront-navigation/definitions-pti-dates.md)
   * Home {#home}
     * [Home](workfront-basics/using-home/home.md)
+    * New Home {#new-home}
+      * [New Home](workfront-basics/using-home/new-home/new-home.md)
+      * [Get started with New Home](workfront-basics/using-home/new-home/get-started-with-new-home.md)
+      * [Add, edit, or remove widgets in New Home](workfront-basics/using-home/new-home/add-edit-remove-widgets-in-new-home.md)
     * Use the Home area {#use-home-area}
       * [Use the Home area](workfront-basics/using-home/using-the-home-area/use-the-home-area.md)
       * [Get started with Home](workfront-basics/using-home/using-the-home-area/get-started-with-home.md)
