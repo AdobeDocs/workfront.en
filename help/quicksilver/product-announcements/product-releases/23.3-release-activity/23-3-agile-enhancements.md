@@ -10,6 +10,8 @@ This page describes all agile enhancements made with the 23.3 release to the Pre
 
 For a list of all changes available at this point in the 23.3 release cycle, see [23.3 Release overview](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md).
 
+For details on how to opt in to new Boards features before the quarterly release, see [Early feature opt-in for Adobe Workfront Boards](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md).
+
 ## Agile View of a project displays a kanban board
 
 The Agile View of a project now includes additional functionality to filter, group, and sort work in a kanban board. The new, flexible design of the view includes a robust search feature and the ability to add new tasks to the project directly from the board.
@@ -22,24 +24,6 @@ While you are in the board, you can opt to switch to the legacy Agile View.
 
 Documentation for the updated project Agile View will be made available with its release to preview.
 
-## Dark mode now available on Adobe Workfront Boards
-
-You can now display all of your boards and workstreams in dark mode. The new setting is available through the preferences on the Boards dashboard.
-
->[!NOTE]
->
->If your organization's instance of Workfront has been onboarded to the Adobe Unified Experience, you can enable dark theme formatting for all of Adobe Experience Cloud through your preferences menu (your profile picture), and you will not see a separate dark mode option for Workfront Boards.
-
-For more information, see [Boards email notifications and preferences](/help/quicksilver/agile/get-started-with-boards/boards-emails.md).
-
-## Enhancements to workstream iterations in Adobe Workfront Boards
-
-We have added the ability to add goals to an iteration, without having to list the goals on a card. Goals are added in a checklist format and can be marked complete. The metrics area on the top right of the iteration shows how many goals exist and how many have been completed.
-
-Also, the Next Iteration column is now available on iteration boards. When you place a card in this column, it is automatically carried to the next iteration and does not return to the backlog. On the next iteration, the card appears in the column that corresponds with its status.
-
-For more information on both of these features, see [Create an iteration in a workstream](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md).
-
 ## Sort by board columns
 
 We have added the ability to sort the cards in the columns on a board. When you select an option to sort by, all columns are sorted. You can't sort a single column, and the backlog or intake column is not sorted.
@@ -50,6 +34,24 @@ The "user order" option returns the cards to the order they were manually set, b
 
 For more information, see [Filter and search in a board](/help/quicksilver/agile/get-started-with-boards/filter-search-in-board.md).
 
+## Dark mode now available on Adobe Workfront Boards
+
+You can now display all of your boards and workstreams in dark mode. The new setting is available through the preferences on the Boards dashboard.
+
+>[!NOTE]
+>
+>If your organization's instance of Workfront has been onboarded to the Adobe Unified Experience, you can enable dark theme formatting for all of Adobe Experience Cloud through your preferences menu (your profile picture), and you will not see a separate dark mode option for Workfront Boards.
+
+For more information, see [Boards email notifications and preferences](/help/quicksilver/agile/get-started-with-boards/boards-emails.md).
+
+## Goals available in workstream iterations in Adobe Workfront Boards
+
+We have added the ability to add goals to an iteration, without having to list the goals on a card. Goals are added in a checklist format and can be marked complete. The metrics area on the top right of the iteration shows how many goals exist and how many have been completed.
+
+<!--Also, the Next Iteration column is now available on iteration boards. When you place a card in this column, it is automatically carried to the next iteration and does not return to the backlog. On the next iteration, the card appears in the column that corresponds with its status.-->
+
+For more information, see [Create an iteration in a workstream](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md).
+
 ## Add comments to cards on boards
 
 >[!NOTE]
@@ -59,6 +61,8 @@ For more information, see [Filter and search in a board](/help/quicksilver/agile
 You can now add comments to both ad hoc and connected cards on boards, and tag other users on the comments. Comments are available in the card details. The comment feature for boards uses the new Adobe Workfront commenting experience.
 
 For more information, see [Add an ad hoc card to a board](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md) and [Use connected cards on boards](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
+
+[View a video demonstration of this feature](https://video.tv.adobe.com/v/3420832/){target=_blank}
 
 ## Enhancements to the Boards tag manager
 

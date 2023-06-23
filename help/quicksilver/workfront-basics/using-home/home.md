@@ -11,4 +11,5 @@ exl-id: 192b73f4-5995-43ae-b5a5-2b2f856c696d
 
 This section contains the following subsections:
 
+* [New Home](../../workfront-basics/using-home/new-home/new-home.md)
 * [Use the [!UICONTROL Home] area](../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md)

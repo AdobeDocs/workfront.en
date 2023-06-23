@@ -16,6 +16,7 @@ feature-set: Workfront
       * [23.3 Release overview](product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md)
       * [23.3 Administrator enhancements](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-admin-enhancements.md)
       * [23.3 Agile enhancements](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md)
+      * [23.3 Financial Management enhancements](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-finance-enhancements.md)
       * [23.3 Integration enhancements](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-integration-enhancements.md)
       * [23.3 Project enhancements](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-project-enhancements.md)
       * [23.3 Mobile enhancements](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-mobile-enhancements.md)
@@ -796,6 +797,10 @@ feature-set: Workfront
     * [Overview of the Project, Task, and Issue dates in Adobe Workfront](workfront-basics/navigate-workfront/workfront-navigation/definitions-pti-dates.md)
   * Home {#home}
     * [Home](workfront-basics/using-home/home.md)
+    * New Home {#new-home}
+      * [New Home](workfront-basics/using-home/new-home/new-home.md)
+      * [Get started with New Home](workfront-basics/using-home/new-home/get-started-with-new-home.md)
+      * [Add, edit, or remove widgets in New Home](workfront-basics/using-home/new-home/add-edit-remove-widgets-in-new-home.md)
     * Use the Home area {#use-home-area}
       * [Use the Home area](workfront-basics/using-home/using-the-home-area/use-the-home-area.md)
       * [Get started with Home](workfront-basics/using-home/using-the-home-area/get-started-with-home.md)
