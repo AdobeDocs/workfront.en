@@ -11,7 +11,7 @@ This page provides information about functionality that is included in the 23.3 
 
 The enhancements on this page are available in the Preview environment. This page will be updated with additional enhancements as the 23.3 release nears its planned Production release.
 
-The 23.3 release webinar will be held on June 29, 2023. You can [register for the webinar here](https://wcc.on24.com/webcast/present?e=4212784&k=62C9CAD129E5CEBBAB5D6776CDFCB645).
+The 23.3 release webinar will be held on June 29, 2023. You can [register for the webinar here](https://webinars.on24.com/adobe_workfront/whatsnewin233?partnerref=exlreleaseoverview).
 
 <span class="preview">Off-cycle features (those releasing to Production prior to the 23.3 release date) are highlighted in yellow.</span>
 
