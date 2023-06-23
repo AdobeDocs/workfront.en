@@ -1,11 +1,9 @@
 ---
 content-type: reference
 navigation-topic: home-navigation-topic
-title: Use the Home area
+title: New Home
 description: Review these articles to learn how to use the New Home in Adobe Workfront.
 author: Nolan
-feature: Get Started with Workfront
-exl-id: 246e3f71-6403-4381-866c-fa693fb9944d
 ---
 
 # New Home
