@@ -69,7 +69,7 @@ You must have the following access to perform the steps in this article:
 1. Click a chart type to select it.  
    ![](assets/qs-report-builder-chart-350x265.png)
 
-1. You can add the following types of charts to a Adobe Workfront report:
+1. You can add the following types of charts to an Adobe Workfront report:
 
    * [Column chart](#column-chart) 
    * [Bar chart](#bar-chart) 
@@ -123,7 +123,7 @@ To add a **Bar** chart to your report:
    For more information about customizing chart colors, see [Customize chart colors](#customize-chart-colors).
 
 1. (Optional) Select **Show in 3D** to display the chart in a 3-dimensional view.
-1. (Optional)**Group Bars**: Select this option to define how you want the bars to be grouped.  
+1. (Optional) Group Bars**: Select this option to define how you want the bars to be grouped.  
    Select from the following options:
 
    * Click one of the following options to select how the grouped bars are going to display:  
@@ -176,7 +176,7 @@ To add a **Line** chart to your report:
    Consider from the following options:
 
    * Select the value that you want to include in the chart, as well as how you want the information to be summarized.  
-   * Select the **Plot on Secondary Axis**field to plot the data on the right-hand side of the chart.  
+   * Select the **Plot on Secondary Axis** field to plot the data on the right-hand side of the chart.  
      ![](assets/qs-line-chart-350x172.png)
 
 1. Click **Save + Close** to save the chart and the report.
@@ -224,8 +224,21 @@ To add a **Bubble** chart to your report:
    >For more information about summarizing the information in a report column, see [Create a custom report](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
 1. In the **Bubbles** field, select the Grouping that you want to include in the chart. The Grouping is represented by the placement of the bubbles on the chart.
-1. In the **Bubble Color** field, select the field that you want to be represented by the colors of the bubbles. The **Bubble Color** can be a Grouping you define in the report, but it can only be fields from the object you selected as **Bubbles**. For example, if you selected Task Name, you can add Task Status, but not Project Status as a **Bubble Color**.  
+1. In the **Bubble Color** field, select the field that you want to be represented by the colors of the bubbles. 
+
    ![](assets/qs-bubble-chart-350x103.png)
+
+
+   The **Bubble Color** can be a Grouping you define in the report, but it is only available when you select the **Name** column for the object of the report in the **Bubbles** field. 
+
+   For example, if you selected **Task Name** in a task report, you can add **Task Status** as the **Bubble Color** field.  
+
+   ![](assets/bubbles-field-correct-can-select-bubbles-color-example.png)   
+
+   However, if you selected **Task Status** for the **Bubbles** field, you cannot select a **Bubble Color** field. Also, you cannot select **Project Name** for the **Bubble Color** field, even when you select **Task Name** for the **Bubble** field. 
+
+   ![](assets/bubbles-field-wrong-cannot-select-bubbles-color-example.png)
+   
 
 1. Click **Save + Close** to save the changes to the interface builder.
 
@@ -248,7 +261,7 @@ To export a chart:
 
 ## Customize chart colors {#customize-chart-colors}
 
-You can let Workfront select the colors of the elements in your chart, or you can customize them while you are adding a chart to your reports. If your chart contains a single Grouping that represents one metric—such as a task report that shows the amount of tasks grouped by Actual Completion Date—each result in the Grouping is displayed in the same color.
+You can let Workfront select the colors of the elements in your chart, or you can customize them while you are adding a chart to your reports. If your chart contains a single Grouping that represents one metric—such as a task report that shows the number of tasks grouped by Actual Completion Date—each result in the Grouping is displayed in the same color.
 
 You can only choose one color for fields displayed in the View of the report. You can choose several colors—one for each option—for fields displayed in the Grouping of the report.
 
@@ -268,13 +281,13 @@ To customize chart colors:
 
    >[!NOTE]
    >
-   >You can associate custom colors with any field that you can group by and with some fields that can be displayed in a view, including custom fields. The custom fields or custom options of the fields you choose in the Custom Color dialog box are case sensitive.
+   >You can associate custom colors with any field that you can group by and with some fields that can be displayed in a view, including custom fields. The custom fields or custom options of the fields you choose in the Custom Color dialog box are case-sensitive.
 
 1. Consider selecting any of the following options:
 
    * **Use one color**: All the elements of the chart will display in the selected color.
 
-      1. Start typing the name of a option of the field selected, then select a color. This option displays in the selected color on the chart.
+      1. Start typing the name of an option of the field selected, then select a color. This option displays in the selected color on the chart.
       1. (Optional) Specify a hexadecimal color value for your color, instead of selecting one from the color samples available  
          Or  
          Click the color picker that displays after clicking the hexadecimal code, and select another color.
@@ -315,4 +328,4 @@ Be aware of the following limitations as you are working with charts:
 
 * You cannot edit the legend of the chart.
 * When using calculated fields for your groupings, you cannot click the chart elements.
-* The most amount of data points you can display in a chart is four, in a bubble chart. All other chart types display two or a maximum of three data points.
+* The most number of data points you can display in a chart is four, in a bubble chart. All other chart types display two or a maximum of three data points.

@@ -1,15 +1,22 @@
 ---
-title: 23.3 release activity week of May 1, 2023
-description: 23.3 release activity week of May 1, 2023
-author: Courtney
-draft: Probably
+title: 23.3 Administrator enhancements
+description: 23.3 Administrator enhancements
+author: Lisa
 feature: Product Announcements
 ---
-# 23.3 release activity week of May 1, 2023
+# 23.3 Administrator enhancements
 
-This page describes all enhancements made with the 23.3 release to the Preview environment the week of May 1, 2023. These enhancements will be made available in the Production environment with the 23.3 release. 
+This page describes all administrator enhancements made with the 23.3 release to the Preview environment. These enhancements will be made available in the Production environment with the 23.3 release.
 
 For a list of all changes available at this point in the 23.3 release cycle, see [23.3 Release overview](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md).
+
+## Enable faster Workfront release cycles
+
+To allow you to receive new Workfront product features and updates more quickly, we've added the ability to enable faster release cycles. Now, you can choose to have your organization receive Workfront releases more frequently than once a quarter. The quarterly release cycle will still be available for organizations that prefer less frequent releases.
+
+Previously, features and functionality were released on a quarterly cycle for all customers.
+
+Documentation containing more information will be available at the 23.3 release.
 
 ## Group-level control available for "Where users can log time" timesheet and hour preference
 

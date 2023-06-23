@@ -147,7 +147,7 @@ You can edit a template task using the Edit Template Task or Template Task Detai
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Planned Hours</strong> </td> 
-      <td> <p>Specify the amount of Planned Hours for the future task on the project created with this template. This is the amount of actual time it would take the assignees of the task to complete it. You can only specify the amount of Planned Hours for a task when the<strong>Duration Type</strong> is set to <strong>Calculated Assignment</strong>. </p> </td> 
+      <td> <p>Specify the number of Planned Hours for the future task on the project created with this template. This is the amount of actual time it would take the assignees of the task to complete it. You can only specify the number of Planned Hours for a task when the<strong>Duration Type</strong> is set to <strong>Calculated Assignment</strong>. </p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">Work Effort </td> 
@@ -271,6 +271,14 @@ You can edit a template task using the Edit Template Task or Template Task Detai
     <col> 
     <col> 
     <tbody> 
+   <tr> 
+      <td role="rowheader"><strong><p>Milestone</p></strong> </td> 
+      <td> <p>Choose a milestone to associate with the selected template task.</p>
+      
+   <p><b>IMPORTANT</b></p>
+   <p>You must associate a milestone path with a template for this field to display. For more information, see <a href="../create-and-manage-templates/edit-templates.md">Edit project templates</a>.</p> 
+   </td> 
+     </tr>
      <tr> 
       <td role="rowheader"><strong>Tracking Mode</strong> </td> 
       <td> <p>Specify how the progress status of the future task will be tracked. </p> <p>Select from the following options:</p> 
@@ -343,7 +351,7 @@ You can define default custom forms to be automatically attached to tasks when t
 
    ![custom_forms_edit_task.png](assets/custom-forms-edit-task-350x136.png)
 
-1. Select the custom form or forms that you want to associate with the template task. You must build the custom forms before they are available to select in this field. Only active custom forms display in the list. For more information about building custom forms, see [Create or edit a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).You can add up to ten custom forms to a template task. The forms are automatically added to the tasks created from the template. 
+1. Select the custom form or forms that you want to associate with the template task. You must build the custom forms before they are available to select in this field. Only active custom forms display in the list. For more information about building custom forms, see [Create or edit a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md). You can add up to ten custom forms to a template task. The forms are automatically added to the tasks created from the template. 
 1. (Conditional and optional) If you attached a custom form to the template task, edit any fields on the form. You must specify all required fields before you can save the template task.
 
    >[!NOTE]

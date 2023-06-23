@@ -108,6 +108,13 @@ Sharing a proof link grants Workfront users viewing access. Users can comment on
 
 You can add any Workfront user to the proof if you have Edit rights on the proof. If the proof has multiple stages, you add the user to an individual stage
 
+>[!WARNING]
+>
+>In addition to the methods listed in this article, it is possible to add users to a proof by tagging them in a comment from the Updates tab of an existing proof. However, users added to a proof in this way will not receive an email notification unless they are tagged again after they have been added to the proof's workflow.
+>
+>As such, we recommend adding users to a proof through one of methods listed below and not by tagging them in a comment.
+>
+
 >[!NOTE]
 >
 >Keep the following in mind if you are using a legacy Workfront plan in which proofing can be enabled and disabled for a user:

@@ -14,7 +14,7 @@ When using the Adobe Workfront Core API, the API Explorer is a legacy reference 
 
 ## Access the API Explorer:
 
-1. Use a web browser to navigate to the [API Explorer](https://one.workfront.com/s/api-explorer)   
+1. Use a web browser to navigate to the [API Explorer](https://developer.adobe.com/workfront/api-explorer/)   
    ![](assets/mceclip1-350x149.png)
 
 1. In the upper right of the API Explorer, select the desiredWorkfront **API Version**, by default the most current version is automatically selected

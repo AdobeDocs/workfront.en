@@ -3,7 +3,7 @@ product-previous: mobile
 navigation-topic: use-the-workfront-mobile-app
 title: Comment on proofs in iOS
 description: You can review and resolve existing comments on a proof, and add new comments and annotations to the proof document.
-author: Lisa
+author: Nolan
 feature: Get Started with Workfront
 exl-id: c38f0d80-11e0-4d5a-9591-602543177fe6
 ---

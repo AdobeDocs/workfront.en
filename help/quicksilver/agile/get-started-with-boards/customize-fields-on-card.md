@@ -16,6 +16,8 @@ By default, all available fields are displayed on a card, both in the the full v
 
 If a field contains a value and you disable the field, the value is retained if you enable the field again later.
 
+Sections (which appear as the left navigation options on the card details) are also available to display and hide.
+
 You can also display custom fields that were previously created. You can't design and create new custom fields within a board.
 
 >[!NOTE]
@@ -52,11 +54,11 @@ You must have the following access to perform the steps in this article:
 1. Click [!UICONTROL **Configure**] on the right of the board to open the Configure panel.
 1. Expand [!UICONTROL **Cards**].
 
-   Most fields are enabled by default.
+   Most fields and sections are enabled by default.
 
-1. Turn off a field to disable it in both card views.
-1. Click the Hide icon ![Hide icon](assets/eye-hide-icon.png) next to a field to hide it on the condensed view.
-1. To display all of the fields in both views, click [!UICONTROL **Restore all fields to default**].
+1. Turn off a field or section to disable it in both card views.
+1. Click the Hide icon ![Hide icon](assets/eye-hide-icon.png) next to a field or section to hide it on the condensed view.
+1. To display all of the fields and sections in both views, click [!UICONTROL **Restore all fields to default**].
 1. Click [!UICONTROL **Hide configure**] to close the Configure panel.
 
 ## Add custom fields to cards

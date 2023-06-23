@@ -47,8 +47,8 @@ If this is not the case, you can follow the steps below.
 
 1. Do one of the following to download the app:
 
-   * If you are using the Production environment, click&nbsp; [Mac Production Download for the Desktop Proofing Viewer.](https://assets.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof-2.1.23.pkg)
-   * If you are using the Preview environment, click&nbsp; [Mac Preview Download for the Desktop Proofing Viewer.](https://assets.preview.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Preview-2.1.23.pkg)
+   * If you are using the Production environment, click [Mac Production Download for the Desktop Proofing Viewer.](https://assets.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof-2.1.24.pkg)
+   * If you are using the Preview environment, click [Mac Preview Download for the Desktop Proofing Viewer.](https://assets.preview.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Preview-2.1.24.pkg)
 
 1. Open the file you have just downloaded to start the installation.
 1. On the installation box that appears, click **Continue**, then click **Install**.
@@ -59,7 +59,7 @@ If this is not the case, you can follow the steps below.
 
 >[!NOTE]
 >
->If the Desktop Proofing Viewer does not launch when you open an interactive proof, this probably means that your Workfront or Workfront Proof administrator needs to configure the Desktop Proofing Viewer as the default viewer for interactive proofs, as described in&nbsp;.
+>If the Desktop Proofing Viewer does not launch when you open an interactive proof, this probably means that your Workfront or Workfront Proof administrator needs to configure the Desktop Proofing Viewer as the default viewer for interactive proofs, as described in [User Setting for Opening Non-Interactive Proofs in the Desktop Proofing Viewer](../../../workfront-proof/wp-work-proofsfiles/review-proofs-dpv/destop-proofing-viewer.md#user-setting-for-launching-non-interactive-proofs).
 
 ## Install the Desktop Proofing Viewer on Windows
 
@@ -71,16 +71,16 @@ If your Workfront or Workfront Proof administrator has downloaded the app on you
 
 1. Do one of the following to download the app:
 
-   * In the Production environment, click&nbsp; [Windows Production download for the Desktop Proofing Viewer.](https://assets.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Setup+2.1.23.exe)
-   * In the Preview environment, click&nbsp; [Windows Preview download for the Desktop Proofing Viewer](https://assets.preview.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Preview+Setup+2.1.23.exe).
+   * In the Production environment, click [Windows Production download for the Desktop Proofing Viewer.](https://assets.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Setup+2.1.24.exe)
+   * In the Preview environment, click [Windows Preview download for the Desktop Proofing Viewer](https://assets.preview.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Preview+Setup+2.1.24.exe).
 
 1. Open the file you have just downloaded to start the installation.
 1. In the installation box that appears, open the file you have just downloaded to start the installation.
 
    ![Screen_Shot_2018-05-02_at_10.56.55_AM.png](assets/screen-shot-2018-05-02-at-10.56.55-am-350x271.png)
 
-1. In the security warning box that appears, click&nbsp;**Run.**The Desktop Proofing Viewer automatically installs and runs.&nbsp;
+1. In the security warning box that appears, click **Run**. The Desktop Proofing Viewer automatically installs and runs.
 1. (Conditional) If you install the application using Internet Explorer, refresh the launching page in the browser after the application installs.
 1. Open an interactive proof from the Documents area.
 
-After the Desktop Proofing Viewer is installed, all interactive proofs open in the Desktop Proofing Viewer. If the Desktop Proofing Viewer does not launch when you open an interactive proof, this probably means that your Workfront or Workfront Proof administrator needs to configure the Desktop Proofing Viewer as the default viewer for interactive proofs, as described in&nbsp;.
+After the Desktop Proofing Viewer is installed, all interactive proofs open in the Desktop Proofing Viewer. If the Desktop Proofing Viewer does not launch when you open an interactive proof, this probably means that your Workfront or Workfront Proof administrator needs to configure the Desktop Proofing Viewer as the default viewer for interactive proofs, as described in [User Setting for Opening Non-Interactive Proofs in the Desktop Proofing Viewer](../../../workfront-proof/wp-work-proofsfiles/review-proofs-dpv/destop-proofing-viewer.md#user-setting-for-launching-non-interactive-proofs).

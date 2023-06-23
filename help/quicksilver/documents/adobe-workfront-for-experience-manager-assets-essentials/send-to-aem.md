@@ -97,3 +97,21 @@ To send the most recent version:
    ![](assets/copy-of-send-to-in-toolbar-350x149.png)
 
 1. Click **Save**. The new version saves in the same location as the previous version.
+
+## Move a document to a linked folder in Experience Manager Assets
+
+>[!NOTE]
+>
+>This functionality is only available for Experience Manager Assets as a Cloud Service. It is not available for Experience Manager Assets Essentials.
+
+You can move a document to a linked folder in Experience Manager Assets if both the document and the linked folder are in the same document list (such as the document area of a project). 
+
+1. Locate the document that you want to move.
+1. Drag and drop the document onto the linked Experience Manager Assets folder that you want to move it to.
+
+The document options are not available while the document is in the process of moving. After the document is moved to Experience Manager Assets, is no longer visible in the document list in Workfront.
+
+>[!NOTE]
+>
+> Any actions or edits you make on the document while it is moving will not appear on the document in Experience Manager Assets, and will therefore be lost.
+

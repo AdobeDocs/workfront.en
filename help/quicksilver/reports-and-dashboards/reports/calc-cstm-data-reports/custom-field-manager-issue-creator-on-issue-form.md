@@ -12,9 +12,11 @@ exl-id: f501ce1a-7a80-458b-9b30-2292426c9262
 
 Using a calculated custom field, you can display the name of the manager of an issue's creator on a custom form attached to the issue. Using the same statement, you can build similar calculated fields for projects, issues, and other objects.
 
+<!--outdated link: 
 >[!TIP]
 >
 >For information about additional custom text mode examples from other customers, follow the [Text Mode Reporting](https://one.workfront.com/s/topic/0TO0z000000cdHmGAI/text-mode-reporting?tabset-21363=3) topic on our Community site.
+-->
 
 ## Access requirements
 

@@ -29,7 +29,7 @@ You can build a report or a list in Adobe Workfront by using either the standard
 >
 >You can also expand the capabilities of calculated custom fields by using a version of text mode for custom fields. The syntax and rules for creating a calculated custom field are different than those you use in reports and lists. For information about adding a calculated custom field, see [Add calculated data to a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
 
-* Before you start using text mode in your reports, we strongly recommend that you take our classes on advanced reporting, to gain a deeper understanding of our text mode language. For training materials on reporting see [Workfront Reports and Dashboards Learning Paths](https://one.workfront.com/s/learningpath2/workfront-reporting-20Y0z000000blhLEAQ).
+* Before you start using text mode in your reports, we strongly recommend that you take our classes on advanced reporting, to gain a deeper understanding of our text mode language. <!--outdated: For training materials on reporting see [Workfront Reports and Dashboards Learning Paths](https://one.workfront.com/s/learningpath2/workfront-reporting-20Y0z000000blhLEAQ).-->
 * We recommend that you use standard mode to ensure the reports you create remain intact when the Workfront software is updated. While text mode enables you to create more complex views, filters, and groupings, it is also more complicated to maintain and is not guaranteed when the Workfront software is updated.
 * We recommend that you always try to build all reporting elements in the standard interface and switch to the text mode builder only for few adjustments.
 

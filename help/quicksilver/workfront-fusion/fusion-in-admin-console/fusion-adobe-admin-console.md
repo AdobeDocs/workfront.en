@@ -8,7 +8,6 @@ description: As an Adobe Workfront Fusion administrator, your administration res
 author: Becky
 feature: Workfront Fusion
 exl-id: 86f8cc24-c1a2-4f47-bd08-39bb0f6b2940
-hidefromtoc: true
 
 ---
 # Platform-based administration differences ([!DNL Adobe Workfront Fusion]/[!DNL Adobe Admin Console])

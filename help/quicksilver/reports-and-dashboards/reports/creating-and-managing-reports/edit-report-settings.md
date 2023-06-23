@@ -115,7 +115,7 @@ You must have the following access to perform the steps in this article:
 
 See also:
 
-* [Basic Report Creation Program for the new Workfront experience](https://one.workfront.com/s/basic-report-creation-program) 
+<!--outdated: * [Basic Report Creation Program for the new Workfront experience](https://one.workfront.com/s/basic-report-creation-program) -->
 * [Get started with reports in Adobe Workfront](../../../reports-and-dashboards/reports/reporting/get-started-reports-workfront.md) 
 * [Use Adobe Workfront built-in reports](../../../reports-and-dashboards/reports/using-built-in-reports/use-workfront-built-in-reports.md) 
 * [Create a custom report](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)

@@ -2,7 +2,7 @@
 content-type: tips-tricks-troubleshooting
 navigation-topic: tips-tricks-and-troubleshooting-workfront-basics
 title: Working across time zones
-description: It can be helpful to understand how [!DNL Adobe Workfront] uses time zones to calculate the following - EDIT ME.
+description: It can be helpful to understand how [!DNL Adobe Workfront] uses time zones to calculate time fields for objects and times in other areas such as emails.
 feature: Get Started with Workfront
 exl-id: b6574165-a6dc-4694-a367-d98927abf1e3
 ---
@@ -19,9 +19,7 @@ Times you see in [!DNL Workfront] are based on time zone configurations for your
 
 >[!NOTE]
 >
-><div class="preview">In a custom form attached to an object, date and time statements in calculated custom fields are calculated and saved by Coordinated Universal Time (UTC), not by the time zone configurations set for your organization's instance and your user profile. Calculations in a custom form are generated and displayed based on each users' individual time zones.</div>
-
-
+>In a custom form attached to an object, date and time statements in calculated custom fields are calculated and saved by Coordinated Universal Time (UTC), not by the time zone configurations set for your organization's instance and your user profile. Calculations in a custom form are generated and displayed based on each users' individual time zones.
 
 * [Your organization's [!DNL Workfront] instance](#your-organization-s-workfront-instance)
 * [Your user profile](#your-user-profile)
@@ -41,7 +39,10 @@ The time zone for your organization's [!DNL Workfront] instance is usually set f
 
 The time zone in your user profile should be configured for the location where you work. This determines the following:
 
+<!--
 * The time shown in your outgoing [!DNL Workfront] email messages
+[NOTE FROM LISA: Saeid that dates/times shown in emails are more complicated than how it is described in the article so we decided to comment out this line.]
+-->
 * Times for an object you work on, such as start and end times
 
    If users in multiple time zones are assigned to an object, [!DNL Workfront] converts the object times for everyone involved, using the time zone configured in each user profile.
@@ -86,7 +87,7 @@ You can help users working more easily across several time zones in several ways
 
    For instructions on assigning a schedule to a project or a user, see [Create a schedule](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
 
-   For information about how the time zone configured in your schedule affects the distribution of [!UICONTROL Planned Hours] in the [!DNL Workload Balancer], see [Manage user allocations in the [!DNL Workload Balancer]](../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
+   For information about how the time zone configured in your schedule affects the distribution of [!UICONTROL Planned Hours] in the [!UICONTROL Workload Balancer], see [Manage user allocations in the [!UICONTROL Workload Balancer]](../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
 
 
 ### Use calculated time fields in a custom form {#use-calculated-time-fields-in-a-custom-form}

@@ -21,7 +21,7 @@ No resources were removed for API version 16
 
 ## Modified resources
 
-* <!--[AccessLevel (ACSLVL)](#accesslevel-acslvl)-->
+<!--* [AccessLevel (ACSLVL)](#accesslevel-acslvl)-->
 * [Approval (APPROVAL)](#approval-approval)
 * [CustomerPreferences (CUSTPR)](#customerpreferences-custpr)
 * [ExternalSection (EXTSEC)](#externalsection-extsec)

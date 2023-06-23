@@ -8,17 +8,17 @@ exl-id: b0e2ce08-d9f7-4fb5-b35c-ba979ab9d03e
 ---
 # 23.2 Release overview
 
-This page provides information about functionality that is included in the 23.1 release. These enhancements were made available in the Production environment with the 23.2 release on April 6 and 7, 2023. 
+This page provides information about functionality that is included in the 23.1 release. These enhancements were made available in the Production environment with the 23.2 release on April 6 and 7, 2023.
 
 For tips on preparing for the upcoming release, see [Prepare for an Adobe Workfront quarterly release](/help/quicksilver/product-announcements/product-releases/release-readiness.md).
 
 ## Release webinar
 
-In lieu of a release webinar, we invite you to register for Adobe Summit to watch the following Workfront sessions: 
+In lieu of a release webinar, we invite you to register for Adobe Summit to watch the following Workfront sessions:
 
-[Impactful Experiences: From Content Creation to Personalization](https://reg.adobe.com/flow/adobe/as23/sessions/page/catalog/session/1661982243928001D5Z9) on March 21, 2023, to learn new ways to create, manage, and personalize content and deliver impactful experiences with greater efficiency. This session will be live streamed for virtual audiences.  
+[Impactful Experiences: From Content Creation to Personalization](https://reg.adobe.com/flow/adobe/as23/sessions/page/catalog/session/1661982243928001D5Z9) on March 21, 2023, to learn new ways to create, manage, and personalize content and deliver impactful experiences with greater efficiency. This session will be live streamed for virtual audiences.
 
-[The Future of Adobe Workfront](https://reg.adobe.com/flow/adobe/as23/sessions/page/catalog/session/1661982239896001DoHU) on March 23, 2023, to see the vision for Workfront and its place within the Adobe ecosystem and get a sneak peek of the future roadmap. This session will be recorded and available later as on-demand content.  
+[The Future of Adobe Workfront](https://reg.adobe.com/flow/adobe/as23/sessions/page/catalog/session/1661982239896001DoHU) on March 23, 2023, to see the vision for Workfront and its place within the Adobe ecosystem and get a sneak peek of the future roadmap. This session will be recorded and available later as on-demand content.
 
 <span class="preview">Off-cycle features (those releasing to Production prior to the 23.2 release date) are highlighted in yellow.</span>
 
@@ -59,7 +59,7 @@ In lieu of a release webinar, we invite you to register for Adobe Summit to watc
                                 <p>Preview release: N/A<br /></p>
                             </li>
                             <li>
-                                 <p>Production release:March 30, 2023</p>
+                                 <p>Production release: March 30, 2023</p>
                             </li>
                         </ul>
                     </td>
@@ -79,10 +79,11 @@ In lieu of a release webinar, we invite you to register for Adobe Summit to watc
                     <td><p><b>Available on these dates:</b></p>
                         <ul>
                             <li>
-                                <p>Preview release: March 9, 2023<br /></p>
+                                <p>Preview release: March 9, 2023</p>
                             </li>
                             <li>
-                                 <p>Production release: With the 23.2 release</p>
+                                 <p>Production release: With the 23.2 release<br />
+                                 <span style="color: #ff0000;">The form designer beta was temporarily disabled in Preview and Production on May 24, 2023.</span></p>
                             </li>
                         </ul>
                     </td>
@@ -649,7 +650,7 @@ For information about the maintenance updates made during the 23.2 release, see 
 
 ### Training updates
 
-Explore the latest updates made to learning programs, learning paths, videos, and guides for each Adobe Workfront product release. For more information, see the [Training release updates page](https://one.workfront.com/s/training-release-updates).
+Explore the latest updates made to learning programs, learning paths, videos, and guides for each Adobe Workfront product release. For more information, see the "What's New" section of the [Workfront Tutorials page](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html).
 
 ### Functionality soon to be removed from Workfront
 

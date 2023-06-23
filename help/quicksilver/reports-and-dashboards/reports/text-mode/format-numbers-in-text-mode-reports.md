@@ -34,4 +34,5 @@ You can format numbers&nbsp;using the following values for the `valueformat` lin
 | 12% |<pre>doubleAsPercentRounded</pre> |
 | 12.34% |<pre>doubleAsPercent</pre> |
 | (1,234.56) |<pre>doubleAsFinancial</pre> |
-| (1,234) |<pre>doubleAsFiancialRounded</pre> |
+| (1,234) |<pre>doubleAsFinancialRounded</pre> |
+

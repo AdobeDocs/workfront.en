@@ -18,7 +18,7 @@ For a complete list of all our reportable fields and their attributes, see the [
 ## Considerations about text mode syntax
 
 * You must understand the Adobe Workfront syntax before you can start building reporting elements in text mode. The Workfront syntax for text mode is unique to this application and it has unique characteristics that you must be familiar with.
-* Before you start using text mode in your reports, we strongly recommend that you take our classes on advanced reporting, to gain a deeper understanding of our text mode language. For training materials on reporting see [Workfront Reports and Dashboards Learning Paths](https://one.workfront.com/s/learningpath2/workfront-reporting-20Y0z000000blhLEAQ).
+* Before you start using text mode in your reports, we strongly recommend that you take our classes on advanced reporting, to gain a deeper understanding of our text mode language. <!--outdated link: For training materials on reporting see [Workfront Reports and Dashboards Learning Paths](https://one.workfront.com/s/learningpath2/workfront-reporting-20Y0z000000blhLEAQ).-->
 * You can customize views, filters, and groupings using the standard mode interface. However, you can build Custom&nbsp;Prompts only using text mode.
 
 ## Common guidelines for building reporting elements in text mode
