@@ -35,3 +35,11 @@ For more information, see [Copy and submit requests](/help/quicksilver/manage-wo
 We have updated the New request box which displays when submitting a new request. Now, the interface matches the New issue box which displays when adding a new issue to a project.
 
 For more information, see [Create and submit Adobe Workfront requests](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md).
+
+## Updated Billing Rates list
+
+>[!NOTE]
+>
+>Preview release: June 29, 2023; Planned Production release for the Fast release customers: To be announced, after the 23.3 Production release; Planned Production release for all customers: With the 23.4 release
+
+The Project Billing Rates list now has the more modern look and feel found in most other lists throughout Workfront.
