@@ -16,6 +16,7 @@ feature-set: Workfront
       * [23.3 Release overview](product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md)
       * [23.3 Administrator enhancements](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-admin-enhancements.md)
       * [23.3 Agile enhancements](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md)
+      * [FInancial Management enhancements](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-finance-enhancements.md)
       * [23.3 Integration enhancements](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-integration-enhancements.md)
       * [23.3 Project enhancements](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-project-enhancements.md)
       * [23.3 Mobile enhancements](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-mobile-enhancements.md)

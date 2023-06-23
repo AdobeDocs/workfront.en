@@ -10,6 +10,8 @@ This page describes all agile enhancements made with the 23.3 release to the Pre
 
 For a list of all changes available at this point in the 23.3 release cycle, see [23.3 Release overview](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md).
 
+For details on how to opt in to new Boards features before the quarterly release, see [Early feature opt-in for Adobe Workfront Boards](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md).
+
 ## Agile View of a project displays a kanban board
 
 The Agile View of a project now includes additional functionality to filter, group, and sort work in a kanban board. The new, flexible design of the view includes a robust search feature and the ability to add new tasks to the project directly from the board.

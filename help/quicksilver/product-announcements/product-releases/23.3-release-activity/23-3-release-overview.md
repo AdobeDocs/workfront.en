@@ -293,6 +293,42 @@ The 23.3 release webinar will be held on June 29, 2023. You can [register for th
             </tbody>
         </table>
 
+### Financial Management enhancements
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">Feature</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Release dates</span>
+                        </p>
+                    </td>
+                 </tr>   
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-finance-enhancements.md" class="MCXref xref" xrefformat="{para}">Date effective cost and billing rates</a><span style="color: #ff0000;"> Coming soon!</span> </p>
+                        <p>Date effective cost and billing rates are now available on the company, user, and job role objects in Workfront. When date effective rates are applied to a project, and hours are logged on project tasks, the costs and revenue are calculated using the specified rates for each time period.</p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                        <ul>
+                            <li>
+                                <p>Preview release: June 29, 2023</p>
+                            </li>
+                            <li>
+                                <p>Production release for the Fast release customers: To be announced, after the 23.3 Production release</p>
+                                <p>Production release for all customers: With the 23.4 release</p>
+                            </li>
+                        </ul>
+                    </td>
+                 </tr>
+           </tbody>
+        </table>
+
 ### Integration enhancements
 
 <table>
@@ -439,24 +475,7 @@ The 23.3 release webinar will be held on June 29, 2023. You can [register for th
                         <p><span class="bold">Release dates</span>
                         </p>
                     </td>
-                 </tr>   
-                 <tr>
-                    <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Date effective cost and billing rates</a><span style="color: #ff0000;"> Coming soon!</span> </p>
-                        <p>Date effective cost and billing rates are now available on the company, user, and job role objects in Workfront. When date effective rates are applied to a project, and hours are logged on project tasks, the costs and revenue are calculated using the specified rates for each time period.</p>
-                    </td>
-                    <td><p><b>Available on these dates:</b></p>
-                        <ul>
-                            <li>
-                                <p>Preview release: June 29, 2023</p>
-                            </li>
-                            <li>
-                                <p>Production release for the Fast release customers: To be announced, after the 23.3 Production release</p>
-                                <p>Production release for all customers: With the 23.4 release</p>
-                            </li>
-                        </ul>
-                    </td>
-                 </tr>   
+                 </tr>  
                  <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">New document approvals</a> </p>

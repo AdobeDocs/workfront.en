@@ -24,6 +24,8 @@ New Home will be the default experience for all users upon its release. However,
 
 Documentation for New Home will be made available with its release to preview on June 23rd.
 
+[View a video demonstration of this feature](https://video.tv.adobe.com/v/3420860/){target=_blank}
+
 ## New commenting experience for additional objects
 
 The new commenting experience will be available for the following objects, shortly after the 23.3 release to Production: template tasks, templates, timesheets, teams, users, programs, portfolios.  
