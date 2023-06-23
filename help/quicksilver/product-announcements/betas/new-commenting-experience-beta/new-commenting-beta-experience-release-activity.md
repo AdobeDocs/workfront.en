@@ -65,15 +65,25 @@ The features listed in this section are planned to release shortly after the wee
 
 Now, you have the ability to copy the content of a comment and add it as a new quote to a reply in the same thread when using the new commenting experience.  
 
-For more information, see [Update work](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). 
+For more information, see [Update work](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). The documentation will be updated at the time of the release.
 
-Preview and Production: Planned for June 29, 2023 
+Planned Preview and Production release: June 29, 2023 
+
+#### New interface for logging time
+
+We have redesigned the interface for logging time from the Updates area in the new commenting experience. 
+
+For more information, see [Log time](../../../timesheets/create-and-manage-timesheets/log-time.md). The documentation will be updated at the time of the release.
+
+Planned Preview release: June 29, 2023 
+
+Planned Production release: with the 23.3 release
 
 #### Add emojis to an update
 
 You can now add emojis to a comment using a Rich Text toolbar option in the new commenting experience. 
 
-For more information, see [Update work](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+For more information, see [Update work](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). The documentation will be updated at the time of the release.
 
 Preview: To be announced (during the 23.3 release)
 
@@ -85,11 +95,11 @@ The new commenting experience will be available for the following objects, short
 
 This will be the only commenting experience for these objects, as the legacy commenting experience is removed when you access them.  
 
-For more information, see [New commenting experience](../../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+For more information, see [New commenting experience](../../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). The documentation will be updated at the time of the release.
 
 Preview release: To be announced, after the 23.3 Production release (July 20, 2023)
 
-Production release for the Fast release customers: To be announced, after the 23.3 Production release  
+Production release for the Fast release customers: To be announced, after the 23.3 release  
 
 Production release for all customers: with the 23.4 release 
 
