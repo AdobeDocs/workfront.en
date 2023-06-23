@@ -15,7 +15,7 @@ For a list of all changes available with the 23.3 release, see [23.3 Release ove
 
 >[!NOTE]
 >
->Preview and Production releases: To be announced (before the 23.3 release)
+>Planned Preview release: June 28, 2023; Planned Production release: July 13, 2023
 
 We have made improvements to the interface of the Submitted requests list.
 
@@ -30,8 +30,16 @@ For more information, see [Copy and submit requests](/help/quicksilver/manage-wo
 
 >[!NOTE]
 >
->Preview release: to be announced (before the 23.3 release); Production release: with the 23.3 release
+>Planned Preview release: July 5, 2023; Planned Production release: with the 23.3 release
 
 We have updated the New request box which displays when submitting a new request. Now, the interface matches the New issue box which displays when adding a new issue to a project.
 
 For more information, see [Create and submit Adobe Workfront requests](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md).
+
+## Updated Billing Rates list
+
+>[!NOTE]
+>
+>Preview release: June 29, 2023; Planned Production release for the Fast release customers: To be announced, after the 23.3 Production release; Planned Production release for all customers: With the 23.4 release
+
+The Project Billing Rates list now has the more modern look and feel found in most other lists throughout Workfront.
