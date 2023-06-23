@@ -16,8 +16,8 @@ These enhancements will be made available in the Production environment with the
 
 ## Updates section enhancements
 
-Enhancements to the Updates section of goals are being made available within the 23.3 release timeframe. These enhancements will be made available in the Production environment shortly after releasing to Preview.
+Enhancements to the Updates section of goals are being made available within the 23.3 release timeframe, at the same time as the updates that are being released to the new commenting beta experience. These enhancements will be made available in the Production environment shortly after releasing to Preview.
 
 Commenting enhancements made available to goals are the same as those released with the new commenting beta experience for other Workfront objects.
 
-For more details, see [New commenting experience release activity](/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md).
+For more information, see [New commenting experience release activity](/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md).
