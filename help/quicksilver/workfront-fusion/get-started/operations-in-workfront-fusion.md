@@ -14,22 +14,29 @@ An operation in Adobe Workfront Fusion is a task performed by a module. For trac
 
 ## Considerations when counting the number of operations
 
-In general, any successful action-step execution is considered an operation.
+* In general, any successful action-step execution is considered an operation.
 
-The first module in a scenario runs only once and is always counted as one operation, even if it does not return a bundle. 
+* The first module in a scenario runs only once and is always counted as one operation, even if it does not return a bundle. 
 
-The number of times the rest of the modules run depends on the number of bundles they must process.  One run of a module for one bundle is one operation. An exception is the aggregator module, which is counted as one operation per set of bundles being processed.
+* The number of times the rest of the modules run depends on the number of bundles they must process.  One run of a module for one bundle is one operation. An exception is the aggregator module, which is counted as one operation per set of bundles being processed.
 
-The following are **not** counted as operations:
+* Operations are counted at the Finalization stage of a scenario execution.
 
-* Any filter steps.
+* The following are **not** counted as operations:
 
-* Any action that errors or halts.
+  * Any filter steps.
 
-* Any route that does not run because the route's rules were not met, such as fallback or disabled routes.
+  * Any action that errors or halts.
 
-* Any action that does not run, either because a filter didn't allow data through or because the scenario stopped due to an error.
+  * Any route that does not run because the route's rules were not met, such as fallback or disabled routes.
 
+  * Any action that does not run, either because a filter didn't allow data through or because the scenario stopped due to an error.
+
+## Operation limits for your organization
+
+Your organization may have a monthly operations limit. This is based on the Workfront plan that your organization purchased. The Ultimate Workfront plan offers unlimited operations.
+
+If your organization has a monthly limit, you will be notified when you near the limit. If you go over the limit, Workfront will contact your organization to ensure that your plan meets your needs.
 
 ## View the number of operations performed in the last 30 days
 
