@@ -13,7 +13,7 @@ hide: yes
 You can use a Relationship-type field to connect the following: 
 
 * Maestro record types and their fields. 
-* Maestro record types with objects from another applications and their fields. For more information, see [Connect Maestro records to Workfront objects](../maestro/connect-maestro-records-to-workfront-objects.md). <!--consider renaming this article to maybe something generic when we can link from other apps as well-->
+* Maestro record types with objects from another application and their fields. For more information, see [Connect Maestro records to Workfront objects](../maestro/connect-maestro-records-to-workfront-objects.md). <!--consider renaming this article to maybe something generic when we can link from other apps as well-->
 
 By doing this, you can display fields from the linked record or object on another Maestro record.
 
@@ -66,7 +66,7 @@ By doing this, you can display fields from the linked record or object on anothe
 * You can view fields other users create and fields created by you are visible to everyone who has access to Maestro. 
 * A relationship-type field is a connection from one record type to another. The relationship-type field displays the record type you connect to. For this reason, we will refer to the relationship-type field as the "linked record field."
 * You can add fields from the record types you connect. For this reason, we will refer to the fields that belong to the connected record types as "linked fields".
-* You can select the records you connect to in the linked record type field. 
+* After you create individual records for a record type, you can select the records you connect to in the linked record type field. 
 * You cannot select the values for the linked fields, as they automatically populate from the original record type they belong to.  
 * You can edit linked record fields. You cannot edit linked fields. 
 
@@ -86,7 +86,7 @@ You can create a Relationship-type field to connect two record types and their f
     >We recommend that you include the name of the record you are linking to in the name of the relationship-type field to capture what record type the new field is coming from. The name of the linked record is not visible in the new linked record field or its linked fields. 
 
      * **Description**: Additional information about the relationship-type field. The description of a field displays when you hover over the field's column in a table. 
-     * **Find a record type**: The record type that you want to link to. This is the linked record. <!-- logged a bug to rename this to Linked record type-->
+     * **Linked record type**: The record type that you want to link to. This is the linked record. You can select an operational record type or a taxonomy. 
      * **Allow multiple records**: This allows you to select multiple records when the linked record type field displays on the original records. This is selected by default.
 
 1. (Optional) Select the fields that belong to the linked record type that you want to display as linked fields on the original records. Use the **search** icon ![](assets/search-icon.png) to search for a field. 
@@ -109,13 +109,15 @@ You can create a Relationship-type field to connect two record types and their f
 
     >[!NOTE]
     >
-    >For example, you can link the Program record (linked record) from the Campaign record (original record). You also choose to link the Program Budget field from the Campaign record, and you select Program 1 with a Budget of $120,000 and Program 2 with a Budget of $100,000. You can view the following Budget information in the linked field from the original record, depending on which aggregator you choose: 
+    >For example, you can link the Product record (linked record) from the Campaign record (original record) and name it "Product field". You can also choose to link the Budget field of the Product record from the Campaign record and call it "Product Budget". If you allowed to select multiple records in the "Product field", you can select Product 1 with a Budget of $120,000 and Product 2 with a Budget of $100,000. You can view the following Budget information in the linked field from the original record, depending on which aggregator you choose: 
     >
-    >* **None**: $120, 000, $100,000
+    >* **None**: $120,000, $100,000
     >* **MAX**: $120,000
     >* **MIN**: $100,000
     >* **SUM**: $220,000
-    >* **AVG**: $110,000  <!--LEFT HERE on June 12-->
+    >* **AVG**: $110,000  
+    >
+    >For more information, see the [Example of creating and updating a Relationship-type field](#example-of-creating-and-updating-a-relationship-type-field) section in this article. 
 
 1. Click **Create**.
 
@@ -132,40 +134,46 @@ This section describes an example of how to create a field by linking record typ
 
 For example, you have a record type named Campaign as your original record type. 
 
-You also have another record type called Program, which has a currency field called Budget. 
+You also have another record type called Product, which has a currency field called Budget. 
 
-You want to create a field on the record type of Campaign where you can show the values that users select for the Budget field on the record type Product. 
+You want to create a field on the record type of Campaign where you can show the values of the Budget field on the record type Product. 
 
 To do this:
 
-1. Start by opening the table view for the Campaign record type. 
+1. Open the table view for the Campaign record type. 
 1. Click the **+** icon in the upper-right corner of the table view to add a new field, then expand the **Field type** drop-down menu and select **Relationship**. 
 1. Add the following information, for example:
 
-    * **Name**: Program Budget. This is the name of the linked record field. 
-    * **Description**: This is the budget of the program associated with this campaign. 
-    * * **Allow multiple records**: Leave this option selected. This allows users to select multiple records when the linked record type field displays on the original records.
-1. From the list of fields associated with the **Program**, select the **Budget** field. This creates a field called **Budget (from Program Budget)**, which is the name of the linked field. 
-1. (Optional and conditional) Select **SUM** in the drop-down menu to the right of the field name. When users select multiple programs in the **Program Budget** linked record field, the **Budget (from Program Budget)** field adds all their Budget values together and displays the total. <!-- check the shot below - added a bug with a couple of UI changes here-->
+    * **Name**: Product information. This is the name of the linked record field. 
+    * **Description**: This is the Product that I want my Campaigns associated with. 
+    *** Linked record type**: Product
+    * * **Allow multiple records**: If you leave this option selected, this allows users to select multiple records when the linked record type field (Product information) displays on the original records (Campaigns).
+1. From the list of fields associated with the **Product** record type, select the **Budget** field. This creates a field called **Budget (from Product information)**, which is the name of the linked field. 
 
-    ![](assets/example-of-relationship-field-program-budget-with-sum.png)
+    >[!TIP]
+    >
+    >    If you want to view the Budget of all selected products as one total number, select **SUM** in the drop-down menu to the right of the field name. When users select multiple products in the **Product information** linked record field, the **Budget (from Product information)** field adds all their Budget values together and displays the total. <!-- check the shot below - added a bug with a couple of UI changes here-->
+    > If you select **None**, instead of **SUM**, the individual budgets will display separated by commas.
+
+    ![](assets/example-of-relationship-field-product-information-budget-with-sum.png)
 
     This generates two fields in the Campaign record table view and two fields in the Details page of a campaign: 
 
-    * Program Budget (the linked record field)
-    * Budget (from Program Budget) (the linked field) 
-1. To populate the **Program Budget** field, go to the **Campaign** record type table view. 
-1. Create a campaign by adding a new row in the table, then expand the **Program Budget** field. Select a program or multiple programs from the list. 
+    * **Product information** (the linked record field): This will display the name or names of the Products. 
+    * **Budget (from Product information)** (the linked field): This will display the Budgets of the Products selected in the Product information field. 
+1. To populate the **Product information** field, from the **Campaign** record type table view, create a campaign by adding a new row in the table. 
+1. Click the **+** icon inside the  **Product information** column of the new campaign. The **Connect objects** box displays. The name of the record type that you are linking to (Product) displays in the upper-left corner of the box.
 
-    ![](assets/program-budget-example-multiple-values-selected.png)
+    ![](assets/connect-objects-box-to-select-other-maestro-records-example-for-product-record.png)
 
-1. Click outside the **Program Budget** field to save the values.
-    The values for the **Budget** field on the programs selected displays as a total in the **Budget (from Program Budget)** field on the campaign. The same fields display on the Details page of a campaign.
+1. Select the Product records you want to connect with the Campaign records, then click **Connect objects**.
 
-    ![](assets/example-of-linked-fields-on-details-page-of-campaign.png)
+    The following columns are populated in the Campaign record type table: 
+    * The Product information field populates for the Campaign record with the selected Products. 
+    * The Budget (from Product information) field populates with the Budget value for each selected Product. 
+
+    ![](assets/example-product-information-and-budget-relationship-fields-for-campaign-record-table.png)
 
     >[!TIP]
     >
     >When you do not select an aggregator for the multiple values, all values display separated by commas. 
-    >
-    >![](assets/example-multiple-values-separated-by-commas-no-aggregator.png)
