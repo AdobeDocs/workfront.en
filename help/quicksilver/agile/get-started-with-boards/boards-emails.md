@@ -9,8 +9,6 @@ exl-id: 7ec9f9cc-274c-4253-8441-d7ffe9afd78d
 ---
 # Boards email notifications and preferences
 
-{{highlighted-preview}}
-
 [!DNL Adobe Workfront] [!UICONTROL Boards] sends you an email when you are added to a board and when a card is assigned to you. The notifications are turned on by default and you can select in your Boards preferences which emails you want to receive.
 
 >[!NOTE]
@@ -53,6 +51,8 @@ You must have the following access to perform the steps in this article:
 
    The preferences you set for emails apply to all of your boards.
 
+<!--
+
 <div class="preview">
 
 ## Set the dark mode preference
@@ -69,3 +69,5 @@ You must have the following access to perform the steps in this article:
    The preference you set for dark mode applies to all of your boards and workstreams, and the dashboard.
 
 </div>
+
+-->
