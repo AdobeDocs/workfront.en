@@ -126,13 +126,13 @@ The 23.3 release webinar will be held on June 29, 2023. You can [register for th
                 </tr>                             
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Dark mode now available on Adobe Workfront Boards</a><span style="color: #ff0000;"> New in Preview!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Dark mode now available on Adobe Workfront Boards</a></p>
                         <p>You can now display all of your boards and workstreams in dark mode. The new setting is available through the preferences on the Boards dashboard.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
                         <ul>
                             <li>
-                                <p>Preview release: June 22, 2023<span style="color: #ff0000;"> This feature has been removed from Preview and will not be released with 23.1.</span></p>
+                                <p>Preview release: June 22, 2023<span style="color: #ff0000;"> This feature has been removed from Preview and will not be released with 23.3.</span></p>
                             </li>
                             <li>
                                 <p>Production release for all customers: N/A</p>
@@ -142,13 +142,13 @@ The 23.3 release webinar will be held on June 29, 2023. You can [register for th
                 </tr>                
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Goals available on workstream iterations in Adobe Workfront Boards</a><span style="color: #ff0000;"> New in Preview!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Goals available on workstream iterations in Adobe Workfront Boards</a></p>
                         <p>We have added the ability to add goals to an iteration, without having to list the goals on a card. Goals are added in a checklist format and can be marked complete. The metrics area on the top right of the iteration shows how many goals exist and how many have been completed.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
                         <ul>
                             <li>
-                                <p>Preview release: June 22, 2023<span style="color: #ff0000;"> This feature has been removed from Preview and will not be released with 23.1.</span></p>
+                                <p>Preview release: June 22, 2023<span style="color: #ff0000;"> This feature has been removed from Preview and will not be released with 23.3.</span></p>
                             </li>
                             <li>
                                 <p>Production release for all customers: N/A</p>
