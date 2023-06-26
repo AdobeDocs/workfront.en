@@ -34,6 +34,8 @@ The "user order" option returns the cards to the order they were manually set, b
 
 For more information, see [Filter and search in a board](/help/quicksilver/agile/get-started-with-boards/filter-search-in-board.md).
 
+[View a video demonstration of this feature.](https://video.tv.adobe.com/v/3420932/){target=_blank}
+
 ## Dark mode now available on Adobe Workfront Boards
 
 You can now display all of your boards and workstreams in dark mode. The new setting is available through the preferences on the Boards dashboard.
