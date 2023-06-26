@@ -36,6 +36,8 @@ For more information, see [Filter and search in a board](/help/quicksilver/agile
 
 [View a video demonstration of this feature.](https://video.tv.adobe.com/v/3420932/){target=_blank}
 
+<!--
+
 ## Dark mode now available on Adobe Workfront Boards
 
 You can now display all of your boards and workstreams in dark mode. The new setting is available through the preferences on the Boards dashboard.
@@ -46,13 +48,19 @@ You can now display all of your boards and workstreams in dark mode. The new set
 
 For more information, see [Boards email notifications and preferences](/help/quicksilver/agile/get-started-with-boards/boards-emails.md).
 
+-->
+
+<!--
+
 ## Goals available in workstream iterations in Adobe Workfront Boards
 
 We have added the ability to add goals to an iteration, without having to list the goals on a card. Goals are added in a checklist format and can be marked complete. The metrics area on the top right of the iteration shows how many goals exist and how many have been completed.
 
-<!--Also, the Next Iteration column is now available on iteration boards. When you place a card in this column, it is automatically carried to the next iteration and does not return to the backlog. On the next iteration, the card appears in the column that corresponds with its status.-->
+Also, the Next Iteration column is now available on iteration boards. When you place a card in this column, it is automatically carried to the next iteration and does not return to the backlog. On the next iteration, the card appears in the column that corresponds with its status.
 
 For more information, see [Create an iteration in a workstream](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md).
+
+-->
 
 ## Add comments to cards on boards
 
