@@ -15,8 +15,6 @@ exl-id: 7ec9f9cc-274c-4253-8441-d7ffe9afd78d
 >
 >Email notifications are available only through the early feature opt-in for Workfront Boards.
 
-<span class="preview">Additional preferences allow you to enable dark mode for all of your boards and workstreams.</span>
-
 ## Access requirements
 
 You must have the following access to perform the steps in this article:
