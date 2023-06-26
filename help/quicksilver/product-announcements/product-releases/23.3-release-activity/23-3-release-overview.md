@@ -11,7 +11,7 @@ This page provides information about functionality that is included in the 23.3 
 
 The enhancements on this page are available in the Preview environment. This page will be updated with additional enhancements as the 23.3 release nears its planned Production release.
 
-The 23.3 release webinar will be held on June 29, 2023. You can [register for the webinar here](https://wcc.on24.com/webcast/present?e=4212784&k=62C9CAD129E5CEBBAB5D6776CDFCB645).
+The 23.3 release webinar will be held on June 29, 2023. You can [register for the webinar here](https://webinars.on24.com/adobe_workfront/whatsnewin233?partnerref=exlreleaseoverview).
 
 <span class="preview">Off-cycle features (those releasing to Production prior to the 23.3 release date) are highlighted in yellow.</span>
 
@@ -126,32 +126,32 @@ The 23.3 release webinar will be held on June 29, 2023. You can [register for th
                 </tr>                             
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Dark mode now available on Adobe Workfront Boards</a><span style="color: #ff0000;"> New in Preview!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Dark mode now available on Adobe Workfront Boards</a></p>
                         <p>You can now display all of your boards and workstreams in dark mode. The new setting is available through the preferences on the Boards dashboard.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
                         <ul>
                             <li>
-                                <p>Preview release: June 22, 2023</p>
+                                <p>Preview release: June 22, 2023<span style="color: #ff0000;"> This feature has been removed from Preview and will not be released with 23.3.</span></p>
                             </li>
                             <li>
-                                <p>Production release for all customers: With the 23.3 release</p>
+                                <p>Production release for all customers: N/A</p>
                             </li>
                         </ul>
                     </td>
                 </tr>                
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Goals available on workstream iterations in Adobe Workfront Boards</a><span style="color: #ff0000;"> New in Preview!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Goals available on workstream iterations in Adobe Workfront Boards</a></p>
                         <p>We have added the ability to add goals to an iteration, without having to list the goals on a card. Goals are added in a checklist format and can be marked complete. The metrics area on the top right of the iteration shows how many goals exist and how many have been completed.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
                         <ul>
                             <li>
-                                <p>Preview release: June 22, 2023</p>
+                                <p>Preview release: June 22, 2023<span style="color: #ff0000;"> This feature has been removed from Preview and will not be released with 23.3.</span></p>
                             </li>
                             <li>
-                                <p>Production release for all customers: With the 23.3 release</p>
+                                <p>Production release for all customers: N/A</p>
                             </li>
                         </ul>
                     </td>

@@ -10,8 +10,6 @@ exl-id: 37b8810d-8439-4a7a-89d5-7c2560422ace
 ---
 # Create an iteration in a workstream
 
-{{highlighted-preview}}
-
 An iteration is a set amount of time reserved for completing work. Some agile teams may refer to an iteration as a sprint.
 
 ## Access requirements
@@ -84,12 +82,13 @@ You must have the following access to perform the steps in this article:
 
    Once an iteration has started, you can only change the iteration name and not the dates or iteration length.
 
+<!--   
+
 1. <span class="preview">To add goals to the iteration, expand [!UICONTROL **Goals**].</span>
 1. <span class="preview">Click [!UICONTROL **Add goal**], and type the goal name.</span>
 
    <span class="preview">As goals are completed during the iteration, you can select the check box to mark them complete, or click the **Delete** icon ![Delete icon](assets/delete.png) to delete a goal. The metrics area on the top right of the iteration shows how many goals exist and how many have been completed.</span>
 
-<!--
 <div class="preview">
 
 ## Assign cards to the next iteration
