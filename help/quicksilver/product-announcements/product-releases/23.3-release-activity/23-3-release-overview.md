@@ -132,10 +132,10 @@ The 23.3 release webinar will be held on June 29, 2023. You can [register for th
                     <td><p><b>Available on these dates:</b></p>
                         <ul>
                             <li>
-                                <p>Preview release: June 22, 2023</p>
+                                <p>Preview release: June 22, 2023<span style="color: #ff0000;"> This feature has been removed from Preview and will not be released with 23.1.</span></p>
                             </li>
                             <li>
-                                <p>Production release for all customers: With the 23.3 release</p>
+                                <p>Production release for all customers: N/A</p>
                             </li>
                         </ul>
                     </td>
@@ -148,10 +148,10 @@ The 23.3 release webinar will be held on June 29, 2023. You can [register for th
                     <td><p><b>Available on these dates:</b></p>
                         <ul>
                             <li>
-                                <p>Preview release: June 22, 2023</p>
+                                <p>Preview release: June 22, 2023<span style="color: #ff0000;"> This feature has been removed from Preview and will not be released with 23.1.</span></p>
                             </li>
                             <li>
-                                <p>Production release for all customers: With the 23.3 release</p>
+                                <p>Production release for all customers: N/A</p>
                             </li>
                         </ul>
                     </td>
