@@ -12,7 +12,7 @@ exl-id: 8e3edfb6-6822-4970-aa59-5fe5ee97d3b2
 
 >[!NOTE]
 >
->There is a [known issue](https://experienceleague.adobe.com/docs/workfront-known-issues/issues/new-workfront-experience/wf-current/wf-integrations-error-when-opening-wf-for-gsuite.html?lang=en) with the current version of [!DNL Workfront for G Suite] not working as expected. We are working on a new version and expect it to be released to the [!DNL Google Marketplace] in the near future. 
+>The most recent version of the Adobe Workfront plugin for Google was released on June 26, 2023. 
 
 Without leaving [!DNL G Suite], you can post a new update or a reply to an existing update on a [!DNL Adobe Workfront] object.
 
