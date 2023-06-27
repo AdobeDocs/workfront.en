@@ -17,7 +17,9 @@ For general information on the new commenting experience, including a list of fe
 >
 >The new commenting experience launched in Beta with the 23.2 release. For information about the original release, see [23.2 Release overview](../../product-releases/23.2-release-activity/23-2-release-overview.md). 
 >
->Commenting features that are released to the beta experience for Workfront objects are also released to the Updates section of a goal object in Workfront Goals. 
+>Commenting features that are released to the beta experience for Workfront objects are also released to the Updates section of the following objects as the only commenting experience: 
+>* Goals
+>* Cards in the Boards area. 
 
 ## Release timeline
 
