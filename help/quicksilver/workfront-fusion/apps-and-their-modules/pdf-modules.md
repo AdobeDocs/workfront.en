@@ -16,7 +16,9 @@ For information about modules, see [Modules in [!DNL Adobe Workfront Fusion]](..
 
 For information on the API used for PDF Services, see [Adobe Document Generation API](https://www.adobe.io/apis/documentcloud/dcsdk/doc-generation.html).
 
-## Considerations when using [!DNL Adobe PDF Services]
+## Security considerations when using [!DNL Adobe PDF Services]
+
+<!--
 
 * [You do not need an [!DNL Adobe] account](#you-do-not-need-an-adobe-account) 
 * [[!DNL Workfront Fusion] does not store your files](#workfront-fusion-does-not-store-your-files)
@@ -28,6 +30,8 @@ Because [!DNL Workfront Fusion] is part of the [!DNL Adobe] product suite, you d
 Although [!DNL Workfront Fusion] does not require an [!DNL Adobe] account to use the PDF Services, the modules do require a connection. There are no credentials involved in this connection, and you provide only a name for the connection itself.
 
 ### [!DNL Workfront Fusion] does not store your files 
+
+-->
 
 The [!DNL Adobe PDF Services] can read, convert, or modify your files, but neither [!DNL Adobe] nor [!DNL Workfront Fusion] store your files or data. This means that:
 
@@ -72,6 +76,59 @@ You must have the following access to use the functionality in this article:
 To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
 
 For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Workfront Fusion] licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+
+## Create a connection to [!DNL Adobe PDF Services]
+
+To create a connection for your [!DNL Adobe PDF Services] modules:
+
+1. In any [!DNL Adobe PDF Services] module, click **[!UICONTROL Add]** next to the Connection box.
+
+1. Fill in the following fields:
+
+   <table style="table-layout:auto"> 
+      <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column1">
+      </col>
+      <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column2">
+      </col>
+      <tbody>
+        <tr>
+          <td role="rowheader">[!UICONTROL Connection type]</td>
+          <td>
+            <p>Select whether you want to create a server-to-server connection or a JWT connection.</p>
+          </td>
+        </tr>
+        <tr>
+          <td role="rowheader">[!UICONTROL Connection name]</td>
+          <td>
+            <p>Enter a name for this connection.</p>
+          </td>
+        </tr>
+        <tr>
+          <td role="rowheader">[!UICONTROL Client ID]</td>
+          <td>Enter your [!DNL Adobe] [!UICONTROL Client ID]. This can be found in the [!UICONTROL Credentials details] section of the [!DNL Adobe Developer Console].</td>
+        </tr>
+        <tr>
+          <td role="rowheader">[!UICONTROL Client Secret]</td>
+          <td>Enter your [!DNL Adobe] [!UICONTROL Client Secret]. This can be found in the [!UICONTROL Credentials details] section of the [!DNL Adobe Developer Console].
+        </tr>
+        <tr>
+          <td role="rowheader">[!UICONTROL Technical account ID] (JWT only)</td>
+          <td>Enter your [!DNL Adobe] [!UICONTROL Technical account ID]. This can be found in the [!UICONTROL Credentials details] section of the [!DNL Adobe Developer Console].
+        </tr>
+        <tr>
+          <td role="rowheader">[!UICONTROL Organization ID] (JWT only)</td>
+          <td>Enter your [!DNL Adobe] [!UICONTROL Organization ID]. This can be found in the [!UICONTROL Credentials details] section of the [!DNL Adobe Developer Console].
+        </tr>
+        <tr>
+          <td role="rowheader">[!UICONTROL Meta scopes] (JWT only)</td>
+          <td>
+            Enter any meta scopes needed for the connection.
+          </td>
+        </tr>
+       </tbody>
+    </table>
+1. Click **[!UICONTROL Continue]** to save the connection and return to the module.
+
 
 ## [!DNL Adobe PDF Services] modules and their fields
 
