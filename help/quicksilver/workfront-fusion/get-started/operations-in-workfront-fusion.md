@@ -40,9 +40,9 @@ If your organization has a monthly limit, you will be notified when you near the
 
 ## View the number of operations performed in the last 30 days
 
-You can see a graphs showing the number of operations performed in the last year, in the last week, in the last 30 days, and in the current month. These graphs are available in the following locations:
+You can see a graphs showing the number of operations performed. These graphs are available in the following locations:
 
 * **Organization dashboard**: Operations used by the entire organization
-* **Team dashboard**: Operations used by scenarios owned by this team
-* **Scenario details page**: Operations used by this scenario
+* **Team dashboard**: Operations used by scenarios owned by this team ([!DNL Adobe Experience Cloud] only)
+* **Scenario details page**: Operations used by this scenario ([!DNL Adobe Experience Cloud] only)
 
