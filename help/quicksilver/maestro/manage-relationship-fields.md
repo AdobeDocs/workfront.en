@@ -17,6 +17,8 @@ You can use a Relationship-type field to connect the following:
 
 By doing this, you can display fields from the linked record or object on another Maestro record.
 
+This article describes how you can connect two Maestro record types. 
+
 ## Access requirements
 
 <table style="table-layout:auto">
@@ -63,9 +65,15 @@ By doing this, you can display fields from the linked record or object on anothe
 
 ## Considerations about Relationship-type fields
 
+* You can create relationship-type fields between the following entities:
+    * Two operational record types
+    * Two taxonomies
+    * An operational record type and a taxonomy
 * You can view fields other users create and fields created by you are visible to everyone who has access to Maestro. 
-* A relationship-type field is a connection from one record type to another. The relationship-type field displays the record type you connect to. For this reason, we will refer to the relationship-type field as the "linked record field."
-* You can add fields from the record types you connect. For this reason, we will refer to the fields that belong to the connected record types as "linked fields".
+* A relationship-type field is a connection from one record type to another. 
+* After you create a relationship-type field from one record type, a similar field is created on the linked record type that refers back to the original record type. We will refer to the fields that refer to another record type "record fields". 
+* After you create a relationship-type field to establish the connection between two records, you can add several relationship-type fields that refer to the connected records' additional fields. We will refer to the fields that belong to the connected record types as "linked fields".
+* Relationship-type fields are preceded by a relationship icon ![](assets/relationship-field-icon.png).
 * After you create individual records for a record type, you can select the records you connect to in the linked record type field. 
 * You cannot select the values for the linked fields, as they automatically populate from the original record type they belong to.  
 * You can edit linked record fields. You cannot edit linked fields. 
@@ -121,12 +129,27 @@ You can create a Relationship-type field to connect two record types and their f
 
 1. Click **Create**.
 
-    The following fields (or columns) are added to the original record type in the table view:
+    The following relationship-type fields (or columns) are added to the original record type in the table view:
         
     * The linked record field with the name you selected in step 2. <!--ensure this stays accurate--> 
     * The linked field from the linked record, which is named according to this pattern: 
 
         `<Name of the original field on the linked record> (from <Name of your linked field>)`
+
+    The following relationship-type field is added to the linked record type: 
+
+    * The field that indicates what record type the linked record type is linking from. The relationship-type field of the linked record type uses the same name as the original record type. For more information, see the [Example of creating and updating a Relationship-type field](#example-of-creating-and-updating-a-relationship-type-field) section in this article. 
+
+1. (Optional) From either the original record type or the linked record type table view, click the drop-down to the right of the relationship-type record field, then click Edit field. 
+
+    ![](assets/edit-field-on-relationship-record-field.png)
+1. Select additional fields at the bottom of the **New field** tab, to add more linked field to the record type table, then click **Save**.   
+
+    ![](assets/add-fields-to-record-relationship-field-when-editing-relationship-field.png)
+
+    A new linked field is added to the record type table for each field you selected. The new relationship fields are named according to the following pattern: 
+
+    `<Name of the original field on the linked record> (from <Name of your linked field>)`
 
 ### Example of creating and updating a Relationship-type field
 
@@ -157,10 +180,23 @@ To do this:
 
     ![](assets/example-of-relationship-field-product-information-budget-with-sum.png)
 
-    This generates two fields in the Campaign record table view and two fields in the Details page of a campaign: 
+    This generates the following fields: 
+    
+    * In the Campaign record table view and in the Details page of a campaign: 
 
-    * **Product information** (the linked record field): This will display the name or names of the Products. 
-    * **Budget (from Product information)** (the linked field): This will display the Budgets of the Products selected in the Product information field. 
+        * **Product information** (the linked record field): This will display the name or names of the Products. 
+        * **Budget (from Product information)** (the linked field): This will display the Budgets of the Products selected in the Product information field. 
+
+    * In the Product record table view and in the Details page of a product: 
+
+        * **Campaign**: This indicates that the Product record type is linked from the Campaign record type.
+
+        ![](assets/example-campaign-information-relationship-fields-from-product-record-table.png)
+
+    >[!TIP]
+    >
+    >    Relationship-type fields are preceded by the relationship icon ![](assets/relationship-field-icon.png). 
+
 1. To populate the **Product information** field, from the **Campaign** record type table view, create a campaign by adding a new row in the table. 
 1. Click the **+** icon inside the  **Product information** column of the new campaign. The **Connect objects** box displays. The name of the record type that you are linking to (Product) displays in the upper-left corner of the box.
 
@@ -177,3 +213,7 @@ To do this:
     >[!TIP]
     >
     >When you do not select an aggregator for the multiple values, all values display separated by commas. 
+
+1. To populate the **Campaign** field from the **Product** table view, repeat steps 5-7 starting from the Product record type table view and selecting campaign information. <!--ensure the step numbers remain correct--> 
+
+    
