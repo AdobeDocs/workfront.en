@@ -159,7 +159,9 @@ The following table illustrates the Lag Types and how to indicate the amount of 
   </tr> 
   <tr> 
    <td> <p>Percent (p or pe)</p> </td> 
-   <td> <p>The delay is expressed as a percentage of the estimated time to complete the predecessor task. </p> <p>For example, if there is a finish-start dependency with at 20% lag between on a 10 day predecessor task, the system will calculate how many days is 20% of the predecessors task duration and use that as the lag. In this case it would be 2 days after the task's completion. </p> <p>Note: The maximum lag limit for percent is 2000%.</p> </td> 
+   <td> <p>The delay is expressed as a percentage of the estimated time to complete the predecessor task. </p> <p>For example, if there is a finish-start dependency with a 20% lag on a 10-day predecessor task, the system will calculate how many days represent 20% of the predecessors task duration and use that as the lag. In this case it would be 2 days after the task's completion. </p> 
+   
+   <p><b>NOTE</b></p> The maximum lag limit for percent is 2000%.</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Day of Week (w) </p> </td> 
@@ -172,7 +174,17 @@ The following table illustrates the Lag Types and how to indicate the amount of 
      <li>Thursday=5</li> 
      <li>Friday=6</li> 
      <li>Saturday=7</li> 
-    </ul> <p>If you want to indicate that the Planned Start Date of the successor should fall on a Tuesday of the current week, and the Tuesday is prior to the Planned Completion Date of the predecessor, you would code your successor with the following formula: </p> <p><code style="font-style: normal;">4fs-3w</code> </p> <p>Note:  If the Tuesday passed for the week of the Planned Completion Date of the predecessor, then the Planned Start Date of the successor task is the first available working day of that week. </p> <p>If you want to indicate that the lag should fall on a Saturday of the current week, and the Saturday is after the Planned Completion Date of the predecessor, you would code your successor with the following formula:</p> <p><code style="font-style: normal;">4fs+7w</code> </p> <p>If Saturday is a non-working day, the next available day after Saturday (to indicate positive lag) is selected as the Planned Start Date of the successor. </p> <p>To indicate past or future weeks, you can add a number in front of the day number for the lag type. </p> <p>For example, to indicate the Monday of 10 weeks ago, you can use this code to indicate the predecessor of your successor:</p> <p><code>4fs-102w</code> </p> <p>10 indicates 10 weeks ago, and 2 is the number assigned to Monday. </p> </td> 
+    </ul> <p>If you want to indicate that the Planned Start Date of the successor should fall on a Tuesday of the current week, and the Tuesday is prior to the Planned Completion Date of the predecessor, you would code your successor with the following formula: </p> <p><code style="font-style: normal;">4fs-3w</code> </p> 
+    
+  <p><b>NOTE</b></p>
+  
+  If the Tuesday passed for the week of the Planned Completion Date of the predecessor, then the Planned Start Date of the successor task is the first available working day of that week. </p> <p>If you want to indicate that the lag should fall on a Saturday of the current week, and the Saturday is after the Planned Completion Date of the predecessor, you would code your successor with the following formula:</p> <p><code>4fs+7w</code> </p> <p>If Saturday is a non-working day, the next available day after Saturday (to indicate positive lag) is selected as the Planned Start Date of the successor. </p> 
+    
+  <p>This does not apply to schedule exceptions. In case a date is also a schedule exception and the Start Date of the successor is calculated to be that day, then the system tries to find the nearest available date which is the day of the week specified in the predecessor expression.</p>
+
+  <p>For example, if the Start Date is calculated to be a certain Tuesday and that day is a schedule exception and the lag of the predecessor is positive then it will choose the following Tuesday (if that is also a working day) as the Start Date of the successor. If the lag is negative, then the system chooses the previous Tuesday as the Start Date.</p>
+
+   <p>To indicate past or future weeks, you can add a number in front of the day number for the lag type. </p> <p>For example, to indicate the Monday of 10 weeks ago, you can use this code to indicate the predecessor of your successor:</p> <p><code>4fs-102w</code> </p> <p>10 indicates 10 weeks ago, and 2 is the number assigned to Monday. </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Day of Week Non Zero (k)</p> </td> 

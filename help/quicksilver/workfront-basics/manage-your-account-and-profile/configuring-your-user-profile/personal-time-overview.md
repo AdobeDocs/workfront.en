@@ -26,8 +26,6 @@ Resource Management tools also use your personal time off to indicate when you a
 >* [Edit a user's profile](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)
 >
 
-
-
 ## Access requirements
 
 You must have the following access to perform the steps in this article:
@@ -40,15 +38,16 @@ You must have the following access to perform the steps in this article:
  <tbody> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
-   <td> <p>Any</p> </td> 
+   <td>Any</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] license*</strong></td> 
-   <td> <p>[!UICONTROL Work] or higher (to configure your personal time off)</p> </td> 
+   <td>[!UICONTROL Work] or higher (to configure your personal time off)</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Access level configurations*</strong></td> 
-   <td>[!UICONTROL Manager] with [!UICONTROL Edit User] access (to make changes to the Time-off calendar of other users)</td> 
+   <td>[!UICONTROL Manager] with [!UICONTROL Edit User] access (to make changes to the time off calendar of other users)<br>
+   <strong>NOTE:</strong> If a manager edits another user's personal time off calendar, all entries are shown in the user's time zone and not the manager's time zone.</td> 
   </tr> 
  </tbody> 
 </table>

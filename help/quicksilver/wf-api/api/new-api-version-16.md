@@ -21,7 +21,7 @@ No resources were removed for API version 16
 
 ## Modified resources
 
-* <!--[AccessLevel (ACSLVL)](#accesslevel-acslvl)-->
+<!--* [AccessLevel (ACSLVL)](#accesslevel-acslvl)-->
 * [Approval (APPROVAL)](#approval-approval)
 * [CustomerPreferences (CUSTPR)](#customerpreferences-custpr)
 * [ExternalSection (EXTSEC)](#externalsection-extsec)
@@ -181,7 +181,7 @@ A CustomerPreferences object represents the set of preferences that a customer h
           <li>
             <p><b>getIsAutoUpgradeDisabled</b>
             </p>
-            <p>This action returns a boolean that describes whether the customer has disabled the option to auto-upgrade Contributer license holders.</p>
+            <p>This action returns a boolean that describes whether the customer has disabled the option to auto-upgrade Contributor license holders.</p>
          </li>
         </ul>
       </td>

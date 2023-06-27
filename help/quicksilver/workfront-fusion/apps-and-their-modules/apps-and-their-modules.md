@@ -85,7 +85,7 @@ This section contains the following articles:
 * [[!DNL HubSpot CRM] modules](../../workfront-fusion/apps-and-their-modules/hubspot-crm-modules.md) 
 * [Image modules](../../workfront-fusion/apps-and-their-modules/image-module.md) 
 
-  <!--
+<!--
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../workfront-fusion/apps-and-their-modules/iso-modules.md" class="MCXref xref" xrefformat="{para}">ISO modules</a> </li>
   -->
 

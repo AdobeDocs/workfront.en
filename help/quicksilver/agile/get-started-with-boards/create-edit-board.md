@@ -57,6 +57,12 @@ You must have the following access to perform the steps in this article:
 
       The [!UICONTROL **Cards being added**] counter shows how many cards will be on the board. For example, if you select a project with 100 tasks and issues, the counter shows 100. If you add a user assignment and that person is assigned to 5 tasks on the project, the counter shows 5.
 
+   1. (Optional) Select [!UICONTROL **Include completed work**] to include completed cards on the board.
+   
+      >[!NOTE]
+      >
+      >If this option is not selected, when cards in other statuses are marked complete, they will "fall off" the board and no longer be displayed.
+
    1. (Optional) Click [!UICONTROL **Use advanced filters**] to display additional filter options.
 
       This is the same process as creating a filter on an intake column. For more information, see [Add an intake column to a board](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md).

@@ -11,7 +11,7 @@ exl-id: 4e0b73b6-0d6d-4971-a87a-dfec85fb031a
 
 You can upload files using WorkFront APIs with API tools, such as Postman, or with simple cURL commands.
 
-To upload documents, see the instructions for **Uploading Documents** in WorkFront [Post Behavior](https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&topicId=Content%2FWF_API%2FGeneral%2Fapi-basics.html). You can also use these same instructions for cURL requests.
+To upload documents, see the instructions for **Uploading Documents** in WorkFront [Post Behavior](/help/quicksilver/wf-api/general/api-basics.md#post-behavior). You can also use these same instructions for cURL requests.
 
 **When using API tools to upload files, follow these guidelines:**
 

@@ -34,7 +34,7 @@ exl-id: 2169dc2e-2135-47e0-a615-3de12cd120a9
   </tr> 
   <tr> 
    <td role="rowheader">App or service</td> 
-   <td> <p>A software application, most commonly.</p> <p>An app can also be a special function that manipulates data, such as an iterator or an aggregator. </p> <p>A service is a source of bundles that might include a web API, web page, different types of servers (FTP, SMTP, IMAP), and so on. </p> <p> <img src="assets/apps-350x420.jpg" style="width: 350;height: 420;"> </p> </td> 
+   <td> <p>A software application, most commonly.</p> <p>An app can also be a special function that manipulates data, such as an iterator or an aggregator. </p> <p>A service is a source of bundles that might include a web API, web page, different types of servers (FTP, SMTP, IMAP), and so on. </p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">App connector</td> 

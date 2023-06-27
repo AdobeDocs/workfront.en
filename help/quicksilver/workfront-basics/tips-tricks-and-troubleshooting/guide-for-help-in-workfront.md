@@ -86,15 +86,6 @@ The following resources can help you determine how you can use [!DNL Workfront]:
    <td><a href="https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront">[!DNL Workfront] Community</a> </td> 
    <td>The [!DNL Workfront] Community allows you to have conversations with [!DNL Workfront] users and experts all over the world. They're always there to help answer your questions or point you in the right direction.</td> 
   </tr> 
-  <!--<tr> 
-   <td><a href="https://one.workfront.com/s/groups" target="_blank">User groups</a> </td> 
-   <td>Come together with other [!DNL Workfront] users in your geographical, industry, and interest areas to share and learn, both virtually and in person.</td> 
-  </tr> --><!--
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td><a href="https://www.workfront.com/leap">Leap</a> </td> 
-    <td> <p>This premier modern work management event is designed to help you gain the skills to master modern work.</p> <p>Leap is your opportunity to network with the largest collection of Workfront users each year. Learn from the brightest minds in keynotes, interactive breakouts, and one-on-one consulting sessions. Get a sneak peek of the Workfront product roadmap and discover how companies like yours are leveraging Workfront as their operational system of record.<br>To learn more, see <a href="https://www.workfront.com/leap-us/whyattend">Why to attend Leap</a>.</p> </td> 
-   </tr>
-  --> 
  </tbody> 
 </table>
 
@@ -119,7 +110,7 @@ These 3 steps can help you as a [!DNL Workfront] administrator stay on top of ea
    <td> 
     <ul> 
      <li> <p>Test the latest updates in your [!DNL Workfront] <a href="https://experience.workfront.com/s/article/The-Workfront-Preview-Sandbox-Environment-519456234">Sandbox</a>.</p> </li> 
-     <li> <p>Determine how those updates impact the way your people work. Our <a href="https://experienceleague.adobe.com/docs/workfront/using/home.html?lang=en">Knowledge Base</a> and <a href="https://one.workfront.com/s/event?tabset-79c36=e4025&amp;tabset-0ce9c=e4025">webinars</a> can help! Our Product Managers often cite the direct end user or business problem solved by the functionality, helping you shortcut the change impact.</p> </li> 
+     <li> <p>Determine how those updates impact the way your people work. Our <a href="https://experienceleague.adobe.com/docs/workfront/using/home.html?lang=en">Knowledge Base</a> and <a href="https://experienceleague.adobe.com/events/?lang=en">events</a> can help! Our Product Managers often cite the direct end user or business problem solved by the functionality, helping you shortcut the change impact.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -147,7 +138,6 @@ The following resources can help you learn more about the [!DNL Workfront] API a
 |---|---|
 | [[!DNL Workfront] built-in integrations](https://www.workfront.com/integrations) | Workfront's free built-in integrations allow you and your team to smoothly transition into the Workfront platform while maintaining the same workflows and processes. |
 | [[!DNL Adobe Workfront Fusion]](../../workfront-fusion/workfront-fusion-2.md) | Connects [!DNL Workfront] to 100+ applications, making it easy to automate your business critical processes without code. |
-| [[!DNL Adobe Workfront] API Developer forum](../../wf-api/general/api-developer-forum.md) | For those who are looking to access API documentation, participate in our development forum, or read our tech blog, this site is the place for you. |
 
 {style="table-layout:auto"}
 
@@ -163,6 +153,6 @@ To learn what has been fixed in a weekly Maintenance Update, see [Maintenance Up
 
 The following dashboards can help you as a [!DNL Workfront] administrator maintain Workfront:
 
-| [[!DNL Workfront] Usage Dashboard](https://one.workfront.com/s/article/Workfront-Usage-Dashboard) | Understanding how your users are leveraging [!DNL Workfront] can help you gauge the overall adoption of your system as well as dive into any problem areas that may need some attention. |
+| [[!DNL Workfront] Usage Dashboard](https://experienceleaguecommunities.adobe.com/t5/workfront-archived-groups/workfront-usage-dashboard/m-p/461045#M2624) | Understanding how your users are leveraging [!DNL Workfront] can help you gauge the overall adoption of your system as well as dive into any problem areas that may need some attention. |
 |---|---|
-| [[!DNL Workfront] Cleanup Dashboard: Deactivate Unused Objects](https://one.workfront.com/s/article/Workfront-Cleanup-Dashboard) | Keeping [!DNL Workfront] clean from unused objects is a long-standing best practice but one that can seem daunting without the right tools. This dashboard is designed for System Administrators or Process Owners to easily find [!DNL Workfront] data that may need to be cleaned up to help improve the user experience. We recommend reviewing this dashboard every quarter to help keep [!DNL Workfront] clean. |
+| [[!DNL Workfront] Cleanup Dashboard: Deactivate Unused Objects](https://experienceleaguecommunities.adobe.com/t5/workfront-blogs/how-workfront-cleaned-up-its-own-unbridled-instance-of-workfront/ba-p/518299) | Keeping [!DNL Workfront] clean from unused objects is a long-standing best practice but one that can seem daunting without the right tools. This dashboard is designed for System Administrators or Process Owners to easily find [!DNL Workfront] data that may need to be cleaned up to help improve the user experience. We recommend reviewing this dashboard every quarter to help keep [!DNL Workfront] clean. |

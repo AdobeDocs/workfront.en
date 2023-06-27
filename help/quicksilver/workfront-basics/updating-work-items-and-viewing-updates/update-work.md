@@ -11,7 +11,7 @@ exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
 
 <!--take "Beta" references out when we remove the beta-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> -->
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers only in the Preview environment.</span>
 
 >[!NOTE]
 >
@@ -20,19 +20,21 @@ exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
 >For more information about the new commenting experience, see [New commenting experience](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). 
 >
 >You can access the new experience for the following objects:
-> * Issues, when enabling the commenting Beta.
+> * Issues, <span class="preview">projects, tasks, and documents</span>.
 >
->     This functionality is available only for the Updates section of issues, and it is not available for the following areas:
+>     This is available when you enable the commenting Beta experience.
+>
+>     This functionality is available only for the Updates section, and it is not available for the following areas:
 >
 >     * Home
 >     * Summary panel in lists
 >     * Summary panel in timesheets
 >
-> * Goals
+> * Goals, cards in the Boards area
 >
->   The new commenting experience is the default for goals. You must have an additional license to access Workfront Goals. For more information, see [Requirements to uses Workfront Goals](../../workfront-goals/goal-management/access-needed-for-wf-goals.md). 
+>   The new commenting experience is the only experience for goals and cards. You must have an additional license to access Workfront Goals. For more information, see [Requirements to uses Workfront Goals](../../workfront-goals/goal-management/access-needed-for-wf-goals.md). 
 >
->    For information about commenting on goals, see [Manage goal comments in Adobe    Workfront Goals](../../workfront-goals/goal-management/manage-goal-comments.md).
+>     You can add and view updates to cards in the Boards area when you enable the Comments and System Activity sections on a card. For more information, see [Add an ad hoc card to a board](../../agile/get-started-with-boards/add-card-to-board.md).
 
 You can add comments to most objects in Adobe Workfront in the Updates section. For more information about which objects display the Updates section, see [Updates section overview](../updating-work-items-and-viewing-updates/updates-tab-overview.md). 
 
@@ -123,7 +125,9 @@ Adding an update to a work item differs depending on what version of the Updates
 
 >[!NOTE]
 >
->The following functionality is available for all objects except for goals. You must have an additional license to access Workfront Goals. For information about commenting on goals, see [Manage goal comments in Adobe Workfront Goals](../../workfront-goals/goal-management/manage-goal-comments.md)
+>The following functionality is available for all objects except for goals and cards. You must have an additional license to access Workfront Goals. For information about commenting on goals, see [Manage goal comments in Adobe Workfront Goals](../../workfront-goals/goal-management/manage-goal-comments.md).
+>
+>You can add and view updates to cards in the Board areas when you enable the Comments and System Activity sections on a card. For more information, see [Add an ad hoc card to a board](../../agile/get-started-with-boards/add-card-to-board.md).
 
 1. Go to the work item for which you want to provide an update (such as a project, task, or issue).
 1. Click the **Updates** section.
@@ -179,18 +183,23 @@ Adding an update to a work item differs depending on what version of the Updates
 
 ### Add an update to a work item using the commenting Beta experience
 
+For information about what features are available for the new commenting experience and for what objects, see [New commenting experience](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). 
+
 1. Locate the object you want to update, then click its name to open the object's page.
 1. Click  **Updates** in the left panel. 
 1. Enable the **Commenting Beta** toggle in the upper-right corner of the Updates area, then click **Agree** on the Beta agreement. This switches the Updates area to the commenting Beta experience. 
    The **Comments** tab is selected by default. 
 1. Start entering a comment in the **New comment** box. 
    
-   ![](assets/comment-box-empty-unshimmed.png)
+   <span class="preview">![](assets/comment-box-empty-unshimmed.png)</span>
 
    >[!TIP]
    >
    >Navigating away from the Updates section before you finish typing and submitting a comment keeps the comment on the page in draft mode even after you log off and log back on. Any images that are added to the comment are also saved in the draft. Drafts are saved for 7 days after which they are discarded and cannot be recovered. Drafted comments are only visible to the user entering them.
 
+1. (Optional) To undo or redo a change, use the following shortcut keys:
+      * CTRL + Z (⌘+z for Mac) to undo a change 
+      * CTRL + Y (⌘+y for Mac) to redo a change 
 1. (Optional) In the **Tag people or teams** area, start typing the name or the email of a user, or a team that you would like to include in this comment, then select it when it displays in the list. 
 1. (Optional) To add rich text formatting to your update, use any of the following options from the **Rich Text** toolbar to enhance your text: 
 
@@ -223,7 +232,8 @@ Adding an update to a work item differs depending on what version of the Updates
 
    >[!TIP]
    >
-   >   An email is generated to notify users of your update only when you submit the original update. No email is generated after you edited your update.
+   >* An email is generated to notify users of your update only when you submit the original update. No email is generated after you edited your update.
+   >* The date stamp next to the comment is the date of the original comment, not the date of the last edit. 
 
 1. (Optional) Click **Reply** to reply to an existing comment, then follow the steps 4-7 above. <!--(**************insure this stays accurate***********)-->. For information about replying to an update, see [Reply to updates](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).
 1. (Conditional and optional) If other users have added comments that display outside of the visible area in the Updates section, click **View** inside the blue **new comments banner** at the bottom of the screen  to display these comments.
@@ -263,17 +273,19 @@ You can enhance your updates by using Rich Text, or adding various items to it, 
 1. Go to the Updates area and start typing a comment. 
 1. (Optional) To add rich text formatting to your update, use any attributes on the **Rich Text** toolbar as you type.
 
-   | **Attribute** |**Toolbar Button** |**Mac Shortcut Keys** |**PC Shortcut Keys** |
+   | **Attribute** |**Toolbar button** |**Mac shortcut keys** |**Windows shortcut keys** |
    |---|---|---|---|
    | Bold | ![mceclip10.png](assets/mceclip10.png)|⌘+b |Ctrl+B |
    | Italics | ![mceclip9.png](assets/mceclip9.png)|⌘+i |Ctrl+I |
    | Underline | ![mceclip8.png](assets/mceclip8.png)|⌘+u |Ctrl+U |
-   | Hyperlink | ![mceclip7.png](assets/mceclip7.png)|⌘+K |Ctrl+K |
+   | Hyperlink | ![mceclip7.png](assets/mceclip7.png)| <br>To open the Create Links or Add links box: ⌘+K</br> <br>In the commenting beta experience, to paste a link over the selected text: ⌘+V</br>  | <br>To open the Create Links or Add links box: Ctrl+K</br> <br>In the commenting beta experience, to paste a link over the selected text: Ctrl+V</br> |
    | Bulleted List | ![mceclip6.png](assets/mceclip6.png)|⌘+Shift+8 |Ctrl+Shift+8 |
    | Numbered List | ![mceclip5.png](assets/mceclip5.png)|⌘+Shift+7 |Ctrl+Shift+7 |
    | Block Quote | ![](assets/block-quote-icon-large.png)|⌘+Shift+9 |Ctrl+Shift+9 |
 
     To stop formatting text, deselect the attribute on the **Rich Text** toolbar.
+
+   <!-- in the table above: take "Create Links" verbiage from the hyperlink when the old commenting is removed and the commenting beta is the only way to comment-->
 
    >[!NOTE]
    >
@@ -300,7 +312,7 @@ You can enhance your updates by using Rich Text, or adding various items to it, 
 1. (Optional) To add a URL link to additional information sources:
 
    1. Click in your update where you want to insert a link.
-   1. On the **Rich Text** toolbar, click the **Hyperlink** icon. ![](assets/link-icon.png)  
+   1. On the **Rich Text** toolbar, click the **Hyperlink** icon ![](assets/link-icon.png).  
 
    1. In the **Create Link** box that appears, under **URL**, type or paste the URL of the source to which you want to link.
    
@@ -332,20 +344,17 @@ You can enhance your updates by using Rich Text, or adding various items to it, 
 
 ## Copy update information
 
-<!--drafted for beta release toggle - remove when copying an update will be available:
-
->[!NOTE]
->
->Copying an update is not possible when using the Beta commenting experience.
--->
-
 There are several ways you can copy an update. After copying a link, you can share the link with others to direct them to the update.
+
+Copying an update differs depending on which commenting experience you use. 
+
+### Copy an update in the current commenting experience
 
 * [Copy the update](#copy-the-update) 
 * [Copy the thread link](#copy-the-thread-link) 
 * [Copy the update link](#copy-the-update-link)
 
-### Copy the update {#copy-the-update}
+#### Copy the update {#copy-the-update}
 
 This option copies the text from a specific update to the clipboard.
 
@@ -354,24 +363,49 @@ This option copies the text from a specific update to the clipboard.
 
    ![Select Copy body text](assets/update-stream-copy-body-text-350x152.png)
 
-### Copy the thread link {#copy-the-thread-link}
+#### Copy the thread link {#copy-the-thread-link}
 
 This option copies the full thread link to the clipboard so you can share the thread with other users.
 
 1. Go to the update thread you want to copy.
 
-1. Click the **More** menu, then click **Copy thread link** or **Copy link**, when using the Beta experience.
+1. Click the **More** menu, then click **Copy thread link**.
 
    ![](assets/update-stream-comment-menu-marked-350x152.png)
 
-### Copy the update link {#copy-the-update-link}
+#### Copy the update link {#copy-the-update-link}
 
 This option copies a specific update link to the clipboard. When you share the update link, the user who follows it sees a border around the update.
 
 1. Go to the update or reply you want to copy.
-1. Click the **More** menu next to the individual update, then click **Copy update link** or **Copy link**, when using the Beta experience.
+1. Click the **More** menu next to the individual update, then click **Copy update link**.
 
    ![](assets/update-stream-reply-menu-marked-350x182.png)
+
+
+### Copy an update in the new commenting experience   
+
+For information about what features are available for the new commenting experience and for what objects, see [New commenting experience](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). 
+
+<!--when we remove and deprecate the legacy stream, add screen shots in the secitons below-->
+
+* [Copy link](#copy-link)
+* [Copy body text](#copy-body-text)
+
+#### Copy link 
+
+This option copies the comment or thread link to the clipboard so you can share the comment or the entire thread with other users.
+
+1. Go to the update whose link you want to copy.
+
+1. Click the **More** menu, then click **Copy link**.
+
+#### Copy body text
+
+This option copies the text from a specific update to the clipboard.
+
+1. Go to the update or reply you want to copy.
+1. Click the **More** menu, then click **Copy body text**.
 
 ## Delete an update or reply
 

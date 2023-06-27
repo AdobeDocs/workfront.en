@@ -178,9 +178,9 @@ The properties of a data store include the data structure that the data store us
 ### Edit the contents of a data store 
 
 1. Click the **[!UICONTROL Data Store]** icon ![](assets/data-store-icon.png) in the left navigation panel to open the [!UICONTROL Data Store] area.
-1. Click **[!UICONTROL Browse]** ![](assets/browse-data-store.png) next to the data store that you want to edit.
+1. Click **[!UICONTROL Browse]**  next to the data store that you want to edit.
 1. (Optional) Reorder columns by dragging them to the desired location.
-1. (Optional) [!UICONTROL Edit] a single cell by clicking the **[!UICONTROL Edit]** icon ![](assets/data-store-edit.png)in that cell, then entering the desired value.
+1. (Optional) [!UICONTROL Edit] a single cell by clicking the **[!UICONTROL Edit]** icon in that cell, then entering the desired value.
 1. (Optional) Add a new item to the data store by clicking **[!UICONTROL Add]**, then entering the information for the new item.
 1. Click **[!UICONTROL Save]**.
 

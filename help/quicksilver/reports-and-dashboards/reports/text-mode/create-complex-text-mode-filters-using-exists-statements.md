@@ -72,7 +72,7 @@ Consider the following rules when using EXISTS statements in a filter:
 
 * You must use the object code of the Linking Object to connect your statements.  
   You can find the object code of all objects in the API Explorer.  
-  For information about the API Explorer, see the [API Explorer](https://one.workfront.com/s/api-explorer).
+  For information about the API Explorer, see the [API Explorer](../../../wf-api/general/api-explorer.md).
 
 * When a Linking Object is missing because the Original and the Target Objects are connected to each other directly, you can use the Object Code of the Target Object instead of the Linking Object.  
 * You can refer to multiple fields (Target Fields) on the same object (Target Object) in which case you must connect the lines that are referring to the fields by AND.  

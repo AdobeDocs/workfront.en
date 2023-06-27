@@ -3,7 +3,7 @@ product-previous: mobile
 navigation-topic: use-the-workfront-mobile-app
 title: Home area widgets
 description: The home area widgets for both iOS and Android help you find your work items quickly.
-author: Lisa
+author: Nolan
 feature: Get Started with Workfront
 exl-id: 36af1b05-4c95-4b8e-9b96-03b30fa9852c
 ---

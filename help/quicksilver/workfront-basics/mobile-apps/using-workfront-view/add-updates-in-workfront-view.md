@@ -4,7 +4,7 @@ product-area: projects
 navigation-topic: use-workfront-view
 title: Add updates in Adobe Workfront View
 description: You can review and add updates to projects you are reviewing in the [!DNL Adobe Workfront] View app.
-author: Lisa
+author: Nolan
 feature: Get Started with Workfront
 exl-id: 5d0260ad-7049-42c6-a8a0-9b53fb115ec6
 ---
