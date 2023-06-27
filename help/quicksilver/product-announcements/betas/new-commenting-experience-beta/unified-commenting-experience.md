@@ -51,6 +51,18 @@ The following features have been removed from the new experience:
 * Ability to edit status, condition, commit date while commenting
 * Edit custom form
 
+>[!NOTE]
+>
+>The objects listed below have only the comments and system updates from the past year (starting with June 2022) available when enabling the beta experience.  
+>
+>* Issues
+>* <span class="preview">Projects</span>
+>* <span class="preview">Tasks</span>
+>* <span class="preview">Documents</span>
+>
+>You can view comments and system updates prior to June 2022 when viewing the Updates section in the current experience.
+
+
 The following table illustrates the features that will be available in the new commenting experience as well as their availability in areas where they are supported: 
 
 <table>
