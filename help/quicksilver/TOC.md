@@ -2086,7 +2086,6 @@ feature-set: Workfront
       * [Use Mutual TLS in HTTP modules in Adobe Workfront Fusion](workfront-fusion/apps-and-their-modules/http-modules/use-mtls-in-http-modules.md)
     * [HubSpot CRM modules](workfront-fusion/apps-and-their-modules/hubspot-crm-modules.md)
     * [Image modules](workfront-fusion/apps-and-their-modules/image-module.md)
-    * [Intacct modules](workfront-fusion/apps-and-their-modules/intacct-modules.md)
     * [Jira Software modules](workfront-fusion/apps-and-their-modules/jira-software-modules.md)
     * [JSON modules](workfront-fusion/apps-and-their-modules/json-modules.md)
     * [MariaDB modules](workfront-fusion/apps-and-their-modules/mariadb-modules.md)

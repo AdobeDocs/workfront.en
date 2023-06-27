@@ -84,7 +84,6 @@ This section contains the following articles:
 * [[!UICONTROL HTTP] modules](../../workfront-fusion/apps-and-their-modules/http-modules/http-modules-1.md) 
 * [[!DNL HubSpot CRM] modules](../../workfront-fusion/apps-and-their-modules/hubspot-crm-modules.md) 
 * [Image modules](../../workfront-fusion/apps-and-their-modules/image-module.md) 
-* [[!DNL Intacct] modules](../../workfront-fusion/apps-and-their-modules/intacct-modules.md)
 
   <!--
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../workfront-fusion/apps-and-their-modules/iso-modules.md" class="MCXref xref" xrefformat="{para}">ISO modules</a> </li>
