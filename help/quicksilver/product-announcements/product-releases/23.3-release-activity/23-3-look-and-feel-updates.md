@@ -24,17 +24,17 @@ The improvements are:
 * there is now a loading indicator when the page uploads;
 * the Copy icon is persistent and accompanied by text and it becomes disabled when no requests are selected.
 
-For more information, see [Copy and submit requests](/help/quicksilver/manage-work/requests/create-requests/copy-and-submit-requests.md).
+For more information, see [Copy and submit requests](/help/quicksilver/manage-work/requests/create-requests/copy-and-submit-requests.md). The documentation will be updated after the feature releases. 
 
-## Updated design when submitting a new request
+## Updated design when adding a new issue to a project 
 
 >[!NOTE]
 >
 >Planned Preview release: July 5, 2023; Planned Production release: with the 23.3 release
 
-We have updated the New request box which displays when submitting a new request. Now, the interface matches the New issue box which displays when adding a new issue to a project.
+We have updated the New Issue box which displays when submitting a new issue to a project. Now, the interface matches the New request box which displays when submitting a new request to a request queue.
 
-For more information, see [Create and submit Adobe Workfront requests](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md).
+For more information, see [Create issues](../../../manage-work/issues/manage-issues/create-issues.md). The documentation will be updated after the feature releases. 
 
 ## Updated Billing Rates list
 
