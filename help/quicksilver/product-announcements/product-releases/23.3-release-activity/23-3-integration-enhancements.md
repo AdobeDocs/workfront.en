@@ -12,7 +12,7 @@ For a list of all changes available at this point in the 23.3 release cycle, see
 
 ## New G Suite integration now available
 
-A new G Suite integration is now available in the Google Marketplace. The new integration authenticates using OAuth2, and replaces the current integration.
+A new G Suite integration is now available in the Google Marketplace. The new integration authenticates using OAuth2, and replaces the previous integration.
 
 The previous G Suite integration is now deprecated, and will be automatically uninstalled.
 
