@@ -15,7 +15,7 @@ For a list of all changes available with the 23.3 release, see [23.3 Release ove
 
 >[!NOTE]
 >
->Planned Preview release: June 28, 2023; Planned Production release: July 13, 2023
+>Planned Preview release: June 29, 2023; Planned Production release: July 13, 2023
 
 We have made improvements to the interface of the Submitted requests list.
 
@@ -30,7 +30,7 @@ For more information, see [Copy and submit requests](/help/quicksilver/manage-wo
 
 >[!NOTE]
 >
->Planned Preview release: July 5, 2023; Planned Production release: with the 23.3 release
+>Planned Preview release: July 6, 2023; Planned Production release: with the 23.3 release
 
 We have updated the New Issue box which displays when submitting a new issue to a project. Now, the interface matches the New request box which displays when submitting a new request to a request queue.
 
