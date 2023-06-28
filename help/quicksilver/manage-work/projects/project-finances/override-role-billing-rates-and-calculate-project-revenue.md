@@ -88,7 +88,7 @@ A job role can have a billing rate associated with it in the following ways:
 
 * As a Workfront administrator, you can define rate cards with multiple billing rates per role, based on location and date. When a rate card is attached to a project, all of the roles (by location, if locations are used) and their associated billing rates are added to the project's billing rates section. Attaching a rate card overrides any existing billing rates on the project.
   
-  For more information, see Manage rate cards and Attach a rate card to a project.
+  For more information, see [Manage rate cards](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md) and [Attach a rate card to a project](/help/quicksilver/manage-work/projects/project-finances/attach-rate-card-to-project.md).
 
 </div>
 
@@ -109,7 +109,7 @@ As a project manager, you can specify what the billing rate is for a job role on
 
 For information about how to override the Job Role Billing Rates at the project level, see [Override Job Role Billing Rates at the project level](../../../manage-work/projects/project-finances/override-job-role-billing-rates-at-the-project-level.md).
 
-For more information about which job role is used to calculate revenue on the project, see the "Revenue calculations for tasks based on User and Role assignments" section in [Overview of Billing and Revenue](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md). <span class="preview">For information about attaching a rate card to a project, see Attach a rate card to a project.</span>
+For more information about which job role is used to calculate revenue on the project, see the "Revenue calculations for tasks based on User and Role assignments" section in [Overview of Billing and Revenue](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md). <span class="preview">For information about attaching a rate card to a project, see [Attach a rate card to a project](/help/quicksilver/manage-work/projects/project-finances/attach-rate-card-to-project.md).</span>
 
 >[!NOTE]
 >
