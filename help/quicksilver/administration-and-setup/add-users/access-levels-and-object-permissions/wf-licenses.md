@@ -28,7 +28,7 @@ This table and diagram show the main levels of access to Workfront:
 |Plan|System Administrator, Planner|
 |Work|Worker|
 |Review|Reviewer|
-|External*|External User|
+|External|External User|
 
 >[!NOTE]
 >
