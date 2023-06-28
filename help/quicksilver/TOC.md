@@ -1959,6 +1959,7 @@ feature-set: Workfront
     * [Adobe Workfront Fusion performance guardrails](workfront-fusion/get-started/fusion-performance-guardrails.md)
     * [IP Addresses for accessing Adobe Workfront Fusion](workfront-fusion/get-started/ip-addresses-for-fusion.md)
     * [Adobe Workfront Fusion licenses](workfront-fusion/get-started/license-automation-vs-integration.md)
+    * [Operations in [!DNL Adobe Workfront Fusion]](workfront-fusion/get-started/operations-in-workfront-fusion.md)
   * Adobe Workfront Fusion basics {#workfront-fusion-basics}
     * [Adobe Workfront Fusion basics](workfront-fusion/workfront-fusion-basics/workfront-fusion-basics.md)
     * [Change profile settings in Adobe Workfront Fusion](workfront-fusion/workfront-fusion-basics/change-profile-settings.md)

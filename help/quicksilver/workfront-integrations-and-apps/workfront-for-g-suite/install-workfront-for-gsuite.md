@@ -12,7 +12,7 @@ exl-id: eb11d62d-86ed-49fc-8bbc-6f04eb30865d
 
 >[!NOTE]
 >
->There is a [known issue](https://experienceleague.adobe.com/docs/workfront-known-issues/issues/new-workfront-experience/wf-current/wf-integrations-error-when-opening-wf-for-gsuite.html?lang=en) with the current version of [!DNL Workfront for G Suite] not working as expected. We are working on a new version and expect it to be released to the [!DNL Google Marketplace] in the near future. 
+>The most recent version of the [!DNL Adobe Workfront] plugin for [!DNL Google] was released on June 26, 2023. 
 
 You can install the [!DNL Adobe Workfront for G Suite] add-on from the [!DNL G Suite] Marketplace.
 
@@ -39,7 +39,7 @@ You must have the following access to perform the steps in this article:
 
 ## Install [!DNL Workfront for G Suite]
 
-1. Click the following link: [[!DNL Workfront for G Suite]](https://gsuite.google.com/marketplace/app/workfront_for_g_suite/1076371296461)
+1. Click the following link: [[!DNL Workfront for G Suite]](https://workspace.google.com/marketplace/app/adobe_workfront/811980987828)
 
    Or
 

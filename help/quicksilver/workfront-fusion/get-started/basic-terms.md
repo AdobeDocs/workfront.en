@@ -82,7 +82,7 @@ exl-id: 2169dc2e-2135-47e0-a615-3de12cd120a9
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Operation</p> </td> 
-   <td> <p>A task performed by a module. </p> </td> 
+   <td> <p>A task performed by a module.</p><p>For more information, see <a href="../../workfront-fusion/get-started/operations-in-workfront-fusion.md" class="MCXref xref">Operations in [!DNL Adobe Workfront Fusion]</a>.</p>
   </tr> 
   <tr> 
    <td role="rowheader">Public/Private Keys</td> 
