@@ -5,11 +5,12 @@ title: New commenting experience
 description: An update to the commenting experience in Adobe Workfront is currently in development. This update includes a new interface, new features, and improved performance in the Updates section of select objects. 
 author: Alina
 feature: Product Announcements
+role: User
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
 ---
 # New commenting experience
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span>-->
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers only in the Preview environment.</span>
 
 An update to the commenting experience in Adobe Workfront is currently in development. This update includes a new interface, new features, and improved performance in the Updates section of select objects. 
 
@@ -41,13 +42,27 @@ The new commenting experience includes improvements and changes to the existing 
 Among the improvements included in the new commenting experience are the following:
 
 * Improved performance and user experience
-* Separation of user comments from the system activity updates. There are no changes in the way the system updates function. 
+* Separation of user comments from the system activity updates
 * Real-time indicator when new comments are added to an object
-* Editing comments after submitting them. 
+* Editing comments after submitting them
 
 The following features have been removed from the new experience:
 
-* Comment on a system update. 
+* Comment on a system update
+* Ability to edit status, condition, commit date while commenting
+* Edit custom form
+
+>[!NOTE]
+>
+>The objects listed below have only the comments and system updates from the past year (starting with June 2022) available when enabling the beta experience.  
+>
+>You can view comments and system updates on these objects prior to June 2022 when viewing the Updates section in the current experience:
+>* Issues
+>* <span class="preview">Projects</span>
+>* <span class="preview">Tasks</span>
+>* <span class="preview">Documents</span>
+
+
 
 The following table illustrates the features that will be available in the new commenting experience as well as their availability in areas where they are supported: 
 
@@ -96,11 +111,26 @@ The following table illustrates the features that will be available in the new c
   </tr>
   <tr>
  <tr>
-   <td>Rich text (quoting and emojis)
+   <td>Rich text (block quotes)
    </td>
    <td>✓ 
    </td>
+   <td> ✓
+   </td>
    <td> 
+   </td>
+   <td> Q2, 2023
+   </td>
+   <td> 
+   </td>
+  </tr>
+  <tr>
+<tr>
+   <td> Quote comments
+   </td>
+   <td>✓ 
+   </td>
+   <td> <!--<span class="preview">✓</span>-->
    </td>
    <td> ✓
    </td>
@@ -110,7 +140,6 @@ The following table illustrates the features that will be available in the new c
    </td>
   </tr>
   <tr>
-
    <td>React to comments (Like) 
    </td>
    <td>✓ 
@@ -255,13 +284,13 @@ The following table illustrates the features that will be available in the new c
    </td>
    <td>✓ 
    </td>
-   <td> 
+   <td><span class="preview">✓</span>
    </td>
    <td> 
    </td>
    <td> 
    </td>
-   <td>✓ 
+   <td> 
    </td>
   </tr>
   <tr>
@@ -275,7 +304,7 @@ The following table illustrates the features that will be available in the new c
    </td>
    <td> 
    </td>
-   <td>✓ 
+   <td> 
    </td>
   </tr>
   <tr>
@@ -289,7 +318,7 @@ The following table illustrates the features that will be available in the new c
    </td>
    <td> 
    </td>
-   <td>✓ 
+   <td>
    </td>
   </tr>
   <tr>
@@ -376,11 +405,26 @@ The following table illustrates the features that will be available in the new c
    <td>✓ 
    </td>
   </tr>
+
+<tr>
+   <td>Reply to system updates 
+   </td>
+   <td> ✓
+   </td>
+   <td> 
+   </td>
+   <td> 
+   </td>
+   <td>
+   </td>
+   <td> 
+   </td>
+  </tr>
 </table>
 
-## New commenting beta experience release activity
+## Release timeline 
 
-For information about the features recently released, see [New commenting beta exprience release activity](../../betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md).  
+For information about the features recently released to the new commenting experience, as well as a release timeline, see [New commenting beta exprience release activity](../../betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md).  
 
 ## Locate the new commenting experience
 
@@ -388,21 +432,18 @@ The new commenting experience is currently supported for the following objects, 
 
 * When enabling the Beta experience in the Updates section: 
 
-    * Issues 
+    * Issues, <span class="preview">projects, tasks, and documents</span>
 
     For more information about managing updates for Workfront objects, see [Update work](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). 
  
 
 * By default, as the main commenting experience:
 
-    * Goals
+    * Goals, cards in the Boards area
 
     >[!NOTE]
     >
     >You must have an additional license to Adobe Workfront Goals to be able to access this area of Workfront. For more information, see [Requirements to use Workfront Goals](../../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
-
-    For more information about managing updates for goals, see [Manage goal comments in Adobe Workfront Goals](../../../workfront-goals/goal-management/manage-goal-comments.md). 
-
 
 To enable the new commenting experience Beta: 
 

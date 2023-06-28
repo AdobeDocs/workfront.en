@@ -5,10 +5,9 @@ title: Use workflows in the Experience Manager Assets Essentials integration
 description: Use workflows in the Experience Manager Assets Essentials integration
 author: Courtney, Becky
 feature: Digital Content and Documents, Workfront Integrations and Apps
+exl-id: 7fa6559d-5111-4576-9480-85bb9abcd5a7
 ---
 # Use workflows in the Experience Manager Assets integration
-
-<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.</span>
 
 A workflow is a set of actions that connect Workfront to Adobe Experience Manager as a Cloud Service. A Workfront administrator can configure workflows in Workfront, then assign them to Project Templates. When a Project is created using a Project Template to which a workflow is assigned, the actions defined in the workflow are triggered. 
 
@@ -134,4 +133,3 @@ To edit the workflow for linked folders:
    Or
 
    If you are in the Adobe Experience Manager area, your changes save automatically. <!--Do they though?-->
- 

@@ -2,12 +2,12 @@
 content-type: reference
 navigation-topic: betas
 title: 'Reporting Canvas beta: overview'
-description: Information on the beta program for the upcomming Reporting Canvas tool for Adobe Workfront
+description: Information on the beta program for the upcoming Reporting Canvas tool for Adobe Workfront
 author: Nolan
 feature: Product Announcements
-exl-id: cc0adf28-08ab-4330-b901-219ab687f02f
+hidefromtoc: true
+exl-id: f68975c2-50a6-4962-80b7-1b482c0bc1d4
 ---
-
 # Reporting Canvas beta: overview
 
 ## Reporting Canvas
@@ -16,7 +16,7 @@ A complete reimagination of reporting in Workfront, the new Reporting Canvas too
 
 This article contains information about the current private beta, which is limited to specific customers. New Reporting Canvas features are now being deployed through Canvas Dashboards. See **Development plan** below for more information.
 
-### Develpment plan
+### Development plan
 
 We are in the final stages of resolving a data quality issue we observed early in the Reporting Canvas beta. We will soon resume work to provide new visualizations, expand the selection of reportable Workfront objects, and improve the report creation and distribution experiences, all of which are integral to realizing our goals for Reporting Canvas.
 

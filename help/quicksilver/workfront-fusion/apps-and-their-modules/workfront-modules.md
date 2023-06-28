@@ -38,11 +38,19 @@ You must have the following access to use the functionality in this article:
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] license**</td> 
-   <td> <p>[!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p>  <p>[!UICONTROL [!DNL Workfront Fusion] for Work Automation]</p></td> 
+   <td>
+   <p>Current license requirement: No [!DNL Workfront Fusion] license requirement.</p>
+   <p>Or</p>
+   <p>Legacy license requirement: [!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration],  [!UICONTROL [!DNL Workfront Fusion] for Work Automation]</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>Your organization must purchase [!DNL Adobe Workfront Fusion] as well as [!DNL Adobe Workfront] to use functionality described in this article.</td> 
+   <td>
+   <p>Current product requirement: If you have the [!UICONTROL Select] or [!UICONTROL Prime] [!DNL Adobe Workfront] Plan, your organization must purchase [!DNL Adobe Workfront Fusion] as well as [!DNL Adobe Workfront] to use functionality described in this article. [!DNL Workfront Fusion] is included in the [!UICONTROL Ultimate] [!DNL Workfront] plan.</p>
+   <p>Or</p>
+   <p>Legacy product requirement: Your organization must purchase [!DNL Adobe Workfront Fusion] as well as [!DNL Adobe Workfront] to use functionality described in this article.</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
@@ -1661,7 +1669,7 @@ By using event subscription filters, Fusion users can create event subscriptions
 
 This is different from setting up a filter in the [!DNL Workfront Fusion] scenario. Without an event subscription filter, your webhook receives all events related to the object type you select. Most of these events would be irrelevant to the scenario, and must be filtered out before the scenario can continue.
 
-The following operators are avaialble in the Workfront > Watch events filter:
+The following operators are available in the Workfront > Watch events filter:
 
 * Equals
 * Not equals
@@ -1671,13 +1679,13 @@ The following operators are avaialble in the Workfront > Watch events filter:
 * Less than or equal to
 * Contains
 * Exists
+    * This operator does not require a value, and the value field is absent.
 * Does not exist
+    * This operator does not require a value, and the value field is absent.
 * Changed
-
->[!NOTE]
->
-> * The `Exists`, `Does not exist`, and `Changed` operators do not require a value, and the value field is absent from these options.
-> * The `Changed` operator ignores the State field.
+    * This operator does not require a value, and the value field is absent.
+    * This operator ignores the State field.
+    * When using `Changed`, select **Updated Events Only** in the **Record Origin** field. 
 
 >[!IMPORTANT]
 >

@@ -12,7 +12,7 @@ exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
 
 <!--take "Beta" references out when we remove the beta-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> -->
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers only in the Preview environment.</span>
 
 >[!NOTE]
 >
@@ -21,19 +21,21 @@ exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
 >For more information about the new commenting experience, see [New commenting experience](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). 
 >
 >You can access the new experience for the following objects:
-> * Issues, when enabling the commenting Beta.
+> * Issues, <span class="preview">projects, tasks, and documents</span>.
 >
->     This functionality is available only for the Updates section of issues, and it is not available for the following areas:
+>     This is available when you enable the commenting Beta experience.
+>
+>     This functionality is available only for the Updates section, and it is not available for the following areas:
 >
 >     * Home
 >     * Summary panel in lists
 >     * Summary panel in timesheets
 >
-> * Goals
+> * Goals, cards in the Boards area
 >
->   The new commenting experience is the default for goals. You must have an additional license to access Workfront Goals. For more information, see [Requirements to uses Workfront Goals](../../workfront-goals/goal-management/access-needed-for-wf-goals.md). 
+>   The new commenting experience is the only experience for goals and cards. You must have an additional license to access Workfront Goals. For more information, see [Requirements to uses Workfront Goals](../../workfront-goals/goal-management/access-needed-for-wf-goals.md). 
 >
->    For information about commenting on goals, see [Manage goal comments in Adobe    Workfront Goals](../../workfront-goals/goal-management/manage-goal-comments.md).
+>     You can add and view updates to cards in the Boards area when you enable the Comments and System Activity sections on a card. For more information, see [Add an ad hoc card to a board](../../agile/get-started-with-boards/add-card-to-board.md).
 
 The Updates section of an object displays comments that users make on the object or system updates that track changes to the object.
 
@@ -50,7 +52,7 @@ The Updates section of an object shows up to 200 of the most recent updates made
 The current Updates section shows the following information:
 
 * Comments made by users and replies to those comments. 
-* System updates which are informational messages that Workfront creates to record certain events on an objects. For example, you can capture changes in status, name, or custom fields with system updates. Your Workfront or group administrator can enable system updates for your ojects. For more information, see [Configure system updates](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
+* System updates which are informational messages that Workfront creates to record certain events on an objects. For example, you can capture changes in status, name, or custom fields with system updates. Your Workfront or group administrator can enable system updates for your objects. For more information, see [Configure system updates](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
 
 The Updates section displays for the following objects:
 
@@ -71,27 +73,30 @@ The Updates section displays for the following objects:
     </ul> </td> 
    <td> 
     <ul> 
-     <li>Stories</li> 
+     <li>Stories*</li> 
      <li>Tasks</li> 
      <li>Templates</li> 
      <li>Template Tasks</li> 
      <li>Timesheets</li> 
-     <li>Users</li> 
+     <li>Users</li>
     </ul> </td> 
   </tr> 
  </tbody> 
 </table>
+*Stories are tasks. All information that is related to tasks is also available for stories. 
 
 ### Overview of the Updates section in the Beta commenting experience
 
 ![](assets/updates-tab-after-unified-experience-for-issues.png)
 
+For information about what features are available for the new commenting experience and for what objects, see [New commenting experience](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+
 The Updates section displays information in the following tabs in the new commenting experience: 
 
 * **Comments**: Displays comments made by users and replies to those comments. For information about updating objects in the new commenting experience, see [Update work](../updating-work-items-and-viewing-updates/update-work.md). 
-* **System Activity**: Displays system updates which are informational messages that Workfront creates to record certain events on an objects. For example, you can capture changes in status, name, or custom fields with system updates. Your Workfront or group administrator can enable system updates for your ojects. For more information, see [Configure system updates](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
+* **System Activity**: Displays system updates which are informational messages that Workfront creates to record certain events on an objects. For example, you can capture changes in status, name, or custom fields with system updates. Your Workfront or group administrator can enable system updates for your objects. For more information, see [Configure system updates](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
 
-Currenlty, you can make comments and reply to updates using the Beta commenting experience on the following objects:
+Currently, you can add comments and reply to updates using the new commenting experience on the following objects:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -101,22 +106,40 @@ Currenlty, you can make comments and reply to updates using the Beta commenting 
    <td> 
     <ul> 
      <li><p>Goals</p>
-     <p>This is the default experience for goals</p>
+     <li>Cards in the Boards area*</li>
+      This is the only experience for goals and cards.
      </li> 
-     </ul> </td> 
+     <li><span class="preview">Projects</span></li>
+    </ul> </td> 
    <td> 
     <ul> 
      <li>Issues</li> 
+     <li><span class="preview">Tasks</span></li>
+     <li><span class="preview">Documents</span></li>
      </ul> </td> 
   </tr> 
  </tbody> 
 </table>
 
+*You can add and view updates to cards in the Board areas when you enable the Comments and System Activity sections on a card. For more information, see [Add an ad hoc card to a board](../../agile/get-started-with-boards/add-card-to-board.md). 
+
 ## Updates that also appear on higher-rank objects
 
-As shown in the following table, replies made to updates on certain objects also appear on the Updates section of higher-ranked objects.
+Comments or replies made to updates on certain objects also appear on the Updates section of higher-ranked objects.
 
 For example, when you add an update to a task, the update appears on the Updates section for the task and on the Updates section for the project containing the task.
+
+>[!NOTE]
+>
+>When enabling the new commenting Beta experience, comments display on the following higher-ranking objects: 
+>
+>* Issues
+>* <span class="preview">Projects</span>
+>* <span class="preview">Tasks</span>
+>
+>For more information, see [New commenting experience](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). 
+
+The following table shows the objects whose comments also display on their higher-ranking objects: 
 
 <table style="table-layout:auto"> 
  <col> 

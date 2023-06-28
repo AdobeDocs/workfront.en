@@ -67,3 +67,12 @@ You must have the following access to perform the steps in this article:
     ![](assets/file-export-settings.png)
 1. Click **[!UICONTROL Upload]**.
    The document appears in the [!UICONTROL Documents] area in the plugin and the desktop app.
+   
+>[!NOTE]
+>
+>If the document exports as a text document, you may need to reset your preferences in [!DNL Adobe Illustrator].
+>
+>1. In [!DNL Illustrator], click the **[!UICONTROL Edit]** tab and select **[!UICONTROL Preferences]**.
+>1. Select **[!UICONTROL General]**.
+>1. Click **[!UICONTROL Reset Preferences]**. 
+>1. Close and restart [!DNL Illustrator].

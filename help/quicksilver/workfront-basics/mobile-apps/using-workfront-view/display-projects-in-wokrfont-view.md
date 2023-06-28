@@ -4,7 +4,7 @@ product-area: projects
 navigation-topic: use-workfront-view
 title: Display projects in Adobe Workfront View
 description: By default, the list of projects displayed in [!DNL Adobe Workfront] View shows the most recent 100 active projects. The list of projects is not grouped by any criteria.
-author: Lisa
+author: Nolan
 feature: Get Started with Workfront
 exl-id: 76db4ed0-a411-49aa-8acd-f149df1f38a4
 ---

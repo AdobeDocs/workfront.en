@@ -62,8 +62,13 @@ You can create a personal task that is available only to you in the [!UICONTROL 
 
 >[!NOTE]
 >
->When you create a personal task, it is stored in a "hidden" project that is not searchable in [!UICONTROL Workfront]. You can only access this project when you delete a task on it (from the task itself, not from the [!UICONTROL Home] area).\
->![[!UICONTROL Project for personal tasks]](assets/createworkitems-personal--project-350x105.png)>
+>* When you create a personal task, it is stored in a "hidden" project that is not searchable in [!UICONTROL Workfront]. The project is named "< User Name >'s Tasks". The "User Name" is the full name of the user who created the task. You can access this project only when you click the personal task in the [!UICONTROL Home] area, from the breadcrumb of the task, for example. 
+>
+>* Unlike regular project tasks, personal tasks have a limited set of fields that are visible in the Workfront interface, and don't influence the timeline or the progress of any project. Reassigning a personal task to another user adds all task fields to a personal task, but the task remains on the personal project of the user who created the task.
+>
+>* We recommend that you create a project and move any personal tasks to it, if you want to make personal tasks part of the regular workflow.
+>
+> ![[!UICONTROL Project for personal tasks]](assets/createworkitems-personal--project-350x105.png)
 
 ## Request work from another user
 

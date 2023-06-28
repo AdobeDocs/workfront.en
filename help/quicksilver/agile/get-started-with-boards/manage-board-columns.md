@@ -13,6 +13,8 @@ A new board contains three columns by default. You can add more columns, change 
 
 Column settings include policies, which allow you to define options for what happens to a card when it is moved into that column.
 
+For information about sorting the cards in columns, see [Filter and search in a board](/help/quicksilver/agile/get-started-with-boards/filter-search-in-board.md).
+
 ## Access requirements
 
 You must have the following access to perform the steps in this article:
@@ -66,6 +68,8 @@ You must have the following access to perform the steps in this article:
    Click the **[!UICONTROL More]** menu ![More menu](assets/more-icon-spectrum.png) on the column and select **[!UICONTROL Edit]**. In the Settings area, type the new name in the **[!UICONTROL Column name]** field, and click **[!UICONTROL Close]**.
 
 ## Delete a board column
+
+When you delete a column from a board, it can't be recovered.
 
 1. Access the board.
 1. Click the **[!UICONTROL More]** menu ![More menu](assets/more-icon-spectrum.png) on the column, and select **[!UICONTROL Delete]**.
