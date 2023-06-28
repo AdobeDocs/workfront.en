@@ -9,7 +9,7 @@ feature: System Setup and Administration
 role: Admin
 exl-id: f92ceed7-b191-425b-9fff-1b0947f32db8
 ---
-# Configure system security preferences
+# Configure system preferences
 
 <!--
 DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.</p>
@@ -17,14 +17,14 @@ DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH T
 
 {{important-admin-console-onboard}}
 
-As an Adobe Workfront administrator, you can configure security preferences for your Workfront system:
+As an Adobe Workfront administrator, you can configure preferences for your Workfront system:
 
 * Access to Workfront from mobile apps and other integrated applications
 * Rules for embedding Workfront in an iframe
 
 Changes that you make in the system preferences impact all users in your system, and their experience in Workfront.
 
-We recommend that you configure your system security preferences during the Workfront implementation and only occasionally revisit them after that.
+We recommend that you configure your system preferences during the Workfront implementation and only occasionally revisit them after that.
 
 ## Access requirements
 
@@ -49,13 +49,13 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-## Configure your system security preferences
+## Configure your system preferences
 
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
 
 1. In the left panel, click **System** > **Preferences**.  
 
-1. In the **Security** section, select any of the following fields to establish the security settings for your organization:
+1. Select any of the following fields to establish the settings for your organization:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -98,6 +98,10 @@ You must have the following access to perform the steps in this article:
      <tr> 
       <td role="rowheader">Automatically log mobile users out after </td> 
       <td>Lets you specify when a user is logged out of the Workfront application, after a period of inactivity. By default, users are logged out after 7 days of inactivity. <p>This option also affects Workfront customers who are using a single sign-on solution.</p></td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Users in the system will default to seeing the New Home experience </td> 
+      <td>Lets you specify whether users will see the New Home experience by default. In either case, users can opt to enable or disable New Home on an individual basis. This option is enabled by default.</td> 
      </tr> 
     </tbody> 
    </table>
