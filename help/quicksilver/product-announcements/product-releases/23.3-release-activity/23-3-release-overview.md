@@ -15,6 +15,19 @@ The 23.3 release webinar will be held on June 29, 2023. You can [register for th
 
 <span class="preview">Off-cycle features (those releasing to Production prior to the 23.3 release date) are highlighted in yellow.</span>
 
+>[!IMPORTANT]
+>
+>The 23.3 release includes the option to move your organization to monthly releases. Therefore, Workfront is changing the numbering scheme of releases to account for both monthly and quarterly release tracks.
+>
+>* If you are on the **fast release (monthly)** track, the release after 23.3 will be **23.8**, in August 2023. 
+> * If you are on the **quarterly** release track, the release after 23.3 will be **23.10**, in October 2023.
+> 
+> Quarterly releases will include functionality from three monthly releases. For example, the 23.10 quarterly release will include functionality released in the 23.8, 23.9, and 23.10 monthly releases.
+>|Monthly release|Quarterly release|
+>|----|----|
+>|<ul><li>23.8 (August 2023)</li><li>23.9 (September 2023)</li><li>23.10 (October 2023)</li></ul>| <ul><li>23.10 (October 2023)</li></ul>|
+>|<ul><li>23.11 (November 2023)</li><li>23.12 (December 2023)</li><li>24.1 (January 2024)</li></ul>| <ul><li>24.1 (January 2024)</li></ul>|
+
 ## Adobe Workfront enhancements
     
 * [Administrator enhancements](#administrator-enhancements)
