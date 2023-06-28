@@ -349,6 +349,22 @@ The 23.3 release webinar will be held on June 29, 2023. You can [register for th
                 </tr>
                 <tr>
                     <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">New G Suite integration now available</a></p> 
+                        <p>A new G Suite integration is now available in the Google Marketplace. The new integration authenticates using OAuth2, and replaces the current integration.</p><p>The previous G Suite integration is now deprecated, and will be automatically uninstalled.</p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                        <ul>
+                            <li>
+                                <p>Preview release: N/A</p>
+                            </li>
+                            <li>
+                                <p><span class="preview">Production release: June 27, 2023</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>                
+                <tr>
+                    <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Adobe Creative Cloud integrations now support multiple assigned users</a></p> 
                         <p>The Adobe Creative Cloud integration now supports the ability to choose between "Done with my part" and "Complete" (or "Resolved") When a task or issue has multiple assigned users.</p>
                     </td>
