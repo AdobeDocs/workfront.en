@@ -9,7 +9,7 @@ exl-id: 3d7581d0-e99c-4204-b1e5-04fde72251bb
 ---
 # Copy and submit requests
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> -->
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span>
 
 When you submit similar requests frequently you can copy an existing submitted request. In this case, you can copy an existing request, make minimal changes to it, and resubmit it as a new request.
 
@@ -80,7 +80,7 @@ You must have a request that you or someone in your organization previously subm
 ## Considerations about copying and submitting requests as new
 
 * You can only copy and submit submitted requests. You cannot copy drafted requests.
-* You can copy and submit requests you originally submitted, or requests that others submitted and you have access to at least&nbsp;View.
+* You can copy and submit requests you originally submitted, or requests that others submitted and you have access to at least View.
 * You always have access to copy and submit a copy of your own requests, unless someone removed your permissions to them.
 * The access to copy and submit requests originally submitted by others might be granted automatically to people in the same company when the creator of the request queue enables the **People from the same company will inherit the same permissions for all requests** in the Queue Details or Edit Project areas. Disabling this setting allows only the original requestor to view their own requests.
 
@@ -116,15 +116,13 @@ You must have a request that you or someone in your organization previously subm
 1. (Conditional) If the Submitted section does not display by default, click **Submitted** in the left panel.
 1. Locate the request that you want to copy and submit as new, and do one of the following:
 
-   * Select it, then click the **Copy and submit as new** icon ![](assets/copy-and-submit-as-new-requests-area-nwe.png) in the upper-left corner of the Submitted requests list. <!--update this icon the 23.3 preview release, or shortly after: replace this step with this: Select it, then click the **Copy** icon ![](assets/copy-and-submit-as-new-requests-area-nwe.png) in the upper-left corner of the Submitted requests list.-->
+   * Select it, then click <span class="preview"> **Copy** ![](assets/copy-and-submit-as-new-requests-area-nwe.png)</span> in the upper-left corner of the Submitted requests list. 
 
-   <!-- reveal this tip for 23.3 preview release:
    >[!TIP]
    >
    > <span class="preview">If you did not select a request first, the Copy icon is dimmed.</span> 
-   -->
 
-   * Click the **More** menu ![](assets/more-icon.png) to the right of the request name, then click **Copy and submit as new** <!--ensure this does not change with the Copy icon improvements with 23.3 preview-->
+   * Click the **More** menu ![](assets/more-icon.png) to the right of the request name, then click **Copy and submit as new** 
 
      Or
 
