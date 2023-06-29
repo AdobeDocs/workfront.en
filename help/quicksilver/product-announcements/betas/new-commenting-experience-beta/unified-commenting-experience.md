@@ -5,6 +5,7 @@ title: New commenting experience
 description: An update to the commenting experience in Adobe Workfront is currently in development. This update includes a new interface, new features, and improved performance in the Updates section of select objects. 
 author: Alina
 feature: Product Announcements
+role: User
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
 ---
 # New commenting experience
@@ -55,12 +56,12 @@ The following features have been removed from the new experience:
 >
 >The objects listed below have only the comments and system updates from the past year (starting with June 2022) available when enabling the beta experience.  
 >
+>You can view comments and system updates on these objects prior to June 2022 when viewing the Updates section in the current experience:
 >* Issues
 >* <span class="preview">Projects</span>
 >* <span class="preview">Tasks</span>
 >* <span class="preview">Documents</span>
->
->You can view comments and system updates prior to June 2022 when viewing the Updates section in the current experience.
+
 
 
 The following table illustrates the features that will be available in the new commenting experience as well as their availability in areas where they are supported: 
@@ -129,9 +130,9 @@ The following table illustrates the features that will be available in the new c
    </td>
    <td>✓ 
    </td>
-   <td> 
+   <td> <span class="preview">✓</span>
    </td>
-   <td> ✓
+   <td> 
    </td>
    <td> Q2, 2023
    </td>

@@ -5,13 +5,15 @@ title: Reply to updates
 description: When someone adds or replies to an update on a work object, their reply appears in the communication thread in the Updates section for the object. You can add a reply to an update or Like it if you have View access to the object.
 author: Lisa and Alina
 feature: Get Started with Workfront
+role: User
+topic: Collaboration
 exl-id: a8271f3c-7a08-4eb3-aaff-deb250f5af73
 ---
 # Reply to updates
 
 <!--take "Beta" references out when we remove the beta-->
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span>
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers only in the Preview environment.</span>
 
 >[!NOTE]
 >
@@ -105,7 +107,7 @@ For information about what features are available for the new commenting experie
 
 1. Go to the object to which you want to add a reply.
 1. Click **Updates**, then click the **Comments** tab for the object and find the comment or reply to which you want to reply.
-<!-- Ensure this link is called and cased the same way as  before: 1. (Optional) To include text from a previous update in your reply, click the **More** menu next to the update or reply you want to quote, then click **Quote Reply**. Text from the previous update appears in the input area, marked with a vertical gray line.-->
+1. <span class="preview">(Optional) To include text from a previous update in your reply, click the **More** menu next to the update or reply you want to quote, then click **Quote reply**. Text from the previous update appears in the input area, marked with a vertical gray line.</span>
 1. Click **Reply**. 
 
    You can see the users who are actively engaged in the conversation at the bottom of the **New comment** box and you can add more, or remove the ones that are no longer relevant. These users, along with any users subscribed to the object, receive a notification whenever an update or reply is made on the object. You can also tag more users to include them in your reply.  To tag more users, see [Tag others on updates](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
