@@ -988,8 +988,8 @@ See a list of the [!DNL Workfront] object types for which you can use this modul
   </tr> 
   <tr> 
    <td>Proof Approval</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td> </td> 
+   <td> </td> 
    <td>✓</td> 
   </tr> 
   <tr> 
