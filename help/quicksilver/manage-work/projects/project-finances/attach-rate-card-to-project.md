@@ -7,6 +7,8 @@ role: User
 ---
 # Attach a rate card to a project
 
+{{highlighted-preview-article-level}}
+
 Rate cards store multiple billing rates per job role, based on location. You could have a job role of Designer based in Paris and a second Designer based in New York, each with different billing rates. However, a location is not required for job roles on a rate card. A billing rate for a job role (and possibly location) on a rate card can also include effective dates.
 
 When you attach a rate card to a project, all of the roles by location and their associated billing rates are added to the project.
