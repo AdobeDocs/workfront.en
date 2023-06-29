@@ -324,6 +324,14 @@ This section lists the features and patches that have been released after the la
 
 The features are released weekly and are listed in the order of their release, with the most recent first. Customers who are participating in the Maestro closed beta program can access all features in their Preview and Production environments. 
 
+### Week of June 26
+
+#### Quick activation of the contextual menu in a table (title) 
+
+Preview and production: June 28, 2023
+ 
+We have enabled the ability to activate the contextual menu by right-clicking anywhere in a record row, when viewing the records in the table view or a record type. You can now quickly view, delete, or copy a link to the record's Details page when you access the contextual menu from anywhere in the table view of a record type. Prior to this enhancement, the contextual menu was accessible only from the More menu in the Name column of a record.  
+
 ### Week of June 19, 2023
 
 #### Record field names are unique
