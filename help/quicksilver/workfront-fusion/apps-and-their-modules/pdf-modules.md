@@ -149,10 +149,12 @@ If you see the map button above a field or function, you can use it to set varia
 * [[!UICONTROL Convert PDF to image]](#convert-pdf-to-image) 
 * [[!UICONTROL Linearize a PDF file]](#linearize-a-pdf-file) 
 * [[!UICONTROL OCR for PDF file]](#ocr-for-pdf-file) 
-* [[!UICONTROL PDF page manipulation]](#pdf-page-manipulation) 
+* [[!UICONTROL Page manipulation]](#page-manipulation) 
+* [[!UICONTROL PDF accessibility auto-tag]](#pdf-accessibility-auto-tag)
 * [[!UICONTROL PDF file properties]](#pdf-file-properties) 
 * [[!UICONTROL Protect PDF file]](#protect-pdf-file) 
 * [[!UICONTROL Remove protection of a PDF file]](#remove-protection-of-a-pdf-file)
+* [Split a PDF file](#split-a-pdf-file)
 
 ### [!UICONTROL Generate document]
 
@@ -183,7 +185,7 @@ Fill in the [!UICONTROL Generate document] module fields as follows:
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Select the connection to use for this module.</p> <p>You do not need an [!DNL Adobe] account to create a PDF Services connection. For more information, see <a href="#you-do-not-need-an-adobe-account" class="MCXref xref">You do not need an [!DNL Adobe] account</a> in this article.</p> </td> 
+   <td> <p>Select the connection to use for this module.</p> For instructions on creating a connection to [!DNL Adobe PDF Services], see <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >Create a connection to [!DNL Adobe PDF Services]</a> in this article. </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Source File]</td> 
@@ -219,7 +221,7 @@ To use the [!UICONTROL Generate document] module with JSON, fill in the fields a
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Select the connection to use for this module.</p> <p>You do not need an [!DNL Adobe] account to create a PDF Services connection. For more information, see <a href="#you-do-not-need-an-adobe-account" class="MCXref xref">You do not need an [!DNL Adobe] account</a> in this article.</p> </td> 
+   <td> <p>Select the connection to use for this module.</p> For instructions on creating a connection to [!DNL Adobe PDF Services], see <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >Create a connection to [!DNL Adobe PDF Services]</a> in this article. </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Source File]</td> 
@@ -250,7 +252,7 @@ This action module allows you to extract data from a PDF file. The module output
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Select the connection to use for this module.</p> <p>You do not need an [!DNL Adobe] account to create a PDF Services connection. For more information, see <a href="#you-do-not-need-an-adobe-account" class="MCXref xref">You do not need an [!DNL Adobe] account</a> in this article.</p> </td> 
+   <td> <p>Select the connection to use for this module.</p> For instructions on creating a connection to [!DNL Adobe PDF Services], see <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >Create a connection to [!DNL Adobe PDF Services]</a> in this article. </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Source file]</td> 
@@ -285,7 +287,7 @@ This action module takes multiple PDF files and combines them into a single PDF 
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Select the connection to use for this module.</p> <p>You do not need an [!DNL Adobe] account to create a PDF Services connection. For more information, see <a href="#you-do-not-need-an-adobe-account" class="MCXref xref">You do not need an [!DNL Adobe] account</a> in this article.</p> </td> 
+   <td> <p>Select the connection to use for this module.</p> For instructions on creating a connection to [!DNL Adobe PDF Services], see <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >Create a connection to [!DNL Adobe PDF Services]</a> in this article. </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Documents]</td> 
@@ -312,7 +314,7 @@ This action module takes a PDF file and compresses it. This can be useful for co
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Select the connection to use for this module.</p> <p>You do not need an [!DNL Adobe] account to create a PDF Services connection. For more information, see <a href="#you-do-not-need-an-adobe-account" class="MCXref xref">You do not need an [!DNL Adobe] account</a> in this article.</p> </td> 
+   <td> <p>Select the connection to use for this module.</p> For instructions on creating a connection to [!DNL Adobe PDF Services], see <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >Create a connection to [!DNL Adobe PDF Services]</a> in this article. </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Source file]</td> 
@@ -343,7 +345,7 @@ This tool converts a document to a PDF file. The source file must be one of the 
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Select the connection to use for this module.</p> <p>You do not need an [!DNL Adobe] account to create a PDF Services connection. For more information, see <a href="#you-do-not-need-an-adobe-account" class="MCXref xref">You do not need an [!DNL Adobe] account</a> in this article.</p> </td> 
+   <td> <p>Select the connection to use for this module.</p> For instructions on creating a connection to [!DNL Adobe PDF Services], see <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >Create a connection to [!DNL Adobe PDF Services]</a> in this article. </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Source file]</td> 
@@ -412,7 +414,7 @@ This tool converts an HTML file to a PDF file.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Select the connection to use for this module.</p> <p>You do not need an [!DNL Adobe] account to create a PDF Services connection. For more information, see <a href="#you-do-not-need-an-adobe-account" class="MCXref xref">You do not need an [!DNL Adobe] account</a> in this article.</p> </td> 
+   <td> <p>Select the connection to use for this module.</p> For instructions on creating a connection to [!DNL Adobe PDF Services], see <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >Create a connection to [!DNL Adobe PDF Services]</a> in this article. </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Source file]</td> 
@@ -457,7 +459,7 @@ This tool converts an image to a PDF file.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Select the connection to use for this module.</p> <p>You do not need an [!DNL Adobe] account to create a PDF Services connection. For more information, see <a href="#you-do-not-need-an-adobe-account" class="MCXref xref">You do not need an [!DNL Adobe] account</a> in this article.</p> </td> 
+   <td> <p>Select the connection to use for this module.</p> For instructions on creating a connection to [!DNL Adobe PDF Services], see <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >Create a connection to [!DNL Adobe PDF Services]</a> in this article. </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Source file]</td> 
@@ -484,7 +486,7 @@ This tool converts a PDF file to a document. You can select one of the following
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Select the connection to use for this module.</p> <p>You do not need an [!DNL Adobe] account to create a PDF Services connection. For more information, see <a href="#you-do-not-need-an-adobe-account" class="MCXref xref">You do not need an [!DNL Adobe] account</a> in this article.</p> </td> 
+   <td> <p>Select the connection to use for this module.</p> For instructions on creating a connection to [!DNL Adobe PDF Services], see <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >Create a connection to [!DNL Adobe PDF Services]</a> in this article. </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Source file]</td> 
@@ -518,7 +520,7 @@ For example, a file called "TestFile" with 8 pages would produce 8 images, named
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Select the connection to use for this module.</p> <p>You do not need an [!DNL Adobe] account to create a PDF Services connection. For more information, see <a href="#you-do-not-need-an-adobe-account" class="MCXref xref">You do not need an [!DNL Adobe] account</a> in this article.</p> </td> 
+   <td> <p>Select the connection to use for this module.</p> For instructions on creating a connection to [!DNL Adobe PDF Services], see <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >Create a connection to [!DNL Adobe PDF Services]</a> in this article. </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Source file]</td> 
@@ -547,7 +549,7 @@ This tool linearizes a PDF document to create a web-optimized PDF document. A li
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Select the connection to use for this module.</p> <p>You do not need an [!DNL Adobe] account to create a PDF Services connection. For more information, see <a href="#you-do-not-need-an-adobe-account" class="MCXref xref">You do not need an [!DNL Adobe] account</a> in this article.</p> </td> 
+   <td> <p>Select the connection to use for this module.</p> For instructions on creating a connection to [!DNL Adobe PDF Services], see <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >Create a connection to [!DNL Adobe PDF Services]</a> in this article. </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Source file]</td> 
@@ -568,7 +570,7 @@ This tool performs Optical Character Recognition (OCR) on a file and produces a 
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Select the connection to use for this module.</p> <p>You do not need an [!DNL Adobe] account to create a PDF Services connection. For more information, see <a href="#you-do-not-need-an-adobe-account" class="MCXref xref">You do not need an [!DNL Adobe] account</a> in this article.</p> </td> 
+   <td> <p>Select the connection to use for this module.</p> For instructions on creating a connection to [!DNL Adobe PDF Services], see <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >Create a connection to [!DNL Adobe PDF Services]</a> in this article. </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Source file]</td> 
@@ -589,7 +591,7 @@ This tool performs Optical Character Recognition (OCR) on a file and produces a 
  </tbody> 
 </table>
 
-### [!UICONTROL PDF page manipulation]
+### [!UICONTROL Page manipulation]
 
 This module allows you to selectively rotate or delete pages in a PDF document. For example, you can change portrait view to landscape view or remove certain pages from the PDF document.
 
@@ -601,7 +603,7 @@ This module allows you to selectively rotate or delete pages in a PDF document. 
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Select the connection to use for this module.</p> <p>You do not need an [!DNL Adobe] account to create a PDF Services connection. For more information, see <a href="#you-do-not-need-an-adobe-account" class="MCXref xref">You do not need an [!DNL Adobe] account</a> in this article.</p> </td> 
+   <td> <p>Select the connection to use for this module.</p> For instructions on creating a connection to [!DNL Adobe PDF Services], see <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >Create a connection to [!DNL Adobe PDF Services]</a> in this article. </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Source file]</td> 
@@ -630,6 +632,34 @@ This module allows you to selectively rotate or delete pages in a PDF document. 
  </tbody> 
 </table>
 
+### [!UICONTROL PDF accessibility auto-tag]
+
+This action module creates a PDF that is tagged for accessibility use cases. It also creates an optional Microsoft Excel report that lists problems and suggests fixes.
+
+<table style="table-layout:auto"> 
+ <col> 
+ </col> 
+ <col> 
+ </col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td> <p>Select the connection to use for this module.</p> For instructions on creating a connection to [!DNL Adobe PDF Services], see <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >Create a connection to [!DNL Adobe PDF Services]</a> in this article. </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Source file]</td> 
+   <td> <p>Select a source file from a previous module, or map the source file's name and data.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Shift Headings]</td> 
+   <td> <p>Enable this option to shift headings on the document.</p> 
+    <ul> 
+     <li> <p><b>[!UICONTROL Generate Report]</b> </p> <p>Enable this option to generate a report that lists accessibility problems in the PDF along with their location, and gives suggestions on how to fix these problems.</p> </li> 
+    </ul> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
 ### [!UICONTROL PDF file properties]
 
 This tool extracts basic information about the document, such as:
@@ -648,7 +678,7 @@ This tool extracts basic information about the document, such as:
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Select the connection to use for this module.</p> <p>You do not need an [!DNL Adobe] account to create a PDF Services connection. For more information, see <a href="#you-do-not-need-an-adobe-account" class="MCXref xref">You do not need an [!DNL Adobe] account</a> in this article.</p> </td> 
+   <td> <p>Select the connection to use for this module.</p> For instructions on creating a connection to [!DNL Adobe PDF Services], see <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >Create a connection to [!DNL Adobe PDF Services]</a> in this article. </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Source file]</td> 
@@ -669,7 +699,7 @@ This tool secures a PDF document with a user or owner password. It also sets res
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Select the connection to use for this module.</p> <p>You do not need an [!DNL Adobe] account to create a PDF Services connection. For more information, see <a href="#you-do-not-need-an-adobe-account" class="MCXref xref">You do not need an [!DNL Adobe] account</a> in this article.</p> </td> 
+   <td> <p>Select the connection to use for this module.</p> For instructions on creating a connection to [!DNL Adobe PDF Services], see <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >Create a connection to [!DNL Adobe PDF Services]</a> in this article. </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Source file]</td> 
@@ -719,7 +749,7 @@ This tool removes security (password protection) from a PDF document.
  <tbody> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Select the connection to use for this module.</p> <p>You do not need an [!DNL Adobe] account to create a PDF Services connection. For more information, see <a href="#you-do-not-need-an-adobe-account" class="MCXref xref">You do not need an [!DNL Adobe] account</a> in this article.</p> </td> 
+   <td> <p>Select the connection to use for this module.</p> For instructions on creating a connection to [!DNL Adobe PDF Services], see <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >Create a connection to [!DNL Adobe PDF Services]</a> in this article. </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Source file]</td> 
@@ -731,3 +761,35 @@ This tool removes security (password protection) from a PDF document.
   </tr> 
  </tbody> 
 </table>
+
+### [!UICONTROL Split a PDF file]
+
+This action module splits a PDF document into multiple smaller documents. You specify whether to split it by number of files, pages per file, or page ranges.
+
+<table style="table-layout:auto"> 
+ <col> 
+ </col> 
+ <col> 
+ </col> 
+ <tbody> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td> <p>Select the connection to use for this module.</p> For instructions on creating a connection to [!DNL Adobe PDF Services], see <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >Create a connection to [!DNL Adobe PDF Services]</a> in this article. </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Source file]</td> 
+   <td> <p>Select a source file from a previous module, or map the source file's name and data.</p> <p>The source file must be in PDF format.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Split option]</td> 
+   <td>Select how you want to split the file. 
+   <ul>
+   <li><p><b>Page Ranges</b></p><p>For each page range that you want to split into a separate document, click <b>Add</b> and enter the page on which you want to start and the page on which you want to end.</p></li>
+   <li><p><b>Page Count</b></p><p>Enter the number of pages that you want to include in the new documents.</p></li>
+   <li><p><b>Number of files</b></p><p>Enter the number of evenly sized files that you want to split the document into.</p></li>
+   </ul>
+   </td> 
+  </tr> 
+ </tbody> 
+</table>
+
