@@ -4,11 +4,13 @@ product-area: projects
 navigation-topic: financials
 title: Track costs
 description: You can track costs for projects, tasks, and issues in Adobe Workfront.
-author: Alina
+author: Alina, Lisa
 feature: Work Management
 exl-id: df3090ae-9721-4e9b-84b4-315890619801
 ---
 # Track costs
+
+{{highlighted-preview}}
 
 You can track costs for projects, tasks, and issues in Adobe Workfront.
 
@@ -53,9 +55,7 @@ For more information about calculating cost-performance indexes, see:
 
 You can track several types of Costs for tasks and projects in Workfront. Overall Costs are calculated by the following formula:
 
-```
-Costs = Labor Costs + Expense Costs
-```
+`Costs = Labor Costs + Expense Costs`
 
 * **Labor Costs** are associated with the hours on tasks and projects and the Cost per Hour rates of the resources associated with tasks. Generally, Workfront calculates the following labor costs:
 
@@ -65,15 +65,15 @@ Costs = Labor Costs + Expense Costs
    <tbody> 
     <tr> 
      <td>Planned Labor Costs</td> 
-     <td> <p>They are calculated using the following formula:</p><pre>Planned Labor&nbsp;Costs = Planned Hours * Cost per Hour rate</pre> </td> 
+     <td> <p>They are calculated using the following formula:</p><code>Planned Labor Costs = Planned Hours * Cost per Hour rate</code> </td> 
     </tr> 
     <tr> 
-     <td>Budgeted Labor&nbsp;Costs</td> 
-     <td> <p>They are calculated using the following formula:</p><pre>Budgeted Labor&nbsp;Costs = Budgeted Hours * Cost per Hour rate</pre> </td> 
+     <td>Budgeted Labor Costs</td> 
+     <td> <p>They are calculated using the following formula:</p><code>Budgeted Labor Costs = Budgeted Hours * Cost per Hour rate</code> </td> 
     </tr> 
     <tr> 
      <td>Actual Labor Costs</td> 
-     <td> <p>They are calculated using the following formula:</p><pre>Actual Labor&nbsp;Costs = Actual Hours * Cost per Hour rate</pre> </td> 
+     <td> <p>They are calculated using the following formula:</p><code>Actual Labor Costs = Actual Hours * Cost per Hour rate</code> </td> 
     </tr> 
    </tbody> 
   </table>
@@ -103,17 +103,15 @@ The Planned Cost of a project is the cost associated with the planned work (Plan
 
 The Planned Cost of a project is calculated by the following formula:
 
-```
-Planned Project Cost = Planned Labor Cost of all tasks + Planned Expense cost of all tasks + Planned Expense Cost of the project + Fixed Cost of the project
-```
+`Planned Project Cost = Planned Labor Cost of all tasks + Planned Expense cost of all tasks + Planned Expense Cost of the project + Fixed Cost of the project`
 
 For example, you have the following expenses in the Expenses tab of a task: a $100 Marketing expense and a $50 Administrative expense. In the Finance tab, you select the User Hourly cost type. A user is assigned to the task, and the user's hourly rate is $15. The user is assigned to work 5 hours on this task. In the Expenses tab of the project, you have a $100 Planned Cost for an expense called Consulting. You also have a $200 Fixed Cost for the project.
 
 The Planned Cost of the project is calculated as follows:
 
-```
-$100 (Consulting Expense) + $100 (Marketing Expense) + $50 (Administrative Expense) + $15(Hourly Rate)*5(Planned Hours Logged) + $200 (Fixed Cost) = $525
-```
+`$100 (Consulting Expense) + $100 (Marketing Expense) + $50 (Administrative Expense) + $15(Hourly Rate)*5(Planned Hours Logged) + $200 (Fixed Cost) = $525`
+
+<span class="preview">The hourly rate in the formula considers any date effective changes of the rate.</span>
 
 #### Budgeted Cost {#budgeted-cost}
 
@@ -130,7 +128,8 @@ The Budgeted Cost of the project is calculated using the formula below if the fo
 * The Billing Type of the tasks is Role Hourly.
 
 When the above conditions are met, Workfront calculates the Budgeted Cost of the project using the following formula: 
-<pre>Budgeted Project Cost = Budgeted Labor Cost + Budgeted Expense Cost of all tasks + Budgeted Expense Cost of the project</pre>
+
+`Budgeted Project Cost = Budgeted Labor Cost + Budgeted Expense Cost of all tasks + Budgeted Expense Cost of the project`
 
 #### Actual Cost {#actual-cost}
 
@@ -138,17 +137,15 @@ The Actual Cost of a project is the cost associated with the actual work (Hours 
 
 Actual Cost is calculated using the following formula:
 
-```
-Actual Project Cost = Actual Labor Cost of all tasks + Actual Expense Cost of all tasks + Actual Labor Cost of the project + Actual Expense Cost of the project + Fixed Cost of the project
-```
+`Actual Project Cost = Actual Labor Cost of all tasks + Actual Expense Cost of all tasks + Actual Labor Cost of the project + Actual Expense Cost of the project + Fixed Cost of the project`
 
 For example, you have the following expenses in the Expenses tab of a task: a Marketing expense with an Actual Cost of $110, and an Administrative expense with an Actual Cost of $40. You select the Role Hourly cost type and assign the Consultant job role to the task. The consultant job role's rate is $15 per hour, and there are 6 hours logged on the task for the Consultant job role. There is a Consulting expense associated with the project (in the Expenses tab), with an Actual Cost of $100 and a user with a Cost per Hour rate of $20 in their user profile logs 10 hours on the project. You also have a $200 Fixed Cost for the project.
 
 The Actual Cost of the project is calculated as follows:
 
-```
-$100 (Consulting Expense) + $110 (Marketing Expense) + $40 (Administrative Expense) +$15 (Hourly Rate)*6 (Actual Hours Logged) + $20 (Cost per Hour rate for the user logging time on the project)*10 (hours the user logs on the project) + $200 (Fixed Cost) = $740
-```
+`$100 (Consulting Expense) + $110 (Marketing Expense) + $40 (Administrative Expense) +$15 (Hourly Rate)*6 (Actual Hours Logged) + $20 (Cost per Hour rate for the user logging time on the project)*10 (hours the user logs on the project) + $200 (Fixed Cost) = $740`
+
+<span class="preview">The hourly rate in the formula considers any date effective changes of the rate.</span>
 
 >[!NOTE]
 >
@@ -187,15 +184,16 @@ The following table describes the available task Cost Types in&nbsp;Workfront:
  <tbody> 
   <tr> 
    <td> <p>User Hourly</p> </td> 
-   <td> <p>This is the default Cost Type when you create a task.</p> <p><strong>Planned Cost</strong> is calculated by the following formula: </p> <p><code style="font-style: normal;">Task Planned Cost = Task Planned Labor Cost + Task Planned Expense Cost</code> </p> <p>Where the Planned Labor Cost is calculated by:<br><code>Planned Labor Cost = Planned Hours * Cost per Hour Rate of the User assigned to the task</code></p> <p>Note:   <p>Consider the following impacts of using the User Hourly Cost Type and calculating Planned Cost:</p> 
+   <td> <p>This is the default Cost Type when you create a task.</p> <p><strong>Planned Cost</strong> is calculated by the following formula: </p> <p><code style="font-style: normal;">Task Planned Cost = Task Planned Labor Cost + Task Planned Expense Cost</code> </p> <p>Where the Planned Labor Cost is calculated by:<br><code>Planned Labor Cost = Planned Hours * Cost per Hour Rate of the User assigned to the task</code></p> <p>Note: <p>Consider the following impacts of using the User Hourly Cost Type and calculating Planned Cost:</p> 
      <ul> 
-      <li>If you assign multiple resources to a task, Workfront adjusts calculations for Planned Cost based on the percentage of the task assigned to each resource.</li> 
+      <li>If you assign multiple resources to a task, Workfront adjusts calculations for Planned Cost based on the percentage of the task assigned to each resource.</li>
+      <li><span class="preview">For date effective cost rates, the Planned Labor cost is the sum of the planned costs of each time period covered in the task.</span></li>
       <li>The value of the Planned Cost field can differ depending on whether you view the Planned Cost from the task itself or from the Utilization report.<br><strong>When viewing Planned Cost from the task itself:</strong> The Planned Cost field takes into consideration the Cost/Hr field set at the Job Role level (when the Cost/Hr field has not been set at the user level).<br><strong>When viewing Planned Cost from the Utilization report on the project:</strong> The Planned Cost field does not take into consideration the Cost/Hr field set at the Job Role level. Instead, if you want the Utilization report to take into consideration the Cost/Hr field set at the Job Role level, you must set the Cost Type on the task to Role Hourly. </li> 
-     </ul> </p> <p><strong>Actual Cost</strong> is calculated by the following formula: </p> <p><code style="font-style: normal;">Task Actual Cost = Actual Labor Cost + Task Actual Expense Cost</code> </p> <p>Where the Actual Labor Cost is calculated by:</p> <p><code>Actual Labor Cost = Actual Hours * Cost per Hour Rate of the User logging the hours</code> </p> <p>For example, a user has a Cost per Hour rate of $20 in their profile. When they log 5 hours for a task, the Actual Labor Cost is $100 for that task. If the user does not have a Cost per Hour rate associated with them, the Actual Cost calculates based on the Cost per Hour rate of their Primary Job Role. If they do not have a job role or the Cost per Hour rate of their job role is not defined, then the Actual Cost of the task is zero. </p> <p>Note:  Actual Costs are calculated based on the Cost per Hour rate for the user who is logging the time, regardless of who is assigned to the task. </p> </td> 
+     </ul> </p> <p><strong>Actual Cost</strong> is calculated by the following formula: </p> <p><code style="font-style: normal;">Task Actual Cost = Actual Labor Cost + Task Actual Expense Cost</code> </p> <p>Where the Actual Labor Cost is calculated by:</p> <p><code>Actual Labor Cost = Actual Hours * Cost per Hour Rate of the User logging the hours</code> </p> <p>For example, a user has a Cost per Hour rate of $20 in their profile. When they log 5 hours for a task, the Actual Labor Cost is $100 for that task. If the user does not have a Cost per Hour rate associated with them, the Actual Cost calculates based on the Cost per Hour rate of their Primary Job Role. If they do not have a job role or the Cost per Hour rate of their job role is not defined, then the Actual Cost of the task is zero. </p> <p>Note:  Actual Costs are calculated based on the Cost per Hour rate for the user who is logging the time, regardless of who is assigned to the task. <span class="preview">Also, the billing hourly rate in the formula considers any date effective changes of the rate.</span></p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Role Hourly</p> </td> 
-   <td> <p><strong>Planned Cost</strong> is calculated by the following formula: </p> <p><code style="font-style: normal;">Task Planned Cost = Task Planned Labor Cost+ Task Planned Expense Cost</code> </p> <p>Where the Task Planned Labor Cost is calculated by:</p> <p><code>Task Planned Labor Cost = Planned Hours * Cost per Hour Rate of the Job Role assigned to the task</code> </p> <p>Note: If you assign multiple resources to a task, Workfront adjusts calculations for Planned Hours based on the percentage of the task assigned to each resource.</p> <p><strong>Actual Cost</strong> is calculated by the following formula: </p> <p><code style="font-style: normal;">Task Actual Cost = Task Actual Labor Cost + Task Actual Expense Cost</code> </p> <p>Where the Task Actual Labor Cost is calculated by:</p> <p><code>Task Actual Labor Cost = Actual Hours * Cost per Hour Rate of the Job Role assigned to the task</code> </p> <p>For example, a task is assigned to a job role or a user with a job role for which the Cost per Hour rate is $20. When a user logs 5 hours for a task, the Actual Labor Cost is $100 for that task. If the user assigned to the task does not have a job role associated with them on the task, the Actual Cost calculates based on the Cost per Hour rate of their Primary Job Role. If they do not have a job role or the Cost per Hour rate of their job role is not defined, then the Actual Cost of the task is zero. </p> <p>Note:   <p> The Actual Hours of a Role Hourly task calculate based on the job roles of the users associated with the task, not on the roles associated with the user who is logging the time.</p> <p>If your Workfront administrator enabled the <strong>Assign Job Roles to hour entries manually</strong> setting in the Timesheets &amp; Hours Preferences area, and the user logging time on the task selects a different role to associate with this time, the Actual Cost of a Role Hourly task calculates based on the role specified when the hours were logged. For information about enabling logging time for a specific job role, see the article <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md" class="MCXref xref">Configure timesheet and hour preferences</a>.</p> </p> </td> 
+   <td> <p>Role Hourly</p> </td>
+   <td> <p><strong>Planned Cost</strong> is calculated by the following formula: </p> <p><code style="font-style: normal;">Task Planned Cost = Task Planned Labor Cost+ Task Planned Expense Cost</code> </p> <p>Where the Task Planned Labor Cost is calculated by:</p> <p><code>Task Planned Labor Cost = Planned Hours * Cost per Hour Rate of the Job Role assigned to the task</code> </p> <p>Note: If you assign multiple resources to a task, Workfront adjusts calculations for Planned Hours based on the percentage of the task assigned to each resource. <span class="preview">Also, the hourly rate in the formula considers any date effective changes of the rate.</span></p> <p><strong>Actual Cost</strong> is calculated by the following formula: </p> <p><code style="font-style: normal;">Task Actual Cost = Task Actual Labor Cost + Task Actual Expense Cost</code> </p> <p>Where the Task Actual Labor Cost is calculated by:</p> <p><code>Task Actual Labor Cost = Actual Hours * Cost per Hour Rate of the Job Role assigned to the task</code> </p> <p>For example, a task is assigned to a job role or a user with a job role for which the Cost per Hour rate is $20. When a user logs 5 hours for a task, the Actual Labor Cost is $100 for that task. If the user assigned to the task does not have a job role associated with them on the task, the Actual Cost calculates based on the Cost per Hour rate of their Primary Job Role. If they do not have a job role or the Cost per Hour rate of their job role is not defined, then the Actual Cost of the task is zero. </p> <p>Note:   <p> The Actual Hours of a Role Hourly task calculate based on the job roles of the users associated with the task, not on the roles associated with the user who is logging the time. <span class="preview">Also, the billing hourly rate in the formula considers any date effective changes of the rate.</span></p> <p>If your Workfront administrator enabled the <strong>Assign Job Roles to hour entries manually</strong> setting in the Timesheets &amp; Hours Preferences area, and the user logging time on the task selects a different role to associate with this time, the Actual Cost of a Role Hourly task calculates based on the role specified when the hours were logged. For information about enabling logging time for a specific job role, see the article <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md" class="MCXref xref">Configure timesheet and hour preferences</a>.</p> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Fixed Hourly</p> </td> 

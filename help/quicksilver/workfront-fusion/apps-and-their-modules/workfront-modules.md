@@ -987,6 +987,12 @@ See a list of the [!DNL Workfront] object types for which you can use this modul
    <td> </td> 
   </tr> 
   <tr> 
+   <td>Proof Approval</td> 
+   <td> </td> 
+   <td> </td> 
+   <td>✓</td> 
+  </tr> 
+  <tr> 
    <td>Reserved Time* </td> 
    <td> </td> 
    <td>✓</td> 
@@ -1716,3 +1722,4 @@ For more information on event subscriptions, see [FAQs - Event Subscriptions](..
 For more information on webhooks, see [Instant triggers (webhooks) in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/webhooks/instant-triggers-webhooks.md)
 
 For more information on filters in scenarios, see [Add a filter to a scenario in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/add-a-filter-to-a-scenario.md).
+ 

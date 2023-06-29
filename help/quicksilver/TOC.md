@@ -119,6 +119,7 @@ feature-set: Workfront
       * [21.1 Other enhancements](product-announcements/product-releases/21.1-release-activity/21-1-other-enhancements.md)
     * Adobe Workfront Fusion release activity {#fusion-release}
       * [Adobe Workfront Fusion release activity](product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)
+      * [Workfront Fusion release activity: Week of  June 26, 2023](product-announcements/product-releases/fusion-release-activity/fusion-2023-6-29.md)
       * [Workfront Fusion release activity: Week of  June 12, 2023](product-announcements/product-releases/fusion-release-activity/fusion-2023-6-12.md)
       * [Workfront Fusion release activity: Week of  May 15, 2023](product-announcements/product-releases/fusion-release-activity/fusion-2023-5-15.md)
       * [Workfront Fusion release activity: Week of  May 1, 2023](product-announcements/product-releases/fusion-release-activity/fusion-2023-5-2.md)
@@ -386,6 +387,8 @@ feature-set: Workfront
       * [Create a scorecard](administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md)
       * [Project timeline recalculations](administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md)
       * [Custom quarters for projects](administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)
+      * [Configure locations](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-locations.md)
+      * [Manage rate cards](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md)
     * Configure schedules and timesheet preferences {#configure-timesheets-schedules}
       * [Configure schedules and timesheet preferences](administration-and-setup/set-up-workfront/configure-timesheets-schedules/configure-timesheets-and-schedules.md)
       * [Schedules overview](administration-and-setup/set-up-workfront/configure-timesheets-schedules/schedules-overview.md)
@@ -613,7 +616,7 @@ feature-set: Workfront
       * [Email invitations to new users](administration-and-setup/manage-workfront/emails/manage-email-invitations.md)
     * Security {#security}
       * [Security](administration-and-setup/manage-workfront/security/security.md)
-      * [Security preferences](administration-and-setup/manage-workfront/security/configure-security-preferences.md)
+      * [Configure system preferences](administration-and-setup/manage-workfront/security/configure-security-preferences.md)
       * [Passwords for authentication](administration-and-setup/manage-workfront/security/configure-password-policies-authentication.md)
       * [Removal of single sign-on options](administration-and-setup/manage-workfront/security/removal-various-sso-options.md)
       * [Renew SAML 2.0 metadata certificate](administration-and-setup/manage-workfront/security/renew-wf-saml-2-certificate.md)
@@ -1193,6 +1196,7 @@ feature-set: Workfront
       * [Override Project-Level Billing Rates with Company-Level Billing Rates](manage-work/projects/project-finances/override-project-level-with-company-level-billing-rates.md)
       * [Overview of overriding Job Role Billing Rates and calculating Revenue on a project](manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md)
       * [Override Job Role Billing Rates at the project level](manage-work/projects/project-finances/override-job-role-billing-rates-at-the-project-level.md)
+      * [Attach a rate card to a project](/help/quicksilver/manage-work/projects/project-finances/attach-rate-card-to-project.md)
       * [Overview of project Planned Benefit](manage-work/projects/project-finances/project-planned-benefit.md)
       * [Set the Performance Index Method (PIM)](manage-work/projects/project-finances/set-pim.md)
       * [Calculate Return On Investment (ROI)](manage-work/projects/project-finances/calculate-roi.md)

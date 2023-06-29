@@ -82,6 +82,7 @@ You can quickly filter all of the information on your Home page to display objec
 
 For users that prefer the existing Home experience, New Home can be toggled off.
 
+
 **To go back to the current Home experience:**
 
 1. Navigate to your Home page, either by clicking on the Adobe Workfront icon ![Adobe Workfront Icon](../new-home/assets/home-icon-30x29.png) at the top of your screen if Home is set as your landing page, or by clicking on the main menu icon ![Main Menu Icon](../new-home/assets/main-menu-icon-left-nav.png) then clicking on **Home**.
@@ -91,3 +92,7 @@ For users that prefer the existing Home experience, New Home can be toggled off.
     ![Go back to current Home button](../new-home/assets/go-back-to-current-home-button.png)
 
 1. In the confirmation window that appears, you can choose to take a brief survey about your experience with New Home or click **Go Back to the current Home** to finalize your decision and revert to the current Home experience.
+
+>[!NOTE]
+>
+> System Administrators can disable New Home as the default for their users. For information on changing the default Home experience for users across a system, see [Configure system preferences](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md).
