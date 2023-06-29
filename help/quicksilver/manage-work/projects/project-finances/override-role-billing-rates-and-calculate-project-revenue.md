@@ -3,11 +3,13 @@ product-area: projects
 navigation-topic: financials
 title: Overview of overriding Job Role Billing Rates and calculating Revenue on a project
 description: You can use billing rates to calculate revenue on your projects when you multiply them by the hours spent on the project. For more information about billing rates and revenue, see the article Overview of Billing and Revenue.
-author: Alina
+author: Alina, Lisa
 feature: Work Management
 exl-id: 63ba6758-ba62-48b4-89f4-d784e32a1bfa
 ---
 # Overview of overriding Job Role Billing Rates and calculating Revenue on a project
+
+{{highlighted-preview}}
 
 You can use billing rates to calculate revenue on your projects when you multiply them by the hours spent on the project. For more information about billing rates and revenue, see the article [Overview of Billing and Revenue](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md).
 
@@ -82,6 +84,14 @@ A job role can have a billing rate associated with it in the following ways:
 * As a Workfront administrator, you can enable an option when editing a project to apply changes to company-level billing rates to the project when users manually recalculate project finances.  
   For more information, see [Override Project-Level Billing Rates with Company-Level Billing Rates](../../../manage-work/projects/project-finances/override-project-level-with-company-level-billing-rates.md).
 
+<div class="preview">
+
+* As a Workfront administrator, you can define rate cards with multiple billing rates per role, based on location and date. When a rate card is attached to a project, all of the roles (by location, if locations are used) and their associated billing rates are added to the project's billing rates section. Attaching a rate card overrides any existing billing rates on the project.
+  
+  For more information, see [Manage rate cards](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md) and [Attach a rate card to a project](/help/quicksilver/manage-work/projects/project-finances/attach-rate-card-to-project.md).
+
+</div>
+
 * As a project manager, you can define the billing rate for the same job role at the project level.  
   Job role rates changed on the project will only impact that project.
 
@@ -95,9 +105,11 @@ A job role can have a billing rate associated with it in the following ways:
 
 As a project manager, you can specify what the billing rate is for a job role on a specific project. This project-level billing rate overrides the billing rate at the system level for this job role. Workfront uses the project-level billing rate of the job role to calculate revenue, instead of using the system-level billing rate.
 
+<span class="preview">You can also attach a rate card to the project, which will import the job role billing rates from the rate card into the project.</span>
+
 For information about how to override the Job Role Billing Rates at the project level, see [Override Job Role Billing Rates at the project level](../../../manage-work/projects/project-finances/override-job-role-billing-rates-at-the-project-level.md).
 
-For more information about which job role is used to calculate revenue on the project, see the "Revenue calculations for tasks based on User and Role assignments" section in [Overview of Billing and Revenue](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md).
+For more information about which job role is used to calculate revenue on the project, see the "Revenue calculations for tasks based on User and Role assignments" section in [Overview of Billing and Revenue](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md). <span class="preview">For information about attaching a rate card to a project, see [Attach a rate card to a project](/help/quicksilver/manage-work/projects/project-finances/attach-rate-card-to-project.md).</span>
 
 >[!NOTE]
 >
@@ -149,7 +161,7 @@ Notice the following information in the list of **Billing Rates**:
 
 ### Job Role Grouping {#job-role-grouping}
 
-Billing rates are grouped in the **Billing Rates** area by their respective job roles.
+Billing rates are grouped in the **Billing Rates** area by their respective job roles. <span class="preview">If a rate card is attached to the project, then the job roles are also grouped by rate card. If locations are applied to job roles, then the location name is included as part of the job role name. You could have the same job role listed for multiple locations.</span>
 
 ### Project Billing Rate value {#project-billing-rate-value}
 
@@ -168,6 +180,8 @@ In the grouping line of a job role, notice the billing rate for that job role at
 In the grouping line of a job role, notice the billing rate for that job role at the company level in the **Company Billing Rate** column. This means that there is a company associated with this project, and this job role has a different billing rate for that company. The billing rate for the company displays, even if it is the same as the project rate.
 
 >[!NOTE]
+>
+><span class="preview">When a rate card is attached to the project, the **Company Billing Rates** are not imported in the billing rates. The calculations are based on either rate card rates or company rates for the job roles.</span>
 >
 >If there are project billing rates for a job role, the **Company Billing Rate** is never applied to calculating revenue for the project. Only the **Project Billing Rates** are applied to calculate revenue.
 

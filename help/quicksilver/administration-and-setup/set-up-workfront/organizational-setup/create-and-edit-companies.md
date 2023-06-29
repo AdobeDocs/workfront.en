@@ -11,6 +11,8 @@ exl-id: bb597032-3395-4c9a-b622-5c920ba55131
 ---
 # Create and edit companies
 
+{{highlighted-preview}}
+
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->
 
 A company is an organizational unit in [!DNL Adobe Workfront] that can represent your organization, a department within the organization, or a client you work with. You can add companies to [!DNL Workfront] and use them for financial planning, reporting purposes, to define permissions around objects, and to keep information confidential.
@@ -104,7 +106,7 @@ To add or edit a company:
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Billing Rates] section</td> 
-      <td> <p>You can override billing rates associated with your job roles at the company level. For information about creating job roles and associating them with billing rates, see <a href="../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md" class="MCXref xref">Create and manage job roles</a>.</p> <p>For more information about overriding billing rates at the company level, see <a href="../../../administration-and-setup/set-up-workfront/organizational-setup/override-job-role-billing-rates-company-level.md" class="MCXref xref">Override job role billing rates at the company level</a>.</p> </td> 
+      <td> <p><span class="preview">This section has been removed in the Preview environment.</span></p><p>You can override billing rates associated with your job roles at the company level. For information about creating job roles and associating them with billing rates, see <a href="../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md" class="MCXref xref">Create and manage job roles</a>.</p> <p>For more information about overriding billing rates at the company level, see <a href="../../../administration-and-setup/set-up-workfront/organizational-setup/override-job-role-billing-rates-company-level.md" class="MCXref xref">Override job role billing rates at the company level</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Custom Forms] section</td> 
@@ -122,6 +124,10 @@ To add or edit a company:
 ## Manage company memberships
 
 For information about managing memberships for an existing company, see [Manage company memberships](../../../administration-and-setup/set-up-workfront/organizational-setup/manage-company-memberships.md).
+
+## Manage billing rates
+
+For information about overriding billing rates at the company level, see [Override job role billing rates at the company level](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/override-job-role-billing-rates-company-level.md).
 
 ## About sharing objects with companies
 
