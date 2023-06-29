@@ -161,11 +161,13 @@ You must have the following access to perform the steps in this article:
    * **Planned Hours**: When the Duration Type is Calculated Assignment or Simple, update the number of Planned Hours. The allocation percentages or the hours for each resource are distributed evenly as a result. Workfront calculates the Planned Hours when the Duration Type is Calculated Work or Effort Driven. For more information, see [Overview of Task Duration and Duration Type](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
 
      Sample image in the Production environment:
+
      ![](assets/qs-advanced-assignments-box-with-duration-type-and-duration-350x251.png)
      
      <div class="preview">
 
      Sample image in the Preview environment:
+     
      ![Advanced Assignments](assets/advanced-assignments-location-billing-rates.png)
 
      </div>
