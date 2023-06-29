@@ -72,7 +72,7 @@ For more information, see [Update work](../../../workfront-basics/updating-work-
 
 Preview: June 28, 2023
 
-Planned Production release: June 29, 2023 
+Production release: June 29, 2023 
 
 #### New interface for logging time
 

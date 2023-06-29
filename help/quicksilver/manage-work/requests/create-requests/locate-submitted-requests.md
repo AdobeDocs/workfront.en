@@ -9,7 +9,7 @@ exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
 ---
 # Locate submitted requests
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> -->
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span>
 
 You can locate the following types of requests that you or someone else submitted, or requests you started but you never finished submitting. You can locate these requests in the following areas of Adobe Workfront:
 
@@ -56,7 +56,7 @@ You must have the following to perform the steps in this article:
 To locate requests that you or other users have submitted:
 
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront.
-1. Click&nbsp;**Submitted** in the left panel to view all submitted requests.
+1. Click **Submitted** in the left panel to view all submitted requests.
 
    You can view up to 2000 requests and they may display on multiple pages.
 
@@ -64,44 +64,43 @@ To locate requests that you or other users have submitted:
    >
    >You cannot customize the columns in the Submitted request list.
 
-   ![](assets/nwe-submitted-requests-new-list-350x57.png)
+   <span class="preview">![](assets/nwe-submitted-requests-new-list-350x57.png)</span>
 
-   <!--update the shot above when we release the new Copy button to preview - for or after the 23.3 release-->
+ 
+ 1. The following columns display by default:
 
-1. The following columns display by default:
-
-   <table style="table-layout:auto"> 
-    <col> 
-    <col> 
-    <tbody> 
-     <tr> 
-      <td role="rowheader">Name</td> 
-      <td> <p>The name of the request.</p> <p>Click the name of a request to open it. </p> <p><b>TIP</b>
-      
+      <table style="table-layout:auto"> 
+      <col> 
+      <col> 
+      <tbody> 
+      <tr> 
+         <td role="rowheader">Name</td> 
+         <td> <p>The name of the request.</p> <p>Click the name of a request to open it. </p> <p><b>TIP</b>
+         
       If the issue was not preserved when it was converted to a task or a project, the name of the issue is dimmed and can no longer be clicked. For information about converting issues, see <a href="../../../manage-work/issues/convert-issues/convert-issues.md" class="MCXref xref">Overview of converting issues in Adobe Workfront</a>. </p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Converted to</td> 
-      <td> <p>The name of the resolving object which can be a task or project that the request was converted to. </p> <p>Click the name of the task or project to open them. </p> <p>If the request was not converted, this field is empty. </p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Path</td> 
-      <td>The name of the request queue, topic groups, and queue topics where the request was originally submitted. </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Status</td> 
-      <td>The current status of the request or of the resolving object (task or project)</td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Entry Date</td> 
-      <td>The date when the request was submitted or the date when the resolving object was created if the request was deleted when converted. </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Last Update Date</td> 
-      <td> <p>The date when the request was updated last.</p> <p>The Submitted request list is sorted by this field, by default. </p> </td> 
-     </tr> 
-    </tbody> 
-   </table>
+      </tr> 
+      <tr> 
+         <td role="rowheader">Converted to</td> 
+         <td> <p>The name of the resolving object which can be a task or project that the request was converted to. </p> <p>Click the name of the task or project to open them. </p> <p>If the request was not converted, this field is empty. </p> </td> 
+      </tr> 
+      <tr> 
+         <td role="rowheader">Path</td> 
+         <td>The name of the request queue, topic groups, and queue topics where the request was originally submitted. </td> 
+      </tr> 
+      <tr> 
+         <td role="rowheader">Status</td> 
+         <td>The current status of the request or of the resolving object (task or project)</td> 
+      </tr> 
+      <tr> 
+         <td role="rowheader">Entry Date</td> 
+         <td>The date when the request was submitted or the date when the resolving object was created if the request was deleted when converted. </td> 
+      </tr> 
+      <tr> 
+         <td role="rowheader">Last Update Date</td> 
+         <td> <p>The date when the request was updated last.</p> <p>The Submitted request list is sorted by this field, by default. </p> </td> 
+      </tr> 
+      </tbody> 
+      </table>
 
 1. (Optional) Click the header of a column to sort by it.
 
