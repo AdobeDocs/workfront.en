@@ -1,6 +1,7 @@
 ---
 user-guide-title: Workfront Guide
 user-guide-description: Use the docs, tutorials, and additional resources to learn how to implement and effectively use Adobe Workfront in your organization.
+role: User
 feature-set: Workfront
 ---
 # Workfront Guide {#using}
@@ -614,7 +615,7 @@ feature-set: Workfront
       * [Email invitations to new users](administration-and-setup/manage-workfront/emails/manage-email-invitations.md)
     * Security {#security}
       * [Security](administration-and-setup/manage-workfront/security/security.md)
-      * [Security preferences](administration-and-setup/manage-workfront/security/configure-security-preferences.md)
+      * [Configure system preferences](administration-and-setup/manage-workfront/security/configure-security-preferences.md)
       * [Passwords for authentication](administration-and-setup/manage-workfront/security/configure-password-policies-authentication.md)
       * [Removal of single sign-on options](administration-and-setup/manage-workfront/security/removal-various-sso-options.md)
       * [Renew SAML 2.0 metadata certificate](administration-and-setup/manage-workfront/security/renew-wf-saml-2-certificate.md)
