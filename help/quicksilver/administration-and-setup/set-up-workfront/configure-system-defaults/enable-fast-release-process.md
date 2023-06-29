@@ -24,18 +24,19 @@ Example:
 >* Customers who purchased Workfront after the 23.3 release (July 2023) have the fast release process enabled by default, and can opt out. 
 >* Customers who purchased Workfront before the 23.3 release have the fast release process disabled by default, and can opt in.
 
-## Enable or disable the fast release process for your organization
-
-As a Workfront administrator, you can enable or disable the fast release process for your organization.
+## Considerations when enabling or disabling the fast release process
 
 Consider the following when enabling or disabling the fast release process:
 
-* Enabling the fast release process in the middle of a quarter gives your organization access to features and functionality that have already been released to the fast release. 
+* **Enabling** the fast release process in the middle of a quarter gives your organization access to features and functionality that have already been released to the fast release. 
    
    For example, if feature A is released in August, and feature B is released in September, any organization that enables the fast release process in September will immediately have access to features A and B.
-* Disabling the fast release process does not take effect until the next quarterly release. 
+
+* **Disabling** the fast release process does not take effect until the next quarterly release. 
    
-    For example, if a organization that has enabled fast release disables it in August, they will still receive the fast release features in September, because they will not move to the quarterly release until the next quarterly release occurs.
+    For example, if a organization that has enabled fast release disables it in August, they will still receive the fast release features in September, because they will not move to the quarterly release until the next quarterly release occurs in October.
+
+## Enable or disable the fast release process for your organization
 
 To enable or disable the fast release process:
 
