@@ -22,7 +22,7 @@ The Agile View of a project now includes additional functionality to filter, gro
 
 While you are in the board, you can opt to switch to the legacy Agile View.
 
-Documentation for the updated project Agile View will be made available with its release to preview.
+For more information, see [Manage a project in the Agile View](/help/quicksilver/manage-work/projects/manage-projects/manage-projects-in-agile-view.md).
 
 ## Sort by board columns
 
