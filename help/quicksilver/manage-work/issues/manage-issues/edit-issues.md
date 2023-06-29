@@ -5,6 +5,8 @@ title: Edit issues
 description: You can edit information on issues that you have created, or that other users have created if they shared the issues with you.
 author: Alina
 feature: Work Management
+topic: Collaboration
+role: User
 exl-id: 1449374a-ab0d-4c98-83cd-4e511467633a
 ---
 # Edit issues
@@ -114,6 +116,8 @@ You can edit an issue using the Edit Issue or Issue Details areas. The following
    >[!NOTE]
    >
    >Depending on how your Workfront administrator sets up our Layout Template, the fields in the Edit Issue box might be different in your environment. For information, see [Customize the Details view using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
+   >
+   >Most fields listed in the sections below are also accessible from the New Issue box, when you create an issue. The sections under which the fields are located do  not match the New Issue box. For information about creating issues, see [Create issues](../../issues/manage-issues/create-issues.md). 
 
 ### Issue Name {#issue-name}
 
