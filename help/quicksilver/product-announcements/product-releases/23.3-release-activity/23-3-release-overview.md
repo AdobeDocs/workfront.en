@@ -526,6 +526,22 @@ The 23.3 release webinar will be held on June 29, 2023. You can [register for th
                         <p><span style="color: #ff0000;">This feature is part of a phased release and is currently only available for specific customers.</span></p>
                     </td>
                 </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">New Share button</a> </p>
+                        <p>The Share option has been pulled out of the More menu for projects, tasks, and issues to make sharing more intuitive.</p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                        <ul>
+                            <li>
+                                <p>Preview release: June 22, 2023<br /></p>
+                            </li>
+                            <li>
+                                <p>Production release: With the 23.3 release</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
            </tbody>
         </table>
 
