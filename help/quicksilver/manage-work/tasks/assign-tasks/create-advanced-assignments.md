@@ -11,6 +11,10 @@ exl-id: 09780f78-4eb8-404d-859b-d066d462776d
 
 {{highlighted-preview}}
 
+>[!IMPORTANT]
+>
+>The assignment rate override feature was temporarily disabled in Preview on June 30, 2023.
+
 You can manage task or issue assignments by using Advanced Assignments.
 
 You can adjust the following assignment information when making advanced assignments:

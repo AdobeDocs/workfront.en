@@ -24,6 +24,8 @@ While you are in the board, you can opt to switch to the legacy Agile View.
 
 For more information, see [Manage a project in the Agile View](/help/quicksilver/manage-work/projects/manage-projects/manage-projects-in-agile-view.md).
 
+[View a video demonstration of this feature.](https://video.tv.adobe.com/v/3421283/){target=_blank}
+
 ## Sort by board columns
 
 We have added the ability to sort the cards in the columns on a board. When you select an option to sort by, all columns are sorted. You can't sort a single column, and the backlog or intake column is not sorted.
