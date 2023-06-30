@@ -23,6 +23,7 @@ The 23.3 release webinar will be held on June 29, 2023. You can [register for th
 > * If you are on the **quarterly** release track, the release after 23.3 will be **23.10**, in October 2023.
 > 
 > Quarterly releases will include functionality from three monthly releases. For example, the 23.10 quarterly release will include functionality released in the 23.8, 23.9, and 23.10 monthly releases.
+>
 >|Monthly release|Quarterly release|
 >|----|----|
 >|<ul><li>23.8 (August 2023)</li><li>23.9 (September 2023)</li><li>23.10 (October 2023)</li></ul>| <ul><li>23.10 (October 2023)</li></ul>|
@@ -107,7 +108,7 @@ The 23.3 release webinar will be held on June 29, 2023. You can [register for th
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Agile View of a project displays a kanban board</a><span style="color: #ff0000;"> Coming soon!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Agile View of a project displays a kanban board</a><span style="color: #ff0000;"> New in Preview!</span></p>
                         <p>The Agile View of a project now includes additional functionality to filter, group, and sort work in a kanban board. The new, flexible design of the view includes a robust search feature and the ability to add new tasks to the project directly from the board.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
@@ -326,7 +327,7 @@ The 23.3 release webinar will be held on June 29, 2023. You can [register for th
                  </tr>   
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-finance-enhancements.md" class="MCXref xref" xrefformat="{para}">Date effective cost and billing rates</a><span style="color: #ff0000;"> Coming soon!</span> </p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-finance-enhancements.md" class="MCXref xref" xrefformat="{para}">Date effective cost and billing rates</a><span style="color: #ff0000;"> New in Preview!</span> </p>
                         <p>Date effective cost and billing rates are now available on the company, user, and job role objects in Workfront. When date effective rates are applied to a project, and hours are logged on project tasks, the costs and revenue are calculated using the specified rates for each time period.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
@@ -336,7 +337,8 @@ The 23.3 release webinar will be held on June 29, 2023. You can [register for th
                             </li>
                             <li>
                                 <p>Production release for the Fast release customers: To be announced, after the 23.3 Production release</p>
-                                <p>Production release for all customers: With the 23.4 release</p>
+                                <p>Production release for all customers: With the 23.4 release<br>
+                                <span style="color: #ff0000;"> The assignment rate override feature was temporarily disabled in Preview on June 30, 2023.</span></p>
                             </li>
                         </ul>
                     </td>
@@ -522,6 +524,22 @@ The 23.3 release webinar will be held on June 29, 2023. You can [register for th
                             </li>
                         </ul>
                         <p><span style="color: #ff0000;">This feature is part of a phased release and is currently only available for specific customers.</span></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">New Share button</a> </p>
+                        <p>The Share option has been pulled out of the More menu for projects, tasks, and issues to make sharing more intuitive.</p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                        <ul>
+                            <li>
+                                <p>Preview release: June 22, 2023<br /></p>
+                            </li>
+                            <li>
+                                <p>Production release: With the 23.3 release</p>
+                            </li>
+                        </ul>
                     </td>
                 </tr>
            </tbody>
