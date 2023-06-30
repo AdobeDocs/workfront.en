@@ -9,6 +9,8 @@ exl-id: 0d0e13d9-b234-48d3-a818-5b6fb36a4688
 ---
 # Share financial permissions on an object
 
+{{highlighted-preview}}
+
 Your Adobe Workfront administrator can grant you access to view or edit financial data when assigning your access level. For more information, see [Grant access to financial data](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
 
 Along with the access level that users are granted, you can also grant them permissions to View or Manage finances for specific projects, tasks, or issues that you have access to share.
@@ -77,7 +79,7 @@ You must have the following to share financial data information on objects:
 
 Consider the following when granting financial permissions to objects:
 
-* You can grant financial permissions to projects, tasks, and issues. 
+* You can grant financial permissions to projects, tasks, issues, <span class="preview">and rate cards</span>.
 * Permissions can be inherited: if you have View Finance permissions to a project, you automatically inherit View Finance permissions to the tasks and issues on the project.
 
 To grant financial permissions to an object:
@@ -148,6 +150,18 @@ The following table displays what financial permissions users gain when you gran
    <td>✓</td> 
    <td>&nbsp;✓</td> 
   </tr> 
+  <tr> 
+   <td><span class="preview">Manage rate cards</span></td> 
+   <td>✓</td> 
+   <td> <p>&nbsp;</p> </td> 
+   <td>&nbsp;</td> 
+  </tr> 
+  <tr> 
+   <td><span class="preview">View rate cards</span></td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>&nbsp;✓</td> 
+  </tr>
   <tr> 
    <td>View information by Cost in the Resource Planning tools</td> 
    <td>✓</td> 

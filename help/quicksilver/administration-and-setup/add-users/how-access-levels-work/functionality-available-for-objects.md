@@ -13,6 +13,8 @@ exl-id: a419e4fe-7781-48ac-8765-bd605fa44bc9
 ---
 # Functionality available for each object type for new access levels
 
+{{highlighted-preview}}
+
 The following tables lists the functionality available for each object type in the various access levels.
 
 It also indicates which actions Workfront administrators can disable or enable using an access level.
@@ -298,6 +300,7 @@ Only users with a Standard license can have full access to financial data.
 | Manage billing records                                       | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
 | Manage expenses                                              | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
 | View financial data                                          | ✓&#42;   | ✓&#42; | &nbsp;      | &nbsp;        |
+| <span class="preview">Manage rate cards</span>                                            | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
 | View information by Cost in the Resource Planning tools      | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
 | Budget Resources in the Resource Planning tools&#42;&#42;    | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
 | View resource allocation in the Resource Planning tools&#42; | ✓        | ✓      | &nbsp;      | &nbsp;        |

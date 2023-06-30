@@ -70,7 +70,9 @@ Now, you have the ability to copy the content of a comment and add it as a new q
 
 For more information, see [Update work](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). The documentation will be updated at the time of the release.
 
-Planned Preview and Production release: June 29, 2023 
+Preview: June 28, 2023
+
+Production release: June 29, 2023 
 
 #### New interface for logging time
 

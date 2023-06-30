@@ -10,6 +10,16 @@ This page describes all integration enhancements made with the 23.3 release to t
 
 For a list of all changes available at this point in the 23.3 release cycle, see [23.3 Release overview](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md).
 
+## New G Suite integration now available
+
+A new G Suite integration is now available in the Google Marketplace. The new integration authenticates using OAuth2, and replaces the previous integration.
+
+The previous G Suite integration is now deprecated, and will be automatically uninstalled.
+
+For instructions on how to install the new integration, see [Install [!DNL Adobe Workfront for G Suite]](/help/quicksilver/workfront-integrations-and-apps/workfront-for-g-suite/install-workfront-for-gsuite.md).
+
+For more information on Workfront for G Suite, see [Workfront for G Suite](/help/quicksilver/workfront-integrations-and-apps/workfront-for-g-suite/workfront-for-gsuite.md).
+
 ## Adobe Creative Cloud integrations now support multiple assigned users
 
 The Adobe Creative Cloud integration now supports the ability to choose between "Done with my part" and "Complete" (or "Resolved") when a task or issue has multiple assigned users.

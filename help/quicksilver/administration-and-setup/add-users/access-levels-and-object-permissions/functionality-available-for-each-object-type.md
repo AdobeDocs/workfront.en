@@ -13,6 +13,8 @@ exl-id: 91b1b448-5a0b-4e64-a59e-458c8387ecbc
 ---
 # Functionality available for each object type for various access levels
 
+{{highlighted-preview}}
+
 The following tables lists the functionality available for each object type in the various access levels.
 
 It also indicates which actions Workfront administrators can disable or enable using an access level.
@@ -479,7 +481,7 @@ Users with a Plan license can have full access to reports. All other Access Leve
 
 Only users with a Plan license can have full access to financial data.
 
-The Request and External User license types are not included here because they don't have access to [select object or area].
+The Request and External User license types are not included here because they don't have access to these objects and areas.
 
 | Action |Planner |Worker |Reviewer |
 |---|---|---|---|
@@ -490,6 +492,7 @@ The Request and External User license types are not included here because they d
 | Manage billing records |✓ |&nbsp; |&nbsp; |
 | Manage expenses |✓ |✓ |&nbsp; |
 | View financial data |✓&#42; |✓&#42; |✓&#42; |
+| <span class="preview">Manage rate cards</span>  |✓ |&nbsp; |&nbsp; |
 | View information by Cost in the Resource Planning tools  |✓ |&nbsp; |&nbsp; |
 | Budget Resources in the Resource Planning tools&#42;&#42; |✓ |&nbsp; |&nbsp; |
 | View resource allocation in the Resource Planning tools&#42; |✓ |✓ |✓ |

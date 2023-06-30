@@ -14,7 +14,7 @@ The following public templates are currently available in Adobe Workfront Fusion
 
 Your team or organization may have other team-created templates available. 
 
-To view available templates, click the **Templates** icon ![](assets/fusion-template-icon.png) in the side navigation menu.
+To view available templates, click the **Templates** icon ![](assets/fusion-template-icon.png) in the side navigation menu in Fusion.
 
 ## Workfront templates
 
