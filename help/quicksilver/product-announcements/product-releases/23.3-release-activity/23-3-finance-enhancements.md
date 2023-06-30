@@ -12,10 +12,14 @@ For a list of all changes available at this point in the 23.3 release cycle, see
 
 ## Date effective cost and billing rates
 
+>[!IMPORTANT]
+>
+>The assignment rate override feature was temporarily disabled in Preview on June 30, 2023.
+
 Date effective cost and billing rates are now available on the company, user, and job role objects in Workfront. When date effective rates are applied to a project, and hours are logged on project tasks, the costs and revenue are calculated using the specified rates for each time period.
 
 Also, date effective job role sets are now available on the user profile. These date effective role associations are considered in financial calculations if the user's job role changes during a project.
 
 A new feature, rate cards, allows you to define multiple billing rates per job role, based on location. A billing rate for a job role and location can also include effective dates. Rate cards can be attached to projects to apply all of the rate information at once for the specific job role and location. Location based roles can also be assigned to tasks with a possibility to override their rates on the assignment level.
 
-All of these features will be released to Preview on July 29, 2023, and updated user documentation will be available at that time.
+For more information, see [Edit a user's profile](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md), [Create and manage job roles](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md), [Manage rate cards](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md), and [Overview of Billing and Revenue](/help/quicksilver/manage-work/projects/project-finances/billing-and-revenue-overview.md).
