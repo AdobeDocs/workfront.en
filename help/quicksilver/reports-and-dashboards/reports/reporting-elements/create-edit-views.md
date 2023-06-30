@@ -9,6 +9,8 @@ exl-id: 8fcd6320-c939-4195-8972-5c31575f78cb
 ---
 # Create or edit views in Adobe Workfront
 
+{{highlighted-preview}}
+
 You can customize the type of information you display on the screen using views. You can use several types of views in Adobe Workfront.
 
 This article describes how to create and edit standard views for lists and reports, and how to create Agile views. For more information, see [Views overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
@@ -140,14 +142,18 @@ You can create a new Agile view or customize an existing Agile view that you pre
 
 For more information about Agile views, see the article [Manage a project in the Agile View](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md).
 
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Alina: [! The information in the following steps is more or less duplicated in "Creating and Managing Agile Teams."])</p>
--->
+>[!NOTE]
+>
+><span class="preview">This procedure only applies to the legacy Agile view, not to the board view of a project.</span>
 
 To create or customize an Agile view:
 
 1. Go to the list of tasks on a project.
-1. Click the **Agile Storyboard** icon ![](assets/agile-storyboard-nwe.png).  
+1. Click the **Agile Storyboard** icon ![Agile Storyboard icon](assets/agile-storyboard-nwe.png).
+   
+   <span class="preview">Or</span>
+
+   <span class="preview">Click the **Board** icon ![Board icon](assets/board-icon-for-agile-view.png), and then click **Use legacy agile** on the board view.</span>
 
 1. (Conditional) To customize an existing Agile view:
 

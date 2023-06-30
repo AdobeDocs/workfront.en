@@ -16,7 +16,7 @@ To allow you to receive new Workfront product features and updates more quickly,
 
 Previously, features and functionality were released on a quarterly cycle for all customers.
 
-Documentation containing more information will be available at the 23.3 release.
+For more information, see [Enable or disable the fast release process](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
 
 ## Group-level control available for "Where users can log time" timesheet and hour preference
 
