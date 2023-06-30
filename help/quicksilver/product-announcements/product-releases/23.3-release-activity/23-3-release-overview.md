@@ -23,6 +23,7 @@ The 23.3 release webinar will be held on June 29, 2023. You can [register for th
 > * If you are on the **quarterly** release track, the release after 23.3 will be **23.10**, in October 2023.
 > 
 > Quarterly releases will include functionality from three monthly releases. For example, the 23.10 quarterly release will include functionality released in the 23.8, 23.9, and 23.10 monthly releases.
+>
 >|Monthly release|Quarterly release|
 >|----|----|
 >|<ul><li>23.8 (August 2023)</li><li>23.9 (September 2023)</li><li>23.10 (October 2023)</li></ul>| <ul><li>23.10 (October 2023)</li></ul>|

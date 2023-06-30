@@ -72,19 +72,12 @@ The [!UICONTROL SOAP] module is currently in beta and does not support:
 >
 >```
 ><complexType name="ArrayOfFloat">
->
 >   <complexContent>
->
 >      <restriction base="soapenc:Array">
->
 >         <attribute ref="soapenc:arrayType"
->
 >            wsdl:arrayType="xsd:integer[]"/>
->
 >      </restriction>
->
 >   </complexContent>
->
 ></complexType>
 >```
 
