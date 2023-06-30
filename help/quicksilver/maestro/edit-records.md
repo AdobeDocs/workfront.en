@@ -109,7 +109,7 @@ You can edit a record from the following areas:
 1. (Conditional) From the **View** drop-down menu in the upper-right corner of the table, select a table view. This should be the default view, unless you viewed the record type in the timeline view when you accessed it last. 
 
     The records associated with the selected record type display in the table view. 
-1. Click inside the columns of a record to start editing information about the record inline, then press Enter to save your changes. The changes are saved automatically. 
+1. Click inside the row of a record to start editing information about the record inline, then press Enter to save your changes. The changes are saved automatically. 
 
       >[!TIP]
       >
