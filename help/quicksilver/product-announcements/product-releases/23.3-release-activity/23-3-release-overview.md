@@ -108,7 +108,7 @@ The 23.3 release webinar will be held on June 29, 2023. You can [register for th
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Agile View of a project displays a kanban board</a><span style="color: #ff0000;"> Coming soon!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Agile View of a project displays a kanban board</a><span style="color: #ff0000;"> New in Preview!</span></p>
                         <p>The Agile View of a project now includes additional functionality to filter, group, and sort work in a kanban board. The new, flexible design of the view includes a robust search feature and the ability to add new tasks to the project directly from the board.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
@@ -327,7 +327,7 @@ The 23.3 release webinar will be held on June 29, 2023. You can [register for th
                  </tr>   
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-finance-enhancements.md" class="MCXref xref" xrefformat="{para}">Date effective cost and billing rates</a><span style="color: #ff0000;"> Coming soon!</span> </p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-finance-enhancements.md" class="MCXref xref" xrefformat="{para}">Date effective cost and billing rates</a><span style="color: #ff0000;"> New in Preview!</span> </p>
                         <p>Date effective cost and billing rates are now available on the company, user, and job role objects in Workfront. When date effective rates are applied to a project, and hours are logged on project tasks, the costs and revenue are calculated using the specified rates for each time period.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
@@ -337,7 +337,8 @@ The 23.3 release webinar will be held on June 29, 2023. You can [register for th
                             </li>
                             <li>
                                 <p>Production release for the Fast release customers: To be announced, after the 23.3 Production release</p>
-                                <p>Production release for all customers: With the 23.4 release</p>
+                                <p>Production release for all customers: With the 23.4 release<br>
+                                <span style="color: #ff0000;"> The assignment rate override feature was temporarily disabled in Preview on June 30, 2023.</span></p>
                             </li>
                         </ul>
                     </td>
