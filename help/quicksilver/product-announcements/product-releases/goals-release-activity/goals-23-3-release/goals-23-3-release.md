@@ -31,7 +31,7 @@ For a list of all changes available for all areas of Workfront at this point in 
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/goals-release-activity/goals-23-3-release/goals-23-3-may-5.md">Updates section enhancements</a></p>
-                        <p>Enhancements to the Updates section of goals are being made available within the 23.3 release timeframe. These enhancements will be made available in the Production environment shortly after releasing to Preview.</p>
+                        <p>Enhancements to the Updates section of goals are being made available within the 23.3 release timeframe, at the same time as the updates that are being released to the new commenting beta experience. These enhancements will be made available in the Production environment shortly after releasing to Preview.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
                      <p>

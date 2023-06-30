@@ -8,7 +8,6 @@ description: You can remove a user from Adobe Workfront Fusion only, leaving acc
 author: Becky
 feature: Workfront Fusion
 exl-id: 0d989134-46c0-4637-b465-6fbe04258b8a
-hidefromtoc: true
 
 ---
 # Delete users through the [!DNL Adobe Admin Console]

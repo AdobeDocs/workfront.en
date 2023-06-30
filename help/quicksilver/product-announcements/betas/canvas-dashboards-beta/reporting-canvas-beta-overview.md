@@ -6,8 +6,8 @@ description: Information on the beta program for the upcoming Reporting Canvas t
 author: Nolan
 feature: Product Announcements
 hidefromtoc: true
+exl-id: f68975c2-50a6-4962-80b7-1b482c0bc1d4
 ---
-
 # Reporting Canvas beta: overview
 
 ## Reporting Canvas

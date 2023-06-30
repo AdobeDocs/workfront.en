@@ -9,6 +9,8 @@ exl-id: 2f3ca8c2-51b3-4282-af8b-7f433365d386
 ---
 # Calculate costs in the Resource Planner
 
+{{highlighted-preview}}
+
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(Alina: ***Linked to the Planning in the Resource Planner article, Understanding areas of the Resource Planner. - do not move/ change/ delete.)</p>
 -->
@@ -133,6 +135,14 @@ Although you cannot view task information in the Resource Planner, the Planned C
 
 * The **Cost Type** of the tasks on the project.  
   For more information about the Cost Type of a task, see [Track costs](../../manage-work/projects/project-finances/track-costs.md).
+
+<div class="preview">
+
+* The effective dates of the cost rates for job roles and users.
+
+  For example, if the role or user has 10 planned hours in February and 10 planned hours in March, but the cost rate has changed from $12 to $20 in March, the value for the Planned Cost in February is $120, and in March the Planned Cost is $200.
+
+</div>
 
 >[!NOTE]
 >

@@ -6,14 +6,15 @@ title: Adobe Unified Experience for Workfront Fusion
 description: Accessing Workfront Fusion through Adobe Experience Cloud gives you a seamless, unified experience for managing all of your Adobe applications.
 author: Becky
 feature: Workfront Fusion
-hidefromtoc: yes
 exl-id: ea89cf36-f08d-4f4c-b89f-4895b5947e7a
 ---
 # [!DNL Adobe Unified Experience] for [!DNL Workfront Fusion]
 
-Accessing [!DNL Workfront Fusion] through [!DNL Adobe Experience Cloud] gives you a seamless, unified experience for managing all of your Ad[!DNL ]obe applications. Single identity management gives you one place to log in, without multiple URLs or login IDs.
+Accessing [!DNL Workfront Fusion] through [!DNL Adobe Experience Cloud] gives you a seamless, unified experience for managing all of your [!DNL Adobe] applications. Single identity management gives you one place to log in, without multiple URLs or login IDs.
 
-For a video describing navigation in [!DNL Fusion] in the [!DNL Adobe Experience Cloud], see [[!DNL Fusion] on the [!DNL Unified Shell]](https://video.tv.adobe.com/v/3412392/){target=_blank}
+For a video describing navigation in [!DNL Fusion] in the [!DNL Adobe Experience Cloud], see:
+
+ [[!DNL Fusion] on the [!DNL Unified Shell]](https://video.tv.adobe.com/v/3412392/){target=_blank}
 
 ## Access requirements
 
@@ -33,11 +34,18 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] license**</td> 
-   <td> <p>[!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p> <p>[!UICONTROL [!DNL Workfront Fusion] for Work Automation] </p>  </td> 
+   <td>
+   <p>Current license requirement: No [!DNL Workfront Fusion] license requirement.</p>
+   <p>Or</p>
+   <p>Legacy license requirement: [!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>Your organization must purchase [!DNL Adobe Workfront Fusion] as well as [!DNL Adobe Workfront] to use functionality described in this article.</td> 
+   <td>
+   <p>Current product requirement: If you have the [!UICONTROL Select] or [!UICONTROL Prime] [!DNL Adobe Workfront] Plan, your organization must purchase [!DNL Adobe Workfront Fusion] as well as [!DNL Adobe Workfront] to use functionality described in this article. [!DNL Workfront Fusion] is included in the [!UICONTROL Ultimate] [!DNL Workfront] plan.</p>
+   <p>Or</p>
+   <p>Legacy product requirement: Your organization must purchase [!DNL Adobe Workfront Fusion] as well as [!DNL Adobe Workfront] to use functionality described in this article.</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
@@ -88,3 +96,4 @@ This menu allows you to:
 * Set **[!UICONTROL Preferences]** for [!DNL Adobe Experience Cloud], including primary and secondary language preferences.
 * Access your **[!UICONTROL [!DNL Workfront Fusion] Profile]**. Once you are on the profile, click the **[!UICONTROL More]** menu ![](assets/more-icon.png) and select **[!UICONTROL Edit]**. For more information about the profile, see [Configure My Settings](/help/quicksilver/workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md).
 * **[!UICONTROL Sign out]** of Adobe Experience Cloud.
+ 
