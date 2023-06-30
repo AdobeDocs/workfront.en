@@ -80,9 +80,11 @@ We have redesigned the interface for logging time from the Updates area in the n
 
 For more information, see [Log time](../../../timesheets/create-and-manage-timesheets/log-time.md). The documentation will be updated at the time of the release.
 
-Planned Preview release: June 29, 2023 
+Planned Preview release for projects, tasks, and issues: July 5, 2023 
 
-Planned Production release: with the 23.3 release
+Planned Production release for issues: July 6, 2023 
+
+Planned Production release for projects and tasks: with the 23.3 release
 
 #### Add emojis to an update
 
@@ -182,7 +184,7 @@ You can log time for issues, tasks, and projects from the Updates area, when usi
 
 Preview: June 1, 2023 
 
-Production: To be announced
+Production: with the 23.3 release 
 
 ### Week of May 15, 2023
 
