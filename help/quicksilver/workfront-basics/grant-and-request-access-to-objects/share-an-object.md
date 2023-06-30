@@ -21,7 +21,7 @@ For information about sharing permissions on objects, see [Overview of sharing p
 >
 >A Workfront administrator can add or remove permissions to any items in the system, for all users, without being the owner of those items.
 
-This article describes how to share the following objects for which sharing is identical:&nbsp;
+This article describes how to share the following objects:&nbsp;
 
 * Projects, tasks, issues
 * Portfolios, programs
@@ -114,9 +114,19 @@ You must have the following to share objects:
 1. Go to the object you want to share.
 
    For information about which objects can be shared, see [Overview of sharing permissions on objects](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
-1. Click the **More** icon ![](assets/more-icon.png)next to the object name, then click&nbsp;**Sharing** or**Share.**
+1. For projects, tasks, and issues:
 
-   ![](assets/share-a-document-350x160.png)
+   Click the **Share** button next to the object name.
+
+      ![](assets/new-share-button.png)
+
+   OR
+
+   For documents, portfolios, and programs:
+
+   Click the **More** icon ![](assets/more-icon.png)next to the object name, then click&nbsp;**Sharing** or **Share.**
+
+      ![](assets/share-a-document-350x160.png)
 
 1. In the **Give `<Object Name>` access to** field, begin typing the name of the user, team, role, group, or company with whom you want to share the object, then click the name when it appears in the drop-down list.
 
