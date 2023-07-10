@@ -28,6 +28,8 @@ The 23.3 release webinar will be held on June 29, 2023. You can [register for th
 >|----|----|
 >|<ul><li>23.8 (August 2023)</li><li>23.9 (September 2023)</li><li>23.10 (October 2023)</li></ul>| <ul><li>23.10 (October 2023)</li></ul>|
 >|<ul><li>23.11 (November 2023)</li><li>23.12 (December 2023)</li><li>24.1 (January 2024)</li></ul>| <ul><li>24.1 (January 2024)</li></ul>|
+>
+>Monthly and quarterly releases are planned to be available on the last Thursday of the month.
 
 ## Adobe Workfront enhancements
     
@@ -63,7 +65,7 @@ The 23.3 release webinar will be held on June 29, 2023. You can [register for th
                     <td><p><b>Available on these dates:</b></p>
                         <ul>
                             <li>
-                                <p>Preview release: N/A</p>
+                                <p>Preview release: June 22, 2023</p>
                             </li>
                             <li>
                                 <p>Production release: With the 23.3 release</p>
