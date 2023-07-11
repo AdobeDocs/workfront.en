@@ -383,7 +383,7 @@ To log time in the Updates section of a project, task, or issue:
 1. In the left panel, select **Updates**.
 1. Click **Log Time**.
 
-   The Enter Hours dialog box displays. 
+   <span class="preview">The Log Time dialog box displays. </span>
    
    >[!TIP]
    >
@@ -391,7 +391,7 @@ To log time in the Updates section of a project, task, or issue:
    >   
    >   There is an indication in the upper-right corner of the Enter Days box of how many hours are included in a day. 
 
-   ![](assets/log-time-box-in-updates-stream.png)
+   <span class="preview">![](assets/log-time-box-in-updates-stream.png)</span>
 
 1. Specify the following information:
 
