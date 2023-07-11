@@ -75,11 +75,9 @@ We have redesigned the interface for logging time from the Updates area in the n
 
 For more information, see [Log time](../../../timesheets/create-and-manage-timesheets/log-time.md). The documentation will be updated at the time of the release.
 
-Preview release for projects, tasks, and issues: July 5, 2023 
+Preview release: July 5, 2023 
 
-Production release for issues: July 6, 2023 
-
-Planned Production release for projects and tasks: with the 23.3 release
+Production release: with the 23.3 release
 
 #### Quote comment content in a new reply 
 
