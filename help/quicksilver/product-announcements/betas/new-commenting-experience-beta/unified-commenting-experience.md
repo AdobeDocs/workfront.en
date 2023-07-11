@@ -198,6 +198,22 @@ The following table illustrates the features that will be available in the new c
    </td>
   </tr>
   <tr>
+   <td>Remove thread participants
+   </td>
+   <td> 
+   </td>
+   <td><span class="preview">✓</span>
+   </td>
+   <td> 
+   </td>
+   <td> 
+   </td>
+   <td> 
+   </td>
+  </tr>
+
+
+  <tr>
    <td>Automatically tag all thread participants
    </td>
    <td> 
@@ -211,6 +227,7 @@ The following table illustrates the features that will be available in the new c
    <td> 
    </td>
   </tr>
+
   <tr>
    <td>Comments that are private to a company 
    </td>
