@@ -76,6 +76,26 @@ These templates retrieve information from a web service, and bring that informat
 
 This template creates a scenario that automates the updating of an exchange rate at a set point in time. This scenario pulls the rate of Euros (EUR) to US Dollars (USD) from an APIlayers.com API and updates the rate in Workfront.
 
+## Workfront-Marketo templates
+
+These templates support Workfront-Marketo integration. 
+
+>[!NOTE]
+>
+> You must have a Workfront Fusion for Work Automation and Integration license to use templates in this section.
+
+### Approve your Marketo Engage email draft with Workfront approval workflows
+
+This is part of the Review and Approve integration between Workfront and Marketo Engage. This template detects if an email Proof in Workfront has been approved, and then updates the corresponding email in Marketo Engage as approved.
+
+### Intake marketing campaign requests in Workfront and automate the creation of campaigns in Marketo Engage
+
+This scenario provides a programmatic way to create email and webinar campaigns in Marketo Engage from a request made in Workfront. By using automation to create, organize, and configure campaigns, teams are able to improve efficiency.
+
+### Review an email proof of your Marketo Engage email draft in Workfront
+
+This template detects if a Workfront task has been set to a ready for review status, and then exports the email draft from Marketo Engage to save it as a Proof in Workfront.
+
 ## Workfront-Anaplan templates
 
 These templates support the Workfront-Anaplan integration, and expect a specific configuration in both Anaplan in Workfront. For information on these templates and their required configurations, see the articles for the individual templates.
