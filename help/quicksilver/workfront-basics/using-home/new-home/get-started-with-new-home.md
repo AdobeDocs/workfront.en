@@ -31,7 +31,7 @@ Widgets are the foundation of New Home. By adding widgets to your Home page, you
     Displays issues that are assigned to you in a table with customizable filters, views, and groupings, as well as a button to directly create a new issue.
 
 * **My requests**\
-    Displays all requests assigned to you, a filter that allows you to only display open requests, and a button that opens the summary pane for a request.
+    Displays all requests you have submitted, a filter to only display open requests, and a button that opens the summary pane for a request.
 
 * **Team requests**\
     Displays all pending requests for teams that you are on sorted by team, as well as buttons to directly assign a request to a user or to work on it yourself.
