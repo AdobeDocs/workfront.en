@@ -190,7 +190,7 @@ The following grid shows what sections in the [!UICONTROL My Settings] area are 
 
 ## Configuring the [!UICONTROL My Settings] area 
 
-1. Click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe Workfront], then click your user name next to your profile picture.
+1. {#step1-click-profile-pic}
 
 1. Click the **[!UICONTROL More]** menu ![](assets/more-icon.png), then click **[!UICONTROL Edit]**.
 
