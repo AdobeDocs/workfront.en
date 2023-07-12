@@ -69,7 +69,7 @@ Consider the following when working with Maestro views:
 
 1. From the **Main Menu**, click **Maestro**. 
     The workspace you last accessed opens by default. For information about creating workspaces, see [Create workspaces](../maestro/create-workspaces.md).
-1. Click a record type. For information about creating a record type, see [Create operational record types](../maestro/create-operational-record-types.md).
+1. Click a record type. For information about creating a record type, see [Create record types](../maestro/create-record-types.md).
 
     By default, all the records of the type selected display in the table view. 
 

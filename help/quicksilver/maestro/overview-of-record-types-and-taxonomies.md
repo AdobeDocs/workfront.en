@@ -41,7 +41,7 @@ You can do the following to add operational record types to a Maestro workspace:
 
     * Projects from Adobe Workfront <!--add to this list when we could import more objects from other apps-->
 
-    For more information, see [Create operational record types](../maestro/create-operational-record-types.md). 
+    For more information, see [Create record types](../maestro/create-record-types.md). 
 
 ### Taxonomy{#taxonomy}
 

@@ -1,5 +1,5 @@
 ---
-title: Delete Maestro fields
+title: Delete fields in Adobe Maestro
 description: In Adobe Maestro, you can delete custom fields that are no longer relevant. 
 hidefromtoc: yes
 hide: yes
@@ -7,13 +7,13 @@ hide: yes
 
 <!--udpate the metadata with real information when making this avilable in TOC and in the left nav-->
 
-# Delete Maestro fields
+# Delete fields in Adobe Maestro
 
 In Adobe Maestro, you can create custom fields to store information about records. 
 
 For information about creating Maestro records, see [Create Maestro fields](../maestro/create-fields.md). 
 
-You can delete Adobe Maestro fields that are no longer relevant. 
+You can delete Maestro fields that are no longer relevant. 
 
 Consider the following when deleting Maestro fields:
 
@@ -21,6 +21,8 @@ Consider the following when deleting Maestro fields:
 * You can delete a field in the record type table. You cannot delete a field from the Details page of a record. 
 * Any information stored in the field is deleted and cannot be recovered. 
 <!-- this is not possible yet, since fields cannot be shared yet; maybe move this up a bit, in this bullet list: * When you delete a field, it is deleted from all records associated with the field.-->
+* Deleted fields cannot be recovered. 
+
 ## Access requirements
 
 <table style="table-layout:auto">
@@ -64,12 +66,16 @@ Consider the following when deleting Maestro fields:
 
 *If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see [Create or modify custom access levels](../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
-## Delete Maestro fields
+## Delete fields
 
 <!--When they release the sharing of fields between other records, revise this section.  -->
 
 1. Go to the record type you want to delete a field from. 
-1. Find the field you want to delete in the column headers, hover over the column header, then click the downward-pointing arrow after the field name. 
-1. Click **Delete** <!-- check this: they might replace it with **Delete field**-->,  then **Delete** to confirm. 
+1. Find the field you want to delete in the column headers, and hover over the column header, then click the downward-pointing arrow after the field name. 
+1. Click **Delete**. <!-- check this: they might replace it with **Delete field**-->
+
+    ![](assets/field-menu-in-table.png)
+
+1. Click **Delete** to confirm. 
 
     The field is deleted and can no longer be associated with any records. 

@@ -13,7 +13,7 @@ hide: yes
 You can use a Relationship-type field to connect the following: 
 
 * Maestro record types and their fields. 
-* Maestro record types with objects from another application and their fields. For more information, see [Connect Maestro records to Workfront objects](../maestro/connect-maestro-records-to-workfront-objects.md). <!--consider renaming this article to maybe something generic when we can link from other apps as well-->
+* Maestro record types with objects from another application and their fields. For more information, see [Import records from Adobe Workfront](../maestro/import-records-from-workfront.md). <!--consider renaming this article to maybe something generic when we can link from other apps as well-->
 
 By doing this, you can display fields from the linked record or object on another Maestro record.
 

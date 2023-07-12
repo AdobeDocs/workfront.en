@@ -124,7 +124,7 @@ The following are the main Maestro objects and concepts:
 
         For example, Campaign, Activity, Program can be operational record types.  
 
-        <!--For more information, see [Create operational record types](../maestro/create-operational-record-types.md).-->
+        <!--For more information, see [Create record types](../maestro/create-record-types.md).-->
 
     * **Taxonomy**: A record type that captures attributes about an operational record type. 
 

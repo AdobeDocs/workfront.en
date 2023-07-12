@@ -16,7 +16,7 @@ This section contains the following articles:
 * [Maestro overview](maestro-overview.md)
 * [Create workspaces](create-workspaces.md)
 * [Overview of operational record types and taxonomies](overview-of-record-types-and-taxonomies.md)
-* [Create operational record types](create-operational-record-types.md)
+* [Create record types](create-record-types.md)
 * [Create a taxonomy](create-a-taxonomy.md)
 * [Create records](create-records.md)
 * [Delete workspaces](delete-workspaces.md)

@@ -9,11 +9,11 @@ hide: yes
 
 # Edit Maestro fields
 
-You can edit the field setting for fields that are already created. 
+You can edit the field settings for fields that are already created. 
 
 For information about creating Adobe Maestro fields, see [Create Mestro fields](../maestro/create-fields.md). 
 
-This article describes how you can edit the settings for Maestro fields. For information about editing field values for Maestro records, see [Edit Mestro records](../maestro/edit-records.md). 
+This article describes how you can edit the settings for Maestro fields. For information about editing field values for Maestro records, see [Edit records](../maestro/edit-records.md). 
 
 Consider the following when editing fields: 
 
@@ -75,10 +75,12 @@ Consider the following when editing fields:
 ## Edit fields
 
 1. Go to the record type you want to edit a field for. 
-1. Find the field you want to edit in the column headers, hover over the column header, then click the downward-pointing arrow after the field name. 
-1. Click **Edit field** ![](assets/edit-field-icon-with-text.png).
+1. Find the field you want to edit in the column headers, hover over the column header, then click the downward-pointing arrow after the field name, and click **Edit field**.
+
+  ![](assets/field-menu-in-table.png)
+
 1. Update information about the field. 
 
     You cannot update the field type after the field is saved.
 
-1. Click **Update**. <!--logged something to change this to **Save** - should this step be updated??-->
+1. Click **Save**.

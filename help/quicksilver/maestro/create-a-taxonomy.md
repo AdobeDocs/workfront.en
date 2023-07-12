@@ -81,4 +81,4 @@ For more information about Maestro record types, see [Overview of Adobe Maestro 
 
 Creating taxonomies is identical to creating an operational record type. 
 
-For information about creating record types, see [Create operational record types](../maestro/create-operational-record-types.md).
+For information about creating record types, see [Create record types](../maestro/create-record-types.md).

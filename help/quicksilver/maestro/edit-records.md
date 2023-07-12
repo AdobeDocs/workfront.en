@@ -10,7 +10,7 @@ hide: yes
 # Edit records
 
 You can edit record information in Adobe Maestro. You must create record types before you can start creating and editing records. 
-For information, see [Create operational record types](../maestro/create-operational-record-types.md). 
+For information, see [Create record types](../maestro/create-record-types.md). 
 
 <!-- mention in here that the fields in the Details view are the same as the ones in the table view -- this article is linked from the Manage record views one to refer to this info-->
 

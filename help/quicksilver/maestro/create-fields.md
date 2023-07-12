@@ -15,7 +15,7 @@ hide: yes
 
 In Adobe Maestro, you can create custom fields for operational record types or taxonomies. You can then associate the fields with Maestro records to enhance record information. 
 
-You must create record types before you can create fields to associate with them. For information, see [Create operational record types](../maestro/create-operational-record-types.md). 
+You must create record types before you can create fields to associate with them. For information, see [Create record types](create-record-types.md). 
 
 ## Access requirements
 
@@ -87,7 +87,7 @@ You must create record types before you can create fields to associate with them
 
                 You can add more values or rename the existing ones. 
 
-            The following are the fields created by default for each new taxonomy record type:
+            The following are the standard fields created by default for each new taxonomy record type:
 
             * Name <!--will more be added? If not, consider rephrasing this bullet-->
 
@@ -101,11 +101,15 @@ You must create record types before you can create fields to associate with them
         
             <!--* Importing record types with fields using a CSV or an Excel file. - this is not available yet-->
 
-            For more information about creating Maestro record types by connecting them to object types from other applications, see [Connect Maestro records to Workfront objects](../maestro/connect-maestro-records-to-workfront-objects.md).
+            For more information about creating Maestro record types by connecting them to object types from other applications, see [Import records from Adobe Workfront](../maestro/import-records-from-workfront.md).
 
     * Manually:
 
-        * You can manually create fields on the record type page, in the Table view. The columns of the table are the fields associated with the record type. They are the same fields that display on a record's Details page. You cannot create fields from the Details page of a record. This article describes how to manually create fields. 
+        * You can manually create fields on the record type page, in the Table view. The columns of the table are the fields associated with the record type. They are the same fields that display on a record's Details page. 
+        
+            You cannot create fields from the Details page of a record.
+            
+            This article describes how to manually create fields. 
 
 * You can view and update the settings for the fields that you or any other user created. <!--this will change with access/ permissions-->
 
@@ -136,21 +140,141 @@ You must create record types before you can create fields to associate with them
 1. Click the **+** icon in the upper-right corner of the table view to add new fields.
 1. In the **New field** tab, select from the following field types: 
 
+    * [Relationship](#relationship)
+    * [Single-line text](#single-line-text)
+    * [Paragraph](#paragraph)
+    * [Multi-select](#multi-select)
+    * [Single-select](#single-select)
+    * [Date](#date)
     * [Number](#number) 
     * [Percentage](#percentage)
     * [Currency](#currency)
-    * [Single-line text](#single-line-text)
-    * [Paragraph](#paragraph)
-    * [Single-select](#single-select)
-    * [Multi-select](#multi-select) 
-    * [Date](#date)
-    * [Relationship](#relationship)
-
+    * [Checkbox](#checkbox) 
+    
     >[!IMPORTANT]
     >
     >    You cannot change the type of the field after you save it. 
 
-1. Continue with adding each field, as described in the sections below. 
+1. Continue with adding each field, as described in the sections below.
+
+### Relationship {#relationship}
+
+You can use a relationship field to connect record types and their fields. By doing this, you can display fields from the linked record on another record.
+
+>[!IMPORTANT]
+>
+>    You cannot manually update the values of linked fields from the original records. They are automatically updated from their linked records.
+
+
+For more information about creating a relationship field, see [Manage Relationship-type fields in Adobe Maestro](../maestro/manage-relationship-fields.md).
+
+### Single-line text {#single-line-text}
+
+Single-line text fields capture limited alphanumeric information. For example,  you can capture the Owner, Stakeholder, Team, or Organizational unit information in a single-line text field. The content of a single-line text field can have up to 250 characters. <!-- asked Lilit if we can change this to "Single-line" since this can have numbers and text.-->
+
+1. Start creating a field as described in the section [Create fields from scratch](#create-fields-from-scratch) in this article, then select the **Single-line text** field type.
+
+    ![](assets/single-line-text-field-type.png) 
+
+1. Add the following information:
+     * **Name**: The name of the field type, as it will appear in a table or the Details page of the record. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
+     * **Description**: Additional information about the field. The description of a field displays when you hover over the field's column in a table.
+1. Click **Create**. 
+
+    The new single-line field is added as a column to the record type and its values can be associated with records. The field also displays on the Details page of a record.
+
+
+### Paragraph {#paragraph}
+
+Paragraph fields capture additional alphanumeric information about a record, similar to the Description field. The content of a paragraph field can have up to 1,000 characters. 
+
+1. Start creating a field as described in the section [Create fields from scratch](#create-fields-from-scratch) in this article, then select the **Paragraph** field type.
+
+    ![](assets/paragraph-field-type.png)
+ 
+
+1. Add the following information:
+     * **Name**: The name of the field type, as it will appear in a table or the Details page of the record. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
+     * **Description**: Additional information about the field. The description of a field displays when you hover over the field's column in a table.
+1. Click **Create**. 
+
+    The new paragraph field is added as a column to the record type and its values can be associated with records. The field also displays on the Details page of a record. 
+
+
+### Multi-select {#multi-select}
+
+You can use a multi-select field to capture additional information in any format by selecting more than one option from a drop-down menu. 
+
+1. Start creating a field as described in the section [Create fields from scratch](#create-fields-from-scratch) in this article, then select the **Multi-select** field type.
+
+    ![](assets/multi-select-field-type.png)
+ 
+
+1. Add the following information:
+     * **Name**: The name of the field type, as it will appear in a table or the Details page of the record. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
+     * **Description**: Additional information about the field. The description of a field displays when you hover over the field's column in a table.
+     * **Choices**: The options  available to select from the drop-down menu after the field is saved. You can have both numbers and letters for the name of each choice. 
+1. (Optional) Manually drag and drop each choice in the desired order, or select the **Sort choices A-Z** option if you want the choices to be automatically listed in alphabetical order. <!--Add this if they added this functionality: You cannot edit this option after you save the field.-->
+1. Click **Add choice** to add as many choices or options as needed.      
+1. Click the **x** icon to the right of a choice to remove it.
+1. Click the color swatch to the left of a choice to expand the color selector and customize the color of each option. 
+1. Click **Create**. 
+
+    The new multi-select field is added as a column to the record type and its values can be associated with records. The field also displays on the Details page of a record.
+
+### Single-select {#single-select}
+
+Single-select fields capture additional information in any format by selecting one option from a drop-down menu. 
+
+1. Start creating a field as described in the section [Create fields from scratch](#create-fields-from-scratch) in this article, then select the **Single-select** field type.
+
+    ![](assets/single-select-field-type.png)
+ 
+
+1. Add the following information:
+     * **Name**: The name of the field type, as it will appear in a table or the Details page of the record. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
+     * **Description**: Additional information about the field. The description of a field displays when you hover over the field's column in a table.
+     * **Choices**: The options  available to select from the drop-down menu after the field is saved. You can have both numbers and letters for the name of each choice. 
+     
+1. (Optional) Manually drag and drop each choice in the desired order, or select the **Sort choices A-Z** option if you want the choices to be automatically listed in alphabetical order. <!--Add this if they added this functionality: You cannot edit this option after you save the field.-->
+1. Click **Add choice** to add as many choices or options as needed.      
+1. Click the **x** icon to the right of a choice to remove it.
+1. Click the color swatch to the left of a choice to expand the color selector and customize the color of each option. 
+1. Click **Create**. 
+
+    The new single-select field is added as a column to the record type and its values can be associated with records. The field also displays on the Details page of a record.
+
+### Date {#date}
+
+You can use a date field to capture additional information in date and time format. 
+
+1. Start creating a field as described in the section [Create fields from scratch](#create-fields-from-scratch) in this article, then select the **Date** field type.
+
+    ![](assets/date-field-type.png)
+ 
+
+1. Add the following information:
+     * **Name**: The name of the field type, as it will appear in a table or the Details page of the record. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
+     * **Description**: Additional information about the field. The description of a field displays when you hover over the field's column in a table.
+     * **Date format**: The type of date format you want to display in this field.
+        
+        Select from the following formats:
+        * **Locale**: Matches the locale of your browser.
+        * **Standard**: 05/16/2023
+        * **Long**: May 16, 2023
+        * **European**: 16/05/2023
+        * **ISO**: 2023-05-16
+    * Include a time field: Select this option if you want to include a time stamp. Select from the following options:
+        * **24hr**: For example: 18:00
+        * **12hr**: For example: 6:00 PM
+
+        This is unselected by default.
+
+1. Click **Create**. 
+
+    The new date field is added as a column to the record type and its values can be associated with records. The field also displays on the Details page of a record.
+
+
 
 ### Number {#number}
 
@@ -219,119 +343,24 @@ Currency field types capture information in a number format preceded by a curren
 
     The new currency field is added as a column to the record type and its values can be associated with records. The field also displays on the Details page of a record. 
 
-### Single-line text {#single-line-text}
 
-Single-line text fields capture limited alphanumeric information. For example,  you can capture the Owner, Stakeholder, Team, or Organizational unit information in a single-line text field. The content of a single-line text field can have up to 250 characters. <!-- asked Lilit if we can change this to "Single-line" since this can have numbers and text.-->
+### Checkbox
 
-1. Start creating a field as described in the section [Create fields from scratch](#create-fields-from-scratch) in this article, then select the **Single-line text** field type.
+You can use a checkbox field to add a checkbox to a record. 
 
-    ![](assets/single-line-text-field-type.png) 
-
-1. Add the following information:
-     * **Name**: The name of the field type, as it will appear in a table or the Details page of the record. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
-     * **Description**: Additional information about the field. The description of a field displays when you hover over the field's column in a table.
-1. Click **Create**. 
-
-    The new single-line field is added as a column to the record type and its values can be associated with records. The field also displays on the Details page of a record. 
-
-### Paragraph {#paragraph}
-
-Paragraph fields capture additional alphanumeric information about a record, similar to the Description field. The content of a paragraph field can have up to 1,000 characters. 
-
-1. Start creating a field as described in the section [Create fields from scratch](#create-fields-from-scratch) in this article, then select the **Paragraph** field type.
-
-    ![](assets/paragraph-field-type.png)
+1. Start creating a field as described in the section [Create fields from scratch](#create-fields-from-scratch) in this article, then select the **Checkbox** field type.
  
+    ![](assets/checkbox-field-type.png)
 
 1. Add the following information:
      * **Name**: The name of the field type, as it will appear in a table or the Details page of the record. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
      * **Description**: Additional information about the field. The description of a field displays when you hover over the field's column in a table.
-1. Click **Create**. 
+1. Click **Create**.
 
-    The new paragraph field is added as a column to the record type and its values can be associated with records. The field also displays on the Details page of a record. 
-
-### Single-select {#single-select}
-
-Single-select fields capture additional information in any format by selecting one option from a drop-down menu. 
-
-1. Start creating a field as described in the section [Create fields from scratch](#create-fields-from-scratch) in this article, then select the **Single-select** field type.
-
-    ![](assets/single-select-field-type.png)
- 
-
-1. Add the following information:
-     * **Name**: The name of the field type, as it will appear in a table or the Details page of the record. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
-     * **Description**: Additional information about the field. The description of a field displays when you hover over the field's column in a table.
-     * **Choices**: The options  available to select from the drop-down menu after the field is saved. You can have both numbers and letters for the name of each choice. 
-     
-1. (Optional) Manually drag and drop each choice in the desired order, or select the **Sort choices A-Z** option if you want the choices to be automatically listed in alphabetical order. <!--Add this if they added this functionality: You cannot edit this option after you save the field.-->
-1. Click **Add choice** to add as many choices or options as needed.      
-1. Click the **x** icon to the right of a choice to remove it.
-1. Click the color swatch to the left of a choice to expand the color selector and customize the color of each option. 
-1. Click **Create**. 
-
-    The new single-select field is added as a column to the record type and its values can be associated with records. The field also displays on the Details page of a record.
-
-### Multi-select {#multi-select}
-
-You can use a multi-select field to capture additional information in any format by selecting more than one option from a drop-down menu. 
-
-1. Start creating a field as described in the section [Create fields from scratch](#create-fields-from-scratch) in this article, then select the **Multi-select** field type.
-
-    ![](assets/multi-select-field-type.png)
- 
-
-1. Add the following information:
-     * **Name**: The name of the field type, as it will appear in a table or the Details page of the record. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
-     * **Description**: Additional information about the field. The description of a field displays when you hover over the field's column in a table.
-     * **Choices**: The options  available to select from the drop-down menu after the field is saved. You can have both numbers and letters for the name of each choice. 
-1. (Optional) Manually drag and drop each choice in the desired order, or select the **Sort choices A-Z** option if you want the choices to be automatically listed in alphabetical order. <!--Add this if they added this functionality: You cannot edit this option after you save the field.-->
-1. Click **Add choice** to add as many choices or options as needed.      
-1. Click the **x** icon to the right of a choice to remove it.
-1. Click the color swatch to the left of a choice to expand the color selector and customize the color of each option. 
-1. Click **Create**. 
-
-    The new multi-select field is added as a column to the record type and its values can be associated with records. The field also displays on the Details page of a record.
+    The new checkbox field is added as a column to the record type and its values can be associated with records. The field also displays on the Details page of a record. 
 
 
-### Date {#date}
-
-You can use a date field to capture additional information in date and time format. 
-
-1. Start creating a field as described in the section [Create fields from scratch](#create-fields-from-scratch) in this article, then select the **Date** field type.
-
-    ![](assets/date-field-type.png)
- 
-
-1. Add the following information:
-     * **Name**: The name of the field type, as it will appear in a table or the Details page of the record. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
-     * **Description**: Additional information about the field. The description of a field displays when you hover over the field's column in a table.
-     * **Date format**: The type of date format you want to display in this field.
-        
-        Select from the following formats:
-        * **Locale**: Matches the locale of your browser.
-        * **Standard**: 05/16/2023
-        * **Long**: May 16, 2023
-        * **European**: 16/05/2023
-        * **ISO**: 2023-05-16
-    * Include a time field: Select this option if you want to include a time stamp. Select from the following options:
-        * **24hr**: For example: 18:00
-        * **12hr**: For example: 6:00 PM
-
-        This is unselected by default.
-
-1. Click **Create**. 
-
-    The new date field is added as a column to the record type and its values can be associated with records. The field also displays on the Details page of a record.
-
-### Relationship {#relationship}
-
-You can use a relationship field to connect record types and their fields. By doing this, you can display fields from the linked record on another record.
-
->[!IMPORTANT]
->
->    You cannot manually update the values of linked fields from the original records. They are automatically updated from their linked records.
 
 
-For more information about creating a relationship field, see [Manage Relationship-type fields in Adobe Maestro](../maestro/manage-relationship-fields.md).
+
 
