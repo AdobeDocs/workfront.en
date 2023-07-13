@@ -340,7 +340,7 @@ The 23.3 release webinar will be held on June 29, 2023. You can [register for th
                             <li>
                                 <p>Production release for the Fast release customers: To be announced, after the 23.3 Production release</p>
                                 <p>Production release for all customers: With the 23.4 release<br>
-                                <span style="color: #ff0000;"> The assignment rate override feature was temporarily disabled in Preview on June 30, 2023.</span></p>
+                                <span style="color: #ff0000;"> The assignment rate override feature was temporarily disabled in Preview from June 30 to July 13, 2023.</span></p>
                             </li>
                         </ul>
                     </td>

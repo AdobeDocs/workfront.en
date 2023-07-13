@@ -5,7 +5,8 @@ navigation-topic: plan-a-project
 title: Set the project Planned Completion Date
 description: The Planned Completion Date of a project is the date by which the project is set to complete.
 author: Alina
-feature: Work Management
+feature: Work Management, Projects
+role: User
 exl-id: 996398c5-de92-445e-8e86-36b2efdcf6b5
 ---
 # Set the project Planned Completion Date
@@ -80,13 +81,18 @@ You must have the following access to perform the steps in this article:
 
 ## Manually set the Planned Completion Date of a project
 
-You must manually set the Planned Completion Date of a project when you schedule the project from Completion Date.&nbsp;
+You must manually set the Planned Completion Date of a project when you schedule the project from Completion Date.
+
+>[!NOTE]
+>
+>When you manually set the Planned Completion Date of a project, Workfront automatically calculates the Planned Start Date of the project based on the Duration of all the tasks. 
+
 
 To schedule a project from Completion Date:
 
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner, then click **Projects**. 
 
-1. Click&nbsp;**New Project** then**New Project**.
+1. Click **New Project** then**New Project**.
 
    For more information about creating projects, see the article [Create a project](../../../manage-work/projects/create-projects/create-project.md).
 
@@ -101,7 +107,7 @@ To schedule a project from Completion Date:
 
 ## Automatically set the Planned Completion Date of a project
 
-The Planned Completion Date of a project is automatically calculated by Adobe Workfront when you schedule the project from Start Date.&nbsp;
+The Planned Completion Date of a project is automatically calculated by Workfront when you schedule the project from Start Date.&nbsp;
 
 To schedule a project from Start Date:
 

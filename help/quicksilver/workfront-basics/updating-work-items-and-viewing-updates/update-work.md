@@ -36,21 +36,34 @@ exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
 >
 >     You can add and view updates to cards in the Boards area when you enable the Comments and System Activity sections on a card. For more information, see [Add an ad hoc card to a board](../../agile/get-started-with-boards/add-card-to-board.md).
 
-You can add comments to most objects in Adobe Workfront in the Updates section. For more information about which objects display the Updates section, see [Updates section overview](../updating-work-items-and-viewing-updates/updates-tab-overview.md). 
 
-You can add an update on an Workfront object (project, task, or issue) to communicate about progress on the object, as you comment on the object. Users who are assigned or subscribed to the object can view your update. You can also tag users to bring their attention to the update. Tagged users receive an in-app notification and an email about your update. For more information, see [Tag others on updates](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md). 
+## Considerations about updating work
 
-You can add a comment to an object that you can view, or you can log in as a Workfront or group administrator and add a comment on behalf of another user. For more information, see [Log in as another user](../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md). 
+* You can add comments to most objects in Adobe Workfront in the Updates section. For more information about which objects display the Updates section, see [Updates section overview](../updating-work-items-and-viewing-updates/updates-tab-overview.md). 
 
-The information on this page describes how you can comment on Workfront objects and how you update projects, tasks, and issues. For information about commenting on goals, see [Manage goal comments in Adobe Workfront Goals](../../workfront-goals/goal-management/manage-goal-comments.md). You must have an additional license to access Workfront Goals. 
+* You can add an update on an Workfront object (project, task, or issue) to communicate about progress on the object, as you comment on the object. Users who are assigned or subscribed to the object can view your update. 
 
+* You can tag users to bring their attention to the update. Tagged users receive an in-app notification and an email about your update. 
 
-You can add an update to projects, tasks, and issues from the following areas of Workfront:
+   >[!TIP]
+   >
+   >   <span class="preview">In the new commenting experience, comment owners are automatically tagged. For more information, see [Tag others on updates](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).</span> 
+   <!--take the "in the new commenting experience" out when this is the only experience-->
+   
+* You can add a comment to an object that you can view, or you can log in as a Workfront or group administrator and add a comment on behalf of another user. For more information, see [Log in as another user](../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md). 
 
-* From a Workfront object, in the Updates  section  
-* From the Home area (for tasks and issues)
-* From the Summary panel in a list of objects (for tasks and issues)
-* From the timesheet (for tasks and issues)
+* You can add an update to projects, tasks, and issues from the following areas of Workfront:
+
+   * From a Workfront object, in the Updates  section  
+   * From the Home area (for tasks and issues)
+   * From the Summary panel in a list of objects (for tasks and issues)
+   * From the timesheet (for tasks and issues)
+
+The information on this page describes how you can comment on Workfront objects and how you update projects, tasks, and issues. 
+
+For information about commenting on goals, see [Manage goal comments in Adobe Workfront Goals](../../workfront-goals/goal-management/manage-goal-comments.md). You must have an additional license to access Workfront Goals. 
+
+For information about commmenting on cards in the Boards area, see [Add an ad hoc card to a board](../../agile/get-started-with-boards/add-card-to-board.md).
 
 ## Access requirements
 
@@ -389,7 +402,7 @@ This option copies a specific update link to the clipboard. When you share the u
 
 For information about what features are available for the new commenting experience and for what objects, see [New commenting experience](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). 
 
-<!--when we remove and deprecate the legacy stream, add screen shots in the secitons below-->
+<!--when we remove and deprecate the legacy stream, add screen shots in the sections below--> 
 
 * [Copy link](#copy-link)
 * [Copy body text](#copy-body-text)
