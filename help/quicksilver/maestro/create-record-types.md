@@ -64,7 +64,7 @@ This article describes how to create operational record types. However, creating
 >
 >*If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see [Create or modify custom access levels](../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
-## Considerations about operational record types 
+## Considerations about record types 
 
 <!--*********************************REVISE THIS - THE WORKFRONT CONNECTION IS NOT RIGHT HERE**************************-->
 
@@ -119,7 +119,7 @@ This article describes how to create operational record types. However, creating
     By default, the following fields display in the table view columns of a taxonomy record type: 
 
     * Name
-1. (Optional) Update the name of the record type in the header of the page, then press Enter. You can also expand the **More** icon ![](assets/more-menu.png) to the right of the record type name, then click **Rename** to rename the record type.
+
 1. (Optional) Click the **+** icon in the upper-right corner of the table to add more fields to the record type. For more information, see [Create fields in Adobe Maestro](../maestro/create-fields.md).  
 
 1. (Optional) Click the left-pointing arrow to the left of the record type name to go back to the selected workspace. 

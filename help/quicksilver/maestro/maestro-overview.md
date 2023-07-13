@@ -324,7 +324,21 @@ This section lists the features and patches that have been released after the la
 
 The features are released weekly and are listed in the order of their release, with the most recent first. Customers who are participating in the Maestro closed beta program can access all features in their Preview and Production environments. 
 
-### Week of June 26
+### Week of July 10, 2023
+
+#### Update the appearance of a record type
+
+Preview and production: July 13, 2023
+
+You can now select a custom icon for a record type, as well as a custom color for the record type icon.  
+
+#### New Checkbox field type
+
+Preview and production: July 13, 2023 
+
+You can now add a Checkbox field type to Maestro record types. You can use the Checkbox field type to add a single checkbox option to a record. You can use this field to indicate a specific attribute or status for that particular record. For example, you can use it as a flag for tracking completion, approval, or any other binary attribute for each record.  
+
+### Week of June 26, 2023
 
 #### Quick activation of the contextual menu in a table (title) 
 

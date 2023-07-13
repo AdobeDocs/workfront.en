@@ -346,8 +346,8 @@ Currency field types capture information in a number format preceded by a curren
 
 ### Checkbox
 
-You can use a checkbox field to add a checkbox to a record. 
-
+You can use the Checkbox field type to add a single checkbox option to a record. You can use this field to indicate a specific attribute or status for that particular record. For example, you can use it as a flag for tracking completion, approval, or any other binary attribute for each record. 
+ 
 1. Start creating a field as described in the section [Create fields from scratch](#create-fields-from-scratch) in this article, then select the **Checkbox** field type.
  
     ![](assets/checkbox-field-type.png)

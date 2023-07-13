@@ -1,6 +1,10 @@
 ---
 title: Delete record types
 description: You can delete record types or taxonomies when they are no longer relevant. 
+author: Alina
+feature: Work Management
+topic: Architecture
+role: User
 hidefromtoc: yes
 hide: yes
 ---
@@ -18,6 +22,8 @@ We recommend recreating the fields and the records associated with the record ty
 <!-- last sentence might need to be deleted when we can recover or replace deleted record types-->
 
 ## Access requirements
+
+You must have the following access to perform the steps in this article:
 
 <table style="table-layout:auto">
  <col>
