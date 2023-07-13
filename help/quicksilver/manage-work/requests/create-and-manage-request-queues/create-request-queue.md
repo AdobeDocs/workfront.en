@@ -6,7 +6,7 @@ description: You can set up a Request Queue where users can enter occasional req
 author: Alina
 feature: Work Management, Requests
 topic: Collaboration
-role: User, Administrator
+role: User
 exl-id: 385420aa-0962-4b67-9d0d-b153dcf302cf
 ---
 # Create a Request Queue
