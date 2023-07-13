@@ -22,7 +22,9 @@ The Agile View of a project now includes additional functionality to filter, gro
 
 While you are in the board, you can opt to switch to the legacy Agile View.
 
-Documentation for the updated project Agile View will be made available with its release to preview.
+For more information, see [Manage a project in the Agile View](/help/quicksilver/manage-work/projects/manage-projects/manage-projects-in-agile-view.md).
+
+[View a video demonstration of this feature.](https://video.tv.adobe.com/v/3421283/){target=_blank}
 
 ## Sort by board columns
 
@@ -33,6 +35,8 @@ You can sort in ascending or descending order by card name, due date, estimation
 The "user order" option returns the cards to the order they were manually set, before any other sort options were applied. This is the default sort for the columns.
 
 For more information, see [Filter and search in a board](/help/quicksilver/agile/get-started-with-boards/filter-search-in-board.md).
+
+[View a video demonstration of this feature.](https://video.tv.adobe.com/v/3420932/){target=_blank}
 
 ## Dark mode now available on Adobe Workfront Boards
 
@@ -48,7 +52,7 @@ For more information, see [Boards email notifications and preferences](/help/qui
 
 We have added the ability to add goals to an iteration, without having to list the goals on a card. Goals are added in a checklist format and can be marked complete. The metrics area on the top right of the iteration shows how many goals exist and how many have been completed.
 
-<!--Also, the Next Iteration column is now available on iteration boards. When you place a card in this column, it is automatically carried to the next iteration and does not return to the backlog. On the next iteration, the card appears in the column that corresponds with its status.-->
+Also, the Next Iteration column is now available on iteration boards. When you place a card in this column, it is automatically carried to the next iteration and does not return to the backlog. On the next iteration, the card appears in the column that corresponds with its status.
 
 For more information, see [Create an iteration in a workstream](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md).
 

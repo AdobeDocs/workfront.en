@@ -5,6 +5,7 @@ title: New commenting experience release activity
 description: Review the weekly release activity for the Adobe Workfront new commenting experience.
 author: Alina
 feature: Product Announcements
+role: User
 exl-id: 1c0cb547-ac99-4cdf-8a74-2c47ad5a10ad
 ---
 # New commenting experience release activity
@@ -17,15 +18,17 @@ For general information on the new commenting experience, including a list of fe
 >
 >The new commenting experience launched in Beta with the 23.2 release. For information about the original release, see [23.2 Release overview](../../product-releases/23.2-release-activity/23-2-release-overview.md). 
 >
->Commenting features that are released to the beta experience for Workfront objects are also released to the Updates section of a goal object in Workfront Goals. 
+>Commenting features that are released to the beta experience for Workfront objects are also released to the Updates section of the following objects as the only commenting experience: 
+>* Goals
+>* Cards in the Boards area. 
 
 ## Release timeline
 
 We are planning to release the new commenting experience iteratively. This will impact select objects with each release. A small set of features might be released in the beginning and more features will be added to the remaining objects over time.
 
-For information about which Workfront objects display the Updates section, see   [Updates section overview](../../../workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md)
+For information about which Workfront objects display the Updates section, see   [Updates section overview](../../../workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
-The following is a planned timeline for the release of the new commenting experience to the Production environment: 
+The following is a planned timeline with key milestones for the release of the new commenting experience to the Production environment. In addition to the milestones below, we will continue to improve the commenting experience with smaller enhancements. For details about all the released features, see the [Released features](#released-features) section in this article.
 
 * With the 23.2 release (April 6, 2023): 
     * Commenting experience Beta for issues
@@ -41,19 +44,16 @@ The following is a planned timeline for the release of the new commenting experi
     * Commenting experience Beta for projects, tasks, issues, and documents becomes the default option. 
 * End of 2023: 
     * The legacy commenting experience will remain as an option for the following objects: projects, tasks, issues, and documents. 
-        
-        Templates, template tasks, programs, portfolios, teams, users, and timesheets, goals, cards have the new commenting experience as the only option.  
 
     >[!NOTE]
     >
     >    Iterations will continue to have the legacy commenting experience.
 
-The following section contains a list of features that have been added after the original release, starting with the ones released most recently. 
-
 ## Released features
 
-The following information refers to the release activity on a weekly basis of the features included in the new commenting beta experience. The page lists new features that are added and issues that are resolved for the new commenting experience.
+The following section contains a list of features that have been added after the original release, starting with the ones released most recently. 
 
+The following information refers to the release activity on a weekly basis of the features included in the new commenting beta experience. This article lists new features that are added and issues that are resolved for the new commenting experience.
 
 ### Features released after June 19, 2023
 
@@ -61,23 +61,41 @@ The following information refers to the release activity on a weekly basis of th
 
 The features listed in this section are planned to release shortly after the week of June 19, 2023. 
 
+#### Automatically tag all thread participants
+
+A comment owner is now tagged automatically in a thread. Prior to this update, only the users who were tagged either by using the "@name" tags or by adding them to the "Tag people or teams" section displayed in the list of tagged users. With this, you can now remove the owner of a comment from the thread, if needed, even if they were not manually tagged before. 
+
+Planned Preview release: July 12, 2023
+
+Planned Production release: July 13, 2023
+
+#### New interface for logging time
+
+We have redesigned the interface for logging time from the Updates area in the new commenting experience. 
+
+For more information, see [Log time](../../../timesheets/create-and-manage-timesheets/log-time.md). The documentation will be updated at the time of the release.
+
+Preview release: July 5, 2023 
+
+Production release: with the 23.3 release
+
 #### Quote comment content in a new reply 
 
 Now, you have the ability to copy the content of a comment and add it as a new quote to a reply in the same thread when using the new commenting experience.  
 
-For more information, see [Update work](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). 
+For more information, see [Update work](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). The documentation will be updated at the time of the release.
 
-Preview and Production: Planned for June 29, 2023 
+Preview: June 28, 2023
+
+Production release: June 29, 2023 
 
 #### Add emojis to an update
 
 You can now add emojis to a comment using a Rich Text toolbar option in the new commenting experience. 
 
-For more information, see [Update work](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+For more information, see [Update work](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). The documentation will be updated at the time of the release.
 
-Preview: To be announced (during the 23.3 release)
-
-Production: To be announced. Before the 23.3 release.
+Preview and production: To be announced (during or shortly after the 23.3 release)
 
 #### New commenting experience for additional objects 
 
@@ -85,11 +103,11 @@ The new commenting experience will be available for the following objects, short
 
 This will be the only commenting experience for these objects, as the legacy commenting experience is removed when you access them.  
 
-For more information, see [New commenting experience](../../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+For more information, see [New commenting experience](../../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). The documentation will be updated at the time of the release.
 
 Preview release: To be announced, after the 23.3 Production release (July 20, 2023)
 
-Production release for the Fast release customers: To be announced, after the 23.3 Production release  
+Production release for the Fast release customers: To be announced, after the 23.3 release  
 
 Production release for all customers: with the 23.4 release 
 
@@ -167,7 +185,7 @@ You can log time for issues, tasks, and projects from the Updates area, when usi
 
 Preview: June 1, 2023 
 
-Production: To be announced
+Production: with the 23.3 release 
 
 ### Week of May 15, 2023
 

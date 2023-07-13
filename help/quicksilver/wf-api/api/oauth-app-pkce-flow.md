@@ -79,11 +79,8 @@ The PKCE generator code creates output similar to the following:
 >
 >```
 >{
->
 >  "code\_verifier":"N28zVMsKU6ptUjHaYWg3T1NFTDQqcW1R4BU5NXywapNac4hhfkxjwfhZQat",
->
 >  "code\_challenge":"wzgjYF9qEiWep-CwqgrTE78-2ghjwCtRO3vj23o4W\_fw"
->
 >}
 >```
 
@@ -100,7 +97,6 @@ If you are using the default Custom Authorization Server, then your request URL
 >
 >```
 >/authorize?client\_id=<clientID>&response\_type=code&redirect\_uri=<redirectURL>
->
 >&code\_challenge\_method=S256&code\_challenge=wzgjYF9qEiWep-CwqgrTE78-2ghjwCtRO3vj23o4W\_fw"
 >```
 
@@ -129,13 +125,9 @@ To exchange the authorization code for an access token, pass it to your Authori
 >
 >```
 >/token \\
->
 >  --header 'accept: application/json' \\
->
 >  --header 'cache-control: no-cache' \\
->
 >  --header 'content-type: application/x-www-form-urlencoded' \\
->
 >  --data 'grant\_type=authorization\_code&client\_id=<clientID>&redirect\_uri=<redirectURL>&code=<code>&code\_verifier=N28zVMsKU6ptUjHaYWg3T1NFTDQqcW1R4BU5NXywapNac4hhfkxjwfhZQat
 >```
 
@@ -164,13 +156,9 @@ If the code is still valid, and the code verifier matches, your application rece
 >
 >```
 >{
->
 >    "access\_token": "eyJhd\[...\]Yozv",
->
 >    "expires\_in": 3600,
->
 >    "token\_type": "Bearer"
->
 >}
 >```
 
@@ -186,7 +174,6 @@ You can validate your access token with an API call similar to the following:
 >
 >```
 >/attask/api/<api version>/proj/search \\
->
 >  --header 'sessionID: <access\_token>' \\
 >```
 
@@ -200,12 +187,8 @@ To request a refresh token, you can make a POST call to the API, similar to the 
 >
 >```
 >/token \\
->
 >  --header 'accept: application/json' \\
->
 >  --header 'cache-control: no-cache' \\
->
 >  --header 'content-type: application/x-www-form-urlencoded' \\
->
 >  --data 'grant\_type=refresh\_token&client\_id=<clientID>&redirect\_uri=<redirectURL>&refresh\_token=<refresh\_token>
 >```

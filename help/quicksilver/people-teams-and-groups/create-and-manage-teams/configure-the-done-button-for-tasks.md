@@ -16,6 +16,7 @@ The [!UICONTROL Done] button can automatically set the status of a task or an is
 Users with certain permissions can configure the [!UICONTROL Done] button to reflect certain statuses in the system. There are two different ways the [!UICONTROL Done] button works for tasks in [!UICONTROL Workfront]:
 
 * If the user has an assigned Home Team, a [!DNL Workfront] administrator or a user with a [!UICONTROL Plan] license can configure the [!UICONTROL Done] button to reflect certain statuses for team members. See [Configure the [!UICONTROL Done] button for a Team](#configure-the-uicontrol-done-button-for-a-team) in this article.
+* If the user does not have a [!UICONTROL Home Team], but they have [!UICONTROL Other Teams] in their profile, Workfront searches for the setting of the [!UICONTROL Done] button on any of the teams associated with the user. The selection is random and the status associated with any of the teams is used for the task. 
 * If the user does not have a Home Team assigned, the [!UICONTROL Done] button for tasks is tied to a complete status. There are no configuration options available in this scenario. The [!UICONTROL Done] button automatically defaults to this status.
 
 ## Access requirements
@@ -29,11 +30,11 @@ You must have the following access to perform the steps in this article:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
+   <td role="rowheader"><strong><p>[!DNL Adobe Workfront] plan*</strong></p></td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] license*</strong></td> 
+   <td role="rowheader"><strong><p>[!DNL Adobe Workfront] license*</strong></p></td> 
    <td> <p>[!UICONTROL Plan] </p> </td> 
   </tr> 
  </tbody> 

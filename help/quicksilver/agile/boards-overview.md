@@ -25,6 +25,8 @@ Using boards, you can:
 
 For information about how to use the basic boards features, see [Get started with boards in [!DNL Adobe Workfront]](../agile/get-started-with-boards/get-started-with-boards.md). For information about agile planning tools in boards, see [Agile planning tools overview](/help/quicksilver/agile/use-boards-agile-planning-tools/agile-planning-tools-overview.md).
 
+For information about using a board on a project, see [Manage a project in the Agile View](/help/quicksilver/manage-work/projects/manage-projects/manage-projects-in-agile-view.md).
+
 You can also access boards in the mobile app. For information, see [[!DNL Adobe Workfront] [!UICONTROL Boards] for mobile](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/mobile-boards.md).
 
 For video walkthroughs of boards features, see [[!DNL Adobe Workfront] [!UICONTROL Boards] video demonstrations](/help/quicksilver/agile/get-started-with-boards/boards-video-demonstrations.md).

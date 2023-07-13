@@ -5,6 +5,7 @@ title: New commenting experience
 description: An update to the commenting experience in Adobe Workfront is currently in development. This update includes a new interface, new features, and improved performance in the Updates section of select objects. 
 author: Alina
 feature: Product Announcements
+role: User
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
 ---
 # New commenting experience
@@ -50,6 +51,17 @@ The following features have been removed from the new experience:
 * Comment on a system update
 * Ability to edit status, condition, commit date while commenting
 * Edit custom form
+* The "on behalf of < user  name >" information when a Workfront or group administrator logs in as another user and adds a comment on their behalf. 
+
+>[!NOTE]
+>
+>The objects listed below have only the comments and system updates from the past year (starting with June 2022) available when enabling the beta experience.  
+>
+>You can view comments and system updates on these objects prior to June 2022 when viewing the Updates section in the current experience:
+>* Issues
+>* <span class="preview">Projects</span>
+>* <span class="preview">Tasks</span>
+>* <span class="preview">Documents</span>
 
 The following table illustrates the features that will be available in the new commenting experience as well as their availability in areas where they are supported: 
 
@@ -59,7 +71,7 @@ The following table illustrates the features that will be available in the new c
    </td>
    <td><strong>Exists in old commenting experience </strong>
    </td>
-   <td><strong>Exists in Beta version of the new commenting experience </strong>
+   <td><strong>Exists in the new commenting experience </strong>
    </td>
    <td><strong>Will be introduced in the new commenting experience </strong>
    </td>
@@ -96,7 +108,22 @@ The following table illustrates the features that will be available in the new c
    <td> 
    </td>
   </tr>
-  <tr>
+
+<tr>
+   <td>Rich text (emojis)
+   </td>
+   <td>✓ 
+   </td>
+   <td>
+   </td>
+   <td>✓ 
+   </td>
+   <td> 
+   </td>
+   <td> 
+   </td>
+  </tr>
+
  <tr>
    <td>Rich text (block quotes)
    </td>
@@ -117,9 +144,9 @@ The following table illustrates the features that will be available in the new c
    </td>
    <td>✓ 
    </td>
-   <td> 
+   <td> <span class="preview">✓</span>
    </td>
-   <td> ✓
+   <td> 
    </td>
    <td> Q2, 2023
    </td>
@@ -169,11 +196,11 @@ The following table illustrates the features that will be available in the new c
    </td>
   </tr>
   <tr>
-   <td>Remove people from the thread 
+   <td>Remove thread participants
    </td>
    <td> 
    </td>
-   <td>✓
+   <td><span class="preview">✓</span>
    </td>
    <td> 
    </td>
@@ -182,6 +209,23 @@ The following table illustrates the features that will be available in the new c
    <td> 
    </td>
   </tr>
+
+
+  <tr>
+   <td>Automatically tag all thread participants
+   </td>
+   <td> 
+   </td>
+   <td><span class="preview">✓</span>
+   </td>
+   <td> 
+   </td>
+   <td> 
+   </td>
+   <td> 
+   </td>
+  </tr>
+
   <tr>
    <td>Comments that are private to a company 
    </td>
@@ -280,35 +324,7 @@ The following table illustrates the features that will be available in the new c
    <td> 
    </td>
   </tr>
-  <tr>
-   <td>Edit custom form 
-   </td>
-   <td>✓ 
-   </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-  </tr>
-  <tr>
-   <td>Ability to edit status, condition, commit date while commenting 
-   </td>
-   <td>✓ 
-   </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
+    <tr>
    <td>Copy thread link 
    </td>
    <td>✓ 
@@ -341,9 +357,9 @@ The following table illustrates the features that will be available in the new c
    </td>
    <td>✓ 
    </td>
-   <td> 
+   <td><span class="preview">✓</span> 
    </td>
-   <td>✓ 
+   <td> 
    </td>
    <td>Q2, 2023 
    </td>
@@ -392,9 +408,50 @@ The following table illustrates the features that will be available in the new c
    <td>✓ 
    </td>
   </tr>
-
+<tr>
+   <td>Edit custom form 
+   </td>
+   <td>✓ 
+   </td>
+   <td> 
+   </td>
+   <td> 
+   </td>
+   <td> 
+   </td>
+   <td> 
+   </td>
+  </tr>
+  <tr>
+   <td>Ability to edit status, condition, commit date while commenting 
+   </td>
+   <td>✓ 
+   </td>
+   <td> 
+   </td>
+   <td> 
+   </td>
+   <td> 
+   </td>
+   <td>
+   </td>
+  </tr>
 <tr>
    <td>Reply to system updates 
+   </td>
+   <td> ✓
+   </td>
+   <td> 
+   </td>
+   <td> 
+   </td>
+   <td>
+   </td>
+   <td> 
+   </td>
+  </tr>
+<tr>
+   <td>Display "on behalf of" when adding comments logged in as another user
    </td>
    <td> ✓
    </td>
@@ -411,7 +468,7 @@ The following table illustrates the features that will be available in the new c
 
 ## Release timeline 
 
-For information about the features recently released to the new commenting experience, as well as a release timeline, see [New commenting beta exprience release activity](../../betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md).  
+For information about the features recently released to the new commenting experience, as well as a release timeline, see [New commenting beta experience release activity](../../betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md).  
 
 ## Locate the new commenting experience
 

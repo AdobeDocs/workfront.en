@@ -13,7 +13,7 @@ exl-id: dfced3e9-0338-446e-bf70-fa5d07f3ac1f
 
 >[!NOTE]
 >
->There is a [known issue](https://experienceleague.adobe.com/docs/workfront-known-issues/issues/new-workfront-experience/wf-current/wf-integrations-error-when-opening-wf-for-gsuite.html?lang=en) with the current version of [!DNL Workfront for G Suite] not working as expected. We are working on a new version and expect it to be released to the [!DNL Google Marketplace] in the near future. 
+>The most recent version of the Adobe Workfront plugin for Google was released on June 26, 2023. 
 
 [!DNL Adobe Workfront for G Suite] connects you to your most important work and allows you to collaborate with others while staying within [!DNL Gmail], [!DNL Google Calendar], and [!DNL Google Drive]. Without leaving these applications, you can capture emailed requests or work updates and add them to [!DNL Workfront]. You can check what's happening in [!DNL Workfront], including due dates, priority, documents, updates and additional context, without leaving your inbox. You can make approval decisions, reply to comments, or accept new work requests. And you can convert your emails to either personal project tasks or assign work and priority to others.
 

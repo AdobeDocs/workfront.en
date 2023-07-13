@@ -11,9 +11,25 @@ This page provides information about functionality that is included in the 23.3 
 
 The enhancements on this page are available in the Preview environment. This page will be updated with additional enhancements as the 23.3 release nears its planned Production release.
 
-The 23.3 release webinar will be held on June 29, 2023. You can [register for the webinar here](https://wcc.on24.com/webcast/present?e=4212784&k=62C9CAD129E5CEBBAB5D6776CDFCB645).
+The 23.3 release webinar will be held on June 29, 2023. You can [register for the webinar here](https://webinars.on24.com/adobe_workfront/whatsnewin233?partnerref=exlreleaseoverview).
 
 <span class="preview">Off-cycle features (those releasing to Production prior to the 23.3 release date) are highlighted in yellow.</span>
+
+>[!IMPORTANT]
+>
+>The 23.3 release includes the option to move your organization to monthly releases. Therefore, Workfront is changing the numbering scheme of releases to account for both monthly and quarterly release tracks.
+>
+>* If you are on the **fast release (monthly)** track, the release after 23.3 will be **23.8**, in August 2023. 
+> * If you are on the **quarterly** release track, the release after 23.3 will be **23.10**, in October 2023.
+> 
+> Quarterly releases will include functionality from three monthly releases. For example, the 23.10 quarterly release will include functionality released in the 23.8, 23.9, and 23.10 monthly releases.
+>
+>|Monthly release|Quarterly release|
+>|----|----|
+>|<ul><li>23.8 (August 2023)</li><li>23.9 (September 2023)</li><li>23.10 (October 2023)</li></ul>| <ul><li>23.10 (October 2023)</li></ul>|
+>|<ul><li>23.11 (November 2023)</li><li>23.12 (December 2023)</li><li>24.1 (January 2024)</li></ul>| <ul><li>24.1 (January 2024)</li></ul>|
+>
+>Monthly and quarterly releases are planned to be available on the last Thursday of the month.
 
 ## Adobe Workfront enhancements
     
@@ -49,7 +65,7 @@ The 23.3 release webinar will be held on June 29, 2023. You can [register for th
                     <td><p><b>Available on these dates:</b></p>
                         <ul>
                             <li>
-                                <p>Preview release: N/A</p>
+                                <p>Preview release: June 22, 2023</p>
                             </li>
                             <li>
                                 <p>Production release: With the 23.3 release</p>
@@ -94,7 +110,7 @@ The 23.3 release webinar will be held on June 29, 2023. You can [register for th
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Agile View of a project displays a kanban board</a><span style="color: #ff0000;"> Coming soon!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Agile View of a project displays a kanban board</a><span style="color: #ff0000;"> New in Preview!</span></p>
                         <p>The Agile View of a project now includes additional functionality to filter, group, and sort work in a kanban board. The new, flexible design of the view includes a robust search feature and the ability to add new tasks to the project directly from the board.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
@@ -110,7 +126,7 @@ The 23.3 release webinar will be held on June 29, 2023. You can [register for th
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Sort by board columns</a><span style="color: #ff0000;"> Coming soon!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Sort by board columns</a><span style="color: #ff0000;"> New in Preview!</span></p>
                         <p>We have added the ability to sort the cards in the columns on a board. When you select an option to sort by, all columns are sorted. You can't sort a single column, and the backlog or intake column is not sorted.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
@@ -126,32 +142,32 @@ The 23.3 release webinar will be held on June 29, 2023. You can [register for th
                 </tr>                             
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Dark mode now available on Adobe Workfront Boards</a><span style="color: #ff0000;"> New in Preview!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Dark mode now available on Adobe Workfront Boards</a></p>
                         <p>You can now display all of your boards and workstreams in dark mode. The new setting is available through the preferences on the Boards dashboard.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
                         <ul>
                             <li>
-                                <p>Preview release: June 22, 2023</p>
+                                <p>Preview release: June 22, 2023<span style="color: #ff0000;"> This feature has been removed from Preview and will not be released with 23.3.</span></p>
                             </li>
                             <li>
-                                <p>Production release for all customers: With the 23.3 release</p>
+                                <p>Production release for all customers: N/A</p>
                             </li>
                         </ul>
                     </td>
                 </tr>                
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Goals available on workstream iterations in Adobe Workfront Boards</a><span style="color: #ff0000;"> New in Preview!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Goals available on workstream iterations in Adobe Workfront Boards</a></p>
                         <p>We have added the ability to add goals to an iteration, without having to list the goals on a card. Goals are added in a checklist format and can be marked complete. The metrics area on the top right of the iteration shows how many goals exist and how many have been completed.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
                         <ul>
                             <li>
-                                <p>Preview release: June 22, 2023</p>
+                                <p>Preview release: June 22, 2023<span style="color: #ff0000;"> This feature has been removed from Preview and will not be released with 23.3.</span></p>
                             </li>
                             <li>
-                                <p>Production release for all customers: With the 23.3 release</p>
+                                <p>Production release for all customers: N/A</p>
                             </li>
                         </ul>
                     </td>
@@ -313,7 +329,7 @@ The 23.3 release webinar will be held on June 29, 2023. You can [register for th
                  </tr>   
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-finance-enhancements.md" class="MCXref xref" xrefformat="{para}">Date effective cost and billing rates</a><span style="color: #ff0000;"> Coming soon!</span> </p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-finance-enhancements.md" class="MCXref xref" xrefformat="{para}">Date effective cost and billing rates</a><span style="color: #ff0000;"> New in Preview!</span> </p>
                         <p>Date effective cost and billing rates are now available on the company, user, and job role objects in Workfront. When date effective rates are applied to a project, and hours are logged on project tasks, the costs and revenue are calculated using the specified rates for each time period.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
@@ -323,7 +339,8 @@ The 23.3 release webinar will be held on June 29, 2023. You can [register for th
                             </li>
                             <li>
                                 <p>Production release for the Fast release customers: To be announced, after the 23.3 Production release</p>
-                                <p>Production release for all customers: With the 23.4 release</p>
+                                <p>Production release for all customers: With the 23.4 release<br>
+                                <span style="color: #ff0000;"> The assignment rate override feature was temporarily disabled in Preview from June 30 to July 13, 2023.</span></p>
                             </li>
                         </ul>
                     </td>
@@ -347,6 +364,22 @@ The 23.3 release webinar will be held on June 29, 2023. You can [register for th
                         </p>
                     </td>
                 </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">New G Suite integration now available</a></p> 
+                        <p>A new G Suite integration is now available in the Google Marketplace. The new integration authenticates using OAuth2, and replaces the previous integration.</p><p>The previous G Suite integration is now deprecated, and will be automatically uninstalled.</p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                        <ul>
+                            <li>
+                                <p>Preview release: N/A</p>
+                            </li>
+                            <li>
+                                <p><span class="preview">Production release: June 27, 2023</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>                
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Adobe Creative Cloud integrations now support multiple assigned users</a></p> 
@@ -493,6 +526,22 @@ The 23.3 release webinar will be held on June 29, 2023. You can [register for th
                             </li>
                         </ul>
                         <p><span style="color: #ff0000;">This feature is part of a phased release and is currently only available for specific customers.</span></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">New Share button</a> </p>
+                        <p>The Share option has been pulled out of the More menu for projects, tasks, and issues to make sharing more intuitive.</p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                        <ul>
+                            <li>
+                                <p>Preview release: June 22, 2023<br /></p>
+                            </li>
+                            <li>
+                                <p>Production release: With the 23.3 release</p>
+                            </li>
+                        </ul>
                     </td>
                 </tr>
            </tbody>
