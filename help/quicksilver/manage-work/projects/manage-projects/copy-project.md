@@ -4,7 +4,8 @@ navigation-topic: manage-projects
 title: Copy a project
 description: You can copy a project rather than create one from scratch. You can copy only one project at a time. You cannot copy projects in bulk.
 author: Alina
-feature: Work Management
+feature: Projects, Work Management
+role: User 
 exl-id: 1bb133a8-eb76-46b8-969f-37f57f9453b4
 ---
 # Copy a project
@@ -37,6 +38,7 @@ You can copy a project rather than create one from scratch. You can copy only on
 >* Scorecard
 >* Task Default information (Task Default Approval Process, Task Default Custom Forms)
 >
+> The dates of the original tasks on the projects copy to the new project. You must change the Start or Completion date of the project (depending on its Schedule Mode) to update the dates on the tasks. Task constrains might prevent you from changing the dates on the project.  
 
 ## Access requirements
 
