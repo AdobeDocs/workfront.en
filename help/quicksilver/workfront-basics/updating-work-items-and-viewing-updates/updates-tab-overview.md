@@ -226,7 +226,18 @@ If you want to see all the updates made on a user or a team, beyond the 90-day l
 
 ### Limitations when entering comments on behalf of another user
 
-Adobe Workfront administrators and group administrators can log in as other users and perform actions in Workfront such as entering comments. (For information, see [Log in as another user](../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md).) Any comments made on behalf of another user are indicated on the comment.
+Adobe Workfront administrators and group administrators can log in as other users and perform actions in Workfront such as entering comments. 
+
+For information, see [Log in as another user](../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md).
+
+Any comments made on behalf of another user are indicated on the comment.
+
+>[!NOTE]
+>
+><span class="preview">When using the new commenting experience, the comment is added as the user who logged in as another user and there is no indication that they are adding a comment on someone else's behalf. 
+>
+>For example, if a Workfront administrator logs in as another user, the user associated with the comment is the Workfront administrator. For more information, see [New commenting experience](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). </span>
+
 
 A group administrator can comment on behalf of another person but cannot delete that comment. Only an Adobe Workfront administrator can delete a comment that they made on behalf of another user.
 

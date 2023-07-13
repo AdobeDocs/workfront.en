@@ -92,6 +92,8 @@ Tagging others in an update differs depending on which experience and which obje
 
 ### Tag others on updates in the current Updates section
 
+You can manually tag users in the current Updates section. 
+
 1. Begin updating a work item, as described in [Update work](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 1. In the **Notify** field, begin typing the name of the user or team you want to include, then click the name when it appears in the drop-down list.
 
@@ -128,9 +130,19 @@ Tagging others in an update differs depending on which experience and which obje
 
 ### Tag others on updates in the commenting Beta experience
 
-You can tag others on updates in the commenting Beta experience. You can also remove users who are tagged by mistake when you edit a comment. 
+<!--replace the first paragraph in this section with the commented out piece when this releases to preview - July 13, 2023??
 
-1. Begin updating a work item, as described in [Update work](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+You can tag others on updates in the new commenting experience in the following ways:
+
+* <span class="preview"> **Automatically**: When a user adds a comment or a reply, they are automatically tagged and added to the Tag people or teams area of the commenting box. </span>
+* **Manually**: When you manually add a user to the Tag people area of the commenting box.
+
+You can also remove users who are tagged by mistake when you edit or reply to a comment.-->
+
+
+You can manually tag others on updates in the commenting Beta experience. You can also remove users who are tagged by mistake when you edit or reply to a comment. 
+
+1. Begin updating a work item, as described in [Update work](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). <!--<span class="preview">As the comment owner, you are automatically tagged and added to the Tag people or teams area of the commenting box. </span> -->
 1. In the **Tag people or teams** field, begin typing the name of the user or team you want to include, then click the name when it appears in the drop-down list.
  
    Or

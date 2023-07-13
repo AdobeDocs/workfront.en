@@ -79,6 +79,8 @@ You must have the following access to perform the steps in this article:
 
 ## Reply to an update or a reply
 
+You can reply to a comment in the thread of an object that you can view, or you can log in as a Workfront or group administrator and reply to a comment on behalf of another user. For more information, see [Log in as another user](../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md). 
+
 Replying to a comment or reply differs depending on which experience and which object you select.
 
 ### Reply to an update or reply in the current Updates section
