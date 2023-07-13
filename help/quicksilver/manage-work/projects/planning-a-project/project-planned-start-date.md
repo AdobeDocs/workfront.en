@@ -5,7 +5,8 @@ navigation-topic: plan-a-project
 title: Overview of the project Planned Start Date
 description: Overview of the project Planned Start Date
 author: Alina
-feature: Work Management
+feature: Work Management, Projects
+role: User
 exl-id: a1223d81-3fb8-42d1-9a7d-c58d1f0fcd36
 ---
 # Overview of the project Planned Start Date
@@ -25,6 +26,10 @@ The Planned Start Date of a project can be set manually or automatically, depend
 ## Manually set the Planned Start Date of a project
 
 You must manually set the Planned Start Date of a project when you schedule the project from Start Date. 
+
+>[!NOTE]
+>
+>When you manually set the Planned Start Date of a project, Workfront automatically calculates the Planned Completion Date of the project based on the Duration of all the tasks. 
 
 For information about setting the project's Planned Start Date, see [Edit projects](../../../manage-work/projects/manage-projects/edit-projects.md).
 

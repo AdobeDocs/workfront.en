@@ -4,12 +4,14 @@ navigation-topic: create-requests
 title: Locate submitted requests
 description: Learn about the areas of Adobe Workfront where you can locate requests that you or someone else submitted or requests that you never submitted and were saved as drafts. 
 author: Alina
-feature: Work Management
+feature: Requests
+topic: Collaboration
+role: User
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
 ---
 # Locate submitted requests
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span>-->
 
 You can locate the following types of requests that you or someone else submitted, or requests you started but you never finished submitting. You can locate these requests in the following areas of Adobe Workfront:
 
@@ -64,7 +66,7 @@ To locate requests that you or other users have submitted:
    >
    >You cannot customize the columns in the Submitted request list.
 
-   <span class="preview">![](assets/nwe-submitted-requests-new-list-350x57.png)</span>
+   ![](assets/nwe-submitted-requests-new-list-350x57.png)
 
  
  1. The following columns display by default:

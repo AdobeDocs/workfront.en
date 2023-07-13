@@ -9,7 +9,7 @@ exl-id: 3d7581d0-e99c-4204-b1e5-04fde72251bb
 ---
 # Copy and submit requests
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span>-->
 
 When you submit similar requests frequently you can copy an existing submitted request. In this case, you can copy an existing request, make minimal changes to it, and resubmit it as a new request.
 
@@ -116,11 +116,11 @@ You must have a request that you or someone in your organization previously subm
 1. (Conditional) If the Submitted section does not display by default, click **Submitted** in the left panel.
 1. Locate the request that you want to copy and submit as new, and do one of the following:
 
-   * Select it, then click <span class="preview"> **Copy** ![](assets/copy-and-submit-as-new-requests-area-nwe.png)</span> in the upper-left corner of the Submitted requests list. 
+   * Select it, then click **Copy** ![](assets/copy-and-submit-as-new-requests-area-nwe.png) in the upper-left corner of the Submitted requests list. 
 
    >[!TIP]
    >
-   > <span class="preview">If you did not select a request first, the Copy icon is dimmed.</span> 
+   > If you did not select a request first, the Copy icon is dimmed. 
 
    * Click the **More** menu ![](assets/more-icon.png) to the right of the request name, then click **Copy and submit as new** 
 
