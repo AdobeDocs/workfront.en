@@ -73,7 +73,7 @@ Planned Production release: July 13, 2023
 
 We have redesigned the interface for logging time from the Updates area in the new commenting experience. 
 
-For more information, see [Log time](../../../timesheets/create-and-manage-timesheets/log-time.md). The documentation will be updated at the time of the release.
+For more information, see [Log time](../../../timesheets/create-and-manage-timesheets/log-time.md).
 
 Preview release: July 5, 2023 
 
@@ -83,7 +83,7 @@ Production release: with the 23.3 release
 
 Now, you have the ability to copy the content of a comment and add it as a new quote to a reply in the same thread when using the new commenting experience.  
 
-For more information, see [Update work](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). The documentation will be updated at the time of the release.
+For more information, see [Update work](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). 
 
 Preview: June 28, 2023
 
