@@ -51,6 +51,8 @@ You must have the following access to perform the steps in this article:
 >[!IMPORTANT]
 >
 >If you manually modify the width of a column as described in the section "Modify width and order of columns temporarily" in the article [Modify column width and order](../../../reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md) after you have permanently modified the width of the column, the width of the column is preserved according to your manual resizing and the width of the column updated according to the following steps is overwritten. You can view the column according to the width defined in the following steps after you clear your cache or log in from another browser.
+>
+>For additional information about customizing the width of columns when using the Text Mode interface, see the "width" and "stretch" definitions in the [Glossary of Adobe Workfront terminology](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md). 
 
 1. Go to a list of objects.
 1. From the **View** drop-down menu, click **New View**.
@@ -73,3 +75,5 @@ You must have the following access to perform the steps in this article:
    For the **width** line, specify any number (in pixels) that represents how wide you want the column to display in the view.
 
 1. Click **Save**, then **Save View**.
+
+

@@ -6,7 +6,7 @@ navigation-topic: layout-templates
 description: It's important to test the newly or layout template before assigning it to users.
 author: Caroline
 feature: System Setup and Administration
-role: Admin
+role: Alina
 exl-id: 8786648a-3630-4aa9-8e85-9df47a9e4609
 ---
 # Testing a new layout template
