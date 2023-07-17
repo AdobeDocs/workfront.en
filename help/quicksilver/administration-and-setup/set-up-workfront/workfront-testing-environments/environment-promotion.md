@@ -87,6 +87,22 @@ The Environment Promotion capability is intended to provide the ability to move 
 
 ### Other configuration objects
 
+| Promotable object | Included sub-objects |
+| Approval Process (ARVPRC) | Approval Process<br>Approval Path
+Approval Step
+Step Approver
+Role
+Team
+Group |
+| --- | --- |
+| --- | --- |
+| --- | --- |
+| --- | --- |
+| --- | --- |
+| --- | --- |
+| --- | --- |
+| --- | --- |
+
 
 
 
