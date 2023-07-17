@@ -48,13 +48,7 @@ You must have the following access to perform the steps in this article:
 
 * You can merge two adjacent columns and display the information from each column separated by a line break, or you can merge the information in two adjacent columns with no separator between the information from each column.
 * You can merge the information from more than two columns by applying the same syntax described in this article to an already shared column and an adjacent one. 
-* The 
-
-  ```
-  valueformat=HTML
-  ```
-
-  line is mandatory in a shared column. Otherwise, the columns contain no information (they will be blank) when the report is exported from Adobe Workfront.
+* The `valueformat=HTML` line is mandatory in a shared column. Otherwise, the columns contain no information (they will be blank) when the report is exported from Adobe Workfront.
 * Conditional formatting may not be supported in merged columns.
 
   The following exceptions exist:
@@ -67,80 +61,47 @@ You must have the following access to perform the steps in this article:
 
 * If you export a list with shared columns to an Excel or Tab Delimited format, these columns are separated out in the exported file.
 
+* When one or both of the columns display a `tile` type field, a forced line-break is automatically introduced in the merged column. For example, Text Fields with Formatting are `tile` type fields. In this case, there is a line code of `type=tile` when viewing the columns in Text Mode. 
+
 ## Merge data from two columns without a line break
 
 You can merge the data from multiple separate columns to display it in one column with no breaks or spaces between the values from each column.
 
 >[!TIP]
 >
->This approach is recommended when you merge two columns that can never show a value for the same record at the same time.&nbsp;For example, in a Work Item report, the Issue Name and Task Name columns can be merged without a line break between them because a Work Item can never have an Issue Name and a Task name at the same time. A Work Item can be either an Issue or a Task in Workfront.
+>This approach is recommended when you merge two columns that can never show a value for the same record at the same time. For example, in a Work Item report, the Issue Name and Task Name columns can be merged without a line break between them because a Work Item can never have an Issue Name and a Task name at the same time. A Work Item can be either an Issue or a Task in Workfront.
 
 To do this:
 
 1. Using text mode for a view, add the following text to the first column you want to merge:
 
-   ```
-   sharecol=true
-   ```
+   `sharecol=true`
+   
+   When you merge the first two columns of a list or report, Workfront precedes each line of text that contains information about the object in the first column with `column.0.` and the lines of text that contain information about the second column with `column.1.` .
 
-   When you merge the first two columns of a list or report, Workfront precedes each line of text that contains information about the object in the first column with 
-
-   ```
-   column.0.
-   ```
-
-   and the lines of text that contain information about the second column with 
-
-   ```
-   column.1.
-   ```
-
-   .   
-   You must precede the column number of the first column with the number of that column. Column counting always starts with the leftmost column of the list or report labeled as 
-
-   ```
-   column.0.
-   ```
-
-   .
+   You must precede the column number of the first column with the number of that column. Column counting always starts with the leftmost column of the list or report labeled as `column.0.`.
 
    If you share more than one column, ensure you add the column number in the lines of code that contain the sharing information for each column. 
 
    **Example:** The following is the text mode code for a merged column that contains three separate columns, starting with the second column of the list. The merged values are Project&nbsp;Name, Planned Start Date, and Project&nbsp;Owner's name and there is no break between the three values:
 
-   ```
-   column.1.valuefield=name
-   ```
-
-   ```
-   column.1.valueformat=HTML
-   ```
-
-   ```
-   column.1.sharecol=true
-   ```
-
-   ```
-   column.2.valuefield=plannedStartDate
-   ```
-
-   ```
-   column.2.valueformat=atDate
-   ```
-
-   ```
-   column.2.sharecol=true
-   ```
-
-   ```
-   column.3.valuefield=owner:name
-   ```
-
-   ```
-   column.3.valueformat=HTML
-   ```
-
-   <pre><img src="assets/shared-column-no-line-breaks-350x142.png" style="width: 350;height: 142;"></pre>
+   `column.1.valuefield=name`
+   
+   `column.1.valueformat=HTML`
+   
+   `column.1.sharecol=true`
+     
+   `column.2.valuefield=plannedStartDate`
+   
+   `column.2.valueformat=atDate`
+   
+   `column.2.sharecol=true`
+   
+   `column.3.valuefield=owner:name`
+   
+   `column.3.valueformat=HTML`
+   
+  ![](assets/shared-column-no-line-breaks-350x142.png)
 
 1. Click **Save**, then **Save View**.
 
@@ -157,134 +118,68 @@ Do the following to merge the data from multiple columns to display it in one co
 
 1. Click **Switch to Text Mode** and add the following code in the middle column that you added in step 1:
 
-   ```
-   value=<br>
-   ```
+   `value=<br>`
 
-   ```
-   valueformat=HTML
-   ```
-
-   ```
-   width=1
-   ```
-
-   ```
-   sharecol=true
-   ```
+   `valueformat=HTML`
+   
+   `width=1`
+   
+   `sharecol=true`
+   
 
 1. Add the following text to the first column:
 
-   ```
-   sharecol=true
-   ```
-
-   When you merge the first two columns of a list or report, Workfront precedes each line of text that contains information about the object in the first column with 
-
-   ```
-   column.0.
-   ```
-
-   , the column with the sharing information with 
-
-   ```
-   column.1.
-   ```
-
-   , and the lines of text that contain information about the second column with 
-
-   ```
-   column.2.
-   ```
-
-   . If the combined column is in the middle of the view, the columns are numbered according to their place in the view. Column counting always starts with the leftmost column of the list or report labeled as 
-
-   ```
-   column.0.
-   ```
-
-   .
+   `sharecol=true`
+   
+   When you merge the first two columns of a list or report, Workfront precedes each line of text that contains information about the object in the first column with `column.0.`, the column with the sharing information with `column.1.`,  and the lines of text that contain information about the second column with `column.2.`.
+   
+   If the combined column is in the middle of the view, the columns are numbered according to their place in the view. Column counting always starts with the leftmost column of the list or report labeled as `column.0.`.
 
    If you share more than one column, ensure you add the column number in the lines of code that contain the sharing information. 
 
-   **Example:** The following is the text mode code for a shared column that contains Project&nbsp;Name, Planned Start Date, and Project&nbsp;Owner's name with a line break. The shared column is the second column of a project view.
+   **Example:** The following is the text mode code for a shared column that contains Project Name, Planned Start Date, and Project Owner's name with a line break. The shared column is the second column of a project view.
 
-   ```
-   column.1.displayname=Project_StartDate_Owner
-   ```
+    
+   `column.1.displayname=Project_StartDate_Owner`
+     
+   `column.1.sharecol=true`
+      
+   `column.1.textmode=true`
+      
+   `column.1.valuefield=name`
+      
+   `column.1.valueformat=HTML`
+       
+   `column.2.value=<br>`
+      
+   `column.2.width=1`
+       
+   `column.2.valueformat=HTML`
+       
+   `column.2.sharecol=true`
+       
+   `column.3.valuefield=plannedStartDate`
+       
+   `column.3.valueformat=atDate`
+       
+   `column.3.sharecol=true`
+       
+   `column.4.value=<br>`
+       
+   `column.4.width=1`
+       
+   `column.4.valueformat=HTML`
+       
+   `column.4.sharecol=true`
+       
+   `column.5.textmode=true`
+       
+   `column.5.valuefield=owner:name`
+       
+   `column.5.valueformat=HTML`
+    
 
-   ```
-   column.1.sharecol=true
-   ```
+   ![](assets/shared-column-with-line-breaks-350x199.png)
 
-   ```
-   column.1.textmode=true
-   ```
-
-   ```
-   column.1.valuefield=name
-   ```
-
-   ```
-   column.1.valueformat=HTML
-   ```
-
-   ```
-   column.2.value=<br>
-   ```
-
-   ```
-   column.2.width=1
-   ```
-
-   ```
-   column.2.valueformat=HTML
-   ```
-
-   ```
-   column.2.sharecol=true
-   ```
-
-   ```
-   column.3.valuefield=plannedStartDate
-   ```
-
-   ```
-   column.3.valueformat=atDate
-   ```
-
-   ```
-   column.3.sharecol=true
-   ```
-
-   ```
-   column.4.value=<br>
-   ```
-
-   ```
-   column.4.width=1
-   ```
-
-   ```
-   column.4.valueformat=HTML
-   ```
-
-   ```
-   column.4.sharecol=true
-   ```
-
-   ```
-   column.5.textmode=true
-   ```
-
-   ```
-   column.5.valuefield=owner:name
-   ```
-
-   ```
-   column.5.valueformat=HTML
-   ```
-
-   <pre><img src="assets/shared-column-with-line-breaks-350x199.png" style="width: 350;height: 199;"></pre>
 
 1. Click **Save**, then **Save View**.
