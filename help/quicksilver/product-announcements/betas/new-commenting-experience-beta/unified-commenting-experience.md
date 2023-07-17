@@ -63,8 +63,6 @@ The following features have been removed from the new experience:
 >* <span class="preview">Tasks</span>
 >* <span class="preview">Documents</span>
 
-
-
 The following table illustrates the features that will be available in the new commenting experience as well as their availability in areas where they are supported: 
 
 <table>
@@ -73,7 +71,7 @@ The following table illustrates the features that will be available in the new c
    </td>
    <td><strong>Exists in old commenting experience </strong>
    </td>
-   <td><strong>Exists in Beta version of the new commenting experience </strong>
+   <td><strong>Exists in the new commenting experience </strong>
    </td>
    <td><strong>Will be introduced in the new commenting experience </strong>
    </td>
@@ -218,9 +216,9 @@ The following table illustrates the features that will be available in the new c
    </td>
    <td> 
    </td>
-   <td>
+   <td><span class="preview">✓</span>
    </td>
-   <td> ✓
+   <td> 
    </td>
    <td> 
    </td>
