@@ -24,6 +24,7 @@ For additional resources for the new commenting experience, also see the followi
 * [New commenting experience FAQs](../new-commenting-experience-beta/new-commenting-faq.md.draft)
 
 -->
+
 ## Features
 
 The new commenting experience includes improvements and changes to the existing update stream.
