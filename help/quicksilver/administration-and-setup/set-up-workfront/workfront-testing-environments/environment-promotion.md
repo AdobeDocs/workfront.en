@@ -255,9 +255,7 @@ GET https://{{domain}}.{{env}}.workfront.com/environment-promotion/v1/packages
 
 #### Body
 
-```json
-<empty>
-```
+_Empty_
 
 #### Response
 
@@ -283,6 +281,83 @@ GET https://{{domain}}.{{env}}.workfront.com/environment-promotion/v1/packages
         },
         {...}
     ]
+}
+```
+
+### Get a package by ID
+
+<table style="table-layout:auto"> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td><code>GET /packages/{{id}}</code></td> 
+  </tr> 
+  </tbody> 
+</table>
+
+This call returns a the details of a requested promotion package.
+
+The request can be made through any environment regardless of the original source of the promotion package.
+
+#### URL
+
+```
+GET https://{{domain}}.{{env}}.workfront.com/environment-promotion/v1/packages/{{id}}
+```
+
+#### Headers
+
+```json
+{
+    "Authorization": "Bearer ****************"
+}
+```
+
+#### Body
+
+_Empty_
+
+#### Response
+
+```
+200
+```
+
+```json
+{
+    "data": {
+        "id": "1d5693b9-b7b5-492d-8219-c21f34bcaca6",
+        "name": "Agency Onboarding - 2023-06-06",
+        "description": "This promotion package contains configuration to support the agency onboarding processes...",
+        "status": "BUILDING",
+        "version": 1,
+        "installationCounts": {},
+        "createdAt": "2023-06-06T17:29:21.600Z",
+        "createdById": "61aa9d0e0005fcee8f212835bdaa2619",
+        "publishedAt": null,
+        "isPrivate": true,
+        "customerId": "61aa9d090005fa42152c1cb66659f38d",
+        "metadata": {
+            "displayOrder": ["GROUP","ROLE","TMPL","PROJ","PTLTAB"], 
+            "historyOrder": ["GROUP","ROLE","TMPL","TTSK","PROJ","PTLTAB"], 
+            "installOrder": ["GROUP","ROLE","TMPL","TTSK","TPRED","TASSGN","PROJ","QUED","RRUL","QUET","UIFT","UIGB","UIVW","PTLTAB"], 
+            "summaryOrder": ["GROUP","ROLE","TMPL"], 
+            "shapeVersion": 2
+        },
+        "displayEntities": {
+            "GROUP": [
+               {
+                   "id": "52aa9d0e0005fcee8f212835bdaa2691",
+                   "name": "Default Group",
+                   "description"
+               }
+            ],
+            "ROLE": [
+               {...}
+            ],
+            ...
+        }
+   }
 }
 ```
 
