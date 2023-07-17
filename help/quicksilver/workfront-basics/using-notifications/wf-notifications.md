@@ -15,6 +15,8 @@ exl-id: 118677e9-a13f-47e6-96a3-6f5e93b005e9
 
 [!DNL Workfront] sends out a number of email notifications to alert users about activity in Workfront and provide useful information and links.
 
+To change the preferences for your email notifications, see [Activate or deactivate your own event notifications](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+
 >[!NOTE]
 >
 >If you want to receive email notifications from the Sandbox environment, you must enable emails from your user profile in that environment.
