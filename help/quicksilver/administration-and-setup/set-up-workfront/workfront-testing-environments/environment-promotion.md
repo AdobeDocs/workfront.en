@@ -50,34 +50,42 @@ The Environment Promotion capability is intended to provide the ability to move 
 
 | Promotable object | Included sub-objects |
 | --- | --- |
-| Project (PROJ) | <p>Project</p><p>Task</p><p>Assignment</p><p>Predecessor</p><p>Company</p><p>Override Rate</p><p>Group</p><p>Role</p><p>Team</p><p>Approval Process</p><p>Approval Path</p><p>Approval Step</p><p>Step Approver</p><p>Schedule</p><p>Non Work Day</p><p>Queue Definition</p><p>Queue Topic Group</p><p>Queue Topic</p><p>Routing Rule</p><p>Milestone Path</p><p>Milestone</p><p>Hour Type</p><p>Resource Pool</p><p>Category</p><p>Category Parameter</p><p>Parameter</p><p>Parameter Group</p><p>Parameter Option</p><p>Category Display Logic</p> |
-| Template (TMPL) | <p>Template</p><p>Template Task</p><p>Template Task Assignment</p><p>Template Task Predecessor</p><p>Company</p><p>Override Rate</p><p>Group</p><p>Role</p><p>Team</p><p>Approval Process</p><p>Approval Path</p><p>Approval Step</p><p>Step Approver</p><p>Schedule</p><p>Non Work Day</p><p>Queue Definition</p><p>Queue Topic Group</p><p>Queue Topic</p><p>Routing Rule</p><p>Milestone Path</p><p>Milestone</p><p>Hour Type</p><p>Resource Pool</p><p>Category</p><p>Category Parameter</p><p>Parameter</p><p>Parameter Group</p><p>Parameter Option</p><p>Category Display Logic</p> |
+| Project (PROJ) | Project<br>Task<br>Assignment<br>Predecessor<br>Company<br>Override Rate<br>Group<br>Role<br>Team<br>Approval Process<br>Approval Path<br>Approval Step<br>Step Approver<br>Schedule<br>Non Work Day<br>Queue Definition<br>Queue Topic Group<br>Queue Topic<br>Routing Rule<br>Milestone Path<br>Milestone<br>Hour Type<br>Resource Pool<br>Category<br>Category Parameter<br>Parameter<br>Parameter Group<br>Parameter Option<br>Category Display Logic | 
+| Template (TMPL) | Template<br>Template Task<br>Template Task Assignment<br>Template Task Predecessor<br>Company<br>Override Rate<br>Group<br>Role<br>Team<br>Approval Process<br>Approval Path<br>Approval Step<br>Step Approver<br>Schedule<br>Non Work Day<br>Queue Definition<br>Queue Topic Group<br>Queue Topic<br>Routing Rule<br>Milestone Path<br>Milestone<br>Hour Type<br>Resource Pool<br>Category<br>Category Parameter<br>Parameter<br>Parameter Group<br>Parameter Option<br>Category Display Logic | 
 
 ### Reporting objects
 
 | Promotable object | Included sub-objects |
 | --- | --- |
-| Layout Template (UITMPL) | <p>Layout Template</p><p>Dashboard</p><p>Calendar</p><p>Calendar Section</p><p>External Page</p><p>Report</p><p>Filter</p><p>Grouping</p><p>View</p><p>Parameter </p> |
-| Dashboard (PTLTAB) | <p>Dashboard</p><p>Calendar</p><p>Calendar Section</p><p>External Page</p><p>Report</p><p>Filter</p><p>Grouping</p><p>View</p><p>Parameter </p> |
-| Calendar (CALEND) | <p>Calendar</p><p>Calendar Section</p> |
+| Layout Template (UITMPL) | Layout Template<br>Dashboard<br>Calendar<br>Calendar Section<br>External Page<br>Report<br>Filter<br>Grouping<br>View<br>Parameter  | 
+| Dashboard (PTLTAB) | Dashboard<br>Calendar<br>Calendar Section<br>External Page<br>Report<br>Filter<br>Grouping<br>View<br>Parameter  | 
+| Calendar (CALEND) | Calendar<br>Calendar Section | 
 | External Page (EXTSEC) | External Page |
-| Report (PTLSEC) | <p>Report</p><p>Filter</p><p>Grouping</p><p>View</p><p>Parameter</p> |
-| Filter (UIFT) | <p> Filter</p><p>Parameter</p> |
-| Grouping (UIGB) | <p>Grouping</p><p>Parameter</p> |
-| View (UIVW) | <p>View</p><p>Parameter</p> |
+| Report (PTLSEC) | Report<br>Filter<br>Grouping<br>View<br>Parameter | 
+| Filter (UIFT) |  Filter<br>Parameter | 
+| Grouping (UIGB) | Grouping<br>Parameter | 
+| View (UIVW) | View<br>Parameter | 
 
 ### Custom data objects
 
 | Promotable object | Included sub-objects |
 | --- | --- |
-| Category (CTGY) | <p>Category</p><p>Category Parameter</p><p>Parameter</p><p>Parameter Group</p><p>Parameter Option</p><p>Category Display Logic</p><p>Group</p> |
-| Parameter (PARAM) | <p>Parameter</p><p>Parameter Option</p> |
+| Category (CTGY) | Category<br>Category Parameter<br>Parameter<br>Parameter Group<br>Parameter Option<br>Category Display Logic<br>Group | 
+| Parameter (PARAM) | Parameter<br>Parameter Option | 
 | Parameter Group (PGRP) | Parameter Group |
 
-### Organization Objects
+### Organization objects
 
 | Promotable object | Included sub-objects |
 | --- | --- |
+| Group (GROUP) | Group <br>Sub-groups (up to 5 levels)<br>Category<br>Category Parameter<br>Parameter<br>Parameter Group<br>Parameter Option<br>Category Display Logic |
+| Role (ROLE) | Role |
+| Team (TEAM) | Team<br>Group |
+| Company (CMPY) | Company<br>Override Rate<br>Category<br>Category Parameter<br>Parameter<br>Parameter Group<br>Parameter <br>Category Display Logic<br>Group |
+| Portfolio (PORT) | Portfolio<br>Program<br>Group<br>Category<br>Category Parameter<br>Parameter<br>Parameter Group<br>Parameter Option<br>Category Display Logic |
+| Program (PRGM) | Program<br>Portfolio<br>Group<br>Category<br>Category Parameter<br>Parameter<br>Parameter Group<br>Parameter Option<br>Category Display Logic |
+
+### Other configuration objects
 
 
 
