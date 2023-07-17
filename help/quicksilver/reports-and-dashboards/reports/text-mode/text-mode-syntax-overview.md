@@ -5,6 +5,7 @@ title: Text mode syntax overview
 description: You can use the text mode interface to create more complex views, filters, groupings, and customized prompts in lists and reports. By using text mode, you can access fields and their attributes that are not available in the standard mode interface.
 author: Nolan
 feature: Reports and Dashboards
+role: User
 exl-id: f24430e1-c5f7-4925-93df-0e956a03c863
 ---
 # Text mode syntax overview
@@ -19,7 +20,7 @@ For a complete list of all our reportable fields and their attributes, see the [
 
 * You must understand the Adobe Workfront syntax before you can start building reporting elements in text mode. The Workfront syntax for text mode is unique to this application and it has unique characteristics that you must be familiar with.
 * Before you start using text mode in your reports, we strongly recommend that you take our classes on advanced reporting, to gain a deeper understanding of our text mode language. <!--outdated link: For training materials on reporting see [Workfront Reports and Dashboards Learning Paths](https://one.workfront.com/s/learningpath2/workfront-reporting-20Y0z000000blhLEAQ).-->
-* You can customize views, filters, and groupings using the standard mode interface. However, you can build Custom&nbsp;Prompts only using text mode.
+* You can customize views, filters, and groupings using the standard mode interface. However, you can build Custom Prompts only using text mode.
 
 ## Common guidelines for building reporting elements in text mode
 
@@ -33,15 +34,13 @@ The following are common guidelines when building any reporting or list element 
 
   **Example:** You can display the name or GUID of the Portfolio Owner in a task view:
 
-  ```
-  valuefield=project:portfolio:ownerID
-  ```
 
-  You cannot group, filter, or prompt for the Portfolio&nbsp;Owner in a task view:
+  `valuefield=project:portfolio:ownerID`
+  
+  You cannot group, filter, or prompt for the Portfolio Owner in a task view:
 
-  ```
-  project:portfolio:ownerID=5808f4bc00790b270a9629dd128e63fa
-  ```
+  `project:portfolio:ownerID=5808f4bc00790b270a9629dd128e63fa`
+
 
   In these examples, Portfolio Owner ID is three objects away from the object of the list.
 
@@ -56,9 +55,7 @@ The following are common guidelines when building any reporting or list element 
 
 When referencing Workfront fields or their attributes in text mode, Workfront requires you to type their names in camel case. In this case, the single-name fields are spelled in lowercase. Compound fields are spelled according to the following pattern:
 
-```
-camelCaseSyntax
-```
+`camelCaseSyntax`
 
 >[!IMPORTANT]
 >
@@ -72,11 +69,7 @@ The characteristics of camel case are:
 
 **Example:** To reference the Actual Completion Date of a project, the name of the field that you would use when building text mode reporting elements is 
 
-```
-actualCompletionDate
-```
-
-.
+`actualCompletionDate`
 
 ## Text mode syntax for various reporting elements
 
@@ -96,7 +89,7 @@ The following similarities exist between the syntax of the sets of reporting ele
    * [Edit a filter using text mode](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md) 
    * [Add a prompt to a report](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md)
 
-### Syntax for views and groupings
+### Syntax for views and groupings 
 
 You may notice that the lines of code when building views and groupings are similar.
 
@@ -105,22 +98,17 @@ For information about creating views and groupings, see the following articles:
 * [Views overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md) 
 * [Groupings overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md)
 
-The most important line of code for a view or a grouping is the line that identifies the object referenced in the view's column or the grouping. Depending on whether this field is a direct reference to a Workfront database field or a calculation between several fields, the line of code may start with 
+The most important line of code for a view or a grouping is the line that identifies the object referenced in the view's column or the grouping. Depending on whether this field is a direct reference to a Workfront database field or a calculation between several fields, the line of code may start with `valuefield` or `valueexpression`
 
-```
-valuefield
-```
+The following table lists the most common lines of codes in a view or grouping: 
 
-or 
-
-```
-valueexpression
-```
-
-.
-
-* [Valuefield syntax overview for views and groupings](#valuefield-syntax-overview-for-views-and-groupings) 
-* [Valueexpression syntax overview for views and groupings](#valueexpression-syntax-overview-for-views-and-groupings)
+| Code line       | Description                                                                                                                  |
+|-----------------|------------------------------------------------------------------------------------------------------------------------------|
+| `valuefield`      | Identifies the object referenced in the view's column or the grouping. This is a direct reference to the object referenced.  |
+| `valueexpression` | Identifies the object referenced in the view's column or the grouping. This is a calculation between several fields.         |
+| `valueformat`     | Identifies the format in which Workfront returns the value specified in the valuefield or valueexpression lines.             |
+| `width`           | Identifies the width of a column in pixels.                                                                                  |
+| `stretch`         | Identifies which columns occupy extra space not needed by the view.                                                          |
 
 >[!TIP]
 >
@@ -128,88 +116,48 @@ valueexpression
 >
 >  To group by Project Name in a project list or report, use the following line for the first-tier grouping:
 >
->  ```>
->  group.0.valuefield=name
->  ```>
+>  `group.0.valuefield=name`
+>  
 >* If you edit multiple columns in a view in the same column (as it is the case of shared columns), remember that every line of code for each column starts with the column number. 
 >
 >  Use the following format to identify the first column of a view: 
 >
->  ```>
->  column.0.valuefield=name
->  ```>
+>  `column.0.valuefield=name`
+>  
 >  For information about sharing columns, see [View: merge information from multiple columns in one shared column](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-merge-columns.md). 
 >
 
-```
-Valuefield
-```
+#### `Valuefield` syntax overview for views and groupings
 
-syntax overview for views and groupings {#valuefield-syntax-overview-for-views-and-groupings}
-
-```
-Valuefield=
-```
-
-is a key line of code in views and groupings that identifies the object you are referencing directly.
+`Valuefield=` is a key line of code in views and groupings that identifies the object you are referencing directly.
 
 The syntax for directly referencing fields is identical for groupings and views.
 
-The following rules apply when referencing Workfront objects using a 
-
-```
-valuefield
-```
-
-line:
+The following rules apply when referencing Workfront objects using a `valuefield` line:
 
 * Use camel case to reference fields directly.
 
-  **Example:** To reference the Task&nbsp;Actual Completion Date in a task view, use the following line:
+  **Example:** To reference the Task Actual Completion Date in a task view, use the following line:
 
-  ```
-  valuefield=actualCompletionDate
-  ```
+  `valuefield=actualCompletionDate`
 
 * Use camel case and colons to separate fields related to one another for the same object.
 
-  **Example:** To reference the Project&nbsp;Planned Completion Date in a task view, use the following line:
+  **Example:** To reference the Project Planned Completion Date in a task view, use the following line:
 
-  ```
-  valuefield=project:plannedCompletionDate
-  ```
-
+  `valuefield=project:plannedCompletionDate`
+  
   For information about how objects are referencing one another in the Workfront database, see the [API Explorer](../../../wf-api/general/api-explorer.md).
 
 * When referencing a custom field, use the name of the field exactly as it appears in the interface.
 
   **Example:** To reference a project custom field labeled Additional Details in a task view, use the following line:
 
-  ```
-  valuefield=project:Additional Details
-  ```
+  `valuefield=project:Additional Details`
+  
+#### `Valueexpression` syntax overview for views and groupings  
 
-&nbsp;
-
-```
-Valueexpression
-```
-
-syntax overview for views and groupings {#valueexpression-syntax-overview-for-views-and-groupings}
-
-You can replace the 
-
-```
-valuefield=
-```
-
-line of code with 
-
-```
-valueexpression=
-```
-
-when building views and groupings in text mode when you want to reference a calculation between 2 or more fields.
+You can replace the `valuefield=` line of code with `valueexpression=` when building views and groupings in text mode when you want to reference a calculation between 2 or more fields.
 
 >[!TIP]
 >
@@ -219,27 +167,14 @@ when building views and groupings in text mode when you want to reference a calc
 
 Building a calculated grouping is similar to building a calculated column in a view.
 
-The following rules apply when referencing Workfront objects using a 
-
-```
-valueexpression
-```
-
-line:
+The following rules apply when referencing Workfront objects using a `valueexpression` line:
 
 * Use camel case to reference fields directly and enclose each field in curly brackets.
 
-  **Example:** To display the Task Name field in a task column using 
+  **Example:** To display the Task Name field in a task column using `valueexpression`, use the following line:
 
-  ```
-  valueexpression
-  ```
-
-  , use the following line:
-
-  ```
-  valueexpression={name}
-  ```
+  `valueexpression={name}`
+  
 
 * Use camel case and periods to separate fields related to one another.
 
@@ -247,16 +182,12 @@ line:
 
    * In a view:    
    
-     ```   
-     valueexpression=CONCAT({project}.{name},' - ',{name})
-     ```
-
+     `valueexpression=CONCAT({project}.{name},' - ',{name})`
+     
    * In a grouping:    
    
-     ```   
-     group.0.valueexpression=CONCAT({project}.{name},' - ',{name})
-     ```
-
+     `group.0.valueexpression=CONCAT({project}.{name},' - ',{name})`
+     
   For information about how objects are referencing one another in the Workfront database, see the [API Explorer](../../../wf-api/general/api-explorer.md).
 
 * When referencing a custom field, use following rules:
@@ -266,63 +197,51 @@ line:
    * Enclose the field in curly brackets.
    * Separate the fields related to the object by periods.
 
-  **Example:** To display the Additional&nbsp;Details project custom field in a task view in a valueexpression line, use the following line:
+  **Example:** To display the Additional Details project custom field in a task view in a valueexpression line, use the following line:
 
-  ```
-  valueexpression={project}.{DE:Additional Details}
-  ```
+  `valueexpression={project}.{DE:Additional Details}`
 
-* You can use a wildcard in a 
-
-  ```
-  valueexpression
-  ```
-
-  but not in a 
-
-  ```
-  valuefield
-  ```
-
-  line.
+* You can use a wildcard in a `valueexpression` but not in a `valuefield` line.
 
   For information about wildcards, see [Wildcard filter variables](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
 
-```
-Valueformat
-```
 
-overview
+#### `Valueformat` overview for views and groupings
 
-The second most important line of code in a view or grouping is the 
+The second most important line of code in a view or grouping is the `valueformat=` line. This tells Workfront in what format to return the value you specify in the 
+`valuefield` or valueexpression lines. Although you can use various formats for the `valueformat` lines, we recommend that you always use the following value when using 
+`valueexpression`: 
 
-```
-valueformat=
-```
+`valueformat=HTML`
 
-line. This tells Workfront in what format to return the value you specify in the 
+For additional `valueformats` values, also see the following articles:
 
-```
-valuefield
-```
+* [Format dates in text mode reports](../../reports/text-mode/format-dates-in-text-mode-reports.md)
+* [Format numbers, currency and percentage values in text mode reports](../../reports/text-mode/format-numbers-in-text-mode-reports.md)
 
-or valueexpression lines. Although you can use various formats for the 
+#### `width` overview for views
 
-```
-valueformat
-```
+`width=` is the line of code where you can specify the width of each column in pixels. Workfront provides a suggested width for each field, though depending on the type of field and format, you may want to make adjustments. 
 
-lines, we recommend that you always use the following value when using 
+You must use the additional `usewidths=true` line of code to enforce the width specified for the column.
 
-```
-valueexpression
-```
+**Example:** To display a column with a width of 80 pixles, use the following lines:
 
-:
+`width=80`
 
-```
-valueformat=HTML
-```
+`usewidths=true`
+
+#### `stretch` overview for views
+
+The `stretch` is used to identify which columns occupy extra space not needed by the view. The user interface width of the workspace for a typical user is about 850 pixels. This means that if you have a view with four columns (150 pixels each) that your view occupies 600 of 850 pixels. There are 250 extra pixels in the UI that will be added to the columns that have a stretch percentage provided.
+
+The stretch of a column is enforced when you use the additional line of code: `usewidths=true` for at least one of the columns in the view.
+
+**Example:** To indicate that a column could use a 70% of the empty space in a view, use the following lines:
+
+`stretch=70`
+
+`usewidths=true`
 
 ### Syntax for filters and custom prompts
 
