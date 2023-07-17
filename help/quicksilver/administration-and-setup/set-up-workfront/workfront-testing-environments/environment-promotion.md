@@ -224,12 +224,78 @@ POST https://<domain>.<environment>.workfront.com/environment-promotion/v1/packa
 }
 ```
 
+### Get a list of packages
 
+<table style="table-layout:auto"> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td><code>GET /packages</code></td> 
+  </tr> 
+  </tbody> 
+</table>
 
+This call returns an unfiltered list of promotion packages belonging to the customer.
 
+The response will include all packages created from any of the customer's sandbox, preview, or production instances of Workfront.
 
+#### URL
 
-<!--table template
+```
+GET https://{{domain}}.{{env}}.workfront.com/environment-promotion/v1/packages
+```
+
+#### Headers
+
+```json
+{
+    "Authorization": "Bearer ****************"
+}
+```
+
+#### Body
+
+```json
+<empty>
+```
+
+#### Response
+
+```
+200
+```
+
+```json
+{
+    "data": [
+        {
+            "id": "1d5693b9-b7b5-492d-8219-c21f34bcaca6",
+            "name": "Agency Onboarding - 2023-06-06",
+            "description": "This promotion package contains configuration to support the agency onboarding processes...",
+            "status": "EXTRACTING",
+            "version": 1,
+            "installationCounts": {},
+            "createdAt": "2023-06-06T17:29:21.600Z",
+            "createdById": "61aa9d0e0005fcee8f212835bdaa2619",
+            "publishedAt": null,
+            "isPrivate": true,
+            "customerId": "61aa9d090005fa42152c1cb66659f38d"
+        },
+        {...}
+    ]
+}
+```
+
+<!--table templates
+
+<table style="table-layout:auto"> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td><code>POST /packages</code></td> 
+  </tr> 
+  </tbody> 
+</table>
 
 <table style="table-layout:fixed"> 
  <col> 
