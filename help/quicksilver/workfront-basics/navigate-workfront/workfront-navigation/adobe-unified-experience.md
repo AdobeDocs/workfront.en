@@ -93,6 +93,6 @@ If your organization uses a separate application to manage passwords, you will c
 
 If your password is managed by [!DNL Adobe], you can change the password in your Adobe account.
 
-[See this article for changing your Adobe password.](https://helpx.adobe.com/manage-account/using/change-or-reset-password.html){target="_blank"}.
+[See this article for changing your Adobe password.](https://helpx.adobe.com/manage-account/using/change-or-reset-password.html){target="_blank"}
 
 For more information on changing your password, contact your administrator.
