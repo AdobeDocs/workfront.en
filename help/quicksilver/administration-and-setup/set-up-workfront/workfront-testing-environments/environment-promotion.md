@@ -88,20 +88,15 @@ The Environment Promotion capability is intended to provide the ability to move 
 ### Other configuration objects
 
 | Promotable object | Included sub-objects |
-| Approval Process (ARVPRC) | Approval Process<br>Approval Path
-Approval Step
-Step Approver
-Role
-Team
-Group |
 | --- | --- |
-| --- | --- |
-| --- | --- |
-| --- | --- |
-| --- | --- |
-| --- | --- |
-| --- | --- |
-| --- | --- |
+| Approval Process (ARVPRC) | Approval Process<br>Approval Path<br>Approval Step<br>Step Approver<br>Role<br>Team<br>Group |
+| Schedule (SCHED) | Schedule<br>Non Work Day<br>Group |
+| Milestone Path (MPATH) | Milestone Path<br>Milestone |
+| Timesheet Profile (TSPRO) | Timesheet Profile<br>Hour Type |
+| Hour Type (HOURT) | Hour Type |
+| Expense Type (EXPTYP) | Expense Type |
+| Risk Type (RSKTYP) | Risk Type |
+| Resource Pool (RSPL) | Resource Pool |
 
 
 
