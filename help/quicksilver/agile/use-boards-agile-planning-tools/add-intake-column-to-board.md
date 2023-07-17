@@ -47,10 +47,6 @@ You must have the following access to perform the steps in this article:
 
 ## Create an intake column using simple filters
 
->[!NOTE]
->
->Simple filters are only available via the early feature opt-in for Adobe Workfront Boards.
-
 1. Click the **[!UICONTROL Main Menu]** icon ![Main Menu](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **[!UICONTROL Boards]**.
 1. Access a board. For information, see [Create or edit a board](../../agile/get-started-with-boards/create-edit-board.md).
 1. Click **[!UICONTROL Configure]** on the right of the board to open the Configure panel.
