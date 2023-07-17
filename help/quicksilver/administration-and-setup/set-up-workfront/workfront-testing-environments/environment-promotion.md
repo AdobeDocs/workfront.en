@@ -98,6 +98,38 @@ The Environment Promotion capability is intended to provide the ability to move 
 | Risk Type (RSKTYP) | Risk Type |
 | Resource Pool (RSPL) | Resource Pool |
 
+## API Endpoints
 
+* Obtaining a Bearer Token
+* Create a package
+* Get a list of packages
+* Get a package by ID
+* Get a package's configuration definition
+* Replace a package details and definition
+* Update specific properties of a package
+* Delete a package
+* Execute a pre-run
+* Execute an installation
+* Get a list of installations for a specific package
+* Get the installation details for a installation
+
+### Obtaining a Bearer Token
+
+### Create a package
+
+<table style="table-layout:auto"> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td><code>POST /packages</code></td> 
+  </tr> 
+  </tbody> 
+</table>
+
+This call executes a multi-step process. 
+
+The first step results in the creation of an empty promotion package in the status of "ASSEMBLING".
+
+The second step uses the the objectCollections array provided in the POST body to extracting the requested records from Workfront. This step may take several minutes to complete, depending on the number of records requested and your Workfront configuration. At the end of this process, the empty promotion package is updated with the packageEntities and the status is automatically set to "BUILDING".
 
 
