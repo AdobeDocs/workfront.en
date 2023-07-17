@@ -128,8 +128,118 @@ The Environment Promotion capability is intended to provide the ability to move 
 
 This call executes a multi-step process. 
 
-The first step results in the creation of an empty promotion package in the status of "ASSEMBLING".
+The first step results in the creation of an empty promotion package in the status of "EXTRACTING".
 
-The second step uses the the objectCollections array provided in the POST body to extracting the requested records from Workfront. This step may take several minutes to complete, depending on the number of records requested and your Workfront configuration. At the end of this process, the empty promotion package is updated with the packageEntities and the status is automatically set to "BUILDING".
+The second step uses the the `objectCollections` array provided in the POST body to assemble the requested records from Workfront. This step may take several minutes to complete, depending on the number of records requested and your Workfront configuration. At the end of this process, the empty promotion package is updated with the `packageEntities` and the status is automatically set to "BUILDING".
 
 
+>[!NOTE]
+>
+>Note the structure of the `objectCollections`  array.
+>
+>Each item in the array contains an `objCode` key that corresponds to the object code documented in the Workfront API Explorer.
+>
+>Each item also contains an `entities` collection. This expects the `ID` and `name` keys to be present.
+>
+>For the list of allowed object codes to be requested in the `objectCollections` list, see the [Supported objects for environment promotion](#supported-objects-for-environment-promotion) section in this article.
+
+#### URL
+
+```
+POST https://<domain>.<environment>.workfront.com/environment-promotion/v1/packages
+```
+
+#### Headers
+
+```json
+{
+    "Authorization": "Bearer ****************",
+    "Content-Type": "application/json"
+}
+```
+
+#### Body
+
+```json
+{
+    "packageName": "Agency Onboarding - 2023-06-06",
+    "description": "This promotion package contains configuration to support the agency onboarding processes...",
+    "source": "https://{{domain}}.{{env}}.workfront.com",
+    "objectCollections": [
+        {
+            "objCode": "PROJ",
+            "entities": [
+                {
+                    "ID": "6419b8b9001151ee258921a4f7597ba1",
+                    "name": "Agency Request"
+                }
+            ]
+        },
+        {
+            "objCode": "TMPL",
+            "entities": [
+                {
+                    "ID": "6419b8b9001151ee258921a4f7597bb2",
+                    "name": "New Agency Onboarding"
+                },
+                {
+                    "ID": "6419b8b9001151ee258921a4f7597bc3",
+                    "name": "New Agency Offboarding"
+                }
+            ]
+        },
+        {
+            "objCode": "PTLTAB",
+            "entities": [
+                {
+                    "ID": "645e6435000b4aaebe4776f4a42ed5ad",
+                    "name": "Agency Performance and Readiness"
+                }
+            ]
+        }
+    ]
+}
+```
+
+#### Response
+
+```json
+200
+```
+
+```json
+{
+    "data": {
+        "id": "1d5693b9-b7b5-492d-8219-c21f34bcaca6",
+        "name": "Agency Onboarding - 2023-06-06",
+        "description": "This promotion package contains configuration to support the agency onboarding processes...",
+        "status": "EXTRACTING",
+        "version": 1,
+        "installationCounts": {},
+        "createdAt": "2023-06-06T17:29:21.600Z",
+        "createdById": "61aa9d0e0005fcee8f212835bdaa2619",
+        "publishedAt": null,
+        "isPrivate": true,
+        "customerId": "61aa9d090005fa42152c1cb66659f38d"
+}
+```
+
+
+
+
+
+
+<!--table template
+
+<table style="table-layout:fixed"> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td><b></b</td> 
+  </tr> 
+  <tr> 
+   <td><pre></pre></td> 
+  </tr> 
+  </tbody> 
+</table>
+-->
