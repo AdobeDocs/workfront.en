@@ -190,7 +190,7 @@ The following grid shows what sections in the [!UICONTROL My Settings] area are 
 
 ## Configuring the [!UICONTROL My Settings] area 
 
-1. {#step1-click-profile-pic}
+1. {{step1-click-profile-pic}}
 
 1. Click the **[!UICONTROL More]** menu ![](assets/more-icon.png), then click **[!UICONTROL Edit]**.
 

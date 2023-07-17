@@ -56,7 +56,7 @@ You must have the following access to perform the steps in this article:
 
 ## Configure personal time off in [!DNL Workfront]
 
-1. {#step1-click-profile-pic}
+1. {{step1-click-profile-pic}}
 
 1. In the left panel, click **[!UICONTROL Time Off]**.
 1. Select the desired date for your personal time off.
