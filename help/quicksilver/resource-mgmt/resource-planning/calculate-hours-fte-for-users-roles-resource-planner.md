@@ -94,7 +94,7 @@ For this example, we are using the following numbers:
 
 * A system Default Schedule of 40 hours 
 * A user Schedule of 20 Hours 
-* A user FTE of 0.75.
+* A user FTE of 0.75
 
 | Method for FTE Calculation (System Setting) |**Hours from User's Schedule** |**Hours from the Default Schedule** |**User FTE field** |**Available Hours in the Resource Planner** |**Available FTE in the Resource Planner** |
 |---|---|---|---|---|---|
@@ -120,9 +120,7 @@ You can display the same information in the Resource Planner as FTE or as hours.
 
 Workfront uses the following formula to display all other values as FTE in the Resource Planner:
 
-```
-FTE = Resource Planner Hours/ Default Schedule Hours
-```
+`FTE = Resource Planner Hours/ Default Schedule Hours`
 
 >[!NOTE]
 >
