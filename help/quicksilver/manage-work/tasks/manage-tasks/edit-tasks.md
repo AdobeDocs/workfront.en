@@ -2,7 +2,7 @@
 product-area: projects
 navigation-topic: manage-tasks
 title: Edit tasks
-description: Edit tasks
+description: You can edit information on tasks that you have created, or that you have Contribute or Manage permissions to.
 author: Alina
 feature: Work Management
 exl-id: 572c6008-3a67-47ae-8f5d-6b871ef1f37b
@@ -96,7 +96,7 @@ You can edit a task using the Edit Task or Task Details areas. The following ste
 1. Click **Projects**, then click the name of a project to open it.
 1. Click **Tasks** in the left panel. 
 1. Click the task you want to edit.
-1. (Optional) To edit limited information about a task, click **Task Details** in the left panel.
+1. (Conditional) To edit limited information about a task, as a user with Contribute permissions to the task, click **Task Details** in the left panel.
 
    ![](assets/nwe-task-details-expanded-350x273.png)
 
@@ -116,9 +116,7 @@ You can edit a task using the Edit Task or Task Details areas. The following ste
    >
    >Depending on how your Workfront administrator or Group administrator modified your Layout Template, the fields in the Task Details area might be rearranged or not display. For information, see [Customize the Details view using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
 
-   For information about the fields visible in the Task Details section,
-
-   continue with editing the task in the Edit Task box as described below.
+   For information about the fields visible in the Task Details section, continue with editing the task in the Edit Task box as described below.
 
    To edit information in the Details section, do the following:
 
@@ -142,7 +140,7 @@ You can edit a task using the Edit Task or Task Details areas. The following ste
 
       For more information, see [Export custom forms and object details](../../../workfront-basics/work-with-custom-forms/export-custom-forms-details.md).
 
-1. To edit all information about the task, click the **More** menu ![](assets/more-icon.png) next to the name of the task, then click **Edit**.
+1. (Conditional) To edit all information about the task, as a user with Manage permissions to the task, click the **More** menu ![](assets/more-icon.png) next to the name of the task, then click **Edit**.
 
    Or
 
