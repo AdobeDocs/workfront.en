@@ -10,7 +10,7 @@ hide: yes
 # Edit records
 
 You can edit record information in Adobe Maestro. You must create record types before you can start creating and editing records. 
-For information, see [Create record types](../maestro/create-record-types.md). 
+For information, see [Create record types](../architecture-and-fields/create-record-types.md).
 
 <!-- mention in here that the fields in the Details view are the same as the ones in the table view -- this article is linked from the Manage record views one to refer to this info-->
 
@@ -113,7 +113,7 @@ You can edit a record from the following areas:
 
       >[!TIP]
       >
-      >Relationship-type fields are not editable. The information for these fields is populated automatically from the linked records. For information, see [Manage Relationship-type fields in Adobe Maestro](../maestro/manage-relationship-fields.md).  
+      >Relationship-type fields are not editable. The information for these fields is populated automatically from the linked records. For information, see [Manage Relationship-type fields in Adobe Maestro](../architecture-and-fields/manage-relationship-fields.md).  
 
 
     

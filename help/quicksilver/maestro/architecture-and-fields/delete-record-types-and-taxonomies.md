@@ -15,7 +15,7 @@ hide: yes
 
 You can delete record types or taxonomies when they are no longer relevant. 
 
-For information about record types and taxonomies, see [Overview of Adobe Maestro record types](../maestro/overview-of-record-types-and-taxonomies.md).
+For information about record types and taxonomies, see [Overview of record types and taxonomies](../architecture-and-fields/overview-of-record-types-and-taxonomies.md).
 
 We recommend recreating the fields and the records associated with the record type or taxonomy that you want to delete on another record type before deleting them.
 

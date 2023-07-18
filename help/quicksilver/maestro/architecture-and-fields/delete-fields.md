@@ -11,7 +11,7 @@ hide: yes
 
 In Adobe Maestro, you can create custom fields to store information about records. 
 
-For information about creating Maestro records, see [Create Maestro fields](../maestro/create-fields.md). 
+For information about creating Maestro records, see [Create Maestro fields](../architecture-and-fields/create-fields.md). 
 
 You can delete Maestro fields that are no longer relevant. 
 

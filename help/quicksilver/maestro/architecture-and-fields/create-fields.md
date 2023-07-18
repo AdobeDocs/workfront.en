@@ -1,5 +1,5 @@
 ---
-title: Create fields in Adobe Maestro
+title: Create fields
 description: In Adobe Maestro, you can create custom fields for each kind of operational record type or taxonomy. You can then associate the field with Maestro records.
 hidefromtoc: yes
 hide: yes
@@ -11,11 +11,11 @@ hide: yes
 
 <!--will they add a way to create fields elsewhere than in a table?! - how will that change the structure of this article? -->
 
-# Create fields in Adobe Maestro
+# Create fields
 
 In Adobe Maestro, you can create custom fields for operational record types or taxonomies. You can then associate the fields with Maestro records to enhance record information. 
 
-You must create record types before you can create fields to associate with them. For information, see [Create record types](create-record-types.md). 
+You must create record types before you can create fields to associate with them. For information, see [Create record types](../architecture-and-fields/create-record-types.md). 
 
 ## Access requirements
 
@@ -95,7 +95,7 @@ You must create record types before you can create fields to associate with them
 
         * Connect existing record types together and access the fields from the linked record type, when using Relationship fields. 
             
-            For more information, see [Manage Relationship-type fields in Adobe Maestro](../maestro/manage-relationship-fields.md)
+            For more information, see [Manage Relationship-type fields in Adobe Maestro](../architecture-and-fields/manage-relationship-fields.md). 
         
         * Connect Maestro record types to object types from other applications and access the fields of the linked object types. 
         
@@ -166,7 +166,7 @@ You can use a relationship field to connect record types and their fields. By do
 >    You cannot manually update the values of linked fields from the original records. They are automatically updated from their linked records.
 
 
-For more information about creating a relationship field, see [Manage Relationship-type fields in Adobe Maestro](../maestro/manage-relationship-fields.md).
+For more information about creating a relationship field, see [Manage Relationship-type fields in Adobe Maestro](../architecture-and-fields/manage-relationship-fields.md).
 
 ### Single-line text {#single-line-text}
 

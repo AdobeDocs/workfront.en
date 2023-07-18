@@ -1,5 +1,5 @@
 ---
-title: Overview of Adobe Maestro record types 
+title: Overview of record types and taxonomies
 description: Record types are the building blocks of a Maestro workspace. 
 hidefromtoc: yes
 hide: yes
@@ -7,11 +7,11 @@ hide: yes
 
 <!--udpate the metadata with real information when making this avilable in TOC and in the left nav-->
 
-# Overview of Adobe Maestro record types
+# Overview of record types and taxonomies
 
 Unlike Workfront where the object types are predefined, in Adobe Maestro, you can create your own object types. For example, in Workfront the object types of Program, Portfolio, Project, Task, or Issue are already created. 
 
-Maestro object types are called "record types". Record types are the building blocks of a Maestro workspace. For information about workspaces, see [Create workspaces](../maestro/create-workspaces.md). 
+Maestro object types are called "record types". Record types are the building blocks of a Maestro workspace. For information about workspaces, see [Create workspaces](../architecture-and-fields/create-workspaces.md). 
     
 ## Record type overview
     
@@ -41,7 +41,7 @@ You can do the following to add operational record types to a Maestro workspace:
 
     * Projects from Adobe Workfront <!--add to this list when we could import more objects from other apps-->
 
-    For more information, see [Create record types](../maestro/create-record-types.md). 
+    For more information, see [Create record types](../architecture-and-fields/create-record-types.md). 
 
 ### Taxonomy{#taxonomy}
 
@@ -55,5 +55,5 @@ Although creating taxonomies is identical to creating operational record types, 
 
 For example, Audience, Region, or Address can be taxonomy-type record types.  
 
-For more information, see [Create a taxonomy](../maestro/create-a-taxonomy.md).
+For more information, see [Create a taxonomy](../architecture-and-fields/create-a-taxonomy.md). 
 

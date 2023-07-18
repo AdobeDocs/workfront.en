@@ -78,8 +78,8 @@ To link Maestro records with Workfront objects you must have the following:
 * Workfront objects you want to link from Maestro. For example, projects in Workfront.
 * Maestro workspaces and record types. For more information, see the following articles:
 
-  * [Create workspaces](create-workspaces.md)
-  * [Create record types](create-record-types.md)
+  * [Create workspaces](../architecture-and-fields/create-workspaces.md)
+  * [Create record types](../architecture-and-fields/create-record-types.md)
 
 ## Considerations about importing record types from Workfront
 
@@ -98,7 +98,7 @@ To link Maestro records with Workfront objects you must have the following:
 
 ## Import record types from Workfront
 
-Importing record types from Workfront is similar to creating a Relationship-type field in Maestro. For information, see [Manage Relationship-type fields in Adobe Maestro](../maestro/manage-relationship-fields.md)
+Importing record types from Workfront is similar to creating a Relationship-type field in Maestro. For information, see [Manage Relationship-type fields in Adobe Maestro](../architecture-and-fields/manage-relationship-fields.md). 
 
 1. Go to a record type whose records you want to connect to Workfront objects.
 1. Select a **Table** view from the **View** drop-down menu in the upper-right corner of the record type page. 
@@ -120,7 +120,7 @@ Importing record types from Workfront is similar to creating a Relationship-type
 1. Select **Allow multiple records** if you want to be able to link more than one Workfront object from one record. You cannot change this option after you save the field. 
 1. (Optional) Select any of the fields available from the Workfront object. Standard and custom Workfront fields that display in the Project Details section in Workfront display in the list. If you don't select any fields, the **Name** field is selected by default, even when left unselected. 
 
-1. (Conditional and optional) For date, number, currency, or percentage fields, select an aggregator from the drop-down to the right of the field name. For more information, see [Manage Relationship-type fields in Adobe Maestro](../maestro/manage-relationship-fields.md). 
+1. (Conditional and optional) For date, number, currency, or percentage fields, select an aggregator from the drop-down to the right of the field name. For more information, see [Manage Relationship-type fields in Adobe Maestro](../architecture-and-fields/manage-relationship-fields.md). 
 
     ![](assets/linked-field-aggregators-for-relationship-fields.png)
 

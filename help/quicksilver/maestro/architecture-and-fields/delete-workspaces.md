@@ -9,7 +9,7 @@ hide: yes
 
 # Delete workspaces
 
-In Adobe Maestro, workspaces are centralized locations for teams to plan work. For more information, see [Create workspaces](../maestro/create-workspaces.md). 
+In Adobe Maestro, workspaces are centralized locations for teams to plan work. For more information, see [Create workspaces](../architecture-and-fields/create-workspaces.md). 
 
 You can delete workspaces that are no longer relevant. 
 

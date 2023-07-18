@@ -99,4 +99,4 @@ A workspace is a collection of operational record types and taxonomies used by a
 
 1. (Optional) Click **Add taxonomy** to add taxonomies to the workspace. 
 
-    For information, see [Create taxonomies](../maestro/create-a-taxonomy.md). 
+    For information, see [Create taxonomies](../architecture-and-fields/create-a-taxonomy.md) 

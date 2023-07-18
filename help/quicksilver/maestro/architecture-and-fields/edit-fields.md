@@ -1,5 +1,5 @@
 ---
-title: Edit Maestro fields
+title: Edit fields in Adobe Maestro
 description: In Adobe Maestro, you can edit custom fields for each kind of operational record type or taxonomy. 
 hidefromtoc: yes
 hide: yes
@@ -7,11 +7,11 @@ hide: yes
 
 <!--udpate the metadata with real information when making this avilable in TOC and in the left nav-->
 
-# Edit Maestro fields
+# Edit fields in Adobe Maestro
 
 You can edit the field settings for fields that are already created. 
 
-For information about creating Adobe Maestro fields, see [Create Mestro fields](../maestro/create-fields.md). 
+For information about creating Adobe Maestro fields, see [Create Mestro fields](../architecture-and-fields/create-fields.md). 
 
 This article describes how you can edit the settings for Maestro fields. For information about editing field values for Maestro records, see [Edit records](../maestro/edit-records.md). 
 

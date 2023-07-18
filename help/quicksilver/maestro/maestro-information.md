@@ -1,28 +1,22 @@
 ---
 title: Adobe Maestro 
-description: As a marketing operations leader, you can use Adobe Maestro to to organize work across the marketing lifecycle for all your teams.
+description: As a marketing operations leader, you can use Adobe Maestro to organize work across the marketing lifecycle for all your teams. The articles in this section describe how you can configure Maestro and how you can start using its capabilities as part of your campaign management operations. 
 hidefromtoc: yes
+author: Alina
+feature: Work Management
+role: User, Admin
 hide: yes
 ---
 
 <!--udpate the metadata with real information when making this avilable in TOC and in the left nav-->
 
-# Adobe Maestro
+# Adobe Maestro information
 
 As a marketing operations leader, you can use Adobe Maestro to organize work across the marketing lifecycle for all your teams.
 
-This section contains the following articles: 
+This articles in the following sections describe how you can configure Maestro and start using its capabilities: 
 
 * [Maestro overview](maestro-overview.md)
-* [Create workspaces](create-workspaces.md)
-* [Overview of operational record types and taxonomies](overview-of-record-types-and-taxonomies.md)
-* [Create record types](create-record-types.md)
-* [Create a taxonomy](create-a-taxonomy.md)
-* [Create records](create-records.md)
-* [Delete workspaces](delete-workspaces.md)
-* [Delete record types](delete-record-types.md)
-* [Edit records](edit-records.md)
-* [Manage record views](manage-record-views.md)
-* [Create Maestro fields](create-fields.md)
-* [Edit Maestro fields](edit-fields.md)
-* [Delete Maestro fields](delete-fields.md)
+* [The architecture and fields of Adobe Maestro](../maestro/architecture-and-fields/architecture-and-fields-information.md)
+* [Records information](../maestro/records/records-information.md)
+* [View information](../maestro/views/views-information.md)

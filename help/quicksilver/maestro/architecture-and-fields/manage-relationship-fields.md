@@ -82,7 +82,7 @@ This article describes how you can connect two Maestro record types.
 
 You can create a Relationship-type field to connect two record types and their fields together. 
 
-1. Start creating a field for a record type, as described in the article [Create fields in Adobe Maestro](../maestro/create-fields.md), then select the **Relationship** field type. <!--check screen shot - logged a bug for a couple of changes here-->
+1. Start creating a field for a record type, as described in the article [Create fields](../architecture-and-fields/create-fields.md), then select the **Relationship** field type. <!--check screen shot - logged a bug for a couple of changes here-->
 
     ![](assets/relationship-field-type.png)
 

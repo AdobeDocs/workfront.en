@@ -15,9 +15,9 @@ Record types are the object types of Adobe Maestro. Record types can be one of t
 * **Operational record types**: A record type that represents strategic plans, initiatives, or executed work. For example, Campaign, Activity, Tactic, Opportunity can be operational record types. 
 * **Taxonomies**: Record types that capture attributes about an operational record type. For example, Region, Address, Audience can be taxonomies.  
 
-For more information about Maestro record types, see [Overview of Adobe Maestro record types](../maestro/overview-of-record-types-and-taxonomies.md).
+For more information about Maestro record types, see [Overview of record types and taxonomies](../architecture-and-fields/overview-of-record-types-and-taxonomies.md).
 
-This article describes how to create operational record types. However, creating operational record types and taxonomies is identical. For more information about taxonomies, see [Create a taxonomy](../maestro/create-a-taxonomy.md).
+This article describes how to create operational record types. However, creating operational record types and taxonomies is identical. For more information about taxonomies, see [Create a taxonomy](../architecture-and-fields/create-a-taxonomy.md).
 
 ## Access requirements
 
@@ -68,7 +68,7 @@ This article describes how to create operational record types. However, creating
 
 <!--*********************************REVISE THIS - THE WORKFRONT CONNECTION IS NOT RIGHT HERE**************************-->
 
-* Operational record types are the building blocks of workspaces in Maestro. The record types should reflect the work lifecycle of an organizational unit. For information about workspaces, see [Create workspaces](../maestro/create-workspaces.md).  
+* Operational record types are the building blocks of workspaces in Maestro. The record types should reflect the work lifecycle of an organizational unit. For information about workspaces, see [Create workspaces](../architecture-and-fields/create-workspaces.md).  
 * When you create an operational record type, everyone in your organization can view, edit, or delete it. <!--this will change with access levels and permissions-->
 * You can add operational record types to a workspace by doing one of the following:
     * Create them from scratch. This article describes how you can create a record type from scratch.
@@ -120,16 +120,16 @@ This article describes how to create operational record types. However, creating
 
     * Name
 
-1. (Optional) Click the **+** icon in the upper-right corner of the table to add more fields to the record type. For more information, see [Create fields in Adobe Maestro](../maestro/create-fields.md).  
+1. (Optional) Click the **+** icon in the upper-right corner of the table to add more fields to the record type. For more information, see [Create fields](../architecture-and-fields/delete-fields.md). 
 
 1. (Optional) Click the left-pointing arrow to the left of the record type name to go back to the selected workspace. 
 
 
 For additional information about adding records, deleting record types, or updating the view in the record type page, see the following articles:
 
-* [Create records](../maestro/create-records.md)
-* [Delete record types and taxonomies](../maestro/delete-record-types-and-taxonomies.md)
-* [Manage record views in Adobe Maestro](../maestro/manage-record-views.md) <!--add information here about the sorting and grouping when available-->
+* [Create records](../records/create-records.md)
+* [Delete record types and taxonomies](../architecture-and-fields/delete-record-types-and-taxonomies.md)
+* [Manage record views in Adobe Maestro](../views/manage-record-views.md) <!--add information here about the sorting and grouping when available-->
 
 ## Import record types from another application
 
