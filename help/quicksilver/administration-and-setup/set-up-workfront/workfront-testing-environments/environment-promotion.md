@@ -588,6 +588,152 @@ PUT https://{{domain}}.{{env}}.workfront.com/environment-promotion/v1/packages/{
 }
 ```
 
+### Update specific properties of a package
+
+<table style="table-layout:auto"> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td><code>PATCH /packages/{{id}}</code></td> 
+  </tr> 
+  </tbody> 
+</table>
+
+This call updates any of the contents of the promotion package that are provided in the PATCH body.
+
+The editable attributes are:
+
+1. name (string)
+1. description (string)
+1. source (string with URL validation)
+1. status (string with value validation)
+1. version (integer)
+1. metadata (collection)
+1. packageEntities (collection)
+    
+     or
+    
+     objectCollections (array)
+
+Providing the `packageEntities` will update the promotion package with the configuration definition provided.
+
+Providing the `objectCollections` will initiate a re-extraction from the `source` environment associated with the promotion package. The `source` field must be provided when the `objectCollections` is provided.
+
+#### URL
+
+```
+PATCH https://{{domain}}.{{env}}.workfront.com/environment-promotion/v1/packages/{{id}}
+```
+
+
+#### Headers
+
+```json
+{
+    "Authorization": "Bearer ****************",
+    "Content-Type": "application/json"
+}
+```
+
+#### Body
+
+{
+    "status": "PUBLIC"
+}
+
+#### Response
+
+```
+200
+```
+
+```json
+{
+    "data": {
+        "id": "1d5693b9-b7b5-492d-8219-c21f34bcaca6",
+        "name": "Agency Onboarding - 2023-06-06",
+        "description": "This promotion package contains configuration to support the agency onboarding processes...",
+        "status": "PUBLIC",
+        "version": 1,
+        "installationCounts": {},
+        "createdAt": "2023-06-06T17:29:21.600Z",
+        "createdById": "61aa9d0e0005fcee8f212835bdaa2619",
+        "publishedAt": "2023-06-06T19:39:01.600Z",
+        "isPrivate": true,
+        "customerId": "61aa9d090005fa42152c1cb66659f38d",
+        "metadata": {
+            "displayOrder": ["GROUP","ROLE","TMPL","PROJ","PTLTAB"], 
+            "historyOrder": ["GROUP","ROLE","TMPL","TTSK","PROJ","PTLTAB"], 
+            "installOrder": ["GROUP","ROLE","TMPL","TTSK","TPRED","TASSGN","PROJ","QUED","RRUL","QUET","UIFT","UIGB","UIVW","PTLTAB"], 
+            "summaryOrder": ["GROUP","ROLE","TMPL"], 
+            "shapeVersion": 2
+        },
+        "displayEntities": {
+            "GROUP": [
+               {
+                   "id": "52aa9d0e0005fcee8f212835bdaa2691",
+                   "name": "Default Group",
+                   "description": "..."
+               }
+            ],
+            "ROLE": [
+               {...}
+            ],
+            ...
+        }
+   }
+}
+```
+
+### Delete a package
+
+<table style="table-layout:auto"> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td><code>DELETE /packages/{{id}}</code></td> 
+  </tr> 
+  </tbody> 
+</table>
+
+This call deletes the promotion package record. This action is irreversible.
+
+>[!NOTE]
+>
+>As opposed to deleting a promotion package, the recommendation is to change the status of the package to RETIRED. This will allow the package to be retrievable and retains the installation history of where it was deployed.
+
+#### URL
+
+```
+DELETE https://{{domain}}.{{env}}.workfront.com/environment-promotion/v1/packages/{{id}}
+```
+
+#### Headers
+
+```json
+{
+    "Authorization": "Bearer ****************"
+}
+```
+
+#### Body
+
+_Empty_
+
+#### Response
+
+```
+200
+```
+
+```
+Deleted
+```
+
+
+
+
+
 
 
 
