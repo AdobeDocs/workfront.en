@@ -11,6 +11,15 @@ role: Admin
 ---
 # Environment promotion
 
+<!-- 
+TO DO
+
+Overview of value
+Check for any code changes
+Fix {{}}
+Add to tocs
+-->
+
 ## Access requirements
 
 You must have the following:
@@ -45,6 +54,13 @@ The Create Promotion Package endpoint assumes that you have already configured t
 ## Supported objects for environment promotion
 
 The Environment Promotion capability is intended to provide the ability to move configuration-related objects from one environment to another. It does not support the ability to move transactional objects (with limited exceptions).
+
+ * [Work objects](#work-objects)
+ * [Reporting objects](#reporting-objects)
+ * [Custom data objects](#custom-data-objects)
+ * [Organization objects](#organization-objects)
+ * [Other configuration objects](#other-configuration-objects)
+
 
 ### Work objects
 
@@ -100,20 +116,20 @@ The Environment Promotion capability is intended to provide the ability to move 
 
 ## API Endpoints
 
-* Obtaining a Bearer Token
-* Create a package
-* Get a list of packages
-* Get a package by ID
-* Get a package's configuration definition
-* Replace a package details and definition
-* Update specific properties of a package
-* Delete a package
-* Execute a pre-run
-* Execute an installation
-* Get a list of installations for a specific package
-* Get the installation details for a installation
+* [Obtain a Bearer Token](#obtain-a-bearer-token)
+* [Create a package](#create-a-package)
+* [Get a list of packages](#get-a-list-of-packages)
+* [Get a package by ID](#get-a-package-by-id)
+* [Get a package's configuration definition](#get-a-packages-configuration-definition)
+* [Replace package details and definition](#replace-package-details-and-definition)
+* [Update specific properties of a package](#update-specific-properties-of-a-package)
+* [Delete a package](#delete-a-package)
+* [Execute a pre-run](#execute-a-pre-run)
+* [Execute an installation](#execute-an-installation)
+* [Get a list of installations for a specific package](#get-a-list-of-installations-for-a-specific-package)
+* [Get the installation details for an installation](#get-the-installation-details-for-an-installation)
 
-### Obtaining a Bearer Token
+### Obtain a Bearer Token
 
 ### Create a package
 
@@ -432,7 +448,7 @@ _Empty_
 }
 ```
 
-### Replace a package details and definition
+### Replace package details and definition
 
 <table style="table-layout:auto"> 
  <col> 
