@@ -36,7 +36,7 @@ You must have the following:
   <tr>
    <td><strong>Product</strong>
    </td>
-   <td><p>You must have Experience Manager Assets as a Cloud Service or Assets Essentials, and you must be added to the product as a user in the Admin Console.</p><p>You must have write access to the repository in Adobe Experience Manager to create linked folders.</p>>
+   <td><p>You must have Experience Manager Assets as a Cloud Service or Assets Essentials, and you must be added to the product as a user in the Admin Console.</p><p>You must have write access to the repository in Adobe Experience Manager to create linked folders.</p>
    </td>
   </tr>
   <tr>
