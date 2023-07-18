@@ -459,7 +459,7 @@ The editable attributes are:
 
 Status options include:
 
-<table style="table-layout:fixed"> 
+<table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
@@ -730,15 +730,74 @@ _Empty_
 Deleted
 ```
 
+### Execute a pre-run
 
+<table style="table-layout:auto"> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td><code>POST /translationmap</code></td> 
+  </tr> 
+  </tbody> 
+</table>
 
+This call conducts a comparison between the package definition and the target environment identified in the URL.
 
+The result is a JSON body that identifies whether a promotion object is found or not in the target environment.
 
+For each promotion object, one of the following `actions`  will be set:
 
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td>CREATE</td> 
+   <td><p>When a corresponding record cannot be found in the target environment, the action is set to CREATE.</p><p>When this action is set in the <code>translationmap</code> that is provided to the <code>/install</code> endpoint, the installation service will create the record.</p></td> 
+  </tr> 
+  <tr> 
+   <td>USEEXISTING</td> 
+   <td><p>When a corresponding record is found in the target environment, the action is set to USEEXISTING and a <code>targetId</code> is also captured in the <code>translationmap</code>.</p><p>When this action is set in the <code>translationmap</code> that is provided to the <code>/install</code> endpoint, the installation service will not create the record. However, it will use the <code>targetId</code> included in the map entry for other objects that may have a reference to this record.</p><p>For example, a "Default Group" may be found in the target environment to which a package is being deployed. It is not possible to have two "Default Group" records, so the installation service will use the GUID for the existing group in any other object creation actions that include a reference to the "Default Group", such as a project, form, or any other entity that is related to this group.</p><p><b>Note:</b> <ul><li><p>When the USEEXISTING action is assigned, the existing record in the target environment will not be modified. </p><p>For example, if the description for the "Default Group" has changed in the sandbox where the package was built from, and the description value is different in the target environment, the value will remain unchanged after an installation with this <code>translationmap</code>.</li></ul></td> 
+  </tr> 
+  <tr> 
+   <td>IGNORE</td> 
+   <td><p>This action will not be automatically set.</p><p>It provides an ability to do a manual override of an assigned CREATE or USEEXISTING action before executing the <code>/install</code> call.</p><p><b>Notes: </b><ul><li><p>If a record that was originally set to CREATE is set to IGNORE, then any child records should also be set to IGNORE.</p><p>For example, if a Template record was mapped with a CREATE action, and the installing user wishes to exclude it from the deployment, they can set the Template's action to IGNORE.</p><p>In this case, if the installing user does not also set the Template Tasks, Template Task Assignments, Template Task Predecessors, Queue Definition, Queue Topics, Routing Rules, etc, to IGNORE, the deployment will result in a failed installation attempt.</p></li><li><p>If a record that was originally set to USEEXISTING is set to IGNORE, there may be some adverse effects during the installation process.</p><p>For example, if a Group record was mapped with the USEEXISTING action, and the installing user changes the action to IGNORE, for objects that require a group (e.g., a Project cannot exist without a group assigned), the system default group will be assigned to that project.</p></li><li><p>If a record that was originally set to USEEXISTING is set to CREATE, there may be some adverse effects during the installation process because many Workfront entities have unique name constraints.</p><p>For example, if a "Default Group" record was mapped with the USEEXISTING action, and the installing user changes the action to CREATE, because there is already a "Default Group" the installation attempt will fail to complete all the steps. Group names must be unique.</p><p>Some entities do not have a unique name constraint. For those objects, making this change will result in two identically named records. For example, Templates, Projects, Views, Filters, Groupings, Reports, and Dashboards do not require unique name constraints. It is a best practice to have unique names for these records, but it is not enforced.</p></li></ul></p></td> 
+  </tr> 
+  </tbody> 
+</table>
 
+There is currently no support for an UPDATE `action` in the alpha capabilities of this service. The option to allow for an UPDATE `action` is something we are researching.
 
+#### URL
 
+```
+POST https://{{domain}}.{{env}}.workfront.com/environment-promotion/v1/translationmap
+```  
+ 
+#### Headers 
 
+```json
+{
+    "Authorization": "Bearer ****************",
+    "Content-Type": "application/json"
+}
+``` 
+
+#### Body
+
+```json  
+{}
+``` 
+
+#### Response
+
+```
+200
+```
+
+```json  
+{}
+``` 
 
 
 
