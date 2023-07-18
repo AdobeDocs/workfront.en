@@ -2,9 +2,10 @@
 product-area: templates
 navigation-topic: templates-navigation-topic
 title: Create template from project
-description: Create template from project
+description: You can create templates when you save an existing project as a template.
 author: Alina
-feature: Work Management
+feature: Work Management, Projects
+role: User
 exl-id: 923deab4-205b-4312-9ec4-4471fd6cea26
 ---
 # Create template from project
@@ -16,6 +17,12 @@ exl-id: 923deab4-205b-4312-9ec4-4471fd6cea26
 You can create templates when you save an existing project as a template.
 
 After you save an existing project as a template, you can use the new template to create new projects. This simplifies and expedites the project creation process.
+
+>[!NOTE]
+>
+>When saving a project as a template, the actual dates of the tasks and of the project do not save for the template. 
+>
+>A template and its tasks do not have actual dates, but rather an indication of which day (from when the future project might start) a task might start and on which day the task might need to complete. When using templates to create the future projects, the projects will receive actual dates. For information, see [Create a project](../create-projects/create-project.md).
 
 ## Access requirements
 

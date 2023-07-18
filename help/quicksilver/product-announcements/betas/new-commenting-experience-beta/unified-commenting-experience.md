@@ -16,6 +16,15 @@ An update to the commenting experience in Adobe Workfront is currently in develo
 
 The new commenting experience will slowly become available for all the objects with an Updates section in Workfront, and later it will expand to other Adobe Experience Cloud applications.
 
+<!--  ****************UNCOMMENT THIS SECTION WHEN THE FAQs ARTICLE IS LIVE: 
+
+For additional resources for the new commenting experience, also see the following articles:
+
+* [New commenting experience release activity](../new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md)
+* [New commenting experience FAQs](../new-commenting-experience-beta/new-commenting-faq.md.draft)
+
+-->
+
 ## Features
 
 The new commenting experience includes improvements and changes to the existing update stream.
@@ -63,8 +72,6 @@ The following features have been removed from the new experience:
 >* <span class="preview">Tasks</span>
 >* <span class="preview">Documents</span>
 
-
-
 The following table illustrates the features that will be available in the new commenting experience as well as their availability in areas where they are supported: 
 
 <table>
@@ -73,7 +80,7 @@ The following table illustrates the features that will be available in the new c
    </td>
    <td><strong>Exists in old commenting experience </strong>
    </td>
-   <td><strong>Exists in Beta version of the new commenting experience </strong>
+   <td><strong>Exists in the new commenting experience </strong>
    </td>
    <td><strong>Will be introduced in the new commenting experience </strong>
    </td>
@@ -218,9 +225,9 @@ The following table illustrates the features that will be available in the new c
    </td>
    <td> 
    </td>
-   <td>
+   <td><span class="preview">✓</span>
    </td>
-   <td> ✓
+   <td> 
    </td>
    <td> 
    </td>

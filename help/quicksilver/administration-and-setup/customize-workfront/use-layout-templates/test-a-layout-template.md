@@ -4,7 +4,7 @@ user-type: administrator
 product-area: system-administration;templates
 navigation-topic: layout-templates
 description: It's important to test the newly or layout template before assigning it to users.
-author: Caroline
+author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 8786648a-3630-4aa9-8e85-9df47a9e4609

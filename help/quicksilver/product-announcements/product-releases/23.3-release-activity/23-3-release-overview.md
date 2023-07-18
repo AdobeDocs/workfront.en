@@ -19,17 +19,17 @@ The 23.3 release webinar will be held on June 29, 2023. You can [register for th
 >
 >The 23.3 release includes the option to move your organization to monthly releases. Therefore, Workfront is changing the numbering scheme of releases to account for both monthly and quarterly release tracks.
 >
->* If you are on the **fast release (monthly)** track, the release after 23.3 will be **23.8**, in August 2023. 
-> * If you are on the **quarterly** release track, the release after 23.3 will be **23.10**, in October 2023.
+>* If you are on the **fast release (monthly)** track, the release after 23.3 will be **23.8**, on August 31, 2023. 
+> * If you are on the **quarterly** release track, the release after 23.3 will be **23.10**, in the week of October 26, 2023.
 > 
 > Quarterly releases will include functionality from three monthly releases. For example, the 23.10 quarterly release will include functionality released in the 23.8, 23.9, and 23.10 monthly releases.
 >
+>Monthly and quarterly releases are planned to be available on the last Thursday of the month.
+>
 >|Monthly release|Quarterly release|
 >|----|----|
->|<ul><li>23.8 (August 2023)</li><li>23.9 (September 2023)</li><li>23.10 (October 2023)</li></ul>| <ul><li>23.10 (October 2023)</li></ul>|
+>|<ul><li>23.8 (August 31, 2023)</li><li>23.9 (September28,  2023)</li><li>23.10 (October 26, 2023)</li></ul>| <ul><li>23.10 (Week of October 26, 2023)</li></ul>|
 >|<ul><li>23.11 (November 2023)</li><li>23.12 (December 2023)</li><li>24.1 (January 2024)</li></ul>| <ul><li>24.1 (January 2024)</li></ul>|
->
->Monthly and quarterly releases are planned to be available on the last Thursday of the month.
 
 ## Adobe Workfront enhancements
     
@@ -340,7 +340,7 @@ The 23.3 release webinar will be held on June 29, 2023. You can [register for th
                             <li>
                                 <p>Production release for the Fast release customers: To be announced, after the 23.3 Production release</p>
                                 <p>Production release for all customers: With the 23.4 release<br>
-                                <span style="color: #ff0000;"> The assignment rate override feature was temporarily disabled in Preview on June 30, 2023.</span></p>
+                                <span style="color: #ff0000;"> The assignment rate override feature was temporarily disabled in Preview from June 30 to July 13, 2023.</span></p>
                             </li>
                         </ul>
                     </td>
