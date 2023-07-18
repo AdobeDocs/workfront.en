@@ -2097,7 +2097,17 @@ The designated full time equivalency for users. A full-time user should have 100
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Optimized"> 
    <td>[!UICONTROL Strategic Alignment]</td> 
    <td>Measuring and aligning company goals across portfolios and programs.</td> 
-  </tr> 
+  </tr>
+
+  <tr> 
+   <td><code>[!UICONTROL stretch]</code></td> 
+   <td><p>This is used in report columns when using the Text Mode interface. </p>
+   <p>The <code>[!UICONTROL stretch]</code> is used to identify which columns occupy extra space not needed by the view. The user interface width of the workspace for a typical user is about 850 pixels. This means that if you have a view with four
+   columns (150 pixels each) that your view occupies 600 of 850 pixels. There are 250 extra pixels in the UI that will be added to the columns that have a stretch percentage provided. </p>
+   <p>The stretch of a column is enforced when you use the additional line of code: <code>[!UICONTROL usewidths=true]</code> for at least one of the columns in the view. 
+   </td> 
+  </tr>
+
   <tr> 
    <td>[!UICONTROL Subscribers]</td> 
    <td> <p>Users that subscribe to Projects, Tasks, or Issues.</p> <p>When you use this field in a report, a list of subscribers displays, with each subscriber separated by a comma.</p> <p>For more information, see the article <a href="../../../workfront-basics/using-notifications/subscribe-to-items-in-workfront.md" class="MCXref xref">Subscribe to items in [!DNL Adobe Workfront]</a>.</p> </td> 
@@ -2299,6 +2309,17 @@ The designated full time equivalency for users. A full-time user should have 100
    <td>[!UICONTROL Views This Year]</td> 
    <td>In a report list, it displays the number of times the report has been viewed during this year.<br>For more information about usage information in report lists, see the article <a href="../../../reports-and-dashboards/reports/report-usage/view-report-usage.md">View report usage</a>.</td> 
   </tr> 
+  
+  <tr>
+  <td> <code>[!UICONTROL width]</code>
+  </td>
+<td> In a report, when using the [!UICONTROL Text Mode] interface, the line of code where you can specify the width of each column in pixels. Workfront provides a suggested width for each field,
+though depending on the type of field and format, you may want to make adjustments.
+You must use the additional <code>[!UICONTROL usewidths=true]</code> line of code to enforce the width specified for the columm. 
+  </td>
+
+  </tr>
+  
   <tr> 
    <td><code>[!UICONTROL work]</code> </td> 
    <td> <p>In a project, task, or issue report, using the following statement in text mode displays the Planned Hours of the project, task, or issue:</p>
