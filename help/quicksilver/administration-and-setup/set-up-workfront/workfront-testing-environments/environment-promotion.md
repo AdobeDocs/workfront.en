@@ -799,6 +799,220 @@ POST https://{{domain}}.{{env}}.workfront.com/environment-promotion/v1/translati
 {}
 ``` 
 
+### Execute an installation
+
+<table style="table-layout:auto"> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td><code>POST /install</code></td> 
+  </tr> 
+  </tbody> 
+</table>
+
+This call initiates an installation attempt of a promotion package into the target environment identified in the POST URL.
+
+#### Options
+
+If a `translationmap` is not provided in the POST body, the process will automatically initiate the `/translationmap` call. The `translationmap` that is returned will be used as is, with no opportunity to review or make adjustments to it.
+
+If a `translationmap` is provided in the POST body, the installation process will use the mapping provided. This gives an installing user the opportunity to review and make adjustments as necessary before executing an installation attempt.
+
+#### URL
+
+```
+POST https://{{domain}}.{{env}}.workfront.com/environment-promotion/v1/install
+```
+
+#### Headers
+
+```json
+{
+    "Authorization": "Bearer ****************",
+    "Content-Type": "application/json"
+}
+```
+
+#### Body
+
+```json
+{
+}
+```
+
+#### Response
+
+```
+200
+```
+
+
+```json
+{}
+```
+
+### Get a list of installations for a specific package
+
+<table style="table-layout:auto"> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td><code>GET /installation-history?packageId={{id}}
+</code></td> 
+  </tr> 
+  </tbody> 
+</table>
+
+The results include installation events from all environments the package has been deployed to. They are not limited to the installations for the environment through which the request is being made. This allows you to identify which environments have received this package.
+
+#### URL
+
+```
+GET https://{{domain}}.{{env}}.workfront.com/environment-promotion/v1/installation-history?packageId={{id}}
+```
+
+#### Headers
+
+```json
+{
+    "Authorization": "Bearer ****************"
+}
+```
+
+#### Body
+
+_Empty_
+
+#### Response
+
+```
+200
+```
+
+```json
+[
+    {
+        "id": "2892b936-e09e-455a-935f-e1462ab9753c",
+        "blueprintId": "4fae2b9d-d315-45f4-909f-a0c0d79fc65d",
+        "blueprintVersion": 1,
+        "userId": "8fbbc5bcf4f94a5b862483ee05573e73",
+        "customerId": "54286d78b064451096752b99bf968481",
+        "status": "COMPLETED",
+        "environment": "https://{{domain}}.{{env}}.workfront.com",
+        "registeredAt": "2021-03-16T02:21:31.908Z",
+        "updatedAt": null,
+        "translationMap": {
+            "ROLE": {
+                "5f6d114f006883209828ddd9088e63b3": {
+                    "name": "DAM Curator",
+                    "action": "USEEXISTING",
+                    "isValid": true,
+                    "targetId": "600f4bed00028a718599f29575840053"
+                },
+                "ad535a9ebe647361e053a7656a0a1575": {
+                    "name": "Copywriter",
+                    "action": "USEEXISTING",
+                    "isValid": true,
+                    "targetId": "600f162700001ca051081c06667b14a4"
+                },
+                ...
+            },
+            "TMPL": {
+                "5f9b317c00b3db5af69abcd1ed5f82aa": {
+                    "name": "Digital Asset Production (Integrated)",
+                    "action": "CREATE",
+                    "isValid": true,
+                    "targetId": "6054cda40000d5af63dc811d9c2b3a07"
+                },
+                ...
+            },
+            ...
+        }
+    },
+    {...}
+]
+```
+
+### Get the installation details for an installation
+
+<table style="table-layout:auto"> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td><code>GET /installation-history/{{id}}</code></td> 
+  </tr> 
+  </tbody> 
+</table>
+
+This call will return the final `translationMap` produced by the installation service for a specific installation.
+
+Each record will state what the prescribed `action` was and whether that action was successful or not.
+
+For records with a CREATE `action` the `targetId` field will be set with the value of the newly created record in the target system. Additionally, the `installationStatus` field will be set to INSTALLED.
+
+For records with the USEEXISTING `action` the `targetId` field will also be set, and the `installationStatus` field will be set to REGISTERED. This signifies that the mapping process was complete and the installation service acknowledges that it has evaluated the record and there is nothing to act on.
+
+If the record has a CREATE `action` but it fails to successfully create the record, then the `installationStatus` will be set to FAILED and the reason for the failure will also be provided.
+
+#### URL
+
+```
+GET https://{{domain}}.{{env}}.workfront.com/environment-promotion/v1/installation-history/{{id}}
+```
+
+#### Headers
+
+```json
+{
+    "Authorization": "Bearer ****************"
+}
+```
+
+#### Body
+
+_Empty_
+
+#### Response
+
+```
+200
+```
+
+```json
+{
+    "id": "2892b936-e09e-455a-935f-e1462ab9753c",
+    "blueprintId": "4fae2b9d-d315-45f4-909f-a0c0d79fc65d",
+    "blueprintVersion": 1,
+    "userId": "8fbbc5bcf4f94a5b862483ee05573e73",
+    "customerId": "54286d78b064451096752b99bf968481",
+    "status": "COMPLETED",
+    "environment": "https://{{domain}}.{{env}}.workfront.com",
+    "registeredAt": "2021-03-16T02:21:31.908Z",
+    "updatedAt": null,
+    "translationMap": {
+        "ROLE": {
+            "5f6d114f006883209828ddd9088e63b3": {
+                "name": "DAM Curator",
+                "action": "USEEXISTING",
+                "isValid": true,
+                "targetId": "600f4bed00028a718599f29575840053"
+            },
+            ...
+        },
+        "TMPL": {
+            "5f9b317c00b3db5af69abcd1ed5f82aa": {
+                "name": "Digital Asset Production (Integrated)",
+                "action": "CREATE",
+                "isValid": true,
+                "targetId": "6054cda40000d5af63dc811d9c2b3a07"
+            },
+            ...
+        },
+        ...
+    }
+}
+```
+
 
 
 <!--table templates
