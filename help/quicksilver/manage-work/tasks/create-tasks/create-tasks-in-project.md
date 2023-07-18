@@ -17,8 +17,8 @@ For information about creating personal tasks that are not in a project, see the
 
 This article describes how you create tasks from scratch. You can also create tasks in the following ways:
 
-* By copying or duplicating existing tasks.&nbsp;For information, see [Copy and duplicate tasks](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md).
-* By moving tasks from one project to another.&nbsp;For information, see [Move tasks](../../../manage-work/tasks/manage-tasks/move-tasks.md).
+* By copying or duplicating existing tasks. For information, see [Copy and duplicate tasks](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md).
+* By moving tasks from one project to another. For information, see [Move tasks](../../../manage-work/tasks/manage-tasks/move-tasks.md).
 
 ## Access requirements
 
@@ -83,7 +83,7 @@ You must have the following access to perform the steps in this article:
 1. (Conditional) If you are currently viewing the task list in an agile view, click the **List View** icon ![](assets/list-view-in-agile-view-for-tasks.png) in the upper-right corner to display the task list. 
 1. (Optional) Click the **Plan Mode** icon ![](assets/nwe-plan-mode-icon-task-list.png) and select **Manual Save**, then select either **Standard** or **Timeline Planning**. This disables the **Autosave** option which is enabled by default.
 
-   ![](assets/nwe-autosave-off-manual-highlighted-350x58.png)
+   ![Select Manual Save](assets/manual-save-option.png)
 
    >[!TIP]
    >

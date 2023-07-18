@@ -61,7 +61,7 @@ You must have the following to follow the steps in this article:
 
 1. Click the **[!UICONTROL Gantt chart]** icon.
 
-   ![](assets/qs-gantt-icon-on-task-list-highlighted-350x199.png)
+   ![Click the Gantt Chart icon](assets/click-gantt-chart-icon.png)
 
    All changes are saved automatically when the **[!UICONTROL Autosave]** option is enabled. It is enabled by default. 
 
