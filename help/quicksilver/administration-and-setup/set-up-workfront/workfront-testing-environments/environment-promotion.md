@@ -361,6 +361,241 @@ _Empty_
 }
 ```
 
+### Get a package's configuration definition
+
+<table style="table-layout:auto"> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td><code>GET /packages/{{id}}/definition</code></td> 
+  </tr> 
+  </tbody> 
+</table>
+
+#### URL
+
+```
+GET https://{{domain}}.{{env}}.workfront.com/environment-promotion/v1/packages/{{id}}/definition
+```
+
+#### Headers
+
+```json
+{
+    "Authorization": "Bearer ****************"
+}
+```
+
+#### Body
+
+_Empty_
+
+#### Response
+
+```
+200
+```
+
+```json
+{
+    "metadata": {
+        "displayOrder": ["GROUP","ROLE","TMPL","PROJ","PTLTAB"], 
+        "historyOrder": ["GROUP","ROLE","TMPL","TTSK","PROJ","PTLTAB"], 
+        "installOrder": ["GROUP","ROLE","TMPL","TTSK","TPRED","TASSGN","PROJ","QUED","RRUL","QUET","UIFT","UIGB","UIVW","PTLTAB"], 
+        "summaryOrder": ["GROUP","ROLE","TMPL"], 
+        "shapeVersion": 2
+    },
+    "packageEntities": {
+        "GROUP": [
+           {
+               "id": "52aa9d0e0005fcee8f212835bdaa2691",
+               "name": "Default Group",
+               "businessLeaderID": "...",
+               "categoryID": "...",
+               "defaultInterface": 1,
+               "description": "...",
+               "extRefID": null,
+               "isActive": true,
+               "isGroupPublic": true,
+               "isPublic": true,
+               "parentID" null,
+               "rootID": null,
+               "rootName": null,
+               "uiTemplateID": null
+           }
+        ],
+        "ROLE": [
+           {...}
+        ],
+        ...
+    }
+}
+```
+
+### Replace a package details and definition
+
+<table style="table-layout:auto"> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td><code>PUT /packages/{{id}}</code></td> 
+  </tr> 
+  </tbody> 
+</table>
+
+This call replaces all contents of the promotion package.
+
+The request expects all editable fields to be provided.
+
+The editable attributes are:
+
+1. name (string)
+2. description (string)
+3. source (string with URL validation)
+4. status (string with value validation)
+5. version (integer)
+6. metadata (collection)
+7. packageEntities (collection)
+
+Status options include:
+
+<table style="table-layout:fixed"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td>EXTRACTING</td> 
+   <td><p>This status is automatically assigned while objects are being assembled.</p><p>This status cannot be set by a customer directly.</p></td> 
+  </tr> 
+  <tr> 
+   <td>BUILDING</td> 
+   <td><p>This status is assigned at the conclusion of an assembly process or when creating an empty promotion package.</p><p>It is possible for a customer to move the promotion package back to this status.</p><p>While in this status the promotion package cannot be installed in any environment.</p></td> 
+  </tr> 
+  <tr> 
+   <td>PREVIEW</td> 
+   <td><p>This status allows a promotion package to be installed in any Preview or Custom Refresh sandbox. While in this status the package cannot be installed in Production.</p></td> 
+  </tr> 
+  <tr> 
+   <td>PUBLIC</td> 
+   <td><p>This status allows a promotion package to be installed in any environment, including Production.</p><p>When a package status is set to PUBLIC, the <code>publishedAt</code> date is automatically set to the current timestamp of the request.</p></td> 
+  </tr> 
+  <tr> 
+   <td>RETIRED</td> 
+   <td><p>This status will be used to hide previously used promotion packages that will not be installed into any environment in the future.</p><p>When a package is in this status, it cannot be installed into any environment.</p><p>When a package status is set to RETIRED, the <code>retiredAt</code> date is automatically set to the current timestamp of the request.</p><p>Using this status is recommended over using the<code>DELETE /package</code> endpoint because it is retrievable and the installation history is retained for any deployments made with this package.</p></td> 
+  </tr> 
+  </tbody> 
+</table>
+
+#### URL
+
+```
+PUT https://{{domain}}.{{env}}.workfront.com/environment-promotion/v1/packages/{{id}}
+```
+
+#### Headers
+
+```json
+{
+    "Authorization": "Bearer ****************",
+    "Content-Type": "application/json"
+}
+```
+
+#### Body
+
+```json
+{
+    "packageName": "Agency Onboarding - 2023-06-06",
+    "description": "This promotion package contains configuration to support the agency onboarding processes... with a description change",
+    "source": "https://{{domain}}.{{env}}.workfront.com",
+    "status": "PREVIEW",
+    "version": 1,
+    "metadata": {
+        "displayOrder": ["GROUP","ROLE","TMPL","PROJ","PTLTAB"],
+        "historyOrder": ["GROUP","ROLE","TMPL","TTSK","PROJ","PTLTAB"], 
+        "installOrder": ["GROUP","ROLE","TMPL","TTSK","TPRED","TASSGN","PROJ","QUED","RRUL","QUET","UIFT","UIGB","UIVW","PTLTAB"], 
+        "summaryOrder": ["GROUP","ROLE","TMPL"], 
+        "shapeVersion": 2
+    },
+    "packageEntities": {
+        "GROUP": [
+           {
+               "id": "52aa9d0e0005fcee8f212835bdaa2691",
+               "name": "Default Group",
+               "businessLeaderID": "...",
+               "categoryID": "...",
+               "defaultInterface": 1,
+               "description": "...",
+               "extRefID": null,
+               "isActive": true,
+               "isGroupPublic": true,
+               "isPublic": true,
+               "parentID" null,
+               "rootID": null,
+               "rootName": null,
+               "uiTemplateID": null
+           }
+        ],
+        "ROLE": [
+           {...}
+        ],
+        ...
+    }
+}
+```
+
+#### Response
+
+```
+200
+```
+
+```json
+{
+    "data": {
+        "id": "1d5693b9-b7b5-492d-8219-c21f34bcaca6",
+        "name": "Agency Onboarding - 2023-06-06",
+        "description": "This promotion package contains configuration to support the agency onboarding processes...",
+        "status": "PREVIEW",
+        "version": 1,
+        "installationCounts": {},
+        "createdAt": "2023-06-06T17:29:21.600Z",
+        "createdById": "61aa9d0e0005fcee8f212835bdaa2619",
+        "publishedAt": null,
+        "isPrivate": true,
+        "customerId": "61aa9d090005fa42152c1cb66659f38d",
+        "metadata": {
+            "displayOrder": ["GROUP","ROLE","TMPL","PROJ","PTLTAB"], 
+            "historyOrder": ["GROUP","ROLE","TMPL","TTSK","PROJ","PTLTAB"], 
+            "installOrder": ["GROUP","ROLE","TMPL","TTSK","TPRED","TASSGN","PROJ","QUED","RRUL","QUET","UIFT","UIGB","UIVW","PTLTAB"], 
+            "summaryOrder": ["GROUP","ROLE","TMPL"], 
+            "shapeVersion": 2
+        },
+        "displayEntities": {
+            "GROUP": [
+               {
+                   "id": "52aa9d0e0005fcee8f212835bdaa2691",
+                   "name": "Default Group",
+                   "description": "..."
+               }
+            ],
+            "ROLE": [
+               {...}
+            ],
+            ...
+        }
+   }
+}
+```
+
+
+
+
+
+
+
+
+
 <!--table templates
 
 <table style="table-layout:auto"> 
@@ -376,7 +611,7 @@ _Empty_
  <col> 
  <tbody> 
   <tr> 
-   <td><b></b</td> 
+   <td><b></b></td> 
   </tr> 
   <tr> 
    <td><pre></pre></td> 
