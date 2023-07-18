@@ -305,16 +305,16 @@ Each row of the sheet corresponds to a unique object.
 
 1. Complete the cell in the **ID** column in one of the following ways:
 
-   * If the object you are importing is new (and you typed**TRUE** in the **isNew** column), specify any number for the ID. This number must be unique in the spreadsheet.
+   * If the object you are importing is new (and you typed **TRUE** in the **isNew** column), specify any number for the ID. This number must be unique in the spreadsheet.
    
-   * If the object you are importing already exists in the Workfront system (and you typed**FALSE** in the **isNew** column), the ID must be the alpha-numeric GUID that exists in Workfront for that object.
+   * If the object you are importing already exists in the Workfront system (and you typed **FALSE** in the **isNew** column), the ID must be the alpha-numeric GUID that exists in Workfront for that object.
    
      **Example:** For a project, the value displayed in the **setGroupID** column must one of the following:
 
       * The GUID for an existing Group in your Workfront instance
       * The value (number) in the ID column on the **GROUP Group** sheet if you are creating a new Group during the import
 
-        ![](assets/verysimplekickstartprojectimport-350x31.png)
+        ![Sample ID for a Group](assets/kick-start-group-example.png)
 
 1. Input values for the required fields and any other fields you want to populate during the import.
 1. (Optional) To add custom data:
@@ -414,7 +414,7 @@ Though it is a best practice to use IDs whenever possible, sometimes it's inconv
 
      For role assignments to new role records, input the ID you assigned on the ROLE Role sheet in the setRoleID.
 
-     ![](assets/setroleid-350x66.png)
+     ![Role ID for users](assets/set-role-id.png)
 
 ## Import the spreadsheet data into Workfront
 
