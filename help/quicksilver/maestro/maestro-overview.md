@@ -94,7 +94,7 @@ Additionally, Maestro can link to object types from other systems, creating a co
 
 Although Maestro is part of Workfront, it comes with proprietary concepts and terminology. Ensure you are familiar with the Maestro concepts before embarking on setting up Maestro for your organization. 
 
-The work frame for Maestro is fully customizable. You can create all record types, their attributes, and any fields associated with them to suit the exact needs of your organization. 
+The framework for Maestro is fully customizable. You can create all record types, their attributes, and any fields associated with them to suit the exact needs of your organization. 
 
 The following are the main Maestro objects and concepts: 
 
@@ -136,7 +136,7 @@ The following are the main Maestro objects and concepts:
 
         <!-- For more information, see [Create a taxonomy](../maestro/architecture-and-fields/create-a-taxonomy.md).-->
 
-* **Record**: An instance of a Maestro record type. 
+* **Record**: An instance of a Maestro record type. A record could refer to an operational record type or to a taxonomy. 
 
     ![](assets/records-highlighted-in-campaign-record-type-list.png)
     ![](assets/records-highlighted-in-region-taxonomy-type-list.png)
@@ -155,7 +155,7 @@ The following are the main Maestro objects and concepts:
 
     ![](assets/workspaces-page-with-templates-thumbnails.png)
 
-    Maestro comes with Sales, Marketing, and Product Management workspace template. 
+    Maestro comes with a Sales, Marketing, and Product Management workspace template. 
     
     <!--For more information, see [Create workspaces](../maestro/architecture-and-fields/create-workspaces.md). -->
 
@@ -179,23 +179,27 @@ The following are the main Maestro objects and concepts:
 
     The following are types of fields you can associate with Maestro record types:  
 
+    * Relationship
+    * Single-line text 
+    * Paragraph   
+    * Multi-select 
+    * Single-select 
+    * Date 
     * Number 
     * Percentage 
-    * Currency 
-    * Single-line text 
-    * Paragraph 
-    * Single-select 
-    * Multi-select 
-    * Date 
-    * Relationship
+    * Currency
+    * Checkbox  
+   
+* **Linked records**:  You can establish a connection between record types by adding a Relationship-type field to a record type. You can link two Maestro records, or a Maestro record with Workfront projects. 
 
-    >[!TIP]
-    >
-    >    * You can establish a connection between record types by adding a Relationship-type field to a record type. With this connection, you can reference the records and the fields of the linked record types from the original record type. 
-    >
-    >    <!--not yet:* Fields are reusable across Record Types.  -->
+    ![](assets/linked-field-drop-down-menu-with-projects.png)
 
-    <!--For more information, see [Create fields](../maestro/architecture-and-fields/create-fields.md)-->  
+* **Linked fields**: After establishing the connection between two records, you can reference the linked records' fields on the record you are connecting from.
+
+    ![](assets/linked-fields-highlighted-when-adding-relationship-field.png)
+
+<!--not yet:* Fields are reusable across Record Types.  -->
+<!--For more information, see [Create fields](../maestro/architecture-and-fields/create-fields.md)-->  
 
 * **Views**: Records display under their respective record type page in different types of views. 
 
@@ -205,11 +209,11 @@ The following are the main Maestro objects and concepts:
     
     The following are view types that you can apply to the record type page: 
 
-    * Table view. This is the default. 
+    * **Table view**: The rows of the table are the individual records, and the columns are the record fields. This is the default view. 
 
         ![](assets/table-view-example.png)
 
-    * Timeline view 
+    * **Timeline view**: Displays records that have at least two Date fields in a chronological timeline. 
 
         ![](assets/timeline-view-example.png)
 
@@ -289,7 +293,7 @@ To locate Maestro:
 
     1. Create a Timeline view from the **View** drop-down menu in the upper-right corner of the record type page. 
 
-    1. Customize the timeline view by updating Filters, Groupings, or Settings. 
+    1. Customize the timeline view by updating Filters, Groupings, or Settings.  
 
 
 ## Features currently available in Maestro
@@ -317,6 +321,7 @@ The following table illustrates the main features that will be available in Maes
 | Access levels and permissions | | | ✓ |
 |     Submit requests                                |                               |                                  |   ✓              |
 |     Creative brief                                 |                               |                                  |   ✓              |
+|     Customize the color and icon of a record                                 |      ✓                         |                                  |                 |
 
 ## Maestro release activity 
 
