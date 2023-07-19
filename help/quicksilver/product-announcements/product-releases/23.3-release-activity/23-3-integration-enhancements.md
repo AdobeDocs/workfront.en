@@ -44,6 +44,8 @@ For more information, see [View and Manage [!DNL Adobe Workfront] notifications 
 
 For information on installing the Workfront for Creative Cloud plugins, see [Install the Adobe Workfront plugin for Creative Cloud Applications](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-toc.md).
 
+<!--
+
 ## Improved experience when moving a document to a linked folder with drag and drop
 
 We've added some transparency to the process of dragging and dropping a document into a linked folder. Now, the document that you moved to a linked folder remains in the document list until it has fully moved. The document options are disabled, but you can still open the document for view while it is moving. When the document has completed the transfer, it disappears from the document list, because it is now fully located in the linked folder.
@@ -51,6 +53,8 @@ We've added some transparency to the process of dragging and dropping a document
 Previously, documents would immediately disappear from the document list, before they had finished moving to the linked folder.
 
 For more information, see [Link documents from external applications](/help/quicksilver/documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
+
+-->
 
 ## Automatically create linked folders to Adobe Experience Manager Assets when creating a project
 
