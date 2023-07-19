@@ -391,7 +391,7 @@ To log time in the Updates section of a project, task, or issue:
    >   
    >   There is an indication in the upper-right corner of the Enter Days box of how many hours are included in a day. 
 
-   >![](assets/log-time-box-in-updates-stream.png)
+   ![](assets/log-time-box-in-updates-stream.png)
 
 1. Specify the following information:
 
