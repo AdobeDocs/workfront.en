@@ -121,7 +121,7 @@ You must have the following access to perform the steps in this article:
       * Task Name
       * Overview
       * Assignments
-      * Custom&nbsp;Forms
+      * Custom Forms
       * Finance
       * Settings
 
