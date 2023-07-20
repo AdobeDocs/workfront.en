@@ -37,7 +37,7 @@ Consider the following when creating recurring tasks in Workfront:
 * You cannot add a recurrence frequency to an existing task. 
 * Recurring tasks appear as subtasks or children for the main occurrence which appears as the parent task. 
 * You cannot attach an approval to a parent recurring task. 
-* Workfront transfers most fields that you update for the parent recurrence when creating it to the children tasks.&nbsp;The following fields do not transfer to the children tasks when they are created:
+* Workfront transfers most fields that you update for the parent recurrence when creating it to the children tasks. The following fields do not transfer to the children tasks when they are created:
 
    * The Task Constraint of the children tasks automatically changes to:
 
@@ -49,11 +49,12 @@ Consider the following when creating recurring tasks in Workfront:
 * The following changes occur on the parent task after you indicate that the task is recurring:
 
    * The Duration field is renamed to Duration per Occurrence for the parent task. It remains Duration for the children tasks. 
-   * Status is disabled on the parent task and it is automatically set to New on the children. The parent task automatically completes and the status updates to&nbsp;Complete when all children are completed. 
+   * Status is disabled on the parent task and it is automatically set to New on the children. The parent task automatically completes and the status updates to Complete when all children are completed. 
    * The only Duration Types available for recurring tasks are:
 
       * Simple
       * Effort Driven
+* The Duration and the Planned Hours indicated for a new recurring task are the Duration and the Planned Hours of each recurrence. The Duration of the parent task is the time between the Planned Start Date of the earliest task and the Planned Completion Date of the latest task. The Planned Hours of the parent task is the total of all Planned Hours from all the recurrences.
 
 ## Considerations for editing recurring tasks
 

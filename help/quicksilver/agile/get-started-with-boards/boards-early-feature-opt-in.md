@@ -152,7 +152,7 @@ The following table outlines major features of boards along with their current r
   </tr>
   <tr>
    <td>Define email notifications for Boards</td>
-   <td>Partially released</td>
+   <td>Released</td>
   </tr>
   <tr>
    <td>Migrate legacy Kanban cards to Boards</td>
@@ -160,19 +160,19 @@ The following table outlines major features of boards along with their current r
   </tr>
   <tr>
    <td>Create dynamic boards</td>
-   <td>Partially released</td>
+   <td>Released</td>
   </tr>
   <tr>
    <td>Use left navigation on card details</td>
-   <td>Partially released</td>
+   <td>Released</td>
   </tr>
   <tr>
    <td>Use simplified filters on the intake column</td>
-   <td>Partially released</td>
+   <td>Released</td>
   </tr>
   <tr>
    <td>Use comments on ad hoc and connected cards</td>
-   <td>Partially released</td>
+   <td>Released</td>
   </tr>
  </tbody> 
 </table>

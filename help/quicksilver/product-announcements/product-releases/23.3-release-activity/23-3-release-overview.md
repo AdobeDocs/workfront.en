@@ -7,11 +7,9 @@ exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
 ---
 # 23.3 release overview
 
-This page provides information about functionality that is included in the 23.3 release scheduled for the week of July 17, 2023. 
+This page provides information about functionality that is included in the 23.3 release. These enhancements were made available in the Production environment with the 23.3 release on July 20 and 21, 2023.
 
-The enhancements on this page are available in the Preview environment. This page will be updated with additional enhancements as the 23.3 release nears its planned Production release.
-
-The 23.3 release webinar will be held on June 29, 2023. You can [register for the webinar here](https://webinars.on24.com/adobe_workfront/whatsnewin233?partnerref=exlreleaseoverview).
+The 23.3 release webinar was on June 29, 2023. You can [register for the webinar to view an on-demand recording here](https://webinars.on24.com/adobe_workfront/whatsnewin233?partnerref=exlreleaseoverview).
 
 <span class="preview">Off-cycle features (those releasing to Production prior to the 23.3 release date) are highlighted in yellow.</span>
 
@@ -110,7 +108,7 @@ The 23.3 release webinar will be held on June 29, 2023. You can [register for th
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Agile View of a project displays a kanban board</a><span style="color: #ff0000;"> New in Preview!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Agile View of a project displays a kanban board</a></p>
                         <p>The Agile View of a project now includes additional functionality to filter, group, and sort work in a kanban board. The new, flexible design of the view includes a robust search feature and the ability to add new tasks to the project directly from the board.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
@@ -126,7 +124,7 @@ The 23.3 release webinar will be held on June 29, 2023. You can [register for th
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Sort by board columns</a><span style="color: #ff0000;"> New in Preview!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Sort by board columns</a></p>
                         <p>We have added the ability to sort the cards in the columns on a board. When you select an option to sort by, all columns are sorted. You can't sort a single column, and the backlog or intake column is not sorted.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
@@ -183,7 +181,7 @@ The 23.3 release webinar will be held on June 29, 2023. You can [register for th
                                 <p>Preview release: June 15, 2023</p>
                             </li>
                             <li>
-                                 <p>Production release for early opt-in: June 22, 2023 <span style="color: #ff0000;"> This feature is available in Production only through the early feature opt-in for Workfront Boards.</span></p>
+                                 <p>Production release for early opt-in: June 22, 2023 <span style="color: #ff0000;"> This feature is available in Production on this date only through the early feature opt-in for Workfront Boards.</span></p>
                                 <p>Production release for all customers: With the 23.3 release</p>
                             </li>
                         </ul>
@@ -216,7 +214,7 @@ The 23.3 release webinar will be held on June 29, 2023. You can [register for th
                                 <p>Preview release: May 10, 2023<br /></p>
                             </li>
                             <li>
-                                 <p>Production release for early opt-in: May 10, 2023 <span style="color: #ff0000;"> This feature is available in Production only through the early feature opt-in for Workfront Boards.</span></p>
+                                 <p>Production release for early opt-in: May 10, 2023 <span style="color: #ff0000;"> This feature is available in Production on this date only through the early feature opt-in for Workfront Boards.</span></p>
                                 <p>Production release for all customers: With the 23.3 release</p>
                             </li>
                         </ul>
@@ -233,7 +231,7 @@ The 23.3 release webinar will be held on June 29, 2023. You can [register for th
                                 <p>Preview release: April 27, 2023<br /></p>
                             </li>
                             <li>
-                                 <p>Production release for early opt-in: April 28, 2023 <span style="color: #ff0000;"> This feature is available in Production only through the early feature opt-in for Workfront Boards.</span></p>
+                                 <p>Production release for early opt-in: April 28, 2023 <span style="color: #ff0000;"> This feature is available in Production on this date only through the early feature opt-in for Workfront Boards.</span></p>
                                 <p>Production release for all customers: With the 23.3 release</p>
                             </li>
                         </ul>
@@ -250,7 +248,7 @@ The 23.3 release webinar will be held on June 29, 2023. You can [register for th
                                 <p>Preview release: April 20, 2023<br /></p>
                             </li>
                             <li>
-                                 <p>Production release for early opt-in: April 28, 2023 <span style="color: #ff0000;"> This feature is available in Production only through the early feature opt-in for Workfront Boards.</span></p>
+                                 <p>Production release for early opt-in: April 28, 2023 <span style="color: #ff0000;"> This feature is available in Production on this date only through the early feature opt-in for Workfront Boards.</span></p>
                                 <p>Production release for all customers: With the 23.3 release</p>
                             </li>
                         </ul>
@@ -267,7 +265,7 @@ The 23.3 release webinar will be held on June 29, 2023. You can [register for th
                                 <p>Preview release: April 20, 2023<br /></p>
                             </li>
                             <li>
-                                 <s><p>Production release for early opt-in: April 28, 2023 <span style="color: #ff0000;"> This feature is available in Production only through the early feature opt-in for Workfront Boards.</span></p></s>
+                                 <s><p>Production release for early opt-in: April 28, 2023 <span style="color: #ff0000;"> This feature is available in Production on this date only through the early feature opt-in for Workfront Boards.</span></p></s>
                                  </li>
                                  <li>
                                 <p><span class="preview">Production release for all customers: May 18, 2023</span></p>
@@ -302,7 +300,7 @@ The 23.3 release webinar will be held on June 29, 2023. You can [register for th
                                 <p>Preview release: April 13, 2023<br /></p>
                             </li>
                             <li>
-                                 <p>Production release for early opt-in: April 13, 2023 <span style="color: #ff0000;"> This feature is available in Production only through the early feature opt-in for Workfront Boards.</p>
+                                 <p>Production release for early opt-in: April 13, 2023 <span style="color: #ff0000;"> This feature is available in Production on this date only through the early feature opt-in for Workfront Boards.</p>
                                 <p>Production release for all customers: With the 23.3 release</p>
                             </li>
                         </ul>
@@ -329,7 +327,7 @@ The 23.3 release webinar will be held on June 29, 2023. You can [register for th
                  </tr>   
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-finance-enhancements.md" class="MCXref xref" xrefformat="{para}">Date effective cost and billing rates</a><span style="color: #ff0000;"> New in Preview!</span> </p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-finance-enhancements.md" class="MCXref xref" xrefformat="{para}">Date effective cost and billing rates</a></p>
                         <p>Date effective cost and billing rates are now available on the company, user, and job role objects in Workfront. When date effective rates are applied to a project, and hours are logged on project tasks, the costs and revenue are calculated using the specified rates for each time period.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
@@ -340,7 +338,7 @@ The 23.3 release webinar will be held on June 29, 2023. You can [register for th
                             <li>
                                 <p>Production release for the Fast release customers: To be announced, after the 23.3 Production release</p>
                                 <p>Production release for all customers: With the 23.4 release<br>
-                                <span style="color: #ff0000;"> The assignment rate override feature was temporarily disabled in Preview from June 30 to July 13, 2023.</span></p>
+                                The assignment rate override feature was temporarily disabled in Preview from June 30 to July 13, 2023.</p>
                             </li>
                         </ul>
                     </td>
@@ -412,7 +410,7 @@ The 23.3 release webinar will be held on June 29, 2023. You can [register for th
                         </ul>
                     </td>
                 </tr>                
-                <tr>
+ <!--               <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Improved experience when moving a document to a linked folder with drag and drop</a></p> 
                         <p>We've added some transparency to the process of dragging and dropping a document into a linked folder. Now, the document that you moved to a linked folder remains in the document list until it has fully moved. The document options are disabled, but you can still open the document for view while it is moving. When the document has completed the transfer, it disappears from the document list, because it is now fully located in the linked folder. </p>
@@ -427,7 +425,7 @@ The 23.3 release webinar will be held on June 29, 2023. You can [register for th
                             </li>
                         </ul>
                     </td>
-                </tr>
+                </tr>-->
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Automatically create linked folders to Adobe Experience Manager Assets when creating a project</a></p>
@@ -600,7 +598,7 @@ The 23.3 release webinar will be held on June 29, 2023. You can [register for th
                 </tr>
             <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-other-enhancements.md" class="MCXref xref" xrefformat="{para}">New Home experience</a><span style="color: #ff0000;"> New in Preview!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-other-enhancements.md" class="MCXref xref" xrefformat="{para}">New Home experience</a></p>
                         <p>To better enable users of all types to utilize Workfront for their specific needs, Home has received a major update! The New Home experience offers visual and content customization for your Home page, providing the flexibility to display only the information that is most relevant to your work.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>

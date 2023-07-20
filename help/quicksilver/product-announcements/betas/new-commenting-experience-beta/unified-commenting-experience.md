@@ -10,7 +10,7 @@ exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
 ---
 # New commenting experience
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers only in the Preview environment.</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers only in the Preview environment.</span>-->
 
 An update to the commenting experience in Adobe Workfront is currently in development. This update includes a new interface, new features, and improved performance in the Updates section of select objects. 
 
@@ -68,9 +68,9 @@ The following features have been removed from the new experience:
 >
 >You can view comments and system updates on these objects prior to June 2022 when viewing the Updates section in the current experience:
 >* Issues
->* <span class="preview">Projects</span>
->* <span class="preview">Tasks</span>
->* <span class="preview">Documents</span>
+>* Projects
+>* Tasks
+>* Documents
 
 The following table illustrates the features that will be available in the new commenting experience as well as their availability in areas where they are supported: 
 
@@ -153,7 +153,7 @@ The following table illustrates the features that will be available in the new c
    </td>
    <td>✓ 
    </td>
-   <td> <span class="preview">✓</span>
+   <td> ✓
    </td>
    <td> 
    </td>
@@ -209,7 +209,7 @@ The following table illustrates the features that will be available in the new c
    </td>
    <td> 
    </td>
-   <td><span class="preview">✓</span>
+   <td>✓
    </td>
    <td> 
    </td>
@@ -225,7 +225,7 @@ The following table illustrates the features that will be available in the new c
    </td>
    <td> 
    </td>
-   <td><span class="preview">✓</span>
+   <td>✓
    </td>
    <td> 
    </td>
@@ -324,7 +324,7 @@ The following table illustrates the features that will be available in the new c
    </td>
    <td>✓ 
    </td>
-   <td><span class="preview">✓</span>
+   <td>✓
    </td>
    <td> 
    </td>
@@ -366,7 +366,7 @@ The following table illustrates the features that will be available in the new c
    </td>
    <td>✓ 
    </td>
-   <td><span class="preview">✓</span> 
+   <td>✓
    </td>
    <td> 
    </td>
@@ -485,7 +485,7 @@ The new commenting experience is currently supported for the following objects, 
 
 * When enabling the Beta experience in the Updates section: 
 
-    * Issues, <span class="preview">projects, tasks, and documents</span>
+    * Issues, projects, tasks, and documents
 
     For more information about managing updates for Workfront objects, see [Update work](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). 
  

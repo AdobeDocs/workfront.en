@@ -62,21 +62,22 @@ Based on how this setting is configured, the availability of the users in the Re
     For more information about schedules, including the Default Schedule, see [Create a schedule](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
 
   * The **Available FTE** for the user in the Resource Planner is the same as the user FTE specified in the user settings.
+    
     For example, if the user FTE is 0.5 in the user settings, the available FTE of the user is 0.5 in the Resource Planner. For more information about the value of the user FTE as it displays in the user settings, see [Edit a user's profile](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
 * **The User's Schedule**: The Schedule of the user is used to determine the availability of the user in the Resource Planner. The value of the user FTE is ignored. In this case:
 
   * The **Available Hours** in the Resource Planner are the same as the Hours from the Schedule of the user.
   
-  For example, if the Schedule of the user has 40 hours a week available for work, the user is available to work for 40 hours a week in the Resource Planner.
+    For example, if the Schedule of the user has 40 hours a week available for work, the user is available to work for 40 hours a week in the Resource Planner.
   
   * The **Available FTE** in the Resource Planner is calculated by the following formula:
   
-  `User Available FTE = Hours from the Schedule of the User/ Default Schedule Hours`
+    `User Available FTE = Hours from the Schedule of the User/ Default Schedule Hours`
   
-  For example, if the Schedule of the user has 20 hours available to work, and the Default Schedule in Workfront has 40 hours available to work, the user's FTE is 0.5.
+    For example, if the Schedule of the user has 20 hours available to work, and the Default Schedule in Workfront has 40 hours available to work, the user's FTE is 0.5.
   
-  For more information about schedules, including the Default Schedule, see [Create a schedule](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
+    For more information about schedules, including the Default Schedule, see [Create a schedule](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
 
 >[!NOTE]
 >
@@ -108,7 +109,7 @@ For this example, we are using the following numbers:
 
 * A system Default Schedule of 40 hours 
 * A user Schedule of 20 Hours 
-* A user FTE of 0.75
+* A user FTE of 0.8
 
 | Method for FTE Calculation (System Setting) |**Hours from User's Schedule** |**Hours from the Default Schedule** |**User FTE field** |**Available Hours in the Resource Planner** |**Available FTE in the Resource Planner** |
 |---|---|---|---|---|---|
