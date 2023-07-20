@@ -1,7 +1,7 @@
 filename,title,feature,topic,role,level
 ./metadata.md,,,,,
 ./help/quicksilver/TOC.md,,,,User,
-help/quicksilver/home.md,'[!DNL Adobe Workfront] documentation',,,,
+help/quicksilver/home.md,'[!DNL Adobe Workfront] documentation',Get Started with Workfront,,,
 help/quicksilver/product-announcements/product-announcements.md,Product announcements,Product Announcements,,,
 help/quicksilver/product-announcements/product-releases/product-releases.md,Product releases,Product Announcements,,,
 help/quicksilver/product-announcements/product-releases/workfront-release-schedule.md,Adobe Workfront release schedule and process,Product Announcements,,,
