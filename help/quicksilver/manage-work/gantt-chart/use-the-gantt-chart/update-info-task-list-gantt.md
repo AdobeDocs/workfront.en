@@ -93,7 +93,7 @@ You must have the following to follow the steps in this article:
 
    The **[!UICONTROL Autosave]** option is selected by default, in which case all changes are saved automatically.
 
-   ![](assets/qs-gantt-icon-on-task-list-highlighted-350x199.png)
+   ![Click the Gantt Chart icon](assets/click-gantt-chart-icon.png)
 
 1. (Optional) Click the **[!UICONTROL Plan mode]** icon and select **[!UICONTROL Manual save Standard]** or **[!UICONTROL Timeline Planning]** to save your changes manually.
 
@@ -125,7 +125,7 @@ You must have the following to follow the steps in this article:
 
    All changes are saved automatically when the **[!UICONTROL Autosave]** option is enabled. It is enabled by default.
 
-   ![](assets/qs-gantt-icon-on-task-list-highlighted-350x199.png)
+   ![Click the Gantt Chart icon](assets/click-gantt-chart-icon.png)
 
 1. (Optional) Click the **[!UICONTROL Plan mode]** icon and select **[!UICONTROL Manual save Standard]** or **[!UICONTROL Timeline Planning]** to save your changes manually.
 
@@ -172,7 +172,7 @@ You must have the following to follow the steps in this article:
 1. Go to the project you want to modify.
 1. In the **[!UICONTROL Tasks]** area, click the **[!UICONTROL Gantt chart]** icon.
 
-   ![](assets/qs-gantt-icon-on-task-list-highlighted-350x199.png)
+   ![Click the Gantt Chart icon](assets/click-gantt-chart-icon.png)
 
    All changes are saved automatically when the **[!UICONTROL Autosave]** option is enabled. It is enabled by default. 
 
