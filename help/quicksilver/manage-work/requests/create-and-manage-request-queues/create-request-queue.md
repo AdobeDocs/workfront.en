@@ -4,7 +4,9 @@ navigation-topic: create-and-manage-request-queues
 title: Create a Request Queue
 description: You can set up a Request Queue where users can enter occasional requests that are not planned work on a project.
 author: Alina
-feature: Work Management
+feature: Work Management, Requests
+topic: Collaboration
+role: User
 exl-id: 385420aa-0962-4b67-9d0d-b153dcf302cf
 ---
 # Create a Request Queue
@@ -110,6 +112,11 @@ This article describes how to create a request queue from an existing project. H
 
 When you set up a project as a Request Queue, the project status must be Current in order to display in the Requests area of Workfront.
 
+>[!TIP]
+>
+>Your Workfront or group administrator might assign you to a custom Layout Template that might not include some of the sections described in the following steps.
+
+
 To create a Request Queue:
 
 1. Go to the project that you want to set up as a Request Queue.
@@ -118,7 +125,7 @@ To create a Request Queue:
 
    This opens the Queue Details  section .
 
-   ![](assets/classic-queue-setup-top-of-the-setup-form-350x248.png)
+   ![](assets/classic-queue-setup-top-of-the-setup-form-350x248.png)   
 
 1. Specify the following information:
 
@@ -154,8 +161,6 @@ To create a Request Queue:
 
       * **Embed Code:** Use this HTML code to embed the request queue form as an iframe within any HTML page.  
         If users are not already authenticated to Workfront when they view the page where the code is embedded, the Workfront login dialog box is displayed. After users log in, the Request Queue form is displayed.
-
-        ![](assets/share-request-queue-with-embedded-code-embedded-in-dashboard-nwe-350x210.png)
 
         >[!NOTE]
         >
@@ -198,16 +203,16 @@ To create a Request Queue:
 
      The Workfront administrator can rename the default request types. For more information about renaming the request types, see [Customize default issue types](../../../administration-and-setup/set-up-workfront/configure-system-defaults/customize-default-issue-types.md).
 
-      * Change order
+      * Bug Report
+      * Change Order
       * Issue
-      * Requests
-      * Risk
+      * Request
 
         This is a required field and you must select at least one option.
 
      >[!NOTE]
      >
-     >Request&nbsp;Types display as a selection in the Requests area only if the Request Type is selected in both the Queue Details and the Queue Topic pages. For information about setting up the Queue Details area of a project, see [Create Queue Topics](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
+     >Request Types display as a selection in the Requests area only if the Request Type is selected in both the Queue Details and the Queue Topic pages. For information about setting up the Queue Details area of a project, see [Create Queue Topics](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
 
      Each type selected here will be available on the form (you can select more than one). Selecting more than one type can help organize multiple requests coming in.  
      For example, if you are using the form on a request queue for an IT project, the following request types can come in to the queue: hardware, software, bug fixes, and issues.
@@ -283,6 +288,8 @@ To create a Request Queue:
   
    * **Custom Forms**: Select a custom form to associate with the Request Queue. Only Issue Custom Forms are available to select from this drop-down menu. All issues submitted to the Request Queue will have the selected forms associated with them.  
      If you have multiple Queue Topics associated with a Request Queue, we recommend that you associate custom forms with the Queue Topics instead. For more information about creating sub-sections for the Request Queue, see [Create Queue Topics](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
+
+     ![](assets/custom-forms-on-queue-details.png)
 
      If you have multiple custom forms associated with the Request Queue, drag and drop the forms to sort them in the desired order, in the **Reorder Forms** section.
 

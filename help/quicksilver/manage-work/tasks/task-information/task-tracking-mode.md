@@ -58,7 +58,7 @@ Workfront assumes tasks will be completed as scheduled and marks them as complet
 
 The following exceptions exist:
 
-* If the task has incomplete predecessors, it will not be automatically completed until all its predecessors are completed. 
+* If the task has incomplete predecessors, it will not be automatically completed until all its predecessors are completed. Predecessors must be enforced.  
 * If the task has a constraint of Fixed Date, the task always completes on the Planned Completion Date, regardless of whether its predecessors are completed. 
 
 >[!IMPORTANT]

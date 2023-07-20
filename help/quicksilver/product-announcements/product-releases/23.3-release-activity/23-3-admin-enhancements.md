@@ -6,7 +6,7 @@ feature: Product Announcements
 ---
 # 23.3 Administrator enhancements
 
-This page describes all administrator enhancements made with the 23.3 release to the Preview environment. These enhancements will be made available in the Production environment with the 23.3 release.
+This page describes all administrator enhancements made with the 23.3 release. These enhancements were made available in the Production environment with the 23.3 release on July 20 and 21, 2023.
 
 For a list of all changes available at this point in the 23.3 release cycle, see [23.3 Release overview](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md).
 
@@ -16,7 +16,7 @@ To allow you to receive new Workfront product features and updates more quickly,
 
 Previously, features and functionality were released on a quarterly cycle for all customers.
 
-Documentation containing more information will be available at the 23.3 release.
+For more information, see [Enable or disable the fast release process](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
 
 ## Group-level control available for "Where users can log time" timesheet and hour preference
 

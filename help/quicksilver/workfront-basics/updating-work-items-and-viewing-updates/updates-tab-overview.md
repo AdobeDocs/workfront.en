@@ -12,7 +12,7 @@ exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
 
 <!--take "Beta" references out when we remove the beta-->
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers only in the Preview environment.</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers only in the Preview environment.</span>-->
 
 >[!NOTE]
 >
@@ -21,7 +21,7 @@ exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
 >For more information about the new commenting experience, see [New commenting experience](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). 
 >
 >You can access the new experience for the following objects:
-> * Issues, <span class="preview">projects, tasks, and documents</span>.
+> * Issues, projects, tasks, and documents.
 >
 >     This is available when you enable the commenting Beta experience.
 >
@@ -109,13 +109,13 @@ Currently, you can add comments and reply to updates using the new commenting ex
      <li>Cards in the Boards area*</li>
       This is the only experience for goals and cards.
      </li> 
-     <li><span class="preview">Projects</span></li>
+     <li>Projects</li>
     </ul> </td> 
    <td> 
     <ul> 
      <li>Issues</li> 
-     <li><span class="preview">Tasks</span></li>
-     <li><span class="preview">Documents</span></li>
+     <li>Tasks</li>
+     <li>Documents</li>
      </ul> </td> 
   </tr> 
  </tbody> 
@@ -131,11 +131,11 @@ For example, when you add an update to a task, the update appears on the Updates
 
 >[!NOTE]
 >
->When enabling the new commenting Beta experience, comments display on the following higher-ranking objects: 
+>When enabling the new commenting experience, comments display on the following higher-ranking objects: 
 >
 >* Issues
->* <span class="preview">Projects</span>
->* <span class="preview">Tasks</span>
+>* Projects
+>* Tasks
 >
 >For more information, see [New commenting experience](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). 
 
@@ -226,7 +226,20 @@ If you want to see all the updates made on a user or a team, beyond the 90-day l
 
 ### Limitations when entering comments on behalf of another user
 
-Adobe Workfront administrators and group administrators can log in as other users and perform actions in Workfront such as entering comments. (For information, see [Log in as another user](../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md).) Any comments made on behalf of another user are indicated on the comment.
+Adobe Workfront administrators and group administrators can log in as other users and perform actions in Workfront such as entering comments. 
+
+For information, see [Log in as another user](../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md).
+
+Any comments made on behalf of another user are indicated on the comment.
+
+<!--might need to update this note when the new commenting experience will be the only experience; also - how will this affect the areas that will keep the old experience, like Iterations?-->
+
+>[!NOTE]
+>
+>When using the new commenting experience, the comment is added as the user who logged in as another user and there is no indication that they are adding a comment on someone else's behalf. 
+>
+>For example, if a Workfront administrator logs in as another user, the user associated with the comment is the Workfront administrator. For more information, see [New commenting experience](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). 
+
 
 A group administrator can comment on behalf of another person but cannot delete that comment. Only an Adobe Workfront administrator can delete a comment that they made on behalf of another user.
 

@@ -21,6 +21,8 @@ For general information about creating and editing a schedule, see [Create a sch
 >
 >Group administrators and users with a Plan license who can edit other users can add a system-level or a group-level schedule to another user when they are editing that user's profile.
 
+For information about how schedules are used in resource planning, see [Schedules overview](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/schedules-overview.md) and [Resource Planner overview](/help/quicksilver/resource-mgmt/resource-planning/get-started-resource-planner.md).
+
 ## Access requirements
 
 You must have the following to perform the steps in this article:

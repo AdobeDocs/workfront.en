@@ -9,8 +9,6 @@ exl-id: 26abce82-dcd9-4865-96f4-c710f7f0a0d8
 ---
 # Filter and search in a board
 
-{{highlighted-preview}}
-
 You can filter a board to display:
 
 * Cards assigned to certain people
@@ -20,7 +18,7 @@ You can filter a board to display:
 * Archived cards
 * Cards connected to a specific project
 
-<span class="preview">Sorting the board sorts all of the cards in the columns. You can't sort a single column, and the backlog or intake column is not sorted.</span>
+Sorting the board sorts all of the cards in the columns. You can't sort a single column, and the backlog or intake column is not sorted.
 
 Searching also helps you locate a specific card on the board.
 
@@ -104,8 +102,6 @@ By default, only active cards are displayed on a board. You can filter the board
 
    ![Filter by connection](assets/boards-filter-by-connection.png)
 
-<div class="preview">
-
 ## Sort on a board
 
 When you select an option to sort by, all columns are sorted. You can't sort a single column, and the backlog or intake column is not sorted.
@@ -124,8 +120,6 @@ When you select an option to sort by, all columns are sorted. You can't sort a s
    When a sort other than the default is applied, an indicator is displayed on the sort icon ![Sort applied](assets/sort-applied-boards.png).
 
    ![Sort by columns on a board](assets/sort-by-columns-in-board.png)
-
-</div>
 
 ## Search in a board
 

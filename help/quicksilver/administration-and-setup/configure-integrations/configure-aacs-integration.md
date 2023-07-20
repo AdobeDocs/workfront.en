@@ -17,7 +17,9 @@ You can connect your work with your content in [!DNL Experience Manager Assets]â
 * Track metadata for assets and folders
 * Sync project metadata between [!DNL Workfront] and [!DNL Experience Manager Assets]
 
-You can also connect several Experience Manager Assets repositories to one Workfront environment, or several Workfront environments to one Experience Manager Assets repository across Organization IDs. Follow the configuration instructions in this article for each integration you'd like to set up. 
+>[!NOTE]
+>
+>You can also connect several Experience Manager Assets repositories to one Workfront environment, or several Workfront environments to one Experience Manager Assets repository across Organization IDs. Follow the configuration instructions in this article for each integration you'd like to set up. 
 
 ## Access requirements
 

@@ -19,7 +19,7 @@ exl-id: fd45e1bc-9a35-4960-a73a-ff845216afe4
 >
 >The new [!DNL SharePoint] integration was released to production with the 22.3 release (July 2022.) Although your users can still access documents linked through the legacy [!DNL SharePoint] integration, they must use the new [!DNL SharePoint] integration to link documents from SharePoint.
 >
->* The new SharePoint integration does not requre configuration by an administrator, and can be set up by individual users. However, to ensure a smooth transition to the new SharePoint integration, a Workfront administrator must make some small settings changes in the Workfront Setup area.
+>* The new SharePoint integration does not require configuration by an administrator, and can be set up by individual users. However, to ensure a smooth transition to the new SharePoint integration, a Workfront administrator must make some small settings changes in the Workfront Setup area.
 >
 >    For information and instructions, see [Configure the legacy SharePoint integration for continued access to documents](#configure-the-legacy-sharepoint-integration-for-continued-access-to-documents) in this article.
 >    

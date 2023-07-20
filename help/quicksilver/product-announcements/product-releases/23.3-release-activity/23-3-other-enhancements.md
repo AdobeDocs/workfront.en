@@ -6,7 +6,7 @@ feature: Product Announcements
 ---
 # 23.3 Other enhancements
 
-This page describes all other enhancements made with the 23.3 release to the Preview environment. These enhancements will be made available in the Production environment with the 23.3 release. 
+This page describes all other enhancements made with the 23.3 release. These enhancements were made available in the Production environment with the 23.3 release on July 20 and 21, 2023. 
 
 For a list of all changes available at this point in the 23.3 release cycle, see [23.3 Release overview](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md).
 
@@ -24,7 +24,7 @@ New Home will be the default experience for all users upon its release. However,
 
 For more information, see [Get started with New Home in Adobe Workfront](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
 
-[View a video demonstration of this feature](https://video.tv.adobe.com/v/3420860/){target=_blank}
+[View a video demonstration of this feature](https://video.tv.adobe.com/v/3420969/){target=_blank}
 
 ## New commenting experience for additional objects
 

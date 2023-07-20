@@ -692,7 +692,7 @@ See more details at [developers.google.com/sheets/api/limits](https://developers
 ### How to get Empty Cells from a [!DNL Google Sheet] 
 
 Use the [!UICONTROL Search Rows (Advanced)] module & use this formula to get the columns which are empty.
-<pre>select * [!UICONTROL where E is null​]</pre>Here "E" is the column &amp; "is null" is the condition. You can create a more advanced query using [Google Query Lang.](https://developers.google.com/chart/interactive/docs/querylanguage)
+<pre>select * where E is null</pre>Here "E" is the column &amp; "is null" is the condition. You can create a more advanced query using [Google Query Lang](https://developers.google.com/chart/interactive/docs/querylanguage).
 
 ### Add a button in a sheet to run a scenario
 

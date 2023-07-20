@@ -5,7 +5,7 @@ content-type: overview
 product-area: system-administration;templates
 navigation-topic: layout-templates
 description: As a Workfront administrator or a group administrator, you can create and modify layout templates to customize layout elements in Workfront for your users.
-author: Caroline
+author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 53076920-3b13-4b65-85cb-38096cf2d04d

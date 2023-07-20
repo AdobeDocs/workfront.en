@@ -6,7 +6,7 @@ feature: Product Announcements
 ---
 # 23.3 Financial Management enhancements
 
-This page describes all finance enhancements made with the 23.3 release to the Preview environment. These enhancements will be made available in the Production environment with the 23.3 release. 
+This page describes all Financial Management enhancements made with the 23.3 release. These enhancements were made available in the Production environment with the 23.3 release on July 20 and 21, 2023.
 
 For a list of all changes available at this point in the 23.3 release cycle, see [23.3 Release overview](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md).
 
@@ -18,4 +18,4 @@ Also, date effective job role sets are now available on the user profile. These 
 
 A new feature, rate cards, allows you to define multiple billing rates per job role, based on location. A billing rate for a job role and location can also include effective dates. Rate cards can be attached to projects to apply all of the rate information at once for the specific job role and location. Location based roles can also be assigned to tasks with a possibility to override their rates on the assignment level.
 
-All of these features will be released to Preview on July 29, 2023, and updated user documentation will be available at that time.
+For more information, see [Edit a user's profile](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md), [Create and manage job roles](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md), [Manage rate cards](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md), and [Overview of Billing and Revenue](/help/quicksilver/manage-work/projects/project-finances/billing-and-revenue-overview.md).
