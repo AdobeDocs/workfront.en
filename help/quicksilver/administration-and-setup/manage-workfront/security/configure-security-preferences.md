@@ -15,8 +15,6 @@ exl-id: f92ceed7-b191-425b-9fff-1b0947f32db8
 DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.</p>
 -->
 
-{{highlighted-preview}}
-
 {{important-admin-console-onboard}}
 
 As an Adobe Workfront administrator, you can configure preferences for your Workfront system:
@@ -64,8 +62,8 @@ You must have the following access to perform the steps in this article:
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader"> <p><span class="preview">Enable fast review process</span></p> </td> 
-      <td><span class="preview">Lets you enable monthly Workfront releases for your organization instead of quarterly releases.</p><p>For more information about the fast release process, see <a href="/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md" class="MCXref xref">Enable or disable fast releases for your organization</a>.</span></p></td> 
+      <td role="rowheader"> <p>Enable fast review process</p> </td> 
+      <td>Lets you enable monthly Workfront releases for your organization instead of quarterly releases.</p><p>For more information about the fast release process, see <a href="/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md" class="MCXref xref">Enable or disable fast releases for your organization</a>.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Allow embedding of <strong>Workfront</strong> in an iframe</p> </td> 
