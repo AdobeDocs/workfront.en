@@ -4,7 +4,8 @@ navigation-topic: manage-tasks
 title: Edit tasks
 description: You can edit information on tasks that you have created, or that you have Contribute or Manage permissions to.
 author: Alina
-feature: Work Management
+feature: Work Management, Tasks
+role: User
 exl-id: 572c6008-3a67-47ae-8f5d-6b871ef1f37b
 ---
 # Edit tasks

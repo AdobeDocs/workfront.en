@@ -5,7 +5,8 @@ navigation-topic: update-work-items-and-view-updates
 title: Work On It and Done button overview
 description: When you are assigned to a task or issue, you can use a contextual button that changes names and function depending on your involvement with the work item.
 author: Lisa and Alina
-feature: Get Started with Workfront
+feature: Get Started with Workfront, People Team and Groups
+role: User
 exl-id: cfda6702-1a9a-4645-b031-8b2f201ac0af
 ---
 # Work On It and Done button overview
@@ -14,7 +15,7 @@ When you are assigned to a task or issue, you can use a contextual button that c
 
 Using the contextual button to accept or complete work items, you can let Adobe Workfront update several fields on the items without having to manually update them yourself.
 
-## Work on&nbsp;it and Done button names
+## Work on it and Done button names
 
 Depending what area of Workfront you access your task or issue from, the Work On&nbsp;It or Done button can change names, as described in the following scenarios:&nbsp;
 
