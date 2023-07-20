@@ -5,7 +5,7 @@ navigation-topic: update-work-items-and-view-updates
 title: Work On It and Done button overview
 description: When you are assigned to a task or issue, you can use a contextual button that changes names and function depending on your involvement with the work item.
 author: Lisa and Alina
-feature: Get Started with Workfront, People Team and Groups
+feature: Get Started with Workfront
 role: User
 exl-id: cfda6702-1a9a-4645-b031-8b2f201ac0af
 ---
