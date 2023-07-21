@@ -29,11 +29,9 @@ In the mobile app, you can complete work items and view information like you do 
 * Create and process Workfront requests
 * Log time on a timesheet
 
-<!--
 >[!NOTE]
 >
->The [!DNL Adobe Workfront] mobile app is replacing the [!DNL Workfront Proof] app, which is no longer supported and will be removed entirely with the 23.4 release in October. [!DNL Workfront] customers should now use the [!DNL Adobe Workfront] mobile app for conducting their proof reviews and approvals.
--->
+>The [!DNL Adobe Workfront] mobile app is replacing the [!DNL Workfront Proof] app, which is no longer supported and will be removed entirely with the 23.10 release in October. [!DNL Workfront] customers should now use the [!DNL Adobe Workfront] mobile app for conducting proof reviews and approvals.
 
 For more information on the [!DNL Adobe Workfront] mobile app, review the following articles:
 
