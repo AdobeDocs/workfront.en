@@ -87,6 +87,22 @@ The 23.3 release webinar was on June 29, 2023. You can [register for the webinar
                         </ul>
                     </td>
                 </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-admin-enhancements.md" class="MCXref xref" xrefformat="{para}">Display logic and skip logic indicators and rules displayed in the form designer beta</a></p>
+                        <p>The form designer public beta was re-enabled in Preview and Production on July 21, 2023. In addition, you can now view the existing logic rules created in legacy custom forms within the form designer.</p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                        <ul>
+                            <li>
+                                <p>Preview release: July 21, 2023</p>
+                            </li>
+                            <li>
+                                <p>Production release: July 21, 2023</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
             </tbody>
         </table>   
 
