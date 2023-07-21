@@ -195,7 +195,8 @@ You can edit an issue using the Edit Issue or Issue Details areas. The following
       
       <b>TIP</b>
 
-      When adding a Primary Contact user, notice the avatar, the user's Primary Role, and their email address to distinguish between users with identical names. Users must be associated with at least one job role to view it as you add them.
+      <p>When adding a Primary Contact user, notice the avatar, the user's Primary Role, and their email address to distinguish between users with identical names. Users must be associated with at least one job role to view it as you add them.</p>
+      <p> You must have the View Contact Info setting enabled in your access level for Users to view users' emails. For information, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md">Grant access to users</a>.</p>
 
       
       </td> 
