@@ -83,7 +83,7 @@ In lieu of a release webinar, we invite you to register for Adobe Summit to watc
                             </li>
                             <li>
                                  <p>Production release: With the 23.2 release<br />
-                                 <span style="color: #ff0000;">The form designer beta was temporarily disabled in Preview and Production on May 24, 2023.</span></p>
+                                 <span style="color: #ff0000;">The form designer beta was temporarily disabled in Preview and Production from May 24 to July 21, 2023.</span></p>
                             </li>
                         </ul>
                     </td>
