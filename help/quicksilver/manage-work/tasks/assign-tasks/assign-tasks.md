@@ -4,7 +4,8 @@ navigation-topic: assign-tasks
 title: Assign tasks
 description: You can assign tasks to users, roles, or teams to indicate who is responsible for completing the tasks. You can assign a task to more than one resource at a time.
 author: Alina
-feature: Work Management
+feature: Work Management, Tasks
+role: User
 exl-id: 611b136e-2c3f-4eac-9d75-e8c12e06148d
 ---
 # Assign tasks
@@ -178,6 +179,8 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
       >
       >When adding a user assignment, notice the avatar, the user's Primary Role, or their email address to distinguish between users with identical names. Users must be associated with at least one job role to view it as you add them.
       >
+      >You must have the View Contact Info setting enabled in your access level for Users to view users' emails. For information, see [Grant access to users](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
+      >
       ><span class="preview">When adding a job role assignment, you can search for the job role or location. Select the System/Default Job Role to use the default billing rate for the assignment, or select a Rate Card Job Role to use the billing rate from the rate card. For more information on rate cards, see [Manage rate cards](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).</span>
 
       
@@ -223,6 +226,8 @@ To assign tasks in a list:
       >[!TIP]
       >
       >When adding a user assignment, notice the avatar, the user's Primary Role, or their email address to distinguish between users with identical names. Users must be associated with at least one job role to view it as you add them.
+      >
+      >You must have the View Contact Info setting enabled in your access level for Users to view users' emails. For information, see [Grant access to users](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md)
       >
       ><span class="preview">When adding a job role assignment, you can search for the job role or location. Select the System/Default Job Role to use the default billing rate for the assignment, or select a Rate Card Job Role to use the billing rate from the rate card. For more information on rate cards, see [Manage rate cards](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).</span>
 
