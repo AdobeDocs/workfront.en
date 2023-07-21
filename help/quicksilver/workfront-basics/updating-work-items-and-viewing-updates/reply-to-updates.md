@@ -13,7 +13,7 @@ exl-id: a8271f3c-7a08-4eb3-aaff-deb250f5af73
 
 <!--take "Beta" references out when we remove the beta-->
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers only in the Preview environment.</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers only in the Preview environment.</span>-->
 
 >[!NOTE]
 >
@@ -22,7 +22,7 @@ exl-id: a8271f3c-7a08-4eb3-aaff-deb250f5af73
 >For more information about the new commenting experience, see [New commenting experience](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). 
 >
 >You can access the new experience for the following objects:
-> * Issues, <span class="preview">projects, tasks, and documents</span>.
+> * Issues, projects, tasks, and documents.
 >
 >     This is available when you enable the commenting Beta experience.
 >
@@ -109,7 +109,7 @@ For information about what features are available for the new commenting experie
 
 1. Go to the object to which you want to add a reply.
 1. Click **Updates**, then click the **Comments** tab for the object and find the comment or reply to which you want to reply.
-1. <span class="preview">(Optional) To include text from a previous update in your reply, click the **More** menu next to the update or reply you want to quote, then click **Quote reply**. Text from the previous update appears in the input area, marked with a vertical gray line.</span>
+1. (Optional) To include text from a previous update in your reply, click the **More** menu next to the update or reply you want to quote, then click **Quote reply**. Text from the previous update appears in the input area, marked with a vertical gray line.
 1. Click **Reply**. 
 
    You can see the users who are actively engaged in the conversation at the bottom of the **New comment** box and you can add more, or remove the ones that are no longer relevant. These users, along with any users subscribed to the object, receive a notification whenever an update or reply is made on the object. You can also tag more users to include them in your reply.  To tag more users, see [Tag others on updates](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).

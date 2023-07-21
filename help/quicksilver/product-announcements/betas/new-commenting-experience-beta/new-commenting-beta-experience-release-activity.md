@@ -5,7 +5,7 @@ title: New commenting experience release activity
 description: Review the weekly release activity for the Adobe Workfront new commenting experience.
 author: Alina
 feature: Product Announcements
-role: User
+role: User, Admin
 exl-id: 1c0cb547-ac99-4cdf-8a74-2c47ad5a10ad
 ---
 # New commenting experience release activity

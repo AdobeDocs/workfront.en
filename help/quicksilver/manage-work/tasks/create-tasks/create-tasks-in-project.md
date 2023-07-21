@@ -4,7 +4,8 @@ navigation-topic: create-tasks
 title: Create tasks in a project
 description: You can create tasks in a project only after you created the project.
 author: Alina
-feature: Work Management
+feature: Work Management, Tasks
+role: User
 exl-id: 96f80e7b-6ad5-40ae-861d-8d97c570f2ac
 ---
 # Create tasks in a project

@@ -4,7 +4,8 @@ navigation-topic: create-tasks
 title: Create recurring tasks
 description: You can create recurring tasks for tasks you have to repeat as part of a single project.
 author: Alina
-feature: Work Management
+feature: Work Management, Tasks
+role: User
 exl-id: dbde5419-02ce-456b-a430-b2825d81fb87
 ---
 # Create recurring tasks
@@ -60,7 +61,7 @@ You must have the following access to perform the steps in this article:
 
    >[!TIP]
    >
-   >   The Duration and the Planned Hours indicated for a new recurring task are the Duration and the Planned Hours of each recurrence. The Duration of the parent task is the time between the Planned Start Date of the earliest task and the Planned Completion Date of the latest task. The Planned Hours of the parent task is the total of all Planned Hours from all the recurrences.
+   >   The Duration and the Planned Hours indicated for a new recurring task are the Duration and the Planned Hours of each occurrence. The Duration of the parent task is the time between the Planned Start Date of the earliest task and the Planned Completion Date of the latest task. The Planned Hours of the parent task is the total of all Planned Hours from all the occurrences.
 
 1. Click **Overview** in the left panel.
 1. Scroll down to the **Recurrence Schedule** section, then select the **Make this a recurring task** option.

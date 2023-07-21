@@ -6,7 +6,8 @@ navigation-topic: manage-tasks
 title: Recurring tasks overview
 description: Recurring tasks overview
 author: Alina
-feature: Work Management
+feature: Work Management, Tasks
+role: User
 exl-id: 9ddb75bf-1c7b-4f4b-b80b-a9512192920d
 ---
 # Recurring tasks overview
@@ -54,11 +55,11 @@ Consider the following when creating recurring tasks in Workfront:
 
       * Simple
       * Effort Driven
-* The Duration and the Planned Hours indicated for a new recurring task are the Duration and the Planned Hours of each recurrence. The Duration of the parent task is the time between the Planned Start Date of the earliest task and the Planned Completion Date of the latest task. The Planned Hours of the parent task is the total of all Planned Hours from all the recurrences.
+* The Duration and the Planned Hours indicated for a new recurring task are the Duration and the Planned Hours of each occurrence. The Duration of the parent task is the time between the Planned Start Date of the earliest task and the Planned Completion Date of the latest task. The Planned Hours of the parent task is the total of all Planned Hours from all the occurrences.
 
 ## Considerations for editing recurring tasks
 
-Some changes you make to a recurring task parent might not update on all existing recurrences. Children tasks that show progress or have been updated individually will not update when you update the parent. Workfront considers that a task shows progress in the following situations:
+Some changes you make to a recurring task parent might not update on all existing occurrences. Children tasks that show progress or have been updated individually will not update when you update the parent. Workfront considers that a task shows progress in the following situations:
 
 * Status is updated and the task is no longer New
 * The Percent Complete of the task is higher than zero
@@ -69,24 +70,24 @@ The following table illustrates whether changes made to the parent trigger updat
 | Fields updated on the parent task  |Updates transfer to unedited children or children with no progress recorded |
 |---|---|
 | Recurrence Frequency*  |✔ |
-| Assignments&#42;&#42; | ✔ |
+| Assignments | ✔ |
 | Name | ✔ |
 | Description | ✔ |
 | Priority | ✔ |
 | Duration | ✔ |
 | Planned Hours | ✔ |
 | Cost Type | ✔ |
-| Revenue&nbsp;Type | ✔ |
+| Revenue Type | ✔ |
 | Resource Leveling | ✔ |
 | Leveling Delay | ✔ |
-| Task&nbsp;Constraint |Does not update the children |
-| Attach or remove Custom&nbsp;Forms |Does not update the children |
-| Duration&nbsp;Type |Does not update the children |
-| Custom&nbsp;Form information |Does not update the children |
+| Task Constraint |Does not update the children |
+| Attach or remove Custom Forms |Does not update the children |
+| Duration Type |Does not update the children |
+| Custom Form information |Does not update the children |
 
 {style="table-layout:auto"}
 
-&#42; The following scenarios exist when you update the&nbsp;Recurrence Frequency of a parent task:
+&#42; The following scenarios exist when you update the Recurrence Frequency of a parent task:
 
 * If you change the Recurrence Frequency on an existing parent task, the existing subtasks are deleted and replaced with new subtasks that follow the new recurrence frequency if they don't show any progress and if you have not manually updated them. 
 * If you change the Recurrence Frequency on an existing parent task, subtasks that show progress are not deleted. These tasks are considered separate from the recurrence at this point.
