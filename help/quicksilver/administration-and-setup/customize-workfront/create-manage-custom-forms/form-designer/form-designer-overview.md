@@ -55,9 +55,11 @@ Although you can't yet add display/skip logic when designing a new custom form, 
 
 Icons on a field in the form designer indicate that logic is applied to the field.
 
-   The **D** icon on the bottom left means that the field is the target field for display logic (if a specific selection is made on the form, then this field is displayed). The **D** icon on the bottom right means that the field is used to define display logic (a specific selection or value on this field will display the target field).
+   The ![Display logic for target field](assets/display-logic-bottom-left.png) icon on the bottom left means that the field is the target field for display logic (if a specific selection is made on the form, then this field is displayed). The ![Define display logic icon](assets/display-logic-bottom-right.png) icon on the bottom right means that the field is used to define display logic (a specific selection or value on this field will display the target field).
 
-   The **S** icon on the bottom left means that the field is the target field for skip logic (if a specific selection is made on the form, then the form skips ahead to this field). The **S** icon on the bottom right means that the field is used to define skip logic (a specific selection or value on this field will skip other fields and go directly to the target field).
+   The ![Skip logic for target field](assets/skip-logic-bottom-left.png) icon on the bottom left means that the field is the target field for skip logic (if a specific selection is made on the form, then the form skips ahead to this field). The ![Define skip logic icon](assets/skip-logic-bottom-right.png) icon on the bottom right means that the field is used to define skip logic (a specific selection or value on this field will skip other fields and go directly to the target field).
+
+   ![Logic icons](assets/logic-icons-3.png)
 
 Selecting a field with logic applied displays the existing logic rules in the field settings.
 
