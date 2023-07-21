@@ -4,7 +4,8 @@ navigation-topic: assign-tasks
 title: Modify multiple user assignments in a task list
 description: When managing task assignments, you can simultaneously modify them for multiple tasks at a time by using the bulk editing feature in a list of tasks. 
 author: Alina
-feature: Work Management
+feature: Work Management, Tasks, Resource Management
+role: User
 exl-id: 04f7761f-da94-4858-85c5-8dc97bd78bee
 ---
 # Modify multiple user assignments in a task list
@@ -117,7 +118,7 @@ When assigning users to work, their availability according to their schedules af
 
       1. In the **Assignments** section, select **Assignee**.
 
-         Information that is common across all tasks selected displays. For example, if the same user is assigned to all tasks, that user displays in the **Assignee**&nbsp;column. If information is not common across the tasks selected, no information displays.
+         Information that is common across all tasks selected displays. For example, if the same user is assigned to all tasks, that user displays in the **Assignee** column. If information is not common across the tasks selected, no information displays.
       
       1. Start typing the name of a user, role, or team, then select it when it displays in the list. The assignment is added and does not replace the current assignments on the selected tasks.
 
@@ -126,7 +127,7 @@ When assigning users to work, their availability according to their schedules af
       >
       > * You can assign multiple users, job roles, or teams. You can assign only active users, job roles, and teams.
       >   
-      > * When adding a user assignment, notice the avatar, the user's Primary Role, or their email address to distinguish between users with identical names. Users must be associated with at least one job role to view it as you add them.
+      > * When adding a user assignment, notice the avatar, the user's Primary Role, or their email address to distinguish between users with identical names. Users must be associated with at least one job role to view it as you add them. You must have the View Contact Info setting enabled in your access level for Users to view users' emails. For information, see [Grant access to users](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
       > 
       >   If a user, job role, or a team was assigned before they were deactivated, they remain assigned to the work item. In this case, we recommend the following:
       >   

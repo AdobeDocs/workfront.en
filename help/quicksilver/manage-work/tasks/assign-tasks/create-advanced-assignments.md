@@ -4,7 +4,8 @@ navigation-topic: assign-tasks
 title: Create advanced assignments
 description: You can manage task or issue assignments by using Advanced Assignments.
 author: Alina
-feature: Work Management
+feature: Work Management, Resource Management
+role: User
 exl-id: 09780f78-4eb8-404d-859b-d066d462776d
 ---
 # Create advanced assignments
@@ -101,7 +102,9 @@ You must have the following access to perform the steps in this article:
    >* You can assign multiple users, job roles, or teams. You can assign only active users, job roles, and teams.
    >
    >
-   >* When adding a user assignment, notice the avatar, the user's Primary Role, or their email address to distinguish between users with identical names. Users must be associated with at least one job role to view it as you add them.
+   >* When adding a user assignment, notice the avatar, the user's Primary Role, or their email address to distinguish between users with identical names. 
+   >Users must be associated with at least one job role to view it as you add them.
+   >You must have the View Contact Info setting enabled in your access level for Users to view users' emails. For information, see [Grant access to users](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md). 
    >
    >
    >* <span class="preview">When adding a job role assignment, you can search for the job role or location. Select the System/Default Job Role to use the default billing rate for the assignment, or select a Rate Card Job Role to override the rate at the assignment level. For more information on rate cards, see [Manage rate cards](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).</span>

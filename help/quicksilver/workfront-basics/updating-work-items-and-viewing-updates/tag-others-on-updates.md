@@ -103,7 +103,11 @@ You can manually tag users in the current Updates section.
 
    >[!TIP]
    >
-   >To identify the correct user when there are users with similar or identical names, notice the avatar, the user's Primary Role, or their email address. Users must be associated with at least one job role to view it as you tag them in an update.
+   >To identify the correct user when there are users with similar or identical names, notice the avatar, the user's Primary Role, or their email address. 
+   >
+   >Users must be associated with at least one job role to view it as you tag them in an update. 
+   >
+   >You must have the View Contact Info setting enabled in your access level for Users to view users' emails. For information, see [Grant access to users](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
 
    ![](assets/tag-users-in-update.png)
 
@@ -111,7 +115,7 @@ You can manually tag users in the current Updates section.
 
    >[!NOTE]
    >
-   >Tagged users outside the company could still receive an in-app notification or email, even though they will not see the private comments on the Updates tab. We recommend not to tag external users on an update if you do not want to share the information with them.
+   >Tagged users outside the company could still receive an in-app notification or email, even though they will not see the private comments on the Updates tab. We recommend not to tag external users on an update if you do not want to share the information with them.  
 
 1. (Optional) To add multiple users and teams, repeat step 2.
 
@@ -149,11 +153,15 @@ You can also remove users who are tagged by mistake when you edit or reply to a 
 
    Type the @ symbol in the **Write a comment** area, begin typing the name of the user or team you want to include on the update, then click the name when it appears in the drop-down list. 
 
-   >[!TIP]
-   >
-   >To identify the correct user when there are users with similar or identical names, notice the avatar, the user's Primary Role, or their email address. Users must be associated with at least one job role to view it as you tag them in an update.
+   >[!TIP] 
+   > 
+   >To identify the correct user when there are users with similar or identical names, notice the avatar, the user's Primary Role, or their email address.  
+   > 
+   >Users must be associated with at least one job role to view it as you tag them in an update.  
+   > 
+   >You must have the View Contact Info setting enabled in your access level for Users to view users' emails. For information, see [Grant access to users](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md). 
 
-   ![](assets/tag-others-unified-commenting.png)
+      ![](assets/tag-others-unified-commenting.png)
 
 1. (Optional) To make the update private, enable **Private to my company** in the lower-right corner of the update box. This makes the update visible just to users in your company. The **Private to my company** option is available only when a Company is specified in your Workfront profile. 
 
