@@ -29,9 +29,12 @@ After configuring a layout template, you must assign it to users for changes you
 
 The changes you make to the Details view for an object also determine the availability and order of fields that users see in the following areas:
 
+<!-- the New box is not affected by the LT yet. Might be in the future. Commenting this one out for now: 
 * "New object" boxes, such as New Task and New Issue
 
   ![](assets/new-task-dialog.png)
+
+-->
 
 * "Edit object" screens, such as Edit Task, Edit Issue, and Edit Project
 
