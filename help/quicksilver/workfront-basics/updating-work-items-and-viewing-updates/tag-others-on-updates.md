@@ -12,7 +12,7 @@ exl-id: c4c0d74f-ac50-4fc5-89d6-28f004c25b29
 <!--take "Beta" references out when we remove the beta-->
 
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.-->
 
 >[!NOTE]
 >
@@ -21,7 +21,7 @@ exl-id: c4c0d74f-ac50-4fc5-89d6-28f004c25b29
 >For more information about the new commenting experience, see [New commenting experience](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). 
 >
 >You can access the new experience for the following objects:
-> * Issues, <span class="preview" style="display-inline">projects, tasks, and documents</span>.
+> * Issues, projects, tasks, and documents.
 >
 >     This is available when you enable the commenting Beta experience.
 >
@@ -103,7 +103,11 @@ You can manually tag users in the current Updates section.
 
    >[!TIP]
    >
-   >To identify the correct user when there are users with similar or identical names, notice the avatar, the user's Primary Role, or their email address. Users must be associated with at least one job role to view it as you tag them in an update.
+   >To identify the correct user when there are users with similar or identical names, notice the avatar, the user's Primary Role, or their email address. 
+   >
+   >Users must be associated with at least one job role to view it as you tag them in an update. 
+   >
+   >You must have the View Contact Info setting enabled in your access level for Users to view users' emails. For information, see [Grant access to users](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
 
    ![](assets/tag-users-in-update.png)
 
@@ -111,7 +115,7 @@ You can manually tag users in the current Updates section.
 
    >[!NOTE]
    >
-   >Tagged users outside the company could still receive an in-app notification or email, even though they will not see the private comments on the Updates tab. We recommend not to tag external users on an update if you do not want to share the information with them.
+   >Tagged users outside the company could still receive an in-app notification or email, even though they will not see the private comments on the Updates tab. We recommend not to tag external users on an update if you do not want to share the information with them.  
 
 1. (Optional) To add multiple users and teams, repeat step 2.
 
@@ -132,16 +136,16 @@ You can manually tag users in the current Updates section.
 
 You can tag others on updates in the new commenting experience in the following ways:
 
-* <span class="preview"> **Automatically**: When a user adds a comment or a reply, they are automatically tagged and added to the Tag people or teams area of the commenting box. </span> 
+* **Automatically**: When a user adds a comment or a reply, they are automatically tagged and added to the Tag people or teams area of the commenting box. 
 * **Manually**: When you manually add a user to the Tag people area of the commenting box.
 
 You can also remove users who are tagged by mistake when you edit or reply to a comment.
 
-1. Begin updating a work item, as described in [Update work](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). <span class="preview">As the comment owner, you are automatically tagged and added to the Tag people or teams area of the commenting box. </span>
+1. Begin updating a work item, as described in [Update work](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). As the comment owner, you are automatically tagged and added to the Tag people or teams area of the commenting box.
 
    >[!TIP]
    >
-   ><span class="preview">The comment owner cannot see their own name in the Tag people or teams area of the commenting box.</span>
+   >The comment owner cannot see their own name in the Tag people or teams area of the commenting box.
 
 1. In the **Tag people or teams** field, begin typing the name of the user or team you want to include, then click the name when it appears in the drop-down list.
  
@@ -149,11 +153,15 @@ You can also remove users who are tagged by mistake when you edit or reply to a 
 
    Type the @ symbol in the **Write a comment** area, begin typing the name of the user or team you want to include on the update, then click the name when it appears in the drop-down list. 
 
-   >[!TIP]
-   >
-   >To identify the correct user when there are users with similar or identical names, notice the avatar, the user's Primary Role, or their email address. Users must be associated with at least one job role to view it as you tag them in an update.
+   >[!TIP] 
+   > 
+   >To identify the correct user when there are users with similar or identical names, notice the avatar, the user's Primary Role, or their email address.  
+   > 
+   >Users must be associated with at least one job role to view it as you tag them in an update.  
+   > 
+   >You must have the View Contact Info setting enabled in your access level for Users to view users' emails. For information, see [Grant access to users](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md). 
 
-   ![](assets/tag-others-unified-commenting.png)
+      ![](assets/tag-others-unified-commenting.png)
 
 1. (Optional) To make the update private, enable **Private to my company** in the lower-right corner of the update box. This makes the update visible just to users in your company. The **Private to my company** option is available only when a Company is specified in your Workfront profile. 
 

@@ -118,7 +118,7 @@ Depending on how your Workfront administrator configures the Project, Task, or I
 
    1. (Conditional) Click the **Plan Mode** icon and select **Manual save** if you want to reverse the changes you make to the task list.
 
-      ![](assets/nwe-autosave-off-manual-highlighted-350x58.png)
+      ![Select Manual Save](assets/manual-save-option.png)
 
       Do the following:
 

@@ -2,7 +2,7 @@
 product-area: projects
 navigation-topic: update-work-items-and-view-updates
 title: Update work
-description: You can add an update on a Adobe Workfront object (project, task, or issue) to communicate about progress on the object. Users who are assigned or subscribed to the object can view your update. You can also tag users to bring their attention to the update.
+description: You can add an update on an Adobe Workfront object (project, task, or issue) to communicate about progress on the object. Users who are assigned or subscribed to the object can view your update. You can also tag users to bring their attention to the update.
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
@@ -11,7 +11,7 @@ exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
 
 <!--take "Beta" references out when we remove the beta-->
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers only in the Preview environment.</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers only in the Preview environment.</span>-->
 
 >[!NOTE]
 >
@@ -20,7 +20,7 @@ exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
 >For more information about the new commenting experience, see [New commenting experience](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). 
 >
 >You can access the new experience for the following objects:
-> * Issues, <span class="preview">projects, tasks, and documents</span>.
+> * Issues, projects, tasks, and documents.
 >
 >     This is available when you enable the commenting Beta experience.
 >
@@ -32,7 +32,7 @@ exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
 >
 > * Goals, cards in the Boards area
 >
->   The new commenting experience is the only experience for goals and cards. You must have an additional license to access Workfront Goals. For more information, see [Requirements to uses Workfront Goals](../../workfront-goals/goal-management/access-needed-for-wf-goals.md). 
+>   The new commenting experience is the only experience for goals and cards. You must have an additional license to access Workfront Goals. For more information, see [Requirements to use Workfront Goals](../../workfront-goals/goal-management/access-needed-for-wf-goals.md). 
 >
 >     You can add and view updates to cards in the Boards area when you enable the Comments and System Activity sections on a card. For more information, see [Add an ad hoc card to a board](../../agile/get-started-with-boards/add-card-to-board.md).
 
@@ -41,13 +41,13 @@ exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
 
 * You can add comments to most objects in Adobe Workfront in the Updates section. For more information about which objects display the Updates section, see [Updates section overview](../updating-work-items-and-viewing-updates/updates-tab-overview.md). 
 
-* You can add an update on an Workfront object (project, task, or issue) to communicate about progress on the object, as you comment on the object. Users who are assigned or subscribed to the object can view your update. 
+* You can add an update on a Workfront object (project, task, or issue) to communicate about progress on the object, as you comment on the object. Users who are assigned or subscribed to the object can view your update. 
 
 * You can tag users to bring their attention to the update. Tagged users receive an in-app notification and an email about your update. 
 
    >[!TIP]
    >
-   >   <span class="preview">In the new commenting experience, comment owners are automatically tagged. For more information, see [Tag others on updates](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).</span> 
+   >   In the new commenting experience, comment owners are automatically tagged. For more information, see [Tag others on updates](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md). 
    <!--take the "in the new commenting experience" out when this is the only experience-->
    
 * You can add a comment to an object that you can view, or you can log in as a Workfront or group administrator and add a comment on behalf of another user. For more information, see [Log in as another user](../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md). 
@@ -63,7 +63,7 @@ The information on this page describes how you can comment on Workfront objects 
 
 For information about commenting on goals, see [Manage goal comments in Adobe Workfront Goals](../../workfront-goals/goal-management/manage-goal-comments.md). You must have an additional license to access Workfront Goals. 
 
-For information about commmenting on cards in the Boards area, see [Add an ad hoc card to a board](../../agile/get-started-with-boards/add-card-to-board.md).
+For information about commenting on cards in the Boards area, see [Add an ad hoc card to a board](../../agile/get-started-with-boards/add-card-to-board.md).
 
 ## Access requirements
 
@@ -168,7 +168,7 @@ Adding an update to a work item differs depending on what version of the Updates
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Status</strong></td> 
-      <td>Click the arrow beside the current status, then select the desired status from the drop-down menu. For information about setting a Status, see <a href="../../manage-work/projects/updating-work-in-a-project/update-task-status.md" class="MCXref xref">Update task status</a>.<p>Updating the status of a work item does not automatically change the status of a project. Depending on how your project is set up, you might must make updates to the project status separately. For more information on the various project update types, see <a href="../../manage-work/projects/manage-projects/select-project-update-type.md" class="MCXref xref">Select the project Update Type </a>.</p><p><b>NOTE</b>
+      <td>Click the arrow beside the current status, then select the desired status from the drop-down menu. For information about setting a Status, see <a href="../../manage-work/projects/updating-work-in-a-project/update-task-status.md" class="MCXref xref">Update task status</a>.<p>Updating the status of a work item does not automatically change the status of a project. Depending on how your project is set up, you might make updates to the project status separately. For more information on the various project update types, see <a href="../../manage-work/projects/manage-projects/select-project-update-type.md" class="MCXref xref">Select the project Update Type </a>.</p><p><b>NOTE</b>
       
       You cannot change the status of a work item while it is in a Pending Approval status.</p></td> 
      </tr> 
@@ -206,7 +206,7 @@ For information about what features are available for the new commenting experie
    The **Comments** tab is selected by default. 
 1. Start entering a comment in the **New comment** box. 
    
-   <span class="preview">![](assets/comment-box-empty-unshimmed.png)</span>
+   ![](assets/comment-box-empty-unshimmed.png)
 
    >[!TIP]
    >
@@ -232,7 +232,7 @@ For information about what features are available for the new commenting experie
       >
       >If another user submits a comment to the same item you are updating, there will be a red line with a "New" indicator to inform you of the newer comments. 
       >
-      >The indicator only displays only after the comment was submitted on the item, and not when the comment is still composed. 
+      >The indicator displays only after the comment was submitted on the item, and not when the comment is still composed. 
       >
       >The "New" indicator displays only when both the user that entered a new update as well as the user who is currently entering an update are using the new commenting experience. 
       >![](assets/real-time-new-red-indicator-unified-commenting.png)   
@@ -319,7 +319,7 @@ You can enhance your updates by using Rich Text, or adding various items to it, 
    >
    >* Workfront does not replace punctuation emoticons such as :) with emojis.
    >* Emojis are not available for updates made in the Timesheets area or for Note and Last Condition objects viewed in a report.
-   >* The emoji feature in Workfront utilizes Unicode characters and, as such, displays only on browsers and operating systems that support Unicode code points. Users on a platform, browser, or operating system version different than yours might not have access to the same emojis.
+   >* The emoji feature in Workfront utilizes Unicode characters and, as such, displays only on browsers and operating systems that support Unicode code points. Users on a platform, browser, or operating system version different from yours might not have access to the same emojis.
    >* An unsupported emoji is represented by a black or white box.
    >* Windows 7 supports only black and white emojis.  
    >* Emojis that are applied to an update made via email do not display on the update when viewed in the Updates area.
@@ -456,7 +456,7 @@ No Workfront user (including the Workfront administrator) can delete updates mad
 
    ![timesheet_update_stream.png](assets/timesheet-update-stream-350x50.png)
 
-1. (Conditional)To save your update without submitting the Timesheet for approval, click **Save for Later**.
+1. (Conditional) To save your update without submitting the Timesheet for approval, click **Save for Later**.
 
    Or
 
@@ -472,8 +472,8 @@ No Workfront user (including the Workfront administrator) can delete updates mad
 
 >[!NOTE]
 >
->It is not possible to disable system updates when using the Beta commenting experience.
->The information in this section refers only to functionality available in the current Updtes section.
+>It is not possible to disable system updates when using the new commenting experience.
+>The information in this section refers only to functionality available in the current Updates section.
 >For more information about system updates in the Beta version, see [Updates section overview](../updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
 

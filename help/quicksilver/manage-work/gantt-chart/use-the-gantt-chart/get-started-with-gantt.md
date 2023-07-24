@@ -36,7 +36,7 @@ The task list [!UICONTROL Gantt Chart] is accessible in the following areas:
 
 To access the task list [!UICONTROL Gantt Chart], navigate to any of the areas mentioned above and click the [!UICONTROL Gantt Chart] icon.
 
-![](assets/qs-gantt-icon-on-task-list-highlighted-350x199.png)
+![Click the Gantt Chart icon](assets/click-gantt-chart-icon.png)
 
 ### Project list [!UICONTROL Gantt Chart] {#project-list-gantt-chart}
 
@@ -57,7 +57,7 @@ The project list [!UICONTROL Gantt Chart] is accessible in the following areas:
 
 To access the [!UICONTROL project list Gantt Chart], navigate to any of the areas mentioned above and click the [!UICONTROL Gantt Chart] icon.
 
-![](assets/qs-gantt-icon-on-task-list-highlighted-350x199.png)
+![Click the Gantt Chart icon](assets/click-gantt-chart-icon.png)
 
 ## Configure how information displays on the [!UICONTROL Gantt Chart]
 
