@@ -234,7 +234,7 @@ The following table shows the limits for how many objects you can create in Maes
 |     Size of file that you can paste in a record type table                    |   1MB                                                                                                           |
 |     Size of file that you can import through the API for a record type table  |   1.5MB                                                                                                         |
 |     Rate at which API requests can be made                                    |   200 requests per minute                                                                                       |
-| Size of CSV of Excel file you can import in a table | 10MB |
+| Size of CSV of Excel file you can import in a table | 5MB |
 
 ## Enable Maestro for the users in your Workfront instance
 
