@@ -4,7 +4,9 @@ navigation-topic: create-and-manage-request-queues
 title: Create Topic Groups
 description: Topic Groups are associated with Request Queues. They allow you to layer your Request Queues in multiple categories, depending on the nature of the requests.
 author: Alina
-feature: Work Management
+feature: Work Management, Requests
+topic: Collaboration
+role: User, Admin
 exl-id: 7c5959f4-f33f-4f5e-b031-748dbe1a24a5
 ---
 # Create Topic Groups
