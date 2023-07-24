@@ -13,7 +13,7 @@ The Desktop Proofing Viewer, which is designed primarily for proofing interactiv
 
 ## System Requirements
 
-This application&nbsp;is supported on the following operating systems:
+This application is supported on the following operating systems:
 
 * Windows 7 and later, 32-bit and 64-bit
 * Mac OS X 10.9 and later, 64-bit
@@ -41,7 +41,7 @@ You must have the following access to perform the steps in this article:
 
 ## Install the Desktop Proofing Viewer on Mac
 
-If your Adobe Workfront administrator or Workfront Proof administrator has downloaded the app on your workstation and configured the Desktop Proofing Viewer as the default viewer for interactive proofs, you can finish the installation simply by opening an interactive prooffrom the Documents area.
+If your Adobe Workfront administrator or Workfront Proof administrator has downloaded the app on your workstation and configured the Desktop Proofing Viewer as the default viewer for interactive proofs, you can finish the installation simply by opening an interactive proof from the Documents area.
 
 If this is not the case, you can follow the steps below.
 

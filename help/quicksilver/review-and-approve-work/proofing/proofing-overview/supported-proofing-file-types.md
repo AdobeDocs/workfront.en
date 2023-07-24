@@ -17,7 +17,7 @@ You can share and review various types of files with your reviewers, even if the
 Workfront has the following limits:
 
 * Files must be less than 4 GB per file.
-* Microsoft Word (DOC, DOCX) and PowerPoint (PPT, PPTX) files must be less than 512 MB.
+* Microsoft Word (DOC, DOCX) and PowerPoint (PPT, PPTX) files must be less than 512 MB. (This also applies to unarchiving proofs of these file types created before the size limit was implemented.)
 * XLS and XLSX files must be less than 100 MB.
 * Files attached to comments on proofs must be less than 30 MB.
 * PNGs must have a height and width less than 65535px.
@@ -174,11 +174,15 @@ Workfront has the following limits:
 > * XLT - Microsoft Excel Template 
 > * XLTX - Microsoft Excel Template
 
+>[!WARNING]
+> We temporarily do not support the following static file type due to a security issue:
+>
+> * EPS - Encapsulated PostScript
+
 * AI -&nbsp;Adobe Illustrator Artwork 
 * AIT - Adobe Illustrator Template 
 * DOC -&nbsp;Microsoft Word Document
 * DOCX - Microsoft Word Document
-* EPS - Encapsulated PostScript 
 * PDF -&nbsp;Adobe Portable Document File 
 * PPT- PowerPoint Presentation 
 * PPTX - PowerPoint Presentation 2007 PS - PostScript File 
