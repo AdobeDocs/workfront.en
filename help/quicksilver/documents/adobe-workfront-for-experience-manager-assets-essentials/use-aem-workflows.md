@@ -36,7 +36,7 @@ You must have the following:
   <tr>
    <td><strong>Product</strong>
    </td>
-   <td><p>You must have Experience Manager Assets as a Cloud Service or Assets Essentials, and you must be added to the product as a user in the Admin Console.</p><p>You must have write access to the repository in Adobe Experience Manager to create linked folders.</p>
+   <td><p>You must have Experience Manager Assets as a Cloud Service or Assets Essentials, and you must be added to the product as a user in the Admin Console.</p><p>You must have write access to the repository in Adobe Experience Manager.</p>
    </td>
   </tr>
   <tr>
@@ -126,10 +126,18 @@ All workflow values can be found in:
 
 To edit the workflow for linked folders:
 
-1. Toggle the **[!UICONTROL Create Linked folder]** on.
-1. Choose a folder path to indicate where you want all linked folders associated with this integration. 
+1. Toggle **[!UICONTROL Create Linked folder]** on or off as desired.
+1. (Conditional) If you are enabling linked folders, choose a folder path to indicate where you want all linked folders associated with this integration. 
 1. Click Save if you are using the Create Project or Edit project window.
     
    Or
 
    If you are in the Adobe Experience Manager area, your changes save automatically. <!--Do they though?-->
+
+#### Publishing assets
+
+To edit the workflow for publishing assets:
+
+1. Toggle **Publish assets automatically** on or off as desired.
+1. (Conditional) If you are enabling publishing, select whether you want to publish  to the publish service, the brand portal, or both.
+1. Click Save if you are using the Create Project or Edit project window.
