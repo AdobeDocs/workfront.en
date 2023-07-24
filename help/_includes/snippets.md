@@ -107,7 +107,7 @@ To set up linked folders:
 
 ## Prerequisites {#cc-install-prereq}
 
-You must install the correct plugin for the Adobe Creative Cloud application you’re using:
+You must install the correct plugin for the Adobe Creative Cloud application you're using:
 * For Photoshop, see [Install Adobe Workfront for Photoshop](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-ps.md)
 * For XD, see [Install Adobe Workfront for XD](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-install.md)
 * For InDesign, Illustrator, Premiere Pro, and After Effects see [Install Adobe Workfront for design and video](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-install-cc.md)
@@ -156,7 +156,7 @@ You must install the correct plugin for the Adobe Creative Cloud application you
          <td>
       <ol>
 
-      <li>In the Add new recipient box, begin typing the user’s name.
+      <li>In the Add new recipient box, begin typing the user's name.
 
       <li>Specify the Proof Role.
 
@@ -231,7 +231,7 @@ You must install the correct plugin for the Adobe Creative Cloud application you
 
 ## Latest DPV Version {#latest-version}
 
-**Latest version**: 2.1.23 as of 3/23/2023
+**Latest version**: 2.1.24 as of 5/15/2023
 
 <!-- Release -->
 
