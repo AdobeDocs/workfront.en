@@ -5,7 +5,7 @@ navigation-topic: create-and-manage-custom-forms
 title: Delete a custom form
 description: You can delete a custom form from the system.
 author: Courtney
-feature: System Setup and Administration
+feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 4d97badf-b6d0-4e7c-bff8-9ff63e83586b
 ---

@@ -6,7 +6,7 @@ navigation-topic: create-and-manage-custom-forms
 title: Copy a custom form to create a new one with the legacy builder
 description: You can create a new custom form that is based on an existing one.
 author: Caroline
-feature: System Setup and Administration
+feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 946a726e-af88-413c-abe3-55fbc7486380
 ---
