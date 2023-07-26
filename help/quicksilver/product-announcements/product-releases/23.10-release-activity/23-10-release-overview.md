@@ -1,18 +1,18 @@
 ---
-title: Q4 2023 release overview
-description: Q4 2023 release overview
+title: Fourth Quarter 2023 release overview
+description: Fourth Quarter 2023 release overview
 author: Becky
 feature: Product Announcements
 ---
-# Q4 2023 release overview
+# Fourth Quarter 2023 release overview
 
-This page provides information about functionality that is included in the Q4 2023 release. These enhancements will be included in the following releases:
+This page provides information about functionality that is included in the Fourth Quarter 2023 release. These enhancements will be included in the following releases:
 
 >|Monthly release|Quarterly release|
 >|----|----|
 >|<ul><li>23.8 (August 31, 2023)</li><li>23.9 (September28,  2023)</li><li>23.10 (October 26, 2023)</li></ul>| <ul><li>23.10 (Week of October 26, 2023)</li></ul>|
 
-<span class="preview">Off-cycle features (those releasing to Production prior to the Q4 2023 release date) are highlighted in yellow.</span>
+<span class="preview">Off-cycle features (those releasing to Production prior to the Fourth Quarter 2023 release date) are highlighted in yellow.</span>
 
 >[!IMPORTANT]
 >
@@ -112,11 +112,11 @@ Explore the latest updates made to learning programs, learning paths, videos, an
 
 The following functionality is soon to be removed from Workfront:
 
-#### Deprecation of the Proof mobile app with 23.4
+#### Deprecation of the Proof mobile app with 23.10
 
-We will be officially deprecating the Proof mobile app with the 23.4 release. The general Workfront mobile app has been enhanced with new proofing functionality (see the release note under Workfront Mobile enhancements for more information), and users are advised to begin using it for proofing work as soon as possible.
+We will be officially deprecating the Proof mobile app with the 23.10 release. The general Workfront mobile app has been enhanced with new proofing functionality (see the release note under Workfront Mobile enhancements for more information), and users are advised to begin using it for proofing work as soon as possible.
 
-Note that the Workfront mobile app requires a Workfront login. External users and guests can continue to use the Proof app for proofing work; however, it is no longer supported and will become unavailable with 23.4.
+Note that the Workfront mobile app requires a Workfront login. External users and guests can continue to use the Proof app for proofing work; however, it is no longer supported and will become unavailable with 23.10.
 
 
 <!-- HTML you might need
