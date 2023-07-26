@@ -54,7 +54,7 @@ This page provides information about functionality that is included in the Fourt
                  </tr>  
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Updated design when adding a new issue to a project</a> </p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.Q4-release-activity/23-q4-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Updated design when adding a new issue to a project</a> </p>
                         <p>We have updated the New Issue box which displays when submitting a new issue to a project. Now, the interface matches the New request box which displays when submitting a new request to a request queue.  </p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
