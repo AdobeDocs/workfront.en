@@ -5,7 +5,7 @@ navigation-topic: create-and-manage-custom-forms
 title: Position custom fields and widgets in a custom form with the legacy form builder
 description: You can reposition custom fields and widgets in a custom form.
 author: Caroline
-feature: System Setup and Administration
+feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: f96425e3-8e20-43ac-8340-915538ae5886
 ---
