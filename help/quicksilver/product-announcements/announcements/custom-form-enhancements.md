@@ -2,6 +2,7 @@
 title: Custom form enhancements
 description: The following significant enhancements were made for managing custom forms in the 22.2 release.
 author: Luke
+feature: Product Announcements, Custom Forms
 exl-id: 81568eab-8a65-4767-b8ab-fb9353a90bb6
 ---
 # Custom form enhancements
