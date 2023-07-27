@@ -30,7 +30,7 @@ For more information, see [Copy and submit requests](/help/quicksilver/manage-wo
 
 >[!NOTE]
 >
->Planned Preview release: to be announced; Planned Production release: to be announced. 
+>Planned Preview release: July 27, 2023; Planned production for fast release: With the 23.8 release. Planned production for quarterly release: With the 23.10 release 
 >
 >This feature was originally planned to release with the 23.3 release and it was later delayed. 
 
