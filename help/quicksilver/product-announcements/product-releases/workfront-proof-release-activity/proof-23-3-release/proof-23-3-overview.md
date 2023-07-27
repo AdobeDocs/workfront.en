@@ -36,10 +36,12 @@ For a list of all changes available for all areas of Workfront at this point in 
                     <td><p><b>Available on these dates:</b></p>
                         <ul>
                             <li>
-                                <p>Preview release: With the 23.3 release</p>
+                                <p><i>For users using manual installation, with version 2.1.26</i></p>
+                                <p>Preview and production release: July 27, 2023</p>
                             </li>
                             <li>
-                                <p>Production release: With the 23.3 release</p>
+                                <p><i>For users using automatic installation, with version 2.1.27</i></p>
+                                <p>Preview and production release: August 3, 2023</p>
                             </li>
                         </ul>
                     </td>
