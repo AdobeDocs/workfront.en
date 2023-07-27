@@ -1,23 +1,27 @@
 ---
-title: Manage Relationship-type fields in Adobe Maestro
+title: Manage Relationship-type fields
 description: You can use a Relationship-type field to link record types and their fields. By doing this, you can display fields from the linked record on another record.
 hidefromtoc: yes
 hide: yes
+feature: Work management
+role: User
+author: Alina
 ---
 
 <!--udpate the metadata with real information when making this avilable in TOC and in the left nav-->
+<!--************ THIS MIGHT NO LONGER BE 'RELATIONSHIP' TYPE FIELD, BECAUSE THEY WILL SHOW IT IN THE CONNECTION TAB*****************************-->
 
 
-# Manage Relationship-type fields in Adobe Maestro
+# Manage Relationship-type fields
 
 You can use a Relationship-type field to connect the following: 
 
-* Maestro record types and their fields. 
-* Maestro record types with objects from another application and their fields. For more information, see [Import records from Adobe Workfront](../maestro/import-records-from-workfront.md). <!--consider renaming this article to maybe something generic when we can link from other apps as well-->
+* Two Maestro record types and their fields. 
+* A Maestro record type with an object type from another application and its field. 
 
-By doing this, you can display fields from the linked record or object on another Maestro record.
+By doing this, you can display fields from the linked record or object on another Maestro record.  
 
-This article describes how you can connect two Maestro record types. 
+This article describes how you can connect two Maestro record types. For information about connecting a Maestro record type to an object from another application, see [Connect records to objects from other applications](../architecture-and-fields/connect-records-to-other-applications-objects.md).
 
 ## Access requirements
 
@@ -69,16 +73,24 @@ This article describes how you can connect two Maestro record types.
     * Two operational record types
     * Two taxonomies
     * An operational record type and a taxonomy
+    * An operational record type and an object type from another application. 
+
+        >[!TIP]
+        >
+        >    You cannot connect a taxonomy record type to an object type from another application.
+
+
 * You can view fields other users create and fields created by you are visible to everyone who has access to Maestro. 
-* A relationship-type field is a connection from one record type to another. 
-* After you create a relationship-type field from one record type, a similar field is created on the linked record type that refers back to the original record type. We will refer to the fields that refer to another record type "record fields". 
-* After you create a relationship-type field to establish the connection between two records, you can add several relationship-type fields that refer to the connected records' additional fields. We will refer to the fields that belong to the connected record types as "linked fields".
-* Relationship-type fields are preceded by a relationship icon ![](assets/relationship-field-icon.png).
-* After you create individual records for a record type, you can select the records you connect to in the linked record type field. 
-* You cannot select the values for the linked fields, as they automatically populate from the original record type they belong to.  
-* You can edit linked record fields. You cannot edit linked fields. 
+* After you create a relationship-type field from one record type, a similar field is created on the linked record type that refers back to the original record type. We will refer to the fields that refer to another record type "linked record fields". 
+* If you link multiple fields from one record type to another record type, we will refer to these as "linked fields" or "lookup fields."
+* Relationship-type fields display the linked records and are preceded by a relationship icon ![](assets/relationship-field-icon.png).
+* After you create individual records for a record type, you can select the records you connect to from the linked record type in the relationship-type linked record type field. 
+* You cannot select the values for the linked fields, as they automatically populate from the original record type they belong to as soon as you select the linked records.  
+* You can edit the information of the linked record fields. You cannot edit the information of the linked fields from the record type you are linking from. 
 
 ## Create a Relationship-type field
+
+<!--if you change steps here, also update steps in the "Connect records to other applications objects" article-->
 
 You can create a Relationship-type field to connect two record types and their fields together. 
 
@@ -94,15 +106,27 @@ You can create a Relationship-type field to connect two record types and their f
     >We recommend that you include the name of the record you are linking to in the name of the relationship-type field to capture what record type the new field is coming from. The name of the linked record is not visible in the new linked record field or its linked fields. 
 
      * **Description**: Additional information about the relationship-type field. The description of a field displays when you hover over the field's column in a table. 
-     * **Linked record type**: The record type that you want to link to. This is the linked record. You can select an operational record type or a taxonomy. 
+     * **Linked record type**: The record type that you want to link to. This is the linked record. You can select an operational record type, a taxonomy, or an object from another application. 
      * **Allow multiple records**: This allows you to select multiple records when the linked record type field displays on the original records. This is selected by default.
 
-1. (Optional) Select the fields that belong to the linked record type that you want to display as linked fields on the original records. Use the **search** icon ![](assets/search-icon.png) to search for a field. 
+1. Click **Create**.
 
-    This creates the linked field columns in the table view of the record type. A column or a linked field is added for each field you add from the linked record. 
+    The relationship-type field (or column) is added to the original record type in the table view with the name you selected in step 2. <!--ensure this stays accurate--> 
 
-    If you don't select any of the fields, the Name of the linked record is the only visible field in the original record's table view and in the Details page of the record.  
+1. (Optional)  Click the drop-down menu in the header of the linked record field name, then click **Edit lookup fields** to add or remove any of the linked record's fields. 
 
+    The **Add fields** box displays.
+
+1. Click the ![](assets/minus-icon.png) icon to remove fields from the **Selected fields** area
+
+    Or
+  
+    Click the ![](assets/plus-icon.png) icon to add fields from the **Unselected fields** area. 
+
+    >[!NOTE]
+    >
+    >If you don't select any fields, the **Name** field is selected by default.
+    
 1. (Optional and conditional) If you select to link a number, currency, percentage, or date-type field, also select how you want the values for the linked fields to be displayed, when users select more than one linked record in the linked record field. 
 
     ![](assets/linked-field-aggregators-for-relationship-fields.png)
@@ -127,29 +151,29 @@ You can create a Relationship-type field to connect two record types and their f
     >
     >For more information, see the [Example of creating and updating a Relationship-type field](#example-of-creating-and-updating-a-relationship-type-field) section in this article. 
 
-1. Click **Create**.
+1. (Optional) Select the fields that belong to the linked record type that you want to display as linked fields on the original records. Use the **search** icon ![](assets/search-icon.png) to search for a field. 
 
-    The following relationship-type fields (or columns) are added to the original record type in the table view:
-        
-    * The linked record field with the name you selected in step 2. <!--ensure this stays accurate--> 
-    * The linked field from the linked record, which is named according to this pattern: 
+    This creates the linked field columns in the table view of the record type. A column or a linked field is added for each field you add from the linked record type. 
+
+    If you don't select any of the fields, the Name of the linked record is the only visible field in the original record's table view and in the Details page of the records.  
+
+1. Click **Add fields** to save your changes.<!-- is this the right button? I asked Lusine to replace with "Add"-->
+   <!--insert screen shot-->
+
+    The following are added: 
+
+    * The linked record field that displays the linked record type, which is named according to this pattern: 
 
         `<Name of the original field on the linked record> (from <Name of your linked field>)`
 
-    The following relationship-type field is added to the linked record type: 
+    * The linked fields from the linked record type. 
+    For more information, see the [Example of creating and updating a Relationship-type field](#example-of-creating-and-updating-a-relationship-type-field) section in this article. 
 
-    * The field that indicates what record type the linked record type is linking from. The relationship-type field of the linked record type uses the same name as the original record type. For more information, see the [Example of creating and updating a Relationship-type field](#example-of-creating-and-updating-a-relationship-type-field) section in this article. 
+1. (Optional) From either the original record type or the linked record type table view, click the drop-down to the right of the relationship-type record field, then click **Edit field**. 
 
-1. (Optional) From either the original record type or the linked record type table view, click the drop-down to the right of the relationship-type record field, then click Edit field. 
+    <!--insert screen shot-->
 
-    ![](assets/edit-field-on-relationship-record-field.png)
-1. Select additional fields at the bottom of the **New field** tab, to add more linked field to the record type table, then click **Save**.   
-
-    ![](assets/add-fields-to-record-relationship-field-when-editing-relationship-field.png)
-
-    A new linked field is added to the record type table for each field you selected. The new relationship fields are named according to the following pattern: 
-
-    `<Name of the original field on the linked record> (from <Name of your linked field>)`
+<!--***************************LEFT HERE************************-->
 
 ### Example of creating and updating a Relationship-type field
 

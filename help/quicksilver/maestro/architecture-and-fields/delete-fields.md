@@ -74,7 +74,7 @@ Consider the following when deleting Maestro fields:
 1. Find the field you want to delete in the column headers, and hover over the column header, then click the downward-pointing arrow after the field name. 
 1. Click **Delete**. <!-- check this: they might replace it with **Delete field**-->
 
-    ![](assets/field-menu-in-table.png)
+    <!--insert screen shot when finalized-->
 
 1. Click **Delete** to confirm. 
 

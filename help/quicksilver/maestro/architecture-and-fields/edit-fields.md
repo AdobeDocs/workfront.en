@@ -74,13 +74,17 @@ Consider the following when editing fields:
 
 ## Edit fields
 
-1. Go to the record type you want to edit a field for. 
-1. Find the field you want to edit in the column headers, hover over the column header, then click the downward-pointing arrow after the field name, and click **Edit field**.
+1. Go to the record type you want to edit a field for and find the field you want to edit in the column headers. 
+1. Hover over the column header, then click the downward-pointing arrow after the field name.
+1. Click **Edit field**, then update information about the field and click **Save**.
 
-  ![](assets/field-menu-in-table.png)
+    <!--insert screen shot when finalized-->
 
-1. Update information about the field. 
+    >[!TIP]
+    >
+    >You cannot update the field type after the field is saved.
 
-    You cannot update the field type after the field is saved.
 
-1. Click **Save**.
+1. (Conditional) For linked record fields, click **Edit lookup fields** and add or remove any of the fields from the linked record type.
+  
+    For more information, see [Manage Relationship-type fields](../architecture-and-fields/manage-relationship-fields.md). 

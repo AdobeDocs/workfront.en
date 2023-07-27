@@ -101,7 +101,7 @@ You must create record types before you can create fields to associate with them
         
             <!--* Importing record types with fields using a CSV or an Excel file. - this is not available yet-->
 
-            For more information about creating Maestro record types by connecting them to object types from other applications, see [Import records from Adobe Workfront](../maestro/import-records-from-workfront.md).
+            For more information about creating Maestro record types by connecting them to object types from other applications, see [Connect records to objects from other applications](../architecture-and-fields/connect-records-to-other-applications-objects.md). 
 
     * Manually:
 
