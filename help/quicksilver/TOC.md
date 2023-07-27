@@ -14,8 +14,8 @@ feature-set: Workfront
     * [Adobe Workfront release schedule and process](product-announcements/product-releases/workfront-release-schedule.md)
     * [Prepare for an Adobe Workfront quarterly release](product-announcements/product-releases/release-readiness.md)
     * 2023 Q4 Release {#release-23-q4}
-      * [2023 Q4 Release overview](product-announcements/product-releases/23.q4-release-activity/23-q4-release-overview.md)
-      * [2023 Q4 Release week of July 24, 2023](/help/quicksilver/product-announcements/product-releases/23.q4-release-activity/23-q4-july-26.md)
+      * [2023 Q4 Release overview](product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md)
+      * [2023 Q4 Release week of July 24, 2023](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-july-26.md)
     * 23.3 Release {#release-23-3}
       * [23.3 Release overview](product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md)
       * [23.3 Administrator enhancements](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-admin-enhancements.md)
