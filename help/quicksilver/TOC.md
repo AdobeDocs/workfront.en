@@ -13,6 +13,9 @@ feature-set: Workfront
     * [Product releases overview](product-announcements/product-releases/product-releases.md)
     * [Adobe Workfront release schedule and process](product-announcements/product-releases/workfront-release-schedule.md)
     * [Prepare for an Adobe Workfront quarterly release](product-announcements/product-releases/release-readiness.md)
+    * 2023 Q4 Release {#release-23-q4}
+      * [2023 Q4 Release overview](product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md)
+      * [2023 Q4 Release week of July 24, 2023](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-july-26.md)
     * 23.3 Release {#release-23-3}
       * [23.3 Release overview](product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md)
       * [23.3 Administrator enhancements](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-admin-enhancements.md)
@@ -441,7 +444,7 @@ feature-set: Workfront
       * [How new access levels work](administration-and-setup/add-users/how-access-levels-work/access-levels-toc.md)
       * [New access levels overview](administration-and-setup/add-users/how-access-levels-work/access-level-overview.md)
       * [New licenses overview](administration-and-setup/add-users/how-access-levels-work/licenses-overview.md)
-      * [Access to objects and areas by for new licenses](administration-and-setup/add-users/how-access-levels-work/access-to-objects-areas-license-types.md)
+      * [Access to objects and areas by new licenses](administration-and-setup/add-users/how-access-levels-work/access-to-objects-areas-license-types.md)
       * [Functionality available for each object type for new access levels](administration-and-setup/add-users/how-access-levels-work/functionality-available-for-objects.md)
       * [Disable the auto-upgrade option for non-paid users on the new licensing plan](administration-and-setup/add-users/how-access-levels-work/disable-auto-upgrade.md)
     * How access levels work {#legacy-access-levels}

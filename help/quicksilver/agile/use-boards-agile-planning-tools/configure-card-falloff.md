@@ -5,6 +5,7 @@ navigation-topic: boards
 title: Configure card falloff
 description: You can configure a board so that cards are archived, or fall off the board, on a schedule.
 author: Lisa
+feature: Agile
 exl-id: 0e4f6b3c-75aa-4314-9cb0-737e5a9d3bda
 ---
 # Configure card falloff
