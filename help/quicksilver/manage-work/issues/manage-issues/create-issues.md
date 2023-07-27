@@ -11,7 +11,7 @@ exl-id: 2a4488fb-fe2f-422a-887c-996f6367afc5
 ---
 # Create issues
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> -->
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span>
 
 <!--remove Preview and Prod references when this comes to Prod-->
 
@@ -75,12 +75,9 @@ For information about creating issues by submitting them to a request queue, see
 
 After you have defined the fields of a new issue form on your project, you can start creating issues.
 
-<!--
 Creating issues differs depending on which environment you choose to create the issue. 
 
 ### Create issues on a task or project using the New Issue button in the Production environment
-
--->
 
 To create an issue on a task or a project:
 
@@ -135,7 +132,7 @@ To create an issue on a task or a project:
 
 Issues can be assigned to multiple users, job roles or to a team. For more information about assigning and managing requests, see [Manage work and team requests](../../../people-teams-and-groups/work-with-team-requests/manage-work-and-team-requests.md).
 
-<!--When this is coming to Production, remove the "Production" section above and replace it with the following content: 
+<!--When this is coming to Production, remove the "Production" section above and replace it with the following content: -->
 
 <div class="preview">
 
@@ -194,10 +191,6 @@ To create an issue on a task or a project:
    Issues can be assigned to multiple users, job roles or to a team. For more information about assigning and managing requests, see [Manage work and team requests](../../../people-teams-and-groups/work-with-team-requests/manage-work-and-team-requests.md).
 
 </div>
--->
-
-
-
 
 ## Create issues on a task or project inline
 
