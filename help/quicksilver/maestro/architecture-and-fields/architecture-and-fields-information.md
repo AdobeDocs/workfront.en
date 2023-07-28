@@ -28,4 +28,5 @@ This articles in the following sections describe how you can configure Maestro a
 * [Delete record types and taxonomies](../architecture-and-fields/delete-record-types-and-taxonomies.md)
 * [Delete fields in Adobe Maestro](../architecture-and-fields/delete-fields.md)
 * [Manage Relationship-type fields in Adobe Maestro](../architecture-and-fields/manage-relationship-fields.md)
+* [Workspace templates](../architecture-and-fields/workspace-templates.md)
 

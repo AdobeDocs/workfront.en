@@ -61,7 +61,7 @@ You must have the following access to perform the steps in this article:
 
 >[!NOTE]
 >
->*If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see [Create or modify custom access levels](../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+>*If you don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see [Create or modify custom access levels](../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
 ## Manage the timeline view {#manage-the-timeline-view}
 
@@ -84,8 +84,6 @@ Consider the following:
      * Edit record information
 --> 
 
-## Manage the timeline view
-
 When creating a timeline view, all records of the selected record type display in a timeline as bars.  
 
 To manage a timeline view: 
@@ -101,6 +99,22 @@ To manage a timeline view:
     * [Settings](#edit-the-timeline-view-settings)
 
 ### Add filters
+
+Filters help you reduce the amount of information displayed on the screen.
+
+Consider the following when working with filters in the timeline view: 
+
+<!-- this list is almost identical to the one for the table view - update both-->
+
+* You can apply filters both in the table and timeline views. 
+
+* The filters are dependent on the view you select. Two timeline views of the same record type can have different filters applied to them. 
+
+* You cannot name the filters you build and apply to a timeline view.
+
+* The filters you create are preserved and all users that can access Maestro view the record type timeline with the same filters applied as you when viewing the record type page in the same view. 
+
+* Removing filters removes them from anyone accessing the same record type as you.
 
 Adding filters in the timeline view is identical to adding filters in the table view. 
 
@@ -159,7 +173,7 @@ Update the timeline view settings to indicate what information should display in
 
 1. Create a timeline view, as described the article [Manage record views](../views/manage-record-views.md). 
 1. Click **Settings**. 
-1. Click **Date and time**, then select a **Start date** and an **End date** to display on the timeline. You can choose the default Start and End dates, or you can choose any date field available. Start dates are required. The bars representing the records start on the date you indicate for the Start date and end on the date corresponding with the End date. <!--add what happens for records that don't have an end date; how do they display??-->
+1. Click **Date and time**, then select a **Start date** and an **End date** to display on the timeline. You can choose the default Start and End dates, or you can choose any date field available. The bars representing the records start on the date you indicate for the Start date and end on the date corresponding with the End date. <!--add what happens for records that don't have an end date; how do they display??-->
 1. Click **Record details**. The Name field is selected by default.
 1. Click **Add field** to add up to 4 fields to the record bars.
 1. Click inside the **Search fields** box, and click the field you want to add. 
@@ -168,7 +182,7 @@ Update the timeline view settings to indicate what information should display in
     >
     >    You must create the fields before you can add them to the record bars. 
     > 
-    >    You must have at least one field selected. 
+    >    You must have at least one field selected. **Name** is selected by default.
 
     A preview of what the bars will look like on the timeline displays on the right.
 

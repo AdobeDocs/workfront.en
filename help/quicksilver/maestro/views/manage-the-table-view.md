@@ -62,7 +62,7 @@ You must have the following access to perform the steps in this article:
 
 >[!NOTE]
 >
->*If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see [Create or modify custom access levels](../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+>*If you don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see [Create or modify custom access levels](../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
 ## Manage the table view {#manage-the-table-view}
 
@@ -132,88 +132,94 @@ Adding rows to a Maestro table view is identical to creating records in a table.
 Filters help you reduce the amount of information displayed on the screen.
 
 Consider the following when working with filters in the table view: 
+<!-- this list is almost identical to the one for the table view - update both-->
 
-* You can apply filters both in the table and timeline views. The filters of the table view are independent from those in the timeline view of the same record type. 
+* You can apply filters both in the table and timeline views. 
+
+* The filters are dependent on the view you select. Two table views of the same record type can have different filters applied to them. 
 
 * You cannot name the filters you build and apply to a table view.
 
-* The filters you create are preserved and all users that can access Maestro view the record table with the same filters applied as you. 
+* The filters you create are preserved and all users that can access Maestro view the record type table with the same filters applied as you when viewing the record type page in the same view. 
 
 * Removing filters removes them from anyone accessing the same record type as you.
-
-* There is no limit to how many filters you can apply to a table. 
 
 To add a filter to a table view: 
 
 1. Create a table view, as described in the article [Manage record views](../views/manage-record-views.md). 
 1. Select a table view, then click **Filters** in the upper-right corner of the table.    
-1. Start typing a field in the **Select a field** box, then click it when it appears in the list. This is the field that you want to filter by. 
+1. Click **Add condition** and add the following information: 
 
-    ![](assets/filter-ui-table-view.png)
+    * Select a field you want to filter by
+    * Select an option (or a filter modifier) to define what kind of condition the field must meet
 
-1. Select one of available modifiers from the **Select an option** drop-down menu. 
+        The following table lists the available modifiers for each type of field:
 
+        <table>
+        <thead>
+        <tr>
+            <th><b>Field type</b></th>
+            <th><b>Modifiers</b></th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>Single-line, paragraph </td>
+            <td><p>Contains</p>
+            <p>Does not contain</p>
+            <p>Is</p>
+            <p>Is not</p>
+            <p>Is empty</p>
+            <p>Is not empty</p></td>
+        </tr>
+        <tr><td>Single-select</td>
+            <td><p>Is</p>
+            <p>Is not</p>
+            <p>Is any of</p>
+            <p>Is none of</p>
+            <p>Is empty</p>
+            <p>Is not empty</p></td>
+        </tr>
+        <tr>
+            <td>Multi-select</td>
+            <td><p>Has any of</p>
+            <p>Has all of</p>
+            <p>Is exactly</p>
+            <p>Has none of</p>
+            <p>Is empty</p>
+            <p>Is not empty</p></td>
+        </tr>
+        <tr>
+            <td>Numeric, percentage, currency</td>
+            <td><p>=</p>
+            <p>≠</p>
+            <p><</p>
+            <p>></p>
+            <p>≤</p>
+            <p>≥</p>
+            <p>Is empty</p>
+            <p>Is not empty</p></td>
+        </tr>
+        <tr>
+            <td>Date</td>
+            <td><p>Is</p>
+            <p>Is not</p>
+            <p>Is after</p>
+            <p>Is before</p>
+            <p>Is between</p><p>Is not between</p>
+            <p>Is empty</p><p>Is not empty</p></td>
+        </tr>
+        </tbody>
+        </table> 
 
-    The following table lists the available modifiers for each type of field:
+    * Select a value for the field selected. 
 
-    <table>
-    <thead>
-    <tr>
-        <th><b>Field type</b></th>
-        <th><b>Modifiers</b></th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr>
-        <td>Single-line, paragraph </td>
-        <td><p>Contains</p>
-        <p>Does not contain</p>
-        <p>Is</p>
-        <p>Is not</p>
-        <p>Is empty</p>
-        <p>Is not empty</p></td>
-    </tr>
-    <tr><td>Single-select</td>
-        <td><p>Is</p>
-        <p>Is not</p>
-        <p>Is any of</p>
-        <p>Is none of</p>
-        <p>Is empty</p>
-        <p>Is not empty</p></td>
-    </tr>
-    <tr>
-        <td>Multi-select</td>
-        <td><p>Has any of</p>
-        <p>Has all of</p>
-        <p>Is exactly</p>
-        <p>Has none of</p>
-        <p>Is empty</p>
-        <p>Is not empty</p></td>
-    </tr>
-    <tr>
-        <td>Numeric, percentage, currency</td>
-        <td><p>=</p>
-        <p>≠</p>
-        <p><</p>
-        <p>></p>
-        <p>≤</p>
-        <p>≥</p>
-        <p>Is empty</p>
-        <p>Is not empty</p></td>
-    </tr>
-    <tr>
-        <td>Date</td>
-        <td><p>Is</p>
-        <p>Is not</p>
-        <p>Is after</p>
-        <p>Is before</p>
-        <p>Is between</p><p>Is not between</p>
-        <p>Is empty</p><p>Is not empty</p></td>
-    </tr>
-    </tbody>
-    </table>
+     ![](assets/filter-ui-table-view.png)
 
-1. Type the value for the field that you want to filter for.
+    The list of records is filtered automatically. 
+
+    There is no limit to how many filtering conditions you can add.    
+
 1. (Optional) Click **Add condition** to add another filtering option and repeat the above steps. The number of filters applied displays to the right of the Filters icon. 
 1. Click the following operators to indicate how the filter conditions are joined and should be applied:
 
@@ -222,6 +228,7 @@ To add a filter to a table view:
     
     The results found after applying the filter display automatically. <!--at this time, you can't name and save the filter - but will this change?!-->
     <!-- asked on the task for the simple filters whether there is a limitation for how many statements a filter can have?!-->
+    
 1. (Optional) Click **Filters**, then click the **x** icon to remove a filter.
 
 <!-- this is not available yet
@@ -236,7 +243,7 @@ You can apply groupings both in the table and timeline views. The groupings of t
 
 Consider the following:
 
-* You can apply 3 levels of grouping in a Maestro view. The records are grouped in the order of groupings that you select. 
+* You can apply 3 levels of grouping in a Maestro view. The records are grouped in the order of groupings that you select. (***************check on this; this might be true for timeline, but not for table??? One dev said in a demo that there are unlimited groupings in a table - check *********************)
 * You can apply up to 4 levels of grouping when using the API. 
 
 To add a grouping:
