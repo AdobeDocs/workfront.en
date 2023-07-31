@@ -355,7 +355,7 @@ The 23.3 release webinar was on June 29, 2023. You can [register for the webinar
                             </li>
                             <li>
                                 <p>Production release for the Fast release customers: To be announced, after the 23.3 Production release</p>
-                                <p>Production release for all customers: With the 23.4 release<br>
+                                <p>Production release for all customers: With the 23.10 release (October 2023)<br>
                                 The assignment rate override feature was temporarily disabled in Preview from June 30 to July 13, 2023.</p>
                             </li>
                         </ul>
@@ -582,7 +582,7 @@ The 23.3 release webinar was on June 29, 2023. You can [register for the webinar
                  <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-mobile-enhancements.md" class="MCXref xref" xrefformat="{para}">New proof functionality in the Workfront mobile app</a> </p>
-                        <p>With the deprecation of the standalone Workfront Proof app in 23.4, the primary Workfront mobile app has had  proofing features added to allow for proofing on mobile to continue.</p>
+                        <p>With the deprecation of the standalone Workfront Proof app in the 23.10 release (October 2023), the primary Workfront mobile app has had  proofing features added to allow for proofing on mobile to continue.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
                         <ul>
@@ -642,7 +642,7 @@ The 23.3 release webinar was on June 29, 2023. You can [register for the webinar
                             </li>
                             <li>
                                 <p>Production release for the Fast release customers: To be announced, after the 23.3 Production release </p>
-                                <p>Production release for all customers: With the 23.4 release</p>
+                                <p>Production release for all customers: With the 23.10 release (October 2023)</p>
                             </li>
                         </ul>
                     </td>
@@ -771,11 +771,11 @@ Explore the latest updates made to learning programs, learning paths, videos, an
 
 The following functionality is soon to be removed from Workfront:
 
-#### Deprecation of the Proof mobile app with 23.4
+#### Deprecation of the Proof mobile app with the 23.10 release (October 2023)
 
-We will be officially deprecating the Proof mobile app with the 23.4 release. The general Workfront mobile app has been enhanced with new proofing functionality (see the release note under Workfront Mobile enhancements for more information), and users are advised to begin using it for proofing work as soon as possible.
+We will be officially deprecating the Proof mobile app with the 23.10 release (October 2023). The general Workfront mobile app has been enhanced with new proofing functionality (see the release note under Workfront Mobile enhancements for more information), and users are advised to begin using it for proofing work as soon as possible.
 
-Note that the Workfront mobile app requires a Workfront login. External users and guests can continue to use the Proof app for proofing work; however, it is no longer supported and will become unavailable with 23.4.
+Note that the Workfront mobile app requires a Workfront login. External users and guests can continue to use the Proof app for proofing work; however, it is no longer supported and will become unavailable with the 23.10 release (October 2023).
 
 
 <!-- HTML you might need
