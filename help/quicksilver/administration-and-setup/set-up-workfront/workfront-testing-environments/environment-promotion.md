@@ -16,7 +16,7 @@ TO DO
 
 Overview of value
 Check for any code changes
-Fix {{}}
+Fix {}
 Add to tocs
 -->
 
@@ -162,7 +162,7 @@ The second step uses the the `objectCollections` array provided in the POST body
 #### URL
 
 ```
-POST https://<domain>.<environment>.workfront.com/environment-promotion/api/v1/packages
+POST https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/packages
 ```
 
 #### Headers
@@ -180,7 +180,7 @@ POST https://<domain>.<environment>.workfront.com/environment-promotion/api/v1/p
 {
     "packageName": "Agency Onboarding - 2023-06-06",
     "description": "This promotion package contains configuration to support the agency onboarding processes...",
-    "source": "https://{{domain}}.{{env}}.workfront.com",
+    "source": "https://{domain}.{environment}.workfront.com",
     "objectCollections": [
         {
             "objCode": "PROJ",
@@ -258,7 +258,7 @@ The response will include all packages created from any of the customer's sandbo
 #### URL
 
 ```
-GET https://{{domain}}.{{env}}.workfront.com/environment-promotion/api/v1/packages
+GET https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/packages
 ```
 
 #### Headers
@@ -306,7 +306,7 @@ _Empty_
  <col> 
  <tbody> 
   <tr> 
-   <td><code>GET /packages/{{id}}</code></td> 
+   <td><code>GET /packages/{id}</code></td> 
   </tr> 
   </tbody> 
 </table>
@@ -318,7 +318,7 @@ The request can be made through any environment regardless of the original sourc
 #### URL
 
 ```
-GET https://{{domain}}.{{env}}.workfront.com/environment-promotion/api/v1/packages/{{id}}
+GET https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/packages/{id}
 ```
 
 #### Headers
@@ -383,7 +383,7 @@ _Empty_
  <col> 
  <tbody> 
   <tr> 
-   <td><code>GET /packages/{{id}}/definition</code></td> 
+   <td><code>GET /packages/{id}/definition</code></td> 
   </tr> 
   </tbody> 
 </table>
@@ -391,7 +391,7 @@ _Empty_
 #### URL
 
 ```
-GET https://{{domain}}.{{env}}.workfront.com/environment-promotion/api/v1/packages/{{id}}/definition
+GET https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/packages/{id}/definition
 ```
 
 #### Headers
@@ -454,7 +454,7 @@ _Empty_
  <col> 
  <tbody> 
   <tr> 
-   <td><code>PUT /packages/{{id}}</code></td> 
+   <td><code>PUT /packages/{id}</code></td> 
   </tr> 
   </tbody> 
 </table>
@@ -505,7 +505,7 @@ Status options include:
 #### URL
 
 ```
-PUT https://{{domain}}.{{env}}.workfront.com/environment-promotion/api/v1/packages/{{id}}
+PUT https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/packages/{id}
 ```
 
 #### Headers
@@ -523,7 +523,7 @@ PUT https://{{domain}}.{{env}}.workfront.com/environment-promotion/api/v1/packag
 {
     "packageName": "Agency Onboarding - 2023-06-06",
     "description": "This promotion package contains configuration to support the agency onboarding processes... with a description change",
-    "source": "https://{{domain}}.{{env}}.workfront.com",
+    "source": "https://{domain}.{environment}.workfront.com",
     "status": "TESTING",
     "version": 1,
     "metadata": {
@@ -610,7 +610,7 @@ PUT https://{{domain}}.{{env}}.workfront.com/environment-promotion/api/v1/packag
  <col> 
  <tbody> 
   <tr> 
-   <td><code>PATCH /packages/{{id}}</code></td> 
+   <td><code>PATCH /packages/{id}</code></td> 
   </tr> 
   </tbody> 
 </table>
@@ -638,7 +638,7 @@ Providing the `objectCollections` will initiate a re-extraction from the `source
 #### URL
 
 ```
-PATCH https://{{domain}}.{{env}}.workfront.com/environment-promotion/api/v1/packages/{{id}}
+PATCH https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/packages/{id}
 ```
 
 
@@ -707,7 +707,7 @@ PATCH https://{{domain}}.{{env}}.workfront.com/environment-promotion/api/v1/pack
  <col> 
  <tbody> 
   <tr> 
-   <td><code>DELETE /packages/{{id}}</code></td> 
+   <td><code>DELETE /packages/{id}</code></td> 
   </tr> 
   </tbody> 
 </table>
@@ -721,7 +721,7 @@ This call deletes the promotion package record. This action is irreversible.
 #### URL
 
 ```
-DELETE https://{{domain}}.{{env}}.workfront.com/environment-promotion/api/v1/packages/{{id}}
+DELETE https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/packages/{id}
 ```
 
 #### Headers
@@ -787,7 +787,7 @@ There is currently no support for an UPDATE `action` in the alpha capabilities o
 #### URL
 
 ```
-POST https://{{domain}}.{{env}}.workfront.com/environment-promotion/api/v1/translationmap
+POST https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/translationmap
 ```  
  
 #### Headers 
@@ -837,7 +837,7 @@ If a `translationmap` is provided in the POST body, the installation process wil
 #### URL
 
 ```
-POST https://{{domain}}.{{env}}.workfront.com/environment-promotion/api/v1/install
+POST https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/install
 ```
 
 #### Headers
@@ -873,7 +873,7 @@ POST https://{{domain}}.{{env}}.workfront.com/environment-promotion/api/v1/insta
  <col> 
  <tbody> 
   <tr> 
-   <td><code>GET /installation-history?packageId={{id}}
+   <td><code>GET /installation-history?packageId={id}
 </code></td> 
   </tr> 
   </tbody> 
@@ -884,7 +884,7 @@ The results include installation events from all environments the package has be
 #### URL
 
 ```
-GET https://{{domain}}.{{env}}.workfront.com/environment-promotion/api/v1/installation-history?packageId={{id}}
+GET https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/installation-history?packageId={id}
 ```
 
 #### Headers
@@ -914,7 +914,7 @@ _Empty_
         "userId": "8fbbc5bcf4f94a5b862483ee05573e73",
         "customerId": "54286d78b064451096752b99bf968481",
         "status": "COMPLETED",
-        "environment": "https://{{domain}}.{{env}}.workfront.com",
+        "environment": "https://{domain}.{environment}.workfront.com",
         "registeredAt": "2021-03-16T02:21:31.908Z",
         "updatedAt": null,
         "translationMap": {
@@ -955,7 +955,7 @@ _Empty_
  <col> 
  <tbody> 
   <tr> 
-   <td><code>GET /installation-history/{{id}}</code></td> 
+   <td><code>GET /installation-history/{id}</code></td> 
   </tr> 
   </tbody> 
 </table>
@@ -973,7 +973,7 @@ If the record has a CREATE `action` but it fails to successfully create the reco
 #### URL
 
 ```
-GET https://{{domain}}.{{env}}.workfront.com/environment-promotion/api/v1/installation-history/{{id}}
+GET https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/installation-history/{id}
 ```
 
 #### Headers
@@ -1002,7 +1002,7 @@ _Empty_
     "userId": "8fbbc5bcf4f94a5b862483ee05573e73",
     "customerId": "54286d78b064451096752b99bf968481",
     "status": "COMPLETED",
-    "environment": "https://{{domain}}.{{env}}.workfront.com",
+    "environment": "https://{domain}.{environment}.workfront.com",
     "registeredAt": "2021-03-16T02:21:31.908Z",
     "updatedAt": null,
     "translationMap": {
