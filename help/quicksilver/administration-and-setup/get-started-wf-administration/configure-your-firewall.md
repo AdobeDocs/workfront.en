@@ -53,7 +53,7 @@ To locate your organization's cluster:
 
    CL01 refers to Cluster 1, CL02 is Cluster 2, and so on.
 
-For more information, see the section [Configure Basic Info](../../administration-and-setup/get-started-wf-administration/configure-basic-info.md#configuring-basic-info) in the article [Configure basic information for your system](../../administration-and-setup/get-started-wf-administration/configure-basic-info.md).
+For more information, see the section [View your organization's cluster and Workfront plan](../../administration-and-setup/get-started-wf-administration/firewall-overview.md#view-your-organizations-cluster-and-workfront-plan) in the article [Firewall overview](../../administration-and-setup/get-started-wf-administration/firewall-overview.md).
 
 ## IP addresses to add to the allowlist
 

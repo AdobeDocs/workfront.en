@@ -51,13 +51,7 @@ Provide your network administrator with the following information:
   </tr> 
   <tr> 
    <td role="rowheader">Your Workfront Plan</td> 
-   <td> <p>Your organization's plan is one of the following:</p> 
-    <ul> 
-     <li> <p>Enterprise </p> </li> 
-     <li> <p>Business </p> </li> 
-     <li> <p>Pro </p> </li> 
-     <li> <p>Team </p> </li> 
-    </ul> <p>To locate your plan, see <a href="#view-your-organization-s-cluster-and-workfront-plan" class="MCXref xref">View your organization's cluster and Workfront plan.</a></p> </td> 
+   <td> <p>To locate your organization's plan, see <a href="#view-your-organization-s-cluster-and-workfront-plan" class="MCXref xref">View your organization's cluster and Workfront plan.</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Your domain</td> 
