@@ -23,3 +23,4 @@ Add the Workfront IP addresses to the Adobe Cloud Manager allowlist.
 * For instructions on adding IP addresses to your Adobe Cloud Manager, see [Introduction to IP Allow Lists](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/ip-allow-lists/introduction.html?lang=en) in the Adobe Experience Manager documentation.
 * For a list of Workfront IP addresses to add to the allowlist, see [Configure your firewall](/help/quicksilver/administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
 
+ 
