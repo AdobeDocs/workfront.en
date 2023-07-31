@@ -144,9 +144,9 @@ The Environment Promotion capability is intended to provide the ability to move 
 
 This call executes a multi-step process. 
 
-The first step results in the creation of an empty promotion package in the status of "EXTRACTING".
+The first step results in the creation of an empty promotion package in the status of "ASSEMBLING".
 
-The second step uses the the `objectCollections` array provided in the POST body to assemble the requested records from Workfront. This step may take several minutes to complete, depending on the number of records requested and your Workfront configuration. At the end of this process, the empty promotion package is updated with the `packageEntities` and the status is automatically set to "BUILDING".
+The second step uses the the `objectCollections` array provided in the POST body to assemble the requested records from Workfront. This step may take several minutes to complete, depending on the number of records requested and your Workfront configuration. At the end of this process, the empty promotion package is updated with the `packageEntities` and the status is automatically set to "DRAFT".
 
 
 >[!NOTE]
@@ -162,7 +162,7 @@ The second step uses the the `objectCollections` array provided in the POST body
 #### URL
 
 ```
-POST https://<domain>.<environment>.workfront.com/environment-promotion/v1/packages
+POST https://<domain>.<environment>.workfront.com/environment-promotion/api/v1/packages
 ```
 
 #### Headers
@@ -229,7 +229,7 @@ POST https://<domain>.<environment>.workfront.com/environment-promotion/v1/packa
         "id": "1d5693b9-b7b5-492d-8219-c21f34bcaca6",
         "name": "Agency Onboarding - 2023-06-06",
         "description": "This promotion package contains configuration to support the agency onboarding processes...",
-        "status": "EXTRACTING",
+        "status": "ASSEMBLING",
         "version": 1,
         "installationCounts": {},
         "createdAt": "2023-06-06T17:29:21.600Z",
@@ -258,7 +258,7 @@ The response will include all packages created from any of the customer's sandbo
 #### URL
 
 ```
-GET https://{{domain}}.{{env}}.workfront.com/environment-promotion/v1/packages
+GET https://{{domain}}.{{env}}.workfront.com/environment-promotion/api/v1/packages
 ```
 
 #### Headers
@@ -286,7 +286,7 @@ _Empty_
             "id": "1d5693b9-b7b5-492d-8219-c21f34bcaca6",
             "name": "Agency Onboarding - 2023-06-06",
             "description": "This promotion package contains configuration to support the agency onboarding processes...",
-            "status": "EXTRACTING",
+            "status": "ASSEMBLING",
             "version": 1,
             "installationCounts": {},
             "createdAt": "2023-06-06T17:29:21.600Z",
@@ -318,7 +318,7 @@ The request can be made through any environment regardless of the original sourc
 #### URL
 
 ```
-GET https://{{domain}}.{{env}}.workfront.com/environment-promotion/v1/packages/{{id}}
+GET https://{{domain}}.{{env}}.workfront.com/environment-promotion/api/v1/packages/{{id}}
 ```
 
 #### Headers
@@ -345,7 +345,7 @@ _Empty_
         "id": "1d5693b9-b7b5-492d-8219-c21f34bcaca6",
         "name": "Agency Onboarding - 2023-06-06",
         "description": "This promotion package contains configuration to support the agency onboarding processes...",
-        "status": "BUILDING",
+        "status": "DRAFT",
         "version": 1,
         "installationCounts": {},
         "createdAt": "2023-06-06T17:29:21.600Z",
@@ -391,7 +391,7 @@ _Empty_
 #### URL
 
 ```
-GET https://{{domain}}.{{env}}.workfront.com/environment-promotion/v1/packages/{{id}}/definition
+GET https://{{domain}}.{{env}}.workfront.com/environment-promotion/api/v1/packages/{{id}}/definition
 ```
 
 #### Headers
@@ -480,24 +480,24 @@ Status options include:
  <col> 
  <tbody> 
   <tr> 
-   <td>EXTRACTING</td> 
+   <td>ASSEMBLING</td> 
    <td><p>This status is automatically assigned while objects are being assembled.</p><p>This status cannot be set by a customer directly.</p></td> 
   </tr> 
   <tr> 
-   <td>BUILDING</td> 
+   <td>DRAFT</td> 
    <td><p>This status is assigned at the conclusion of an assembly process or when creating an empty promotion package.</p><p>It is possible for a customer to move the promotion package back to this status.</p><p>While in this status the promotion package cannot be installed in any environment.</p></td> 
   </tr> 
   <tr> 
-   <td>PREVIEW</td> 
+   <td>TESTING</td> 
    <td><p>This status allows a promotion package to be installed in any Preview or Custom Refresh sandbox. While in this status the package cannot be installed in Production.</p></td> 
   </tr> 
   <tr> 
-   <td>PUBLIC</td> 
-   <td><p>This status allows a promotion package to be installed in any environment, including Production.</p><p>When a package status is set to PUBLIC, the <code>publishedAt</code> date is automatically set to the current timestamp of the request.</p></td> 
+   <td>ACTIVE</td> 
+   <td><p>This status allows a promotion package to be installed in any environment, including Production.</p><p>When a package status is set to ACTIVE, the <code>publishedAt</code> date is automatically set to the current timestamp of the request.</p></td> 
   </tr> 
   <tr> 
-   <td>RETIRED</td> 
-   <td><p>This status will be used to hide previously used promotion packages that will not be installed into any environment in the future.</p><p>When a package is in this status, it cannot be installed into any environment.</p><p>When a package status is set to RETIRED, the <code>retiredAt</code> date is automatically set to the current timestamp of the request.</p><p>Using this status is recommended over using the<code>DELETE /package</code> endpoint because it is retrievable and the installation history is retained for any deployments made with this package.</p></td> 
+   <td>DISABLED</td> 
+   <td><p>This status will be used to hide previously used promotion packages that will not be installed into any environment in the future.</p><p>When a package is in this status, it cannot be installed into any environment.</p><p>When a package status is set to DISABLED, the <code>retiredAt</code> date is automatically set to the current timestamp of the request.</p><p>Using this status is recommended over using the<code>DELETE /package</code> endpoint because it is retrievable and the installation history is retained for any deployments made with this package.</p></td> 
   </tr> 
   </tbody> 
 </table>
@@ -505,7 +505,7 @@ Status options include:
 #### URL
 
 ```
-PUT https://{{domain}}.{{env}}.workfront.com/environment-promotion/v1/packages/{{id}}
+PUT https://{{domain}}.{{env}}.workfront.com/environment-promotion/api/v1/packages/{{id}}
 ```
 
 #### Headers
@@ -524,7 +524,7 @@ PUT https://{{domain}}.{{env}}.workfront.com/environment-promotion/v1/packages/{
     "packageName": "Agency Onboarding - 2023-06-06",
     "description": "This promotion package contains configuration to support the agency onboarding processes... with a description change",
     "source": "https://{{domain}}.{{env}}.workfront.com",
-    "status": "PREVIEW",
+    "status": "TESTING",
     "version": 1,
     "metadata": {
         "displayOrder": ["GROUP","ROLE","TMPL","PROJ","PTLTAB"],
@@ -572,7 +572,7 @@ PUT https://{{domain}}.{{env}}.workfront.com/environment-promotion/v1/packages/{
         "id": "1d5693b9-b7b5-492d-8219-c21f34bcaca6",
         "name": "Agency Onboarding - 2023-06-06",
         "description": "This promotion package contains configuration to support the agency onboarding processes...",
-        "status": "PREVIEW",
+        "status": "TESTING",
         "version": 1,
         "installationCounts": {},
         "createdAt": "2023-06-06T17:29:21.600Z",
@@ -638,7 +638,7 @@ Providing the `objectCollections` will initiate a re-extraction from the `source
 #### URL
 
 ```
-PATCH https://{{domain}}.{{env}}.workfront.com/environment-promotion/v1/packages/{{id}}
+PATCH https://{{domain}}.{{env}}.workfront.com/environment-promotion/api/v1/packages/{{id}}
 ```
 
 
@@ -654,7 +654,7 @@ PATCH https://{{domain}}.{{env}}.workfront.com/environment-promotion/v1/packages
 #### Body
 
 {
-    "status": "PUBLIC"
+    "status": "ACTIVE"
 }
 
 #### Response
@@ -669,7 +669,7 @@ PATCH https://{{domain}}.{{env}}.workfront.com/environment-promotion/v1/packages
         "id": "1d5693b9-b7b5-492d-8219-c21f34bcaca6",
         "name": "Agency Onboarding - 2023-06-06",
         "description": "This promotion package contains configuration to support the agency onboarding processes...",
-        "status": "PUBLIC",
+        "status": "ACTIVE",
         "version": 1,
         "installationCounts": {},
         "createdAt": "2023-06-06T17:29:21.600Z",
@@ -716,12 +716,12 @@ This call deletes the promotion package record. This action is irreversible.
 
 >[!NOTE]
 >
->As opposed to deleting a promotion package, the recommendation is to change the status of the package to RETIRED. This will allow the package to be retrievable and retains the installation history of where it was deployed.
+>As opposed to deleting a promotion package, the recommendation is to change the status of the package to DISABLED. This will allow the package to be retrievable and retains the installation history of where it was deployed.
 
 #### URL
 
 ```
-DELETE https://{{domain}}.{{env}}.workfront.com/environment-promotion/v1/packages/{{id}}
+DELETE https://{{domain}}.{{env}}.workfront.com/environment-promotion/api/v1/packages/{{id}}
 ```
 
 #### Headers
@@ -752,7 +752,7 @@ Deleted
  <col> 
  <tbody> 
   <tr> 
-   <td><code>POST /translationmap</code></td> 
+   <td><code>POST  {customer-domain}/environment-promotion/api/v1/packages/{id}/prepare-installation</code></td> 
   </tr> 
   </tbody> 
 </table>
@@ -787,7 +787,7 @@ There is currently no support for an UPDATE `action` in the alpha capabilities o
 #### URL
 
 ```
-POST https://{{domain}}.{{env}}.workfront.com/environment-promotion/v1/translationmap
+POST https://{{domain}}.{{env}}.workfront.com/environment-promotion/api/v1/translationmap
 ```  
  
 #### Headers 
@@ -837,7 +837,7 @@ If a `translationmap` is provided in the POST body, the installation process wil
 #### URL
 
 ```
-POST https://{{domain}}.{{env}}.workfront.com/environment-promotion/v1/install
+POST https://{{domain}}.{{env}}.workfront.com/environment-promotion/api/v1/install
 ```
 
 #### Headers
@@ -884,7 +884,7 @@ The results include installation events from all environments the package has be
 #### URL
 
 ```
-GET https://{{domain}}.{{env}}.workfront.com/environment-promotion/v1/installation-history?packageId={{id}}
+GET https://{{domain}}.{{env}}.workfront.com/environment-promotion/api/v1/installation-history?packageId={{id}}
 ```
 
 #### Headers
@@ -973,7 +973,7 @@ If the record has a CREATE `action` but it fails to successfully create the reco
 #### URL
 
 ```
-GET https://{{domain}}.{{env}}.workfront.com/environment-promotion/v1/installation-history/{{id}}
+GET https://{{domain}}.{{env}}.workfront.com/environment-promotion/api/v1/installation-history/{{id}}
 ```
 
 #### Headers
