@@ -97,6 +97,8 @@ You can add up to 500 fields (or columns) in a table view.
 1. Start adding fields (or columns), as described in the article [Create fields](../architecture-and-fields/create-fields.md). 
 
     The columns you add are visible to all uses who access the record type. 
+1. To reorder columns, grab the column header and drag and drop it in the desired position. <!--this was only possible in devTest; check to see if this was released to Prod-->
+
 <!-- not available yet
 1. To increase the width of the columns, click and drag the column separation lines and drop them in the desired spot. 
 1. To reorder the columns, click a column header and drag it, then drop it in the desired spot in the table. The changes you make to the column width and order are permanent and visible to all users who access the record type. 
