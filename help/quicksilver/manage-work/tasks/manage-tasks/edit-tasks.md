@@ -47,8 +47,13 @@ You must have the following access to perform the steps in this article:
    <td role="rowheader">Object permissions</td> 
    <td> 
     <ul> 
-     <li> <p>Contribute permissions to a task to edit it in the Task Details area </p> </li> 
-     <li> <p>Manage permissions to a task to edit it in the Edit Task box</p> </li> 
+     <li> <p>Contribute permissions to a task to edit the following information in the Task Details area: </p>
+     <ul>
+     <li>Description</li>
+     <li>Status</li>
+     </ul>  
+      </li> 
+     <li> <p>Manage permissions to a task to edit all the information in the Details area and the Edit Task box</p> </li> 
     </ul> 
     <ul> 
      <li> <p>Contribute or higher permissions to the project</p> </li> 
@@ -97,7 +102,7 @@ You can edit a task using the Edit Task or Task Details areas. The following ste
 1. Click **Projects**, then click the name of a project to open it.
 1. Click **Tasks** in the left panel. 
 1. Click the task you want to edit.
-1. (Conditional) To edit limited information about a task, as a user with Contribute permissions to the task, click **Task Details** in the left panel.
+1. (Conditional) To edit limited information about a task, click **Task Details** in the left panel.
 
    ![](assets/nwe-task-details-expanded-350x273.png)
 
