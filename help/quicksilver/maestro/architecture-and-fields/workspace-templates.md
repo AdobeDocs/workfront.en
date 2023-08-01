@@ -8,7 +8,7 @@ feature: Work Management
 role: User
 ---
 
-<!--udpate the metadata with real information when making this avilable in TOC and in the left nav-->
+<!--update the metadata with real information when making this avilable in TOC and in the left nav-->
 
 # List of available workspace templates
 

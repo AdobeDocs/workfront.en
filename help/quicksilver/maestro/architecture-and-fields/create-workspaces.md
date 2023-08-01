@@ -67,7 +67,7 @@ A workspace is a collection of operational record types and taxonomies used by a
 
 ## Create a workspace
 
-1. (Conditional) If you don't have any workspaces in your system, click the **Main Menu** icon ![](assets/main-menu-workfront.png) in the upper-right corner of Workfront, <!---or the **Main menu** icon ![](assets/main-menu-shell.png)  in the upper-left corner, if available--> then click **Maestro** ![](assets/maestro-icon.png).
+1. (Conditional) If you don't have any workspaces in your system, click the **Main Menu** icon ![](assets/main-menu-workfront.png) in the upper-right corner of Workfront, <!--or the **Main menu** icon ![](assets/main-menu-shell.png)  in the upper-left corner, if available--> then click **Maestro** ![](assets/maestro-icon.png).
 
     Or, from an existing workspace, click the downward-pointing to the right of the workspace name, then click **Create workspace**. 
 

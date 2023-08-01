@@ -13,6 +13,8 @@ You can delete records that are no longer relevant in Adobe Maestro.
 
 ## Access requirements
 
+You must have the following to perform the steps described in this article: 
+
 <table style="table-layout:auto">
  <col>
  </col>

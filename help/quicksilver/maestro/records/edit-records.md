@@ -16,6 +16,8 @@ For information, see [Create record types](../architecture-and-fields/create-rec
 
 ## Access requirements
 
+You must have the following to perform the steps described in this article: 
+
 <table style="table-layout:auto">
  <col>
  </col>
@@ -57,7 +59,7 @@ For information, see [Create record types](../architecture-and-fields/create-rec
 
 >[!NOTE]
 >
->*If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see [Create or modify custom access levels](../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+>*If you don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see [Create or modify custom access levels](../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
 ## Considerations about editing records
 
@@ -109,7 +111,7 @@ You can edit a record from the following areas:
 1. (Conditional) From the **View** drop-down menu in the upper-right corner of the table, select a table view. This should be the default view, unless you viewed the record type in the timeline view when you accessed it last. 
 
     The records associated with the selected record type display in the table view. 
-1. Click inside the row of a record to start editing information about the record inline, then press Enter to save your changes. The changes are saved automatically. 
+1. Click inside the row of a record to start editing information about the record inline, then press **Enter** on your keyboard to save your changes. The changes are saved automatically. 
 
       >[!TIP]
       >

@@ -66,7 +66,7 @@ We recommend recreating some or all of the record types and taxonomies associate
 * When you delete workspaces, all the record types, taxonomies, and their fields are also deleted. <!--asked Lilit because the confirmation says the records don't delete, but not sure how they can exist outside of a workspace?!-->
 * Deleted workspaces cannot be recovered. 
 
-## Delete  a workspace
+## Delete a workspace
 
 1. Click the **Main Menu** icon ![](assets/main-menu-workfront.png) in the upper-right corner of Workfront, <!---or the **Main menu** icon ![](assets/main-menu-shell.png)  in the upper-left corner, if available--> then click **Maestro** ![](assets/maestro-icon.png).
 

@@ -31,6 +31,8 @@ Consider the following when editing fields:
 
 ## Access requirements
 
+You must have the following to perform the steps described in this article: 
+
 <table style="table-layout:auto">
  <col>
  </col>

@@ -86,7 +86,9 @@ You must have the following access to perform the steps in this article:
 
 1. Click outside the Update record type box to save your changes. 
 1. (Optional) Click the record type from the workspace area to open the record type's page. 
-1. Click the **More** menu to the right of the record type name, then click **Rename** to rename the record type. You can also rename a record type in the header of the record type's page. <!--check to see if they renamed this to "Rename" - it kept going back and forth between Rename and Edit-->
+1. Click the **More** menu to the right of the record type name, then click **Rename** to rename the record type.  <!--check to see if they renamed this to "Rename" - it kept going back and forth between Rename and Edit-->
 
     ![](assets/more-menu-options-from-record-details-page.png) <!--check this screen shot - not sure this is valid ???-->
+
+    You can also rename a record type in the header of the record type's page.
 

@@ -11,9 +11,11 @@ hide: yes
 
 You can share a link to an Adobe Maestro record to collaborate with other users. The link opens the record's Details page. 
 
-You can share a link to the Details page of a record by copying the link of the Details page from your browser when the page is open. 
+You can share a link to a Maestro record in the following ways: 
 
-You can also copy a link to the record's Details page when viewing records in the record type table view. 
+* Copy the link of the Details page or a record from your browser when the page is open. 
+
+* Copy a link to the record's Details page when viewing records in the record type table view. 
 
 This article describes how you can copy a link to a record's Details page when working in the table view of a record type. 
 
@@ -25,6 +27,8 @@ This article describes how you can copy a link to a record's Details page when w
 - etc - others???-->
 
 ## Access requirements
+
+You must have the following to perform the steps described in this article: 
 
 <table style="table-layout:auto">
  <col>
@@ -69,7 +73,7 @@ This article describes how you can copy a link to a record's Details page when w
 >
 >*If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see [Create or modify custom access levels](../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
-## Share record links
+## Share record links from the record type table view
 
 1. Click the **Main Menu** ![](assets/main-menu-workfront.png) in the upper-right corner, or the **Main Menu** ![](assets/main-menu-shell.png) in the upper-left corner, if it is available, then click **Maestro**. 
 
@@ -86,4 +90,4 @@ This article describes how you can copy a link to a record's Details page when w
 
     The link is copied to your clipboard. 
 
-1. (Optional) Paste the link into an email, or chat window, to share with other users. When users receive the link, it opens the Details page of the record. 
+1. Paste the link into an email, or chat window, to share with other users. When users receive the link, it opens the Details page of the record. 
