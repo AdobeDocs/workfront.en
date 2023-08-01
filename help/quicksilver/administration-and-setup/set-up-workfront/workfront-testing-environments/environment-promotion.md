@@ -114,9 +114,41 @@ The Environment Promotion capability is intended to provide the ability to move 
 | Risk Type (RSKTYP) | Risk Type |
 | Resource Pool (RSPL) | Resource Pool |
 
+## Authentication
+
+The API authenticates each request to ensure that the client has access to view or modify a requested object.
+
+Authentication is performed by passing in a session ID which can be given using one the following methods:
+
+#### Request Header Authentication
+
+The preferred method of authentication is to pass a request header named SessionID containing the session token. This has the advantage of being safe against [Cross-site Request Forgery (CSRF)](http://en.wikipedia.org/wiki/Cross-site_request_forgery) attacks and not interfering with the URI for caching purposes.
+
+The following is an example of a request header:
+
+```
+GET /attask/api/v15.0/project/search
+SessionID: abc1234
+```
+
+#### Request Parameter Authentication
+
+You can authenticate by passing a request parameter named sessionID, as shown in the following example:&nbsp;
+
+```
+GET /attask/api/v15.0/project/4c78821c0000d6fa8d5e52f07a1d54d0?sessionID=abc1234
+```
+
+#### Cookie-Based Authentication
+
+The API uses the same cookie-based authentication that is used by the web UI to the system. Where, if a client logs into Workfront using the web UI, any AJAX calls made from within the same browser uses the same authentication.
+
+>[!NOTE]
+>
+>In order&nbsp;to protect against the possibility of CSRF (Cross Site Request Forgery) attacks, this method of authentication is only available for read-only operations.
+
 ## API Endpoints
 
-* [Obtain a Bearer Token](#obtain-a-bearer-token)
 * [Create a package](#create-a-package)
 * [Get a list of packages](#get-a-list-of-packages)
 * [Get a package by ID](#get-a-package-by-id)
@@ -128,8 +160,6 @@ The Environment Promotion capability is intended to provide the ability to move 
 * [Execute an installation](#execute-an-installation)
 * [Get a list of installations for a specific package](#get-a-list-of-installations-for-a-specific-package)
 * [Get the installation details for an installation](#get-the-installation-details-for-an-installation)
-
-### Obtain a Bearer Token
 
 ### Create a package
 
@@ -873,7 +903,7 @@ POST https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/i
  <col> 
  <tbody> 
   <tr> 
-   <td><code>GET /installation-history?packageId={id}
+   <td><code>GET /v1/installations?environmentPromotionPackageId={environmentPromotionPackageId}
 </code></td> 
   </tr> 
   </tbody> 
@@ -884,7 +914,7 @@ The results include installation events from all environments the package has be
 #### URL
 
 ```
-GET https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/installation-history?packageId={id}
+GET https://{domain}.{environment}.workfront.com/environment-promotion/api/v1v1/installations?environmentPromotionPackageId={environmentPromotionPackageId}
 ```
 
 #### Headers
@@ -955,7 +985,7 @@ _Empty_
  <col> 
  <tbody> 
   <tr> 
-   <td><code>GET /installation-history/{id}</code></td> 
+   <td><code>GET /installations/{id}</code></td> 
   </tr> 
   </tbody> 
 </table>
@@ -973,7 +1003,7 @@ If the record has a CREATE `action` but it fails to successfully create the reco
 #### URL
 
 ```
-GET https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/installation-history/{id}
+GET https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/installations/{id}
 ```
 
 #### Headers
