@@ -26,6 +26,12 @@ A kanban board can contain a backlog, or intake column, that is configured with 
 
 [View a video demonstration of a kanban board.](https://video.tv.adobe.com/v/3416383/){target=_blank}
 
+### Dynamic board
+
+A dynamic board allows you to automatically populate a board with cards based on a Workfront project. Using filters, cards are added to columns based on their status.
+
+[View a video demonstration of a dynamic board.](https://video.tv.adobe.com/v/3422404/){target=_blank}
+
 ### Mobile board
 
 Boards are available in the Adobe Workfront mobile app. When you update cards in the mobile app, those updates are synced to Workfront.
