@@ -2,7 +2,7 @@
 product-area: documents;workfront-integrations
 navigation-topic: adobe-workfront-for-experince-manager-asset-essentials
 title: Troubleshoot the Adobe Experience Manager integration
-description: Connect your work with your content in Experience Manager Assets Essentials - EDIT ME.
+description: "Problem: Assets are not saved to Adobe Experience Manager"
 author: Becky
 feature: Digital Content and Documents, Workfront Integrations and Apps
 ---
