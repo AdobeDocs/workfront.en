@@ -16,7 +16,7 @@ In Adobe Maestro, workspaces are centralized locations for teams to plan work.
 
 A workspace is a collection of operational record types and taxonomies used by a team and represents the team's work lifecycle. 
 
-Maestro comes with a set of templates to get you started with basic record types, taxonomies, and fields.  
+Maestro comes with a set of templates to get you started with basic record types, taxonomies, and fields when you are building your workspace. For information about creating workspaces, see [Create workspaces](../architecture-and-fields/create-workspaces.md). 
 
 This article describes the workspace templates available in Maestro. 
 
@@ -77,7 +77,7 @@ You must have the following:
 
 -->
 
-The following are workspace templates in Maestro:
+The following are workspace templates in Maestro and the number of fields they include:
 
 * **Marketing management**: You can manage all your marketing campaigns when you use this template. The template comes with the following:
 
@@ -106,32 +106,30 @@ The following are workspace templates in Maestro:
         * **Activity**: 4 fields and 5 linked fields
         * **Campaign**: 5 fields and 3 linked fields
     * Taxonomies:
-        * Account:
-        * Lead:
-        * Contact:
-        * Region: 
-        * Industry:
-        * Buying Center: 
-        * Product/ Service: 
-        * Competition: 
+        * **Account**: 4 fields and 3 linked fields
+        * **Lead**: 12 fields and 2 linked fields
+        * **Contact**: 10 fields and 2 linked fields
+        * **Region**: 1 field and 2 linked fields
+        * **Industry**: 1 field
+        * **Buying Center**: 1 field
+        * **Product/ Service**: 1 field
+        * **Competition**: 1 field
 
 * **Product management**: You can create an efficient and structured product management process using this template. The template comes with the following: 
 
     * Operational record types:
 
-        * Theme:
-        * Initiative:
-        * Epic:
-        * User Story:
+        * **Theme**: 8 fields and 2 linked fields
+        * **Initiative**: 8 fields and 2 linked fields
+        * **Epic**: 9 fields and 3 linked fields
+        * **User Story**: 9 fields and 2 linked fields
 
     * Taxonomies: 
 
-        * Customer: 
-        * Sprint:
-        * Product Team:
-        * Feature Requests:
-        * Industry: 
+        * **Customer**: 6 fields and 1 linked field
+        * **Sprint**: 7 fields and 1 linked field
+        * **Product Team**: 3 fields
+        * **Feature Requests**: 8 fields and 1 linked field
+        * **Industry**: 1 field and 1 linked field
 
-
-        *************NOTE: MAYBE CHANGE THE FORMAT ABOVE TO:  11 fields (4 linked fields)***********
 

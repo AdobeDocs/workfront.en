@@ -15,6 +15,8 @@ A workspace is a collection of operational record types and taxonomies used by a
 
 ## Access requirements
 
+You must have the following to perform the steps described in this article: 
+
 <table style="table-layout:auto">
  <col>
  </col>
@@ -84,15 +86,20 @@ A workspace is a collection of operational record types and taxonomies used by a
 
     ![](assets/previewing-a-workspace-template.png)
 
+    For information about the templates available in Maestro, see [List of available workspace templates](../architecture-and-fields/workspace-templates.md).
+
 1. Click **Use template** to start creating the workspace from the selected template
 
     Or
 
     Click **Create workspace** to create a workspace from scratch
      
-1. Click inside the name of the workspace in the header of the new workspace to rename it, then press Enter. 
+1. Click inside the name of the workspace in the header of the new workspace to rename it, then press Enter
+
+    Or
     
-    You can also click the **More** menu ![](assets/more-menu.png), then **Rename**.
+    Click the **More** menu ![](assets/more-menu.png)to the right of the workspace name in the header, then click **Rename**.
+
 1. (Optional) Click **Add record type** to add record types to the workspace.
     
     For information, see [Create record types](../maestro/delete-record-types.md).
