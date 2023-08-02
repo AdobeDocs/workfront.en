@@ -34,7 +34,76 @@ This page provides information about functionality that is included in the Fourt
 
 ## Adobe Workfront enhancements
 
-* Project enhancements
+* [Boards enhancements](#boards-enhancements)
+* [Project enhancements](#project-enhancements)
+
+### Boards enhancements
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">Feature</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Release dates</span>
+                        </p>
+                    </td>
+                 </tr>  
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-july-31.md" class="MCXref xref" xrefformat="{para}">Documents available on connected cards as view-only</a><span style="color: #ff0000;"> New in Preview!</span> </p><p>For connected cards on Adobe Workfront Boards, you can now view documents such as images and PDFs. You can either preview a document in the browser or download it to your computer. </p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                        <ul>
+                            <li>
+                                <p>Preview release:&#160;August 3, 2023<br /></p>
+                            </li>
+                            <li>
+                                <p>Production for Boards early access: With the 23.8 release</p>
+                            </li>
+                            <li>
+                                <p>Production for fast release: With the 23.8 release</p>
+                            </li>
+                            <li>
+                                <p>Production for quarterly release: With the 23.10 release</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p><span class="bold">Feature</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Release dates</span>
+                        </p>
+                    </td>
+                 </tr>  
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-july-31.md" class="MCXref xref" xrefformat="{para}">Board view of a project now available for issues</a><span style="color: #ff0000;"> New in Preview!</span> </p><p>You can now access a Board view of a project issue list. The Kanban board can help you track the progress of the issues in a more visual way than viewing them in the list. </p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                        <ul>
+                            <li>
+                                <p>Preview release:&#160;August 3, 2023<br /></p>
+                            </li>
+                             <li>
+                                <p>Production for fast release: With the 23.8 release</p>
+                            </li>
+                            <li>
+                                <p>Production for quarterly release: With the 23.10 release</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+           </tbody>
+        </table>
 
 ### Project enhancements
 
