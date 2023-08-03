@@ -157,7 +157,7 @@ For information about how to customize an agile view, see [Create or customize a
 
 ## View a project in the Agile view
 
-1. Go to the project you want to view in an agile view, on either the task list <span class="preview">or the issue list</span>.
+1. <span class="preview">Go to the project you want to view in an agile view, on either the task list or the issue list.</span>
 1. Click the **Board** icon ![Board icon](assets/board-icon-for-agile-view.png).
 
    The board view of the project displays by default.
