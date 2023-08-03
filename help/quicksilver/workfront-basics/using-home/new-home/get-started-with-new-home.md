@@ -49,6 +49,17 @@ Widgets are the foundation of New Home. By adding widgets to your Home page, you
 * **To-dos**\
     This unique widget allows you to add text items to a personal checklist that you can freely edit.
 
+By default, the Home page is populated with a few specific widgets based on your license type. The table below outlines which widgets users of each license type see when they first navigate to New Home.
+
+| **Legacy license type** | **Default widgets** | **Current license type** | **Default widgets** |
+|---|---|---|---|
+| Plan | My Projects, Mentions, To-dos | Standard | My Projects, My Work, Mentions, To-dos |
+| Work | My Work, Mentions, To-dos | Light | My Work, Awaiting My Approval, To-dos |
+| Review | My Work, Mentions, To-dos | Contributor | My Work, Mentions, To-dos |
+| Limited | My Projects, Awaiting My Approval, To-dos | External | Awaiting My Approval, To-dos |
+| Contributor | My Work, Mentions, To-dos |  |  |
+| External | Awaiting My Approval, To-dos |  |  |
+
 For information on adding, moving, resizing, or deleting widgets, see [Add, edit, or remove widgets in New Home](/help/quicksilver/workfront-basics/using-home/new-home/add-edit-remove-widgets-in-new-home.md)
 
 ### Background customization
