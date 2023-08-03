@@ -63,7 +63,7 @@ This page provides information about functionality that is included in the Fourt
                                 <p>Preview release:&#160;August 3, 2023<br /></p>
                             </li>
                             <li>
-                                <p>Production for Boards early access: With the 23.8 release</p>
+                                <p>Production for Boards early access: August 10, 2023</p>
                             </li>
                             <li>
                                 <p>Production for fast release: With the 23.8 release</p>
