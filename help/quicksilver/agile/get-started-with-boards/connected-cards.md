@@ -21,8 +21,10 @@ When any one of the following details is updated for the card in one location, i
 * [!UICONTROL Status]
 * [!UICONTROL Planned completion date]
 * [!UICONTROL Estimation] / [!UICONTROL Story Points]
+* <span class="preview">[!UICONTROL Documents]</span>
 
 >[!NOTE]
+>
 >A single connected task or issue can only be added once per board. The same task or issue can be connected to multiple boards.
 
 ## Access requirements
@@ -137,8 +139,7 @@ You must have the following access to perform the steps in this article:
      </tr>
      <tr>
       <td role="rowheader"><span class="preview"><strong>[!UICONTROL Documents]</strong></span></td>
-      <td><span class="preview"><p>Hover over the document thumbnail, and click <strong>Preview</strong> to view the file in the browser or <strong>Download</strong> to download the file to your computer.</p></span>
-      <span class="preview"><p><strong>NOTE:</strong> At this time, a document must be uploaded to the Workfront task for it to be available on the connected card.</p></span></td>
+      <td><span class="preview">For an existing document, hover over the document thumbnail, and click <strong>Preview</strong> to view the file in the browser or <strong>Download</strong> to download the file to your computer. For a new document, see <a href="/help/quicksilver/agile/get-started-with-boards/add-documents-on-cards.md">Add documents on cards</a>.</span></td>
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Hours]</strong></td>
