@@ -49,16 +49,65 @@ Widgets are the foundation of New Home. By adding widgets to your Home page, you
 * **To-dos**\
     This unique widget allows you to add text items to a personal checklist that you can freely edit.
 
-By default, the Home page is populated with a few specific widgets based on your license type. The table below outlines which widgets users of each license type see when they first navigate to New Home.
+    >[!NOTE]
+    >
+    >You must have permission to create tasks in order to create to-dos in the To-dos widget.
 
-| **Legacy license type** | **Default widgets** | **Current license type** | **Default widgets** |
-|---|---|---|---|
-| Plan | My Projects, Mentions, To-dos | Standard | My Projects, My Work, Mentions, To-dos |
-| Work | My Work, Mentions, To-dos | Light | My Work, Awaiting My Approval, To-dos |
-| Review | My Work, Mentions, To-dos | Contributor | My Work, Mentions, To-dos |
-| Limited | My Projects, Awaiting My Approval, To-dos | External | Awaiting My Approval, To-dos |
-| Contributor | My Work, Mentions, To-dos |  |  |
-| External | Awaiting My Approval, To-dos |  |  |
+By default, the Home page is populated with a few specific widgets based on your license type. The tables below outline which widgets users of each license type see when they first navigate to New Home.
+
+<table border=1 class="inlineTable">
+    <tr>
+        <td><b>Current license type</b></td>
+        <td><b>Default widgets</b></td>
+    </tr>
+    <tr>
+        <td>Standard</td>
+        <td>My Projects, My Work, Mentions, To-dos</td>
+    </tr>
+    <tr>
+        <td>Light</td>
+        <td>My Work, Awaiting My Approval, To-dos</td>
+    </tr>
+    <tr>
+        <td>Contributor</td>
+        <td>My Work, Mentions, To-dos</td>
+    </tr>
+    <tr>
+        <td>External</td>
+        <td>Awaiting My Approval, To-dos</td>
+    </tr>
+</table>
+
+<table border=1 class="inlineTable">
+    <tr>
+        <td><b>Legacy license type</b></td>
+        <td><b>Default widgets</b></td>
+    </tr>
+    <tr>
+        <td>Plan</td>
+        <td>My Projects, Mentions, To-dos</td>
+    </tr>
+    <tr>
+        <td>Work</td>
+        <td>My Work, Mentions, To-dos</td>
+    </tr>
+    <tr>
+        <td>Review</td>
+        <td>My Work, Mentions, To-dos</td>
+    </tr>
+    <tr>
+        <td>Limited</td>
+        <td>My Projects, Awaiting My Approval, To-dos</td>
+    </tr>
+    <tr>
+        <td>Contributor</td>
+        <td>My Work, Mentions, To-dos</td>
+    </tr>
+    <tr>
+        <td>External</td>
+        <td>Awaiting My Approval, To-dos</td>
+    </tr>
+</table>
 
 For information on adding, moving, resizing, or deleting widgets, see [Add, edit, or remove widgets in New Home](/help/quicksilver/workfront-basics/using-home/new-home/add-edit-remove-widgets-in-new-home.md)
 
