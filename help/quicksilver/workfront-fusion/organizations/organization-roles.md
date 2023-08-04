@@ -67,9 +67,97 @@ To find out what plan, license type, or access you have, contact your [!DNL Work
 
 For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Workfront Fusion] licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
+## Organization roles
+
+<table style="table-layout:auto">
+ <col> 
+ <col> 
+ <col> 
+ <col> 
+ <col> 
+ <thead> 
+  <tr> 
+   <th> </th> 
+   <th> <p>[!UICONTROL Owner]</p> </th> 
+   <th> <p>[!UICONTROL Admin]</p> </th> 
+   <th> <p>[!UICONTROL Member]</p> </th> 
+   <th> <p>[!UICONTROL Accountant]</p> </th> 
+  </tr> 
+ </thead> 
+ <tbody> 
+  <tr> 
+   <td> <p>Access all teams</p> </td> 
+   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>Install app for organization</p> </td> 
+   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td> </td> 
+   <td> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>Delete organizations</p> </td> 
+   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>Edit organization</p> </td> 
+   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td> </td> 
+   <td> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>Manage organization users</p> </td> 
+   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>View organization</p> </td> 
+   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+  </tr> <!--
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td> <p>Process payments</p> </td> 
+    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+    <td> </td> 
+    <td> </td> 
+   </tr>
+  --> <!--
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td> <p>List payments</p> </td> 
+    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+    <td> </td> 
+    <td> </td> 
+   </tr>
+  --> 
+  <tr> 
+   <td> <p>Add team</p> </td> 
+   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td> </td> 
+   <td> </td> 
+  </tr> 
+
+ </tbody> 
+</table>
+
+
 ## Team roles
 
-## Scenarios
+### Scenarios
 
 <table style="table-layout:auto"> 
  <col> 
@@ -188,74 +276,7 @@ For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Work
  </tbody> 
 </table>
 
-
-## Organization roles
-
-<table style="table-layout:auto">
- <col> 
- <col> 
- <col> 
- <col> 
- <col> 
- <thead> 
-  <tr> 
-   <th> </th> 
-   <th> <p>[!UICONTROL Owner]</p> </th> 
-   <th> <p>[!UICONTROL Admin]</p> </th> 
-   <th> <p>[!UICONTROL Member]</p> </th> 
-   <th> <p>[!UICONTROL Accountant]</p> </th> 
-  </tr> 
- </thead> 
- <tbody> 
-  <tr> 
-   <td> <p>Delete organizations</p> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td> </td> 
-   <td> </td> 
-   <td> </td> 
-  </tr> 
-  <tr> 
-   <td> <p>Edit organization</p> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td> </td> 
-   <td> </td> 
-  </tr> 
-  <tr> 
-   <td> <p>Manage organization users</p> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td> </td> 
-   <td> </td> 
-   <td> </td> 
-  </tr> 
-  <tr> 
-   <td> <p>View organization</p> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-  </tr> <!--
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td> <p>Process payments</p> </td> 
-    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-    <td> </td> 
-    <td> </td> 
-   </tr>
-  --> <!--
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td> <p>List payments</p> </td> 
-    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-    <td> </td> 
-    <td> </td> 
-   </tr>
-  --> 
- </tbody> 
-</table>
-
-
-## Connections
+### Connections
 
 <table style="table-layout:auto">
  <col> 
@@ -266,10 +287,10 @@ For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Work
  <thead> 
   <tr> 
    <th> </th> 
-   <th> <p style="text-align: left;">[!UICONTROL Owner]</p> </th> 
    <th> <p style="text-align: left;">[!UICONTROL Admin]</p> </th> 
    <th> <p style="text-align: left;">[!UICONTROL Member]</p> </th> 
-   <th> <p style="text-align: left;">[!UICONTROL Accountant]</p> </th> 
+   <th> <p style="text-align: left;">[!UICONTROL Monitoring]</p> </th> 
+   <th> <p style="text-align: left;">[!UICONTROL Operator]</p> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -299,12 +320,12 @@ For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Work
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td> </td> 
+   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Webhooks
+### Webhooks
 
 <table style="table-layout:auto"> 
  <col> 
@@ -315,10 +336,10 @@ For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Work
  <thead> 
   <tr> 
    <th> </th> 
-   <th> <p style="text-align: left;">[!UICONTROL Owner]</p> </th> 
    <th> <p style="text-align: left;">[!UICONTROL Admin]</p> </th> 
    <th> <p style="text-align: left;">[!UICONTROL Member]</p> </th> 
-   <th> <p style="text-align: left;">[!UICONTROL Accountant]</p> </th> 
+   <th> <p style="text-align: left;">[!UICONTROL Monitoring]</p> </th> 
+   <th> <p style="text-align: left;">[!UICONTROL Operator]</p> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -348,12 +369,12 @@ For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Work
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td> </td> 
+   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Data stores
+### Data stores
 
 <table style="table-layout:auto"> 
  <col> 
@@ -364,10 +385,10 @@ For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Work
  <thead> 
   <tr> 
    <th> </th> 
-   <th> <p style="text-align: left;">[!UICONTROL Owner]</p> </th> 
    <th> <p style="text-align: left;">[!UICONTROL Admin]</p> </th> 
    <th> <p style="text-align: left;">[!UICONTROL Member]</p> </th> 
-   <th> <p style="text-align: left;">[!UICONTROL Accountant]</p> </th> 
+   <th> <p style="text-align: left;">[!UICONTROL Monitoring]</p> </th> 
+   <th> <p style="text-align: left;">[!UICONTROL Operator]</p> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -397,19 +418,19 @@ For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Work
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td> </td> 
+   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">Browse data stores</p> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td> </td> 
+   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Data structures
+### Data structures
 
 <table style="table-layout:auto">
  <col> 
@@ -420,10 +441,10 @@ For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Work
  <thead> 
   <tr> 
    <th> </th> 
-   <th> <p style="text-align: left;">[!UICONTROL Owner]</p> </th> 
    <th> <p style="text-align: left;">[!UICONTROL Admin]</p> </th> 
    <th> <p style="text-align: left;">[!UICONTROL Member]</p> </th> 
-   <th> <p style="text-align: left;">hy0</p> </th> 
+   <th> <p style="text-align: left;">[!UICONTROL Monitoring]</p> </th> 
+   <th> <p style="text-align: left;">[!UICONTROL Operator]</p> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -452,13 +473,13 @@ For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Work
    <td> <p style="text-align: left;">List data structures</p> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td> </td> 
+   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Devices
+### Devices
 
 <table style="table-layout:auto"> 
  <col> 
@@ -469,10 +490,10 @@ For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Work
  <thead> 
   <tr> 
    <th> </th> 
-   <th> <p style="text-align: left;">[!UICONTROL Owner]</p> </th> 
    <th> <p style="text-align: left;">[!UICONTROL Admin]</p> </th> 
    <th> <p style="text-align: left;">[!UICONTROL Member]</p> </th> 
-   <th> <p style="text-align: left;">[!UICONTROL Accountant]</p> </th> 
+   <th> <p style="text-align: left;">[!UICONTROL Monitoring]</p> </th> 
+   <th> <p style="text-align: left;">[!UICONTROL Operator]</p> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -501,13 +522,13 @@ For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Work
    <td> <p style="text-align: left;">List devices</p> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td> </td> 
+   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Keys
+### Keys
 
 <table style="table-layout:auto">
  <col> 
@@ -518,10 +539,10 @@ For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Work
  <thead> 
   <tr> 
    <th> </th> 
-   <th> <p style="text-align: left;">[!UICONTROL Owner]</p> </th> 
    <th> <p style="text-align: left;">[!UICONTROL Admin]</p> </th> 
    <th> <p style="text-align: left;">[!UICONTROL Member]</p> </th> 
-   <th> <p style="text-align: left;">[!UICONTROL Accountant]</p> </th> 
+   <th> <p style="text-align: left;">[!UICONTROL Monitoring]</p> </th> 
+   <th> <p style="text-align: left;">[!UICONTROL Operator]</p> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -550,8 +571,117 @@ For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Work
    <td> <p style="text-align: left;">List keys</p> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td> </td> 
+   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
   </tr> 
  </tbody> 
 </table>
+
+### Templates
+
+<table style="table-layout:auto">
+ <col> 
+ <col> 
+ <col> 
+ <col> 
+ <col> 
+ <thead> 
+  <tr> 
+   <th> </th> 
+   <th> <p style="text-align: left;">[!UICONTROL Admin]</p> </th> 
+   <th> <p style="text-align: left;">[!UICONTROL Member]</p> </th> 
+   <th> <p style="text-align: left;">[!UICONTROL Monitoring]</p> </th> 
+   <th> <p style="text-align: left;">[!UICONTROL Operator]</p> </th> 
+  </tr> 
+ </thead> 
+ <tbody> 
+  <tr> 
+   <td> <p style="text-align: left;">Add templates</p> </td> 
+   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td> </td> 
+   <td> </td> 
+  </tr> 
+  <tr> 
+   <td> <p style="text-align: left;">Delete templates</p> </td> 
+   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td> </td> 
+   <td> </td> 
+  </tr> 
+  <tr> 
+   <td> <p style="text-align: left;">Edit templates</p> </td> 
+   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td> </td> 
+   <td> </td> 
+  </tr> 
+  <tr> 
+   <td> <p style="text-align: left;">List templates</p> </td> 
+   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+  </tr> 
+  <tr> 
+   <td> <p style="text-align: left;">View templates</p> </td> 
+   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+### Teams
+
+<table style="table-layout:auto">
+ <col> 
+ <col> 
+ <col> 
+ <col> 
+ <col> 
+ <thead> 
+  <tr> 
+   <th> </th> 
+   <th> <p style="text-align: left;">[!UICONTROL Admin]</p> </th> 
+   <th> <p style="text-align: left;">[!UICONTROL Member]</p> </th> 
+   <th> <p style="text-align: left;">[!UICONTROL Monitoring]</p> </th> 
+   <th> <p style="text-align: left;">[!UICONTROL Operator]</p> </th> 
+  </tr> 
+ </thead> 
+ <tbody> 
+  <tr> 
+   <td> <p style="text-align: left;">Add teams</p> </td> 
+   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+  </tr> 
+  <tr> 
+   <td> <p style="text-align: left;">Delete teams</p> </td> 
+   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+  </tr> 
+  <tr> 
+   <td> <p style="text-align: left;">Add and edit team user</p> </td> 
+   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+  </tr> 
+  <tr> 
+   <td> <p style="text-align: left;">View teams</p> </td> 
+   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+
+
+
