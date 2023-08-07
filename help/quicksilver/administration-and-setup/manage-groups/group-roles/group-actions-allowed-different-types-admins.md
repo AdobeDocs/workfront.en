@@ -30,13 +30,7 @@ This table lists the administration activities available for:
    <th>Subgroup administrator (actions are limited to the groups the administrator manages)</th> 
   </tr> 
  </thead> 
- <tbody> 
-  <tr> 
-   <td>Enroll members in the new Adobe Workfront experience</td> 
-   <td>✓ </td> 
-   <td>✓ </td> 
-   <td>✓ </td> 
-  </tr> 
+ <tbody>
   <tr> 
    <td>Reset a user's password</td> 
    <td>✓ </td> 
