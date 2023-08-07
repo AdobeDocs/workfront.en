@@ -223,3 +223,11 @@ This table lists the administration activities available for:
 &#42; In the group administrator's access level, **Edit** must be selected for the **Users** setting, with **User Admin (Group Users)** selected under **Fine-tune your settings** ![](assets/gear-icon-in-access-levels.png). For more information, see the section [Configure users' access to edit users using a custom access level](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md#access-to-edit) in the article [Grant access to users](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
 
 &#42;&#42; In the group administrator's access level, access to this action must be enabled. For more information, see [Grant users administrative access to certain areas](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
+
+The following activities are only available to group and subgroup administrators when their organizations are on the Prime or Ultimate plan. These specific activities may also be called "advanced enterprise controls." See the [Adobe Workfront pricing and packaging page](https://business.adobe.com/products/workfront/pricing.html) for more information about plans. (For organizations using the legacy plans, the table above shows the activities for group and subgroup administrators.)
+
+* Configure project, task, and issue preferences
+* Configure timesheet and hour preferences
+* Configure event notification emails
+* Create and manage approval processes
+* Create and manage subgroups
