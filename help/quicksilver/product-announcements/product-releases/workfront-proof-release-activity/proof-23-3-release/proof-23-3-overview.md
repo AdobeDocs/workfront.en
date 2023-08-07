@@ -41,7 +41,7 @@ For a list of all changes available for all areas of Workfront at this point in 
                             </li>
                             <li>
                                 <p><i>For users using automatic installation, with version 2.1.27</i></p>
-                                <p>Preview and production release: August 3, 2023</p>
+                                <p>Preview and production release: TBD</p>
                             </li>
                         </ul>
                     </td>
