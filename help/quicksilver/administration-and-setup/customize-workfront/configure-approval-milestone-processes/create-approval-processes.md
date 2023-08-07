@@ -11,6 +11,8 @@ exl-id: 1709e285-51a5-49a1-a03a-743a334fbe4d
 ---
 # Create an approval process for work items
 
+<!--see below the "hidden" content for the redesigned tabs - August 2023--> 
+
 You can create an approval process that users can attach to a work item (project, task, issue, template, or template task), a document, or a proof. An approval process ensures that designated assignees on the object review certain changes before the object progresses in the system.
 
 This article describes how to create a system-level or group-level global approval processes for work items (project, task, issue, template, or template task).
@@ -65,6 +67,10 @@ You must have the following:
    Or
 
    If you are creating a group-level approval process, click **Groups** ![](assets/groups-icon.png), click the name of the group, then click **Approvals**.
+
+   <!--hidden for the new tab redesign - August 2023: 
+   ![](assets/approvals-area-in-setup-processes.png)
+   -->
 
 1. Click the **Project Approvals**, **Task Approvals**, or **Issue Approvals** tab, depending on the type of approval process you want to create.
 

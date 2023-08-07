@@ -8,6 +8,8 @@ exl-id: 6c0fa8af-cd89-4941-a6f6-aa4e84a7dc67
 ---
 # Set up reminder notifications
 
+<!--hidden content for the tab redesign in August 2023-->
+
 Reminder notifications send emails to recipients based on specified criteria. As an Adobe Workfront administrator or a user with a Planner access level and administrative access to reminder notifications, you can manually associate reminder notifications with your work items, such as projects, tasks, issues, and timesheets. 
 
 <!--
@@ -58,9 +60,12 @@ For information about how to create an email template, see [Configure email temp
 
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
 
-1. Click **Email** > **Notifications**.
+1. Click **Email** > **Notifications** > **Reminder Notifications**.
 
-1. Click the **Reminder Notifications** tab, then click **New Reminder Notification**.
+   <!--hidden for the tab redesign for August 2023:
+   ![](assets/remider-notifications-tab-in-setup-email-notifications-area.png)
+   -->
+1. Click **New Reminder Notification**.
 
 1. In the drop-down list, click the object type you want to associate with the reminder notification.
 
