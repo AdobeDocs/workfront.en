@@ -227,7 +227,6 @@ This table lists the administration activities available for:
 The following activities are only available to group and subgroup administrators when their organizations are on the Prime or Ultimate plan. These specific activities may also be called "advanced enterprise controls." See the [Adobe Workfront pricing and packaging page](https://business.adobe.com/products/workfront/pricing.html) for more information about plans. (For organizations using the legacy plans, the table above shows the activities for group and subgroup administrators.)
 
 * Configure project, task, and issue preferences
-* Lock and unlock timesheet and hour preferences
 * Configure timesheet and hour preferences
 * Configure event notification emails
 * Create and manage approval processes
