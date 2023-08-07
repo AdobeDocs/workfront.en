@@ -10,7 +10,7 @@ feature: Agile
 
 {{article-preview-and-fast-release}}
 
-You can add documents to connected cards on Adobe Workfront Boards. Any documents you add on the card become available on the Documents tab of the connected task or issue, and documents added on the task or issue are visible on the card. The same file types are supported in both areas.
+You can add documents to connected cards on Adobe Workfront Boards. Any documents you add on the card become available on the Documents tab of the connected task or issue, and documents added on the task or issue are visible on the card. The same file types are supported in both areas. For more information on documents in Workfront, see [Add documents to Adobe Workfront from your file system](/help/quicksilver/documents/adding-documents-to-workfront/add-documents-from-file-system.md).
 
 >[!NOTE]
 >
@@ -32,7 +32,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr>
    <td role="rowheader"><strong>Access level configurations*</strong></td>
-   <td><p>[!UICONTROL Edit] access to documents</p></td>
+   <td><p>[!UICONTROL Edit] access to documents</p><p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p></td>
   </tr>
  </tbody> 
 </table>
@@ -42,3 +42,15 @@ You must have the following access to perform the steps in this article:
 ## Add a document to a card
 
 {{step1-to-boards}}
+
+1. Open the connected card you want to add a document to.
+1. Drag and drop the file into the [!UICONTROL Documents] area, or click [!UICONTROL **Add document**] to select a file.
+
+   The file appears in the [!UICONTROL Documents] area.
+
+   ![Documents added to card](assets/add-document-to-card.png)
+
+## View an existing document from the card
+
+1. On the card, locate the [!UICONTROL Documents] area. Click ![List icon](assets/docs-list-icon.png) to view all documents in a list, or click ![Gallery icon](assets/docs-gallery-icon.png) to view the documents in a gallery.
+1. Hover over the document thumbnail, and click [!UICONTROL **Preview**] to view the file in the browser or [!UICONTROL **Download**] to download the file to your computer.
