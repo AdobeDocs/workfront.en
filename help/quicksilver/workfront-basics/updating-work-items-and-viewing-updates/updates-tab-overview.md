@@ -45,83 +45,99 @@ The information in the Updates section is organized differently, depending on wh
 
 ### Overview of the current Updates section 
 
-The Updates section of an object shows up to 200 of the most recent updates made within the past 90 days. 
+* The Updates section of an object shows up to 200 of the most recent updates made within the past 90 days. 
 
-![](assets/updates-tab-before-unified-experience-for-issues.png)
+  ![](assets/updates-tab-before-unified-experience-for-issues.png)
 
-The current Updates section shows the following information:
+* The Updates section displays for the following objects:
 
-* Comments made by users and replies to those comments. 
-* System updates which are informational messages that Workfront creates to record certain events on an objects. For example, you can capture changes in status, name, or custom fields with system updates. Your Workfront or group administrator can enable system updates for your objects. For more information, see [Configure system updates](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
+  <table style="table-layout:auto"> 
+  <col> 
+  <col> 
+  <tbody> 
+    <tr> 
+    <td> 
+      <ul> 
+      <li>Documents</li> 
+      <li>Goals</li> 
+      <li>Issues</li> 
+      <li>Iterations</li> 
+      <li>Projects</li> 
+      <li>Programs</li> 
+      <li>Portfolios</li> 
+      </ul> </td> 
+    <td> 
+      <ul> 
+      <li>Stories*</li> 
+      <li>Tasks</li> 
+      <li>Templates</li> 
+      <li>Template Tasks</li> 
+      <li>Timesheets</li> 
+      <li>Users</li>
+      </ul> </td> 
+    </tr> 
+  </tbody> 
+  </table>
 
-The Updates section displays for the following objects:
+  *Stories are tasks. All information that is related to tasks is also available for stories. 
 
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td> 
-    <ul> 
-     <li>Documents</li> 
-     <li>Goals</li> 
-     <li>Issues</li> 
-     <li>Iterations</li> 
-     <li>Projects</li> 
-     <li>Programs</li> 
-     <li>Portfolios</li> 
-    </ul> </td> 
-   <td> 
-    <ul> 
-     <li>Stories*</li> 
-     <li>Tasks</li> 
-     <li>Templates</li> 
-     <li>Template Tasks</li> 
-     <li>Timesheets</li> 
-     <li>Users</li>
-    </ul> </td> 
-  </tr> 
- </tbody> 
-</table>
-*Stories are tasks. All information that is related to tasks is also available for stories. 
+* The current Updates section shows the following information:
+
+  * User updates: Comments made by users and replies to those comments. 
+  * System updates: Informational messages that Workfront creates to record certain events on an objects. For example, you can capture changes in status, name, or custom fields with system updates. Your Workfront or group administrator can enable system updates for your objects. For more information, see [Configure system updates](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
+
+* The following objects don't record system updates:
+
+  * Team
+  * Template
+  * Template Task
 
 ### Overview of the Updates section in the Beta commenting experience
 
-![](assets/updates-tab-after-unified-experience-for-issues.png)
-
 For information about what features are available for the new commenting experience and for what objects, see [New commenting experience](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
-The Updates section displays information in the following tabs in the new commenting experience: 
+![](assets/updates-tab-after-unified-experience-for-issues.png)
 
-* **Comments**: Displays comments made by users and replies to those comments. For information about updating objects in the new commenting experience, see [Update work](../updating-work-items-and-viewing-updates/update-work.md). 
-* **System Activity**: Displays system updates which are informational messages that Workfront creates to record certain events on an objects. For example, you can capture changes in status, name, or custom fields with system updates. Your Workfront or group administrator can enable system updates for your objects. For more information, see [Configure system updates](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
+* The Updates section displays information in the following tabs in the new commenting experience: 
 
-Currently, you can add comments and reply to updates using the new commenting experience on the following objects:
+  * **Comments**: Displays comments made by users and replies to those comments. For information about updating objects in the new commenting experience, see [Update work](../updating-work-items-and-viewing-updates/update-work.md). 
+  * **System Activity**: Displays system updates which are informational messages that Workfront creates to record certain events on an objects. For example, you can capture changes in status, name, or custom fields with system updates. Your Workfront or group administrator can enable system updates for your objects. For more information, see [Configure system updates](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
 
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td> 
-    <ul> 
-     <li><p>Goals</p>
-     <li>Cards in the Boards area*</li>
-      This is the only experience for goals and cards.
-     </li> 
-     <li>Projects</li>
-    </ul> </td> 
-   <td> 
-    <ul> 
-     <li>Issues</li> 
-     <li>Tasks</li>
-     <li>Documents</li>
-     </ul> </td> 
-  </tr> 
- </tbody> 
-</table>
+*   Currently, you can add comments and reply to updates using the new commenting experience on the following objects:
 
-*You can add and view updates to cards in the Board areas when you enable the Comments and System Activity sections on a card. For more information, see [Add an ad hoc card to a board](../../agile/get-started-with-boards/add-card-to-board.md). 
+    <table style="table-layout:auto"> 
+    <col> 
+    <col> 
+    <tbody> 
+      <tr> 
+      <td> 
+        <ul> 
+        <li><p>Goals</p>
+        <li>Cards in the Boards area*</li>
+          This is the only experience for goals and cards.
+        </li> 
+        <li>Projects</li>
+        </ul> </td> 
+      <td> 
+        <ul> 
+        <li>Issues</li> 
+        <li>Tasks</li>
+        <li>Documents</li>
+        </ul> </td> 
+      </tr> 
+    </tbody> 
+    </table>
+
+    *You can add and view updates to cards in the Board areas when you enable the Comments and System Activity sections on a card. For more information, see [Add an ad hoc card to a board](../../agile/get-started-with-boards/add-card-to-board.md). 
+
+<!--enable this when we release the new update stream to ALL other objects and only if Anna's bug was fixed to include this: 
+
+* The following objects don't have a System Activity tab:
+
+  * Team
+  * Template
+  * Template Task
+-->
 
 ## Updates that also appear on higher-rank objects
 
