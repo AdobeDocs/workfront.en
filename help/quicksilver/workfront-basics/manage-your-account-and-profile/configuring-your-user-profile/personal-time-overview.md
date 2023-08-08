@@ -59,8 +59,13 @@ You must have the following access to perform the steps in this article:
 1. Click the **[!UICONTROL Main Menu]** icon ![Main Menu](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click your user name next to your profile picture. Or (if available), click your profile picture in the top navigation area, then click **[!UICONTROL Workfront Profile]**.
 1. In the left panel, click **[!UICONTROL Time Off]**.
 1. Select the desired date for your personal time off.
-1. Select **[!UICONTROL All day]**, if you are taking a full day off.\
+
+   ![Personal time off calendar](assets/personal-time-off-calendar.png)
+
+1. Select **[!UICONTROL All day]**, if you are taking a full day off.
+
    Leave it unselected if you are taking less than a full day off and indicate the start and end times of your time off.
 
-1. Click **[!UICONTROL Save]**.\
+1. Click **[!UICONTROL Save]**.
+
    Your time off is now visible across the [!DNL Workfront] system in the resource management tools like the Resource Planner and the Workload Balancer. When you are assigned work during this time, a tool tip appears informing the user you have scheduled time off.
