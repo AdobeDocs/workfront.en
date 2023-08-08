@@ -92,8 +92,6 @@ To invite a user to join an organization:
 
 [!DNL Fusion] sends an email with an invitation to the specific organization and an [!UICONTROL Accept The Role] button.
 
-![](assets/accept-the-role.png)
-
 When the recipient clicks the button, they are redirected to the invitation page, where they can accept the invitation.
 
 The invitation will expire in a day.
