@@ -16,7 +16,10 @@ If you are an Adobe Workfront administrator or you have a Planner access level a
 
 When you configure notification settings in bulk, you can change only the settings that the selected users have in common.
 
-You can also configure email notifications for one user at a time, including your own profile. For more information, see [Activate or deactivate your own event notifications](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+>[!NOTE]
+>
+>You can also configure email notifications for one user at a time, including your own profile. For more information, see [Activate or deactivate your own event notifications](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+
 
 ## Access requirements
 
