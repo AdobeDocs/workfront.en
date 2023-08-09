@@ -55,7 +55,7 @@ This page provides information about functionality that is included in the Fourt
                  </tr>  
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-july-31.md" class="MCXref xref" xrefformat="{para}">Documents available on connected cards as view-only</a><span style="color: #ff0000;"> New in Preview!</span> </p><p>For connected cards on Adobe Workfront Boards, you can now view documents such as images and PDFs. You can either preview a document in the browser or download it to your computer. </p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-july-31.md" class="MCXref xref" xrefformat="{para}">Documents available on connected cards as view-only</a></p><p>For connected cards on Adobe Workfront Boards, you can now view documents such as images and PDFs. You can either preview a document in the browser or download it to your computer. </p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
                         <ul>
@@ -86,7 +86,7 @@ This page provides information about functionality that is included in the Fourt
                  </tr>  
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-july-31.md" class="MCXref xref" xrefformat="{para}">Board view of a project now available for issues</a><span style="color: #ff0000;"> New in Preview!</span> </p><p>You can now access a Board view of a project issue list. The Kanban board can help you track the progress of the issues in a more visual way than viewing them in the list. </p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-july-31.md" class="MCXref xref" xrefformat="{para}">Board view of a project now available for issues</a></p><p>You can now access a Board view of a project issue list. The Kanban board can help you track the progress of the issues in a more visual way than viewing them in the list. </p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
                         <ul>
@@ -129,13 +129,65 @@ This page provides information about functionality that is included in the Fourt
                     <td><p><b>Available on these dates:</b></p>
                         <ul>
                             <li>
-                                <p>Preview release:&#160;July 26, 2023<br /></p>
+                                <p>Preview release: July 26, 2023<br /></p>
                             </li>
                             <li>
                                 <p>Production for fast release: With the 23.8 release</p>
                             </li>
                             <li>
                                 <p>Production for quarterly release: With the 23.10 release</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+           </tbody>
+        </table>
+
+### Other enhancements
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">Feature</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Release dates</span>
+                        </p>
+                    </td>
+                 </tr>  
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-7.md" class="MCXref xref" xrefformat="{para}">Dynamic re-calculation of calculated fields on custom forms</a> <span style="color: #ff0000;"> New in Preview!</span></p><p>Calculated fields on a custom form attached to an object are now dynamically re-calculated in real time when dependent values on the form are modified. This allows you to see the updated results without saving the form.</p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                        <ul>
+                            <li>
+                                <p>Preview release: August 10, 2023</p>
+                            </li>
+                            <li>
+                                <p>Production for fast release: With the 23.8 release</p>
+                            </li>
+                            <li>
+                                <p>Production for quarterly release: With the 23.10 release</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">Look-and-feel-updates during the Fourth Quarter 2023 timeframe</a></p><p>Minor updates to the look and feel of various areas of the Adobe Workfront application are being made within the Fourth Quarter 2023 timeframe. Review the individual release notes for specific release dates.</p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                        <ul>
+                            <li>
+                                <p>Preview release: Throughout the Fourth Quarter 2023 release timeframe</p>
+                            </li>
+                            <li>
+                                <p><span class="preview">Production release: Review the release notes for specific dates</span></p>
                             </li>
                         </ul>
                     </td>
