@@ -296,8 +296,8 @@ You can enhance your updates by using Rich Text, or adding various items to it, 
    | Numbered List | ![mceclip5.png](assets/mceclip5.png)|⌘+Shift+7 |Ctrl+Shift+7 |
    | Block Quote | ![](assets/block-quote-icon-large.png)|⌘+Shift+9 |Ctrl+Shift+9 |
    | Emoji | ![](assets/emoji-icon.png)|⌘+. | ⊞+.  |
-
-    To stop formatting text, deselect the attribute on the **Rich Text** toolbar.
+   
+   To stop formatting text, deselect the attribute on the **Rich Text** toolbar.
 
    <!-- in the table above: take "Create Links" verbiage from the hyperlink when the old commenting is removed and the commenting beta is the only way to comment-->
 
@@ -312,7 +312,7 @@ You can enhance your updates by using Rich Text, or adding various items to it, 
 
    ![](assets/block-quote-marked-350x144.png)
 
-1. (Optional) Add emojis to your update.
+1. (Optional) Add emojis to your update. 
 
    >[!NOTE]
    >
@@ -472,6 +472,8 @@ No Workfront user (including the Workfront administrator) can delete updates mad
 ## Enable or disable system updates
 
 <!--remove the preview tag with 23.2 production, but keep the note till we remove Beta and it becomed the only exprience: -->
+
+<!--when the new stream goes to all objects production, consider updating this article also, to say there is no System Activity tab to be disabled for objects anymore: help\quicksilver\administration-and-setup\set-up-workfront\system-tracked-update-feeds\system-tracked-update-feeds.md-->
 
 >[!NOTE]
 >
