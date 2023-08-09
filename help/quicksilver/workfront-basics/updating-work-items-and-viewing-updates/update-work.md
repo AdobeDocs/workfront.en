@@ -313,7 +313,7 @@ You can enhance your updates by using Rich Text, or adding various items to it, 
 
    ![](assets/block-quote-marked-350x144.png)
 
-1. (Optional) Add emojis to your update.
+1. (Optional) Add emojis to your update. 
 
    >[!NOTE]
    >
