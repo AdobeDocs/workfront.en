@@ -36,6 +36,7 @@ This page provides information about functionality that is included in the Fourt
 
 * [Boards enhancements](#boards-enhancements)
 * [Project enhancements](#project-enhancements)
+* [Other enhancements](#other-enhancements)
 
 ### Boards enhancements
 
@@ -179,7 +180,7 @@ This page provides information about functionality that is included in the Fourt
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">Look-and-feel-updates during the Fourth Quarter 2023 timeframe</a></p><p>Minor updates to the look and feel of various areas of the Adobe Workfront application are being made within the Fourth Quarter 2023 timeframe. Review the individual release notes for specific release dates.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">Look-and-feel updates during the Fourth Quarter 2023 timeframe</a></p><p>Minor updates to the look and feel of various areas of the Adobe Workfront application are being made within the Fourth Quarter 2023 timeframe. Review the individual release notes for specific release dates.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
                         <ul>
@@ -199,7 +200,7 @@ This page provides information about functionality that is included in the Fourt
 
 ### Workfront Fusion enhancements
 
-There are no Workfront Fusion updates at this point in the release. This area will be updated when updates are available.
+New features in Workfront Fusion are available in Production at a cadence outside of the Fourth Quarter 2023 release schedule. For more information about the latest features, see [Adobe Workfront Fusion release activity](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
 ### Workfront Scenario Planner enhancements
 

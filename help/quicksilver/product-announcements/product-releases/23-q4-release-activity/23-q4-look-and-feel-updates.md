@@ -1,12 +1,12 @@
 ---
-title: Look and feel updates during the Fourth Quarter 2023 release time frame
-description: Look and feel updates during the Fourth Quarter 2023 release time frame
+title: Look-and-feel updates during the Fourth Quarter 2023 release time frame
+description: Look-and-feel updates during the Fourth Quarter 2023 release time frame
 author: Lisa
 draft: Probably
 feature: Product Announcements
 ---
 
-# Look and feel updates during the Fourth Quarter 2023 release time frame
+# Look-and-feel updates during the Fourth Quarter 2023 release time frame
 
 This page describes minor updates to the look and feel of various areas of the Adobe Workfront application that were made within the Fourth Quarter 2023 release timeframe.
 
