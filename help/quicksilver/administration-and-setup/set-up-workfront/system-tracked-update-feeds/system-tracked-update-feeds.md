@@ -56,14 +56,15 @@ The [!UICONTROL Updates] area includes the following types of updates:
       You must have an additional license to have access to the [!UICONTROL Goals] area. For information, see [Requirements to use Workfront Goals](../../../workfront-goals/goal-management/access-needed-for-wf-goals.md). 
    * [!UICONTROL Card] on a board
 
-      For more information on updates on cards, see [Add an ad hoc card to a board](../../../agile/get-started-with-boards/add-card-to-board.md). 
-
+      For more information on updates on cards, see [Use connected cards on boards](../../../agile/get-started-with-boards/connected-cards.md). 
 
 * [!DNL Workfront] does not track any system updates for the following objects:
 
    * [!UICONTROL Team]
    * [!UICONTROL Template]
    * [!UICONTROL Template Task]
+   * Ad-hoc [!UICONTROL Card]
+
 
 <!--hiding this bit because this is not true, at this time (August 2023). Users with a Work or Review license can see system updates by default as well.
 
@@ -93,4 +94,6 @@ Your [!DNL Workfront] license determines whether system updates display by defau
    * [!UICONTROL Document]
    * [!UICONTROL Timesheet]
    * [!UICONTROL Iteration] 
-
+   * [!UICONTROL Goal]
+   
+   
