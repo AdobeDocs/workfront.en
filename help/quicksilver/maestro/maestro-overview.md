@@ -159,13 +159,15 @@ The following are the main Maestro objects and concepts:
     
     <!--For more information, see [Create workspaces](../maestro/architecture-and-fields/create-workspaces.md). -->
 
-* **Fields**: Fields are attributes that you can add to operational or taxonomy record types that contain information about the record type. 
+* **Fields**: Fields are attributes that you can add to operational or taxonomy record types that contain information about the record type. <!--check the shot below, "Connection" needs to be in lowercase-->
 
     ![](assets/drop-down-list-of-record-fields.png)
 
-    The fields added for a record type automatically become associated with all records of that type and can be used to capture data about those records. 
+    The fields you add for a record type automatically become associated with all records of that type and can be used to capture data about those records. 
 
     Fields display in the view applied to the records (in columns, if the table view is applied) as well as on the Details page of the record. 
+
+    Fields are unique to a record type and do not transfer from one record type to another. 
     
     A new operational record type is associated with the following predefined fields: 
 
@@ -179,7 +181,6 @@ The following are the main Maestro objects and concepts:
 
     The following are types of fields you can associate with Maestro record types:  
 
-    * Relationship
     * Single-line text 
     * Paragraph   
     * Multi-select 
@@ -190,13 +191,13 @@ The following are the main Maestro objects and concepts:
     * Currency
     * Checkbox  
    
-* **Linked records**:  You can establish a connection between record types by adding a Relationship-type field to a record type. You can link two Maestro records, or a Maestro record with Workfront projects. 
+* **Linked records**:  You can create a connection between two Maestro record types, or between a Maestro record type and a Workfront project object. 
 
-    ![](assets/linked-field-drop-down-menu-with-projects.png)
+    ![](assets/new-connection-tab-with-workfront-option.png)
 
-* **Linked fields**: After establishing the connection between two records, you can reference the linked records' fields on the record you are connecting from.
+* **Linked fields** (or lookup fields): After establishing the connection between two records, you can reference the linked records' fields on the record you are connecting from.
 
-    ![](assets/linked-fields-highlighted-when-adding-relationship-field.png)
+    ![](assets/add-lookup-fields-modal.png)
 
 <!--not yet:* Fields are reusable across Record Types.  -->
 <!--For more information, see [Create fields](../maestro/architecture-and-fields/create-fields.md)-->  
@@ -307,6 +308,7 @@ The following table illustrates the main features that will be available in Maes
 |     Create taxonomies                              |   ✓                           |                                  |                  |
 |     Create individual, named records and taxonomies|   ✓                           |                                  |                  |
 |     Create record custom fields                    |   ✓                           |                                  |                  |
+|     Import record types and fields using an Excel file                              |   ✓                           |                                  |                  |
 |     Link records                                   |   ✓                           |                                  |                  |
 |     View records in a table                        |   ✓                           |                                  |                  |
 |     View records in a timeline                     |   ✓                           |                                  |                  |
@@ -329,6 +331,24 @@ This section lists the features and patches that have been released after the la
 
 The features are released weekly and are listed in the order of their release, with the most recent first. Customers who are participating in the Maestro closed beta program can access all features in their Preview and Production environments. 
 
+### Week of August 10, 2023
+
+#### Import record types from an Excel file 
+
+Preview and production: August 10, 2023
+
+You can now import an Excel file to create record types in a workspace. The sheets of the file become the record types, and the columns of the file become their respective fields.  
+
+#### Improved experience for connecting record types and projects 
+
+Preview and production: August 10, 2023
+
+We have improved the way you connect record types, including connecting to Workfront projects. As part of this improvement, we made the following changes when adding a field for a record type from the table view:  
+
+* Removed the Relationship-type field from the "New field" tab.  
+
+* Add a "New connection" tab where you can directly select the record or object type you want to connect to, eliminating the need for a Relationship-type field. 
+
 ### Week of July 10, 2023
 
 #### Update the appearance of a record type
@@ -345,7 +365,7 @@ You can now add a Checkbox field type to Maestro record types. You can use the C
 
 ### Week of June 26, 2023
 
-#### Quick activation of the contextual menu in a table (title) 
+#### Quick activation of the contextual menu in a table
 
 Preview and production: June 28, 2023
  
@@ -359,7 +379,7 @@ We have introduced a requirement now that the field names of a Maestro record ty
 
 ### Week of June 5, 2023
 
-#### **Connect Maestro records with Workfront projects**
+#### Connect Maestro records with Workfront projects
 
 Preview and production: June 5, 2023
 
@@ -371,7 +391,7 @@ You can now connect a Maestro record with Workfront projects. You must first cre
 
 ### Week of May 29, 2023
 
-#### **Two-date requirement for creating a Timeline view** 
+#### Two-date requirement for creating a Timeline view
 
 Preview and production: May 31, 2023  
 
