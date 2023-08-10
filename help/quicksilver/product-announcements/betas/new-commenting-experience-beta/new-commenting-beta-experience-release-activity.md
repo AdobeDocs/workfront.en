@@ -95,7 +95,7 @@ You can now add emojis to a comment using a Rich Text toolbar option in the new 
 
 For more information, see [Update work](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). The documentation will be updated at the time of the release.
 
-Preview and production: To be announced (during or shortly after the 23.3 release) <!--August 10, 2023-->
+Preview and production: August 10, 2023
 
 #### New commenting experience for additional objects 
 
