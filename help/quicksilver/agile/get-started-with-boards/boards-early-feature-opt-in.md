@@ -175,6 +175,10 @@ The following table outlines major features of boards along with their current r
    <td>Use comments on ad hoc and connected cards</td>
    <td>Released</td>
   </tr>
+  <tr>
+   <td>View documents on connected cards</td>
+   <td>Partially Released</td>
+  </tr>
  </tbody> 
 </table>
 
