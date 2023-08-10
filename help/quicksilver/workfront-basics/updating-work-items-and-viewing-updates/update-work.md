@@ -234,8 +234,6 @@ For information about what features are available for the new commenting experie
       >The "New" indicator displays only when both the user that entered a new update as well as the user who is currently entering an update are using the new commenting experience. 
       >![](assets/real-time-new-red-indicator-unified-commenting.png)   
 
-1.  Click the **Add attachment** icon ![](assets/add-image-paperclip-icon.png) <!--replace this icon with this new one for August 10: ![](assets/add-image-mountain-with-plus-icon.png)--> to add an image to your comment. The image must be saved on your computer before you can attach it. <!--**************** this might be renamed to "Add image")-->
-
 1. Click **Submit** to add the update to the Workfront object. 
 1. (Optional) To edit a comment, click the **More** menu ![](assets/more-menu.png) to the right of the Like icon, then click **Edit**.
 1. Edit the information in the comment, add or remove images or remove any of the tagged users. 
@@ -295,7 +293,6 @@ You can enhance your updates by using Rich Text, or adding various items to it, 
    | Bulleted List | ![mceclip6.png](assets/mceclip6.png)|⌘+Shift+8 |Ctrl+Shift+8 |
    | Numbered List | ![mceclip5.png](assets/mceclip5.png)|⌘+Shift+7 |Ctrl+Shift+7 |
    | Block Quote | ![](assets/block-quote-icon-large.png)|⌘+Shift+9 |Ctrl+Shift+9 |
-   | Emoji | ![](assets/emoji-icon.png)|⌘+. | ⊞+.  |
    
    To stop formatting text, deselect the attribute on the **Rich Text** toolbar.
 
@@ -339,7 +336,7 @@ You can enhance your updates by using Rich Text, or adding various items to it, 
 
    Or
 
-   Click the **Add attachment** icon ![](assets/add-image-paperclip-icon.png) and browse to the image on your computer, when using the commenting Beta experience. <!--the name of the icon and the icon for it might change-->
+   Click the **Add attachment** icon ![](assets/add-image-mountain-with-plus-icon.png) and browse to the image on your computer, when using the commenting Beta experience. <!--**************** the tooltip of this icon might be renamed to "Add image")-->
 
    >[!NOTE]
    >
