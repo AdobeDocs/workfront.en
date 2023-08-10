@@ -159,15 +159,16 @@ This page provides information about functionality that is included in the Fourt
                         <p><span class="bold">Release dates</span>
                         </p>
                     </td>
-                 </tr>  
+                 </tr>
+                 <!--
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-7.md" class="MCXref xref" xrefformat="{para}">Dynamic re-calculation of calculated fields on custom forms</a> <span style="color: #ff0000;"> New in Preview!</span></p><p>Calculated fields on a custom form attached to an object are now dynamically re-calculated in real time when dependent values on the form are modified. This allows you to see the updated results without saving the form.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-7.md" class="MCXref xref" xrefformat="{para}">Dynamic re-calculation of calculated fields on native and custom forms</a> <span style="color: #ff0000;"> New in Preview!</span></p><p>Calculated fields on a form attached to an object are now dynamically re-calculated in real time when dependent values on any form on the page are modified. This allows you to see the updated results without saving the form.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
                         <ul>
                             <li>
-                                <p>Preview release: August 10, 2023</p>
+                                <p>Preview release: August 17, 2023</p>
                             </li>
                             <li>
                                 <p>Production for fast release: With the 23.8 release</p>
@@ -178,6 +179,7 @@ This page provides information about functionality that is included in the Fourt
                         </ul>
                     </td>
                 </tr>
+                -->
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">Look-and-feel updates during the Fourth Quarter 2023 timeframe</a></p><p>Minor updates to the look and feel of various areas of the Adobe Workfront application are being made within the Fourth Quarter 2023 timeframe. Review the individual release notes for specific release dates.</p>
