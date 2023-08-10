@@ -18,6 +18,8 @@ exl-id: 54fc3f77-57d1-47f1-8e16-73626a6733ec
 
 These system updates include the change that was made, the name of the user who made the change, and the time and date of the change.
 
+For more information about system updates, see [System-tracked updates](../system-tracked-update-feeds/system-tracked-update-feeds.md).
+
 As a [!DNL Workfront] administrator, you can configure which object fields and actions [!DNL Workfront] tracks to record system updates.
 
 For example, you could have [!DNL Workfront] track all changes users make to the names of issues throughout the system. Any issue name change then appears as a system update on the issue's [!UICONTROL Updates] area.

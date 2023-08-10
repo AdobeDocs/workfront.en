@@ -77,7 +77,7 @@ You must have the following access to perform the steps in this article:
 
 &#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
-## Reply to an update or a reply
+## Reply to an update or a reply in Workfront
 
 You can reply to a comment in the thread of an object that you can view, or you can log in as a Workfront or group administrator and reply to a comment on behalf of another user. For more information, see [Log in as another user](../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md). 
 
@@ -121,53 +121,23 @@ For information about what features are available for the new commenting experie
 1. (Optional) Click the **More** menu ![](assets/more-menu.png) next to the update for more options to manage the  reply. For more information, see [Update work](../updating-work-items-and-viewing-updates/update-work.md). 
 
 
-## Reply to an update via email notification
+## Reply to an update from an email notification
 
 Depending on how your email notifications are configured, you might receive an email notification when an update is made to certain objects to which you have access.
 
->[!NOTE]
->
->Replying to updates by email is not available for environments on Cluster 6.
+You can reply to an update from an email notification in the following ways:
+
+* Reply to the email that you receive. Your reply email is added as a Workfront reply to the original comment.
+* Use the Comment button inside the email to navigate back to Workfront and reply to the update in the Updates area. 
 
 The following is an example of an email notification triggered as a result of an update made on the Updates tab of a task:
 
 ![email.png](assets/email-350x202.png)
 
-From the email, you can easily add a reply directly to the communications thread of the object in Workfront. You can also add a reply without logging in to Workfront, on an email that is generated from comments made to the following objects:
+For information, see [Reply to email notifications](../updating-work-items-and-viewing-updates/reply-to-email-notifications.md). 
 
-* Project
-* Task
-* Issue
-* Document
-* Template and template task
-* Portfolio
-* Program
-* Iteration
-* Timesheet
 
-### Reply to an update from an email notification
 
-When you receive an email notification, you can quickly open the associated Workfront object and add a reply directly to the communication thread.
 
-1. Click **Comment** on the email notification.
 
-   The Details page for the object opens in Workfront.
 
-1. Go to the update to which you want to add a reply.
-
-   In addition to seeing the users who are actively engaged in the conversation, you can see who was tagged in each reply at the top of that update thread. These users, along with any users subscribed to the object, receive notification whenever an update or reply is made on the object. To tag more users, see [Tag others on updates](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
-
-1. Click **Reply,** enter your reply, then click **Reply**.
-
-### Add an update to an object outside of Workfront
-
-When you receive a Workfront email notification, you can quickly add an update to the communication thread without logging in to Workfront.
-
-To add an update to a Workfront email:
-
-1. From your email application, open the Workfront email to which you want to respond, then open a reply email window.
-1. Type your update.  
-   Attachments are not permitted, and any Rich Text formatting applied to an update in an email does not display on the update when viewed in the Updates tab.
-1. Click **Send**.
-
-   Your update is added to the communications thread of the object.
