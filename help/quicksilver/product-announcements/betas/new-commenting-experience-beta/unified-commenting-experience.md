@@ -123,9 +123,9 @@ The following table illustrates the features that will be available in the new c
    </td>
    <td>✓ 
    </td>
-   <td>
+   <td>✓
    </td>
-   <td>✓ 
+   <td> 
    </td>
    <td> 
    </td>
