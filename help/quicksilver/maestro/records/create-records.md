@@ -107,7 +107,7 @@ You can import records from other applications into Maestro linked record types.
 
 1. Create a Relationship-type field to a third-party application for the Maestro record type you created, as described in [Manage Relationship-type fields](../architecture-and-fields/manage-relationship-fields.md). 
 
-1. Add records from the third-party application to the Maestro records you created above using the Relationship-type field you created in the previous step. For information, see [Connect records to objects from other applications](../architecture-and-fields/connect-records-to-other-applications-objects.md). 
+1. Add records from the third-party application to the Maestro records you created above using the Relationship-type field you created in the previous step. For information, see [Connect records](../architecture-and-fields/connect-records-to-other-applications-objects.md). 
 
     The following items are created in Maestro:
 

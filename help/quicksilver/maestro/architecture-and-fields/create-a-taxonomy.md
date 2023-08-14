@@ -17,6 +17,8 @@ For more information about Maestro record types, see [Overview of record types a
 
 ## Access requirements
 
+You must have the following access to perform activities mentioned in this article: 
+
 <table style="table-layout:auto">
  <col>
  </col>
@@ -58,27 +60,40 @@ For more information about Maestro record types, see [Overview of record types a
 
 >[!NOTE]
 >
->*If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see [Create or modify custom access levels](../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+>*If you don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see [Create or modify custom access levels](../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
 ## Considerations about taxonomies
 
 * Along with operational record types, taxonomies are building blocks of workspaces in Maestro. Record types should reflect the work lifecycle of an organizational unit. For information about workspaces, see [Create workspaces](../architecture-and-fields/create-workspaces.md).  
 * Taxonomies are record types that capture attributes about operational record types. We recommend to not create taxonomies that refer to work and instead to use operational record types to identify work-related information. 
 * When you create a taxonomy record type, everyone in your organization can view, edit, or delete it. <!--this will change with access levels and permissions-->
-<!--this is not possible yet:
-* You can taxonomies to a workspace by doing one of the following:
-    * Create them from scratch.
-    * Link them from other systems. For example, you can create record types by linking them to teams in Workfront. - update this sentence when you can import taxonomies as well as operational records-->
+* You can add a taxonomy record types to a workspace by doing one of the following:
+   * Create them automatically when you create a workspace using a template. For information, see [Create workspaces](../architecture-and-fields/create-workspaces.md).
+   * Create them from scratch.  
+
+  <!--this is not possible yet:
+  * You can taxonomies to a workspace by doing one of the following:
+    * Create a connection to object types from other systems, when adding fields to a taxnomy record type. This creates a read-only record type in Maestro.  - update this sentence when you can connect taxonomies as well as operational records to a third-party system.-->
+
+
 * You must create a workspace before you can create taxonomies for the workspace. 
 * All newly created taxonomies come with the following fields: 
 
     * Name <!--if there won't be any more fields, consider rephrasing this-->
 
     Additionally, you can add custom fields to taxonomies. For more information, see [Create fields](../architecture-and-fields/create-fields.md).  
+
+  >[!NOTE]
+  >
+  >    Taxonomies created when using a workspace template have additional field. 
+
+
 * You can have a combined total of 1,000 operational record types and taxonomies in one workspace. This includes record types or taxonomies that you create from scratch or that you import from other systems. 
 
 ## Create a taxonomy
 
-Creating taxonomies is identical to creating an operational record type. 
+Creating taxonomies is similar to creating an operational record type from scratch. 
 
-For information about creating record types, see [Create record types](../architecture-and-fields/create-record-types.md). 
+For information, see the section "Create a record type from scratch" in the article [Create record types](../architecture-and-fields/create-record-types.md). 
+
+For information about automatically creating taxonomies when creating a workspace from a template, see [Create workspaces](../architecture-and-fields/create-workspaces.md). 

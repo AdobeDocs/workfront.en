@@ -20,7 +20,7 @@ This articles in the following sections describe how you can configure Maestro a
 * [Overview of record types and taxonomies](../architecture-and-fields/overview-of-record-types-and-taxonomies.md)
 * [Create record types](../architecture-and-fields/create-record-types.md)
 * [Create a taxonomy](../architecture-and-fields/create-a-taxonomy.md)
-* [Connect records to objects from other applications](../architecture-and-fields/connect-records-to-other-applications-objects.md)
+* [Connect records](../architecture-and-fields/connect-records-to-other-applications-objects.md)
 * [Create fields in Adobe Maestro](../architecture-and-fields/create-fields.md)
 * [Edit fields](../architecture-and-fields/edit-fields.md)
 * [Edit record types](../architecture-and-fields/edit-record-types.md)

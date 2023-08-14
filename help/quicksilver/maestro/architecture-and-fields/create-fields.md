@@ -91,25 +91,24 @@ You must create record types before you can create fields to associate with them
 
             * Name <!--will more be added? If not, consider rephrasing this bullet-->
 
+        * Maestro creates fields for operational record types and taxonomies when you create a workspace from a template. For information, see [Create workspaces](../architecture-and-fields/create-workspaces.md). 
 
-
-        * Connect existing record types together and access the fields from the linked record type, when using Relationship fields. 
-            
-            For more information, see [Manage Relationship-type fields in Adobe Maestro](../architecture-and-fields/manage-relationship-fields.md). 
         
-        * Connect Maestro record types to object types from other applications and access the fields of the linked object types. 
-        
-            <!--* Importing record types with fields using a CSV or an Excel file. - this is not available yet-->
-
-            For more information about creating Maestro record types by connecting them to object types from other applications, see [Connect records to objects from other applications](../architecture-and-fields/connect-records-to-other-applications-objects.md). 
-
     * Manually:
 
-        * You can manually create fields on the record type page, in the Table view. The columns of the table are the fields associated with the record type. They are the same fields that display on a record's Details page. 
+        * Create fields in the Table view of a record type page. The columns of the table are the fields associated with the record type. They are the same fields that display on a record's Details page. 
         
             You cannot create fields from the Details page of a record.
             
             This article describes how to manually create fields. 
+
+        * Create fields by making a new connection between two Maestro record types or a record type and an object types from other applications. 
+        
+           <!--* Importing record types with fields using a CSV or an Excel file. - this is not available yet-->
+
+           For more information about connecting Maestro record types, see [Connect record types](../architecture-and-fields/manage-relationship-fields.md). 
+
+        * Import fields when you import record types using an Excel or CSV file. For more information, see [Create record types](../architecture-and-fields/create-record-types.md). 
 
 * You can view and update the settings for the fields that you or any other user created. <!--this will change with access/ permissions-->
 
@@ -140,7 +139,6 @@ You must create record types before you can create fields to associate with them
 1. Click the **+** icon in the upper-right corner of the table view to add new fields.
 1. In the **New field** tab, select from the following field types: 
 
-    * [Relationship](#relationship)
     * [Single-line text](#single-line-text)
     * [Paragraph](#paragraph)
     * [Multi-select](#multi-select)
@@ -156,17 +154,6 @@ You must create record types before you can create fields to associate with them
     >    You cannot change the type of the field after you save it. 
 
 1. Continue with adding each field, as described in the sections below.
-
-### Relationship {#relationship}
-
-You can use a relationship field to connect record types and their fields. By doing this, you can display fields from the linked record on another record.
-
->[!IMPORTANT]
->
->    You cannot manually update the values of linked fields from the original records. They are automatically updated from their linked records.
-
-
-For more information about creating a relationship field, see [Manage Relationship-type fields in Adobe Maestro](../architecture-and-fields/manage-relationship-fields.md).
 
 ### Single-line text {#single-line-text}
 

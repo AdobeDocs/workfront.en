@@ -17,7 +17,7 @@ Maestro object types are called "record types". Record types are the building bl
     
 In Maestro, you can create custom object types that meet your organization's needs.
 
-You can also import record types from other applications.
+You can also import record types from other applications by connecting Maestro records with objects from another application.
 
 <!--Will be available later: You can also define how the record types relate to one another or form dependencies.--> 
     
@@ -26,7 +26,7 @@ There are two kinds of Maestro record types:
 * [Operational Record Type](#operational-record-type)
 * [Taxonomy](#taxonomy)
 
-You can have a combined total of 500 operational record types and taxonomies in one workspace.
+You can have a combined total of 1,000 operational record types and taxonomies in one workspace.
 
 ### Operational Record Type{#operational-record-type}
 
@@ -34,20 +34,15 @@ An operational record type is a Maestro record type that represents work objects
 
 ![](assets/operational-record-type-blank.png)
 
-You can do the following to add operational record types to a Maestro workspace: 
-
-* Create an operational record type from scratch. For example, Campaign, Activity, or Program can be operational record types that you create from scratch in Maestro. 
-* Import the following object types from other applications and they become Maestro operational record types:
-
-    * Projects from Adobe Workfront <!--add to this list when we could import more objects from other apps-->
-
-    For more information, see [Create record types](../architecture-and-fields/create-record-types.md). 
+For more information about operational record types including how to create them, see [Create record types](../architecture-and-fields/create-record-types.md). 
 
 ### Taxonomy{#taxonomy}
 
 A taxonomy is a record type that captures attributes about an operational record type. 
 
 ![](assets/taxonomy-record-type-blank.png)
+
+For more information about taxonomy record types including how to create them, see [Create a taxonomy](../architecture-and-fields/create-a-taxonomy.md). 
 
 Although creating taxonomies is identical to creating operational record types, Maestro distinguishes conceptually between an operational record type and a taxonomy record type. The purpose of taxonomies is to enhance operational record types. Taxonomies should not directly represent work objects.  <!--this is no longer true, but might be later?!: A taxonomy is a record without dates, like a static list of attributes.--> 
 
@@ -57,3 +52,19 @@ For example, Audience, Region, or Address can be taxonomy-type record types.
 
 For more information, see [Create a taxonomy](../architecture-and-fields/create-a-taxonomy.md). 
 
+## Similarities and differences between operational record types and taxonomies
+
+The following table illustrates some of the similarities and differences between operational record types and taxonomies: 
+
+| Record type and characteristic                              | Operational Record Type | Taxonomy Record Type |
+|-------------------------------------------------------------|:-----------------------:|:--------------------:|
+| They are part of a workspace                                |            ✓            |           ✓          |
+| You can create from a workspace template                    |            ✓            |           ✓          |
+| They represent work-related objects                         |            ✓            |                      |
+| They represent attributes about work-related objects        |                         |           ✓          |
+| You can create from scratch                                 |            ✓            |           ✓          |
+| You can create by importing an Excel or CSV file            |            ✓            |                      |
+| You can connect to an object from a third-party application |            ✓            |                      |
+| You can connect to other Maestro record types               |            ✓            |           ✓          |
+| You can view their associated records in a table view       |            ✓            |           ✓          |
+| You can view their associated records in a timeline view    |            ✓            |           ✓          |

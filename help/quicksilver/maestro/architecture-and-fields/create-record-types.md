@@ -17,9 +17,9 @@ Record types are the object types of Adobe Maestro. Record types can be one of t
 
 For more information about Maestro record types, see [Overview of record types and taxonomies](../architecture-and-fields/overview-of-record-types-and-taxonomies.md).
 
-This article describes how to create operational record types. However, creating operational record types and taxonomies is identical. For more information about taxonomies, see [Create a taxonomy](../architecture-and-fields/create-a-taxonomy.md).
-
 ## Access requirements
+
+You must have the following access to perform the steps described in this article:
 
 <table style="table-layout:auto">
  <col>
@@ -68,20 +68,27 @@ This article describes how to create operational record types. However, creating
 
 <!--*********************************REVISE THIS - THE WORKFRONT CONNECTION IS NOT RIGHT HERE**************************-->
 
-* Operational record types are the building blocks of workspaces in Maestro. The record types should reflect the work lifecycle of an organizational unit. For information about workspaces, see [Create workspaces](../architecture-and-fields/create-workspaces.md).  
-* When you create an operational record type, everyone in your organization can view, edit, or delete it. <!--this will change with access levels and permissions-->
+* Record types are the building blocks of workspaces in Maestro. The record types should reflect the work lifecycle of an organizational unit. For information about workspaces, see [Create workspaces](../architecture-and-fields/create-workspaces.md).  
+* When you create a record type, everyone in your organization can view, edit, or delete it. <!--this will change with access levels and permissions-->
 * You can add operational record types to a workspace by doing one of the following:
-    * Create them from scratch. This article describes how you can create a record type from scratch.
-    * Import them from other systems by creating Relationship fields between Maestro record types and object types in other applications. 
+    * Create them automatically when you create a workspace using a template. For information, see [Create workspaces](../architecture-and-fields/create-workspaces.md).
+    * Create them from scratch. 
+    * Import them using an Excel or CSV file
+    * Create a connection to object types from other systems, when adding fields to a record type. This creates a read-only record type in Maestro. 
     
-        >[!TIP]
-        >
-        >    You cannot import taxonomy record types from other systems. <!--update this sentence when you can import taxonomies as well as operational records-->
+    >[!TIP]
+    >
+    >    You cannot import taxonomy record types using Excel or CSV files or connect taxonomy record types to object types from other systems. <!--update this sentence when you can import taxonomies as well as operational records-->
+
+    This article describes how you can create record types from scratch and by importing them using an Excel or CSV file. For information about connecting object types with Maestro records, see [Connect records](../architecture-and-fields/connect-records-to-other-applications-objects.md). 
 
 * You must create a workspace before you can create record types for the workspace.  
 * You can have a combined total of 1,000 operational record types and taxonomies in one workspace. This includes record types or taxonomies that you create from scratch or that you import from other systems. 
 
 ## Create a record type from scratch
+
+This article describes how to create operational record types from scratch. Creating operational record types from scratch is similar to creating taxonomies. For more information about 
+taxonomies, see [Create a taxonomy](../architecture-and-fields/create-a-taxonomy.md).
 
 1. Click the **Main Menu** icon ![](assets/main-menu-workfront.png) in the upper-right corner of Workfront, <!---or the **Main menu** icon ![](assets/main-menu-shell.png)  in the upper-left corner, if available--> then click **Maestro** ![](assets/maestro-icon.png).
 
@@ -89,7 +96,8 @@ This article describes how to create operational record types. However, creating
 
 1. (Optional) Expand the downward-pointing arrow to the right of an existing workspace name and select the workspace that you want to create record types for.
 1. Click **Add record type**. 
-    
+1. (Conditional) If you are creating an operational record type, click **From scratch**. 
+
     The Add record type box opens. 
 
     ![](assets/add-record-type-box-with-appearance-options.png)
@@ -131,15 +139,79 @@ For additional information about adding records, deleting record types, or updat
 * [Delete record types and taxonomies](../architecture-and-fields/delete-record-types-and-taxonomies.md)
 * [Manage record views in Adobe Maestro](../views/manage-record-views.md) <!--add information here about the sorting and grouping when available-->
 
-## Import record types from another application
+## Import record types using an Excel or CSV file
 
-You can import record types from another application when you create a Relationship-type field linked to object fields from other applications. 
+Consider the following when importing record types from information in an Excel or CSV file: 
 
-For example, you can create record types by creating a Relationship field on a Maestro record type linked to project fields in Workfront. As a result, the Workfront projects are imported into Maestro as a read-only record type. 
+* Each sheet of the Excel file becomes a record type in Maestro. 
+* The columns of each sheet become the fields associated with each record type. 
+* The columns from each sheet are unique fields for their respective record types. 
+* Each row in each sheet becomes a unique record associated with its respective record type. 
+* Each sheet of the Excel file should not exceed the following: 
+    * 10,000 rows
+    * 500 columns
+* The Excel file should not be larger than 5MB.
+* Empty sheets are not supported. 
+
+To import record types using an Excel file: 
+
+1. Click the **Main Menu** icon ![](assets/main-menu-workfront.png) in the upper-right corner of Workfront, <!---or the **Main menu** icon ![](assets/main-menu-shell.png)  in the upper-left corner, if available--> then click **Maestro** ![](assets/maestro-icon.png).
+
+    The last-accessed workspace should open by default. 
+
+1. (Optional) Expand the downward-pointing arrow to the right of an existing workspace name and select the workspace that you want to create record types for.
+1. Click **Add record type**. 
+1. (Conditional) If you are creating an operational record type, click **Excel/CSV**. 
+
+    >[!NOTE]
+    >
+    >    This option is not available when creating taxonomy record types.
+
+1. Drag and drop an Excel or CSV file previously saved on your computer, or click **Select a CSV or Excel file** to browse for one. 
+1. Click **Review your data**.
+    
+    The Preview and edit box displays with the following information: 
+
+    * The names of the sheets or of the future record types display in the left panel. <!--this is not true right now: the icon you see there is not saved when the records types are created: Maestro selects an icon for each new record type by default. -->
+    * The first sheet or record type is selected and the names of the fields associated with it display as the column headers. The type of each field is selected by default. 
+    * Each row represents a new record. Only the first 10 records display in the Preview and edit box. 
+
+    ![](assets/preview-and-edit-box.png)
+
+1. (Optional) Click the name of each sheet in the left panel to review the information it contains. 
+
+    >[!NOTE]
+    >
+    >    Sheets that are empty are not supported and are dimmed. 
+
+
+1. (Optional) Click the **Select sheets to import** drop-down menu and deselect the sheets that you don't want to import. 
+
+    ![](assets/select-sheets-to-import-drop-down-with-unselected.png)
+
+    Sheets you deselected display with a gray background. 
+
+1. Click **Import** when you are ready to import your file. 
+
+    The following information imports in to Maestro:
+
+    * New record types
+    * New fields associated with each record type
+    * New records associated with each record type
+
+    You can start managing fields and record on the record types pages. 
+    
+    Everyone with access to Maestro can now view and edit the imported record types and their information. <!--this will change with permissions-->
+
+## Connect record types with object types from another application
+
+You can import record types when you create a connection between a Maestro record type and an object type from another application. This creates a read-only record type in Maestro that corresponds to the object type in the third-party application. 
+
+For example, you can create record types by connecting Maestro record types with Workfront projects. As a result, the Workfront project object type is imported into Maestro as a read-only record type. 
     
 You can import the following objects from the following applications: 
 
-* Projects from Workfront. For more information, see [Import records from Workfront](../maestro/import-records-from-workfront.md). 
+* Projects from Workfront. For more information, see [Connect records](../architecture-and-fields/connect-records-to-other-applications-objects.md).
 
 
 
