@@ -1440,7 +1440,7 @@ feature-set: Workfront
   * Tips, tricks, and troubleshooting for teams and groups {#tips-tricks-people-teams-groups}
     * [Tips, Tricks, and Troubleshooting for Teams and Groups](people-teams-and-groups/tips-tricks-and-troubleshooting/tips-tricks-and-troubleshooting-grps.md)
     * [Username Already in Use](people-teams-and-groups/tips-tricks-and-troubleshooting/username-already-in-use.md)
-<!--* Reporting {#reporting}
+* Reporting {#reporting}
   * [Reporting](reports-and-dashboards/reports-and-dashboards-overview.md)
   * Reporting Canvas {#reporting-canvas}
     * [Reporting Canvas](reports-and-dashboards/reporting-canvas/reporting-canvas.md)
@@ -1464,7 +1464,7 @@ feature-set: Workfront
       * [Configure a KPI visualization in Reporting Canvas](reports-and-dashboards/reporting-canvas/visualization-blocks/configure-kpi-visualization.md)
     * Other Blocks {#other-blocks}
       * [Other Blocks](reports-and-dashboards/reporting-canvas/other-blocks/other-blocks.md)
-      * [Add or edit a web content block in Reporting Canvas](reports-and-dashboards/reporting-canvas/other-blocks/add-or-edt-web-content-block.md)-->
+      * [Add or edit a web content block in Reporting Canvas](reports-and-dashboards/reporting-canvas/other-blocks/add-or-edt-web-content-block.md)
   * Reports {#reports}
     * [Reports](reports-and-dashboards/reports/reports-overview.md)
     * Reporting basics {#report-basics}
