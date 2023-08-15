@@ -11,9 +11,27 @@ exl-id: a8271f3c-7a08-4eb3-aaff-deb250f5af73
 ---
 # Reply to updates
 
-<!--take "Beta" references out when we remove the beta-->
+<!--take "Beta" references out when we remove the beta and change "current" to "legacy" after October 26-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers only in the Preview environment.</span>-->
+<!--after August 17: 
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases. </span>  
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](workfront/using/administration-and-setup/set-up-wf/configure-system-defaults/enable-fast-release-process.html?lang=en ). </span>  
+<span class="preview">For information about the current release, see [Fourth Quarter 2023 release overview](../../../product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md). </span>-->
+
+<!--replace the note below with this at August 17: 
+>[!NOTE]
+>
+>We are currently redesigning the commenting experience in Adobe Workfront.
+>Depending on what environment and what objects you access the commenting experience from, you might see different functionality in the Updates section. 
+>For more information about the new commenting experience and its availability, see [New commenting experience](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). 
+>
+>The new commenting experience is available only for the Updates section, and it is not available for the following areas:
+>
+> * Home
+> * Summary panel in lists
+> * Summary panel in timesheets
+
+--> 
 
 >[!NOTE]
 >
@@ -43,7 +61,7 @@ When someone replies to a comment or a system update on a work object, their rep
 
 >[!IMPORTANT]
 >
->It is not possible to reply to system updates in the new commenting Beta experience. For more information, see [New commenting experience](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+>It is not possible to reply to system updates in the new commenting experience. For more information, see [New commenting experience](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
 
 ## Access requirements
@@ -103,13 +121,13 @@ Replying to a comment or reply differs depending on which experience and which o
 1. (Optional) Use formatting, emojis, include links, or images as explained in the section "Use Rich Text in a Workfront update" in the article [Update work](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 1. Click **Reply** to save the reply.
 
-### Reply to a comment when using the commenting Beta experience
+### Reply to a comment when using the new commenting experience
 
-For information about what features are available for the new commenting experience and for what objects, see [New commenting experience](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). 
+For information about what features are available in the new commenting experience and for what objects, see [New commenting experience](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). 
 
 1. Go to the object to which you want to add a reply.
 1. Click **Updates**, then click the **Comments** tab for the object and find the comment or reply to which you want to reply.
-1. (Optional) To include text from a previous update in your reply, click the **More** menu next to the update or reply you want to quote, then click **Quote reply**. Text from the previous update appears in the input area, marked with a vertical gray line.
+1. (Optional) To include text from a previous update in your reply, click the **More** menu next to the update or reply you want to quote <!--(replace placing of the More menu - August 17) <span class="preview">in the upper-right corner of the comment you want to reply to</span>-->, then click **Quote reply**. Text from the previous update appears in the input area, marked with a vertical gray line.
 1. Click **Reply**. 
 
    You can see the users who are actively engaged in the conversation at the bottom of the **New comment** box and you can add more, or remove the ones that are no longer relevant. These users, along with any users subscribed to the object, receive a notification whenever an update or reply is made on the object. You can also tag more users to include them in your reply.  To tag more users, see [Tag others on updates](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
@@ -118,7 +136,7 @@ For information about what features are available for the new commenting experie
 
 1. Click **Submit** to save the reply.
 
-1. (Optional) Click the **More** menu ![](assets/more-menu.png) next to the update for more options to manage the  reply. For more information, see [Update work](../updating-work-items-and-viewing-updates/update-work.md). 
+1. (Optional) Click the **More** menu ![](assets/more-menu.png) next to the update <!--(replace placing of the More menu - August 17) <span class="preview">in the upper-right corner of the comment you want to reply to</span>--> for more options to manage the  reply. For more information, see [Update work](../updating-work-items-and-viewing-updates/update-work.md). 
 
 
 ## Reply to an update from an email notification
