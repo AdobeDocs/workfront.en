@@ -9,10 +9,27 @@ exl-id: c4c0d74f-ac50-4fc5-89d6-28f004c25b29
 ---
 # Tag others on updates
 
-<!--take "Beta" references out when we remove the beta-->
+<!--take "Beta" references out when we remove the beta and change "current" to "legacy" after October 26-->
 
+<!--after August 17: 
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases. </span>  
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](workfront/using/administration-and-setup/set-up-wf/configure-system-defaults/enable-fast-release-process.html?lang=en ). </span>  
+<span class="preview">For information about the current release, see [Fourth Quarter 2023 release overview](../../../product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md). </span>-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.-->
+<!--replace the note below with this at August 17: 
+>[!NOTE]
+>
+>We are currently redesigning the commenting experience in Adobe Workfront.
+>Depending on what environment and what objects you access the commenting experience from, you might see different functionality in the Updates section. 
+>For more information about the new commenting experience and its availability, see [New commenting experience](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). 
+>
+>The new commenting experience is available only for the Updates section, and it is not available for the following areas:
+>
+> * Home
+> * Summary panel in lists
+> * Summary panel in timesheets
+
+--> 
 
 >[!NOTE]
 >
@@ -92,6 +109,8 @@ Tagging others in an update differs depending on which experience and which obje
 
 ### Tag others on updates in the current Updates section
 
+<!--change "current" to "legacy" at the October 26, 2023 release-->
+
 You can manually tag users in the current Updates section. 
 
 1. Begin updating a work item, as described in [Update work](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
@@ -132,7 +151,7 @@ You can manually tag users in the current Updates section.
 
    For information about the additional functionality that is available when updating a work item, see [Update work](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-### Tag others on updates in the commenting Beta experience
+### Tag others on updates in the new commenting experience
 
 You can tag others on updates in the new commenting experience in the following ways:
 
@@ -180,10 +199,15 @@ You can also remove users who are tagged by mistake when you edit or reply to a 
    Users included in the update are automatically granted View permission to the object and can view and respond to updates made to the object.
 
    You can see who has been tagged in each reply under the text of the update, in the Members area. These users, along with any users subscribed to the object, receive a notification whenever an update or reply is made on the object.
+
+   <!-- for August 17, replace the blurb above about Members: <span class="preview">The names of the tagged users display next to their avatars, up to two users. If more than two users are tagged the name of the first tagged user displays, in addition to a number of how many additional users are tagged.</span> -->
+
 1. (Optional) Cick the number of **Members** included in the update to display a list of entities that the update you entered is shared with. 
+
+   <!--update screen shot for August 17-->
 
    ![](assets/members-icons-expanded-unshimmed.png)
 
    For information about the additional functionality that is available when updating a work item, see [Update work](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-1. (Optional) Click the **More** menu ![](assets/more-menu.png) to the right of the Like icon, then click **Edit**. Remove any of the tagged users, then click **Submit**. You can edit a comment only within 15 minutes after you have entered it. You can only edit the comments you added.
+1. (Optional) Click the **More** menu ![](assets/more-menu.png) to the right of the Like icon <!--with the August 17 release - replace placing of the More icon: <span class="preview">in the upper-right corner of the comment</span>-->, then click **Edit**. Remove any of the tagged users, then click **Submit**. You can edit a comment only within 15 minutes after you have entered it. You can only edit the comments you added.

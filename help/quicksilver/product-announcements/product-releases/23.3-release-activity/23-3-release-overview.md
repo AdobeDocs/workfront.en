@@ -723,7 +723,7 @@ The 23.3 release webinar was on June 29, 2023. You can [register for the webinar
                                 <p>Preview release: Throughout the 23.3 release timeframe</p>
                             </li>
                             <li>
-                                <p><span class="preview">A minimum of 2 weeks after releasing to Preview (unless otherwise specified)</span></p>
+                                <p><span class="preview">Production release: A minimum of 2 weeks after releasing to Preview (unless otherwise specified)</span></p>
                             </li>
                         </ul>
                     </td>
