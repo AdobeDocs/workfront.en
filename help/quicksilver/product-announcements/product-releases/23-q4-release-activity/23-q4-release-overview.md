@@ -53,8 +53,8 @@ This page provides information about functionality that is included in the Fourt
                         <p><span class="bold">Release dates</span>
                         </p>
                     </td>
-                 </tr>  
-                 <tr>
+                </tr>  
+                <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-july-31.md" class="MCXref xref" xrefformat="{para}">Documents available on connected cards as view-only</a></p><p>For connected cards on Adobe Workfront Boards, you can now view documents such as images and PDFs. You can either preview a document in the browser or download it to your computer. </p>
                     </td>
@@ -77,16 +77,6 @@ This page provides information about functionality that is included in the Fourt
                 </tr>
                 <tr>
                     <td>
-                        <p><span class="bold">Feature</span>
-                        </p>
-                    </td>
-                    <td>
-                        <p><span class="bold">Release dates</span>
-                        </p>
-                    </td>
-                 </tr>  
-                 <tr>
-                    <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-july-31.md" class="MCXref xref" xrefformat="{para}">Board view of a project now available for issues</a></p><p>You can now access a Board view of a project issue list. The Kanban board can help you track the progress of the issues in a more visual way than viewing them in the list. </p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
@@ -95,6 +85,26 @@ This page provides information about functionality that is included in the Fourt
                                 <p>Preview release:&#160;August 3, 2023<br /></p>
                             </li>
                              <li>
+                                <p>Production for fast release: With the 23.8 release</p>
+                            </li>
+                            <li>
+                                <p>Production for quarterly release: With the 23.10 release</p>
+                            </li>
+                        </ul>
+                    </td>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">Add documents on connected cards</a></p><p>You can now attach documents on connected cards on Adobe Workfront Boards. Any documents you add on the card become available on the Documents tab of the connected task or issue, and the same file types are supported in both areas.</p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                        <ul>
+                            <li>
+                                <p>Preview release:&#160;August 17, 2023<br /></p>
+                            </li>
+                            <li>
+                                <p>Production for Boards early access: August 24, 2023</p>
+                            </li>
+                            <li>
                                 <p>Production for fast release: With the 23.8 release</p>
                             </li>
                             <li>
@@ -144,6 +154,102 @@ This page provides information about functionality that is included in the Fourt
            </tbody>
         </table>
 
+### Project Management enhancements
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">Feature</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Release dates</span>
+                        </p>
+                    </td>
+                 </tr>  
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">Set planned hours on child recurring tasks with Simple duration type without assignments</a></p>
+                        <p>We have made a change in the way Planned Hours are allocated to recurring tasks with no assignments and a Simple duration type. Now, when you set Planned Hours on a new recurring task with a Simple Duration Type and no assignments, the hours are also allocated to the individual recurrences. Prior to this change, the hours were not saved for individual recurrences when the parent tasks were unassigned.</p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                        <ul>
+                            <li>
+                                <p>Preview release: August 17, 2023<br /></p>
+                            </li>
+                            <li>
+                                <p>Production for fast release: With the 23.8 release</p>
+                            </li>
+                            <li>
+                                <p>Production for quarterly release: With the 23.10 release</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+           </tbody>
+        </table>
+
+### Financial management enhancements
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">Feature</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Release dates</span>
+                        </p>
+                    </td>
+                 </tr>  
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-finance-enhancements.md" class="MCXref xref" xrefformat="{para}">Date effective cost and billing rates</a> </p><p>This update has been announced with the 23.3 release.</p>
+                        <p>Date effective cost and billing rates are now available on the company, user, and job role objects in Workfront. When date effective rates are applied to a project, and hours are logged on project tasks, the costs and revenue are calculated using the specified rates for each time period.</p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                        <ul>
+                            <li>
+                                <p>Preview release: June 29, 2023<br /></p>
+                            </li>
+                            <li>
+                                <p>Production for fast release: With the 23.8 release</p>
+                            </li>
+                            <li>
+                                <p>Production for quarterly release: With the 23.10 release</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">Bulk delete rates from rate cards</a> </p>
+                        <p>You can now remove multiple rates at one time from a rate card in the Setup area.</p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                        <ul>
+                            <li>
+                                <p>Preview release: August 17, 2023<br /></p>
+                            </li>
+                            <li>
+                                <p>Production for fast release: With the 23.8 release</p>
+                            </li>
+                            <li>
+                                <p>Production for quarterly release: With the 23.10 release</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+           </tbody>
+        </table>
+
+
 ### Other enhancements
 
 <table>
@@ -160,15 +266,15 @@ This page provides information about functionality that is included in the Fourt
                         </p>
                     </td>
                  </tr>
-                 <!--
-                 <tr>
+                <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-7.md" class="MCXref xref" xrefformat="{para}">Dynamic re-calculation of calculated fields on native and custom forms</a> <span style="color: #ff0000;"> New in Preview!</span></p><p>Calculated fields on a form attached to an object are now dynamically re-calculated in real time when dependent values on any form on the page are modified. This allows you to see the updated results without saving the form.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">Dynamic re-calculation of calculated fields on forms</a> </p>
+                        <p>Calculated fields on a form attached to an object are now dynamically re-calculated in real time when dependent values on any form on the page are modified. This allows you to see the updated results without saving the form.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
                         <ul>
                             <li>
-                                <p>Preview release: August 17, 2023</p>
+                                <p>Preview release: August 17, 2023<br /></p>
                             </li>
                             <li>
                                 <p>Production for fast release: With the 23.8 release</p>
@@ -179,7 +285,25 @@ This page provides information about functionality that is included in the Fourt
                         </ul>
                     </td>
                 </tr>
-                -->
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md" class="MCXref xref" xrefformat="{para}">New commenting experience beta enhancements</a> </p>
+                        <p>Enhancements to the Updates section are being made available within the Fourth Quarter 2023 release timeframe for the commenting experience beta. These enhancements will be made available in the Production environment for all customers with the Fourth Quarter 2023 release (October 2023).</p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                        <ul>
+                            <li>
+                                <p>Preview release: Throughout the Fourth Quarter 2023 release timeframe<br /></p>
+                            </li>
+                            <li>
+                                <p>Production for fast release: Starting with the 23.8 release</p>
+                            </li>
+                            <li>
+                                <p>Production for quarterly release: With the 23.10 release (unless otherwise specified)</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">Look-and-feel updates during the Fourth Quarter 2023 timeframe</a></p><p>Minor updates to the look and feel of various areas of the Adobe Workfront application are being made within the Fourth Quarter 2023 timeframe. Review the individual release notes for specific release dates.</p>
