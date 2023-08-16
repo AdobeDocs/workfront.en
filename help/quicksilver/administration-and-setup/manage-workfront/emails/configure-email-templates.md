@@ -47,10 +47,8 @@ You must have the following access to perform the steps in this article:
 
 1. In the panel on the left, click **Email** > **Notifications**> **Email Templates**.
 
-  <!--hidden for tab redesign - August 2023: 
   ![](assets/email-templates-tab-under-setup-email-notifications-area.png)
-  -->
-
+  
 1. Click **New Email Template**.  
 
 1. In the **New Email Template** box that appears, specify the following information:

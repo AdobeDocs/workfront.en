@@ -4,6 +4,8 @@ description: Configure a bar visualization in the Reporting Canvas
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 7dc4f156-d262-482f-aa82-c905f0d1b20f
+hidefromtoc: yes
+hide: yes
 ---
 
 # Configure a bar visualization in the Reporting Canvas
