@@ -18,10 +18,11 @@ exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
 <span class="preview">For information about the current release, see [Fourth Quarter 2023 release overview](../../../product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md). </span>-->
 
 <!--replace the note below with this at August 17: 
->[!NOTE]
+>[!IMPORTANT]
 >
 >We are currently redesigning the commenting experience in Adobe Workfront.
 >Depending on what environment and what objects you access the commenting experience from, you might see different functionality in the Updates section. 
+>In this article, the "current" commenting experience refers to the legacy experience. The "new" experience refers to the new commenting experience. In some environments, the current or the new experience might not be available for some objects. In some environments the new experience can be enabled using the Commenting Beta toggle. 
 >For more information about the new commenting experience and its availability, see [New commenting experience](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). 
 >
 >The new commenting experience is available only for the Updates section, and it is not available for the following areas:
@@ -31,6 +32,7 @@ exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
 > * Summary panel in timesheets
 
 --> 
+
 
 <!-- with October 26 release: add somewhere this:
 
@@ -64,12 +66,6 @@ exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
 The Updates section of an object displays comments that users make on the object or system updates that track changes to the object.
 
 ## Overview of the Updates section
-
-The information in the Updates section is organized differently, depending on which environment you access it from. 
-
-### Overview of the current Updates section 
-
-<!--October 26 - replace current with legacy-->
 
 * The Updates section of an object shows up to 200 of the most recent updates made within the past 90 days. 
 
@@ -107,6 +103,13 @@ The information in the Updates section is organized differently, depending on wh
 
   *Stories are tasks. All information that is related to tasks is also available for stories. 
 
+The information in the Updates section is organized differently, depending on which environment you access it from. 
+
+
+### Overview of the current Updates section 
+
+<!--October 26 - replace current with legacy-->
+
 * The current Updates section shows the following information:
 
   * **User updates**: Comments made by users and replies to those comments. 
@@ -122,7 +125,7 @@ The information in the Updates section is organized differently, depending on wh
 
 For information about what features are available for the new commenting experience and for what objects, see [New commenting experience](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
-<!--update screen shot and maybe save it under a new name??? with the August 17 release-->
+<!--update screen shot and maybe save it under a new name??? with the August 17 release - also make sure you have some people tagged, similar to what we show in the old UI-->
 
 ![](assets/updates-tab-after-unified-experience-for-issues.png)
 
@@ -182,7 +185,7 @@ For information about what features are available for the new commenting experie
 
   *You can add and view updates to cards in the Board areas when you enable the Comments and System Activity sections on a card. For more information, see [Add an ad hoc card to a board](../../agile/get-started-with-boards/add-card-to-board.md). 
 
-<!--enable this when we release the new update stream to ALL other objects and only if Anna's bug was fixed to include this: 
+<!--enable this when we release the new update stream to ALL other objects and only if Anna's bug was fixed to include this - on or before October 2023: 
 
 * The following objects don't have a System Activity tab:
 
@@ -281,7 +284,11 @@ There are some limitations in the Updates section of a team and when entering up
 
 ### Limitations for users and teams
 
-You cannot make updates on teams. The Updates section for teams is populated by updates entered on the following objects:
+You cannot make updates on teams. 
+
+<span class="preview">You can add a reply to an update you view on a team. The reply displays in the team's Updates section as well as the Updates section of the object it belongs to. </span>
+
+The Updates section for teams is populated by updates entered on the following objects:
 
 * Users
 * Timesheets

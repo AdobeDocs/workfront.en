@@ -17,10 +17,11 @@ exl-id: c4c0d74f-ac50-4fc5-89d6-28f004c25b29
 <span class="preview">For information about the current release, see [Fourth Quarter 2023 release overview](../../../product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md). </span>-->
 
 <!--replace the note below with this at August 17: 
->[!NOTE]
+>[!IMPORTANT]
 >
 >We are currently redesigning the commenting experience in Adobe Workfront.
 >Depending on what environment and what objects you access the commenting experience from, you might see different functionality in the Updates section. 
+>In this article, the "current" commenting experience refers to the legacy experience. The "new" experience refers to the new commenting experience. In some environments, the current or the new experience might not be available for some objects. In some environments the new experience can be enabled using the Commenting Beta toggle. 
 >For more information about the new commenting experience and its availability, see [New commenting experience](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). 
 >
 >The new commenting experience is available only for the Updates section, and it is not available for the following areas:
@@ -30,6 +31,7 @@ exl-id: c4c0d74f-ac50-4fc5-89d6-28f004c25b29
 > * Summary panel in timesheets
 
 --> 
+
 
 >[!NOTE]
 >
@@ -200,13 +202,12 @@ You can also remove users who are tagged by mistake when you edit or reply to a 
 
    You can see who has been tagged in each reply under the text of the update, in the Members area. These users, along with any users subscribed to the object, receive a notification whenever an update or reply is made on the object.
 
-   <!-- for August 17, replace the blurb above about Members: <span class="preview">The names of the tagged users display next to their avatars, up to two users. If more than two users are tagged the name of the first tagged user displays, in addition to a number of how many additional users are tagged.</span> -->
+   <!-- for August 17, replace the blurb above about Members: <span class="preview">The names of the tagged entities display next to their avatars, up to two entities. If more than two entities are tagged the name of the first one displays, in addition to a number of how many additional entities are tagged.</span> -->
 
-1. (Optional) Cick the number of **Members** included in the update to display a list of entities that the update you entered is shared with. 
+1. (Optional) Click the number of **Members** included in the update to display a list of entities that the update you entered is shared with. <!--take the step out and just move the shot to the step above - August 17-->
 
-   <!--update screen shot for August 17-->
-
-   ![](assets/members-icons-expanded-unshimmed.png)
+   <!--unhide the shot below for August 17
+   ![](assets/members-icons-expanded-unshimmed.png)-->
 
    For information about the additional functionality that is available when updating a work item, see [Update work](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 

@@ -467,62 +467,77 @@ For information about the features recently released to the new commenting exper
 
 ## Locate the new commenting experience
 
+<!--
+The new commenting environments is currently available for the following objects and in the following environments: 
+
+* In the Production environment for all customers: 
+
+  * When enabling the Beta experience in the Updates section for 
+
+    * Issues, projects, tasks, and documents
+
+    For more information about managing updates for Workfront objects, see [Update work](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+
+  * By default, as the only commenting experience for
+
+    * Goals, cards on a board
+
+    >[!NOTE]
+    >
+    >You must have an additional license to Adobe Workfront Goals to be able to access this area of Workfront. For more information, see [Requirements to use Workfront Goals](../../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+
+* In the Preview environment *********update this on August 31: or the Production environment for customers who have enabled fast releases******* : 
+
+    <span class="preview">
+
+    * By default, when you enable the New commenting experience in the Updates section for the following objects: 
+
+      * Project
+      * Task
+      * Issue
+      * Document
+
+      >[!TIP]
+      >
+      >The New commenting experience option is enabled by default for these objects. You can deselect the New commenting toggle to display the legacy commenting experience. 
+
+      For more information about managing updates for Workfront objects, see [Update work](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). 
+
+    </span>
+
+    <span class="preview">
+
+    * By default, as the only commenting experience for the following objects:  
+
+      * Goal
+
+        >[!NOTE]
+        >
+        >You must have an additional license to Adobe Workfront Goals to be able to access this area of Workfront. For more information, see [Requirements to use Workfront Goals](../../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+      * Card on a board
+      * Team
+      * Template
+      * Template Task
+      * Timesheet
+      * Program
+      * Portfolio
+      * User
+
+    >[!TIP]
+    >
+    >There is no option to enable the new commenting experience for iterations. Only the legacy commenting experience is available for iterations. 
+
+    </span>
+-->
+
 The new commenting experience is currently supported for the following objects:
 
-<!--replace the first bullet with this on August 17: 
-
-<span class="preview">
-
-* By default, when you enable the New commenting experience in the Updates section for the following objects: 
-
-   * Project
-   * Task
-   * Issue
-   * Document
-
-   >[!TIP]
-   >
-   >The New commenting experience option is enabled by default for these objects. You can deselect the New commenting toggle to display the legacy commenting experience. 
-
-   For more information about managing updates for Workfront objects, see [Update work](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). 
-
-</span>
-
--->
 
 * When enabling the Beta experience in the Updates section for 
 
     * Issues, projects, tasks, and documents
 
     For more information about managing updates for Workfront objects, see [Update work](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). 
-
-<!--replace the second bullet with this on August 17: 
-
-<span class="preview">
-
-* By default, as the only commenting experience for the following objects:  
-
-  * Goal
-
-    >[!NOTE]
-    >
-    >You must have an additional license to Adobe Workfront Goals to be able to access this area of Workfront. For more information, see [Requirements to use Workfront Goals](../../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
-  * Card on a board
-  * Team
-  * Template
-  * Template Task
-  * Timesheet
-  * Program
-  * Portfolio
-  * User
-
->[!TIP]
->
->There is no option to enable the new commenting experience for iterations. Only the legacy commenting experience is available for iterations. 
-
-</span>
-
--->
 
 * By default, as the only commenting experience for
 

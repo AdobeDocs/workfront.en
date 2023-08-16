@@ -11,18 +11,12 @@ exl-id: a8271f3c-7a08-4eb3-aaff-deb250f5af73
 ---
 # Reply to updates
 
-<!--take "Beta" references out when we remove the beta and change "current" to "legacy" after October 26-->
-
-<!--after August 17: 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases. </span>  
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](workfront/using/administration-and-setup/set-up-wf/configure-system-defaults/enable-fast-release-process.html?lang=en ). </span>  
-<span class="preview">For information about the current release, see [Fourth Quarter 2023 release overview](../../../product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md). </span>-->
-
 <!--replace the note below with this at August 17: 
->[!NOTE]
+>[!IMPORTANT]
 >
 >We are currently redesigning the commenting experience in Adobe Workfront.
 >Depending on what environment and what objects you access the commenting experience from, you might see different functionality in the Updates section. 
+>In this article, the "current" commenting experience refers to the legacy experience. The "new" experience refers to the new commenting experience. In some environments, the current or the new experience might not be available for some objects. In some environments the new experience can be enabled using the Commenting Beta toggle. 
 >For more information about the new commenting experience and its availability, see [New commenting experience](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). 
 >
 >The new commenting experience is available only for the Updates section, and it is not available for the following areas:
@@ -32,6 +26,7 @@ exl-id: a8271f3c-7a08-4eb3-aaff-deb250f5af73
 > * Summary panel in timesheets
 
 --> 
+
 
 >[!NOTE]
 >
@@ -130,13 +125,22 @@ For information about what features are available in the new commenting experien
 1. (Optional) To include text from a previous update in your reply, click the **More** menu next to the update or reply you want to quote <!--(replace placing of the More menu - August 17) <span class="preview">in the upper-right corner of the comment you want to reply to</span>-->, then click **Quote reply**. Text from the previous update appears in the input area, marked with a vertical gray line.
 1. Click **Reply**. 
 
-   You can see the users who are actively engaged in the conversation at the bottom of the **New comment** box and you can add more, or remove the ones that are no longer relevant. These users, along with any users subscribed to the object, receive a notification whenever an update or reply is made on the object. You can also tag more users to include them in your reply.  To tag more users, see [Tag others on updates](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
+   ![](assets/reply-to-update-empty-box.png)
+
+   You can see the users who are actively engaged in the conversation at the bottom of the **Add reply...** box and you can add more, or remove the ones that are no longer relevant. These users, along with any users subscribed to the object, receive a notification whenever an update or reply is made on the object. You can also tag more users to include them in your reply.  To tag more users, see [Tag others on updates](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
+
+   <!--add with August 17:
+
+   >[!TIP]
+   >
+   >   <span class="preview">To add additional replies to an existing reply, you can start typing in the** Add reply ...** box, or click **Reply** on the original comment. Your reply is added at the end of the thread. </span>
+   -->
 
 1. Start typing your reply and use any additional options from the Rich Text toolbar. For information about using Rich Text or other updating capabilities, see [Update work](../updating-work-items-and-viewing-updates/update-work.md). 
 
 1. Click **Submit** to save the reply.
 
-1. (Optional) Click the **More** menu ![](assets/more-menu.png) next to the update <!--(replace placing of the More menu - August 17) <span class="preview">in the upper-right corner of the comment you want to reply to</span>--> for more options to manage the  reply. For more information, see [Update work](../updating-work-items-and-viewing-updates/update-work.md). 
+1. (Optional) Click the **More** menu ![](assets/more-menu.png) next to the update <!--(replace placing of the More menu - August 17) <span class="preview">in the upper-right corner of the comment you want to reply to</span>--> for more options to manage the reply. For more information, see [Update work](../updating-work-items-and-viewing-updates/update-work.md). 
 
 
 ## Reply to an update from an email notification

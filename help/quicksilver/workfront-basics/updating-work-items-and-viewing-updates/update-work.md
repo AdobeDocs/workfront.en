@@ -19,10 +19,11 @@ exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
 <span class="preview">For information about the current release, see [Fourth Quarter 2023 release overview](../../../product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md). </span>-->
 
 <!--replace the note below with this at August 17: 
->[!NOTE]
+>[!IMPORTANT]
 >
 >We are currently redesigning the commenting experience in Adobe Workfront.
 >Depending on what environment and what objects you access the commenting experience from, you might see different functionality in the Updates section. 
+>In this article, the "current" commenting experience refers to the legacy experience. The "new" experience refers to the new commenting experience. In some environments, the current or the new experience might not be available for some objects. In some environments the new experience can be enabled using the Commenting Beta toggle. 
 >For more information about the new commenting experience and its availability, see [New commenting experience](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). 
 >
 >The new commenting experience is available only for the Updates section, and it is not available for the following areas:
@@ -33,7 +34,7 @@ exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
 
 --> 
 
-<!-- with October 26 release: add somewhere this:
+<!-- with October 26 release: add somewhere this, and decide where we need to keep information about the legacy commenting. Should we create an article about iterations comments like we have for goals and cards?!:
 
 >[!NOTE]
 >
@@ -251,7 +252,7 @@ For information about what features are available for the new commenting experie
       * CTRL + Z (⌘+z for Mac) to undo a change 
       * CTRL + Y (⌘+y for Mac) to redo a change 
 1. (Optional) In the **Tag people or teams** area, start typing the name or the email of a user, or a team that you would like to include in this comment, then select it when it displays in the list. 
-1. (Optional) Use Rich Text, or add <!--hidden for August 10: emojis,--> links, or images to your update, to enhance your content. For more information, see the [Use Rich Text in a Workfront update](#use-rich-text-in-a-workfront-update) section in this article. 
+1. (Optional) Use Rich Text, or add emojis, links, or images to your update, to enhance your content. For more information, see the [Use Rich Text in a Workfront update](#use-rich-text-in-a-workfront-update) section in this article. 
 
       >[!TIP]
       >
@@ -263,7 +264,7 @@ For information about what features are available for the new commenting experie
       >![](assets/real-time-new-red-indicator-unified-commenting.png)   
 
 1. Click **Submit** to add the update to the Workfront object. 
-1. (Optional) To edit a comment, click the **More** menu ![](assets/more-menu.png) to the right of the Like icon, then click **Edit**.
+1. (Optional) To edit a comment, click the **More** menu ![](assets/more-menu.png) to the right of the Like icon <!--replace location on August 17: <span class="preview">in the upper-right corner of the comment</span>-->, then click **Edit**.
 1. Edit the information in the comment, add or remove images or remove any of the tagged users. 
    You can edit your comment within 15 from submitting it. An "Edited" indicator is added to the left of the date stamp that displays when the comment was updated. 
 
@@ -277,6 +278,14 @@ For information about what features are available for the new commenting experie
    >* The date stamp next to the comment is the date of the original comment, not the date of the last edit. 
 
 1. (Optional) Click **Reply** to reply to an existing comment, then follow the steps 4-8 above. <!--(**************insure this stays accurate***********)--> For information about replying to an update, see [Reply to updates](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).
+
+   <!--add with August 17:
+
+   >[!TIP]
+   >
+   >   <span class="preview">To add additional replies to an existing reply, you can start typing in the** Add reply ...** box, or click **Reply** on the original comment. Your reply is added at the end of the thread</span>
+   -->
+
 1. (Conditional and optional) If other users have added comments that display outside of the visible area in the Updates section, click **View** inside the blue **new comments banner** at the bottom of the screen  to display these comments.
 
    <!--August 17 - new screen shot and make yellow-->
@@ -296,6 +305,13 @@ For information about what features are available for the new commenting experie
 <!--August 17 - new screen shot and make yellow-->
 
    ![](assets/members-icons-expanded-unshimmed.png)
+
+   <!--
+   >[!TIP]
+   >
+   >   <span class="preview">The names of the first two tagged entities displays next to their avatars. If more than two entities are tagged only the name of the first one and the number of additional entities display.</span> 
+   -->
+
 1. (Optional) Click the **System Activity** tab to view updates logged by the system. When the object or any of its children are updated, Workfront generates a note about that update and displays it in the System Activity tab. 
 
    For more information see [Updates section overview](../updating-work-items-and-viewing-updates/updates-tab-overview.md)
@@ -307,16 +323,20 @@ For information about what features are available for the new commenting experie
  
 ## Use Rich Text in a Workfront update{#use-rich-text-in-a-workfront-update} 
 
-<!--August 10: remove this top note when we get to parity with the current version, OR change the note to mention that some options are ONLY available in the Beta version and not the current one.-->
+<!--October 2023: remove this top note when we get to parity with the current version, OR change the note to mention that some options are ONLY available in the Beta version and not the current one.-->
 
 >[!NOTE]
 >
->Some of the options in the Rich Text toolbar might not be available for the commenting Beta experience.
+>Some of the options in the Rich Text toolbar might not be available for the new commenting experience.
 
 You can enhance your updates by using Rich Text, or adding various items to it, like emojis, links, or images. 
 
 1. Go to the **Updates** area of a Workfront object and start typing a comment. 
-1. (Optional) To add Rich Text formatting to your update, use any attributes on the **Rich Text** toolbar as you type. <!--on August 10, add a screen shot of the complete Rich Text bar here, before the table-->
+1. (Optional) To add Rich Text formatting to your update, use any attributes on the **Rich Text** toolbar as you type. 
+
+   ![](assets/rich-text-toolbar.png)
+
+   <!--October 2023: the individual icons in the toolbar will need replacing-->
 
    | **Attribute** |**Toolbar button** |**Mac shortcut keys** |**Windows shortcut keys** |
    |---|---|---|---|
@@ -410,7 +430,7 @@ This option copies the text from a specific update to the clipboard.
 1. Go to the update or reply you want to copy.
 1. Click the **More** menu, then click **Copy body text**.
 
-   ![Select Copy body text](assets/update-stream-copy-body-text-350x152.png)
+   ![](assets/update-stream-comment-menu-marked-350x152.png)
 
 #### Copy the thread link {#copy-the-thread-link}
 
@@ -429,8 +449,7 @@ This option copies a specific update link to the clipboard. When you share the u
 1. Go to the update or reply you want to copy.
 1. Click the **More** menu next to the individual update, then click **Copy update link**.
 
-   ![](assets/update-stream-reply-menu-marked-350x182.png)
-
+   ![](assets/copy-update-link-old-ui.png)
 
 ### Copy an update in the new commenting experience   
 
@@ -463,7 +482,7 @@ Depending on the access your Workfront administrator gives you, you might be abl
 No Workfront user (including the Workfront administrator) can delete updates made by another user. However, if a user's access level allows them to delete their own updates, the Workfront administrator can log in as that user and delete updates they made. For more information, see [Create or modify custom access levels](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md#creating-a-new-access-from-scratch) and [Log in as another user](../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md).
 
 1. Go to the update or reply you want to delete.
-1. Click the **More** menu next to the update or reply you wish to delete, then click **Delete**. <!--October 26 - replace screen shot here-->
+1. Click the **More** menu next to the update or reply you wish to delete, then click **Delete**. <!--October 2023 - replace screen shot here-->
 
    ![](assets/update-stream-comment-menu-marked-350x152.png)
 
