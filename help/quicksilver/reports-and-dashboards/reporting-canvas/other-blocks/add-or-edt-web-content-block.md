@@ -6,6 +6,8 @@ description: Web content blocks allow you to display information from external w
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 29f0c2e1-1644-4989-81b1-c6db6bfec905
+hidefromtoc: yes
+hide: yes
 ---
 
 # Add or edit a web content block in Reporting Canvas

@@ -5,6 +5,8 @@ author: Nolan
 draft: Probably
 feature: Reports and Dashboards
 exl-id: eac210d8-0e25-4aae-94f4-b26a81240482
+hidefromtoc: yes
+hide: yes
 ---
 
 # Build a report in Reporting Canvas

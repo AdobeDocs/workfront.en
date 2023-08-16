@@ -5,6 +5,8 @@ author: Nolan
 draft: Probably
 feature: Reports and Dashboards
 exl-id: 22a2c3d7-39db-4f5d-94f3-222ca3ee0615
+hidefromtoc: yes
+hide: yes
 ---
 
 # Build a formula field in Reporting Canvas
