@@ -9,11 +9,36 @@ exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
 ---
 # Update work
 
-<!--for the August 10 release: look for these words to see the edits: "August 10"-->
 
-<!--take "Beta" references out when we remove the beta-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers only in the Preview environment.</span>-->
+<!--take "Beta" references out when we remove the beta and change "current" to "legacy" after October 26-->
+
+<!--after August 17: 
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases. </span>  
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](workfront/using/administration-and-setup/set-up-wf/configure-system-defaults/enable-fast-release-process.html?lang=en ). </span>  
+<span class="preview">For information about the current release, see [Fourth Quarter 2023 release overview](../../../product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md). </span>-->
+
+<!--replace the note below with this at August 17: 
+>[!NOTE]
+>
+>We are currently redesigning the commenting experience in Adobe Workfront.
+>Depending on what environment and what objects you access the commenting experience from, you might see different functionality in the Updates section. 
+>For more information about the new commenting experience and its availability, see [New commenting experience](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). 
+>
+>The new commenting experience is available only for the Updates section, and it is not available for the following areas:
+>
+> * Home
+> * Summary panel in lists
+> * Summary panel in timesheets
+
+--> 
+
+<!-- with October 26 release: add somewhere this:
+
+>[!NOTE]
+>
+>Iterations display the legacy commenting experience.-->
+
 
 >[!NOTE]
 >
@@ -145,6 +170,8 @@ Adding an update to a work item differs depending on what version of the Updates
 
 ### Add an update to a work item in the current Updates section
 
+<!--on October 26, replace "current" with "legacy"-->
+
 >[!NOTE]
 >
 >The following functionality is available for all objects except for goals and cards. You must have an additional license to access Workfront Goals. For information about commenting on goals, see [Manage goal comments in Adobe Workfront Goals](../../workfront-goals/goal-management/manage-goal-comments.md).
@@ -203,16 +230,17 @@ Adding an update to a work item differs depending on what version of the Updates
 
 1. To reply to an update, see [Reply to updates](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).
 
-### Add an update to a work item using the commenting Beta experience
+### Add an update to a work item using the new commenting experience
 
 For information about what features are available for the new commenting experience and for what objects, see [New commenting experience](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). 
 
 1. Locate the object you want to update, then click its name to open the object's page.
 1. Click  **Updates** in the left panel. 
-1. Enable the **Commenting Beta** toggle in the upper-right corner of the Updates area, then click **Agree** on the Beta agreement. This switches the Updates area to the commenting Beta experience. 
+   
    The **Comments** tab is selected by default. 
 1. Start entering a comment in the **New comment** box. 
-   
+   <!-- August 17 - add new screen shot and make yellow-->
+
    ![](assets/comment-box-empty-unshimmed.png)
 
    >[!TIP]
@@ -239,6 +267,8 @@ For information about what features are available for the new commenting experie
 1. Edit the information in the comment, add or remove images or remove any of the tagged users. 
    You can edit your comment within 15 from submitting it. An "Edited" indicator is added to the left of the date stamp that displays when the comment was updated. 
 
+   <!--August 17 - new screen shot and make yellow-->
+
    ![](assets/edited-tag-on-comment-unified-commenting.png)
 
    >[!TIP]
@@ -248,6 +278,8 @@ For information about what features are available for the new commenting experie
 
 1. (Optional) Click **Reply** to reply to an existing comment, then follow the steps 4-8 above. <!--(**************insure this stays accurate***********)--> For information about replying to an update, see [Reply to updates](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).
 1. (Conditional and optional) If other users have added comments that display outside of the visible area in the Updates section, click **View** inside the blue **new comments banner** at the bottom of the screen  to display these comments.
+
+   <!--August 17 - new screen shot and make yellow-->
 
    ![](assets/blue-new-comments-banner-with-view-button.png)
 
@@ -260,6 +292,8 @@ For information about what features are available for the new commenting experie
    
 1. (Optional) Click the **Like** icon![](assets/like-icon.png). The icon updates with the number of likes.
 1. (Conditional and Optional) If you included additional people in your comment, click the number of members included in the update to display a list of entities that the comment you entered is shared with. 
+
+<!--August 17 - new screen shot and make yellow-->
 
    ![](assets/members-icons-expanded-unshimmed.png)
 1. (Optional) Click the **System Activity** tab to view updates logged by the system. When the object or any of its children are updated, Workfront generates a note about that update and displays it in the System Activity tab. 
@@ -307,6 +341,8 @@ You can enhance your updates by using Rich Text, or adding various items to it, 
 
 1. (Optional) If you want to include text from previous updates or from other sources and distinguish it from your own update, you can mark it as a Block Quote. Click the **Block Quote** icon ![](assets/block-quote-small.png) and type the text you want to quote. The quoted text displays marked with a vertical gray line. Click the **Block Quote** icon again to return to normal formatting.
 
+   <!--August 17 - new screen shot and make yellow--> 
+
    ![](assets/block-quote-marked-350x144.png)
 
 1. (Optional) Add emojis to your update. 
@@ -336,7 +372,7 @@ You can enhance your updates by using Rich Text, or adding various items to it, 
 
    Or
 
-   Click the **Add attachment** icon ![](assets/add-image-mountain-with-plus-icon.png) and browse to the image on your computer, when using the commenting Beta experience. <!--**************** the tooltip of this icon might be renamed to "Add image")-->
+   Click the **Add attachment** icon ![](assets/add-image-mountain-with-plus-icon.png) and browse to the image on your computer, when using the new commenting experience. <!--**************** the tooltip of this icon might be renamed to "Add image")--> <!--in October 26 - leave this as the only icon instead of the OR option-->
 
    >[!NOTE]
    >
@@ -360,6 +396,8 @@ There are several ways you can copy an update. After copying a link, you can sha
 Copying an update differs depending on which commenting experience you use. 
 
 ### Copy an update in the current commenting experience
+
+<!--October 26 - replace current with legacy-->
 
 * [Copy the update](#copy-the-update) 
 * [Copy the thread link](#copy-the-thread-link) 
@@ -425,7 +463,7 @@ Depending on the access your Workfront administrator gives you, you might be abl
 No Workfront user (including the Workfront administrator) can delete updates made by another user. However, if a user's access level allows them to delete their own updates, the Workfront administrator can log in as that user and delete updates they made. For more information, see [Create or modify custom access levels](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md#creating-a-new-access-from-scratch) and [Log in as another user](../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md).
 
 1. Go to the update or reply you want to delete.
-1. Click the **More** menu next to the update or reply you wish to delete, then click **Delete**.
+1. Click the **More** menu next to the update or reply you wish to delete, then click **Delete**. <!--October 26 - replace screen shot here-->
 
    ![](assets/update-stream-comment-menu-marked-350x152.png)
 
@@ -436,6 +474,8 @@ No Workfront user (including the Workfront administrator) can delete updates mad
    >Deleting an update with an attached image deletes both the comment and the image. For more information, see the [Use Rich Text in a Workfront update](#use-rich-text-in-a-workfront-update) section in this article.
 
    When the comment you delete has replies associated with it, there is an indication that the comment was removed with the name of the user who removed it.
+   
+   <!-- August 17 - replace screen shot??? - if yes, make it yellow-->
 
    ![](assets/removed-comment-indicator-new-experience.png) 
 
@@ -475,17 +515,17 @@ No Workfront user (including the Workfront administrator) can delete updates mad
 >[!NOTE]
 >
 >It is not possible to disable system updates when using the new commenting experience.
->The information in this section refers only to functionality available in the current Updates section.
+>The information in this section refers only to functionality available in the current Updates section. <!--October 26: replace current with legacy-->
 >For more information about system updates in the Beta version, see [Updates section overview](../updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
 
 The Updates section for a Workfront object displays two types of information:
 
-* **User updates:** User updates are comments that you and other users in your system enter.
+* **User updates:** User updates are comments that you and other users in your system enter. <!--August 17 - new screen shot and make yellow-->
 
   ![](assets/user-update-cl-350x277.png)
 
-* **System updates:** System updates record removing assets, adding or deleting versions, attaching or removing an approval request, as well as any edits or changes made to the documents on the object.
+* **System updates:** System updates record removing assets, adding or deleting versions, attaching or removing an approval request, as well as any edits or changes made to the documents on the object. <!--August 17 - new screen shot and make yellow--> 
 
   ![](assets/system-updates-cl-350x277.png)
 
