@@ -68,15 +68,15 @@ By default, the Home page is populated with a few specific widgets based on your
     </tr>
     <tr>
         <td>Light</td>
-        <td>My Work, Awaiting My Approval, To-dos</td>
+        <td>My Work, Awaiting My Approval</td>
     </tr>
     <tr>
         <td>Contributor</td>
-        <td>My Work, Mentions, To-dos</td>
+        <td>My Work, Mentions</td>
     </tr>
     <tr>
         <td>External</td>
-        <td>Awaiting My Approval, To-dos</td>
+        <td>Awaiting My Approval</td>
     </tr>
 </table>
 
@@ -95,19 +95,19 @@ By default, the Home page is populated with a few specific widgets based on your
     </tr>
     <tr>
         <td>Review</td>
-        <td>My Work, Mentions, To-dos</td>
+        <td>My Work, Mentions</td>
     </tr>
     <tr>
         <td>Limited</td>
-        <td>My Projects, Awaiting My Approval, To-dos</td>
+        <td>My Projects, Awaiting My Approval</td>
     </tr>
     <tr>
         <td>Contributor</td>
-        <td>My Work, Mentions, To-dos</td>
+        <td>My Work, Mentions</td>
     </tr>
     <tr>
         <td>External</td>
-        <td>Awaiting My Approval, To-dos</td>
+        <td>Awaiting My Approval</td>
     </tr>
 </table>
 
