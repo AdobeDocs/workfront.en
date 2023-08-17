@@ -63,7 +63,9 @@ The following section contains a list of features that have been added after the
 
 The following information refers to the release activity on a weekly basis of the features included in the new commenting beta experience. This article lists new features that are added and issues that are resolved for the new commenting experience.
 
-### Week of August 14, 2023 (Start of the Fourth Quarter 2023 release)
+### Week of August 14, 2023 
+
+[View a video demonstration of all the features released during the week of August 14, 2023](https://video.tv.adobe.com/v/3422912/){target=_blank}
 
 #### New commenting experience for additional objects 
 
