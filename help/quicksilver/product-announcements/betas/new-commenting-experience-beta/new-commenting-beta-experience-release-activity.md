@@ -103,7 +103,7 @@ For more information, see [Updates tab overview](../../../workfront-basics/updat
 
  Production for quarterly release: With the 23.10 release (October 2023)
 
- #### The new commenting experience is the default experience for projects, tasks, issues, and documents
+#### The new commenting experience is the default experience for projects, tasks, issues, and documents
 
 We are making the new commenting experience the default experience for the following objects: projects, tasks, issues, and documents.  The legacy commenting experience will remain as an alternative option when accessing these objects.  
 

@@ -283,7 +283,9 @@ For information about what features are available for the new commenting experie
 
    Additional comments display at the bottom of the screen.
 
-   >[!NOTE] <!--remove this tip in October 2023-->
+   <!--remove this tip in October 2023-->
+
+   >[!NOTE] 
    >
    >   The "new comments" indicator and "View" button display only when both the users that entered the new updates as well as the user currently looking at the Updates section are using the new commenting experience.
 
