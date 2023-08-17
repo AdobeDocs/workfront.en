@@ -12,7 +12,7 @@ exl-id: 1c0cb547-ac99-4cdf-8a74-2c47ad5a10ad
 
 <!--
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases. </span>  
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)</span>  
+* <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)</span>  
 
 <span class="preview">For information about the current release, see [Fourth Quarter 2023 release overview](../../../product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md)</span> -->
 
@@ -21,17 +21,6 @@ exl-id: 1c0cb547-ac99-4cdf-8a74-2c47ad5a10ad
 
 For general information on the new commenting experience, including a list of features that are currently available or in research, see [New commenting experience](../new-commenting-experience-beta/unified-commenting-experience.md). 
 
-
-<!--On August 17, replace the Important box below with the following - AND MAKE SURE THAT THE "WEEKLY RELEASE OF AUGUST 14" IS AN ACTUAL PAGE: 
-
->[!IMPORTANT]
->
->The new commenting experience launched in Beta with the 23.2 release. For information about the original release, see [23.2 Release overview](../../product-releases/23.2-release-activity/23-2-release-overview.md). 
->
->Starting with the weekly release of August 14, 2023, the beta commenting experience ended. 
->
-><span class="preview">New commenting features continued to be released to the Preview and Production environments, as described in the section [Release timeline](#release-timeline) in this article.</span>
--->
 
 >[!IMPORTANT]
 >
@@ -55,13 +44,12 @@ The following is a planned timeline with key milestones for the release of the n
 * With the 23.3 release (July 20, 2023): 
     * Commenting experience Beta for projects, tasks, and documents. 
     * New commenting experience for cards in the Boards area (as the only experience)
-* During the 23.10 release (date to be announced) (limited release, only available to customers that choose the fast release): <!--for August 17 - add the actual date in here-->
+* During the Fourth Quarter 2023 release (limited release, only available to customers that choose the fast release): 
     * New commenting experience for templates, template tasks, programs, portfolios, teams, users, and timesheets (as the only experience)
-    * Commenting experience Beta for projects, tasks, issues, and documents becomes the default option. This will conclude the Beta stage of the new commenting experience.  
-* With the 23.10 release (October, 2023)
+    * Commenting experience Beta for projects, tasks, issues, and documents becomes the default option. The "Beta" label is removed. 
+* With the Fourth Quarter 2023 (23.10) release (October, 2023)
     * New commenting experience for templates, template tasks, programs, portfolios, teams, users, and timesheets (as the only experience)
-    <!--wait for Anna to confirm this after the teams are starting to work on this and will be closer to finish line; QBR is June 19, 2023, but wait until MUCH after this: * Add the new commenting experience to Home and the Summary panel. -->
-    * The new commenting experience for projects, tasks, issues, and documents becomes the default option. This will conclude the Beta stage of the new commenting experience.  
+    * The new commenting experience for projects, tasks, issues, and documents becomes the default option. This will conclude the Beta stage of the new commenting experience.
 * End of 2023: 
     * The legacy commenting experience will remain as a secondary option for the following objects: projects, tasks, issues, and documents. 
 
@@ -73,48 +61,93 @@ The following is a planned timeline with key milestones for the release of the n
 
 The following section contains a list of features that have been added after the original 23.2 release, starting with the ones released most recently. 
 
-<!--For the August 17 release - IF ANNA AGREES NOT TO SEND STUFF TO BETA ANYMORE: 
-
->[!IMPORTANT]
->
-><span class="preview">The following section contains as a list of features released during the Beta phase of the commenting experience, between April - August 2023. </span>
->
-><span class="preview"></span>
->
-><span class="preview">All features released after August 17, 2023 will be announced in the main release overview page for the current releases, starting with the Fourth Quarter release of 2023. For information, see [Fourth Quarter 2023 release overview](../../../product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md). </span>
-
--->
-
-<!--for the August 17 release: remove the paragraph below and replace it with this: 
-
-The following information refers to the release activity on a weekly basis of the features included in the commenting beta experience between April - August, 2023. This article lists new features that were added and issues that were resolved for the new commenting experience. For information about features released after August 17, 2023, see [Fourth Quarter 2023 release overview](../../../product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md).
--->
-
 The following information refers to the release activity on a weekly basis of the features included in the new commenting beta experience. This article lists new features that are added and issues that are resolved for the new commenting experience.
 
-<!--add the following with the August 17 release: 
+### Week of August 14, 2023 (Start of the Fourth Quarter 2023 release)
 
-### Week of August 14, 2023
+#### New commenting experience for additional objects 
+
+The new commenting experience will be available for the following objects, shortly after the 23.3 release to Production: template tasks, templates, timesheets, teams, users, programs, portfolios.  
+
+This will be the only commenting experience for these objects, as the legacy commenting experience is removed when you access them.  
+
+For more information, see [New commenting experience](../../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). 
+
+Preview release: August 17, 2023
+
+Production release for fast release: With the 23.8 release (August 31, 2023)
+
+Production release for all customers: With the 23.10 release (October, 2023)
+
+#### New design update for the new commenting stream 
+
+We have redesigned the new commenting stream to give it a more updated look-and-feel. Some of the improvements are:  
+
+* The content of the commenting stream is centered on the page, rather that occupying the entire width of the page.   
+
+* The More menu icon is relocated to the top right corner of the comment, rather than next to the Like button.  
+
+* The Like and Reply buttons are now positioned next to each other.  
+
+* The Log Time button has been relocated in the upper-right corner of the commenting area.  
+
+* The Add reply prompt was added to prompt users to add a reply to an existing one.   
+
+* There is a separation line between each comment thread  
+
+For more information, see [Updates tab overview](../../../workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md). 
+
+ Preview release: August 17, 2023  
+
+ Production for fast release: With the 23.8 release (August 31, 2023)   
+
+ Production for quarterly release: With the 23.10 release (October 2023)
+
+#### The new commenting experience is the default experience for projects, tasks, issues, and documents
+
+We are making the new commenting experience the default experience for the following objects: projects, tasks, issues, and documents.  The legacy commenting experience will remain as an alternative option when accessing these objects.  
+
+To support this change, we also renamed the "Commenting Beta" toggle to "New commenting".  
+
+For more information, see [New commenting experience](../new-commenting-experience-beta/unified-commenting-experience.md). 
+
+Preview release: August 17, 2023 
+
+Production for fast release: With the 23.8 release (August 31, 2023)  
+
+Production for quarterly release: With the 23.10 release (October 2023)
 
 #### Avatar improvements when tagging users in an update
 
 To give you better visibility into which users are tagged in an update, we now display the names of the users (up to two users) that are tagged in an update. For more information, see [Tag others in updates](../../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
 
--->
+Preview release: August 17, 2023 
 
-### Features released after June 19, 2023
+Production for fast release: With the 23.8 release (August 31, 2023) 
 
-<!--restructure this section with actual weeks and dates, when we know them-->
+Production for all customers: With the 23.10 release (October 2023) 
 
-The features listed in this section are planned to release shortly after the week of June 19, 2023. 
+### Week of August 7, 2023
+
+#### Add emojis to an update
+
+You can now add emojis to a comment using a Rich Text toolbar option in the new commenting experience. 
+
+For more information, see [Update work](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). The documentation will be updated at the time of the release.
+
+Preview and production: August 10, 2023
+
+### Week of July 10, 2023
 
 #### Automatically tag all thread participants
 
 A comment owner is now tagged automatically in a thread. Prior to this update, only the users who were tagged either by using the "@name" tags or by adding them to the "Tag people or teams" section displayed in the list of tagged users. With this, you can now remove the owner of a comment from the thread, if needed, even if they were not manually tagged before. 
 
-Planned Preview release: July 12, 2023
+Preview release: July 12, 2023
 
-Planned Production release: July 13, 2023
+Production release: July 13, 2023
+
+### Week of July 3, 2023
 
 #### New interface for logging time
 
@@ -124,7 +157,9 @@ For more information, see [Log time](../../../timesheets/create-and-manage-times
 
 Preview release: July 5, 2023 
 
-Production release: with the 23.3 release
+Production release: with the 23.3 release (July 2023)
+
+### Week of June 26, 2023
 
 #### Quote comment content in a new reply 
 
@@ -136,28 +171,6 @@ Preview: June 28, 2023
 
 Production release: June 29, 2023 
 
-#### Add emojis to an update
-
-You can now add emojis to a comment using a Rich Text toolbar option in the new commenting experience. 
-
-For more information, see [Update work](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). The documentation will be updated at the time of the release.
-
-Preview and production: August 10, 2023
-
-#### New commenting experience for additional objects 
-
-The new commenting experience will be available for the following objects, shortly after the 23.3 release to Production: template tasks, templates, timesheets, teams, users, programs, portfolios.  
-
-This will be the only commenting experience for these objects, as the legacy commenting experience is removed when you access them.  
-
-For more information, see [New commenting experience](../../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). The documentation will be updated at the time of the release.
-
-Preview release: To be announced, after the 23.3 Production release (July 20, 2023)
-
-Production release for the Fast release customers: To be announced, after the 23.3 release  
-
-Production release for all customers: with the 23.4 release 
-
 ### Week of June 12, 2023
 
 #### New commenting experience for cards in the Boards area 
@@ -168,7 +181,7 @@ Preview: June 15, 2023
 
 Production release for early opt-in: June 22, 2023
 
-Production for all customers: with the 23.3 release 
+Production for all customers: with the 23.3 release (July 2023)
 
 #### Add block quotes to a comment  
 
@@ -204,7 +217,7 @@ The new commenting Beta experience is now available for projects, tasks, and doc
 
 Preview: June 1, 2023 
 
-Production: with the 23.3 release 
+Production: with the 23.3 release (July 2023)
 
 >[!NOTE]
 >
@@ -232,7 +245,7 @@ You can log time for issues, tasks, and projects from the Updates area, when usi
 
 Preview: June 1, 2023 
 
-Production: with the 23.3 release 
+Production: with the 23.3 release (July 2023)
 
 ### Week of May 15, 2023
 
@@ -272,14 +285,14 @@ The following maintenance update was released for issue commenting beta and for 
 
 Keep images as a draft when moving away from an update for goals and for issues in the commenting beta experience. For information, see the "Maintenance Update on April 20" section in the article <a href="https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=en#updates-in-april-2023">Updates in April 2023</a>.
 
-### April 17, 2023
+### April 17, 2023 
 
 The following maintenance update was released for issue commenting beta and for goals:
 
 Show new comments outside of the visible screen area in the Updates section of issues (new commenting Beta experience) and Goals. For information, see the "Maintenance Update on April 17" section in the article  <a href="https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=en#updates-in-april-2023">Updates in April 2023</a>.
 
 
-### Week of April 6, 2023
+### Week of April 6, 2023 
 
 The new commenting beta experience launched for issues. 
 The same features that are released for the commenting beta for Workfront objects are released at the same time for goals for all users who have access to Workfront Goals. For information, see [23.2 Release overview](../../product-releases/23.2-release-activity/23-2-release-overview.md).
