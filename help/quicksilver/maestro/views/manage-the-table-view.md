@@ -97,18 +97,15 @@ You can add up to 500 fields (or columns) in a table view.
 1. Start adding fields (or columns), as described in the article [Create fields](../architecture-and-fields/create-fields.md). 
 
     The columns you add are visible to all uses who access the record type. 
-1. To reorder columns, grab the column header and drag and drop it in the desired position. <!--this was only possible in devTest; check to see if this was released to Prod-->
-
-<!-- not available yet
+1. To reorder columns, grab the column header and drag and drop it in the desired position. The column you moved briefly displays with a blue background until you make other adjustments to the table. 
 1. To increase the width of the columns, click and drag the column separation lines and drop them in the desired spot. 
-1. To reorder the columns, click a column header and drag it, then drop it in the desired spot in the table. The changes you make to the column width and order are permanent and visible to all users who access the record type. 
 
     >[!TIP]
     >
-    >    You cannot reorder fields that belong to linked objects. ********* Not sure if this is still accurate. Check! **************
+    >The changes you make to the column width and order are permanent and visible to all users who access the record type. 
 
+<!--not available yet: 
 1. To hide a column, hover over the column header, then click the downward-pointing arrow, then click **Hide**.
-
 -->
 
 ### Add rows {#add-rows}
@@ -119,7 +116,8 @@ You can add up to 10,000 records (or rows) to a table in Maestro.
 
 Adding rows to a Maestro table view is identical to creating records in a table. 
 
-1. Start adding record (or rows), as described in the article [Create records](../records/create-records.md). 
+For more information, see [Create records](../records/create-records.md). 
+
 <!-- this is not possible right now:
 
 1. To reorder the rows, click the row header, drag and drop it in the desired location. 
@@ -271,7 +269,7 @@ To add a grouping:
 <!--This is not available yet: 
 
 
-### Sort information {#sort-information}
+### Add a sort {#sort-information} (**************check to see if this anchor still works; changed the name of the section****************)
 
 By applying a sort, you can organize information in a given order. 
 

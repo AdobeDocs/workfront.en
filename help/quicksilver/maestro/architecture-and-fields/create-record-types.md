@@ -172,7 +172,7 @@ To import record types using an Excel file:
     
     The Preview and edit box displays with the following information: 
 
-    * The names of the sheets or of the future record types display in the left panel. <!--this is not true right now: the icon you see there is not saved when the records types are created: Maestro selects an icon for each new record type by default. -->
+    * The names of the sheets or of the future record types display in the left panel. Maestro selects an icon and a color for each new record type by default.
     * The first sheet or record type is selected and the names of the fields associated with it display as the column headers. The type of each field is selected by default. 
     * Each row represents a new record. Only the first 10 records display in the Preview and edit box. 
 

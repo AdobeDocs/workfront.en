@@ -331,7 +331,19 @@ This section lists the features and patches that have been released after the la
 
 The features are released weekly and are listed in the order of their release, with the most recent first. Customers who are participating in the Maestro closed beta program can access all features in their Preview and Production environments. 
 
-### Week of August 10, 2023
+### Week of August 14, 2023
+
+#### Reorder columns in the table view
+
+You can now reorder columns in the Maestro table view. Consider the following when reordering columns: 
+
+* The Name field is always the first field in the table view of a record type page 
+
+* You cannot move the Name field to another position 
+
+* The Name field is frozen and is not part of the horizontal scroll. 
+
+### Week of August 7, 2023
 
 #### Import record types from an Excel file 
 
