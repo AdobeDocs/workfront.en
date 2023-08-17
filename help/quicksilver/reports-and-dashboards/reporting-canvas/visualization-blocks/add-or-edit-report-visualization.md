@@ -4,6 +4,8 @@ description: Add or edit a visualization block in Reporting Canvas
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 14750eb1-d0a3-42ea-bd2e-100b633322ff
+hidefromtoc: yes
+hide: yes
 ---
 
 # Add or edit a visualization block in Reporting Canvas

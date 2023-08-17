@@ -20,4 +20,4 @@ For a list of all changes available with the Fourth Quarter 2023 release, see [F
 
 We have updated the tabs for Email Notifications, Reminder Notifications, and Email Templates in the Setup > Email > Notifications area to a more modern design that is consistent with other areas of Workfront.
 
-For information, see [Configure event notifications for everyone in the system](/help/quicksilver/administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md)
+For information, see [Configure event notifications for everyone in the system](/help/quicksilver/administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
