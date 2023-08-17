@@ -11,17 +11,16 @@ exl-id: c4c0d74f-ac50-4fc5-89d6-28f004c25b29
 
 <!--take "Beta" references out when we remove the beta and change "current" to "legacy" after October 26-->
 
-<!--after August 17: 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases. </span>  
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](workfront/using/administration-and-setup/set-up-wf/configure-system-defaults/enable-fast-release-process.html?lang=en ). </span>  
-<span class="preview">For information about the current release, see [Fourth Quarter 2023 release overview](../../../product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md). </span>-->
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>  
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)</span>  
 
-<!--replace the note below with this at August 17: 
+<span class="preview">For information about the current release schedule, see [Fourth Quarter 2023 release overview](../../../product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md)</span> 
+
 >[!IMPORTANT]
 >
 >We are currently redesigning the commenting experience in Adobe Workfront.
 >Depending on what environment and what objects you access the commenting experience from, you might see different functionality in the Updates section. 
->In this article, the "current" commenting experience refers to the legacy experience. The "new" experience refers to the new commenting experience. In some environments, the current or the new experience might not be available for some objects. In some environments the new experience can be enabled using the Commenting Beta toggle. 
+>
 >For more information about the new commenting experience and its availability, see [New commenting experience](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). 
 >
 >The new commenting experience is available only for the Updates section, and it is not available for the following areas:
@@ -30,8 +29,8 @@ exl-id: c4c0d74f-ac50-4fc5-89d6-28f004c25b29
 > * Summary panel in lists
 > * Summary panel in timesheets
 
---> 
 
+<!--old note before August 17: 
 
 >[!NOTE]
 >
@@ -56,6 +55,7 @@ exl-id: c4c0d74f-ac50-4fc5-89d6-28f004c25b29
 >
 >     You can add and view updates to cards in the Boards area when you enable the Comments and System Activity sections on a card. For more information, see [Add an ad hoc card to a board](../../agile/get-started-with-boards/add-card-to-board.md).
 
+-->
 
 You can tag users when making an update to an object if you want to draw their attention to an object they might otherwise not follow. 
 Rather than include those users on the object by assigning them to it or making them subscribe to it, you can tag them on the update to share it with them. Tagged users receive a notification about the update you enter. 
@@ -200,15 +200,10 @@ You can also remove users who are tagged by mistake when you edit or reply to a 
 1. Click **Submit**.  
    Users included in the update are automatically granted View permission to the object and can view and respond to updates made to the object.
 
-   You can see who has been tagged in each reply under the text of the update, in the Members area. These users, along with any users subscribed to the object, receive a notification whenever an update or reply is made on the object.
+   <span class="preview">The names of the tagged entities display next to their avatars, up to two entities. If more than two entities are tagged the name of the first one displays, in addition to a number of how many additional entities are tagged.</span> 
 
-   <!-- for August 17, replace the blurb above about Members: <span class="preview">The names of the tagged entities display next to their avatars, up to two entities. If more than two entities are tagged the name of the first one displays, in addition to a number of how many additional entities are tagged.</span> -->
-
-1. (Optional) Click the number of **Members** included in the update to display a list of entities that the update you entered is shared with. <!--take the step out and just move the shot to the step above - August 17-->
-
-   <!--unhide the shot below for August 17
-   ![](assets/members-icons-expanded-unshimmed.png)-->
+   ![](assets/members-icons-expanded-unshimmed.png)
 
    For information about the additional functionality that is available when updating a work item, see [Update work](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-1. (Optional) Click the **More** menu ![](assets/more-menu.png) to the right of the Like icon <!--with the August 17 release - replace placing of the More icon: <span class="preview">in the upper-right corner of the comment</span>-->, then click **Edit**. Remove any of the tagged users, then click **Submit**. You can edit a comment only within 15 minutes after you have entered it. You can only edit the comments you added.
+1. (Optional) Click the **More** menu ![](assets/more-menu.png) <span class="preview">in the upper-right corner of the comment</span>, then click **Edit**. Remove any of the tagged users, then click **Submit**. You can edit a comment only within 15 minutes after you have entered it. You can only edit the comments you added.
