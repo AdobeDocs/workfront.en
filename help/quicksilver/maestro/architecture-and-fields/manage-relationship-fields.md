@@ -1,12 +1,19 @@
 ---
-title: Manage Relationship-type fields
+title: Connect record types
+description: You can use a Relationship-type field to link record types and their fields. By doing this, you can display fields from the linked record on another record.
+hidefromtoc: yes
+hide: yes
+---
+
+<!-----
+title: Connect record types
 description: You can use a Relationship-type field to link record types and their fields. By doing this, you can display fields from the linked record on another record.
 hidefromtoc: yes
 hide: yes
 feature: Work management
 role: User
 author: Alina
----
+--->
 
 <!--update the metadata with real information when making this avilable in TOC and in the left nav-->
 <!--************ THIS MIGHT NO LONGER BE A 'RELATIONSHIP' TYPE FIELD, BECAUSE THEY WILL SHOW IT IN THE CONNECTION TAB*****************************-->
@@ -206,13 +213,14 @@ You must have the following access to perform the steps described in this articl
     >
     >    The linked record field on the record linked from the original record is not deleted. <!-- is this still accurate?! -->
 
-***************************************LEFT HERE********************
+<!--***************************************LEFT HERE********************-->
 
 
 ### Example of creating and updating a Relationship-type field
 
 <!---------------------------THIS SECTION MUST BE REDONE WITH THE NEW UI ----------->
-This section describes an example of how to create a field by linking record types together, as well as how to populate a linked field.  
+
+This section describes an example of how to connect two Maestro record types.  
 
 For example, you have a record type named Campaign as your original record type. 
 
@@ -223,7 +231,7 @@ You want to create a field on the record type of Campaign where you can show the
 To do this:
 
 1. Open the table view for the Campaign record type. 
-1. Click the **+** icon in the upper-right corner of the table view to add a new field, then expand the **Field type** drop-down menu and select **Relationship**. 
+1. Click the **+** icon in the upper-right corner of the table view to add a new field, then click **New connection**. 
 1. Add the following information, for example:
 
     * **Name**: Product information. This is the name of the linked record field. 

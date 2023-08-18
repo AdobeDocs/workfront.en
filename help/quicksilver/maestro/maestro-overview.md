@@ -5,7 +5,7 @@ hidefromtoc: yes
 hide: yes
 ---
 
-# Adobe Maestro overview
+# Adobe Maestro overview and release activity
 
 <!--udpate the metadata with real information when making this avilable in TOC and in the left nav-->
 
@@ -195,7 +195,7 @@ The following are the main Maestro objects and concepts:
 
     ![](assets/new-connection-tab-with-workfront-option.png)
 
-* **Linked fields** (or lookup fields): After establishing the connection between two records, you can reference the linked records' fields on the record you are connecting from.
+* **Linked fields** (or lookup fields): After establishing the connection between two record types and link records together, you can reference the linked records' fields on the record you are connecting from.
 
     ![](assets/add-lookup-fields-modal.png)
 
@@ -296,7 +296,6 @@ To locate Maestro:
 
     1. Customize the timeline view by updating Filters, Groupings, or Settings.  
 
-
 ## Features currently available in Maestro
 
 The following table illustrates the main features that will be available in Maestro, as well as a timeline of their availability. The list does not include all features.  
@@ -342,6 +341,10 @@ You can now reorder columns in the Maestro table view. Consider the following wh
 * You cannot move the Name field to another position 
 
 * The Name field is frozen and is not part of the horizontal scroll. 
+
+#### Horizontal scroll for timeline view
+
+You can now scroll horizontally in the timeline view of a record type. 
 
 ### Week of August 7, 2023
 

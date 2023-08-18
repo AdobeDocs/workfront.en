@@ -1,5 +1,5 @@
 ---
-title: Connect records to objects from other applications
+title: Connect records
 description: In addition to connecting Maestro records to one another, you can also connect Maestro records to objects from other applications.  
 hidefromtoc: yes
 hide: yes
