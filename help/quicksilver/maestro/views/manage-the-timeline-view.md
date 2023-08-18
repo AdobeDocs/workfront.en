@@ -88,9 +88,22 @@ When creating a timeline view, all records of the selected record type display i
 
 To manage a timeline view: 
 
+1. Go to the record type page for which you want to view the timeline. 
 1. Create a timeline view, as described in the article [Manage record views](../views/manage-record-views.md). 
 
     ![](assets/timeline-view-example.png)
+
+    The records associated with the record type you selected display in a chronological timeline, as bars. 
+
+1. Do one of the following to navigate through the timeline:
+
+    * Click the left and right icons to move backwards and forwards in the timeline.
+    * Click Today to center the timeline to today's date. 
+    * Select one of the following options from the time frame drown-down menu: 
+
+        * Year
+        * Quarter
+        * Month
 
 1. Update the following view elements as described in the subsections below:
     * [Filters](#add-filters)

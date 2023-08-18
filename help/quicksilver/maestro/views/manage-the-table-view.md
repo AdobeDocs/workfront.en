@@ -98,6 +98,16 @@ You can add up to 500 fields (or columns) in a table view.
 
     The columns you add are visible to all uses who access the record type. 
 1. To reorder columns, grab the column header and drag and drop it in the desired position. The column you moved briefly displays with a blue background until you make other adjustments to the table. 
+
+    >[!TIP]
+    >
+    >* The Name field is always the first field in the table view.
+    >
+    >* You cannot move the Name field to another position.
+    >
+    >* The Name field is frozen and is not part of the horizontal scroll.
+
+
 1. To increase the width of the columns, click and drag the column separation lines and drop them in the desired spot. 
 
     >[!TIP]

@@ -10,7 +10,7 @@ hide: yes
 
 <!--udpate the metadata with real information when making this avilable in TOC and in the left nav-->
 
-# Records information
+# Records overview
 
 The following articles describe how you can create and manage records in Adobe Maestro:
 

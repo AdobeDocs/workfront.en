@@ -1,5 +1,12 @@
 ---
-title: Views information
+title: Views overview
+description: The following articles describe how you can create and manage Adobe Maestro record views.
+hidefromtoc: yes
+hide: yes
+---
+<!--
+---
+title: Views overview
 description: The following articles describe how you can create and manage Adobe Maestro record views.
 hidefromtoc: yes
 author: Alina
@@ -7,10 +14,11 @@ feature: Work Management
 role: User
 hide: yes
 ---
+-->
 
 <!--udpate the metadata with real information when making this avilable in TOC and in the left nav-->
 
-# Views information
+# Views overview
 
 You can display Adobe Maestro records in a table or timeline view. 
 
