@@ -61,7 +61,7 @@ This page provides information about functionality that is included in the Fourt
                     <td><p><b>Available on these dates:</b></p>
                         <ul>
                             <li>
-                                <p>Preview release:&#160;August 3, 2023<br /></p>
+                                <p>Preview release: August 3, 2023</p>
                             </li>
                             <li>
                                 <p>Production for Boards early access: August 10, 2023</p>
@@ -82,7 +82,7 @@ This page provides information about functionality that is included in the Fourt
                     <td><p><b>Available on these dates:</b></p>
                         <ul>
                             <li>
-                                <p>Preview release:&#160;August 3, 2023<br /></p>
+                                <p>Preview release: August 3, 2023</p>
                             </li>
                              <li>
                                 <p>Production for fast release: With the 23.8 release</p>
@@ -99,10 +99,10 @@ This page provides information about functionality that is included in the Fourt
                     <td><p><b>Available on these dates:</b></p>
                         <ul>
                             <li>
-                                <p>Preview release: August 21, 2023<br /></p>
+                                <p>Preview release: August 21, 2023</p>
                             </li>
                             <li>
-                                <p>Production for Boards early access: TBD</p>
+                                <p>Production for Boards early access: August 24, 2023</p>
                             </li>
                             <li>
                                 <p>Production for fast release: TBD</p>
