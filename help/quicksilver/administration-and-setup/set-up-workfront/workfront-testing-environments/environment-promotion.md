@@ -3,13 +3,15 @@ user-type: administrator
 content-type: overview;how-to-procedural
 product-area: system-administration
 navigation-topic: workfront-testing-environments
-title: Environment promotion
-description: Environment promotion
+title: Move objects from one environment to another
+description: The Environment Promotion capability is intended to provide the ability to move configuration-related objects from one environment to another. It does not support the ability to move transactional objects (with limited exceptions).
 author: Becky
 feature: System Setup and Administration
 role: Admin
+hide: yes
+hidefromtoc: yes
 ---
-# Environment promotion
+# Move objects from one [!DNL Workfront] environment to another
 
 <!-- 
 TO DO
