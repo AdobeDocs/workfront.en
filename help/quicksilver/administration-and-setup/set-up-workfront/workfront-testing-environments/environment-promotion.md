@@ -693,7 +693,7 @@ PATCH https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/
 {
     "status": "ACTIVE"
 }
-``````
+```
 
 #### Response
 
