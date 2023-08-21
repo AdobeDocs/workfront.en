@@ -7,6 +7,7 @@ navigation-topic: apps-and-their-modules
 title: FTP modules
 description: FTP modules let you monitor file changes in a selected folder, upload new files to the desired folder, and modify or delete existing files that are already in a folder.
 author: Becky
+feature: Workfront Fusion
 exl-id: 360825a4-4580-4039-894e-583e82132ed6
 ---
 # FTP modules

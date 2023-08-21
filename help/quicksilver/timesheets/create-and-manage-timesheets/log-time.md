@@ -5,13 +5,17 @@ title: Log time
 description: You can log time for work items in&nbsp;Adobe Workfront to indicate the number of hours you spend working on them. You can also log time that is not related to work, like vacation, sick time, or time you spend in meetings. The time you log displays in your timesheet.
 author: Alina
 feature: Timesheets
+role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
 ---
 # Log time
 
 <!--remove all preview and production references from this article with 23.3 release-->
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span>
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>  
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). 
+
+<span class="preview">For information about the current release schedule, see [Fourth Quarter 2023 release overview](../../product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md)</span> 
 
 You can log time for work items in Adobe Workfront to indicate the number of hours you spend working on them. You can also log time that is not related to work, like vacation, sick time, or time you spend in meetings. The time you log displays in your timesheet.
 
@@ -359,13 +363,13 @@ You can log project-specific time on a project, task, or issue in the following 
 
 #### Updates section{#updates-section} 
 
-<!--remove the note below when we can log time for projects and tasks in production with the 23.3 release. Also, update the screen shot for the Enter Hours box-->
+<!--remove the note below - October 2023 -->
 
 >[!NOTE]
 >
-> You can log time for issues, <span class="preview">projects, and tasks</span> when enabling the new commenting Beta experience in the Updates section.  
+> There are slight differences in the look and feel of the user interface between the current and the new Updates section. The information in this section refers to functionality as it displays in the new commenting experience. 
 >
->For more information, see [New commenting experience](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+>For more information about the new Updates section, see [New commenting experience](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
 To log time in the Updates section of a project, task, or issue, you must have the following:
 
@@ -381,9 +385,9 @@ To log time in the Updates section of a project, task, or issue:
 
 1. Go to a project, task, or issue.
 1. In the left panel, select **Updates**.
-1. Click **Log Time**.
+1. Click **Log Time**. <!-- did Anna B change the casing for this button? If yes and if she changed it for the other areas, update screen shot too-->
 
-   <span class="preview">The Log Time dialog box displays. </span>
+   The Log Time dialog box displays.
    
    >[!TIP]
    >

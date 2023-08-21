@@ -11,6 +11,13 @@ exl-id: eac2e065-9e32-43c1-90ff-0f841b508c35
 
 The [!UICONTROL Work List] in the [!UICONTROL Home] area displays all work items that are assigned to you. You can control which items display in the [!UICONTROL Work] List as described below.
 
+>[!NOTE]
+>
+>When converting an issue to a task or a project, the issue is removed from the the Home area of the user assigned to the issue.
+>
+>When converting a task to a project, the task is deleted and it is removed from the Home area of the user assigned to the task.
+
+
 ## Access requirements
 
 You must have the following access to perform the steps in this article:

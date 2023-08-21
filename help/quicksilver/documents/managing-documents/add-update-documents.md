@@ -9,7 +9,7 @@ exl-id: 8ecf8281-7fbd-446e-80e4-f9f0a864ad65
 ---
 # Add an update to a document
 
-You can add or reply to updates on a document to communicate with collaborators and create an audit trail. For information about adding updates to work items, see [Update work](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+You can add or reply to updates on a document to communicate with collaborators and create an audit trail. For information about adding updates to work items, see see [Update work](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 ## Access requirements
 
@@ -38,21 +38,15 @@ You must have the following:
 
 ## Add or reply to an update for a document
 
-1. Go to the project, task, or issue that contains the document, then select **Documents**.
-1. Find the document you need.
+1. Go to the object that contains the document, then select **Documents** in the left panel.
+1. Find the document you need, and do one of the following:
 
-1. In the Summary, under **Updates**, click **Start a new update**. For information about the Summary, see [Summary for documents overview](../../documents/managing-documents/summary-for-documents.md).
+   * Click the document in the list, click the **Open Summary** icon ![](assets/qs-summary-in-new-toolbar-small.png) in the upper-right corner, then click **Start a new update** or click **Reply** to add a reply to an existing comment. For information about the Summary, see [Summary for documents overview](../../documents/managing-documents/summary-for-documents.md).
+   * Hover over the document, click **Document Details**, then **Updates** in the left panel. 
+      For more information about adding updates to objects, see [Update work](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).  
 
-   Or
+   The updates and replies are added to the document and also to the higher-ranking objects. For more information, see [Update section overview](../../workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md). 
 
-   Under an existing comment, click **Reply**. then click **Type a reply**.
-
-1. Type your comment or reply.
-1. (Optional) If you want to tag a user to notify them about your comment or reply, begin typing the user's name in the **Notify** box,&nbsp;then select the name when it displays in the drop-down list.
-1. (Optional) To request&nbsp;approval for the document, click **Ask for Approval.** 
-
-1. (Optional) Enable **Private to my company** if you want to prevent users outside your company from viewing your update.
-1. Click **Update** if you have added a new update, or click **Reply** if you replied to an update.
 
 ## Add a reply to a proofing comment for a document
 

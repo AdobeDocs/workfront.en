@@ -5,7 +5,7 @@ navigation-topic: create-and-manage-custom-forms
 title: Add a custom field to a custom form with the legacy form builder
 description: When you are working on a custom form, you can create a new custom field and add it to a custom form. You can also add a custom field that was already added to another custom form.
 author: Caroline
-feature: System Setup and Administration
+feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 3579ae0f-1d2e-4ff5-bbdf-58fdd20d01d7
 ---

@@ -7,6 +7,8 @@ description: Other Blocks overview
 author: Nolan
 feature: Reports and Dashboards
 exl-id: a4e5a9c3-d7b8-4128-b636-3baea77e7a85
+hidefromtoc: yes
+hide: yes
 ---
 # Other Blocks
 

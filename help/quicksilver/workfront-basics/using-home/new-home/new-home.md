@@ -4,6 +4,7 @@ navigation-topic: home-navigation-topic
 title: New Home
 description: Review these articles to learn how to use the New Home in Adobe Workfront.
 author: Nolan
+feature: Get Started with Workfront
 ---
 
 # New Home

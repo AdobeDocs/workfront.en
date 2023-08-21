@@ -5,6 +5,8 @@ author: Nolan
 draft: Probably
 feature: Reports and Dashboards
 exl-id: eac210d8-0e25-4aae-94f4-b26a81240482
+hidefromtoc: yes
+hide: yes
 ---
 
 # Build a report in Reporting Canvas
@@ -47,7 +49,7 @@ Before you begin, you must enroll in the Reporting Canvas beta. For more informa
      </tr>
       <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
        <td role="rowheader">Story</td> 
-       <td> <p>Add text that gives context to the information in the report.</p> <p>For more information, see [eventual link].</p> </td> 
+       <td> <p>Add text that gives context to the information in the report.</p> </td> 
       </tr>
      <tr data-mc-conditions=""> 
       <td role="rowheader">Web content</td> 
@@ -55,7 +57,7 @@ Before you begin, you must enroll in the Reporting Canvas beta. For more informa
      </tr>
       <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
        <td role="rowheader">Canvas filter</td> 
-       <td> <p>Add a filter that allows users to look at different aspects of a report. This filter applies to all data in the report.</p> <p>For more information, see [eventual link].</p> </td> 
+       <td> <p>Add a filter that allows users to look at different aspects of a report. This filter applies to all data in the report.</p> </td> 
       </tr>
     </tbody> 
    </table>
@@ -101,7 +103,7 @@ Before you begin, you must enroll in the Reporting Canvas beta. For more informa
      </tr> 
      <tr> 
       <td role="rowheader">Favorite the report</td> 
-      <td>After leaving the editing pane, click the <strong>Star</strong> icon [icon] next to the name of the report to add it to your list of favorite reports.</td> 
+      <td>After leaving the editing pane, click the <strong>Star</strong> icon next to the name of the report to add it to your list of favorite reports.</td> 
      </tr> 
     </tbody> 
    </table>
