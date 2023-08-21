@@ -144,7 +144,7 @@ You can view the task list at the project level.
 
    The Work Breakdown structure displays in the second column of the selected view.
 
-   ![](assets/wbs-view-on-task-list-nwe-350x87.png)
+   ![Work Breakdown Structure in a task list](assets/work-breakdown-structure.png)
 
 ### View the WBS in a task report {#view-the-wbs-in-a-task-report}
 

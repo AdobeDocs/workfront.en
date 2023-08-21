@@ -80,3 +80,19 @@ This menu allows you to:
 * Set **[!UICONTROL Preferences]** for [!DNL Adobe Experience Cloud], including primary and secondary language preferences.
 * Access your **[!UICONTROL [!DNL Workfront] Profile]**. Once you are on the profile, click the **[!UICONTROL More]** menu ![](assets/more-icon.png) and select **[!UICONTROL Edit]**. For more information about the profile, see [Configure My Settings](/help/quicksilver/workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md).
 * **[!UICONTROL Sign out]** of Adobe Experience Cloud.
+
+## Manage your password
+
+>[!NOTE]
+>
+>Changing your password changes it for all of your [!DNL Adobe Experience Cloud] applications.
+
+Your password is not managed in [!DNL Workfront].
+
+If your organization uses a separate application to manage passwords, you will change your password through that provider.
+
+If your password is managed by [!DNL Adobe], you can change the password in your Adobe account.
+
+[See this article for changing your Adobe password.](https://helpx.adobe.com/manage-account/using/change-or-reset-password.html){target="_blank"}
+
+For more information on changing your password, contact your administrator.

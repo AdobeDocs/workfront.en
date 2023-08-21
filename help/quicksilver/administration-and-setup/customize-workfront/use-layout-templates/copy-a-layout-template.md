@@ -4,7 +4,7 @@ user-type: administrator
 product-area: system-administration;templates
 navigation-topic: layout-templates
 description: You can copy an existing layout template. This is helpful when your organization needs multiple layout templates that share many of the same settings.
-author: Caroline
+author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: fec77b37-3968-4e0e-8034-63a816a7a3d5

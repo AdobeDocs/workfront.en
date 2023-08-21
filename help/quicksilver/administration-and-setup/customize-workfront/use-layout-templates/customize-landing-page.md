@@ -4,7 +4,7 @@ user-type: administrator
 product-area: system-administration;templates;setup
 navigation-topic: layout-templates
 description: As a Workfront administrator, you can use a layout template to specify the area you want users to see each time they log in to Workfront.
-author: Caroline
+author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 57a1046a-434a-4453-a101-c5f0a16e079e
@@ -13,9 +13,11 @@ exl-id: 57a1046a-434a-4453-a101-c5f0a16e079e
 
 As an Adobe Workfront administrator, you can use a layout template to specify the area you want users to see each time they log in to Workfront.
 
-For more information about layout templates, see [Create and manage layout templates](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
+For information about creating layout templates, see [Create and manage layout templates](../use-layout-templates/create-and-manage-layout-templates.md). 
 
 For information about layout templates for groups, see [Create and modify a group's layout templates](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
+
+After configuring a layout template, you must assign it to users for changes you made to be visible to others. For information about assigning a layout template to users, see [Assign users to a layout template](../use-layout-templates/assign-users-to-layout-template.md).
 
 ## Access requirements
 

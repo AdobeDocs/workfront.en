@@ -5,7 +5,7 @@ product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 description: You can rename existing custom forms with the form designer.
 author: Courtney
-feature: System Setup and Administration
+feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 8c49c2c8-4056-46a2-9ede-efb91ff237e5
 ---

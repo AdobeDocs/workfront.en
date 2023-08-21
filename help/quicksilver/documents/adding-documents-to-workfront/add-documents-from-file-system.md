@@ -9,10 +9,13 @@ exl-id: 0a5f82b2-f86e-4ffa-b3a6-18221dd0e158
 ---
 # Add documents to Adobe Workfront from your file system
 
+{{preview-and-fast-release}}
+
 You can add documents to projects, tasks, or issues in the following areas in Adobe Workfront:
 
 * The global Documents area 
 * The Documents area for a Workfront object
+* <span class="preview">A connected card on a Workfront board</span>
 
 You can also upload new versions of documents and add links to documents from third-party cloud vendors, such as Google Drive, Dropbox, and Microsoft OneDrive. For information about adding new versions of documents, see [Upload a new version of a document](../../documents/managing-documents/upload-new-document-version.md). For information about adding documents from third-party cloud vendors, see [Link documents from external applications](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
 

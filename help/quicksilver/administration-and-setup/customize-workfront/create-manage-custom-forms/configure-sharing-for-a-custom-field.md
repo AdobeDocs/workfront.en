@@ -5,7 +5,7 @@ navigation-topic: create-and-manage-custom-forms
 title: Configure sharing for custom fields and widgets with the legacy form builder
 description: By default, when you add a new custom field or widget to a custom form, anyone in the system with access to custom forms can edit the properties for that item, such as its label and name. You can change this by controlling who it can be shared with.
 author: Caroline
-feature: System Setup and Administration
+feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: ae774e73-9798-40d1-a96d-a4511f729e7f
 ---

@@ -5,6 +5,7 @@ navigation-topic: boards
 title: Adobe Workfront Boards video demonstrations
 description: These videos will introduce you to the different types of boards available in Adobe Workfront and show examples of how you can use boards in your daily work.
 author: Lisa
+feature: Agile
 exl-id: 54a5fe37-7a0a-45b1-a0bb-c5e345d3f34d
 ---
 # Adobe Workfront Boards video demonstrations
@@ -24,6 +25,12 @@ A basic, or simple, board allows you to quickly get started using boards to trac
 A kanban board can contain a backlog, or intake column, that is configured with filters to bring tasks and issues from Workfront onto the board.
 
 [View a video demonstration of a kanban board.](https://video.tv.adobe.com/v/3416383/){target=_blank}
+
+### Dynamic board
+
+A dynamic board allows you to automatically populate a board with cards based on a Workfront project. Using filters, cards are added to columns based on their status.
+
+[View a video demonstration of a dynamic board.](https://video.tv.adobe.com/v/3422404/){target=_blank}
 
 ### Mobile board
 

@@ -13,6 +13,12 @@ feature-set: Workfront
     * [Product releases overview](product-announcements/product-releases/product-releases.md)
     * [Adobe Workfront release schedule and process](product-announcements/product-releases/workfront-release-schedule.md)
     * [Prepare for an Adobe Workfront quarterly release](product-announcements/product-releases/release-readiness.md)
+    * 2023 Q4 Release {#release-23-q4}
+      * [2023 Q4 Release overview](product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md)
+      * [2023 Q4 Release week of July 24, 2023](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-july-26.md)
+      * [2023 Q4 Release week of July 31, 2023](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-july-31.md)
+      * [2023 Q4 Release week of August 14, 2023](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md)
+      * [Look-and-feel updates during the 2023 Q4 release timeframe](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-look-and-feel-updates.md)
     * 23.3 Release {#release-23-3}
       * [23.3 Release overview](product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md)
       * [23.3 Administrator enhancements](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-admin-enhancements.md)
@@ -119,6 +125,7 @@ feature-set: Workfront
       * [21.1 Other enhancements](product-announcements/product-releases/21.1-release-activity/21-1-other-enhancements.md)
     * Adobe Workfront Fusion release activity {#fusion-release}
       * [Adobe Workfront Fusion release activity](product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)
+      * [Workfront Fusion release activity: Week of August 7, 2023](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2023-8-7.md)
       * [Workfront Fusion release activity: Week of  July 10, 2023](product-announcements/product-releases/fusion-release-activity/fusion-2023-7-10.md)
       * [Workfront Fusion release activity: Week of  June 26, 2023](product-announcements/product-releases/fusion-release-activity/fusion-2023-6-29.md)
       * [Workfront Fusion release activity: Week of  June 12, 2023](product-announcements/product-releases/fusion-release-activity/fusion-2023-6-12.md)
@@ -442,7 +449,7 @@ feature-set: Workfront
       * [How new access levels work](administration-and-setup/add-users/how-access-levels-work/access-levels-toc.md)
       * [New access levels overview](administration-and-setup/add-users/how-access-levels-work/access-level-overview.md)
       * [New licenses overview](administration-and-setup/add-users/how-access-levels-work/licenses-overview.md)
-      * [Access to objects and areas by for new licenses](administration-and-setup/add-users/how-access-levels-work/access-to-objects-areas-license-types.md)
+      * [Access to objects and areas by new licenses](administration-and-setup/add-users/how-access-levels-work/access-to-objects-areas-license-types.md)
       * [Functionality available for each object type for new access levels](administration-and-setup/add-users/how-access-levels-work/functionality-available-for-objects.md)
       * [Disable the auto-upgrade option for non-paid users on the new licensing plan](administration-and-setup/add-users/how-access-levels-work/disable-auto-upgrade.md)
     * How access levels work {#legacy-access-levels}
@@ -951,6 +958,7 @@ feature-set: Workfront
     * [Add existing tasks or issues to a board](/help/quicksilver/agile/get-started-with-boards/add-card-from-list-to-board.md)
     * [Manage cards](agile/get-started-with-boards/move-board-items.md)
     * [Manage checklist items on cards](/help/quicksilver/agile/get-started-with-boards/manage-checklist-items.md)
+    * [Add documents on cards](/help/quicksilver/agile/get-started-with-boards/add-documents-on-cards.md)
     * [Customize which fields are displayed on a card](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md)
     * [Delete or archive a card from a board](agile/get-started-with-boards/delete-board-items.md)
     * [Filter and search in a board](agile/get-started-with-boards/filter-search-in-board.md)
@@ -1082,6 +1090,7 @@ feature-set: Workfront
       * [Proof a linked asset for Experience Manager Assets or Asset Essentials](documents/adobe-workfront-for-experience-manager-assets-essentials/proof-linked-asset-aem.md)
       * [Create a folder linked with Experience Manager Assets or Assets Essentials](documents/adobe-workfront-for-experience-manager-assets-essentials/create-linked-folder.md)
       * [Use workflows in the Experience Manager Assets Essentials integration](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-aem-workflows.md)
+      * [Troubleshoot the Adobe Experience Manager Integration](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/troubleshoot-aem-asset-integration.md) 
   * Migrate from the legacy or enhanced connectors {#migrate-from-legacy-enhanced-connectors}
     * [Migrate from the legacy or enhanced connectors](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/migrate-from-legacy-enhanced-connectors.md)
     * [Migrate from the legacy or enhanced connector to Workfront for Adobe Experience Mangaer as a Cloud Service integration](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/migrate-to-workfont-integration.md)
@@ -2578,7 +2587,6 @@ feature-set: Workfront
     * [Overview](proofhq-api/general/overview.md)
     * [Code Samples](proofhq-api/general/code-samples.md)
     * [SOAP API FAQs](proofhq-api/general/soap-api-faqs.md)
-* [Hidden file](hidden-test.md)
 
 <!--
 Moved and commented out sections from line 1477 - I believe the entire section is duped but need to verify

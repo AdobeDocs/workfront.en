@@ -92,8 +92,6 @@ To invite a user to join an organization:
 
 [!DNL Fusion] sends an email with an invitation to the specific organization and an [!UICONTROL Accept The Role] button.
 
-![](assets/accept-the-role.png)
-
 When the recipient clicks the button, they are redirected to the invitation page, where they can accept the invitation.
 
 The invitation will expire in a day.
@@ -140,6 +138,8 @@ A user has one of the following roles in each of their teams:
 * **[!UICONTROL Team Monitoring]**: The [!UICONTROL monitoring] role allows users to access execution information for scenarios, but they are unable to design scenarios or change their "Active" status.
 * **[!UICONTROL Team Operator]**: The [!UICONTROL operator] role allows users to see execution data and change the "Active" status of scenarios.
 * **[!UICONTROL Team Restricted Member]**: Functionality for this role is currently unavailable, and will be made available in the near future. We do not recommend assigning users to this role at this time.
+
+For information on specific tasks available to team roles, see[Organization and team roles](/help/quicksilver/workfront-fusion/organizations/organization-roles.md).
 
 ### Team Management
 

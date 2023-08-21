@@ -29,56 +29,76 @@ The following table displays each constraint and its abbreviation. Abbreviations
 <table border="1" cellspacing="15" cellpadding="1"> 
  <col> 
  <col> 
+ <col>
  <thead> 
   <tr> 
    <th> <p><strong>Constraint Name</strong> </p> </th> 
    <th> <p><strong>Abbreviation</strong> </p> </th> 
+   <th> <p><strong>Description</strong> </p> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
    <td scope="col"> <p><a href="../../../manage-work/tasks/task-constraints/as-soon-as-possible.md" class="MCXref xref">Task Constraint overview: As Soon As Possible</a> </p> </td> 
-   <td scope="col"> <p>ASAP</p> </td> 
+   <td scope="col"> <p>ASAP</p> </td>
+   <td scope="col"> <p>Places the start time of the task as close to the beginning of the project as possible.</p> 
+   <p>It is the default constraint if the project uses a Schedule Mode from Start Date and if the system default start date for a new task is set to Based on the Project Planned Date. </p>
+   </td> 
   </tr> 
   <tr> 
-   <td scope="col"> <p><a href="../../../manage-work/tasks/task-constraints/as-late-as-possible.md" class="MCXref xref">Task&nbsp;Constraint overview: As Late As Possible </a> </p> </td> 
+   <td scope="col"> <p><a href="../../../manage-work/tasks/task-constraints/as-late-as-possible.md" class="MCXref xref">Task Constraint overview: As Late As Possible </a> </p> </td> 
    <td scope="col"> <p>ALAP</p> </td> 
+   <td scope="col"> <p>Places the completion time of the task as close to the end of the project as possible.</p> 
+   <p>This is the default constraint when the project Schedule Mode is from Completion Date and the system or group default for the Start Date of a task is Based on the Project Planned Date. </p>
+   </td> 
   </tr> 
   <tr> 
    <td scope="col"> <p><a href="../../../manage-work/tasks/task-constraints/earliest-available-time.md" class="MCXref xref">Task Constraint overview: Earliest Available Time</a> </p> </td> 
    <td scope="col"> <p>EAT</p> </td> 
+ <td scope="col"> <p>Schedules a task to begin at the earliest available time after considering any predecessor relationships.</p> </td>
   </tr> 
   <tr> 
    <td scope="col"> <p><a href="../../../manage-work/tasks/task-constraints/latest-available-time.md" class="MCXref xref">Task Constraint overview: Latest Available Time</a> </p> </td> 
    <td scope="col"> <p>LAT</p> </td> 
+   <td scope="col"> <p>Schedule a task to begin at the latest available time after considering predecessor-successor relationships in the project.</p> </td>
   </tr> 
   <tr> 
    <td scope="col"> <p><a href="../../../manage-work/tasks/task-constraints/start-no-earlier-than.md" class="MCXref xref">Task Constraint overview: Start No Earlier Than</a> </p> </td> 
    <td scope="col"> <p>SNET</p> </td> 
+   <td scope="col"> <p>Schedules a task to start after the date you specify.</p> 
+   <p>This is the default constraint if the project Schedule Mode is from Start Date and if the system or group default Start Date for a new task is set to Today.   </td> 
   </tr> 
   <tr> 
    <td scope="col"> <p><a href="../../../manage-work/tasks/task-constraints/start-no-later-than.md" class="MCXref xref">Task Constraint overview: Start No Later Than</a> </p> </td> 
    <td scope="col"> <p>SNLT</p> </td> 
+   <td scope="col"> <p>Schedules a task to start prior to the date you specify.</p> 
+   <p>SThis is the default constraint if the project Schedule Mode is from Completion Date and system or group default for the Start Date of a task is Today. 
+   </td> 
   </tr> 
   <tr> 
    <td scope="col"> <p><a href="../../../manage-work/tasks/task-constraints/finish-no-earlier-than.md" class="MCXref xref">Task Constraint overview: Finish No Earlier Than</a> </p> </td> 
-   <td scope="col"> <p>FNET</p> </td> 
+   <td scope="col"> <p>FNET</p> </td>
+   <td scope="col"> <p>Schedules a task to complete after the date you specify.</p> </td> 
   </tr> 
   <tr> 
    <td scope="col"> <p><a href="../../../manage-work/tasks/task-constraints/finish-no-later-than.md" class="MCXref xref">Task Constraint overview: Finish No Later Than</a> </p> </td> 
    <td scope="col"> <p>FNLT</p> </td> 
+   <td scope="col"> <p>Schedules a task to complete before the date you specify.</p> </td> 
   </tr> 
   <tr> 
    <td> <p><a href="../../../manage-work/tasks/task-constraints/must-start-on.md" class="MCXref xref">Task Constraint overview: Must Start On</a> </p> </td> 
    <td scope="col"> <p>MSO</p> </td> 
+   <td scope="col"> <p>Schedules a task to start exactly on a specific date.</p> </td> 
   </tr> 
   <tr> 
    <td> <p><a href="../../../manage-work/tasks/task-constraints/must-finish-on.md" class="MCXref xref">Task Constraint overview: Must Finish On</a> </p> </td> 
    <td scope="col"> <p>MFO</p> </td> 
+   <td scope="col"> <p>Schedules a task to end on a specific date.</p> </td>
   </tr> 
   <tr> 
    <td> <p><a href="../../../manage-work/tasks/task-constraints/fixed-dates.md" class="MCXref xref">Task Constraint overview: Fixed Dates</a> </p> </td> 
    <td> <p>FIXT</p> </td> 
+   <td> <p>Schedules a task to start and end on a specific dates.</p> </td> 
   </tr> 
  </tbody> 
 </table>

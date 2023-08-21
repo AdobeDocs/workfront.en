@@ -46,7 +46,15 @@ You must have the following:
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><strong>Object permissions</strong> </p> </td> 
-   <td> <p>Contribute or higher permissions for the project</p> <p>View permissions for the task to view information  in the Details section . </p> <p>Manage permissions for the task to update information  in the Details section .</p> </td> 
+   <td> <p>Contribute or higher permissions for the project</p> <p>View permissions for the task to view information in the Details section. </p> 
+   <p>Contribute permissions for the task to update the following information  in the Details section:</p>
+
+   <ul>
+   <li>Description</li>
+   <li>Status</li>
+   </ul>
+   
+   <p>Manage permissions for the task to update all information in the Details section.</p> </td> 
   </tr> 
  </tbody> 
 </table>

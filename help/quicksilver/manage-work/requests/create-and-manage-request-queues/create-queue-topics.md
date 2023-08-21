@@ -4,7 +4,8 @@ navigation-topic: create-and-manage-request-queues
 title: Create Queue Topics
 description: Queue Topics work in conjunction with Routing Rules to automatically assign incoming work to a user, job role, team, or to place it on a project. Queue Topics define the conditions that need to exist for the Routing Rule to be implemented.
 author: Alina
-feature: Work Management
+feature: Work Management, Requests
+role: User, Admin
 exl-id: 65a74698-011f-4caa-9739-d7510faeb66f
 ---
 # Create Queue Topics
@@ -113,7 +114,7 @@ You must have the following:
       <td>Select any custom forms you want to associate with the queue topic. You must create custom forms for issues before you can associate them with queue topics. For information about creating custom forms, see <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">Create or edit a custom form</a>.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Default Approval</td> 
+      <td role="rowheader"><strong>Default Approval</strong></td> 
       <td> <p>Associate an approval process with this queue topic. Only Issue Approval Processes are visible in this drop-down menu. All issues submitted to this queue will be associated with this Approval Process. Your Adobe Workfront administrator must define system-level Approval Processes before you can associate them with queue topics. <span>A user with administrative access to Approval processes can also create group-specific approval processes.</span> For more information about creating Approval Processes, see <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md" class="MCXref xref">Create an approval process for work items</a>.<br></p> 
        <div> 
         <p>Important: If the group of the project changes, the group-specific approval process attached to existing issues becomes a single-use approval process. For more information about how changes to the group of the project or changes in the approval process affect approval settings, see <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md" class="MCXref xref">How group and approval process changes affect assigned approval processes</a>.</p> 
@@ -130,11 +131,15 @@ You must have the following:
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Default Route</strong> </td> 
-      <td>Specify the routing rule you want to associate with the Queue Topic. You must create the routing rule before you can attach it to a Queue Topic.</td> 
+      <td>Specify the routing rule you want to associate with the Queue Topic. You must create the routing rule before you can attach it to a Queue Topic. For information, see <a href="../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md">Create Routing Rules</a> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Request Types</strong> </td> 
-      <td> <p>Choose what kind of requests this queue topic stores. The visible options are set on the <strong>Queue Details</strong> tab of the project. This is a required field. </p> <p>Note: Request&nbsp;Types display as a selection in the Requests area only if the Request Type is selected in both the Queue Details and the Queue Topic pages. For information about setting up the Queue Details area of a project, see <a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">Create a Request Queue</a>. </p> <p>Select from the following types:</p> 
+      <td> <p>Choose what kind of requests this queue topic stores. The visible options are set on the <strong>Queue Details</strong> tab of the project. This is a required field. </p> 
+      
+      <p><b>NOTE</b>:
+
+      Types display as a selection in the Requests area only if the Request Type is selected in both the Queue Details and the Queue Topic pages. For information about setting up the Queue Details area of a project, see <a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">Create a Request Queue</a>. </p> <p>Select from the following types:</p> 
        <ul> 
         <li>Bug Report</li> 
         <li>Change Order</li> 

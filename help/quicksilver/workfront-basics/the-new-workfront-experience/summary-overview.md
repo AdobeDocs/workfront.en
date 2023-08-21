@@ -110,9 +110,9 @@ You must have the following access to perform the steps in this article:
    >
    >You can only select one task or one issue at a time to view their details in the [!UICONTROL Summary] panel.
 
-   ![](assets/summary-overview--open-task-from-summary-icon-350x112.png)
+   ![Summary panel](assets/summary-panel-for-task.png)
 
-1. (Optional)&nbsp;To close the [!UICONTROL Summary] panel, do one of the following:
+1. (Optional) To close the [!UICONTROL Summary] panel, do one of the following:
 
    * In a task or issue list, click the **[!UICONTROL Open Summary]** icon ![](assets/summary-panel-icon.png)
 

@@ -9,6 +9,8 @@ exl-id: c6d979dd-e4a4-48a5-a91b-b31d7ef848d1
 ---
 # Use connected cards on boards
 
+{{preview-and-fast-release}}
+
 You can add a card on your board that is connected to existing tasks and issues in [!DNL Workfront].
 
 When any one of the following details is updated for the card in one location, it is automatically updated in the other location:
@@ -19,8 +21,10 @@ When any one of the following details is updated for the card in one location, i
 * [!UICONTROL Status]
 * [!UICONTROL Planned completion date]
 * [!UICONTROL Estimation] / [!UICONTROL Story Points]
+* <span class="preview">[!UICONTROL Documents]</span>
 
 >[!NOTE]
+>
 >A single connected task or issue can only be added once per board. The same task or issue can be connected to multiple boards.
 
 ## Access requirements
@@ -134,17 +138,21 @@ You must have the following access to perform the steps in this article:
       <td> <p>Click <strong>[!UICONTROL Add checklist item]</strong>. Then, type the title of the item and press Enter. Another item is automatically added. Continue entering titles to add more items.</p> <p>The counter at the top of the checklist shows the number of completed items and the total number of items.</p> <p>For more information about checklist items, see <a href="/help/quicksilver/agile/get-started-with-boards/manage-checklist-items.md">Manage checklist items on cards</a>.</p></td>
      </tr>
      <tr>
+      <td role="rowheader"><span class="preview"><strong>[!UICONTROL Documents]</strong></span></td>
+      <td><span class="preview">For an existing document, hover over the document thumbnail, and click <strong>Preview</strong> to view the file in the browser or <strong>Download</strong> to download the file to your computer. For a new document, see <a href="/help/quicksilver/agile/get-started-with-boards/add-documents-on-cards.md">Add documents on cards</a>.</span></td>
+     </tr>
+     <tr>
       <td role="rowheader"><strong>[!UICONTROL Hours]</strong></td>
       <td>See "Log hours on a connected card," below.</td>
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Comments]</strong></td>
       <td><p>Click in the <strong>[!UICONTROL New comment]</strong> field and type your comment. Use the formatting tools to format the text, and click the <strong>Add attachment</strong> icon <img src="assets/attachment-icon.png" alt="Attachment icon"> to attach a file to the comment. To tag a person or team, use the search box at the bottom of the commenting area. The user does not have to be a member on the board. Tagged users on connected cards will receive email notifications.</p><p>Click <strong>[!UICONTROL Submit]</strong> to add the comment to the card.</p>
-      <p><strong>NOTE:</strong> The commenting area on cards uses the new Adobe Workfront commenting experience. For more information, see <a href="/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md">Update work</a>.</p><p><strong>NOTE:</strong> Comments on cards are available only through the early feature opt-in for Workfront Boards.</p></td>
+      <p><strong>NOTE:</strong> The commenting area on cards uses the new Adobe Workfront commenting experience. For more information, see <a href="/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md">Update work</a>.</p></td>
      </tr>
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL System activity]</strong></td> 
-      <td><p>If you have <strong>System activity</strong> enabled as a card section, the activity is displayed in this area.</p> <p>For more information, see <a href="/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md">Customize which fields are displayed on a card</a> and <a href="/help/quicksilver/administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md">System-tracked updates</a>.</p><p><strong>NOTE:</strong> System activity is available only through the early feature opt-in for Workfront Boards.</p></td>
+      <td><p>If you have <strong>System activity</strong> enabled as a card section, the activity is displayed in this area.</p> <p>For more information, see <a href="/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md">Customize which fields are displayed on a card</a> and <a href="/help/quicksilver/administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md">System-tracked updates</a>.</p></td>
      </tr>     
     </tbody> 
    </table>

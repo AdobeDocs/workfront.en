@@ -10,8 +10,6 @@ role: Admin
 ---
 # Enable or disable fast releases for your organization
 
-{{highlighted-preview-article-level}}
-
 Adobe Workfront has two models for releasing new features and updates. You can choose whether to receive new functionality on a quarterly basis, or on a faster release schedule. 
 
 Both models offer the same features and updates. The only difference is in the timing. 

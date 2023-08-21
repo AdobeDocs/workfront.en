@@ -6,7 +6,7 @@ description: You can set up a Request Queue where users can enter occasional req
 author: Alina
 feature: Work Management, Requests
 topic: Collaboration
-role: User
+role: User, Admin
 exl-id: 385420aa-0962-4b67-9d0d-b153dcf302cf
 ---
 # Create a Request Queue
@@ -112,6 +112,11 @@ This article describes how to create a request queue from an existing project. H
 
 When you set up a project as a Request Queue, the project status must be Current in order to display in the Requests area of Workfront.
 
+>[!TIP]
+>
+>Your Workfront or group administrator might assign you to a custom Layout Template that might not include some of the sections described in the following steps.
+
+
 To create a Request Queue:
 
 1. Go to the project that you want to set up as a Request Queue.
@@ -120,7 +125,7 @@ To create a Request Queue:
 
    This opens the Queue Details  section .
 
-   ![](assets/classic-queue-setup-top-of-the-setup-form-350x248.png)
+   ![](assets/classic-queue-setup-top-of-the-setup-form-350x248.png)   
 
 1. Specify the following information:
 

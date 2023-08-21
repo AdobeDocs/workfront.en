@@ -5,6 +5,8 @@ author: Nolan
 draft: Probably
 feature: Reports and Dashboards
 exl-id: 1838b142-d845-4795-b27f-80bfba18e9d4
+hidefromtoc: yes
+hide: yes
 ---
 
 # Filter a table in Reporting Canvas
