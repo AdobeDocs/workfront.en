@@ -129,7 +129,7 @@ If you are using the WIP limit on a column, a separate card counter is not added
 
       * **[!UICONTROL Add on assignees]:** The assignees you select are added to the existing list of assignees on a card when it is moved to this column.
       * **[!UICONTROL Override assignees]:** The assignees you select override all other assignees, and become the only assignees on a card when it is moved to this column.
-   1. Select the assignees from the drop-down list. Only members on the board are available to choose from. For more information, see [Add or remove members from a board](/help/quicksilver/agile/get-started-with-boards/add-members-to-board.md).
+   1. Click [!UICONTROL **Add Assignment**] and search for a user. Select the assignees from the search results. All Workfront users and teams are available to choose from.
 
       ![Assignees for column](assets/boards-column-assignees.png)
 
