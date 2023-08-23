@@ -3,10 +3,19 @@ title: Manage the timeline view in Adobe Maestro
 description: You can display records in a timeline view, when accessing the record type page in Adobe Maestro. 
 hidefromtoc: yes
 hide: yes
+---
+
+<!--
+---
+title: Manage the timeline view in Adobe Maestro
+description: You can display records in a timeline view, when accessing the record type page in Adobe Maestro. 
+hidefromtoc: yes
+hide: yes
 author: Alina
 feature: Work Management
 role: User
 ---
+-->
 
 # Manage the timeline view
 
@@ -97,18 +106,22 @@ To manage a timeline view:
 
 1. Do one of the following to navigate through the timeline:
 
-    * Click the left and right icons to move backwards and forwards in the timeline.
-    * Click Today to center the timeline to today's date. 
-    * Select one of the following options from the time frame drown-down menu: 
+    * Click the left and right icons or use the horizontal scroll to move backwards and forwards in the timeline. 
+    * Click **Today** to center the timeline to today's date. 
+    * Select one of the following options from the time frame drown-down menu to update the time increments: 
 
         * Year
         * Quarter
         * Month
+1. Click **Switch to Standard** view to display records in separate lines
+    Or
+    Click **Switch to Compact view** to display the records whose dates don't intersect on the same line. 
+    Records display in the Compact view by default. 
 
 1. Update the following view elements as described in the subsections below:
     * [Filters](#add-filters)
     * [Grouping](#add-grouping)
-    <!--* [Sort](#sort-information) not sure if this is present in timeline views?!-->
+    <!--* [Sort](#add-sort) not sure if this is present in timeline views?!; also check the anchor and make sure it's correct-->
     * [Settings](#edit-the-timeline-view-settings)
 
 ### Add filters
@@ -157,19 +170,21 @@ To add a grouping:
 
     ![](assets/grouping-ui-timeline-view.png)
 
-1. Click one of the suggested fields, or click **Choose a different field** to display all fields, then click one when it displays in the list
-Or
-Search for a field and click it when it displays on the list.
+1. Click one of the suggested fields, or click **Choose a different field** and search for a different field, then click one when it displays in the list. 
 
     The grouping is applied automatically to the timeline and records display inside the grouping box. The number of items in a grouping displays on the grouping line. 
+
+    <!-- add a step that you can rearrange the groupings here, when this will be possible-->
     
-1. (Optional) Click **Add grouping** and repeat the above steps to add up to 3 groupings. 
+1. (Optional)Repeat the above steps to add up to 3 groupings. 
 
     The number of groupings applied displays to the left of the Grouping icon in the upper-right corner of the toolbar.
 
     ![](assets/grouping-applied-in-timeline-view.png)
+
+1. Click the **Grouping** icon to close the grouping box. 
     
-1. (Optional) Click the x icon to the right of a grouping to remove the grouping
+1. (Optional) Click the **x** icon to the right of a grouping to remove the grouping
 
     Or
 
@@ -177,7 +192,7 @@ Search for a field and click it when it displays on the list.
 
 <!-- this is not possible right now; if this is the same functionality as the table view, document it there and link from here: 
 
-### Change sort
+### Add sort
 -->
 
 ### Edit the timeline view settings {#edit-the-timeline-view-settings}

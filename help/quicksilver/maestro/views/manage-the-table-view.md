@@ -96,7 +96,7 @@ You can add up to 500 fields (or columns) in a table view.
 
 1. Start adding fields (or columns), as described in the article [Create fields](../architecture-and-fields/create-fields.md). 
 
-    The columns you add are visible to all uses who access the record type. 
+    The columns you add are visible to all users who access the record type. 
 1. To reorder columns, grab the column header and drag and drop it in the desired position. The column you moved briefly displays with a blue background until you make other adjustments to the table. 
 
     >[!TIP]
@@ -276,22 +276,47 @@ To add a grouping:
 
 --> 
 
-<!--This is not available yet: 
-
-
-### Add a sort {#sort-information} (**************check to see if this anchor still works; changed the name of the section****************)
+### Add a sort {#sort-information} 
 
 By applying a sort, you can organize information in a given order. 
 
 You can sort the following information:
 
-* All records in a table or timeline view. ***********verify this is the case for the timeline view*********************
-* All groupings. 
+* All records in a table view. <!--or timeline view. ***********verify this is the case for the timeline view*********************-->
+<!--* All groupings. - this is not available yet-->
 
-To sort ungrouped records, do the following:
+To sort <!--ungrouped (add this when sorting for groupings will be available--> records, do the following:
 
-1. Create a view, as described in the article [Manage record views](../views/manage-record-views.md)
-1. ********************add steps here for sorting records with no groupings************
+1. Create a view, as described in the article [Manage record views](../views/manage-record-views.md).
+1. Click the **Sort** icon ![](assets/sort-icon.png) in the upper-right corner of the table
+    
+    Or
+
+    Hover over the name of a column in the table view, click the downward-pointing arrow to the right of the column header name, then click **Sort by this field**. The field is added as a sorting selection in the Sort icon in the upper-right corner of the table view as a sorting field. 
+1. Click one of the suggested fields, or click **Choose a different field** and search for a different field, then click one when it displays in the list. 
+
+    The sorting is applied automatically to the table view and records display sorted by your selected criteria. 
+
+    <!-- add a step that you can rearrange the sorting fields here, when this will be possible-->
+    
+1. (Optional) Repeat the above steps to sort by additional fields.  
+
+    The number of fields that you are sorting by displays to the left of the Sort icon in the upper-right corner of the toolbar. You can choose only fields that display in the columns of the table view. 
+
+    The fields selected for the sort display a sorting icon followed by a number that indicates the order in which the sorting is applied. 
+    
+    ![](assets/sorting-in-table-view.png)
+
+ 1. Click the **Sort** icon to close the sorting box.  
+    
+1. (Optional) Click the **x** icon to the right of a sorting fiel to remove the sort
+
+    Or
+
+    Click **Clear all** to remove all fields from the sort. 
+
+
+<!-- this is not available yet: 
 
 To sort grouped records: 
 
