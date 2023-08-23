@@ -35,6 +35,7 @@ This page provides information about functionality that is included in the Fourt
 ## Adobe Workfront enhancements
 
 * [Boards enhancements](#boards-enhancements)
+* [Integration enhancements](#integration-enhancements)
 * [Project enhancements](#project-enhancements)
 * [Other enhancements](#other-enhancements)
 
@@ -54,6 +55,42 @@ This page provides information about functionality that is included in the Fourt
                         </p>
                     </td>
                 </tr>  
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-21.md" class="MCXref xref" xrefformat="{para}">Enhancements to user assignments on boards and cards</a><span style="color: #ff0000;"> New in Preview!</span></p><p>Enhancements are now available that add flexibility when adding users to boards and cards in Adobe Workfront Boards.</p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                        <ul>
+                            <li>
+                                <p>Preview release: August 21, 2023</p>
+                            </li>
+                            <li>
+                                <p><span class="preview">Production for all customers: August 24, 2023</span>
+                            </li> 
+                       </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">Add documents on connected cards</a></p><p>You can now attach documents on connected cards on Adobe Workfront Boards. Any documents you add on the card become available on the Documents tab of the connected task or issue, and the same file types are supported in both areas.</p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                        <ul>
+                            <li>
+                                <p>Preview release: August 21, 2023</p>
+                            </li>
+                            <li>
+                                <p>Production for Boards early access: August 24, 2023</p>
+                            </li>
+                            <li>
+                                <p>Production for fast release: TBD</p>
+                            </li>
+                            <li>
+                                <p>Production for quarterly release: With the 23.10 release</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-july-31.md" class="MCXref xref" xrefformat="{para}">Documents available on connected cards as view-only</a></p><p>For connected cards on Adobe Workfront Boards, you can now view documents such as images and PDFs. You can either preview a document in the browser or download it to your computer. </p>
@@ -92,29 +129,65 @@ This page provides information about functionality that is included in the Fourt
                             </li>
                         </ul>
                     </td>
+                </tr>    
+           </tbody>
+        </table>
+
+### Integration enhancements
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">Add documents on connected cards</a></p><p>You can now attach documents on connected cards on Adobe Workfront Boards. Any documents you add on the card become available on the Documents tab of the connected task or issue, and the same file types are supported in both areas.</p>
+                        <p><span class="bold">Feature</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Release dates</span>
+                        </p>
+                    </td>
+                 </tr>  
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-21.md" class="MCXref xref" xrefformat="{para}">Enhancements to experience when sending documents to SharePoint (GraphAPI)</a><span style="color: #ff0000;"> New in Preview!</span> </p><p>We've made some changes to make it easier to locate folders when sending documents to your SharePoint (GraphAPI) folders</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
                         <ul>
                             <li>
-                                <p>Preview release: August 21, 2023</p>
-                            </li>
-                            <li>
-                                <p>Production for Boards early access: August 24, 2023</p>
+                                <p>Preview release: August 24<br /></p>
                             </li>
                             <li>
                                 <p>Production for fast release: TBD</p>
                             </li>
                             <li>
-                                <p>Production for quarterly release: With the 23.10 release</p>
+                                <p>Production for quarterly release: TBD</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-21.md" class="MCXref xref" xrefformat="{para}">Upgrades to drag-and-drop for document integrations</a><span style="color: #ff0000;"> New in Preview!</span> </p><p>We've made some enhancements to add clarity and remove user error when dragging and dropping a file into a linked folder.</p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                        <ul>
+                            <li>
+                                <p>Preview release: August 24<br /></p>
+                            </li>
+                            <li>
+                                <p>Production for fast release: TBD</p>
+                            </li>
+                            <li>
+                                <p>Production for quarterly release: TBD</p>
                             </li>
                         </ul>
                     </td>
                 </tr>
            </tbody>
         </table>
+
 
 ### Project enhancements
 
