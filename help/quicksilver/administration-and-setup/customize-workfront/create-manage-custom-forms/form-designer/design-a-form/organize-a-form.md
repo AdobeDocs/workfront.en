@@ -81,7 +81,8 @@ For information about custom fields and widgets in custom forms, see [Design a f
       <td role="rowheader"> <p>Grant access</p> </td> 
       <td> <p> Select the permissions that users need on an object where the custom form is attached in order to view this section and edit its field values. 
        <p>The following permissions are available under <b>Users with this access to the object can view field values</b>:</p> 
-         <ul>  
+         <ul>
+          <li><strong>View</strong>: View permissions to the object</li>
           <li><p><b>Limited Edit</b>: (Available only if the object is a project, task, issue, or user):</p> 
           <p>Allows users to contribute to the object if it's a project, task, or issue.</p>
           <p>Allows users  to edit the profile or own the profile permission to the object if it's a user.</p></li> 
