@@ -89,7 +89,9 @@ You can build a template in a process similar to building a scenario. Fusion adm
 
 >[!NOTE]
 >
->By saving your template you make it visible for all your team members. If you want your template to be accessible outside of your team you need to publish it and then use a shared link, or ask your administrator to approve and publish the template.
+>By saving your template you make it visible for all your team members. If you want your template to be accessible outside of your team you must submit a request to have it approved and published. The request comes to Adobe Workfront for approval and once it is approved the template is accessible by others outside of your team.
+>
+>For information on publishing templates, see [Publish and share [!DNL Adobe Workfront Fusion] templates](/help/quicksilver/workfront-fusion/scenarios/templates/publish-and-share-fusion-templates.md).
 
 ### Create a template from a scenario
 
