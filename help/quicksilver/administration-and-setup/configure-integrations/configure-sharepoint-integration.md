@@ -76,6 +76,27 @@ For instructions on linking documents through the new [!DNL SharePoint] integrat
 >
 >* A user has access to the same sites, collections, folders, subfolders, and files through the [!DNL Workfront] [!DNL SharePoint] integration as they have in their [!DNL SharePoint] account.
 
+### Link documents from SharePoint
+
+For instructions on linking documents from SharePoint through the new [!DNL SharePoint] integration, see [Link an external document to [!DNL Workfront]](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md#link-an-external-document-to-workfront)
+
+### Send documents to SharePoint
+
+To send a document to SharePoint:
+
+1. Click the **Send to** icon ![Send to](assets/send-to-icon.png) and select SharePoint (Graph API).
+1. (Optional) Search in the search bar for the site or folder where you want to send the document.
+1. Select the site or folder from the list.
+
+   * Sites are marked with ![Site icon](assets/site-icon.png).
+
+   * Folders are marked with ![Folder icon](assets/folder-icon.png).
+
+   * Files are not marked with an icon.
+
+1. Click **Save**.
+
+
 ## Security, access, and authorization information for the [!DNL SharePoint] integration
 
 ### Authentication and authorization
