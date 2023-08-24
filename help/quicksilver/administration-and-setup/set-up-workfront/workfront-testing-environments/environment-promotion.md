@@ -475,11 +475,11 @@ The request expects all editable fields to be provided.
 The editable attributes are:
 
 1. name (string)
-2. description (string)
-3. source (string with URL validation)
-4. status (string with value validation)
-5. version (integer)
-7. packageEntities (collection)
+1. description (string)
+1. source (string with URL validation)
+1. status (string with value validation)
+1. version (integer)
+1. packageEntities (collection)
 
 Status options include:
 
