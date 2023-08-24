@@ -90,7 +90,7 @@ To send a document to SharePoint:
 
    * Sites are marked with ![Site icon](assets/site-icon.png).
 
-   * Folders are marked with ![Folder icon](assets/folder%20icon.png).
+   * Folders are marked with ![Folder icon](assets/folder-icon.png).
 
    * Files are not marked with an icon.
 
