@@ -330,6 +330,41 @@ This section lists the features and patches that have been released after the la
 
 The features are released weekly and are listed in the order of their release, with the most recent first. Customers who are participating in the Maestro closed beta program can access all features in their Preview and Production environments. 
 
+### Week of August 21, 2023
+
+#### Connect Maestro records to programs and portfolios 
+
+Preview and production: August 24, 2023
+
+You can now connect a Maestro record with Workfront programs and portfolios. You must first create a connection between a Maestro record type and a program or portfolio which creates a connected field. Then, you can connect any Maestro records from all other record types within the same workspace to specific programs and portfolios which will create a read-only Workfront Program or Workfront Portfolio record type in the same workspace. Consider the following:
+
+* Workfront connector record types are unique for each workspace. 
+* You can connect multiple Maestro records to the same Workfront program or portfolio, and multiple programs and portfolios to the same Maestro record. 
+* You cannot edit programs and portfolios in Maestro. All program and portfolio changes performed in Workfront are visible in Maestro, when reviewing the linked records. 
+
+#### New sorting functionality for the table view
+
+Preview and production: August 24, 2023
+
+You can now sort records in the table view of a record type page. 
+The following capabilities are now available: 
+
+* Sorting at the table-level, where you can sort by multiple fields at the same time. 
+* Sorting at the column or field-level, where you can sort by an individual field at a time.
+
+#### Improvements to the timeline view: new look-and-feel for groupings and the Compact/ Standard view switch
+
+Preview and production: August 24, 2023
+
+We have introduced the following improvements to the timeline view: 
+
+* You can now display the timeline view in the following modes:
+
+    * Standard: Displays records in separate lines.
+    * Compact: Display the records whose dates don't intersect on the same line. 
+
+* We have changed the look-and-feel of the grouping lines in the timeline view to display above the timeline of the records they contain. Prior to this improvement, the grouping lines displayed across the entire length of the timeline.
+
 ### Week of August 14, 2023
 
 #### Reorder columns in the table view

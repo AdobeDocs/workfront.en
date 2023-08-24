@@ -1,5 +1,5 @@
 ---
-title: Connect records
+title: Connect records and objects
 description: In addition to connecting Maestro records to one another, you can also connect Maestro records to objects from other applications.  
 hidefromtoc: yes
 hide: yes
@@ -7,7 +7,7 @@ hide: yes
 
 <!--when you make this live, update the metadata above to this: 
 ---
-title: Connect records to objects from other applications
+title: Connect records and objects
 description: In addition to connecting Maestro records to one another, you can also connect Maestro records to objects from other applications.  
 topic: Architecture
 role: User
@@ -19,7 +19,7 @@ hide: yes
 
 <!--if you change steps here, also update steps in the "Manage relationship fields" article-->
 
-# Connect records 
+# Connect records and objects
 
 You can connect Adobe Maestro records to one another or to objects from other applications. 
 
@@ -33,10 +33,14 @@ You can connect the following:
 * A Maestro record type and an object type from another application. 
 
   The following applications and object types are currently supported: 
+  
+  * From Adobe Workfront
 
-  * Projects from Workfront. 
+    * Projects
+    * Portfolios
+    * Programs
 
-  This article describes how you can connect two Maestro records and a Maestro record with a Workfront object.  <!--when you add more objects, fix the Access Requirements below which right now refer only to projects-->
+  This article describes how you can connect a Maestro record with a Workfront object. Connecting two Maestro records to one another is similar.   <!--when you add more objects, fix the Access Requirements below which right now refer only to projects-->
 
 
 ## Access requirements
@@ -99,7 +103,7 @@ You must have the following to perform the steps described in this article:
 * You can connect Maestro record types to one another or a Maestro record type with a Workfront object type by creating a new connection for a Maestro record type.
 * After you connect a Maestro record type to another record type or to a Workfront object type, you can connect records to individual objects. 
 * After the connection between the objects and records is established, the values of any of the linked fields from the linked records or from the Workfront objects populate in the Maestro record that you are linking from automatically. 
-* You cannot update the values of linked fields manually on the records you are linking from. 
+* You cannot update the values of linked fields manually on the records you are linking from. <!--LEFT HERE - August 24, 2023-->
 * Everyone with access to Maestro can see the connections you make between Maestro records or between Maestro records and Workfront objects. Also, you can view and edit everyone else's connections. <!--add that this is based on your permissions in both Maestro and Workfront (or, later, any other application)-->
 <!-- this is not possible yet; just projects for now: * You can connect one Maestro record to one or multiple Workfront objects. -->
 * You cannot connect taxonomies to record types or to Workfront objects. <!-- this is temporary; there will be certain objects (teams, etc) that will be linked to taxonomies, per Lilit-->
@@ -107,12 +111,11 @@ You must have the following to perform the steps described in this article:
 ### Connect Maestro records
 
 
-
 ## Requirements for connecting Maestro records with Workfront objects
 
 To link Maestro records with Workfront objects you must have the following:
 
-* Workfront objects you want to link from Maestro. For example, projects in Workfront.
+* Workfront objects you want to link from Maestro. For example, projects, portfolios, or programs in Workfront.
 * Maestro workspaces, record types, and records. For more information, see the following articles:
 
   * [Create workspaces](../architecture-and-fields/create-workspaces.md)
@@ -128,7 +131,7 @@ To link Maestro records with Workfront objects you must have the following:
 * After the connection between the objects and records is established, the values of any of the linked fields from the Workfront objects populate in Maestro record fields automatically. 
 * You cannot update the values of Workfront objects or their fields from Maestro. The synchronization of information is unilateral: only changes made in Workfront are automatically visible in Maestro.
 * Everyone with access to Maestro can see the connections you make between Maestro records and Workfront objects. Also, you can see everyone else's connections. <!--add that this is based on your permissions in both Maestro and Workfront (or, later, any other application)-->
-<!-- this is not possible yet; just projects for now: * You can connect one Maestro record to one or multiple Workfront objects. -->
+* You can connect one Maestro record to one or multiple Workfront objects.
 * You cannot connect a Workfront object to a Maestro record from Workfront. You can only connect records to objects from Maestro. 
 * There is no indication in Workfront that an object is linked to Maestro records. Any changes made to the Maestro records do not reflect on the objects linked from Workfront. <!--this will change at some point; they'll probably add some indication in the Details section in WF, per Artur-->
 * You cannot connect taxonomies to Workfront objects. You can only connect operational record types. <!-- this is temporary; there will be certain objects (teams, etc) that will be linked to taxonomies, per Lilit-->
