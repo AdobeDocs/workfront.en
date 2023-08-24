@@ -63,6 +63,16 @@ The following section contains a list of features that have been added after the
 
 The following information refers to the release activity on a weekly basis of the features included in the new commenting beta experience. This article lists new features that are added and issues that are resolved for the new commenting experience.
 
+### Week of August 21, 2023
+
+#### Change timestamp format on the Comments tab
+
+We have updated the timestamp format of the user comments in the Comments tab of the new commenting stream. As part of this change, comments from the current year no longer display the year in the timestamp. Hovering over a timestamp displays the full date, including the year.  
+
+The changes do not affect system updates in the System Activity tab. 
+
+Preview and production: August 24, 2023
+
 ### Week of August 14, 2023 
 
 [View a video demonstration of all the features released during the week of August 14, 2023](https://video.tv.adobe.com/v/3422912/){target=_blank}
