@@ -13,7 +13,9 @@ exl-id: e95dbc32-915b-4ea7-a5ad-e1da99edfbe3
 
 >[!IMPORTANT]
 >
->The procedure described on this page applies only to organizations that have not yet been onboarded to the Admin Console. If your organization has been onboarded to the Adobe Admin Console, you must perform this action through the Adobe Admin Console.
+>The procedure described on this page applies to organizations that have not yet been onboarded to the Admin Console. If your organization has been onboarded to the Adobe Admin Console, you must perform this action through the Adobe Admin Console.
+>
+>Group administrators in organizations that have been onboarded to the Adobe Admin Console can use this procedure to create users and submit the user for admin approval. 
 >
 >For instructions on adding a user in the Adobe Admin Console:
 >
@@ -122,6 +124,10 @@ Before you add a user, gather the information about the user listed below and de
 
    Click **Add Person User & Start Another** to save the new user and add another one.
 
+   >[!NOTE]
+   >
+   >If you are a group administrator adding a user to an organization that has been onboarded to the Adobe Admin Console, the options for this step are **Submit user for Admin Approval** and **Submit for Approval & Start Another**. The user is created in a Deactivated and Pending Approval status. A Workfront administrator must approve the user, which activates the user in Workfront and adds them to the Adobe Admin Console.
+
 ## Copy a user to create a new one
 
 You can create a user by copying an existing user.
@@ -143,7 +149,7 @@ To create new user by copying an existing one:
 
    For information about all fields associated with a user, see [Edit a user's profile](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
-1. Click **Add This User**.
+1. Click **Add This User**.        
 
    Or
 
