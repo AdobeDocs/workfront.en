@@ -1,10 +1,6 @@
 ---
 title: Group table rows in Reporting Canvas
 description: Group table rows in Reporting Canvas
-author: Nolan
-draft: Probably
-feature: Reports and Dashboards
-exl-id: 355bbe5b-9c66-4b6b-b479-a48a20b53fe6
 hidefromtoc: yes
 hide: yes
 ---

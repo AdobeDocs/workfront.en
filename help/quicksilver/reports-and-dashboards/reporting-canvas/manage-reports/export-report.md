@@ -1,10 +1,6 @@
 ---
 title: Export a report in Reporting Canvas
 description: Export a report in Reporting Canvas
-author: Nolan
-draft: Probably
-feature: Reports and Dashboards
-exl-id: bd9e2e6f-338e-4cfc-aee5-6de6ecff4f09
 hidefromtoc: yes
 hide: yes
 ---
