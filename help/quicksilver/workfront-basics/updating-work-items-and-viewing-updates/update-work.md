@@ -261,7 +261,7 @@ For information about what features are available for the new commenting experie
 1. Click **Submit** to add the update to the Workfront object. 
 1. (Optional) To edit a comment, click the **More** menu ![](assets/more-menu.png)  <span class="preview">in the upper-right corner of the comment</span>, then click **Edit**.
 1. Edit the information in the comment, add or remove images or remove any of the tagged users. 
-   You can edit your comment within 15 from submitting it. An "Edited" indicator is added to the left of the date stamp that displays when the comment was updated. 
+   You can edit your comment within 15 from submitting it. An "Edited" indicator is added to the left of the date stamp that displays when the comment was entered. 
 
    <span class="preview">![](assets/edited-tag-on-comment-unified-commenting.png)</span>
 
@@ -269,6 +269,7 @@ For information about what features are available for the new commenting experie
    >
    >* An email is generated to notify users of your update only when you submit the original update. No email is generated after you edited your update.
    >* The date stamp next to the comment is the date of the original comment, not the date of the last edit. 
+   >* Comments from the current year do not display the year in the date stamp. Hovering over a timestamp displays the full date, including the year.  
 
 1. (Optional) Click **Reply** to reply to an existing comment, then follow the steps 4-8 above. <!--(**************insure this stays accurate***********)--> For information about replying to an update, see [Reply to updates](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).
 
