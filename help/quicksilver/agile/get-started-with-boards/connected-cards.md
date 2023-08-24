@@ -73,10 +73,6 @@ You must have the following access to perform the steps in this article:
    ![Search for task or issue to connect](assets/boards-tasksissues-350x94.png)
 
    The card is added at the bottom of the left-most column. The connected [!DNL Workfront] object and its assignees are displayed on the card.
-
-   >[!NOTE]
-   >
-   >If an assignee on the [!DNL Workfront] task or issue is not a member on the board, they are not assigned to the card.
    
    ![Connected card](assets/boards-connected-card-first-added.png)
 
@@ -118,9 +114,8 @@ You must have the following access to perform the steps in this article:
       <td><p>The number of hours for the card to be completed.</p><p>Changing the estimation also changes the story points value on the connected [!DNL Workfront] object.</p></td>
      </tr>
      <tr>
-      <td role="rowheader"><strong>[!UICONTROL Assignees]</strong></td>
-      <td><p>To assign more people or a team to the card, start typing a name in the search field, then select it when it displays in the list. You can add both individuals and teams. Only one team assignment is allowed on a connected card.</p>
-      <p>Assignees must be members on the board or they will not appear in the selection list. When a team is a member on the board, then the individual team members can be assigned to the card.</p>
+      <td role="rowheader"><strong>[!UICONTROL Assignments]</strong></td>
+      <td><p>To assign more people or a team to the card, click <strong>[!UICONTROL Add Assignment]</strong> and start typing a name in the search field. Then, select it when it displays in the list of results. You can add both individuals and teams. Only one team assignment is allowed on a connected card.</p>
       <p>Any assignees you select are also assigned to the task or issue in [!DNL Workfront].</p></td>
      </tr>
      <tr>

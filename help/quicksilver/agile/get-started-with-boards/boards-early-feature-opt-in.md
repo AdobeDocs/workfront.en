@@ -206,7 +206,7 @@ Only [!DNL Workfront] administrators can opt in to early features for boards. W
 
 ### How do I know if my organization has opted in to early features?
 
-When your [!DNL Workfront] administrator has has enabled early features for boards, you will see an [!UICONTROL Early Feature Opt-In] Enabled button on the top of the dashboard screen. Click the button to see which features are enabled.
+Contact your [!DNL Workfront] administrator to find out if they have enabled early features for boards.
 
 ### Can early features be enabled only for certain users?
 
