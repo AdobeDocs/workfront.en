@@ -1,9 +1,6 @@
 ---
 title: Configure a column visualization in Reporting Canvas
 description: Configure a column visualization in Reporting Canvas
-author: Nolan
-feature: Reports and Dashboards
-exl-id: 5a0cdcd4-b44b-4a63-964e-1c570cd9ff77
 hidefromtoc: yes
 hide: yes
 ---
