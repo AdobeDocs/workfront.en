@@ -522,6 +522,7 @@ feature-set: Workfront
       * [Administrative access for layout templates](administration-and-setup/customize-workfront/use-layout-templates/grant-admin-access-layout-template.md)
       * [Assign users to layout templates](administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md)
       * [Copy a layout template](administration-and-setup/customize-workfront/use-layout-templates/copy-a-layout-template.md)
+      * [Delete the Classic layout templates using an API call](administration-and-setup/customize-workfront/use-layout-templates/delete-classic-layout-templates.md)
     * Custom forms {#custom-forms}
       * [Custom forms](administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md)
       * [Custom forms overview](administration-and-setup/customize-workfront/create-manage-custom-forms/custom-forms-overview.md)
