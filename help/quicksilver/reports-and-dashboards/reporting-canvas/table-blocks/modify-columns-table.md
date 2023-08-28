@@ -1,9 +1,6 @@
 ---
 title: Configure a table column in Reporting Canvas
 description: Configure a table column in Reporting Canvas
-author: Nolan
-feature: Reports and Dashboards
-exl-id: ce33888f-344d-4f69-b527-9679340d134b
 hidefromtoc: yes
 hide: yes
 ---

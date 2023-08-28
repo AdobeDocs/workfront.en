@@ -1,9 +1,6 @@
 ---
 title: Configure pie visualization in Reporting Canvas
 description: Configure pie visualization in Reporting Canvas
-author: Nolan
-feature: Reports and Dashboards
-exl-id: 0497edb5-9322-406a-b53b-ec498afdd96e
 hidefromtoc: yes
 hide: yes
 ---

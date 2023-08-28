@@ -62,7 +62,7 @@ You must have the following access to perform the steps in this article:
    <td role="rowheader">Access level configurations*</td> 
    <td> <p>Edit access to Issues</p> <p><b>NOTE</b> 
    
-   If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   If you don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -114,6 +114,11 @@ You must have a request that you or someone in your organization previously subm
 
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Requests**.
 1. (Conditional) If the Submitted section does not display by default, click **Submitted** in the left panel.
+
+   >[!TIP]
+   >
+   >   Your Workfront or group administrator might customize your layout template and remove areas from the Main menu or from the left panel in your environment. In this case, they might not be available to you. 
+
 1. Locate the request that you want to copy and submit as new, and do one of the following:
 
    * Select it, then click **Copy** ![](assets/copy-and-submit-as-new-requests-area-nwe.png) in the upper-left corner of the Submitted requests list. 
@@ -212,7 +217,7 @@ You must have a request that you or someone in your organization previously subm
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Status</strong> </td> 
-      <td>The default status of a new request is "New." Your Workfront administrator might have changed the name of this&nbsp;status. You can also change the status to something else from this drop-down menu.</td> 
+      <td>The default status of a new request is "New." Your Workfront administrator might have changed the name of this status. You can also change the status to something else from this drop-down menu.</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Documents</strong> </td> 
