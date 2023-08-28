@@ -1,6 +1,6 @@
 ---
-title: Connect records and objects
-description: In addition to connecting Maestro records to one another, you can also connect Maestro records to objects from other applications.  
+title: Connect records
+description: After you create connections between record types, you can connect individual records to one another. 
 hidefromtoc: yes
 hide: yes
 ---
@@ -19,15 +19,17 @@ hide: yes
 
 <!--if you change steps here, also update steps in the "Manage relationship fields" article-->
 
-# Connect records and objects
+# Connect records 
 
 You can connect Adobe Maestro records to one another or to objects from other applications. 
 
 You must first connect two record types together or a record type to an object from another application, and then you can use the Table view of the record type to connect records to one another or records to other objects. 
 
+For information about connecting record types to one another or to object types from other applications, see [Connect record types](../architecture-and-fields/connect-record-types.md). 
+
 You can connect the following: 
 
-* Two Maestro operation record types to one another
+* Two Maestro operational record types to one another
 * A Maestro operational record type to a taxonomy record type
 * Two Maestro taxonomy record types together
 * A Maestro record type and an object type from another application. 
@@ -142,7 +144,7 @@ You must connect Maestro record types with Workfront object types before you can
 
 Connecting record types to object types from Workfront is similar to creating a Relationship-type field in Maestro. 
 
-For information, see [Manage Relationship-type fields in Adobe Maestro](../architecture-and-fields/manage-relationship-fields.md). 
+For information, see [Connect record types](../architecture-and-fields/connect-record-types.md).
 
 ## Connect Workfront objects and fields to Maestro records
 

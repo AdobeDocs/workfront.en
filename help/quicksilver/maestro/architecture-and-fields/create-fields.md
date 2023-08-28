@@ -106,7 +106,7 @@ You must create record types before you can create fields to associate with them
         
            <!--* Importing record types with fields using a CSV or an Excel file. - this is not available yet-->
 
-           For more information about connecting Maestro record types, see [Connect record types](../architecture-and-fields/manage-relationship-fields.md). 
+           For more information about connecting Maestro record types, see [Connect record types](../architecture-and-fields/connect-record-types.md).  
 
         * Import fields when you import record types using an Excel or CSV file. For more information, see [Create record types](../architecture-and-fields/create-record-types.md). 
 

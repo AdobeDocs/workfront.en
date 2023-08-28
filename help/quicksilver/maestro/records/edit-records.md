@@ -115,7 +115,7 @@ You can edit a record from the following areas:
 
       >[!TIP]
       >
-      >Relationship-type fields are not editable. The information for these fields is populated automatically from the linked records. For information, see [Manage Relationship-type fields in Adobe Maestro](../architecture-and-fields/manage-relationship-fields.md).  
+      >Relationship-type fields are not editable. The information for these fields is populated automatically from the linked records. For information, see [Connect record types](../architecture-and-fields/connect-record-types.md).  
 
 
     

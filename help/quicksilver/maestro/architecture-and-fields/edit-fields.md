@@ -89,4 +89,4 @@ You must have the following to perform the steps described in this article:
 
 1. (Conditional) For linked record fields, click **Edit lookup fields** and add or remove any of the fields from the linked record type.
   
-    For more information, see [Manage Relationship-type fields](../architecture-and-fields/manage-relationship-fields.md). 
+    For more information, see [Connect record types](../architecture-and-fields/connect-record-types.md). 

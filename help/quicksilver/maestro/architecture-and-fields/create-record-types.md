@@ -80,7 +80,7 @@ You must have the following access to perform the steps described in this articl
     >
     >    You cannot import taxonomy record types using Excel or CSV files or connect taxonomy record types to object types from other systems. <!--update this sentence when you can import taxonomies as well as operational records-->
 
-    This article describes how you can create record types from scratch and by importing them using an Excel or CSV file. For information about connecting object types with Maestro records, see [Connect records](../architecture-and-fields/connect-records-to-other-applications-objects.md). 
+    This article describes how you can create record types from scratch and by importing them using an Excel or CSV file. For information about connecting object types with Maestro records, see [Connect records](../architecture-and-fields/connect-records.md). 
 
 * You must create a workspace before you can create record types for the workspace.  
 * You can have a combined total of 1,000 operational record types and taxonomies in one workspace. This includes record types or taxonomies that you create from scratch or that you import from other systems. 
@@ -211,7 +211,7 @@ For example, you can create record types by connecting Maestro record types with
     
 You can import the following objects from the following applications: 
 
-* Projects from Workfront. For more information, see [Connect records](../architecture-and-fields/connect-records-to-other-applications-objects.md).
+* Projects from Workfront. For more information, see [Connect records](../architecture-and-fields/connect-records.md).
 
 
 
