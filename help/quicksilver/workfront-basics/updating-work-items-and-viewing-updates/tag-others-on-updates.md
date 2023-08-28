@@ -11,6 +11,8 @@ exl-id: c4c0d74f-ac50-4fc5-89d6-28f004c25b29
 
 <!--take "Beta" references out when we remove the beta and change "current" to "legacy" after October 26-->
 
+<!--take new commenting and legacy commenting out when we remove the legacy commenting and the new one is the only experience-->
+
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>  
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)</span>  
 
@@ -157,7 +159,12 @@ You can manually tag users in the current Updates section.
 
 You can tag others on updates in the new commenting experience in the following ways:
 
-* **Automatically**: When a user adds a comment or a reply, they are automatically tagged and added to the Tag people or teams area of the commenting box. 
+* **Automatically**: When a user starts a thread, adds a comment, or adds a reply, they are automatically tagged and added to the Tag people or teams area of the commenting box. <!--remove the tip below when the new commenting stream is the only stream and the legacy commenting is removed-->
+
+   >[!TIP]
+   >
+   >When the thread starts in the legacy commenting experience, thread participants are not automatically tagged. 
+
 * **Manually**: When you manually add a user to the Tag people area of the commenting box.
 
 You can also remove users who are tagged by mistake when you edit or reply to a comment.
@@ -207,3 +214,10 @@ You can also remove users who are tagged by mistake when you edit or reply to a 
    For information about the additional functionality that is available when updating a work item, see [Update work](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 1. (Optional) Click the **More** menu ![](assets/more-menu.png) <span class="preview">in the upper-right corner of the comment</span>, then click **Edit**. Remove any of the tagged users, then click **Submit**. You can edit a comment only within 15 minutes after you have entered it. You can only edit the comments you added.
+
+   >[!TIP]
+   >
+   >When using the legacy commenting experience to add comments and replies, comment owners that were not specifically tagged cannot be manually removed by people who use the new commenting experience.
+
+
+
