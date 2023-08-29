@@ -16,7 +16,19 @@ Only one intake column is permitted on a board, and it always appears as the lef
 
 The intake column is not available on a dynamic board.
 
-The intake column is limited to 300 tasks and 300 issues. They are sorted by the priority defined on the items. For information about priority, see [Update task priority](/help/quicksilver/manage-work/tasks/task-information/task-priority.md) and [Update issue priority](/help/quicksilver/manage-work/issues/issue-information/update-issue-priority.md).
+The intake column is not available on boards that are part of a workstream. Instead, you can set up a backlog column to pull in cards from the card list. For information about adding a backlog column to a board in a workstream, see [Configure the backlog on a workstream board](/help/quicksilver/agile/use-boards-agile-planning-tools/configure-backlog-workstream-board.md).
+
+The intake column is limited to 300 tasks and 300 issues. The default ordering of items in the intake column is as follows:
+
+Tasks:
+
+* Primary order: Project name
+* Secondary order: Work Breakdown Structure
+
+Issues:
+
+* Primary order: Project name
+* Secondary order: Reference number
 
 For more information on columns, see [Manage board columns](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md). For information on connected cards, see [Use connected cards on boards](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
 
@@ -43,7 +55,7 @@ You must have the following access to perform the steps in this article:
 
 &#42;To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
 
-## Create an intake column
+## Create an intake column using simple filters
 
 1. Click the **[!UICONTROL Main Menu]** icon ![Main Menu](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **[!UICONTROL Boards]**.
 1. Access a board. For information, see [Create or edit a board](../../agile/get-started-with-boards/create-edit-board.md).
@@ -51,11 +63,38 @@ You must have the following access to perform the steps in this article:
 1. Expand **[!UICONTROL Board]**.
 1. Turn on **[!UICONTROL Dynamically intake items to board]**.
 
-   ![Create intake column](assets/create-intake-column2.png)
+   ![Intake column simple filter options](assets/intake-column-simple-filters.png)
 
    The intake column is added on the left of the board. It remains blank until you apply filters to it.
 
-1. Click **[!UICONTROL Filter sources]** and select **[!UICONTROL Tasks]** or **[!UICONTROL Issues]**.
+1. (Optional) Search for and select [!DNL Workfront] [!UICONTROL **Projects**].
+1. (Optional) Search for and select user or team [!UICONTROL **Assignments**].
+1. Select [!UICONTROL **Include completed work**] to display tasks and issues with a Complete status in the intake column.
+
+   >[!NOTE]
+   >
+   >If this option is not selected, when cards in other statuses are marked complete, they will "fall off" the board and no longer be displayed.
+
+1. Click [!UICONTROL **Apply**].
+
+   All objects appear in the board intake column as connected cards.
+
+   ![Intake column](assets/intake-column-added3.png)
+
+## Create an intake column using advanced filters
+
+1. Click the **[!UICONTROL Main Menu]** icon ![Main Menu](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **[!UICONTROL Boards]**.
+1. Access a board. For information, see [Create or edit a board](../../agile/get-started-with-boards/create-edit-board.md).
+1. Click **[!UICONTROL Configure]** on the right of the board to open the Configure panel.
+1. Expand **[!UICONTROL Board]**.
+1. Turn on **[!UICONTROL Dynamically intake items to board]**.
+
+   The intake column is added on the left of the board. It remains blank until you apply filters to it.
+
+1. Click [!UICONTROL **Use advanced filters**].
+1. Click **[!UICONTROL Add filter sources]** and select **[!UICONTROL Tasks]** or **[!UICONTROL Issues]**.
+
+   ![Intake column advanced filter options](assets/intake-column-advanced-filters1.png)
 
    >[!NOTE]
    >
@@ -91,15 +130,18 @@ You must have the following access to perform the steps in this article:
 
    ![Intake column](assets/intake-column-added3.png)
 
-   Cards in the intake column are not editable until you move them into other board columns. You can click on the card to open it in a read-only view, or click ![Open task or issue](assets/boards-launch-icon.png) to open the task or issue in a new browser tab.
-   
-   You can manually re-order the items on the intake column.
-
-   The icons on the top right of the intake column show you how many cards are currently in the column, and how many filters are applied.
-
    >[!NOTE]
    >
    >You can update the filters at any time by opening the Configure panel, clicking **[!UICONTROL Filter sources]**, and selecting **[!UICONTROL Tasks]** or **[!UICONTROL Issues]**.
+
+## Use the intake column
+
+Cards in the intake column are not editable until you move them into other board columns. You can click on the card to open it in a read-only view, or click ![Open task or issue](assets/boards-launch-icon.png) to open the task or issue in a new browser tab.
+
+
+You can manually re-order the items on the intake column.
+
+The icons on the top right of the intake column show you how many cards are currently in the column, and how many filters are applied.
 
 1. (Optional) To search for an item in the intake column, click ![Search icon](assets/search-icon.png) on the column.
 1. (Optional) To move a card from the intake column into another column, drag and drop the card into the position you want it to appear.

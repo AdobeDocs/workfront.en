@@ -53,6 +53,8 @@ The following criteria determine the Progress Status of a task:
  </tbody> 
 </table>
 
+<!--hiding this because some users find the images confusing, as they don't really show the dates mentioned in the descriptions above. Keep the pictures though, in case some users will complain that we hid them. 
+
 ## How task Progress Status updates over time
 
 The different date types in our projects tell us how tasks are progressing over time:
@@ -72,3 +74,5 @@ The different date types in our projects tell us how tasks are progressing over 
 * Late
 
   ![](assets/late-progress-status-350x233.png)
+
+-->

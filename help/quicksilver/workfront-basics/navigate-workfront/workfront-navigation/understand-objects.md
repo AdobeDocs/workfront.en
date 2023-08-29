@@ -254,8 +254,8 @@ You can report on the following objects when using the report builder in the [!D
 * [!UICONTROL Filter]
 * [!UICONTROL Goal]
 
-   You can build a report for strategic goals or you can display goal-related information in a project report when projects are associated with goals as goal activities. You can create strategic goals and connect projects them only if your organization has purchased a [!DNL Workfront Goals] license. For information about [!DNL Workfront Goals], see [[!DNL Workfront Goals] overview](https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&topicId=Content%2FWorkfront_Goals%2FGoal_management%2Fwf-goals-overview.htm&_LANG=en). For information about connecting projects to strategic goals, see [Add projects to goals in Adobe Workfront Goals](https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&topicId=Content%2FWorkfront_Goals%2FResults_and_activities%2Fconnect-projects-to-goals-overview.htm&_LANG=en).
-
+   You can build a report for strategic goals or you can display goal-related information in a project report when projects are associated with goals as goal activities. You can create strategic goals and connect projects them only if your organization has purchased a [!DNL Workfront Goals] license. For information about [!DNL Workfront Goals], see [[!DNL Workfront Goals] overview](../../../workfront-goals/goal-management/wf-goals-overview.md). For information about connecting projects to strategic goals, see [Add projects to goals in Adobe Workfront Goals](../../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md).
+   
    <!--
   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
   (NOTE: hardcoded links in this paragraph)
@@ -271,23 +271,13 @@ You can report on the following objects when using the report builder in the [!D
 * [!UICONTROL Hour Type]
 * [!UICONTROL Initiative]
 
-   You can build a report for initiatives which are the children objects of a plan only if your company has purchased a [!DNL Workfront Scenario Planner] license. For information about initiatives, see [Initiatives overview in the [!DNL Workfront Scenario Planner]](https://one.workfront.com/s/csh?context=2066&pubname=the-new-workfront-experience).
-
-   <!--
-  <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-  (NOTE: this link is hardcoded)
-  </MadCap:conditionalText>
-  -->
-
+   You can build a report for initiatives which are the children objects of a plan only if your company has purchased a [!DNL Workfront Scenario Planner] license. For information about initiatives, see [Initiatives overview in the [!DNL Workfront Scenario Planner]](../../../scenario-planner/initiatives-overview.md).
+   
+ 
 * Initiative Job Role
 
-   You can build a report for the job roles associated with the initiatives in a plan only if your company has purchased a [!DNL Workfront Scenario Planner] license. For information about creating initiatives and associating them with job roles, see [Create and edit initiatives in the [!DNL Workfront Scenario Planner]](https://one.workfront.com/s/csh?context=2061&pubname=the-new-workfront-experience).
+   You can build a report for the job roles associated with the initiatives in a plan only if your company has purchased a [!DNL Workfront Scenario Planner] license. For information about creating initiatives and associating them with job roles, see [Create and edit initiatives in the [!DNL Workfront Scenario Planner]](../../../scenario-planner/create-and-edit-initiatives.md).
 
-   <!--
-  <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-  (NOTE: this link is hardcoded)
-  </MadCap:conditionalText>
-  -->
 
 * [!UICONTROL Iteration]
 * [!UICONTROL Job Role]

@@ -50,11 +50,19 @@ You must have the following access to use the functionality in this article:
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] license**</td> 
-   <td> <p>[!UICONTROL Workfront Fusion for Work Automation and Integration] </p> </td> 
+   <td>
+   <p>Current license requirement: No [!DNL Workfront Fusion] license requirement.</p>
+   <p>Or</p>
+   <p>Legacy license requirement: [!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>Your organization must purchase [!DNL Adobe Workfront Fusion] as well as [!DNL Adobe Workfront] to use functionality described in this article.</td> 
+   <td>
+   <p>Current product requirement: If you have the [!UICONTROL Select] or [!UICONTROL Prime] [!DNL Adobe Workfront] Plan, your organization must purchase [!DNL Adobe Workfront Fusion] as well as [!DNL Adobe Workfront] to use functionality described in this article. [!DNL Workfront Fusion] is included in the [!UICONTROL Ultimate] [!DNL Workfront] plan.</p>
+   <p>Or</p>
+   <p>Legacy product requirement: Your organization must purchase [!DNL Adobe Workfront Fusion] as well as [!DNL Adobe Workfront] to use functionality described in this article.</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
@@ -76,39 +84,37 @@ For instructions on uploading the [!DNL Adobe Workfront Fusion] public certifica
 
 You can use the following links to download the Workfront Fusion public certificates:
 
+### Certificates for May 25, 2023 - June 9, 2024
+
+>[!IMPORTANT]
+>
+>* These [!DNL Workfront Fusion] public certificates expire on June 9, 2024. After yours expires you will need to upload a new certificate to the web service. We recommend that you:
+>
+>   * Make note of the expiration date and set a reminder for yourself to upload the certificate to your web service.
+>   * Bookmark this page to easily find the new certificates.
+>
+>* These are non-wildcard mTLS certificates.
+
+* [Download [!DNL Workfront Fusion] Certificate 2023](/help/quicksilver/workfront-fusion/apps-and-their-modules/http-modules/assets/fusion-prod-eu-mtls-certificate.pem)
+* [Download [!DNL Workfront Fusion] EU Certificate 2023](/help/quicksilver/workfront-fusion/apps-and-their-modules/http-modules/assets/fusion-prod-eu-mtls-certificate.pem)
+
+   For use in the EU 
+
+<!--
+
 ### Certificates for November 14, 2022 - July 15, 2023
 
 >[!IMPORTANT]
 >
->These [!DNL Workfront Fusion] public certificates expire on July 15, 2023. After yours expires you will need to upload a new certificate to the web service. We recommend that you:
->
->* Make note of the expiration date and set a reminder for yourself to upload the certificate to your web service.
->* Bookmark this page to easily find the new certificates.
->
+>* These [!DNL Workfront Fusion] public certificates expire on July 15, 2023.
+>* These are wildcard mTLS certificates.
 
 * [Download [!DNL Workfront Fusion] Certificate 2023](https://cdn.experience.workfront.com/Documentation/Workfront+Fusion+2.0+public+certificates/app_workfrontfusion_com-jul-15-2023+updated.cer)
 * [Download [!DNL Workfront Fusion] EU Certificate 2023](https://cdn.experience.workfront.com/Documentation/Workfront+Fusion/app-eu_workfrontfusion_com-jul-15-2023.cer)
 
    For use in the EU 
 
-<!--
-
-Previous US cert
-
-* [Download [!DNL Workfront Fusion] Certificate 2023](https://cdn.experience.workfront.com/Documentation/Workfront+Fusion/app_workfrontfusion_com-jul-15-2023.cer)
-
-### Certificates for November 17, 2021 - November 14, 2022
-
->[!IMPORTANT]
->
->These certificates expire on November 14, 2022. Upload the new certificates to the web service as soon as possible.
-
-* [Download Workfront Fusion Certificate 2022](https://cdn.experience.workfront.com/Documentation/Workfront+Fusion+2.0+public+certificates/app_workfrontfusion_com_certificate-chain-2022.crt) 
-* [Download Workfront Fusion EU Certificate 2022](https://cdn.experience.workfront.com/Documentation/Workfront+Fusion+2.0+public+certificates/app-eu_workfrontfusion_com_certificate-chain-2022.crt)
-
-  For use in the EU
-
-  -->
+   -->
 
 ## Enabling Mutual TLS&nbsp;in [!DNL Workfront Fusion] HTTP modules
 

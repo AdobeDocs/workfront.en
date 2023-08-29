@@ -12,12 +12,10 @@ exl-id: 1ee9343e-9452-4e41-a9ff-a6c865d4813b
 ---
 # Configure timesheet and hour preferences for a group
 
-{{highlighted-preview}}
-
 An Adobe Workfront administrator can unlock the following sections of timesheet and hour preferences at the system level so that group administrators can configure them independently for their own groups:
 
 * General preferences
-* <span class="preview">Where users can log time</span>
+* Where users can log time
 * Pre-Populate timesheets
 
 If there are any groups above the group you manage, their administrators can also do this for your group. The same is true for Workfront administrators (for any group).
@@ -130,23 +128,23 @@ Consider the following information about configuring an unlocked timesheet or ho
     </tbody> 
    </table>
 
-1. <span class="preview">In the **Where users can log time** section, configure any of the following options:</span>
+1. In the **Where users can log time** section, configure any of the following options:
 
    <table style="table-layout:auto">
     <col>
     <col>
     <tbody>
      <tr>
-      <td role="rowheader"><span class="preview">Log time directly on projects</span></td> 
-      <td><span class="preview">Allows users to log time on the project (both on the Updates tab and timesheet). If you want to restrict your users from recording time at the project level, leave this option unchecked.</span></td>
+      <td role="rowheader">Log time directly on projects</td> 
+      <td>Allows users to log time on the project (both on the Updates tab and timesheet). If you want to restrict your users from recording time at the project level, leave this option unchecked.</td>
      </tr>
      <tr>
-      <td role="rowheader"><span class="preview">Log time on projects that are complete</span></td>
-      <td><span class="preview">Allows users to record time on a project that has been marked complete. If this option is disabled, users cannot record time for the work they have completed on projects in the Complete status.</span></td>
+      <td role="rowheader">Log time on projects that are complete</td>
+      <td>Allows users to record time on a project that has been marked complete. If this option is disabled, users cannot record time for the work they have completed on projects in the Complete status.</td>
      </tr>
      <tr>
-      <td role="rowheader"><span class="preview">Log time on projects that are dead</span></td> 
-      <td><span class="preview">When this option is enabled, users can log hours on projects with a Dead status.</span></td>
+      <td role="rowheader">Log time on projects that are dead</td> 
+      <td>When this option is enabled, users can log hours on projects with a Dead status.</td>
      </tr>
     </tbody>
    </table>

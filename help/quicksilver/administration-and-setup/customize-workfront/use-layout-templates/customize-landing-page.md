@@ -4,7 +4,7 @@ user-type: administrator
 product-area: system-administration;templates;setup
 navigation-topic: layout-templates
 description: As a Workfront administrator, you can use a layout template to specify the area you want users to see each time they log in to Workfront.
-author: Caroline
+author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 57a1046a-434a-4453-a101-c5f0a16e079e
@@ -13,9 +13,11 @@ exl-id: 57a1046a-434a-4453-a101-c5f0a16e079e
 
 As an Adobe Workfront administrator, you can use a layout template to specify the area you want users to see each time they log in to Workfront.
 
-For more information about layout templates, see [Create and manage layout templates](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
+For information about creating layout templates, see [Create and manage layout templates](../use-layout-templates/create-and-manage-layout-templates.md). 
 
 For information about layout templates for groups, see [Create and modify a group's layout templates](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
+
+After configuring a layout template, you must assign it to users for changes you made to be visible to others. For information about assigning a layout template to users, see [Assign users to a layout template](../use-layout-templates/assign-users-to-layout-template.md).
 
 ## Access requirements
 
@@ -48,7 +50,7 @@ To perform them for a group, you must be a manager of that group.</p> <p><b>NOTE
 
    >[!IMPORTANT]
    >
-   >To view the Scenarios and Goals areas requires additional licenses. For information about Workfront Goals, see [Adobe Workfront Goals overview](https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&topicId=Content%2FWorkfront_Goals%2FGoal_management%2Fwf-goals-overview.htm&_LANG=en) or for information about the Workfront Scenario Planner, see [The Scenario Planner overview](../../../scenario-planner/scenario-planner-overview.md).
+   >To view the Scenarios and Goals areas requires additional licenses. For information about Workfront Goals, see [Adobe Workfront Goals overview](../../../workfront-goals/goal-management/wf-goals-overview.md) or for information about the Workfront Scenario Planner, see [The Scenario Planner overview](../../../scenario-planner/scenario-planner-overview.md).
 
 1. Continue customizing the layout template.
 

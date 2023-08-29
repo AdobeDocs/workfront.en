@@ -2,7 +2,7 @@
 content-type: overview
 navigation-topic: use-the-gantt-chart
 title: Get started with the [!UICONTROL Gantt] Chart
-description: Overview information about the project and task Gantt charts in Adobe Workfront.
+description: The Gantt charts in Adobe Workfront provide a visual representation of a list of tasks or projects. 
 author: Alina
 feature: Work Management
 exl-id: 96c4e254-ebbe-41d8-a178-7a79ac0abbbd
@@ -18,7 +18,7 @@ Although they look and feel similar, the functionality of each one is different.
 
 ## Access the [!UICONTROL Gantt Chart]
 
-The [!UICONTROL Gantt] charts in [!DNL Workfrontprovide] a visual representation of a list of tasks or projects. You can view the task list [!UICONTROL Gantt Chart] directly from the task list on a project or from a task report. You can view the project list [!UICONTROL Gantt Chart] in a project list or a project report.
+The [!UICONTROL Gantt] charts in [!DNL Workfront]  provide a visual representation of a list of tasks or projects. You can view the task list [!UICONTROL Gantt Chart] directly from the task list on a project or from a task report. You can view the project list [!UICONTROL Gantt Chart] in a project list or a project report.
 
 * [Task list [!UICONTROL Gantt Chart]](#task-list-gantt-chart)
 * [Project list [!UICONTROL Gantt Chart]](#project-list-gantt-chart)
@@ -36,7 +36,7 @@ The task list [!UICONTROL Gantt Chart] is accessible in the following areas:
 
 To access the task list [!UICONTROL Gantt Chart], navigate to any of the areas mentioned above and click the [!UICONTROL Gantt Chart] icon.
 
-![](assets/qs-gantt-icon-on-task-list-highlighted-350x199.png)
+![Click the Gantt Chart icon](assets/click-gantt-chart-icon.png)
 
 ### Project list [!UICONTROL Gantt Chart] {#project-list-gantt-chart}
 
@@ -57,7 +57,7 @@ The project list [!UICONTROL Gantt Chart] is accessible in the following areas:
 
 To access the [!UICONTROL project list Gantt Chart], navigate to any of the areas mentioned above and click the [!UICONTROL Gantt Chart] icon.
 
-![](assets/qs-gantt-icon-on-task-list-highlighted-350x199.png)
+![Click the Gantt Chart icon](assets/click-gantt-chart-icon.png)
 
 ## Configure how information displays on the [!UICONTROL Gantt Chart]
 

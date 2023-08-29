@@ -133,6 +133,9 @@ This opens the goal list.
    >
    >Navigating away from the Updates section before you finish typing and submitting a comment keeps the comment on the page in draft mode even after you log off and log back on. Any images that are added to the comment are also saved in the draft. Drafts are saved for 7 days after which they are discarded and cannot be recovered. Drafted comments are only visible to the user entering them.
 
+1. (Optional) To undo or redo a change, use the following shortcut keys:
+      * CTRL + Z (⌘+z for Mac) to undo a change 
+      * CTRL + Y (⌘+y for Mac) to redo a change 
 1. (Optional) To add rich-text formatting to your update, a hyperlink, or an image, use any options on the Rich Text toolbar or the icons adjacent to it. For more information, see [Update work](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). 
 1. (Optional) In the **Tag people or teams** area, start typing the name or the email of a user, or a team that you would like to include in this comment, then select it when it displays in the list. 
 1. Select the **Private to my company** toggle to make the comment visible only to people in your company. 
@@ -145,22 +148,22 @@ This opens the goal list.
 
       >[!TIP]
       >
-      >If another user submits a comment to the same item you are updating, there will be a red line with a "New" indicator to inform you of the newer comments. 
+      >If another user submits a comment to the same item you are updating, there will be a red line with a "New" indicator to inform you of the newer comments, as well as a blue notification at the bottom of the screen indicating the number of new comments. 
       >
       >The indicator only displays only after the comment was submitted on the item, and not when the comment is still composed. 
-      >
-      >The "New" indicator displays only when both the user that entered a new update as well as the user who is currently entering an update are using the new commenting experience. 
       >![](assets/real-time-new-red-indicator-unified-commenting.png)
       
 1. (Optional) To edit a comment, click the **More** menu ![](assets/more-icon.png) to the right of the Like icon, then click **Edit**. 
 1. Edit the information in the comment, add or remove images, or remove any of the tagged users. 
-   You can edit your comment within 15 minutes from submitting it. An "Edited" indicator is added to the left of the date stamp that displays when the comment was updated.
+   You can edit your comment within 15 minutes from submitting it. An "edited" indicator is added to the left of the date stamp that displays when the comment was updated.
 
    ![](assets/edited-tag-on-comment-unified-commenting.png)
 
    >[!TIP]
    >
-   > An email is generated to notify users of your update only when you submit the original update. No email is generated after you edited your update.
+   > * An email is generated to notify users of your update only when you submit the original update. No email is generated after you edited your update.
+   >
+   > * The date stamp is the date of the original comment and not the date of the latest update. 
 
    1. (Optional) Click the **More** menu ![](assets/more-icon.png), then click any of the following options to copy information from a comment to the clipboard:
 
@@ -170,7 +173,7 @@ This opens the goal list.
          For more information, see [Update work](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). 
 
 1. (Optional) Click the **More** menu ![](assets/more-icon.png) to the right of a comment, then click **Delete** to delete a comment you added. For more information, see [Update work](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
-1. (Optional) Click **Reply** to reply to an existing comment, then follow the steps 5-9 above. <!--insure this stays accurate-->
+1. (Optional) Click **Reply** to reply to an existing comment, then follow the steps 5-9 above. For more information about replying to updates, see [Reply to updates](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md). <!--insure this stays accurate-->
 1. (Conditional and optional) If other users have added comments that display outside of the visible area in the Updates section, click **View** inside the blue **new comments banner** at the bottom of the screen  to display these comments.
    
    ![](assets/blue-new-comments-banner-with-view-button.png)

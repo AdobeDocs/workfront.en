@@ -4,6 +4,7 @@ navigation-topic: delegate-work
 title: Delegate tasks and issues
 description: You can temporarily delegate the work you are assigned to while you are out of the office. This article describes how to delegate task and issue assignments.
 author: Alina
+feature: Work Management
 exl-id: 42b3112f-4f39-4078-aaa0-623559384a12
 ---
 # Manage task and issue delegation
@@ -199,7 +200,7 @@ You can access the [!UICONTROL Assignments] box in the following areas:
 
    The [!UICONTROL Assignments] field in the task or issue header changes to [!UICONTROL Assignments and delegations].
 
-* The [!DNL Workload Balancer] when manually assigning tasks or issues
+* The [!UICONTROL Workload Balancer] when manually assigning tasks or issues
 
    ![](assets/assignments-and-delegates-panel-in-workload-balancer.png)
 
@@ -214,7 +215,7 @@ If a task or an issue is delegated and the [!UICONTROL Delegations] subtab is em
 
 >[!TIP]
 >
->The Planned or Actual Hours for delegated tasks and issues are not taken into account in resource management tools, like the [!DNL Workload Balancer] or the [!DNL Resource Planner] for the delegated users. The hours remain associated only with the assigned user.
+>The Planned or Actual Hours for delegated tasks and issues are not taken into account in resource management tools, like the [!UICONTROL Workload Balancer] or the [!DNL Resource Planner] for the delegated users. The hours remain associated only with the assigned user.
 
 ### Locate delegated work in [!UICONTROL Home]
 

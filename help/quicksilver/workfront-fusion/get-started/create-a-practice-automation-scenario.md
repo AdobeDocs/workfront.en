@@ -34,11 +34,19 @@ You must have the following access to use the functionality in this article:
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Adobe Workfront Fusion] license**</td> 
-   <td> <p>[!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p><p>[!UICONTROL [!DNL Workfront Fusion] for Work Automation]</p>  </td> 
+   <td>
+   <p>Current license requirement: No [!DNL Workfront Fusion] license requirement.</p>
+   <p>Or</p>
+   <p>Legacy license requirement: [!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>Your organization must purchase [!DNL Adobe Workfront Fusion] as well as [!DNL Adobe Workfront] to use functionality described in this article.</td> 
+   <td>
+   <p>Current product requirement: If you have the [!UICONTROL Select] or [!UICONTROL Prime] [!DNL Adobe Workfront] Plan, your organization must purchase [!DNL Adobe Workfront Fusion] as well as [!DNL Adobe Workfront] to use functionality described in this article. [!DNL Workfront Fusion] is included in the [!UICONTROL Ultimate] [!DNL Workfront] plan.</p>
+   <p>Or</p>
+   <p>Legacy product requirement: Your organization must purchase [!DNL Adobe Workfront Fusion] as well as [!DNL Adobe Workfront] to use functionality described in this article.</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
@@ -62,13 +70,19 @@ Creating a scenario consists of several main tasks:
 1. Sign into your [!DNL Workfront Fusion] account.
 1. Click **[!UICONTROL Scenarios]** ![](assets/scenarios-icon.png) in the left panel.
 
-   In the left panel that displays, you can organize your scenarios into folders.
+   >[!NOTE]
+   >
+   >If you do not see the left navigation panel or its icons, click the Menu ![Menu](assets/main-menu-icon-left-nav.png) icon.
+
+   In the gray [!UICONTROL Folders] panel that displays, you can organize your scenarios into folders.
 
    At the top of the main area to the right, you can view **[!UICONTROL All]** scenarios you have built, your **[!UICONTROL Active Scenarios]**, **[!UICONTROL Inactive Scenarios]**, and **[!UICONTROL Concepts]**. Concepts are scenarios that need some more work before [!DNL Workfront Fusion] can classify them as active or inactive.
 
+<!--
    ![](assets/scenarios-left-panel-350x215.png)
+-->
 
-1. In the left panel, click the **[!UICONTROL Add folder]** icon ![](assets/add-folder-icon.png), then type a name like "Practice scenarios" for your first folder.
+1. In the [!UICONTROL Folders] panel, click the **[!UICONTROL Add folder]** icon ![](assets/add-folder-icon.png), then type a name like "Practice scenarios" for your first folder.
 
 1. Open the folder, then click **[!UICONTROL Create a new scenario]** in the upper-right corner of the page.
 
@@ -79,7 +93,9 @@ Creating a scenario consists of several main tasks:
 
    The scenario editor displays, containing an empty module in the center, the [!DNL Workfront] app you pre-loaded, and some options in the toolbar at the bottom.
 
+<!--
    ![](assets/scenario-editor-350x235.png)
+-->
 
    When you begin creating a new scenario, it's a good idea to start by creating a name for it.
 
@@ -224,11 +240,11 @@ We chose to have 1 project returned, as well as the tasks associated with that p
 >1. Right-click a [!DNL Workfront] module, then click **[!UICONTROL Add a note]**.
 >1. In the note that displays, type an overview for the module.
 >
->   You can add multiple notes for a module.
+>    You can add multiple notes for a module.
 >
 >1. Close the **[!UICONTROL Notes]** area.
 >
->   After you add a note to a scenario, an orange dot displays on the **[!UICONTROL Notes]** icon ![](assets/notes-icon-w-dot.png) at the bottom of the scenario editor.
+>     After you add a note to a scenario, an orange dot displays on the **[!UICONTROL Notes]** icon ![](assets/notes-icon-w-dot.png) at the bottom of the scenario editor.
 >
 >1. Click the **[!UICONTROL Notes]** icon ![](assets/notes-icon-w-dot.png) to view your notes.
 >

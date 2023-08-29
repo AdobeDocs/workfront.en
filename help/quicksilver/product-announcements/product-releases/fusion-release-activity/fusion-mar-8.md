@@ -24,4 +24,4 @@ To make it easier for you to find the items you want to map in your scenarios, w
 
 For more information on mapping, see [Map information from one module to another in Adobe Workfront Fusion](../../../workfront-fusion/mapping/map-information-between-modules.md).
 
-This feature is now included in the [Universal connectors and routing in Workfront Fusion](https://one.workfront.com/s/learningpath4/universal-connectors-and-routing-in-fusion-MCNYZ474LYKNDSDE7PCZFB7CFR44) learning path on Workfront One.
+This feature is now included in the [Universal connectors and routing in Workfront Fusion](https://experienceleague.adobe.com/docs/workfront-course-map/using/learning-paths/workfront-fusion-program/universal-connectors-and-routing-in-fusion-MCNYZ474LYKNDSDE7PCZFB7CFR44.html) learning path on Adobe Experience League.

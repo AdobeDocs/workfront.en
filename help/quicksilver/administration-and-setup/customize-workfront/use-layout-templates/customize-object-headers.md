@@ -4,7 +4,7 @@ user-type: administrator
 product-area: system-administration;templates;setup
 navigation-topic: layout-templates
 description: As an Adobe Workfront administrator or a group administrator , you can use a layout template to configure the fields users see in the object header when they open an object's page.
-author: Caroline
+author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: cbeaa0d7-a61a-4806-a871-96663d9ce124
@@ -17,10 +17,13 @@ As an Adobe Workfront administrator or a group administrator, you can use a layo
 >
 >Customizing object headers is currently available for projects, tasks, and issues.
 
-
-For information about layout templates for groups, see [Create and modify a group's layout templates](../../manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md). 
-
 ![](assets/object-header-fields.png)
+
+For information about creating layout templates, see [Create and manage layout templates](../use-layout-templates/create-and-manage-layout-templates.md). 
+
+For information about layout templates for groups, see [Create and modify a group's layout templates](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
+
+After configuring a layout template, you must assign it to users for changes you made to be visible to others. For information about assigning a layout template to users, see [Assign users to a layout template](../use-layout-templates/assign-users-to-layout-template.md).
 
 ## Access requirements
 

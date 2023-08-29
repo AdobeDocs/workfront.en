@@ -13,6 +13,11 @@ As a user with administrative access to Timesheets, you can edit information on 
 
 You can edit information on a single timesheet, or you can edit multiple timesheets in bulk.
 
+>[!IMPORTANT]
+>
+>If users are associated with Timesheet Profiles and the timesheets are automatically generated, the changes you make to existing timesheets do not reflect on timesheets that will be generated for future dates. All timesheets generated automatically have the settings established in the Timesheet Profiles. For more information, see [Create timesheet profiles](../create-and-manage-timesheets/create-timesheet-profiles.md)
+
+
 ## Access requirements
 
 You must have the following to perform the steps in this article:
@@ -31,7 +36,9 @@ You must have the following to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>You must have administrative access to Timesheets. </p> <p>For more information, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Grant users administrative access to certain areas</a>.</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>You must have administrative access to Timesheets. </p> <p>For more information, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Grant users administrative access to certain areas</a>.</p> <p><b>NOTE</b>
+   
+   If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -99,6 +106,16 @@ You must have the following to perform the steps in this article:
       <td role="rowheader"><strong>End Date</strong> </td> 
       <td> This is the end date of the timesheet.</td> 
      </tr> 
+ <tr> 
+      <td role="rowheader"><strong>Status</strong> </td> 
+      <td> This is the status of the timesheet.
+      The following are possible timesheet status options: 
+      <ul><li><b>Open</b>: The timesheet is open and hour entries can be edited.</li>
+      <li><b>Submitted</b>: The timesheet is submitted for approval to the designated approvers.</li>
+      <li><b>Rejected</b>: The timesheet was not approved by the approvers and is now available again for the user to edit the time entries.</li>
+      <li><b>Closed</b>: The timesheet is either closed by the user or approved by the approver and as a result, it is now closed. You cannot add time to a closed timesheet.</li>
+   </td> 
+     </tr> 
      <tr> 
       <td role="rowheader"><strong>Approvers</strong> </td> 
       <td> <p>Approvers are&nbsp;users who approve the timesheet for the users associated with the timesheet. Only users with administrative access to Timesheets can be set as approvers. </p> <p>For more information about timesheet administrative rights, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Grant users administrative access to certain areas</a>.</p> <p>Start entering the names of the timesheet approvers and select them when they appear&nbsp;in the list.</p> <p>You can have multiple approvers on a timesheet. In this case, after&nbsp;one of the approvers approves the timesheet, the timesheet is marked as <strong>Closed</strong> and it disappears from the timesheet approvals list of all the remaining approvers.</p> </td> 
@@ -114,4 +131,4 @@ You must have the following to perform the steps in this article:
     </tbody> 
    </table>
 
-1. Click Save.
+1. Click **Save**.

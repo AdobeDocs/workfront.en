@@ -1,10 +1,8 @@
 ---
 title: Group table rows in Reporting Canvas
 description: Group table rows in Reporting Canvas
-author: Nolan
-draft: Probably
-feature: Reports and Dashboards
-exl-id: 355bbe5b-9c66-4b6b-b479-a48a20b53fe6
+hidefromtoc: yes
+hide: yes
 ---
 
 # Group table rows in Reporting Canvas
@@ -13,7 +11,7 @@ You can organize the information in a report by displaying it in groups defined 
 
 ## Prerequisites
 
-Before you begin, you must enroll in the Reporting Canvas beta. For more information, see [Reporting Canvas beta: overview](/help/quicksilver/product-announcements/betas/reporting-canvas-beta/reporting-canvas-beta-overview.md).
+Before you begin, you must enroll in the Reporting Canvas beta. For more information, see [Reporting Canvas beta: overview](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md).
 
 ## Group rows in a table
 

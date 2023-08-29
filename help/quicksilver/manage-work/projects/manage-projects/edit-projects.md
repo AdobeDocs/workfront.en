@@ -4,12 +4,13 @@ navigation-topic: manage-projects
 title: Edit projects
 description: You can edit a project in Adobe Workfront as often as needed. Ideally, you should edit a project when the project is in the Planning status.
 author: Alina
-feature: Work Management
+feature: Work Management, Projects
+role: User
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
 ---
 # Edit projects
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers in the Preview environment and for a select group of customers in the Production environment.</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers in the Preview environment and for a select group of customers in the Production environment.</span>-->
 
 <!--
 <p>***Linked to many articles,</p>
@@ -50,10 +51,8 @@ You can edit a project in Adobe Workfront as often as needed. We recommend that 
   <tr> 
    <td role="rowheader">Object permissions</td> 
    <td> 
-    <ul> 
-     <li> <p>Contribute permissions to a project to edit it in the Project Details area </p> </li> 
-     <li> <p>Manage permissions to a project to edit it in the Edit Project box</p> </li> 
-    </ul> <p> For information about project permissions, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Share a project in Adobe Workfront</a>.</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+     <p>Manage permissions to a project </p> 
+     <p> For information about project permissions, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Share a project in Adobe Workfront</a>.</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -80,10 +79,8 @@ You must have the following access to perform the steps in this article:
   <tr> 
    <td role="rowheader">Object permissions</td> 
    <td> 
-    <ul> 
-     <li> <p>Contribute permissions to a project to edit it in the Project Details area </p> </li> 
-     <li> <p>Manage permissions to a project to edit it in the Edit Project box</p> </li> 
-    </ul> <p> For information about project permissions, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Share a project in Adobe Workfront</a>.</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+    <p>Manage permissions to a project </p> 
+    <p> For information about project permissions, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Share a project in Adobe Workfront</a>.</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -298,7 +295,11 @@ Some settings mentioned in this article might be modified from their default sta
 
    >[!TIP]
    >
-   >When updating the Project Owner, Project Sponsor, and Resource Manager fields, notice the avatar, the user's Primary Role, or their email address to distinguish between users with identical names. Users must be associated with at least one job role to view it as you add them.
+   >When updating the Project Owner, Project Sponsor, and Resource Manager fields, notice the avatar, the user's Primary Role, or their email address to distinguish between users with identical names. 
+   >
+   >Users must be associated with at least one job role to view it as you add them.
+   >
+   >You must have the View Contact Info setting enabled in your access level for Users to view users' emails. For information, see [Grant access to users](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md). 
 
 1. (Optional) Continue editing the following sections, depending on the information you want to modify. 
 
@@ -686,8 +687,6 @@ The following fields are included in the project header, by default.
 * Status
 * Make approval decisions if you are set as the approver in a current approval process
 
-<div class="preview">
-
 ## Edit projects in bulk
 
 You can edit projects in bulk and update information for all selected projects at the same time.
@@ -790,7 +789,6 @@ For more information about editing the Access area, see the section [Access](#ac
 1. (Optional) Click **Cancel** at the bottom of the **Edit projects** page to remove all the changes made to all projects. 
 1. Click **Save**. 
 
-</div>
 
 <!-- Old information for how to bulk edit in classic/ before project bulk edit redesign: 
 

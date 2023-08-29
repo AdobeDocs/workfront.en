@@ -15,11 +15,13 @@ exl-id: fd45e1bc-9a35-4960-a73a-ff845216afe4
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">**DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **</p>
 -->
 
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.</span>
+
 >[!IMPORTANT]
 >
 >The new [!DNL SharePoint] integration was released to production with the 22.3 release (July 2022.) Although your users can still access documents linked through the legacy [!DNL SharePoint] integration, they must use the new [!DNL SharePoint] integration to link documents from SharePoint.
 >
->* The new SharePoint integration does not requre configuration by an administrator, and can be set up by individual users. However, to ensure a smooth transition to the new SharePoint integration, a Workfront administrator must make some small settings changes in the Workfront Setup area.
+>* The new SharePoint integration does not require configuration by an administrator, and can be set up by individual users. However, to ensure a smooth transition to the new SharePoint integration, a Workfront administrator must make some small settings changes in the Workfront Setup area.
 >
 >    For information and instructions, see [Configure the legacy SharePoint integration for continued access to documents](#configure-the-legacy-sharepoint-integration-for-continued-access-to-documents) in this article.
 >    
@@ -75,6 +77,27 @@ For instructions on linking documents through the new [!DNL SharePoint] integrat
 >* A [!DNL SharePoint] integration can connect to a single [!DNL SharePoint] instance. Therefore, a user can set up an integration for one [!DNL SharePoint], but cannot set up an integration to a second [!DNL SharePoint], even if they have permissions to and documents on the second [!DNL SharePoint].
 >
 >* A user has access to the same sites, collections, folders, subfolders, and files through the [!DNL Workfront] [!DNL SharePoint] integration as they have in their [!DNL SharePoint] account.
+
+### Link documents from SharePoint
+
+For instructions on linking documents from SharePoint through the new [!DNL SharePoint] integration, see [Link an external document to [!DNL Workfront]](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md#link-an-external-document-to-workfront)
+
+### Send documents to SharePoint
+
+To send a document to SharePoint:
+
+1. Click the **Send to** icon ![Send to](assets/send-to-icon.png) and select SharePoint (Graph API).
+1. <span class="preview">(Optional) Search in the search bar for the site or folder where you want to send the document.</span>
+1. Select the site or folder from the list.
+
+   * <span class="preview">Sites are marked with ![Site icon](assets/site-icon.png).</span>
+
+   * <span class="preview">Folders are marked with ![Folder icon](assets/folder-icon.png).</span>
+
+   * Files are not marked with an icon.
+
+1. Click **Save**.
+
 
 ## Security, access, and authorization information for the [!DNL SharePoint] integration
 

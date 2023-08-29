@@ -2,7 +2,7 @@
 product-area: reporting
 navigation-topic: using-built-in-reports
 title: Built-in Status Icons in Views
-description: Built-in Status Icons in Views
+description: You can add the built-in Status Icons field as a column in your views to enhance visibility into key points about your objects.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 7831d5c1-e982-4780-a5a8-54dc6decb3a1
@@ -22,13 +22,20 @@ You can add the built-in Status Icons field as a column in your views to enhance
 * A task is on a critical path
 * A user belongs to a company, a team, or is located in a different time zone
 
-Most of the indicators in the Status Icons field are quick links to the actual object or area of the object that they represent.
+Consider the following:
 
-If any of the items represented by the icons are missing from the object, the icon representing the missing item appears as an outline in the Status Icons column instead of a complete image.  
-![task_status_icons.png](assets/task-status-icons.png)  
-For more information, see the [Overview of Status Icons and Flags](#overview-of-status-icons-and-flags) section in this article.  
-In some views, the **Status Icons** field is named **Flags** or **View Icons**.  
+* Most of the indicators in the Status Icons field are quick links to the actual object or area of the object that they represent.
+
+* If any of the items represented by the icons are missing from the object, the icon representing the missing item appears dimmed in the Status Icons column instead of a colored image.  
+
+   ![task_status_icons.png](assets/task-status-icons.png)  
+
+   For more information, see the [Overview of Status Icons and Flags](#overview-of-status-icons-and-flags) section in this article.  
+
+* In some views, the **Status Icons** field is named **Flags** or **View Icons**.  
 You cannot customize the look and feel of the icons that are included in the Status Icons field.
+
+* You cannot edit the number of icons in the Status Icons field. 
 
 ## Access requirements
 

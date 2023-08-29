@@ -1,9 +1,8 @@
 ---
 title: Configure a bar visualization in the Reporting Canvas
 description: Configure a bar visualization in the Reporting Canvas
-author: Nolan
-feature: Reports and Dashboards
-exl-id: 7dc4f156-d262-482f-aa82-c905f0d1b20f
+hidefromtoc: yes
+hide: yes
 ---
 
 # Configure a bar visualization in the Reporting Canvas
@@ -12,7 +11,7 @@ A bar visualization can help you quickly tell a story about your data by highlig
 
 ## Prerequisites
 
-Before you begin, you must enroll in the Reporting Canvas beta. For more information, see [Reporting Canvas beta: overview](/help/quicksilver/product-announcements/betas/reporting-canvas-beta/reporting-canvas-beta-overview.md).
+Before you begin, you must enroll in the Reporting Canvas beta. For more information, see [Reporting Canvas beta: overview](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md).
 
 ## Configure a bar visualization
 

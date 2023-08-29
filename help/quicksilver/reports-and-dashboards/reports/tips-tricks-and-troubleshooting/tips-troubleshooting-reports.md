@@ -12,7 +12,6 @@ exl-id: 76ca4656-79a6-43da-a6d5-56a30f542d1e
 
 This section contains the following articles:
 
-* [Basic Report Creation Program for the new Workfront experience](https://one.workfront.com/s/basic-report-creation-program) 
 * [Reports FAQs](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md) 
 * [Error message on calendar: "This calendar has the view rights of a deactivated user."](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/error-message-calendar.md) 
 * [Error message when running a report: "You are not currently logged in."](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/error-running-report.md) 

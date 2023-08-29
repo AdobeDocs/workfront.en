@@ -5,9 +5,17 @@ title: Log time
 description: You can log time for work items in&nbsp;Adobe Workfront to indicate the number of hours you spend working on them. You can also log time that is not related to work, like vacation, sick time, or time you spend in meetings. The time you log displays in your timesheet.
 author: Alina
 feature: Timesheets
+role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
 ---
 # Log time
+
+<!--remove all preview and production references from this article with 23.3 release-->
+
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>  
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). 
+
+<span class="preview">For information about the current release schedule, see [Fourth Quarter 2023 release overview](../../product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md)</span> 
 
 You can log time for work items in Adobe Workfront to indicate the number of hours you spend working on them. You can also log time that is not related to work, like vacation, sick time, or time you spend in meetings. The time you log displays in your timesheet.
 
@@ -99,11 +107,14 @@ You can log time in the following areas in Workfront:
 
 ### Timesheet {#timesheet}
 
+
+#### Log time on a timesheet {#log-time-on-a-timesheet}
+
 You can log general hours or project-specific hours on a timesheet.
 
 >[!NOTE]
 >
->Review users assigned to a Timesheet Profile can see the Timesheets tab and log general hours. However, they cannot log hours on any tasks or issues assigned to them that appear on the timesheet.
+>Review users assigned to a Timesheet Profile can see the Timesheets area and log general hours. However, they cannot log hours on any tasks or issues assigned to them that appear on the timesheet.
 
 1. Click the [!UICONTROL **Main Menu**] icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront.
 
@@ -178,23 +189,6 @@ You can log general hours or project-specific hours on a timesheet.
 
 1. (Optional) Click the search icon ![](assets/search-icon.png) and start typing a keyword to find a project, task, or an issue on the timesheet. 
 
-1. (Optional) You can remove an item (project, task, or issue) from the timesheet if you manually added the item (as described in Steps 3-6), and if you have not yet logged time against it by unpinning it. <!--ensure this stays accurate-->
-
-   You cannot remove items that are included in the timesheet automatically according to the timesheet preferences in your Workfront system or group that are configured to pre-populate the timesheets (as described in [Configure timesheet and hour preferences](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md). 
-
-   To remove an item from the timesheet that was manually added:
-
-   1. Ensure that no time is logged against the item.
-   1. Click the **unpin** icon ![Pin an item](assets/pin-icon.png) next to the item to unpin the item from the timesheet.
-
-   >[!TIP]
-   >
-   >   When using a standard QWERTY keyboard after clicking an item in the timesheet, press the following set of keys to unpin an item:
-   >   * Option + P for both Windows and Mac computers. 
-   
-
-   The item is removed from the timesheet after you refresh the page.
-  
 1. (Conditional) If your Workfront or group administrator has enabled the **Assign job roles to hour entries manually** setting, select a job role from the drop-down menu. The role specified when you are assigned to the work item displays by default. If you are not assigned a role on the object, your Primary Role displays as the default. For more information on this setting, see the article [Configure timesheet and hour preferences](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
    ![Log time for multiple roles in timesheet](assets/job-role-plus-sign-and-boxes-in-redesigned-timesheet.png)
@@ -313,6 +307,35 @@ You can log general hours or project-specific hours on a timesheet.
    * **Re-Open**: This option is available for timesheets that you have already closed and which have no approvers, or timesheets that have already been approved. Reopen the timesheet to modify hour entries. 
    * **Recall**: This option is available for timesheets that have been submitted for approval but have not been approved or rejected yet. Click **Recall** to reopen the timesheet and modify hour entries.
 
+#### Remove an item from the timesheet
+
+You can remove an hour entry or an item (project, task, or issue) from a timesheet. 
+
+To remove an hour entry from a timesheet: 
+
+1. Go to the timesheet and find the hour entry you want to remvoe. 
+1. Replace the hours entered with 0
+      Or
+   Remove the hours and replace them with 0, then press Enter. 
+
+   The hours are removed and the timesheet is saved automatically.
+
+You can remove an item (project, task, or issue) from the timesheet by unpinning it, if you have not yet logged time for it, and if you manually added the item (as described in Steps 4-8 in the [Log time on a timesheet](#log-time-on-a-timesheet) section in this article). <!--ensure this stays accurate-->
+
+You cannot remove items that are included in the timesheet automatically according to the timesheet preferences in your Workfront system or group that are configured to pre-populate the timesheets (as described in [Configure timesheet and hour preferences](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md)). The items stop pre-populating the timesheet when the dates of the items are outside of the time frame of the timesheet. 
+
+To remove an item from the timesheet that was manually added:
+
+1. Ensure that no time is logged against the item.
+1. Click the **unpin** icon ![Pin an item](assets/pin-icon.png) next to the item to unpin the item from the timesheet.
+
+   >[!TIP]
+   >
+   >   When using a standard QWERTY keyboard after clicking an item in the timesheet, press the following set of keys to unpin an item:
+   > * Option + P for both Windows and Mac computers. 
+
+   The item is removed from the timesheet after you refresh the page.
+
 ### Home {#home}
 
 You can log project-specific time in Home.
@@ -333,42 +356,75 @@ To log time on a work item from the Home area:
 
 ### Project, task, or issue {#project-task-or-issue}
 
-You can log project-specific time on a project, task, or issue.
+You can log project-specific time on a project, task, or issue in the following sections:
 
-#### Permissions required for logging time
+* [Updates section](#updates-section) 
+* [Hours section](#hours-section)
 
-In order to log hours on a project, task, or issue, you need to have specific permissions. You can log time in two places on a project, task, or issue:
+#### Updates section{#updates-section} 
 
-* [Updates tab](#updates-tab) 
-* [Hours tab](#hours-tab)
+<!--remove the note below - October 2023 -->
 
-##### Updates tab{#updates-tab} 
+>[!NOTE]
+>
+> There are slight differences in the look and feel of the user interface between the current and the new Updates section. The information in this section refers to functionality as it displays in the new commenting experience. 
+>
+>For more information about the new Updates section, see [New commenting experience](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
-The following are required before you can log hours on the Updates tab of a project, task, or issue:
+To log time in the Updates section of a project, task, or issue, you must have the following:
 
-* You must have a Work or Plan license.
-* You must have at least Contribute permissions to the project, task, or issue with access to Log Hours.  
+* A Work or Plan license.
+* Contribute or higher permissions to the project, task, or issue with access to Log Hours.  
   For more information about granting permissions on projects, see [Share a project in Adobe Workfront](../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md).
 
-* If you want to log time directly to a project, your Workfront administrator must enable the Log time directly on projects setting under [!UICONTROL **Timesheet & Hours** ]> [!UICONTROL **Preferences**].  
+* Your Workfront administrator must enable the Log time directly on projects setting under [!UICONTROL **Timesheet & Hours** ]> [!UICONTROL **Preferences**], if you want to log time directly to a project. 
+
   For more information about allowing users to log hours directly to projects, see [Configure timesheet and hour preferences](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
-##### Hours tab{#hours-tab}
+To log time in the Updates section of a project, task, or issue:
 
-The following are required before you can log hours on the Hours tab of a project, task, or issue:
+1. Go to a project, task, or issue.
+1. In the left panel, select **Updates**.
+1. Click **Log Time**. <!-- did Anna B change the casing for this button? If yes and if she changed it for the other areas, update screen shot too-->
 
-* You must be the system administrator.
+   The Log Time dialog box displays.
+   
+   >[!TIP]
+   >
+   >   If your profile's preference is set to log time in days, the Enter Days box displays. 
+   >   
+   >   There is an indication in the upper-right corner of the Enter Days box of how many hours are included in a day. 
 
-Or you must have all of the following:
+   <span class="preview">![](assets/log-time-box-in-updates-stream.png)</span>
 
-* You must have a Plan license with administrative access to Timesheets & hours. For more information about granting administrative access to Timesheets & hours, see [Grant users administrative access to certain areas](../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
-* You must have at least Contribute permissions to the project with access to Log Hours. For more information about granting permissions on projects, see [Share a project in Adobe Workfront](../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md).
-* If you want to log time directly to a project, your Workfront administrator must enable the Log time directly on projects setting under Timesheet & Hours > Preferences. For more information about allowing users to log hours directly to projects, see [Configure timesheet and hour preferences](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+1. Specify the following information:
 
-To log time on a project, task, or issue:
+   * **Hour Type**: Select an Hour Type from the drop-down menu, if it is different from the one displayed by default.
 
-1. Navigate to a project, task, or issue.
-1. In the left panel, select **Hours**.
+     Depending on what hour types are configured in your system, the options here might vary. For more information about configuring hour types, see [Define hour types and availability for timesheets](../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md).
+
+   * **Job Role**: (Conditional) If your Workfront or group administrator has enabled the **Assign job roles to hour entries manually** setting, select a **Job Role** from the drop-down menu. The Role specified when you are assigned to the object displays by default. If you are not assigned a Role on the object, your Primary Role displays as the default. For more information on this setting, see the article [Configure timesheet and hour preferences](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+
+   * **Hours**: Enter the number of hours for the project, task, or issue.
+
+1. Click **Log Time**.
+
+#### Hours section{#hours-section}
+
+You must be a Workfront administrator to log time for projects, tasks, and issues in the Hours section, 
+
+Or
+
+You must have all of the following:
+
+* A Plan license with administrative access to Timesheets & hours. For more information about granting administrative access to Timesheets & hours, see [Grant users administrative access to certain areas](../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
+* Contribute or higher permissions to the project with access to Log Hours. For more information about granting permissions on projects, see [Share a project in Adobe Workfront](../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md).
+* Your Workfront administrator must enable the Log time directly on projects setting under Timesheet & Hours > Preferences, if you want to log time directly to a project. For more information about allowing users to log hours directly to projects, see [Configure timesheet and hour preferences](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+
+To log time in the Hours section of a project, task, or issue:
+
+1. Go to a project, task, or issue.
+1. In the left panel, click **Hours**.
 1. Click **Log Time**.
 
    The Log Hours dialog box displays.

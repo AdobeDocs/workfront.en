@@ -4,8 +4,8 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 description: You can design a custom form that users can attach to a Workfront object. Users who work on the object can fill out the custom form to supply information about the object.
-author: Courtney
-feature: System Setup and Administration
+author: Courtney / Lisa
+feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: c2e2901b-0558-4a63-ae3c-4c3a6edf0ff0
 ---
@@ -21,7 +21,7 @@ The new form designer has a new canvas-style workspace that allows you to view t
 
 There is a new button at the top of both the new form designer and the legacy form builder. You can use this button to switch between the legacy builder and the new designer.
 
-![](assets/switch-views.png)
+![Switch to new form designer](assets/switch-views.png)
 
 ## New functionality available with the form designer
 
@@ -41,8 +41,6 @@ With the new form designer, we've added the ability to
 
 The following are not currently available in the form designer but will be added soon:
 
-* Adjust the size of descriptive text
-
 * Display/Skip logic  
 
 * Filter for typeahead fields 
@@ -50,6 +48,22 @@ The following are not currently available in the form designer but will be added
 >[!IMPORTANT]
 >
 >The existing configurations for logic and typeahead filters will not be affected when you work with the new form designer.
+
+### Display/Skip logic
+
+Although you can't yet add display/skip logic when designing a new custom form, you can view existing display/skip logic on forms that were created in the legacy form builder.
+
+Icons on a field in the form designer indicate that logic is applied to the field.
+
+   The ![Display logic for target field](assets/display-logic-bottom-left.png) icon on the bottom left means that the field is the target field for display logic (if a specific selection is made on the form, then this field is displayed). The ![Define display logic icon](assets/display-logic-bottom-right.png) icon on the bottom right means that the field is used to define display logic (a specific selection or value on this field will display the target field).
+
+   The ![Skip logic for target field](assets/skip-logic-bottom-left.png) icon on the bottom left means that the field is the target field for skip logic (if a specific selection is made on the form, then the form skips ahead to this field). The ![Define skip logic icon](assets/skip-logic-bottom-right.png) icon on the bottom right means that the field is used to define skip logic (a specific selection or value on this field will skip other fields and go directly to the target field).
+
+   ![Logic icons](assets/logic-icons-3.png)
+
+Selecting a field with logic applied displays the existing logic rules in the field settings.
+
+   ![Logic rules](assets/form-designer-view-only-logic.png)
 
 ## Functionality removed from the form designer
 

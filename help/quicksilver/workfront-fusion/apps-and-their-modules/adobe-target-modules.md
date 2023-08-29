@@ -7,6 +7,7 @@ navigation-topic: apps-and-their-modules
 title: Adobe Target modules
 description: In an [!DNL Adobe Workfront Fusion] scenario, you can automate workflows that use [!DNL Adobe Target], as well as connect it to multiple third-party applications and services. [!DNL Adobe Target] modules allow you to create, read, update, or delete records, list all records of a given type, search records based on criteria you specify, or perform a custom API call to the [!DNL Adobe Target] API.
 author: Becky
+feature: Workfront Fusion
 exl-id: 9597806b-d4bf-4627-b27d-30e24a1e6776
 ---
 # [!DNL Adobe Target] Modules
@@ -40,13 +41,19 @@ You must have the following access to use the functionality in this article:
     </tr>
     <tr>
       <td role="rowheader">[!DNL Adobe Workfront Fusion] license**</td>
-      <td >
-        <p>[!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration]</p>
-      </td>
+      <td>
+   <p>Current license requirement: No [!DNL Workfront Fusion] license requirement.</p>
+   <p>Or</p>
+   <p>Legacy license requirement: [!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p>
+   </td>
     </tr>
     <tr>
       <td role="rowheader">Product</td>
-      <td>Your organization must purchase [!DNL Adobe Workfront Fusion] as well as [!DNL Adobe Workfront] to use functionality described in this article.</td>
+      <td>
+   <p>Current product requirement: If you have the [!UICONTROL Select] or [!UICONTROL Prime] [!DNL Adobe Workfront] Plan, your organization must purchase [!DNL Adobe Workfront Fusion] as well as [!DNL Adobe Workfront] to use functionality described in this article. [!DNL Workfront Fusion] is included in the [!UICONTROL Ultimate] [!DNL Workfront] plan.</p>
+   <p>Or</p>
+   <p>Legacy product requirement: Your organization must purchase [!DNL Adobe Workfront Fusion] as well as [!DNL Adobe Workfront] to use functionality described in this article.</p>
+   </td>
     </tr>
     </tr>
   </tbody>

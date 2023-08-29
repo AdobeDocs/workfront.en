@@ -17,7 +17,9 @@ You can connect your work with your content in [!DNL Experience Manager Assets]â
 * Track metadata for assets and folders
 * Sync project metadata between [!DNL Workfront] and [!DNL Experience Manager Assets]
 
-You can also connect several Experience Manager Assets repositories to one Workfront environment, or several Workfront environments to one Experience Manager Assets repository across Organization IDs. Follow the configuration instructions in this article for each integration you'd like to set up. 
+>[!NOTE]
+>
+>You can also connect several Experience Manager Assets repositories to one Workfront environment, or several Workfront environments to one Experience Manager Assets repository across Organization IDs. Follow the configuration instructions in this article for each integration you'd like to set up. 
 
 ## Access requirements
 
@@ -71,6 +73,7 @@ Before you begin,
 
 1. Click the **[!UICONTROL Main Menu]** icon  in the upper-right corner of Adobe Workfront, then click **[!UICONTROL Setup]** .
 1. Select **[!UICONTROL Documents]** in the left panel, then select **[!UICONTROL [!DNL Experience Manager] Integration]**.
+
     >[!NOTE]
     >
     >This configuration area appears only if your [!DNL Workfront] environment is included under an [!DNL Adobe Admin Console].
@@ -207,12 +210,32 @@ To map metadata for folders:
 
 An [!DNL Experience Manager] fields that is mapped to [!DNL Workfront] portfolio, program, project, task, issue, and document fields update automatically when the field is changed in [!DNL Workfront].
 
+When this option is enabled, any asset that has been pushed to Adobe Experience manager includes a card on the Document Details page that displays a real-time view of the document's Adobe Experience Manager metadata.
+
 >[!IMPORTANT]
 >
 >Users must have write access in [!DNL Experience Manager] for assets living in the object in order for the metadata to sync when it's updated.
 
 1. Enable the **[!UICONTROL Sync object metadata]** field.
-1. Click Save or move on to the [Set up linked folders (Optional)](#set-up-linked-folders-optional) section in this article.
+1. Click **Save** or move on to the [Set up workflows (Optional)](#set-up-workflows-optional) section in this article.
+
+<!--Courtney start here-->
+
+## Set up workflows (Optional)
+
+A workflow is a set of actions that connect Workfront to Adobe Experience Manager as a Cloud Service. As a Workfront administrator, you can configure workflows in Workfront, then assign them to Project Templates. When a Project is created using a Project Template to which a workflow is assigned, the actions defined in the workflow are triggered. 
+
+The default workflow values that you set in the integration can be overridden at the Project Template and Project levels.
+
+### Set up a workflow for the creation of Adobe Experience Manager linked folders
+
+1. Toggle the **[!UICONTROL Create Linked folder]** on.
+1. Choose a folder path to indicate where you want all linked folders associated with this integration. 
+   ![Linked folder navigation](assets/select-folder-aem-integration.png)
+1. Enable the **Append Portfolio and Program Names** option to automatically include Portfolio and Program names at the end of the linked folder's name.
+1. Click **Save** or move on to the [Set up linked folders (Optional)](#set-up-linked-folders-optional) section in this article.
+
+<!--Courtney end here-->
 
 ## Set up linked folders (Optional)
 

@@ -1,10 +1,8 @@
 ---
 title: Build a formula field in Reporting Canvas
 description: Build a formula field in Reporting Canvas
-author: Nolan
-draft: Probably
-feature: Reports and Dashboards
-exl-id: 22a2c3d7-39db-4f5d-94f3-222ca3ee0615
+hidefromtoc: yes
+hide: yes
 ---
 
 # Build a formula field in Reporting Canvas
@@ -13,7 +11,7 @@ The field builder in Reporting Canvas allows you to create fields that perform c
 
 ## Prerequisites
 
-Before you begin, you must enroll in the Reporting Canvas beta. For more information, see [Reporting Canvas beta: overview](/help/quicksilver/product-announcements/betas/reporting-canvas-beta/reporting-canvas-beta-overview.md).
+Before you begin, you must enroll in the Reporting Canvas beta. For more information, see [Reporting Canvas beta: overview](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md).
 
 ## Create a formula field
 

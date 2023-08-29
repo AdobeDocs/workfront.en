@@ -28,7 +28,7 @@ See also [Event notifications](../../workfront-basics/using-notifications/event-
  </thead> 
  <tbody>
   <tr> 
-   <td> <p><strong>A predecessor of a task assigned to my team is completed</strong> </p> <p>The assigned team receives an email notification when a predecessor of one of their tasks is completed. </p> <p>Users with a [!UICONTROL Review] or Re[!UICONTROL Requestor]questor license do not receive a notification.</p> <p>The subject of the instant notification email is: <em>Complete: &lt;Task Name&gt;</em></p> <p> The subject of the daily digest notification is: <em> [!UICONTROL Digest of Work Assigned to You] &lt;Date of daily digest&gt; </em></p> </td> 
+   <td> <p><strong>A predecessor of a task assigned to my team is completed</strong> </p> <p>The assigned team receives an email notification when a predecessor of one of their tasks is completed. </p> <p>Users with a [!UICONTROL Review] or [!UICONTROL Requestor] license do not receive a notification.</p> <p>The subject of the instant notification email is: <em>Complete: &lt;Task Name&gt;</em></p> <p> The subject of the daily digest notification is: <em> [!UICONTROL Digest of Work Assigned to You] &lt;Date of daily digest&gt; </em></p> </td> 
    <td> <p>Predecessor Task Name<br>Predecessor Task Project<br>Predecessor Task Reference Number<br>Name of the user who completed the predecessor task<br>Status of the predecessor task<br>Date and Time when the predecessor was completed<br>Previous Status of the predecessor task<br><strong>See More Details</strong> button<br>*Project Name<br>*Project Reference Number<br>*Total number of predecessors completed<br>*Task Name<br>*Name of the user who completed the task<br>*Date of daily digest </p> </td> 
    <td><strong>Daily</strong> </td>
   </tr>

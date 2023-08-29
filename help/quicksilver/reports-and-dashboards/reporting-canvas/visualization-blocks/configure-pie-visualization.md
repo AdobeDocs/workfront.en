@@ -1,9 +1,8 @@
 ---
 title: Configure pie visualization in Reporting Canvas
 description: Configure pie visualization in Reporting Canvas
-author: Nolan
-feature: Reports and Dashboards
-exl-id: 0497edb5-9322-406a-b53b-ec498afdd96e
+hidefromtoc: yes
+hide: yes
 ---
 
 # Configure pie visualization in Reporting Canvas
@@ -12,7 +11,7 @@ A pie visualization can help you quickly tell a story about your data by highlig
 
 ## Prerequisites
 
-Before you begin, you must enroll in the Reporting Canvas beta. For more information, see [Reporting Canvas beta: overview](/help/quicksilver/product-announcements/betas/reporting-canvas-beta/reporting-canvas-beta-overview.md).
+Before you begin, you must enroll in the Reporting Canvas beta. For more information, see [Reporting Canvas beta: overview](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md).
 
 ## Configure a pie visualization
 

@@ -26,8 +26,6 @@ Resource Management tools also use your personal time off to indicate when you a
 >* [Edit a user's profile](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)
 >
 
-
-
 ## Access requirements
 
 You must have the following access to perform the steps in this article:
@@ -40,15 +38,16 @@ You must have the following access to perform the steps in this article:
  <tbody> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
-   <td> <p>Any</p> </td> 
+   <td>Any</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] license*</strong></td> 
-   <td> <p>[!UICONTROL Work] or higher (to configure your personal time off)</p> </td> 
+   <td>[!UICONTROL Work] or higher (to configure your personal time off)</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Access level configurations*</strong></td> 
-   <td>[!UICONTROL Manager] with [!UICONTROL Edit User] access (to make changes to the Time-off calendar of other users)</td> 
+   <td>[!UICONTROL Manager] with [!UICONTROL Edit User] access (to make changes to the time off calendar of other users)<br>
+   <strong>NOTE:</strong> If a manager edits another user's personal time off calendar, all entries are shown in the user's time zone and not the manager's time zone.</td> 
   </tr> 
  </tbody> 
 </table>
@@ -57,12 +56,16 @@ You must have the following access to perform the steps in this article:
 
 ## Configure personal time off in [!DNL Workfront]
 
-1. Click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe Workfront], then click your user name next to your profile picture.
-
+1. Click the **[!UICONTROL Main Menu]** icon ![Main Menu](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click your user name next to your profile picture. Or (if available), click your profile picture in the top navigation area, then click **[!UICONTROL Workfront Profile]**.
 1. In the left panel, click **[!UICONTROL Time Off]**.
 1. Select the desired date for your personal time off.
-1. Select **[!UICONTROL All day]**, if you are taking a full day off.\
+
+   ![Personal time off calendar](assets/personal-time-off-calendar.png)
+
+1. Select **[!UICONTROL All day]**, if you are taking a full day off.
+
    Leave it unselected if you are taking less than a full day off and indicate the start and end times of your time off.
 
-1. Click **[!UICONTROL Save]**.\
-   Your time off is now visible across the [!DNL Workfront] system in scheduling tools like the Resource Grid. When you are assigned work during this time, a tool tip appears informing the user you have scheduled time off.
+1. Click **[!UICONTROL Save]**.
+
+   Your time off is now visible across the [!DNL Workfront] system in the resource management tools like the Resource Planner and the Workload Balancer. When you are assigned work during this time, a tool tip appears informing the user you have scheduled time off.

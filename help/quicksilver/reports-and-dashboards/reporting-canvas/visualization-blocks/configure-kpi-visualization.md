@@ -1,9 +1,8 @@
 ---
 title: Configure a KPI visualization in Reporting Canvas
 description: Configure a KPI visualization in Reporting Canvas
-author: Nolan
-feature: Reports and Dashboards
-exl-id: 38beccf6-d7bc-478f-8bba-56607d315e6f
+hidefromtoc: yes
+hide: yes
 ---
 
 # Configure a KPI visualization in Reporting Canvas
@@ -12,7 +11,7 @@ A Key Performance Indicator (KPI) visualization can help you convey the current 
 
 ## Prerequisites
 
-Before you begin, you must enroll in the Reporting Canvas beta. For more information, see [Reporting Canvas beta: overview](/help/quicksilver/product-announcements/betas/reporting-canvas-beta/reporting-canvas-beta-overview.md).
+Before you begin, you must enroll in the Reporting Canvas beta. For more information, see [Reporting Canvas beta: overview](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md).
 
 ## Configure a KPI visualization
 

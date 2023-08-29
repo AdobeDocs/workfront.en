@@ -15,7 +15,9 @@ Connect your work with your content in Experience Manager Assets Essentials​:
 * Link assets from Experience Manager Assets Essentials to your projects and tasks in Workfront​
 * Facilitate versioning workflows for assets pushed to Experience Manager Assets Essentials
 
-You can also connect several Experience Manager Assets repositories to one Workfront environment, or several Workfront environments to one Experience Manager Assets repository across Organization IDs. Follow the configuration instructions in this article for each integration you'd like to set up. 
+>[!NOTE]
+>
+>You can also connect several Experience Manager Assets repositories to one Workfront environment, or several Workfront environments to one Experience Manager Assets repository across Organization IDs. Follow the configuration instructions in this article for each integration you'd like to set up. 
 
 ## Access requirements
 

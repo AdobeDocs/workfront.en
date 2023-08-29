@@ -13,6 +13,8 @@ A new board contains three columns by default. You can add more columns, change 
 
 Column settings include policies, which allow you to define options for what happens to a card when it is moved into that column.
 
+For information about sorting the cards in columns, see [Filter and search in a board](/help/quicksilver/agile/get-started-with-boards/filter-search-in-board.md).
+
 ## Access requirements
 
 You must have the following access to perform the steps in this article:
@@ -66,6 +68,8 @@ You must have the following access to perform the steps in this article:
    Click the **[!UICONTROL More]** menu ![More menu](assets/more-icon-spectrum.png) on the column and select **[!UICONTROL Edit]**. In the Settings area, type the new name in the **[!UICONTROL Column name]** field, and click **[!UICONTROL Close]**.
 
 ## Delete a board column
+
+When you delete a column from a board, it can't be recovered.
 
 1. Access the board.
 1. Click the **[!UICONTROL More]** menu ![More menu](assets/more-icon-spectrum.png) on the column, and select **[!UICONTROL Delete]**.
@@ -125,10 +129,10 @@ If you are using the WIP limit on a column, a separate card counter is not added
 
       * **[!UICONTROL Add on assignees]:** The assignees you select are added to the existing list of assignees on a card when it is moved to this column.
       * **[!UICONTROL Override assignees]:** The assignees you select override all other assignees, and become the only assignees on a card when it is moved to this column.
-   1. Select the assignees from the drop-down list. Only members on the board are available to choose from. For more information, see [Add or remove members from a board](/help/quicksilver/agile/get-started-with-boards/add-members-to-board.md).
+
+   1. Click [!UICONTROL **Add Assignment**] and search for a user. Select the assignees from the search results. All Workfront users and teams are available to choose from.
 
       ![Assignees for column](assets/boards-column-assignees.png)
-
 
 1. (Optional) Set a value for the card tags:
 
@@ -137,10 +141,10 @@ If you are using the WIP limit on a column, a separate card counter is not added
 
       * **[!UICONTROL Add on tags]:** The tags you select are added to the existing list of tags on a card when it is moved to this column.
       * **[!UICONTROL Override tags]:** The tags you select override all other tags, and become the only tags on a card when it is moved to this column.
+
    1. Select the tags from the drop-down list. Only tags already created in the [!UICONTROL Tag Manager] are available to choose from. For information on adding new tags, see [Add tags](/help/quicksilver/agile/get-started-with-boards/add-tags.md).
 
       ![Tags for column](assets/boards-column-tags.png)
-
 
 1. Enable the **[!UICONTROL Work in progress limit]** policy to limit the number of cards that can be added to the column. Then, type the limit number in the **[!UICONTROL Set limit]** field.
 

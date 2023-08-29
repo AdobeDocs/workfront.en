@@ -61,6 +61,9 @@ You must enable notifications in the Setup area of Workfront before users can en
 
 1. Click **Email** > **Notifications**.
 
+    ![](assets/notifications-area-under-setup-emails.png)
+   
+
 1. Make sure the **Event Notifications** tab is open.
 1. Click the switch to the left of the event name to turn it on or off.
 

@@ -9,10 +9,30 @@ exl-id: c4c0d74f-ac50-4fc5-89d6-28f004c25b29
 ---
 # Tag others on updates
 
-<!--take "Beta" references out when we remove the beta-->
+<!--take "Beta" references out when we remove the beta and change "current" to "legacy" after October 26-->
+
+<!--take new commenting and legacy commenting out when we remove the legacy commenting and the new one is the only experience-->
+
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>  
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)</span>  
+
+<span class="preview">For information about the current release schedule, see [Fourth Quarter 2023 release overview](../../product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md)</span> 
+
+>[!IMPORTANT]
+>
+>We are currently redesigning the commenting experience in Adobe Workfront.
+>Depending on what environment and what objects you access the commenting experience from, you might see different functionality in the Updates section. 
+>
+>For more information about the new commenting experience and its availability, see [New commenting experience](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). 
+>
+>The new commenting experience is available only for the Updates section, and it is not available for the following areas:
+>
+> * Home
+> * Summary panel in lists
+> * Summary panel in timesheets
 
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.-->
+<!--old note before August 17: 
 
 >[!NOTE]
 >
@@ -21,20 +41,23 @@ exl-id: c4c0d74f-ac50-4fc5-89d6-28f004c25b29
 >For more information about the new commenting experience, see [New commenting experience](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). 
 >
 >You can access the new experience for the following objects:
-> * Issues, when enabling the commenting Beta.
+> * Issues, projects, tasks, and documents.
 >
->     This functionality is available only for the Updates section of issues, and it is not available for the following areas:
+>     This is available when you enable the commenting Beta experience.
+>
+>     This functionality is available only for the Updates section, and it is not available for the following areas:
 >
 >     * Home
 >     * Summary panel in lists
 >     * Summary panel in timesheets
 >
-> * Goals
+> * Goals, cards in the Boards area
 >
->   The new commenting experience is the default for goals. You must have an additional license to access Workfront Goals. For more information, see [Requirements to uses Workfront Goals](../../workfront-goals/goal-management/access-needed-for-wf-goals.md). 
+>   The new commenting experience is the only experience for goals and cards. You must have an additional license to access Workfront Goals. For more information, see [Requirements to uses Workfront Goals](../../workfront-goals/goal-management/access-needed-for-wf-goals.md). 
 >
->    For information about commenting on goals, see [Manage goal comments in Adobe    Workfront Goals](../../workfront-goals/goal-management/manage-goal-comments.md).  
+>     You can add and view updates to cards in the Boards area when you enable the Comments and System Activity sections on a card. For more information, see [Add an ad hoc card to a board](../../agile/get-started-with-boards/add-card-to-board.md).
 
+-->
 
 You can tag users when making an update to an object if you want to draw their attention to an object they might otherwise not follow. 
 Rather than include those users on the object by assigning them to it or making them subscribe to it, you can tag them on the update to share it with them. Tagged users receive a notification about the update you enter. 
@@ -70,7 +93,10 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Access level configurations*</strong></td> 
-   <td> <p>Requestor or higher for issues and documents; Reviewer or higher for all other objects</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>Requestor or higher for issues and documents; Reviewer or higher for all other objects</p> 
+   <p><b>NOTE</b>
+   
+   If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Object permissions</strong></td> 
@@ -87,6 +113,10 @@ Tagging others in an update differs depending on which experience and which obje
 
 ### Tag others on updates in the current Updates section
 
+<!--change "current" to "legacy" at the October 26, 2023 release-->
+
+You can manually tag users in the current Updates section. 
+
 1. Begin updating a work item, as described in [Update work](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 1. In the **Notify** field, begin typing the name of the user or team you want to include, then click the name when it appears in the drop-down list.
 
@@ -96,7 +126,11 @@ Tagging others in an update differs depending on which experience and which obje
 
    >[!TIP]
    >
-   >To identify the correct user when there are users with similar or identical names, notice the avatar, the user's Primary Role, or their email address. Users must be associated with at least one job role to view it as you tag them in an update.
+   >To identify the correct user when there are users with similar or identical names, notice the avatar, the user's Primary Role, or their email address. 
+   >
+   >Users must be associated with at least one job role to view it as you tag them in an update. 
+   >
+   >You must have the View Contact Info setting enabled in your access level for Users to view users' emails. For information, see [Grant access to users](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
 
    ![](assets/tag-users-in-update.png)
 
@@ -104,7 +138,7 @@ Tagging others in an update differs depending on which experience and which obje
 
    >[!NOTE]
    >
-   >Tagged users outside the company could still receive an in-app notification or email, even though they will not see the private comments on the Updates tab. We recommend not to tag external users on an update if you do not want to share the information with them.
+   >Tagged users outside the company could still receive an in-app notification or email, even though they will not see the private comments on the Updates tab. We recommend not to tag external users on an update if you do not want to share the information with them.  
 
 1. (Optional) To add multiple users and teams, repeat step 2.
 
@@ -121,22 +155,41 @@ Tagging others in an update differs depending on which experience and which obje
 
    For information about the additional functionality that is available when updating a work item, see [Update work](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-### Tag others on updates in the commenting Beta experience
+### Tag others on updates in the new commenting experience
 
-You can tag others on updates in the commenting Beta experience. You can also remove users who are tagged by mistake when you edit a comment. 
+You can tag others on updates in the new commenting experience in the following ways:
 
-1. Begin updating a work item, as described in [Update work](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+* **Automatically**: When a user starts a thread, adds a comment, or adds a reply, they are automatically tagged and added to the Tag people or teams area of the commenting box. <!--remove the tip below when the new commenting stream is the only stream and the legacy commenting is removed-->
+
+   >[!TIP]
+   >
+   >When the thread starts in the legacy commenting experience, thread participants are not automatically tagged. 
+
+* **Manually**: When you manually add a user to the Tag people area of the commenting box.
+
+You can also remove users who are tagged by mistake when you edit or reply to a comment.
+
+1. Begin updating a work item, as described in [Update work](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). As the comment owner, you are automatically tagged and added to the Tag people or teams area of the commenting box.
+
+   >[!TIP]
+   >
+   >The comment owner cannot see their own name in the Tag people or teams area of the commenting box.
+
 1. In the **Tag people or teams** field, begin typing the name of the user or team you want to include, then click the name when it appears in the drop-down list.
  
    Or
 
    Type the @ symbol in the **Write a comment** area, begin typing the name of the user or team you want to include on the update, then click the name when it appears in the drop-down list. 
 
-   >[!TIP]
-   >
-   >To identify the correct user when there are users with similar or identical names, notice the avatar, the user's Primary Role, or their email address. Users must be associated with at least one job role to view it as you tag them in an update.
+   >[!TIP] 
+   > 
+   >To identify the correct user when there are users with similar or identical names, notice the avatar, the user's Primary Role, or their email address.  
+   > 
+   >Users must be associated with at least one job role to view it as you tag them in an update.  
+   > 
+   >You must have the View Contact Info setting enabled in your access level for Users to view users' emails. For information, see [Grant access to users](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md). 
 
-   ![](assets/tag-others-unified-commenting.png)
+      ![](assets/tag-others-unified-commenting.png)
 
 1. (Optional) To make the update private, enable **Private to my company** in the lower-right corner of the update box. This makes the update visible just to users in your company. The **Private to my company** option is available only when a Company is specified in your Workfront profile. 
 
@@ -154,11 +207,17 @@ You can tag others on updates in the commenting Beta experience. You can also re
 1. Click **Submit**.  
    Users included in the update are automatically granted View permission to the object and can view and respond to updates made to the object.
 
-   You can see who has been tagged in each reply under the text of the update, in the Members area. These users, along with any users subscribed to the object, receive a notification whenever an update or reply is made on the object.
-1. (Optional) Cick the number of **Members** included in the update to display a list of entities that the update you entered is shared with. 
+   <span class="preview">The names of the tagged entities display next to their avatars, up to two entities. If more than two entities are tagged the name of the first one displays, in addition to a number of how many additional entities are tagged.</span> 
 
    ![](assets/members-icons-expanded-unshimmed.png)
 
    For information about the additional functionality that is available when updating a work item, see [Update work](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-1. (Optional) Click the **More** menu ![](assets/more-menu.png) to the right of the Like icon, then click **Edit**. Remove any of the tagged users, then click **Submit**. You can edit a comment only within 15 minutes after you have entered it. You can only edit the comments you added.
+1. (Optional) Click the **More** menu ![](assets/more-menu.png) <span class="preview">in the upper-right corner of the comment</span>, then click **Edit**. Remove any of the tagged users, then click **Submit**. You can edit a comment only within 15 minutes after you have entered it. You can only edit the comments you added.
+
+   >[!TIP]
+   >
+   >When using the legacy commenting experience to add comments and replies, comment owners that were not specifically tagged cannot be manually removed by people who use the new commenting experience.
+
+
+

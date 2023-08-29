@@ -11,6 +11,8 @@ exl-id: bf4a37ee-9435-4c1c-b18c-a7338a548ab7
 ---
 # Grant access to financial data
 
+{{highlighted-preview}}
+
 As an Adobe Workfront administrator, you can define a user's access to the following through the user's access level, as explained in [Access levels overview](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md):
 
 * Financial information on projects in Workfront
@@ -111,6 +113,7 @@ A user with no access to financial data does not have access to the following:
 * Finance section under Project and Task objects
 * Business case
 * Billing rates and Billing records
+* <span class="preview">Rate cards</span>
 * Cost per hour and billing per hour on User preferences
 
   You can configure this using the gear icon ![](assets/gear-icon-settings.png) on the View button in step 4 above.
@@ -141,6 +144,7 @@ A user with Edit access to financial data can view and edit the following:
 * Finance section under Project and Task objects
 * Business case
 * Billing rates and Billing records
+* <span class="preview">Rate cards</span>
 * Cost per hour and billing per hour on User preferences
 
   You can configure this using the gear icon ![](assets/gear-icon-settings.png) on the Edit button in step 4 above.

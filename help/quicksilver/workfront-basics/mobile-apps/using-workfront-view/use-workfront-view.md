@@ -4,7 +4,7 @@ product-previous: mobile
 navigation-topic: mobile-apps
 title: Use Adobe Workfront View
 description: Review these articles to learn how to use [!DNL Adobe Workfront] View.
-author: Lisa
+author: Nolan
 feature: Get Started with Workfront
 exl-id: c86aa07d-e260-495b-84b4-d661a2ac6dda
 ---

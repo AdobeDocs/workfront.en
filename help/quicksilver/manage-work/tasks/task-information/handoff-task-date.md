@@ -47,7 +47,7 @@ Workfront uses the following rules for calculating the Handoff Date of a task:
 * **When the task has no predecessor and**:
 
    * **The Planned Start Date is in the past**: The Handoff Date is the same as the Planned Start Date of the project. 
-   * **The Planned Start Date is in the future (any date after the current date)**: The Handoff Date is the same as the Planned Start Date of the project.
+   * **The Planned Start Date is in the future (any date after the current date)**: The Handoff Date is the same as the Planned Start Date of the task.
 
 >[!NOTE]
 >

@@ -9,7 +9,7 @@ exl-id: 80c41b08-3618-4d6e-8d07-1736b2f824ea
 ---
 # Manage project expenses
 
-The process for creating and managing expenses&nbsp;is the same for both project and task-related expenses. Any expenses that are added to the project in the Business Case are added to the Expenses tab as planned expenses. For more information on the Business Case, see the article [Create a Business Case for a project](../../../manage-work/projects/define-a-business-case/create-business-case.md).
+The process for creating and managing expenses is the same for both project and task-related expenses. Any expenses that are added to the project in the Business Case are added to the Expenses tab as planned expenses. For more information on the Business Case, see the article [Create a Business Case for a project](../../../manage-work/projects/define-a-business-case/create-business-case.md).
 
 The total amount of your expenses from all the tasks and the project contributes to the total cost of the project. The Planned Amount of the expenses contributes to the Planned Cost of the project, and the Actual Amount of the expenses contributes to the Actual Cost of the project.
 
@@ -27,15 +27,16 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Plan </p> </td> 
+   <td> <p>Work or higher </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Projects and Financial&nbsp;Data</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>Edit access to Projects and Financial Data</p> <p><b>NOTE</b> </p>
+   <p> If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>Manage permissions to the project with permissions to Manage Finance</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+   <td> <p>Contribute or higher permissions to the project with permissions to View or Manage Finance</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>

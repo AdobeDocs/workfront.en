@@ -28,12 +28,15 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Plan </p> </td> 
+   <td> <p>Request to modify a view </p>
+   <p>Plan to modify a report</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to&nbsp;Reports,&nbsp;Dashboards,&nbsp;Calendars</p> <p>Edit access to Filters, Views, Groupings</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
-  </tr> 
+   <td> <p>Edit access to Reports, Dashboards, Calendars to modify a report</p> <p>Edit access to Filters, Views, Groupings to modify a view</p> <p><b>NOTE</b>
+   
+   If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+  </tr>   
   <tr> 
    <td role="rowheader">Object permissions</td> 
    <td> <p>Manage permissions to a report</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
@@ -69,24 +72,16 @@ You must have the following access to perform the steps in this article:
    >
    >You can use similar code for other objects by doing adjusting the following:
    >
-   >   
-   >   
-   >   * Replace the **valuefield** line of the code with **valueexpression** and keep the same name included in curly brackets after the equal sign.
-   >   
-   >   
+   >* Replace the **valuefield** line of the code with **valueexpression** and keep the same name included in curly brackets after the equal sign.
+   >* Eliminate all the lines that start with `link.` from the original text of the column. For example, eliminate all the following lines:
    >
-   >   
-   >   
-   >   * Eliminate all the lines that start with    >   
-   >   
-   >     ```   >   
-   >     link.
-   >     ```   >   
-   >   
-   >     from the original text of the column. For example, eliminate all the following lines:
-   >     <pre>link.linkproperty.0.name=ID</pre><pre>link.linkproperty.0.valuefield=ID</pre><pre>link.linkproperty.0.valueformat=string</pre><pre>link.lookup=link.view</pre><pre>link.value=val(objCode)</pre>
-   >   
-   >   
+   >  ```
+   >  link.linkproperty.0.name=ID
+   >  link.linkproperty.0.valuefield=ID
+   >  link.linkproperty.0.valueformat=string
+   >  link.lookup=link.view
+   >  link.value=val(objCode)
+   >  ```
    >
 
 1. Click **Save**, then **Save View**.

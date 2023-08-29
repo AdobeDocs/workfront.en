@@ -11,6 +11,11 @@ exl-id: 5094ba3f-3cb0-4301-aa7d-88c64d112b78
 
 You can create and delete templates from the Templates area. When building a new template, you can enter the information for all of the tasks and all information for your future project settings. This information will then transfer to the project, when you create it from the template.
 
+>[!NOTE]
+>
+>A template and its tasks do not have actual dates, but rather an indication of which day (from when the future project might start) a task might start and on which day the task might need to complete. When using templates to create the future projects, the projects will receive actual dates. For information, see [Create a project](../create-projects/create-project.md).
+
+
 You can create a new template in the following ways:
 
 * From scratch, as described in this article.

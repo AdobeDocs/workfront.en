@@ -83,6 +83,13 @@ Before using the Admin Console for Workfront, you should receive a receive an em
 
 ## Create users in Workfront with the Adobe Admin Console {#create-users-in-workfront-with-the-adobe-admin-console}
 
+Workfront users must be added to the Adobe Admin Console. An administrator can create the user directly in the Adobe Admin Console. Group administrators create users in Workfront, which are then submitted for approval. When approved, the user is added to the Adobe Admin Console.
+
+* [Create users in Workfront directly in the Adobe Admin Console](#create-users-in-workfront-directly-in-the-adobe-admin-console)
+* [Create users in Workfront and approve them for the Adobe Admin Console](#create-users-in-workfront-and-approve-them-for-the-adobe-admin-console)
+
+### Create users in Workfront directly in the Adobe Admin Console
+
 1. Go to the user and admin area in the Admin Console, as described in [Access the user and admin area for your Production instance of Workfront](#access-the-user-and-admin-area-for-your-production-instance-of-workfront) in this article.
 1. With the **Users** tab selected above the list, select **Add User**.
 1. In the **Add users to this product profile** box, enter the email address or name of a user you want to add, then select **Save**.
@@ -104,6 +111,38 @@ Before using the Admin Console for Workfront, you should receive a receive an em
    >For new Adobe users, the Admin Console delivers an email to invite them to complete the registration process. All users must complete the registration process to access any Adobe system.
    >
    >For existing Adobe users, the user may or may not receive an email about Workfront being available. This is a preference controlled by the Adobe administrator for the product.
+
+### Create users in Workfront and approve them for the Adobe Admin Console
+
+This workflow allows group administrators that do not have access to the Adobe Admin Console to create users.
+
+First, the group administrator creates the user in Workfront. This creates the user in Deactivated and Pending Approval status.
+
+Then, a Workfront administrator approves the user. This activates the user in Workfront and add them to the Adobe Admin Console.
+
+#### Create the user in Workfront (Group administrator)
+
+For instructions on creating a user in Workfront, see [Add users](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/add-users.md).
+
+#### Approve the user (Workfront administrator)
+
+To approve a user:
+
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Users** ![](assets/users-icon-in-main-menu.png). 
+
+1. Select the user, then click the More icon ![](assets/more-icon.png).
+
+1. To approve the user, click **Approve**, then click **Submit**. 
+
+   Or
+
+   To reject the user and delete them from Workfront, click **Reject**, then click **Submit**.
+
+Approved users are automatically added to the Adobe Admin Console.
+
+Rejected users are automatically deleted from Workfront.
+
+
 
 ## Create system administrators in Workfront with the Adobe Admin Console {#create-system-administrators-in-workfront-with-the-adobe-admin-console}
 

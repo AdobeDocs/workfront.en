@@ -4,7 +4,9 @@ navigation-topic: create-and-manage-request-queues
 title: Create a Request Queue
 description: You can set up a Request Queue where users can enter occasional requests that are not planned work on a project.
 author: Alina
-feature: Work Management
+feature: Work Management, Requests
+topic: Collaboration
+role: User, Admin
 exl-id: 385420aa-0962-4b67-9d0d-b153dcf302cf
 ---
 # Create a Request Queue
@@ -110,6 +112,11 @@ This article describes how to create a request queue from an existing project. H
 
 When you set up a project as a Request Queue, the project status must be Current in order to display in the Requests area of Workfront.
 
+>[!TIP]
+>
+>Your Workfront or group administrator might assign you to a custom Layout Template that might not include some of the sections described in the following steps.
+
+
 To create a Request Queue:
 
 1. Go to the project that you want to set up as a Request Queue.
@@ -118,7 +125,7 @@ To create a Request Queue:
 
    This opens the Queue Details  section .
 
-   ![](assets/classic-queue-setup-top-of-the-setup-form-350x248.png)
+   ![](assets/classic-queue-setup-top-of-the-setup-form-350x248.png)   
 
 1. Specify the following information:
 
@@ -127,8 +134,9 @@ To create a Request Queue:
    
    * **Who can add requests to this queue:** Select which users have access to add requests to this queue. You can allow the following groups of people to see the Request Queue in their Requests area of the Global Navigation Bar:
 
-     | Anyone  |Any Workfront user with an active account can view this request queue and add requests to it |
+     |Who can enter requests | Description|
      |---|---|
+     | Anyone  |Any Workfront user with an active account can view this request queue and add requests to it |
      | People with view access to this project |Users with View permissions to the project can view and add requests to this queue |
      | People in this project's company |Users who belong to the company associated with this project can view and add requests to this queue. If there is a company associated with the project, the name of the company is listed in parentheses after this setting.  |
      | People in this project's group |Users who belong to the group associated with this project can view and add requests to this queue. If there is a group associated with the project, the name of the group is listed in parentheses after this setting.  |
@@ -153,8 +161,6 @@ To create a Request Queue:
 
       * **Embed Code:** Use this HTML code to embed the request queue form as an iframe within any HTML page.  
         If users are not already authenticated to Workfront when they view the page where the code is embedded, the Workfront login dialog box is displayed. After users log in, the Request Queue form is displayed.
-
-        ![](assets/share-request-queue-with-embedded-code-embedded-in-dashboard-nwe-350x210.png)
 
         >[!NOTE]
         >
@@ -197,16 +203,16 @@ To create a Request Queue:
 
      The Workfront administrator can rename the default request types. For more information about renaming the request types, see [Customize default issue types](../../../administration-and-setup/set-up-workfront/configure-system-defaults/customize-default-issue-types.md).
 
-      * Change order
+      * Bug Report
+      * Change Order
       * Issue
-      * Requests
-      * Risk
+      * Request
 
         This is a required field and you must select at least one option.
 
      >[!NOTE]
      >
-     >Request&nbsp;Types display as a selection in the Requests area only if the Request Type is selected in both the Queue Details and the Queue Topic pages. For information about setting up the Queue Details area of a project, see [Create Queue Topics](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
+     >Request Types display as a selection in the Requests area only if the Request Type is selected in both the Queue Details and the Queue Topic pages. For information about setting up the Queue Details area of a project, see [Create Queue Topics](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
 
      Each type selected here will be available on the form (you can select more than one). Selecting more than one type can help organize multiple requests coming in.  
      For example, if you are using the form on a request queue for an IT project, the following request types can come in to the queue: hardware, software, bug fixes, and issues.
@@ -215,10 +221,11 @@ To create a Request Queue:
      The default for the issue Duration is 1 day or 8 hours. If your Workfront administrator set the Typical Hours per Work Day as less than 8 hours, the Default Duration for issues is still 8 hours. For example, if the Typical Hours per Work Day is set to 7 hours, the Default Duration for issues is 1.14 Days or 8 hours. For more information about how to set up the system Typical Hours per Work Day, see the "Timeline Calculations" section in the article [Configure system-wide project preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
    
    * **People from the same company will inherit the same permissions for all requests.:** When selected, all requests submitted to the queue are visible for users in the same company. Users can view these requests in the All Requests  section , located within the Requests area. At the time that this setting is enabled or disabled, it impacts all future requests; it does not retroactively impact information. 
-   * **When someone makes a request, automatically grant:** When a user makes a request to the request queue, the user is automatically granted the level of permission that you choose to that request. Select from the following permissions levels:  
-     **- View** 
-     **- Contribute** 
-     **- Manage**
+   * **When someone makes a request, automatically grant:** When a user makes a request to the request queue, the user is automatically granted the level of permission that you choose to that request. Select from the following permissions levels: 
+
+      * **View** 
+      * **Contribute**. This is the default selection.
+      * **Manage**
 
      For information about the Workfront permissions model, see [Overview of sharing permissions on objects](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).   
      Setting permissions here saves time, rather than having to grant permissions for each individual incoming request. Choosing this option impacts all future requests, but does not retroactively impact existing requests. 
@@ -247,7 +254,10 @@ To create a Request Queue:
 
      When you enable any of the Assigned to, Job Role, or the Team fields, they are always renamed to Assignments in the request form, but you can only specify the type of assignment selected here.
 
-     **Example:** If you selected Assigned To in the Queue Details area, you can enter only users in the Assignments field on the request form. In this case, you cannot enter job roles or a team. 
+      >[!NOTE]
+      >
+      >If you selected Assigned To in the Queue Details area, you can enter only users in the Assignments field on the request form. In this case, you cannot enter job roles or a team. 
+
    
    * **Documents**: If you select to display the Documents section in the new request form, select where the document uploading section should be positioned. Select from the following:
 
@@ -269,30 +279,32 @@ To create a Request Queue:
      ![](assets/nwe-new-issue-fields-area-with-documents-350x167.png)
 
    * **Show all selected and unselected fields to:** Select which users you want to see all the fields on the form. The following options control the access to the fields on the form.
-
-     | All Users (Plan Licenses) |All users who have a Plan license can see the selected as well as the unselected fields. |
-     |---|---|
-     | People with view access to this project (Plan License) |Those users with a Plan license that also have View rights to this project can see the selected as well as the unselected fields. The rest of the users who can submit requests to this project can see just the selected fields. |
-     | No Users |No users can see the unselected fields. All users who can submit requests to this project can only see the fields selected.  |
-
-     {style="table-layout:auto"}
-
+    
+      |Which users can see all fields on the request form | Description|  
+      |---|---| 
+      | All Users (Plan Licenses) |All users who have a Plan license can see the selected as well as the unselected fields. |
+      | People with view access to this project (Plan License) |Those users with a Plan license that also have View rights to this project can see the selected as well as the unselected fields. The rest of the users who can submit requests to this project can see just the selected fields. |
+      | No Users |No users can see the unselected fields. All users who can submit requests to this project can only see the fields selected.  |
+  
    * **Custom Forms**: Select a custom form to associate with the Request Queue. Only Issue Custom Forms are available to select from this drop-down menu. All issues submitted to the Request Queue will have the selected forms associated with them.  
      If you have multiple Queue Topics associated with a Request Queue, we recommend that you associate custom forms with the Queue Topics instead. For more information about creating sub-sections for the Request Queue, see [Create Queue Topics](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
+
+     ![](assets/custom-forms-on-queue-details.png)
 
      If you have multiple custom forms associated with the Request Queue, drag and drop the forms to sort them in the desired order, in the **Reorder Forms** section.
 
      >[!TIP]
      >
-     >Custom forms added to the Queue&nbsp;Details section are also associated with any new issue added to the project or the tasks in the Issues  section.
+     >Custom forms added to the Queue Details section are also associated with any new issue added to the project or the tasks in the Issues  section.
 
-   * **Allow Issues to be added via email:** Select this option to allow requests to be submitted via email.  
-     For more information, see [Enable users to email an issue into a Request Queue project](../../../manage-work/requests/create-requests/enable-email-issues-into-projects.md).
+1. Continue selecting information for the settings in the **Email Queue Settings** area, to allow users to email requests to the request queue project. 
+
+    For more information, see [Enable users to email an issue into a Request Queue project](../../../manage-work/requests/create-requests/enable-email-issues-into-projects.md).
 
 1. Click **Save**.  
    Your project has now been configured to be a Request Queue and users can now add requests to it. 
 
 1. (Optional) To enhance the Request Queue functionality, build additional sub-sections for your queue, as well as rules to route the incoming requests to the correct team, assignee or project.
 
-   For information about creating sub-sections for the Request Queue, see the articles [Create Queue Topics](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md) and [Create Topic Groups](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md).  
-   For information about routing the requests to the appropriate assignee, team, and appropriate project, see [Create Routing Rules](../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md).
+   * For information about creating sub-sections for the Request Queue, see the articles [Create Queue Topics](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md) and [Create Topic Groups](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md).  
+   * For information about routing the requests to the appropriate assignee, team, and appropriate project, see [Create Routing Rules](../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md).

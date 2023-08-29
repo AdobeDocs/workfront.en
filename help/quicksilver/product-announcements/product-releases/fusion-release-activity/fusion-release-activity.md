@@ -15,10 +15,26 @@ Adobe Workfront Fusion connects your apps and web services seamlessly so that yo
 
 For information about how to use Workfront Fusion, see [Adobe Workfront Fusion](../../../workfront-fusion/workfront-fusion-2.md).
 
-## Recent releases 
+## Fusion releases in 2023
+
+### August 2023
+
+* [Workfront Fusion release activity: Week of August 21, 2023](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2023-8-21.md)
+* [Workfront Fusion release activity: Week of August 7, 2023](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2023-8-7.md)
+
+### July 2023
+
+* [Workfront Fusion release activity: Week of  July 10, 2023](../../../product-announcements/product-releases/fusion-release-activity/fusion-2023-7-10.md)
+
+
+### June 2023
+
+* [Workfront Fusion release activity: Week of  June 26, 2023](../../../product-announcements/product-releases/fusion-release-activity/fusion-2023-6-29.md)
+* [Workfront Fusion release activity: Week of  June 12, 2023](../../../product-announcements/product-releases/fusion-release-activity/fusion-2023-6-12.md)
 
 ### May 2023
 
+* [Workfront Fusion release activity: Week of  May 15, 2023](../../../product-announcements/product-releases/fusion-release-activity/fusion-2023-5-15.md)
 * [Workfront Fusion release activity: Week of  May 1, 2023](../../../product-announcements/product-releases/fusion-release-activity/fusion-2023-5-2.md)
 
 ### April 2023
@@ -29,6 +45,10 @@ For information about how to use Workfront Fusion, see [Adobe Workfront Fusion](
 
 * [Workfront Fusion release activity: Week of March 20, 2023](../../../product-announcements/product-releases/fusion-release-activity/fusion-2023-3-21.md)
 * [Workfront Fusion release activity: Week of March 6, 2023](../../../product-announcements/product-releases/fusion-release-activity/fusion-2023-3-6.md)
+
+## Fusion releases in 2022
+
++++**Click to open**
 
 ### December 2022
 
@@ -85,6 +105,8 @@ For information about how to use Workfront Fusion, see [Adobe Workfront Fusion](
 ### January 2022
 
 * [Workfront Fusion release activity: Week of January 3, 2022](../../../product-announcements/product-releases/fusion-release-activity/fusion-jan-3-22.md)
+
++++
 
 ## Fusion releases in 2021
 

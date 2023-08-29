@@ -69,6 +69,10 @@ First, you need to set up the Custom Field section to which you will add custom 
 
    You can use controlling values to determine the values in the controlling field which, if picked, will result in the dependent field being visible. For example, imagine that the dependent field is A and the controlling field is X and you set the controlling values in X to be options 1 and 2 only. This means that field A will be visible only if field X option 1 or 2 is selected. This means that if field X options 3 or 4 are selected, then field A does not display. Open the **[!UICONTROL Visibility rules]** tab.
 
+   >[!NOTE]
+   >
+   >Only List and Radio custom field types can be used for the controlling field in a visibility rule, while the dependent field can be any field type.
+
    To add a visibility rule:
 
    1. Click **[!UICONTROL New visibility rule]** for the module where you want to add the rule.
@@ -81,6 +85,10 @@ First, you need to set up the Custom Field section to which you will add custom 
    If option 1 in field Y is chosen, only options 1 and 2 in field B are shown.
 
    If option 2 in field Y is chosen, only options 3 and 4 in field B are shown.
+
+   >[!NOTE]
+   >
+   >Only List and Radio custom field types can be used for the dependent and controlling fields in a dependency rule.
 
    To add a dependency rule:
 

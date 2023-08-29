@@ -46,7 +46,7 @@ You must have the following access to perform the steps in this article:
    | Basic board | Three default columns are provided on the board. You can add new columns and rename or delete the default columns. <p>Three default columns are provided on the board. You can add new columns and rename or delete the default columns. |
    | Kanban board | The following columns are provided on the board: Backlog, New, In Progress, Complete, and On Hold. You can add new columns and rename or delete the default columns.<p>To use the backlog, you must set up filters for the intake column. For information, see [Add an intake column to a board](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md). <p>To review the default policies for each column, click the [!UICONTROL **More** menu] on a column and select [!UICONTROL **Edit**]. You can change any of these pre-set policies. For information, see [Manage board columns](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md). |
    | Retrospective board | The following columns are provided on the board: What went well? What could be improved? Who should we celebrate? What can we do to move faster? You can add new columns and rename or delete the default columns. <p>No column policies are applied. |
-   | Dynamic board | The following columns are provided on the board: Unselected, New, In Progress, On Hold, and Complete. You can add new columns and rename or delete the default columns. (The Unselected column can be renamed but not deleted. This column holds all cards with a status that doesn't match any of the other column statuses.) <p>The default column policies assign cards to columns based on their status. For information, see [Manage board columns](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md). <p>**NOTE:** The dynamic board is available only through the early feature opt-in for Workfront Boards. |
+   | Dynamic board | The following columns are provided on the board: Unselected, New, In Progress, On Hold, and Complete. You can add new columns and rename or delete the default columns. (The Unselected column can be renamed but not deleted. This column holds all cards with a status that doesn't match any of the other column statuses.) <p>The default column policies assign cards to columns based on their status. For information, see [Manage board columns](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md). |
 
 1. For a dynamic board only, follow the setup wizard steps:
 
@@ -56,6 +56,12 @@ You must have the following access to perform the steps in this article:
       All objects appear on the board as connected cards.
 
       The [!UICONTROL **Cards being added**] counter shows how many cards will be on the board. For example, if you select a project with 100 tasks and issues, the counter shows 100. If you add a user assignment and that person is assigned to 5 tasks on the project, the counter shows 5.
+
+   1. (Optional) Select [!UICONTROL **Include completed work**] to include completed cards on the board.
+   
+      >[!NOTE]
+      >
+      >If this option is not selected, when cards in other statuses are marked complete, they will "fall off" the board and no longer be displayed.
 
    1. (Optional) Click [!UICONTROL **Use advanced filters**] to display additional filter options.
 

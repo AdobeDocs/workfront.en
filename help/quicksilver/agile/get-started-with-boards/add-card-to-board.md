@@ -58,11 +58,7 @@ An ad hoc card is not connected to a work item in [!DNL Adobe Workfront].
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Description]</strong> </td> 
       <td>A description of the card. You can add URLs in the description and they will become clickable links when the card is saved.</td>
-     </tr> 
-     <tr> 
-      <td role="rowheader"><strong>[!UICONTROL Assignees]</strong> </td> 
-      <td> <p>To assign the card, start typing a name in the search field, then select it when it displays in the list. You can add both individuals and teams, and you can assign more than one person or team to a card.</p> <p>Assignees must be members on the board or they will not appear in the selection list. When a team is a member on the board, then the individual team members can be assigned to the card.</p></td>
-     </tr> 
+     </tr>
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Column]</strong> </td> 
       <td>Select the column for the card. If you leave the <strong>[!UICONTROL Column]</strong> field blank, the card is placed in the first column on the left of the board.</td>
@@ -72,27 +68,41 @@ An ad hoc card is not connected to a work item in [!DNL Adobe Workfront].
       <td>Select a status for the card. If you click <strong>[!UICONTROL Mark Complete]</strong> at the top of the card, the status automatically changes to [!UICONTROL Complete].</td> 
      </tr>
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL Estimation]</strong></td> 
-      <td>Type the estimated number of hours for the card to be completed. This is a manual entry only.</td>
-     </tr>
-     <tr> 
       <td role="rowheader"><strong>[!UICONTROL Due date]</strong></td> 
       <td>Select a due date for the card. </td>
      </tr>
      <tr> 
+      <td role="rowheader"><strong>[!UICONTROL Estimation]</strong></td> 
+      <td>Type the estimated number of hours for the card to be completed. This is a manual entry only.</td>
+     </tr>
+     <tr> 
+      <td role="rowheader"><strong>[!UICONTROL Assignments]</strong> </td> 
+      <td>To assign the card, click <strong>[!UICONTROL Add Assignment]</strong> and start typing a name in the search field. Then, select it when it displays in the list of results. You can add both individuals and teams, and you can assign more than one person or team to a card.</td>
+     </tr>     
+     <tr> 
       <td role="rowheader"><strong>[!UICONTROL Tags]</strong></td> 
       <td>Search for and select tags for the card. For information on creating new tags, see <a href="../../agile/get-started-with-boards/add-tags.md" class="MCXref xref">Add tags</a>.</td> 
-     </tr>  
+     </tr>
+     <tr>
+      <td role="rowheader"><strong>[!UICONTROL Connection]</strong> </td>
+      <td>You can connect an ad hoc card to a [!DNL Workfront] task or issue. For more information, see "Convert an ad hoc card to a connected card" in the article <a href="/help/quicksilver/agile/get-started-with-boards/connected-cards.md">Use connected cards on boards</a>.</td>
+     </tr>
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL Checklist Items]</strong> </td> 
+      <td role="rowheader"><strong>[!UICONTROL Checklist]</strong> </td> 
       <td> <p>Click <strong>[!UICONTROL Add checklist item]</strong>. Then, type the title of the item and press Enter. Another item is automatically added. Continue entering titles to add more items.</p> <p>The counter at the top of the checklist shows the number of completed items and the total number of items.</p> <p>For more information about checklist items, see <a href="/help/quicksilver/agile/get-started-with-boards/manage-checklist-items.md">Manage checklist items on cards</a>.</p> </td> 
-     </tr> 
+     </tr>
+     <tr>
+      <td role="rowheader"><strong>[!UICONTROL Comments]</strong></td>
+      <td><p>Click in the <strong>[!UICONTROL New comment]</strong> field and type your comment. Use the formatting tools to format the text, and click the <strong>Add attachment</strong> icon <img src="assets/attachment-icon.png" alt="Attachment icon"> to attach a file to the comment. To tag a person or team, use the search box at the bottom of the commenting area. The user does not have to be a member on the board.</p><p><strong>NOTE:</strong> At this time, users tagged in comments on ad hoc cards do not receive an email notification.
+      </p><p>Click <strong>[!UICONTROL Submit]</strong> to add the comment to the card.</p>
+      <p><strong>NOTE:</strong> The commenting area on cards uses the new Adobe Workfront commenting experience. For more information, see <a href="/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md">Update work</a>.</p></td>
+     </tr>
     </tbody> 
    </table>
 
-   ![Ad hoc card details](assets/boards-edit-ad-hoc-card-041723.png)
+   ![Ad hoc card details](assets/ad-hoc-card-details-with-comments.png)
 
-   Use the navigation panel on the left to move between groups of fields on the card details.
+   Use the left navigation panel to move between sections of fields on the card details.
 
 1. Click **[!UICONTROL Close]** to add the card to the board.
 

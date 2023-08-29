@@ -9,7 +9,7 @@ exl-id: 8a46846c-f9b8-45cb-9923-e7596854557b
 ---
 # Add or remove members from a board
 
-People and teams must be added to the board as members before they can view the board and be assigned to cards.
+People and teams must be added to the board as members before they can view the board.
 
 ## Access requirements
 
@@ -41,7 +41,7 @@ You must have the following access to perform the steps in this article:
 1. Click the **[!UICONTROL Add member]** icon ![Add members](assets/boards-addmember-spectrum-25x25.png).
 1. In the **[!UICONTROL Add members]** box, start typing a name, then select it when it displays in the list.
 
-   You can select an individual member or a team. If you choose a team, the team itself is added to the board. The full team and its individual team members are then available to assign to a card.
+   You can select an individual member or a team. If you choose a team, the team itself is added to the board.
 
    >[!NOTE]
    >
@@ -59,7 +59,7 @@ You must have the following access to perform the steps in this article:
 
    ![Remove member from board](assets/boards-remove-member-from-board-350x367.png)
 
-   When you delete a member from a board, they are also deleted from any cards they were assigned to. For connected cards, the assignments are also updated on the [!DNL Workfront] task or issue.
+   When you remove a member from a board, they are not removed from any cards they are assigned to. For connected cards, the assignments are also updated on the [!DNL Workfront] task or issue.
 
    Members are only removed from this board. They are not removed from other boards they belong to.
 

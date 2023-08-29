@@ -2,16 +2,42 @@
 product-area: projects
 navigation-topic: update-work-items-and-view-updates
 title: Update work
-description: You can add an update on a Adobe Workfront object (project, task, or issue) to communicate about progress on the object. Users who are assigned or subscribed to the object can view your update. You can also tag users to bring their attention to the update.
+description: You can add an update on an Adobe Workfront object (project, task, or issue) to communicate about progress on the object. Users who are assigned or subscribed to the object can view your update. You can also tag users to bring their attention to the update.
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
 ---
 # Update work
 
-<!--take "Beta" references out when we remove the beta-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> -->
+
+<!--take "Beta" references out when we remove the beta and change "current" to "legacy" after October 26-->
+
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>  
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)</span>  
+
+<span class="preview">For information about the current release schedule, see [Fourth Quarter 2023 release overview](../../product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md)</span> 
+
+>[!IMPORTANT]
+>
+>We are currently redesigning the commenting experience in Adobe Workfront.
+>Depending on what environment and what objects you access the commenting experience from, you might see different functionality in the Updates section. 
+>
+>For more information about the new commenting experience and its availability, see [New commenting experience](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). 
+>
+>The new commenting experience is available only for the Updates section, and it is not available for the following areas:
+>
+> * Home
+> * Summary panel in lists
+> * Summary panel in timesheets
+
+<!-- with October 26 release: add somewhere this, and decide where we need to keep information about the legacy commenting. Should we create an article about iterations comments like we have for goals and cards?!:
+
+>[!NOTE]
+>
+>Iterations display the legacy commenting experience.-->
+
+<!--old message, before Auhust 17: 
 
 >[!NOTE]
 >
@@ -20,33 +46,55 @@ exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
 >For more information about the new commenting experience, see [New commenting experience](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). 
 >
 >You can access the new experience for the following objects:
-> * Issues, when enabling the commenting Beta.
+> * Issues, projects, tasks, and documents.
 >
->     This functionality is available only for the Updates section of issues, and it is not available for the following areas:
+>     This is available when you enable the commenting Beta experience.
+>
+>     This functionality is available only for the Updates section, and it is not available for the following areas:
 >
 >     * Home
 >     * Summary panel in lists
 >     * Summary panel in timesheets
 >
-> * Goals
+> * Goals, cards in the Boards area
 >
->   The new commenting experience is the default for goals. You must have an additional license to access Workfront Goals. For more information, see [Requirements to uses Workfront Goals](../../workfront-goals/goal-management/access-needed-for-wf-goals.md). 
+>   The new commenting experience is the only experience for goals and cards. You must have an additional license to access Workfront Goals. For more information, see [Requirements to use Workfront Goals](../../workfront-goals/goal-management/access-needed-for-wf-goals.md). 
 >
->    For information about commenting on goals, see [Manage goal comments in Adobe    Workfront Goals](../../workfront-goals/goal-management/manage-goal-comments.md).
+>     You can add and view updates to cards in the Boards area when you enable the Comments and System Activity sections on a card. For more information, see [Add an ad hoc card to a board](../../agile/get-started-with-boards/add-card-to-board.md).
+-->
 
-You can add comments to most objects in Adobe Workfront in the Updates section. For more information about which objects display the Updates section, see [Updates section overview](../updating-work-items-and-viewing-updates/updates-tab-overview.md). 
+## Considerations about updating work
 
-You can add an update on an Workfront object (project, task, or issue) to communicate about progress on the object, as you comment on the object. Users who are assigned or subscribed to the object can view your update. You can also tag users to bring their attention to the update. Tagged users receive an in-app notification and an email about your update. 
+* You can add comments to most objects in Adobe Workfront in the Updates section. For more information about which objects display the Updates section, see [Updates section overview](../updating-work-items-and-viewing-updates/updates-tab-overview.md). 
 
-The information on this page describes how you can comment on Workfront objects and how you update projects, tasks, and issues. For information about commenting on goals, see [Manage goal comments in Adobe Workfront Goals](../../workfront-goals/goal-management/manage-goal-comments.md). You must have an additional license to access Workfront Goals. 
+* You can add comments to Workfront objects from other applications that are integrated with Workfront or from the Workfront mobile app. 
 
+   Not all applications that are integrated with Workfront have the capability of adding comments to Workfront objects. 
+   
+   Not all features that are available in the Updates section of an object in Workfront are available in other applications, when accessing Workfront objects from the application. For example, Rich Text capabilities or making a comment private to someone's Company might not be available when adding comments to a Workfront object from a third-party application. 
 
-You can add an update to projects, tasks, and issues from the following areas of Workfront:
+* You can communicate about progress on a Workfront object (project, task, or issue), as you comment on the object. Users who are assigned or subscribed to the object can receive a notification about your update. Anyone with View access to the object can view your update. 
 
-* From a Workfront object, in the Updates  section  
-* From the Home area (for tasks and issues)
-* From the Summary panel in a list of objects (for tasks and issues)
-* From the timesheet (for tasks and issues)
+* You can tag users to bring their attention to the update. Tagged users receive an in-app notification and an email about your update. 
+
+   >[!TIP]
+   >
+   >   In the new commenting experience, comment owners are automatically tagged. For more information, see [Tag others on updates](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md). 
+   <!--take the "in the new commenting experience" out when this is the only experience-->
+   
+* You can add a comment to an object that you can view, or you can log in as a Workfront or group administrator and add a comment on behalf of another user. For more information, see [Log in as another user](../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md). 
+
+* You can add an update to projects, tasks, and issues from the following areas of Workfront:
+
+   * From a Workfront object, in the Updates  section  
+   * From the Home area (for tasks and issues)
+   * From the Summary panel in a list of objects or from a timesheet (for tasks and issues)
+
+The information on this page describes how you can comment on Workfront objects and how you update projects, tasks, and issues. 
+
+For information about commenting on goals, see [Manage goal comments in Adobe Workfront Goals](../../workfront-goals/goal-management/manage-goal-comments.md). You must have an additional license to access Workfront Goals. 
+
+For information about commenting on cards in the Boards area, see [Add an ad hoc card to a board](../../agile/get-started-with-boards/add-card-to-board.md).
 
 ## Access requirements
 
@@ -115,20 +163,22 @@ You must have the following access to perform the steps in this article:
 
 ## Add an update to a work item
 
-<!--drafted for the commenting experience - change the NOTE at the top of the following section with every new release to other objects -->
-
 Adding an update to a work item differs depending on what version of the Updates section and what object you choose. 
 
 ### Add an update to a work item in the current Updates section
 
+<!--on October 26, replace "current" with "legacy"-->
+
 >[!NOTE]
 >
->The following functionality is available for all objects except for goals. You must have an additional license to access Workfront Goals. For information about commenting on goals, see [Manage goal comments in Adobe Workfront Goals](../../workfront-goals/goal-management/manage-goal-comments.md)
+>The following functionality is available for all objects except for goals and cards. You must have an additional license to access Workfront Goals. For information about commenting on goals, see [Manage goal comments in Adobe Workfront Goals](../../workfront-goals/goal-management/manage-goal-comments.md).
+>
+>You can add and view updates to cards in the Boards area when you enable the Comments and System Activity sections on a card. For more information, see [Add an ad hoc card to a board](../../agile/get-started-with-boards/add-card-to-board.md).
 
 1. Go to the work item for which you want to provide an update (such as a project, task, or issue).
 1. Click the **Updates** section.
 1. Click **Start a new update,** then type your update.  
-1. (Optional) Use Rich Text, or add emojis, links, or images to your update, to enhance your content. For more information, see the [Use Rich Text in a Workfront update](#use-rich-text-in-a-workfront-update) section in this article
+1. (Optional) Use Rich Text, or add emojis, links, or images to your update, to enhance your content. For more information, see the [Use Rich Text in a Workfront update](#use-rich-text-in-a-workfront-update) section in this article.
 1. (Optional) Update any of the following information about the work item:
 
    <table style="table-layout:auto"> 
@@ -149,7 +199,7 @@ Adding an update to a work item differs depending on what version of the Updates
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Status</strong></td> 
-      <td>Click the arrow beside the current status, then select the desired status from the drop-down menu. For information about setting a Status, see <a href="../../manage-work/projects/updating-work-in-a-project/update-task-status.md" class="MCXref xref">Update task status</a>.<p>Updating the status of a work item does not automatically change the status of a project. Depending on how your project is set up, you might must make updates to the project status separately. For more information on the various project update types, see <a href="../../manage-work/projects/manage-projects/select-project-update-type.md" class="MCXref xref">Select the project Update Type </a>.</p><p><b>NOTE</b>
+      <td>Click the arrow beside the current status, then select the desired status from the drop-down menu. For information about setting a Status, see <a href="../../manage-work/projects/updating-work-in-a-project/update-task-status.md" class="MCXref xref">Update task status</a>.<p>Updating the status of a work item does not automatically change the status of a project. Depending on how your project is set up, you might make updates to the project status separately. For more information on the various project update types, see <a href="../../manage-work/projects/manage-projects/select-project-update-type.md" class="MCXref xref">Select the project Update Type </a>.</p><p><b>NOTE</b>
       
       You cannot change the status of a work item while it is in a Pending Approval status.</p></td> 
      </tr> 
@@ -177,62 +227,66 @@ Adding an update to a work item differs depending on what version of the Updates
 
 1. To reply to an update, see [Reply to updates](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).
 
-### Add an update to a work item using the commenting Beta experience
+### Add an update to a work item using the new commenting experience
+
+For information about what features are available for the new commenting experience and for what objects, see [New commenting experience](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). 
 
 1. Locate the object you want to update, then click its name to open the object's page.
 1. Click  **Updates** in the left panel. 
-1. Enable the **Commenting Beta** toggle in the upper-right corner of the Updates area, then click **Agree** on the Beta agreement. This switches the Updates area to the commenting Beta experience. 
+   
    The **Comments** tab is selected by default. 
 1. Start entering a comment in the **New comment** box. 
    
-   ![](assets/comment-box-empty-unshimmed.png)
+   <span class="preview">![](assets/comment-box-empty-unshimmed.png)</span>
 
    >[!TIP]
    >
    >Navigating away from the Updates section before you finish typing and submitting a comment keeps the comment on the page in draft mode even after you log off and log back on. Any images that are added to the comment are also saved in the draft. Drafts are saved for 7 days after which they are discarded and cannot be recovered. Drafted comments are only visible to the user entering them.
 
+1. (Optional) To undo or redo a change, use the following shortcut keys:
+      * CTRL + Z (⌘+z for Mac) to undo a change 
+      * CTRL + Y (⌘+y for Mac) to redo a change 
 1. (Optional) In the **Tag people or teams** area, start typing the name or the email of a user, or a team that you would like to include in this comment, then select it when it displays in the list. 
-1. (Optional) To add rich text formatting to your update, use any of the following options from the **Rich Text** toolbar to enhance your text: 
-
-   * Bold
-   * Italics
-   * Underline
-   * Link
-   * Bulleted List
-   * Numbered List
-   * Add attachment <!--(mark this parenthesis as draft: ************ this might be renamed to "Add image")-->
-   
-   For more information, see the [Use Rich Text in a Workfront update](#use-rich-text-in-a-workfront-update) section in this article. <!--remove this list, above, when we get to parity for Rich Text-->
+1. (Optional) Use Rich Text, or add emojis, links, or images to your update, to enhance your content. For more information, see the [Use Rich Text in a Workfront update](#use-rich-text-in-a-workfront-update) section in this article. 
 
       >[!TIP]
       >
       >If another user submits a comment to the same item you are updating, there will be a red line with a "New" indicator to inform you of the newer comments. 
       >
-      >The indicator only displays only after the comment was submitted on the item, and not when the comment is still composed. 
+      >The indicator displays only after the comment was submitted on the item, and not when the comment is still composed. 
       >
       >The "New" indicator displays only when both the user that entered a new update as well as the user who is currently entering an update are using the new commenting experience. 
-      >![](assets/real-time-new-red-indicator-unified-commenting.png)   
-
+      ><span class="preview">![](assets/real-time-new-red-indicator-unified-commenting.png)</span>   
 
 1. Click **Submit** to add the update to the Workfront object. 
-1. (Optional) To edit a comment, click the **More** menu ![](assets/more-menu.png) to the right of the Like icon, then click **Edit**.
+1. (Optional) To edit a comment, click the **More** menu ![](assets/more-menu.png)  <span class="preview">in the upper-right corner of the comment</span>, then click **Edit**.
 1. Edit the information in the comment, add or remove images or remove any of the tagged users. 
-   You can edit your comment within 15 from submitting it. An "Edited" indicator is added to the left of the date stamp that displays when the comment was updated. 
+   You can edit your comment within 15 from submitting it. An "Edited" indicator is added to the left of the date stamp that displays when the comment was entered. 
 
-   ![](assets/edited-tag-on-comment-unified-commenting.png)
+   <span class="preview">![](assets/edited-tag-on-comment-unified-commenting.png)</span>
 
    >[!TIP]
    >
-   >   An email is generated to notify users of your update only when you submit the original update. No email is generated after you edited your update.
+   >* An email is generated to notify users of your update only when you submit the original update. No email is generated after you edited your update.
+   >* The date stamp next to the comment is the date of the original comment, not the date of the last edit. 
+   >* Comments from the current year do not display the year in the date stamp. Hovering over a timestamp displays the full date, including the year.  
 
-1. (Optional) Click **Reply** to reply to an existing comment, then follow the steps 4-7 above. <!--(**************insure this stays accurate***********)-->. For information about replying to an update, see [Reply to updates](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).
+1. (Optional) Click **Reply** to reply to an existing comment, then follow the steps 4-8 above. <!--(**************insure this stays accurate***********)--> For information about replying to an update, see [Reply to updates](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).
+
+   >[!TIP]
+   >
+   >   <span class="preview">To add more replies to an existing reply, you can start typing in the **Add reply...** box, or click **Reply** on the original comment. Your reply is added at the end of the thread.</span>
+  
+
 1. (Conditional and optional) If other users have added comments that display outside of the visible area in the Updates section, click **View** inside the blue **new comments banner** at the bottom of the screen  to display these comments.
 
-   ![](assets/blue-new-comments-banner-with-view-button.png)
+   <span class="preview">![](assets/blue-new-comments-banner-with-view-button.png)</span>
 
    Additional comments display at the bottom of the screen.
 
-   >[!NOTE]
+   
+
+   >[!NOTE] 
    >
    >   The "new comments" indicator and "View" button display only when both the users that entered the new updates as well as the user currently looking at the Updates section are using the new commenting experience.
 
@@ -240,40 +294,50 @@ Adding an update to a work item differs depending on what version of the Updates
 1. (Optional) Click the **Like** icon![](assets/like-icon.png). The icon updates with the number of likes.
 1. (Conditional and Optional) If you included additional people in your comment, click the number of members included in the update to display a list of entities that the comment you entered is shared with. 
 
-   ![](assets/members-icons-expanded-unshimmed.png)
+   <span class="preview">![](assets/members-icons-expanded-unshimmed.png)</span>
+
+   >[!TIP]
+   >
+   >   <span class="preview">The names of the first two tagged entities display next to their avatars. If more than two entities are tagged only the name of the first one and the number of additional entities display.</span> 
+   
 1. (Optional) Click the **System Activity** tab to view updates logged by the system. When the object or any of its children are updated, Workfront generates a note about that update and displays it in the System Activity tab. 
 
-   For more information see [Updates section  overview](../updating-work-items-and-viewing-updates/updates-tab-overview.md)
+   For more information see [Updates section overview](../updating-work-items-and-viewing-updates/updates-tab-overview.md)
 
    >[!TIP]
    >
    >You cannot add a comment to a system update.
 
- 
 ## Use Rich Text in a Workfront update{#use-rich-text-in-a-workfront-update} 
 
-<!--remove this top note when we get to parity with the current version, OR change the note to mention that some options are ONLY available in the Beta version and not the current one.-->
+<!--October 2023: remove this top note when we get to parity with the current version, OR change the note to mention that some options are ONLY available in the Beta version and not the current one.-->
 
 >[!NOTE]
 >
->Some of the options in the Rich Text toolbar might not be available for the commenting Beta experience.
+>Some of the options in the Rich Text toolbar might not be available for the new commenting experience.
 
 You can enhance your updates by using Rich Text, or adding various items to it, like emojis, links, or images. 
 
-1. Go to the Updates area and start typing a comment. 
-1. (Optional) To add rich text formatting to your update, use any attributes on the **Rich Text** toolbar as you type.
+1. Go to the **Updates** area of a Workfront object and start typing a comment. 
+1. (Optional) To add Rich Text formatting to your update, use any attributes on the **Rich Text** toolbar as you type. 
 
-   | **Attribute** |**Toolbar Button** |**Mac Shortcut Keys** |**PC Shortcut Keys** |
+   ![](assets/rich-text-toolbar.png)
+
+   <!--October 2023: the individual icons in the toolbar will need replacing-->
+
+   | **Attribute** |**Toolbar button** |**Mac shortcut keys** |**Windows shortcut keys** |
    |---|---|---|---|
    | Bold | ![mceclip10.png](assets/mceclip10.png)|⌘+b |Ctrl+B |
    | Italics | ![mceclip9.png](assets/mceclip9.png)|⌘+i |Ctrl+I |
    | Underline | ![mceclip8.png](assets/mceclip8.png)|⌘+u |Ctrl+U |
-   | Hyperlink | ![mceclip7.png](assets/mceclip7.png)|⌘+K |Ctrl+K |
+   | Hyperlink | ![mceclip7.png](assets/mceclip7.png)| <br>To open the Create Links or Add links box: ⌘+K</br> <br>In the commenting beta experience, to paste a link over the selected text: ⌘+V</br>  | <br>To open the Create Links or Add links box: Ctrl+K</br> <br>In the commenting beta experience, to paste a link over the selected text: Ctrl+V</br> |
    | Bulleted List | ![mceclip6.png](assets/mceclip6.png)|⌘+Shift+8 |Ctrl+Shift+8 |
    | Numbered List | ![mceclip5.png](assets/mceclip5.png)|⌘+Shift+7 |Ctrl+Shift+7 |
    | Block Quote | ![](assets/block-quote-icon-large.png)|⌘+Shift+9 |Ctrl+Shift+9 |
+   
+   To stop formatting text, deselect the attribute on the **Rich Text** toolbar.
 
-    To stop formatting text, deselect the attribute on the **Rich Text** toolbar.
+   <!-- in the table above: take "Create Links" verbiage from the hyperlink when the old commenting is removed and the commenting beta is the only way to comment - with October 2023-->
 
    >[!NOTE]
    >
@@ -284,15 +348,15 @@ You can enhance your updates by using Rich Text, or adding various items to it, 
 
 1. (Optional) If you want to include text from previous updates or from other sources and distinguish it from your own update, you can mark it as a Block Quote. Click the **Block Quote** icon ![](assets/block-quote-small.png) and type the text you want to quote. The quoted text displays marked with a vertical gray line. Click the **Block Quote** icon again to return to normal formatting.
 
-   ![](assets/block-quote-marked-350x144.png)
+   <span class="preview">![](assets/block-quote-marked-350x144.png)</span>
 
-1. (Optional) Add emojis to your update.
+1. (Optional) Add emojis to your update. 
 
    >[!NOTE]
    >
    >* Workfront does not replace punctuation emoticons such as :) with emojis.
-   >* Emojis are not available for updates made in the Timesheets area or for Note and Last Condition objects viewed in a report.
-   >* The emoji feature in Workfront utilizes Unicode characters and, as such, displays only on browsers and operating systems that support Unicode code points. Users on a platform, browser, or operating system version different than yours might not have access to the same emojis.
+   >* Emojis are not available for the Note and Last Condition objects viewed in a report.
+   >* The emoji feature in Workfront utilizes Unicode characters and, as such, displays only on browsers and operating systems that support Unicode code points. Users on a platform, browser, or operating system version different from yours might not have access to the same emojis.
    >* An unsupported emoji is represented by a black or white box.
    >* Windows 7 supports only black and white emojis.  
    >* Emojis that are applied to an update made via email do not display on the update when viewed in the Updates area.
@@ -300,7 +364,7 @@ You can enhance your updates by using Rich Text, or adding various items to it, 
 1. (Optional) To add a URL link to additional information sources:
 
    1. Click in your update where you want to insert a link.
-   1. On the **Rich Text** toolbar, click the **Hyperlink** icon. ![](assets/link-icon.png)  
+   1. On the **Rich Text** toolbar, click the **Hyperlink** icon ![](assets/link-icon.png).  
 
    1. In the **Create Link** box that appears, under **URL**, type or paste the URL of the source to which you want to link.
    
@@ -313,7 +377,7 @@ You can enhance your updates by using Rich Text, or adding various items to it, 
 
    Or
 
-   Click the **Add attachment** icon ![](assets/add-image-paperclip-icon.png) and browse to the image on your computer, when using the commenting Beta experience. <!--the name of the icon and the icon for it might change-->
+   Click the **Add attachment** icon ![](assets/add-image-mountain-with-plus-icon.png) and browse to the image on your computer, when using the new commenting experience. <!--**************** the tooltip of this icon might be renamed to "Add image")--> <!--in October 26 - leave this as the only icon instead of the OR option-->
 
    >[!NOTE]
    >
@@ -332,46 +396,69 @@ You can enhance your updates by using Rich Text, or adding various items to it, 
 
 ## Copy update information
 
-<!--drafted for beta release toggle - remove when copying an update will be available:
-
->[!NOTE]
->
->Copying an update is not possible when using the Beta commenting experience.
--->
-
 There are several ways you can copy an update. After copying a link, you can share the link with others to direct them to the update.
+
+Copying an update differs depending on which commenting experience you use. 
+
+### Copy an update in the current commenting experience
+
+<!--October 26 - replace current with legacy-->
 
 * [Copy the update](#copy-the-update) 
 * [Copy the thread link](#copy-the-thread-link) 
 * [Copy the update link](#copy-the-update-link)
 
-### Copy the update {#copy-the-update}
+#### Copy the update {#copy-the-update}
 
 This option copies the text from a specific update to the clipboard.
 
 1. Go to the update or reply you want to copy.
 1. Click the **More** menu, then click **Copy body text**.
 
-   ![Select Copy body text](assets/update-stream-copy-body-text-350x152.png)
+   ![](assets/update-stream-comment-menu-marked-350x152.png)
 
-### Copy the thread link {#copy-the-thread-link}
+#### Copy the thread link {#copy-the-thread-link}
 
 This option copies the full thread link to the clipboard so you can share the thread with other users.
 
 1. Go to the update thread you want to copy.
 
-1. Click the **More** menu, then click **Copy thread link** or **Copy link**, when using the Beta experience.
+1. Click the **More** menu, then click **Copy thread link**.
 
    ![](assets/update-stream-comment-menu-marked-350x152.png)
 
-### Copy the update link {#copy-the-update-link}
+#### Copy the update link {#copy-the-update-link}
 
 This option copies a specific update link to the clipboard. When you share the update link, the user who follows it sees a border around the update.
 
 1. Go to the update or reply you want to copy.
-1. Click the **More** menu next to the individual update, then click **Copy update link** or **Copy link**, when using the Beta experience.
+1. Click the **More** menu next to the individual update, then click **Copy update link**.
 
-   ![](assets/update-stream-reply-menu-marked-350x182.png)
+   ![](assets/copy-update-link-old-ui.png)
+
+### Copy an update in the new commenting experience   
+
+For information about what features are available for the new commenting experience and for what objects, see [New commenting experience](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). 
+
+<!--when we remove and deprecate the legacy stream, add screen shots in the sections below- October 2023--> 
+
+* [Copy link](#copy-link)
+* [Copy body text](#copy-body-text)
+
+#### Copy link 
+
+This option copies the comment or thread link to the clipboard so you can share the comment or the entire thread with other users.
+
+1. Go to the update whose link you want to copy.
+
+1. Click the **More** menu, then click **Copy link**.
+
+#### Copy body text
+
+This option copies the text from a specific update to the clipboard.
+
+1. Go to the update or reply you want to copy.
+1. Click the **More** menu, then click **Copy body text**.
 
 ## Delete an update or reply
 
@@ -380,7 +467,7 @@ Depending on the access your Workfront administrator gives you, you might be abl
 No Workfront user (including the Workfront administrator) can delete updates made by another user. However, if a user's access level allows them to delete their own updates, the Workfront administrator can log in as that user and delete updates they made. For more information, see [Create or modify custom access levels](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md#creating-a-new-access-from-scratch) and [Log in as another user](../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md).
 
 1. Go to the update or reply you want to delete.
-1. Click the **More** menu next to the update or reply you wish to delete, then click **Delete**.
+1. Click the **More** menu next to the update or reply you wish to delete, then click **Delete**. <!--October 2023 - replace screen shot here-->
 
    ![](assets/update-stream-comment-menu-marked-350x152.png)
 
@@ -388,15 +475,17 @@ No Workfront user (including the Workfront administrator) can delete updates mad
 
    >[!NOTE]
    >
-   >Deleting an update with an attached image deletes both the comment and the image. For more information, see the [Use rich text in a Workfront update](#use-rich-text-in-a-workfront-update) section in this article.
+   >Deleting an update with an attached image deletes both the comment and the image. For more information, see the [Use Rich Text in a Workfront update](#use-rich-text-in-a-workfront-update) section in this article.
 
    When the comment you delete has replies associated with it, there is an indication that the comment was removed with the name of the user who removed it.
-
-   ![](assets/removed-comment-indicator-new-experience.png) 
+   
+   <span class="preview">![](assets/removed-comment-indicator-new-experience.png)</span> 
 
    When using the commenting Beta experience, deleted comments are removed immediately from Workfront. A user using the Updates section sees a comment being deleted by another user in real time.
 
    <!--when we remove the beta, take out the first part of the sentence above about only when commenting in beta experience. Leave the rest though-->
+
+<!--this is no longer needed - adding timesheet comments is just like adding comments to any other object now
 
 ## Add an update on a Timesheet
 
@@ -407,7 +496,7 @@ No Workfront user (including the Workfront administrator) can delete updates mad
 
    ![timesheet_update_stream.png](assets/timesheet-update-stream-350x50.png)
 
-1. (Conditional)To save your update without submitting the Timesheet for approval, click **Save for Later**.
+1. (Conditional) To save your update without submitting the Timesheet for approval, click **Save for Later**.
 
    Or
 
@@ -417,30 +506,38 @@ No Workfront user (including the Workfront administrator) can delete updates mad
 
    If your Timesheet is not set up with an approver, click **Save and Close Timesheet** to save your update.
 
+-->
+
 ## Enable or disable system updates
 
-<!--remove the preview tag with 23.2 production, but keep the note till we remove Beta and it becomed the only exprience: -->
+<!--October 2023: remove the whole section because this is no longer possible -->
+
+<!--October 2023: when the new stream goes to all objects production, consider updating this article also, to say there is no System Activity tab to be disabled for objects anymore: help\quicksilver\administration-and-setup\set-up-workfront\system-tracked-update-feeds\system-tracked-update-feeds.md-->
 
 >[!NOTE]
 >
->It is not possible to disable system updates when using the Beta commenting experience.
->The information in this section refers only to functionality available in the current Updtes section.
+>It is not possible to disable system updates when using the new commenting experience.
+>The information in this section refers only to functionality available in the current Updates section. <!--October 26: replace current with legacy-->
 >For more information about system updates in the Beta version, see [Updates section overview](../updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
 
 The Updates section for a Workfront object displays two types of information:
 
-* **User updates:** User updates are comments that you and other users in your system enter.
+* **User updates:** User updates are comments that you and other users in your system enter. <!--October 2023 - new screen shot -->
 
   ![](assets/user-update-cl-350x277.png)
 
-* **System updates:** System updates record removing assets, adding or deleting versions, attaching or removing an approval request, as well as any edits or changes made to the documents on the object.
+* **System updates:** System updates record removing assets, adding or deleting versions, attaching or removing an approval request, as well as any edits or changes made to the documents on the object. <!--October 2023 - new screen shot --> 
 
   ![](assets/system-updates-cl-350x277.png)
 
-Depending on your Workfront license, system updates might be enabled by default. Workfront administrators can determine what is tracked in system updates, as explained in [System-tracked updates](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md). You can also filter out system updates or activities so that you see only user updates for all objects.
+   Depending on your Workfront license, system updates might be enabled by default. Workfront administrators can determine what is tracked in system updates, as explained in [System-tracked updates](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md). You can also filter out system updates or activities so that you see only user updates for all objects.
 
-For more information about the difference between user and system updates, see [System-tracked updates](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md).
+   The following objects don't have system-generated updates: 
+
+   * Team
+   * Template
+   * Template Task
 
 To enable or disable system updates:
 
@@ -450,4 +547,11 @@ To enable or disable system updates:
    ![](assets/show-system-updates-qs-350x55.png)
 
    This option is persistent across all objects throughout Workfront and remains in the position you select, even if you log out of Workfront.
+
+   >[!TIP]
+   >
+   >   Objects that don't record system updates don't have the option Show System Updates in their Updates area.
+   
+   <!--when Anna adds the new updates stream to ALL objects, she will remove the System Activity tab from the objects that don't record system updates - add another line to the TIP above to say: The System Activity tab is not available for objects that don't record system-generated updates.*************** OR: maybe make this part of the statement where we list which objects these are, above???  -->
+
 

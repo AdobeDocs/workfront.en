@@ -13,7 +13,7 @@ exl-id: c0138730-494b-4443-865a-44f8f00d5342
 You can display in a view objects that are not included in the standard mode interface. You can do this only by referencing them via text mode.  
 You can determine which fields can be included in a view in either of the following ways:
 
-* Use the [API Explorer](https://one.workfront.com/s/api-explorer) to discover other objects that can be referenced via text mode.  
+* Use the [API Explorer](../../../wf-api/general/api-explorer.md) to discover other objects that can be referenced via text mode.  
   Not all the fields documented in the API Explorer are valid fields for text mode. Some fields are only reportable through the API.
 
 * Find the object 's ID field in a column. Most objects that have a field ID also have a corresponding column or field name which may not be accessible through the standard mode interface.
@@ -36,12 +36,15 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Plan </p> </td> 
+   <td> <p>Request to modify a view </p>
+   <p>Plan to modify a report</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to&nbsp;Reports,&nbsp;Dashboards,&nbsp;Calendars</p> <p>Edit access to Filters, Views, Groupings</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
-  </tr> 
+   <td> <p>Edit access to Reports, Dashboards, Calendars to modify a report</p> <p>Edit access to Filters, Views, Groupings to modify a view</p> <p><b>NOTE</b>
+   
+   If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+  </tr>  
   <tr> 
    <td role="rowheader">Object permissions</td> 
    <td> <p>Manage permissions to a report</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 

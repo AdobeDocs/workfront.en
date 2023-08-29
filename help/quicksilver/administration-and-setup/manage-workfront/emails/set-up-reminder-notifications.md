@@ -58,9 +58,11 @@ For information about how to create an email template, see [Configure email temp
 
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
 
-1. Click **Email** > **Notifications**.
+1. Click **Email** > **Notifications** > **Reminder Notifications**.
 
-1. Click the **Reminder Notifications** tab, then click **New Reminder Notification**.
+   ![](assets/remider-notifications-tab-in-setup-email-notifications-area.png)
+   
+1. Click **New Reminder Notification**.
 
 1. In the drop-down list, click the object type you want to associate with the reminder notification.
 

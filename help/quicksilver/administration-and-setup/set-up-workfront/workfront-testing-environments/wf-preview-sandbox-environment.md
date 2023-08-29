@@ -55,7 +55,7 @@ The Preview Sandbox serves as an environment where users in your organization ca
 
 The Preview Sandbox contains your actual production data; however, it refreshes every weekend so the data can be up to one week behind the production environment. Items created since the last refresh time are in the Preview Sandbox environment until the following refresh.
 
-Data flows uni-directionally, from Production to Preview, and not in reverse. A refresh of the Preview environment is always scheduled by [!DNL Workfront] each weekend. For more information on the specific day and time of the refresh, go to [status.adobe.com](https://status.adobe.com/).
+Data flows uni-directionally, from Production to Preview, and not in reverse. A refresh of the Preview environment is always scheduled by [!DNL Workfront] each weekend. 
 
 Preview Sandbox also allows [!DNL Workfront] to deploy new features in a safe environment, before they are ready to be deployed to Production. You can test the new features and give [!DNL Workfront] feedback on their functionality by accessing the Preview Sandbox. For this reason, the code of the Preview Sandbox is always ahead of the Production code, although your data is refreshed weekly.
 
@@ -99,9 +99,7 @@ To access the Preview Sandbox:
 
 #### Accessing the Preview Sandbox for Accounts on Cluster 1,2,3, and 5 {#accessing-the-preview-sandbox-for-accounts-on-cluster-1-2-3-and-5}
 
-Historically, you accessed the Preview Sandbox by going to [https://companyname.attasksandbox.com/](https://www.google.com/url?q=https%3A%2F%2Fcompanyname.attasksandbox.com%2F&sa=D&sntz=1&usg=AFQjCNGTfPKCDnAylzkclNwdSuEXksLFRg).
-
-This URL is no longer supported and it has not been redirected to our new URL for the Preview Sandbox environment. The new correct URL for the Preview Sandbox is: [https://companyname.preview.workfront.com/](https://www.google.com/url?q=https%3A%2F%2Fcompanyname.preview.workfront.com%2F&sa=D&sntz=1&usg=AFQjCNFZQYw9VWjr2tuvQLfSJHneqJj_PQ).
+The URL for the Preview Sandbox is: `https://companyname.preview.workfront.com/`.
 
 >[!NOTE]
 >
@@ -109,7 +107,7 @@ This URL is no longer supported and it has not been redirected to our new URL fo
 
 To log into the Preview Sandbox using a URL:
 
-1. Navigate to this URL: [[!DNL https]://companyname.preview.workfront.com/](https://companyname.preview.workfront.com/)
+1. Navigate to this URL: `https://companyname.preview.workfront.com/`.
 
    If you are an EMEA customer and your account is on Cluster 4, see the section [Accessing the Preview Sandbox for Accounts on Cluster 4 (EMEA Accounts)](#accessing-the-preview-sandbox-for-accounts-on-cluster-4-emea-accounts) in this article.
 

@@ -4,8 +4,8 @@ product-area: system-administration;projects
 navigation-topic: configure-approval-and-milestone-processes
 title: Edit an approval process
 description: If you are an Adobe Workfront administrator, or you have administrative access to approval processes, you can see and edit all approval processes in the system.
-author: Alina, Caroline
-feature: System Setup and Administration
+author: Alina
+feature: System Setup and Administration, Approvals
 role: Admin
 exl-id: 62aa8ac0-7e8a-4df6-b5d4-a32fa86a4597
 ---
@@ -128,6 +128,7 @@ You must have the following:
       <p><b>TIP</b>:</p>
 
       <p>When adding a user as an approver, notice the avatar, the user's Primary Role, or their email address to distinguish between users with identical names. Users must be associated with at least one job role to view it as you add them.</p>
+      <p>You must have the View Contact Info setting enabled in your access level for Users to view users' emails. For information, see <a href="../../add-users/configure-and-grant-access/grant-access-other-users.md">Grant access to users</a></p>. 
 
       <p><b>NOTE</b>:
       

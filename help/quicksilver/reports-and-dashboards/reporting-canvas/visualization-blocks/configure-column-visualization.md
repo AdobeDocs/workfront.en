@@ -1,9 +1,8 @@
 ---
 title: Configure a column visualization in Reporting Canvas
 description: Configure a column visualization in Reporting Canvas
-author: Nolan
-feature: Reports and Dashboards
-exl-id: 5a0cdcd4-b44b-4a63-964e-1c570cd9ff77
+hidefromtoc: yes
+hide: yes
 ---
 
 # Configure a column visualization in Reporting Canvas
@@ -12,7 +11,7 @@ A column visualization can help you quickly tell a story about your data by high
 
 ## Prerequisites
 
-Before you begin, you must enroll in the Reporting Canvas beta. For more information, see [Reporting Canvas beta: overview](/help/quicksilver/product-announcements/betas/reporting-canvas-beta/reporting-canvas-beta-overview.md).
+Before you begin, you must enroll in the Reporting Canvas beta. For more information, see [Reporting Canvas beta: overview](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md).
 
 ## Configure a column visualization
 

@@ -4,12 +4,14 @@ user-type: administrator
 product-area: system-administration;projects
 navigation-topic: configure-approval-and-milestone-processes
 description: You can create an approval process that users can attach to a work item (project, task, issue, template, or template task), a document, or a proof. An approval process ensures that designated assignees on the object review certain changes before the object progresses in the system.
-author: Alina, Caroline
-feature: System Setup and Administration
+author: Alina
+feature: System Setup and Administration, Approvals
 role: Admin
 exl-id: 1709e285-51a5-49a1-a03a-743a334fbe4d
 ---
 # Create an approval process for work items
+
+<!--see below the "hidden" content for the redesigned tabs - August 2023--> 
 
 You can create an approval process that users can attach to a work item (project, task, issue, template, or template task), a document, or a proof. An approval process ensures that designated assignees on the object review certain changes before the object progresses in the system.
 
@@ -65,6 +67,10 @@ You must have the following:
    Or
 
    If you are creating a group-level approval process, click **Groups** ![](assets/groups-icon.png), click the name of the group, then click **Approvals**.
+
+   <!--hidden for the new tab redesign - August 2023: 
+   ![](assets/approvals-area-in-setup-processes.png)
+   -->
 
 1. Click the **Project Approvals**, **Task Approvals**, or **Issue Approvals** tab, depending on the type of approval process you want to create.
 
@@ -129,6 +135,7 @@ You must have the following:
       <p><b>TIP</b>:</p>
 
       <p>When adding a user as an approver, notice the avatar, the user's Primary Role, or their email address to distinguish between users with identical names. Users must be associated with at least one job role to view it as you add them.</p>
+      <p>You must have the View Contact Info setting enabled in your access level for Users to view users' emails. For information, see <a href="../../add-users/configure-and-grant-access/grant-access-other-users.md">Grant access to users</a>. </p>
       
       <p><b>NOTE</b>:
       

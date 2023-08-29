@@ -1,21 +1,27 @@
 ---
 content-type: release-notes
 navigation-topic: product-announcements
-title: Prepare for an [!DNL Adobe Workfront] quarterly release
+title: Prepare for an [!DNL Adobe Workfront] release
 description: Follow these tips to smoothly update your organization for each new Workfront release.
 author: Becky
 feature: Product Announcements
 exl-id: 411ad0b1-efb2-40e9-a04c-d06840b9cdce
 ---
-# Prepare for an [!DNL Adobe Workfront] quarterly release
+# Prepare for an [!DNL Adobe Workfront] scheduled release
 
-[!DNL Adobe Workfront] releases major updates to the Production environment quarterly. As a [!DNL Workfront] administrator, you have the opportunity to ensure that your organization has a smooth transition to each new version of the [!DNL Workfront] product. 
+>[!NOTE]
+>
+>Workfront offers two models for releasing new features and updates. Your organization can choose whether to receive new functionality on a quarterly basis, or on a faster release schedule. The process of preparing for a release is similar, regardless of the model your organization uses.
+>
+>For a detailed explanation of the two release models, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
+
+[!DNL Adobe Workfront] releases major updates to the Production environment on a regular basis. As a [!DNL Workfront] administrator, you have the opportunity to ensure that your organization has a smooth transition to each new version of the [!DNL Workfront] product. 
 
 <!--
 [Watch a video about ways you can prepare for an [!DNL Adobe Workfront] quarterly release.](https://video.tv.adobe.com/v/3413544){target=_blank}
 -->
 
-Watch the video below to learn about ways you can prepare for an [!DNL Adobe Workfront] quarterly release.
+Watch the video below to learn about ways you can prepare for an [!DNL Adobe Workfront] release.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3413544/?quality=12)
 
@@ -23,11 +29,11 @@ Watch the video below to learn about ways you can prepare for an [!DNL Adobe Wor
 
 For a detailed description of the [!DNL Workfront] release process, see [[!DNL Adobe Workfront] release schedule and process](workfront-release-schedule.md).
 
-## Prepare for a [!DNL Workfront] quarterly release
+## Prepare for a [!DNL Workfront] release
 
 >[!TIP]
 >
->You can create a project template to track work related to [!DNL Workfront] quarterly releases.
+>You can create a project template to track work related to scheduled [!DNL Workfront] releases.
 >
 >For more information, see [Use a [!DNL Workfront] project to track release work](#use-a-workfront-project-to-track-release-work) in this article.
 
@@ -44,11 +50,11 @@ We recommend that you consider some or all of the following actions that can hel
 
 Release notes for a given feature are published when the feature goes to your [!UICONTROL Preview Sandbox] environment. That way, you can know about and explore the feature before it is part of your Production environment.
 
-Each quarterly release has a quarterly release overview page with brief descriptions of each feature and links to more in-depth notes that contain additional information as well as demo videos. These in-depth notes are organized by week as the releases to preview occur, and then are reorganized by area closer to the actual Production release date. 
+Each release has a release overview page with brief descriptions of each feature and links to more in-depth notes that contain additional information as well as demo videos. These in-depth notes are organized by week as the releases to preview occur, and then are reorganized by area closer to the actual Production quarterly release date. 
 
 We highly recommend watching the demo videos available in the release notes. These can be particularly useful to see the feature in action, or for a quick look into the context of the feature if you're short on time.
 
-For links to the quarterly release overviews, see [Product releases](product-releases.md).
+For links to the release overviews, see [Product releases](product-releases.md).
 
 ### Watch the [!DNL Workfront] Announcement Center
 
@@ -59,8 +65,8 @@ For links to the quarterly release overviews, see [Product releases](product-rel
 As a [!DNL Workfront] administrator, you will receive Announcement Center message from [!DNL Workfront] about various aspects of the release. You will receive an Announcement Center message when any of the following occur:
 
 * New features are available in the Production environment
-* Features released to Preview will be released to Production before the scheduled quarterly release.
-* All new features are available in the Preview environment before the scheduled quarterly release.
+* Features released to Preview will be released to Production before the scheduled release.
+* All new features are available in the Preview environment before the scheduled release.
 * The release webinar is open for registration
 
 >[!TIP]
@@ -72,7 +78,7 @@ As a [!DNL Workfront] administrator, you will receive Announcement Center messag
 
 ### Explore the [!UICONTROL Preview Sandbox] environment
 
-The [!UICONTROL Preview Sandbox] environment, also known as the [!UICONTROL Preview] environment, serves as an environment where users in your organization can safely test and work with a separate copy of your data from the Production environment. [!UICONTROL Workfront] releases new features and functionality the Preview environment well before they are released to the Production environment. You have the opportunity to familiarize yourself with these features before they are released into the day-to-day workflows of your users. Then, if your users have any difficulty taking advantage of the new features, you will be able to more easily help them adapt. 
+The [!UICONTROL Preview Sandbox] environment, also known as the [!UICONTROL Preview] environment, serves as an environment where users in your organization can safely test and work with a separate copy of your data from the Production environment. [!UICONTROL Workfront] usually releases new features and functionality the Preview environment at least two weeks     before they are released to the Production environment. You have the opportunity to familiarize yourself with these features before they are released into the day-to-day workflows of your users. Then, if your users have any difficulty taking advantage of the new features, you will be able to more easily help them adapt. 
 
 >[!TIP]
 >
@@ -84,11 +90,11 @@ For more information on the [!UICONTROL Preview Sandbox] environment, see [The [
 
 ### Attend the release webinar
 
-[!DNL Workfront] hosts a Release Webinar shortly before each quarterly release. Here, the [!DNL Workfront] product team explains and demonstrates new features and functionality, and can answer questions from those attending.
+[!DNL Workfront] hosts a Release Webinar shortly before some  releases. Here, the [!DNL Workfront] product team explains and demonstrates new features and functionality, and can answer questions from those attending.
 
 Release webinars are announced through the [!DNL Workfront] Announcement Center. Registration links can be found on the Release overview page.
 
-For links to the quarterly release overviews, see [Product releases](product-releases.md).
+For links to the release overviews, see [Product releases](product-releases.md).
 
 ### Offer feedback to Workfront
 

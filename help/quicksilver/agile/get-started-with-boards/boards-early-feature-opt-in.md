@@ -5,6 +5,7 @@ navigation-topic: boards
 title: Early feature opt-in for [!DNL Adobe Workfront] Boards
 description: Read this article to learn about the [!DNL Workfront Boards] early feature opt-in.
 author: Lisa
+feature: Agile
 exl-id: c4a6b045-b0f3-4d4d-994c-c03ef7ad25c8
 ---
 # Early feature opt-in for [!DNL Adobe Workfront] [!UICONTROL Boards]
@@ -152,7 +153,7 @@ The following table outlines major features of boards along with their current r
   </tr>
   <tr>
    <td>Define email notifications for Boards</td>
-   <td>Partially released</td>
+   <td>Released</td>
   </tr>
   <tr>
    <td>Migrate legacy Kanban cards to Boards</td>
@@ -160,15 +161,23 @@ The following table outlines major features of boards along with their current r
   </tr>
   <tr>
    <td>Create dynamic boards</td>
-   <td>Partially released</td>
+   <td>Released</td>
   </tr>
   <tr>
    <td>Use left navigation on card details</td>
-   <td>Partially released</td>
+   <td>Released</td>
   </tr>
   <tr>
    <td>Use simplified filters on the intake column</td>
-   <td>Planned</td>
+   <td>Released</td>
+  </tr>
+  <tr>
+   <td>Use comments on ad hoc and connected cards</td>
+   <td>Released</td>
+  </tr>
+  <tr>
+   <td>View documents on connected cards</td>
+   <td>Partially Released</td>
   </tr>
  </tbody> 
 </table>
@@ -197,7 +206,7 @@ Only [!DNL Workfront] administrators can opt in to early features for boards. W
 
 ### How do I know if my organization has opted in to early features?
 
-When your [!DNL Workfront] administrator has has enabled early features for boards, you will see an [!UICONTROL Early Feature Opt-In] Enabled button on the top of the dashboard screen. Click the button to see which features are enabled.
+Contact your [!DNL Workfront] administrator to find out if they have enabled early features for boards.
 
 ### Can early features be enabled only for certain users?
 

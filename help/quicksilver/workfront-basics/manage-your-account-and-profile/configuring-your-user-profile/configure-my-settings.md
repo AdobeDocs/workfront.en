@@ -3,7 +3,7 @@ product-area: user-management;setup
 navigation-topic: configure-your-user-profile
 title: Configure My Settings
 description: Your [!DNL Adobe Workfront] profile contains information about yourself (for example, your name, email address, address, phone number, title, etc). It also contains information about your interactions with [!DNL Workfront] and other users in your company.
-author: Lisa
+author: Nolan
 feature: Get Started with Workfront
 exl-id: 0199bf74-0611-48f0-9c05-da6afac85033
 ---
@@ -190,8 +190,7 @@ The following grid shows what sections in the [!UICONTROL My Settings] area are 
 
 ## Configuring the [!UICONTROL My Settings] area 
 
-1. Click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe Workfront], then click your user name next to your profile picture.
-
+1. Click the **[!UICONTROL Main Menu]** icon ![Main Menu](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click your user name next to your profile picture. Or (if available), click your profile picture in the top navigation area, then click **[!UICONTROL Workfront Profile]**.
 1. Click the **[!UICONTROL More]** menu ![](assets/more-icon.png), then click **[!UICONTROL Edit]**.
 
 1. Depending on your access level, you can update the following sections:
