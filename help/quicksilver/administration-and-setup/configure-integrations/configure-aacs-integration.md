@@ -73,6 +73,7 @@ Before you begin,
 
 1. Click the **[!UICONTROL Main Menu]** icon  in the upper-right corner of Adobe Workfront, then click **[!UICONTROL Setup]** .
 1. Select **[!UICONTROL Documents]** in the left panel, then select **[!UICONTROL [!DNL Experience Manager] Integration]**.
+
     >[!NOTE]
     >
     >This configuration area appears only if your [!DNL Workfront] environment is included under an [!DNL Adobe Admin Console].
@@ -208,6 +209,8 @@ To map metadata for folders:
 ### Object metadata sync
 
 An [!DNL Experience Manager] fields that is mapped to [!DNL Workfront] portfolio, program, project, task, issue, and document fields update automatically when the field is changed in [!DNL Workfront].
+
+When this option is enabled, any asset that has been pushed to Adobe Experience manager includes a card on the Document Details page that displays a real-time view of the document's Adobe Experience Manager metadata.
 
 >[!IMPORTANT]
 >
