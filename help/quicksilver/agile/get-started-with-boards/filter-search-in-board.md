@@ -22,9 +22,9 @@ Sorting the board sorts all of the cards in the columns. You can't sort a single
 
 Searching also helps you locate a specific card on the board.
 
-When filters are applied, an indicator is displayed on the board ![Filter applied to board](assets/boards-filterapplied-30x30.png). Click **[!UICONTROL Clear All]** to remove all filters from the board, and click **[!UICONTROL Hide filters]** to close the filter panel.
+When filters are applied, an indicator is displayed on the board ![Filter applied to board](assets/boards-filterapplied-30x30.png). Click **[!UICONTROL Clear All]** to remove all filters from the board, and click the collapse icon to close the filter panel.
 
-![Filter panel](assets/boards-all-filters-collapsed-1022.png)
+![Filter panel](assets/boards-all-filters-collapsed-0823.png)
 
 ## Access requirements
 

@@ -491,6 +491,14 @@ When you are configuring this module, the following fields display.
 
 See a list of the [!DNL Workfront] object types for which you can use this module in [[!DNL Workfront] object types available for each [!DNL Workfront] module](#workfront-object-types-available-for-each-workfront-module).
 
+>[!NOTE]
+>
+>We recommend the following scenario configuration to avoid the possibility of records not being deleted due to asynchronous operations.
+>
+>1. Delete the record synchronously.
+>1. Add error handling to the Delete Record module to Ignore the error caused by the 40 second timeout. 
+
+
 +++
 
 +++ **[!UICONTROL Download Document]**
