@@ -203,9 +203,9 @@ You must have the following access to perform the steps described in this articl
 
     The following are added: 
 
-    * The linked record field that will display the records from the linked record type. The name of the relationship field is the name you selected in step 6. <!-- ensure this is still accurate-->
+    * The linked record field that will display the records from the linked record type. The name of the linked record field is the name you selected in step 6. <!-- ensure this is still accurate-->
     
-    * The linked record field (or fields) that will display information from the fields of the linked record type, which is named according to this pattern: 
+    * The linked field (or fields) that will display information from the fields of the linked record type, which is named according to this pattern: 
 
         `<Name of the original field on the linked record> (from <Name of your linked field>)`
     
@@ -213,14 +213,14 @@ You must have the following access to perform the steps described in this articl
 
     * A linked record field on the record type you are linking to. The name of the linked record field on the linked record type is the name of the record type you link from. 
     
-    For example, if you link the "Product" record type from the "Campaign" record type and you name the connected field of the Campaign "Linked Product", a "Campaign" linked field is created for the Product record type. 
+        For example, if you link the "Product" record type from the "Campaign" record type and you name the connected field of the Campaign "Linked Product", a "Campaign" linked field is created for the Product record type. 
 
-    >[!NOTE]
-    >
-    >The linked record field that displays the record type you are linking from is not added to record types when you connect a record type with the following: <!--is this temporary for taxonomies??-->
-    >        
-    >* A taxonomy.
-    >* An object type from another application. 
+        >[!NOTE]
+        >
+        >The linked record field that displays the record type you are linking from is not added to record types when you connect a record type with the following: <!--is this temporary for taxonomies??-->
+        >        
+        >   * A taxonomy.
+        >   * An object type from another application. 
 
 1. (Optional) From either the original record type or the linked record type table view, click the drop-down to the right of the linked record field, then click one of the following:
 

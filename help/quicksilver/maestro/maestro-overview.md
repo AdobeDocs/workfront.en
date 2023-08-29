@@ -216,7 +216,7 @@ The following are the main Maestro objects and concepts:
 
     * **Timeline view**: Displays records that have at least two Date fields in a chronological timeline. 
 
-        ![](assets/timeline-view-example.png)
+        ![](assets/grouping-applied-in-timeline-view.png)
 
     <!--For more information, see [Manage record views](../maestro/views/manage-record-views.md). -->
 
