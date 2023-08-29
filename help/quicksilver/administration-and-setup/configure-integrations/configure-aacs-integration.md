@@ -1,8 +1,8 @@
 ---
 product-area: documents;workfront-integrations
 navigation-topic: adobe-workfront-for-experince-manager-asset-essentials
-title: Adobe Experience Manager Assets integrations
-description: You can connect your work with the following Adobe Experience Manager Assets Integrations.
+title: Configure the [!UICONTROL Experience Manager Assets as a Cloud Service] integration
+description: You can connect your work with your content in [!DNL Experience Manager Assets].
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: bc58cc77-a177-417f-a5a4-eec51e305219
 ---
