@@ -136,7 +136,10 @@ To edit the workflow for linked folders:
 
    If you are in the [!DNL Adobe Experience Manager area], your changes save automatically. <!--Do they though?-->
 
+
 #### Publishing assets
+
+<div class="preview">
 
 To edit the workflow for publishing assets:
 
@@ -148,3 +151,4 @@ To edit the workflow for publishing assets:
 
    If you are in the [!DNL Adobe Experience Manager area], your changes save automatically. <!--Do they though?-->
 
+</div>
