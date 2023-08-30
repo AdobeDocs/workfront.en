@@ -11,8 +11,11 @@ hide: yes
 
 After selecting a record type in Adobe Maestro, you can display all the records of that type in the following views: 
 
-* Table. For more information, see [Manage the table view](../views/manage-the-table-view.md). 
-* Timeline. For more information, see [Manage the timeline view](../views/manage-the-timeline-view.md). 
+* Table
+    
+    For more information, see [Manage the table view](../views/manage-the-table-view.md). 
+* Timeline
+    For more information, see [Manage the timeline view](../views/manage-the-timeline-view.md). 
 
 ## Access requirements
 
@@ -92,17 +95,24 @@ The following table shows the similarities and differences between the table and
 
 | Feature                                                               | Table view | Timeline view |
 |-----------------------------------------------------------------------|------------|---------------|
-| Display records in a list or table                                    | ✓          | ✓             |
-| Display all record fields as columns, by default                      | ✓          |               |
-| Display a limited number of fields (columns) in the table, by default |            | ✓             |
-| Hide columns to limit the number of visible fields in the table       | ✓          |               |
-| Edit field values for each record in the table                            | ✓          |               |
+| Display records in a list or table                                    | ✓          |              |
+| Display all fields as columns in the table, by default |            | ✓             |
+| Hide or show fields (or columns)       | ✓          |               |
+| Edit field values for each record                           | ✓          |               |
 | Add records as new rows in the view                                               | ✓          |               |
 | Add fields as new columns in the view                                               | ✓          |               |
 | Copy rows from an external list and paste them in a table             | ✓          |               |
 | View records in a timeline                                            |            | ✓             |
-| Filter, group, and sort records                                       | ✓          | ✓             |
-| Sort groupings                                                        | ✓          | ✓             |
+| Filter records                                       | ✓          | ✓             |
+| Group records                                      |           | ✓             |
+| Sort records                                       | ✓          |              |
+
+<!--| Sort groupings                                                        | ✓          | ✓             |-->
+
+ <!--| Display a limited number of fields as columns, by default                      | ✓          |               |-->
+
+ <!--| Color-code records                     |           | ✓              |-->
+ <!--| Color-code groupings                     |           | ✓              |-->
 
 ## Create or edit views {#create-or-edit-views}
 
@@ -147,6 +157,8 @@ The following table shows the similarities and differences between the table and
     
     The view is deleted for all users who can access the Maestro area. 
 
+<!--not possible yet - August 30, 2023: 
+
 ## Duplicate views
 
 If you want to keep multiple versions of a view and make slight changes between the version, you can duplicate a view. Duplicating a view creates identical copies of an existing view. 
@@ -157,7 +169,8 @@ If you want to keep multiple versions of a view and make slight changes between 
 
     By default, all the records of the type selected display in the table view. 
 
-1. Click the view drop-down menu, then click the **More** menu ![](assets/more-menu.png) to the right of the view name > **Duplicate**. <!--ensure there is not another saving step here?! also, add how this view is named; the button to duplicate was there but not the functionality yet-->
+1. Click the view drop-down menu, then click the **More** menu ![](assets/more-menu.png) to the right of the view name > **Duplicate**. (**********ensure there is not another saving step here?! also, add how this view is named; the button to duplicate was there but not the functionality yet************)
     
     The view is duplicated and visible to all users who can access the Maestro area. 
 
+-->

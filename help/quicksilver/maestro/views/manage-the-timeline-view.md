@@ -81,6 +81,11 @@ When creating a timeline view, all records of the selected record type display i
 Consider the following: 
 
 * You can create a Timeline view only when you have at least two date fields associated with a record type. When you have one or no date fields associated with a record type, the Timeline view option is dimmed. 
+* Depending on the dates associates with the records, some records might not display in the timeline view in the following scenarios:
+
+    * When the Start and End dates have no values.
+    * When the Start or the End dates have no value.
+    * When the Start date is after the End date.    
 
 <!--these are NOT available now because there won't be a table for the timeline view for the near future, per Andy: 
 * The records displayed in the timeline view also display in a view-only table to the left of the timeline. 
@@ -93,7 +98,7 @@ Consider the following:
      * Edit record information
 --> 
 
-When creating a timeline view, all records of the selected record type display in a timeline as bars.  
+When creating a timeline view, all records of the selected record type display in a timeline as bars, by default.  
 
 To manage a timeline view: 
 
@@ -113,9 +118,12 @@ To manage a timeline view:
         * Year
         * Quarter
         * Month
-1. Click **Switch to Standard** view to display records in separate lines
+1. Click **Switch to Standard** view to display records in separate lines <!--check to see if they updated the name of the setting here-->
+
     Or
-    Click **Switch to Compact view** to display the records whose dates don't intersect on the same line. 
+
+    Click **Switch to Compact view** to display the records whose dates don't intersect on the same line. <!--check to see if they updated the name of the setting here-->
+    
     Records display in the Compact view by default. 
 
 1. Update the following view elements as described in the subsections below:
@@ -132,15 +140,13 @@ Consider the following when working with filters in the timeline view:
 
 <!-- this list is almost identical to the one for the table view - update both-->
 
-* You can apply filters both in the table and timeline views. 
+* You can apply filters both in the table and timeline views and they work independently from one another when applied to the same record type. 
 
-* The filters are dependent on the view you select. Two timeline views of the same record type can have different filters applied to them. 
+* The filters are dependent on the view you select. Two timeline views of the same record type can have different filters applied to them. Two users looking at the same timeline view see the same filter that is currently applied. 
 
 * You cannot name the filters you build and apply to a timeline view.
 
-* The filters you create are preserved and all users that can access Maestro view the record type timeline with the same filters applied as you when viewing the record type page in the same view. 
-
-* Removing filters removes them from anyone accessing the same record type as you.
+* Removing filters removes them from anyone accessing the same record type as you and uses the same view you use.
 
 Adding filters in the timeline view is identical to adding filters in the table view. 
 
@@ -170,29 +176,32 @@ To add a grouping:
 
     ![](assets/grouping-ui-timeline-view.png)
 
-1. Click one of the suggested fields, or click **Choose a different field** and search for a different field, then click one when it displays in the list. 
+1. Click one of the suggested fields, or click **Choose a different field** and search for a different field, then click it when it displays in the list. 
 
     The grouping is applied automatically to the timeline and records display inside the grouping box. The number of items in a grouping displays on the grouping line. 
 
     <!-- add a step that you can rearrange the groupings here, when this will be possible-->
     
-1. (Optional)Repeat the above steps to add up to 3 groupings. 
+1. (Optional) Repeat the above steps to add up to 3 groupings. 
 
     The number of groupings applied displays to the left of the Grouping icon in the upper-right corner of the toolbar.
 
     ![](assets/grouping-applied-in-timeline-view.png)
 
-1. Click the **Grouping** icon to close the grouping box. 
-    
 1. (Optional) Click the **x** icon to the right of a grouping to remove the grouping
 
     Or
 
     Click **Clear all** to remove all groupings.  
 
-<!-- this is not possible right now; if this is the same functionality as the table view, document it there and link from here: 
+1. Click outside the **Group records by** box to close it. 
+
+<!-- 
 
 ### Add sort
+
+this is not possible right now; if this is the same functionality as the table view, document it there and link from here. 
+
 -->
 
 ### Edit the timeline view settings {#edit-the-timeline-view-settings}
@@ -201,21 +210,32 @@ Update the timeline view settings to indicate what information should display in
 
 1. Create a timeline view, as described the article [Manage record views](../views/manage-record-views.md). 
 1. Click **Settings**. 
-1. Click **Date and time**, then select a **Start date** and an **End date** to display on the timeline. You can choose the default Start and End dates, or you can choose any date field available. The bars representing the records start on the date you indicate for the Start date and end on the date corresponding with the End date. <!--add what happens for records that don't have an end date; how do they display??-->
-1. Click **Record details**. The Name field is selected by default.
+1. Click **Date and time** in the left panel, then select a **Start date** and an **End date** to display on the timeline. You can choose the default Start and End dates, or you can choose any date field available. The bars representing the records start on the date you indicate for the Start date and end on the date corresponding with the End date. 
+
+    >[!NOTE]
+    >
+    >    Records that have no values for the Start or the End dates or have a Start date later than the End date do not display in the timeline view.
+
+
+1. Click **Record details** to indicate what fields you want to display on the record bards. 
+
+    The Name field is selected by default.
+
 1. Click **Add field** to add up to 4 fields to the record bars.
 1. Click inside the **Search fields** box, and click the field you want to add. 
 
     >[!TIP]
     >
-    >    You must create the fields before you can add them to the record bars. 
+    >   * You must create the fields before you can add them to the record bars. 
     > 
-    >    You must have at least one field selected. **Name** is selected by default.
+    >   * You must have at least one field selected. **Name** is selected by default.
 
     A preview of what the bars will look like on the timeline displays on the right.
 
+    ![](assets/record-details-panel-timeline-settings-with-preview.png)
+
 1. Click **Save**.
 
-    The timeline view is applied with the settings you selected. 
+    The records display in the timeline view with the specifications you selected. 
 
 

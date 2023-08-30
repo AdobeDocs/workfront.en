@@ -1,5 +1,5 @@
 ---
-title: Adobe Maestro 
+title: Adobe Maestro information
 description: As a marketing operations leader, you can use Adobe Maestro to organize work across the marketing lifecycle for all your teams. The articles in this section describe how you can configure Maestro and how you can start using its capabilities as part of your campaign management operations. 
 hidefromtoc: yes
 hide: yes
@@ -21,9 +21,21 @@ hide: yes
 
 As a marketing operations leader, you can use Adobe Maestro to organize work across the marketing lifecycle for all your teams.
 
-This articles in the following sections describe how you can configure Maestro and start using its capabilities: 
+>[!IMPORTANT]
+>
+>Currently, Adobe Maestro is part of a closed beta program which is open to a limited number of customers. 
 
-* [Maestro overview](maestro-overview.md)
-* [Architecture overview](../maestro/architecture-and-fields/architecture-and-fields-information.md)
-* [Records overview](../maestro/records/records-information.md)
-* [Views overview](../maestro/views/views-information.md)
+You can use this page as the starting point for all the Adobe Maestro documentation.
+
+The articles in the sections listed below describe how you can configure Maestro and start using its capabilities.
+
+>[!IMPORTANT]
+>
+>The documentation referenced in the sections linked below will be available within two weeks or more from the actual release date. 
+
+* [Maestro overview](maestro-overview.md): A high-level overview of Adobe Maestro, including the terminology and concepts that are unique to this solution. 
+* [Release activity](../maestro/release-activity.md): A list of all the features that have been released since the launch of the Maestro closed beta program, on May 22, 2023 with exact release dates and a short overview of each feature.
+* [Architecture information](../maestro/architecture-and-fields/architecture-and-fields-information.md): In-depth information about the architecture of Adobe Maestro, with step-by-step instructions about how you can create and manage workspaces, record types, and fields. 
+* [Records information](../maestro/records/records-information.md): In-depth information and step-by-step instructions about how you can create and manage records. 
+* [Views information](../maestro/views/views-information.md): In-depth information about Maestro views and how to manage them. 
+<!--* [Access information](../maestro/access/access-information.md): Information about the access needed to use Adobe Maestro. -->

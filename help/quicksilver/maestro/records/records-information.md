@@ -1,5 +1,5 @@
 ---
-title: Records overview
+title: Records information
 description: The following articles describe how you can create and manage records in Adobe Maestro. 
 hidefromtoc: yes
 hide: yes
@@ -17,7 +17,7 @@ hide: yes
 ---
 -->
 
-# Records overview
+# Records information
 
 The following articles describe how you can create and manage records in Adobe Maestro:
 

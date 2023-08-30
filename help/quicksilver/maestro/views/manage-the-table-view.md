@@ -2,11 +2,20 @@
 title: Manage the table view
 description: You can display records in a table view when using Adobe Maestro. 
 hidefromtoc: yes
+hide: yes
+---
+
+<!--
+---
+title: Manage the table view
+description: You can display records in a table view when using Adobe Maestro. 
+hidefromtoc: yes
 author: Alina
 feature: Work Management
 role: User
 hide: yes
 ---
+-->
 
 # Manage the table view
 
@@ -97,13 +106,21 @@ You can add up to 500 fields (or columns) in a table view.
 1. Start adding fields (or columns), as described in the article [Create fields](../architecture-and-fields/create-fields.md). 
 
     The columns you add are visible to all users who access the record type. 
-1. To reorder columns, grab the column header and drag and drop it in the desired position. The column you moved briefly displays with a blue background until you make other adjustments to the table. 
+1. To reorder columns in the table, do one of the following:
+
+    * Grab the column header and drag and drop it in the desired position. The column you moved briefly displays with a blue background until you make other adjustments to the table. 
+
+    * Click **Fields** in the table's toolbar, then drag and drop the fields in the desired order, then click outside the **Fields visibility and order box** to close it .
+
+        ![](assets/fields-setting-table-view-toolbar-expanded.png)
 
     >[!TIP]
     >
     >* The Name field is always the first field in the table view.
     >
     >* You cannot move the Name field to another position.
+    >
+    >* You cannot hide the Name field. 
     >
     >* The Name field is frozen and is not part of the horizontal scroll.
 
@@ -114,9 +131,15 @@ You can add up to 500 fields (or columns) in a table view.
     >
     >The changes you make to the column width and order are permanent and visible to all users who access the record type. 
 
-<!--not available yet: 
-1. To hide a column, hover over the column header, then click the downward-pointing arrow, then click **Hide**.
--->
+1. To hide a column, hover over the column header, then click the downward-pointing arrow, then click **Hide field**
+
+    Or
+
+    Click **Fields** in the table toolbar and disable the toggle associated with the fields you want to hide. 
+
+1. From the **Fields** setting, enable the toggle associated with the fields you want to display in the columns of the table.
+
+
 
 ### Add rows {#add-rows}
 
@@ -144,15 +167,17 @@ Filters help you reduce the amount of information displayed on the screen.
 Consider the following when working with filters in the table view: 
 <!-- this list is almost identical to the one for the table view - update both-->
 
-* You can apply filters both in the table and timeline views. 
+* You can apply filters both in the table and timeline views and they work independently from one another when applied to the same record type.
 
-* The filters are dependent on the view you select. Two table views of the same record type can have different filters applied to them. 
+* The filters are dependent on the view you select. Two table views of the same record type can have different filters applied to them. Two users looking at the same table view see the same filter that is currently applied. 
 
 * You cannot name the filters you build and apply to a table view.
 
 * The filters you create are preserved and all users that can access Maestro view the record type table with the same filters applied as you when viewing the record type page in the same view. 
 
-* Removing filters removes them from anyone accessing the same record type as you.
+* Removing filters removes them from anyone accessing the same record type as you and uses the same view as you use.
+
+Adding filters in the timeline view is identical to adding filters in the table view. 
 
 To add a filter to a table view: 
 
@@ -285,15 +310,29 @@ You can sort the following information:
 * All records in a table view. <!--or timeline view. ***********verify this is the case for the timeline view*********************-->
 <!--* All groupings. - this is not available yet-->
 
+Consider the following when sorting records in the table view: 
+
+<!-- if this is available for the timeline view, update both when you update one-->
+
+* Sorting is dependent on the view you select. Two table views of the same record type can have different sorting criteria applied to them. Two users looking at the same table view see the same sorting that is currently applied. 
+
+* You cannot name the sorting you build and apply to a table view.
+
+* The sorting you create is preserved when you navigate away, and all users that can access Maestro view the record type table with the same sorting applied as you when viewing the record type page in the same view. 
+
+* You can sort by as many fields as you see displayed in the table view of a record type. 
+
+* Removing sorting criteria removes them from anyone accessing the same record type as you and uses the same view as you use.
+
 To sort <!--ungrouped (add this when sorting for groupings will be available--> records, do the following:
 
-1. Create a view, as described in the article [Manage record views](../views/manage-record-views.md).
+1. Create a table view, as described in the article [Manage record views](../views/manage-record-views.md).
 1. Click the **Sort** icon ![](assets/sort-icon.png) in the upper-right corner of the table
     
     Or
 
     Hover over the name of a column in the table view, click the downward-pointing arrow to the right of the column header name, then click **Sort by this field**. The field is added as a sorting selection in the Sort icon in the upper-right corner of the table view as a sorting field. 
-1. Click one of the suggested fields, or click **Choose a different field** and search for a different field, then click one when it displays in the list. 
+1. In the **Sort records by** box, click one of the suggested fields, or click **Choose a different field** and search for a different field, then click it when it displays in the list. 
 
     The sorting is applied automatically to the table view and records display sorted by your selected criteria. 
 
@@ -307,13 +346,13 @@ To sort <!--ungrouped (add this when sorting for groupings will be available--> 
     
     ![](assets/sorting-in-table-view.png)
 
- 1. Click the **Sort** icon to close the sorting box.  
-    
-1. (Optional) Click the **x** icon to the right of a sorting fiel to remove the sort
+1. (Optional) Click the **x** icon to the right of a sorting field to remove the sort
 
     Or
 
     Click **Clear all** to remove all fields from the sort. 
+
+1. Click outside the **Sort records by** box to close it. 
 
 
 <!-- this is not available yet: 

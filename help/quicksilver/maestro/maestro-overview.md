@@ -1,5 +1,5 @@
 ---
-title: Adobe Maestro overview
+title: Adobe Maestro overview and release activity
 description: Use Maestro to create custom objects, fields, and workspaces. 
 hidefromtoc: yes
 hide: yes
@@ -239,6 +239,8 @@ The following table shows the limits for how many objects you can create in Maes
 
 ## Enable Maestro for the users in your Workfront instance
 
+<!--move this section to the access-overview article in the Access folder when we have access / permissions for Maestro-->
+
 <!--First, contact your account manager to obtain access to the current Maestro closed beta program.--> 
 
 After your organization has been enrolled in the Maestro beta program, you can add the Maestro area for other users by using a layout template. 
@@ -326,9 +328,21 @@ The following table illustrates the main features that will be available in Maes
 
 ## Maestro release activity 
 
+<!--move the contents of this whole section to its own article: release-activity.md, in the same folder-->
+
 This section lists the features and patches that have been released after the launch of the Maestro closed beta program, on May 22, 2023. 
 
 The features are released weekly and are listed in the order of their release, with the most recent first. Customers who are participating in the Maestro closed beta program can access all features in their Preview and Production environments. 
+
+### Week of August 28, 2023
+
+#### Field visibility menu for the Table View toolbar
+
+Preview and production: August 31, 2023
+
+To display the right information on a given set of records, especially if you intend to share the view with others who need to see some but not all fields of a record type, you can now select which fields (or columns) to display and which to hide in the Table view.  
+
+You can hide or show individual fields, from each header of the field columns, or you can manage all fields of the record type from a setting in the table view toolbar.  
 
 ### Week of August 21, 2023
 
