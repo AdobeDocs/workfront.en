@@ -57,7 +57,7 @@ This page provides information about functionality that is included in the Fourt
                 </tr>  
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-21.md" class="MCXref xref" xrefformat="{para}">Enhancements to user assignments on boards and cards</a><span style="color: #ff0000;"> New in Preview!</span></p><p>Enhancements are now available that add flexibility when adding users to boards and cards in Adobe Workfront Boards.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-21.md" class="MCXref xref" xrefformat="{para}">Enhancements to user assignments on boards and cards</a></p><p>Enhancements are now available that add flexibility when adding users to boards and cards in Adobe Workfront Boards.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
                         <ul>
@@ -121,6 +121,9 @@ This page provides information about functionality that is included in the Fourt
                             <li>
                                 <p>Preview release: August 3, 2023</p>
                             </li>
+                            <li>
+                                <p>Production for Boards early access: N/A</p>
+                            </li>
                              <li>
                                 <p>Production for fast release: N/A</p>
                             </li>
@@ -151,7 +154,7 @@ This page provides information about functionality that is included in the Fourt
                  </tr>  
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-21.md" class="MCXref xref" xrefformat="{para}">Enhancements to experience when sending documents to SharePoint (GraphAPI)</a><span style="color: #ff0000;"> New in Preview!</span> </p><p>We've made some changes to make it easier to locate folders when sending documents to your SharePoint (GraphAPI) folders</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-21.md" class="MCXref xref" xrefformat="{para}">Enhancements to experience when sending documents to SharePoint (GraphAPI)</a></p><p>We've made some changes to make it easier to locate folders when sending documents to your SharePoint (GraphAPI) folders</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
                         <ul>
@@ -169,7 +172,7 @@ This page provides information about functionality that is included in the Fourt
                 </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-21.md" class="MCXref xref" xrefformat="{para}">Upgrades to drag-and-drop for document integrations</a><span style="color: #ff0000;"> New in Preview!</span> </p><p>We've made some enhancements to add clarity and remove user error when dragging and dropping a file into a linked folder.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-21.md" class="MCXref xref" xrefformat="{para}">Upgrades to drag-and-drop for document integrations</a></p><p>We've made some enhancements to add clarity and remove user error when dragging and dropping a file into a linked folder.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
                         <ul>
