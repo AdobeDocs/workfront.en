@@ -20,7 +20,6 @@ Consider the following when editing fields:
 * You can edit fields that you created or fields created by other users. <!--this will change with access levels/ permissions-->
 * You can edit a field in the record type table. You cannot edit a field from the Details page of a record. 
 * You cannot edit the Field type, after the field is saved.
-* You cannot edit the Record type of a Relationship field, after the field is saved.
 * You cannot deselect the Allow negative numbers setting that was previously selected, for a Number, Percentage, or Currency field if there are already negative values stored on the records it is attached to. 
 <!--this is not true yet; one piece of it is true and I added it as the bullet above: 
 * You cannot edit the options, or the special format of the following fields, after they are saved:

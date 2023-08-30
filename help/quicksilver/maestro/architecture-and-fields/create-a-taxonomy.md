@@ -9,6 +9,10 @@ hide: yes
 
 # Create taxonomy record types
 
+>[!IMPORTANT]
+>
+>Currently, Adobe Maestro is part of a closed beta program which is open to a limited number of customers. 
+
 Taxonomies are record types that capture attributes about operational record types in Adobe Maestro. 
 
 For example, Campaign can be an operational record type. The following are taxonomies which capture attributes about the Campaign record type: Region, Audience, Country. 

@@ -21,14 +21,26 @@ author: Alina
 
 # Connect record types
 
+>[!IMPORTANT]
+>
+>Currently, Adobe Maestro is part of a closed beta program which is open to a limited number of customers. 
+
+You can use Adobe Maestro to design fully-customizable workspaces that contain record types needed in your organization. A way to indicate how individual record types relate to one another is to connect them. Additionally, you can connect connect Maestro record types with object types from other applications to enhance your users' experience and keep their focus in one application. 
+
 You can use connect the following: 
 
 * Two Maestro record types and their fields. 
 * A Maestro record type with an object type from another application and its fields. 
 
-By doing this, you can display fields from the linked record or object on another Maestro record.  
+By doing this, you can display fields from the linked record or object type on another Maestro record.  
 
-This article describes how you can connect two Maestro record types or a Maestro record type with an object from another application. For information about connecting a Maestro record to an object from another application, see [Connect records](../architecture-and-fields/connect-records.md). 
+This article describes how you can connect two Maestro record types or a Maestro record type with an object from another application. 
+
+After the connection between record or object types is established, you can connect individual records to one another. 
+
+For information about connecting a Maestro record to an object from another application, see [Connect records](../architecture-and-fields/connect-records.md). 
+
+For an example of connecting record types, see [Example of connecting record types and records](../architecture-and-fields/example-connect-record-types-and-records.md). 
 
 <!--ensure this last linked article is right; the title and the link should have changed-->
 

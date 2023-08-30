@@ -17,7 +17,7 @@ hide: yes
 -->
 <!--udpate the metadata with real information when making this avilable in TOC and in the left nav-->
 
-<!--if you change steps here, also update steps in the "Manage relationship fields" article-->
+<!--if you change steps here, also update steps in the "Connect records" article-->
 
 # Connect records 
 
@@ -26,6 +26,8 @@ You can connect Adobe Maestro records to one another or to objects from other ap
 You must first connect two record types together or a record type to an object from another application, and then you can use the Table view of the record type to connect records to one another or records to other objects. 
 
 For information about connecting record types to one another or to object types from other applications, see [Connect record types](../architecture-and-fields/connect-record-types.md).
+
+For an example of connecting record types, see [Example of connecting record types and records](../architecture-and-fields/example-connect-record-types-and-records.md).
 
 You can connect the following: 
 
