@@ -112,7 +112,7 @@ You must have the following access to perform the steps in this article:
         <li> <p><a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md" class="MCXref xref">Grant access to issues</a> </p> </li> 
         <li> <p><a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Share an issue </a> </p> </li> 
        </ul> </p> </li> 
-     <li><strong>[!UICONTROL Allow Primary Contact to have access to the task]</strong>: Gives the primary contact (issue creator) access to the task to review the task, make updates, and stay informed of its progress</li> 
+     <li><strong>[!UICONTROL Allow Primary Contact to have access to the task]</strong>: Gives the primary contact (issue creator) access to the task to review the task, stay informed of its progress, and make comments on the Updates section of the task.</li> 
      <li> <p><strong>[!UICONTROL Allow these settings to be changed during conversion]</strong>: Allows the user who is converting the issue to change these options during the conversion of an issue to a task.</p> <!--
        Screenshot when possible</p>
       --> </li> 
@@ -127,9 +127,9 @@ You must have the following access to perform the steps in this article:
         <li> <p><a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md" class="MCXref xref">Grant access to issues</a> </p> </li> 
         <li> <p><a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Share an issue </a> </p> </li> 
        </ul> </p> </li> 
-     <li><strong>[!UICONTROL Allow Primary Contact to have access to the project]</strong>: Gives the primary contact (issue creator) access to the project to review the project, make updates, and stay informed of its progress.</li> 
+     <li><strong>[!UICONTROL Allow Primary Contact to have access to the project]</strong>: Gives the primary contact (issue creator) access to the project to review the project, stay informed of its progress, and make comments on the Updates section of the project.</li> 
      <li><strong>[!UICONTROL Allow these settings to be changed during conversion]</strong>: Allows the user who is converting the issue to change the listed options during the conversion of an issue to a project.</li> 
-    </ul> </td> 
+    </ul> </td>
   </tr> 
  </tbody> 
 </table>
