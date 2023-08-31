@@ -162,10 +162,7 @@ This page provides information about functionality that is included in the Fourt
                                 <p>Preview release: August 24<br /></p>
                             </li>
                             <li>
-                                <p>Production for fast release: TBD</p>
-                            </li>
-                            <li>
-                                <p>Production for quarterly release: TBD</p>
+                                <p><span class="preview">Production for all customers: August 31, 2023</span>
                             </li>
                         </ul>
                     </td>
@@ -180,10 +177,7 @@ This page provides information about functionality that is included in the Fourt
                                 <p>Preview release: August 24<br /></p>
                             </li>
                             <li>
-                                <p>Production for fast release: TBD</p>
-                            </li>
-                            <li>
-                                <p>Production for quarterly release: TBD</p>
+                                <p><span class="preview">Production for all customers: August 31, 2023</span>
                             </li>
                         </ul>
                     </td>
@@ -229,7 +223,8 @@ This page provides information about functionality that is included in the Fourt
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">Dynamic re-calculation of calculated fields on forms</a> </p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">Dynamic re-calculation of calculated fields on forms</a></p>
+                        <p>[!BADGE In production for Fast Release ]{type=Positive}</p>
                         <p>Calculated fields on a form attached to an object are now dynamically re-calculated in real time when dependent values on any form on the page are modified. This allows you to see the updated results without saving the form.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
@@ -249,6 +244,7 @@ This page provides information about functionality that is included in the Fourt
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">Set planned hours on child recurring tasks with Simple duration type without assignments</a></p>
+                        <p>[!BADGE In production for Fast Release ]{type=Positive}</p>
                         <p>We have made a change in the way Planned Hours are allocated to recurring tasks with no assignments and a Simple duration type. Now, when you set Planned Hours on a new recurring task with a Simple Duration Type and no assignments, the hours are also allocated to the individual recurrences. Prior to this change, the hours were not saved for individual recurrences when the parent tasks were unassigned.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
@@ -346,6 +342,7 @@ This page provides information about functionality that is included in the Fourt
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md" class="MCXref xref" xrefformat="{para}">New commenting experience beta enhancements</a> </p>
+                        <p>[!BADGE In production for Fast Release ]{type=Positive}</p>
                         <p>Enhancements to the Updates section are being made available within the Fourth Quarter 2023 release timeframe for the commenting experience beta. These enhancements will be made available in the Production environment for all customers with the Fourth Quarter 2023 release (October 2023).</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
