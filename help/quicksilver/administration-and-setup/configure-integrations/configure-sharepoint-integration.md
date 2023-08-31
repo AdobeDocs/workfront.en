@@ -15,8 +15,6 @@ exl-id: fd45e1bc-9a35-4960-a73a-ff845216afe4
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">**DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **</p>
 -->
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.</span>
-
 >[!IMPORTANT]
 >
 >The new [!DNL SharePoint] integration was released to production with the 22.3 release (July 2022.) Although your users can still access documents linked through the legacy [!DNL SharePoint] integration, they must use the new [!DNL SharePoint] integration to link documents from SharePoint.
@@ -87,12 +85,12 @@ For instructions on linking documents from SharePoint through the new [!DNL Shar
 To send a document to SharePoint:
 
 1. Click the **Send to** icon ![Send to](assets/send-to-icon.png) and select SharePoint (Graph API).
-1. <span class="preview">(Optional) Search in the search bar for the site or folder where you want to send the document.</span>
+1. (Optional) Search in the search bar for the site or folder where you want to send the document.
 1. Select the site or folder from the list.
 
-   * <span class="preview">Sites are marked with ![Site icon](assets/site-icon.png).</span>
+   * Sites are marked with ![Site icon](assets/site-icon.png).
 
-   * <span class="preview">Folders are marked with ![Folder icon](assets/folder-icon.png).</span>
+   * Folders are marked with ![Folder icon](assets/folder-icon.png).
 
    * Files are not marked with an icon.
 

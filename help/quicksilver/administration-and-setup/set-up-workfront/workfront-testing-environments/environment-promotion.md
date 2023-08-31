@@ -120,7 +120,7 @@ The Environment Promotion capability is intended to provide the ability to move 
 
 The API authenticates each request to ensure that the client has access to view or modify a requested object.
 
-Authentication is performed by passing in a session ID or API key, which can be given using one the following methods:
+Authentication is performed by passing in a session ID or API key, which can be given using the following method:
 
 ### Request Header Authentication
 
@@ -186,7 +186,14 @@ POST https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/p
 ```json
 {
     "apikey": "**********",
-    - or -
+    "Content-Type": "application/json"
+}
+```
+
+Or
+
+```json
+{
     "sessionID": "*****************", 
     "Content-Type": "application/json"
 }
@@ -282,9 +289,15 @@ GET https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/pa
 
 ```json
 {
-    "apikey": "**********",
-    - or -
-    "sessionID": "*****************", 
+    "apikey": "**********"
+}
+```
+
+Or
+
+```json
+{
+    "sessionID": "*****************"
 }
 ```
 
@@ -343,9 +356,15 @@ GET https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/pa
 
 ```json
 {
-    "apikey": "**********",
-    - or -
-    "sessionID": "*****************", 
+    "apikey": "**********"
+}
+```
+
+Or
+
+```json
+{
+    "sessionID": "*****************"
 }
 ```
 
@@ -412,9 +431,15 @@ GET https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/pa
 
 ```json
 {
-    "apikey": "**********",
-    - or -
-    "sessionID": "*****************", 
+    "apikey": "**********"
+}
+```
+
+Or
+
+```json
+{
+    "sessionID": "*****************"
 }
 ```
 
@@ -525,7 +550,12 @@ PUT https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/pa
 ```json
 {
     "apikey": "**********",
-    - or -
+    "Content-Type": "application/json"
+}
+```
+
+```json
+{
     "sessionID": "*****************", 
     "Content-Type": "application/json"
 }
@@ -652,7 +682,14 @@ PATCH https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/
 ```json
 {
     "apikey": "**********",
-    - or -
+    "Content-Type": "application/json"
+}
+```
+
+Or
+
+```json
+{
     "sessionID": "*****************", 
     "Content-Type": "application/json"
 }
@@ -729,9 +766,15 @@ DELETE https://{domain}.{environment}.workfront.com/environment-promotion/api/v1
 
 ```json
 {
-    "apikey": "**********",
-    - or -
-    "sessionID": "*****************", 
+    "apikey": "**********"
+}
+```
+
+Or
+
+```json
+{
+    "sessionID": "*****************"
 }
 ```
 
@@ -790,7 +833,7 @@ There is currently no support for an UPDATE `action` in the alpha capabilities o
 #### URL
 
 ```
-POST https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/translationmap
+POST https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/packages/:id/prepare-installation
 ```  
  
 #### Headers 
@@ -798,7 +841,14 @@ POST https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/t
 ```json
 {
     "apikey": "**********",
-    - or -
+    "Content-Type": "application/json"
+}
+``` 
+
+Or
+
+```json
+{
     "sessionID": "*****************", 
     "Content-Type": "application/json"
 }
@@ -835,14 +885,14 @@ This call initiates an installation attempt of a promotion package into the targ
 
 #### Options
 
-If a `translationmap` is not provided in the POST body, the process will automatically initiate the `/translationmap` call. The `translationmap` that is returned will be used as is, with no opportunity to review or make adjustments to it.
+If a `translationmap` is not provided in the POST body, the process will automatically initiate the `/prepare-installation` call. The `translationmap` that is returned will be used as is, with no opportunity to review or make adjustments to it.
 
 If a `translationmap` is provided in the POST body, the installation process will use the mapping provided. This gives an installing user the opportunity to review and make adjustments as necessary before executing an installation attempt.
 
 #### URL
 
 ```
-POST https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/install
+POST https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/installations/{id}/install
 ```
 
 #### Headers
@@ -850,7 +900,14 @@ POST https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/i
 ```json
 {
     "apikey": "**********",
-    - or -
+    "Content-Type": "application/json"
+}
+```
+
+Or
+
+```json
+{
     "sessionID": "*****************", 
     "Content-Type": "application/json"
 }
@@ -891,16 +948,22 @@ The results include installation events from all environments the package has be
 #### URL
 
 ```
-GET https://{domain}.{environment}.workfront.com/environment-promotion/api/v1v1/installations?environmentPromotionPackageId={environmentPromotionPackageId}
+GET https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/installations?environmentPromotionPackageId={environmentPromotionPackageId}
 ```
 
 #### Headers
 
 ```json
 {
-    "apikey": "**********",
-    - or -
-    "sessionID": "*****************", 
+    "apikey": "**********"
+}
+```
+
+Or
+
+```json
+{
+    "sessionID": "*****************"
 }
 ```
 
@@ -989,9 +1052,15 @@ GET https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/in
 
 ```json
 {
-    "apikey": "**********",
-    - or -
-    "sessionID": "*****************", 
+    "apikey": "**********"
+}
+```
+
+Or
+
+```json
+{
+    "sessionID": "*****************"
 }
 ```
 
