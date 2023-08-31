@@ -57,7 +57,7 @@ This page provides information about functionality that is included in the Fourt
                 </tr>  
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-21.md" class="MCXref xref" xrefformat="{para}">Enhancements to user assignments on boards and cards</a><span style="color: #ff0000;"> New in Preview!</span></p><p>Enhancements are now available that add flexibility when adding users to boards and cards in Adobe Workfront Boards.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-21.md" class="MCXref xref" xrefformat="{para}">Enhancements to user assignments on boards and cards</a></p><p>Enhancements are now available that add flexibility when adding users to boards and cards in Adobe Workfront Boards.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
                         <ul>
@@ -121,6 +121,9 @@ This page provides information about functionality that is included in the Fourt
                             <li>
                                 <p>Preview release: August 3, 2023</p>
                             </li>
+                            <li>
+                                <p>Production for Boards early access: N/A</p>
+                            </li>
                              <li>
                                 <p>Production for fast release: N/A</p>
                             </li>
@@ -151,7 +154,7 @@ This page provides information about functionality that is included in the Fourt
                  </tr>  
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-21.md" class="MCXref xref" xrefformat="{para}">Enhancements to experience when sending documents to SharePoint (GraphAPI)</a><span style="color: #ff0000;"> New in Preview!</span> </p><p>We've made some changes to make it easier to locate folders when sending documents to your SharePoint (GraphAPI) folders</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-21.md" class="MCXref xref" xrefformat="{para}">Enhancements to experience when sending documents to SharePoint (GraphAPI)</a></p><p>We've made some changes to make it easier to locate folders when sending documents to your SharePoint (GraphAPI) folders</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
                         <ul>
@@ -159,17 +162,14 @@ This page provides information about functionality that is included in the Fourt
                                 <p>Preview release: August 24<br /></p>
                             </li>
                             <li>
-                                <p>Production for fast release: TBD</p>
-                            </li>
-                            <li>
-                                <p>Production for quarterly release: TBD</p>
+                                <p><span class="preview">Production for all customers: August 31, 2023</span>
                             </li>
                         </ul>
                     </td>
                 </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-21.md" class="MCXref xref" xrefformat="{para}">Upgrades to drag-and-drop for document integrations</a><span style="color: #ff0000;"> New in Preview!</span> </p><p>We've made some enhancements to add clarity and remove user error when dragging and dropping a file into a linked folder.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-21.md" class="MCXref xref" xrefformat="{para}">Upgrades to drag-and-drop for document integrations</a></p><p>We've made some enhancements to add clarity and remove user error when dragging and dropping a file into a linked folder.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
                         <ul>
@@ -177,10 +177,7 @@ This page provides information about functionality that is included in the Fourt
                                 <p>Preview release: August 24<br /></p>
                             </li>
                             <li>
-                                <p>Production for fast release: TBD</p>
-                            </li>
-                            <li>
-                                <p>Production for quarterly release: TBD</p>
+                                <p><span class="preview">Production for all customers: August 31, 2023</span>
                             </li>
                         </ul>
                     </td>
@@ -207,8 +204,10 @@ This page provides information about functionality that is included in the Fourt
                  </tr>  
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-july-26.md" class="MCXref xref" xrefformat="{para}">Updated design when adding a new issue to a project</a> </p><p>This update has been announced with the 23.3 release.
-                        <p>We have updated the New Issue box which displays when submitting a new issue to a project. Now, the interface matches the New request box which displays when submitting a new request to a request queue.  </p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-july-26.md" class="MCXref xref" xrefformat="{para}">Updated design when adding a new issue to a project</a> </p>
+                        <p>[!BADGE In production for Fast Release ]{type=Positive}</p>
+                        <p>This update has been announced with the 23.3 release.</p>
+                        <p>We have updated the New Issue box which displays when submitting a new issue to a project. Now, the interface matches the New request box which displays when submitting a new request to a request queue.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
                         <ul>
@@ -226,7 +225,8 @@ This page provides information about functionality that is included in the Fourt
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">Dynamic re-calculation of calculated fields on forms</a> </p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">Dynamic re-calculation of calculated fields on forms</a></p>
+                        <p>[!BADGE In production for Fast Release ]{type=Positive}</p>
                         <p>Calculated fields on a form attached to an object are now dynamically re-calculated in real time when dependent values on any form on the page are modified. This allows you to see the updated results without saving the form.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
@@ -246,6 +246,7 @@ This page provides information about functionality that is included in the Fourt
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">Set planned hours on child recurring tasks with Simple duration type without assignments</a></p>
+                        <p>[!BADGE In production for Fast Release ]{type=Positive}</p>
                         <p>We have made a change in the way Planned Hours are allocated to recurring tasks with no assignments and a Simple duration type. Now, when you set Planned Hours on a new recurring task with a Simple Duration Type and no assignments, the hours are also allocated to the individual recurrences. Prior to this change, the hours were not saved for individual recurrences when the parent tasks were unassigned.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
@@ -343,6 +344,7 @@ This page provides information about functionality that is included in the Fourt
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md" class="MCXref xref" xrefformat="{para}">New commenting experience beta enhancements</a> </p>
+                        <p>[!BADGE In production for Fast Release ]{type=Positive}</p>
                         <p>Enhancements to the Updates section are being made available within the Fourth Quarter 2023 release timeframe for the commenting experience beta. These enhancements will be made available in the Production environment for all customers with the Fourth Quarter 2023 release (October 2023).</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
@@ -362,6 +364,7 @@ This page provides information about functionality that is included in the Fourt
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-release-activity.md" class="MCXref xref" xrefformat="{para}">New Canvas Dashboards beta enhancements</a> </p>
+                        <p>[!BADGE In production for Fast Release ]{type=Positive}</p>
                         <p>Enhancements to Canvas Dashboards are being made available within the Fourth Quarter 2023 release timeframe as part of the ongoing beta. These enhancements will be made available in the Production environment for all customers with the Fourth Quarter 2023 release (October 2023).</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
@@ -381,6 +384,7 @@ This page provides information about functionality that is included in the Fourt
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">New filter options for New Home</a> </p>
+                        <p>[!BADGE In production for Fast Release ]{type=Positive}</p>
                         <p>New filter options are now available for the My Work widget in New Home. Options include filters for object types (tasks, issues, and requests) and statuses (not ready, ready to start, working on, and completed).</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
@@ -419,6 +423,7 @@ This page provides information about functionality that is included in the Fourt
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">Try New Home button removed for accounts that have disabled New Home</a> </p>
+                        <p>[!BADGE In production for Fast Release ]{type=Positive}</p>
                         <p>The Try New Home button is no longer present for accounts where New Home has been disabled. New Home must be re-enabled by the system administrator before individual users can use the button to try New Home.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
@@ -438,6 +443,7 @@ This page provides information about functionality that is included in the Fourt
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">Change to New Home default widget set</a> </p>
+                        <p>[!BADGE In production for Fast Release ]{type=Positive}</p>
                         <p>The To-dos widget, which requires permission to create tasks, is now only present in the default widget set for users with the Standard, Plan, or Work license types. Additionally, the widget has been automatically removed from the Home pages of users with all other license types.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
