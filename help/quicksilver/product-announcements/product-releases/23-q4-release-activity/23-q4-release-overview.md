@@ -443,6 +443,7 @@ This page provides information about functionality that is included in the Fourt
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">Change to New Home default widget set</a> </p>
+                        <p>[!BADGE In production for Fast Release ]{type=Positive}</p>
                         <p>The To-dos widget, which requires permission to create tasks, is now only present in the default widget set for users with the Standard, Plan, or Work license types. Additionally, the widget has been automatically removed from the Home pages of users with all other license types.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
