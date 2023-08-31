@@ -833,7 +833,7 @@ There is currently no support for an UPDATE `action` in the alpha capabilities o
 #### URL
 
 ```
-POST https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/translationmap
+POST https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/packages/:id/prepare-installation
 ```  
  
 #### Headers 
@@ -885,14 +885,14 @@ This call initiates an installation attempt of a promotion package into the targ
 
 #### Options
 
-If a `translationmap` is not provided in the POST body, the process will automatically initiate the `/translationmap` call. The `translationmap` that is returned will be used as is, with no opportunity to review or make adjustments to it.
+If a `translationmap` is not provided in the POST body, the process will automatically initiate the `/prepare-installation` call. The `translationmap` that is returned will be used as is, with no opportunity to review or make adjustments to it.
 
 If a `translationmap` is provided in the POST body, the installation process will use the mapping provided. This gives an installing user the opportunity to review and make adjustments as necessary before executing an installation attempt.
 
 #### URL
 
 ```
-POST https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/install
+POST https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/installations/{id}/install
 ```
 
 #### Headers
@@ -948,7 +948,7 @@ The results include installation events from all environments the package has be
 #### URL
 
 ```
-GET https://{domain}.{environment}.workfront.com/environment-promotion/api/v1v1/installations?environmentPromotionPackageId={environmentPromotionPackageId}
+GET https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/installations?environmentPromotionPackageId={environmentPromotionPackageId}
 ```
 
 #### Headers
