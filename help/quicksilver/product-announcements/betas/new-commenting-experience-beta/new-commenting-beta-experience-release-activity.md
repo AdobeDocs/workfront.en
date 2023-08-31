@@ -10,6 +10,8 @@ exl-id: 1c0cb547-ac99-4cdf-8a74-2c47ad5a10ad
 ---
 # New commenting experience release activity
 
+<!--take the badge out when it comes to production GA for everyone-->
+
 <!--
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases. </span>  
 * <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)</span>  
@@ -71,13 +73,15 @@ We have updated the timestamp format of the user comments in the Comments tab of
 
 The changes do not affect system updates in the System Activity tab. 
 
-Preview and production: August 24, 2023
+Preview and production for all customers: August 24, 2023
 
 ### Week of August 14, 2023 
 
 [View a video demonstration of all the features released during the week of August 14, 2023](https://video.tv.adobe.com/v/3422912/){target=_blank}
 
 #### New commenting experience for additional objects 
+
+[!BADGE In production for Fast Release ]{type=Positive}
 
 The new commenting experience will be available for the following objects, shortly after the 23.3 release to Production: template tasks, templates, timesheets, teams, users, programs, portfolios.  
 
@@ -92,6 +96,8 @@ Production release for fast release: With the 23.8 release (August 31, 2023)
 Production release for all customers: With the 23.10 release (October, 2023)
 
 #### New design update for the new commenting stream 
+
+[!BADGE In production for Fast Release ]{type=Positive}
 
 We have redesigned the new commenting stream to give it a more updated look-and-feel. Some of the improvements are:  
 
@@ -116,6 +122,8 @@ For more information, see [Updates tab overview](../../../workfront-basics/updat
  Production for quarterly release: With the 23.10 release (October 2023)
 
 #### The new commenting experience is the default experience for projects, tasks, issues, and documents
+
+[!BADGE In production for Fast Release ]{type=Positive}
 
 We are making the new commenting experience the default experience for the following objects: projects, tasks, issues, and documents.  The legacy commenting experience will remain as an alternative option when accessing these objects.  
 
