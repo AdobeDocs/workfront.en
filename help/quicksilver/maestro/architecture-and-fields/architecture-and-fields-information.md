@@ -26,19 +26,24 @@ hide: yes
 
 As a marketing operations leader, you can use Adobe Maestro to organize work across the marketing lifecycle for all your teams.
 
-This articles in the following sections describe how you can configure Maestro and start using its capabilities: 
+With Maestro, you can fully customize your workflows, from deciding what object types (or record types) your organization uses to configuring how these objects link to one another. 
+
+Additionally, Maestro can link to object types from other systems, creating a coherent framework for all your processes.  
+
+This articles in the following sections describe how you can configure the Maestro workspaces, define the record types which are the building blocks of those workspaces, and start using its capabilities: 
 
 * [Create workspaces](../architecture-and-fields/create-workspaces.md)
+* [Workspace templates](../architecture-and-fields/workspace-templates.md)
 * [Overview of record types and taxonomies](../architecture-and-fields/overview-of-record-types-and-taxonomies.md)
 * [Create operational record types](../architecture-and-fields/create-record-types.md)
 * [Create taxonomy record types](../architecture-and-fields/create-a-taxonomy.md)
+* [Edit record types](../architecture-and-fields/edit-record-types.md)
+* [Connect record types](../architecture-and-fields/connect-record-types.md)
+* [Example of connecting record types and records](../architecture-and-fields/example-connect-record-types-and-records.md)
 * [Create fields in Adobe Maestro](../architecture-and-fields/create-fields.md)
 * [Edit fields](../architecture-and-fields/edit-fields.md)
-* [Edit record types](../architecture-and-fields/edit-record-types.md)
 * [Delete workspaces](../architecture-and-fields/delete-workspaces.md)
 * [Delete record types and taxonomies](../architecture-and-fields/delete-record-types-and-taxonomies.md)
 * [Delete fields in Adobe Maestro](../architecture-and-fields/delete-fields.md)
-* [Connect record types](../architecture-and-fields/connect-record-types.md)
-* [Workspace templates](../architecture-and-fields/workspace-templates.md)
-* [Example of connecting record types and records](../architecture-and-fields/example-connect-record-types-and-records.md)
+
 

@@ -15,7 +15,7 @@ hidefromtoc: yes
 hide: yes
 ---
 -->
-<!--udpate the metadata with real information when making this avilable in TOC and in the left nav-->
+<!--udpate the metadata with real information when making this available in TOC and in the left nav-->
 
 <!--if you change steps here, also update steps in the "Connect records" article-->
 
@@ -241,7 +241,7 @@ After you created a connection between a Maestro record type and a Workfront obj
     >
     >    You cannot delete a linked Workfront record type or any objects from the Workfront record type page. 
 
-1. (Optional) Click the add fields icon ![](assets/add-fields-icon.png) in the upper-right corner of the table view on the Workfront record type page, to add or remove Workfront fields from the Workfront record type.
+1. (Optional) Click the **Add fields** icon ![](assets/add-fields-icon.png) in the upper-right corner of the table view on the Workfront record type page, to add or remove Workfront fields from the Workfront record type.
 
     >[!NOTE]
     >

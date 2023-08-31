@@ -17,6 +17,11 @@ This article describes an example of the following:
 
 * How to create a connection between an Adobe Maestro record type and a Workfront project and a connection between a Maestro record and a project.
 
+For more information, also see the following articles:
+
+* [Connect record types](../architecture-and-fields/connect-record-types.md)
+* [Connect records](../records/connect-records.md)
+
 ## Connect two Maestro record types and records (example)
 
 For example, you have a record type named Campaign as your original record type. 

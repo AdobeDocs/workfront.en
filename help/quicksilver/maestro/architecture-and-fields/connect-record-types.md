@@ -169,15 +169,15 @@ You must have the following access to perform the steps described in this articl
 
 1. Click **Create**.
 
-    The **Add lookup fields** box opens. 
+1. (Conditional) If you selected the Select lookup field setting in the previous step, the **Add lookup fields** box opens. 
 
-    ![](assets/add-lookup-fields-for-another-maestro-record-type-box.png)
-
-1. Click the ![](assets/plus-icon.png) icon to add fields from the **Unselected fields** area. 
+    Click the **+** icon  to add fields from the **Unselected fields** area. 
 
     Or
   
-    Click the ![](assets/minus-icon.png) icon to remove fields from the **Selected fields** area
+    Click the **-** icon to remove fields from the **Selected fields** area
+
+    ![](assets/add-lookup-fields-for-another-maestro-record-type-box.png)
     
     >[!NOTE]
     >
@@ -205,7 +205,6 @@ You must have the following access to perform the steps described in this articl
     >* **SUM**: $220,000
     >* **AVG**: $110,000  
     >
-    >For more information, see [Example of connecting record types and records](../architecture-and-fields/create-connected-record-type-and-connect-records-example.md). 
 
 1. (Optional) Use the **search** icon ![](assets/search-icon.png) to search for a field.
 
@@ -215,17 +214,17 @@ You must have the following access to perform the steps described in this articl
 
     The following are added: 
 
-    * The linked record field that will display the records from the linked record type. The name of the linked record field is the name you selected in step 6. <!-- ensure this is still accurate-->
+    * The linked record field that will display the records from the linked record type, after you manually add them. The name of the linked record field is the name you selected in step 6. <!-- ensure this is still accurate--> 
     
-    * The linked field (or fields) that will display information from the fields of the linked record type, which is named according to this pattern: 
+    * The linked field (or fields) that will display information from the fields of the linked record type after you manually add the records in the linked record field. The linked fields are created only when the **Select lookup fields** setting is selected when creating the connection. The linked fields are named according to this pattern: 
 
         `<Name of the original field on the linked record> (from <Name of your linked field>)`
-    
-        For more information about connecting records and their fields, see [Example of connecting record types and records](../architecture-and-fields/create-connected-record-type-and-connect-records-example.md).
 
     * A linked record field on the record type you are linking to. The name of the linked record field on the linked record type is the name of the record type you link from. 
     
         For example, if you link the "Product" record type from the "Campaign" record type and you name the connected field of the Campaign "Linked Product", a "Campaign" linked field is created for the Product record type. 
+
+        <!--is the statement in the note below still accurate?? they were working on removing this from taxonomies-->
 
         >[!NOTE]
         >

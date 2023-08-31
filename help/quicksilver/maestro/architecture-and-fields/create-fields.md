@@ -58,10 +58,19 @@ You must create record types before you can create fields to associate with them
  </tbody>
 </table>
 
-*If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see [Create or modify custom access levels](../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+*If you don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see [Create or modify custom access levels](../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
 ## Considerations about Maestro fields
 
+* You can create fields only from the table view of a record type page. Fields display as columns in the table view. 
+
+    For information about managing table columns (or record fields), see [Manage the table view](../views/manage-the-table-view.md).
+
+    For information about managing fields, also see the following articles: 
+
+    * [Edit fields](../architecture-and-fields/edit-fields.md)
+    * [Delete fields](./delete-fields.md)
+    
 * The fields associated with a record type are available to be associated with all the records of that type. <!--will this change and will the fields be available for other record types, too?! Also, the next bullet might need to change too if this one changes -->
 
 * Fields associated with a record type cannot be added to another record type. <!-- this will change when they open the Field library tab when creating a field-->
@@ -116,7 +125,7 @@ You must create record types before you can create fields to associate with them
 
 * Field names can have up to 250 characters.
 
-* When deleting an operational record type, taxonomy, or workspace, all fields associated with them are also deleted and cannot be recovered. <!-- this might change with a possible recycle bin solution?!-->
+* When deleting an operational record type, taxonomy, or workspace, all fields associated with them and the fields' values are also deleted and cannot be recovered. <!-- this might change with a possible recycle bin solution?!-->
 
 
 ## Create fields from scratch {#create-fields-from-scratch} <!--in a table (not sure if this can be done elsewhere?!-->
@@ -151,7 +160,7 @@ You must create record types before you can create fields to associate with them
     
     >[!IMPORTANT]
     >
-    >    You cannot change the type of the field after you save it. 
+    >    You cannot change the Field type of the field after you save it. 
 
 1. Continue with adding each field, as described in the sections below.
 
@@ -201,8 +210,9 @@ You can use a multi-select field to capture additional information in any format
      * **Name**: The name of the field type, as it will appear in a table or the Details page of the record. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
      * **Description**: Additional information about the field. The description of a field displays when you hover over the field's column in a table.
      * **Choices**: The options  available to select from the drop-down menu after the field is saved. You can have both numbers and letters for the name of each choice. 
-1. (Optional) Manually drag and drop each choice in the desired order, or select the **Sort choices A-Z** option if you want the choices to be automatically listed in alphabetical order. <!--Add this if they added this functionality: You cannot edit this option after you save the field.-->
-1. Click **Add choice** to add as many choices or options as needed.      
+1. Click **Add choice** to add as many choices as needed. There is no limit to how many choices you can add to a multi-select field.
+1. (Optional) Manually drag and drop each choice in the desired order, or select the 
+**Sort choices A-Z** option if you want the choices to be automatically listed in alphabetical order. <!--Add this if they added this functionality: You cannot edit this option after you save the field.-->
 1. Click the **x** icon to the right of a choice to remove it.
 1. Click the color swatch to the left of a choice to expand the color selector and customize the color of each option. 
 1. Click **Create**. 
@@ -223,8 +233,8 @@ Single-select fields capture additional information in any format by selecting o
      * **Description**: Additional information about the field. The description of a field displays when you hover over the field's column in a table.
      * **Choices**: The options  available to select from the drop-down menu after the field is saved. You can have both numbers and letters for the name of each choice. 
      
+1. Click **Add choice** to add as many choices as needed. There is no limit to how many choices you can add to a single-select field.     
 1. (Optional) Manually drag and drop each choice in the desired order, or select the **Sort choices A-Z** option if you want the choices to be automatically listed in alphabetical order. <!--Add this if they added this functionality: You cannot edit this option after you save the field.-->
-1. Click **Add choice** to add as many choices or options as needed.      
 1. Click the **x** icon to the right of a choice to remove it.
 1. Click the color swatch to the left of a choice to expand the color selector and customize the color of each option. 
 1. Click **Create**. 
@@ -251,7 +261,7 @@ You can use a date field to capture additional information in date and time form
         * **Long**: May 16, 2023
         * **European**: 16/05/2023
         * **ISO**: 2023-05-16
-    * Include a time field: Select this option if you want to include a time stamp. Select from the following options:
+    * **Include a time field**: Select this option if you want to include a time stamp. Select from the following options:
         * **24hr**: For example: 18:00
         * **12hr**: For example: 6:00 PM
 
@@ -260,8 +270,6 @@ You can use a date field to capture additional information in date and time form
 1. Click **Create**. 
 
     The new date field is added as a column to the record type and its values can be associated with records. The field also displays on the Details page of a record.
-
-
 
 ### Number {#number}
 
@@ -279,7 +287,7 @@ Number field types capture information in a number format.
     
     >[!NOTE]
     >
-    >    If you select Allow negative numbers, and negative values are stored on the records the field is attached to, then you can no longer deselect the setting.
+    >    If you select Allow negative numbers, and negative values are stored on the records the field is attached to, then you can no longer deselect the setting in the future.
 
 1. Click **Create**.
 
@@ -301,7 +309,7 @@ Percentage field types capture information in a number format followed by a perc
 
     >[!NOTE]
     >
-    >    If you select Allow negative numbers, and negative values are stored on the records the field is attached to, then you can no longer deselect the setting.
+    >    If you select Allow negative numbers, and negative values are stored on the records the field is attached to, then you can no longer deselect the setting in the future.
 
 1. Click **Create**. 
 
@@ -324,7 +332,7 @@ Currency field types capture information in a number format preceded by a curren
 
     >[!NOTE]
     >
-    >    If you select Allow negative numbers, and negative values are stored on the records the field is attached to, then you can no longer deselect the setting. 
+    >    If you select Allow negative numbers, and negative values are stored on the records the field is attached to, then you can no longer deselect the setting in the future. 
 
 1. Click **Create**. 
 
