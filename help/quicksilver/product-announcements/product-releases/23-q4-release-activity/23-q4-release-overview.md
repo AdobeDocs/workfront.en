@@ -204,8 +204,10 @@ This page provides information about functionality that is included in the Fourt
                  </tr>  
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-july-26.md" class="MCXref xref" xrefformat="{para}">Updated design when adding a new issue to a project</a> </p><p>This update has been announced with the 23.3 release.
-                        <p>We have updated the New Issue box which displays when submitting a new issue to a project. Now, the interface matches the New request box which displays when submitting a new request to a request queue.  </p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-july-26.md" class="MCXref xref" xrefformat="{para}">Updated design when adding a new issue to a project</a> </p>
+                        <p>[!BADGE In production for Fast Release ]{type=Positive}</p>
+                        <p>This update has been announced with the 23.3 release.</p>
+                        <p>We have updated the New Issue box which displays when submitting a new issue to a project. Now, the interface matches the New request box which displays when submitting a new request to a request queue.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
                         <ul>
@@ -362,6 +364,7 @@ This page provides information about functionality that is included in the Fourt
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-release-activity.md" class="MCXref xref" xrefformat="{para}">New Canvas Dashboards beta enhancements</a> </p>
+                        <p>[!BADGE In production for Fast Release ]{type=Positive}</p>
                         <p>Enhancements to Canvas Dashboards are being made available within the Fourth Quarter 2023 release timeframe as part of the ongoing beta. These enhancements will be made available in the Production environment for all customers with the Fourth Quarter 2023 release (October 2023).</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
@@ -381,6 +384,7 @@ This page provides information about functionality that is included in the Fourt
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">New filter options for New Home</a> </p>
+                        <p>[!BADGE In production for Fast Release ]{type=Positive}</p>
                         <p>New filter options are now available for the My Work widget in New Home. Options include filters for object types (tasks, issues, and requests) and statuses (not ready, ready to start, working on, and completed).</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
@@ -419,6 +423,7 @@ This page provides information about functionality that is included in the Fourt
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">Try New Home button removed for accounts that have disabled New Home</a> </p>
+                        <p>[!BADGE In production for Fast Release ]{type=Positive}</p>
                         <p>The Try New Home button is no longer present for accounts where New Home has been disabled. New Home must be re-enabled by the system administrator before individual users can use the button to try New Home.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
