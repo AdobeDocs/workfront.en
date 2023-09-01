@@ -1,24 +1,24 @@
 ---
-title: Edit fields in Adobe Maestro
-description: In Adobe Maestro, you can edit custom fields for each kind of operational record type or taxonomy. 
+title: Edit fields
+description: In Adobe Maestro, you can edit the field settings for fields that are already created. 
 hidefromtoc: yes
 hide: yes
 ---
 
 <!--udpate the metadata with real information when making this avilable in TOC and in the left nav-->
 
-# Edit fields in Adobe Maestro
+# Edit fields 
 
 You can edit the field settings for fields that are already created. 
 
-For information about creating Adobe Maestro fields, see [Create Mestro fields](../architecture-and-fields/create-fields.md). 
+For information about creating Adobe Maestro fields, see [Create fields](../architecture-and-fields/create-fields.md). 
 
 This article describes how you can edit the settings for Maestro fields. For information about editing field values for Maestro records, see [Edit records](../maestro/edit-records.md). 
 
-Consider the following when editing fields: 
+## Considerations about editing field information
 
 * You can edit fields that you created or fields created by other users. <!--this will change with access levels/ permissions-->
-* You can edit a field in the record type table. You cannot edit a field from the Details page of a record. 
+* You can edit a field in the record type table. 
 * You cannot edit the Field type, after the field is saved.
 * You cannot deselect the Allow negative numbers setting that was previously selected, for a Number, Percentage, or Currency field if there are already negative values stored on the records it is attached to. 
 <!--this is not true yet; one piece of it is true and I added it as the bullet above: 
@@ -65,18 +65,28 @@ You must have the following to perform the steps described in this article:
   </tr>
 <tr>
    <td role="rowheader">Layout template</td>
-   <td> <p>Your system administrator must add the Maestro area in your layout template. For information, see the "Enable Maestro for the users in your Workfront instance" section in the article <a href="../maestro/maestro-overview.md">Adobe Maestro overview</a>. </p>  
+   <td> <p>Your system administrator must add the Maestro area in your layout template. For information, see the "Enable Maestro for the users in your Workfront instance" section in the article <a href="../maestro-overview.md">Adobe Maestro overview</a>. </p>  
 </td>
   </tr>
  </tbody>
 </table>
 
-*If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see [Create or modify custom access levels](../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+*If you don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see [Create or modify custom access levels](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
 ## Edit fields
 
-1. Go to the record type you want to edit a field for and find the field you want to edit in the column headers. 
-1. Hover over the column header, then click the downward-pointing arrow after the field name.
+1. Click the **Main Menu** icon ![](assets/main-menu-workfront.png) in the upper-right corner of Workfront, <!---or the **Main menu** icon ![](assets/main-menu-shell.png)  in the upper-left corner, if available--> then click **Maestro** ![](assets/maestro-icon.png).
+
+    The last-accessed workspace should open by default. 
+
+1. (Optional) Expand the downward-pointing arrow to the right of an existing workspace name and select the workspace that you want to delete record types for.  
+
+    The workspace opens and the record types and taxonomies associated with it display. 
+1. Click the card for the record type or the taxonomy whose fields you want to edit.
+
+    This opens the record type's page. 
+1. (Conditional) Select a **Table view** from the **View** drop-down menu in the upper-right corner of the record type page.
+1. Hover over the column header of a field you want to edit, then click the downward-pointing arrow after the field name.
 1. Click **Edit field**, then update information about the field and click **Save**.
 
     <!--insert screen shot when finalized-->

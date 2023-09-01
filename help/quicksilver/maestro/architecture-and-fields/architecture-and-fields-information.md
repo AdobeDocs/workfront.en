@@ -43,7 +43,7 @@ This articles in the following sections describe how you can configure the Maest
 * [Create fields in Adobe Maestro](../architecture-and-fields/create-fields.md)
 * [Edit fields](../architecture-and-fields/edit-fields.md)
 * [Delete workspaces](../architecture-and-fields/delete-workspaces.md)
-* [Delete record types and taxonomies](../architecture-and-fields/delete-record-types-and-taxonomies.md)
+* [Delete record types](../architecture-and-fields/delete-record-types.md)
 * [Delete fields in Adobe Maestro](../architecture-and-fields/delete-fields.md)
 
 

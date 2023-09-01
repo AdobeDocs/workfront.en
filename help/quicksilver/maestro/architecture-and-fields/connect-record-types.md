@@ -68,7 +68,7 @@ You must have the following access to perform the steps described in this articl
    <td>
    <p>Any</p> 
   <p>For more information, see <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p> </td>
-  </tr>
+  </tr> 
   <tr>
    <td role="rowheader"><p>Product</p></td>
    <td>
@@ -81,14 +81,13 @@ You must have the following access to perform the steps described in this articl
   </tr>
 <tr>
    <td role="rowheader"><p>Layout template</p></td>
-   <td> <p>Your system administrator must add the Maestro area in your layout template. For information, see the "Enable Maestro for the users in your Workfront instance" section in the article <a href="../maestro/maestro-overview.md">Adobe Maestro overview</a>. </p>  
+   <td> <p>Your system administrator must add the Maestro area in your layout template. For information, see the "Enable Maestro for the users in your Workfront instance" section in the article <a href="../maestro-overview.md">Adobe Maestro overview</a>. </p>  
 </td>
   </tr>
  </tbody>
 </table>
 
-*If you don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see [Create or modify custom access levels](../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
-
+*If you don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see [Create or modify custom access levels](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
 ## Considerations about connecting record types
 

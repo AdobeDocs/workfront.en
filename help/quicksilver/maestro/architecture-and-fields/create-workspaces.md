@@ -11,7 +11,7 @@ hide: yes
 
 In Adobe Maestro, workspaces are centralized locations for teams to plan work. 
 
-A workspace is a collection of operational record types and taxonomies used by a team and represents the team's work lifecycle. 
+A workspace is a collection of operational record types and taxonomies used by a team and represents the team's work lifecycle. You can fully customize workspaces in Maestro. 
 
 ## Access requirements
 
@@ -50,7 +50,7 @@ You must have the following to perform the steps described in this article:
   </tr>
 <tr>
    <td role="rowheader">Layout template</td>
-   <td> <p>Your system administrator must add the Maestro area in your layout template. For information, see the "Enable Maestro for the users in your Workfront instance" section in the article <a href="../maestro/maestro-overview.md">Adobe Maestro overview</a>. </p>  
+   <td> <p>Your system administrator must add the Maestro area in your layout template. For information, see the "Enable Maestro for the users in your Workfront instance" section in the article <a href="../maestro-overview.md">Adobe Maestro overview</a>. </p>  
 </td>
   </tr>
  </tbody>
@@ -58,7 +58,7 @@ You must have the following to perform the steps described in this article:
 
 >[!NOTE]
 >
->*If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see [Create or modify custom access levels](../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+>*If you don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see [Create or modify custom access levels](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
 ## Considerations about workspaces
 
@@ -66,6 +66,7 @@ You must have the following to perform the steps described in this article:
 * The record types and taxonomies that a workspace contains should reflect the work lifecycle of an organizational unit. 
 * When you create a workspace, everyone in your organization can view, edit, or delete it.  <!--this will change with access levels and permissions-->
 * You can have a maximum of 1,000 workspaces in your organization. 
+* Workspaces contain record types that are unique to each workspace. <!--this might change-->
 
 ## Create a workspace
 
@@ -86,13 +87,18 @@ You must have the following to perform the steps described in this article:
 
     ![](assets/previewing-a-workspace-template.png)
 
-    For information about the templates available in Maestro, see [List of available workspace templates](../architecture-and-fields/workspace-templates.md).
+    For information about Maestro workspace templates, see [List of available workspace templates](../architecture-and-fields/workspace-templates.md).
 
 1. Click **Use template** to start creating the workspace from the selected template
 
     Or
 
-    Click **Create workspace** to create a workspace from scratch
+    Click **Create workspace** to create a workspace from scratch.
+
+    One for the following types of workspaces is created:
+    
+    * An empty workspace where you can start adding record types manually. 
+    * A workspace populated with sample record types which you can further customize. 
      
 1. Click inside the name of the workspace in the header of the new workspace to rename it, then press Enter
 
@@ -106,4 +112,4 @@ You must have the following to perform the steps described in this article:
 
 1. (Optional) Click **Add taxonomy** to add taxonomies to the workspace. 
 
-    For information, see [Create taxonomies](../architecture-and-fields/create-a-taxonomy.md) 
+    For information, see [Create taxonomies](../architecture-and-fields/create-a-taxonomy.md). 

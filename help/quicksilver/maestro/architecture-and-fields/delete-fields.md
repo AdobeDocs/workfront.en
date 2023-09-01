@@ -11,17 +11,16 @@ hide: yes
 
 In Adobe Maestro, you can create custom fields to store information about records. 
 
-For information about creating Maestro records, see [Create Maestro fields](../architecture-and-fields/create-fields.md). 
+For information about creating custom fields in Maestro, see [Create fields](../architecture-and-fields/create-fields.md). 
 
 You can delete Maestro fields that are no longer relevant. 
 
-Consider the following when deleting Maestro fields:
+## Considerations about deleting Maestro fields:
 
 * You can delete fields that you created or fields created by other users. <!--this will change with access levels/ permissions-->
-* You can delete a field in the record type table. You cannot delete a field from the Details page of a record. 
+* You can delete a field only in the record type table. 
 * Any information stored in the field is deleted and cannot be recovered. 
 <!-- this is not possible yet, since fields cannot be shared yet; maybe move this up a bit, in this bullet list: * When you delete a field, it is deleted from all records associated with the field.-->
-* Deleted fields cannot be recovered. 
 
 ## Access requirements
 
@@ -58,19 +57,23 @@ Consider the following when deleting Maestro fields:
   </tr>
 <tr>
    <td role="rowheader">Layout template</td>
-   <td> <p>Your system administrator must add the Maestro area in your layout template. For information, see the "Enable Maestro for the users in your Workfront instance" section in the article <a href="../maestro/maestro-overview.md">Adobe Maestro overview</a>. </p>  
+   <td> <p>Your system administrator must add the Maestro area in your layout template. For information, see the "Enable Maestro for the users in your Workfront instance" section in the article <a href="../maestro-overview.md">Adobe Maestro overview</a>. </p>  
 </td>
   </tr>
  </tbody>
 </table>
 
-*If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see [Create or modify custom access levels](../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+*If you don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see [Create or modify custom access levels](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
 ## Delete fields
 
 <!--When they release the sharing of fields between other records, revise this section.  -->
 
-1. Go to the record type you want to delete a field from. 
+1. Click the **Main Menu** icon ![](assets/main-menu-workfront.png) in the upper-right corner of Workfront, <!--or the **Main menu** icon ![](assets/main-menu-shell.png)  in the upper-left corner, if available--> then click **Maestro** ![](assets/maestro-icon.png).
+    
+    This opens the last-accessed workspace in Maestro. 
+1. Click the card of a record type whose fields you want to delete. 
+1. (Conditional) Select a **Table view** from the **View** drop-down menu in the upper-right corner of the record type page. 
 1. Find the field you want to delete in the column headers, and hover over the column header, then click the downward-pointing arrow after the field name. 
 1. Click **Delete**. <!-- check this: they might replace it with **Delete field**-->
 
@@ -78,4 +81,4 @@ Consider the following when deleting Maestro fields:
 
 1. Click **Delete** to confirm. 
 
-    The field is deleted and can no longer be associated with any records. 
+    The field is deleted, cannot be recoverd, and can no longer be associated with any records. 

@@ -1,6 +1,15 @@
 ---
 title: Edit record types
-description: You can edit record types after they have been saved. Record types are the objects of Adobe Maestro.
+description: You can edit record types after they have been saved. Record types are the objec types of Adobe Maestro.
+author: Alina
+hidefromtoc: yes
+hide: yes
+---
+
+<!--udpate the metadata with real information when making this avilable in TOC and in the left nav
+---
+title: Edit record types
+description: You can edit record types after they have been saved. Record types are the objec types of Adobe Maestro.
 author: Alina
 role: User
 feature: Work Management 
@@ -9,12 +18,11 @@ hidefromtoc: yes
 hide: yes
 ---
 
-<!--udpate the metadata with real information when making this avilable in TOC and in the left nav-->
-
+-->
 
 # Edit record types
 
-Record types are the object types of Adobe Maestro. You can edit record types that you or anyone else created. For information about creating Maestro record types, see [Create record types](../architecture-and-fields/create-record-types.md). 
+Record types are the object types of Adobe Maestro. You can edit the appearance of record types that you or anyone else created. For information about creating Maestro record types, see [Create record types](../architecture-and-fields/create-record-types.md). 
 
 ## Access requirements
 
@@ -53,7 +61,7 @@ You must have the following access to perform the steps in this article:
   </tr>
 <tr>
    <td role="rowheader">Layout template</td>
-   <td> <p>Your system administrator must add the Maestro area in your layout template. For information, see the "Enable Maestro for the users in your Workfront instance" section in the article <a href="../maestro/maestro-overview.md">Adobe Maestro overview</a>. </p>  
+   <td> <p>Your system administrator must add the Maestro area in your layout template. For information, see the "Enable Maestro for the users in your Workfront instance" section in the article <a href="../maestro-overview.md">Adobe Maestro overview</a>. </p>  
 </td>
   </tr>
  </tbody>
@@ -61,7 +69,7 @@ You must have the following access to perform the steps in this article:
 
 >[!NOTE]
 >
->*If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see [Create or modify custom access levels](../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+>*If you don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see [Create or modify custom access levels](../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
 
 ## Edit record types
@@ -71,7 +79,7 @@ You must have the following access to perform the steps in this article:
     The last-accessed workspace should open by default. 
 
 1. (Optional) Expand the downward-pointing arrow to the right of an existing workspace name and select the workspace that you want to create record types for.
-1. Hover on a record type and click the **More** menu ![](assets/more-menu.png) in the upper-right corner of the record type card, then click Update appearance. 
+1. Hover over the card of a record type and click the **More** menu ![](assets/more-menu.png) in the upper-right corner of the record type card, then click Update appearance. 
 
     ![](assets/update-appearance-link-from-more-menu-on-record-type-card.png)
 

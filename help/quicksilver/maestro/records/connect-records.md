@@ -77,7 +77,7 @@ You must have the following to perform the steps described in this article:
   <tr>
    <td role="rowheader"><p>Access level*</p></td>
    <td> <p>Any, to create Maestro records</p>
-<p>View or higher access to Projects</p> 
+<p>View or higher access to Projects, Portfolios, Programs</p> 
 </td>
   </tr>
 <tr>

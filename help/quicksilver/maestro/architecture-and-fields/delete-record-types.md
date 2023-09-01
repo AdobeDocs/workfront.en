@@ -1,6 +1,14 @@
 ---
 title: Delete record types
-description: You can delete record types or taxonomies when they are no longer relevant. 
+description: You can delete operational record types or taxonomy record types when they are no longer relevant. 
+hidefromtoc: yes
+hide: yes
+---
+
+<!--udpate the metadata with real information when making this avilable in TOC and in the left nav:
+---
+title: Delete record types
+description: You can delete operational record types or taxonomy record types when they are no longer relevant. 
 author: Alina
 feature: Work Management
 topic: Architecture
@@ -8,12 +16,11 @@ role: User
 hidefromtoc: yes
 hide: yes
 ---
+-->
 
-<!--udpate the metadata with real information when making this avilable in TOC and in the left nav-->
+# Delete record types
 
-# Delete record types and taxonomies
-
-You can delete record types or taxonomies when they are no longer relevant. 
+You can delete operational record types or taxonomy record types when they are no longer relevant. 
 
 For information about record types and taxonomies, see [Overview of record types and taxonomies](../architecture-and-fields/overview-of-record-types-and-taxonomies.md).
 
@@ -58,7 +65,7 @@ You must have the following access to perform the steps in this article:
   </tr>
 <tr>
    <td role="rowheader">Layout template</td>
-   <td> <p>Your system administrator must add the Maestro area in your layout template. For information, see the "Enable Maestro for the users in your Workfront instance" section in the article <a href="../maestro/maestro-overview.md">Adobe Maestro overview</a>. </p>  
+   <td> <p>Your system administrator must add the Maestro area in your layout template. For information, see the "Enable Maestro for the users in your Workfront instance" section in the article <a href="../maestro-overview.md">Adobe Maestro overview</a>. </p>  
 </td>
   </tr>
  </tbody>
@@ -66,19 +73,19 @@ You must have the following access to perform the steps in this article:
 
 >[!NOTE]
 >
->*If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see [Create or modify custom access levels](../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+>*If you don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see [Create or modify custom access levels](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
 ## Considerations when deleting record types
 
 <!--check this and ensure these are still true - some things might change with / after closed beta-->
 
-* You can delete any record type or taxonomy that either you or anyone in your organizaton has created. <!--this will change with access levels and permissions-->
-* Deleting record types deletes all the information associated with them, including fields and records of that type. 
+* You can delete any record type or taxonomy that either you or anyone in your organization has created. <!--this will change with access levels and permissions-->
+* Deleting record types removes all the information associated with them, including fields and records of that type. 
 * You cannot recover deleted record types or their information. 
 
-## Delete record types and taxonomies
+## Delete record types
 
-Deleting taxonomies is identical to deleting record types. 
+Deleting taxonomy record types is identical to deleting operational record types. 
 
 1. Click the **Main Menu** icon ![](assets/main-menu-workfront.png) in the upper-right corner of Workfront, <!---or the **Main menu** icon ![](assets/main-menu-shell.png)  in the upper-left corner, if available--> then click **Maestro** ![](assets/maestro-icon.png).
 
@@ -87,8 +94,10 @@ Deleting taxonomies is identical to deleting record types.
 1. (Optional) Expand the downward-pointing arrow to the right of an existing workspace name and select the workspace that you want to delete record types for.  
 
     The workspace opens and the record types and taxonomies associated with it display. 
-1. Click the record type or the taxonomy that you want to delete. 
+1. Click the card for the record type or the taxonomy that you want to delete. 
+
+    This opens the record type's page. 
 1. Click the **More** menu ![](assets/more-menu.png) to the right of the record type name, then click **Delete**. 
 1. Click **Delete** to confirm. 
 
-    The selected record type or taxonomy, along with their fields and associated records are deleted. 
+    The selected record type or taxonomy, along with their fields and associated records, are deleted. 

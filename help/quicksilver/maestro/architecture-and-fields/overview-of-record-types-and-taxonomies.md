@@ -15,18 +15,16 @@ Maestro object types are called "record types". Record types are the building bl
     
 ## Record type overview
     
-In Maestro, you can create custom object types that meet your organization's needs.
+In Maestro, you can create custom record types that meet your organization's needs.
+ 
+* The following are Maestro record types: 
 
-You can also import record types from other applications by connecting Maestro records with objects from another application.
+    * [Operational Record Type](#operational-record-type): A record type that represents strategic plans, initiatives, or planned work. For example, Campaign, Activity, Tactic, Opportunity can be operational record types. 
+    * [Taxonomy](#taxonomy): Record types that capture attributes about an operational record type. For example, Region, Address, Audience can be taxonomies. 
 
-<!--Will be available later: You can also define how the record types relate to one another or form dependencies.--> 
-    
-There are two kinds of Maestro record types: 
-
-* [Operational Record Type](#operational-record-type)
-* [Taxonomy](#taxonomy)
-
-You can have a combined total of 1,000 operational record types and taxonomies in one workspace.
+* When you create a record type, everyone in your organization can view, edit, or delete it. <!--this will change with access levels and permissions-->
+* You must create a workspace before you can create record types for the workspace.  
+* You can have a combined total of 1,000 operational record types and taxonomies in one workspace. This includes record types or taxonomies that you create from scratch or that you import from other systems. 
 
 ### Operational Record Type{#operational-record-type}
 
@@ -42,7 +40,7 @@ A taxonomy is a record type that captures attributes about an operational record
 
 ![](assets/taxonomy-record-type-blank.png)
 
-For more information about taxonomy record types including how to create them, see [Create a taxonomy](../architecture-and-fields/create-a-taxonomy.md). 
+For more information about taxonomy record types, see [Create a taxonomy](../architecture-and-fields/create-a-taxonomy.md). 
 
 Although creating taxonomies is identical to creating operational record types, Maestro distinguishes conceptually between an operational record type and a taxonomy record type. The purpose of taxonomies is to enhance operational record types. Taxonomies should not directly represent work objects.  <!--this is no longer true, but might be later?!: A taxonomy is a record without dates, like a static list of attributes.--> 
 
@@ -59,7 +57,11 @@ The following table illustrates some of the similarities and differences between
 | Record type and characteristic                              | Operational Record Type | Taxonomy Record Type |
 |-------------------------------------------------------------|:-----------------------:|:--------------------:|
 | They are part of a workspace                                |            ✓            |           ✓          |
-| You can create from a workspace template                    |            ✓            |           ✓          |
+| You can create them automatically, from a workspace template                    |            ✓            |           ✓          |
+| You can create them manually, from scratch                    |            ✓            |           ✓          |
+| You can create them by copying and pasting information from an external file or list                   |            ✓            |           ✓          |
+| You can create by importing an Excel or CSV file                    |            ✓            |                     |
+| You can create read-only record types by connecting to object types from other applications                    |            ✓            |                     |
 | They represent work-related objects                         |            ✓            |                      |
 | They represent attributes about work-related objects        |                         |           ✓          |
 | You can create from scratch                                 |            ✓            |           ✓          |

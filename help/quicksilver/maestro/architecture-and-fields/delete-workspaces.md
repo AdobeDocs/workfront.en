@@ -50,7 +50,7 @@ We recommend recreating some or all of the record types and taxonomies associate
   </tr>
 <tr>
    <td role="rowheader">Layout template</td>
-   <td> <p>Your system administrator must add the Maestro area in your layout template. For information, see the "Enable Maestro for the users in your Workfront instance" section in the article <a href="../maestro/maestro-overview.md">Adobe Maestro overview</a>. </p>  
+   <td> <p>Your system administrator must add the Maestro area in your layout template. For information, see the "Enable Maestro for the users in your Workfront instance" section in the article <a href="../maestro-overview.md">Adobe Maestro overview</a>. </p>  
 </td>
   </tr>
  </tbody>
@@ -58,13 +58,13 @@ We recommend recreating some or all of the record types and taxonomies associate
 
 >[!NOTE]
 >
->*If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see [Create or modify custom access levels](../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+>*If you don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see [Create or modify custom access levels](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
 ## Considerations about deleting workspaces
 
 * You can delete any workspace that either you or anyone in your organizaton has created. <!--this will change with access levels and permissions-->
 * When you delete workspaces, all the record types, taxonomies, and their fields are also deleted. <!--asked Lilit because the confirmation says the records don't delete, but not sure how they can exist outside of a workspace?!-->
-* Deleted workspaces cannot be recovered. 
+* Deleted workspaces and the information they contain cannot be recovered. 
 
 ## Delete a workspace
 

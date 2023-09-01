@@ -115,3 +115,6 @@ You can import records from other applications into Maestro linked record types.
 
       For example, if you connect a Maestro record type to Workfront projects, a read-only record type named "Workfront projects" is created in the same workspace. 
     * Read-only records in the third-party record type page. The records imported from the third-party application remain read-only and can only be updated in their original application. 
+
+
+## Create records by copying and pasting information from an external list

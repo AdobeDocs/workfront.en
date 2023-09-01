@@ -191,11 +191,16 @@ The following are the main Maestro objects and concepts:
     * Currency
     * Checkbox  
    
-* **Linked records**:  You can create a connection between two Maestro record types, or between a Maestro record type and a Workfront project object. 
+* **Linked record types** and **Linked records**:  You can create a connection between the following entities:
+    
+    * Two Maestro record types
+    * A Maestro record type and a Workfront project, program, or portfolio object type. 
 
     ![](assets/new-connection-tab-with-workfront-option.png)
 
-* **Linked fields** (or lookup fields): After establishing the connection between two record types and link records together, you can reference the linked records' fields on the record you are connecting from.
+    After you establish a connection between the record types, you can connect individual records of those types to one another. 
+
+* **Linked fields** (or lookup fields): After establishing the connection between two record types and you link individual records together, you can reference the linked records' fields on the record you are connecting from.
 
     ![](assets/add-lookup-fields-modal.png)
 
@@ -210,7 +215,7 @@ The following are the main Maestro objects and concepts:
     
     The following are view types that you can apply to the record type page: 
 
-    * **Table view**: The rows of the table are the individual records, and the columns are the record fields. This is the default view. 
+    * **Table view**: Displays records and their fields in a table format. The rows of the table are the individual records, and the columns are the record fields. This is the default view. 
 
         ![](assets/table-view-example.png)
 
@@ -309,19 +314,23 @@ The following table illustrates the main features that will be available in Maes
 |     Create taxonomies                              |   ✓                           |                                  |                  |
 |     Create individual, named records and taxonomies|   ✓                           |                                  |                  |
 |     Create record custom fields                    |   ✓                           |                                  |                  |
-|     Import record types and fields using an Excel file                              |   ✓                           |                                  |                  |
+|     Import record types and fields using an Excel  or CSV file                              |   ✓                           |                                  |                  |
 |     Link records                                   |   ✓                           |                                  |                  |
 |     View records in a table                        |   ✓                           |                                  |                  |
 |     View records in a timeline                     |   ✓                           |                                  |                  |
 |     Filter records                                 |   ✓                           |                                  |                  |
 |     Group records in the timeline view             |   ✓                           |                                  |                  |
 |     Group records in the table view                |                               |   ✓                              |                  |
-|     Sort records                                   |                               |   ✓                              |                  |
-|     Link workspaces                                |                               |   ✓                              |                  |
-|     Connect Maestro records to Workfront projects  |   ✓                            |                                 |                  |
+|     Sort records in the table view                                 |  ✓                             |                                 |                  |
+|     Sort records in the timeline view                                 |                               |   ✓                              |                  |
+|     Sort groupings in the table view                                 |                               |   ✓                              |                  |
+|     Sort groupings in the timeline view                                 |                               |   ✓                              |                  |
+|     Connect workspaces                                |                               |   ✓                              |                  |
+|     Connect Maestro records and taxonomies  |   ✓                            |  
+|     Connect Maestro records to Workfront projects, programs, portfolios  |   ✓                            |                                 |                  |
 |     Record details page                            |   ✓                           |                                  |                  |
 |     Update the layout of the record Details page              |                               |   ✓                              |                  |
-| Access levels and permissions | | | ✓ |
+| Access levels and permissions | |✓ |  |
 |     Submit requests                                |                               |                                  |   ✓              |
 |     Creative brief                                 |                               |                                  |   ✓              |
 |     Customize the color and icon of a record                                 |      ✓                         |                                  |                 |
