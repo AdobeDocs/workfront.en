@@ -136,14 +136,12 @@ For information about what features are available for the new commenting experie
   * **Comments**: Displays comments made by users and replies to those comments. For information about updating objects in the new commenting experience, see [Update work](../updating-work-items-and-viewing-updates/update-work.md). 
   * **System Activity**: Displays system updates which are informational messages that Workfront creates to record certain events on an objects. For example, you can capture changes in status, name, or custom fields with system updates. Your Workfront or group administrator can enable system updates for your objects. For more information, see [Configure system updates](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
 
-  <!--enable this when we release the new update stream to ALL other objects and only if Anna's bug was fixed to include this - on or before October 2023: 
+    * The following objects don't have a System Activity tab:
 
-  * The following objects don't have a System Activity tab:
-
-  * Team
-  * Template
-  * Template Task
-    -->
+      * Team
+      * Template
+      * Template Task
+      * Ad-hoc Card
 
 *   Currently, you can add comments and reply to updates using the new commenting experience on the following objects:
 
