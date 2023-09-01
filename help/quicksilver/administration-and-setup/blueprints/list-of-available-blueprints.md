@@ -55,10 +55,10 @@ The [!UICONTROL General Internal Strategic Initiative] blueprint contains a proj
 **[!UICONTROL Human Resources Organization Setup]**
 This blueprint contains the configuration of organizational structures to expand to a Human Resources department.
 
-[!BADGE New!]{type=Informative} **[!UICONTROL Information Technology Organization Setup]**
+**[!UICONTROL Information Technology Organization Setup]**
 This blueprint contains the configuration of organizational structures to expand to an Information Technology use case.
 
-**[!UICONTROL Inherited Instance Basics | Checklist]**
+[!BADGE New!]{type=Informative} **[!UICONTROL Inherited Instance Basics | Checklist]**
 This blueprint contains a project template (or checklist) that you can review with a short list of questions, resources, and links for a clear understanding of how your Workfront instance has been configured. Use this when you recently inherited a Workfront instance and need guidance on where to start.
 
 **[!UICONTROL Integrated Campaign Execution]**
