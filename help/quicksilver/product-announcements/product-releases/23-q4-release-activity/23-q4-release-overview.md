@@ -162,7 +162,7 @@ This page provides information about functionality that is included in the Fourt
                                 <p>Preview release: August 24<br /></p>
                             </li>
                             <li>
-                                <p><span class="preview">Production for all customers: August 31, 2023</span>
+                                <p><span class="preview">Production for all customers: August 31, 2023</span></p>
                             </li>
                         </ul>
                     </td>
@@ -177,7 +177,7 @@ This page provides information about functionality that is included in the Fourt
                                 <p>Preview release: August 24<br /></p>
                             </li>
                             <li>
-                                <p><span class="preview">Production for all customers: August 31, 2023</span>
+                                <p><span class="preview">Production for all customers: August 31, 2023</span></p>
                             </li>
                         </ul>
                     </td>
@@ -412,10 +412,7 @@ This page provides information about functionality that is included in the Fourt
                                 <p>Preview release: August 17, 2023<br /></p>
                             </li>
                             <li>
-                                <p>Production for fast release: With the 23.8 release</p>
-                            </li>
-                            <li>
-                                <p>Production for quarterly release: With the 23.10 release</p>
+                                <p><span class="preview">Production for all customers: August 31, 2023</span></p>
                             </li>
                         </ul>
                     </td>
