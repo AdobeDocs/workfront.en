@@ -20,9 +20,13 @@ To view available templates, click the **Templates** icon ![](assets/fusion-temp
 
 These templates automate Workfront processes and workflows.
 
-### Workfront - Copy Program Custom Forms and Field Data to Associated New Projects
+### [!BADGE New!]{type=Informative} Workfront - Copy Program Custom Forms and Field Data to Associated New Projects
 
 This automation watches for new projects in programs with custom forms. It then adds those program custom forms and fields to the new projects.
+
+### [!BADGE New!]{type=Informative} Workfront - Copy Portfolio Custom Forms and Field Data to Associated New Projects
+
+This automation watches for new projects in portfolios with custom forms. It then adds those portfolio custom forms and fields to the new projects.
 
 ### Workfront - Convert approved issue to project
 
@@ -48,7 +52,7 @@ This template captures a project baseline upon any project status change noted i
 
 This template captures a project baseline on a weekly basis every Monday at 6am ET on projects filtered by portfolio, and creates an update in the update stream for logging.
 
-### Find project templates not used in policy time and notify
+### [!BADGE New!]{type=Informative} Find project templates not used in policy time and notify
 
 Once a month, review your project templates using your own policy with this easy to manage template that notifies appropriate users on templates in violation of your policy.
 
