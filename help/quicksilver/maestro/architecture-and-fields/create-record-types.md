@@ -9,7 +9,7 @@ hide: yes
 
 # Create record types
 
-Record types are the object types of Adobe Maestro. In Maestro, you can create custom record types which illustrate the work items needed in your organization's lifecycle. 
+Record types are the object types of Adobe Maestro. In Maestro, you can create custom record types which illustrate the work-related items needed in your organization's lifecycle. 
 
 Record types can be one of the following:
 

@@ -1,6 +1,6 @@
 ---
 title: Example of connecting record types and records
-description: This article describes an example of creating a connection between an Adobe Maestro record type and a Workfront project, as well as a connection between a Maestro record and a project. 
+description: This article describes an example of how to create a connection between an Adobe Maestro record type and a Workfront project object type. it also describes how you can connect a Maestro record with to an individual project. 
 hidefromtoc: yes
 hide: yes
 ---
@@ -15,7 +15,7 @@ This article describes an example of the following:
 
 * How to create a connection between two Maestro record types and two Maestro records.
 
-* How to create a connection between an Adobe Maestro record type and a Workfront project and a connection between a Maestro record and a project.
+* How to create a connection between an Adobe Maestro record type and a Workfront project object type, as well as a connection between a Maestro record and a project.
 
 For more information, also see the following articles:
 
@@ -90,17 +90,18 @@ To do this:
 1. To populate the **Campaign** field from the **Product** table view, repeat steps 5-7 starting from the Product record type table view and selecting campaign information. This will also update the Product information field in the Campaign record type page's table. <!--ensure the step numbers remain correct--> 
 
 
-## Connect a Maestro record type with a Workfront project and a record with individual projects
+## Connect a Maestro record type with a Workfront project object type and a record with individual projects
 
 For example, you have a record type named Campaign as your original record type. 
 
-You also have a project in Workfront called "Marketing Demo". 
+You also have projects in Workfront with a field called "Planned revenue." 
 
-You want to create a field on the record type of Campaign where you can show the values of the Planned Revenue field on the project in Workfront. 
+You want to create a connection field on the record type of Campaign where you can show the values of the Planned Revenue field on the project in Workfront for certain campaigns. 
 
 To do this:
 
-1. Open the table view for the Campaign record type. 
+1. Go to a Workspace where you want to connect the Campaign record type with Workfront projects. 
+1. Open the table view for the Campaign record type in the selected workspace.
 1. Click the **+** icon in the upper-right corner of the table view to add a new field, then click **New connection**. 
 1. Add the following information, for example:
 
@@ -117,7 +118,7 @@ To do this:
     >[!TIP]
     >
     >    If you want to view the Planned Revenue of all selected projects as one total number, select **SUM** in the drop-down menu to the right of the field name. When users select multiple projects in the **Project information** linked object field, the **Planned Revenue (from Product information)** field adds all their values together and displays the total. <!-- check the shot below - added a bug with a couple of UI changes here-->
-    > If you select **None**, instead of **SUM**, the individual Planned Revenues will display separated by commas.
+    > If you select **None**, instead of **SUM**, the individual Planned Revenues display separated by commas.
 
     ![](assets/add-planned-revenue-project-field-to-new-connection.png)
 
@@ -125,7 +126,7 @@ To do this:
     
     * In the Campaign record table view and in the Details page of a campaign: 
 
-        * **Project information** (the linked record field): This will display the name or names of the Projects. 
+        * **Project information** (the linked object field): This will display the name or names of the Projects. 
         * **Planned Revenue (from Project information)** (the linked field): This will display the Planned Revenues of the Projects selected in the Project information field. 
 
     >[!TIP]
@@ -139,9 +140,11 @@ To do this:
 
 1. Select the project or projects you want to connect with the Campaign records, then click **Connect objects**.
 
-    The following columns are populated in the Campaign record type table: 
-    * The **Project information** field populates for the Campaign record with the selected projects. 
-    * The **Planned Revenue (from Product information)** field populates with the Budget value for each selected Product. 
+    The following are added to the selected workspace: 
+    
+    * In the Campaign record type table: 
+        * The **Project information** field populates for the Campaign record with the selected projects. 
+        * The **Planned Revenue (from Product information)** field populates with the Budget value for each selected Product. This is a read-only field. 
 
     ![](assets/project-linked-field-and-planned-revenue-in-campaign-table-highlighted.png)
 
@@ -149,7 +152,7 @@ To do this:
     >
     >When you do not select an aggregator for the multiple values, and you select multiple objects in the object linked field, all values display separated by commas. 
 
-    Adding projects to the Project information linked field also automatically creates the Workfront project record type in Maestro.
+    * A read-only Workfront Project record type to the workspace you selected. 
 
 1. Click the back-pointing arrow to the left of the record name in the header of the page to go to the workspace you are updating. 
 1. Open the **Workfront Project** record type card to open the record type page. 
@@ -157,25 +160,25 @@ To do this:
     Notice the following for the Workfront Project record type page: 
 
     * This is a read-only Maestro record type which you cannot delete or update. 
-    * The projects you selected to connect to campaigns display as separate records in the Workfront Project record type page. The project records are also read-only and their information updates automatically as projects update in Workfront. 
+    * The projects you selected to connect to campaigns display as separate records in the Workfront Project record type page. The project records are also read-only and their information updates automatically as projects update in Workfront. You must add more projects from the connected Maestro record to view them in the Workfront Project record type. 
     * The Campaign linked record field is populated with the names of the campaigns that are connected to projects from the Campaign record type page. 
 
-1. (Optional) Click the **More** icon ![](assets/more-menu.png) to the right of the record type name and click **Rename** to rename the Workfront Project record type. 
+1. (Optional) Click the **More** icon ![](assets/more-menu.png) to the right of the Workfront Project record type name and click **Rename** to rename the record type. 
 
     >[!TIP]
     >
     >You can rename a record type name by clicking the name in the record type header.
 
-1. Click the Add fields icon in the upper-right corner of the Workfront Project record type table to add more project fields to Maestro. 
+1. Click the Add fields icon ![](assets/add-fields-icon.png) in the upper-right corner of the Workfront Project record type table to add more project fields to the Workfront Project Maestro record type. 
 1. Click the **+** icon for any project fields you want to add to the Workfront Project Maestro record in the **Unselected fields** section. 
 1. Click the **-** icon for any project fields you want to remove from the Workfront Project Maestro record in the **Selected fields** section.
 1. Click **Save**.
 
     >[!TIP]
     >
-    >    The fields you add to the Workfront Project Maestro record are only added on the Workfront Project page and are not added to the Campaign record type page, as linked fields. 
+    >    The fields you add to the Workfront Project Maestro record are only added on the Workfront Project page and are not added to the Campaign record type page, as linked fields. You must add the project fields from the Project information connected object field of the Campaign record type to view them for campaigns. 
 
-1. (Optional and conditional) If you selected to display at least two date fields for projects, click the **View** drop-down menu > **Create view** > **Timeline** > **Create** to create a timeline view and display the projects on a timeline. 
+1. (Optional and conditional) If you selected to display at least two date fields for projects, click the **View** drop-down menu in the Workfront Project record type table, then **Create view** > **Timeline** > **Create** to create a timeline view and display the projects on a timeline. 
 
 
 

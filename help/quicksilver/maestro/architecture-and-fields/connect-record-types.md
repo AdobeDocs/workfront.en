@@ -27,10 +27,11 @@ author: Alina
 
 You can use Adobe Maestro to design fully-customizable workspaces that contain record types needed in your organization. A way to indicate how individual record types relate to one another is to connect them. Additionally, you can connect connect Maestro record types with object types from other applications to enhance your users' experience and keep their focus in one application. 
 
-You can use connect the following: 
+You can connect the following: 
 
-* Two Maestro record types and their fields. 
-* A Maestro record type with an object type from another application and its fields. 
+* Maestro operational record types 
+* Maestro operational record types to taxonomy record types
+* Maestro operational record types and object types from other applications.
 
 By doing this, you can display fields from the linked record or object type on another Maestro record.  
 
@@ -109,6 +110,8 @@ You must have the following access to perform the steps described in this articl
         * Projects
         * Portfolios
         * Programs
+        * Companies
+        * Groups
 
 * After you connect a record type with another record type or with an object type from another application, the following scenarios exist: 
     
@@ -146,7 +149,7 @@ You must have the following access to perform the steps described in this articl
 
     * Another operational record type
     * A taxonomy
-    * A Workfront Project, Portfolio, or Program. 
+    * A Workfront Project, Portfolio, Program, Company, or Group. 
 
     ![](assets/new-connection-tab-fields-with-another-record-selected.png)
 

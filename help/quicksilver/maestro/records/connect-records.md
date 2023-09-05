@@ -33,8 +33,7 @@ You can connect the following:
 
 * Maestro operational records 
 * Maestro operational records to taxonomy records
-* Maestro taxonomy records
-* Maestro operational records and objects from another application. 
+* Maestro operational records and objects from other applications. 
 
   The following applications and object types are currently supported: 
   
@@ -43,6 +42,8 @@ You can connect the following:
     * Projects
     * Portfolios
     * Programs
+    * Company
+    * Group
 
   <!--when you add more objects, fix the Access Requirements below which right now refer only to projects-->
 
@@ -78,6 +79,7 @@ You must have the following to perform the steps described in this article:
    <td role="rowheader"><p>Access level*</p></td>
    <td> <p>Any, to create Maestro records</p>
 <p>View or higher access to Projects, Portfolios, Programs</p> 
+<p>Additional access to Groups and Companies, when viewing groups or companies users don't belong to</p> 
 </td>
   </tr>
 <tr>
@@ -111,7 +113,7 @@ You must have the following to perform the steps described in this article:
 * You cannot connect taxonomies to record types or to objects from another application. <!-- this is temporary; there will be certain objects (teams, etc) that will be linked to taxonomies, per Lilit-->
 * Currently, you can link Maestro records only to Workfront objects. To link Maestro records with Workfront objects you must have the following:
 
-  * Workfront objects you want to link from Maestro. For example, projects, portfolios, or programs in Workfront.
+  * Workfront objects you want to link from Maestro. For example, projects, portfolios, programs, companies, or groups in Workfront.
   * Maestro workspaces, record types, and records. For more information, see the following articles:
 
     * [Create workspaces](../architecture-and-fields/create-workspaces.md)
@@ -184,6 +186,8 @@ After you created a connection between a Maestro record type and a Workfront obj
     * Project
     * Portfolio
     * Program
+    * Company
+    * Group
 
     For more information, see [Connect record types](../architecture-and-fields/connect-record-types.md).
 

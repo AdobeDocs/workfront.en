@@ -28,7 +28,7 @@ In Maestro, you can create custom record types that meet your organization's nee
 
 ### Operational Record Type{#operational-record-type}
 
-An operational record type is a Maestro record type that represents work objects.  
+An operational record type is a Maestro record type that represents work-related objects.  
 
 ![](assets/operational-record-type-blank.png)
 
@@ -66,7 +66,7 @@ The following table illustrates some of the similarities and differences between
 | They represent attributes about work-related objects        |                         |           ✓          |
 | You can create from scratch                                 |            ✓            |           ✓          |
 | You can create by importing an Excel or CSV file            |            ✓            |                      |
-| You can connect to an object from a third-party application |            ✓            |                      |
-| You can connect to other Maestro record types               |            ✓            |           ✓          |
+| You can connect the record type to an object from a third-party application |            ✓            |                      |
+| You can connect to other Maestro record types               |            ✓            |                    |
 | You can view their associated records in a table view       |            ✓            |           ✓          |
 | You can view their associated records in a timeline view    |            ✓            |           ✓          |

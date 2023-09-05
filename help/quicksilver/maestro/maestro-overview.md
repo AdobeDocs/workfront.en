@@ -180,7 +180,7 @@ The following are the main Maestro objects and concepts:
     A new taxonomy record type is associated with a Name field. 
 
     The following are types of fields you can associate with Maestro record types:  
-
+****
     * Single-line text 
     * Paragraph   
     * Multi-select 
@@ -194,7 +194,7 @@ The following are the main Maestro objects and concepts:
 * **Linked record types** and **Linked records**:  You can create a connection between the following entities:
     
     * Two Maestro record types
-    * A Maestro record type and a Workfront project, program, or portfolio object type. 
+    * A Maestro record type and a Workfront project, program, portfolio, company, or group object type. 
 
     ![](assets/new-connection-tab-with-workfront-option.png)
 
@@ -327,7 +327,7 @@ The following table illustrates the main features that will be available in Maes
 |     Sort groupings in the timeline view                                 |                               |   ✓                              |                  |
 |     Connect workspaces                                |                               |   ✓                              |                  |
 |     Connect Maestro records and taxonomies  |   ✓                            |  
-|     Connect Maestro records to Workfront projects, programs, portfolios  |   ✓                            |                                 |                  |
+|     Connect Maestro records to Workfront projects, programs, portfolios, companies, groups  |   ✓                            |                                 |                  |
 |     Record details page                            |   ✓                           |                                  |                  |
 |     Update the layout of the record Details page              |                               |   ✓                              |                  |
 | Access levels and permissions | |✓ |  |
@@ -342,6 +342,30 @@ The following table illustrates the main features that will be available in Maes
 This section lists the features and patches that have been released after the launch of the Maestro closed beta program, on May 22, 2023. 
 
 The features are released weekly and are listed in the order of their release, with the most recent first. Customers who are participating in the Maestro closed beta program can access all features in their Preview and Production environments. 
+
+### Week of September 4, 2023
+
+#### Connect Maestro records with Workfront companies and groups
+
+Preview and production: September 5, 2023  
+
+You can now connect a Maestro record with Workfront companies and groups. You must first create a connection between a Maestro record type and the Workfront companies and groups object types. Then, you can connect a single Maestro record of the selected record type to individual Workfront companies and groups.  
+
+Consider the following:  
+
+* You must create a connection between Maestro record types and Workfront companies and groups for each Workspace.  
+
+* You cannot connect taxonomy record types with Workfront object types. 
+
+* You can connect multiple Maestro records to the same Workfront company or group, and multiple companies or groups to the same Maestro record.  
+
+* You cannot edit companies or groups in Maestro. All company or group changes performed in Workfront are visible in Maestro, when reviewing the Maestro linked records.  
+
+#### URL support for single-line text fields 
+
+Preview and production: September 7, 2023 
+
+For better visibility when working with links in the Table view, we have added support for URLs in single-line text fields. Using URLs to other websites or external drives when updating a single-line text field, now identifies them as links and allows you to click them from the table.  
 
 ### Week of August 28, 2023
 

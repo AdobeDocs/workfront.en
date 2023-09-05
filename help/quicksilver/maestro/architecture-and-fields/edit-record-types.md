@@ -1,7 +1,6 @@
 ---
 title: Edit record types
 description: You can edit record types after they have been saved. Record types are the objec types of Adobe Maestro.
-author: Alina
 hidefromtoc: yes
 hide: yes
 ---
@@ -79,7 +78,7 @@ You must have the following access to perform the steps in this article:
     The last-accessed workspace should open by default. 
 
 1. (Optional) Expand the downward-pointing arrow to the right of an existing workspace name and select the workspace that you want to create record types for.
-1. Hover over the card of a record type and click the **More** menu ![](assets/more-menu.png) in the upper-right corner of the record type card, then click Update appearance. 
+1. Hover over the card of a record type and click the **More** menu ![](assets/more-menu.png) in the upper-right corner of the record type card, then click **Update appearance**. 
 
     ![](assets/update-appearance-link-from-more-menu-on-record-type-card.png)
 
@@ -93,8 +92,12 @@ You must have the following access to perform the steps in this article:
         ![](assets/update-record-type-box.png)
 
 1. Click outside the Update record type box to save your changes. 
-1. (Optional) Click the record type from the workspace area to open the record type's page. 
-1. Click the **More** menu to the right of the record type name, then click **Rename** to rename the record type.  <!--check to see if they renamed this to "Rename" - it kept going back and forth between Rename and Edit-->
+1. (Optional) Click the record type card from the workspace area to open the record type's page. 
+1. Click the **More** menu to the right of the record type name, then click **Rename** to rename the record type
+
+    Or
+    
+    Rename the record type in the header.  <!--check to see if they renamed this to "Rename" - it kept going back and forth between Rename and Edit-->
 
     ![](assets/more-menu-options-from-record-details-page.png) <!--check this screen shot - not sure this is valid ???-->
 
