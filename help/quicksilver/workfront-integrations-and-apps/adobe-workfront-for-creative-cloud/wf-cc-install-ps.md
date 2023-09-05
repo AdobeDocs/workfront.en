@@ -57,6 +57,8 @@ If you are an [!DNL Adobe Admin Console] administrator, you can include the plug
 
 [View a video tutorial here](https://www.youtube.com/watch?v=zzvXNLIBzrc){target=_blank}.
 
+[!DNL Adobe Admin Console] administrators can also create plugin-only packages for distribution to users. For more information, see [Create [!UICONTROL [!DNL Adobe Workfront] for [!DNL Creative Cloud]] packages for your users in the [!DNL Adobe Admin Console]](/help/quicksilver/administration-and-setup/configure-integrations/create-plugin-only-packages.md)
+
 ## Install the [!DNL Adobe Workfront for Photoshop] plugin individually
 
 You can install the [!DNL Adobe Workfront for Photoshop] plugin for yourself from the [!DNL Adobe Exchange].
