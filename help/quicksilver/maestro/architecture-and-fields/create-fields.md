@@ -77,9 +77,25 @@ You must create record types before you can create fields to associate with them
 
 * You can create fields manually or automatically in the following ways:
 
+    * Manually:
+
+        * By adding columns in the Table view of a record type page. The columns of the table are the fields associated with the record type. They are the same fields that display on a record's Details page. 
+        
+            You cannot create fields from the Details page of a record.
+            
+            This article describes how to manually create fields. 
+
+        * By linking record types together. You can create linked record fields when you add a new connection between two Maestro record types or a record type and an object types from other applications. 
+        
+           <!--* Importing record types with fields using a CSV or an Excel file. - this is not available yet-->
+
+           For more information about connecting Maestro record types, see [Connect record types](../architecture-and-fields/connect-record-types.md).  
+
+        * By importing record types using an Excel or CSV file. For more information, see [Create record types](../architecture-and-fields/create-record-types.md). 
+
     * Automatically: 
 
-        * Maestro creates fields by default every time you create a record type. 
+        * By default every time you create a record type. 
 
             The following are standard fields created by default for each new operational record type:
 
@@ -100,24 +116,9 @@ You must create record types before you can create fields to associate with them
 
             * Name <!--will more be added? If not, consider rephrasing this bullet-->
 
-        * Maestro creates fields for operational record types and taxonomies when you create a workspace from a template. For information, see [Create workspaces](../architecture-and-fields/create-workspaces.md). 
+        * When you create a workspace from a template. Maestro creates fields for operational record types and taxonomies when you create a workspace from a template. For information, see [Create workspaces](../architecture-and-fields/create-workspaces.md). 
 
-        
-    * Manually:
 
-        * Create fields in the Table view of a record type page. The columns of the table are the fields associated with the record type. They are the same fields that display on a record's Details page. 
-        
-            You cannot create fields from the Details page of a record.
-            
-            This article describes how to manually create fields. 
-
-        * Create fields by making a new connection between two Maestro record types or a record type and an object types from other applications. 
-        
-           <!--* Importing record types with fields using a CSV or an Excel file. - this is not available yet-->
-
-           For more information about connecting Maestro record types, see [Connect record types](../architecture-and-fields/connect-record-types.md).  
-
-        * Import fields when you import record types using an Excel or CSV file. For more information, see [Create record types](../architecture-and-fields/create-record-types.md). 
 
 * You can view and update the settings for the fields that you or any other user created. <!--this will change with access/ permissions-->
 
@@ -338,7 +339,6 @@ Currency field types capture information in a number format preceded by a curren
 
     The new currency field is added as a column to the record type and its values can be associated with records. The field also displays on the Details page of a record. 
 
-
 ### Checkbox
 
 You can use the Checkbox field type to add a single checkbox option to a record. You can use this field to indicate a specific attribute or status for that particular record. For example, you can use it as a flag for tracking completion, approval, or any other binary attribute for each record. 
@@ -354,8 +354,25 @@ You can use the Checkbox field type to add a single checkbox option to a record.
 
     The new checkbox field is added as a column to the record type and its values can be associated with records. The field also displays on the Details page of a record. 
 
+## Create fields by linking record types together
 
+You can create linked record fields when you add a new connection between two Maestro record types or a record type and an object types from other applications. 
+        
+For information about connecting Maestro record types, see [Connect record types](../architecture-and-fields/connect-record-types.md).
 
+## Create fields by importing record types using an Excel and CSV file
+
+For more information, see [Create record types](../architecture-and-fields/create-record-types.md). 
+
+## Create fields by creating a record type
+
+When you create a record type, several fields associated with the new record type are also created by default. For more information, see [Create record types](../architecture-and-fields/create-record-types.md). 
+
+## Create fields by creating a workspace from a template
+
+Maestro creates fields for operational record types and taxonomies when you create a workspace from a template. 
+
+For information, see [Create workspaces](../architecture-and-fields/create-workspaces.md). 
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: Create records
-description: You must create record types before you can create individual records. 
+description: In Adobe Maestro, a record is an instance of a record type. You must create record types before you can create individual records. 
 hidefromtoc: yes
 hide: yes
 ---
@@ -13,7 +13,7 @@ In Adobe Maestro, a record is an instance of a record type.
 
 You can have the following type of records:
 
-* **Operational records**: They represent work. For example, for an operational record called "Campaign", you can have named records like "Monthly Newsletter" or "Summer Sale."
+* **Operational records**: They represent work-related objects. For example, for an operational record called "Campaign", you can have named records like "Monthly Newsletter" or "Summer Sale."
 * **Taxonomy records**: They represent attributes that can be associated with operational records. For example, for a taxonomy record type called "Channel", you can have named taxonomies like "Email", "Social Media", or "Advertising". 
 
 Creating operational records is identical to creating taxonomy records, or taxonomies. 
@@ -21,7 +21,7 @@ Creating operational records is identical to creating taxonomy records, or taxon
 You can create records in Maestro by doing one of the following:
 
 * Manually create them for Maestro record types
-* Import them from third-party applications after connecting Maestro records to objects from other applications. 
+* Connect them to Maestro records from third-party applications. 
 
 ## Access requirements
 
@@ -97,17 +97,17 @@ You can create records in the table view of a record type page.
 
 1. Continue adding information on each row, then click **Enter** on your keyboard to save your changes. 
 
-## Create records by importing them from another application
+## Create records by connecting them from another application
 
-You can import records from other applications into Maestro linked record types. 
+You can import records from other applications by linking them to Maestro linked records. 
 
 1. Create a Maestro record type, as described in the [Create record types](../architecture-and-fields/create-record-types.md).
 
 1. Create Maestro records for the record type you created in the previous step. For information, see the section [Create records by manually adding them to a record type](#create-records-by-manually-adding-them-to-a-record-type) in this article. 
 
-1. Create a Relationship-type field to a third-party application for the Maestro record type you created, as described in [Connect record types](../architecture-and-fields/connect-record-types.md). 
+1. Create a new connection to an object type from a third-party application for the Maestro record type you created. For information,see [Connect record types](../architecture-and-fields/connect-record-types.md). 
 
-1. Add records from the third-party application to the Maestro records you created above using the Relationship-type field you created in the previous step. For information, see [Connect records](../architecture-and-fields/connect-records.md). 
+1. Add records from the third-party application to the Maestro records you created above using the linked record field you created in the previous step. For information, see [Connect records](../architecture-and-fields/connect-records.md). 
 
     The following items are created in Maestro:
 
@@ -118,3 +118,31 @@ You can import records from other applications into Maestro linked record types.
 
 
 ## Create records by copying and pasting information from an external list
+
+1. In Maestro, start creating records in the Table view, as described in the section [Create records by manually adding them to a record type](#create-records-by-manually-adding-them-to-a-record-type) in this article. 
+
+    Ensure the Maestro table view has the columns (or the fields) that you want to populate with the new record information. 
+
+1. Click **New < Record type name >** in the last row of the table to add as many new rows to the table as you want your new records to be. 
+
+    For example, add 10 rows to the table view if you want to paste the information for 10 new records from another application. 
+
+1. In another application, create a list of records that you want to import in Maestro. 
+    
+    For example, you can use an Excel spreadsheet to create your list. 
+
+    The list should contain information in a tabular format.
+
+    >[!TIP]
+    >
+    > The columns of the list should contain information for the existing fields you have in Maestro. 
+    >
+    > Ensure you have the desired fields already created in Maestro and that the information in your sheet displays in the correct format that matches that of each field in Maestro.
+
+1. From the third-party application, select several rows and columns, then paste the information in the record type table view, starting with the first new record. 
+
+    The following information is imported in Maestro:
+    
+    * The rows contain the new records
+    * The columns populate information for the fields of the records. 
+    

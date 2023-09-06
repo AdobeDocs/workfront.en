@@ -64,7 +64,7 @@ You must have the following to perform the steps described in this article:
 * You cannot recover deleted records. <!--the above statements (and in the metadata description) will change with access levels and recycle bin??-->
 * If the deleted records are linked to other records, the linked records are not deleted, but the information from the deleted record is also deleted. 
 * You cannot delete records in bulk. <!--this will probably change-->
-
+* You cannot delete records from the timeline view. 
 
 ## Delete records
 
@@ -81,15 +81,17 @@ You can delete a record from the following areas:
 1. Click a record type. 
 
     The record type page opens. 
-1. (Conditional) From the **View** drop-down menu, select a table view. This should be the default view, unless you viewed the record type in the timeline view when you accessed it last. 
+1. Do one of the following:
 
-    The records associated with the selected record type display in the table view. 
-1. Right-click a record row, then click **View**.
+    * From a Table view, click the name of a record. 
+    * From the Table view, hover over the name of a record, then click the **More** menu ![](assets/more-menu.png), then click **View**
 
-    ![](assets/contextual-menu-for-record-row.png)
+        ![](assets/contextual-menu-for-record-row.png)
+    * From a Timeline view, click a record bar. 
 
-    The record **Details** page opens. 
-1. Click the **More** menu to the right of the record name, then click Delete, then Delete again. 
+    The record **Details** page opens.  
+  
+1. Click the **More** menu ![](assets/more-menu.png) to the right of the record name, then click **Delete**, then **Delete** again to confirm. 
 
     ![](assets/more-menu-options-from-record-details-page.png) <!--ensure the options have not changed or been renamed-->
     The record is deleted and cannot be recovered. 
@@ -102,7 +104,7 @@ You can delete a record from the following areas:
 1. Click a record type. 
 
     The record type page opens. 
-1. (Conditional) From the **View** drop-down menu in the upper-right corner of the table, select a table view. This should be the default view, unless you viewed the record type in the timeline view when you accessed it last. 
+1. (Conditional) From the **View** drop-down menu in the upper-right corner of the table, select a Table view. This should be the default view, unless you viewed the record type in the timeline view when you accessed it last. 
 
     The records associated with the selected record type display in the table view. 
 1. Right-click a record row, then click **Delete**. 

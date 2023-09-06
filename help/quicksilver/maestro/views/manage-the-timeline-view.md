@@ -140,7 +140,7 @@ Consider the following when working with filters in the timeline view:
 
 <!-- this list is almost identical to the one for the table view - update both-->
 
-* You can apply filters both in the table and timeline views and they work independently from one another when applied to the same record type. 
+* The filters you create for the timeline view work independently from the filters in the table view when applied to the same record type. 
 
 * The filters are dependent on the view you select. Two timeline views of the same record type can have different filters applied to them. Two users looking at the same timeline view see the same filter that is currently applied. 
 
@@ -177,6 +177,10 @@ To add a grouping:
     ![](assets/grouping-ui-timeline-view.png)
 
 1. Click one of the suggested fields, or click **Choose a different field** and search for a different field, then click it when it displays in the list. 
+
+    >[!TIP]
+    >
+    >You cannot select linked fields. 
 
     The grouping is applied automatically to the timeline and records display inside the grouping box. The number of items in a grouping displays on the grouping line. 
 

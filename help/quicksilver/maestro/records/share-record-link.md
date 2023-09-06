@@ -1,25 +1,23 @@
 ---
-title: Share record links 
-description: You can share a link to an Adobe Maestro record to collaborate with other users. The link opens the record's Details page. 
+title: Share records
+description: You can share records with others to collaborate with other users. The link opens the record's Details page. 
 hidefromtoc: yes
 hide: yes
 ---
 
 <!--udpate the metadata with real information when making this avilable in TOC and in the left nav-->
 
-# Share record links
+# Share records
 
-You can share a link to an Adobe Maestro record to collaborate with other users. The link opens the record's Details page. 
+You can share records in Adobe Maestro with others to collaborate with other users. The link opens the record's Details page.  
 
-You can share a link to a Maestro record in the following ways: 
+You can share a Maestro record in the following ways: 
 
-* Copy the link of the Details page or a record from your browser when the page is open. 
+* Copy the link of the Details page of a record from your browser when the page is open. 
 
-* Copy a link to the record's Details page when viewing records in the record type table view. 
+* Copy a link to the record's Details page when viewing records in the record type's table view. 
 
-This article describes how you can copy a link to a record's Details page when working in the table view of a record type. 
-
-<!--Should we add this: mention in here that the fields in the Details view are the same as the ones in the table view -- this article is linked from the Manage record views one to refer to this info???? - this used to be the case in the beginning but now with the ability to hide the fields in the table, the fields in Details will probably be persistent and the table will not match anymore and just act like a regular view. We do not document the connection between views and Details pages in WF. -->
+This article describes how you can copy a link to a record's Details page from the table view of a record type. 
 
 <!-- add information about permissions, like:
 - in the table below, you must have at least View permissions to the record
@@ -71,23 +69,34 @@ You must have the following to perform the steps described in this article:
 
 >[!NOTE]
 >
->*If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see [Create or modify custom access levels](../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+>*If you don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see [Create or modify custom access levels](../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
 ## Share record links from the record type table view
 
-1. Click the **Main Menu** ![](assets/main-menu-workfront.png) in the upper-right corner, or the **Main Menu** ![](assets/main-menu-shell.png) in the upper-left corner, if it is available, then click **Maestro**. 
+1. Click the **Main Menu** ![](assets/main-menu-workfront.png) in the upper-right corner, <!--or the **Main Menu** ![](assets/main-menu-shell.png) in the upper-left corner, if it is available,--> then click **Maestro**. 
 
     The workspace that you accessed last opens. 
-1. Click a record type. 
+1. Click a record type card. 
 
     The record type page opens. 
 1. (Conditional) From the **View** drop-down menu in the upper-right corner of the table, select a table view. This should be the default view, unless you viewed the record type in the timeline view when you accessed it last. 
 
     The records associated with the selected record type display in the table view. 
-1. Right-click a record row, then click **Copy link**.
+1. Right-click a record row
+
+    Or 
+
+    Hover over a record's name then click the More menu ![](assets/more-menu.png), then click **Copy link**.
 
     ![](assets/contextual-menu-for-record-row.png)
 
     The link is copied to your clipboard. 
 
 1. Paste the link into an email, or chat window, to share with other users. When users receive the link, it opens the Details page of the record. 
+
+    >[!TIP]
+    >
+    >The fields of the record in the Details page are the same fields available in the Table view of the record. 
+
+
+    <!--add there when it will be available: if they have access to this record-->

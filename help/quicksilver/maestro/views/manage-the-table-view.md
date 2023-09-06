@@ -167,7 +167,7 @@ Filters help you reduce the amount of information displayed on the screen.
 Consider the following when working with filters in the table view: 
 <!-- this list is almost identical to the one for the table view - update both-->
 
-* You can apply filters both in the table and timeline views and they work independently from one another when applied to the same record type.
+* The filters you create for the table view work independently from the filters in the timeline view when applied to the same record type. 
 
 * The filters are dependent on the view you select. Two table views of the same record type can have different filters applied to them. Two users looking at the same table view see the same filter that is currently applied. 
 
@@ -181,11 +181,17 @@ Adding filters in the timeline view is identical to adding filters in the table 
 
 To add a filter to a table view: 
 
-1. Create a table view, as described in the article [Manage record views](../views/manage-record-views.md). 
+1. Create a table view for a record type page, as described in the article [Manage record views](../views/manage-record-views.md). 
 1. Select a table view, then click **Filters** in the upper-right corner of the table.    
 1. Click **Add condition** and add the following information: 
 
     * Select a field you want to filter by
+
+        >[!TIP]
+        >
+        > You cannot select linked fields. For information, see [Create fields](../architecture-and-fields/create-fields.md). 
+
+
     * Select an option (or a filter modifier) to define what kind of condition the field must meet
 
         The following table lists the available modifiers for each type of field:
@@ -291,7 +297,12 @@ To add a grouping:
 
     1. Go to a timeline view, then click **Group**. ************************did they rename this to "Grouping"?!****************************
         ******************insert screen shot***********
-    1. Click one of the 5 suggested fields, or click **Choose a different field** to display all fields, then click one when it displays in the list. The grouping is applied automatically to the timeline and records display inside the grouping box.    <********************ensure this is correct functionality here*************
+    1. Click one of the 5 suggested fields, or click **Choose a different field** to display all fields, then click one when it displays in the list. 
+    
+        >[!TIP]
+        >
+        > You cannot select linked fields. For information, see [Create fields](../architecture-and-fields/create-fields.md).  
+    The grouping is applied automatically to the timeline and records display inside the grouping box.    <********************ensure this is correct functionality here*************
     
     1. (Optional) Click **Add grouping** to add up to 3 groupings. 
 

@@ -24,5 +24,5 @@ The following articles describe how you can create and manage records in Adobe M
 * [Create records](../records/create-records.md)
 * [Edit records](../records/edit-records.md)
 * [Delete records](../records/delete-records.md)
-* [Share record link](../records/share-record-link.md)
+* [Share records](../records/share-records.md)
 * [Connect records](../records/connect-records.md)
