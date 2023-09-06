@@ -14,4 +14,4 @@ We are currently releasing a new commenting experience in the Updates section of
 
 * [New commenting experience release activity](../new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md)
 * [New commenting experience](../new-commenting-experience-beta/unified-commenting-experience.md)
-<!--* [New commenting experience FAQs](../../betas/new-commenting-experience-beta/new-commenting-faq.md)-->
+* [New commenting experience FAQs](../new-commenting-experience-beta/new-commenting-faq.md)
