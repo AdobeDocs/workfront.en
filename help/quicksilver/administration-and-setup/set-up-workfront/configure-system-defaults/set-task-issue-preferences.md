@@ -80,7 +80,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Revenue Type]</td> 
-   <td> <p>Calculates planned and actual revenue estimates for a task. When the <strong>[!UICONTROL Revenue Type]</strong> is set to<strong>[!UICONTROL Not Billable]</strong>, the hours planned and the actual hours recorded do not generate a revenue estimate for the task, and the work on the task does not contribute to project-level revenue.</p> </td> 
+   <td> <p>Calculates planned and actual revenue estimates for a task. When the <strong>[!UICONTROL Revenue Type]</strong> is set to <strong>[!UICONTROL Not Billable]</strong>, the hours planned and the actual hours recorded do not generate a revenue estimate for the task, and the work on the task does not contribute to project-level revenue.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Cost Type]</td> 
@@ -112,7 +112,7 @@ You must have the following access to perform the steps in this article:
         <li> <p><a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md" class="MCXref xref">Grant access to issues</a> </p> </li> 
         <li> <p><a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Share an issue </a> </p> </li> 
        </ul> </p> </li> 
-     <li><strong>[!UICONTROL Allow Primary Contact to have access to the task]</strong>: Gives the primary contact (issue creator) access to the task to review the task, stay informed of its progress, and make comments on the Updates section of the task.</li> 
+     <li><strong>[!UICONTROL Allow Primary Contact to have access to the task]</strong>: Gives the primary contact (issue creator) View access to the task to review the task, stay informed of its progress, and make comments on the Updates section of the task.</li> 
      <li> <p><strong>[!UICONTROL Allow these settings to be changed during conversion]</strong>: Allows the user who is converting the issue to change these options during the conversion of an issue to a task.</p> <!--
        Screenshot when possible</p>
       --> </li> 
@@ -127,7 +127,7 @@ You must have the following access to perform the steps in this article:
         <li> <p><a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md" class="MCXref xref">Grant access to issues</a> </p> </li> 
         <li> <p><a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Share an issue </a> </p> </li> 
        </ul> </p> </li> 
-     <li><strong>[!UICONTROL Allow Primary Contact to have access to the project]</strong>: Gives the primary contact (issue creator) access to the project to review the project, stay informed of its progress, and make comments on the Updates section of the project.</li> 
+     <li><strong>[!UICONTROL Allow Primary Contact to have access to the project]</strong>: Gives the primary contact (issue creator) View access to the project to review the project, stay informed of its progress, and make comments on the Updates section of the project.</li> 
      <li><strong>[!UICONTROL Allow these settings to be changed during conversion]</strong>: Allows the user who is converting the issue to change the listed options during the conversion of an issue to a project.</li> 
     </ul> </td>
   </tr> 
@@ -228,7 +228,7 @@ I have not had a chance to follow up with customers to verify if this is still a
    <td role="rowheader">[!UICONTROL When someone is assigned to a task]</td> 
    <td> 
     <ul> 
-     <li><strong>[!UICONTROL Give them ... access to a task]</strong>: Defines the default permission a user has to the task they are assigned to. For more information about task permissions, see<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Grant access to users</a>.</li> 
+     <li><strong>[!UICONTROL Give them ... access to a task]</strong>: Defines the default permission a user has to the task they are assigned to. For more information about task permissions, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Grant access to users</a>.</li> 
      <li> <p><strong>[!UICONTROL Also grant them ... access to the project]</strong>: Defines the default permission a user has to the project on which they have a task assigned to them. For more information about project permissions, see <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configure system-wide project preferences</a>.</p> </li> 
     </ul> </td> 
   </tr> 
@@ -236,7 +236,7 @@ I have not had a chance to follow up with customers to verify if this is still a
    <td role="rowheader">[!UICONTROL When someone is assigned to an issue]</td> 
    <td> 
     <ul> 
-     <li><strong>[!UICONTROL Give them ... access to a task]</strong>: Defines the default permission a user has to the task they are assigned to. For more information about task permissions, see<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Grant access to users</a>.</li> 
+     <li><strong>[!UICONTROL Give them ... access to a task]</strong>: Defines the default permission a user has to the task they are assigned to. For more information about task permissions, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Grant access to users</a>.</li> 
      <li> <p><strong>[!UICONTROL Also grant them ... access to the project]</strong>: Defines the default permission a user has to the project on which they have a task assigned to them. For more information about project permissions, see <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configure system-wide project preferences</a>.</p> </li> 
     </ul> </td> 
   </tr> 

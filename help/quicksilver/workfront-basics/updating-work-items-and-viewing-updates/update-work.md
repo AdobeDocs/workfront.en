@@ -212,6 +212,7 @@ Adding an update to a work item differs depending on what version of the Updates
       <td> <p>Disable this option to prevent users outside your company from having access to view this update.</p> 
       <p><b>NOTE</b></p>
       <p>This option displays only when the user is associated with a Company.</p>
+      <p>This option is not available in all areas where you can add updates from. For example, this is not available in third-party applications where you can add updates from. </p>
       </td> 
      </tr> 
     </tbody> 
