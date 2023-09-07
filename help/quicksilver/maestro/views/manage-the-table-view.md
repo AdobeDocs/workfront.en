@@ -1,6 +1,6 @@
 ---
 title: Manage the table view
-description: You can display records in a table view when using Adobe Maestro. 
+description: You can display records and their fields in a table view, when accessing the record type page in Adobe Maestro. 
 hidefromtoc: yes
 hide: yes
 ---
@@ -31,50 +31,49 @@ hide: yes
 
 You can display records and their fields in a table view, when accessing the record type page in Adobe Maestro. 
 
-For information about Maestro views, see [Manage record views](../views/manage-record-views.md). 
-
+For information about Maestro views and how to manage them, see [Manage record views](../views/manage-record-views.md). 
 
 ## Access requirements
 
 You must have the following access to perform the steps in this article: 
 
 <table style="table-layout:auto">
- <col>
- <tbody>
+ <col>
+ <tbody>
 <td>
-   <p> Adobe product</p> </td>
-   <td>
-   <p> Adobe Workfront</p> </td>
-  </tr>  
- <td role="rowheader"><p>Adobe Workfront agreement</p></td>
-   <td>
+   <p> Adobe product</p> </td>
+   <td>
+   <p> Adobe Workfront</p> </td>
+  </tr>  
+ <td role="rowheader"><p>Adobe Workfront agreement</p></td>
+   <td>
 <p>Your organization must be enrolled in the Adobe Maestro closed beta program. Contact your account representative to inquire about this new offering. </p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront plan</p></td>
-   <td>
+   </td>
+  </tr>
+  <tr>
+   <td role="rowheader"><p>Adobe Workfront plan</p></td>
+   <td>
 <p>Any</p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront license</p></td>
-   <td>
-   <p>Any</p> 
+   </td>
+  </tr>
+  <tr>
+   <td role="rowheader"><p>Adobe Workfront license</p></td>
+   <td>
+   <p>Any</p> 
   </td>
-  </tr>
-  
-  <tr>
-   <td role="rowheader">Access level</td>
-   <td> <p>Any</p>  
+  </tr>
+  
+  <tr>
+   <td role="rowheader">Access level</td>
+   <td> <p>Any</p>  
 </td>
-  </tr>
+  </tr>
 <tr>
-   <td role="rowheader">Layout template</td>
-   <td> <p>Your system administrator must add the Maestro area in your layout template. For information, see <a href="../access/grant-access.md">Grant access to Adobe Maestro</a>. </p>  
+   <td role="rowheader">Layout template</td>
+   <td> <p>Your system administrator must add the Maestro area in your layout template. For information, see <a href="../access/grant-access.md">Grant access to Adobe Maestro</a>. </p>  
 </td>
-  </tr>
- </tbody>
+  </tr>
+ </tbody>
 </table>
 
 <!--Maybe enable this at GA - but Maestro is not supposed to have Access controls in the Workfront Access Level: 
@@ -82,7 +81,7 @@ You must have the following access to perform the steps in this article:
 >
 >If you don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see [Create or modify custom access levels](../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md). -->
 
-<!-- Notes to add for the table: for the "Workfront plans" row: the above is only for closed beta; when going to GA - activate the following plans:    
+<!-- Notes to add for the table: for the "Workfront plans" row: the above is only for closed beta; when going to GA - activate the following plans:    
 <p>Current plan: Prime and Ultimate</p>
 <p>Legacy plan: Enterprise</p>-->
 
@@ -101,31 +100,33 @@ To manage a table view:
     ![](assets/table-view-example.png)
 
 1. Update the following view elements as described in the subsections below:
-    * [Columns](#add-columns)
-    * [Rows](#add-rows)
+    * [Columns (or fields)](#add-columns-or-fields)
+    * [Rows (or records)](#add-rows-or-records)
     * [Filters](#add-filters) 
     * [Grouping](#add-groupings)
     * [Sort](#sort-information)  
 
 
-### Add columns {#add-columns}
+### Add columns (or fields) {#add-columns}
 
 The column headers of a Maestro table view display fields associated with the records in the view. The same fields displayed in the table view also display in the Details section of a Maestro record. For more information, see [Edit records](../records/edit-records.md). 
 
-You can display record fields (or columns) in both a table and a timeline view. However, the number of columns displayed in the table of the timeline view is limited and you cannot add columns in addition to those selected by default. <!--ensure that there is a table for the timeline view - right not there is not, but they are working to add a table to the left of the timeline; if the table does not come with the timeline view, take this statement out-->
+<!-- this is not available yet:You can display record fields (or columns) in both a table and a timeline view. However, the number of columns displayed in the table of the timeline view is limited and you cannot add columns in addition to those selected by default. -->
 
 Adding columns to a view is identical to adding fields to a record type.  
 
 You can add up to 500 fields (or columns) in a table view. 
 
+1. Go to a record type page and select a **Table** view from the view drop-down menu.
 1. Start adding fields (or columns), as described in the article [Create fields](../architecture-and-fields/create-fields.md). 
 
-    The columns you add are visible to all users who access the record type. 
+    The columns you add are visible to all users who access the record type and are added as new fields on the Details page of the records of the selected record type.
+
 1. To reorder columns in the table, do one of the following:
 
     * Grab the column header and drag and drop it in the desired position. The column you moved briefly displays with a blue background until you make other adjustments to the table. 
 
-    * Click **Fields** in the table's toolbar, then drag and drop the fields in the desired order, then click outside the **Fields visibility and order box** to close it .
+    * Click **Fields** in the table's toolbar, then drag and drop the fields in the desired order, then click outside the **Fields visibility and order box** to close it.
 
         ![](assets/fields-setting-table-view-toolbar-expanded.png)
 
@@ -139,7 +140,6 @@ You can add up to 500 fields (or columns) in a table view.
     >
     >* The Name field is frozen and is not part of the horizontal scroll.
 
-
 1. To increase the width of the columns, click and drag the column separation lines and drop them in the desired spot. 
 
     >[!TIP]
@@ -152,15 +152,18 @@ You can add up to 500 fields (or columns) in a table view.
 
     Click **Fields** in the table toolbar and disable the toggle associated with the fields you want to hide. 
 
-1. From the **Fields** setting, enable the toggle associated with the fields you want to display in the columns of the table.
+    >[!TIP]
+    >
+    >The number of hidden fields displays to the left of the Fields icon in the toolbar.
 
 
+1. From the **Fields** setting, enable the toggle associated with the fields you want to display in the columns of the table. All fields display by default.
 
-### Add rows {#add-rows}
+### Add rows (or records) {#add-rows}
 
 The rows of a Maestro table view display individual records of the selected record type. 
 
-You can add up to 10,000 records (or rows) to a table in Maestro. 
+You can have up to 10,000 records (or rows) for a record type in Maestro. 
 
 Adding rows to a Maestro table view is identical to creating records in a table. 
 
@@ -184,15 +187,13 @@ Consider the following when working with filters in the table view:
 
 * The filters you create for the table view work independently from the filters in the timeline view when applied to the same record type. 
 
-* The filters are dependent on the view you select. Two table views of the same record type can have different filters applied to them. Two users looking at the same table view see the same filter that is currently applied. 
+* The filters are unique to the view you select. Two table views of the same record type can have different filters applied to them. Two users looking at the same table view see the same filter that is currently applied. 
 
 * You cannot name the filters you build and apply to a table view.
 
-* The filters you create are preserved and all users that can access Maestro view the record type table with the same filters applied as you when viewing the record type page in the same view. 
-
 * Removing filters removes them from anyone accessing the same record type as you and uses the same view as you use.
 
-Adding filters in the timeline view is identical to adding filters in the table view. 
+* Adding filters to the table view is identical to adding filters to the timeline view. 
 
 To add a filter to a table view: 
 
@@ -200,16 +201,15 @@ To add a filter to a table view:
 1. Select a table view, then click **Filters** in the upper-right corner of the table.    
 1. Click **Add condition** and add the following information: 
 
-    * Select a field you want to filter by
+    * Select a field you want to filter by <!-- the tip below might change-->
+
+    * Select an option (or a filter modifier) to define what kind of condition the field must meet
+
+        The table below displays the available modifiers for each type of field. 
 
         >[!TIP]
         >
         > You cannot select linked fields. For information, see [Create fields](../architecture-and-fields/create-fields.md). 
-
-
-    * Select an option (or a filter modifier) to define what kind of condition the field must meet
-
-        The following table lists the available modifiers for each type of field:
 
         <table>
         <thead>
@@ -265,6 +265,11 @@ To add a filter to a table view:
             <p>Is between</p><p>Is not between</p>
             <p>Is empty</p><p>Is not empty</p></td>
         </tr>
+
+        <tr>
+            <td>Checkbox</td>
+            <td><p>Is</p>
+        </tr>
         </tbody>
         </table> 
 
@@ -272,20 +277,18 @@ To add a filter to a table view:
 
      ![](assets/filter-ui-table-view.png)
 
-    The list of records is filtered automatically. 
-
     There is no limit to how many filtering conditions you can add.    
 
-1. (Optional) Click **Add condition** to add another filtering option and repeat the above steps. The number of filters applied displays to the right of the Filters icon. 
+1. (Optional) Click **Add condition** to add another filtering option and repeat the above steps. The number of filters applied displays to the left of the Filters icon. 
 1. Click the following operators to indicate how the filter conditions are joined and should be applied:
 
     * **And**: All specified conditions must be met. 
-    * **Or**: Any of the specified conditions must be met.
+    * **Or**: Any of the specified conditions must be met. This is the default option. 
     
-    The results found after applying the filter display automatically. <!--at this time, you can't name and save the filter - but will this change?!-->
+    The list of records is filtered automatically.  <!--at this time, you can't name and save the filter - but will this change?!-->
     <!-- asked on the task for the simple filters whether there is a limitation for how many statements a filter can have?!-->
     
-1. (Optional) Click **Filters**, then click the **x** icon to remove a filter.
+1. (Optional) Click **Filters**, then click the **x** icon to remove a filter. <!--right now you cannot "clear all" for filters, but this might come later-->
 
 <!-- this is not available yet
 
@@ -340,11 +343,11 @@ Consider the following when sorting records in the table view:
 
 <!-- if this is available for the timeline view, update both when you update one-->
 
-* Sorting is dependent on the view you select. Two table views of the same record type can have different sorting criteria applied to them. Two users looking at the same table view see the same sorting that is currently applied. 
+* Sorting is unique to the view you select. Two table views of the same record type can have different sorting criteria applied to them. Two users looking at the same table view see the same sorting that is currently applied. 
 
 * You cannot name the sorting you build and apply to a table view.
 
-* The sorting you create is preserved when you navigate away, and all users that can access Maestro view the record type table with the same sorting applied as you when viewing the record type page in the same view. 
+* The sorting you create is preserved when you navigate away.
 
 * You can sort by as many fields as you see displayed in the table view of a record type. 
 
@@ -357,7 +360,7 @@ To sort <!--ungrouped (add this when sorting for groupings will be available--> 
     
     Or
 
-    Hover over the name of a column in the table view, click the downward-pointing arrow to the right of the column header name, then click **Sort by this field**. The field is added as a sorting selection in the Sort icon in the upper-right corner of the table view as a sorting field. 
+    Hover over the name of a column in the table view, click the downward-pointing arrow to the right of the column header name, then click **Sort by this field**. The field is added as a sorting selection in the Sort icon in the upper-right corner of the table view. 
 1. In the **Sort records by** box, click one of the suggested fields, or click **Choose a different field** and search for a different field, then click it when it displays in the list. 
 
     The sorting is applied automatically to the table view and records display sorted by your selected criteria. 
@@ -368,17 +371,23 @@ To sort <!--ungrouped (add this when sorting for groupings will be available--> 
 
     The number of fields that you are sorting by displays to the left of the Sort icon in the upper-right corner of the toolbar. You can choose only fields that display in the columns of the table view. 
 
-    The fields selected for the sort display a sorting icon followed by a number that indicates the order in which the sorting is applied. 
-    
-    ![](assets/sorting-in-table-view.png)
+    >[!TIP]
+    >
+    > You cannot select linked fields. For information, see [Create fields](../architecture-and-fields/create-fields.md). 
 
-1. (Optional) Click the **x** icon to the right of a sorting field to remove the sort
+1. (Optional) In the **Sort records by** box, click the **x** icon to the right of a sorting field to remove the sort
 
     Or
 
     Click **Clear all** to remove all fields from the sort. 
 
 1. Click outside the **Sort records by** box to close it. 
+
+    The information displayed in the table is sorted according to your selected criteria. 
+    
+    The fields selected for the sort display a sorting icon followed by a number that indicates the order in which the sorting is applied. 
+    
+    ![](assets/sorting-in-table-view.png)
 
 
 <!-- this is not available yet: 

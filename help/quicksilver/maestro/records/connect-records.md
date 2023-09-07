@@ -60,48 +60,48 @@ You can connect the following:
 You must have the following access to perform the steps in this article: 
 
 <table style="table-layout:auto">
- <col>
+ <col>
 <tbody>
 <td>
-   <p> Adobe product</p> </td>
-   <td>
-   <p> Adobe Workfront</p> </td>
-  </tr>  
- <td role="rowheader"><p>Adobe Workfront agreement</p></td>
-   <td>
+   <p> Adobe product</p> </td>
+   <td>
+   <p> Adobe Workfront</p> </td>
+  </tr>  
+ <td role="rowheader"><p>Adobe Workfront agreement</p></td>
+   <td>
 <p>Your organization must be enrolled in the Adobe Maestro closed beta program. Contact your account representative to inquire about this new offering. </p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront plan</p></td>
-   <td>
+   </td>
+  </tr>
+  <tr>
+   <td role="rowheader"><p>Adobe Workfront plan</p></td>
+   <td>
 <p>Any</p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront license</p></td>
-   <td><p>Any, to create Maestro records</p> 
+   </td>
+  </tr>
+  <tr>
+   <td role="rowheader"><p>Adobe Workfront license</p></td>
+   <td><p>Any, to create Maestro records</p> 
 <p>Work or higher to view projects in Workfront</p>
   <p>For more information, see <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md">Adobe Workfront licenses overview</a>.</p> 
   </td>
-  </tr>
-  <tr>
-   <td role="rowheader">Access level</td>
-   <td> <p>Any, to create Maestro records</p>
+  </tr>
+  <tr>
+   <td role="rowheader">Access level</td>
+   <td> <p>Any, to create Maestro records</p>
 <p>View or higher access to Projects, Portfolios, Programs</p> 
 <p>Additional access to Groups and Companies, when viewing groups or companies users don't belong to</p>   
 </td>
-  </tr>
+  </tr>
 <tr>
-   <td role="rowheader"><p>Object permissions</p></td>
-   <td> <p>View or higher permissions to the objects you want to link with Maestro records  
+   <td role="rowheader"><p>Object permissions</p></td>
+   <td> <p>View or higher permissions to the objects you want to link with Maestro records  
 </td>
-  </tr>
+  </tr>
 <tr>
-   <td role="rowheader"><p>Layout template</p></td>
-   <td> <p>Your system administrator must add the Maestro area in your layout template. For information, see <a href="../access/grant-access.md">Grant access to Adobe Maestro</a>. </p></td>
-  </tr>
- </tbody>
+   <td role="rowheader"><p>Layout template</p></td>
+   <td> <p>Your system administrator must add the Maestro area in your layout template. For information, see <a href="../access/grant-access.md">Grant access to Adobe Maestro</a>. </p></td>
+  </tr>
+ </tbody>
 </table>
 
 <!--Maybe enable this at GA - but Maestro is not supposed to have Access controls in the Workfront Access Level: 
@@ -109,7 +109,7 @@ You must have the following access to perform the steps in this article:
 >
 >If you don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see [Create or modify custom access levels](../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md). -->
 
-<!-- Notes to add for the table: for the "Workfront plans" row: the above is only for closed beta; when going to GA - activate the following plans:    
+<!-- Notes to add for the table: for the "Workfront plans" row: the above is only for closed beta; when going to GA - activate the following plans:    
 <p>Current plan: Prime and Ultimate</p>
 <p>Legacy plan: Enterprise</p>-->
 
