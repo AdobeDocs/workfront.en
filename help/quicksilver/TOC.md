@@ -1999,6 +1999,7 @@ feature-set: Workfront
     * [Connections in Adobe Workfront Fusion](workfront-fusion/connections/connections.md)
     * [About connecting Adobe Workfront Fusion to an app or service](workfront-fusion/connections/about-connecting-wf-fusion-to-app-or-service.md)
     * [Create connections in Adobe Workfront Fusion](workfront-fusion/connections/connection-instruction-toc.md)
+    * [Connection metadata](/help/quicksilver/workfront-fusion/connections/connection-metadata.md)
     * [Create a connection to Adobe Workfront Fusion - Basic instructions](workfront-fusion/connections/connect-to-fusion-general.md)
     * [Connect Adobe Workfront Fusion to any web service](workfront-fusion/connections/connect-wf-fusion-to-any-web-service.md)
     * [Connect Adobe Workfront Fusion to a web service that uses API token authorization](workfront-fusion/connections/connect-wf-web-service-uses-api-token-auth.md)
