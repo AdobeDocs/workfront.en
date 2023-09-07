@@ -171,7 +171,7 @@ The second step uses the the `objectCollections` array provided in the POST body
 >
 >Each item in the array contains an `objCode` key that corresponds to the object code documented in the Workfront API Explorer.
 >
->Each item also contains an `entities` collection. This expects the `ID` and `name` keys to be present.
+>Each item also contains an `entities` collection. This expects the `ID` field. It can also accept an optional `name` attribute to make it easier to know what the `ID` represents.
 >
 >For the list of allowed object codes to be requested in the `objectCollections` list, see the [Supported objects for environment promotion](#supported-objects-for-environment-promotion) section in this article.
 
