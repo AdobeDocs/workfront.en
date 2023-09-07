@@ -53,11 +53,13 @@ You must have the following access to perform the steps in this article:
 
 * You must install the [!DNL Adobe XD] app before installing the Workfront plugin.
 
-## Install the [!DNL Adobe Workfront for XD] plugin for you organization
+## Install the [!DNL Adobe Workfront for XD] plugin for your organization
 
 If you are an [!DNL Adobe Admin Console] administrator, you can include the plugin in [!DNL Creative Cloud] deployment packages. For more information, see [Including plugins in your package](https://helpx.adobe.com/in/enterprise/using/manage-extensions.html).
 
 [View a video tutorial here](https://www.youtube.com/watch?v=zzvXNLIBzrc){target=_blank}.
+
+[!DNL Adobe Admin Console] administrators can also create plugin-only packages for distribution to users. For more information, see [Create [!UICONTROL [!DNL Adobe Workfront] for [!DNL Creative Cloud]] packages for your users in the [!DNL Adobe Admin Console]](/help/quicksilver/administration-and-setup/configure-integrations/create-plugin-only-packages.md)
 
 ## Install the [!DNL Adobe Workfront for XD] plugin individually
 

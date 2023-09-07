@@ -725,6 +725,19 @@ Deletes an existing ticket by its ID.
 
 Allows you to perform a custom API call.
 
+>[!NOTE]
+>
+>The following endpoints were deprecated in the HubSpot API on August 31, 2023, and can no longer be used in Fusion modules.
+>
+>* List content events
+>* List social events
+>* List calendar task events
+>* List all calendar events
+>* Create calendar task
+>* Get calendar task by ID
+>* Update calendar task
+>* Delete a calendar task
+
 <table style="table-layout:auto"> 
  <col> 
  <col> 
