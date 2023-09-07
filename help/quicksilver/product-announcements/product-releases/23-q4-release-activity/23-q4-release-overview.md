@@ -57,15 +57,15 @@ This page provides information about functionality that is included in the Fourt
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-sept-4.md" class="MCXref xref" xrefformat="{para}">View board cards as a list</a> <span style="color: #ff0000;"> New in Preview!</span></p><p>Adobe Workfront Boards now offers the capability to view a board's cards in a list view. The list allows you to take bulk actions on cards, such as moving a group of cards to a specific column, bulk deleting cards, or editing the same field on multiple cards.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-sept-11.md" class="MCXref xref" xrefformat="{para}">View board cards as a list</a> <span style="color: #ff0000;"> New in Preview!</span></p><p>Adobe Workfront Boards now offers the capability to view a board's cards in a list view. The list allows you to take bulk actions on cards, such as moving a group of cards to a specific column, bulk deleting cards, or editing the same field on multiple cards.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
                         <ul>
                             <li>
-                                <p>Preview release: September 7, 2023</p>
+                                <p>Preview release: September 14, 2023</p>
                             </li>
                             <li>
-                                <p>Production for Boards early access: September 14, 2023</p>
+                                <p>Production for Boards early access: September 21, 2023</p>
                             </li>
                             <li>
                                 <p>Production for fast release: N/A</p>
@@ -173,14 +173,15 @@ This page provides information about functionality that is included in the Fourt
                         </p>
                     </td>
                  </tr>
+                 <!--
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-sept-4.md" class="MCXref xref" xrefformat="{para}">Automatically publish assets in Adobe Experience Manager</a> <span style="color: #ff0000;"> New in Preview!</span></p><p>We've added another workflow to the Adobe Experience Manager integration. Now, you can set your assets to automatically publish when sent to Adobe Experience Manager.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-sept-11.md" class="MCXref xref" xrefformat="{para}">Automatically publish assets in Adobe Experience Manager</a> <span style="color: #ff0000;"> New in Preview!</span></p><p>We've added another workflow to the Adobe Experience Manager integration. Now, you can set your assets to automatically publish when sent to Adobe Experience Manager.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
                         <ul>
                             <li>
-                                <p>Preview release: September 7</p>
+                                <p>Preview release: September 14</p>
                             </li>
                             <li>
                                 <p>Production for fast release: N/A</p>
@@ -191,6 +192,7 @@ This page provides information about functionality that is included in the Fourt
                         </ul>
                     </td>
                  </tr>
+                 -->
                  <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-21.md" class="MCXref xref" xrefformat="{para}">Enhancements to experience when sending documents to SharePoint (GraphAPI)</a></p><p>We've made some changes to make it easier to locate folders when sending documents to your SharePoint (GraphAPI) folders</p>
