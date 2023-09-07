@@ -26,11 +26,13 @@ Fusion users can view and edit connections from the Connections area.
 
 ## Environment Type 
 
-Fusion connections can be used by both production and non-production systems. Knowing the difference is very important for protecting production environments. Please note that the environment type, like other connection metadata, is used for informational purposes only. Users are still responsible for accurate setting this attribute.  
+Fusion connections can be used by both production and non-production systems. Knowing the difference is very important for protecting production environments. Please note that the environment type, like other connection metadata, is used for informational purposes only. Users are still responsible for accurately setting this attribute.  
 
 ## Authentication Type 
 
-Fusion connections can be used for both service accounts and personal accounts. Service accounts are used for authentication when a scenario automates as Fusion. Personal accounts are authentication based on a specific person. Which authentication type is used depends on the scenario's requirements. Personal accounts should be used for automated user actions. For example, if a Fusions scenario automates approval by a specific person, then the authentication type should be for that person. 
+Fusion connections can be used for both service accounts and personal accounts. Service accounts are used for authentication when a scenario automates as Fusion. Personal accounts are authentication based on a specific person. Which authentication type is used depends on the scenario's requirements. Personal accounts should be used for automated user actions. For example, if a Fusion scenario automates approval by a specific person, then the authentication type should be for that person. Otherwise, Fusion is acting as Fusion and the type should be "Service Account."
+
+ Please note that type, like other connection metadata, is used for informational purposes only. Users are still responsible for accurately setting this attribute manually. 
 
 For more information on authentication types, please see [Authentication](https://developer.adobe.com/developer-console/docs/guides/authentication/) in Adobe's Authentication guide. 
 

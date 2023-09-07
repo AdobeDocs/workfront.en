@@ -17,9 +17,12 @@ For information about how to use Workfront Fusion, see [Adobe Workfront Fusion](
 
 ## Fusion releases in 2023
 
+### September 2023
+
+* [Workfront Fusion release activity: Week of September 4, 2023](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2023-9-1.md)
+
 ### August 2023
 
-* [Workfront Fusion release activity: Week of August 28, 2023](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2023-8-28.md)
 * [Workfront Fusion release activity: Week of August 21, 2023](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2023-8-21.md)
 * [Workfront Fusion release activity: Week of August 7, 2023](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2023-8-7.md)
 
