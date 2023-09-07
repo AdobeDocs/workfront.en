@@ -24,6 +24,10 @@ As a marketing operations leader, you can use Adobe Maestro to organize work acr
 >[!IMPORTANT]
 >
 >Currently, Adobe Maestro is part of a closed beta program which is open to a limited number of customers. 
+>
+>Contact your account representative for more information about joining the beta program for Maestro.
+>
+>For information, see [Adobe Maestro overview](../maestro-overview.md).
 
 You can use this page as the starting point for all the Adobe Maestro documentation.
 
@@ -31,7 +35,7 @@ The articles in the sections listed below describe how you can configure Maestro
 
 >[!IMPORTANT]
 >
->The documentation referenced in the sections linked below will be available within two weeks or more from the actual release date. 
+>The documentation referenced in the sections below will be available some time after the features are released to Production. 
 
 * [Maestro overview](maestro-overview.md): A high-level overview of Adobe Maestro, including the terminology and concepts that are unique to this solution. 
 * [Release activity](../maestro/release-activity.md): A list of all the features that have been released since the launch of the Maestro closed beta program, on May 22, 2023 with exact release dates and a short overview of each feature.

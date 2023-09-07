@@ -9,6 +9,14 @@ hide: yes
 
 # Overview of record types and taxonomies
 
+>[!IMPORTANT]
+>
+>Currently, Adobe Maestro is part of a closed beta program which is open to a limited number of customers. 
+>
+>Contact your account representative for more information about joining the beta program for Maestro.
+>
+>For information, see [Adobe Maestro overview](../maestro-overview.md).
+
 Unlike Workfront where the object types are predefined, in Adobe Maestro, you can create your own object types. For example, in Workfront the object types of Program, Portfolio, Project, Task, or Issue are already created. 
 
 Maestro object types are called "record types". Record types are the building blocks of a Maestro workspace. For information about workspaces, see [Create workspaces](../architecture-and-fields/create-workspaces.md). 

@@ -10,14 +10,51 @@ hide: yes
 >[!IMPORTANT]
 >
 >Currently, Adobe Maestro is part of a closed beta program which is open to a limited number of customers. 
+>
+>Contact your account representative for more information about joining the beta program for Maestro.
+>
+>For information, see [Adobe Maestro overview](../maestro-overview.md).
 
 This article lists the features that have been released after the launch of the Maestro closed beta program, on May 22, 2023. 
 
-The features are released weekly and are listed in the order of their release, with the most recent first. Customers who are participating in the Maestro closed beta program can access all features in their Preview and Production environments. 
+The released features are listed in the order of their release, with the most recent first. Customers who are participating in the Maestro closed beta program can access all features in their Preview and Production environments. 
 
 >[!IMPORTANT]
 >
->The documentation referenced in the sections below will be available within two weeks or more from the actual release date. 
+>The documentation referenced in the sections below will be available some time after the features are released to Production. 
+
+This section lists the features and patches that have been released after the launch of the Maestro closed beta program, on May 22, 2023. 
+
+The features are released weekly and are listed in the order of their release, with the most recent first. Customers who are participating in the Maestro closed beta program can access all features in their Preview and Production environments. 
+
+### Week of September 4, 2023
+
+#### Connect Maestro records with Workfront companies and groups
+
+Preview and production: September 5, 2023  
+
+You can now connect a Maestro record with Workfront companies and groups. You must first create a connection between a Maestro record type and the Workfront companies and groups object types. Then, you can connect a single Maestro record of the selected record type to individual Workfront companies and groups.  
+
+Consider the following:  
+
+* You must create a connection between Maestro record types and the Workfront Company and Group object types for each Workspace.  
+
+* You cannot connect taxonomy record types with Workfront object types. 
+
+* You can connect multiple Maestro records to the same Workfront company or group, and multiple companies or groups to the same Maestro record.  
+
+* You cannot edit companies or groups in Maestro. All company or group changes performed in Workfront are visible in Maestro, when reviewing the Maestro linked records.  
+
+    For more information, see the following articles:
+
+    * [Connect record types](../maestro/architecture-and-fields/connect-record-types.md)
+    * [Connect records](../maestro/records/connect-records.md)
+
+#### URL support for single-line text fields 
+
+Preview and production: September 7, 2023 
+
+For better visibility when working with links in the Table view, we have added support for URLs in single-line text fields. Using URLs to other websites or external drives when updating a single-line text field, now identifies them as links and allows you to click them from the table. Prior to this enhancement, links displayed as text.  
 
 ### Week of August 28, 2023
 
@@ -27,9 +64,9 @@ Preview and production: August 31, 2023
 
 To display the right information on a given set of records, especially if you intend to share the view with others who need to see some but not all fields of a record type, you can now select which fields (or columns) to display and which to hide in the Table view.  
 
-You can hide or show individual fields, from each header of the field columns, or you can manage all fields of the record type from a setting in the table view toolbar. 
+You can hide or show individual fields, from each header of the field columns, or you can manage all fields of the record type from a setting in the table view toolbar.  
 
-For information, see [Manage the table view](../maestro/views/manage-the-table-view.md). 
+For more information, see [Manage the table view](../maestro/views/manage-the-table-view.md). 
 
 ### Week of August 21, 2023
 

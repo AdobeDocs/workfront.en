@@ -21,6 +21,14 @@ role: User
 
 # List of available workspace templates
 
+>[!IMPORTANT]
+>
+>Currently, Adobe Maestro is part of a closed beta program which is open to a limited number of customers. 
+>
+>Contact your account representative for more information about joining the beta program for Maestro.
+>
+>For information, see [Adobe Maestro overview](../maestro-overview.md).
+
 In Adobe Maestro, a workspace is a collection of operational record types and taxonomies used by a team and represents the team's work lifecycle. 
 
 Maestro comes with a set of templates to get you started with basic record types, taxonomies, and fields when you are building your workspace. For information about creating workspaces, see [Create workspaces](../architecture-and-fields/create-workspaces.md). 

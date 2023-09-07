@@ -23,6 +23,10 @@ hide: yes
 >[!IMPORTANT]
 >
 >Currently, Adobe Maestro is part of a closed beta program which is open to a limited number of customers. 
+>
+>Contact your account representative for more information about joining the beta program for Maestro.
+>
+>For information, see [Adobe Maestro overview](../maestro-overview.md). 
 
 As a marketing operations leader, you can use Adobe Maestro to organize work across the marketing lifecycle for all your teams.
 

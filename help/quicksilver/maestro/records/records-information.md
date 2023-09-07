@@ -1,6 +1,6 @@
 ---
 title: Records information
-description: The following articles describe how you can create and manage records in Adobe Maestro. 
+description: After you create record types in Adobe Maestro you can create individual records of those types. The following articles describe how you can create and manage records in Adobe Maestro. 
 hidefromtoc: yes
 hide: yes
 ---
@@ -18,6 +18,16 @@ hide: yes
 -->
 
 # Records information
+
+>[!IMPORTANT]
+>
+>Currently, Adobe Maestro is part of a closed beta program which is open to a limited number of customers. 
+>
+>Contact your account representative for more information about joining the beta program for Maestro.
+>
+>For information, see [Adobe Maestro overview](../maestro-overview.md).
+
+After you create record types in Adobe Maestro you can create individual records of those types. 
 
 The following articles describe how you can create and manage records in Adobe Maestro:
 
