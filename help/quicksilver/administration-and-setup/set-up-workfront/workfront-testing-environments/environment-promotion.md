@@ -203,7 +203,7 @@ Or
 
 ```json
 {
-    "packageName": "Agency Onboarding - 2023-06-06",
+    "name": "Agency Onboarding - 2023-06-06",
     "description": "This promotion package contains configuration to support the agency onboarding processes...",
     "source": "https://{domain}.{environment}.workfront.com",
     "objectCollections": [
@@ -565,7 +565,7 @@ PUT https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/pa
 
 ```json
 {
-    "packageName": "Agency Onboarding - 2023-06-06",
+    "name": "Agency Onboarding - 2023-06-06",
     "description": "This promotion package contains configuration to support the agency onboarding processes... with a description change",
     "source": "https://{domain}.{environment}.workfront.com",
     "status": "TESTING",
