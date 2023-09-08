@@ -51,7 +51,7 @@ You must have the following access to perform the steps in this article:
 
 * You must install the [!DNL Adobe Photoshop] app before you install the [!DNL Workfront] plugin.
 
-## Install the [!DNL Adobe Workfront for Photoshop] plugin for you organization
+## Install the [!DNL Adobe Workfront for Photoshop] plugin for your organization
 
 If you are an [!DNL Adobe Admin Console] administrator, you can include the plugin in [!DNL Creative Cloud] deployment packages. For more information, see [Including plugins in your package](https://helpx.adobe.com/in/enterprise/using/manage-extensions.html).
 

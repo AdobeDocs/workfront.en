@@ -21,6 +21,7 @@ This section contains the following articles:
 * [Create connections in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/connections/connection-instruction-toc.md)
 * [Create a connection to [!DNL Adobe Workfront Fusion] - Basic instructions](../../workfront-fusion/connections/connect-to-fusion-general.md)
 * [Connect [!DNL Adobe Workfront Fusion] to any web service](../../workfront-fusion/connections/connect-wf-fusion-to-any-web-service.md)
+* [Connection metadata in [!DNL Adobe Workfront Fusion]](/help/quicksilver/workfront-fusion/connections/connection-metadata.md)
 * [Connect [!DNL Adobe Workfront Fusion] to a web service that uses API token authorization](../../workfront-fusion/connections/connect-wf-web-service-uses-api-token-auth.md)
 * [Connect [!DNL Adobe Workfront Fusion] to [!DNL Google Services] with updated security measures](../../workfront-fusion/connections/connect-to-google-with-new-security-measures.md)
 * [Connect [!DNL Adobe Workfront Fusion] to [!DNL Google Services] using a custom OAuth client](../../workfront-fusion/connections/connect-fusion-to-google-using-oauth.md)
