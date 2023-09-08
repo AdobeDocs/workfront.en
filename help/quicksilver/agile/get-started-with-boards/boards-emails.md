@@ -12,6 +12,8 @@ exl-id: 7ec9f9cc-274c-4253-8441-d7ffe9afd78d
 
 [!DNL Adobe Workfront] [!UICONTROL Boards] sends you an email when you are added to a board and when a card is assigned to you. The notifications are turned on by default and you can select in your Boards preferences which emails you want to receive.
 
+You will also receive an email when you are tagged in a comment on a connected card, depending on your email notification settings. For more information, see [Activate or deactivate your own event notifications](/help/quicksilver/workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md). At this time, users tagged in comments on ad hoc cards do not receive an email notification.
+
 ## Access requirements
 
 You must have the following access to perform the steps in this article:
