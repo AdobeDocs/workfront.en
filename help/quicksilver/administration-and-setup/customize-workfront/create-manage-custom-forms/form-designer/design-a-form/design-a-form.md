@@ -550,11 +550,11 @@ To add an external lookup:
       }
       </pre>
       </p>
-      <p>You can use "$.data[*].name" to select USA and Canada as dropdown options.</p> <p>For more information about the JSON Path and ensuring you write the correct JSON Path, refer to <a href="https://jsonpath.com/">https://jsonpath.com/</a>.</p></td>
+      <p>then you can use "$.data[*].name" to select USA and Canada as dropdown options.</p> <p>For more information about the JSON Path and ensuring you write the correct JSON Path, refer to <a href="https://jsonpath.com/">https://jsonpath.com/</a>.</p></td>
      </tr>
      <tr> 
       <td role="rowheader">Headers</td>
-      <td>Click **Add Header**, and type or paste the key-value pair required for authentication with the API.</td>
+      <td>Click <strong>Add Header</strong>, and type or paste the key-value pair required for authentication with the API.</td>
      </tr>
     </tbody>
    </table>
