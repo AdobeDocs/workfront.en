@@ -68,4 +68,3 @@ You must have the following access to perform the steps in this article:
    The assignees and due date appear on the subtask in the list.
 
 1. To copy a subtask, click the **[!UICONTROL More]** menu ![More menu](assets/more-icon-spectrum.png) on the item and select **[!UICONTROL Copy]**.
-1. To delete a subtask, click the **[!UICONTROL More]** menu ![More menu](assets/more-icon-spectrum.png) on the item and select **[!UICONTROL Delete]**.
