@@ -33,7 +33,8 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Access level configurations*</strong></td> 
-   <td> <p>[!UICONTROL Worker]</p> <p>Note: If you still don't have access, ask your [!DNL Workfront] administrator if they set additional restrictions in your access level. For information on how a [!DNL Workfront] administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>[!UICONTROL Worker]</p> <p><b>NOTE</b></p> 
+   <p>If you still don't have access, ask your [!DNL Workfront] administrator if they set additional restrictions in your access level. For information on how a [!DNL Workfront] administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Object permissions</strong></td> 
@@ -66,6 +67,9 @@ You can create a personal task that is available only to you in the [!UICONTROL 
 >
 >* Unlike regular project tasks, personal tasks have a limited set of fields that are visible in the Workfront interface, and don't influence the timeline or the progress of any project. Reassigning a personal task to another user adds all task fields to a personal task, but the task remains on the personal project of the user who created the task.
 >
+>
+>* Personal tasks display on timesheets only when they have hours logged or they are pinned to the timesheet. You can only pin a personal task to a timesheet only when there are hours logged for the task. For more information, see [Log time](../../../timesheets/create-and-manage-timesheets/log-time.md). 
+> 
 >* We recommend that you create a project and move any personal tasks to it, if you want to make personal tasks part of the regular workflow.
 >
 > ![[!UICONTROL Project for personal tasks]](assets/createworkitems-personal--project-350x105.png)
