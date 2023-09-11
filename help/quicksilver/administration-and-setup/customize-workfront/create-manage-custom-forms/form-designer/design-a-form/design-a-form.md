@@ -543,7 +543,7 @@ To add an external lookup:
       <td><p>Type or paste the JSON path for the API.</p> <p>This option allows extracting data from the JSON returned by the API URL. It serves as a way to select which values from inside the JSON will appear in the dropdown options.</p><p>For example, if your API URL returns JSON in this format:</br>
       <pre>
       {
-       data: [
+       data: {
          { name: "USA"},
          { name: "Canada"}
        }
