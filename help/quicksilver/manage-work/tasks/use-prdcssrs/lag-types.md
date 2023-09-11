@@ -158,7 +158,7 @@ The following table illustrates the Lag Types and how to indicate the amount of 
    <p><b>NOTE</b></p> The maximum lag limit for percent is 2000%.</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Day of Week (w) </p> </td> 
+   <td> <p>Day of Week (w or we) </p> </td> 
    <td> <p>The delay between two tasks is measured by indicating the days of the week for the week that contains the Planned Completion Date of the predecessor.</p> <p>For this Lag Type, each day of the week is associated with a number:</p> 
     <ul> 
      <li>Sunday=1</li> 
@@ -181,7 +181,7 @@ The following table illustrates the Lag Types and how to indicate the amount of 
    <p>To indicate past or future weeks, you can add a number in front of the day number for the lag type. </p> <p>For example, to indicate the Monday of 10 weeks ago, you can use this code to indicate the predecessor of your successor:</p> <p><code>4fs-102w</code> </p> <p>10 indicates 10 weeks ago, and 2 is the number assigned to Monday. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Day of Week Non Zero (k)</p> </td> 
+   <td> <p>Day of Week Non Zero (k or ke)</p> </td> 
    <td> <p>The delay between two tasks is measured identically to the Day of the Week lag type, except if the predecessor's time ends on the same day of the week specified. The lag time is then calculated to the adjacent week (+/-). </p> <p>In this case, the lag time can never be 0.</p> </td> 
   </tr> 
  </tbody> 
