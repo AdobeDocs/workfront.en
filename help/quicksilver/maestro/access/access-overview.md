@@ -1,13 +1,13 @@
 ---
-title: Adobe Maestro access overview
-description: 
+title: Access overview
+description: All users in an organization can have access to Adobe Maestro. Currently, there are no access levels or permissions associated with users or the information in Maestro.
 hidefromtoc: yes
 hide: yes
 ---
 
 <!--update the metadata with real things when making this public; also update the description with something like this: Not all users in the organization have the same access and permissions to use Adobe Maestro. This article describes the levels of access that users could have to Adobe Maestro. -->
 
-# Adobe Maestro access overview
+# Access overview
 
 >[!IMPORTANT]
 >
@@ -18,7 +18,7 @@ hide: yes
 
 Adobe Maestro is a new offering from Adobe Workfront. For more information, see [Maestro overview](../maestro-overview.md). 
 
-At this time, all users in your organization can have access to Maestro, if a Workfront administrator enables the access for them. 
+Currently, all users in your organization can have access to Maestro, if a Workfront administrator enables the access for them. 
 
 >[!NOTE]
 >

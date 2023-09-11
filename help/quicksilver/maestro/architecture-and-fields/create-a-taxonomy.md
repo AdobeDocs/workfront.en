@@ -102,7 +102,7 @@ You must have the following access to perform the steps in this article:
 
   >[!NOTE]
   >
-  >    Taxonomies created when using a workspace template have additional field. 
+  >    Taxonomies created when using a workspace template have additional fields. 
 
 ## Create a taxonomy
 

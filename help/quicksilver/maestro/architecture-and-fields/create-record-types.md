@@ -106,7 +106,7 @@ You can create record types automatically when you create a workspace using a te
 
 For information about creating workspaces, see [Create workspaces](../architecture-and-fields/create-workspaces.md).
 
-For information about what record types are included with each template, see [List of available workspace templates](../architecture-and-fields/workspace-templates.md). 
+For information about what record types are included with each template, see [List of workspace templates](../architecture-and-fields/workspace-templates.md). 
 
 ## Create a record type from scratch
 
@@ -160,7 +160,7 @@ For more information about taxonomies, see [Create a taxonomy](../architecture-a
     Click the **More** icon ![](assets/more-menu.png) to the right of the record type name and click **Rename** to rename it. 
 
 1. (Optional) Click **+ New < record type name >** to add records of the selected record type. For more information, see [Create records](../records/create-records.md). 
-1. (Optional) Click the **+** icon in the upper-right corner of the table to add more fields to the record type. For more information, see [Create fields](../architecture-and-fields/delete-fields.md). 
+1. (Optional) Click the **+** icon in the upper-right corner of the table to add more fields to the record type. For more information, see [Create fields](../architecture-and-fields/create-fields.md). 
 1. (Optional) Click the left-pointing arrow to the left of the record type name to go back to the selected workspace. 
 
     The record type card displays the number of fields and connections the record type contains. 

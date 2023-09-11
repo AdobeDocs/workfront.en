@@ -18,7 +18,7 @@ hide: yes
 
 Adobe Maestro is a new offering from Adobe Workfront. For more information, see [Maestro overview](../maestro-overview.md). 
 
-At this time, all users in your organization can have access to Maestro, if the following prerequisite is in place:
+Currently, all users in your organization can have access to Maestro, if the following prerequisite is in place:
 
 * Your organization is enrolled in the Adobe Maestro closed beta program. 
 

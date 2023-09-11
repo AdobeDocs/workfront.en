@@ -1,6 +1,6 @@
 ---
 title: Edit record types
-description: You can edit record types after they have been saved. Record types are the objec types of Adobe Maestro.
+description: You can edit record types after they have been saved. Record types are the object types of Adobe Maestro.
 hidefromtoc: yes
 hide: yes
 ---

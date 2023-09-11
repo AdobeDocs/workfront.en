@@ -1,6 +1,6 @@
 ---
 title: Share records
-description: You can share records with others to collaborate with other users. The link opens the record's Details page. 
+description: You can share records with others to increase your collaboration.
 hidefromtoc: yes
 hide: yes
 ---
@@ -17,13 +17,13 @@ hide: yes
 >
 >For information, see [Adobe Maestro overview](../maestro-overview.md).
 
-You can share records in Adobe Maestro with others to collaborate with other users. The link opens the record's Details page.  
+To collaborate with other users, you can share records with others. 
 
 You can share a Maestro record in the following ways: 
 
 * Copy the link of the Details page of a record from your browser when the page is open. 
 
-* Copy a link to the record's Details page when viewing records in the record type's table view. 
+* Copy a link to the record's Details page when viewing records in the record type's table view.   
 
 This article describes how you can copy a link to a record's Details page from the table view of a record type. 
 

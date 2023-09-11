@@ -39,7 +39,8 @@ The articles in the sections listed below describe how you can configure Maestro
 
 * [Maestro overview](maestro-overview.md): A high-level overview of Adobe Maestro, including the terminology and concepts that are unique to this solution. 
 * [Release activity](../maestro/release-activity.md): A list of all the features that have been released since the launch of the Maestro closed beta program, on May 22, 2023 with exact release dates and a short overview of each feature.
+* [Access information](../maestro/access/access-information.md): Information about the access needed to use Adobe Maestro.
 * [Architecture information](../maestro/architecture-and-fields/architecture-and-fields-information.md): In-depth information about the architecture of Adobe Maestro, with step-by-step instructions about how you can create and manage workspaces, record types, and fields. 
 * [Records information](../maestro/records/records-information.md): In-depth information and step-by-step instructions about how you can create and manage records. 
 * [Views information](../maestro/views/views-information.md): In-depth information about Maestro views and how to manage them. 
-<!--* [Access information](../maestro/access/access-information.md): Information about the access needed to use Adobe Maestro. -->
+

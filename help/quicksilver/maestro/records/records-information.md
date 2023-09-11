@@ -5,7 +5,7 @@ hidefromtoc: yes
 hide: yes
 ---
 
-<!-- udpate the metadata with real information when making this avilable in TOC and in the left nav
+<!-- update the metadata with real information when making this available in TOC and in the left nav
 ---
 title: The architecture and fields of Adobe Maestro
 description: The following articles describe how you can create and manage records in Adobe Maestro. 
@@ -27,7 +27,7 @@ hide: yes
 >
 >For information, see [Adobe Maestro overview](../maestro-overview.md).
 
-After you create record types in Adobe Maestro you can create individual records of those types. 
+After you create record types in Adobe Maestro, you can create individual records of those types. 
 
 The following articles describe how you can create and manage records in Adobe Maestro:
 

@@ -16,5 +16,5 @@ As a Workfront administrator, you must give access to your users to use Maestro.
 The following articles contain information about what access your users need to use Maestro: 
 
 * [Access overview](../access/access-overview.md)
-* [Grant access](../access/grant-access.md)
+* [Grant access to Adobe Maestro](../access/grant-access.md)
 

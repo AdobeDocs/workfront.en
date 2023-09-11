@@ -126,10 +126,10 @@ You must have the following access to perform the steps in this article:
 
   The values of the linked fields from the linked records populate the Maestro record that you are linking from automatically. 
 
-* Everyone with access to Maestro can see the connections you make between Maestro records or between Maestro records and Workfront objects. Also, you can view and edit everyone else's connections. <!--add that this is based on your permissions in both Maestro and Workfront (or, later, any other application)-->
+* Everyone with access to Maestro can see the connections that you make between Maestro records or between Maestro records and Workfront objects. Also, you can view and edit everyone else's connections. <!--add that this is based on your permissions in both Maestro and Workfront (or, later, any other application)-->
 * You can connect one Maestro record to one or multiple objects from another application.
 * You cannot connect taxonomies to record types or to objects from another application. <!-- this is temporary; there will be certain objects (teams, etc) that will be linked to taxonomies, per Lilit-->
-* Currently, you can link Maestro records only to Workfront objects. To link Maestro records with Workfront objects you must have the following:
+* Currently, you can link Maestro records only to Workfront objects. To link Maestro records with Workfront objects, you must have the following:
 
   * Workfront objects. For example, you must first create projects, portfolios, programs, companies, or groups in Workfront.
   * Maestro workspaces, record types, and records. For more information, see the following articles:
@@ -153,7 +153,7 @@ You must have the following access to perform the steps in this article:
 
   A new column is added to the table to display the linked record type. 
 
-1. Add records to the record type you selected by adding a new row to the table. For information, see [Create records](../../maestro/records/create-records.md). 
+1. Add records to the record type that you selected by adding a new row to the table. For information, see [Create records](../../maestro/records/create-records.md). 
 1. From a record listed in the table view, go to the linked record column and hover over the cell corresponding to the record that you want to link with other Maestro records, then click the **+** icon. 
 
     The **Connect objects** box displays. 
@@ -168,8 +168,8 @@ You must have the following access to perform the steps in this article:
 
     The following are added:
 
-    * The linked records display in the linked record field of the record you selected in step 3. Updating the linked records automatically updates the linked record fields for the records you are linking from. <!--ensure the number of the step stays accurate--> 
-    * The linked field (or fields) that belong to the linked records are automatically populated with the information from the original linked records. You cannot manually edit linked fields. 
+    * The linked records display in the linked record field of the record that you selected in step 3. Updating the linked records automatically updates the linked record fields for the records that you are linking from. <!--ensure the number of the step stays accurate--> 
+    * The linked fields that belong to the linked records are automatically populated with the information from the original linked records. You cannot manually edit linked fields. 
         
         >[!TIP]
         >
@@ -211,7 +211,7 @@ After you created a connection between a Maestro record type and a Workfront obj
 
     A new column is added to the table to display the linked object type. 
 
-1. Add individual records to the record type you selected by adding a new row to the table. For information, see [Create records](../../maestro/records/create-records.md). 
+1. Add individual records to the record type that you selected by adding a new row to the table. For information, see [Create records](../../maestro/records/create-records.md). 
 1. From a record listed in the table view, go to the linked object column and hover over the cell corresponding to the record that you want to link with other objects from Workfront, then click the **+** icon. <!--change Workfront to other applications, when this will be possible-->
 
     The **Connect objects** box displays. 

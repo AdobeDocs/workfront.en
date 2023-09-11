@@ -1,6 +1,6 @@
 ---
 title: Edit records 
-description: You can edit records in Adobe Maestro.
+description: You can edit record information in Adobe Maestro. You must create record types before you can start creating and editing records. 
 hidefromtoc: yes
 hide: yes
 ---
@@ -79,7 +79,7 @@ You must have the following access to perform the steps in this article:
 ## Considerations about editing records
 
 * You can edit records that you or another user created. <!--will change with access levels-->
-* If the edited records are linked to other records, the new information of the records that you are editing will reflect on the linked records. 
+* If the edited records are linked to other records, the new information of the records that you are editing reflects on the linked records. 
 * You cannot edit records in bulk. <!--this will probably change-->
 
 ## Edit records

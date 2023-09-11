@@ -79,7 +79,7 @@ You must have the following access to perform the steps in this article:
 
 ## Considerations about deleting workspaces
 
-* You can delete any workspace that either you or anyone in your organizaton has created. <!--this will change with access levels and permissions-->
+* You can delete any workspace that either you or anyone in your organization has created. <!--this will change with access levels and permissions-->
 * When you delete workspaces, all the record types, taxonomies, and their fields are also deleted. <!--asked Lilit because the confirmation says the records don't delete, but not sure how they can exist outside of a workspace?!-->
 * Deleted workspaces and the information they contain cannot be recovered. 
 
@@ -93,4 +93,4 @@ You must have the following access to perform the steps in this article:
 1. Click the **More** menu ![](assets/more-menu.png) next to the workspace name, then click **Delete**.
 1. Click **Delete** to confirm.
 
-    The workspace is deleted and cannot be recovered. Any record types, taxonomies, their records and the fields associated with them are also deleted. <!--ensure this is right after closed beta-->
+    The workspace is deleted and cannot be recovered. Any record types, taxonomies, their records, and the fields associated with them are also deleted. <!--ensure this is right after closed beta-->

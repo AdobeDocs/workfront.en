@@ -1,5 +1,5 @@
 ---
-title: List of available workspace templates
+title: List of workspace templates
 description: A workspace is a collection of operational record types and taxonomies used by a team and represents the team's work lifecycle. 
 
 Maestro comes with a set of templates to get you started with basic record types, taxonomies, and fields when you are building your workspace.
@@ -19,7 +19,7 @@ role: User
 
 -->
 
-# List of available workspace templates
+# List of workspace templates
 
 >[!IMPORTANT]
 >

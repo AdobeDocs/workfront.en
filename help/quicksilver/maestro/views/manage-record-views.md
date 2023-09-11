@@ -149,13 +149,13 @@ The following table shows the similarities and differences between the table and
     The workspace you last accessed opens by default. For information about creating workspaces, see [Create workspaces](../architecture-and-fields/create-workspaces.md).
 1. Click a record type card. For information about creating a record type, see [Create record types](../architecture-and-fields/create-record-types.md). 
 
-    By default, all the records of the type selected display in the table view. 
+    By default, all the records of the selected type display in the table view. 
 
 1. Click the **View** drop-down menu, and select either an existing **Table view** ![](assets/table-view-icon.png) or click **Create view > Table** to create a table view
 
     Or
     
-    Select an existing **Timeline view** ![](assets/timeline-view-icon.png) view or or click **Create view > Timeline** to create a timeline view.
+    Select an existing **Timeline view** ![](assets/timeline-view-icon.png) view or click **Create view > Timeline** to create a timeline view.
 
     ![](assets/view-types-drop-down-from-record-type-list.png)
 
@@ -187,7 +187,7 @@ The following table shows the similarities and differences between the table and
 
     For information about creating a record type, see [Create record types](../architecture-and-fields/create-record-types.md). 
 
-    By default, all the records of the type selected display in the table view. 
+    By default, all the records of the selected type display in the table view. 
 
 1. Click the view drop-down menu, hover over one of the views in the list, then click the **More** menu ![](assets/more-menu.png) > **Delete**. 
 1. Click **Delete** to confirm. <!--ensure there is not another saving step here?!-->

@@ -62,9 +62,9 @@ For better visibility when working with links in the Table view, we have added s
 
 Preview and production: August 31, 2023
 
-To display the right information on a given set of records, especially if you intend to share the view with others who need to see some but not all fields of a record type, you can now select which fields (or columns) to display and which to hide in the Table view.  
+To display the right information on a given set of records, especially if you intend to share the view with others who must see some but not all fields of a record type, you can now select which fields (or columns) to display and which to hide in the Table view.  
 
-You can hide or show individual fields, from each header of the field columns, or you can manage all fields of the record type from a setting in the table view toolbar.  
+You can hide or show individual fields from each header of the field columns, or you can manage all fields of the record type from a setting in the table view toolbar.  
 
 For more information, see [Manage the table view](../maestro/views/manage-the-table-view.md). 
 
@@ -74,7 +74,7 @@ For more information, see [Manage the table view](../maestro/views/manage-the-ta
 
 Preview and production: August 24, 2023
 
-You can now connect a Maestro record with Workfront programs and portfolios. You must first create a connection between a Maestro record type and a program or portfolio which creates a connected field. Then, you can connect any Maestro records from all other record types within the same workspace to specific programs and portfolios which will create a read-only Workfront Program or Workfront Portfolio record type in the same workspace. Consider the following:
+You can now connect a Maestro record with Workfront programs and portfolios. You must create a connection between a Maestro record type and a program or portfolio which creates a connected field. Then, you can connect any Maestro records from all other record types within the same workspace to specific programs and portfolios which creates a read-only Workfront Program or Workfront Portfolio record type in the same workspace. Consider the following:
 
 * Workfront connector record types are unique for each workspace. 
 * You can connect multiple Maestro records to the same Workfront program or portfolio, and multiple programs and portfolios to the same Maestro record. 
@@ -131,7 +131,7 @@ You can now import an Excel file to create record types in a workspace. The shee
 
 Preview and production: August 10, 2023
 
-We have improved the way you connect record types, including connecting to Workfront projects. As part of this improvement, we made the following changes when adding a field for a record type from the table view:  
+We have improved the way that you connect record types, including connecting to Workfront projects. As part of this improvement, we made the following changes when adding a field for a record type from the table view:  
 
 * Removed the Relationship-type field from the "New field" tab.  
 
@@ -143,7 +143,7 @@ We have improved the way you connect record types, including connecting to Workf
 
 Preview and production: July 13, 2023
 
-You can now select a custom icon for a record type, as well as a custom color for the record type icon.  
+You can now select a custom icon for a record type, and a custom color for the record type icon.  
 
 #### New Checkbox field type
 
@@ -171,7 +171,7 @@ We have introduced a requirement now that the field names of a Maestro record ty
 
 Preview and production: June 5, 2023
 
-You can now connect a Maestro record with Workfront projects. You must first create a connector Maestro record type to establish the connection between Maestro records and Workfront projects. Then, you can connect any Maestro records from all other record types to the connector record using the Relationship field. Consider the following:
+You can now connect a Maestro record with Workfront projects. You must create a connector Maestro record type to establish the connection between Maestro records and Workfront projects. Then, you can connect any Maestro records from all other record types to the connector record using the Relationship field. Consider the following:
 
 * You must have a connector record type for Workfront for each Workspace. 
 * You can connect multiple Maestro records to the same Workfront project, and multiple projects to the same Maestro record. 
@@ -183,4 +183,4 @@ You can now connect a Maestro record with Workfront projects. You must first cre
 
 Preview and production: May 31, 2023  
 
-You must have at least two date fields associated with a record type in order to create a Timeline view. 
+You must have at least two date fields associated with a record type to create a Timeline view. 

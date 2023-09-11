@@ -32,7 +32,7 @@ Teams and leadership need clear answers to questions like:
 * How well are the awareness programs doing right now?
 * What do the assets look like for a particular Campaign? Which of them must still be approved?
 
-To answer these questions, leadership needs a solution that can provide a holistic view of every stage of work from planning to execution, from delivery to measuring the results. Currently, organizations have tools that can cover some parts of the process, but many do not have good connections to all phases of work, nor can they reliably provide end results.  
+To answer these questions, leadership needs a solution that can provide a holistic view of every stage of work from planning to execution, from delivery to measuring the results. Currently, organizations have tools that can cover some parts of the process, but many do not have good connections to all phases of work, nor can they reliably provide results.  
 
 The following are some of the main capabilities of Maestro:
 
@@ -218,7 +218,7 @@ The following are the main Maestro objects and concepts:
 
     ![](assets/new-connection-tab-with-workfront-option.png)
 
-    After you establish a connection between the record types, you can connect individual records of those types to one another. The connection between the records display as a linked record field. 
+    After you establish a connection between the record types, you can connect individual records of those types to one another. The connection between the records displays as a linked record field. 
 
 * **Linked fields** (or lookup fields): After establishing the connection between two record types and you link individual records together, you can reference the linked records' fields on the record you are connecting from.
 
@@ -263,7 +263,7 @@ The following table shows the limits for how many objects you can create in Maes
 |     Number of characters for a text field                                                               |   1,000 characters                                                                                              |
 |     Size of file that you can paste in a record type table                    |   1MB                                                                                                           |
 |     Size of file that you can import through the API for a record type table  |   1.5MB                                                                                                         |
-|     Rate at which API requests can be made                                    |   200 requests per minute                                                                                       |
+|     The rate at which API requests can be made                                    |   200 requests per minute                                                                                       |
 | Size of CSV of Excel file you can import in a table | 5MB |
 
 ## Enable Maestro for the users in your Workfront instance
@@ -326,7 +326,7 @@ To locate Maestro:
 
 ## Features currently available in Maestro
 
-The following table illustrates the main features that will be available in Maestro, as well as a timeline of their availability. The list does not include all features.  
+The following table illustrates the main features that will be available in Maestro, and a timeline of their availability. The list does not include all features.  
 
 |       Feature                                      |     Available now  |     Available soon   |     In research  |
 |----------------------------------------------------|:-----------------------------:|:--------------------------------:|:----------------:|
@@ -358,7 +358,7 @@ The following table illustrates the main features that will be available in Maes
 
 ## Maestro release activity 
 
-We are releasing new features to Maestro on a regular basis. For an up-to-date list of released features, see [Adobe Maestro release activity](../maestro/release-activity.md). 
+We are releasing new features to Maestro regularly. For an up-to-date list of released features, see [Adobe Maestro release activity](../maestro/release-activity.md). 
 
 <!--moved the contents of this whole section to its own article: release-activity.md, in the same folder
 

@@ -91,7 +91,7 @@ You must have the following access to perform the steps in this article:
 
 <!--insert screen shot of table view-->
 
-When creating a table view, all records of the selected record type display in a table. Each row is a unique record and each column is a record field. All fields and all records display by default. 
+When creating a table view, all records of the selected type display in a table. Each row is a unique record and each column is a record field. All fields and all records display by default. 
 
 To manage a table view: 
 
@@ -187,7 +187,7 @@ Consider the following when working with filters in the table view:
 
 * The filters you create for the table view work independently from the filters in the timeline view when applied to the same record type. 
 
-* The filters are unique to the view you select. Two table views of the same record type can have different filters applied to them. Two users looking at the same table view see the same filter that is currently applied. 
+* The filters are unique to the view that you select. Two table views of the same record type can have different filters applied to them. Two users looking at the same table view see the same filter that is currently applied. 
 
 * You cannot name the filters you build and apply to a table view.
 
@@ -201,7 +201,7 @@ To add a filter to a table view:
 1. Select a table view, then click **Filters** in the upper-right corner of the table.    
 1. Click **Add condition** and add the following information: 
 
-    * Select a field you want to filter by <!-- the tip below might change-->
+    * Select a field that you want to filter by <!-- the tip below might change-->
 
     * Select an option (or a filter modifier) to define what kind of condition the field must meet
 
@@ -343,9 +343,9 @@ Consider the following when sorting records in the table view:
 
 <!-- if this is available for the timeline view, update both when you update one-->
 
-* Sorting is unique to the view you select. Two table views of the same record type can have different sorting criteria applied to them. Two users looking at the same table view see the same sorting that is currently applied. 
+* Sorting is unique to the view that you select. Two table views of the same record type can have different sorting criteria applied to them. Two users looking at the same table view see the same sorting that is currently applied. 
 
-* You cannot name the sorting you build and apply to a table view.
+* You cannot name the sortings you build and apply to a table view.
 
 * The sorting you create is preserved when you navigate away.
 

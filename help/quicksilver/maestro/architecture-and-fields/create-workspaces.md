@@ -1,6 +1,6 @@
 ---
 title: Create workspaces
-description: Create custom workspaces to match how your organizations work.
+description: A workspace is a collection of operational record types and taxonomies used by a team and represents the team's work lifecycle. You can fully customize workspaces in Maestro. 
 hidefromtoc: yes
 hide: yes
 ---
@@ -102,7 +102,7 @@ You must have the following access to perform the steps in this article:
 
     ![](assets/previewing-a-workspace-template.png)
 
-    For information about Maestro workspace templates, see [List of available workspace templates](../architecture-and-fields/workspace-templates.md).
+    For information about Maestro workspace templates, see [List of workspace templates](../architecture-and-fields/workspace-templates.md).
 
 1. Click **Use template** to start creating the workspace from the selected template
 

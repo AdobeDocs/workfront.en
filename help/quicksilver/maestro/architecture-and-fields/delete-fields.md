@@ -1,5 +1,5 @@
 ---
-title: Delete fields in Adobe Maestro
+title: Delete fields
 description: In Adobe Maestro, you can delete custom fields that are no longer relevant. 
 hidefromtoc: yes
 hide: yes
@@ -7,7 +7,7 @@ hide: yes
 
 <!--udpate the metadata with real information when making this avilable in TOC and in the left nav-->
 
-# Delete fields in Adobe Maestro
+# Delete fields
 
 >[!IMPORTANT]
 >
@@ -93,11 +93,11 @@ You must have the following access to perform the steps in this article:
     This opens the last-accessed workspace in Maestro. 
 1. Click the card of a record type whose fields you want to delete. 
 1. (Conditional) Select a **Table view** from the **View** drop-down menu in the upper-right corner of the record type page. 
-1. Find the field you want to delete in the column headers, and hover over the column header, then click the downward-pointing arrow after the field name. 
+1. Find the field that you want to delete in the column headers, and hover over the column header, then click the downward-pointing arrow after the field name. 
 1. Click **Delete**. <!-- check this: they might replace it with **Delete field**-->
 
     <!--insert screen shot when finalized-->
 
 1. Click **Delete** to confirm. 
 
-    The field is deleted, cannot be recoverd, and can no longer be associated with any records. 
+    The field is deleted, cannot be recovered, and can no longer be associated with any records. 

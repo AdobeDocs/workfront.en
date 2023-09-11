@@ -19,7 +19,7 @@ hide: yes
 
 In Adobe Maestro, a record is an instance of a record type. 
 
-You can have the following type of records:
+You can have the following types of records:
 
 * **Operational records**: They represent work-related objects. For example, for an operational record called "Campaign", you can have named records like "Monthly Newsletter" or "Summer Sale."
 * **Taxonomy records**: They represent attributes that can be associated with operational records. For example, for a taxonomy record type called "Channel", you can have named taxonomies like "Email", "Social Media", or "Advertising". 
@@ -94,7 +94,7 @@ You can create records in the table view of a record type page.
 1. Click a record type card. For information about creating a record type, see [Create record types](../architecture-and-fields/create-record-types.md). 
 
     The record type page opens in the view that you last accessed. By default, a record type page opens in the table view. 
-    All the records of the type selected display in the table view. 
+    All the records of the selected type display in the table view. 
 
 1. (Conditional) If the record type page does not open in the table view, click the **View** drop-down menu, and select either an existing **table view** ![](assets/table-view-icon.png) or click **Create view > Table** to create a table view. 
 
@@ -120,13 +120,13 @@ You can import records from other applications by linking them to Maestro linked
 
 1. Create Maestro records for the record type you created in the previous step. For information, see the section [Create records by manually adding them to a record type](#create-records-by-manually-adding-them-to-a-record-type) in this article. 
 
-1. Create a new connection to an object type from a third-party application for the Maestro record type you created. For information,see [Connect record types](../architecture-and-fields/connect-record-types.md). 
+1. Create a connection to an object type from a third-party application for the Maestro record type you created. For information, see [Connect record types](../architecture-and-fields/connect-record-types.md). 
 
 1. Add records from the third-party application to the Maestro records you created above using the linked record field you created in the previous step. For information, see [Connect records](../architecture-and-fields/connect-records.md). 
 
     The following items are created in Maestro:
 
-    * A read-only Maestro record type that refers to the third-party record type you linked to in the Relationship-type field. 
+    * A read-only Maestro record type that refers to the third-party record type you linked to in the connected record field. 
 
       For example, if you connect a Maestro record type to Workfront projects, a read-only record type named "Workfront projects" is created in the same workspace. 
     * Read-only records in the third-party record type page. The records imported from the third-party application remain read-only and can only be updated in their original application. 
@@ -136,7 +136,7 @@ You can import records from other applications by linking them to Maestro linked
 
 1. In Maestro, start creating records in the Table view, as described in the section [Create records by manually adding them to a record type](#create-records-by-manually-adding-them-to-a-record-type) in this article. 
 
-    Ensure the Maestro table view has the columns (or the fields) that you want to populate with the new record information. 
+    Ensure that the Maestro table view has the columns (or the fields) that you want to populate with the new record information. 
 
 1. Click **New < Record type name >** in the last row of the table to add as many new rows to the table as you want your new records to be. 
 

@@ -32,12 +32,12 @@ As a marketing operations leader, you can use Adobe Maestro to organize work acr
 
 With Maestro, you can fully customize your workflows, from deciding what object types (or record types) your organization uses to configuring how these objects link to one another. 
 
-Additionally, Maestro can link to object types from other systems, creating a coherent framework for all your processes.  
+Also, Maestro can link to object types from other systems, creating a coherent framework for all your processes.  
 
-This articles in the following sections describe how you can configure the Maestro workspaces, define the record types which are the building blocks of those workspaces, and start using its capabilities: 
+The articles in the following sections describe how you can configure the Maestro workspaces, define the record types which are the building blocks of those workspaces, and start using its capabilities: 
 
 * [Create workspaces](../architecture-and-fields/create-workspaces.md)
-* [Workspace templates](../architecture-and-fields/workspace-templates.md)
+* [List of workspace templates](../architecture-and-fields/workspace-templates.md)
 * [Overview of record types and taxonomies](../architecture-and-fields/overview-of-record-types-and-taxonomies.md)
 * [Create operational record types](../architecture-and-fields/create-record-types.md)
 * [Create taxonomy record types](../architecture-and-fields/create-a-taxonomy.md)
@@ -48,6 +48,6 @@ This articles in the following sections describe how you can configure the Maest
 * [Edit fields](../architecture-and-fields/edit-fields.md)
 * [Delete workspaces](../architecture-and-fields/delete-workspaces.md)
 * [Delete record types](../architecture-and-fields/delete-record-types.md)
-* [Delete fields in Adobe Maestro](../architecture-and-fields/delete-fields.md)
+* [Delete fields](../architecture-and-fields/delete-fields.md)
 
 

@@ -194,7 +194,7 @@ Single-line text fields capture limited alphanumeric information. For example,  
 
 1. Add the following information:
      * **Name**: The name of the field type, as it will appear in a table or the Details page of the record. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
-     * **Description**: Additional information about the field. The description of a field displays when you hover over the field's column in a table.
+     * **Description**: Additional information about the field. The description of a field displays when you hover over the field's column header in a table.
 1. Click **Create**. 
 
     The new single-line field is added as a column to the record type and its values can be associated with records. The field also displays on the Details page of a record.
@@ -281,11 +281,12 @@ You can use a date field to capture additional information in date and time form
         * **Long**: May 16, 2023
         * **European**: 16/05/2023
         * **ISO**: 2023-05-16
-    * **Include a time field**: Select this option if you want to include a time stamp. Select from the following options:
+    * **Include a time field**: Select this option if you want to include a time stamp. This is unselected by default. 
+    
+        Select from the following options:
+        
         * **24hr**: For example: 18:00
         * **12hr**: For example: 6:00 PM
-
-        This is unselected by default.
 
 1. Click **Create**. 
 

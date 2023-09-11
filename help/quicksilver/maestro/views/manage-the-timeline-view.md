@@ -1,5 +1,5 @@
 ---
-title: Manage the timeline view in Adobe Maestro
+title: Manage the timeline view
 description: You can display records in a timeline view, when accessing the record type page in Adobe Maestro. 
 hidefromtoc: yes
 hide: yes
@@ -98,9 +98,9 @@ Consider the following:
 * You can create a Timeline view only when you have at least two date fields associated with a record type. When you have one or no date fields associated with a record type, the Timeline view option is dimmed. 
 * Depending on the dates associates with the records, some records might not display in the timeline view in the following scenarios:
 
-    * When the Start and End dates have no values.
-    * When the Start or the End dates have no value.
-    * When the Start date is after the End date.    
+    * When the Start and End dates have no values
+    * When the Start or the End dates have no value
+    * When the Start date is after the End date 
 
 <!--these are NOT available now because there won't be a table for the timeline view for the near future, per Andy: 
 * The records displayed in the timeline view also display in a view-only table to the left of the timeline. 
@@ -157,7 +157,7 @@ Consider the following when working with filters in the timeline view:
 
 * The filters you create for the timeline view work independently from the filters in the table view when applied to the same record type. 
 
-* The filters are dependent on the view you select. Two timeline views of the same record type can have different filters applied to them. Two users looking at the same timeline view see the same filter that is currently applied. 
+* The filters are unique to the view that you select. Two timeline views of the same record type can have different filters applied to them. Two users looking at the same timeline view see the same filter that is currently applied. 
 
 * You cannot name the filters you build and apply to a timeline view.
 
@@ -225,11 +225,11 @@ this is not possible right now; if this is the same functionality as the table v
 
 ### Edit the timeline view settings {#edit-the-timeline-view-settings}
 
-Update the timeline view settings to indicate what information should display in the timeline section of the view. 
+Update the timeline view settings to indicate what information displays in the timeline section of the view. 
 
-1. Create a timeline view, as described the article [Manage record views](../views/manage-record-views.md). 
+1. Create a timeline view, as described in the article [Manage record views](../views/manage-record-views.md). 
 1. Click **Settings**. 
-1. Click **Date and time** in the left panel, then select a **Start date** and an **End date** to display on the timeline. You can choose the default Start and End dates, or you can choose any date field available. The bars representing the records start on the date you indicate for the Start date and end on the date corresponding with the End date. 
+1. Click **Date and time** in the left panel, then select a **Start date** and an **End date** to display on the timeline. You can choose the default Start and End dates, or you can choose any date field available. The bars representing the records start on the date that you indicate for the Start date and end on the date corresponding with the End date. 
 
     >[!NOTE]
     >
@@ -255,6 +255,6 @@ Update the timeline view settings to indicate what information should display in
 
 1. Click **Save**.
 
-    The records display in the timeline view with the specifications you selected. 
+    The records display in the timeline view with the specifications that you selected. 
 
 

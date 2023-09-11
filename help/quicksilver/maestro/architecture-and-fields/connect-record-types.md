@@ -1,13 +1,13 @@
 ---
 title: Connect record types
-description: You can use a Relationship-type field to link record types and their fields. By doing this, you can display fields from the linked record on another record.
+description: A way to indicate how individual record types relate to one another is to connect them. Also, you can connect Maestro record types with object types from other applications to enhance your users' experience and keep their focus in one application.
 hidefromtoc: yes
 hide: yes
 ---
 
 <!-----
 title: Connect record types
-description: You can use a Relationship-type field to link record types and their fields. By doing this, you can display fields from the linked record on another record.
+description: A way to indicate how individual record types relate to one another is to connect them. Also, you can connect Maestro record types with object types from other applications to enhance your users' experience and keep their focus in one application.
 hidefromtoc: yes
 hide: yes
 feature: Work management
@@ -29,7 +29,7 @@ author: Alina
 >
 >For information, see [Adobe Maestro overview](../maestro-overview.md). 
 
-You can use Adobe Maestro to design fully-customizable workspaces that contain record types needed in your organization. A way to indicate how individual record types relate to one another is to connect them. Additionally, you can connect connect Maestro record types with object types from other applications to enhance your users' experience and keep their focus in one application. 
+You can use Adobe Maestro to design fully-customizable workspaces that contain record types needed in your organization. A way to indicate how individual record types relate to one another is to connect them. Also, you can connect Maestro record types with object types from other applications to enhance your users' experience and keep their focus in one application. 
 
 You can connect the following: 
 
@@ -182,9 +182,9 @@ You must have the following access to perform the steps in this article:
 
     >[!TIP]
     >
-    >We recommend that you include the name of the record you are linking to in the name of the relationship-type field to capture what record type the new field is coming from. The name of the linked record is not visible in the new linked record field or its linked fields. 
+    >We recommend that you include the name of the record you are linking to in the name of the connected record field to capture what record type the new field is coming from. The name of the linked record is not visible in the new linked record field or its linked fields. 
 
-     * **Description**: Additional information about the relationship-type field. The description of a field displays when you hover over the field's column in a table. 
+     * **Description**: Additional information about the connected record field. The description of a field displays when you hover over the field's column in a table. 
      * **Allow multiple records**: Select this option to indicate that you allow that users can add multiple records when the linked record type field displays on the original records. This is selected by default.
      * **Select lookup fields**: Select this option to add fields from the selected record type. This is selected by default. 
 
@@ -241,7 +241,7 @@ You must have the following access to perform the steps in this article:
 
         `<Name of the original field on the linked record> (from <Name of your linked field>)`
 
-    * A linked record field on the record type you are linking to. The name of the linked record field on the linked record type is the name of the record type you link from. 
+    * A linked record field on the record type you are linking to. The name of the linked record field on the linked record type is the name of the record type that you link from. 
     
         For example, if you link the "Product" record type from the "Campaign" record type and you name the connected field of the Campaign "Linked Product", a "Campaign" linked field is created for the Product record type. 
 

@@ -1,6 +1,6 @@
 ---
 title: Example of connecting record types and records
-description: This article describes an example of how to create a connection between an Adobe Maestro record type and a Workfront project object type. it also describes how you can connect a Maestro record with to an individual project. 
+description: This article describes an example of how to create a connection between an Adobe Maestro record type and a Workfront project object type. It also describes how you can connect a Maestro record with to an individual project. 
 hidefromtoc: yes
 hide: yes
 ---
@@ -55,6 +55,7 @@ To do this:
     >[!TIP]
     >
     >    If you want to view the Budget of all selected products as one total number, select **SUM** in the drop-down menu to the right of the field name. When users select multiple products in the **Product information** linked record field, the **Budget (from Product information)** field adds all their Budget values together and displays the total. <!-- check the shot below - added a bug with a couple of UI changes here-->
+    >
     > If you select **None**, instead of **SUM**, the individual budgets will display separated by commas.
 
     This generates the following fields: 
@@ -122,6 +123,7 @@ To do this:
     >[!TIP]
     >
     >    If you want to view the Planned Revenue of all selected projects as one total number, select **SUM** in the drop-down menu to the right of the field name. When users select multiple projects in the **Project information** linked object field, the **Planned Revenue (from Product information)** field adds all their values together and displays the total. <!-- check the shot below - added a bug with a couple of UI changes here-->
+    >
     > If you select **None**, instead of **SUM**, the individual Planned Revenues display separated by commas.
 
     ![](assets/add-planned-revenue-project-field-to-new-connection.png)
@@ -154,7 +156,7 @@ To do this:
 
     >[!TIP]
     >
-    >When you do not select an aggregator for the multiple values, and you select multiple objects in the object linked field, all values display separated by commas. 
+    >When you do not select an aggregator for the multiple values, and you select multiple objects in the object-linked field, all values display separated by commas. 
 
     * A read-only Workfront Project record type to the workspace you selected. 
 
@@ -180,7 +182,7 @@ To do this:
 
     >[!TIP]
     >
-    >    The fields you add to the Workfront Project Maestro record are only added on the Workfront Project page and are not added to the Campaign record type page, as linked fields. You must add the project fields from the Project information connected object field of the Campaign record type to view them for campaigns. 
+    >    The fields you add to the Workfront Project Maestro record are only added on the Workfront Project page and are not added to the Campaign record type page, as linked fields. You must add the project fields from the Project information connected-object field of the Campaign record type to view them for campaigns. 
 
 1. (Optional and conditional) If you selected to display at least two date fields for projects, click the **View** drop-down menu in the Workfront Project record type table, then **Create view** > **Timeline** > **Create** to create a timeline view and display the projects on a timeline. 
 
