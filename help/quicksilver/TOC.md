@@ -963,6 +963,7 @@ feature-set: Workfront
     * [Use connected cards on boards](agile/get-started-with-boards/connected-cards.md)
     * [Add existing tasks or issues to a board](/help/quicksilver/agile/get-started-with-boards/add-card-from-list-to-board.md)
     * [Manage cards](agile/get-started-with-boards/move-board-items.md)
+    * [Manage subtasks on boards](/help/quicksilver/agile/get-started-with-boards/manage-subtasks-on-boards.md)
     * [Manage checklist items on cards](/help/quicksilver/agile/get-started-with-boards/manage-checklist-items.md)
     * [Add documents on cards](/help/quicksilver/agile/get-started-with-boards/add-documents-on-cards.md)
     * [Customize which fields are displayed on a card](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md)
