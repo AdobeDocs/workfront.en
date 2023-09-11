@@ -10,7 +10,7 @@ exl-id: 9b3cac9a-1b8d-4697-b5d4-a2d669c790a9
 ---
 # Overview of Lag Types
 
-Lag is the amount of time that must pass after the completion of an enforced predecessor until the dependent task can begin (Positive Lag), or the amount of time that a dependent task could start before the predecessor starts (Negative Lag).
+Lag is the amount of time that must pass after the Planned Completion of a predecessor until the dependent task can begin (Positive Lag), or the amount of time that a dependent task could start before the predecessor starts (Negative Lag).
 
 The Planned, Projected and Estimated dates of the successor tasks are calculated taking into account the lag and Planned, Projected and Estimated Start (Completion) dates of the predecessor tasks.
 
@@ -123,13 +123,7 @@ You can indicate lag types on tasks when you define their predecessor relationsh
 
      For more information about the abbreviations for Lag Types, see the section [Lag Types overview](#lag-types-overview) in this article.
 
-   For example, to indicate that a task has a predecessor and a positive lag of 2 days, you would enter 
-
-   ```
-   1fs+2d
-   ```
-
-   in the Predecessors column. 
+   For example, to indicate that a task has a predecessor and a positive lag of 2 days, you would enter  `1fs+2d` in the Predecessors column. 
 
 1. Click Enter on your keyboard to save the changes to your task.
 
@@ -150,11 +144,11 @@ The following table illustrates the Lag Types and how to indicate the amount of 
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>Days (d)</p> </td> 
+   <td> <p>Days (d or de)</p> </td> 
    <td> <p>The delay between two tasks linked by dependency is measured in working days. This is the default Lag Type. </p> <p>For example, if there is a finish-start dependency with a 2 working day lag and the predecessor task finishes on Friday, the dependent task starts on Wednesday. The weekend days do not count as part of the lag. </p> <p>Note: The maximum lag limit for days is 366.</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Calendar Days (c)</p> </td> 
+   <td> <p>Calendar Days (c or ce)</p> </td> 
    <td> <p>The delay between two tasks is measured in calendar days, including holidays and weekends. </p> <p>Note: Although this lag type counts non-working days as part of the lag, a dependent task can never start on a non-working day. If this lag type makes the dependent task start on a non-working day, the Planned Start Date of the dependent task is scheduled for the following working day. </p> <p>For example, if there is a finish-start dependency with a 2 calendar day lag and the predecessor task finishes on Thursday, the dependent task starts on Monday instead of a Sunday. </p> </td> 
   </tr> 
   <tr> 
@@ -164,7 +158,7 @@ The following table illustrates the Lag Types and how to indicate the amount of 
    <p><b>NOTE</b></p> The maximum lag limit for percent is 2000%.</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Day of Week (w) </p> </td> 
+   <td> <p>Day of Week (w or we) </p> </td> 
    <td> <p>The delay between two tasks is measured by indicating the days of the week for the week that contains the Planned Completion Date of the predecessor.</p> <p>For this Lag Type, each day of the week is associated with a number:</p> 
     <ul> 
      <li>Sunday=1</li> 
@@ -178,7 +172,7 @@ The following table illustrates the Lag Types and how to indicate the amount of 
     
   <p><b>NOTE</b></p>
   
-  If the Tuesday passed for the week of the Planned Completion Date of the predecessor, then the Planned Start Date of the successor task is the first available working day of that week. </p> <p>If you want to indicate that the lag should fall on a Saturday of the current week, and the Saturday is after the Planned Completion Date of the predecessor, you would code your successor with the following formula:</p> <p><code>4fs+7w</code> </p> <p>If Saturday is a non-working day, the next available day after Saturday (to indicate positive lag) is selected as the Planned Start Date of the successor. </p> 
+  If the Start Date of the successor is calculated to be a certain Tuesday and that day passed for the current week, then the Planned Start Date of the successor task is the same day (Tuesday) of the following week, if available. </p> <p>If you want to indicate that the lag should fall on a Saturday of the current week, and the Saturday is after the Planned Completion Date of the predecessor, you would code your successor with the following formula:</p> <p><code>4fs+7w</code> </p> <p>If Saturday is a non-working day, the next available day after Saturday (to indicate positive lag) is selected as the Planned Start Date of the successor. </p> 
     
   <p>This does not apply to schedule exceptions. In case a date is also a schedule exception and the Start Date of the successor is calculated to be that day, then the system tries to find the nearest available date which is the day of the week specified in the predecessor expression.</p>
 
@@ -187,7 +181,7 @@ The following table illustrates the Lag Types and how to indicate the amount of 
    <p>To indicate past or future weeks, you can add a number in front of the day number for the lag type. </p> <p>For example, to indicate the Monday of 10 weeks ago, you can use this code to indicate the predecessor of your successor:</p> <p><code>4fs-102w</code> </p> <p>10 indicates 10 weeks ago, and 2 is the number assigned to Monday. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Day of Week Non Zero (k)</p> </td> 
+   <td> <p>Day of Week Non Zero (k or ke)</p> </td> 
    <td> <p>The delay between two tasks is measured identically to the Day of the Week lag type, except if the predecessor's time ends on the same day of the week specified. The lag time is then calculated to the adjacent week (+/-). </p> <p>In this case, the lag time can never be 0.</p> </td> 
   </tr> 
  </tbody> 
