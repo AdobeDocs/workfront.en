@@ -123,7 +123,7 @@ You must have the following access to perform the steps in this article:
 
 1. (Optional) Click **Add record type** to add record types to the workspace.
     
-    For information, see [Create record types](../maestro/delete-record-types.md).
+    For information, see [Create record types](../architecture-and-fields/create-record-types.md).
 
 1. (Optional) Click **Add taxonomy** to add taxonomies to the workspace. 
 

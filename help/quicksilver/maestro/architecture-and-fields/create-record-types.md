@@ -95,7 +95,7 @@ You must have the following access to perform the steps in this article:
         * When you import them using an Excel or CSV file. This is not available for taxonomy record types. 
         * When you create a connection to object types from another application, when adding fields to a record type. This creates a read-only record type in Maestro which is connected to object types from the original application. This is not available for taxonomy record types. 
 
-        For information about connecting object types with Maestro records, see [Connect records](../architecture-and-fields/connect-records.md). 
+        For information about connecting object types with Maestro records, see [Connect records](../records/connect-records.md). 
     * Manually:
 
         * From scratch.    

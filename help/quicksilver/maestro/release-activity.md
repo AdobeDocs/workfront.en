@@ -13,7 +13,7 @@ hide: yes
 >
 >Contact your account representative for more information about joining the beta program for Maestro.
 >
->For information, see [Adobe Maestro overview](../maestro-overview.md).
+>For information, see [Adobe Maestro overview](../maestro/maestro-overview.md).
 
 This article lists the features that have been released after the launch of the Maestro closed beta program, on May 22, 2023. 
 

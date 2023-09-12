@@ -122,7 +122,7 @@ You can import records from other applications by linking them to Maestro linked
 
 1. Create a connection to an object type from a third-party application for the Maestro record type you created. For information, see [Connect record types](../architecture-and-fields/connect-record-types.md). 
 
-1. Add records from the third-party application to the Maestro records you created above using the linked record field you created in the previous step. For information, see [Connect records](../architecture-and-fields/connect-records.md). 
+1. Add records from the third-party application to the Maestro records you created above using the linked record field you created in the previous step. For information, see [Connect records](../records/connect-records.md). 
 
     The following items are created in Maestro:
 

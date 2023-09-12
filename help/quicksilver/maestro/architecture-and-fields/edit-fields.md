@@ -21,7 +21,7 @@ You can edit the field settings for fields that are already created.
 
 For information about creating Adobe Maestro fields, see [Create fields](../architecture-and-fields/create-fields.md). 
 
-This article describes how you can edit the settings for Maestro fields. For information about editing field values for Maestro records, see [Edit records](../maestro/edit-records.md). 
+This article describes how you can edit the settings for Maestro fields. For information about editing field values for Maestro records, see [Edit records](../records/edit-records.md). 
 
 ## Considerations about editing field information
 

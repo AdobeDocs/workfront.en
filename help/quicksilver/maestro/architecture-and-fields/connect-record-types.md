@@ -43,7 +43,7 @@ This article describes how you can connect two Maestro record types or a Maestro
 
 After the connection between record or object types is established, you can connect individual records to one another. 
 
-For information about connecting a Maestro record to an object from another application, see [Connect records](../architecture-and-fields/connect-records.md). 
+For information about connecting a Maestro record to an object from another application, see [Connect records](../records/connect-records.md). 
 
 For an example of connecting record types, see [Example of connecting record types and records](../architecture-and-fields/example-connect-record-types-and-records.md). 
 
@@ -144,11 +144,11 @@ You must have the following access to perform the steps in this article:
 
     * When you connect a record type field with an object type from another application: A linked record field is created on the record type you're connecting from. No linked record field is automatically created on the Workfront project in Workfront. A linked record field is created on the Workfront object record type only when actual objects are connected to the Maestro records. 
     
-        For more information, see [Connect records](../architecture-and-fields/connect-records.md). 
+        For more information, see [Connect records](../records/connect-records.md). 
 
 * After you connect the record types, you can connect multiple fields from one record type to another record type. We will refer to these fields as "linked fields" or "lookup fields."
 * Linked record fields are preceded by a relationship icon ![](assets/relationship-field-icon.png).
-* After you create individual records for a record type, you can select the records you connect to from the linked record type field. For information, see [Connect records](../architecture-and-fields/connect-records.md). 
+* After you create individual records for a record type, you can select the records you connect to from the linked record type field. For information, see [Connect records](../records/connect-records.md). 
 * You cannot edit the information of the linked fields from the record type you are linking from, as they automatically populate from the original record type they belong to as soon as you select the linked records.
 
 ## Connect record types
