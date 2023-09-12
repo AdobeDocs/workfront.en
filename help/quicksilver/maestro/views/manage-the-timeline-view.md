@@ -5,8 +5,9 @@ hidefromtoc: yes
 hide: yes
 ---
 
+# Manage the timeline view
+
 <!--
----
 title: Manage the timeline view in Adobe Maestro
 description: You can display records in a timeline view, when accessing the record type page in Adobe Maestro. 
 hidefromtoc: yes
@@ -14,12 +15,9 @@ hide: yes
 author: Alina
 feature: Work Management
 role: User
----
 -->
 
-# Manage the timeline view
-
-<!--update the metadata with real information when making this avilable in TOC and in the left nav-->
+<!--update the metadata with real information when making this available in TOC and in the left nav-->
 
 >[!IMPORTANT]
 >
@@ -87,7 +85,7 @@ You must have the following access to perform the steps in this article:
 
 <!-- Notes for the table: for the "Workfront access" row: <p>For more information, see <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p>-->
 
-## Manage the timeline view {#manage-the-timeline-view}
+## Manage a timeline view {#manage-the-timeline-view}
 
 <!--insert screen shot of timeline view-->
 
