@@ -1973,6 +1973,41 @@ feature-set: Workfront
     * [Customize Adobe Workfront Goals terminology](workfront-goals/workfront-goals-settings/customize-wf-goals-terminology.md)
     * [Share a goal in Workfront Goals](workfront-goals/workfront-goals-settings/share-a-goal.md)
     * [Enable Adobe Workfront Goals notifications](workfront-goals/workfront-goals-settings/wf-goals-notifications.md)
+* Adobe Maestro {#adobe-maestro}
+  * [Adobe Maestro information](maestro/maestro-information.md)
+  * [Adobe Maestro overview](maestro/maestro-overview.md)
+  * [Adobe Maestro release activity](maestro/release-activity.md)
+  * Adobe Maestro architecture {#adobe-maestro-architecture}
+    * [Architecture information](maestro/architecture-and-fields/architecture-and-fields-information.md)
+    * [Create workspaces](maestro/architecture-and-fields/create-workspaces.md)
+    * [Overview of record types and taxonomies](maestro/architecture-and-fields/overview-of-record-types-and-taxonomies.md)
+    * [Create record types](maestro/architecture-and-fields/create-record-types.md)
+    * [Create taxonomy record types](maestro/architecture-and-fields/create-a-taxonomy.md)
+    * [Connect record types](maestro/architecture-and-fields/connect-record-types.md)
+    * [Create fields](maestro/architecture-and-fields/create-fields.md)
+    * [Edit record types](maestro/architecture-and-fields/edit-record-types.md)
+    * [Edit fields](maestro/architecture-and-fields/edit-fields.md)
+    * [Delete workspaces](maestro/architecture-and-fields/delete-workspaces.md)
+    * [Delete record types](maestro/architecture-and-fields/delete-record-types.md)
+    * [Delete fields](maestro/architecture-and-fields/delete-fields.md)
+    * [Example of connecting record types and records](maestro/architecture-and-fields/example-connect-record-types-and-records.md)
+    * [List of workspace templates](maestro/architecture-and-fields/workspace-templates.md)
+  * Adobe Maestro access {#adobe-maestro-access}
+    * [Access information](maestro/access/access-information.md)
+    * [Access overview](maestro/access/access-overview.md)
+    * [Grant access to Adobe Maestro](maestro/access/grant-access.md)
+  * Adobe Maestro records {#adobe-maestro-records}
+    * [Records information](maestro/records/records-information.md) 
+    * [Create records](maestro/records/create-records.md)
+    * [Connect records](maestro/records/connect-records.md)
+    * [Edit records](maestro/records/edit-records.md)
+    * [Delete records](maestro/records/delete-records.md)
+    * [Share records](maestro/records/share-records.md)
+  * Adobe Maestro views {#adobe-maestro-views}
+    * [Views information](maestro/views/views-information.md)
+    * [Manage record views](maestro/views/manage-record-views.md)
+    * [Manage the table view](maestro/views/manage-the-table-view.md)
+    * [Manage the timeline view](maestro/views/manage-the-timeline-view.md)
 * Adobe Workfront Fusion {#adobe-workfront-fusion}
   * [Adobe Workfront Fusion](workfront-fusion/workfront-fusion-2.md)
   * Get started with Adobe Workfront Fusion {#get-started-with-workfront-fusion}
