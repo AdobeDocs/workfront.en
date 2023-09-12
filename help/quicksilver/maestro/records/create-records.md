@@ -96,7 +96,7 @@ You can create records in the table view of a record type page.
     The record type page opens in the view that you last accessed. By default, a record type page opens in the table view. 
     All the records of the selected type display in the table view. 
 
-1. (Conditional) If the record type page does not open in the table view, click the **View** drop-down menu, and select either an existing **table view** ![](assets/table-view-icon.png) or click **Create view > Table** to create a table view. 
+1. (Conditional) If the record type page does not open in the table view, click the **View** drop-down menu, and select either an existing **Table view** ![](assets/table-view-icon.png) or click **Create view > Table** to create a table view. 
 
 1. Click **New < Record type name >** in the last row of the table to add a new row to the table. 
 
