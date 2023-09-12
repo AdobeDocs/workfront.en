@@ -247,7 +247,7 @@ To add a filter to a table view:
             <td>Numeric, percentage, currency</td>
             <td><p>=</p>
             <p>≠</p>
-            <p><</p>
+            <p> < </p>
             <p>></p>
             <p>≤</p>
             <p>≥</p>
