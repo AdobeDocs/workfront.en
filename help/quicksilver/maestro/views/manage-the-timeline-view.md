@@ -85,7 +85,7 @@ You must have the following access to perform the steps in this article:
 
 <!-- Notes for the table: for the "Workfront access" row: <p>For more information, see <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p>-->
 
-## Manage a timeline view {#manage-the-timeline-view}
+## Manage a timeline view {#manage-a-timeline-view}
 
 <!--insert screen shot of timeline view-->
 
