@@ -5,6 +5,8 @@ hidefromtoc: yes
 hide: yes
 ---
 
+# Adobe Maestro information
+
 <!--
 ---
 title: Adobe Maestro 
@@ -16,8 +18,6 @@ role: User, Admin
 hide: yes
 --->
 <!--udpate the metadata with real information when making this avilable in TOC and in the left nav-->
-
-# Adobe Maestro information
 
 As a marketing operations leader, you can use Adobe Maestro to organize work across the marketing lifecycle for all your teams.
 

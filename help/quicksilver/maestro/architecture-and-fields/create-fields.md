@@ -148,7 +148,9 @@ You must have the following access to perform the steps in this article:
 * When deleting an operational record type, taxonomy, or workspace, all fields associated with them and the fields' values are also deleted and cannot be recovered. <!-- this might change with a possible recycle bin solution?!-->
 
 
-## Create fields from scratch {#create-fields-from-scratch} <!--in a table (not sure if this can be done elsewhere?!-->
+## Create fields from scratch {#create-fields-from-scratch} 
+
+<!--in a table (not sure if this can be done elsewhere?!-->
 
 1. Click the **Main Menu** icon ![](assets/main-menu-workfront.png) in the upper-right corner of Workfront, <!---or the **Main menu** icon ![](assets/main-menu-shell.png)  in the upper-left corner, if available--> then click **Maestro** ![](assets/maestro-icon.png).
 
