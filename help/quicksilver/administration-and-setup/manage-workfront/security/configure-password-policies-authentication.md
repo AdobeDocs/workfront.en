@@ -44,7 +44,7 @@ You must have the following access to perform the steps in this article:
 
 ## Configure authentication (available for all customers) {#configure-authentication-available-for-all-customers}
 
-Authentication options are displayed for all customers. Improved password management capabilities are coming soon or might already be available for your organization, as described in the section [Configure enhanced authentication (coming soon)](#configure-enhanced-authentication-coming-soon) in this article.
+Authentication options are displayed for all customers. Improved password management capabilities are coming soon or might already be available for your organization, as described in the section [Configure enhanced authentication)](#configure-enhanced-authentication-coming-soon) in this article.
 
 To configure authentication preferences:
 
@@ -85,7 +85,7 @@ To configure authentication preferences:
 
 1. Click **Save**.
 
-## Configure enhanced authentication (coming soon) {#configure-enhanced-authentication-coming-soon}
+## Configure enhanced authentication{#configure-enhanced-authentication-coming-soon}
 
 This section describes the enhanced authentication experience, which might not yet be available for your organization. If your organization has not been migrated to the new authentication experience, you must configure the authentication settings, as described in [Configure authentication (available for all customers)](#configure-authentication-available-for-all-customers).
 
