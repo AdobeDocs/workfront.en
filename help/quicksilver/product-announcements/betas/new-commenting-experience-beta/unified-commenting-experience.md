@@ -48,9 +48,9 @@ The following features have been removed from the new experience:
 
 >[!NOTE]
 >
->The objects listed below have only the comments and system updates from the past year (starting with June 2022) available when enabling the beta experience.  
+>The objects listed below have only the comments and system updates starting with January 1, 2019 available in the new commenting experience.  
 >
->You can view comments and system updates on these objects prior to June 2022 when viewing the Updates section in the current experience:
+>You can view comments and system updates on these objects prior to January 1, 2019 when viewing the Updates section in the current experience:
 >
 >* Issues
 >* Projects

@@ -12,7 +12,11 @@ exl-id: 10c4df37-f09f-4b91-9cfd-3d0c3835bc7b
 
 Understanding how to create reports helps you provide access to the information your organization needs within Adobe Workfront. You can use any of the built-in reports available in Workfront, or you can build your own reports from scratch.
 
-For more information on built-in reports, see [Use Adobe Workfront built-in reports](../../../reports-and-dashboards/reports/using-built-in-reports/use-workfront-built-in-reports.md). For information on creating a report by copying it, see [Create a copy of a report](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md).
+For more information on built-in reports, see [Use Adobe Workfront built-in reports](../../../reports-and-dashboards/reports/using-built-in-reports/use-workfront-built-in-reports.md). 
+
+For information on creating a report by copying it, see [Create a copy of a report](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md).
+
+For more information about creating and managing reports, including classes, videos, and tutorials, see the Learn section on the Adobe Experience League site. 
 
 ## Access requirements
 
