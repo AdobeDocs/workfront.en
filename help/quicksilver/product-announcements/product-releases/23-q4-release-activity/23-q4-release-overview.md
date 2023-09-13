@@ -362,6 +362,25 @@ This page provides information about functionality that is included in the Fourt
                 </tr>
                 <tr>
                     <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-sept-11.md" class="MCXref xref" xrefformat="{para}">New quick access buttons for the My Work widget</a> <span style="color: #ff0000;"> New in Preview!</span></p>
+                        <p>Further expanding  your ability to manage work directly from New Home, new quick access buttons have been added to the My Work widget.</p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                        <ul>
+                            <li>
+                                <p>Preview release: September 13, 2023<br /></p>
+                            </li>
+                            <li>
+                                <p>Production for fast release: With the 23.9 release</p>
+                            </li>
+                            <li>
+                                <p>Production for quarterly release: With the 23.10 release</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>                
+                <tr>
+                    <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">New filter options for New Home</a> </p>
                         <p>[!BADGE In production for Fast Release ]{type=Positive}</p>
                         <p>New filter options are now available for the My Work widget in New Home. Options include filters for object types (tasks, issues, and requests) and statuses (not ready, ready to start, working on, and completed).</p>
