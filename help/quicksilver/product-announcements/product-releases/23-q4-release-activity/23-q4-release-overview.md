@@ -34,10 +34,49 @@ This page provides information about functionality that is included in the Fourt
 
 ## Adobe Workfront enhancements
 
+* [Administrator enhancements](#administrator-enhancements)
 * [Boards enhancements](#boards-enhancements)
 * [Integration enhancements](#integration-enhancements)
 * [Project enhancements](#project-enhancements)
 * [Other enhancements](#other-enhancements)
+
+### Administrator enhancements
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">Feature</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Release dates</span>
+                        </p>
+                    </td>
+                 </tr>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-sept-11.md" class="MCXref xref" xrefformat="{para}">Add value options from an external API to a custom form</a> <span style="color: #ff0000;"> New in Preview!</span></p>
+                        <p>A new field type, <strong>External lookup</strong>, is now available on the custom form designer. When you have data stored on an external system, this field type allows you to load options from an external API and filter based on other field values in the custom form.</p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                        <ul>
+                            <li>
+                                <p>Preview release: September 14, 2023</p>
+                            </li>
+                            <li>
+                                <p>Production for fast release: With the 23.9 release</p>
+                            </li>
+                            <li>
+                                <p>Production for quarterly release: With the 23.10 release</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+           </tbody>
+        </table>
 
 ### Boards enhancements
 
@@ -53,27 +92,6 @@ This page provides information about functionality that is included in the Fourt
                     <td>
                         <p><span class="bold">Release dates</span>
                         </p>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-sept-11.md" class="MCXref xref" xrefformat="{para}">View board cards as a list</a> <span style="color: #ff0000;"> New in Preview!</span></p><p>Adobe Workfront Boards now offers the capability to view a board's cards in a list view. The list allows you to take bulk actions on cards, such as moving a group of cards to a specific column, bulk deleting cards, or editing the same field on multiple cards.</p>
-                    </td>
-                    <td><p><b>Available on these dates:</b></p>
-                        <ul>
-                            <li>
-                                <p>Preview release: September 14, 2023</p>
-                            </li>
-                            <li>
-                                <p>Production for Boards early access: September 21, 2023</p>
-                            </li>
-                            <li>
-                                <p>Production for fast release: N/A</p>
-                            </li>
-                            <li>
-                                <p>Production for quarterly release: With the 23.10 release</p>
-                            </li>
-                        </ul>
                     </td>
                 </tr>
                 <tr>
@@ -173,26 +191,6 @@ This page provides information about functionality that is included in the Fourt
                         </p>
                     </td>
                  </tr>
-                 <!--
-                 <tr>
-                    <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-sept-11.md" class="MCXref xref" xrefformat="{para}">Automatically publish assets in Adobe Experience Manager</a> <span style="color: #ff0000;"> New in Preview!</span></p><p>We've added another workflow to the Adobe Experience Manager integration. Now, you can set your assets to automatically publish when sent to Adobe Experience Manager.</p>
-                    </td>
-                    <td><p><b>Available on these dates:</b></p>
-                        <ul>
-                            <li>
-                                <p>Preview release: September 14</p>
-                            </li>
-                            <li>
-                                <p>Production for fast release: N/A</p>
-                            </li>
-                            <li>
-                                <p>Production for quarterly release: With the 23.10 release</p>
-                            </li>
-                        </ul>
-                    </td>
-                 </tr>
-                 -->
                  <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-21.md" class="MCXref xref" xrefformat="{para}">Enhancements to experience when sending documents to SharePoint (GraphAPI)</a></p><p>We've made some changes to make it easier to locate folders when sending documents to your SharePoint (GraphAPI) folders</p>
@@ -200,7 +198,7 @@ This page provides information about functionality that is included in the Fourt
                     <td><p><b>Available on these dates:</b></p>
                         <ul>
                             <li>
-                                <p>Preview release: August 24<br /></p>
+                                <p>Preview release: August 24, 2023<br /></p>
                             </li>
                             <li>
                                 <p><span class="preview">Production for all customers: August 31, 2023</span></p>
@@ -215,7 +213,7 @@ This page provides information about functionality that is included in the Fourt
                     <td><p><b>Available on these dates:</b></p>
                         <ul>
                             <li>
-                                <p>Preview release: August 24<br /></p>
+                                <p>Preview release: August 24, 2023<br /></p>
                             </li>
                             <li>
                                 <p><span class="preview">Production for all customers: August 31, 2023</span></p>
@@ -305,65 +303,6 @@ This page provides information about functionality that is included in the Fourt
                 </tr>
            </tbody>
         </table>
-
-<!--
-### Financial management enhancements
-
-<table>
-            <col style="width: 50%;" />
-            <col style="width: 50%;" />
-            <tbody>
-                <tr>
-                    <td>
-                        <p><span class="bold">Feature</span>
-                        </p>
-                    </td>
-                    <td>
-                        <p><span class="bold">Release dates</span>
-                        </p>
-                    </td>
-                 </tr>  
-                 <tr>
-                    <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-finance-enhancements.md" class="MCXref xref" xrefformat="{para}">Date effective cost and billing rates</a> </p><p>This update has been announced with the 23.3 release.</p>
-                        <p>Date effective cost and billing rates are now available on the company, user, and job role objects in Workfront. When date effective rates are applied to a project, and hours are logged on project tasks, the costs and revenue are calculated using the specified rates for each time period.</p>
-                    </td>
-                    <td><p><b>Available on these dates:</b></p>
-                        <ul>
-                            <li>
-                                <p>Preview release: June 29, 2023<br /></p>
-                            </li>
-                            <li>
-                                <p>Production for fast release: With the 23.8 release</p>
-                            </li>
-                            <li>
-                                <p>Production for quarterly release: With the 23.10 release</p>
-                            </li>
-                        </ul>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">Bulk delete rates from rate cards</a> </p>
-                        <p>You can now remove multiple rates at one time from a rate card in the Setup area.</p>
-                    </td>
-                    <td><p><b>Available on these dates:</b></p>
-                        <ul>
-                            <li>
-                                <p>Preview release: August 17, 2023<br /></p>
-                            </li>
-                            <li>
-                                <p>Production for fast release: With the 23.8 release</p>
-                            </li>
-                            <li>
-                                <p>Production for quarterly release: With the 23.10 release</p>
-                            </li>
-                        </ul>
-                    </td>
-                </tr>
-           </tbody>
-        </table>
--->
 
 ### Other enhancements
 
