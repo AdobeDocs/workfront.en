@@ -11,7 +11,11 @@ hide: yes
 
 >[!IMPORTANT]
 >
->Currently, Adobe Maestro is part of a closed beta program which is open to a limited number of customers. 
+>Currently, Adobe Maestro is part of a beta program which is open to a limited number of customers. 
+>
+>Contact your account representative for more information about joining the beta program for Maestro.
+>
+>For information, see [Adobe Maestro overview](../maestro-overview.md).  
 
 <!-- the table will change after we implement access levels/ permissions for Maestro-->
 <!-- fix the formatting on the table - some lines are way too spaced out-->
