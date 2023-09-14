@@ -15,11 +15,14 @@ hide: yes
 
 <!-- remove the references to closed beta from the entire article-->
 
+<!--update the video in the IMPORTANT below, when we have something better, especially after Open Beta - remove it-->
+
 >[!IMPORTANT]
 >
->Currently, Adobe Maestro is part of a closed beta program which is open to a limited number of customers. 
+>Currently, Adobe Maestro is part of a beta program which is open to a limited number of customers. 
 >
 >Contact your account representative for more information about joining the beta program for Maestro.
+>[View a video demonstration of Adobe Maestro](https://video.tv.adobe.com/v/3424253/){target=_blank}
 
 ## Introduction to Adobe Maestro
 
