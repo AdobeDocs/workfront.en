@@ -17,6 +17,8 @@ exl-id: 385420aa-0962-4b67-9d0d-b153dcf302cf
 
 You can set up a Request Queue where users can enter occasional requests that are not planned work on a project. For example, a help desk request queue can be set up to capture all user requests that come to an IT department.
 
+This article describes how you can create a request queue where users can submit requests. For information about how to submit a new request to a request queue, see [Copy and submit requests](../create-requests/copy-and-submit-requests.md). 
+
 ## Access requirements
 
 <!--drafted for P&P: replace the table below with this:

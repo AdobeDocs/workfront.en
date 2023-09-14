@@ -60,6 +60,10 @@ Consider the following when deciding whether to delete or deactivate portfolios:
 
 When you deactivate a portfolio, you can still access it from the [!UICONTROL Portfolios] area, but it no longer displays in the list of portfolios when users try to add it to a project.
 
+>[!NOTE]
+>
+>Depending on how your [!DNL Workfront] or group administrator configures your layout template, the [!UICONTROL Portfolios] area might not display in the [!UICONTROL Main Menu]. For more information, see [Customize the Main Menu using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md)
+
 1. Click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe Workfront].
 
 1. Click **[!UICONTROL Portfolios]** .

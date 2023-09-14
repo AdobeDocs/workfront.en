@@ -65,6 +65,16 @@ The following section contains a list of features that have been added after the
 
 The following information refers to the release activity on a weekly basis of the features included in the new commenting beta experience. This article lists new features that are added and issues that are resolved for the new commenting experience.
 
+### Week of September 11, 2023
+
+#### The new commenting experience captures information starting with January 1, 2019
+
+Projects, tasks, issues, and documents display updates starting with January 1, 2019 now. Prior to this enhancement, the new commenting experience captured only updates from June 2022 for these objects.  
+
+For more information, see [New commenting experience](../new-commenting-experience-beta/unified-commenting-experience.md). 
+
+Preview and production for all customers: September 11, 2023. 
+
 ### Week of August 21, 2023
 
 #### Change timestamp format on the Comments tab

@@ -12,6 +12,27 @@ exl-id: 4c487598-2066-4507-8dfe-1a54d38f5eea
 ---
 # Blueprints overview
 
+Blueprints are sets of Workfront objects that address common use cases in Workfront. You can download and install a blueprint, and then configure the objects for your specific use case. 
+
+>[!INFO]
+>
+>Examples:
+>
+>* **Human Resources Organization Setup**
+>
+>   This blueprint contains the configuration of organizational structures to expand to a Human Resources department.
+>
+>* **Add New Employee IT Checklist**
+>
+>   This blueprint contains a template to organize new employee onboarding activities. Using this template allows IT teams to operate efficiently, leading to a positive new employee experience and faster track to productivity.
+>
+>* **Inherited Instance Basics Checklist**
+>
+>    This blueprint contains a project template (or checklist) that you can review with a short list of questions, resources, and links for a clear understanding of how your Workfront instance has been configured. Use this when you recently inherited a Workfront instance and need guidance on where to start.
+>
+>To review the current blueprints, see [List of available blueprints](/help/quicksilver/administration-and-setup/blueprints/list-of-available-blueprints.md).
+
+
 Blueprints provide basic building blocks to help you create a work management system that grows with you. System administrators can browse the blueprints catalog and install ready-to-use project templates, dashboards, and organizational structures. Other users can browse the catalog and request installation of a blueprint. For more information, see [Browse the blueprints catalog and request installation of blueprints](../../administration-and-setup/blueprints/browse-catalog.md).
 
 Each blueprint is targeted to a department and specific maturity level to help you implement proven best practices in your system faster. The maturity levels detailed below are indicated in the blueprint catalog card and details.
