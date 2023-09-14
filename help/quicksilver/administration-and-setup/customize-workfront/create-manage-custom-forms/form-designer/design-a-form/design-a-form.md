@@ -565,6 +565,16 @@ To add an external lookup:
 
     Click **Save and Close**.
 
+>[!NOTE]
+>
+>Technical limitations of the call to the external API:
+>
+>* Maximum number of options: 200 (only the first 200 options from the returned JSON are displayed)
+>* Timeout: 3 seconds
+>* Number of retries: 3
+>* Wait duration between retries: 500ms
+>* Expected response statuses: 2xx
+
 </div>
 
 ### Add images, PDFs, and videos
