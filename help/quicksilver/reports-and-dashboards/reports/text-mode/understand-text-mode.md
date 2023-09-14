@@ -2,7 +2,7 @@
 product-area: reporting
 navigation-topic: text-mode-reporting
 title: Text Mode overview
-description: Text Mode overview
+description: You can build a report or a list in Adobe Workfront by using either the standard or the text mode interface when creating the elements that make up the report or the list. 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 8be8cbd0-da1b-4e90-a52e-dc352f646d18
@@ -22,6 +22,8 @@ exl-id: 8be8cbd0-da1b-4e90-a52e-dc352f646d18
 -->
 
 You can build a report or a list in Adobe Workfront by using either the standard or the text mode interface when creating the elements that make up the report or the list. The standard interface allows you to reference fields and their attributes that are readily available in the Workfront interface. Using text mode you can reference fields and attributes that might not be available in standard mode, but are available in the Workfront database.
+
+For more information about creating reports using text mode, including classes, videos, and tutorials, see the Learn section on the Adobe Experience League site. 
 
 ## Considerations before using text mode
 
