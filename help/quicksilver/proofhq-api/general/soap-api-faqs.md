@@ -65,3 +65,4 @@ For example, the miniproof URL
 ## How to create a Java Web Service Client?
 
 [This video](http://screencast.com/t/xsSNrqs5b) shows how you can create a Java Web Service client using Eclipse and the Workfront Proof WSDL definition.
+ 
