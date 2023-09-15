@@ -92,7 +92,6 @@ You must have the following access to perform the steps in this article:
 
 *To find out what plan, license type, or access you have, contact your Workfront administrator.
 
-
 ## Considerations for viewing items in the Workload Balancer
 
 Consider the following when viewing the Workload Balancer:
@@ -104,13 +103,11 @@ Consider the following when viewing the Workload Balancer:
 
     >[!NOTE]
     >
-    >* Items assigned to a job role or a team which are also assigned to a user who is the primary assignee do not display in the Unassigned Work area.
-    >
-    >* Items assigned to a user and a job role where the job role is selected as the primary assignee of the item display in the Unassigned Work area. 
-    >* Items assigned to more than one user display under all users' names in the Assigned Work area. 
+    >* Work items assigned to a job role or a team, and also assigned to a user who is the primary assignee, do not display in the Unassigned Work area.
+    >* Work items assigned to a user and a job role, where the job role is selected as the primary assignee of the item, do display in the Unassigned Work area.
+    >* Work items assigned to more than one user display under all of the assigned users' names in the Assigned Work area.
 
-* When a project has no tasks during a period of time, the bar at the 
-project level becomes a dimmed color.  
+* When a project has no tasks during a period of time, the bar at the project level becomes a dimmed color.
 
   ![](assets/wb-break-in-project-timeline-with-no-tasks-highlight-350x80.png)
 
