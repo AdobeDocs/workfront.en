@@ -18,7 +18,7 @@ These notifications can be configured at the system and group level:
 * For information about configuring event notifications at the system level, see [Configure event notifications for everyone in the system](../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
 * For information about configuring event notifications at the group level, see [View and configure event notifications for a group](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-configure-event-notifications-group.md).
 
-Individual users can also activate and deactivate their individual event notifications in their individual profile. For more information, see [Activate or deactivate your own event notifications](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+Individual users can also activate and deactivate their individual event notifications in their individual profile. For more information, see [Modify your own email notifications](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 The following tables list all of the Adobe Workfront event notifications, a brief description of the event, and whether the event is active or inactive by default.
 

@@ -11,7 +11,7 @@ exl-id: c4cf84eb-8911-4bff-a548-7f0e6d8aa7b5
 
 The following notifications alert you about activities happening in projects you're working on.
 
-For information about configuring which notifications you receive, see [Activate or deactivate your own event notifications](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+For information about configuring which notifications you receive, see [Modify your own email notifications](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 See also [Event notifications](../../workfront-basics/using-notifications/event-notifications.md).
 

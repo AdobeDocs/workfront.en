@@ -145,7 +145,7 @@ To delegate your tasks and issues to others:
 
    * The user you selected as your delegate receives an email about the delegation, if their event notifications are enabled.
 
-      For information about enabling personal email notifications, see [Activate or deactivate your own event notifications](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+      For information about enabling personal email notifications, see [Modify your own email notifications](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 
 
