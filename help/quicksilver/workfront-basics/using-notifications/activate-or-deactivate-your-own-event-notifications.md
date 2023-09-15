@@ -1,21 +1,22 @@
 ---
 product-area: setup
 navigation-topic: notifications
-title: Activate or deactivate your own event notifications
-description: Your Adobe Workfront administrator configures which event notifications users receive when events occur in Workfront.
+keywords: modify,email,notification,settings
+title: Modify your own email notifications
+description: This article describes how you can manage your email notifications in your user profile.
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 3d1f877e-6bb4-494e-b08e-c18ec87dd001
 ---
-# Activate or deactivate your own event notifications
+# Modify your own email notifications
 
-Your Adobe [!DNL Workfront] administrator configures which event notifications users receive when events occur in Workfront (as described in [[!UICONTROL Configure event] notifications for everyone in the system](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md)).
+Your Adobe [!DNL Workfront] administrator configures which email notifications users receive when events occur in Workfront (as described in [[!UICONTROL Configure event] notifications for everyone in the system](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md)).
 
-Your group administrator can also configure which event notifications are activated for you and the users in your Home Group. If your [!UICONTROL Home Group] is a subgroup, you receive the event notifications activated for the top-level group above your group.
+Your group administrator can also configure which notifications are activated for you and the users in your [!UICONTROL Home Group]. If your [!UICONTROL Home Group] is a subgroup, you receive the notifications activated for the top-level group above your group.
 
 You can customize this further by configuring which notifications you receive. You can also choose whether you want to receive notifications as events happen or in one daily digest email.
 
-For information about email notifications, see [[!DNL Adobe Workfront] notifications](../../workfront-basics/using-notifications/wf-notifications.md).
+For more information about email notifications, see [[!DNL Adobe Workfront] notifications](../../workfront-basics/using-notifications/wf-notifications.md).
 
 >[!NOTE]
 >
@@ -48,9 +49,9 @@ You must have the following access to perform the steps in this article:
 
 ## View and modify your email notification settings
 
-1. Click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe Workfront], then click your user name next to your profile picture.
+{{step1-click-profile-pic}}
 
-1. Click the **[!UICONTROL More]** icon ![](assets/more-icon.png) , then click **[!UICONTROL Edit]**.
+1. Click the **[!UICONTROL More]** icon ![](assets/more-icon.png) next to your name, then click **[!UICONTROL Edit]**.
 
 1. In the **[!UICONTROL Edit Person]** box that displays, go to the **[!UICONTROL Notifications]** section.
 

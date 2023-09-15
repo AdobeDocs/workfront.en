@@ -80,7 +80,7 @@ Before you can receive [!DNL Workfront] notifications in [!DNL Slack], you must
 You can receive and respond to [!DNL Workfront] notifications from [!DNL Slack]. 
 
 You can disable email notifications for notifications that you enable in [!DNL Slack], to ensure that you do not receive duplicate notifications.\
-For information about configuring your email notifications, see [Activate or deactivate your own event notifications](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+For information about configuring your email notifications, see [Modify your own email notifications](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 Enabling or disabling [!DNL Workfront] notifications in [!DNL Slack] does not affect the notifications you receive inside the [!DNL Workfront] interface.\
 Notifications inside the [!DNL Workfront] interface cannot be disabled. 

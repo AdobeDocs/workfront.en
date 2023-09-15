@@ -15,7 +15,7 @@ exl-id: 118677e9-a13f-47e6-96a3-6f5e93b005e9
 
 [!DNL Workfront] sends out a number of email notifications to alert users about activity in Workfront and provide useful information and links.
 
-To change the preferences for your email notifications, see [Activate or deactivate your own event notifications](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+To change the preferences for your email notifications, see [Modify your own email notifications](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 >[!NOTE]
 >
@@ -43,7 +43,7 @@ The default status shows which notifications (daily, instant, or both) are enabl
 
 For a full list of the event notifications, and information about how they are enabled and configured at the system level, group level, or user level, see [Event notifications available in [!DNL Adobe Workfront]](../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).
 
-For information about how to choose which event notifications you want to receive, see [Activate or deactivate your own event notifications](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+For information about how to choose which event notifications you want to receive, see [Modify your own email notifications](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 >[!NOTE]
 >
@@ -79,13 +79,13 @@ Daily digest emails for the [!UICONTROL Communication] category are selected for
 
 The information is summarized for the object where the communication happened, and a total number of communication messages is displayed for each object.
 
-For more information about configuring email notifications, see [Activate or deactivate your own event notifications](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+For more information about configuring email notifications, see [Modify your own email notifications](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 For instructions on commenting on [!UICONTROL Communication] emails, see [Update work](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-To learn more about [!UICONTROL Communication] emails, see [Activate or deactivate your own event notifications](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+To learn more about [!UICONTROL Communication] emails, see [Modify your own email notifications](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
-For more information about enabling daily digest notifications, see [Activate or deactivate your own event notifications](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+For more information about enabling daily digest notifications, see [Modify your own email notifications](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 ### Automatic reminders
 

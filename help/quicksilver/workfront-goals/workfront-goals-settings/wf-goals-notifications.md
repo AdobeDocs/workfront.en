@@ -14,7 +14,7 @@ Adobe Workfront Goals comes with a set of event notifications that you can enabl
 
 For information about what notifications you can enable for Workfront Goals, see [Notifications: Goals](../../workfront-basics/using-notifications/notifications-goals.md).
 
-For information about managing notifications in Adobe Workfront, see [Activate or deactivate your own event notifications](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+For information about managing notifications in Adobe Workfront, see [Modify your own email notifications](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

@@ -45,7 +45,7 @@ You can receive [!DNL Workfront] notifications in [!DNL Microsoft Teams] if the 
 
 * A team owner has installed and configured [!DNL Workfront for Microsoft Teams] for your team.
 * You are logged into [!DNL Workfront] from [!DNL Microsoft Teams].
-* You have enabled instant notifications in [!DNL Workfront]. For information on enabling instant notifications, see [Activate or deactivate your own event notifications](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+* You have enabled instant notifications in [!DNL Workfront]. For information on enabling instant notifications, see [Modify your own email notifications](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 For information about installing [!DNL Workfront for Microsoft Teams] and logging in to [!DNL Workfront from Microsoft Teams], see [Install [!DNL Adobe Workfront for Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md).
 

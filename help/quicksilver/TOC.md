@@ -857,7 +857,7 @@ feature-set: Workfront
   * Use notifications {#use-notifications}
     * [Use notifications](workfront-basics/using-notifications/use-notifications.md)
     * [Adobe Workfront notifications](workfront-basics/using-notifications/wf-notifications.md)
-    * [Activate or deactivate your own event notifications](workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md)
+    * [Modify your own email notifications](workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md)
     * [Subscribe to items in Adobe Workfront](workfront-basics/using-notifications/subscribe-to-items-in-workfront.md)
     * [In-app notifications overview](workfront-basics/using-notifications/in-app-notifications-overview.md)
     * [View and manage in-app notifications](workfront-basics/using-notifications/view-and-manage-in-app-notifications.md)

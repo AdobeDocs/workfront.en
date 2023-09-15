@@ -2,14 +2,14 @@
 content-type: reference
 navigation-topic: notifications
 title: 'Notifications: Action needed'
-description: The following notifications let you know if you need to take action on a work item. For information about configuring which notifications you receive, see Activate or deactivate your own event notifications.
+description: The following notifications let you know if you need to take action on a work item. For information about configuring which notifications you receive, see Modify your own email notifications.
 author: Lisa
 feature: Get Started with Workfront
 exl-id: dd383bd4-da30-45ea-889e-e6b49416974b
 ---
 # Notifications: [!UICONTROL Action needed]
 
-The following notifications let you know if you need to take action on a work item. For information about configuring which notifications you receive, see [Activate or deactivate your own event notifications](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+The following notifications let you know if you need to take action on a work item. For information about configuring which notifications you receive, see [Modify your own email notifications](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 See also [Event notifications](../../workfront-basics/using-notifications/event-notifications.md).
 

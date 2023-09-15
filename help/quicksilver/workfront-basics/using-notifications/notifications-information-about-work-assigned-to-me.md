@@ -11,7 +11,7 @@ exl-id: 5d7fdee8-cb5c-4ab8-bec3-beff9851b8f6
 
 The following notifications alert you about activities happening on a work item assigned to you.
 
-For information about configuring which notifications you receive, see [Activate or deactivate your own event notifications](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+For information about configuring which notifications you receive, see [Modify your own email notifications](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 See also [Event notifications](../../workfront-basics/using-notifications/event-notifications.md).
 
