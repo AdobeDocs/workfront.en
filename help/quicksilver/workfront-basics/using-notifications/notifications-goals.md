@@ -64,7 +64,7 @@ The user whose [!DNL Goals] notifications are updated must have the following:
 
 ## [!DNL Goals] notifications in the [!UICONTROL user profile] area
 
-The notifications listed in the following table alert you about events happening in [!DNL Workfront Goals], such as someone assigning you a goal, result, or activity or someone making an update on a goal, result, or activity that you own. For information about configuring which notifications you receive, see [Activate or deactivate your own event notifications](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+The notifications listed in the following table alert you about events happening in [!DNL Workfront Goals], such as someone assigning you a goal, result, or activity or someone making an update on a goal, result, or activity that you own. For information about configuring which notifications you receive, see [Modify your own email notifications](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 ![](assets/goals-notifications-preferences-350x114.png)
 

@@ -350,7 +350,7 @@ You can change any of the following in this sub-section:
 
 ### [!UICONTROL Notifications]
 
-Specify what notifications you would like to receive from [!DNL Workfront]. For more information about configuring notifications, see [Activate or deactivate your own event notifications](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+Specify what notifications you would like to receive from [!DNL Workfront]. For more information about configuring notifications, see [Modify your own email notifications](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 ### [!UICONTROL Access]
 

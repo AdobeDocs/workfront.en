@@ -13,6 +13,10 @@ exl-id: c687c4a8-a99d-4ac0-b785-5bfe503a7e2c
 
 You can decide which sections of a custom form should be displayed or skipped based on the choices that a user makes when filling it out.
 
+>[!NOTE]
+>
+>Logic only applies within one form and can't be based on selections from a different form.
+
 ## Access requirements
 
 You must have the following to perform the steps in this article:

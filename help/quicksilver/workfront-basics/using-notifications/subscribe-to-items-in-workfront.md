@@ -82,7 +82,7 @@ For example, to subscribe to an issue:
 
    Every time someone comments on the issue, you receive an in-app notification. Depending on the features you have enabled, you may also receive email notifications and mobile app push notifications.
 
-   To learn more about subscription email, see [Activate or deactivate your own event notifications](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+   To learn more about subscription email, see [Modify your own email notifications](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 ## Unsubscribe from an item
 

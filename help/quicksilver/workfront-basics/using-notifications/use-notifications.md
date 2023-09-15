@@ -12,7 +12,7 @@ exl-id: c609c51d-df67-49bb-8fe3-8962a5270cc9
 This section contains the following articles:
 
 * [[!DNL Adobe Workfront] notifications](../../workfront-basics/using-notifications/wf-notifications.md)
-* [Activate or deactivate your own event notifications](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md)
+* [Modify your own email notifications](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md)
 * [Subscribe to items in [!DNL Adobe Workfront]](../../workfront-basics/using-notifications/subscribe-to-items-in-workfront.md)
 * [In-app notifications overview](../../workfront-basics/using-notifications/in-app-notifications-overview.md)
 * [View and manage in-app notifications](../../workfront-basics/using-notifications/view-and-manage-in-app-notifications.md)
