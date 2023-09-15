@@ -3,23 +3,31 @@ content-type: reference
 product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
 title: Group a report by a multi-select custom field
-description: You can group by the value in a multi-select custom field in a Adobe Workfront report. Examples of multi-select custom fields are - EDIT ME.
+description: You can group by the value in a multi-select custom field in a Adobe Workfront report only by using text mode. 
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 530dff59-0d4c-490e-b464-1d3bb1d0f36f
 ---
 # Group a report by a multi-select custom field
 
-You can group by the value in a multi-select custom field in a Adobe Workfront report. Examples of multi-select custom fields are:
+You can group by the value in a multi-select custom field in a Adobe Workfront report only by using text mode. 
+
+Examples of multi-select custom fields are:
 
 * Checkboxes
 * Multi-select dropdown menus
 
-You can group by this type of field only by using text mode. For information about using text mode, see the article [Text Mode overview](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
+For information about using text mode, see the article [Text Mode overview](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
 
->[!NOTE]
->
->You cannot chart a report by a multi-select custom field. You need to create an additional calculated field that refers to the multi-select custom field to also chart the report by the value of the multi-select custom field. For more information, see [Chart a report by a multi-select custom field](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/chart-report-by-multi-select-custom-field.md).
+## Considerations when when grouping by a multi-select custom field
+
+* You cannot chart a report that uses a text-mode grouping. You need to create an additional calculated field that refers to the multi-select custom field to also chart the report by the value of the multi-select custom field. 
+
+   For more information, see [Chart a report by a multi-select custom field](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/chart-report-by-multi-select-custom-field.md).
+* Items that have any of the choices selected are counted only one time. 
+   
+   For example, if you have a Checkbox custom field with Choice 1 and Choice 2 as options, and you attach the form to tasks, the tasks that have both Choice 1 and Choice 2 selected are grouped separately from the tasks that have only Choice 1 or Choice 2 selected. 
+
 
 ## Access requirements
 
@@ -51,7 +59,7 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+*To find out what plan, license type, or access you have, contact your Workfront administrator.
 
 ## Group a report by multi-select custom fields
 
@@ -72,12 +80,22 @@ To group by a multi-select custom field in a report:
 1. Click **Switch to Text Mode**.
 
 1. Select the text in the **Group your Report** box and replace it with the following code:  
-   <pre>group.0.displayname=Multi-select Custom Field Name<br>group.0.valueexpression={DE:Multi-select Custom Field Name}<br>group.0.valueformat=HTML<br>textmode=true</pre>
+   
+   <pre>
+   group.0.displayname=Multi-select Custom Field Name
+   group.0.valueexpression={DE:Multi-select Custom Field Name}
+   group.0.valueformat=HTML
+   group.0.textmode=true
+   </pre>
 
-1. Replace "Multi-select Custom Field Name" with the actual name of your multi-select custom field, as it appears in Workfront.&nbsp;&nbsp;
+1. Replace "Multi-select Custom Field Name" with the actual name of your multi-select custom field, as it appears in Workfront.
 1. Click **Save and Close**.  
+   
    The objects in the report are grouped by the values of the multi-select custom field.  
-   The name of the groupings of the report are the names of the multi-select custom field followed by the values selected in the field.&nbsp;
+
+   ![](assets/grouping-by-multi-select-field-text-mode-ui-example.png)   
+
+   The name of the groupings of the report are the names of the multi-select custom field followed by the values selected in the field.
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
