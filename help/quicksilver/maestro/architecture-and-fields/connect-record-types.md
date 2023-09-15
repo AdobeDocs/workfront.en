@@ -23,7 +23,7 @@ author: Alina
 
 >[!IMPORTANT]
 >
->Currently, Adobe Maestro is part of a closed beta program which is open to a limited number of customers. 
+>Currently, Adobe Maestro is part of a beta program which is open to a limited number of customers.
 >
 >Contact your account representative for more information about joining the beta program for Maestro.
 >
