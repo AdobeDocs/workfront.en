@@ -127,7 +127,7 @@ To add a text field:
 
 1. On the left side of the screen, find one of the following text fields and drag it to a section on the canvas:
 
-    * Single Line Text:
+    * Single Line Text
     * Paragraph Text
     * Text field with formatting
     * Descriptive text
@@ -239,7 +239,7 @@ To add a calculated field, see [Add calculated fields with the form designer](/h
 
 ### Add radio buttons, checkboxes, and dropdowns
 
- You can add radio buttons, checkboxes, and dropdowns to a custom form. 
+ You can add radio buttons, checkboxes, and dropdowns to a custom form.
 
 +++ **Expand to see descriptions of available fields**
 
@@ -248,6 +248,10 @@ To add a calculated field, see [Add calculated fields with the form designer](/h
 * **Dropdown**: Provides a list of dropdown choices.
 
 +++
+
+>[!NOTE]
+>
+>Fields that allow multiple selections, such as the Checkbox Group, are difficult to chart and group in reports. To allow easier charting and grouping in reports, you can create separate fields for each choice (for example, a single-line text field).
 
 To add radio buttons and checkboxes:
 
@@ -567,13 +571,14 @@ To add an external lookup:
 
 >[!NOTE]
 >
->Technical limitations of the call to the external API:
+>The following items are technical limitations of the call to the external API:
 >
 >* Maximum number of options: 200 (only the first 200 options from the returned JSON are displayed)
 >* Timeout: 3 seconds
 >* Number of retries: 3
 >* Wait duration between retries: 500ms
 >* Expected response statuses: 2xx
+>* User can see the selected value (and edit the value) in Workfront lists and reports, but will not see the dropdown with options coming from the external API.
 
 </div>
 
