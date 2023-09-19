@@ -8,7 +8,7 @@ feature: Get Started with Workfront
 ---
 # Create an account in [!DNL Adobe Workfront] as an external user
 
-You may be invited to view or approve work in [!DNL Workfront] even though you are not a member of a [!DNL Workfront] organization. For example, you may be requested to review or approve documents. You can view or approve these items more easily by creating an account in [!DNL Workfront].
+You may be invited to view or approve items in [!DNL Workfront] even though you are not a member of a [!DNL Workfront] organization. For example, you may be requested to review or approve documents. You can view or approve these items more easily by creating an account in [!DNL Workfront].
 
 When a user in [!DNL Workfront] makes a request for you to review or approve a document, <!--or shares a Workfront object such as a report or Board with you, -->you receive an email. Clicking the link in the email takes you directly to the item that was shared with you.
 
