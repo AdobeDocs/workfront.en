@@ -120,6 +120,10 @@ You must have the following to perform the steps in this article:
     </tbody> 
    </table>
 
+   >[!NOTE]
+   >
+   >Fields that allow multiple selections, such as the Checkbox and Dropdown, are difficult to chart and group in reports. To allow easier charting and grouping in reports, you can create separate fields for each choice (for example, a single-line text field).
+
 1. On the **Field Settings** tab, configure the options that are available for the type of custom field you are adding:
 
    <table style="table-layout:auto"> 

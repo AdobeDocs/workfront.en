@@ -45,6 +45,7 @@ The following features have been removed from the new experience:
 * Ability to edit status, condition, commit date while commenting
 * Edit custom form
 * The "on behalf of < user  name >" information when a Workfront or group administrator logs in as another user and adds a comment on their behalf. 
+* The "Ask for approval" option when you tag people while adding a comment to a document. 
 
 >[!NOTE]
 >

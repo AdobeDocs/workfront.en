@@ -11,7 +11,7 @@ hide: yes
 
 >[!IMPORTANT]
 >
->Currently, Adobe Maestro is part of a closed beta program which is open to a limited number of customers. 
+>Currently, Adobe Maestro is part of a beta program which is open to a limited number of customers. 
 >
 >Contact your account representative for more information about joining the beta program for Maestro.
 >
@@ -82,6 +82,7 @@ You must have the following access to perform the steps in this article:
 * If the edited records are linked to other records, the new information of the records that you are editing reflects on the linked records. 
 * You cannot edit records in bulk. <!--this will probably change-->
 
+
 ## Edit records
 
 You can edit a record from the following areas:
@@ -134,7 +135,9 @@ You can edit a record from the following areas:
 
       >[!TIP]
       >
-      >Linked fields are not editable. The information for these fields is populated automatically from the linked records. For information, see [Connect record types](../architecture-and-fields/connect-record-types.md).  
+      >* Linked fields are not editable. The information for these fields is populated automatically from the linked records. For information, see [Connect record types](../architecture-and-fields/connect-record-types.md).  
+      >
+      >* URLs are recognized as links in single-line text field types only when they start with the following: http://, https://, ftp://, or www. . 
 
 
     

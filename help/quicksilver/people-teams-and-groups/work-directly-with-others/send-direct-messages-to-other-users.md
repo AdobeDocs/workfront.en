@@ -17,7 +17,7 @@ The user you are sending the message to receives the following types of notifica
 * An in-app notification, as described in [View and manage in-app notifications](../../workfront-basics/using-notifications/view-and-manage-in-app-notifications.md)
 * An email notification
 
-  This depends on the types of email notifications the user is configured to receive. For more information, see [Configure event notifications for everyone in the system](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md), [View and configure event notifications for a group](../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-configure-event-notifications-group.md), and [Activate or deactivate your own event notifications](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+  This depends on the types of email notifications the user is configured to receive. For more information, see [Configure event notifications for everyone in the system](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md), [View and configure event notifications for a group](../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-configure-event-notifications-group.md), and [Modify your own email notifications](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 ## Access requirements
 
