@@ -251,7 +251,7 @@ To add a calculated field, see [Add calculated fields with the form designer](/h
 
 >[!NOTE]
 >
->Fields that allow multiple selections, such as the Checkbox Group, are difficult to chart and group in reports. To allow easier charting and grouping in reports, you can create separate fields for each choice (for example, a single-line text field).
+>Fields that allow multiple selections, such as the Checkbox Group and Dropdown, are difficult to chart and group in reports. To allow easier charting and grouping in reports, you can create separate fields for each choice (for example, a single-line text field).
 
 To add radio buttons and checkboxes:
 
@@ -322,7 +322,7 @@ To add radio buttons and checkboxes:
     </tr> 
     <tr> 
      <td role="rowheader">Display Type</td> 
-    <td>Switch between radio buttons, checkbox groups, or dropdowns for the field.</td> 
+    <td>Switch between radio buttons, checkbox groups, dropdowns, or multi-select dropdowns for the field.</td> 
     <td><ul>
     <li>Radio buttons</li>
     <li>Checkbox Group</li>
@@ -558,7 +558,7 @@ To add an external lookup:
      </tr>
      <tr> 
       <td role="rowheader">Headers</td>
-      <td>Click <strong>Add Header</strong>, and type or paste the key-value pair required for authentication with the API.</td>
+      <td><p>Click <strong>Add Header</strong>, and type or paste the key-value pair required for authentication with the API.</p><p><strong>NOTE:</strong> The Header fields are not a secure place to store credentials, and you should be careful of what you enter and save.</p></td>
      </tr>
     </tbody>
    </table>
@@ -578,7 +578,7 @@ To add an external lookup:
 >* Number of retries: 3
 >* Wait duration between retries: 500ms
 >* Expected response statuses: 2xx
->* User can see the selected value (and edit the value) in Workfront lists and reports, but will not see the dropdown with options coming from the external API.
+>* Users can see the selected value (and edit the value) in Workfront lists and reports, but will not see the dropdown with options coming from the external API.
 
 </div>
 
