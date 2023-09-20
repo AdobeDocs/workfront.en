@@ -25,7 +25,15 @@ The released features are listed in the order of their release, with the most re
 
 This section lists the features and patches that have been released after the launch of the Maestro closed beta program, on May 22, 2023. 
 
-The features are released weekly and are listed in the order of their release, with the most recent first. Customers who are participating in the Maestro closed beta program can access all features in their Preview and Production environments. 
+The features are released weekly and are listed in the order of their release, with the most recent first. Customers who are participating in the Maestro closed beta program can access all features in their Preview and Production environments.
+
+## Week of September 18, 2023
+
+### Reorder rows
+
+Preview and production: September 20, 2023
+
+You can now reorder one or several rows (or records) in the Table view of a record type page.
 
 ## Week of September 4, 2023
 
