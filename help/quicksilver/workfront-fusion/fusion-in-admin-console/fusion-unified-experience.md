@@ -100,7 +100,7 @@ This menu allows you to:
 
 ## Access your notifications
 
-You can find yourr notifications and announcements in the Notifications area of the Unified Shell.
+You can find your notifications and announcements in the Notifications area of the Unified Shell.
 
 To view your notifications, click the Notifications icon ![Notifications icon](assets/notifications-icon.png) near the upper-right corner of the screen. A red dot on the Notifications icon indicates that you have unread notifications or announcements.
 
