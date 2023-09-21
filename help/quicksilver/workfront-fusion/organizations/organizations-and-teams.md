@@ -159,6 +159,12 @@ To create a team:
 
 #### Set Team Notification Options
 
+>[!NOTE] 
+>
+>If you access [!DNL Fusion] through the [!DNL Adobe Experience Cloud], your notifications are handled in the [!DNL Experience Cloud] notification center.
+>
+>For more information, see [Access your notifications](/help/quicksilver/workfront-fusion/fusion-in-admin-console/fusion-unified-experience.md#access-your-notifications) in [[!DNL Adobe Unified Experience] for [!DNL Workfront Fusion]](/help/quicksilver/workfront-fusion/fusion-in-admin-console/fusion-unified-experience.md)
+
 Email notification options are set on the team level.
 
 1. In the left navigation panel, click **[!UICONTROL Team]**
