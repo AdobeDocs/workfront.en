@@ -10,7 +10,9 @@ This page provides information about functionality that is included in the Fourt
 
 >|Monthly release|Quarterly release|
 >|----|----|
->|<ul><li>23.8 (August 31, 2023)</li><li>23.9 (September28,  2023)</li><li>23.10 (October 26, 2023)</li></ul>| <ul><li>23.10 (Week of October 26, 2023)</li></ul>|
+>|<ul><li>23.8 (August 31, 2023)</li><li>23.9 (September 28, 2023)</li><li>23.10 (October 26, 2023)</li></ul>| <ul><li>23.10 (Week of October 26, 2023)</li></ul>|
+
+The 23.10 release webinar will be held on October 5, 2023. You can [register for the webinar here](https://webinars.on24.com/adobe_workfront/whatsnewin2310?partnerref=releasenotes).
 
 <span class="preview">Off-cycle features (those releasing to Production prior to the Fourth Quarter 2023 release date) are highlighted in yellow.</span>
 
