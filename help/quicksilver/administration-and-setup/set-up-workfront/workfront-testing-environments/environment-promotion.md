@@ -10,6 +10,7 @@ feature: System Setup and Administration
 role: Admin
 hide: yes
 hidefromtoc: yes
+recommendations: noDisplay, noCatalog
 ---
 # Move objects from one [!DNL Workfront] environment to another
 
