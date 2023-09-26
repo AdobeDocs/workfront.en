@@ -3,6 +3,7 @@ title: Edit records
 description: You can edit record information in Adobe Maestro. You must create record types before you can start creating and editing records. 
 hidefromtoc: yes
 hide: yes
+recommendations: noDisplay, noCatalog
 ---
 
 <!--udpate the metadata with real information when making this avilable in TOC and in the left nav-->

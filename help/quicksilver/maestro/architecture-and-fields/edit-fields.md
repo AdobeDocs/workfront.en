@@ -3,6 +3,7 @@ title: Edit fields
 description: In Adobe Maestro, you can edit the field settings for fields that are already created. 
 hidefromtoc: yes
 hide: yes
+recommendations: noDisplay, noCatalog
 ---
 
 <!--udpate the metadata with real information when making this avilable in TOC and in the left nav-->

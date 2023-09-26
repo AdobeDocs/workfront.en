@@ -3,6 +3,7 @@ title: Create records
 description: In Adobe Maestro, a record is an instance of a record type. You must create record types before you can create individual records. 
 hidefromtoc: yes
 hide: yes
+recommendations: noDisplay, noCatalog
 ---
 
 <!--udpate the metadata with real information when making this avilable in TOC and in the left nav-->

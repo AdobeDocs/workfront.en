@@ -3,6 +3,7 @@ title: Grant access to Adobe Maestro
 description: Learn how to grant access and share information in Adobe Maestro. 
 hidefromtoc: yes
 hide: yes
+recommendations: noDisplay, noCatalog
 ---
 
 <!--update the metadata and description when we turn this article live; also, update title after Bob adds Maestro as a product-->

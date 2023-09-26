@@ -3,6 +3,7 @@ title: Adobe Maestro release activity
 description: Use Maestro to create custom objects, fields, and workspaces. 
 hidefromtoc: yes
 hide: yes
+recommendations: noDisplay, noCatalog
 ---
 
 # Adobe Maestro release activity 

@@ -3,6 +3,7 @@ title: Adobe Maestro overview
 description: Adobe Maestro is a new offering from Adobe Workfront. You can create fully-customizable workspaces to define workflows that meet the needs of each organizational unit in your enterprise. 
 hidefromtoc: yes
 hide: yes
+recommendations: noDisplay, noCatalog
 ---
 
 # Adobe Maestro overview

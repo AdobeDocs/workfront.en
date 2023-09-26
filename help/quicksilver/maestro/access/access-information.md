@@ -3,6 +3,7 @@ title: Access information
 description: As a Workfront administrator, you must give access to your users to use Maestro. The following articles contain information about what access your users need to use Maestro. 
 hidefromtoc: yes
 hide: yes
+recommendations: noDisplay, noCatalog
 ---
 
 # Access information

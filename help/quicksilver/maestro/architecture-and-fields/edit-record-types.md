@@ -3,6 +3,7 @@ title: Edit record types
 description: You can edit record types after they have been saved. Record types are the object types of Adobe Maestro.
 hidefromtoc: yes
 hide: yes
+recommendations: noDisplay, noCatalog
 ---
 
 <!--update the metadata with real information when making this available in TOC and in the left nav

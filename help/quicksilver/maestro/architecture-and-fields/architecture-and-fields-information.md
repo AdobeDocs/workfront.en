@@ -3,6 +3,7 @@ title: Architecture information
 description: The following articles describe how you can configure the architecture of Adobe Maestro. As part of this configuration, you learn how you create workspaces, record types, and custom fields to map out the workflows you want to manage in Adobe Maestro. 
 hidefromtoc: yes
 hide: yes
+recommendations: noDisplay, noCatalog
 ---
 <!--
 ---

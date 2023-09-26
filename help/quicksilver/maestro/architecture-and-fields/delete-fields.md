@@ -3,6 +3,7 @@ title: Delete fields
 description: In Adobe Maestro, you can delete custom fields that are no longer relevant. 
 hidefromtoc: yes
 hide: yes
+recommendations: noDisplay, noCatalog
 ---
 
 <!--udpate the metadata with real information when making this avilable in TOC and in the left nav-->

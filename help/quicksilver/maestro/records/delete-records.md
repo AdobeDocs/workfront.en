@@ -3,6 +3,7 @@ title: Delete records
 description: You can delete records that you or another user created. You cannot recover deleted records. 
 hidefromtoc: yes
 hide: yes
+recommendations: noDisplay, noCatalog
 ---
 
 <!--udpate the metadata with real information when making this available in TOC and in the left nav-->

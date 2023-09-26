@@ -3,6 +3,7 @@ title: Create workspaces
 description: A workspace is a collection of operational record types and taxonomies used by a team and represents the team's work lifecycle. You can fully customize workspaces in Maestro. 
 hidefromtoc: yes
 hide: yes
+recommendations: noDisplay, noCatalog
 ---
 
 <!--udpate the metadata with real information when making this avilable in TOC and in the left nav-->
