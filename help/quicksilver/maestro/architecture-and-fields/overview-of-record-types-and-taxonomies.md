@@ -3,6 +3,7 @@ title: Overview of record types and taxonomies
 description: Record types are the building blocks of a Maestro workspace. 
 hidefromtoc: yes
 hide: yes
+recommendations: noDisplay, noCatalog
 ---
 
 <!--udpate the metadata with real information when making this avilable in TOC and in the left nav-->

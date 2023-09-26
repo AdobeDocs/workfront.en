@@ -3,6 +3,7 @@ title: Access overview
 description: All users in an organization can have access to Adobe Maestro. Currently, there are no access levels or permissions associated with users or the information in Maestro.
 hidefromtoc: yes
 hide: yes
+recommendations: noDisplay, noCatalog
 ---
 
 <!--update the metadata with real things when making this public; also update the description with something like this: Not all users in the organization have the same access and permissions to use Adobe Maestro. This article describes the levels of access that users could have to Adobe Maestro. -->

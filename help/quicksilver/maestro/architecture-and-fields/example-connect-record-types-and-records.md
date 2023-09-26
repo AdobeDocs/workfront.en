@@ -3,6 +3,7 @@ title: Example of connecting record types and records
 description: This article describes an example of how to create a connection between an Adobe Maestro record type and a Workfront project object type. It also describes how you can connect a Maestro record with to an individual project. 
 hidefromtoc: yes
 hide: yes
+recommendations: noDisplay, noCatalog
 ---
 
 # Example of connecting record types and records

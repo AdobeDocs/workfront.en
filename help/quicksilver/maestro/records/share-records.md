@@ -3,6 +3,7 @@ title: Share records
 description: You can share records with others to increase your collaboration.
 hidefromtoc: yes
 hide: yes
+recommendations: noDisplay, noCatalog
 ---
 
 <!--update the metadata with real information when making this available in TOC and in the left nav-->

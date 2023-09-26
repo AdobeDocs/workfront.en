@@ -3,6 +3,7 @@ title: Records information
 description: After you create record types in Adobe Maestro you can create individual records of those types. The following articles describe how you can create and manage records in Adobe Maestro. 
 hidefromtoc: yes
 hide: yes
+recommendations: noDisplay, noCatalog
 ---
 
 <!-- update the metadata with real information when making this available in TOC and in the left nav

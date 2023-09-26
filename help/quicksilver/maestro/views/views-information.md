@@ -3,6 +3,7 @@ title: Views information
 description: You can display Adobe Maestro records in a table or timeline view. The following articles describe how you can create and manage Adobe Maestro record views.
 hidefromtoc: yes
 hide: yes
+recommendations: noDisplay, noCatalog
 ---
 <!--
 ---

@@ -3,6 +3,7 @@ title: Create record types
 description: Record types are the object types of Adobe Maestro. In Maestro, you can create custom record types which illustrate the work items needed in your organization's lifecycle. 
 hidefromtoc: yes
 hide: yes
+recommendations: noDisplay, noCatalog
 ---
 
 <!--udpate the metadata with real information when making this available in TOC and in the left nav-->

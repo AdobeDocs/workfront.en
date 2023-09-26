@@ -3,6 +3,7 @@ title: Connect records
 description: After you create connections between record types, you can connect individual records to one another. 
 hidefromtoc: yes
 hide: yes
+recommendations: noDisplay, noCatalog
 ---
 
 <!--when you make this live, update the metadata above to this: 

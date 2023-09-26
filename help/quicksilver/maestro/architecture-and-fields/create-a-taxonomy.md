@@ -3,6 +3,7 @@ title: Create taxonomy record types
 description: Taxonomies are a type of reusable record types that captures attributes about an operational record type in Adobe Workfront Maestro.
 hidefromtoc: yes
 hide: yes
+recommendations: noDisplay, noCatalog
 ---
 
 <!--udpate the metadata with real information when making this avilable in TOC and in the left nav-->

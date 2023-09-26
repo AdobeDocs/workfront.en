@@ -3,6 +3,7 @@ title: Create fields
 description: In Adobe Maestro, you can create custom fields for each kind of operational record type or taxonomy. You can then associate the field with Maestro records.
 hidefromtoc: yes
 hide: yes
+recommendations: noDisplay, noCatalog
 ---
 
 <!--udpate the metadata with real information when making this avilable in TOC and in the left nav-->

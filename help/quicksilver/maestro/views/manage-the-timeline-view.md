@@ -3,6 +3,7 @@ title: Manage the timeline view
 description: You can display records in a timeline view, when accessing the record type page in Adobe Maestro. 
 hidefromtoc: yes
 hide: yes
+recommendations: noDisplay, noCatalog
 ---
 
 # Manage the timeline view

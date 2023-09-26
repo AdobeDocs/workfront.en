@@ -3,6 +3,7 @@ title: Delete record types
 description: You can delete operational record types or taxonomy record types when they are no longer relevant. 
 hidefromtoc: yes
 hide: yes
+recommendations: noDisplay, noCatalog
 ---
 
 <!--udpate the metadata with real information when making this avilable in TOC and in the left nav:
