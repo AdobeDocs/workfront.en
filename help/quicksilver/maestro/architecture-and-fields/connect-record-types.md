@@ -4,8 +4,8 @@ description: A way to indicate how individual record types relate to one another
 hidefromtoc: yes
 hide: yes
 recommendations: noDisplay, noCatalog
+exl-id: fd5596a2-0fbc-484b-9219-5e7033dc377e
 ---
-
 <!-----
 title: Connect record types
 description: A way to indicate how individual record types relate to one another is to connect them. Also, you can connect Maestro record types with object types from other applications to enhance your users' experience and keep their focus in one application.
@@ -271,4 +271,3 @@ You must have the following access to perform the steps in this article:
     >[!TIP]
     >
     >    The linked record field on the record linked from the original record is not deleted. <!-- is this still accurate?! -->
-

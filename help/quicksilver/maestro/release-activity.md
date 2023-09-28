@@ -1,11 +1,11 @@
 ---
 title: Adobe Maestro release activity
-description: Use Maestro to create custom objects, fields, and workspaces. 
+description: Use Maestro to create custom objects, fields, and workspaces.
 hidefromtoc: yes
 hide: yes
 recommendations: noDisplay, noCatalog
+exl-id: cc9f2497-36fa-467b-9585-30b500cad906
 ---
-
 # Adobe Maestro release activity 
 
 >[!IMPORTANT]
@@ -192,4 +192,4 @@ You can now connect a Maestro record with Workfront projects. You must create a 
 
 Preview and production: May 31, 2023  
 
-You must have at least two date fields associated with a record type to create a Timeline view. 
+You must have at least two date fields associated with a record type to create a Timeline view.

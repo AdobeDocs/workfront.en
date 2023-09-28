@@ -3,6 +3,7 @@ title: Fourth Quarter 2023 release overview
 description: Fourth Quarter 2023 release overview
 author: Becky
 feature: Product Announcements
+exl-id: 16d18e6c-b169-4c5d-8d0a-57711e24583d
 ---
 # Fourth Quarter 2023 release overview
 
@@ -602,5 +603,3 @@ Production release for early opt-in: March 2, 2023 This feature is available in 
 Production release for all customers: With the 23.2 release
 
 -->
-
-

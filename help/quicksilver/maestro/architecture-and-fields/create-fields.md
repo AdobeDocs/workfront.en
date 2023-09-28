@@ -4,8 +4,8 @@ description: In Adobe Maestro, you can create custom fields for each kind of ope
 hidefromtoc: yes
 hide: yes
 recommendations: noDisplay, noCatalog
+exl-id: 537474d3-b67d-44c2-80c0-7752c7d187d0
 ---
-
 <!--udpate the metadata with real information when making this avilable in TOC and in the left nav-->
 
 <!--Should the structure of this article be like this one: https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/custom-form-builder/use-the-custom-form-builder/add-a-custom-field-to-a-custom-form.html?lang=en ??-->
@@ -395,7 +395,4 @@ When you create a record type, several fields associated with the new record typ
 
 Maestro creates fields for operational record types and taxonomies when you create a workspace from a template. 
 
-For information, see [Create workspaces](../architecture-and-fields/create-workspaces.md). 
-
-
-
+For information, see [Create workspaces](../architecture-and-fields/create-workspaces.md).

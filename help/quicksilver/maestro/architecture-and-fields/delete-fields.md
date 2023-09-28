@@ -1,11 +1,11 @@
 ---
 title: Delete fields
-description: In Adobe Maestro, you can delete custom fields that are no longer relevant. 
+description: In Adobe Maestro, you can delete custom fields that are no longer relevant.
 hidefromtoc: yes
 hide: yes
 recommendations: noDisplay, noCatalog
+exl-id: 6a54c584-2fac-4de9-8a0b-346587d29b99
 ---
-
 <!--udpate the metadata with real information when making this avilable in TOC and in the left nav-->
 
 # Delete fields
@@ -101,4 +101,4 @@ You must have the following access to perform the steps in this article:
 
 1. Click **Delete** to confirm. 
 
-    The field is deleted, cannot be recovered, and can no longer be associated with any records. 
+    The field is deleted, cannot be recovered, and can no longer be associated with any records.

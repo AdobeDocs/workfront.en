@@ -7,6 +7,7 @@ description: Rate cards allow you to define multiple billing rates per role, bas
 author: Lisa
 feature: System Setup and Administration
 role: Admin
+exl-id: 5927dcc0-5efe-455c-9395-e2af08219f32
 ---
 # Manage rate cards
 

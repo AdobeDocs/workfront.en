@@ -5,8 +5,8 @@ title: Get started with New Home in Adobe Workfront
 description: New Home is a powerful new feature for managing your work.
 author: Nolan
 feature: Get Started with Workfront
+exl-id: 649c81a2-8979-4379-9d1d-9dcc7a2bfcae
 ---
-
 # Get started with New Home in Adobe Workfront
 
 New Home is a powerful new feature for managing your work. This flexible space can be customized to highlight the work that is most important to you and streamline your task, issue, request, and approval management.

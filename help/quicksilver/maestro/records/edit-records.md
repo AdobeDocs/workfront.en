@@ -1,11 +1,11 @@
 ---
-title: Edit records 
-description: You can edit record information in Adobe Maestro. You must create record types before you can start creating and editing records. 
+title: Edit records
+description: You can edit record information in Adobe Maestro. You must create record types before you can start creating and editing records.
 hidefromtoc: yes
 hide: yes
 recommendations: noDisplay, noCatalog
+exl-id: 698ff057-cdb6-412a-b377-e656b21f8993
 ---
-
 <!--udpate the metadata with real information when making this avilable in TOC and in the left nav-->
 
 # Edit records
@@ -138,7 +138,4 @@ You can edit a record from the following areas:
       >
       >* Linked fields are not editable. The information for these fields is populated automatically from the linked records. For information, see [Connect record types](../architecture-and-fields/connect-record-types.md).  
       >
-      >* URLs are recognized as links in single-line text field types only when they start with the following: http://, https://, ftp://, or www. . 
-
-
-    
+      >* URLs are recognized as links in single-line text field types only when they start with the following: http://, https://, ftp://, or www. .

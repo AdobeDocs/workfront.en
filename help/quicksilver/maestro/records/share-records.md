@@ -4,8 +4,8 @@ description: You can share records with others to increase your collaboration.
 hidefromtoc: yes
 hide: yes
 recommendations: noDisplay, noCatalog
+exl-id: 45d4d32a-6dea-491b-8bad-c93d6e633a76
 ---
-
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
 
 # Share records

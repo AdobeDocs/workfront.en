@@ -7,6 +7,7 @@ description: As an Adobe Workfront administrator, you can configure the default 
 author: Lisa
 feature: System Setup and Administration
 role: Admin
+exl-id: 7deadbf8-81ea-4df2-8387-b3397d31fd26
 ---
 # Configure locations
 
@@ -54,4 +55,3 @@ You must have the following access to perform the steps in this article:
 >[!NOTE]
 >
 >Locations associated with job roles on a rate card can't be deleted.
-

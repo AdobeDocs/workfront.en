@@ -1,9 +1,10 @@
 ---
 title: Architecture information
-description: The following articles describe how you can configure the architecture of Adobe Maestro. As part of this configuration, you learn how you create workspaces, record types, and custom fields to map out the workflows you want to manage in Adobe Maestro. 
+description: The following articles describe how you can configure the architecture of Adobe Maestro. As part of this configuration, you learn how you create workspaces, record types, and custom fields to map out the workflows you want to manage in Adobe Maestro.
 hidefromtoc: yes
 hide: yes
 recommendations: noDisplay, noCatalog
+exl-id: cdd4d3fb-78ee-4e7f-8190-6ba7b1b4a70b
 ---
 <!--
 ---
@@ -50,5 +51,3 @@ The articles in the following sections describe how you can configure the Maestr
 * [Delete workspaces](../architecture-and-fields/delete-workspaces.md)
 * [Delete record types](../architecture-and-fields/delete-record-types.md)
 * [Delete fields](../architecture-and-fields/delete-fields.md)
-
-

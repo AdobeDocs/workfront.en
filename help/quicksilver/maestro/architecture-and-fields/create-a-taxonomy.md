@@ -1,11 +1,11 @@
 ---
-title: Create taxonomy record types 
+title: Create taxonomy record types
 description: Taxonomies are a type of reusable record types that captures attributes about an operational record type in Adobe Workfront Maestro.
 hidefromtoc: yes
 hide: yes
 recommendations: noDisplay, noCatalog
+exl-id: 81547fce-9c17-4b4a-9a0b-f222aa8065df
 ---
-
 <!--udpate the metadata with real information when making this avilable in TOC and in the left nav-->
 
 # Create taxonomy record types
@@ -111,4 +111,4 @@ Creating taxonomies is similar to creating an operational record type from scrat
 
 For information, see the section "Create a record type from scratch" in the article [Create record types](../architecture-and-fields/create-record-types.md). 
 
-For information about automatically creating taxonomies when creating a workspace from a template, see [Create workspaces](../architecture-and-fields/create-workspaces.md). 
+For information about automatically creating taxonomies when creating a workspace from a template, see [Create workspaces](../architecture-and-fields/create-workspaces.md).

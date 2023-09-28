@@ -1,11 +1,11 @@
 ---
 title: Adobe Maestro overview
-description: Adobe Maestro is a new offering from Adobe Workfront. You can create fully-customizable workspaces to define workflows that meet the needs of each organizational unit in your enterprise. 
+description: Adobe Maestro is a new offering from Adobe Workfront. You can create fully-customizable workspaces to define workflows that meet the needs of each organizational unit in your enterprise.
 hidefromtoc: yes
 hide: yes
 recommendations: noDisplay, noCatalog
+exl-id: 66966cb1-b75d-4576-addd-a72eacef0526
 ---
-
 # Adobe Maestro overview
 
 <!--udpate the metadata with real information when making this avilable in TOC and in the left nav-->
@@ -521,7 +521,3 @@ Preview and production: May 31, 2023
 
 You must have at least two date fields associated with a record type in order to create a Timeline view. 
 -->
-
-
-
-    

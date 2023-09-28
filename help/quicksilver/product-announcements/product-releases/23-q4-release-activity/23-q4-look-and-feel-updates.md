@@ -4,8 +4,8 @@ description: Look-and-feel updates during the Fourth Quarter 2023 release time f
 author: Lisa
 draft: Probably
 feature: Product Announcements
+exl-id: d667c25f-87c3-4465-81e6-481cd1e93e87
 ---
-
 # Look-and-feel updates during the Fourth Quarter 2023 release timeframe
 
 This page describes minor updates to the look and feel of various areas of the Adobe Workfront application that were made within the Fourth Quarter 2023 release timeframe.

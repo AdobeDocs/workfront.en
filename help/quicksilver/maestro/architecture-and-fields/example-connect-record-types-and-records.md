@@ -1,11 +1,11 @@
 ---
 title: Example of connecting record types and records
-description: This article describes an example of how to create a connection between an Adobe Maestro record type and a Workfront project object type. It also describes how you can connect a Maestro record with to an individual project. 
+description: This article describes an example of how to create a connection between an Adobe Maestro record type and a Workfront project object type. It also describes how you can connect a Maestro record with to an individual project.
 hidefromtoc: yes
 hide: yes
 recommendations: noDisplay, noCatalog
+exl-id: e0a78473-a8f3-4f4f-84fa-c2d5af8999a0
 ---
-
 # Example of connecting record types and records
 
 >[!IMPORTANT]
@@ -185,7 +185,4 @@ To do this:
     >
     >    The fields you add to the Workfront Project Maestro record are only added on the Workfront Project page and are not added to the Campaign record type page, as linked fields. You must add the project fields from the Project information connected-object field of the Campaign record type to view them for campaigns. 
 
-1. (Optional and conditional) If you selected to display at least two date fields for projects, click the **View** drop-down menu in the Workfront Project record type table, then **Create view** > **Timeline** > **Create** to create a timeline view and display the projects on a timeline. 
-
-
-
+1. (Optional and conditional) If you selected to display at least two date fields for projects, click the **View** drop-down menu in the Workfront Project record type table, then **Create view** > **Timeline** > **Create** to create a timeline view and display the projects on a timeline.
