@@ -61,7 +61,8 @@ The 23.10 release webinar will be held on October 5, 2023. You can [register for
                  </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-sept-11.md" class="MCXref xref" xrefformat="{para}">Add value options from an external API to a custom form</a> <span style="color: #ff0000;"> New in Preview!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-sept-11.md" class="MCXref xref" xrefformat="{para}">Add value options from an external API to a custom form</a></p>
+                        <p>[!BADGE In production for Fast Release ]{type=Positive}</p>
                         <p>A new field type, <strong>External lookup</strong>, is now available on the custom form designer. When you have data stored on an external system, this field type allows you to load options from an external API and filter based on other field values in the custom form.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
@@ -99,7 +100,7 @@ The 23.10 release webinar will be held on October 5, 2023. You can [register for
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-21.md" class="MCXref xref" xrefformat="{para}">Enhancements to user assignments on boards and cards</a></p><p>Enhancements are now available that add flexibility when adding users to boards and cards in Adobe Workfront Boards.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-21.md" class="MCXref xref" xrefformat="{para}">Enhancements to user assignments on boards and cards</a></p><p>[!BADGE In production ]{type=Informative}</p><p>Enhancements are now available that add flexibility when adding users to boards and cards in Adobe Workfront Boards.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
                         <ul>
@@ -196,7 +197,7 @@ The 23.10 release webinar will be held on October 5, 2023. You can [register for
                  </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-21.md" class="MCXref xref" xrefformat="{para}">Enhancements to experience when sending documents to SharePoint (GraphAPI)</a></p><p>We've made some changes to make it easier to locate folders when sending documents to your SharePoint (GraphAPI) folders</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-21.md" class="MCXref xref" xrefformat="{para}">Enhancements to experience when sending documents to SharePoint (GraphAPI)</a></p><p>[!BADGE In production ]{type=Informative}</p><p>We've made some changes to make it easier to locate folders when sending documents to your SharePoint (GraphAPI) folders</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
                         <ul>
@@ -211,7 +212,7 @@ The 23.10 release webinar will be held on October 5, 2023. You can [register for
                 </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-21.md" class="MCXref xref" xrefformat="{para}">Upgrades to drag-and-drop for document integrations</a></p><p>We've made some enhancements to add clarity and remove user error when dragging and dropping a file into a linked folder.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-21.md" class="MCXref xref" xrefformat="{para}">Upgrades to drag-and-drop for document integrations</a></p><p>[!BADGE In production ]{type=Informative}</p><p>We've made some enhancements to add clarity and remove user error when dragging and dropping a file into a linked folder.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
                         <ul>
@@ -365,7 +366,8 @@ The 23.10 release webinar will be held on October 5, 2023. You can [register for
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-sept-11.md" class="MCXref xref" xrefformat="{para}">New quick access buttons for the My Work widget</a> <span style="color: #ff0000;"> New in Preview!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-sept-11.md" class="MCXref xref" xrefformat="{para}">New quick access buttons for the My Work widget</a> </p>
+                        <p>[!BADGE In production for Fast Release ]{type=Positive}</p>
                         <p>Further expanding  your ability to manage work directly from New Home, new quick access buttons have been added to the My Work widget.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
@@ -404,7 +406,7 @@ The 23.10 release webinar will be held on October 5, 2023. You can [register for
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">Custom terminology support for New Home</a> </p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">Custom terminology support for New Home</a> </p><p>[!BADGE In production ]{type=Informative}</p>
                         <p>To better meet the unique needs of organizations, New Home now utilizes custom terminology for objects as defined in an instance's layout templates. For example, if "Project" objects have been relabeled as "Campaigns" in your Workfront instance, the My Projects widget will instead display as My Campaigns in New Home.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
@@ -590,6 +592,8 @@ New in preview, prod, and coming soon text
 Badge for available in Fast Release
 
 [!BADGE In production for Fast Release ]{type=Positive}
+[!BADGE In production ]{type=Informative}
+
 
 
 Test for boards early access stuff
