@@ -21,3 +21,13 @@ For a list of all changes available with the Fourth Quarter 2023 release, see [F
 We have updated the tabs for Email Notifications, Reminder Notifications, and Email Templates in the Setup > Email > Notifications area to a more modern design that is consistent with other areas of Workfront.
 
 For information, see [Configure event notifications for everyone in the system](/help/quicksilver/administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
+
+## Look-and-feel updates for job role screens
+
+>[!NOTE]
+>
+>Preview release: September 21, 2023; Production release for all customers: When the rate cards and other financial management updates are released
+
+We have updated the New Job Role and Edit Job Role screens to a more modern design that is consistent with other areas of Workfront.
+
+For information, see [Create and manage job roles](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
