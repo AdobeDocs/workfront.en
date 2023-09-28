@@ -7,6 +7,7 @@ description: You can select whether you want to receive new Workfront functional
 author: Becky
 feature: System Setup and Administration
 role: Admin
+exl-id: ab98dbc0-8bf9-4c76-aaa9-62b381798afd
 ---
 # Enable or disable fast releases for your organization
 

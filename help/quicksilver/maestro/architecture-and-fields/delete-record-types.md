@@ -1,11 +1,11 @@
 ---
 title: Delete record types
-description: You can delete operational record types or taxonomy record types when they are no longer relevant. 
+description: You can delete operational record types or taxonomy record types when they are no longer relevant.
 hidefromtoc: yes
 hide: yes
 recommendations: noDisplay, noCatalog
+exl-id: 50ef4ada-316e-4ca5-83fc-21a871bfeae2
 ---
-
 <!--udpate the metadata with real information when making this avilable in TOC and in the left nav:
 ---
 title: Delete record types
@@ -116,4 +116,4 @@ Deleting taxonomy record types is identical to deleting operational record types
 1. Click the **More** menu ![](assets/more-menu.png) to the right of the record type name, then click **Delete**. 
 1. Click **Delete** to confirm. 
 
-    The selected record type or taxonomy, along with their fields and associated records, are deleted. 
+    The selected record type or taxonomy, along with their fields and associated records, are deleted.

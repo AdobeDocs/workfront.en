@@ -1,11 +1,11 @@
 ---
 title: Delete workspaces
-description: You can delete workspaces when they are no longer relevant. 
+description: You can delete workspaces when they are no longer relevant.
 hidefromtoc: yes
 hide: yes
 recommendations: noDisplay, noCatalog
+exl-id: b612c4d6-bfc5-420a-a20b-bc9cab6ee8bf
 ---
-
 <!--udpate the metadata with real information when making this avilable in TOC and in the left nav-->
 
 # Delete workspaces

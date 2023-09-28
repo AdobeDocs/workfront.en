@@ -3,8 +3,8 @@ title: Add or edit a visualization block in Reporting Canvas
 description: Add or edit a visualization block in Reporting Canvas
 hidefromtoc: yes
 hide: yes
+exl-id: 14750eb1-d0a3-42ea-bd2e-100b633322ff
 ---
-
 # Add or edit a visualization block in Reporting Canvas
 
 A visualization can help you tell a story with your data by highlighting important information in an easy-to-understand way.

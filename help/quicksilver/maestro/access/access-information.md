@@ -1,11 +1,11 @@
 ---
 title: Access information
-description: As a Workfront administrator, you must give access to your users to use Maestro. The following articles contain information about what access your users need to use Maestro. 
+description: As a Workfront administrator, you must give access to your users to use Maestro. The following articles contain information about what access your users need to use Maestro.
 hidefromtoc: yes
 hide: yes
 recommendations: noDisplay, noCatalog
+exl-id: 914934cd-07ae-447f-948a-2cc31ea41165
 ---
-
 # Access information
 
 >[!IMPORTANT]
@@ -22,4 +22,3 @@ The following articles contain information about what access your users need to 
 
 * [Access overview](../access/access-overview.md)
 * [Grant access to Adobe Maestro](../access/grant-access.md)
-

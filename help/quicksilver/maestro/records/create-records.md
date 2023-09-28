@@ -1,11 +1,11 @@
 ---
 title: Create records
-description: In Adobe Maestro, a record is an instance of a record type. You must create record types before you can create individual records. 
+description: In Adobe Maestro, a record is an instance of a record type. You must create record types before you can create individual records.
 hidefromtoc: yes
 hide: yes
 recommendations: noDisplay, noCatalog
+exl-id: 2a399114-1870-4a1f-b45f-f2244d091e76
 ---
-
 <!--udpate the metadata with real information when making this avilable in TOC and in the left nav-->
 
 # Create records
@@ -160,5 +160,4 @@ You can import records from other applications by linking them to Maestro linked
     The following information is imported in Maestro:
     
     * The rows contain the new records
-    * The columns populate information for the fields of the records. 
-    
+    * The columns populate information for the fields of the records.

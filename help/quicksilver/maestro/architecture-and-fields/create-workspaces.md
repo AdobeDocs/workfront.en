@@ -1,11 +1,11 @@
 ---
 title: Create workspaces
-description: A workspace is a collection of operational record types and taxonomies used by a team and represents the team's work lifecycle. You can fully customize workspaces in Maestro. 
+description: A workspace is a collection of operational record types and taxonomies used by a team and represents the team's work lifecycle. You can fully customize workspaces in Maestro.
 hidefromtoc: yes
 hide: yes
 recommendations: noDisplay, noCatalog
+exl-id: 5c49cf0f-f9a3-42a6-bcbe-59730f9642d5
 ---
-
 <!--udpate the metadata with real information when making this avilable in TOC and in the left nav-->
 
 # Create workspaces
@@ -128,4 +128,4 @@ You must have the following access to perform the steps in this article:
 
 1. (Optional) Click **Add taxonomy** to add taxonomies to the workspace. 
 
-    For information, see [Create taxonomies](../architecture-and-fields/create-a-taxonomy.md). 
+    For information, see [Create taxonomies](../architecture-and-fields/create-a-taxonomy.md).

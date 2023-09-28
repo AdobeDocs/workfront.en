@@ -1,11 +1,11 @@
 ---
 title: Create record types
-description: Record types are the object types of Adobe Maestro. In Maestro, you can create custom record types which illustrate the work items needed in your organization's lifecycle. 
+description: Record types are the object types of Adobe Maestro. In Maestro, you can create custom record types which illustrate the work items needed in your organization's lifecycle.
 hidefromtoc: yes
 hide: yes
 recommendations: noDisplay, noCatalog
+exl-id: 08542d99-1fb2-4f7a-b017-b28a41c3b4c9
 ---
-
 <!--udpate the metadata with real information when making this available in TOC and in the left nav-->
 
 # Create record types
@@ -253,12 +253,4 @@ You can import the following objects from the following applications:
     * Portfolios
     * Programs
 
-For more information, see [Connect record types](../architecture-and-fields/connect-record-types.md). 
-
-
-
-    
-
-
-
-
+For more information, see [Connect record types](../architecture-and-fields/connect-record-types.md).

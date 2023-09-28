@@ -1,11 +1,11 @@
 ---
 title: Manage the table view
-description: You can display records and their fields in a table view, when accessing the record type page in Adobe Maestro. 
+description: You can display records and their fields in a table view, when accessing the record type page in Adobe Maestro.
 hidefromtoc: yes
 hide: yes
 recommendations: noDisplay, noCatalog
+exl-id: 98e6ec80-4108-443b-a299-3dbd5a7e7a83
 ---
-
 # Manage the table view
 
 <!--

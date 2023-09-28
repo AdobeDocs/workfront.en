@@ -4,6 +4,7 @@ description: You can display Adobe Maestro records in a table or timeline view. 
 hidefromtoc: yes
 hide: yes
 recommendations: noDisplay, noCatalog
+exl-id: 4cfacef1-f9cc-490d-b09b-99d846b9de2d
 ---
 <!--
 ---
