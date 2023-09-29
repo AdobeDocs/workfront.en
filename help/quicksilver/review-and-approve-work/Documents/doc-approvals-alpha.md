@@ -24,7 +24,7 @@ In order to participate in this Alpha release, please ensure you have been added
 In this 5th Alpha release we have:
 
 * Improved the list displaying approvers and reviewers
-* Added the ability to approvers who haven't made an approval decision yet
+* Added the ability to remind approvers who haven't made an approval decision yet
 * Added the ability to view individual team members in the approval list
 * Added the ability to add external approvers
 * Improved the view for external approvers to preview, download, and comment on a document
