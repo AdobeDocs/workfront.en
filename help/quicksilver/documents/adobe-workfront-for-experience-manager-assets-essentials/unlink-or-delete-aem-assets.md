@@ -2,9 +2,10 @@
 product-area: documents;workfront-integrations
 navigation-topic: adobe-workfront-for-experience-manager-asset-essentials
 title: Unlink or delete assets and folders from Experience Manager Assets or Assets Essentials
-description: You can unlink or delete items linked to Workfront from Adobe Experience Manager Assets. 
+description: You can unlink or delete items linked to Workfront from Adobe Experience Manager Assets.
 author: Becky
 feature: Digital Content and Documents, Workfront Integrations and Apps
+exl-id: 978f335f-e546-4a82-9e34-a764a6d79334
 ---
 # Unlink or delete assets and folders from Experience Manager Assets or Assets Essentials
 

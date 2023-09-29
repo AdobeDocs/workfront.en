@@ -3,8 +3,9 @@ title: Edit record types
 description: You can edit record types after they have been saved. Record types are the object types of Adobe Maestro.
 hidefromtoc: yes
 hide: yes
+recommendations: noDisplay, noCatalog
+exl-id: 03b1c85c-1c2c-4311-928e-06018c6b8c9f
 ---
-
 <!--update the metadata with real information when making this available in TOC and in the left nav
 ---
 title: Edit record types
@@ -116,4 +117,3 @@ You must have the following access to perform the steps in this article:
     ![](assets/more-menu-options-from-record-details-page.png) <!--check this screen shot - not sure this is valid ???-->
 
     You can also rename a record type in the header of the record type's page.
-

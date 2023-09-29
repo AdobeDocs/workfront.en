@@ -1,10 +1,11 @@
 ---
-title: Delete records 
-description: You can delete records that you or another user created. You cannot recover deleted records. 
+title: Delete records
+description: You can delete records that you or another user created. You cannot recover deleted records.
 hidefromtoc: yes
 hide: yes
+recommendations: noDisplay, noCatalog
+exl-id: 76373b62-f299-47cb-a6ef-6921503e06f9
 ---
-
 <!--udpate the metadata with real information when making this available in TOC and in the left nav-->
 
 # Delete records
@@ -126,4 +127,4 @@ You can delete a record from the following areas:
 
     ![](assets/contextual-menu-for-record-row.png)
 
-    The record is deleted and cannot be recovered. 
+    The record is deleted and cannot be recovered.

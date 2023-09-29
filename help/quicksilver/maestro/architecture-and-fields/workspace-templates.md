@@ -3,8 +3,9 @@ title: List of workspace templates
 description: A workspace is a collection of operational record types and taxonomies used by a team and represents the team's work lifecycle. Maestro comes with a set of templates to get you started with basic record types, taxonomies, and fields when you are building your workspace.
 hide: yes
 hidefromtoc: yes
+recommendations: noDisplay, noCatalog
+exl-id: f0669ba4-fc44-446f-bd2e-558c34d05b90
 ---
-
 <!--update the metadata with real information when making this available in TOC and in the left nav:
 ---
 title: List of available workspace templates
@@ -147,5 +148,3 @@ The following are workspace templates in Maestro and the number of fields they i
         * **Product Team**: 3 fields
         * **Feature Requests**: 8 fields and 1 linked field
         * **Industry**: 1 field and 1 linked field
-
-

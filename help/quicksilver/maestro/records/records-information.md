@@ -1,10 +1,11 @@
 ---
 title: Records information
-description: After you create record types in Adobe Maestro you can create individual records of those types. The following articles describe how you can create and manage records in Adobe Maestro. 
+description: After you create record types in Adobe Maestro you can create individual records of those types. The following articles describe how you can create and manage records in Adobe Maestro.
 hidefromtoc: yes
 hide: yes
+recommendations: noDisplay, noCatalog
+exl-id: 5c4bdf7e-1e30-4ee6-9c11-4909d2f2d3e3
 ---
-
 <!-- update the metadata with real information when making this available in TOC and in the left nav
 ---
 title: The architecture and fields of Adobe Maestro

@@ -2,12 +2,12 @@
 product-area: betas
 navigation-topic: new-commenting-faq
 title: New commenting experience FAQs
-description: This article contains a list of the most commonly-asked questions about the new commenting experience. 
+description: This article contains a list of the most commonly-asked questions about the new commenting experience.
 author: Alina
 feature: Product Announcements
 role: User, Admin
+exl-id: 928af0ac-bc9d-4634-a951-b0d1dc56c850
 ---
-
 # New commenting experience FAQs
 
 This article contains a list of the most commonly-asked questions about the new commenting experience. 
@@ -44,4 +44,4 @@ Yes. We are planning to introduce the ability to search for comments in the futu
 
 ## Will it be possible to sort comments? 
 
-There are no firm plans to introduce this. If there is still need for it after we introduce searching and filtering, we will reconsider our plans. 
+There are no firm plans to introduce this. If there is still need for it after we introduce searching and filtering, we will reconsider our plans.

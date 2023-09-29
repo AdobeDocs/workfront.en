@@ -10,6 +10,8 @@ feature: System Setup and Administration
 role: Admin
 hide: yes
 hidefromtoc: yes
+recommendations: noDisplay, noCatalog
+exl-id: fa2a5f23-ec2f-4725-9314-3c6f8c7c4d78
 ---
 # Move objects from one [!DNL Workfront] environment to another
 

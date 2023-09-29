@@ -1,10 +1,11 @@
 ---
 title: Grant access to Adobe Maestro
-description: Learn how to grant access and share information in Adobe Maestro. 
+description: Learn how to grant access and share information in Adobe Maestro.
 hidefromtoc: yes
 hide: yes
+recommendations: noDisplay, noCatalog
+exl-id: 31082d44-5b2a-4e2a-9568-c729607da388
 ---
-
 <!--update the metadata and description when we turn this article live; also, update title after Bob adds Maestro as a product-->
 
 # Grant access to Adobe Maestro
@@ -55,7 +56,4 @@ To share the Maestro area using a layout template:
 
     All users assigned to the template can now access Maestro in their Main Menu. 
     
-    Users can start creating workspaces, records types, records, and fields.  
- 
-
-
+    Users can start creating workspaces, records types, records, and fields.

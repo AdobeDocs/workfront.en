@@ -5,8 +5,8 @@ title: New Home
 description: Review these articles to learn how to use the New Home in Adobe Workfront.
 author: Nolan
 feature: Get Started with Workfront
+exl-id: 94ff760d-eb9b-40db-9e85-776cdc4ae655
 ---
-
 # New Home
 
 This section contains the following articles:

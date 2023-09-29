@@ -1,10 +1,11 @@
 ---
 title: Adobe Maestro information
-description: As a marketing operations leader, you can use Adobe Maestro to organize work across the marketing lifecycle for all your teams. The articles in this section describe how you can configure Maestro and how you can start using its capabilities as part of your campaign management operations. 
+description: As a marketing operations leader, you can use Adobe Maestro to organize work across the marketing lifecycle for all your teams. The articles in this section describe how you can configure Maestro and how you can start using its capabilities as part of your campaign management operations.
 hidefromtoc: yes
 hide: yes
+recommendations: noDisplay, noCatalog
+exl-id: 35e642cd-5506-48c5-a6d0-c966289ed714
 ---
-
 # Adobe Maestro information
 
 <!--
@@ -56,5 +57,4 @@ The following sections contain articles that describe in detail the Maestro feat
 * [Access information](../maestro/access/access-information.md): Information about the access needed to use Adobe Maestro.
 * [Architecture information](../maestro/architecture-and-fields/architecture-and-fields-information.md): In-depth information about the architecture of Adobe Maestro, with step-by-step instructions about how you can create and manage workspaces, record types, and fields. 
 * [Records information](../maestro/records/records-information.md): In-depth information and step-by-step instructions about how you can create and manage records. 
-* [Views information](../maestro/views/views-information.md): In-depth information about Maestro views and how to manage them. 
-
+* [Views information](../maestro/views/views-information.md): In-depth information about Maestro views and how to manage them.

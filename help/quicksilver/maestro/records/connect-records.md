@@ -1,10 +1,11 @@
 ---
 title: Connect records
-description: After you create connections between record types, you can connect individual records to one another. 
+description: After you create connections between record types, you can connect individual records to one another.
 hidefromtoc: yes
 hide: yes
+recommendations: noDisplay, noCatalog
+exl-id: 9947230f-6fed-4835-81df-cd3112388018
 ---
-
 <!--when you make this live, update the metadata above to this: 
 ---
 title: Connect records and objects
@@ -268,16 +269,4 @@ After you created a connection between a Maestro record type and a Workfront obj
     >
     >  The fields you add or remove in the Workfront object record type page are not added nor removed from the Maestro record type that links to the Workfront object type. The fields are only visible on the read-only Workfront record type page, so you can review them in Maestro.
 
-1. (Optional) From the View drop-down menu on the Workfront object record type page, choose the Timeline view to display the Workfront linked objects in the timeline view. 
-    
-    
-    
-   
- 
-
-
-
-    
-
-
- 
+1. (Optional) From the View drop-down menu on the Workfront object record type page, choose the Timeline view to display the Workfront linked objects in the timeline view.

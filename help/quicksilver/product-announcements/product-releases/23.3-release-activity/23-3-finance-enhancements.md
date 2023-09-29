@@ -3,6 +3,7 @@ title: 23.3 Financial Management enhancements
 description: 23.3 Financial Management enhancements
 author: Lisa
 feature: Product Announcements
+exl-id: c05ea914-6583-4eec-8e36-c91baacb4f56
 ---
 # 23.3 Financial Management enhancements
 
