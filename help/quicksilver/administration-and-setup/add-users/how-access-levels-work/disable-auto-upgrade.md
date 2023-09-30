@@ -9,7 +9,7 @@ description: Every user must have an access level in order to log in and work in
 author: Courtney
 feature: System Setup and Administration
 role: Admin
-exl-id: 1ff727f1-bc26-4ffe-a510-615bebfe5b96
+exl-id: 58c76187-fc74-4ab4-80e8-c3e296a84f27
 ---
 # Disable the auto-upgrade option for non-paid users on the new licensing plan 
 

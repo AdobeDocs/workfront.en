@@ -5,7 +5,7 @@ title: Add documents on cards
 description: coming soon !!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 author: Lisa
 feature: Agile
-exl-id: 163b2431-5cd2-4972-8514-d4c6b6724dc0
+exl-id: d68c1eec-c527-44b0-bdc5-ca3b7731b648
 ---
 # Add documents on cards
 

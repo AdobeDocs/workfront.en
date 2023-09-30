@@ -4,7 +4,7 @@ description: Use Maestro to create custom objects, fields, and workspaces.
 hidefromtoc: yes
 hide: yes
 recommendations: noDisplay, noCatalog
-exl-id: cc9f2497-36fa-467b-9585-30b500cad906
+exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
 ---
 # Adobe Maestro release activity 
 
