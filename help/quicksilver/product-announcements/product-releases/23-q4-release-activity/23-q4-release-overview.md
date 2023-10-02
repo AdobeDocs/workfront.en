@@ -39,6 +39,7 @@ The 23.10 release webinar will be held on October 5, 2023. You can [register for
 
 * [Administrator enhancements](#administrator-enhancements)
 * [Boards enhancements](#boards-enhancements)
+* [Home enhancements](#home-enhancements)
 * [Integration enhancements](#integration-enhancements)
 * [Project enhancements](#project-enhancements)
 * [Other enhancements](#other-enhancements)
@@ -195,11 +196,11 @@ The 23.10 release webinar will be held on October 5, 2023. You can [register for
                         </p>
                     </td>
                  </tr>
-                <!--<tr>
+                <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">Changes to New Home </a> </p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-sept-11.md" class="MCXref xref" xrefformat="{para}">Changes to work tracking in New Home </a> </p>
                         <p>[!BADGE In production for Fast Release ]{type=Positive}</p>
-                        <p>Based on user feedback, we are removing the page-wide time range filter and summary bar. Project, Task, and Issue widgets each have built-in filtering features allowing you to customize their scope on an individual basis. Additionally, these widgets will now only include content marked ??Current??, ensuring the work they track is always relevant. we've also changed which widgets display "counter bubbles".</p>
+                        <p>Based on user feedback, we have removed the page-wide time range filter and summary bar that tallied tasks due and completed. Project, Task, and Issue widgets each have built-in filtering features allowing you to customize their scope on an individual basis.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
                         <ul>
@@ -214,7 +215,7 @@ The 23.10 release webinar will be held on October 5, 2023. You can [register for
                             </li>
                         </ul>
                     </td>
-                </tr>-->
+                </tr>
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-sept-11.md" class="MCXref xref" xrefformat="{para}">New quick access buttons for Project, Task, and Issue tracking widgets</a> </p>
