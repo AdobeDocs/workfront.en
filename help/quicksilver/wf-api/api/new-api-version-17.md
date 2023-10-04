@@ -30,6 +30,8 @@ No resources were removed for API version 17
 
 ## Modified resources
 
+The following resources were modified for API version 17.
+
 ### AccessLevel (ACSLVL)
 
 An AccessLevel object is associated with users, and describes the set of AccessLevelPermissions that determine what the user can access.
@@ -57,6 +59,30 @@ A CustomerPreferences object represents the set of preferences that a customer h
 ### DocumentVersion (DOCV)
 
 A DocumentVersion object represents a specific version of a file (such as written material, images, or other forms of information).
+
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">Direct fields</td>
+      <td>
+        <ul>
+          <li>
+            <p><b>externalIntegrationType</b>
+            </p>
+            <p>Added the possible value "Frame.io" (FRAMEIO)</p>
+          </li>
+          <li>
+            <p><b>fileType</b>
+            </p>
+            <p>Added the possible value "enum.filetype.site" (site)</p>
+          </li>
+        </ul>
+      </td>
+    </tr>
+ </tbody>
+</table>
 
 ### ExchangeRate (EXRATE)
 
@@ -90,9 +116,47 @@ A Rate object represents a billing rate in Workfront.
 
 A Role object (job role) represents a functional capacity or a skill set a user might fill, such as Designer or Product Manager.
 
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">Direct fields</td>
+      <td>
+        <ul>
+          <li>
+            <p><b>defaultInterface</b>
+            </p>
+            <p>Removed</p>
+          </li>
+        </ul>
+      </td>
+    </tr>
+ </tbody>
+</table>
+
 ### Team (TEAMOB)
 
 A Team object is a collection of Users that can be assigned to a work item.
+
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">Direct fields</td>
+      <td>
+        <ul>
+          <li>
+            <p><b>defaultInterface</b>
+            </p>
+            <p>Removed</p>
+          </li>
+        </ul>
+      </td>
+    </tr>
+ </tbody>
+</table>
 
 ### TeamMember (TEAMMB)
 
@@ -111,6 +175,25 @@ Work Items in Workfront can be updated to keep users informed of the current sta
 ### User (USER)
 
 A User object represents a person with an account in Workfront that can log in and interact with the system.
+
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">Direct fields</td>
+      <td>
+        <ul>
+          <li>
+            <p><b>workTime</b>
+            </p>
+            <p>This field has been added, and is a number between 0 and 1 that represents the percentage of time that a user can spend on project work (non-overhead work) each day. A value of 1 means the user can spend 100% of their time on project work.</p>
+          </li>
+        </ul>
+      </td>
+    </tr>
+ </tbody>
+</table>
 
 ### UserGroups (USRGPS)
 
