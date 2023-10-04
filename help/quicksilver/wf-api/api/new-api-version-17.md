@@ -115,6 +115,40 @@ A Group object represents a set of users and teams. Groups often represent depar
 
 The JournalEntry object can be set up to log information about specific object fields any time those fields are modified. When a field is set up to be logged as a part of the Journal Entry object, a corresponding Journal Entry will be created every time that field is modified.
 
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">Direct fields</td>
+      <td>
+        <ul>
+          <li>
+            <p><b>changeType</b>
+            </p>
+            <p>Added the following values:</p>
+            <ul>
+              <li>Added approver (AAA)</li>
+              <li>Added reviewer (AAR)</li>
+              <li>Removed reviewer (ARR)</li>
+              <li>Removed Approver (ARA)</li>
+              <li>Decision approved (ADA)</li>
+              <li>Decision approved with changes (ADC)</li>
+              <li>Decision needs work (ADN)</li>
+              <li>Decision revoked (ADR)</li>
+              <li>Approver changed (AAC)</li>
+              <li>Reviewer changed (ARC)</li>
+              <li>Review complete (RDC)</li>
+              <li>Review revoked (RDR)</li>
+              <li>Publish (PUB)</li>
+            </ul>
+          </li>
+        </ul>
+      </td>
+    </tr>
+ </tbody>
+</table>
+
 ### LinkedFolder (LNKFDR)
 
 A LinkedFolder object represents a folder linked from an external document provider, such as Google Drive or Dropbox.
