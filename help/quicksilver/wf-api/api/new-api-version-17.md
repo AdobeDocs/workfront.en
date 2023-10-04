@@ -92,6 +92,25 @@ An ExchangeRate object represent a currency exchange rate set up in Workfront. E
 
 A Group object represents a set of users and teams. Groups often represent departmental structure.
 
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">Direct fields</td>
+      <td>
+        <ul>
+          <li>
+            <p><b>defaultInterface</b>
+            </p>
+            <p>Removed</p>
+          </li>
+        </ul>
+      </td>
+    </tr>
+ </tbody>
+</table>
+
 ### JournalEntry (JRNLE)
 
 The JournalEntry object can be set up to log information about specific object fields any time those fields are modified. When a field is set up to be logged as a part of the Journal Entry object, a corresponding Journal Entry will be created every time that field is modified.
