@@ -17,7 +17,7 @@ Your organization purchased a certain number of licenses when it purchased Adobe
 
 ## How new Workfront licenses and new access levels are tied together
 
-The 3 types of new paid Workfront licenses allow different levels of access to Workfront. Each access level is attached to one of these licenses.
+The 3 types of new Workfront licenses allow different levels of access to Workfront. Each access level is attached to one of these licenses.
 
 As a Workfront administrator, instead of assigning a license to a user, you assign them the access level attached to that license.
 
