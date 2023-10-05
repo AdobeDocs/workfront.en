@@ -4,7 +4,7 @@ description: You can display records in a table or a timeline view when using Ad
 hidefromtoc: yes
 hide: yes
 recommendations: noDisplay, noCatalog
-exl-id: 4e75ea5c-598d-41a6-8eb9-7947293fa158
+exl-id: 77342724-0182-4134-903b-4428d54cdceb
 ---
 # Manage record views
 

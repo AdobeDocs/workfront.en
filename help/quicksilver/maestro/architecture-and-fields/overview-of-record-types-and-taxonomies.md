@@ -4,7 +4,7 @@ description: Record types are the building blocks of a Maestro workspace.
 hidefromtoc: yes
 hide: yes
 recommendations: noDisplay, noCatalog
-exl-id: f1549f89-ef21-44ef-969e-7c2a7289f351
+exl-id: 1de095b3-78d9-44df-a678-51f4238deb91
 ---
 <!--udpate the metadata with real information when making this avilable in TOC and in the left nav-->
 

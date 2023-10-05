@@ -4,7 +4,7 @@ description: As a marketing operations leader, you can use Adobe Maestro to orga
 hidefromtoc: yes
 hide: yes
 recommendations: noDisplay, noCatalog
-exl-id: 35e642cd-5506-48c5-a6d0-c966289ed714
+exl-id: 7a65d66e-a578-4016-805e-0cb04caaa18a
 ---
 # Adobe Maestro information
 

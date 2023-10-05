@@ -4,7 +4,7 @@ description: A way to indicate how individual record types relate to one another
 hidefromtoc: yes
 hide: yes
 recommendations: noDisplay, noCatalog
-exl-id: fd5596a2-0fbc-484b-9219-5e7033dc377e
+exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
 ---
 <!-----
 title: Connect record types

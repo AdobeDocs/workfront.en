@@ -4,7 +4,7 @@ description: Adobe Maestro is a new offering from Adobe Workfront. You can creat
 hidefromtoc: yes
 hide: yes
 recommendations: noDisplay, noCatalog
-exl-id: 66966cb1-b75d-4576-addd-a72eacef0526
+exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
 ---
 # Adobe Maestro overview
 

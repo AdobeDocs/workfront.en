@@ -4,7 +4,7 @@ description: You can display records in a timeline view, when accessing the reco
 hidefromtoc: yes
 hide: yes
 recommendations: noDisplay, noCatalog
-exl-id: 5aeb8b6d-9460-4438-9dde-99b593f3f4da
+exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
 ---
 # Manage the timeline view
 

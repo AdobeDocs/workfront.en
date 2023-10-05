@@ -6,7 +6,7 @@ description: Review the weekly release activity for the Adobe Workfront new comm
 author: Alina
 feature: Product Announcements
 role: User, Admin
-exl-id: 1c0cb547-ac99-4cdf-8a74-2c47ad5a10ad
+exl-id: 276b28f0-3955-4a0e-aa31-604b291f2f14
 ---
 # New commenting experience release activity
 

@@ -3,7 +3,7 @@ title: 23.3 Proofing enhancements
 description: 23.3 Proofing enhancements
 author: Lisa
 feature: Product Announcements
-exl-id: 71f11ed0-0550-4d3f-8bfa-a6731a9f2b8d
+exl-id: ae82359b-563a-47bd-aefa-973da5daaf79
 ---
 # Adobe Workfront Proof 23.3 release activity: Week of July 17, 2023
 

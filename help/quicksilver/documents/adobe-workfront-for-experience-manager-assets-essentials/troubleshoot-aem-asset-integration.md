@@ -5,7 +5,7 @@ title: Troubleshoot the Adobe Experience Manager integration
 description: 'Problem: Assets are not saved to Adobe Experience Manager'
 author: Becky
 feature: Digital Content and Documents, Workfront Integrations and Apps
-exl-id: 74c50f8c-cbe2-4a55-9a8f-17fc9850a078
+exl-id: f7e31e20-01e3-462d-9020-005e155f0259
 ---
 # Troubleshoot the Adobe Experience Manager Integration
 

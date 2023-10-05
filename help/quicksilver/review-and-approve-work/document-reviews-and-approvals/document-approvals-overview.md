@@ -5,7 +5,7 @@ title: New Document Approvals overview
 description: You can add additional approvers or reviewers to a document that already has pending approvals.
 author: Nolan
 feature: Work Management
-exl-id: d6f12031-c90a-4d42-95b5-4b0c7220282d
+exl-id: 32cb95c2-8d12-492b-ad89-b38e2a337fc5
 ---
 # New Document Approvals overview
 

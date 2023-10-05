@@ -4,7 +4,7 @@ description: As a Workfront administrator, you must give access to your users to
 hidefromtoc: yes
 hide: yes
 recommendations: noDisplay, noCatalog
-exl-id: 914934cd-07ae-447f-948a-2cc31ea41165
+exl-id: 98ca7d04-35c2-420a-a87c-50c00939853c
 ---
 # Access information
 

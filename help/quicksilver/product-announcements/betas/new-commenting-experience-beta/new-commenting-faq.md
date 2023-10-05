@@ -6,7 +6,7 @@ description: This article contains a list of the most commonly-asked questions a
 author: Alina
 feature: Product Announcements
 role: User, Admin
-exl-id: 928af0ac-bc9d-4634-a951-b0d1dc56c850
+exl-id: 5ce15530-0858-44a4-b928-779654310dee
 ---
 # New commenting experience FAQs
 

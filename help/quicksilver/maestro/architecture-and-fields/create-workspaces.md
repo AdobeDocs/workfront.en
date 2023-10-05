@@ -4,7 +4,7 @@ description: A workspace is a collection of operational record types and taxonom
 hidefromtoc: yes
 hide: yes
 recommendations: noDisplay, noCatalog
-exl-id: 5c49cf0f-f9a3-42a6-bcbe-59730f9642d5
+exl-id: 604b84c1-4ec6-4d4a-b9f4-4223641ff2ea
 ---
 <!--udpate the metadata with real information when making this avilable in TOC and in the left nav-->
 

@@ -4,7 +4,7 @@ description: You can display records and their fields in a table view, when acce
 hidefromtoc: yes
 hide: yes
 recommendations: noDisplay, noCatalog
-exl-id: 98e6ec80-4108-443b-a299-3dbd5a7e7a83
+exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
 ---
 # Manage the table view
 
