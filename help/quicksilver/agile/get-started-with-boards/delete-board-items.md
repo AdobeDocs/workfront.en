@@ -55,10 +55,17 @@ You must have the following access to perform the steps in this article:
 By default, only active cards are displayed on a board. You can filter the board to also display any archived cards.
 
 1. Access the board.
-1. Click the filter icon ![Filter](assets/filter-icon-spectrum-25x25.png), expand the [!UICONTROL Archived Cards] section, and select **[!UICONTROL Archived cards]** to display any archived cards.
+1. Click [!UICONTROL **Configure**] on the right of the board to open the Configure panel.
+1. Expand [!UICONTROL **Cards**].
+1. Turn on [!UICONTROL **Display archived cards on the board**].
+1. Click [!UICONTROL **Filter**], expand the [!UICONTROL Archived Cards] section, and select **[!UICONTROL Archived cards]** to display any archived cards.
 
    The filter shows the number of archived cards.
 
-   ![Filter archived cards](assets/boards-filter-by-archived-cards_0822.png)
+   ![Filter archived cards](assets/filter-by-archived-cards.png)
+
+   >[!NOTE]
+   >
+   >The [!UICONTROL Archived Cards] section is not available in the filter if you have not turned on the configuration setting to display archived cards.
 
 1. Select **[!UICONTROL Archived cards]** again to clear the option and display only active cards.
