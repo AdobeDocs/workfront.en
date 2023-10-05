@@ -20,6 +20,7 @@ feature-set: Workfront
       * [2023 Q4 Release week of August 14, 2023](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md)
       * [2023 Q4 Release week of August 21, 2023](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-21.md)
       * [2023 Q4 Release week of September 11, 2023](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-sept-11.md)
+      * [2023 Q4 Release week of October 2, 2023](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-oct-2.md)
       * [Look-and-feel updates during the 2023 Q4 release timeframe](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-look-and-feel-updates.md)
     * 23.3 Release {#release-23-3}
       * [23.3 Release overview](product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md)

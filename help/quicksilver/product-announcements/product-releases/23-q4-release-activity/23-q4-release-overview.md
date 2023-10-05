@@ -62,6 +62,25 @@ The 23.10 release webinar will be held on October 5, 2023. You can [register for
                  </tr>
                  <tr>
                     <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-oct-2.md" class="MCXref xref" xrefformat="{para}">Calculated fields on custom forms can now use the $$USER wildcard</a><span style="color: #ff0000;"> New in Preview!</span></p>
+                        <p>The $$USER wildcard is now available in calculated custom fields and external lookup fields on the new form designer.</p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                        <ul>
+                            <li>
+                                <p>Preview release: October 5, 2023</p>
+                            </li>
+                            <li>
+                                <p>Production for fast release: With the 23.10 release</p>
+                            </li>
+                            <li>
+                                <p>Production for quarterly release: With the 23.10 release</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                 <tr>
+                    <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-sept-11.md" class="MCXref xref" xrefformat="{para}">Add value options from an external API to a custom form</a></p>
                         <p>[!BADGE In production for Fast Release ]{type=Positive}</p>
                         <p>A new field type, <strong>External lookup</strong>, is now available on the custom form designer. When you have data stored on an external system, this field type allows you to load options from an external API and filter based on other field values in the custom form.</p>
