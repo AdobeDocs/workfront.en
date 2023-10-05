@@ -282,7 +282,7 @@ The JournalEntry object can be set up to log information about specific object f
           <li>
             <p><b>changeType</b>
             </p>
-            <p>Added the following values:</p>
+            <p>Added the following possible values:</p>
             <ul>
               <li>Added approver (AAA)</li>
               <li>Added reviewer (AAR)</li>
@@ -332,6 +332,37 @@ A LinkedFolder object represents a folder linked from an external document provi
 
 A ProjectUser object represents a user associated with a specific project.
 
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">Direct fields</td>
+      <td>
+        <ul>
+          <li>
+            <p><b>ID</b>
+            </p>
+            <p>Added.</p>
+          </li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">Core fields</td>
+      <td>
+        <ul>
+          <li>
+            <p><b>ID</b>
+            </p>
+            <p>Added.</p>
+          </li>
+        </ul>
+      </td>
+    </tr>
+ </tbody>
+</table>
+
 ### QueueDef (QUED)
 
 A QueueDef object represents a Queue, which is a project that has been published to the Help Desk area to allow users to submit issues to it.
@@ -339,6 +370,30 @@ A QueueDef object represents a Queue, which is a project that has been published
 ### Rate (RATE)
 
 A Rate object represents a billing rate in Workfront.
+
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">Actions</td>
+      <td>The following actions have been added to support Rate Card functionality:
+        <ul>
+          <li><p><b>deleteRateForRole</b></p></li>
+          <li><p><b>editRatesForRole</b></p></li>
+          <li><p><b>getUsedClassifierIds</b></p></li>
+          <li><p><b>setRatesFromRateCard</b></p></li>
+        </ul>
+        <p>The <b>setRatesForRole</b> action has been modified to add the following fields:
+        <ul>
+        <li>classifierID</li>
+        <li>currencyCode</li>
+        <li>sourceRateCardID</li>
+        </ul>
+      </td>
+    </tr>
+ </tbody>
+</table>
 
 ### Role / Job Role (ROLE)
 
@@ -390,11 +445,92 @@ A Team object is a collection of Users that can be assigned to a work item.
 
 A TeamMember object is a user associated with a specific team.
 
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">Direct fields</td>
+      <td>
+        <ul>
+          <li>
+            <p><b>ID</b>
+            </p>
+            <p>Added.</p>
+          </li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">Core fields</td>
+      <td>
+        <ul>
+          <li>
+            <p><b>ID</b>
+            </p>
+            <p>Added.</p>
+          </li>
+        </ul>
+      </td>
+    </tr>
+ </tbody>
+</table>
+
 ### TemplateUser (TMTU)
+
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">Direct fields</td>
+      <td>
+        <ul>
+          <li>
+            <p><b>ID</b>
+            </p>
+            <p>Added.</p>
+          </li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">Core fields</td>
+      <td>
+        <ul>
+          <li>
+            <p><b>ID</b>
+            </p>
+            <p>Added.</p>
+          </li>
+        </ul>
+      </td>
+    </tr>
+ </tbody>
+</table>
 
 ### Timesheet (TSHET)
 
 A Timesheet object represents a virtual timecard that allows Users to enter actual hours worked for Tasks, Projects, and overhead Hour Types.
+
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">Direct fields</td>
+      <td>
+        <ul>
+          <li>
+            <p><b>objCode</b>
+            </p>
+            <p>Removed</p>
+          </li>
+        </ul>
+      </td>
+    </tr>
+ </tbody>
+</table>
 
 ### Update (UPDATE)
 
@@ -433,7 +569,8 @@ Work Items in Workfront can be updated to keep users informed of the current sta
         </ul>
       </td>
     </tr>
- </tbody>
+  </tbody>
+ </table>
 
 ### User (USER)
 
@@ -459,6 +596,37 @@ A User object represents a person with an account in Workfront that can log in a
 </table>
 
 ### UserGroups (USRGPS)
+
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">Direct fields</td>
+      <td>
+        <ul>
+          <li>
+            <p><b>ID</b>
+            </p>
+            <p>Added.</p>
+          </li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">Core fields</td>
+      <td>
+        <ul>
+          <li>
+            <p><b>ID</b>
+            </p>
+            <p>Added.</p>
+          </li>
+        </ul>
+      </td>
+    </tr>
+ </tbody>
+</table>
 
 ### UserNote (USRNOT)
 
@@ -504,3 +672,34 @@ A UserNote object is a notification.
 </table>
 
 ### UserRole (USRROL)
+
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">Direct fields</td>
+      <td>
+        <ul>
+          <li>
+            <p><b>ID</b>
+            </p>
+            <p>Added.</p>
+          </li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">Core fields</td>
+      <td>
+        <ul>
+          <li>
+            <p><b>ID</b>
+            </p>
+            <p>Added.</p>
+          </li>
+        </ul>
+      </td>
+    </tr>
+ </tbody>
+</table>
