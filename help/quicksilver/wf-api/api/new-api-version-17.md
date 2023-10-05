@@ -16,6 +16,99 @@ Adobe Workfront released API version 17 on October 25, 2023. API version 17 feat
 
 ### ExternalDocument (EXTDOC)
 
+An ExternalDocument object is a document or other digital asset that is located in a document storage provider external to Workfront. These assets can be linked to and from Workfront.
+
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">Direct fields</td>
+      <td>
+        <ul>
+          <li><p><b>dateModified</b></p></li>
+          <li><p><b>description</b></p></li>
+          <li><p><b>documentProviderID</b></p></li>
+          <li><p><b>ext</b></p></li>
+          <li><p><b>fileType</b></p></li>
+          <li><p><b>iconURL</b></p></li>
+          <li><p><b>ID</b></p></li>
+          <li><p><b>name</b></p></li>
+          <li><p><b>path</b></p></li>
+          <li><p><b>providerType</b></p></li>
+          <li><p><b>readOnly</b></p></li>
+          <li><p><b>size</b></p></li>
+          <li><p><b>thumbnailURL</b></p></li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">Core fields</td>
+      <td>
+        <ul>
+          <li><p><b>dateModified</b></p></li>
+          <li><p><b>description</b></p></li>
+          <li><p><b>documentProviderID</b></p></li>
+          <li><p><b>ext</b></p></li>
+          <li><p><b>fileType</b></p></li>
+          <li><p><b>iconURL</b></p></li>
+          <li><p><b>ID</b></p></li>
+          <li><p><b>isGoogleRootItem</b></p></li>
+          <li><p><b>isTeamDriveItem</b></p></li>
+          <li><p><b>name</b></p></li>
+          <li><p><b>objCode</b></p></li>
+          <li><p><b>path</b></p></li>
+          <li><p><b>providerType</b></p></li>
+          <li><p><b>readOnly</b></p></li>
+          <li><p><b>size</b></p></li>
+          <li><p><b>thumbnailURL</b></p></li>
+          <li><p><b>value</b></p></li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">Default fields</td>
+    <tr>
+      <td role="rowheader">Core fields</td>
+      <td>
+        <ul>
+          <li><p><b>ID</b></p></li>
+          <li><p><b>name</b></p></li>
+          <li><p><b>objCode</b></p></li>
+        </ul>
+      </td>
+    </tr>
+    </tr>
+    <tr>
+      <td role="rowheader">Actions fields</td>
+    <tr>
+      <td role="rowheader">Core fields</td>
+      <td>
+        <ul>
+          <li><p><b>browseListWithLinkAction</b></p></li>
+          <li><p><b>description</b></p></li>
+          <li><p><b>getDocumentDownloadUrl</b></p></li>
+          <li><p><b>getRootFolderID</b></p></li>
+          <li><p><b>getRootFolderIDFromDB</b></p></li>
+          <li><p><b>linkExternalDocumentObjects</b></p></li>
+          <li><p><b>setLinkedFolderMetadata</b></p></li>
+        </ul>
+      </td>
+    </tr>
+    </tr>
+    <tr>
+      <td role="rowheader">Queries</td>
+      <td>
+        <ul>
+          <li><p><b>browseList</b></p></li>
+          <li><p><b>getFolderMetaData</b></p></li>
+          <li><p><b>searchExternalDocuments</b></p></li>
+        </ul>
+      </td>
+    </tr>
+ </tbody>
+</table>
+
 ### NlbrGroups (NLBRGP)
 
 ### NonLaborResource (NLBR)
@@ -52,9 +145,47 @@ A Category object is a custom form.
 
 A Company object represents an organization consisting of a collection of people.
 
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">Direct fields</td>
+      <td>
+        <ul>
+          <li>
+            <p><b>defaultInterface</b>
+            </p>
+            <p>Removed</p>
+          </li>
+        </ul>
+      </td>
+    </tr>
+ </tbody>
+</table>
+
 ### CustomerPreferences (CUSTPR)
 
 A CustomerPreferences object represents the set of preferences that a customer has set for their instance of Workfront.
+
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">Direct fields</td>
+      <td>
+        <ul>
+          <li>
+            <p><b>name</b>
+            </p>
+            <p>Added the possible value "config.defaultToNewHomeDescription" (customer:config.defaultToNewHome)>/p?<p>This allows an organization to make the new Home experience the default for its users.</p>
+          </li>
+        </ul>
+      </td>
+    </tr>
+ </tbody>
+</table>
 
 ### DocumentVersion (DOCV)
 
@@ -94,14 +225,20 @@ An ExchangeRate object represent a currency exchange rate set up in Workfront. E
   <tbody>
     <tr>
       <td role="rowheader">Direct fields</td>
+      <td>The following fields were added:
+        <ul>
+          <li><p><b>endDate</b></p></li>
+          <li><p><b>startDate</b></p></li>
+       </ul>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">Actions</td>
       <td>
         <ul>
-          <li>
-            <p><b>name</b>
-            </p>
-            <p>Added the possible value "config.defaultToNewHomeDescription" (customer:config.defaultToNewHome)>/p?<p>This allows an organization to make the new Home experience the default for its users.</p>
-          </li>
-        </ul>
+          <li><p><b>getCustomerCurrencies</b></p></li>
+          <p>Added.</p>
+       </ul>
       </td>
     </tr>
  </tbody>
