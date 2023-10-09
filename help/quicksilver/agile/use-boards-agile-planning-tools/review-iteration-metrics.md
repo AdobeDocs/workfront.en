@@ -10,6 +10,10 @@ exl-id: 09743566-161d-4850-9a1a-b96da6d537a7
 ---
 # Review iteration metrics
 
+>[!IMPORTANT]
+>
+>Workstreams are not available for all customers.
+
 Metrics are available for each iteration in a workstream, on the iteration process board and the dashboard.
 
 ## Access requirements
