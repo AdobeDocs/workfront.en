@@ -68,8 +68,6 @@ An ExternalDocument object is a document or other digital asset that is located 
     </tr>
     <tr>
       <td role="rowheader">Default fields</td>
-    <tr>
-      <td role="rowheader">Core fields</td>
       <td>
         <ul>
           <li><p><b>ID</b></p></li>
@@ -80,13 +78,10 @@ An ExternalDocument object is a document or other digital asset that is located 
     </tr>
     </tr>
     <tr>
-      <td role="rowheader">Actions fields</td>
-    <tr>
-      <td role="rowheader">Core fields</td>
+      <td role="rowheader">Actions</td>
       <td>
         <ul>
           <li><p><b>browseListWithLinkAction</b></p></li>
-          <li><p><b>description</b></p></li>
           <li><p><b>getDocumentDownloadUrl</b></p></li>
           <li><p><b>getRootFolderID</b></p></li>
           <li><p><b>getRootFolderIDFromDB</b></p></li>
@@ -106,6 +101,14 @@ An ExternalDocument object is a document or other digital asset that is located 
         </ul>
       </td>
     </tr>
+    <tr>
+      <td role="rowheader">Operations</td>
+      <td>
+        <ul>
+          <li><p><b>SEARCH</b></p></li>
+        </ul>
+      </td>
+    </tr>
  </tbody>
 </table>
 
@@ -116,6 +119,47 @@ An ExternalDocument object is a document or other digital asset that is located 
 ### NonLaborResourceParameterValue (NLBRPV)
 
 ### RichTextNonLaborResourceParameterValue (NLRRPV)
+
+### UserLocation (USRLOC)
+
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">Direct fields</td>
+      <td>
+        <ul>
+          <li><p><b>classifierID</b></p></li>
+          <li><p><b>customerID</b></p></li>
+          <li><p><b>endDate</b></p></li>
+          <li><p><b>ID</b></p></li>
+          <li><p><b>isCurrent</b></p></li>
+          <li><p><b>startDate</b></p></li>
+          <li><p><b>userID</b></p></li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">Reference fields</td>
+      <td>
+        <ul>
+          <li><p><b>customer</b></p></li>
+          <li><p><b>user</b></p></li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">Core fields</td>
+      <td>
+        <ul>
+          <li><p><b>ID</b></p></li>
+          <li><p><b>objCode</b></p></li>
+        </ul>
+      </td>
+    </tr>
+ </tbody>
+</table>
 
 ## Removed resources
 
@@ -136,6 +180,18 @@ If a User does not have access to an object in Workfront that they need, they ca
 ### AccessRule (ACSRUL)
 
 An AccessRule object represents a rule set in custom access levels that determines how users can share projects they create.
+
+### Baseline (BLIN)
+
+Baselines are snapshots of what the performance of a project looked like at a given moment in time. They store key pieces of information about the project, like key dates, progress, cost and revenue values. 
+
+The Baseline object removed the flag **INLINE_EDITABLE**.
+
+### BillingRecord (BILL)
+
+A BillingRecord object records the revenue, hours, or expenses that can be billed. This information can be used to create invoices in an external accounting system.
+
+The BillingRecord object removed the flag **INLINE_EDITABLE**.
 
 ### Category (CTGY)
 
@@ -244,6 +300,12 @@ An ExchangeRate object represent a currency exchange rate set up in Workfront. E
  </tbody>
 </table>
 
+### Expense (EXPNS)
+
+Expenses represent the non-labor costs that might be incurred during the life of a project. 
+
+The Expense object removed the flag **INLINE_EDITABLE**.
+
 ### Group (GROUP)
 
 A Group object represents a set of users and teams. Groups often represent departmental structure.
@@ -266,6 +328,19 @@ A Group object represents a set of users and teams. Groups often represent depar
     </tr>
  </tbody>
 </table>
+
+### Hour (HOUR)
+
+An Hour object represents an hour logged by a user on a timesheet.
+
+The Hour object removed the flag **INLINE_EDITABLE**.
+
+### Iteration (ITRN)
+
+An Iteration object represents a single Agile Iteration. Iterations are discrete periods of time used to plan and complete Agile stories.
+
+The Iteration object removed the flag **INLINE_EDITABLE**.
+
 
 ### JournalEntry (JRNLE)
 
@@ -305,6 +380,13 @@ The JournalEntry object can be set up to log information about specific object f
  </tbody>
 </table>
 
+### Kanban Board (KNBNBD)
+
+A Kanban board is used to track tasks in an Agile environment.
+
+The Kanban Board object removed the flag **INLINE_EDITABLE**.
+
+
 ### LinkedFolder (LNKFDR)
 
 A LinkedFolder object represents a folder linked from an external document provider, such as Google Drive or Dropbox.
@@ -327,6 +409,18 @@ A LinkedFolder object represents a folder linked from an external document provi
     </tr>
  </tbody>
 </table>
+
+### OpTask / Issue (OPTASK)
+
+An OpTask object is commonly known as an Issue. An issue is a work item that usually indicates that there is a problem preventing the completion of a task or project. An Issue can also be a Help Desk request. Change Orders, Requests, and Bugs are also Issues.
+
+The Issue object removed the flag **INLINE_EDITABLE**.
+
+### Project (PROJ)
+
+Projects are work items within Workfront, and are a main building block in the way Workfront helps people to do work. A Project object represents a group of tasks with a common, specific goal.
+
+The Project object removed the flag **INLINE_EDITABLE**.
 
 ### ProjectUser (PRTU)
 
@@ -371,6 +465,8 @@ A QueueDef object represents a Queue, which is a project that has been published
 
 A Rate object represents a billing rate in Workfront.
 
+The Rate object removed the flag **INLINE_EDITABLE**.
+
 <table>
   <col/>
   <col/>
@@ -395,6 +491,12 @@ A Rate object represents a billing rate in Workfront.
  </tbody>
 </table>
 
+### Risk (RISK)
+
+A Risk object represents a possible event that may prevent a project from finishing on time or within budget. Risks are added to projects in the planning phase to identify potential obstacles prior to the approval of any work.
+
+The Risk object removed the flag **INLINE_EDITABLE**.
+
 ### Role / Job Role (ROLE)
 
 A Role object (job role) represents a functional capacity or a skill set a user might fill, such as Designer or Product Manager.
@@ -417,6 +519,12 @@ A Role object (job role) represents a functional capacity or a skill set a user 
     </tr>
  </tbody>
 </table>
+
+### Task (TASK)
+
+A Task object represents a work item that must be performed as a step toward achieving a final goal (completing a Project).
+
+The Task object removed the flag **INLINE_EDITABLE**.
 
 ### Team (TEAMOB)
 
@@ -549,7 +657,7 @@ Work Items in Workfront can be updated to keep users informed of the current sta
             </p>
             <p>Added the following values:</p>
             <ul>
-              <li>Added approver (assetapprovalAddReviewer)</li>
+              <li>Added approver (assetapprovalAddApprover)</li>
               <li>Added reviewer (assetapprovalAddReviewer)</li>
               <li>Removed approver (assetapprovalRemoveApprover)</li>
               <li>Removed reviewer (assetapprovalRemoveReviewer)</li>
@@ -576,6 +684,8 @@ Work Items in Workfront can be updated to keep users informed of the current sta
 
 A User object represents a person with an account in Workfront that can log in and interact with the system.
 
+The User object removed the flag **INLINE_EDITABLE**.
+
 <table>
   <col/>
   <col/>
@@ -588,6 +698,17 @@ A User object represents a person with an account in Workfront that can log in a
             <p><b>workTime</b>
             </p>
             <p>This field has been added, and is a number between 0 and 1 that represents the percentage of time that a user can spend on project work (non-overhead work) each day. A value of 1 means the user can spend 100% of their time on project work.</p>
+          </li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">Collection fields</td>
+      <td>
+        <ul>
+          <li>
+            <p><b>userLocations</b>
+            </p>
           </li>
         </ul>
       </td>
@@ -655,14 +776,15 @@ A UserNote object is a notification.
               <li>Document no longer needs (user)'s review (RTR)</li>
               <li>Document approved (ADA)</li>
               <li>Document approved with changes (ADC)</li>
+              <li>Document needs work (ADN)</li>
               <li>(User) has marked (document) as approved. Your approval is no longer needed. (AAN)</li>
-              <li>(User) has marked (document) as approved with changes. Your approval is no longer needed. (AAN)</li>
-              <li>(User) has marked (document) as needs work. Your approval is no longer needed. (AAN)</li>
+              <li>(User) has marked (document) as approved with changes. Your approval is no longer needed. (ACN)</li>
+              <li>(User) has marked (document) as needs work. Your approval is no longer needed. (AWN)</li>
               <li>Document needs your review now rather than approval (AAC)</li>
               <li>Document needs your approval now rather than a review (ADN)</li>
               <li>Document reviewed (RDC)</li>
               <li>Document reviewed (TRC)</li>
-              <li>(User) has reviewed (document) as complete. Your review is no longer needed. (PUB)</li>
+              <li>(User) has reviewed (document) as complete. Your review is no longer needed. (TRN)</li>
             </ul>
           </li>
         </ul>
