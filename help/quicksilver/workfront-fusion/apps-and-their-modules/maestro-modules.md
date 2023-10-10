@@ -178,11 +178,49 @@ This action module retrieves a single record from [!DNL Adobe Maestro], specifie
   </tbody>
 </table>
 
+### Get records by record type
 
+This action module retrieves all records of the specified type.
 
+<table style="table-layout:auto"> 
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">[!UICONTROL Connection]</td>
+      <td>For instructions on creating a connection to [!DNL Adobe Target], see <a href="#Create" class="MCXref xref" >Create a connection to [!DNL Adobe Maestro]</a> in this article.</td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Record type]</td>
+      <td>Select the type of record that you want to retrieve.</td>
+    </tr>
+     <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL Maximum number of returned records]</p>
+      </td>
+      <td>Enter or map the maximum number of records you want the module to return during each scenario execution cycle.</td> 
+  </tbody>
+</table>
 
+### Get record types
 
+This action module retrieves a list of record types in an [!DNL Adobe Maestro] account.
 
+<table style="table-layout:auto"> 
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">[!UICONTROL Connection]</td>
+      <td>For instructions on creating a connection to [!DNL Adobe Target], see <a href="#Create" class="MCXref xref" >Create a connection to [!DNL Adobe Maestro]</a> in this article.</td>
+    </tr>
+     <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL Maximum number of returned record types]</p>
+      </td>
+      <td>Enter or map the maximum number of records you want the module to return during each scenario execution cycle.</td> 
+  </tbody>
+</table>
 
 
 
