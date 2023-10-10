@@ -28,13 +28,21 @@ This section lists the features and patches that have been released after the la
 
 The features are released weekly and are listed in the order of their release, with the most recent first. Customers who are participating in the Maestro closed beta program can access all features in their Preview and Production environments.
 
+## Week of October 9, 2023
+
+### Search in table view  
+
+Preview and production: October 9, 2023
+
+You can now search for a keyword to quickly find a record in the table view. You can use keywords and special characters in any fields that are visible on the screen to find a record. For information, see [Manage the table view](../maestro/views/manage-the-table-view.md). 
+
 ## Week of September 18, 2023
 
 ### Reorder rows
 
 Preview and production: September 20, 2023
 
-You can now reorder one or several rows (or records) in the Table view of a record type page.
+You can now reorder one or several rows (or records) in the Table view of a record type page. For information, see [Manage the table view](../maestro/views/manage-the-table-view.md). 
 
 ## Week of September 4, 2023
 
