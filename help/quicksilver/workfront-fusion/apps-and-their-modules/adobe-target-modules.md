@@ -643,7 +643,7 @@ This action module creates an AB or XT activity, an offer, or an audience.
 
 #### [!UICONTROL Make a custom API call]
 
-This module makes a custom API call to the [!DNL Adobe Target] API
+This module makes a custom API call to the [!DNL Adobe Target] API.
 
 <table style="table-layout:auto"> 
   <col/>
