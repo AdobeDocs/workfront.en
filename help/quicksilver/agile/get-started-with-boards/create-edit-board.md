@@ -11,8 +11,6 @@ exl-id: 5f755177-c8ea-4509-a34f-57ffcfd8ba7f
 
 From the [!UICONTROL boards] dashboard, you can create a new board or edit an existing board.
 
-To add a board to a workstream, see [Manage workstreams](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md).
-
 ## Access requirements
 
 You must have the following access to perform the steps in this article:

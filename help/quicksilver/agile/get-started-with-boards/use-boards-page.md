@@ -9,6 +9,10 @@ exl-id: bb275f4f-efaf-4dcc-b184-40e015f089b6
 ---
 # Use the boards dashboard
 
+>[!IMPORTANT]
+>
+>Workstreams are not available for all customers.
+
 The boards dashboard shows the list of boards and workstreams that you have access to, including boards you have created and boards that you have been added to. Individual boards you have access to that are not part of a workstream are displayed first.
 
 On the dashboard you can do the following for boards and workstreams:
