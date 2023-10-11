@@ -121,7 +121,7 @@ You can add up to 500 fields (or columns) in a table view.
 
     The columns you add are visible to all users who access the record type and are added as new fields on the Details page of the records of the selected record type.
 
-1. To reorder columns in the table, do one of the following:
+1. Do one of the following to reorder columns in the table:
 
     * Grab the column header and drag and drop it in the desired position. The column you moved briefly displays with a blue background until you make other adjustments to the table. 
 
@@ -139,24 +139,45 @@ You can add up to 500 fields (or columns) in a table view.
     >
     >* The Name field is frozen and is not part of the horizontal scroll.
 
-1. To increase the width of the columns, click and drag the column separation lines and drop them in the desired spot. 
+1. Select one or multiple records in a row, then drag and drop the **handle** icon ![](assets/handle-icon.png) to the left of the record name to reorder the rows. 
+
+    >[!NOTE]
+    >
+    >You cannot reorder rows if you apply at least one sort to the table view. 
+
+1. Click and drag the column separation lines and drop them in the desired spot to increase the width of the columns. 
 
     >[!TIP]
     >
     >The changes you make to the column width and order are permanent and visible to all users who access the record type. 
 
-1. To hide a column, hover over the column header, then click the downward-pointing arrow, then click **Hide field**
+1. Hover over the column header, then click the downward-pointing arrow, then click **Hide field**
 
     Or
 
-    Click **Fields** in the table toolbar and disable the toggle associated with the fields you want to hide. 
+    Click **Fields** in the table toolbar and disable the toggle associated with the fields (or columns) you want to hide. 
 
     >[!TIP]
     >
     >The number of hidden fields displays to the left of the Fields icon in the toolbar.
 
 
-1. From the **Fields** setting, enable the toggle associated with the fields you want to display in the columns of the table. All fields display by default.
+1. Click the **Fields** setting and enable the toggle associated with the fields you want to display in the columns of the table. All fields display by default.
+
+1. Do the following to quickly find records that match a keyword:
+
+    1. Click the **search** icon ![](assets/search-icon.png) and start typing a keyword associated with any field of a record that displays on the screen. The number of correct matches displays next to the search item and the field with the correct match is highlighted in blue. 
+
+        You can use any word or special character that is visible on the screen. 
+    
+        You cannot use keywords that are associated with fields that are hidden in the table view. 
+
+        ![](assets/search-box-with-results-blue-outline-table-view.png)
+
+    1. (Optional) If there is more than one match, click the up and down arrows to the right of the search keyword to find all the matches in the table. 
+
+    1. Click the **X** icon in the search box to clear the search keyword. 
+   
 
 ### Add rows (or records) {#add-rows}
 
@@ -382,13 +403,12 @@ To sort <!--ungrouped (add this when sorting for groupings will be available--> 
 
 1. Click outside the **Sort records by** box to close it. 
 
+    ![](assets/sorting-in-table-view.png)
+
     The information displayed in the table is sorted according to your selected criteria. 
     
     The fields selected for the sort display a sorting icon followed by a number that indicates the order in which the sorting is applied. 
     
-    ![](assets/sorting-in-table-view.png)
-
-
 <!-- this is not available yet: 
 
 To sort grouped records: 

@@ -10,7 +10,7 @@ exl-id: 88b05a70-a304-461d-bab3-21d328c9356e
 ---
 # [!DNL Adobe Workfront for Microsoft Teams] Overview
 
-As a team owner, you can install the [!DNL Adobe Workfront for Microsoft Teams] app for your team.
+As a team owner In [!DNL Microsoft Teams], you can install the [!DNL Adobe Workfront for Microsoft Teams] app for your team.
 
 Using [!DNL Workfront] for Microsoft Teams allows you to perform a number of actions in [!DNL Workfront] without ever leaving Microsoft Teams.
 

@@ -45,6 +45,13 @@ An ad hoc card is not connected to a work item in [!DNL Adobe Workfront].
 1. Click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe] Workfront, then click **[!UICONTROL Boards]**.
 1. Access a board. For information, see [Create or edit a board](../../agile/get-started-with-boards/create-edit-board.md).
 1. Click **[!UICONTROL Add card] &gt; [!UICONTROL New card]**.
+
+   The [!UICONTROL Card Details] box appears.
+
+   >[!NOTE]
+   >
+   >If you click outside of the Name field, the ad hoc card is automatically saved as "Untitled" at the bottom of the left-most column. To exit without saving the card, you must click [!UICONTROL **Cancel**] without clicking anywhere else in the [!UICONTROL Card Details] box.
+
 1. In the **[!UICONTROL Card Details]** box, add the following information:
 
    <table style="table-layout:auto"> 

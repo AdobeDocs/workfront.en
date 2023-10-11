@@ -352,6 +352,7 @@ The following table illustrates the main features that will be available in Maes
 |     Sort groupings in the timeline view                                 |                               |   ✓                              |                  |
 |     Connect workspaces                                |                               |   ✓                              |                  |
 |     Connect Maestro records and taxonomies  |   ✓                            |  
+|   Search for records in the table view    | ✓    |   |
 |     Connect Maestro records to Workfront projects, programs, portfolios, companies, groups  |   ✓                            |                                 |                  |
 |     Record details page                            |   ✓                           |                                  |                  |
 |     Update the layout of the record Details page              |                               |   ✓                              |                  |
