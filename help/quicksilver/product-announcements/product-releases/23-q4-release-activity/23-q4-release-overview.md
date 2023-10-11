@@ -34,7 +34,7 @@ The 23.10 release webinar was on October 5, 2023. You can [register for the webi
 >
 >|Monthly release|Quarterly release|
 >|----|----|
->|<ul><li>23.8 (August 31, 2023)</li><li>23.9 (September28,  2023)</li><li>23.10 (October 26, 2023)</li></ul>| <ul><li>23.10 (Week of October 26, 2023)</li></ul>|
+>|<ul><li>23.8 (August 31, 2023)</li><li>23.9 (September 28, 2023)</li><li>23.10 (October 26, 2023)</li></ul>| <ul><li>23.10 (Week of October 26, 2023)</li></ul>|
 >|<ul><li>No release (November 2023)</li><li>No release (December 2023)</li><li>24.1 (January 2024)</li></ul>| <ul><li>24.1 (January 2024)</li></ul>|
 >
 >For more information on the fast release process, see [Enable or disable the fast release process](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
