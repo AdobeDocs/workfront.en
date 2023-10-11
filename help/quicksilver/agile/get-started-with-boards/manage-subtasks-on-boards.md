@@ -48,7 +48,7 @@ You must have the following access to perform the steps in this article:
 
    Click the **[!UICONTROL More]** menu ![More menu](assets/more-icon-spectrum.png) on the card, and select **[!UICONTROL Edit]**.
 
-   Any existing subtasks for this task appear on the card. Click the [!UICONTROL **Search**] icon to search for a subtask.
+   Any existing subtasks for this task appear on the card in the Subtask section, above the checklist items. Click the [!UICONTROL **Search**] icon to search for a subtask.
 
 1. To add a new subtask, click [!UICONTROL **Add Subtask**]. Then, type the title of the subtask and press Enter.
 
