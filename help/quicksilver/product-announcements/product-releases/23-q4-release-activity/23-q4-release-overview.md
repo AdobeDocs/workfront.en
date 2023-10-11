@@ -62,7 +62,7 @@ The 23.10 release webinar will be held on October 5, 2023. You can [register for
                  </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-oct-2.md" class="MCXref xref" xrefformat="{para}">Calculated fields on custom forms can now use the $$USER wildcard</a><span style="color: #ff0000;"> New in Preview!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-oct-2.md" class="MCXref xref" xrefformat="{para}">Calculated fields on custom forms can now use the $$USER wildcard</a></p>
                         <p>The $$USER wildcard is now available in calculated custom fields and external lookup fields on the new form designer.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
@@ -116,6 +116,27 @@ The 23.10 release webinar will be held on October 5, 2023. You can [register for
                     <td>
                         <p><span class="bold">Release dates</span>
                         </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-oct-9.md" class="MCXref xref" xrefformat="{para}">Subtasks now available on Adobe Workfront Boards</a></p><span style="color: #ff0000;"> New in Preview!</span><p>When you add a connected card to a board for a Workfront task, any existing subtasks are imported onto the card. Also, when you create a subtask on a connected card, a subtask is added to the Workfront task.</p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                        <ul>
+                            <li>
+                                <p>Preview release: October 12, 2023</p>
+                            </li>
+                            <li>
+                                <p>Production for Boards early access: N/A</p>
+                            </li>
+                            <li>
+                                <p>Production for fast release: N/A</p>
+                            </li>
+                            <li>
+                                <p>Production for quarterly release: With the 23.10 release</p>
+                            </li>
+                        </ul>
                     </td>
                 </tr>
                 <tr>
@@ -581,6 +602,9 @@ We will be officially deprecating the Proof mobile app with the 23.10 release. T
 
 Note that the Workfront mobile app requires a Workfront login. External users and guests can continue to use the Proof app for proofing work; however, it is no longer supported and will become unavailable with 23.10.
 
+#### Workstreams removed for accounts not using them
+
+For accounts that have never created a workstream in the Boards application, the Workstreams area has been removed from the Boards dashboard as of October 11, 2023. Accounts that do use workstreams still have access to them. Enhanced scrum functionality will be addressed in future releases.
 
 <!-- HTML you might need
 
