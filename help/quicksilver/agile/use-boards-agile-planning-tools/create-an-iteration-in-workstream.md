@@ -12,7 +12,7 @@ exl-id: 37b8810d-8439-4a7a-89d5-7c2560422ace
 
 >[!IMPORTANT]
 >
->Workstreams are not available for all customers.
+>Workstreams are only available to a specific group of customers.
 
 An iteration is a set amount of time reserved for completing work. Some agile teams may refer to an iteration as a sprint.
 

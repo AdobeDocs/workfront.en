@@ -11,7 +11,7 @@ exl-id: 5e6fd681-8068-4091-9f42-0364b17e0465
 
 >[!IMPORTANT]
 >
->Workstreams are not available for all customers.
+>Workstreams are only available to a specific group of customers.
 
 You can add any task or issue to a board or a workstream in [!DNL Adobe Workfront] from a list or report view, or from the object details.
 

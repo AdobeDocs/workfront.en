@@ -11,7 +11,7 @@ exl-id: bb275f4f-efaf-4dcc-b184-40e015f089b6
 
 >[!IMPORTANT]
 >
->Workstreams are not available for all customers.
+>Workstreams are only available to a specific group of customers.
 
 The boards dashboard shows the list of boards and workstreams that you have access to, including boards you have created and boards that you have been added to. Individual boards you have access to that are not part of a workstream are displayed first.
 

@@ -12,7 +12,7 @@ exl-id: c46c42e8-e14d-414d-b883-c4d885338e42
 
 >[!IMPORTANT]
 >
->Workstreams are not available for all customers.
+>Workstreams are only available to a specific group of customers.
 
 A workstream is a configurable group of boards and cards for collaborating on work. Workstreams can include different types of boards created from templates and a card list of work items. In a workstream, you can track work in iterations or sprints.
 

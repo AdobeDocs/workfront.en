@@ -58,7 +58,7 @@ You must have the following access to perform the steps in this article:
 
 >[!IMPORTANT]
 >
->Workstreams are not available for all customers.
+>Workstreams are only available to a specific group of customers.
 
 Workstream tags are available to all boards in a workstream.
 
