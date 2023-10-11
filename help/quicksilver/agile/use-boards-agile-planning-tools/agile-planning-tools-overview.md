@@ -24,6 +24,10 @@ Tools useful for Scrum include:
 * Card list or backlog
 * Iteration metrics
 
+>[!IMPORTANT]
+>
+>Workstreams and their related tools are only available to a specific group of customers.
+
 You can use any or all of these tools in a way that works for you and your team, without committing to a specific agile methodology.
 
 This section contains the following articles:
