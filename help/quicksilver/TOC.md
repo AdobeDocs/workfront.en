@@ -15,12 +15,12 @@ feature-set: Workfront
     * [Prepare for an Adobe Workfront quarterly release](product-announcements/product-releases/release-readiness.md)
     * 2023 Q4 Release {#release-23-q4}
       * [2023 Q4 Release overview](product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md)
-      * [2023 Q4 Release week of July 24, 2023](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-july-26.md)
-      * [2023 Q4 Release week of July 31, 2023](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-july-31.md)
-      * [2023 Q4 Release week of August 14, 2023](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md)
-      * [2023 Q4 Release week of August 21, 2023](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-21.md)
-      * [2023 Q4 Release week of September 11, 2023](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-sept-11.md)
-      * [2023 Q4 Release week of October 2, 2023](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-oct-2.md)
+      * [2023 Q4 Administrator enhancements](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-admin-enhancements.md)
+      * [2023 Q4 Boards enhancements](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-boards-enhancements.md)
+      * [2023 Q4 Home enhancements](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-home-enhancements.md)
+      * [2023 Q4 Integration enhancements](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-integration-enhancements.md)
+      * [2023 Q4 Project enhancements](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-project-enhancements.md)
+      * [2023 Q4 Other enhancements](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-other-enhancements.md)
       * [Look-and-feel updates during the 2023 Q4 release timeframe](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-look-and-feel-updates.md)
     * 23.3 Release {#release-23-3}
       * [23.3 Release overview](product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md)

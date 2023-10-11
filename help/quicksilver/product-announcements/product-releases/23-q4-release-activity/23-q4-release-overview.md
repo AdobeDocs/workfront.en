@@ -7,13 +7,17 @@ exl-id: 6c14bd61-60b1-49aa-84bd-d494a226d70e
 ---
 # Fourth Quarter 2023 release overview
 
-This page provides information about functionality that is included in the Fourth Quarter 2023 release. These enhancements will be included in the following releases:
+This page provides information about functionality that is included in the Fourth Quarter 2023 release. These enhancements are planned to become available in the Production environment for all customers with the 23.10 release on October 26 and 27, 2023.
+
+<!--
+These enhancements will be included in the following releases:
 
 >|Monthly release|Quarterly release|
 >|----|----|
 >|<ul><li>23.8 (August 31, 2023)</li><li>23.9 (September 28, 2023)</li><li>23.10 (October 26, 2023)</li></ul>| <ul><li>23.10 (Week of October 26, 2023)</li></ul>|
+-->
 
-The 23.10 release webinar will be held on October 5, 2023. You can [register for the webinar here](https://webinars.on24.com/adobe_workfront/whatsnewin2310?partnerref=releasenotes).
+The 23.10 release webinar was on October 5, 2023. You can [register for the webinar to view an on-demand recording here](https://webinars.on24.com/adobe_workfront/whatsnewin2310?partnerref=releasenotes).
 
 <span class="preview">Off-cycle features (those releasing to Production prior to the Fourth Quarter 2023 release date) are highlighted in yellow.</span>
 
@@ -120,7 +124,7 @@ The 23.10 release webinar will be held on October 5, 2023. You can [register for
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-oct-9.md" class="MCXref xref" xrefformat="{para}">Subtasks now available on Adobe Workfront Boards</a></p><span style="color: #ff0000;"> New in Preview!</span><p>When you add a connected card to a board for a Workfront task, any existing subtasks are imported onto the card. Also, when you create a subtask on a connected card, a subtask is added to the Workfront task.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-boards-enhancements.md" class="MCXref xref" xrefformat="{para}">Subtasks now available on Adobe Workfront Boards</a></p><span style="color: #ff0000;"> New in Preview!</span><p>When you add a connected card to a board for a Workfront task, any existing subtasks are imported onto the card. Also, when you create a subtask on a connected card, a subtask is added to the Workfront task.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
                         <ul>
@@ -141,7 +145,7 @@ The 23.10 release webinar will be held on October 5, 2023. You can [register for
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-21.md" class="MCXref xref" xrefformat="{para}">Enhancements to user assignments on boards and cards</a></p><p>[!BADGE In production ]{type=Informative}</p><p>Enhancements are now available that add flexibility when adding users to boards and cards in Adobe Workfront Boards.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-boards-enhancements.md" class="MCXref xref" xrefformat="{para}">Enhancements to user assignments on boards and cards</a></p><p>[!BADGE In production ]{type=Informative}</p><p>Enhancements are now available that add flexibility when adding users to boards and cards in Adobe Workfront Boards.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
                         <ul>
@@ -156,7 +160,7 @@ The 23.10 release webinar will be held on October 5, 2023. You can [register for
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">Add documents on connected cards</a></p><p>You can now attach documents on connected cards on Adobe Workfront Boards. Any documents you add on the card become available on the Documents tab of the connected task or issue, and the same file types are supported in both areas.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-boards-enhancements.md" class="MCXref xref" xrefformat="{para}">Add documents on connected cards</a></p><p>You can now attach documents on connected cards on Adobe Workfront Boards. Any documents you add on the card become available on the Documents tab of the connected task or issue, and the same file types are supported in both areas.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
                         <ul>
@@ -177,7 +181,7 @@ The 23.10 release webinar will be held on October 5, 2023. You can [register for
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-july-31.md" class="MCXref xref" xrefformat="{para}">Documents available on connected cards as view-only</a></p><p>For connected cards on Adobe Workfront Boards, you can now view documents such as images and PDFs. You can either preview a document in the browser or download it to your computer. </p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-boards-enhancements.md" class="MCXref xref" xrefformat="{para}">Documents available on connected cards as view-only</a></p><p>For connected cards on Adobe Workfront Boards, you can now view documents such as images and PDFs. You can either preview a document in the browser or download it to your computer. </p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
                         <ul>
@@ -198,7 +202,7 @@ The 23.10 release webinar will be held on October 5, 2023. You can [register for
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-july-31.md" class="MCXref xref" xrefformat="{para}">Board view of a project now available for issues</a></p><p>You can now access a Board view of a project issue list. The Kanban board can help you track the progress of the issues in a more visual way than viewing them in the list. </p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-boards-enhancements.md" class="MCXref xref" xrefformat="{para}">Board view of a project now available for issues</a></p><p>You can now access a Board view of a project issue list. The Kanban board can help you track the progress of the issues in a more visual way than viewing them in the list. </p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
                         <ul>
@@ -235,10 +239,49 @@ The 23.10 release webinar will be held on October 5, 2023. You can [register for
                         <p><span class="bold">Release dates</span>
                         </p>
                     </td>
-                 </tr>
+                </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-sept-11.md" class="MCXref xref" xrefformat="{para}">Changes to work tracking in New Home </a> </p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Boards widget</a> </p>
+                        <p>RELEASE NOTE TEXT - NEW IN PREVIEW OR NO?</p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                        <ul>
+                            <li>
+                                <p>Preview release: DATE</p>
+                            </li>
+                            <li>
+                                <p>Production for fast release: With the 23.10 release</p>
+                            </li>
+                            <li>
+                                <p>Production for quarterly release: With the 23.10 release</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-home-enhancements.md" class="MCXref xref" xrefformat="{para}">New Home page for contributors</a> </p>
+                        <p>RELEASE NOTE TEXT - NEW IN PREVIEW OR NO?</p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                        <ul>
+                            <li>
+                                <p>Preview release: DATE</p>
+                            </li>
+                            <li>
+                                <p>Production for fast release: With the 23.10 release</p>
+                            </li>
+                            <li>
+                                <p>Production for quarterly release: With the 23.10 release</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Changes to work tracking in New Home </a> </p>
                         <p>[!BADGE In production for Fast Release ]{type=Positive}</p>
                         <p>Based on user feedback, we have removed the page-wide time range filter and summary bar that tallied tasks due and completed. Project, Task, and Issue widgets each have built-in filtering features allowing you to customize their scope on an individual basis.</p>
                     </td>
@@ -258,7 +301,7 @@ The 23.10 release webinar will be held on October 5, 2023. You can [register for
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-sept-11.md" class="MCXref xref" xrefformat="{para}">New quick access buttons for Project, Task, and Issue tracking widgets</a> </p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-home-enhancements.md" class="MCXref xref" xrefformat="{para}">New quick access buttons for Project, Task, and Issue tracking widgets</a> </p>
                         <p>[!BADGE In production for Fast Release ]{type=Positive}</p>
                         <p>Further expanding your ability to manage work directly from New Home, new quick access buttons have been added to Project, Task, and Issue tracking widgets.</p>
                     </td>
@@ -278,7 +321,7 @@ The 23.10 release webinar will be held on October 5, 2023. You can [register for
                 </tr>                
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">New filter options for New Home</a> </p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-home-enhancements.md" class="MCXref xref" xrefformat="{para}">New filter options for New Home</a> </p>
                         <p>[!BADGE In production for Fast Release ]{type=Positive}</p>
                         <p>New filter options are now available for the My Work widget in New Home. Options include filters for object types (tasks, issues, and requests) and statuses (not ready, ready to start, working on, and completed).</p>
                     </td>
@@ -298,7 +341,7 @@ The 23.10 release webinar will be held on October 5, 2023. You can [register for
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">Custom terminology support for New Home</a> </p><p>[!BADGE In production ]{type=Informative}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Custom terminology support for New Home</a> </p><p>[!BADGE In production ]{type=Informative}</p>
                         <p>To better meet the unique needs of organizations, New Home now utilizes custom terminology for objects as defined in an instance's layout templates. For example, if "Project" objects have been relabeled as "Campaigns" in your Workfront instance, the My Projects widget will instead display as My Campaigns in New Home.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
@@ -314,7 +357,7 @@ The 23.10 release webinar will be held on October 5, 2023. You can [register for
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">Try New Home button removed for accounts that have disabled New Home</a> </p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Try New Home button removed for accounts that have disabled New Home</a> </p>
                         <p>[!BADGE In production for Fast Release ]{type=Positive}</p>
                         <p>The Try New Home button is no longer present for accounts where New Home has been disabled. New Home must be re-enabled by the system administrator before individual users can use the button to try New Home.</p>
                     </td>
@@ -334,7 +377,7 @@ The 23.10 release webinar will be held on October 5, 2023. You can [register for
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">Change to New Home default widget set</a> </p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Change to New Home default widget set</a> </p>
                         <p>[!BADGE In production for Fast Release ]{type=Positive}</p>
                         <p>The To-dos widget, which requires permission to create tasks, is now only present in the default widget set for users with the Standard, Plan, or Work license types. Additionally, the widget has been automatically removed from the Home pages of users with all other license types.</p>
                     </td>
@@ -373,7 +416,7 @@ The 23.10 release webinar will be held on October 5, 2023. You can [register for
                  </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-21.md" class="MCXref xref" xrefformat="{para}">Enhancements to experience when sending documents to SharePoint (GraphAPI)</a></p><p>[!BADGE In production ]{type=Informative}</p><p>We've made some changes to make it easier to locate folders when sending documents to your SharePoint (GraphAPI) folders</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Enhancements to experience when sending documents to SharePoint (GraphAPI)</a></p><p>[!BADGE In production ]{type=Informative}</p><p>We've made some changes to make it easier to locate folders when sending documents to your SharePoint (GraphAPI) folders</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
                         <ul>
@@ -388,7 +431,7 @@ The 23.10 release webinar will be held on October 5, 2023. You can [register for
                 </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-21.md" class="MCXref xref" xrefformat="{para}">Upgrades to drag-and-drop for document integrations</a></p><p>[!BADGE In production ]{type=Informative}</p><p>We've made some enhancements to add clarity and remove user error when dragging and dropping a file into a linked folder.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Upgrades to drag-and-drop for document integrations</a></p><p>[!BADGE In production ]{type=Informative}</p><p>We've made some enhancements to add clarity and remove user error when dragging and dropping a file into a linked folder.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
                         <ul>
@@ -422,7 +465,7 @@ The 23.10 release webinar will be held on October 5, 2023. You can [register for
                  </tr>  
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-july-26.md" class="MCXref xref" xrefformat="{para}">Updated design when adding a new issue to a project</a> </p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Updated design when adding a new issue to a project</a> </p>
                         <p>[!BADGE In production for Fast Release ]{type=Positive}</p>
                         <p>This update has been announced with the 23.3 release.</p>
                         <p>We have updated the New Issue box which displays when submitting a new issue to a project. Now, the interface matches the New request box which displays when submitting a new request to a request queue.</p>
@@ -443,7 +486,7 @@ The 23.10 release webinar will be held on October 5, 2023. You can [register for
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">Dynamic re-calculation of calculated fields on forms</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Dynamic re-calculation of calculated fields on forms</a></p>
                         <p>[!BADGE In production for Fast Release ]{type=Positive}</p>
                         <p>Calculated fields on a form attached to an object are now dynamically re-calculated in real time when dependent values on any form on the page are modified. This allows you to see the updated results without saving the form.</p>
                     </td>
@@ -463,7 +506,7 @@ The 23.10 release webinar will be held on October 5, 2023. You can [register for
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">Set planned hours on child recurring tasks with Simple duration type without assignments</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Set planned hours on child recurring tasks with Simple duration type without assignments</a></p>
                         <p>[!BADGE In production for Fast Release ]{type=Positive}</p>
                         <p>We have made a change in the way Planned Hours are allocated to recurring tasks with no assignments and a Simple duration type. Now, when you set Planned Hours on a new recurring task with a Simple Duration Type and no assignments, the hours are also allocated to the individual recurrences. Prior to this change, the hours were not saved for individual recurrences when the parent tasks were unassigned.</p>
                     </td>
@@ -498,6 +541,44 @@ The 23.10 release webinar will be held on October 5, 2023. You can [register for
                     <td>
                         <p><span class="bold">Release dates</span>
                         </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-other-enhancements.md" class="MCXref xref" xrefformat="{para}">New email templates</a> </p>
+                        <p>RELEASE NOTE TEXT - NEW IN PREVIEW OR NO?</p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                        <ul>
+                            <li>
+                                <p>Preview release: DATE</p>
+                            </li>
+                            <li>
+                                <p>Production for fast release: With the 23.10 release</p>
+                            </li>
+                            <li>
+                                <p>Production for quarterly release: With the 23.10 release</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Main menu changes</a> </p>
+                        <p>RELEASE NOTE TEXT - NEW IN PREVIEW OR NO?</p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                        <ul>
+                            <li>
+                                <p>Preview release: DATE</p>
+                            </li>
+                            <li>
+                                <p>Production for fast release: With the 23.10 release</p>
+                            </li>
+                            <li>
+                                <p>Production for quarterly release: With the 23.10 release</p>
+                            </li>
+                        </ul>
                     </td>
                 </tr>
                 <tr>
@@ -604,7 +685,7 @@ Note that the Workfront mobile app requires a Workfront login. External users an
 
 #### Workstreams removed for accounts not using them
 
-For accounts that have never created a workstream in the Boards application, the Workstreams area has been removed from the Boards dashboard as of October 11, 2023. Accounts that do use workstreams still have access to them. Enhanced scrum functionality will be addressed in future releases.
+For accounts that have never created a workstream in Adobe Workfront Boards, the Workstreams area has been removed from the Boards dashboard as of October 11, 2023. Accounts that do use workstreams still have access to them. Enhanced scrum functionality will be addressed in future releases.
 
 <!-- HTML you might need
 
