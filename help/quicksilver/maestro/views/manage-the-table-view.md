@@ -139,12 +139,6 @@ You can add up to 500 fields (or columns) in a table view.
     >
     >* The Name field is frozen and is not part of the horizontal scroll.
 
-1. Select one or multiple records in a row, then drag and drop the **handle** icon ![](assets/handle-icon.png) to the left of the record name to reorder the rows. 
-
-    >[!NOTE]
-    >
-    >You cannot reorder rows if you apply at least one sort to the table view. 
-
 1. Click and drag the column separation lines and drop them in the desired spot to increase the width of the columns. 
 
     >[!TIP]
@@ -185,9 +179,16 @@ The rows of a Maestro table view display individual records of the selected reco
 
 You can have up to 10,000 records (or rows) for a record type in Maestro. 
 
-Adding rows to a Maestro table view is identical to creating records in a table. 
+1. Go to a record type page and select a **Table** view from the view drop-down menu.
+1. Start adding records (or rows), as described in the article [Create records](../records/create-records.md). 
 
-For more information, see [Create records](../records/create-records.md). 
+    The records you add in the table view are saved immediately and are visible to all users who access Maestro. <!--this will change with permissions-->
+
+1. (Optional) Select one or multiple records in a row, then drag and drop the **handle** icon ![](assets/handle-icon.png) to the left of the record name to reorder the rows. 
+
+    >[!NOTE]
+    >
+    >You cannot reorder rows if you apply at least one sort to the table view. 
 
 <!-- this is not possible right now:
 
