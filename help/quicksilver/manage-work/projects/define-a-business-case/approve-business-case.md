@@ -108,7 +108,7 @@ To build a report for projects which are pending approval of their Business Case
 
 1. Click the name of a project in the report to open it.
 1. Click **Business Case** in the left panel. 
-1. Click **Approve** or **Reject** in the Business Case Summary area to approve or reject the Business Case.&nbsp;
+1. Click **Approve** or **Reject** in the Business Case Summary area to approve or reject the Business Case.
 
    ![](assets/business-case-summary-with-rp-information--1-.png)
 
