@@ -17,6 +17,7 @@ feature-set: Workfront
       * [2023 Q4 Release overview](product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md)
       * [2023 Q4 Administrator enhancements](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-admin-enhancements.md)
       * [2023 Q4 Boards enhancements](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-boards-enhancements.md)
+      * [2023 Q4 Financial Management enhancements](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-financial-mgmt-enhancements.md)
       * [2023 Q4 Home enhancements](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-home-enhancements.md)
       * [2023 Q4 Integration enhancements](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-integration-enhancements.md)
       * [2023 Q4 Project enhancements](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-project-enhancements.md)
