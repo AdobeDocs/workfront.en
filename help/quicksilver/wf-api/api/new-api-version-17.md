@@ -8,11 +8,15 @@ feature: Workfront API
 ---
 # What's new in API version 17
 
-Adobe Workfront released API version 17 on October 25, 2023. API version 17 features the following changes from version 16.
+Adobe Workfront released API version 17 on October 12, 2023. API version 17 features the following changes from version 16.
 
 ## Added resources
 
+<!--
+
 ### Booking (BOOKNG)
+
+-->
 
 ### ExternalDocument (EXTDOC)
 
@@ -112,6 +116,8 @@ An ExternalDocument object is a document or other digital asset that is located 
  </tbody>
 </table>
 
+<!--
+
 ### NlbrGroups (NLBRGP)
 
 ### NonLaborResource (NLBR)
@@ -119,6 +125,8 @@ An ExternalDocument object is a document or other digital asset that is located 
 ### NonLaborResourceParameterValue (NLBRPV)
 
 ### RichTextNonLaborResourceParameterValue (NLRRPV)
+
+-->
 
 ### UserLocation (USRLOC)
 
@@ -169,6 +177,8 @@ No resources were removed for API version 17
 
 The following resources were modified for API version 17.
 
+<!--
+
 ### AccessLevel (ACSLVL)
 
 An AccessLevel object is associated with users, and describes the set of AccessLevelPermissions that determine what the user can access.
@@ -180,6 +190,8 @@ If a User does not have access to an object in Workfront that they need, they ca
 ### AccessRule (ACSRUL)
 
 An AccessRule object represents a rule set in custom access levels that determines how users can share projects they create.
+
+-->
 
 ### Baseline (BLIN)
 
@@ -193,9 +205,13 @@ A BillingRecord object records the revenue, hours, or expenses that can be bille
 
 The BillingRecord object removed the flag **INLINE_EDITABLE**.
 
+<!--
+
 ### Category (CTGY)
 
 A Category object is a custom form.
+
+-->
 
 ### Company (CMPY)
 
@@ -457,9 +473,13 @@ A ProjectUser object represents a user associated with a specific project.
  </tbody>
 </table>
 
+<!--
+
 ### QueueDef (QUED)
 
 A QueueDef object represents a Queue, which is a project that has been published to the Help Desk area to allow users to submit issues to it.
+
+-->
 
 ### Rate (RATE)
 
