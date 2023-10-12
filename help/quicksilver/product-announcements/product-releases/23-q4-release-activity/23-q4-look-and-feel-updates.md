@@ -16,7 +16,7 @@ For a list of all changes available with the Fourth Quarter 2023 release, see [F
 
 >[!NOTE]
 >
->NOTE: Preview release: October 12, 2023; Production release for all customers: TBD
+>Preview release: October 12, 2023; Production release for all customers: TBD
 
 To provide more clarity about manual adjustments or contouring in the Workload Balancer, manually  adjusted hourly allocations now show a pencil icon.
 
