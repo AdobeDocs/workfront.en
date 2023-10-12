@@ -263,7 +263,7 @@ The 23.10 release webinar was on October 5, 2023. You can [register for the webi
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-home-enhancements.md" class="MCXref xref" xrefformat="{para}">New Home page for contributors</a> </p>
-                        <p>RELEASE NOTE TEXT - NEW IN PREVIEW OR NO?</p>
+                        <p>RELEASE NOTE TEXT</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
                         <ul>
@@ -546,7 +546,7 @@ The 23.10 release webinar was on October 5, 2023. You can [register for the webi
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-other-enhancements.md" class="MCXref xref" xrefformat="{para}">New email templates</a> </p>
-                        <p>RELEASE NOTE TEXT - NEW IN PREVIEW OR NO?</p>
+                        <p>RELEASE NOTE TEXT</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
                         <ul>
@@ -565,7 +565,7 @@ The 23.10 release webinar was on October 5, 2023. You can [register for the webi
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Main menu changes</a> </p>
-                        <p>RELEASE NOTE TEXT - NEW IN PREVIEW OR NO?</p>
+                        <p>RELEASE NOTE TEXT</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
                         <ul>
