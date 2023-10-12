@@ -142,7 +142,7 @@ When you log in to Workfront as another user and perform an action, Workfront cl
 
 For example, if you comment on an item while logged in as another user, a statement indicates that the comment was made by you on behalf of the user.
 
-<!--you might need to reword this note when we go to a global way for the update stream; or refer to areas where this is possible as something else than "New commenting" - not sure if this will affect areas that stay old, like iterations???-->
+<!--remove the note below when we bring this back to Prod: -->
 
 >[!NOTE]
 >

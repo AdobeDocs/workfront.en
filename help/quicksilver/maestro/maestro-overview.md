@@ -360,6 +360,12 @@ The following table illustrates the main features that will be available in Maes
 |     Submit requests                                |                               |                                  |   ✓              |
 |     Creative brief                                 |                               |                                  |   ✓              |
 |     Customize the color and icon of a record                                 |      ✓                         |                                  |                 |
+<!--
+Add another row for Rich text formatting:
+
+
+|     Rich Text formatting for Paragraph fields                                 |      ✓                         |                                  |                 |
+--> 
 
 ## Maestro release activity 
 
