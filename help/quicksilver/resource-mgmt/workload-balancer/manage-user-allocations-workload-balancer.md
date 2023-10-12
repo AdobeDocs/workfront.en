@@ -209,7 +209,7 @@ As part of assigning work to users, you can modify user allocations in the Workl
 
 1. Click the **More** menu ![](assets/qs-more-menu.png) for a work item, then click **Edit allocations**.
 
-![](assets/more-menu-on-task-wb-nwe.png)
+   ![](assets/more-menu-on-task-wb-nwe.png)
 
    Or
 
@@ -248,6 +248,12 @@ As part of assigning work to users, you can modify user allocations in the Workl
 
    Anyone that has access to view the Workload Balancer and views the same users and the same projects you managed now views the updated allocation for the users you managed.
 
+>[!TIP]
+>
+>A pencil icon displays to the right of the work item name to indicate that it was manually adjusted.
+
+![Manually adjusted hours icon](assets/icon-for-manually-adjusted-hours.png)
+
 ## Update task Planned Hours when managing user allocations {#update-task-planned-hours-when-managing-user-allocations}
 
 You can update the Planned Hours of a task when managing user allocations in the Workload Balancer for the task. This happens when the total of the updated allocated hours does not match the original total of the Planned Hours for a task.
@@ -255,10 +261,9 @@ You can update the Planned Hours of a task when managing user allocations in the
 >[!IMPORTANT]
 >
 >* Updating Planned Hours for tasks can impact the progress on your project. 
->* Manually updating Planned Hours by changing daily allocations can have an impact to the Planned Hours when removing assignments from the tasks in the future. For more information, see [Planned Hours overview](../../manage-work/tasks/task-information/planned-hours.md). 
+>* Manually updating Planned Hours by changing daily allocations can have an impact to the Planned Hours when removing assignments from the tasks in the future. For more information, see [Planned Hours overview](../../manage-work/tasks/task-information/planned-hours.md).
 >
->* It's not possible to update Planned Hours for issues by updating allocations in the Workload Balancer. 
->
+>* It's not possible to update Planned Hours for issues by updating allocations in the Workload Balancer.
 
 This is possible when the following conditions exist:
 
@@ -267,7 +272,7 @@ This is possible when the following conditions exist:
    * Manage permissions to the tasks.
    * Update Planned Hours in the Workload Balancer access in the Resource Management area of your Access Level.
 
-  For more information about the access needed to use the Workload Balancer, see the following section in this article: [Access requirements](#access-requirements) . 
+  For more information about the access needed to use the Workload Balancer, see the following section in this article: [Access requirements](#access-requirements). 
 
 * The task has a Duration Type of Simple.
 

@@ -21,6 +21,7 @@ When any one of the following details is updated for the card in one location, i
 * [!UICONTROL Status]
 * [!UICONTROL Planned completion date]
 * [!UICONTROL Estimation] / [!UICONTROL Story Points]
+* <span class="preview">[!UICONTROL Subtasks]</span>
 * <span class="preview">[!UICONTROL Documents]</span>
 
 >[!NOTE]
