@@ -242,13 +242,13 @@ The 23.10 release webinar was on October 5, 2023. You can [register for the webi
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Boards widget</a> </p>
-                        <p>RELEASE NOTE TEXT - NEW IN PREVIEW OR NO?</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-home-enhancements.md" class="MCXref xref" xrefformat="{para}">New Boards widget for New Home</a> <span style="color: #ff0000;"> New in Preview!</span></p>
+                        <p>In a major new addition to the work management options available in New Home, you can now display a board on your home page!</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
                         <ul>
                             <li>
-                                <p>Preview release: DATE</p>
+                                <p>Preview release: October 12, 2023</p>
                             </li>
                             <li>
                                 <p>Production for fast release: With the 23.10 release</p>

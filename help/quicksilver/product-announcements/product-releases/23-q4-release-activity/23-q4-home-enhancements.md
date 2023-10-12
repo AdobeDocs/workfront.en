@@ -10,11 +10,11 @@ This page describes all Home enhancements made with the Fourth Quarter 2023 rele
 
 For a list of all changes available at this point in the Fourth Quarter 2023 release cycle, see [Fourth Quarter 2023 release overview](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md).
 
-<!--
-## Boards widget
+## New Boards widget for New Home
 
-Release note here
--->
+In a major new addition to the work management options available in New Home, you can now display a board on your home page! With the Boards widget, you can choose to display an existing board, or create a brand new one within the widget. Then you're free to use the full capabilities of your board--create and move cards, add columns, and more--all without leaving your home page.
+
+For more information on the widgets available in New Home, see [Get started with New Home](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
 
 <!--
 ## New Home page for contributors
