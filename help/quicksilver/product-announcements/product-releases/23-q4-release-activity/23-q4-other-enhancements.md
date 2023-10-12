@@ -12,7 +12,7 @@ For a list of all changes available at this point in the Fourth Quarter 2023 rel
 
 ## Updated email templates
 
-As the start of a new initiative to update our outdated Workfront email event notification emails, we have updated two of the most commonly used: document approval and object sharing. These new templates have a modern design that is easier for your email recipients to parse, which make it more likely you'll get the response you need.
+As the start of a new initiative to update our event notification emails, we have updated two of the most commonly used: document approval and object sharing. These new templates have a modern design that is easier for your email recipients to parse, which make it more likely you'll get the response you need.
 
 For more information on email templates in Workfront, see [Event notifications available in Adobe Workfront](/help/quicksilver/administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).
 

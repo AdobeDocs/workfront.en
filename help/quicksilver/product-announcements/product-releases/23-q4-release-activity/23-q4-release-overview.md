@@ -43,6 +43,7 @@ The 23.10 release webinar was on October 5, 2023. You can [register for the webi
 
 * [Administrator enhancements](#administrator-enhancements)
 * [Boards enhancements](#boards-enhancements)
+* [Financial Management enhancements](#financial-management-enhancements)
 * [Home enhancements](#home-enhancements)
 * [Integration enhancements](#integration-enhancements)
 * [Project enhancements](#project-enhancements)
@@ -221,6 +222,44 @@ The 23.10 release webinar was on October 5, 2023. You can [register for the webi
                         </ul>
                     </td>
                 </tr>    
+           </tbody>
+        </table>
+
+### Financial Management enhancements
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">Feature</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Release dates</span>
+                        </p>
+                    </td>
+                 </tr>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-financial-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Date effective cost and billing rates</a></p>
+                        <p>Date effective cost and billing rates are now available on the company, user, and job role objects in Workfront. When date effective rates are applied to a project, and hours are logged on project tasks, the costs and revenue are calculated using the specified rates for each time period.</p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                        <ul>
+                            <li>
+                                <p>Preview release: June 29, 2023</p>
+                            </li>
+                            <li>
+                                <p>Production for fast release: With the 23.10 release</p>
+                            </li>
+                            <li>
+                                <p>Production for quarterly release: With the 23.10 release</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
            </tbody>
         </table>
 
@@ -565,7 +604,7 @@ The 23.10 release webinar was on October 5, 2023. You can [register for the webi
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Updated email templates</a> <span style="color: #ff0000;"> New in Preview!</span></p>
-                        <p>As the start of a new initiative to update our outdated Workfront email event notification emails, we have updated two of the most commonly used: document approval and object sharing.</p>
+                        <p>As the start of a new initiative to update our event notification emails, we have updated two of the most commonly used: document approval and object sharing.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
                         <ul>
