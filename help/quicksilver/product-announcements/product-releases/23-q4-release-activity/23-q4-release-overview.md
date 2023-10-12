@@ -260,15 +260,14 @@ The 23.10 release webinar was on October 5, 2023. You can [register for the webi
                     </td>
                 </tr>
                 <tr>
-                <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-home-enhancements.md" class="MCXref xref" xrefformat="{para}">New Home page for contributors</a> </p>
-                        <p>RELEASE NOTE TEXT</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-home-enhancements.md" class="MCXref xref" xrefformat="{para}">New contributor default landing page: New Home</a> <span style="color: #ff0000;"> New in Preview!</span> </p>
+                        <p>New Home is now the default landing page for contributor accounts. This new default home page includes a number of widgets specifically selected to best enable contributors to manage their work right away.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
                         <ul>
                             <li>
-                                <p>Preview release: DATE</p>
+                                <p>Preview release: October 12, 2023</p>
                             </li>
                             <li>
                                 <p>Production for fast release: With the 23.10 release</p>
@@ -462,8 +461,28 @@ The 23.10 release webinar was on October 5, 2023. You can [register for the webi
                         <p><span class="bold">Release dates</span>
                         </p>
                     </td>
-                 </tr>  
-                 <tr>
+                 </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-project-enhancements.md" class="MCXref xref" xrefformat="{para}">New document approvals</a> <span style="color: #ff0000;"> New in Preview!</span></p>
+                        <p>In this release, the approval process has been streamlined for both creating approvals and approving/reviewing documents, in addition to new functionality.</p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                        <ul>
+                            <li>
+                                <p>Preview release: October 12, 2023<br /></p>
+                            </li>
+                            <li>
+                                <p>Production for fast release: With the 23.10 release</p>
+                            </li>
+                            <li>
+                                <p>Production for quarterly release: With the 23.10 release</p>
+                            </li>
+                        </ul>
+                        <p><span style="color: #ff0000;">This feature is part of a phased release and is currently only available for specific customers.</span></p>
+                    </td>
+                </tr>
+                <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Updated design when adding a new issue to a project</a> </p>
                         <p>[!BADGE In production for Fast Release ]{type=Positive}</p>
@@ -545,13 +564,13 @@ The 23.10 release webinar was on October 5, 2023. You can [register for the webi
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-other-enhancements.md" class="MCXref xref" xrefformat="{para}">New email templates</a> </p>
-                        <p>RELEASE NOTE TEXT</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Updated email templates</a> <span style="color: #ff0000;"> New in Preview!</span></p>
+                        <p>As the start of a new initiative to update our outdated Workfront email event notification emails, we have updated two of the most commonly used: document approval and object sharing.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
                         <ul>
                             <li>
-                                <p>Preview release: DATE</p>
+                                <p>Preview release: October 12, 2023</p>
                             </li>
                             <li>
                                 <p>Production for fast release: With the 23.10 release</p>
@@ -564,13 +583,13 @@ The 23.10 release webinar was on October 5, 2023. You can [register for the webi
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Main menu changes</a> </p>
-                        <p>RELEASE NOTE TEXT</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Contributor main menu changes</a> <span style="color: #ff0000;"> New in Preview!</span></p>
+                        <p>To better inform contributors of the features available with a paid Workfront license type, they can now see all of the options available in the main menu.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
                         <ul>
                             <li>
-                                <p>Preview release: DATE</p>
+                                <p>Preview release: October 12, 2023</p>
                             </li>
                             <li>
                                 <p>Production for fast release: With the 23.10 release</p>

@@ -16,11 +16,11 @@ In a major new addition to the work management options available in New Home, yo
 
 For more information on the widgets available in New Home, see [Get started with New Home](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
 
-<!--
-## New Home page for contributors
+## New contributor default landing page: New Home
 
-Release note here
--->
+New Home is now the default landing page for contributor accounts. This new default home page includes a number of widgets specifically selected to best enable contributors to manage their work right away. Upon their first visit to the page, contributors will also be instructed on using New Home and the specific widgets available by default in a customized walkthrough. Note that if a layout with a custom home page currently being used by a contributor account, it will remain their home page.
+
+For more information on using New Home, see [Get started with New Home](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
 
 ## Changes to work tracking in New Home
 

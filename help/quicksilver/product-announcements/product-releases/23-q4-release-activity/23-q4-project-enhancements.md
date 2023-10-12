@@ -10,6 +10,20 @@ This page describes all project enhancements made with the Fourth Quarter 2023 r
 
 For a list of all changes available at this point in the Fourth Quarter 2023 release cycle, see [Fourth Quarter 2023 release overview](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md).
 
+## New document approvals
+
+Document approvals are being redesigned in a phased rollout that will be made available to more users with each release.
+
+In this release, the approval process has been streamlined for both creating approvals and approving/reviewing documents, in addition to new functionality. Specific enhancements include:
+
+* Improved interface for changing a user between a reviewer and an approver
+* Improved process for adding an external approver or reviewer
+* Improved approve and review experience for external approvers and reviewers
+
+For more information on using the new document approvals, see [New Document Approvals overview](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md).
+
+[View a video demonstration of this feature.](https://video.tv.adobe.com/v/3424867){target=_blank}
+
 ## Updated design when adding a new issue to a project 
 
 This update has been announced with the 23.3 release.  
