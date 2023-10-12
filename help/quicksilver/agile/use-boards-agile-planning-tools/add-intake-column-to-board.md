@@ -16,8 +16,6 @@ Only one intake column is permitted on a board, and it always appears as the lef
 
 The intake column is not available on a dynamic board.
 
-The intake column is not available on boards that are part of a workstream. Instead, you can set up a backlog column to pull in cards from the card list. For information about adding a backlog column to a board in a workstream, see [Configure the backlog on a workstream board](/help/quicksilver/agile/use-boards-agile-planning-tools/configure-backlog-workstream-board.md).
-
 The intake column is limited to 300 tasks and 300 issues. The default ordering of items in the intake column is as follows:
 
 Tasks:
