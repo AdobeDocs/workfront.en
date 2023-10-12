@@ -128,9 +128,17 @@ You must have the following access to perform the steps in this article:
       <td><p>Any custom fields you add are displayed in this area.</p>
       <p>For more information, see <a href="/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md">Customize which fields are displayed on a card</a>.</p></td>
      </tr>
+     <tr>
+     <tr>
+      <td role="rowheader"><span class="preview"><strong>[!UICONTROL Subtask]</strong></span></td>
+      <td><span class="preview"><p>Any existing subtasks for the task appear in this section. Click <strong>[!UICONTROL Add Subtask]</strong> to add a new subtask.</p>
+      <p>The counter at the top of the section shows the number of completed subtasks and the total number of subtasks.</p>
+      <p>For more information about subtasks, see <a href="/help/quicksilver/agile/get-started-with-boards/manage-subtasks-on-boards.md">Manage subtasks on boards</a>.</p></span></td>
+     </tr>
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL Checklist]</strong> </td> 
-      <td> <p>Click <strong>[!UICONTROL Add checklist item]</strong>. Then, type the title of the item and press Enter. Another item is automatically added. Continue entering titles to add more items.</p> <p>The counter at the top of the checklist shows the number of completed items and the total number of items.</p> <p>For more information about checklist items, see <a href="/help/quicksilver/agile/get-started-with-boards/manage-checklist-items.md">Manage checklist items on cards</a>.</p></td>
+      <td role="rowheader"><strong>[!UICONTROL Checklist]</strong></td>
+      <td><p>Click <strong>[!UICONTROL Add checklist item]</strong>. Then, type the title of the item and press Enter. Another item is automatically added. Continue entering titles to add more items.</p>
+      <p>The counter at the top of the checklist shows the number of completed items and the total number of items.</p> <p>For more information about checklist items, see <a href="/help/quicksilver/agile/get-started-with-boards/manage-checklist-items.md">Manage checklist items on cards</a>.</p></td>
      </tr>
      <tr>
       <td role="rowheader"><span class="preview"><strong>[!UICONTROL Documents]</strong></span></td>
