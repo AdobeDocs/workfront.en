@@ -321,7 +321,7 @@ For information, see [Log in as another user](../../administration-and-setup/add
 
 Any comments made on behalf of another user are indicated on the comment.
 
-<!--might need to update this note when the new commenting experience will be the only experience; also - how will this affect the areas that will keep the old experience, like Iterations?-->
+<!--remove the note below when we release this back to the new commenting-->
 
 >[!NOTE]
 >

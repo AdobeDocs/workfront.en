@@ -36,6 +36,24 @@ Preview and production: October 9, 2023
 
 You can now search for a keyword to quickly find a record in the table view. You can use keywords and special characters in any fields that are visible on the screen to find a record. For information, see [Manage the table view](../maestro/views/manage-the-table-view.md). 
 
+<!--
+***********WHICH WEEK IS THIS???***********
+
+### New People field type 
+
+Preview and production: ************ADD INFORMATION HERE***********
+
+You can now add a People-type field to Maestro record types. You can use People-type fields to add existing users, job roles, or teams to a record. For information, see [Create fields](../maestro/architecture-and-fields/create-fields.md). 
+
+
+### Rich Text- format for Paragraph fields
+
+Preview and production: ************ADD INFORMATION HERE***********
+
+We have added Rich Text format controls for Paragraph-type fields. For more information, see [Edit records](../maestro/records/edit-records.md). 
+
+-->
+
 ## Week of September 18, 2023
 
 ### Reorder rows

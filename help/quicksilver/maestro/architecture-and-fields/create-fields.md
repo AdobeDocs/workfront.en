@@ -180,6 +180,7 @@ You must have the following access to perform the steps in this article:
     * [Percentage](#percentage)
     * [Currency](#currency)
     * [Checkbox](#checkbox) 
+    <!--* [People](#people)-->
     
     >[!IMPORTANT]
     >
@@ -195,7 +196,7 @@ Single-line text fields capture limited alphanumeric information. For example,  
 
     ![](assets/single-line-text-field-type.png) 
 
-1. Add the following information:
+1. Add the following information in the **New field** tab:
      * **Name**: The name of the field type, as it will appear in a table or the Details page of the record. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
      * **Description**: Additional information about the field. The description of a field displays when you hover over the field's column header in a table.
 1. Click **Create**. 
@@ -207,12 +208,22 @@ Single-line text fields capture limited alphanumeric information. For example,  
 
 Paragraph fields capture additional alphanumeric information about a record, similar to the Description field. The content of a paragraph field can have up to 1,000 characters. 
 
+ <!-- remove the last sentence above and add this tip when we go to rich text: 
+
+>[!TIP]
+>
+>* The content of a paragraph field can have up to 1,000 characters. 
+
+* You can use Rich Text formatting to enhance the content of paragraph fields when they display in the table view or the Details page of a record. (********check to make sure this is true about Details page***********)
+
+-->
+
 1. Start creating a field as described in the section [Create fields from scratch](#create-fields-from-scratch) in this article, then select the **Paragraph** field type.
 
     ![](assets/paragraph-field-type.png)
  
 
-1. Add the following information:
+1. Add the following information in the **New field** tab:
      * **Name**: The name of the field type, as it will appear in a table or the Details page of the record. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
      * **Description**: Additional information about the field. The description of a field displays when you hover over the field's column in a table.
 1. Click **Create**. 
@@ -229,7 +240,7 @@ You can use a multi-select field to capture additional information in any format
     ![](assets/multi-select-field-type.png)
  
 
-1. Add the following information:
+1. Add the following information in the **New field** tab:
      * **Name**: The name of the field type, as it will appear in a table or the Details page of the record. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
      * **Description**: Additional information about the field. The description of a field displays when you hover over the field's column in a table.
      * **Choices**: The options  available to select from the drop-down menu after the field is saved. You can have both numbers and letters for the name of each choice. 
@@ -251,7 +262,7 @@ Single-select fields capture additional information in any format by selecting o
     ![](assets/single-select-field-type.png)
  
 
-1. Add the following information:
+1. Add the following information in the **New field** tab:
      * **Name**: The name of the field type, as it will appear in a table or the Details page of the record. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
      * **Description**: Additional information about the field. The description of a field displays when you hover over the field's column in a table.
      * **Choices**: The options  available to select from the drop-down menu after the field is saved. You can have both numbers and letters for the name of each choice. 
@@ -273,7 +284,7 @@ You can use a date field to capture additional information in date and time form
     ![](assets/date-field-type.png)
  
 
-1. Add the following information:
+1. Add the following information in the **New field** tab:
      * **Name**: The name of the field type, as it will appear in a table or the Details page of the record. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
      * **Description**: Additional information about the field. The description of a field displays when you hover over the field's column in a table.
      * **Date format**: The type of date format you want to display in this field.
@@ -302,7 +313,7 @@ Number field types capture information in a number format.
 1. Start creating a field as described in the section [Create fields from scratch](#create-fields-from-scratch) in this article, then select the **Number** field type.
 
     ![](assets/number-field-type.png)
-1. Add the following information:
+1. Add the following information in the **New field** tab:
 
     * **Name**: The name of the field type, as it will appear in a table or the Details page of the record. 
     * **Description**: Additional information about the field. The description of a field displays when you hover over the field's column in a table. 
@@ -325,7 +336,7 @@ Percentage field types capture information in a number format followed by a perc
 
     ![](assets/percentage-field-type.png)
 
-1. Add the following information:
+1. Add the following information in the **New field** tab:
      * **Name**: The name of the field type, as it will appear in a table or the Details page of the record. 
      * **Description**: Additional information about the field. The description of a field displays when you hover over the field's column in a table. 
     * **Precision**: The number of decimals that you want to record for the field. You can display up to 6 decimals.
@@ -347,7 +358,7 @@ Currency field types capture information in a number format preceded by a curren
 
     ![](assets/currency-field-type.png)
 
-1. Add the following information:
+1. Add the following information in the **New field** tab:
      * **Name**: The name of the field type, as it will appear in a table or the Details page of the record. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
      * **Description**: Additional information about the field. The description of a field displays when you hover over the field's column in a table.
      * **Currency**: The type of currency you want to display in this field. This is a list of currencies according to the International Organizaton of Standardization (ISO). 
@@ -370,12 +381,30 @@ You can use the Checkbox field type to add a single checkbox option to a record.
  
     ![](assets/checkbox-field-type.png)
 
-1. Add the following information:
+1. Add the following information in the **New field** tab:
      * **Name**: The name of the field type, as it will appear in a table or the Details page of the record. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
      * **Description**: Additional information about the field. The description of a field displays when you hover over the field's column in a table.
 1. Click **Create**.
 
     The new checkbox field is added as a column to the record type and its values can be associated with records. The field also displays on the Details page of a record. 
+
+<!--
+### People
+
+You can use the People field type to add a user, job role, or team to a record. This is a type-ahead field, and you can add only users, roles, or teams that already exist in Workfront.
+ 
+1. Start creating a field as described in the section [Create fields from scratch](#create-fields-from-scratch) in this article, then select the **People** field type.
+ 
+    ***************INSERT SCREEN SHOT HERE - DO YOU HAVE TO REPLACE OTHER SCREEN SHOTS ABOVE OR IN OTHER DOCS THAT SHOW ALL THE FIELDS, IN INCLUDE THE NEW ONE?! ***************
+
+1. Add the following information in the **New field** tab:
+     * **Name**: The name of the field type, as it will appear in a table or the Details page of the record. *************ensure they updated this; and update the screen shot: it used to be "Label"**********
+     * **Description**: Additional information about the field. The description of a field displays when you hover over the field's column in a table.
+1. Click **Create**.
+
+    The new People-type field is added as a column to the record type and its values can be associated with records. The field also displays on the Details page of a record. 
+
+-->
 
 ## Create fields by linking record types together
 
