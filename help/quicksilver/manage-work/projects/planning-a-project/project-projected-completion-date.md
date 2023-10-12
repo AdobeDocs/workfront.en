@@ -87,7 +87,10 @@ The Projected Completion Date is a calculated field, and cannot be manually chan
 The criteria used to determine&nbsp;the Projected Completion Date differs, depending on the object you are viewing:
 
 * **Projects:** The Projected Completion Date for projects equates with the Projected Completion Date of the latest task on the project.
-* **Tasks:**&nbsp;The Projected Completion Date for tasks is determined based on the following criteria:
+
+  For example, a higher percent complete moves the Projected Completed Date of the task closer to the current day. If the status of the task is New and the task Planned Completion Date is close or has passed, the Projected Completion Date moves further into the future. 
+
+* **Tasks:** The Projected Completion Date for tasks is determined based on the following criteria:
 
    * **Progress updates made on the task by the task assignee:**&nbsp;Progress updates include changes to percent complete and changes of task status.
    * **Commit Date:** If the task assignee specifies a Commit Date, the Projected Completion Date changes to match the Commit Date.
@@ -105,11 +108,11 @@ The criteria used to determine&nbsp;the Projected Completion Date differs, depen
   >
   >If the project has Task A, Task B, and Task C, and Task B is the successor of Task A, Task C is the successor of Task B and an Actual Completion Date is added to Task A, the Projected Completion Date is automatically recalculated for Task B (provided the **Update Type** of the project is set to Automatic and On Change), but it will not be recalculated for Task C. Currently, Workfront calculates the Projected Completion Date for tasks that are one level up or down from the updated Task, for performance reasons.&nbsp;
 
-* **Issues:**The issue Projected Completion Date is initially set to match the issue Planned Completion Date.
+* **Issues:** The issue Projected Completion Date is initially set to match the issue Planned Completion Date.
 
-  If the issue&nbsp;assignee specifies a commit date, both the Projected Completion Date and the Planned Completion Date change to match the Commit Date.
+  If the issue assignee specifies a commit date, both the Projected Completion Date and the Planned Completion Date change to match the Commit Date.
 
-  For more information about Commit Dates, see&nbsp;the article [Commit Date overview](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md).
+  For more information about Commit Dates, see the article [Commit Date overview](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md).
 
 ## View the Projected Completion Date
 
