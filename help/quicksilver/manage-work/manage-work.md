@@ -6,6 +6,7 @@ title: Manage work
 description: Find articles about managing work in Adobe Workfront in the following sections.
 author: Alina
 feature: Work Management
+recommendations: noDisplay, noCatalog
 exl-id: 5d17322b-e517-4475-aa77-faaeb4677152
 ---
 # Manage work
