@@ -48,6 +48,12 @@ Consider the following when copying a template task:
 
 * Milestones are not transferred to the copied or moved template task.
 
+* Subtasks transfer to the new template task.
+* Custom forms are copied with the template task. The information in the custom fields transfers to the new template task only when you select to copy Custom Data. 
+* You have a chance to select to copy some items associated with the template task to the copied task during the copying process. However, by default, the following objects do not transfer to the copied task:
+
+   * User comments
+   
 * You can copy a template task in the following areas of the Adobe Workfront web application:
 
     * At the template task level, from the **More icon** ![](assets/more-icon.png) to the right of the template task name.
