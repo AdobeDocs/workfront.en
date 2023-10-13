@@ -79,9 +79,14 @@ You must have the following access to perform the steps in this article:
 
 Consider the following when copying a task:
 
-* Issues are not copied with the task.
 * Milestones are transferred to the copied task and removed from the original task.
 * When you copy a task from one project to another, the task dates might be recalculated. The recalculation will take into consideration the schedule that the new project uses and the project's Schedule From information.
+* Subtasks transfer to the new task. 
+* Custom forms are copied with the task. The information in the custom fields transfer to the copied tasks only when you select to copy Custom Data when copying the task. 
+* You have a chance to select to copy some items associated with the task to the copied task during the copying process. However, by default, the following objects do not transfer to the copied task: 
+   * Issues 
+   * Logged hours 
+   * User comments <!--not sure about this, enable only if requested by users and vrified by Product: System activity comments transfer to the new task if they relate to information that you specifically select to be copied. For example, if you select to copy Expenses to the new task, system comments that identify adding expenses to the task will transfer to the copied task. -->
 
 You can copy a task in the following areas of the Adobe Workfront web application:
 
