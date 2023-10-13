@@ -8,6 +8,7 @@ description: As a Workfront administrator or a group administrator, you can crea
 author: Alina
 feature: System Setup and Administration
 role: Admin
+recommendations: noDisplay, noCatalog
 exl-id: f8961140-948f-4bea-956b-a8126008b8cb
 ---
 # Layout templates

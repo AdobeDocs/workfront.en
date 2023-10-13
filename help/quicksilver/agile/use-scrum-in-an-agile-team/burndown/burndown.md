@@ -6,6 +6,7 @@ title: Burndown
 description: Review these articles to learn how to use the burndown chart.
 author: Lisa
 feature: Agile
+recommendations: noDisplay, noCatalog
 exl-id: 0c3621e2-26e5-4b9f-84cc-967761a3f050
 ---
 # Burndown
