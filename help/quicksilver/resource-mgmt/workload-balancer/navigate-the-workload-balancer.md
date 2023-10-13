@@ -103,9 +103,11 @@ Consider the following when viewing the Workload Balancer:
 
     >[!NOTE]
     >
-    >* Work items assigned to a job role or a team, and also assigned to a user who is the primary assignee, do not display in the Unassigned Work area. They display under the assigned user's name in the Assigned Work area.
+    >* Work items assigned to a job role or a team, and also assigned to a user who is the primary assignee, display in both the Unassigned Work area and under the assigned user's name in the Assigned Work area.
     >* Work items assigned to a user and a job role, where the job role is selected as the primary assignee of the item, display in the Unassigned Work area.
     >* Work items assigned to more than one user display under all of the assigned users' names in the Assigned Work area.
+
+    For more information, see "Assignment areas in the Workload Balancer" in [Overview of assigning work in the Workload Balancer](/help/quicksilver/resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
 
 * When a project has no tasks during a period of time, the bar at the project level becomes a dimmed color.
 
