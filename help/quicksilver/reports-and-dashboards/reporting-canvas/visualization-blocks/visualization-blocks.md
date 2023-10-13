@@ -3,6 +3,7 @@ title: Visualization Blocks
 description: Visualization Blocks overview
 hidefromtoc: yes
 hide: yes
+recommendations: noDisplay, noCatalog
 exl-id: 804ea81c-7d25-4d6f-ab25-46800ab7b2d1
 ---
 # Visualization Blocks

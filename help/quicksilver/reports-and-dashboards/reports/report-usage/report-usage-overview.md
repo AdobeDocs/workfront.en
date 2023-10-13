@@ -6,6 +6,7 @@ title: Report usage overview
 description: This section contains the following articles - EDIT ME.
 author: Nolan
 feature: Reports and Dashboards
+recommendations: noDisplay, noCatalog
 exl-id: cacac66d-371a-42b0-891d-2e26bb4af326
 ---
 # Report usage overview

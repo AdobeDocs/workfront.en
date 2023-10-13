@@ -6,6 +6,7 @@ title: Reports
 description: Review these areas to get an understanding of how to use reporting in Adobe Workfront.
 author: Nolan
 feature: Reports and Dashboards
+recommendations: noDisplay, noCatalog
 exl-id: b7117ff8-5353-4766-b982-ba624a484ad1
 ---
 # Reports
