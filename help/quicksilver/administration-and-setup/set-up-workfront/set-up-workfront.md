@@ -8,6 +8,7 @@ description: As a [!DNL Workfront] administrator, you can configure your organiz
 author: Caroline
 feature: System Setup and Administration
 role: Admin
+recommendations: noDisplay, noCatalog
 exl-id: a6a6a224-f938-4a19-a708-f00568ca6a88
 ---
 # Set up [!DNL Adobe Workfront]

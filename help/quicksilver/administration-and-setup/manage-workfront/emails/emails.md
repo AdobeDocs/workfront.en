@@ -8,6 +8,7 @@ description: Email in Adobe Workfront consists of notifications, reminders, and 
 author: Lisa, Caroline
 feature: System Setup and Administration
 role: Admin
+recommendations: noDisplay, noCatalog
 exl-id: cdc0a2bb-f125-42b2-acab-c869bc71250c
 ---
 # Emails

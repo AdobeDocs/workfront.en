@@ -8,6 +8,7 @@ description: As a group administrator, you can create custom statuses for a grou
 author: Caroline
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
+recommendations: noDisplay, noCatalog
 exl-id: 98512e42-5199-4bfc-9252-7ae0d7f7d614
 ---
 # Manage group statuses
