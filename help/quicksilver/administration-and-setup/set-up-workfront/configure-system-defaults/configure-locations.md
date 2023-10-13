@@ -7,7 +7,7 @@ description: As an Adobe Workfront administrator, you can configure the default 
 author: Lisa
 feature: System Setup and Administration
 role: Admin
-exl-id: 7deadbf8-81ea-4df2-8387-b3397d31fd26
+exl-id: 69233499-fbcb-44a4-a247-d5051f9bc8b9
 ---
 # Configure locations
 

@@ -11,8 +11,6 @@ exl-id: 5f755177-c8ea-4509-a34f-57ffcfd8ba7f
 
 From the [!UICONTROL boards] dashboard, you can create a new board or edit an existing board.
 
-To add a board to a workstream, see [Manage workstreams](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md).
-
 ## Access requirements
 
 You must have the following access to perform the steps in this article:
@@ -37,7 +35,7 @@ You must have the following access to perform the steps in this article:
 ## Create a new board
 
 1. Click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe Workfront], then click **[!UICONTROL Boards]**.
-1. To create a standalone board, click **[!UICONTROL Add board]** in the [!UICONTROL Boards] area. To add a board to a workstream, see [Manage workstreams](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md).
+1. Click **[!UICONTROL Add board]**.
 
 1. Select a template for the board.
 

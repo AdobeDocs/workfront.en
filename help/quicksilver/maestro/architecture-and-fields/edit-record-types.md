@@ -4,7 +4,7 @@ description: You can edit record types after they have been saved. Record types 
 hidefromtoc: yes
 hide: yes
 recommendations: noDisplay, noCatalog
-exl-id: 03b1c85c-1c2c-4311-928e-06018c6b8c9f
+exl-id: 7d6de742-9657-4286-968c-1fc78ebbb94e
 ---
 <!--update the metadata with real information when making this available in TOC and in the left nav
 ---

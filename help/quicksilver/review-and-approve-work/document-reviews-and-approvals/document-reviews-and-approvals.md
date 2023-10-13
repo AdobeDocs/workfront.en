@@ -6,7 +6,7 @@ title: Document reviews and approvals
 description: This section contains articles about document approvals in Adobe Workfront.
 author: Nolan
 feature: Work Management
-exl-id: e7a7f6b4-8629-4911-8d96-8fd4f59ebda1
+exl-id: b4577935-ee03-47b7-a629-2c03e8f42592
 ---
 # Document reviews and approvals
 

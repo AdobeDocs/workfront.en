@@ -4,7 +4,7 @@ description: This article describes an example of how to create a connection bet
 hidefromtoc: yes
 hide: yes
 recommendations: noDisplay, noCatalog
-exl-id: e0a78473-a8f3-4f4f-84fa-c2d5af8999a0
+exl-id: 38509572-72a4-4fce-b3ec-2cb31bb4669a
 ---
 # Example of connecting record types and records
 

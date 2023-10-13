@@ -4,7 +4,7 @@ description: In Adobe Maestro, you can edit the field settings for fields that a
 hidefromtoc: yes
 hide: yes
 recommendations: noDisplay, noCatalog
-exl-id: 93c0feed-836b-4b96-aaca-9ccb7cb6a804
+exl-id: 6c35c313-d6ed-428b-b70d-2ea242da4e8f
 ---
 <!--udpate the metadata with real information when making this avilable in TOC and in the left nav-->
 

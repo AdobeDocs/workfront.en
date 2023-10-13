@@ -4,7 +4,7 @@ description: You can delete workspaces when they are no longer relevant.
 hidefromtoc: yes
 hide: yes
 recommendations: noDisplay, noCatalog
-exl-id: b612c4d6-bfc5-420a-a20b-bc9cab6ee8bf
+exl-id: adec4b8e-2964-479b-8cf0-79d3afa27b2a
 ---
 <!--udpate the metadata with real information when making this avilable in TOC and in the left nav-->
 

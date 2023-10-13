@@ -4,7 +4,7 @@ description: Adobe Maestro is a new offering from Adobe Workfront. You can creat
 hidefromtoc: yes
 hide: yes
 recommendations: noDisplay, noCatalog
-exl-id: 66966cb1-b75d-4576-addd-a72eacef0526
+exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
 ---
 # Adobe Maestro overview
 
@@ -352,6 +352,7 @@ The following table illustrates the main features that will be available in Maes
 |     Sort groupings in the timeline view                                 |                               |   ✓                              |                  |
 |     Connect workspaces                                |                               |   ✓                              |                  |
 |     Connect Maestro records and taxonomies  |   ✓                            |  
+|   Search for records in the table view    | ✓    |   |
 |     Connect Maestro records to Workfront projects, programs, portfolios, companies, groups  |   ✓                            |                                 |                  |
 |     Record details page                            |   ✓                           |                                  |                  |
 |     Update the layout of the record Details page              |                               |   ✓                              |                  |
@@ -359,6 +360,12 @@ The following table illustrates the main features that will be available in Maes
 |     Submit requests                                |                               |                                  |   ✓              |
 |     Creative brief                                 |                               |                                  |   ✓              |
 |     Customize the color and icon of a record                                 |      ✓                         |                                  |                 |
+<!--
+Add another row for Rich text formatting:
+
+
+|     Rich Text formatting for Paragraph fields                                 |      ✓                         |                                  |                 |
+--> 
 
 ## Maestro release activity 
 

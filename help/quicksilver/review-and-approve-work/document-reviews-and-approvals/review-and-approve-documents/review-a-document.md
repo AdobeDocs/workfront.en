@@ -5,7 +5,7 @@ title: Review a document
 description: As a reviewer, you can preview a document that has been submitted to you for review.
 author: Nolan
 feature: Work Management
-exl-id: 96cd8e62-f2f9-4153-99d6-d3abbcd9d77e
+exl-id: 371970e4-cd3e-49b6-8a2d-6cb8fa628679
 ---
 # Review a document
 

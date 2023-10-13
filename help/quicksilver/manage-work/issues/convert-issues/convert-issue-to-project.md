@@ -13,7 +13,9 @@ If more work needs to be done to complete an issue after the issue is submitted,
 
 You can convert an issue to a new project or you can convert it to a project using a template. This article describes both ways for converting issues to projects.
 
-For general information about converting issues, see [Overview of converting issues in Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issues.md).
+>[!IMPORTANT]
+>
+>For general information about converting issues, we recommend that you also read the article [Overview of converting issues in Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issues.md).
 
 When creating a project from an issue, some of the fields on the project populate from other objects. For more information, see the "New project default settings" section in the article [Create a project](../../../manage-work/projects/create-projects/create-project.md). 
 

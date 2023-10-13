@@ -4,7 +4,7 @@ description: You can edit record information in Adobe Maestro. You must create r
 hidefromtoc: yes
 hide: yes
 recommendations: noDisplay, noCatalog
-exl-id: 698ff057-cdb6-412a-b377-e656b21f8993
+exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
 ---
 <!--udpate the metadata with real information when making this avilable in TOC and in the left nav-->
 
@@ -82,7 +82,7 @@ You must have the following access to perform the steps in this article:
 * You can edit records that you or another user created. <!--will change with access levels-->
 * If the edited records are linked to other records, the new information of the records that you are editing reflects on the linked records. 
 * You cannot edit records in bulk. <!--this will probably change-->
-
+* You cannot edit fields that are linked from other records. 
 
 ## Edit records
 
@@ -138,4 +138,12 @@ You can edit a record from the following areas:
       >
       >* Linked fields are not editable. The information for these fields is populated automatically from the linked records. For information, see [Connect record types](../architecture-and-fields/connect-record-types.md).  
       >
-      >* URLs are recognized as links in single-line text field types only when they start with the following: http://, https://, ftp://, or www. .
+      >* URLs are recognized as links in single-line text field types only when they start with the following: http://, https://, ftp://, or www. . 
+<!--for rich text formatting - when released:
+
+1. (Conditional) When you edit a Paragraph-type field, use the following Rich Text formatting capabilities: 
+
+    * Bold
+    * Italic
+    * Underline (*****anything else?? insert a screen shot?***********)
+-->

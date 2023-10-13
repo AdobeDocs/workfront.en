@@ -3,7 +3,7 @@ title: 23.3 Financial Management enhancements
 description: 23.3 Financial Management enhancements
 author: Lisa
 feature: Product Announcements
-exl-id: c05ea914-6583-4eec-8e36-c91baacb4f56
+exl-id: dc8ea58d-ad8a-45c8-bd02-552ab6127c38
 ---
 # 23.3 Financial Management enhancements
 
@@ -22,7 +22,7 @@ For a list of all changes available at this point in the 23.3 release cycle, see
 >
 >* Production release for the Fast release customers: To be announced, after the 23.3 Production release
 >
->* Production release for all customers: Production release for all customers: With the 23.10 release (October 2023)
+>* Production release for all customers: Production release for all customers: To be announced
 >
 >The assignment rate override feature was temporarily disabled in Preview from June 30 to July 13, 2023. 
 

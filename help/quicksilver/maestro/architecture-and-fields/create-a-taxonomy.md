@@ -4,7 +4,7 @@ description: Taxonomies are a type of reusable record types that captures attrib
 hidefromtoc: yes
 hide: yes
 recommendations: noDisplay, noCatalog
-exl-id: 81547fce-9c17-4b4a-9a0b-f222aa8065df
+exl-id: e90a3ebe-fc02-4cce-8472-1ca5004ddde8
 ---
 <!--udpate the metadata with real information when making this avilable in TOC and in the left nav-->
 

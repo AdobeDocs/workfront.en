@@ -7,7 +7,7 @@ title: Connection metadata in Adobe Workfront Fusion
 description: Adobe Workfront Fusion requires an Adobe Workfront Fusion license in addition to an Adobe Workfront license.
 author: Becky
 feature: Workfront Fusion
-exl-id: 58dcd34e-c150-48d6-ba0f-0a48e94224d2
+exl-id: af260c63-3385-4d5c-abc2-d5c23175be40
 ---
 # Connection metadata in Adobe Workfront Fusion
 

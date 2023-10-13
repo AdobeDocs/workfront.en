@@ -4,7 +4,7 @@ description: After you create connections between record types, you can connect 
 hidefromtoc: yes
 hide: yes
 recommendations: noDisplay, noCatalog
-exl-id: 9947230f-6fed-4835-81df-cd3112388018
+exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
 ---
 <!--when you make this live, update the metadata above to this: 
 ---

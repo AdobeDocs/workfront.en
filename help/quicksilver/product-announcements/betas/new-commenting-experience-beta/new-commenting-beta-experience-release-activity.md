@@ -6,7 +6,7 @@ description: Review the weekly release activity for the Adobe Workfront new comm
 author: Alina
 feature: Product Announcements
 role: User, Admin
-exl-id: 1c0cb547-ac99-4cdf-8a74-2c47ad5a10ad
+exl-id: 276b28f0-3955-4a0e-aa31-604b291f2f14
 ---
 # New commenting experience release activity
 
@@ -64,6 +64,18 @@ The following is a planned timeline with key milestones for the release of the n
 The following section contains a list of features that have been added after the original 23.2 release, starting with the ones released most recently. 
 
 The following information refers to the release activity on a weekly basis of the features included in the new commenting beta experience. This article lists new features that are added and issues that are resolved for the new commenting experience.
+
+<!--CHECK THE DATES BELOW, BEFORE POSTING: 
+
+### Week of October 9, 2023
+
+#### Add back the "on behalf of <user name>" information when commenting on behalf of other users
+
+While redesigning the commenting experience, we had removed the "on behalf of < user name >" indicator when a Workfront or group administrator added comments while logged in as another user. This information has now been restored. 
+
+Preview and production for all customers: October 13, 2023. 
+
+-->
 
 ### Week of September 11, 2023
 

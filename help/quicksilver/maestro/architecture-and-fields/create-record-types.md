@@ -4,7 +4,7 @@ description: Record types are the object types of Adobe Maestro. In Maestro, you
 hidefromtoc: yes
 hide: yes
 recommendations: noDisplay, noCatalog
-exl-id: 08542d99-1fb2-4f7a-b017-b28a41c3b4c9
+exl-id: ed1c4954-b338-4865-a7a9-5ba0192e7b37
 ---
 <!--udpate the metadata with real information when making this available in TOC and in the left nav-->
 

@@ -1,30 +1,14 @@
 ---
-title: Fourth Quarter 2023 release activity week of August 21, 2023
-description: Fourth Quarter 2023 release activity week of August 21, 2023
-author: Becky
-draft: Probably
+title: Fourth Quarter 2023 Integration enhancements
+description: Fourth Quarter 2023 Integration enhancements
+author: Lisa
 feature: Product Announcements
-exl-id: 16cacdec-3a16-44be-a9af-bc5dd0f24436
 ---
-# Fourth Quarter 2023 release activity week of August 21, 2023
+# Fourth Quarter 2023 Integration enhancements
 
-This page describes all enhancements made with the Fourth Quarter 2023 release to the Preview environment the week of August 21, 2023. These enhancements will be made available in the Production environment with the Fourth Quarter 2023 release.
-
-On August 31, 2023, many of the enhancements listed on this page were released to Production for the fast release (monthly) track. For more information on the fast release process, see [Enable or disable the fast release process](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
+This page describes all integration enhancements made with the Fourth Quarter 2023 release to the Preview environment. These enhancements will be made available in the Production environment with the 23.10 release.
 
 For a list of all changes available at this point in the Fourth Quarter 2023 release cycle, see [Fourth Quarter 2023 release overview](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md).
-
-## Enhancements to user assignments on boards and cards
-
-The following enhancements are now available when adding users to boards and cards in Adobe Workfront Boards:
-
-* You can now add any Workfront users as assignees to a card, not only users who are members on the board.
-* Adding a user as an assignee on a card no longer automatically adds that user as a board member.
-* Removing a user from a board no longer removes that user from all card assignments for the board.
-
-For more information, see [Add or remove members from a board](/help/quicksilver/agile/get-started-with-boards/add-members-to-board.md).
-
-[View a video demonstration of this feature](https://video.tv.adobe.com/v/3423222/){target=_blank}
 
 ## Enhancements to experience when sending documents to SharePoint (GraphAPI)
 

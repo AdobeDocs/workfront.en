@@ -6,7 +6,7 @@ description: This article contains a list of the most commonly-asked questions a
 author: Alina
 feature: Product Announcements
 role: User, Admin
-exl-id: 928af0ac-bc9d-4634-a951-b0d1dc56c850
+exl-id: 5ce15530-0858-44a4-b928-779654310dee
 ---
 # New commenting experience FAQs
 
@@ -18,7 +18,7 @@ For more information about the new commenting experience, see [New commenting ex
 
 Currently we support only image attachments to comments. If you would like to see other file types, please submit an innovation lab request so that we can understand how required the feature is. 
 
-## Will you add back the ability to edit the Status, Condition, or Planned Completion Date of a work item in the new commenting experience? 
+## Will you add back the ability to edit the Status, Condition, Commit Date, or Planned Completion Date of a work item in the new commenting experience? 
 
 We don't plan on bringing back the ability to perform these actions, since those are available from the header and the object's Details areas. We do understand that we are asking you to change the pattern of using the commenting stream, but we are doing this to keep the commenting experience for its direct purpose of communication and collaboration. 
 

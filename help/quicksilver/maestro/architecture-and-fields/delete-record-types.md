@@ -4,7 +4,7 @@ description: You can delete operational record types or taxonomy record types wh
 hidefromtoc: yes
 hide: yes
 recommendations: noDisplay, noCatalog
-exl-id: 50ef4ada-316e-4ca5-83fc-21a871bfeae2
+exl-id: 70fd3887-3871-45b5-9c21-f57da63662aa
 ---
 <!--udpate the metadata with real information when making this avilable in TOC and in the left nav:
 ---
