@@ -6,6 +6,7 @@ title: Manage proof versions
 description: Create a new version of a proof
 author: Courtney
 feature: Digital Content and Documents
+recommendations: noDisplay, noCatalog
 exl-id: 1806fd69-35f6-4cba-8f21-ac259469117a
 ---
 # Manage proof versions
