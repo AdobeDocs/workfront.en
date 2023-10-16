@@ -214,6 +214,7 @@ The following are the main Maestro objects and concepts:
     * Percentage 
     * Currency
     * Checkbox  
+    * People
    
 * **Linked record types**, **Linked records**, and **Linked record fields**:  You can create a connection between the following entities:
     
