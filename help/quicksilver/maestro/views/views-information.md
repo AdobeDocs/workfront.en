@@ -18,7 +18,7 @@ hide: yes
 ---
 -->
 
-<!--udpate the metadata with real information when making this avilable in TOC and in the left nav-->
+<!--udpate the metadata with real information when making this available in TOC and in the left nav-->
 
 # Views information
 

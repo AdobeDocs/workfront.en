@@ -101,7 +101,9 @@ Consider the following when copying a task:
    Go to a task report. 
 
 1. (Conditional) Click **Tasks** in the left panel, if you opened the project that contains the tasks. 
-1. Click the **Plan mode menu** ![](assets/qs-list-mode-or-save-mode-icon-small.png) , then **Autosave**.
+1. Click the **Plan Mode** icon ![](assets/qs-list-mode-or-save-mode-icon-small.png), and ensure that the **Autosave** option is enabled.
+
+   ![](assets/autosave-icon-on-highlighted-350x202.png)
 
    >[!IMPORTANT]
    >
@@ -221,22 +223,22 @@ In addition to copying tasks in a list of tasks, you can also copy a task after 
 
 1.  (Optional) Click **Select Parent** in the left panel, then select the task in the destination project that you want to become the parent of the copied task.
 
-   >[!TIP]
-   >
-   >When selecting to copy multiple tasks in a list, all selected tasks become the children of the selected parent.
+      >[!TIP]
+      >
+      >When selecting to copy multiple tasks in a list, all selected tasks become the children of the selected parent.
 
-   Select a parent by doing one of the following:
+      Select a parent by doing one of the following:
 
-   * In the task list, select one of the parents in the project plan.
-   * Click the search icon ![Search icon](assets/search-icon.png) and search for a parent task by name.
+      * In the task list, select one of the parents in the project plan.
+      * Click the search icon ![Search icon](assets/search-icon.png) and search for a parent task by name.
 
-   The task should appear in the list.
+      The task displays in the list.
 
-   ![Select parent task when moving a task with search functionality ](assets/select-parent-when-moving-tasks-with-search-functionality-nwe-350x110.png)
+      ![Select parent task when moving a task with search functionality ](assets/select-parent-when-moving-tasks-with-search-functionality-nwe-350x110.png)
 
 1. Select the radio button for the parent, after you have found it. 
 
-   If you do not select a parent task, the tasks are copied as main tasks rather than subtasks and they will be placed at the end of the task list on the destination project. 
+   If you do not select a parent task, the tasks are copied as main tasks rather than subtasks and they are placed at the end of the task list on the destination project. 
 
 1. Click **Copy task**
 
@@ -281,11 +283,11 @@ You can quickly duplicate a task in a task list, if you need an identical task o
 1. Click **Tasks** in the left panel.
 1. Do one of the following:
 
-   * (Conditional) Click the **Plan mode menu** ![](assets/qs-list-mode-or-save-mode-icon-small.png) > **Autosave**, select the tasks you want to duplicate, then click the **More menu** ![](assets/qs-more-menu-29x11.png) > **Duplicate**.
+   * (Conditional) Click the **Plan Mode** icon ![](assets/qs-list-mode-or-save-mode-icon-small.png) and ensure the **Autosave** option is enabled, select the tasks you want to duplicate, then click the **More menu** ![](assets/qs-more-menu-29x11.png) > **Duplicate**.
 
      ![](assets/duplicate-tasks-in-list-nwe-350x196.png)
 
-   * (Conditional) Click the **Plan mode menu** ![](assets/qs-list-mode-or-save-mode-icon-small.png) > **Manual save** > **Standard** or **Timeline Planning**, then do the following:
+   * (Conditional) Click the **Plan Mode** icon ![](assets/qs-list-mode-or-save-mode-icon-small.png) > **Manual save** > **Standard** or **Timeline Planning**, then do the following:
 
       1. Select the task or tasks you want to duplicate, and click **Duplicate**. 
       1. (Optional) Click **Undo** to reverse your changes and not duplicate the tasks.

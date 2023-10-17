@@ -400,6 +400,7 @@ You can use the People field type to add a user <!--, job role, or team--> to a 
     >[!NOTE]
     >
     >    If you select Allow multiple values, and multiple users are stored on the records the field is attached to, then you can no longer deselect the setting in the future, when editing this field. 
+    
 1. Click **Create**.
 
     The new People-type field is added as a column to the record type and its values can be associated with records. The field also displays on the Details page of a record. 

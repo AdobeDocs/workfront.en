@@ -44,21 +44,33 @@ You must have the following access to perform the steps in this article:
 
 ## Considerations for copying or moving template tasks
 
-Consider the following when copying a template task:
+Consider the following when copying template tasks:
+
+* The following information does not transfer to the copied task: 
+
+   * Milestones
+
+* You have a chance to select to copy some items associated with the template task to the copied task during the copying process. However, by default, the following objects do not transfer to the copied task:
+
+   * User comments
+
+* Custom forms are copied with the template task when you copy a template task. The information in the custom fields transfers to the new template task only when you select to copy Custom Data. 
+
+* The following items transfer to the copied template task by default:
+
+   * Subtasks
+
+Consider the following when moving template tasks: 
 
 * The following information transfers to the moved task, by default:
 
    * Custom forms and custom field information.
    * Subtasks.
+   * User comments. 
 
-* The following information does not transfer to the moved or copied task: 
+* The following information does not transfer to the moved task: 
 
-   * Milestones are not transferred to the copied or moved template task.
-
-* You have a chance to select to copy some items associated with the template task to the copied task during the copying process. However, by default, the following objects do not transfer to the copied task:
-
-   * User comments
-* Custom forms are copied with the template task. The information in the custom fields transfers to the new template task only when you select to copy Custom Data. 
+   * Milestones.
 
 ## Copy template tasks 
 
