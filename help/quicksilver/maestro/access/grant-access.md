@@ -46,7 +46,7 @@ To share the Maestro area using a layout template:
 
 1. Log in to **Workfront** as a system administrator.  
 
-1. Add the **Maestro** icon ![](assets/maestro-icon%20copy.png) to the **Main Menu** using a **Layout Template**. 
+1. Add the **Maestro** icon ![](assets/maestro-icon.png) to the **Main Menu** using a **Layout Template**. 
     
     For information, see [Customize the Main Menu using a layout template](../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
 
