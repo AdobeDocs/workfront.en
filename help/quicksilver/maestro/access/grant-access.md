@@ -12,6 +12,8 @@ exl-id: 475a519d-d3bd-4461-8099-0e296d556d34
 
 >[!IMPORTANT]
 >
+>Adobe Maestro is a new offering from Adobe Workfront. 
+>
 >Currently, Adobe Maestro is part of a beta program which is open to a limited number of customers. 
 >
 >Contact your account representative for more information about joining the beta program for Maestro.
@@ -20,8 +22,6 @@ exl-id: 475a519d-d3bd-4461-8099-0e296d556d34
 
 <!-- the table will change after we implement access levels/ permissions for Maestro-->
 <!-- fix the formatting on the table - some lines are way too spaced out-->
-
-Adobe Maestro is a new offering from Adobe Workfront. For more information, see [Maestro overview](../maestro-overview.md). 
 
 Currently, all users in your organization can have access to Maestro, if the following prerequisite is in place:
 
@@ -44,13 +44,13 @@ After your organization has been enrolled in the Maestro beta program, you can a
 
 To share the Maestro area using a layout template: 
 
-1. Log in to Workfront as a system administrator.  
+1. Log in to **Workfront** as a system administrator.  
 
-1. Add the Maestro icon to the Main Menu using a Layout Template. 
+1. Add the **Maestro** icon ![](assets/maestro-icon%20copy.png) to the **Main Menu** using a **Layout Template**. 
     
     For information, see [Customize the Main Menu using a layout template](../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
 
-1. Assign the  layout template to the users that you want to have access to Maestro. 
+1. Assign the layout template to the users that you want to have access to Maestro. 
 
     For information, see [Assign users to a layout template](../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md).
 

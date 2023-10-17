@@ -17,6 +17,7 @@ You can move tasks in Adobe Workfront between the following objects:
 * A task within the same project under a different parent.
 
 You can move a task at the task level or you can move a task from a list of tasks.
+You can move a single task, or you can move several tasks at a time, from a list of tasks. 
 
 ## Access requirements
 
@@ -49,13 +50,29 @@ You must have the following access to perform the actions in this article:
 
 *To find out what plan, license type, or access you have, contact your Workfront administrator.
 
-## Move a task in a list
+## Considerations for moving tasks
 
-To move a task displayed in a task list:
+Consider the following when moving a task: 
+
+* When you move a task from one project to another, the task dates might be recalculated. The recalculation will take into consideration the schedule that the new project uses and the project's Schedule From information.
+
+* You have a chance to select to move some items associated with the task to the moved task during the moving process. However, by default, the following objects transfer to the moved task:
+
+   * Issues
+   * Logged hours
+   * User comments
+   * Custom forms and custom field information
+   * Subtasks
+
+The following items do not move with the task, by default:
+
+* Milestones are transferred to the copied task and removed from the original task.
+
+## Move tasks in a list
 
 1. Go to the project that contains the task or tasks that you want to move.
 1. Click **Tasks** in the left panel to display the task list. 
-1. Ensure that the **Autosave** toggle is enabled, then select the task or tasks that you want to move.
+1. Click the **Plan Mode** icon ![](assets/plan-mode-icon.png) and ensure that the **Autosave** toggle is enabled, then select the task or tasks that you want to move.
 
    ![](assets/autosave-icon-on-highlighted-350x202.png)
 
@@ -71,7 +88,7 @@ To move a task displayed in a task list:
 
    * Click the **More** menu ![](assets/qs-more-menu.png) at the top of the task list, then click **Move to**. 
    * Right click the selected tasks, then click **Move to**.
-   * When selecting one task, click the **More** menu ![](assets/more-icon-task-list.png) next to the task name in the list, then click&nbsp;**Move to**.
+   * When selecting one task, click the **More** menu ![](assets/more-icon-task-list.png) next to the task name in the list, then click **Move to**.
 
    ![](assets/move-task-in-list-nwe-350x119.png)
 
@@ -85,7 +102,7 @@ To move a task displayed in a task list:
 
 ## Move a task at the task level {#move-a-task-at-the-task-level}
 
-In addition to moving tasks from a list of tasks, you can also move a task at the task level, after you have opened it.&nbsp;
+In addition to moving tasks from a list of tasks, you can also move a task at the task level, after you have opened it. 
 
 1. Find a task in your Workfront system by searching for it.
 1. Click the name of the task to open it.
@@ -97,7 +114,7 @@ In addition to moving tasks from a list of tasks, you can also move a task at th
 
    >[!TIP]
    >
-   >This field is dimmed and not editable when selecting to move multiple tasks in a list. You can hover over the Task Name field and a list of all selected tasks displays.
+   >The Task Name field is dimmed and not editable when selecting to move multiple tasks in a list. You can hover over the Task Name field and a list of all selected tasks displays.
    >
    >
    >![](assets/move-task-multiple-tasks-box-with-list-of-task-names-nwe-350x142.png)
@@ -119,9 +136,9 @@ In addition to moving tasks from a list of tasks, you can also move a task at th
 
    >[!TIP]
    >
-   >Similar messages display if the project selected is in pending approval, completed, or dead, when the Workfront administrator prevents adding tasks to these projects.&nbsp;For more information, see [Configure system-wide project preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+   >Similar messages display if the project selected is in pending approval, completed, or dead, when the Workfront administrator prevents adding tasks to these projects. For more information, see [Configure system-wide project preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
-1. (Optional) Click&nbsp;**Options** in the left panel
+1. (Optional) Click **Options** in the left panel
 
    Or
 
@@ -170,7 +187,7 @@ In addition to moving tasks from a list of tasks, you can also move a task at th
      </tr> 
      <tr> 
       <td role="rowheader">Financial Information</td> 
-      <td>The financial information of the task is removed and the Workfront updates the task&nbsp;Cost Type to No Cost and the task Revenue Type as Not Billable. </td> 
+      <td>The financial information of the task is removed and the Workfront updates the task Cost Type to No Cost and the task Revenue Type as Not Billable. </td> 
      </tr> 
      <tr> 
       <td role="rowheader">All Predecessors</td> 
@@ -219,17 +236,18 @@ In addition to moving tasks from a list of tasks, you can also move a task at th
    * In the task list, select one of the parents in the project plan.
    * Click the search icon ![Search icon](assets/search-icon.png) and search for a parent task by name.
 
-   The task should appear in the list.
+   The task displays in the list.
 
    ![Select parent task when moving a task with search functionality ](assets/select-parent-when-moving-tasks-with-search-functionality-nwe-350x110.png)
 
 1. Select the radio button for the parent, after you have found it.
 
-   If you do not select a parent task, the tasks are moved as main tasks rather than subtasks and they will be placed at the end of the task list on the destination project.
+   If you do not select a parent task, the tasks are moved as main tasks rather than subtasks and they are placed at the end of the task list on the destination project.
 
 1. Click **Move task**
 
    Or
 
    Click **Move tasks** when you select multiple tasks in a list. 
+   
    The moved tasks are now on the specified project and are either subtasks to a parent task, or the last tasks on the project.

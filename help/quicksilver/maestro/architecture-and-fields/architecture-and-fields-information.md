@@ -46,7 +46,7 @@ The articles in the following sections describe how you can configure the Maestr
 * [Edit record types](../architecture-and-fields/edit-record-types.md)
 * [Connect record types](../architecture-and-fields/connect-record-types.md)
 * [Example of connecting record types and records](../architecture-and-fields/example-connect-record-types-and-records.md)
-* [Create fields in Adobe Maestro](../architecture-and-fields/create-fields.md)
+* [Create fields](../architecture-and-fields/create-fields.md)
 * [Edit fields](../architecture-and-fields/edit-fields.md)
 * [Delete workspaces](../architecture-and-fields/delete-workspaces.md)
 * [Delete record types](../architecture-and-fields/delete-record-types.md)

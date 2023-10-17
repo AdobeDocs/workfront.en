@@ -1984,7 +1984,7 @@ feature-set: Workfront
     * [Architecture information](maestro/architecture-and-fields/architecture-and-fields-information.md)
     * [Create workspaces](maestro/architecture-and-fields/create-workspaces.md)
     * [Overview of record types and taxonomies](maestro/architecture-and-fields/overview-of-record-types-and-taxonomies.md)
-    * [Create record types](maestro/architecture-and-fields/create-record-types.md)
+    * [Create operational record types](maestro/architecture-and-fields/create-record-types.md)
     * [Create taxonomy record types](maestro/architecture-and-fields/create-a-taxonomy.md)
     * [Connect record types](maestro/architecture-and-fields/connect-record-types.md)
     * [Create fields](maestro/architecture-and-fields/create-fields.md)

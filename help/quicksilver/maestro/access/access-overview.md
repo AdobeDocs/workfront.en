@@ -12,16 +12,16 @@ exl-id: 99fac041-a235-4991-b826-d19944164bc9
 
 >[!IMPORTANT]
 >
+>Adobe Maestro is a new offering from Adobe Workfront. 
+>
 >Currently, Adobe Maestro is part of a beta program which is open to a limited number of customers. 
 >
 >Contact your account representative for more information about joining the beta program for Maestro.
 >
->For information, see [Adobe Maestro overview](../maestro-overview.md).  
+>For information, see [Adobe Maestro overview](../maestro-overview.md). 
 
 <!-- the table will change after we implement access levels/ permissions for Maestro-->
 <!-- fix the formatting on the table - some lines are way too spaced out-->
-
-Adobe Maestro is a new offering from Adobe Workfront. For more information, see [Maestro overview](../maestro-overview.md). 
 
 Currently, all users in your organization can have access to Maestro, if a Workfront administrator enables the access for them. 
 
