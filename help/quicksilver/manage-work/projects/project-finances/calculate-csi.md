@@ -34,9 +34,7 @@ You can benefit from the information provided by this metric only if the followi
 
 Workfront calculates the Cost Performance Index (CSI) of a project or task using the following formula:
 
-```
-CSI = CPI x SPI
-```
+`CSI = CPI x SPI`
 
 For information about CPI, see the article [Calculate Cost Performance Index (CPI)](../../../manage-work/projects/project-finances/calculate-cpi.md).
 
@@ -44,8 +42,8 @@ For information about SPI, see the article [Calculate Schedule Performance Index
 
 CSI has the following three possible values:
 
-* 1 = Follows overall plan&nbsp; &nbsp;
-* >1 = Under budget schedule combination
+* 1 = Follows overall plan
+* \>1 = Under budget schedule combination
 * <1 = Over budget schedule combination
 
 ![](assets/csi-highlighted.png)
