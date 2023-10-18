@@ -77,6 +77,15 @@ You must have the following access to manually update tasks:
 
 &#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
+## Considerations about updating the Status of tasks
+
+* When you mark a task as Complete, the percent complete of the task updates to 100%. 
+* The following scenarios exist for parent tasks: 
+  * You cannot update the Status of a parent task to Complete when the Summary Completion Mode of the project is set to Automatic and the subtasks are not completed.
+  * You can update the Status of a parent task to Complete when the Summary Completion Mode of the project is set to Manual and the subtasks are completed or incomplete. 
+
+  For more information, see [Edit projects](../manage-projects/edit-projects.md).
+
 ## Manually update task status
 
 When you are updating a task status, you can also type an explanation about the new status and change other task information such as the due date.

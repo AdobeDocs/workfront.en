@@ -40,7 +40,8 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
-   <td> <p>You must be a Workfront administrator.</p> <p><b>NOTE</b>: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>You must be a Workfront administrator.</p> <p><b>NOTE</b>:</p> 
+   <p> If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -427,14 +428,20 @@ After you populate the Excel template with your data, you can upload it's data i
 
 The Kick-Start import supports the following file types:
 
-* XML-based Excel (&#42;.xlsx)
-* Legacy Excel (&#42;.xls)
-* Zipped (&#42;ZIP) xlsx or xls file
+* XML-based Excel (.xlsx)
+* Legacy Excel (.xls)
+* Zipped (.ZIP) file (that contains only .xlsx or .xls files)
 
    >[!NOTE]
    >
-   >You must use a ZIP file when importing Excel spreadsheets that reference reports; documents; avatars; or view, filter, or grouping property files. When using a zipped import file, the &#42;ZIP file must have the same name as the &#42;.xlsx or &#42;.xls file, and all contents must be at the same file structure level (no folders).
-
+   >You must use a .ZIP file when importing Excel spreadsheets that reference the following objects: 
+   >
+   >* Reports
+   >* Documents
+   >* Avatars
+   >* View, filter, or grouping property files. 
+   >
+   >When using a zipped import file, the .ZIP file must have the same name as the .xlsx or .xls file, and all files must be at the same structure level (no folders).
 
 To import the template spreadsheet data into Workfront:
 
