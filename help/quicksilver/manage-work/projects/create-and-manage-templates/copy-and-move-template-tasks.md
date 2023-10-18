@@ -64,9 +64,9 @@ Consider the following when moving template tasks:
 
 * The following information transfers to the moved task, by default:
 
-   * Custom forms and custom field information.
-   * Subtasks.
-   * User comments. 
+   * Custom forms and custom field information
+   * Subtasks
+   * User comments
 
 * The following information does not transfer to the moved task: 
 

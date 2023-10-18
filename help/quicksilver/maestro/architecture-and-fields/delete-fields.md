@@ -12,6 +12,8 @@ exl-id: ec48db42-2395-4439-97ae-e4f5242170b7
 
 >[!IMPORTANT]
 >
+>The information in this article refers to Adobe Maestro which is a new offering from Adobe. 
+>
 >Currently, Adobe Maestro is part of a beta program which is open to a limited number of customers. 
 >
 >Contact your account representative for more information about joining the beta program for Maestro.
@@ -29,6 +31,9 @@ You can delete Maestro fields that are no longer relevant.
 * You can delete fields that you created or fields created by other users. <!--this will change with access levels/ permissions-->
 * You can delete a field only in the record type table. 
 * Any information stored in the field is deleted and cannot be recovered. 
+* When you delete a linked record field, all the linked lookup fields are also deleted from the record type you link from. The linked record fields of the record types you link to are not deleted. 
+
+   For more information, see [Connect record types](../architecture-and-fields/connect-record-types.md).
 <!-- this is not possible yet, since fields cannot be shared yet; maybe move this up a bit, in this bullet list: * When you delete a field, it is deleted from all records associated with the field.-->
 
 ## Access requirements
