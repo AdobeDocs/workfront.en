@@ -170,7 +170,9 @@ Metadata maps when an asset is pushed from [!DNL Workfront] for the first time. 
 
 To map metadata for assets: 
 
+<!--
 1. Select **[!UICONTROL Assets]** above the metadata table.
+-->
 1. In the **[!UICONTROL [!DNL Workfront] field]** column, choose a built-in or custom Workfront field.
 
     >[!NOTE]
@@ -181,7 +183,9 @@ To map metadata for assets:
 1. In the [!DNL Experience Manager Assets] field, search through the pre-populated categories or enter at least two letters in the search field to access additional categories.
 1. Repeat steps 2 and 3 as needed.
 ![metadata fields](assets/asset-metadata.png)
-1. Click [!UICONTROL Save] or move on to the [Folders](#folders) section in this article.
+1. Click [!UICONTROL Save] or move on to the [Set up Workflows](#set-up-workflows-optional) section in this article.
+
+<!--
 
 ### Map metadata for folders
 
@@ -191,7 +195,7 @@ When users create a linked folder on a project, the associated project, portfoli
 >
 >This integration does not support custom metadata from [!DNL Adobe Experience Manager].
 
-To map metadata for folders:
+To map metadata for folders: 
 
 1. Select **[!UICONTROL Folders]** above the metadata table.
 1. In the **[!UICONTROL [!DNL Workfront] field]** column, choose a built-in or custom Workfront field.
