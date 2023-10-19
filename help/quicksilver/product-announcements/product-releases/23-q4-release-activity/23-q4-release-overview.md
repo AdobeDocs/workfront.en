@@ -319,8 +319,8 @@ The 23.10 release webinar was on October 5, 2023. You can [register for the webi
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-home-enhancements.md" class="MCXref xref" xrefformat="{para}">New contributor default landing page: New Home</a> <span style="color: #ff0000;"> New in Preview!</span> </p>
-                        <p>New Home is now the default landing page for contributor accounts. This new default home page includes a number of widgets specifically selected to best enable contributors to manage their work right away.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-home-enhancements.md" class="MCXref xref" xrefformat="{para}">New Contributor default landing page: New Home</a> <span style="color: #ff0000;"> New in Preview!</span> </p>
+                        <p>New Home is now the default landing page for Contributor/Requestor accounts. This new default home page includes a number of widgets specifically selected to best enable Contributors to manage their work right away.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
                         <ul>
@@ -622,27 +622,8 @@ The 23.10 release webinar was on October 5, 2023. You can [register for the webi
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Updated email templates</a> <span style="color: #ff0000;"> New in Preview!</span></p>
-                        <p>As the start of a new initiative to update our event notification emails, we have updated two of the most commonly used: document approval and object sharing.</p>
-                    </td>
-                    <td><p><b>Available on these dates:</b></p>
-                        <ul>
-                            <li>
-                                <p>Preview release: October 12, 2023</p>
-                            </li>
-                            <li>
-                                <p>Production for fast release: With the 23.10 release</p>
-                            </li>
-                            <li>
-                                <p>Production for quarterly release: With the 23.10 release</p>
-                            </li>
-                        </ul>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Contributor main menu changes</a> <span style="color: #ff0000;"> New in Preview!</span></p>
-                        <p>To better inform contributors of the features available with a paid Workfront license type, they can now see all of the options available in the main menu.</p>
+                        <p>To better inform Contributors/Requestors of the features available with a paid Workfront license type, they can now see all of the options available in the main menu.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
                         <ul>
