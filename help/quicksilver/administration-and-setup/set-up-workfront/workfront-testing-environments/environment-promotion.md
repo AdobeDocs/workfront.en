@@ -796,6 +796,10 @@ Deleted
 
 ### Execute a pre-run
 
+>[!IMPORTANT]
+>
+>Before you can execute an installation, you must execute this pre-run. You will use the ID generated from this call when you execute the installation.
+
 <table style="table-layout:auto"> 
  <col> 
  <tbody> 
@@ -874,6 +878,14 @@ Or
 
 ### Execute an installation
 
+>[!IMPORTANT]
+>
+>Before you can execute an installation, you must execute a pre-run. You will use the ID generated from the pre-run when you execute the installation.
+>
+>If any changes have been made to the destination environment (the environment that the package is being deployed to) after executing the pre-run, we recommend executing the pre-run again. If you do not execute the pre-run again, your execution may not complete accurately, or the installation may fail.
+>
+>For instructions on executing a pre-run, see [Execute a pre-run](#execute-a-pre-run).
+
 <table style="table-layout:auto"> 
  <col> 
  <tbody> 
@@ -884,12 +896,6 @@ Or
 </table>
 
 This call initiates an installation attempt of a promotion package into the target environment identified in the POST URL.
-
-#### Options
-
-If a `translationmap` is not provided in the POST body, the process will automatically initiate the `/prepare-installation` call. The `translationmap` that is returned will be used as is, with no opportunity to review or make adjustments to it.
-
-If a `translationmap` is provided in the POST body, the installation process will use the mapping provided. This gives an installing user the opportunity to review and make adjustments as necessary before executing an installation attempt.
 
 #### URL
 
