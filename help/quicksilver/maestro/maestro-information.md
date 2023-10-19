@@ -26,6 +26,8 @@ As a marketing operations leader, you can use Adobe Maestro to organize work acr
 
 >[!IMPORTANT]
 >
+>The information in this article refers to Adobe Maestro which is a new offering from Adobe. 
+>
 >Currently, Adobe Maestro is part of a beta program which is open to a limited number of customers.  
 >
 >Contact your account representative for more information about joining the beta program for Maestro.

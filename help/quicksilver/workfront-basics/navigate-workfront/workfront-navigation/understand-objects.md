@@ -16,7 +16,7 @@ The information you display in [!DNL Adobe Workfront] is represented by objects 
 
 Understanding how the objects are defined in [!DNL Workfront] is important so you can use the correct object for the needs necessary in your organization.
 
-For example, when you plan a large amount of work, you need to use the [!UICONTROL Project] object to define that work. To divide this work into smaller planned increments, you can use the [!UICONTROL Task] object. For a smaller amount of work that is not planned, and can occur unexpectedly, you can use the Issue object. If you want to track the progress and the adherence to budget and timeline of a group of projects, you can organize them in [!UICONTROL Portfolios] and [!UICONTROL Programs]. To define other elements that help you resolve your work, you want to use other objects that are stored under [!UICONTROL Projects], [!UICONTROL Tasks], [!UICONTROL Issues], or [!UICONTROL Portfolios], like [!UICONTROL Documents], [!UICONTROL Notes], [!UICONTROL Hours], [!UICONTROL Users], or [!UICONTROL Job Roles].
+For example, when you plan a large amount of work, you need to use the [!UICONTROL Project] object to define that work. To divide this work into smaller planned increments, you can use the [!UICONTROL Task] object. For a smaller amount of work that is not planned, and can occur unexpectedly, you can use the Issue object. If you want to track the progress and the adherence to budget and timeline of a group of projects, you can organize them in [!UICONTROL Portfolios] and [!UICONTROL Programs]. To define other elements that help you resolve your work, you want to use other objects that are stored under [!UICONTROL Projects], [!UICONTROL Tasks], [!UICONTROL Issues], or [!UICONTROL Portfolios], like [!UICONTROL Documents], [!UICONTROL Updates], [!UICONTROL Hours], [!UICONTROL Users], or [!UICONTROL Job Roles].
 
 [!UICONTROL Reports] and [!UICONTROL Dashboards] are another example of objects that can help you organize the amount of data you have in [!DNL Workfront] visually, to make it easily accessible for all users.
 
@@ -47,9 +47,9 @@ The following are some of the most commonly used objects in [!DNL Workfront] and
 
 For a complete list of objects in [!DNL Workfront], see the [API Explorer](../../../wf-api/general/api-explorer.md).
 
-*Plans are the objects of the [!DNL Workfront Scenario Planner]. For information about the [!DNL Scenario Planner], see [The [!UICONTROL Scenario Planner] overview](../../../scenario-planner/scenario-planner-overview.md).
+*Plans are the objects of the [!DNL Adobe Workfront Scenario Planner]. For information about the [!DNL Scenario Planner], see [The [!UICONTROL Scenario Planner] overview](../../../scenario-planner/scenario-planner-overview.md).
 
-*[!UICONTROL Goals] are the objects of [!DNL Workfront Goals]. For information about [!DNL Workfront Goals], see [[!DNL Adobe Workfront Goals] overview](../../../workfront-goals/goal-management/wf-goals-overview.md).
+*[!UICONTROL Goals] are the objects of [!DNL Adobe Workfront Goals]. For information about [!DNL Workfront Goals], see [[!DNL Adobe Workfront Goals] overview](../../../workfront-goals/goal-management/wf-goals-overview.md).
 
 
 ## Customize object names
@@ -126,7 +126,7 @@ The following areas do not show the updated name of the objects:
 
 * [!DNL Outlook] Add-in
 
-## Implications of customizing object names
+### Implications of customizing object names
 
 You should be aware of the following when customizing object names in [!DNL Workfront]:
 
@@ -191,7 +191,7 @@ Not all objects are searchable in [!DNL Workfront]. You can run basic and advanc
 | [!UICONTROL Programs] | ✓ | ✓ |
 | [!UICONTROL Dashboards] | ✓ | ✓ |
 | [!UICONTROL Companies] | ✓ | ✓ |
-| [!UICONTROL Notes] | ✓ |  |
+| [!UICONTROL Notes] (or [!UICONTROL Updates]) | ✓ |  |
 
 For more information about running basic and advanced searches in [!DNL Workfront], see [Search [!DNL Adobe Workfront]](../../../workfront-basics/navigate-workfront/search/search-workfront.md).
 
@@ -226,8 +226,8 @@ You can report on the following objects when using the report builder in the [!D
 * [!UICONTROL Approval]
 * [!UICONTROL Approval Process]
 * [!UICONTROL Assignment]
-* [!UICONTROL Backlog Work Item]\
-   Displays tasks or issues on the agile backlog. For more information about the agile backlog, see [Manage the agile backlog](../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md).
+<!--this is no longer available: * [!UICONTROL Backlog Work Item]\
+   Displays tasks or issues on the agile backlog. For more information about the agile backlog, see [Manage the agile backlog](../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md).-->
 
 * [!UICONTROL Baseline]
 * [!UICONTROL Baseline Task]
@@ -239,13 +239,13 @@ You can report on the following objects when using the report builder in the [!D
    The "Bud. Hours" field in the [!UICONTROL Budgeted Hour] report refers to the hours budgeted for job roles in the [!UICONTROL Resource Planner]. For more information, see [Understand [!UICONTROL Budgeted Labor Cost] and [!UICONTROL Budgeted Hours] for projects](../../../manage-work/projects/project-finances/budgeted-labor-cost.md).
 
 * [!UICONTROL Calendar Event]
-* [!UICONTROL Category] (or [!UICONTROL Custom Form])
 * [!UICONTROL Company]
+* [!UICONTROL Custom Form]
 * [!UICONTROL Dashboard]
 * [!UICONTROL Document]
 * [!UICONTROL Document Approval]
 * [!UICONTROL Document Version]\
-   Enables you to view various information about the version of the document, the document the version is associated with, who created the version, and the user who created the proof on the document version if one exists (Proof Creator).
+   You can view information about the version of the document, the document the version is associated with, who created the version, and the user who created the proof on the document version if one exists (Proof Creator).
 * [!UICONTROL Email Template]
 * [!UICONTROL Expense]
 * [!UICONTROL Expense Type]
@@ -256,12 +256,6 @@ You can report on the following objects when using the report builder in the [!D
 
    You can build a report for strategic goals or you can display goal-related information in a project report when projects are associated with goals as goal activities. You can create strategic goals and connect projects them only if your organization has purchased a [!DNL Workfront Goals] license. For information about [!DNL Workfront Goals], see [[!DNL Workfront Goals] overview](../../../workfront-goals/goal-management/wf-goals-overview.md). For information about connecting projects to strategic goals, see [Add projects to goals in Adobe Workfront Goals](../../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md).
    
-   <!--
-  <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-  (NOTE: hardcoded links in this paragraph)
-  </MadCap:conditionalText>
-  -->
-
    >[!TIP]
    >
    >You cannot report on project goals that are associated with a [!UICONTROL Business Case]. For information about project goals vs strategic goals, see [Glossary of [!DNL Adobe Workfront] terminology](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
@@ -285,10 +279,10 @@ You can report on the following objects when using the report builder in the [!D
 
    You can report on tracked system updates in the [!UICONTROL Updates] area of objects like tasks, projects, issues, etc. To learn more, see [Report on the [!UICONTROL Updates] area](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md).
 
-*  [!UICONTROL Layout Template]
+* [!UICONTROL Layout Template]
 * [!UICONTROL Milestone]
 * [!UICONTROL Milestone Path]
-* [!UICONTROL Note]
+* [!UICONTROL Note] or [!UICONTROL Updates]
 
    >[!NOTE]
    >
@@ -296,7 +290,7 @@ You can report on the following objects when using the report builder in the [!D
 
 * [!UICONTROL Parameter] (or [!UICONTROL Custom Field])
 * [!UICONTROL Parameter Group] (or [!UICONTROL Section Break])
-* [!UICONTROL Portal Profile] (this displays information that has been deprecated)
+<!--this is no longer in the UI: * [!UICONTROL Portal Profile] (this displays information that has been deprecated)-->
 * [!UICONTROL Portfolio]
 * [!UICONTROL Program]
 * [!UICONTROL Project] ([!UICONTROL Financial Data])
@@ -330,9 +324,10 @@ You can report on the following objects when using the report builder in the [!D
 * [!UICONTROL Timesheet]
 * [!UICONTROL Timesheet Profile]
 * [!UICONTROL Topic Group]
+* [!UICONTROL User Approval]
 * [!UICONTROL User Delegation]
 
    You can report on users who have been delegated to perform others' tasks and issues while they are out of the office. This report displays the user who is out of the office as well as the user who fulfills their duties while they are out.
-
+* [!UICONTROL Users Decisions]
 * [!UICONTROL View]
-* [!UICONTROL Work Item] (this refers to tasks and issues)
+* [!UICONTROL Work Item] (this produces a report for tasks and issues)
