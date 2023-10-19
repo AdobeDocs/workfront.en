@@ -19,14 +19,10 @@ An update to the commenting experience in Adobe Workfront is currently in develo
 
 The new commenting experience will slowly become available for all the objects with an Updates section in Workfront, and later it will expand to other Adobe Experience Cloud applications.
 
-<!--  ****************UNCOMMENT THIS SECTION WHEN THE FAQs ARTICLE IS LIVE: 
-
 For additional resources for the new commenting experience, also see the following articles:
 
 * [New commenting experience release activity](../new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md)
 * [New commenting experience FAQs](../new-commenting-experience-beta/new-commenting-faq.md.draft)
-
--->
 
 ## Features
 
@@ -44,7 +40,7 @@ The following features have been removed from the new experience:
 * Comment on a system update
 * Ability to edit status, condition, commit date while commenting
 * Edit custom form
-* The "on behalf of < user  name >" information when a Workfront or group administrator logs in as another user and adds a comment on their behalf. <!-- Replace this bullet with this, when re bring this back: The "on behalf of < user name >" information when a Workfront or group administrator logs in as another user and adds a comment on their behalf was originally removed. It has been reinstated in October 2023.-->
+* The "on behalf of < user name >" information when a Workfront or group administrator logs in as another user and adds a comment on their behalf was originally removed. It has been reinstated on October 19, 2023.
 * The "Ask for approval" option when you tag people while adding a comment to a document. 
 
 >[!NOTE]
@@ -375,34 +371,36 @@ The following table illustrates the features that will be available in the new c
    <td> 
    </td>
   </tr>
-  <tr>
-   <td>Resolve comments 
-   </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-   <td>✓ 
-   </td>
-   <td>Q3, 2023 
-   </td>
-   <td>✓ 
-   </td>
-  </tr>
-  <tr>
+    <tr>
    <td>Search in comments 
    </td>
    <td> 
    </td>
    <td> 
    </td>
-   <td>✓ 
+   <td> 
    </td>
-   <td>Q3, 2023 
+   <td>Q1, 2024 
    </td>
    <td>✓ 
    </td>
   </tr>
+
+<tr>
+   <td>Copy and paste images in a comment
+   </td>
+   <td> 
+   </td>
+   <td> 
+   </td>
+   <td> 
+   </td>
+   <td>Q1, 2024 
+   </td>
+   <td>✓ 
+   </td>
+  </tr>
+
 <tr>
    <td>Edit custom form 
    </td>
@@ -450,7 +448,7 @@ The following table illustrates the features that will be available in the new c
    </td>
    <td> ✓
    </td>
-   <td> 
+   <td> ✓
    </td>
    <td> 
    </td>

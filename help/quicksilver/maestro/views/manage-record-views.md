@@ -138,13 +138,11 @@ The following table shows the similarities and differences between the table and
 | Filter records                                       | ✓          | ✓             |
 | Group records                                      |           | ✓             |
 | Sort records                                       | ✓          |              |
+| Color-code records                     |           | ✓              |
+ | Color-code groupings                     |           | ✓              |
 
 <!--| Sort groupings                                                        | ✓          | ✓             |-->
-
  <!--| Display a limited number of fields as columns, by default                      | ✓          |               |-->
-
- <!--| Color-code records                     |           | ✓              |-->
- <!--| Color-code groupings                     |           | ✓              |-->
 
 ## Create or edit views {#create-or-edit-views}
 
