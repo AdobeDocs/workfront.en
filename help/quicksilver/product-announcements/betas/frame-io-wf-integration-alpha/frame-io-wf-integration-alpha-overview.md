@@ -8,6 +8,7 @@ feature: Product Announcements
 hide: yes
 hidefromtoc: yes
 ---
+
 # Adobe Workfront and Frame.io native integration alpha: overview
 
 ## The Workfront + Frame.io integration alpha
