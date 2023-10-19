@@ -24,6 +24,8 @@ author: Alina
 
 >[!IMPORTANT]
 >
+>The information in this article refers to Adobe Maestro which is a new offering from Adobe. 
+>
 >Currently, Adobe Maestro is part of a beta program which is open to a limited number of customers.
 >
 >Contact your account representative for more information about joining the beta program for Maestro.
@@ -36,6 +38,7 @@ You can connect the following:
 
 * Maestro operational record types 
 * Maestro operational record types to taxonomy record types
+* Maestro taxonomy types to operational record types
 * Maestro operational record types and object types from other applications.
 
 By doing this, you can display fields from the linked record or object type on another Maestro record.  
@@ -234,7 +237,7 @@ You must have the following access to perform the steps in this article:
 
 1. Click **Add fields** to save your changes.
 
-    The following are added: 
+    The following items are added: 
 
     * The linked record field that will display the records from the linked record type, after you manually add them. The name of the linked record field is the name you selected in step 6. <!-- ensure this is still accurate--> 
     
@@ -244,18 +247,9 @@ You must have the following access to perform the steps in this article:
 
     * A linked record field on the record type you are linking to. The name of the linked record field on the linked record type is the name of the record type that you link from. 
     
-        For example, if you link the "Product" record type from the "Campaign" record type and you name the connected field of the Campaign "Linked Product", a "Campaign" linked field is created for the Product record type. 
+        For example, if you link the "Product" record type from the "Campaign" record type and you name the connected field of the Campaign "Linked Product", a "Campaign" linked record field is created for the Product record type. 
 
-        <!--is the statement in the note below still accurate?? they were working on removing this from taxonomies-->
-
-        >[!NOTE]
-        >
-        >The linked record field that displays the record type you are linking from is not added to record types when you connect a record type with the following: <!--is this temporary for taxonomies??-->
-        >        
-        >   * A taxonomy.
-        >   * An object type from another application. 
-
-1. (Optional) From either the original record type or the linked record type table view, click the drop-down to the right of the linked record field, then click one of the following:
+1. (Optional) From either the original record type or the linked record type table view, click the downward-pointing arrow in the header of the linked record fields, then click one of the following:
 
     * **Edit field**: You can only update the **Name** and the **Description** information of the field. 
     * **Edit lookup fields**: Add or remove any of the linked record's fields. 
@@ -264,10 +258,10 @@ You must have the following access to perform the steps in this article:
 
     To add or remove fields, follow the directions in steps 7-12 above. <!--ensure these step numbers stay accurate--> 
     
-1. (Optional) Click the downward-pointing arrow in the header of the linked record or linked fields, then click **Delete**. 
+1. (Optional) Click the downward-pointing arrow in the header of the linked record field from the record type you are linking from, then click **Delete**. 
 
-    The record field and any additional lookup fields are deleted and the fields and their information cannot be recovered. 
+    The record field and any additional linked lookup fields are deleted and the fields and their information cannot be recovered. 
 
     >[!TIP]
     >
-    >    The linked record field on the record linked from the original record is not deleted. <!-- is this still accurate?! -->
+    >    The linked record field on the record type you are linking to is not deleted. <!-- is this still accurate?! -->
