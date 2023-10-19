@@ -12,6 +12,8 @@ exl-id: 604b84c1-4ec6-4d4a-b9f4-4223641ff2ea
 
 >[!IMPORTANT]
 >
+>The information in this article refers to Adobe Maestro which is a new offering from Adobe. 
+>
 >Currently, Adobe Maestro is part of a beta program which is open to a limited number of customers. 
 >
 >Contact your account representative for more information about joining the beta program for Maestro.

@@ -107,7 +107,7 @@ The following table lists project information and whether it transfers from the 
   <tr> 
    <td>Group</td> 
    <td><p> The following scenarios exist:</p>
-     <ul><li>If a group is specified during the conversion, that becomes the group ofthe project</li>
+     <ul><li>If a group is specified during the conversion, that becomes the group of the project</li>
      <li>If you convert to a project using a template, and there is a group on the template, and during the conversion you do not specify a group, then the group of the template becomes the group of the new project</li>
       <li> If there is no group on the template and you do not specify a group during the conversion, then the group of the original issue's project becomes the group of the new project</li> </ul>
       </td> 

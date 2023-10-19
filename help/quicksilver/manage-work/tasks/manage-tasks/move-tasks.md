@@ -66,7 +66,7 @@ Consider the following when moving a task:
 
 The following items do not move with the task, by default:
 
-* Milestones are transferred to the copied task and removed from the original task.
+* Milestones
 
 ## Move tasks in a list
 
