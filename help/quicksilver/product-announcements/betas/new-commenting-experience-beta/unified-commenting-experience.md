@@ -19,10 +19,11 @@ An update to the commenting experience in Adobe Workfront is currently in develo
 
 The new commenting experience will slowly become available for all the objects with an Updates section in Workfront, and later it will expand to other Adobe Experience Cloud applications.
 
-For additional resources for the new commenting experience, also see the following articles:
+<!--For additional resources for the new commenting experience, also see the following articles:
 
 * [New commenting experience release activity](../new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md)
 * [New commenting experience FAQs](../../betas/new-commenting-experience-beta/new-commenting-faq.md)
+-->
 
 ## Features
 
