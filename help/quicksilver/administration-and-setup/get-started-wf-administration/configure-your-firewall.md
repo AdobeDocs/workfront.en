@@ -19,6 +19,10 @@ exl-id: 264eed40-6d90-498b-83cc-2500c8b19c84
 >
 >For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Admin Console, see [Platform-based administration differences (Adobe Workfront/Adobe Business Platform)](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
+>[!NOTE]
+>
+>The way an organization configures its allowlist is unique to each organization. Work with your IT team to identify your organization's procedure and implement these additions.
+
 If your firewall or mail server is configured to allow access to only certain vendors, you must add certain IP addresses to its allowlist. This opens communication between your environment and the Adobe Workfront servers and allows the following processes:
 
 * Sending messages from the Workfront application
