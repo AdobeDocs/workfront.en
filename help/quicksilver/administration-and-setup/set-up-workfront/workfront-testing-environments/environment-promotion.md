@@ -873,8 +873,98 @@ Or
 ```
 
 ```json  
-{}
+{
+    "environmentPromotionPackageId": "45f2ae94-76c0-4b13-8f3b-f688de83043d",
+    "environmentPromotionPackageVersion": 1,
+    "id": "c0bc79bd-c9c1-4b5b-b118-b1241392de0e",
+    "userId": "5ba38da500b752fd66439d4f6a9999a1",
+    "customerId": "5ba38d9d00b74f0c7a38b1b487fc9710",
+    "status": "PREPARING",
+    "environment": "mmi.my.workfront.com",
+    "registeredAt": "2023-10-19T20:00:16.697Z",
+    "updatedAt": "2023-10-19T20:00:16.701Z",
+    "translationMap": {
+        "CTGY": {
+            "62d9c9a0000013aeeefe7242a0a5fdb2": {
+                "name": "Example Document Form",
+                "action": "USEEXISTING",
+                "isValid": true,
+                "targetId": "62d9c9a0000013aeeefe7242a0a5fdb2"
+            }
+        },
+        "PGRP": {
+            "62d1eee4001c6618e6b9f9a588ba1598": {
+                "name": "Asset Detail",
+                "action": "USEEXISTING",
+                "isValid": true,
+                "targetId": "62d1eee4001c6618e6b9f9a588ba1598"
+            }
+        },
+        "GROUP": {
+            "5ba38da500b752b0f46d13186030b7ad": {
+                "name": "Default Group",
+                "action": "USEEXISTING",
+                "isValid": true,
+                "targetId": "5ba38da500b752b0f46d13186030b7ad"
+            }
+        },
+        "PARAM": {
+            "62d1eee400f8578895166ee91a83f97a": {
+                "name": "Asset Type",
+                "action": "USEEXISTING",
+                "isValid": true,
+                "targetId": "62d1eee400f8578895166ee91a83f97a"
+            },
+            "62d1eee50001407c713514a8970b58e4": {
+                "name": "Keywords",
+                "action": "USEEXISTING",
+                "isValid": true,
+                "targetId": "62d1eee50001407c713514a8970b58e4"
+            },
+            "62d1eee5000333ac3981ea4f3df6d88e": {
+                "name": "Permitted Uses",
+                "action": "USEEXISTING",
+                "isValid": true,
+                "targetId": "62d1eee5000333ac3981ea4f3df6d88e"
+            },
+            "62d1eee5000b188e9ec8039a097fc7ab": {
+                "name": "File Format",
+                "action": "USEEXISTING",
+                "isValid": true,
+                "targetId": "62d1eee5000b188e9ec8039a097fc7ab"
+            },
+            "62d1eee500100c159fd5f838ce560507": {
+                "name": "CTA",
+                "action": "USEEXISTING",
+                "isValid": true,
+                "targetId": "62d1eee500100c159fd5f838ce560507"
+            },
+            "62d9c988001c1f23954dbb9d646335b5": {
+                "name": "Other CTA",
+                "action": "USEEXISTING",
+                "isValid": true,
+                "targetId": "62d9c988001c1f23954dbb9d646335b5"
+            },
+            "62d9c9880070f546cf4c798ea6c3eaa4": {
+                "name": "Other Audience",
+                "action": "USEEXISTING",
+                "isValid": true,
+                "targetId": "62d9c9880070f546cf4c798ea6c3eaa4"
+            },
+            "62d9c990006258baf1b40f2569c3eab7": {
+                "name": "Target Audience",
+                "action": "USEEXISTING",
+                "isValid": true,
+                "targetId": "62d9c990006258baf1b40f2569c3eab7"
+            }
+        }
+    }
+}
 ``` 
+
+>[!NOTE]
+>
+>The ID that you will need to execute the installation is the `id` field. In this example, the `id` field is third from the top, and has a value beginning with `c0bc79bd`.
 
 ### Execute an installation
 
