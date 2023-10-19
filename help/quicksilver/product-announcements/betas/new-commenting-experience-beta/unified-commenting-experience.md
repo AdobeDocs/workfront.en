@@ -22,7 +22,7 @@ The new commenting experience will slowly become available for all the objects w
 For additional resources for the new commenting experience, also see the following articles:
 
 * [New commenting experience release activity](../new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md)
-* [New commenting experience FAQs](../new-commenting-experience-beta/new-commenting-faq.md.draft)
+* [New commenting experience FAQs](../../betas/new-commenting-experience-beta/new-commenting-faq.md)
 
 ## Features
 
