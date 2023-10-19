@@ -12,6 +12,7 @@ hidefromtoc: yes
 # Adobe Workfront and Frame.io native integration alpha: overview
 
 ## The Workfront + Frame.io integration alpha
+
 Welcome to our alpha program! With this program you'll gain early access to our Workfront + Frame.io native integration experience, and allow you to share your feedback which will ultimately help influence and inform the final experience before we release to our wider customer base. With this integration, we aim to create a frictionless end-to-end workflow between Workfront and Frame.io with a focus on providing the ideal unified Review and Approval solution.  
 
 Get the best of both worlds and see how a streamlined experience between Frame.io and Workfront (including new document approvals) can drive your content lifecycle from work initiation through to sign-off and delivery.  
