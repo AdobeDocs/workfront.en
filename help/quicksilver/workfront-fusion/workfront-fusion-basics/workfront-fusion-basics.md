@@ -7,6 +7,7 @@ title: Adobe Workfront Fusion basics
 description: Adobe Workfront Fusion requires an Adobe Workfront Fusion license in addition to an Adobe Workfront license.
 author: Becky
 feature: Workfront Fusion
+recommendations: noDisplay, noCatalog
 exl-id: 8c933a29-0fdd-4c00-92d9-931e70e2e093
 ---
 # Adobe Workfront Fusion basics
