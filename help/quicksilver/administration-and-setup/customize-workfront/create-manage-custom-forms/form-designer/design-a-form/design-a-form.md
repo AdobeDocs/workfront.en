@@ -496,7 +496,7 @@ To add typeahead date fields:
 
 ### Add external lookup fields
 
-An external lookup field calls an external API and returns values as options in a dropdown field. Users who work with the object the custom form is attached to can select one of these options from the dropdown.
+An external lookup field calls an external API and returns values as options in a dropdown field. Users who work with the object the custom form is attached to can select one or more of these options from the dropdown.
 
 To add an external lookup:
 
@@ -534,7 +534,8 @@ To add an external lookup:
      <tr> 
       <td role="rowheader">Base API URL</td> 
       <td><p>Type or paste the URL for the API.</p><p>The API URL must return a JSON content of the options that you would like to show in the dropdown. You can use the JSON Path field to select the specific values from the returned JSON to be dropdown options.</p><p>When entering the API URL, you can optionally pass the following values in the URL:</p>
-      <ul><li>$$query - This represents the search text that the end user types in the field and allows you to implement query filtering for your end users. (The user will search for the value in the dropdown.)</li>
+      <ul><li>$$QUERY - This represents the search text that the end user types in the field and allows you to implement query filtering for your end users. (The user will search for the value in the dropdown.)</li>
+      <li>$$HOST - This represents the current Workfront host and can be used to make /search API calls to the Workfront API. When this wildcard is used, the authentication is handled and users don't need to send authentication headers. (For example, users can search tasks using the base URL "$$HOST/attask/api/task/search" and it will allow searching tasks and selecting values from a returned list of tasks.)</li>
       <li>{fieldName} - Where fieldName is any custom or native field in Workfront. This way you can implement cascading dropdown option filters, when you pass the value of an already selected field to the External Lookup field to filter down options. (For example, the Region field already exists on the form and you are narrowing a list of countries from the API to those that are in a specific region.)</li></ul>
       <p><strong>NOTE:</strong> Review the documentation for the API you are working with for the specific queries you can define.</p></td> 
      </tr>
@@ -560,6 +561,15 @@ To add an external lookup:
       <td role="rowheader">Headers</td>
       <td><p>Click <strong>Add Header</strong>, and type or paste the key-value pair required for authentication with the API.</p><p><strong>NOTE:</strong> The Header fields are not a secure place to store credentials, and you should be careful of what you enter and save.</p></td>
      </tr>
+     <tr> 
+      <td role="rowheader">Multi-Select Dropdown</td>
+      <td><p>Select this option to allow the user to select more than one value in the dropdown.</p></td>
+     </tr>
+     </tr>
+     <tr> 
+      <td role="rowheader">Make a required field</td>
+      <td><p>Select this option if you want the field to be required in order for the user to complete the custom form.</p></td>
+     </tr>       
     </tbody>
    </table>
 
