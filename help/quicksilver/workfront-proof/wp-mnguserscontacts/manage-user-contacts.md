@@ -6,6 +6,7 @@ title: Managing users and contacts in [!DNL Workfront Proof]
 description: This section contains the following subsections - EDIT ME.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
+recommendations: noDisplay, noCatalog
 exl-id: b0ff2ed5-4724-4d67-aa83-6dff583aeb36
 ---
 # Managing users and contacts in [!DNL Workfront Proof]

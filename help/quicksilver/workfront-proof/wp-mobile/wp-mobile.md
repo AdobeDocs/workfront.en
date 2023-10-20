@@ -7,6 +7,7 @@ title: Workfront Proof mobile
 description: This section contains the following articles - EDIT ME.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
+recommendations: noDisplay, noCatalog
 exl-id: 5f2280d0-8a4d-4daa-b5d9-ce347d2892ed
 ---
 # [!DNL Workfront Proof] mobile

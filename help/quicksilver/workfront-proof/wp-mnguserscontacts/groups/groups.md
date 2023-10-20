@@ -7,6 +7,7 @@ title: Proof Groups
 description: This section contains the following articles - EDIT ME.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
+recommendations: noDisplay, noCatalog
 exl-id: 59962f6b-e2e9-4ac7-b60f-6c8f9ca9958b
 ---
 # Groups

@@ -7,6 +7,7 @@ title: Tips, tricks, and troubleshooting for [!DNL Workfront Proof] users and co
 description: This section contains the following articles - EDIT ME.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
+recommendations: noDisplay, noCatalog
 exl-id: f6269b63-bd4e-4bc7-b022-779b3556f029
 ---
 # Tips, tricks, and troubleshooting for [!DNL Workfront Proof] users and contacts

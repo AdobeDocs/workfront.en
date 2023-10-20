@@ -7,6 +7,7 @@ title: Workfront Proof API
 description: This section contains the following articles - EDIT ME.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
+recommendations: noDisplay, noCatalog
 exl-id: d503847c-9a59-4099-8cd7-8ffae48f96ed
 ---
 # Workfront Proof API

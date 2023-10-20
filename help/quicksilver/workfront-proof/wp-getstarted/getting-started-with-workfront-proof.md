@@ -7,6 +7,7 @@ title: Getting started with [!DNL Workfront Proof]
 description: This section contains the following subsections - EDIT ME.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
+recommendations: noDisplay, noCatalog
 exl-id: 71fe6ed9-62f8-4c08-8883-6c70aa9f7678
 ---
 # Getting started with [!DNL Workfront Proof]

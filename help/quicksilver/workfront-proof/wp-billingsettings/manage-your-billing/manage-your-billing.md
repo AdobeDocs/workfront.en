@@ -7,6 +7,7 @@ title: Manage your billing
 description: This section contains the following articles - EDIT ME.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
+recommendations: noDisplay, noCatalog
 exl-id: 8c6a8fb5-842f-4322-9a99-550395207206
 ---
 # Manage your billing

@@ -7,6 +7,7 @@ title: Basecamp Classic
 description: This section contains the following articles - EDIT ME.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
+recommendations: noDisplay, noCatalog
 exl-id: b66b7820-bb8a-4d29-822c-0de968fa2492
 ---
 # Basecamp Classic
