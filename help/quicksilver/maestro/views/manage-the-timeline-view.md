@@ -22,6 +22,8 @@ role: User
 
 >[!IMPORTANT]
 >
+>The information in this article refers to Adobe Maestro which is a new offering from Adobe. 
+>
 >Currently, Adobe Maestro is part of a beta program which is open to a limited number of customers. 
 >
 >Contact your account representative for more information about joining the beta program for Maestro.
@@ -148,7 +150,7 @@ To manage a timeline view:
 
 ### Add filters
 
-Filters help you reduce the amount of information displayed on the screen.
+You can reduce the amount of information displayed on the screen by using filters.
 
 Consider the following when working with filters in the timeline view: 
 
@@ -158,13 +160,13 @@ Consider the following when working with filters in the timeline view:
 
 * The filters are unique to the view that you select. Two timeline views of the same record type can have different filters applied to them. Two users looking at the same timeline view see the same filter that is currently applied. 
 
-* You cannot name the filters you build and apply to a timeline view.
+* You cannot name the filters you build for a timeline view.
 
-* Removing filters removes them from anyone accessing the same record type as you and uses the same view you use.
+* Removing filters removes them from anyone accessing the same record type as you and who displays the same view as you do. 
 
-Adding filters in the timeline view is identical to adding filters in the table view. 
+* Adding filters in the timeline view is identical to adding filters in the table view. 
 
-For more information, see the "Add filters" section in the article [Manage the table view](../views/manage-the-table-view.md). 
+    For more information, see the "Add filters" section in the article [Manage the table view](../views/manage-the-table-view.md). 
 
 ### Add grouping
 
@@ -172,45 +174,49 @@ For more information, see the "Add filters" section in the article [Manage the t
 
 Adding groupings in the timeline view is identical to adding filters in the table view. 
 
-For more information, see the "Add filters" section in the article [Manage the table view](../views/manage-the-table-view.md). -->
-
+For more information, see the "Add groupings" section in the article [Manage the table view](../views/manage-the-table-view.md). BUT: you would need to create this section for the Table view and move the steps below (and maybe edit them) to the Manage the table view article, in this case. OR ... link from that section to this article?! -->
 
 You can group records by similar information when applying  a grouping to a view.
 
 Consider the following when working with groupings in the timeline view:
 
-* You can apply groupings both in the table and timeline views. The groupings of the table view are independent from those in the timeline view of the same record type. 
+<!--not yet: * You can apply groupings both in the table and timeline views. The groupings of the table view are independent from those in the timeline view of the same record type. -->
 * You can apply 3 levels of grouping in a Maestro view. The records are grouped in the order of groupings that you select. 
 * You can apply up to 4 levels of grouping when using the API. 
+* The groupings are unique to the view that you select. Two timeline views of the same record type can have different groupings applied to them. Two users looking at the same timeline view see the same grouping that is currently applied. 
+
+* You cannot name the groupings you build for a timeline view.
+
+* Removing groupings removes them from anyone accessing the same record type as you and who displays the same view as you do. 
 
 To add a grouping:
 
-1. Create a timeline view, as described in the article [Manage record views](../views/manage-record-views.md). 
-1. Click **Grouping**.
+1. Create a timeline view for a record type, as described in the article [Manage record views](../views/manage-record-views.md). 
+1. Click **Grouping** in the upper-right corner of the timeline view.
 
     ![](assets/grouping-ui-timeline-view.png)
 
-1. Click one of the suggested fields, or click **Choose a different field** and search for a different field, then click it when it displays in the list. 
+1. Click one of the suggested fields, or click **Choose a different field**, search for a different field, then click it when it displays in the list. 
 
     >[!TIP]
     >
     >You cannot select linked fields. 
 
-    The grouping is applied automatically to the timeline and records display inside the grouping box. The number of items in a grouping displays on the grouping line. 
+    The grouping is applied automatically to the timeline and records display inside the grouping box. 
 
     <!-- add a step that you can rearrange the groupings here, when this will be possible-->
     
 1. (Optional) Repeat the above steps to add up to 3 groupings. 
 
-    The number of groupings applied displays to the left of the Grouping icon in the upper-right corner of the toolbar.
+    The number of fields selected for the grouping displays next to the Grouping icon. 
 
     ![](assets/grouping-applied-in-timeline-view.png)
 
-1. (Optional) Click the **x** icon to the right of a grouping to remove the grouping
+1. (Optional) Click the **x** icon to the right of a field selected for the grouping to remove the grouping
 
     Or
 
-    Click **Clear all** to remove all groupings.  
+    Click **Clear all** to remove all fields.  
 
 1. Click outside the **Group records by** box to close it. 
 
@@ -224,20 +230,19 @@ this is not possible right now; if this is the same functionality as the table v
 
 ### Edit the timeline view settings {#edit-the-timeline-view-settings}
 
-Update the timeline view settings to indicate what information displays in the timeline section of the view. 
+Update the timeline view settings to indicate what and how information displays in the timeline section of the view. 
 
-1. Create a timeline view, as described in the article [Manage record views](../views/manage-record-views.md). 
+1. Create a timeline view for a record type, as described in the article [Manage record views](../views/manage-record-views.md). 
 1. Click **Settings**. 
 1. Click **Date and time** in the left panel, then select a **Start date** and an **End date** to display on the timeline. You can choose the default Start and End dates, or you can choose any date field available. The bars representing the records start on the date that you indicate for the Start date and end on the date corresponding with the End date. 
 
     >[!NOTE]
     >
-    >    Records that have no values for the Start or the End dates or have a Start date later than the End date do not display in the timeline view.
+    >Records that have no values for the Start or the End dates or have a Start date later than the End date do not display in the timeline view.
 
+1. Click **Bar style** in the left panel, to indicate what fields you want to display on the record bars. 
 
-1. Click **Record details** to indicate what fields you want to display on the record bards. 
-
-    The Name field is selected by default.
+    The Name field is selected by default. <!--adjust this when the primary field is released??-->
 
 1. Click **Add field** to add up to 4 fields to the record bars.
 1. Click inside the **Search fields** box, and click the field you want to add. 
@@ -251,6 +256,41 @@ Update the timeline view settings to indicate what information displays in the t
     A preview of what the bars will look like on the timeline displays on the right.
 
     ![](assets/record-details-panel-timeline-settings-with-preview.png)
+
+1. Click **Color** in the left panel, to customize the colors of the records and groupings in the timeline. 
+
+    ![](assets/color-tab-timeline-view.png)
+
+1. (Conditional and optional) If you added a grouping to the timeline view, select from the following options to set a color for the grouping in the **Set grouping color** section:
+
+    * **Default (gray)**: The color of the groupings is set to gray. This is the default. 
+    * **Field values**: The color of the groupings matches the color of the field you group by. 
+    You can match the color of the groupings only to fields with color-coded options.
+    
+    For example, multi-select or single-select fields can have color-coded options. 
+
+    If you group by fields without color-coded options, the grouping color remains gray.
+
+    >[!TIP]
+    >
+    >If you did not add groupings to the timeline view, this section does not display.
+
+1. In the **Set record color** section, select from the following options to set a color for the records: 
+
+    * **Record type**: The color of the records match the color of the record type you selected. This is the default option. 
+    * **Field values**: The color of the records matches the color of a field that you specify. Continue with step 10. <!--ensure this stays accurate-->
+    * **Grouping**: The color of the records matches the color that you indicated for the groupings. This option is dimmed when you have no groupings applied to the timeline view. 
+    * **None**: Records displays in a white bar. 
+
+1. (Conditional) If you selected **Field values** for the record colors, select a field from the **Match the record color to** drop-down menu. 
+
+    ![](assets/field-selector-drop-down-menu-timeline-view.png)
+
+    Only fields with color-coded options display in the drop-down menu.
+    
+    For example, multi-select or single-select fields can have color-coded options.  
+
+    If you do not have a field with color-coded options for the selected record type, this option is dimmed.
 
 1. Click **Save**.
 

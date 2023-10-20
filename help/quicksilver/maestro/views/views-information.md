@@ -18,11 +18,13 @@ hide: yes
 ---
 -->
 
-<!--udpate the metadata with real information when making this avilable in TOC and in the left nav-->
+<!--udpate the metadata with real information when making this available in TOC and in the left nav-->
 
 # Views information
 
 >[!IMPORTANT]
+>
+>The information in this article refers to Adobe Maestro which is a new offering from Adobe. 
 >
 >Currently, Adobe Maestro is part of a beta program which is open to a limited number of customers. 
 >

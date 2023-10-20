@@ -98,6 +98,15 @@ You can update the percent complete for a task in any of the following areas:
   ![](assets/nwe-updatetaskpercentinheader-350x54.png)
 
 
+## Considerations about updating the percent complete of a task
+
+* When you mark a task as 100% complete, the task Status updates to Complete. 
+* The following scenarios exist for parent tasks: 
+  * You cannot update the percent complete of a parent task to 100% when the Summary Completion Mode of the project is set to Automatic and the subtasks are not completed.
+  * You can update the percent complete of a parent task to 100% when the Summary Completion Mode of the project is set to Manual and the subtasks are completed or incomplete. 
+
+  For more information, see [Edit projects](../manage-projects/edit-projects.md).
+
 ## Update the percent complete of a task
 
 1. Go to any of the following areas in Workfront:

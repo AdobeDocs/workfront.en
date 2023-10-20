@@ -70,7 +70,9 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Projects</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>Edit access to Projects</p> <p><b>NOTE</b></p> 
+   
+   <p>If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -93,7 +95,7 @@ This article describes how to create a request queue from an existing project. H
  <tbody> 
   <tr> 
    <td role="rowheader">Queue Details</td> 
-   <td> <p>You must set up a project as a request queue in the Queue&nbsp;Details area.&nbsp;This step is mandatory. </p> <p>For more information, see the <a href="#create-a-request-queue" class="MCXref xref">Create a Request Queue</a> section in this article.</p> </td> 
+   <td> <p>You must set up a project as a request queue in the Queue Details area. This step is mandatory. </p> <p>For more information, see the <a href="#create-a-request-queue" class="MCXref xref">Create a Request Queue</a> section in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Topic Groups</td> 
@@ -101,7 +103,7 @@ This article describes how to create a request queue from an existing project. H
   </tr> 
   <tr> 
    <td role="rowheader">Queue Topics</td> 
-   <td> <p>They are additional menus that classify requests that belong to the same Topic&nbsp;Group based on common features. A&nbsp;topic group can contain several queue topics. </p> <p>For example, the "On-site" topic group for the IT&nbsp;Request Queue may contain the "Hardware", "Software" and "Network" queue topics. </p> <p>For more information, see <a href="../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md" class="MCXref xref">Create Queue Topics</a>. </p> <p>This is optional.</p> </td> 
+   <td> <p>They are additional menus that classify requests that belong to the same Topic Group based on common features. A topic group can contain several queue topics. </p> <p>For example, the "On-site" topic group for the IT Request Queue may contain the "Hardware", "Software" and "Network" queue topics. </p> <p>For more information, see <a href="../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md" class="MCXref xref">Create Queue Topics</a>. </p> <p>This is optional.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Routing Rules</td> 
@@ -122,10 +124,10 @@ When you set up a project as a Request Queue, the project status must be Current
 To create a Request Queue:
 
 1. Go to the project that you want to set up as a Request Queue.
-1. (Optional)&nbsp;Click **Project Details** in the left panel and add a **Description** to the project in the **Overview** area. This information displays on all new requests.
+1. (Optional) Click **Project Details** in the left panel and add a **Description** to the project in the **Overview** area. This information displays on all new requests.
 1. Click **Queue Details** in the left panel. You might need to click **Show More**, then **Queue Details**.
 
-   This opens the Queue Details  section .
+   This opens the Queue Details section.
 
    ![](assets/classic-queue-setup-top-of-the-setup-form-350x248.png)   
 
@@ -134,14 +136,14 @@ To create a Request Queue:
    * **Publish as Help Request Queue:** Select this option to identify this project as a request queue. All incoming issues are considered Requests.  
      When this option is not selected, the project behaves like a standard project in Workfront and all incoming issues are issues.
    
-   * **Who can add requests to this queue:** Select which users have access to add requests to this queue. You can allow the following groups of people to see the Request Queue in their Requests area of the Global Navigation Bar:
+   * **Who can add requests to this queue:** Select which users have access to add requests to this queue. You can allow the following groups of people to see the Request Queue in their Requests area of the Global Navigation Bar when they add a new request:
 
      |Who can enter requests | Description|
      |---|---|
      | Anyone  |Any Workfront user with an active account can view this request queue and add requests to it |
      | People with view access to this project |Users with View permissions to the project can view and add requests to this queue |
      | People in this project's company |Users who belong to the company associated with this project can view and add requests to this queue. If there is a company associated with the project, the name of the company is listed in parentheses after this setting.  |
-     | People in this project's group |Users who belong to the group associated with this project can view and add requests to this queue. If there is a group associated with the project, the name of the group is listed in parentheses after this setting.  |
+     | People in this project's group |Users who belong to the group associated with this project can view and add requests to this queue. If there is a group associated with the project, the name of the group is listed in parentheses after this setting, in gray font.  |
 
      {style="table-layout:auto"}
 
@@ -159,7 +161,7 @@ To create a Request Queue:
 
         >[!NOTE]
         >
-        >You can display a Request Queue in a dashboard as an external page. In this case, the request queue is preselected, but you can select any other request queue from the Request&nbsp;Type field. users can change the Request&nbsp;Type. Navigation components of the Requests also display.
+        >You can display a Request Queue in a dashboard as an external page. In this case, the request queue is preselected, but you can select any other request queue from the Request Type field. users can change the Request Type. Navigation components of the Requests also display.
 
       * **Embed Code:** Use this HTML code to embed the request queue form as an iframe within any HTML page.  
         If users are not already authenticated to Workfront when they view the page where the code is embedded, the Workfront login dialog box is displayed. After users log in, the Request Queue form is displayed.
@@ -225,9 +227,9 @@ To create a Request Queue:
    * **People from the same company will inherit the same permissions for all requests.:** When selected, all requests submitted to the queue are visible for users in the same company. Users can view these requests in the All Requests  section , located within the Requests area. At the time that this setting is enabled or disabled, it impacts all future requests; it does not retroactively impact information. 
    * **When someone makes a request, automatically grant:** When a user makes a request to the request queue, the user is automatically granted the level of permission that you choose to that request. Select from the following permissions levels: 
 
-      * **View** 
-      * **Contribute**. This is the default selection.
-      * **Manage**
+      * **View Access** 
+      * **Contribute Access**. This is the default selection.
+      * **Manage Access**
 
      For information about the Workfront permissions model, see [Overview of sharing permissions on objects](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).   
      Setting permissions here saves time, rather than having to grant permissions for each individual incoming request. Choosing this option impacts all future requests, but does not retroactively impact existing requests. 
@@ -245,21 +247,20 @@ To create a Request Queue:
       * Only active approval processes display in the list. 
       * System-wide and group-specific approval processes display in the list. An approval process associated with a group other than that of the project does not display in the list.
 
-   * **Default Route**: Associate a Routing Rule with this request queue. Use Routing Rules to automatically assign new issues submitted to a Request Queue to the correct resource (user, job role, or team), and to the correct project. All issues submitted to this queue will be associated with this Routing Rule. You must configure Routing Rules before you can associate them with request queue.  
+   * **Default Route**: Associate a Routing Rule with this request queue. Use Routing Rules to automatically assign new issues submitted to a Request Queue to the correct resource (user, job role, or team), and to the correct project. All issues submitted to this queue will be associated with this Routing Rule. You must configure Routing Rules before they display in the Queue Details section and before you can associate them with request queue.  
      If you have multiple queue topics associated with a request queue, we recommend that you associate routing rules with the queue topics instead. For more information about creating routing rules, see [Create Routing Rules](../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md).
    
-   * **New Issue Fields:** In the Show the following selected fields to all users section, select any fields that you want to be visible to all users who submit a request to the project or add an issue to the project or the tasks.
+   * **New Issue Fields:** In the **Show the following selected fields to all users** section, select any fields that you want to be visible to all users who submit a request to the project or add an issue to the project or the tasks.
 
      >[!TIP]
      >
-     >New Issue Fields selected in the Queue&nbsp;Details section are also associated with any new issue added to the project or to the tasks in the Issues section.
+     >New Issue Fields selected in the Queue Details section are also associated with any new issue added to the project <!--this is confusing: or to the tasks in the Issues section-->.
 
      When you enable any of the Assigned to, Job Role, or the Team fields, they are always renamed to Assignments in the request form, but you can only specify the type of assignment selected here.
 
       >[!NOTE]
       >
       >If you selected Assigned To in the Queue Details area, you can enter only users in the Assignments field on the request form. In this case, you cannot enter job roles or a team. 
-
    
    * **Documents**: If you select to display the Documents section in the new request form, select where the document uploading section should be positioned. Select from the following:
 
@@ -280,7 +281,7 @@ To create a Request Queue:
    
      ![](assets/nwe-new-issue-fields-area-with-documents-350x167.png)
 
-   * **Show all selected and unselected fields to:** Select which users you want to see all the fields on the form. The following options control the access to the fields on the form.
+   * **Show all selected and unselected fields to:** Select which users you want to see all the fields on the new request form. The following options control the access to the fields on the form.
     
       |Which users can see all fields on the request form | Description|  
       |---|---| 
@@ -288,7 +289,7 @@ To create a Request Queue:
       | People with view access to this project (Plan License) |Those users with a Plan license that also have View rights to this project can see the selected as well as the unselected fields. The rest of the users who can submit requests to this project can see just the selected fields. |
       | No Users |No users can see the unselected fields. All users who can submit requests to this project can only see the fields selected.  |
   
-   * **Custom Forms**: Select a custom form to associate with the Request Queue. Only Issue Custom Forms are available to select from this drop-down menu. All issues submitted to the Request Queue will have the selected forms associated with them.  
+   * **Custom Forms**: Select a custom form to associate with the Request Queue. Only Issue Custom Forms are available to select from this drop-down menu. All issues submitted to the Request Queue will have the selected forms associated with them. You must create issue custom forms before you can see them displayed in the Queue Details section. 
      If you have multiple Queue Topics associated with a Request Queue, we recommend that you associate custom forms with the Queue Topics instead. For more information about creating sub-sections for the Request Queue, see [Create Queue Topics](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
 
      ![](assets/custom-forms-on-queue-details.png)
@@ -297,7 +298,7 @@ To create a Request Queue:
 
      >[!TIP]
      >
-     >Custom forms added to the Queue Details section are also associated with any new issue added to the project or the tasks in the Issues  section.
+     >Custom forms added to the Queue Details section are also associated with any new issue added to the project <!--this is confusiong: or the tasks in the Issues  section-->.
 
 1. Continue selecting information for the settings in the **Email Queue Settings** area, to allow users to email requests to the request queue project. 
 

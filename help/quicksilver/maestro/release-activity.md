@@ -10,6 +10,8 @@ exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
 
 >[!IMPORTANT]
 >
+>The information in this article refers to Adobe Maestro which is a new offering from Adobe. 
+>
 >Currently, Adobe Maestro is part of a beta program which is open to a limited number of customers. 
 >
 >Contact your account representative for more information about joining the beta program for Maestro.
@@ -28,6 +30,50 @@ This section lists the features and patches that have been released after the la
 
 The features are released weekly and are listed in the order of their release, with the most recent first. Customers who are participating in the Maestro closed beta program can access all features in their Preview and Production environments.
 
+## Week of October 16, 2023
+
+### New People field type 
+
+Preview and production: October 16, 2023
+
+You can now add a People-type field to Maestro record types. You can use People-type fields to associate existing users with a record. For information, see [Create fields](../maestro/architecture-and-fields/create-fields.md). 
+
+
+### Rich Text- format for Paragraph fields
+
+Preview and production: October 16, 2023
+
+We have added Rich Text format controls for Paragraph-type fields. You can format your paragraph fields using Rich Text either in the Table view of a record type, or in the Details page of a record. For more information, see [Edit records](../maestro/records/edit-records.md). 
+
+
+### Record and grouping color-coding for the Timeline view 
+
+Preview and production: October 19, 2023
+
+You can now color-code the record bars and the groupings in the Timeline view.  
+
+The following are options for the colors you can choose to display for record bars and groupings in the Timeline view: 
+
+* Groupings can match the following colors:  
+
+    * Gray (the default) 
+
+    * The color of the field that you group by 
+
+* Bars can match the following colors: 
+
+    * The color of the record type 
+
+    * The color of a field that you select 
+
+    * The color of the grouping 
+
+    * No color (the default) 
+
+When matching colors to a certain field, you can select only fields with color-coded options.  
+
+For more information, see [Manage the timeline view](../maestro/views/manage-the-timeline-view.md). 
+
 ## Week of October 9, 2023
 
 ### Search in table view  
@@ -35,24 +81,6 @@ The features are released weekly and are listed in the order of their release, w
 Preview and production: October 9, 2023
 
 You can now search for a keyword to quickly find a record in the table view. You can use keywords and special characters in any fields that are visible on the screen to find a record. For information, see [Manage the table view](../maestro/views/manage-the-table-view.md). 
-
-<!--
-***********WHICH WEEK IS THIS???***********
-
-### New People field type 
-
-Preview and production: ************ADD INFORMATION HERE***********
-
-You can now add a People-type field to Maestro record types. You can use People-type fields to add existing users, job roles, or teams to a record. For information, see [Create fields](../maestro/architecture-and-fields/create-fields.md). 
-
-
-### Rich Text- format for Paragraph fields
-
-Preview and production: ************ADD INFORMATION HERE***********
-
-We have added Rich Text format controls for Paragraph-type fields. For more information, see [Edit records](../maestro/records/edit-records.md). 
-
--->
 
 ## Week of September 18, 2023
 

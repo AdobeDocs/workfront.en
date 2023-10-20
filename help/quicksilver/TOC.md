@@ -373,6 +373,8 @@ feature-set: Workfront
       * [New commenting experience](product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md)
       * [New commenting experience release activity](product-announcements/betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md)
       * [New commenting experience FAQs](product-announcements/betas/new-commenting-experience-beta/new-commenting-faq.md)
+    * Workfront and Frame.io integration alpha {#frame-io-wf-integration-alpha}
+      * [Adobe Workfront and Frame.io native integration alpha: overview](product-announcements/betas/frame-io-wf-integration-alpha/frame-io-wf-integration-alpha-overview.md)
 * Administration and setup {#administration-and-setup}
   * [Administration and setup](administration-and-setup/administration-and-setup.md)
   * Get started with administration {#get-started-administration}
@@ -1984,7 +1986,7 @@ feature-set: Workfront
     * [Architecture information](maestro/architecture-and-fields/architecture-and-fields-information.md)
     * [Create workspaces](maestro/architecture-and-fields/create-workspaces.md)
     * [Overview of record types and taxonomies](maestro/architecture-and-fields/overview-of-record-types-and-taxonomies.md)
-    * [Create record types](maestro/architecture-and-fields/create-record-types.md)
+    * [Create operational record types](maestro/architecture-and-fields/create-record-types.md)
     * [Create taxonomy record types](maestro/architecture-and-fields/create-a-taxonomy.md)
     * [Connect record types](maestro/architecture-and-fields/connect-record-types.md)
     * [Create fields](maestro/architecture-and-fields/create-fields.md)

@@ -63,7 +63,7 @@ You must have the following:
 
    You can click the link found in the email notification, and then upload the document. Or you can click the in-app notification. Each option routes you to the user profile page where you can upload the requested document.
 
-   You can also reply directly to the email and attach the requested documents (if you are configured to support email responses). To configure email responses, see .
+   You can also reply directly to the email and attach the requested documents (if you are configured to support email responses).
 
 1. After you upload the document, the person who requested it can access the document in their personal **Documents**&nbsp;area.
 

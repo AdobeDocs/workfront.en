@@ -2,7 +2,7 @@
 content-type: tips-tricks-troubleshooting
 navigation-topic: tips-tricks-and-troubleshooting-workfront-basics
 title: Contact Customer Support
-description: Contact Customer Support
+description: As an Adobe Workfront customer, you can contact the Workfront Customer Support team by phone or by submitting a ticket online.
 feature: Get Started with Workfront
 exl-id: fa8e0559-7af6-4049-9c24-76d1bcbebf84
 ---
@@ -41,7 +41,7 @@ You can submit a support ticket from the self-serve [!DNL Experience League] por
 
    From the support homepage, you can easily navigate to your open support cases, log a new case, view the top Support articles, or access additional learning sources.
 
-1. To submit a case, select the option "[!UICONTROL Open a support case]", then click **[!UICONTROL Sign] In**.
+1. To submit a case, select the option **[!UICONTROL Open a support case]**, then click **[!UICONTROL Sign] In**.
 
 1. Click **[!UICONTROL Open case]** in the left sidebar.
 
@@ -73,7 +73,7 @@ You can submit a support ticket from the self-serve [!DNL Experience League] por
    >
    >You can also navigate to the [!UICONTROL My cases] page by clicking **[!UICONTROL My cases]** in the left sidebar.
 
-1. On the [!UICONTROL My cases] page, use the options at the top of the page to filter by Product ([!DNL Experience Cloud] solution) or case [!UICONTROL Status] (open or closed). You can also use the [!UICONTROL search] box to search for any keywords pertaining to your support cases.
+1. On the **[!UICONTROL My cases]** page, use the options at the top of the page to filter by **Product ([!DNL Experience Cloud] solution)** or case **[!UICONTROL Status]** (Open or Closed). You can also use the [!UICONTROL search] box to search for any keywords pertaining to your support cases.
 
 1. To view more details on a case, click the **Case Number** to access it. The [!UICONTROL case] view opens.
 

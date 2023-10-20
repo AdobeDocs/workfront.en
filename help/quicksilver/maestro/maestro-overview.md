@@ -20,6 +20,8 @@ exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
 
 >[!IMPORTANT]
 >
+>The information in this article refers to Adobe Maestro which is a new offering from Adobe. 
+>
 >Currently, Adobe Maestro is part of a beta program which is open to a limited number of customers. 
 >
 >Contact your account representative for more information about joining the beta program for Maestro.
@@ -214,6 +216,7 @@ The following are the main Maestro objects and concepts:
     * Percentage 
     * Currency
     * Checkbox  
+    * People
    
 * **Linked record types**, **Linked records**, and **Linked record fields**:  You can create a connection between the following entities:
     
