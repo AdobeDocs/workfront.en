@@ -14,7 +14,7 @@ For a list of all changes available at this point in the Fourth Quarter 2023 rel
 
 A commonly requested feature of the old home page, we've now added a delegate button to the My Work, My Tasks, and My Issues widgets so that you can easily delegate work when you're out of the office. In the delegate menu, which functions identically to the way it did prior to New Home, you can select to whom and for how long you'd like to delegate your stories and issues. Note that work delegation must be enabled in your Workfront environment for the button to appear.
 
-For more information on delegating in Workfront, see [Manage task and issue delegation](/help/quicksilver/manage-work/delegate-work/how-to-delegate-work.md)
+For more information on delegating in Workfront, see [Manage task and issue delegation](/help/quicksilver/manage-work/delegate-work/how-to-delegate-work.md).
 
 ## New Boards widget for New Home
 
@@ -24,7 +24,7 @@ For more information on the widgets available in New Home, see [Get started with
 
 ## New Contributor default landing page: New Home
 
-New Home is now the default landing page for Contributor/Requestor accounts. This new default home page includes a number of widgets specifically selected to best enable Contributors to manage their work right away. Upon their first visit to the page, Contributors will also be instructed on using New Home and the specific widgets available by default in a customized walkthrough. Note that if a layout with a custom home page currently being used by a contributor account, it will remain their home page.
+New Home is now the default landing page for Contributor/Requestor accounts. This new default home page includes a number of widgets specifically selected to best enable Contributors to manage their work right away. Upon their first visit to the page, Contributors will also be instructed on using New Home and the specific widgets available by default in a customized walkthrough. These default widgets for Contributors are: Requests, Mentions, Issues, and Boards. Note that if a layout with a custom home page is currently being used by a contributor account, it will remain their home page.
 
 For more information on using New Home, see [Get started with New Home](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
 
