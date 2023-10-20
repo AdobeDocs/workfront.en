@@ -302,13 +302,21 @@ Each row of the sheet corresponds to a unique object.
 1. Complete the cell in the **isNew** column:
 
    * If the object you are importing is new, type **TRUE** to import the data in the row.
-   * If the object is already in Workfront, type **FALSE** to ignore the row.
+   * If the object is already in Workfront, **FALSE** must be in the column to ignore the row.
+
+     * Records that already exist in Workfront are not updated.
+     * If you downloaded a template with data, existing objects are already marked with **FALSE** and you do not need to type anything in the entire row.
+     * If you downloaded a blank template, you do not need to add new rows for existing objects.
 
 1. Complete the cell in the **ID** column in one of the following ways:
 
    * If the object you are importing is new (and you typed **TRUE** in the **isNew** column), specify any number for the ID. This number must be unique in the spreadsheet.
    
-   * If the object you are importing already exists in the Workfront system (and you typed **FALSE** in the **isNew** column), the ID must be the alpha-numeric GUID that exists in Workfront for that object.
+   * If the object you are importing already exists in the Workfront system (and **FALSE** is in the **isNew** column), the ID must be the alpha-numeric GUID that exists in Workfront for that object.
+
+     * Records that already exist in Workfront are not updated.
+     * If you downloaded a template with data, existing objects already contain the GUID as the ID and you do not need to type anything in the entire row.
+     * If you downloaded a blank template, you do not need to add new rows for existing objects.
 
       ![Sample ID for a Group](assets/kick-start-group-example.png)
    
