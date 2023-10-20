@@ -59,23 +59,23 @@ The following is a planned timeline with key milestones for the release of the n
     >
     >    Iterations will continue to have the legacy commenting experience. The new commenting experience will not be available for iterations. 
 
+* First quarter of 2024 (January 2024):
+
+    * The option to switch back to the legacy commenting stream will be removed and the new commenting stream will become the only experience for all objects, with the exception of Iterations. 
+
 ## Released features
 
 The following section contains a list of features that have been added after the original 23.2 release, starting with the ones released most recently. 
 
 The following information refers to the release activity on a weekly basis of the features included in the new commenting beta experience. This article lists new features that are added and issues that are resolved for the new commenting experience.
 
-<!--CHECK THE DATES BELOW, BEFORE POSTING: 
+### Week of October 16, 2023
 
-### Week of October 9, 2023
-
-#### Add back the "on behalf of <user name>" information when commenting on behalf of other users
+#### Add the "on behalf of < user name >" information when commenting while logged in as another user
 
 While redesigning the commenting experience, we had removed the "on behalf of < user name >" indicator when a Workfront or group administrator added comments while logged in as another user. This information has now been restored. 
 
-Preview and production for all customers: October 13, 2023. 
-
--->
+Preview and production for all customers: October 19, 2023. 
 
 ### Week of September 11, 2023
 
