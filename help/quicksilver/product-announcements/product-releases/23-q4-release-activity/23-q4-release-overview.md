@@ -542,6 +542,23 @@ The 23.10 release webinar was on October 5, 2023. You can [register for the webi
                 </tr>
                 <tr>
                     <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Real-time updates on task list</a> </p>
+                        <p>[!BADGE In production]{type=Informative}</p>
+                        <p>Tasks lists now update in real-time. Changes made to a task are updated in the task list, so that a user viewing the task list can see the change without refreshing the page.</p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                        <ul>
+                            <li>
+                                <p>Preview release: N/A<br /></p>
+                            </li>
+                            <li>
+                                <p><span class="preview">Production for all customers: Phased rollout, completed October 19, 2023</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Updated design when adding a new issue to a project</a> </p>
                         <p>[!BADGE In production for Fast Release ]{type=Positive}</p>
                         <p>This update has been announced with the 23.3 release.</p>
