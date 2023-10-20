@@ -5,6 +5,7 @@ title: Adobe Workfront basics
 description: Review these areas to get an understanding of the basics of Adobe Workfront.
 author: Lisa
 feature: Get Started with Workfront
+recommendations: noDisplay, noCatalog
 exl-id: c0b25ec2-38a5-4499-9366-be3b71ae62a2
 ---
 # Adobe Workfront basics

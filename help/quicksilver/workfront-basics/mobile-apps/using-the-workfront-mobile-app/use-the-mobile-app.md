@@ -5,6 +5,7 @@ title: Use the [!DNL Adobe Workfront] mobile app
 description: Accelerate engagement and streamline work for teams and individuals in your organization through [!DNL Adobe Workfront's] mobile app, available on any iOS or Android device. 
 author: Nolan
 feature: Get Started with Workfront
+recommendations: noDisplay, noCatalog
 exl-id: 10419dc8-8e7b-40fb-91fe-0ddbd0a493c9
 ---
 # Use the [!DNL Adobe Workfront] mobile app

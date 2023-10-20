@@ -5,6 +5,7 @@ title: Create and manage timesheets in Adobe Workfront
 description: You can create timesheets in Adobe Workfront and keep track of the time you spend on completing work. Learn more information about creating, editing, and managing timesheets in the following articles. 
 author: Alina
 feature: Timesheets
+recommendations: noDisplay, noCatalog
 exl-id: 605d47e4-fcb7-4635-a4c9-bbb34e1f73b1
 ---
 # Create and manage timesheets in Adobe Workfront
