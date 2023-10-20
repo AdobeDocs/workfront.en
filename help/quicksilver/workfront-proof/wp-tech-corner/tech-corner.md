@@ -7,6 +7,7 @@ title: Workfront Proof tech corner
 description: This section contains the following subsections - EDIT ME.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
+recommendations: noDisplay, noCatalog
 exl-id: dbdaa5c8-4d09-4e12-b84f-b3a37e6b3b78
 ---
 # [!DNL Workfront Proof] tech corner

@@ -6,6 +6,7 @@ title: Issues
 description: The following sections contain information about managing and converting issues in Adobe Workfront.
 author: Alina
 feature: Work Management
+recommendations: noDisplay, noCatalog
 exl-id: 3615f31e-72a1-4c85-b093-c6f8295e7fda
 ---
 # Issues

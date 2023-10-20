@@ -6,6 +6,7 @@ title: Teams and groups
 description: Review these areas to learn about working with teams and groups.
 author: Lisa
 feature: People Teams and Groups
+recommendations: noDisplay, noCatalog
 exl-id: 1ff36a4b-637a-46f2-ac1a-6a8d2c146862
 ---
 # Teams and groups

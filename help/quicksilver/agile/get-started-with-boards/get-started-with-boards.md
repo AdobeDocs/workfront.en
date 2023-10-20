@@ -5,6 +5,7 @@ title: Get started with boards in [!DNL Adobe Workfront]
 description: Review these articles to learn how to use boards in Workfront.
 author: Lisa
 feature: Agile
+recommendations: noDisplay, noCatalog
 exl-id: f9b8b721-d4ba-4ed5-b7a4-ad3610cbc18e
 ---
 # Get started with boards in [!DNL Adobe Workfront]

@@ -7,6 +7,7 @@ title: Administration and setup
 description: Find the information you need to manage the Workfront system in this section.
 feature: System Setup and Administration
 role: Admin
+recommendations: noDisplay, noCatalog
 exl-id: f80bb267-be96-41d4-98c5-398bde66499e
 ---
 # Administration and setup

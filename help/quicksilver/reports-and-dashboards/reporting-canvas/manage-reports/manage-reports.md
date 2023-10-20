@@ -3,6 +3,7 @@ title: Manage Reports
 description: Manage Reports overview
 hidefromtoc: yes
 hide: yes
+recommendations: noDisplay, noCatalog
 exl-id: 535b81a4-77bb-4c6b-84e0-e83f080e802e
 ---
 # Manage Reports

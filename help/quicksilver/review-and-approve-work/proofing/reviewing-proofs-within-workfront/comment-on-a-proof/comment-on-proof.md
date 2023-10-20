@@ -6,6 +6,7 @@ title: Comment on a proof overview
 description: Comment on a proof
 author: Courtney
 feature: Digital Content and Documents
+recommendations: noDisplay, noCatalog
 exl-id: 526d4f65-54c1-480c-ab7b-f207b74cafbf
 ---
 # Comment on a proof

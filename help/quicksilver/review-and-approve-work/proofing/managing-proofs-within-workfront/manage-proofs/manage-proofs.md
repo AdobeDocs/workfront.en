@@ -6,6 +6,7 @@ title: Manage proofs
 description: Edit proof settings
 author: Courtney
 feature: Digital Content and Documents
+recommendations: noDisplay, noCatalog
 exl-id: ed1719ff-27e3-4fc0-b5bf-b3f20ffe98f0
 ---
 # Manage proofs

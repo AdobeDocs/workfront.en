@@ -7,6 +7,7 @@ title: Automated Workflow in [!DNL Workfront Proof]
 description: This section contains the following articles - EDIT ME.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
+recommendations: noDisplay, noCatalog
 exl-id: f046bb02-3348-42c0-8307-65c86d4e4789
 ---
 # Automated Workflow in [!DNL Workfront Proof]

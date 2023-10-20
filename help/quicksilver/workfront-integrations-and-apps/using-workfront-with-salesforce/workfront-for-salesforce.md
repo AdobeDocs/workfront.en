@@ -4,6 +4,7 @@ description: You can use [!DNL Adobe Workfront] for [!DNL Salesforce] to integra
 author: Becky
 draft: Probably
 feature: Workfront Integrations and Apps
+recommendations: noDisplay, noCatalog
 exl-id: 5089fd81-c094-487b-8ffa-e4d2ba2e4ae6
 ---
 # Adobe Workfront for [!DNL Salesforce]

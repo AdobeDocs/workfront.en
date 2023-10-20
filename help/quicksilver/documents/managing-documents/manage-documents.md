@@ -6,6 +6,7 @@ title: Manage documents
 description: You can organize and manage documents in Workfront in the Documents area.
 author: Courtney
 feature: Digital Content and Documents
+recommendations: noDisplay, noCatalog
 exl-id: 985e4d3d-f07e-46df-b0e3-dd4b0ff59660
 ---
 # Manage documents

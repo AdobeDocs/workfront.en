@@ -6,6 +6,7 @@ title: Create requests
 description: Requests and issues are interchangeable in Adobe Workfront. You can create requests by submitting a request in Workfront, submitting a request in another application, or emailing a request into a project which is set up as a Request Queue.
 author: Alina
 feature: Work Management
+recommendations: noDisplay, noCatalog
 exl-id: de161674-5b61-4853-a16a-c70db10a1c95
 ---
 # Create requests

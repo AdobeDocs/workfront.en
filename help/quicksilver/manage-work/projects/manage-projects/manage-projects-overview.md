@@ -6,6 +6,7 @@ title: Manage projects
 description: Find out information about managing projects in the following articles.
 author: Alina
 feature: Work Management
+recommendations: noDisplay, noCatalog
 exl-id: a63ec4e0-ba39-42c1-8061-c29350ef4bbb
 ---
 # Manage projects

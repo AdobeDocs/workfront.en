@@ -4,7 +4,7 @@ navigation-topic: approvals
 title: Remind approvers about submitted approvals
 description: You can remind approvers about pending approvals for the following objects - EDIT ME.
 author: Courtney
-feature: Work Management
+feature: Work Management, Digital Content and Documents
 exl-id: eece6fc8-14e8-4751-8662-080ecb4371e3
 ---
 # Remind approvers about submitted approvals

@@ -6,6 +6,7 @@ title: Use task predecessors
 description: Predecessors are tasks that other tasks (called successor tasks) depend on before they can complete. Learn about predecessors in Adobe Workfront in the following articles. 
 author: Alina
 feature: Work Management
+recommendations: noDisplay, noCatalog
 exl-id: 56048927-39cd-49a0-b00a-bf145bca90a1
 ---
 # Use task predecessors

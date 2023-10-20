@@ -6,6 +6,7 @@ title: Manage resources
 description: Resource Management is important for properly managing your work and forecasting availability. Learn how to plan and schedule your resources for work in the following articles. 
 author: Alina
 feature: Resource Management
+recommendations: noDisplay, noCatalog
 exl-id: 6f8b3f4a-acdc-4d15-95f7-c71b85d5a8d3
 ---
 # Manage resources

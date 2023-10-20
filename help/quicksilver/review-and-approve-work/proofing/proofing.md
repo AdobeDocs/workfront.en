@@ -6,6 +6,7 @@ title: Proofing
 description: This section contains the following subsections - EDIT ME.
 author: Courtney
 feature: Digital Content and Documents
+recommendations: noDisplay, noCatalog
 exl-id: 34814016-e030-4e21-a597-686c4107eff4
 ---
 # Proofing
