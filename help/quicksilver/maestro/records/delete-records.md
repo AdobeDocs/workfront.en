@@ -11,7 +11,7 @@ exl-id: 3f7a3667-8a9f-462a-b706-cf15850a0d1c
 # Delete records
 
 >[!IMPORTANT]
->>The information in this article refers to Adobe Maestro which is a new offering from Adobe. 
+>The information in this article refers to Adobe Maestro which is a new offering from Adobe. 
 >
 >Currently, Adobe Maestro is part of a beta program which is open to a limited number of customers. 
 >
