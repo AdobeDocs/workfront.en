@@ -105,7 +105,7 @@ You must have the following access to perform the steps in this article:
      </tr> 
      <tr> 
       <td role="rowheader">Users in the system will default to seeing the New Home experience </td> 
-      <td>Lets you specify whether users will see the New Home experience by default. When enabled, users can still opt to enable or disable New Home on an individual basis. When disabled, users will not have the option to use New Home. This option is enabled by default.</td> 
+      <td>Lets you specify whether users will see the New Home experience by default. When enabled, users will see the New Home experience by default, but can still opt to enable or disable New Home on an individual basis. <b>When disabled, users will not have the option to use New Home.</b> This setting is enabled by default.</td> 
      </tr> 
     </tbody> 
    </table>

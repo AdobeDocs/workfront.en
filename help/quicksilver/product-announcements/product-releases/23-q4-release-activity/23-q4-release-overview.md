@@ -358,9 +358,9 @@ The 23.10 release webinar was on October 5, 2023. You can [register for the webi
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-home-enhancements.md" class="MCXref xref" xrefformat="{para}">New quick access buttons for Project, Task, and Issue tracking widgets</a> </p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-home-enhancements.md" class="MCXref xref" xrefformat="{para}">New quick action buttons for the My Work widget</a> </p>
                         <p>[!BADGE In production for Fast Release ]{type=Positive}</p>
-                        <p>Further expanding your ability to manage work directly from New Home, new quick access buttons have been added to Project, Task, and Issue tracking widgets.</p>
+                        <p>Further expanding your ability to manage work directly from New Home, new quick action buttons have been added to the My Work widget.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
                         <ul>
