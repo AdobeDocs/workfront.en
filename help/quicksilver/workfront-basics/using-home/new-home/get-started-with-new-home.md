@@ -46,7 +46,7 @@ Below are the ten widgets currently available to choose from, as well as a summa
     Displays all approvals for your organization in a table with customizable columns, as well as a search bar that allows you to search for specific approvals.
 
 * **Mentions**\
-    Displays recent comment threads that contain @ mentions of you across Workfront, as well as a reply button that allows you to compose a reply within the widget. This widget also shows comments made on tasks and issues that you are assigned to, that you assigned to another user, that you own, that you are primary contact on, or that you created—as long as the task or issue has been updated in the last 30 days.
+    Displays recent comment threads from across Workfront, similarly to the My Updates page, as well as a reply button that allows you to compose a reply within the widget. This widget also shows comments made on tasks and issues that you are assigned to, that you assigned to another user, that you own, that you are primary contact on, or that you created—as long as the task or issue has been updated in the last 30 days.
 
 * **To-dos**\
     This unique widget allows you to add text items to a personal checklist that you can freely edit.
@@ -72,7 +72,7 @@ By default, the Home page is populated with a few specific widgets based on your
     </tr>
     <tr>
         <td>Contributor</td>
-        <td>My Work, Mentions</td>
+        <td>My Requests, Mentions, Awaiting My Approval, Boards</td>
     </tr>
     <tr>
         <td>External</td>
@@ -98,11 +98,11 @@ By default, the Home page is populated with a few specific widgets based on your
         <td>My Work, Mentions</td>
     </tr>
     <tr>
-        <td>Limited</td>
+        <td>Request</td>
         <td>My Projects, Awaiting My Approval</td>
     </tr>
     <tr>
-        <td>Contributor</td>
+        <td>Contribute</td>
         <td>My Work, Mentions</td>
     </tr>
     <tr>
