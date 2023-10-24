@@ -54,8 +54,6 @@ For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Work
 
 ## Create a connection to [!DNL Adobe Maestro]
 
-## Connect [!DNL Workfront] to [!DNL Maestro] 
-
 You can create a connection to your [!DNL Maestro] account directly from inside a [!DNL Workfront Fusion] module.
 
 1. In any [!DNL Maestro] app module, click **[!UICONTROL Add]** next to the [!UICONTROL Connection] box.
@@ -66,7 +64,7 @@ You can create a connection to your [!DNL Maestro] account directly from inside 
 
 ## [!DNL Adobe Maestro] modules and their fields
 
-### Custom API Call
+### Make a custom API call
 
 
 #### [!UICONTROL Make a custom API call]
@@ -133,6 +131,14 @@ This module makes a custom API call to the [!DNL Adobe Maestro] API.
      </div> </p> </td>     </tr>
   </tbody>
 </table>
+
+### Create Record
+
+This action creates a single record in Maestro.
+
+
+
+### Delete Record
 
 ### Get all records
 
