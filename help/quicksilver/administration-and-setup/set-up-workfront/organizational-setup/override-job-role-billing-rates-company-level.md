@@ -11,9 +11,7 @@ exl-id: ee60987e-78b5-4853-9a4f-e44aa7a81c05
 ---
 # Override job role billing rates at the company level
 
-{{highlighted-preview}}
-
-When a job role is created, you have the option to select an hourly billing rate for that role. <span class="preview">You can create multiple hourly billing rates that are specific to a company. Each billing rate is effective for a specific date range.</span>
+When a job role is created, you have the option to select an hourly billing rate for that role. You can create multiple hourly billing rates that are specific to a company. Each billing rate is effective for a specific date range.
 
 At the project level, you can enable an option to allow company-level billing rates to override project-level rates. For more information, see [Override Project-Level Billing Rates with Company-Level Billing Rates](../../../manage-work/projects/project-finances/override-project-level-with-company-level-billing-rates.md).
 
@@ -48,30 +46,30 @@ You must have the following:
 
 1. Click **[!UICONTROL Companies]**.
 1. Locate the company where the job role is assigned.
-1. <span class="preview">Click the company name in the list.</span>
-1. <span class="preview">Click **[!UICONTROL Billing Rates]** in the left panel.</span>
-1. <span class="preview">Click **[!UICONTROL Add Billing Rate] > [!UICONTROL New Billing Rate]**, or choose an existing rate to edit.</span>
-1. <span class="preview">In the [!UICONTROL New Billing Rate] dialog, select a [!UICONTROL **Job Role**] to define the billing rate for.</span>
+1. Click the company name in the list.
+1. Click **[!UICONTROL Billing Rates]** in the left panel.
+1. Click **[!UICONTROL Add Billing Rate] > [!UICONTROL New Billing Rate]**, or choose an existing rate to edit.
+1. In the [!UICONTROL New Billing Rate] dialog, select a [!UICONTROL **Job Role**] to define the billing rate for.
 
-   <span class="preview">The [!UICONTROL **Default Billing Rate**] displays the system-level rate for this job role.</span>
+   The [!UICONTROL **Default Billing Rate**] displays the system-level rate for this job role.
 
-   <span class="preview">![New Billing Rate dialog](assets/date-effective-billing-rates-for-company.png)</span>
+   ![New Billing Rate dialog](assets/date-effective-billing-rates-for-company.png)
 
-1. <span class="preview">In the [!DNL **Billing Rates 1**] field, enter the billing rate. Then, click [!UICONTROL **Save**] to override the billing rate one time.</span>
+1. In the [!DNL **Billing Rates 1**] field, enter the billing rate. Then, click [!UICONTROL **Save**] to override the billing rate one time.
 
-   <span class="preview">Or</span>
+   Or
 
-   <span class="preview">Click [!UICONTROL **Add Rate**] to add more billing rates with effective dates.</span>
+   Click [!UICONTROL **Add Rate**] to add more billing rates with effective dates.
 
-1. <span class="preview">(Conditional) If you are adding more than one billing rate, enter the following information:</span>
+1. (Conditional) If you are adding more than one billing rate, enter the following information:
 
-   * <span class="preview">**[!UICONTROL Billing Rates 1], 2, etc.**: The value of the billing rate for the time period.</span>
-   * <span class="preview">**[!UICONTROL Start Date]**: The date when the rate becomes effective.</span>
-   * <span class="preview">**[!UICONTROL End Date]**: The date when the rate ends.</span>
+   * **[!UICONTROL Billing Rates 1], 2, etc.**: The value of the billing rate for the time period.
+   * **[!UICONTROL Start Date]**: The date when the rate becomes effective.
+   * **[!UICONTROL End Date]**: The date when the rate ends.
 
-     <span class="preview">Billing Rate 1 will not have a start date and the last billing rate will not have an end date. Some dates are added automatically. For example, if Billing Rate 1 does not have an end date, and you add Billing Rate 2 with a start date of May 1, 2023, an end date of April 30, 2023 is added to Billing Rate 1 so that no gaps exist.</span>
+     Billing Rate 1 will not have a start date and the last billing rate will not have an end date. Some dates are added automatically. For example, if Billing Rate 1 does not have an end date, and you add Billing Rate 2 with a start date of May 1, 2023, an end date of April 30, 2023 is added to Billing Rate 1 so that no gaps exist.
 
-1. <span class="preview">Click [!UICONTROL **Save**].</span>
+1. Click [!UICONTROL **Save**].
 
    >[!NOTE]
    >
