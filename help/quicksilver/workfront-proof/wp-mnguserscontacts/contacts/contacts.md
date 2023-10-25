@@ -7,6 +7,7 @@ title: Contacts
 description: This section contains the following articles - EDIT ME.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
+recommendations: noDisplay, noCatalog
 exl-id: a8b70462-28bc-45cc-b19a-cb683172d528
 ---
 # Contacts

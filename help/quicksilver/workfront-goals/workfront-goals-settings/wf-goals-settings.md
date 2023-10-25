@@ -6,6 +6,7 @@ title: Adobe Workfront Goals settings
 description: Learn about goal-related notifications and how to share a goal in Adobe Workfront Goals in the following articles.
 author: Alina
 feature: Workfront Goals
+recommendations: noDisplay, noCatalog
 exl-id: 7cdef9d5-e37b-4f1f-9293-39c79781590a
 ---
 # Adobe Workfront Goals settings

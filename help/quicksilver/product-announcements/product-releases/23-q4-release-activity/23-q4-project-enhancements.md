@@ -49,3 +49,7 @@ For more information, see [Edit information in custom form fields](/help/quicksi
 We have made a change in the way Planned Hours are allocated to recurring tasks with no assignments and a Simple duration type. Now, when you set Planned Hours on a new recurring task with a Simple Duration Type and no assignments, the hours are also allocated to the individual recurrences. Prior to this change, the hours were not saved for individual recurrences when the parent tasks were unassigned.
 
 For information about creating recurring tasks, see [Create recurring tasks](/help/quicksilver/manage-work/tasks/create-tasks/create-recurring-tasks.md).
+
+## Real-time updates on task list
+
+Tasks lists now update in real-time. Changes made to a task are updated in the task list, so that a user viewing the task list can see the change without refreshing the page.

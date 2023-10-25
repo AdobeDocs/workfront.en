@@ -6,6 +6,7 @@ title: Manage proofs within Adobe Workfront
 description: This section contains the following articles - EDIT ME.
 author: Courtney
 feature: Digital Content and Documents
+recommendations: noDisplay, noCatalog
 exl-id: dcd049e4-2e9f-49b9-adac-8b8e67187a3b
 ---
 # Manage proofs within Adobe Workfront

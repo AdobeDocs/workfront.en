@@ -67,6 +67,22 @@ The 23.10 release webinar was on October 5, 2023. You can [register for the webi
                  </tr>
                  <tr>
                     <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-admin-enhancements.md" class="MCXref xref" xrefformat="{para}">Proof and document decisions available to legacy license model customers</a></p>
+                        <p>Legacy customers who have not yet transitioned to the new Adobe Workfront license model can now see data with the number of proof/document decisions per user per month, in a single report. This data is available when you run a Users Decisions report.</p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                        <ul>
+                            <li>
+                                <p>Preview release: October 12, 2023</p>
+                            </li>
+                            <li>
+                                <p><span class="preview">Production for all customers: October 12, 2023</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>            
+                 <tr>
+                    <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-admin-enhancements.md" class="MCXref xref" xrefformat="{para}">Calculated fields on custom forms can now use the $$USER wildcard</a></p>
                         <p>The $$USER wildcard is now available in calculated custom fields and external lookup fields on the new form designer.</p>
                     </td>
@@ -319,8 +335,8 @@ The 23.10 release webinar was on October 5, 2023. You can [register for the webi
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-home-enhancements.md" class="MCXref xref" xrefformat="{para}">New contributor default landing page: New Home</a> <span style="color: #ff0000;"> New in Preview!</span> </p>
-                        <p>New Home is now the default landing page for contributor accounts. This new default home page includes a number of widgets specifically selected to best enable contributors to manage their work right away.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-home-enhancements.md" class="MCXref xref" xrefformat="{para}">New Contributor default landing page: New Home</a> <span style="color: #ff0000;"> New in Preview!</span> </p>
+                        <p>New Home is now the default landing page for Contributor/Requestor accounts. This new default home page includes a number of widgets specifically selected to best enable Contributors to manage their work right away.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
                         <ul>
@@ -358,9 +374,9 @@ The 23.10 release webinar was on October 5, 2023. You can [register for the webi
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-home-enhancements.md" class="MCXref xref" xrefformat="{para}">New quick access buttons for Project, Task, and Issue tracking widgets</a> </p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-home-enhancements.md" class="MCXref xref" xrefformat="{para}">New quick action buttons for the My Work widget</a> </p>
                         <p>[!BADGE In production for Fast Release ]{type=Positive}</p>
-                        <p>Further expanding your ability to manage work directly from New Home, new quick access buttons have been added to Project, Task, and Issue tracking widgets.</p>
+                        <p>Further expanding your ability to manage work directly from New Home, new quick action buttons have been added to the My Work widget.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
                         <ul>
@@ -488,7 +504,7 @@ The 23.10 release webinar was on October 5, 2023. You can [register for the webi
                 </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Upgrades to drag-and-drop for document integrations</a></p><p>[!BADGE In production ]{type=Informative}</p><p>We've made some enhancements to add clarity and remove user error when dragging and dropping a file into a linked folder.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Upgrades to drag-and-drop for document integrations</a></p><p>We've made some enhancements to add clarity and remove user error when dragging and dropping a file into a linked folder.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
                         <ul>
@@ -496,7 +512,7 @@ The 23.10 release webinar was on October 5, 2023. You can [register for the webi
                                 <p>Preview release: August 24, 2023<br /></p>
                             </li>
                             <li>
-                                <p><span class="preview">Production for all customers: August 31, 2023</span></p>
+                                <p><span class="preview">Production for all customers: After the 23.10 release</span></p>
                             </li>
                         </ul>
                     </td>
@@ -538,6 +554,23 @@ The 23.10 release webinar was on October 5, 2023. You can [register for the webi
                             </li>
                         </ul>
                         <p><span style="color: #ff0000;">This feature is part of a phased release and is currently only available for specific customers.</span></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Real-time updates on task list</a> </p>
+                        <p>[!BADGE In production]{type=Informative}</p>
+                        <p>Tasks lists now update in real-time. Changes made to a task are updated in the task list, so that a user viewing the task list can see the change without refreshing the page.</p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                        <ul>
+                            <li>
+                                <p>Preview release: N/A<br /></p>
+                            </li>
+                            <li>
+                                <p><span class="preview">Production for all customers: Phased rollout, completed October 19, 2023</span></p>
+                            </li>
+                        </ul>
                     </td>
                 </tr>
                 <tr>
@@ -622,27 +655,8 @@ The 23.10 release webinar was on October 5, 2023. You can [register for the webi
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Updated email templates</a> <span style="color: #ff0000;"> New in Preview!</span></p>
-                        <p>As the start of a new initiative to update our event notification emails, we have updated two of the most commonly used: document approval and object sharing.</p>
-                    </td>
-                    <td><p><b>Available on these dates:</b></p>
-                        <ul>
-                            <li>
-                                <p>Preview release: October 12, 2023</p>
-                            </li>
-                            <li>
-                                <p>Production for fast release: With the 23.10 release</p>
-                            </li>
-                            <li>
-                                <p>Production for quarterly release: With the 23.10 release</p>
-                            </li>
-                        </ul>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Contributor main menu changes</a> <span style="color: #ff0000;"> New in Preview!</span></p>
-                        <p>To better inform contributors of the features available with a paid Workfront license type, they can now see all of the options available in the main menu.</p>
+                        <p>To better inform Contributors/Requestors of the features available with a paid Workfront license type, they can now see all of the options available in the main menu.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
                         <ul>

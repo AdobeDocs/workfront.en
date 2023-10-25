@@ -6,6 +6,7 @@ title: Tips, tricks, and troubleshooting for timesheets
 description: Learn more about common timesheet behavior or how to troubleshoot potential problems with timesheets in the following articles. 
 author: Alina
 feature: Timesheets
+recommendations: noDisplay, noCatalog
 exl-id: cf5f93d1-e517-421e-8740-1b80af2ed127
 ---
 # Tips, tricks, and troubleshooting for timesheets

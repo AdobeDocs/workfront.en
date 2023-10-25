@@ -4,6 +4,7 @@ description: Workfront and Experience Manager Assets Integrations
 author: Courtney
 draft: Probably
 feature: Digital Content and Documents, Workfront Integrations and Apps
+recommendations: noDisplay, noCatalog
 exl-id: 34720d3b-71bc-4a33-aad9-4ca14262bd0a
 ---
 # Workfront and Experience Manager Assets Integrations

@@ -6,6 +6,7 @@ title: Grant and request permissions to objects
 description: Review these articles to learn how to grant and request permission to objects in Workfront.
 author: Alina
 feature: Get Started with Workfront
+recommendations: noDisplay, noCatalog
 exl-id: b7b3de2c-8537-49c5-8674-a7a0f3691db3
 ---
 # Grant and request permissions to objects

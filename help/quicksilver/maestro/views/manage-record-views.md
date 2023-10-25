@@ -12,6 +12,8 @@ exl-id: 77342724-0182-4134-903b-4428d54cdceb
 
 >[!IMPORTANT]
 >
+>The information in this article refers to Adobe Maestro which is a new offering from Adobe. 
+>
 >Currently, Adobe Maestro is part of a beta program which is open to a limited number of customers. 
 >
 >Contact your account representative for more information about joining the beta program for Maestro.
@@ -136,13 +138,11 @@ The following table shows the similarities and differences between the table and
 | Filter records                                       | ✓          | ✓             |
 | Group records                                      |           | ✓             |
 | Sort records                                       | ✓          |              |
+| Color-code records                     |           | ✓              |
+| Color-code groupings                     |           | ✓              |
 
 <!--| Sort groupings                                                        | ✓          | ✓             |-->
-
  <!--| Display a limited number of fields as columns, by default                      | ✓          |               |-->
-
- <!--| Color-code records                     |           | ✓              |-->
- <!--| Color-code groupings                     |           | ✓              |-->
 
 ## Create or edit views {#create-or-edit-views}
 

@@ -5,6 +5,7 @@ title: Use built-in reports
 description: This section contains the following articles - EDIT ME.
 author: Nolan
 feature: Reports and Dashboards
+recommendations: noDisplay, noCatalog
 exl-id: 478747bc-82b4-45c5-bd64-57e370c86567
 ---
 # Use built-in reports

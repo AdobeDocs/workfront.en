@@ -14,7 +14,7 @@ For a list of all changes available at this point in the Fourth Quarter 2023 rel
 
 A commonly requested feature of the old home page, we've now added a delegate button to the My Work, My Tasks, and My Issues widgets so that you can easily delegate work when you're out of the office. In the delegate menu, which functions identically to the way it did prior to New Home, you can select to whom and for how long you'd like to delegate your stories and issues. Note that work delegation must be enabled in your Workfront environment for the button to appear.
 
-For more information on delegating in Workfront, see [Manage task and issue delegation](/help/quicksilver/manage-work/delegate-work/how-to-delegate-work.md)
+For more information on delegating in Workfront, see [Manage task and issue delegation](/help/quicksilver/manage-work/delegate-work/how-to-delegate-work.md).
 
 ## New Boards widget for New Home
 
@@ -22,9 +22,9 @@ In a major new addition to the work management options available in New Home, yo
 
 For more information on the widgets available in New Home, see [Get started with New Home](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
 
-## New contributor default landing page: New Home
+## New Contributor default landing page: New Home
 
-New Home is now the default landing page for contributor accounts. This new default home page includes a number of widgets specifically selected to best enable contributors to manage their work right away. Upon their first visit to the page, contributors will also be instructed on using New Home and the specific widgets available by default in a customized walkthrough. Note that if a layout with a custom home page currently being used by a contributor account, it will remain their home page.
+New Home is now the default landing page for Contributor/Requestor accounts. This new default home page includes a number of widgets specifically selected to best enable Contributors to manage their work right away. Upon their first visit to the page, Contributors will also be instructed on using New Home and the specific widgets available by default in a customized walkthrough. These default widgets for Contributors are: My Requests, Mentions, Awaiting My Approval, and Boards. Note that if a layout with a custom home page is currently being used by a contributor account, it will remain their home page.
 
 For more information on using New Home, see [Get started with New Home](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
 
@@ -34,9 +34,9 @@ Based on user feedback, we have removed the page-wide time range filter and summ
 
 For more information on tracking work in New Home, see [Get started with New Home](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
 
-## New quick access buttons for the Project, Task, and Issue tracking widgets
+## New quick action buttons for the My Work widget
 
-Further expanding  your ability to manage work directly from New Home, new quick access buttons have been added to the Project, Task, and Issue tracking widgets (including My Work). Found on each project, task, issue, or request in these widgets, these new buttons allow you to quickly open the summary pane, upload files, edit custom forms, create an update, and log time without leaving your New Home page—as well as a larger Work On It button.
+Further expanding  your ability to manage work directly from New Home, new quick action buttons have been added to the My Work widget. Found on each project, task, issue, or request in the widget, these new buttons allow you to quickly open the summary pane, upload files, edit custom forms, create an update, and log time without leaving your New Home page—as well as a larger Work On It/Done button.
 
 For more information on the widget capabilities in New Home, see [Get started with New Home](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
 

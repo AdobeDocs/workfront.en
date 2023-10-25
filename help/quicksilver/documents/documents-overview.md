@@ -6,6 +6,7 @@ title: Documents
 description: This section contains the following subsections - EDIT ME.
 author: Courtney
 feature: Digital Content and Documents
+recommendations: noDisplay, noCatalog
 exl-id: 75635712-c237-4a83-9ab0-fe37c8069284
 ---
 # Documents

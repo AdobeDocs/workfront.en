@@ -6,6 +6,7 @@ title: Tips, tricks, and troubleshooting for Adobe Workfront API
 description: Tips, tricks, and troubleshooting for Adobe Workfront API
 author: Becky
 feature: Workfront API
+recommendations: noDisplay, noCatalog
 exl-id: 644b9323-c6c3-49bd-8295-b51352992316
 ---
 # Tips, tricks, and troubleshooting for Adobe Workfront API

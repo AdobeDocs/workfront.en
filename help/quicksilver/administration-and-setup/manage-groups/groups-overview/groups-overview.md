@@ -8,6 +8,7 @@ description: A Workfront administrator can create groups of users that coincide 
 author: Caroline
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
+recommendations: noDisplay, noCatalog
 exl-id: afbbdda2-095b-429d-a672-2f53c541273c
 ---
 # Groups overview

@@ -7,6 +7,7 @@ title: Manage your work
 description: This section contains the following articles - EDIT ME.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
+recommendations: noDisplay, noCatalog
 exl-id: b587653a-caad-4f4c-8abf-4733ad2adfb1
 ---
 # Manage your work

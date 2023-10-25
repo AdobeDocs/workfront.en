@@ -7,6 +7,7 @@ title: Proof notifications and reminders overview
 description: This section contains the following subsections - EDIT ME.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
+recommendations: noDisplay, noCatalog
 exl-id: 028a1a01-40fa-4b09-912a-b9f522c49df9
 ---
 # Proof notifications and reminders

@@ -6,6 +6,7 @@ title: Iterations
 description: Review these articles to learn how to use iterations.
 author: Lisa
 feature: Agile
+recommendations: noDisplay, noCatalog
 exl-id: 474ab807-fd6c-4248-9567-121e5d4b7b5b
 ---
 # Iterations

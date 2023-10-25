@@ -7,6 +7,7 @@ title: Workfront Proof
 description: This section contains the following subsections - EDIT ME.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
+recommendations: noDisplay, noCatalog
 exl-id: f9c782b7-23dc-4fde-83e1-b7ef71a3b741
 ---
 # Workfront Proof

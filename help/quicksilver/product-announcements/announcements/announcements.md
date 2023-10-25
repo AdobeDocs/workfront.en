@@ -5,6 +5,7 @@ title: Announcements
 description: This section contains the following articles - EDIT ME.
 author: Luke
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 3fe99aec-1489-4434-b787-cc3f940c9062
 ---
 # Announcements

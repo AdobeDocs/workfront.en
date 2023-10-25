@@ -5,6 +5,7 @@ title: Use the Home area
 description: Review these articles to learn how to use the Home area in Adobe Workfront.
 author: Lisa
 feature: Get Started with Workfront
+recommendations: noDisplay, noCatalog
 exl-id: 246e3f71-6403-4381-866c-fa693fb9944d
 ---
 # Use the Home area

@@ -8,6 +8,7 @@ description: You can add users in Adobe Workfront by creating individual users f
 author: Caroline
 feature: System Setup and Administration
 role: Admin
+recommendations: noDisplay, noCatalog
 exl-id: 92b02c31-7e77-4b27-9b17-d7803df2ba2d
 ---
 # Add users

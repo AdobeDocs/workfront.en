@@ -12,6 +12,8 @@ exl-id: 6c35c313-d6ed-428b-b70d-2ea242da4e8f
 
 >[!IMPORTANT]
 >
+>The information in this article refers to Adobe Maestro which is a new offering from Adobe. 
+>
 >Currently, Adobe Maestro is part of a beta program which is open to a limited number of customers. 
 >
 >Contact your account representative for more information about joining the beta program for Maestro.
@@ -105,6 +107,9 @@ You must have the following access to perform the steps in this article:
     This opens the record type's page. 
 1. (Conditional) Select a **Table view** from the **View** drop-down menu in the upper-right corner of the record type page.
 1. Hover over the column header of a field you want to edit, then click the downward-pointing arrow after the field name.
+
+    ![](assets/arrow-menu-after-name-of-field-in-table-header-highlighted.png)
+    
 1. Click **Edit field**, then update information about the field and click **Save**.
 
     <!--insert screen shot when finalized-->

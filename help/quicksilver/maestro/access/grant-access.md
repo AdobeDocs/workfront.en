@@ -12,7 +12,7 @@ exl-id: 475a519d-d3bd-4461-8099-0e296d556d34
 
 >[!IMPORTANT]
 >
->Adobe Maestro is a new offering from Adobe Workfront. 
+>The information in this article refers to Adobe Maestro which is a new offering from Adobe. 
 >
 >Currently, Adobe Maestro is part of a beta program which is open to a limited number of customers. 
 >
@@ -44,7 +44,7 @@ After your organization has been enrolled in the Maestro beta program, you can a
 
 To share the Maestro area using a layout template: 
 
-1. Log in to **Workfront** as a system administrator.  
+1. Log in to **Workfront** as a Workfront administrator.  
 
 1. Add the **Maestro** icon ![](assets/maestro-icon.png) to the **Main Menu** using a **Layout Template**. 
     

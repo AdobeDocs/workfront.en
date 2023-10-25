@@ -6,6 +6,7 @@ title: Manage issues
 description: The following articles contain information about managing issues.
 author: Alina
 feature: Work Management
+recommendations: noDisplay, noCatalog
 exl-id: 12fa2d34-a7b4-47ba-825c-a00fb5f71efd
 ---
 # Manage issues

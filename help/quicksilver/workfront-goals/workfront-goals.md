@@ -4,6 +4,7 @@ description: Adobe Workfront Goals
 author: Alina
 draft: Probably
 feature: Workfront Goals
+recommendations: noDisplay, noCatalog
 exl-id: 945a7d15-f10e-4829-aedb-e0de46cd6090
 ---
 # Adobe Workfront Goals

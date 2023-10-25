@@ -6,6 +6,7 @@ title: Tips, tricks, and troubleshooting for reports
 description: This section contains the following articles - EDIT ME.
 author: Nolan
 feature: Reports and Dashboards
+recommendations: noDisplay, noCatalog
 exl-id: 76ca4656-79a6-43da-a6d5-56a30f542d1e
 ---
 # Tips, tricks, and troubleshooting for reports

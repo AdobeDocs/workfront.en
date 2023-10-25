@@ -6,6 +6,7 @@ title: Work with groups and teams
 description: Review these articles to learn how to work with groups and teams in Workfront.
 author: Lisa
 feature: People Teams and Groups
+recommendations: noDisplay, noCatalog
 exl-id: f5357f8d-9fa0-46f2-9ae5-7fc224c52fc1
 ---
 # Work with groups and teams

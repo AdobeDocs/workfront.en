@@ -127,8 +127,6 @@ The information in the Updates section is organized differently, depending on wh
 
 For information about what features are available for the new commenting experience and for what objects, see [New commenting experience](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
-<!--update screen shot and maybe save it under a new name??? with the August 17 release - also make sure you have some people tagged, similar to what we show in the old UI-->
-
 <span class="preview">![](assets/updates-tab-after-unified-experience-for-tasks.png)</span>
 
 * The Updates section displays information in the following tabs in the new commenting experience: 
@@ -205,8 +203,6 @@ For information about what features are available for the new commenting experie
 
   *You can add and view updates to cards in the Board areas when you enable the Comments and System Activity sections on a card. For more information, see [Add an ad hoc card to a board](../../agile/get-started-with-boards/add-card-to-board.md). 
   -->
-
-
 
 ## Updates that also appear on higher-rank objects
 
@@ -319,18 +315,13 @@ Adobe Workfront administrators and group administrators can log in as other user
 
 For information, see [Log in as another user](../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md).
 
-Any comments made on behalf of another user are indicated on the comment.
+Considering the following when logging in as another user and adding comments:
 
-<!--remove the note below when we release this back to the new commenting-->
+* Any comments made on behalf of another user are indicated on the comment.
 
->[!NOTE]
->
->When using the new commenting experience, the comment is added as the user who logged in as another user and there is no indication that they are adding a comment on someone else's behalf. 
->
->For example, if a Workfront administrator logs in as another user, the user associated with the comment is the Workfront administrator. For more information, see [New commenting experience](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). 
+* A group administrator can comment on behalf of another person but cannot delete that comment. Only an Adobe Workfront administrator can delete a comment that they made on behalf of another user.
 
-
-A group administrator can comment on behalf of another person but cannot delete that comment. Only an Adobe Workfront administrator can delete a comment that they made on behalf of another user.
+* A Workfront or group administrator can only edit a comment they added on behalf of another user only when they log out as the user and log back in as themselves. 
 
 ## View system updates on work items with the Journal Entry report
 

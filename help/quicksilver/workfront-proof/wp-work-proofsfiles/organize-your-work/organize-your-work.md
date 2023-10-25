@@ -7,6 +7,7 @@ title: Organize your work
 description: This section contains the following articles - EDIT ME.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
+recommendations: noDisplay, noCatalog
 exl-id: 2064baa7-598c-4e42-a4f3-211198fb065f
 ---
 # Organize your work
