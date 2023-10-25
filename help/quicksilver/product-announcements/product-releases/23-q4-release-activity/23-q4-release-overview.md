@@ -73,24 +73,14 @@ The 23.10 release webinar was on October 5, 2023. You can [register for the webi
                     <td><p><b>Available on these dates:</b></p>
                         <ul>
                             <li>
-                                <p>Preview release: October 19, 2023</p>
+                                <p>Preview release: October 12, 2023</p>
                             </li>
                             <li>
-                                <p><span class="preview">Production for all customers: October 19, 2023</span></p>
+                                <p><span class="preview">Production for all customers: October 12, 2023</span></p>
                             </li>
                         </ul>
                     </td>
                 </tr>            
-                <tr>
-                    <td>
-                        <p><span class="bold">Feature</span>
-                        </p>
-                    </td>
-                    <td>
-                        <p><span class="bold">Release dates</span>
-                        </p>
-                    </td>
-                 </tr>
                  <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-admin-enhancements.md" class="MCXref xref" xrefformat="{para}">Calculated fields on custom forms can now use the $$USER wildcard</a></p>
@@ -514,7 +504,7 @@ The 23.10 release webinar was on October 5, 2023. You can [register for the webi
                 </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Upgrades to drag-and-drop for document integrations</a></p><p>[!BADGE In production ]{type=Informative}</p><p>We've made some enhancements to add clarity and remove user error when dragging and dropping a file into a linked folder.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Upgrades to drag-and-drop for document integrations</a></p><p>We've made some enhancements to add clarity and remove user error when dragging and dropping a file into a linked folder.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
                         <ul>
@@ -522,7 +512,7 @@ The 23.10 release webinar was on October 5, 2023. You can [register for the webi
                                 <p>Preview release: August 24, 2023<br /></p>
                             </li>
                             <li>
-                                <p><span class="preview">Production for all customers: August 31, 2023</span></p>
+                                <p><span class="preview">Production for all customers: After the 23.10 release</span></p>
                             </li>
                         </ul>
                     </td>
