@@ -490,11 +490,17 @@ The following table illustrates the features that will be available in the new c
 
 For information about the features recently released to the new commenting experience, as well as a release timeline, see [New commenting beta experience release activity](../../betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md).  
 
+For more information about managing updates for Workfront objects, see [Update work](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). 
+
 ## Locate the new commenting experience
 
-The new commenting experience is currently available for all customers and for all environments, for the following objects: 
+<!--IMPORTANT: when we get rid of the legacy experience, move a version of this to the Update work article or the Update section overview -- to say that the experience is different for all except for iterations-->
 
-   * By default, when you enable the New commenting option in the Updates section for the following objects: 
+The new commenting experience is currently available for all customers and for all environments.
+
+Depending on what objects you access the commenting experience for, you might see the following functionality for the Updates section:
+
+   * Both the new and legacy commenting experience for the following objects: 
 
       * Project
       * Task (this includes Stories)
@@ -503,11 +509,9 @@ The new commenting experience is currently available for all customers and for a
 
       >[!TIP]
       >
-      >You can disable the New commenting option to display the legacy commenting experience. 
+      >Use the New commenting option to display the new commenting experience (when you enable it) or the legacy commenting experience (when you disable it), as described in this section. The new commenting experience is the default. 
 
-      For more information about managing updates for Workfront objects, see [Update work](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). 
-
-  * By default, as the only commenting experience for the objects listed below. There is no option to enable the legacy commenting experience for these objects:   
+  * Only the new commenting experience for the objects listed below. There is no option to enable the legacy commenting experience for these objects:   
 
      * Goal
 
@@ -523,9 +527,11 @@ The new commenting experience is currently available for all customers and for a
     * Portfolio
     * User
 
-    >[!TIP]
-    >
-    >There is no option to enable the new commenting experience for iterations. Only the legacy commenting experience is available for iterations. 
+* Only the legacy commenting experience for the following objects:
+
+  * Iterations
+    
+    There is no option to enable the new commenting experience for iterations. Only the legacy commenting experience is available for iterations. 
 
 
 <!--before August 17: 
