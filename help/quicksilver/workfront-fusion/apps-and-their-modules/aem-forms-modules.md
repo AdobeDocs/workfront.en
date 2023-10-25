@@ -58,7 +58,7 @@ For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Work
 
 ## Prerequisites
 
-* You must have an [!DNL Adobe Experience Manager Forms] account to use these modules.
+* You must have an [!DNL Adobe Experience Manager Forms] account to use this module.
 
 
 
