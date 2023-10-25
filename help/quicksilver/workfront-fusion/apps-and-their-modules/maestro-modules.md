@@ -136,9 +136,61 @@ This module makes a custom API call to the [!DNL Adobe Maestro] API.
 
 This action creates a single record in Maestro.
 
+<table style="table-layout:auto"> 
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">[!UICONTROL Connection]</td>
+      <td>For instructions on creating a connection to [!DNL Adobe Target], see <a href="#Create" class="MCXref xref" >Create a connection to [!DNL Adobe Maestro]</a> in this article.</td>
+    </tr>
+     <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL Record type ID]</p>
+      </td>
+      <td>Enter or map the type of record you want to create. Available record types are based on your Maestro account.</td> 
+      </tr>
+     <tr>
+      <td role="rowheader">
+        <p>Other fields</p>
+      </td>
+      <td>These fields are based on the record type you selected.</td> 
+      </tr>
+     <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL Maximum number of returned records]</p>
+      </td>
+      <td>Enter or map the maximum number of records you want the module to return during each scenario execution cycle.</td> 
+      </tr>
+  </tbody>
+</table>
 
+### Delete a record
 
-### Delete Record
+This action module deletes the specified record in Maestro.
+
+<table style="table-layout:auto"> 
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">[!UICONTROL Connection]</td>
+      <td>For instructions on creating a connection to [!DNL Adobe Target], see <a href="#Create" class="MCXref xref" >Create a connection to [!DNL Adobe Maestro]</a> in this article.</td>
+    </tr>
+     <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL Record ID]</p>
+      </td>
+      <td>Enter or map the ID of the record you want to delete.</td> 
+      </tr>
+     <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL Maximum number of returned records]</p>
+      </td>
+      <td>Enter or map the maximum number of records you want the module to return during each scenario execution cycle.</td> 
+      </tr>
+  </tbody>
+</table>
 
 ### Get all records
 
@@ -157,6 +209,7 @@ This action module retrieves all records from an [!DNL Adobe Maestro] account.
         <p>[!UICONTROL Maximum number of returned records]</p>
       </td>
       <td>Enter or map the maximum number of records you want the module to return during each scenario execution cycle.</td> 
+      </tr>
   </tbody>
 </table>
 
@@ -228,7 +281,9 @@ This action module retrieves a list of record types in an [!DNL Adobe Maestro] a
   </tbody>
 </table>
 
+### Update record
 
+### Search records
 
 
 
