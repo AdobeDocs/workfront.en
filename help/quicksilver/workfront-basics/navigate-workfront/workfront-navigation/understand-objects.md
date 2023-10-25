@@ -328,6 +328,10 @@ You can report on the following objects when using the report builder in the [!D
 * [!UICONTROL User Delegation]
 
    You can report on users who have been delegated to perform others' tasks and issues while they are out of the office. This report displays the user who is out of the office as well as the user who fulfills their duties while they are out.
+
 * [!UICONTROL Users Decisions]
+   
+   You can report on how many decisions users have made on proofs and documents in the current month.
+   
 * [!UICONTROL View]
 * [!UICONTROL Work Item] (this produces a report for tasks and issues)

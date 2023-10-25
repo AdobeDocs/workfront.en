@@ -67,6 +67,32 @@ The 23.10 release webinar was on October 5, 2023. You can [register for the webi
                  </tr>
                  <tr>
                     <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-admin-enhancements.md" class="MCXref xref" xrefformat="{para}">Proof and document decisions available to legacy license model customers</a></p>
+                        <p>Legacy customers who have not yet transitioned to the new Adobe Workfront license model can now see data with the number of proof/document decisions per user per month, in a single report. This data is available when you run a Users Decisions report.</p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                        <ul>
+                            <li>
+                                <p>Preview release: October 19, 2023</p>
+                            </li>
+                            <li>
+                                <p><span class="preview">Production for all customers: October 19, 2023</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>            
+                <tr>
+                    <td>
+                        <p><span class="bold">Feature</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Release dates</span>
+                        </p>
+                    </td>
+                 </tr>
+                 <tr>
+                    <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-admin-enhancements.md" class="MCXref xref" xrefformat="{para}">Calculated fields on custom forms can now use the $$USER wildcard</a></p>
                         <p>The $$USER wildcard is now available in calculated custom fields and external lookup fields on the new form designer.</p>
                     </td>
