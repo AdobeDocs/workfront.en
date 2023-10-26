@@ -11,7 +11,7 @@ exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
 
 
 
-<!--take "Beta" references out when we remove the beta and change "current" to "legacy" after October 26-->
+<!--take "legacy" and "new commnenting" references out when we remove the legacy - Jan 2024???-->
 
 <!--
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>  
@@ -32,7 +32,7 @@ exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
 >
 >For more information about the new commenting experience and its availability, see [New commenting experience](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). 
 >
->The new commenting experience is available only for the Updates section, and it is not available for the following areas:
+>The new commenting experience is available only for the Updates section of Workfront objects, and it is not available when you access the objects from the following areas:
 >
 > * Home
 > * Summary panel in lists
@@ -338,7 +338,7 @@ You can enhance your updates by using Rich Text, or adding various items to it, 
    | Bold | ![](assets/mceclip10.png)|⌘+b |Ctrl+B |
    | Italics | ![mceclip9.png](assets/mceclip9.png)|⌘+i |Ctrl+I |
    | Underline | ![mceclip8.png](assets/mceclip8.png)|⌘+u |Ctrl+U |
-   | Hyperlink | ![mceclip7.png](assets/mceclip7.png)| <br>To open the Create Links or Add links box: ⌘+K</br> <br>In the commenting beta experience, to paste a link over the selected text: ⌘+V</br>  | <br>To open the Create Links or Add links box: Ctrl+K</br> <br>In the commenting beta experience, to paste a link over the selected text: Ctrl+V</br> |
+   | Hyperlink | ![mceclip7.png](assets/mceclip7.png)| <br>To open the Add links box: ⌘+K</br> <br>To paste a link over the selected text: ⌘+V</br>  | <br>To open the Add links box: Ctrl+K</br> <br>To paste a link over the selected text: Ctrl+V</br> |
    | Bulleted List | ![mceclip6.png](assets/mceclip6.png)|⌘+Shift+8 |Ctrl+Shift+8 |
    | Numbered List | ![mceclip5.png](assets/mceclip5.png)|⌘+Shift+7 |Ctrl+Shift+7 |
    | Block Quote | ![](assets/block-quote-icon-large.png)|⌘+Shift+9 |<br>Ctrl+Shift+9</br> <br>This is not available in the new commenting experience. </br> |
@@ -513,7 +513,7 @@ No Workfront user (including the Workfront administrator) can delete updates mad
 
    ![](assets/update-stream-comment-menu-marked-350x152.png)
 
-1. In the message that appears, click **Confirm** or click **Delete**, when using the commenting Beta experience.
+1. In the message that appears, click **Delete**. 
 
    >[!NOTE]
    >
@@ -562,8 +562,7 @@ No Workfront user (including the Workfront administrator) can delete updates mad
 >
 >It is not possible to disable system updates when using the new commenting experience.
 >The information in this section refers only to functionality available in the legacy Updates section. <!--remove this section when we remove legacy from the system->
->For more information about system updates in the Beta version, see [Updates section overview](../updating-work-items-and-viewing-updates/updates-tab-overview.md).
-
+>For more information about system updates in the new commenting experience, see [Updates section overview](../updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
 The Updates section for a Workfront object displays two types of information:
 

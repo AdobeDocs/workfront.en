@@ -11,23 +11,32 @@ exl-id: a8271f3c-7a08-4eb3-aaff-deb250f5af73
 ---
 # Reply to updates
 
+<!--remove legacy and new experience references when we remove the legacy updates in the UI - Jan 2024???-->
+
+<!--
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>  
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)</span>  
 
 <span class="preview">For information about the current release schedule, see [Fourth Quarter 2023 release overview](../../product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md)</span> 
 
+-->
+
 >[!IMPORTANT]
 >
 >We are currently redesigning the commenting experience in Adobe Workfront.
->Depending on what environment and what objects you access the commenting experience from, you might see different functionality in the Updates section. 
+>
+>Depending on what objects you access the commenting experience for, you might see the following functionality for the Updates section:
+>* The new experience
+>* The legacy experience
+>* The new and the legacy experience
 >
 >For more information about the new commenting experience and its availability, see [New commenting experience](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). 
 >
->The new commenting experience is available only for the Updates section, and it is not available for the following areas:
+>The new commenting experience is available only for the Updates section of Workfront objects, and it is not available when you access the objects from the following areas:
 >
 > * Home
 > * Summary panel in lists
-> * Summary panel in timesheets
+> * Summary panel in timesheets 
 
 When someone replies to a comment or a system update on a work object, their reply appears in the communication thread in the Updates section for the object. 
 
@@ -35,6 +44,7 @@ When someone replies to a comment or a system update on a work object, their rep
 >
 >It is not possible to reply to system updates in the new commenting experience. For more information, see [New commenting experience](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
+<!--adjust the sentence before the second IMPORTANT and remove this important note when we remove legacy from the system-->
 
 ## Access requirements
 
@@ -73,7 +83,30 @@ You can reply to a comment in the thread of an object that you can view, or you 
 
 Replying to a comment or reply differs depending on which experience and which object you select.
 
-### Reply to an update or reply in the current Updates section
+### Reply to a comment when using the new commenting experience
+
+For information about what features are available in the new commenting experience and for what objects, see [New commenting experience](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). 
+
+1. Go to the object to which you want to add a reply.
+1. Click **Updates**, then click the **Comments** tab for the object and find the comment or reply to which you want to reply.
+1. (Optional) To include text from a previous update in your reply, click the **More** menu in the upper-right corner of the comment you want to reply to, then click **Quote reply**. Text from the previous update appears in the input area, marked with a vertical gray line.
+1. Click **Reply**. 
+
+   ![](assets/reply-to-update-empty-box.png)
+
+   You can see the users who are actively engaged in the conversation at the bottom of the **Add reply...** box and you can add more, or remove the ones that are no longer relevant. These users, along with any users subscribed to the object, receive a notification whenever an update or reply is made on the object. You can also tag more users to include them in your reply.  To tag more users, see [Tag others on updates](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
+
+   >[!TIP]
+   >
+   >   To add additional replies to an existing reply, you can start typing in the **Add reply ...** box, or click **Reply** on the original comment. Your reply is added at the end of the thread.
+   
+1. Start typing your reply and use any additional options from the Rich Text toolbar. For information about using Rich Text or other updating capabilities, see [Update work](../updating-work-items-and-viewing-updates/update-work.md). 
+
+1. Click **Submit** to save the reply.
+
+1. (Optional) Click the **More** menu ![](assets/more-menu.png) in the upper-right corner of the comment you want to reply to for more options to manage the reply. For more information, see [Update work](../updating-work-items-and-viewing-updates/update-work.md). 
+
+### Reply to an update or reply in the legacy Updates section
 
 1. Go to the object to which you want to add a reply.
 1. On the **Updates** tab for the object, find the update or reply to which you want to reply.
@@ -92,30 +125,6 @@ Replying to a comment or reply differs depending on which experience and which o
 1. (Optional) To include text from a previous update in your reply, click the **More** menu next to the update or reply you want to quote, then click **Quote Reply**. Text from the previous update appears in the input area, marked with a vertical gray line.
 1. (Optional) Use formatting, emojis, include links, or images as explained in the section "Use Rich Text in a Workfront update" in the article [Update work](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 1. Click **Reply** to save the reply.
-
-### Reply to a comment when using the new commenting experience
-
-For information about what features are available in the new commenting experience and for what objects, see [New commenting experience](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). 
-
-1. Go to the object to which you want to add a reply.
-1. Click **Updates**, then click the **Comments** tab for the object and find the comment or reply to which you want to reply.
-1. (Optional) To include text from a previous update in your reply, click the **More** menu <span class="preview">in the upper-right corner of the comment you want to reply to</span>, then click **Quote reply**. Text from the previous update appears in the input area, marked with a vertical gray line.
-1. Click **Reply**. 
-
-   ![](assets/reply-to-update-empty-box.png)
-
-   You can see the users who are actively engaged in the conversation at the bottom of the **Add reply...** box and you can add more, or remove the ones that are no longer relevant. These users, along with any users subscribed to the object, receive a notification whenever an update or reply is made on the object. You can also tag more users to include them in your reply.  To tag more users, see [Tag others on updates](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
-
-   >[!TIP]
-   >
-   >   <span class="preview">To add additional replies to an existing reply, you can start typing in the **Add reply ...** box, or click **Reply** on the original comment. Your reply is added at the end of the thread. </span>
-   
-1. Start typing your reply and use any additional options from the Rich Text toolbar. For information about using Rich Text or other updating capabilities, see [Update work](../updating-work-items-and-viewing-updates/update-work.md). 
-
-1. Click **Submit** to save the reply.
-
-1. (Optional) Click the **More** menu ![](assets/more-menu.png) <span class="preview">in the upper-right corner of the comment you want to reply to</span> for more options to manage the reply. For more information, see [Update work](../updating-work-items-and-viewing-updates/update-work.md). 
-
 
 ## Reply to an update from an email notification
 
