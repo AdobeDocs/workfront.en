@@ -500,7 +500,7 @@ The new commenting experience is currently available for all customers and for a
 
 Depending on what objects you access the commenting experience for, you might see the following functionality for the Updates section:
 
-   * Both the new and legacy commenting experience for the following objects: 
+* Both the new and legacy commenting experience for the following objects: 
 
       * Project
       * Task (this includes Stories)

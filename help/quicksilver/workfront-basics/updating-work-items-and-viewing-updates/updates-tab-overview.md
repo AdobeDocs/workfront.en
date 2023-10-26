@@ -52,37 +52,37 @@ The Updates section of an object shows system updates, and up to 200 of the most
 
 Depending on what objects you access the commenting experience for, you might find the following experience for the Updates section:
 
-   * Both the new and legacy commenting experience for the following objects: 
+* Both the new and legacy commenting experience for the following objects: 
 
-      * Project
-      * Task (this includes Stories)
-      * Issue
-      * Document
+  * Project
+  * Task (this includes Stories)
+  * Issue
+  * Document
 
-      >[!TIP]
-      >
-      >Use the New commenting option to display the new commenting experience (when you enable it) or the legacy commenting experience (when you disable it). The new commenting experience is the default. For more information, see [New commenting experience](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). 
+  >[!TIP]
+  >
+  >Use the New commenting option to display the new commenting experience (when you enable it) or the legacy commenting experience (when you disable it). The new commenting experience is the default. For more information, see [New commenting experience](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). 
 
   * Only the new commenting experience for the objects listed below. There is no option to enable the legacy commenting experience for these objects:   
 
-     * Goal
+    * Goal
 
-      >[!NOTE]
-      >
-      >You must have an additional license to Adobe Workfront Goals to be able to access this area of Workfront. For more information, see [Requirements to use Workfront Goals](../../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
-    * Card on a board
-    * Team
-    * Template
-    * Template Task
-    * Timesheet
-    * Program
-    * Portfolio
-    * User
+    >[!NOTE]
+    >
+    >You must have an additional license to Adobe Workfront Goals to be able to access this area of Workfront. For more information, see [Requirements to use Workfront Goals](../../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+  * Card on a board
+  * Team
+  * Template
+  * Template Task
+  * Timesheet
+  * Program
+  * Portfolio
+  * User
 
 * Only the legacy commenting experience for the following objects:
 
   * Iterations
-    
+
     There is no option to enable the new commenting experience for iterations. 
 
 ### Overview of the Updates section in the new commenting experience
@@ -94,17 +94,18 @@ Depending on what objects you access the commenting experience for, you might fi
 >The new commenting experience is not available for iterations.
 
 
-The Updates section displays information in the following tabs in the new commenting experience: 
+* The Updates section displays information in the following tabs in the new commenting experience: 
+
 
   * **Comments**: Displays comments made by users and replies to those comments. Use the Comments tab to add new comments or reply to existing ones. For information about updating objects in the new commenting experience, see [Update work](../updating-work-items-and-viewing-updates/update-work.md). 
   * **System Activity**: Displays system updates which are informational messages that Workfront creates to record certain events on an objects. For example, changes in status, name, or custom fields are captured with system updates. Your Workfront or group administrator can enable system updates for your objects. For more information, see [Configure system updates](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
 
-    * The following objects don't have a System Activity tab:
+* The following objects don't have a System Activity tab:
 
-      * Team
-      * Template
-      * Template Task
-      * Ad-hoc Card
+  * Team
+  * Template
+  * Template Task
+  * Ad-hoc Card
 
     
 ### Overview of the legacy Updates section 
@@ -115,15 +116,16 @@ The Updates section displays information in the following tabs in the new commen
 
 The legacy Updates section shows the following information:
 
-  * **User updates**: Comments made by users and replies to those comments. 
-  * **System updates**: Informational messages that Workfront creates to record certain events on an objects. For example, you can capture changes in status, name, or custom fields with system updates. Your Workfront or group administrator can enable system updates for your objects. For more information, see [Configure system updates](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
+* **User updates**: Comments made by users and replies to those comments. 
+* **System updates**: Informational messages that Workfront creates to record certain events on an objects. For example, you can capture changes in status, name, or custom fields with system updates. Your Workfront or group administrator can enable system updates for your objects. For more information, see [Configure system updates](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
 
-    The following objects don't record system updates:
+The following objects don't record system updates:
 
-    * Team
-    * Template
-    * Template Task
-    * Iterations
+* Team
+* Template
+* Template Task
+* Iterations
+
   <!--hidden in August 2023 and replaced by the list above: 
 
   <table style="table-layout:auto"> 
