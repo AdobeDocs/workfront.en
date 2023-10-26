@@ -10,8 +10,6 @@ exl-id: c2b6afde-91a8-4e17-8e1a-3428b48e500a
 ---
 # Edit information in custom form fields
 
-{{preview-and-fast-release}}
-
 You can edit information on a custom form after the form is attached to an object. For information about adding custom forms to objects, see [Add a custom form to an object](../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
 
 ## Access requirements
@@ -99,7 +97,7 @@ Editing information on a custom form attached to an object is identical for all 
 
    When someone changes data in another object that is referenced by calculated custom fields in your object, the changes are not reflected automatically in your object. For information about manually updating all calculated custom fields in your object, see [Recalculate all calculated custom fields for an object](#recalculate-all-calculated-custom-fields-for-an-object) in this article.
 
-   <span class="preview">When dependent fields on the page are modified, calculated fields on the custom form are dynamically re-calculated in real time. You can see the new calculated field value without saving the form, but it is not actually applied to the form and the object until you save the changes. This applies to calculated fields on default forms as well as custom forms.</span>
+   When dependent fields on the page are modified, calculated fields on the custom form are dynamically re-calculated in real time. You can see the new calculated field value without saving the form, but it is not actually applied to the form and the object until you save the changes. This applies to calculated fields on default forms as well as custom forms.
 
    You can also manually update all calculated custom fields for an object when you bulk-edit the object along with other objects in a list. For instructions, see [Recalculate all calculated custom fields for multiple objects in a list when editing the objects](#recalculate-all-calculated-custom-fields-for-multiple-objects-in-a-list-when-editing-the-objects) in this article.
 
