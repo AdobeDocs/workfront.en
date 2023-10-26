@@ -8,15 +8,10 @@ author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
 ---
+
 # Updates section overview
 
 <!--take "legacy" and "new commnenting" references out when we remove the legacy - Jan 2024???-->
-
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>  
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>  
-
-<span class="preview">For information about the current release schedule, see [Fourth Quarter 2023 release overview](../../product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md)</span> -->
 
 >[!IMPORTANT]
 >
@@ -59,17 +54,18 @@ Depending on what objects you access the commenting experience for, you might fi
   * Issue
   * Document
 
-  >[!TIP]
-  >
-  >Use the New commenting option to display the new commenting experience (when you enable it) or the legacy commenting experience (when you disable it). The new commenting experience is the default. For more information, see [New commenting experience](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). 
+    >[!TIP]
+    >
+    >Use the New commenting option to display the new commenting experience (when you enable it) or the legacy commenting experience (when you disable it). The new commenting experience is the default. For more information, see [New commenting experience](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). 
 
-  * Only the new commenting experience for the objects listed below. There is no option to enable the legacy commenting experience for these objects:   
+* Only the new commenting experience for the objects listed below. There is no option to enable the legacy commenting experience for these objects:   
 
-    * Goal
+  * Goal
 
     >[!NOTE]
     >
-    >You must have an additional license to Adobe Workfront Goals to be able to access this area of Workfront. For more information, see [Requirements to use Workfront Goals](../../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+    >You must have an additional license to Adobe Workfront Goals to be able to access this area of Workfront. For more information, see [Requirements to use Workfront Goals](../../workfront-goals/goal-management/access-needed-for-wf-goals.md). 
+
   * Card on a board
   * Team
   * Template
@@ -126,33 +122,6 @@ The following objects don't record system updates:
 * Template Task
 * Iterations
 
-  <!--hidden in August 2023 and replaced by the list above: 
-
-  <table style="table-layout:auto"> 
-    <col> 
-    <col> 
-    <tbody> 
-      <tr> 
-      <td> 
-        <ul> 
-        <li><p>Goals</p>
-        <li>Cards in the Boards area*</li>
-          This is the only experience for goals and cards.
-        </li> 
-        <li>Projects</li>
-        </ul> </td> 
-      <td> 
-        <ul> 
-        <li>Issues</li> 
-        <li>Tasks</li>
-        <li>Documents</li>
-        </ul> </td> 
-      </tr> 
-    </tbody> 
-    </table>
-
-  *You can add and view updates to cards in the Board areas when you enable the Comments and System Activity sections on a card. For more information, see [Add an ad hoc card to a board](../../agile/get-started-with-boards/add-card-to-board.md). 
-  -->
 
 ## Updates that also appear on higher-rank objects
 
