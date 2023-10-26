@@ -45,7 +45,7 @@ You must have the following:
   <tr>
    <td><strong>Access level configurations</strong>
    </td>
-   <td>You must be a Workfront administrator. For information on Workfront administrators, see <strong>Grant a user full administrative access</strong>.
+   <td>You must be a Workfront administrator to configure an Experience Manager integration. After it is configured, users with a Plan license can set up linked folders on individual projects.
    </td>
   </tr>
 </table>
