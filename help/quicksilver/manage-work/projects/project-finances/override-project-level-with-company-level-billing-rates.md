@@ -9,8 +9,6 @@ exl-id: 02ea4c7c-0473-4cc4-913c-3baa613767b7
 ---
 # Override Project-Level Billing Rates with Company-Level Billing Rates
 
-{{highlighted-preview}}
-
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: THIS IS LINKED TO THE UI IN THE EDIT PROJECT MODAL)</p>
 -->
@@ -74,17 +72,9 @@ After you have enabled the company-level billing rates override option on a proj
 1. Click **Companies**. 
 1. Click the name of the company that is associated with the project for which you enabled company-level billing rates override.
 1. Click **Billing Rates** in the left panel.
-1. In the Production environment, enter the new billing rate for an existing job role in the **Company Billing Rate** field, then press Enter.
+1. Update the **Company Billing Rate** and start/end dates for an existing job role, then press Enter.
 
-   Or
-
-   <div class="preview">
-
-   In the Preview environment, update the **Company Billing Rate** and start/end dates for an existing job role, then press Enter.
-
-   To add a new date effective company billing rate, select a billing rate for the job role and click Edit. For more information on date effective company billing rates, see [Override job role billing rates at the company level](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/override-job-role-billing-rates-company-level.md).
-
-   </div>
+   To add a new date effective company billing rate, select a billing rate for the job role and click **Edit**. For more information on date effective company billing rates, see [Override job role billing rates at the company level](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/override-job-role-billing-rates-company-level.md).
 
 1. To update company rates for one or more projects, do one of the following:
 

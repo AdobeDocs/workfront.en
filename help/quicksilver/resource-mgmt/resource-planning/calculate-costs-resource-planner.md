@@ -9,8 +9,6 @@ exl-id: 2f3ca8c2-51b3-4282-af8b-7f433365d386
 ---
 # Calculate costs in the Resource Planner
 
-{{highlighted-preview}}
-
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(Alina: ***Linked to the Planning in the Resource Planner article, Understanding areas of the Resource Planner. - do not move/ change/ delete.)</p>
 -->
@@ -136,13 +134,9 @@ Although you cannot view task information in the Resource Planner, the Planned C
 * The **Cost Type** of the tasks on the project.  
   For more information about the Cost Type of a task, see [Track costs](../../manage-work/projects/project-finances/track-costs.md).
 
-<div class="preview">
-
 * The effective dates of the cost rates for job roles and users.
 
   For example, if the role or user has 10 planned hours in February and 10 planned hours in March, but the cost rate has changed from $12 to $20 in March, the value for the Planned Cost in February is $120, and in March the Planned Cost is $200.
-
-</div>
 
 >[!NOTE]
 >
@@ -166,11 +160,7 @@ The following scenarios exist when calculating the Planned Cost for users, roles
 
      The User Planned Cost is calculated using the following formula:
 
-       
-   
-     ```   
-     User Planned Cost Rate = User Planned Hours * User Cost per Hour Rate
-     ```
+     `User Planned Cost Rate = User Planned Hours * User Cost per Hour Rate`
 
      If a user has a cost rate in their profile, then that rate is used to calculate Planned Cost. Otherwise, the system-level Cost per Hour rate of their Primary Role is used.
 
@@ -180,9 +170,7 @@ The following scenarios exist when calculating the Planned Cost for users, roles
 
      The Role Planned Cost is calculated using the following formula:
 
-     ```   
-     Role Planned Cost = SUM(User Planned Cost)
-     ```
+     `Role Planned Cost = SUM(User Planned Cost)`
 
    * **Project Planned Cost**:
 
@@ -196,9 +184,7 @@ The following scenarios exist when calculating the Planned Cost for users, roles
 
      The Role Planned Cost is calculated using the following formula:
 
-     ```   
-     Role Planned Cost = Role Planned Hours * Role Cost per Hours
-     ```
+     `Role Planned Cost = Role Planned Hours * Role Cost per Hours`
 
      The system-level Cost per Hour rate of the job role assigned to the task is used to calculate Planned Cost.
    
@@ -224,9 +210,7 @@ The following scenarios exist when calculating the Planned Cost for users, roles
 
      The Role Planned Cost is calculated by the following formula:
 
-     ```   
-     Role Planned Cost = Role Planned Hours * Role Cost per Hours
-     ```
+     `Role Planned Cost = Role Planned Hours * Role Cost per Hours`
 
      Workfront looks at the job role that the user fulfills on the task to calculate the Planned Cost for the role.
 
@@ -236,9 +220,7 @@ The following scenarios exist when calculating the Planned Cost for users, roles
 
      The Project Planned Cost is calculated using the following formula:
 
-     ```   
-     Project Planned Cost = SUM(Role Planned Costs)
-     ```
+     `Project Planned Cost = SUM(Role Planned Costs)`
 
 * When the **Cost Type** is **Role Hourly** and there is a **job role assignment** on the task:
 
@@ -248,9 +230,7 @@ The following scenarios exist when calculating the Planned Cost for users, roles
 
      The Role Planned Cost is calculated by the following formula:
 
-     ```   
-     Role Planned Cost = Role Planned Hours * Role Cost per Hours
-     ```
+     `Role Planned Cost = Role Planned Hours * Role Cost per Hours`
 
      Workfront looks at the job role that the user fulfills on the task to calculate the Planned Cost for the role. 
    
@@ -258,9 +238,7 @@ The following scenarios exist when calculating the Planned Cost for users, roles
 
      The Project Planned Cost is calculated using the following formula:
 
-     ```   
-     Project Planned Cost = SUM(Role Planned Costs)
-     ```
+     `Project Planned Cost = SUM(Role Planned Costs)`
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(table below ideal but drafted because it does not display correctly in Markdown)</p>
