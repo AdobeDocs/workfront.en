@@ -9,7 +9,7 @@ exl-id: fc633fd6-35b4-4949-8045-22c775002436
 ---
 # Manage a project in the Agile View
 
-{{preview-and-fast-release}}
+{{highlighted-preview}}
 
 <!--
 Required plans, license types, and access

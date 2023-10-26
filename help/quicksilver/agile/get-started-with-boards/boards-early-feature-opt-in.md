@@ -177,9 +177,9 @@ The following table outlines major features of boards along with their current r
   </tr>
   <tr>
    <td>View documents on connected cards</td>
-   <td>Partially Released</td>
+   <td>Released</td>
   </tr>
- </tbody> 
+ </tbody>
 </table>
 
 ## Opt in to early features
