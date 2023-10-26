@@ -73,6 +73,7 @@ To create a linked folder:
 
 1. Go to the Project where you want the folder.
 1. Select **Add New**, then go to the Experience manager integration your administrator set up.
+
     >[!NOTE]
     >
     >The Workfront administrator can choose any name for this integration, so it might not specifically mention Experience Manager Assets or Assets Essentials.
