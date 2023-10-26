@@ -67,7 +67,7 @@ The 23.10 release webinar was on October 5, 2023. You can [register for the webi
                  </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-admin-enhancements.md" class="MCXref xref" xrefformat="{para}">Proof and document decisions available to legacy license model customers</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-admin-enhancements.md" class="MCXref xref" xrefformat="{para}">Proof and document decisions available to legacy license model customers</a></p><p>[!BADGE In production ]{type=Informative}</p>
                         <p>Legacy customers who have not yet transitioned to the new Adobe Workfront license model can now see data with the number of proof/document decisions per user per month, in a single report. This data is available when you run a Users Decisions report.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
@@ -83,7 +83,7 @@ The 23.10 release webinar was on October 5, 2023. You can [register for the webi
                 </tr>            
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-admin-enhancements.md" class="MCXref xref" xrefformat="{para}">Calculated fields on custom forms can now use the $$USER wildcard</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-admin-enhancements.md" class="MCXref xref" xrefformat="{para}">Calculated fields on custom forms can now use the $$USER wildcard</a></p><p>[!BADGE In production ]{type=Informative}</p>
                         <p>The $$USER wildcard is now available in calculated custom fields and external lookup fields on the new form designer.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
@@ -103,7 +103,7 @@ The 23.10 release webinar was on October 5, 2023. You can [register for the webi
                  <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-admin-enhancements.md" class="MCXref xref" xrefformat="{para}">Add value options from an external API to a custom form</a></p>
-                        <p>[!BADGE In production for Fast Release ]{type=Positive}</p>
+                        <p>[!BADGE In production ]{type=Informative}</p>
                         <p>A new field type, <strong>External lookup</strong>, is now available on the custom form designer. When you have data stored on an external system, this field type allows you to load options from an external API and filter based on other field values in the custom form.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
@@ -141,7 +141,7 @@ The 23.10 release webinar was on October 5, 2023. You can [register for the webi
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-boards-enhancements.md" class="MCXref xref" xrefformat="{para}">Subtasks now available on Adobe Workfront Boards</a><span style="color: #ff0000;"> New in Preview!</span></p><p>When you add a connected card to a board for a Workfront task, any existing subtasks are imported onto the card. Also, when you create a subtask on a connected card, a subtask is added to the Workfront task.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-boards-enhancements.md" class="MCXref xref" xrefformat="{para}">Subtasks now available on Adobe Workfront Boards</a></p><p>[!BADGE In production ]{type=Informative}</p><p>When you add a connected card to a board for a Workfront task, any existing subtasks are imported onto the card. Also, when you create a subtask on a connected card, a subtask is added to the Workfront task.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
                         <ul>
@@ -177,7 +177,7 @@ The 23.10 release webinar was on October 5, 2023. You can [register for the webi
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-boards-enhancements.md" class="MCXref xref" xrefformat="{para}">Add documents on connected cards</a></p><p>You can now attach documents on connected cards on Adobe Workfront Boards. Any documents you add on the card become available on the Documents tab of the connected task or issue, and the same file types are supported in both areas.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-boards-enhancements.md" class="MCXref xref" xrefformat="{para}">Add documents on connected cards</a></p><p>[!BADGE In production ]{type=Informative}</p><p>You can now attach documents on connected cards on Adobe Workfront Boards. Any documents you add on the card become available on the Documents tab of the connected task or issue, and the same file types are supported in both areas.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
                         <ul>
@@ -198,7 +198,7 @@ The 23.10 release webinar was on October 5, 2023. You can [register for the webi
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-boards-enhancements.md" class="MCXref xref" xrefformat="{para}">Documents available on connected cards as view-only</a></p><p>For connected cards on Adobe Workfront Boards, you can now view documents such as images and PDFs. You can either preview a document in the browser or download it to your computer. </p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-boards-enhancements.md" class="MCXref xref" xrefformat="{para}">Documents available on connected cards as view-only</a></p><p>[!BADGE In production ]{type=Informative}</p><p>For connected cards on Adobe Workfront Boards, you can now view documents such as images and PDFs. You can either preview a document in the browser or download it to your computer. </p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
                         <ul>
@@ -219,7 +219,7 @@ The 23.10 release webinar was on October 5, 2023. You can [register for the webi
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-boards-enhancements.md" class="MCXref xref" xrefformat="{para}">Board view of a project now available for issues</a></p><p>You can now access a Board view of a project issue list. The Kanban board can help you track the progress of the issues in a more visual way than viewing them in the list. </p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-boards-enhancements.md" class="MCXref xref" xrefformat="{para}">Board view of a project now available for issues</a></p><p>[!BADGE In production ]{type=Informative}</p><p>You can now access a Board view of a project issue list. The Kanban board can help you track the progress of the issues in a more visual way than viewing them in the list. </p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
                         <ul>
@@ -259,7 +259,7 @@ The 23.10 release webinar was on October 5, 2023. You can [register for the webi
                  </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-financial-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Date effective cost and billing rates</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-financial-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Date effective cost and billing rates</a></p><p>[!BADGE In production ]{type=Informative}</p>
                         <p>Date effective cost and billing rates are now available on the company, user, and job role objects in Workfront. When date effective rates are applied to a project, and hours are logged on project tasks, the costs and revenue are calculated using the specified rates for each time period.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
@@ -297,7 +297,7 @@ The 23.10 release webinar was on October 5, 2023. You can [register for the webi
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Delegate work button for Project, Task and Issue widgets</a> <span style="color: #ff0000;"> New in Preview!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Delegate work button for Project, Task and Issue widgets</a> </p><p>[!BADGE In production ]{type=Informative}</p>
                         <p>A commonly requested feature of the old home page, we've now added a delegate button to the My Work, My Tasks, and My Issues widgets so that you can easily delegate work when you're out of the office.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
@@ -316,7 +316,7 @@ The 23.10 release webinar was on October 5, 2023. You can [register for the webi
                 </tr>                
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-home-enhancements.md" class="MCXref xref" xrefformat="{para}">New Boards widget for New Home</a> <span style="color: #ff0000;"> New in Preview!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-home-enhancements.md" class="MCXref xref" xrefformat="{para}">New Boards widget for New Home</a> </p><p>[!BADGE In production ]{type=Informative}</p>
                         <p>In a major new addition to the work management options available in New Home, you can now display a board on your home page!</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
@@ -335,7 +335,7 @@ The 23.10 release webinar was on October 5, 2023. You can [register for the webi
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-home-enhancements.md" class="MCXref xref" xrefformat="{para}">New Contributor default landing page: New Home</a> <span style="color: #ff0000;"> New in Preview!</span> </p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-home-enhancements.md" class="MCXref xref" xrefformat="{para}">New Contributor default landing page: New Home</a>  </p><p>[!BADGE In production ]{type=Informative}</p>
                         <p>New Home is now the default landing page for Contributor/Requestor accounts. This new default home page includes a number of widgets specifically selected to best enable Contributors to manage their work right away.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
@@ -355,7 +355,7 @@ The 23.10 release webinar was on October 5, 2023. You can [register for the webi
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Changes to work tracking in New Home </a> </p>
-                        <p>[!BADGE In production for Fast Release ]{type=Positive}</p>
+                        <p>[!BADGE In production ]{type=Informative}</p>
                         <p>Based on user feedback, we have removed the page-wide time range filter and summary bar that tallied tasks due and completed. Project, Task, and Issue widgets each have built-in filtering features allowing you to customize their scope on an individual basis.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
@@ -375,7 +375,7 @@ The 23.10 release webinar was on October 5, 2023. You can [register for the webi
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-home-enhancements.md" class="MCXref xref" xrefformat="{para}">New quick action buttons for the My Work widget</a> </p>
-                        <p>[!BADGE In production for Fast Release ]{type=Positive}</p>
+                        <p>[!BADGE In production ]{type=Informative}</p>
                         <p>Further expanding your ability to manage work directly from New Home, new quick action buttons have been added to the My Work widget.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
@@ -395,7 +395,7 @@ The 23.10 release webinar was on October 5, 2023. You can [register for the webi
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-home-enhancements.md" class="MCXref xref" xrefformat="{para}">New filter options for New Home</a> </p>
-                        <p>[!BADGE In production for Fast Release ]{type=Positive}</p>
+                        <p>[!BADGE In production ]{type=Informative}</p>
                         <p>New filter options are now available for the My Work widget in New Home. Options include filters for object types (tasks, issues, and requests) and statuses (not ready, ready to start, working on, and completed).</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
@@ -431,7 +431,7 @@ The 23.10 release webinar was on October 5, 2023. You can [register for the webi
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Try New Home button removed for accounts that have disabled New Home</a> </p>
-                        <p>[!BADGE In production for Fast Release ]{type=Positive}</p>
+                        <p>[!BADGE In production ]{type=Informative}</p>
                         <p>The Try New Home button is no longer present for accounts where New Home has been disabled. New Home must be re-enabled by the system administrator before individual users can use the button to try New Home.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
@@ -451,7 +451,7 @@ The 23.10 release webinar was on October 5, 2023. You can [register for the webi
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Change to New Home default widget set</a> </p>
-                        <p>[!BADGE In production for Fast Release ]{type=Positive}</p>
+                        <p>[!BADGE In production ]{type=Informative}</p>
                         <p>The To-dos widget, which requires permission to create tasks, is now only present in the default widget set for users with the Standard, Plan, or Work license types. Additionally, the widget has been automatically removed from the Home pages of users with all other license types.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
@@ -538,7 +538,7 @@ The 23.10 release webinar was on October 5, 2023. You can [register for the webi
                  </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-project-enhancements.md" class="MCXref xref" xrefformat="{para}">New document approvals</a> <span style="color: #ff0000;"> New in Preview!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-project-enhancements.md" class="MCXref xref" xrefformat="{para}">New document approvals</a> </p><p>[!BADGE In production ]{type=Informative}</p>
                         <p>In this release, the approval process has been streamlined for both creating approvals and approving/reviewing documents, in addition to new functionality.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
@@ -576,7 +576,7 @@ The 23.10 release webinar was on October 5, 2023. You can [register for the webi
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Updated design when adding a new issue to a project</a> </p>
-                        <p>[!BADGE In production for Fast Release ]{type=Positive}</p>
+                        <p>[!BADGE In production ]{type=Informative}</p>
                         <p>This update has been announced with the 23.3 release.</p>
                         <p>We have updated the New Issue box which displays when submitting a new issue to a project. Now, the interface matches the New request box which displays when submitting a new request to a request queue.</p>
                     </td>
@@ -597,7 +597,7 @@ The 23.10 release webinar was on October 5, 2023. You can [register for the webi
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Dynamic re-calculation of calculated fields on forms</a></p>
-                        <p>[!BADGE In production for Fast Release ]{type=Positive}</p>
+                        <p>[!BADGE In production ]{type=Informative}</p>
                         <p>Calculated fields on a form attached to an object are now dynamically re-calculated in real time when dependent values on any form on the page are modified. This allows you to see the updated results without saving the form.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
@@ -617,7 +617,7 @@ The 23.10 release webinar was on October 5, 2023. You can [register for the webi
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Set planned hours on child recurring tasks with Simple duration type without assignments</a></p>
-                        <p>[!BADGE In production for Fast Release ]{type=Positive}</p>
+                        <p>[!BADGE In production ]{type=Informative}</p>
                         <p>We have made a change in the way Planned Hours are allocated to recurring tasks with no assignments and a Simple duration type. Now, when you set Planned Hours on a new recurring task with a Simple Duration Type and no assignments, the hours are also allocated to the individual recurrences. Prior to this change, the hours were not saved for individual recurrences when the parent tasks were unassigned.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
@@ -655,7 +655,7 @@ The 23.10 release webinar was on October 5, 2023. You can [register for the webi
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Contributor main menu changes</a> <span style="color: #ff0000;"> New in Preview!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Contributor main menu changes</a> </p><p>[!BADGE In production ]{type=Informative}</p>
                         <p>To better inform Contributors/Requestors of the features available with a paid Workfront license type, they can now see all of the options available in the main menu.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
@@ -675,7 +675,7 @@ The 23.10 release webinar was on October 5, 2023. You can [register for the webi
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md" class="MCXref xref" xrefformat="{para}">New commenting experience beta enhancements</a> </p>
-                        <p>[!BADGE In production for Fast Release ]{type=Positive}</p>
+                        <p>[!BADGE In production ]{type=Informative}</p>
                         <p>Enhancements to the Updates section are being made available within the Fourth Quarter 2023 release timeframe for the commenting experience beta. These enhancements will be made available in the Production environment for all customers with the Fourth Quarter 2023 release (October 2023).</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
@@ -695,7 +695,7 @@ The 23.10 release webinar was on October 5, 2023. You can [register for the webi
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-release-activity.md" class="MCXref xref" xrefformat="{para}">New Canvas Dashboards beta enhancements</a> </p>
-                        <p>[!BADGE In production for Fast Release ]{type=Positive}</p>
+                        <p>[!BADGE In production ]{type=Informative}</p>
                         <p>Enhancements to Canvas Dashboards are being made available within the Fourth Quarter 2023 release timeframe as part of the ongoing beta. These enhancements will be made available in the Production environment for all customers with the Fourth Quarter 2023 release (October 2023).</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
@@ -714,7 +714,7 @@ The 23.10 release webinar was on October 5, 2023. You can [register for the webi
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">Look-and-feel updates during the Fourth Quarter 2023 timeframe</a></p><p>Minor updates to the look and feel of various areas of the Adobe Workfront application are being made within the Fourth Quarter 2023 timeframe. Review the individual release notes for specific release dates.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">Look-and-feel updates during the Fourth Quarter 2023 timeframe</a></p><p>[!BADGE In production ]{type=Informative}</p><p>Minor updates to the look and feel of various areas of the Adobe Workfront application are being made within the Fourth Quarter 2023 timeframe. Review the individual release notes for specific release dates.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
                         <ul>
