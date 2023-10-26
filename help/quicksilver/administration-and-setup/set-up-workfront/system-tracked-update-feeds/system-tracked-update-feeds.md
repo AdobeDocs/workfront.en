@@ -12,6 +12,8 @@ exl-id: c88823a7-100b-40dd-b4f1-bead53ae5dc4
 ---
 # System-tracked updates
 
+<!--remove new experience and legacy notes when we remove legacy in the UI - Jan 24???-->
+
 [!DNL Adobe Workfront] captures the activity taking place on certain objects by logging status information in the object's [!UICONTROL Updates] area.
 
 The [!UICONTROL Updates] area includes the following types of updates:
@@ -26,6 +28,8 @@ The [!UICONTROL Updates] area includes the following types of updates:
 
    For more information about system update feeds and how to enable them, see [Configure system updates](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md). 
 
+   ![](assets/system-updates-example-unified-stream.png)
+
    <!--
   DRAFTED IN FLARE:
   Timestamps for system updates are based on your operating system's timezone.
@@ -34,7 +38,9 @@ The [!UICONTROL Updates] area includes the following types of updates:
 
 ## Considerations about system-tracked updates 
 
-* System-tracked updates are not available for all the objects that have the Updates area. The [!UICONTROL Updates] area is available for the following objects: 
+System-tracked updates are not available for all the objects that have the Updates area. 
+
+* The [!UICONTROL Updates] area is available for the following objects: 
 
    * [!UICONTROL Project]
    * [!UICONTROL Task] 
@@ -58,12 +64,13 @@ The [!UICONTROL Updates] area includes the following types of updates:
 
       For more information on updates on cards, see [Use connected cards on boards](../../../agile/get-started-with-boards/connected-cards.md). 
 
-* [!DNL Workfront] does not track any system updates for the following objects:
+* [!DNL Workfront] does not track system updates for the following objects:
 
    * [!UICONTROL Team]
    * [!UICONTROL Template]
    * [!UICONTROL Template Task]
    * Ad-hoc [!UICONTROL Card]
+   * [!UICONTROL Iterations]
 
 
 <!--hiding this bit because this is not true, at this time (August 2023). Users with a Work or Review license can see system updates by default as well.
@@ -71,17 +78,17 @@ The [!UICONTROL Updates] area includes the following types of updates:
 Your [!DNL Workfront] license determines whether system updates display by default in the [!UICONTROL Updates] area of objects. [!DNL Workfront] users with a [!UICONTROL Plan] license have system updates displayed in the [!UICONTROL Updates] area by default. However, users can filter out system updates, as described in the [Enable or disable system updates](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md#enable) section in [Update work](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). All other [!DNL Workfront] licenses filter system updates by default.
 -->
 
-* Users can view system updates by default or they can choose to not display them.
+* The following are differences between the new and the legacy commenting experience: 
 
-   For information about disabling the display of system updates, see the section [Enable or disable system updates](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md#enable) in the article [Update work](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+   * When using the new commenting experience, user updates display in the Comments tab and system updates display in the System Activity tab.  
 
-   >[!NOTE]
-   >
-   >We are currently redesigning the commenting experience and the [!UICONTROL Updates] area in [!DNL Workfront].
-   >
-   > You cannot hide system updates when using the new commenting experience. 
-   > 
-   >For more information about the new commenting experience, see [New commenting experience](../../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).  
+      For more information about the new commenting experience, see [New commenting experience](../../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+
+   * When using the legacy commenting experience, the system and user updates display in one continuous feed. 
+
+   * When using the legacy commenting experience, users can view system updates by default or they can choose to not display them. Disabling system updates is not possible when using the new commenting experience. 
+
+      For information about disabling the display of system updates, see the section [Enable or disable system updates](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md#enable) in the article [Update work](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 * Workfront records system-tracked updates for the following objects but there is no option to disable displaying them: 
 

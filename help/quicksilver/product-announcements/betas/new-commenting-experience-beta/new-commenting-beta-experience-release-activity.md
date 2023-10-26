@@ -26,11 +26,12 @@ exl-id: 276b28f0-3955-4a0e-aa31-604b291f2f14
 >The beta program for the new commenting experience started in April 2023 and ended in October 2023.
 >
 >The features released during the beta period have been made available to all customers starting with the Fourth Quarter release of 2023 (October 2023) and the beta program has closed. 
+> 
+><br>For more information, see the following articles: </br>
 >
-
-For information about the features that released during the new experience beta period, see [New commenting experience](../../betas/new-commenting-experience-beta/unified-commenting-experience.md). 
-
-For information about features released for the commenting experience after the new commenting experience beta program closed, see the current product release overview page. 
+>* For information about the features that released during the new experience beta period, see [New commenting experience](../../betas/new-commenting-experience-beta/unified-commenting-experience.md). 
+>
+>* For information about features released for the commenting experience after the new commenting experience beta program closed, see the current product release overview page. 
 
 <!--
  This page contains information about the release timeline for the new commenting experience which is currently ongoing in Adobe Workfront. 
