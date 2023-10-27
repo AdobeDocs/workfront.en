@@ -6,7 +6,7 @@ feature: Product Announcements
 ---
 # Fourth Quarter 2023 Boards enhancements
 
-This page describes all Boards enhancements made with the Fourth Quarter 2023 release to the Preview environment. These enhancements will be made available in the Production environment with the 23.10 release.
+This page describes all Boards enhancements made with the Fourth Quarter 2023 release to the Preview environment. These enhancements were made available in the Production environment with the 23.10 release.
 
 For a list of all changes available at this point in the Fourth Quarter 2023 release cycle, see [Fourth Quarter 2023 release overview](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md).
 
