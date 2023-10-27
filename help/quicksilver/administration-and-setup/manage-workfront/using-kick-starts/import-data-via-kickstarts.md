@@ -305,25 +305,25 @@ Each row of the sheet corresponds to a unique object.
    * If the object is already in Workfront, **FALSE** must be in the column to ignore the row.
 
      * Records that already exist in Workfront are not updated.
-     * If you downloaded a template with data, existing objects are already marked with **FALSE** and you do not need to type anything in the entire row.
+     * If you downloaded a template with data, existing objects are already marked with **FALSE**.
      * If you downloaded a blank template, you do not need to add new rows for existing objects.
 
 1. Complete the cell in the **ID** column in one of the following ways:
 
-   * If the object you are importing is new (and you typed **TRUE** in the **isNew** column), specify any number for the ID. This number must be unique in the spreadsheet.
+   * If the object you are importing is new (and you typed **TRUE** in the **isNew** column), type any number for the ID. This number must be unique in the spreadsheet.
    
-   * If the object you are importing already exists in the Workfront system (and **FALSE** is in the **isNew** column), the ID must be the alpha-numeric GUID that exists in Workfront for that object.
+   * If the object already exists in Workfront (and **FALSE** is in the **isNew** column), the ID must be the alpha-numeric GUID that exists in Workfront for that object.
 
      * Records that already exist in Workfront are not updated.
-     * If you downloaded a template with data, existing objects already contain the GUID as the ID and you do not need to type anything in the entire row.
-     * If you downloaded a blank template, you do not need to add new rows for existing objects.
+     * If you downloaded a template with data, existing objects already contain the GUID as the ID.
+     * You can import a new object based on an existing object by changing **FALSE** to **TRUE** in the **isNew** column, changing the ID, and making the necessary data adjustments before importing.
 
       ![Sample ID for a Group](assets/kick-start-group-example.png)
    
-   * When you import a project, you must indicate a Group ID. 
+   * When you import a project, you must indicate a Group ID.
    
-      * If the group already exists in Workfront, you must add its unique ID to the **setGroupID** field for the project. 
-      * If the group does not exist in Workfront, you can add the **GROUP Group** sheet to your import file, set the **isNew** field to **TRUE** on the Group sheet, and indicate a numeric ID for the new group in the **ID** column. The **setGroupID** field for the new project must match the numeric **ID** for the new group. 
+      * If the group already exists in Workfront, you must add its unique ID to the **setGroupID** field for the project.
+      * If the group does not exist in Workfront, you can add the **GROUP Group** sheet to your import file, set the **isNew** field to **TRUE** on the Group sheet, and indicate a numeric ID for the new group in the **ID** column. The **setGroupID** field for the new project must match the numeric **ID** for the new group.
 
      **Example:** For a project, the value displayed in the **setGroupID** column must one of the following:
 
