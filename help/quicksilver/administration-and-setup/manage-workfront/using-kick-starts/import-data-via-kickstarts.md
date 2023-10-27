@@ -453,7 +453,7 @@ The Kick-Start import supports the following file types:
 
 To import the template spreadsheet data into Workfront:
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).  
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
 
 1. Click **System** >**Import Data (Kick-Starts)**.
 
@@ -463,6 +463,6 @@ To import the template spreadsheet data into Workfront:
 
    If the Excel file takes longer than 5 minutes to upload to Workfront, the application times out and the file cannot be uploaded.
 
-   Try importing your data in smaller batches of objects.  
+   Try importing your data in smaller batches of objects.
 
 1. (Conditional) If you are using Workfront Fusion, you can now turn on your FLOs or scenarios.
