@@ -7,6 +7,7 @@ title: Functions in [!DNL Adobe Workfront Fusion]
 description: Adobe Workfront Fusion requires an Adobe Workfront Fusion license in addition to an Adobe Workfront license.
 author: Becky
 feature: Workfront Fusion
+recommendations: noDisplay, noCatalog
 exl-id: a7cf0030-79b4-478b-9684-531271bf717c
 ---
 # Functions in [!DNL Adobe Workfront Fusion]

@@ -7,6 +7,7 @@ title: Review proofs in the Desktop Proofing Viewer
 description: This section contains the following articles - EDIT ME.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
+recommendations: noDisplay, noCatalog
 exl-id: 26637f09-3513-48d9-9a35-7b94bf0d1581
 ---
 # Review proofs in the Desktop Proofing Viewer

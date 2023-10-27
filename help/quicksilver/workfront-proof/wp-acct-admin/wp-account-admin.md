@@ -7,6 +7,7 @@ title: Workfront Proof account administration
 description: This section contains the following subsections - EDIT ME.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
+recommendations: noDisplay, noCatalog
 exl-id: 451b9f13-edeb-4e4b-9cee-d1a053bea17c
 ---
 # [!DNL Workfront Proof] account administration

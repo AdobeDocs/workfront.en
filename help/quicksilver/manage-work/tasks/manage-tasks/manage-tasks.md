@@ -6,6 +6,7 @@ title: Manage tasks
 description: Learn information about managing tasks in the following articles.
 author: Alina
 feature: Work Management
+recommendations: noDisplay, noCatalog
 exl-id: d87311fc-6f60-4fa8-a180-fda6eae473a0
 ---
 # Manage tasks

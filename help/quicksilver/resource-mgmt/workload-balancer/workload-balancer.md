@@ -6,6 +6,7 @@ title: The Workload Balancer
 description: The Workload Balancer is a resource scheduling tool that allows you to assign work items to your resources. 
 author: Alina
 feature: Resource Management
+recommendations: noDisplay, noCatalog
 exl-id: b6a9e2ad-bd69-4075-8b87-3545e07b744d
 ---
 # The Workload Balancer

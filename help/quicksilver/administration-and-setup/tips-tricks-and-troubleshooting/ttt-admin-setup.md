@@ -8,6 +8,7 @@ description: Find miscellaneous helps for administrating your organization's Wor
 author: Caroline
 feature: System Setup and Administration
 role: Admin
+recommendations: noDisplay, noCatalog
 exl-id: e72018b7-5de2-4661-b27d-6da6ece5cc48
 ---
 # Tips, tricks, and troubleshooting for administration and setup

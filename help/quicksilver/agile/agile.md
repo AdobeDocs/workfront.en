@@ -6,6 +6,7 @@ title: Agile
 description: Review the articles in these areas to learn how to use Agile in Adobe Workfront.
 author: Lisa
 feature: Agile
+recommendations: noDisplay, noCatalog
 exl-id: c9bce921-0aee-42ba-9d6d-dd855762dc76
 ---
 # Agile

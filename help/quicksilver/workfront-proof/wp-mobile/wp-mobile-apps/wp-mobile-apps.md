@@ -6,6 +6,7 @@ title: Workfront Proof mobile apps
 description: This section contains the following articles - EDIT ME.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
+recommendations: noDisplay, noCatalog
 exl-id: 8a868212-cf8e-4752-8aa6-ed74f10f5cea
 ---
 # Workfront Proof mobile apps

@@ -5,6 +5,7 @@ title: Plan a project overview
 description: Plan a project overview
 author: Alina
 feature: Work Management
+recommendations: noDisplay, noCatalog
 exl-id: 23372e16-3933-445d-977c-901f52299cb2
 ---
 # Plan a project overview

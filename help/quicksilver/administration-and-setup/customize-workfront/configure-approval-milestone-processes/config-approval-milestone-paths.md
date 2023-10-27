@@ -8,6 +8,7 @@ description: You can create an approval process that users can attach to a work 
 author: Alina, Caroline
 feature: System Setup and Administration
 role: Admin
+recommendations: noDisplay, noCatalog
 exl-id: 5719f8ce-0b30-42a1-9b88-1466630401f2
 ---
 # Approval processes and milestone paths

@@ -6,6 +6,7 @@ title: Create and manage programs
 description: Programs represent a collection of projects that share a common strategy, objective, or goal that transcends project boundaries. Programs cannot exist outside of a portfolio.
 author: Alina
 feature: Work Management, Strategic Planning
+recommendations: noDisplay, noCatalog
 exl-id: 3c796bab-b468-451a-adf8-8180f67546ee
 ---
 # Create and manage programs

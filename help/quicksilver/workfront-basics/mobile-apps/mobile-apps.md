@@ -6,6 +6,7 @@ title: Mobile Apps
 description: Review the articles in these areas to learn how to use the [!DNL Adobe Workfront] mobile apps.
 author: Lisa
 feature: Get Started with Workfront
+recommendations: noDisplay, noCatalog
 exl-id: 053acea8-6c55-4974-af1f-c339c19f7f6a
 ---
 # Mobile Apps

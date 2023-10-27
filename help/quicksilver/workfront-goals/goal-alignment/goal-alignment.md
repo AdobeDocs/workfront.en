@@ -6,6 +6,7 @@ title: Review the following articles to understand how to align goals in Workfro
 description: Learn about aligning goals in Adobe Workfront in the following articles. 
 author: Alina
 feature: Workfront Goals
+recommendations: noDisplay, noCatalog
 exl-id: b5b0e5b2-1133-443b-8ef1-cbb1ca377fd6
 ---
 # Goal alignment in Adobe Workfront Goals

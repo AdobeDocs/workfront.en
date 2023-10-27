@@ -7,6 +7,7 @@ title: Proof types
 description: This section contains the following articles - EDIT ME.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
+recommendations: noDisplay, noCatalog
 exl-id: fd98edb2-7f5a-4d09-88cb-dc6072f4aed0
 ---
 # Proof types

@@ -5,6 +5,7 @@ title: Workfront for Experience Manager enhanced connector
 description: Workfront for Experience Manager enhanced connector
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
+recommendations: noDisplay, noCatalog
 exl-id: c4dfcc06-5140-46de-a2bf-0253605a7fbf
 ---
 # Workfront for Experience Manager enhanced connector

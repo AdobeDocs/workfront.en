@@ -8,6 +8,7 @@ description: You can design a custom form that users can attach to a Workfront o
 author: Courtney
 feature: System Setup and Administration, Custom Forms
 role: Admin
+recommendations: noDisplay, noCatalog
 exl-id: abd52301-a054-4ebf-86c1-141c3011b8c7
 ---
 # Form designer

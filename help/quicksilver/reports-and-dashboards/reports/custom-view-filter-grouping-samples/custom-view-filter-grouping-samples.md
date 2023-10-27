@@ -6,6 +6,7 @@ title: Custom View, Filter, and Grouping samples
 description: Custom View, Filter, and Grouping samplesTOC-proper article". I did not see much value in organizing this by objects.)"
 author: Lisa and Nolan
 feature: Reports and Dashboards
+recommendations: noDisplay, noCatalog
 exl-id: beac1ea6-a983-4d12-8972-91150914f731
 ---
 # Custom View, Filter, and Grouping samples

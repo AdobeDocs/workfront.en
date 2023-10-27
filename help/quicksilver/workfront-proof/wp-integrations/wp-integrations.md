@@ -7,6 +7,7 @@ title: Workfront Proof integrations
 description: This section contains the following subsections - EDIT ME.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
+recommendations: noDisplay, noCatalog
 exl-id: 06d87c0d-1ec9-453c-8848-e84b2713c22b
 ---
 # [!DNL Workfront Proof] integrations

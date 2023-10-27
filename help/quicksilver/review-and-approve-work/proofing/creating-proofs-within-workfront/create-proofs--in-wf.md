@@ -6,6 +6,7 @@ title: Create proofs
 description: This section contains the following articles - EDIT ME.
 author: Courtney
 feature: Digital Content and Documents
+recommendations: noDisplay, noCatalog
 exl-id: c8cdde5a-75c3-48ae-ad22-0ee4fed591fc
 ---
 # Create proofs

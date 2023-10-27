@@ -6,6 +6,7 @@ title: Convert issues
 description: Find out information about converting issues in the following articles.
 author: Alina
 feature: Work Management
+recommendations: noDisplay, noCatalog
 exl-id: bb84c18e-5270-44ae-9e6e-0a2099d6d164
 ---
 # Convert issues

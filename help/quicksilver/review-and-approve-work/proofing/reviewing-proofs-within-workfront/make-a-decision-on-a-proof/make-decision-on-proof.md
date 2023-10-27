@@ -6,6 +6,7 @@ title: Make a decision on a proof
 description: Approve a proof
 author: Courtney
 feature: Digital Content and Documents
+recommendations: noDisplay, noCatalog
 exl-id: 471768fd-cf52-4a3f-b6b3-14a35f4c7a4b
 ---
 # Make a decision on a proof

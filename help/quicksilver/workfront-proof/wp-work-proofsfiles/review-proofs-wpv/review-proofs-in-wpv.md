@@ -7,6 +7,7 @@ title: Review proofs in the Web Proofing Viewer
 description: This section contains the following articles - EDIT ME.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
+recommendations: noDisplay, noCatalog
 exl-id: 0cfac975-a561-4e0a-8703-8173b50957ca
 ---
 # Review proofs in the Web Proofing Viewer

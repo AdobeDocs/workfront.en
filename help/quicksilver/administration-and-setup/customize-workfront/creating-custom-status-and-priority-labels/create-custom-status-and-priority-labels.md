@@ -8,6 +8,7 @@ description: As an Adobe Workfront administrator, you can create custom statuses
 author: Caroline
 feature: System Setup and Administration
 role: Admin
+recommendations: noDisplay, noCatalog
 exl-id: 94248a76-6531-4196-964d-6fd51ed02f6a
 ---
 # Create custom statuses and priority labels

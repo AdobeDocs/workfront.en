@@ -7,6 +7,7 @@ title: Share proofs and files
 description: This section contains the following articles - EDIT ME.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
+recommendations: noDisplay, noCatalog
 exl-id: 6275abbf-0485-4729-b633-015f92aac72b
 ---
 # Share proofs and files

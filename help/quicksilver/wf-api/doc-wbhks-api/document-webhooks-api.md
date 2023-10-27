@@ -7,6 +7,7 @@ title: Document Webhooks API overview
 description: Document Webhooks API topics
 author: Becky
 feature: Workfront API
+recommendations: noDisplay, noCatalog
 exl-id: e946c988-6a97-4ef1-a381-4b3bd10ced99
 ---
 # Document Webhooks API overview

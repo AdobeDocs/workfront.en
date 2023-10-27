@@ -7,6 +7,7 @@ title: Account settings in [!DNL Workfront Proof]
 description: This section contains the following articles - EDIT ME.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
+recommendations: noDisplay, noCatalog
 exl-id: 8f43fee1-02ee-4073-aacb-653a11ad897b
 ---
 # Account settings in [!DNL Workfront Proof]

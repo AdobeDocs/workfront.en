@@ -7,6 +7,7 @@ description: This section contains the following articles - EDIT ME.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 1c8fd07d-fb86-4d64-8a3d-4148ced6659b
+recommendations: noDisplay, noCatalog
 ---
 # Basic features in [!DNL Workfront Proof]
 

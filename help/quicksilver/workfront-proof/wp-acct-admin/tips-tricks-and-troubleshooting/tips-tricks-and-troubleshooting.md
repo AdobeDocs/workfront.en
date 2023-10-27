@@ -7,6 +7,7 @@ title: Tips, tricks, and troubleshooting for [!DNL Workfront] Proof account admi
 description: This section contains the following articles - EDIT ME.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
+recommendations: noDisplay, noCatalog
 exl-id: 1e6bd078-b794-4fac-bbda-3ba125408370
 ---
 # Tips, tricks, and troubleshooting for [!DNL Workfront Proof] account administration

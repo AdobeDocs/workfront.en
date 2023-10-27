@@ -7,6 +7,7 @@ title: Create proofs and files
 description: This section contains the following articles - EDIT ME.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
+recommendations: noDisplay, noCatalog
 exl-id: 3515170a-534a-4631-942d-ba55270cdb64
 ---
 # Create proofs and files

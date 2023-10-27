@@ -4,6 +4,7 @@ description: Install Adobe Workfront for Creative Cloud Applications
 author: Courtney
 draft: Probably
 feature: Workfront Integrations and Apps, Digital Content and Documents
+recommendations: noDisplay, noCatalog
 exl-id: 593d1ca0-2a46-4f37-8766-b2950101a932
 ---
 # Install the  [!DNL Adobe Workfront] plugin for [!DNL Creative Cloud] Applications

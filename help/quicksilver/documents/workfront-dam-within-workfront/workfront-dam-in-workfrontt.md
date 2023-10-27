@@ -6,6 +6,7 @@ title: Adobe Workfront DAM within Adobe Workfront
 description: Adobe Workfront DAM is a native Digital Asset Management (DAM) system within Adobe Workfront. Workfront DAM provides a single location where you can store your digital assets and easily leverage them from Workfront.
 author: Courtney
 feature: Digital Content and Documents
+recommendations: noDisplay, noCatalog
 exl-id: c0de93c5-ee48-47b2-9862-c2f1993cae24
 ---
 # Adobe Workfront DAM within Adobe Workfront

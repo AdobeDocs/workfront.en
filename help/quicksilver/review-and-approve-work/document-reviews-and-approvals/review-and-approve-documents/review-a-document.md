@@ -4,7 +4,7 @@ navigation-topic: approvals
 title: Review a document
 description: As a reviewer, you can preview a document that has been submitted to you for review.
 author: Nolan
-feature: Work Management
+feature: Work Management, Digital Content and Documents
 exl-id: 371970e4-cd3e-49b6-8a2d-6cb8fa628679
 ---
 # Review a document

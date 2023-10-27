@@ -6,6 +6,7 @@ title: Project finances
 description: The following articles contain information about areas where you can find project financial information and about how to manage project finances.
 author: Alina
 feature: Work Management
+recommendations: noDisplay, noCatalog
 exl-id: 7dda021d-4cf8-4f65-b187-23fcd935a842
 ---
 # Project finances

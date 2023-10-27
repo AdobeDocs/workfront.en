@@ -6,6 +6,7 @@ title: Adobe Workfront for Outlook
 description: Adobe Workfront Fusion offers an integration with Outlook. This article links to instructions for installing and configuring this integrations, as well as how to use it in your day-to-day work.
 author: Becky
 feature: Workfront Integrations and Apps
+recommendations: noDisplay, noCatalog
 exl-id: c374416e-9680-4725-ab2d-256dff6f03b1
 ---
 # [!DNL Adobe Workfront for Outlook]

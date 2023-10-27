@@ -6,6 +6,7 @@ title: Review and approve work
 description: This section contains the following subsections - EDIT ME.
 author: Courtney
 feature: Work Management, Digital Content and Documents
+recommendations: noDisplay, noCatalog
 exl-id: c88c09aa-166f-4ae1-bcfc-89b678590f51
 ---
 # Review and approve work

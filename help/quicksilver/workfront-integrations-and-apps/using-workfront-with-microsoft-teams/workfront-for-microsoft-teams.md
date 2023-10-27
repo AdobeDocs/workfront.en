@@ -6,6 +6,7 @@ title: Adobe Workfront for Microsoft Teams Overview
 description: As a team owner, you can install the [!DNL Adobe Workfront for Microsoft Teams] app for your team.
 author: Becky
 feature: Workfront Integrations and Apps
+recommendations: noDisplay, noCatalog
 exl-id: 88b05a70-a304-461d-bab3-21d328c9356e
 ---
 # [!DNL Adobe Workfront for Microsoft Teams] Overview

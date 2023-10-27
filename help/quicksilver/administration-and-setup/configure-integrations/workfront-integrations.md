@@ -7,6 +7,7 @@ description: You can integrate Adobe Workfront with third-party applications. In
 author: Becky
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
+recommendations: noDisplay, noCatalog
 exl-id: 50088ae0-8460-4163-acab-ebb711acda5a
 ---
 # Configure integrations

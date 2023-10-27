@@ -8,6 +8,7 @@ description: As a part of organizing your users in [!DNL Adobe Workfront], you c
 author: Caroline
 feature: System Setup and Administration
 role: Admin
+recommendations: noDisplay, noCatalog
 exl-id: 82204f86-be52-49df-b070-66003c528dd4
 ---
 # Organizational setup

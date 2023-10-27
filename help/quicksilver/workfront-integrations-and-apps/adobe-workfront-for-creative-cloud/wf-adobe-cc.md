@@ -6,6 +6,7 @@ title:  Adobe Workfront plugin for Creative Cloud Apps
 description:  Adobe Workfront plugin for Creative Cloud Applications
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
+recommendations: noDisplay, noCatalog
 exl-id: ebccdf17-12e3-4adc-95af-61d6337edb72
 ---
 

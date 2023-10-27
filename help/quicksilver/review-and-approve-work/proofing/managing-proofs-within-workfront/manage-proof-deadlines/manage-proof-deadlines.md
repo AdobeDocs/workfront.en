@@ -6,6 +6,7 @@ title: Manage proof deadlines
 description: Add, edit, or delete a deadline for a stage
 author: Courtney
 feature: Digital Content and Documents
+recommendations: noDisplay, noCatalog
 exl-id: 9c3e65f7-b7cf-477c-a179-672d4f82b55d
 ---
 # Manage proof deadlines

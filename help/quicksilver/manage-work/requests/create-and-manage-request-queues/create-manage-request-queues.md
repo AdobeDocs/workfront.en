@@ -8,6 +8,7 @@ author: Alina
 feature: Work Management, Requests
 topic: Collaboration
 role: User, Admin
+recommendations: noDisplay, noCatalog
 exl-id: 0aaa54e2-c887-425e-bdd6-6bbc60d21319
 ---
 # Create and manage Request Queues

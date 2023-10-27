@@ -6,6 +6,7 @@ title: Projects
 description: Find out information about projects in the following sections.
 author: Alina
 feature: Work Management
+recommendations: noDisplay, noCatalog
 exl-id: 17ece62a-971d-4dc7-b9e3-ed79a3a4a157
 ---
 # Projects
