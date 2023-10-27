@@ -140,7 +140,7 @@ The following table lists the fields available for event subscription resources:
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>workPerDate <p><span style="color: #ff0000;"> This field is deprecated and will be removed during the week of October 23, 2023.</p></span></td> 
+   <td>workPerDate <p>[!BADGE Removed]{type=negative tooltip="This field was removed on October 26, 2023."}</span></td> 
   </tr> 
   <tr> 
    <td> </td> 
