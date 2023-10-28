@@ -3,6 +3,7 @@ title: Fourth Quarter 2023 Financial Management enhancements
 description: Fourth Quarter 2023 Financial Management enhancements
 author: Lisa
 feature: Product Announcements
+exl-id: f908d538-a24c-44e4-99a7-5069ba99d341
 ---
 # Fourth Quarter 2023 Financial Management enhancements
 

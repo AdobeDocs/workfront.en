@@ -2,13 +2,13 @@
 content-type: reference
 navigation-topic: betas
 title: 'Adobe Workfront and Frame.io native integration alpha: features'
-description: Planned features for the Adobe Workfront and Frame.io native integration alpha 
+description: Planned features for the Adobe Workfront and Frame.io native integration alpha
 author: Nolan
 feature: Product Announcements
 hide: yes
 hidefromtoc: yes
+exl-id: a1603a06-957b-4d52-89f3-f0cec1a4e02c
 ---
-
 # Adobe Workfront and Frame.io native integration alpha: features
 
 ## Use cases and feature testing
@@ -137,4 +137,4 @@ Below is information about the primary use cases we are looking to address and t
 
 ### Project coordinators can send final assets to AEM  
 
-* _Enhancement: Frame connected documents including metadata can be sent to AEM using the existing Workfront + AEM Asset CS connector_ 
+* _Enhancement: Frame connected documents including metadata can be sent to AEM using the existing Workfront + AEM Asset CS connector_

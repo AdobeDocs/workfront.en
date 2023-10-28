@@ -2,13 +2,13 @@
 content-type: reference
 navigation-topic: betas
 title: 'Adobe Workfront and Frame.io native integration alpha: overview'
-description: Information on the Adobe Workfront and Frame.io native integration alpha 
+description: Information on the Adobe Workfront and Frame.io native integration alpha
 author: Nolan
 feature: Product Announcements
 hide: yes
 hidefromtoc: yes
+exl-id: 8c9f26fb-4d61-4743-959d-cfaba1b7b63b
 ---
-
 # Adobe Workfront and Frame.io native integration alpha: overview
 
 ## The Workfront + Frame.io integration alpha
