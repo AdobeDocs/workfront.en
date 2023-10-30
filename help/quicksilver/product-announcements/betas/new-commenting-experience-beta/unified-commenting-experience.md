@@ -10,14 +10,23 @@ exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
 ---
 # New commenting experience
 
+<!--
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>  
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)</span>  
 
-<span class="preview">For information about the current release schedule, see [Fourth Quarter 2023 release overview](../../../product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md)</span> 
+<span class="preview">For information about the current release schedule, see [Fourth Quarter 2023 release overview](../../../product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md)</span> -->
 
-An update to the commenting experience in Adobe Workfront is currently in development. This update includes a new interface, new features, and improved performance in the Updates section of select objects. 
+>[!IMPORTANT]
+>
+>The information in this article refers to features that were released during the beta phase for the new commenting experience. 
+>
+>The beta program for the new commenting experience started in April 2023 and ended in October 2023.
+>
+>The features released during the beta period have been made available to all customers starting with the Fourth Quarter release of 2023 (October 2023) and the beta program has closed. 
 
-The new commenting experience will slowly become available for all the objects with an Updates section in Workfront, and later it will expand to other Adobe Experience Cloud applications.
+<!--An update to the commenting experience in Adobe Workfront is currently in development. This update includes a new interface, new features, and improved performance in the Updates section of select objects. 
+
+The new commenting experience will slowly become available for all the objects with an Updates section in Workfront, and later it will expand to other Adobe Experience Cloud applications.-->
 
 <!--For additional resources for the new commenting experience, also see the following articles:
 
@@ -27,7 +36,7 @@ The new commenting experience will slowly become available for all the objects w
 
 ## Features
 
-The new commenting experience includes improvements and changes to the existing update stream.
+The new commenting experience includes improvements and changes to the Updates section of Adobe Workfront objects. 
 
 Among the improvements included in the new commenting experience are the following:
 
@@ -54,6 +63,8 @@ The following features have been removed from the new experience:
 >* Projects
 >* Tasks
 >* Documents
+
+For more information, see the [New commenting experience FAQs](../../betas/new-commenting-experience-beta/new-commenting-faq.md). 
 
 The following table illustrates the features that will be available in the new commenting experience as well as their availability in areas where they are supported: 
 
@@ -403,6 +414,21 @@ The following table illustrates the features that will be available in the new c
   </tr>
 
 <tr>
+   <td>Drag and drop images in a comment
+   </td>
+   <td> 
+   </td>
+   <td> 
+   </td>
+   <td> 
+   </td>
+   <td>Q1, 2024 
+   </td>
+   <td>✓ 
+   </td>
+  </tr>
+
+<tr>
    <td>Edit custom form 
    </td>
    <td>✓ 
@@ -464,68 +490,49 @@ The following table illustrates the features that will be available in the new c
 
 For information about the features recently released to the new commenting experience, as well as a release timeline, see [New commenting beta experience release activity](../../betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md).  
 
+For more information about managing updates for Workfront objects, see [Update work](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). 
+
 ## Locate the new commenting experience
 
-The new commenting environments is currently available for the following objects and in the following environments: 
+<!--IMPORTANT: when we get rid of the legacy experience, move a version of this to the Update work article or the Update section overview -- to say that the experience is different for all except for iterations-->
 
-* In the Production environment for all customers: 
+The new commenting experience is currently available for all customers and for all environments.
 
-  * When enabling the Beta experience in the Updates section for 
+Depending on what objects you access the commenting experience for, you might see the following functionality for the Updates section:
 
-    * Issues, projects, tasks, and documents
-
-    For more information about managing updates for Workfront objects, see [Update work](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
-
-  * By default, as the only commenting experience for
-
-    * Goals, cards on a board
-
-    >[!NOTE]
-    >
-    >You must have an additional license to Adobe Workfront Goals to be able to access this area of Workfront. For more information, see [Requirements to use Workfront Goals](../../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
-
-* <span class="preview"> In the Preview environment for all customers </span>
-
-    <span class="preview">
-
-    * By default, when you enable the New commenting experience in the Updates section for the following objects: 
+* Both the new and legacy commenting experience for the following objects: 
 
       * Project
-      * Task
+      * Task (this includes Stories)
       * Issue
       * Document
 
       >[!TIP]
       >
-      >The New commenting experience option is enabled by default for these objects. You can deselect the New commenting toggle to display the legacy commenting experience. 
+      >Use the New commenting option to display the new commenting experience (when you enable it) or the legacy commenting experience (when you disable it), as described in this section. The new commenting experience is the default. 
 
-      For more information about managing updates for Workfront objects, see [Update work](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). 
+  * Only the new commenting experience for the objects listed below. There is no option to enable the legacy commenting experience for these objects:   
 
-    </span>
+     * Goal
 
-    <span class="preview">
-
-    * By default, as the only commenting experience for the following objects:  
-
-      * Goal
-
-        >[!NOTE]
-        >
-        >You must have an additional license to Adobe Workfront Goals to be able to access this area of Workfront. For more information, see [Requirements to use Workfront Goals](../../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
-      * Card on a board
-      * Team
-      * Template
-      * Template Task
-      * Timesheet
-      * Program
-      * Portfolio
-      * User
-
-      >[!TIP]
+      >[!NOTE]
       >
-      >There is no option to enable the new commenting experience for iterations. Only the legacy commenting experience is available for iterations. 
+      >You must have an additional license to Adobe Workfront Goals to be able to access this area of Workfront. For more information, see [Requirements to use Workfront Goals](../../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+    * Card on a board
+    * Team
+    * Template
+    * Template Task
+    * Timesheet
+    * Program
+    * Portfolio
+    * User
 
-    </span>
+* Only the legacy commenting experience for the following objects:
+
+  * Iterations
+    
+    There is no option to enable the new commenting experience for iterations. Only the legacy commenting experience is available for iterations. 
+
 
 <!--before August 17: 
 
@@ -548,35 +555,24 @@ The new commenting experience is currently supported for the following objects:
 
 -->
 
-Depending on the environment you access the commenting experience you can do one of the following: 
+<!--Depending on the environment you access the commenting experience you can do one of the following: 
 
 * Enable the commenting experience Beta in the Production environment
 * <span class="preview">Enable the legacy commenting experience in the Preview  environment </span>
+-->
 
-To enable the commenting experience Beta in the Production environment: 
+To enable the commenting experience option for projects, tasks, issues, and documents: 
 
 1. Go to an object that you want to activate the new commenting experience for, then click **Updates** in the left panel.
-1. CLick the **Commenting Beta** toggle in the upper-right corner of the Updates area to enable it. 
-1. Click **Agree** in the Beta agreement box. This enables the new commenting experience for the selected object. 
-1. Start typing an update in the **Comments** tab. The Comments tab should be the default tab when the new experience opens
+1. (Conditional) If it is disabled, enable the **New commenting** option in the upper-right corner of the Updates area to enable it. This should be enabled by default. 
+
+    ![](assets/new-commenting-toggle-off-highlighted.png)
+
+1. Start typing an update in the **Comments** tab. The Comments tab is the default tab when the new experience opens
 
     Or
 
     Click the  **System Activity** tab to view the activity updates generated by Workfront. 
 
-<span class="preview">
+1. (Optional) To disable the new commenting experience and return to legacy commenting, deselect the **New commenting** option. 
 
-To disable the new commenting experience and display the legacy experience in the Preview environment: 
-
-1. Go to a project, task, issue, or document, then click **Updates** in the left panel.
-1. Click the **New commenting** toggle in the upper-right corner of the Updates area to deselect the toggle and disable the new experience. 
-  
-  This changes the Updates area to the legacy commenting stream. 
-
-1. Start typing an update in the **Comments** tab. The Comments tab should be the default tab when the new experience opens
-
-    Or
-
-    Click the  **System Activity** tab to view the activity updates generated by Workfront. 
-
-</span>

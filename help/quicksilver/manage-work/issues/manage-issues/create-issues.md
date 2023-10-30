@@ -11,7 +11,7 @@ exl-id: 2a4488fb-fe2f-422a-887c-996f6367afc5
 ---
 # Create issues
 
-<!--remove Preview and Prod references when this comes to Prod-->
+<!--
 
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>
 
@@ -19,7 +19,7 @@ exl-id: 2a4488fb-fe2f-422a-887c-996f6367afc5
 
 <span class="preview">For information about the current release, see [Fourth Quarter 2023 release overview](../../../product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md). </span> 
 
-
+-->
 
 While working on a project, you might discover that unexpected events arise. You can log those unexpected events as issues for a particular project or of a task. Users with the appropriate access can view and monitor the status of issues as the project or the task progresses to completion, eliminating the need for lengthy email chains or status meetings. Unlike tasks, which are planned events, issues represent unplanned work items in Adobe Workfront.
 
@@ -81,6 +81,8 @@ For information about creating issues by submitting them to a request queue, see
 
 After you have defined the fields of a new issue form on your project, you can start creating issues.
 
+<!-- OLD UI: redesigned on Oct 26, 2023:
+
 Creating issues differs depending on which environment you choose to create the issue. 
 
 ### Create issues on a task or project using the New Issue button in the Production environment
@@ -138,11 +140,8 @@ To create an issue on a task or a project:
 
 Issues can be assigned to multiple users, job roles or to a team. For more information about assigning and managing requests, see [Manage work and team requests](../../../people-teams-and-groups/work-with-team-requests/manage-work-and-team-requests.md).
 
-<!--When this is coming to Production, remove the "Production" section above and replace it with the following content: -->
-
-<div class="preview">
-
-### Create issues on a task or project using the New Issue button in the Preview environment
+<!--When this is coming to Production, remove the "Production" section above and replace it with the following content:
+-->
 
 To create an issue on a task or a project:
 
@@ -196,7 +195,6 @@ To create an issue on a task or a project:
 
    Issues can be assigned to multiple users, job roles or to a team. For more information about assigning and managing requests, see [Manage work and team requests](../../../people-teams-and-groups/work-with-team-requests/manage-work-and-team-requests.md).
 
-</div>
 
 ## Create issues on a task or project inline
 
