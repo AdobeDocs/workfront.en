@@ -105,6 +105,12 @@ You can create records in the table view of a record type page.
 
     ![](assets/adding-a-new-campaign-in-table-row.png)
 
+    >[!TIP]
+    >
+    >    Type CTRL+Enter to add a new record in a new row. 
+
+    <!--ensure this is the shortcut for adding a new row AND that it is not different for Macs-->
+
 1. Start typing information in the new row about the new record. 
 
     >[!NOTE]

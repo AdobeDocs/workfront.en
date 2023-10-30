@@ -145,4 +145,4 @@ You can edit a record from the following areas:
 1. Click inside the row of a record to start editing information about the record inline.
 
     ![](assets/edit-record-paragraph-field-with-formatting-table-view.png)
-1. Press **Enter** on your keyboard or click outside of a row to save your changes. The changes are saved automatically. 
+1. Press **Enter** on your keyboard or click outside of a row to save your changes. The changes are saved automatically. A Saved indicator displays briefly in the upper-right corner of the table view to show that the changes were saved. 
