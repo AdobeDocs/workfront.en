@@ -256,7 +256,7 @@ You must have the following access to perform the steps in this article:
 
     ![](assets/edit-field-and-lookup-fields-drop-down-menu-in-table-column.png)
 
-    To add or remove fields, follow the directions in steps 7-12 above. <!--ensure these step numbers stay accurate--> 
+    To add or remove lookup fields, follow the directions in steps 7-12 above. <!--ensure these step numbers stay accurate--> 
     
 1. (Optional) Click the downward-pointing arrow in the header of the linked record field from the record type you are linking from, then click **Delete**. 
 

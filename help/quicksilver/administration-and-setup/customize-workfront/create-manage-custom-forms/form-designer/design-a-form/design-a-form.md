@@ -11,8 +11,6 @@ exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
 ---
 # Design a form with the form designer
 
-{{preview-and-fast-release}}
-
 You can design a custom form with the form designer. You can attach custom forms to different Workfront objects to capture data about those objects.
 
 ## Access requirements
@@ -490,9 +488,7 @@ To add typeahead date fields:
 
     or
 
-    Click **Save and Close**. 
-
-<div class="preview">
+    Click **Save and Close**.
 
 ### Add external lookup fields
 
@@ -589,8 +585,6 @@ To add an external lookup:
 >* Wait duration between retries: 500ms
 >* Expected response statuses: 2xx
 >* Users can see the selected value (and edit the value) in Workfront lists and reports, but will not see the dropdown with options coming from the external API.
-
-</div>
 
 ### Add images, PDFs, and videos
 

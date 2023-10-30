@@ -3,12 +3,19 @@ title: Fourth Quarter 2023 Administrator enhancements
 description: Fourth Quarter 2023 Administrator enhancements
 author: Lisa
 feature: Product Announcements
+exl-id: 7ed37978-b821-488e-9ca1-b81825255be3
 ---
 # Fourth Quarter 2023 Administrator enhancements
 
-This page describes all administrator enhancements made with the Fourth Quarter 2023 release to the Preview environment. These enhancements will be made available in the Production environment with the 23.10 release.
+This page describes all administrator enhancements made with the Fourth Quarter 2023 release to the Preview environment. These enhancements were made available in the Production environment with the 23.10 release.
 
 For a list of all changes available at this point in the Fourth Quarter 2023 release cycle, see [Fourth Quarter 2023 release overview](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md).
+
+## Proof and document decisions available to legacy license model customers
+
+Legacy customers who have not yet transitioned to the new Adobe Workfront license model can now see data with the number of proof/document decisions per user per month, in a single report. This data is available when you run a Users Decisions report.
+
+For more information, see [Understand objects in Adobe Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md) and and [View the number of proof and document decisions for all users](/help/quicksilver/review-and-approve-work/tips-tricks-troubleshooting-approvals/view-number-of-decisions-for-users.md).
 
 ## Calculated fields on custom forms can now use the $$USER wildcard
 

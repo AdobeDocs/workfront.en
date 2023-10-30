@@ -127,7 +127,7 @@ You can add up to 500 fields (or columns) in a table view.
 
     * Grab the column header and drag and drop it in the desired position. The column you moved briefly displays with a blue background until you make other adjustments to the table. 
 
-    * Click **Fields** in the table's toolbar, then drag and drop the fields in the desired order, then click outside the **Fields visibility and order box** to close it.
+    * Click **Fields** in the table's toolbar, then drag and drop the fields in the desired order, then click outside the **Fields visibility and order** box to close it.
 
         ![](assets/fields-setting-table-view-toolbar-expanded.png)
 
@@ -151,14 +151,14 @@ You can add up to 500 fields (or columns) in a table view.
 
     Or
 
-    Click **Fields** in the table toolbar and disable the toggle associated with the fields (or columns) you want to hide. 
+    Click **Fields** in the table toolbar and disable the toggle associated with the fields (or columns) you want to hide. The **Fields visibility and order** box displays.
 
     >[!TIP]
     >
     >The number of hidden fields displays to the left of the Fields icon in the toolbar.
 
 
-1. Click the **Fields** setting and enable the toggle associated with the fields you want to display in the columns of the table. All fields display by default.
+1. Click the **Fields** icon and enable the toggle associated with the fields you want to display in the columns of the table. All fields display by default.
 
 1. Do the following to quickly find records that match a keyword:
 
