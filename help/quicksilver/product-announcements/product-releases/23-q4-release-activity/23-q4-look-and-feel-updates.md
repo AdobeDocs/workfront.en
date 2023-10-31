@@ -12,13 +12,21 @@ This page describes minor updates to the look and feel of various areas of the A
 
 For a list of all changes available with the Fourth Quarter 2023 release, see [Fourth Quarter 2023 release overview](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md).
 
+## Look-and-feel updates for document approvals email template
+
+>[!NOTE]
+>
+>Preview release: November 1, 2023; Production release for all customers: November 1
+
+The email template for document approval notifications has been updated to better match other Adobe email templates and to improve clarity and usability.
+
 ## Indicator for manually adjusted allocations in the Workload Balancer
 
 >[!NOTE]
 >
 >Preview release: October 12, 2023; Production release for all customers: TBD
 
-To provide more clarity about manual adjustments or contouring in the Workload Balancer, manually  adjusted hourly allocations now show a pencil icon.
+To provide more clarity about manual adjustments or contouring in the Workload Balancer, manually adjusted hourly allocations now show a pencil icon.
 
 For more information, see [Manage user allocations in the Workload Balancer](/help/quicksilver/resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
 
