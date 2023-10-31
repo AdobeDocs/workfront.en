@@ -53,3 +53,7 @@ You must have the following access to perform the steps in this article:
 
 1. On the card, locate the [!UICONTROL Documents] area. Click ![List icon](assets/docs-list-icon.png) to view all documents in a list, or click ![Gallery icon](assets/docs-gallery-icon.png) to view the documents in a gallery.
 1. Hover over the document thumbnail, and click [!UICONTROL **Preview**] to view the file in the browser or [!UICONTROL **Download**] to download the file to your computer.
+
+   >[!NOTE]
+   >
+   >PDFs do not show a thumbnail image.
