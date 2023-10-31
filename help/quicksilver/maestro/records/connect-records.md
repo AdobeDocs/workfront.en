@@ -271,4 +271,4 @@ After you created a connection between a Maestro record type and a Workfront obj
     >
     >  The fields you add or remove in the Workfront object record type page are not added nor removed from the Maestro record type that links to the Workfront object type. The fields are only visible on the read-only Workfront record type page, so you can review them in Maestro.
 
-1. (Optional) From the View drop-down menu on the Workfront object record type page, choose the Timeline view to display the Workfront linked objects in the timeline view.
+1. (Optional and conditional) If you added at least two date fields to the Workfront object, Click the **View** drop-down menu in the Workfront object record type page and select the **Timeline** view. The Workfront linked objects display in the timeline view.

@@ -30,6 +30,38 @@ This section lists the features and patches that have been released after the la
 
 The features are released weekly and are listed in the order of their release, with the most recent first. Customers who are participating in the Maestro closed beta program can access all features in their Preview and Production environments.
 
+## Week of October 30, 2023
+
+### New field types for user and date fields to capture who created or last modified a record or on what date 
+
+Preview and production: October 30, 2023
+
+We have introduced the following field types for Maestro records:  
+
+* Created by 
+
+* Created date 
+
+* Last modified by 
+
+* Last modified date 
+
+The field values of the fields created from these field types are read-only and capture the name of the user who created or last modified a record, or the date when the record was created or last modified. 
+
+For more information, see [Create fields](../maestro/architecture-and-fields/create-fields.md).
+
+### Navigate to Workfront objects from a Maestro record
+
+Preview and production: October 31, 2023
+
+You can now open the Workfront object pages from the following areas in Maestro: 
+
+* The read-only linked Workfront object record table view
+
+* The read-only Workfront object record Details page 
+
+For more information, see [Connect records](../maestro/records/connect-records.md). 
+
 ## Week of October 16, 2023
 
 ### New People field type 
