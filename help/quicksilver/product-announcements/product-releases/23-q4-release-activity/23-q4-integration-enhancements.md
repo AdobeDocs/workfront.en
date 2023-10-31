@@ -23,6 +23,10 @@ For more information, see [Link documents through the new SharePoint integration
 
 ## Upgrades to drag-and-drop for document integrations
 
+>[!NOTE]
+>
+>This feature has not yet been released to Production environments.
+
 We've made some enhancements to the user experience when dragging and dropping a file into a linked folder.
 
 * For better transparency into the process, we've added a "Moving" indicator that displays while the file is in the process of moving to the linked folder.
