@@ -217,6 +217,10 @@ The following are the main Maestro objects and concepts:
     * Currency
     * Checkbox  
     * People
+    * Created by
+    * Created date
+    * Last modified by
+    * Last modified date
    
 * **Linked record types**, **Linked records**, and **Linked record fields**:  You can create a connection between the following entities:
     

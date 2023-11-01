@@ -82,6 +82,7 @@ You must have the following access to perform the steps in this article:
 * If the deleted records are linked to other records, the linked records are not deleted, but the information from the deleted record is also deleted. 
 * You cannot delete records in bulk. <!--this will probably change-->
 * You cannot delete records from the timeline view. 
+* You cannot delete a record type linked from another application. For example, if you link a Maestro record to a Workfront object, you cannot delete the Workfront object from the Workfront object record page. 
 
 ## Delete records
 
