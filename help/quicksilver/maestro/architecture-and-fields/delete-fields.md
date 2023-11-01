@@ -28,7 +28,8 @@ You can delete Maestro fields that are no longer relevant.
 
 ## Considerations about deleting Maestro fields:
 
-* You can delete fields that you created or fields created by other users. <!--this will change with access levels/ permissions-->
+* You can delete fields that you created or fields created by other users or by the system. <!--this will change with access levels/ permissions-->
+* You cannot delete the Name field of a record. <!--change this to say you can't delete the field selected to be the primary-->
 * You can delete a field only in the record type table. 
 * Any information stored in the field is deleted and cannot be recovered. 
 * When you delete a linked record field, all the linked lookup fields are also deleted from the record type you link from. The linked record fields of the record types you link to are not deleted. 

@@ -46,7 +46,7 @@ You can connect the following:
 * Maestro operational records to taxonomy records
 * Maestro operational records and objects from other applications. 
 
-  The following applications and object types are currently supported: 
+  You can connect Maestro records to objects of the types listed below from the following applications:
   
   * Adobe Workfront
 
@@ -132,7 +132,7 @@ You must have the following access to perform the steps in this article:
 * Everyone with access to Maestro can see the connections that you make between Maestro records or between Maestro records and Workfront objects. Also, you can view and edit everyone else's connections. <!--add that this is based on your permissions in both Maestro and Workfront (or, later, any other application)-->
 * You can connect one Maestro record to one or multiple objects from another application.
 * You cannot connect taxonomies to record types or to objects from another application. <!-- this is temporary; there will be certain objects (teams, etc) that will be linked to taxonomies, per Lilit-->
-* Currently, you can link Maestro records only to Workfront objects. To link Maestro records with Workfront objects, you must have the following:
+* To link Maestro records with Workfront objects, you must have the following:
 
   * Workfront objects. For example, you must first create projects, portfolios, programs, companies, or groups in Workfront.
   * Maestro workspaces, record types, and records. For more information, see the following articles:
@@ -151,10 +151,10 @@ You must have the following access to perform the steps in this article:
 
 1. (Optional) Expand the downward-pointing arrow to the right of an existing workspace name and select the workspace that you want to connect records from.
 1. Click the card of a record type to open the record type page. 
-1. Select a Table view from the **View** drop-down menu in the upper-right corner of the record type page. 
+1. Select a **Table** view from the **View** drop-down menu in the upper-right corner of the record type page. 
 1. Add a connection to another record or object type from the selected record type. For information, see [Connect record types](../architecture-and-fields/connect-record-types.md). 
 
-  A new column is added to the table to display the linked record type. 
+   A new column is added to the table to display the linked record type. 
 
 1. Add records to the record type that you selected by adding a new row to the table. For information, see [Create records](../../maestro/records/create-records.md). 
 1. From a record listed in the table view, go to the linked record column and hover over the cell corresponding to the record that you want to link with other Maestro records, then click the **+** icon. 
