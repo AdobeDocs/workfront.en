@@ -145,7 +145,7 @@ You must have the following access to perform the steps in this article:
   
 ### Connect Maestro records
 
-1. Click the **Main Menu** icon ![](assets/main-menu-workfront.png) in the upper-right corner of Workfront, <!---or the **Main menu** icon ![](assets/main-menu-shell.png)  in the upper-left corner, if available--> then click **Maestro** ![](assets/maestro-icon.png).
+1. Click the **Main Menu** icon ![](assets/main-menu-workfront.png) in the upper-right corner of Workfront, or the **Main menu** icon ![](assets/main-menu-shell.png)  in the upper-left corner, if available, then click **Maestro** ![](assets/maestro-icon.png).
 
     The last-accessed workspace should open by default. 
 
@@ -195,7 +195,7 @@ You must have the following access to perform the steps in this article:
 
 After you created a connection between a Maestro record type and a Workfront object type, you can connect individual Maestro records to objects in Workfront. You can also connect fields from the Workfront object to the Maestro record type. 
 
-1. Click the **Main Menu** icon ![](assets/main-menu-workfront.png) in the upper-right corner of Workfront, <!---or the **Main menu** icon ![](assets/main-menu-shell.png)  in the upper-left corner, if available--> then click **Maestro** ![](assets/maestro-icon.png).
+1. Click the **Main Menu** icon ![](assets/main-menu-workfront.png) in the upper-right corner of Workfront, or the **Main menu** icon ![](assets/main-menu-shell.png)  in the upper-left corner, if available, then click **Maestro** ![](assets/maestro-icon.png).
 
     The last-accessed workspace should open by default. 
 
@@ -259,11 +259,30 @@ After you created a connection between a Maestro record type and a Workfront obj
     >
     >    * To display the Workfront object record type in the Timeline view, you must have at least two date fields displayed in the Table view of the read-only Workfront record type page. 
 
-1. (Optional) Click the **More** menu ![](assets/more-menu.png) next to the Workfront object record type name in the header of the page, then click **Rename** to edit the name of the record. 
+1. (Optional) To open the Workfront object record Details page in Maestro, do one of the following:
 
-    >[!NOTE]
-    >
-    >    You cannot delete a linked Workfront record type or any objects from the Workfront record type page. 
+    * From the record type you linked from, go to the Workfront object linked record field and click the name of the Workfront object.
+    * From the **Table** view of the Workfront record type page, click the name of the Workfront object
+
+      Or
+
+      Click the **More** menu to the right of the Workfront object name,then click **View**. 
+
+      ![](assets/workfront-object-more-menu-in-table-with-go-to-source-link.png)
+
+    This opens the Maestro Details page of the linked Workfront object. This is a read-only page. 
+
+1. (Optional) To open the linked Workfront object in Workfront, do one of the following:
+
+    * From the **Table** view of the Workfront record type page, click the name of the Workfront object, 
+  
+    Or
+
+    Click the **More** menu to the right of the Workfront object name, then click **Go to source**. 
+
+    ![](assets/workfront-project-maestro-details-page-with-go-to-source-link.png)
+
+    This opens the Workfront object page. You can edit information about the Workfront object, if you have permissions to do so. 
 
 1. (Optional) Click the **Add fields** icon ![](assets/add-fields-icon.png) in the upper-right corner of the table view on the Workfront record type page, to add or remove Workfront fields from the Workfront record type.
 
