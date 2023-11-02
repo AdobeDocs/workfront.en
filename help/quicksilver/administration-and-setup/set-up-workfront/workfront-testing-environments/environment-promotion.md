@@ -118,6 +118,8 @@ The Environment Promotion capability is intended to provide the ability to move 
 | Risk Type (RSKTYP) | Risk Type |
 | Resource Pool (RSPL) | Resource Pool |
 
+\* Not currently available 
+
 ## Authentication
 
 The API authenticates each request to ensure that the client has access to view or modify a requested object.
