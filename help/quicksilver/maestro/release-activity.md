@@ -62,6 +62,22 @@ You can now open the Workfront object pages from the following areas in Maestro:
 
 For more information, see [Connect records](../maestro/records/connect-records.md). 
 
+### Improved navigation in the table view
+
+Preview and production: November 2, 2023
+
+We have improved the navigation in the table view of a record type page.  
+
+The following are some of the improvements: 
+
+* Use the tab key on your keyboard to navigate the table's columns and rows 
+
+* Add a new record from any column position. Prior to this improvement you could add a record only from the first column. 
+
+* Use the Shift + Enter keyboard combination to add a new record (or row) in the table.  
+
+For more information, see [Create records](../maestro/records/connect-records.md). 
+
 ## Week of October 16, 2023
 
 ### New People field type 
