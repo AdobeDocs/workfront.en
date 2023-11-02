@@ -27,11 +27,15 @@ Using single sign-on (SSO), you can pass attributes from your identity provider'
 
 1. (Optional) If you want to create more than one rule for a given field, click the arrow next to **Always** and select the operator that you want the rule to use. 
 
-1. (Conditional) If you have selected operator besides Always, select the Workfront field and value that the operator applies to.
+1. (Conditional) If you have selected an operator besides Always, select the Workfront field and value that the operator applies to.
 
    >[!NOTE]
    >
    >The operators `Is Truthy` and `Is Falsy` do not require values.
+
+1. Select whether you want to apply the value of a field in your identity manager to the Workfront field, or if you want to apply a specific constant value.
+
+1. Enter the name of the identity manager field that you want to apply, or enter the text of the constant value you want to apply.
 
 
 
