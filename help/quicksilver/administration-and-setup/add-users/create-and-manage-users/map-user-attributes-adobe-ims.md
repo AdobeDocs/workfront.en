@@ -23,7 +23,7 @@ Using single sign-on (SSO), you can pass attributes from your identity provider'
 
 1. To create a new attribute mapping, click **Add Mapping**.
 
-1. Click the arrow next to the field and select the [!DNL Workfront] field that you want to map to. 
+1. Click the arrow next to the Workfront field name and select the [!DNL Workfront] field that you want to map to. 
 
 1. (Optional) If you want to create more than one rule for a given field, click the arrow next to **Always** and select the operator that you want the rule to use. 
 
@@ -37,7 +37,16 @@ Using single sign-on (SSO), you can pass attributes from your identity provider'
 
 1. Enter the name of the identity manager field that you want to apply, or enter the text of the constant value you want to apply.
 
+1. (Optional) To add more rules for the same Workfront field, click **Add New Rule**, and follow steps 4-9.
+   
+   >[!IMPORTANT]
+   >
+   > * Any rule below an Always rule will be ignored. If you have an Always rule, you must move it to the bottom of the list of rules. You can move rules in the list by clicking the three-dot menu to the right of the rule and move the rule up or down.
+   > * To create a rule in the middle of the list, click the three-dot menu next to the rule that you want to be above or below the new rule, and select **Add Rule Above** or **Add Rule Below**.
 
+1. To delete a rule, click the three-dot menu next to the rule you want to delete, and select **Delete**.
+
+1. To save, scroll to the top of the page and click **Save**.
 
 
 
