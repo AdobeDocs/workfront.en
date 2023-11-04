@@ -105,7 +105,7 @@ You must have the following access to perform the steps in this article:
      </tr> 
      <tr> 
       <td role="rowheader">Users in the system will default to seeing the New Home experience </td> 
-      <td>Lets you specify whether users will see the New Home experience by default. When enabled, users will see the New Home experience by default, but can still opt to enable or disable New Home on an individual basis. When disabled, users will not see the banner that allows them to switch to New Home--however, they can still navigate to their New Home page by manually entering <code>/home/workspaces</code> at the end of their instance URL. This setting is enabled by default.</td> 
+      <td>Lets you specify whether users will see the New Home experience by default. When enabled, users will see the New Home experience by default, but can still opt to enable or disable New Home on an individual basis. When disabled, users will not see the banner that allows them to switch to New Home—however, they can still navigate to their New Home page by manually entering <code>/home/workspaces</code> at the end of their instance URL. This setting is enabled by default.</td> 
      </tr> 
     </tbody> 
    </table>
