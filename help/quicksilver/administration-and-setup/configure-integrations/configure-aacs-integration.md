@@ -8,8 +8,6 @@ exl-id: bc58cc77-a177-417f-a5a4-eec51e305219
 ---
 # Configure the [!UICONTROL Experience Manager Assets as a Cloud Service] integration
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.</span>
-
 You can connect your work with your content in [!DNL Experience Manager Assets]​:
 
 * Push assets and metadata from [!DNL Adobe Workfront] to [!DNL Experience Manager Assets]​
@@ -241,16 +239,12 @@ The followings workflows are available in the Adobe Experience Manager integrati
 
 <!--Courtney end here-->
 
-<div class="preview">
-
 ### Publish assets that are sent to Adobe Experience Manager Assets
 
 1. Toggle on **[!UICONTROL Publish assets automatically]**.
 1. Check the box next to the location where you want to publish assets sent to Adobe Experience Manager assets. You may enable either or both options. 
 1. (Conditional) If you have enabled the Brand Portal option, Select the Brand Portal where you want to publish assets.
 1. Click **[!UICONTROL Save]** or move on to the [Set up linked folders (Optional)](#set-up-linked-folders-optional) section in this article.
-
-</div>
 
 
 ## Set up linked folders (Optional)
