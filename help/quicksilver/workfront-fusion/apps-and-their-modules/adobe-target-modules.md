@@ -174,6 +174,8 @@ If you see the map button above a field or function, you can use it to set varia
 
 #### [!UICONTROL Create a record]
 
+[xt](#offer-fields)
+
 This action module creates an AB or XT activity, an offer, or an audience.
 
 <table style="table-layout:auto"> 
@@ -191,11 +193,11 @@ This action module creates an AB or XT activity, an offer, or an audience.
       <ul>
         <li>
           <p>[!UICONTROL AB Activity]</p>
-          <p>Continue to <a href="#AB%C2%A0Activ" class="MCXref xref" >AB Activity fields</a>.</p>
+          <p>Continue to <a href="#ab-activity-fields" class="MCXref xref" >AB Activity fields</a>.</p>
         </li>
         <li>
           <p>[!UICONTROL XT Activity]</p>
-          <p>Continue to <a href="#XT" class="MCXref xref" >XT Activity fields</a>.</p>
+          <p>Continue to <a href="#xt-activity-fields" class="MCXref xref" >XT Activity fields</a>.</p>
         </li>
         <li>
           <p>[!UICONTROL Offer]</p>
