@@ -409,55 +409,6 @@ There are several ways you can copy an update. After copying a link, you can sha
 
 Copying an update differs depending on which commenting experience you use. 
 
-### Copy an update in the legacy commenting experience
-
-<!--remove legacy when removed from the UI-->
-
-* [Copy the update](#copy-the-update) 
-* [Copy the thread link](#copy-the-thread-link) 
-* [Copy the update link](#copy-the-update-link)
-* [Quote Reply](#quote-reply)
-
-#### Copy the update {#copy-the-update}
-
-This option copies the text from a specific update to the clipboard.
-
-1. Go to the update or reply you want to copy.
-1. Click the **More** menu, then click **Copy body text**.
-
-   ![](assets/update-stream-comment-menu-marked-350x152.png)
-
-#### Copy the thread link {#copy-the-thread-link}
-
-This option copies the full thread link to the clipboard so you can share the thread with other users.
-
-1. Go to the update thread you want to copy.
-
-1. Click the **More** menu, then click **Copy thread link**.
-
-   ![](assets/update-stream-comment-menu-marked-350x152.png)
-
-#### Copy the update link {#copy-the-update-link}
-
-This option copies a specific update link to the clipboard. When you share the update link, the user who follows it sees a border around the update.
-
-1. Go to the update or reply you want to copy.
-1. Click the **More** menu next to the individual update, then click **Copy update link**.
-
-   ![](assets/copy-update-link-old-ui.png)
-
-
-#### Quote Reply  
-
-The Quote Reply option copies the original comment to a new reply as a block quote. 
-
-1. Go to the update or reply you want to copy.
-1. Click the **More** menu, then click **Quote Reply**.
-
-   A new comment box opens and the quoted reply is included in the new comment and marked as a block quote.
-
-1. Continue adding your update and click **Reply** to add the comment.
-
 ### Copy an update in the new commenting experience   
 
 For information about what features are available for the new commenting experience and for what objects, see [New commenting experience](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). 
@@ -480,6 +431,14 @@ The Copy link option copies the comment or thread link to the clipboard so you c
 
 1. Click the **More** menu, then click **Copy link**.
 
+1. Paste the link you copied in the previous step in an email or another application to share it with others. The shared link opens the comment you shared the link from. 
+
+   >[!TIP]
+   >
+   >When you share the link of a conversation on a child object from a higher-ranking object, the link opens the thread in the higher-ranking object's Updates area. 
+   >
+   >For example, if you copy the link of a task comment from the project's Updates area, the comment opens the project page.
+
 #### Copy body text
 
 The Copy body text option copies the text from a specific update to the clipboard.
@@ -501,6 +460,64 @@ The Quote reply option copies the original comment to a new reply as a block quo
    <!--ensure the screen shot above is correct - missing he block quote icon in rich text -->
 
 1. Continue adding your update and click **Submit** to add the comment.
+
+### Copy an update in the legacy commenting experience
+
+<!--remove legacy when removed from the UI-->
+
+* [Copy the update](#copy-the-update) 
+* [Copy the thread link](#copy-the-thread-link) 
+* [Copy the update link](#copy-the-update-link)
+* [Quote Reply](#quote-reply)
+
+   >[!TIP]
+   >
+   >When you copy and share the link of a conversation on a child object from a higher-ranking object, the link opens the thread in the child object's Updates area. 
+   >
+   >For example, if you copy the link of a task comment from the project's Updates area, the comment opens the task page.
+
+#### Copy the update {#copy-the-update}
+
+This option copies the text from a specific update to the clipboard.
+
+1. Go to the update or reply you want to copy.
+1. Click the **More** menu, then click **Copy body text**.
+
+   ![](assets/update-stream-comment-menu-marked-350x152.png)
+
+#### Copy the thread link {#copy-the-thread-link}
+
+This option copies the full thread link to the clipboard so you can share the thread with other users.
+
+1. Go to the update thread you want to copy.
+
+1. Click the **More** menu, then click **Copy thread link**.
+
+   ![](assets/update-stream-comment-menu-marked-350x152.png) 
+
+1. Paste the link you copied in the previous step in an email or another application to share it with others. The shared link opens the comment you shared the link from. 
+
+#### Copy the update link {#copy-the-update-link}
+
+This option copies a specific update link to the clipboard. When you share the update link, the user who follows it sees a border around the update.
+
+1. Go to the update or reply you want to copy.
+1. Click the **More** menu next to the individual update, then click **Copy update link**.
+
+   ![](assets/copy-update-link-old-ui.png)
+
+1. Paste the link you copied in the previous step in an email or another application to share it with others. The shared link opens the comment you shared the link from. 
+
+#### Quote Reply  
+
+The Quote Reply option copies the original comment to a new reply as a block quote. 
+
+1. Go to the update or reply you want to copy.
+1. Click the **More** menu, then click **Quote Reply**.
+
+   A new comment box opens and the quoted reply is included in the new comment and marked as a block quote.
+
+1. Continue adding your update and click **Reply** to add the comment.
 
 ## Delete an update or reply
 
