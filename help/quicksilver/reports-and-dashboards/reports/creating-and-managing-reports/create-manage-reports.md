@@ -3,7 +3,7 @@ content-type: reference
 product-area: reporting
 navigation-topic: reports
 title: Create and manage reports
-description: This section contains the following articles - EDIT ME.
+description: Learn to create and manage reports
 author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog

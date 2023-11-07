@@ -3,7 +3,7 @@ content-type: reference
 product-area: reporting
 navigation-topic: reports
 title: Calculated custom data in reports
-description: This section contains the following articles - EDIT ME.
+description: Learn about custom data in reports
 author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog

@@ -2,7 +2,7 @@
 content-type: reference
 navigation-topic: product-announcements
 title: Announcements
-description: This section contains the following articles - EDIT ME.
+description: See Workfront Announcements
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
