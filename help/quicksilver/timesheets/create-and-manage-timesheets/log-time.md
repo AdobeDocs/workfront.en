@@ -110,7 +110,6 @@ You can log time in the following areas in Workfront:
 
 ### Timesheet {#timesheet}
 
-
 #### Log time on a timesheet {#log-time-on-a-timesheet}
 
 You can log general hours or project-specific hours on a timesheet.

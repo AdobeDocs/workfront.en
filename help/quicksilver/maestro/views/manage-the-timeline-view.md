@@ -114,8 +114,6 @@ Consider the following:
      * Edit record information
 --> 
 
-When creating a timeline view, all records of the selected record type display in a timeline as bars, by default.  
-
 To manage a timeline view: 
 
 1. Go to the record type page for which you want to view the timeline. 
@@ -123,7 +121,7 @@ To manage a timeline view:
 
     ![](assets/timeline-view-example.png)
 
-    The records associated with the record type you selected display in a chronological timeline, as bars. 
+    The records associated with the record type you selected display as bars in a timeline and are sorted in chronological order, by default.
 
 1. Do one of the following to navigate through the timeline:
 
@@ -170,26 +168,22 @@ Consider the following when working with filters in the timeline view:
 
 ### Add grouping
 
-<!-- if groupings are identical between the table and the timeline, consider replacing this section with this: 
-
-Adding groupings in the timeline view is identical to adding filters in the table view. 
-
-For more information, see the "Add groupings" section in the article [Manage the table view](../views/manage-the-table-view.md). BUT: you would need to create this section for the Table view and move the steps below (and maybe edit them) to the Manage the table view article, in this case. OR ... link from that section to this article?! -->
+<!-- groupings are almost identical between this view and table  but they display a little differently, so I kept the steps for both; update in both places if they make changes to groupings-->
 
 You can group records by similar information when applying  a grouping to a view.
 
+Adding groupings in the timeline view is similar to adding groupings to the table view. 
+
 Consider the following when working with groupings in the timeline view:
 
-<!--not yet: * You can apply groupings both in the table and timeline views. The groupings of the table view are independent from those in the timeline view of the same record type. -->
+* You can apply groupings both in the table and timeline views. The groupings of the table view are independent from those in the timeline view of the same record type.
 * You can apply 3 levels of grouping in a Maestro view. The records are grouped in the order of groupings that you select. 
 * You can apply up to 4 levels of grouping when using the API. 
 * The groupings are unique to the view that you select. Two timeline views of the same record type can have different groupings applied to them. Two users looking at the same timeline view see the same grouping that is currently applied. 
-
 * You cannot name the groupings you build for a timeline view.
-
 * Removing groupings removes them from anyone accessing the same record type as you and who displays the same view as you do. 
 
-To add a grouping:
+To add a grouping in the timeline view:
 
 1. Create a timeline view for a record type, as described in the article [Manage record views](../views/manage-record-views.md). 
 1. Click **Grouping** in the upper-right corner of the timeline view.
@@ -212,7 +206,7 @@ To add a grouping:
 
     ![](assets/grouping-applied-in-timeline-view.png)
 
-1. (Optional) Click the **x** icon to the right of a field selected for the grouping to remove the grouping
+1. (Optional) Inside the **Group records by** box, click the **x** icon to the right of a field selected for the grouping to remove the grouping
 
     Or
 
