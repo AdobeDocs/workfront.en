@@ -761,6 +761,7 @@ feature-set: Workfront
   * Administration in the Adobe Admin Console {#admin-in-admin-console}
     * [Workfront Administration in the Adobe Admin Console](administration-and-setup/adobe-admin-console/wf-admin-in-admin-console.md)
     * [Prepare for the Adobe Admin Console](administration-and-setup/adobe-admin-console/prep-for-admin-console.md)    
+    * [Understanding Workfront Product and User Migration to the Adobe Admin Console](administration-and-setup/adobe-admin-console/understand-wf-migration-to-admin-console.md)    
   * Tips, tricks, and troubleshooting for administration and setup {#admin-setup-tips}
     * [Tips, tricks, and troubleshooting](administration-and-setup/tips-tricks-and-troubleshooting/ttt-admin-setup.md)
     * [Group admins must have higher access than those they manage](administration-and-setup/tips-tricks-and-troubleshooting/group-admin-access-level.md)
