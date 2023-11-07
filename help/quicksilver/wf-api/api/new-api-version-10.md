@@ -5,6 +5,7 @@ title: What's New in API Version 10
 description: Updated Resources
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: 8ac384ae-5d65-4c0e-98c1-cf38cfbff460
 ---
 # What's New in API Version 10
@@ -106,7 +107,7 @@ The following existing resources have been updated with this release of the Work
 
 | Fields |References |Collections |Search |Actions |Queries |Operations |
 |---|---|---|---|---|---|---|
-| kanbanFlag |  |  |pendingApproval `¹` &nbsp; |&nbsp; |&nbsp; |&nbsp; |
+| kanbanFlag |  |  |pendingApproval `<sup>1</sup>` &nbsp; |&nbsp; |&nbsp; |&nbsp; |
 | `masterTaskID`  |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 | priorityColor&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 | projectBudgetedCost&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
@@ -116,18 +117,18 @@ The following existing resources have been updated with this release of the Work
 
 {style="table-layout:auto"}
 
-`¹ Type changed from null to boolean`
+`<sup>1</sup> Type changed from null to boolean`
 
 ### Assignment
 
 | Fields |References |Collections |Search |Actions |Queries |Operations |
 |---|---|---|---|---|---|---|
-| assignmentPercent `¹` |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+| assignmentPercent `<sup>1</sup>` |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 | viewedByAssignedToUser |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 
 {style="table-layout:auto"}
 
-`¹`added validator LESS_THAN_EQUAL
+`<sup>1</sup>`added validator LESS_THAN_EQUAL
 
 ### BudgetedHour
 
@@ -143,11 +144,11 @@ The following existing resources have been updated with this release of the Work
 
 | Fields |References |Collections |Search |Actions |Queries |Operations |
 |---|---|---|---|---|---|---|
-| name `¹` |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+| name `<sup>1</sup>` |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 
 {style="table-layout:auto"}
 
-¹ Changes to possibleValues
+<sup>1</sup> Changes to possibleValues
 
 ### DocMetadataLinkGroup
 
@@ -177,14 +178,14 @@ DocumentVersion
 
 | Fields |References |Collections |Search |Actions |Queries |Operations |
 |---|---|---|---|---|---|---|
-| externalIntegrationType ¹ |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+| externalIntegrationType <sup>1</sup> |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 | &nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 | &nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 | &nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 
 {style="table-layout:auto"}
 
-¹ Changes to possibleValues
+<sup>1</sup> Changes to possibleValues
 
 Expense 
 
@@ -207,21 +208,21 @@ Expense
 
 | Fields |References |Collections |Search |Actions |Queries |Operations |
 |---|---|---|---|---|---|---|
-|  externalIntegrationType¹  |  |  |  |  |   |   |
+|  externalIntegrationType<sup>1</sup>  |  |  |  |  |   |   |
 
 {style="table-layout:auto"}
 
-¹ Changes to possibleValues
+<sup>1</sup> Changes to possibleValues
 
 ### OpTask
 
 | Fields |References |Collections |Search |Actions |Queries |Operations |
 |---|---|---|---|---|---|---|
-| priorityColor |   |  | pendingApproval¹   |   |   |   |
+| priorityColor |   |  | pendingApproval<sup>1</sup>   |   |   |   |
 
 {style="table-layout:auto"}
 
-¹ Type changed from null to boolean
+<sup>1</sup> Type changed from null to boolean
 
 ### PortalSection
 
@@ -263,11 +264,11 @@ Expense
 
 | Fields |References |Collections |Search |Actions |Queries |Operations |
 |---|---|---|---|---|---|---|
-| rateValue ¹ |  |  |  |  |  |   |
+| rateValue <sup>1</sup> |  |  |  |  |  |   |
 
 {style="table-layout:auto"}
 
-¹added validator CURRENCY
+<sup>1</sup>added validator CURRENCY
 
 ### Task
 
@@ -285,11 +286,11 @@ Expense
 
 | Fields |References |Collections |Search |Actions |Queries |Operations |
 |---|---|---|---|---|---|---|
-| hoursPerPoint ¹ |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+| hoursPerPoint <sup>1</sup> |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 
 {style="table-layout:auto"}
 
-¹ added validator LESS_THAN
+<sup>1</sup> added validator LESS_THAN
 
 ### TeamAssignment
 
@@ -319,11 +320,11 @@ Expense
 
 | Fields |References |Collections |Search |Actions |Queries |Operations |
 |---|---|---|---|---|---|---|
-| updateType `¹` |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |objectUpdatesWithNoteAndJournalEntryIndex&nbsp; |
+| updateType `<sup>1</sup>` |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |objectUpdatesWithNoteAndJournalEntryIndex&nbsp; |
 
 {style="table-layout:auto"}
 
-¹ changes to possibleValues
+<sup>1</sup> changes to possibleValues
 
 ### User
 
@@ -337,23 +338,23 @@ Expense
 
 | Fields |References |Collections |Search |Actions |Queries |Operations |
 |---|---|---|---|---|---|---|
-| eventType ¹ |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+| eventType <sup>1</sup> |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 
 {style="table-layout:auto"}
 
-¹ changes to possibleValues
+<sup>1</sup> changes to possibleValues
 
 ### Work
 
 | Fields |References |Collections |Search |Actions |Queries |Operations |
 |---|---|---|---|---|---|---|
-| kanbanFlag |  |  |pendingApproval ¹&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+| kanbanFlag |  |  |pendingApproval <sup>1</sup>&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 | `masterTaskID`  |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 | priorityColor&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 
 {style="table-layout:auto"}
 
-¹ Type changed from null to boolean
+<sup>1</sup> Type changed from null to boolean
 
 ## Removed Resources {#removed-resources}
 

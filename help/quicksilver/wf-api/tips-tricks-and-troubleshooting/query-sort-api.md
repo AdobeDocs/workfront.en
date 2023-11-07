@@ -5,6 +5,7 @@ title: Sorting query results in the API
 description: Sorting query results in the API
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: f001adb8-6295-4646-b9f1-78244a8c44a6
 ---
 

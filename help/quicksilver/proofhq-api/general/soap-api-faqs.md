@@ -4,6 +4,7 @@ description: SOAP API FAQs
 author: Becky
 draft: Probably
 feature: Workfront API, Workfront Proof
+role: Developer
 exl-id: fcf89bd6-0e07-42a7-9ae3-9a1309e51946
 ---
 # SOAP API FAQs

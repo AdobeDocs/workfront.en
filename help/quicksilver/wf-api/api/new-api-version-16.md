@@ -5,6 +5,7 @@ title: What's new in API version 16
 description: Adobe Workfront released API version 16 on April 6, 2022. API version 16 features the following changes from version 15.
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: a3d8534b-fe6e-4782-baab-7c94555ea40c
 ---
 # What's new in API version 16

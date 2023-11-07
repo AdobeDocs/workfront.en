@@ -5,6 +5,7 @@ title: Event subscription retries
 description: Event subscription retries
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: b698cb60-4cff-4ccc-87d7-74afb5badc49
 ---
 # Event subscription retries

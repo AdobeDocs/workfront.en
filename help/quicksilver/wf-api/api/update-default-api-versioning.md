@@ -5,6 +5,7 @@ title: Update integrations that use default API versioning
 description: Update integrations that use default API versioning
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: ac394b41-63cb-481a-a858-30d8d7f840bb
 ---
 # Update integrations that use default API versioning

@@ -5,6 +5,7 @@ title: Event subscription resource fields
 description: Event subscription resource fields
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: 54859930-7619-4b93-8dff-29b10e43d6d5
 ---
 # Event subscription resource fields
