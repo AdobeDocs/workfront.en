@@ -313,45 +313,55 @@ To add a filter to a table view:
     
 1. (Optional) Click **Filters**, then click the **x** icon to remove a filter. <!--right now you cannot "clear all" for filters, but this might come later-->
 
-<!-- this is not available yet
-
 ### Add groupings {#add-groupings}
 
-*******************this section might link in the future from the timeline view; right now it's only documented there; also, check the steps below because this was not released to the table when they were written*****************
+<!--this section exists in the timeline view too, but the display is slightly different, so I kept both steps; consider updating both sections if any updates to groupings are introduced-->
 
 You can group records by similar information when applying  a grouping to a view.
 
-You can apply groupings both in the table and timeline views. The groupings of the table view are independent from those in the timeline view of the same record type. 
+Adding groupings in the table view is similar to adding groupings to the timeline view. 
 
 Consider the following:
 
-* You can apply 3 levels of grouping in a Maestro view. The records are grouped in the order of groupings that you select. (***************check on this; this might be true for timeline, but not for table??? One dev said in a demo that there are unlimited groupings in a table - check *********************)
-* You can apply up to 4 levels of grouping when using the API. 
+* You can apply groupings both in the table and timeline views. The groupings of the table view are independent from those in the timeline view of the same record type.
+* You can apply 3 levels of grouping in a Maestro view. The records are grouped in the order of groupings that you select. 
+<!--* You can apply up to 4 levels of grouping when using the API. --checking on this one for now-->
+* The groupings are unique to the view that you select. Two table views of the same record type can have different groupings applied to them. Two users looking at the same table view see the same grouping that is currently applied. 
+* You cannot name the groupings you build for a table view.
+* Removing groupings removes them from anyone accessing the same record type as you and who displays the same view as you do. 
+* You can edit records listed under a grouping. 
+<!--checking into this: * You can apply up to 4 levels of grouping when using the API. -->
+<!-- checking also into this: * You cannot group by a Paragraph-type field.-->
 
 To add a grouping:
 
-1. Create a view, as described in [Create or edit record views](#create-or-edit-record-views). 
-1. (Conditional) To apply a grouping in the table view, do the following:
-    
-    1. ***************start adding steps for building a grouping - see if there it a global setting or just per column; also, see if the steps are different for a table vs a timeline view?!**********************
-1. (Conditional) To apply a grouping in the timeline view, do the following:
+1. Create a timeline view for a record type, as described in the article [Manage record views](../views/manage-record-views.md). 
+1. Click **Grouping** in the upper-right corner of the timeline view.
 
-    1. Go to a timeline view, then click **Group**. ************************did they rename this to "Grouping"?!****************************
-        ******************insert screen shot***********
-    1. Click one of the 5 suggested fields, or click **Choose a different field** to display all fields, then click one when it displays in the list. 
-    
-        >[!TIP]
-        >
-        > You cannot select linked fields. For information, see [Create fields](../architecture-and-fields/create-fields.md).  
-    The grouping is applied automatically to the timeline and records display inside the grouping box.    <********************ensure this is correct functionality here*************
-    
-    1. (Optional) Click **Add grouping** to add up to 3 groupings. 
+    ![](assets/grouping-ui-table-view.png)
 
-        The number of groupings applied displays to the left of the Grouping icon in the upper-right corner of the toolbar. **********ensure this says "grouping" and not "group"*****************
-    
-    1. (Optional) Click **Clear all** to remove all groupings.  
+1. Click one of the suggested fields, or click **Choose a different field**, search for a different field, then click it when it displays in the list. 
 
---> 
+    >[!TIP]
+    >
+    >You cannot select linked fields. 
+
+    The grouping is applied automatically to the table and records display under the grouping separation line
+    
+1. (Optional) Repeat the above steps to add up to 3 groupings. 
+
+    The number of fields selected for the grouping displays next to the Grouping icon. 
+
+    ![](assets/grouping-applied-in-table-view.png)
+
+1. (Optional) Inside the **Group records by** box, click the **x** icon to the right of a field selected for the grouping to remove the grouping
+
+    Or
+
+    Click **Clear all** to remove all fields.  
+
+1. Click outside the **Group records by** box to close it. 
+1. (Optional) Click **+ New < Record type name >** at the end of any grouping to add new records, then refresh your page to add the new record to the appropriate grouping. <!--this might need to be changed when they add the Refresh button on the toolbar of the table view-->
 
 ### Add a sort {#sort-information} 
 

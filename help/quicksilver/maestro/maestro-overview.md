@@ -352,7 +352,7 @@ The following table illustrates the main features that will be available in Maes
 |     View records in a timeline                     |   ✓                           |                                  |                  |
 |     Filter records                                 |   ✓                           |                                  |                  |
 |     Group records in the timeline view             |   ✓                           |                                  |                  |
-|     Group records in the table view                |                               |   ✓                              |                  |
+|     Group records in the table view                | ✓                              |                                 |                  |
 |     Sort records in the table view                                 |  ✓                             |                                 |                  |
 |     Sort records in the timeline view                                 |                               |   ✓                              |                  |
 |     Sort groupings in the table view                                 |                               |   ✓                              |                  |
