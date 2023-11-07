@@ -7,6 +7,7 @@ description: Workfront API Articles
 author: Becky
 feature: Workfront API
 recommendations: noDisplay, noCatalog
+role: Developer
 exl-id: 90e00a71-1a3a-4e3f-99d8-47700052a9dc
 ---
 # API

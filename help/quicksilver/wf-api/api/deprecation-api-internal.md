@@ -5,6 +5,7 @@ title: Deprecation of API-Internal
 description: Deprecation of API-Internal
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: 45b42fe8-7ce3-441d-8fbc-b8db7f9b254e
 ---
 # Deprecation of API-Internal

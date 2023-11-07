@@ -6,6 +6,7 @@ title: Filter event subscription messages
 description: Filter event subscription messages
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: 8364c4b9-5604-47ab-8b4b-db6836dcd8ca
 ---
 # Filter event subscription messages
@@ -43,7 +44,7 @@ The following example in Java shows how to filter project payloads based on the 
    }
    ```
 
-2. Upon invocation of the handleRequest method, obtain the “newState” attribute of the event subscription message, which represents the updated state of the resource.
+2. Upon invocation of the handleRequest method, obtain the "newState" attribute of the event subscription message, which represents the updated state of the resource.
 
    ```  
    public String handleRequest(Map<String, Object> webHookPayload, Context context) 
@@ -56,7 +57,7 @@ The following example in Java shows how to filter project payloads based on the 
    
     To learn about the newState format, see [Outbound message format for event subscriptions](../../wf-api/api/message-format-event-subs.md).
 
-3. After parsing the “newState” Map from the message, ensure the object's group ID matches the group ID you identified in Step 1. 
+3. After parsing the "newState" Map from the message, ensure the object's group ID matches the group ID you identified in Step 1. 
 
 4. (Conditional) If the IDs **do not** match, drop the message so that an empty response is returned.   
 
@@ -133,7 +134,7 @@ The following example in Python shows how to filter project payloads based on th
       event_subscription_message = json.loads(event['body'])
       ```
 
-   1. Obtain the “newState” attribute of the event subscription message.  
+   1. Obtain the "newState" attribute of the event subscription message.  
       The newState attribute represents the updated state of the resource.  
      
       ```
@@ -142,7 +143,7 @@ The following example in Python shows how to filter project payloads based on th
      
       To learn about the newState format, see [Outbound message format for event subscriptions](../../wf-api/api/message-format-event-subs.md).
 
-   1. After parsing the “newState” Map from the message, ensure the object's group ID matches the group  ID you identified in Step 1.
+   1. After parsing the "newState" Map from the message, ensure the object's group ID matches the group  ID you identified in Step 1.
 
    1. (Conditional) If the IDs do not match, drop the message so that an empty response is returned. 
 
@@ -205,7 +206,7 @@ The following example in Node.js shows how to filter project payloads based on t
       let eventSubscriptionMessage = JSON.parse(event.body);
       ```   
 
-   3. Obtain the projectGroupIDfrom the “newState” attribute of the event subscription message, then match it against the group ID ofthe group you identified in Step 1. 
+   3. Obtain the projectGroupIDfrom the "newState" attribute of the event subscription message, then match it against the group ID ofthe group you identified in Step 1. 
 
       ```
       let projectGroupId = eventSubscriptionMessage.newState.groupID; 
