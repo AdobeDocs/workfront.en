@@ -3,7 +3,7 @@ product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: manage-your-billing-workfront-proof
 title: Choosing Your Payment Method in [!DNL Workfront] Proof
-description: The following payment options are available - EDIT ME.
+description: Learn more about payments in Workfront Proof.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: cc23012f-ea1a-41e6-b101-877b85605775

@@ -2,7 +2,7 @@
 product-area: documents;setup
 navigation-topic: review-a-proof
 title: Configure proofing viewer settings
-description: You can configure the following settings for both the Web Proofing Viewer and the Desktop Proofing Viewer - EDIT ME.
+description: You can configure settings for both the Web Proofing Viewer and the Desktop Proofing Viewer.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 3993cd67-90a9-4d7e-bbc0-7b9bd1057f54

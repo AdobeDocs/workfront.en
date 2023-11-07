@@ -3,7 +3,7 @@ content-type: reference
 product-area: projects
 navigation-topic: proofing-in-workfront-navigation-topic
 title: Review and approve work
-description: This section contains the following subsections - EDIT ME.
+description: Learn about review and approval.
 author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
