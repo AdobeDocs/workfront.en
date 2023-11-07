@@ -15,11 +15,15 @@ exl-id: 8cc49dc2-b23f-4899-85dd-bd53d5242dbe
 
 As an [!DNL Adobe Workfront] administrator, you can specify preferences for timesheets and hours in [!DNL Workfront] in order to define what items the timesheets can pre-populate with and what items users can log time to.
 
->[!NOTE]
+>[!IMPORTANT]
 >
->Items for which you logged time during the time frame of the timesheet display in the timesheet by default, although they might not meet the conditions described in this article for prepopulating the timesheet. 
+>In addition to the items that pre-populate a timesheet according to the conditions described in this article, the following items also display on timesheets by default:
+>* Items for which you logged time during the time frame of the timesheet
+>* Items that are pinned to the timesheet
+>* Items that you search for and manually add to the timesheet. Manually added items are pinned by default. 
 >
->For information about logging time, see [Log time](../../../timesheets/create-and-manage-timesheets/log-time.md). 
+>For more information, see [Log time](../../../timesheets/create-and-manage-timesheets/log-time.md). 
+
 
 
 Any changes you make to timesheets impact all timesheets that are created in the future.
