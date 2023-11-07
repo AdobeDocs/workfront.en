@@ -5,6 +5,7 @@ title: Event subscription best practices
 description: Event subscription best practices
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: 2c6e3567-d5eb-4528-a393-dbf235958ed2
 ---
 

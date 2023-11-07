@@ -5,6 +5,7 @@ title: Event Subscription API
 description: Event Subscription API
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
 ---
 

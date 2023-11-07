@@ -6,6 +6,7 @@ title: Rename a document or folder (not yet implemented)
 description: Rename a document or folder
 author: Becky
 feature: Workfront API, Digital Content and Documents
+role: Developer
 exl-id: 5b1a4a02-a7fd-41f2-9adb-74b40606270b
 ---
 
@@ -44,9 +45,9 @@ name=Folder B ­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­
 returns
 
 ```
-{status: “success”
+{status: "success"
  }returns
  {
- status: “failure”, error: “Folder cannot be renamed because a folder with that name already exists.”
+ status: "failure", error: "Folder cannot be renamed because a folder with that name already exists."
  }
 ```

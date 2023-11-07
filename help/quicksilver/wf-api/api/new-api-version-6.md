@@ -5,6 +5,7 @@ title: What's New in API Version 6
 description: What's New in API Version 6
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: e671a881-b8c2-4234-a3a0-76b1fbfafd32
 ---
 # What's New in API Version 6
@@ -54,14 +55,14 @@ Changes to existing objects: additions are simply listed, removals have striketh
 
 | Fields |References |Collections |Search |Actions |Queries |Operations |
 |---|---|---|---|---|---|---|
-| updateType¹ |&nbsp; |&nbsp; |&nbsp; |&nbsp; |`sinceDate`  |&nbsp; |
-| &nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |objectUpdatesByCommentID² |&nbsp; |
+| updateType<sup>1</sup> |&nbsp; |&nbsp; |&nbsp; |&nbsp; |`sinceDate`  |&nbsp; |
+| &nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |objectUpdatesByCommentID<sup>2</sup> |&nbsp; |
 
 {style="table-layout:auto"}
 
-¹ Changes to possible values
+<sup>1</sup> Changes to possible values
 
-² hasFilters attribute changed to true
+<sup>2</sup> hasFilters attribute changed to true
 
 &nbsp;
 
@@ -70,16 +71,16 @@ Changes to existing objects: additions are simply listed, removals have striketh
 | Fields |References |Collections |Search |Actions |Queries |Operations |
 |---|---|---|---|---|---|---|
 | completedHours |&nbsp; |resourceManagers |resourceManagerIDs |&nbsp; |&nbsp; |&nbsp; |
-| constraintDate¹ |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+| constraintDate<sup>1</sup> |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 | isOriginalPlannedHoursSet |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 | syncBurndownDate |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
-| workRequired² |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+| workRequired<sup>2</sup> |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 
 {style="table-layout:auto"}
 
-¹ Date validation added
+<sup>1</sup> Date validation added
 
-² NOT_FILTERABLE flag added
+<sup>2</sup> NOT_FILTERABLE flag added
 
 &nbsp;
 
@@ -99,15 +100,15 @@ Changes to existing objects: additions are simply listed, removals have striketh
 
 | Fields |References |Collections |Search |Actions |Queries |Operations |
 |---|---|---|---|---|---|---|
-| approvalType¹ |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+| approvalType<sup>1</sup> |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 
 {style="table-layout:auto"}
 
-¹ Changes to possible Values
+<sup>1</sup> Changes to possible Values
 
 &nbsp;
 
-### Approval Path¹
+### Approval Path<sup>1</sup>
 
 | Fields |References |Collections |Search |Actions |Queries |Operations |
 |---|---|---|---|---|---|---|
@@ -120,13 +121,13 @@ Changes to existing objects: additions are simply listed, removals have striketh
 | isPrivate |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |Search |
 | lastUpdateDate |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 | lastUpdateByID |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
-| name² |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+| name<sup>2</sup> |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 
 {style="table-layout:auto"}
 
-¹ Changed to Reportable
+<sup>1</sup> Changed to Reportable
 
-² Added Max Length Validator
+<sup>2</sup> Added Max Length Validator
 
 &nbsp;
 
@@ -134,14 +135,14 @@ Changes to existing objects: additions are simply listed, removals have striketh
 
 | Fields |References |Collections |Search |Actions |Queries |Operations |
 |---|---|---|---|---|---|---|
-| constraintDate¹ |&nbsp; |&nbsp; |&nbsp; |getMyWorkCountFiltered |&nbsp; |&nbsp; |
-| workRequired² |&nbsp; |&nbsp; |&nbsp; |workItemStatusLabels&nbsp; |&nbsp; |&nbsp; |
+| constraintDate<sup>1</sup> |&nbsp; |&nbsp; |&nbsp; |getMyWorkCountFiltered |&nbsp; |&nbsp; |
+| workRequired<sup>2</sup> |&nbsp; |&nbsp; |&nbsp; |workItemStatusLabels&nbsp; |&nbsp; |&nbsp; |
 
 {style="table-layout:auto"}
 
-¹ Date Validation Added
+<sup>1</sup> Date Validation Added
 
-² Not_Filterable Flag Added
+<sup>2</sup> Not_Filterable Flag Added
 
 &nbsp;
 
@@ -161,11 +162,11 @@ Changes to existing objects: additions are simply listed, removals have striketh
 
 | Fields |References |Collections |Search |Actions |Queries |Operations |
 |---|---|---|---|---|---|---|
-| workRequired¹ |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+| workRequired<sup>1</sup> |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 
 {style="table-layout:auto"}
 
-¹ Not_Filterable Flag Added
+<sup>1</sup> Not_Filterable Flag Added
 
 &nbsp;
 
@@ -173,11 +174,11 @@ Changes to existing objects: additions are simply listed, removals have striketh
 
 | Fields |References |Collections |Search |Actions |Queries |Operations |
 |---|---|---|---|---|---|---|
-| workRequired¹ |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+| workRequired<sup>1</sup> |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 
 {style="table-layout:auto"}
 
-¹ Not_Filterable Flag Added
+<sup>1</sup> Not_Filterable Flag Added
 
 &nbsp;
 
@@ -185,11 +186,11 @@ Changes to existing objects: additions are simply listed, removals have striketh
 
 | Fields |References |Collections |Search |Actions |Queries |Operations |
 |---|---|---|---|---|---|---|
-| billingDate¹ |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+| billingDate<sup>1</sup> |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 
 {style="table-layout:auto"}
 
-¹ added NO_TIME field flag
+<sup>1</sup> added NO_TIME field flag
 
 ### Burndown Event&nbsp;
 
@@ -240,11 +241,11 @@ Exchange Rate&nbsp;
 
 | Fields |References |Collections |Search |Actions |Queries |Operations |
 |---|---|---|---|---|---|---|
-| rate¹ |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+| rate<sup>1</sup> |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 
 {style="table-layout:auto"}
 
-¹ Changed PRECISION validator for 8 to 9
+<sup>1</sup> Changed PRECISION validator for 8 to 9
 
 &nbsp;
 
@@ -262,29 +263,29 @@ Exchange Rate&nbsp;
 
 | Fields |References |Collections |Search |Actions |Queries |Operations |
 |---|---|---|---|---|---|---|
-| changeType¹ |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+| changeType<sup>1</sup> |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 
 {style="table-layout:auto"}
 
-¹ Changes to possible Values
+<sup>1</sup> Changes to possible Values
 
 &nbsp;
 
-### Optask (Issue)¹&nbsp;
+### Optask (Issue)<sup>1</sup>&nbsp;
 
 | Fields |References |Collections |Search |Actions |Queries |Operations |
 |---|---|---|---|---|---|---|
-| workRequired² |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+| workRequired<sup>2</sup> |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 
 {style="table-layout:auto"}
 
-¹ Flagged as RESTORABLE
+<sup>1</sup> Flagged as RESTORABLE
 
-² Not_Filterable Flag Added
+<sup>2</sup> Not_Filterable Flag Added
 
 &nbsp;
 
-### Project¹&nbsp;
+### Project<sup>1</sup>&nbsp;
 
 | Fields |References |Collections |Search |Actions |Queries |Operations |
 |---|---|---|---|---|---|---|
@@ -297,26 +298,26 @@ Exchange Rate&nbsp;
 
 {style="table-layout:auto"}
 
-¹ Flagged as RESTORABLE and RESOURCE_MANAGEABLE
+<sup>1</sup> Flagged as RESTORABLE and RESOURCE_MANAGEABLE
 
-² Not_Filterable Flag Added
+<sup>2</sup> Not_Filterable Flag Added
 
 &nbsp;
 
-### Task¹
+### Task<sup>1</sup>
 
 | Fields |References |Collections |Search |Actions |Queries |Operations |
 |---|---|---|---|---|---|---|
-| constraintDate² |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
-| workRequired³ |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+| constraintDate<sup>2</sup> |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+| workRequired<sup>3</sup> |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 
 {style="table-layout:auto"}
 
-¹ Flagged as RESTORABLE
+<sup>1</sup> Flagged as RESTORABLE
 
-² AT_DATE_YEAR_BEFORE validator added
+<sup>2</sup> AT_DATE_YEAR_BEFORE validator added
 
-³ Not_Filterable Flag Added
+<sup>3</sup> Not_Filterable Flag Added
 
 &nbsp;
 
@@ -331,7 +332,7 @@ Exchange Rate&nbsp;
 
 &nbsp;
 
-### Template¹&nbsp;
+### Template<sup>1</sup>&nbsp;
 
 | Fields |References |Collections |Search |Actions |Queries |Operations |
 |---|---|---|---|---|---|---|
@@ -339,19 +340,19 @@ Exchange Rate&nbsp;
 
 {style="table-layout:auto"}
 
-¹ Flagged as RESTORABLE and RESOURCE_MANAGEABLE
+<sup>1</sup> Flagged as RESTORABLE and RESOURCE_MANAGEABLE
 
-### Template Task¹&nbsp;
+### Template Task<sup>1</sup>&nbsp;
 
 | Fields |References |Collections |Search |Actions |Queries |Operations |
 |---|---|---|---|---|---|---|
-| workRequired² |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+| workRequired<sup>2</sup> |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 
 {style="table-layout:auto"}
 
-¹ Flagged as RESTORABLE
+<sup>1</sup> Flagged as RESTORABLE
 
-² Not_Filterable Flag Added
+<sup>2</sup> Not_Filterable Flag Added
 
 &nbsp;
 
@@ -359,11 +360,11 @@ Exchange Rate&nbsp;
 
 | Fields |References |Collections |Search |Actions |Queries |Operations |
 |---|---|---|---|---|---|---|
-| myInfo¹ |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+| myInfo<sup>1</sup> |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 
 {style="table-layout:auto"}
 
-¹ MAX_LENGTH violators
+<sup>1</sup> MAX_LENGTH violators
 
 &nbsp;
 
@@ -371,13 +372,13 @@ Exchange Rate&nbsp;
 
 | Fields |References |Collections |Search |Actions |Queries |Operations |
 |---|---|---|---|---|---|---|
-| eventType¹ |&nbsp; |&nbsp; |&nbsp; |&nbsp; |myNotifications² |&nbsp; |
+| eventType<sup>1</sup> |&nbsp; |&nbsp; |&nbsp; |&nbsp; |myNotifications<sup>2</sup> |&nbsp; |
 
 {style="table-layout:auto"}
 
-¹ Possible Values Changed
+<sup>1</sup> Possible Values Changed
 
-² has filters Changed to `[true]`
+<sup>2</sup> has filters Changed to `[true]`
 
 &nbsp;
 

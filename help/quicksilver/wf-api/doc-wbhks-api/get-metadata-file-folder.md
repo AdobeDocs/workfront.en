@@ -6,6 +6,7 @@ title: Get metadata for a file or folder
 description: Get metadata for a file or folder
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: 7b594df5-c87f-45d4-b84a-cae17171e906
 ---
 
@@ -31,7 +32,7 @@ GET /metadata?id=[document or folder ID]
  <tbody> 
   <tr> 
    <td>id</td> 
-   <td>The ID of file or folder, as referenced by the webhook provider. This is different than Adobe Workfront's document ID. To get the metadata of the root directory, use the value ‘/'.
+   <td>The ID of file or folder, as referenced by the webhook provider. This is different than Adobe Workfront's document ID. To get the metadata of the root directory, use the value '/'.
    <p>Note: The maximum length for the ID is 255 characters.</p></td> 
   </tr> 
  </tbody> 
@@ -61,7 +62,7 @@ GET /metadata?id=[document or folder ID]
   <tr> 
    <td>kind&nbsp;</td> 
    <td>String&nbsp;</td> 
-   <td>Specifies if this item is a file or folder (‘file' or ‘folder')</td> 
+   <td>Specifies if this item is a file or folder ('file' or 'folder')</td> 
   </tr> 
   <tr> 
    <td>id</td> 
@@ -102,8 +103,8 @@ GET /metadata?id=[document or folder ID]
 </table>
 
 **Example:** https://www.acme.com/api/metadata?id=12345
-<pre>{<br>title:"My Document",<br>kind:"file"<br>id":"12345",<br>viewLink:"https://www.acme.com/viewDocument?id=12345”,<br>downloadLink:"https://www.acme.com/downloadDocument?id=12345",<br>mimeType:"image/png",<br>dateModified:"2014­06­05T17:39:45.251Z",<br>size: "32554694"<br>}</pre>
+<pre>{<br>title:"My Document",<br>kind:"file"<br>id":"12345",<br>viewLink:"https://www.acme.com/viewDocument?id=12345",<br>downloadLink:"https://www.acme.com/downloadDocument?id=12345",<br>mimeType:"image/png",<br>dateModified:"2014­06­05T17:39:45.251Z",<br>size: "32554694"<br>}</pre>
 
 >[!NOTE]
 >
->Error handling should be consistent across all API calls. See the “Error Handling” section below for details.
+>Error handling should be consistent across all API calls. See the "Error Handling" section below for details.
