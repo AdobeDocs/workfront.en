@@ -6,6 +6,7 @@ title: Delete a document or folder
 description: Delete a document or folder
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: b56ec13a-1ee1-4bef-b39b-e625d00e4952
 ---
 
@@ -33,6 +34,6 @@ A JSON string indicating success or failure, as specified in the Error Handling 
 ### Example
 
 PUT https://www.example.com/api/delete­­­­­­­­­­­­­­­­­­­­­­­­­­­­­id=1234 ­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­
-* ­returns `status: “success”`
+* ­returns `status: "success"`
 
-* returns `status: “failure”, error: “File not found”`
+* returns `status: "failure", error: "File not found"`
