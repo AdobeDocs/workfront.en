@@ -91,7 +91,7 @@ You must have the following access to perform the steps in this article:
 
 ## Share record links from the record type table view
 
-1. Click the **Main Menu** ![](assets/main-menu-workfront.png) in the upper-right corner, <!--or the **Main Menu** ![](assets/main-menu-shell.png) in the upper-left corner, if it is available,--> then click **Maestro**. 
+1. Click the **Main Menu** ![](assets/main-menu-workfront.png) in the upper-right corner, or the **Main Menu** ![](assets/main-menu-shell.png) in the upper-left corner, if it is available, then click **Maestro**. 
 
     The workspace that you accessed last opens. 
 1. Click a record type card. 
@@ -104,7 +104,7 @@ You must have the following access to perform the steps in this article:
 
     Or 
 
-    Hover over a record's name then click the More menu ![](assets/more-menu.png), then click **Copy link**.
+    Hover over a record's name, click the **More** menu ![](assets/more-menu.png), then click **Copy link**.
 
     ![](assets/contextual-menu-for-record-row.png)
 
