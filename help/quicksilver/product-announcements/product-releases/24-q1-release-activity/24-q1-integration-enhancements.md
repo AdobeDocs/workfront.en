@@ -3,10 +3,12 @@ title: First Quarter 2024 Integration enhancements
 description: First Quarter 2024 Integration enhancements
 author: Becky
 feature: Product Announcements
+hidefromtoc: yes
+hide: yes
 ---
 # First Quarter 2024 Integration enhancements
 
-This page describes all integration enhancements made with the First Quarter 2024 release to the Preview environment. These enhancements will be made available in the Production environment with the First Quarter 2023 release.
+This page describes all integration enhancements made with the First Quarter 2024 release to the Preview environment. These enhancements will be made available in the Production environment with the First Quarter 2024 release.
 
 For a list of all changes available at this point in the First Quarter 2024 release cycle, see [First Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md).
 
