@@ -4,7 +4,7 @@ product-previous: workfront-proof
 product-area: documents;workfront-integrations
 navigation-topic: workfront-proof-navigation-topic
 title: Getting started with [!DNL Workfront Proof]
-description: This section contains the following subsections - EDIT ME.
+description: Learn how to get started with Workfront Proof.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 recommendations: noDisplay, noCatalog

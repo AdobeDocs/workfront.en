@@ -3,7 +3,7 @@ content-type: overview;reference
 product-area: reporting
 navigation-topic: reports
 title: Report usage overview
-description: This section contains the following articles - EDIT ME.
+description: Learn about report usage.
 author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog

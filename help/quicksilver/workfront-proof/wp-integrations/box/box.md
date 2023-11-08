@@ -4,7 +4,7 @@ product-previous: workfront-proof
 product-area: documents;workfront-integrations
 navigation-topic: integrations-workfront-proof
 title: Box
-description: This section contains the following articles - EDIT ME.
+description: Learn about integrating with Box. 
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 recommendations: noDisplay, noCatalog

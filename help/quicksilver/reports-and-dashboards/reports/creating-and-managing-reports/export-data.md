@@ -2,7 +2,7 @@
 product-area: reporting
 navigation-topic: create-and-manage-reports
 title: Export data
-description: Some of the reasons to export data are - EDIT ME.
+description: Learn to export report data
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 7fd45fa2-f5d2-411d-849e-cff5be420fbc

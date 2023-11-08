@@ -4,7 +4,7 @@ product-previous: workfront-proof
 product-area: documents
 navigation-topic: basic-features-workfront-proof
 title: Searching [!DNL Workfront Proof]
-description: You can search for the following types of content across the Workfront Proof site - EDIT ME.
+description: You can search for content across the Workfront Proof site.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 1596b3d2-d513-4e36-98b7-92e349aca5bc

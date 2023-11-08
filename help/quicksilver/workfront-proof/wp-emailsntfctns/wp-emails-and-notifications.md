@@ -4,7 +4,7 @@ product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: workfront-proof-navigation-topic
 title: Proof notifications and reminders overview
-description: This section contains the following subsections - EDIT ME.
+description: Learn more about proof notifications and reminders.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 recommendations: noDisplay, noCatalog

@@ -4,7 +4,7 @@ product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: account-administration
 title: Satellite accounts in [!DNL Workfront] Proof overview
-description: This section contains the following articles - EDIT ME.
+description: Learn more about satellite accounts in Workfront Proof.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 recommendations: noDisplay, noCatalog

@@ -4,7 +4,7 @@ product-previous: workfront-proof
 product-area: documents
 navigation-topic: work-with-proofs-and-files
 title: Share proofs and files
-description: This section contains the following articles - EDIT ME.
+description: Share proofs and files in Workfront Proof.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 recommendations: noDisplay, noCatalog

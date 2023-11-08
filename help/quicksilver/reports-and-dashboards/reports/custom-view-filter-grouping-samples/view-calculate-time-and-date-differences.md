@@ -3,7 +3,7 @@ content-type: reference
 product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'View: calculate time and date differences'
-description: Build a view that displays the difference between two date fields on an object or between a date field on an object and another date field on the parent object.
+description: Learn to calculate time and date differences.
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 548dd91f-02bc-43ed-8322-d0facf3488f0

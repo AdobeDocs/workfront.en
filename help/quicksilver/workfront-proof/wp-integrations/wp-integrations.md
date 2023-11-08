@@ -4,7 +4,7 @@ product-previous: workfront-proof
 product-area: documents;workfront-integrations
 navigation-topic: workfront-proof-navigation-topic
 title: Workfront Proof integrations
-description: This section contains the following subsections - EDIT ME.
+description: Learn about Workfront Proof integrations.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 recommendations: noDisplay, noCatalog
