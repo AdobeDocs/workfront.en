@@ -3,6 +3,8 @@ title: First Quarter 2024 release overview
 description: First Quarter 2024 release overview
 author: Becky
 feature: Product Announcements
+hidefromtoc: yes
+hide: yes
 ---
 
 # First Quarter 2024 release overview
