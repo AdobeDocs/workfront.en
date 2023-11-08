@@ -7,7 +7,7 @@ feature: Product Announcements
 
 # First Quarter 2024 release overview
 
-This page provides information about functionality that is included in the First Quarter 2024 release scheduled for January 2023. 
+This page provides information about functionality that is included in the First Quarter 2024 release scheduled for January 2024. 
 
 The enhancements on this page are available in the Preview environment. This page will be updated with additional enhancements as the First Quarter 2024 release nears its planned Production release.
 
@@ -26,8 +26,8 @@ The <add release> release webinar will be held on <date>. You can [register for 
 >
 >|Monthly release|Quarterly release|
 >|----|----|
->|<ul><li>No release (November 2023)</li><li>No release (December 2023)</li><li>24.1 (January 18, 2024)</li></ul>| <ul><li>24.1 (January 2024)</li></ul>|
->|<ul><li>23.2 (February 15, 2023)</li><li>23.3 (March 14, 2023)</li><li>23.4 (April 13, 2023)</li></ul>| <ul><li>23.4 (Week of April 13, 2023)</li></ul>|
+>|<ul><li>No release (November 2024)</li><li>No release (December 2024)</li><li>24.1 (January 18, 2024)</li></ul>| <ul><li>24.1 (January 2024)</li></ul>|
+>|<ul><li>24.2 (February 15, 2024)</li><li>24.3 (March 14, 2024)</li><li>24.4 (April 13, 2024)</li></ul>| <ul><li>24.4 (Week of April 13, 2024)</li></ul>|
 >
 >For more information on the fast release process, see [Enable or disable the fast release process](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
 
@@ -59,10 +59,10 @@ The <add release> release webinar will be held on <date>. You can [register for 
                     <td><p><b>Available on these dates:</b></p>
                         <ul>
                             <li>
-                                <p>Preview release: November 9, 2023, 2023<br /></p>
+                                <p>Preview release: November 9, 2024, 2024<br /></p>
                             </li>
                             <li>
-                                <p><span class="preview">Production for all customers: November 9. 2023</span></p>
+                                <p><span class="preview">Production for all customers: November 9. 2024</span></p>
                             </li>
                         </ul>
                     </td>
