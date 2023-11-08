@@ -3,7 +3,7 @@ product-previous: workfront-proof
 product-area: documents
 navigation-topic: work-with-proofs-and-files
 title: Basic features in [!DNL Workfront Proof]
-description: This section contains the following articles - EDIT ME.
+description: Learn about basic features in Workfront Proof.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 1c8fd07d-fb86-4d64-8a3d-4148ced6659b

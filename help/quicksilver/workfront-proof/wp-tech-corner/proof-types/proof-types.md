@@ -4,7 +4,7 @@ product-previous: workfront-proof
 product-area: documents
 navigation-topic: tech-corner
 title: Proof types
-description: This section contains the following articles - EDIT ME.
+description: Learn about different proof types.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 recommendations: noDisplay, noCatalog
