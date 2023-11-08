@@ -225,9 +225,7 @@ When this option is enabled, any asset that has been pushed to Adobe Experience 
 >Users must have write access in [!DNL Experience Manager] for assets living in the object in order for the metadata to sync when it's updated.
 
 1. Enable the **[!UICONTROL Sync object metadata]** field.
-1. Click **Save** or move on to the [Set up workflows (Optional)](#set-up-workflows-optional) section in this article.
-
-<!--Courtney start here-->
+1. Click **Save** or move on to the [Set up workflows (Optional)](#set-up-workflows-optional) section in this article.-->
 
 ## Set up workflows (Optional)
 
@@ -242,8 +240,6 @@ The default workflow values that you set in the integration can be overridden at
    ![Linked folder navigation](assets/select-folder-aem-integration.png)
 1. Enable the **Append Portfolio and Program Names** option to automatically include Portfolio and Program names at the end of the linked folder's name.
 1. Click **Save** or move on to the [Set up linked folders (Optional)](#set-up-linked-folders-optional) section in this article.
-
-<!--Courtney end here-->
 
 ## Set up linked folders (Optional)
 
