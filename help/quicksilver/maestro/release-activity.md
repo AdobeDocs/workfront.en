@@ -1,6 +1,6 @@
 ---
 title: Adobe Maestro release activity
-description: Use Maestro to create custom objects, fields, and workspaces.
+description: Adobe Maestro is currently available to select Workfront customers. Review this article often to learn about the features recently released for Adobe Maestro. 
 hidefromtoc: yes
 hide: yes
 recommendations: noDisplay, noCatalog
@@ -29,6 +29,16 @@ The released features are listed in the order of their release, with the most re
 This section lists the features and patches that have been released after the launch of the Maestro closed beta program, on May 22, 2023. 
 
 The features are released weekly and are listed in the order of their release, with the most recent first. Customers who are participating in the Maestro closed beta program can access all features in their Preview and Production environments.
+
+## Week of November 6, 2023
+
+### Grouping for the table view
+
+Preview and production: November 7, 2023
+
+You can now group records in the table view of a record type page. You can group by three unique fields in the Maestro interface <!--checking into this for now: and by four fields when using the API-->.  
+
+For more information, see [Manage the table view](../maestro/views/manage-the-table-view.md). 
 
 ## Week of October 30, 2023
 
