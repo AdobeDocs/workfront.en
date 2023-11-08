@@ -24,12 +24,12 @@ The <add release> release webinar will be held on <date>. You can [register for 
 >
 >The 23.3 release included the option to move your organization to monthly releases. Therefore, Workfront has changed the numbering scheme of releases to account for both monthly and quarterly release tracks.
 >
->Monthly and quarterly releases are planned to be available on the last Thursday of the month.
+>Monthly and quarterly releases are planned to be available on the last Thursday of the month, unless otherwise specified.
 >
 >|Monthly release|Quarterly release|
 >|----|----|
->|<ul><li>No release (November 2024)</li><li>No release (December 2024)</li><li>24.1 (January 18, 2024)</li></ul>| <ul><li>24.1 (January 2024)</li></ul>|
->|<ul><li>24.2 (February 15, 2024)</li><li>24.3 (March 14, 2024)</li><li>24.4 (April 13, 2024)</li></ul>| <ul><li>24.4 (Week of April 13, 2024)</li></ul>|
+>|<ul><li>No release (November 2024)</li><li>No release (December 2024)</li><li>24.1 (January 2024)</li></ul>| <ul><li>24.1 (January 2024)</li></ul>|
+>|<ul><li>24.2 (February 2024)</li><li>24.3 (March 2024)</li><li>24.4 (April 2024)</li></ul>| <ul><li>24.4 (April 2024)</li></ul>|
 >
 >For more information on the fast release process, see [Enable or disable the fast release process](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
 
