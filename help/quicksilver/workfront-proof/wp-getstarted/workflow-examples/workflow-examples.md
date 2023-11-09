@@ -3,7 +3,7 @@ product-previous: workfront-proof
 product-area: documents
 navigation-topic: basics-workfront-proof
 title: Workflow examples
-description: This section contains the following articles - EDIT ME.
+description: See workflow examples in Workfront Proof.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 recommendations: noDisplay, noCatalog

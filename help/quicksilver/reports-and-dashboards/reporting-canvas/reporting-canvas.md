@@ -1,6 +1,6 @@
 ---
 title: Reporting Canvas
-description: This section contains the following articles - EDIT ME.
+description: Learn about Reporting Canvas
 hidefromtoc: yes
 hide: yes
 recommendations: noDisplay, noCatalog

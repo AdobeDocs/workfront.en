@@ -4,7 +4,7 @@ product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: basics-workfront-proof
 title: System information in [!DNL Workfront Proof]
-description: This section contains the following articles - EDIT ME.
+description: Learn about system information in Workfront Proof. 
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 recommendations: noDisplay, noCatalog

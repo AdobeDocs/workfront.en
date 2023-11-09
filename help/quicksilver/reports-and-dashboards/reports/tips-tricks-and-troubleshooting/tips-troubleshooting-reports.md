@@ -3,7 +3,7 @@ content-type: tips-tricks-troubleshooting
 product-area: reporting
 navigation-topic: reports
 title: Tips, tricks, and troubleshooting for reports
-description: This section contains the following articles - EDIT ME.
+description: Learn how to troubleshoot reports.
 author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog

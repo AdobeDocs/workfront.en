@@ -2,7 +2,7 @@
 content-type: reference
 navigation-topic: product-announcements
 title: Announcements
-description: Here are some announcements you might want to be familiar with.
+description: See Workfront Announcements
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog

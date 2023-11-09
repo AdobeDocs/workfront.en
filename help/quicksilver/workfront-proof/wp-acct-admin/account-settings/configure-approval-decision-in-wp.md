@@ -3,7 +3,7 @@ product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: account-settings-workfront-proof
 title: Configure approval decision options in [!DNL Workfront Proof]
-description: As a [!DNL Workfront Proof] administrator using a Select or Premium edition plan, you can configure approval decision options in the following ways for all proofs created by [!DNL Workfront Proof] users in your organization - EDIT ME.
+description: You can configure approval decision options for all proofs created by [!DNL Workfront Proof] users in your organization.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 9e1c2a4e-0641-4334-8ff9-dbb203ccbc82

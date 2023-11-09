@@ -3,7 +3,7 @@ content-type: reference
 product-area: documents
 navigation-topic: proofing-in-workfront-navigation-topic
 title: Manage proofs within Adobe Workfront
-description: This section contains the following articles - EDIT ME.
+description: Learn how to manage proofs in Adobe Workfront.
 author: Courtney
 feature: Digital Content and Documents
 recommendations: noDisplay, noCatalog

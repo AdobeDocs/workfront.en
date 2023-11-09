@@ -166,8 +166,11 @@ The following table shows the objects whose comments also display on their highe
    <td>Team</td> 
   </tr> 
   <tr> 
-   <td>Timesheet*</td> 
-   <td>User, Team</td> 
+   <td>Timesheet</td> 
+   <td><p>User, Team</p>
+   <p><b>NOTE</b></p>
+   <p>Timesheet comments display in the Updates section of the user who makes the comment and the Updates section of their Home Team.</p>
+   </td> 
   </tr> 
   <tr> 
    <td>Template Task</td> 
@@ -178,7 +181,7 @@ The following table shows the objects whose comments also display on their highe
    <td>Iteration, Team</td> 
   </tr> 
   <tr> 
-   <td>Iteration*</td> 
+   <td>Iteration</td> 
    <td>Team</td> 
   </tr> 
 
@@ -192,7 +195,7 @@ The following table shows the objects whose comments also display on their highe
   </tr> 
  </tbody> 
 </table>
-* These are not available for the new commenting experience.
+ 
 
 <br>
 

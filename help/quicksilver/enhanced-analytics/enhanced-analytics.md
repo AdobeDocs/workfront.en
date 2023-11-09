@@ -3,7 +3,7 @@ title: Enhanced analytics
 content-type: reference
 product-area: enhanced-analytics
 navigation-topic: reports-and-dashboards
-description: This section contains the following articles - EDIT ME.
+description: Learn about Enhanced analytics.
 author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog

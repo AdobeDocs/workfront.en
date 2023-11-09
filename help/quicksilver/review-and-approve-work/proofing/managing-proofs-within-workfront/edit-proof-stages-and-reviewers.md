@@ -2,7 +2,7 @@
 product-area: documents;user-management;resource-management
 navigation-topic: manage-proofs-within-workfront
 title: Edit proof stages and reviewers
-description: You must have the following access to perform the steps in this article - EDIT ME.
+description: Learn to edit proof stages and reviewers.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 91549c2d-d7b1-461c-a3c4-ad0032acfb23

@@ -3,7 +3,7 @@ product-previous: workfront-proof
 product-area: documents;workfront-integrations
 navigation-topic: box
 title: View a Proof's Original File in Box
-description: If you are using the [!DNL Workfront Proof] - Box integration, in Box, you can view the original file used to create a proof. You can do this in two ways - EDIT ME.
+description: Learn to view a proof's original file in Box.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: c6da023c-4dbe-4770-82dc-3246568c01a2
