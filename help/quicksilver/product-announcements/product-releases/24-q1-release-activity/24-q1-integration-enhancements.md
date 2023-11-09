@@ -3,8 +3,6 @@ title: First Quarter 2024 Integration enhancements
 description: First Quarter 2024 Integration enhancements
 author: Becky
 feature: Product Announcements
-hidefromtoc: yes
-hide: yes
 ---
 # First Quarter 2024 Integration enhancements
 
