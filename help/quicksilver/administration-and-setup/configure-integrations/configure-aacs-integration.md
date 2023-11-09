@@ -233,13 +233,25 @@ A workflow is a set of actions that connect Workfront to Adobe Experience Manage
 
 The default workflow values that you set in the integration can be overridden at the Project Template and Project levels.
 
-### Set up a workflow for the creation of Adobe Experience Manager linked folders
+The followings workflows are available in the Adobe Experience Manager integration:
+
+* [Create Adobe Experience Manager linked folders](#create-adobe-experience-manager-linked-folders)
+* [Publish assets that are sent to Adobe Experience Manager Assets](#publish-assets-that-are-sent-to-adobe-experience-manager-assets)
+
+### Create Adobe Experience Manager linked folders
 
 1. Toggle the **[!UICONTROL Create Linked folder]** on.
 1. Choose a folder path to indicate where you want all linked folders associated with this integration. 
    ![Linked folder navigation](assets/select-folder-aem-integration.png)
-1. Enable the **Append Portfolio and Program Names** option to automatically include Portfolio and Program names at the end of the linked folder's name.
-1. Click **Save** or move on to the [Set up linked folders (Optional)](#set-up-linked-folders-optional) section in this article.
+1. Enable the **[!UICONTROL Append Portfolio and Program Names]** option to automatically include Portfolio and Program names at the end of the linked folder's name.
+1. Click **[!UICONTROL Save]** or move on to the [Publish assets that are sent to Adobe Experience Manager Assets](#publish-assets-that-are-sent-to-adobe-experience-manager-assets) section in this article.
+
+### Publish assets that are sent to Adobe Experience Manager Assets
+
+1. Toggle on **[!UICONTROL Publish assets automatically]**.
+1. Check the box next to the location where you want to publish assets sent to Adobe Experience Manager assets. You may enable either or both options. 
+1. (Conditional) If you have enabled the Brand Portal option, Select the Brand Portal where you want to publish assets.
+1. Click **[!UICONTROL Save]** or move on to the [Set up linked folders (Optional)](#set-up-linked-folders-optional) section in this article.
 
 ## Set up linked folders (Optional)
 
