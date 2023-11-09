@@ -94,14 +94,6 @@ If you're having troubles with viewing the proofs:
 * Have your IT team to analyze the results. They should be able to advise and help resolving the local problem.
 * Share the results with our [Support team](https://support.workfront.com/hc/en-us/requests/new). We will be happy to assist.
 
-If you don't know how to open the console in your browser, please see the recorded steps:
-
-* [Firefox](http://screencast.com/t/eP6FRtk4vxWS)
-* [Internet Explorer](http://screencast.com/t/bYzq1iQv)
-* [Google Chrome](http://screencast.com/t/2anpeAzOOyj)
-* [Safari](http://screencast.com/t/rnOvgl3GidjL)
-
-You can also check your browser developer's documentation for more detailed instructions.
 
 ## Check Mixed Content Settings
 
