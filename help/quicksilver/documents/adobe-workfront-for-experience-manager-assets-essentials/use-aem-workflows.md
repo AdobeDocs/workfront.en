@@ -9,8 +9,6 @@ exl-id: 4c1e5ec1-3fd1-4527-ba8a-9db1a2350f69
 ---
 # Use workflows in the Experience Manager Assets integration
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.</span>
-
 A workflow is a set of actions that connect Workfront to Adobe Experience Manager as a Cloud Service. A Workfront administrator can configure workflows in Workfront, then assign them to Project Templates. When a Project is created using a Project Template to which a workflow is assigned, the actions defined in the workflow are triggered. 
 
 >[!NOTE]
@@ -141,8 +139,6 @@ To edit the workflow for linked folders:
 
 #### Publishing assets
 
-<div class="preview">
-
 To edit the workflow for publishing assets:
 
 1. Toggle **Publish assets automatically** on or off as desired.
@@ -153,4 +149,4 @@ To edit the workflow for publishing assets:
 
    If you are in the [!DNL Adobe Experience Manager area], your changes save automatically. <!--Do they though?-->
 
-</div>
+
